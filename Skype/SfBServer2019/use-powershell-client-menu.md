@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: ''
-description: 'Summary: Skype Empresarial Server Control panel to Cmdlet mapping.'
-ms.openlocfilehash: e4d72aad28167e3be427f203b8e5b80e2305a636
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+description: 'Summary: Skype Empresarial Server Control panel to Cmdlet mapping for Client menu.'
+ms.openlocfilehash: 1dc0c3a9638af8fdec90fccb633909b9ccf40405
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579968"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824658"
 ---
 # <a name="client"></a>Client
 

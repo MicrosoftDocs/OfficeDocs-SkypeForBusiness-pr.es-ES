@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Obtenga más información sobre las Microsoft Teams de voz en la nube y las decisiones de implementación que tome para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb6796dff27cf078c2f8f1d2d2f1ffc00fddc5e0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dba035c7bcbc6f94e8c4e7573f7dc6c4bc0e06c3
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730519"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824689"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planear su Teams de voz 
 
@@ -48,7 +48,7 @@ Si responde sí a lo siguiente, Sistema telefónico con Plan de llamadas es la s
 Sin embargo, es posible que su situación sea más compleja. Por ejemplo, es posible que tenga oficinas en ubicaciones en las que el Plan de llamadas no esté disponible. También es posible que necesite una solución combinada compatible con una implementación compleja y multinacionales, con requisitos diferentes para ubicaciones geográficas diferentes. Microsoft admite una combinación de soluciones: 
 
 - Sistema telefónico con plan de llamadas
-- Sistema telefónico con su propio operador RTC con operador Conectar (disponible actualmente solo en **versión preliminar pública)**
+- Sistema telefónico con su propio operador RTC con operador Conectar
 - Sistema telefónico con su propio operador RTC con enrutamiento directo
 - Una solución combinada que usa Sistema telefónico con plan de llamadas, Sistema telefónico con Conectar operador y/o Sistema telefónico con enrutamiento directo
 
@@ -143,7 +143,7 @@ Sistema telefónico proporciona funcionalidades de PBX completas para su organiz
 
 - [**Sistema telefónico con Plan de llamadas**](pstn-connectivity.md#phone-system-with-calling-plan). Una solución todo en la nube con Microsoft como operador rtc.
 
-- [**Sistema telefónico con su propio**](operator-connect-plan.md)operador RTC mediante operador Conectar , que actualmente solo está disponible en **versión preliminar pública.**  Con Operador Conectar, si el operador existente es un participante en el programa operador de Microsoft Conectar, pueden administrar el servicio para llevar llamadas RTC a Teams. Para obtener información sobre las ventajas y requisitos de Operador Conectar y para obtener una lista de operadores que participan en este programa, vea [Plan operador Conectar](operator-connect-plan.md).
+- [**Sistema telefónico con su propio operador RTC mediante operador Conectar**](operator-connect-plan.md). Con Operador Conectar, si el operador existente es un participante en el programa operador de Microsoft Conectar, pueden administrar el servicio para llevar llamadas RTC a Teams. Para obtener información sobre las ventajas y requisitos del operador Conectar, vea [Plan Operador Conectar](operator-connect-plan.md).
 
 - [**Sistema telefónico con su propio operador RTC**](pstn-connectivity.md#phone-system-with-direct-routing) mediante enrutamiento directo para conectar su entorno local a Teams.
 

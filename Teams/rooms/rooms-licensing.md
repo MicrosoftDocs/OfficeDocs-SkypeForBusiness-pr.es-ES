@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información sobre las licencias disponibles para diferentes tipos de llamadas y características de reunión en Salas de Microsoft Teams.
-ms.openlocfilehash: e1d545b6ea48e7ec9e94a1e5f0c5ba8cd1e41198
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6abf7a28b3ceb84b0de82f75f5863c186db27170
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627162"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824669"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams Sala de reuniones de licencias
 
@@ -69,7 +69,7 @@ En la tabla siguiente se enumeran las características que están disponibles en
 |Unirse a una reunión programada  | Salas de Microsoft Teams Estándar o Premium  |Skype Empresarial Servidor Standard CAL  |
 |Iniciar una reunión ad hoc | Salas de Microsoft Teams Estándar o Premium  |Skype Empresarial Servidor Standard CAL  <br/> Skype Empresarial Servidor Enterprise CAL|
 |Iniciar una reunión ad hoc y llamar desde una reunión a números de teléfono |  Salas de Microsoft Teams Estándar o Premium |Skype Empresarial Standard CAL  <br/> Skype Empresarial Servidor Enterprise CAL|
-|Dar a la sala un número de teléfono y realizar o recibir una llamada desde la sala o unirse a una conferencia de audio con un número de teléfono  | Con enrutamiento directo: Salas de Microsoft Teams estándar o Premium<br/>Sin enrutamiento directo: Plan de llamadas nacionales o internacionales<br/>Microsoft 365 Empresa Voice  |Skype Empresarial Servidor Standard CAL  <br/> Skype Empresarial Servidor Plus CAL  |
+|Dar a la sala un número de teléfono y realizar o recibir una llamada desde la sala o unirse a una conferencia de audio con un número de teléfono  | Con enrutamiento directo: Salas de Microsoft Teams Estándar o Premium<br/>Sin enrutamiento directo: Plan de llamadas nacionales o internacionales<br/>Microsoft 365 Empresa Voice  |Skype Empresarial Servidor Standard CAL  <br/> Skype Empresarial Servidor Plus CAL  |
 |Administrar el dispositivo de la sala con Microsoft Intune |Salas de Microsoft Teams Estándar o Premium  |Microsoft Intune suscripción con [MDM local](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 |Salas de Microsoft Teams Servicios administrados | Salas de Microsoft Teams Premium ||
 | |||
@@ -79,4 +79,4 @@ En la tabla siguiente se enumeran las características que están disponibles en
 
  **Use la versión correcta** de Windows 10: para los clientes que desean implementar Windows 10 imágenes en sus dispositivos, vea Configurar [una Salas de Microsoft Teams consola.](./console.md) Puede obtener una copia del Centro de servicios de licencias [por volumen.](https://www.microsoft.com/Licensing/servicecenter/) 
  
- Vea también [Excelentes experiencias de sala de reuniones: Conozca la nueva Salas de Microsoft Teams Estándar y Premium](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).
+ Vea también [Excelentes experiencias de sala de reuniones: Conozca las nuevas Salas de Microsoft Teams Estándar y Premium](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).

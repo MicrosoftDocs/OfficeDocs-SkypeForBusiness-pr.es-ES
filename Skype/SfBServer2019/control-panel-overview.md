@@ -13,14 +13,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: En este artículo se proporciona información general sobre el nuevo Panel de control.
-ms.openlocfilehash: 8a4f8e073b424969951a69c620dd5f65a582fd75
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 77e26b810bfd61effa5d94ec3648c440476a7cbe
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579998"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824648"
 ---
-# <a name="control-panel"></a>Control Panel
+# <a name="control-panel"></a>Panel de control
 
 El Panel de control actual es una nueva versión del Panel de control heredado, con el que existe en tándem. El nuevo Panel de control se llegó a crear a partir de la actualización acumulativa de julio de 2019. Ayuda a administrar la configuración de servidores, usuarios, clientes y dispositivos en el entorno de una organización.
 
@@ -50,3 +50,11 @@ El nuevo Panel de control incluye elementos de menú usados habitualmente que cu
 |Configuración de dispositivo         |    [Configuración de dispositivos](use-powershell-client-menu.md#device-configuration)     |
 |Directiva de movilidad         |    [Directiva de movilidad](use-powershell-client-menu.md#mobility-policy)     |
 |Configuración de notificaciones de inserción         |    [Configuración de notificaciones de inserción](use-powershell-client-menu.md#push-notification-configuration)     |
+
+## <a name="security"></a>Seguridad
+
+|Submenú  |Origen de información para cmdlet  |
+|---------|---------|
+|Registrador         |    [Registrador](use-powershell-security-menu.md#registrar)     |
+|Servicio Web      |  [Servicio Web](use-powershell-security-menu.md#web-service)       |
+|Directiva de PIN    | [Directiva de PIN](use-powershell-security-menu.md#pin-policy)        |

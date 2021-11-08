@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69a197d75f3b229f32117e7923a390691e8c4fa5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f76fa8a527de5cc56d6ae1d2f6a657bf702d9b35
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727389"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824679"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprender Microsoft Teams y Skype Empresarial coexistencia e interoperabilidad
 
@@ -49,16 +49,16 @@ Si su organización usa Skype Empresarial hoy y empieza Teams usar Teams junto c
 
 En las secciones siguientes se describen los modos de coexistencia que están disponibles cuando decide actualizar a Teams y las capacidades que ofrece cada modo. Además, describimos la interoperabilidad (interoperabilidad) que se produce entre los usuarios de los clientes de Skype-for-Business y los usuarios de los clientes de Teams, y cómo la interoperabilidad se ve afectada por el modo de coexistencia elegido.
 
- Teams capacidades de colaboración, chat, llamadas y reuniones. Dependiendo de cómo elija implementar Teams, estas capacidades pueden superponerse con las capacidades entregadas por Skype Empresarial para un usuario determinado. El modo predeterminado es ejecutar Teams junto Skype Empresarial con las capacidades superpuestas. Sin embargo, a un usuario se le puede asignar uno de los varios modos de coexistencia (también conocidos como modos de actualización) diseñados para asegurarse de que estas capacidades no se superpongan para ese usuario (en cuyo caso está disponible la interoperabilidad entre Teams y Skype Empresarial). Por ejemplo, si tiene activos Skype Empresarial Server locales [significativos](meetings-first.md) con una implementación de Telefonía IP empresarial compleja, pero desea que los usuarios disfruten de reuniones modernas lo antes posible, es posible que desee evaluar Reuniones primero como una ruta alternativa.
+Teams capacidades de colaboración, chat, llamadas y reuniones. Dependiendo de cómo elija implementar Teams, estas capacidades pueden superponerse con las capacidades entregadas por Skype Empresarial para un usuario determinado. El modo predeterminado es ejecutar Teams junto Skype Empresarial con las capacidades superpuestas. Sin embargo, a un usuario se le puede asignar uno de los varios modos de coexistencia (también conocidos como modos de actualización) diseñados para asegurarse de que estas capacidades no se superpongan para ese usuario (en cuyo caso está disponible la interoperabilidad entre Teams y Skype Empresarial). Por ejemplo, si tiene activos Skype Empresarial Server locales [significativos](meetings-first.md) con una implementación de Telefonía IP empresarial compleja, pero desea que los usuarios disfruten de reuniones modernas lo antes posible, es posible que desee evaluar Reuniones primero como una ruta alternativa.
 
 Le recomendamos que revise los siguientes modos de coexistencia para ayudar a determinar qué ruta es la adecuada para su organización.
 
 > [!Important]
-> Los modos de coexistencia seguirán existiendo después de la retirada de Skype Empresarial Online el 31 de julio de 2021, pero solo serán relevantes para las organizaciones con implementaciones locales de Skype Empresarial Server. Justo antes de la retirada, los usuarios que se aloen en la implementación local se pueden asignar a cualquier modo que no sea TeamsOnly. Sin embargo, después de retirar Skype Empresarial Online, los usuarios que se aloen en la nube solo pueden ser TeamsOnly.
+> Los modos de coexistencia siguen existiendo después de la retirada de Skype Empresarial Online, pero los usuarios en línea solo pueden tener un modo de TeamsOnly. Ya no es posible asignar ningún modo que no sea TeamsOnly a un usuario en línea.  Como era el caso antes de la retirada de Skype Empresarial Online, a los usuarios a los que se les alocuba localmente se les puede asignar cualquier otro modo que *no sea TeamsOnly.*
 
 ### <a name="islands-mode"></a>Modo Islas
 
-De forma predeterminada, los usuarios pueden ejecutar Teams junto Skype Empresarial como dos soluciones independientes que ofrecen capacidades similares y superpuestas. Las capacidades incluyen presencia, chat, llamadas y reuniones. Teams usuarios también pueden aprovechar las nuevas capacidades de colaboración, como equipos y canales, acceso a archivos en Microsoft 365 o Office 365 y aplicaciones.
+De forma predeterminada, los usuarios pueden ejecutar Teams junto Skype Empresarial como dos soluciones independientes que ofrecen capacidades similares y superpuestas. Las capacidades incluyen presencia, chat, llamadas y reuniones. Teams usuarios también pueden aprovechar las nuevas capacidades de colaboración, como equipos y canales, acceso a archivos en Microsoft 365 y aplicaciones.
 
 En este modo de coexistencia, denominado **Islas,** cada una de las aplicaciones cliente funciona como una isla independiente. Skype Empresarial a Skype Empresarial y Teams a Teams. Se espera que los usuarios ejecuten ambos clientes en todo momento y que puedan comunicarse de forma nativa en el cliente desde el que se inició la comunicación. Por lo tanto, no es necesario interoperabilidad en el **modo Islas.**
 
@@ -73,9 +73,6 @@ Sistema telefónico no se admite en Teams modo **Islas.** **El** modo Islas no a
 
 > [!Important]
 > En **el modo** Islas, todos los mensajes y llamadas de usuarios federados (personas de fuera de su organización) se entregan a Skype Empresarial. Después de actualizar **al Teams solo,** todos los mensajes y llamadas de fuera de su organización se entregan a Teams.
-
-> [!Tip]
-> Skype Empresarial La ruta recomendada para los  clientes en línea es empezar con el modo islas  predeterminado, impulsar Teams la saturación de adopción en la organización y, Teams el modo solo rápidamente. Los clientes locales e híbridos, especialmente los complejos, podrían beneficiarse de implementar el **Skype Empresarial**  con el modo de colaboración Teams como punto de partida en lugar del modo Islas, y  avanzar de allí **a Skype Empresarial** con el modo de colaboración y reuniones Teams (es decir, Reuniones primero), si procede, y Teams modo solo cuando la organización está lista para adoptar Teams.
 
 ### <a name="teams-only"></a>Teams Solo
 
@@ -162,9 +159,9 @@ Skype Empresarial usuarios pueden realizar llamadas de voz y videollamadas uno a
 <!--![Screen shot of Interop calling experience from Teams.](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> Las experiencias de interoperabilidad con una implementación local de Skype Empresarial requieren que el entorno local esté en modo híbrido con Microsoft 365 o Office 365 Skype Empresarial. Para obtener más información, vea [Instrucciones de migración e interoperabilidad.](./migration-interop-guidance-for-teams-with-skype.md)
+> Las experiencias de interoperabilidad con una implementación local de Skype Empresarial requieren que el entorno local esté en modo híbrido con Teams. Para obtener más información, configure la conectividad [híbrida entre Skype Empresarial Server y Microsoft 365 o Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity).
 
-Estas experiencias de interoperabilidad están disponibles para los usuarios que tienen asignado uno de los siguientes modos de coexistencia: Skype Empresarial con colaboración de **Teams**, Skype Empresarial con colaboración y reuniones de **Teams,** solo Skype Empresarial **o** **Teams solo**. No hay interoperabilidad para los usuarios en el **modo Islas.**
+Estas experiencias de interoperabilidad están disponibles para los usuarios que tienen asignado uno de los siguientes modos de coexistencia: Skype Empresarial con colaboración de **Teams**, **Skype Empresarial** con Teams Colaboración y **reuniones,** solo Skype Empresarial o **Teams solo**. No hay interoperabilidad para los usuarios en el **modo Islas.**
 
 #### <a name="native-interop-experience-limitations"></a>Limitaciones de la experiencia de interoperabilidad nativa
 

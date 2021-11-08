@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo proteger sus Salas de Microsoft Teams dispositivos.
-ms.openlocfilehash: d3b0f244f36ed30376fbe72e9669b6f84f9f9629
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ff5d79b02669f8b3da71396c2bd1eb2348575cf3
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627292"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824588"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Salas de Microsoft Teams Seguridad
 
@@ -80,7 +80,7 @@ La cuenta de administrador no es necesaria para el correcto funcionamiento de Sa
 - [Cambiar o restablecer la contraseña Windows contraseña](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
 - [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser?view=powershell-5.1#example-2--change-the-password-on-an-account)
 
-También puede importar cuentas de dominio en el grupo Windows administrador local. Puede hacerlo para cuentas de Azure AD mediante Intune. Para obtener más información, vea [CSP de directiva: grupos restringidos.](/windows/client-management/mdm/policy-csp-restrictedgroups).
+También puede importar cuentas de dominio en el grupo Windows administrador local. Puede hacer esto para Azure AD cuentas mediante Intune. Para obtener más información, vea [CSP de directiva: grupos restringidos.](/windows/client-management/mdm/policy-csp-restrictedgroups).
 
 > [!CAUTION]
 > Si elimina o deshabilita la cuenta de administrador antes de conceder permisos de administrador local a otra cuenta local o de dominio, es posible que pierda la capacidad de administrar el Salas de Teams dispositivo. Si esto sucede, tendrás que restablecer el dispositivo de nuevo a la configuración original y completar el proceso de configuración de nuevo.
@@ -100,9 +100,9 @@ Por lo general, Salas de Teams los mismos requisitos de red que cualquier Micros
 - **Microsoft Teams** [Office 365 direcciones URL e intervalos de direcciones IP](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
 - **Windows configurar** [WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - **Microsoft Store** [requisitos previos para Microsoft Store para Empresas educación](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
-- **Microsoft Intune** [network enpoints para Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
+- **Microsoft Intune** [de red para Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
-Si usa el componente Salas de Microsoft Teams de servicios administrados de Salas de Microsoft Teams Premium, también debe asegurarse de que Salas de Teams acceso a las siguientes direcciones URL:
+Si usa el componente Salas de Microsoft Teams de servicios administrados de Salas de Microsoft Teams Premium, también debe asegurarse de que Salas de Teams puede obtener acceso a las siguientes direcciones URL:
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
@@ -118,7 +118,7 @@ Si usa el componente Salas de Microsoft Teams de servicios administrados de Sala
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-Salas de Teams está configurado para mantenerse automáticamente parcheado con las últimas Windows actualizaciones, incluidas las actualizaciones de seguridad. Salas de Teams instala todas las actualizaciones pendientes todos los días a partir de las 2:00 a.m. con una directiva local predefinida. No es necesario usar herramientas adicionales para implementar y aplicar Windows actualizaciones. Usar herramientas adicionales para implementar y aplicar actualizaciones puede retrasar la instalación de Windows revisiones y, por lo tanto, llevar a una implementación menos segura. La Salas de Teams aplicación se implementa con el Microsoft Store. Si los dispositivos tienen licencia con Salas de Microsoft Teams Estándar, las nuevas versiones de la aplicación se instalan automáticamente durante el proceso de revisión nocturna. Si los dispositivos tienen licencia Salas de Microsoft Teams Premium y están inscritos en el Servicio administrado de Microsoft, se instalarán nuevas versiones de la aplicación Salas de Teams según su plan de implementación definido.
+Salas de Teams está configurado para mantenerse automáticamente parcheado con las últimas Windows actualizaciones, incluidas las actualizaciones de seguridad. Salas de Teams instala todas las actualizaciones pendientes todos los días a partir de las 2:00 a.m. con una directiva local predefinida. No es necesario usar herramientas adicionales para implementar y aplicar Windows actualizaciones. Usar herramientas adicionales para implementar y aplicar actualizaciones puede retrasar la instalación de Windows revisiones y, por lo tanto, llevar a una implementación menos segura. La Salas de Teams aplicación se implementa con el Microsoft Store. Si los dispositivos tienen licencia Salas de Microsoft Teams Estándar, las nuevas versiones de la aplicación se instalan automáticamente durante el proceso de revisión nocturna. Si los dispositivos tienen licencia Salas de Microsoft Teams Premium y están inscritos en el Servicio administrado de Microsoft, las nuevas versiones de la aplicación Salas de Teams se instalan según el plan de implementación definido.
 
 Salas de Teams dispositivos funcionan con la mayoría de los protocolos de seguridad 802.1X u otros protocolos de seguridad basados en red. Sin embargo, no podemos probar Salas de Teams con todas las configuraciones de seguridad de red posibles. Por lo tanto, si surgen problemas de rendimiento que se pueden rastrear a problemas de rendimiento de red, es posible que tenga que deshabilitar estos protocolos si están configurados en su organización.
 

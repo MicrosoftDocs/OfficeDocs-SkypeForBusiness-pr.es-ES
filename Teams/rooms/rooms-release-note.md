@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la Salas de Microsoft Teams, que incluyen mejoras acumulativas en Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f49c2d3babfdf97bb39405d1f48a84deb724db5
-ms.sourcegitcommit: 40e00edba47ca4352851222c59443e1815612b1e
+ms.openlocfilehash: 011f85e1d6db3aa4d0b3a0986d4b03dd1aa96a37
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "60624251"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824598"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de la versión de Salas de Microsoft Teams
 
@@ -144,7 +144,7 @@ Se ha introducido en esta actualización:
 - Government Community Cloud Soporte técnico alto (GCCH) para Salas de Teams. Los clientes de GCCH con dispositivos Salas de Teams pueden descargar la versión 4.8.19.0 desde Actualizar manualmente [un Salas de Microsoft Teams dispositivo](manual-update.md)
 - Unirse a reuniones de Zoom con mejor calidad de vídeo (soporte técnico de 720p) y recibir la galería de vídeo de los participantes
 - Skype Empresarial de error de inicio de sesión eliminado para Teams modo predeterminado. Este cambio es compatible con las organizaciones que quitan Skype Empresarial infraestructura
-- Teams reuniones unirse al análisis de vínculos ahora se encarga de la protección avanzada de hilos de Microsoft Defender Caja fuerte vínculos para permitir unirse a Teams sin problemas
+- Teams reuniones se unen al análisis de vínculos ahora se encarga de la protección contra amenazas avanzada de Microsoft Defender Caja fuerte vínculos para permitir unirse a Teams sin problemas
 - Corrección del problema de escalado de contenido compartido en Skype Empresarial reuniones cuando el equipo del sharer tiene un PPP personalizado establecido en Windows
 - Correcciones de calidad y confiabilidad
 
