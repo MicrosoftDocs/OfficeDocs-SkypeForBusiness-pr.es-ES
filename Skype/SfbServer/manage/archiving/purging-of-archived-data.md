@@ -2,7 +2,7 @@
 title: Administrar la depuración de datos archivados en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 'Summary: Learn how to manage purging of archived data for Skype Empresarial Server.'
-ms.openlocfilehash: e5800711756fcccde90ba9907adbe1e9309a677b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4050bc40d72cb8a2b306ab050298bb74b7c96dbd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778360"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847443"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Administrar la depuración de datos archivados en Skype Empresarial Server
 

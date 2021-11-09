@@ -2,7 +2,7 @@
 title: Obtener predecesores del elemento
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: 'Resumen: obtenga información sobre la operación Obtener antecesores de elementos, que forma parte del servicio de elementos. El servicio de elementos forma parte de la API de repositorio para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 96fae0992ed6952d36ff966a559ef74da76e2606
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ec62275bc3c63d501370d4e27c57d69d1d9f4d5e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765348"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847253"
 ---
 # <a name="get-item-ancestors"></a>Obtener predecesores del elemento
  

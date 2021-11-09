@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398725(v=OCS.15)
 ms:contentKeyID: 48184825
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Configure una o más directivas de acceso de usuarios externos para controlar si los usuarios remotos pueden colaborar con usuarios Skype Empresarial Server usuarios internos. Para controlar el acceso de usuarios remotos, puede configurar directivas en el nivel global, de sitio y de usuario.
-ms.openlocfilehash: 4029a2fe21c4d7a013808cd77b28d670d1bf994f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a060622919fb8d948b55178a8e0b1d4da8b6e5cc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772046"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847293"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>Configurar directivas para controlar el acceso remoto de usuarios en Skype Empresarial Server
 

@@ -2,7 +2,7 @@
 title: Expansor de configuración del servidor de mediación
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para Servidor de mediación, puede especificar lo siguiente:'
-ms.openlocfilehash: 32e8b2732a0b07a1934a4ce3d3b3f16a6d12d31c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 649f4ac74280564fc53182b9bf627f566781c2eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764428"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850233"
 ---
 # <a name="mediation-service-settings-expander"></a>Expansor de configuración del servidor de mediación
 

@@ -1,6 +1,6 @@
 ---
 title: Disponibilidad en Barbados
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Barbados.
-ms.openlocfilehash: 1f81e5896cf138babe93feaa10c5288675b58af8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c2eeb85e27bdcc0f7b41e9e83754a430bca251dd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777610"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848203"
 ---
 # <a name="availability-in-barbados"></a>Disponibilidad en Barbados
 

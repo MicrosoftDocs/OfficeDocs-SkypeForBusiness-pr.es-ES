@@ -2,7 +2,7 @@
 title: Tabla Pools
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
 description: La tabla Pools es una tabla de soporte técnico que almacena información sobre los distintos grupos de servidores. Cada registro de la tabla representa un grupo.
-ms.openlocfilehash: 03a68942bf87f6946ab1335e20b6809a766d441e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 79291625a284d6f62f822a8f20d13d834c08bc8a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762058"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847033"
 ---
 # <a name="pools-table"></a>Tabla Pools
  

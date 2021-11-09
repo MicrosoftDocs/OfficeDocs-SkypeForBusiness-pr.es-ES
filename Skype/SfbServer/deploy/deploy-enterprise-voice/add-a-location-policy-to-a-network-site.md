@@ -2,7 +2,7 @@
 title: Agregar una directiva de ubicación a un sitio de red en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: Asigne directivas de ubicación de E9-1-1 a sitios de red en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 9d248d91703284d58b27e5fd593af95ddf4edaf3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ae35958d9ff95e32f129d3992d52145e3bef51b5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765958"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848053"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Agregar una directiva de ubicación a un sitio de red en Skype Empresarial Server
  

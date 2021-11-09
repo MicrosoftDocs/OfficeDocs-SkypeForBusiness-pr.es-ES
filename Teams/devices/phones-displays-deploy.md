@@ -1,7 +1,7 @@
 ---
 title: Implementar Teams teléfonos, Teams pantallas y Salas de Microsoft Teams en Android con Intune
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: En este artículo se proporciona información general sobre las características compatibles con Microsoft Teams pantallas.
-ms.openlocfilehash: 3d89dce290d241eebd3d71da560bb383a81f6a2a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 96ffaef167fd40b320ff4c1b9b7a6dca0e9c3325
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746476"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861967"
 ---
 # <a name="deploy-teams-phones-teams-displays-and-microsoft-teams-rooms-on-android-using-intune"></a>Implementar Teams teléfonos, Teams pantallas y Salas de Microsoft Teams en Android con Intune
 

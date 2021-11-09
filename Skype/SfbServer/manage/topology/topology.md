@@ -2,7 +2,7 @@
 title: Administrar la topología en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
 description: 'Resumen: obtenga información sobre los pasos para administrar la topología en Skype Empresarial Server.'
-ms.openlocfilehash: df27396c16e890fdb52fd74b8bf527450e2bd801
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7d55995727de00b2d8cfcdd4c509e0814c787dd9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742096"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862227"
 ---
 # <a name="manage-your-topology-in-skype-for-business-server"></a>Administrar la topología en Skype Empresarial Server 
  

@@ -2,7 +2,7 @@
 title: Informe de tiempo de unión a conferencia en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
 description: 'Resumen: obtenga información sobre el Informe de resumen de tiempo de unión a conferencia en Skype Empresarial Server.'
-ms.openlocfilehash: b1208802aa82bfe93951919403882477aa608889
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8ff509f1efffed45fe18e7aa2267bc9a92d4c4d8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740526"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862417"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>Informe de tiempo de unión a conferencia en Skype Empresarial Server
  

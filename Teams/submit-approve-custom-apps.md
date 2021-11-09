@@ -1,6 +1,6 @@
 ---
 title: Usar la API Teams de envío de aplicaciones para enviar y aprobar las aplicaciones personalizadas
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: joglocke, vaibhava
@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo aprobar las aplicaciones personalizadas que se envían con Teams API de envío de aplicaciones en Microsoft Teams.
-ms.openlocfilehash: ff115ab34c30bf2acfc7f24407045c1d44c4eade
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d0a49ffa07ec7b3a506d99d32c5fee1b43308af4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745516"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848163"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar una aplicación personalizada enviada a través de la API Teams de envío de aplicaciones
 

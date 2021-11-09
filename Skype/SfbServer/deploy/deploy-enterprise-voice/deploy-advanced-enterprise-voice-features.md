@@ -2,7 +2,7 @@
 title: Implementar características Telefonía IP empresarial avanzadas en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: Implemente características Telefonía IP empresarial avanzadas en Skype Empresarial Server.
-ms.openlocfilehash: 00bd7a4c6f119f80ac4fb76938e8c9533c595a21
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 09ad5d58208aa12161a3851acafe1c18f142cb24
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751339"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861937"
 ---
 # <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Implementar características Telefonía IP empresarial avanzadas en Skype Empresarial Server
  

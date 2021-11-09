@@ -1,6 +1,6 @@
 ---
 title: Administrar Skype Empresarial configuración en el centro Microsoft Teams administración
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jastark
@@ -22,12 +22,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar la configuración de Skype Empresarial características en el centro Microsoft Teams administración.
-ms.openlocfilehash: 90748d968b2540ea6ee7e5c542623ceb0bc0fbb1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0b16cea1cf29c0ff2c6362bc91e13f2241574d83
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767138"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848173"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Administrar Skype Empresarial configuración en el centro Microsoft Teams administración
 

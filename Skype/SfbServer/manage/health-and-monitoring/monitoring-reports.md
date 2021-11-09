@@ -2,7 +2,7 @@
 title: Uso de informes de supervisión en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 'Resumen: obtenga información sobre los informes de supervisión en Skype Empresarial Server.'
-ms.openlocfilehash: aee3f8b3b53bf0d1273775ddd05f83ec74861904
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0088bb5a83de7f1f22e14461bb841a6011810444
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774930"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862287"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Uso de informes de supervisión en Skype Empresarial Server 
  

@@ -2,7 +2,7 @@
 title: Informe Teléfono inventario de IP en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: 'Summary: Learn about the IP Teléfono Inventory Report in Skype Empresarial Server.'
-ms.openlocfilehash: 7c3854148c9eb04268c5a3491a6efb00168e5544
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9a09bc76d77c2290ab8e0f0c08fce79c2766e3a0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740556"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862467"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Informe Teléfono inventario de IP en Skype Empresarial Server
  

@@ -2,7 +2,7 @@
 title: Número de acceso telefónico local
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 1b2c8676-b132-4ba0-a242-a1edf30a3d44
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 2be66ff099b3ebabe4184a07694357545da0fedd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2132250f7d04e5cde6d8791db83bafe10bcc9a9e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739926"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846903"
 ---
 # <a name="dial-in-access-number"></a>Número de acceso telefónico local
 

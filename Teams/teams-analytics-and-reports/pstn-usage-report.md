@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams Informe de uso de RTC
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el Teams de uso de RTC en el 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 380583f0615c3c169df99adeb46bec84b1cfe9e7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c6dccd9012b9756679bc09534d68f24a58052665
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758222"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861947"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams Informe de uso de RTC
 

@@ -2,7 +2,7 @@
 title: Informe de comparación de calidad de medios en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 description: 'Summary: Learn about the Media Quality Comparison Report in Skype Empresarial Server.'
-ms.openlocfilehash: 7814075c59428da25bcdaf4f0f18b0240d63360a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8c492e75e124b7529e229ddc353bf89b3830fb93
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773610"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847273"
 ---
 # <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Informe de comparación de calidad de medios en Skype Empresarial Server
  

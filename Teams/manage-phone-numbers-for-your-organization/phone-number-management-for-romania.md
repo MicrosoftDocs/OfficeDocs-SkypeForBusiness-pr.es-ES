@@ -1,6 +1,6 @@
 ---
 title: Teléfono de números de Rumania
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para encontrar información sobre cómo obtener y administrar números de teléfono en Rumania para Microsoft Teams.
-ms.openlocfilehash: 176ece5e20ae3e83bcb03b24858d3e9f7b1244ff
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 13322fc4283031dbed0783ac24bc8852ecd54a58
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759302"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848193"
 ---
 # <a name="phone-number-management-for-romania"></a>Teléfono de números de Rumania
 

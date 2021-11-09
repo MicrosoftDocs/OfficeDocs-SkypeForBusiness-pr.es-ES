@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45856ed0e452c6ed1c04e0d724551a17316112a95b1f3cefcda5b481b8868e6b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f9b4175769ea9d6cc57167c086b28ee5ef4e742d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339398"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850533"
 ---
 # <a name="teams-in-30"></a>Teams en 30
 <div id="main" class="v2">
@@ -54,7 +54,7 @@ ms.locfileid: "54339398"
         </a>
     </li>
    <li>
-        <a href="https://aka.ms/ReadyendusersT30"target="_blank"">
+        <a href="https://aka.ms/ReadyendusersT30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -73,7 +73,7 @@ ms.locfileid: "54339398"
         </a>
     </li>
         <li> 
-        <a href="https://aka.ms/Preparepart1T30"target="_blank"">
+        <a href="https://aka.ms/Preparepart1T30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -91,7 +91,7 @@ ms.locfileid: "54339398"
         </div>
         </a>
     </li> <li>
-        <a href="https://aka.ms/Preparepart2T30"target="_blank"">
+        <a href="https://aka.ms/Preparepart2T30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -110,7 +110,7 @@ ms.locfileid: "54339398"
         </a>
     </li> 
  <li>
-        <a href="https://aka.ms/OptimizeexpandT30"target="_blank"">
+        <a href="https://aka.ms/OptimizeexpandT30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -130,7 +130,7 @@ ms.locfileid: "54339398"
         </a>
     </li>
    <li>
-        <a href="https://aka.ms/TeamsChalkTalks"target="_blank"">
+        <a href="https://aka.ms/TeamsChalkTalks"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

@@ -1,6 +1,6 @@
 ---
 title: Administrar paquetes de directivas en Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: sekrantz, aaglick
@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas en Microsoft Teams simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: 37e4c54dca61adacf7d573f9effd11563818bc29
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 771b4f2e0e62f9721bcd135e1d01dc4be3ce7285
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60783261"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60868482"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
 

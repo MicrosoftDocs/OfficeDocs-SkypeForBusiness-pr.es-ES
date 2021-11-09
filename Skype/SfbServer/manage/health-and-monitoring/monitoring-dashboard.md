@@ -2,7 +2,7 @@
 title: Uso del Panel de supervisión en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Resumen: obtenga información sobre el Panel de supervisión en Skype Empresarial Server.'
-ms.openlocfilehash: b03c85355d2217763066ddce68e55eab65343249
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ac68ae2174fcd7c4266da77c2d079c2f9a31d8e5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772036"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862307"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Uso del Panel de supervisión en Skype Empresarial Server
  

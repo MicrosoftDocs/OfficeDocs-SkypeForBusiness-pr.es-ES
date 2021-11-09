@@ -2,7 +2,7 @@
 title: Administrar directivas de PIN para conferencias de acceso telefónico local en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Summary: Learn how to manage PIN policies for dial-in conferencing in Skype Empresarial Server.'
-ms.openlocfilehash: d82be95a3e6ff6fcfc65c5fd7449f9035ee64635
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bf78a565cefb38a9a6e747c2b22b74a640a9e706
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763818"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862477"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Administrar directivas de PIN para conferencias de acceso telefónico local en Skype Empresarial Server
  

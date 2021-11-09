@@ -2,7 +2,7 @@
 title: Skype Empresarial Server de administración de 2019
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Resumen: obtenga información sobre las herramientas de administración de servicios en Skype Empresarial Server 2019.'
-ms.openlocfilehash: 3bc3a4cac04ee0e9d6f52ca6375ae11d111a621e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 72b5f9a704aa57a9550bf3f0da3145a8a0c3b931
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739026"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848063"
 ---
 # <a name="skype-for-business-server-2019-management-tools"></a>Skype Empresarial Server de administración de 2019
  
