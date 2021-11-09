@@ -2,7 +2,7 @@
 title: tblPreference
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f94eb128-f782-42ff-a568-ed3529573bc8
 description: tblPreference contiene las preferencias de cliente de los usuarios. Esto suele ser usado por clientes anteriores a Lync 2013.
-ms.openlocfilehash: 24de89ff74da66023aeac696c7f3ae91fb9b98b1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8c719ba33196e32d48f045c07ea89ded317ab5ab
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768458"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846193"
 ---
 # <a name="tblpreference"></a>tblPreference
 

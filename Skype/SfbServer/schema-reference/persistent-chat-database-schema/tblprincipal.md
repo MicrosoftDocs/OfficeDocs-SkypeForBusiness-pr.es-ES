@@ -2,7 +2,7 @@
 title: tblPrincipal
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: La tabla tblPrincipal contiene todas las entidades de seguridad, incluidos usuarios, carpetas y grupos.
-ms.openlocfilehash: 6cd47f3f58d7c68f26b5b8d35eb71db64d4d5131
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 91ac55a7d77c4225788a0fd1cb35b3fbbcf5e046
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776140"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846143"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  

@@ -2,7 +2,7 @@
 title: Configurar la experiencia del cliente con Skype Empresarial 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Summary: Read this topic to learn how to configure the client experience for Skype Empresarial users.'
-ms.openlocfilehash: f7cbbe60de10d50d231faa201f3c8830c14f7450
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d1baa06558f7f3dcc4829d1e03c387e9ab54fa32
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773390"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845983"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurar la experiencia del cliente con Skype Empresarial 2015
  

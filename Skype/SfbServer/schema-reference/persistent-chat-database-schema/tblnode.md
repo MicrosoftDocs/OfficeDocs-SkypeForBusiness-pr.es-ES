@@ -2,7 +2,7 @@
 title: tblNode
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode contiene el árbol de objetos (con nodos de categoría o salón de chat) administrado en el panel de control y cmdlets administrativos.
-ms.openlocfilehash: 0935e5cdec8db7f7ce33b07dcf287c1a8bd5d749
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1e6d3a97f04d614a0993ca06d8a5b2a2f928b39d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776150"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846253"
 ---
 # <a name="tblnode"></a>tblNode
  
