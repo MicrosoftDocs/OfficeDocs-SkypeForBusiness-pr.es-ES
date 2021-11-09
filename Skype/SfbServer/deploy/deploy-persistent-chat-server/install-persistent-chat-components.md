@@ -2,7 +2,7 @@
 title: Instalar componentes de chat persistente en Skype Empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
 description: 'Summary: Read this topic to learn how to use the Skype Empresarial Server Deployment Wizard to install Skype Empresarial Server 2015 components and services.'
-ms.openlocfilehash: 333519783e7bd1844c7ad5f84c247e7644132056
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e0e0e8ca13448c7af19b9d589f8b0abd5b1e641b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738876"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845873"
 ---
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>Instalar componentes de chat persistente en Skype Empresarial Server 2015
  

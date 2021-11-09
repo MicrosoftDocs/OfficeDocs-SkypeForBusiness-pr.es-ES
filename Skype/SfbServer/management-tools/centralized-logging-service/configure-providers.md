@@ -2,7 +2,7 @@
 title: Configurar proveedores para el servicio de registro centralizado en Skype Empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Summary: Learn how to configure scenario providers for the Centralized Logging Service in Skype Empresarial Server 2015.'
-ms.openlocfilehash: a0c15061f209da9389018412322ea705f93b614f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 526c42e1a6fd741b228cd99450b9d11bc3152670
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751669"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855457"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar proveedores para el servicio de registro centralizado en Skype Empresarial Server 2015
  

@@ -2,7 +2,7 @@
 title: Requisitos del servidor para Skype Empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumen: prepare los servidores Skype Empresarial Server 2015 con este tema. Hardware, sistema operativo, bases de datos, software, todos los requisitos y recomendaciones del sistema están aquí para ayudar a garantizar una instalación e implementación correctas de la granja de servidores.'
-ms.openlocfilehash: ece492adcf126870990ed810455d144c9b90aa5b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f12dcd955f044e626deda5e8e21fec00e53b876c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743356"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860957"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Requisitos del servidor para Skype Empresarial Server 2015
  

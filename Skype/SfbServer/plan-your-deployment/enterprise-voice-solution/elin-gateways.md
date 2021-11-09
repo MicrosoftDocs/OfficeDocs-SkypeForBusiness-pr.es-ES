@@ -2,7 +2,7 @@
 title: Administrar ubicaciones para puertas de enlace ELIN en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Decisiones necesarias para planear una base de datos de información de ubicación, o una base de datos externa similar, para una implementación de E9-1-1 mediante puertas de enlace ELIN, en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: f8440e4e125773e91850b890bb2a02c7d1312fde
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d958b9d533245e7071cb8c1f030e91a13a44925f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756527"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845173"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Administrar ubicaciones para puertas de enlace ELIN en Skype Empresarial Server
 
@@ -52,7 +52,7 @@ El campo Ubicación del **servicio** de información de ubicación, que contiene
 
 - Un nombre fácil de comprender que identifique la ubicación del autor de la llamada al 911 para que a los encargados de emergencias les resulte más fácil encontrar rápidamente la ubicación específica cuando lleguen a la dirección postal. Este nombre de ubicación puede incluir un número de edificio, la planta, la escalera, la puerta, etc. Evite los apodos que solo conozcan los empleados, ya que los encargados de emergencias podrían equivocarse de ubicación.
 
-- Un identificador de ubicación que ayuda a los usuarios a ver fácilmente que su cliente ha elegido la ubicación correcta. El Skype Empresarial se concatena automáticamente y muestra los campos **Location** y **City** detectados en su encabezado. Una buena práctica es agregar la dirección de calle del edificio a cada identificador de ubicación (por ejemplo, "1st <street number> Floor"). Si no se indica la calle, un identificador de ubicación genérico como "1ª planta" se podría aplicar a cualquier edificio de la ciudad.
+- Un identificador de ubicación que ayuda a los usuarios a ver fácilmente que su cliente ha elegido la ubicación correcta. El Skype Empresarial se concatena automáticamente y muestra los campos **Location** y **City** detectados en su encabezado. Una buena práctica es agregar la dirección de calle del edificio a cada identificador de ubicación (por ejemplo, "1st \<street number> Floor"). Si no se indica la calle, un identificador de ubicación genérico como "1ª planta" se podría aplicar a cualquier edificio de la ciudad.
 
 - Si la ubicación es aproximada porque está determinada por un punto de acceso inalámbrico, es posible que desee agregar la palabra **[Cerca]** (por ejemplo, "Near 1st Floor 1234").
 

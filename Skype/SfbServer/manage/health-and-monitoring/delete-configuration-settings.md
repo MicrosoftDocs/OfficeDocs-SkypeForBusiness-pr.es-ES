@@ -2,7 +2,7 @@
 title: Eliminar una colección existente de opciones de configuración de CDR en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: 'Summary: Learn how to remove CDR configuration settings in Skype Empresarial Server.'
-ms.openlocfilehash: b72891493a88a733dfd18761023ba875a3b6bc07
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8218d0b51045d3962825555bd5b248cb58262a37
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763689"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854324"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Eliminar una colección existente de opciones de configuración de CDR en Skype Empresarial Server
  

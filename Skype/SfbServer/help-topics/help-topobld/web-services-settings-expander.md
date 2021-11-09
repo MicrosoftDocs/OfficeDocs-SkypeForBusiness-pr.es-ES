@@ -2,7 +2,7 @@
 title: Expansor de configuración de servicios web
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: Desde el Generador de topologías, puede modificar la configuración de puerto usada para los servicios web internos y externos. Además, y si va a implementar el equilibrio de carga del Sistema de nombres de dominio (DNS), puede usar el Generador de topologías para configurar el nombre de dominio completo (FQDN) del grupo de servidores que se resuelve en las direcciones IP físicas de todos los servidores de ese grupo.
-ms.openlocfilehash: 0d1f97f7ff44e78c5a117ddd65664a479d63a20f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 66dc22bed1d8e5e24f5403fec9cfa8c2924c810d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765598"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854404"
 ---
 # <a name="web-services-settings-expander"></a>Expansor de configuración de servicios web
  

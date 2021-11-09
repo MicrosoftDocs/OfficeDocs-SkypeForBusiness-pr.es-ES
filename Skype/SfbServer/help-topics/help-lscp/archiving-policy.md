@@ -2,7 +2,7 @@
 title: Directiva de archivado
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: 'Las directivas de archivado se usan para habilitar y deshabilitar el archivado para los usuarios que se hospedaron en Skype Empresarial Server. En cada directiva de archivado, puede habilitar o deshabilitar el archivado para una de las siguientes opciones o ambas:'
-ms.openlocfilehash: 37452d6bc5274aad19508522bef60ec23e363fe4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 85842f6722300dfe4b169a443eef512720a997cb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757542"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860537"
 ---
 # <a name="archiving-policy"></a>Directiva de archivado
  

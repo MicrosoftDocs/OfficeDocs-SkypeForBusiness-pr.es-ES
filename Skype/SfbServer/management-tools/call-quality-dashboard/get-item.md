@@ -2,7 +2,7 @@
 title: Obtener elemento
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 'Resumen: obtenga información sobre la operación Obtener elemento, que forma parte del servicio de elementos. El servicio de elementos forma parte de la API de repositorio para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 3ee8d4f4e64276f7b824bfbdaa06247b27c78988
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1818bb0538fdc02d77c731cad7404643dc84fe28
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762318"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861237"
 ---
 # <a name="get-item"></a>Obtener elemento
  

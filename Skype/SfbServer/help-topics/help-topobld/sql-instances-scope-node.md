@@ -2,7 +2,7 @@
 title: Nodo de ámbito de instancias SQL
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 description: 'El SQL almacena enumera las bases SQL Server de datos de la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 6651527cd5bfdbca73aec1539d25a0e2194aa01d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7bda856e8e4bde303daa5ddee3dca57eb5bfab9a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765638"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861407"
 ---
 # <a name="sql-instances-scope-node"></a>Nodo de ámbito de instancias SQL
  

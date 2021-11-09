@@ -2,7 +2,7 @@
 title: Expansor de configuración general del chat persistente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 'Para editar la configuración general del servidor de chat persistente o el grupo de servidores de chat persistente, configure o defina estas propiedades:'
-ms.openlocfilehash: 4de31f3fd6af4dfea023d490ea849f5b58963085
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8047b6a3d8e4f81056af20feb2d5a36416bac2b8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762548"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854424"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Expansor de configuración general del chat persistente
  

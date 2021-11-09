@@ -2,7 +2,7 @@
 title: Configuración de seguridad de registrador
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: d3c0682be8004f35a9a257f0ae75bf7dd6583735
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7ddb17b7f05baf0705512c1f7416f1df83c72dc0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771318"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854954"
 ---
 # <a name="registrar-security-settings"></a>Configuración de seguridad de registrador
 

@@ -2,7 +2,7 @@
 title: Configuración de red para las características Telefonía IP empresarial avanzadas en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Obtenga información sobre las regiones de red, los sitios de red y las subredes IP. Todos estos deben configurarse para implementar Plan for media bypass in Skype Empresarial, Plan for call admission control in Skype Empresarial Server) o Plan for emergency services in Skype Empresarial Server in Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: fd81c9084ca94e7b0884d1c496c153fd964bcf89
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 50e076cd4be0e0c98b6319a7d0b4ce1a848689cd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762118"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861097"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configuración de red para las características Telefonía IP empresarial avanzadas en Skype Empresarial Server
 

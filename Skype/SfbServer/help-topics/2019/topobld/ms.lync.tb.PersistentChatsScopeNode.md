@@ -2,7 +2,7 @@
 title: Crear nodo de ámbito de servidores de chat persistente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Haga clic con el botón secundario en Grupo de chat persistente en el Generador de topologías para realizar lo siguiente:'
-ms.openlocfilehash: 348738f2bd24de535cb708546a3ca90714932f09
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 041de9c8780f0654c65e90161604cb77e30438ff
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744976"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855837"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Crear nodo de ámbito de servidores de chat persistente
 

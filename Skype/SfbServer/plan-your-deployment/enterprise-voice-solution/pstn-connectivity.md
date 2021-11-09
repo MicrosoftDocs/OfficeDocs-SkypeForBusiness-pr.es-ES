@@ -2,7 +2,7 @@
 title: Componentes de conectividad RTC en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: Obtenga información sobre el enlace troncal SIP y las puertas de enlace RTC Telefonía IP empresarial en Skype Empresarial Server.
-ms.openlocfilehash: d0650f4948837fdb169c1c4a3672e25dccb8012f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5b5bfd467c0269c6eea77db8f787ad5f4b769278
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746736"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861037"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Componentes de conectividad RTC en Skype Empresarial Server
  

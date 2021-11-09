@@ -2,7 +2,7 @@
 title: 'Panel de control: búsqueda de usuario actualizada'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede usar los resultados de una consulta de búsqueda para configurar usuarios para Skype Empresarial Server. Puede buscar usuarios según el nombre para mostrar, el nombre, los apellidos, el número de cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea. También puede buscar usuarios mediante el Panel de control de Lync Server o el complemento Usuarios y equipos de Active Directory.
-ms.openlocfilehash: efcb183eb9f763113d5db4c49c86b1d3594173c0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3c5bdc9de490adbc022f00342d291d012da78d4b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758852"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854934"
 ---
 # <a name="control-panel---updated-user-search"></a>Panel de control actualizado: Búsqueda de usuarios
 

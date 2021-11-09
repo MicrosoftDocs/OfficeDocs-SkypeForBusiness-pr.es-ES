@@ -2,7 +2,7 @@
 title: Delegar el control administrativo de Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: 1ee1cdce6bae163ea51ebb73ac9b536e75b204a8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 54348e05a53f5c8fcc7241dbc7ed86b1be4e27a3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743426"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861287"
 ---
 # <a name="delegate-administrative-control-of-skype-for-business-server"></a>Delegar el control administrativo de Skype Empresarial Server 
 

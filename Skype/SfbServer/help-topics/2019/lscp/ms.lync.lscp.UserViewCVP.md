@@ -2,7 +2,7 @@
 title: Usuarios Ver o configurar directiva de versión de cliente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 0129f53e6a864cf26efe740514a1cd4057a391bb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5cb01a4eb680222260e7d039ef7d081e5b284d82
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748706"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860737"
 ---
 # <a name="users-view-or-configure-client-version-policy"></a>Usuarios: Ver o configurar directiva de versiones de clientes
 

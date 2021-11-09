@@ -1,6 +1,6 @@
 ---
 title: Descripción de los equipos y canales en Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/29/2018
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7af581966c2822e88ce439d5c590331f220cef7a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 17ae2ae79b35ed0b75347bd7a061ebb6789b4284
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766078"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855184"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Descripción de los equipos y canales en Microsoft Teams
 

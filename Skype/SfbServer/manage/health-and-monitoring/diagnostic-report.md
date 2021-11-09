@@ -2,7 +2,7 @@
 title: Informe de diagnóstico en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Summary: Learn about the Diagnostic Report in Skype Empresarial Server.'
-ms.openlocfilehash: 84274659a45d33a144324334cec8b9f1b25c471b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6b04dfd74e13568e6d22448ad9160a874dd6f79b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740636"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855537"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico en Skype Empresarial Server
  
@@ -37,7 +37,7 @@ Para obtener acceso al informe de diagnóstico, haga clic en la métrica Informe
   
 ## <a name="filters"></a>Filtros
 
-Ninguno. No se puede filtrar el informe de diagnóstico.
+Ninguna. No se puede filtrar el informe de diagnóstico.
   
 ## <a name="metrics"></a>Métricas
 

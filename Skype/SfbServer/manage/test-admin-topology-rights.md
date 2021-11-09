@@ -2,7 +2,7 @@
 title: Probar los derechos de topología de administración en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cómo probar los derechos de topología en Skype Empresarial Server
-ms.openlocfilehash: 2da77957baaa510ef7669fb6a980de2aacf428a4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6f4eed0271d9dd6d099d19287f7caa37148f6026
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759722"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861317"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Probar los derechos de topología de administración en Skype Empresarial Server
 

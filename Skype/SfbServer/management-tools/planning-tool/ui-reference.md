@@ -2,7 +2,7 @@
 title: Referencia de la interfaz de usuario de la herramienta de planeación
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 06ac9abc943f9f9914978c5fb59e00bbca416ba4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 516ecfc5433455af8813ecc1c66917e77f4c6677
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750099"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845273"
 ---
 # <a name="planning-tool-ui-reference"></a>Referencia de la interfaz de usuario de la herramienta de planeación
  

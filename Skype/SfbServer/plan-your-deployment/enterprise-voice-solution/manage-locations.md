@@ -2,7 +2,7 @@
 title: Administrar ubicaciones para proveedores de servicios troncales SIP en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Decisiones necesarias para planear una base de datos de información de ubicación, o una base de datos externa similar, para una implementación de E9-1-1 mediante proveedores de enlace troncal SIP, en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 4bc74933623f1a435288246ac695c9545c8606d1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4667ea571fe3bbb022c8dd1ee1483e6195165ec9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751549"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855297"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Administrar ubicaciones para proveedores de servicios troncales SIP en Skype Empresarial Server
 
@@ -33,7 +33,7 @@ Rellene la base de datos del servicio de información de ubicaciones con una ubi
 
 - Un nombre fácil de entender que identifique la ubicación del autor de la llamada al 911 para garantizar que los servicios de emergencias encuentren la ubicación específica rápidamente una vez que estos lleguen a la dirección postal. Este nombre de ubicación puede incluir un número de edificio, un número de piso, un indicador de ala, un número de habitación, entre otros elementos. Evite nombres conocidos solo por los empleados, ya que podrían causar que los servicios de emergencia se dirijan a una ubicación equivocada.
 
-- Identificador de ubicación que ayuda a los usuarios a ver fácilmente que Skype Empresarial cliente ha elegido la ubicación correcta. El Skype Empresarial se concatena automáticamente y muestra los campos **Location** y **City** detectados en su encabezado. Una buena práctica es agregar la dirección de calle del edificio a cada identificador de ubicación (por ejemplo, "1st <street number> Floor"). Si no se indica la calle, un identificador de ubicación genérico como "1ª planta" se podría aplicar a cualquier edificio de la ciudad.
+- Identificador de ubicación que ayuda a los usuarios a ver fácilmente que Skype Empresarial cliente ha elegido la ubicación correcta. El Skype Empresarial se concatena automáticamente y muestra los campos **Location** y **City** detectados en su encabezado. Una buena práctica es agregar la dirección de calle del edificio a cada identificador de ubicación (por ejemplo, "1st \<street number> Floor"). Si no se indica la calle, un identificador de ubicación genérico como "1ª planta" se podría aplicar a cualquier edificio de la ciudad.
 
 - Si la ubicación es aproximada porque está determinada por un punto de acceso inalámbrico, puedes agregar la palabra **[Cerca]** (por ejemplo, "Near 1st Floor 1234").
 

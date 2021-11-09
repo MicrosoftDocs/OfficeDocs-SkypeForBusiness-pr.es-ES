@@ -2,7 +2,7 @@
 title: Componentes necesarios para Telefonía IP empresarial en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
 description: Un resumen de los componentes Telefonía IP empresarial en Skype Empresarial Server.
-ms.openlocfilehash: 80fce2f32521f2d4d5e493efafebbc344cba0e26
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0dcc7578ee427fe6bf37f2bbde48c09ff32d62e7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768528"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855427"
 ---
 # <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>Componentes necesarios para Telefonía IP empresarial en Skype Empresarial Server
  

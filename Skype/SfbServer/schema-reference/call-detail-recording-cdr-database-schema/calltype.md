@@ -2,7 +2,7 @@
 title: Tabla CallType en Skype Empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a1d7187c-f851-4967-88ea-73922911ee7a
 description: La tabla CallType es una tabla estática donde se almacena la lista de posibles tipos de llamada.
-ms.openlocfilehash: 05bfcf5b13735a460f8122fc6b1ce5eeddf94b97
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7f00e924041c5b26f7045cf8f97ae82daa141611
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743196"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845093"
 ---
 # <a name="calltype-table-in-skype-for-business-server-2015"></a>Tabla CallType en Skype Empresarial Server 2015
  

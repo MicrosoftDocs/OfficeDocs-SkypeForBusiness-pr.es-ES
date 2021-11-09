@@ -2,7 +2,7 @@
 title: Planear la implementación Skype Empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/21/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: 'Resumen: explore estos vínculos para obtener información sobre cómo desarrollar diseños conceptuales, lógicos y físicos para configurar Skype Empresarial Server características, servidores y topologías de 2015.'
-ms.openlocfilehash: 8896d962920cdf580685332d324e2d20eb5c9c94
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5ac742f416f22b4a9875c2b78315225545d9c13d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754447"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860967"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>Planear la implementación Skype Empresarial Server 2015
  

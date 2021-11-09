@@ -2,7 +2,7 @@
 title: Herramienta de planeación de conferencia web
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: Las conferencias web enSkype para Business Server 2015 incluyen colaboración de documentos, uso compartido de aplicaciones y uso compartido de escritorio.
-ms.openlocfilehash: 607bac428224c93a23fcfbe94ddfd022b134166f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 11dbb6c525da9af013b004da6827933e94c83036
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743376"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845223"
 ---
 # <a name="web-conferencing-planning-tool"></a>Herramienta de planeación de conferencia web
  

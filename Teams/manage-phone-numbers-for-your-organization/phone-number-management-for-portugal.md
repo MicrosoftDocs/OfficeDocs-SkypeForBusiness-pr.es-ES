@@ -1,6 +1,6 @@
 ---
 title: Teléfono de números para Portugal
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Portugal para Microsoft Teams.
-ms.openlocfilehash: 9a5fb9a5c74085eedf29b7e7ac996c8449ddeff1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8e02168fafc4f871042f44513cf5d872f516017e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774460"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844963"
 ---
 # <a name="phone-number-management-for-portugal"></a>Teléfono de números para Portugal
 

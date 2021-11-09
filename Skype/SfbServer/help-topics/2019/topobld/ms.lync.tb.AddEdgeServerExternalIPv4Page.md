@@ -2,7 +2,7 @@
 title: Agregar IPv4 externa de servidor perimetral
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d4f22de3-d825-495e-9e85-99a75b8a20e3
 ROBOTS: NOINDEX, NOFOLLOW
 description: En IPv4 externo, escriba la dirección IP externa que apunta al servicio perimetral de acceso, al servicio perimetral de conferencia web y al servicio perimetral A/V.
-ms.openlocfilehash: 9cdb7493a9146c8905f8638a14ae83965c9944e9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 17d939d91e7725141e97323096f0e5125650d668
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748576"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854834"
 ---
 # <a name="add-edge-server-external-ipv4"></a>Agregar IPv4 externa de servidor perimetral
  

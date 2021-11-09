@@ -2,7 +2,7 @@
 title: Tronco MN en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: Skype Empresarial Server Telefonía IP empresarial admite el enlace troncal M:N entre el servidor de mediación y componentes como puertas de enlace RTC, controladores de borde de sesión e IP-PBX.
-ms.openlocfilehash: 28f5d7e9aae5406f54104e3411ecec6ba65ab7f4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a9d73b02a5d9135b5f3305f6f5e0b484df81ee23
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770128"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855307"
 ---
 # <a name="mn-trunk-in-skype-for-business-server"></a>Tronco M:N en Skype Empresarial Server
  

@@ -2,7 +2,7 @@
 title: Location-Based enrutamiento de conferencias en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planeación del enrutamiento basado en ubicación para conferencias en Skype Empresarial Server Telefonía IP empresarial, incluidas las transferencias de llamadas consultiva.
-ms.openlocfilehash: 118ccd13fb85f9566c7b62736514936d4f41f9bd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d9fee0304310f551d750be85a9b6e2b0d9a47ad3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768518"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855407"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based enrutamiento de conferencias en Skype Empresarial Server
 
@@ -67,7 +67,7 @@ Las siguientes son características adicionales de la aplicación Location-Based
 > [!NOTE]
 > Con Skype Empresarial acumulativa 4, se debe observar el comportamiento de la tabla siguiente:
 
-|Usuario|Otra parte|Action|Resultado|
+|Usuario|Otra parte|Acción|Resultado|
 |:-----|:-----|:-----|:-----|
 |Skype Empresarial Móvil  <br/> |RTC  <br/> |Skype Empresarial Mobile está en una llamada RTC. Skype Empresarial Mobile, a continuación, escala la llamada a una conferencia Operador automático (CAA).  <br/> |La llamada está bloqueada, con un mensaje de error adecuado.  <br/> |
 |Skype Empresarial Móvil  <br/> |Skype Empresarial Cliente o usuario federado  <br/> |El cliente o el usuario federado se encuentra en una llamada VoIP a un usuario de Skype Empresarial Mobile Location-Based Routing y cualquiera de las partes escala a una CAA.  <br/> |La llamada de escalación está bloqueada, con un mensaje de error adecuado.  <br/> |

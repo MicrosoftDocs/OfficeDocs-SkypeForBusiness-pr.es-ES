@@ -2,7 +2,7 @@
 title: Expansor de nodo de ámbito del servidor Office Web Apps
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 description: 'Haga clic con el botón secundario en Office servidores de aplicaciones web en el Generador de topologías para realizar lo siguiente:'
-ms.openlocfilehash: 873bb25ef84ed6508f7fb5eae4bf8f4993f05234
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 68cc30e456f314984b802b0b7c04037f4317c466
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743636"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854464"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expansor de nodo de ámbito del servidor Office Web Apps
  

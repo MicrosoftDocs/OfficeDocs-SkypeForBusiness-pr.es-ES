@@ -2,7 +2,7 @@
 title: Expansor de configuración general front-end
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Para editar la configuración de un grupo de servidores front-end o un servidor Standard Edition, cuenta con las secciones siguientes:'
-ms.openlocfilehash: 8f65abf2410b6b6f8d4ac7f68787346d0c315ac4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 60e6099cb28ec564abde9506afb1a0ef70274684
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773860"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861457"
 ---
 # <a name="front-end-general-settings-expander"></a>Expansor de configuración general front-end
 

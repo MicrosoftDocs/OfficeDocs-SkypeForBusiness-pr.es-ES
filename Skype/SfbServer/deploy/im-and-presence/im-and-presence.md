@@ -2,7 +2,7 @@
 title: Implementar la mensajería instantánea y la presencia en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ad792bb2-aee0-4986-a070-116ff3c10fe7
 description: 'Resumen: obtenga información sobre los pasos de implementación para la mensajería instantánea y la presencia en Skype Empresarial Server.'
-ms.openlocfilehash: 0671d7493489a3987d0893bd38b1998c558989e1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0fb26ccc202a914a491691e5359a657689ccaad0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758952"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861767"
 ---
 # <a name="deploy-instant-messaging-and-presence-in-skype-for-business-server"></a>Implementar la mensajería instantánea y la presencia en Skype Empresarial Server
  

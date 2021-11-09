@@ -2,7 +2,7 @@
 title: Estacionamiento de llamadas
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cuando se estaciona una llamada, se transfiere a un número temporal en el que se mantiene la llamada hasta que alguien la recupera o se abate el tiempo de espera. Debe configurar una tabla con los intervalos de números de extensión que va a reservar para las llamadas estacionadas. Las extensiones deben ser virtuales (es decir, extensiones que no tengan ningún usuario ni teléfono asignado). Cada grupo que ejecuta la aplicación estacionamiento de llamadas puede tener uno o más intervalos de extensiones. Estos intervalos deben ser únicos en el nivel global en toda la implementación.
-ms.openlocfilehash: b7abb0cf68a49c686c787531715f5dc7924ca056
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f37913066bb2bf0a0eb6eec767501a3b16534ec6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771228"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845703"
 ---
 # <a name="call-park"></a>Estacionamiento de llamadas
 

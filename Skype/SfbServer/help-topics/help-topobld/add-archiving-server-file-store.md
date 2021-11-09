@@ -2,7 +2,7 @@
 title: Agregar almacén de archivos de servidor de archivado
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e95f938e-4dd2-48b8-95a3-05b4c63d4810
 description: Para habilitar el archivado del contenido de mensajería instantánea y conferencia web, debe especificar un recurso compartido de archivos que se use como almacén de archivos para las copias de todo el contenido de conferencia web. Para ello, use un recurso compartido de archivos existente o especifique uno nuevo indicando el nombre de dominio completo del servidor de archivos donde debe ubicarse el recurso compartido de archivos y un nombre de carpeta para dicho recurso.
-ms.openlocfilehash: 716016b080c6db6f5e31a8390f220fb6a1f3cabd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 32a7cf2374ca43182c5486129dcda402ebeb52ad
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749301"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861497"
 ---
 # <a name="add-archiving-server-file-store"></a>Agregar almacén de archivos de servidor de archivado
 

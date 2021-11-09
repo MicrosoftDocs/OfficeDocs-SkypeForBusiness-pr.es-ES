@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182584(v=OCS.15)
 ms:contentKeyID: 48185391
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Activar o desactivar el envío de una declinación de responsabilidades de archivado a los socios federados en Skype Empresarial Server.
-ms.openlocfilehash: 1d3ee9ac1b0f75f9256a16d9ce749fef68736107
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cbdfe6a53df73c5af3ef8d4b07b1bd2a4fc27a0a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754817"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861357"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>Habilitar o deshabilitar el envío de una declinación de responsabilidades de archivado a socios federados en Skype Empresarial Server
 
