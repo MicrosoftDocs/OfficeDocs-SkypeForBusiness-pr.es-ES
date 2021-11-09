@@ -1,6 +1,6 @@
 ---
 title: Teléfono de números para Noruega
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Noruega para Microsoft Teams.
-ms.openlocfilehash: eafc5ae311d9c021c62a47c17482a3f6cc32229f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7ba8402540724d6d9281dfd6686352c852bc8711
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745576"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844013"
 ---
 # <a name="phone-number-management-for-norway"></a>Teléfono de números para Noruega
 

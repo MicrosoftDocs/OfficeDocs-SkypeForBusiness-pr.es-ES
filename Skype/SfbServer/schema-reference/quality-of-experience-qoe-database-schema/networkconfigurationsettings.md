@@ -2,7 +2,7 @@
 title: Vista NetworkConfigurationSettings
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
 description: La vista NetworkConfigurationSettings almacena información sobre la configuración de red. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: db0902e96e89a4fbde9ec7bf24fc8c70677a1a17
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9280a6e309292dcc42b981dea329f8a90da8d854
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777730"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851784"
 ---
 # <a name="networkconfigurationsettings-view"></a>Vista NetworkConfigurationSettings
  

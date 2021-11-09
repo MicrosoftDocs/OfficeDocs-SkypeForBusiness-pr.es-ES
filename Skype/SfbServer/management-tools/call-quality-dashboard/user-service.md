@@ -2,7 +2,7 @@
 title: Servicio de usuario para CQD
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: 'Summary: Learn about the User Service, which is part of the Repository API for Call Quality Dashboard. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: ac709949e9d69dbf92f9c0c185406c7d3d8d5462
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e8be18304cad02e1ed39cf84327a58f84d134c6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766388"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851013"
 ---
 # <a name="user-service-for-cqd"></a>Servicio de usuario para CQD
  

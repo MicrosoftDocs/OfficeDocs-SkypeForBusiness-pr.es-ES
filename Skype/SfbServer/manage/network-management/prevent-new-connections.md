@@ -2,7 +2,7 @@
 title: Impedir nuevas conexiones
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: c776c915247533641bc92d1a5458daf671bf6a04
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6fdb3bfdd8e612ccdf61cf639b106baefb60f061
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759732"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851994"
 ---
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>Impedir nuevas conexiones a Skype Empresarial Server para el mantenimiento del servidor
 

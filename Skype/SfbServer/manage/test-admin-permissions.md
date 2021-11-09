@@ -2,7 +2,7 @@
 title: Probar permisos de administrador en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cómo probar los permisos de administrador en Skype Empresarial Server
-ms.openlocfilehash: 80971dab292252775f9a58cbf822d746326c8abf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2c4525d83f3a097abfa168b706885a939e3b0663
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760698"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859987"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Probar permisos de administrador en Skype Empresarial Server
 

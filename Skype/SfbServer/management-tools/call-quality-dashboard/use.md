@@ -2,7 +2,7 @@
 title: Use el Panel de calidad de llamadas para Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Resumen: obtenga información sobre cómo usar el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: ad4c1b295b672900b632903fc653691c03cc5193
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a1a2f0c6d4cf07563f0aceb6379a9142930e1699
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739106"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843813"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Use el Panel de calidad de llamadas para Skype Empresarial Server
 

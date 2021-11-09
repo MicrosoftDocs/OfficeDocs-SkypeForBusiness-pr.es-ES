@@ -1,6 +1,6 @@
 ---
 title: Lista de comprobación de actualización| Skype Business to Teams Upgrade | Pasos básicos
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 465b718e00de6416492dd2a8e5e88bfa3ced95b1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7c0017169ce8cb96b9c8ea1ba871eb9e21101025
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774250"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851644"
 ---
 # <a name="upgrade-basic"></a>Actualizar Basic
 

@@ -2,7 +2,7 @@
 title: Plan para la integración de Skype Empresarial y Exchange
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Resumen: revise este tema para obtener información sobre cómo integrar Skype Empresarial Server con Exchange Server 2016 o Exchange Server 2013.'
-ms.openlocfilehash: 323add0bdc06617f80fba852b8179b3f6b7e315d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8613f080aa878c5111a4c69c38b77f9c16606b26
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773470"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844133"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan para la integración de Skype Empresarial y Exchange
  

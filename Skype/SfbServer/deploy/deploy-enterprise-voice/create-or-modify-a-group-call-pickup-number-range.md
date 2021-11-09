@@ -2,7 +2,7 @@
 title: Crear o modificar un intervalo de números de recogida de llamadas de grupo en Skype Empresarial
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Cree o modifique un intervalo de números de recogida de llamadas de grupo en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 661efa69d7c7a3264872c4d83b94372d8d9951f1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5bf69f06078d45cd12e7f21cffd03ea40028a543
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738926"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859607"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Crear o modificar un intervalo de números de recogida de llamadas de grupo en Skype Empresarial
 

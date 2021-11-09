@@ -1,7 +1,7 @@
 ---
 title: Instalar y probar Skype Empresarial para iOS
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 'Resumen: cómo instalar y probar el Skype Empresarial para la aplicación de iOS.'
-ms.openlocfilehash: 62b7720efbc24606f63f5df83c9082fb4ebf9611
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b3bcdddbafe5ae0c578f1f5e38f44696ed01dd66
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758162"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843533"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Instalar y probar Skype Empresarial para iOS
  

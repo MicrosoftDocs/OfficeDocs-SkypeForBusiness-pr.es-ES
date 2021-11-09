@@ -2,7 +2,7 @@
 title: Agregar almacén SQL Server de cumplimiento del chat persistente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 ROBOTS: NOINDEX, NOFOLLOW
 description: Configure los almacenes de cumplimiento SQL Server que proporcionarán bases de datos para la característica de cumplimiento del servidor de chat persistente o del servidor de chat persistente.
-ms.openlocfilehash: b094fcd62a48c1970385b942c21c2f7b467ffd99
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c433a3e1175c94366eba052b49027329099886dc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758722"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859297"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>Agregar almacén SQL Server de cumplimiento del chat persistente
 

@@ -2,7 +2,7 @@
 title: Administración de regiones de red
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: La región de red* son los concentradores de red o redes troncales usados en la configuración del control de admisión de llamadas, E9-1-1 y desvío de medios.
-ms.openlocfilehash: 5bfe3051404b41cd6a1d96bfac240e83070bbdbc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5d0a40576098ceb641bdc677a551908b6a23044b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759742"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843873"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Administrar regiones de red en Skype Empresarial Server
 

@@ -1,6 +1,6 @@
 ---
 title: Disponibilidad en Kuwait
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Kuwait.
-ms.openlocfilehash: 2067077acba0c3604c83bbc46483b6bd8ee6dc22
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fdcadf7b877875ca53658358630201c8867404fa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766198"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851754"
 ---
 # <a name="availability-in-kuwait"></a>Disponibilidad en Kuwait
 

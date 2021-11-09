@@ -1,7 +1,7 @@
 ---
 title: Skype Consideraciones de unión a dominios del sistema de sala
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Lea este tema para obtener información sobre cómo unirse a un equipo Skype de sistema de sala a su dominio.
-ms.openlocfilehash: a3a5e4b8fb1f4af7c67e0cfa91ff9237be438347
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d3c94a4983bddb051bda29badf5c569eeef635a3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751379"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844873"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype Consideraciones de unión a dominios del sistema de sala
  

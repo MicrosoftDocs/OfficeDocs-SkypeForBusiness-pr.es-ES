@@ -2,7 +2,7 @@
 title: Expansor de configuración de ruta de federación
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 description: Para definir una asignación de ruta de federación de sitios, primero debe habilitarse la federación en el servidor o el grupo de servidores perimetrales. Si la federación no está habilitada en el servidor o el grupo de servidores perimetrales, las opciones de configuración para asignar rutas de federación no se podrán modificar.
-ms.openlocfilehash: 6e25677bd4f173ddf5434a05fcaa119246351cba
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dc300a657f2b8bd3d9617f330452a879119a9916
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765708"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860227"
 ---
 # <a name="federation-route-settings-expander"></a>Expansor de configuración de ruta de federación
  

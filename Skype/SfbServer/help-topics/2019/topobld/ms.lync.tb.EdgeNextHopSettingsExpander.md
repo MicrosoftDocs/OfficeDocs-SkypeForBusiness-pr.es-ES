@@ -2,7 +2,7 @@
 title: Expansor de configuración del próximo salto perimetral
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para establecer o modificar el grupo de servidores de próximo salto que usarán los servidores perimetrales para comunicarse con la infraestructura interna, seleccione un director, un grupo de directores, un servidor front-end o un grupo de servidores front-end, en la lista. Solo aparecen en la lista los directores o servidores front-end configurados en el Generador de topologías.
-ms.openlocfilehash: cef9c72da22c70814ad5dc3af07eea076339dde1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0a919d50be48066cc5e07c710289200b7d0821db
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771018"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844753"
 ---
 # <a name="edge-next-hop-settings-expander"></a>Expansor de configuración del próximo salto perimetral
 

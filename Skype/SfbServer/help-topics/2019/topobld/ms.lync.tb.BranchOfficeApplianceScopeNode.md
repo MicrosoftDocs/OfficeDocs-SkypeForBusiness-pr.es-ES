@@ -2,7 +2,7 @@
 title: Nodo de ámbito de aplicación de sucursal
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN), los grupos y servidores asociados y la información de resistencia sobre esta aplicación de sucursal con funciones de supervivencia. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: e90799cb106030dc26a3331e51c8d7163b84a68f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6a48424e57f43aa6d942aa53c5e1bb94579eacb9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775400"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834448"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nodo de ámbito de aplicación de sucursal
  

@@ -2,7 +2,7 @@
 title: Herramienta de planeación de audioconferencia
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: Skype Empresarial Server conferencia de audio y vídeo (A/V) de 2015 permite a los usuarios participar en conferencias de audio o vídeo en tiempo real.
-ms.openlocfilehash: 95f364af5bbbb9bd23f7881003420c9ab051dc75
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6ebb9c93edef168c35fe95bce450accd5c577981
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766308"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843763"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>Herramienta de planeación de audioconferencia
  

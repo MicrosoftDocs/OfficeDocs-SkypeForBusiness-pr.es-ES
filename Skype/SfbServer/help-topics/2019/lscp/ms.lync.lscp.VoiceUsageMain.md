@@ -2,7 +2,7 @@
 title: Uso de RTC
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 08d7877d-0ef4-4630-b6b0-ee76cbe4ce25
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 9f425baaf16782c1fb19780ff9b2ef47a50f2d5a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3cf30fbcb06054bc36ea5c666f724946315eced2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752629"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859457"
 ---
 # <a name="pstn-usage"></a>Uso de RTC
 

@@ -2,7 +2,7 @@
 title: Administrar Skype Empresarial Server 2019 con SCOM Management Pack
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Summary: Learn how to configure your Skype Empresarial Server 2019 infrastructure to work with System Center Operations Manager.'
-ms.openlocfilehash: 69954c7568702e4e3d6e9618bdd7e37243c61ef6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e0e5f7c090c51fbe3b7b022f890fd3fc8f254aa3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751499"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844893"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Administrar Skype Empresarial Server 2019 con SCOM Management Pack
  

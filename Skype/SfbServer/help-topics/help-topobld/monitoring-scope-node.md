@@ -2,7 +2,7 @@
 title: Supervisión del nodo de ámbito
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 'En el Generador de topologías de Lync Server 2013, puede realizar tareas relacionadas con un servidor individual que ejecuta supervisión haciendo clic con el botón secundario en el servidor que ejecuta supervisión en el árbol de consola, haciendo clic en Acción en la barra de herramientas o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en una de las siguientes opciones para el servidor que ejecuta la supervisión:'
-ms.openlocfilehash: 60bc8ce6abdd8c0ede5e40cce6438223d1e88e16
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 054636ad6b1d5eab604085d918afc0bfca02a5bf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770418"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860107"
 ---
 # <a name="monitoring-scope-node"></a>Supervisión del nodo de ámbito
  

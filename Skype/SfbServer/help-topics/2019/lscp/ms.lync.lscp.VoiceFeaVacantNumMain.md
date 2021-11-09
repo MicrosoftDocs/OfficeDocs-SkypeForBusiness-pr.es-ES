@@ -2,7 +2,7 @@
 title: Número de teléfono sin asignar
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los números sin asignar son números de teléfono válidos para su organización pero que no se han asignado a un usuario o teléfono. La tabla de números sin asignar identifica cómo desea que se traten las llamadas a números sin asignar.
-ms.openlocfilehash: 6b621d005f7768fb981fc6d70ef179ee8e8e1586
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fa7fd55f0c0fae22643d0dde66cae32c2610bdcd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778720"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834528"
 ---
 # <a name="unassigned-phone-number"></a>Número de teléfono sin asignar
 

@@ -2,7 +2,7 @@
 title: Asociar una subred Agregar nueva o editar existente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: aac55f0fa965149c424ed6082f3c6f04c80dd06c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3bfda65c2f32480ef2501e8bb084446afdae1201
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773020"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859507"
 ---
 # <a name="associate-a-subnet-add-new-or-edit-existing"></a>Asociar una subred: Agregar nuevos o editar los existentes
 

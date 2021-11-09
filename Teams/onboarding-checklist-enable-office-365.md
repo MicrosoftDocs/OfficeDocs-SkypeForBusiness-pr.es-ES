@@ -1,6 +1,6 @@
 ---
 title: 'Lista de comprobación de incorporación: habilite el Microsoft 365 o Office 365 integrado'
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 08/21/2018
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cd4c1e491499a0924d1f6195b0d3929c389c137f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9a542dfbad70502dfa0f76a2062453313e1a3ef6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737506"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859687"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>Habilitar Microsoft 365 o Office 365
  

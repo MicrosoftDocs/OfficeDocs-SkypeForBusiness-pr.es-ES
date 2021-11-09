@@ -2,7 +2,7 @@
 title: Expansor de configuración de implementación
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Puede editar las propiedades de una implementación existente con las secciones siguientes:'
-ms.openlocfilehash: e0904911dc5e1ae7edd49b86e33fa34599ac23d6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fac8d80fffabea4bc939dd0fb517ac384a5776b4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773940"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851234"
 ---
 # <a name="deployment-settings-expander"></a>Expansor de configuración de implementación
 

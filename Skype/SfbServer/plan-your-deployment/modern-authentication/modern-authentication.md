@@ -2,7 +2,7 @@
 title: Planear la autenticación moderna en Skype Empresarial
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
 description: Temas de planeación de autenticación y autorización para Skype Empresarial Server, incluida la integración con otros productos
-ms.openlocfilehash: 0cdfd5ead32ce69e918a9353fbaa35c1904de791
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3bcd9ab78c9703dd938230740fddba4034aff315
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741936"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851874"
 ---
 # <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>Hablar de autenticación y autorización en Skype Empresarial
 

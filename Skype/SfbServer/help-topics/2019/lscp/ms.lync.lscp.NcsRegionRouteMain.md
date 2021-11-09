@@ -2,7 +2,7 @@
 title: Configurar una ruta de región de red
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 2bc7e71a338f85f4061da05a46654d3344bafdf4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 36ab41c8eb03f94a8256d7aa18dff22d9bbb55c9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745236"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844773"
 ---
 # <a name="configure-a-network-region-route"></a>Configurar una ruta de región de red
 

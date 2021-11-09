@@ -2,7 +2,7 @@
 title: Nodo de ámbito de directores
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo de grupos de servidores directores enumera los grupos de servidores directores de la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 2615007f4c3e227c193d242d057ba48fdcf540bf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ffe1ec9e3829643d9e3913fa55f6d048b83f5014
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775390"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859227"
 ---
 # <a name="directors-scope-node"></a>Nodo de ámbito de directores
  

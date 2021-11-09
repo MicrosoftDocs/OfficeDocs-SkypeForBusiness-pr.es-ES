@@ -2,7 +2,7 @@
 title: Habilitar y deshabilitar la omisión de medios
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Use los procedimientos de este artículo para habilitar o deshabilitar la omisión de medios mediante el panel de control Skype Empresarial Server medios.
-ms.openlocfilehash: abbbc6bf77a5fe1aea22de9c5f225ac694cf1d1d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e8465d376e32d677d52cb0bdb57e86d9aa9fac44
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750289"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852004"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Habilitar y deshabilitar la omisión de medios en Skype Empresarial Server
 

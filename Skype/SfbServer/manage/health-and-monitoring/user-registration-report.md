@@ -2,7 +2,7 @@
 title: Informe de registro de usuario en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 'Summary: Learn about the User Registration Report in Skype Empresarial Server.'
-ms.openlocfilehash: e137fae97f9b39f45dd619d2ed90a4180897c713
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 52927330e00ae1400aceb7db0e935ce1cb5ecff0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778330"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834198"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>Informe de registro de usuario en Skype Empresarial Server
  

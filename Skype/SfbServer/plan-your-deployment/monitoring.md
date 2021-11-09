@@ -2,7 +2,7 @@
 title: Planear la supervisión en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Resumen: revise este tema mientras planea el servicio de supervisión en Skype Empresarial Server.'
-ms.openlocfilehash: 0a0b1c80498819a6fffc78d02f603950a9169779
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f1bd1dbab35247b17067adaa3b2d06557b8f0292
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744126"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835018"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Planear la supervisión en Skype Empresarial Server
 

@@ -2,7 +2,7 @@
 title: Planear el archivado en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Resumen: lea este tema para obtener información sobre cómo planear el archivado en Skype Empresarial Server.'
-ms.openlocfilehash: d7ed504558274da06d8f49b38a297626ff22f86c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6d67caa4b196c65282ecb404af747e0a60f435a7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740463"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843703"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planear el archivado en Skype Empresarial Server
  

@@ -2,7 +2,7 @@
 title: Ver información de configuración de CDR en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: 'Resumen: obtenga información sobre cómo usar la grabación detallada de llamadas (CDR) en Skype Empresarial Server.'
-ms.openlocfilehash: 97019a9d8689cf9eb5cacac82d6776b44bc4283d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3039db1ff1af74f311f4abc16975f8360509a5c4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743486"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844183"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Ver información de configuración de CDR en Skype Empresarial Server
  

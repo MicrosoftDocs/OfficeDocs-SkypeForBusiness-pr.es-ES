@@ -2,7 +2,7 @@
 title: Skype Empresarial Server Exchange de planeación de mensajería unificada
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 description: Skype Empresarial Server la integración con Exchange mensajería unificada para combinar la mensajería de voz y la mensajería de correo electrónico en una única infraestructura de mensajería.
-ms.openlocfilehash: 008b50b3bfd1c6732c3a7164f31dcc596461156b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c886aaa6ffcc563daa7c616e3d3670765f3d2e7e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772366"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844593"
 ---
 # <a name="skype-for-business-server-exchange-unified-messaging-planning-tool"></a>Skype Empresarial Server Exchange de planeación de mensajería unificada
 

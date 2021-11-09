@@ -2,7 +2,7 @@
 title: Obtener elementos secundarios
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
 description: 'Summary: Learn about the Get Sub-Items operation, which is part of the Item Service. El servicio de elementos forma parte de la API de repositorio para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 3d17ab46ece202ea36dce45b6266a1cd3de74928
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a1e439b9bfdfddf7009babbeb39a8175adc2a569
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774650"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851914"
 ---
 # <a name="get-sub-items"></a>Obtener elementos secundarios
  

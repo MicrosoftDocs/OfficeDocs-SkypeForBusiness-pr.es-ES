@@ -2,7 +2,7 @@
 title: Ámbito de puertas de enlace de vídeo
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a3adee56-819e-48a5-a5a8-673eca45ec16
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server 2015.
-ms.openlocfilehash: 357cc11173a4e7d914f2e2557e5164e90d541ec8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ba7c1719b5c92ba5d14b62c7e61cf134746a9332
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751879"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844283"
 ---
 # <a name="video-gateways-scope"></a>Ámbito de puertas de enlace de vídeo
  

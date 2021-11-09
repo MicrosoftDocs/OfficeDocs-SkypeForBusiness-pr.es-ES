@@ -1,7 +1,7 @@
 ---
 title: Windows cliente y compatibilidad con software
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Summary: Review the Windows client support requirements while planning Skype Empresarial Server.'
-ms.openlocfilehash: 143fdf0e03f6ea125e7b1cbfb3aa0e7a6a93788b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b38c1d7a3565fbc2250766dbed3a0413b914388f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770218"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859907"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows cliente y compatibilidad con software
  
@@ -39,7 +39,7 @@ En esta sección se resume el software necesario para admitir los Skype Empresar
 |:-----|:-----|
 |Windows Sistema operativo  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 o posterior con el service pack más reciente  <br/> **Nota:** Skype Empresarial y el complemento de reunión en línea para Skype Empresarial no se admiten en Windows Vista o Windows XP (cualquier versión). <br/> |
 |Instalación y actualizaciones  <br/> |Permisos y derechos de administrador  <br/> |
-|Explorador  <br/> |Microsoft Edge  <br/> Explorador de Internet Explorer 11  <br/>  Internet Explorer 10 Explorador de Internet <br/> Explorador de Internet Explorer 9  <br/> Explorador de Internet Explorer 8  <br/> Explorador de Internet Explorer 7  <br/> Explorador web Mozilla Firefox  <br/>  Explorador web de Google Chrome  <br/>**Nota:** Si está usando Skype Empresarial con Microsoft Exchange Online y su organización ha implementado un proxy HTTP de autenticación, se requiere Internet Explorer 8 o posterior.           |
+|Explorador  <br/> |Microsoft Edge  <br/> Explorador de Internet Explorer 11  <br/>  Internet Explorer 10 Explorador de Internet <br/> Explorador de Internet Explorer 9  <br/> Explorador de Internet Explorer 8  <br/> Explorador de Internet Explorer 7  <br/> Explorador web Mozilla Firefox  <br/>  Explorador web de Google Chrome  <br/>**Nota:** Si está usando Skype Empresarial con Microsoft Exchange Online y su organización ha implementado un proxy HTTP de autenticación, se requiere Internet Explorer 8 o posterior.           |
 |Integración de Microsoft Office  <br/> | Outlook 2010 o posterior |
 |Integración de Microsoft Exchange  <br/> | Microsoft Exchange Server 2010 o posterior  | 
    

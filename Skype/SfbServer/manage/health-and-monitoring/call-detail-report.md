@@ -2,7 +2,7 @@
 title: Informe detallado de llamadas en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 'Summary: Learn about the Call Detail Report used in Skype Empresarial Server.'
-ms.openlocfilehash: 550c218d4799623359f68930286210116628b005
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8f5d9e99a9141e1954aef2636ed5d671003e6ad3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767748"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834218"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Informe detallado de llamadas en Skype Empresarial Server
  

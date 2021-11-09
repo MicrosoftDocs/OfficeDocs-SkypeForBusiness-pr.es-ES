@@ -2,7 +2,7 @@
 title: Agregar opciones de servidor perimetral
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Seleccione cada una de las funciones que desea habilitar para el grupo de servidores perimetrales. De forma predeterminada, el grupo de servidores perimetrales admite usuarios remotos de la organización que inician sesión desde fuera del firewall mediante una red privada virtual (VPN). También tiene las siguientes opciones de función del grupo de servidores perimetrales:'
-ms.openlocfilehash: 04b2516e7e9164acb4306af89c88534613b10823
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9ac07d7a15e138c3fe817aab6754ca098f8ff774
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776810"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834488"
 ---
 # <a name="add-edge-server-options"></a>Agregar opciones de servidor perimetral
 

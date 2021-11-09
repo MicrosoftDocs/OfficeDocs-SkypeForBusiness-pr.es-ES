@@ -1,6 +1,6 @@
 ---
 title: Teléfono de números para Austria
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Austria para Microsoft Teams.
-ms.openlocfilehash: 6abf2814f37708e8ec13e071c34ab4f1c901f7c3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 535c49f22fcc09b70ac3e72414dc1e28cc3f89e6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761768"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859727"
 ---
 # <a name="phone-number-management-for-austria"></a>Teléfono de números para Austria
 

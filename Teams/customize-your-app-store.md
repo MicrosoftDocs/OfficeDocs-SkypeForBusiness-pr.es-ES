@@ -1,6 +1,6 @@
 ---
 title: Tienda de aplicaciones personalizadas
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: prem
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre la tienda de aplicaciones personalizadas en Microsoft Teams.
-ms.openlocfilehash: 773e2aa7deb0d419ea60e32dc834dee8f730009a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b7fd39dc1d2ced74b6153f43c78fdf7557bbd206
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741666"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843593"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Las aplicaciones personalizadas se almacenan en Microsoft Teams
 

@@ -2,7 +2,7 @@
 title: Agregar FQDN de puerta de enlace de vídeo
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 268e718c-9b8c-458a-b3b9-853f49994e5b
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server 2015.
-ms.openlocfilehash: f55d687293387c628e5ab1cd0274b12d08734252
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 182802891c2b56ae8ea6ad3de2af94a0b64d8de5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768909"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844423"
 ---
 # <a name="add-video-gateway-fqdn"></a>Agregar FQDN de puerta de enlace de vídeo
  

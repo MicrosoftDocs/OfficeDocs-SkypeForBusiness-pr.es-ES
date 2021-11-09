@@ -2,7 +2,7 @@
 title: Implementar SRS v1 Administrative Web Portal en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: El portal web administrativo de Skype Empresarial Server Skype Room Systems v1 (SRS v1, anteriormente conocido como Lync Room System) es un portal web que las organizaciones pueden usar para mantener sus salas de conferencias Skype Room Systems. Los administradores pueden usar el Portal web administrativo de SRS v1 para supervisar el estado del dispositivo, por ejemplo, supervisando dispositivos de audio y vídeo. Con este portal, los administradores pueden recopilar de forma remota información de diagnóstico para supervisar el estado de la sala de conferencias.
-ms.openlocfilehash: aa59b142ee7147772af3c13a7e9bf4dffbbc520c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c25671717db51af880bd4b7e2700bb9e795f2790
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751349"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843973"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Implementar SRS v1 Administrative Web Portal en Skype Empresarial Server
 
@@ -209,7 +209,7 @@ No hay ningún límite en el número de salas SRS que puede seleccionar para la 
 
 Para realizar una operación de administración masiva, seleccione las salas que desea supervisar y haga clic en el menú Administración masiva.
 
-### <a name="frequently-asked-questions"></a>Preguntas frecuentes
+### <a name="frequently-asked-questions"></a>Preguntas frecuentes.
 
 #### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>¿Por qué no puedo iniciar sesión en el portal web administrativo?
 

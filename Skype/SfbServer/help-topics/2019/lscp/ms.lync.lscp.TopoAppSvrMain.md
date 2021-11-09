@@ -2,7 +2,7 @@
 title: Aplicación de servidor de topología
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página TopologíaAplicación de servidor muestra las aplicaciones de servidor disponibles en su implementación.
-ms.openlocfilehash: 7f137605f832b3c679c2c0789621dee2df6abac9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f476713617ef5b8e1906528c797830aed06db80f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764568"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834568"
 ---
 # <a name="topology-server-application"></a>Topología: Aplicación de servidor
 

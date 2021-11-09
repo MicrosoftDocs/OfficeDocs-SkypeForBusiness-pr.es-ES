@@ -2,7 +2,7 @@
 title: Crear base de datos
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Topology Builder proporciona una forma de instalar bases de datos en un SQL Server web. Al instalar bases de datos mediante el Generador de topologías, la aplicación lee información de la topología y, a continuación, instala las bases de datos necesarias en el equipo SQL Server o en el clúster SQL Server especificado. Es el único tipo de instalación de bases de datos disponible mediante Topology Builder. Si necesita instalar una base de datos específica en un equipo específico, o si debe instalar una base de datos collocada Windows PowerShell, debe usar una interfaz de línea de comandos y el cmdlet Install-CsDatabase en su lugar.
-ms.openlocfilehash: d864f469d9200040c61611a70f81c442cfdb7269
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 84a666b67147787e40e79db15394117dfbc8d484
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759912"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844683"
 ---
 # <a name="create-database"></a>Crear base de datos
  

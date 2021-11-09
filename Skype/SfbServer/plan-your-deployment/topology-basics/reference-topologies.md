@@ -2,7 +2,7 @@
 title: Topologías de referencia para Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Topologías de referencia para Skype Empresarial Server, incluidos diagramas y decisiones que se deben tomar para organizaciones grandes, medianas y pequeñas.
-ms.openlocfilehash: 270814a8a4dacccdec8919a0e31c9c6098603493
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 89d04755d31750bb43ab78080e6260e51a5bde60
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762108"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851804"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Topologías de referencia para Skype Empresarial Server
 

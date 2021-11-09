@@ -1,6 +1,6 @@
 ---
 title: Directivas de reunión y expiración de la reunión en Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Obtenga información sobre cómo usar la configuración de directiva de reunión para controlar la expiración de la reunión en Microsoft Teams.
-ms.openlocfilehash: 0fda2344f58a8781749234fb260e847ac0d44aac
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 484a873e319a6af46640f8eb3b17a5edc7c175e2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751519"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843993"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Directivas de reunión y expiración de la reunión en Microsoft Teams
 

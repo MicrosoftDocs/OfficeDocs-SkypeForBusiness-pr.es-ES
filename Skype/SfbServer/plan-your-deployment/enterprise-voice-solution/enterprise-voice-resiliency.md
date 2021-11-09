@@ -2,7 +2,7 @@
 title: Planear la Telefonía IP empresarial resistencia en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Obtenga información sobre cómo admitir la resistencia de voz en Skype Empresarial Server Telefonía IP empresarial, tanto en sitios centrales como en sitios de sucursal. Las opciones de sitio de sucursal incluyen la implementación de aplicaciones de sucursal con funciones de supervivencia o servidores de sucursal con funciones de supervivencia.
-ms.openlocfilehash: ec0d542318023fdc638926e78ff6ffdeceefba5f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a2dc18817f28595cdfdf65be35df85d0ad93239b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778010"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851884"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planear la Telefonía IP empresarial resistencia en Skype Empresarial Server
 
