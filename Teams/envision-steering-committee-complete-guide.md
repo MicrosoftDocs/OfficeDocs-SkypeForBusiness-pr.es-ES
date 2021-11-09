@@ -1,6 +1,6 @@
 ---
 title: Comité de dirección para la implementación de voz en la nube
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/13/2018
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b182e3ccc5e650e4ace3535b23bb6828bf2c88b5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cd588928f71926981c42f7c909e00c544243279e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769918"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858877"
 ---
 # <a name="steering-committee"></a>Comité de dirección
 

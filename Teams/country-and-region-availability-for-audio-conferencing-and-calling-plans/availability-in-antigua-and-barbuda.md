@@ -1,6 +1,6 @@
 ---
 title: Disponibilidad en Antigua y Barbuda
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Antigua y Barbuda.
-ms.openlocfilehash: 66cc66d614ccd579267d7b1fe384b80ca802ed89
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f9a72fed02e9accfc98bb1d453108d6dad3becab
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777680"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858887"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>Disponibilidad en Antigua y Barbuda
 

@@ -2,7 +2,7 @@
 title: Proceso de implementación para la recogida de llamadas de grupo en Skype Empresarial
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
 description: Proceso de implementación y pasos para la recogida de llamadas de grupo en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 0694975515286920344ce2f21ef7ad1f0ab64242
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9debddc22b536ed65578916d0db303ca34146b4b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775770"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857937"
 ---
 # <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>Proceso de implementación para la recogida de llamadas de grupo en Skype Empresarial
  

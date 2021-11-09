@@ -2,7 +2,7 @@
 title: Implementar la alta disponibilidad y la recuperación ante desastres
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: Skype Empresarial Server ofrece alta disponibilidad con agrupación de servidores, recuperación ante desastres con emparejamiento de grupos y varios modos de alta disponibilidad del servidor back-end, incluidos los grupos de disponibilidad AlwaysOn, la creación de reflejo de bases de datos y la creación de clústeres SQL conmutación por error.
-ms.openlocfilehash: 03a7c1e91651f2d73b1e22692f726ed3188588e6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 897bd52d265a123d3eebec2bc16d71d95ba6185e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761488"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865307"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>Implementar la alta disponibilidad y la recuperación ante desastres
  

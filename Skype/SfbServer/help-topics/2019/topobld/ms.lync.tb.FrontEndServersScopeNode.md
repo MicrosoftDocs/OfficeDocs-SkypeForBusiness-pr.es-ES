@@ -2,7 +2,7 @@
 title: Nodo de ámbito de servidores front-end
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo Grupos de servidores front-end de Enterprise Edition presenta los grupos de servidores front-end de este sitio; por su parte, el nodo Servidores front-end de Standard Edition  presenta los servidores Standard Edition de este sitio. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 9330da7eb3778f2cdfdd4ff3493c57c82f085dfd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1b2b662ef79f5d9ee12d668d1cf3b81f6e4e0807
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752469"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849123"
 ---
 # <a name="front-end-servers-scope-node"></a>Nodo de ámbito de servidores front-end
  

@@ -1,7 +1,7 @@
 ---
 title: Conmutar por error y conmutar por recuperación un grupo
 ms.reviewer: ''
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: .
-ms.openlocfilehash: a9f4296ce122cdb539cae4d1f3cb7ef14262efc7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 55377e77a5b365a4db149ee69b6cd796e373a80b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750329"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849973"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Con error y con error de un grupo de servidores en Skype Empresarial Server
 

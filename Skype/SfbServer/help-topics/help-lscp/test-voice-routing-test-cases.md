@@ -2,7 +2,7 @@
 title: Casos de prueba de enrutamiento de voz de prueba
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 4e737d9a7559b8c42cd1e4c39adf792d45a2e17b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 25a9f10fb940fcac440e0d6d41df54ab86454d0f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763958"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833556"
 ---
 # <a name="test-voice-routing-test-cases"></a>Probar enrutamiento de voz: Pruebas
 

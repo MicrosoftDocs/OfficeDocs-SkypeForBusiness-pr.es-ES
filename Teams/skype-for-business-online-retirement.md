@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 46bdd1c8e045d7046850cf7178e5682bc686b29d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb2cd0b2c4465dfe67493873980159ecfe836c6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615186"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858687"
 ---
 # <a name="skype-for-business-online-retirement"></a>Retirada de Skype Empresarial Online
 
@@ -74,8 +74,9 @@ Aproveche los recursos disponibles para ayudar a planear su Teams y actualizar d
 Si es un cliente actual de Skype Empresarial Online, empiece a planear la actualización a Teams hoy mismo. Estamos encantados de que experimente sus potentes capacidades de comunicación y colaboración, y nos comprometemos a ayudar en el camino.
 
 ## <a name="what-to-expect-post-retirement"></a>Qué esperar después de la retirada
+Ya no es posible asignar a los usuarios que están en la nube un modo distinto de TeamsOnly. Los usuarios que son TeamsOnly no se pueden asignar a ningún otro modo de coexistencia.
 
-Microsoft proporcionará actualizaciones asistidos para Skype Empresarial en línea que no se Teams modo solo en el momento de la retirada. Los clientes recibirán notificaciones tanto en el centro de administración de Teams como en el Centro de mensajes de Microsoft 365, 90 días antes de la fecha de actualización programada para dar tiempo a la preparación técnica y de usuario.
+Además, Microsoft proporcionará actualizaciones asistidos para Skype Empresarial usuarios en línea que no se Teams solo en el momento de la jubilación. Los clientes recibirán notificaciones tanto en el centro de administración de Teams como en el Centro de mensajes de Microsoft 365, 90 días antes de la fecha de actualización programada para dar tiempo a la preparación técnica y de usuario.
 
 Una vez completada la actualización asistido, todos los usuarios en línea estarán en Teams modo solo. Los usuarios Teams modo solo reciben chats y llamadas entrantes, y programan reuniones, en Teams. Los usuarios Teams modo solo de usuario no podrán iniciar chats o llamadas ni programar reuniones en Skype Empresarial Online. Teams Solo los usuarios podrán unirse a las Skype Empresarial programadas por los usuarios que aún usan Skype Empresarial Server.
 

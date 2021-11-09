@@ -2,7 +2,7 @@
 title: Configurar el escape de correo de voz en Skype Empresarial
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 'Summary: Learn how to configure voice mail escape in Skype Empresarial Server by using the Skype Empresarial Server Management Shell.'
-ms.openlocfilehash: 3414b099587b45918b28ac3e11dcf75924f41dd6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7bd18056362fc4ed6ffdede31515b6eb41d8b134
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740106"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865327"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Configurar el escape de correo de voz en Skype Empresarial
 

@@ -2,7 +2,7 @@
 title: Configurar Exchange Server mensajería unificada para Skype Empresarial Server de voz
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Resumen: configure la Exchange Server mensajería unificada para Skype Empresarial Server de voz.'
-ms.openlocfilehash: 43a5b34afb2f398ecfd14d884bbb510ffa3631f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e434309c67469ccaa6994ec90cb3431b9de4f13b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741296"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865287"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurar Exchange Server mensajería unificada para Skype Empresarial Server de voz
  
@@ -89,14 +89,14 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
 
 En el comando anterior, el parámetro Extensions representa el número de extensión telefónica del usuario. En este ejemplo, el usuario tiene el número de extensión 100.
   
-Después de habilitar su buzón, el usuario kenmyer@litwareinc.com debe poder usar Exchange mensajería unificada. Puede comprobar que el usuario puede conectarse Exchange la mensajería unificada mediante la ejecución del cmdlet [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity?view=skype-ps) desde el Shell de administración de Skype Empresarial Server:
+Después de habilitar su buzón, el usuario kenmyer@litwareinc.com debe poder usar Exchange mensajería unificada. Puede comprobar que el usuario puede conectarse Exchange la mensajería unificada mediante la ejecución del cmdlet [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity) desde el Shell de administración de Skype Empresarial Server:
   
 ```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-Si tiene un segundo usuario habilitado para mensajería unificada, puede usar el cmdlet [Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail?view=skype-ps) para comprobar que este segundo usuario puede dejar un mensaje de correo de voz para el primer usuario.
+Si tiene un segundo usuario habilitado para mensajería unificada, puede usar el cmdlet [Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail) para comprobar que este segundo usuario puede dejar un mensaje de correo de voz para el primer usuario.
   
 ```powershell
 $credential = Get-Credential "litwareinc\pilar"
@@ -155,7 +155,7 @@ Al integrar Microsoft Skype Empresarial Server con Exchange mensajería unificad
 - Crea un grupo de extensiones de mensajería unificada para cada puerta de enlace IP de MU. El identificador piloto de cada grupo de extensiones especifica el plan de marcado URI SIP de mensajería unificada usado por el grupo de servidores front-end de Skype Empresarial Server o el servidor Standard Edition asociado a la puerta de enlace IP de mensajería unificada.
 - Concede Skype Empresarial Server permiso para leer objetos de contenedor de mensajería unificada de Active Directory, como planes de marcado de mensajería unificada, operadores automáticos, puertas de enlace IP de mensajería unificada y grupos de extensiones de mensajería unificada.
   > [!IMPORTANT]
-  > Cada bosque de mensajería unificada debe configurarse para confiar en el bosque en el que se implementa Skype Empresarial Server y el bosque en el que se implementa Skype Empresarial Server 2013 debe configurarse para que confíe en cada bosque de mensajería unificada. Si Exchange um está instalada en varios bosques, los pasos de integración de Exchange Server deben realizarse para cada bosque de mensajería unificada o deberá especificar el dominio Skype Empresarial Server usuario. Por ejemplo, ExchUcUtil.ps1 –Forest:<lync-domain-controller-fqdn>. 
+  > Cada bosque de mensajería unificada debe configurarse para confiar en el bosque en el que se implementa Skype Empresarial Server y el bosque en el que se implementa Skype Empresarial Server 2013 debe configurarse para que confíe en cada bosque de mensajería unificada. Si Exchange um está instalada en varios bosques, los pasos de integración de Exchange Server deben realizarse para cada bosque de mensajería unificada o deberá especificar el dominio Skype Empresarial Server usuario. Por ejemplo, ExchUcUtil.ps1 –Forest: \<lync-domain-controller-fqdn> . 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Usar el Shell para ejecutar el script ExchUcUtil.ps1
 

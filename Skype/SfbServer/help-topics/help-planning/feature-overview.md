@@ -2,7 +2,7 @@
 title: Skype Empresarial Server Herramienta de planeación de información general de características
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Información sobre la herramienta de planeación Skype Empresarial Server de características.
-ms.openlocfilehash: 44926f016a9b9aabe9981ec66f32638b3a958da6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ac759dab4000ebdbe969b2d7436cbb46c408dc38
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744406"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848883"
 ---
 # <a name="skype-for-business-server-feature-overview-planning-tool"></a>Skype Empresarial Server Herramienta de planeación de información general de características
  

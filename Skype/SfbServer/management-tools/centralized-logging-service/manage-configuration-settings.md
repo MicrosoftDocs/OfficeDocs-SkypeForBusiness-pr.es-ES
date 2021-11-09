@@ -2,7 +2,7 @@
 title: Administrar las opciones de configuración del servicio de registro centralizado en Skype Empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Summary: Learn how to retrieve, update, and create configuration settings for the Centralized Logging Service in Skype Empresarial Server 2015.'
-ms.openlocfilehash: a6225af25abc2db0375e7ca93ae22c342a1ec498
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 27202b870ba0115f045eda367619a449b307e708
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778170"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831934"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Administrar las opciones de configuración del servicio de registro centralizado en Skype Empresarial Server 2015
 

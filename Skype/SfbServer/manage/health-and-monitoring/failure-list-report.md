@@ -2,7 +2,7 @@
 title: Informe de lista de errores en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 'Summary: Learn about the Failure List Report in Skype Empresarial Server.'
-ms.openlocfilehash: 6853da551f65de835f6966cf0a59af57d80e1f75
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 37442d95c3a79bffbd79ebd74a793f5d3e1f3fb4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763638"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858297"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>Informe de lista de errores en Skype Empresarial Server 
  
@@ -93,7 +93,7 @@ Count    Name
 
 ## <a name="filters"></a>Filtros
 
-Ninguno. No puede filtrar el informe de lista de errores.
+Ninguna. No puede filtrar el informe de lista de errores.
   
 ## <a name="metrics"></a>Métricas
 

@@ -2,7 +2,7 @@
 title: Recuperación ante desastres del grupo front-end en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Para la recuperación ante desastres, Skype Empresarial Server el emparejamiento de grupos con conmutación por error en caso de que un grupo de servidores se desalome.
-ms.openlocfilehash: 6559b5af285027d9f1cb6ea3682304dedbbb4165
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fa63aa9d549f64508f32c32ede24f34592a88719
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740436"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833326"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Recuperación ante desastres del grupo front-end en Skype Empresarial Server
  

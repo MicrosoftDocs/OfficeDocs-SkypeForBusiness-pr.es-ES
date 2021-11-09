@@ -1,6 +1,6 @@
 ---
 title: Teléfono de números para Eslovaquia
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para encontrar información sobre cómo obtener y administrar números de teléfono en Eslovaquia para Microsoft Teams.
-ms.openlocfilehash: f361f0db336f7497c347465bf0e2537877226fba
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 82eb193b5c50776785926a6dd70b090537ac37aa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767258"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858727"
 ---
 # <a name="phone-number-management-for-slovakia"></a>Teléfono de números para Eslovaquia
 

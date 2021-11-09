@@ -2,7 +2,7 @@
 title: Integración entre Skype Empresarial Online y Exchange servidor
 ms.reviewer: cbland
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/2/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: La configuración de la autenticación de OAuth entre Exchange local y Skype Empresarial Online habilita las características Skype Empresarial y Exchange integración descritas en Compatibilidad con características.
-ms.openlocfilehash: 0e811a7feb713e2c356acdeba5461a212bfff17e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dfc1bf25b19779b6a568a70e2cf18287d2f95d18
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764778"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864237"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Configurar la integración y OAuth entre Skype Empresarial Online y Exchange Server 
 

@@ -2,7 +2,7 @@
 title: Vista VoIPDetails
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
 description: La vista VoIPDetails almacena información sobre sesiones punto a punto, donde al menos un usuario es un usuario voIP. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 8e647f79953efc507e63aa4f19e6f1deba53d7a1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 666959270167c5d1322cacef4acbbeb1a0d22dc9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765088"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833264"
 ---
 # <a name="voipdetails-view"></a>Vista VoIPDetails
  

@@ -2,7 +2,7 @@
 title: Instalar y crear bases de datos
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Seleccione las bases de datos que desee crear para la implementación. De forma predeterminada, la base de datos se creará en el SQL Server definido en el sitio definido y se implementarán y configurarán automáticamente los archivos de base de datos en función del SQL Server en el que se colocan las bases de datos.
-ms.openlocfilehash: 86e5b83a32eef00f331b00ea2ca45344f707cb8a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9dd5e0f0ce800489ab937feae1cda68809540d81
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761168"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849113"
 ---
 # <a name="install-and-create-databases"></a>Instalar y crear bases de datos
 

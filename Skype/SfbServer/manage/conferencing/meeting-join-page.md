@@ -2,7 +2,7 @@
 title: Configurar la página de unión a la reunión en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
 description: 'Resumen: obtenga información sobre cómo configurar la página de unión a la reunión en Skype Empresarial Server.'
-ms.openlocfilehash: 39a9fd42fd7d1017ece572856f6d85a09e1f55fe
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a1f30d2c9bf803b4c41ed4053709b4869f163757
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743566"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832094"
 ---
 # <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>Configurar la página de unión a la reunión en Skype Empresarial Server
  

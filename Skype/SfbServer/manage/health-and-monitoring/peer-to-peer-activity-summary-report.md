@@ -2,7 +2,7 @@
 title: Informe de resumen de actividad punto a punto en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 'Summary: Learn about the Peer-to-Peer Activity Summary Report in Skype Empresarial Server.'
-ms.openlocfilehash: 0614e113ad258bd66f436d0dc74106ddd35a26cd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 876d12b74fa34d745a7e94d31ecc19997f337e40
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774830"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831994"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Informe de resumen de actividad punto a punto en Skype Empresarial Server
  

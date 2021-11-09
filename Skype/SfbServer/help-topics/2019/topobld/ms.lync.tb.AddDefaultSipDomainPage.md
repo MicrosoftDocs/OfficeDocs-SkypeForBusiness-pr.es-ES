@@ -2,7 +2,7 @@
 title: Agregar dominio Sip predeterminado
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b9dd496e-d43b-42e4-9e70-a70abb79cdc3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Especifique el dominio principal de protocolo de inicio de sesión (SIP) que desea que admita la implementación. El dominio SIP principal puede ser el mismo o diferente del dominio de servicios de dominio de Active Directory. Por ejemplo, el dominio de Active Directory podría ser fabrikam.net y podría especificar que el dominio SIP principal fuera contoso.net.
-ms.openlocfilehash: 30204e60624560b0f0d09ab88d9b6899d0181ee9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bf7d01b96dd3d720c26549640111c572bee69975
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769388"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858497"
 ---
 # <a name="add-default-sip-domain"></a>Agregar dominio SIP predeterminado
  

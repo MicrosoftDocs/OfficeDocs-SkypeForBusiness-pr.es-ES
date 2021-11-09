@@ -2,7 +2,7 @@
 title: Lista de tablas de cumplimiento del servidor de chat persistente en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
 description: El esquema de base de datos de cumplimiento de chat persistente consta de las tablas siguientes.
-ms.openlocfilehash: 673fe278f4b68af5e5d46925a6ef6184cb8cd47b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cc4a40d5c2fa80559ddb2ba2cb713c078b4af357
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771896"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833254"
 ---
 # <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>Lista de tablas de cumplimiento del servidor de chat persistente en Skype Empresarial Server
  

@@ -2,7 +2,7 @@
 title: Exclusiones de análisis antivirus para Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Información general sobre la interoperación del antivirus con Skype Empresarial Server.
-ms.openlocfilehash: 105abd3618c5e869681edc31321a07ab0bce9d57
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8a4ffae692704755753fbdaa2c84207af796d75d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737656"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858997"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusiones de análisis antivirus para Skype Empresarial Server
 
