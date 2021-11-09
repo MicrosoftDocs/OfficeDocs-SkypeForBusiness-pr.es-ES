@@ -1,6 +1,6 @@
 ---
 title: Incorporar compatibilidad con Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0663712bb676519019785d3639fc3712d3f03d0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 54e4696e1f50f16e9c98fd6543e8a4ca2bb021a1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771739"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849493"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Incorporar compatibilidad con Microsoft Teams
 

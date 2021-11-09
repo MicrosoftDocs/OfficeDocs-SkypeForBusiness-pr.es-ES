@@ -2,7 +2,7 @@
 title: Expansor de configuración de próximo salto de mediación
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 description: Se especifica el servidor de mediación o el grupo de servidores de mediación del próximo salto seleccionando el grupo de servidores front-end Enterprise Edition o el servidor front-end Standard Edition en la lista desplegable. Un servidor o un grupo de servidores director no son una selección válida para el siguiente salto de un servidor de mediación o un grupo de servidores de mediación; por lo tanto, no figurarán en la lista. Haga clic en Aceptar para aceptar y guardar los cambios. Haga clic en Cancelar para descartar los cambios y salir de la página de propiedades.
-ms.openlocfilehash: 923592fc6e64762c6e8b78b23c754b1c9b6b8cca
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 796e1b8ca4e5b986aaad04512d1ac69fbe8d498d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744186"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830974"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>Expansor de configuración de próximo salto de mediación
  

@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
 ms:contentKeyID: 48185669
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Si implementas Skype Empresarial en la organización, puedes federar con los dominios de uno o más Skype Empresarial online. '
-ms.openlocfilehash: 7d41073aadae59c6b01c7eeeb1c5072a6ca21e24
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6b8a22dd4b45f31be9ad4433b486fe3122ae868c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747146"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836402"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Configurar la compatibilidad de federación para un cliente Skype Empresarial Online en Skype Empresarial Server
 

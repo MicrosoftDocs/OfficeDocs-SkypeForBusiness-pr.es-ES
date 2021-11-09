@@ -2,7 +2,7 @@
 title: Cifrado para Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype Empresarial Server TLS y MTLS para cifrar mensajes instantáneos. Todo el tráfico de servidor a servidor requiere MTLS, independientemente de si el tráfico se limita a la red interna o si atraviesa el perímetro de red interno. Al conectar Skype Empresarial Server a sistemas IPPBX de terceros o troncos SIP TLS es opcional, pero se recomienda encarecidamente entre el servidor de mediación y la puerta de enlace multimedia. Si TLS está configurado en este vínculo, se requiere MTLS. Por lo tanto, la puerta de enlace debe configurarse con un certificado de una CA de confianza del servidor de mediación.
-ms.openlocfilehash: 5a7f4d562c3433a2ca44c61659aa4ca2fe7ed271
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3ee649f62e2855f959b2ee9fdc25bdb2d77fa6e9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746706"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849723"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Cifrado para Skype Empresarial Server
  

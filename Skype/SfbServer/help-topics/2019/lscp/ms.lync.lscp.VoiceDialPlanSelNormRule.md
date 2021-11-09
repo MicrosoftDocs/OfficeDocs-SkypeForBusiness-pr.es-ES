@@ -2,7 +2,7 @@
 title: Seleccionar reglas de normalización
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 ROBOTS: NOINDEX, NOFOLLOW
 description: Las reglas de normalización .NET Framework expresiones regulares para traducir los números de teléfono marcados al formato E.164. Cada plan de marcado debe tener asignadas una o más reglas de normalización.
-ms.openlocfilehash: 5bb747009b7a3024f776686993c7796b25d37b30
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6fa4a6601e5b8f34f9fefeae30d826a6b2cda74f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745193"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856057"
 ---
 # <a name="select-normalization-rules"></a>Seleccionar reglas de normalización
  

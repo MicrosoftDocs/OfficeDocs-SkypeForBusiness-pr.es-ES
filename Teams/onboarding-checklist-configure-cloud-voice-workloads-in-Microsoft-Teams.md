@@ -1,6 +1,6 @@
 ---
 title: 'Lista de comprobación de incorporación: configurar cargas de trabajo de voz en la nube Microsoft Teams'
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/13/2018
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 47a9501bcccd867eeef57e1297a273d499ff8abb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7c0c09f2574c3b470e31d3402b45cfadf403626f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775930"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828473"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>Configurar cargas de trabajo de voz en la nube en Microsoft Teams
 

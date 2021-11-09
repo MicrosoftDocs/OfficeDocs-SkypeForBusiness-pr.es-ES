@@ -2,7 +2,7 @@
 title: Directiva de ubicación Crear nuevo o editar existente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede configurar directivas de ubicación para determinar si enhanced 9-1-1 (E9-1-1) está habilitado y cómo se usa, así como cómo se usa la información de ubicación para los usuarios y los contactos.
-ms.openlocfilehash: 8f45fefbd13d20e5bdbef2500b17a394f544aad1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 95f11519421926074201d02a92bcfc64758ed015
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764648"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863007"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Directiva de ubicación: Crear nuevos o editar los existentes
 

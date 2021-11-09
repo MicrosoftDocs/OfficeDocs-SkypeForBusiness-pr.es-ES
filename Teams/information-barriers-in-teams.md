@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d0452ff05b368e00875f31c365db59ec13d0ec7
-ms.sourcegitcommit: 9033c0c998c95ff37d0afd13c5c3ba598d58feb6
+ms.openlocfilehash: bae5efb39f6d395d96b455df52167ee39ced6da2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60607404"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828523"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de información en Microsoft Teams
 
@@ -189,7 +189,7 @@ El modo barreras de información ayuda a fortalecer quién se puede agregar o qu
 - **Abrir:** esta configuración es el modo IB predeterminado para todos los grupos existentes que se aprovisionaron antes de habilitar las barreras de información. En este modo, no hay directivas del IB aplicables.
 - **Implícito:** esta configuración es el modo IB predeterminado cuando se aprovisiona un equipo después de habilitar las barreras de información. El modo implícito le permite agregar todos los usuarios compatibles en el grupo.
 
-Microsoft 365 Los grupos creados antes de activar una directiva de barrera de información se establecen automáticamente en *modo* Abierto de forma predeterminada. Una vez que active las directivas del IB en su inquilino, se le obligaría a actualizar el modo que reevaluará los grupos y sitios y dará como resultado que los usuarios que no cumplan se quiten automáticamente de estos grupos y sitios. Si necesita cambiar  la configuración de modo abierto en grupos conectados Teams existentes para cumplir los requisitos de cumplimiento de su organización, tendrá que actualizar los modos [del IB](/sharepoint/information-barriers.md#view-and-manage-IB-mode-as-an-administrator-with-SharePoint-PowerShell) para los sitios SharePoint conectados al equipo de Teams.
+Microsoft 365 Los grupos creados antes de activar una directiva de barrera de información se establecen automáticamente en *modo* Abierto de forma predeterminada. Una vez que active las directivas del IB en su inquilino, se le obligaría a actualizar el modo que reevaluará los grupos y sitios y dará como resultado que los usuarios que no cumplan se quiten automáticamente de estos grupos y sitios. Si necesita cambiar  la configuración de modo abierto en grupos conectados Teams existentes para cumplir los requisitos de cumplimiento de su organización, tendrá que actualizar los modos [del IB](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) para los sitios SharePoint conectados al equipo de Teams.
 
 Use el cmdlet [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) con el parámetro *InformationBarrierMode* que corresponde al modo que desea usar para los segmentos. La lista de valores permitidos para *el parámetro InformationBarrierMode* son *Open* e *Implicit*.
 

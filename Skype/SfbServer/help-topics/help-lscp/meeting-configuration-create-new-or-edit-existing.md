@@ -2,7 +2,7 @@
 title: Configuración de reunión Crear nuevo o editar existente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 description: Los ajustes de configuración de reunión definen la experiencia de unión de los usuarios a conferencias programadas por usuarios. Estas opciones solo se aplican a reuniones programadas. No se aplican a reuniones ad hoc creadas haciendo clic en la opción Reunirse ahora en el cliente.
-ms.openlocfilehash: 5812c73fd3f72d3c61994a95c977f9d4046be07f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2ed752300cd306a17c5f5766d1b87c328ad0d517
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742286"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862817"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuración de reuniones: Crear nuevos o editar los existentes
 

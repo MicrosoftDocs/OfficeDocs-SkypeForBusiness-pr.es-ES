@@ -1,6 +1,6 @@
 ---
 title: Teléfono de números para Nueva Zelanda
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Nueva Zelanda para Microsoft Teams.
-ms.openlocfilehash: bcc35abd46cd2efd199b95ec5659352eb5832ea3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 549dc8706c38ee0190fef7f440b194594ea05560
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774520"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830804"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>Teléfono de números para Nueva Zelanda
 

@@ -2,7 +2,7 @@
 title: Seleccionar traducción de reglas de números de llamada
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: 'El cuadro de diálogo Seleccionar reglas de traducción de números de llamada muestra las reglas de traducción configuradas para su implementación. Para obtener información detallada sobre las reglas de traducción, vea los temas siguientes:'
-ms.openlocfilehash: faeafc361b6471744746d6fc8cd9676afb07342e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bd799c496863739cab141f7918d29f841a50a7b0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748156"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830394"
 ---
 # <a name="select-calling-number-rules-translation"></a>Seleccionar traducción de reglas de números de llamada
 

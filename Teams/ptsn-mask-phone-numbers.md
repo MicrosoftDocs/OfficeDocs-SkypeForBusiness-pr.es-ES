@@ -1,6 +1,6 @@
 ---
 title: Enmascarar números de teléfono en Microsoft Teams reuniones
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: moakram
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo enmascarar números de teléfono Microsoft Teams reuniones
-ms.openlocfilehash: d34d2f38a3a1fe2219816184a5f127312cd0475e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: afdbaa4f2f437728aad14e3731ab3e26ba90f36d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758272"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828433"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Enmascarar números de teléfono en Microsoft Teams reuniones
 

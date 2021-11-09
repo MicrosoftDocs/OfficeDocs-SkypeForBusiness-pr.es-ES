@@ -2,7 +2,7 @@
 title: Skype Empresarial Server de administración de 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: 'Resumen: obtenga información sobre las herramientas de administración de servicios Skype Empresarial Server 2015.'
-ms.openlocfilehash: 89adf7ab2ad71441abf765de75537eec43b8ce17
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 72beb193ac4af90ea08d172d8b93068bf04e3a37
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776180"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849793"
 ---
 # <a name="skype-for-business-server-2015-management-tools"></a>Skype Empresarial Server de administración de 2015
  

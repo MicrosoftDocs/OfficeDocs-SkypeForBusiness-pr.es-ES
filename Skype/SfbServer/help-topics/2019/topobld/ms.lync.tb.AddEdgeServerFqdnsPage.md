@@ -2,7 +2,7 @@
 title: Agregar FQDN de servidor perimetral
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: Debe especificar el nombre de dominio completo para el servicio perimetral de acceso. Si no seleccionó la opción Usar una sola dirección IP FQDN en la página Seleccionar características, también debe especificar un FQDN para el servicio perimetral de conferencia web y para el servicio perimetral &amp; A/V.
-ms.openlocfilehash: 57e34eaecd4c2d1b1210dcee51cc9675571183f9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9324cb0fb546eaf1688a2239e8cf887c698f2d77
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776850"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855977"
 ---
 # <a name="add-edge-server-fqdn"></a>Agregar FQDN de servidor perimetral
  

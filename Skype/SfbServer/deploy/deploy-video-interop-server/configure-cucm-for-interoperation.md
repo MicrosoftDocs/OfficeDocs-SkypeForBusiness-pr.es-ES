@@ -2,7 +2,7 @@
 title: Configurar CUCM para interoperación con Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 'Resumen: configure CUCM para que funcione con Skype Empresarial Server.'
-ms.openlocfilehash: 809ad19e89f398c507673ec677b4ce882d341327
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2e5e2cfc207fd9c4e52f7cd4da553dc756fddb4c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741326"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863097"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Configurar CUCM para interoperación con Skype Empresarial Server
  

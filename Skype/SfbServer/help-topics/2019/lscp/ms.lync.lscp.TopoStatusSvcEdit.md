@@ -2,7 +2,7 @@
 title: Detalles del servicio de vista de topología
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 706bc0921f2431d695cefef17ff1cf300b56c239
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 135aac988c823b105efe1bcadf9a22bfbd22ee99
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750969"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842272"
 ---
 # <a name="topology-view-service-detail"></a>Topología: Ver detalle del servicio
 

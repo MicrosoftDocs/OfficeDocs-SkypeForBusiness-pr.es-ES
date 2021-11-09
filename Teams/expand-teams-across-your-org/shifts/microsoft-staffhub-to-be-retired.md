@@ -1,6 +1,6 @@
 ---
 title: Microsoft StaffHub se ha retirado
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: lisawu, gumariam
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 64bb304ab7c29c0266e4df22f36c96587c0fd10e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8defeba782c49d1bd0aa22e438526dcf297a015b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774590"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849563"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub se ha retirado
 

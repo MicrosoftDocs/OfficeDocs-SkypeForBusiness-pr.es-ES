@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Proporciona a los profesionales de TI vínculos a la información de actualización más reciente para versiones perpetuas de Skype Empresarial 2016, Skype Empresarial 2015 y clientes de Lync 2013
-ms.openlocfilehash: 574deac22c50cfedc71d7d289cfcbe0ecc9e8286
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: c5afa83fa2c85a2a5812f5d192345755800e502d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013944"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863217"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Actualizaciones más recientes para las versiones de Skype Empresarial que usan Windows Installer (MSI)
 
@@ -253,7 +253,7 @@ Nombre del paquete|Número de KB|Fecha de lanzamiento|
 
 ### <a name="lync-basic-2013-software"></a>Lync Basic 2013 Software
 
-|Nombre del paquete|Fecha de lanzamiento| |
+|Nombre del paquete|Fecha de lanzamiento|&nbsp;|
 |:--- |:--- |:--- |
 |[Lync Basic 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35451) | Octubre de 2012 |
 |[Lync Basic 2013 (64 bits)](https://www.microsoft.com/download/details.aspx?id=35450) | Octubre de 2012 |

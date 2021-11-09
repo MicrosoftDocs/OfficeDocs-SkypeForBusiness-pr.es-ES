@@ -1,6 +1,6 @@
 ---
 title: Disponibilidad en Kazajistán
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Kazajistán.
-ms.openlocfilehash: aeaff9031535df5e7d727f3386ae4264efa62817
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b69d4634ee91e002c0f86fbe19d57dc20d3dd582
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777540"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836088"
 ---
 # <a name="availability-in-kazakhstan"></a>Disponibilidad en Kazajistán
 

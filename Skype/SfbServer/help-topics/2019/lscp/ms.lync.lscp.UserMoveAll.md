@@ -2,7 +2,7 @@
 title: Mover todos los usuarios
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 ROBOTS: NOINDEX, NOFOLLOW
 description: En el cuadro de diálogo Mover usuarios, puede seleccionar los grupos de origen y destino para mover las cuentas de usuario de un grupo a otro en su implementación.
-ms.openlocfilehash: 112815c6dcb3f1ad70eac16c8c0c6b86c4b040a4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bda7f614ca8ab113c685c55459a69fac187fbc65
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771258"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849203"
 ---
 # <a name="move-all-users"></a>Mover todos los usuarios
 

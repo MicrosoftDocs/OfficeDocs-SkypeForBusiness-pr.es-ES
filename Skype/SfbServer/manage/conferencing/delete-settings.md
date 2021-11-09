@@ -2,7 +2,7 @@
 title: Eliminar las opciones de configuración de reunión en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: 'Summary: Learn how to delete meeting configuration settings in Skype Empresarial Server.'
-ms.openlocfilehash: 44b1808c5e5d27bb7dd8aef7ebcef9e26923bb6c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 95eda4da393f1eb677fc331ffb824e6222e35113
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737836"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830904"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>Eliminar las opciones de configuración de reunión en Skype Empresarial Server
  

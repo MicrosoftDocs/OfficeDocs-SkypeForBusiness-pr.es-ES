@@ -2,7 +2,7 @@
 title: Crear un recurso compartido de archivos en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Summary: Learn how to create a Windows Server file share as part of the installation of Skype Empresarial Server. Descargue una versión de prueba Skype Empresarial Server desde el Centro de evaluación de Microsoft en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: c14d7a765a4b55e1fe909f33f4e038062427872b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c2b1048d911243987313568acde2bccea068fff9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751179"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842382"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Crear un recurso compartido de archivos en Skype Empresarial Server
  
@@ -66,7 +66,7 @@ Vea los pasos de vídeo para **crear un recurso compartido de archivos:**
 > [!NOTE]
 >Si el almacén de archivos está hospedado en un recurso compartido DFS, se recibirá la siguiente advertencia:
 
-Advertencia: No se puede tener acceso a permisos de uso compartido para " \\ <domain> \<share> ".
+`Warning: Unable to access share permissions for "\\<domain>\<share>".`
 
 >Esto se espera si no es administrador en el servidor de archivos o si se trata de un recurso compartido del sistema de archivos distribuido (DFS). Si los permisos de recurso compartido ya se han configurado, esta advertencia puede omitirse. Si se trata de un recurso compartido nuevo, consulte la documentación para obtener más información sobre cómo configurar manualmente los permisos de recurso compartido.
 

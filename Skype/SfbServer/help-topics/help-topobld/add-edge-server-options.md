@@ -2,7 +2,7 @@
 title: Agregar opciones de servidor perimetral
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 description: 'Seleccione cada una de las funciones que desea habilitar para el grupo de servidores perimetrales. De forma predeterminada, el grupo de servidores perimetrales admite usuarios remotos de la organización que inician sesión desde fuera del firewall mediante una red privada virtual (VPN). También tiene las siguientes opciones de función del grupo de servidores perimetrales:'
-ms.openlocfilehash: 9f7df9ca951274bf7fea309c74577c6c79bd9822
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e9da9c45335cf023dc7da99656fe8a266164efc9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762728"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862627"
 ---
 # <a name="add-edge-server-options"></a>Agregar opciones de servidor perimetral
 

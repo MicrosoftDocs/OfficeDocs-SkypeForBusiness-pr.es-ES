@@ -1,6 +1,6 @@
 ---
 title: 'Reunión en primer lugar: Microsoft Teams'
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2aafa115d6da600df17ac18e4b1af66358efb16b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8ac722e48a570571f7ac8e5937a2fe7b2ae778e5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741646"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849543"
 ---
 # <a name="meetings-first"></a>Reuniones primero
 

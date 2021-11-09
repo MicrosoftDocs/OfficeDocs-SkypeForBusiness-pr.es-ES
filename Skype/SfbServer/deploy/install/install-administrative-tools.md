@@ -2,7 +2,7 @@
 title: Instalar herramientas administrativas en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 'Resumen: obtenga información sobre cómo instalar las herramientas administrativas necesarias para una instalación de Skype Empresarial Server. Descargue una versión de prueba Skype Empresarial Server desde el Centro de evaluación de Microsoft en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: d2f80627aceee47559a06ab604e1cc8827d310b8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 686b0af861638f446fc490f1d99489d4f4747a0b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753253"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849423"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Instalar herramientas administrativas en Skype Empresarial Server
  

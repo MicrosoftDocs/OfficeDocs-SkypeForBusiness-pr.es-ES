@@ -2,7 +2,7 @@
 title: Exchange Mensajería unificada (herramienta de planeación)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype Empresarial Server 2015 admite la integración con Exchange mensajería unificada (UM) para combinar la mensajería de voz y la mensajería de correo electrónico en una única infraestructura de mensajería.
-ms.openlocfilehash: 5fcff1051fc90e63ff409845fb5e26b826668a3f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6c96ab8a791bf95f8a53c99c8c4ae7977c739c09
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760123"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842252"
 ---
 # <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Exchange Mensajería unificada (herramienta de planeación) en Skype Empresarial 2015
 

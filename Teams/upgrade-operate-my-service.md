@@ -1,6 +1,6 @@
 ---
 title: Operaciones para Microsoft Teams| Administración de servicios | Calidad
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2a43d2facf540c7239ff8da4f528eabb0a96ad2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c70b3c8300a8a11c8687da03c35991f80a37c8fd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768278"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849513"
 ---
 # <a name="operate-your-service"></a>Ejecutar los servicios
 

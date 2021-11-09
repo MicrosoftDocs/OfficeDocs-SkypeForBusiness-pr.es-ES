@@ -2,7 +2,7 @@
 title: Página de opción Instalar base de datos
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Puede configurar opciones avanzadas para la colocación de archivos de base de datos y registro en su SQL Server. Las opciones disponibles son:'
-ms.openlocfilehash: 39cf85f0c37a9cb3b97e43d09ab6bb5695655ba1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4ef2f2aa48b016a8472f53ccef46ef81a5afd6fb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758632"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830434"
 ---
 # <a name="install-database-options-page"></a>Página de opción Instalar base de datos
 

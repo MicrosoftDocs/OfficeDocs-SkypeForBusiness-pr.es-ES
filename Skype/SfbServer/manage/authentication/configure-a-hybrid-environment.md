@@ -2,7 +2,7 @@
 title: Configurar la autenticación de servidor a servidor para un Skype Empresarial Server híbrido
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 'Resumen: configure la autenticación de servidor a servidor para un entorno Skype Empresarial Server híbrido.'
-ms.openlocfilehash: fcec1e982af0c5ad778a83fe6af9b58fbd44c7e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 617c388dc4c4120beb457e4e2c90246e06c76d6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746076"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830934"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Configure la autenticación de servidor a servidor para un Skype Empresarial Server híbrido.
 

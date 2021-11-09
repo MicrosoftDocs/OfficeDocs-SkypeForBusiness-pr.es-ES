@@ -2,7 +2,7 @@
 title: Requisitos del entorno del servidor perimetral en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Summary: Learn about the environmental requirements for Edge Server in Skype Empresarial Server.'
-ms.openlocfilehash: 7dbd2b3c40b60f69813edbfee29a29fb003fb703
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ce545b6d8242db34a716d386fdca9149c0296a8c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749969"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830814"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Requisitos del entorno del servidor perimetral en Skype Empresarial Server
  
@@ -181,12 +181,12 @@ Las conferencias web y las direcciones IP públicas perimetrales A/V son direcci
     
 |**Location**|**Tipo**|**Port**|**Registro DNS o FQDN**|**Dirección IP o FQDN**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|DNS externo  <br/> |Un registro  <br/> |N/D  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 <br/> **private:** 10.45.16.10 <br/> |Una interfaz externa para el servicio perimetral de acceso. Necesitará uno para cada dominio SIP con Skype Empresarial usuarios.  <br/> |
-|DNS externo  <br/> |Un registro  <br/> |N/D  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 <br/> **private:** 10.45.16.20 <br/> |Una interfaz externa para el servicio perimetral de conferencia web.  <br/> |
-|DNS externo  <br/> |Un registro  <br/> |N/D  <br/> |av.contoso.com  <br/> |**public:** 131.107.155.30 <br/> **private:** 10.45.16.30 <br/> |Una interfaz externa para el servicio perimetral A/V.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |ND  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 <br/> **private:** 10.45.16.10 <br/> |Una interfaz externa para el servicio perimetral de acceso. Necesitará uno para cada dominio SIP con Skype Empresarial usuarios.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |ND  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 <br/> **private:** 10.45.16.20 <br/> |Una interfaz externa para el servicio perimetral de conferencia web.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |ND  <br/> |av.contoso.com  <br/> |**public:** 131.107.155.30 <br/> **private:** 10.45.16.30 <br/> |Una interfaz externa para el servicio perimetral A/V.  <br/> |
 |DNS externo  <br/> |registro SRV  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para el servicio perimetral de acceso. Este registro SRV es necesario para que los Skype Empresarial Server, Lync Server 2013 y Lync Server 2010 funcionen externamente. Necesitará uno para cada dominio con Skype Empresarial usuarios.  <br/> |
 |DNS externo  <br/> |registro SRV  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para el servicio perimetral de acceso. Este registro SRV es necesario para la detección automática de DNS de socios federados denominados dominios SIP permitidos. Necesitará uno para cada dominio con Skype Empresarial usuarios.  <br/> |
-|DNS interno  <br/> |Un registro  <br/> |N/D  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10  <br/> |La interfaz interna del servidor perimetral consolidado.  <br/> |
+|DNS interno  <br/> |Un registro  <br/> |ND  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10  <br/> |La interfaz interna del servidor perimetral consolidado.  <br/> |
    
 ### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>Registros DNS para escenarios de servidor perimetral de hardware y DNS escalado
 
@@ -255,12 +255,12 @@ Aquí hay otras configuraciones posibles:
     
 |**Location**|**Tipo**|**Port**|**Registro DNS o FQDN**|**Dirección IP o FQDN**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|DNS externo  <br/> |Un registro  <br/> |N/D  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 y 131.107.155.11 <br/> **private:** 10.45.16.10 y 10.45.16.11 <br/> |Una interfaz externa para el servicio perimetral de acceso. Necesitará uno para cada dominio SIP con Skype Empresarial usuarios.  <br/> |
-|DNS externo  <br/> |Un registro  <br/> |N/D  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 y 131.107.155.21 <br/> **private:** 10.45.16.20 y 10.45.16.21 <br/> |Una interfaz externa para el servicio perimetral de conferencia web.  <br/> |
-|DNS externo  <br/> |Un registro  <br/> |N/D  <br/> |av.contoso.com  <br/> |**public:** 131.107.155.30 y 131.107.155.31 <br/> **private:** 10.45.16.30 y 10.45.16.31 <br/> |Una interfaz externa para el servicio perimetral A/V.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |ND  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 y 131.107.155.11 <br/> **private:** 10.45.16.10 y 10.45.16.11 <br/> |Una interfaz externa para el servicio perimetral de acceso. Necesitará uno para cada dominio SIP con Skype Empresarial usuarios.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |ND  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 y 131.107.155.21 <br/> **private:** 10.45.16.20 y 10.45.16.21 <br/> |Una interfaz externa para el servicio perimetral de conferencia web.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |ND  <br/> |av.contoso.com  <br/> |**public:** 131.107.155.30 y 131.107.155.31 <br/> **private:** 10.45.16.30 y 10.45.16.31 <br/> |Una interfaz externa para el servicio perimetral A/V.  <br/> |
 |DNS externo  <br/> |registro SRV  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para el servicio perimetral de acceso. Este registro SRV es necesario para que los Skype Empresarial Server, Lync Server 2013 y Lync Server 2010 funcionen externamente. Necesitará uno para cada dominio con Skype Empresarial.  <br/> |
 |DNS externo  <br/> |registro SRV  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para el servicio perimetral de acceso. Este registro SRV es necesario para la detección automática de DNS de socios federados denominados dominios SIP permitidos. Necesitará uno para cada dominio con Skype Empresarial.  <br/> |
-|DNS interno  <br/> |Un registro  <br/> |N/D  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10 y 172.25.33.11  <br/> |La interfaz interna del servidor perimetral consolidado.  <br/> |
+|DNS interno  <br/> |Un registro  <br/> |ND  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10 y 172.25.33.11  <br/> |La interfaz interna del servidor perimetral consolidado.  <br/> |
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>Registro DNS para federación (todos los escenarios)
 
@@ -329,7 +329,7 @@ Independientemente de si está haciendo un solo servidor perimetral o un grupo d
 |**Componente**|**Nombre del sujeto**|**Nombres alternativos de sujeto (SAN)/order**|**Notas**|
 |:-----|:-----|:-----|:-----|
 |Borde externo  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |Este es el certificado que necesita solicitar a una entidad de certificación pública. Tendrá que asignarse a las interfaces perimetrales externas para lo siguiente:  <br/> • Perímetro de acceso  <br/> • Servidor perimetral de conferencia web  <br/> • Autenticación de audio y vídeo  <br/> <br/>La buena noticia es que los SAN se agregan automáticamente a la solicitud de certificado y, por lo tanto, el certificado después de enviar la solicitud, en función de lo que definió para esta implementación en el Generador de topologías. Solo necesitará agregar entradas SAN para cualquier dominio SIP adicional u otras entradas que necesite admitir. ¿Por qué sip.contoso.com replica en esta instancia? Esto también sucede automáticamente y es necesario para que las cosas funcionen correctamente.  <br/><br/> **Nota:** Este certificado también se puede usar para la conectividad de mensajería instantánea pública. No es necesario hacer nada diferente con él, pero en versiones anteriores de esta documentación, se enumeraba como una tabla independiente y ahora no lo es. <br/> |
-|Perímetro interno  <br/> |sfbedge.contoso.com  <br/> |N/D  <br/> |Puede obtener este certificado de una CA pública o una CA interna. Tendrá que contener el servidor EKU (uso mejorado de clave) y lo asignará a la interfaz perimetral interna.  <br/> |
+|Perímetro interno  <br/> |sfbedge.contoso.com  <br/> |ND  <br/> |Puede obtener este certificado de una CA pública o una CA interna. Tendrá que contener el servidor EKU (uso mejorado de clave) y lo asignará a la interfaz perimetral interna.  <br/> |
    
 Si necesita un certificado para el Protocolo extensible de mensajería y presencia (XMPP), tendrá un aspecto idéntico a las entradas de tabla perimetral externa anteriores, pero tendrá las dos entradas san adicionales siguientes:
   
