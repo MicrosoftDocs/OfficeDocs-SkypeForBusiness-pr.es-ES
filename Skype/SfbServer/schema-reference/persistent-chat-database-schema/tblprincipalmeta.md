@@ -2,7 +2,7 @@
 title: tblPrincipalMeta
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
 description: tblPrincipalMeta contiene las entidades de seguridad que deben actualizarse desde servicios de dominio de Active Directory.
-ms.openlocfilehash: c5e8a4464b025b2e1d1b5775ca139b76a95ce633
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7922d25d62561f9e9d3236962b1083a670474af2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756189"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857207"
 ---
 # <a name="tblprincipalmeta"></a>tblPrincipalMeta
  

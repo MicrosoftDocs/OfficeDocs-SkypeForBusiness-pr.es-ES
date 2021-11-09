@@ -1,7 +1,7 @@
 ---
 title: Teams para Administración Pública
 description: Obtenga información sobre cómo planear e implementar Teams en Microsoft 365 entornos gubernamentales.
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.topic: article
 manager: serdars
@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 822d450b63dc96f050532eb539bb5880b104194d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4f41dbffa5d2e0b9cd979d280e1cf865f41d217a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777550"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857157"
 ---
 # <a name="teams-for-government"></a>Teams para Administración Pública
 

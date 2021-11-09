@@ -2,7 +2,7 @@
 title: Tabla de sesión
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: Cada registro representa una sesión que implica audio o audio y vídeo. Contiene información general sobre la sesión. Una sesión se define como un cuadro de diálogo del Protocolo de inicio de sesión (SIP) de audio o vídeo entre dos puntos de conexión.
-ms.openlocfilehash: bc81bb3c67f91b975643929170354c7b152d2237
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 044d7d2626ca0d04bb55b7a060d39e7ec330312d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768328"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840932"
 ---
 # <a name="session-table"></a>Tabla de sesión
  

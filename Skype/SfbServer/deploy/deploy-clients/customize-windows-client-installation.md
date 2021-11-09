@@ -2,7 +2,7 @@
 title: Personalizar Windows de cliente en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
 description: 'Resumen: Información general sobre los métodos de instalación y las herramientas para Skype Empresarial.'
-ms.openlocfilehash: ba859ba9aa73b69caa471d698a9980719ba6cdea
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b0eeae1ae0e758c14ea6ae5adc3be6cbf5c36c2d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773350"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832924"
 ---
 # <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Personalizar Windows de cliente en Skype Empresarial Server
  

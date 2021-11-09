@@ -2,7 +2,7 @@
 title: Escenarios de rendimiento para la Skype Empresarial Server de esfuerzo y rendimiento de 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: Tareas que tendrás que hacer para configurar Skype Empresarial Server 2015 para realizar pruebas de carga y rendimiento con la Herramienta de esfuerzo y rendimiento.
-ms.openlocfilehash: a56e2ec12547937ef44973932ef79d3405573039
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0a04d94bc0c43b9de2043b9ee601a294b7945a45
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777260"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841112"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Escenarios de rendimiento para la Skype Empresarial Server de esfuerzo y rendimiento de 2015
  

@@ -2,7 +2,7 @@
 title: Reglas de traducción en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: Obtenga información sobre las reglas de traducción y la normalización de cadenas de marcado en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 535b98c53367689d3b3002fdda14fb8a706a7f3a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1ad2434a0f57e57f6d86b8bda0c9c2e7af6c3de9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746726"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841012"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>Reglas de traducción en Skype Empresarial Server
 

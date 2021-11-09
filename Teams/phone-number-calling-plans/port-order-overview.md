@@ -1,7 +1,7 @@
 ---
 title: ¿Qué es un pedido de portabilidad?
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenga información general sobre qué son los pedidos de portabilidad y cómo transferir números de teléfono de su proveedor de servicios a Teams.
-ms.openlocfilehash: 936c915a79f7271ba85830122e374840f1a7050b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a6ff4bffe4602eca7150a9f6c8c1b69782646e7c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740246"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833034"
 ---
 # <a name="whats-a-port-order"></a>¿Qué es un pedido de portabilidad?
 

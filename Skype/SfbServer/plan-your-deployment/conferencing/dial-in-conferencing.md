@@ -2,7 +2,7 @@
 title: Plan for dial-in conferencing in Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 'Resumen: lea este tema para obtener información sobre la planeación de conferencias de acceso telefónico local en Skype Empresarial Server.'
-ms.openlocfilehash: ec4bfdbb514f1027ff11098cc1ba78045faf1553
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 84d034ba358213a0f79548df6cc1ca027098633b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763528"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841092"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Plan for dial-in conferencing in Skype Empresarial Server
  

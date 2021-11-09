@@ -2,7 +2,7 @@
 title: Crear o modificar una colección de opciones de configuración de CDR en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 'Resumen: obtenga información sobre la grabación detallada de llamadas (CDR) en Skype Empresarial Server.'
-ms.openlocfilehash: 9e77cc7782116f317504cbbee98d0731d69ed5e8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d0057a8a7966307dd570ac1faed716484ca82331
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751749"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841252"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Crear o modificar una colección de opciones de configuración de CDR en Skype Empresarial Server
  

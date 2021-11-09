@@ -1,7 +1,7 @@
 ---
 title: Bloquear llamadas entrantes en Skype Empresarial Online
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -13,12 +13,12 @@ appliesto:
 - Skype for Business
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 6fa72103448d20d9c659eff32735fa5d14389509
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0c40bea45d569a8887f23c38a62efe03977ad461
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751399"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840632"
 ---
 # <a name="block-inbound-calls"></a>Bloquear llamadas entrantes
 

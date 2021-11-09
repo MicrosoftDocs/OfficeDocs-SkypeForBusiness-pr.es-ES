@@ -2,7 +2,7 @@
 title: Información general sobre características (herramienta de planeación)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype Empresarial Server Herramienta de planeación
-ms.openlocfilehash: 0b47d1dad12d4933f042217b4762d7bb4f766c6c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ee6578aeb51aa0cf9f6a4066c78d6038a057763b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758782"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832694"
 ---
 # <a name="feature-overview-planning-tool"></a>Información general sobre características (herramienta de planeación)
  

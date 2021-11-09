@@ -2,7 +2,7 @@
 title: Habilitar la grabación de detalles de llamadas en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 'Summary: Learn how to enable Call detail recording (CDR) records in Skype Empresarial Server.'
-ms.openlocfilehash: 7adfc44c97387fc99244b0d2dea1cd7f884b6e6e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7c987eccb9e75d1dc71f98e3cebea4003432523c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740586"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863587"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Habilitar la grabación de detalles de llamadas en Skype Empresarial Server
 

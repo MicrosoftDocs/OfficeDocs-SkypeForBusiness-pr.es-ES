@@ -2,7 +2,7 @@
 title: Administrar Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: 'Resumen: explore estos vínculos para obtener información sobre cómo administrar y mantener Skype Empresarial Server.'
-ms.openlocfilehash: 23312383a68b05de6d93e52b68f3b5c4c36192dd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 899d0b3b36c3ce7950f2a87bf7e3bc8027a35a08
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763606"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841192"
 ---
 # <a name="manage-skype-for-business-server"></a>Administrar Skype Empresarial Server 
 

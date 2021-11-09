@@ -2,7 +2,7 @@
 title: Iniciar o detener la captura de registro de CLS en Skype Empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Summary: Learn how to start or stop a Centralized Logging Service log capture session in Skype Empresarial Server 2015.'
-ms.openlocfilehash: 051ea00f65e6bdcce563c9f4e9d3c0f634e8c09b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 79210bffbf21046d1aaa5359761dbfcdeb1e6959
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774616"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848433"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Iniciar o detener la captura de registro de CLS en Skype Empresarial Server 2015
  

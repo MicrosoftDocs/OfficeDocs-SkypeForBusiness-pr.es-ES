@@ -2,7 +2,7 @@
 title: Tabla SessionDetails
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: Cada registro representa una sesión punto a punto, que puede ser una llamada de teléfono de VoIP a VoIP, una sesión de mensajería instantánea entre dos partes o cualquier otro tipo de sesión. Puede realizar una combinación de tabla con la tabla Multimedia para encontrar los detalles de cada medio implicado en esta sesión.
-ms.openlocfilehash: 2dee827e93da94378e529964b2911ff1f79793ef
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e7b89dc242fb3e4adec215948915218b579631ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762028"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863437"
 ---
 # <a name="sessiondetails-table"></a>Tabla SessionDetails
  

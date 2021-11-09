@@ -1,6 +1,6 @@
 ---
 title: Compartir en Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd8e31f83927c459f4a188f7316d000c13e5ef91
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9367a865c1eb3a8b71c60f492a8b222431c98d73
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774270"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832944"
 ---
 # <a name="share-to-teams-from-outlook"></a>Compartir a Teams desde Outlook
 

@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams Informe de usuarios bloqueados rtc
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -17,12 +17,12 @@ description: Use el informe usuarios bloqueados RTC en el centro de administraci
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef39298142b2cf3fcf16f1acaeba9c3a62e606e0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a89e7ead560e3782d7120884a047110118d2ecd0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742986"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840692"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft Teams Informe de usuarios bloqueados rtc
 

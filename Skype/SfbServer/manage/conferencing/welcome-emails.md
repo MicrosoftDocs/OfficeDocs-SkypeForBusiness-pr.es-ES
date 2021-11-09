@@ -2,7 +2,7 @@
 title: Enviar correo electrónico de bienvenida a los usuarios de acceso telefónico Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Summary: Learn how to welcome users to dial-in conferencing in Skype Empresarial Server.'
-ms.openlocfilehash: 64dd7086b1a40de0c0cc2e0b33a66257153541cd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 672e386c223e2b5b9f872334634ac315c9e900e1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772076"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848543"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Enviar correo electrónico de bienvenida a los usuarios de acceso telefónico Skype Empresarial Server
  

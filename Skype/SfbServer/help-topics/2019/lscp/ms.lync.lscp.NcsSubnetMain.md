@@ -2,7 +2,7 @@
 title: Asociar una subred
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a0d497d9-01ef-4b34-80dc-517622f9b260
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 835765fa6f6ab31207aec1b77298f7202d5dab25
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 25b5c5b339fee570ff4aef23401d5a565efe4a84
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775620"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831414"
 ---
 # <a name="associate-a-subnet"></a>Asociar una subred
 

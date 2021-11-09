@@ -2,7 +2,7 @@
 title: Alta disponibilidad (herramienta de planeación)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 ROBOTS: NOINDEX, NOFOLLOW
 description: El esquema de alta disponibilidad principal para la mayoría de los roles de servidor en Skype Empresarial Server se basa en la redundancia del servidor mediante agrupación. Si se produce un error en un servidor que ejecuta un rol de servidor determinado, los demás servidores del grupo que ejecutan el mismo rol asumen la carga de dicho servidor.
-ms.openlocfilehash: 57a12aeb3ea3997f160949d374f2d430137c32c2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3bd8d5f56055e75cfdccaaf7867c5b59feb9e39e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758772"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841712"
 ---
 # <a name="high-availability-planning-tool"></a>Alta disponibilidad (herramienta de planeación)
  

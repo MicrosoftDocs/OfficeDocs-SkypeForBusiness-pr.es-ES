@@ -2,7 +2,7 @@
 title: Administrador de estadísticas para Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/19/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3b945656-8241-40ed-a34d-0910bd9d3529
 description: 'Resumen: lea este tema para obtener información sobre el Administrador de estadísticas para Skype Empresarial Server, una herramienta eficaz que le permite ver Skype Empresarial Server datos de rendimiento y estado en tiempo real.'
-ms.openlocfilehash: ae3b87d7a30ce120addd363805c5a4513b6a132d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3720d2acd812e939c5d114a829a12ddb828dbbcc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778130"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857377"
 ---
 # <a name="statistics-manager-for-skype-for-business-server"></a>Administrador de estadísticas para Skype Empresarial Server
  

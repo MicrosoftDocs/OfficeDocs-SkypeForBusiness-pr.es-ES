@@ -2,7 +2,7 @@
 title: Estimación del uso y el tráfico de voz para Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 description: Puede usar la siguiente métrica para estimar el tráfico de usuarios en cada sitio y el número de puertos necesarios para admitir ese tráfico.
-ms.openlocfilehash: bfc5e35b839f3accc139f3f9a02fdb8436426462
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6c9dd60c2610e1c0a93e193f48b6363a0120255c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746856"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848413"
 ---
 # <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>Estimación del uso y el tráfico de voz para Skype Empresarial Server
  

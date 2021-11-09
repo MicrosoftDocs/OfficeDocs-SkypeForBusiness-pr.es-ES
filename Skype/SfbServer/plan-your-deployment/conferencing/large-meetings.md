@@ -2,7 +2,7 @@
 title: Planear reuniones grandes en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Resumen: lea este tema para obtener información sobre los procedimientos recomendados para implementar y administrar reuniones grandes en Skype Empresarial Server.'
-ms.openlocfilehash: 1196c1d5b2ff4fe6456d03f698b80589ef428b24
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a9ab532914a69f70cea6d54fb7935a7d8a44c98d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762228"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856547"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planear reuniones grandes en Skype Empresarial Server
  

@@ -1,6 +1,6 @@
 ---
 title: Actualizar Skype Empresarial implementación híbrida a Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24dc9deedc23456efcd1dc646ba05bff6ef818d8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ef173755673cf22ece6c3f8325b2d0392092c1eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777150"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840662"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Actualizar de una Skype Empresarial híbrida a Teams
 

@@ -2,7 +2,7 @@
 title: Tabla AudioStream
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Cada registro representa una secuencia de audio. Una línea de medios de audio normalmente contiene dos secuencias de audio.
-ms.openlocfilehash: 0ca913e042b988d20aad644af65fed7970d2afa8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b9a5e184a258115934d3583e4f6cde8f659fb9fe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763258"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856427"
 ---
 # <a name="audiostream-table"></a>Tabla AudioStream
  

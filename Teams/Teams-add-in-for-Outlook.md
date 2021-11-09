@@ -1,6 +1,6 @@
 ---
 title: Usar el complemento para reunión de Microsoft Teams en Outlook
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 687bd993eb972a1d459812a54f81e364b9d64a22
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 38787b6f3fe11c1dfd8a9883f06bf19206360ec6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749116"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840902"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 
@@ -114,7 +114,7 @@ Debido a algunas limitaciones de la versión inicial, Outlook para dispositivos 
 
 Como administrador, puede establecer una configuración de directiva de reuniones de Teams para controlar qué complemento para reunión de Outlook se usará para los *usuarios que estén en modo de aplicaciones aisladas*. Puede especificar si los usuarios que se encuentran en modo de aplicaciones aisladas pueden usar solamente el complemento para reunión de Microsoft Teams o los complementos para reunión de Microsoft Teams y Skype Empresarial para programar reuniones en Outlook.
 
-Solo puede aplicar esta directiva a los usuarios que se encuentren en modo de aplicaciones aisladas y tengan el parámetro **AllowOutlookAddIn** establecido en **True** en la directiva de reuniones de Microsoft Teams. Para conocer los pasos para configurar esta directiva, consulte [Configuración de la directiva de reunión: general](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode).
+Solo puede aplicar esta directiva a los usuarios que se encuentren en modo Aplicaciones aisladas y tengan el parámetro **AllowOutlookAddIn** establecido en **True** en la directiva de reuniones de Microsoft Teams. Para conocer los pasos para configurar esta directiva, consulte [Configuración de la directiva de reunión: general](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode).
 
 ## <a name="other-considerations"></a>Otras consideraciones
 

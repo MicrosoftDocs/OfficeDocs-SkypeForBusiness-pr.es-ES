@@ -2,7 +2,7 @@
 title: Conceptos básicos de topología para Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Resumen: elija la topología para Skype Empresarial Server. Obtenga información sobre la ubicación del servidor para Skype Empresarial Server.'
-ms.openlocfilehash: 3b6e1ce1038b9b5dbc39955f774660cfbdce1291
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9f28857d6fa8ddbbd77713e113f73314e8f9d3c8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770058"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856537"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Conceptos básicos de topología para Skype Empresarial Server
 

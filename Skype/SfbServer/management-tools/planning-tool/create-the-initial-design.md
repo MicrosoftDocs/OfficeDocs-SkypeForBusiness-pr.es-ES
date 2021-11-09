@@ -2,7 +2,7 @@
 title: Crear el diseño de topología inicial para Skype Empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Una vez que haya terminado de instalar la herramienta de planeación de Skype Empresarial Server, estará listo para iniciar la herramienta de planeación y empezar a diseñar la infraestructura Skype Empresarial Server 2015.
-ms.openlocfilehash: 0b1b477dffb6547629844268b8ade6ed5620ecbf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 85bbab87696f01e00ccbd9b5e413329a52a7cd22
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750149"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863487"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Crear el diseño de topología inicial para Skype Empresarial Server 2015
 

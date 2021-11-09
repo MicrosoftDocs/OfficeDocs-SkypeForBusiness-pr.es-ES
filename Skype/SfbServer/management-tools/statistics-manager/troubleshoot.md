@@ -2,7 +2,7 @@
 title: Solucionar problemas del administrador de estadísticas para Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Summary: Read this topic to troubleshoot your deployment of Statistics Manager for Skype Empresarial Server.'
-ms.openlocfilehash: 3f3bade7c7696e7361b63dc2f539534b6072d34a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6e6edefe8d6070a917f817b3b6d79bf35ff36599
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777310"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857347"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Solucionar problemas del administrador de estadísticas para Skype Empresarial Server
  

@@ -2,7 +2,7 @@
 title: Modificar una directiva de PIN existente en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 description: 'Resumen: modifique una directiva de PIN existente en Skype Empresarial Server.'
-ms.openlocfilehash: dac6540407ed019fe9147d86bc119426a6679574
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a03e192b5dd9b11de17e6c920baee6613312fc84
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754873"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848583"
 ---
 # <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>Modificar una directiva de PIN existente en Skype Empresarial Server
  

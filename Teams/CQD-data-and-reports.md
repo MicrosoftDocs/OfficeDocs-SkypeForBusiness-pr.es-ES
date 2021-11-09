@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga información sobre los datos e informes disponibles en el Panel de calidad de llamadas de Microsoft (CQD).
-ms.openlocfilehash: 0f54b6c3c69d65b12aa248f7180dec3617273857
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 04edfbcbdcfc8cc5a51a08bccd7c0dfc6c511e58
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014624"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833084"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Datos e informes en panel de calidad de llamadas (CQD)
 
@@ -43,7 +43,7 @@ Puede acceder a los datos de CQD por varias vías diferentes. Elija el que mejor
 |Teams de administración [( https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | Los datos de CQD se incluyen en la página Usuarios del centro de administración de Teams, que muestra los datos más comunes que necesita en un formato fácil de leer.  No puede personalizar los datos de CQD que encuentre en **Usuarios.**  |
 |Portal CQD [( https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | Informes detallados y de resumen sólidos que satisfacen la mayoría de las necesidades, con filtrado detallado. También puede personalizar informes en el portal de CQD. <br><br>Obtenga dos [plantillas de informe CQD](#import-the-cqd-report-templates) para ayudarle a analizar datos en el portal de CQD.       |
 |Power BI     | Use consultas directas para ver los datos de CQD en Power BI con plantillas de Power BI [personalizables.](CQD-Power-BI-query-templates.md) [Descargue Power BI de consulta de CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>También puede usar la API de REST para obtener acceso a los [datos de CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) a través de Power BI. Use este método si desea descargar los datos de CQD para poder trabajar en él sin conexión. La ventaja de usar este método es un mejor rendimiento, especialmente útil para grandes conjuntos de datos que se abate en Power BI cuando está en línea.       |
-|API de Graph     | Acceda a los datos de calidad de llamadas usted mismo [con Graph API.](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta) Este es el método más complejo, pero le ofrece el mayor control y flexibilidad al analizar los datos de calidad de las llamadas. Por ejemplo, si necesita unirse a otros datos de su organización, puede usar la API de Graph para crear un modelo de datos e incorporar datos de calidad de llamadas.        |
+|API de Graph     | Acceda a los datos de calidad de llamadas usted mismo [con Graph API.](/graph/api/resources/callrecords-api-overview) Este es el método más complejo, pero le ofrece el mayor control y flexibilidad al analizar los datos de calidad de las llamadas. Por ejemplo, si necesita unirse a otros datos de su organización, puede usar la API de Graph para crear un modelo de datos e incorporar datos de calidad de llamadas.        |
 
 ## <a name="import-the-cqd-report-templates"></a>Importar las plantillas de informe CQD
 
@@ -106,9 +106,9 @@ El parámetro Fecha url acepta un campo Día. Los informes de día completo usan
 
 |Dirección URL| Fecha de finalización de la tendencia rolling day|
 |:---|:---|
-|<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /2019-02/</span>   |Día actual de febrero de 2019|
-|<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /2019-02-15/</span>|15 de febrero de 2019|
-|<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /00/</span>        |Día actual|
+|<span>https:// \<cqdv3> /spd/#/Dashboard/ \<reportid> /2019-02/</span>   |Día actual de febrero de 2019|
+|<span>https:// \<cqdv3> /spd/#/Dashboard/ \<reportid> /2019-02-15/</span>|15 de febrero de 2019|
+|<span>https:// \<cqdv3> /spd/#/Dashboard/ \<reportid> /00/</span>        |Día actual|
 |||
 
 De forma predeterminada, el día actual del mes se usa como el último día de la Tendencia del día de laminación.

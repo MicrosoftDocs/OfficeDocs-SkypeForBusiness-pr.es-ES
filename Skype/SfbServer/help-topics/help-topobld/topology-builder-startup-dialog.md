@@ -2,7 +2,7 @@
 title: Cuadro de diálogo de inicio del Topology Builder
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Inicie el Generador de topologías para configurar las propiedades y la configuración de la implementación de Microsoft Lync Server 2013. Al iniciarse, el Generador de topologías muestra un cuadro de diálogo que pregunta cuál será el origen del documento de topología. Debe seleccionar una de las tres opciones:'
-ms.openlocfilehash: 0d7f0dbba4ec46a94c231fd38605d8f739fd1aef
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 991e6bcdfc62e046c7d46fb3d249ccee27bb9187
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765618"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863597"
 ---
 # <a name="topology-builder-startup-dialog"></a>Cuadro de diálogo de inicio del Generador de topologías
 

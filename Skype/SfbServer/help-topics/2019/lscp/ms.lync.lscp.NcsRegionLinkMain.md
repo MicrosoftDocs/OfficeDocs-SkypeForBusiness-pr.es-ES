@@ -2,7 +2,7 @@
 title: Configurar un vínculo de región de red
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: f579ab4510297fd77e28cd60e1a5630d049b062c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fef3b0cc791d6126ad6b1c9fb1d173234a62f3b6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778760"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832714"
 ---
 # <a name="configure-a-network-region-link"></a>Configurar un vínculo de región de red
 

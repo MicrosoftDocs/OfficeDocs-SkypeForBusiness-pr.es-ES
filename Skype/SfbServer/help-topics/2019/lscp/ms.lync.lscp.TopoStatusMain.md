@@ -2,7 +2,7 @@
 title: Estado de topología
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La página Topología: Estado muestra el estado de los servidores de la Skype Empresarial topología.'
-ms.openlocfilehash: bbe26329623446d8bf17c40cd758ceece90d09d0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c96b5e5aeade8a85e701d4565462556b589bf478
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777040"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831364"
 ---
 # <a name="topology-status"></a>Topología: Estado
 

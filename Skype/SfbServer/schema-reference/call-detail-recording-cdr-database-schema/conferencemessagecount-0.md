@@ -2,7 +2,7 @@
 title: Vista ConferenceMessageCount
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
 description: La vista ConferenceMessageCount almacena información acerca del número de mensajes enviados por un usuario a una conferencia. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 6b3c5ffaf8904d6dddcabeee06c7ebf01afd8143
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1308b0e9aeb8954df8010d0c1d55036eff1a3dac
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740326"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856527"
 ---
 # <a name="conferencemessagecount-view"></a>Vista ConferenceMessageCount
  
