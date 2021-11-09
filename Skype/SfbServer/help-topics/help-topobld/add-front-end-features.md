@@ -2,7 +2,7 @@
 title: Agregar características front-end
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 description: Seleccione cada característica que desee habilitar para el grupo de servidores front-end. Como mínimo, debe implementar la mensajería instantánea, que siempre está habilitada y no se puede anular su selección. También tiene la opción de implementar otras características, como conferencias, Telefonía IP empresarial y control de admisión de llamadas (CAC). Algunas características dependen de la topología.
-ms.openlocfilehash: 8533809926dddae453ec9d015abb81e9e87745f3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7c2a3ed75369c38be093b73030435f7a8a23cd8b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770508"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837832"
 ---
 # <a name="add-front-end-features"></a>Agregar características front-end
 

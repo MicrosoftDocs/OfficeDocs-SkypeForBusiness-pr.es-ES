@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft Teams: Recursos para administradores de Educación'
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2342f68403120f04e865203c304c2c4e14d41c0a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cabaace50bea563ac2803c33f2b302f2f326bfa4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767198"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865669"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>Recursos de Microsoft Teams para administradores de educación
 

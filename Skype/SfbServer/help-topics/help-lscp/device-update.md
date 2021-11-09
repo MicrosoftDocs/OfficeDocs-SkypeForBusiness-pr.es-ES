@@ -2,7 +2,7 @@
 title: Actualización de dispositivos
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 description: Microsoft publica periódicamente un nuevo conjunto de actualizaciones de firmware de dispositivo para Skype Empresarial Teléfono Edition, que puede importar a los servidores y distribuir a los usuarios. Para obtener el último conjunto de reglas de actualización de dispositivos, vaya a la página Ayuda y soporte técnico del sitio web de Microsoft y busquePhone Edition.Descargue el paquete de actualización más reciente y extraiga los archivos en una carpeta del equipo donde se van a cargar las actualizaciones. Una vez extraídos los archivos, use el cmdlet Import-CsDeviceUpdate para importar las reglas de actualización de dispositivos que se encuentran en el archivo .CAB extraído (que tendrán el nombre UCUpdates.cab). Para obtener más información, vea Import-CsDeviceUpdate.
-ms.openlocfilehash: 8758473504ebc7707d79f9fab3d2d4b60c0670ff
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ba5c028569abffe489eeda982e9e11be670c9530
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772496"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838032"
 ---
 # <a name="device-update"></a>Actualización de dispositivos
 

@@ -2,7 +2,7 @@
 title: Implementar servidores perimetrales en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Summary: Learn how to deploy Edge Servers into your Skype Empresarial Server environment.'
-ms.openlocfilehash: db09f8560b41fd43a7d005b70866888e0db27c75
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 30beb7b42b2f77e82d83768d918102cbaa0f7f5e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773330"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852734"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Implementar servidores perimetrales en Skype Empresarial Server
  
@@ -327,7 +327,7 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
     
 &nbsp;&nbsp;&nbsp;j. En la **página Nombre de sujeto/Nombres alternativos** de sujeto, el asistente debe rellenar automáticamente la información necesaria.
     
-&nbsp;&nbsp;&nbsp;k. En la página Configuración de dominio SIP en nombres alternativos de sujeto **(SAN),** active la casilla dominio para agregar un sip.<sipdomain> entrada a la lista de nombres alternativos de sujeto.
+&nbsp;&nbsp;&nbsp;k. En la página Configuración de dominio SIP en nombres alternativos de sujeto **(SAN),** active la casilla dominio para agregar un sip.\<sipdomain> entrada a la lista de nombres alternativos de sujeto.
     
 &nbsp;&nbsp;&nbsp;l. En la **página Configurar nombres alternativos de** sujeto adicionales, debe agregar los nombres alternativos de sujeto adicionales que necesite.
     

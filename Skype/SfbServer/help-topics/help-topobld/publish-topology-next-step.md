@@ -2,7 +2,7 @@
 title: Próximo paso para publicar la topología
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 description: Una vez publicada la topología, se muestra la página El Asistente para publicaciones ha finalizado.
-ms.openlocfilehash: 85501481595797bb446796cd45760443cab5eb46
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 600219c813ff78a7e25622855a4da636130ba407
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773822"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853114"
 ---
 # <a name="publish-topology-next-step"></a>Próximo paso para publicar la topología
 

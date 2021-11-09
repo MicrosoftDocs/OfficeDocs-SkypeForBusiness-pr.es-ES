@@ -1,6 +1,6 @@
 ---
 title: Programar revisiones de estado del servicio para su adopción de Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
@@ -20,12 +20,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8fefb34068d85dce1d0333ff0998fe03662ebe3d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3c59aa7777fd37228dbada179bae0fac199e36c4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745436"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865478"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Programar revisiones de estado del servicio para su adopción de Microsoft Teams
 

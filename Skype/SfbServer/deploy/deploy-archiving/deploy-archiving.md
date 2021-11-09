@@ -2,7 +2,7 @@
 title: Implementar el archivado para Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
 description: 'Resumen: lea este tema para obtener información sobre cómo implementar el archivado para Skype Empresarial Server.'
-ms.openlocfilehash: e9351ed9b13b2e3bbc416f9ff3e1141c2de01a08
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bdf0e6fe170371d1596fd556450fca14d6433239
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758192"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837422"
 ---
 # <a name="deploy-archiving-for-skype-for-business-server"></a>Implementar el archivado para Skype Empresarial Server
  

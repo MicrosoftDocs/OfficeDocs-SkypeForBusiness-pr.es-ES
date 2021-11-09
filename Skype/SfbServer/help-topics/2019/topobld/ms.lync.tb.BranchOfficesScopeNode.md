@@ -2,7 +2,7 @@
 title: Nodo de ámbito de las sucursales
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'En el nodo Sucursales figuran las sucursales asociadas con este sitio central. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 3966b9f5e1a7d525bc67899a0757a1d0af76bf92
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 761390b34ea8fa9031aaa48ed8d4752db45e5438
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776760"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838182"
 ---
 # <a name="branch-offices-scope-node"></a>Nodo de ámbito de las sucursales
  

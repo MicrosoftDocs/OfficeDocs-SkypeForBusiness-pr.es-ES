@@ -1,6 +1,6 @@
 ---
 title: 'Lista de comprobación de incorporación: configurar las capacidades principales Microsoft Teams'
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/13/2018
@@ -16,12 +16,12 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e376033c0e770dcef5bfa454b365d168ed922c5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c7bce0a3d1b55e0cb0f8c8130c89f390a309967d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767248"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865649"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Configurar Microsoft Teams principales
 

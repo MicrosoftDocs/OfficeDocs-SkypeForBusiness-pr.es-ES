@@ -2,7 +2,7 @@
 title: tblADCookie
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0a9102c4-47aa-40ea-8a0d-20e72ab09848
 description: tblADCookie contiene las cookies actuales de sincronización del Protocolo ligero de acceso a directorios (LDAP).
-ms.openlocfilehash: 770900c7ad5e31173a9e62ea3eb5a8c711afca98
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4d8604699eac26ce599a081069c85c57095f4fda
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743176"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852854"
 ---
 # <a name="tbladcookie"></a>tblADCookie
  

@@ -2,7 +2,7 @@
 title: Directiva de conferencia Crear nueva o editar existente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Una directiva de conferencia define las características y capacidades que los usuarios tienen disponibles durante una conferencia (también conocida como reunión).
-ms.openlocfilehash: 9d62ac561252c3cda025f040c2de335c49c12bae
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a7e5e32d474a915c8c91bfe13fa13feffe98d064
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753019"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837282"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Directiva de conferencia: Crear nuevos o editar los existentes
 

@@ -2,7 +2,7 @@
 title: tblAdminLock
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 785a43c0-6892-474c-821c-fa9cdbeb99d8
 description: La tabla tblAdminLock contiene el bloqueo de administrador necesario para ejecutar algunos comandos de administrador.
-ms.openlocfilehash: df040a4a6d503e4ea8f7327e6ac50b5ae411cf60
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1527cee53bc93c9b26a1cb961bba0a7fa53ae2e8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746536"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852844"
 ---
 # <a name="tbladminlock"></a>tblAdminLock
  

@@ -2,7 +2,7 @@
 title: Agregar servicio web director
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
 ROBOTS: NOINDEX, NOFOLLOW
 description: La dirección URL base es la identidad de servicios web de la dirección URL, menos https://. Por ejemplo, si la dirección URL completa de los servicios web del grupo es `https://pool01.contoso.net` , la dirección URL base es `pool01.contoso.net` .
-ms.openlocfilehash: f1c41deebe928119c47c3a7acba3a91a1936af61
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d3341889606371b363d5e37b3d5a76af9e3d7911
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742456"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853474"
 ---
 # <a name="add-director-web-service"></a>Agregar servicio web director
  

@@ -1,6 +1,6 @@
 ---
 title: Disponibilidad en Granada
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Granada.
-ms.openlocfilehash: ae51b5565bb30c597c23dbae6ea2c0a047eb0b57
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1b3e9a5251e51a4070d4193216e04964a6e15302
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769938"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853924"
 ---
 # <a name="availability-in-grenada"></a>Disponibilidad en Granada
 

@@ -1,6 +1,6 @@
 ---
 title: Script de PowerShell para probar conexiones del controlador de borde de sesión de enrutamiento directo
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: acba1d06debc9a0e06ee6636e14ee5cbf15bd90f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bd2d0aa4a22e306d08ce215341e6e0a32efb100c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774410"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837472"
 ---
 # <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>Script de PowerShell para probar conexiones del controlador de borde de sesión de enrutamiento directo
 

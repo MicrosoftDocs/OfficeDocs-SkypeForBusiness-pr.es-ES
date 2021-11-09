@@ -2,7 +2,7 @@
 title: Directiva de acceso externo
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 336ef724-ab2f-4215-b689-60248a90917f
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 3594765c906cbe625088fd320148a47692844531
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f39e46f4a637304a9ce1c51b7c28ca1d03907770
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757942"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852654"
 ---
 # <a name="external-access-policy"></a>Directiva de acceso externo
 

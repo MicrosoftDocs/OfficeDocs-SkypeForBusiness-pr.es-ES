@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre las licencias de complementos, las características que tendrá con él, cómo comprarlas para su producto y cómo usar su operador existente con ellas. Obtenga información sobre los precios y detalles de los planes de Office 365, los créditos de comunicación y los planes de llamadas. '
-ms.openlocfilehash: 92205ce6c4acd66759e782c6cfdf4fc0fc59ed77
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2a9456ec6604d4f8184160831f5f096e49c18c24
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014764"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852744"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Licencias complementarias de Skype Empresarial
 
@@ -36,7 +36,7 @@ ms.locfileid: "60014764"
 
 ## <a name="what-are-add-on-licenses"></a>¿Qué son las licencias complementarias?
 
-Las licencias de complementos son licencias de características concretas de Skype Empresarial. Algunas empresas prefieren disponer de la flexibilidad de comprar solo características específicas a un precio competitivo. Para agregar una característica, compre una licencia complementaria para cada usuario que la usará.
+Las licencias de complementos son licencias de características concretas de Skype Empresarial. Algunas empresas desean tener la flexibilidad de comprar solo características concretas a un precio competitivo. Para agregar una característica, compre una licencia complementaria para cada usuario que la usará.
 
 Skype Empresarial Las licencias están diseñadas para ofrecerle la máxima flexibilidad. Por ejemplo, después de usar características básicas de Skype Empresarial durante un tiempo, puede comprar licencias de complementos cuando esté listo para usar más características, como audioconferencias o el Sistema telefónico en Office 365.
 
@@ -50,7 +50,7 @@ Para obtener más información sobre costes, consulte [Cómo ver los precios y c
 
 - [Precios de Sistema telefónico](https://products.office.com/skype-for-business/phone-system)
 
-- [Precios de planes de llamadas](https://docs.microsoft.com/microsoftteams/set-up-audio-conferencing-in-team)
+- [Precios de planes de llamadas](/microsoftteams/set-up-audio-conferencing-in-teams)
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>¿Qué características puedo obtener con las licencias complementarias?
 

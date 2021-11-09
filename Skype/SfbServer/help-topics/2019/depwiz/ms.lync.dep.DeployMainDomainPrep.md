@@ -2,7 +2,7 @@
 title: Preparar dominio actual
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para preparar un dominio para hospedar servidores que ejecutan usuarios Skype Empresarial Server o Skype Empresarial Server, debe completar el paso 5: Preparar dominio actual, tal como se describe en el tema Using Setup to Run Domain Preparation. Para completar el paso, debe haber iniciado sesión como miembro del grupo Administradores de dominio en el dominio que está preparando o como miembro del grupo administradores de Enterprise del bosque al que pertenece el dominio. Para preparar el dominio:'
-ms.openlocfilehash: 782c98d7b2d67a74b11e36493ef2e9f873be0f18
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f62031c36365abb974a41a0a6e9ed9557c3215ac
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738696"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838282"
 ---
 # <a name="prepare-current-domain"></a>Preparar dominio actual
 

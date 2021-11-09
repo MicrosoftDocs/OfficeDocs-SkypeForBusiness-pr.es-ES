@@ -2,7 +2,7 @@
 title: Planear el estacionamiento de llamadas en Skype Empresarial
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planear el estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial, lo que permite poner las llamadas en espera y transferir llamadas a departamentos. Incluye la planeación de capacidad, las llamadas admitidas y los clientes compatibles.
-ms.openlocfilehash: 1cba225d966f835e59f75c359cee49ab183d21eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 29ca14f85aeccaa8394ede4420c66af77e5c66c8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770188"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839842"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planear el estacionamiento de llamadas en Skype Empresarial
  

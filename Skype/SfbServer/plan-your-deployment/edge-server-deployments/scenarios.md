@@ -2,7 +2,7 @@
 title: Escenarios de servidor perimetral en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Resumen: revise estos escenarios para ayudarle a planear la topología del servidor perimetral en Skype Empresarial Server.'
-ms.openlocfilehash: 7d5c3b90f2b99b51eb74e0880c5a35f79025282a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f70dbf858757469d21ebb8b2e6d1ae5192ed0118
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763508"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838532"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Escenarios de servidor perimetral en Skype Empresarial Server
  

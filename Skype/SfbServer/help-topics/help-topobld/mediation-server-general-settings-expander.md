@@ -2,7 +2,7 @@
 title: Expansor de configuración general del servidor de mediación
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/14/2015
 audience: ITPro
@@ -14,12 +14,12 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
-ms.openlocfilehash: 6d9e6d907a349c0ab16d9c2d58c58d27c36cfcde
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: de4d09db10610bee5f498b07cca6a052b6a79a38
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778450"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852104"
 ---
 # <a name="mediation-server-general-settings-expander"></a>Expansor de configuración general del servidor de mediación
  

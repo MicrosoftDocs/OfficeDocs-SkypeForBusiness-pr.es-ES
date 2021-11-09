@@ -2,7 +2,7 @@
 title: 'Skype Empresarial Server: Configurar un tronco sin desvío de medios'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Resumen: configurar un tronco sin desvío de medios habilitado para Skype Empresarial Server.'
-ms.openlocfilehash: 09d178cf2deeb27ec47c39090f7dcc233af3cbb0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bccc88e442532ebf9a2c503fa851965447eb1e85
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759122"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839122"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>Skype Empresarial Server: Configurar un tronco sin desvío de medios
 

@@ -2,7 +2,7 @@
 title: Plan de marcado
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: ebcc1e248fda8447b0502ad956ae63375bcf2f4b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f5ce4b82be193290f199a1d5b807056b44fa8043
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739636"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839222"
 ---
 # <a name="dial-plan"></a>Plan de marcado
 

@@ -1,6 +1,6 @@
 ---
 title: Calidad de la experiencia de usuario | Microsoft Teams | QoS | Calidad de llamada
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48bc26e01559d30e07e580f5adbe266506280c4e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: edc277a80ed9659281c46729646f3cbdfe95d725
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760378"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865539"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 

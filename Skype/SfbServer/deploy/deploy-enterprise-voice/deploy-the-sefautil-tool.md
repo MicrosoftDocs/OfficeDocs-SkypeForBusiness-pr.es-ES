@@ -2,7 +2,7 @@
 title: Implementar la herramienta SEFAUtil en Skype Empresarial
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Implementación de la herramienta SEFAUtil en Skype Empresarial Server.
-ms.openlocfilehash: 40f35f227a2e1753f3362cd01b29883e06e1b893
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d4d25a69476aa678f600178b9426db89670289d2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761538"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837332"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Implementar la herramienta SEFAUtil en Skype Empresarial
  

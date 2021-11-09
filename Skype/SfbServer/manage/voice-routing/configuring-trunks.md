@@ -2,7 +2,7 @@
 title: Configuración de troncos en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Como parte de Telefonía IP empresarial implementación, puede configurar un tronco entre un servidor de mediación y uno o varios sistemas del mismo nivel para proporcionar conectividad de red telefónica conmutada (RTC) para clientes y dispositivos de Telefonía IP empresarial de la organización.
-ms.openlocfilehash: 528dc8accbb2165bb86f3de9f10b3141dea01143
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 318b049c8ebaaa1a2df445bf1158184e3b150a84
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739166"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838522"
 ---
 # <a name="configuring-trunks-in-skype-for-business-server"></a>Configuración de troncos en Skype Empresarial Server
 

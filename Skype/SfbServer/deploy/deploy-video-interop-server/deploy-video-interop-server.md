@@ -2,7 +2,7 @@
 title: Implementar el servidor de interoperabilidad de vídeo en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
 description: 'Resumen: implemente el rol de servidor VIS en Skype Empresarial Server.'
-ms.openlocfilehash: 31c6638eda9ded797babf96115580d5565a1a375
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 932bbbaea04bc672c21767c055c53f10df5dc715
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745286"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853694"
 ---
 # <a name="deploy-video-interop-server-in-skype-for-business-server"></a>Implementar el servidor de interoperabilidad de vídeo en Skype Empresarial Server
  

@@ -1,6 +1,6 @@
 ---
 title: Lista de comprobación de incorporación- Configurar enrutamiento directo - Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 06/07/2018
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 725232890fce3b6fec78462044b58adc70b3128b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5d39be5dd44e3f0510d119d789e97ea83bfb0b3f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751509"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853894"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>Configurar enrutamiento directo en Microsoft Teams
 

@@ -1,6 +1,6 @@
 ---
 title: Administrar la configuración de las reuniones
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: sonua
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
-ms.openlocfilehash: 6e3314ee7e1b36f98da45806361aa29829690710
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7b12dfacc5b9bd6ebe5bb0e3de17a40bb0148ef0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753937"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839742"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de las reuniones en Microsoft Teams
 
@@ -43,7 +43,7 @@ Debe ser administrador de servicio de Teams para poder realizar estos cambios. C
 
 1. Vaya al Centro de administración.
 
-2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
+2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de la reunión**.
 
 3. En **Participantes**, Active **Usuarios anónimos pueden unirse a una reunión**.
 
@@ -89,7 +89,7 @@ Puede personalizar las invitaciones a la reunión de Teams para cumplir con las 
  **Usar el Centro de administración de Microsoft Teams**
 
 1. Vaya al Centro de administración.
-2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
+2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de la reunión**.
 3. En **Invitación por correo electrónico**, haga lo siguiente:
 
     ![Captura de pantalla de la configuración de invitaciones a las reuniones que puede personalizar.](media/meeting-settings-invitation.png "Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar para las reuniones de Teams")
@@ -121,7 +121,7 @@ Si utiliza la Calidad de servicio (QoS) para priorizar el tráfico de la red, pu
 
   **Usar el Centro de administración de Microsoft Teams**
 1. Vaya al Centro de administración.
-2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de reunión**.
+2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de la reunión**.
 3. En **Red**, haga lo siguiente:
 
     ![Captura de pantalla de la configuración de red para las reuniones en el centro de administración.](media/meeting-settings-network.png "Captura de pantalla de la configuración de la red para las reuniones de Teams en el centro de administración de Microsoft Teams")

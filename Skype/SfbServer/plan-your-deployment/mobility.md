@@ -2,7 +2,7 @@
 title: Plan for Mobility for Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 2/17/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Planee la implementación de Mobility for Skype Empresarial Server.
-ms.openlocfilehash: 5d78739be230c7c68157d8bae474bf63133a96d7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a323e9e68ee78af1ea80979c12eb6b0a66906041
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746716"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852944"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Plan for Mobility for Skype Empresarial Server
  

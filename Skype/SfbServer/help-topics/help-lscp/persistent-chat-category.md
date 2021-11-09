@@ -2,7 +2,7 @@
 title: Categoría de chat persistente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: Puede usar la sección Categoría de la página Chat persistente para configurar categorías. Una categoría de salón de chat persistente es una estructura lógica para organizar salas de chat. Una categoría define un conjunto predeterminado de listas de control de acceso (ACL) para controlar los usuarios y grupos de usuarios que pueden crear o unirse a salones de chat. Puede usar zonas de protección de datos confidenciales de imposición de categorías entre distintas subdivisiones en sus organizaciones.
-ms.openlocfilehash: 57e97faa0dd7c3cb80d75f9a06a8f5d2602ba162
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e105b62be4de517cf2b5c03b3ec46537f0a7a3bf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760848"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853264"
 ---
 # <a name="persistent-chat-category"></a>Categoría de chat persistente
  

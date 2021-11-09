@@ -2,7 +2,7 @@
 title: tblLastChatId
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
 description: tblLastChatId contiene el último id. de chat generado (y usado en la tabla tblChat) para cada usuario.
-ms.openlocfilehash: 7ab281b31869b4a761a6360978b57ec9591daaf0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a69c8ee112d507359a5582464ce39b7cbae89f4c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741886"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838442"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  

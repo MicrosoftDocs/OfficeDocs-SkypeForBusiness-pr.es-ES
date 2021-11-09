@@ -2,7 +2,7 @@
 title: Configurar la integración con Exchange almacenamiento para Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: 'Summary: Read this topic to learn how to configure integration with Exchange storage in Skype Empresarial Server.'
-ms.openlocfilehash: 3ac2db718057b47ebe214c29e339b94dbc5e63a7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 12d93a48e88d7086a1c8b1fec83c44a080ebf4af
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759192"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853804"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Configurar la integración con Exchange almacenamiento para Skype Empresarial Server
  

@@ -2,7 +2,7 @@
 title: Instalar almacén de configuración local (invocar) (configurar)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para iniciar la instalación de la base de datos que va a contener la copia de solo lectura local del almacén de administración central, seleccione entre recuperar la configuración definida publicada mediante el Generador de topologías del almacén de administración central ya instalado y configurado, o leer la configuración definida desde otros medios. Para un equipo que se encuentra en la red interna de su organización, seleccione Recuperar configuración automáticamente desde el Almacén de administración central.
-ms.openlocfilehash: 78c5a1697c77ed1a370739dd173718a74ead148e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6c60656161998e0a99af33d3ddf9e2c3120d82cf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742806"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853594"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>Instalar almacén de configuración local (invocar) (configurar)
  

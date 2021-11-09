@@ -1,7 +1,7 @@
 ---
 title: Personalizar la experiencia del cliente mac en Skype Empresarial
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: En este artículo se describen las preferencias de cliente y los valores predeterminados disponibles para el Skype Empresarial en el cliente Mac y cómo editarlas desde fuera de la aplicación.
-ms.openlocfilehash: ed702585e0fb7cdd78bdf318b77b8a2513870498
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 909756b25f9ad3ee17536f24a4143b5b72180918
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773360"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838352"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar la experiencia del cliente mac en Skype Empresarial
  
@@ -38,10 +38,10 @@ Para establecer estas preferencias, accede a un mensaje de terminal en el Mac de
 |:-----|:-----|:-----|:-----|
 |autoDetectAutoDicoveryURLs    |Bool    |0 = configuración manual del servidor  <br/> 1 = detección automática del servidor (valor predeterminado)    |Especifique cómo Skype Empresarial identifica el transporte y el servidor que se va a usar durante el inicio de sesión. Si habilita esta configuración de directiva, debe especificar **internalAutoDiscoveryURL** y **externalAutoDiscoveryURL**.   |
 |internalAutoDiscoveryURL    |Cadena    |Dirección URL de detección automática completa    |Dirección URL de detección automática interna    |
-|externalAutoDiscoveryURL    |String    |Dirección URL de detección automática completa    |DIRECCIÓN URL de detección automática externa    |
-|httpProxyDomain    |String    ||Dominio proxy HTTP    |
+|externalAutoDiscoveryURL    |Cadena    |Dirección URL de detección automática completa    |DIRECCIÓN URL de detección automática externa    |
+|httpProxyDomain    |Cadena    ||Dominio proxy HTTP    |
 |httpProxyUserName    |Cadena    ||Nombre de usuario de proxy HTTP    |
-|httpProxyPassword    |String    ||Contraseña de proxy HTTP    |
+|httpProxyPassword    |Cadena    ||Contraseña de proxy HTTP    |
 |trustedDomainList    |Matriz    ||Lista de dominios de confianza para redireccionamientos HTTP.    |
 |autoAcceptTimeout    |Número    |300 (valor predeterminado)    |Aceptar automáticamente el tiempo de espera para los usuarios sin historial de conversaciones del lado servidor.    |
 |warnWhenUnknownLocationForE911    |Bool    |0 = Deshabilitado  <br/> 1 = habilitado    |Advierte al usuario al marcar un número de emergencia desde una ubicación desconocida.    |

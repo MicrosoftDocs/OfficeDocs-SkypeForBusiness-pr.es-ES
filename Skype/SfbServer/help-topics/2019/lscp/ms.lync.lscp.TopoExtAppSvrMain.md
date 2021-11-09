@@ -2,7 +2,7 @@
 title: Aplicación de confianza de topología
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 0f455e734183e4a44bbe66f9abda211f8bf82958
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b1f304cdc66000105e6e8fbd2c8efe96e56992e0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752865"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837242"
 ---
 # <a name="topology-trusted-application"></a>Topología: Aplicación de confianza
 

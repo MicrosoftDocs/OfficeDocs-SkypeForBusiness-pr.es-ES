@@ -2,7 +2,7 @@
 title: Cómo configurar el servidor de administración principal
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 'Summary: Configure your primary management server, install System Center Operations Manager, and import management packs for Skype Empresarial Server 2015.'
-ms.openlocfilehash: 98a6cb9f18a5ff3fe008e7d07f5101884e5aa0f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6128cc33f0a877235c3356a2bef78a9288f6fc13
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774600"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852954"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>Cómo configurar el servidor de administración principal
 
@@ -39,7 +39,7 @@ Al instalar System Center Operations Manager, deberá instalar todos los compone
 
 - Consola web
 
-- Generación de informes
+- Reporting
 
 - Almacén de datos
 

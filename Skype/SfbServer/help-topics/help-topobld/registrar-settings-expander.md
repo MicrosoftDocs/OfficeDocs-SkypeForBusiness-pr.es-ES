@@ -2,7 +2,7 @@
 title: Expansor de configuración de registrador
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: La opción Resistencia brinda alta disponibilidad al grupo de registrador. Al proporcionar un registrador de reserva en caso de error en el registrador principal, el de reserva puede ocuparse del registrador erróneo para que los usuarios puedan iniciar sesión y comunicarse. Según los sistemas que fallen con el registrador principal, los usuarios pueden llegar a tener un uso restringido de las funciones.
-ms.openlocfilehash: fd138232b2d1561fbd4628ebacd30e83a571dc62
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 599923fc8b85e57387ff2742a933c60a928a2dde
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768058"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837712"
 ---
 # <a name="registrar-settings-expander"></a>Expansor de configuración de registrador
  

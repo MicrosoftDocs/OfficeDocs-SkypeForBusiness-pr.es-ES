@@ -1,7 +1,7 @@
 ---
 title: Directiva de conferencia para Skype del sistema de sala
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Lea este tema para obtener información sobre cómo asignar directivas de conferencia para Skype del sistema de sala.
-ms.openlocfilehash: 9e6bab608ab68b3f0e0d5075ae1caf8cb16d4c0b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 97980cb50613fca105af40686a920a8ff9c9b546
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771682"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838372"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Directiva de conferencia para Skype del sistema de sala
  

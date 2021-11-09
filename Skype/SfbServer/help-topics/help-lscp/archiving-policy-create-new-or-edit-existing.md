@@ -2,7 +2,7 @@
 title: Directiva de archivado Crear nueva o editar existente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: 'Las directivas de archivado se usan para controlar el archivado de comunicaciones internas y externas en la implementación para los usuarios que se encuentran en Skype Empresarial Server. Las directivas de archivado incluyen la directiva global y, opcionalmente, una o varias directivas de sitio y de usuario:'
-ms.openlocfilehash: 8ba9b280f17533cceea0764e6a0a7dc173315740
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a32ca25092c5240b3be2080098b8bd8bc3477ec6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760978"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838792"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Directiva de archivado: Crear nuevos o editar los existente
  

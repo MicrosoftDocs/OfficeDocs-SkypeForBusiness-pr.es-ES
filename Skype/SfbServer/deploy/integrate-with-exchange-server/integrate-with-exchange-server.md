@@ -2,7 +2,7 @@
 title: Integrar Skype Empresarial Server con Exchange Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: 'Resumen: revise los pasos de integración para Exchange Server 2016 o Exchange Server 2013 y Skype Empresarial Server.'
-ms.openlocfilehash: 46e7380669ee93a9fa4a61511f362a809387a022
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d93c56278948c01ae47a19128896031de027d95a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778850"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838302"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>Integrar Skype Empresarial Server con Exchange Server
 

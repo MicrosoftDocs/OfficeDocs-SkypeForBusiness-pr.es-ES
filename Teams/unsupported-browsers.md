@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams reuniones en exploradores no compatibles
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Obtenga información sobre Teams audio y vídeo en exploradores no compatibles.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 213de938360754efd95b5fb460c0cf5a3c735203
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 51ba0ede8df0548288b2519d76220f50f28e4abe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740146"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837452"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams reuniones en exploradores no compatibles
 

@@ -1,6 +1,6 @@
 ---
 title: Disponibilidad en Santa Lucía
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 de Skype Empresarial y Microsoft Teams disponibles para Santa Lucía.
-ms.openlocfilehash: 9a75204e41d98f27bbb73c26b65262c7d29f3093
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 11e5b37535ed3258ff388c0cfde55209021169b9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765028"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852764"
 ---
 # <a name="availability-in-saint-lucia"></a>Disponibilidad en Santa Lucía
 

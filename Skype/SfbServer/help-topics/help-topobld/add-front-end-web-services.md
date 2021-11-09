@@ -2,7 +2,7 @@
 title: Agregar servicios web front-end
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 99626970-1613-41ca-a36e-24bed1f459d7
 description: La dirección URL base es la identidad de servicios web de la dirección URL, menos https://. Por ejemplo, si la dirección URL completa de los servicios web del grupo es `https://pool01.contoso.net` , la dirección URL base es `pool01.contoso.net` .
-ms.openlocfilehash: a02ab1d8c3013216c31d1e050e22eaf9cf614045
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d8ff2267eba5a7d52a41e5d1ed2c937338972588
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752139"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853134"
 ---
 # <a name="add-front-end-web-services"></a>Agregar servicios web front-end
  

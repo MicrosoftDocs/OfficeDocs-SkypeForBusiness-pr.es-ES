@@ -2,7 +2,7 @@
 title: Configurar usuarios y opciones de prueba de nodo de monitor
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Configure las cuentas de usuario de prueba y la configuración del nodo de monitor Skype Empresarial Server transacciones sintéticas.
-ms.openlocfilehash: f0f997ebcbb3c663fa9a63ac3060f476d627ef4f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b01b99136cf8fc8495dbf090b8e1def5f56ff77c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746386"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837442"
 ---
 # <a name="skype-for-business-server-configure-watcher-node-test-users-and-settings"></a>Skype Empresarial Server: Configurar usuarios y opciones de prueba de nodo de monitor
  

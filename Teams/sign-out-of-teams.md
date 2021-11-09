@@ -1,6 +1,6 @@
 ---
 title: Cerrar sesión en Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fb1048f0db6166dbbcd7f43c317db2603b57dd7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6b11c58ced2ab089c181b28abe742ef8191452ea
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750089"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865679"
 ---
 # <a name="sign-out-of-microsoft-teams"></a>Cerrar sesión en Microsoft Teams
 

@@ -2,7 +2,7 @@
 title: Agregar servidor de mediación
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 965eda6f-5d11-4b94-8cc4-5968bc4e7018
 description: Para definir el servidor de mediación, especifique un nombre de dominio completo (FQDN) para el grupo de servidores de mediación. Si está creando un grupo de servidores de mediación, especificará el nombre del grupo para los servidores de mediación que esté implementando. Definirá los FQDN de los servidores individuales en otro paso. Si está implementando un solo servidor de mediación, el FQDN que especifique será el FQDN del único servidor de mediación. Para obtener más información, vea Deploy a Mediation Server in Topology Builder in Skype Empresarial Server 2015.
-ms.openlocfilehash: bb239994effdf310ae52a9dd09f1e98c6b3df001
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3ca16dfeb9842ea04bb0509129b5ba77c5902d09
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747986"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837802"
 ---
 # <a name="add-mediation-server"></a>Agregar servidor de mediación
  

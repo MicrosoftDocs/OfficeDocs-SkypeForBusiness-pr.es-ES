@@ -2,7 +2,7 @@
 title: Nodo de ámbito de Office Communications Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 description: Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco se incluyen para referencia futura.
-ms.openlocfilehash: 785e97870db4ad4bc6226e05466d3fa0c6645bad
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6ddcbe67e49b2996af5974ad46ea9167e9482ac5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778370"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837752"
 ---
 # <a name="office-communications-server-scope-node"></a>Nodo de ámbito del servidor Office Communications Server
 

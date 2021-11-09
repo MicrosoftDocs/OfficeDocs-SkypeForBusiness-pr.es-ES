@@ -2,7 +2,7 @@
 title: Configurar SharePoint server para buscar datos Skype Empresarial archivados
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 'Resumen: configure SharePoint Server para buscar datos archivados por Exchange Server y Skype Empresarial Server.'
-ms.openlocfilehash: ab7fe3127f4837334142dd1f4138df81f7dadf21
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d3274c29ccdae22a382d045fc6db3ee448223332
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765858"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839632"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Configurar SharePoint server para buscar datos Skype Empresarial archivados
  

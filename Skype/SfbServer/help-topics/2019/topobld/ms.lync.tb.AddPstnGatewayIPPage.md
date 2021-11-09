@@ -2,7 +2,7 @@
 title: Definir la dirección IP de la puerta de enlace RTC o IP
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para definir las direcciones IPv4 o IPv6 de la puerta de enlace IP o de red telefónica conmutada (RTC), seleccione Habilitar IPv4 o Habilitar IPv6. Puede elegir Usar todas las direcciones IP configuradas o Limitar el uso del servicio a las direcciones IP seleccionadas.
-ms.openlocfilehash: 3a88ce03cde7d4da4e4dec4959f84548ebf8288b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f6cceeba24106f4dea82e6f5c42832313ea6c533
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750759"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837042"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Definir la dirección IP de la puerta de enlace RTC o IP
 

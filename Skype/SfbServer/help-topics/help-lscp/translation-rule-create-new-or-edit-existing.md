@@ -2,7 +2,7 @@
 title: Regla de traducción Crear nuevo o editar existente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 2e4539cc0118d279d41488942087e0bdb792dbb8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 82572bf5491f6e3fdcd40c3fd40a0c172292b96e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758382"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839172"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>Regla de conversión: Crear nuevos o editar los existentes
 

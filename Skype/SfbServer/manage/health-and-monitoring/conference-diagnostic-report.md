@@ -2,7 +2,7 @@
 title: Informe de diagnóstico de conferencia en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: 'Resumen: obtenga información sobre el Informe de diagnóstico de conferencia usado en Skype Empresarial Server.'
-ms.openlocfilehash: c62a45c6bff7a91e6d0252ecc1a8010e5098f42b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4e15819e220459664875e6a868c2644262885060
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773590"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837562"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico de conferencia en Skype Empresarial Server
  

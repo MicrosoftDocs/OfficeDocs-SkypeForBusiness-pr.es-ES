@@ -1,6 +1,6 @@
 ---
 title: Solución de problemas de instalación y actualización de Microsoft Teams en Windows
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: lenatarhun
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo solucionar problemas de instalación y actualización de la aplicación cliente de escritorio de Teams en Windows.
-ms.openlocfilehash: f65e4b6d6bebd463d143bedc1b1cd50f031cb299
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 71a7162e243779ae779a4e0224d54955ec611e07
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777160"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865448"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Solución de problemas de instalación y actualización de Microsoft Teams en Windows
 
@@ -123,7 +123,7 @@ Sugerencias para la solución de problemas:
 - Para confirmar que es el problema que está experimentando, cierre Teams (haga clic con el botón derecho en Teams en la barra de tareas y, después, haga clic en **Cerrar**). A continuación, abra el Administrador de tareas en Windows para ver si aún se está ejecutando una instancia de Teams.  
 - Si no se encuentra en el equipo que está experimentando este problema, inspeccione el SquirrelTemp.log recopilado en el equipo donde se produce y busque una entrada "Programa: no se puede finalizar el proceso en el registro".
 - Para determinar qué impide cerrar Teams.exe, mire los registros Dlls.txt y Handles.txt. Estos son los procesos que impidieron el cierre de Teams.
-- Otra culpable que puede impedir el cierre de Teams es el controlador de filtro del sistema de archivos en el modo kernel. Use la herramienta SysInternals, [ProcDump](/sysinternals/downloads/procdump), para recopilar el volcado del proceso en modo kernel al ejecutar ```procdump -mk <pid>```, donde <pid> es el ID. del proceso obtenido del Administrador de tareas. También puede inspeccionar el archivo de registro Driverquery.txt para ver los controladores de filtro activos que pueden interferir con Teams.
+- Otra culpable que puede impedir el cierre de Teams es el controlador de filtro del sistema de archivos en el modo kernel. Use la herramienta SysInternals, [ProcDump](/sysinternals/downloads/procdump), para recopilar el volcado del proceso en modo kernel al ejecutar ```procdump -mk <pid>```, donde \<pid> es el ID. del proceso obtenido del Administrador de tareas. También puede inspeccionar el archivo de registro Driverquery.txt para ver los controladores de filtro activos que pueden interferir con Teams.
 - Para recuperarse de este estado, reinicie el equipo.
 
 #### <a name="file-permissions"></a>Permisos de archivos
