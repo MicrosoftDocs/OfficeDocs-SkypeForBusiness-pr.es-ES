@@ -1,7 +1,7 @@
 ---
 title: Skype Sistema de sala varias implementaciones locales de bosque
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: Lea este tema para obtener información sobre cómo implementar Skype Room System en un entorno local de varios bosques.
-ms.openlocfilehash: 49885d1e64c40f161eb0fc07ec79187b5ea3bdb1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 34b52f32ec3f1c611d8560c8f053e7fbe16b53bf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761588"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857053"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype Sistema de sala varias implementaciones locales de bosque
  

@@ -2,7 +2,7 @@
 title: Informe de detalles de conferencia en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 'Summary: Learn about the Conference Detail Report used in Skype Empresarial Server.'
-ms.openlocfilehash: 56fafff71f1700667a2ad982f56db099cb60c45e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a86124c05e0d35caef3f92c4ec43b561eb54938c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737806"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829994"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Informe de detalles de conferencia en Skype Empresarial Server
 

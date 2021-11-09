@@ -2,7 +2,7 @@
 title: Herramienta de planeación del equilibrador de carga
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: Si tiene grupos de servidores front-end, grupos de directores o grupos de servidores perimetrales, debe implementar el equilibrio de carga para estos grupos. El equilibrio de carga distribuye el tráfico entre los servidores de los grupos de servidores
-ms.openlocfilehash: 519e06c4152d064ba1445d01dc20bd0f2259a278
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 697128b7033075fffc3c30e39ae7e1401c14906b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756857"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850843"
 ---
 # <a name="load-balancer-planning-tool"></a>Herramienta de planeación del equilibrador de carga
  

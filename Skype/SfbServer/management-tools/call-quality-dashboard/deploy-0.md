@@ -2,7 +2,7 @@
 title: Implementar panel de calidad de llamadas para Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumen: obtenga información sobre el proceso de implementación del Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 88f484091b68379d390b921235f78ff9a7a1dd08
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 87caf5566c509580c211f68b685a868de2d2df58
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751709"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829924"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implementar panel de calidad de llamadas para Skype Empresarial Server
  
@@ -432,7 +432,7 @@ VALUES
 |Ap NName  <br/> |AP  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00 (debe usar el fformat delimitado)  <br/> |
 |Controlador  <br/> |Creación  <br/> |Aruba AP 7  <br/> |
-|Dispositivo  <br/> |ess  <br/> |Controlador1  <br/> |
+|Device  <br/> |ess  <br/> |Controlador1  <br/> |
 |Radio  <br/> |phy  <br/> |bgn  <br/> |
    
 ### <a name="processing-the-imported-data"></a>Procesamiento de los datos importados

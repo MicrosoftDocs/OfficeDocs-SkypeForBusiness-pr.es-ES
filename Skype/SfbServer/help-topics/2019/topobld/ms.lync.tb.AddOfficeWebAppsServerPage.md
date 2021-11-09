@@ -2,7 +2,7 @@
 title: Agregar servidor Office Web Apps
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El Asistente para definir Office Web Apps Server define un nuevo Office Web Apps Server en la implementación. Proporcione la información siguiente:'
-ms.openlocfilehash: d8f86890face6ae6a948a5006b101bc8585f16a4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a6ad6eaafeda594257647ca1dc4a09307d2c1fc2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766918"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843193"
 ---
 # <a name="add-office-web-apps-server"></a>Agregar servidor Office Web Apps
 

@@ -2,7 +2,7 @@
 title: 'Servidores de interoperabilidad de vídeo: Definir el ámbito del nodo'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 963e6693-26bc-439f-b76d-04389e6ebbf9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los pasos necesarios para definir un nuevo VIS o puerta de enlace de vídeo en el Generador de topologías se describen en línea en Crear un grupo de vis en Skype Empresarial Server.
-ms.openlocfilehash: 242358555ef9d0f3d92001f61babd1fbccb6acb3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5f045cfada3c5362b910f1b9036c52b8d977da6b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744916"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843163"
 ---
 # <a name="video-interop-servers---scope-the-node"></a>Servidores de interoperabilidad de vídeo: Definir el ámbito del nodo
  

@@ -2,7 +2,7 @@
 title: Informe de lista de llamadas en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 'Summary: Learn about the Call List Report used in Skype Empresarial Server.'
-ms.openlocfilehash: 7fe1a638bda3c830a7593f4a9048f7c4fc178229
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d56374fa317f6c7b132a9d33dcf9fef966c55625
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762418"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864847"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Informe de lista de llamadas en Skype Empresarial Server
  
@@ -67,7 +67,7 @@ Si no recuerda lo que realmente miden algunas de las métricas del informe de li
   
 ## <a name="filters"></a>Filtros
 
-Ninguno. No puede filtrar el informe de lista de llamadas.
+Ninguna. No puede filtrar el informe de lista de llamadas.
   
 ## <a name="metrics"></a>Métricas
 

@@ -2,7 +2,7 @@
 title: Administrar directivas de archivado en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: 'Summary: Learn how to manage user policies for archiving for Skype Empresarial Server.'
-ms.openlocfilehash: 53292377876f63a016c0720ec61f65da31650077
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: aefb05c4ee1be0af0af4d2ab4ab4d53efbd71912
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754949"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856767"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>Administrar directivas de archivado en Skype Empresarial Server
 

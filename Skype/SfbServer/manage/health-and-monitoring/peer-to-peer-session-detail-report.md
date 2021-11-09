@@ -2,7 +2,7 @@
 title: Informe de detalles de sesión punto a punto en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: 'Summary: Learn about the Peer-to-Peer Session Detail Report in Skype Empresarial Server.'
-ms.openlocfilehash: 6ca45f05c3ee8346c6c6cac5bf5a1845be2d3a20
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fe49c455391583a02f873769a75d86da62fe2a25
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774810"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829974"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Informe de detalles de sesión punto a punto en Skype Empresarial Server
  

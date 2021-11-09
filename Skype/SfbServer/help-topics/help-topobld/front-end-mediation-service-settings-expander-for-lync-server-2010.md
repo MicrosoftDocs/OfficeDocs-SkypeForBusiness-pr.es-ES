@@ -2,7 +2,7 @@
 title: Expansor de configuración del servicio de mediación front-end para Lync Server 2010
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: 'Edite las propiedades de la configuración de la Puerta de enlace RTC del servidor de mediación en este cuadro de diálogo. Defina la configuración siguiente:'
-ms.openlocfilehash: 81cd0fb38aa10cdd5603cc3ddddc0f7c9a48608b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: be43e53b3e0e05b1dee1ddf61511f18438738b7f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778490"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827593"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Expansor de configuración del servicio de mediación front-end para Lync Server 2010
  

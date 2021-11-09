@@ -2,7 +2,7 @@
 title: Asociados XMPP federados
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 0aef9002a0c11186da31e479db58b5216b033e9d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 86409473ccb3f17fab74946fe62b21cb2a401d2c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746296"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827743"
 ---
 # <a name="xmpp-federated-partners"></a>Asociados XMPP federados
 

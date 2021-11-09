@@ -2,7 +2,7 @@
 title: Instalar Skype Empresarial Server servidores en la topología
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 'Summary: Learn how to install the Skype Empresarial Server system components on each server in the topology. Descargue una versión de prueba Skype Empresarial Server desde el Centro de evaluación de Microsoft en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: bcf2645e6f33865da0f1ad6bbc985e581950693b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: eb589b606f095deade6bd4f8921d48e1f3799cf5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745306"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864317"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Instalar Skype Empresarial Server servidores en la topología
  

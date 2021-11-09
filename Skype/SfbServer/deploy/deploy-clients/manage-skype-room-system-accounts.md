@@ -1,7 +1,7 @@
 ---
 title: Administrar cuentas del Sistema de salas de Skype
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
 description: Lea este tema para obtener información sobre cómo administrar Skype de sistema de sala.
-ms.openlocfilehash: aa25b61f8f42043d9bcabe99ff20c1fcf6d1950e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2ae91a977a837e2b1b54db8d127551b5f53bb1a8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741486"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864457"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Administrar cuentas del Sistema de salas de Skype
  

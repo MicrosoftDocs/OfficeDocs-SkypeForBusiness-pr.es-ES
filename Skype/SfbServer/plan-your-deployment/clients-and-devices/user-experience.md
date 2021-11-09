@@ -1,7 +1,7 @@
 ---
 title: Planear la Skype Empresarial cliente de 2015 para los usuarios
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: "Summary: Learn about the new Skype Empresarial and the steps you can take to prepare your environment and your users for the update, whether you're using Skype Empresarial Online, Skype Empresarial Server 2019, Skype Empresarial Server 2015, Lync Server 2013 o Lync Server 2010."
-ms.openlocfilehash: a35a447d9810952e9aac149f2297eda87575bdf3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9979b7d9fe449de926358097b9fd2fdd36e5afb4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740466"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864747"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planear la Skype Empresarial cliente de 2015 para los usuarios
  

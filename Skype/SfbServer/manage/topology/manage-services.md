@@ -2,7 +2,7 @@
 title: Administrar servicios en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Obtenga información sobre cómo ver el estado del servicio, iniciar y detener servicios e impedir sesiones para los servicios.
-ms.openlocfilehash: c48a6a07605096dfdccc96539d01e5607e171b9b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cc5218f5347eb2124f42b8881bce730c74889bda
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756987"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864737"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Administrar servicios en Skype Empresarial Server
 
@@ -47,7 +47,7 @@ Use el panel Skype Empresarial Server control para ver todos los servicios que s
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control Skype Empresarial Server, vea [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. En la barra de navegación izquierda, haga clic en **Topología**.
 4. En la página Estado, ordena o busca en la lista, según sea necesario, para buscar el equipo que te interesa y, a continuación, haz clic en el nombre del equipo.
-5. Realice una de las siguientes acciones:
+5. Realice cualquiera de las siguientes acciones:
     - Para ver el estado más reciente de los servicios que se ejecutan en el equipo, haga clic en **Obtener estado del servicio**.
     - Para ver una lista de servicios específicos que se ejecutan en el  equipo y el estado de cada servicio, haga clic en Propiedades **y,** a continuación, haga clic en Cerrar para volver a la lista.
 

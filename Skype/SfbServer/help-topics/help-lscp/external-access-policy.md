@@ -2,7 +2,7 @@
 title: Directiva de acceso externo
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 336ef724-ab2f-4215-b689-60248a90917f
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 066db292a5edad946bd274e73b95c6d996bc441a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e189eeca04717e0d94ff4c289e49994a082081b0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752189"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843053"
 ---
 # <a name="external-access-policy"></a>Directiva de acceso externo
 

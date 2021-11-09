@@ -1,6 +1,6 @@
 ---
 title: Habilitar enrutamiento basado en la ubicación para el enrutamiento directo
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c4fdd18e6ae7f3d583451bf8be2ce12e8e87ba3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 750c20367c5710054d2b19d266ff9dc70f46edd9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749046"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829624"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -130,7 +130,7 @@ Para obtener más información, vea [Directivas de llamadas en Teams](teams-call
     |&nbsp;|Sitio 1 (Delhi)  |Sitio 2 (Hyderabad)  |
     |---------|---------|---------|
     |Nombre del sitio    |Sitio 1 (Delhi)    |Sitio 2 (Hyderabad)|
-    |EnableLocationBasedRouting    |True    |True    |
+    |EnableLocationBasedRouting    |Verdadero    |True    |
     |Subredes     |Subred 1 (Delhi)     |Subred 2 (Hyderabad)     |
 
 ### <a name="enable-location-based-routing-for-gateways"></a>Habilitar Location-Based enrutamiento de puertas de enlace

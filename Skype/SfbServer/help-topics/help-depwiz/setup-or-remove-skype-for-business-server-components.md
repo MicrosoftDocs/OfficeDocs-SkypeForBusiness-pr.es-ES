@@ -2,7 +2,7 @@
 title: Instalar o quitar componentes de Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
 description: 'Para instalar y activar, o desactivar o desinstalar Skype Empresarial Server componentes de 2015, use step 2: Setup or Remove Skype Server Components.To install and activate, or deactivate or uninstall Skype Empresarial Server 2015 components, you use Step 2: Setup or Remove Skype Server Components. Debe haber iniciado sesión como administrador local en el equipo que va a instalar o modificar y debe poder leer usuarios y grupos de Servicios de dominio de Active Directory en el dominio actual. Para empezar, haga clic en Ejecutar. Una vez hecho esto, se leerá la definición de topología basada en almacenes de administración central. Se instalarán los componentes de software necesarios y se configurarán de acuerdo con el rol definido en el almacén de administración central. Una vez finalizada la instalación, revise el resumen y haga clic en Finalizar.'
-ms.openlocfilehash: e690fec067fe95c96644c3674744ea650b7bb6f6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6235b1676ed96dea885b0a945c62387cb7791a25
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772566"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835568"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components"></a>Instalar o quitar componentes de Skype Empresarial Server
  

@@ -1,7 +1,7 @@
 ---
 title: Bloquear llamadas entrantes en Microsoft Teams
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: 4e7e6d40173bb5917a6cf540481257b21253eeaa
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d1b5b19189ea301eab5d2c06dfa85be7d4ddb6eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766228"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827393"
 ---
 # <a name="block-inbound-calls"></a>Bloquear llamadas entrantes
 

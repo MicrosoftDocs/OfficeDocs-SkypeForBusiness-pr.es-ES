@@ -2,7 +2,7 @@
 title: Página principal de configuración de chat persistente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: La implementación del servidor de chat persistente puede hospedar muchos salas de chat persistente simultáneas. Los salones de chat se pueden organizar en un conjunto de categorías en el servidor. Cada salón de chat pertenece a una categoría, y hereda alguna configuración de esa categoría. Esta configuración crea una estructura útil para identificar conversaciones, en función de su propósito empresarial, y facilita la delegación y simplificación de la administración.
-ms.openlocfilehash: fd426c711876ce96bdfe6beea136289cfc4414b8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f422bfd5a47a8163170a0706573d983b1ba277ee
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761378"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829349"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>Página principal de configuración de chat persistente
 

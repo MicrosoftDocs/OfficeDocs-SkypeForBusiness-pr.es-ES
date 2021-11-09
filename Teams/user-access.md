@@ -1,6 +1,6 @@
 ---
 title: Administrar el acceso de los usuarios a Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 433996fe1a883bff1c019000acf912606b3ecb91
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0f7cf49f39f7a4df5dc7abe044b107f2bb9a5bbb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741526"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829524"
 ---
 # <a name="manage-user-access-to-teams"></a>Gestionar acceso de los usuarios a Microsoft Teams
 

@@ -1,6 +1,6 @@
 ---
 title: Administrar la aplicación Lists para su organización
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: anach,v-jasuk
 manager: serdars
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fdcb2b5bee239bd5dada14689080c3e1cca248a9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 72235497f2b020aaed1228ecadff781ed76b7341
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746446"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829554"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Lists para su organización en Microsoft Teams
 
@@ -93,7 +93,7 @@ Si los usuarios de su organización crearon listas con la aplicación SharePoint
 
 De forma predeterminada, Lists está habilitado para todos los usuarios de su organización. Puede desactivar o activar la aplicación en el nivel de organización en la página [Administrar aplicaciones](manage-apps.md) del centro de administración de Microsoft Teams.
 
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**.
 2. Realice una de las siguientes acciones:
 
     - Para desactivar Lists para su organización, busque la aplicación, selecciónela y después haga clic en **Bloquear**.

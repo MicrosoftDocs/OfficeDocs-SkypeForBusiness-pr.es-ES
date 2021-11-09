@@ -2,7 +2,7 @@
 title: Crear directivas de conferencia en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Resumen: obtenga información sobre cómo crear directivas de conferencia en Skype Empresarial Server.'
-ms.openlocfilehash: 1b90a081470cd2df1182bc32d0558a86f860b36a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 56404f98389dbe2fca6a6022e7d6f175bcca030c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766608"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828833"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Crear directivas de conferencia en Skype Empresarial Server
  

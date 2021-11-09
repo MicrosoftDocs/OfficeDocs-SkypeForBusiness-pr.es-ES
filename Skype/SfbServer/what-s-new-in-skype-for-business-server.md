@@ -2,7 +2,7 @@
 title: Novedades de Skype Empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2017
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: "Summary: Read this topic to learn about new features in Skype Empresarial Server 2015. Para obtener información detallada acerca de la nueva experiencia del cliente, vea Lync is now Skype Empresarial-- see what's new."
-ms.openlocfilehash: aac68c369983b85ecb95b5000dc41d95e2080d6d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d0ef9ff1790eba546dd54a9fa78c9f63f2b532f4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760568"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829754"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Novedades de Skype Empresarial Server 2015
 

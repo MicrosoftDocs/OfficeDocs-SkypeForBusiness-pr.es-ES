@@ -1,7 +1,7 @@
 ---
 title: Problemas al recibir mensajes y llamadas en sistemas heredados en Teams
 ms.reviewer: ''
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 05/29/2020
@@ -17,12 +17,12 @@ description: Solucionar problemas relacionados con la recepción de mensajes y l
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fb36f4be70b174a324f017b1e52529f457e83f36
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 69a3f070b247507e0d22535179353860434e94ad
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768308"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857147"
 ---
 # <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problemas al recibir mensajes y llamadas en sistemas heredados
 

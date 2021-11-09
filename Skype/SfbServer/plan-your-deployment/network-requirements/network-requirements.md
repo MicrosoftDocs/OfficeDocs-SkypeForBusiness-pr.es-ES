@@ -2,7 +2,7 @@
 title: Planear los requisitos de red para Skype Empresarial
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Summary: Review the network component considerations below before implementing Skype Empresarial Server.'
-ms.openlocfilehash: b2b8496b307111261c77f93d45d3332b42ead90d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3e5912cb00bb704afdfc5d568b66711a1ddf472f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777930"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864707"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Planear los requisitos de red para Skype Empresarial
 

@@ -2,7 +2,7 @@
 title: Requisitos dns para direcciones URL sencillas en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Summary: Review the Simple URL considerations in this topic before implementing DNS records for Skype Empresarial Server.'
-ms.openlocfilehash: d638ff2d3d1b89deaad90c054698692e70ffaae7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1dd3b4b06b704e7d840dd6f430a9ba9782913a3b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777920"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864677"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Requisitos dns para direcciones URL sencillas en Skype Empresarial Server
 
@@ -123,7 +123,7 @@ Al utilizar este método, puede configurar cada dirección de GeoDNS para que ut
 
 Puede configurar los mismos parámetros para la dirección URL sencilla de Acceso telefónico. Para ello, cree registros adicionales como los del ejemplo anterior, sustituyéndolo  `dialin` en `meet` los registros DNS. Para la dirección URL sencilla de Administrador, utilice una de las tres opciones que se mencionaron antes en esta sección.
 
-Una vez que esta configuración esté definida, debe utilizar una aplicación de supervisión para configurar la supervisión HTTP para que esté alerta de los fallos. Para el acceso externo, supervise para asegurarse de que HTTPS GET lyncdiscover.<sipdomain> las solicitudes al FQDN web externo o a la dirección IP del equilibrador de carga para los dos grupos de servidores son correctas. Por ejemplo, las siguientes solicitudes no deben contener ningún encabezado **ACCEPT** y deben devolver **200 OK**.
+Una vez que esta configuración esté definida, debe utilizar una aplicación de supervisión para configurar la supervisión HTTP para que esté alerta de los fallos. Para el acceso externo, supervise para asegurarse de que HTTPS GET lyncdiscover.\<sipdomain> las solicitudes al FQDN web externo o a la dirección IP del equilibrador de carga para los dos grupos de servidores son correctas. Por ejemplo, las siguientes solicitudes no deben contener ningún encabezado **ACCEPT** y deben devolver **200 OK**.
 
 ```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root

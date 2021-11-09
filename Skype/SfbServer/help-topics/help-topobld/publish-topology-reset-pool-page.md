@@ -2,7 +2,7 @@
 title: Publicar página de grupo de servidores de restablecimiento de la topología
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 description: Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco se incluyen para referencia futura.
-ms.openlocfilehash: 8a9fc299e38ae3ba94d41a7c75d71a19c9d55067
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0e2c57cec96e63601c7dd01a136612ff55aed7fc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766678"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856827"
 ---
 # <a name="publish-topology-reset-pool-page"></a>Publicar página de grupo de servidores de restablecimiento de la topología
  

@@ -2,7 +2,7 @@
 title: Tipo de regla de traducción una expresión regular
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'En el campo Hacer coincidir este patrón, especifique el patrón que se usará para hacer coincidir los números objeto de la conversión. En el campo Regla de conversión, especifique un patrón para el formato de los números convertidos. '
-ms.openlocfilehash: 2f6a0eb82e745c63ee6e0b3cfd7303b9359846b4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9aff74da1529d1e146f830780f152ec71d370be9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738434"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843293"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>Regla de conversión: Escribir una expresión regular
  

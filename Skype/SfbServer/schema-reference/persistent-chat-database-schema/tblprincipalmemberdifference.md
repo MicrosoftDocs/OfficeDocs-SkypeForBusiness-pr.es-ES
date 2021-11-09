@@ -2,7 +2,7 @@
 title: tblPrincipalMemberDifference
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0b94f555-6888-4fe0-a048-4660a2513276
 description: tblPrincipalMemberDifference contiene cambios de pertenencia a grupos (miembros agregados y eliminados) que aún no han sido procesados por los pasos de sincronización de servicios de dominio de Active Directory posteriores.
-ms.openlocfilehash: 884f1450b74300ad2915c27b524dc0419c97062d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6bbf1762d12f242b17598752de4ee62f90238eae
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743166"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864577"
 ---
 # <a name="tblprincipalmemberdifference"></a>tblPrincipalMemberDifference
  

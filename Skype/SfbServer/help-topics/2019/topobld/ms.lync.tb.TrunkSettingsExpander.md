@@ -2,7 +2,7 @@
 title: Expansor de configuración de tronco
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar o modificar la configuración de un tronco SIP, efectúe las acciones siguientes:'
-ms.openlocfilehash: 12d1bd8ee6ae36c6b88f48dc7f9649a3a2c40c8b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 922e401ea74b554681dadbc94b7c7f4178a618e8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761138"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829234"
 ---
 # <a name="trunk-settings-expander"></a>Expansor de configuración de tronco
 

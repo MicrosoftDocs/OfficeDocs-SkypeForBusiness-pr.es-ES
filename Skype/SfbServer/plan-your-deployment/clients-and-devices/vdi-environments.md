@@ -1,6 +1,6 @@
 ---
 title: Planeación de Skype Empresarial entornos VDI
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: krishra
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: En este tema se analizan las consideraciones de planeación para usar Skype Empresarial al conectarse a un escritorio virtual remoto.
-ms.openlocfilehash: 441f31dc2de7d07c01070bd4ad3c88070564609e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 63dbdb11abf6188cb11d5f96b54ddeb541f1b9fe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745896"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864727"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planeación de Skype Empresarial entornos VDI
  

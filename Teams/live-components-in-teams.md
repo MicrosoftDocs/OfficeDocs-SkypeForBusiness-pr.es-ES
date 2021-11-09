@@ -1,6 +1,6 @@
 ---
 title: Administrar componentes activos en Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8bda034030f2ccb6e12e23908f16ca212f4add0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6be8db0fdde7509f5721277b4ee631f7a814171d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750339"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830224"
 ---
 # <a name="manage-live-components-in-teams"></a>Administrar componentes activos en Teams
 

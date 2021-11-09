@@ -2,7 +2,7 @@
 title: Implementar el servidor perimetral en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: 'Summary: Learn how to deploy an Edge Server or an Edge pool into your Skype Empresarial Server environment.'
-ms.openlocfilehash: 701b1d0280360f91e9f89898e956da5e24161692
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a555f0d083c03466f874c9796664137f8189b017
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740116"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850473"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>Implementar el servidor perimetral en Skype Empresarial Server
  

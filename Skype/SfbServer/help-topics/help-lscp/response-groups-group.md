@@ -2,7 +2,7 @@
 title: Grupo de grupos de respuesta
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Un grupo de agentes es un grupo de personas designadas para responder a las llamadas del grupo de respuesta.
-ms.openlocfilehash: afe56ae2f63ba934543176b5f1ca417a6457d208
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2a4f0e68db6701b3eb75cfb1b502e4b837756d9f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739546"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827823"
 ---
 # <a name="response-groups-group"></a>Grupos de respuesta: Grupo
 

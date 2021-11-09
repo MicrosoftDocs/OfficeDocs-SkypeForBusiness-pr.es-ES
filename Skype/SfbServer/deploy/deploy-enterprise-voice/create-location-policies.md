@@ -2,7 +2,7 @@
 title: Crear directivas de ubicación en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: Lea este tema para obtener información sobre cómo configurar directivas de ubicación del servicio de emergencia mejorado (E9-1-1) en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 889a20e0b48955be1ce0ba8c891d6c4825b79dab
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5d8ead66a66a0cf92c39acfe9cb1d547422362d0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741446"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850453"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Crear directivas de ubicación en Skype Empresarial Server
 

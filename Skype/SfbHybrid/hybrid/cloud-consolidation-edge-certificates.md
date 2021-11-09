@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Este apéndice incluye pasos detallados para actualizar el certificado perimetral como parte de la consolidación de la nube para Teams y Skype Empresarial.
-ms.openlocfilehash: 1c4708f593b1a9bd8fbc2a427e2f0c5df9feab5c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb8d2eabf17d83546737d3d94fb4add5dc0a892e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610207"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857117"
 ---
 # <a name="update-the-edge-certificate"></a>Actualizar el certificado de límite
 
@@ -39,7 +39,7 @@ El nombre alternativo de sujeto (SAN) del certificado en todos los servidores pe
 
 **Pasos:**
 
-1.  Obtenga un nuevo certificado perimetral externo para el servidor perimetral que tenga todas las entradas existentes más entradas adicionales en el SAN para todos los dominios SIP del entorno de nube (excluyendo los dominios *.onmicrosoft.com) con el formato <DomainName> "sip.".
+1.  Obtenga un nuevo certificado perimetral externo para el servidor perimetral que tenga todas las entradas existentes más entradas adicionales en el SAN para todos los dominios SIP del entorno de nube (excluyendo los dominios *.onmicrosoft.com) con el formato `sip.<DomainName>` .
 2.  Instale el certificado localmente en cada servidor perimetral y asígnelo al servicio perimetral Skype en cada uno de los servicios perimetrales.  Para obtener pasos detallados, vea la sección "Certificados de interfaz perimetral externa" en [Deploy Edge Service in Skype Empresarial Server 2015](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md).
 3.  Reinicie el servicio perimetral en cada uno de los servidores perimetrales. Puede hacerlo en un solo cuadro con los siguientes comandos de PowerShell:
 

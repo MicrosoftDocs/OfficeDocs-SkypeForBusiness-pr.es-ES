@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Información general sobre cómo usar un operador automático de nube Skype Empresarial Server 2019
-ms.openlocfilehash: ee79c52b8aaf4518511a51cea95b16d32008694c
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 832ba7fc5e93a76cc3e05d09baecd880241f6c46
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011514"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857087"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Plan de los operadores automáticos en la nube
 
@@ -37,7 +37,7 @@ Una llamada entrante a un operador automático de nube puede tomar una de varias
 ![Diagrama para operadores automáticos.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via Skype Empresarial Server 2019
-2. A través [de un controlador de borde de sesión](/MicrosoftTeams/direct-routing-border-controllers) y enrutamiento [directo](/microsoftteams/direct-routing-plan-media-bypass).
+2. A través [de un controlador de borde de sesión](/microsoftteams/direct-routing-border-controllers) y enrutamiento [directo](/microsoftteams/direct-routing-plan-media-bypass).
 3. A través de un número en línea en Microsoft 365 o Office 365.
 
 Consulte también:
@@ -45,7 +45,7 @@ Consulte también:
 - [Configurar un operador automático en la nube](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Contestar y enrutar automáticamente las llamadas entrantes](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Los siguientes requisitos suponen que ya Skype Empresarial Server 2019 implementado en una topología compatible.  Los requisitos dependen del escenario:
 
