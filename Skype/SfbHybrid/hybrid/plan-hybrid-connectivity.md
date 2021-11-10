@@ -16,14 +16,15 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+search.appverid: MET150
 description: Planee implementar la conectividad híbrida entre Skype Empresarial Server y Teams mediante la configuración Skype Empresarial modo híbrido.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 40d89076973e4667c41676684841e8c35c356396
-ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
+ms.openlocfilehash: ac2243613b4d3929f3d78facd4a45a4d70acda2b
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491720"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60887208"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planear la conectividad híbrida entre Skype Empresarial Server y Teams
 
@@ -98,7 +99,7 @@ Para implementar la conectividad híbrida entre el entorno local y Microsoft 365
     > [!NOTE]
     > Solo puede usar un único espacio empresarial para una configuración híbrida con la implementación local.
     
-- Azure Active Directory Conectar sincronizar el directorio local con Microsoft 365. Para obtener más información, vea [Azure AD Conectar: Cuentas y permisos](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
+- Azure Active Directory Conectar sincronizar el directorio local con Microsoft 365. Para obtener más información, [vea Azure AD Conectar: Cuentas y permisos](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
 - Skype Empresarial Server administrativas. Estos son necesarios para mover usuarios de local a la nube. Estas herramientas deben instalarse en un servidor con acceso a la implementación local y a Internet.
 - Herramientas administrativas en línea. Puede usar el Centro de administración Teams o Windows PowerShell para administrar Teams. Para usar PowerShell para administrar Teams, descargue e instale el módulo Teams PowerShell. (El Skype Empresarial Online Connector se ha retirado).

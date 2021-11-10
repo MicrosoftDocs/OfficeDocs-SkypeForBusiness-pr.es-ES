@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: En este artículo se proporciona información general sobre el nuevo Panel de control.
-ms.openlocfilehash: 77e26b810bfd61effa5d94ec3648c440476a7cbe
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: 355a8b93e428b860a775ad01cf31df726c644654
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824648"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60887308"
 ---
 # <a name="control-panel"></a>Panel de control
 
@@ -58,3 +58,10 @@ El nuevo Panel de control incluye elementos de menú usados habitualmente que cu
 |Registrador         |    [Registrador](use-powershell-security-menu.md#registrar)     |
 |Servicio Web      |  [Servicio Web](use-powershell-security-menu.md#web-service)       |
 |Directiva de PIN    | [Directiva de PIN](use-powershell-security-menu.md#pin-policy)        |
+
+## <a name="im-and-presence"></a>Mensajería instantánea y presencia
+
+|Submenú  |Origen de información para cmdlet  |
+|---------|---------|
+|Filtro de archivo         |    [Filtro de archivo](use-powershell-im-and-presence-menu.md#file-filter)     |
+|Filtro para direcciones URL      |  [Filtro para direcciones URL](use-powershell-im-and-presence-menu.md#url-filter)       |

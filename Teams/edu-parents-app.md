@@ -1,5 +1,5 @@
 ---
-title: Configuración de administrador para la aplicación EDU Microsoft Parents
+title: Configuración de administrador para la aplicación Microsoft EDU Parents en Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Microsoft Teams de documentos de artículos edu y configuración de PowerShell para la aplicación Padres.
+description: Microsoft Teams artículo de EDU que documenta los requisitos previos y la configuración de la aplicación Padres.
 ms.localizationpriority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MET150
@@ -17,35 +17,35 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cd05f6ad2b238b4db2d611a6fc00e5f8a57189f
-ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
+ms.openlocfilehash: 9243dfedb11c9102673e821bd2fac9d06cf3c834
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60785153"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60887298"
 ---
-# <a name="deploying-the-parents-app-in-microsoft-teams"></a>Implementar la aplicación padres en Microsoft Teams
+# <a name="deploying-the-parents-app-in-microsoft-teams"></a>Implementar la aplicación Padres en Microsoft Teams
 
-La aplicación Padres ayuda Teams los profesores a conectarse e interactuar de forma segura con los padres y tutores de los alumnos en sus clases mediante un chat que se ampliará en toda la organización del profesorado. Todos los datos de padres y tutores se aprovisionan con School Data Sync, lo que permite a los profesores y al personal de IT configurar las cosas sin problemas.
+La aplicación Padres ayuda Teams los profesores a conectarse e interactuar de forma segura con los padres y tutores de los alumnos en sus equipos de clase mediante un chat, que se ampliará en toda la organización del educador. Todos los datos de padres y tutores se aprovisionan con School Data Sync, lo que permite al personal de IT configurar las cosas sin problemas.
 
 ## <a name="requirements"></a>Requirements
 
 ### <a name="school-data-sync"></a>School Data Sync
 
-- Necesita School Data Sync (SDS) para rellenar la información de contacto relacionada de **cada** alumno.
+- Necesita School Data Sync (SDS) para rellenar la información de contacto relacionada con los padres y tutores **de cada** alumno.
   - [Implementar SDS](/schooldatasync/how-to-deploy-sds-using-sds-v2.1-csv-files)
 
-- Si necesita ayuda para configurar SDS y habilitar contactos primarios en su inquilino, póngase en contacto con el equipo de éxito del cliente de EDU:
+- Si necesita ayuda para configurar SDS y rellenar  contactos relacionados con padres y tutores para los alumnos de su inquilino, póngase en contacto con el equipo de éxito del cliente de EDU:
   - Completar el proceso de RFA en [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
   - Abrir un vale en soporte [técnico.](https://aka.ms/sdssupport)
 
-### <a name="teams-admins-center---policies"></a>Teams Centro de administración: directivas
+### <a name="teams-admin-center---policies"></a>Teams Centro de administración: directivas
 
-- El propietario de la clase debe tener el chat habilitado
-- El propietario de la clase debe tener **habilitado el acceso externo Teams cuentas no administradas por una organización.** 
-  - Esta configuración se puede encontrar en Usuarios > acceso externo para el nivel de espacio empresarial, o si desea habilitar para un determinado conjunto de usuarios, vea powershell a continuación.
+- Los propietarios de equipos de clase deben tener Teams de chat habilitado.
+- Los propietarios de equipos de clase deben tener acceso externo **Teams cuentas no administradas por una organización** habilitada. 
+  - Esto debe estar habilitado en el nivel de inquilino y en el nivel de usuario. La configuración de nivel de inquilino se puede encontrar en **Usuarios > acceso externo** en el Centro Teams administración. También se puede acceder a esta configuración a través de PowerShell. Solo se puede acceder a las directivas de acceso externo a nivel de usuario a través de PowerShell. Vea los comandos de PowerShell siguientes para obtener más instrucciones.
 
-## <a name="enabling-federated-chat-on-a-per-user-basis"></a>Habilitar el chat federado por usuario
+## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>Habilitar el acceso externo con Teams cuentas no administradas por una organización
 
 1. Instale la versión Microsoft Teams vista previa del módulo de PowerShell.
 
@@ -54,16 +54,16 @@ La aplicación Padres ayuda Teams los profesores a conectarse e interactuar de f
     Install-Module -Name MicrosoftTeams -AllowPrerelease -Force –AllowClobber
     ```
     
-2. Con credenciales que tienen privilegios de administrador, ejecute el siguiente comando en una ventana de comandos:
+2. Con credenciales que tienen privilegios de administrador, ejecute los siguientes comandos:
 
     ```powershell
     $credential = Get-Credential
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-La configuración de directiva que permite Teams el acceso externo del consumidor en el nivel de usuario (EnableTeamsConsumerAccess) está habilitada de forma predeterminada para todas las directivas de acceso externo de nivel de usuario. Tanto la configuración de nivel de inquilino (AllowTeamsConsumer) como la configuración de directiva de nivel de usuario deben estar habilitadas para que un usuario tenga acceso externo Teams consumidor. Teams Si no desea que todos los usuarios de su espacio empresarial tengan un acceso externo de consumidor habilitado, debe actualizar las directivas de acceso externo a nivel de usuario asignadas a los usuarios antes de habilitar la configuración de nivel de inquilino.
+La configuración de directiva que habilita el acceso externo con Teams cuentas no administradas por una organización en el nivel de usuario ( ) está habilitada de forma predeterminada para todas las directivas de acceso externo `EnableTeamsConsumerAccess` de nivel de usuario. Tanto la configuración de nivel de inquilino como la configuración de directiva de nivel de usuario deben estar habilitadas para que un usuario tenga accesos externos con Teams cuentas no administradas por una organización habilitada. Si no desea que todos los usuarios de su espacio empresarial tengan habilitado este acceso, debe asegurarse de que la configuración de nivel de inquilino está deshabilitada, actualizar las directivas de acceso externo a nivel de usuario asignadas a los usuarios y, a continuación, habilitar la configuración de nivel de inquilino.
 
-Si necesita comprobar qué directivas de acceso externo a nivel de usuario existen y a quién están asignadas, puede seguir estos pasos:
+Para comprobar qué directivas de acceso externo a nivel de usuario existen y a quién están asignadas, puede seguir estos pasos:
     
 3. Compruebe qué directivas de acceso externo a nivel de usuario existen.
 
@@ -71,38 +71,38 @@ Si necesita comprobar qué directivas de acceso externo a nivel de usuario exist
     Get-CsExternalAccessPolicy -Include All
     ```
 
-4. Para cada directiva que no sea la directiva "Global", compruebe qué usuarios tienen asignada la directiva. Nota: los usuarios que no tengan asignada una directiva específica volverán a la directiva "Global".
+4. Para cada directiva que no sea la directiva "Global", compruebe qué usuarios tienen asignada la directiva. Nota: los usuarios que no tengan asignada una directiva específica volverán a la directiva "Global". Los nuevos usuarios que se agregan al inquilino tendrán asignada la directiva "Global".
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
     ```
 
-### <a name="further-powershell-options"></a>Más opciones de PowerShell
+Puesto que todas las directivas de acceso externo a nivel de usuario se han establecido en true de forma predeterminada, si desea ajustar la configuración para usuarios específicos, puede crear o modificar directivas de acceso externo existentes con configuración ajustada y/o reasignar usuarios a directivas nuevas o existentes con los siguientes cmdlets de `EnableTeamsConsumerAccess` `EnableTeamsConsumerAccess` PowerShell:
 
-Puesto que todas las directivas de acceso externo a nivel de usuario tienen EnableTeamsConsumerAccess establecido en true de forma predeterminada, si desea actualizar cualquiera de estas directivas para ajustar la configuración EnableTeamsConsumerAccess, puede crear nuevas directivas de acceso externo con la configuración ajustada, o reasignar usuarios a directivas nuevas o existentes, a través del siguiente PowerShell:
+- Crear una nueva directiva de acceso externo: [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
 
-- Crear una nueva directiva de acceso externo (esto crea una nueva directiva de acceso externo y define la configuración): [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
-
-- Personalizar una directiva de acceso externo existente (modifica la configuración de una directiva de acceso externo existente, incluida la directiva [global):Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
+- Personalizar una directiva de acceso externo existente (incluida la directiva "Global"): [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
 
 > [!NOTE]
-> Los siguientes valores predeterminados de suscripción no se pueden modificar: "FederationAndPICDefault", "FederationOnly", "NoFederationAndPIC". Si necesita cambiar la configuración de directiva para los usuarios que tienen asignadas estas directivas, asigne diferentes directivas con la configuración correcta a estos usuarios.
+> Las siguientes directivas predeterminadas de suscripción no se pueden modificar: "FederationAndPICDefault", "FederationOnly", "NoFederationAndPIC". La directiva "FederationAndPICDefault" solía asignarse a todos los usuarios de forma predeterminada, pero ahora se asigna a los nuevos usuarios la directiva "Global" de forma predeterminada. Si necesita cambiar la configuración de directiva para los usuarios que tienen asignadas estas directivas predeterminadas de suscripción, asigne diferentes directivas con la configuración correcta a estos usuarios.
 
 - Asignar una directiva de acceso externo a un solo usuario: [Grant-CsExternalAccessPolicy](/powershell/module/skype/grant-csexternalaccesspolicy)
 
 - Asignar una directiva a un conjunto de usuarios: [New-CsBatchPolicyAssignmentOperation](/powershell/module/skype/new-csbatchpolicyassignmentoperation)
 
-Una vez que se sienta seguro de que las directivas de acceso externo a nivel de usuario están configuradas correctamente para todos los usuarios Teams, puede habilitar la configuración de nivel de inquilino que controla el acceso externo de un consumidor para el inquilino con el siguiente cmdlet:
+Una vez que las directivas de acceso externo de nivel de usuario se establezcan correctamente para los usuarios de su espacio empresarial, puede habilitar la configuración de nivel de inquilino ( ) para el inquilino con `AllowTeamsConsumer` el siguiente cmdlet:
 
-- Establecer la configuración de federación para el inquilino (Establecer AllowTeamsConsumer en true): [Set-CsTenantFederationConfiguration (SkypeForBusiness)](/powershell/module/skype/set-cstenantfederationconfiguration)
+- Establecer la configuración de federación para el inquilino: [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
-### <a name="disabling-the-parents-app"></a>Deshabilitar la aplicación Padres
+## <a name="disabling-the-parents-app"></a>Deshabilitar la aplicación Padres
 
-La aplicación Padres está habilitada de forma predeterminada, por lo que todos los propietarios de clase verán la aplicación en su equipo de clase. La aplicación se puede deshabilitar en el nivel de inquilino con [Permitir y](manage-apps.md#allow-and-block-apps) bloquear aplicaciones en el Microsoft Teams de administración. Si está deshabilitado a nivel de inquilino, se bloqueará para todos los usuarios, incluso si el permiso de nivel de usuario está habilitado.
+La aplicación Padres está habilitada de forma predeterminada, por lo que todos los propietarios de equipos de clase verán la aplicación en sus equipos de clase. 
 
-Esto también se puede deshabilitar en el nivel de usuario con [Administrar directivas de permisos de aplicación en Microsoft Teams]. (teams-app-permission-policies.md).
+La aplicación se puede deshabilitar en el nivel de inquilino con [Permitir y](manage-apps.md#allow-and-block-apps) bloquear aplicaciones en el Microsoft Teams de administración. Si la aplicación está deshabilitada a nivel de inquilino, se bloqueará para todos los usuarios, incluso si los permisos de nivel de usuario están habilitados.
+
+La aplicación también se puede deshabilitar en el nivel de usuario mediante Administrar directivas de permisos [de aplicación en Microsoft Teams](teams-app-permission-policies.md).
 
 ## <a name="more-information"></a>Más información
 
 - [CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
-- [Asignar la directiva a un usuario](/powershell/module/skype/grant-csexternalaccesspolicy)
+- [CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
