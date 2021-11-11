@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga información sobre el Panel de calidad de llamadas (CQD) y cómo usarlo para ver informes sobre la calidad de las reuniones y las llamadas en Microsoft Teams.
-ms.openlocfilehash: 92b7bdcd5acaa86c530f5d0380666b2ebce3eed8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f87f8184b0417d04206d31780392f21dca387d10
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593274"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909561"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>¿Qué es el Panel de calidad de llamadas (CQD)?
 
@@ -51,12 +51,6 @@ En CQD, le recomendamos que cargue información de creación y punto de conexió
 
 No se pierda [](quality-of-experience-review-guide.md) nuestro artículo Administrar la calidad de las llamadas y reuniones, que ofrece instrucciones detalladas para el administrador de Teams o el ingeniero de soporte técnico responsable de administrar la calidad del servicio en Teams.
 
-## <a name="legacy-version-of-cqd-cqdlynccom"></a>Versión heredada de CQD (CQD.lync.com)
-
-La versión actual de CQD ( https://CQD.Teams.microsoft.com) ha reemplazado la versión heredada de CQD ( https://CQD.lync.com) . Todavía puede usar CQD.lync.com (disponible desde el centro de administración de Skype Empresarial), pero a partir del 1 de julio de 2020, está usando los datos de CQD. Teams.microsoft.com y ya no puede ver ni modificar los datos de creación o consulta desde el antiguo CQD (CQD.lync.com). Si aún no ha migrado estos datos desde CQD.lync.com y los sigue necesitando, registre un vale de soporte técnico.
-
-> [!IMPORTANT]
-> A partir del 31 de julio de 2021, retiraremos la versión heredada de CQD (CQD.lync.com). Después de esa fecha, se le redirigirá automáticamente a CQD. Teams.microsoft.com al intentar obtener acceso a CQD.lync.com y se perderán los datos de consulta o creación nomigrados.
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Usar Power BI para analizar datos CQD
 

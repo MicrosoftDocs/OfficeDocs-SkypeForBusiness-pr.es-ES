@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar y conectar su SBC a Sistema telefónico enrutamiento directo.
-ms.openlocfilehash: d18ff8a8f0c398979a2c04d3aca1ff69b8bdc8f1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 199573fa2e67f46f8430dba3d9e9d506b7cbb641
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726129"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909571"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Conectar controlador de borde de sesión (SBC) a Enrutamiento directo
 
@@ -163,13 +163,13 @@ En esta tabla se enumeran las opciones que puede establecer para el SBC en el ce
 |Sí|**Agregar un FQDN para el SBC**|FQDN |Ninguna|Nombre FQDN, limitar 63 caracteres|Cadena, vea la lista de caracteres permitidos y no permitidos en convenciones de nomenclatura en Active Directory para [equipos, dominios, sitios y us](https://support.microsoft.com/help/909264)|
 |No|**Habilitado**|Habilitado|Úsese para activar el SBC para las llamadas salientes. Puede usarlo para quitar temporalmente el SBC del servicio mientras se actualiza o durante el mantenimiento. |Falso|Verdadero<br/>Falso|Boolean|
 |Sí|**Puerto de señalización SIP**|SipSignalingPort |Este es el puerto de escucha que se usa para comunicarse con enrutamiento directo mediante el protocolo de capa de transporte (TLS).|Ninguna|Cualquier puerto|De 0 a 65535 |
-|No|**Opciones de enviar SIP**|SendSIPOptions |Define si el SBC enviará mensajes de opciones SIP. Le recomendamos que active esta configuración. Cuando esta configuración está desactivada, el SBC se excluye del sistema de supervisión y alertas.|True|True<br/>Falso|Boolean|
+|No|**Opciones de enviar SIP**|SendSIPOptions |Define si el SBC enviará mensajes de opciones SIP. Le recomendamos que active esta configuración. Cuando esta configuración está desactivada, el SBC se excluye del sistema de supervisión y alertas.|Verdadero|True<br/>Falso|Boolean|
 |No|**Historial de llamadas de reenvío**|ForwardCallHistory |Indica si la información del historial de llamadas se reenvía a través del tronco. Al activar esta opción, el Microsoft 365 o Office 365 envía un encabezado History-info y Referred-by. |Falso|Verdadero<br/>Falso|Boolean|
 |No|**Encabezado forward P-Asserted-identity (PAI)**|ForwardPAI|Indica si el encabezado PAI se reenvía junto con la llamada. El encabezado PAI proporciona un método para comprobar la identidad de la persona que realiza la llamada. Si esta configuración está en, también se envía el encabezado Privacy:ID.|Falso|Verdadero<br/>Falso|Boolean|
 |No|**Capacidad de llamada simultánea**|MaxConcurrentSessions |Al establecer un valor, el sistema de alertas le notificará cuando el número de sesiones simultáneas sea del 90 por ciento o superior a este valor. Si no establece un valor, las alertas no se generan. Sin embargo, el sistema de supervisión reportará el número de sesiones simultáneas cada 24 horas. |Null|Null<br/>De 1 a 100 000 ||
 |No|**Códigos de respuesta de conmutación por error**|FailoverResponseCodes<br>|Si enrutamiento directo recibe cualquier código de error SIP 4xx o 6xx en respuesta a una invitación saliente, la llamada se considera completada de forma predeterminada. Saliente significa una llamada de un cliente Teams a la RTC con flujo de tráfico: un cliente Teams -> enrutamiento directo -> SBC -> red de telefonía). Al especificar un código de respuesta de conmutación por error, esto obliga a Enrutamiento directo a probar otro SBC (si existe otro SBC en la directiva de enrutamiento de voz del usuario) cuando recibe los códigos especificados si el SBC no puede realizar una llamada debido a problemas de red u otros. Para obtener más información, vea [Conmutación por error de códigos SIP específicos recibidos desde el controlador](direct-routing-trunk-failover-on-outbound-call.md)de borde de sesión (SBC).|408, 503, 504||Int|
 |No|**Horas de conmutación por error (segundos)**|FailoverTimeSeconds |Al establecer un valor, las llamadas salientes que la puerta de enlace no responde en el tiempo que establece se enrutan al siguiente tronco disponible. Si no hay troncos adicionales, la llamada se descarta automáticamente. El valor predeterminado es 10 segundos. En una organización con redes lentas y respuestas de puerta de enlace, esto podría provocar que las llamadas se descartaron innecesariamente.|10|Número|Int|
-|No|**País o región preferidos para el tráfico multimedia**|MediaRelayRoutingLocationOverride |Úsese para establecer manualmente su país o región preferidos para el tráfico multimedia. Le recomendamos que establezca esta opción solo si los registros de llamadas indican claramente que la asignación predeterminada del centro de datos para la ruta de acceso multimedia no usa la ruta de acceso más cercana al centro de datos de SBC. De forma predeterminada, Enrutamiento directo asigna un centro de datos en función de la dirección IP pública del SBC y siempre selecciona la ruta de acceso más cercana al centro de datos de SBC. Sin embargo, en algunos casos, es posible que la ruta predeterminada no sea la ruta óptima. Este parámetro le permite establecer manualmente la región preferida para el tráfico multimedia. |Ninguna|Códigos de país en formato ISO||
+|No|**País o región preferidos para el tráfico multimedia**|MediaRelayRoutingLocationOverride | No se aplica al enrutamiento directo. Este parámetro está reservado para su uso con operadores administrados en planes de llamadas |Ninguna|||
 |No|**SBC admite PIDF/LO para llamadas de emergencia**|PidfloSupported|Especifique si el SBC admite el objeto de ubicación de formato de datos de información de presencia (PIDF/LO) para las llamadas de emergencia.||||
 |No| - |MediaBypass|Esta configuración indica si el SBC admite la omisión de medios y si desea usarla para este SBC. |Ninguna|Verdadero<br/>Falso|Boolean|
 

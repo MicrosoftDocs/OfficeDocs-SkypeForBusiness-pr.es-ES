@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: a69393b4f433a5a057a4481db04e97eafee47f3f
-ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
+ms.openlocfilehash: 85a408ead20a8a2c2e9660c6748d616bd8b8c922
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60785063"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909591"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams dispositivos certificados
 
@@ -46,9 +46,8 @@ Los siguientes dispositivos están certificados en el programa de certificación
 | Crestron UC-P8-C-T (con y sin auricular)   | `1.0.0.80`       | Mayo de 2021                     |
 | Yealink MP52                           | `145.15.0.6 `                                              | Abril de 2021                   |
 | AudioCodes C435HD                      | `1.12.33`                                                  | Abril de 2021                   |
-| AudioCodes C470HD                      | `1.8.293`                                                  | Enero de 2021                 |
-| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                       | Marzo de 2019                   |
 | AudioCodes C448HD (solo modo CAP)      | `C450HD_TEAMS_0.225`                                       | Marzo de 2019                   |
+| AudioCodes C455HD                      | `1.14.404`                                                 | Noviembre de 2021                |
 | Crestron UC-2                          |`1.0.1.46`                                                 | Julio de 2020                    |
 | Vista ThinkSmart de Lenovo                 | `CD-18781Y.200410.067`                                     | Abril de 2020                   |
 | Poly Trio C60, Trio C60 NR, Trio C60 ND | `5.9.3.6155`                                              | Abril de 2020                   |
@@ -106,7 +105,7 @@ Las siguientes son las últimas Teams de firmware y aplicación de teléfono.
 
 | Versión del producto | Fecha de lanzamiento  | Microsoft Teams de la aplicación | Portal de empresa versión | Versión del Agente de administración |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| Actualización 2021 #3  | 03 de noviembre de 2021   | 1449/1.0.94.2021101205 | 5.0.5304.0 | 298 |
+| Actualización 2021 #3  | 03 de noviembre de 2021   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
 | Actualización de 2021 #2A | 10 de junio de 2021  |`1449/1.0.94.2021052803`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
 | Actualización 2021 #2  | 8 de junio de 2021  |`1449/1.0.94.2021051303`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
 | Actualización de 2021 #1A | 5 de abril de 2021  |`1449/1.0.94.2021033002`|  `5.0.5045.0` |  `1.0.0.202101280722.product (253)` |
@@ -123,16 +122,16 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo        | Versión de firmware     | Versión de producto incluida  |
 |:--------------------|:---------------------|:-------------------------|
-|Códigos de audio C448HD  | C448HD_TEAMS_1.14.449 | Actualización 2021 #3  |
-|Códigos de audio C450HD  | C450HD_TEAMS_1.14.449 | Actualización 2021 #3  |
-|Códigos de audio C470HD  | C470HD_TEAMS_1.14.449 | Actualización 2021 #3  |
-|Poly Trio C60      | 7.1.3.0985            | Actualización 2021 #3  |
-|Poly CCX400/CCX500/CCX600 | 7.1.3.0991     | Actualización 2021 #3  |
-|Crestron UC-2      | 1.0.4.57              | Actualización 2021 #3  |
-|Yealink T55A/T56A/T58A   | 58.15.0.143     | Actualización 2021 #3  |
-|Yealink MP54/MP56/MP58   | 122.15.0.60     | Actualización 2021 #3  |
-|Yealink VP59             | 91.15.0.77      | Actualización 2021 #3  |
-|Yealink CP960            | 73.15.0.139     | Actualización 2021 #3  |
+|Códigos de audio C448HD  | `C448HD_TEAMS_1.14.449` | Actualización 2021 #3  |
+|Códigos de audio C450HD  | `C450HD_TEAMS_1.14.449` | Actualización 2021 #3  |
+|Códigos de audio C470HD  | `C470HD_TEAMS_1.14.449` | Actualización 2021 #3  |
+|Poly Trio C60      | `7.1.3.0985`            | Actualización 2021 #3  |
+|Poly CCX400/CCX500/CCX600 | `7.1.3.0991`     | Actualización 2021 #3  |
+|Crestron UC-2      | `1.0.4.57`              | Actualización 2021 #3  |
+|Yealink T55A/T56A/T58A   | `58.15.0.143`     | Actualización 2021 #3  |
+|Yealink MP54/MP56/MP58   | `122.15.0.60`     | Actualización 2021 #3  |
+|Yealink VP59             | `91.15.0.77`      | Actualización 2021 #3  |
+|Yealink CP960            | `73.15.0.139`     | Actualización 2021 #3  |
 | Poly Trio C60   | `7.0.3.0517`  | Actualización 2021 #2                        |
 | Poly CCX400/CCX500/CCX600   | `7.0.3.0515` | Actualización 2021 #2                     |
 | Códigos de audio C448HD/C450HD/C470HD   | `1.10.143`  | Actualización 2021 #2           |

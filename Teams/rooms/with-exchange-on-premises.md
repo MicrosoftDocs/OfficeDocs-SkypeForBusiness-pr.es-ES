@@ -1,7 +1,7 @@
 ---
 title: Implementar Salas de Microsoft Teams con Exchange local
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -17,16 +17,16 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Lea este tema para obtener información sobre cómo implementar Salas de Microsoft Teams en un entorno híbrido con Exchange local.
-ms.openlocfilehash: 35b69e12c38991ecf8ac4d9c0f6f335a097da334
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 96d8a49cd75e3413739d36a3c86a91daa72b22e6
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612989"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909541"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implementar Salas de Microsoft Teams con Exchange local
 
-Lea este tema para obtener información sobre cómo implementar Salas de Microsoft Teams en un entorno híbrido con Exchange local y Microsoft Teams o Skype Empresarial Online.
+Lea este tema para obtener información sobre cómo implementar Salas de Microsoft Teams en un entorno híbrido con Exchange local y Microsoft Teams.
   
 Si su organización tiene una combinación de servicios, con algunos hospedados localmente y otros hospedados en línea, la configuración dependerá de dónde se hospeda cada servicio. En este tema se tratan las implementaciones híbridas para Salas de Microsoft Teams con Exchange hospedadas localmente. Dado que hay muchas variaciones diferentes en este tipo de implementación, no es posible proporcionar instrucciones detalladas para todas ellas. El siguiente proceso funcionará para muchas configuraciones. Si el proceso no es adecuado para su configuración, le recomendamos que use Windows PowerShell para lograr el mismo resultado final que se documenta aquí y para otras opciones de implementación.
 
@@ -38,36 +38,22 @@ Antes de implementar Salas de Microsoft Teams con Exchange local, asegúrese de 
   
 Si va a implementar Salas de Microsoft Teams con Exchange local, va a usar las herramientas administrativas de Active Directory para agregar una dirección de correo electrónico para su cuenta de dominio local. Esta cuenta se sincronizará con Microsoft 365 o Office 365. Tendrá que hacer lo siguiente:
   
-- Crear una cuenta y sincronizarla con Active Directory
+- Cree una cuenta y sincronice la cuenta con Azure Active Directory.
 
 - Habilitar el buzón de correo remoto y establecer propiedades
 
 - Asigne una Microsoft 365 o Office 365 licencia.
 
-- Habilite la cuenta del dispositivo con Skype Empresarial Server. Para ello, el entorno deberá cumplir con los requisitos previos que se detallan aquí:
-
-  - Necesitará tener Skype Empresarial en línea (Plan 2) o superior en su plan Microsoft 365 o Office 365 plan. El plan debe admitir la funcionalidad de conferencias.
-  
-  - Si necesita Telefonía IP empresarial (telefonía RTC) con proveedores de servicios de telefonía para Salas de Microsoft Teams necesita Skype Empresarial En línea (Plan 3).
-
-  - Al configurar una cuenta de salón con Microsoft Teams o Skype Empresarial En línea, el número de teléfono debe asignarse antes de que la cuenta se habilite como una cuenta de salón.
-  
-  - Los usuarios de inquilino deben tener Exchange buzones de correo.
-  
-  - Su Salas de Microsoft Teams cuenta requiere una licencia de Skype Empresarial Online (Plan 2) o Skype Empresarial Online (Plan 3), pero no requiere una licencia Exchange Online usuario.
-
-- Asigne una Skype Empresarial Server a su Salas de Microsoft Teams cuenta.
-
-### <a name="create-an-account-and-synchronize-with-active-directory"></a>Crear una cuenta y sincronizarla con Active Directory
+### <a name="create-an-account-and-synchronize-with-azure-active-directory"></a>Cree una cuenta y sincronice con Azure Active Directory
 
 1. En la herramienta Usuarios y equipos de **Active Directory,** haga clic con el botón derecho en la carpeta o unidad organizativa en la que se crearán las cuentas de Salas de Microsoft Teams, haga clic en Nuevo y, a continuación, haga clic en **Usuario.**
 
-2. Escriba el nombre para mostrar del anterior cmdlet en el cuadro **Nombre completo** y el alias en el cuadro **Nombre de inicio de sesión de usuario**. Haga clic en **Siguiente**.
+2. Escriba el nombre para mostrar en el **cuadro Nombre completo** y el alias en el cuadro Nombre de inicio de sesión **de** usuario. Haga clic en **Siguiente**.
 
 3. Escriba la contraseña de la cuenta. Tendrá que volver a escribirla para verificarla. Asegúrese de que la casilla **La contraseña nunca expira** sea la única opción activada.
 
     > [!NOTE]
-    > Seleccionar **Contraseña nunca expira es** un requisito para Skype Empresarial Server en Salas de Microsoft Teams. Es posible que las reglas de dominio prohíban las contraseñas que no expiran. Si es así, deberá crear una excepción para cada cuenta Salas de Microsoft Teams dispositivo.
+    > Seleccionar **Contraseña nunca expira es** un requisito para Salas de Microsoft Teams. Es posible que las reglas de dominio prohíban las contraseñas que no expiran. Si es así, deberá crear una excepción para cada cuenta Salas de Microsoft Teams dispositivo.
   
 4. Tras crear la cuenta, ejecute una sincronización de directorios. Cuando haya finalizado, vaya a la página de usuarios de su Centro de administración de Microsoft 365 y compruebe que la cuenta creada en los pasos anteriores se ha combinado con la conexión.
 
@@ -97,19 +83,19 @@ Si va a implementar Salas de Microsoft Teams con Exchange local, va a usar las h
 
    - AddAdditionalResponse: $true (El texto especificado por el parámetro AdditionalResponse se agrega a las solicitudes de reunión).
 
-   - AdditionalResponse: "Esta es una sala Skype reunión" (El texto adicional que se agregará a la solicitud de reunión).
+   - AdditionalResponse: "Esta es una sala Microsoft Teams reunión" (El texto adicional que se agregará a la solicitud de reunión).
 
    En este ejemplo se configuran estas opciones en el buzón de sala Project-Rigel-01.
 
    ```PowerShell
-   Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
    Para obtener información detallada sobre la sintaxis y los parámetros, vea [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Asignar una Microsoft 365 o Office 365 licencia
 
-1. Conectar Azure Active Directory. Para obtener más información sobre Active Directory, vea [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+1. Conectar Azure Active Directory. Para obtener más información Azure Active Directory, [vea Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) no es compatible. 
@@ -135,62 +121,6 @@ Si va a implementar Salas de Microsoft Teams con Exchange local, va a usar las h
    ```  -->
 
    Para obtener instrucciones [detalladas,](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)vea Asignar licencias a cuentas de usuario con Office 365 PowerShell.
-
-### <a name="enable-the-device-account"></a>Habilitar la cuenta del dispositivo
-
-Skype Empresarial PowerShell en línea se usa para administrar servicios para Microsoft Teams y Skype Empresarial Online.
-
-1. Cree una sesión de Windows PowerShell remoto desde un equipo como se muestra a continuación:
-> [!NOTE]
-> El conector en línea del cliente de Skype® Empresarial actualmente forma parte del módulo más reciente de Windows PowerShell de Teams.
->
-> Si usa la versión pública más [reciente Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)no es necesario instalar el Skype Empresarial Online Connector.
-
-   ``` Powershell
-   # When using Teams PowerShell Module
-
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   Connect-MicrosoftTeams -Credential $credential
-   ```
-
-2. Obtener la dirección SIP de la cuenta:
-
-   ``` Powershell
-    $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
-    ```
-
-3. **Opcional.** Si desea asignar un número de teléfono a la cuenta, la operación debe realizarse en este momento. Si desea asignar un número de teléfono de enrutamiento directo:
-
-   ``` Powershell
-    Set-CsUser -Identity $rm -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+14255550012
-    ```
-    Si va a asignar un número de teléfono proporcionado por Microsoft, use el cmdlet siguiente después de haber aprovisionado al usuario con una licencia de Plan de llamadas:
-    
-    ``` Powershell
-    Set-CsOnlineVoiceUser -Identity $rm -TelephoneNumber +14255550011 -LocationID xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
-    ```
-    
-4. Para habilitar su Salas de Microsoft Teams cuenta, ejecute este comando:
-
-   ``` Powershell
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
-   ```
-
-   Si no está seguro del valor que debe usar para el parámetro RegistrarPool en su entorno, puede obtener el valor de un usuario existente con este comando:
-
-   ``` Powershell
-   Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
-   ```
-
-### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Asignar una licencia a su Salas de Microsoft Teams cuenta
-
-1. Inicie sesión como administrador de inquilinos, abra el Centro de administración de Microsoft 365 y haga clic en la aplicación Administrador.
-2. Haga clic en **Usuarios y grupos** y después haga clic en **Agregar usuarios, restablecer contraseñas, y más**.
-3. Haga clic en Salas de Microsoft Teams cuenta y, a continuación, haga clic en el icono del lápiz para editar la información de la cuenta.
-4. Haga clic en **Licencias**.
-5. En **Asignar licencias**, seleccione Skype Empresarial (plan 2) o Skype Empresarial (plan 3), según sus requisitos de licencia y de telefonía IP empresarial. Tendrá que usar una licencia de Plan 3 si desea usar Telefonía IP empresarial en su Salas de Microsoft Teams.
-6. Haga clic en **Guardar**.
 
 Para la validación, debería poder usar cualquier cliente para iniciar sesión en esta cuenta.
   

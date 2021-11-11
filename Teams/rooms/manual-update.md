@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo actualizar manualmente el Salas de Microsoft Teams dispositivo a una versión específica.
-ms.openlocfilehash: 36d5477ef84eb97971727314aa39ab19e4139488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c823cd9ffc98c0eea53ecc48f6ea7fc47519dfd1
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578254"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909552"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>Actualizar manualmente un Salas de Microsoft Teams móvil
 
@@ -48,7 +48,7 @@ Después de descargar el script de actualización de la aplicación sin conexió
 
 ## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>Paso 2: Ejecutar el script para actualizar la Salas de Teams aplicación
 
-El script de actualización de aplicaciones sin conexión debe ejecutarse desde un símbolo del sistema con privilegios elevados mientras el usuario de Skype (el usuario en el que se ejecuta la aplicación) sigue iniciado sesión. Para obtener más información sobre cómo iniciar sesión en una cuenta de administrador para usar el símbolo del sistema con privilegios elevados mientras el usuario de Skype sigue conectado, vea Cambiar al modo de administración y volver cuando se esté ejecutando la [aplicación Salas de Microsoft Teams.](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
+El script de actualización de aplicaciones sin conexión debe ejecutarse desde un símbolo del sistema con privilegios elevados mientras el usuario de Skype (el usuario en el que se ejecuta la aplicación) sigue iniciado sesión. Para obtener más información sobre cómo iniciar sesión en una cuenta de administrador para usar el símbolo del sistema con privilegios elevados mientras el usuario de Skype sigue conectado, vea Cambiar al modo de administración y volver cuando la [aplicación Salas de Microsoft Teams](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes)se bloquea.
 
 Haga lo siguiente para ejecutar el script desde un símbolo del sistema con privilegios elevados:
 

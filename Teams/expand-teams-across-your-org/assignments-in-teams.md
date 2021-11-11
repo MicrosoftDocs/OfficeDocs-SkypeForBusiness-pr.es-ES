@@ -1,7 +1,7 @@
 ---
 title: Tareas de Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: danieasmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -21,12 +21,12 @@ description: Obtenga información sobre cómo administrar tareas en el centro Mi
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a35e092aff4a160a744f3be4193adc5b207b8c1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 59fb8e0b81195c696b7bd6142ecf031688207917
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859747"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909601"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
 
@@ -42,8 +42,8 @@ Las características Tareas y calificaciones de Teams para Educación permiten a
 Con la configuración de administrador del centro Microsoft Teams administración, puede activar o desactivar las características para los profesores de su organización y sus alumnos. A continuación se muestra la configuración relacionada con Tareas:
 
 <a name="#bkemaildigest"> </a>
-### <a name="weekly-guardian-email-digest"></a>Resumen de correo electrónico de tutor semanal
 
+### <a name="weekly-guardian-email-digest"></a>Resumen de correo electrónico de tutor semanal
 
 Los correos electrónicos de los tutores se envían cada fin de semana a los padres o tutores. El correo electrónico contiene información sobre las tareas de la semana anterior y de la semana siguiente. La sincronización de padres y tutores se puede configurar [con School Data Sync](/schooldatasync/parent-contact-sync).
 
@@ -54,20 +54,21 @@ Los correos electrónicos de los tutores se envían cada fin de semana a los pad
    > [!NOTE]
    > Los profesores pueden optar por no participar en el resumen anulando la selección de la configuración dentro de su propio equipo personal de clase (Tareas Configuración > correo electrónico de **padres/tutores).**
 
-Para comprobar que los padres recibirán el correo electrónico, los tres elementos siguientes deben ser verdaderos:
+Para comprobar que los padres recibirán el correo electrónico, deben cumplirse los tres elementos siguientes:
 
- - Dirección de correo electrónico adjunta al perfil de alumno en SDS y etiquetada como _Padres_ o _Tutores._ Para obtener más información, vea [Formato de archivo de sincronización de padres y tutores.](/schooldatasync/parent-contact-sync-file-format)
+- Dirección de correo electrónico adjunta al perfil de alumno en SDS y etiquetada como _Padres_ o _Tutores._ Para obtener más información, vea [Formato de archivo de sincronización de padres y tutores.](/schooldatasync/parent-contact-sync-file-format)
 
- - Los alumnos pertenecen al menos a una clase en la que el profesor no deshabilita el correo electrónico en la configuración [de la tarea.](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77)
+- Los alumnos pertenecen al menos a una clase en la que el profesor no deshabilita el correo electrónico en la configuración [de la tarea.](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77)
 
- - Los correos electrónicos contendrán información sobre las tareas que tuvieron una fecha de vencimiento en la semana anterior o en la semana siguiente.
+- Los correos electrónicos contendrán información sobre las tareas que tienen una fecha de vencimiento de la semana anterior o de la semana próxima.
 
 La configuración predeterminada para esta característica es - **Desactivado**.
 
-
 <a name="bkmakecode"> </a>
+
 ### <a name="makecode"></a>MakeCode
-Microsoft MakeCode es una plataforma de codificación basada en bloques que da vida a la informática para todos los alumnos. 
+
+Microsoft MakeCode es una plataforma de codificación basada en bloques que da vida a la informática para todos los alumnos.
 
 MakeCode es un producto de Microsoft que está sujeto a las condiciones de uso [y](https://go.microsoft.com/fwlink/?LinkID=206977) las directivas de privacidad [de](https://go.microsoft.com/fwlink/?LinkId=521839) Microsoft.
 
@@ -80,16 +81,17 @@ Para obtener más información sobre cómo funciona esta característica, vea es
 [Más información sobre MakeCode](https://aka.ms/makecode).
 
 <a name="#turnitin"> </a>
+
 ### <a name="turnitin"></a>Turnitin
 
-[Turnitin es](https://www.turnitin.com/) un servicio de integridad académica. Este es un producto o servicio de terceros que está sujeto a sus propios términos y política de privacidad. Usted es responsable del uso de los productos y servicios de terceros.
+[Turnitin es](https://www.turnitin.com/) un servicio de integridad académica. Este es un servicio de terceros que está sujeto a sus propios términos y política de privacidad. Usted es responsable del uso de los productos y servicios de terceros.
 
 La configuración predeterminada de esta característica es - **Desactivado**..
 
 Para habilitar Turnitin para su organización, necesitará una suscripción a Turnitin. A continuación, puede introducir la siguiente información, que se puede encontrar en la consola de administración de Turnitin:
 
-  * **TurnitinApiKey:** se trata de un GUID de 32 caracteres que se encuentra en la consola de administración en Integraciones.
-  * **TurnitinApiUrl:** esta es la dirección URL HTTPS de la consola de administración de Turnitin.
+- **TurnitinApiKey:** se trata de un GUID de 32 caracteres que se encuentra en la consola de administración en Integraciones.
+- **TurnitinApiUrl:** esta es la dirección URL HTTPS de la consola de administración de Turnitin.
 
 Estas son algunas instrucciones para ayudarle a obtener esta información.
 
@@ -102,15 +104,76 @@ Seleccione **Integraciones en** el menú lateral, seleccione **Agregar integraci
 
 ![Captura de pantalla que muestra cómo agregar una nueva integración.](./educationImages/Assignments_mopo_turnitin2.png)
 
-El **TurnitinApiKey** se le dará después de seguir las indicaciones. Copie la clave de API y péguela en el Microsoft Teams de administración.  Esta es la única vez que puede ver la clave.
+El **TurnitinApiKey** se le dará después de seguir las indicaciones.
+Copie la clave de API y péguela en el Microsoft Teams de administración.  Esta es la única vez que puede ver la clave.
 
 ![Captura de pantalla que muestra cómo copiar la clave de API.](./educationImages/Assignments_mopo_turnitin3.png)
 
 Al hacer clic en **el botón** Guardar del Centro de administración para esta configuración, espere unas horas para que esta configuración suba a efecto.
 
-### <a name="removing-assignments-and-grades"></a>Quitar tareas y calificaciones
-Puede usar directivas Teams para quitar tareas y calificaciones para un usuario específico o para todo el espacio empresarial. 
+## <a name="assignments-data"></a>Datos de asignaciones
+
+Las tareas almacenan información generada tanto por profesores como por alumnos. Todos los datos se comparten de forma compartida entre el profesor y el alumno específico para el que está destinada la información en clase. Hay dos tiendas de esto, SharePoint y fuera de SharePoint.
+
+>[!NOTE]
+>Las mismas reglas también se aplican a las integraciones de terceros, como progreso de lectura.
+
+### <a name="assignments-data-in-sharepoint-document-libraries"></a>Datos de asignaciones en SharePoint de documentos
+
+Los archivos de los alumnos asociados con un envío para la tarea se almacenan en una biblioteca de documentos (denominada: *Trabajo del alumno).* Los archivos asociados con tareas creadas por profesores y accesibles por los alumnos se almacenan en otra biblioteca de documentos (denominada: Archivos de clase) en el sitio de SharePoint clase correspondiente. Las integraciones de primera parte también pueden almacenar datos de asignaciones en el mismo sitio de grupo de SharePoint clase correspondiente (denominado: Título de asignaciones *+ marca de tiempo).*
+
+#### <a name="files-associated-with-the-student"></a>Archivos asociados con el alumno
+
+Los administradores de TI pueden usar la herramienta búsqueda de contenido para buscar archivos de alumno *(trabajo* del *alumno,* archivos de clase u otros archivos de integración de terceros) relacionados con los envíos de tareas y los archivos relacionados con las tareas. Por ejemplo, un administrador podría buscar en todos los sitios SharePoint de la organización y usar el nombre y el nombre de clase o tarea del alumno en la consulta de búsqueda para buscar datos relevantes para una solicitud de interesado (DSR).
+
+#### <a name="files-associated-with-the-teacher"></a>Archivos asociados con el profesor
+
+Los administradores de TI pueden usar la herramienta búsqueda de contenido para buscar archivos de profesor *(trabajo* de *alumno,* archivos de clase u otros archivos de integración de terceros) relacionados con tareas, así como archivos distribuidos a los alumnos por los profesores dentro de una clase en tareas. Por ejemplo, un administrador podría buscar en todos los sitios SharePoint de la organización y usar el nombre del profesor y el nombre de clase o tarea en la consulta de búsqueda para buscar datos relevantes para un DSR.
+
+### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>Datos de asignaciones fuera de SharePoint bibliotecas de documentos
+
+Algunos datos relacionados con Tareas no se almacenan en el equipo de clase SharePoint sitio, lo que significa que no se pueden detectar con la búsqueda de contenido. Esto incluye:
+
+- Calificaciones de los alumnos y comentarios del profesor
+- La lista de documentos enviados para una tarea por cada alumno
+- Detalles de la tarea como Fecha de vencimiento, etc.
+- Datos de integración de primera, como pasajes de progreso de lectura o datos de pronunciación de alumnos
+
+Para este tipo de datos, un administrador de TI o un propietario de datos, como un profesor, pueden tener que ir a la tarea en el equipo de clase para buscar datos relevantes para un DSR. El administrador puede agregarse como propietario a la clase y ver todas las tareas de ese equipo de clase.
+
+>[!NOTE]
+>Si un alumno ya no forma parte de la clase, sus datos podrían seguir estando presentes en la clase, ya *que ya no están inscritos.* El alumno tendrá que proporcionar al administrador de inquilinos la lista de las clases de las que formaron parte.
+
+### <a name="bulk-export-assignment-data-outside-of-sharepoint-document-libraries"></a>Exportar datos de asignación en masa fuera de SharePoint bibliotecas de documentos
+
+#### <a name="for-a-student"></a>Para un alumno
+
+Para exportar en masa los datos de un solo alumno, antes de quitar al alumno de las clases de las que forman parte, ejecute el [script](/microsoft-365/education/deploy/configure-assignments-for-teams) y proporcione el ``userId`` archivo . Si el alumno se ha quitado del sitio, el administrador puede volver a agregar el alumno a la clase antes de ejecutar el script, o el administrador puede proporcionar el y el del que el alumno formaba parte ``userId`` ``classId`` alguna vez.
+
+Los datos sobre los envíos de los alumnos se exportarán.
+
+#### <a name="for-a-teacher"></a>Para un profesor
+
+Los datos de tareas de exportación en masa funcionan del mismo modo para un alumno, pero todos los envíos a los que tiene acceso el profesor se exportarán.
+
+### <a name="bulk-delete-assignment-data-outside-of-sharepoint-document-libraries"></a>Eliminar datos de asignación en masa fuera SharePoint bibliotecas de documentos
+
+#### <a name="for-a-student"></a>Para un alumno
+
+Para eliminar en masa los datos de un solo alumno, antes de quitar al alumno de las clases de las que forman parte, ejecute el [script](/microsoft-365/education/deploy/configure-assignments-for-teams) y proporcione el ``userId`` archivo . Si el alumno se ha quitado del sitio, el administrador puede volver a agregar el alumno a la clase antes de ejecutar el script, o el administrador puede proporcionar el y el del que el alumno formaba parte ``userId`` ``classId`` alguna vez.
+
+Al proporcionar ``ClassId`` una, el administrador solo podrá eliminar información sobre el alumno de una clase específica.
+
+#### <a name="for-a-teacher"></a>Para un profesor
+
+Puesto que los datos de una tarea para un profesor se comparten en toda la clase, no hay ninguna opción de eliminación masiva. En su lugar, el administrador puede agregarse a la clase, ir a la aplicación y eliminar la tarea.
+
+Para obtener más información, vea [Configurar tareas para Teams](/microsoft-365/education/deploy/configure-assignments-for-teams).
+
+## <a name="removing-assignments-and-grades"></a>Quitar tareas y calificaciones
+
+También puede usar directivas Teams para quitar tareas y calificaciones para un usuario específico o para todo el espacio empresarial.
 
 Para quitar tareas y calificaciones para un usuario individual, vaya al  Centro de administración de Teams y vaya **a** Teams aplicaciones > directivas de permisos para crear una nueva definición de directiva de permisos de aplicación.  Al crear la nueva definición de  directiva, establezca la directiva  de aplicaciones de **Microsoft** en Bloquear aplicaciones específicas, permitir a todos los demás y agregar Asignaciones a la lista de aplicaciones bloqueadas. Una vez guardada la nueva definición de directiva, asígnela a los usuarios adecuados.
 
-Para quitar tareas y calificaciones para todo el espacio empresarial, vaya al Centro de administración de **Teams,** vaya  **Teams** aplicaciones > Administrar aplicaciones y busque y seleccione Tareas en la lista de aplicaciones. Cambie la configuración de estado dentro de la página Configuración de la aplicación Asignación a _Bloqueado._ 
+Para quitar tareas y calificaciones para todo el espacio empresarial, vaya al Centro de administración de **Teams,** vaya  **Teams** aplicaciones > Administrar aplicaciones y busque y seleccione Tareas en la lista de aplicaciones. Cambie la configuración de estado dentro de la página Configuración de la aplicación Asignación a _Bloqueado._
