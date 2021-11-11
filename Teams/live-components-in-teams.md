@@ -18,16 +18,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6be8db0fdde7509f5721277b4ee631f7a814171d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7c05888191c98e2b7fe11637ad8fe5ba8a8c1132
+ms.sourcegitcommit: 2ce417430b2aac770997daaf5ef5d844aa97fd84
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830224"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60911864"
 ---
 # <a name="manage-live-components-in-teams"></a>Administrar componentes activos en Teams
 
 Los componentes activos de Teams chat ofrecen una nueva forma de idear, crear y tomar decisiones juntos. Envíe un componente (como una tabla, una lista de tareas o un párrafo) donde todos los usuarios del chat puedan editarlos en línea y ver los cambios a medida que se realicen. Esto significa que puede recopilar ideas y comentarios de su equipo mientras mantiene menos reuniones y minimiza la necesidad de conversaciones largas.
+> [!Note]
+> Los componentes activos son la primera característica de la [aplicación Microsoft Loop](https://www.microsoft.com/en-us/microsoft-loop) que está disponible en Teams. Tenga en cuenta que "Componentes activos" se cambiará a "Componentes de bucle" a principios de 2022.
 
 **Haga las tareas más rápido juntos.** Abarrote una agenda, realice un seguimiento de los elementos de acción de un grupo o tome notas de forma colectiva. Estos son solo algunos escenarios que se facilitan con los componentes activos.
 
@@ -38,8 +40,6 @@ Los componentes activos de Teams chat ofrecen una nueva forma de idear, crear y 
 ## <a name="clients-and-platforms"></a>Clientes y plataformas
 
 Disponible en Teams aplicaciones en Windows, Mac, Linux, iOS y Android.
-
-A partir de principios de septiembre, los componentes activos estarán disponibles en todo el mundo. A finales de septiembre, estará disponible para Government Community Cloud Mod (GCC).
 
 ## <a name="settings-management"></a>Configuración administración de aplicaciones
 
@@ -55,7 +55,7 @@ Necesitará la última versión de SharePoint módulo de [PowerShell](/office365
 
 3. Compruebe que el valor de IsFluidEnabled es **verdadero.**
 
-## <a name="enabling-the-fluid-framework-through-the-sharepoint-online-powershell-cmdlet"></a>Habilitar el Fluid Framework el cmdlet SharePoint PowerShell en línea 
+## <a name="enabling-the-fluid-framework-through-the-sharepoint-online-powershell-cmdlet"></a>Habilitar el Fluid Framework el cmdlet SharePoint PowerShell en línea
 
 1. [Conectar para SharePoint PowerShell en línea](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password). 
 
@@ -81,21 +81,42 @@ cmdlet Connect-SPOService at command pipeline position 1
 
 Supply values for the following parameters:
 Url: <https://a830edad9050849822e21011208-admin.sharepoint.com/>
-PS C:\\WINDOWS\\system32&gt; set-SPOTenant -isFluidEnabled $false
+PS C:\\WINDOWS\\system32&gt; set-SPOTenant -isFluidEnabled $true
 PS C:\\WINDOWS\\system32&gt;
 ```
+## <a name="known-issues"></a>Problemas conocidos
+
+- Los componentes en directo del chat no se pueden editar Aplicación de Office al usar Teams en Android.
+
+- Si los permisos de archivo predeterminados del inquilino se establecen en Personas específicas (solo las personas que especifica el **usuario)** y el remitente quita algunos usuarios de la lista Personas específicas en el cuadro de diálogo permisos al crear un componente, es posible que esos usuarios todavía tengan acceso al contenido. Este problema se debe a la limitación de administración de acceso del cuadro de diálogo de permisos y se solucionará en la versión futura.
+
+- Si la configuración de la directiva de acceso condicional del inquilino impide que la red cliente se conecte a, los componentes activos no funcionarán según lo esperado para ahorrar cambios en tiempo `https://pushchannel.1drv.ms` real en el servicio.
 
 ## <a name="known-limitations"></a>Limitaciones conocidas
 
-- Crear una tabla o una lista de tareas como el primer componente después Teams se reinicia la aplicación puede tardar algún tiempo adicional.
+- La búsqueda de componentes activos en Teams búsqueda devolverá un vínculo al componente en office.com, no en el mensaje de chat en sí.
 
-- Otros miembros del chat recibirán una notificación por correo electrónico cuando se mencione con un símbolo at (@). (Las notificaciones de menciones en la Teams de actividades estarán disponibles próximamente).
+- Los componentes activos están deshabilitados en chats federados.
 
-- La búsqueda de componentes activos dentro Teams búsqueda devolverá un vínculo al componente en office.com, no en el mensaje de chat en sí.
+- Los invitados B2B no podrán colaborar en componentes activos que se comparten con ellos a través de Company Share Link a menos que el inquilino establece la opción de acceso externo para permitir que los invitados B2B tengan el mismo nivel de acceso que los miembros del inquilino.
 
-- Los componentes activos están deshabilitados en chats federados y habilitados para chats regulares con una cuenta de invitado con Azure B2B.
+- Teams La compatibilidad completa del cliente web con los componentes de Live estará disponible próximamente.
 
-- Aunque puede compartir un componente en Teams canales y otras aplicaciones Microsoft 365, los destinatarios obtienen un vínculo en la mayoría de los lugares en este momento. La edición en línea está planeada para más experiencias en el futuro.
+- Los componentes activos aún no son compatibles Teams canales, pero su edición en línea en canales está planeada para más experiencias en el futuro.
+
+- Con los permisos de archivo predeterminados del inquilino establecidos en Personas específicas (solo las personas que especifica el **usuario),** copiar el vínculo al componente activo y pegarlo en otro chat requiere que el remitente use el cuadro de diálogo permisos y agregue los destinatarios en la opción Personas específicas para conceder acceso correctamente.
+
+- Con los permisos de archivo predeterminados del inquilino establecidos en Personas específicas (solo las personas que especifica el **usuario),** la creación de un componente activo en el chat grupal con más de 20 miembros requerirá que el remitente seleccione manualmente las opciones de permisos para el componente.
+
+- Los componentes activos del chat no se cargarán solo si el archivo se movió a otra biblioteca. Si el archivo se mueve a otra carpeta, se seguirá cargando en el chat.
+
+## <a name="how-to-check-your-tenants-default-file-permissions"></a>Cómo comprobar los permisos de archivo predeterminados del inquilino
+
+1. Vaya a la [Centro de administración de Microsoft 365](https://admin.microsoft.com/).
+
+2. A la izquierda, en **Centros de administración,** **seleccione SharePoint**.
+
+3. Seleccione **Directivas**  >  **compartidas** y, en **Vínculos a archivos y** carpetas, vea los permisos de archivo predeterminados de su inquilino.
 
 ## <a name="storage-of-fluid-files"></a>Storage de `.fluid` archivos
 
