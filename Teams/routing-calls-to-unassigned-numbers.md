@@ -21,17 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo enrutar llamadas a números sinsignar en su organización.
-ms.openlocfilehash: 2574a0ac734ed6caee1eadf5a5ee006111713055
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 93d9ce289820bdcf9bb4a1e13e78bb8794b77dbd
+ms.sourcegitcommit: bdca3b5eb35a17b27c5a052d83ab229b7c911dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537001"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60947507"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Enrutamiento de llamadas a números sinsignar
-
-> [!NOTE]
-> Esta característica está disponible como versión de vista previa pública.
 
 Como administrador, puede enrutar las llamadas a números sinsignar en su organización. Por ejemplo, es posible que desee enrutar las llamadas a números sinsignar de la siguiente manera: 
 
