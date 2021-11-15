@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar Microsoft Teams datos del registro de auditoría en el Centro de cumplimiento de Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d817a89b60de260529b1e9d4a9891290d9ea404b
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: d5c57cc859c3a30040b4874579157a714600156a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536891"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959839"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -89,6 +89,8 @@ Esta es una lista de todos los eventos que se registran para las actividades de 
 |Bot agregado al equipo   |BotAddedToTeam        |Un usuario agrega un bot a un equipo.        |
 |Agregación de canales   |Canal agregado         |Un usuario agrega un canal a un equipo.         |
 |Conector agregado  |Conector agregado          |Un usuario agrega un conector a un canal.        |
+|Se han agregado detalles sobre Teams reunión|MeetingDetail|Teams información agregada sobre una reunión, incluida la hora de inicio, la hora de finalización y la dirección URL para unirse a la reunión.|
+|Información agregada sobre los participantes de la reunión|MeetingParticipantDetail|Teams información sobre los participantes de una reunión, incluido el id. de usuario de cada participante, la hora en que un participante se unió a la reunión y la hora en que un participante abandonó la reunión.|
 |Miembros agregados    |Miembro agregado         |El propietario de un equipo agrega miembros a un equipo, canal o chat grupal.         |
 |Pestaña Agregado    |Pestaña Agregada         |Un usuario agrega una pestaña a un canal.        |
 |Configuración del canal cambiada    |ChannelSettingChanged         |La operación ChannelSettingChanged se registra cuando un miembro del equipo realiza las siguientes actividades. Para cada una de estas actividades, se muestra una descripción de la configuración  que se ha cambiado (se muestra entre paréntesis en la columna Elemento en los resultados de búsqueda del registro de auditoría. <ul><li>Cambia el nombre de un canal de grupo (**nombre del canal**)</li><li>Cambiar la descripción de un canal de grupo (**Descripción del canal**)</li> </ul>      |
@@ -177,7 +179,7 @@ Puede usar la API Office 365 actividad de administración para recuperar informa
 
 ## <a name="attribution-in-teams-audit-logs"></a>Atribución en Teams registros de auditoría
 
-Los cambios de pertenencia a Teams (como usuarios agregados o eliminados) realizados Azure Active Directory través de Azure Active Directory (Azure AD), el portal de administración de Microsoft 365 o la API de Microsoft 365 Groups Graph aparecerán en los mensajes de auditoría de Teams y en el General canal con una atribución a un propietario existente del equipo y no al iniciador real de la acción. En estos escenarios, consulte Azure AD o [Microsoft 365 de auditoría](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) del grupo para ver la información relevante.
+Los cambios de pertenencia a Teams (como usuarios agregados o eliminados) realizados a través de Azure Active Directory (Azure AD), un portal de administración de Microsoft 365 o la API Microsoft 365 Grupos Graph aparecerán en Teams  auditar mensajes y en el canal General con una atribución a un propietario existente del equipo, y no al iniciador real de la acción. En estos escenarios, consulte Azure AD o [Microsoft 365 de auditoría](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) del grupo para ver la información relevante.
 
 ## <a name="use-cloud-app-security-to-set-activity-policies"></a>Usar Cloud App Security para establecer directivas de actividad
 

@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Obtenga información sobre cómo administrar la característica Música en espera en Sistema telefónico.
-ms.openlocfilehash: 7f67e4f26ecac837b93257ca79a757d49daf239b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: e2f2347ca4368a8665d77ff2424a5c0082c1b0d8
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605566"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960129"
 ---
 # <a name="music-on-hold"></a>Música en espera
 
@@ -45,9 +45,6 @@ También puede configurar Música en espera mediante el módulo Teams PowerShell
 Si un usuario Teams tiene una directiva de llamadas Teams con Música en espera establecida en Deshabilitado, no se reproducirá música cuando el usuario de Teams coloca la llamada en espera.
 
 ## <a name="configure-custom-music"></a>Configurar música personalizada
-
-> [!NOTE]
-> Esta característica está disponible como versión de vista previa pública.
 
 Además de reproducir música predeterminada para los autores de llamadas RTC, puede cargar un archivo de audio personalizado con música u otro contenido de audio y configurar ese archivo de audio para que se resalte al autor de la llamada RTC.
 Por ejemplo, es posible que un departamento u organización quiera reproducir un anuncio personalizado o música personalizada cuando los autores de llamadas RTC externos se pongan en espera.  

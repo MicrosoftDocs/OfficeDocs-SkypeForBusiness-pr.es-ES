@@ -1,8 +1,8 @@
 ---
-title: Teams para visitas virtuales
-author: HowlinWolf-92
-ms.author: v-mahoffman
-manager: serdars
+title: 'Visitas virtuales con Teams: integración en Épico EHR'
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -22,18 +22,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Utilice Microsoft Teams para configurar el sistema de visitas virtuales
-ms.openlocfilehash: 3ba0ff974f9a8381eab054bb92468762dc1d8cc8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Obtenga información sobre cómo integrar el conector EHR de Teams para permitir que los proveedores de salud de su organización realicen visitas virtuales con pacientes u otros proveedores en Teams directamente desde el sistema Épico EHR.
+ms.openlocfilehash: 48d2cfd69dd9d5cd8be2fcd5a0c29fca7162d246
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859737"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960049"
 ---
-# <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visitas virtuales con Teams: integración en EHR
+# <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Visitas virtuales con Teams: integración en Épico EHR
 
-Microsoft Teams El conector de registro de salud electrónico (EHR) facilita a los médicos iniciar una visita virtual a pacientes o consultas con otro proveedor en Teams directamente desde el sistema EHR. Integrado en la nube de Microsoft 365, Microsoft Teams permite colaborar y comunicarse de forma sencilla y segura con herramientas de chat, vídeo, voz y salud en un único sitio central compatible con el cumplimiento de la ley HIPAA, la certificación HITECH y mucho más.
-Con la plataforma de comunicación y colaboración de Teams, los profesionales de la medicina pueden poner fin fácilmente al desorden de los sistemas fragmentados y así dedicar su tiempo a proporcionar la mejor atención posible. Microsoft Teams El conector registro de estado electrónico (EHR) puede:
+Microsoft Teams de registro de salud electrónico (EHR) facilita que los médicos inicien una visita virtual de pacientes o una consulta con otro proveedor en Teams directamente desde el sistema EHR. Integrado en la nube de Microsoft 365, Microsoft Teams permite colaborar y comunicarse de forma sencilla y segura con herramientas de chat, vídeo, voz y salud en un único sitio central compatible con el cumplimiento de la ley HIPAA, la certificación HITECH y mucho más.
+Con la plataforma de comunicación y colaboración de Teams, los profesionales de la medicina pueden poner fin fácilmente al desorden de los sistemas fragmentados y así dedicar su tiempo a proporcionar la mejor atención posible. Microsoft Teams de registro de estado electrónico (EHR) puede:
 
 - Inicie Teams visitas virtuales desde el sistema EHR del proveedor con un flujo de trabajo clínico integrado.
 - Permitir que los pacientes se unan Teams visitas virtuales desde el portal del paciente.
@@ -179,4 +179,4 @@ El conector de EHR para Microsoft Teams no almacena ni transfiere ningún dato p
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Teams visitas virtuales](ehr-admin-reports.md)
+[Teams de administrador del conector EHR](ehr-admin-reports.md)

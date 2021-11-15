@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7eb4708e032f713f85cf6532fe1726d9d8e7a3b2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 171bd65dbcedbe71473e6fb3d975ab99696fdf28
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833004"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959829"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Complemento Comunicaciones avanzadas para Microsoft Teams
 
@@ -45,7 +45,7 @@ Comunicaciones avanzadas está disponible en todos los Microsoft 365 como comple
 > [!NOTE]
 > Las comunicaciones avanzadas aún no están disponibles para Microsoft 365 GCC entornos de Alto o Departamento de Defensa (DoD).
 
-Estas características están disponibles ahora en versión preliminar hasta finales de año, momento en el que se necesita una licencia de Comunicaciones avanzadas por usuario para seguir usando estas características.
+Estas características están disponibles ahora en versión preliminar.
 
 ## <a name="related-articles"></a>Artículos relacionados
 

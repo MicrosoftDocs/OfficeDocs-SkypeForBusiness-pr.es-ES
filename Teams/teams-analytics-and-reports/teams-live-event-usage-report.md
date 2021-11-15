@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el Teams de uso de eventos en
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e46c0e55eb4808f3c0b112dae72049649fc7f4a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 504c8822146efa7101ca1435cab961a86068ccaf
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865549"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959899"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams de uso de eventos en directo
 
@@ -35,7 +35,7 @@ El Teams de uso de eventos en directo en el centro de administración de Microso
 3. (Opcional) En **Organizador,** puede elegir mostrar solo eventos en directo organizados por un usuario específico.
 4. Haga clic **en Ejecutar informe.**  
 
-    ![Captura de pantalla del Teams de uso de eventos en directo en el Teams de administración con llamadas.](../media/teams-live-event-usage-report-with-callouts.png "Captura de pantalla del Teams de uso de eventos en directo en el centro Teams de administración con llamadas")
+   :::image type="content" alt-text="Captura de pantalla del Teams de uso de eventos en directo en el Teams de administración con llamadas." source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 
@@ -48,13 +48,15 @@ El Teams de uso de eventos en directo en el centro de administración de Microso
 |**5**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla.|
 
 ## <a name="notes"></a>Notas
-Mostrar hasta 100 eventos en directo que coincidan con los criterios de informe actuales. Para ver más eventos en directo, aplique filtros de fecha para reducir el tamaño de la lista.
+Se muestran hasta 100 eventos en directo que coinciden con los criterios de informe actuales. Para ver más eventos en directo, aplique filtros de fecha para reducir el tamaño de la lista. 
+
+Cualquier persona que vea la grabación del evento o el evento a petición no se incluirá en el recuento de vistas. 
 
 ## <a name="view-event-details"></a>Ver detalles del evento
 
 La página de detalles del evento en directo le proporciona un resumen de los detalles de un evento en directo y enumera todos los archivos, incluidas transcripciones y grabaciones, asociados con el evento. Haga clic en un nombre de archivo para ver o descargar el archivo.
 
-![Captura de pantalla que muestra detalles de un evento en directo.](../media/teams-live-event-usage-report-event-detail.png)
+:::image type="content" alt-text="Captura de pantalla que muestra detalles de un evento en directo." source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
 
 Si su organización está habilitada para el eCDN de [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) o [el ECDN de Kollective,](https://kollective.com) puede obtener análisis de asistentes adicionales haciendo clic en el vínculo del informe de partners.
 

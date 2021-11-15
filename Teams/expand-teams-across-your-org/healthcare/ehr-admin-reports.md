@@ -1,5 +1,5 @@
 ---
-title: 'Teams para visitas virtuales: informes de administradores'
+title: 'Teams para visitas virtuales: informes de administrador del conector EHR'
 author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
@@ -23,18 +23,18 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Ver informes de administradores para Teams de conectorES EHR
-ms.openlocfilehash: 7ec22bdfd7a73ba39c9e94d0c65f2da6f1f5f973
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 256a93dc9e78036659eccf86c54d9da62f4277bb
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858767"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959889"
 ---
-# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams Informes de administrador del conector EHR
+# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams de administrador del conector EHR
 
-El Microsoft Teams de administrador del conector de estado electrónico (EHR) proporciona una vista rápida y fácil de leer de los datos de uso.
+El Microsoft Teams de administrador del conector de registro de estado electrónico (EHR) proporciona una vista rápida y fácil de leer de los datos de uso.
 
-Puede ver el informe Microsoft Teams administrador del conector EHR yendo al panel Microsoft Teams centro de administración y viendo el cuadro de diálogo allí.
+Puede ver el informe Teams administrador del conector EHR yendo al panel Microsoft Teams centro de administración y viendo el cuadro de diálogo allí.
 
 Acceda al informe desde el panel Microsoft Teams centro de administración.
 
@@ -48,6 +48,7 @@ El cuadro de diálogo proporciona los siguientes datos:
 
 Puede usar el cuadro de diálogo informe para comprar más visitas virtuales.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
-[Teams para visitas virtuales](ehr-admin.md)
+- [Visitas virtuales con Teams: integración en Cerner EHR](ehr-admin-cerner.md)
+- [Visitas virtuales con Teams: integración en Épico EHR](ehr-admin.md)
