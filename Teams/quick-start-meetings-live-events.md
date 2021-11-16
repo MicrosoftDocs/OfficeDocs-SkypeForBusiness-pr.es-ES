@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e3a74b5e156817ec9b28608d725800858c3b350
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: caabea3e1310ad704953171836dcdfb35506609a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432542"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960069"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Inicio rápido: reuniones, seminarios web y eventos en vivo 
 
@@ -51,9 +51,9 @@ En la tabla siguiente se resumen brevemente los tres tipos de reuniones, el núm
 | Eventos en directo | Hasta 20 000** |- Difusión a grandes audiencias. <br>- Preguntas y respuestas moderadas para la interacción del público. <br> - Permite especificar productores y moderadores, incluidos moderadores externos.<br>- Admite funcionalidades de producción más avanzadas. | No |
 ||||
 
-*Los 10 000 habituales se incrementan a 20 000 hasta el 31 de diciembre de 2021.<br>
+*Las 10 000 habituales se incrementan a 20 000 hasta el 30 de junio de 2022.<br>
 
-**Los 10 000 habituales se incrementan a 20 000 hasta el 31 de diciembre de 2021. Puede programar reuniones para incluso más asistentes con eventos en directo en Yammer o Microsoft Stream. Para obtener más información, consulte [Eventos en directo en todo Microsoft 365](/stream/live-event-m365).  Tenga en cuenta que los eventos de más de 20 000 asistentes requieren el [Programa de asistencia de eventos en directo](/stream/live-events-assistance). 
+**Las 10 000 habituales se incrementan a 20 000 hasta el 30 de junio de 2022. Puede programar reuniones para incluso más asistentes con eventos en directo en Yammer o Microsoft Stream. Para obtener más información, consulte [Eventos en directo en todo Microsoft 365](/stream/live-event-m365).  Tenga en cuenta que los eventos de más de 20 000 asistentes requieren el [Programa de asistencia de eventos en directo](/stream/live-events-assistance). 
 
 **Consideraciones para seminarios web, eventos en directo y reuniones de gran tamaño**: al hospedar reuniones de gran tamaño, tenga en cuenta lo siguiente.
 
