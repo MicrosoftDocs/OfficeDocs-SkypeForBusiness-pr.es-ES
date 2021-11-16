@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9ac3ebe8d4b8e2572c5e4d6766d671a86101340b
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 3260ec894de12b405e0fea8e0d3c75a550d896d4
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465830"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959919"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -46,7 +46,7 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Número de canales privados por equipo    |30 (incluye canales eliminados)<sup>4</sup>        |
 |Número de miembros de un canal privado    |250|
 |Tamaño máximo de lista de distribución, grupo de seguridad o grupo de Office 365 que puede importarse a un equipo    |3500|
-|Número máximo de miembros de un grupo de Office 365 que se pueden convertir en un equipo    |10 000<sup>6</sup>     |
+|Número máximo de miembros de un grupo de Office 365 que se pueden convertir en un equipo    |10 000<sup>6</sup>     |
 |Tamaño de publicación de conversación de canal | Aproximadamente 28 KB por publicación<sup>5</sup> |
 
 <sup>1</sup> Cualquier objeto del directorio de Azure Active Directory cuenta para este límite. Los administradores globales están exentos de este límite, al igual que las aplicaciones que llamen a Microsoft Graph usando los [permisos de la aplicación](/graph/permissions-reference).
@@ -162,9 +162,9 @@ Para obtener más información acerca de los eventos en directo y una comparaci�
 > [!IMPORTANT]
 > **Aumento del límite de eventos en directo de Microsoft 365**
 >
-> **Para seguir admitiendo las necesidades de nuestros clientes ampliaremos los aumentos de límite temporal para los eventos en directo hasta el 31 de diciembre de 2021, incluidos**:
+> **Para continuar cubriendo las necesidades de nuestros clientes, ampliaremos los aumentos de límite temporal para eventos en directo hasta el 30 de junio de 2022, incluidos:**
 >
->- Soporte de eventos de hasta 20 000 asistentes
+>- Soporte de eventos de hasta 20 000 asistentes
 >- 50 eventos se pueden hospedar de forma simultánea en un espacio empresarial
 >- Difusión de un evento de 16 horas de duración
 >
