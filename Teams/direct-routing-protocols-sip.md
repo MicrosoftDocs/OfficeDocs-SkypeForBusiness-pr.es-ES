@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a58d40bb59e81376995f4a92421d479f5f4abda
-ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
+ms.openlocfilehash: 436eded0069af9263aec02f62a697572be7a4ead
+ms.sourcegitcommit: b4bc3b4c1d167a075a25180818f61758eb56cd6b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60909581"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61041272"
 ---
 # <a name="direct-routing---sip-protocol"></a>Enrutamiento directo: protocolo SIP
 
@@ -45,6 +45,7 @@ Antes de que se pueda procesar una llamada entrante o saliente, los mensajes OPT
 > [!NOTE]
 > Los encabezados SIP no contienen userinfo en el URI de SIP en uso. Según [RFC 3261, sección 19.1.1,](https://tools.ietf.org/html/rfc3261#section-19.1.1)la parte userinfo de un URI es opcional y puede estar ausente cuando el host de destino no tiene un concepto de usuarios o cuando el propio recurso está identificado. Si el signo @ está presente en un URI SIP, el campo de usuario NO DEBE estar vacío.
 > Tenga en cuenta que el URI de SIPS no debe usarse con enrutamiento directo, ya que no es compatible.
+> Compruebe la configuración del controlador de borde de sesión y asegúrese de que no usa encabezados "Reemplaza" en las solicitudes SIP. Enrutamiento directo rechazará las solicitudes SIP que tengan los encabezados Replaces definidos.
 
 En una llamada entrante, el proxy SIP debe buscar el espacio empresarial al que está destinada la llamada y encontrar el usuario específico dentro de este espacio empresarial. El administrador de inquilinos puede configurar números que no son DID, por ejemplo +1001, en varios inquilinos. Por lo tanto, es importante buscar el espacio empresarial específico en el que realizar la búsqueda de números porque los números que no son DID pueden ser los mismos en varias Microsoft 365 o Office 365 organizaciones.  
 
