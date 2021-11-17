@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Comportamiento de coexistencia entre Teams & Skype Empresarial, incluidos los parámetros de enrutamiento, el & de llamadas, los chats & llamadas de subprocesos preexistentes, & presencia.
-ms.openlocfilehash: 1ed59546d871a7ac375061714ceedd67086818d1
-ms.sourcegitcommit: 2ce417430b2aac770997daaf5ef5d844aa97fd84
+ms.openlocfilehash: 5c32e99ad7cd74966cc7d8f22bd19a2520249b85
+ms.sourcegitcommit: a5b80ad33b4ee9505ea2be1a37f5ec2d8bf5ba76
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60911834"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61042371"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 
@@ -63,7 +63,7 @@ Los métodos de enrutamiento de subprocesos son:
 - *nativo federado para* una conversación federada entre inquilinos cuando ambos usuarios tienen el modo TeamsOnly. 
 - *interoperabilidad federada* para una conversación federada entre inquilinos que depende de la interoperabilidad entre Skype Empresarial y Teams.
 
-> [! NOTAS]
+> [!NOTE]
 > - Las conversaciones nativas, ya sea en el mismo espacio empresarial o en escenarios federados, se producen cuando tanto el receptor como el remitente tienen el modo TeamsOnly. La conversación será una experiencia de chat nativa, que incluye todas las funciones enriquecciones de mensajería y llamadas. Para obtener más información, lea [Experiencia de chat nativa para usuarios externos (federados) en Teams](native-chat-for-external-users.md). 
 > - Si alguno de los participantes de la conversación NO tiene el modo TeamsOnly, la conversación es una experiencia de interoperabilidad con mensajes de solo texto.
 > - Comunicaciones federadas entre los usuarios de TeamsOnly en nubes multiempresa y entornos de nube especiales (por ejemplo, nubes gubernamentales) aparecerán como chats federados de interoperabilidad.
@@ -95,7 +95,7 @@ Las tablas siguientes capturan el enrutamiento de llamadas y chats en el espacio
 
 <br>
 
-|<br><br>Modo|Originador<br><br>Cliente|<br><br>&nbsp;Skype Empresarial homed|<br><br>Ruta: >|TeamsOnly Recipient|
+|<br><br>Modo|Originador<br><br>Cliente|<br><br>Skype Empresarial &nbsp; hogar|<br><br>Ruta: >|TeamsOnly Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
 |Aplicaciones aisladas|Teams <br> Skype Empresarial| Local <br> Local|&boxv;<br>&boxv;|Teams <br> *Teams*|
@@ -106,7 +106,7 @@ Las tablas siguientes capturan el enrutamiento de llamadas y chats en el espacio
 
 <br>
 
-|<br><br>Modo|Originador<br><br>Cliente|<br><br>&nbsp;Skype Empresarial homed|<br><br>Ruta: >|Destinatario de islas|
+|<br><br>Modo|Originador<br><br>Cliente|<br><br>Skype Empresarial &nbsp; hogar|<br><br>Ruta: >|Destinatario de islas|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
 |Aplicaciones aisladas| Teams <br> Skype Empresarial|Local<br>Local|&boxv;<br>&boxv;| Teams <br> Skype Empresarial|
@@ -117,7 +117,7 @@ Las tablas siguientes capturan el enrutamiento de llamadas y chats en el espacio
 
 <br>
 
-|<br><br>Modo|Originador<br><br>Cliente|<br><br>&nbsp;Skype Empresarial homed|<br><br>Ruta: >|Skype Empresarial Destinatario|
+|<br><br>Modo|Originador<br><br>Cliente|<br><br>Skype Empresarial &nbsp; hogar|<br><br>Ruta: >|Skype Empresarial destinatario|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype Empresarial*|
 |Aplicaciones aisladas|Teams <br> Skype Empresarial| Local <br> Local|&boxv;<br>&boxv;| **No es posible** <br> Skype Empresarial|
@@ -127,7 +127,7 @@ Las tablas siguientes capturan el enrutamiento de llamadas y chats en el espacio
 
 ### <a name="federated-routing-for-new-chats-or-calls"></a>Enrutamiento federado para nuevos chats o llamadas
 
-Las tablas siguientes capturan el enrutamiento de llamadas y chats federados, y son válidas para nuevas llamadas o chats. Describen qué cliente recibirá una nueva llamada o chat, si es originado por un usuario de la izquierda, a un usuario de destino federado a la derecha. En resumen, si la conversación es posible como se ha descrito anteriormente, los mensajes enviados a TeamsOnly los usuarios siempre llegarán a Teams; Los mensajes enviados Skype Empresarial los usuarios en modo de Skype Empresarial; Los mensajes enviados a los usuarios de las Islas siempre llegarán a Skype Empresarial independientemente del cliente desde el que se enviaron. 
+Las tablas siguientes capturan el enrutamiento de llamadas y chats federados, y son válidas para nuevas llamadas o chats. Describen qué cliente recibirá una nueva llamada o chat, si es originado por un usuario de la izquierda, a un usuario de destino federado a la derecha. En resumen, si la conversación es posible como se ha descrito anteriormente, los mensajes enviados a TeamsOnly los usuarios siempre llegarán Teams; los mensajes enviados Skype Empresarial los usuarios en modo Skype Empresarial siempre llegarán Skype Empresarial; los mensajes enviados a los usuarios de las Islas siempre llegarán Skype Empresarial  independientemente del cliente desde el que se enviaron. 
 
 El enrutamiento para chats y llamadas federados difiere del enrutamiento en el espacio empresarial en que los usuarios de las islas siempre recibirán una comunicación federada en Skype Empresarial. Esto se debe a que es posible que el partner federado aún no esté usando Teams. El enrutamiento a Skype Empresarial para cualquier receta de modo de islas garantiza que los mensajes siempre se reciban.  El enrutamiento a Teams posiblemente podría provocar la falta de comunicación si el destinatario no usa Teams. 
 
@@ -158,7 +158,7 @@ El enrutamiento para chats y llamadas federados difiere del enrutamiento en el e
 
 <br>
 
-|<br><br>Modo|Originador<br><br>Cliente|<br><br>Skype Empresarial hogar|<br><br>Ruta: >|Skype Empresarial Destinatario|
+|<br><br>Modo|Originador<br><br>Cliente|<br><br>Skype Empresarial hogar|<br><br>Ruta: >|Skype Empresarial destinatario|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype Empresarial*|
 |Aplicaciones aisladas|Teams <br> Skype Empresarial| Local <br> Local|&boxv;<br>&boxv;|**No es posible** <br> Skype Empresarial|
@@ -189,9 +189,9 @@ La presencia se comparte en función del modo de coexistencia de un usuario como
 - Si un usuario está en el modo TeamsOnly, cualquier otro usuario (ya sea en Teams o Skype Empresarial) verá que TeamsOnly Teams presencia
 - Si un usuario está en cualquiera de los modos Skype Empresarial (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), cualquier otro usuario (ya sea en Teams o Skype Empresarial) verá que Skype Empresarial presencia del usuario Skype Empresarial
 - Si un usuario está en modo Islas, la presencia en Teams y la presencia en Skype Empresarial son independientes (los valores no tienen por qué coincidir) y otros usuarios verán una u otra presencia del usuario de las Islas, dependiendo de si están en el mismo inquilino o en un inquilino federado y el cliente que usan.
-  - Desde Teams, cualquier otro usuario dentro del mismo espacio empresarial verá la presencia del usuario de Teams islas; esto está alineado con la tabla de enrutamiento en el espacio empresarial anterior
+  - Desde Teams, cualquier otro usuario dentro del mismo inquilino verá la presencia Teams del usuario de las Islas; esto está alineado con la tabla de enrutamiento del espacio empresarial anterior
   - Desde Teams, cualquier otro usuario de un inquilino federado verá la presencia del usuario de Skype Empresarial islas; esto está alineado con la tabla de enrutamiento federada anterior
-  - Desde Skype Empresarial, cualquier otro usuario verá la presencia del usuario de Skype Empresarial islas (tanto en el inquilino como federado); esto está alineado con las tablas de enrutamiento anteriores
+  - Desde Skype Empresarial, cualquier otro usuario verá la presencia de Skype Empresarial del usuario de las Islas (tanto en el inquilino como federado); esto está alineado con las tablas de enrutamiento anteriores
 
 ### <a name="in-tenant-presence"></a>Presencia en el inquilino
 
@@ -203,7 +203,7 @@ En la tabla se describe la presencia del Publisher que verá un watcher, dependi
 
 <br>
 
-|Watcher<br><br>Cliente|<br><br>Ruta: >|<br><br>Aplicaciones aisladas|Publisher<br><br>Skype Empresarial|<br>Teams Solo|
+|Watcher<br><br>Cliente|<br><br>Ruta: >|<br><br>Aplicaciones aisladas|Publisher<br><br>Skype Empresarial|<br>Teams solo para Teams|
 |---|:---:|---|---|---|
 |Skype Empresarial|&boxv;|Skype Empresarial|Skype Empresarial|Teams|
 |Teams|&boxv;|Teams|Skype Empresarial|Teams|
@@ -217,7 +217,7 @@ La presencia federada se basa en la capacidad de acceso federada que se muestra 
 
 <br>
 
-|Watcher<br><br>Cliente|<br><br>Ruta: >|<br><br>Aplicaciones aisladas|Publisher<br><br>Skype Empresarial|<br><br>Teams Solo|
+|Watcher<br><br>Cliente|<br><br>Ruta: >|<br><br>Aplicaciones aisladas|Publisher<br><br>Skype Empresarial|<br><br>Teams solo para Teams|
 |---|:---:|---|---|---|
 |Skype Empresarial|&boxv;|Skype Empresarial|Skype Empresarial|Teams|
 |Teams|&boxv;|Skype Empresarial|Skype Empresarial|Teams|
