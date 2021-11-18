@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2461620fa70ba6bf3b3db4db613e6d5adb908ddb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e684f9d64c3a10611b3cd71c9ea711f052050f48
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753861"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055451"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -158,7 +158,7 @@ Aplicaciones Microsoft 365 para empresas no admite las instalaciones por equipo 
 
 #### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>Cómo excluir la Teams a través de Aplicaciones Microsoft 365 para empresas
 
-Para obtener más información sobre Teams y Aplicaciones Microsoft 365 para empresas, vea Cómo excluir Teams de las nuevas instalaciones de [Aplicaciones Microsoft 365 para empresas](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-microsoft-365-apps) y Usar directiva de grupo para controlar la instalación de [Teams](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
+Para obtener más información sobre Teams y Aplicaciones Microsoft 365 para empresas, vea Cómo excluir Teams de las nuevas instalaciones de [Aplicaciones Microsoft 365 para empresas](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-microsoft-365-apps) y Usar directiva de grupo para controlar la [instalación de Teams](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Implementar la Teams de escritorio en la máquina virtual
 
@@ -220,7 +220,7 @@ Hay una variedad de configuraciones de configuración virtualizadas, cada una co
 - Requisito mínimo: Es posible que algunas cargas de trabajo requieran una configuración con recursos superiores a los requisitos mínimos. Por ejemplo, cargas de trabajo para desarrolladores que usan aplicaciones que demandan más recursos informáticos.
 - Dependencias: incluyen dependencias de infraestructura, carga de trabajo y otras consideraciones ambientales fuera de Teams aplicación de escritorio.
 - Características deshabilitadas en VDI: Teams deshabilita las características de uso intensivo de GPU para VDI, lo que puede ayudar a mejorar el uso transitorio de la CPU. Las siguientes características están deshabilitadas:
-    - Teams Animación CSS
+    - Teams css
     - Inicio automático de Giphy
 
 ## <a name="teams-on-vdi-with-calling-and-meetings"></a>Teams en VDI con llamadas y reuniones
@@ -381,7 +381,7 @@ Esta característica está disponible en Teams versión 1.3.00.13565 y posterior
 
 ## <a name="disable-audio-and-video-settings-for-vdi"></a>Deshabilitar la configuración de audio y vídeo para VDI
 
-Teams Las directivas VDI están disponibles en Microsoft Teams módulo. Estas directivas se aplican y se aplican en entornos VDI no optimizados.
+Teams directivas VDI están disponibles en el módulo Microsoft Teams. Estas directivas se aplican y se aplican en entornos VDI no optimizados.
 
 - New-CsTeamsVdiPolicy  
 - Grant-CsTeamsVdiPolicy
@@ -494,7 +494,7 @@ Las siguientes características de llamadas y reuniones no son compatibles:
 
 Los siguientes son problemas conocidos y limitaciones para llamadas y reuniones:
 
-- La interoperabilidad con Skype Empresarial está limitada a las llamadas de audio; no hay ninguna modalidad de vídeo.
+- La interoperabilidad con Skype Empresarial se limita a las llamadas de audio; no hay ninguna modalidad de vídeo.
 - La resolución de transmisión de vídeo entrante y saliente está limitada a una resolución de 720p.
 - Solo se admite una transmisión de vídeo desde una cámara entrante o una transmisión de pantalla compartido. Cuando hay un recurso compartido de pantalla entrante, se muestra ese recurso compartido de pantalla, en lugar del vídeo del orador dominante.
 - Teams no cambia a usar el último dispositivo de audio que seleccionó un usuario, si el dispositivo está desconectado y, después, se vuelve a conectar.
@@ -504,8 +504,6 @@ Los siguientes son problemas conocidos y limitaciones para llamadas y reuniones:
 - Dar control y tomar el control:
     - No se admite durante una sesión de uso compartido de pantalla o de uso compartido de aplicaciones.
     - Compatible durante una sesión PowerPoint de uso compartido.
-- Limitaciones de Solo Citrix
-   - No se admite el escalado alto de PPP en CWA.
 
 Para Teams problemas conocidos que no están relacionados con VDI, vea Soporte [técnico Teams su organización.](/MicrosoftTeams/troubleshoot/teams-welcome)
 

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo administrar la configuración de la directiva de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: 5a277aeb5ccdef5bc3ec98d849cd9f9ec5271e2b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 2c87434aa198169854e59b6a2a93ed9ceed9cd2f
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605416"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055361"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -66,7 +66,7 @@ Esta es una directiva por organizador. Esta configuración controla si los usuar
 |**Usuarios de mi organización y de organizaciones de confianza e invitados**     |Los usuarios autenticados en la organización, incluidos los usuarios invitados y los usuarios de las organizaciones de confianza, pueden unirse a la reunión directamente sin tener que esperar en la sala de espera.  Los usuarios anónimos esperan en la sala de espera.   |
 |**Usuarios en mi organización**    |Los usuarios autenticados de la organización se unen a la reunión directamente sin esperar en la sala de espera.  Los usuarios de organizaciones de confianza, usuarios invitados y usuarios anónimos esperan en la sala de espera.          |
 |**Solo organizador**    |Solo los organizadores de la reunión se pueden unir a la reunión directamente sin tener que esperar en la sala de espera. Todos los demás, incluidos los usuarios autenticados de la organización, los usuarios invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la Teams opciones de reunión de cliente, aparece como "Solo yo".          |
-|**Solo usuarios invitados**    |Solo los usuarios invitados y los organizadores de la reunión pueden unirse a la reunión directamente sin esperar en la sala de espera. Todos los demás, incluidos los usuarios autenticados de la organización, los usuarios invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la Teams opciones de reunión del cliente, aparece como "Personas a las que invito".          |
+|**Solo usuarios invitados**    |Solo los usuarios invitados y los organizadores de la reunión pueden unirse a la reunión directamente sin esperar en la sala de espera. Todos los demás, incluidos los usuarios autenticados de la organización, los usuarios invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la Teams opciones de reunión del cliente, aparece como "Personas a las que invito". Los usuarios agregados como parte de un grupo de distribución tendrán que pasar por la sala de espera.      |
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de espera
 

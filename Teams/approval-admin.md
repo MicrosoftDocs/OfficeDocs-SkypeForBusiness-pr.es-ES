@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33af895358695227d9f7e76ec5b80fb733749342
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d607a2ea0469ce3b88411bfe17ca8d54b76c7cc0
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850613"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055441"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 
@@ -99,10 +99,10 @@ Permisos de plantilla de aprobación
 
 - Todos los propietarios de equipos pueden crear una plantilla de aprobación para los equipos de su propiedad.
 
-- Cuando un administrador crea una plantilla para toda su organización por primera vez, creará automáticamente un nuevo equipo de Teams para todos los administradores del inquilino, incluidos los administradores globales y de servicio del equipo. Estos administradores se agregarán como propietarios del equipo, para que puedan administrar en coadministraciones las plantillas de la organización. Los administradores que son nuevos en la organización después de crear el equipo deben agregarse manualmente como propietarios de equipos para que tengan los mismos permisos para administrar plantillas de toda la organización.
+- Cuando un administrador crea una plantilla para toda la organización por primera vez, creará automáticamente un nuevo grupo de Azure Active Directory(AAD) para todos los administradores del inquilino, incluidos los administradores globales y de servicio del equipo. Estos administradores se agregarán como propietarios del grupo, para que puedan administrar en coadministraciones las plantillas de la organización. Los administradores que son nuevos en la organización después de crear el equipo deben agregarse manualmente como propietarios de grupos para que tengan los mismos permisos para administrar plantillas de toda la organización.
 
 > [!Note]
-> Si un administrador elimina el equipo, tiene un mes para restaurarlo en el portal Azure Active Directory (AAD) para restaurar todos los datos relacionados. Después de un mes, o si el administrador elimina este equipo dentro de la papelera de reciclaje, perderá todos los datos relacionados.
+> Si un administrador elimina el grupo, tiene un mes para restaurarlo en el portal Azure Active Directory (AAD) para restaurar todos los datos relacionados. Después de un mes, o si el administrador elimina este grupo dentro de la papelera de reciclaje, perderá todos los datos relacionados.
 
 ## <a name="disable-the-approvals-app"></a>Administrar la aplicación Aprobaciones
 

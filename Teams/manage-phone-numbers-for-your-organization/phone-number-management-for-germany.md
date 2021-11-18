@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Alemania para Microsoft Teams.
-ms.openlocfilehash: 3a3aea336583f71bff1795171b40f4fa06374298
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 7e7bc19c52b1b44df9ee5d0e2c2b8644c24b82cf
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732731"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055411"
 ---
 # <a name="phone-number-management-for-germany"></a>Administración de números de teléfono para Alemania
 
@@ -36,7 +36,7 @@ Para obtener más información, consulte [Administrar los números de teléfono 
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
 |Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.  <br/> | En Alemania, no puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. Debe enviar una solicitud de número de teléfono nuevo. <br/><br/>Descargue uno de estos formularios. <br/>[Nueva solicitud de número de teléfono para Alemania (v.5.0) (de-de)](https://download.microsoft.com/download/3/d/0/3d08f249-93a6-4bec-8c89-a2614ee0b84d/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf) <br/>  [Nueva solicitud de número de teléfono para Alemania (v.5.0) (en-us)](https://download.microsoft.com/download/e/0/4/e043635c-f275-40dc-a45e-3120dfe0d748/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf)<br/><br/>Rellene y póngase en contacto con el Servicio de atención al cliente de [TNS para obtener instrucciones.](contact-tns-service-desk.md)  <br/> |
-|Transferirnos números de teléfono.  <br/> | Descargue uno de estos formularios. <br/><br/> Para números de teléfono de usuario:<br/>[Carta de autorización (LOA) para Alemania (números geográficos) (v.5.0) (de-de)](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  Para números de teléfono gratuitos:<br/>[Carta de autorización (LOA) para Alemania (números gratuitos) (v.5.0) (de-de)](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> Rellene y póngase en contacto con el Servicio de atención al cliente de [TNS para obtener instrucciones.](contact-tns-service-desk.md)  <br/> |
+|Transferirnos números de teléfono.  <br/> | Descargue uno de estos formularios. <br/><br/> Para números de teléfono geográficos:<br/>[Carta de autorización (LOA) para Alemania (números geográficos) (v.5.0) (de-de)](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  Para números de teléfono gratuitos:<br/>[Carta de autorización (LOA) para Alemania (números gratuitos) (v.5.0) (de-de)](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> Rellene y póngase en contacto con el Servicio de atención al cliente de [TNS para obtener instrucciones.](contact-tns-service-desk.md)  <br/> |
 |Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |Póngase en contacto con el Servicio de atención al cliente de [TNS](contact-tns-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
 |Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de atención al cliente de [TNS](contact-tns-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
 |Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con el Servicio de asistencia de [TNS para obtener instrucciones.](contact-tns-service-desk.md) |

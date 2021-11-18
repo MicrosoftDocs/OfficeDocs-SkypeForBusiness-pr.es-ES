@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 2fc412627bc211d3ec3290d2cb4c64698e0bca9b
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: a7eab97eb3a69c8fd18442a4f8f132ec02cf9671
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045902"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055561"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
@@ -79,15 +79,15 @@ Para obtener más información, [vea Microsoft Teams de complementos](./teams-ad
       > [!NOTE]
      > Los fondos se aplicarán solo a los créditos de comunicaciones con las tarifas publicadas por Microsoft cuando se usan los servicios. Los fondos que no se usen en 12 meses desde la fecha de compra se perderán. 
      > 
-     > Al usar la función de recarga automática, la facturación de créditos de comunicación se genera cuando se alcanza el importe del desencadenador y se procesa una transacción de recarga. Los importes de crédito de comunicación se usan por primera vez. Para obtener información sobre cómo comprobar el uso mensual, [lea Skype Empresarial informe de uso de RTC](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+     > Al usar la función de recarga automática, la facturación de créditos de comunicación se genera cuando se alcanza el importe del desencadenador y se procesa una transacción de recarga. Los importes de crédito de comunicación se usan por primera vez. Para obtener información sobre cómo comprobar el uso mensual, [lea Microsoft Teams informe de uso de RTC.](/microsoftteams/teams-analytics-and-reports/pstn-usage-report)
     
 5. Escriba la información de pago y haga clic en **Realizar pedido**.
     >[!IMPORTANT]
     >Si es un cliente de licencias por volumen, puede elegir su número de enterprise agreement para el pago. Si tiene varios números, podrá seleccionar qué enterprise agreement prefiere usar para dicho pago. También podrá especificar un número de pedido de compra que asociar al número del enterprise agreement (si procede).
     
-Cada organización tendrá un uso diferente del volumen y las tarifas del Plan de llamadas a tener en cuenta. You will need to get this type of usage data from your current service provider. Las organizaciones que ya usan Skype Empresarial Online como su proveedor de servicios pueden obtener datos de uso revisándose en el informe de uso de informes de uso de informes de uso RTC y SMS  >    >    >  **(versión preliminar)** del Centro de administración de Microsoft Teams &.
+Cada organización tendrá un uso diferente del volumen y las tarifas del Plan de llamadas a tener en cuenta. You will need to get this type of usage data from your current service provider. Las organizaciones que ya usan Skype Empresarial Online o Microsoft Teams como su proveedor de servicios pueden obtener datos de uso revisándose en el informe de uso de informes de uso de informes de uso rtc y SMS  >    >    >  **(versión preliminar)** del Centro de administración de Microsoft Teams &.
   
-Cuando esté configurando créditos de comunicaciones, tendrá que investigar el uso de llamadas de su organización para determinar los importes que necesita. Puede obtener información de uso de llamadas revisando el informe de uso de RTC y **SMS (versión** preliminar). Este informe le permite exportar los registros de datos de llamada a Excel si necesita almacenar los datos o crear informes personalizados. Para obtener información sobre cómo ver el uso, lea [Informe de uso de RTC.](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+Cuando esté configurando créditos de comunicaciones, tendrá que investigar el uso de llamadas de su organización para determinar los importes que necesita. Puede obtener información de uso de llamadas revisando el informe de uso de RTC y **SMS (versión** preliminar). Este informe le permite exportar los registros de datos de llamada a Excel si necesita almacenar los datos o crear informes personalizados. Para obtener información sobre cómo ver el uso, [lea Microsoft Teams informe de uso de RTC](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Paso 3: Asignar una licencia de créditos de comunicaciones a los usuarios
 
@@ -113,7 +113,7 @@ Puede ver los planes y precios visitando uno de los siguientes vínculos:
     
 - [Planes de audioconferencia](https://go.microsoft.com/fwlink/?LinkId=799762 )
     
-- [Sistema telefónico Planes](https://go.microsoft.com/fwlink/?LinkId=799763)
+- [Sistema telefónico planes](https://go.microsoft.com/fwlink/?LinkId=799763)
     
 También puede ver información iniciando [sesión](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) en el Centro de administración de Microsoft 365 y yendo **a** Suscripciones de facturación Agregar  >    >  **suscripciones.**
   

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para partners de Microsoft o operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf047f458750c88baa4d3d04d712d56338cb0da3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c91532582325d8199d0ca47d5fd2515b4b77c344
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726879"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055571"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -236,7 +236,7 @@ Se introdujeron dos nuevas entidades:
 -    En el inquilino del cliente, el operador solo necesita agregar el FQDN del tronco derivado a las directivas de enrutamiento de voz de los usuarios. No es necesario ejecutar New-CSOnlinePSTNGateway para un tronco.
 -    El tronco derivado, como su nombre sugiere, hereda o deriva todos los parámetros de configuración del tronco del operador. Ejemplos:
 -    Customers.adatum.biz: el tronco del operador que debe crearse en el espacio empresarial del operador.
--    Sbc1.customers.adatum.biz: el tronco derivado de un inquilino de cliente que no es necesario crear en PowerShell.  Simplemente puede agregar el nombre del tronco derivado en el inquilino del cliente en la directiva de enrutamiento de voz en línea sin crearlo.
+-    Sbc1.customers.adatum.biz: el tronco derivado de un inquilino de cliente que no es necesario crear en PowerShell.  Simplemente puede agregar el nombre del tronco derivado en el inquilino del cliente en la directiva de enrutamiento de voz en línea sin crearlo (use FQDN de tronco derivado al configurar la directiva de enrutamiento de voz en TAC en el campo rutas de Teams-Voice-Direct Routing-Voice inscritos).
 -   El operador tendrá que configurar el FQDN del tronco derivado del registro DNS para la dirección ip del operador SBC.
 
 -    Los cambios realizados en un tronco de operador (en el inquilino del operador) se aplican automáticamente a los troncos derivados. Por ejemplo, los operadores pueden cambiar un puerto SIP en el tronco del operador y este cambio se aplica a todos los troncos derivados. La nueva lógica para configurar los troncos simplifica la administración, ya que no es necesario ir a todos los inquilinos y cambiar el parámetro en cada tronco.
