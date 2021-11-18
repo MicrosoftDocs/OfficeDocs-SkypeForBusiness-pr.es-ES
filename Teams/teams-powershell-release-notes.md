@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Notas de la versión de PowerShell
+title: Microsoft Teams notas de la versión de PowerShell
 ms.reviewer: gothambi
 author: BrandBer
 ms.author: gothambi
@@ -13,14 +13,14 @@ ms.collection:
 description: Obtenga información sobre los cambios más recientes en Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c95ce8097d8ce70d1f19ac91c8ef66f21453562
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 68baf3caee0c5556428d23e3261738684e086170
+ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605176"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61070164"
 ---
-# <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams Notas de la versión de PowerShell
+# <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams notas de la versión de PowerShell
 
 En esta página se proporcionan las últimas Teams de cambios de PowerShell para las versiones disponibilidad general y vista previa pública.
 
@@ -31,6 +31,7 @@ En esta página se proporcionan las últimas Teams de cambios de PowerShell para
 
 | Fecha | Versión | Actualizaciones |
 |------- | -------------------- | ------------------------------ |
+| Noviembre de 2021 | [2.6.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.2-preview) |<li>Libera versiones modernizadas de los más de 75 cmdlets de directiva Grant-Cs <Name> (todos los conjuntos de parámetros). Se espera que funcionen de forma similar a sus homólogos de comunicación remota. Las versiones modernas se irán implantando gradualmente, los inquilinos que no se alojen verán la versión de comunicación remota anterior.</li><li>Publica versiones modernizadas de los cmdlets de la directiva Remove-Cs de más de <Name> 75. Se espera que funcionen de forma similar a sus homólogos de comunicación remota. Las versiones modernas se irán implantando gradualmente, los inquilinos que no se alojen verán la versión de comunicación remota anterior.</li><li>Releases Set-CsUserCallingSettings cmdlet. Este cmdlet se lanzará finalmente en el módulo GA. Publicación de la versión de prueba en el módulo de vista previa.</li><li>Releases Export-CsOnlineAudioFile cmdlet.</li><li>Corrige los tratamientos de errores de los cmdlets [Obtener \| \| quitar la importación]-CsOnlineAudioFile.</li>
 | Octubre de 2021 | [2.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.1-preview) |<li>Releases [Set \| Remove]-CsPhoneNumberAssignment cmdlets. Estos cmdlets se irán agregando gradualmente. Por lo tanto, algunos inquilinos recibirán un mensaje de error que hace referencia a los cmdlets existentes que pueden usar (hasta que se complete la implementación).</li><li>Releases Get-CsOnlineTelephoneNumberCountry y Get-CsOnlineTelephoneNumberType cmdlets.</li><li>Publica el nuevo parámetro EnhancedEmergencyServiceDisclaimer para el cmdlet [Set \| New]-CsTeamsEmergencyCallingPolicy.</li><li>Releases Get-CsUserCallingSettings cmdlet. Este cmdlet se lanzará finalmente en el módulo GA. Publicación de la versión de prueba en el módulo de vista previa.</li>
 | Septiembre de 2021 | [2.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.0) |<li>Corrige el error en el que la búsqueda del módulo MicrosoftTeams fallaba si se realizaba un módulo anidado de otro módulo personalizado de PowerShell. Ahora, los cmdlets de MicrosoftTeams están disponibles incluso si se trata de un módulo anidado de otro módulo.</li><li>Versiones [Get \| New \| Complete \| Clear]-CsOnlineTelephoneNumberOrder cmdlets.</li><li>Releases Get-CsOnlineTelephoneNumberCountry y Get-CsOnlineTelephoneNumberType cmdlets.</li><li>Libera nuevos parámetros para estos cmdlets: Get-CsOnlineApplicationInstance, New-CsExternalAccessPolicy, New-CsTeamsAppSetupPolicy, New-CsTeamsCallingPolicy, New-CsTeamsCallParkPolicy, New-CsTeamsMeetingPolicy, New-CsTeamsMessagingPolicy, Set-CsTeamsAppSetupPolicy, Set-CsTeamsCallParkPolicy, Set-CsTeamsGuestMessagingConfiguration, Set-CsTeamsMeetingPolicy, Set-CsTenantFederationConfiguration, Set-CsExternalAccessPolicy, Set-CsTeamsCallingPolicy.</li><li>Corrige el error que se produjo al reintentar el inicio de sesión con Connect-MicrosoftTeams después de un intento de inicio de sesión incorrecto.</li><li>Actualizaciones para que las notas de la versión del módulo estén disponibles en la Galería de PowerShell para cada nueva versión.</li>
 | Septiembre de 2021 | [2.5.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.2-preview) |<li>Nota: A partir de esta versión, las notas de la versión también se publicarán en la Galería de PowerShell junto con el módulo en sí para reducir el retraso en la disponibilidad de las notas de la versión.</li><li>Versiones [Get \| Set Grant New \| \| \| Remove]-CsTeamsEnhancedEncryptionPolicy cmdlets.</li><li>Quita los cmdlets [Get \| Set \| New \| Remove]-CsTenantBlockedNumberExceptionPattern.</li><li>Corrige el error en el que se Microsoft Teams la búsqueda del módulo de Microsoft Teams si se hizo un módulo anidado de otro módulo personalizado de PowerShell. Ahora, Microsoft Teams cmdlets están disponibles incluso si se trata de un módulo anidado de otro módulo.</li><li>Versiones [Get \| New \| Complete \| Clear]-CsOnlineTelephoneNumberOrder cmdlets.</li><li>Releases Get-CsOnlineTelephoneNumberCountry y Get-CsOnlineTelephoneNumberType cmdlets.</li><li>Corrige el error que se produjo al volver a intentar el inicio de sesión con Connect-MicrosoftTeams después de un intento de inicio de sesión incorrecto.</li><li>Se Add-TeamChannelUser y Remove-TeamChannelUser errores para un canal privado.</li>
@@ -47,10 +48,10 @@ En esta página se proporcionan las últimas Teams de cambios de PowerShell para
 | Diciembre de 2020 | [1.1.9-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>Actualizaciones para Skype Empresarial integración en línea</li><li>Corrección del mensaje duplicado con Connect-Microsoft Teams</li>|
 | Noviembre de 2020 | [1.1.8-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.8-preview) | <li>Agrega cmdlets de paquetes de directivas personalizados</li><li>Correcciones para los comandos de carga de la jerarquía de destino</li>|
 | Noviembre de 2020 | [1.1.7-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Usa MSAL para la autenticación & autorización</li><li>Cmdlets de paquete de directivas refactorizado y agrega asignación de paquetes de grupo</li><li>Comandos de carga de jerarquía de segmentación refactorizado para usar un modelo asíncrono</li> <li>Se le pedirá al usuario dos veces durante la autenticación inicial cuando no use el parámetro -credential. Los usuarios pueden pasar credenciales con el parámetro -credential para evitar un mensaje duplicado. Este comportamiento se solucionará en la próxima versión.</li> |
-| Septiembre de 2020 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Skype Empresarial Integración con Conectores en línea</li> |
-| Septiembre de 2020 | [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Skype Empresarial Integración con Conectores en línea</li> |
+| Septiembre de 2020 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Skype Empresarial integración de Online Connector</li> |
+| Septiembre de 2020 | [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Skype Empresarial integración de Online Connector</li> |
 | Julio de 2020 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Cmdlets de [asignación de directivas de grupo agregados](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)</li> |
-| Junio de 2020 | [1.1.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Skype Empresarial Integración con Conectores en línea<li>Get-Team optimizaciones<li>Confiabilidad mejorada</li> |
+| Junio de 2020 | [1.1.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Skype Empresarial integración de Online Connector<li>Get-Team optimizaciones<li>Confiabilidad mejorada</li> |
 | Junio de 2020 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Se ha agregado la precarga del cmdlet<li>.NET Framework optimizaciones</li>   |
 | Abril de 2020 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Firma de autenticación y ensamblado<li>Se agregaron Get-CsPolicyPackage<li>Se agregaron Get-CsUserPolicyPackage<li>Se agregaron Get-CsUserPolicyPackageRecommendation<li>Se agregaron Grant-CsUserPolicyPackage<li>Se agregaron New-CsBatchPolicyPackageAssignmentOperation<li>Se agregaron Set-TeamArchivedState<li>Se agregaron Set-TeamPicture<li>Eliminado Get-TeamHelp</li>  |
 | Marzo de 2020 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Se agregaron New-CsBatchPolicyAssignmentOperation</li> |

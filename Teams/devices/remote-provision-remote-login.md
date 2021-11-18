@@ -1,9 +1,8 @@
 ---
 title: Aprovisionamiento remoto e inicio de sesión para Teams dispositivos Android
-author: serdarsoysal
-ms.author: serdars
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: prgholve
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo aprovisionar e iniciar sesión de forma remota Teams dispositivos Android
-ms.openlocfilehash: 818a6a4fc7941c82a52d63016bbdc338f977be29
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: e7e5acd491f15d4cc52ce1b898112da868f80594
+ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046156"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61070154"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Aprovisionamiento remoto e inicio de sesión para Teams dispositivos Android
 
@@ -108,7 +107,7 @@ Cuando el dispositivo está encendido y conectado a la red, el técnico aprovisi
 
    ![Nombre del inquilino en la página de inicio de sesión.](../media/provision-code.png)
 
-## <a name="sign-in-remotely"></a>Iniciar sesión de forma remota
+## <a name="first-time-remote-sign-in"></a>Inicio de sesión remoto por primera vez
 
 El dispositivo aprovisionado aparece en la **pestaña Esperando inicio de sesión.** Inicie el proceso de inicio de sesión remoto seleccionando el dispositivo individual.
 
@@ -120,7 +119,8 @@ El dispositivo aprovisionado aparece en la **pestaña Esperando inicio de sesió
 
    ![la ventana Iniciar sesión en un usuario para un dispositivo individual.](../media/sign-in-user.png)
 
-## <a name="related-article"></a>Artículo relacionado
+## <a name="related-articles"></a>Artículos relacionados
 
 - [Administrar los dispositivos en Teams](device-management.md)
+- [Iniciar sesión y cerrar sesión de forma remota](remote-sign-in-and-sign-out.md)
 - [Actualizar Teams dispositivos de forma remota](remote-update.md)
