@@ -1641,6 +1641,8 @@ items:
             href: devices/device-management.md
           - name: Inicio de sesión y aprovisionamiento remoto
             href: devices/remote-provision-remote-login.md
+          - name: Inicio de sesión y registro remoto
+            href: devices/remote-sign-in-and-sign-out.md
           - name: Actualizar los dispositivos de forma remota
             href: devices/remote-update.md
           - name: Administrar etiquetas de dispositivos de Teams
