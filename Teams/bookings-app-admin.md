@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Obtenga información sobre cómo administrar la aplicación Bookings en Teams usuarios de su organización.
-ms.openlocfilehash: 42e7c4741104f417f7e24a0e6441acb57cac203a
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ae471bfee1901396ee3419380fcd7620e21231fe
+ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973058"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61111980"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Administrar la aplicación Bookings en Microsoft Teams
 
@@ -41,7 +41,7 @@ Los programadores pueden administrar varios calendarios de departamento y de per
 
 - Microsoft Bookings debe estar activado para la organización.
 
-- Los usuarios deben tener una licencia adecuada. Office 365 A3, se admiten A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3 y E5, Business Standard.
+- Los usuarios deben tener una licencia adecuada. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 y Business Standard son compatibles.
 
 - Todos los usuarios de la aplicación Bookings y todo el personal que participe en las reuniones deben tener una licencia que admita Teams programación de reuniones.
 

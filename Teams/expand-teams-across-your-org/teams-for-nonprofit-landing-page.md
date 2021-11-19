@@ -13,14 +13,15 @@ ms.service: msteams
 search.appverid: MET150
 searchScope:
 - Microsoft Teams
+- Microsoft Cloud for Nonprofit
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22d5261940d12717bad52aeb14813a6fbb558621
-ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
+ms.openlocfilehash: 53b9292feb989058e753669f67d9c0885668233c
+ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60641368"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61112040"
 ---
 # <a name="teams-for-nonprofit-organizations"></a>Teams para organizaciones sin ánimo de lucro
 

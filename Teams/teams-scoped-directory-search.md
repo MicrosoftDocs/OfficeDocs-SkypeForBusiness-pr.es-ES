@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f69a4d94743e443fd20f53f5eb35d26b6d69e3b3
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 108a5895bf568207246ec6b1d7711e13e6c87069
+ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046236"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61111990"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar la búsqueda de directorios enfocada de Microsoft Teams
 
@@ -53,9 +53,9 @@ Para obtener información sobre cómo usar directivas de libreta de direcciones,
 
 1. Use directivas de Barrera de información para configurar su organización en subgrupos virtuales. Para obtener más información, vea [Definir directivas de barrera de información.](/microsoft-365/compliance/information-barriers-policies)
 
-2. En el Microsoft Teams de administración, seleccione **Configuración de** toda la organización Teams  >  **configuración.**
+2. En el Microsoft Teams de administración, **seleccione Teams** Teams  >  **configuración.**
 
-3. En **Buscar**, junto a Búsqueda de directorio de ámbito en Teams mediante una directiva de libreta de direcciones **(ABP)** de Exchange , active el **botón de alternancia .**
+3. En **Buscar por nombre**, junto a Búsqueda de directorio de ámbito en Teams **con** una directiva Exchange libreta de direcciones, active el botón de **alternancia .**
 
     ![Búsqueda de directorios con ámbito en Microsoft Teams de administración.](media/teams-scoped-directory-search-image1.png)
 
