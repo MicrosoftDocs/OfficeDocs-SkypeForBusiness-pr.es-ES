@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a76559ea1ec140b18acbcc49f92b724a0e1bdc3a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b87aaae3feeef9552cd64d76bb777cb081a6102e
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604459"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055431"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
@@ -36,9 +36,9 @@ Puede administrar las aplicaciones de su organización en **Aplicaciones de Team
 
 Para obtener más información, consulte [Configurar la administración de aplicaciones en Teams](admin-settings.md).  
 
-## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Configuración de Teams de toda la organización en el centro de administración de Microsoft Teams.
+## <a name="teams-external-access-and-guest-access-settings-in-the-microsoft-teams-admin-center"></a>Configuración de acceso externo de Teams y acceso de invitado en el Centro de administración de Microsoft Teams
 
-Puede controlar la configuración de usuario en toda la organización en el Centro de administración de Microsoft Teams. Para editar la configuración de toda la organización, vaya al Centro de administración de Microsoft Teams y, después, seleccione **Configuración de toda la organización**. Puede configurar las opciones siguientes.
+Puede controlar la configuración de acceso externo y de invitado en el Centro de administración de Microsoft Teams. Para editar esta configuración, vaya al centro de Microsoft Teams y, a continuación, seleccione **Usuarios**. Puede configurar las siguientes opciones.
 
 ### <a name="external-access"></a>Acceso externo
 
@@ -55,7 +55,11 @@ Para agregar o bloquear un dominio:
 
 **Acceso de invitado** en Microsoft Teams permite que los equipos de su organización puedan colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales. Todo contacto que tenga una cuenta de correo electrónico empresarial o de consumidor (como Outlook.com o Gmail.com) puede participar como invitado en Teams con acceso total a los chats, las reuniones y los archivos del equipo. Para obtener más información, consulte [Acceso de invitado de Microsoft Teams](guest-access.md).
 
-### <a name="teams-settings"></a>Configuración de Microsoft Teams
+## <a name="teams-settings-and-teams-upgrade-settings-in-the-microsoft-teams-admin-center"></a>Configuración de Teams y configuración de actualización de Teams en el Centro de administración de Microsoft Teams
+
+Puede controlar la configuración de Teams y la configuración de actualización de Teams en el Centro de administración de Microsoft Teams. Para editar esta configuración, vaya al Centro de administración de Microsoft Teams y, a continuación, seleccione **Teams**. Puede configurar las siguientes opciones.
+
+### <a name="teams-settings"></a>Configuración de Teams
 
 En **ajustes de Teams**, puede ajustar características para Teams incluyendo notificaciones y fuentes, integración de email, opciones de almacenamiento en la nube, y dispositivos.
 
@@ -102,11 +106,7 @@ La búsqueda de directorios enfocada de Microsoft Teams usa la directiva de libr
 
 El chat supervisado permite a las organizaciones y a las escuelas limitar las capacidades del chat con los permisos basados en roles. Estos permisos controlan la cantidad de supervisión que requiere un usuario al chatear con otras personas. Obtenga más información acerca del [chat supervisado](supervise-chats-edu.md).
 
-### <a name="skype-for-business"></a>Skype Empresarial
-
-Utilice esta página para administrar las características de Skype empresarial para los usuarios de Skype empresarial de su organización. Para conocer más, consulte [Administrar la configuración de Skype empresarial en el Centro de administración de Microsoft Teams](skype-for-business-settings.md)
-
-### <a name="teams-upgrade"></a>Actualización de Microsoft Teams
+### <a name="teams-upgrade-settings"></a>Configuración de actualización de Teams
 
 Puede usar esta opción para configurar la forma en que los usuarios actualizan de Skype Empresarial a Microsoft Teams. 
 
@@ -125,6 +125,7 @@ El modo de coexistencia que elija determina el enrutamiento de las llamadas entr
 
 Aquí puede elegir la aplicación que utilizarán los usuarios para unirse a las reuniones de Skype Empresarial (Skype Empresarial o la [Aplicación Reuniones de Skype](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Esta opción no depende de la configuración del modo de coexistencia.
 
+### <a name="planning-settings-in-the-microsoft-teams-admin-center"></a>Configuración de planeación en el Centro de administración de Microsoft Teams
 
 #### <a name="network-planner"></a>Planificador de red
 
@@ -132,6 +133,11 @@ El planificador de red le ayuda a determinar y organizar los requisitos de la re
 
 También puede seleccionar la opción "Descargar la aplicación Teams en segundo plano para usuarios de Skype Empresarial".  Esta configuración está seleccionada de forma predeterminada. Con esta configuración habilitada, se descargará la aplicación de Teams en segundo plano para los usuarios que ejecuten la aplicación de Skype empresarial en Windows. Esto sucede si el modo de Coexistencia del usuario es Solo Teams, o si se habilita la notificación de actualización pendiente en la aplicación de Skype Empresarial.
 
+## <a name="other-settings-in-the-microsoft-teams-admin-center"></a>Otras opciones de configuración en el Centro de administración de Microsoft Teams
+
+### <a name="skype-for-business"></a>Skype Empresarial
+
+Utilice esta página para administrar las características de Skype empresarial para los usuarios de Skype empresarial de su organización. Para conocer más, consulte [Administrar la configuración de Skype empresarial en el Centro de administración de Microsoft Teams](skype-for-business-settings.md)
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>¿Cómo puedo saber qué características están disponibles?
 
