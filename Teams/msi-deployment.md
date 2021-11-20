@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2e598a44fade1805824354606229668fb3494d3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d9c75d531cc2371c8ce5c6baf2eb22924129bbb6
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850583"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124247"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar Microsoft Teams con Microsoft Endpoint Configuration Manager
 
@@ -44,8 +44,6 @@ Estos son los vínculos a los archivos MSI:
 **Para garantizar una implementación correcta, tenga en cuenta lo siguiente:**
 
 - Instale la versión de 64 bits de Teams en sistemas operativos de 64 bits. Si intenta instalar la versión de 64 bits de Teams en un sistema operativo de 32 bits, la instalación no se realizará correctamente y, en estos momentos, no recibirá un mensaje de error.
-
-- Si el espacio empresarial cliente se encuentra en las nubes GCCH o DoD, el cliente debe establecer el punto de conexión inicial en el registro. Para ello, debe agregar el valor **CloudType** a la clave **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** en el registro. El tipo para **CloudType** es **DWORD** y los valores son (0 = No establecido, 1 = comercial, 2 = GCC, 3 = GCCH, 4 = DOD). Establecer el punto de conexión con la clave de registro limita a Teams a conectarse al punto de conexión de nube correcto para la conectividad de inicio de sesión previo con Teams.
 
 - Teams también se puede incluir con una implementación de Aplicaciones de Microsoft 365 para empresas. Para más información, consulte [Implementar Microsoft Teams con las Aplicaciones de Microsoft 365 para empresas](/deployoffice/teams-install).
 

@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Obtenga información sobre cómo usar la configuración de directiva de reunión para controlar la expiración de la reunión en Microsoft Teams.
-ms.openlocfilehash: b9399e9beaf364af7d2bdfa2e1c2b68ad5b6a018
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 7912c57e12de83f112bb1c80b1c44d81d9d6b857
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887188"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124267"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Directivas de reunión y expiración de la reunión en Microsoft Teams
 
@@ -151,10 +151,12 @@ Cuando una grabación no se carga en OneDrive o SharePoint, la aplicación de Te
 
 ## <a name="related-topics"></a>Temas relacionados
 
+[Cambiar la fecha de expiración de la reunión: controles de usuario final](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
+
 [Administración de directivas de reunión en Teams](meeting-policies-overview.md)
 
 [Asignar directivas a los usuarios en Teams](policy-assignment-overview.md)
 
 [Descripción de PowerShell para Teams](teams-powershell-overview.md)
 
-[Cambiar la fecha de expiración de la reunión: soporte técnico de Microsoft](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
+

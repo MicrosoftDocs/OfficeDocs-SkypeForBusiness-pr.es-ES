@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo administrar la configuración de la directiva de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: 2c87434aa198169854e59b6a2a93ed9ceed9cd2f
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: aab9dda3f0a6bd5674cde2614fbbe0987292d6bf
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055361"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124237"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -40,6 +40,7 @@ Esta configuración controla qué participantes de la reunión se quedan en la s
 
 > [!NOTE]
 >Las opciones para unirse a una reunión pueden variar en función de la configuración de cada grupo de Teams y del método de conexión. Si el grupo tiene audioconferencia y la usa para conectarse, consulte [Audioconferencia](/microsoftteams/audio-conferencing-in-office-365). Si el grupo de Teams no tiene ninguna Audioconferencia, consulte [Unirse a una reunión en Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Permitir que los usuarios anónimos inicien una reunión
 
