@@ -22,26 +22,28 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
-ms.openlocfilehash: 7b12dfacc5b9bd6ebe5bb0e3de17a40bb0148ef0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6cf78791a1ece16a3a90b096271210b88d356f23
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839742"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124287"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de las reuniones en Microsoft Teams
 
 Como administrador, usted utiliza la configuración de las reuniones de Teams para controlar si los usuarios anónimos pueden unirse a las reuniones de Teams, personalice las invitaciones a las reuniones, y si desea habilitar la calidad de servicio (QoS), establecer intervalos de puertos para el tráfico en tiempo real. Estas configuraciones se aplican a todas las reuniones de Teams que los usuarios programen en su organización. Usted administra estos ajustes desde **Reuniones** > **Configuración de reunión** en el centro de administración de Microsoft Teams.
 
+A partir de noviembre de 2021, los administradores también pueden controlar si determinados usuarios o grupos de usuarios pueden permitir que otros usuarios anónimos se unan a las reuniones que organicen. Esta directiva por organizador invalida y es más restrictiva que la configuración de usuario anónimo de toda la organización que está a continuación y que los administradores gestionan en el centro de administración de Teams.
+
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Permitir que los usuarios anónimos se unan a las reuniones
 
 Con la unión anónima, cualquiera puede unirse a la reunión como usuario anónimo haciendo clic en el enlace de la invitación a la reunión. Para más información, consulte[Únase a una reunión sin una cuenta de Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
 
- **Usar el Centro de administración de Microsoft Teams**
+ ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
-Debe ser administrador de servicio de Teams para poder realizar estos cambios. Consulte [Usar los roles de administrador de Teams para administrar Teams](./using-admin-roles.md) para obtener información sobre cómo obtener roles de administrador y permisos.
+Debe ser administrador de Teams para realizar estos cambios. Consulte [Usar los roles de administrador de Teams para administrar Teams](./using-admin-roles.md) para obtener información sobre cómo obtener roles de administrador y permisos.
 
-1. Vaya al Centro de administración.
+1. Vaya al [centro de administración de Teams](https://admin.teams.microsoft.net).
 
 2. En la navegación izquierda, diríjase a **Reuniones** > **Configuración de la reunión**.
 
@@ -51,6 +53,22 @@ Debe ser administrador de servicio de Teams para poder realizar estos cambios. C
 
 > [!CAUTION]
 > Si no desea que los usuarios anónimos se unan a las reuniones programadas por los usuarios de su organización, desactive esta opción.
+
+### <a name="using-powershell"></a>Con PowerShell
+
+Los administradores ahora pueden controlar si determinados usuarios o grupos de usuarios pueden permitir que usuarios anónimos se unan a las reuniones que organicen. Esta nueva directiva por organizador se controla mediante el parámetro **-AllowAnonymousUsersToJoinMeeting** en [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps). Esto viene con la versión 2.6.0 y posteriores de PowerShell de Teams.
+
+Puede usar cualquiera de las dos directivas, es decir, para toda la organización o por organizador, para administrar la unión de usuarios anónimos. Se recomienda implementar la directiva por organizador. La configuración de directiva para toda la organización quedará en desuso en el futuro y la directiva por organizador será la única para controlar la unión de usuarios anónimos.
+
+Puesto que tanto las directivas para toda la organización como las directivas por organizador controlan la unión de usuarios anónimos, la configuración más restrictiva será la que se aplique. Por ejemplo, si no se permite la unión de usuarios anónimos a nivel de la organización, esa será la directiva que prevalezca independientemente de lo que se configure para la directiva por organizador. Por lo tanto, para permitir que los usuarios anónimos se unan a reuniones, se deben configurar ambas directivas para permitir este tipo de unión estableciendo los siguientes valores:
+
+- **-DisableAnonymousJoin** establecido en **$false**
+- **-AllowAnonymousUsersToJoinMeeting** establecido en **$true**
+
+Cualquier otra combinación de valores impedirá que los usuarios anónimos se unan a las reuniones.
+> [!NOTE]
+> Para usar la directiva por organizador para las organizaciones con unión de usuarios anónimos desactivada por organización, los administradores deberán crear una directiva y asignarla a los usuarios. Para obtener información sobre cómo hacerlo, vea [Administrar directivas de reunión en Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-overview).
+
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>Permitir que los usuarios anónimos interactúen con las aplicaciones en las reuniones
 
