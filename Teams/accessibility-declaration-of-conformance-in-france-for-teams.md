@@ -20,20 +20,24 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée et efficace. "
-ms.openlocfilehash: 00ad78c4c38865a242f303dc1a5900995906d649
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b366a21f278735c887f9c92a23f87e7217228218
+ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014584"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "61129880"
 ---
 # <a name="microsoft-teams-en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>Microsoft Teams: EN 301 549 Déclaration de conformé en matière d'accessibilité
 
-Fecha: 2 octubre 2018
+Fecha: 23 juin 2021
 
 Nom du produit: Microsoft Teams
 
-Descripción du produit: Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée et efficace.
+Descripción du produit: Microsoft Teams, Teams for Work et Teams para Educación sont des plateformes qui permettent à toutes les personnes de chatter, de créer des canaux, de suivre les activités, de partager des calendriers et de passer des appels/ faire des réunions, ainsi que d'utiliser une console d'administrateur.
+
+Cette déclaration de conformé ne couvre pas les extensions de fonctionnalités qui peuvent être installées et déployées au sein de la plateforme Teams (par exemple, les applications Office 365 telles que Word, PowerPoint, Excel, OneNote, les listes de fichiers de SharePoint , et autres), don't beaucoup font l'objet de déclarations de conformé distinctes dans les rapports de conformité des produits Microsoft.
+
+Remarque: Teams ne prend pas en charge tous les paramètres de Windows, mais prend en charge un zoom intégré jusqu'à 200 %.
 
 Plate-forme : Win32
 
@@ -42,7 +46,6 @@ Versión du produit: 1.2.00.6412
 Sitio web en matière d'accessibilité: [Accesibilidad de Microsoft](https://www.microsoft.com/accessibility/)
 
 Pour obtenir de l'aide sur ce rapport, veuillez [nous envoyer un email](mailto:edad@microsoft.com?subject=Conformance%20Statement).
-
 
 ## <a name="section-1-champ-dapplication"></a>Sección 1 Champ d'application
 
@@ -92,20 +95,20 @@ La présente attestation de conformé à la norme [EN 301 549 v2.1.2](http://www
 
 ## <a name="section-7-tic-avec-fonctions-vido"></a>Sección 7 TIC avec fonctions vidéo
 
-Sección Cette ne s'applique pas à Microsoft Teams.
+Cette section ne s'applique pas à Microsoft Teams.
 
 
 ## <a name="section-8-matriel-informatique"></a>Sección 8 Información de Matériel
 
-Sección Cette ne s'applique pas à Microsoft Teams.
+Cette section ne s'applique pas à Microsoft Teams.
 
 ## <a name="section-9-web"></a>Sección 9 Web
 
-Sección Cette ne s'applique pas à Microsoft Teams.
+Cette section ne s'applique pas à Microsoft Teams.
 
 ## <a name="section-10-documents-non-bass-dans-le-web"></a>Sección 10 Documentos non basés dans le Web 
 
-Sección Cette ne s'applique pas à Microsoft Teams.
+Cette section ne s'applique pas à Microsoft Teams.
 
 ## <a name="section-11-logiciel"></a>Sección 11 Logiciel
 
@@ -179,7 +182,7 @@ Sección Cette ne s'applique pas à Microsoft Teams.
 |**11.8.4 Asistencia à la réparation**<br/>Si la fonctionnalité de contrôle de l'accessibilité d'un système auteur peut détecter que le contenu ne remplit pas une exigence des clauses 9 (Web) ou 10 (Documents non-web) selon le cas, alors le système auteur présente une ou plusieurs suggestions de réparation.|<br/>No aplicable| |
 |**1186.5 Modèles**<br/>Quand un système auteur propose des modèles, au moins un modèle prenant en charge la création de contenu conforme aux exigences des clauses 9 (Web) ou 10 (Documents non-web), selon le cas, est disponible et identifié comme tel.|No aplicable| |
 
-**Sección 11 Logiciels - Fonctionnalité fermée** Sección Cette ne s'applique pas à Microsoft Teams.
+**Sección 11 Logiciels - Fonctionnalité fermée** Cette section ne s'applique pas à Microsoft Teams.
 
 ## <a name="section-12-documentation-et-services-dassistance"></a>Sección 12 Documentación y servicios de asistencia
 
@@ -188,15 +191,14 @@ Sección Cette ne s'applique pas à Microsoft Teams.
 |**12.1.1 Caractéristiques d'accessibilité et de compatibilité**<br/>La documentation produit fournie avec la TIC, qu'elle soit fournie séparément ou intégrée dans la TIC, dresse la liste des caractéristiques d'accessibilité et de compatibilité de la TIC et explique comment les utiliser.|Pris en charge | |
 |**12.1.2 Documentación accesible**<br/>La documentation produit fournie avec la TIC est mise à disposition dans au moins un des formats électroniques suivants :<br/>a) un format web qui est conforme à la clause 9, ou<br/>b) un format non-web qui est conforme à la clause 10.|Pris en charge | |
 |**12.2.2 Información sur les caractéristiques d'accessibilité et de compatibilité**<br/>Les services d'assistance de la TIC communiquent des informations sur les caractéristiques d'accessibilité et de compatibilité qui sont mentionnées dans la documentation produit.|Pris en charge | |
-|**12.2.3 Eficacia de la comunicación**<br/>Les services d'assistance de la TIC répondent aux besoins en communication des personnes porteuses de handicap directement ou depuis un point de référence.|Pris en charge |[Answer Desk para personas con discapacidad](https://support.microsoft.com/answerdesk/accessibility) |
+|**12.2.3 Eficacia de la comunicación**<br/>Les services d'assistance de la TIC répondent aux besoins en communication des personnes porteuses de handicap directement ou depuis un point de référence.|Pris en charge |[Discapacidad Answer Desk](https://support.microsoft.com/answerdesk/accessibility) |
 |**12.2.4 Documentación accesible**<br/>La documentation fournie par les services d'assistance est mise à disposition dans au moins un des formats électroniques suivants :<br/>a) un formato Web qui est conforme à la clause 9, ou <br/>b) un format non-web qui est conforme à la clause 10.|Pris en charge | |
 
 ## <a name="section-13-tic-assurant-le-relais-ou-laccs--des-services-durgence"></a>Sección 13 TIC assurant le relais ou l'accès à des services d'urgence
 
-Sección Cette ne s'applique pas à Microsoft Teams.
+Cette section ne s'applique pas à Microsoft Teams.
 
-
-&copy; 2019 Microsoft Corporation. Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication. Microsoft ne peut garantir l'exactitude d'une information présentée après la date de publication. Microsoft met régulièrement à jour ses sites Internet et publie de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.
+&copy; 2021 Microsoft Corporation. Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication. Microsoft ne peut garantir l'exactitude d'une information présentée après la date de publication. Microsoft met régulièrement à jour ses sites Internet et publie de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.
 
 La personnalisation du produit annule la présente déclaration de conformé de Microsoft. Les clients ont la possibilité de faire des déclarations de conformé indépendantes s'ils ont contrôlé avec toute la diligence raisonnable nécessaire que les mesures de personnalisation qu'ils ont prises remplissent toutes les exigences.
 
