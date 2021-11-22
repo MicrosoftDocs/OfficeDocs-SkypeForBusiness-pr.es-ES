@@ -20,12 +20,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 31e6294938252497f9a0edbf1312c1f70a987e5b
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: c8d15111af3815cbf111d7c1d0e2e77298b7d3d5
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959909"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135193"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -108,7 +108,7 @@ En la siguiente tabla, se resaltan las funciones y características principales 
 >
 > **Para continuar cubriendo las necesidades de nuestros clientes, ampliaremos los aumentos de límite temporal para eventos en directo hasta el 30 de junio de 2022, incluidos:**
 >
->- Soporte de eventos de hasta 20 000 asistentes
+>- Soporte de eventos de hasta 20 000 asistentes
 >- 50 eventos se pueden hospedar de forma simultánea en un espacio empresarial
 >- Difusión de un evento de 16 horas de duración
 >
@@ -170,6 +170,8 @@ Puede usar eventos en directo de Teams en varias regiones de todo el mundo. La s
 - Alemania
 - India
 - Japón
+- Noruega
+- Singapur
 - Sudáfrica
 - Corea del Sur
 - Suiza
@@ -178,7 +180,6 @@ Puede usar eventos en directo de Teams en varias regiones de todo el mundo. La s
 
 **Estos países o regiones y estas nubes no son compatibles**
 
-- Noruega
 - Government Community Cloud (GCC)-H
 - Departamento de Defensa (DOD)
 

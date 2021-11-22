@@ -99,7 +99,7 @@ items:
                 href: hardware-requirements-for-the-teams-app.md
               - name: Recomendaciones para el controlador del codificador y descodificador de hardware
                 href: hardware-decoders-and-encoders.md
-              - name: Instalar Teams con MSI
+              - name: Instalar Microsoft Teams mediante Microsoft Endpoint Configuration Manager
                 href: msi-deployment.md
               - name: Activar Teams en su organización
                 href: Office-365-set-up.md

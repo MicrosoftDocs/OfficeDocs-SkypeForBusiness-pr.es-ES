@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5dd419bab9fbe885d3d361d2fdb19758bd392e3
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+ms.openlocfilehash: 97f8ffbf6613ca4106a68284c8e889375a7b0feb
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275584"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135203"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -37,7 +37,7 @@ Microsoft trabaja con cada proveedor para:
 - Establecer un proceso de soporte conjunto con los proveedores de CLS.
 
   > [!NOTE]
-  > Microsoft solo admite el Sistema telefónico si hay uno o varios dispositivos certificados conectados a través del Enrutamiento directo. Microsoft se reserva el derecho a rechazar casos de soporte técnico de dispositivos no certificados conectados al Sistema telefónico a través del Enrutamiento directo. Si Microsoft determina que el problema de Enrutamiento directo de un cliente está relacionado con el dispositivo CLS de un proveedor, el cliente deberá ponerse en contacto con el proveedor deL CLS para obtener soporte técnico.
+  > Microsoft solo admite el Sistema telefónico si hay uno o varios dispositivos certificados conectados a través del Enrutamiento directo. En caso de problemas, el cliente debe ponerse en contacto primero con el servicio de atención al cliente del proveedor de CLS. Si es necesario, el proveedor de CLS remitirá el problema a Microsoft a través de canales internos. Microsoft se reserva el derecho a rechazar casos de soporte técnico de dispositivos no certificados conectados al Sistema telefónico a través del Enrutamiento directo. Si Microsoft determina que el problema de Enrutamiento directo de un cliente está relacionado con el dispositivo de un proveedor de CLS, el cliente deberá ponerse en contacto con el proveedor de CLS para obtener soporte técnico.
   >
   > La certificación se concede a versiones de firmware CLS específicas. Cualquier versión de firmware CLS documentada a continuación está certificada y admitida. Se admiten versiones de firmware superiores a las documentadas siempre que la versión principal secundaria sea la misma.
   >

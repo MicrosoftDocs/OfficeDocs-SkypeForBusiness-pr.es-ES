@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el Teams de uso de eventos en
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 504c8822146efa7101ca1435cab961a86068ccaf
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 2e2b9d4a9f60b905e03ee27397e24feb74ac3c17
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959899"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135233"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams de uso de eventos en directo
 
@@ -48,7 +48,9 @@ El Teams de uso de eventos en directo en el centro de administración de Microso
 |**5**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla.|
 
 ## <a name="notes"></a>Notas
-Se muestran hasta 100 eventos en directo que coinciden con los criterios de informe actuales. Para ver más eventos en directo, aplique filtros de fecha para reducir el tamaño de la lista. 
+Se muestran hasta 100 eventos en directo que coinciden con los criterios de informe actuales. Para ver más eventos en directo, aplique filtros de fecha para reducir el tamaño de la lista.
+
+Los presentadores anónimos no se incluirán en el informe.
 
 Cualquier persona que vea la grabación del evento o el evento a petición no se incluirá en el recuento de vistas. 
 
