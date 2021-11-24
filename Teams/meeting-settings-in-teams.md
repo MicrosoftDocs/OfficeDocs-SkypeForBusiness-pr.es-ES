@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
-ms.openlocfilehash: 8e8ecc32d35aac6fb6bc504df1a8d00520b4578c
-ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
+ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
+ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "61129870"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "61153313"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de las reuniones en Microsoft Teams
 
 Como administrador, usted utiliza la configuración de las reuniones de Teams para controlar si los usuarios anónimos pueden unirse a las reuniones de Teams, personalice las invitaciones a las reuniones, y si desea habilitar la calidad de servicio (QoS), establecer intervalos de puertos para el tráfico en tiempo real. Estas configuraciones se aplican a todas las reuniones de Teams que los usuarios programen en su organización. Usted administra estos ajustes desde **Reuniones** > **Configuración de reunión** en el centro de administración de Microsoft Teams.
 
-A partir de noviembre de 2021, los administradores también pueden controlar si determinados usuarios o grupos de usuarios pueden permitir que otros usuarios anónimos se unan a las reuniones que organicen. Esta directiva por organizador invalida y es más restrictiva que la configuración de usuario anónimo de toda la organización que está a continuación y que los administradores gestionan en el centro de administración de Teams.
+A través de una configuración de directiva por organizador, los administradores ahora pueden controlar si determinados usuarios o grupos de usuarios pueden permitir que los usuarios anónimos se unan a las reuniones que organizan. Tanto la configuración de directiva por organizador como la de toda la organización controlan la unión anónima y la más restrictiva es la que tiene efecto.
 
 > [!Important]
  > **-DisableAnonymousJoin** es la configuración de directiva de toda la organización. Quedará en desuso en el futuro y, a continuación, la directiva por organizador será la única manera de controlar la unión anónima.
