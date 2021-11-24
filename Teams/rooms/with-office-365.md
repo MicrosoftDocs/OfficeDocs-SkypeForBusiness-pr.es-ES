@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lea este tema para obtener información sobre cómo implementar Salas de Microsoft Teams con Microsoft 365 o Office 365, donde Teams o Skype Empresarial y Exchange están en línea.
-ms.openlocfilehash: cf323332b6c9b7742a2a10a12017553f462b8619
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 948287d8a5711e1643605d147d1b25b28d764a42
+ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846083"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "61153303"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Implementar Salas de Microsoft Teams con Microsoft 365 o Office 365
 
@@ -34,7 +34,7 @@ Antes de implementar Salas de Microsoft Teams con Microsoft 365 o Office 365, as
 
 Para habilitar Skype Empresarial, debe tener lo siguiente:
 
-- Skype Empresarial En línea (Plan 2 o un plan basado Enterprise) o superior en su plan Microsoft 365 o Office 365 plan. El plan debe permitir las capacidades de conferencias de acceso telefónico local.
+- Skype Empresarial Online (Plan 2 o un plan basado en Enterprise) o superior en su plan Microsoft 365 o Office 365 plan. El plan debe permitir las capacidades de conferencias de acceso telefónico local.
 
 - Si necesita funcionalidades de acceso telefónico local de una reunión, necesitará una licencia de audioconferencia y Sistema telefónico local.  Si necesita funcionalidades de acceso telefónico local de una reunión, necesitará una licencia de audioconferencia.
 
@@ -98,17 +98,17 @@ Para obtener más información Skype Empresarial planes en línea, vea [la Skype
 
    - AddAdditionalResponse: $true (El texto especificado por el parámetro AdditionalResponse se agrega a las solicitudes de reunión).
 
-   - AdditionalResponse: "Esta es una sala Skype reunión" (El texto adicional que se agregará a la solicitud de reunión).
+   - AdditionalResponse: "Esta es una sala Microsoft Teams reunión" (El texto adicional que se agregará a la solicitud de reunión).
 
    En este ejemplo se configuran estas opciones en el buzón de sala denominado Rigel-01.
 
    ``` PowerShell
-   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
    Para obtener información detallada sobre la sintaxis y los parámetros, vea [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Conectar a MS Online PowerShell para realizar la configuración de Active Directory ejecutando el `Connect-MsolService -Credential $cred` cmdlet de PowerShell. Para obtener más información sobre Active Directory, vea [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0).
+4. Conectar a MS Online PowerShell para realizar la configuración de Active Directory ejecutando el `Connect-MsolService -Credential $cred` Cmdlet de PowerShell. Para obtener más información sobre Active Directory, vea [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) no es compatible.
@@ -232,4 +232,4 @@ Para la validación, debería poder usar cualquier Skype Empresarial cliente par
 
 [Administrar Salas de Microsoft Teams](rooms-manage.md)
 
-[Salas de Microsoft Teams Licencias](rooms-licensing.md)
+[Salas de Microsoft Teams licencias](rooms-licensing.md)
