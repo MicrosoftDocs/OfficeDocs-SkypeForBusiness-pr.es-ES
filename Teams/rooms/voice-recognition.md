@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e78ab7b7a2448ebb996a1c04e95bc22049954b4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 36a501220a986e3873c8ce6a75f1f4f704aa2533
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759232"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61177791"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Administrar controles de tecnología de reconocimiento de voz para un altavoz inteligente
 
@@ -86,7 +86,7 @@ Las siguientes son las directivas necesarias para establecer un altavoz intelige
 |AllowTranscription|Necesario para cuentas de Teams y salas.|**Verdadero** y **Falso**|
 ||||
 
-En el Teams de administración, establezca la **directiva Permitir transcripción.** Configuración están **desactivados** de forma predeterminada.
+En el Teams de administración, establezca la **directiva de transcripción.** Configuración están **desactivados** de forma predeterminada.
 
 ![el centro de administración con las directivas de reunión resaltadas y permitir la transcripción seleccionada.](../media/allow-transcription1.png)
 
