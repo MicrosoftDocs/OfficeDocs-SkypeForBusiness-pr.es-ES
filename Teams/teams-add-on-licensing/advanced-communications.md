@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 171bd65dbcedbe71473e6fb3d975ab99696fdf28
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: fd7d03cc4828f84f055c65deb34b530f0ce93be2
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959829"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205480"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Complemento Comunicaciones avanzadas para Microsoft Teams
 
@@ -30,11 +30,10 @@ Si su organización busca mejorar aún más su experiencia de comunicación, obt
 
 ## <a name="what-is-advanced-communications"></a>¿Qué es comunicaciones avanzadas?
 
-Las comunicaciones avanzadas incluyen personalización avanzada de reuniones, herramientas para administrar las directivas de comunicación de su organización y capacidad de administración premium con paquetes de directivas personalizados. Entre las características adicionales se incluyen la sala de espera de reuniones personalizada de marca para adaptar las reuniones y herramientas para supervisar, realizar un seguimiento y analizar datos en usuarios y dispositivos.
+Las comunicaciones avanzadas incluyen personalización avanzada de reuniones, herramientas para administrar las directivas de comunicación de su organización, capacidad de administración premium con paquetes de directivas personalizados y sala de espera de reuniones personalizada de marca para adaptar sus reuniones.
 
 - Personalice la experiencia previa a unirse a la reunión con el logotipo de su empresa en la sala de espera y antes de unirse. 
 - Cree experiencias de reunión unificados con escenas personalizadas del modo conjunto diseñadas para las necesidades de su empresa y la reunión.
-- Supervise, controle y analice datos en usuarios y dispositivos para garantizar una experiencia fluida con telemetría en tiempo real.
 - Experiencias personalizadas con paquetes de directivas personalizados agrupando su propio conjunto de directivas para usuarios con roles similares en su organización con el Centro de administración de Teams o PowerShell. Cada usuario necesitará una licencia para recibir una asignación de paquete de directiva personalizada. 
 
 Comunicaciones avanzadas está disponible en todos los Microsoft 365 como complemento a cualquier suscripción Microsoft 365 o Office 365 pago. Las características incluidas en comunicaciones avanzadas no se agregarán a otros planes Microsoft 365 o Office 365 y no se pueden comprar por separado. Para obtener las características, debe comprar el complemento.

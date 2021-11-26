@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directiva de reunión en Teams para audio y vídeo.
-ms.openlocfilehash: 27153896065d3358927755d3cd1b303c2b1141a0
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 9cd2a82c87106e8060d168766915e4249b9193a5
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984625"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61178001"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configuración de directiva de reunión para audio & vídeo
 
@@ -35,7 +35,7 @@ En este artículo se describen las configuraciones de directiva de reunión espe
 
 - [Modo de audio IP](#mode-for-ip-audio)
 - [Modo de vídeo IP](#mode-for-ip-video)
-- [Permitir vídeo IP](#allow-ip-video)
+- [Vídeo IP](#ip-video)
 - [Velocidad de bits multimedia (kb/s)](#media-bit-rate-kbs)
 - [Modo filtros de vídeo](#video-filters-mode)
 - [Permitir la configuración de fondo personalizada](#allow-custom-background-settings)
@@ -73,11 +73,11 @@ Esta configuración no se aplica a los dispositivos de la sala de conferencias, 
 Esta configuración aún no está disponible para entornos de Microsoft 365 Government Community Cloud (GCC), GCC High o Department of Defense (DoD).
 
 > [!NOTE]
-> Tenga en cuenta que esta configuración controla tanto el vídeo saliente como el entrante mientras que **Permitir el vídeo IP** controla solo el vídeo saliente. Para obtener más información, consulte [¿Cuál es la prioridad de la configuración de directiva de vídeo IP?](#which-ip-video-policy-setting-takes-precedence) y [Administrar el audio y el vídeo de los participantes de la reunión](#manage-audiovideo-for-meeting-participants).
+> Tenga en cuenta que esta configuración controla tanto el vídeo saliente como el entrante, mientras que la configuración de **vídeo IP** controla el vídeo saliente. Para obtener más información, consulte [¿Cuál es la prioridad de la configuración de directiva de vídeo IP?](#which-ip-video-policy-setting-takes-precedence) y [Administrar el audio y el vídeo de los participantes de la reunión](#manage-audiovideo-for-meeting-participants).
 
 Para obtener más información, consulte [Administrar el audio y el vídeo de los participantes de la reunión](#manage-audiovideo-for-meeting-participants).
 
-### <a name="allow-ip-video"></a>Permitir vídeo IP
+### <a name="ip-video"></a>Vídeo IP
 
 Esta es una combinación de directiva por organizador y por usuario. El vídeo es un componente clave de las reuniones. En algunas organizaciones, los administradores pueden querer disponer de más control sobre qué reuniones de usuarios tienen vídeo. Esta configuración controla si se puede activar el vídeo en reuniones hospedadas por un usuario y en llamadas 1:1 y de grupo iniciadas por un usuario. En Teams móviles, esta configuración controla si los usuarios pueden compartir fotos y vídeos en una reunión.
 
@@ -92,7 +92,7 @@ Las reuniones organizadas por un usuario que tiene habilitada esta configuració
 
 Veamos el ejemplo siguiente.
 
-|Usuario |Directiva de reuniones  |Permitir vídeo IP |
+|Usuario |Directiva de reuniones  |Vídeo IP |
 |---------|---------|---------|
 |Daniela   | Global   | Activado       |
 |Amanda    | Location1MeetingPolicy        | Desactivado      |
@@ -109,22 +109,22 @@ Para obtener más información, consulte [Administrar el audio y el vídeo de lo
 
 Para un usuario, la configuración de directiva más restrictiva para el vídeo tiene prioridad. Estos son algunos ejemplos.
 
-|Permitir vídeo IP|Modo de vídeo IP|Experiencia de reunión|
+|Vídeo IP|Modo de vídeo IP|Experiencia de reunión|
 |---------|---------|---------|
 |Organizador: **Activado**<br><br>Participante: **Activado** |Participante: **Deshabilitado**        |La configuración del **Modo de vídeo IP** tiene prioridad. El participante al que se asigna esta directiva no puede activar o ver vídeos compartidos por otros usuarios.|
 |Organizador: **Activado**<br><br>Participante: **Activado** |Participante: **Vídeo entrante y saliente activado**          |El participante al que se asigna esta directiva puede activar o ver vídeos compartidos por otros usuarios.         |
-|Organizador: **Activado**<br><br>Participante: **Desactivado** |Participante: **Vídeo entrante y saliente activado**         |La configuración **Permitir vídeo IP** tiene prioridad. Los participantes solo pueden ver el vídeo entrante y no pueden enviar vídeo saliente.         |
+|Organizador: **Activado**<br><br>Participante: **Desactivado** |Participante: **Vídeo entrante y saliente activado**         |La **configuración de vídeo IP** tiene prioridad. Los participantes solo pueden ver el vídeo entrante y no pueden enviar vídeo saliente.         |
 |Organizador: **Activado**<br><br>Participante: **Desactivado** |Participante: **Deshabilitado**         |La configuración del **Modo de vídeo IP** tiene prioridad. El participante no puede ver ni el vídeo entrante ni el saliente.|
-|Organizador: **Desactivado**    |       |La configuración **Permitir el vídeo IP** tiene prioridad porque está desactivada para el organizador. Nadie puede activar el vídeo en las reuniones organizadas por el usuario al que se asigna esta directiva.         |
+|Organizador: **Desactivado**    |       |La **configuración de vídeo IP** tiene prioridad porque está desactivada para el organizador. Nadie puede activar el vídeo en las reuniones organizadas por el usuario al que se asigna esta directiva.         |
 
 ### <a name="manage-audiovideo-for-meeting-participants"></a>Administrar el audio y el vídeo de los participantes de la reunión
 
 |Si quiere...  |Establezca las siguientes configuraciones de directivas  |
 |---------|---------|
-|Deshabilitar el audio y el vídeo para los participantes en reuniones  |Modo de audio IP: **Deshabilitado**<br> Modo de vídeo IP: **Deshabilitado**<br>Permitir vídeo IP: N/D       |
-|Habilitar solo vídeo y audio entrante para participantes en reuniones  |Modo de audio IP: **Audio entrante y saliente activado**<br> Modo de vídeo IP: **Vídeo entrante y saliente activado**<br>Permitir vídeo IP: **Activado**       |
-|Deshabilitar el vídeo para los participantes en reuniones (los participantes solo tienen audio)|  Modo de audio IP: **Activar el audio entrante y saliente**<br> Modo de vídeo IP: **Deshabilitado**<br>Permitir vídeo IP: N/D
-|Habilitar el audio y el vídeo para los participantes en reuniones    |Modo de audio IP: **Audio entrante y saliente activado** (predeterminado)<br> Modo de vídeo IP: **Vídeo entrante y saliente activado** (predeterminado)<br>Permitir vídeo IP: **Activado** (predeterminado)    |
+|Deshabilitar el audio y el vídeo para los participantes en reuniones  |Modo de audio IP: **Deshabilitado**<br> Modo de vídeo IP: **Deshabilitado**<br>Vídeo IP: N/A       |
+|Habilitar solo vídeo y audio entrante para participantes en reuniones  |Modo de audio IP: **Audio entrante y saliente activado**<br> Modo de vídeo IP: **Vídeo entrante y saliente activado**<br>Vídeo IP: **Desactivado**       |
+|Deshabilitar el vídeo para los participantes en reuniones (los participantes solo tienen audio)|  Modo de audio IP: **Activar el audio entrante y saliente**<br> Modo de vídeo IP: **Deshabilitado**<br>Vídeo IP: N/A
+|Habilitar el audio y el vídeo para los participantes en reuniones    |Modo de audio IP: **Audio entrante y saliente activado** (predeterminado)<br> Modo de vídeo IP: **Vídeo entrante y saliente activado** (predeterminado)<br>Vídeo IP: **On** (predeterminado)    |
 
 Se aplica la directiva más restrictiva entre la directiva del organizador de la reunión y la del usuario. Por ejemplo, si un organizador tiene una directiva que restringe el vídeo y la directiva de un usuario no restringe el vídeo, los participantes de la reunión heredan la directiva del organizador de la reunión y no tienen acceso al vídeo en las reuniones. Esto significa que solo podrán unirse a la reunión con audio.
 
@@ -133,7 +133,7 @@ Se aplica la directiva más restrictiva entre la directiva del organizador de la
 
 #### <a name="teams-mobile-clients"></a>Clientes de móvil de Teams
 
-Para los usuarios de clientes de móvil de Teams, la capacidad para compartir fotos y vídeos durante una reunión también está determinada por el valor **Permitir el vídeo IP** o **Modo de vídeo de IP**. En función de la configuración de directiva que tenga prioridad, la capacidad para compartir vídeos y fotos no estará disponible. Esto no afecta al uso compartido de la pantalla, que se configura con el modo de [Uso compartido de pantalla](meeting-policies-content-sharing.md#screen-sharing-mode). Asimismo, puede establecer una directiva de movilidad de [Teams](/powershell/module/skype/new-csteamsmobilitypolicy) para evitar que los usuarios móviles utilicen vídeo IP sobre una conexión móvil, lo que significa que deben usar una conexión Wi-Fi.
+Para los usuarios de Teams móviles, la capacidad de compartir fotos y vídeos durante una reunión también está determinada por la configuración del modo de vídeo **IP** o **IP.** En función de la configuración de directiva que tenga prioridad, la capacidad para compartir vídeos y fotos no estará disponible. Esto no afecta al uso compartido de la pantalla, que se configura con el modo de [Uso compartido de pantalla](meeting-policies-content-sharing.md#screen-sharing-mode). Asimismo, puede establecer una directiva de movilidad de [Teams](/powershell/module/skype/new-csteamsmobilitypolicy) para evitar que los usuarios móviles utilicen vídeo IP sobre una conexión móvil, lo que significa que deben usar una conexión Wi-Fi.
 
 ### <a name="media-bit-rate-kbs"></a>Velocidad de bits multimedia (kb/s)
 

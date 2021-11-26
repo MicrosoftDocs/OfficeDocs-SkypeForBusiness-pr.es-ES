@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 4942ae39b8ca5d067bd5b98ad2780cd0db78422d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: aebf812b7362f5f7572e9b8fabb9e88754118438
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844953"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205300"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -60,10 +60,10 @@ Para crear una directiva de configuración de aplicaciones para anclar aplicacio
 
 3. Escriba un nombre y una descripción para la directiva.
 
-4. Activa o desactiva **Permitir** anclación de usuario, dependiendo de si quieres permitir que los usuarios personalicen su barra de aplicaciones anclando aplicaciones a ella.
+4. Activa o desactiva la **anclación de usuario,** dependiendo de si quieres permitir que los usuarios personalicen su barra de aplicaciones anclando aplicaciones a ella.
 
    > [!NOTE]
-   > La **configuración** Permitir anclación de usuario está disponible en el Centro de administración de Teams en entornos de Microsoft 365 Government Community Cloud (GCC) (GCC, GCC High y DoD), pero actualmente no tiene ningún efecto.
+   > La **configuración** de anclación de usuario está disponible en el Centro de administración de Teams en entornos de Microsoft 365 Government Community Cloud (GCC) (GCC, GCC High y DoD), pero actualmente no tiene ningún efecto.
 
 5. En **Aplicaciones ancladas,** selecciona **Agregar aplicaciones.**
 
@@ -205,11 +205,11 @@ Con los Teams móviles, los usuarios verán aplicaciones principales de Teams co
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>¿Pueden los usuarios cambiar el orden de las aplicaciones ancladas a través de una directiva?
 
-Los usuarios pueden cambiar el orden de sus aplicaciones ancladas  en Teams de escritorio y móviles si la opción Permitir anclación de usuario está activada. Los usuarios no pueden cambiar el orden de sus aplicaciones ancladas en Teams web.
+Los usuarios pueden cambiar el orden de sus aplicaciones ancladas Teams clientes móviles y de escritorio si la opción Ancla **de** usuario está activada. Los usuarios no pueden cambiar el orden de sus aplicaciones ancladas en Teams web.
 
 #### <a name="does-user-pinning-take-precedence"></a>¿Tiene prioridad la anclación de usuario?
 
-Los anclares de administrador siempre tienen prioridad. Si la **opción Permitir anclación de** usuario está activada, los usuarios conservarán sus aplicaciones ancladas debajo de las aplicaciones ancladas por el administrador. Si la **opción** Permitir anclación de usuario está desactivada, los usuarios perderán sus pasadores preexistentes y solo las aplicaciones ancladas por el administrador estarán presentes en la barra de aplicaciones.
+Los anclares de administrador siempre tienen prioridad. Si la **opción Ancla de** usuario está activada, los usuarios conservarán sus aplicaciones ancladas debajo de las aplicaciones ancladas por el administrador. Si la opción Ancla **de** usuario está desactivada, los usuarios perderán sus pasadores preexistentes y solo las aplicaciones ancladas por el administrador estarán presentes en la barra de aplicaciones.
 
 ### <a name="custom-teams-apps"></a>Aplicaciones Teams personalizadas
 
@@ -217,7 +217,7 @@ Los anclares de administrador siempre tienen prioridad. Si la **opción Permitir
 
 Asegúrese de que sigue las directrices del logotipo antes de enviar la aplicación. Para obtener más información, vea [Envío de lista de comprobación del panel de vendedores.](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Configurar la administración para aplicaciones en Teams](admin-settings.md)
 

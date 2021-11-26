@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo administrar la configuración general de la directiva de reunión en Teams.
-ms.openlocfilehash: be28acd1a343988fef94546f405a1f7a3684d4ce
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b7c08799ee9e7c2b1e6239b17abaa66b7d1e3d47
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731669"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61177941"
 ---
 # <a name="meeting-policy-settings---general"></a>Configuración de la directiva de reunión. Aspectos generales
 
@@ -32,32 +32,32 @@ ms.locfileid: "58731669"
 
 En este artículo se describen las siguientes opciones de configuración de directiva general Teams reuniones:
 
-- [Permitir la opción Reunirse ahora en canales](#allow-meet-now-in-channels)
-- [Permitir el complemento de Outlook](#allow-the-outlook-add-in)
-- [Permitir la programación de reuniones de canal](#allow-channel-meeting-scheduling)
-- [Permitir la programación de reuniones privadas](#allow-scheduling-private-meetings)
-- [Permitir Reunirse ahora en reuniones privadas](#allow-meet-now-in-private-meetings)
+- [Reunirse ahora en canales](#meet-now-in-channels)
+- [Outlook complemento](#outlook-add-in)
+- [Programación de reuniones del canal](#channel-meeting-scheduling)
+- [Programación privada de reuniones](#private-meeting-scheduling)
+- [Reunirse ahora en reuniones privadas](#meet-now-in-private-meetings)
 - [Modo de rol moderador designado](#designated-presenter-role-mode)
-- [Permitir informe de participación](#allow-engagement-report)
-- [Permitir el registro de la reunión](#allow-meeting-registration)
+- [Informe de participación](#engagement-report)
+- [Registro de reunión](#meeting-registration)
 - [Quién registro](#who-can-register)
 - [Proveedor de reuniones para el modo Islas](#meeting-provider-for-islands-mode)
 
-## <a name="allow-meet-now-in-channels"></a>Permitir la opción Reunirse ahora en canales
+## <a name="meet-now-in-channels"></a>Reunirse ahora en canales
 
 Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede iniciar una reunión ad hoc en un canal Teams usuario. Si activa esta opción, los  usuarios pueden hacer clic en el botón Reunirse para iniciar una reunión ad hoc o programar una reunión en el canal. El valor predeterminado es True.
 
-[![Captura de pantalla que muestra el icono Reunirse ahora debajo de un mensaje. ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
+[![Captura de pantalla que muestra el icono Reunirse ahora debajo de un mensaje. ](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
 
-## <a name="allow-the-outlook-add-in"></a>Permitir el complemento de Outlook
+## <a name="outlook-add-in"></a>Outlook complemento
 
 Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si se pueden programar reuniones de Teams desde Outlook (en Windows, Mac, web y dispositivos móviles).
 
-![Captura de pantalla que muestra la capacidad de programar una nueva reunión.](media/meeting-policies-outlook-add-in.png)
+![Captura de pantalla que muestra la posibilidad de programar una nueva reunión.](media/meeting-policies-outlook-add-in.png)
 
 Si desactiva esta opción, los usuarios no podrán programar Teams reuniones cuando creen una nueva reunión en Outlook. Por ejemplo, en Outlook en Windows, la opción **Nueva reunión de Teams** no se mostrará en la cinta de opciones.
 
-## <a name="allow-channel-meeting-scheduling"></a>Permitir la programación de reuniones de canal
+## <a name="channel-meeting-scheduling"></a>Programación de reuniones del canal
 
 Use la Directiva AllowChannelMeetingScheduling existente para controlar los tipos de eventos que se pueden crear en los calendarios del canal del equipo. Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede programar una reunión en un canal de Teams. Esta configuración está activada de forma predeterminada. 
 
@@ -69,7 +69,7 @@ Programar una reunión se deshabilitará.
 
 La selección de canales está desactivada.
 
-[Captura de pantalla que muestra la opción de calendario para seleccionar un canal en el que ![ desea programar una reunión. ](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
+[Captura de pantalla que muestra la opción de calendario para seleccionar un canal en el que ![ desea programar una reunión. ](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
 En la página de publicaciones del canal, se deshabilitará lo siguiente:
 
@@ -94,13 +94,13 @@ La aplicación Calendario de canal se mostrará en la sección **Aplicaciones de
 
 ![Captura de pantalla que muestra la directiva de permisos de la aplicación en el Teams de administración.](media/manage-microsoft-apps-policy.png)
 
-## <a name="allow-scheduling-private-meetings"></a>Permitir la programación de reuniones privadas
+## <a name="private-meeting-scheduling"></a>Programación privada de reuniones
 
 Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede programar una reunión privada en Teams. Una reunión es privada cuando no se publica en un canal de un equipo.
 
 Tenga en cuenta que si desactiva **Permitir la programación de reuniones privadas** y **Permitir la programación de reuniones de canal**, las opciones **Agregar los asistentes necesarios** y **Agregar el canal** estarán deshabilitadas para los usuarios de Teams. Esta configuración está activada de forma predeterminada.
 
-## <a name="allow-meet-now-in-private-meetings"></a>Permitir la opción Reunirse ahora en las reuniones privadas
+## <a name="meet-now-in-private-meetings"></a>Reunirse ahora en reuniones privadas
 
 Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede iniciar una reunión privada ad hoc.  Esta configuración está activada de forma predeterminada.
 
@@ -120,7 +120,7 @@ Para especificar el valor predeterminado de la configuración **¿Quién puede e
 
 Tenga en cuenta que, después de establecer el valor predeterminado, los organizadores de reuniones aún podrán cambiar esta configuración en Teams y elegir quién puede moderar las reuniones que programen.
 
-## <a name="allow-engagement-report"></a>Permitir informe de participación
+## <a name="engagement-report"></a>Informe de participación
 
 Esta es una directiva por usuario. Esta configuración controla si los organizadores de reuniones pueden descargar el [informe de asistencia a reuniones](teams-analytics-and-reports/meeting-attendance-report.md).
 
@@ -132,7 +132,7 @@ Para permitir que un organizador de la reunión descargue el informe de asistenc
 
 Para impedir que el organizador de la reunión descargue el informe, establezca el parámetro en **Deshabilitado**.
 
-## <a name="allow-meeting-registration"></a>Permitir el registro de la reunión
+## <a name="meeting-registration"></a>Registro de reunión
 
 Esta es una directiva por usuario. Si activa esta opción, los usuarios de su organización pueden configurar seminarios web. Esta directiva está habilitada de forma predeterminada.
 
@@ -140,13 +140,13 @@ Para editar esta directiva en el centro Teams de administración, vaya a **Direc
 
 Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
 
-Para activar el registro de la reunión, establezca el parámetro  **AllowMeetingRegistration** en **True**. Se establece en **True de** forma predeterminada.
+Para activar el registro de la reunión, establezca el  **parámetro MeetingRegistration** en **True**. Se establece en **True de** forma predeterminada.
 
 Para desactivar el registro de reuniones e impedir que los usuarios programe seminarios web, establezca el parámetro en **Falso.**
 
 ## <a name="who-can-register"></a>Quién registro
 
-Esta directiva controla qué usuarios pueden registrarse y asistir a seminarios web. Esta directiva tiene dos opciones, que solo están disponibles si permitir el registro **de reunión** está activado.
+Esta directiva controla qué usuarios pueden registrarse y asistir a seminarios web. Esta directiva tiene dos opciones, que solo están disponibles si el registro **de la** reunión está activado.
 
 - Establezca Quién puede **registrarse**  en Todos si desea permitir que todos los usuarios, incluidos los usuarios anónimos, se registren y asistan a seminarios web que los usuarios de su organización configuren.
 - Establezca **Quién puede registrarse**  en Todos los miembros de la organización si desea permitir que solo los usuarios de su organización se registren y asistan a seminarios web.

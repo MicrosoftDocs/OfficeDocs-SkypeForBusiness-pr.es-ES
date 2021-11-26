@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1c25ed5b00adf162ceb5d75d9207e43e489f3c6
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: ac7558f2177ab468043e624d6230106179f79a6e
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536531"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205240"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos en directo en Microsoft Teams
 
@@ -41,7 +41,7 @@ Puede administrar fácilmente estas opciones de configuración en el centro de a
 
 Esta dirección URL se muestra a los asistentes del evento en directo. Agregue la dirección URL de soporte de la organización para ofrecer a los asistentes una manera de ponerse en contacto con el soporte técnico durante un evento en directo.
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
+### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
 1. En la navegación izquierda, vaya a **Reuniones** > **Configuración de eventos en directo**.
 2. En **dirección URL de soporte**, escriba la dirección URL de soporte técnico de su organización.
@@ -60,14 +60,14 @@ Para obtener más información, vea [Set-CsTeamsMeetingBroadcastConfiguration](/
 
 Si compró y configuró una solución de red definida por software (SDN) o una solución de red de entrega de contenido para empresas (eCDN) a través de un partner de entrega de vídeo de Microsoft, configure el proveedor para eventos en directo en Teams. 
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Usar el centro de administración de Microsoft Teams
+### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
 1. En la navegación izquierda, vaya a **Reuniones** > **Configuración de eventos en directo**.
 2. En **Proveedores de distribución de vídeo de terceros**, siga este procedimiento: 
 
     ![Configuración del proveedor de distribución de vídeo de terceros en el centro de administración.](../media/teams-live-events-settings-distribution-provider-new.png "Captura de pantalla de la configuración del proveedor de distribución de vídeo de terceros para eventos en directo")
 
-    - **Usar un proveedor de distribución de terceros** Active esta opción para habilitar el proveedor de distribución de vídeo de terceros.
+    - **Proveedor de distribución de terceros** Active esta opción para habilitar el proveedor de distribución de vídeo de terceros.
     - **Nombre del proveedor de SDN** elija el proveedor que está usando.
     - **Configuración de SDN** Escriba los detalles de configuración de SDN.
         

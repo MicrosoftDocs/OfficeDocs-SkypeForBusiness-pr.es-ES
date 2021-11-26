@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 73c354261d92044fea0a2efeb4e1613b3f3a63a9
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: b2163e780706a17b7793f8451b1bdb85a1830b2b
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973028"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205270"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
 
@@ -85,16 +85,16 @@ Estas son las opciones de configuración de directiva de mensajería que puede c
 <a name="bkchat"> </a>
 
 - **Chat** Active esta opción si desea que los usuarios de su organización puedan chatear con otras personas con la aplicación de Teams.
-- **Usar Giphy en conversaciones**  Si activa Giphys, los usuarios pueden incluir Giphys en conversaciones de chat con otras personas. Giphy es una base de datos en línea y un motor de búsqueda que permite a los usuarios buscar y compartir archivos GIF animados. A cada Giphy se le asigna una clasificación de contenido. Además de activar esta configuración, debe habilitar [Las](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) experiencias conectadas opcionales para permitir giphys en las conversaciones.
+- *Usar Giphy en conversaciones** Si activas Giphys, los usuarios pueden incluir Giphys en conversaciones de chat con otras personas. Giphy es una base de datos en línea y un motor de búsqueda que permite a los usuarios buscar y compartir archivos GIF animados. A cada Giphy se le asigna una clasificación de contenido. Además de activar esta configuración, debe habilitar [Las](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) experiencias conectadas opcionales para permitir giphys en las conversaciones.
 - **Clasificación de contenido de Giphy**
   - **Sin restricciones** Esto significa que los usuarios podrán insertar cualquier giphy en los chats independientemente de la clasificación de contenido.
   - **Moderado**  Esto significa que los usuarios podrán insertar Giphys en chats, pero estarán moderadamente restringidos del contenido adulto.
   - **Estricto**  Esto significa que los usuarios podrán insertar Giphys en chats, pero estarán estrictamente restringidos al contenido de adultos.
-- **Usar memes en conversaciones** Si activa Memes, los usuarios pueden incluir Memes en conversaciones de chat con otras personas.
-- **Usar adhesivos en conversaciones** Si activa esta opción, los usuarios pueden incluir adhesivos en conversaciones de chat con otras personas.
-- **Permitir vistas previas de URL** Use esta opción si desea activar o desactivar la visualización previa automática de direcciones URL en los mensajes.
+- **Memes en conversaciones** Si activa Memes, los usuarios pueden incluir Memes en conversaciones de chat con otras personas.
+- **Adhesivos en conversaciones** Si activa esta opción, los usuarios pueden incluir adhesivos en conversaciones de chat con otras personas.
+- **Vistas previas de URL** Use esta configuración para activar o desactivar la vista previa automática de URL en los mensajes.
 - **Traducir mensajes** Active esta configuración para permitir que los usuarios traduzcan automáticamente Teams mensajes al idioma especificado por su configuración de idioma personal para Microsoft 365 o Office 365.
-- **Permitir lector inmersivo para ver mensajes** Active esta configuración para permitir que los usuarios puedan ver los mensajes en Microsoft Lector inmersivo. Lector inmersivo es una herramienta de aprendizaje que proporciona una experiencia de lectura en pantalla completa para aumentar la legibilidad del texto.
+- **Lector inmersivo para mensajes** Active esta configuración para permitir que los usuarios puedan ver los mensajes en Microsoft Lector inmersivo. Lector inmersivo es una herramienta de aprendizaje que proporciona una experiencia de lectura en pantalla completa para aumentar la legibilidad del texto.
 - **Enviar mensajes urgentes con notificaciones de prioridad** Si activa esta opción, los usuarios pueden enviar mensajes con notificaciones [de prioridad.](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) Las notificaciones de prioridad notifican a los usuarios cada 2  minutos durante 20 minutos o hasta que los mensajes marcados como urgentes sean recogidos y leídos por el destinatario. Esta característica aumenta la probabilidad de que el mensaje se actúe de forma oportuna.
 - **Crear mensajes de voz**
   > [!Important]

@@ -21,7 +21,7 @@ ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/25/2021
-ms.locfileid: "61177791"
+ms.locfileid: "61205262"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Administrar controles de tecnología de reconocimiento de voz para un altavoz inteligente
 

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: Descubra cómo administrar la configuración de una directiva de reunión en Teams con el fin de controlar las características disponibles para sus participantes en reuniones programadas por usuarios.
-ms.openlocfilehash: dc2a57daccd9f252abe912892f0475a38859007f
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ccfcb15cb5456a25b8bbad0383481f20d4c81e9b
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973048"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205540"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>Administrar directivas de reunión en Microsoft Teams
 
@@ -44,8 +44,8 @@ Puede implementar directivas en las formas que se indican a continuación. Esto 
 |Tipo de implementación  |Descripción  |
 |---------|---------|
 |Por organizador    |Al implementar una directiva por organizador, todos los participantes de la reunión heredan la directiva del organizador. Ejemplo: **Admitir automáticamente personas** es una directiva por organizador y controla si los usuarios pueden unirse a la reunión directamente o esperar en la sala de espera para reuniones programadas por el usuario al que se ha asignado la directiva.          |
-|Por usuario    |Cuando implementa una directiva por usuario, solo la directiva por usuario se aplica para restringir determinadas características para el organizador o los participantes de la reunión. Por ejemplo, **Permitir Reunirse ahora en los canales** es una directiva por usuario.     |
-|Por organizador y por usuario     |Cuando implementa una combinación de una directiva por organizador y por usuario, se restringen determinadas características a los participantes de la reunión en función de las directivas de los usuarios y del organizador. Por ejemplo, **Permitir la grabación en la nube** es una directiva por organizador y por usuario. Active esta opción para permitir que el organizador de la reunión y los participantes inicien y detengan una grabación.
+|Por usuario    |Cuando implementa una directiva por usuario, solo la directiva por usuario se aplica para restringir determinadas características para el organizador o los participantes de la reunión. Por ejemplo, **Reunirse ahora en canales** es una directiva por usuario.     |
+|Por organizador y por usuario     |Cuando implementa una combinación de una directiva por organizador y por usuario, se restringen determinadas características a los participantes de la reunión en función de las directivas de los usuarios y del organizador. Por ejemplo, **la grabación en la nube** es una directiva por organizador y por usuario. Active esta opción para permitir que el organizador de la reunión y los participantes inicien y detengan una grabación.
 
 Puede editar la configuración en la directiva global o crear y asignar una o más directivas personalizadas. Los usuarios obtendrán la directiva global, a menos que usted cree y asigne una directiva personalizada.
 
@@ -64,14 +64,14 @@ Por ejemplo, supongamos que tiene un grupo de usuarios y quiere limitar el ancho
 
 En **Audio y vídeo**:
 
-- Desactive Permitir la grabación en la nube.
-- Desactive Permitir vídeo IP.
+- Desactive la grabación en la nube.
+- Desactivar el vídeo IP.
 
 En **Uso compartido de contenido**:
 
 - Desactive el modo de uso compartido de la pantalla.
-- Desactive Permitir pizarra.
-- Desactive Permitir notas compartidas.
+- Desactive Pizarra.
+- Desactivar notas compartidas.
 
 Luego asigne la directiva a los usuarios:
 

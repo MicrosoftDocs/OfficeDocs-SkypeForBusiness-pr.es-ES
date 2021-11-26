@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7659e7dba89c18b31f7bf111283da569591790b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fe6434fe874367757dfb7ad954aacaf8d3755041
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858927"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205500"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana de voz en Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "60858927"
 > Cortana de voz es compatible con las aplicaciones móviles de Microsoft Teams para iOS y Android y Microsoft Teams para usuarios de Estados Unidos, Reino Unido, Canadá, India y Australia. Salas de Microsoft Teams en Windows solo es compatible con dispositivos con configuración regional establecida en en-us. Cortana asistencia de voz no está disponible actualmente para los inquilinos GCC, GCC-High, DoD y otros inquilinos edu. Cortana asistencia de voz en la Teams móvil ya está disponible para los clientes de EDU en Ee. UU. La expansión a idiomas y regiones adicionales se realizará como parte de futuras versiones.
 
 
-Cortana de voz en la aplicación móvil de Teams, en Salas de Microsoft Teams en Windows y en dispositivos de visualización Microsoft Teams permite Microsoft 365 Enterprise los usuarios simplificar la comunicación, la colaboración y tareas relacionadas con reuniones con lenguaje natural hablado. Los usuarios pueden hablar con Cortana seleccionando el botón del micrófono situado en la esquina superior derecha de la aplicación móvil de Teams, o diciendo &#8220;Cortana&#8221; en la sala de Microsoft Teams o al usar una pantalla Microsoft Teams pantalla. Para conectarse rápidamente con su equipo manos libres y mientras está en cualquier lugar, los usuarios pueden decir consultas como &#8220;llamar a Megan&#8221; o &#8220;enviar un mensaje a mi próxima reunión&#8221;. Los usuarios también pueden unirse a reuniones diciendo &#8220;unirse a mi próxima reunión&#8221; y usar la asistencia de voz para compartir archivos, comprobar su calendario y mucho más. Estas experiencias de asistencia de voz se entregan [Cortana con](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) servicios de nivel empresarial que cumplen plenamente con las promesas de privacidad, seguridad y cumplimiento de Office 365, tal y como se reflejan en los Términos de servicios en línea [(OST).](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)
+Cortana de voz en la aplicación móvil Teams, en Salas de Microsoft Teams en Windows y en Microsoft Teams dispositivos de Microsoft 365 Enterprise  usuarios para simplificar la comunicación, la colaboración y las tareas relacionadas con reuniones con el lenguaje natural hablado. Los usuarios pueden hablar con Cortana seleccionando el botón del micrófono situado en la esquina superior derecha de la aplicación móvil de Teams o diciendo "Cortana" en la sala de Microsoft Teams o al usar una pantalla Microsoft Teams pantalla. Para conectarse rápidamente con su equipo manos libres y mientras están en cualquier lugar, los usuarios pueden decir consultas como "llamar a Megan" o "enviar un mensaje a mi próxima reunión". Los usuarios también pueden unirse a reuniones diciendo "unirse a mi próxima reunión" y usar la asistencia de voz para compartir archivos, comprobar su calendario y mucho más. Estas experiencias de asistencia de voz se entregan [Cortana con](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) servicios de nivel empresarial que cumplen plenamente con las promesas de privacidad, seguridad y cumplimiento de Office 365, tal y como se reflejan en los Términos de servicios en línea [(OST).](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)
 
 ## <a name="admin-control-and-limitations"></a>Control de administración y limitaciones
 
@@ -52,13 +52,13 @@ Los administradores pueden usar los siguientes cmdlets de PowerShell para admini
 
 - [Remove-CsTeamsCortanaPolicy](/powershell/module/skype/Remove-CsTeamsCortanaPolicy)
 
-Por ejemplo, el comando siguiente crea una nueva directiva con el nombre &#8220;EmployeeCortanaPolicy&#8221; donde Cortana de voz en Microsoft Teams está deshabilitado.  
+Por ejemplo, el comando siguiente crea una nueva directiva con el nombre "EmployeeCortanaPolicy" donde Cortana de voz en Microsoft Teams está deshabilitado.  
 
 ```PowerShell
 PS C:\> New-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode Disabled
 ```
 
-En este ejemplo se muestra cómo actualizar una directiva existente con el nombre &#8220;EmployeeCortanaPolicy&#8221; y habilitar Cortana asistencia de voz en Microsoft Teams solo con invocación de botón. Los usuarios podrán invocar el Cortana seleccionando el Cortana de micrófono en Teams. Se deshabilitará &#8220;la invocación de Cortana&#8221; o &#8220;Cortana&#8221;).  
+En este ejemplo se muestra la actualización de una directiva existente con el nombre "EmployeeCortanaPolicy" y la habilitación de Cortana de voz en Microsoft Teams solo con invocación de botón. Los usuarios podrán invocar el Cortana seleccionando el Cortana de micrófono en Teams. Se deshabilitará la invocación wake word ("Hola Cortana" o "Cortana") .  
 
 ```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode PushToTalkUserOverride
@@ -95,22 +95,24 @@ Puede controlar si Cortana en Teams está habilitado para el dispositivo mediant
 Realizar cambios en el nivel de dispositivo solo está disponible si Cortana está habilitado en el nivel de inquilino. 
 
 En el nivel de dispositivo, puede configurar Cortana que se utilicen de dos maneras diferentes. Puede habilitar cualquiera de las dos opciones o ambas al mismo tiempo: 
-- pulsando en un micrófono, que se denomina Cortana _Pulsar para hablar_
-- diciendo "Hola, Cortana", que se denomina _Cortana activación de voz_
+- Pulsando en un micrófono, que se denomina Cortana _Pulsar para hablar_
+- Al decir "Hola, Cortana", que se denomina _Cortana activación de voz_
 
-Cortana _Push to talk_ está habilitado de forma predeterminada si el dispositivo está configurado para usar la configuración regional en-us. [Aprende más.](/MicrosoftTeams/rooms/console#to-apply-your-desired-language)  Cortana icono desplazará el botón _Presentar_ en _más..._ en la consola Teams sala. Para deshabilitar Cortana _Usar PowerShell para insertar para hablar._ [Más información.](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
+Cortana Push _to talk_ está habilitado de forma predeterminada si su sala está configurada con cualquiera de los siguientes idiomas: en-au (Australia), en-ca (Canadá), en-gb (Reino Unido), en-in (India), en-us (Estados Unidos). [Aprende más.](/MicrosoftTeams/rooms/console#to-apply-your-desired-language) Cortana icono desplazará el botón _Presentar_ en _más..._ en la consola Teams sala. Para deshabilitar Cortana _Usar La conversación use_ PowerShell.[ Aprende más.](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
 
 Para habilitar Cortana _activación de voz,_ deben cumplirse estas condiciones:
 - un Cortana certificado debe estar conectado a su Teams sala. Puede encontrar una lista de dispositivos certificados al final de este artículo.
-- el Teams sala debe configurarse para usar la configuración regional en-us. Más idiomas estarán disponibles más adelante.
+- la sala Teams debe configurarse con cualquiera de los siguientes idiomas: en-au (Australia), en-ca (Canadá), en-gb (Reino Unido), en-in (India), en-us (Estados Unidos). Más idiomas estarán disponibles más adelante.
 - uno de los siguientes cambios de configuración debe realizarse:
   - activa la característica en Teams centro de administración [más información.](/microsoftteams/rooms/rooms-manage)
   - agregue el siguiente atributo XML al archivo XML de SkypeSettings:
-```xml
-<SkypeSettings>  
+
+    ```xml
+    <SkypeSettings>  
         <CortanaWakewordEnabled>true</CortanaWakewordEnabled>  
-</SkypeSettings> 
-```
+    </SkypeSettings> 
+    ```
+    
 En el nivel de reunión, realizar cambios solo está disponible si Cortana _activación_ de voz está habilitada en el nivel de dispositivo.  Para habilitar Cortana _activación de voz_ durante una reunión, mueva el botón de alternancia **Activado** o **Desactivado** para deshabilitar. Una vez que finalice la reunión, Cortana volverá a la configuración de nivel de dispositivo establecida.
 
 
@@ -123,4 +125,5 @@ Para habilitar Cortana _de voz_ durante una reunión, mueva el botón de alterna
 Cortana _activación_ por voz se puede habilitar si usa un Lenovo Hub 500 o si tiene alguno de estos dispositivos conectados a su sala:
 - Jabra Panacast 50 
 - Micrófonos de reunión
-- Barra de vídeo de Bose VB1 __
+- Barra de vídeo de Bose VB1
+

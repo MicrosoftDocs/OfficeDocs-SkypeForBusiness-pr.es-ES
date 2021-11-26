@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01335cce21a4550158f3c87da12c8a23166a39de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1fbcadfefffe40bbd7c2919f269185b8116b7237
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624812"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205280"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -47,8 +47,8 @@ La siguiente tabla ofrece una referencia rápida y útil de la disponibilidad de
 
 | El buzón del usuario se hospeda en:                                       | eDiscovery         | Legal&nbsp;Hold    | Retención        | Administración de equipos y canales | Crear y ver reuniones en Teams | Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Acceder a contactos de Outlook | Correo de voz        | Agregar y configurar conectores | Agregar y configurar fichas | Agregar y configurar bots |
 |--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                | Sí<sup>1</sup>   | Sí <sup>1</sup>   | Sí              | Sí                   | Sí                               | Sí<sup>7</sup>             | Sí          | Sí             | Sí<sup>6</sup>        | Sí              | Sí                          | Sí                    | Sí                    |
-| **Exchange Online Dedicated vNext**                                | Sí<sup>1</sup>   | Sí <sup>1</sup>   | Sí              | Sí                   | Sí                               | Sí<sup>7</sup>             | Sí          | Sí             | Sí<sup>6</sup>        | Sí              | Sí                          | Sí                    | Sí                    |
+| **Exchange Online**                                                | Sí<sup>1</sup>   | Sí<sup>1</sup>   | Sí              | Sí                   | Sí                               | Sí<sup>7</sup>             | Sí          | Sí             | Sí<sup>6</sup>        | Sí              | Sí                          | Sí                    | Sí                    |
+| **Exchange Online Dedicated vNext**                                | Sí<sup>1</sup>   | Sí<sup>1</sup>   | Sí              | Sí                   | Sí                               | Sí<sup>7</sup>             | Sí          | Sí             | Sí<sup>6</sup>        | Sí              | Sí                          | Sí                    | Sí                    |
 | **Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD) | Sí<sup>1</sup>   | Sí<sup>1,2</sup> | Sí<sup>3</sup> | Sí                   | No                                | No                          | Sí          | Sí             | No                      | Sí <sup>4</sup> | Sí<sup>5</sup>             | Sí                    | Sí                    |
 | **Exchange local** (Sincronizar con Azure AD)                        | Sí <sup>1,9</sup> | Sí<sup>1</sup>   | Sí<sup>3</sup> | Sí                   | Sí<sup>8</sup>                  | Sí<sup>10</sup>            | Sí          | Sí             | No                      | Sí <sup>4</sup> | Sí<sup>5</sup>             | Sí                    | Sí                    |
 
@@ -110,7 +110,7 @@ Si los buzones de correo están hospedados en el entorno local, se deben cumplir
 
 Para habilitar la delegación del calendario para estos usuarios:
 
-- También debe completar los pasos descritos en Configurar integración [y OAuth entre Skype Empresarial Online y Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); estos pasos proporcionarán a la Teams programación los permisos necesarios para confirmar los permisos delegados.
+- También debe completar los pasos como se describe en Configurar integración y OAuth entre Skype Empresarial Online y [Exchange Server;](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)estos pasos proporcionarán a la aplicación de programación de Teams los permisos necesarios para confirmar los permisos delegados.
  
   > [!NOTE]
   > El paso 2 incluye la asignación de rol para ArchiveApplication, lo que no se requiere para la delegación.
@@ -125,7 +125,7 @@ He aquí algunas consideraciones adicionales para la implementación de Microsof
 
 - Controlar y proteger la configuración de directivas de cumplimiento en Teams y Exchange mediante el Acceso condicional. Para más información, consulte [¿Cómo funcionan las directivas de Acceso condicional en Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- Si su organización tiene ciertas normativas por las que se tienen que poder detectar todas las discusiones de las reuniones, debe deshabilitar las reuniones privadas si el organizador tiene un buzón de correo local de Exchange. Para más información, consulte [Permitir la programación de reuniones privadas](./meeting-policies-in-teams-general.md#allow-scheduling-private-meetings).
+- Si su organización tiene ciertas normativas por las que se tienen que poder detectar todas las discusiones de las reuniones, debe deshabilitar las reuniones privadas si el organizador tiene un buzón de correo local de Exchange. Para obtener más información, vea [Programación de reuniones privadas.](./meeting-policies-in-teams-general.md#private-meeting-scheduling)
 
 - En una implementación híbrida de Exchange, el contenido de los mensajes de chat se puede buscar sin importar que los participantes del chat tengan un buzón de correo basado en la nube o local. Para más información, consulte [Búsqueda de buzones basados en la nube para usuarios locales](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para más información sobre la búsqueda de contenido en Teams, consulte [Búsqueda de contenido en el Centro de cumplimiento de Microsoft 365](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 

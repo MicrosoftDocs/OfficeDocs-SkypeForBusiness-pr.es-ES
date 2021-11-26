@@ -1,5 +1,5 @@
 ---
-title: Teams para Educación Asistente para directivas para aplicar fácilmente directivas para un aprendizaje seguro
+title: Teams para Educación de directivas para aplicar fácilmente directivas para un aprendizaje seguro
 author: serdars
 ms.author: v-mahoffman
 manager: serdars
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el Teams para Educación de directivas de aprendizaje para aplicar fácilmente directivas a alumnos y profesores para mantener su entorno de aprendizaje seguro.
 f1keywords: ''
-ms.openlocfilehash: 2d58372af73bd1b0b62ed0d320ac2d0b9097a326
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4b514d2642ba383ca91aa320f8f89dcb1405b7e2
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741656"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205490"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use el Asistente Teams para Educación directivas para aplicar fácilmente directivas para un entorno de aprendizaje seguro
 
@@ -43,7 +43,7 @@ En este artículo se explica cómo ejecutar el asistente.
 > [!IMPORTANT]
 > Las directivas aplicadas por el asistente satisfarán las necesidades de la mayoría de Teams para Educación clientes. El asistente ajusta la definición global (predeterminada para toda la organización) de un conjunto principal de directivas con la configuración que se recomienda para la seguridad de los alumnos y se aplica a los alumnos. El asistente también crea y asigna un conjunto de directivas personalizadas a profesores y docentes. La mayoría Teams para Educación clientes no necesitarán usar otros métodos de asignación de directivas después de ejecutar este asistente. Use otros métodos de asignación *de directivas solo* si desea crear y administrar directivas manualmente para los alumnos, los profesores y el personal.
 
-## <a name="teams-for-education-policy-wizard"></a>Teams para Educación Asistente para directivas
+## <a name="teams-for-education-policy-wizard"></a>Teams para Educación de directivas
 
 <a name="polwiz_intro"> </a>
 
@@ -201,34 +201,34 @@ Esta es una lista de las definiciones de directivas globales (predeterminadas pa
 |Área de directiva |Sub-área  |Configuración de directiva  |Principal o Secundario |Educación superior |
 |---------|---------|---------|---------|---------|
 |Directiva de equipo   |         |Crear canales privados         |Desactivado       |Activado|
-|Directiva de reuniones    |General         |Permitir la opción Reunirse ahora en canales         |Desactivado      |Activado|
-|  |        |Permitir el complemento de Outlook         |Desactivado       |Activado|
-|  |        |Permitir la programación de reuniones de canal        |Desactivado      |Activado|
-|  |        |Permitir la programación de reuniones privadas       |Desactivado      |Activado|
-|  |        |Permitir el registro de la reunión              |Activado       |Activado|
+|Directiva de reuniones    |General         |Reunirse ahora en canales         |Desactivado      |Activado|
+|  |        |Outlook complemento         |Desactivado       |Activado|
+|  |        |Programación de reuniones del canal        |Desactivado      |Activado|
+|  |        |Programación privada de reuniones       |Desactivado      |Activado|
+|  |        |Registro de reunión              |Activado       |Activado|
 |  |        |Quién registro    |Todos los miembros de la organización      |Todos los miembros de la organización|
-|  |Vídeo & audio        |Permitir transcripción        |Activado       |Activado|
-|  |        |Permitir la grabación en la nube         |Desactivado      |Activado|
+|  |Vídeo & audio        |Transcripción        |Activado       |Activado|
+|  |        |Grabación en la nube         |Desactivado      |Activado|
 |  |        |Modo de audio IP       |Audio entrante y saliente activado        |Audio entrante y saliente activado|
 |  |        |Modo de vídeo IP         |Vídeo entrante y saliente activado     |Vídeo entrante y saliente activado|
-|  |       |Permitir vídeo IP         |Activado         |Activado|
+|  |       |Vídeo IP         |Activado         |Activado|
 |  |       |Permitir la transmisión NDI         |Desactivado         |Desactivado|
 |  |       |Velocidad de bits multimedia (kb/s)         |50 000         |50 000|
 |  |Uso compartido de contenido       |Modo de uso compartido de la pantalla         |Toda la pantalla         |Toda la pantalla|
 |  |       |Permitir a un participante ceder o solicitar el control         |Activado         |Activado|
 |  |       |Permitir a un participante externo ceder o solicitar el control         |Activado         |Activado|
-|  |       |Permitir uso compartido de PowerPoint        |Activado         |Activado|
-|  |       |Permitir pizarra         |Activado         |Activado|
-|  |       |Permitir notas compartidas         |Activado        |Activado|
+|  |       |PowerPoint compartido        |Activado         |Activado|
+|  |       |Whiteboard         |Activado         |Activado|
+|  |       |Notas compartidas         |Activado        |Activado|
 |  |Participantes & invitados       |Permitir que los usuarios anónimos inicien una reunión       |Desactivado         |Activado|
 |  |       |Roles que tienen derechos de moderador en las reuniones        |EveryoneUserOverride         |EveryoneUserOverride|
 |  |       |Admitir automáticamente usuarios        |EveryoneInCompany|EveryoneInCompany|
 |  |       |Permitir que los usuarios de acceso telefónico omitan la sala de espera        |Desactivado         |Desactivado|
-|  |       |Permitir la opción Reunirse ahora en las reuniones privadas        |Desactivado         |Activado|
-|  |       |Activar subtítulos en directo       |Deshabilitado, pero el usuario puede invalidar         |Deshabilitado, pero el usuario puede invalidar|
-|  |       |Permitir el chat en las reuniones         |Activado         |Activado|
-|Directiva de eventos en directo  |       |Permitir la programación         |Desactivado         |Desactivado|
-|  |       |Permitir la transcripción para los asistentes          |Activado       |Activado|
+|  |       |Reunirse ahora en reuniones privadas        |Desactivado         |Activado|
+|  |       |Subtítulos en directo       |Deshabilitado, pero el usuario puede invalidar         |Deshabilitado, pero el usuario puede invalidar|
+|  |       |Chatear en reuniones         |Activado         |Activado|
+|Directiva de eventos en directo  |       |Programación de eventos en directo         |Desactivado         |Desactivado|
+|  |       |Transcripción para asistentes          |Activado       |Activado|
 |  |       |Quién puede unirse a eventos en directo programados        |Todos los miembros de la organización        |Todos los miembros de la organización|
 |  |       |Quién puede grabar un evento         |Siempre         |Siempre|
 |Directiva de mensajería  |       |Los propietarios pueden eliminar los mensajes enviados         |Desactivado|Activado|
@@ -236,13 +236,13 @@ Esta es una lista de las definiciones de directivas globales (predeterminadas pa
 |  |       |Editar los mensajes enviados         |Desactivado         |Activado|
 |  |       |Confirmaciones de lectura         |Controlado por el usuario         |Controlado por el usuario|
 |  |       |Chat         |Desactivado         |Activado|
-|  |       |Usar Giphys en conversaciones         |Desactivado         |Activado|
+|  |       |Giphys en conversaciones         |Desactivado         |Activado|
 |  |       |Clasificación de contenido de Giphy         |Estricto        |Estricto|
-|  |       |Usar memes en conversaciones         |Activado         |Activado|
-|  |       |Usar adhesivos en conversaciones         |Activado         |Activado|
-|  |       |Permitir vistas previas de URL        |Activado         |Activado|
+|  |       |Memes en conversaciones         |Activado         |Activado|
+|  |       |Adhesivos en conversaciones         |Activado         |Activado|
+|  |       |Vistas previas de URL        |Activado         |Activado|
 |  |       |Traducir mensajes         |Activado         |Activado|
-|  |       |Permitir lector inmersivo para ver mensajes        |Activado      |Activado|
+|  |       |Lector inmersivo para mensajes        |Activado      |Activado|
 |  |       |Enviar mensajes urgentes con notificaciones prioritarias  |Desactivado         |Activado|
 |  |       |Crear mensajes de voz         |Permitido en chats y canales         |Permitido en chats y canales|
 |  |       |En dispositivos móviles, mostrar canales favoritos por encima de chats recientes     |Habilitado         |Habilitado|
@@ -251,7 +251,7 @@ Esta es una lista de las definiciones de directivas globales (predeterminadas pa
 |  |       |Aplicaciones de terceros         |Permitir todas las aplicaciones         |Permitir todas las aplicaciones|
 |  |       |Aplicaciones personalizadas         |Permitir todas las aplicaciones         |Permitir todas las aplicaciones|
 |Directiva de configuración de aplicaciones  |           |Upload aplicaciones personalizadas           |Desactivado         |Desactivado|
-|  |       |Permitir la anclación de usuario |Activado         |Activado|
+|  |       |Anclación de usuario |Activado         |Activado|
 |  |       |Aplicaciones instaladas         |Ninguna         |Ninguna|
 |  |       |Aplicaciones ancladas         |Actividad, Calendario, Teams         |Actividad, Chats, Teams, Calendario, Llamadas, Archivo
 |Directiva de llamadas  |       |Realizar llamadas privadas         |Desactivado        |Activado|
@@ -271,34 +271,34 @@ Esta es una lista de las definiciones de directiva personalizadas asignadas al g
 |Área de directiva |Sub-área  |Configuración de directiva  |Principal o Secundario |Educación superior |
 |---------|---------|---------|---------|---------|
 |Directiva de equipo   |         |Crear canales privados         |Activado       |Activado|
-|Directiva de reuniones    |General         |Permitir la opción Reunirse ahora en canales         |Activado      |Activado|
-|  |        |Permitir el complemento de Outlook         |Activado       |Activado|
-|  |        |Permitir la programación de reuniones de canal        |Activado      |Activado|
-|  |        |Permitir la programación de reuniones privadas       |Activado      |Activado|
-|  |        |Permitir el registro de la reunión              |Activado       |Activado|
+|Directiva de reuniones    |General         |Reunirse ahora en canales         |Activado      |Activado|
+|  |        |Outlook complemento         |Activado       |Activado|
+|  |        |Programación de reuniones del canal        |Activado      |Activado|
+|  |        |Programación privada de reuniones       |Activado      |Activado|
+|  |        |Registro de reunión              |Activado       |Activado|
 |  |        |Quién registro    |Todos los miembros de la organización      |Todos los miembros de la organización|
-|  |Vídeo & audio        |Permitir transcripción        |Activado       |Activado|
-|  |        |Permitir la grabación en la nube         |Activado      |Activado|
+|  |Vídeo & audio        |Transcripción        |Activado       |Activado|
+|  |        |Grabación en la nube         |Activado      |Activado|
 |  |        |Modo de audio IP       |Audio entrante y saliente activado        |Audio entrante y saliente activado|
 |  |        |Modo de vídeo IP         |Vídeo entrante y saliente activado     |Vídeo entrante y saliente activado|
-|  |       |Permitir vídeo IP         |Activado         |Activado|
+|  |       |Vídeo IP         |Activado         |Activado|
 |  |       |Permitir la transmisión NDI         |Desactivado         |Desactivado|
 |  |       |Velocidad de bits multimedia (kb/s)         |50 000         |50 000|
 |  |Uso compartido de contenido       |Modo de uso compartido de la pantalla         |Toda la pantalla         |Toda la pantalla|
 |  |       |Permitir a un participante ceder o solicitar el control         |Activado         |Activado|
 |  |       |Permitir a un participante externo ceder o solicitar el control         |Activado         |Activado|
-|  |       |Permitir uso compartido de PowerPoint        |Activado         |Activado|
-|  |       |Permitir pizarra         |Activado         |Activado|
-|  |       |Permitir notas compartidas         |Activado        |Activado|
+|  |       |PowerPoint compartido        |Activado         |Activado|
+|  |       |Whiteboard         |Activado         |Activado|
+|  |       |Notas compartidas         |Activado        |Activado|
 |  |Participantes & invitados       |Permitir que los usuarios anónimos inicien una reunión       |Activado        |Activado|
 |  |       |Roles que tienen derechos de moderador en las reuniones        |OrganizerOnlyUserOverride         |OrganizerOnlyUserOverride|
 |  |       |Admitir automáticamente usuarios        |OrganizerOnly|OrganizerOnly|
 |  |       |Permitir que los usuarios de acceso telefónico omitan la sala de espera        |Desactivado         |Desactivado|
-|  |       |Permitir la opción Reunirse ahora en las reuniones privadas        |Activado         |Activado|
-|  |       |Activar subtítulos en directo       |Deshabilitado, pero el usuario puede invalidar         |Deshabilitado, pero el usuario puede invalidar|
-|  |       |Permitir el chat en las reuniones         |Activado         |Activado|
-|Directiva de eventos en directo  |       |Permitir la programación         |Activado         |Activado|
-|  |       |Permitir la transcripción para los asistentes          |Activado       |Activado|
+|  |       |Reunirse ahora en reuniones privadas        |Activado         |Activado|
+|  |       |Subtítulos en directo       |Deshabilitado, pero el usuario puede invalidar         |Deshabilitado, pero el usuario puede invalidar|
+|  |       |Chatear en reuniones         |Activado         |Activado|
+|Directiva de eventos en directo  |       |Programación de eventos en directo         |Activado         |Activado|
+|  |       |Transcripción para asistentes          |Activado       |Activado|
 |  |       |Quién puede unirse a eventos en directo programados        |Todos los miembros de la organización        |Todos los miembros de la organización|
 |  |       |Quién puede grabar un evento         |Grabar siempre         |Grabar siempre|
 |Directiva de mensajería  |       |Los propietarios pueden eliminar los mensajes enviados         |Activado|Activado|
@@ -306,13 +306,13 @@ Esta es una lista de las definiciones de directiva personalizadas asignadas al g
 |  |       |Editar los mensajes enviados         |Activado         |Activado|
 |  |       |Confirmaciones de lectura         |Controlado por el usuario         |Controlado por el usuario|
 |  |       |Chat         |Activado         |Activado
-|  |       |Usar Giphys en conversaciones         |Activado        |Activado|
+|  |       |Giphys en conversaciones         |Activado        |Activado|
 |  |       |Clasificación de contenido de Giphy         |Estricto        |Estricto|
-|  |       |Usar memes en conversaciones         |Activado         |Activado|
-|  |       |Usar adhesivos en conversaciones         |Activado         |Activado|
-|  |       |Permitir vistas previas de URL        |Activado         |Activado|
+|  |       |Memes en conversaciones         |Activado         |Activado|
+|  |       |Adhesivos en conversaciones         |Activado         |Activado|
+|  |       |Vistas previas de URL        |Activado         |Activado|
 |  |       |Traducir mensajes         |Activado         |Activado|
-|  |       |Permitir lector inmersivo para ver mensajes        |Activado      |Activado|
+|  |       |Lector inmersivo para mensajes        |Activado      |Activado|
 |  |       |Enviar mensajes urgentes con notificaciones prioritarias  |Activado         |Activado|
 |  |       |Crear mensajes de voz         |Permitido en chats y canales         |Permitido en chats y canales|
 |  |       |En dispositivos móviles, mostrar canales favoritos por encima de chats recientes     |Habilitado         |Habilitado|

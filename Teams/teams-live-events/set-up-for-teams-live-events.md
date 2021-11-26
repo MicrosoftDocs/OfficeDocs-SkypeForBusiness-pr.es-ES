@@ -20,12 +20,12 @@ description: Configure eventos en directo en Teams, incluyendo configurar su red
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4d9e21872adb0fb0e34280d29fe928ea3ac056da
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 5911ee829284917e5d16a6e254004ad7c49f8660
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046196"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205450"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configure los eventos en directo en Microsoft Teams
 
@@ -65,8 +65,8 @@ Las directivas de los eventos en directo se usan para controlar qué usuarios de
 |---------|---------|
 |**Title**     |Este es el título de la directiva que aparecerá en la página directivas de los eventos en directo. No puede contener caracteres especiales ni tener más de 64 caracteres.          |
 |**Descripción**    |Use esta para agregar una descripción detallada sobre la directiva.         |
-|**Permitir la programación**     |Al habilitar esta opción le permite a los usuarios de la organización crear y programar eventos en directo de Teams. Es importante que tenga en cuenta que, si quiere que los usuarios programen un evento en directo creado con una aplicación o dispositivo externo, debe realizar algunos pasos adicionales. Para obtener más información, vea [permitir que los usuarios programen eventos creados con una aplicación o un dispositivo externo](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
-|**Permitir la transcripción para los asistentes** |Esta configuración solo se puede aplicar en los eventos creados en Teams. Al activar esto, los asistentes del evento podrán ver los subtítulos en directo durante el evento.         |
+|**Programación de eventos en directo**     |Al habilitar esta opción le permite a los usuarios de la organización crear y programar eventos en directo de Teams. Es importante que tenga en cuenta que, si quiere que los usuarios programen un evento en directo creado con una aplicación o dispositivo externo, debe realizar algunos pasos adicionales. Para obtener más información, vea [permitir que los usuarios programen eventos creados con una aplicación o un dispositivo externo](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
+|**Transcripción para asistentes** |Esta configuración solo se puede aplicar en los eventos creados en Teams. Al activar esto, los asistentes del evento podrán ver los subtítulos en directo durante el evento.         |
 |**Quién puede unirse a eventos en directo programados**    |Elija una de las siguientes opciones:<br><br>**Todos** los usuarios pueden crear eventos en directo para que todos los usuarios, incluidas las personas de fuera de la organización, puedan asistir. Esta configuración habilita el tipo de permiso **público** para equipos cuando un usuario programa un evento en directo a través de Teams.<br> **Todos los usuarios de la organización** Los usuarios pueden crear eventos en directo a los que puedan asistir las personas de la organización, incluyendo los [usuarios invitados](../add-guests.md) que hayan sido añadidos a la organización. Los usuarios no pueden crear eventos en directo a los que puedan asistir los usuarios anónimos. Esta configuración habilita el tipo de permiso **Toda la organización** cuando un usuario programa un evento en directo a través de Teams.<br> **Usuarios o grupos específicos** Los usuarios pueden crear eventos en directo a los que solo puedan asistir los usuarios o grupos específicos de su organización. Los usuarios no pueden crear eventos en directo a los que asistan tanto los usuarios anónimos como todos los de su organización. Esta configuración habilita el tipo de permiso de **usuarios y grupos** cuando un usuario programa un evento en directo a través de Teams.       |
 |**Configuración de la grabación**  <br>     | Esta configuración solo se puede aplicar en los eventos creados en Teams. Elija una de las siguientes opciones: <br><br> **Grabar siempre** Los eventos en directo creados por los usuarios siempre serán grabados. Después de que el evento termine, los miembros del equipo del evento podrán descargar la grabación, y los asistentes también podrán ver el evento. <br> **Nunca grabar** Los eventos en directo creados por los usuarios nunca serán grabados. <br>**El organizador puede grabar o no** Los usuarios podrán decidir si quieren grabar el evento en directo. Si es grabado, entonces, después de que el evento termine los miembros del equipo del evento podrán descargar la grabación, y los asistentes también podrán ver el evento.
 

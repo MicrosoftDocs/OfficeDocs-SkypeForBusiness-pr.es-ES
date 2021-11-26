@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Obtenga información sobre cómo usar la configuración de directiva de reunión para controlar la expiración de la reunión en Microsoft Teams.
-ms.openlocfilehash: 7912c57e12de83f112bb1c80b1c44d81d9d6b857
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: 8768410666d003f12cffb80995981b887059f93a
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124267"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61178021"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Directivas de reunión y expiración de la reunión en Microsoft Teams
 
@@ -30,11 +30,11 @@ ms.locfileid: "61124267"
 
 La configuración de directiva de reunión que controla si los usuarios pueden iniciar y programar reuniones, así como controlar la expiración de las reuniones programadas por los usuarios. Cuando un vínculo de unirse a una reunión y el id. de conferencia de una reunión expiran, nadie puede unirse a la reunión. La siguiente configuración de directiva de reunión determina si los usuarios pueden iniciar y programar reuniones en Teams. En este artículo se explica la configuración de la reunión.
 
-- [Permitir reunirse ahora en canales:](meeting-policies-in-teams-general.md#allow-meet-now-in-channels)controla si un usuario puede iniciar una reunión improvisada en un canal.
-- [Permitir la programación de reuniones del canal:](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling)controla si un usuario puede programar una reunión en un canal.
-- [Permitir la programación de reuniones privadas:](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)controla si un usuario puede programar una reunión privada en Teams. Una reunión es privada cuando no se publica en un canal de un equipo.
-- [Permitir el Outlook:](meeting-policies-in-teams-general.md#allow-the-outlook-add-in)controla si un usuario puede programar una reunión privada desde Outlook. Una reunión es privada cuando no se publica en un canal de un equipo.
-- [Permitir reunirse ahora en reuniones privadas:](meeting-policies-in-teams-general.md#allow-meet-now-in-private-meetings)controla si un usuario puede iniciar una reunión privada improvisada.
+- [Reunirse ahora en canales:](meeting-policies-in-teams-general.md#meet-now-in-channels)controla si un usuario puede iniciar una reunión improvisada en un canal.
+- [Programación de reuniones de canal:](meeting-policies-in-teams-general.md#channel-meeting-scheduling)controla si un usuario puede programar una reunión en un canal.
+- [Programación de reuniones privada:](meeting-policies-in-teams-general.md#private-meeting-scheduling)controla si un usuario puede programar una reunión privada en Teams. Una reunión es privada cuando no se publica en un canal de un equipo.
+- [Outlook agregar:](meeting-policies-in-teams-general.md#outlook-add-in)controla si un usuario puede programar una reunión privada desde Outlook. Una reunión es privada cuando no se publica en un canal de un equipo.
+- [Reunirse ahora en reuniones privadas:](meeting-policies-in-teams-general.md#meet-now-in-private-meetings)controla si un usuario puede iniciar una reunión privada improvisada.
 
 De forma predeterminada, esta configuración está en. Cuando cualquiera de estas opciones de configuración está desactivada, cualquier usuario al que se le haya asignado la directiva no puede iniciar ni programar nuevas reuniones de ese tipo. Al mismo tiempo, la reunión une vínculos e id. de conferencia de todas las reuniones existentes de ese tipo que el usuario inició o programó anteriormente expiran.
 
@@ -62,10 +62,10 @@ Este es un resumen de cómo funciona la expiración de la reunión para cada una
 
 |Si desea...&nbsp;&nbsp; |Haga esto&nbsp;&nbsp;&nbsp;&nbsp;  |Comportamiento de unirse a la reunión&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
-|Expirar reuniones privadas de Reunirse ahora iniciadas por un usuario&nbsp;&nbsp;|Desactive **Permitir reunirse ahora en reuniones privadas.**&nbsp;&nbsp;|Nadie puede unirse a reuniones **privadas de Reunirse** ahora iniciadas por el usuario.|
-|Expirar reuniones privadas programadas por un usuario&nbsp;&nbsp;|Desactive **Permitir la programación de reuniones privadas** _y_ desactive Permitir **Outlook complemento**. &nbsp;&nbsp;|Nadie puede unirse a reuniones privadas programadas por el usuario. Esto impide que las personas se unan a las siguientes reuniones:<ul><li>Reuniones privadas que tuvieron lugar en el pasado.</li><li>Reuniones privadas programadas para el futuro y que aún no se han producido.</li><li>Futuras instancias de reuniones privadas periódicas.</li></ul><br>Tanto **Permitir la programación** de reuniones privadas como Permitir **Outlook** complemento deben estar desactivados para expirar las reuniones privadas programadas por un usuario. Si una configuración está desactivada y la otra está activada, los vínculos de combinación de reuniones y los IDs de conferencia de las reuniones existentes permanecen activos y no expirarán.|
-|Expire channel **Meet now** meetings started by a user&nbsp;&nbsp;|Desactive Permitir **reunirse ahora en canales** _y_ desactive Permitir **la programación de reuniones del canal.**&nbsp;&nbsp;|Nadie puede unirse al canal **Reunirse ahora** las reuniones iniciadas por el usuario.|
-|Expirar reuniones del canal programadas por un usuario&nbsp;&nbsp;|Desactive Permitir **la programación de reuniones del canal.**&nbsp;&nbsp;|Nadie puede unirse a las reuniones del canal programadas por el usuario. Esto impide que las personas se unan a las siguientes reuniones:<ul><li>Reuniones del canal que se produjeron en el pasado.</li><li>Reuniones de canal que están programadas para el futuro y que aún no se han producido.</li><li>Futuras instancias de reuniones periódicas del canal.</li></ul>|
+|Expirar reuniones privadas de Reunirse ahora iniciadas por un usuario&nbsp;&nbsp;|Desactive **Reunirse ahora en reuniones privadas.**&nbsp;&nbsp;|Nadie puede unirse a reuniones **privadas de Reunirse** ahora iniciadas por el usuario.|
+|Expirar reuniones privadas programadas por un usuario&nbsp;&nbsp;|Desactive la **programación de reuniones privadas** _y_ desactive **Outlook complemento**. &nbsp;&nbsp;|Nadie puede unirse a reuniones privadas programadas por el usuario. Esto impide que las personas se unan a las siguientes reuniones:<ul><li>Reuniones privadas que tuvieron lugar en el pasado.</li><li>Reuniones privadas programadas para el futuro y que aún no se han producido.</li><li>Futuras instancias de reuniones privadas periódicas.</li></ul><br>Tanto **la programación de** reuniones **privadas como Outlook complemento** deben estar desactivados para expirar las reuniones privadas programadas por un usuario. Si una configuración está desactivada y la otra está activada, los vínculos de combinación de reuniones y los IDs de conferencia de las reuniones existentes permanecen activos y no expirarán.|
+|Expire channel **Meet now** meetings started by a user&nbsp;&nbsp;|Desactive **Reunirse ahora en canales** _y_ desactive La **programación de reuniones del Canal.**&nbsp;&nbsp;|Nadie puede unirse al canal **Reunirse ahora** las reuniones iniciadas por el usuario.|
+|Expirar reuniones del canal programadas por un usuario&nbsp;&nbsp;|Desactivar la **programación de reuniones del canal**.&nbsp;&nbsp;|Nadie puede unirse a las reuniones del canal programadas por el usuario. Esto impide que las personas se unan a las siguientes reuniones:<ul><li>Reuniones del canal que se produjeron en el pasado.</li><li>Reuniones de canal que están programadas para el futuro y que aún no se han producido.</li><li>Futuras instancias de reuniones periódicas del canal.</li></ul>|
 
 Si desea que los usuarios accedan a las reuniones programadas o iniciadas previamente por un usuario determinado, puede:
 

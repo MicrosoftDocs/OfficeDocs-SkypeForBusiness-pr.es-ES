@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db72b520206a68edb006cc0ccbf2518acde081aa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8852ef3d212d2a284f4af72662c771d4c13b13af
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636775"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205640"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>Microsoft Teams aplicaciones o la aplicación línea de negocio (LOB) en Teams paneles
 
@@ -70,7 +70,7 @@ Para administrar las aplicaciones ancladas que se muestran en los paneles de Tea
 
 *Las aplicaciones incluidas en esta imagen son solo ejemplos y es posible que no estén disponibles para su uso.*
 
-Microsoft recomienda desactivar  Upload aplicaciones personalizadas  y Permitir la anclación de usuario para obtener la mejor experiencia Teams aplicaciones en Teams paneles.
+Microsoft recomienda desactivar  las aplicaciones Upload  personalizadas y el anclado de usuario para obtener la mejor experiencia Teams aplicación en Teams paneles.
 
 Para obtener más información sobre cómo anclar aplicaciones, vea [Administrar directivas de configuración de aplicaciones.](/microsoftteams/teams-app-setup-policies)
 
@@ -118,7 +118,7 @@ Si las aplicaciones se instalaron previamente a través de otras directivas de a
 
 No todas las aplicaciones se pueden anclar a Teams a través de una directiva de configuración de aplicaciones. Es posible que algunas aplicaciones no admitan esta funcionalidad. Para buscar aplicaciones que se pueden anclar, busque la aplicación en el panel Agregar aplicaciones **ancladas.** Para obtener más información, consulte las preguntas [más frecuentes en Trabajar con directivas de configuración de aplicaciones.](/microsoftteams/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane)
 
-### <a name="why-am-i-seeing-an-allow-user-pinning-pop-up-in-the-setup-policies-panel-after-i-turn-off-allow-user-pinning"></a>¿Por qué veo una ventana emergente "Permitir anclación de usuario" en el panel directivas de configuración después de desactivar "Permitir anclación de usuario?"
+### <a name="why-am-i-seeing-an-user-pinning-pop-up-in-the-setup-policies-panel-after-i-turn-off-user-pinning"></a>¿Por qué veo una ventana emergente "Ancla de usuario" en el panel de directivas de configuración después de desactivar "Ancla de usuario?"
 
 ![Captura de pantalla de la sección de directiva de configuración dentro de la interfaz de usuario con una ventana emergente que confirma que la fijación de usuario está activa.](media/appsetup4.png)
 

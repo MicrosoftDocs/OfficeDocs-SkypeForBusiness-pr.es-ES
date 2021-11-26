@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directiva de reunión en Teams para el uso compartido de contenido.
-ms.openlocfilehash: 2bd3a4274a147cad8548d0abf84a312ee7f6f259
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 6c713800aa0f95c7adfd6655455e6ff332f91595
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605626"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205320"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Configuración de la directiva de reunión. Uso compartido de contenido
 
@@ -35,9 +35,9 @@ En este artículo se describen las siguientes opciones de directiva de reunión 
 - [Modo de uso compartido de pantalla](#screen-sharing-mode)
 - [Permitir a un participante ceder o solicitar el control](#allow-a-participant-to-give-or-request-control)
 - [Permitir a un participante externo ceder o solicitar el control](#allow-an-external-participant-to-give-or-request-control)
-- [Permitir uso compartido en PowerPoint](#allow-powerpoint-sharing)
-- [Permitir pizarra](#allow-whiteboard)
-- [Permitir notas compartidas](#allow-shared-notes)
+- [PowerPoint compartido](#powerpoint-sharing)
+- [Whiteboard](#whiteboard)
+- [Notas compartidas](#shared-notes)
 
 ## <a name="screen-sharing-mode"></a>Modo de uso compartido de la pantalla
 
@@ -99,39 +99,39 @@ Que los usuarios federados puedan ceder el control a los usuarios externos mient
 
 Si desea usar PowerShell para controlar si los participantes externos pueden ceder el control o aceptar solicitudes de control, use el cmdlet AllowExternalParticipantGiveRequestControl.
 
-### <a name="allow-powerpoint-sharing"></a>Permitir uso compartido de PowerPoint
+### <a name="powerpoint-sharing"></a>PowerPoint compartido
 
 Esta es una directiva por usuario. Esta configuración controla si el usuario puede compartir diapositivas de PowerPoint en una reunión. Los usuarios externos, incluidos los usuarios anónimos, invitados y federados, heredan la directiva del organizador de la reunión.
 
 Veamos el ejemplo siguiente.
 
-|Usuario |Directiva de reuniones  |Permitir uso compartido de PowerPoint |
+|Usuario |Directiva de reuniones  |PowerPoint compartido |
 |---------|---------|---------|
 |Daniela   | Global   | Activado       |
 |Amanda   | Location1MeetingPolicy        | Desactivado   |
 
 Amanda no puede compartir los conjuntos de diapositivas de PowerPoint en las reuniones aunque sea la organizadora. Daniela puede compartir conjuntos de diapositivas de PowerPoint incluso si la reunión está organizada por Amanda. Amanda puede ver los conjuntos de diapositivas de PowerPoint compartidos por otros usuarios de la reunión, aunque no pueda compartir conjuntos de diapositivas de PowerPoint.
 
-## <a name="allow-whiteboard"></a>Permitir pizarra
+## <a name="whiteboard"></a>Whiteboard
 
 Esta configuración es una directiva por usuario. Esta configuración controla si un usuario puede compartir la pizarra en una reunión. Los usuarios externos, incluidos los usuarios anónimos, B2B y federados, heredan la directiva del organizador de la reunión.
 
 Veamos el ejemplo siguiente.
 
-|Usuario |Directiva de reuniones  |Permitir pizarra|
+|Usuario |Directiva de reuniones  |Whiteboard|
 |---------|---------|---------|
 |Daniela   | Global   | Activado       |
 |Amanda   | Location1MeetingPolicy        | Desactivado   |
 
 Amanda no puede compartir la pizarra en una reunión, aunque sea la organizadora de la reunión. Daniela puede compartir la pizarra incluso si la reunión está organizada por Amanda.  
 
-## <a name="allow-shared-notes"></a>Permitir notas compartidas
+## <a name="shared-notes"></a>Notas compartidas
 
 Esta configuración es una directiva por usuario. Esta configuración controla si un usuario puede crear y compartir notas en una reunión. Los usuarios externos, incluidos los usuarios anónimos, B2B y federados, heredan la directiva del organizador de la reunión. Actualmente, la pestaña **Notas de la reunión** solo es compatible con reuniones que tienen menos de 20 participantes.
 
 Veamos el ejemplo siguiente.
 
-|Usuario |Directiva de reuniones  |Permitir notas compartidas |
+|Usuario |Directiva de reuniones  |Notas compartidas |
 |---------|---------|---------|
 |Daniela   | Global   | Activado       |
 |Amanda   | Location1MeetingPolicy | Desactivado |

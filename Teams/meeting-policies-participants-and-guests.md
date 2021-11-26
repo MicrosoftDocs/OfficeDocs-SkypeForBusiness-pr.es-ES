@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo administrar la configuración de la directiva de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: aab9dda3f0a6bd5674cde2614fbbe0987292d6bf
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: 21a5737c51f33d288277f6a6ff5b1ecb27d8c86f
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124237"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205250"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -35,8 +35,8 @@ Esta configuración controla qué participantes de la reunión se quedan en la s
 - [Permitir que los usuarios anónimos inicien una reunión](#let-anonymous-people-start-a-meeting)
 - [Admitir automáticamente usuarios](#automatically-admit-people)
 - [Permitir que los usuarios de acceso telefónico omitan la sala de espera](#allow-dial-in-users-to-bypass-the-lobby)
-- [Activar subtítulos en directo](#enable-live-captions)
-- [Permitir el chat en las reuniones](#allow-chat-in-meetings)
+- [Subtítulos en directo](#live-captions)
+- [Chatear en reuniones](#chat-in-meetings)
 
 > [!NOTE]
 >Las opciones para unirse a una reunión pueden variar en función de la configuración de cada grupo de Teams y del método de conexión. Si el grupo tiene audioconferencia y la usa para conectarse, consulte [Audioconferencia](/microsoftteams/audio-conferencing-in-office-365). Si el grupo de Teams no tiene ninguna Audioconferencia, consulte [Unirse a una reunión en Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -76,7 +76,7 @@ Esta es una directiva por organizador. Esta opción controla si las personas que
 > [!NOTE]
 > Si un usuario de marcado se une a la reunión antes de que lo haga un usuario de la organización, el primero aguardará en la sala de espera hasta que el usuario de la organización se incorpore a la reunión con un cliente de Teams y le acepte. Si cambia la configuración predeterminada para cualquier usuario, se aplicará a todas las reuniones nuevas organizadas por ese usuario y las reuniones anteriores en las que el usuario no haya modificado las opciones de reunión.
 
-## <a name="enable-live-captions"></a>Activar subtítulos en directo
+## <a name="live-captions"></a>Subtítulos en directo
 
 Esta configuración es una directiva por usuario y se aplica durante una reunión. Esta configuración controla si la opción **Activar los subtítulos en directo** está disponible para que el usuario active y desactive los subtítulos en directo en las reuniones a las que asista.  
 
@@ -89,7 +89,7 @@ Esta configuración es una directiva por usuario y se aplica durante una reunió
 
 <a name="bkcontentsharing"> </a>
 
-## <a name="allow-chat-in-meetings"></a>Permitir el chat en las reuniones
+## <a name="chat-in-meetings"></a>Chatear en reuniones
 
 Esta configuración es una configuración por participante. Esta configuración controla si se permite el chat de reunión en la reunión del usuario.
 
