@@ -19,12 +19,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a4008aa9f69f525e3fbbeb6fd7596822d7ac9be8
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 37d7c3999986373e7ad72176cfc0182f09144e3a
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536901"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205420"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -79,7 +79,7 @@ En esta sección se explica cómo puede configurar y planear la grabación de re
 
 Puede usar el centro de administración de Microsoft Teams o PowerShell para establecer una directiva de reunión de Teams para controlar si se pueden grabar las reuniones del usuario.
 
-En el centro de administración de Microsoft Teams, active o desactive la opción **Permitir la grabación en la nube** en la directiva de reunión. Para más información, consulte [Configuración de la directiva de reunión para audio y vídeo](meetings-policies-recording-and-transcription.md#allow-cloud-recording).
+En el centro de administración de Microsoft Teams, habilite o deshabilite la opción **grabación en la nube** en la directiva de reunión. Para más información, consulte [Configuración de la directiva de reunión para audio y vídeo](meetings-policies-recording-and-transcription.md#allow-cloud-recording).
 
 Con PowerShell, configure la opción AllowCloudRecording en TeamsMeetingPolicy. Para obtener más información, consulte [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -431,7 +431,7 @@ Para más información sobre eDiscovery, consulte el artículo [Soluciones de eD
 
 ### <a name="retention-policies"></a>Directivas de retención
 
-Puede aplicar etiquetas de retención automáticas solo a los archivos de vídeo de grabación de reuniones de Teams a través de la propiedad ProgID. Para más información, consulte [Cómo aplicar automáticamente una etiqueta de retención a las grabaciones de reuniones de Teams](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+Puede aplicar etiquetas de retención automáticas solo a los archivos de vídeo de grabación de reuniones de Teams a través de la propiedad ProgID. Para más información, consulte [Cómo aplicar automáticamente una etiqueta de retención a las grabaciones de reuniones de Teams](/microsoft-365/compliance/apply-retention-labels-automatically#microsoft-teams-meeting-recordings).
 
 ### <a name="data-loss-prevention-dlp-policies"></a>Directivas para la prevención de pérdida de datos (DLP)
 

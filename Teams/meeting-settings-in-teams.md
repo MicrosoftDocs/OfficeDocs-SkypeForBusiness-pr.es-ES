@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
-ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
-ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
+ms.openlocfilehash: 4ff1118818ac22040e9bf9f8c44288991e24d8b0
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/24/2021
-ms.locfileid: "61153313"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205310"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de las reuniones en Microsoft Teams
 
@@ -59,7 +59,7 @@ Debe ser administrador de Teams para realizar estos cambios. Consulte [Usar los 
 
 ### <a name="using-powershell-to-configure-per-organizer-policy"></a>Usar PowerShell para configurar la directiva por organizador
 
-Los administradores ahora pueden controlar si determinados usuarios o grupos de usuarios pueden permitir que usuarios anónimos se unan a las reuniones que organicen. Esta nueva directiva por organizador se controla mediante el parámetro **-AllowAnonymousUsersToJoinMeeting** en [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps). Esto viene con la versión 2.6.0 y posteriores de PowerShell de Teams.
+Los administradores ahora pueden controlar si determinados usuarios o grupos de usuarios pueden permitir que usuarios anónimos se unan a las reuniones que organicen. Esta nueva directiva por organizador se controla mediante el parámetro **-AllowAnonymousUsersToJoinMeeting** en [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). Esto viene con la versión 2.6.0 y posteriores de PowerShell de Teams.
 
 Puede usar cualquiera de las dos directivas, es decir, para toda la organización o por organizador, para administrar la unión de usuarios anónimos. Se recomienda implementar la directiva por organizador. La configuración de directiva para toda la organización quedará en desuso en el futuro y la directiva por organizador será la única para controlar la unión de usuarios anónimos.
 
@@ -147,7 +147,7 @@ Si utiliza la Calidad de servicio (QoS) para priorizar el tráfico de la red, pu
 
     ![Captura de pantalla de la configuración de red para las reuniones en el centro de administración.](media/meeting-settings-network.png "Captura de pantalla de la configuración de la red para las reuniones de Teams en el centro de administración de Microsoft Teams")
 
-    - Para permitir que las marcas de DSCP se utilicen para QoS, Active **Insertar marcadores de calidad de servicio (QoS) para el tráfico de medios en tiempo real**. Sólo tienes la opción de usar marcadores o no; no puedes establecer marcadores personalizados para cada tipo de tráfico. Consulte [Seleccionar un método de implementación de QoS ](QoS-in-Teams.md#select-a-qos-implementation-method) para más información sobre los marcadores DSCP.
+    - Para permitir que las marcas DSCP se usen para QoS, active los **marcadores de calidad de servicio (QoS) para el tráfico multimedia en tiempo real**. Sólo tienes la opción de usar marcadores o no; no puedes establecer marcadores personalizados para cada tipo de tráfico. Consulte [Seleccionar un método de implementación de QoS ](QoS-in-Teams.md#select-a-qos-implementation-method) para más información sobre los marcadores DSCP.
 
         > [!IMPORTANT]
         > Tenga en cuenta que la habilitación de QoS solo se realiza en los puntos de conexión para etiquetar paquetes que salen del cliente. Se recomienda aplicar reglas de QoS coincidentes en todos los dispositivos de red internos para el tráfico entrante.
