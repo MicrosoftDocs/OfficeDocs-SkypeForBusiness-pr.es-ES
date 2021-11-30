@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo administrar la configuración de la directiva de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: 21a5737c51f33d288277f6a6ff5b1ecb27d8c86f
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: ebbb13d4d0430aee6fadba10b825a6c0cb8ec3b0
+ms.sourcegitcommit: 3e724a57e946550f2f61002c8e2de1ec20c9755a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205250"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "61234308"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -68,6 +68,9 @@ Esta es una directiva por organizador. Esta configuración controla si los usuar
 |**Usuarios en mi organización**    |Los usuarios autenticados de la organización se unen a la reunión directamente sin esperar en la sala de espera.  Los usuarios de organizaciones de confianza, usuarios invitados y usuarios anónimos esperan en la sala de espera.          |
 |**Solo organizador**    |Solo los organizadores de la reunión se pueden unir a la reunión directamente sin tener que esperar en la sala de espera. Todos los demás, incluidos los usuarios autenticados de la organización, los usuarios invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la Teams opciones de reunión de cliente, aparece como "Solo yo".          |
 |**Solo usuarios invitados**    |Solo los usuarios invitados y los organizadores de la reunión pueden unirse a la reunión directamente sin esperar en la sala de espera. Todos los demás, incluidos los usuarios autenticados de la organización, los usuarios invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la Teams opciones de reunión del cliente, aparece como "Personas a las que invito". Los usuarios agregados como parte de un grupo de distribución tendrán que pasar por la sala de espera.      |
+
+ > [!NOTE]
+> Las organizaciones de confianza son dominios con los que permite las comunicaciones federadas en Teams. Si habilita **Permitir todos los** dominios externos para el acceso externo en el centro de administración de Teams, cualquier usuario autenticado dentro de cualquier Teams organización será de confianza. Si elige especificar dominios externos permitidos y bloquear todos los demás, los dominios permitidos se convertirán en organizaciones de confianza. Cualquier dominio bloqueado se considera que no es una organización de confianza.
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de espera
 
