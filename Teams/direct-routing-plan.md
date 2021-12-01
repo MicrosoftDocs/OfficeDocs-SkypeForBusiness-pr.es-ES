@@ -18,19 +18,19 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre Teléfono Microsoft system direct routing le permite conectar un controlador de borde de sesión (SBC) proporcionado por el cliente compatible con Teléfono Microsoft system.
-ms.openlocfilehash: d2069b7811b570bfa711e6d6c641c1ca9340c7bc
-ms.sourcegitcommit: d67617d5042d25ed0bf36c66c3a0605c3d4d233e
+ms.openlocfilehash: 7d70fe3e96c7d06b9457e5d943dc608efc571306
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60224843"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257381"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
 > [!Tip]
 > Vea la siguiente sesión para obtener información sobre las ventajas de Enrutamiento [directo,](https://aka.ms/teams-direct-routing) cómo planearlo y cómo implementarlo: Enrutamiento directo en Microsoft Teams
 
-Teléfono Microsoft System Direct Routing le permite conectar un controlador de borde de sesión (SBC) compatible y proporcionado por el cliente a Teléfono Microsoft Sistema.  Con esta capacidad, por ejemplo, puede configurar la conectividad de red telefónica conmutada (RTC) local con un cliente Microsoft Teams, como se muestra en el siguiente diagrama: 
+Teléfono Microsoft System Direct Routing le permite conectar un controlador de borde de sesión (SBC) compatible y proporcionado por el cliente a Teléfono Microsoft System.  Con esta capacidad, por ejemplo, puede configurar la conectividad de red telefónica conmutada (RTC) local con un cliente Microsoft Teams, como se muestra en el siguiente diagrama: 
 
 ![Diagrama que muestra la configuración de conectividad RTC local.](media/PlanDirectRouting1-PSTNwithTeams.png "Configuración de conectividad RTC local con Microsoft Teams cliente")
 
@@ -92,15 +92,15 @@ Direcciones IP de firewall y puertos para Microsoft Teams multimedia |Para obten
 
 Los usuarios de Enrutamiento directo deben tener asignadas las siguientes licencias Microsoft 365 o Office 365: 
 
-- Teléfono Microsoft Sistema. 
+- Teléfono Microsoft sistema. 
 - Microsoft Teams + Skype Empresarial Plan 2, si se incluye en las licencias.
 - Audioconferencia de Microsoft (lea las notas y el párrafo siguiente para ver ejemplos específicos sobre cuándo se requiere la licencia).
 
 > [!NOTE]
-> Skype Empresarial El plan no debe quitarse de ningún contrato de licencia en el que se incluya. 
+> Skype Empresarial plan no se debe quitar de ningún contrato de licencia donde se incluya. 
 > 
 > [!IMPORTANT]
-> GCC Los usuarios altos y doD deben deshabilitar cualquier licencia de audioconferencia incluida en G5 y esperar a habilitar cualquier conferencia de audioconferencia hasta que el enrutamiento directo se haya configurado por completo. Los usuarios deben tener configurados los números de teléfono de acceso telefónico local y un teclado de marcado en funcionamiento antes de habilitar licencias de conferencias de audio. Vea [Conferencias de audio con enrutamiento directo para GCC alta](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) y doD para obtener más información.
+> GCC high y doD los usuarios deben deshabilitar cualquier licencia de audioconferencia incluida en G5 y esperar a habilitar cualquier conferencia de audioconferencia hasta que el enrutamiento directo se haya configurado por completo. Los usuarios deben tener configurados los números de teléfono de acceso telefónico local y un teclado de marcado en funcionamiento antes de habilitar licencias de conferencias de audio. Vea [Conferencias de audio con enrutamiento directo para GCC alta](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) y doD para obtener más información.
 
 
 > [!IMPORTANT]
@@ -121,7 +121,7 @@ Además, debe asegurarse de lo siguiente:
 - CsOnlineVoiceRoutingPolicy se asigna al usuario. 
 - Permitir llamadas privadas está habilitado en el nivel de inquilino para Microsoft Teams. 
 
-Enrutamiento directo también admite usuarios con licencia para Microsoft Calling Plan. Teléfono Microsoft Sistema con plan de llamadas puede enrutar algunas llamadas mediante la interfaz de enrutamiento directo. Sin embargo, los números de teléfono de los usuarios deben adquirirse en línea o portados a Microsoft.  
+Enrutamiento directo también admite usuarios con licencia para Microsoft Calling Plan. Teléfono Microsoft sistema con plan de llamadas puede enrutar algunas llamadas mediante la interfaz enrutamiento directo. Sin embargo, los números de teléfono de los usuarios deben adquirirse en línea o portados a Microsoft.  
 
 Combinar la conectividad de plan de llamadas y enrutamiento directo para el mismo usuario es opcional, pero podría ser útil (por ejemplo, cuando se asigna al usuario un plan de llamadas de Microsoft, pero quiere enrutar algunas llamadas con el SBC). Uno de los escenarios más comunes son las llamadas a PBX de terceros.  Con PBX de terceros, todas las llamadas, excepto las llamadas a los teléfonos conectados a los PBX, se enruta con el Plan de llamadas de Microsoft, pero las llamadas a los teléfonos conectados a PBX de terceros van al SBC y, por lo tanto, permanecen dentro de la red empresarial y no de la RTC. 
 
@@ -235,7 +235,7 @@ Los FQDN (sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com y sip3.pstnhub.m
 - 52.112.0.0/14
 - 52.120.0.0/14
 
-Debe abrir puertos para todos estos intervalos de direcciones IP en el firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.  Si el firewall admite nombres DNS, el FQDN **sip-all.pstnhub.microsoft.com** se resuelve en todas estas subredes IP. 
+Debe abrir puertos para todos estos intervalos de direcciones IP en el firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.
 
 ### <a name="office-gcc-dod-environment"></a>Office GCC doD
 
@@ -259,7 +259,7 @@ El fqdn sip.pstnhub.gov.teams.microsoft.us se resolverá en una dirección IP de
 
 - 52.127.88.0/21
 
-Debe abrir puertos para todas estas direcciones IP en el firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización. Si el firewall admite nombres DNS, el FQDN **sip-all.pstnhub.gov.teams.microsoft.us** se resuelve en todas estas direcciones IP. Este FQDN también se puede usar como FQDN federado para la clasificación de llamadas entrantes.
+Debe abrir puertos para todas estas direcciones IP en el firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.
 
 ## <a name="sip-signaling-ports"></a>Señalización SIP: Puertos
 
@@ -299,7 +299,7 @@ El tráfico multimedia fluye hacia y desde un servicio independiente en Microsof
 - 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254).
 - 52.120.0.0/14 (direcciones IP de 52.120.0.1 a 52.123.255.254).
 
-### <a name="office-365-dod-environment"></a>Office 365 Entorno doD
+### <a name="office-365-dod-environment"></a>Office 365 doD
 
 - 52.127.64.0/21
 

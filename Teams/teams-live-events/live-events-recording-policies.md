@@ -17,12 +17,12 @@ description: Obtenga información sobre las directivas de grabación de eventos 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9dbed75a7f9c9655cc52bb798eefb0038cc5fe4a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 80489f699004ed7dbcb8d7493c32a7bc26e3e25e
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844933"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257350"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Directivas de grabación de eventos en directo en Microsoft Teams
 
@@ -61,7 +61,7 @@ Como parte de la directiva de difusión, hay una configuración que puede activa
 | Grabación disponible para los asistentes | Seleccionado     | DVR está disponible y el Azure Media Services (AMS) se almacena durante 180 días | Los asistentes pueden acceder al evento y verlo                     |                              |
 |                                                  | No seleccionado | DVR está disponible y el activo de AMS se almacena durante 180 días | Los asistentes no án acceso al evento una vez que se ha terminado |                              |
 ||Deshabilitado (no seleccionado)|DVR está disponible y el activo de AMS se elimina después del evento|Los asistentes no án acceso al evento una vez que se ha terminado||
-| Grabación disponible para productores y presentadores | Seleccionado     |                                                           |                                                             | Se crea y almacena un MP4 |
+| Grabación disponible para productores y presentadores | Seleccionado     |                                                           |                                                             | Se crea un MP4 y se almacena durante 180 días |
 |                                                  | No seleccionado |                                                           |                                                             | No se crea ningún archivo           |
 
 ### <a name="related-topics"></a>Temas relacionados
