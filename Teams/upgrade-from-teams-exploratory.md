@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f40ddcfdd9e9491fd5d4fc7f82c77d5e5dca66f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
+ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636994"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61216676"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Actualizar los usuarios de la versión de prueba de Teams Exploratory
 
@@ -50,7 +50,7 @@ En función de las suscripciones que tenga actualmente su organización, hay tre
 
 - **Actualice una suscripción de Microsoft 365 existente.** Use esta opción si su organización tiene suscripciones a otros productos de Office que no incluyen Teams. Para obtener más información, vea <a href="/microsoft-365/commerce/subscriptions/upgrade-to-different-plan?view=o365-worldwide" target="_blank">Actualizar a un plan de negocio diferente</a>. Para ver los usuarios activos de una suscripción existente, vaya a **Usuarios >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>usuarios activos</b></a> en el Centro de administración de Microsoft 365.
 
-- **Agregar usuarios a una suscripción de Microsoft 365 existente.** Use esta opción si su organización no tiene suficientes pagos. Licencias de Teams para cubrir los usuarios de Teams Exploratory. Para obtener más información, vea <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">Comprar o quitar licencias</a>. Para agregar usuarios a una suscripción existente que ya tiene suficientes licencias disponibles, consulte <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">Mover usuarios a una suscripción diferente</a>. Para ver los usuarios activos de una suscripción existente, vaya a **Usuarios >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>usuarios activos</b></a> en el Centro de administración de Microsoft 365.
+- **Agregar usuarios a una suscripción de Microsoft 365 existente.** Utilice esta opción si su organización no tiene suficientes licencias de pago de Teams para incluir a los usuarios de Teams Exploratory. Para obtener más información, vea <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">Comprar o quitar licencias</a>. Para agregar usuarios a una suscripción existente que ya tiene suficientes licencias disponibles, consulte <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">Mover usuarios a una suscripción diferente</a>. Para ver los usuarios activos de una suscripción existente, vaya a **Usuarios >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>usuarios activos</b></a> en el Centro de administración de Microsoft 365.
 
 - **Comprar una nueva suscripción a Microsoft 365** Use esta opción si su organización no tiene ninguna suscripción existente a los productos de Office o si su organización quiere comprar una suscripción diferente de la existente para cubrir a los usuarios de Teams Exploratory.  Para obtener más información, vea <a href="/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide%22%20\#buy-a-different-subscription" target="_blank">Comprar una suscripción de Microsoft 365 para empresas distinta</a>.
 
