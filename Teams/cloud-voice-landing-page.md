@@ -24,22 +24,22 @@ search.appverid: MET150
 description: Obtenga más información sobre las Microsoft Teams de voz en la nube y las decisiones de implementación que tome para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dba035c7bcbc6f94e8c4e7573f7dc6c4bc0e06c3
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: f24e7934f3f9fe1be463c47e73933a6965d56cc9
+ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824689"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "61267773"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planear su Teams de voz 
 
 Este artículo le ayuda a decidir qué solución de voz de Microsoft es la adecuada para su organización. Una vez que lo haya decidido, el artículo proporciona una hoja de ruta al contenido que le permitirá implementar la solución elegida.
 
-Es posible que desee la solución más &mdash; sencilla Sistema telefónico con Plan de llamadas. Esta es la solución todo en la nube de Microsoft que proporciona funcionalidades de Exchange de sucursal privada (PBX) y llamadas a la red telefónica conmutada (RTC), como se muestra en el siguiente diagrama. Con esta solución, Microsoft es su operador RTC.
+Es posible que desee la solución más &mdash; sencilla Teams Teléfono con Plan de llamadas. Esta es la solución todo en la nube de Microsoft que proporciona funcionalidades de Exchange de sucursal privada (PBX) y llamadas a la red telefónica conmutada (RTC), como se muestra en el siguiente diagrama. Con esta solución, Microsoft es su operador RTC.
 
-![El diagrama 1 muestra Sistema telefónico con plan de llamadas.](media/voice-solutions-simple.png)
+![El diagrama 1 muestra Teams Teléfono con plan de llamadas.](media/voice-solutions-simple.png)
 
-Si responde sí a lo siguiente, Sistema telefónico con Plan de llamadas es la solución adecuada para usted:
+Si responde sí a lo siguiente, Teams Teléfono con Plan de llamadas es la solución adecuada para usted:
 
 - Plan de llamadas está disponible en su región.
 - No es necesario conservar el operador RTC actual.
@@ -47,21 +47,21 @@ Si responde sí a lo siguiente, Sistema telefónico con Plan de llamadas es la s
 
 Sin embargo, es posible que su situación sea más compleja. Por ejemplo, es posible que tenga oficinas en ubicaciones en las que el Plan de llamadas no esté disponible. También es posible que necesite una solución combinada compatible con una implementación compleja y multinacionales, con requisitos diferentes para ubicaciones geográficas diferentes. Microsoft admite una combinación de soluciones: 
 
-- Sistema telefónico con plan de llamadas
-- Sistema telefónico con su propio operador RTC con operador Conectar
-- Sistema telefónico con su propio operador RTC con enrutamiento directo
-- Una solución combinada que usa Sistema telefónico con plan de llamadas, Sistema telefónico con Conectar operador y/o Sistema telefónico con enrutamiento directo
+- Teams Teléfono con plan de llamadas
+- Teams Teléfono con su propio operador RTC con operador Conectar
+- Teams Teléfono con su propio operador RTC con enrutamiento directo
+- Una solución combinada que usa Teams Teléfono con plan de llamadas, Teams Teléfono con operador Conectar y/o Teams Teléfono con enrutamiento directo
 
 
 ## <a name="what-do-you-need-to-read"></a>¿Qué necesita leer?
 
-**Necesario para todos.** Algunas de las secciones de este artículo pertenecen a todas las organizaciones. Por ejemplo, todos los usuarios deben leer Sistema telefónico y comprender las opciones para conectarse a la red telefónica conmutada (RTC). 
+**Necesario para todos.** Algunas de las secciones de este artículo pertenecen a todas las organizaciones. Por ejemplo, todos los usuarios deben leer Teams Teléfono y comprender las opciones para conectarse a la red telefónica conmutada (RTC). 
 
 
 | Obligatorio para todos | Descripción |
 | :------------|:-------|
-| [**Sistema telefónico**](#phone-system) | Tecnología de Microsoft para habilitar el control de llamadas y las capacidades de Exchange de sucursales privadas (PBX) en la nube Microsoft 365 con Microsoft Teams. |
-| [**Opciones de conectividad de red telefónica conmutada (RTC)**](#public-switched-telephone-network-connectivity-options) | Una opción entre usar Microsoft como operador de telefonía o conectar su propio operador de telefonía a Microsoft Teams mediante operador Conectar o enrutamiento directo. Combinadas Sistema telefónico, las opciones de conectividad RTC permiten a los usuarios realizar llamadas telefónicas en todo el mundo.|
+| [**Teams Teléfono**](#teams-phone) | Tecnología de Microsoft para habilitar el control de llamadas y las capacidades de Exchange de sucursales privadas (PBX) en la nube Microsoft 365 con Microsoft Teams. |
+| [**Opciones de conectividad de red telefónica conmutada (RTC)**](#public-switched-telephone-network-connectivity-options) | Una opción entre usar Microsoft como operador de telefonía o conectar su propio operador de telefonía a Microsoft Teams mediante operador Conectar o enrutamiento directo. Combinadas Teams Teléfono, las opciones de conectividad RTC permiten a los usuarios realizar llamadas telefónicas en todo el mundo.|
 
 **Según sus requisitos.** Algunas de las secciones de este artículo y artículos relacionados son pertinentes en función de la implementación y los requisitos existentes. Por ejemplo, Location-Based enrutamiento directo solo es necesario para los clientes de Enrutamiento directo en ubicaciones geográficas que no permiten la omisión de peaje.
 
@@ -79,18 +79,18 @@ Considere cuál de estas configuraciones adicionales puede necesitar:
 | [**Migrar la solución de voz existente**](#migrate-your-existing-voice-solution-to-teams) | Qué debe pensar al migrar la solución de voz a Teams.  Lea esta sección si va a migrar desde una solución de voz existente a Teams. 
 
 > [!Important]
-> Este artículo se centra en las soluciones de voz con Microsoft Teams. Aunque las soluciones con Skype Empresarial Online siguen estando disponibles, es importante comprender que Skype Empresarial Online se retirará el 31 de julio de 2021.  Después de esa fecha, el Skype Empresarial online ya no será accesible. Además, la conectividad RTC entre su entorno local ya sea a través de Skype Empresarial Server o Cloud Connector Edition y &mdash; Skype Empresarial Online ya no será &mdash; compatible. En este artículo se Teams soluciones de voz y cómo puede conectar su red de telefonía local, si es necesario, a Teams mediante enrutamiento directo u operador Conectar.
+> Este artículo se centra en las soluciones de voz con Microsoft Teams. Es importante comprender que Skype Empresarial Online se retirará el 31 de julio de 2021. Después de esa fecha, el Skype Empresarial online ya no será accesible. Además, la conectividad RTC entre su entorno local ya sea a través de Skype Empresarial Server o Cloud Connector Edition y &mdash; Skype Empresarial Online ya no será &mdash; compatible. En este artículo se Teams soluciones de voz y cómo puede conectar su red de telefonía local, si es necesario, a Teams mediante Operador Conectar o Enrutamiento directo.
 
 
-## <a name="phone-system"></a>Sistema telefónico
+## <a name="teams-phone"></a>Teams Teléfono
 
-Sistema telefónico es la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de Exchange sucursales privadas (PBX) en la nube Microsoft 365 con Microsoft Teams.
+Teams Teléfono es la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de Exchange de sucursales privadas (PBX) en la nube Microsoft 365 con Microsoft Teams.
 
-Sistema telefónico funciona con Teams o Skype Empresarial clientes y dispositivos certificados. Sistema telefónico permite reemplazar el sistema PBX existente con un conjunto de características directamente entregadas desde Microsoft 365. 
+Teams Teléfono funciona con Teams y dispositivos certificados. Teams Teléfono permite reemplazar el sistema PBX existente con un conjunto de características directamente entregado desde Microsoft 365. 
 
-Las llamadas entre usuarios de su organización se controlan internamente dentro de Sistema telefónico y nunca van a la Red telefónica conmutada (RTC). Esto se aplica a las llamadas entre usuarios de su organización ubicados en diferentes áreas geográficas, lo que elimina los costos de larga distancia en estas llamadas internas.
+Las llamadas entre usuarios de su organización se administran internamente en Teams Teléfono y nunca van a la red telefónica conmutada (RTC). Esto se aplica a las llamadas entre usuarios de su organización ubicados en diferentes áreas geográficas, lo que elimina los costos de larga distancia en estas llamadas internas.
 
-En este artículo se presentan las Sistema telefónico características y funcionalidades clave y las decisiones de implementación que debe tener en cuenta:
+En este artículo se presentan las Teams Teléfono características y funcionalidades clave y las decisiones de implementación que debe tener en cuenta:
 
 - [Operadores automáticos y las colas de llamadas](#auto-attendants-and-call-queues)
 - [Correo de voz en la nube](#cloud-voicemail)
@@ -98,10 +98,10 @@ En este artículo se presentan las Sistema telefónico características y funcio
 
 ![El diagrama 3 muestra Teléfono con operadores automáticos y consultas de llamadas, correo de voz en la nube e identidad de llamadas.](media/phone-system-contains.png)
 
-Para obtener información sobre todas Sistema telefónico características y cómo configurar Sistema telefónico, vea los siguientes artículos:
+Para obtener información sobre todas Teams Teléfono características y cómo configurar Teams Teléfono, vea los siguientes artículos:
 
-- [Esto es lo obtiene con el Sistema telefónico](here-s-what-you-get-with-phone-system.md)
-- [Configurar Sistema telefónico en su organización](setting-up-your-phone-system.md)<br>
+- [Esto es lo que obtienes con Teams Teléfono](here-s-what-you-get-with-phone-system.md)
+- [Configurar Teams Teléfono en su organización](setting-up-your-phone-system.md)<br>
   Describe cómo comprar y asignar Sistema telefónico, administrar números de teléfono y configurar créditos de comunicación para números gratuitos. 
 
 Para obtener información sobre la administración de dispositivos compatibles, vea Administrar los dispositivos en [Microsoft Teams](devices/device-management.md) y [Teams Marketplace.](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
@@ -125,7 +125,7 @@ Correo de voz en la nube, con tecnología de los servicios de Correo de voz de A
 
 El correo de voz en la nube cuenta con la opción de transcripción del correo de voz, la cual está activada de forma predeterminada para todos los usuarios de la organización. Es posible que las necesidades empresariales requieran deshabilitar la transcripción del correo de voz para usuarios específicos o para todos los usuarios de la organización.
 
-Para los usuarios solo en línea, Correo de voz en la nube se configura y aprovisiona automáticamente para los usuarios después de que se les asigne una Sistema telefónico licencia. Para Sistema telefónico usuarios con un buzón Exchange, deberá realizar pasos de configuración adicionales. 
+Correo de voz en la nube se configura y aprovisiona automáticamente para Teams usuarios.  
 
 Para obtener más información sobre Correo de voz en la nube y su configuración, vea los siguientes artículos:
 
@@ -139,17 +139,17 @@ De forma predeterminada, todas las llamadas salientes usan el número de teléfo
 
 ## <a name="public-switched-telephone-network-connectivity-options"></a>Opciones de conectividad de red telefónica conmutada pública
 
-Sistema telefónico proporciona funcionalidades de PBX completas para su organización. Sin embargo, para permitir a los usuarios realizar llamadas fuera de su organización, debe conectarse Sistema telefónico a la red telefónica conmutada (RTC). Para conectar Sistema telefónico a la RTC, puede elegir una de las siguientes opciones:
+Teams Teléfono proporciona funcionalidades de PBX completas para su organización. Sin embargo, para permitir a los usuarios realizar llamadas fuera de su organización, debe conectarse Teams Teléfono a la red telefónica conmutada (RTC). Para conectar Teams Teléfono a la RTC, puede elegir una de las siguientes opciones:
 
-- [**Sistema telefónico con Plan de llamadas**](pstn-connectivity.md#phone-system-with-calling-plan). Una solución todo en la nube con Microsoft como operador rtc.
+- [**Teams Teléfono con Plan de llamadas**](pstn-connectivity.md#teams-phone-with-calling-plan). Una solución todo en la nube con Microsoft como operador rtc.
 
-- [**Sistema telefónico con su propio operador RTC mediante operador Conectar**](operator-connect-plan.md). Con Operador Conectar, si el operador existente es un participante en el programa operador de Microsoft Conectar, pueden administrar el servicio para llevar llamadas RTC a Teams. Para obtener información sobre las ventajas y requisitos del operador Conectar, vea [Plan Operador Conectar](operator-connect-plan.md).
+- [**Teams Teléfono con su propio operador RTC mediante operador Conectar**](operator-connect-plan.md). Con Operador Conectar, si el operador existente es un participante en el programa operador de Microsoft Conectar, pueden administrar el servicio para llevar llamadas RTC a Teams. Para obtener información sobre las ventajas y requisitos del operador Conectar, vea [Plan Operador Conectar](operator-connect-plan.md).
 
-- [**Sistema telefónico con su propio operador RTC**](pstn-connectivity.md#phone-system-with-direct-routing) mediante enrutamiento directo para conectar su entorno local a Teams.
+- [**Teams Teléfono con su propio operador RTC mediante enrutamiento**](pstn-connectivity.md#teams-phone-with-direct-routing) directo para conectar su entorno local a Teams.
 
 También puede elegir una combinación de opciones, que le permite diseñar una solución para un entorno complejo o administrar una migración de varios pasos (más información sobre la migración más adelante).
 
-La mayoría Sistema telefónico características son las mismas, independientemente de la opción de conectividad RTC que elija. Sin embargo, hay algunas diferencias en la funcionalidad que afectan a la forma en que se configuran determinadas Sistema telefónico, como el enrutamiento de llamadas y las llamadas de emergencia. Para obtener más información sobre las opciones de conectividad RTC y estas consideraciones de configuración, vea [Opciones de conectividad RTC.](pstn-connectivity.md)
+La Teams Teléfono características son las mismas, independientemente de la opción de conectividad RTC que elija. Sin embargo, hay algunas diferencias en la funcionalidad que afectan a la forma en que configura determinadas Teams Teléfono, como el enrutamiento de llamadas y las llamadas de emergencia. Para obtener más información sobre las opciones de conectividad RTC y estas consideraciones de configuración, vea [Opciones de conectividad RTC.](pstn-connectivity.md)
 
 
 ## <a name="migrate-your-existing-voice-solution-to-teams"></a>Migrar la solución de voz existente a Teams
@@ -157,7 +157,7 @@ La mayoría Sistema telefónico características son las mismas, independienteme
 > [!NOTE]
 > Para obtener instrucciones sobre la planeación de una solución de voz Teams como parte de su plan general para actualizar Teams a Teams desde Skype Empresarial Server, vea Consideraciones rtc para actualizar Teams a Skype Empresarial [local.](upgrade-to-teams-on-prem-pstn-considerations.md)
 
-Para una organización que está actualizando a Teams, el objetivo final es mover todos los usuarios al modo TeamsOnly. El Sistema telefónico con Teams solo es compatible cuando el usuario está en modo TeamsOnly. Si necesita información básica sobre cómo actualizar a Teams, empiece aquí:
+Para una organización que está actualizando a Teams, el objetivo final es mover todos los usuarios al modo TeamsOnly. El Teams Teléfono solo es compatible cuando el usuario está en modo TeamsOnly. Si necesita información básica sobre cómo actualizar a Teams, empiece aquí:
 
 - [Introducción a su actualización de Microsoft Teams](upgrade-start-here.md)
 - [Acerca del marco de actualización](upgrade-framework.md)
@@ -181,7 +181,7 @@ Para obtener más información sobre cómo implementar la migración de voz para
   El caso práctico describe cómo una corporación multinacional ficticia, Contoso, implementó una solución de voz Teams para su organización. Contiene los siguientes artículos:
 
   - [Teams plan de actualización](voice-case-study-migration-plan.md)
-  - [Sistema telefónico y las opciones de conectividad RTC](voice-case-study-phone-system.md)
+  - [Teams Teléfono y las opciones de conectividad RTC](voice-case-study-phone-system.md)
   - [Implementación de enrutamiento basado en ubicación](voice-case-study-location-based-routing.md)
   - [Llamadas de emergencia](voice-case-study-emergency-calling.md)
   - [Operadores automáticos y las colas de llamadas](voice-case-study-call-queues.md)
