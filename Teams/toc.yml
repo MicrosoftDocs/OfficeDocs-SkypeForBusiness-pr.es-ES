@@ -849,17 +849,17 @@ items:
                 href: rooms/xml-config-file.md
               - name: Usar la herramienta de recuperación
                 href: rooms/recovery-tool.md
-  - name: 'Voz: Sistema telefónico de telefonía y conectividad RTC'
+  - name: 'Voz: teléfono de Teams y conectividad RTC'
     items:
       - name: Planear la solución de voz de Teams
         href: cloud-voice-landing-page.md
-      - name: Sistema telefónico
+      - name: Teléfono Teams
         items:
-          - name: ¿Qué es el Sistema telefónico?
+          - name: ¿Qué es el teléfono Teams?
             href: what-is-phone-system-in-office-365.md
-          - name: Esto es lo que obtiene con el Sistema telefónico
+          - name: Esto es lo que obtiene con Teléfono Teams
             href: here-s-what-you-get-with-phone-system.md
-          - name: Configurar el Sistema telefónico
+          - name: Configurar Teléfono Teams
             href: setting-up-your-phone-system.md
           - name: Configurar teléfonos de área común
             href: set-up-common-area-phones.md
@@ -1093,7 +1093,7 @@ items:
             href: voice-case-study-overview.md
           - name: Plan de actualización de Microsoft Teams
             href: voice-case-study-migration-plan.md
-          - name: Sistema telefónico
+          - name: Teléfono Teams
             href: voice-case-study-phone-system.md
           - name: Enrutamiento basado en la ubicación
             href: voice-case-study-location-based-routing.md
@@ -1620,6 +1620,10 @@ items:
             href: teams-add-on-licensing/pri-message.md
           - name: 'Sistema telefónico de Microsoft 365: Licencia de usuario virtual'
             href: teams-add-on-licensing/virtual-user.md
+          - name: Introducción a Teams Essentials
+            href: get-started-with-teams-essentials.md
+          - name: Conectar Teams Essentials (identidad de AAD) al correo electrónico
+            href: connect-teams-essentials-to-email.md
       - name: Interoperabilidad con Microsoft 365 y Office 365
         items:
           - name: Grupos de Microsoft 365 y Teams
