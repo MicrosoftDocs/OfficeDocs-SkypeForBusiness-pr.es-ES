@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d607a2ea0469ce3b88411bfe17ca8d54b76c7cc0
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: 97f45330404f6a42c4293e4205e82dc7188d4b9e
+ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055441"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "61284738"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 
@@ -70,7 +70,7 @@ Las aprobaciones creadas a partir de una plantilla siguen almacenando datos en C
 >[!Note]
 >Si elimina la plantilla Formulario en el sitio de Microsoft Forms, interrumpirá la plantilla de aprobación y los usuarios no podrán iniciar la solicitud. Los usuarios recibirán un error "CDB TableNotFound" al intentar abrir una plantilla de aprobación que se ha eliminado en Microsoft Forms.
 
-Las plantillas de aprobación se almacenan en Datos de Storage (SDS), que es una plataforma de almacenamiento compatible que solo se usa internamente dentro de Microsoft. Las plantillas de ámbito de la organización se almacenan en "fragmento de espacio empresarial" de SDS y las plantillas de ámbito de equipo se almacenan en "fragmentos de grupo" de SDS. Esto significa que las plantillas de ámbito de organización comparten la misma duración del espacio empresarial y las plantillas de ámbito de grupo comparten la misma duración del equipo. Por lo tanto, la eliminación permanente del equipo elimina las plantillas relacionadas.
+Las plantillas de ámbito de organización comparten la misma duración del inquilino y las plantillas de ámbito de grupo comparten la misma duración del equipo. Por lo tanto, la eliminación permanente del equipo elimina las plantillas relacionadas.
 
 ## <a name="approvals-teams-app-permissions"></a>Permisos de aplicación de Approvals Teams
 
@@ -120,7 +120,7 @@ La aplicación Aprobaciones está disponible de forma predeterminada. Puede desh
 
   5. Seleccione el botón de alternancia para deshabilitar la aplicación para su organización.
 
-     ![muestra los detalles de la aplicación Aprobaciones.](media/approvals-details-new.png)
+     :::image type="content" alt-text="muestra los detalles de la aplicación Aprobaciones." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
 ## <a name="retention-policy"></a>Directiva de retención
 

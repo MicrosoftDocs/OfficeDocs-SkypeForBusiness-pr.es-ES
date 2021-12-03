@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d113446971375ace51335a6654c8599f8d2c35b
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: 682f7bcd4e90e96534e954cd0e22c6f5952db08b
+ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257556"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "61284798"
 ---
 # <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>Conectar Microsoft Teams Essentials (AAD identidad) a un sistema de correo electrónico existente con calendario
 
@@ -285,7 +285,7 @@ Para agregar varios usuarios al mismo tiempo, siga los pasos recomendados en Agr
 
 *Deshabilitar Outlook en la Web para buzones*
 
-1. Siga las instrucciones de [Deshabilitar Outlook en la Web para un](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app&preserve-view=true) buzón en Exchange Online para deshabilitar Outlook en la Web buzones.
+1. Siga las instrucciones de [Habilitar o deshabilitar Outlook en la Web para](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app) un buzón en Exchange Online para deshabilitar Outlook en la Web para buzones.
 
 2. Puede deshabilitar el Outlook en la Web el Centro **Exchange de administración o** **PowerShell.** Puede usar el siguiente ejemplo de PowerShell para deshabilitar Outlook en la Web todos los buzones:
 
