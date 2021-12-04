@@ -15,17 +15,20 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar y configurar la Salas de Microsoft Teams y sus periféricos.
-ms.openlocfilehash: 0acd5449c97f1a42f1a1c015b74df8f7cdaf3e4c
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 687c507d94a7397fef0386ef3ddcc65ac7a7735b
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011564"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306315"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar una consola de sala de Microsoft Teams
 
 En este artículo se describe cómo configurar la Salas de Microsoft Teams y sus periféricos.
-  
+
+> [!NOTE]
+> Los pasos siguientes solo se aplican a Surface Pro dispositivos Salas de Teams basados en datos. Para otros dispositivos, consulte al Fabricante de equipos originales (OEM) para obtener soporte técnico.
+
 Solo debe realizar estos pasos si las cuentas Microsoft Teams o Skype Empresarial y Exchange ya se han creado y probado como se describe en Implementar [Salas de Microsoft Teams](rooms-deploy.md). Necesitará el hardware y el software que se describen [en Salas de Microsoft Teams requisitos.](requirements.md) Este tema incluye las secciones siguientes:
   
 - [Preparar los medios de instalación](console.md#Prep_Media)
@@ -35,7 +38,7 @@ Solo debe realizar estos pasos si las cuentas Microsoft Teams o Skype Empresaria
 - [Salas de Microsoft Teams lista de comprobación de implementación](console.md#Checklist)
 
 > [!NOTE]
-> Salas de Microsoft Teams solo funcionará en un entorno de Microsoft Teams o Skype Empresarial configurado correctamente en el que las cuentas de dispositivo estén configuradas correctamente como se describe en Implementar [Salas de Microsoft Teams](rooms-deploy.md).
+> Los pasos siguientes solo se aplican a Surface Pro dispositivos Salas de Teams basados en datos. Para otros dispositivos, consulte al OEM para obtener soporte técnico.
   
 ## <a name="prepare-the-installation-media"></a>Preparar los medios de instalación
 <a name="Prep_Media"> </a>

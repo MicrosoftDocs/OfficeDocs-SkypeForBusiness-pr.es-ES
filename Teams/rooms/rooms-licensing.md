@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información sobre las licencias disponibles para diferentes tipos de llamadas y características de reunión en Salas de Microsoft Teams.
-ms.openlocfilehash: 6abf7a28b3ceb84b0de82f75f5863c186db27170
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: 7b7bea86d414f24686dce4ffab1a91333476069f
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824669"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306155"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams Sala de reuniones de licencias
 
@@ -37,15 +37,15 @@ Microsoft tiene dos SKU dedicadas para licencias de reuniones y llamadas por dis
 
 |&nbsp;|Salas de Microsoft Teams Estándar |Salas de Microsoft Teams Premium |
 |:--- |:---: |:---: |
-|Skype Empresarial |&#x2714;| &#x2714;|
 |Microsoft Teams|  &#x2714;|  &#x2714;|
 |Sistema telefónico|  &#x2714;|  &#x2714;|
 |Audioconferencia|&#x2714; &sup1;|&#x2714; &sup1;|
 |Microsoft Intune|&#x2714;|&#x2714;|  
+|Azure Active Directory P1|&#x2714;|&#x2714;| 
 |Disponibilidad mundial | &#x2714; &sup2;| &#x2714; &sup2;|
 |Disponibilidad del canal | EA, EAS, CSP, <br/>Web Direct | EA, EAS, CSP, <br/>Web Direct |
 |Servicios administrados | | &#x2714; &sup3;|
-| | | |
+
 
 &sup1; La disponibilidad y los minutos incluidos pueden variar según la región. Para comprobar la disponibilidad del servicio, consulte Disponibilidad de país y [región para planes de audioconferencias y llamadas.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans) Es posible que se apliquen cargos por consumo para servicios adicionales, como gratuitos, minutos internacionales para planes nacionales, etc. Los clientes pueden deshabilitar estas características para evitar facturación adicional.  
 
@@ -53,30 +53,24 @@ Microsoft tiene dos SKU dedicadas para licencias de reuniones y llamadas por dis
 
 &sup3; Para obtener más información y disponibilidad, [vea Salas de Microsoft Teams servicio administrado.](microsoft-teams-rooms-premium.md)
 
-> [!NOTE]
-> Si actualmente usa SKU de E1, E3, E4, E Skype Empresarial 5 con un plan 2 con audioconferencia o con Sistema telefónico de Office 365 y un plan de llamadas, estos seguirán funcionando. Sin embargo, debería considerar la posibilidad de cambiar a un modelo de licencias más sencillo en la tabla anterior después de que expiren las licencias actuales.
-
-> [!IMPORTANT]
-> Si usa Skype Empresarial Plan 2, solo puede usar el Salas de Microsoft Teams en el modo solo Skype Empresarial, lo que significa que todas las reuniones se Skype Empresarial reuniones. Para habilitar la sala de reuniones Microsoft Teams reuniones, le recomendamos que compre la licencia Sala de reuniones reunión. 
+Ambas licencias contienen derechos para Skype Empresarial Online, que se retiró el 31 de julio de 2021.
 
 En la tabla siguiente se enumeran las características que están disponibles en Salas de Microsoft Teams y qué licencias necesita comprar para obtenerlas.
   
 > [!NOTE]
 > La sala que se configura debe ser un objeto de usuario y disponer de las licencias asignadas.
 
-| &nbsp; | Tiene Microsoft Teams o Skype Empresarial online <br/> Esto es lo que debe comprar:   |Tiene una Skype Empresarial Server 2015/2019 (local o híbrida). <br/> Esto es lo que debe comprar:|
+| &nbsp; | Tiene Microsoft Teams. <br/> Esto es lo que debe comprar:   |Tiene una Skype Empresarial Server 2015/2019 (local). <br/> Esto es lo que debe comprar:|
 |:-----|:-----|:-----|
 |Unirse a una reunión programada  | Salas de Microsoft Teams Estándar o Premium  |Skype Empresarial Servidor Standard CAL  |
 |Iniciar una reunión ad hoc | Salas de Microsoft Teams Estándar o Premium  |Skype Empresarial Servidor Standard CAL  <br/> Skype Empresarial Servidor Enterprise CAL|
 |Iniciar una reunión ad hoc y llamar desde una reunión a números de teléfono |  Salas de Microsoft Teams Estándar o Premium |Skype Empresarial Standard CAL  <br/> Skype Empresarial Servidor Enterprise CAL|
-|Dar a la sala un número de teléfono y realizar o recibir una llamada desde la sala o unirse a una conferencia de audio con un número de teléfono  | Con enrutamiento directo: Salas de Microsoft Teams Estándar o Premium<br/>Sin enrutamiento directo: Plan de llamadas nacionales o internacionales<br/>Microsoft 365 Empresa Voice  |Skype Empresarial Servidor Standard CAL  <br/> Skype Empresarial Servidor Plus CAL  |
+|Dar a la sala un número de teléfono y realizar o recibir una llamada desde la sala o unirse a una conferencia de audio con un número de teléfono  | Con Enrutamiento directo o Operador Conectar: Salas de Microsoft Teams Estándar o Premium<br/>Sin enrutamiento directo u operador Conectar: Plan de llamadas nacionales o internacionales<br/>Microsoft 365 Empresa Voice  |Skype Empresarial Servidor Standard CAL  <br/> Skype Empresarial Servidor Plus CAL  |
 |Administrar el dispositivo de la sala con Microsoft Intune |Salas de Microsoft Teams Estándar o Premium  |Microsoft Intune suscripción con [MDM local](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
-|Salas de Microsoft Teams Servicios administrados | Salas de Microsoft Teams Premium ||
-| |||
+|Salas de Microsoft Teams servicios administrados | Salas de Microsoft Teams Premium ||
+
 
 > [!NOTE]
-> Si tiene licencias existentes asignadas para sistemas de sala, estas seguirán funcionando sin interrupciones. Debe moverse para usar la nueva SKU Sala de reuniones cuando expiren las licencias existentes.  
+> Si tiene licencias existentes asignadas para sistemas de sala, estas seguirán funcionando sin interrupciones. Debe moverse para usar la SKU Sala de reuniones cuando expiren las licencias existentes.  
 
- **Use la versión correcta** de Windows 10: para los clientes que desean implementar Windows 10 imágenes en sus dispositivos, vea Configurar [una Salas de Microsoft Teams consola.](./console.md) Puede obtener una copia del Centro de servicios de licencias [por volumen.](https://www.microsoft.com/Licensing/servicecenter/) 
- 
  Vea también [Excelentes experiencias de sala de reuniones: Conozca las nuevas Salas de Microsoft Teams Estándar y Premium](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).

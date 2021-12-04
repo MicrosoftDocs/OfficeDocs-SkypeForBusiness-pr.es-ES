@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Use una cámara de contenido en una Sala de Microsoft Teams, que utiliza software de procesamiento de imágenes para que los presentadores puedan dibujar en una pizarra tradicional.
-ms.openlocfilehash: 61c0a1a36630fa31190e57de08379d6e80321a34
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 913d7fbc9593c1753c3cb4b59d44a4101e687178
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013164"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306145"
 ---
 # <a name="content-cameras"></a>Cámaras de contenido
 
@@ -33,7 +33,7 @@ Vea el siguiente vídeo para obtener ejemplos de las funciones de la cámara de 
 ## <a name="set-up-a-content-camera"></a>Configurar una cámara de contenido
 
 > [!NOTE]
-> Cumpla siempre con el código de edificaciones de su país o región, que puede definir una distancia mínima desde el suelo o incluir un requisito que obligue a proteger los equipos montados en techo a una viga u otra estructura. Siga las instrucciones opcionales para el hardware que se proporcionan con la cámara que ha seleccionado. Los proveedores originales de kits de montaje de cámara incluyen una cámara, alargadores USB 2.0 y los cables necesarios.
+> Cumpla siempre con el código de edificaciones de su país o región, que puede definir una distancia mínima desde el suelo o incluir un requisito que obligue a proteger los equipos montados en techo a una viga u otra estructura. Siga las instrucciones opcionales para el hardware que se proporcionan con la cámara que ha seleccionado. Los kits de montaje de cámara OEM incluyen una cámara, extensores USB 2.0 y cableado obligatorio.
 
 El tamaño de la pizarra usada para compartir afecta a la colocación de la cámara. Las recomendaciones de tamaño de la pizarra son:
 
@@ -54,7 +54,7 @@ Puede instalar la cámara hasta 152 mm más alto que la parte superior de la piz
 
 Con marcadores de pizarra típicos, la experiencia óptima para el usuario remoto es usar trazos de rotulado de 1-2 mm por píxel en la imagen de cámara de contenido. Para los mejores resultados, se recomienda usar 1,5 mm por píxel. Todas las cámaras compatibles proporcionan una resolución de 1920 x 1080 y algunas pueden superar esa resolución.
 
-La distancia de la cámara desde la pizarra, la resolución de la cámara y el campo de visión horizontal determinan la distancia desde la pizarra. En la tabla siguiente se muestran ejemplos de distancias para varios tamaños de pizarra. Puede usar estos valores como puntos de partida para determinar la ubicación final de la cámara de contenido.
+La distancia de la cámara desde la pizarra se combina con la resolución de la cámara y el campo horizontal de vista (HFoV) para determinar la distancia de la pizarra. En la tabla siguiente se muestran ejemplos de distancias para varios tamaños de pizarra. Puede usar estos valores como puntos de partida para determinar la ubicación final de la cámara de contenido.
 
 **Distancia de la cámara desde pizarra**
 
@@ -72,7 +72,7 @@ La distancia entre la cámara de contenido y la pared en la que se encuentra la 
 Si tiene pizarras mayores de 3,65 m o sin esquinas (como pizarras que ocupan toda la pared), puede colocar la cámara en cualquier parte del centro. El software de mejora selecciona un área en el medio si se produce un error al encontrar las esquinas de la pizarra.
 
 > [!NOTE]
-> Puede usar una cinta de color u otros elementos oscuros para crear un área de cámara de contenido definida en una pizarra de pared completa.
+> Puede usar una cinta de color u otros elementos oscuros para crear un área de cámara de contenido definida en una pizarra de pared completa. Esto ayuda a los asistentes a la sala a saber cuándo están dibujando en un área que está capturando la cámara de contenido.
 >
 > También puede montar la cámara en un trípode móvil en lugar de un soporte permanente. Coloque el trípode centrado en la pizarra. Esta configuración puede ser temporal o usarse donde no sea posible tropezarse con el equipo. Si usa un soporte temporal, recuerde que la mejora de contenido se verá afectada si mueve la cámara después del recurso compartido inicial y que tendrá que volver a compartir para corregir el movimiento.
 >
@@ -88,12 +88,12 @@ También puede consultar el catálogo de dispositivos de Microsoft Teams en [aka
 
 Una vez que la cámara esté instalada en la sala, puede configurarla en la consola de Salas de Microsoft Teams de esa sala:
 
-1. Seleccione **Configuración** Configuración icono. , inicie sesión como ![ administrador y seleccione Dispositivo ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) **Configuración**.
-2. En la sección **valores predeterminados de la cámara**, seleccione la cámara de contenido y asegúrese de que esté seleccionada la opción **Mejoras de contenido**.
+1. Seleccione **Configuración** Configuración. , inicie sesión como ![ administrador y seleccione ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) **Periféricos.**
+2. En la **sección Cámara de** contenido, seleccione la cámara de contenido y asegúrese de que la opción Mejoras **de** contenido está seleccionada.
 3. (Opcional) Si la cámara se instaló al revés porque estaba instalada desde el techo, compruebe la opción **Girar la cámara de contenido 180°**.
 4. Seleccione **Guardar y salir**.
 
-![Configuración de la cámara de contenido.](../media/content-camera.png)
+![Configuración de la cámara de contenido.](../media/content-camera1.png)
 
 También puede ajustar estas opciones de forma remota con un [archivo de configuración XML](xml-config-file.md).
 

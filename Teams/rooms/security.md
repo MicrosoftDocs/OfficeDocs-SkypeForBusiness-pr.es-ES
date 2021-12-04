@@ -1,5 +1,5 @@
 ---
-title: Salas de Microsoft Teams Seguridad
+title: Salas de Microsoft Teams seguridad
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -15,14 +15,14 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo proteger sus Salas de Microsoft Teams dispositivos.
-ms.openlocfilehash: ff5d79b02669f8b3da71396c2bd1eb2348575cf3
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: 7043b49406b0865ef38108519040374d792ac1dd
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824588"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306115"
 ---
-# <a name="microsoft-teams-rooms-security"></a>Salas de Microsoft Teams Seguridad
+# <a name="microsoft-teams-rooms-security"></a>Salas de Microsoft Teams seguridad
 
 Microsoft trabaja con nuestros partners para ofrecer una solución segura y no requiere acciones adicionales para proteger Salas de Microsoft Teams. En este artículo se debatió sobre muchas de las características de seguridad que se encuentran en Salas de Teams.
 
@@ -82,12 +82,15 @@ La cuenta de administrador no es necesaria para el correcto funcionamiento de Sa
 
 También puede importar cuentas de dominio en el grupo Windows administrador local. Puede hacer esto para Azure AD cuentas mediante Intune. Para obtener más información, vea [CSP de directiva: grupos restringidos.](/windows/client-management/mdm/policy-csp-restrictedgroups).
 
+> [!NOTE]
+> Si usa consolas Crestron, asegúrese de actualizar también la contraseña de administrador en la consola, así como en el módulo de cálculo. Para obtener más información, póngase en contacto con Crestron.
+
 > [!CAUTION]
 > Si elimina o deshabilita la cuenta de administrador antes de conceder permisos de administrador local a otra cuenta local o de dominio, es posible que pierda la capacidad de administrar el Salas de Teams dispositivo. Si esto sucede, tendrás que restablecer el dispositivo de nuevo a la configuración original y completar el proceso de configuración de nuevo.
->
-> No conceda permisos de administrador local a la cuenta Skype usuario.
 
-Windows El Diseñador de configuración se puede usar para crear Windows 10 paquetes de aprovisionamiento. Además de cambiar la contraseña de administrador local, también puede hacer cosas como cambiar el nombre del equipo e inscribirse en Azure Active Directory. Para obtener más información sobre cómo crear un Windows de aprovisionamiento del Diseñador de configuración, vea [Aprovisionar paquetes para Windows 10](/windows/configuration/provisioning-packages/provisioning-packages).
+No conceda permisos de administrador local a la cuenta Skype usuario.
+
+Windows diseñador de configuración puede usarse para crear Windows 10 paquetes de aprovisionamiento. Además de cambiar la contraseña de administrador local, también puede hacer cosas como cambiar el nombre del equipo e inscribirse en Azure Active Directory. Para obtener más información sobre cómo crear un Windows de aprovisionamiento del Diseñador de configuración, vea [Aprovisionar paquetes para Windows 10](/windows/configuration/provisioning-packages/provisioning-packages).
 
 Debe crear una cuenta de recursos para cada Salas de Teams dispositivo para que pueda iniciar sesión en Teams. No puede usar la autenticación de dos factores o multifactor con esta cuenta. Requerir un segundo factor impediría que la cuenta pueda iniciar sesión automáticamente en la aplicación Salas de Teams después de un reinicio. Sin embargo, puede habilitar la autenticación moderna para obtener seguridad adicional para esta cuenta. Además, se pueden implementar directivas de acceso condicional basadas en ubicación para la cuenta de recursos para evitar que inicie sesión en la cuenta desde una ubicación no aprobada. Para obtener más información, vea [Usar la condición de ubicación en una directiva de acceso condicional](/azure/active-directory/conditional-access/location-condition)
 

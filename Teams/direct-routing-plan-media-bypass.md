@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo planear la omisión de medios con Sistema telefónico enrutamiento directo, lo que le permite acortar la ruta del tráfico multimedia y mejorar el rendimiento.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 35d67f2547011d15fe7d72ab99a34ca507394f7a
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 1fb9eff518232f53868752a297775369af13713a
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013134"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306335"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -84,7 +84,7 @@ A continuación se describe el flujo de llamadas si el usuario no tiene acceso a
 
 Por ejemplo, suponga que el usuario es externo y el administrador de inquilinos decidió no abrir la dirección IP pública del SBC a todos los usuarios de Internet, sino solo a Microsoft Cloud. Los componentes internos del tráfico pueden fluir a través Teams relés de transporte. Tenga en cuenta lo siguiente:
 
-- Teams Se usan relés de transporte.
+- Teams se usan relés de transporte.
 
 - Para la omisión de medios, Microsoft usa una versión de retransmisión de transporte que requiere abrir puertos de 50 000 a 59 999 entre las retransmisiones de transporte de Teams y el SBC (en el futuro planeamos pasar a la versión que requiere puertos 3478-3481).
 
@@ -162,7 +162,7 @@ Los rangos IP son:
 
 ### <a name="use-of-teams-media-processors-if-trunk-is-configured-for-media-bypass"></a>Uso de Teams multimedia si el tronco está configurado para la omisión de medios
 
-Teams Los procesadores multimedia siempre se insertan en la ruta de acceso multimedia en los siguientes escenarios:
+Teams los procesadores multimedia siempre se insertan en la ruta de acceso multimedia en los siguientes escenarios:
 
 - La llamada se escala de 1:1 a una llamada grupal
 - La llamada se va a un usuario Teams federado
@@ -179,7 +179,7 @@ El enrutamiento directo se ofrece en los siguientes Microsoft 365 o Office 365 e
 - Microsoft 365 o Office 365
 - Office 365 GCC
 - Office 365 GCC High
-- Office 365 DoD Obtenga más información sobre [Office 365 entornos](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) gubernamentales de Ee. UU. como GCC, GCC high y DoD.
+- Office 365 doD Obtenga más información sobre Office 365 y [entornos](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) gubernamentales de EE. UU. como GCC, GCC high y DoD.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 y Office 365 GCC entornos
 
@@ -202,7 +202,7 @@ Los FQDN **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com** y **sip3.
 - 52.112.0.0/14
 - 52.120.0.0/14
 
-Debe abrir puertos para todos estos intervalos IP en el firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización. Si el firewall admite nombres DNS, el FQDN **sip-all.pstnhub.microsoft.com** se resuelve en todas estas subredes IP. 
+Debe abrir puertos para todos estos intervalos IP en el firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.
 
 ### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC doD
 
@@ -257,8 +257,8 @@ El cliente debe tener acceso a los puertos especificados (ver tabla) en la direc
 
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Cliente | SBC | 3478-3481 y 49152 - 53247| Definido en el SBC |
-| UDP/SRTP | SBC | Cliente | Definido en el SBC | 3478-3481 y 49152 - 53247  |
+| UDP/SRTP | Cliente | SBC | 3478-3481 y los puertos configurados por el administrador de inquilinos para el cliente (el valor predeterminado es 50000-50020)| Definido en el SBC |
+| UDP/SRTP | SBC | Cliente | Definido en el SBC | 3478-3481 y los puertos configurados por el administrador de inquilinos para el cliente (el valor predeterminado es 50000-50020)  |
 
 
 > [!NOTE]

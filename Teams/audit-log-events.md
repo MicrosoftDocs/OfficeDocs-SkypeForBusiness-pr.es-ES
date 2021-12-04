@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar Microsoft Teams datos del registro de auditoría en el Centro de cumplimiento de Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5c57cc859c3a30040b4874579157a714600156a
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: d5fc206b9869106be7dd60541d5299ffefb036ae
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959839"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306345"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -66,7 +66,7 @@ La duración del tiempo que un registro de auditoría se conserva y se puede bus
 
 Estas son sugerencias para buscar Teams actividades en el registro de auditoría.
 
-![Captura de pantalla de la página de búsqueda del registro de auditoría en el centro de cumplimiento](media/audit-log-search-page.png)
+:::image type="content" alt-text="Captura de pantalla de la página de búsqueda del registro de auditoría en el centro de cumplimiento" source="media/audit-log-search-page.png" lightbox="media/audit-log-search-page.png":::
 
 - Puede seleccionar actividades específicas para las que buscar haciendo clic en la casilla situada junto a una o más actividades. Si se selecciona una actividad, puede hacer clic en ella para cancelar la selección. También puede usar el cuadro de búsqueda para mostrar las actividades que contienen la palabra clave que escribe.
 
@@ -89,8 +89,8 @@ Esta es una lista de todos los eventos que se registran para las actividades de 
 |Bot agregado al equipo   |BotAddedToTeam        |Un usuario agrega un bot a un equipo.        |
 |Agregación de canales   |Canal agregado         |Un usuario agrega un canal a un equipo.         |
 |Conector agregado  |Conector agregado          |Un usuario agrega un conector a un canal.        |
-|Se han agregado detalles sobre Teams reunión|MeetingDetail|Teams información agregada sobre una reunión, incluida la hora de inicio, la hora de finalización y la dirección URL para unirse a la reunión.|
-|Información agregada sobre los participantes de la reunión|MeetingParticipantDetail|Teams información sobre los participantes de una reunión, incluido el id. de usuario de cada participante, la hora en que un participante se unió a la reunión y la hora en que un participante abandonó la reunión.|
+|Se han agregado detalles sobre Teams reunión <sup>2</sup>|MeetingDetail|Teams información agregada sobre una reunión, incluida la hora de inicio, la hora de finalización y la dirección URL para unirse a la reunión.|
+|Información agregada sobre los participantes de la <sup>reunión 2</sup>|MeetingParticipantDetail|Teams información sobre los participantes de una reunión, incluido el id. de usuario de cada participante, la hora en que un participante se unió a la reunión y la hora en que un participante abandonó la reunión.|
 |Miembros agregados    |Miembro agregado         |El propietario de un equipo agrega miembros a un equipo, canal o chat grupal.         |
 |Pestaña Agregado    |Pestaña Agregada         |Un usuario agrega una pestaña a un canal.        |
 |Configuración del canal cambiada    |ChannelSettingChanged         |La operación ChannelSettingChanged se registra cuando un miembro del equipo realiza las siguientes actividades. Para cada una de estas actividades, se muestra una descripción de la configuración  que se ha cambiado (se muestra entre paréntesis en la columna Elemento en los resultados de búsqueda del registro de auditoría. <ul><li>Cambia el nombre de un canal de grupo (**nombre del canal**)</li><li>Cambiar la descripción de un canal de grupo (**Descripción del canal**)</li> </ul>      |
@@ -191,13 +191,13 @@ Después de establecer una directiva de detección de actividad, comienza a gene
 
 Un escenario en el que puede que desee estar atento, desde una perspectiva empresarial, es la adición de usuarios externos a su entorno Teams empresa. Si los usuarios externos están habilitados, supervisar su presencia es una buena idea.  Puede usar [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) identificar amenazas potenciales.
 
-![Directiva para supervisar la adición de usuarios externos.](media/TeamsExternalUserAddPolicy.png)
+:::image type="content" alt-text="Directiva para supervisar la adición de usuarios externos." source="media/TeamsExternalUserAddPolicy.png" lightbox="media/TeamsExternalUserAddPolicy.png":::
 
 La captura de pantalla de esta directiva para supervisar la adición de usuarios externos le permite nombrar la directiva, establecer la gravedad según las necesidades de su empresa, establecerla como (en este caso) una sola actividad y, a continuación, establecer los parámetros que supervisarán específicamente solo la adición de usuarios no internos y limitar esta actividad a Teams.
 
 Los resultados de esta directiva se pueden ver en el registro de actividades:
 
-![Eventos desencadenados por la directiva de usuarios externos.](media/TeamsExternalUserList.png)
+:::image type="content" alt-text="Eventos desencadenados por la directiva de usuarios externos." source="media/TeamsExternalUserList.png" lightbox="media/TeamsExternalUserList.png":::
 
 Aquí puede revisar coincidencias con la directiva que ha establecido y realizar los ajustes necesarios, o exportar los resultados para usarlos en otro lugar.
 
@@ -205,13 +205,13 @@ Aquí puede revisar coincidencias con la directiva que ha establecido y realizar
 
 Como se mencionó anteriormente, puede supervisar escenarios de eliminación. Es posible crear una directiva que supervise la eliminación masiva de Teams sitios. En este ejemplo, se configura una directiva basada en alertas para detectar la eliminación masiva de equipos en un intervalo de 30 minutos.
 
-![Directiva que muestra la configuración de una directiva para la detección masiva de eliminación de equipos.](media/TeamsMassDeletePolicy.png)
+:::image type="content" alt-text="Directiva que muestra la configuración de una directiva para la detección masiva de eliminación de equipos." source="media/TeamsMassDeletePolicy.png" lightbox="media/TeamsMassDeletePolicy.png":::
 
 Como se muestra en la captura de pantalla, puede establecer muchos parámetros diferentes para esta directiva para supervisar las eliminaciones de Teams, incluida la gravedad, la acción única o repetida, y los parámetros que limitan esto Teams la eliminación del sitio. Esto se puede hacer independientemente de una plantilla, o es posible que tenga una plantilla creada para basar esta directiva en, dependiendo de las necesidades de la organización.
 
 Después de establecer una directiva que funcione para su empresa, puede revisar los resultados del registro de actividades a medida que se desencadenan los eventos:
 
-![Eventos de captura de pantalla desencadenados por eliminaciones masivas.](media/TeamsMassDeleteList.png)
+:::image type="content" alt-text="Eventos de captura de pantalla desencadenados por eliminaciones masivas." source="media/TeamsMassDeleteList.png" lightbox="media/TeamsMassDeleteList.png":::
 
 Puede filtrar hacia abajo hasta la directiva que haya establecido para ver los resultados de esa directiva. Si los resultados que está obteniendo en el registro de actividades no son satisfactorios (tal vez está viendo una gran cantidad de resultados, o nada en absoluto), esto puede ayudarle a ajustar la consulta para que sea más relevante para lo que necesita que haga.
 

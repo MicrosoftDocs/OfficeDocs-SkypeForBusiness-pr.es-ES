@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Configure Salas de Teams dispositivos y Surface Hub para unirse a reuniones cuando un dispositivo u otro se une a una reunión.
-ms.openlocfilehash: 21b8dc21b65748754f8a7903bc20cf55bd7c80c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f7aca3d8921d400a5b034c702f1201ee48996bc
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592214"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306175"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Configurar reuniones coordinadas con Salas de Microsoft Teams y Surface Hub
 
@@ -31,7 +31,7 @@ Para configurar reuniones coordinadas, debes asegurarte de que tus dispositivos 
 
 Después de confirmar que tus dispositivos Salas de Teams y Surface Hubs pueden aceptar automáticamente reuniones y unirse a ellas correctamente, puedes configurar reuniones coordinadas.
 
-Los pasos siguientes deben completarse para cada sala de reuniones por separado. Los dispositivos de una sala de reuniones no deben configurarse para reuniones coordinadas con dispositivos en otras salas de reuniones.
+Los pasos siguientes deben completarse para cada sala de reuniones por separado.
 
 ## <a name="step-1-plan-your-coordinated-meeting-experience"></a>Paso 1: Planear la experiencia de reunión coordinada
 
@@ -83,7 +83,7 @@ En las columnas siguientes, agrega cada uno de tus dispositivos Salas de Teams y
   - El audio se **apaga cuando** se inicia una reunión. Los participantes **no pueden activar** o desactivar el audio.
   - El vídeo se **apaga cuando** se inicia una reunión. Los participantes **pueden** activar o desactivar el vídeo.
 
-| Setting                | Teams Sala      | Surface Hub      |
+| Setting                | Teams sala de Teams      | Surface Hub      |
 |------------------------|-----------------|------------------|
 | **Audio predeterminado**      | `true`          | `false`          |
 | **Audio habilitado**      | `true`          | `false`          |
@@ -145,9 +145,9 @@ Para configurar reuniones coordinadas en un dispositivo, haga lo siguiente:
 
 5. Coloque el archivo en Salas de Teams carpeta del `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` dispositivo. Puede hacer esto de varias maneras:
 
-    - **Copiar el archivo en el Salas de Teams dispositivo** Deberá habilitar el uso compartido de archivos y crear un recurso compartido de red para poder copiar archivos en el dispositivo. Después de hacerlo, puede conectarse al recurso compartido de red y copiar el archivo en el dispositivo. Para obtener más información, [vea Salas de Microsoft Teams tareas de mantenimiento y operaciones](../rooms/rooms-operations.md).
+    - **Copie el archivo en su Salas de Teams** dispositivo, tendrá que habilitar el uso compartido de archivos y crear un recurso compartido de red antes de poder copiar archivos en el dispositivo. Después de hacerlo, puede conectarse al recurso compartido de red y copiar el archivo en el dispositivo. Para obtener más información, [vea Salas de Microsoft Teams tareas de mantenimiento y operaciones](../rooms/rooms-operations.md).
     - **Usar una directiva de grupo** Cree una directiva de grupo para copiar el archivo en el dispositivo. Para obtener más información, vea [Información general sobre directivas de grupo.](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11))
-    - **Descargar el archivo en el Salas de Teams dispositivo** Puede iniciar sesión en el dispositivo con el modo administrador y, a continuación, copiar el archivo en el dispositivo desde un recurso compartido de red o una unidad USB. Para obtener más información, vea [Cambiar al modo de administrador.](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
+    - **Descargar el archivo en el dispositivo Salas de Teams** puede iniciar sesión en el dispositivo con el modo administrador y, a continuación, copiar el archivo en el dispositivo desde un recurso compartido de red o una unidad USB. Para obtener más información, vea [Cambiar al modo de administrador.](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
     
 6. Reinicie el dispositivo. Puede hacerlo de dos maneras:
 
@@ -186,7 +186,7 @@ Haga lo siguiente para preparar el XML para Windows de configuración o Microsof
 
 3. Asegúrese de cambiar `TrustedAccounts` a la lista de UPN.
 
-4. Windows El Diseñador de configuración requiere que el XML esté en una sola línea. Quite todos los saltos de línea entre cada línea para que el XML sea similar al siguiente:
+4. Windows diseñador de configuración requiere que el XML esté en una sola línea. Quite todos los saltos de línea entre cada línea para que el XML sea similar al siguiente:
 
     ```xml
     <SurfaceHubSettings><BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>...
