@@ -849,13 +849,13 @@ items:
                 href: rooms/xml-config-file.md
               - name: Usar la herramienta de recuperación
                 href: rooms/recovery-tool.md
-  - name: 'Voz: teléfono de Teams y conectividad RTC'
+  - name: 'Voz: Teléfono Teams y conectividad con RTC'
     items:
       - name: Planear la solución de voz de Teams
         href: cloud-voice-landing-page.md
       - name: Teléfono Teams
         items:
-          - name: ¿Qué es el teléfono Teams?
+          - name: ¿Qué es el Teléfono Teams?
             href: what-is-phone-system-in-office-365.md
           - name: Esto es lo que obtiene con Teléfono Teams
             href: here-s-what-you-get-with-phone-system.md
@@ -1543,6 +1543,8 @@ items:
             href: teams-edu-licensing.md
           - name: Referencia de SKU de Educación
             href: sku-reference-edu.md
+          - name: Dispositivos de Teams para el ámbito educativo
+            href: devices-for-education.md
       - name: Teams para los trabajadores de primera línea
         items:
           - name: Guía de inicio rápido de Trabajador de primera línea
@@ -1641,8 +1643,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams
             href: sharepoint-onedrive-interact.md
-      - name: Dispositivos de Teams para el ámbito educativo
-        href: devices-for-education.md
       - name: Dispositivos admitidos
         items:
           - name: Administrar los dispositivos en Teams
