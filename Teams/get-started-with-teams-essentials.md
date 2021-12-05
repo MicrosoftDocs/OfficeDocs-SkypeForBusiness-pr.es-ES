@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efe81626a512c4ffce9cebe9a4cb6d62e4035b5f
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: b8ec92d734a62b0bfe7416a0aa83f46151ca95ab
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257567"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306435"
 ---
 # <a name="teams-essentials-quickstart-guide-for-small-businesses"></a>Guía de inicio rápido de Teams Essentials para pequeñas empresas
 
@@ -47,7 +47,7 @@ Si adquirió Teams Essentials a través de un asociado certificado de Microsoft,
 En la tabla siguiente se enumeran las características principales de Microsoft Teams disponibles en los planes. Se aplican ciertas advertencias. Consulte las notas al pie para obtener más información. Esta tabla puede cambiar sin previo aviso. Para obtener la lista más actualizada y completa de características, visite  [descripción del servicio Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
  
-|Microsoft Teams plan | [ **Microsoft Teams (gratis)**](manage-freemium.md)) | [**Microsoft Teams Essentials**](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (identidad AAD)** | [**Microsoft 365 Empresa Básico**](/microsoft-365/admin/setup/setup-business-basic?)  |
+|Microsoft Teams plan | [**Microsoft Teams (gratis)**](manage-freemium.md) | [**Microsoft Teams Essentials**](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (identidad AAD)** | [**Microsoft 365 Empresa Básico**](/microsoft-365/admin/setup/setup-business-basic?)  |
 |---------|---------|---------|---------|---------|
 |***Característica***     |         |         |         |         |
 | **Reunión y llamadas** | Sí| Sí| Sí |   Sí    |
