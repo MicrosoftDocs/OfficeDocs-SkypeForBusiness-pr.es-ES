@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a991075ada39f5433e20230d6fabdfaebcb52aa9
-ms.sourcegitcommit: df26b435b2a7bb7561ddea74477f1ba988de9d8f
+ms.openlocfilehash: 0d875c6cd753e4c2e97477b3a3a88e0f071b5cbe
+ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61245562"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61322992"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>Implementar la aplicación Padres en Microsoft Teams
 
@@ -33,7 +33,7 @@ La aplicación Padres ayuda Teams los profesores a conectarse e interactuar de f
 ### <a name="school-data-sync"></a>School Data Sync
 
 - Necesita School Data Sync (SDS) para rellenar la información de contacto relacionada con los padres y tutores **de cada** alumno.
-  - [Implementar SDS](/schooldatasync/how-to-deploy-sds-using-sds-v2.1-csv-files)
+  - [Implementar SDS](/schooldatasync/parent-contact-sync)
 
 - Si necesita ayuda para configurar SDS y rellenar  contactos relacionados con padres y tutores para los alumnos de su inquilino, póngase en contacto con el equipo de éxito del cliente de EDU:
   - Completar el proceso de RFA en [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
@@ -42,7 +42,7 @@ La aplicación Padres ayuda Teams los profesores a conectarse e interactuar de f
 ### <a name="teams-admin-center---policies"></a>Teams de administración: directivas
 
 - Los propietarios de equipos de clase deben tener Teams de chat habilitado.
-- Los propietarios de equipos de clase deben tener acceso externo **Teams cuentas no administradas por una organización** habilitada. 
+- Los propietarios de equipos de clase deben tener acceso externo **Teams cuentas no administradas por una organización** habilitada.
   - Esto debe estar habilitado en el nivel de inquilino y en el nivel de usuario. La configuración de nivel de inquilino se puede encontrar en **Usuarios > acceso externo** en el Centro Teams administración. También se puede acceder a esta configuración a través de PowerShell. Solo se puede acceder a las directivas de acceso externo a nivel de usuario a través de PowerShell. Vea los comandos de PowerShell siguientes para obtener más instrucciones.
 
 ## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>Habilitar el acceso externo con Teams cuentas no administradas por una organización
@@ -68,10 +68,13 @@ Para comprobar qué directivas de acceso externo a nivel de usuario existen y a 
 3. Compruebe qué directivas de acceso externo a nivel de usuario existen.
 
     ```powershell
-    Get-CsExternalAccessPolicy -Include All
+    Get-CsExternalAccessPolicy
     ```
 
-4. Para cada directiva que no sea la directiva "Global", compruebe qué usuarios tienen asignada la directiva. Nota: los usuarios que no tengan asignada una directiva específica volverán a la directiva "Global". Los nuevos usuarios que se agregan al inquilino tendrán asignada la directiva "Global".
+4. Para cada directiva que no sea la directiva "Global", compruebe qué usuarios tienen asignada la directiva.
+
+   > [!NOTE]
+   > Los usuarios que no tengan asignada una directiva específica volverán a la directiva "Global". Los nuevos usuarios que se agregan al inquilino tendrán asignada la directiva "Global".
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
