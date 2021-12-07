@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: 4126e8fde512089a2036e25c59f9510d46546738
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 95d5b420586016cb0b1d34599aa27b5d381c44c4
+ms.sourcegitcommit: 693e2b7d79f5a3f7e2ccb14e48dc46d295659c33
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306325"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61319927"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams dispositivos certificados
 
@@ -95,6 +95,7 @@ Los siguientes dispositivos están certificados en el Microsoft Teams de certifi
 |Crestron TSS-770 | `1.003.0082` |Febrero de 2021 |
 |Crestron TSS-1070 | `1.003.0082` |Febrero de 2021 |
 |Yealink RoomPanel | `147.15.0.1` |Mayo de 2021 |
+|Logitech TAP Scheduler | `1.3.111` | Diciembre de 2021 |
 
 ### <a name="product-release-information-for-teams-phones"></a>Información de la versión del producto Teams teléfonos
 
