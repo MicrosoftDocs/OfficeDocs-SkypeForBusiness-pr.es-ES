@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: 95d5b420586016cb0b1d34599aa27b5d381c44c4
-ms.sourcegitcommit: 693e2b7d79f5a3f7e2ccb14e48dc46d295659c33
+ms.openlocfilehash: ea91bb108f109bb58fe36d884f683a1f0e405964
+ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/07/2021
-ms.locfileid: "61319927"
+ms.locfileid: "61327268"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams dispositivos certificados
 
@@ -105,6 +105,7 @@ Las siguientes son las últimas Teams de firmware y aplicación de teléfono.
 
 | Versión del producto | Fecha de lanzamiento  | Microsoft Teams de la aplicación | Portal de empresa versión | Versión del Agente de administración |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| Actualización de 2021 #3B | 6 de diciembre de 2021   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |
 | Actualización de 2021 #3A | 22 de noviembre de 2021   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
 | Actualización 2021 #3  | 03 de noviembre de 2021   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
 | Actualización de 2021 #2A | 10 de junio de 2021  |`1449/1.0.94.2021052803`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
@@ -123,6 +124,8 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo        | Versión de firmware     | Versión de producto incluida  |
 |:--------------------|:---------------------|:-------------------------|
+| Poly Trio C60   | `7.1.4.0201`  | Actualización de 2021 #3B                        |
+| Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | Actualización de 2021 #3B                 |
 |Códigos de audio C448HD  | `C448HD_TEAMS_1.14.449` | Actualización 2021 #3  |
 |Códigos de audio C450HD  | `C450HD_TEAMS_1.14.449` | Actualización 2021 #3  |
 |Códigos de audio C470HD  | `C470HD_TEAMS_1.14.449` | Actualización 2021 #3  |

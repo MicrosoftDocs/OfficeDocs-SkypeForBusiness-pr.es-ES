@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db828fba03cfa4c05bef16d9f1b3ec2b50dbc4af
-ms.sourcegitcommit: 2aae13454178dc2e2cbc8cca967cd181c5f9d044
+ms.openlocfilehash: b245a4f4b0c9d8940943ceacc685bcf99e0df64e
+ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "61314271"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61327308"
 ---
 # <a name="configure-sip-gateway"></a>Configurar SIP Gateway
 
@@ -80,7 +80,7 @@ En este artículo también se describe cómo:
 
 ## <a name="verify-that-sip-gateway-is-available-for-your-organization"></a>Comprobar que SIP Gateway está disponible para su organización
 
-1. Inicie sesión en el [Teams de administración](https://admin-teams.microsoft.net/).
+1. Inicie sesión en el [Teams de administración](https://admin-teams.microsoft.com/).
 
 2. A la izquierda, seleccione **Teams dispositivos** y vea si la pestaña Dispositivos **SIP** está visible. Si es así, el servicio SIP Gateway está habilitado para su organización.
 
@@ -92,7 +92,7 @@ Puede habilitar SIP Gateway para su organización de dos maneras: mediante el ce
 
 Para habilitar SIP Gateway en el Teams de administración, siga estos pasos:
 
-1. Ir al Centro [Teams administración](https://admin.teams.microsoft.net/)
+1. Ir al Centro [Teams administración](https://admin.teams.microsoft.com/)
 
 2. A la izquierda, en **Voz,** seleccione **Directivas de llamadas.**
 
@@ -254,7 +254,7 @@ Para cerrar la sesión de un dispositivo en el Teams de administración:
 
 Puede ver y supervisar el inventario de dispositivos SIP en el Teams de administración después de que los usuarios de los dispositivos inicien sesión al menos una vez. A continuación se describe cómo:
 
-1. Inicie sesión en el [Teams de administración.](https://admin.teams.microsoft.net/)
+1. Inicie sesión en el [Teams de administración.](https://admin.teams.microsoft.com/)
 
 2. Seleccione **Teams dispositivos**  >  **SIP**. Todos los dispositivos SIP que han iniciado sesión se muestran a la derecha.
 
