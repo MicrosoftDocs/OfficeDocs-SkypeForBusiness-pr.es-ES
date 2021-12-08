@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesita realizar exhi
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6fd0a7b8108ef0c8d56a814558ae0bd055dc8ef5
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: ca4e85be70ce85d8e35c743275c9f3689061bcda
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356488"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331131"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -45,26 +45,26 @@ No todo Teams contenido es eDiscoverable. En la tabla siguiente se muestran los 
 |Fragmentos de código | No | |
 |Mensajes editados | Sí | Si el usuario está en espera, también se conservan las versiones anteriores de los mensajes editados. |
 |Emojis, GIF y adhesivos | Sí | |
+|Notificaciones de fuentes | No | |
 |Imágenes en línea | Sí | |
 |Conversaciones de mensajería instantánea de reunión | Sí | |
 |Metadatos de<sup>la reunión 1</sup> | Sí |  |
-|Nombre del canal | No | |
+|Nombre del canal | Sí | |
 |Mensajes de canal privado | Sí | |
 |Comillas | Sí | Se puede buscar contenido entre comillas. Sin embargo, los resultados de la búsqueda no indican que el contenido se citó. |
 |Reacciones (como me gusta, corazones y otras reacciones) | No | |
 |Asunto | Sí | |
 |Tablas | Sí | |
-|Notificaciones de fuentes | No | |
 |||
 
 <sup>1 Los</sup> metadatos de reunión (y llamada) incluyen lo siguiente:
 
 - Hora y duración de inicio y finalización de la reunión
 - Reunión unirse y dejar eventos para cada participante
-- VOIP join/calls
-- Unirse anónimo
-- Unión de usuarios federados
-- Unirse al usuario invitado
+- Voip se une o llama
+- Combinaciones anónimas
+- Combinaciones de usuarios federados
+- Se une el usuario invitado
 
   La imagen muestra un ejemplo de metadatos de reunión.
 

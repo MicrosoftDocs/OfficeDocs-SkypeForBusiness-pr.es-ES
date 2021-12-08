@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre Teléfono Microsoft system direct routing le permite conectar un controlador de borde de sesión (SBC) proporcionado por el cliente compatible con Teléfono Microsoft system.
-ms.openlocfilehash: 7d70fe3e96c7d06b9457e5d943dc608efc571306
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: b8c1c4beb17463dcc7921677529646abf624836c
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257381"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331101"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -167,45 +167,14 @@ El certificado debe tener el FQDN de SBC como el nombre común (CN) o el campo d
 
 Como alternativa, enrutamiento directo admite un carácter comodín en el CN o san, y el carácter comodín debe ajustarse a [RFC estándar HTTP Sobre TLS.](https://tools.ietf.org/html/rfc2818#section-3.1) Un ejemplo sería usar .contoso.com que coincidiría con el FQDN de SBC sbc.contoso.com, pero no coincidiría \* con sbc.test.contoso.com.
 
-El certificado debe ser generado por una de las siguientes autoridades de certificación raíz:
+La interfaz SIP de enrutamiento directo solo confiará en los certificados firmados por entidades de certificación (CA) que forman parte del Programa de certificados raíz de confianza de Microsoft. Asegúrese de que el certificado de SBC está firmado por una entidad de certificación que forma parte del programa y de que la extensión Uso de clave extendida (EKU) del certificado incluye autenticación de servidor.
+Aprende más:
 
-- AffirmTrust
-- Raíz de CA externa de AddTrust
-- Raíz de CyberTrust de Baltimore*
-- Buypass
-- Ciberconfianza
-- Entidad de certificación principal pública de clase 3
-- Comodo Secure Root CA
-- Deutsche Telekom 
-- DigiCert Global Root CA
-- DigiCert High Assurance EV Root CA
-- Entrust
-- GlobalSign
-- Ir a papá
-- GeoTrust
-- Verisign, Inc. 
-- SSL.com
-- Starfield
-- Symantec Enterprise Mobile Root para Microsoft 
-- SwissSign
-- Thawte Timestamping CA
-- Trustwave
-- TeliaSonera 
-- T-Systems International GmbH (Deutsche Telekom)
-- QuoVadis
-- USERTrust RSA Certification Authority
-- Hongkong Post Root CA 1,2,3
-- Sectigo Root CA
-- Harica  
-
-Para enrutamiento directo en Office 365 entornos GCCH y DoD, el certificado debe ser generado por una de las siguientes autoridades de certificación raíz:
-- DigiCert Global Root CA
-- DigiCert High Assurance EV Root CA
+[Requisitos del programa: Microsoft Trusted Root Program](/security/trusted-root/program-requirements) 
+ [Lista de certificados de CA incluida](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT)
 
 > [!NOTE]
 > *Si el soporte de TLS mutuo (MTLS) está habilitado para la conexión Teams en el SBC, debe instalar el certificado raíz de CyberTrust de Baltimore en el almacén raíz de confianza de SBC del contexto Teams TLS. (Esto se debe a que los certificados de servicio de Microsoft usan el certificado raíz de Baltimore). Para descargar el certificado raíz de Baltimore, [vea Office 365 cadenas de cifrado](/microsoft-365/compliance/encryption-office-365-certificate-chains).
-
-Microsoft está trabajando en la adición de entidades de certificación adicionales en función de las solicitudes de los clientes. 
 
 ## <a name="sip-signaling-fqdns"></a>Señalización SIP: FQDN 
 

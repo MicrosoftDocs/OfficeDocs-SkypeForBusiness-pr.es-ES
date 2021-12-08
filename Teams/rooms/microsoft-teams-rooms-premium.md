@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre el Salas de Microsoft Teams administrado.
 f1keywords: ''
-ms.openlocfilehash: 7584011b3fc2f20318801b33e2be87f0f0cfe83e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2c0131f76146c27e259198baca826cedaddc6426
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012744"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331111"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Salas de Microsoft Teams administrado
 
@@ -31,6 +31,25 @@ El servicio Salas de Microsoft Teams administrado es un servicio de supervisión
 El Salas de Microsoft Teams administrado es para las organizaciones que buscan mejorar su experiencia en la sala de reuniones y escalar rápidamente su presencia ofreciendo una administración proactiva para Salas de Microsoft Teams dispositivos. El servicio permite a las organizaciones ahorrar tiempo, dinero y experiencia que, de lo contrario, se gastarían en la administración de sala de "hacerlo usted mismo".  
 
 El Salas de Microsoft Teams administrado se basa en una sólida base de la experiencia de Microsoft en la administración habilitada para software de puntos finales, aprendizaje automático y automatización inteligente. El Salas de Microsoft Teams administrado ayuda a las organizaciones a ofrecer una experiencia de alta calidad en varios sitios remotos y puede adaptarse a cualquier ritmo de crecimiento que una organización pueda necesitar.
+
+Estos son tres aspectos clave del servicio:  
+
+- Operaciones inteligentes  
+
+   Software y aprendizaje automático que automatiza actualizaciones, detección de problemas, resolución de problemas para Salas de Microsoft Teams.  
+
+
+
+- Expertos dedicados  
+
+   Un equipo de expertos que proporcionan operaciones de servicio 24x7, soporte técnico en niveles y asistencia para la resolución de incidentes.  
+
+
+
+- Información mejorada  
+
+   Análisis enriquecidos, informes y aprendizajes probados a escala en muchos clientes.  
+
 
 ## <a name="service-capabilities"></a>Funcionalidades de servicio
 
