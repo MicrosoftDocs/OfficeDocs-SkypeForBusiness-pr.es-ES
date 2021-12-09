@@ -15,18 +15,20 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Obtenga información sobre cómo administrar la característica Música en espera en Sistema telefónico.
-ms.openlocfilehash: e2f2347ca4368a8665d77ff2424a5c0082c1b0d8
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 7a7a79bb2d96bcd43e12b27424630acd7a0c90eb
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960129"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355739"
 ---
 # <a name="music-on-hold"></a>Música en espera
 
 Cuando un Microsoft Teams coloca una llamada entrante de la red telefónica conmutada (RTC) en espera, el autor de la llamada RTC puede escuchar la música seleccionada.
 
 La música que se reproduce es la música predeterminada proporcionada por Microsoft o la música personalizada que carga y configura. Como administrador de inquilinos, puede configurar si Música en espera está disponible creando una directiva de llamada de Teams y asignando la directiva al Teams usuario.
+
+La música predeterminada que se proporciona Microsoft Teams escenarios de llamadas RTC está libre de regalías pagaderas por su organización.
 
 Tenga en cuenta que los autores de llamadas RTC también pueden escuchar Música en espera en otros escenarios; por ejemplo, cuando llaman a una cola de llamadas en la nube o cuando su llamada está estacionada por un Microsoft Teams usuario. Estas situaciones no están cubiertas ni controladas por las características mencionadas en este artículo.
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 887fd7bf955f5caa76a0dde3b42b96b912f23355
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 27050469b03c63b11d36150bc6213b84554d6db7
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829614"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355659"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -239,7 +239,7 @@ Las subredes IPv4 e IPv6 son compatibles, pero IPv6 tiene prioridad al comprobar
 Los siguientes Teams son compatibles:
 - Teams de escritorio (Windows y Mac)
 - Teams móviles (iOS y Android)
-- Teams Teléfonos IP
+- Teams teléfonos IP
 
 El Teams web y Skype Empresarial no son compatibles.
 
@@ -251,7 +251,9 @@ Location-Based enrutamiento no se aplica a los siguientes tipos de interacciones
 
 ### <a name="location-based-routing-for-conferencing"></a>Location-Based enrutamiento de conferencias
 
-Un Location-Based habilitado para enrutamiento en una llamada RTC no puede iniciar una conferencia con otro usuario o número RTC. Se permite la conexión a operadores automáticos o colas de llamadas. Si el usuario tiene una licencia de conferencia, debe iniciar una conferencia con los usuarios relevantes y llamar a la RTC a través del puente de conferencia para iniciar una llamada de conferencia.  
+Un Location-Based habilitado para enrutamiento en una llamada RTC no puede iniciar una conferencia con otro usuario o número RTC. Se permite la conexión a operadores automáticos o colas de llamadas. Si el usuario tiene una licencia de conferencia, debe iniciar una conferencia con los usuarios relevantes y llamar a la RTC a través del puente de conferencia para iniciar una llamada de conferencia.
+
+En una llamada de conferencia iniciada por un usuario sin una licencia de conferencia, no se permite agregar participantes RTC si hay o ha habido al menos un usuario habilitado para enrutamiento de Location-Based en la llamada de conferencia. Si al menos un participante RTC es o formaba parte de dicha llamada de conferencia antes de que cualquier participante habilitado para enrutamiento de Location-Based quiera unirse a la llamada, estos participantes no se pueden agregar a la llamada.
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de omisión de medios para Location-Based enrutamiento
 

@@ -15,19 +15,18 @@ ms.collection:
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Lea este tema para obtener información sobre cómo implementar Salas de Microsoft Teams con Skype Empresarial Server.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2990e1314ee851156bc11430ecf933fe31552117
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 702eb2128dd37980fd3fc76548638102d45d7af9
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615196"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355629"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Implementar Salas de Microsoft Teams con Skype Empresarial Server
   
-En este tema se explica cómo agregar una cuenta de dispositivo para Salas de Microsoft Teams cuando tiene una implementación local de un solo bosque.
+En este tema se explica cómo agregar una cuenta de recursos para Salas de Microsoft Teams cuando tiene una implementación local de un solo bosque.
   
 Si tiene una implementación local de un solo bosque con Exchange 2013 SP1 o posterior y Skype Empresarial Server 2015 o posterior, puede usar los scripts de Windows PowerShell proporcionados para crear cuentas de dispositivo. Si usa una implementación de varios bosques, puede usar cmdlets equivalentes que producirán los mismos resultados. Estos cmdlets se describen en esta sección.
-
   
 Antes de empezar a implementar Salas de Microsoft Teams, asegúrese de que tiene los permisos adecuados para ejecutar los cmdlets asociados.
   
@@ -50,71 +49,69 @@ Antes de empezar a implementar Salas de Microsoft Teams, asegúrese de que tiene
     Si va a cambiar un buzón de recursos existente:
 
    ``` Powershell
-   Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
+   Set-Mailbox -Identity 'ConferenceRoome01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
    -AsPlainText -Force)
    ```
 
    Si va a crear un buzón de recursos nuevo:
 
    ``` Powershell
-   New-Mailbox -UserPrincipalName PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room
+   New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Alias ConferenceRoom01 -Name "Conference Room 01" -Room
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. Puede establecer varias propiedades Exchange en la cuenta del dispositivo para mejorar la experiencia de reunión de los usuarios. Si desea ver qué propiedades hay que configurar, consulte la sección sobre propiedades de Exchange.
+3. Puede establecer varias propiedades Exchange en la Salas de Teams de recursos para mejorar la experiencia de reunión de los usuarios. Si desea ver qué propiedades hay que configurar, consulte la sección sobre propiedades de Exchange.
 
    ``` Powershell
-   Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
+   Set-CalendarProcessing -Identity ConferenceRoom01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
    $false -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity ConferenceRoom01 -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams and Skype for Business meeting room!"
    ```
 
-4. Si decide que la contraseña no expire, también puede establecerla con Windows PowerShell cmdlets. Vea Administración de etiquetas para obtener más información.
+4. Desactive la expiración de la contraseña en la cuenta de recursos.
 
    ``` Powershell
-   Set-AdUser $acctUpn -PasswordNeverExpires $true
+   Set-AdUser ConferenceRoom01@contoso.com -PasswordNeverExpires $true
    ```
 
-5. Habilite la cuenta en Active Directory para que se autentique para Salas de Microsoft Teams.
+5. Habilite la cuenta de recursos en Active Directory para que se autentique en Salas de Microsoft Teams.
 
    ``` Powershell
-   Set-AdUser $acctUpn -Enabled $true
+   Set-AdUser ConferenceRoom01@contoso.com -Enabled $true
    ```
 
-6. Habilite la cuenta del dispositivo con Skype Empresarial Server habilitando su cuenta Salas de Microsoft Teams Active Directory en un Skype Empresarial Server grupo de servidores:
+6. Habilite la cuenta de recursos con Skype Empresarial Server habilitando su cuenta Salas de Microsoft Teams Active Directory en un grupo Skype Empresarial Server recursos:
 
    ``` Powershell
-   Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
-   -RegistrarPool LYNCPool15.contoso.com -Identity PROJECTRIGEL01
+   Enable-CsMeetingRoom -Identity ConferenceRoom01 -SipAddress sip:ConferenceRoom01@contoso.com -DomainController DC-ND-001.contoso.com
+   -RegistrarPool LYNCPool15.contoso.com 
    ```
 
-    Tendrá que usar la dirección SIP (protocolo de inicio de sesión) y el controlador de dominio del proyecto
+    Cambie los `-DomainController` atributos y a los valores `-RegistrarPool` adecuados para su entorno.
 
-7. **Opcional.** También puede permitir que Salas de Microsoft Teams y reciba llamadas telefónicas de red telefónica conmutada (RTC) activando Telefonía IP empresarial para su cuenta. Telefonía IP empresarial no es un requisito para Salas de Microsoft Teams, pero si desea la funcionalidad de marcado RTC para el cliente de Salas de Microsoft Teams, aquí le explicamos cómo habilitarlo:
+7. **Opcional.** También puede permitir que Salas de Microsoft Teams y reciba llamadas telefónicas de red telefónica conmutada (RTC) activando Telefonía IP empresarial para su cuenta. Telefonía IP empresarial no es un requisito para Salas de Microsoft Teams, pero si desea la funcionalidad de marcado RTC para Salas de Microsoft Teams, aquí le explicamos cómo habilitarla:
 
    ``` Powershell
-   Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
-   Set-CsMeetingRoom -DomainController DC-ND-001.contoso.com -Identity PROJECTRIGEL01 -EnterpriseVoiceEnabled $true
-   Grant-CsVoicePolicy -PolicyName VP1 -Identity PROJECTRIGEL01
-   Grant-CsDialPlan -PolicyName DP1 -Identity PROJECTRIGEL01
+   Set-CsMeetingRoom -Identity ConferenceRoom01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
+   Set-CsMeetingRoom -Identity ConferenceRoom01 -DomainController DC-ND-001.contoso.com -EnterpriseVoiceEnabled $true
+   Grant-CsVoicePolicy -Identity ConferenceRoom01 -PolicyName VP1
+   Grant-CsDialPlan -Identity ConferenceRoom01 -PolicyName DP1
    ```
 
-   De nuevo, tendrá que reemplazar el controlador de dominio y los números de teléfono que se han proporcionado como ejemplo con su propia información. El valor de parámetro $true no se modifica.
+   De nuevo, tendrá que reemplazar el controlador de dominio y los números de teléfono que se han proporcionado como ejemplo con su propia información. El valor de parámetro $true no se modifica. También tendrá que reemplazar los nombres de directiva de directiva de voz y plan de marcado.
 
 ## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Ejemplo: configuración de cuenta de salón en Exchange y Skype Empresarial Server local
 
 ``` Powershell
-New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force)
--UserPrincipalName rigel1@contoso.com
+New-Mailbox -Alias ConferenceRoom01 -Name "Conference Room 01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) -UserPrincipalName ConferenceRoom01@contoso.com
 
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false
--RemovePrivateProperty $false
-Set-CalendarProcessing -Identity rigel1 -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+Set-CalendarProcessing -Identity ConferenceRoom01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
+Set-CalendarProcessing -Identity ConferenceRoom01 -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams and Skype for Business meeting room!"
 
-Enable-CsMeetingRoom -Identity rigel1@contoso.com -RegistrarPool cs3.contoso.com -SipAddressType EmailAddress
-Set-CsMeetingRoom -Identity rigel1 -EnterpriseVoiceEnabled $true -LineURI tel:+155555555555
-Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
-Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
+Enable-CsMeetingRoom -Identity ConferenceRoom01@contoso.com -RegistrarPool cs3.contoso.com -SipAddressType EmailAddress
+Set-CsMeetingRoom -Identity ConferenceRoom01 -EnterpriseVoiceEnabled $true -LineURI tel:+155555555555
+Grant-CsVoicePolicy -Identity ConferenceRoom01 -PolicyName dk
+Grant-CsDialPlan -Identity ConferenceRoom01 -PolicyName e15dp2.contoso.com
 ```
 
 ## <a name="related-topics"></a>Temas relacionados

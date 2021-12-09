@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Lea las preguntas más frecuentes (PREGUNTAS FRECUENTES) y las respuestas Microsoft Teams panel de calidad de llamadas (CQD).
-ms.openlocfilehash: 11b7691596192dbc96cd9deb7a0b64e363f6af4b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4d0d0bbbc35ac130755e61075408e9de80f1c09c
+ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616306"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "61362547"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Preguntas más frecuentes (PREGUNTAS FRECUENTES) del Panel de calidad de llamadas (CQD)
 
@@ -43,6 +43,8 @@ ms.locfileid: "58616306"
 [¿Por qué mis informes personalizados solo devuelven un máximo de 10 000 filas cuando sé que debería haber más entradas?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
 [¿Por qué Wi-Fi conexiones VPN se muestran como cableadas en lugar de wi-fi?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
+
+[He activado la grabación basada en directivas en Teams y ahora las llamadas punto a punto se marcan como Conferencias, ¿qué ha ocurrido?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>¿Por qué CQD marca una llamada como "Buena" si uno o varios participantes de la reunión tuvieron una mala experiencia?
 
@@ -79,8 +81,8 @@ Para calcular las medidas de recuento de llamadas y recuento de usuarios, se rea
 
 Estos roles de administrador pueden obtener acceso a CQD, pero no pueden ver EUII (información de identificación del usuario final):
 
-- Microsoft 365 Lector de informes
-- Teams Especialista en soporte técnico de comunicaciones
+- Microsoft 365 de informes
+- Teams de soporte técnico de comunicaciones
 
 Para obtener más información sobre los roles que pueden tener acceso a CQD ,incluido EUII, lea Asignar roles para obtener acceso [a CQD.](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
 
@@ -92,17 +94,21 @@ CQDv2 y CQDv3 siempre tendrán recuentos totales diferentes, ya que CQDv3 tendr�
 
 Según el escenario de los clientes, CQDv3 incluirá llamadas locales de SFB 2019 (si se usa SFB 2019 con un conector de datos), llamadas de bot de Skype (AA, CVI, VDI), Eventos en directo y llamadas RTC. Escenarios o características que están disponibles para los clientes, pero sus datos no están en CQD V2.
 
-Por ejemplo, se espera que sus clientes y usted vean 200 000 transmisiones de audio, con 5000 errores en el Informe de resumen CQD V2, frente a 300 000 transmisiones de audio con 5500 errores (procedentes de llamadas locales de 2019, llamadas CVI, llamadas RTC, y así sucesivamente) en CQD V3.
+Por ejemplo, se espera que sus clientes y usted vean 200 000 transmisiones de audio, con 5000 errores en el informe de resumen CQD V2, frente a 300 000 transmisiones de audio con 5500 errores (procedentes de llamadas locales de 2019, llamadas CVI, llamadas RTC, y así sucesivamente) en CQD V3.
 
 Para determinar si hay diferencias inesperadas, debe observar varios desgloses de los datos generales.  Comparar con la intención.  Cortar los datos mediante el par de categorías de agente de usuario es una de las primeras cosas que recomendamos.  *El primer producto* y *el segundo producto* también son buenas segmentaciones de datos.  
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>¿Por qué mis informes personalizados solo devuelven un máximo de 10 000 filas cuando sé que debería haber más entradas?
 
-CQD está diseñado para consultas de datos resumidos y no está diseñado para la exportación de datos. Recomendamos que se restructuran los informes, siempre que sea posible, para evitar que se supere el límite de 10 000 filas. Empiece por ver sus KPI con dimensiones más amplias y de menor cardinalidad, como Mes, Año, Fecha, Región, País, etc. Desde allí, puede explorar en profundidad las dimensiones de mayor cardinalidad. Tanto el Departamento de soporte técnico como Location-Enhanced informes proporcionan buenos ejemplos de este flujo de trabajo de exploración en profundidad.
+CQD está diseñado para consultas de datos resumidos y no está diseñado para la exportación de datos. Recomendamos que se restructuran los informes, siempre que sea posible, para evitar que se supere el límite de 10 000 filas. Empiece por ver sus KPI con dimensiones más amplias y de menor cardinalidad, como Mes, Año, Fecha, Región, País, entre otras. Desde allí, puede explorar en profundidad las dimensiones de mayor cardinalidad. Tanto el Departamento de soporte técnico como Location-Enhanced informes proporcionan buenos ejemplos de este flujo de trabajo de exploración en profundidad.
 
 ### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>¿Por qué Wi-Fi conexiones VPN se muestran como cableadas en lugar de wi-fi?
 
-Esto es normal. El proveedor de VPN creó un adaptador ethernet virtual que se trata como una conexión por cable. Puesto que no está etiquetado correctamente, el sistema operativo no sabe que es una conexión WiFi e informa de que está conectado por cable.
+Este es el comportamiento que se espera. El proveedor de VPN creó un adaptador ethernet virtual que se trata como una conexión por cable. Puesto que no está etiquetado correctamente, el sistema operativo no sabe que es una conexión Wi-Fi y la notifica como cableada.
+
+### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>He activado la grabación basada en directivas en Teams y ahora las llamadas punto a punto se marcan como Conferencias, ¿qué ha ocurrido?
+
+Este es el comportamiento esperado cuando la grabación basada en directivas está habilitada en Microsoft Teams. Grabación basada en directivas usa un bot Teams recorder implementado en Microsoft Azure para capturar el contenido de la reunión con fines de cumplimiento. Dado que un bot de grabadora es en sí mismo una parte de la llamada, la llamada ya no es punto a punto, sino una llamada de varias partes. Las llamadas de varias partes se clasifican como conferencias por Microsoft Teams, por lo que se indicarán como tales cuando vea estas llamadas en CQD y otras herramientas de calidad de llamadas.
 
 ## <a name="related-articles"></a>Artículos relacionados
 

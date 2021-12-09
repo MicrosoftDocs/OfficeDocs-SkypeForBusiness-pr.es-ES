@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenga información detallada sobre las dimensiones y medidas que usa el Panel de calidad de llamadas (CQD) para Microsoft Teams y Skype Empresarial Online.
-ms.openlocfilehash: bd9df17a832b02ad71591daae0b54df9a1b77f0d
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 4df31782e7f78818df5f9a849d0c814e07c52adb
+ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267803"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "61362557"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensiones y medidas disponibles en panel de calidad de llamada (CQD)
 
@@ -58,7 +58,63 @@ Por ejemplo, aquí cada fila representa un par de agentes de usuario implicados 
 
 ## <a name="dimensions"></a>Dimensiones
 
-La información de dimensiones se basa en parte en los datos cargados en el portal de CQD. Muchos valores de dimensión también se pueden usar como filtros. En la tabla siguiente se enumeran las dimensiones disponibles actualmente en CQD, en el orden indicado en el Editor de consultas usado para crear informes o editar informes definidos previamente.
+La información de dimensiones se basa en parte en los datos cargados en el portal de CQD. Muchos valores de dimensión también se pueden usar como filtros.
+
+### <a name="dimension-data-types-and-units"></a>Unidades y tipos de datos de dimensión
+
+#### <a name="boolean"></a>Boolean
+
+Los valores booleanos siempre son Verdadero o Falso. En algunos casos, Verdadero también se puede representar como 1 y Falso se puede representar como 0.
+
+#### <a name="range"></a>Rango
+
+Las dimensiones que se proporcionan como rango o grupo de valores se muestran con el siguiente formato:
+
+ _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
+
+Por ejemplo, la dimensión Duración (minutos) representa la duración de la llamada en segundos con el valor notificado como un rango de valores.
+
+|Duration (Minutes) |Cómo interpretar |
+|:--- |:--- |
+|062: [0 - 0) |Duración de la transmisión = 0 minutos |
+|064: [1 - 2) |1 minuto < = duración de la transmisión < 2 minutos |
+|065: [2 - 3) |2 minutos < = duración de la transmisión < 3 minutos |
+|066: [3–4) |3 minutos < = duración de la transmisión < 4 minutos |
+|  | |
+
+Se \<sort order string> usa para controlar el criterio de ordenación al presentar los datos y se puede usar para filtrar. Por ejemplo, un filtro en Duración (minutos) < "065", mostraría transmisiones con una duración inferior a 2 minutos (se necesita el "0" inicial para que el filtro funcione según lo esperado). El valor real de la cadena de criterio de ordenación no es significativo.
+
+> [!NOTE]
+> Es posible que observe rangos que parecen no válidos para una dimensión determinada. Un ejemplo sería la intensidad de la señal Wifi que muestra las llamadas en el rango 082: [100 - 110) cuando 100 es el valor máximo posible para la intensidad de la señal Wifi. Esto se debe a cómo se asignan los números a rangos en el modelo de datos de CQD. Si un valor de número completo es 99, se contará en el rango 081: [90 - 100). Si ese valor es 100, se contará en el rango 082: [100 - 110). Esto no indica que haya valores de intensidad de la señal Wifi superiores al 100 %.
+
+#### <a name="enumeration-strings"></a>Cadenas de enumeración
+
+Las cadenas usadas por CQD a menudo se derivan de archivos de datos y pueden ser casi cualquier combinación de caracteres dentro de la longitud permitida. Algunas dimensiones tienen el aspecto de cadenas, pero como solo pueden ser una de una lista corta de valores predefinidos, son enumeraciones y no cadenas verdaderas. Algunas cadenas de enumeración también se usan en pares.
+
+#### <a name="enumeration-pair"></a>Par de enumeración
+
+Las dimensiones que se proporcionan como par de enumeración se muestran con el siguiente formato:
+
+ _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
+
+El orden de los valores de enumeración es coherente, pero no refleja el orden del primer punto de conexión o del segundo.
+
+Por ejemplo, el par de detalles de conexión de red muestra los valores De detalle de conexión de red para los dos puntos de conexión:
+
+|Pareja de detalles de conexión de red |Cómo interpretar |
+|:--- |:--- |
+|Cableada: cableada |El primer punto de conexión y el segundo punto de conexión usaron conexiones ethernet cableadas. |
+|Cableada: wi-fi |El primer punto de conexión usó la conexión ethernet por cable y el segundo punto de conexión Wi-Fi conexión, o el segundo punto de conexión usó la conexión ethernet por cable y el primer punto de conexión Wi-Fi conexión. |
+|: wifi |First endpoint used a WiFi connection and the network connection used by the second endpoint is unknown, or the second endpoint used a WiFi connection and the network connection used by the first endpoint is unknown. |
+| | |
+
+#### <a name="blank-values"></a>Valores en blanco
+
+En la tabla siguiente se enumeran los posibles motivos por los que una dimensión puede estar en blanco. Muchas dimensiones y medidas estarán en blanco si la dimensión Registro de QoE disponible es falsa. Esto suele ocurrir cuando la llamada no se estableció correctamente o cuando el cliente no pudo enviar su telemetría al servicio.
+
+### <a name="available-dimensions"></a>Dimensiones disponibles 
+
+En la tabla siguiente se enumeran las dimensiones disponibles actualmente en CQD, en el orden indicado en el Editor de consultas usado para crear informes o editar informes definidos previamente.
 
 |Nombre|Tipo de datos|Descripción|Posibles razones para los valores en blanco|
 |:---|:---|:---|:---|
@@ -159,7 +215,7 @@ La información de dimensiones se basa en parte en los datos cargados en el port
 | Duration (Minutes)  | Intervalo (minutos)  | Duración de la transmisión en minutos. Los valores se agrupan en intervalos.<br/> **Valor de ejemplo:** 065: [3–4) ||
 | Duration (Seconds)  | Intervalo (segundos) | Duración de la transmisión en segundos. Los valores se agrupan en intervalos.<br/> **Valor de ejemplo:** 062: [1 -2)||
 |**Fecha**||| |
-|Hora de finalización|  String| Hora del día en que finalizó la llamada.|&bull; Error en la configuración de llamadas o no se estableció (consulte Motivo de respuesta de CDR) |
+|Hora de finalización|  String| Hora del día en que finalizó la llamada. Los valores se notifican en la zona horaria UTC. |&bull; Error en la configuración de llamadas o no se estableció (consulte Motivo de respuesta de CDR) |
 | Year  | Entero  | Año del final de la transmisión. Los valores se notifican en la zona horaria UTC. <br/> **Valor de ejemplo:** 2018 | |
 | Month  | Entero  | Mes del final de la transmisión. Los valores se notifican en la zona horaria UTC. <br/> **Valor de ejemplo:** 2 | |
 | Day  | Entero  | Día del final de la transmisión. Los valores se notifican en la zona horaria UTC. <br/> **Valor de ejemplo:** 1 | |
@@ -173,7 +229,7 @@ La información de dimensiones se basa en parte en los datos cargados en el port
 |Semana|  String  |Fecha de inicio de la semana en la que se realizó la llamada. <br/> **Valor de ejemplo:** 2019-09-01 |&bull; Error en la configuración de llamadas o no se estableció (consulte Motivo de respuesta de CDR) |
 | Month Year  | Cadena  | Mes y año del final de la transmisión. Los valores se notifican en la zona horaria UTC. <br/> **Valor de ejemplo:** 2017-02 | |
 | Full Month  | Fecha y hora  | Mes completo del final de la transmisión. Los valores se notifican en la zona horaria UTC. <br/> **Valor de ejemplo:** 2017-02-01T00:00:00 | |
-|Hora de inicio|String  |Hora del día en que se inició la llamada.|&bull; Error en la configuración de llamadas o no se estableció (consulte Motivo de respuesta de CDR) |
+|Hora de inicio|String  |Hora del día en que se inició la llamada. Los valores se notifican en la zona horaria UTC. |&bull; Error en la configuración de llamadas o no se estableció (consulte Motivo de respuesta de CDR) |
 |**UserAgent** | | | |
 | First Domain  | Cadena  | Dominio del primer usuario del punto de conexión. Si el primer punto de conexión es un servidor de conferencias, usa el dominio del organizador de la reunión. También podría ser el dominio de las cuentas de servicio que se han utilizado en este escenario.  <br/> **Valor de ejemplo:** contoso <span></span> .com | |
 | Second Domain  | Cadena  | Dominio del segundo usuario del punto de conexión. Si el segundo punto de conexión es un servidor de conferencias, usa el dominio del organizador de la reunión. También podría ser el dominio de las cuentas de servicio que se han utilizado en este escenario. <br/> **Valor de ejemplo:** contoso <span></span> .com  | |
@@ -443,9 +499,9 @@ La información de dimensiones se basa en parte en los datos cargados en el port
 | Second Endpoint Product Name|String|El nombre del producto del segundo punto de conexión (Skype Empresarial o Microsoft Teams).||
 | First UserType|Cadena de enumeración|El tipo de usuario en el primer punto de conexión. <br/> **Valores posibles:** Usuario, servidor, anónimo, aplicación, RTC, correo de voz, desconocido <br/> <br/>**Desconocido:** el valor predeterminado si UserType no se puede determinar en función de la información recibida. <br/>**RTC:** un usuario RTC. <br/>**Anónimo:** usuario Teams usuario o Skype Empresarial usuario. <br/>**Aplicación:** un bot. <br/>**Usuario:** un AAD usuario, puede ser Skype Empresarial usuario o Teams usuario. <br/>**Servidor:** para conferencias, al menos un lado es un servidor. <br/>**Correo de** voz: el servicio de correo de voz ha respondido al punto de conexión.||
 | Second UserType|Cadena de enumeración|El tipo de usuario en el segundo punto de conexión. <br/> **Valores posibles:** Usuario, servidor, anónimo, aplicación, RTC, correo de voz, desconocido <br/> <br/>**Desconocido:** el valor predeterminado si UserType no se puede determinar en función de la información recibida. <br/>**RTC:** un usuario RTC. <br/>**Anónimo:** usuario Teams usuario o Skype Empresarial usuario. <br/>**Aplicación:** un bot. <br/>**Usuario:** un AAD usuario, puede ser Skype Empresarial usuario o Teams usuario. <br/>**Servidor:** para conferencias, al menos un lado es servidor. <br/>**Correo de** voz: el servicio de correo de voz respondió al punto de conexión.||
-| IdDeUso del organizador|String|El id. de objeto de Active Directory del usuario del organizador de la reunión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.  | &bull; El usuario no tiene permisos para ver EUII. &bull; El registro es mayor de 28 días. |
-| UPN del organizador|String|El nombre principal de usuario (UPN) del usuario del organizador de la reunión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.| &bull; El usuario no tiene permisos para ver EUII. &bull; El registro es mayor de 28 días. |
-| Uri del sip del organizador|String|El URI del protocolo de inicio de sesión (SIP) del usuario del organizador de la reunión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.| &bull;Se rellena solo para Skype Empresarial extremos. <br/>&bull; El usuario no tiene permisos para ver EUII. &bull; El registro es mayor de 28 días.|
+| IdDeUso del organizador|String|El id. de objeto de Active Directory del usuario del organizador de la reunión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.  | &bull; El usuario no tiene permisos para ver EUII. <br/>&bull; El registro es mayor de 28 días. |
+| UPN del organizador|String|El nombre principal de usuario (UPN) del usuario del organizador de la reunión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.| &bull; El usuario no tiene permisos para ver EUII. <br/>&bull; El registro es mayor de 28 días. |
+| Uri del sip del organizador|String|El URI del protocolo de inicio de sesión (SIP) del usuario del organizador de la reunión. Solo disponible durante los últimos 28 días de datos y solo visible para los usuarios con roles que permiten el acceso a EUII.| &bull;Se rellena solo para Skype Empresarial extremos. <br/>&bull; El usuario no tiene permisos para ver EUII. <br/>&bull; El registro es mayor de 28 días.|
 |**Dispositivos**||||
 | First Capture Device Form Factor|Cadena de enumeración|El factor de forma del dispositivo de captura de audio (micrófono) en el primer punto de conexión. | &bull; El punto de conexión no lo ha notificado. |
 | Segundo factor de forma de dispositivo de captura|Cadena de enumeración|El factor de forma del dispositivo de captura de audio (micrófono) en el primer punto de conexión. | &bull; El punto de conexión no lo ha notificado. |
@@ -468,7 +524,7 @@ La información de dimensiones se basa en parte en los datos cargados en el port
 |Ubicación de MP RTC|String|La ubicación del procesador multimedia mostrará la ruta de acceso multimedia cuando esté en modo sin omisión.<br/>**Ejemplo:** USWE||
 |Motivo de finalización de la llamada RTC|Int|Un código de respuesta entero de tres dígitos muestra el estado final de la llamada. <br/> Para obtener más información sobre la explicación sip, consulte la [Lista de códigos de respuesta SIP.](https://www.wikipedia.org/wiki/List_of_SIP_response_codes) <br/>**Ejemplo:** 404||
 |**Aplicaciones de voz (vista previa)**||Para esta categoría, [vea Operador automático & histórico de cola de llamadas](aa-cq-cqd-historical-reports.md) para obtener más información).||
-|Operador automático identidad|String|Nombre de la cuenta de recursos adjunta a la Operador automático.||
+|Operador automático identidad|String|Nombre de la cuenta de recursos adjunta a la Operador automático.|&bull; El usuario no tiene permisos para ver EUII. <br/>&bull; El registro es mayor de 28 días.|
 |Operador automático índice de cadena|Entero| Orden del Operador automático en la llamada.||
 |Operador automático hora de inicio de cadena|String|La Operador automático hora y fecha de inicio de la llamada.||
 |Operador automático duración de cadena segundos|Entero| La duración de la llamada en el Operador automático, medida en segundos.||
@@ -478,7 +534,7 @@ La información de dimensiones se basa en parte en los datos cargados en el port
 |Operador automático de llamada|Enumeración| Resultado final de la llamada con el Operador automático. ||
 |Operador automático de búsqueda de directorios|Enumeración|El último método de búsqueda de libreta de direcciones usado.||
 |Operador automático contar|Entero| Número de operadores automáticos implicados en la llamada.||
-|Identidad de cola de llamadas|String|Nombre de la cuenta de recursos adjunta a la cola de llamadas. ||
+|Identidad de cola de llamadas|String|Nombre de la cuenta de recursos adjunta a la cola de llamadas. |&bull; El usuario no tiene permisos para ver EUII. <br/>&bull; El registro es mayor de 28 días.|
 |Cola de llamadas es modo de conferencia|Boolean|Si es True, la cola de llamadas está configurada para usar el modo de conferencia, de lo contrario, la cola de llamadas está configurada para usar el modo de transferencia. ||
 |Recuento de agentes de cola de llamadas|Entero|Número de agentes configurados en la cola. ||
 |Agente de cola de llamadas opta por contar|Entero|Número de agentes configurados que han optado por la cola. ||
@@ -486,6 +542,7 @@ La información de dimensiones se basa en parte en los datos cargados en el port
 |Resultado de la llamada en cola de llamadas|Enumeración|El estado final de la llamada de cola de llamadas. ||
 |Acción de estado final de la cola de llamadas|Enumeración|La acción final cola de llamadas. ||
 |Tiempo de espera de la cola de llamadas|Entero|El valor de tiempo de espera configurado para la cola de llamadas. ||
+|Transferido de la identidad de la cola de llamadas|String|Nombre de la cuenta de recursos adjunta a la cola de llamadas que transfirieron la llamada. |&bull; El usuario no tiene permisos para ver EUII. <br/>&bull; El registro es mayor de 28 días.|
 |Está Operador automático implicado|Boolean| Si es True, un Operador automático participó en una llamada o transmisión determinada.||
 |¿Está involucrada la cola de llamadas?|Boolean|Si es True, una cola de llamadas estaba involucrada en una llamada o transmisión determinada. ||
 |**Reunión**||||
@@ -502,59 +559,6 @@ La información de dimensiones se basa en parte en los datos cargados en el port
 |**Escenario**||||
 | Par de escenarios  | Pareja enumerada  | Pareja que muestra si los puntos de conexión se encuentran dentro o fuera de la red corporativa en función de la asignación de subred y los detalles de conexión de red. <br/> **Nota:** Los pares están separados por '--'. <br/> **Valor de ejemplo:** Client-Inside--Client-Inside-wifi  | &bull; El tipo de conectividad de red era desconocido para uno o ambos puntos de conexión.  |
 
-
-
-### <a name="notes-on-dimension-data-typeunits"></a>Notas sobre unidades o tipo de datos de dimensión
-
-#### <a name="boolean"></a>Boolean
-
-Los valores booleanos siempre son Verdadero o Falso. En algunos casos, Verdadero también se puede representar como 1 y Falso se puede representar como 0.
-
-#### <a name="range"></a>Rango
-
-Las dimensiones que se proporcionan como rango o grupo de valores se muestran con el siguiente formato:
-
- _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
-
-Por ejemplo, la dimensión Duración (minutos) representa la duración de la llamada en segundos con el valor notificado como un rango de valores.
-
-|Duration (Minutes) |Cómo interpretar |
-|:--- |:--- |
-|062: [0 - 0) |Duración de la transmisión = 0 minutos |
-|064: [1 - 2) |1 minuto < = duración de la transmisión < 2 minutos |
-|065: [2 - 3) |2 minutos < = duración de la transmisión < 3 minutos |
-|066: [3–4) |3 minutos < = duración de la transmisión < 4 minutos |
-|  | |
-
-Se \<sort order string> usa para controlar el criterio de ordenación al presentar los datos y se puede usar para filtrar. Por ejemplo, un filtro en Duración (minutos) < "065", mostraría transmisiones con una duración inferior a 2 minutos (se necesita el "0" inicial para que el filtro funcione según lo esperado). El valor real de la cadena de criterio de ordenación no es significativo.
-
-> [!NOTE]
-> Es posible que observe rangos que parecen no válidos para una dimensión determinada. Un ejemplo sería la intensidad de la señal Wifi que muestra las llamadas en el rango 082: [100 - 110) cuando 100 es el valor máximo posible para la intensidad de la señal Wifi. Esto se debe a cómo se asignan los números a rangos en el modelo de datos de CQD. Si un valor de número completo es 99, se contará en el rango 081: [90 - 100). Si ese valor es 100, se contará en el rango 082: [100 - 110). Esto no indica que haya valores de intensidad de la señal Wifi superiores al 100 %.
-
-#### <a name="enumeration-strings"></a>Cadenas de enumeración
-
-Las cadenas usadas por CQD a menudo se derivan de archivos de datos y pueden ser casi cualquier combinación de caracteres dentro de la longitud permitida. Algunas dimensiones tienen el aspecto de cadenas, pero como solo pueden ser una de una lista corta de valores predefinidos, son enumeraciones y no cadenas verdaderas. Algunas cadenas de enumeración también se usan en pares.
-
-#### <a name="enumeration-pair"></a>Par de enumeración
-
-Las dimensiones que se proporcionan como par de enumeración se muestran con el siguiente formato:
-
- _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
-
-El orden de los valores de enumeración es coherente, pero no refleja el orden del primer punto de conexión o del segundo.
-
-Por ejemplo, el par de detalles de conexión de red muestra los valores De detalle de conexión de red para los dos puntos de conexión:
-
-|Pareja de detalles de conexión de red |Cómo interpretar |
-|:--- |:--- |
-|Cableada: cableada |El primer punto de conexión y el segundo punto de conexión usaron conexiones ethernet cableadas. |
-|Cableada: wi-fi |El primer punto de conexión usó la conexión ethernet por cable y el segundo punto de conexión Wi-Fi conexión, o el segundo punto de conexión usó la conexión ethernet por cable y el primer punto de conexión Wi-Fi conexión. |
-|: wifi |First endpoint used a WiFi connection and the network connection used by the second endpoint is unknown, or the second endpoint used a WiFi connection and the network connection used by the first endpoint is unknown. |
-| | |
-
-#### <a name="blank-values"></a>Valores en blanco
-
-En la tabla anterior se enumeran los posibles motivos por los que una dimensión puede estar en blanco. Muchas dimensiones y medidas estarán en blanco si la dimensión Registro de QoE disponible es falsa. Esto suele ocurrir cuando la llamada no se estableció correctamente.
 
 ## <a name="measurements"></a>Medidas
 
