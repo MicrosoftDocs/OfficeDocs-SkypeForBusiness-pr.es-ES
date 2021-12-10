@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Obtenga información sobre cómo ver una lista de usuarios de su organización habilitados para conferencias de acceso telefónico local desde Microsoft Teams. '
-ms.openlocfilehash: 7b49dec0b73385ce09d906a128a47ddd4c723694
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: ff63ca0b34bcdf86b3c261a018911f42a34dcb5c
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045886"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401914"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Consultar una lista de usuarios que se han habilitado para Audioconferencia en Microsoft Teams
 
@@ -48,10 +48,22 @@ Después de habilitar Microsoft Teams usuarios de su organización para las audi
    
 - Puede usar el botón Buscar para buscar un usuario individual en la lista.
     
-    
+## <a name="run-a-self-diagnostics-tool"></a>Ejecutar una herramienta de autodiagnóstico
+
+Microsoft 365 los usuarios administradores tienen acceso a diagnósticos que se pueden ejecutar en el espacio empresarial para comprobar que un usuario puede crear una llamada de conferencia RTC. 
+
+> [!NOTE]
+>Esta característica no está disponible para Microsoft 365, Microsoft 365 21Vianet o Microsoft 365 Alemania.
+
+Seleccione Ejecutar pruebas, como se muestra a continuación. Esto rellenará el diagnóstico en el centro Administración de Microsoft 365 datos.
+>> [!div class="nextstepaction"]
+>> [Ejecutar pruebas: Teams conferencia](https://aka.ms/TeasConfDiag)
+
+El diagnóstico realiza un gran rango de comprobaciones.
+ 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

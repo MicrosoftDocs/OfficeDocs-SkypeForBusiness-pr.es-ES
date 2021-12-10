@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c25299a0f0df6863bcb1fbaa4627b891a6e860a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: b378ee327f2ba284a348ff7458c617fed71541c6
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536761"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401894"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Dispositivo de sucursal con funciones de supervivencia (SBA) para enrutamiento directo
 
@@ -58,7 +58,9 @@ La característica SBA es compatible con los siguientes Microsoft Teams cliente:
 
 - Microsoft Teams Windows escritorio 
 
-- Microsoft Teams escritorio de macOS 
+- Microsoft Teams escritorio de macOS
+- Teams móvil 
+- Teams teléfonos
 
 ## <a name="how-it-works"></a>Cómo funciona
 

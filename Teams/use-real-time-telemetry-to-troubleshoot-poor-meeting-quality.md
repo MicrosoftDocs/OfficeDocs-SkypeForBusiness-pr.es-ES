@@ -22,22 +22,19 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Use telemetría en tiempo real con detalles sobre dispositivos, redes y conectividad para solucionar problemas de usuario con Microsoft Teams reuniones programadas.
-ms.openlocfilehash: 94b303687995ac3bcd765991dbfeb41c6f1459e7
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 199eac099e23e8f8f0d96393484c4594763bb47a
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138366"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61402004"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Usar telemetría en tiempo real para solucionar problemas de mala calidad de la reunión
-
-> [!NOTE]
-> Esta característica está actualmente en versión preliminar pública hasta finales de 2021. Después de este tiempo, se requiere el complemento Comunicaciones avanzadas para Microsoft Teams para cada usuario cuya telemetría desea ver en tiempo real. Para más información, consulte [Complemento de Comunicaciones avanzadas para Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications).
 
 En este artículo se explica cómo usar Real-Time Analytics (RTA) para solucionar problemas de Microsoft Teams calidad de reunión para usuarios individuales. Puede acceder a Real-Time Analytics si tiene uno de los siguientes roles:
 
 - Administrador de Teams
-- Teams Especialista en soporte técnico de comunicaciones
+- Teams de soporte técnico de comunicaciones
 - Ingeniero de soporte en comunicaciones de Teams
 
 Para obtener más información sobre Teams de administrador, vea Usar Microsoft Teams [de administrador para administrar Teams](/MicrosoftTeams/using-admin-roles).
@@ -56,15 +53,15 @@ Como administrador Teams, obtiene acceso completo a todos los datos de telemetr�
 
 Para ver toda la información de la reunión y los datos de un usuario, vaya al [centro de Teams de administración.](https://admin.teams.microsoft.com) En **Usuarios**  >  **Administrar usuarios,** seleccione un usuario y abra la pestaña Reuniones **& llamadas** en la página de perfil del usuario. En **Reuniones recientes,** verá una lista de reuniones a las que ha asistido el usuario en las últimas 24 horas para las que la telemetría en tiempo *real* está disponible, incluidas las reuniones en curso. Si la reunión no está en curso o no tiene datos de telemetría en tiempo real, se mostrará en **Reuniones anteriores.**
 
-![Captura de pantalla de la tabla reuniones recientes.](media/recent-meetings.png)
+:::image type="content" alt-text="Captura de pantalla de la tabla reuniones recientes." source="media/recent-meetings.png" lightbox="media/recent-meetings.png":::
 
 Para obtener información adicional sobre los participantes de una reunión que está en curso, incluidas  sus estadísticas de dispositivo, red y audio, busque la reunión en Reuniones recientes y seleccione el vínculo debajo de la columna **Participantes.**
 
-![Captura de pantalla de la tabla de detalles del participante.](media/participant-details.png)
+:::image type="content" alt-text="Captura de pantalla de la tabla de detalles del participante." source="media/participant-details.png" lightbox="media/participant-details.png":::
 
 Para ver la telemetría de un usuario determinado para una reunión en curso, incluida la información sobre los detalles del dispositivo, la red, el audio, el vídeo y el uso compartido de contenido, seleccione el Id. de **reunión.**
 
-![Captura de pantalla de los datos de sesión de usuario de análisis de llamadas.](media/real-time-telemetry.png)
+:::image type="content" alt-text="Captura de pantalla de los datos de sesión de usuario de análisis de llamadas." source="media/real-time-telemetry.png" lightbox="media/real-time-telemetry.png":::
 
 ## <a name="measures-available-in-real-time-analytics"></a>Medidas disponibles en Real-Time Analytics
 
@@ -87,12 +84,19 @@ Para ver la telemetría de un usuario determinado para una reunión en curso, in
 - Android
 - iOS
 
+> [!NOTE]
+> Teams cliente web (incluido VDI) no admite la entrega de telemetría en tiempo real.
+
 ## <a name="teams-devices-with-support-for-real-time-telemetry"></a>Teams dispositivos compatibles con telemetría en tiempo real
 
 - MTR: Surface Hub
 - MTR: Teams pantalla
 - MTR: barra de colaboración
 - Dispositivos Teléfono IP
+
+> [!NOTE]
+> Los dispositivos que se unieron a la reunión con soluciones de interoperabilidad de vídeo en la nube (CVI) no son compatibles con Real-Time Analytics.
+
 
 ## <a name="limitations"></a>Limitaciones
 

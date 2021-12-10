@@ -18,12 +18,12 @@ description: Obtenga información sobre cómo configurar los planes de llamadas 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9df546e694fa3dcbdabae8454eeb5a6f7cba6a7
-ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
+ms.openlocfilehash: 45e7b49fcde0dba2a37eb4b08daeed324a9155dc
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "61284728"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401924"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -85,17 +85,19 @@ Actualmente, se admiten los siguientes clientes.  Vuelva a comprobarlo a menudo 
 - Salas de Teams versión 4.4.25.0 y posterior
 
 > [!NOTE]
-> Los teléfonos 3PIP no admiten llamadas de emergencia dinámicas. 
+> Las ubicaciones basadas en Subred y WiFi son compatibles con todos los Teams compatibles. <br><br>
+> Ethernet/Switch (LLDP) es compatible con:
+> - Windows versión 8.1 y posteriores en este momento.<br>
+> - Mac OS, que requiere software [de habilitación lldp.](https://www.microsoft.com/download/details.aspx?id=103383)<br>
+> - Teams teléfono con Teams aplicación versión 1449/1.0.94.2021110101 y posteriores.
 
 > [!NOTE]
 > Las llamadas de emergencia dinámicas, incluidas las notificaciones de escritorio de seguridad, no se admiten en el Teams web. Para evitar que los usuarios utilicen el cliente web Teams llamar a números RTC, puede establecer una directiva de llamadas Teams y desactivar la configuración Permitir llamadas **RTC web.** Para obtener más información, vea [Directivas de llamadas en Teams](teams-calling-policy.md) y [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). 
 
 > [!NOTE]
-> Las ubicaciones basadas en Subred y WiFi son compatibles con todos Teams clientes. <br>
-> Ethernet/Switch (LLDP) es compatible con:
-> - Windows versión 8.1 y posteriores en este momento.<br>
-> - Mac OS, que requiere software [de habilitación lldp.](https://www.microsoft.com/download/details.aspx?id=103383)<br>
-> - Teams teléfono con Teams aplicación versión 1449/1.0.94.2021110101 y posteriores.
+> Los teléfonos 3PIP no admiten llamadas de emergencia dinámicas. 
+
+
 
 ## <a name="assign-emergency-addresses"></a>Asignar direcciones de emergencia
 
