@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Aprenda a configurar planes de llamadas, incluidos ver los planes disponibles en su región, comprar & asignar licencias, obtener números de teléfono y agregar direcciones de emergencia & ubicaciones.
-ms.openlocfilehash: b7593155711597ae94d2db97573c6b6ba7afcc18
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 594304fdc9aa95d283d6366a27aff48d5e4a1c91
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725729"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61410701"
 ---
 # <a name="set-up-calling-plans"></a>Configurar las llamadas RTC en Skype Empresarial
 
@@ -80,6 +80,18 @@ En **Microsoft Teams**, los usuarios pueden ver su número de teléfono haciendo
 
 ![Captura de pantalla de las opciones disponibles después de hacer clic en Llamadas.](media/teams-phone-number.png)
 
+## <a name="run-a-self-diagnostics-tool"></a>Ejecutar una herramienta de autodiagnóstico
+
+Microsoft 365 administradores tienen acceso a diagnósticos que se pueden ejecutar dentro del espacio empresarial para comprobar que un usuario está configurado correctamente para realizar o recibir llamadas RTC. 
+
+> [!NOTE]
+>Esta característica no está disponible para Microsoft 365, Microsoft 365 21Vianet o Microsoft 365 Alemania.
+
+Seleccione Ejecutar pruebas, como se muestra a continuación. Esto rellenará el diagnóstico en el centro Administración de Microsoft 365 datos.
+>> [!div class="nextstepaction"]
+>> [Ejecutar pruebas: Teams RTC](https://aka.ms/TeamsPSTNDiag)
+
+El diagnóstico realiza un gran rango de comprobaciones.
 
 ## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>¿Quiere automatizar la asignación de números de teléfono?
 <a name="bkmk_add_addresses"> </a>

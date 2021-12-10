@@ -22,22 +22,25 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre las opciones De marcado y reconocimiento de voz del operador automático y la cola de llamadas en Teams.
-ms.openlocfilehash: acd3202a3f27beaf40af09422687be490f0695c5
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 7ea18f5ca1f9fba619fe00f28e93e245a7a8f074
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249692"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61410681"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Operador automático y referencia de marcación de cola de llamadas y reconocimiento de voz
 
-Marcar por nombre es una característica de un operador automático que también se conoce como búsqueda de directorios. Permite a las personas que llaman a su operador automático usar respuestas de voz (reconocimiento de voz) o del teclado del teléfono (DTMF) para escribir un nombre completo o parcial para buscar el directorio de la compañía, localizar a la persona y, después, hacer que la llamada se transfiera a ellos. Puede configurar el marcado por nombre al configurar la configuración de flujo de [llamadas en un operador automático.](create-a-phone-system-auto-attendant.md#call-flow)
+Marcar por nombre o extensión es una característica de operador automático que permite que los autores de llamadas lleguen a Teams usuarios de su organización. Los autores de llamadas con teclado de voz o teléfono pueden decir o escribir el nombre completo o parcial, o la extensión de la persona a la que le gustaría contactar. El operador automático buscará en el directorio de la empresa, localizará a la persona y, a continuación, transferirá la persona que llama.  Marcar por nombre o Marcar por extensión son opciones que configura al configurar la configuración del flujo de llamadas [en un operador automático.](create-a-phone-system-auto-attendant.md#call-flow)
+
 
 ## <a name="searching-for-users"></a>Buscar usuarios
 
-Los usuarios a los que desea haber localizado y alcanzado con Marcado por nombre no necesitan tener un número de teléfono o tener planes de llamadas **asignados,** pero deben estar Telefonía IP empresarial habilitados para Skype Empresarial Server usuarios. Marcar por nombre incluso podrá buscar y transferir llamadas a Microsoft Teams usuarios hospedados en diferentes países o regiones para organizaciones nacionales múltiples. Dados los requisitos previos implicados, se habilita explícitamente Marcar por nombre en un operador automático.
+Teams usuarios a los que se puede acceder mediante Marcado por nombre no son necesarios para tener un número de teléfono o tener planes de llamadas **asignados,** pero deben estar Telefonía IP empresarial habilitados para Skype Empresarial Server usuarios. Para las organizaciones nacionales, Marcar por nombre buscará y transferirá llamadas a Microsoft Teams usuarios que se encuentren en diferentes países o regiones.
 
-Marcar por extensión es una característica de un operador automático que también forma parte de la búsqueda de directorios. Permite a las personas que llaman a su operador automático usar respuestas de voz (reconocimiento de voz) o del teclado del teléfono (DTMF) para escribir la extensión de teléfono del usuario al que está intentando contactar y, a continuación, hacer que la llamada se les transfiera. Los usuarios a los que desea haber localizado y alcanzado con Marcado por extensión no son necesarios para tener un número de teléfono o tener planes de llamadas asignados **a ellos,** pero deben estar Telefonía IP empresarial habilitados para Skype Empresarial Server usuarios. También necesitará tener un plan de marcado configurado correctamente para los usuarios. Marcar por extensión incluso podrá buscar y transferir llamadas a Microsoft Teams usuarios hospedados en diferentes países o regiones para organizaciones nacionales. Dados los requisitos previos implicados, habilita explícitamente Marcar por extensión en un operador automático.
+Teams usuarios a los que se puede obtener acceso mediante Dial by Extension no son necesarios para tener un número de teléfono o tener planes de llamadas asignados a ellos, pero deben estar Telefonía IP empresarial habilitados para **Skype Empresarial Server usuarios.** También necesitará tener un plan de marcado configurado correctamente para los usuarios. Para las organizaciones nacionales múltiples, Marcar por extensión buscará y transferirá llamadas a Microsoft Teams usuarios que se encuentren en diferentes países o regiones. 
+
+Dados los requisitos previos implicados, marcar por nombre o extensión debe habilitarse explícitamente al configurar un operador automático.
 
 ### <a name="maximum-directory-size"></a>Tamaño máximo de directorio
 
@@ -49,12 +52,19 @@ No hay ningún límite en el número de usuarios de Active Directory Marcado por
 |Voz (entrada de voz) |Nombre  <br/> Apellidos  <br/> Nombre + Apellidos  <br/> Apellidos + Nombre  | 80 000 usuarios |
 
 > [!NOTE]
-> Si usa Marcado por nombre con reconocimiento de voz, pero el Active Directory de su organización es mayor que 80 000 usuarios y no ha limitado el ámbito de Marcado por nombre con la característica Ámbito de marcado, Marcar por nombre seguirá funcionando para los autores de llamadas con un teclado del teléfono y las entradas de voz estarán disponibles para todos los demás escenarios. Puede usar la característica de ámbito de marcado para limitar los nombres que se pueden contactar cambiado el ámbito de Marcado por nombre de un operador automático determinado.
-  
+> Si usa Marcado por nombre con reconocimiento de voz, pero el Active Directory de su organización es mayor que 80 [](create-a-phone-system-auto-attendant.md#dial-scope) 000 usuarios y no ha limitado el ámbito de Marcado por nombre con la característica Ámbito de marcado, Marcar por nombre seguirá funcionando para los autores de llamadas con un teclado del teléfono y las entradas de voz estarán disponibles para todos los demás escenarios. Puede usar la característica de ámbito de marcado para limitar los nombres que se pueden contactar cambiado el ámbito de Marcado por nombre de un operador automático determinado.
+ 
+### <a name="search-considerations"></a>Consideraciones de búsqueda 
+Marcar por nombre busca en el directorio de la organización y, a continuación, filtra los resultados en cualquier lista incluir o excluir ámbito de marcado que se haya configurado. Si la búsqueda inicial devuelve más de 100 usuarios, no se aplicarán las listas ámbito de marcado, se producirá un error en la búsqueda y se le indicará al autor de la llamada que se encontraron demasiados nombres.
+ 
+ 
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>Marcado por nombre: entrada mediante teclado (DTMF)
 Las personas que llamen pueden usar Marcar por nombre para comunicarse con los usuarios especificando el nombre completo o parcial de la persona a la que están intentando contactar. Hay varios formatos que se pueden usar cuando se introduce el nombre.
 
 Para realizar búsquedas en el directorio de su organización, los usuarios pueden usar la tecla 0 (cero) para indicar un espacio entre el nombre y el apellidos, o viceversa. Cuando escriban el nombre, se les pedirá que finalicen la entrada del teclado con la tecla #. Por ejemplo, "Después de introducir el nombre de la persona que busca, pulse #". Si se encuentran varios nombres, se proporcionará una lista de nombres al autor de la llamada para que seleccione uno.
+
+> [!NOTE]
+> Si quedan más de 5 nombres después de que se haya aplicado alguna lista incluir o excluir ámbito de marcado, se producirá un error en la búsqueda y se le indicará al autor de la llamada que se han encontrado demasiados nombres. 
   
 Las personas pueden realizar búsquedas por nombre en su organización empleando los siguientes formatos de búsqueda con el teclado del teléfono:
   
@@ -83,6 +93,9 @@ Los usuarios pueden buscar a otras personas de su organización con su voz (reco
 Puede habilitar el reconocimiento de voz para un operador automático, pero la entrada del teclado del teléfono (DTMF) no está deshabilitada. Teléfono entrada del teclado numérico se puede usar en cualquier momento, incluso si el reconocimiento de voz está habilitado en el operador automático.
   
 Al igual que con la entrada del teclado del teléfono, si se encuentran varios nombres, la persona que llama escuchará una lista de nombres entre los que seleccionar.
+
+> [!NOTE]
+> Si quedan más de 5 nombres después de que se haya aplicado alguna lista incluir o excluir ámbito de marcado, se producirá un error en la búsqueda y se le indicará al autor de la llamada que se han encontrado demasiados nombres. 
   
 Las personas que llaman pueden decir nombres en los siguientes formatos:
   

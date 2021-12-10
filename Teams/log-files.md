@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Obtenga información sobre los registros de depuración, medios y escritorio producidos por Microsoft Teams, dónde se pueden encontrar y cómo pueden ayudar con la supervisión y solución de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28fa78eb20b88fe0a159fab12636ce546453835e
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: 100d21338cf77642836793ab9cf69d426d1fd463
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257321"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61410691"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Use archivos de registro para supervisar y solucionar problemas Microsoft Teams
 
@@ -53,7 +53,7 @@ Los registros de depuración, escritorio y medios se recopilarán en una carpeta
 - Mac: <kbd>Comando de</kbd> + <kbd>opción</kbd> + <kbd>Mayús</kbd> + <kbd>1</kbd>
 
 
-El registro multimedia está desactivado de forma predeterminada. Para habilitar el registro multimedia, los usuarios deben activar la opción en Teams cliente. Vaya a **Configuración** General y seleccione Habilitar registro para diagnósticos de reuniones  >   **(requiere reiniciar Teams).** El Teams cliente debe reiniciarse para que comience el registro.
+El registro multimedia está desactivado de forma predeterminada. Para habilitar el registro multimedia, los usuarios deben activar la opción en Teams cliente. Vaya a **Configuración** General y seleccione Habilitar registro para diagnósticos de reuniones  >   **(requiere reiniciar Teams).** El Teams debe reiniciarse para iniciar el registro (reinicie haciendo clic con el botón derecho en el icono del dock (Mac) o la barra de tareas (Windows) y seleccionando **Salir.** Después de salir, simplemente haga clic en el icono de la aplicación para abrirlo de nuevo).
 
 Si se produce un problema con una reunión específica o un evento en directo, es útil tener la dirección URL asociada a la reunión. Esto proporciona información adicional para ayudar a identificar la reunión exacta o el evento en directo en los registros. Esta información se puede recopilar de cualquier participante para una reunión o del moderador o productor de un evento en directo. Esta dirección URL se puede capturar si mantiene el puntero sobre la dirección URL de combinación y elige **Copiar hipervínculo.**
 
