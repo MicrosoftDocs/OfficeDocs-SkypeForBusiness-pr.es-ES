@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: administración de partners para clientes.
 f1keywords: ''
-ms.openlocfilehash: 84d15f43ff49565dbba915470ea618a69ff74ee8
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: 1379fff905275e9bed94f019dcb556e171683178
+ms.sourcegitcommit: 4095a1d5e507ac5cb23ed17611c1fbd4b744b23f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331267"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61420230"
 ---
 # <a name="partner-management-for-customers"></a>Administración de partners para clientes
 
@@ -124,25 +124,25 @@ Si ya ha enviado una invitación a un partner y desea agregar más usuarios a es
 
 |Característica|Permiso|**Administrador de MMR**|**Cliente potencial del sitio**|**Site Tech**|**Administrador de partners**|
 | :- | :- | :- | :- | :- | :- |
-|Salas|Ver|||||
-||Modificar|||||
-||Tecla Restablecer|||||
-||Clave de descarga|||||
-||Desenrollar|||||
-|Administración de grupos|Crear |||||
-||Ver|||||
-||Modificar|||||
-|Actualizar la administración de anillos|Crear |||||
-||Ver|||||
-||Modificar|||||
-|Informes|Ver|||||
-|Administración de entradas|Crear un incidente de cliente|||||
-||Ver|||||
-||Actualización|||||
-|Mmr Configuración|Ver|||||
-||Modificar|||||
-|Administración de roles|Ver |||||
-||Modificar|||||
+|Salas|Ver| &#10004;|&#10004;|&#10004;|&#10004;|
+||Modificar|&#10004;|&#10004;|&#10004;|&#10004;|
+||Tecla Restablecer|&#10004;||||
+||Clave de descarga|&#10004;|&#10004;|&#10004;||
+||Desenrollar|&#10004;|&#10004;|&#10004;||
+||Crear |&#10004;|&#10004;|||
+|Administración de grupos|Ver|&#10004;|&#10004;||&#10004;|
+||Modificar|&#10004;|&#10004;|||
+||Crear |&#10004;|&#10004;|||
+|Actualizar la administración de anillos|Ver|&#10004;|&#10004;||&#10004;|
+||Modificar|&#10004;|&#10004;||&#10004;|
+|Informes|Ver|&#10004;|&#10004;||&#10004;|
+||Crear un incidente de cliente|&#10004;|&#10004;|&#10004;|&#10004;|
+|Administración de entradas|Ver|&#10004;|&#10004;|&#10004;|&#10004;|
+||Actualización|&#10004;|&#10004;|&#10004;|&#10004;|
+|Mmr Configuración|Ver|&#10004;||||
+||Modificar|&#10004;||||
+|Administración de roles|Ver |&#10004;|||&#10004;|
+||Modificar|&#10004;|||&#10004;|
 
 
 

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar el enrutamiento de llamadas con Microsoft Direct Routing.
-ms.openlocfilehash: cb8f33d8e5e2ea3e3e14ac47b57d9b5920f2bb2a
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: 919b98d6c8c8ee5a1af08967dc55c30748af37f1
+ms.sourcegitcommit: 4095a1d5e507ac5cb23ed17611c1fbd4b744b23f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60635049"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61420160"
 ---
 # <a name="configure-call-routing-for-direct-routing"></a>Configurar el enrutamiento de llamadas para enrutamiento directo
 
@@ -36,7 +36,7 @@ Para obtener información sobre todos los pasos necesarios para configurar el en
 
 ## <a name="call-routing-overview"></a>Introducción al enrutamiento de llamadas
 
-Teléfono Microsoft El sistema tiene un mecanismo de enrutamiento que permite enviar una llamada a un controlador de borde de sesión (SBC) específico en función de: 
+Teléfono Microsoft system tiene un mecanismo de enrutamiento que permite enviar una llamada a un controlador de borde de sesión (SBC) específico en función de: 
 
 - El patrón de número llamado 
 - El patrón de número llamado más el usuario específico que realiza la llamada
@@ -64,9 +64,9 @@ Si un usuario tiene una licencia de Plan de llamadas, las llamadas salientes de 
 
 En el siguiente diagrama se muestran dos ejemplos de directivas de enrutamiento de voz en un flujo de llamadas.
 
-**Llamar Flow 1 (a la izquierda):** Si un usuario realiza una llamada a +1 425 XXX XX XX o +1 206 XXX XX XX, la llamada se enruta a SBC sbc1.contoso.biz o sbc2.contoso.biz. Si no sbc1.contoso.biz ni sbc2.contoso.biz disponibles, la llamada se descarta. 
+**Llamar Flow 1 (a** la izquierda): si un usuario realiza una llamada a +1 425 XXX XX o +1 206 XXX XX XX, la llamada se enruta a SBC sbc1.contoso.biz o sbc2.contoso.biz. Si no sbc1.contoso.biz ni sbc2.contoso.biz disponibles, la llamada se descarta. 
 
-**Llamar Flow 2 (a la derecha):** Si un usuario realiza una llamada a +1 425 XXX XX XX o +1 206 XXX XX XX, la llamada se enruta primero a SBC sbc1.contoso.biz o sbc2.contoso.biz. Si no hay ninguna SBC disponible, se probará la ruta con menor prioridad (sbc3.contoso.biz y sbc4.contoso.biz). Si ninguno de los SBC está disponible, la llamada se descarta. 
+**Llamar Flow 2 (a** la derecha): Si un usuario realiza una llamada a +1 425 XXX XX XX o +1 206 XXX XX XX, la llamada se enruta primero a SBC sbc1.contoso.biz o sbc2.contoso.biz. Si no hay ninguna SBC disponible, se probará la ruta con menor prioridad (sbc3.contoso.biz y sbc4.contoso.biz). Si ninguno de los SBC está disponible, la llamada se descarta. 
 
 ![Muestra ejemplos de directivas de enrutamiento de voz.](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
@@ -460,6 +460,19 @@ No Restrictions
 ```
 
 El resultado es que la directiva de voz aplicada a las llamadas de John Woods no está restringida y seguirá la lógica de enrutamiento de llamadas disponible para las llamadas de Estados Unidos, Canadá e Internacionales.
+
+## <a name="run-a-self-diagnostics-tool"></a>Ejecutar una herramienta de autodiagnóstico
+
+Microsoft 365 administradores tienen acceso a diagnósticos que se pueden ejecutar dentro del espacio empresarial para comprobar que un usuario está configurado correctamente para enrutamiento directo. 
+
+> [!NOTE]
+>Esta característica no está disponible para Microsoft 365, Microsoft 365 21Vianet o Microsoft 365 Alemania.
+
+Seleccione Ejecutar pruebas, como se muestra a continuación. Esto rellenará el diagnóstico en el centro Administración de Microsoft 365 datos.
+>> [!div class="nextstepaction"]
+>> [Ejecutar pruebas: Teams enrutamiento directo](https://aka.ms/TeamsDirectRoutingDiag)
+
+El diagnóstico realiza un gran rango de comprobaciones.
 
 ## <a name="see-also"></a>Vea también
 

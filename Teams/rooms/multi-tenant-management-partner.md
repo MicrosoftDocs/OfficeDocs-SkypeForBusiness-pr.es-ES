@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Administración de clientes Mult-tenant para partners.
 f1keywords: ''
-ms.openlocfilehash: edafdf182e0d27ec5c5524e9411b80de866d7f02
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: 5ce4493ef9a5e6c959bf10c600c2b9697129d9df
+ms.sourcegitcommit: 4095a1d5e507ac5cb23ed17611c1fbd4b744b23f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331268"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61420210"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>Administración de clientes multiinquilino para partners
 
@@ -89,7 +89,7 @@ Para quitar a un cliente, debe quitarlo de la lista Clientes.
 
 Los roles de partner permiten la delegación de responsabilidades a personal adicional. El concepto de estos roles es el mismo que se describe en control de acceso basado en [roles,](microsoft-teams-rooms-premium-rbac.md)pero en contexto de cada cliente. Además, es importante tener en cuenta que los roles de partner son distintos de los roles del cliente. El cliente puede eliminar los roles de partner. 
 
-El **rol** administradores principales es el único rol integrado para cada cliente integrado y tiene casi todos los permisos (en contexto del cliente) para el servicio TRM (vea la tabla 1). Los permisos de rol de partner** solo se extienden hasta las salas designadas por el cliente. Por ejemplo, si el cCustomer es una organización global y asigna el partner para administrar todos los salas de EE. UU., el administrador principal solo podrá administrar y delegar permisos para esos salas. El Partner no tiene visibilidad de otras salas que el Cliente pueda tener en otros países. 
+El **rol** administradores principales es el único rol integrado para cada cliente integrado y tiene casi todos los permisos (en contexto del cliente) para el servicio TRM (vea la tabla 1). Los permisos de rol de partner** solo se extienden hasta las salas designadas por el cliente. Por ejemplo, si el cliente es una organización global y asigna el partner para administrar todos los salas de EE. UU., el administrador principal solo podrá administrar y delegar permisos para esos salas. El Partner no tiene visibilidad de otras salas que el Cliente pueda tener en otros países. 
 
 > [!Important]
 > Siempre debe haber al menos un usuario en el **rol de administradores** principales.
@@ -122,25 +122,25 @@ Como partner, puede crear roles personalizados que se adapten a sus requisitos o
 
 |Característica|Permiso|**Administrador de MMR**|**Cliente potencial del sitio**|**Site Tech**|**Administradores principales**|
 | :- | :- | :- | :- | :- | :- |
-|Salas|Ver|||||
-||Modificar|||||
-||Tecla Restablecer|||||
-||Clave de descarga|||||
-||Desenrollar|||||
-|Administración de grupos|Crear |||||
-||Ver|||||
-||Modificar|||||
-|Actualizar la administración de anillos|Crear |||||
-||Ver|||||
-||Modificar|||||
-|Informes|Ver|||||
-|Administración de entradas|Crear un incidente de cliente|||||
-||Ver|||||
-||Actualización|||||
-|Mmr Configuración|Ver|||||
-||Modificar|||||
-|Administración de roles|Ver |||||
-||Modificar|||||
+|Salas|Ver| &#10004;|&#10004;|&#10004;|&#10004;|
+||Modificar|&#10004;|&#10004;|&#10004;|&#10004;|
+||Tecla Restablecer|&#10004;||||
+||Clave de descarga|&#10004;|&#10004;|&#10004;||
+||Desenrollar|&#10004;|&#10004;|&#10004;||
+||Crear |&#10004;|&#10004;|||
+|Administración de grupos|Ver|&#10004;|&#10004;||&#10004;|
+||Modificar|&#10004;|&#10004;|||
+||Crear |&#10004;|&#10004;|||
+|Actualizar la administración de anillos|Ver|&#10004;|&#10004;||&#10004;|
+||Modificar|&#10004;|&#10004;||&#10004;|
+|Informes|Ver|&#10004;|&#10004;||&#10004;|
+||Crear un incidente de cliente|&#10004;|&#10004;|&#10004;|&#10004;|
+|Administración de entradas|Ver|&#10004;|&#10004;|&#10004;|&#10004;|
+||Actualización|&#10004;|&#10004;|&#10004;|&#10004;|
+|Mmr Configuración|Ver|&#10004;||||
+||Modificar|&#10004;||||
+|Administración de roles|Ver |&#10004;|||&#10004;|
+||Modificar|&#10004;|||&#10004;|
 
 > [!Note]
 > Un usuario asignado como administrador principal del cliente A tiene permisos completos en el servicio TRM solo para ese cliente. Los permisos del usuario en el Cliente A no tienen ninguna influencia en otros clientes.
@@ -166,7 +166,7 @@ El cliente puede extraer registros de auditoría para el servicio TRM, que inclu
 
 El portal MTM tiene dos modelos interactivos para navegar entre los datos de los clientes:
 
-- Las vistas de agregado eran datos de todos los clientes que se consolidan en una única lista y se pueden filtrar.
+- Agregar vistas en las que los datos de todos los clientes se consolidan en una única lista y se pueden filtrar.
 
   > [!Note]
   > Esta vista solo es compatible en la página **Incidentes** cuando la vista Habilitar todas las **entradas** está activa.
