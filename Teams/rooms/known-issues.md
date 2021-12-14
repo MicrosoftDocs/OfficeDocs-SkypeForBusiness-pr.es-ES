@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede obtener información sobre una lista de problemas conocidos para Salas de Microsoft Teams, incluida la actualización, la interfaz de usuario, el hardware y las limitaciones y los comportamientos esperados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: adf3b0fb7642b4a9774459527af304fe33167352
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 72d80d930a8c140e6c2c00917a08cf69398fd4b1
+ms.sourcegitcommit: badcd3abeed138c330ee98d739eac5bbc5c0bfae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578324"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "61441130"
 ---
 # <a name="known-issues"></a>Problemas conocidos 
  
@@ -31,10 +31,11 @@ En este artículo se indican los problemas conocidos de Sala de Microsoft Teams 
 
 | Título del problema |  Comportamiento \/ síntoma | Solución conocida | Artículo de KB |
 |  ---        |      ---             |   ---            | --- |
+| Vídeo de participantes de la galería dividida   | En el modo de pantalla frontal doble de la sala, cuando no hay contenido compartido en una reunión con más de 9 participantes de vídeo remoto, 1 vídeo en una pantalla del frente de la sala con la vista previa automática puede aparecer como audio debido a un problema conocido. Además, se muestra un número menor de participantes de audio que el número real de participantes de audio en dos pantallas frontales de la sala. | El problema se resolverá en la actualización futura. | Ninguna |
 | Aplicación que no se inicia |  Después de actualizar a la versión 4.4.41.0 de la aplicación, el sistema se inicia en pantalla negra o ve a la pantalla de inicio de sesión después de unos minutos. | Siga los pasos de Salas de Microsoft Teams aplicación no se inicia después de actualizar a la [versión 4.4.41.0 para](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) solucionar este problema.  | Ninguna |
 |  Volumen de reunión bajo después del uso compartido de contenido         |   Salas de Microsoft Teams dispositivos en Windows 10 20H2 experimentan una disminución del volumen de los medios y de la reunión después de compartir contenido a través de HDMI en la sala. Esto se debe a un problema de audio en Windows 10 20H2. | La corrección para este problema está disponible en la [versión 4.9.12.0 de la aplicación.](/microsoftteams/rooms/rooms-release-note#49120-7282021) | Ninguna |
 |  Aplicación obsoleta         |    La consola de Microsoft Teams salas muestra un error "configuración del sistema obsoleta".                |   [Usar la herramienta de recuperación de Sala de Microsoft Teams](recovery-tool.md)             |  Ninguna |
-|  Dispositivo actualizado a una versión no compatible de Windows 10   |    Windows 10 dispositivo actualizado de la versión 1803 a la versión 1809, que no es compatible. La versión compatible es 1903. |   Esto puede ocurrir si la configuración de Directiva de grupo o MDM para [DeferFeatureUpdatesPeriodinDays,](/windows/deployment/update/waas-configure-wufb) que le permite aplazar las actualizaciones de características para un número especificado de días, está establecida en el máximo de 365 días. <br><br> Windows 10 versión 1809 no es compatible con Salas de Microsoft Teams, mientras que la versión 1903 es compatible. Sin embargo, a partir del 27 de marzo de 2020, la versión 1809 tiene más de 365 días de antigüedad. Si esta configuración no cambia, Windows intenta instalar la versión 1809, lo que puede causar problemas con Salas de Microsoft Teams.<br><br>Para evitar esta situación, **quite cualquier configuración** de directiva de grupo o MDM para aplazar las actualizaciones. Esto permite Windows actualizar a la versión del sistema operativo compatible más reciente. <br><br>**IMPORTANTE** La configuración de directiva de grupo o MDM debe **quitarse** (no configurarse a la izquierda) y **no establecerse en 0**. Si la directiva se establece en 0, Windows la última versión disponible que puede no ser compatible. |  Ninguna |
+|  Dispositivo actualizado a una versión no compatible de Windows 10   |    Windows 10 dispositivo actualizado de la versión 1803 a la versión 1809, que no es compatible. La versión compatible es 1903. |   Esto puede ocurrir si la configuración de Directiva de grupo o MDM para [DeferFeatureUpdatesPeriodinDays,](/windows/deployment/update/waas-configure-wufb) que le permite aplazar las actualizaciones de características para un número especificado de días, está establecida en el máximo de 365 días. <br><br> Windows 10 versión 1809 no es compatible con Salas de Microsoft Teams, mientras que la versión 1903 es compatible. Sin embargo, a partir del 27 de marzo de 2020, la versión 1809 tiene más de 365 días de antigüedad. Si esta configuración no cambia, Windows intenta instalar la versión 1809, lo que puede causar problemas con Salas de Microsoft Teams.<br><br>Para evitar esta situación, **quite cualquier configuración** de directiva de grupo o MDM para aplazar las actualizaciones. Esto permite Windows actualizar a la versión del sistema operativo compatible más reciente. <br><br>**IMPORTANTE:** La configuración de directiva de grupo o MDM debe **quitarse** (no configurarse a la izquierda) y **no establecerse en 0**. Si la directiva se establece en 0, Windows la última versión disponible que puede no ser compatible. |  Ninguna |
 
 
 
