@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la Salas de Microsoft Teams, que incluyen mejoras acumulativas en Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 011f85e1d6db3aa4d0b3a0986d4b03dd1aa96a37
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: 19f84d3b6ea6e290012acd0d41e167b95d901796
+ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824598"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61426082"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de la versión de Salas de Microsoft Teams
 
@@ -29,6 +29,7 @@ En este artículo se deba a las mejoras acumulativas Salas de Microsoft Teams.
 
 |Versión |Publicado en <br/> Microsoft Store |
 |--- |--- |
+|Teams Web-Client versión | Diciembre de 2021 |
 |Teams Web-Client versión | Octubre de 2021 |
 |4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
@@ -77,7 +78,12 @@ En este artículo se deba a las mejoras acumulativas Salas de Microsoft Teams.
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas de Microsoft Teams de características y resolución de problemas
 
-### <a name="teams-rooms-web-client-update-october-2021"></a>Salas de Teams Actualización de cliente web (octubre de 2021)
+### <a name="teams-rooms-web-client-update-december-2021"></a>Salas de Teams de cliente web (diciembre de 2021)
+
+Se ha introducido en esta actualización:
+- Diseño de vídeo dividido en dos pantallas frontales de la sala cuando el contenido no se está compartindo
+
+### <a name="teams-rooms-web-client-update-october-2021"></a>Salas de Teams de cliente web (octubre de 2021)
 
 Se ha introducido en esta actualización:
 - Control de lista unificado con un cliente de escritorio Teams con agrupación de reuniones estructuradas, opciones de reunión y controles para los presentadores/asistentes, aumentar el criterio de ordenación a mano y la capacidad de invitar usuarios desde chat o invitación a reuniones directamente desde la lista 
@@ -141,7 +147,7 @@ Se ha introducido en esta actualización:
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 Se ha introducido en esta actualización:
-- Government Community Cloud Soporte técnico alto (GCCH) para Salas de Teams. Los clientes de GCCH con dispositivos Salas de Teams pueden descargar la versión 4.8.19.0 desde Actualizar manualmente [un Salas de Microsoft Teams dispositivo](manual-update.md)
+- Government Community Cloud high (GCCH) para Salas de Teams. Los clientes de GCCH con dispositivos Salas de Teams pueden descargar la versión 4.8.19.0 desde Actualizar manualmente [un Salas de Microsoft Teams dispositivo](manual-update.md)
 - Unirse a reuniones de Zoom con mejor calidad de vídeo (soporte técnico de 720p) y recibir la galería de vídeo de los participantes
 - Skype Empresarial de error de inicio de sesión eliminado para Teams modo predeterminado. Este cambio es compatible con las organizaciones que quitan Skype Empresarial infraestructura
 - Teams reuniones se unen al análisis de vínculos ahora se encarga de la protección contra amenazas avanzada de Microsoft Defender Caja fuerte vínculos para permitir unirse a Teams sin problemas
@@ -194,7 +200,7 @@ Se ha introducido en esta actualización:
 Se ha introducido en esta actualización:
 
 - Unirse a reuniones de Cisco WebEx desde Salas de Teams con la combinación directa de invitados
-- Teams Habilitación e inscripción automática del Centro de administración
+- Teams del Centro de administración y la inscripción automática
 - Windows 10 versión 1909
 - Cambiar al diseño de la galería de vídeo incluso cuando el contenido está presente
 - Soporte técnico virtual para asistentes y controles para moderador
@@ -202,7 +208,7 @@ Se ha introducido en esta actualización:
 - Buscar y llamar a usuarios federados (inquilino) desde Teams sala
 
 > [!IMPORTANT]
-> La versión 4.5 es la última versión compatible con Windows 10 versión 1803; las versiones futuras no se ofrecerán a los sistemas Windows 10 versión 1803. Para obtener más información sobre la compatibilidad Windows versión, [vea Windows 10 versión.](./rooms-lifecycle-support.md#windows-10-release-support)
+> La versión 4.5 es la última versión compatible con Windows 10 versión 1803; las versiones futuras no se ofrecerán a los sistemas en Windows 10 versión 1803. Para obtener más información sobre la compatibilidad Windows versión, [vea Windows 10 versión.](./rooms-lifecycle-support.md#windows-10-release-support)
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 
@@ -276,13 +282,13 @@ Se ha introducido en esta actualización:
 
 Se ha introducido en esta actualización:
 
-- Skype La aplicación de la tienda Room System vuelve a cambiar el nombre a "Salas de Microsoft Teams"
+- Skype aplicación de la tienda Room System se marca como "Salas de Microsoft Teams"
 - Salas de Microsoft Teams interfaz de usuario de la consola se vuelve a alinear a Microsoft Teams
 - Actualización del tema: solo mantenga la imagen de fondo personalizada delante de las pantallas de la sala, mientras que hace que el fondo de la consola sea un color neutro para garantizar que los controles de la interfaz de usuario de la consola cumplan con el contraste de color: requisitos de accesibilidad
 - Barra universal para controles de llamadas en la reunión para Teams llamadas o reuniones para proporcionar una experiencia coherente con Microsoft Teams clientes de PC/ Web/ Mobile<sup>1</sup>
 - Clasificación de comentarios sobre la calidad de las llamadas Teams llamadas o reuniones<sup>1</sup>
 - Recibir o representar Microsoft Whiteboard en Salas de Microsoft Teams pantalla frontal de la sala cuando se comparte desde PC/ Web/ Mobile Teams cliente<sup>1</sup> <sup>2</sup>
-- Se ha eliminado la compatibilidad Windows 10 actualizaciones de la versión 1809 debido a problemas de compatibilidad Salas de Microsoft Teams cliente. Windows 10 La versión 19H1 se agregará en futuras versiones
+- Se ha eliminado la compatibilidad Windows 10 actualizaciones de la versión 1809 debido a problemas de compatibilidad Salas de Microsoft Teams cliente. Windows 10 compatibilidad con la versión 19H1 se agregará en futuras versiones
 
 <sup>1 Microsoft Teams</sup> de servicio con Teams anillos. Esta característica puede estar disponible antes o después de la actualización de cliente 4.0.105.0
 
@@ -466,7 +472,7 @@ Se ha introducido en esta actualización:
  **Creado para Skype Empresarial**
 
 - Un solo toque para unirse a reuniones de Skype.
-- Skype Experiencia de reunión optimizada para salas con vídeo HD lleno de pantalla y audio de banda ancha HD
+- Skype de reunión optimizada para salas con vídeo HD con relleno de pantalla y audio hd de banda ancha
 - Todos los participantes se pueden conectar a la reunión de Skype mediante el dispositivo que elijan desde el lugar en el que se encuentren.
 - Invite a las personas desde su directorio, donde podrá consultar su disponibilidad en ese mismo momento o a través de una llamada de teléfono.
 - Es compatible con los servicios de conferencias RTC y llamadas RTC de Skype Empresarial como sustitución del teléfono de conferencias independiente de su sala.

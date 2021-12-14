@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b245a4f4b0c9d8940943ceacc685bcf99e0df64e
-ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
+ms.openlocfilehash: a4548ab9abfd96b3945c19c07e08baf1ede05983
+ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61327308"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61426112"
 ---
 # <a name="configure-sip-gateway"></a>Configurar SIP Gateway
 
@@ -107,6 +107,9 @@ Para habilitar SIP Gateway en el Teams de administración, siga estos pasos:
 
 También puede habilitar SIP Gateway con el cmdlet [Set-CsTeamsCallingPolicy de](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) PowerShell. Para habilitar usuarios para dispositivos SIP, seleccione una directiva y establezca el `-AllowSIPDevicesCalling` atributo en `True` . El valor predeterminado es , por lo que los usuarios no podrán usar sus dispositivos SIP a menos `False` que los habilite.
 
+
+> [!NOTE]
+> - La propagación de directivas puede tardar hasta 24 horas.
 
 ## <a name="set-the-sip-gateway-provisioning-server-url"></a>Establecer la dirección URL del servidor de aprovisionamiento de SIP Gateway
 
@@ -195,7 +198,7 @@ Para simplificar las tareas, puede inscribir dispositivos SIP en el Teams de adm
 
      f. En el **panel Aprovisionar** dispositivos, en Esperando  la **activación,** seleccione un dispositivo y, a continuación, seleccione Generar código de verificación para generar un código de verificación único para cada dispositivo aprovisionado. Anote el código de verificación de cada dispositivo SIP.
 
-4. En el dispositivo SIP, marque el código de característica de inscripción seguido del código de verificación. Por ejemplo, si el código de característica de inscripción es 55* y el código de verificación está 123456, marque 55 123456 para inscribir \* \* el \* dispositivo.
+4. En el dispositivo SIP, marque el código de característica de inscripción seguido del código de verificación. En el dispositivo SIP, marque el código de característica de inscripción 55* (usado por SIP Gateway para la validación de código de verificación único de inscripción), seguido del código de verificación que se genera en el Centro de administración de Teams para este dispositivo \* en particular. Por ejemplo, si el código de verificación está 123456, marque \* 55 123456 para inscribir el \* dispositivo.
 
 5.  En el **panel Aprovisionar dispositivos,** en **Esperando inicio de sesión,** seleccione **Cerrar sesión.**
 
