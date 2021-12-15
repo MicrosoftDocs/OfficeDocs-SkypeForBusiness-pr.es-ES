@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el asistente de porte para transferir el número de teléfono de su proveedor de servicios actual a Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b487249e9a3744c2f83a9bece04a17e7e2948f01
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 39be72edfa013a42fec6dcc60a8555d98be87b57
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861957"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513481"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de teléfono a Microsoft Teams
 
@@ -90,6 +90,10 @@ Antes de empezar, le recomendamos que revise la información en [¿Qué es una o
 Cuando recibamos tu solicitud de portabilidad, recibirás un correo electrónico que comprueba tu solicitud. Su solicitud se comprueba y actualiza diariamente y se le notificará su progreso y estado en el correo electrónico. Si el operador que pierde la solicitud de portabilidad lo rechaza, póngase en contacto con el Servicio de atención al [cliente de TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 Para ver el estado del pedido de portabilidad, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya > Pedidos de portabilidad de voz y, **a** continuación, haga clic en Historial  >  de **pedidos.** Cada estado del pedido de portabilidad se muestra en la **columna** Estado. Para obtener más información, [consulte ¿Cuál es el estado de los pedidos de portabilidad?](port-order-status.md)
+
+
+## <a name="reporting-telephone-number-issues"></a>¿Reportar problemas de número de teléfono?
+Si observa algún problema con los números portados en las primeras 24-48 horas. después de completar el puerto, póngase en contacto con el Servicio de atención al [cliente de TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) Para cualquier problema fuera de las 48 horas, por favor, equipo de soporte técnico de MS.
 
 ## <a name="related-topics"></a>Temas relacionados
 

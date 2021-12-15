@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Obtenga información sobre la configuración de administración en Elogio aplicación en el centro Microsoft Teams administración
-ms.openlocfilehash: 1d460a785a318723bf8e0d0852132863ef7513f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 044ab5d7fc5aebba1b1245f349e4ed27c61190b6
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858037"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513461"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Administrar la Elogio en el centro Microsoft Teams administración
 
@@ -157,3 +157,11 @@ Los conjuntos de distintivos integrados no se pueden modificar, por lo que, cuan
 |Conciencia de sí mismo    |[PNG autoconocimiento](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
 |Auto-administración   |[PNG de auto-administración](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
 |Reflexión    |[PNG de reflexión](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|
+
+## <a name="upcoming-changes"></a>Próximos cambios
+
+A partir de enero de 2022, lo que está disponible actualmente para distintivos cambiará. Los distintivos de aprendizaje social y emocional para la educación, incluido el autoconocimiento y la autoejería, ya no estarán disponibles.
+
+La **opción Crear un distintivo** personalizado tampoco estará disponible a partir de enero de   2022.
+
+Además, el  botón de alternancia Estado del Centro de administración de Teams que permite o bloquea Elogio afectará Elogio la aplicación Elogio y la característica Elogio de la aplicación Viva Ideas en Teams.

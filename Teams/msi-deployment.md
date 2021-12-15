@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7ff835715bd91e66160817410312734c6949f5c
-ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
+ms.openlocfilehash: 4a26970bdef120ae6b6ba80fac80838320a06fd7
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61216636"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513511"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar Microsoft Teams con Microsoft Endpoint Configuration Manager
 
@@ -64,7 +64,7 @@ El MSI de Teams colocará un instalador en Archivos de programa. Cada vez que un
 No use el MSI para implementar actualizaciones, ya que el cliente se actualizará automáticamente cuando detecte una nueva versión disponible en el servicio. Para volver a implementar el último instalador, utilice el proceso de reimplementación de MSI que se describe a continuación. Si implementa una versión anterior del paquete MSI, el cliente se actualizará automáticamente (excepto en entornos VDI) cuando sea posible para el usuario. Si se implementa una versión muy antigua, el MSI iniciará una actualización de la aplicación antes de que el usuario pueda usar Teams.
 
 > [!IMPORTANT]
-> La ubicación predeterminada es C:\Archivos de programa (x86)\Teams Installer en sistemas operativos de 32 bits y C:\Archivos de programa\Teams Instalador en sistemas operativos de 64 bits.
+> La ubicación predeterminada es C:\Archivos de programa\instalador Teams en sistemas operativos de 32 bits y C:\Archivos de programa (x86)\Teams Installer en sistemas operativos de 64 bits.
 > No es recomendable que cambie las ubicaciones de instalación predeterminadas, ya que esto podría romper el flujo de actualización. Si tiene una versión demasiado antigua, se podría bloquear a los usuarios el acceso al servicio.
 
 #### <a name="target-computer-requirements"></a>Requisitos del equipo de destino

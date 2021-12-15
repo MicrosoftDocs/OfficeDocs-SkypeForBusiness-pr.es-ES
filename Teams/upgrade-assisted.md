@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc890a4a84d86086ace0f85e25aa0c86c99a0e43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44ca04f9fce23876c7ee782ef5cc5078da7e67c4
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589470"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513471"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Actualizaciones asistidos de Skype Empresarial Online a Microsoft Teams
 
-Microsoft ofrece actualizaciones asistidos a Teams ayudar a las organizaciones a realizar una transición correcta desde Skype Empresarial Online cuando el servicio se retire el 31 de julio de 2021. Tanto si su organización está actualizando desde un entorno *Skype Empresarial Online* o *Skype Empresarial Online* con entorno híbrido (usuarios en Skype Empresarial **Online** y Skype Empresarial Server), las actualizaciones asistidos reducen el número de tareas técnicas que necesita realizar y permiten centrarse más en la preparación de la organización, el conocimiento de los usuarios y el aprendizaje Teams.
+Microsoft ofrece actualizaciones asistidos a Teams ayudar a las organizaciones a realizar una transición correcta desde Skype Empresarial Online cuando el servicio se retire el 31 de julio de 2021. Si su organización está actualizando desde un *Skype Empresarial Online* o *Skype Empresarial Online* con híbrido (los usuarios de Skype Empresarial **Online** y Skype Empresarial Server ) entorno, las actualizaciones asistidos reducen el número de tareas técnicas que debe realizar y permiten un mayor enfoque en la preparación de la organización, el conocimiento del usuario y Teams aprendizaje.
 
 Le recomendamos que revise nuestras instrucciones [de actualización antes](https://aka.ms/SkypeToTeams) de la actualización. Nuestras instrucciones de actualización incluyen actividades recomendadas y recursos útiles para completar una actualización de Skype Empresarial Online a Teams. Esta guía se aplica a cualquier organización que planee una actualización a Teams, ya sea que administren todos los aspectos de la actualización o usen el proceso asistido.
 
@@ -38,7 +38,7 @@ Le recomendamos que revise nuestras instrucciones [de actualización antes](http
 
 ## <a name="notifications-for-scheduled-customers"></a>Notificaciones para clientes programados
 
-Skype Empresarial Los clientes en línea que están programados para las actualizaciones asistidos Teams recibirán una serie de notificaciones de actualización. Estas notificaciones comenzarán 90 días antes de la fecha de actualización programada. Estas notificaciones se entregarán como publicaciones de *Plan de* cambio en el Centro de mensajes de Microsoft 365, notificaciones de panel de actualización en el centro de administración de Teams y marcas desde la aplicación a los usuarios finales.
+Skype Empresarial los clientes en línea que están programados para las actualizaciones asistidos Teams recibirán una serie de notificaciones de actualización. Estas notificaciones comenzarán 30 días antes de la fecha de actualización programada. Estas notificaciones se entregarán como publicaciones de *Plan de* cambio en el Centro de mensajes de Microsoft 365, notificaciones de panel de actualización en el centro de administración de Teams y marcas desde la aplicación a los usuarios finales.
 
 Las notificaciones de actualización incluirán la fecha programada de la actualización asistida y se vincularán a recursos de actualización y aprendizaje para ayudar a impulsar la adopción y el uso de Teams.
 
@@ -48,12 +48,12 @@ Las actualizaciones asistidos comenzarán en agosto de 2021 con fechas específi
 
 La experiencia de actualización asistido variará ligeramente dependiendo de si tiene un Skype Empresarial solo en línea o un Skype Empresarial Online con entorno híbrido:
 
-- **Skype Empresarial solo en línea** El proceso de actualización asistida aplicará la `TeamsUpgradeOverridePolicy` directiva a su organización. Cuando se aplique esta directiva, todos los usuarios Skype Empresarial online se colocarán en Teams solo.
-- **Skype Empresarial Online con híbrido** Los entornos híbridos pueden tener usuarios que están en una de las siguientes categorías:
+- **Skype Empresarial solo en línea El** proceso de actualización asistida aplicará la directiva a su `TeamsUpgradeOverridePolicy` organización. Cuando se aplique esta directiva, todos los usuarios Skype Empresarial online se colocarán en Teams solo.
+- **Skype Empresarial Online con entornos** híbridos puede tener usuarios que se encuensen en una de las siguientes categorías:
 
   - Los usuarios locales se alocuban en Skype Empresarial Server
-  - Skype Empresarial Usuarios en línea que están en Teams modo solo para usuarios
-  - Skype Empresarial Usuarios en línea que **no están** en Teams modo Solo para usuarios
+  - Skype Empresarial usuarios en línea que están en Teams solo para usuarios
+  - Skype Empresarial usuarios en línea que no **están** en Teams solo en línea
 
   Si tiene una combinación de usuarios en cada una de las categorías enumeradas anteriormente, el proceso de actualización asistida solo cambiará Skype Empresarial los usuarios en línea Teams modo solo si aún no están en ese modo. Los usuarios Skype Empresarial local no se verán afectados por el proceso de actualización asistida.
 
