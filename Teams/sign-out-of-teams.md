@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b11c58ced2ab089c181b28abe742ef8191452ea
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ba5789dac9d54de153c6d4c712a2d68367ad79c0
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865679"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513601"
 ---
 # <a name="sign-out-of-microsoft-teams"></a>Cerrar sesión en Microsoft Teams
 
@@ -32,7 +32,7 @@ Se recomienda que los usuarios mantengan la sesión iniciada en la aplicación d
 - Quieren usar una cuenta diferente
 - Porque están en un dispositivo que comparten con otra persona
 
-Por este y otros motivos, Teams le permite cerrar sesión en la aplicación y finalizar la sesión.
+Por estos motivos y otros, Teams le permite cerrar sesión en la aplicación y finalizar la sesión.
 
 ## <a name="account-sharing-between-apps"></a>Uso compartido de cuentas entre aplicaciones
 

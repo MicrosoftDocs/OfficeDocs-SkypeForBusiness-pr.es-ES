@@ -16,14 +16,15 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1505d8e9bd385d2dce35cb0c7dad24b5988bf0cc
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
+ms.sourcegitcommit: edec88f0923605dff29a93a0f1f31685575e2aa0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605816"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "61545011"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Cómo proporcionar Teams a escala para personal de primera línea
 
@@ -281,7 +282,7 @@ Se pueden personalizar las siguientes configuraciones para satisfacer las necesi
 4. En  **Microsoft Apps**, seleccione **Permitir todas las aplicaciones**.
 5. En  **Aplicaciones de terceros**, seleccione **Permitir todas las aplicaciones**.
 6. En **Aplicaciones personalizadas**, seleccione **Permitir todas las aplicaciones**.
-7. Haga clic en  **Guardar**.
+7. Haga clic en **Guardar**.
 
 #### <a name="create-the-frontline-worker-app-permission-policy"></a>Crear la directiva de permisos de la aplicación para el personal de primera línea
 
