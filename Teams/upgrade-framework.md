@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f18f35a061334e9a7e426614574afcc6eda42df9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3cdf1c9a9accc43275dc0573e90826d554adb12c
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728479"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563623"
 ---
 # <a name="about-the-upgrade-framework"></a>Acerca del marco de actualización
 
@@ -94,7 +94,7 @@ Para ayudar a demostrar cómo podría desarrollarse el viaje de actualización, 
 | **1** | **Anunciar el lanzamiento oficial de Teams** | Genere emoción e impulso enviando un anuncio de lanzamiento oficial cuando Teams esté listo. | [Kit de éxito de actualización](https://aka.ms/UpgradeSuccessKit) |
 | **2** | **Implementar la actualización** | Los pasos que siga dependen de la implementación actual de Skype Empresarial. | [Implementar la actualización](upgrade-to-teams.md) |
 | **3** | **Mantenerse informado sobre la hoja de ruta Teams ruta** | Supervise el Teams de ruta para identificar el momento adecuado para que su organización pase a Teams. | [Teams guía básica](https://aka.ms/teamsroadmap) |
-| **4** | **Enviar comunicaciones adicionales e involucrar a Teams campeones para impulsar la emoción y la adopción de Teams** | Fomente la adopción de los usuarios y mantenga la Teams con las comunicaciones y los defensores en curso. | [Microsoft 365 Programa Campeones](https://aka.ms/O365Champions) |
+| **4** | **Enviar comunicaciones adicionales e involucrar a Teams campeones para impulsar la emoción y la adopción de Teams** | Fomente la adopción de los usuarios y mantenga la Teams con las comunicaciones y los defensores en curso. | [Microsoft 365 Champions Program](https://aka.ms/O365Champions) |
 
 ## <a name="upgrade"></a>Upgrade 
 
@@ -129,4 +129,4 @@ Para ayudar a demostrar cómo podría desarrollarse el viaje de actualización, 
 > Nuestro contenido de actualización está en continua evolución. Asegúrese de volver a consultar las instrucciones más recientes y lea el [Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> Skype Empresarial Online se retirará el 31 de julio de 2021, momento a partir del cual ya no será posible obtener acceso a este soporte. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams. Recuerde que una actualización correcta alinea la preparación técnica y del usuario, por lo que asegúrese de aprovechar las instrucciones aquí a medida que vaya navegando hasta Microsoft Teams.
+> Skype Empresarial Online se retiró el 31 de julio de 2021. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams. Recuerde que una actualización correcta alinea la preparación técnica y del usuario, por lo que asegúrese de aprovechar las instrucciones aquí a medida que vaya navegando hasta Microsoft Teams.

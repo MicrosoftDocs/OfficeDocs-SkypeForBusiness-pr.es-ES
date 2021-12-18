@@ -20,17 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Obtenga información sobre las consideraciones de planeación para Sistema telefónico (PBX en la nube) con conectividad RTC local.
-ms.openlocfilehash: 21ad7efc67b503f790dd307b23aee5f8fd9ce11c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a3c01ed32cb2654ea10773f53c4148262e3ee6c5
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864537"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562782"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planear el Sistema telefónico con una conectividad RTC local en Skype Empresarial Server
 
 > [!Important]
-> Skype Empresarial Online se retirará el 31 de julio de 2021 después de lo cual el servicio ya no será accesible.  Además, ya no se admite la conectividad RTC entre el entorno local mediante Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online.  Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo](/MicrosoftTeams/direct-routing-landing-page).
+> Skype Empresarial Online se retiró el 31 de julio de 2021 y la conectividad RTC entre el entorno local ya no es compatible con Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online.  Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo](/MicrosoftTeams/direct-routing-landing-page).
 
 Obtenga información sobre las consideraciones de planeación para Sistema telefónico (PBX en la nube) con conectividad RTC local.
 
@@ -70,7 +70,7 @@ Al implementar un servicio hospedado en la nube como Sistema telefónico con con
 
 - **Red global de entrega de medios de Microsoft** Infraestructura y red en la nube global de Microsoft. Sistema telefónico servidores y el tráfico atraviesan esta red.
 
-- **Enterprise/Cloud PSTN Interconnect** Esta es la red que conecta la empresa a la nube. Esto no es necesariamente lo mismo que la conexión genérica a Internet.
+- **Enterprise/Interconexión RTC en** la nube Esta es la red que conecta su empresa a la nube. Esto no es necesariamente lo mismo que la conexión genérica a Internet.
 
 - **Red propia de su empresa** La calidad de los medios en tiempo real depende en gran medida de su propia red: especialmente la red WiFi y la calidad de la interconexión usada para llegar a la nube.
 
@@ -102,7 +102,7 @@ Antes de configurar Sistema telefónico con conectividad RTC local y mover usuar
 
 Además, debe asegurarse de lo siguiente:
 
-- **El Telefonía IP empresarial local se configura y prueba para los** usuarios locales Esto incluye componentes de conectividad RTC. Para obtener más información, vea los siguientes temas si usa Skype Empresarial Server 2015, vea [Plan for Telefonía IP empresarial in Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) e Deploy Telefonía IP empresarial [in Skype Empresarial Server 2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md).
+- **La configuración Telefonía IP empresarial** local se configura y prueba para los usuarios locales Esto incluye componentes de conectividad RTC. Para obtener más información, vea los siguientes temas si usa Skype Empresarial Server 2015, vea [Plan for Telefonía IP empresarial in Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) e Deploy Telefonía IP empresarial [in Skype Empresarial Server 2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md).
 
     Si usa Lync Server 2013, vea [Planning for Telefonía IP empresarial in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice) and [Deploying Telefonía IP empresarial in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-enterprise-voice).
 
@@ -111,7 +111,7 @@ Además, debe asegurarse de lo siguiente:
     > [!NOTE]
     > La versión de AAD Conectar que use debe ser la versión 1.0.9125.0 o posterior. Si usa una versión anterior de AAD Conectar o DirSync, actualice a la versión compatible. Puede actualizar la instalación actual y mantener las reglas personalizadas que haya definido en su entorno. 
 
-- **Configurar la implementación híbrida** Tanto si todos los usuarios de Skype Empresarial se encuentran actualmente en línea o localmente, o si actualmente tiene una combinación, debe completar los pasos para configurar una implementación híbrida de Skype Empresarial Server o Lync Server 2013, tal como se describe en Implementar la conectividad híbrida entre [Skype Empresarial Server y  Office 365](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). Para obtener más información sobre implementaciones híbridas, vea [Plan hybrid connectivity between Skype Empresarial Server and Office 365](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). 
+- **Configurar la implementación híbrida** Tanto si todos los usuarios de Skype Empresarial se encuentran actualmente en línea o localmente, o si actualmente tiene una combinación, debe completar los pasos para configurar una implementación híbrida de Skype Empresarial Server o Lync Server 2013, tal como se describe en [Deploy hybrid connectivity between Skype Empresarial Server y Office 365](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). Para obtener más información sobre implementaciones híbridas, vea [Plan hybrid connectivity between Skype Empresarial Server and Office 365](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). 
 
     Si usa Lync Server 2013, vea [Lync Server 2013 hybrid](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-2013-hybrid).
 

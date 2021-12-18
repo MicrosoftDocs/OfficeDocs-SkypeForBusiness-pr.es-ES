@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Resumen: revise este tema para obtener información sobre cómo integrar Skype Empresarial Server con Exchange Server 2016 o Exchange Server 2013.'
-ms.openlocfilehash: 8613f080aa878c5111a4c69c38b77f9c16606b26
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5edfdf44b50d2a58c097bed5ee83855f375ff895
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844133"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562842"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan para la integración de Skype Empresarial y Exchange
  
@@ -28,7 +28,7 @@ Antes de poder integrar Skype Empresarial Server y Exchange Server, debe asegura
   
 Para obtener más información acerca de Exchange Server, consulte la documentación Exchange Server planeación e implementación de la versión de Exchange. 
    
-Una vez que los servidores estén en funcionamiento, debe asignar certificados de autenticación de servidor a servidor a Skype Empresarial Server y Exchange Server; estos certificados permiten Skype Empresarial Server y Exchange Server intercambiar información y comunicarse entre sí. Al instalar Exchange Server, se crea un certificado autofirmado con el nombre Microsoft Exchange Server certificado de autenticación automáticamente. Este certificado, que se puede encontrar en el almacén de certificados de equipo local, debe usarse para la autenticación de servidor a servidor en Exchange Server. Para obtener más información sobre cómo asignar certificados en Exchange Server, vea [Configure Mail Flow and Client Access](/exchange/configure-mail-flow-and-client-access-exchange-2013-help).
+Después de que los servidores estén en funcionamiento, debe asignar certificados de autenticación de servidor a servidor a Skype Empresarial Server y Exchange Server; estos certificados permiten Skype Empresarial Server y Exchange Server  intercambiar información y comunicarse entre sí. Al instalar Exchange Server, se crea un certificado autofirmado con el nombre Microsoft Exchange Server certificado de autenticación automáticamente. Este certificado, que se puede encontrar en el almacén de certificados de equipo local, debe usarse para la autenticación de servidor a servidor en Exchange Server. Para obtener más información sobre cómo asignar certificados en Exchange Server, vea [Configure Mail Flow and Client Access](/exchange/configure-mail-flow-and-client-access-exchange-2013-help).
   
 Por Skype Empresarial Server puede usar un certificado de Skype Empresarial Server existente como certificado de autenticación de servidor a servidor; por ejemplo, el certificado predeterminado también se puede usar como certificado OAuthTokenIssuer. Skype Empresarial Server permite usar cualquier certificado de servidor web como certificado para la autenticación de servidor a servidor siempre que:
   
@@ -66,7 +66,7 @@ Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri 
 
 Para obtener más información sobre el servicio de detección automática, vea [Autodiscover Service](/Exchange/architecture/client-access/autodiscover).
   
-Después de configurar el servicio de detección automática, debe modificar las Skype Empresarial Server de configuración de OAuth; esto garantiza que Skype Empresarial Server dónde encontrar el servicio de detección automática. Para modificar las opciones de configuración de OAuth en Skype Empresarial Server, ejecute el siguiente comando desde el Shell Skype Empresarial Server administración. Al ejecutar este comando, asegúrese de especificar el URI para el servicio de detección automática que se ejecuta en su Exchange Server y de usar **autodiscover.svc** para apuntar a la ubicación del servicio en lugar de **autodiscover.xml** (que apunta al archivo XML usado por el servicio):
+Después de configurar el servicio de detección automática, debe modificar las opciones de configuración de OAuth de Skype Empresarial Server; esto garantiza que Skype Empresarial Server sabe dónde encontrar el servicio de detección automática. Para modificar las opciones de configuración de OAuth en Skype Empresarial Server, ejecute el siguiente comando desde el Shell Skype Empresarial Server administración. Al ejecutar este comando, asegúrese de especificar el URI para el servicio de detección automática que se ejecuta en su Exchange Server y de usar **autodiscover.svc** para apuntar a la ubicación del servicio en lugar de **autodiscover.xml** (que apunta al archivo XML usado por el servicio):
   
 ```PowerShell
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
@@ -83,13 +83,13 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
   
 Además de configurar el servicio de detección automática, también debe crear un registro DNS para el servicio que apunta a su Exchange Server. Por ejemplo, si el servicio de detección automática se encuentra en autodiscover.litwareinc.com deberá crear un registro DNS para autodiscover.litwareinc.com que se resuelva en el nombre de dominio completo de su Exchange Server (por ejemplo, atl-exchange-001.litwareinc.com).
   
-Si va a integrar Skype Empresarial Server con Exchange Online, los pasos siguientes se encuentran en Configurar la integración entre Skype Empresarial Server local y [Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md), de lo contrario, vea [Integrar Skype Empresarial Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)con Exchange Server .
+Si va a integrar Skype Empresarial Server con Exchange Online, los pasos siguientes se encuentran en Configurar la integración entre Skype Empresarial Server local y [Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md), de lo contrario, vea [Integrar Skype Empresarial Server con Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 ## <a name="feature-support"></a>Compatibilidad con características
 <a name="feature_support"> </a>
 
 >[!Important]
-> Skype Empresarial Online se retirará el 31 de julio de 2021 después de que las integraciones de Exchange que se enumeran a continuación que incluyen el servicio ya no sean compatibles.
+> Skype Empresarial Online se retiró el 31 de julio de 2021. Las Exchange que se enumeran a continuación que incluyen el servicio ya no son compatibles.
 
 En la tabla siguiente se detallan las características admitidas en varias combinaciones de elementos locales o en línea para Exchange y Skype Empresarial.
   
@@ -98,26 +98,26 @@ En la tabla siguiente se detallan las características admitidas en varias combi
 |Presencia en Outlook   |v   |v   |v   |v   |v   |
 |Responder a través de mensajería instantánea, llamada RTC, Skype o videollamada desde un correo Outlook correo electrónico   |v   |v   |v   |v   |v   |
 |Programar y unirse a reuniones en línea a través de Outlook   |v   |v   |v   |v   |v   |
-|Presencia en Outlook Web App   |v   |v   |N   |N   |Y   |
-|Responder a través de mensajería instantánea, llamada RTC, Skype o videollamada desde un correo electrónico de OWA   |v   |v   |N   |N   |Y   |
-|Programar y unirse a reuniones en línea a través de Outlook Web App   |v   |v   |N   |N   |Y   |
+|Presencia en Outlook Web App   |v   |v   |N   |N   |v   |
+|Responder a través de mensajería instantánea, llamada RTC, Skype o videollamada desde un correo electrónico de OWA   |v   |v   |N   |N   |v   |
+|Programar y unirse a reuniones en línea a través de Outlook Web App   |v   |v   |N   |N   |v   |
 |Mensajería instantánea/presencia en clientes móviles   |v   |v   |v   |v   |v   |
 |Unirse a reuniones en línea en clientes móviles   |v   |v   |v   |v   |v   |
 |Estado de publicación basado en Outlook de disponibilidad del calendario   |v   |v   |v   |v   |v   |
-|Lista de contactos (a través del Almacén de contactos unificado)   |Y (necesita Exchange 2016/2013)   |v   |N   |N   |Y   |
+|Lista de contactos (a través del Almacén de contactos unificado)   |Y (necesita Exchange 2016/2013)   |v   |N   |N   |v   |
 |Foto de contacto de alta resolución (requiere Lync 2013 o Skype Empresarial clientes como mínimo. No compatible con LWA, aplicaciones móviles, Lync 2010, Lync para Mac y otros clientes antiguos).   |Y (necesita Exchange 2016/2013)   |v   |N   |v   |v   |
 |Delegación de reuniones   |v   |v   |v   |v   |v   |
 |El historial de conversaciones perdidas y los registros de llamadas se escriben en el buzón de exchange del usuario   |v   |v   |v   |v   |v   |
-|Contenido de archivado (MI y reunión) en Exchange   |Y (necesita Exchange 2016/2013)   |v   |N   |N   |Y   |
-|Buscar contenido archivado   |Y (necesita Exchange 2016/2013)   |v   |N   |N   |Y   |
-|Exchange Correo de voz de mensajería unificada   |v   |v   |N   |N   |N   |
+|Contenido de archivado (MI y reunión) en Exchange   |Y (necesita Exchange 2016/2013)   |v   |N   |N   |v   |
+|Buscar contenido archivado   |Y (necesita Exchange 2016/2013)   |v   |N   |N   |v   |
+|Exchange de voz de mensajería unificada   |v   |v   |N   |N   |N   |
 |Historial de conversaciones del lado servidor   |v   |v   |N   |v   |v   |
 
 > [!NOTE]
 > Hay un servicio Correo de voz en la nube compatible con Skype Empresarial Online, Skype Empresarial Server 2019, Skype Empresarial Server 2015 y Lync Server 2013.
 > 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="feature_support"> </a>
 
 [Configurar la integración entre las Skype Empresarial Server locales y Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)

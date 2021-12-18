@@ -19,17 +19,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Summary: Read this topic to learn how to assign a voice policy for users using Sistema telefónico with on-premises PSTN connectivity.'
-ms.openlocfilehash: aa31624921aefd1065b0719966af1df9d2b38793
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 158cd8e7bcd996297077adfb2c812febf4dc491b
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013174"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563361"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Asignar una directiva de enrutado de voz
  
 > [!Important]
-> Skype Empresarial Online se retirará el 31 de julio de 2021 después de lo cual el servicio ya no será accesible.  Además, ya no se admite la conectividad RTC entre el entorno local mediante Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online.  Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo](/MicrosoftTeams/direct-routing-landing-page).
+> Skype Empresarial Online se retiró el 31 de julio de 2021 y la conectividad RTC entre el entorno local, ya sea a través de Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online, ya no es compatible.  Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo](/MicrosoftTeams/direct-routing-landing-page).
 
 **Resumen:** Lea este tema para obtener información sobre cómo asignar una directiva de voz para los usuarios que usan Sistema telefónico con conectividad RTC local. 
   

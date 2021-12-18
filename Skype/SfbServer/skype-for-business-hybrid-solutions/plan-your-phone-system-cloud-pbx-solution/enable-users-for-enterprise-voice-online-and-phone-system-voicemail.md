@@ -19,17 +19,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Obtenga información sobre cómo habilitar Sistema telefónico de voz para los Skype Empresarial usuarios.
-ms.openlocfilehash: b82121dff3c7a82827d6e19fdb0b78bfeee263f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9c9123b79a1fd5557d0d31db7b4b150bcda80af3
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602315"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563443"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Habilitar a los usuarios para telefonía IP empresarial en línea y Sistema telefónico en correo de voz
  
 > [!Important]
-> Skype Empresarial Online se retirará el 31 de julio de 2021 después de lo cual el servicio ya no será accesible.  Además, ya no se admite la conectividad RTC entre el entorno local mediante Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online.  Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo](/MicrosoftTeams/direct-routing-landing-page).
+> Skype Empresarial Online se retiró el 31 de julio de 2021 y la conectividad RTC entre el entorno local, ya sea a través de Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online, ya no es compatible.  Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo](/MicrosoftTeams/direct-routing-landing-page).
 
 Obtenga información sobre cómo habilitar Sistema telefónico de voz para los Skype Empresarial usuarios.
   
@@ -134,7 +134,7 @@ En esta sección se describe cómo actualizar las directivas de enrutamiento de 
 Sistema telefónico usuarios deben tener asignada una directiva de enrutamiento de voz para que las llamadas se enruten correctamente. Esto difiere de los usuarios locales de voz empresarial que requieren que se les asigne una directiva de voz para permitir que las llamadas se enruten correctamente. La directiva de enrutamiento de voz debe contener usos de RTC que definan las llamadas y rutas autorizadas para Sistema telefónico usuarios. Puede copiar estos usos de RTC de directivas de voz existentes a nuevas directivas de enrutamiento de voz. Para obtener más información, [vea New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
-> A Sistema telefónico usuarios se les asigna la misma directiva de voz en línea denominada BusinessVoice que define las características de llamada permitidas; por ejemplo, Permitir anillo simultáneo. 
+> A Sistema telefónico usuarios se les asigna la misma directiva de voz en línea denominada BusinessVoice que define las características de llamada permitidas; por ejemplo, Permitir llamada simultánea. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Para asignar una directiva de enrutamiento de voz por usuario a un solo usuario
 

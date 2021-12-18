@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Obtenga más información sobre las Microsoft Teams de voz en la nube y las decisiones de implementación que tome para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f24e7934f3f9fe1be463c47e73933a6965d56cc9
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 939c31477454828484c88fea0a8f34e19b640a8b
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267773"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563605"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planear su Teams de voz 
 
@@ -79,7 +79,7 @@ Considere cuál de estas configuraciones adicionales puede necesitar:
 | [**Migrar la solución de voz existente**](#migrate-your-existing-voice-solution-to-teams) | Qué debe pensar al migrar la solución de voz a Teams.  Lea esta sección si va a migrar desde una solución de voz existente a Teams. 
 
 > [!Important]
-> Este artículo se centra en las soluciones de voz con Microsoft Teams. Es importante comprender que Skype Empresarial Online se retirará el 31 de julio de 2021. Después de esa fecha, el Skype Empresarial online ya no será accesible. Además, la conectividad RTC entre su entorno local ya sea a través de Skype Empresarial Server o Cloud Connector Edition y &mdash; Skype Empresarial Online ya no será &mdash; compatible. En este artículo se Teams soluciones de voz y cómo puede conectar su red de telefonía local, si es necesario, a Teams mediante Operador Conectar o Enrutamiento directo.
+> Este artículo se centra en las soluciones de voz con Microsoft Teams. Debido a la retirada de Skype Empresarial Online el 31 de julio de 2021, la conectividad RTC entre su entorno local ya no es compatible con Skype Empresarial Server o Cloud Connector Edition y &mdash; &mdash; Skype Empresarial Online. En este artículo se Teams soluciones de voz y cómo puede conectar su red de telefonía local, si es necesario, a Teams mediante Operador Conectar o Enrutamiento directo.
 
 
 ## <a name="teams-phone"></a>Teams Teléfono

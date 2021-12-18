@@ -19,19 +19,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Para que un usuario use Sistema telefónico (PBX en la nube), primero debe habilitarlos para Telefonía IP empresarial y asignarles un número de teléfono. Para ello, use la implementación local mientras el usuario aún esté en la implementación local.
-ms.openlocfilehash: 29fd1eff47a73c7e3469ab7967a1f7cb0a006a75
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a71b47b5b7b5ec7ca7328bbe9b0ee864b87f36ac
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012514"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563719"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Habilitar los usuarios para Telefonía IP empresarial local
  
 Para que un usuario use Sistema telefónico (PBX en la nube), primero debe habilitarlos para Telefonía IP empresarial y asignarles un número de teléfono. Para ello, use la implementación local mientras el usuario aún esté en la implementación local.
 
 > [!Important]
-> Skype Empresarial Online se retirará el 31 de julio de 2021 después de lo cual el servicio ya no será accesible.  Además, ya no se admite la conectividad RTC entre el entorno local mediante Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online.  Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo](/MicrosoftTeams/direct-routing-landing-page).
+> Skype Empresarial Online se retiró el 31 de julio de 2021 y la conectividad RTC entre el entorno local, ya sea a través de Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online, ya no es compatible.  Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo](/MicrosoftTeams/direct-routing-landing-page).
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>Para habilitar un usuario para Telefonía IP empresarial local y asignar un número de teléfono
 

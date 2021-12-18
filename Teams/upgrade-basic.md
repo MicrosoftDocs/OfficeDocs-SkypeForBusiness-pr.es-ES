@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a06c4783e9ee4f42473e6b08f0d9bd51c142ddf
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: a3d7ef1ae0375b7cdec373450135e5eed148f776
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124257"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562802"
 ---
 # <a name="upgrade-basic"></a>Actualizar Basic
 
@@ -39,7 +39,7 @@ Diseñada para organizaciones más pequeñas o aquellas que usan Skype Empresari
 Estos diez sencillos pasos proporcionan todo lo que necesita para una actualización correcta. Están diseñados para completarse en aproximadamente 30 a 45 días, pero debe ajustar las fechas de finalización de tareas en función de la programación de actualización de su organización.
 
 > [!IMPORTANT]
-> Skype Empresarial Online se retirará el 31 de julio de 2021. Después de ese tiempo, el Skype Empresarial online ya no será accesible ni compatible. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams.
+> Skype Empresarial Online se retiró el 31 de julio de 2021. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams.
 
 ¿Qué sucede con Skype Empresarial después de la actualización? Después de la actualización de los usuarios a Teams (modo **solo Teams**):
 

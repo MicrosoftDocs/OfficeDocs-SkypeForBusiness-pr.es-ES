@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49ca0fb50f6e78f8c9ee3cd37aaba21c0929e014
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 39ba6728db7a9146b07104fec82bbd83554ed088
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732789"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563220"
 ---
 # <a name="define-your-project-scope"></a>Definir el ámbito del proyecto
 
@@ -39,8 +39,8 @@ Tomar tiempo para definir la visión, el ámbito, los objetivos y el gobierno de
 
 | &nbsp;| &nbsp;|
 |---|---|
-| ![Un icono que muestra los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué desea lograr con este proyecto (es decir, por qué lo está haciendo)?</li><li>¿Cómo es el éxito?</li><li>¿Cuáles son los riesgos y cuál es su plan para mitigar esos riesgos?</li></ul> |
-| ![Un icono que muestra los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Hable sobre las siguientes secciones con el equipo del proyecto y los patrocinadores.</li><li>Documente su visión, ámbito, objetivos y riesgos para este proyecto.</li><li>Vuelva a visitar el equipo del proyecto para validar que ha contratado al equipo adecuado.</li></ul>|
+| ![Un icono que representa los puntos de decisión.](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué desea lograr con este proyecto (es decir, por qué lo está haciendo)?</li><li>¿Cómo es el éxito?</li><li>¿Cuáles son los riesgos y cuál es su plan para mitigar esos riesgos?</li></ul> |
+| ![Un icono que representa los pasos siguientes.](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Hable sobre las siguientes secciones con el equipo del proyecto y los patrocinadores.</li><li>Documente su visión, ámbito, objetivos y riesgos para este proyecto.</li><li>Vuelva a visitar el equipo del proyecto para validar que ha contratado al equipo adecuado.</li></ul>|
 
 ## <a name="project-vision"></a>Project visión
 
@@ -125,4 +125,4 @@ Como punto de referencia, se proporciona una escala de tiempo de ejemplo para la
 
 Después de completar las actividades descritas anteriormente, debe tener una base sólida para el proyecto. Continúe con la [preparación técnica y](./upgrade-prepare-environment.md) las actividades de [planeación de preparación](./upgrade-prepare-organization.md) de la organización.
 
-Recuerde: Skype Empresarial Online se retirará el 31 de julio de 2021. Después de ese tiempo, el Skype Empresarial online ya no será accesible ni compatible. Para maximizar la realización de beneficios y asegurarse de que su organización tiene el tiempo adecuado para completar la actualización, le recomendamos que comience su viaje a Microsoft Teams hoy.
+Skype Empresarial Online se retiró el 31 de julio de 2021. Para maximizar la realización de beneficios y asegurarse de que su organización tiene el tiempo adecuado para completar la actualización, le recomendamos que comience su viaje a Microsoft Teams hoy.

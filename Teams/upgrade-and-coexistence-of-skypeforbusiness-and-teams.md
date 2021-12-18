@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11644e527338e4c37056071893c3d3ad735253f0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: deb64412a96ece539decd8dc2145067a91a1b95f
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733709"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562822"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Elegir la vía de actualización de Skype Empresarial a Teams
 
@@ -41,7 +41,7 @@ Este artículo forma parte de la fase de definición de proyecto de su vía de a
 Como cliente existente de Skype Empresarial, la transición completa a Teams puede llevar cierto tiempo. Sin embargo, puede empezar hoy mismo a comprender el valor de Teams habilitando a sus usuarios para utilizar Teams junto con Skype Empresarial. Dado que hay algunas funciones superpuestas entre las dos aplicaciones, le recomendamos que revise los modos de coexistencia y actualización disponibles para ayudar a determinar qué ruta es la adecuada para su organización. Por ejemplo, es posible que decida permitir todas las cargas de trabajo en ambas soluciones sin interoperabilidad. O bien, puede decidir administrar la experiencia de usuario, ya sea mediante la introducción gradual de las funciones de Teams o seleccionando grupos de usuarios para ciertas funciones, hasta que la organización esté preparada para actualizar a todos sus miembros a Teams. Use el resultado de la prueba piloto para evaluar la vía adecuada para la actualización de su organización.
 
 > [!IMPORTANT]
-> Skype Empresarial Online se retirará el 31 de julio de 2021, momento a partir del cual ya no será posible obtener acceso a este soporte. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams.
+> Skype Empresarial Online se retiró el 31 de julio de 2021. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams.
 
 Este artículo describe los distintos modos que le permiten administrar las modalidades de Skype Empresarial y de Teams que estarán disponibles para los usuarios. Al igual que con cualquier implementación, le recomendamos encarecidamente que [pilote el plan previsto](pilot-essentials.md) con un grupo seleccionado de usuarios antes de actualizar toda la organización a Teams. Recuerde que la introducción de nuevas tecnologías puede suponer molestias para los usuarios. Tómese el tiempo para evaluar el nivel de preparación de los usuarios e implementar un plan de comunicación y capacitación antes de implementar cualquiera de los modos descritos en este documento.
 
@@ -88,7 +88,7 @@ Al usar el método de funciones superpuestas, el tráfico de comunicación para 
 
 - Las comunicaciones iniciadas Teams  cliente de un usuario de una organización externa siempre llegarán al cliente de Skype Empresarial usuario A.
 
-Si ha asignado una licencia Microsoft 365 o Office 365 a los usuarios, esta será la experiencia de actualización predeterminada para su organización. Al asignar una licencia Microsoft 365 o Office 365, tanto Teams como Skype Empresarial licencias en línea se asignan de forma predeterminada. <sup>2</sup>
+Si ha asignado una licencia Microsoft 365 o Office 365 a los usuarios, esta será la experiencia de actualización predeterminada para su organización. Al asignar una licencia Microsoft 365 o Office 365, tanto Teams como Skype Empresarial licencias en línea se asignan de forma predeterminada.<sup> 2</sup>
 
 Para que este método funcione de forma eficaz, todos los usuarios deben ejecutar simultáneamente ambos clientes. Los chats y llamadas entrantes desde la organización a un usuario en el modo Islas pueden llegar al cliente de Skype Empresarial o al de Teams, circunstancia esta que no está bajo el control del destinatario. Depende del cliente que el remitente use para iniciar la comunicación. Si el remitente y el destinatario están en distintas organizaciones, las llamadas entrantes y chats a un usuario en modo Islas siempre se encuentran en el cliente de Skype Empresarial.
 
@@ -185,7 +185,7 @@ En la tabla siguiente se resumen los métodos de actualización:
 |La interoperabilidad entre Skype Empresarial y Teams no existe mientras ambos usuarios se encuentren en modo Islas. Una vez que algunos usuarios se actualicen a TeamsLa conversación de interoperabilidad puede producirse entre esos usuarios y otros usuarios que todavía están en modo Islas. Sin embargo, los usuarios de islas podrían elegir usar Teams y evitar la conversación de interoperabilidad.      |La interoperabilidad es necesaria para la comunicación entre los usuarios de Skype Empresarial y Teams.         |
 
 > [!NOTE]
-> Si no puede seguir los métodos admitidos para migrar sus usuarios desde Skype Empresarial Server a Teams, es posible realizar la transición de los usuarios a Teams quitando Skype Empresarial Server y todos los atributos de usuario relacionados en Active Directory. Una vez que los Azure Active Directory usuarios se hayan borrado de los atributos de Skype Empresarial Server y los registros DNS se hayan vuelto a apuntar Microsoft 365 o Office 365, entonces sería posible licenciar a los usuarios en Microsoft 365 o Office 365 y actualizarlos a Teams. 
+> Si no puede seguir los métodos admitidos para migrar sus usuarios desde Skype Empresarial Server a Teams, es posible realizar la transición de los usuarios a Teams quitando Skype Empresarial Server y todos los atributos de usuario relacionados en Active Directory. Una vez que los usuarios Azure Active Directory atributos se hayan borrado de los atributos de Skype Empresarial Server y los registros DNS se hayan vuelto a apuntar a Microsoft 365 o Office 365, entonces sería posible licenciar a los usuarios en Microsoft 365 o Office 365 actualizarlos a Teams. 
 
 > [!IMPORTANT]
 > Con la migración total, los datos de contactos y reuniones no se migrarán del entorno local a Microsoft Teams.

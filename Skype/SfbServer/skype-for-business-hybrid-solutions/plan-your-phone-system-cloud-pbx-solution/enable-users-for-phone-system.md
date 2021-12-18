@@ -19,31 +19,31 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc3db88-0210-4804-b54e-ba4af1234884
 description: 'En este tema se describe cómo habilitar a los usuarios Sistema telefónico con conectividad RTC local. Antes de seguir los pasos de este tema, debe leer lo siguiente: .'
-ms.openlocfilehash: 22e0db6b9cd99c7909bcc6477db28546feef21d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ffd7e9f02466dddeef31ba7ffd3a194a04b9b2ff
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625042"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563667"
 ---
 # <a name="enable-users-for-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Permitir que los usuarios usen el Sistema telefónico con una conectividad RTC local en Skype Empresarial Server
 
 En este tema se describe cómo habilitar a los usuarios Sistema telefónico con conectividad RTC local. Antes de seguir los pasos de este tema, debe leer lo siguiente: .
   
-- Para obtener información sobre cómo configurar la conectividad híbrida, vea [Plan hybrid connectivity between Skype Empresarial Server and Skype Empresarial Online](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) e Deploy hybrid connectivity between Skype Empresarial Server and Skype Empresarial [Online](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json).
+- Para obtener información sobre cómo configurar la conectividad híbrida, vea [Plan hybrid connectivity between Skype Empresarial Server and Skype Empresarial Online](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) e Deploy hybrid connectivity between Skype Empresarial Server and [Skype Empresarial En línea](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json).
     
 - Para obtener información sobre la planeación de la implementación, [vea Plan Sistema telefónico with on-premises PSTN connectivity in Skype Empresarial Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
     
 - Para obtener más información Sistema telefónico, incluidas las licencias y los planes, vea Planes de llamadas [RTC para Skype Empresarial](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918).
     
 > [!Important]
-> Skype Empresarial Online se retirará el 31 de julio de 2021 después de lo cual el servicio ya no será accesible.  Además, ya no se admite la conectividad RTC entre el entorno local mediante Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online.  Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo](/MicrosoftTeams/direct-routing-landing-page).
+> Skype Empresarial Online se retiró el 31 de julio de 2021 y la conectividad RTC entre el entorno local, ya sea a través de Skype Empresarial Server o Cloud Connector Edition y Skype Empresarial Online, ya no es compatible. Obtenga información sobre cómo conectar la red de telefonía local a Teams mediante [enrutamiento directo](/MicrosoftTeams/direct-routing-landing-page).
 
 ## <a name="moving-users-to-phone-system-with-on-premises-pstn-connectivity"></a>Mover usuarios a Sistema telefónico con conectividad RTC local
 
 Antes de mover los usuarios a Skype Empresarial Online, se recomienda habilitar los usuarios locales en Skype Empresarial Server o Lync Server 2013 y, a continuación, moverlos en línea. Para obtener más información, vea [Plan hybrid connectivity between Skype Empresarial Server and Skype Empresarial Online](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) y la sección de consideraciones especiales de Enable the users for Telefonía IP empresarial on [premises](enable-the-users-for-enterprise-voice-on-premises.md) (performed while the users are homed on-premises). 
   
-Todos los usuarios deben crearse en Active Directory localmente y sincronizarse Microsoft 365 o Office 365 con la versión compatible de Azure AD Connector. No puede habilitar usuarios para Sistema telefónico en Office 365 que se crearon directamente en Azure AD. Si desea habilitar Sistema telefónico con conectividad RTC local para un usuario que se creó en Azure AD, deberá crear una nueva cuenta para ese usuario en su AD local, configurar la cuenta local y, a continuación, sincronizar la cuenta con una versión compatible de la herramienta Azure AD Connector. 
+Todos los usuarios deben crearse en Active Directory localmente y sincronizarse Microsoft 365 o Office 365 con la versión compatible de Azure AD Connector. No puede habilitar usuarios para Sistema telefónico en Office 365 que se crearon directamente en Azure AD. Si desea habilitar Sistema telefónico con conectividad RTC local para un usuario que se creó en Azure AD, deberá crear una nueva cuenta para ese usuario en su AD local, configurar la cuenta local y, a continuación, sincronizar la cuenta con una versión compatible de la herramienta de conector de Azure AD. 
   
 Habilitar un usuario para Sistema telefónico con conectividad RTC local y, a continuación, moverlos a Skype Empresarial Online requiere los siguientes pasos:
   

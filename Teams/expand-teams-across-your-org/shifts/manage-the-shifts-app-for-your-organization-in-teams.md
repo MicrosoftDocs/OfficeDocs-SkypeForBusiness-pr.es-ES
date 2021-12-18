@@ -1,9 +1,9 @@
 ---
 title: Administrar la aplicación Turnos para su organización
-author: serdarsoysal
-ms.author: serdars
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: lisawu,gumariam
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 87389dfaba68de8cfe02f3291e03d593bb9de75b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: d474198bc644563007428ac50a85f8f839a9e1dc
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605836"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562933"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
@@ -41,7 +41,7 @@ La aplicación Turnos de Microsoft Teams mantiene a los trabajadores de primera 
 - Los administradores pueden crear, actualizar y administrar la programación de los turnos del equipo. También pueden enviar mensajes únicamente a un usuario ("se ha caído algo al suelo") o a todo el equipo ("el director general regional llegará en 20 minutos"). Pueden enviar documentos de directivas, boletines de noticias y vídeos.
 - Los empleados pueden consultar sus próximos turnos, ver quién más está en la programación del día, solicitar permutas de turnos y solicitar licencias.
 
-Es importante saber que los turnos actualmente no admiten invitados. Esto significa que los invitados de un equipo no se pueden agregar ni usar horarios de turnos cuando el acceso de invitado está activado en Teams. 
+Es importante saber que los turnos actualmente no admiten invitados. Esto significa que los invitados de un equipo no se pueden agregar ni usar horarios de turnos cuando el acceso de invitado está activado en Teams.
 
 > [!Note]
 > Para obtener más información sobre las capacidades de Turnos en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -70,19 +70,15 @@ De forma predeterminada, Turnos está habilitado para todos los usuarios de Team
 
 Para permitir o bloquear usuarios específicos de su organización de usar Turnos, asegúrese de que los turnos están activados para su organización en la página Administrar [aplicaciones.](../../manage-apps.md) A continuación, cree una directiva de permisos de aplicación personalizada y asígnela a esos usuarios. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](../../teams-app-permission-policies.md).
 
-### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Use la directiva de configuración de la aplicación FirstLineWorker para anclar Turnos a Teams
+### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Use una directiva de configuración de la aplicación para anclar Turnos a Teams
 
 Las directivas de configuración de aplicaciones le permiten personalizar Teams para resaltar las aplicaciones que sean más importantes para los usuarios de su organización. Las aplicaciones que establecen en una directiva se anclan a la barra de aplicaciones &mdash;situada en el lateral en el cliente de escritorio de Teams y en la parte inferior para los clientes móviles de Teams&mdash; donde los usuarios pueden acceder a ellas rápida y fácilmente.
- 
-Teams incluye una directiva de configuración de la aplicación FirstLineWorker integrada que puede asignar a los trabajadores de primera línea de su organización. De forma predeterminada, la directiva incluye las aplicaciones Actividad, Turnos, Chat y Llamadas.
 
-Para ver la directiva de FirstLineWorker, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a Teams **directivas** de configuración  >  **de aplicaciones.**
+Puede crear una directiva [de configuración de aplicaciones personalizada](../../teams-app-setup-policies.md) agregando la aplicación Turnos y, a continuación, asigne la [directiva](../../assign-policies-users-and-groups.md) a los usuarios. O bien, puede usar la directiva de configuración de la aplicación que forma parte de los paquetes de directiva De frontline worker y Frontline Manager.
 
-:::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="Captura de pantalla de la directiva de configuración de la aplicación FirstLineWorker en el centro Microsoft Teams administración" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
+Un [paquete de](../../manage-policy-packages.md) directivas Teams es una colección de directivas predefinidas y configuraciones de directiva que puede asignar a usuarios que tienen roles similares en su organización. El conjunto de directivas de los paquetes de directivas de Frontline Worker y Frontline Manager incluye una directiva de configuración de aplicaciones que ancla la aplicación Turnos y otras aplicaciones que admiten actividades de comunicación y colaboración para ese rol.
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>Asignar la directiva de configuración de la aplicación FirstLineWorker a los usuarios
-
-[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
+Se recomienda usar los paquetes de directivas de Frontline Worker y Frontline Manager a medida que simplifican, simplifican y ayudan a proporcionar coherencia al administrar directivas para los empleados de frontline.
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>Buscar eventos de Turnos en el registro de auditoría
 

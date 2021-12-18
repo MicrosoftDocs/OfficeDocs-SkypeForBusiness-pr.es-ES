@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo administrar la configuración general de la directiva de reunión en Teams.
-ms.openlocfilehash: b7c08799ee9e7c2b1e6239b17abaa66b7d1e3d47
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: db1515b016aec47190c26305656b205a56e13b23
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61177941"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562878"
 ---
 # <a name="meeting-policy-settings---general"></a>Configuración de la directiva de reunión. Aspectos generales
 
@@ -124,13 +124,19 @@ Tenga en cuenta que, después de establecer el valor predeterminado, los organiz
 
 Esta es una directiva por usuario. Esta configuración controla si los organizadores de reuniones pueden descargar el [informe de asistencia a reuniones](teams-analytics-and-reports/meeting-attendance-report.md).
 
-Esta directiva está desactivada de forma predeterminada y permite a los organizadores ver quién se registró y asistió a las reuniones y seminarios web que han configurado. Para activar esta opción en el centro Teams de administración, vaya a Directivas de reunión de reuniones y establezca la directiva  >  en **Habilitado.**
+Esta directiva está desactivada de forma predeterminada y permite a los organizadores ver quién se registró y asistió a las reuniones y seminarios web que han configurado. Para activar esta opción en el centro de administración Teams, vaya a Directivas de reunión de reuniones y establezca la configuración del informe de participación  >  en **Habilitado.** 
 
-Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
+También puede editar una directiva de reunión Teams mediante el cmdlet [Set-CsTeamsMeetingPolicy.](/powershell/module/skype/set-csteamsmeetingpolicy) También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
 
 Para permitir que un organizador de la reunión descargue el informe de asistencia a la reunión, establezca el parámetro **AllowEngagementReport** en **Habilitado.** Cuando se habilita, la opción para descargar el informe se muestra en el panel **Participantes**. De forma predeterminada, esta configuración no está habilitada.
 
 Para impedir que el organizador de la reunión descargue el informe, establezca el parámetro en **Deshabilitado**.
+
+> [!NOTE]
+> Como administrador, no puede ver el informe de asistencia para las reuniones que no organice. Sin embargo, puede ver los detalles de los participantes de una reunión determinada dentro de las 24 horas siguientes a esa reunión. En el Teams de administración, vaya a **Usuarios**  >  **Administrar usuarios.** Elija el nombre para mostrar del organizador de la reunión. Seleccione la **pestaña Reuniones & llamadas** y, a continuación, elija el id. de reunión o id. de llamada adecuado. A continuación, seleccione **Detalles del participante**.
+
+Para obtener más información, incluidos los límites del informe de participación, vea Ver y descargar informes de asistencia a reuniones [en Teams](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
+
 
 ## <a name="meeting-registration"></a>Registro de reunión
 
@@ -161,7 +167,7 @@ Para permitir que solo los usuarios de su organización se registren y asistan a
 
 ## <a name="meeting-provider-for-islands-mode"></a>Proveedor de reuniones para el modo Islas
 
-Esta es una directiva por usuario. Esta configuración controla qué complemento de la reunión de Outlook se usa para los *usuarios que están en modo Aplicaciones aisladas*. Puede especificar si los usuarios solo pueden usar el complemento de la reunión de Teams o los complementos de reuniones de Teams y Skype Empresarial para programar reuniones en Outlook.
+Esta es una directiva por usuario. Esta configuración controla qué complemento de la reunión de Outlook se usa para los *usuarios que están en modo Aplicaciones aisladas*. Puede especificar si los usuarios que se encuentran en modo de aplicaciones aisladas pueden usar solamente el complemento para reunión de Microsoft Teams o los complementos para reunión de Microsoft Teams y Skype Empresarial para programar reuniones en Outlook.
 
 Solo puede aplicar esta directiva a los usuarios que se encuentren en modo Aplicaciones aisladas y tengan el parámetro **AllowOutlookAddIn** establecido en **True** en la directiva de reuniones de Microsoft Teams.
 

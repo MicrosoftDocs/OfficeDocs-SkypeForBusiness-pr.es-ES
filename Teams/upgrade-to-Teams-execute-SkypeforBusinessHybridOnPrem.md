@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5269cd9033c179ad748fb8909b3010fe09311e4a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b13722c85a7cd051e695f81a62cb2533b5cf35f2
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850523"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563749"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Actualizar de Skype Empresarial local a Teams
 
@@ -46,7 +46,7 @@ Si ha implementado Skype Empresarial Server Microsoft Lync local y su organizaci
 Antes de empezar, los profesionales de [](#important-considerations-for-organizations-with-skype-for-business-server-on-premises) TI y los administradores deben revisar las consideraciones importantes para las organizaciones con Skype Empresarial Server locales más adelante en este artículo.
 
 > [!IMPORTANT]
-> Skype Empresarial Online se retirará el 31 de julio de 2021, momento a partir del cual ya no será posible obtener acceso a este soporte. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams. Recuerde que una actualización correcta alinea la preparación técnica y del usuario, por lo que asegúrese de aprovechar estas instrucciones a medida que vaya navegando hasta Microsoft Teams.
+> Skype Empresarial Online se retiró el 31 de julio de 2021. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams. Recuerde que una actualización correcta alinea la preparación técnica y del usuario, por lo que asegúrese de aprovechar estas instrucciones a medida que vaya navegando hasta Microsoft Teams.
 
 ## <a name="step-1-configure-hybrid-connectivity"></a>Paso 1: Configurar la conectividad híbrida 
 

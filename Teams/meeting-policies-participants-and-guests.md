@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo administrar la configuración de la directiva de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: ebbb13d4d0430aee6fadba10b825a6c0cb8ec3b0
-ms.sourcegitcommit: 3e724a57e946550f2f61002c8e2de1ec20c9755a
+ms.openlocfilehash: bd8146ce27f76bd03d7ef991f51dbe1dda3c08ab
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "61234308"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563126"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -98,6 +98,17 @@ Esta configuración es una configuración por participante. Esta configuración 
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="enable-meeting-policy-settings"></a>Habilitar la configuración de directiva de reunión
+
+Para habilitar la configuración de directiva de reunión, puede usar el centro de administración de [Teams](https://admin.teams.microsoft.com/policies/meetings) **(Directivas** de reunión Editar una directiva  >    >  **Participantes & invitados)** o el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) en Teams PowerShell. 
+
+En este ejemplo, usamos PowerShell para modificar la directiva global de reunión para permitir que cualquier persona pueda iniciar o unirse a una reunión.
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAnonymousUsersToStartMeeting $True -AllowPSTNUsersToBypassLobby $True
+```
+
+Una vez que haya configurado una directiva, debe aplicarla a los usuarios. Si modificó la directiva Global (predeterminada para toda la organización), se aplicará automáticamente a los usuarios. Debe esperar al menos 4 horas para que los cambios de directiva entren en vigor, pero pueden tardar hasta 24 horas.
 
 
 ## <a name="related-topics"></a>Temas relacionados
