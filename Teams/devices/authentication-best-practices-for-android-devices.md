@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 173986bdad846d27a7bd3ae5890269b88a58b3a2
-ms.sourcegitcommit: cd4eb94d0b1e9316fca2e2b771b2286eaa866ba4
+ms.openlocfilehash: 8ffa30efd7f122b6d95c4545dd2d2517f3669472
+ms.sourcegitcommit: 73d12d90fc20e3d943301f57ee434379d0b0e91b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "61566297"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "61576170"
 ---
 # <a name="authentication-best-practices-for-teams-android-devices"></a>Procedimientos recomendados de autenticación Teams dispositivos Android
 
@@ -35,12 +35,12 @@ En este artículo se proporcionan instrucciones generales y procedimientos recom
 >El acceso condicional requiere una Azure Active Directory (Azure AD) Premium suscripción.
 
 >[!NOTE]
->Es posible que las directivas para dispositivos móviles Android no se apliquen Teams dispositivos Android. 
+>Es posible que las directivas para dispositivos móviles Android no se apliquen Teams dispositivos Android.
 
 
-## <a name="user-based-devices-vs-common-area-devices"></a>Dispositivos basados en usuarios frente a dispositivos de área común
+## <a name="personal-and-shared-devices"></a>Dispositivos personales y compartidos
 
-Los dispositivos de equipos compartidos, como los dispositivos de salas de reuniones o los teléfonos de área común, no pueden usar los mismos requisitos para la inscripción y el cumplimiento que normalmente se aplican a los dispositivos personales. La aplicación de requisitos de autenticación de dispositivos personales a dispositivos compartidos causará los siguientes problemas de inicio de sesión: 
+Los Teams compartidos, como los dispositivos de salas de reuniones o los teléfonos de área común, no pueden usar los mismos requisitos para la inscripción y el cumplimiento que normalmente se aplican a los dispositivos personales. La aplicación de requisitos de autenticación de dispositivos personales a dispositivos compartidos causará los siguientes problemas de inicio de sesión:
 
 1.  **Los dispositivos se han iniciado sesión debido a directivas de contraseña**
 
