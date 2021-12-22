@@ -1509,51 +1509,19 @@ items:
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: Todos los sectores
         items:
-          - name: Turnos para Teams
-            href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            items:
-              - name: Administrar la aplicación Turnos
-                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
           - name: Bookings en Teams
             items:
               - name: Visitas virtuales con Bookings y Teams
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Administrar la aplicación Bookings
                 href: bookings-app-admin.md
-      - name: Teams para el cuidado de la salud
-        items:
-          - name: Introducción a Teams para organizaciones sanitarias
-            href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-          - name: Visitas virtuales
+          - name: Turnos para Teams
+            href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
             items:
-              - name: 'Visitas virtuales con Teams: integración en Cerner EHR'
-                href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-              - name: 'Visitas virtuales con Teams: integración en Epic EHR'
-                href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: Informes administrativos de HCE
-                href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-              - name: Visitas virtuales con Bookings y Teams
-                href: expand-teams-across-your-org/bookings-virtual-visits.md
-              - name: Administrar la experiencia de unión en exploradores móviles
-                href: expand-teams-across-your-org/mobile-browser-join.md
-          - name: Ver y asignar paquetes de directivas
-            href: policy-packages-healthcare.md
-          - name: Mensajería segura
-            items:
-              - name: Mensajería segura
-                href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
-              - name: Delegación de mensajes
-                href: expand-teams-across-your-org/healthcare/hc-delegates.md
-          - name: Usar las plantillas de equipo de asistencia sanitaria
-            href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-          - name: Administrar la aplicación Listas para su organización en Teams
-            href: manage-lists-app.md
-          - name: Administrar la aplicación Tasks para su organización
-            href: manage-tasks-app.md
-          - name: Administrar la aplicación Aprobaciones
-            href: approval-admin.md
-          - name: Administrar la aplicación Turnos para su organización en Teams
-            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+              - name: Administrar la aplicación Turnos para su organización en Teams
+                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+              - name: Administrar propietarios de programación para la administración de turnos
+                href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
       - name: Teams para Educación
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:
@@ -1617,16 +1585,6 @@ items:
             href: flw-realwear.md
           - name: Walkie-talkie
             href: walkie-talkie.md
-      - name: Teams para ONG
-        href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
-        items:
-          - name: Uso de plantillas de equipo sin ánimo de lucro
-            href: team-templates-nonprofit.md
-      - name: Teams para el comercio
-        href: expand-teams-across-your-org/teams-for-retail-landing-page.md
-        items:
-          - name: Usar plantillas de equipo de venta al por menor
-            href: get-started-with-retail-teams-templates.md
       - name: Teams para la Administración Pública
         href: expand-teams-across-your-org/teams-for-government-landing-page.md
         items:
@@ -1646,6 +1604,50 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: Paquetes de directivas de Teams para la administración pública
             href: policy-packages-gov.md
+      - name: Teams para el cuidado de la salud
+        items:
+          - name: Introducción a Teams para organizaciones sanitarias
+            href: expand-teams-across-your-org/healthcare/teams-in-hc.md
+          - name: Visitas virtuales
+            items:
+              - name: 'Visitas virtuales con Teams: integración en Cerner EHR'
+                href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
+              - name: 'Visitas virtuales con Teams: integración en Epic EHR'
+                href: expand-teams-across-your-org/healthcare/ehr-admin.md
+              - name: Informes administrativos de HCE
+                href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
+              - name: Visitas virtuales con Bookings y Teams
+                href: expand-teams-across-your-org/bookings-virtual-visits.md
+              - name: Administrar la experiencia de unión en exploradores móviles
+                href: expand-teams-across-your-org/mobile-browser-join.md
+          - name: Ver y asignar paquetes de directivas
+            href: policy-packages-healthcare.md
+          - name: Mensajería segura
+            items:
+              - name: Mensajería segura
+                href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
+              - name: Delegación de mensajes
+                href: expand-teams-across-your-org/healthcare/hc-delegates.md
+          - name: Usar las plantillas de equipo de asistencia sanitaria
+            href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
+          - name: Administrar la aplicación Aprobaciones
+            href: approval-admin.md
+          - name: Administrar la aplicación Listas para su organización en Teams
+            href: manage-lists-app.md
+          - name: Administrar la aplicación Turnos para su organización en Teams
+            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+          - name: Administrar la aplicación Tasks para su organización
+            href: manage-tasks-app.md
+      - name: Teams para ONG
+        href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
+        items:
+          - name: Uso de plantillas de equipo sin ánimo de lucro
+            href: team-templates-nonprofit.md
+      - name: Teams para el comercio
+        href: expand-teams-across-your-org/teams-for-retail-landing-page.md
+        items:
+          - name: Usar plantillas de equipo de venta al por menor
+            href: get-started-with-retail-teams-templates.md
   - name: Referencia
     items:
       - name: Especificaciones y límites de Teams

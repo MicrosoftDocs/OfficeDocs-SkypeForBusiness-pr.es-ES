@@ -20,12 +20,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: c559f3df8ed810bab9e1ce7f48ce0486631d7699
-ms.sourcegitcommit: 7aa446f90c3a82f35a24c4eb83158fc2144dc4ed
+ms.openlocfilehash: 6b2dbd5e48793422d8cbbf2252296e6bc17788a3
+ms.sourcegitcommit: 46375d36a879dd318e749df10bee75c6aa416bbc
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/22/2021
-ms.locfileid: "61583825"
+ms.locfileid: "61592144"
 ---
 # <a name="shifts-for-teams"></a>Turnos para Teams
 
@@ -55,4 +55,4 @@ Use los siguientes recursos para ayudarle a configurar y administrar turnos en s
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| <img src="/office/media/icons/get-started-teams.png" alt="Get started symbol.">  |  [Vídeo: ¿Qué es Turnos?](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |<img src="/office/media/icons/clock-teams.png" alt="Clock symbol."> |  [Vídeo: Crear una programación de turnos](https://support.microsoft.com/office/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |<img src="/office/media/icons/blocks-teams.png." alt="Blocks symbol.">|  [Vídeo: Administrar una programación de turnos](https://support.microsoft.com/office/manage-and-view-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |
+| <img src="/office/media/icons/get-started-teams.png" alt="Get started symbol.">  |  [Vídeo: ¿Qué es Turnos?](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |<img src="/office/media/icons/clock-teams.png" alt="Clock symbol."> |  [Vídeo: Crear una programación de turnos](https://support.microsoft.com/office/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |<img src="/office/media/icons/blocks-teams.png" alt="Blocks symbol.">|  [Vídeo: Administrar una programación de turnos](https://support.microsoft.com/office/manage-and-view-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |
