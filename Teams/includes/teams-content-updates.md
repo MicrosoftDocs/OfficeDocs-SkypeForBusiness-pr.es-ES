@@ -3,6 +3,44 @@
 
 
 
+## <a name="week-of-december-13-2021"></a>Semana del 13 de diciembre de 2021
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 12/13/2021 | [Notas de la versión de Salas de Microsoft Teams](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
+| 12/13/2021 | [Configurar SIP Gateway](/MicrosoftTeams/sip-gateway-configure) | modificado |
+| 12/13/2021 | [Problemas conocidos](/MicrosoftTeams/rooms/known-issues) | modificado |
+| 12/13/2021 | [Microsoft Teams notas de la versión de PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
+| 12/14/2021 | [Administrar la Elogio en el centro Teams administración](/MicrosoftTeams/manage-praise-app) | modificado |
+| 12/14/2021 | [Instalar Teams con Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modificado |
+| 12/14/2021 | [Cerrar sesión en Microsoft Teams](/MicrosoftTeams/sign-out-of-teams) | modificado |
+| 12/14/2021 | [Teams para la infraestructura de escritorio virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
+| 12/14/2021 | [Actualizaciones asistidos \| Skype Business Online para Teams actualización](/MicrosoftTeams/upgrade-assisted) | modificado |
+| 12/14/2021 | [Administrar el acceso externo (federación)](/MicrosoftTeams/manage-external-access) | modificado |
+| 12/14/2021 | [Transferir números de teléfono a Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | modificado |
+| 12/15/2021 | [Aprovisionamiento de Microsoft Teams en escala para el personal de primera línea](/MicrosoftTeams/flw-scripted-deployment) | modificado |
+| 12/16/2021 | [Administrar directivas generales de reuniones](/MicrosoftTeams/meeting-policies-in-teams-general) | modificado |
+| 12/16/2021 | [Preguntas frecuentes sobre la actualización de Skype Empresarial a Teams](/MicrosoftTeams/faq-journey) | modificado |
+| 12/16/2021 | [Planee la solución de voz en Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modificado |
+| 12/16/2021 | [Administrar el acceso externo (federación)](/MicrosoftTeams/manage-external-access) | modificado |
+| 12/16/2021 | [Administrar directivas de reunión para participantes e invitados](/MicrosoftTeams/meeting-policies-participants-and-guests) | modificado |
+| 12/16/2021 | [Retirada de Skype Empresarial Online](/MicrosoftTeams/skype-for-business-online-retirement) | modificado |
+| 12/16/2021 | [Elija el viaje de actualización de Skype Empresarial a Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | modificado |
+| 12/16/2021 | [Actualizaciones asistidos \| Skype Business Online para Teams actualización](/MicrosoftTeams/upgrade-assisted) | modificado |
+| 12/16/2021 | [Lista de comprobación de actualización\| Actualización de Skype Empresarial a Teams \| Pasos básicos](/MicrosoftTeams/upgrade-basic) | modificado |
+| 12/16/2021 | [Definir el ámbito del proyecto para Skype Empresarial para Microsoft Teams actualización](/MicrosoftTeams/upgrade-define-project-scope) | modificado |
+| 12/16/2021 | [Acerca del marco de actualización: Skype Empresarial Teams](/MicrosoftTeams/upgrade-framework) | modificado |
+| 12/16/2021 | [Actualizar Skype Empresarial local a Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | modificado |
+| 12/16/2021 | [Actualizar de Skype Empresarial Online a Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | modificado |
+| 12/17/2021 | [Planear el enrutamiento directo](/MicrosoftTeams/direct-routing-plan) | modificado |
+| 12/17/2021 | [Administrar la aplicación Turnos para su organización](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modificado |
+| 12/17/2021 | [Usar el Asistente para la incorporación de trabajadores en primera línea para que su fuerza de trabajo de primera línea esté en funcionamiento](/MicrosoftTeams/flw-onboarding-wizard) | modificado |
+| 12/17/2021 | [Guía de inicio rápido del trabajador en primera línea](/MicrosoftTeams/flw-quickstart) | modificado |
+| 12/17/2021 | [Introducción a Teams grabación basada en directivas para llamadas & reuniones](/MicrosoftTeams/teams-recording-policy) | modificado |
+| 12/17/2021 | [Procedimientos recomendados de autenticación para dispositivos Android](/MicrosoftTeams/devices/authentication-best-practices-for-android-devices) | agregado |
+
+
 ## <a name="week-of-december-06-2021"></a>Semana del 06 de diciembre de 2021
 
 
