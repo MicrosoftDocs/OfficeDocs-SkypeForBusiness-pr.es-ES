@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar Microsoft Teams datos del registro de auditoría en el Centro de cumplimiento de Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5fc206b9869106be7dd60541d5299ffefb036ae
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 7eec47d0ed2d2a299c930edee2e849c8eb20b8db
+ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306345"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "61620494"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -181,15 +181,15 @@ Puede usar la API Office 365 actividad de administración para recuperar informa
 
 Los cambios de pertenencia a Teams (como usuarios agregados o eliminados) realizados a través de Azure Active Directory (Azure AD), un portal de administración de Microsoft 365 o la API Microsoft 365 Grupos Graph aparecerán en Teams  auditar mensajes y en el canal General con una atribución a un propietario existente del equipo, y no al iniciador real de la acción. En estos escenarios, consulte Azure AD o [Microsoft 365 de auditoría](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) del grupo para ver la información relevante.
 
-## <a name="use-cloud-app-security-to-set-activity-policies"></a>Usar Cloud App Security para establecer directivas de actividad
+## <a name="use-defender-for-cloud-apps-to-set-activity-policies"></a>Usar Defender para aplicaciones en la nube para establecer directivas de actividad
 
-Con [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) integración, puede [](/cloud-app-security/user-activity-policies) establecer directivas de actividad para exigir una amplia gama de procesos automatizados con las API del proveedor de aplicaciones. Estas directivas le permiten supervisar actividades específicas realizadas por varios usuarios o seguir tasas inesperadamente altas de un determinado tipo de actividad.
+Con [la integración de Microsoft Defender para aplicaciones](/cloud-app-security/what-is-cloud-app-security) en la nube, puede establecer directivas de actividad para aplicar una amplia gama de procesos automatizados con las API del proveedor de aplicaciones. [](/cloud-app-security/user-activity-policies) Estas directivas le permiten supervisar actividades específicas realizadas por varios usuarios o seguir tasas inesperadamente altas de un determinado tipo de actividad.
 
-Después de establecer una directiva de detección de actividad, comienza a generar alertas. Las alertas solo se generan en las actividades que se producen después de crear la directiva. Estos son algunos escenarios de ejemplo para cómo puede usar directivas de actividad en Cloud App Security para supervisar Teams actividades.
+Después de establecer una directiva de detección de actividad, comienza a generar alertas. Las alertas solo se generan en las actividades que se producen después de crear la directiva. Estos son algunos escenarios de ejemplo para cómo puede usar directivas de actividad en Defender para aplicaciones en la nube para supervisar Teams actividades.
 
 ### <a name="external-user-scenario"></a>Escenario de usuario externo
 
-Un escenario en el que puede que desee estar atento, desde una perspectiva empresarial, es la adición de usuarios externos a su entorno Teams empresa. Si los usuarios externos están habilitados, supervisar su presencia es una buena idea.  Puede usar [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) identificar amenazas potenciales.
+Un escenario en el que puede que desee estar atento, desde una perspectiva empresarial, es la adición de usuarios externos a su entorno Teams empresa. Si los usuarios externos están habilitados, supervisar su presencia es una buena idea.  Puede usar [Defender para aplicaciones en la nube](/cloud-app-security/what-is-cloud-app-security) para identificar amenazas potenciales.
 
 :::image type="content" alt-text="Directiva para supervisar la adición de usuarios externos." source="media/TeamsExternalUserAddPolicy.png" lightbox="media/TeamsExternalUserAddPolicy.png":::
 
@@ -221,9 +221,9 @@ Puede establecer alertas y enviar correos electrónicos a administradores y otro
 
 ![Captura de pantalla de alertas y acciones de gobierno para una directiva de actividad.](media/audit-log-governance.png)
 
-## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Usar Cloud App Security para establecer directivas de detección de anomalías
+## <a name="use-defender-for-cloud-apps-to-set-anomaly-detection-policies"></a>Usar Defender para aplicaciones en la nube para establecer directivas de detección de anomalías
 
-[](/cloud-app-security/anomaly-detection-policy) Las directivas de detección de anomalías en Cloud App Security proporcionan análisis de comportamiento de usuarios y entidades (UEBA) y aprendizaje automático (ML) de forma que pueda ejecutar inmediatamente la detección avanzada de amenazas en todo el entorno de la nube. Como están habilitadas automáticamente, las nuevas directivas de detección de anomalías proporcionan resultados inmediatos al proporcionar detecciones inmediatas, dirigidas a numerosas anomalías conductuales entre los usuarios y los equipos y dispositivos conectados a su red. Además, las nuevas directivas exponen más datos del motor de detección de Cloud App Security, para ayudarle a acelerar el proceso de investigación y contener amenazas en curso.
+[](/cloud-app-security/anomaly-detection-policy) Las directivas de detección de anomalías en Defender para aplicaciones en la nube proporcionan análisis de comportamiento de usuarios y entidades (UEBA) y aprendizaje automático (ML) de forma que pueda ejecutar inmediatamente la detección avanzada de amenazas en todo el entorno de la nube. Como están habilitadas automáticamente, las nuevas directivas de detección de anomalías proporcionan resultados inmediatos al proporcionar detecciones inmediatas, dirigidas a numerosas anomalías conductuales entre los usuarios y los equipos y dispositivos conectados a su red. Además, las nuevas directivas exponen más datos del motor de detección defender para aplicaciones en la nube, para ayudarle a acelerar el proceso de investigación y contener amenazas en curso.
 
 Estamos trabajando para integrar Teams eventos en directivas de detección de anomalías. Por ahora, puede configurar directivas de detección de anomalías para otros productos Office y realizar acciones en los usuarios que coincidan con dichas directivas.
 
