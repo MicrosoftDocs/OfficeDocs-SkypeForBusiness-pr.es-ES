@@ -3,6 +3,17 @@
 
 
 
+## <a name="week-of-december-20-2021"></a>Semana del 20 de diciembre de 2021
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 12/20/2021 | [Planear la implementación para dispositivos Teams teléfono y Pantallas](/MicrosoftTeams/devices/plan-device-deployment) | agregado |
+| 12/20/2021 | [Requisitos de las Salas de Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
+| 12/21/2021 | [Turnos para Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | modificado |
+| 12/22/2021 | [Turnos para Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | modificado |
+
+
 ## <a name="week-of-december-13-2021"></a>Semana del 13 de diciembre de 2021
 
 
@@ -166,45 +177,3 @@
 | 11/24/2021 | [Administrar directivas de configuración de aplicación en Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
 | 11/24/2021 | [Configurar eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modificado |
 | 11/24/2021 | [Definir eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modificado |
-
-
-## <a name="week-of-november-15-2021"></a>Semana del 15 de noviembre de 2021
-
-
-| Fecha de publicación |Título del tema | Cambio |
-|------|------------|--------|
-| 11/15/2021 | [Visitas virtuales con Teams: integración en Cerner EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | modificado |
-| 11/15/2021 | [Música en espera](/MicrosoftTeams/music-on-hold) | modificado |
-| 11/16/2021 | [Enrutamiento directo del Sistema telefónico](/MicrosoftTeams/direct-routing-protocols-sip) | modificado |
-| 11/16/2021 | [Introducción al control de directivas para Microsoft Teams](/MicrosoftTeams/policy-control-overview) | modificado |
-| 11/16/2021 | [Coexistencia con Skype Empresarial](/MicrosoftTeams/coexistence-chat-calls-presence) | modificado |
-| 11/17/2021 | [Operador automático & histórico de cola de llamadas](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modificado |
-| 11/17/2021 | [Aprobaciones de disponibilidad de aplicaciones en Teams](/MicrosoftTeams/approval-admin) | modificado |
-| 11/17/2021 | [Guía para administradores de TI de Insights para el ámbito educativo en Microsoft Teams](/MicrosoftTeams/class-insights) | modificado |
-| 11/17/2021 | [Dispositivos para Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
-| 11/17/2021 | [Configurar el controlador de borde de sesión: varios inquilinos](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modificado |
-| 11/17/2021 | [Administrar la configuración de su organización](/MicrosoftTeams/enable-features-office-365) | modificado |
-| 11/17/2021 | [Administración de números de teléfono para Francia](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | modificado |
-| 11/17/2021 | [Administración de números de teléfono para Alemania](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | modificado |
-| 11/17/2021 | [Administrar directivas de reunión para participantes e invitados](/MicrosoftTeams/meeting-policies-participants-and-guests) | modificado |
-| 11/17/2021 | [Configurar Créditos de comunicaciones para su organización](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modificado |
-| 11/17/2021 | [Informe de actividad de usuario de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | modificado |
-| 11/17/2021 | [Teams para la infraestructura de escritorio virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
-| 11/17/2021 | [Restricciones de llamadas salientes: conferencias de audio & llamadas RTC](/MicrosoftTeams/outbound-calling-restriction-policies) | modificado |
-| 11/17/2021 | [Usar telemetría en tiempo real para solucionar problemas de mala calidad de la reunión](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modificado |
-| 11/18/2021 | [Aprovisionamiento remoto e inicio de sesión para Teams dispositivos Android](/MicrosoftTeams/devices/remote-provision-remote-login) | modificado |
-| 11/18/2021 | [Iniciar sesión y cerrar sesión de forma remota Teams dispositivos Android](/MicrosoftTeams/devices/remote-sign-in-and-sign-out) | agregado |
-| 11/18/2021 | [Microsoft Teams notas de la versión de PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
-| 11/18/2021 | [Administrar la aplicación Bookings en Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | modificado |
-| 11/18/2021 | [Teams para organizaciones sin ánimo de lucro](/MicrosoftTeams/expand-teams-across-your-org/teams-for-nonprofit-landing-page) | modificado |
-| 11/18/2021 | [Configurar operador Conectar](/MicrosoftTeams/operator-connect-configure) | modificado |
-| 11/18/2021 | [Usar la búsqueda de directorios enfocada de Microsoft Teams](/MicrosoftTeams/teams-scoped-directory-search) | modificado |
-| 11/19/2021 | [Directivas de reunión y expiración de la reunión en Microsoft Teams](/MicrosoftTeams/meeting-expiration) | modificado |
-| 11/19/2021 | [Administrar directivas de reunión para participantes e invitados](/MicrosoftTeams/meeting-policies-participants-and-guests) | modificado |
-| 11/19/2021 | [Administrar configuración de reuniones](/MicrosoftTeams/meeting-settings-in-teams) | modificado |
-| 11/19/2021 | [Instalar Teams con Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modificado |
-| 11/19/2021 | [¿Qué es un pedido de portabilidad?](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | modificado |
-| 11/18/2021 | Solución de problemas con el acceso de invitado en Microsoft Teams | eliminado |
-| 11/19/2021 | [Lista de comprobación de actualización\| Actualización de Skype Empresarial a Teams \| Pasos básicos](/MicrosoftTeams/upgrade-basic) | modificado |
-| 11/19/2021 | Declaración de conformidad de accesibilidad - Francia | eliminado |
-| 11/19/2021 | [Microsoft Teams: Declaración de conformidad de accesibilidad - Francia](/MicrosoftTeams/accessibility-declaration-of-conformance-in-france-for-teams) | modificado |

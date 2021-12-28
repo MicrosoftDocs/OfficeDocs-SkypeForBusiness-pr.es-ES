@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Obtenga información sobre cómo integrar el conector EHR de Teams para permitir que los proveedores de atención sanitaria de su organización realicen visitas virtuales con pacientes u otros proveedores en Teams directamente desde el sistema EHR cerner.
-ms.openlocfilehash: 7329bd0afacfe941746374cc836203f17a9b5e57
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 1669cd2b71a1052ff3580c2baa531c80ce69f073
+ms.sourcegitcommit: 01657a2a961712b8383b741b4ae983b9e07bdeb1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960146"
+ms.lasthandoff: 12/27/2021
+ms.locfileid: "61611337"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>Visitas virtuales con Teams: integración en Cerner EHR
 
@@ -52,7 +52,7 @@ En este artículo se describe cómo configurar y configurar el Teams EHR para qu
 Antes de integrar el Teams EHR en su organización sanitaria, debe tener lo siguiente:
 
 - Una suscripción activa para Microsoft Teams independiente del conector EHR (solo se aplica al realizar pruebas en un entorno EHR de producción).
-- Una licencia Microsoft 365 o Office 365 que incluya Teams reuniones.
+- Los usuarios tienen una licencia Microsoft 365 o Office 365 que incluye Teams reuniones.
 - Teams se adopta y se usa en su organización sanitaria.
 - Sus sistemas cumplen todos los [requisitos de software y explorador](../../hardware-requirements-for-the-teams-app.md) para Teams.
 - Versión cerner de noviembre de 2018 o posterior
@@ -147,6 +147,9 @@ Características principales de la experiencia del proveedor:
 - Los proveedores pueden ver actualizaciones en tiempo real de los pacientes que se conectan a una visita virtual para una cita determinada en PowerChart.
 - La información del proveedor no es visible para los pacientes durante la visita virtual.
 
+> [!NOTE]
+> Cualquier información que se haya introducido en el chat de reunión que sea necesaria para fines de continuidad o retención de registros médicos debe ser descargada, copiada y anotada por el proveedor de atención sanitaria. El chat no constituye un registro médico legal ni un conjunto de registros designado. Los mensajes del chat se almacenan en función de la configuración creada por el Microsoft Teams usuario.
+
 ### <a name="patient-experience"></a>Experiencia del paciente
 
 El conector admite a los pacientes que se unen a las visitas virtuales a través de un vínculo en el mensaje de texto SMS. En el momento de la cita, los pacientes pueden iniciar una visita virtual pulsando el vínculo en el mensaje de texto SMS.
@@ -165,7 +168,7 @@ Teams integración en sistemas EHR optimiza la cantidad de datos que se usan y a
 
 El Teams EHR no almacena ni transfiere ningún dato personal identificable ni ningún registro de salud de pacientes o proveedores de salud desde el sistema EHR. Los únicos datos que almacena el conector EHR son el id. único del usuario de EHR, que se usa durante la Teams de la reunión.
 
-La identificación única del usuario de EHR se almacena en una de las tres regiones geográficas que se describen en [¿Dónde se almacenan los datos de los clientes de Microsoft 365?](/microsoft-365/enterprise/o365-data-locations) Todos los chats, grabaciones y otros datos compartidos en Teams por los participantes de la reunión se almacenan según las directivas de almacenamiento existentes. Para obtener más información sobre la ubicación de los datos en Teams, vea Ubicaciones [de datos en Teams](../../location-of-data-in-teams.md).
+La identificación única del usuario de EHR se almacena en una de las tres regiones geográficas que se describen en [¿Dónde se almacenan los datos de los clientes de Microsoft 365?](/microsoft-365/enterprise/o365-data-locations) Todos los chats, grabaciones y otros datos compartidos en Teams por los participantes de la reunión se almacenan según las directivas de almacenamiento existentes. Para obtener más información sobre la ubicación de los datos en Teams, vea Ubicación [de los datos en Teams](../../location-of-data-in-teams.md).
 
 ## <a name="related-articles"></a>Artículos relacionados
 
