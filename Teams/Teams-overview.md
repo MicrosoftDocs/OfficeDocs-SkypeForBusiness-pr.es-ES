@@ -17,14 +17,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
+- intro-overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d94c67e4fa00ea5b0206e67963da486ed9b16832
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 57ec8ab827eae0d0c6334e11fa75b068544f8505
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045796"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625931"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Le damos la bienvenida a Microsoft Teams
 Si es administrador de Microsoft Teams en su organización, ahora está en el lugar adecuado. Cuando esté listo para utilizar Teams, empiece con [Cómo implantar Teams](./deploy-overview.md) y [Configurar la colaboración segura con Microsoft 365 y Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams).

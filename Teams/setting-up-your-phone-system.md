@@ -22,13 +22,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
+- intro-get-started
 description: Guía paso a paso que detalla cómo configurar Teams Sistema telefónico para su organización en Microsoft 365.
-ms.openlocfilehash: 2241a58c02b43ea8a8f0eb15fedaaef8e2728f94
-ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
+ms.openlocfilehash: 305cb9874ed7d14a647d984dfc36586a16004d71
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61262144"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625801"
 ---
 # <a name="set-up-teams-phone-in-your-organization"></a>Configurar Teams Teléfono en su organización
 

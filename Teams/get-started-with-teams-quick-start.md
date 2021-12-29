@@ -18,18 +18,20 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: db18448960d2a2106005d292ebe6f232327fad2f
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.custom:
+- seo-marvel-mar2020
+- intro-get-started
+ms.openlocfilehash: c3b9a0efac45ed16b776de34759ef0816c1b5f08
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014244"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625831"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introducción a Microsoft Teams
 
 > [!TIP]
-> ¿Necesita información sobre cómo instalar el cliente de Teams en su equipo o dispositivo móvil? Vaya a: [Descargar Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app).
+> ¿Necesita información sobre cómo instalar el cliente de Teams en su equipo o dispositivo móvil? Vaya aquí: [Descargar Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app).
 
 ## <a name="start-here"></a>Empiece aquí
 

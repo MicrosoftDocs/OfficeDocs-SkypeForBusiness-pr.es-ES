@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
+- intro-overview
 description: En este artículo, aprenderá sobre la tecnología Teams Sistema telefónico en Microsoft 365.
-ms.openlocfilehash: a0e1679c580ba6b53af7e43e6e8231a90b636e34
-ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
+ms.openlocfilehash: 7d873ac9ec3b4d31eea8d5a002ba0b5ba752f7cb
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61262134"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625811"
 ---
 # <a name="what-is-teams-phone"></a>¿Qué es Teams Teléfono
 

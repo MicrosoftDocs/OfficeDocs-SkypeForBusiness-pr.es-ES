@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: En este artículo se proporciona información general sobre el nuevo Panel de control.
-ms.openlocfilehash: 355a8b93e428b860a775ad01cf31df726c644654
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 7def5267b88260b66b6aa345c9585b83659f6ea3
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887308"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625941"
 ---
 # <a name="control-panel"></a>Panel de control
 
@@ -38,7 +38,7 @@ El nuevo Panel de control incluye elementos de menú usados habitualmente que cu
 > [!NOTE]
 > La documentación de otros elementos de menús estará disponible posteriormente por fases.
 
-## <a name="client"></a>Client
+## <a name="client"></a>Cliente
 
 |Submenú  |Origen de información para cmdlet  |
 |---------|---------|
@@ -65,3 +65,33 @@ El nuevo Panel de control incluye elementos de menú usados habitualmente que cu
 |---------|---------|
 |Filtro de archivo         |    [Filtro de archivo](use-powershell-im-and-presence-menu.md#file-filter)     |
 |Filtro para direcciones URL      |  [Filtro para direcciones URL](use-powershell-im-and-presence-menu.md#url-filter)       |
+
+## <a name="monitoring-and-archiving"></a>Supervisión y archivado
+
+|Submenú  |Origen de información para cmdlet  |
+|---------|---------|
+|Registro de detalles de llamadas       |    [Registro de detalles de llamadas](use-powershell-monitoring-and-archiving-menu.md#call-detail-recording)     |
+|Datos de calidad de la experiencia      |  [Datos de calidad de la experiencia](use-powershell-monitoring-and-archiving-menu.md#quality-of-experience-data)       |
+|Directiva de archivado       |    [Directiva de archivado](use-powershell-monitoring-and-archiving-menu.md#archiving-policy)     |
+|Configuración de archivado      |  [Configuración de archivado](use-powershell-monitoring-and-archiving-menu.md#archiving-configuration)       |
+
+## <a name="network-configuration"></a>Configuración de la red
+
+|Submenú  |Origen de información para cmdlet  |
+|---------|---------|
+|Directiva de ubicación       |    [Directiva de ubicación](use-powershell-network-configuration-menu.md#location-policy)     |
+|Directiva de ancho de banda      |  [Directiva de ancho de banda](use-powershell-network-configuration-menu.md#bandwidth-policy)       |
+|Región       |    [Región](use-powershell-network-configuration-menu.md#region)     |
+|Site      |  [Site](use-powershell-network-configuration-menu.md#site)       |
+|Subred      |  [Subred](use-powershell-network-configuration-menu.md#subnet)       |
+|Vínculo de región       |    [Vínculo de región](use-powershell-network-configuration-menu.md#region-link)     |
+|Ruta regional      |  [Ruta regional](use-powershell-network-configuration-menu.md#region-route)       |
+
+## <a name="topology"></a>Topología
+
+|Submenú  |Origen de información para cmdlet  |
+|---------|---------|
+|Estado       |    [Status](use-powershell-topology-menu.md#status)     |
+|Aplicación de servidor      |  [Aplicación de servidor](use-powershell-topology-menu.md#server-application)       |
+|Direcciones URL sencillas       |    [Direcciones URL sencillas](use-powershell-topology-menu.md#simple-url)     |
+|Aplicación de confianza       |    [Aplicación de confianza](use-powershell-topology-menu.md#trusted-application)     |
