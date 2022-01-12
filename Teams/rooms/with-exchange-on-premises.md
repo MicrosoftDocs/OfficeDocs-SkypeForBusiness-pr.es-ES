@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Lea este tema para obtener información sobre cómo implementar Salas de Microsoft Teams en un entorno híbrido con Exchange local.
-ms.openlocfilehash: 15936a805e45ce17ec35822bb02980b4d47499b8
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: ea05ef6b6bf6e13ee907d84d1d48200c0cea5a09
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355625"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767233"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises-hybrid"></a>Implementar Salas de Microsoft Teams con Exchange local (híbrido)
 
@@ -33,39 +33,46 @@ Si su organización tiene una combinación de servicios, con algunos hospedados 
 ## <a name="requirements"></a>Requirements
 
 Antes de implementar Salas de Microsoft Teams con Exchange local, asegúrese de que ha cumplido los requisitos. Para obtener más información, [vea Salas de Microsoft Teams requisitos.](requirements.md)
-  
-Si va a implementar Salas de Microsoft Teams con Exchange local, va a usar las herramientas administrativas de Active Directory para agregar una dirección de correo electrónico para su cuenta de dominio local. Esta cuenta se sincronizará con Microsoft 365 o Office 365. Tendrá que hacer lo siguiente:
-  
-- Cree una cuenta y sincronice la cuenta con Azure Active Directory.
-
-- Habilitar el buzón de correo remoto y establecer propiedades
-
-- Asigne una Microsoft 365 o Office 365 licencia.
-
-### <a name="create-an-account-and-synchronize-with-azure-active-directory"></a>Cree una cuenta y sincronice con Azure Active Directory
-
-1. En la herramienta Usuarios y equipos de **Active Directory,** haga clic con el botón derecho en la carpeta o unidad organizativa en la que se crearán las cuentas de Salas de Microsoft Teams, haga clic en Nuevo y, a continuación, haga clic en **Usuario.**
-
-2. Escriba el nombre para mostrar en el **cuadro Nombre completo** y el alias en el cuadro Nombre de inicio de sesión **de** usuario. Haga clic en **Siguiente**.
-
-3. Escriba la contraseña de la cuenta. Tendrá que volver a escribirla para verificarla. Asegúrese de que la casilla **La contraseña nunca expira** sea la única opción activada.
-
-    > [!NOTE]
-    > Seleccionar **Contraseña nunca expira es** un requisito para Salas de Microsoft Teams. Es posible que las reglas de dominio prohíban las contraseñas que no expiran. Si es así, deberá crear una excepción para cada cuenta Salas de Microsoft Teams cuenta.
-  
-4. Tras crear la cuenta, ejecute una sincronización de directorios. Cuando haya finalizado, vaya a la página de usuarios de su Centro de administración de Microsoft 365 y compruebe que la cuenta creada en los pasos anteriores se ha sincronizado con la conexión.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Habilitar el buzón de correo remoto y establecer propiedades
 
 1. [Abra el Exchange de administración](/powershell/exchange/exchange-server/open-the-exchange-management-shell) o conéctese a su servidor Exchange con [PowerShell remoto.](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
 
-2. En Exchange PowerShell, cree un buzón para la cuenta (habilitar el buzón de la cuenta) ejecutando el siguiente comando:
+2. En Exchange PowerShell, cree un buzón de sala nuevo o modifique un buzón de sala existente. De forma predeterminada, los buzones de sala no tienen cuentas asociadas, por lo que tendrá que agregar una cuenta al crear o modificar un buzón de sala que le permita autenticarse con Microsoft Teams.
 
-   ```PowerShell
-   Enable-Mailbox ConferenceRoom01@contoso.com -Room
-   ```
+   - Para crear un buzón de sala nuevo, use la sintaxis siguiente:
 
-   Para obtener información detallada sobre la sintaxis y los parámetros, vea [Habilitar buzón.](/powershell/module/exchange/mailboxes/enable-mailbox)
+     ``` PowerShell
+     New-Mailbox -UserPrincipalName <UPN> -Name <String> -Alias <String> -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+     ```
+     
+     En este ejemplo se crea un nuevo buzón de sala con la siguiente configuración:
+
+     - Cuenta: ConferenceRoom01@contoso.com
+  
+     - Nombre: ConferenceRoom01
+
+     - Alias: ConferenceRoom01
+
+     - Contraseña de la cuenta: P@$$W 0rd5959
+
+     ``` PowerShell
+     New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+     ```
+
+   - Para modificar un buzón de sala existente, use la sintaxis siguiente:
+
+     ``` PowerShell
+     Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+     ```
+
+     En este ejemplo, se habilita la cuenta del buzón de sala existente que tiene el valor de alias ConferenceRoom02 y se establece la contraseña en 9898P@$$W 0rd. Tenga en cuenta que la cuenta se ConferenceRoom02@contoso.com debido al valor de alias existente.
+
+     ``` PowerShell
+     Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
+     ```
+
+   Para obtener información detallada sobre la sintaxis y los parámetros, vea [Nuevo buzón](/powershell/module/exchange/mailboxes/new-mailbox) y Conjunto [de buzones.](/powershell/module/exchange/mailboxes/set-mailbox)
 
 3. En Exchange PowerShell, configure las siguientes opciones en el buzón de sala para mejorar la experiencia de reunión:
 
@@ -91,6 +98,15 @@ Si va a implementar Salas de Microsoft Teams con Exchange local, va a usar las h
 
    Para obtener información detallada sobre la sintaxis y los parámetros, vea [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
+### <a name="set-password-to-never-expire"></a>Establecer la contraseña para que nunca expire
+
+1. En la herramienta Usuarios y equipos de **Active Directory,** busque la cuenta Salas de Microsoft Teams, haga clic con el botón derecho en ella y seleccione **Propiedades.**
+
+2. Active la **casilla Contraseña nunca expira y,** a continuación, haga clic en **Aceptar.**
+
+   > [!NOTE]
+   > Seleccionar **Contraseña nunca expira es** un requisito para Salas de Microsoft Teams. Es posible que las reglas de dominio prohíban las contraseñas que no expiran. Si es así, deberá crear una excepción para cada cuenta Salas de Microsoft Teams cuenta.
+
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Asignar una Microsoft 365 o Office 365 licencia
 
 1. Conectar Azure Active Directory. Para obtener más información Azure Active Directory, [vea Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
@@ -100,23 +116,27 @@ Si va a implementar Salas de Microsoft Teams con Exchange local, va a usar las h
 
 2. La cuenta de recursos debe tener una licencia Microsoft 365 o Office 365, o Exchange y Microsoft Teams no funcionarán. Si tiene la licencia, debe asignar una ubicación de uso a su cuenta de recursos, lo que determina qué SKU de licencia están disponibles para su cuenta. Puede usar `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> para recuperar una lista de SKU disponibles.
 
-<!--   ``` Powershell
+   ```Powershell
+   Get-MsolAccountSku
+   ```
+
+   <!--
+   ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
-   ``` -->
-
-3. A continuación, puede agregar una licencia con el `Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> cmdlet. En este caso, $strLicense es el código de SKU que ve (por ejemplo, contoso:STANDARDPACK).
-
-  ``` PowerShell
-  Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
-  Get-MsolAccountSku
-  Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses $strLicense
-  ```
-
-<!--   ``` Powershell
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
+
+3. A continuación, puede agregar una licencia con el `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. En este ejemplo se agrega Sala de reuniones licencia a la cuenta:
+
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName "ConferenceRoom01@contoso.com" -UsageLocation "US"
+   Set-MsolUserLicense -UserPrincipalName "ConferenceRoom01@contoso.com" -AddLicenses "Contoso:MEETING_ROOM"
+   ```
+
+   <!-- 
+   ```Powershell
+   Set-AzureADUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
+   ```   -->
 
    Para obtener instrucciones [detalladas,](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)vea Asignar licencias a cuentas de usuario con Office 365 PowerShell.
 

@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Obtenga información sobre cómo configurar y probar operadores automáticos para pequeñas empresas en Microsoft 365 Business Voice.
-ms.openlocfilehash: 176dc3c742ea60dbf5bf9b7bf0e6ce077957ace1
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+description: Obtenga información sobre cómo configurar y probar operadores automáticos para pequeñas empresas en Microsoft 365 Teams Teléfono con plan de llamadas.
+ms.openlocfilehash: b5c3b27b0b7bdc835d0dbe30a9478b52f4300ab4
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249482"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767353"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Configurar un operador automático : tutorial de pequeña empresa
 

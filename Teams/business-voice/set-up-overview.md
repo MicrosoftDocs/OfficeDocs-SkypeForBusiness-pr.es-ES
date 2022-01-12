@@ -1,5 +1,5 @@
 ---
-title: Configurar Microsoft 365 Business Voice
+title: Configurar Microsoft 365 Teams Teléfono con plan de llamadas para pequeñas y medianas empresas
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -15,51 +15,38 @@ MS.collection:
 - Teams_Business_Voice
 ms.custom: intro-get-started
 search.appverid: MET150
-description: Obtenga información sobre cómo configurar Microsoft 365 Business Voice en su pequeña o mediana empresa u organización.
+description: Obtenga información sobre cómo configurar Microsoft 365 Teams Teléfono plan de llamadas en su pequeña o mediana empresa u organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58c740a16a1ebb36ad886614b90f02c76167e695
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
+ms.openlocfilehash: d7b8b400cbd2388470459f623d51715546116356
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625781"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766263"
 ---
-# <a name="set-up-microsoft-365-business-voice"></a>Configurar Microsoft 365 Business Voice
+# <a name="set-up-microsoft-365-teams-phone-with-calling-plan-for-small-to-medium-businesses"></a>Configurar Microsoft 365 Teams Teléfono con plan de llamadas para pequeñas y medianas empresas
 
-</br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEu8R]  
-
-</br>
-
-Business Voice es un sistema telefónico completo que puede reemplazar a su proveedor de telefonía existente. Tanto si es una empresa nueva configurando números de teléfono por primera vez, como si una empresa establecida se mueve de un proveedor de telefonía local heredado, los pasos de estos artículos pueden ayudarle a moverse con Business Voice. Cuando haya terminado de configurar Business Voice:
+La Teams Teléfono paquete con plan de llamadas es un sistema telefónico completo que puede reemplazar a su proveedor de telefonía existente. Tanto si es una empresa nueva configurando números de teléfono por primera vez, como si una empresa establecida se mueve de un proveedor de telefonía local heredado, los pasos de estos artículos pueden ayudarle a moverse con el paquete Teams Teléfono con plan de llamadas. Cuando haya terminado de configurar:
 
 * Podrás recibir llamadas telefónicas gratuitas o de pago en una línea telefónica de la compañía principal. Incluso puede configurar un menú de llamada si lo desea.
-* Los usuarios configurados con Business Voice tendrán sus propios números de teléfono de marcado directo que pueden usar para realizar y recibir llamadas telefónicas desde cualquier dispositivo con Teams instalado.
+* Los usuarios configurados con una Teams Teléfono con licencia del paquete Plan de llamadas tendrán sus propios números de teléfono de marcado directo que pueden usar para realizar y recibir llamadas telefónicas desde cualquier dispositivo con Teams instalado.
 * Los participantes de la reunión podrán llamar a reuniones con un teléfono normal si no pueden unirse desde un Teams cliente.
-* Si tiene números de teléfono existentes, podrá seguir usándolos después de moverlos a Business Voice.
+* Si tiene números de teléfono existentes, podrá seguir usándolos después de moverlos a Teams Teléfono con Plan de llamadas.
 
-Si desea obtener más información sobre Business Voice, consulte [¿Qué Microsoft 365 Business Voice?](whats-business-voice.md).
+Si desea obtener más información sobre el paquete Teams Teléfono plan de llamadas para pequeñas y medianas empresas, consulte Teams Teléfono guía para pequeñas y [medianas empresas.](whats-business-voice.md)
 
 > [!IMPORTANT]
-> La información de estos artículos solo se aplica a Business Voice **con** plan de llamadas. El plan de llamadas de Business Voice está disponible solo en determinados países y regiones. Antes de empezar a configurar Business Voice, compruebe la disponibilidad de país y región para [Business Voice](country-region-availability.md) para ver si su país o región admite Business Voice con plan de llamadas.
->
-> Si su espacio empresarial se encuentra en un país o región que no admita el plan de llamadas de Business Voice, consulte [Obtener ayuda de un revendedor o partner de Microsoft](reseller-partner-support.md).
->
-> Microsoft Teams y Business Voice solo funcionan cuando los buzones de los usuarios se encuentran ubicados en Microsoft 365.  No admiten buzones de correo en servidores de Exchange locales.
->
-> Este proceso de configuración no admite Skype Empresarial implementaciones híbridas. Si tiene una implementación híbrida de Skype Empresarial y quiere configurar Business Voice, consulte [Configurar el sistema telefónico en la organización](../setting-up-your-phone-system.md).
+> Microsoft Teams y Teams Teléfono solo funcionan cuando los buzones de los usuarios se encuentran en Microsoft 365 (excluyendo Microsoft 365 Teams suscriptores de Essentials). No admiten buzones de correo en servidores de Exchange locales.
 
 ## <a name="before-you-begin"></a>Antes de empezar
 
-Antes de configurar Business Voice, hay algunas cosas que debe hacer. Las siguientes tareas se asegurarán de que su organización esté lista para Business Voice.
+Antes de configurar el paquete Teams Teléfono plan de llamadas, hay algunas cosas que debe hacer. Las siguientes tareas se asegurarán de que su organización esté lista.
 
-* **Compre licencias de Business Voice** y, si desea obtener un número gratuito o realizar llamadas telefónicas de larga distancia, créditos de comunicación. Para obtener más información, vea [¿Qué necesito comprar para usar Microsoft 365 Business Voice?](what-to-buy.md).
-* **Asegúrese de que su conexión a Internet puede admitir Business Voice.** Para obtener más información, vea [Comprobar la conexión a Internet para Business Voice.](get-ready-internet.md)
-* **Configure Teams en los dispositivos** de los usuarios, configure saludos de correo de voz y ayude a los usuarios a obtener información sobre Teams. Para obtener más información, vea ¿Cómo puedo preparar a mis [usuarios para Microsoft 365 Business Voice?](prepare-users.md).
+* **Compra Teams Teléfono licencias** de paquetes del Plan de llamadas y, si quieres obtener un número gratuito o realizar llamadas telefónicas de larga distancia, créditos de comunicación. Para obtener más información, vea ¿Qué necesito comprar para obtener capacidades [de voz para mi pequeña o mediana empresa?](whats-business-voice.md).
+* **Asegúrese de que su conexión a Internet puede admitir Teams Teléfono**. Para obtener más información, vea [Comprobar la conexión a Internet Teams Teléfono](get-ready-internet.md).
 
-Después de preparar su organización para Business Voice, seleccione **Siguiente paso: Empezar a configurar Business Voice**.
+Después de preparar su organización para Teams Teléfono con plan de llamadas, seleccione Siguiente paso: Empezar a configurar Teams Teléfono **con plan de llamadas.**
 
 > [!div class="nextstepaction"]
-> [Siguiente paso: Empezar a configurar Business Voice](set-up-emergency-locations.md)
+> [Paso siguiente: Empezar a configurar Teams Teléfono con plan de llamadas](set-up-emergency-locations.md)

@@ -12,16 +12,15 @@ ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94f504e9c69602079d1de807d49ad0fd468d41a3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3c83915288f877e2027285b0ebbb0689a58ce9cb
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589884"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766253"
 ---
 [!INCLUDE [teams-calling-policy](../teams-calling-policy.md)]

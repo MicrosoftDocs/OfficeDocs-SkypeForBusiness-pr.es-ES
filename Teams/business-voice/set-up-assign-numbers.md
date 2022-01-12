@@ -1,5 +1,5 @@
 ---
-title: Asignar números de teléfono de Business Voice a los usuarios
+title: Asignar Teams Teléfono con números de teléfono del Plan de llamadas a los usuarios
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,37 +14,31 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Obtenga información sobre cómo asignar Microsoft 365 Business Voice números de teléfono a los usuarios de su organización.
+description: Obtenga información sobre cómo asignar Microsoft 365 Teams Teléfono números de teléfono del Plan de llamadas a los usuarios de su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70cd47d9cb1163381ded1ee8ca1eeec0868fd2fc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ce6653450901eb1ee3c946ff3ec42f31b6a1faa4
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582484"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766463"
 ---
-# <a name="step-5-assign-business-voice-phone-numbers-to-your-users"></a>Paso 5: Asignar números de teléfono de Business Voice a los usuarios
+# <a name="step-5-assign-teams-phone-with-calling-plan-phone-numbers-to-your-users"></a>Paso 5: Asignar Teams Teléfono con números de teléfono del Plan de llamadas a los usuarios
 
 Antes de que los usuarios puedan usar Teams realizar o recibir llamadas telefónicas a o desde líneas telefónicas normales, debe asignarles números de teléfono. En Microsoft Teams clientes, el número de teléfono que asigna a un usuario se muestra en el teclado de marcado cuando el usuario hace clic en **Llamadas.** Haga lo siguiente para cada usuario que necesite un número de teléfono.
-
-![El número de teléfono del usuario se muestra en Teams.](../media/teams-phone-number.png)
 
 > [!NOTE]
 > Si no ve ningún número de teléfono, espere. Los nuevos números de teléfono pueden tardar varias horas en estar disponibles en Teams.
 
-En el siguiente vídeo se muestra cómo completar estos pasos en el centro Teams administración.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYO]
-
-1. Abra el Microsoft Teams de administración e inicie sesión con un usuario que sea administrador global (normalmente es la cuenta que usó para registrarse para Microsoft 365).
+1. Abra el Microsoft Teams de administración e inicie sesión con un usuario que sea administrador global. Normalmente, esta es la cuenta que usó para registrarse para Microsoft 365.
 1. En el panel de navegación izquierdo, vaya <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank"> **a Números**  >  **Teléfono voz.**</a>
 1. En la **Teléfono números,** seleccione un número sinsignado en la lista y, a continuación, haga clic en **Editar.**  
 1. En el **panel Editar,** en **Asignado a**, busque al usuario por nombre para mostrar o nombre de usuario y, a continuación, haga clic en **Asignar**.
 1. En Ubicación **de** emergencia , puede seleccionar la [](set-up-emergency-locations.md) ubicación de emergencia que agregó en el paso Configurar ubicaciones de emergencia, o si necesita crear una nueva ubicación para otra oficina o una oficina en el hogar, haga clic en Agregar **una ubicación.**
 1. Decida si desea enviar un correo electrónico de bienvenida con información de número de teléfono al usuario. Si quiere:
-    - **Lleve los números de teléfono existentes** a Business Voice (denominado porte de números de *teléfono),* anule la selección de Usuario de **correo electrónico con información de número de teléfono.**
-    - **Use los nuevos números de teléfono** seleccionados por Business Voice, seleccione *Usuario* **de correo electrónico con información de número de teléfono.**
+    - **Lleve los números de teléfono** existentes a Teams Teléfono con  Plan de llamadas (denominado porte de números de teléfono), anule la selección de Usuario de correo electrónico con información de número **de teléfono.**
+    - **Use los nuevos números de teléfono** seleccionados por Teams Teléfono con Plan de llamadas, *seleccione* Usuario de correo electrónico con información de número **de teléfono.**
 1. Haga clic en **Guardar**.
 1. Repita los pasos anteriores para cada usuario al que desee asignar un número de teléfono.
 

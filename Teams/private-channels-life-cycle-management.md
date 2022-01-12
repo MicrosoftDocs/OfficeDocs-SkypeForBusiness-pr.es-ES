@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar canales privados en su organización con Graph API.
-ms.openlocfilehash: a2cb9b45afb005c837b260ac3da22c250d16c758
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 25065401216a29e28e0d4aa3f1ad02d071215188
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615326"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766383"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Administrar el ciclo de vida de los canales privados en Microsoft Teams
 
-Aquí encontrará las instrucciones que necesita para administrar el uso de la API de Graph para administrar Teams [canales privados](./private-channels.md) de su organización.
+Aquí encontrará las instrucciones que necesita para usar la API de Graph para administrar Teams [canales privados](./private-channels.md) de su organización.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Configurar si los propietarios y miembros pueden crear canales privados
 
@@ -52,7 +52,7 @@ POST /teams/{id}/channels
   "displayName": "<Channel_Name>",
   "members":[{    
            "@odata.type":"#microsoft.graph.aadUserConversationMember",
-           "user@odata.bind":"https://graph.microsoft.com/beta/users('<user_id>')",
+           "user@odata.bind":"https://graph.microsoft.com/users('<user_id>')",
            "roles":["owner"]
             }]
 ```
@@ -79,7 +79,7 @@ Puede probar estos comandos a través del [Explorador de Graph](https://develope
     **Solicitud**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
+    GET https://graph.microsoft.com/teams/<group_id>/channels?$filter=membershipType eq 'private'
     ```
 
     **Respuesta**
@@ -109,7 +109,7 @@ Puede probar estos comandos a través del [Explorador de Graph](https://develope
     **Solicitud**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
+    GET https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
     **Respuesta**
@@ -147,7 +147,7 @@ Puede probar estos comandos a través del [Explorador de Graph](https://develope
     **Solicitud**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
+    GET https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/members
     ```
 
     **Respuesta**
@@ -156,7 +156,7 @@ Puede probar estos comandos a través del [Explorador de Graph](https://develope
     HTTP/1.1 200 OK Content-type: application/json
     Content-length: 
     {
-          "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams({group_id}')/channels('{channel_id}')/members",
+          "@odata.context": "https://graph.microsoft.com/$metadata#teams({group_id}')/channels('{channel_id}')/members",
           "@odata.count": 2,
           "value": [
               {
@@ -185,7 +185,7 @@ Puede probar estos comandos a través del [Explorador de Graph](https://develope
 
     ```Graph API
     PATCH 
-    https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
+    https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/members/<id>
       
     {
     "@odata.type": "#microsoft.graph.aadUserConversationMember",
@@ -200,7 +200,7 @@ Puede probar estos comandos a través del [Explorador de Graph](https://develope
     Content-type: application/json
 
     {
-      "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
+      "@odata.context": "https://graph.microsoft.com/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
       "@odata.type": "#microsoft.graph.aadUserConversationMember",
       "id": "id-value",
       "roles": ["owner"],

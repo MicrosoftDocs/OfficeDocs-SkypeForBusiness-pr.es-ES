@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: En este artículo se proporciona información general sobre las características compatibles con Microsoft Teams paneles.
-ms.openlocfilehash: 872aeed96b12679c809194425a1c7823ac6e663a
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: fc5c21ef11f60758644c48ee879bf4c6f3647457
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045618"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766433"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams paneles
 
@@ -45,10 +45,7 @@ Para obtener más información sobre estas características y cómo usarlas, vea
 
 ## <a name="partners-certified-for-teams-panels"></a>Partners certificados para Teams paneles
 
-Puede adquirir sus dispositivos Teams paneles electrónicos de uno de los siguientes partners:
-
-- Crestron
-- Yealink
+Para obtener más información sobre los partners certificados para Teams paneles, vea Paneles Teams [certificados actualmente.](teams-ip-phones.md#currently-certified-teams-panels)
 
 ## <a name="teams-panels-requirements"></a>Teams requisitos de paneles
 

@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el asistente de porte para transferir el número de teléfono de su proveedor de servicios actual a Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 39be72edfa013a42fec6dcc60a8555d98be87b57
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
+ms.openlocfilehash: 7650ccf8bee05fec6688e77c0fb9d68f94d18a0f
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513481"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766583"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de teléfono a Microsoft Teams
 
@@ -93,7 +93,7 @@ Para ver el estado del pedido de portabilidad, en el panel de navegación izquie
 
 
 ## <a name="reporting-telephone-number-issues"></a>¿Reportar problemas de número de teléfono?
-Si observa algún problema con los números portados en las primeras 24-48 horas. después de completar el puerto, póngase en contacto con el Servicio de atención al [cliente de TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) Para cualquier problema fuera de las 48 horas, por favor, equipo de soporte técnico de MS.
+Si observa algún problema con los números portados en las primeras 24-48 horas después de completar el puerto, póngase en contacto con el Servicio de atención al [cliente de TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) Para cualquier problema que supere las 48 horas, póngase en contacto con el equipo de soporte técnico de Microsoft.
 
 ## <a name="related-topics"></a>Temas relacionados
 

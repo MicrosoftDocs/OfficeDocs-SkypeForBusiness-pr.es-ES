@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar días festivos en Microsoft Teams para usarlos con los operadores automáticos.
-ms.openlocfilehash: b9c86f28b855b7f92d7e4f5d850c2d97baa2a106
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: f7e6d5a3d305afedd732fe20fb7ab22a97b12c21
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249502"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766593"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurar vacaciones en Microsoft Teams
 
@@ -37,7 +37,7 @@ Los días festivos que cree aquí están disponibles al configurar un [operador 
 
 Para crear un día festivo
 
-1. En el Microsoft Teams de administración, vaya a **Configuración de toda la** organización Días  >  **festivos.**
+1. En el Microsoft Teams de administración, vaya a **Días**  >  **festivos de voz.**
 
 2. Seleccione **Nuevo día festivo**.
 
@@ -66,7 +66,7 @@ Para crear un día festivo
 
 Para cambiar un día festivo
 
-1. En el Microsoft Teams de administración, vaya a **Configuración de toda la** organización Días  >  **festivos.**
+1. En el Microsoft Teams de administración, vaya a **Días**  >  **festivos de voz.**
 
 2. Seleccione las vacaciones de la lista.
 

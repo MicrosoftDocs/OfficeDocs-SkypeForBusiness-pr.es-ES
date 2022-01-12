@@ -24,14 +24,14 @@ search.appverid: MET150
 description: Obtenga más información sobre las Microsoft Teams de voz en la nube y las decisiones de implementación que tome para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 939c31477454828484c88fea0a8f34e19b640a8b
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 2d463034109e39920254e3f230546efe7f336af1
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563605"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766453"
 ---
-# <a name="plan-your-teams-voice-solution"></a>Planear su Teams de voz 
+# <a name="plan-your-teams-voice-solution"></a>Planear su Teams de voz
 
 Este artículo le ayuda a decidir qué solución de voz de Microsoft es la adecuada para su organización. Una vez que lo haya decidido, el artículo proporciona una hoja de ruta al contenido que le permitirá implementar la solución elegida.
 
@@ -45,17 +45,19 @@ Si responde sí a lo siguiente, Teams Teléfono con Plan de llamadas es la soluc
 - No es necesario conservar el operador RTC actual.
 - Desea usar el acceso administrado por Microsoft a la RTC.
 
-Sin embargo, es posible que su situación sea más compleja. Por ejemplo, es posible que tenga oficinas en ubicaciones en las que el Plan de llamadas no esté disponible. También es posible que necesite una solución combinada compatible con una implementación compleja y multinacionales, con requisitos diferentes para ubicaciones geográficas diferentes. Microsoft admite una combinación de soluciones: 
+Sin embargo, es posible que su situación sea más compleja. Por ejemplo, es posible que tenga oficinas en ubicaciones en las que el Plan de llamadas no esté disponible. También es posible que necesite una solución combinada compatible con una implementación compleja y multinacionales, con requisitos diferentes para ubicaciones geográficas diferentes. Microsoft admite una combinación de soluciones:
 
 - Teams Teléfono con plan de llamadas
 - Teams Teléfono con su propio operador RTC con operador Conectar
 - Teams Teléfono con su propio operador RTC con enrutamiento directo
 - Una solución combinada que usa Teams Teléfono con plan de llamadas, Teams Teléfono con operador Conectar y/o Teams Teléfono con enrutamiento directo
 
+>[!NOTE]
+>Si es una empresa pequeña o mediana (300 personas o menos), Microsoft ahora incluye Sistema telefónico un plan de llamadas nacionales. Para obtener más información, [consulte Teams Teléfono](/microsoftteams/business-voice/whats-business-voice) para pequeñas y medianas empresas para ayudarle a planear, configurar y administrar su solución de voz.
 
 ## <a name="what-do-you-need-to-read"></a>¿Qué necesita leer?
 
-**Necesario para todos.** Algunas de las secciones de este artículo pertenecen a todas las organizaciones. Por ejemplo, todos los usuarios deben leer Teams Teléfono y comprender las opciones para conectarse a la red telefónica conmutada (RTC). 
+**Necesario para todos.** Algunas de las secciones de este artículo pertenecen a todas las organizaciones. Por ejemplo, todos los usuarios deben leer Teams Teléfono y comprender las opciones para conectarse a la red telefónica conmutada (RTC).
 
 
 | Obligatorio para todos | Descripción |

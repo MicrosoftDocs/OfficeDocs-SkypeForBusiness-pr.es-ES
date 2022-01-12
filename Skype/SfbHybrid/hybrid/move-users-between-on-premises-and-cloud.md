@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumen: en una implementación local de Skype Empresarial Server que está habilitada para híbridos, puede mover usuarios entre el entorno local y la nube.'
-ms.openlocfilehash: 5d5f14cfdb5de2e11c95a2532900dfa3fcf669a1
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: ae0855388c4f97cd43e250ea5ee7aec1e1bf7938
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410711"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766783"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Mover usuarios entre la implementación local y la nube
 
@@ -70,7 +70,7 @@ Para mover usuarios a Teams, use el cmdlet Move-CsUser o el Panel de control de 
 
 Para mover usuarios entre la nube y local, debe usar una cuenta con privilegios suficientes tanto en el entorno Skype Empresarial Server local como en la Teams local. Puede usar una cuenta que tenga todos los privilegios necesarios o puede usar dos cuentas, en cuyo caso tendría acceso a las herramientas locales con credenciales locales y, a continuación, en esas herramientas, proporcionaría credenciales adicionales para una cuenta administrativa de Teams.  
 
-- En el entorno local, el usuario que realiza el movimiento debe tener los roles CSServerAdministrator y CsUserAdministrator en Skype Empresarial Server.
+- En el entorno local, el usuario que realiza el movimiento debe tener los roles CSServerAdministrator, CsUserAdministrator y RTCUniversalUserAdmins en Skype Empresarial Server.
 - En Teams, el usuario que realiza el movimiento debe cumplir uno de los siguientes criterios:
   - El usuario es miembro del rol Administrador global.
   - El usuario es miembro de los roles administrador Teams administrador y administrador de usuarios.

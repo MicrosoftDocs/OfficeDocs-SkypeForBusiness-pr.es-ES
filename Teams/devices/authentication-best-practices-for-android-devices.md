@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ffa30efd7f122b6d95c4545dd2d2517f3669472
-ms.sourcegitcommit: 73d12d90fc20e3d943301f57ee434379d0b0e91b
+ms.openlocfilehash: 0ff320688d7afc583e1e806803349fb3d07ceb0c
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "61576170"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767213"
 ---
 # <a name="authentication-best-practices-for-teams-android-devices"></a>Procedimientos recomendados de autenticación Teams dispositivos Android
 
@@ -62,7 +62,7 @@ Teams dispositivos compartidos deben usar [una Exchange de recursos](/exchange/r
 
 Para evitar interrupciones causadas por las directivas de expiración de contraseñas, establezca la directiva de expiración de contraseñas para dispositivos compartidos para que nunca expiren.
 
-A partir de Teams dispositivos CY21 [Actualización #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (versión Teams 1449/1.0.94.2021022403 para teléfonos Teams) y actualización [de CY2021 #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams versión 1449/1.0.96.2021051904 para Salas de Microsoft Teams en Android), los administradores de inquilinos pueden iniciar sesión en Teams dispositivos de forma remota. No comparta contraseñas con técnicos para configurar dispositivos. Un administrador, use el inicio de sesión remoto para emitir códigos de verificación y, a continuación, inicie sesión en estos dispositivos desde Teams centro de administración.
+A partir de Teams dispositivos CY21 [Actualización #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (versión Teams 1449/1.0.94.2021022403 para teléfonos Teams) y actualización [de CY2021 #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams versión 1449/1.0.96.2021051904 para Salas de Microsoft Teams en Android), los administradores de inquilinos pueden iniciar sesión en Teams dispositivos de forma remota. No comparta contraseñas con técnicos para configurar dispositivos. Como administrador, use el inicio de sesión remoto para emitir códigos de verificación y, a continuación, inicie sesión en estos dispositivos desde el Teams de administración.
 
 Para obtener más información, vea [Aprovisionamiento remoto e iniciar sesión para Teams dispositivos Android.](/MicrosoftTeams/devices/remote-provision-remote-login) 
 

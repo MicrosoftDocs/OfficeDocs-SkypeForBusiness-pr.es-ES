@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo enrutar llamadas a números sinsignar en su organización.
-ms.openlocfilehash: 93d9ce289820bdcf9bb4a1e13e78bb8794b77dbd
-ms.sourcegitcommit: bdca3b5eb35a17b27c5a052d83ab229b7c911dd4
+ms.openlocfilehash: 4d9c40a0b4a01f7fae4a755603cb5cf7eb132f5c
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "60947507"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767373"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Enrutamiento de llamadas a números sinsignar
 
@@ -70,6 +70,8 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 - Para enrutar llamadas a números de suscriptores de Microsoft Calling Plan sinsignar, el inquilino debe tener créditos [de comunicaciones disponibles.](what-are-communications-credits.md)
 
 - Para enrutar llamadas a números de servicio de Microsoft Calling Plan sinsignar, el inquilino debe tener al menos una Sistema telefónico: licencia de usuario virtual.
+
+- Los formatos compatibles con archivos de audio personalizados son WAV (PCM lineal sin comprimir con profundidad de 8/16/32 bits en mono o estéreo), WMA (solo en mono) y MP3. El contenido del archivo de audio no puede tener más de 5 MB.
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Obtenga información sobre cómo se clasifica la calidad de la transmisión en el Panel de calidad de llamadas (CQD) para Microsoft Teams y Skype Empresarial online.
-ms.openlocfilehash: f4c4fb72d15ce79c60c2400b068898ad463f1b07
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21de07e2b590bafcb7de65495e6b7d68faa381cc
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598344"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767203"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Clasificación de transmisión en panel de calidad de llamada (CQD)
 
@@ -72,10 +72,10 @@ Una transmisión VBSS se marca como Buena _o_ _Mala_ en función del valor de la
 
 |Paso N. º |Métrica |Condición |Clasificación si la condición es verdadera |Clasificación si la condición es falsa |Clasificación si la métrica no está disponible |Explicación |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50 % |_Poor_|_Good_|Continúe con el paso 2|Porcentaje medio de fotogramas de vídeo perdidos cuando se muestran al usuario. El promedio incluye fotogramas recuperados de pérdidas de red.|
-|2|Video Frame Rate Avg|<2|_Poor_|_Good_|Continúe con el paso 3|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada a lo largo de la sesión.|
-|3|Video Post FECPLR|>  0.15|_Poor_|_Good_|_Unclassified_|Tasa de pérdida de paquetes después de aplicar FEC agregada en todas las transmisiones de vídeo y códecs.|
+|1|Video Local Frame Loss Percentage Avg|Códec no es H264S</br>Y</br>StreamDirection es entrante</br></br>Si FrameLoss > 50%|_Poor_|_Good_|_Unclassified_|Porcentaje medio de fotogramas de vídeo perdidos cuando se muestran al usuario. El promedio incluye fotogramas recuperados de pérdidas de red. FrameLoss solo se usa para clasificar transmisiones entrantes que no son H264S.|
+|2|Video Frame Rate Avg|< 1|_Poor_|_Good_|_Unclassified_|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada a lo largo de la sesión. Se aplica a todas las transmisiones salientes y a StreamDirection para H264S.|
 | |  | | | |  ||
+
 
 ### <a name="application-sharing-classifier"></a>Clasificador de uso compartido de aplicaciones
 

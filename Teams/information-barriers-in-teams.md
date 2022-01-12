@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bae5efb39f6d395d96b455df52167ee39ced6da2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9bf452893172091d1c534d4a28215b661fd5fe6c
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828523"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767343"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de información en Microsoft Teams
 
@@ -188,10 +188,11 @@ El modo barreras de información ayuda a fortalecer quién se puede agregar o qu
 
 - **Abrir:** esta configuración es el modo IB predeterminado para todos los grupos existentes que se aprovisionaron antes de habilitar las barreras de información. En este modo, no hay directivas del IB aplicables.
 - **Implícito:** esta configuración es el modo IB predeterminado cuando se aprovisiona un equipo después de habilitar las barreras de información. El modo implícito le permite agregar todos los usuarios compatibles en el grupo.
+- **Propietario moderado:** este modo se establece en un equipo cuando desea permitir la colaboración entre usuarios de segmento incompatibles moderados por el propietario. El propietario del equipo puede agregar nuevos miembros según su directiva del IB.
 
-Microsoft 365 Los grupos creados antes de activar una directiva de barrera de información se establecen automáticamente en *modo* Abierto de forma predeterminada. Una vez que active las directivas del IB en su inquilino, se le obligaría a actualizar el modo que reevaluará los grupos y sitios y dará como resultado que los usuarios que no cumplan se quiten automáticamente de estos grupos y sitios. Si necesita cambiar  la configuración de modo abierto en grupos conectados Teams existentes para cumplir los requisitos de cumplimiento de su organización, tendrá que actualizar los modos [del IB](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) para los sitios SharePoint conectados al equipo de Teams.
+Teams antes de activar una directiva de barrera de información en el espacio empresarial se establecen automáticamente en *Modo* abierto de forma predeterminada. Una vez que haya activado las directivas del IB en el inquilino, es necesario que actualice el modo de los equipos existentes a *Implícito* para asegurarse de que los equipos existentes cumplen con ib.
 
-Use el cmdlet [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) con el parámetro *InformationBarrierMode* que corresponde al modo que desea usar para los segmentos. La lista de valores permitidos para *el parámetro InformationBarrierMode* son *Open* e *Implicit*.
+Use el cmdlet [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) con el parámetro *InformationBarrierMode* que corresponde al modo que desea usar para los segmentos. La lista de valores permitidos para el *parámetro InformationBarrierMode* son *Open*, *Implicit* y *Owner Moderated*.
 
 Por ejemplo, para configurar el *modo* implícito para un grupo Microsoft 365, usará el siguiente comando de PowerShell:
 
@@ -199,7 +200,9 @@ Por ejemplo, para configurar el *modo* implícito para un grupo Microsoft 365, u
 Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
 
-Para obtener más información sobre cómo los usuarios se pueden quitar automáticamente de los grupos, vea el artículo Asistente para el cumplimiento de barreras de información [(versión](/sharepoint/information-barriers-compliance-assistant) preliminar).
+Para actualizar el modo de Abrir a Implícito para todos los equipos existentes, use este [script de PowerShell](information-barriers-mode-script.md).
+
+Si cambia la configuración de modo abierto en grupos conectados Teams existentes para cumplir los requisitos de cumplimiento de su organización, tendrá que actualizar los modos [del IB](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) para los sitios SharePoint asociados conectados al equipo de Teams.
 
 ## <a name="required-licenses-and-permissions"></a>Licencias y permisos necesarios
 

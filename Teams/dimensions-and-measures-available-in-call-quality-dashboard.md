@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenga información detallada sobre las dimensiones y medidas que usa el Panel de calidad de llamadas (CQD) para Microsoft Teams y Skype Empresarial Online.
-ms.openlocfilehash: 4df31782e7f78818df5f9a849d0c814e07c52adb
-ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
+ms.openlocfilehash: c2b43bcd289be9b1ed108a8c24c65f7d01928517
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "61362557"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767036"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensiones y medidas disponibles en panel de calidad de llamada (CQD)
 
@@ -684,8 +684,8 @@ Muchos valores de medida también se pueden usar como filtros. En la tabla sigui
 |Second Audio Echo MIC_CLIPPING Count |Número de transmisiones |Número de transmisiones en las que los segundos puntos de conexión detectaron recortes en el audio capturado que limitaba la cancelación de eco en el audio enviado. |
 |Second Audio Echo BAD_STATE Count |Número de transmisiones |Número de transmisiones en las que los segundos puntos de conexión detectaron problemas con el estado interno que limitaba la cancelación de eco en el audio enviado. |
 |Avg Audio Degradation |Puntuación media de opinión (0-5) |Degradación media de puntuación de opinión de red para transmisiones. Representa cuánto la pérdida de red y el vibración han afectado a la calidad del audio recibido. |
-|Avg Jitter |Milisegundos |Vibración de red media para transmisiones en milisegundos. |
-|Avg Jitter Max |Milisegundos |Vibración de red máxima para transmisiones en milisegundos. |
+|Avg Jitter |Milisegundos |Vibración de red media para transmisiones en milisegundos. Se trata de una vibración entre llegadas como se ha notificado en la carga de red genérica y se notifica para todos los tipos de transmisión. |
+|Avg Jitter Max |Milisegundos |Vibración de red máxima para transmisiones en milisegundos. Se trata de una vibración entre llegadas como se ha notificado en la carga de red genérica y se notifica para todos los tipos de transmisión. |
 |Avg Packet Loss Rate |Relación |Promedio del porcentaje medio de paquetes perdidos calculado con un intervalo de 5 segundos para transmisiones. 0,1 indica una pérdida de paquetes del 10 %. |
 |Avg Packet Loss Rate Max |Relación |Promedio del porcentaje máximo de paquetes perdidos durante cualquier intervalo de 5 segundos para transmisiones. 0,1 indica una pérdida de paquetes del 10 %. |
 | Avg Send Listen MOS |Número |Promedio de la predicción de la puntuación de opinión media de calidad auditiva de banda ancha (MOS-LQ) de la transmisión de audio que se envía desde el usuario. <br/>Vea "Avg. sending MOS" en [El descodificador de informes de supervisión de Lync](https://gallery.technet.microsoft.com/Lync-Reports-Decoder-001ba287)|
@@ -698,12 +698,13 @@ Muchos valores de medida también se pueden usar como filtros. En la tabla sigui
 |Avg Round Trip |Milisegundos |Promedio del tiempo medio de ida y vuelta de propagación de red calculado según lo especificado en RFC3550 en milisegundos para transmisiones. |
 |Avg Round Trip Max |Milisegundos |Promedio del tiempo máximo de ida y vuelta de propagación de red calculado según lo especificado en RFC3550 en milisegundos para transmisiones. |
  Uso medio de paquetes|Número de paquetes|Número medio de Real-Time paquetes del Protocolo de transporte (RTP) enviados por segundo en la sesión.|
-|Avg Network Jitter |Milisegundos |   Promedio de vibración de red calculado sobre ventanas de 20 segundos durante la sesión. |
-| Avg Network Jitter Max|Milisegundos |Promedio de vibración máxima de red en milisegundos calculado sobre ventanas de 20 segundos durante la sesión.  |
-| Avg Network Jitter Min|Milisegundos|Promedio de valores mínimos de vibración de red en milisegundos calculados sobre ventanas de más de 20 segundos durante la sesión para transmisiones.|
-| Avg Jitter Buffer Size Max|Milisegundos|Tamaño máximo del búfer de vibración durante la sesión.|
-| Avg Jitter Buffer Size Min|Milisegundos|Tamaño mínimo del búfer de vibración durante la sesión.|
-| Avg Relative OneWay |Milisegundos|Promedio de retraso de un modo relativo calculado del punto de conexión.|
+|Avg Network Jitter |Milisegundos |   Promedio de vibración de red calculado sobre ventanas de 20 segundos durante la sesión. Esta métrica está contenida en la carga de audio del QoE. Los tipos de transmisión distintos del audio no reportarán un valor para esta medida. |
+| Avg Network Jitter Max|Milisegundos |Promedio de vibración máxima de red en milisegundos calculado sobre ventanas de 20 segundos durante la sesión. Esta métrica está contenida en la carga de audio del QoE. Los tipos de transmisión distintos del audio no reportarán un valor para esta medida. |
+| Avg Network Jitter Min|Milisegundos|Promedio de valores mínimos de vibración de red en milisegundos calculados sobre ventanas de más de 20 segundos durante la sesión para transmisiones. Esta métrica está contenida en la carga de audio del QoE. Los tipos de transmisión distintos del audio no reportarán un valor para esta medida.|
+| Avg Jitter Buffer Size|Milisegundos|Tamaño medio del búfer de vibración durante la sesión. Esta métrica está contenida en la carga de audio del QoE. Los tipos de transmisión distintos del audio no reportarán un valor para esta medida.|
+| Avg Jitter Buffer Size Max|Milisegundos|Tamaño máximo del búfer de vibración durante la sesión. Esta métrica está contenida en la carga de audio del QoE. Los tipos de transmisión distintos del audio no reportarán un valor para esta medida.|
+| Avg Jitter Buffer Size Min|Milisegundos|Tamaño mínimo del búfer de vibración durante la sesión. Esta métrica está contenida en la carga de audio del QoE. Los tipos de transmisión distintos del audio no reportarán un valor para esta medida.|
+| Avg Relative OneWay |Milisegundos|Promedio de retraso de un modo relativo calculado del punto de conexión. |
 | Apariciones de brecha de OneWay relativas medias|Milisegundos|Número medio de instancias de espacios en el retraso relativo de un solo sentido del par.|
 | Avg Relative OneWay Gap Density|Milisegundos|Densidad media de espacios en el retraso relativo de un solo sentido del par.|
 | Avg Relative OneWay Gap Duration|Número (milisegundos)|Duración media de los espacios en el retraso relativo de un solo sentido del par.|

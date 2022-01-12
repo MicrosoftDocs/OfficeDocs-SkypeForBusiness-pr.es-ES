@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Vea qué dispositivos y periféricos USB (como auriculares, altavoces, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: 718a4f96e6a54a5f2563cec4e69b7037a8bb470e
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 97299120992cf6500822c452386a9f402cb6cf55
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267783"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766703"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -74,10 +74,11 @@ Si es un fabricante y desea unirse al programa de certificación, [vea](/skypefo
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabla actualizada en diciembre de 2021*
+*Tabla actualizada en enero de 2022*
 
 | Fabricante        | Modelo                                                     | Cualificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Lenovo               |Go Wired Speakerphone                                      |1/10/2022       |Certificado para Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5066T                                           |12/1/2021       |Certificado para Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5063T                                           |12/1/2021       |Certificado para Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5036T                                           |12/1/2021       |Certificado para Microsoft Teams                           |

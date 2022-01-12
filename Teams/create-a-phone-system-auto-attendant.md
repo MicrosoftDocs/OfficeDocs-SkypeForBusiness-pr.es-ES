@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para grandes organizaciones en Microsoft Teams.
-ms.openlocfilehash: dec7051e643565b4fa0714bcba74528401ae99c0
-ms.sourcegitcommit: 693e2b7d79f5a3f7e2ccb14e48dc46d295659c33
+ms.openlocfilehash: 407d548a58240cb66cecabce01129fc3a7c270ca
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61320080"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767143"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -102,6 +102,9 @@ Si selecciona Opciones **de menú** Reproducir, puede elegir Reproducir un archi
 ![Captura de pantalla de las opciones de la tecla de marcado.](media/auto-attendant-call-flow-menu-options-complete.png)
 
 Para las opciones de marcado, asigne las teclas 0-9 del teclado del teléfono a uno de los destinos de enrutamiento de llamadas. (Las teclas \* (asterisco) y \# (libra) están reservados por el sistema y no se pueden reasignar. Al presionar cualquiera de estas teclas, se repetirá el menú actual).
+
+> [!NOTE]
+> La tecla # solo hace una copia de seguridad del operador automático más reciente. Una vez que se haya cruzado el límite a un nuevo operador automático, la tecla # no podrá llevarte al anterior.
 
 Las asignaciones de claves no tienen que ser continuas. Es posible crear un menú con las teclas 0, 1 y 3 asignadas a opciones, mientras que la tecla número 2 no se usa.
 
@@ -262,7 +265,7 @@ También puede usar PowerShell para crear y configurar operadores automáticos. 
 
 Si es administrador, puede usar la siguiente herramienta de diagnóstico para validar que un operador automático puede recibir llamadas:
 
-1. Seleccione **Ejecutar pruebas** a continuación. Esto rellenará el diagnóstico en el Centro de administración de Microsoft 365. 
+1. Seleccione **Ejecutar pruebas** a continuación, lo cual rellenará el diagnóstico en el Centro de administración de Microsoft 365. 
 
    > [!div class="nextstepaction"]
    > [Ejecutar pruebas: Teams Operador automático](https://aka.ms/TeamsAADiag)

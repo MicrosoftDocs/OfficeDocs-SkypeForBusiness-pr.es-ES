@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga información sobre los datos e informes disponibles en el Panel de calidad de llamadas de Microsoft (CQD).
-ms.openlocfilehash: 04edfbcbdcfc8cc5a51a08bccd7c0dfc6c511e58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d3030377a286103e6801855e3540239006fded47
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833084"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766213"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Datos e informes en panel de calidad de llamadas (CQD)
 
@@ -76,20 +76,21 @@ Por motivos de cumplimiento, los datos de información de identificación del us
 - Nombre del punto de conexión del equipo
 - Comentarios textuales de los usuarios
 - Id. de objeto (el id. de objeto de Active Directory del usuario del punto de conexión)
+- Número de teléfono
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>Roles de administrador con y sin acceso a EUII
 
 Estos [roles de RBAC](/azure/role-based-access-control/overview) **DO** tienen acceso a EUII:
 - Administrador global
-- Teams Administrador del servicio
-- Teams Administrador de comunicaciones
+- Teams de servicio
+- Teams de comunicaciones
 - Ingeniero de soporte en comunicaciones de Teams
 - Lector global
-- Skype Empresarial Administrador
+- Skype Empresarial administrador
 
 Estos roles de RBAC **no tienen** acceso a EUII:
 - Lector de informes
-- Teams Especialista en soporte técnico de comunicaciones
+- Teams de soporte técnico de comunicaciones
 
 
 ## <a name="date-controls"></a>Controles de fecha

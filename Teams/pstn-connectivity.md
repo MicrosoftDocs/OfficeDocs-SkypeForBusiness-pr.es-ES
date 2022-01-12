@@ -24,18 +24,18 @@ search.appverid: MET150
 description: Obtenga más información sobre Teams de llamadas (conectividad RTC) y las decisiones que tome para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b588de0041ab6cc1b74734f9a56b1e97f55166
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 994115cdf1dda3b5f938b6816623ead2a4196fdb
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267833"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766853"
 ---
 # <a name="pstn-connectivity-options"></a>Opciones de conectividad RTC
 
 Microsoft proporciona funcionalidades completas de Exchange de sucursales privadas (PBX) para su organización a través de Teams Teléfono. Sin embargo, para permitir a los usuarios realizar llamadas fuera de su organización, debe conectarse Teams Teléfono a la red telefónica conmutada (RTC).
 
-Este artículo se centra en las opciones de conectividad RTC. Para obtener más información sobre las soluciones de voz de Microsoft, incitar a los detalles sobre Teams Teléfono características, vea Planear su [Teams de voz.](cloud-voice-landing-page.md)
+Este artículo se centra en las opciones de conectividad RTC. Para obtener más información sobre las soluciones de voz de Microsoft, incluidos los detalles sobre Teams Teléfono de voz, vea [Planear su Teams de voz.](cloud-voice-landing-page.md)
 
 Para conectar Teams Teléfono a la RTC, puede elegir entre las siguientes opciones:
 
@@ -105,7 +105,7 @@ Si responde sí a las siguientes preguntas, Teams Teléfono enrutamiento directo
 - Desea usar Teams con Teams Teléfono.
 - Debe conservar el operador RTC actual.
 - Desea mezclar el enrutamiento, con algunas llamadas pasando por el Plan de llamadas, otras a través de su operador.
-- Necesita interoperar con PBX y/o equipos de terceros, como los paginadores generales, dispositivos analógicos, entre otros.
+- Debe interoperar con PBX y/o equipos de terceros, como los paginadores generales, dispositivos analógicos, entre otros.
 
 Con esta opción:
 

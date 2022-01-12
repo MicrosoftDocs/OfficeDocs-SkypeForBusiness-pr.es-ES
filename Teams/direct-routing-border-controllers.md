@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 97f8ffbf6613ca4106a68284c8e889375a7b0feb
-ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
+ms.openlocfilehash: 9fef14aa5d6e58bea3a33fbd8c86a3044b0ab778
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2021
-ms.locfileid: "61135203"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766983"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -122,13 +122,13 @@ En la tabla siguiente se describe qué proveedores de SBC admiten la [Optimizaci
 | Proveedor | Producto |    Versión de software |
 |:------------|:-------|:-------|
 | [AudioCodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    SBC Mediant 500 |   7.20A.256 | 
-|            |  SBC Mediant 800 |   7.20A.258 | 
-|            |  SBC Mediant 2600 |  7.20A.258 | 
-|            |  SBC Mediant 4000 |  7.20A.258 | 
-|            |  SBC Mediant 1000B | 7.20A.256 | 
-|            |  SBC Mediant 9000 |  7.20A.258 | 
-|            |  SBC de Mediant Virtual Edition |   7.20A.258 | 
-|            |  SBC de Mediant Cloud Edition | 7.20A.258 |
+|            |  SBC Mediant 800 |   Compatible con 7.20A.258 (recomendado 7.40A.100)  |  
+|            |  SBC Mediant 2600 |  Compatible con 7.20A.258 (recomendado 7.40A.100)  |  
+|            |  SBC Mediant 4000 |  Compatible con 7.20A.258 (recomendado 7.40A.100)  |  
+|            |  SBC Mediant 1000B | Compatible con 7.20A.258 (recomendado 7.40A.100)  |  
+|            |  SBC Mediant 9000 |  Compatible con 7.20A.258 (recomendado 7.40A.100)  |  
+|            |  SBC de Mediant Virtual Edition |   Compatible con 7.20A.258 (recomendado 7.40A.100)  |  
+|            |  SBC de Mediant Cloud Edition | Compatible con 7.20A.258 (recomendado 7.40A.100)  |
 | [Cinta de SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
 |            |  SBC 5210         | 8.2  |
 |            |  SBC 5400         | 8.2  |

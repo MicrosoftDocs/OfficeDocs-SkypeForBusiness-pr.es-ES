@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directiva de reunión en Teams para audio y vídeo.
-ms.openlocfilehash: 9cd2a82c87106e8060d168766915e4249b9193a5
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 9513650bf9c177154b45d7bd5dcda85354cf390b
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61178001"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766953"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configuración de directiva de reunión para audio & vídeo
 
@@ -196,6 +196,9 @@ Los asistentes a la reunión verán una selección de imágenes de fondo que pue
 
 > [!NOTE]
 > Los cambios pueden tardar hasta 24 horas en tener efecto.
+
+> [!NOTE]
+> Esta característica está disponible temporalmente en la vista previa pública para todos los Microsoft Teams clientes. Para obtener esta característica después de la vista previa, cada usuario necesitará la licencia de complemento Comunicaciones avanzadas. Para más información, consulte [Complemento de Comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## <a name="related-topics"></a>Temas relacionados
 
