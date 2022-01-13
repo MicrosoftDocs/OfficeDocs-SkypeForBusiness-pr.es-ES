@@ -13,28 +13,28 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: En este artículo se explica cómo configurar su organización y Salas de Teams dispositivos para admitir la unión de reuniones de terceros a Cisco WebEx y Zoom.
-ms.openlocfilehash: 7d3636c2cb3c12e47b4bba0e0c95f7e181069f19
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d952df95a396e29ffcf393ded068a30459707218
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602155"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015250"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Habilitar Teams room para unirse a reuniones de terceros
 
-Salas de Microsoft Teams dispositivos admiten una experiencia de un solo toque para unirse a reuniones en línea de terceros, también conocida como unirse a invitado directo. Cuando esté habilitado, puede usar un dispositivo Salas de Teams para unirse a reuniones hospedadas en Cisco WebEx y Zoom con la mayor facilidad posible para unirse a reuniones hospedadas en Microsoft Teams.
+Salas de Microsoft Teams dispositivos admiten una experiencia de un solo toque para unirse a reuniones en línea de terceros, también conocida como Direct Guest Join. Cuando está habilitado, puede usar Salas de Teams para unirse a reuniones hospedadas en Cisco WebEx y Zoom de la forma más sencilla que puede unirse a reuniones hospedadas en Microsoft Teams.
 
-Para poder unirse a reuniones de terceros desde Salas de Teams dispositivo, debe hacer lo siguiente:
+Para poder unirse a reuniones de terceros desde Salas de Teams, debe hacer lo siguiente:
 
-1. Configure el Salas de Teams del Exchange Online de sala para procesar invitaciones para reuniones de terceros.
+1. Configure el Salas de Teams de Exchange Online de sala para procesar invitaciones para reuniones de terceros.
 2. Asegúrese de que su organización no tiene directivas que le impidan conectarse a servicios de reuniones de terceros.
-3. Configure sus Salas de Teams para permitir reuniones de terceros.
+3. Configure Salas de Teams permitir reuniones de terceros.
 
 En las secciones siguientes se muestra cómo realizar cada uno de estos pasos.
 
 ## <a name="step-1-allow-calendar-invite-processing-for-third-party-meetings"></a>Paso 1: Permitir el procesamiento de invitaciones de calendario para reuniones de terceros
 
-Lo primero que debe hacer para habilitar una experiencia de unirse con un solo toque desde un dispositivo de salas de grupo es establecer las reglas de procesamiento del calendario para el buzón de sala Exchange Online del dispositivo. El buzón de sala necesita permitir reuniones externas y mantener el cuerpo y el asunto del mensaje para que pueda ver la dirección URL necesaria para unirse a la reunión de terceros. Para establecer estas opciones de buzón de sala con el cmdlet [Set-CalendarProcessing,](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) haga lo siguiente:
+Lo primero que debe hacer para habilitar una experiencia de combinación de un solo toque desde salas de grupo es establecer las reglas de procesamiento del calendario para el buzón de Exchange Online del dispositivo. El buzón de sala necesita permitir reuniones externas y mantener el cuerpo y el asunto del mensaje para que pueda ver la dirección URL necesaria para unirse a la reunión de terceros. Para establecer estas opciones de buzón de sala con el cmdlet [Set-CalendarProcessing,](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) haga lo siguiente:
 
 1. Conectar para Exchange Online PowerShell. Para obtener más información, vea Conectar para Exchange Online [PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) con autenticación básica o Conectar para Exchange Online PowerShell con autenticación [multifactor,](/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)según el método de autenticación.
 
@@ -62,7 +62,7 @@ Para agregar direcciones URL de servicio de reunión de terceros a la lista vín
 
 Estas son algunas entradas de ejemplo que es posible que deba agregar a la lista de vínculos de ATP Caja fuerte "no reescribir" o a la lista de excepciones de reescritura url de terceros:
 
-- **Cisco WebEx**`*.webex.com*`
+- **Cisco WebEx** `*.webex.com*`
 - **Zoom** `*.zoom.us*` , `*.zoom.com*` , `*.zoomgov.com*`
 
 Para obtener una lista completa de direcciones URL para agregar a la lista de vínculos de ATP Caja fuerte "no reescribir" o la lista de excepciones de reescritura de url de terceros, póngase en contacto con el proveedor de servicios de reuniones de terceros desde el que desea aceptar invitaciones a reuniones. 
@@ -70,15 +70,15 @@ Para obtener una lista completa de direcciones URL para agregar a la lista de v�
 > [!CAUTION]
 > Agregue solo direcciones URL en las que confía a su lista de Caja fuerte vínculos de ATP "no reescribir" o la lista de excepciones de reescritura url de terceros.
 
-## <a name="step-3-enable-third-party-meetings-on-device"></a>Paso 3: Habilitar reuniones de terceros en el dispositivo
+## <a name="step-3-enable-third-party-meetings-on-teams-rooms"></a>Paso 3: Habilitar reuniones de terceros en Salas de Teams
 
-El último paso que debe hacer es permitir que cada Salas de Teams dispositivo se una a reuniones de terceros. Las reuniones de terceros requieren un nombre de usuario y una dirección de correo electrónico para unirse a ellas. Si el nombre de usuario y la dirección de correo electrónico que necesita usar son diferentes del buzón de sala del dispositivo, debe agregarlo al dispositivo. Puede hacerlo en la configuración del dispositivo o en el archivo de configuración XML.
+El último paso que debe hacer es permitir que Salas de Teams unirse a reuniones de terceros. Las reuniones de terceros requieren un nombre de usuario y una dirección de correo electrónico para unirse a ellas. Si el nombre de usuario y la dirección de correo electrónico que necesita usar son diferentes del buzón de sala del dispositivo, debe agregarlo al dispositivo. Puede hacerlo en la configuración de Salas de Teams o en el archivo de configuración XML.
 
 ### <a name="use-device-settings"></a>Usar la configuración del dispositivo
 
-Para configurar el Salas de Teams con su pantalla táctil, haga lo siguiente:
+Para configurar Salas de Teams con la consola de pantalla táctil, haga lo siguiente:
 
-1. En el Salas de Microsoft Teams, seleccione **Más ...**.
+1. En la Salas de Microsoft Teams, seleccione **Más...**.
 2. Seleccione **Configuración** y, a continuación, escriba el nombre de usuario y la contraseña del administrador del dispositivo.
 3. Vaya a la **pestaña Reuniones** y seleccione **Cisco WebEx,** **Zoom** o ambos.
 4. Si desea unirse a reuniones con el nombre de usuario y la dirección de correo electrónico asociadas con el buzón de sala, seleccione **Unirse con la información del salón.**

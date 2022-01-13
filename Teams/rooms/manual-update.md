@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo actualizar manualmente el Salas de Microsoft Teams dispositivo a una versión específica.
-ms.openlocfilehash: c823cd9ffc98c0eea53ecc48f6ea7fc47519dfd1
-ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
+ms.openlocfilehash: 0b8ec08880d3f8c7ecce28293c92fb6ada901277
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60909552"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015000"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>Actualizar manualmente un Salas de Microsoft Teams móvil
 
@@ -29,7 +29,7 @@ La Salas de Microsoft Teams se distribuye a través del Microsoft Store. Las act
 Si no puede obtener actualizaciones del Microsoft Store, puede usar un script de PowerShell de actualización de aplicaciones sin conexión para actualizar manualmente los dispositivos Salas de Teams a una versión más reciente de la aplicación Salas de Teams. Siga los pasos de este artículo para actualizar manualmente los Salas de Teams dispositivos.
 
 > [!NOTE]
-> Este proceso solo puede actualizar un Salas de Teams con la aplicación Salas de Teams ya instalada. No se puede usar para realizar una nueva instalación. Tampoco se puede usar para degradar la aplicación a una versión anterior. Para realizar una nueva instalación de la aplicación Salas de Teams, póngase en contacto con el fabricante del dispositivo para obtener medios específicos de ella o vea Preparar el medio [de instalación.](console.md#prepare-the-installation-media)
+> Este proceso solo puede actualizar un Salas de Teams con la aplicación Salas de Teams ya instalada. No se puede usar para realizar una nueva instalación. Tampoco se puede usar para degradar la aplicación a una versión anterior. Para realizar una nueva instalación de la aplicación Salas de Teams, póngase en contacto con el fabricante del dispositivo para obtener contenido multimedia específico de ella.
 
 ## <a name="step-1-download-the-offline-app-update-script"></a>Paso 1: Descargar el script de actualización de aplicaciones sin conexión
 

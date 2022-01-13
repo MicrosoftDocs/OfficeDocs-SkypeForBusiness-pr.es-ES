@@ -15,52 +15,46 @@ ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo preparar la infraestructura para implementar Salas de Microsoft Teams para que pueda aprovechar todas las características.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5003bbb3554436ca388990aeebfec4ce6dfb9f57
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b92325fe9c7c43497fd9647306cfb6b218f5fde0
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577964"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015040"
 ---
 # <a name="prepare-your-environment"></a>Preparar el entorno
 
 Esta sección contiene información general sobre los pasos necesarios para preparar el entorno para que pueda usar todas las características de Salas de Microsoft Teams.
   
-1. Prepare una cuenta de dispositivo para cada Salas de Microsoft Teams consola. Vea [Implementar Salas de Microsoft Teams](rooms-deploy.md) para obtener más información.
+1. Prepare una cuenta de recursos para cada Salas de Microsoft Teams consola. Vea [Implementar Salas de Microsoft Teams](rooms-deploy.md) para obtener más información.
     
-2. Asegúrese de que las conexiones de red y de Internet funcionen correctamente en el dispositivo que se va a utilizar.  
-    
-   Debe poder recibir una dirección IP mediante DHCP. (Salas de Microsoft Teams se puede configurar con una dirección IP estática en el primer inicio de la unidad, pero después, una dirección IP estática para el dispositivo podría configurarse en el dispositivo o en el conmutador ascendente o enrutador).
-
-   Debe tener estos puertos abiertos (además de abrir los puertos normales para medios):
-   - HTTPS: 443
-   - HTTP: 80
-
-   Si su red se ejecuta mediante un proxy, necesitará también la dirección del proxy o la información de script.
-    
-   > [!IMPORTANT]
-   > Salas de Microsoft Teams no admite la autenticación de proxy, ya que puede interferir con las operaciones regulares de la sala. Asegúrese de que Salas de Microsoft Teams de autenticación de proxy antes de entrar en producción.
+2. Asegúrese de que las conexiones de red y de Internet funcionen correctamente en el dispositivo que se va a utilizar. 
   
 3. Para poder mejorar su experiencia, Microsoft recopila información. Para permitir que Microsoft recopile datos, permita que estos sitios:
 
    - Punto de conexión de cliente de telemetría: https://vortex.data.microsoft.com/
    - Punto de conexión de configuración de telemetría: https://settings.data.microsoft.com/
     
-### <a name="create-and-test-a-device-account"></a>Crear y probar una cuenta de dispositivo
+### <a name="create-and-test-a-resource-account"></a>Crear y probar una cuenta de recursos
 
-Una *cuenta de dispositivo* es una cuenta que el cliente Salas de Microsoft Teams usa para obtener acceso a características desde Exchange, como el calendario, y para habilitar Skype Empresarial. Vea [Implementar Salas de Microsoft Teams](rooms-deploy.md) para obtener más información.
+Una *cuenta de* recursos es una cuenta que el cliente Salas de Microsoft Teams usa para obtener acceso a características de Exchange, como el calendario, y para conectarse a Microsoft Teams. Vea [Implementar Salas de Microsoft Teams](rooms-deploy.md) para obtener más información.
   
 ### <a name="check-network-availability"></a>Comprobar la disponibilidad de red
 
-Para funcionar correctamente, el Salas de Microsoft Teams dispositivo debe tener acceso a una red cableada que cumpla estos requisitos:
+Para poder funcionar correctamente, Salas de Microsoft Teams tener acceso a una red cableada que cumpla estos requisitos:
   
-- Tener acceso a su instancia de Active Directory o Azure Active Directory (Azure AD), así como a sus servidores de Microsoft Exchange y Skype Empresarial.
+- Acceso a su instancia de Active Directory Azure Active Directory (Azure AD), así como a Microsoft Exchange y Microsoft Teams.
 
 - Tener acceso a un servidor que pueda proporcionar una dirección IP mediante DHCP. Salas de Microsoft Teams se puede configurar con una dirección IP estática en el primer inicio de la unidad.
 
 - Tener acceso a los puertos HTTP 80 y 443.
 
-- Puertos TCP y UDP [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) configurados como se describe en Requisitos de puerto y protocolo para servidores para implementaciones de Skype Empresarial Server locales o direcciones URL e [intervalos](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) de direcciones IP de Microsoft 365 y Office 365 para implementaciones en línea de Microsoft Teams o Skype Empresarial.
+- Puertos TCP y UDP [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) configurados como se describe en Requisitos de puerto y protocolo para servidores para implementaciones de Skype Empresarial Server locales, o direcciones URL e [intervalos](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) de direcciones IP de Microsoft 365 y Office 365 para Microsoft Teams.
+
+Si su red se ejecuta mediante un proxy, necesitará también la dirección del proxy o la información de script.
+    
+> [!IMPORTANT]
+> Salas de Microsoft Teams no admite la autenticación de proxy, ya que puede interferir con las operaciones regulares de la sala. Asegúrese de que Salas de Microsoft Teams de autenticación de proxy antes de entrar en producción.
 
 > [!IMPORTANT]
 > Asegúrese de usar una conexión de red cableada de 1 Gbps para garantizar que dispondrá de la banda ancha necesaria. 
@@ -70,7 +64,7 @@ Para funcionar correctamente, el Salas de Microsoft Teams dispositivo debe tener
   
 ### <a name="certificates"></a>Certificados
 
-El Salas de Microsoft Teams usa certificados para Exchange Web Services, Microsoft Teams o Skype Empresarial, uso de red y autenticación. En el caso de que los servidores relacionados utilicen certificados públicos, como ocurre con las implementaciones en línea y algunas locales, no será necesario que el administrador realice ninguna otra acción en relación a la instalación de certificados. Si, por el contrario, la entidad de certificación es una CA privada (habitual en las instalaciones locales), el dispositivo necesita poder confiar en esa CA, lo que implica tener los certificados de la cadena CA + CA instalados en el dispositivo. Al añadir el dispositivo al dominio, esta tarea se realiza de forma automática.
+El Salas de Microsoft Teams usa certificados para Exchange Web Services, Microsoft Teams o Skype Empresarial, uso de red y autenticación. Si los servidores relacionados usan certificados públicos, que es el caso de las implementaciones en línea y algunas implementaciones locales, no debe haber ninguna acción adicional necesaria por parte del administrador para instalar certificados. Si, por otro lado, la entidad emisora de certificados es una entidad de certificación privada, el dispositivo debe confiar en esa CA. Esto significa tener los certificados de la cadena CA + CA instalados en el dispositivo. Al añadir el dispositivo al dominio, esta tarea se realiza de forma automática.
   
 Los certificados se instalarán del mismo modo en que se instalarían para cualquier otro cliente de Windows.  
   
@@ -119,40 +113,35 @@ Salas de Microsoft Teams está diseñado para heredar la configuración de proxy
     
 Vea el [artículo Seguridad de](./security.md#network-security) red para obtener detalles completos sobre FQDN, puertos e intervalos de direcciones IP necesarios para Salas de Microsoft Teams.
   
-  
-### <a name="create-provisioning-packages"></a>Crear paquetes de aprovisionamiento
-
-Usará paquetes de aprovisionamiento para autenticarse Exchange Server, Microsoft 365 o Office 365.
-  
 ### <a name="admin-group-management"></a>Administración del grupo de administradores
 
-Después de la unión a un dominio, puede usar la Directiva de grupo o la Administración del equipo local para configurar un Grupo de seguridad como administrador local, tal como lo haría para un PC con Windows en su dominio. Las personas que formen parte de ese grupo de seguridad podrán introducir sus credenciales y desbloquear Configuración.
+Si elige unirse a un dominio (Azure Active Directory o Active Directory), puede usar Microsoft Endpoint Manager, Directiva de grupo o Administración de equipos locales para establecer un grupo de seguridad como administrador local del mismo modo que lo haría con un equipo Windows en su dominio. Las personas que formen parte de ese grupo de seguridad podrán introducir sus credenciales y desbloquear Configuración.
   
 > [!NOTE]
 > Si su dispositivo de Sala de Microsoft Teams pierde la confianza en el dominio (por ejemplo, si elimina Sala de Microsoft Teams del dominio tras haberse unido a él), no podrá autenticarse en el dispositivo ni abrir Configuración. La solución alternativa es iniciar sesión con la cuenta de administrador local. 
   
 ## <a name="local-accounts"></a>Cuentas locales
 
-### <a name="microsoft-teams-rooms-local-user-account"></a>Salas de Microsoft Teams Cuenta de usuario local
+### <a name="microsoft-teams-rooms-local-user-account"></a>Salas de Microsoft Teams cuenta de usuario local
 
-Normalmente, la cuenta de dispositivo no requiere una contraseña. Es posible asignarle una, pero acarrea consecuencias, como que los usuarios se puedan quedar bloqueados fuera de la aplicación de consola cuando expire la contraseña. Por lo tanto, el administrador debe garantizar que la contraseña no esté configurada para que expire.
+Salas de Teams incluye una cuenta local sin contraseña denominada "Skype". Esta cuenta se usa para iniciar sesión Windows iniciar la aplicación Salas de Teams usuario. No es compatible aplicar una contraseña a esta cuenta. Vea [Salas de Microsoft Teams seguridad para](security.md) obtener más información.
   
 ### <a name="admin---local-administrator-account"></a>"Administrador": cuenta de administrador local
 
-Salas de Microsoft Teams contraseña predeterminada se establece en "sfb". La contraseña se puede cambiar localmente yendo Windows Configuración Ir a Windows o en el archivo AutoUnattend.xml (use el Administrador de imágenes del sistema de Windows de ADK para realizar el cambio en el archivo \> xml).
+Salas de Microsoft Teams contraseña predeterminada se establece en "sfb". La contraseña se puede cambiar localmente a través del modo administrador o en el archivo AutoUnattend.xml (use el administrador de imágenes del sistema de Windows de ADK para realizar el cambio al archivo xml).
   
 > [!CAUTION]
 > Asegúrese de cambiar la Salas de Microsoft Teams contraseña lo antes posible. 
   
-Otra manera de administrar la contraseña de administrador local es configurar una directiva de grupo en la que los administradores de dominio se conviertan en administradores locales.
-  
 La contraseña del administrador local no se incluye como opción durante la configuración.
+
+Puede obtener más información sobre la cuenta de administrador en el [Salas de Microsoft Teams seguridad.](security.md)
   
 ### <a name="machine-account"></a>Cuenta de equipo
 
-Al igual que Windows dispositivo, el nombre de la máquina se puede cambiar haciendo clic con el botón derecho en **Configuración** \> **Acerca de** cambiar el nombre del \> **equipo.**
+Al igual que Windows dispositivo, el nombre del equipo se puede cambiar haciendo clic con el botón derecho en **Configuración** Acerca de cambiar el nombre del \>  \> **equipo.**
   
-Si desea cambiar el nombre del equipo después de unirse a un dominio, use Cambiar nombre **de** equipo , un comando de PowerShell, seguido del nuevo nombre del equipo.
+Si desea cambiar el nombre del equipo después de unirse a un dominio, use Cambiar nombre [de](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2)equipo , un comando de PowerShell, seguido del nuevo nombre del equipo.
   
 ## <a name="related-topics"></a>Temas relacionados
 

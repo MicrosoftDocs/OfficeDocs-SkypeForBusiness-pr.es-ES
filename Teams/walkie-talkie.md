@@ -18,16 +18,16 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80aedfd0c1bb4f4a20ecdfcd977ce74d667cad43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602075"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015020"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicación Walkie Talkie en Microsoft Teams
 
-La aplicación Walkie Talkie de Teams proporciona una comunicación instantánea push-to-talk (PTT) para su equipo y ahora está disponible en Android. Walkie Talkie permite a los usuarios conectarse con su equipo con los mismos canales subyacentes de los que son miembros. Solo los usuarios que se conectan a Walkie Talkie en un canal se convierten en participantes y pueden comunicarse entre sí mediante push-to-talk, de uno en uno.
+La aplicación Walkie Talkie de Teams proporciona una comunicación instantánea push-to-talk (PTT) para su equipo y ahora está disponible en Android & iOS. Walkie Talkie permite a los usuarios conectarse con su equipo con los mismos canales subyacentes de los que son miembros. Solo los usuarios que se conectan a Walkie Talkie en un canal se convierten en participantes y pueden comunicarse entre sí mediante push-to-talk, de uno en uno.
 
 Con Walkie Talkie en Teams, los trabajadores de primera línea ahora pueden comunicarse de forma segura con una experiencia de PTT familiar sin necesidad de llevar radios abultantes, y Walkie Talkie funciona en cualquier lugar con conexión a Internet WiFi o telefonía móvil.
 
@@ -35,7 +35,9 @@ Con Walkie Talkie en Teams, los trabajadores de primera línea ahora pueden comu
 
 ### <a name="deploying-walkie-talkie"></a>Implementar Walkie Talkie
 
-Actualmente, Walkie Talkie está disponible para dispositivos Android con Google Mobile Services (GMS) y no está preinstalado. Para habilitar esta característica para los usuarios de su organización, [](teams-app-setup-policies.md)debe agregar Walkie Talkie a la directiva de configuración de aplicaciones asignada a los usuarios desde el Centro de administración de   [Teams.](https://admin.teams.microsoft.com/) Una vez habilitado, Walkie Talkie estará disponible en la aplicación Android en un plazo de 48 horas.
+Walkie Talkie es compatible con dispositivos Android con google Mobile Services (GMS) y dispositivos iOS. 
+
+Actualmente, Walkie Talkie no está preinstalado. Para habilitar esta característica para los usuarios de su organización, [](teams-app-setup-policies.md)debe agregar Walkie Talkie a la directiva de configuración de aplicaciones asignada a los usuarios desde el Centro de administración de   [Teams.](https://admin.teams.microsoft.com/) Una vez habilitado, Walkie Talkie estará disponible en la aplicación en un plazo de 48 horas.
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>Agregar Walkie Talkie a la lista de aplicaciones
 
@@ -74,24 +76,23 @@ El uso de datos esperado de Walkie Talkie es de unos 20 Kb/s al enviar o recibir
 Los trabajadores de primera línea a menudo necesitan hablar y recibir llamadas de Walkie Talkie incluso cuando sus teléfonos están bloqueados. Esta experiencia es posible a través de dispositivos especializados con un botón PTT dedicado.
 
 - **Auriculares**
-  - Auriculares inalámbricos 
+  - Auriculares inalámbricos (iOS & Android)
     - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-  - Auriculares con cable 
+  - Auriculares con cable (solo para Android)
     - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
-- **Teléfonos resistentes**
+- **Teléfonos Android resistentes**
   - Samsung [Galaxy XCover Pro,](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/) [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-    -  Configuración manual: con Teams instalado, vaya a Configuración > características avanzadas > XCover/Active key. Activa "Tecla Control XCover con la aplicación" y selecciona "Teams"
-    -  [Configuración de MDM](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
-
+    - Configuración manual: con Teams instalado, vaya a Configuración > características avanzadas > XCover/Active key. Activa "Tecla Control XCover con la aplicación" y selecciona "Teams"
+    - [Configuración de MDM](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
+  - Cebra [TC5x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html) [TC7x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html) [TC2x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html) [EC5x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html) [EC30,](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html) [MC3300,](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html) [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
+    - Configuración manual: con Teams instalado, el botón PTT dedicado (LEFT_TRIGGER_2) funciona con Walkie Talkie de forma predeterminada
+    
 > [!NOTE]
 > Estos dispositivos no están Teams certificado. Se han validado para trabajar con Teams Walkie Talkie.
 
 ### <a name="license-requirements"></a>Requisitos de licencia
 
 La aplicación Walkie Talkie se incluye en todas las licencias de pago de Teams en [Office 365 suscripciones.](/office365/servicedescriptions/teams-service-description) Para obtener más información sobre cómo obtener Teams, consulte [¿Cómo puedo obtener acceso](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)a Microsoft Teams?
-
-> [!NOTE]
-> Algunas características avanzadas pueden requerir licencias adicionales. Por ejemplo, la integración con Samsung Galaxy XCover Pro requiere una licencia knox.
 
 ## <a name="further-information"></a>Más información
 

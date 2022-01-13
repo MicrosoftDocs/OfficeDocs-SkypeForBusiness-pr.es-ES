@@ -1,5 +1,5 @@
 ---
-title: Administrar Salas de Microsoft Teams dispositivos con Azure Monitor
+title: Supervisar Salas de Microsoft Teams dispositivos con Azure Monitor
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -13,26 +13,26 @@ ms.localizationpriority: medium
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection:
 - M365-collaboration
-description: En este artículo se describe cómo administrar Salas de Microsoft Teams dispositivos de forma integrada con Azure Monitor.
+description: En este artículo se describe cómo supervisar Salas de Microsoft Teams dispositivos de forma integrada con Azure Monitor.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fe523f4f4508dd81f5b7c007f91f32a43153dc42
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c4d1a31946ed825ba89407fab4cf55b4460a30c6
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592224"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015030"
 ---
-# <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Administrar Salas de Microsoft Teams dispositivos con Azure Monitor
+# <a name="monitor-microsoft-teams-rooms-devices-with-azure-monitor"></a>Supervisar Salas de Microsoft Teams dispositivos con Azure Monitor
 
-En este artículo se describe cómo administrar Salas de Microsoft Teams dispositivos de forma integrada con Azure Monitor.
+En este artículo se explica cómo supervisar Salas de Microsoft Teams de forma integrada con Azure Monitor.
 
-Puede configurar Azure Monitor para proporcionar telemetría básica para ayudarle a administrar Microsoft Teams de salas de reuniones. Vea [Planear Salas de Microsoft Teams administración con Azure Monitor](azure-monitor-plan.md) e Implementar Salas de Microsoft Teams con Azure [Monitor](azure-monitor-deploy.md) para obtener más información. A medida que la solución de administración madura, puede usar capacidades de administración y datos adicionales para crear una vista más detallada del rendimiento del dispositivo.
+Puede configurar Azure Monitor para proporcionar telemetría básica que le ayude a supervisar Microsoft Teams salas de reuniones. Vea [Planear Salas de Microsoft Teams administración con Azure Monitor](azure-monitor-plan.md) e Implementar Salas de Microsoft Teams con Azure [Monitor](azure-monitor-deploy.md) para obtener más información. A medida que la solución de supervisión madura, puede usar capacidades de supervisión y datos adicionales para crear una vista más detallada del rendimiento del dispositivo.
 
 ## <a name="understand-the-log-entries"></a>Conocer las entradas del registro
 
-Las siguientes descripciones de eventos se insertan en el campo de descripción del registro de eventos cada cinco minutos, cuando la aplicación Salas de Microsoft Teams registra la información correspondiente en el registro de eventos Windows eventos. El Microsoft Monitoring Agent pasa estos registros a Log Analytics en Azure Monitor, que los analiza en el panel que creó en Implementar Salas de Microsoft Teams administración con [Azure Monitor.](azure-monitor-deploy.md) Con el panel, puede ver entradas de registro individuales para determinar los cursos de acción si es necesario.
+Las siguientes descripciones de eventos se insertan en el campo de descripción del registro de eventos cada cinco minutos, cuando la aplicación Salas de Microsoft Teams registra la información correspondiente en el registro de eventos Windows eventos. El Microsoft Monitoring Agent pasa estos registros a Log Analytics en Azure Monitor, que los analiza en el panel que creó en Implementar Salas de Microsoft Teams supervisión con [Azure Monitor.](azure-monitor-deploy.md) Con el panel, puede ver entradas de registro individuales para determinar los cursos de acción si es necesario.
 
-Los IDs de evento 2000 y 3000 indican que el dispositivo en cuestión funciona según lo esperado. Los IDs de evento 2001 y 3001 indican que se ha encontrado un problema. El id. de evento 4000 puede requerir una acción si se ve con más frecuencia de lo esperado, en comparación con una línea base que estableció o con otros dispositivos implementados en su organización.
+Los IDs de evento 2000 y 3000 indican que Salas de Teams funciona según lo esperado. Los IDs de evento 2001 y 3001 indican que se ha encontrado un problema. El id. de evento 4000 puede requerir una acción si se ve con más frecuencia de lo esperado, en comparación con una línea base que estableció o con otros dispositivos implementados en su organización.
 
 Si conoce estas descripciones de eventos, le servirán como alertas para saber rápidamente si se están generando problemas y como punto de partida para proceder con otras soluciones de problemas.
 
@@ -47,6 +47,6 @@ Si conoce estas descripciones de eventos, le servirán como alertas para saber r
 ## <a name="related-topics"></a>Temas relacionados
  
 
-[Planear Salas de Microsoft Teams administración con Azure Monitor](azure-monitor-plan.md)
+[Planear Salas de Microsoft Teams supervisión con Azure Monitor](azure-monitor-plan.md)
 
-[Implementar Salas de Microsoft Teams de administración con Azure Monitor](azure-monitor-deploy.md)
+[Implementar Salas de Microsoft Teams supervisión con Azure Monitor](azure-monitor-deploy.md)

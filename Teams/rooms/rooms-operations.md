@@ -13,14 +13,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Lea este tema para obtener información sobre la administración de Salas de Microsoft Teams.
-ms.openlocfilehash: 3717c140501cbfc7650daafd14a6daa47a4febd3
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2238712b269475891074016c1099a33c56004595
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306165"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015050"
 ---
-# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Salas de Microsoft Teams mantenimiento y operaciones 
+# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Salas de Microsoft Teams mantenimiento y operaciones
  
 Lea este tema para obtener información sobre la administración de Salas de Microsoft Teams.
   
@@ -29,9 +29,9 @@ Salas de Microsoft Teams es la solución de conferencias de Microsoft diseñada 
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Recopilación de registros en Salas de Microsoft Teams
 <a name="Logs"> </a>
 
-Puede recopilar registros a través de Teams de administración. En Teams de administración, vaya a Dispositivos\Salas de Teams en Windows. En esta página, haga clic en el nombre para mostrar cuyos registros desea descargar. En el panel superior, haga clic en "Descargar registros de dispositivos". Se le pedirá un aviso. Haga clic en "Lo obtuvo". Después de unos minutos, los registros estarán listos para su descarga en la pestaña Historial.
+Para recopilar registros en Teams de administración, vaya a Teams **dispositivos > Salas de Teams en Windows**. Seleccione el nombre para mostrar del dispositivo para el que desea los registros. En el panel superior, seleccione "Descargar registros de dispositivos". Una vez que confirme, los registros estarán listos para su descarga en la pestaña Historial después de unos minutos.
 
-También puede usar PowerShell para recopilar registros. Debe invocar el script de la colección de registros que se incluye con la aplicación Salas de Microsoft Teams registro. En el modo administrador, inicie un símbolo del sistema con privilegios elevados y ejecute el siguiente comando:
+También puede usar PowerShell para recopilar registros. Debe invocar el script de la colección de registros que se incluye con la aplicación Salas de Microsoft Teams registro. En [modo administrador,](rooms-operations.md)inicie un símbolo del sistema con privilegios elevados y ejecute el siguiente comando:
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -44,7 +44,7 @@ Los registros se mostrarán como un archivo ZIP en c:\rigel.
 
 Configure la configuración de las pantallas frontales de la sala para admitir consumer electronics control(CEC) o habilitar el modo PC.
   
-Si desea que una pantalla frontal de la sala cambie automáticamente a Salas de Teams cuando se reactiva del modo de espera, deben cumplirse determinadas condiciones. Esta característica es opcional, pero es compatible Salas de Microsoft Teams software, siempre que el hardware subyacente admita la característica. Un televisor para consumidores que se usa como pantalla frontal de la sala debe admitir la característica control de electrónica de consumo (CEC) de HDMI.  Dependiendo de la base o consola seleccionada (que podría no ser compatible con CEC, consulte documentación de soporte técnico del fabricante), es posible que sea necesario un controlador como [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron o [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron para habilitar el comportamiento deseado. 
+Si desea que una pantalla frontal de la sala cambie automáticamente a Salas de Teams cuando se reactiva del modo de espera, deben cumplirse determinadas condiciones. Esta característica es opcional, pero es compatible Salas de Microsoft Teams software, siempre que el hardware subyacente admita la característica. Un televisor para consumidores que se usa como pantalla frontal de la sala debe admitir la característica control de electrónica de consumo (CEC) de HDMI.  Dependiendo de la base o consola seleccionada (que podría no ser compatible con CEC, consulte documentación de soporte técnico del fabricante), es posible que sea necesario un controlador como [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron o [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron para habilitar el comportamiento deseado.
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Salas de Microsoft Teams restablecer (restauración de fábrica)
 <a name="Reset"> </a>
@@ -62,7 +62,7 @@ La tabla siguiente resume las operaciones remotas posibles y los métodos que se
 
 |Grupo de trabajo |No unido a dominio|Unido a dominio|
 |:-----|:-----|:-----|
-|Reinicio  <br/> |Teams de administración  <br/> Escritorio remoto  <br/> Powershell remoto  <br/> | <br/>Escritorio remoto (requiere una configuración adicional)  <br/> Powershell remoto (requiere una configuración adicional)  <br/> Configuration Manager  <br/> |
+|Reinicio  <br/> |Teams de administración  <br/> Escritorio remoto  <br/> PowerShell remoto  <br/> | <br/>Escritorio remoto (requiere una configuración adicional)  <br/> PowerShell remoto (requiere una configuración adicional)  <br/> Configuration Manager  <br/> |
 |Actualizar SO  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |Actualización de aplicaciones  <br/> |Tienda Windows  <br/> |Tienda Windows  <br/> Configuration Manager  <br/> |
 |Configuración de la cuenta  <br/> |Teams de administración  <br/> |Teams de administración  <br/> |
@@ -79,7 +79,7 @@ Unirse Salas de Teams a un dominio de Active Directory proporciona las siguiente
 
 - Puede implementar la Windows calidad del servicio en Salas de Teams.
 
-- Si usa Skype Empresarial, unirse al dominio Salas de Teams ayuda a importar automáticamente la cadena de certificados raíz privada de su organización.
+- Si usa Skype Empresarial, unirse al dominio Salas de Teams automatiza la importación de la cadena de certificados raíz privada de su organización.
 
 Al unirse Salas de Teams a un dominio, es necesario que cree una unidad organizativa (OU) independiente para que pueda proporcionar exclusiones de objetos de directiva de grupo (GPO) a la unidad organizativa donde residen todos los Salas de Teams grupo. Deshabilite toda la herencia de GPO para que la configuración de directiva de grupo no compatible no se aplique a Salas de Teams. Cree objetos de equipo en la unidad organizativa antes de unirse Salas de Teams al dominio para asegurarse de que las directivas de grupo aplicadas a la unidad organizativa predeterminada de los equipos no se aplican.
 
@@ -193,7 +193,7 @@ Salas de Microsoft Teams se conecta a Windows update para recuperar las actualiz
   
 Si debe administrar las actualizaciones manualmente debido a limitaciones en el acceso Windows la tienda y, por lo tanto, no puede seguir el procedimiento normal de [Microsoft Store para Empresas](https://businessstore.microsoft.com/store) para distribuir aplicaciones sin [conexión,](/microsoft-store/distribute-offline-apps)puede adquirir el archivo APPX adecuado y las dependencias del [kit](https://go.microsoft.com/fwlink/?linkid=851168) de implementación (de las instrucciones para Configurar [un Salas de Microsoft Teams consola](console.md)) que se puede usar con Configuration Manager. La versión del kit de implementación se encuentra por detrás de la versión de store, por lo que es posible que no coincida siempre con la compilación disponible más reciente.
   
-### <a name="to-update-using-powershell"></a>Para actualizar con Powershell
+### <a name="to-update-using-powershell"></a>Para actualizar con PowerShell
 
 1. Extraiga el paquete del [MSI de instalación](https://go.microsoft.com/fwlink/?linkid=851168) a un recurso compartido al que puede acceder el dispositivo.
 2. Ejecute el siguiente script dirigido a Salas de Microsoft Teams dispositivos, cambiando al \<share\> recurso compartido de dispositivos según corresponda:
@@ -218,7 +218,7 @@ Algunas funciones de administración, como instalar manualmente un certificado d
 7. Realice las tareas de administración que sean necesarias.
 8.  Reinicie el equipo cuando haya terminado.
     
-La consola ha vuelto a su modo de funcionamiento normal. El procedimiento siguiente requiere que adjunte un teclado al dispositivo si aún no está conectado. 
+La consola volverá a su modo de funcionamiento normal. El siguiente procedimiento requiere que agregue un teclado al dispositivo si no hay ninguno todavía.  
   
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Cambiar al modo administrador y volver cuando se bloquea Salas de Microsoft Teams aplicación
 

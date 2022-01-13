@@ -18,12 +18,12 @@ description: Obtenga información sobre cómo configurar los planes de llamadas 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c762ccb2aba8c8ccad531573c37f258fa4605a9d
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: a56d0887f061292f729b45a6c53707d1e398e332
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410721"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015370"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -53,7 +53,7 @@ La capacidad de enrutamiento automático al punto de respuesta de seguridad púb
 
 Los planes de llamadas de Microsoft y los Conectar asociados incluyen servicios de enrutamiento de emergencia dinámicos para los usuarios de Estados Unidos y Canadá.
 
-Sin embargo, para enrutamiento directo, se requiere una configuración adicional para el enrutamiento de llamadas de emergencia y, posiblemente, para la conectividad de partners. El administrador debe configurar la conexión a un proveedor del Servicio de enrutamiento de emergencia (ERS) (Estados Unidos y **Canadá)** O configurar el controlador de borde de sesión (SBC) para una aplicación de número de identificación de ubicación de emergencia (ELIN). Para obtener información sobre los proveedores de ERS, vea [Controladores de borde de sesión certificados para enrutamiento directo.](direct-routing-border-controllers.md)
+Sin embargo, para enrutamiento directo, se requiere una configuración adicional para el enrutamiento de llamadas de emergencia y, posiblemente, para la conectividad de partners. El administrador debe asegurarse de que la puerta de enlace RTC que enrute la llamada de emergencia se haya configurado para agregar información de ubicación a la INVITACIÓN saliente (estableciendo el parámetro PidfloSupported en True en el objeto de puerta de enlace RTC en línea). Además, el administrador debe configurar la conexión a un proveedor de servicio de enrutamiento de emergencia (ERS) (Estados Unidos y **Canadá)** O configurar el controlador de borde de sesión (SBC) para una aplicación de número de identificación de ubicación de emergencia (ELIN). Para obtener información sobre los proveedores de ERS, vea [Controladores de borde de sesión certificados para enrutamiento directo.](direct-routing-border-controllers.md)
 
 Este artículo contiene las secciones siguientes.
 

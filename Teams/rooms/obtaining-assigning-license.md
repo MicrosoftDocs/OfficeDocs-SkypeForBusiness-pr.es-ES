@@ -17,20 +17,20 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo una cuenta Salas de Microsoft Teams obtiene una licencia para obtener acceso al Salas de Microsoft Teams de administración premium.
 f1keywords: ''
-ms.openlocfilehash: d37824c0cf496f7c059e081b73f6f8590b8b0429
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e85c6971795cb03d1d286c582bdbd1057c8a6a02
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637035"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015180"
 ---
 # <a name="getting-started-with-microsoft-teams-rooms-premium-managed-service"></a>Introducción al servicio Salas de Microsoft Teams Premium administración de datos
 
-Microsoft reconoce que las reuniones productivas se facilitan con esfuerzos en segundo plano que implican garantizar la productividad de las operaciones excelentes. Los Salas de Microsoft Teams Premium administrados por el usuario reducen la complejidad de su TI con un servicio continuo que ofrece operaciones de sala mejoradas, lo que mejora la productividad de las reuniones en la sala.
+Los Salas de Microsoft Teams Premium administrados reducen la complejidad para los administradores de Salas de Teams mediante la entrega de operaciones de salas mejoradas que mejoran la productividad de las reuniones en la sala.
 
 ## <a name="obtain-and-assign-a-license"></a>Obtener y asignar una licencia
 
-Salas de Microsoft Teams cuentas requieren una licencia Salas de Microsoft Teams Premium para trabajar con el servicio Salas de Microsoft Teams Premium administración.
+Salas de Microsoft Teams cuentas de recursos requieren una Salas de Microsoft Teams Premium licencia para trabajar con el servicio Salas de Microsoft Teams Premium administración.
 
 Para asignar una licencia, siga estos pasos:
 
@@ -40,9 +40,9 @@ Para asignar una licencia, siga estos pasos:
     > Este tipo de administrador a veces se conoce como **administrador global.** Vea Información general de [la Centro de administración de Microsoft 365](/microsoft-365/business-video/admin-center-overview).
 
 2. Elija **Facturación > licencias** en el panel de navegación izquierdo.
-3. Seleccione la licencia **Salas de Teams premium** para su uso previsto (están disponibles licencias de pago y de prueba). Vea [Soluciones de licencias para dispositivos de comunicaciones compartidas](rooms-licensing.md) para obtener una comparación entre Salas de Microsoft Teams estándar y Premium SKU.
+3. Seleccione la licencia **Salas de Teams premium** para su uso previsto (están disponibles licencias de pago y de prueba). Vea [Soluciones de licencias para dispositivos de](rooms-licensing.md) comunicaciones compartidas para obtener una comparación entre Salas de Microsoft Teams Estándar y Premium SKU.
 4. En la **página Cuentas de facturación,** seleccione **Asignar licencias.** Aparecerá **la página Asignar licencias a** usuarios.
 5. Escriba las cuentas **de Salas de Microsoft Teams** existentes **Salas de Teams Premium** asignación de licencia. Para obtener más información sobre la configuración de cuentas nuevas o Salas de Microsoft Teams existentes, vea Implementar Salas de Microsoft Teams con Microsoft 365 [o Office 365](with-office-365.md).
 6. Una vez completado el envío de la cuenta, seleccione **Asignar** y, a continuación, **Cerrar**. Las **Salas de Microsoft Teams Premium** se han asignado a **Salas de Microsoft Teams** cuentas.
 
-Ya está listo para inscribir las cuentas y los dispositivos Salas de Microsoft Teams certificados asociados en el servicio Salas de Microsoft Teams Premium administración. Para obtener más información, se [Inscribir un dispositivo en el Salas de Microsoft Teams Premium administrado.](enrolling-mtrp-managed-service.md)
+Ya está listo para inscribir las cuentas de recursos y los dispositivos Salas de Microsoft Teams certificados asociados en el servicio Salas de Microsoft Teams Premium administración de recursos. Para obtener más información, se [Inscribir un dispositivo en el Salas de Microsoft Teams Premium administrado.](enrolling-mtrp-managed-service.md)

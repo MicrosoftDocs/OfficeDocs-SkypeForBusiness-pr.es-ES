@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Obtenga más información sobre Teams de llamadas (conectividad RTC) y las decisiones que tome para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 994115cdf1dda3b5f938b6816623ead2a4196fdb
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 49c836687d7652c18b5932bd662d8ee935638d8a
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766853"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015280"
 ---
 # <a name="pstn-connectivity-options"></a>Opciones de conectividad RTC
 
@@ -41,7 +41,7 @@ Para conectar Teams Teléfono a la RTC, puede elegir entre las siguientes opcion
 
 - [**Plan de llamadas**](#teams-phone-with-calling-plan). Una solución todo en la nube con Microsoft como operador rtc.
 
-- [**Operador Conectar**](#teams-phone-with-operator-connect), que actualmente solo está disponible en **versión preliminar pública.**  Con operador Conectar, si su operador existente es un participante en el programa operador de Microsoft Conectar, pueden administrar las llamadas RTC y los controladores de borde de sesión (SBC). 
+- [**Operador Conectar**](#teams-phone-with-operator-connect). Con operador Conectar, si su operador existente es un participante en el programa operador de Microsoft Conectar, pueden administrar las llamadas RTC y los controladores de borde de sesión (SBC). 
 
 - [**Enrutamiento directo**](#teams-phone-with-direct-routing), que le permite usar su propio operador RTC conectando los controladores de borde de sesión (SBC) a Teams Teléfono.
 
@@ -51,7 +51,7 @@ También puede elegir una combinación de opciones, que le permite diseñar una 
 Tenga en cuenta que la opción o las opciones que elija afectan a la configuración de Teams Teléfono características. Para obtener más información, vea [Consideraciones de configuración](#configuration-considerations) más adelante en este artículo.
 
 
-## <a name="teams-phone-with-calling-plan"></a>Teams Teléfono con plan de llamadas 
+## <a name="teams-phone-with-calling-plan"></a>Teléfono de Teams con plan de llamadas 
 
 Teams Teléfono con Plan de llamadas es la solución de voz de Microsoft en la nube para Teams usuarios. Esta es la opción más sencilla que conecta Teams Teléfono a la RTC. Con esta opción, Microsoft actúa como su operador RTC, como se muestra en el siguiente diagrama:
 

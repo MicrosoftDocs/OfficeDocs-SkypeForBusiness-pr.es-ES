@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre las características, la disponibilidad y cómo planear y configurar Microsoft Teams Sistema telefónico para su empresa. '
-ms.openlocfilehash: 8097ca497a7da3474681549a4abfe396b41a06cd
-ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
+ms.openlocfilehash: f396d8fc3dd1e26a2969b825c360054db91071fa
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61262114"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015260"
 ---
 # <a name="heres-what-you-get-with-teams-phone"></a>Esto es lo que obtienes con Teams Teléfono
 
@@ -50,7 +50,7 @@ Teams Teléfono proporciona las siguientes características.
 |:-----|:-----|
 |[Operadores automáticos en la nube](what-are-phone-system-auto-attendants.md)  |Le permite crear un sistema de menús que permite a los autores de llamadas externos e internos localizar y realizar o transferir llamadas a usuarios o departamentos de la empresa de su organización.  <br/> Tenga en cuenta *que los usuarios no* necesitan estar habilitados para recibir llamadas del operador automático. |
 |[Colas de llamadas en la nube](create-a-phone-system-call-queue.md) <br> |Le permite configurar cómo se administran las colas de llamadas para su organización: por ejemplo, configurar saludos y música en espera, buscar el siguiente agente de llamada disponible para administrar la llamada, y así sucesivamente.  <br/> Tenga en cuenta que *los usuarios* necesitan estar habilitados para recibir llamadas desde una cola de llamadas.|
-|Música en espera | Reproduce música predeterminada definida por el servicio cuando una llamada externa de la red telefónica conmutada (RTC) está en espera. Esta característica funciona para llamadas RTC a Teams llamadas, además de las llamadas realizadas a una cola de llamadas. Esta característica proporciona paridad de notificaciones en espera con otras plataformas. Esta característica es configurable por el administrador, pero [actualmente solo a través de PowerShell.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) La música de retención tampoco es compatible con la transferencia consultiva de una llamada RTC. Para obtener más información, [vea Música en espera.](music-on-hold.md)|
+|[Música en espera](music-on-hold.md) | Reproduce música predeterminada definida por el servicio o música personalizada cargada por el administrador de inquilinos cuando una llamada externa de la red telefónica conmutada (RTC) está en espera. Esta característica funciona para llamadas RTC a Teams llamadas, además de las llamadas realizadas a una cola de llamadas. Esta característica proporciona paridad de notificaciones en espera con otras plataformas. |
 |Iniciar/responder llamadas (por nombre y número)   |Permite a los usuarios responder llamadas entrantes con un toque y realizar llamadas salientes marcando el número de teléfono completo o haciendo clic en un nombre en el cliente.   |
 |[Opciones de reenvío de llamadas y llamada simultánea](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)  |Permite a los usuarios configurar reglas de reenvío para que las llamadas puedan ir con ellas a cualquier lugar, o las llamadas se pueden reenviar a compañeros o al correo de voz.   |
 |[Recogida de llamadas grupales y reenvío al grupo](call-sharing-and-group-call-pickup.md)  | Permite a los usuarios compartir llamadas entrantes con compañeros de trabajo para que los compañeros puedan responder a las llamadas que se producen mientras el usuario no está disponible. Menos perjudicial para los destinatarios que otras formas de uso compartido de llamadas (como el reenvío de llamadas o la llamada simultánea) porque los usuarios pueden configurar cómo quieren recibir una notificación de una llamada compartida entrante. |
@@ -73,7 +73,7 @@ Teams Teléfono proporciona las siguientes características.
 |[Bloqueo de llamadas](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | Permite a los usuarios agregar números de teléfono (RTC) a una lista bloqueada para que la siguiente llamada de ese número no suene al usuario.|
 |[Teléfonos de área común](set-up-common-area-phones.md)  | Normalmente, un teléfono de área común se coloca en un área como una sala de espera o una sala de conferencias, lo que hace que esté disponible para varias personas. Los teléfonos de área común están configurados como dispositivos en lugar de como usuarios y pueden iniciar sesión automáticamente en una red.|
 |[Soporte de omisión de](direct-routing-plan-media-bypass.md) medios (solo Teams enrutamiento directo)  | Para un mejor rendimiento, los medios se mantienen entre el controlador de borde de sesión (SBC) y el cliente en lugar de enviarlo a través del Teams Teléfono. |
-
+|[Enrutamiento de números sinsignar](routing-calls-to-unassigned-numbers.md) | Permite el enrutamiento de números sinsignar a usuarios, operadores automáticos, colas de llamadas o un anuncio personalizado. |
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>Disponibilidad en GCC nubes Altas y DoD
 <a name="bkmk_setup"> </a>
