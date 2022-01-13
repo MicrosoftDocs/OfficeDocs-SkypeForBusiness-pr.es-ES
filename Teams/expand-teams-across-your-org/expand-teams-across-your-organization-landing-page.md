@@ -15,18 +15,27 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 30a9017417e6c4d50745fe1ec1bf492d65dc6b81
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9142434cc467da1e8ae5154dc8083b648d3247ad
+ms.sourcegitcommit: 45756a51857ed1d8714175d2b715c388e2f0db81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858787"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62027583"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Expandir Microsoft Teams en toda la organización
 
 Estos recursos se compilan en las instrucciones Teams implementación estándar y están diseñados para ayudarle a sacar el máximo partido de Teams para tipos de organización específicos. Si aún no ha implementado Teams, consulte la ruta de acceso recomendada a Teams en Cómo implementar [Microsoft Teams](../deploy-overview.md).
 
-|&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;| 
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| ![task-checklist-planning-teams.](../media/clock-teams-small.svg)  |  [Turnos para Teams](./shifts-for-teams-landing-page.md) |![equipos de salud](../media/health-teams-small.svg)  | [Teams para sanidad](./teams-for-healthcare-landing-page.md) |![educación-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [Teams para el ámbito educativo](./teams-for-education-landing-page.md) 
-|![pequeña empresa-teams.](../media/small-business-teams-small.svg)  | [Teams para el comercio](./teams-for-retail-landing-page.md) |![bloques-teams](../media/blocks-teams-small.svg)  | [Teams para Administración Pública](./teams-for-government-landing-page.md) |               |               |
+Descubra lo que puede hacer con Teams para:
+
+- [Educación](./teams-for-education-landing-page.md)
+- [Trabajadores de primera línea](../flw-landing-page.md)
+- [Gobierno](./teams-for-government-landing-page.md)
+- [Sanidad](./teams-for-healthcare-landing-page.md)
+- [Ong](./teams-for-nonprofit-landing-page.md)
+- [Retail](./teams-for-retail-landing-page.md)
+
+O obtenga más información sobre estas aplicaciones disponibles para todos los sectores:
+
+- [Turnos para Teams](./shifts-for-teams-landing-page.md)
+- [Reservas en Teams](../bookings-app-admin.md)

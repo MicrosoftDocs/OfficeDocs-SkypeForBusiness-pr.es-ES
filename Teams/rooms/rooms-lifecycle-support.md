@@ -14,12 +14,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: Obtenga información sobre el soporte para el ciclo de Salas de Microsoft Teams, incluida la estructura de soporte dinámico y sus fases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0857f7122c4cc03b1398d52682ba33739ea6c4d5
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: a04a98fa4a3d0b876b6abafff248916cb7e1443f
+ms.sourcegitcommit: 45756a51857ed1d8714175d2b715c388e2f0db81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306195"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62027573"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Salas de Microsoft Teams versión de la aplicación
  
@@ -49,6 +49,7 @@ En la tabla siguiente se muestran las versiones recomendadas y compatibles Windo
 
 |Versión  |Fecha de disponibilidad   |Salas de Microsoft Teams de soporte técnico   |Salas de Microsoft Teams versión mínima de la aplicación | Compilación recomendada del sistema operativo  |
 |:---  |:---       |:---                                  |:---     |:---     |
+| 21H1 |2021-05-18 |No compatible                         |&#x2014; |&#x2014; |
 | 20H2 |2020-10-20 |Compatible, <br/>Recomendado|4.10.10.0 |19042.631 |
 | 2004 |2020-05-27 |Omitido, <br/> No recomendado &#x2780;|&#x2014; |&#x2014; |
 | 1909 |2019-11-12 |Compatible |4.5.33.0 |18363.418  |
