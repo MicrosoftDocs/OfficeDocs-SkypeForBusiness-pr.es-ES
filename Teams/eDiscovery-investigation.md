@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesita realizar exhi
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ca4e85be70ce85d8e35c743275c9f3689061bcda
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: c1d45ea392048e0152f6433c6434db641d8530e4
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331131"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993094"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -129,19 +129,28 @@ Antes de realizar estos pasos, instale SharePoint Shell de administración en l�
 
 Antes de realizar estos pasos, asegúrese de que tiene instalada la versión más reciente [Teams módulo de PowerShell.](teams-powershell-overview.md)
 
-1. Ejecute el siguiente comando para obtener una lista de canales privados en el equipo.
+1. Ejecute el siguiente comando para obtener el id. de grupo del equipo que contiene los canales privados que desea buscar.
+
+   ```powershell
+   Get-Team -MailNickName <mail alias of the associated Office 365 Group>
+   ```
+
+   > [!TIP]
+   > Ejecute el cmdlet **Get-Team** sin ningún parámetro para mostrar una lista de todos los Teams de su organización. La lista contiene el grupo Id. y MailNickName para cada equipo.
+
+2. Ejecute el siguiente comando para obtener una lista de canales privados en el equipo. Use el id. de grupo para el equipo que obtuvo en el paso 1.
 
     ```PowerShell
-    Get-TeamChannel -GroupId <GroupID> -MembershipType Private
+    Get-TeamChannel -GroupId <GroupId> -MembershipType Private
     ```
 
-2. Ejecute el siguiente comando para obtener una lista de los miembros del canal privado.
+3. Ejecute el siguiente comando para obtener una lista de los propietarios y miembros del canal privado.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
+    Get-TeamChannelUser -GroupId <GroupId> -DisplayName "Engineering" 
     ```
 
-3. Incluya los buzones de todos los miembros de cada canal privado en el equipo como parte de la consulta [de búsqueda de exhibición de documentos electrónicos.](/microsoft-365/compliance/search-for-content-in-core-ediscovery)
+4. Incluya los buzones de todos los propietarios y miembros de cada canal privado en el equipo como parte de la consulta de [búsqueda de exhibición de documentos electrónicos.](/microsoft-365/compliance/search-for-content-in-core-ediscovery)
 
 ## <a name="search-for-content-for-guest-users"></a>Buscar contenido para usuarios invitados
 

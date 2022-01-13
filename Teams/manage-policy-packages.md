@@ -20,14 +20,14 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas en Microsoft Teams simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: 771b4f2e0e62f9721bcd135e1d01dc4be3ce7285
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: de008f2a662280b173acce6b69157e3b8725798f
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60868482"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61992279"
 ---
-# <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
+# <a name="manage-policy-packages-for-microsoft-teams"></a>Administrar paquetes de directivas para Microsoft Teams
 
 Un paquete de directivas en Microsoft Teams es una colección de directivas y configuraciones de directiva predefinidas que puede asignar a los usuarios que tienen roles similares en la organización. Hemos creado paquetes de directivas para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios de toda la organización.  
 
@@ -38,7 +38,7 @@ Puede usar los [paquetes de directiva incluidos en Teams](#policy-packages-inclu
 Puede personalizar la configuración de las directivas de un paquete de directivas para adaptarla a las necesidades de los usuarios. Al cambiar la configuración de directivas de un paquete, todos los usuarios que están asignados a ese paquete obtienen la configuración actualizada. Puede administrar paquetes de directivas mediante el centro Microsoft Teams de administración o PowerShell.
 
 > [!NOTE]
-> Cada usuario necesitará el complemento de Comunicaciones avanzadas para recibir una tarea de paquete personalizado de directiva. Para más información, consulte [Complemento de Comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+> Esta característica está disponible temporalmente en la vista previa pública para todos los Microsoft Teams clientes. Para obtener esta característica después de la vista previa, cada usuario necesitará la licencia de complemento Comunicaciones avanzadas. Para más información, consulte [Complemento de Comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## <a name="what-is-a-policy-package"></a>¿Qué es un paquete de directivas?
 
@@ -69,8 +69,8 @@ Teams incluye actualmente los siguientes paquetes de directivas.
 |Trabajador clínico de la sanidad  |Crea un conjunto de directivas y configuraciones de directivas que proporciona a los trabajadores clínicos como los profesionales clínicos registrados, las enfermeras de cargo, los médico y los trabajadores sociales acceso completo al chat, a las llamadas, a la administración de turnos y a las reuniones. |
 |Trabajador de la información sanitaria  |Crea un conjunto de directivas y configuraciones de directivas que dan a los trabajadores de la información como el personal de TI, el personal informático, el personal del departamento financiero y los responsables de cumplimiento normativo, acceso completo a chat, llamadas y reuniones.|
 |Sala de pacientes de cuidado de la salud  |Crea un conjunto de directivas y configuraciones de directivas que se aplican a las salas de pacientes de su organización de cuidados de la salud.|
-|Usuario de pequeñas y medianas empresas (Business Voice) |Crea una directiva de configuración de aplicaciones que incluye las aplicaciones para una experiencia de voz empresarial.|
-|Usuario de pequeñas y medianas empresas (sin Business Voice) |Crea una directiva de configuración de aplicaciones relevante para una pequeña y mediana empresa Teams usuarios (experiencia de voz no empresarial).
+|Usuario de pequeñas y medianas empresas (Teams Teléfono con plan de llamadas) |Crea una directiva de configuración de aplicaciones que incluye las aplicaciones para un Teams Teléfono con la experiencia plan de llamadas.|
+|Usuario de pequeñas y medianas empresas (sin Teams Teléfono con plan de llamadas) |Crea una directiva de configuración de aplicaciones relevante para una pequeña y mediana empresa Teams usuarios (no Teams Teléfono con la experiencia plan de llamadas).
 |Oficial de seguridad pública   |Crea un conjunto de directivas y configuraciones de directiva que se aplican a los responsables de seguridad pública de su organización.|
 
 > [!NOTE]

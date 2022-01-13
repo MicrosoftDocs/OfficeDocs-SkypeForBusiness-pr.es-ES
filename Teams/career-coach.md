@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 114bc83039c42170bcc20d24419f840b3b3d339b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a6ee69306faed71524742fab46c30c9e8523d8ff
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849583"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993004"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Comprar, configurar y habilitar Asesor de carrera para Microsoft Teams
 
@@ -87,7 +87,9 @@ Para habilitar Asesor de carrera para su institución educativa, revise lo que n
 
 ## <a name="purchase-the-career-coach-licenses"></a>Comprar las Asesor de carrera licencias
 
-Asesor de carrera está disponible en todo el mundo (excepto China y Rusia) para instituciones de educación superior calificadas como una licencia de complemento a través de Enrollment for Education Solutions (EES), Proveedores de servicios en la nube (CSP) y Centro de administración de Microsoft 365 (web direct). Como aplicación Microsoft Teams, los clientes deben tener Microsoft 365 A3/A5 o Office 365 A1/A3/A5 para poder comprar el complemento Asesor de carrera licencia.
+Asesor de carrera está disponible en todo el mundo (excepto China y Rusia) para instituciones de educación superior calificadas como una licencia de complemento a través de Enrollment for Education Solutions (EES), Proveedores de servicios en la nube (CSP) y Centro de administración de Microsoft 365 (web direct). Como aplicación Microsoft Teams, el inquilino debe tener Microsoft 365 A3/A5 o Office 365 A1/A3/A5 para poder comprar el complemento Asesor de carrera licencia. Se ofrecen licencias independientes para estudiantes y usuarios de profesores y docentes.
+
+Hay disponible una prueba gratuita estándar de 90 días para 25 estudiantes y 25 licencias de profesores y docentes. Las licencias de prueba se pueden activar Centro de administración de Microsoft 365 los inquilinos que están cualificados para comprar Asesor de carrera.
 
 ### <a name="assign-app-licenses-to-users"></a>Asignar licencias de aplicaciones a usuarios
 
@@ -367,6 +369,55 @@ Si no está seguro de qué directiva usar, puede hacer referencia a [](/microsof
 
 Para obtener más información, haga referencia a Administrar directivas de configuración de [aplicaciones en Microsoft.](/microsoftteams/teams-app-setup-policies)
 
+## <a name="career-coach-settings-status"></a>Asesor de carrera de configuración
+
+La página Asesor de carrera configuración del centro de administración de Teams proporciona un informe de estado de pasos incompletos, pendientes, completados y con errores para configurar la aplicación. Estos estados pueden ayudarle a determinar si Asesor de carrera está configurado correctamente y listo para su lanzamiento al inquilino.
+
+### <a name="configuration-status"></a>Estado de configuración
+
+La sección estado de configuración de la página de configuración de la aplicación mostrará el estado actual.
+
+![la sección de estado de configuración de la aplicación de entrenador profesional.](media/career-coach-config-status.png)
+
+| Categoría              | Estado                    | Descripción                                                 |
+| --------------------- | ------------------------- | ----------------------------------------------------------- |
+| Aprovisionamiento de servicios  | Pending                   | La aplicación se está agregando al inquilino. No se necesitan más acciones. |
+| Aprovisionamiento de servicios  | Completado                  | Listo para que el administrador de TI envíe la configuración.                      |
+| Marca y preferencias | No iniciado               | Configuración debe enviarse.                              |
+| Marca y preferencias | Faltan _campos obligatorios_ | El administrador de TI debe agregar o cargar los campos que faltan.         |
+| Marca y preferencias | Completado                  | No se necesitan más acciones.                                   |
+| Catálogo de cursos        | No iniciado               | El catálogo debe enviarse.                              |
+| Catálogo de cursos        | Incompleto                | Compruebe el estado de la ingestión para obtener más información sobre cómo resolverlo.   |
+| Catálogo de cursos        | Completado                  | No se necesitan más acciones.                                   |
+| Conexión de LinkedIn   | No iniciado               | La dirección URL de la página educativa de LinkedIn debe enviarse.             |
+| Conexión de LinkedIn   | Pending                   | Esperando la aprobación del administrador de la página educativa de LinkedIn.               |
+| Conexión de LinkedIn   | Completado                  | No se necesitan más acciones.                                   |
+| Campos de estudio       | No iniciado               | Es necesario enviar el documento.                             |
+| Campos de estudio       | Completado                  | No se necesitan más acciones.                                   |
+
+> [!NOTE]
+> Una vez que todos los pasos se marquen como completados, la aplicación se puede publicar correctamente en el inquilino y asignar Asesor de carrera licencias. Para obtener instrucciones paso a paso, vea [Asignar licencias a usuarios.](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+
+### <a name="course-catalog-status"></a>Estado del catálogo del curso
+
+El estado del catálogo del curso se muestra en la página Configuración del catálogo de cursos una vez que se ha cargado un documento, proporcionando detalles de la carga y procesamiento del documento.
+
+
+![el estado de carga del catálogo del curso de la aplicación de entrenador profesional.](media/career-coach-course-catalog-status.png)
+
+| Columna           | Valor     | Descripción                                                                                        |
+| ---------------- | --------- | -------------------------------------------------------------------------------------------------- |
+| Hora cargada    | Marca de tiempo | Fecha y hora en que un administrador de TI ha cargado un documento.                                                     |
+| Tiempo completado   | Marca de tiempo | Fecha y hora en que el documento se procesó por completo.                                               |
+| Cursos cargados | Entero   | Número de cursos que se encuentran en el documento.                                                           |
+| Estado de ingestión | Pending   | Documento en cola para su procesamiento.                                                                  |
+| Estado de ingestión | Ejecución   | El documento se está procesando actualmente. Este proceso puede tardar hasta 60 minutos.                        |
+| Estado de ingestión | Correcto   | El proceso de ingestión se completa y los cursos y estarán disponibles en la aplicación una vez que esté completamente configurado. |
+| Estado de ingestión | Error    | Compruebe el formato del documento y vuelva a cargarlo.                                                            |
+| Duplicados       | Entero   | Número de cursos duplicados que se encuentran en el documento.                                                 |
+
+> [!NOTE]
+> Si una columna está en blanco, el documento se está procesando actualmente y esos valores no están disponibles. Una vez que se haya procesado el documento, los valores se rellenarán. Puede actualizar la página para buscar actualizaciones.
 
 ## <a name="troubleshooting"></a>Solución de problemas
 

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25508b3224ab7eab28157cbff268bb6b164686d5
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 97f8994ecc5c7aef610e040f30b43803f03c6844
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563657"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993196"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Usar el Asistente para la incorporación de trabajadores en primera línea para que su fuerza de trabajo de primera línea esté en funcionamiento
 
@@ -34,8 +34,12 @@ Actualmente, el asistente admite la adición de 100 usuarios cada vez que lo eje
 
 El asistente está disponible para todas las organizaciones que tengan al menos una [licencia F.](https://www.microsoft.com/microsoft-365/enterprise/frontline) Puede ejecutar el asistente tantas veces como necesite para Teams personal de primera línea en diferentes ubicaciones o sitios de su organización.
 
+Consulte este breve vídeo para obtener información general sobre cómo ejecutar el asistente para incorporar a su personal de primera línea.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN6oh]
+
 > [!NOTE]
-> Este asistente le permite incorporar rápidamente a sus trabajadores de primera línea para Teams a través del Centro de administración de Microsoft 365. Para obtener información sobre cómo implementar Teams a los trabajadores de primera línea con scripts, vea Cómo aprovisionar Teams a escala para los trabajadores [de frontline](flw-scripted-deployment.md).
+> Este asistente le permite incorporar rápidamente a su personal de primera línea para Teams a través del Centro de administración de Microsoft 365. Para obtener información sobre cómo implementar Teams personal de primera línea con scripts, vea Cómo aprovisionar Teams a escala para los trabajadores [de frontline](flw-scripted-deployment.md).
 
 > [!NOTE]
 > El asistente aún no admite etiquetas [de confidencialidad.](sensitivity-labels.md) Si su organización requiere etiquetas de confidencialidad para crear un equipo, no verá el asistente en el Centro de administración de Microsoft 365.
@@ -72,7 +76,7 @@ El asistente está disponible para todas las organizaciones que tengan al menos 
 
     :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="Captura de pantalla de la página Revisar equipo del asistente donde revisa la configuración del equipo" lightbox="media/flw-onboarding-wizard-review-team.png":::
 
-    El asistente crea el equipo y asigna licencias y paquetes de directivas a los miembros del equipo. Esto puede tardar unos minutos en completarse, después de lo cual los destinatarios elegidos recibirán un correo electrónico de estado.
+    El asistente crea el equipo y asigna licencias y paquetes de directivas a los miembros del equipo. Puede tardar unos minutos en completarse, después de lo cual los destinatarios elegidos recibirán un correo electrónico de estado.
 
 8. Estás en camino, pero aún no has terminado. A continuación, consulte la [sección Qué hacer después de ejecutar el](#what-to-do-after-running-the-wizard) asistente de este artículo.
 
