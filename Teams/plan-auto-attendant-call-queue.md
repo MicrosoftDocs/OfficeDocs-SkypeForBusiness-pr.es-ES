@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre operadores automáticos y colas de llamadas y cómo usarlos para ayudar a los autores de llamadas a desplazarse por un sistema de menús para llegar a personas o departamentos de su organización.
-ms.openlocfilehash: ba30492ac80f3a81e99ed2b356d53ffcbf8f22a2
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 89c799f5d42adc3367f027a1dec258ba16d97aa6
+ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249542"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "62039893"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear Teams operadores automáticos y colas de llamadas
 
@@ -47,7 +47,7 @@ Los mensajes de menú se pueden crear mediante texto a voz (mensajes generados p
 
 Cada operador automático tiene un idioma y una zona horaria específicos. Si hace negocios en varios idiomas o en varias partes del mundo, puede crear tantos operadores automáticos diferentes como necesite para dar cabida a sus autores de llamadas.
 
-Para cada operador automático, puede configurar un operador. Aunque puede configurar las llamadas de operadores para que vayan a una variedad de destinos, la característica de operador está diseñada para permitir que los autores de llamadas hablen con una persona específica de su organización que pueda ayudarle.
+Para cada operador automático, puede configurar un operador. Aunque puede configurar las llamadas de operadores para que vayan a varios destinos, la característica de operador está diseñada para permitir que los autores de llamadas hablen con una persona específica de su organización que pueda ayudarle.
 
 Los operadores automáticos se pueden configurar para permitir que los autores de llamadas busquen en el directorio de su organización, ya sea por nombre o por número de extensión. Dentro de un operador automático, puede especificar quién está disponible para la búsqueda de directorios eligiendo grupos de usuarios para incluir o excluir. (Esto se conoce como ámbito *de marcado*).)
 
@@ -70,7 +70,7 @@ Puede asignar un número de teléfono a una cola de llamadas, pero las colas de 
 Para configurar operadores automáticos y colas de llamadas, necesita los siguientes recursos:
 
 - Una cuenta de recursos para cada operador automático y cada cola de llamadas
-- Una Sistema telefónico: licencia de usuario virtual para cada cuenta de recursos
+- Una versión Microsoft Teams Teléfono: licencia de usuario virtual para cada cuenta de recursos
 - Al menos un número de servicio de [Microsoft,](getting-service-phone-numbers.md)un número de operador Conectar, un número de enrutamiento directo o un número híbrido para cada cuenta de recurso que desea que se pueda marcar directamente
  - El número de servicio puede ser un número gratuito o de pago
 
@@ -84,13 +84,15 @@ Los agentes que reciben llamadas de las colas de llamadas deben estar Telefonía
 
 Si los agentes usan la aplicación Microsoft Teams para llamadas en cola de llamadas, deben estar en modo TeamsOnly.
 
-Al transferir llamadas a un número de teléfono externo, la cuenta de recursos que realiza la transferencia (es decir, la asociada con el operador automático o la cola de llamadas) debe tener una licencia de usuario virtual de Microsoft 365 Sistema telefónico y una de las siguientes asignadas:
+Al usar una cuenta de recurso para fines de identificador de línea de llamada en colas de llamadas o cuando un operador automático o una cola de llamadas transfiere llamadas a un número de teléfono externo, la cuenta de recursos debe tener una licencia de usuario virtual de Teams Teléfono y una de las siguientes asignadas:
 
 - Una [licencia del plan de](calling-plans-for-office-365.md) llamadas y un número de teléfono asignado
 - Un [operador Conectar](operator-connect-plan.md) número de teléfono asignado
 - Una [directiva de enrutamiento de voz en línea](manage-voice-routing-policies.md) (la asignación de número de teléfono es opcional al usar enrutamiento directo)
 
 > [!NOTE]
+> Si el Plan de llamadas asignado a la cuenta de recursos se deshabilita o se [quita,](what-are-communications-credits.md)se consumirán los créditos de comunicaciones , si están disponibles en el espacio empresarial (sin estar asignado a la cuenta de recursos). Si no hay ningún plan de llamadas o créditos de comunicaciones, se producirá un error en la llamada.
+>
 > Los números de servicio de enrutamiento directo para operadores automáticos y colas de llamadas solo son compatibles Microsoft Teams usuarios y agentes de llamadas.
 > 
 > Las transferencias entre plan de llamadas, Conectar operadores y troncos de enrutamiento directo no son compatibles.
@@ -108,7 +110,7 @@ Documente sus respuestas a estas preguntas y proporcione la información al admi
 - ¿Necesita un enrutamiento de llamadas independiente para días no festivos? ¿Cuáles son las horas y días festivos?
 - ¿Desea permitir que los agentes de una cola de llamadas no puedan realizar llamadas?
 - ¿Desea que los agentes de las colas de llamadas o el operador tengan un identificador de llamada específico si marcan hacia fuera?
-- ¿Desea habilitar el estacionamiento de [llamadas y](call-park-and-retrieve.md) la recuperación en su organización para ayudar a realizar entregas de llamadas entre personas o departamentos?
+- ¿Desea habilitar el estacionamiento de [llamadas y](call-park-and-retrieve.md) la recuperación en su organización para ayudar con las entregas de llamadas entre personas o departamentos?
 - Para las indicaciones de voz, ¿desea grabar la suya propia o usar la voz generada por el sistema? (La voz generada por el sistema es fácil de actualizar).
 
 ## <a name="technical-decisions"></a>Decisiones técnicas
@@ -120,9 +122,9 @@ Los agentes se pueden agregar a las colas de llamadas de las siguientes maneras:
 - Usuarios individuales
 - Listas de distribución
 - Grupos de seguridad, incluidos los grupos de seguridad habilitados para correo
-- Microsoft 365 Grupos o Teams
+- Microsoft 365 grupos o Teams
 
-Puede usar una combinación de estas opciones para cada cola si es necesario. Los grupos que tienen una dirección de correo electrónico se pueden usar para el correo de voz. Usar Teams ofrece una serie de ventajas, como el almacenamiento de archivos compartidos y el chat entre agentes, un buzón común donde se pueden recibir correos de voz y una plataforma extensible que puede incluir la integración con sus aplicaciones de línea de negocio o Power Apps.
+Puede usar una combinación de estas opciones para cada cola si es necesario. Los grupos que tienen una dirección de correo electrónico se pueden usar para el correo de voz. Usar Teams ofrece muchas ventajas, como el almacenamiento de archivos compartidos y el chat entre agentes, un buzón común donde se pueden recibir correos de voz y una plataforma extensible que puede incluir la integración con sus aplicaciones de línea de negocio o Power Apps.
 
 Se recomienda elegir una estrategia para agregar agentes de llamadas a las colas antes de iniciar la configuración.
 
@@ -185,7 +187,7 @@ En el ejemplo anterior:
 Le recomendamos que cree uno o varios diagramas similares al anterior para asignar el enrutamiento de llamadas. Asegúrese de incluir lo siguiente en el diagrama o en la documentación que lo acompaña:
 
 - ¿Qué operadores automáticos tendrán acceso directo a través de números de teléfono?
-- ¿Cuáles son los requisitos de enrutamiento fuera de horarios y vacaciones para cada operador automático?
+- ¿Cuáles son los requisitos de enrutamiento de días festivos y fuera de horario para cada operador automático?
 - La pertenencia a cada cola de llamadas. (Puede agregar usuarios individualmente o asignar la cola a diferentes tipos de grupos. Asignar una cola a un equipo proporciona la experiencia más versátil).
 
 Estos son algunos procedimientos recomendados de enrutamiento de llamadas:
@@ -205,9 +207,9 @@ Una vez que haya completado las tareas de planificación de este artículo, siga
 
 1. Obtenga los números de servicio que necesita para los operadores automáticos y las colas de llamadas a las que desea que se pueda acceder mediante el marcado directo desde fuera de su organización. Esto puede incluir [la transferencia de números de otro proveedor](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) o la solicitud de nuevos números de [servicio.](getting-service-phone-numbers.md)
 
-2. Obtenga una [Sistema telefónico: licencia de usuario virtual](teams-add-on-licensing/virtual-user.md) para cada cuenta de recursos que tiene previsto crear. Estas licencias son gratuitas, por lo que le recomendamos obtener algunas adicionales en caso de que decida realizar cambios en sus cuentas de recursos en el futuro.
+2. Obtenga una [Teams Teléfono: licencia de usuario virtual](teams-add-on-licensing/virtual-user.md) para cada cuenta de recursos que tiene previsto crear. Estas licencias son gratuitas, por lo que le recomendamos obtener algunas adicionales en caso de que decida realizar cambios en sus cuentas de recursos en el futuro.
 
-3. [Cree una cuenta de recursos](manage-resource-accounts.md) para cada operador automático y la cola de llamadas que desee crear. Asigne a cada cuenta Sistema telefónico: licencia de usuario virtual y, opcionalmente, un número de servicio.
+3. [Cree una cuenta de recursos](manage-resource-accounts.md) para cada operador automático y la cola de llamadas que desee crear. Asigne a cada cuenta una Teams Teléfono: licencia de usuario virtual y, opcionalmente, un número de servicio.
 
 4. [Cree los días festivos](set-up-holidays-in-teams.md) para los que desea tener enrutamiento de llamadas independiente en los operadores automáticos.
 

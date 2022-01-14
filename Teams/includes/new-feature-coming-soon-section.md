@@ -1,1 +1,1 @@
-Esta característica aún no se ha publicado. Se ha anunciado y estará disponible próximamente.Si es administrador, puede averiguar cuándo se lanzará esta característica en el Centro de mensajes (en el Centro de administración de [Microsoft 365).](https://portal.office.com/adminportal/home)
+Esta característica aún no se ha publicado. Se ha anunciado y estará disponible próximamente.Si es administrador, puede averiguar cuándo se liberará esta característica en el Centro de mensajes (en la [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home)).

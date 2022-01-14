@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 40dd229a94a92dde70cf50c0a2a3018dab19a9a0
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: ab5a99802ea9170ece7c1cd8d043b84c2cee452d
+ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462361"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "62039903"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -80,6 +80,14 @@ Haga **clic en** Agregar , busque las cuentas de recursos a las que desea permit
 
 Si no usa un canal Teams para controlar la pertenencia al agente, considere la posibilidad de establecer directamente el identificador de llamada de los miembros de la cola de llamadas en el número de servicio de la cola de llamadas o en el operador automático adecuado. Consulte [administrar las directivas de identificador de llamada en Microsoft Teams](caller-id-policies.md) obtener más información.
 
+> [!NOTE]
+> La cuenta de recurso usada para los fines de id. de llamada debe tener una Microsoft 365 Sistema telefónico de usuario virtual y una de las siguientes asignadas:
+>
+> - Una licencia del plan de llamadas y un número de teléfono asignado
+> - Un operador Conectar número de teléfono asignado
+> - Una directiva de enrutamiento de voz en línea (la asignación de número de teléfono es opcional al usar enrutamiento directo)
+
+
 ## <a name="language"></a>Idioma
 
 ![Captura de pantalla de la configuración de idioma.](media/call-queue-language.png)
@@ -95,7 +103,7 @@ Especifique si quiere reproducir un saludo a los autores de llamadas cuando lleg
 Los equipos proporcionan música predeterminada a los autores de llamadas mientras están en espera en una cola. La música predeterminada que se proporciona en las colas de llamadas de Teams no tiene que pagar ningún pago de la organización. Si desea reproducir un archivo de audio específico, elija **Reproducir un archivo de audio en** y cargar un archivo MP3, WAV o WMA.
 
 > [!NOTE]
-> Usted es responsable de borrar y asegurar de forma independiente todos los derechos y permisos necesarios para usar cualquier archivo de audio o música con su servicio de Microsoft Teams, que puede incluir propiedad intelectual y otros derechos sobre cualquier música, efectos de sonido, audio, marcas, nombres y otro contenido en el archivo de audio de todos los titulares de derechos pertinentes, que pueden incluir artistas,  actores, intérpretes o ejecutantes, músicos, compositores, compositores, discográficas, editores de música, sindicatos, cofradías, asociaciones de derechos, organizaciones de administración colectiva y cualquier otra parte que posee, controla o licencia los derechos de propiedad intelectual, efectos de sonido, audio y otros derechos de propiedad intelectual.
+> Usted es responsable de borrar y asegurar de forma independiente todos los derechos y permisos necesarios para usar cualquier archivo de música o audio con su servicio de Microsoft Teams, que puede incluir propiedad intelectual y otros derechos sobre cualquier música, efectos de sonido, audio, marcas, nombres y otro contenido en el archivo de audio de todos los titulares de derechos pertinentes, que pueden incluir artistas, actores,  intérpretes, músicos, compositores, compositores, discográficas, editores de música, uniones, cofradías, asociaciones de derechos, organizaciones de administración colectiva y cualquier otra parte que posee, controla o licencia los derechos de copyright de música, efectos de sonido, audio y otros derechos de propiedad intelectual.
 
 ## <a name="call-agents"></a>Llamar a agentes
 
@@ -254,7 +262,7 @@ También puede usar Windows PowerShell para crear y configurar colas de llamadas
 
 Si es administrador, puede usar la siguiente herramienta de diagnóstico para validar que una cola de llamadas puede recibir llamadas:
 
-1. Seleccione **Ejecutar pruebas** a continuación, que rellenará el diagnóstico en el Administración de Microsoft 365 centro. 
+1. Seleccione **Ejecutar pruebas** a continuación. Esto rellenará el diagnóstico en el Centro de administración de Microsoft 365. 
 
    > [!div class="nextstepaction"]
    > [Ejecutar pruebas: Teams cola de llamadas](https://aka.ms/TeamsCallQueueDiag)

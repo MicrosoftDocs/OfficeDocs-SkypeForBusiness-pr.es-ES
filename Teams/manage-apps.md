@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo administrar sus Teams aplicaciones
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 76b647e5c01d45eac3e634ccbc7e929eccd3dfba
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: ec9caa743f9a8cd5bf43d7b6e67f83d15ee2a045
+ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432672"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "62039913"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro Microsoft Teams administración
 
@@ -151,7 +151,7 @@ Los permisos de consentimiento específico de recursos (RSC) permiten a los prop
 
 ## <a name="manage-org-wide-app-settings"></a>Administrar la configuración de la aplicación para toda la organización
 
-Use la configuración de aplicaciones de toda la organización para controlar si los usuarios pueden instalar aplicaciones de terceros y si los usuarios pueden cargar o interactuar con aplicaciones personalizadas en su organización. La configuración de aplicaciones para toda la organización rige el comportamiento de todos los usuarios e invalida cualquier otra directiva de permisos de aplicación asignada a los usuarios. Puede usarla para controlar las aplicaciones malintencionadas o problemáticas.
+Use la configuración de aplicaciones de toda la organización para controlar si los usuarios obtienen una experiencia de aplicación personalizada en función de la licencia (próximamente), si los usuarios pueden instalar aplicaciones de terceros y si los usuarios pueden cargar o interactuar con aplicaciones personalizadas en su organización. La configuración de aplicaciones para toda la organización rige el comportamiento de todos los usuarios e invalida cualquier otra directiva de permisos de aplicación asignada a los usuarios. Puede usarla para controlar las aplicaciones malintencionadas o problemáticas.
 
 > [!NOTE]
 > Para obtener información sobre cómo usar la configuración de aplicaciones para toda la organización en Microsoft 365 Government - Government Community Cloud High GCCH and Department of Defense (DoD) deployments of Teams, vea Administrar directivas de permisos de aplicación [en Teams](teams-app-permission-policies.md).
@@ -160,7 +160,10 @@ Use la configuración de aplicaciones de toda la organización para controlar si
 
     ![Captura de pantalla de la configuración de la aplicación para toda la organización.](media/manage-apps-org-wide-app-settings.png)
 
-2. En **Aplicaciones de terceros**, desactive o active esta configuración para controlar el acceso a aplicaciones de terceros:
+1. (Próximamente) En **Aplicaciones personalizadas,** desactive o active **Mostrar aplicaciones personalizadas basadas en licencias.** Cuando esta configuración está en, los usuarios obtienen una experiencia en la que las aplicaciones se anclan en función de su licencia. Para obtener más información, vea [Personalizar Teams aplicaciones basadas en licencia.](pin-teams-apps-based-on-license.md)
+
+    Esta característica está disponible para licencias F. Otros tipos de licencia serán compatibles en el futuro.
+1. En **Aplicaciones de terceros**, desactive o active esta configuración para controlar el acceso a aplicaciones de terceros:
 
     - **Permitir aplicaciones de terceros**: esto controla si los usuarios pueden usar aplicaciones de terceros. Si desactiva esta configuración, los usuarios no podrán instalar ni usar aplicaciones de terceros y el estado  de la aplicación de estas aplicaciones se muestra como Bloqueado en toda la organización en la tabla.
 
@@ -172,8 +175,8 @@ Use la configuración de aplicaciones de toda la organización para controlar si
 
     - **Permitir las nuevas aplicaciones de terceros publicadas en la tienda de forma predeterminada**: esto controla si las nuevas aplicaciones de terceros publicadas en la tienda de aplicaciones de Teams están disponibles automáticamente en Teams. Solo puede establecer esta opción si permite aplicaciones de terceros.
 
-3. En **Aplicaciones personalizadas,** desactive o active **Permitir interacción con aplicaciones personalizadas.** Esta configuración controla si los usuarios pueden interactuar con aplicaciones personalizadas. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md).
-4. Seleccione **Guardar para** la configuración de la aplicación de toda la organización para que su efecto se haga efectivo.
+1. En **Aplicaciones personalizadas,** desactive o active **Permitir interacción con aplicaciones personalizadas.** Esta configuración controla si los usuarios pueden interactuar con aplicaciones personalizadas. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md).
+1. Seleccione **Guardar para** la configuración de la aplicación de toda la organización para que su efecto se haga efectivo.
 
 ## <a name="view-security-and-compliance-information-for-microsoft-365-certified-apps"></a>Ver la información de seguridad y cumplimiento de Microsoft 365 aplicaciones certificadas
 
