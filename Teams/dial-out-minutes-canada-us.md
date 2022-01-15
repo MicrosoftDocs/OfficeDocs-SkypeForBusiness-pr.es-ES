@@ -1,7 +1,7 @@
 ---
-title: Office 365 Minutos de acceso telefónico extendidos de audioconferencia a EE. UU. y Canadá
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: Office 365 minutos de acceso telefónico local extendidos de audioconferencia a EE. UU. y Canadá
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,14 +17,14 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20775abe5b463daed9d07245275ff9a2e176d685
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5fabb1c24280688bcc5a2962273812affd52c8b5
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838382"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055290"
 ---
-# <a name="office-365-audio-conferencing-extended-dial-out-minutes-to-us-and-canada"></a>Office 365 Minutos de acceso telefónico extendidos de audioconferencia a EE. UU. y Canadá
+# <a name="office-365-audio-conferencing-extended-dial-out-minutes-to-us-and-canada"></a>Office 365 minutos de acceso telefónico local extendidos de audioconferencia a EE. UU. y Canadá
 
 Para los clientes que adoptan nuestro servicio de audioconferencia y tienen una gran necesidad empresarial de llamar a Ee. UU. y Canadá, Microsoft ahora ofrece una oferta de complementos que permite prácticamente ilimitado con la directiva de uso razonable minutos de acceso telefónico de EE. UU. y Canadá para cualquier usuario de audioconferencia. Los organizadores de reuniones con esta SKU de complemento pueden realizar llamadas de acceso telefónico local de uso razonable a Estados Unidos y Canadá prácticamente ilimitadas sin deducir el grupo de uso de acceso telefónico local de zona A de su inquilino o créditos de comunicaciones. <sup>1</sup>
 

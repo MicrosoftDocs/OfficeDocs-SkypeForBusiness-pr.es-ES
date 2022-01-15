@@ -1,7 +1,7 @@
 ---
 title: Cambiar los números de teléfono en el puente de audioconferencia
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Obtenga información sobre los pasos necesarios para asignar un nuevo número de teléfono de servicio al puente de conferencias para expandir la cobertura para los usuarios.
-ms.openlocfilehash: f39a963759e768f4fab70d2a06e6d90b480699e0
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: f8cf35c15822569aa204446cd3c1c90995ffa563
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536721"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055470"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono de su puente de Audioconferencia
 
@@ -41,9 +41,10 @@ Además de los números de teléfono ya asignados al puente de conferencias, pue
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Pasos para asignar un número de teléfono de servicio nuevo a su puente de conferencia
 
-### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Paso 1: Asignar el nuevo número de teléfono al puente de audioconferencia
+> [!NOTE]
+> Excepto cuando se le llame de otra forma, todos estos pasos deben realizarse en el centro Microsoft Teams administración.
 
- **Usar el Centro de administración de Microsoft Teams**
+### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Paso 1: Asignar el nuevo número de teléfono al puente de audioconferencia
 
 1. En el panel de navegación izquierdo, vaya **a Números** de  >  **Teléfono voz.**
 
@@ -57,19 +58,15 @@ El número de teléfono predeterminado del puente de conferencia define el ident
 
 Solo se puede establecer un número de pago de servicio como el número predeterminado para el puente de conferencias; los números gratuitos del servicio no se pueden establecer **como el número predeterminado del puente de conferencias.** Si va a asignar un número de pago de servicio y desea establecerlo como el nuevo número predeterminado para el puente de audioconferencia, siga estos pasos:
 
- **Usar el Centro de administración de Microsoft Teams**
-
 1. En el panel de navegación izquierdo, vaya a **Puentes de conferencia**  >  **reuniones.**
 
 2. Resalte el número de pago de servicio que desea configurar como predeterminado.
 
 3. Haga clic en **Establecer como predeterminado**.
- 
+
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Paso 3: Cambiar los números de teléfono predeterminados que se incluyen en las invitaciones de reunión de los usuarios (opcional)
 
 Los números de teléfono predeterminados de un usuario son los que se incluyen en las invitaciones de reunión cuando programan una reunión. Para obtener más información, incluido cómo se asignan los números de teléfono predeterminados a los nuevos usuarios, vea Establecer los números de teléfono [incluidos](set-the-phone-numbers-included-on-invites-in-teams.md) en las invitaciones en Microsoft Teams o Establecer los números de teléfono incluidos en las invitaciones [en Skype Empresarial Online.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
-
- **Usar el Centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, vaya a **Usuarios** y haga clic en el nombre para mostrar del usuario deseado en la lista.
 
@@ -99,7 +96,6 @@ Si actualizó los números de teléfono predeterminados que se incluyen en las i
 
 ## <a name="steps-when-you-are-unassigning-a-service-phone-number-for-a-conferencing-bridge"></a>Pasos para quitar la asignación de un número de teléfono de servicio de su puente de conferencia
 
-
 Cuando quite la asignación de un número de teléfono de un puente de conferencia, los usuarios ya no podrán volver a unirse a las reuniones con ese número. Dado que el número de teléfono está cambiando, es importante actualizar todos los usuarios que podrían tener un número de teléfono como su número predeterminado (si existe) y actualizar las invitaciones a reuniones existentes antes de que el número de teléfono no esté desasignado del puente de audioconferencia.
 
 Si el número de teléfono se quita sin actualizar los usuarios y sus reuniones, las invitaciones a reuniones existentes podrían contener un número de teléfono que no funcionará para unirse a sus reuniones.
@@ -113,9 +109,10 @@ Reemplace el número de pago o gratuito predeterminado para todos los usuarios q
 ```PowerShell
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
- > [!IMPORTANT] 
- >También puede cambiar el número de usuarios de pago o gratuito predeterminado en el centro Microsoft Teams administración. No obstante, en este modo no se volverán a programar las reuniones automáticamente. 
- 
+
+ > [!IMPORTANT]
+ >También puede cambiar el número de usuarios de pago o gratuito predeterminado en el centro Microsoft Teams administración. No obstante, en este modo no se volverán a programar las reuniones automáticamente.
+
  Para obtener información adicional, vea Establecer los números de teléfono [incluidos](set-the-phone-numbers-included-on-invites-in-teams.md) en las invitaciones en Microsoft Teams o Establecer los números de teléfono incluidos en las [invitaciones en Skype Empresarial En línea.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
 
   > [!NOTE]
@@ -139,8 +136,8 @@ Use el cmdlet Unregister-CsOnlineDialInConferencingServiceNumber para anular el 
 Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll number to be removed" -bridgeId "Conference Bridge ID"
 Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll free number to be removed" -bridgeId "Conference Bridge ID"
 ```
-Nota: Para buscar el id. de puente de conferencia, ejecute el siguiente PowerShell: Get-CsOnlineDialInConferencingBridge.
 
+Nota: Para buscar el id. de puente de conferencia, ejecute el siguiente PowerShell: Get-CsOnlineDialInConferencingBridge.
 
    > [!IMPORTANT]
    > Después de que un número de teléfono no se haya desasignado de un puente de audioconferencia, el número de teléfono ya no estará disponible para que los usuarios se unan a reuniones nuevas o existentes.
@@ -185,11 +182,12 @@ Para ahorrar tiempo automatizando este proceso, puede usar los [cmdlets Set-CsOn
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
-**El botón Desasignación no está disponible**
+### <a name="the-unassign-button-isnt-available"></a>El botón Desasignación no está disponible
 
 Desea desasignar un número, pero el botón no está disponible y, si mientras mantiene el puntero sobre él, se le redirigirá para ponerse en contacto con el soporte técnico con el siguiente mensaje: "Los números predeterminados o compartidos no se pueden desasignar desde el _puente. Para desasignación de números de pago dedicados, póngase en contacto con el soporte técnico."._
 
 Para obtener más información sobre los puentes, ejecute el siguiente Powershell:
+
 ```PowerShell
 Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 ```
@@ -197,6 +195,7 @@ Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 El resultado, aparte de otra información como Identidad, Nombre y Región, también debe contener defaultservicenumber.
 
 **Ejemplo**, para desasignar, defaultservicenumber "8005551234"
+
 ```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
 ```
@@ -205,17 +204,18 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 Con Windows PowerShell puede administrar los usuarios y lo que pueden o no pueden hacer. Windows PowerShell puede ayudarle a administrar Microsoft 365 o Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario, especialmente cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
 
-  - [Una introducción a Windows PowerShell y Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+- [Una introducción a Windows PowerShell y Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
 Windows PowerShell tiene muchas ventajas en la velocidad, la simplicidad y la productividad en lugar de usar solo el Centro de administración de Microsoft 365 como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
 
-  - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-  - [Usar Windows PowerShell para administrar Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+- [Usar Windows PowerShell para administrar Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+- [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>Temas relacionados
+
 [Cambiar la configuración de un puente de Audioconferencias](change-the-settings-for-an-audio-conferencing-bridge.md).

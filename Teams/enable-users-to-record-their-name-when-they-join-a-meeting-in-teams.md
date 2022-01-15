@@ -1,7 +1,7 @@
 ---
 title: Permitir que los usuarios graben su nombre para una reunión
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo habilitar o deshabilitar si los usuarios pueden grabar sus nombres cuando se unen a una reunión en Microsoft Teams.
-ms.openlocfilehash: 4b78430ba3cc0d776176876235f2cefa5daa631d
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 801b71f2880eb7e8a590a43654f84e75bb4c1d38
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536701"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055430"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Habilitar que los usuarios registren su nombre cuando se unan a una reunión en Microsoft Teams
 
@@ -35,32 +35,31 @@ Al configurar audioconferencias en Microsoft 365 o Office 365, recibirá número
   
 El puente de conferencia responde a la llamada de un usuario que llama a una reunión con un teléfono. Ese puente responde al autor de la llamada con avisos de voz de un operador automático y, luego, de acuerdo con su configuración, puede reproducir notificaciones, solicitar a los autores de las llamadas que graben sus nombres y configura la seguridad del PIN para los organizadores de reuniones. Los PIN se proporcionan al organizador de la reunión y con ellos se puede empezar una reunión, pero puede configurarlo de modo que no se necesite un PIN para comenzar una reunión.
 
-  
 ## <a name="set-whether-callers-should-record-their-name"></a>Establecer si los autores de las llamadas tienen que grabar sus nombres
 
- **Usar el Centro de administración de Microsoft Teams**
+Usar el Microsoft Teams de administración:
 
-1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
+1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**.
 
-2. En la parte superior de la **página Puentes de** conferencia, haga clic en **Configuración de puente.** 
+2. En la parte superior de la **página Puentes de** conferencia, haga clic en **Configuración de puente.**
 
 3. Habilitar o deshabilitar **las notificaciones de entrada y salida de la reunión.**
 
 4. Si habilita las  notificaciones, elija Nombres o números de teléfono en Tipo de anuncio de **entrada/salida** y, a continuación, active Pedir a los autores de llamadas que graben su nombre antes de unirse **a una reunión.**
 
-6. Haga clic en **Guardar**.
-    
+5. Haga clic en **Guardar**.
+
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
-    
-  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [Las mejores formas de administrar Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
+
+- [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+
+- [Las mejores formas de administrar Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
 Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](/powershell/module/teams/?view=teams-ps).
   
 ## <a name="related-topics"></a>Temas relacionados

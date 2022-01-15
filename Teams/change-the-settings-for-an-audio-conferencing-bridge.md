@@ -1,7 +1,7 @@
 ---
 title: Cambiar la configuración de un puente de Audioconferencias.
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: Cambie la configuración del puente de audioconferencia, incluidas las notificaciones de entrada y salida, reproducir nombres o números de teléfono, tonos y pedir a los autores de llamadas que graben su nombre.
-ms.openlocfilehash: 0c64fa8c8717ae7fd401c4476896e6e52e833769
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 804bea41639ecbcd0db289f6df004d71e5faa820
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537053"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055920"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de Audioconferencias.
 
@@ -38,53 +38,53 @@ Al configurar las audioconferencias en Microsoft 365 o Office 365, recibirá nú
 El puente de conferencia responde a una llamada y le pide al autor de la llamada mensajes de voz con un operador automático de reunión y, después, según la configuración, puede reproducir notificaciones, pedir a los autores de llamadas que graben su nombre y controlar la configuración del PIN. Los PIN se entregan a los organizadores de la reunión para permitirles iniciar una reunión cuando no están usando una Skype Empresarial o Microsoft Teams aplicación.
 
   > [!IMPORTANT]
-  > Solo se requiere un PIN para el organizador de la reunión cuando un Skype Empresarial o Microsoft Teams de la aplicación aún no ha iniciado la reunión. Si todos los usuarios están iniciando sesión en la reunión, el PIN es necesario para que el organizador de la reunión inicie la reunión. 
+  > Solo se requiere un PIN para el organizador de la reunión cuando un Skype Empresarial o Microsoft Teams de la aplicación aún no ha iniciado la reunión. Si todos los usuarios están iniciando sesión en la reunión, el PIN es necesario para que el organizador de la reunión inicie la reunión.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-##  <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
+## <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
-1. En el panel de navegación izquierdo, vaya a **Puentes de conferencia**  >  **reuniones.** 
+1. En el panel de navegación izquierdo, vaya a **Puentes de conferencia**  >  **reuniones.**
 
-2. En la parte superior de la **página Puentes de conferencia,** haga clic en **Configuración de puente.** 
+2. En la parte superior de la **página Puentes de conferencia,** haga clic en **Configuración de puente.**
 
-3. En el **panel Configuración de puente,** seleccione: 
+3. En el **panel Configuración de puente,** seleccione:
    - **Notificaciones de entrada y salida de la reunión** Si desactiva esta opción, los usuarios que ya se han unido a la reunión no se notificarán cuando alguien entre o abandone la reunión.
-    
+
      Al activar las notificaciones **de entrada y salida de la** reunión, puede seleccionar estas opciones:
-    
+
    - **Nombres o números de teléfono** Cuando los usuarios llamen a una reunión, su número de teléfono se reproducirá cuando se unan a ella.
-    
+
    - **Tonos** Cuando los usuarios llamen a una reunión, se reproducirá un tono de audio cuando se unan a ella.
-      
+
    - **Pedir a los autores de llamadas que graben su nombre antes de unirse a la reunión** Si desactiva esta opción, no se pedirá a los autores de llamadas que graben su nombre antes de unirse a una reunión.
 
 4. Para establecer la longitud del PIN para las reuniones, seleccione el número de dígitos que desea para el PIN en la lista **longitud del PIN.**
 
 5. Para especificar si desea enviar correo electrónico a los usuarios, habilite o deshabilite Enviar automáticamente correos electrónicos a los usuarios si cambia la configuración de las **audioconferencias.**
     Vea [Correos electrónicos enviados](emails-sent-to-users-when-their-settings-change-in-teams.md) automáticamente a los usuarios cuando la configuración de audioconferencia cambia en Microsoft Teams o Correos electrónicos enviados a los usuarios cuando la configuración cambia [en Skype Empresarial Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) para obtener más información.
- 
-6. Haga clic en **Guardar**. 
+
+6. Haga clic en **Guardar**.
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
 - Para ahorrar tiempo o automatizar este proceso, puede usar el cmdlet [Set-CsDialinConferencingBridge.](/powershell/module/skype/Set-CsOnlineDialInConferencingBridge)
-    
-- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
-    
+
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
+
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
+
   - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
-- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad en comparación con el uso de la Centro de administración de Microsoft 365, por ejemplo, cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
-    
+
+- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad en comparación con el uso de la Centro de administración de Microsoft 365, por ejemplo, cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
   - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
     > [!NOTE]
     > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   

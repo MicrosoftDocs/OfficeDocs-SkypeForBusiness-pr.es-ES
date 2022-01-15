@@ -1,7 +1,7 @@
 ---
 title: Audioconferencia con enrutamiento directo, GCCH y DoD
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: El administrador puede obtener información sobre cómo usar audioconferencias con enrutamiento directo en entornos GCCH y DoD.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1e4500e5560a1e5b14af51137f98e98823f7b333
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 274173387374591e91a067e2a5340bb735910fa7
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853954"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055880"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audioconferencia con enrutamiento directo para GCC High y DoD
 
@@ -35,11 +35,11 @@ Con las audioconferencias con enrutamiento directo para GCC High y DoD, su organ
 
 ## <a name="deploy-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Implementar audioconferencias con enrutamiento directo para GCC alto y doD
 
-### <a name="step-1-get-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses"></a>Paso 1: Obtener audioconferencias con enrutamiento directo para GCC licencias de alta o doD 
+### <a name="step-1-get-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses"></a>Paso 1: Obtener audioconferencias con enrutamiento directo para GCC licencias de alta o doD
 
 Para usar las audioconferencias en GCC High o DoD, su organización y los usuarios de su organización necesitan tener asignada una audioconferencia con licencia de enrutamiento directo. Estas son las licencias que necesita para habilitar las audioconferencias con enrutamiento directo para GCC high o DoD.
 
-- GCC Alta: Una audioconferencia : GCC licencia de inquilino alto para su organización y audioconferencias: GCC licencias high para los usuarios.
+- GCC High: Una audioconferencia ( GCC licencia de inquilino alto para su organización y audioconferencia - GCC licencias high para los usuarios.
 
 - DoD: Una audioconferencia: licencia de inquilino doD para su organización y audioconferencia: licencias doD para los usuarios.
 
@@ -65,13 +65,14 @@ Los números de teléfono de acceso telefónico local son los números de teléf
 
 #### <a name="define-service-phone-numbers-in-your-tenant"></a>Definir números de teléfono de servicio en el espacio empresarial
 
-Puede usar el cmdlet de PowerShell New-csHybridTelephoneNumber para definir números de teléfono de servicio en el inquilino que se pueden usar para enrutar llamadas al servicio de audioconferencia mediante enrutamiento directo. 
+Puede usar el cmdlet de PowerShell New-csHybridTelephoneNumber para definir números de teléfono de servicio en el inquilino que se pueden usar para enrutar llamadas al servicio de audioconferencia mediante enrutamiento directo.
 
   ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber <Phone number in E.164 format>
   ```
 
 Por ejemplo:
+
   ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber "+14250000000"
   ```
@@ -91,10 +92,9 @@ Puede ver el id. de su puente de audioconferencia con Get-CsOnlineDialInConferen
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
   ```
 
-
 ### <a name="step-4-define-a-global-voice-routing-policy-to-enable-the-routing-of-outbound-calls-from-meetings"></a>Paso 4: Definir una directiva global de enrutamiento de voz para habilitar el enrutamiento de llamadas salientes desde reuniones
 
-El enrutamiento de las llamadas salientes que se realizan a la RTC desde reuniones organizadas por usuarios de su organización se define mediante la directiva global de enrutamiento de voz de su organización. Si su organización tiene definida una directiva de enrutamiento de voz global, compruebe que la directiva de enrutamiento de voz global permite las llamadas salientes a la RTC que se espera que se inicien desde reuniones organizadas por los usuarios de su organización. Si su organización no tiene definida una directiva global de enrutamiento de voz, tendrá que definir una para habilitar el enrutamiento de llamadas salientes a la RTC desde reuniones organizadas por usuarios de su organización. Tenga en cuenta que la directiva global de enrutamiento de voz de su organización también se aplica a las llamadas uno a uno realizadas a la RTC por los usuarios de su organización. Si las llamadas uno a uno a la RTC están habilitadas para los usuarios de su organización, asegúrese de que la directiva global de enrutamiento de voz satisface las necesidades de su organización para ambos tipos de llamadas. 
+El enrutamiento de las llamadas salientes que se realizan a la RTC desde reuniones organizadas por usuarios de su organización se define mediante la directiva global de enrutamiento de voz de su organización. Si su organización tiene definida una directiva de enrutamiento de voz global, compruebe que la directiva de enrutamiento de voz global permite las llamadas salientes a la RTC que se espera que se inicien desde reuniones organizadas por los usuarios de su organización. Si su organización no tiene definida una directiva global de enrutamiento de voz, tendrá que definir una para habilitar el enrutamiento de llamadas salientes a la RTC desde reuniones organizadas por usuarios de su organización. Tenga en cuenta que la directiva global de enrutamiento de voz de su organización también se aplica a las llamadas uno a uno realizadas a la RTC por los usuarios de su organización. Si las llamadas uno a uno a la RTC están habilitadas para los usuarios de su organización, asegúrese de que la directiva global de enrutamiento de voz satisface las necesidades de su organización para ambos tipos de llamadas.
 
 > [!NOTE]
 > Location-Based enrutamiento no está disponible en implementaciones Microsoft 365 Government Community Cloud (GCC) High o DoD. Al habilitar audioconferencias, compruebe que ningún usuario de audioconferencia en los entornos GCC High o DoD esté habilitado para Location-Based enrutamiento.
@@ -119,7 +119,7 @@ Para crear una nueva ruta de voz, use el siguiente comando:
   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz -OnlinePstnUsages "International"
   ```
 
-Al definir una nueva ruta de voz para su organización, especifique una o varias de las puertas de enlace RTC rtc en línea que se han definido para su organización durante la configuración de Enrutamiento directo. 
+Al definir una nueva ruta de voz para su organización, especifique una o varias de las puertas de enlace RTC rtc en línea que se han definido para su organización durante la configuración de Enrutamiento directo.
 
 El patrón de número especifica qué llamadas se enrutarán a través de la lista especificada de puertas de enlace en función del número de teléfono de destino de la llamada. En el ejemplo anterior, las llamadas a cualquier destino del mundo coincidirán con la ruta de voz. Si desea restringir los números de teléfono que se pueden marcar desde las reuniones de los usuarios de su organización, puede cambiar el patrón de número para que la ruta de voz coincida solo con los patrones de número de los destinos permitidos. Tenga en cuenta que si no hay rutas de voz que coincidan con el patrón de número del número de teléfono de destino de una llamada determinada, la llamada no se dirigirá.
 

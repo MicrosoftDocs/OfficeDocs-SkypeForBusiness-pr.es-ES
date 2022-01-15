@@ -1,7 +1,7 @@
 ---
 title: Idiomas admitidos para Audioconferencia
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: reference
@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: 4ecdcf951fde12af53b64cdafd4028e5638f6f27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 38277b1b4b24c544cd271c9bbdb52f53d407fceb
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633434"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055460"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Idiomas admitidos para Audioconferencia
 
-Al configurar y configurar audioconferencias en Microsoft 365 o Office 365, puede seleccionar los idiomas principal y secundario (hasta 4) que se usan cuando los autores de llamadas llaman a una reunión de Skype Empresarial o Microsoft Teams. Esta es la lista de idiomas admitidos para audioconferencias: 
+Al configurar y configurar audioconferencias en Microsoft 365 o Office 365, puede seleccionar los idiomas principal y secundario (hasta 4) que se usan cuando los autores de llamadas llaman a una reunión de Skype Empresarial o Microsoft Teams. Esta es la lista de idiomas admitidos para audioconferencias:
   
 > [!IMPORTANT]
-> Los idiomas primarios y secundarios solo se pueden cambiar en números de teléfono dedicados de audioconferencia. 
+> Los idiomas primarios y secundarios solo se pueden cambiar en números de teléfono dedicados de audioconferencia.
   
 ## <a name="currently-supported-languages"></a>Idiomas actualmente admitidos
 
@@ -84,7 +84,7 @@ Al configurar y configurar audioconferencias en Microsoft 365 o Office 365, pued
 |Tailandés  <br/> |Tailandia  <br/> |th-TH  <br/> |
 |Turco  <br/> |Turquía  <br/> |tr-TR  <br/> |
 |Ucraniano  <br/> |Ucrania  <br/> |uk-UA  <br/> |
-   
+
 Si busca países o regiones en los que puede comprar audioconferencias, vea Disponibilidad de país y región para planes de audioconferencias [y llamadas.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 Si está buscando países o regiones específicos que tienen números de teléfono para las audioconferencias, vea números de [Teléfono audioconferencia](phone-numbers-for-audio-conferencing-in-teams.md) en Microsoft Teams o Teléfono para audioconferencias en [Skype Empresarial Online.](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
@@ -92,21 +92,21 @@ Si está buscando países o regiones específicos que tienen números de teléfo
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
 
 - Para ahorrar tiempo o automatizar esto, puede usar los [cmdlets Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) o [Set-CsOnlineDialInConferencingServiceNumber.](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber)
-    
-- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
-    
+
+- Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
+
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
+
   - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
-- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad con respecto al uso de la Centro de administración de Microsoft 365, por ejemplo, cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
-    
+
+- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad con respecto al uso de la Centro de administración de Microsoft 365, por ejemplo, cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
   - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
     > [!NOTE]
     > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   

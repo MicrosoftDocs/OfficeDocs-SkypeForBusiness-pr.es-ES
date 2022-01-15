@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información sobre las licencias disponibles para diferentes tipos de llamadas y características de reunión en Salas de Microsoft Teams.
-ms.openlocfilehash: 7b7bea86d414f24686dce4ffab1a91333476069f
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 05e7b0c3f8cb6f31e84ef16ad0ff23039da26b14
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306155"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056060"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams Sala de reuniones de licencias
 
@@ -71,6 +71,10 @@ En la tabla siguiente se enumeran las características que están disponibles en
 
 
 > [!NOTE]
-> Si tiene licencias existentes asignadas para sistemas de sala, estas seguirán funcionando sin interrupciones. Debe moverse para usar la SKU Sala de reuniones cuando expiren las licencias existentes.  
+> 
+> Si tiene licencias de usuario existentes asignadas para sistemas de sala (por ejemplo, E3 o E5), estas seguirán funcionando sin interrupciones. Sin embargo, para cumplir con los cambios futuros, debe pasar a Sala de reuniones licencias de usuario asignadas cuando expiren las licencias de usuario asignadas.
+> 
 
  Vea también [Excelentes experiencias de sala de reuniones: Conozca las nuevas Salas de Microsoft Teams Estándar y Premium](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).
+
+ Puede leer Configurar la licencia de área [común Teléfono](../set-up-common-area-phones.md) para Microsoft Teams para obtener información sobre las licencias de teléfonos de área común.

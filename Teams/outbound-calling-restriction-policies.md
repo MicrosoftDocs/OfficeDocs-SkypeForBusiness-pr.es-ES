@@ -1,8 +1,8 @@
 ---
 title: 'Restricciones de llamadas salientes: conferencias de audio & llamadas RTC'
 ms.reviewer: ''
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Los administradores pueden controlar el tipo de audioconferencia y las llamadas RTC de usuario final que pueden realizar los usuarios.
-ms.openlocfilehash: 7f1ec4886c1e1ede22c280091f2ebce9965b6d3b
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 39a51c1fdf6bbb7597b255fc5879a4d7a77be2db
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766243"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055180"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
 
@@ -49,18 +49,17 @@ Para saber qué países y regiones se consideran zona A, vea Zonas de país y [r
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir las llamadas salientes de audioconferencia
 
-**Usar el Centro de administración de Microsoft Teams**
+### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
 1. En el panel de navegación izquierdo, seleccione **Usuarios** y, a continuación, seleccione el nombre para mostrar del usuario en la lista de usuarios disponibles.
 
-3. Junto a **Audioconferencia,** seleccione **Editar**.
+2. A continuación, **vaya a Audioconferencia,** seleccione **Editar.**
 
-4. En **Llamar desde reuniones,** seleccione la opción de restricción de acceso telefónico que desee.
+3. En **Llamar desde reuniones,** seleccione la opción de restricción de acceso telefónico que desee.
 
-5. Seleccione **Guardar**.
+4. Seleccione **Guardar**.
 
-
-**Con PowerShell**
+### <a name="using-powershell"></a>Con PowerShell
 
 Las restricciones de llamadas salientes se controlan mediante una única directiva denominada OnlineDialOutPolicy, que tiene un atributo de restricción para cada una. La directiva no se puede personalizar, sino que hay instancias de directiva predefinidas para cada combinación de la configuración.
 

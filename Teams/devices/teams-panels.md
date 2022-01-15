@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: En este artículo se proporciona información general sobre las características compatibles con Microsoft Teams paneles.
-ms.openlocfilehash: fc5c21ef11f60758644c48ee879bf4c6f3647457
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a12e8918534a5060dae906d60f0de1aa36567f9b
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766433"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055120"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams paneles
 
@@ -134,6 +134,6 @@ Para administrar los dispositivos Teams paneles, en la navegación izquierda del
 
 [Introducción a los Teams paneles](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
 
-[Teams de paneles](https://www.microsoft.com/microsoft-teams/across-devices/devices/product?deviceid=815)
+[Teams de paneles](https://office.com/teamsdevices)
 
 [Dispositivos certificados bajo Microsoft Teams de certificación de paneles](teams-ip-phones.md#currently-certified-teams-panels)

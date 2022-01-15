@@ -1,7 +1,7 @@
 ---
 title: Correos electrónicos que se envían a los usuarios cuando cambia la configuración
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Obtenga información sobre qué información se envía automáticamente a los usuarios por correo electrónico cuando la configuración de las conferencias de acceso telefónico local cambia en Microsoft Teams. '
-ms.openlocfilehash: ad61f7886d5a71fb8753b887ebfd6cd90f4f6a82
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 81faefb3bfe2fd6c93584c5a9f48fd99a6040c99
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536481"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055480"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Correos electrónicos que se envían a los usuarios cuando cambia la configuración en Microsoft Teams
 
@@ -39,11 +39,11 @@ De forma predeterminada, hay cuatro tipos de correo electrónico que se enviará
      Este correo electrónico incluye el id. de conferencia, el número de teléfono de conferencia predeterminado para las reuniones, el PIN de audioconferencia para el usuario, las instrucciones y el vínculo para usar la Herramienta de actualización de reuniones en línea de Skype Empresarial que se usa para actualizar las reuniones existentes para el usuario. Vea [Asignar Microsoft Teams de complementos o](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) [Asignar Microsoft como proveedor de audioconferencias.](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
 
     > [!NOTE]
-    > Si en su organización se han habilitado los identificadores de conferencia dinámicos, todas las reuniones que se programen de un usuario tendrán identificadores de conferencia únicos. Puede configurar los [ID dinámicos de audioconferencia en su organización.](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user) 
+    > Si en su organización se han habilitado los identificadores de conferencia dinámicos, todas las reuniones que se programen de un usuario tendrán identificadores de conferencia únicos. Puede configurar los [ID dinámicos de audioconferencia en su organización.](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)
 
     Este es un ejemplo de este correo electrónico:
 
-     ![Skype Empresarial Compruebe la licencia.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+     ![Skype Empresarial Verificar licencia.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
     Para obtener más información sobre las licencias, [vea Microsoft Teams de complementos.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
@@ -58,9 +58,9 @@ De forma predeterminada, hay cuatro tipos de correo electrónico que se enviará
 - **Se restablece el PIN de audioconferencia de un usuario.**
 
     Este correo electrónico contiene el PIN de audioconferencia del organizador, el id. de conferencia existente y el número de teléfono de conferencia predeterminado para el usuario. Vea [Restablecer el PIN de audioconferencia.](reset-the-audio-conferencing-pin-in-teams.md)
-    
+
      Este es un ejemplo de este correo electrónico:
-    
+
      ![El PIN para las conferencias de acceso telefónico local ha cambiado.](media/teams-emails-sent-to-users-when-settings-change-image3.png)
   
 - **Se quita la licencia de un usuario o cuando el proveedor de servicios de audioconferencia cambia de Microsoft a otro proveedor o ninguno.**
@@ -84,13 +84,13 @@ Puede realizar cambios en el correo electrónico que se envía automáticamente 
 
 Al deshabilitar el envío de correos electrónicos a los usuarios, el correo electrónico no se enviará incluso cuando se asigne una licencia a un usuario. En este caso, el ID de conferencia, el número de teléfono de conferencia predeterminado y, lo que es más importante, su PIN de audioconferencia no se enviarán al usuario. Cuando esto sucede, debe avisarle al usuario enviándole un correo electrónico independiente o llamándolo.
 
-De forma predeterminada, los correos electrónicos se enviarán a los usuarios, pero si desea evitar que reciban correo electrónico para audioconferencias, puede usar Microsoft Teams o Windows PowerShell. 
+De forma predeterminada, los correos electrónicos se enviarán a los usuarios, pero si desea evitar que reciban correo electrónico para audioconferencias, puede usar Microsoft Teams o Windows PowerShell.
 
- **Usar el Centro de administración de Microsoft Teams**
+### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
-1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
+1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**.
 
-2. En la parte superior de la **página Puentes de** conferencia, haga clic en **Configuración de puente.** 
+2. En la parte superior de la **página Puentes de** conferencia, haga clic en **Configuración de puente.**
 
 3. En el **panel Configuración de puente,** habilite o deshabilite Enviar mensajes de correo electrónico automáticamente a los usuarios si cambia la configuración **de acceso telefónico.**
 
@@ -99,7 +99,7 @@ De forma predeterminada, los correos electrónicos se enviarán a los usuarios, 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
+### <a name="using-windows-powershell"></a>Usar Windows PowerShell
 
 También puede usar el módulo Microsoft Teams PowerShell y ejecutar:
 
@@ -113,19 +113,18 @@ Vea la [Microsoft Teams referencia de PowerShell](/powershell/module/teams/?view
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-De forma predeterminada, el remitente de los correos electrónicos será de Microsoft 365 o Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell. 
+De forma predeterminada, el remitente de los correos electrónicos será de Microsoft 365 o Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell.
 
-Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
 
-  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-  - [Las mejores formas de administrar Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Las mejores formas de administrar Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](/powershell/module/teams/?view=teams-ps).
 
-
 ## <a name="related-topics"></a>Temas relacionados
 
-[Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la configuración de conferencias de Audio](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
+[Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la configuración de Audioconferencia](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 
 [Enviar un correo electrónico a un usuario con su información de conferencias de Audio](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)

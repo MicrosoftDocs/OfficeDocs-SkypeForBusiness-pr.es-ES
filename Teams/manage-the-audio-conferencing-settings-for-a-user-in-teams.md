@@ -1,7 +1,7 @@
 ---
 title: Administrar la configuración de audioconferencia para los usuarios
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -23,18 +23,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Un administrador Microsoft 365 o Office 365 puede editar la configuración de audioconferencia de Teams, incluidos el proveedor, el número de pago o gratuito predeterminado, el id. de conferencia o el PIN de un usuario.
-ms.openlocfilehash: a6a514b116cab63e321848d24785c3dab8b096dc
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 78b4f17962c69a87c15e9c0cba198a6301cac579
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537041"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055136"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para un usuario en Microsoft Teams
 
 Como administrador de Microsoft 365 o Office 365, puede editar la configuración de audioconferencia (como el proveedor, número de pago o gratuito predeterminado, id. de conferencia o PIN) para un usuario individual de su organización. Si desea editar la configuración de su organización, vea Administrar la configuración de [audioconferencias de su organización.](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
-##  <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
+## <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
 1. En el panel de navegación izquierdo, haga clic **en Usuarios** y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
@@ -54,7 +54,6 @@ Como administrador de Microsoft 365 o Office 365, puede editar la configuración
 |**Permisos de acceso telefónico**|Para cambiar esta  configuración, haga clic en Editar junto a **Audioconferencias** y, en el panel **Audioconferencia,** elija una opción en Llamar desde **reuniones.**|
 
 ![Muestra la configuración de conferencias de audio para un usuario.](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
- 
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -63,4 +62,4 @@ Como administrador de Microsoft 365 o Office 365, puede editar la configuración
 
 [Administrar la configuración de Audioconferencia para su organización](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
-[Preguntas comunes sobre Audioconferencia](audio-conferencing-common-questions.md)
+[Preguntas frecuentes sobre Audioconferencia](audio-conferencing-common-questions.md)

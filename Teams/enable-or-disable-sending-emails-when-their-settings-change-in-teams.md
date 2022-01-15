@@ -1,7 +1,7 @@
 ---
 title: Opciones de correo electrónico cuando cambia la configuración de conferencias de audio
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Obtenga información sobre cómo habilitar o deshabilitar Skype enviar correos electrónicos a los usuarios cuando la configuración, como los cambios de anclar o el número de conferencia predeterminado, cambie en Microsoft Teams. '
-ms.openlocfilehash: fa52306afbee534b52e9bfdbd304a22cda395704
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 568a42badd375314ee5b29529a53b52b1f6267eb
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537231"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055300"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la configuración de Audioconferencia en Microsoft Teams
 
@@ -41,40 +41,38 @@ Este es un ejemplo del correo electrónico que se envía a los usuarios cuando e
 ## <a name="when-are-emails-being-sent-to-your-users"></a>¿Cuándo se envían correos electrónicos a los usuarios?
 
 - Hay varios correos electrónicos que se envían a los usuarios de su organización después de que estén habilitados para las audioconferencias:
-    
-  - Cuando se les asigna una licencia **de** audioconferencia.
-    
-  - Cuando restablezca manualmente el PIN de audioconferencia del usuario.
-    
-  - Al restablecer de forma manual el id. de conferencia del usuario.
-    
-  - Cuando se **quita la licencia de conferencias** de audio.
-    
-  - Cuando el proveedor de audioconferencias de un usuario se cambia de Microsoft a otro proveedor o **Ninguno.**
-    
-  - Cuando el proveedor de audioconferencias de un usuario se cambia a Microsoft.
 
+  - Cuando se les asigna una licencia **de** audioconferencia.
+
+  - Cuando restablezca manualmente el PIN de audioconferencia del usuario.
+
+  - Al restablecer de forma manual el id. de conferencia del usuario.
+
+  - Cuando se **quita la licencia de conferencias** de audio.
+
+  - Cuando el proveedor de audioconferencias de un usuario se cambia de Microsoft a otro proveedor o **Ninguno.**
+
+  - Cuando el proveedor de audioconferencias de un usuario se cambia a Microsoft.
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Habilitar o deshabilitar el correo electrónico para que no se envíe a los usuarios
 
 Puede usar Microsoft Teams o Windows PowerShell para habilitar o deshabilitar el correo electrónico enviado a los usuarios.
 
- **Usar el Centro de administración de Microsoft Teams**
+### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
-1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
+1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**.
 
-2. En la parte superior de la **página Puentes de** conferencia, haga clic en **Configuración de puente.** 
+2. En la parte superior de la **página Puentes de** conferencia, haga clic en **Configuración de puente.**
 
 3. En el **panel Configuración de puente,** habilite o deshabilite Enviar mensajes de correo electrónico automáticamente a los usuarios si cambia la configuración **de acceso telefónico.**
 
 4. Haga clic en **Guardar**.
 
-  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
-  
+### <a name="using-windows-powershell"></a>Usar Windows PowerShell
+
 También puede usar el módulo Microsoft Teams PowerShell y ejecutar:
 
 ```PowerShell
@@ -85,20 +83,18 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/modul
 
 Vea la [Microsoft Teams referencia de PowerShell](/powershell/module/teams/?view=teams-ps) para obtener más información.
 
-    
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
-Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
-    
-  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [Las mejores formas de administrar Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
+
+- [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+
+- [Las mejores formas de administrar Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
 Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](/powershell/module/teams/?view=teams-ps).
-    
-  
+
 ## <a name="related-topics"></a>Temas relacionados
 
 [Correos electrónicos enviados a los usuarios cuando cambian sus opciones de audioconferencia](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
-[Enviar un correo electrónico a un usuario con su información de conferencias de Audio](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
+[Enviar un correo electrónico a un usuario con su información de Audioconferencia](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)

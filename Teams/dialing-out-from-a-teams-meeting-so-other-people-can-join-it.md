@@ -1,7 +1,7 @@
 ---
 title: Llamar desde una reunión para que otras personas puedan unirse
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Los organizadores de la reunión pueden aprender a llamar con la Teams para permitir que otras personas se unan a la misma reunión con sus teléfonos.
-ms.openlocfilehash: 690ae9a1597f2d6f1621deb264d9115780d35622
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 13389099e936ee8b3d6a005ae808f46f48abafea
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725649"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055840"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión de Microsoft Teams para que otras personas puedan unirse
 
@@ -50,7 +50,7 @@ Esta es la manera de llamar para trabajar:
  **Paso 2:** Escriba el número de teléfono completo, incluido el código de país o región en el cuadro Invitar a alguien **o marcar un número.**
   
 ![Captura de pantalla del cuadro Invitar a alguien o marcar un número.](media/invite-someone-box.png)
-    
+
 ## <a name="supported-countries-and-regions"></a>Países y regiones admitidas
 
 Dial-out is only available to some countries/regions. Para obtener una lista completa, vea [Disponibilidad de país y región para planes de audioconferencias y llamadas.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -62,5 +62,5 @@ Si está buscando instrucciones sobre cómo permitir que los usuarios llamen a u
 ## <a name="want-to-know-more-about-audio-conferencing"></a>¿Desea saber más sobre las conferencias de acceso telefónico local?
 
 [Probar o comprar audioconferencias](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
-    
+
 [Licencias complementarias de Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

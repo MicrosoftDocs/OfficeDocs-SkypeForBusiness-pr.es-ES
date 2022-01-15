@@ -1,7 +1,7 @@
 ---
 title: 'Disponibilidad de país o región: audioconferencias, planes de llamadas'
-ms.author: czawideh
-author: czawideh
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: reference
@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga información sobre si audioconferencia, Sistema telefónico, planes de llamadas, créditos de comunicaciones y números de teléfono gratuitos y gratuitos están disponibles en un país o región.
-ms.openlocfilehash: 8480fcbe512ed53bf7a94753b22214b50b8f3f85
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: ab534a020e91caaa6f9608857d6de76f5505b899
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579530"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056080"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
@@ -195,7 +195,7 @@ Llamar desde una reunión a otro país o región del mundo que no se muestra a c
 
 Con Sistema telefónico, puede crear operadores automáticos y colas de llamadas (con un número gratuito o de pago) para responder a las llamadas entrantes de su organización. Al agregar un plan de llamadas para los usuarios, pueden usar Skype Empresarial para ocuparse de las tareas básicas de control de llamadas, como realizar y recibir llamadas, transferir llamadas y silenciar y desmutar llamadas. **Sistema telefónico** usuarios hacen clic en un nombre en su libreta de direcciones y Skype Empresarial realizarán una llamada a esa persona. Para realizar y recibir **llamadas,** Sistema telefónico usuarios usan sus dispositivos móviles, unos auriculares con un portátil o un PC, o uno de los muchos teléfonos IP que funcionan con Skype Empresarial.
 
-La disponibilidad de números de teléfono de pago en algunas de estas ubicaciones puede variar en cualquier momento, según los niveles de inventario. Además de obtener números de teléfono para usuarios individuales, también es posible buscar y adquirir números de teléfono gratuitos o de pago para servicios como conferencias de audio (para puentes de conferencia), operadores automáticos y colas de llamadas. Se denominan números de servicio. Vea [Recepción de números de teléfono de servicio](../getting-service-phone-numbers.md) para obtener números de teléfono. Pero, para sus usuarios, después de asignarles un Plan de llamadas, puede asignar un número de teléfono de usuario para que puedan hacer y recibir llamadas de teléfono. Para encontrar estos números de teléfono, vaya a [Obtener números de teléfono para los usuarios](../getting-phone-numbers-for-your-users.md). También puede consultar [Asignar, cambiar o quitar un número de teléfono para un usuario](../assign-change-or-remove-a-phone-number-for-a-user.md).
+La disponibilidad de números de teléfono de pago en algunas de estas ubicaciones puede variar en cualquier momento, según los niveles de inventario. Además de obtener números de teléfono para usuarios individuales, también es posible buscar y adquirir números de teléfono gratuitos o de pago para servicios como conferencias de audio (para puentes de conferencia), operadores automáticos y colas de llamadas. Son los llamados números de servicio. Vea [Recepción de números de teléfono de servicio](../getting-service-phone-numbers.md) para obtener números de teléfono. Pero, para sus usuarios, después de asignarles un Plan de llamadas, puede asignar un número de teléfono de usuario para que puedan hacer y recibir llamadas de teléfono. Para encontrar estos números de teléfono, vaya a [Obtener números de teléfono para los usuarios](../getting-phone-numbers-for-your-users.md). También puede consultar [Asignar, cambiar o quitar un número de teléfono para un usuario](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
 [Precios de Sistema telefónico](https://www.microsoft.com/microsoft-teams/voice-calling?#office-StandaloneSKU-pkdogb9)
 

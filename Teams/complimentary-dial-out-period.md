@@ -1,7 +1,7 @@
 ---
 title: Período gratuito de aceptación de llamadas
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, OscarR
 ms.topic: conceptual
@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Obtenga información sobre el período de acceso telefónico gratuito para Microsoft 365 o Office 365 de llamadas y Office 365 audioconferencia en Microsoft Teams.
-ms.openlocfilehash: fa571a355f4eb9a546c2c231e9a06f83d4374029
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5cdc9d7c9c19218a29685fc7ff256d27ef81462a
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619606"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055500"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período gratuito para la realización de llamadas de Audioconferencia
 
@@ -38,7 +38,7 @@ Los clientes pueden usar Microsoft 365 o Office 365 Plan de llamadas y Office 36
   
 ### <a name="end-of-complimentary-dial-out-period"></a>Fin del período de marcado gratuito
 
-La funcionalidad de acceso telefónico gratuito finalizó el 1 de diciembre de 2019. Para obtener más información, vea Llamar a la suscripción de [audioconferencia y llamarme en beneficio.](audio-conferencing-subscription-dial-out.md) 
+La funcionalidad de acceso telefónico gratuito finalizó el 1 de diciembre de 2019. Para obtener más información, vea Llamar a la suscripción de [audioconferencia y llamarme en beneficio.](audio-conferencing-subscription-dial-out.md)
 
 Este cambio no se produjo en los países en los que la suscripción de audioconferencia está disponible, pero actualmente no habilitamos la configuración de créditos de comunicaciones. Estos países específicos son Rusia, Corea del Sur y Taiwán.
 
@@ -64,7 +64,7 @@ Las notificaciones por correo electrónico se enviarán a todos los administrado
 Para las llamadas de acceso telefónico local que se facturan por minuto (llamadas que superan el grupo de minutos de acceso telefónico local o llamadas a destinos que no están en la lista de países y regiones de zona A), las llamadas y sus [tarifas asociadas](audio-conferencing-zones.md) se basan principalmente en el destino de la llamada y no en el país o región del organizador o el participante que inicia la llamada de acceso telefónico. Por ejemplo, una llamada a un número de teléfono en Francia se facturará con la misma tarifa si la inicia un participante de la reunión en Estados Unidos o uno en Francia.
 
 Para obtener más información sobre los créditos de comunicación, vea [Créditos de comunicaciones.](what-are-communications-credits.md)
-     
+
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

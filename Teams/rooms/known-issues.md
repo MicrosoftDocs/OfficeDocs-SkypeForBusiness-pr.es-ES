@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede obtener información sobre una lista de problemas conocidos para Salas de Microsoft Teams, incluida la actualización, la interfaz de usuario, el hardware y las limitaciones y los comportamientos esperados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 72d80d930a8c140e6c2c00917a08cf69398fd4b1
-ms.sourcegitcommit: badcd3abeed138c330ee98d739eac5bbc5c0bfae
+ms.openlocfilehash: 2476753f5945217157336a814c8d498242c0eef1
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "61441130"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055110"
 ---
 # <a name="known-issues"></a>Problemas conocidos 
  
@@ -31,6 +31,7 @@ En este artículo se indican los problemas conocidos de Sala de Microsoft Teams 
 
 | Título del problema |  Comportamiento \/ síntoma | Solución conocida | Artículo de KB |
 |  ---        |      ---             |   ---            | --- |
+| Inicio automático del explorador Edge | El explorador Edge anterior a la compilación 97.0.1072.62 se inicia automáticamente junto con la aplicación Microsoft Teams Room cuando se inicia el dispositivo. | Esto debe resolverse automáticamente, sin que sea necesaria la interacción del usuario, el lunes 17 de enero de 2022 o antes de él. Si se requiere una resolución más rápida: cuando Edge se inicie junto a la sala de Microsoft Teams, visite la dirección URL edge://settings/help y una actualización debería empezar a descargar y aplicar automáticamente. Seleccione el botón "Reiniciar" del explorador una vez que la actualización haya terminado de aplicarse. Cierre Edge, reinicie el sistema y el problema debe resolverse. | Ninguna |
 | Vídeo de participantes de la galería dividida   | En el modo de pantalla frontal doble de la sala, cuando no hay contenido compartido en una reunión con más de 9 participantes de vídeo remoto, 1 vídeo en una pantalla del frente de la sala con la vista previa automática puede aparecer como audio debido a un problema conocido. Además, se muestra un número menor de participantes de audio que el número real de participantes de audio en dos pantallas frontales de la sala. | El problema se resolverá en la actualización futura. | Ninguna |
 | Aplicación que no se inicia |  Después de actualizar a la versión 4.4.41.0 de la aplicación, el sistema se inicia en pantalla negra o ve a la pantalla de inicio de sesión después de unos minutos. | Siga los pasos de Salas de Microsoft Teams aplicación no se inicia después de actualizar a la [versión 4.4.41.0 para](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) solucionar este problema.  | Ninguna |
 |  Volumen de reunión bajo después del uso compartido de contenido         |   Salas de Microsoft Teams dispositivos en Windows 10 20H2 experimentan una disminución del volumen de los medios y de la reunión después de compartir contenido a través de HDMI en la sala. Esto se debe a un problema de audio en Windows 10 20H2. | La corrección para este problema está disponible en la [versión 4.9.12.0 de la aplicación.](/microsoftteams/rooms/rooms-release-note#49120-7282021) | Ninguna |

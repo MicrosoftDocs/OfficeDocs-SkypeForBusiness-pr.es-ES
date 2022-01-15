@@ -1,7 +1,7 @@
 ---
 title: Establecer los números de teléfono incluidos en las invitaciones
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Siga estos pasos para crear un número de teléfono predeterminado para que los autores de llamadas se unan a Microsoft Teams reunión.
-ms.openlocfilehash: bef8575e1e799c63159bec5cbfb06c80f4af6c83
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: d1bce310424fb30ef8e76dde60003e97973630ec
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536751"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055450"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Establecer los números de teléfono incluidos en las invitaciones en Microsoft Teams
 
@@ -51,8 +51,6 @@ Una vez que el usuario está habilitado para el servicio de audioconferencia, el
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Establecer o cambiar el número de teléfono de audioconferencia predeterminado para un organizador o usuario de la reunión
 
- **Usar el Centro de administración de Microsoft Teams**
-
 Debe ser administrador de servicio de Teams para poder realizar estos cambios. Consulte [Usar los roles de administrador de Teams para administrar Teams](./using-admin-roles.md) para obtener información sobre cómo obtener roles de administrador y permisos.
 
 1. Inicie sesión en el Microsoft Teams de administración.
@@ -74,7 +72,7 @@ Debe ser administrador de servicio de Teams para poder realizar estos cambios. C
 
 ## <a name="want-to-use-windows-powershell"></a>¿Desea usar Windows PowerShell
 
-Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. To get started with Windows PowerShell, see these topics:
+Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Microsoft 365 o Office 365 mediante un único punto de administración que puede simplificar su trabajo diario cuando tiene varias tareas que hacer. Para empezar con Windows PowerShell, vea estos temas:
 
 - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
