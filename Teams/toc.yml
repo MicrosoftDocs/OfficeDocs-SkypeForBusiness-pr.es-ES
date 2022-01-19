@@ -249,7 +249,7 @@ items:
                 href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
           - name: Integración con Exchange y SharePoint
             href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
-  - name: 'Seguridad, privacidad y cumplimiento'
+  - name: 'Seguridad, cumplimiento y privacidad'
     items:
       - name: Información general
         href: security-compliance-overview.md
@@ -300,7 +300,7 @@ items:
           - name: Auditoría
             href: audit-log-events.md
           - name: Clave de cliente
-            href: /microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+            href: /microsoft-365/compliance/customer-key-overview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: Exportar API para contenido de Teams
             href: export-teams-content.md
       - name: Privacidad
@@ -1435,6 +1435,8 @@ items:
             href: alerts/device-health-status.md
           - name: Dispositivos y periféricos de Teams
             href: teams-device-health.md
+          - name: Uso de unidades administrativas para administrar dispositivos
+            href: administrative-unit.md
   - name: 'Aplicaciones, bots y conectores'
     items:
       - name: Información general
@@ -1491,6 +1493,8 @@ items:
                 href: teams-app-setup-policies.md
               - name: Administrar configuración y directivas de aplicación personalizadas en Teams
                 href: teams-custom-app-policies-and-settings.md
+          - name: Personalizar aplicaciones de Teams en función de la licencia
+            href: pin-teams-apps-based-on-license.md
           - name: Ver permisos de aplicaciones y conceder consentimiento de administrador
             href: app-permissions-admin-center.md
           - name: Consentimiento específico del recurso
@@ -1541,6 +1545,8 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: Asistente de directiva de Microsoft Teams para Educación
             href: easy-policy-setup-edu.md
+          - name: Implementar la aplicación Padres para Teams
+            href: edu-parents-app.md
           - name: Aplicación de Asesor de carrera en Teams para Educación
             href: career-coach.md
           - name: Supervisar los chats en Teams
@@ -1581,6 +1587,8 @@ items:
             href: flw-onboarding-wizard.md
           - name: Implementación mediante scripts para trabajadores de primera línea
             href: flw-scripted-deployment.md
+          - name: Personalizar las aplicaciones de Teams para sus trabajadores de primera línea
+            href: pin-teams-apps-based-on-license.md
           - name: Administrar la aplicación Turnos
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
           - name: Administrar el acceso de trabajadores de primera línea en función de sus turnos

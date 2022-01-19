@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar canales privados en su organización con Graph API.
-ms.openlocfilehash: 25065401216a29e28e0d4aa3f1ad02d071215188
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: b0b915529d9d4bc780215afceead61ebf31e5259
+ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766383"
+ms.lasthandoff: 01/18/2022
+ms.locfileid: "62064876"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Administrar el ciclo de vida de los canales privados en Microsoft Teams
 
@@ -48,13 +48,20 @@ Como administrador, puede usar la API Graph para crear un canal privado en nombr
 
 ```Graph API
 POST /teams/{id}/channels
-{ "membershipType": "Private",
-  "displayName": "<Channel_Name>",
-  "members":[{    
-           "@odata.type":"#microsoft.graph.aadUserConversationMember",
-           "user@odata.bind":"https://graph.microsoft.com/users('<user_id>')",
-           "roles":["owner"]
-            }]
+{
+    "membershipType": "Private",
+    "displayName": "<Channel_Name>",
+    "members": [
+        {
+            "@odata.type": "#microsoft.graph.aadUserConversationMember",
+            "user@odata.bind": "https://graph.microsoft.com/v1.0/users('<user_id>')",
+            "roles": [
+                "owner"
+            ]
+        }
+    ]
+}
+            
 ```
 
 ## <a name="get-a-list-of-all-private-channel-messages"></a>Obtenga una lista de todos los mensajes del canal privado

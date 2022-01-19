@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Incorporación de Salas de Teams dispositivos a servicios administrados
 f1keywords: ''
-ms.openlocfilehash: 70209bcd60740f1d1e19b45b215b921396a6f0fd
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a02f47970392d5c428eb2cd76387678c1c2a5ed6
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767564"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62071058"
 ---
 # <a name="monitor-device-software-installation"></a>Supervisar la instalación del software del dispositivo
 
@@ -116,7 +116,7 @@ El proceso de inscripción incluye algunos pasos:
 1. Instale el instalador del agente (descargado en el paso 2) en unidades MTR, ya sea ejecutando el MSI localmente en un dispositivo MTR o a través de sus medios normales de publicación de aplicaciones MSI en masa en dispositivos dentro de su entorno (directiva de grupo, etc.).  
 1. La sala aparece en el portal en un plazo de 5 a 10 minutos. Si no es así, póngase en contacto managedroomsupport@microsoft.com.  
 
-![Figura 5](../media/software-installation-005.jpg)
+![Captura de pantalla de la configuración y las claves de autoinscripción.](../media/software-installation-005.jpg)
 
 ## <a name="installation"></a>Instalación
 

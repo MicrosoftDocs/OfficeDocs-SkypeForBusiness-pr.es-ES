@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo planear la omisión de medios con Sistema telefónico enrutamiento directo, lo que le permite acortar la ruta del tráfico multimedia y mejorar el rendimiento.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1fb9eff518232f53868752a297775369af13713a
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2d9a38772cd9119a7717608726db45bce6055229
+ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306335"
+ms.lasthandoff: 01/18/2022
+ms.locfileid: "62064886"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -148,7 +148,7 @@ En la tabla siguiente se resume la diferencia entre los procesadores multimedia 
 |En la ruta de acceso multimedia para llamadas omitida para usuarios finales | Nunca | Si el cliente no puede llegar al SBC en la dirección IP pública |
 |En la ruta de acceso multimedia para aplicaciones de voz | Siempre | Nunca |
 |Puede realizar la transcodificación (B2BUA)\* | Sí | No, solo retransmite audio entre puntos de conexión |
-|Número de instancias en todo el mundo y ubicación | 10 total: 2 en Ee. UU. Este y Oeste; 2 en Ámsterdam y Dublín; 2 en Hong Kong y Singapur; 2 en Japón; 2 en Australia Este y Sureste | Múltiplo|
+|Número de instancias en todo el mundo y ubicación | 15 total: 3 en EE. UU. Este, Oeste y Centro sur; 4 en Ámsterdam, Dublín, Reino Unido Sur y Francia Central; 2 en Hong Kong y Singapur; 2 en Japón; 2 en Australia Este y Sureste; 1 en Brasil Sur; 1 en Sudáfrica Norte | Múltiplo|
 
 Los rangos IP son:
 - 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254)

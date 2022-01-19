@@ -21,15 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
-- Phone System
-- seo-marvel-apr2020
+- Phone System - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: ab5a99802ea9170ece7c1cd8d043b84c2cee452d
-ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
+ms.openlocfilehash: c1f1ade144b416668c1512472adfee4a88afb780
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "62039903"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62070978"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -68,7 +67,7 @@ Escriba un nombre descriptivo para la cola.
 
 Haga clic en **Agregar cuentas**, busque la cuenta de recursos que desea usar con esta cola de llamadas, haga clic en **Agregar** y, después, haga clic en **Agregar**. (Los agentes verán el nombre de la cuenta de recurso cuando reciban una llamada entrante).
 
-Vea [Administrar Teams cuentas de recursos para](manage-resource-accounts.md) obtener más información.
+Para obtener más información, vea [Administrar Teams cuentas de recursos](manage-resource-accounts.md).
 
 ### <a name="assign-calling-id"></a>Asignar id. de llamada
 
@@ -78,10 +77,10 @@ Si tiene previsto usar un canal Teams para los agentes de llamada, puede asignar
 
 Haga **clic en** Agregar , busque las cuentas de recursos a las que desea permitir que los agentes llamen con fines de identificación al realizar llamadas salientes, haga clic en Agregar y, a continuación, haga clic en **Agregar.** 
 
-Si no usa un canal Teams para controlar la pertenencia al agente, considere la posibilidad de establecer directamente el identificador de llamada de los miembros de la cola de llamadas en el número de servicio de la cola de llamadas o en el operador automático adecuado. Consulte [administrar las directivas de identificador de llamada en Microsoft Teams](caller-id-policies.md) obtener más información.
+Si no usa un canal Teams para controlar la pertenencia al agente, considere la posibilidad de establecer directamente el identificador de llamada de los miembros de la cola de llamadas en el número de servicio de la cola de llamadas o en el operador automático adecuado. Para obtener más información, vea [Administrar directivas de identificador de llamadas en Microsoft Teams](caller-id-policies.md).
 
 > [!NOTE]
-> La cuenta de recurso usada para los fines de id. de llamada debe tener una Microsoft 365 Sistema telefónico de usuario virtual y una de las siguientes asignadas:
+> La cuenta de recurso usada para los fines de id. de llamada debe tener una Microsoft Teams Sistema telefónico de usuario virtual y una de las siguientes asignadas:
 >
 > - Una licencia del plan de llamadas y un número de teléfono asignado
 > - Un operador Conectar número de teléfono asignado
@@ -113,7 +112,7 @@ Revise los [requisitos previos para agregar agentes a una cola de llamadas.](pla
 
 ##### <a name="teams-channel"></a>Teams canal
 
-Puede agregar hasta 200 agentes a través de un Teams. Tenga en cuenta que debe ser miembro del equipo, creador o propietario del canal para agregar un canal a la cola.
+Puede agregar hasta 200 agentes a través de un Teams. Debe ser miembro del equipo, creador o propietario del canal para agregar un canal a la cola.
 
 Si desea usar un [canal Teams](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)para administrar la  cola, seleccione la opción Elegir un equipo y haga clic **en Agregar un canal.** Busque el equipo que desea usar, selecciónelo y haga clic en **Agregar**. Seleccione el canal que desea usar (solo se admiten los canales estándar) y haga clic en **Aplicar.** 
 
@@ -147,7 +146,7 @@ Para agregar un grupo a la cola, haga clic en **Agregar grupos**, busque el grup
   - Última versión del cliente de escritorio de Microsoft Teams, la aplicación de Android o la aplicación de iOS
   - Microsoft Teams Teléfono versión 1449/1.0.94.2020051601 o posterior
   
-Las cuentas de Teams de los agentes deben establecerse en modo solo Teams. Los agentes que no cumplan los requisitos no se incluyen en la lista de enrutamiento de llamadas. Se recomienda habilitar el modo de conferencia para las colas de llamadas si los agentes usan clientes compatibles.
+Las cuentas Teams agentes deben establecerse en Teams modo de solo lectura. Los agentes que no cumplan los requisitos no se incluyen en la lista de enrutamiento de llamadas. Se recomienda habilitar el modo de conferencia para las colas de llamadas si los agentes usan clientes compatibles.
 
 > [!NOTE]
 > El modo de conferencia no es compatible si las llamadas telefónicas se enruta a la cola desde una puerta de enlace de enrutamiento directo habilitada para enrutamiento basado en ubicación.
@@ -202,7 +201,7 @@ Si un agente opta por no recibir llamadas, no se incluirán en la lista de enrut
 
 **Número máximo de llamadas en la cola**: use esta opción para establecer el número máximo de llamadas que pueden esperar en la cola al mismo tiempo. El valor predeterminado es 50, pero puede elegir un valor entre 0 y 200. Una vez alcanzado el límite, la llamada se administrará del modo que establezca en el ajuste **Cuando se alcanza el número máximo de llamadas**, que se describe a continuación.
 
-Puede elegir desconectar la llamada o redirigirla a cualquiera de los destinos de enrutamiento de llamadas. Por ejemplo, puede que el autor de llamada deje un correo de voz para los agentes en la cola. Para las transferencias externas, consulte los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) [las transferencias de números de teléfono externos (los detalles técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) el formato de los números).
+Puede elegir desconectar la llamada o redirigirla a cualquiera de los destinos de enrutamiento de llamadas. Por ejemplo, puede que el autor de llamada deje un correo de voz para los agentes en la cola. Para las transferencias externas, vea [Requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) y las transferencias de números de teléfono [externos: detalles técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) para el formato de números.
 
 > [!NOTE]
 > Si el número máximo de llamadas se establece en 0, no se reproducirá el mensaje de saludo.
@@ -248,15 +247,58 @@ Los siguientes clientes son compatibles con agentes de llamada en una cola de ll
 
 ## <a name="call-queue-cmdlets"></a>Cmdlets de colas de llamadas
 
-También puede usar Windows PowerShell para crear y configurar colas de llamadas. Estos son los cmdlets que necesita para administrar una cola de llamadas.
+Windows PowerShell permite crear y administrar colas de llamadas a través de la línea de comandos de forma por lotes o mediante programación.
 
-- [New-CsCallQueue](/powershell/module/skype/new-CsCallQueue)
+Los siguientes cmdlets le permiten administrar una cola de llamadas:
 
-- [Set-CsCallQueue](/powershell/module/skype/set-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/New-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/skype/Get-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-- [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
+Los siguientes cmdlets adicionales también son necesarios para administrar los usuarios, cuentas de recursos, licencias de Microsoft Teams Teléfono, números de teléfono, archivos de audio e idioma compatible que se usarán con las colas de llamadas:
 
-- [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
+Usuarios/Teams
+
+- Usuarios
+- - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+
+- Teams: 
+- - [Get-Team](/powershell/module/teams/Get-Team)
+- - [Get-TeamChannel](/powershell/module/teams/Get-TeamChannel)
+
+Cuentas de recursos:
+
+- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
+- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
+- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
+- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
+
+- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
+- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
+
+Licencias Teams Teléfono virtuales:
+
+- [Set-MsolUserLicense](/powershell/module/skype/Set-MsolUserLicense)
+
+Teléfono asignación de números:
+
+- [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/Set-CsOnlineVoiceApplicationInstance)
+
+Archivos de audio
+
+- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
+- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
+- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
+
+Listas de idioma de soporte técnico
+
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+
+Para obtener una guía paso a paso para crear colas de llamadas con PowerShell, vea Crear colas de llamadas [con cmdlets de PowerShell](create-a-phone-system-call-queue-via-cmdlets.md)
 
 ## <a name="call-queue-diagnostic-tool"></a>Herramienta de diagnóstico de cola de llamadas
 
@@ -278,7 +320,3 @@ Si es administrador, puede usar la siguiente herramienta de diagnóstico para va
 [Obtener números de teléfono de servicio](getting-service-phone-numbers.md)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance)
-
-[Una introducción a Windows PowerShell y Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
