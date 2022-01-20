@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: c1f1ade144b416668c1512472adfee4a88afb780
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: e54dbfa678b8bfdaec4dac45e16728a0fcd79de9
+ms.sourcegitcommit: bb302109886a4b853a8e493fb0ffafad4bc4f86b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62070978"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62085249"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -281,7 +281,7 @@ Cuentas de recursos:
 
 Licencias Teams Teléfono virtuales:
 
-- [Set-MsolUserLicense](/powershell/module/skype/Set-MsolUserLicense)
+- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
 
 Teléfono asignación de números:
 

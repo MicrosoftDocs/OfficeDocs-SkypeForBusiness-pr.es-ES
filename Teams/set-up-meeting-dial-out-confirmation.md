@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9db8d3882ea7d05b1bc3600682c0c803040b4c10
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 32cdc63f2b129e7d925fed46a8b89ac90944926e
+ms.sourcegitcommit: bb302109886a4b853a8e493fb0ffafad4bc4f86b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055660"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62085239"
 ---
 # <a name="set-up-meeting-dial-out-confirmation-for-your-users-in-microsoft-teams"></a>Configurar la confirmación de acceso telefónico de reunión para los usuarios en Microsoft Teams
 
@@ -26,7 +26,7 @@ Las llamadas telefónicas de reunión y las llamadas llamarme son formas útiles
 
 Para evitar que los sistemas de correo de voz se conecten a reuniones cuando se envía una llamada de salida a un número de teléfono y la persona llamada no puede responder a la llamada, puede configurar Teams para solicitar una confirmación a la persona llamada para que se una a la reunión. Si la persona llamada no puede responder a la llamada y un sistema de correo de voz responde a la llamada, el sistema de correo de voz no se conectará a la reunión porque no proporcionará una confirmación para unirse a ella.
 
-Cuando esta capacidad está habilitada, las personas que reciben una llamada de salida o llamada de llamada deben confirmar que quieren unirse a la reunión presionando 1 en su teléfono móvil o tradicional o diciendo "Bien".
+Cuando esta capacidad está habilitada, las personas que reciben una llamada de salida o llamada de llamada deben confirmar que quieren unirse a la reunión presionando 1 en su teléfono móvil o tradicional o diciendo "Bien". La confirmación evitará que el mensaje de correo de voz del usuario se una a la reunión.
 
 Para habilitar esta funcionalidad para todas las reuniones de su organización, establezca el parámetro del ```EnableDialOutJoinConfirmation``` cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) en ```true``` . Para establecer este parámetro, ejecute el siguiente comando:
 
