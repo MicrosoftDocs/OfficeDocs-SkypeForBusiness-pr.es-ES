@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9fef14aa5d6e58bea3a33fbd8c86a3044b0ab778
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 8ef0be38205d2f83be013793706cb6e7f6e14d24
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766983"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62070938"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -65,11 +65,11 @@ Si tiene alguna pregunta sobre el programa de certificación de CLS para Enrutam
 |                                                                                                                     | SBC Mediant 9000  |     &#10004;     |   &#10004;     |  Compatible con 7.20A.258 (recomendado 7.40A.100)   | &#10004;     |  &#10004;  |
 |                                                                                                                     | SBC Virtual Edition |     &#10004;     |   &#10004;     |  Compatible con 7.20A.258 (recomendado 7.40A.100) |  &#10004;    |  &#10004;  |   
 |                                                                                                                     | SBC de Mediant Cloud Edition  |     &#10004;     |   &#10004;     |  Compatible con 7.20A.258 (recomendado 7.40A.100) |  &#10004;    |  &#10004;  |
-|  [Comunicaciones de cinta](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       Compatible con 8.2 y 7.2 (recomendado 9.2)       | &#10004;   |     |
-|                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       Compatible con 8.2 y 7.2 (recomendado 9.2)       |   &#10004; |    |
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       Compatible con 8.2 y 7.2 (recomendado 9.2)       |   &#10004;  | |
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       Compatible con 8.2 y 7.2 (recomendado 9.2)       |    &#10004;  |  |
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       Compatible con 8.2 y 7.2 (recomendado 9.2)          |  &#10004;    |    |
+|  [Comunicaciones de cinta](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       Compatible con 9.2, 8.2 y 7.2 (recomendado 10.1)       | &#10004;   |     |
+|                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       Compatible con 9.2, 8.2 y 7.2 (recomendado 10.1)       |   &#10004; |    |
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       Compatible con 9.2, 8.2 y 7.2 (recomendado 10.1)       |   &#10004;  | |
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       Compatible con 9.2, 8.2 y 7.2 (recomendado 10.1)       |    &#10004;  |  |
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       Compatible con 9.2, 8.2 y 7.2 (recomendado 10.1)          |  &#10004;    |    |
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.x or 9.x     |   &#10004;  |  &#10004;     |
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.x or 9.x     |   &#10004;   |     &#10004;     |
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.x or 9.x    |   &#10004;    |     &#10004;     |
@@ -91,7 +91,7 @@ Si tiene alguna pregunta sobre el programa de certificación de CLS para Enrutam
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de límites de sesión de Avaya para empresas (ASBCE)    |     &#10004;     |       &#10004;     |       Versión 8.1.1 (8.1.2 para omisión de medios)      |     |    |
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de límites de sesión Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    |
 |                     |    Controlador de límites de sesión Nokia    |     &#10004;     |           |       20.8       |      &#10004;        |    |
-|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       Compatible con 5.0 (recomendado 5.1)     |     |    |
+|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       Compatible con 5.0 y 5.1 (recomendado 5.3)     |     |    |
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Vínculo de Orchid    |     &#10004;     |           |      3.1        |     |    |
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    CLS de Teams    |     &#10004;     |     &#10004;      |      1.6        |     |    |
