@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo cargar inquilinos y crear datos en el Panel de calidad de llamadas (CQD).
-ms.openlocfilehash: 02984b413418fff22da44d4edd4349a1bf980ed7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c3da64a66ec2e78165bd0ee9dcb50acbe7739ee4
+ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733139"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62160979"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Upload inquilino y generar datos en el Panel de calidad de llamadas (CQD)
 
@@ -164,6 +164,8 @@ El otro tipo de archivo de datos de inquilino CQD es el **archivo de** datos de 
 - El contenido del archivo de datos no incluye encabezados de tabla. Se espera que la primera línea del archivo de datos sean datos reales, no una etiqueta de encabezado como "EndpointName".
 
 - Las siete columnas solo usan el tipo de datos String. La longitud máxima permitida es de 64 caracteres.
+
+- Las entradas distinguen entre mayúsculas y minúsculas; EndpointName **ABC123** se tratará como único de EndpointName **abc123**.
 
 - Un campo de datos puede estar vacío, pero debe estar separado por una pestaña o coma. Un campo de datos vacío solo asigna un valor String vacío.
 
