@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bf452893172091d1c534d4a28215b661fd5fe6c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 247f8e1d735bfe331c914da1ec89863b755cf373
+ms.sourcegitcommit: 11061890a64da88d92db3fa43f1bf320b216c355
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767343"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62163551"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de información en Microsoft Teams
 
@@ -188,7 +188,7 @@ El modo barreras de información ayuda a fortalecer quién se puede agregar o qu
 
 - **Abrir:** esta configuración es el modo IB predeterminado para todos los grupos existentes que se aprovisionaron antes de habilitar las barreras de información. En este modo, no hay directivas del IB aplicables.
 - **Implícito:** esta configuración es el modo IB predeterminado cuando se aprovisiona un equipo después de habilitar las barreras de información. El modo implícito le permite agregar todos los usuarios compatibles en el grupo.
-- **Propietario moderado:** este modo se establece en un equipo cuando desea permitir la colaboración entre usuarios de segmento incompatibles moderados por el propietario. El propietario del equipo puede agregar nuevos miembros según su directiva del IB.
+- **Propietario moderado (versión preliminar):** este modo se establece en un equipo cuando desea permitir la colaboración entre usuarios de segmento incompatibles moderados por el propietario. El propietario del equipo puede agregar nuevos miembros según su directiva del IB.
 
 Teams antes de activar una directiva de barrera de información en el espacio empresarial se establecen automáticamente en *Modo* abierto de forma predeterminada. Una vez que haya activado las directivas del IB en el inquilino, es necesario que actualice el modo de los equipos existentes a *Implícito* para asegurarse de que los equipos existentes cumplen con ib.
 
