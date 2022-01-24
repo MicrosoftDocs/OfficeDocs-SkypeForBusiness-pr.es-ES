@@ -2,7 +2,7 @@
 title: Administrar la aplicación Turnos para su organización
 author: LanaChin
 ms.author: v-lanachin
-ms.reviewer: lisawu,gumariam
+ms.reviewer: aaku
 manager: samanro
 ms.topic: article
 audience: admin
@@ -22,17 +22,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c4b1550ca90515714e509017f4fb13b83414fbf0
-ms.sourcegitcommit: 293d1b8a591d2284029632874067471f8d5bb0ff
+ms.openlocfilehash: c6e50d92dfb296bcf67402cdbd14a65fba490125
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/30/2021
-ms.locfileid: "61639694"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180933"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
-
-> [!IMPORTANT]
-> Desde el 30 de junio de 2020 Microsoft StaffHub ha sido retirado. Estamos creando las funciones de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación Turnos para la administración de la programación y a medida que pase el tiempo se implementarán funciones adicionales StaffHub dejó de proveer servicios a todos los usuarios el 30 de junio de 2020. A cualquier usuario que intente abrir StaffHub se mostrará un mensaje en el que se le indicará que descargue Teams. Para obtener más información, consulte [Microsoft StaffHub se ha retirado](microsoft-staffhub-to-be-retired.md).  
 
 ## <a name="overview-of-shifts"></a>Información general sobre Turnos
 

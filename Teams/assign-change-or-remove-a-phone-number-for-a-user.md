@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo para Teams usuarios para que los clientes y empresas externas puedan llamar.
-ms.openlocfilehash: 40d8f2d12cb824b57b2c01da4880cc35afb0a663
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 1836de6997f2e917e599efc091b689877856c4c7
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766573"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181083"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Asignar, cambiar o quitar un teléfono móvil de un usuario
 
@@ -63,17 +63,23 @@ Para asignar un número mediante el centro Teams administración:
 
 6. Haga clic en **Guardar**.
 
-Para asignar números mediante PowerShell, use el cmdlet [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) de la siguiente manera:
+Para asignar números mediante PowerShell, use el cmdlet [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) de la siguiente manera:
 
-
+Para números de plan de llamadas
 ```PowerShell
-Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType CallingPlan
+```
+
+Para Números de Conectar operadores
+```PowerShell
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
 Por ejemplo:
 
 ```PowerShell
-Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
+Set-CsPhoneNumberAssignment -Identity john@contoso.com -PhoneNumber "+14255550101" -PhoneNumberType CallingPlan
+Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550102" -PhoneNumberType OperatorConnect
 ```
 
 > [!NOTE]
@@ -105,7 +111,7 @@ Para cambiar un número de teléfono para un usuario mediante el centro de Teams
 
 9. Haga clic en **Guardar**.
 
-Para obtener un ejemplo de PowerShell, [vea Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
+Para obtener un ejemplo de PowerShell, vea [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
 
 ## <a name="remove-a-phone-number-from-a-user"></a>Quitar un número de teléfono de un usuario
 
@@ -121,7 +127,7 @@ Para quitar un número de teléfono mediante el centro de Teams de administraci�
 
 5. Haga clic en **Guardar**.
 
-Para obtener un ejemplo de PowerShell, [vea Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
+Para obtener un ejemplo de PowerShell, vea [Quitar-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment).
 
 ## <a name="related-topics"></a>Temas relacionados
 
@@ -133,5 +139,7 @@ Para obtener un ejemplo de PowerShell, [vea Set-CsOnlineVoiceUser](/powershell/m
 
 [Etiqueta de declinación de responsabilidades de llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
+[Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
+
+[Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)
 

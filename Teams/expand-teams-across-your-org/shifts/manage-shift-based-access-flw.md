@@ -15,18 +15,14 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 708ce6158cd799bed506751006d94679eedcd950
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 01ef7d91b0119501a3f7570b85ea902c0ebbb7a4
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842602"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180883"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Administrar el acceso basado en turnos para los trabajadores de primera línea en Teams
-
-> [!IMPORTANT]
-> Desde el 30 de junio de 2020 Microsoft StaffHub ha sido retirado. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación Turnos para la administración de la programación y a medida que pase el tiempo se implementarán funciones adicionales StaffHub dejó de proveer servicios a todos los usuarios el 30 de junio de 2020. A cualquier usuario que intente abrir StaffHub se mostrará un mensaje en el que se le indicará que descargue Teams. Para obtener más información, consulte [Microsoft StaffHub se ha retirado](microsoft-staffhub-to-be-retired.md).  
-
 ## <a name="overview"></a>Información general
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
