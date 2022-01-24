@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para grandes organizaciones en Microsoft Teams.
-ms.openlocfilehash: 407d548a58240cb66cecabce01129fc3a7c270ca
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 834ca1b68e64047c6405c2aefba361e0ef4f1e81
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767143"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180963"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -228,7 +228,7 @@ Consulte Los [requisitos previos](plan-auto-attendant-call-queue.md#prerequisite
 
 - Para una cuenta de recurso con una licencia de [plan](calling-plans-for-office-365.md) de llamadas o un número de operador [Conectar,](operator-connect-plan.md) el número de teléfono de transferencia externa debe especificarse en formato E.164 (+[código de país][código de área][número de teléfono]).
 
-- Para una cuenta de recursos con una directiva de enrutamiento de voz Sistema telefónico licencia y enrutamiento directo en línea, el formato de número de teléfono de transferencia externa depende de la configuración del Controlador de borde de sesión [(SBC).](direct-routing-connect-the-sbc.md)
+- Para una cuenta de recursos con una directiva de enrutamiento de voz Microsoft Teams Teléfono licencia y enrutamiento directo en línea, el formato de número de teléfono de transferencia externa depende de la configuración del Controlador de borde de sesión [(SBC).](direct-routing-connect-the-sbc.md)
 
 El número de teléfono saliente que se muestra se determina de la siguiente manera:
 
@@ -239,33 +239,83 @@ El número de teléfono saliente que se muestra se determina de la siguiente man
 
 En un Skype Empresarial híbrido, para transferir una llamada de operador automático a la RTC, cree un nuevo usuario local con el reenvío de llamadas establecido en el número RTC. El usuario debe estar habilitado para Telefonía IP empresarial y tener asignada una directiva de voz. Para obtener más información, vea [Transferencia automática de llamadas a RTC.](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
 
-### <a name="create-an-auto-attendant-with-powershell"></a>Crear un operador automático con PowerShell
+## <a name="auto-attendant-cmdlets"></a>Cmdlets para operadores automáticos
 
-También puede usar PowerShell para crear y configurar operadores automáticos. Estos son los cmdlets que necesita para administrar un operador automático:
+Windows PowerShell permite crear y administrar operadores automáticos a través de la línea de comandos de forma por lotes o mediante programación.
+
+Los siguientes cmdlets le permiten administrar operadores automáticos:
 
 - [New-CsAutoAttendant](/powershell/module/skype/new-csautoattendant)  
-- [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
 - [Get-CsAutoAttendant](/powershell/module/skype/get-csautoattendant)
-- [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
+- [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
+- [Update-CsAutoAttendant](/powershell/module/skype/update-csautoattendant)
 - [Remove-CsAutoAttendant](/powershell/module/skype/remove-csautoattendant)
-- [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
-- [New-CsOnlineAudioFile](/powershell/module/skype/new-CsOnlineAudioFile)
-- [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
-- [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csorganizationalautoattendantholidays)
 - [New-CsOnlineTimeRange](/powershell/module/skype/new-csonlinetimerange)
 - [New-CsOnlineDateTimeRange](/powershell/module/skype/new-csonlinedatetimerange)
 - [New-CsOnlineSchedule](/powershell/module/skype/New-CsOnlineSchedule)
-- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-- [New-CsAutoAttendantCallHandlingAssociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
-- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
 - [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
+- [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csautoattendantholidays)
+- [New-CsAutoAttendantDialScope](/powershell/module/skype/New-CsAutoAttendantDialScope)
+- [New-CsAutoAttendantPrompt](/powershell/module/skype/New-CsAutoAttendantPrompt)
 - [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
+- [New-CsAutoAttendantMenuOption](/powershell/module/skype/New-CsAutoAttendantMenuOption)
+- [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
+- [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [New-CsAutoAttendantCallHandlingAssociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantStatus](/powershell/module/skype/Get-CsAutoAttendantStatus)
+- [Get-CsAutoAttendantTenantInformation](/powershell/module/skype/Get-CsAutoAttendantTenantInformation)
+
+Los siguientes cmdlets adicionales también son necesarios para administrar los usuarios, cuentas de recursos, licencias de Microsoft Teams Teléfono, números de teléfono, archivos de audio e idioma compatible que se usarán con las colas de llamadas:
+
+Usuarios/Teams
+
+- Usuarios
+- - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+
+- Teams: 
+- - [Get-Team](/powershell/module/teams/Get-Team)
+
+Cuentas de recursos:
+
+- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
+- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
+- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
+- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
+- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
+- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
+
+Licencias Teams Teléfono virtuales:
+
+- [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
+- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
+
+Teléfono asignación de números:
+
+- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
+
+Archivos de audio
+
+- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
+- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
+- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
+
+Idiomas de soporte técnico y zonas horarias
+
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+
+Para obtener una guía paso a paso para crear operadores automáticos con PowerShell, vea Crear [operadores automáticos con cmdlets de PowerShell](create-a-phone-system-auto-attendant-via-cmdlets.md)
 
 ## <a name="auto-attendant-diagnostic-tool"></a>Operador automático de diagnóstico
 
 Si es administrador, puede usar la siguiente herramienta de diagnóstico para validar que un operador automático puede recibir llamadas:
 
-1. Seleccione **Ejecutar pruebas** a continuación, lo cual rellenará el diagnóstico en el Centro de administración de Microsoft 365. 
+1. Seleccione **Ejecutar pruebas** a continuación. Esto rellenará el diagnóstico en el Centro de administración de Microsoft 365. 
 
    > [!div class="nextstepaction"]
    > [Ejecutar pruebas: Teams Operador automático](https://aka.ms/TeamsAADiag)

@@ -21,16 +21,16 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: En este artículo, aprenderá a crear, editar y administrar cuentas de recursos en Microsoft Teams.
-ms.openlocfilehash: 84ca7a68cfc620c5f62dbdd6308c1862a7e7bda7
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 8e271900958362934a51700b98f1ed944ace9f56
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249472"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180913"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
-Una cuenta de recursos es un objeto de usuario deshabilitado en Azure AD y se puede usar para representar recursos en general. Por ejemplo, una cuenta de recursos se puede usar en Exchange para representar salas de conferencias y permitirles tener un número de teléfono y un calendario. Una cuenta de recursos se puede albergar en Microsoft 365 local con Skype Empresarial Server 2019.
+Una cuenta de recurso es un objeto de usuario deshabilitado en Azure AD y se puede usar para representar recursos en general. Por ejemplo, una cuenta de recursos se puede usar en Exchange para representar salas de conferencias y permitirles tener un número de teléfono y un calendario. Una cuenta de recursos se puede albergar en Microsoft 365 local con Skype Empresarial Server 2019.
 
 En Microsoft Teams, se requiere una cuenta de recursos para cada operador automático o cola de llamadas. Las cuentas de recursos también pueden tener asignados números de teléfono de servicio. Así se asignan números de teléfono a operadores automáticos y colas de llamadas, lo que permite que los autores de llamadas de fuera de Teams lleguen al operador automático o a la cola de llamadas.
 
@@ -104,7 +104,7 @@ Si va a usar la cuenta de recursos con un operador automático o una cola de lla
 
 Para asignar un enrutamiento directo o un número híbrido a una cuenta de recursos, debe usar PowerShell:
 
-`Set-CsOnlineApplicationInstance -Identity aa-contoso_main@contoso64.net -OnpremPhoneNumber +19295550150`
+`Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting`
 
 ## <a name="next-steps"></a>Pasos siguientes
 
@@ -125,7 +125,7 @@ Si decide cambiar las licencias de su cuenta de recursos existente de una licenc
 > [!WARNING]
 > Quite siempre una licencia Sistema telefónico licencia completa y asigne la licencia de usuario virtual en la misma actividad de licencia. Si quita la licencia antigua, guarda los cambios de la cuenta, agrega la nueva licencia y, a continuación, vuelve a guardar la configuración de la cuenta, es posible que la cuenta de recursos ya no funcione según lo esperado. Si esto sucede, le recomendamos que cree una nueva cuenta de recursos para la licencia de usuario virtual y quite la cuenta de recursos rota.
 
-## <a name="skype-for-business-server-2019"></a>Skype Para Business Server 2019
+## <a name="skype-for-business-server-2019"></a>Skype Para Empresas Server 2019
 
 Para las cuentas de recursos de Skype For Business Server 2019 que se pueden usar con colas de llamadas en la nube y operadores automáticos en la nube, vea [Planear](/SkypeforBusiness/hybrid/plan-call-queue) colas de llamadas en la nube o Planear operadores automáticos en la [nube.](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant) Las implementaciones híbridas (números de enrutamiento directo) se configuran con el cmdlet [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) en un servidor local Skype Empresarial Server 2019.
 
@@ -135,7 +135,7 @@ Los IDs de aplicación que necesita usar al crear las instancias de la aplicaci�
 - **Cola de llamadas:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> Si desea que los usuarios de Skype Para Business Server 2019 puedan buscar la cola de llamadas o el operador automático, debe crear sus cuentas de recursos en Skype For Business Server 2019, ya que las cuentas de recursos en línea no se sincronizan con Active Directory. Cuando los registros SRV dns para sipfederationtls se resuelven en  Skype Empresarial Server 2019, las cuentas de recursos deben crearse en Skype For Business Server 2019 con el shell de administración de SfB y sincronizarse con Azure AD.
+> Si desea que los usuarios de Skype Para Business Server 2019 puedan buscar la cola de llamadas o el operador automático, debe crear sus cuentas de recursos en Skype For Business Server 2019, ya que las cuentas de recursos en línea no se sincronizan con Active Directory. Cuando los registros SRV dns para sipfederationtls se resuelven en  Skype Empresarial Server 2019, las cuentas de recursos deben crearse en Skype For Business Server 2019 con el shell de administración de SfB y sincronizarse Azure AD.
 
 Para implementaciones que son híbridas con Skype Empresarial Server:
 
@@ -155,5 +155,5 @@ Después de hacerlo, puede eliminar la cuenta de recursos en el Centro de admini
 Para desasociar un número de teléfono de enrutamiento directo de la cuenta de recursos, use el siguiente cmdlet:
 
 ```powershell
-Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
+Remove-CsPhoneNumberAssignment -Identity  <Resource Account oid> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
 ```

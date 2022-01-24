@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre las características, la disponibilidad y cómo planear y configurar Microsoft Teams Sistema telefónico para su empresa. '
-ms.openlocfilehash: f396d8fc3dd1e26a2969b825c360054db91071fa
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 1643e0fe9bd877f627ec186e405bb155635f9f74
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015260"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180943"
 ---
 # <a name="heres-what-you-get-with-teams-phone"></a>Esto es lo que obtienes con Teams Teléfono
 
@@ -40,7 +40,7 @@ Los clientes están disponibles para PC, Mac y dispositivos móviles, lo que pro
 
 Para usar Teams Teléfono características, su organización debe tener una Sistema telefónico licencia. Para obtener más información sobre las licencias, vea [Licencias complementarias de Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-Tenga en cuenta que la mayoría de las características requieren que asigne la Sistema telefónico licencia y asegúrese de que los usuarios están "habilitados para voz". Para asignar la licencia, use el [cmdlet Set-CsUser y](/powershell/module/skype/set-csuser?view=skype-ps) establezca el parámetro **enterprisevoiceenabled** en $true. Algunas características, como el operador automático en la nube, no requieren que un usuario tenga habilitada la voz. Las excepciones se llaman en la tabla siguiente.
+Tenga en cuenta que la mayoría de las características requieren que asigne la Sistema telefónico licencia y asegúrese de que los usuarios están "habilitados para voz". Para asignar la licencia, use el [cmdlet Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps) y establezca el parámetro **EnterpriseVoiceEnabled** en $true. Algunas características, como el operador automático en la nube, no requieren que un usuario tenga habilitada la voz. Las excepciones se llaman en la tabla siguiente.
   
 ## <a name="teams-phone-features"></a>Teams Teléfono características
 

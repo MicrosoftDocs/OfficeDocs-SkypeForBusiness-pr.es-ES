@@ -15,17 +15,17 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Obtenga información sobre cómo habilitar a los Teléfono Microsoft System Direct Routing.
-ms.openlocfilehash: b6eb9bf0930b9b8f78d13deca95349afd78ec5af
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Obtenga información sobre cómo habilitar a los usuarios Microsoft Teams Teléfono enrutamiento directo.
+ms.openlocfilehash: 1fc45484dfe2c0b78674f5a6631fd3f1001196dd
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627592"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180953"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilitar usuarios para enrutamiento directo, voz y correo de voz
 
-En este artículo se describe cómo habilitar usuarios para Sistema telefónico enrutamiento directo.  Este es el paso 2 de los pasos siguientes para configurar enrutamiento directo:
+En este artículo se describe cómo habilitar usuarios para enrutamiento directo. Este es el paso 2 de los pasos siguientes para configurar enrutamiento directo:
 
 - Paso 1. [Conectar el SBC con Teléfono Microsoft y validar la conexión](direct-routing-connect-the-sbc.md) 
 - **Paso 2. Habilitar usuarios para enrutamiento directo, voz y correo de voz**   (este artículo)
@@ -55,20 +55,20 @@ Para obtener información sobre los requisitos de licencia, vea [Licencias y otr
 
 ## <a name="ensure-that-the-user-is-homed-online"></a>Asegurarse de que el usuario está conectado 
 
-Este paso es aplicable a Skype Empresarial Server Telefonía IP empresarial usuarios habilitados que se migran a Teams enrutamiento directo.
+Este paso se aplica a Skype Empresarial Server Telefonía IP empresarial usuarios habilitados que se migran a Teams enrutamiento directo.
 
-Enrutamiento directo requiere que el usuario esté conectado. Para comprobarlo, consulte el parámetro RegistrarPool, que debe tener un valor en el infra.lync.com usuario. También se recomienda, pero no necesario, cambiar la administración de LineURI de local a online al migrar usuarios a Teams enrutamiento directo. 
+Enrutamiento directo requiere que el usuario esté conectado. Para comprobarlo, consulte el parámetro RegistrarPool, que debe tener un valor en el infra.lync.com usuario. Microsoft recomienda, pero no requiere, que cambie el LineURI de local a online al migrar usuarios a Teams enrutamiento directo. 
 
-1. Conectar una sesión Skype Empresarial PowerShell en línea.
+1. Conectar sesión Microsoft Teams PowerShell.
 
 2. Publique el comando: 
 
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    En caso de que OnPremLineUriManuallySet se establezca en False y LineUri se rellene con un número de teléfono de <E.164>, el número de teléfono se asignó localmente y se sincronizó en O365. Si desea administrar el número de teléfono en línea, limpie el parámetro con el Shell de administración local de Skype Empresarial y sincronice con O365, antes de configurar el número de teléfono con Skype Empresarial PowerShell en línea. 
+    Si OnPremLineUriManuallySet se establece en False y LineUri se rellena con un número de teléfono de <E.164>, el número de teléfono se asignó localmente y se sincronizó a Microsoft 365. Si desea administrar el número de teléfono en línea, limpie el parámetro con el Shell de administración local de Skype Empresarial y sincronice con Microsoft 365 antes de configurar el número de teléfono con Skype Empresarial PowerShell en línea. 
 
-1. Desde Skype Empresarial Shell de administración emite el comando: 
+1. Desde Skype Empresarial Shell de administración, ejecute el comando: 
 
    ```PowerShell
    Set-CsUser -Identity "<User name>" -LineUri $null
@@ -89,35 +89,35 @@ Enrutamiento directo requiere que el usuario esté conectado. Para comprobarlo, 
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online"></a>Configurar el número de teléfono y habilitar la voz empresarial y el correo de voz en línea 
 
-Después de crear el usuario y asignar una licencia, el siguiente paso es configurar la configuración del teléfono en línea del usuario. 
+Después de crear el usuario y asignar una licencia, debe configurar la configuración del teléfono en línea del usuario. 
 
  
-1. Conectar una sesión Skype Empresarial PowerShell en línea. 
+1. Conectar sesión Microsoft Teams PowerShell. 
 
 2. Si administra el número de teléfono del usuario local, ejecute el comando: 
 
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
     ```
 3. Si administra el número de teléfono del usuario en línea, ejecute el comando: 
  
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
+    Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber <phone number> -PhoneNumberType DirectRouting
     ```
     
     Por ejemplo, para agregar un número de teléfono para el usuario "Spencer Low", escriba lo siguiente: 
 
     ```PowerShell
-    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388797" -PhoneNumberType DirectRouting
     ```
     Si los usuarios "Spencer Low" y "Stacy Quinn" comparten el mismo número base con extensiones únicas, escriba lo siguiente
     
     ```PowerShell
-    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1001" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1002" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388701;ext=1001" -PhoneNumberType DirectRouting
+    Set-CsPhoneNumberAssignment -Identity "stacy.quinn@contoso.com" -PhoneNumber "+14255388701;ext=1002" -PhoneNumberType DirectRouting
     ```
 
-    Se recomienda, pero no necesario, que el número de teléfono usado esté configurado como un número de teléfono E.164 completo con código de país. Es compatible con configurar números de teléfono con extensiones que se usarán para buscar usuarios cuando la búsqueda en el número base devuelva más de un resultado. Esto permite a las empresas configurar números de teléfono con el mismo número base y extensiones únicas. Para que la búsqueda se realice correctamente, la invitación debe incluir el número completo con la extensión de la siguiente manera:
+    Microsoft recomienda, pero no requiere, que el número de teléfono esté configurado como un número de teléfono E.164 completo con código de país. Puede configurar números de teléfono con extensiones. Estas extensiones se usarán para buscar usuarios cuando la búsqueda en el número base devuelva más de un resultado. Esta funcionalidad permite a las empresas configurar números de teléfono con el mismo número base y extensiones únicas. Para que la búsqueda se realice correctamente, la invitación debe incluir el número completo con la extensión de la siguiente manera:
     ```PowerShell
     To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
     ```
@@ -128,7 +128,7 @@ Después de crear el usuario y asignar una licencia, el siguiente paso es config
 
 ## <a name="configure-sending-calls-directly-to-voicemail"></a>Configurar el envío de llamadas directamente al correo de voz
 
-Enrutamiento directo le permite finalizar la llamada a un usuario y enviarla directamente al correo de voz del usuario. Si desea enviar la llamada directamente al correo de voz, adjunte opaque=app:voicemail al encabezado Solicitar URI. Por ejemplo, "sip:user@yourdomain.com;opaque=app:voicemail". En este caso, Teams usuario no recibirá la notificación de llamada, la llamada se conectará directamente al correo de voz del usuario.
+Enrutamiento directo le permite finalizar la llamada a un usuario y enviarla directamente al correo de voz del usuario. Si desea enviar la llamada directamente al correo de voz, adjunte opaque=app:voicemail al encabezado Solicitar URI. Por ejemplo, "sip:user@yourdomain.com;opaque=app:voicemail". El Teams usuario no recibirá la notificación de llamada, la llamada se conectará directamente al correo de voz del usuario.
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Asignar Teams solo a los usuarios para asegurarse de que las llamadas se Microsoft Teams
 
