@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Obtenga información sobre cómo administrar directivas de seminario web para Teams reuniones.
-ms.openlocfilehash: 19918d7a32a9a5069dab8dc87011de6112bbe364
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 92970e754f50deffe34993a44fb92a2d5a7b5581
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205560"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192191"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurar seminarios web en Microsoft Teams
 
@@ -59,7 +59,7 @@ Si selecciona **Todos, todos** los usuarios, incluidos los usuarios anónimos, p
 
 ### <a name="engagement-report"></a>Informe de participación
 
-Si activa esta opción, los organizadores pueden ver informes de quién se registró y asistió a los seminarios web que configuraron. Esta directiva está desactivada de forma predeterminada. Para obtener más información, vea [Directivas de reunión en Teams - Informe de participación.](meeting-policies-in-teams-general.md#engagement-report) Para obtener información sobre la experiencia del usuario final, vea [Ver y descargar informes de asistencia a reuniones.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
+Cuando esto está en, los organizadores pueden ver informes de quién se registró y asistió a los seminarios web que configuraron. Esta directiva está predeterminada. Para obtener más información, vea [Directivas de reunión en Teams - Informe de participación.](meeting-policies-in-teams-general.md#engagement-report) Para obtener información sobre la experiencia del usuario final, vea [Ver y descargar informes de asistencia a reuniones.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>Permitir a los usuarios programar seminarios web con PowerShell
 
@@ -112,10 +112,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 
 ### <a name="collect-meeting-attendance"></a>Recopilar asistencia a la reunión
 
-Si desea que los organizadores analicen quién se registró y asistió a seminarios web, tendrá que activar la directiva **EngagementReport.** Para ello, ejecute el siguiente comando en PowerShell.
+El **parámetro AllowEngagementReport** le permite ver quién se registró y asistió a seminarios web. Esta directiva está activada de forma predeterminada. Para desactivarlo, ejecute el siguiente comando en PowerShell:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -EngagementReport Enabled
+Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
 ```
 
 ## <a name="configure-webinar-settings"></a>Configurar la configuración del seminario web

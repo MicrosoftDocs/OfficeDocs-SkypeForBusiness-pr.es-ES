@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c05888191c98e2b7fe11637ad8fe5ba8a8c1132
-ms.sourcegitcommit: 2ce417430b2aac770997daaf5ef5d844aa97fd84
+ms.openlocfilehash: b54ccf83aadcec724d8e54a791770578ef147bbd
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60911864"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191861"
 ---
 # <a name="manage-live-components-in-teams"></a>Administrar componentes activos en Teams
 
@@ -98,9 +98,9 @@ PS C:\\WINDOWS\\system32&gt;
 
 - Los componentes activos están deshabilitados en chats federados.
 
-- Los invitados B2B no podrán colaborar en componentes activos que se comparten con ellos a través de Company Share Link a menos que el inquilino establece la opción de acceso externo para permitir que los invitados B2B tengan el mismo nivel de acceso que los miembros del inquilino.
+- Los invitados B2B no podrán colaborar en un componente activo que se comparta con ellos a través de Company Share Link a menos que el inquilino establece una opción de acceso externo para permitir que los invitados B2B tengan el mismo nivel de acceso que los miembros del inquilino. Para obtener más información, vea [Configurar la configuración de colaboración externa B2B.](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings)
 
-- Teams La compatibilidad completa del cliente web con los componentes de Live estará disponible próximamente.
+- Teams soporte técnico completo del cliente web de los componentes de Live estará disponible próximamente.
 
 - Los componentes activos aún no son compatibles Teams canales, pero su edición en línea en canales está planeada para más experiencias en el futuro.
 

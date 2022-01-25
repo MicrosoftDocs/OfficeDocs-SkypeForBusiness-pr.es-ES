@@ -491,6 +491,8 @@ items:
         href: create-manager-directs-teams.md
       - name: Administrar las directivas de los equipos y los canales
         href: teams-policies.md
+      - name: Desactivar la directiva de carga de archivos nativos de Teams
+        href: turn-off-teams-native-file-upload-policy.md
       - name: Configurar la moderación de canales en Teams
         href: manage-channel-moderation-in-teams.md
       - name: Administrar componentes activos
@@ -1528,12 +1530,17 @@ items:
               - name: Administrar la aplicación Bookings
                 href: bookings-app-admin.md
           - name: Turnos para Teams
-            href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
             items:
+              - name: Introducción a Turnos
+                href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
               - name: Administrar la aplicación Turnos
                 href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
               - name: Administrar propietarios de programación para la administración de turnos
                 href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
+              - name: Conectores de Turnos
+                items:
+                  - name: Introducción a los conectores de Turnos
+                    href: expand-teams-across-your-org/shifts/shifts-connectors.md
       - name: Teams para Educación
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:

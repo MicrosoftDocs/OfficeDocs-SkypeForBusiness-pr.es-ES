@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: dfb36cd78923257d76ebe33069e6e4cc642e7e40
-ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
+ms.openlocfilehash: 02283da362baf520ab0c3d28d809dfee39c9b378
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60367538"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190681"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Planes de llamadas para Microsoft 365
 
@@ -67,9 +67,7 @@ Para obtener información detallada sobre los límites de uso y los términos de
     > Según tu plan, es posible que deba comprar más complementos antes de poder comprar Sistema telefónico licencias. Para obtener más información, [vea Microsoft Teams de complementos.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 2. Después de comprar Sistema telefónico licencias, puede comprar el Plan de llamadas iniciando sesión en el **Centro de administración de Microsoft 365,** elija Suscripciones de complemento de servicios de compra de facturación y, a continuación, haga clic en Comprar  >    >   **ahora.** Verá los Planes de llamadas allí.
-    
-    ![Captura de pantalla que muestra las opciones del plan de llamadas de voz.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
-  
+      
 Puede comprar y asignar planes de llamadas diferentes a diferentes usuarios, según las necesidades de su organización. Después de seleccionar el plan de llamadas que necesita, continúe con la desprotección. Asigne un plan a cada usuario de la Centro de administración de Microsoft 365. Para obtener más información, [vea Asignar Microsoft Teams de complementos.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>¿Tiene un proveedor de servicios que proporciona conectividad RTC local para usuarios híbridos?

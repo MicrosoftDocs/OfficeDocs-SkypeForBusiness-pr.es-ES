@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff8418a44ea8369d4659b6bb5978e3f4a1ce51d7
-ms.sourcegitcommit: 11061890a64da88d92db3fa43f1bf320b216c355
+ms.openlocfilehash: 9468047673f1832fdf9878bda123be181d21067c
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/21/2022
-ms.locfileid: "62163541"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190871"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guía para administradores de TI de Insights para el ámbito educativo en Microsoft Teams
 
@@ -140,7 +140,7 @@ Actualmente, estos datos se recolectan de las siguientes áreas en los equipos d
 > La mayoría de los datos recolectados se mostrarán en Insights en unos minutos. La asistencia a las reuniones de clase (reuniones asociadas con uno de los canales de clase) aparecerá unas horas después del final de la reunión, normalmente hasta 24 horas después.
 
 > [!NOTE]
-> Los datos recopilados en Insights para Educación se conservan hasta que el administrador de TI desactiva el botón de alternancia de [Education Analytics](#Tturn-sds-for-insights-on-or-off) o finaliza la suscripción de Office del espacio empresarial. Desactivar características específicas en Teams no eliminará los datos históricos.
+> Los datos recopilados en Insights para Educación se conservan hasta que el administrador de TI desactiva el botón de alternancia de [Education Analytics](#turn-sds-for-insights-on-or-off) o finaliza la suscripción de Office del espacio empresarial. Desactivar características específicas en Teams no eliminará los datos históricos.
 
 ### <a name="privacy-and-security"></a>Privacidad y seguridad
 La información que se recolecta y se muestra a través de Insights cumple con [más de 90 estándares normativos y del sector](/compliance/regulatory/offering-home), incluidos [RGPD](/compliance/regulatory/gdpr) y la [Ley de Derechos Educativos y Privacidad de la Familia (FERPA)](/compliance/regulatory/offering-ferpa) para la seguridad de los alumnos y niños, así como otras normas similares y orientadas a la privacidad.

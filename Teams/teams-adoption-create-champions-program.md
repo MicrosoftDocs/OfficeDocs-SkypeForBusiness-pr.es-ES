@@ -21,12 +21,12 @@ f1.keywords:
 description: Aprenda a formar a un equipo de campeones para promover Teams adopción mediante concienciación, adopción y educación en su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4b79cd1d9e00441681cad77a621f382d4238341
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 989525f627a4d8c6ef18f1e17cab9446d85a0a88
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842552"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190891"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Crear su programa para expertos para Microsoft Teams
 
@@ -43,7 +43,7 @@ Los campeones deben:
 - Tener un reforzamiento coherente y positivo que afirme el impacto de sus esfuerzos
 - Tener un plan claro para ejecutar
 
-Use nuestra [Guía del programa Campeones](https://go.microsoft.com/fwlink/?linkid=854665) para crear este programa en su organización. Nuestros procedimientos recomendados para esta comunidad son:
+Use nuestra [Guía del programa Campeones](https://aka.ms/M365Champions) para crear este programa en su organización. Nuestros procedimientos recomendados para esta comunidad son:
 
 - Unirse al [Programa de campeones.](https://aka.ms/O365Champions) Asegúrese de que, como mínimo, los líderes del programa Campeones (y posiblemente todos los campeones de la compañía) sean miembros del programa. Esta llamada de comunidad mensual gratuita proporcionará información valiosa para ejecutar su propio programa y sacar el máximo partido de Teams y otros Microsoft 365 o Office 365 servicios. Los materiales del programa se pueden reutilizar en su propio programa interno.
 

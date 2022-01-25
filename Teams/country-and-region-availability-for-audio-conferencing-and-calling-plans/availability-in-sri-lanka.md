@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Sri Lanka.
-ms.openlocfilehash: c493199d163b2ffcbb14cd81f63d4ba492e6d044
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba5ae750e21a2fee49ea4c506e2214a224d3d69a
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584714"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191091"
 ---
 # <a name="availability-in-sri-lanka"></a>Disponibilidad en Sri Lanka
 
@@ -43,7 +43,7 @@ Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Team
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Se asignan números de teléfono automáticamente para las audioconferencias?  <br/> | Los números de teléfono no se vinculan a una ciudad o ubicación específica. Si desea números de teléfono dedicados, vea Obtener números de teléfono de servicio para Skype Empresarial[y Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> | Los números de teléfono no se vinculan a una ciudad o ubicación específica. Si desea números de teléfono dedicados, vea Obtener números de teléfono de servicio para Skype Empresarial[y Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicaciones  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
@@ -63,7 +63,7 @@ Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Team
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
 
-Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el [enrutamiento directo del sistema telefónico](../direct-routing-landing-page.md). Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier proveedor de servicios de telefonía.
+Si los planes de llamadas no están disponibles para la compra, consulte [Opciones de conectividad RTC](../pstn-connectivity.md) para todas las opciones disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 

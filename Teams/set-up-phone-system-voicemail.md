@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar Correo de voz en la nube para los usuarios.
-ms.openlocfilehash: f448ba79c2451383c0ca85916309bdfab3b69a96
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: cf4edb7043c3d9965f2f01710f1ed9e7fa7f96b8
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462374"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191081"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar el Correo de voz en la nube
 
-Este artículo es para el administrador Microsoft 365 o Office 365 como se describe en Acerca de los [roles](/microsoft-365/admin/add-users/about-admin-roles) de administrador que desea configurar la característica Correo de voz en la nube para todos los usuarios de la empresa. Correo de voz en la nube requiere Exchange buzones de correo de voz para los usuarios en los que deposita mensajes de correo de voz. No es compatible con sistemas de correo electrónico de terceros.
+Este artículo es para el administrador Microsoft 365 o Office 365 como se describe en Acerca de los [roles](/microsoft-365/admin/add-users/about-admin-roles) de administrador que desea configurar la característica Correo de voz en la nube para todos los usuarios de la empresa. Correo de voz en la nube requiere Exchange buzones de correo de voz para los usuarios en los que deposita mensajes de correo de voz. No es compatible con sistemas de correo electrónico de terceros. Para Exchange Online requisitos de licencia, [consulta Exchange Online descripción del servicio](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#features-available-to-all-plans)
 
 ## <a name="cloud-voicemail-for-teams-users"></a>Correo de voz en la nube para Teams usuarios
 

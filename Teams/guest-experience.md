@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Este artículo describe la funcionalidad de Microsoft Teams disponible para los invitados.
-ms.openlocfilehash: c58e70896c14719e9aa0289ef0cf6d636393d09d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5d8bb9ab670da0a4002f69cf5ddec9f245cd9c13
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774580"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190701"
 ---
 # <a name="guest-experience-in-teams"></a>Experiencia de invitado en Teams
 
@@ -37,8 +37,8 @@ Todos los miembros del equipo ven un mensaje en el hilo del canal en el que se a
 ![Captura de pantalla que muestra una etiqueta que indica el número de invitados del equipo.](media/guest-experience-image2.png)
 
 Consulte los siguientes vídeos sobre la experiencia de invitado en Teams:
-- [Unirse a un equipo como invitado](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [Unirse a una reunión de Teams con invitados](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+- [Unirse a Teams reunión como invitado](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
+- [Trabajar con invitados externos en una Teams reunión](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Comparación entre las funciones de los miembros del equipo y los invitados
 

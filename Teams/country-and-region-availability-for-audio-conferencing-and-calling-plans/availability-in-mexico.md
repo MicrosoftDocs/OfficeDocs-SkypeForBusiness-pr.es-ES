@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: A continuación se indican los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para México.
-ms.openlocfilehash: efc448f7b0f9aaf2f9ed2204faf7596c0b6e4ff5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: abcb2da283d6e2c2fee8154d47e093524dd08d35
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613659"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191891"
 ---
 # <a name="availability-in-mexico"></a>Disponibilidad en México
 
@@ -63,7 +63,7 @@ A continuación se indican los servicios de Microsoft 365 y Office 365 para Skyp
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
 
-Si no se pueden comprar planes de llamadas, considere la posibilidad de usar el [enrutamiento directo del sistema telefónico](../direct-routing-landing-page.md). Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier proveedor de servicios de telefonía.
+Si los planes de llamadas no están disponibles para la compra, consulte [Opciones de conectividad RTC](../pstn-connectivity.md) para todas las opciones disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 

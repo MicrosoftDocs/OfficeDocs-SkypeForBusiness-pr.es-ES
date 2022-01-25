@@ -21,12 +21,12 @@ description: Obtenga información sobre cómo usar y administrar directivas de e
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 582036d6168a235744b092f7f11bfd34442f5221
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: f04204377f4b90f5a96143e579863f4acdbf3989
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634919"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190901"
 ---
 # <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>Administrar directivas de enrutamiento de llamadas de emergencia para enrutamiento directo
 
@@ -50,7 +50,7 @@ Si asignó una directiva de enrutamiento de llamadas de emergencia a un sitio de
 3. Escriba un nombre y una descripción para la directiva.
 4. Para habilitar las llamadas de emergencia dinámicas, active **Llamadas de emergencia dinámicas.** Cuando las llamadas de emergencia dinámicas están habilitadas, Teams recupera información de directiva y ubicación del servicio e incluye esa información como parte de la llamada de emergencia.
 5. Defina uno o varios números de emergencia. Para ello, en **Números de emergencia,** haga clic **en Agregar** y, a continuación, haga lo siguiente:
-    1. **Cadena de marcado de emergencia:** escriba la cadena de marcado de emergencia. Esta cadena de marcado indica que una llamada es una llamada de emergencia.
+    1. **Cadena de marcado de emergencia:** escriba la cadena de marcado de emergencia. Esta cadena de marcado indica que una llamada es una llamada de emergencia y que el patrón de ruta debe coincidir exactamente con esta cadena de marcado. 
         > [!NOTE]
         > **Para enrutamiento directo, Teams clientes ya no envían llamadas de emergencia con un "+" delante de la cadena de marcado de emergencia. Asegúrese de que el patrón de ruta de voz para que coincida con una cadena de marcado de emergencia refleja este cambio.**
     2. **Máscara de marcado de** emergencia: para cada número de emergencia, puede especificar cero o más máscaras de marcado de emergencia. Una máscara de marcado es el número que desea traducir al valor de la cadena de marcado de emergencia. Esto permite que se marquen números de emergencia alternativos y que la llamada llegue a los servicios de emergencia. <br>Por ejemplo, agregue 112 como máscara de marcado de emergencia, que es el número de servicio de emergencia de la mayor parte de Europa, y 911 como cadena de marcado de emergencia. Un Teams de Europa que está de visita puede no saber que el 911 es el número de emergencia en Los Estados Unidos y, cuando llaman al 112, la llamada se realiza al 911. Para definir varias máscaras de marcado, separe cada valor por punto y coma. Por ejemplo, 112;212.

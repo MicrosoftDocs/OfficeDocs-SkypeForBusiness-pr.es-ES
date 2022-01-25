@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo administrar la configuración general de la directiva de reunión en Teams.
-ms.openlocfilehash: db1515b016aec47190c26305656b205a56e13b23
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 1bf4958f74a95775d6d34c87ea6d7d65262530e4
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562878"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191481"
 ---
 # <a name="meeting-policy-settings---general"></a>Configuración de la directiva de reunión. Aspectos generales
 
@@ -59,7 +59,7 @@ Si desactiva esta opción, los usuarios no podrán programar Teams reuniones cua
 
 ## <a name="channel-meeting-scheduling"></a>Programación de reuniones del canal
 
-Use la Directiva AllowChannelMeetingScheduling existente para controlar los tipos de eventos que se pueden crear en los calendarios del canal del equipo. Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede programar una reunión en un canal de Teams. Esta configuración está activada de forma predeterminada. 
+Use la Directiva AllowChannelMeetingScheduling existente para controlar los tipos de eventos que se pueden crear en los calendarios del canal del equipo. Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede programar una reunión en un canal de Teams. Esta configuración está activada de forma predeterminada.
 
 Si esta directiva está desactivada, los usuarios no podrán crear nuevas reuniones de canal. Sin embargo, el organizador del evento puede editar las reuniones de canal existentes.
 
@@ -124,19 +124,18 @@ Tenga en cuenta que, después de establecer el valor predeterminado, los organiz
 
 Esta es una directiva por usuario. Esta configuración controla si los organizadores de reuniones pueden descargar el [informe de asistencia a reuniones](teams-analytics-and-reports/meeting-attendance-report.md).
 
-Esta directiva está desactivada de forma predeterminada y permite a los organizadores ver quién se registró y asistió a las reuniones y seminarios web que han configurado. Para activar esta opción en el centro de administración Teams, vaya a Directivas de reunión de reuniones y establezca la configuración del informe de participación  >  en **Habilitado.** 
+Esta directiva está establecida de forma predeterminada y permite a los organizadores ver quién se registró y asistió a las reuniones y seminarios web que han configurado. Para desactivarlo en el centro de administración de Teams, vaya a Directivas de reunión de reuniones y establezca la configuración del informe de participación  >  en **Desactivado.** 
 
 También puede editar una directiva de reunión Teams mediante el cmdlet [Set-CsTeamsMeetingPolicy.](/powershell/module/skype/set-csteamsmeetingpolicy) También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
 
-Para permitir que un organizador de la reunión descargue el informe de asistencia a la reunión, establezca el parámetro **AllowEngagementReport** en **Habilitado.** Cuando se habilita, la opción para descargar el informe se muestra en el panel **Participantes**. De forma predeterminada, esta configuración no está habilitada.
+De forma predeterminada, **el parámetro AllowEngagementReport** se establece en **Habilitado** en PowerShell. Para evitar que un organizador de la reunión descargue el informe de asistencia a la reunión, establezca el parámetro **AllowEngagementReport** en **Deshabilitado.**
 
-Para impedir que el organizador de la reunión descargue el informe, establezca el parámetro en **Deshabilitado**.
+Cuando esta directiva está habilitada, la opción para descargar el informe de asistencia a la reunión se muestra en el **panel Participantes.**
 
 > [!NOTE]
 > Como administrador, no puede ver el informe de asistencia para las reuniones que no organice. Sin embargo, puede ver los detalles de los participantes de una reunión determinada dentro de las 24 horas siguientes a esa reunión. En el Teams de administración, vaya a **Usuarios**  >  **Administrar usuarios.** Elija el nombre para mostrar del organizador de la reunión. Seleccione la **pestaña Reuniones & llamadas** y, a continuación, elija el id. de reunión o id. de llamada adecuado. A continuación, seleccione **Detalles del participante**.
 
 Para obtener más información, incluidos los límites del informe de participación, vea Ver y descargar informes de asistencia a reuniones [en Teams](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
-
 
 ## <a name="meeting-registration"></a>Registro de reunión
 

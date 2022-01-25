@@ -1,5 +1,5 @@
 ---
-title: Teams Centro de contacto
+title: Teams de contacto
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -13,12 +13,12 @@ f1.keywords:
 description: Información general sobre el centro de contacto integrado como solución de servicio (CCaaS) para Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eea312f8943e05b870f7e72409e551869c950c4e
-ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
+ms.openlocfilehash: 52abf252d82b8208a0474d2393bd6d3938eaacb7
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58864210"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192171"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integraciones del centro de contacto para Microsoft Teams
 
@@ -70,6 +70,7 @@ Los siguientes proveedores ofrecen soluciones de centro de contacto que se integ
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
+| 'Heedify' | https://heedify.io/call-center/                                                 |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
