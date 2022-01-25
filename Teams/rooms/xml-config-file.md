@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Administración remota de la configuración predeterminada que usa un dispositivo Salas de Microsoft Teams, incluida la aplicación de un tema personalizado y la creación de un archivo de configuración principal.
-ms.openlocfilehash: 57702fb995c05766bf8a65f17b2c56356d267924
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 01ecdd5a960978e15e7c21d5f5e7fe6707437a42
+ms.sourcegitcommit: e0e3c83cea2662057ee2f3f2a429c7831c3d917a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015060"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62213499"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar de forma remota una configuración de consola de Salas de Microsoft Teams con un archivo de configuración XML
 
@@ -62,6 +62,8 @@ Cualquier editor de texto se puede usar para crear un archivo de configuración.
   <DualScreenMode>0</DualScreenMode>
   <DuplicateIngestDefault>true</DuplicateIngestDefault>
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
+  <FrontRowEnabled>true</FrontRowEnabled>
+  <DefaultFoRExperience>0</DefaultFoRExperience>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>True</SendLogsAndFeedback>
@@ -75,13 +77,13 @@ Cualquier editor de texto se puede usar para crear un archivo de configuración.
     <ContentCameraInverted>false</ContentCameraInverted>
   </Devices>
   <Theming>
-   <ThemeName>Custom</ThemeName>
-   <CustomThemeImageUrl>file name</CustomThemeImageUrl>
-   <CustomThemeColor>
-   <RedComponent>100</RedComponent>
-   <GreenComponent>100</GreenComponent>
-   <BlueComponent>100</BlueComponent>
-  </CustomThemeColor>
+       <ThemeName>Custom</ThemeName>
+       <CustomThemeImageUrl>file name</CustomThemeImageUrl>
+       <CustomThemeColor>
+            <RedComponent>100</RedComponent>
+            <GreenComponent>100</GreenComponent>
+            <BlueComponent>100</BlueComponent>
+       </CustomThemeColor>
   </Theming>
   <CoordinatedMeetings enabled="true">
     <TrustedAccounts>username1@microsoft.com,username2@contoso.com</TrustedAccounts>
@@ -124,6 +126,8 @@ Si un valor de variable es del tipo incorrecto, los elementos no están en orden
 | \<DualScreenMode\>                          | Valor booleano &#x2777;            | Primer &#x2776; | Si es true, el modo de pantalla doble está habilitado. De lo contrario, el dispositivo usa el modo de pantalla única.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | \<DuplicateIngestDefault\>                  | Valor booleano &#x2777;            | Primer &#x2776; | Si es verdadero, el contenido se muestra en ambas pantallas en modo de pantalla doble, cuando no se reúne.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | \<DisableTeamsAudioSharing\>                | Valor booleano &#x2777;            | Primer &#x2776; | Establezca en true para deshabilitar el uso compartido de audio HDMI a los participantes de la reunión Teams reunión. El valor predeterminado es False.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| \<FrontRowEnabled>                          | Valor booleano &#x2777;            | Primer &#x2776; | Está habilitado de forma predeterminada. Si es falso, Front Row está deshabilitado.
+| \<DefaultFoRExperience>                     | Valor booleano &#x2777;            | Primer &#x2776; | Vista galería de forma predeterminada. Coloque 1 para cambiar el diseño predeterminado de la vista Galería a la fila frontal.
 | \<CortanaWakewordEnabled\>                  | Valor booleano &#x2777;            | Primer &#x2776; | Establezca en true para habilitar la Cortana de activación "Hola Cortana". Esta configuración no tiene ningún efecto a menos que el servicio de Cortana sea compatible en su país o región y el periférico de audio conectado admita Cortana. El valor predeterminado es False.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | \<SendLogs\>                                | Contenedor                   | Primer &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | Cadena &#x2778;            |                | Establece una dirección de correo electrónico opcional a la que se pueden enviar los registros cuando aparece la ventana "Enviar comentarios".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |

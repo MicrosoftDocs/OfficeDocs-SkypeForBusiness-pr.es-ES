@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la Salas de Microsoft Teams, que incluyen mejoras acumulativas en Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 19f84d3b6ea6e290012acd0d41e167b95d901796
-ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
+ms.openlocfilehash: 6ec4bfe81d3dfbcee8cbd6d8682360e2a31c17e4
+ms.sourcegitcommit: e0e3c83cea2662057ee2f3f2a429c7831c3d917a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "61426082"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62213509"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de la versión de Salas de Microsoft Teams
 
@@ -29,6 +29,7 @@ En este artículo se deba a las mejoras acumulativas Salas de Microsoft Teams.
 
 |Versión |Publicado en <br/> Microsoft Store |
 |--- |--- |
+|4.11.12.0 |1/24/2022 |
 |Teams Web-Client versión | Diciembre de 2021 |
 |Teams Web-Client versión | Octubre de 2021 |
 |4.10.10.0 |10/1/2021 |
@@ -77,6 +78,26 @@ En este artículo se deba a las mejoras acumulativas Salas de Microsoft Teams.
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas de Microsoft Teams de características y resolución de problemas
+
+### <a name="411120-1242022"></a>4.11.12.0 (1/24/2022)
+
+Se ha introducido en esta actualización:
+- Diseño de fila frontal (vista previa) para MTR en Windows<sup>1</sup> 
+- Configuración de administrador para establecer el diseño de fila frontal como predeterminado  
+- Reunirse ahora y llamar a la actualización de la aplicación solo Teams, Teams modos de cliente<sup>predeterminados 1,2</sup>
+- Cambiar entre varias cámaras de vídeo Teams reuniones<sup>1</sup> 
+- Configuración predeterminada de la cámara de vídeo 
+- Cortana icono de inserción a conversación en la consola MTR 
+- Azure AD Premium 1 licencia en Room Standard y Premium SKU 
+- AAD de acceso condicional<sup>admiten 3</sup> 
+- Cortana activación de voz habilitada de forma predeterminada en OOBE 
+
+> <sup>1</sup> Estas características se están implementando con Teams web y se completarán en las próximas semanas. Obtenga más información [sobre Teams actualizaciones para](../teams-client-update.md) obtener más información.
+> 
+> <sup>2</sup> Teams salas en Windows que se ejecutan solo en Microsoft Teams o Skype Empresarial y Microsoft Teams (predeterminado) se actualizan con nuevas experiencias de reunión y llamada, pero otros modos no se verán afectados por esta actualización.
+> 
+> <sup>3 Vea</sup> detalles de adición sobre cómo configurar AAD [de acceso condicional](../rooms/rooms-authentication.md#azure-ad-conditional-access) para Salas de Teams.
+> 
 
 ### <a name="teams-rooms-web-client-update-december-2021"></a>Salas de Teams de cliente web (diciembre de 2021)
 
