@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Obtenga información sobre cómo administrar directivas de seminario web para Teams reuniones.
-ms.openlocfilehash: 92970e754f50deffe34993a44fb92a2d5a7b5581
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 5536a6c03df15be349edea7d980932b5fc0173ab
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192191"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224007"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurar seminarios web en Microsoft Teams
 
@@ -65,9 +65,9 @@ Cuando esto está en, los organizadores pueden ver informes de quién se registr
 
 Puede usar los siguientes atributos dentro del cmdlet **Set-CsTeamsMeetingPolicy de Windows PowerShell set-CsTeamsMeetingPolicy** para configurar seminarios web en Teams.
 
-- MeetingRegistration
+- AllowMeetingRegistration
 - WhoCanRegister
-- PrivateMeetingScheduling
+- AllowPrivateMeetingScheduling
 
 Lea [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para obtener más información sobre el cmdlet.
 
@@ -76,21 +76,21 @@ Lea [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy
 
 ### <a name="allow-users-to-schedule-webinars"></a>Permitir a los usuarios programar seminarios web
 
-Puede restringir el registro solo a los usuarios de su organización o abrirlo a todos los usuarios, tanto dentro como fuera de su inquilino. De forma predeterminada, **WhoCanRegister** está habilitado y establecido en **Todos** para la **directiva global (predeterminada para** toda la organización). Si desea desactivar el registro de la reunión, establezca **MeetingRegistration en** **False**.
+Puede restringir el registro solo a los usuarios de su organización o abrirlo a todos los usuarios, tanto dentro como fuera de su inquilino. De forma predeterminada, **WhoCanRegister** está habilitado y establecido en **Todos** para la **directiva global (predeterminada para** toda la organización). Si desea desactivar el registro de la reunión, establezca **AllowMeetingRegistration** en **False**.
 
 > [!IMPORTANT]
-> **PrivateMeetingScheduling** debe establecerse en **True** para **que MeetingRegistration** funcione.
+> **AllowPrivateMeetingScheduling** debe establecerse en **True** para **que AllowMeetingRegistration** funcione.
 
 1. Activar el registro de la reunión
 
 ```powershell
-Set-CsTeamsMeetingPolicy -MeetingRegistration $True
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
 
 2. Activar la programación de reuniones privadas
 
 ```powershell
-Set-CsTeamsMeetingPolicy -PrivateMeetingScheduling $True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 3. Configurar quién puede registrarse en seminarios web

@@ -1539,7 +1539,7 @@ items:
                 href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
               - name: Conectores de Turnos
                 items:
-                  - name: Introducción a los conectores de Turnos
+                  - name: Información general
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
       - name: Teams para Educación
         href: expand-teams-across-your-org/teams-for-education-landing-page.md

@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: Aprenda a administrar la configuración de directiva de reunión en Teams para la grabación y transcripción.
-ms.openlocfilehash: c89fc88c46ae8b614021417ab2aa02832f64fce1
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ee558ae87d7bea781cae3d2bc267f82bc1fdb18a
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973288"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224077"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>Configuración de directiva de reunión para grabar & transcripción
 
@@ -35,7 +35,9 @@ En este artículo se describen las opciones de directiva de reunión específica
 
 ## <a name="allow-transcription"></a>Permitir transcripción
 
-Esta es una combinación de directiva por organizador y por usuario. Esta configuración controla si se pueden usar las características de subtítulos y transcripción durante la reproducción de las grabaciones de la reunión. Si desactiva esta configuración, las opciones **Buscar** y **CC** no estarán disponibles durante la reproducción de una grabación de reunión. La persona que ha iniciado la grabación necesita que esta opción esté activada para que la grabación también incluya transcripción.
+Esta es una combinación de directiva por organizador y por usuario. Esta configuración controla si se pueden usar las características de subtítulos y transcripción durante la reproducción de las grabaciones de la reunión. La persona que inició la grabación necesita esta configuración activada para que estas características funcionen con su grabación.
+
+Al activar esta configuración, se crea una copia de la transcripción que se almacena con la grabación de la reunión que habilita **Buscar,** **CC** y **transcripciones** en la grabación de la reunión.
 
 Actualmente, la transcripción de las reuniones grabadas solo es compatible con los usuarios que establecen su idioma o hablan inglés en Teams reuniones.
 
