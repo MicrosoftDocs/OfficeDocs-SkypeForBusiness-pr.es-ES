@@ -19,12 +19,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9f10a35e3be27b446fa7f55b5c9d97e3418fe36
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: a067488736a1392ac34259ba77518c299c46d203
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056090"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224017"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -143,8 +143,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 >```
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Activar o desactivar la transcripción de grabaciones
-
-Esta configuración controla si se pueden usar las características de subtítulos y transcripción durante la reproducción de las grabaciones de la reunión. Si desactiva esta opción, las opciones de **Búsqueda** y **CC** no estarán disponibles durante la reproducción de la grabación de una reunión. La persona que ha iniciado la grabación necesita que esta opción esté activada para que la grabación también incluya transcripción.
+Esta configuración controla si se pueden usar las características de subtítulos y transcripción durante la reproducción de las grabaciones de la reunión. La persona que inició la grabación necesita esta configuración activada para que estas características funcionen con su grabación.
+  
+Al activar esta opción, se crea una copia de la transcripción que se almacena con la grabación de la reunión, lo que habilita **Búsqueda**, **CC** y **transcripciones** en la grabación de la reunión.
 
 > [!NOTE]
 > Actualmente, esa transcripción para reuniones grabadas solo se admite para inglés (EE. UU.), inglés (Canadá), inglés (India), inglés (Reino Unido), inglés (Australia), inglés (Nueva Zelanda), alemán (Alemania), portugués (Brasil), neerlandés (Países Bajos), neerlandés (Bélgica), francés (Francia), español (España), japonés (Japón), francés (Canadá), chino (cantonés, tradicional), chino (mandarín, simplificado), hindi (India), italiano (Italia), coreano (Corea), español (México), sueco (Suecia), Polaco (Polonia), árabe (Emiratos Árabes Unidos), árabe (Arabia Saudí), danés (Dinamarca), finés (Finlandia), noruego (Noruega) y ruso (Rusia). Se almacenan junto con las grabaciones de reuniones en OneDrive para la Empresa y el almacenamiento en la nube de SharePoint Online.
@@ -259,7 +260,7 @@ El tamaño de una grabación de 1 hora es de 400 MB. Asegúrese de entender la c
 
 Obtenga más información sobre los cambios específicos del administrador [aquí](meeting-expiration.md#changes-to-meeting-expiration).
 
-Obtenga más información sobre cómo los usuarios finales pueden administrar la expiración de la reunión [aquí](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
+Obtenga más información sobre cómo los usuarios finales pueden administrar la expiración de reuniones [aquí](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
   
 Vea las preguntas más frecuentes para que los administradores y los usuarios finales recopilen información sobre cómo funcionará la expiración automática de las grabaciones de reuniones de Teams, qué acciones puede realizar ahora y qué acciones puede realizar después de que se inicie la característica.
   
@@ -408,7 +409,7 @@ Los subtítulos ayudan a crear contenido inclusivo para espectadores de todas la
 
 En estos momentos, los subtítulos del archivo de vídeo de la grabación están vinculados a la transcripción de la reunión de Teams. Este vínculo se conservará mientras que el archivo siga existiendo, pero se puede romper si el archivo de vídeo se copia en el mismo OneDrive para la Empresa o sitio de SharePoint Online, lo que provocaría que los subtítulos no estuvieran disponibles en el archivo de vídeo copiado.
 
-Cualquier cambio futuro que se realice en el vínculo entre la transcripción en Teams y la grabación se explica aquí y en las notificaciones del centro de mensajes. Si se realiza cualquier cambio en el futuro, nos aseguraremos de que los archivos de grabación con menos de 60 días de antigüedad muestren la transcripción de la reunión como subtítulos.
+Cualquier cambio futuro que se realice en el vínculo entre la transcripción en Teams y la grabación se explica aquí y en las notificaciones del centro de mensajes. Si realizamos algún cambio en el futuro, nos aseguraremos de que los archivos de grabación con menos de 60 días de antigüedad muestren la transcripción de la reunión como subtítulos.
 
 > [!NOTE]
 > La transcripción de reuniones aún no está disponible en GCC.
