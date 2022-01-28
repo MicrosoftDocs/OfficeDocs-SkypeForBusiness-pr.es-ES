@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre el control de acceso basado en roles con el Salas de Microsoft Teams administrado.
 f1keywords: ''
-ms.openlocfilehash: 9b1a3a770c8b56c9d9ed3b589fa13163d955c294
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c7594a04dbb1a36b60f3105c663cff3934ffd3c1
+ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728079"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62248671"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Control de acceso basado en roles con el Salas de Microsoft Teams administrado
 
@@ -74,9 +74,22 @@ En la tabla siguiente se resume lo que cada rol puede hacer.
 |Administración de roles    |Ver         |&#10004;           |         ||
 |    |Modificar         |&#10004;           |         ||
 
+## <a name="create-a-custom-role"></a>Crear un rol personalizado
+
+Si los roles integrados no se adaptan a sus necesidades organizativas, puede crear un rol y configurar sus permisos según lo desee. Para crear un rol, debe ser administrador global o administrador de servicios administrados. 
+
+1. En el panel de navegación izquierdo del Salas de Microsoft Teams de servicio administrado, vaya a **Configuración**  >  **Roles.**
+2. Seleccione **Crear rol**.
+3. En la **página Configuración general,** en **Propiedades del rol,** escriba un nombre para este rol. En **Descripción**, escriba detalles sobre este rol. Elija **Siguiente**.
+4. En la **página Permisos,** en Permisos de **rol,** seleccione los permisos para este rol seleccionando las casillas correspondientes. Elija **Siguiente** para crear la primera tarea para este rol.
+5. En la **página Tareas,** en **Propiedades de asignación,** escriba un nombre para esta tarea. La descripción es opcional. En **Configuración de notificaciones,** active la casilla Notificaciones de correo electrónico si los usuarios de  este rol deben recibir notificaciones por correo electrónico del servicio en salas del ámbito de esta tarea.  Elija **Siguiente**.
+6. En  la página Miembros, en el cuadro Buscar usuario o grupo de seguridad, escriba el nombre de un usuario o grupo de seguridad en el espacio empresarial al que desea conceder permisos y, después, complete la selección.  Elija **Siguiente**. 
+7. En la **página Ámbito,** en el cuadro Buscar salón o grupo de salón, escriba el nombre de un salón o grupo de salón que el usuario podrá administrar.  Elija **Siguiente**.
+8. En la **página Finalizar,** revise los detalles del rol y la tarea. Si está satisfecho con la configuración, elija **Agregar nuevo rol.** Si desea editar una sección, use el **botón** Anterior o seleccione el paso en la navegación izquierda.  
+
 ## <a name="assign-a-role"></a>Asignar un rol
 
-Para asignar roles, debe ser administrador global o administrador de servicios administrados.
+Para asignar roles, debe ser administrador global o administrador de servicios administrados o tener un rol con permisos de administración de roles.
 
 1. En el panel de navegación izquierdo del Salas de Microsoft Teams de servicio administrado, vaya a **Configuración**  >  **Roles.**
 
@@ -87,7 +100,7 @@ Para asignar roles, debe ser administrador global o administrador de servicios a
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="Captura de pantalla de la opción Agregar para agregar un rol.":::
 
-4. En la **página Configuración general,** en **Propiedades de asignación,** escriba un nombre para esta tarea. La descripción es opcional. Elija **Siguiente.**
+4. En la **página Configuración general,** en **Propiedades de asignación,** escriba un nombre para esta tarea. La descripción es opcional. En **Configuración de**  notificaciones, active la casilla Notificaciones de correo electrónico si los usuarios de  este rol deben recibir notificaciones por correo electrónico del servicio en salas del ámbito de esta tarea. Elija **Siguiente**. 
 5. En  la página Miembros, en el cuadro Buscar usuario o grupo de seguridad, escriba el nombre de un usuario o grupo de seguridad en el espacio empresarial al que desea conceder permisos y, después, complete la selección.  Elija **Siguiente**. 
 6. En la **página Ámbito,** en el cuadro Buscar salón o grupo de salón, escriba el nombre de un salón o grupo de salón que el usuario podrá administrar.  Elija **Siguiente**.
 7. En la **página Finalizar,** revise los detalles de la tarea. Si está satisfecho con la configuración, elija **Agregar tarea.** Si desea editar una sección, use el **botón** Anterior o seleccione el paso en la navegación izquierda.  

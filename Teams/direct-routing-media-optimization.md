@@ -16,12 +16,12 @@ f1.keywords:
 description: Optimización de medios locales para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e30b5928fb775453db9a4b149f4f464b30401a80
-ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
+ms.openlocfilehash: 73c52cbfc632c61b281ec156ebfe8439a8900f06
+ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866402"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62248681"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planear la optimización de medios locales para enrutamiento directo
 
@@ -57,7 +57,7 @@ Para esta discusión, suponga que Contoso ejecuta varias empresas en todo el mun
 
 - **En la región de APAC,** Contoso tiene varias oficinas en diferentes países. 
 
-  En muchos países, la compañía todavía tiene troncos de multiplexación de divisiones de tiempo (TDM) en sucursales locales. La centralización de los troncos TDM no es una opción en la región APAC, por lo que no es posible cambiar a SIP. Suponga que hay más de cincuenta sucursales de Contoso en toda la región de APAC con cientos de puertas de enlace (SBC). En este escenario, no es posible emparejar todas las puertas de enlace a la interfaz de enrutamiento directo debido a la falta de direcciones IP públicas o saltos de Internet locales. Además, algunos países imponen requisitos normativos que no se pueden cumplir sin tener conectividad de red RTC local.
+  En muchos países, la compañía todavía tiene troncos de multiplexación de divisiones de tiempo (TDM) en sucursales locales. La centralización de los troncos TDM no es una opción en la región APAC, por lo que no es posible cambiar a SIP. Suponga que hay más de 50 sucursales de Contoso en toda la región de APAC con cientos de puertas de enlace (SBC). En este escenario, no es posible emparejar todas las puertas de enlace a la interfaz de enrutamiento directo debido a la falta de direcciones IP públicas o saltos de Internet locales. Además, algunos países imponen requisitos normativos que no se pueden cumplir sin tener conectividad de red RTC local.
 
 En función de sus requisitos empresariales, Contoso implementó dos soluciones con optimización de medios locales para enrutamiento directo:
 
@@ -218,7 +218,7 @@ Tabla 3. Configuración de ejemplo para escenario 1
 
 | Ubicación física del usuario | El usuario realiza una llamada a un número | Directiva de enrutamiento de voz en línea | Modo configurado para SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
-| Alemania | +49 1 437 2800 | Prioridad 1: ^ \+ 49(\d {8} )$ -DEsbc.contoso.com<br>Prioridad 2: .* - proxysbc.contoso.com| DEsbc.contoso.com: omitir siempre <br>proxysbc.contoso.com: omitir siempre | Teams Usuario <–> DEsbc.contoso.com |
+| Alemania | +49 1 437 2800 | Prioridad 1: ^ \+ 49(\d {8} )$ -DEsbc.contoso.com<br>Prioridad 2: .* - proxysbc.contoso.com| DEsbc.contoso.com: omitir siempre <br>proxysbc.contoso.com: omitir siempre | Teams usuario <–> DEsbc.contoso.com |
 
 En el siguiente diagrama se muestra el flujo de tráfico de alto nivel para el usuario interno de Alemania que realiza una llamada telefónica de enrutamiento directo a través de Teams al número en Alemania. 
 
@@ -246,7 +246,7 @@ Tabla 4. Configuración de ejemplo para el escenario 2
 
 | Ubicación física del usuario | El usuario realiza una llamada a un número | Directiva de enrutamiento de voz en línea | Modo configurado para SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
-| Francia | +49 1 437 2800 | Prioridad 1: ^ \+ 49(\d {8} )$ -DEsbc.contoso.com <br>Prioridad 2: .* - proxysbc.contoso.com |  DEsbc.contoso.com: Omitir siempre proxysbc.contoso.com: omitir siempre | Teams Usuario <: > DEsbc.contoso.com  |
+| Francia | +49 1 437 2800 | Prioridad 1: ^ \+ 49(\d {8} )$ -DEsbc.contoso.com <br>Prioridad 2: .* - proxysbc.contoso.com |  DEsbc.contoso.com: Omitir siempre proxysbc.contoso.com: omitir siempre | Teams usuario <: > DEsbc.contoso.com  |
 
 En el siguiente diagrama se muestra el flujo de tráfico de alto nivel cuando el usuario interno alemán ubicado en Francia realiza una llamada telefónica de enrutamiento directo Teams al número en Alemania. 
 
@@ -264,7 +264,7 @@ Diagrama 6.  Flujo de tráfico con el modo "Omitir siempre" y el usuario no est�
 
 Si hay conexiones malas entre sucursales locales pero buenas conexiones entre cada sucursal local y cada oficina regional, el modo recomendado es "Solo para usuarios locales".
 
-Por ejemplo, en la región APAC, suponga que Contoso tiene varias oficinas en diferentes países. Para muchos países, cambiar a SIP no es posible porque la empresa todavía tiene troncos TDM en muchas sucursales locales. La centralización de los troncos TDM no es una opción en la región APAC. Además, hay más de cincuenta sucursales de Contoso en toda la región de APAC con cientos de puertas de enlace (SBC). 
+Por ejemplo, en la región APAC, suponga que Contoso tiene varias oficinas en diferentes países. Para muchos países, cambiar a SIP no es posible porque la empresa todavía tiene troncos TDM en muchas sucursales locales. La centralización de los troncos TDM no es una opción en la región APAC. Además, hay más de 50 sucursales de Contoso en toda la región de APAC con cientos de puertas de enlace (SBC). 
 
 Para crear una solución en la que los servicios RTC se proporcionan en todas las sucursales locales de la región de APAC, donde la centralización de los troncos TDM no es una opción, el administrador de Contoso empareja un SBC regional en Singapur como SBC proxy para el servicio de enrutamiento directo. La conexión directa entre las sucursales locales no es buena, pero hay una buena conexión entre cada sucursal local y el SBC regional en Singapur. Para el SBC regional, el administrador elige el modo "Omitir siempre" y, para los SBC descendentes locales, el administrador elige el modo "Solo para usuarios locales".
 
@@ -282,7 +282,7 @@ Tabla 5. Configuración de ejemplo para el modo "Solo para usuarios locales" Esc
 
 | Ubicación física del usuario | El usuario realiza una llamada a un número | Directiva de enrutamiento de voz en línea | Modo configurado para SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
-| Vietnam | +84 4 3926 3000 | Prioridad 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br>Prioridad 2: .* - proxysbc.contoso.com | VNsbc.contoso.com: solo para usuarios locales <br> proxysbc.contoso.com: omitir siempre | Teams Usuario <–> VNsbc.contoso.com |
+| Vietnam | +84 4 3926 3000 | Prioridad 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br>Prioridad 2: .* - proxysbc.contoso.com | VNsbc.contoso.com: solo para usuarios locales <br> proxysbc.contoso.com: omitir siempre | Teams usuario <–> VNsbc.contoso.com |
 
 En el siguiente diagrama, un usuario asignado a la sucursal local en Vietnam, mientras está en las instalaciones, realiza una llamada telefónica de enrutamiento directo a través de Teams. 
 
@@ -309,7 +309,7 @@ Tabla 6. Configuración de usuario
 
 | Ubicación física del usuario | El usuario realiza una llamada a un número | Directiva de enrutamiento de voz en línea | Modo configurado para SBC | Media Flow | 
 |:------------|:-------|:-------|:-------|:-------|
-| Indonesia | +84 4 3926 3000 | Prioridad 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br> Prioridad 2: .* - proxysbc.contoso.com |VNsbc.contoso.com: solo para usuarios locales <br> proxysbc.contoso.com: omitir siempre | Teams Usuario <–> proxysbc.contoso.com <–> VNsbc.contoso.com |
+| Indonesia | +84 4 3926 3000 | Prioridad 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br> Prioridad 2: .* - proxysbc.contoso.com |VNsbc.contoso.com: solo para usuarios locales <br> proxysbc.contoso.com: omitir siempre | Teams usuario <–> proxysbc.contoso.com <–> VNsbc.contoso.com |
 
 
 En el siguiente diagrama, el usuario interno, mientras se encuentra en las instalaciones de la sucursal indonesia, realiza una llamada telefónica de enrutamiento directo a través de Teams a un número en Vietnam. 
@@ -341,3 +341,4 @@ A continuación se muestra una lista de los problemas conocidos que están prese
 | Escalaciones de llamadas de 1 a 1 llamada entre clientes internos a llamadas multipartes con el resultado de cliente o recurso externo en llamadas descartadas | Trabajar en curso en una corrección. Como alternativa, deshabilite la optimización de medios locales en el SBC de enrutamiento directo.|
 | Teams usuario pone la llamada en espera. Música se reproduce en el extremo RTC y la optimización de medios locales funciona. El Teams reanudará la llamada. La llamada a RTC se reanuda, pero la optimización de medios locales no funciona y la llamada continúa a través de SBC central (proxy) | Cuando un usuario aparca una llamada para iniciar la música en espera (MoH), el controlador de llamadas está escalando de 1:1 a una llamada multiparte para invocar el controlador multimedia y el procesador multimedia (que sirve como mezclador AVMCU) a través del cual el MoH llega a un usuario que se ha puesto en espera. La desescalación a una llamada de 1:1 después de reanudar la llamada nunca se produce según el diseño. Deshabilite la optimización de medios locales en el SBC de enrutamiento directo.|
 |Mientras se establece una llamada durante unos segundos, es posible que el usuario oiga silencio.| Debido a la complejidad de la arquitectura de optimización de medios locales, esto puede ocurrir en algunos casos.|
+|Las aplicaciones de voz (por ejemplo, Operador automático, Cola de llamadas) no funcionan.| LMO no es compatible con las aplicaciones de voz, ya que residen en la nube y requieren conectividad externa. Por ahora, no hay ninguna solución alternativa.|

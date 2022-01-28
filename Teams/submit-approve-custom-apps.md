@@ -1,7 +1,7 @@
 ---
 title: Usar la API Teams de envío de aplicaciones para enviar y aprobar las aplicaciones personalizadas
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo aprobar las aplicaciones personalizadas que se envían con Teams API de envío de aplicaciones en Microsoft Teams.
-ms.openlocfilehash: d0a49ffa07ec7b3a506d99d32c5fee1b43308af4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 41a6fe61269159da7af32ac8d0392752ffdf087d
+ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848163"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62248711"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar una aplicación personalizada enviada a través de la API Teams de envío de aplicaciones
 
@@ -68,7 +68,7 @@ La página Administrar <a href="/microsoftteams/manage-apps" target="_blank">apl
 
 En la tabla, una aplicación recién  enviada muestra automáticamente un estado de publicación de **Enviado** y **estado** de **Bloqueado.** Puede ordenar la **columna Estado de publicación** en orden descendente para buscar rápidamente la aplicación.
 
-![estado de publicación .](media/custom-app-lifecycle-validate-app.png)
+![estado de publicación.](media/custom-app-lifecycle-validate-app.png)
 
 Haga clic en el nombre de la aplicación para ir a la página de detalles de la aplicación. En la **pestaña** Acerca de, puede ver detalles sobre la aplicación, como la descripción, el estado, el enviador y el id. de la aplicación.
 
@@ -83,7 +83,9 @@ Cuando esté listo para que la aplicación esté disponible para los usuarios, p
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**.
 2. Haga clic en el nombre de la aplicación para ir a la página de detalles de la aplicación y, a continuación, en el cuadro Estado **de publicación,** seleccione **Publicar**.
 
-    Después de publicar la aplicación, el  estado De  **publicación** cambia a Publicado y el Estado cambia automáticamente a **Permitido.**
+    ![Botón Publicar en la página de detalles de la aplicación.](media/submitted-app-pending-action.png)
+
+Después de publicar la aplicación, el  estado De  **publicación** cambia a Publicado y el Estado cambia automáticamente a **Permitido.**
 
 ## <a name="set-up-and-manage"></a>Configurar y administrar
 
