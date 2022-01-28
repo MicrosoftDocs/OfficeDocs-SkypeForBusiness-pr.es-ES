@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2c43fe821c0d0dafb1df471eafbcc9831a11b72
-ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
+ms.openlocfilehash: 88723107679314d5f30a26e1b3b41675e1454c81
+ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/21/2022
-ms.locfileid: "62160999"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62228997"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -95,7 +95,7 @@ Si tiene alguna pregunta sobre el programa de certificación de CLS para Enrutam
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Vínculo de Orchid    |     &#10004;     |           |      3.1        |     |    |
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    CLS de Teams    |     &#10004;     |     &#10004;      |      1.6        |     |    |
-|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Controlador de límites de sesión de Atos Unify OpenScape   |     &#10004;     |          |      V10R1.2       |     |    |
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Controlador de límites de sesión de Atos Unify OpenScape   |     &#10004;     |   &#10004;        |     Compatible sin Media Bypass V10R1.2 (recomendado para Media Bypass V10R2.2.0)     |     |    |
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    CLS de BorderNet Dialogic   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
