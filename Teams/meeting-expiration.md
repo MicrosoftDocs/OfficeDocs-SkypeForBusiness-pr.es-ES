@@ -1,11 +1,11 @@
 ---
 title: Directivas de reunión y expiración de la reunión en Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: nej
+ms.reviewer: nej, brgussin
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -17,28 +17,28 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Obtenga información sobre cómo usar la configuración de directiva de reunión para controlar la expiración de la reunión en Microsoft Teams.
-ms.openlocfilehash: 8768410666d003f12cffb80995981b887059f93a
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 8c8a5603aea6ac65a2cd35b12eca9250debc7c51
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61178021"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279177"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Directivas de reunión y expiración de la reunión en Microsoft Teams
 
-[Las directivas](meeting-policies-overview.md) de reunión de Microsoft Teams se usan para controlar si los usuarios de su organización pueden iniciar y programar reuniones y las características que están disponibles para los participantes de las reuniones programadas por los usuarios. Puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas. Puede administrar directivas de reunión en el centro de administración de Microsoft Teams o mediante [Get](/powershell/module/skype/get-csteamsmeetingpolicy), [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell cmdlets.
+[Las directivas](meeting-policies-overview.md) de reunión de Microsoft Teams se usan para controlar si los usuarios de su organización pueden iniciar y programar reuniones y las características que están disponibles para los participantes de la reunión para las reuniones programadas por los usuarios. Puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas. Las directivas de reunión se administran en el centro de administración de Microsoft Teams o mediante los cmdlets de PowerShell [Get](/powershell/module/skype/get-csteamsmeetingpolicy), [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy.
 
 La configuración de directiva de reunión que controla si los usuarios pueden iniciar y programar reuniones, así como controlar la expiración de las reuniones programadas por los usuarios. Cuando un vínculo de unirse a una reunión y el id. de conferencia de una reunión expiran, nadie puede unirse a la reunión. La siguiente configuración de directiva de reunión determina si los usuarios pueden iniciar y programar reuniones en Teams. En este artículo se explica la configuración de la reunión.
 
-- [Reunirse ahora en canales:](meeting-policies-in-teams-general.md#meet-now-in-channels)controla si un usuario puede iniciar una reunión improvisada en un canal.
-- [Programación de reuniones de canal:](meeting-policies-in-teams-general.md#channel-meeting-scheduling)controla si un usuario puede programar una reunión en un canal.
-- [Programación de reuniones privada:](meeting-policies-in-teams-general.md#private-meeting-scheduling)controla si un usuario puede programar una reunión privada en Teams. Una reunión es privada cuando no se publica en un canal de un equipo.
-- [Outlook agregar:](meeting-policies-in-teams-general.md#outlook-add-in)controla si un usuario puede programar una reunión privada desde Outlook. Una reunión es privada cuando no se publica en un canal de un equipo.
-- [Reunirse ahora en reuniones privadas:](meeting-policies-in-teams-general.md#meet-now-in-private-meetings)controla si un usuario puede iniciar una reunión privada improvisada.
+- [Reunirse ahora en canales](meeting-policies-in-teams-general.md#meet-now-in-channels): controla si un usuario puede iniciar una reunión improvisada en un canal.
+- [Programación de reuniones del canal](meeting-policies-in-teams-general.md#channel-meeting-scheduling): controla si un usuario puede programar una reunión en un canal.
+- [Programación de reuniones privada](meeting-policies-in-teams-general.md#private-meeting-scheduling): controla si un usuario puede programar una reunión privada en Teams. Una reunión es privada cuando no se publica en un canal de un equipo.
+- [Outlook agregar](meeting-policies-in-teams-general.md#outlook-add-in): Controla si un usuario puede programar una reunión privada desde Outlook. Una reunión es privada cuando no se publica en un canal de un equipo.
+- [Reunirse ahora en reuniones privadas](meeting-policies-in-teams-general.md#meet-now-in-private-meetings): controla si un usuario puede iniciar una reunión privada improvisada.
 
 De forma predeterminada, esta configuración está en. Cuando cualquiera de estas opciones de configuración está desactivada, cualquier usuario al que se le haya asignado la directiva no puede iniciar ni programar nuevas reuniones de ese tipo. Al mismo tiempo, la reunión une vínculos e id. de conferencia de todas las reuniones existentes de ese tipo que el usuario inició o programó anteriormente expiran.
 
-Por ejemplo, si a un usuario se le asigna una directiva de reunión en  la que esta configuración de directiva de reunión se establece en Activar y, después, desactiva la configuración Permitir reunirse ahora en canales, ese usuario ya no puede iniciar reuniones improvisadas en canales y el canal Reunirse ahora se une a vínculos que el usuario creó anteriormente han expirado. El usuario puede seguir iniciando y programando otros tipos de reunión y unirse a reuniones organizadas por otras personas.
+Por ejemplo, si a un usuario se le asigna una directiva de reunión en la que esta configuración de directiva de reunión está establecida en Activar y, después, desactiva la configuración Permitir reunión ahora en canales, ese usuario ya no puede iniciar reuniones improvisadas en canales y el canal Reunirse ahora se une a vínculos que el usuario creó anteriormente han expirado. El usuario puede seguir iniciando y programando otros tipos de reunión y unirse a reuniones organizadas por otras personas.
 
 ## <a name="what-happens-when-the-meeting-join-link-and-conference-id-expire"></a>¿Qué sucede cuando expira el vínculo de unirse a la reunión y el id. de conferencia?
 
@@ -48,13 +48,13 @@ Cuando el vínculo de unirse a la reunión y el id. de conferencia de una reuni�
 
 ### <a name="switch-a-meeting-policy-setting-from-on-to-off"></a>Cambiar una configuración de directiva de reunión de activar a desactivar
 
-Cuando una configuración de directiva de reunión se establece en **On**, los usuarios que tienen asignada la directiva pueden iniciar o programar reuniones de ese tipo y todos pueden unirse. Al cambiar la configuración de directiva de reunión a **Desactivado,** los usuarios a los que se les ha asignado la directiva no pueden iniciar ni programar nuevas reuniones de ese tipo, y los vínculos de combinación de reuniones y los id. de conferencia de las reuniones existentes que el usuario programó previamente expiraron.
+Cuando una configuración de directiva de reunión se establece en **En**, los usuarios a los que se les asigna la directiva pueden iniciar o programar reuniones de ese tipo y todos los usuarios pueden unirse. Al cambiar la configuración de directiva de reunión a **Desactivado, los** usuarios a los que se les ha asignado la directiva no pueden iniciar ni programar nuevas reuniones de ese tipo, y los vínculos de combinación de reuniones y los id. de conferencia de las reuniones existentes que el usuario programó previamente expiran.
 
 Tenga en cuenta que el usuario todavía puede unirse a reuniones organizadas por otras personas.
 
 ### <a name="switch-a-meeting-policy-setting-from-off-to-on"></a>Cambiar una configuración de directiva de reunión de desactivado a encendido
 
-Al cambiar una configuración de directiva de reunión de **Desactivado** a **Activar,** los usuarios que tienen asignada la directiva pueden iniciar o programar reuniones de ese tipo. Si una configuración de directiva de reunión está desactivada y, a continuación, se vuelve a activar para un usuario, todas las reuniones programadas previamente (y expiradas) organizadas por el usuario se activarán y las personas podrán unirse a ellas mediante el vínculo de unirse a la reunión o por teléfono.  
+Al cambiar una configuración de directiva de reunión de **Desactivado** a **Activar**, los usuarios que tienen asignada la directiva pueden iniciar o programar reuniones de ese tipo. Si una configuración de directiva de reunión está desactivada y, a continuación, se vuelve a activar para un usuario, todas las reuniones programadas previamente (y expiradas) organizadas por el usuario se activarán y las personas podrán unirse a ellas mediante el vínculo de unirse a la reunión o por teléfono.  
 
 ## <a name="meeting-expiration-scenarios"></a>Escenarios de expiración de la reunión
 
@@ -62,10 +62,10 @@ Este es un resumen de cómo funciona la expiración de la reunión para cada una
 
 |Si desea...&nbsp;&nbsp; |Haga esto&nbsp;&nbsp;&nbsp;&nbsp;  |Comportamiento de unirse a la reunión&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
-|Expirar reuniones privadas de Reunirse ahora iniciadas por un usuario&nbsp;&nbsp;|Desactive **Reunirse ahora en reuniones privadas.**&nbsp;&nbsp;|Nadie puede unirse a reuniones **privadas de Reunirse** ahora iniciadas por el usuario.|
-|Expirar reuniones privadas programadas por un usuario&nbsp;&nbsp;|Desactive la **programación de reuniones privadas** _y_ desactive **Outlook complemento**. &nbsp;&nbsp;|Nadie puede unirse a reuniones privadas programadas por el usuario. Esto impide que las personas se unan a las siguientes reuniones:<ul><li>Reuniones privadas que tuvieron lugar en el pasado.</li><li>Reuniones privadas programadas para el futuro y que aún no se han producido.</li><li>Futuras instancias de reuniones privadas periódicas.</li></ul><br>Tanto **la programación de** reuniones **privadas como Outlook complemento** deben estar desactivados para expirar las reuniones privadas programadas por un usuario. Si una configuración está desactivada y la otra está activada, los vínculos de combinación de reuniones y los IDs de conferencia de las reuniones existentes permanecen activos y no expirarán.|
-|Expire channel **Meet now** meetings started by a user&nbsp;&nbsp;|Desactive **Reunirse ahora en canales** _y_ desactive La **programación de reuniones del Canal.**&nbsp;&nbsp;|Nadie puede unirse al canal **Reunirse ahora** las reuniones iniciadas por el usuario.|
-|Expirar reuniones del canal programadas por un usuario&nbsp;&nbsp;|Desactivar la **programación de reuniones del canal**.&nbsp;&nbsp;|Nadie puede unirse a las reuniones del canal programadas por el usuario. Esto impide que las personas se unan a las siguientes reuniones:<ul><li>Reuniones del canal que se produjeron en el pasado.</li><li>Reuniones de canal que están programadas para el futuro y que aún no se han producido.</li><li>Futuras instancias de reuniones periódicas del canal.</li></ul>|
+|Expirar reuniones privadas de Reunirse ahora iniciadas por un usuario&nbsp;&nbsp;|Desactive **Reunirse ahora en reuniones privadas**.&nbsp;&nbsp;|Nadie puede unirse a reuniones **privadas de Reunirse** ahora iniciadas por el usuario.|
+|Expirar reuniones privadas programadas por un usuario&nbsp;&nbsp;|Desactive la **programación de reuniones privadas** _y_ **desactive Outlook complemento**. &nbsp;&nbsp;|Nadie puede unirse a reuniones privadas programadas por el usuario. Esto impide que las personas se unan a las siguientes reuniones:<ul><li>Reuniones privadas que tuvieron lugar en el pasado.</li><li>Reuniones privadas programadas para el futuro y que aún no se han producido.</li><li>Futuras instancias de reuniones privadas periódicas.</li></ul><br>Tanto **la programación de** reuniones privadas **como Outlook complemento** deben estar desactivados para expirar las reuniones privadas programadas por un usuario. Si una configuración está desactivada y la otra está activada, los vínculos de combinación de reuniones y los IDs de conferencia de las reuniones existentes permanecen activos y no expirarán.|
+|Expire channel **Meet now** meetings started by a user&nbsp;&nbsp;|Desactive **Reunirse ahora en canales** _y_ desactive la **programación de reuniones del canal**.&nbsp;&nbsp;|Nadie puede unirse al canal **Reunirse ahora** las reuniones iniciadas por el usuario.|
+|Expirar reuniones del canal programadas por un usuario&nbsp;&nbsp;|Desactivar la **programación de reuniones del Canal**.&nbsp;&nbsp;|Nadie puede unirse a las reuniones del canal programadas por el usuario. Esto impide que las personas se unan a las siguientes reuniones:<ul><li>Reuniones del canal que se produjeron en el pasado.</li><li>Reuniones de canal que están programadas para el futuro y que aún no se han producido.</li><li>Futuras instancias de reuniones periódicas del canal.</li></ul>|
 
 Si desea que los usuarios accedan a las reuniones programadas o iniciadas previamente por un usuario determinado, puede:
 
@@ -77,9 +77,12 @@ Si desea que los usuarios accedan a las reuniones programadas o iniciadas previa
 
 ## <a name="changes-to-meeting-expiration"></a>Cambios en la expiración de la reunión
 
-Todas las grabaciones Teams reunión (TMR) tendrán una expiración predeterminada de 60 días. Esta opción está predeterminada para todos los inquilinos. Esto significa que, de forma  predeterminada, todos los TMR creados después de que esta característica se haya activado se eliminarán 60 días después de su fecha de creación. Los administradores también pueden establecer reuniones para **que nunca expiren automáticamente.** El OneDrive y SharePoint supervisará la fecha de expiración establecida en todos los TMR y moverá automáticamente los TMR a la papelera de reciclaje en su fecha de expiración.
+> [!IMPORTANT]
+> Si desea habilitar la expiración de Teams reunión en su inquilino antes de tiempo, aplique al programa de Microsoft Teams de adopción anticipado de la expiración [de la reunión](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u).
 
-La expiración automática de reuniones es un mecanismo de limpieza ligero para reducir el desorden de almacenamiento creado por tmr antiguos. En promedio, en todos los clientes, el 99 % de los TMR no se ven después de 60 días. Creemos que casi todos los clientes se beneficiarán de la carga de almacenamiento reducida en su inquilino quitando las grabaciones que probablemente no se volverán a ver después de 60 días. Nuestro objetivo es proporcionar una experiencia lo más limpia posible para todos los clientes de forma predeterminada.
+Todas las grabaciones Teams reunión (TMR) tendrán una expiración predeterminada de 60 días. Esta opción está predeterminada para todos los inquilinos. Esto significa que, de forma predeterminada, todos los  TMR creados después de que esta característica se haya activado se eliminarán 60 días después de su fecha de creación. Los administradores también pueden establecer reuniones para **que nunca expiren automáticamente**. El OneDrive y SharePoint supervisará la fecha de expiración establecida en todos los TMR y moverá automáticamente los TMR a la papelera de reciclaje en su fecha de expiración.
+
+La expiración automática de reuniones es un mecanismo de limpieza ligero para reducir el desorden de almacenamiento creado por tmr antiguos. En promedio, en todos los clientes, el 96 % de los TMR no se ven después de 60 días y el 99 % no se ven después de 110 días. Creemos que casi todos los clientes se beneficiarán de la carga de almacenamiento reducida en su inquilino quitando las grabaciones que probablemente no se volverán a ver después de 60 días. Nuestro objetivo es proporcionar una experiencia lo más limpia posible para todos los clientes de forma predeterminada.
 
 Use la expiración de la reunión para limitar OneDrive o SharePoint para el consumo de almacenamiento en la nube impulsado por Teams de reunión. Una grabación de reunión típica consume unos 400 MB por hora de grabación.
 
@@ -88,7 +91,7 @@ Use la expiración de la reunión para limitar OneDrive o SharePoint para el con
 
 ### <a name="expiration-date"></a>Fecha de expiración
 
-- La fecha de expiración se calcula como el **día** en que se creó más el número predeterminado de días establecido en la directiva de Teams **por el administrador.**
+- La fecha de expiración se calcula como el **día** en que se creó más el número predeterminado de días establecido en la **Teams directiva por el administrador**.
 - La reproducción no afecta a la fecha de expiración.
 
 ### <a name="change-the-default-expiration-date"></a>Cambiar la fecha de expiración predeterminada

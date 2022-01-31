@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo configurar la interfaz de usuario en Teams dispositivos Android.
-ms.openlocfilehash: cf0c60fa5073ee2a3915f2450900865bc058e295
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 32f5129330bf46657f126fc00f7eddc2fc30f090
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767433"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279388"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>Establecer Microsoft Teams interfaz de usuario de dispositivos Android
 
@@ -30,17 +30,25 @@ Hay tres tipos de interfaces de usuario en Teams dispositivos Android:
 2. Área común
 3. Reunión
 
-Si [](/microsoftteams/user-access) asigna una licencia de usuario a una cuenta, como una licencia E3 o una licencia E5, el dispositivo Teams mostrará la interfaz de usuario final predeterminada que está totalmente característica para la mayoría de los escenarios de usuario. Sin embargo, si un dispositivo está realizando una función específica, como un teléfono de área común o una sala de reuniones, hay interfaces de usuario específicas para estos usos.
+Si asigna [](/microsoftteams/user-access) una licencia de usuario a una cuenta, como una licencia E3 o una licencia E5, el dispositivo Teams mostrará la interfaz de usuario final predeterminada que está totalmente característica para la mayoría de los escenarios de usuario. Sin embargo, si un dispositivo está realizando una función específica, como un teléfono de área común o una sala de reuniones, hay interfaces de usuario específicas para estos usos.
 
-Las tres imágenes siguientes muestran cómo cambia la interfaz de usuario en función de la licencia asignada a la cuenta de usuario. En la primera imagen, se asigna a la cuenta de usuario una licencia E5. Se trata de una licencia de usuario, por lo que el dispositivo muestra la interfaz de usuario final predeterminada:
+Las tres imágenes siguientes muestran cómo cambia la interfaz de usuario en función de la licencia asignada a la cuenta de usuario. 
+
+## <a name="end-user-interface"></a>Interfaz de usuario final 
+
+A la cuenta de usuario se le asigna una licencia E5. Se trata de una licencia de usuario, por lo que el dispositivo muestra la interfaz de usuario final predeterminada:
 
 :::image type="content" source="../media/teams-android-devices-usermode1.jpg" alt-text="Interfaz de modo de usuario.":::
 
-En esta imagen, se ha asignado a la cuenta de usuario una [licencia de teléfono de área común.](/microsoftteams/set-up-common-area-phones) Los teléfonos de área común se usan principalmente para realizar y recibir llamadas telefónicas. Como tal, el teclado de marcado se muestra en la pantalla:
+## <a name="common-area-interface"></a>Interfaz de área común
+
+En esta imagen, se ha asignado a la cuenta de usuario una [licencia de Teléfono común](/microsoftteams/set-up-common-area-phones). Los teléfonos de área común se usan principalmente para realizar y recibir llamadas telefónicas. Como tal, el teclado de marcado se muestra en la pantalla:
 
 :::image type="content" source="../media/teams-android-devices-cap1.jpg" alt-text="Interfaz de teléfono de área común.":::
 
-Por último, esta imagen muestra una cuenta de usuario con [una Salas de Microsoft Teams Estándar licencia asignada.](/MicrosoftTeams/rooms/rooms-licensing) Salas de Teams licencias están pensadas para usarse en salas de reuniones o espacios compartidos, por lo que la interfaz de usuario cambia para que sea más fácil unirse a una reunión mostrando la vista calendario:
+## <a name="meeting-interface"></a>Interfaz de reunión
+
+Esta imagen muestra una cuenta de usuario con [una Salas de Microsoft Teams Estándar licencia asignada](/MicrosoftTeams/rooms/rooms-licensing). Salas de Teams licencias están pensadas para usarse en salas de reuniones o espacios compartidos, por lo que la interfaz de usuario cambia para que sea más fácil unirse a una reunión mostrando la vista calendario:
 
 :::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="Interfaz de reunión.":::
 
@@ -91,6 +99,6 @@ Teams centro de administración ofrece la capacidad de administrar Teams teléfo
 
  :::image type="content" source="../media/teams-admin-center-phones-header.png" alt-text="Encabezado teléfonos en Teams de administración.":::
 
-Al igual que con la detección de interfaz de usuario, Teams teléfonos se clasifican en función de la licencia asignada a la cuenta que inicia sesión en el teléfono. Por ejemplo, si una cuenta a la que se le asigna una licencia de teléfono  de área común inicia sesión en un teléfono, ese teléfono se mostrará tanto en la sección predeterminada Todos los teléfonos como en la sección Teléfonos del área **común.**
+Al igual que con la detección de interfaz de usuario, Teams teléfonos se clasifican en función de la licencia asignada a la cuenta que inicia sesión en el teléfono. Por ejemplo, si una cuenta a la que se le asigna una licencia de teléfono de área común inicia sesión en un teléfono, ese teléfono se mostrará tanto  en la sección predeterminada Todos los teléfonos como en la sección Teléfonos del **área común.**
 
 Si desea que un teléfono aparezca en una sección diferente, puede asignar una licencia diferente al teléfono o crear y asignar una directiva de ip Teams Teléfono como se describe [anteriormente.](#override-automatic-user-interface-detection)
