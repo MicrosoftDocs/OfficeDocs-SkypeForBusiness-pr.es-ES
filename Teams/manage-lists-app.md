@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: Obtenga más información sobre cómo administrar la aplicación Lists en Teams para los usuarios de su organización.
 f1.keywords:
 - NOCSH
@@ -18,16 +19,17 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 - m365initiative-lists
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 72235497f2b020aaed1228ecadff781ed76b7341
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bd70e5fbca82637299e6adef745bccc725525311
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829554"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288488"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Lists para su organización en Microsoft Teams
 
@@ -35,7 +37,7 @@ ms.locfileid: "60829554"
 
 La aplicación Lists en Microsoft Teams ayuda a los usuarios de su organización a realizar un seguimiento de la información, organizar el trabajo y administrar los flujos de trabajo. Con Lists, los usuarios pueden realizar un seguimiento de datos como problemas, activos, rutinas, contactos, inventario, incidentes, préstamos, pacientes y mucho más con vistas personalizables, reglas y alertas para mantener a todos los miembros del equipo sincronizados.
 
-En Teams, los usuarios acceden a Lists como una pestaña de un canal. Haga clic en **+** para abrir la galería de pestañas y agregar una nueva instancia de pestaña de la aplicación Lists a un canal para empezar.
+En Teams, los usuarios acceden a Lists como una pestaña de un canal. Seleccione **+** esta opción para abrir la galería de pestañas y agregar una nueva instancia de pestaña de la aplicación Listas a un canal para empezar.
 
 ![Lista de aplicaciones en la galería de pestañas.](media/lists-tab.png)
 
@@ -58,7 +60,7 @@ Una oficina de correos local es la responsable de ordenar y entregar el correo e
 
 Después de juntarse, los carteros recogen su correo e inician la ruta de entrega. Los incidentes pueden producirse en una ruta, por ejemplo, un accidente de vehículo, un problema relacionado con un perro o una protesta social. Cuando los carteros se encuentran con un incidente, usan Teams en sus dispositivos móviles para registrar los detalles del incidente, que se marcan en una lista en el canal del equipo. Todos los miembros del equipo, incluidos los carteros sobre el terreno, pueden ver esta información y mantenerse informados.
 
-Antes de cambiar a Teams, los carteros tenían que volver a la oficina de correos con el fin de completar un formulario de copia impresa para informar de un incidente que se había indicado en una hoja de cálculo de Excel. Teams ofrece a los carteros una experiencia móvil de primera mano en la que pueden usar Lists para informar sobre los incidentes sobre el terreno a medida que se produzcan, compartir detalles de incidentes con los miembros del equipo, mantener conversaciones sobre ellos en el canal e impulsar la resolución de incidentes.
+Antes de pasar a Teams, los operadores de correo tuvieron que volver a la oficina de correos para completar un formulario de copia impresa para informar de un incidente, que se introdujo en una hoja de cálculo Excel correo electrónico. Teams ofrece a los carteros una experiencia móvil de primera mano en la que pueden usar Lists para informar sobre los incidentes sobre el terreno a medida que se produzcan, compartir detalles de incidentes con los miembros del equipo, mantener conversaciones sobre ellos en el canal e impulsar la resolución de incidentes.
 
 ## <a name="what-you-need-to-know-about-lists"></a>Todo lo que debe saber sobre Lists
 
@@ -72,7 +74,7 @@ Los datos de Lists se almacenan en el sitio de grupo de SharePoint Online. Para 
 
 Los permisos establecidos en SharePoint se aplican a las listas creadas en la aplicación Lists. De forma predeterminada, las listas heredan los permisos del sitio al que pertenecen. Estos permisos rigen los tipos de acciones que los usuarios pueden realizar, por ejemplo, si pueden crear o editar listas. Para obtener más información, vea [Niveles de permisos en SharePoint](/sharepoint/understanding-permission-levels) y [Permisos de usuario y niveles de permisos en SharePoint Server](/sharepoint/sites/user-permissions-and-permission-levels).
 
-En determinados escenarios, puede que quiera limitar las acciones que los usuarios pueden realizar en las listas. Por ejemplo, una persona de un equipo edita una vista de lista, que la cambia para todos los miembros del equipo, y usted quiere permitir que solo el propietario o determinados miembros del equipo puedan editar las vistas de lista. Para obtener más información, vea [Personalizar los permisos de una lista o biblioteca de SharePoint](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
+En determinados escenarios, es posible que desee restringir las acciones que los usuarios pueden hacer en las listas. Por ejemplo, una persona de un equipo edita una vista de lista, que la cambia para todos los miembros del equipo, y usted quiere permitir que solo el propietario o determinados miembros del equipo puedan editar las vistas de lista. Para obtener más información, vea [Personalizar los permisos de una lista o biblioteca de SharePoint](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
 
 > [!NOTE]
 > En este momento, los permisos de propietario y miembro de un equipo no están vinculados de ninguna manera con los permisos en el sitio de grupo que rigen el comportamiento de las listas o de la aplicación Lists. Sin embargo, en vista de los comentarios y el uso de los clientes, esto se tendrá en consideración para una iteración futura del producto.  
@@ -96,8 +98,8 @@ De forma predeterminada, Lists está habilitado para todos los usuarios de su or
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**.
 2. Realice una de las siguientes acciones:
 
-    - Para desactivar Lists para su organización, busque la aplicación, selecciónela y después haga clic en **Bloquear**.
-    - Para activar Lists para su organización, busque la aplicación, selecciónela y después haga clic en **Permitir**.
+    - Para desactivar Listas para su organización, busque la aplicación Listas, selecciónelo y, a continuación, **seleccione Bloquear**.
+    - Para activar Listas para su organización, busque la aplicación Listas, selecciónelo y, a continuación, **seleccione Permitir**.
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar Lists para usuarios específicos de su organización
 
@@ -105,7 +107,7 @@ Para permitir o impedir que usuarios específicos de la organización puedan usa
 
 ## <a name="search-the-audit-log-for-list-events"></a>Buscar eventos en el registro de auditoría
 
-Las listas están habilitadas con auditoría de nivel empresarial para que pueda buscar listas y eventos de elementos de lista en el registro de auditoría del Centro de seguridad y cumplimiento. Para obtener más información, vea [Buscar en el registro de auditoría del Centro de seguridad y cumplimiento](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Las listas están habilitadas con auditoría de nivel empresarial para que pueda buscar listas y eventos de elementos de lista en el registro de auditoría en el Centro de cumplimiento de & seguridad. Para obtener más información, vea [Buscar en el registro de auditoría del Centro de seguridad y cumplimiento](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 Para obtener una lista de eventos de auditoría relevantes para la aplicación Lists en Teams, vea [actividades de lista de SharePoint](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
 
@@ -117,8 +119,8 @@ Lists admite [Power Automate](/power-automate/flow-types) para flujos de trabajo
 
 ## <a name="give-feedback-or-report-an-issue"></a>Enviar comentarios o informar de un problema
   
-Para enviarnos comentarios o informar de un problema, haga clic en **Ayuda** junto a la parte inferior del panel de navegación izquierdo de Teams y seleccione **Informar de un problema**. Seleccione **Lists** y después escriba sus comentarios o detalles sobre el problema que experimenta.
+Para enviarnos comentarios o informar de un problema,  seleccione Ayuda cerca de la parte inferior de la navegación izquierda en Teams y, a continuación, **seleccione Informar de un problema**. Seleccione **Lists** y después escriba sus comentarios o detalles sobre el problema que experimenta.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 - [Documentación de ayuda de Lists](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)

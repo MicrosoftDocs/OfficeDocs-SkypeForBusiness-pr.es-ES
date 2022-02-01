@@ -10,25 +10,27 @@ search.appverid: ''
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection:
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
 description: Obtenga información sobre cómo administrar la aplicación Bookings en Teams usuarios de su organización.
-ms.openlocfilehash: ae471bfee1901396ee3419380fcd7620e21231fe
-ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
+ms.openlocfilehash: 2bbc671b1054cfa4340abf7656e17939d147dea2
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61111980"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288348"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Administrar la aplicación Bookings en Microsoft Teams
 
-La aplicación Bookings en Microsoft Teams ofrece una forma sencilla de programar citas en persona y virtuales, como visitas médicas, consultas financieras, entrevistas, asistencia al cliente, horarios de trabajo educativo y mucho más. Para obtener más información, vea [Visitas virtuales con Teams y la aplicación Bookings.](expand-teams-across-your-org/bookings-virtual-visits.md)
+La aplicación Bookings en Microsoft Teams ofrece una forma sencilla de programar citas en persona y virtuales, como visitas médicas, consultas financieras, entrevistas, asistencia al cliente, horarios de trabajo educativo y mucho más. Para obtener más información, vea [Visitas virtuales con Teams y la aplicación Bookings](expand-teams-across-your-org/bookings-virtual-visits.md).
 
 Los programadores pueden administrar varios calendarios de departamento y de personal, así como las comunicaciones con los asistentes internos y externos desde una sola experiencia. Las propias citas virtuales se celebrarán Microsoft Teams reuniones, lo que ofrece sólidas capacidades de videoconferencia.
 
@@ -55,13 +57,13 @@ La aplicación Microsoft Bookings para Teams está disponible en el escritorio y
 
 Hay varias formas de controlar quién tiene acceso a la aplicación de Bookings y a características específicas de la aplicación.
 
-Para obtener información sobre cómo activar o desactivar Microsoft Bookings en el Centro de administración de Microsoft 365 y cómo crear una directiva de aplicación de Bookings para permitir a los usuarios seleccionados crear calendarios de Bookings, vea Obtener acceso a [Microsoft Bookings.](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)
+Para obtener información sobre cómo activar o desactivar Microsoft Bookings en el Centro de administración de Microsoft 365 y cómo crear una directiva de aplicación de Bookings para permitir a los usuarios seleccionados crear calendarios de Bookings, vea Obtener acceso a [Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce).
 
-También puede crear una directiva de Teams de configuración de aplicaciones para anclar la [aplicación Bookings para usuarios seleccionados.](teams-app-setup-policies.md)
+También puede crear [una directiva de configuración Teams aplicación para anclar la aplicación Bookings para usuarios seleccionados](teams-app-setup-policies.md).
 
 ## <a name="recommended-meeting-policy-settings"></a>Configuración de directiva de reunión recomendada
 
-Para habilitar la mejor experiencia para Bookings, cree una directiva  de reunión Teams para admitir automáticamente a todos los usuarios de su organización y asignar la directiva a su personal. Esto permite al personal unirse a la cita automáticamente y habilitar la experiencia de la sala de espera para los asistentes externos. Obtenga más información sobre cómo [admitir automáticamente a las personas a las reuniones.](meeting-policies-participants-and-guests.md#automatically-admit-people)
+Para habilitar la mejor experiencia para Bookings, cree una directiva de reunión Teams para admitir automáticamente a todos los  usuarios de su organización y asignar la directiva a su personal. Esto permite al personal unirse a la cita automáticamente y habilitar la experiencia de la sala de espera para los asistentes externos. Obtenga más información sobre cómo admitir [automáticamente a las personas a las reuniones](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
 ## <a name="optional-staff-approvals-setting"></a>Configuración opcional de aprobaciones para personal
 
@@ -98,7 +100,7 @@ Agradecemos sus comentarios sobre:
   - Fallos de características o funcionalidad que falta
   - Errores o problemas
   
-Para enviar comentarios,  seleccione el botón Ayuda cerca de la parte inferior de la barra de navegación Teams izquierda y, a continuación, seleccione Informar de **un** problema para **todos los** problemas. Indica al principio de tu informe de comentarios que estás enviando comentarios sobre "Bookings" para que podamos identificar fácilmente los problemas de Bookings.
+Para enviar comentarios, **seleccione el botón** Ayuda cerca de la parte inferior de la barra de navegación Teams izquierda y, a continuación, seleccione Informar de **un** problema para **todos los** problemas. Indica al principio de tu informe de comentarios que estás enviando comentarios sobre "Bookings" para que podamos identificar fácilmente los problemas de Bookings.
 
 ## <a name="related-articles"></a>Artículos relacionados
 

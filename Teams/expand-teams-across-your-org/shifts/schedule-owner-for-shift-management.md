@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: Obtenga información sobre cómo administrar los propietarios de turnos para la administración de programación. Puede establecer una directiva para elevar el permiso de un miembro del equipo a un propietario de programación.
 f1.keywords:
 - NOCSH
@@ -19,21 +20,22 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 702ca0fd5b392755b1966d16024d5ecf10cdacab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 12cf33f193e7f1d1a976e5cde8612df19108cb69
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627542"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288638"
 ---
 # <a name="schedule-owner-for-shift-management"></a>Propietario de la programación para la administración de turnos
 
 ## <a name="overview"></a>Información general
 
-Propietario de programación es una característica que le permite elevar los permisos de un miembro del equipo a un propietario de programación sin convertir al empleado en propietario del equipo. Esto significa que el empleado está autorizado a administrar la programación de su equipo sin poder modificar otras propiedades del equipo, como actualizar, editar o eliminar canales de equipo.
+La característica Propietario de programación le permite elevar los permisos de un miembro del equipo para que puedan administrar las programaciones sin convertir al empleado en propietario del equipo. Con los permisos de Propietario de programación, un empleado puede administrar la programación de su equipo sin poder modificar otras propiedades del equipo, como actualizar, editar o eliminar canales de equipo.
 
 ¿Qué puede hacer un usuario con permisos de propietario de programación?
 
@@ -52,9 +54,9 @@ Este es un ejemplo de cómo su organización puede usar la característica Progr
 
 Trabaja en una organización grande en la que los jefes de departamento informen directamente al administrador de la tienda. El administrador de la tienda tiene más autoridad dentro de su empresa y es el propietario del equipo en Turnos. Los jefes de departamento, por otro lado, solo se agregan a Turnos como miembros del equipo. Aunque los jefes de tienda tienen más antigüedad que los jefes de departamento, tiene más sentido que los jefes de departamento se encargan de la programación diaria de los empleados de su equipo.
 
-*Sin el propietario de la programación,* los jefes de departamento deben tener exactamente los mismos privilegios que el propietario del equipo. Recientemente, los jefes de departamento han estado moviendo información y cambiando el nombre de los canales, y ha causado complicaciones con el trabajo del administrador de la tienda. El administrador de la tienda quiere que los jefes de departamento puedan organizar sus programaciones, pero no quiere que puedan cambiar nada más en el equipo, fuera de Turnos.
+*Sin el propietario de la* programación, los jefes de departamento deben tener exactamente los mismos privilegios que el propietario del equipo. Recientemente, los jefes de departamento han estado moviendo información y cambiando el nombre de los canales, y ha causado complicaciones con el trabajo del administrador de la tienda. El administrador de la tienda quiere que los jefes de departamento puedan organizar sus programaciones, pero no quiere que puedan cambiar nada más en el equipo, fuera de Turnos.
 
-*Con Propietario de programación,* los jefes de departamento pueden tener privilegios de programación, sin ningún otro privilegio de propietario del equipo.
+*Con El propietario de la* programación, los jefes de departamento pueden tener privilegios de programación, sin ningún otro privilegio de propietario del equipo.
 
 ## <a name="manage-schedule-ownership"></a>Administrar la propiedad de la programación
 

@@ -10,21 +10,23 @@ search.appverid: ''
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection:
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: Obtenga información sobre la experiencia de unirse Teams visitas virtuales en exploradores móviles.
-ms.openlocfilehash: f8307902d7689cf56f10f3705ca3d5611a0f3d11
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 5c4b0f7ac9011d12d12e3076f900880292e72eb1
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960119"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288568"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>Administrar la experiencia de combinación para Teams visitas virtuales en exploradores móviles
 
@@ -50,13 +52,13 @@ Una vez activada esta característica, el correo electrónico de confirmación o
 
 #### <a name="turn-on-mobile-browser-join-for-an-appointment-type"></a>Activar la combinación del explorador móvil para un tipo de cita
 
-En Bookings, vaya a **Configuración** tipos de cita , seleccione un tipo de cita y, a continuación, active Permitir que los asistentes se unan  >  desde un explorador **móvil.** [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) De este modo, se permite la combinación de exploradores móviles para todas las citas de este tipo.
+En Bookings, vaya a **Configuración** >  **Appointment,** seleccione un tipo de cita [y,](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) después, active Permitir que los asistentes se unan desde **un explorador móvil**. De este modo, se permite la combinación de exploradores móviles para todas las citas de este tipo.
 
 :::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Captura de pantalla de la configuración Permitir que los asistentes se unan desde un explorador móvil para los tipos de citas en la aplicación Bookings":::
 
 #### <a name="turn-on-mobile-browser-join-for-an-individual-appointment"></a>Activar la combinación del explorador móvil para una cita individual
 
-En Bookings, seleccione **Nueva reserva** y, a continuación, active Permitir que los **asistentes se unan desde un explorador móvil.**
+En Bookings, seleccione **Nueva reserva** y, a continuación, active Permitir que los **asistentes se unan desde un explorador móvil**.
 
 :::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Captura de pantalla de la configuración Permitir que los asistentes se unan desde un explorador móvil en el nuevo formulario de reserva en la aplicación Bookings":::
 
@@ -64,9 +66,9 @@ En Bookings, seleccione **Nueva reserva** y, a continuación, active Permitir qu
 
 No es necesario configurarlo ni usted ni su personal.
 
-**Integración con Cerner EHR:** el Teams EHR permite a los pacientes unirse a visitas virtuales a través del móvil. En el momento de la cita, los pacientes pueden unirse a una visita virtual pulsando el vínculo en el mensaje de texto SMS. El paciente elige el explorador que quiere y, a continuación, Teams en ese explorador.
+**Integración con Cerner EHR**: el Teams EHR permite a los pacientes unirse a visitas virtuales a través de dispositivos móviles. En el momento de la cita, los pacientes pueden unirse a una visita virtual pulsando el vínculo en el mensaje de texto SMS. El paciente elige el explorador que quiere y, a continuación, Teams en ese explorador.
 
-**Integración con Épico EHR:** el conector Teams EHR permite a los pacientes unirse a visitas virtuales a través de la web y el móvil de MyChart. En el momento de la cita, los pacientes pueden iniciar una visita virtual desde MyChart con el **botón Iniciar visita virtual.** El paciente elige el explorador que quiere y, a continuación, Teams en ese explorador.
+**Integración con Épico EHR**: el Teams ehr es compatible con los pacientes que se unen a las visitas virtuales a través de la web y el móvil de MyChart. En el momento de la cita, los pacientes pueden iniciar una visita virtual desde MyChart con el **botón Iniciar visita virtual** . El paciente elige el explorador que quiere y, a continuación, Teams en ese explorador.
 
 ## <a name="supported-mobile-browsers"></a>Exploradores móviles compatibles
 
@@ -87,7 +89,7 @@ Estos son los exploradores móviles compatibles actualmente. Se admite la últim
 El miembro del personal que realiza la visita virtual puede compartir su pantalla desde su cliente Teams de escritorio, móvil o web con un asistente que se une desde un explorador móvil. Sin embargo, los asistentes no pueden compartir su pantalla desde un explorador móvil.
 
 > [!NOTE]
-> Estamos agregando más funcionalidades a la experiencia de unirse a la reunión en futuras versiones de Teams, así que vuelva a consultar la información más actualizada. Para mantenerse al tanto de las próximas Teams, consulte el [mapa de ruta Microsoft 365 ruta.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
+> Estamos agregando más funcionalidades a la experiencia de unirse a la reunión en futuras versiones de Teams, así que vuelva a consultar la información más actualizada. Para mantenerse al tanto de las próximas Teams características, consulte el [mapa Microsoft 365 ruta](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 ## <a name="related-articles"></a>Artículos relacionados
 

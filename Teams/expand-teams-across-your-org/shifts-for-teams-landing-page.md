@@ -13,19 +13,21 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 905e846537e40178eba55f1a4ccd9a0d1fd1f993
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 4c3ed73b3238be2795c30fa7d162ed201cd77afd
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279187"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288508"
 ---
 # <a name="shifts-for-teams"></a>Turnos para Teams
 
