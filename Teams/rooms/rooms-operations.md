@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Lea este tema para obtener información sobre la administración de Salas de Microsoft Teams.
-ms.openlocfilehash: 2238712b269475891074016c1099a33c56004595
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: be5f183e593ca1723383b6834c9ff5cad387b42f
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015050"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62298995"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Salas de Microsoft Teams mantenimiento y operaciones
  
@@ -31,7 +31,7 @@ Salas de Microsoft Teams es la solución de conferencias de Microsoft diseñada 
 
 Para recopilar registros en Teams de administración, vaya a Teams **dispositivos > Salas de Teams en Windows**. Seleccione el nombre para mostrar del dispositivo para el que desea los registros. En el panel superior, seleccione "Descargar registros de dispositivos". Una vez que confirme, los registros estarán listos para su descarga en la pestaña Historial después de unos minutos.
 
-También puede usar PowerShell para recopilar registros. Debe invocar el script de la colección de registros que se incluye con la aplicación Salas de Microsoft Teams registro. En [modo administrador,](rooms-operations.md)inicie un símbolo del sistema con privilegios elevados y ejecute el siguiente comando:
+También puede usar PowerShell para recopilar registros. Debe invocar el script de la colección de registros que se incluye con la aplicación Salas de Microsoft Teams registro. En [el modo administrador](rooms-operations.md), inicie un símbolo del sistema con privilegios elevados y ejecute el siguiente comando:
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -45,14 +45,34 @@ Los registros se mostrarán como un archivo ZIP en c:\rigel.
 Configure la configuración de las pantallas frontales de la sala para admitir consumer electronics control(CEC) o habilitar el modo PC.
   
 Si desea que una pantalla frontal de la sala cambie automáticamente a Salas de Teams cuando se reactiva del modo de espera, deben cumplirse determinadas condiciones. Esta característica es opcional, pero es compatible Salas de Microsoft Teams software, siempre que el hardware subyacente admita la característica. Un televisor para consumidores que se usa como pantalla frontal de la sala debe admitir la característica control de electrónica de consumo (CEC) de HDMI.  Dependiendo de la base o consola seleccionada (que podría no ser compatible con CEC, consulte documentación de soporte técnico del fabricante), es posible que sea necesario un controlador como [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron o [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron para habilitar el comportamiento deseado.
+
+### <a name="change-scale-and-resolution"></a>Cambiar escala y resolución
+
+Si el tamaño de fuente de la pantalla frontal de la sala es demasiado grande o pequeño, tendrá que ajustar la resolución de la pantalla. 
+
+1. Cambiar al [modo de administrador](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
+
+2. Seleccione el icono de inicio. A **continuación, Configuración > pantalla > sistema**
+
+3. Vaya a **Escala y diseño**, cambie el tamaño del texto **, las aplicaciones** y otros elementos y establezca el escalado en 100 %.
+
+4. Establezca la resolución de visualización en 1080p. Si tiene dos monitores, establezca la escala y la resolución de ambas pantallas.
+
+5. A continuación, seleccione el icono de inicio y escriba **Símbolo del sistema**. Seleccione **Ejecutar como administrador**.
+
+6. Ejecute el siguiente comando:
+
+```cmdlet
+ Powershell -ExecutionPolicy Unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentDisplayScaling.ps1 
+```
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Salas de Microsoft Teams restablecer (restauración de fábrica)
 <a name="Reset"> </a>
 
-Si Salas de Microsoft Teams funciona bien, realizar un restablecimiento de fábrica puede ser de ayuda. Para ello, use la herramienta Microsoft Teams [recuperación](recovery-tool.md) de sala y siga las instrucciones de restauración de fábrica.
+Si Salas de Microsoft Teams funciona bien, realizar un restablecimiento de fábrica puede ser de ayuda. Para ello, use la herramienta Microsoft Teams [recuperación de sala y](recovery-tool.md) siga las instrucciones de restauración de fábrica.
 
 > [!NOTE]
-> Existe un problema conocido por el que el Salas de Microsoft Teams puede quedar inutilizable si la opción Mantener mis archivos: quita aplicaciones y **configuración,** pero mantiene seleccionada la opción archivos personales durante el proceso de Windows Restablecer. No *use* esta opción.
+> Existe un problema conocido por el que el Salas de Microsoft Teams puede quedar inutilizable si la opción Mantener mis archivos: quita aplicaciones y configuración, pero mantiene la opción archivos **personales** seleccionada durante el proceso de Windows restablecer. No *use* esta opción.
   
 ## <a name="supported-remote-options"></a>Opciones remotas admitidas
 <a name="RemoteOptions"> </a>
@@ -102,7 +122,7 @@ Al unirse Salas de Microsoft Teams a un dominio, asegúrese de que las directiva
 |Setting|Permite|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Permite Salas de Microsoft Teams inicio  <br/> |
-|Power Management: \> en CA, desactiva la pantalla después de 10 minutos  <br/> Power Management: \> en CA, nunca ponga el sistema en suspensión  <br/> |Permite Salas de Microsoft Teams para desactivar las pantallas adjuntas y reactivar automáticamente  <br/> |
+|Power Management:\> en CA, desactiva la pantalla después de 10 minutos  <br/> Power Management:\> en CA, nunca ponga el sistema en suspensión  <br/> |Permite Salas de Microsoft Teams para desactivar las pantallas adjuntas y reactivar automáticamente  <br/> |
 |net accounts /maxpwage:unlimited  <br/> O medios alternativos para deshabilitar la opción de caducidad de la contraseña en la cuenta local. Si esto no se realiza, la cuenta de Skype no podrá iniciar sesión indicando que la contraseña ha caducado. Tenga en cuenta que esto afectará todas las cuentas locales de la máquina y, por consiguiente, si no se configura esto, la cuenta administrativa del cuadro eventualmente también caducará.   <br/> |Permite que la cuenta de Skype siempre inicie sesión  <br/> |
 
 > [!NOTE]
@@ -128,7 +148,7 @@ Por ejemplo, puede habilitar PowerShell remoto de esta manera:
 1. Inicie sesión como administrador en Salas de Microsoft Teams dispositivo.
 2. Abra un símbolo del sistema de PowerShell con privilegios elevados.
 3. Escriba el siguiente comando: `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. Abra la directiva de seguridad local y agregue el grupo de seguridad *Administradores* a Seguridad **Configuración** Directivas locales Asignación de derechos de usuario Acceso a este equipo  >    >    >  **desde la red.**
+4. Abra la directiva de seguridad local y agregue el grupo de seguridad *Administradores* a Security **Configuración** >  **Local PoliciesUser** >  **Rights AssignmentAccess** >  **este equipo desde la red**.
 
 Para ejecutar una operación de administración:
   
@@ -136,7 +156,7 @@ Para ejecutar una operación de administración:
 2. Abra un símbolo del sistema de PowerShell normal en el equipo.
 3. Copie el texto del comando de la tabla siguiente y péguelo en el mensaje.
 4. Reemplace  `<Device fqdn>` campos con valores FQDN adecuados para su entorno.
-5. Reemplace por el nombre de archivo y la ruta  *\<path\>*  de acceso local del patrón SkypeSettings.xml de configuración (o imagen del tema).
+5. Reemplace  *\<path\>*  por el nombre de archivo y la ruta de acceso local del patrón SkypeSettings.xml de configuración (o imagen del tema).
     
 Para obtener dispositivos adjuntos
   
@@ -191,12 +211,12 @@ De forma predeterminada, Salas de Microsoft Teams intenta conectarse a Windows S
   
 Salas de Microsoft Teams se conecta a Windows update para recuperar las actualizaciones de firmware de dispositivos periféricos y del sistema operativo. Teams room está configurado para instalarlos a partir de las 2:00 a.m. hora local.
   
-Si debe administrar las actualizaciones manualmente debido a limitaciones en el acceso Windows la tienda y, por lo tanto, no puede seguir el procedimiento normal de [Microsoft Store para Empresas](https://businessstore.microsoft.com/store) para distribuir aplicaciones sin [conexión,](/microsoft-store/distribute-offline-apps)puede adquirir el archivo APPX adecuado y las dependencias del [kit](https://go.microsoft.com/fwlink/?linkid=851168) de implementación (de las instrucciones para Configurar [un Salas de Microsoft Teams consola](console.md)) que se puede usar con Configuration Manager. La versión del kit de implementación se encuentra por detrás de la versión de store, por lo que es posible que no coincida siempre con la compilación disponible más reciente.
+Si debe administrar las actualizaciones manualmente debido a limitaciones en el acceso Windows la tienda y, por lo tanto, no puede seguir el procedimiento normal de [Microsoft Store para Empresas](https://businessstore.microsoft.com/store) para distribuir aplicaciones sin [conexión, puede](/microsoft-store/distribute-offline-apps) adquirir el archivo APPX adecuado y las dependencias del [kit](https://go.microsoft.com/fwlink/?linkid=851168) de implementación (de las instrucciones para Configurar [un Salas de Microsoft Teams consola](console.md)) que se puede usar con Configuration Manager. La versión del kit de implementación se encuentra por detrás de la versión de store, por lo que es posible que no coincida siempre con la compilación disponible más reciente.
   
 ### <a name="to-update-using-powershell"></a>Para actualizar con PowerShell
 
 1. Extraiga el paquete del [MSI de instalación](https://go.microsoft.com/fwlink/?linkid=851168) a un recurso compartido al que puede acceder el dispositivo.
-2. Ejecute el siguiente script dirigido a Salas de Microsoft Teams dispositivos, cambiando al \<share\> recurso compartido de dispositivos según corresponda:
+2. Ejecute el siguiente script dirigido a Salas de Microsoft Teams dispositivos, cambiando \<share\> al recurso compartido de dispositivos según corresponda:
     
     ```PowerShell
     Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
@@ -210,7 +230,7 @@ Algunas funciones de administración, como instalar manualmente un certificado d
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Cambiar al modo administrador y volver cuando la aplicación Salas de Microsoft Teams está ejecutándose
 
 1. Cuelgue las llamadas en curso y vuelva a la pantalla principal.
-2. Selecciona el icono Engranaje y muestra el menú (las opciones son **Configuración,** **Accesibilidad** y **Reiniciar dispositivo).**
+2. Selecciona el icono Engranaje y muestra el menú (las opciones son **Configuración**, **Accesibilidad** y **Reiniciar dispositivo**).
 3. Seleccione **Configuración**.
 4. Escriba la contraseña del administrador. Se abrirá la pantalla Configuración.  Si el dispositivo no está unido a un dominio, la cuenta administrativa local (nombre de usuario "Administrador") se usará de forma predeterminada. La contraseña predeterminada para esta cuenta es "sfb". Cambie esta contraseña lo antes posible. Si el equipo está unido a un dominio, puede iniciar sesión con una cuenta de dominio con privilegios adecuados.
 5. Seleccione **Windows Configuración** en la columna izquierda.

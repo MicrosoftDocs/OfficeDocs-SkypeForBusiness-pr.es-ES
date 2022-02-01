@@ -1675,8 +1675,36 @@ items:
       - name: Teams para el comercio
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
+          - name: Colaboración de equipos minoristas
+            href: expand-teams-across-your-org/retail-team-collaboration.md
+          - name: Simplifique los procesos empresariales en el sector minorista
+            href: expand-teams-across-your-org/retail-business-processes.md
           - name: Usar plantillas de equipo de venta al por menor
             href: get-started-with-retail-teams-templates.md
+          - name: Asistente para la incorporación de trabajadores de primera línea
+            href: flw-onboarding-wizard.md
+          - name: Implementación mediante scripts para trabajadores de primera línea
+            href: flw-scripted-deployment.md
+          - name: Turnos para Teams
+            items:
+              - name: Turnos para Teams
+                href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
+              - name: Administrar la aplicación Turnos para su organización en Teams
+                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+              - name: Administración del acceso basado en turnos
+                href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
+          - name: Walkie-talkie
+            href: walkie-talkie.md
+          - name: RealWear
+            href: flw-realwear.md
+          - name: Administrar la aplicación Elogiar
+            href: manage-praise-app.md
+          - name: Administrar la aplicación Tasks para su organización
+            href: manage-tasks-app.md
+          - name: Administrar la aplicación Listas para su organización en Teams
+            href: manage-lists-app.md
+          - name: Administrar la aplicación Aprobaciones
+            href: approval-admin.md
   - name: Referencia
     items:
       - name: Especificaciones y límites de Teams
@@ -1726,8 +1754,10 @@ items:
                 href: exchange-hybrid-organization.md
               - name: Usar las reglas de flujo de correo con Exchange
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
-          - name: Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams
-            href: sharepoint-onedrive-interact.md
+          - name: Información general sobre la integración de Teams y SharePoint
+            href: /sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+          - name: Administrar la configuración de integración de SharePoint y Teams
+            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
       - name: PowerShell para Teams
         items:
           - name: Información general

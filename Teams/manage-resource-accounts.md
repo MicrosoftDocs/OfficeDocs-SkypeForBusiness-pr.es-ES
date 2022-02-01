@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: En este artículo, aprenderá a crear, editar y administrar cuentas de recursos en Microsoft Teams.
-ms.openlocfilehash: 8e271900958362934a51700b98f1ed944ace9f56
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 11ba1600ca1da807711d4bd977abf1adfa09a612
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180913"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62299035"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -41,13 +41,16 @@ Antes de iniciar los procedimientos de este artículo, asegúrese de que ha hech
 - [Obtener licencias de usuario virtual](#obtain-virtual-user-licenses)
 - [Obtener números de servicio](#obtain-service-numbers)
 
+> [!NOTE]
+> Las cuentas de recursos están deshabilitadas para iniciar sesión y deben permanecer así. El chat y la presencia no son disponibles para estas cuentas.
+
 ### <a name="obtain-virtual-user-licenses"></a>Obtener licencias de usuario virtual
 
-Cada cuenta de recurso requiere una licencia para trabajar con operadores automáticos y colas de llamadas. Puede usar una licencia *Microsoft 365 Sistema telefónico : usuario* virtual. Para obtener estas licencias, vea [Licencia de usuario virtual.](teams-add-on-licensing/virtual-user.md)
+Cada cuenta de recurso requiere una licencia para trabajar con operadores automáticos y colas de llamadas. Puede usar una licencia *Microsoft 365 Sistema telefónico : usuario* virtual. Para obtener estas licencias, vea [Licencia de usuario virtual](teams-add-on-licensing/virtual-user.md).
 
 Tratamos cómo asignar la licencia a una cuenta de recursos más adelante en este artículo.
 
-Para obtener la licencia de usuario virtual, en el Centro de administración de Microsoft 365, vaya a Suscripciones de complemento de servicios de compra de facturación y desplácese hasta el final , verá Sistema telefónico - Licencia de usuario  >    >   *virtual.* Selecciona **Comprar ahora**. Hay un coste cero, pero debe seguir estos pasos para adquirir la licencia.
+Para obtener la licencia de usuario virtual, en el Centro de administración de Microsoft 365, vaya a **BillingPurchase** >  **servicesAdd-on** >  subscriptions y desplácese hasta el final - verá Sistema telefónico *- Licencia* de usuario virtual. Selecciona **Comprar ahora**. Hay un coste cero, pero debe seguir estos pasos para adquirir la licencia.
 
 ### <a name="obtain-service-numbers"></a>Obtener números de servicio
 
@@ -65,11 +68,11 @@ Puede crear una cuenta de recursos en el centro Teams administración.
 
 ![Captura de pantalla de la interfaz de usuario agregar cuenta de recursos.](media/resource-account-add.png)
 
-1. En el Teams de administración, expanda **Voz** y, a continuación, haga clic **en Cuentas de recursos.**
+1. En el Teams de administración, expanda **Voz** y, a continuación, haga clic en **Cuentas de recursos**.
 
 2. Haga clic en **Agregar**.
 
-3. En el **panel Agregar cuenta de recursos,** rellene **Nombre** para mostrar, Nombre de **usuario** y el tipo de **cuenta Recurso.** El tipo de cuenta de recurso puede ser **Operador automático** o Cola **de** llamadas, dependiendo de cómo se va a usar esta cuenta de recursos.
+3. En el **panel Agregar cuenta de recursos** , rellene **Nombre** para mostrar, **Nombre de usuario** y el **tipo de cuenta Recurso**. El tipo de cuenta de recurso puede ser **Operador automático** o Cola **de** llamadas, dependiendo de cómo se va a usar esta cuenta de recursos.
 
 4. Haga clic en **Guardar**.
 
@@ -77,13 +80,13 @@ Puede crear una cuenta de recursos en el centro Teams administración.
 
 ## <a name="assign-a-license"></a>Asignar una licencia
 
-Para cada cuenta de recurso, debe asignar una *Microsoft 365 Sistema telefónico: licencia* de usuario virtual *o Sistema telefónico* usuario.
+Para cada cuenta de recurso, debe asignar una Microsoft 365 Sistema telefónico *: licencia* de usuario virtual *o Sistema telefónico* usuario.
 
 ![Captura de pantalla de la interfaz de usuario asignar licencias en el Centro de administración de Microsoft 365.](media/resource-account-assign-virtual-user-license.png)
 
 1. En el Centro de administración de Microsoft 365, haga clic en la cuenta de recursos a la que desea asignar una licencia.
 
-2. En la **pestaña Licencias y aplicaciones,** en **Licencias,** **seleccione Microsoft 365 Sistema telefónico - Usuario virtual.**
+2. En la **pestaña Licencias y aplicaciones**, en **Licencias**, seleccione **Microsoft 365 Sistema telefónico - Usuario virtual**.
 
 3. Haga clic en **Guardar cambios**.
 
@@ -93,11 +96,11 @@ Si va a usar la cuenta de recursos con un operador automático o una cola de lla
 
 ![Captura de pantalla de la interfaz de usuario asignar número de servicio.](media/resource-account-assign-phone-number.png)
 
-1. En el Teams de administración,  en la página Cuentas de recursos, seleccione la cuenta de recursos a la que desea asignar un número de servicio y, a continuación, haga clic en Asignar **o desasignación.**
+1. En el centro Teams administración, en la página Cuentas de  recursos, seleccione la cuenta de recursos a la que desea asignar un número de servicio y, a continuación, haga clic en Asignar **o desasignación**.
 
-2. En el **Teléfono de tipo de número,** elija el tipo de número que desea usar.
+2. En el **Teléfono desplegable tipo de número**, elija el tipo de número que desea usar.
 
-3. En el **cuadro Número de teléfono** asignado, busque el número que desea usar y haga clic en **Agregar.**
+3. En el **cuadro Número de teléfono asignado** , busque el número que desea usar y haga clic en **Agregar**.
 
 4. Haga clic en **Guardar**.
 
@@ -116,18 +119,18 @@ Vea las siguientes referencias:
 
  - [Cola de llamadas en la nube](create-a-phone-system-call-queue.md)
 
-Puede editar la cuenta de recursos Nombre para **mostrar** y **Tipo de** cuenta de recursos con la **opción** Editar. Haga **clic en** Guardar cuando haya terminado.
+Puede editar la cuenta de recursos **Nombre para mostrar** y **Tipo de cuenta de** recursos con la **opción** Editar. Haga **clic en** Guardar cuando haya terminado.
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Cambiar una cuenta de recurso existente para usar una licencia de usuario virtual
 
-Si decide cambiar las licencias de su cuenta de recursos existente de una licencia **de Sistema telefónico a** una licencia de usuario virtual, tendrá que adquirir la licencia de usuario virtual gratuita y, a continuación, siga los pasos del Centro de administración de Microsoft 365 para mover usuarios [a](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)otra suscripción.
+Si decide cambiar las licencias de su cuenta de recursos existente de una licencia de **Sistema telefónico a** una licencia de usuario virtual, tendrá que adquirir la licencia de usuario virtual gratuita y, a continuación, siga los pasos del Centro de administración de Microsoft 365 para mover usuarios a otra [suscripción.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
 > Quite siempre una licencia Sistema telefónico licencia completa y asigne la licencia de usuario virtual en la misma actividad de licencia. Si quita la licencia antigua, guarda los cambios de la cuenta, agrega la nueva licencia y, a continuación, vuelve a guardar la configuración de la cuenta, es posible que la cuenta de recursos ya no funcione según lo esperado. Si esto sucede, le recomendamos que cree una nueva cuenta de recursos para la licencia de usuario virtual y quite la cuenta de recursos rota.
 
 ## <a name="skype-for-business-server-2019"></a>Skype Para Empresas Server 2019
 
-Para las cuentas de recursos de Skype For Business Server 2019 que se pueden usar con colas de llamadas en la nube y operadores automáticos en la nube, vea [Planear](/SkypeforBusiness/hybrid/plan-call-queue) colas de llamadas en la nube o Planear operadores automáticos en la [nube.](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant) Las implementaciones híbridas (números de enrutamiento directo) se configuran con el cmdlet [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) en un servidor local Skype Empresarial Server 2019.
+Para las cuentas de recursos de Skype For Business Server 2019 que se pueden usar con colas de llamadas en la nube y operadores automáticos en la nube, vea [Planear](/SkypeforBusiness/hybrid/plan-call-queue) colas de llamadas en la nube o [Operadores automáticos de Plan Cloud](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant). Las implementaciones híbridas (números de enrutamiento directo) se configuran con el cmdlet [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) en un servidor local Skype Empresarial Server 2019.
 
 Los IDs de aplicación que necesita usar al crear las instancias de la aplicación son:
 
@@ -135,7 +138,7 @@ Los IDs de aplicación que necesita usar al crear las instancias de la aplicaci�
 - **Cola de llamadas:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> Si desea que los usuarios de Skype Para Business Server 2019 puedan buscar la cola de llamadas o el operador automático, debe crear sus cuentas de recursos en Skype For Business Server 2019, ya que las cuentas de recursos en línea no se sincronizan con Active Directory. Cuando los registros SRV dns para sipfederationtls se resuelven en  Skype Empresarial Server 2019, las cuentas de recursos deben crearse en Skype For Business Server 2019 con el shell de administración de SfB y sincronizarse Azure AD.
+> Si desea que los usuarios de Skype Para Business Server 2019 puedan buscar la cola de llamadas o el operador automático, debe crear sus cuentas de recursos en Skype For Business Server 2019, ya que las cuentas de recursos en línea no se sincronizan con Active Directory. Cuando los registros SRV dns para sipfederationtls se resuelven en Skype Empresarial Server 2019, se deben crear cuentas  de recursos en Skype Para Business Server 2019 con el shell de administración de SfB y sincronizarse con Azure AD.
 
 Para implementaciones que son híbridas con Skype Empresarial Server:
 

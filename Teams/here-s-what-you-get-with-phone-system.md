@@ -22,21 +22,21 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre las características, la disponibilidad y cómo planear y configurar Microsoft Teams Sistema telefónico para su empresa. '
-ms.openlocfilehash: 1643e0fe9bd877f627ec186e405bb155635f9f74
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 79712a9e3f9221c0aa6d256253d76e266cbbe658
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180943"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62299075"
 ---
 # <a name="heres-what-you-get-with-teams-phone"></a>Esto es lo que obtienes con Teams Teléfono
 
-En este artículo se describen Teams Teléfono características. Para obtener más información sobre el uso de Teams Teléfono como su reemplazo de Exchange (PBX) de la rama privada y las opciones para conectarse a la red telefónica conmutada (RTC), vea Qué Teams Teléfono [.](what-is-phone-system-in-office-365.md)
+En este artículo se describen Teams Teléfono características. Para obtener más información sobre el uso de Teams Teléfono Exchange como su reemplazo de pbx (PBX) de la rama privada y las opciones para conectarse a la red telefónica conmutada (RTC), vea Qué [Teams Teléfono.](what-is-phone-system-in-office-365.md)
 
 Los clientes están disponibles para PC, Mac y dispositivos móviles, lo que proporciona características en dispositivos desde tabletas y teléfonos móviles hasta equipos PC y teléfonos IP de escritorio. Para obtener más información, vea [Obtener clientes para Microsoft Teams](get-clients.md).
 
  > [!Note]
-> Para obtener más información Teams sistemas telefónicos en diferentes plataformas, vea [Teams características por plataforma.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+> Para obtener más información Teams sistemas telefónicos en diferentes plataformas, [vea Teams características por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 Para usar Teams Teléfono características, su organización debe tener una Sistema telefónico licencia. Para obtener más información sobre las licencias, vea [Licencias complementarias de Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -48,7 +48,7 @@ Teams Teléfono proporciona las siguientes características.
   
 |Teams Teléfono característica  |Descripción |
 |:-----|:-----|
-|[Operadores automáticos en la nube](what-are-phone-system-auto-attendants.md)  |Le permite crear un sistema de menús que permite a los autores de llamadas externos e internos localizar y realizar o transferir llamadas a usuarios o departamentos de la empresa de su organización.  <br/> Tenga en cuenta *que los usuarios no* necesitan estar habilitados para recibir llamadas del operador automático. |
+|[Operadores automáticos en la nube](what-are-phone-system-auto-attendants.md)  |Le permite crear un sistema de menús que permite a los autores de llamadas externos e internos localizar y realizar o transferir llamadas a usuarios o departamentos de la empresa de su organización.  <br/> Tenga en cuenta que *los usuarios no* necesitan tener habilitada la voz para recibir llamadas desde el operador automático marcado por nombre, marcado por búsqueda de directorio de números. Los *usuarios* necesitan tener habilitada la voz para recibir llamadas desde las opciones de menú del operador automático. |
 |[Colas de llamadas en la nube](create-a-phone-system-call-queue.md) <br> |Le permite configurar cómo se administran las colas de llamadas para su organización: por ejemplo, configurar saludos y música en espera, buscar el siguiente agente de llamada disponible para administrar la llamada, y así sucesivamente.  <br/> Tenga en cuenta que *los usuarios* necesitan estar habilitados para recibir llamadas desde una cola de llamadas.|
 |[Música en espera](music-on-hold.md) | Reproduce música predeterminada definida por el servicio o música personalizada cargada por el administrador de inquilinos cuando una llamada externa de la red telefónica conmutada (RTC) está en espera. Esta característica funciona para llamadas RTC a Teams llamadas, además de las llamadas realizadas a una cola de llamadas. Esta característica proporciona paridad de notificaciones en espera con otras plataformas. |
 |Iniciar/responder llamadas (por nombre y número)   |Permite a los usuarios responder llamadas entrantes con un toque y realizar llamadas salientes marcando el número de teléfono completo o haciendo clic en un nombre en el cliente.   |
@@ -64,8 +64,8 @@ Teams Teléfono proporciona las siguientes características.
 |[Teclado de marcado integrado](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89)  | Permite a los usuarios marcar por nombre o por número en cualquier lugar de la barra de búsqueda y en el teclado de marcado, acelerando el proceso de realizar llamadas salientes.  |
 |Llamadas federadas   |Permite a los usuarios conectarse, comunicarse y colaborar de forma segura con los usuarios de inquilinos federados.   |
 |[Realizar y recibir una videollamada](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42)  | Si la cuenta del usuario está habilitada para videollamadas, el usuario puede realizar videollamadas cara a cara con sus contactos. Todo lo que necesitan es una cámara, los altavoces y el micrófono de su equipo. Los usuarios también pueden usar auriculares si su equipo no tiene un dispositivo de audio integrado. |
-|[Correo de voz en la nube](set-up-phone-system-voicemail.md)  | Cuando un usuario recibe un correo de voz, se entrega a su buzón de Exchange como correo electrónico con el mensaje de correo de voz como datos adjuntos. Los usuarios pueden escuchar sus mensajes en su teléfono de escritorio certificado y en todas Teams o Skype Empresarial aplicaciones. El soporte para la transcripción del correo de voz se ha agregado a partir de marzo de 2017 y está habilitado de forma predeterminada para todas las organizaciones y usuarios. <br> Tenga en cuenta que *los* usuarios no necesitan una licencia *Sistema telefónico,* ni necesitan tener habilitada la voz para usar Correo de voz en la nube características.    |
-|[Correo de voz en la nube de usuario](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | Permite a los usuarios configurar la configuración del cliente para saludos de correo de voz, reglas de respuesta de llamadas e idioma de saludo, incluidos los saludos fuera de la oficina. <br> Tenga en cuenta que *los* usuarios no necesitan una licencia *Sistema telefónico,* ni necesitan tener habilitada la voz para usar Correo de voz en la nube características.  |
+|[Correo de voz en la nube](set-up-phone-system-voicemail.md)  | Cuando un usuario recibe un correo de voz, se entrega a su buzón de Exchange como correo electrónico con el mensaje de correo de voz como datos adjuntos. Los usuarios pueden escuchar sus mensajes en su teléfono de escritorio certificado y en todas Teams o Skype Empresarial aplicaciones. El soporte para la transcripción del correo de voz se ha agregado a partir de marzo de 2017 y está habilitado de forma predeterminada para todas las organizaciones y usuarios. <br> Tenga en cuenta *que los* usuarios no necesitan una licencia *Sistema telefónico, ni* necesitan tener habilitada la voz para usar Correo de voz en la nube características.    |
+|[Correo de voz en la nube de usuario](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | Permite a los usuarios configurar la configuración del cliente para saludos de correo de voz, reglas de respuesta de llamadas e idioma de saludo, incluidos los saludos fuera de la oficina. <br> Tenga en cuenta *que los* usuarios no necesitan una licencia *Sistema telefónico, ni* necesitan tener habilitada la voz para usar Correo de voz en la nube características.  |
 |[Timbre secundario](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)  | Los usuarios con varios dispositivos de altavoz conectados a su PC pueden elegir configurar un dispositivo secundario para que suene además de su altavoz predeterminado. Por ejemplo, un usuario con auriculares conectados al equipo y altavoces de escritorio puede elegir que los altavoces de auriculares y de escritorio suene cuando se produce una llamada para que no se pierda una llamada.  |
 |[Alertas de anillo distintivo](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (solo Teams) |Permite a los usuarios elegir tonos separados para llamadas normales, llamadas reenviadas y llamadas delegadas para que puedan distinguir el tipo de llamada.   |
 |[Apariencia de línea compartida](shared-line-appearance.md)  | Permite a los usuarios compartir su línea telefónica para que otro usuario pueda realizar y recibir llamadas en su nombre.|
