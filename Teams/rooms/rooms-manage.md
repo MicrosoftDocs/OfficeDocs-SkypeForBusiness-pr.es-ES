@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo desarrollar y ejecutar operaciones y mantenimiento continuos para asegurarse de que sus Salas de Microsoft Teams están disponibles para los usuarios.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 02faaec97837f61befaa5320f7d73b84e33d25c2
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: 72e6a89e23ddb8874c6fe9e262759d2aab4522e7
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299005"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312253"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Administrar Salas de Microsoft Teams
 
@@ -117,7 +117,7 @@ La fila frontal es la opción de diseño de vista de reunión Salas de Teams en 
 
 | Teams dispositivo | Versión de la aplicación | Pantalla frontal de la sala |
 |--------------|-------------|-----------------------|
-|Salas de Microsoft Teams en Windows | 4.11.14.0 a 4.11.12.0 | Admite pantallas sencillas y dobles; Tamaño mínimo: 46 pulgadas; Relación de aspecto 16:9 con resolución 1920*1080 o 21:9 con resolución 2560x1080; Todas las pantallas deben establecerse en un escalado del 100 % en Windows configuración |
+|Salas de Microsoft Teams en Windows | 4.11.12.0 o posterior (se recomienda la versión más reciente) | Admite pantallas sencillas y dobles; Tamaño mínimo: 46 pulgadas; Relación de aspecto 16:9 con resolución 1920*1080 o 21:9 con resolución 2560x1080; Todas las pantallas deben establecerse en un escalado del 100 % en Windows configuración |
 
 Vea [Salas de Microsoft Teams mantenimiento y operaciones](rooms-operations.md#change-scale-and-resolution), para ajustar la configuración de la pantalla para cumplir los requisitos de la fila frontal.
 

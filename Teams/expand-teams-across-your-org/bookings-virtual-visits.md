@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Obtenga información sobre cómo usar la aplicación Bookings en Teams programar, administrar y realizar visitas virtuales.
-ms.openlocfilehash: 8d4ac6effa95751fa75a77d09b941bc74fa96af2
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: ae74a4195bc8aa0deeca81221e70fe28890938ec
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288559"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312353"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuales con Microsoft Teams y la aplicación Bookings
 
@@ -36,7 +36,7 @@ La [aplicación Bookings en](https://support.microsoft.com/office/what-is-bookin
 
 La aplicación Bookings facilita la administración de las complejas demandas de programación de cualquier organización. Los programadores pueden administrar varios calendarios de departamento y de personal, así como las comunicaciones con los asistentes internos y externos desde una sola experiencia.
 
-Las visitas virtuales se realizarán a través Microsoft Teams reuniones, lo que ofrece sólidas capacidades de videoconferencia. Por ejemplo, un médico puede compartir su pantalla y revisar los resultados de las pruebas con un paciente. O bien, un asesor bancario puede solicitar firmas electrónicas en los documentos, lo que les permite cerrar transacciones de forma remota.
+Las visitas virtuales se realizarán Microsoft Teams reuniones, que ofrecen funciones de videoconferencia sólidas. Por ejemplo, un médico puede compartir su pantalla y revisar los resultados de las pruebas con un paciente. O bien, un asesor bancario puede solicitar firmas electrónicas en los documentos, lo que les permite cerrar transacciones de forma remota.
 
 Cada cita virtual incluye un vínculo Teams reunión que se envía a los asistentes por correo electrónico, donde pueden unirse fácilmente desde un explorador web o Teams en cualquier dispositivo. Los avisos de correo electrónico automatizados ayudan a reducir la falta de presentaciones y a mejorar la participación de clientes y clientes.
 
@@ -72,7 +72,7 @@ Para obtener más información, vea [Crear un calendario de Bookings](https://su
 
 ### <a name="add-staff"></a>Agregar personal
 
-En el calendario de reservas, vaya a **Más opciones** (...) > **Configuración** y, a continuación, seleccione **Personal**. Agregue miembros del personal y asigne un rol a cada persona que agregue.
+En el calendario de reservas, vaya a **Más opciones** (...) > **Configuración** y, a continuación, seleccione **Personal**. Agregue miembros del personal y asigne un rol a cada persona que agregue. Puede agregar hasta 100 miembros del personal a un calendario de reserva.
 
 La aplicación Bookings se integra con Outlook. Después de agregar personal, podrá ver la disponibilidad del calendario de esa persona y programar reservas para ellos. Para obtener más información, vea [Agregar personal y ver un calendario de Bookings](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
 
@@ -96,6 +96,19 @@ La confirmación por correo electrónico enviada al asistente incluye el víncul
 
 En su Teams o Outlook, vaya a la reserva y, a continuación, seleccione Unirse o el  vínculo Teams reunión. Compruebe la configuración de audio y vídeo y, a continuación, seleccione **Unirse ahora**. Para obtener más información, consulte [Realizar una cita de Bookings](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
+## <a name="monitor-virtual-visits-and-get-real-time-status-updates"></a>Supervisar las visitas virtuales y obtener actualizaciones de estado en tiempo real
+
+La [vista de cola](https://support.microsoft.com/office/queue-view-in-bookings-3eea2840-a1e0-4bcd-8e09-d3cf51c184d6) de Bookings proporciona a su personal un panel para supervisar todas las citas virtuales del día, con actualizaciones en tiempo real. Para ver la cola, vaya a la **pestaña Cola** en Bookings.
+
+:::image type="content" source="../media/bookings-virtual-visits-queue.png" alt-text="Captura de pantalla de la vista de cola en la aplicación Bookings en Teams" lightbox="../media/bookings-virtual-visits-queue.png":::
+
+Desde la cola, los programadores pueden agregar una nueva reserva, ver detalles de cita relevantes y ver los estados de cita durante todo el día. Cuando un paciente se une a la sala de espera, el estado cambia y su tiempo de espera se muestra y realiza un seguimiento. La vista se actualiza automáticamente con actualizaciones codificadas por colores para que los cambios se puedan identificar fácilmente.
+
+El personal puede incluso unirse y administrar citas directamente desde la cola.
+
+> [!NOTE]
+> Actualmente, la aplicación Bookings admite la suma de hasta 100 empleados por calendario de reserva. Si usó Graph API para configurar y agregar personal a un calendario de reserva, es posible que este límite no se aplique. En este escenario, la **pestaña** Cola no podrá representar contenido para calendarios con más de 100 docentes. Para una experiencia óptima, le recomendamos que no agregue más de 100 empleados a un calendario de reservas. Estamos trabajando para resolver esta limitación en futuras versiones.
+
 ## <a name="additional-capabilities-with-the-bookings-web-app"></a>Funcionalidades adicionales con la aplicación web Bookings
 
 La aplicación web Bookings le ofrece capacidades adicionales. Por ejemplo, puede publicar una página de reserva en línea de autoservicio en la que los usuarios pueden programar citas con su personal. Para acceder a la aplicación web de Bookings, vaya a **Más opciones** (...) > **abrir la aplicación web de Bookings**.
@@ -104,8 +117,8 @@ Para obtener más información, consulte [Microsoft Bookings](/microsoft-365/boo
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-[Administrar la experiencia de combinación para Teams visitas virtuales en exploradores móviles](mobile-browser-join.md)
+- [Administrar la experiencia de combinación para Teams visitas virtuales en exploradores móviles](mobile-browser-join.md)
 
-[Introducción a las Teams para organizaciones sanitarias](healthcare/teams-in-hc.md)
+- [Introducción a las Teams para organizaciones sanitarias](healthcare/teams-in-hc.md)
 
-[La aplicación Bookings en Teams documentación de ayuda](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
+- [La aplicación Bookings en Teams documentación de ayuda](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)

@@ -46,10 +46,10 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
       summary: 'Obtenga información sobre cómo Teams puede ayudar a organizar su jornada y hacer que resulte más fácil estar conectado con los compañeros. (Público: Todos)'
       url: 'https://aka.ms/TeamsProTips'
-    - title: Domine el trabajo desde casa con Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
-      summary: 'Obtenga más información sobre los procedimientos recomendados para permanecer conectado con su equipo y mantener la productividad. (Público: Todos)'
-      url: 'https://aka.ms/WFHTeams'
+    - title: Microsoft Teams en YouTube
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
+      summary: 'Suscríbase y sea el primero en obtener información sobre las últimas características, sugerencias y trucos, y mucho más. (Público: Todos)'
+      url: 'https://www.youtube.com/MicrosoftTeams'
     - title: 'Teams para el ámbito educativo: seminarios web'
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
       summary: 'Aprenda a usar Teams en entorno de la Educación superior. (Público: empleados, alumnos, profesores, investigadores, profesionales de TI)'
