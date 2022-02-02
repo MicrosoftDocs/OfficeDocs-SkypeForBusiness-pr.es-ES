@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Obtenga información acerca de cómo buscar y agregar usuarios de fuera de la organización en Microsoft Teams, así como cómo llamarlos y chatear con ellos, mediante el acceso externo (federación) y el acceso de invitado.
-ms.openlocfilehash: 63077f500f1cf4953abf200913d39c37846eb4e5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ab6a15edc1aa8d0de6f77b96ed176171ff5d65ae
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763078"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288438"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Usar el acceso de invitados y el acceso externo para colaborar con personas fuera de su organización
 
@@ -45,7 +45,7 @@ De forma predeterminada, el acceso externo está habilitado para todos los domin
 Para configurar el acceso externo, vea [Administrar el acceso externo](manage-external-access.md). 
 
 >[!NOTE]
->Las licencias gratuitas de Microsoft Teams no admiten el acceso externo.
+> Las licencias de [Microsoft Teams gratuito (clásico)](https://support.microsoft.com/office/welcome-to-microsoft-teams-free-classic-6d79a648-6913-4696-9237-ed13de64ae3c) no admiten el acceso externo.
 
 ## <a name="guest-access"></a>Acceso de invitado
 
