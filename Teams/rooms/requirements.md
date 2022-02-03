@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga información sobre los requisitos para admitir Salas de Microsoft Teams, como elegir el dispositivo, los micrófonos, los altavoces, las cámaras y las pantallas adecuados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9525c4dba78cc26c3d45ee4ee5831eb3deee93a5
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: 0609fc0267a20d716d897ad4782842395b9835b1
+ms.sourcegitcommit: 5e9a8d3cdb72b57adfb842200159c5d753b70ecb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299045"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62329050"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de la sala de Microsoft Teams
 
@@ -139,6 +139,9 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ Camera](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
+|Cámara Huddly L1 con [kit de MTR Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) | Cámara Huddly L1: 1.2.1 </br> Crestron UC-C100-T con ASUS Tek Computer INC 9934 calcula 1.0.20.246 o superior |
+|Cámara Huddly L1 con kit de MTR UC-M70-T de Crestron | Cámara Huddly L1: 1.2.1 </br> Crestron UC-M70-T con ASUS Tek Computer INC 9934 calcula 1.0.20.246 o superior |
+|Cámara Huddly L1 con kit de MTR Crestron UC-MX70-T | Cámara Huddly L1: 1.2.1 </br> Crestron UC-MX70-T con ASUS Tek Computer INC 9934 calcula 1.0.20.246 o superior |
 |[Cámara Jabra Panacast3](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
 |[Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|1.13.7| &#x2714; |
 |[Cámara De Cámara ThinkSmart de Lenovo](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
@@ -191,7 +194,7 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |[Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/products/mixers/p300) + </br></br> [Shure MXA 910 con micrófono de matriz de techo de Intellimix](https://www.shure.com/products/microphones/mxa910) +</br></br> [Altavoz de techo MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> Micrófono MXA910 Ceiling Array: 4.1.41 </br> Altavoz MXN5W-C: 1.0.4 |
 |[Shure MXA 710 2ft Table Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/products/mixers/p300) +</br></br> [Altavoz de techo MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Altavoz MXN5-C: 1.1.1 |
 |[Shure MXA 710 4ft Wall Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/products/mixers/p300) +</br></br> [Altavoz de techo MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Altavoz MXN5-C: 1.1.1 |
-|[Shure MXA 910 con micrófono de matriz de techo intellimix](https://www.shure.com/products/microphones/mxa910) + </br> [Software de sala Intellimix de Shure](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Software de sala Intellimix de Shure: 3.0.4.14 </br> Shure MXA 910 con micrófono de matriz de techo intellimix: 4.4.11 </br> Shure MXN5-C Altavoces: 1.2.1 </br> Crestron UC-C100-T: versión del sistema operativo IOT 19h2/20h2 de Windows con la versión 4.8.31.0 de la aplicación MTR </br> BIOS: ASUS Tek Computer INC 9934 8/27/2020 </br> CPU: i5-9500TCPU/i7-9700T </br> Memoria física: 8 GB de RAM | 
+|[Shure MXA 910 con micrófono de matriz de techo intellimix](https://www.shure.com/products/microphones/mxa910) + </br> [Software de sala Intellimix de Shure](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Software de sala Intellimix de Shure: 3.0.4.14 </br> Shure MXA 910 con micrófono de matriz de techo intellimix: 4.4.11 </br> Shure MXN5-C Altavoces: 1.2.1 </br> Crestron UC-C100-T con el proceso ASUS Tek Computer INC 9934 | 
 |[Biamp Tesira Fore AVB VT4 audio fijo DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Micrófono de techo 2 Sennheiser TeamConnect](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Micrófono de techo Biamp Parlé TCM-XA](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Altavoz de techo biamp Desono C-IC6](https://www.biamp.com/products/tesira-speakers)| Versión de AUDIO FW: 3.15|
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |Versión de AUDIO FW: 3.15|
