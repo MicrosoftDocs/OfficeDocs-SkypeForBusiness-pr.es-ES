@@ -16,12 +16,12 @@ f1.keywords:
 description: 'Teams caso de voz para la corporación multinacional: sistema telefónico'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1221ff8fe47e26f04df621f99a0d4cd1a85a3205fcede766b7cc78189251708
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c83cd07cb8943c19b783658a15db99351d11f995
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316596"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353375"
 ---
 # <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Caso práctico de Contoso: Sistema telefónico para una corporación multinacional
 
@@ -34,7 +34,7 @@ Según la ubicación geográfica y otros factores, Contoso tenía oficinas con l
 - Tipo de sitio C: una combinación de Skype Empresarial Telefonía IP empresarial y sistemas de telefonía heredados tradicionales
 
 
-Para implementar una solución del sistema Teléfono Microsoft para toda su organización, Contoso tenía que determinar para cada tipo de sitio cuál de las siguientes opciones se usaría con Sistema telefónico para conectarse a la red telefónica conmutada &mdash; &mdash; (RTC):
+Para implementar una solución de Teléfono Microsoft System para toda su organización, Contoso&mdash;&mdash; tenía que determinar para cada tipo de sitio qué opciones siguientes se usarían con Sistema telefónico para conectarse a la red telefónica conmutada (RTC):
 
 - Sistema telefónico con plan de llamadas 
 
@@ -42,13 +42,13 @@ Para implementar una solución del sistema Teléfono Microsoft para toda su orga
 
 - Combinación de Sistema telefónico con plan de llamadas y Sistema telefónico con un operador RTC propio a través del enrutamiento directo
  
-Para determinar la solución adecuada para su organización, Contoso usó soluciones de telefonía de [Microsoft](/SkypeForBusiness/hybrid/msft-telephony-solutions) y la sesión Ignite 2019 [Llamadas en Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
+Para determinar la solución adecuada para su organización, Contoso usó Planear la solución de [voz de Teams](/SkypeForBusiness/cloud-voice-landing-page) y la sesión Ignite 2019 [Calling in Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
 
 ## <a name="site-type-a-skype-for-business-enterprise-voice"></a>Tipo de sitio A: Skype Empresarial Telefonía IP empresarial 
 
 Contoso Skype Empresarial Telefonía IP empresarial se ha configurado como concentrador y ha hablado. Había una ubicación central que conservaba la puerta de enlace RTC en la región que proporcionaba la conexión a la RTC para los Skype Empresarial Telefonía IP empresarial en el país. A menudo, estas oficinas de satélite no tienen su propia salida de Internet. Los números de estos usuarios residían en el tronco SIP que se conectaba a un SBC existente. 
 
-Para determinar si el SBC ya implementado está certificado para enrutamiento directo y omisión de medios, Contoso ha activado la lista de controladores de borde de sesión certificados [para enrutamiento directo.](direct-routing-border-controllers.md)  
+Para determinar si el SBC ya implementado está certificado para enrutamiento directo y omisión de medios, Contoso revisó la lista de controladores de borde de sesión certificados [para enrutamiento directo](direct-routing-border-controllers.md).  
 
 Los hábitos de marcado del usuario eran marcar a un usuario en el sistema de telefonía heredado con una extensión, incluso cuando el usuario tiene un cliente de Skype Empresarial disponible para audio punto a punto. 
 
@@ -101,8 +101,8 @@ En función de las respuestas a sus preguntas, Contoso decidió:
 
 En los diagramas siguientes se muestra la implementación original del sistema heredado con sitios remotos y la migración a una implementación de enrutamiento directo con optimización de medios locales:
 
-**Implementación heredada original**  
- ![ Un diagrama muestra los estados antes y después.](media/voice-case-study-2.png)
+**Implementación heredada original** 
+![ Un diagrama muestra los estados antes y después.](media/voice-case-study-2.png)
 
 
 **Implementación con enrutamiento directo**
@@ -136,16 +136,16 @@ En función de las respuestas a sus preguntas, Contoso decidió lo siguiente:
 
 Los diagramas siguientes muestran la implementación original Skype Empresarial Telefonía IP empresarial sistema de telefonía heredado y la migración a una implementación mixta mediante enrutamiento directo:
 
-**Implementación mixta original** 
- ![ Diagrama 1 que muestra el estado anterior.](media/voice-case-study-4.png)
+**Implementación mixta original**
+![ Diagrama 1 que muestra el estado anterior.](media/voice-case-study-4.png)
 
-**Implementación mixta con enrutamiento directo** 
- ![ Diagrama 2 que muestra el estado anterior.](media/voice-case-study-4a.png)
+**Implementación mixta con enrutamiento directo**
+![ Diagrama 2 que muestra el estado anterior.](media/voice-case-study-4a.png)
 
 
 ## <a name="calling-plans"></a>Planes de llamadas
 
-Para determinar los requisitos de configuración de los planes de llamadas, Contoso revisó las decisiones de implementación [principales del plan de llamadas.](calling-plan-landing-page.md#core-deployment-decisions) Se tomaron las decisiones resultantes: 
+Para determinar los requisitos de configuración de los planes de llamadas, Contoso revisó las decisiones de implementación [principales del plan de llamadas](calling-plan-landing-page.md#core-deployment-decisions). Se tomaron las decisiones resultantes: 
 
 - Q. ¿Mis usuarios necesitan llamadas internacionales?<br> A. Sí 
 
@@ -167,20 +167,20 @@ Contoso asistió a Ignite para mantenerse al día Office 365 características, i
 
 ### <a name="calling-plans-sites"></a>Sitios de planes de llamadas
 
-Para obtener licencias y asignar números de teléfono a los usuarios, Contoso siguió los pasos de [Configurar planes de llamadas.](set-up-calling-plans.md) 
+Para obtener licencias y asignar números de teléfono a los usuarios, Contoso siguió los pasos de [Configurar planes de llamadas](set-up-calling-plans.md). 
 
-Debido al número de usuarios a los que había que asignar números de teléfono, Contoso decidió usar PowerShell para asignar los números de teléfono. Para obtener información sobre cómo asignar números mediante PowerShell, además de otras opciones de configuración, Contoso usó el Teams información general &mdash; &mdash; de [PowerShell.](teams-powershell-overview.md)  
+Debido al número de usuarios a los que había que asignar números de teléfono, Contoso decidió usar PowerShell para asignar los números de teléfono. Para obtener información sobre cómo asignar números mediante PowerShellin&mdash; además&mdash; de otras configuracionesContoso usó el Teams [información general de PowerShell](teams-powershell-overview.md).  
 
 ### <a name="direct-routing-sites"></a>Sitios de enrutamiento directo
 
 Para conectar la infraestructura de telefonía local de Contoso a Microsoft Teams, el administrador de Contoso siguió los pasos de [Configurar](direct-routing-configure.md) enrutamiento directo y revisó el vídeo Enrutamiento directo [en Microsoft Teams](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl) para obtener instrucciones.  Contoso también hizo referencia a la documentación de implementación de enrutamiento directo del proveedor certificado de SBC. 
 
-Una vez que el enrutamiento directo se configuró entre el sistema SBC y Teléfono Microsoft, era necesario que Contoso probara la configuración. Para ello, los administradores de Contoso usaron el cliente probador SIP que se debatió en la sesión Actualizaciones para enrutamiento directo en [Ignite 2019.](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions) El script y la documentación del cliente de Prueba SIP se descargaron desde el script de PowerShell para probar las conexiones del controlador de borde de sesión de enrutamiento directo.   
+Una vez que el enrutamiento directo se configuró entre el sistema SBC y Teléfono Microsoft, era necesario que Contoso probara la configuración. Para ello, los administradores de Contoso usaron el cliente probador SIP que se debatió en la sesión Actualizaciones para enrutamiento directo en [Ignite 2019](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions). El script y la documentación del cliente de Prueba SIP se descargaron desde el script de PowerShell para probar las conexiones del controlador de borde de sesión de enrutamiento directo.   
 
 
 ### <a name="local-media-optimization"></a>Optimización de medios locales
 
-Contoso vio la oportunidad de aprovechar la optimización de medios locales en las diferentes regiones de todo el mundo. Los escenarios admitidos para Contoso se describen en [Optimización de medios locales para enrutamiento directo.](direct-routing-media-optimization.md) La configuración de la optimización de medios locales se completó siguiendo las instrucciones del proveedor de SBC y microsoft. Los pasos de configuración de optimización de medios locales incluyen: 
+Contoso vio la oportunidad de aprovechar la optimización de medios locales en las diferentes regiones de todo el mundo. Los escenarios admitidos para Contoso se describen en [Optimización de medios locales para enrutamiento directo](direct-routing-media-optimization.md). La configuración de la optimización de medios locales se completó siguiendo las instrucciones del proveedor de SBC y microsoft. Los pasos de configuración de optimización de medios locales incluyen: 
 
 - Configurar el usuario y los sitios de SBC 
 
@@ -198,5 +198,5 @@ Contoso vio la oportunidad de aprovechar la optimización de medios locales en l
 
 Contoso tenía un número de usuarios que necesitaban trabajar de forma remota durante un período prolongado de tiempo después de que se habilitara para Sistema telefónico. Los usuarios usaron VPN para acceder a determinadas aplicaciones de línea de negocio. Mientras se encuentra en VPN, Sistema telefónico usuarios experimentaron una degradación de la calidad de las llamadas. 
 
-Para resolver el problema de calidad, Contoso implementó el túnel dividido de VPN, que permitía que su tráfico de Office 365 atravesara Internet mientras la conexión a las aplicaciones internas permanecía en la VPN. Para implementar el túnel dividido de VPN, Contoso siguió las instrucciones de [Implementar túneles](/office365/enterprise/office-365-vpn-implement-split-tunnel)divididos de VPN para Office 365 .  
+Para resolver el problema de calidad, Contoso implementó el túnel dividido de VPN, que permitía que su tráfico de Office 365 atravesara Internet mientras la conexión a las aplicaciones internas permanecía en la VPN. Para implementar el túnel dividido de VPN, Contoso siguió las instrucciones de Implementación de túneles divididos de [VPN para Office 365](/office365/enterprise/office-365-vpn-implement-split-tunnel).  
 

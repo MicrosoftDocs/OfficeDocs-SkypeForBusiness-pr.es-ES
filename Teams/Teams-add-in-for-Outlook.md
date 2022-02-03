@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc7a387f7dcd6ef8a3ed728b8aa59db64ccefb31
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 756f9a8092fea24eb6690baa0768f295bd84e2c1
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205530"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353405"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 
@@ -143,7 +143,7 @@ Si no consigue instalar el complemento para reunión de Microsoft Teams en Outlo
 También puede llevar a cabo los pasos siguientes manualmente:
 
 - Los usuarios de Windows 7 deben instalar la [Actualización Universal C Runtime en Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que el complemento para reunión de Microsoft Teams funcione.
-- Compruebe que el usuario tenga una directiva de actualización de Microsoft Teams que permita programar reuniones en Microsoft Teams. Consulte [Actualización de Skype Empresarial a Teams](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) para obtener más información.
+- Compruebe que el usuario tenga una directiva de actualización de Microsoft Teams que permita programar reuniones en Microsoft Teams. Consulte [Actualización de Skype Empresarial a Teams](/microsoftteams/meeting-policies-in-teams-general) para obtener más información.
 - Compruebe que el usuario tenga una directiva de actualización de Microsoft Teams que permita el complemento de Outlook. Consulte [Configuración de la directiva de reunión: general](./meeting-policies-in-teams-general.md#outlook-add-in) para obtener más información.
 - Asegúrese de que el usuario tiene instalado el cliente de escritorio de Microsoft Teams. El complemento para reunión no se instalará cuando solo se use el cliente web de Microsoft Teams.
 - Asegúrese de que el usuario tiene instalado Outlook 2013 o una versión posterior.

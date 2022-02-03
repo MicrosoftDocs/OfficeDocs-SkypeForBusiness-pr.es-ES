@@ -20,28 +20,28 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para encontrar información sobre cómo obtener y administrar números de teléfono en la República Checa para Microsoft Teams.
-ms.openlocfilehash: 679e411fa28b18139cc6cdebf9572c46023007f9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 348dda3ef21d06bf1511f18bb509ff7ede0c90f5
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853914"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353365"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>Teléfono de números de la República Checa
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Use esta tabla para encontrar información sobre cómo obtener y administrar números de teléfono en la República Checa para Microsoft Teams.
-  
+
 Para obtener más información, consulte [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization.md).
-  
+
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams. |En la República Checa, puede obtener números de teléfono para su organización mediante el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y ponerse en contacto con el Servicio de atención al cliente de [TNS para obtener instrucciones.](contact-tns-service-desk.md)<br/><br/>[Nueva solicitud de número de teléfono para la República Checa (v.1.0) cs-CZ](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf ). <br/><br/> Antes de que se le puedan asignar números de teléfono, debe descargar el formulario Conocer al cliente, completarlo en su totalidad y enviarlo a nosotros.<br/><br/>Los nuevos pedidos pueden tardar de dos a tres semanas en completarse en este mercado.  |
-|Transferirnos números de teléfono. | Descargue este formulario. <br/><br/>[Carta de autorización (LOA) para la República Checa (todos los números) (v.1.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>Rellene y póngase en contacto con el Servicio de atención al cliente de [TNS para obtener instrucciones.](contact-tns-service-desk.md) También debe incluir una factura de utilidad de la dirección de empresa a la que desea transferir números.<br/><br/>Transferir números puede tardar de dos a tres semanas en completarse en este mercado. <br/><br/>Estos números no se pueden usar para conferencias en este momento. |
-|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |Póngase en contacto con el Servicio de atención al cliente de [TNS](contact-tns-service-desk.md) para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
-|Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de atención al cliente de [TNS](contact-tns-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con el Servicio de asistencia de [TNS para obtener instrucciones.](contact-tns-service-desk.md) |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams. |En la República Checa, puede obtener números de teléfono para su organización mediante el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y ponerse en contacto con el Servicio de [atención al cliente de TNS para obtener instrucciones](contact-tns-service-desk.md).<br/><br/>[Nueva solicitud de número de teléfono para la República Checa (v.1.0) cs-CZ](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf ). <br/><br/> Antes de que se le puedan asignar números de teléfono, debe descargar el formulario Conocer al cliente, completarlo en su totalidad y enviarlo a nosotros.<br/><br/>Los nuevos pedidos pueden tardar de dos a tres semanas en completarse en este mercado.  |
+|Transferirnos números de teléfono. | Descargue este formulario. <br/><br/>[Carta de autorización (LOA) para la República Checa (todos los números) (v.1.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>Rellene el formulario y [póngase en contacto con el Servicio de atención al cliente de TNS para obtener instrucciones](contact-tns-service-desk.md). También debe incluir una factura de utilidad de la dirección de empresa a la que desea transferir números.<br/><br/>Transferir números puede tardar de dos a tres semanas en completarse en este mercado. <br/><br/>Estos números no se pueden usar para conferencias en este momento. |
+|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de](contact-tns-service-desk.md) atención al cliente de TNS para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con el Servicio de](contact-tns-service-desk.md) atención al cliente de TNS para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto [con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md). |
    
 ## <a name="related-topics"></a>Temas relacionados
 
