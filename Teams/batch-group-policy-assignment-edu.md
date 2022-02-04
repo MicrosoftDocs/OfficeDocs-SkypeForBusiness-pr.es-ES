@@ -1,7 +1,7 @@
 ---
 title: Asignar directivas a grandes conjuntos de usuarios de la escuela
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -17,19 +17,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo asignar directivas a grandes conjuntos de usuarios de su institución educativa en función de la pertenencia a grupos o directamente a través de una asignación por lotes para fines educativos remotos (teleescuelas, teleescuelas).
 f1keywords: ''
-ms.openlocfilehash: 7a2321a42910eee77ef9dff3c3aba3165cba156a
-ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
+ms.openlocfilehash: 3cfde2dc523904f571b696e63ea7a5da16afff26
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60785083"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62362996"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Asignar directivas a grandes conjuntos de usuarios de la escuela
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> Para obtener más información sobre cómo asignar directivas en Microsoft Teams, vea Asignar directivas a [los usuarios en Teams](policy-assignment-overview.md).
+> Para obtener más información sobre cómo asignar directivas en Microsoft Teams, vea Asignar [directivas a los usuarios en Teams](policy-assignment-overview.md).
 
 ## <a name="overview"></a>Información general
 
@@ -37,9 +37,9 @@ ms.locfileid: "60785083"
 
 Puede asignar una directiva de reunión a un grupo de seguridad del que los usuarios son miembros o directamente a los usuarios a escala a través de una asignación de directiva por lotes. Aprenderá a:
 
-- **Use [la asignación de directivas](#assign-a-policy-to-a-group) a grupos para asignar una directiva de reunión a un grupo de seguridad (recomendado).** Este método le permite asignar una directiva basada en la pertenencia a grupos. Puede asignar una directiva a un grupo de seguridad o una lista de distribución. A medida que se agregan o quitan miembros del grupo, sus asignaciones de directivas heredadas se actualizan en consecuencia. Le recomendamos que use este método porque reduce el tiempo de administración de directivas para los nuevos usuarios o cuando cambian los roles de los usuarios. Este método funciona mejor para grupos de hasta 50 000 usuarios, pero también funcionará con grupos más grandes.
+- **Use [la asignación de directivas a grupos](#assign-a-policy-to-a-group) para asignar una directiva de reunión a un grupo de seguridad (recomendado).**. Este método le permite asignar una directiva basada en la pertenencia a grupos. Puede asignar una directiva a un grupo de seguridad o una lista de distribución. A medida que se agregan o quitan miembros del grupo, sus asignaciones de directivas heredadas se actualizan en consecuencia. Le recomendamos que use este método porque reduce el tiempo de administración de directivas para los nuevos usuarios o cuando cambian los roles de los usuarios. Este método funciona mejor para grupos de hasta 50 000 usuarios, pero también funcionará con grupos más grandes.
 
-- **Use [la asignación de directivas por](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users) lotes para asignar una directiva de reunión directamente a los usuarios en masa.** Puede asignar una directiva para un máximo de 5.000 usuarios a la vez. Si tiene más de 5.000 usuarios, puede enviar varios lotes. Con este método, cuando tenga nuevos usuarios, tendrá que volver a ejecutar la asignación por lotes para asignar la directiva a esos nuevos usuarios.
+- **Use [la asignación de directivas por](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users) lotes para asignar una directiva de reunión directamente a los usuarios en masa**. Puede asignar una directiva para un máximo de 5.000 usuarios a la vez. Si tiene más de 5.000 usuarios, puede enviar varios lotes. Con este método, cuando tenga nuevos usuarios, tendrá que volver a ejecutar la asignación por lotes para asignar la directiva a esos nuevos usuarios.
 
 Recuerde que en Teams, los usuarios obtienen automáticamente la directiva global (predeterminada para toda la organización) para un tipo de directiva Teams a menos que cree y asigne una directiva personalizada. Dado que la población de estudiantes suele ser el mayor conjunto de usuarios y a menudo reciben la configuración más restrictiva, le recomendamos que haga lo siguiente:
 
@@ -62,19 +62,19 @@ Siga estos pasos para crear un grupo de seguridad para el personal y los profeso
 > [!IMPORTANT]
 > Al asignar una directiva a un grupo, la asignación de directiva se propaga a los miembros del grupo según las reglas de prioridad. Por ejemplo, si a un usuario se le asigna directamente una directiva (ya sea individualmente o a través de una asignación por lotes), esa directiva tiene prioridad sobre una directiva heredada de un grupo. Esto también significa que si un usuario tiene una directiva de reunión que se le asignó directamente, tendrá que quitar esa directiva de reunión del usuario antes de que pueda heredar una directiva de reunión de un grupo de seguridad.
 
-Antes de empezar, es importante comprender las reglas de [prioridad](policy-assignment-overview.md#which-policy-takes-precedence) y la clasificación [de las asignaciones de grupo.](assign-policies-users-and-groups.md#group-assignment-ranking) Asegúrese de leer y comprender los conceptos de Lo que necesita saber sobre la asignación de directivas **[a grupos.](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)**
+Antes de empezar, es importante comprender las reglas de [prioridad](policy-assignment-overview.md#which-policy-takes-precedence) y la clasificación [de las asignaciones de grupo](assign-policies-users-and-groups.md#group-assignment-ranking). **Asegúrese de leer y comprender los conceptos de [Lo que necesita saber sobre](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)** la asignación de directivas a grupos.
 
 Deberá completar todos estos pasos para que el personal y los profesores hereden una directiva de reunión de un grupo de seguridad.
 
 1. [Crear grupos de seguridad](#create-security-groups).
-2. [Asignar una directiva a un grupo de seguridad.](#assign-a-policy-to-a-security-group)
-3. [Quitar una directiva que se asignó directamente a los usuarios.](#remove-a-policy-that-was-directly-assigned-to-users)
+2. [Asignar una directiva a un grupo de seguridad](#assign-a-policy-to-a-security-group).
+3. [Quitar una directiva que se asignó directamente a los usuarios](#remove-a-policy-that-was-directly-assigned-to-users).
 
 ### <a name="create-security-groups"></a>Crear grupos de seguridad
 
 En primer lugar, cree un grupo de seguridad para el personal y los profesores.
 
-Con [School Data Sync](/SchoolDataSync/) (SDS), puede crear fácilmente grupos de seguridad [educadores y alumnos](/SchoolDataSync/edu-security-groups) de su escuela. Le recomendamos que use SDS para crear los grupos de seguridad que necesita para administrar las directivas de su centro educativo.
+Con [School Data Sync](/SchoolDataSync/) (SDS), puede crear fácilmente grupos de seguridad para profesores [y alumnos](/SchoolDataSync/edu-security-groups) de su escuela. Le recomendamos que use SDS para crear los grupos de seguridad que necesita para administrar las directivas de su centro educativo.
 
 Si no puede implementar SDS en su entorno, use este script de [PowerShell](scripts/powershell-script-security-groups-edu.md) para crear dos grupos de seguridad, uno para todos los docentes y docentes que tengan asignada una licencia de profesorado y otro para todos los alumnos que tengan asignada una licencia de Estudiante. Tendrá que ejecutar este script de forma rutinaria para mantener los grupos actualizados y actualizados.
 
@@ -90,12 +90,12 @@ Si no puede implementar SDS en su entorno, use este script de [PowerShell](scrip
 3. Seleccione **Agregar grupo** y, a continuación, en el panel Asignar **directiva** al grupo, haga lo siguiente:
 
     ![Captura de pantalla del panel Editar configuración, que muestra la directiva de reunión.](media/batch-group-policy-assignment-edu-group.png)
-    1. En el **cuadro Seleccionar un grupo,** busque y agregue el grupo de seguridad que contiene el personal y los profesores.
-    2. En el **cuadro Seleccionar jerarquía,** escriba **1**.
-    3. En el **cuadro Seleccionar una directiva,** seleccione **EducatorMeetingPolicy**.
+    1. En el **cuadro Seleccionar un grupo** , busque y agregue el grupo de seguridad que contiene el personal y los profesores.
+    2. En el **cuadro Seleccionar jerarquía** , escriba **1**.
+    3. En el **cuadro Seleccionar una directiva** , seleccione **EducatorMeetingPolicy**.
     4. Seleccione **Aplicar**.
 
-Para quitar una asignación de directiva de grupo, en la pestaña **Asignación** de directivas de grupo de la página directiva, seleccione la asignación de grupo y, a continuación, **seleccione Quitar**.
+Para quitar una asignación de directiva de grupo, en la pestaña **Asignación** de directivas de grupo de la página de directiva, seleccione la asignación de grupo y, a continuación, **seleccione Quitar**.
 
 Para cambiar la clasificación de una asignación de grupo, primero debe quitar la asignación de directiva de grupo. Después, siga los pasos anteriores para asignar la directiva a un grupo.
 
@@ -132,7 +132,7 @@ New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType Teams
 
 Recuerde que si a un usuario se le asignó directamente una directiva (ya sea individualmente o a través de una asignación por lotes), esa directiva tiene prioridad. Esto significa que si un usuario tiene una directiva de reunión que se le asignó directamente, tendrá que quitar esa directiva de reunión del usuario antes de que pueda heredar una directiva de reunión de un grupo de seguridad.
 
-Para obtener más información, vea [Qué necesita saber sobre la asignación de directivas a grupos.](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)
+Para obtener más información, vea [Qué necesita saber sobre la asignación de directivas a grupos](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups).
 
 Siga estos pasos para quitar la directiva de reunión que se asignó directamente a su personal y profesores.
 
@@ -213,7 +213,7 @@ Connect-AzureAD
 
 Cuando se le solicite, inicie sesión con sus credenciales de administrador.
 
-Para obtener más información, [vea Conectar con el Azure Active Directory PowerShell para Graph módulo](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Para obtener más información, [vea Conectar el Azure Active Directory PowerShell para Graph módulo](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar y conectarse al módulo Microsoft Teams PowerShell
 
@@ -251,7 +251,7 @@ M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
 En este ejemplo, el resultado muestra que skuId de licencia de profesores es "e97c048c-37a4-45fb-ab50-922fbf07a370".
 
 > [!NOTE]
-> Para ver una lista de SKU de educación e IDs de SKU, vea [Referencia de SKU de educación.](sku-reference-edu.md)
+> Para ver una lista de SKU de educación e IDs de SKU, vea [Referencia de SKU de educación](sku-reference-edu.md).
 
 A continuación, ejecutamos lo siguiente para identificar los usuarios que tienen esta licencia y recopilarlos todos juntos.
 
@@ -270,7 +270,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 ```
 
 > [!NOTE]
-> Para asignar un tipo de directiva diferente en masa, como TeamsMessagingPolicy, tendrá que cambiar a la directiva que va a asignar y al nombre ```PolicyType``` ```PolicyName``` de la directiva.
+> Para asignar un tipo de directiva diferente en masa, como TeamsMessagingPolicy, ```PolicyType``` ```PolicyName``` tendrá que cambiar a la directiva que va a asignar y al nombre de la directiva.
 
 #### <a name="get-the-status-of-a-bulk-assignment"></a>Obtener el estado de una tarea en masa
 
@@ -300,7 +300,7 @@ En lugar de proporcionar toda la lista de id. de usuario, ejecute lo siguiente p
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
-Puede cambiar el rango de id. de usuario hasta que llegue a la lista completa de usuarios. Por ejemplo, escriba para el primer lote, úsese para el segundo lote, escriba para el tercer ```$faculty[0..4999``` ```$faculty[5000..9999``` ```$faculty[10000..14999``` lote, y así sucesivamente.
+Puede cambiar el rango de id. de usuario hasta que llegue a la lista completa de usuarios. Por ejemplo, escriba ```$faculty[0..4999``` para el primer lote, úsese ```$faculty[5000..9999``` para el segundo lote, escriba ```$faculty[10000..14999``` para el tercer lote, y así sucesivamente.
 
 #### <a name="get-the-policies-assigned-to-a-user"></a>Obtener las directivas asignadas a un usuario
 
@@ -314,7 +314,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 **No estoy familiarizado con PowerShell para Teams. ¿Dónde puedo obtener más información?**
 
-Para obtener información general sobre cómo usar PowerShell para administrar Teams, vea Teams [información general de PowerShell.](teams-powershell-overview.md) Para obtener más información sobre los cmdlets usados en este artículo, vea:
+Para obtener información general sobre cómo usar PowerShell para administrar Teams, vea [Teams información general de PowerShell](teams-powershell-overview.md). Para obtener más información sobre los cmdlets usados en este artículo, vea:
 
 - [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment)
 - [Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment)

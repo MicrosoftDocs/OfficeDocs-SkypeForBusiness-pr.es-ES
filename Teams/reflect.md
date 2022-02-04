@@ -1,7 +1,7 @@
 ---
 title: Guía para administradores de TI para Reflect en Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 368c2ea6b3d937bbd126eb056bf4e2db4163f31f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 27a3ed1d46626cb5f46aa3279246953b1dbe9a23
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730109"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363126"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guía para administradores de TI para Reflect en Microsoft Teams
 

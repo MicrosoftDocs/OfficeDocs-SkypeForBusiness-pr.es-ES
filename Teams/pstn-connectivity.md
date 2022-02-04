@@ -24,18 +24,18 @@ search.appverid: MET150
 description: Obtenga más información sobre Teams de llamadas (conectividad RTC) y las decisiones que tome para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49c836687d7652c18b5932bd662d8ee935638d8a
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: b82404e23a2443efb06582664a206a6a43cad770
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015280"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363246"
 ---
 # <a name="pstn-connectivity-options"></a>Opciones de conectividad RTC
 
 Microsoft proporciona funcionalidades completas de Exchange de sucursales privadas (PBX) para su organización a través de Teams Teléfono. Sin embargo, para permitir a los usuarios realizar llamadas fuera de su organización, debe conectarse Teams Teléfono a la red telefónica conmutada (RTC).
 
-Este artículo se centra en las opciones de conectividad RTC. Para obtener más información sobre las soluciones de voz de Microsoft, incluidos los detalles sobre Teams Teléfono de voz, vea [Planear su Teams de voz.](cloud-voice-landing-page.md)
+Este artículo se centra en las opciones de conectividad RTC. Para obtener más información sobre las soluciones de voz de Microsoft, incluidos los detalles Teams Teléfono características, vea [Planear su Teams de voz](cloud-voice-landing-page.md).
 
 Para conectar Teams Teléfono a la RTC, puede elegir entre las siguientes opciones:
 
@@ -67,7 +67,7 @@ Con esta opción:
 
 - Obtienes Teams Teléfono planes de llamadas nacionales o internacionales que permiten llamar a teléfonos de todo el mundo (dependiendo del nivel de servicio que se esté autorizando).
 
-- No necesita la implementación o el mantenimiento de una implementación local porque el plan de llamadas funciona &mdash; sin Microsoft 365.
+- No requiere la implementación o el mantenimiento de una implementación local&mdash; porque el plan de llamadas funciona fuera de Microsoft 365.
 
 - Nota: Si es necesario, puede elegir conectar un controlador de borde de sesión (SBC) compatible a través del enrutamiento directo para la interoperabilidad con PBX de terceros, dispositivos analógicos y otros equipos de telefonía de terceros compatibles con el SBC.
 
@@ -83,7 +83,7 @@ Para obtener más información sobre el plan de llamadas, vea los artículos sig
 
 ## <a name="teams-phone-with-operator-connect"></a>Teams Teléfono con operador Conectar
 
-Con Operador Conectar, actualmente en versión preliminar pública, si su operador existente es un participante en el programa Operador de Microsoft Conectar, puede administrar el servicio para llevar llamadas RTC Teams. Su operador administra los servicios de llamadas RTC y los controladores de borde de sesión (SBC), lo que le permite ahorrar en la compra y administración de hardware.
+Con Operador Conectar, si su operador existente es un participante en el programa Operador de Microsoft Conectar, puede administrar el servicio para llevar llamadas RTC a Teams. Su operador administra los servicios de llamadas RTC y los controladores de borde de sesión (SBC), lo que le permite ahorrar en la compra y administración de hardware.
 
 La Conectar operador podría ser la solución adecuada para su organización si:
 
@@ -91,7 +91,7 @@ La Conectar operador podría ser la solución adecuada para su organización si:
 - Su operador preferido es un participante del programa de Conectar microsoft.
 - Desea buscar un operador nuevo para habilitar las llamadas en Teams.
 
-Para obtener información sobre las ventajas y requisitos de Operador Conectar, y para obtener una lista de operadores que participan en este programa, vea [Plan operador Conectar](operator-connect-plan.md). Para obtener información sobre cómo configurar el operador Conectar, vea [Configurar operador Conectar](operator-connect-configure.md).
+Para obtener información sobre las ventajas y requisitos de Operador Conectar, y para obtener una lista de operadores que participan en este programa, vea [Plan Operador Conectar](operator-connect-plan.md). Para obtener información sobre cómo configurar el operador Conectar, vea [Configurar operador Conectar](operator-connect-configure.md).
 
 
 ## <a name="teams-phone-with-direct-routing"></a>Teams Teléfono con enrutamiento directo
@@ -115,7 +115,7 @@ Con esta opción:
 
 - Puede configurar y administrar esta opción, o puede configurarla y administrarla su operador o partner (pregunte si su operador o partner proporciona esta opción).
 
-- Puede configurar la interoperabilidad entre los equipos de telefonía, como PBX de terceros y &mdash; dispositivos analógicos &mdash; y Teams Teléfono.
+- Puede configurar la interoperabilidad entre los equipos de&mdash; telefonía como PBX de terceros y dispositivos analógicos&mdash; y Teams Teléfono.
 
 Esta opción requiere lo siguiente:
 
@@ -138,7 +138,7 @@ Para obtener más información sobre enrutamiento directo, vea los artículos si
 
 ## <a name="configuration-considerations"></a>Consideraciones de configuración
 
-La Teams Teléfono características son las mismas, independientemente de la opción de conectividad RTC que elija. Por ejemplo, la configuración de llamadas sin responder y reenvío, la transferencia de llamadas, la música personalizada en espera, el parque de llamadas, la línea compartida y las aplicaciones de voz están disponibles. Para obtener una lista completa de Teams Teléfono características, vea Esto es lo que obtiene [con Teams Teléfono](here-s-what-you-get-with-phone-system.md).
+La Teams Teléfono características son las mismas, independientemente de la opción de conectividad RTC que elija. Por ejemplo, la configuración de llamadas sin responder y reenvío, la transferencia de llamadas, la música personalizada en espera, el parque de llamadas, la línea compartida y las aplicaciones de voz están disponibles. Para obtener una lista completa de Teams Teléfono características, vea Esto es lo [que obtiene con Teams Teléfono](here-s-what-you-get-with-phone-system.md).
 
 Sin embargo, hay algunas diferencias en la funcionalidad que afectan a la forma en que se configuran determinadas Teams Teléfono características. Por ejemplo, enrutamiento directo requiere pasos adicionales para configurar el enrutamiento de llamadas. Como otro ejemplo, Enrutamiento directo proporciona enrutamiento basado en ubicación (LBR) para que pueda restringir la omisión de peaje en determinadas ubicaciones geográficas donde no está permitido. 
 
@@ -164,11 +164,11 @@ Tendrá que decidir lo siguiente:
 
 La forma en que adquiere y administra los números de teléfono varía en función de la opción de conectividad RTC.
 
-- Para obtener información sobre cómo administrar números de teléfono para el plan de llamadas, vea [Administrar números de teléfono para su organización.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- Para obtener información sobre cómo administrar números de teléfono para el plan de llamadas, vea [Administrar números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-- Para obtener información sobre cómo administrar números de teléfono con Conectar operador, vea Configurar números de teléfono con [operador Conectar](operator-connect-configure.md#set-up-phone-numbers).
+- Para obtener información sobre cómo administrar números de teléfono con Conectar, vea Configurar números [de teléfono con operador Conectar](operator-connect-configure.md#set-up-phone-numbers).
 
-- Para obtener información sobre cómo administrar números de teléfono para enrutamiento directo, vea Configurar el número de teléfono y habilitar la voz y el correo [de voz empresariales.](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online)
+- Para obtener información sobre cómo administrar números de teléfono para enrutamiento directo, vea [Configurar el número de teléfono y habilitar la voz y el correo de voz empresariales](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
 
 
 ### <a name="call-routing-and-dial-plans"></a>Planes de marcado y enrutamiento de llamadas
@@ -179,7 +179,7 @@ La forma de configurar el enrutamiento de llamadas varía en función de la opci
 
 - En el Conectar operador, el operador administra la mayor parte del enrutamiento de llamadas.  Configure los planes de marcado de usuario para fines de traducción de números para la autorización de llamadas y el enrutamiento de llamadas. Para obtener más información, vea [¿Qué son los planes de marcado?](what-are-dial-plans.md).
 
-- Para enrutamiento directo, debe configurar el enrutamiento de llamadas especificando las rutas de voz y asignando directivas de enrutamiento de voz a los usuarios. Puede configurar los planes de marcado para la traducción de números en el nivel de tronco para garantizar la interoperabilidad con los controladores de borde de sesión (SBC). Para obtener más información, vea Configurar enrutamiento [de voz para enrutamiento](direct-routing-voice-routing.md)directo, Administrar directivas de enrutamiento [de](manage-voice-routing-policies.md) voz y Traducir números [de teléfono.](direct-routing-translate-numbers.md) 
+- Para enrutamiento directo, debe configurar el enrutamiento de llamadas especificando las rutas de voz y asignando directivas de enrutamiento de voz a los usuarios. Puede configurar los planes de marcado para la traducción de números en el nivel de tronco para garantizar la interoperabilidad con los controladores de borde de sesión (SBC). Para obtener más información, vea [Configurar enrutamiento de voz para enrutamiento](direct-routing-voice-routing.md) directo, Administrar directivas de enrutamiento [de](manage-voice-routing-policies.md) voz y [Traducir números de teléfono](direct-routing-translate-numbers.md). 
 
 
 ### <a name="location-based-routing-for-direct-routing"></a>Location-Based enrutamiento directo

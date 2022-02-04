@@ -15,20 +15,20 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Vea qué dispositivos y periféricos USB (como auriculares, altavoces, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: 32d4f7002739114bc69c9d6b9cb2818c0c57febb
-ms.sourcegitcommit: 9caa3131e9896b140afe10edea2b1e599eacd02b
+ms.openlocfilehash: d47e4723efae7ba339b54f5aa62064775d882e38
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62082186"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363196"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
 El programa de certificación de periféricos garantiza que los periféricos USB (como auriculares, altavoces, cámaras web y monitores) ofrecen una calidad de audio o vídeo enriquecimiento. Los dispositivos certificados funcionan (plug & play) sin necesidad de configuración adicional y ofrecen control de llamadas con Microsoft Teams y Skype Empresarial. Los productos proporcionan una excelente experiencia para los usuarios finales y los administradores.
 
-Para explorar dispositivos probados y certificados para Microsoft Teams, diríjase a la [Teams tienda.](https://products.office.com/microsoft-teams/across-devices/devices)
+Para explorar dispositivos probados y certificados para Microsoft Teams, diríjase a la [Teams tienda](https://products.office.com/microsoft-teams/across-devices/devices).
 
-Para obtener más información sobre el soporte de control de llamadas con Teams, vea Controlar llamadas con [auriculares en Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8).
+Para obtener más información sobre la compatibilidad con el control de Teams, vea [Controlar llamadas con auriculares en Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8).
 
 > [!TIP]
 > ¿Busca dispositivos certificados para Skype Empresarial? Diríjase a [dispositivos de audio y vídeo USB certificados para Skype Empresarial](/skypeforbusiness/certification/devices-usb-devices).
@@ -37,12 +37,12 @@ Para obtener más información sobre el soporte de control de llamadas con Teams
 
 Los usuarios no necesitan reemplazar dispositivos certificados previamente al actualizar a Teams desde Skype Empresarial.  Todos los dispositivos certificados son compatibles con Microsoft Teams y Skype Empresarial usuarios, con solo algunas diferencias.  La certificación también proporciona una designación adicional para determinadas categorías de dispositivos.
 
-- **Skype Empresarial certificado con Teams de** actualización Los dispositivos certificados en este nivel se certificaron inicialmente para Skype Empresarial. Microsoft ha trabajado con los fabricantes de dispositivos para ofrecer la mejor Teams de integración posible sin ningún cambio en el hardware original. El *botón hookswitch* actúa como un botón Teams cuando no está en una llamada y puede incluir más funciones a lo largo del tiempo.  Es posible que los dispositivos de esta categoría Teams distintivo de certificación en los materiales de marketing.
+- **Skype Empresarial certificado con Teams de actualización los** dispositivos certificados en este nivel se certificaron inicialmente para Skype Empresarial. Microsoft ha trabajado con los fabricantes de dispositivos para ofrecer la mejor Teams de integración posible sin ningún cambio en el hardware original. El *botón hookswitch* actúa como un botón Teams cuando no está en una llamada y puede incluir más funciones a lo largo del tiempo.  Es posible que los dispositivos de esta categoría Teams distintivo de certificación en los materiales de marketing.
 - **Certificado para Microsoft Teams** dispositivos certificados en este nivel indican los dispositivos más nuevos certificados, para una experiencia Teams compromiso. Estos dispositivos ofrecen todas las ventajas de la certificación previa y también incluyen un botón de Teams dedicado con indicador LED. Con la mayoría de los factores de forma, Teams botón será un botón táctil fácil de encontrar con el logotipo Teams formato. Microsoft continúa trabajando con los fabricantes de dispositivos para ofrecer nuevos valores a través de actualizaciones de firmware a lo largo del tiempo.
 
 ### <a name="special-usage-designations"></a>Designaciones de uso especial
 
-- **Premium micrófono para** abrir Office Todos los auriculares se prueban para proporcionar audio claro, pero abrir office y otros entornos ruidosos plantean un reto mayor. Los auriculares con esta designación recogen la voz del usuario de los auriculares, pero no transmiten el sonido de sus vecinos.
+- **Premium micrófono para abrir Office** Todos los auriculares se prueban para proporcionar audio claro, pero abrir office y otros entornos ruidosos plantean un reto mayor. Los auriculares con esta designación recogen la voz del usuario de los auriculares, pero no transmiten el sonido de sus vecinos.
 - **Tamaño de la sala de reuniones** Los dispositivos compartidos, como los altavoces y las cámaras, tienen una distancia de uso compatible. Las distancias recomendadas pueden ser diferentes según el fabricante. Para ofrecer a los clientes una guía clara, todos los dispositivos compartidos se prueban con la certificación en entornos de ruido y tamaños de salas bien definidos.
 
 Examinar [dispositivos certificados para Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
@@ -70,15 +70,15 @@ Examinar [dispositivos certificados para Microsoft Teams](https://products.offic
 - No se requiere aprovisionamiento
 - Todos los dispositivos admiten actualizaciones de firmware para permitir nuevas características y mejoras de rendimiento.
 
-Si es un fabricante y desea unirse al programa de certificación, [vea](/skypeforbusiness/certification/how-to-join) Cómo unirse para requisitos y programas disponibles.
+Si es un fabricante y desea unirse al programa de certificación [, vea Cómo](/skypeforbusiness/certification/how-to-join) unirse para requisitos y programas disponibles.
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabla actualizada en enero de 2022*
+*Tabla actualizada en febrero de 2022*
 
 | Fabricante        | Modelo                                                     | Cualificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Poly                 |Sincronizar 10 altavoces                                       |1/18/2021       |Certificado para Microsoft Teams                           |
+|Dell                 |Barra de sonido de conferencias delgadas SB522A                          |1/25/2022       |Certificado para Microsoft Teams                           | 
 |Lenovo               |Auriculares ANC con cable                                       |1/12/2022       |Certificado para Microsoft Teams                           |
 |Lenovo               |Go Wired Speakerphone                                      |1/10/2022       |Certificado para Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5066T                                           |12/1/2021       |Certificado para Microsoft Teams                           |

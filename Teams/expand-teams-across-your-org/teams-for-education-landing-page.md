@@ -2,8 +2,8 @@
 title: Teams para el ámbito educativo
 description: Obtenga información sobre los recursos de administración disponibles para ayudarle a implementar, adoptar y administrar correctamente Teams en su escuela o institución.
 ms.topic: conceptual
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 audience: admin
 f1.keywords:
@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 563cf727031ebad6f27c7989499a95040e8fa104
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 15c79d06ce16ea0ee3a75753aade487d40468131
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863147"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363016"
 ---
 # <a name="teams-for-education"></a>Teams para el ámbito educativo
 

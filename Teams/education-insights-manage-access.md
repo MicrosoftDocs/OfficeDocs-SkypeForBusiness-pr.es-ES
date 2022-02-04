@@ -1,7 +1,7 @@
 ---
 title: Administrar el acceso de usuarios a Insights para Educación
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b69f885eee0b96b87b5f22d04abbd16d0389b904
-ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
+ms.openlocfilehash: f97b2aea15fe626c7780f022e2d024729ad02589
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58864200"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363186"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Administrar el acceso de usuarios a Insights para Educación
 
