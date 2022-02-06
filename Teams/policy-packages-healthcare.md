@@ -1,7 +1,7 @@
 ---
 title: Paquetes de directivas de Teams para sanidad
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -9,25 +9,20 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
-- microsoftcloud-healthcare
+  - M365-collaboration
+  - microsoftcloud-healthcare
 appliesto:
-- Microsoft Teams
-f1.keywords: ''
-ms.custom: ''
+  - Microsoft Teams
+f1.keywords: null
+ms.custom: null
 ms.localizationpriority: medium
 search.appverid: MET150
 searchScope:
-- Microsoft Teams
-- Microsoft Cloud for Healthcare
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización sanitaria.
-ms.openlocfilehash: 752effdf7a30fc228dae9bcec00a5e2272199ced
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741596"
 ---
+
 # <a name="teams-policy-packages-for-healthcare"></a>Paquetes de directivas de Teams para sanidad
 
 ## <a name="overview"></a>Información general

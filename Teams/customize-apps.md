@@ -1,7 +1,7 @@
 ---
 title: Personalizar aplicaciones en Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: v-tbasra
 ms.topic: article
@@ -9,25 +9,20 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
+  - Teams_ITAdmin_Help
 f1.keywords:
-- NOCSH
+  - NOCSH
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo personalizar aplicaciones en Microsoft Teams.
-ms.openlocfilehash: ca0f7b090669304553159979af3983b7f21de284
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831744"
 ---
+
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicaciones en Microsoft Teams
 
- Microsoft Teams personalización de aplicaciones para mejorar Teams experiencia. Algunos desarrolladores de aplicaciones permiten que el administrador de aplicaciones personalizó una aplicación Teams aplicación. El administrador puede personalizar o cambiar el nombre de las propiedades de la aplicación en función de las necesidades de la **organización** mediante la página Administrar aplicaciones Teams centro de administración. Los detalles que puede personalizar son:
+ Microsoft Teams personalización de aplicaciones para mejorar Teams experiencia. Algunos desarrolladores de aplicaciones permiten que el administrador de aplicaciones personalizó una aplicación Teams aplicación. El administrador puede personalizar o cambiar el nombre de las propiedades de la aplicación en función de las necesidades de la organización con la Teams administrar aplicaciones **del Centro de** administración. Los detalles que puede personalizar son:
 
 - Nombre corto
 - Descripción breve
@@ -51,7 +46,7 @@ Para empezar a personalizar una aplicación, siga estos pasos:
 
 1. Inicie la sesión en el Centro de administración de Teams
 
-2. Expanda **Teams aplicaciones y** seleccione Administrar **aplicaciones.**
+2. Expanda **Teams aplicaciones y** seleccione **Administrar aplicaciones**.
 
 3. Compruebe la **columna Personalizable** de la lista de aplicaciones y ordene por aplicaciones que se pueden personalizar.
 
@@ -63,7 +58,7 @@ Para empezar a personalizar una aplicación, siga estos pasos:
 
      ![La opción de selección personalizar 1.](media/select-app-to-customize1.png)
 
-   - Seleccione el nombre de la aplicación y, a continuación, **Personalizable.**
+   - Seleccione el nombre de la aplicación y, a continuación, **Personalizable**.
 
      ![La opción personalizar selección 2.](media/app-details-customizable.png)
 
@@ -85,7 +80,7 @@ Para empezar a personalizar una aplicación, siga estos pasos:
 > [!Note]
 > Solo estarán visibles los campos que el desarrollador de aplicaciones haya asignado como personalizables.
 
-5. Expanda la **sección Icono.**
+5. Expanda la **sección Icono** .
 
    1. Upload un icono. Use un icono de color completo (192x192) píxel en formato PNG.
 
@@ -99,7 +94,7 @@ Para empezar a personalizar una aplicación, siga estos pasos:
 
 7. Seleccione **Publicar** para publicar la aplicación personalizada.
 
-   La aplicación personalizada ahora aparece en la **página Administrar aplicaciones.** Solo tendrá una versión de la aplicación, ya que personalizar las características de la aplicación no crea una copia de la aplicación.
+   La aplicación personalizada ahora aparece en la **página Administrar aplicaciones** . Solo tendrá una versión de la aplicación, ya que personalizar las características de la aplicación no crea una copia de la aplicación.
 
 Ahora, Teams usuarios finales pueden abrir su Teams cliente para ver la aplicación personalizada.
 
@@ -127,7 +122,7 @@ Es posible que quiera ver los detalles de la aplicación para revisar la informa
 
 3. Seleccione el nombre de la aplicación.
 
-4. Ver los detalles de la aplicación, incluido el nombre original de la aplicación **Nombre corto del editor.**
+4. Vea los detalles de la aplicación, incluido el nombre original de la aplicación **Nombre corto del editor**.
 
    ![Personalice el nombre de la aplicación del panel de iconos.](media/original-app-version.png)
 
@@ -139,11 +134,11 @@ En cualquier momento, puede restablecer los detalles de la aplicación a la conf
 
 1. Inicie la sesión en el Centro de administración de Teams
 
-2. Expanda **Teams aplicaciones y** seleccione Administrar **aplicaciones.**
+2. Expanda **Teams aplicaciones y** seleccione **Administrar aplicaciones**.
 
 3. Seleccione el nombre de la aplicación.
 
-4. Seleccione **Restablecer de forma predeterminada** en el menú **desplegable** Acciones.
+4. Seleccione **Restablecer de forma predeterminada** en el **menú desplegable** Acciones.
 
    ![Seleccione Restablecer como resaltado predeterminado.](media/select-reset.png)
 

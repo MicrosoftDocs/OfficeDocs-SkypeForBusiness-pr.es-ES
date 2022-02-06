@@ -1,26 +1,21 @@
 ---
 title: Configurar Skype Empresarial Server usar el almacén de contactos unificado
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 'Resumen: configure el almacén de contactos unificado para Exchange Server y Skype Empresarial Server.'
-ms.openlocfilehash: ed28f57350e2ce1d7ed5f92d712bdf5ecc7f3de4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853674"
 ---
+
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Configurar Skype Empresarial Server usar el almacén de contactos unificado
  
 **Resumen:** Configure el almacén de contactos unificado para Exchange Server 2016 o Exchange Server 2013 y Skype Empresarial Server.
@@ -32,7 +27,7 @@ Con el almacén de contactos unificado, los usuarios mantienen una única lista 
   
 ## <a name="enabling-the-unified-contact-store-for-a-user"></a>Habilitar el almacén de contactos unificados de un usuario
 
-Si la autenticación de servidor a servidor entre Skype Empresarial Server y Exchange Server ya está configurada, también ha habilitado el almacén de contactos unificado; no se requiere ninguna configuración de servidor adicional. Sin embargo, se requiere una configuración de cuenta de usuario adicional para mover los contactos de un usuario al almacén de contactos unificado. De forma predeterminada, los contactos de usuario se mantienen en Skype Empresarial Server y no en el almacén de contactos unificado.
+Si la autenticación de servidor a servidor entre Skype Empresarial Server y Exchange Server ya está configurada, también ha habilitado el almacén de contactos unificado; no se requiere ninguna configuración adicional del servidor. Sin embargo, se requiere una configuración de cuenta de usuario adicional para mover los contactos de un usuario al almacén de contactos unificado. De forma predeterminada, los contactos de usuario se mantienen en Skype Empresarial Server y no en el almacén de contactos unificado.
   
 El acceso al almacén de contactos unificado se administra mediante Skype Empresarial Server de servicios de usuario. Las directivas de servidor de usuario solo tienen una sola propiedad (UcsAllowed); esta propiedad se usa para determinar la ubicación donde se almacenan los contactos de un usuario. Si un usuario está administrado por una directiva de servicios de usuario donde UcsAllowed se ha establecido en True ($True), los contactos del usuario se almacenarán en el almacén de contactos unificado. Si el usuario está administrado por una directiva de servicios de usuario donde UcsAllowed se ha establecido en False ($False), sus contactos se almacenarán en Skype Empresarial Server.
   
@@ -64,7 +59,7 @@ Puede comprobar que los contactos de un usuario se han migrado correctamente al 
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-Si Test-CsUnifiedContactStore correctamente, significa que los contactos del usuario sip:kenmyer@ litwareinc .com se han migrado al almacén de <span></span> <span></span> contactos unificado.
+Si Test-CsUnifiedContactStore correctamente, significa que los contactos del usuario sip:kenmyer@<span></span>litwareinc.com<span></span> se han migrado al almacén de contactos unificado.
   
 ## <a name="rolling-back-the-unified-contact-store"></a>Revertir el almacén de datos unificados
 

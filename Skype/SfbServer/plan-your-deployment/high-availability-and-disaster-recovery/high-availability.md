@@ -1,25 +1,20 @@
 ---
 title: Administración y alta disponibilidad del grupo de servidores front-end
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
-description: Obtenga información sobre la administración de grupos de servidores front-end en Skype Empresarial Server, incluida la administración de grupos de servidores, la pérdida de quórum y los pasos especiales para grupos de servidores con solo dos servidores front-end.
-ms.openlocfilehash: f8ad22c7728fc4fb62980a81fa659558aaba4be7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831854"
+description: 'Obtenga información sobre la administración de grupos de servidores front-end en Skype Empresarial Server, incluida la administración de grupos de servidores, la pérdida de quórum y los pasos especiales para grupos de servidores con solo dos servidores front-end.'
 ---
+
 # <a name="front-end-pool-high-availability-and-management"></a>Administración y alta disponibilidad del grupo de servidores front-end
  
 Obtenga información sobre la administración de grupos de servidores front-end en Skype Empresarial Server, incluida la administración de grupos de servidores, la pérdida de quórum y los pasos especiales para grupos de servidores con solo dos servidores front-end.
@@ -60,10 +55,10 @@ La primera vez que inicie un nuevo grupo de servidores front-end, es esencial qu
 
 
    
-Cada vez que se inicia el grupo, se debe iniciar el 85 % de los servidores (como se muestra en la tabla anterior). Si no se puede iniciar este número de servidores (pero se pueden iniciar suficientes servidores para que no esté en pérdida de quórum en el nivel de grupo), puede usar el cmdlet para permitir que el grupo se recupere de esta pérdida de quórum de nivel de grupo de enrutamiento y haga  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` progresos. Para obtener más información sobre cómo usar este cmdlet, vea [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
+Cada vez que se inicia el grupo, se debe iniciar el 85 % de los servidores (como se muestra en la tabla anterior). Si no se puede iniciar este número de servidores (pero se pueden iniciar suficientes servidores para que no esté en pérdida de quórum en el nivel de grupo),  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` puede usar el cmdlet para permitir que el grupo se recupere de esta pérdida de quórum de nivel de grupo de enrutamiento y haga progresos. Para obtener más información sobre cómo usar este cmdlet, vea [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
   
 > [!NOTE]
-> En grupos con un número par de servidores, Skype Empresarial Server la base de datos principal SQL como testigo. En un grupo de servidores como este, si apaga la base de datos principal y cambia a la copia reflejada y apaga suficientes servidores front-end para que no se ejecute lo suficiente de acuerdo con la tabla anterior, todo el grupo de servidores se apagará. Para obtener más información, vea [Testigo de creación de reflejo de base de datos](/sql/database-engine/database-mirroring/database-mirroring-witness). 
+> En grupos con un número par de servidores, Skype Empresarial Server la base de datos principal SQL como testigo. En un grupo de servidores como este, si apaga la base de datos principal y cambia a la copia reflejada y apaga suficientes servidores front-end para que no se ejecute lo suficiente de acuerdo con la tabla anterior, todo el grupo de servidores se apagará. Para obtener más información, vea [Testigo de creación de reflejo de la base de datos](/sql/database-engine/database-mirroring/database-mirroring-witness). 
   
 #### <a name="pool-level-quorum-loss"></a>Pérdida de quórum en el nivel de grupo
 

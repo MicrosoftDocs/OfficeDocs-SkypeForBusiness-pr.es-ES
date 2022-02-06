@@ -1,24 +1,19 @@
 ---
 title: Cambiar una directiva de archivado existente en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 'Summary: Learn how to change user archiving policies for Skype Empresarial Server.'
-ms.openlocfilehash: b6ddc379f2b5652311be051d47d644a8e2923c1c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854394"
 ---
+
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Cambiar una directiva de archivado existente en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo cambiar las directivas de archivado de usuarios para Skype Empresarial Server.
@@ -54,7 +49,7 @@ La primera vez que implemente Skype Empresarial Server, configure directivas de 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Cambiar las directivas de archivado mediante Windows PowerShell
 
-También puede cambiar las directivas de archivado mediante el Windows PowerShell **cmdlet Set-CsArchivingPolicy.**
+También puede cambiar las directivas de archivado mediante el Windows PowerShell **cmdlet Set-CsArchivingPolicy**.
   
 ### <a name="enable-archiving-policies"></a>Habilitar directivas de archivado
 

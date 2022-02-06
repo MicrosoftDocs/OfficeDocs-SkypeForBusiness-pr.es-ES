@@ -8,95 +8,91 @@ ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
 ms.collection:
-- M365-voice
+  - M365-voice
 audience: Admin
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Skype for Business Certification
-- dn947482
-- seo-marvel-apr2020
+  - Skype for Business Certification
+  - dn947482
+  - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: 795b500f2142a082c5d8be82de749a6a0e134a84
-ms.sourcegitcommit: 5e9a8d3cdb72b57adfb842200159c5d753b70ecb
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62329040"
 ---
+
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams dispositivos certificados
 
 Los Microsoft Teams de certificación garantizan que los clientes que usan teléfonos de escritorio certificados y teléfonos de conferencia experimentarán una experiencia de reuniones y llamadas de audio de alta calidad.
 
 Microsoft Teams de certificación garantizan una barra de mayor calidad con objetivos de mayor rendimiento y métricas de calidad de audio. Los partners están trabajando activamente para cumplir con esta barra superior y son dispositivos que cumplen los requisitos de certificación. Algunos de nuestros partners también están trabajando para proporcionar soporte técnico para el servicio de Skype Empresarial en el mismo hardware que los Teams teléfonos. 
 
+
 ## <a name="currently-certified-teams-phones"></a>Teléfonos Teams certificados actualmente
 
 Los siguientes dispositivos están certificados en el programa de certificación Microsoft Teams teléfonos:
 
-|Modelo de dispositivo    | Versión de firmware    | Fecha de lanzamiento
-|:---------------------------------------|:-----------------------------------------|:-----------------------------|
-| Crestron UC-P10-T (con y sin auricular)    | `1.0.0.80`       | Mayo de 2021             |
-| Crestron UC-P8-T (con y sin auricular)     | `1.0.0.56`       | Febrero de 2021 |
-| Crestron UC-P10-C-T (con y sin auricular)  | `1.0.0.80`       | Mayo de 2021                     |
-| Crestron UC-P8-C-T (con y sin auricular)   | `1.0.0.80`       | Mayo de 2021                     |
-| Códigos de audio C470HD                      | `1.8.293   `                                               | Enero de 2021                 |
-| Yealink MP52                           | `145.15.0.6 `                                              | Abril de 2021                   |
-| AudioCodes C435HD                      | `1.12.33`                                                  | Abril de 2021                   |
-| AudioCodes C455HD                      | `1.14.404`                                                 | Noviembre de 2021                |
-| Crestron UC-2                          |`1.0.1.46`                                                 | Julio de 2020                    |
-| Vista ThinkSmart de Lenovo                 | `CD-18781Y.200410.067`                                     | Abril de 2020                   |
-| Poly Trio C60, Trio C60 NR, Trio C60 ND | `5.9.3.6155`                                              | Abril de 2020                   |
-| Poly CCX400                            | `1.0.0.0200`                                               | Enero de 2020                 |
-| Poly CCX600                            | `5.9.12.1122`                                              | Enero de 2020                 |
-| Poly CCX500                            | `5.9.12.1122`                                              | Diciembre de 2019                |                                                                                                                                                           
-| Yealink EXP50 compatible con MP56, MP58, VP59| Para cada modelo de dispositivo compatible, consulte Actualización #7 versión de firmware | Enero de 2021 |
-| Yealink MP58 | `122.15.0.27`| Diciembre de 2020 |
-| Yealink MP54 | `122.15.0.27`| Noviembre de 2020 |
-| Yealink MP56 | `122.15.0.6` | Marzo de 2020    |
-| Yealink VP59 | `91.15.0.16` | Junio de 2019     |
+|Modelo de dispositivo    | Versión de firmware    | Fecha de finalización de la certificación | Versión del sistema operativo Android                               |
+|:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Crestron UC-P10-T (con y sin auricular)    | `1.0.0.80`       | 5 de agosto de 2023            | 9 |
+| Crestron UC-P8-T (con y sin auricular)     | `1.0.0.56`       | 5 de agosto de 2023            | 9 |
+| Crestron UC-P10-C-T (con y sin auricular)  | `1.0.0.80`       | 5 de agosto de 2023            | 9 |
+| Crestron UC-P8-C-T (con y sin auricular)   | `1.0.0.80`       | 5 de agosto de 2023            | 9 |
+| Códigos de audio C470HD                      | `1.8.293   `                                               | 5 de agosto de 2023               | 9 |
+| Yealink MP52                           | `145.15.0.6 `                                              | 5 de agosto de 2023               | 9 |
+| AudioCodes C435HD                      | `1.12.33`                                                  | 5 de agosto de 2023               | 9 |
+| AudioCodes C455HD                      | `1.14.404`                                                 | 5 de agosto de 2023               | 9 |
+| Crestron UC-2                          |`1.0.1.46`                                                  | 5 de agosto de 2023               | 9 |
+| Vista ThinkSmart de Lenovo                 | `CD-18781Y.200410.067`                                     | 5 de diciembre de 2022             | 8.1 |
+| Poly Trio C60, Trio C60 NR, Trio C60 ND | `5.9.3.6155`                                              | 5 de agosto de 2023               | 9 |
+| Poly CCX400                            | `1.0.0.0200`                                               | 5 de agosto de 2023               | 9 |
+| Poly CCX600                            | `5.9.12.1122`                                              | 5 de agosto de 2023               | 9 |
+| Poly CCX500                            | `5.9.12.1122`                                              | 5 de agosto de 2023               | 9 |                                                                                                                                                        
+| Yealink EXP50 compatible con MP56, MP58, VP59| Para cada modelo de dispositivo compatible, consulte Actualización #7 versión de firmware | 5 de agosto de 2023      | 9 |
+| Yealink MP58 | `122.15.0.27`| 5 de agosto de 2023  | 9 |
+| Yealink MP54 | `122.15.0.27`| 5 de agosto de 2023  | 9 |
+| Yealink MP56 | `122.15.0.6` | 5 de agosto de 2023  | 9 |
+| Yealink VP59 | `91.15.0.16` | 5 de agosto de 2023  | 9 |
 
 ## <a name="currently-certified-teams-rooms-on-android"></a>Certificado de Salas de Teams en Android
 
 Los siguientes dispositivos están certificados en el Salas de Microsoft Teams programa de certificación de Android:
 
-| Modelo de dispositivo | Versión de firmware | Fecha de lanzamiento  | Tamaño del salón                                        |
-|:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
-| EXPANSIÓN DE EPS 80T | `1.2.2.21182.10` | Octubre de 2021 | Incluido con el EPOS Vision 3T |
-| Dispositivo Logitech Tap     | `1.2.982`     |      Agosto de 2021   | Compatible con Logitech Rally Bar y Rally Bar Mini |
-| Logitech Rally Bar Mini | `1.2.982`     |      Agosto de 2021   |    Tamaño Sala de reuniones (4,5 m x 4,5 m) |
-| Logitech Rally Bar      | `1.2.788`     |       Junio de 2021    |    Sala de tamaño medio (4,5 m x 6 m)       |
-| AudioCodes RXV80 | `1.9.155`        |   Mayo de 2021  | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |
-| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | Abril de 2021 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |
-| Yealink MeetingBar A30       | `133.15.0.52`    | Marzo de 2021 | Sala de tamaño medio (4,5 m x 6 m) |
-| Consola táctil CTP18 de Yealink  | `137.15.0.28`    | Marzo de 2021 | Compatible con Yealink MeetingBar A20 y Yealink MeetingBar A30 |
-| Yealink MeetingBar A20  | `133.15.0.19`      | Noviembre de 2020 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |
-| Poly Studio X30         | `3.1.1.216109`     | Junio de 2020     | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |
-| Poly Studio X50         | `3.1.1.216109`     | Junio de 2020     | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |
-| Poly TC8                | `3.3.2.210441`     | Marzo de 2021    | Compatible con Poly Studio X30 y Poly Studio X50 |
-| Yealink VC210           | `118.15.0.14`      | Febrero de 2020 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |
+| Modelo de dispositivo | Versión de firmware | Fecha de finalización de la certificación  | Tamaño del salón                                        |  Versión del sistema operativo Android    |
+|:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| EXPANSIÓN DE EPS 80T | `1.2.2.21182.10` | 5 de agosto de 2023 | Incluido con el EPOS Vision 3T | 9 |
+| Dispositivo Logitech Tap     | `1.2.982`     |   3 de septiembre de 2024  | Compatible con Logitech Rally Bar y Rally Bar Mini | 10 |
+| Logitech Rally Bar Mini | `1.2.982`     |   3 de septiembre de 2024  |    Tamaño Sala de reuniones (4,5 m x 4,5 m) | 10 |
+| Logitech Rally Bar      | `1.2.788`     |   3 de septiembre de 2024  |    Sala de tamaño medio (4,5 m x 6 m)       | 10 |
+| AudioCodes RXV80 | `1.9.155`        |   5 de agosto de 2023  | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) | 9 |
+| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 5 de agosto de 2023 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) | 9 |
+| Yealink MeetingBar A30       | `133.15.0.52`    | 5 de agosto de 2023   | Sala de tamaño medio (4,5 m x 6 m) | 9 |
+| Consola táctil CTP18 de Yealink  | `137.15.0.28`    | 5 de agosto de 2023   | Compatible con Yealink MeetingBar A20 y Yealink MeetingBar A30 | 9 |
+| Yealink MeetingBar A20  | `133.15.0.19`      | 5 de agosto de 2023 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) | 9 |
+| Poly Studio X30         | `3.1.1.216109`     | 5 de diciembre de 2022  | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) | 8.1 |
+| Poly Studio X50         | `3.1.1.216109`     | 5 de diciembre de 2022   | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) | 8.1 |
+| Poly TC8                | `3.3.2.210441`     | 5 de agosto de 2023 | Compatible con Poly Studio X30 y Poly Studio X50 | 8.1 |  9  |
+| Yealink VC210           | `118.15.0.14`      | 5 de agosto de 2023 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |  9  |
 
 ## <a name="currently-certified-teams-displays"></a>Pantallas Teams certificados actualmente
 
 Los siguientes dispositivos están certificados en el Microsoft Teams muestra el programa de certificación de Android:
 
-| Modelo de dispositivo | Versión de firmware | Fecha de lanzamiento  |
-|:------------------------|:-----------------|:--------------|
-|Vista ThinkSmart de Lenovo|`CD-18781Y.201006.099`|Octubre de 2020 |
+| Modelo de dispositivo | Versión de firmware | Fecha de finalización de la certificación  | Versión del sistema operativo Android |
+|:------------------------|:-----------------|:--------------|----------------------------------|
+|Vista ThinkSmart de Lenovo|`CD-18781Y.201006.099`| 5 de diciembre de 2022 |  8.1  |
 
 ## <a name="currently-certified-teams-panels"></a>Paneles de Teams certificados actualmente
 Los siguientes dispositivos están certificados en el Microsoft Teams de certificación de paneles especiales:
 
-| Modelo de dispositivo| Versión de firmware | Fecha de lanzamiento  |                                         
-|:------------------------|:-----------------|:--------------|
-|Crestron TSS-770 | `1.003.0082` |Febrero de 2021 |
-|Crestron TSS-1070 | `1.003.0082` |Febrero de 2021 |
-|Yealink RoomPanel | `147.15.0.1` |Mayo de 2021 |
-|Logitech TAP Scheduler | `1.3.111` | Diciembre de 2021 |
+| Modelo de dispositivo| Versión de firmware | Fecha de finalización de la certificación | Versión del sistema operativo Android |                                         
+|:------------------------|:-----------------|:--------------|-----------------------|
+|Crestron TSS-770 | `1.003.0082` |5 de diciembre de 2022  | 8.1 |
+|Crestron TSS-1070 | `1.003.0082`|5 de diciembre de 2022 | 8.1 |
+|Yealink RoomPanel | `147.15.0.1`|5 de agosto de 2023   | 9 |
+|Logitech TAP Scheduler | `1.3.111` |3 de septiembre de 2024 | 10 |
 
 ### <a name="product-release-information-for-teams-phones"></a>Información de la versión del producto Teams teléfonos
 
@@ -243,7 +239,7 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo  | Versión de firmware | Versión de producto incluida|
 |:--------------|:-----------------|:-------------------------|
-|Vista ThinkSmart de Lenovo| `CD-18781Y.211116.114` |Actualización 2021#3  |
+|Vista ThinkSmart de Lenovo| `CD-18781Y.211116.114` |Actualización 2021 #3  |
 |Vista ThinkSmart de Lenovo| `CD-18781Y.210507.111` |Actualización 2021 #2 |
 |Vista ThinkSmart de Lenovo| `CD-18781Y.210228.109` |Actualización 2021 #1 |
 

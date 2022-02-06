@@ -1,24 +1,19 @@
 ---
 title: Instalar y probar Skype Empresarial para iOS
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 'Resumen: cómo instalar y probar el Skype Empresarial para la aplicación de iOS.'
-ms.openlocfilehash: b3bcdddbafe5ae0c578f1f5e38f44696ed01dd66
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843533"
 ---
+
 # <a name="install-and-test-skype-for-business-for-ios"></a>Instalar y probar Skype Empresarial para iOS
  
 **Resumen:** Cómo instalar y probar la aplicación Skype Empresarial para iOS.
@@ -27,9 +22,9 @@ La Skype Empresarial para iOS ofrece Skype Empresarial presencia, mensajería in
   
 ## <a name="installing-skype-for-business-for-ios"></a>Instalación Skype Empresarial para iOS
 
-1. Desde el dispositivo iOS, pulsa **Tienda de** aplicaciones y busca Skype Empresarial **para iOS**.
+1. Desde el dispositivo iOS, pulsa **App Store** y busca Skype Empresarial **para iOS**.
     
-2. Pulsa **Descargar**  >  **Abrir**. 
+2. Pulsa **DescargarOpen** > . 
     
 3. Inicie sesión en la aplicación.
     

@@ -1,27 +1,22 @@
 ---
 title: Solicitud de certificado (nombres alternativos de sujeto adicionales)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployCertRequestSans
+  - ms.lync.dep.DeployCertRequestSans
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
-ROBOTS: NOINDEX, NOFOLLOW
-description: La opción Configurar nombres alternativos de sujeto ofrece la oportunidad de agregar nombres alternativos de sujeto adicionales (SAN) al certificado antes de finalizar y solicitar el certificado. Para incorporar un nombre alternativo de sujeto, escriba su nombre de dominio completo y haga clic en Agregar. Si ha agregado un nombre alternativo de sujeto que se debe eliminar, seleccione la entrada correspondiente y haga clic en Quitar. Si desea quitar todas las entradas de nombres alternativos de sujeto que ha agregado, haga clic en Borrar todo.
-ms.openlocfilehash: b1c6ebc2f505853c39268142661d03ed70a9aef5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860787"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'La opción Configurar nombres alternativos de sujeto ofrece la oportunidad de agregar nombres alternativos de sujeto adicionales (SAN) al certificado antes de finalizar y solicitar el certificado. Para incorporar un nombre alternativo de sujeto, escriba su nombre de dominio completo y haga clic en Agregar. Si ha agregado un nombre alternativo de sujeto que se debe eliminar, seleccione la entrada correspondiente y haga clic en Quitar. Si desea quitar todas las entradas de nombres alternativos de sujeto que ha agregado, haga clic en Borrar todo.'
 ---
+
 # <a name="certificate-request-additional-subject-alternate-names"></a>Solicitud de certificados (nombres alternativos de sujeto adicionales)
  
 La opción **Configurar nombres alternativos de sujeto** ofrece la oportunidad de agregar nombres alternativos de sujeto adicionales (SAN) al certificado antes de finalizar y solicitar el certificado. Para incorporar un nombre alternativo de sujeto, escriba su nombre de dominio completo y haga clic en **Agregar**. Si ha agregado un nombre alternativo de sujeto que se debe eliminar, seleccione la entrada correspondiente y haga clic en **Quitar**. Si desea quitar todas las entradas de nombres alternativos de sujeto que ha agregado, haga clic en **Borrar todo**.

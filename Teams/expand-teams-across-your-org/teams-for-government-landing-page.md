@@ -1,26 +1,21 @@
 ---
 title: Teams para Administración Pública
 description: Obtenga información sobre cómo planear e implementar Teams en Microsoft 365 entornos gubernamentales.
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.topic: article
 manager: serdars
 audience: admin
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.service: msteams
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 4f41dbffa5d2e0b9cd979d280e1cf865f41d217a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857157"
+  - Microsoft Teams
 ---
+
 # <a name="teams-for-government"></a>Teams para Administración Pública
 
 Use estos recursos para obtener información sobre consideraciones específicas para implementar Teams en Microsoft 365 entornos gubernamentales. Cuando esté listo, siga la misma ruta de implementación recomendada para Teams como se describe en Cómo implementar [Microsoft Teams](../deploy-overview.md).

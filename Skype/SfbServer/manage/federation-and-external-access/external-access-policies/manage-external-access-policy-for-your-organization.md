@@ -1,27 +1,23 @@
 ---
 title: Administración de la directiva de acceso externo a la organización
-ms.reviewer: ''
-ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)
-ms:contentKeyID: 48184160
+ms.reviewer: null
+'ms:assetid': 5571811e-34c8-443a-b94c-1ab5d4275581
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)'
+'ms:contentKeyID': 48184160
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Después de implementar uno o varios servidores Edge, debe habilitar los tipos de acceso externo que se permitirán en la organización.
-ms.openlocfilehash: 19ce17e4b33fee39c6b37df8967e6045ac3840dc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835298"
+description: 'Después de implementar uno o varios servidores Edge, debe habilitar los tipos de acceso externo que se permitirán en la organización.'
 ---
+
+
 # <a name="manage-external-access-policy-for-your-organization"></a>Administración de la directiva de acceso externo a la organización
 
 Después de implementar uno o varios servidores Edge, debe habilitar los tipos de acceso externo que se permitirán en la organización.

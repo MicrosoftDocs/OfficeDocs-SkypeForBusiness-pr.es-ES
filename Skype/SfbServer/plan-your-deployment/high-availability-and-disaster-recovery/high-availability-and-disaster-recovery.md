@@ -1,27 +1,22 @@
 ---
 title: Planear la alta disponibilidad y la recuperación ante desastres en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.custom:
-- ms.lync.plan.HighAvailabilityType
+  - ms.lync.plan.HighAvailabilityType
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
-description: Skype Empresarial Server ofrece alta disponibilidad con agrupación de servidores, recuperación ante desastres con emparejamiento de grupos y varios modos de alta disponibilidad del servidor back-end, incluidos los grupos de disponibilidad AlwaysOn, la creación de reflejo de bases de datos y la creación de clústeres SQL conmutación por error.
-ms.openlocfilehash: 37baa5627ef638c0a6835053bca9094564359d1a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828693"
+description: 'Skype Empresarial Server ofrece alta disponibilidad con agrupación de servidores, recuperación ante desastres con emparejamiento de grupos y varios modos de alta disponibilidad del servidor back-end, incluidos los grupos de disponibilidad AlwaysOn, la creación de reflejo de bases de datos y la creación de clústeres SQL conmutación por error.'
 ---
+
 # <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Planear la alta disponibilidad y la recuperación ante desastres en Skype Empresarial Server
  
 Skype Empresarial Server ofrece alta disponibilidad con agrupación de servidores, recuperación ante desastres con emparejamiento de grupos y varios modos de alta disponibilidad del servidor back-end, incluidos los grupos de disponibilidad AlwaysOn, la creación de reflejo de bases de datos y la creación de clústeres SQL conmutación por error. 
@@ -35,14 +30,14 @@ Skype Empresarial Server también proporciona opciones de recuperación ante des
 Skype Empresarial Server admite cuatro modos de alta disponibilidad para los servidores back-end: creación de reflejos de SQL, grupos de disponibilidad AlwaysOn, instancias de clúster de conmutación por error (FCI) AlwaysOn y clústeres de conmutación por error SQL servidor.
   
 > [!NOTE]
-> SQL La creación de reflejos está disponible Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL de clústeres de conmutación por error se prefieren Skype Empresarial Server 2019.
+> SQL creación de reflejo está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL de clústeres de conmutación por error se prefieren Skype Empresarial Server 2019.
 
 > [!NOTE]
 > Los grupos de disponibilidad AlwaysOn no se admiten con servidores de chat persistente. 
   
 En esta sección se explican estas características y también se explican los pasos que puede seguir para la alta disponibilidad y la recuperación ante desastres para algunos de sus otros roles de servidor. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administración y alta disponibilidad del grupo de servidores front-end](high-availability.md)
   

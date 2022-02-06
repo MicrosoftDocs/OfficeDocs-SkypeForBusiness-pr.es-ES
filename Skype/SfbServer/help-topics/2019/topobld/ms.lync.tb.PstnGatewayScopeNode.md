@@ -1,27 +1,22 @@
 ---
 title: Nodo de ámbito de puerta de enlace de RTC
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PstnGatewayScopeNode
+  - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Este nodo muestra el nombre de dominio completo (FQDN), el servidor de mediación asociado e información básica relativa a esta puerta de enlace de RTC. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: cfa3bf2c2ed4b3986204baa9b685ab8313d1595e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855827"
 ---
+
 # <a name="pstn-gateway-scope-node"></a>Nodo de ámbito de puerta de enlace de RTC
  
 Este nodo muestra el nombre de dominio completo (FQDN), el servidor de mediación asociado e información básica relativa a esta puerta de enlace de RTC. Puede efectuar las acciones siguientes:

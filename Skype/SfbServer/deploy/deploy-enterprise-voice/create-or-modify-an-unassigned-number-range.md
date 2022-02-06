@@ -1,28 +1,23 @@
 ---
 title: Crear o modificar un intervalo de números sin signo en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
-description: Cree, modifique o elimine intervalos de números sin signo para la aplicación Anuncio en Skype Empresarial Server Telefonía IP empresarial. Esto afecta al modo en que se controlan las llamadas a números sin signo.
-ms.openlocfilehash: dcdf8fe1bf4d087b27723626ccd9207df14238c4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856317"
+description: 'Cree, modifique o elimine intervalos de números sin signo para la aplicación Anuncio en Skype Empresarial Server Telefonía IP empresarial. Esto afecta al modo en que se controlan las llamadas a números sin signo.'
 ---
+
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Crear o modificar un intervalo de números sin signo en Skype Empresarial Server
  
 Cree, modifique o elimine intervalos de números sin signo para la aplicación Anuncio en Skype Empresarial Server Telefonía IP empresarial. Esto afecta al modo en que se controlan las llamadas a números sin signo.
@@ -64,7 +59,7 @@ Use uno de los siguientes procedimientos para configurar intervalos de números 
     
    - Si el número inicial o final del intervalo incluye un número de extensión, ambos números del intervalo deben incluir la extensión y el número de extensión debe ser igual al número inicial y final del intervalo.
     
-   - El número debe coincidir con la expresión regular `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` . Esto significa que el número puede comenzar por la cadena (si no especifica esa cadena, se agregará automáticamente), un signo más (+) y un dígito del 1 al `tel:` 9. El número de teléfono puede tener hasta 17 dígitos y puede estar seguido de una extensión en formato ";ext=número de extensión".
+   - El número debe coincidir con la expresión regular `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?`. Esto significa `tel:` que el número puede comenzar por la cadena (si no especifica esa cadena, se agregará automáticamente), un signo más (+) y un dígito del 1 al 9. El número de teléfono puede tener hasta 17 dígitos y puede estar seguido de una extensión en formato ";ext=número de extensión".
     
 6. En **Servicio de anuncio**, lleve a cabo uno de los siguientes procedimientos: 
     
@@ -91,9 +86,9 @@ Use uno de los siguientes procedimientos para configurar intervalos de números 
     
 ### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>Para usar Skype Empresarial Server Shell de administración para configurar números de teléfono sin signo
 
-1. Inicie sesión en el equipo donde Skype Empresarial Server Shell de administración está instalado como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegate Setup Permissions**.
+1. Inicie sesión en el equipo en el que Skype Empresarial Server Shell de administración esté instalado como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en Permisos de configuración **delegados**.
     
-2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 3. Use **New-CsUnassignedNumber** para crear un nuevo intervalo de números no asignados. Use **Set-CsUnassignedNumber** para modificar un intervalo de números no asignados existente.
     
@@ -150,9 +145,9 @@ Use uno de los siguientes procedimientos para configurar intervalos de números 
     
 ### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>Para usar Skype Empresarial Server Shell de administración para eliminar un intervalo de números sin signo
 
-1. Inicie sesión en el equipo donde Skype Empresarial Server Shell de administración está instalado como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegate Setup Permissions**.
+1. Inicie sesión en el equipo en el que Skype Empresarial Server Shell de administración esté instalado como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en Permisos de configuración **delegados**.
     
-2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 3. En la línea de comandos, escriba lo siguiente:
     
@@ -167,9 +162,9 @@ Use uno de los siguientes procedimientos para configurar intervalos de números 
    ```
 
     > [!NOTE]
-    > Para obtener más información sobre más opciones, [vea Remove-CsCallParkOrbit](/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
+    > Para obtener más información sobre más opciones, [consulte Remove-CsCallParkOrbit](/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [New-CsUnassignedNumber](/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   

@@ -1,33 +1,28 @@
 ---
 title: Implementar Telefonía IP empresarial en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 'Summary: Learn how to deploy Telefonía IP empresarial for Skype Empresarial Server at a central site.'
-ms.openlocfilehash: 4073850d9583e5bd28d573ad73b0acdaaca0943f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833826"
 ---
+
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Implementar Telefonía IP empresarial en Skype Empresarial Server
 
 **Resumen:** Obtenga información sobre cómo implementar Telefonía IP empresarial para Skype Empresarial Server en un sitio central.
 
-Use este tema para implementar Telefonía IP empresarial en un sitio central. Para implementar Telefonía IP empresarial en un sitio de sucursal, vaya a [Deploying Branch Sites](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-branch-sites).
+Use este tema para implementar Telefonía IP empresarial en un sitio central. Para implementar Telefonía IP empresarial en un sitio de sucursal, vaya a [Implementar sitios de sucursal](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-branch-sites).
 
 En esta sección se incluyen procedimientos para implementaciones en las que se coloca un servidor de mediación en cada servidor front-end o servidor Standard Edition, como se recomienda, y también para implementaciones con un grupo de servidores de mediación independiente. Puede omitir el siguiente contenido si usó el Generador de topologías para definir y publicar una topología que coloca un servidor de mediación en cada servidor front-end o servidor Standard Edition, ya que el Asistente para la implementación ya instaló automáticamente los archivos del servidor de mediación al instalar archivos para el grupo de servidores front-end o el servidor Standard Edition:
 ## <a name="in-this-section"></a>En esta sección
@@ -60,6 +55,6 @@ En esta sección se incluyen procedimientos para implementaciones en las que se 
 
 - [Implementar características de administración de llamadas en Skype Empresarial](deploy-call-management-features.md)
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planeación de Telefonía IP empresarial en Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)

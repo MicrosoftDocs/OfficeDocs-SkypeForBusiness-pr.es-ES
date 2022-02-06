@@ -1,36 +1,31 @@
 ---
 title: Cola de grupos de respuesta
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.RgsQueueMain
+  - ms.lync.lscp.RgsQueueMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
-ROBOTS: NOINDEX, NOFOLLOW
-description: Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Las colas de grupo de respuesta mantienen llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
-ms.openlocfilehash: f33df7df7a0c129bbe522c39d9612377e85774ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831394"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Las colas de grupo de respuesta mantienen llamadas a un grupo de respuesta hasta que un agente responde a la llamada.'
 ---
+
 # <a name="response-groups-queue"></a>Cola de grupos de respuesta
 
 Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Las colas de grupo de respuesta mantienen llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
 
-La **página Cola de grupos** de respuesta muestra una lista de todas las colas de grupo de respuesta  -   definidas para su organización.
+La **página Grupos de** -  **respuestaQueue** muestra una lista de todas las colas de grupo de respuesta definidas para la organización.
 
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
-Puede realizar las siguientes tareas desde la página **Cola de grupos**  -  **de** respuesta:
+Puede realizar las siguientes tareas desde la página **Grupos de** -  **respuestaQueue**:
 
 - Crear una cola nueva
 

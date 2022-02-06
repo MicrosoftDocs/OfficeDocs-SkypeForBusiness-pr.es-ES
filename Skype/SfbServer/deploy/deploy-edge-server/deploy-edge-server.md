@@ -1,27 +1,22 @@
 ---
 title: Implementar el servidor perimetral en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Strat_SB_Hybrid
-ms.custom: ''
+  - Strat_SB_Hybrid
+ms.custom: null
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: 'Summary: Learn how to deploy an Edge Server or an Edge pool into your Skype Empresarial Server environment.'
-ms.openlocfilehash: a555f0d083c03466f874c9796664137f8189b017
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850473"
 ---
+
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>Implementar el servidor perimetral en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo implementar un servidor perimetral o un grupo de servidores perimetrales en el entorno Skype Empresarial Server servidor perimetral.
@@ -32,7 +27,7 @@ ms.locfileid: "60850473"
 
 Como se mencionó anteriormente, mucho se va a una implementación de servidor perimetral para Skype Empresarial Server. Esta lista de comprobación le ofrece información general sobre las tareas que deberá realizar y vínculos a pasos más detallados.
   
-Esperamos que haya comenzado en la sección [Plan for Edge Server deployments in Skype Empresarial Server.](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) Si no es así, muchas de las cosas a las que nos referimos se detallan allí. La sección de implementación contiene solo procedimientos, por lo que si desea conocer el razonamiento detrás de estos pasos, la planeación es el lugar para comenzar.
+Esperamos que haya comenzado en la sección [Plan for Edge Server deployments in Skype Empresarial Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md). Si no es así, muchas de las cosas a las que nos referimos se detallan allí. La sección de implementación contiene solo procedimientos, por lo que si desea conocer el razonamiento detrás de estos pasos, la planeación es el lugar para comenzar.
   
 Esta documentación también supone que ya ha completado la implementación básica de Skype Empresarial Server. Es posible que esté realizando esa implementación en paralelo con edge, pero primero debe seguir estos pasos y, a continuación, podrá realizar los cambios de topología para edge que se documentan aquí.
   

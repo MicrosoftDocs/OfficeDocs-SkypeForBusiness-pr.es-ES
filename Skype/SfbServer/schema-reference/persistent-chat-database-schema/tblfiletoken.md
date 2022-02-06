@@ -1,25 +1,20 @@
 ---
 title: tblFileToken
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
 description: La tabla tblFileToken contiene símbolos temporales con fines de transferencia de archivos.
-ms.openlocfilehash: 73958e48814a27e5871b2a0af73d77a55531e49b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831784"
 ---
+
 # <a name="tblfiletoken"></a>tblFileToken
  
 La tabla tblFileToken contiene símbolos temporales con fines de transferencia de archivos.

@@ -1,27 +1,22 @@
 ---
 title: Configurar una región de red
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.NcsRegionMain
+  - ms.lync.lscp.NcsRegionMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1d3fe1f6-e987-4b21-aafd-4ceaf523027a
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 47d0aab017c7034028a4edcdf909a4f27194905f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858377"
 ---
+
 # <a name="configure-a-network-region"></a>Configurar una región de red
 
 ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.

@@ -1,27 +1,23 @@
 ---
 title: Restablecer la directiva global para el acceso de usuarios externos
-ms.reviewer: ''
-ms:assetid: 8207e1b1-de9e-461f-975f-fcc5c526849a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182545(v=OCS.15)
-ms:contentKeyID: 48184675
+ms.reviewer: null
+'ms:assetid': 8207e1b1-de9e-461f-975f-fcc5c526849a
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Gg182545(v=OCS.15)'
+'ms:contentKeyID': 48184675
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: No puede eliminar completamente una directiva global. El uso **de la opción** Eliminar de la directiva global solo restablece la directiva global a la configuración predeterminada, que no incluye compatibilidad con ninguna opción de acceso de usuario externo.
-ms.openlocfilehash: e55107de4aec5832b8c04dcf679fd9d5f5555c53
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849993"
+description: 'No puede eliminar completamente una directiva global. El uso **de la opción** Eliminar de la directiva global solo restablece la directiva global a la configuración predeterminada, que no incluye compatibilidad con ninguna opción de acceso de usuario externo.'
 ---
+
+
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Restablecer la directiva global para el acceso de usuarios externos en Skype Empresarial Server 
 
 Si ha creado o configurado directivas de acceso de usuarios externos que ya no desea usar, puede usar los siguientes métodos:
@@ -53,4 +49,4 @@ La directiva de acceso externo global se puede restablecer mediante Windows Powe
 
   - Este comando restablece la directiva de acceso externo global:<br/><br/>Remove-CsExternalAccessPolicy -Identity "global"
 
-Para obtener más información, vea el tema de ayuda del cmdlet [Remove-CsExternalAccessPolicy.](/powershell/module/skype/Remove-CsExternalAccessPolicy)
+Para obtener más información, vea el tema de ayuda del cmdlet [Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) .
