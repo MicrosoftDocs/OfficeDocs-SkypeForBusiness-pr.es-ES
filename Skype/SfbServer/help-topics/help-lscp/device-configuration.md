@@ -1,27 +1,22 @@
 ---
 title: Configuración de dispositivo
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ClientPhoneCfgMain
+  - ms.lync.lscp.ClientPhoneCfgMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
-description: Una configuración de dispositivo es una colección de opciones que se usan para administrar Skype Empresarial Teléfono Edition, ya sea globalmente o dentro de un sitio. Estos valores le permiten configurar aspectos como el modo de seguridad requerido, el nivel de registro del dispositivo, los ajustes de calidad de servicio de voz (QoS) y especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
-ms.openlocfilehash: c8de4b310b5c02dbf760b12e478d7166a7d6a745
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840322"
+description: 'Una configuración de dispositivo es una colección de opciones que se usan para administrar Skype Empresarial Teléfono Edition, ya sea globalmente o dentro de un sitio. Estos valores le permiten configurar aspectos como el modo de seguridad requerido, el nivel de registro del dispositivo, los ajustes de calidad de servicio de voz (QoS) y especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.'
 ---
+
 # <a name="device-configuration"></a>Configuración de dispositivo
  
 Una configuración de dispositivo es una colección de opciones que se usan para administrar Skype Empresarial Teléfono Edition, ya sea globalmente o dentro de un sitio. Estos valores le permiten configurar aspectos como el modo de seguridad requerido, el nivel de registro del dispositivo, los ajustes de calidad de servicio de voz (QoS) y especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad. 
@@ -54,7 +49,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
     
 - **Actualizar** Puedes actualizar la lista de configuración del dispositivo para comprobar el estado de las opciones de todas las configuraciones de dispositivo.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configuración de dispositivo: Crear nueva o editar existente](device-configuration-create-new-or-edit-existing.md)
 

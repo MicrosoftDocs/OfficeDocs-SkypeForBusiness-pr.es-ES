@@ -1,30 +1,25 @@
 ---
 title: Estado de topología
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/21/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.TopoStatusMain
+  - ms.lync.lscp.TopoStatusMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: 'La página Topología: Estado muestra el estado de los servidores de la Skype Empresarial topología.'
-ms.openlocfilehash: c64a2d5c4f5884ffcaf7e9480c75e447111a60db
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848893"
 ---
+
 # <a name="topology-status"></a>Topología: Estado
 
-La **página Topología**: **Estado** muestra el estado de los servidores de la Skype Empresarial topología.
+La **página Topología**: **Estado** muestra el estado de los servidores de su Skype Empresarial topología.
 
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 

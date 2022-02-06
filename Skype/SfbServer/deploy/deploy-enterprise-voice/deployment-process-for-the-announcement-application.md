@@ -1,28 +1,23 @@
 ---
 title: Proceso de implementación de la aplicación Anuncio en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: Proceso de implementación y pasos para la aplicación de anuncio en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 7ea0024bfda4846bc02d32d70d37f0ec91250cd5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830674"
 ---
+
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Proceso de implementación de la aplicación Anuncio en Skype Empresarial Server
  
 Proceso de implementación y pasos para la aplicación de anuncio en Skype Empresarial Server Telefonía IP empresarial.

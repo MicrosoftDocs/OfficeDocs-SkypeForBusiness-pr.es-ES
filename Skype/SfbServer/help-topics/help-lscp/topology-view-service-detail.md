@@ -1,27 +1,22 @@
 ---
 title: Detalles del servicio de vista de topología
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.TopoStatusSvcEdit
+  - ms.lync.lscp.TopoStatusSvcEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: e5fa85a565669c1f08dd2d5d0dd341e9fae6e759
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829164"
 ---
+
 # <a name="topology-view-service-detail"></a>Topología: Ver detalle del servicio
 
 ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.

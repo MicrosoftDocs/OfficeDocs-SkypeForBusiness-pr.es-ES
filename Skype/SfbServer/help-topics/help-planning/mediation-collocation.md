@@ -1,29 +1,24 @@
 ---
-title: Skype Empresarial Server Herramienta de planeación de colocación de mediación
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype Empresarial Server de planeación de colocación de mediación
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.MediationCollocation
-- ms.lync.plan.MediationCollocation
+  - ms.lync.plan.MediationCollocation
+  - ms.lync.plan.MediationCollocation
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
-description: De forma predeterminada, el servidor de mediación se asocia con el servidor front-end. También se puede implementar en un grupo independiente por motivos de rendimiento o si implementa el enlace troncal SIP, en cuyo caso se recomienda el grupo independiente. La colocación en Skype Empresarial Server funciona igual que en Lync Server 2013.
-ms.openlocfilehash: de327a7abe4278a942058c1e5c3cdced2266d8f6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833516"
+description: 'De forma predeterminada, el servidor de mediación se asocia con el servidor front-end. También se puede implementar en un grupo independiente por motivos de rendimiento o si implementa el enlace troncal SIP, en cuyo caso se recomienda el grupo independiente. La colocación en Skype Empresarial Server funciona igual que en Lync Server 2013.'
 ---
-# <a name="skype-for-business-server-mediation-collocation-planning-tool"></a>Skype Empresarial Server Herramienta de planeación de colocación de mediación
+
+# <a name="skype-for-business-server-mediation-collocation-planning-tool"></a>Skype Empresarial Server de planeación de colocación de mediación
  
 El servidor de mediación se asocia con el servidor front-end de forma predeterminada. El servidor de mediación también se puede implementar en un grupo independiente por motivos de rendimiento o si implementa el enlace troncal SIP, en cuyo caso se recomienda el grupo independiente. La colocación en Skype Empresarial Server funciona igual que en Lync Server 2013. Para obtener más información, consulte los temas siguientes:
   

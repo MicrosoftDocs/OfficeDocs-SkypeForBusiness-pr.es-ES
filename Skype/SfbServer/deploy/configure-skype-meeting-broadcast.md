@@ -1,34 +1,29 @@
 ---
 title: Configurar la implementación local para la difusión Skype reunión
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Ent_O365_Hybrid
-- Ent_O365_Hybrid_Top
-- IT_Skype16
-- IT_Skype4B_Hybrid
+  - Ent_O365_Hybrid
+  - Ent_O365_Hybrid_Top
+  - IT_Skype16
+  - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Summary: Learn about the steps you need to perform to configure Skype Meeting Broadcast for your on-premises Skype Empresarial Server hybrid deployment.'
-ms.openlocfilehash: a9dd4e90248548863237445f9a4b9876979321f2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843983"
 ---
+
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configurar la implementación local para la difusión Skype reunión
  
 **Resumen:** Obtenga información sobre los pasos que debe realizar para configurar la difusión Skype reunión para su implementación híbrida Skype Empresarial Server local.
   
-Skype Difusión de reuniones es un servicio en línea que forma parte de Office 365. Si está ejecutando Skype Empresarial Server local y desea usar Skype difusión de reunión en su entorno, deberá seguir los pasos de configuración de este tema. Antes de empezar, el entorno debe configurarse para híbrido con Skype Empresarial Online. Para obtener más información, vea [Plan hybrid connectivity between Skype Empresarial Server and Skype Empresarial Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) e Deploy hybrid connectivity between Skype Empresarial Server and Skype Empresarial [Online](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json).
+Skype difusión de reuniones es un servicio en línea que forma parte de Office 365. Si está ejecutando Skype Empresarial Server local y desea usar Skype difusión de reunión en su entorno, deberá seguir los pasos de configuración de este tema. Antes de empezar, el entorno debe configurarse para híbrido con Skype Empresarial Online. Para obtener más información, vea [Plan hybrid connectivity between Skype Empresarial Server and Skype Empresarial Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) e [Deploy hybrid connectivity between Skype Empresarial Server and Skype Empresarial Online](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json).
   
 ## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Configurar el entorno híbrido para la difusión Skype reunión
 
@@ -86,4 +81,4 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-Una vez que haya completado estos pasos de configuración, puede empezar a usar Skype difusión de reuniones en la implementación. Para obtener más información acerca Skype difusión de reuniones, vea ¿Qué es una difusión Skype [reunión?](https://go.microsoft.com/fwlink/?LinkId=617071) y Skype de administración de difusión [de reuniones](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md).
+Una vez que haya completado estos pasos de configuración, puede empezar a usar Skype difusión de reuniones en la implementación. Para obtener más información acerca Skype difusión de reuniones, vea [¿](https://go.microsoft.com/fwlink/?LinkId=617071)Qué es una difusión Skype reunión? y Skype de administración de difusión [de reuniones](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md).

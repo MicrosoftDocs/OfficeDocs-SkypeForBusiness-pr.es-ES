@@ -1,27 +1,22 @@
 ---
 title: Expansor de configuración de tronco
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.TrunkSettingsExpander
+  - ms.lync.tb.TrunkSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Para editar o modificar la configuración de un tronco SIP, efectúe las acciones siguientes:'
-ms.openlocfilehash: 922e401ea74b554681dadbc94b7c7f4178a618e8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829234"
 ---
+
 # <a name="trunk-settings-expander"></a>Expansor de configuración de tronco
 
 Para editar o modificar la configuración de un tronco SIP, efectúe las acciones siguientes:
@@ -34,7 +29,7 @@ Para editar o modificar la configuración de un tronco SIP, efectúe las accione
 
  **Protocolo de transporte SIP**: el protocolo usado puede ser TCP o TLS. TLS es el valor predeterminado. Consulte la documentación del proveedor de la puerta de enlace para obtener información sobre la compatibilidad de la puerta de enlace. El valor predeterminado es TLS; si la puerta de enlace admite TLS, en principio es la opción más segura.
 
- **Servidor de mediación asociado:** seleccione un servidor de mediación existente de la implementación para asociarlo con el tronco SIP.
+ **Servidor de mediación asociado**: seleccione un servidor de mediación existente de la implementación para asociarlo con el tronco SIP.
 
 > [!NOTE]
 > Solo el tronco raíz se puede asociar a un servidor de mediación.
@@ -43,7 +38,7 @@ Para editar o modificar la configuración de un tronco SIP, efectúe las accione
 
 ![Expansor Configuración tronco.](../../../media/Trunk_Settings_Expander.jpg)
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Lista de comprobación de implementación de enlace troncal SIP](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunk-deployment-checklist)
 

@@ -1,27 +1,22 @@
 ---
 title: Instalar y configurar opciones de disponibilidad para Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Strat_SB_Admin
-ms.custom: ''
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Obtenga información sobre cómo instalar y configurar las opciones de disponibilidad en Skype Empresarial Server.
-ms.openlocfilehash: 5e0dde157fc39ab7c24ddd297e858ce5a06e888f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835918"
 ---
+
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Instalar y configurar opciones de disponibilidad para Skype Empresarial Server
 
 Obtenga información sobre cómo instalar y configurar las opciones de disponibilidad en Skype Empresarial Server.
@@ -91,7 +86,7 @@ El instalador implementará la versión más reciente de la aplicación Opciones
    Update-CsAdminRole
    ```
 
-5. Por último, inicie los servicios Skype Empresarial Server Windows en todos los servidores front-end de todos los grupos de servidores donde se instalaron y habilitaron las opciones de disponibilidad ejecutando el comando [Start-CsWindowsService:](/powershell/module/skype/start-cswindowsservice?view=skype-ps)
+5. Por último, inicie los servicios Skype Empresarial Server Windows en todos los servidores front-end de todos los grupos en los que se instalaron y habilitaron las opciones de disponibilidad ejecutando el comando [Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps):
 
    ```powershell
    Start-CsWindowsService
@@ -99,7 +94,7 @@ El instalador implementará la versión más reciente de la aplicación Opciones
 
 ## <a name="configure"></a>Configurar
 
-Para configurar opciones de disponibilidad, use el cmdlet [Set-CsBusyOptions.](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx)
+Para configurar opciones de disponibilidad, use el cmdlet [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) .
 
 Por ejemplo, el siguiente comando configura las opciones de disponibilidad para el usuario "Ken Myer". En esta configuración, cualquier llamada a "Ken Myer" devolverá una señal de disponibilidad cuando ya esté en una llamada:
 
@@ -113,19 +108,19 @@ En el siguiente ejemplo, el comando configura las opciones de disponibilidad par
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-Puede recuperar información de configuración sobre opciones de disponibilidad mediante el cmdlet [Get-CsBusyOptions.](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) En el siguiente ejemplo se devuelve la configuración Opciones de disponibilidad para "KenMyer@Contoso.com":
+Puede recuperar información de configuración sobre opciones de disponibilidad mediante el cmdlet [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) . En el siguiente ejemplo se devuelve la configuración Opciones de disponibilidad para "KenMyer@Contoso.com":
 
 ```powershell
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 ```
 
-Puede quitar opciones de disponibilidad mediante el cmdlet [Remove-CsBusyOptions.](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx) El siguiente comando quita opciones de disponibilidad para "Ken Myer":
+Puede quitar opciones de disponibilidad mediante el cmdlet [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx) . El siguiente comando quita opciones de disponibilidad para "Ken Myer":
 
 ```powershell
 Remove-CsBusyOptions -Identity "Ken Myer"
 ```
 
-Para obtener información detallada acerca de los cmdlets que usa para configurar opciones de disponibilidad, vea el contenido de referencia técnica de [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx), [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)y [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx).
+Para obtener información detallada acerca de los cmdlets que usa para configurar opciones de disponibilidad, vea el contenido de referencia técnica de [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx), [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) y [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx).
 
 ## <a name="enable-logging"></a>Habilitar registro
 
@@ -154,4 +149,4 @@ ScriptName :
 Script     :
 </pre>
 
-También puede usar el visor Windows eventos para comprobar que la instalación de Opciones de disponibilidad se ha realizado correctamente y que Skype Empresarial Server correctamente las opciones de disponibilidad. Para comprobar las opciones de disponibilidad, abra visor de eventos - Registros de aplicaciones y servicios **\> - Skype \> (o Lync) Server** y busque identificador de evento = 30253.
+También puede usar el visor Windows eventos para comprobar que la instalación de Opciones de disponibilidad se ha realizado correctamente y que Skype Empresarial Server correctamente las opciones de disponibilidad. Para comprobar las opciones de disponibilidad, abra visor de eventos **-\> Registros de aplicaciones y servicios-\> Skype (o Lync) Server** y busque el identificador de evento = 30253.

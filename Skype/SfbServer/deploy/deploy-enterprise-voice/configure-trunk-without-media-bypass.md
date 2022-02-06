@@ -1,33 +1,28 @@
 ---
 title: 'Skype Empresarial Server: Configurar un tronco sin desvío de medios'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Resumen: configurar un tronco sin desvío de medios habilitado para Skype Empresarial Server.'
-ms.openlocfilehash: bccc88e442532ebf9a2c503fa851965447eb1e85
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839122"
 ---
+
 # <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>Skype Empresarial Server: Configurar un tronco sin desvío de medios
 
 **Resumen:** Configurar un tronco sin desvío de medios habilitado para Skype Empresarial Server.
 
-Si desea configurar un enlace troncal con el desvío de medios deshabilitado, siga estos pasos. Si desea configurar un tronco con la omisión de medios habilitada, vea [Configure a trunk with media bypass in Skype Empresarial Server](configure-trunk-with-media-bypass.md).
+Si desea configurar un enlace troncal con el desvío de medios deshabilitado, siga estos pasos. Si desea configurar un tronco con la omisión de medios habilitada, consulte [Configure a trunk with media bypass in Skype Empresarial Server](configure-trunk-with-media-bypass.md).
 
 Tal como se describe a continuación, una configuración de tronco agrupa un conjunto de parámetros que se aplican a los troncos asignados a esta configuración de tronco. Una configuración de tronco puede tener ámbito global (se aplica a todos los troncos que no tienen sitios o configuración de grupo más específicos), ámbito de sitio o de grupo. La configuración del tronco de nivel de grupo se utiliza para adaptar una configuración de tronco específica a un único tronco.
 
@@ -43,7 +38,7 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 
    - Haga clic en **Nuevo** y, a continuación, seleccione un ámbito para la nueva configuración de tronco:
 
-   - **Tronco del sitio:** elija el sitio para esta configuración de tronco en **Seleccionar un sitio** y, a continuación, haga clic en **Aceptar**. Tenga en cuenta que si ya se ha creado una configuración de tronco para un sitio, el sitio no aparece en **Seleccionar un sitio**. Esta configuración de tronco se aplicará a todos los troncos del sitio.
+   - **Tronco del sitio**: elija el sitio para esta configuración de tronco en **Seleccionar un sitio** y, a continuación, haga clic en **Aceptar**. Tenga en cuenta que si ya se ha creado una configuración de tronco para un sitio, el sitio no aparece en **Seleccionar un sitio**. Esta configuración de tronco se aplicará a todos los troncos del sitio.
 
    - **Tronco de grupo de servidores**: elija el nombre del tronco al que se aplica esta configuración de tronco en **Seleccionar un servicio** y haga clic en **aceptar**. Este tronco puede ser el tronco raíz o cualquier tronco adicional definido en el Generador de topologías. Tenga en cuenta que si ya se ha creado una configuración de tronco para un tronco específico, el tronco no se mostrará en **Seleccionar un servicio**.
 
@@ -52,7 +47,7 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 
 4. Seleccione una de las opciones de **Nivel admitido de cifrado** siguientes:
 
-   - **Obligatorio:** el cifrado seguro del Protocolo de transporte en tiempo real (SRTP) debe usarse para ayudar a proteger el tráfico entre el servidor de mediación y la puerta de enlace o la central de conmutación (PBX).
+   - **Obligatorio**: el cifrado seguro del Protocolo de transporte en tiempo real (SRTP) debe usarse para ayudar a proteger el tráfico entre el servidor de mediación y la puerta de enlace o la central de conmutación (PBX).
 
    - **Opcional**: Se utilizará el cifrado del SRTP si lo admiten el proveedor de servicios o el fabricante de los equipos.
 
@@ -60,13 +55,13 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 
 5. Asegúrese de que esté desactivada la casilla **Habilitar desvío de medios**.
 
-6. Active  la casilla Procesamiento de medios centralizados si hay un punto de terminación de medios conocido (por ejemplo, una puerta de enlace de red telefónica conmutada (RTC) donde la terminación de medios tiene la misma DIRECCIÓN IP que la terminación de señalización). Si el tronco no tiene un punto de terminación de medios conocido, desactive esta casilla.
+6. Active la  casilla Procesamiento de medios centralizados si hay un punto de terminación de medios conocido (por ejemplo, una puerta de enlace de red telefónica conmutada (RTC) donde la terminación de medios tiene la misma DIRECCIÓN IP que la terminación de señalización). Si el tronco no tiene un punto de terminación de medios conocido, desactive esta casilla.
 
 7. Si el sistema del mismo nivel del tronco admite la recepción de solicitudes REFER SIP desde el servidor de mediación, active la casilla Habilitar envío para hacer referencia **a la puerta de** enlace.
 
 8. (Opcional) Para habilitar el enrutamiento entre troncos, asocie y configure los registros de uso de RTC a esta configuración de tronco. Los usos de RTC asociados a esta configuración de tronco se aplicarán a todas las llamadas entrantes a través del tronco que no se origine desde un punto de conexión Skype Empresarial Server enlace. Para administrar los registros de uso de RTC asociados a una configuración de tronco, use uno de los métodos siguientes:
 
-   - Para seleccionar uno o más registros de una lista de todos los registros de uso de RTC disponibles en la implementación Telefonía IP empresarial, haga clic en **Seleccionar**. Resalte los registros que desee asociar a esta configuración de tronco y, a continuación, haga clic en **Aceptar**.
+   - Para seleccionar uno o varios registros de una lista de todos los registros de uso de RTC disponibles en la implementación Telefonía IP empresarial, haga clic en **Seleccionar**. Resalte los registros que desee asociar a esta configuración de tronco y, a continuación, haga clic en **Aceptar**.
 
    - Para quitar un registro de uso de RTC de esta configuración de tronco, resalte el registro y haga clic en **Quitar**.
 
@@ -85,7 +80,7 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 
      - Para quitar una ruta del registro de uso de RTC, seleccione la ruta y haga clic en **Quitar**.
 
-     - Para definir una ruta nueva y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [vea Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
+     - Para definir una ruta nueva y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [consulte Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
 
      - Para editar una ruta ya asociada a este registro de uso de RTC, seleccione la ruta y haga clic en **Mostrar detalles**.
 
@@ -101,7 +96,7 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 
      - Para quitar una ruta del registro de uso de RTC, seleccione la ruta y haga clic en **Quitar**.
 
-     - Para definir una ruta nueva y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [vea Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
+     - Para definir una ruta nueva y asociarla a este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [consulte Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
 
      - Para editar una ruta ya asociada a este registro de uso de RTC, seleccione la ruta y haga clic en **Mostrar detalles**.
 
@@ -127,7 +122,7 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 
     - Para elegir una o más reglas de una lista de todas las reglas de traducción que están disponibles en la implementación Telefonía IP empresarial, haga clic en **Seleccionar**. En **Seleccionar reglas de conversión**, haga clic en las reglas que desee asociar con el tronco y, a continuación, haga clic en **Aceptar**.
 
-    - Para definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nueva**. Para obtener más información acerca de las reglas de traducción, vea [Translation rules in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+    - Para definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nueva**. Para obtener más información acerca de las reglas de traducción, consulte [Translation rules in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
     - Para editar una regla de conversión que ya esté asociada al tronco, haga clic en el nombre de la regla y, a continuación, en **Mostrar detalles**.
 
@@ -142,7 +137,7 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 
     - Para elegir una o más reglas de una lista de todas las reglas de traducción que están disponibles en la implementación Telefonía IP empresarial, haga clic en **Seleccionar**. En **Seleccionar reglas de conversión**, haga clic en las reglas que desee asociar con el tronco y, a continuación, haga clic en **Aceptar**.
 
-    - Para definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nueva**. Para obtener más información acerca de las reglas de traducción, vea [Translation rules in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+    - Para definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nueva**. Para obtener más información acerca de las reglas de traducción, consulte [Translation rules in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
     - Para editar una regla de conversión que ya esté asociada al tronco, haga clic en el nombre de la regla y, a continuación, en **Mostrar detalles**.
 
@@ -156,16 +151,16 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 16. Asegúrese de que las reglas de traducción del tronco están organizadas en el orden correcto. Para cambiar la posición de una regla en la lista, resalte el nombre de la regla y, a continuación, haga clic en la flecha arriba o abajo.
 
     > [!IMPORTANT]
-    > Skype Empresarial Server recorre la lista de reglas de traducción de arriba abajo y usa la primera regla que coincide con el número marcado. Si configura un tronco de forma que un número marcado puede coincidir con más de una regla de conversión, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. Por ejemplo, si ha incluido una regla de traducción que coincida con cualquier número de 11 dígitos y una regla de traducción que coincida solo con números de  11 dígitos que comiencen por +1425, asegúrese de que la regla que coincida con cualquier número de 11 dígitos esté ordenada por debajo de la regla más restrictiva.
+    > Skype Empresarial Server recorre la lista de reglas de traducción de arriba abajo y usa la primera regla que coincide con el número marcado. Si configura un tronco de forma que un número marcado puede coincidir con más de una regla de conversión, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. Por ejemplo, si ha incluido una regla de traducción que coincida con cualquier número de 11 dígitos y una regla de traducción que coincida solo con números de 11 dígitos que comiencen por +1425, asegúrese de que la regla que coincida con cualquier número de 11 dígitos esté ordenada por debajo de la regla más restrictiva.
 
 17. Cuando haya terminado de configurar el tronco, haga clic en **Aceptar**.
 
 18. En la página **Configuración del tronco**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
 
     > [!NOTE]
-    > Siempre que cree o modifique una configuración de tronco, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, [vea Publicar cambios pendientes](voice-route-config-changes.md) en la configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
+    > Siempre que cree o modifique una configuración de tronco, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, [vea Publicar cambios pendientes en la](voice-route-config-changes.md) configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar un tronco con desvío de medios en Skype Empresarial Server](configure-trunk-with-media-bypass.md)
 
