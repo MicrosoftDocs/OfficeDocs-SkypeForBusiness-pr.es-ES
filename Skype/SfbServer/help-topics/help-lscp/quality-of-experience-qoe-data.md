@@ -1,27 +1,22 @@
 ---
 title: Datos referentes a la calidad de la experiencia (QoE)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchQoeMain
+  - ms.lync.lscp.MonArchQoeMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 64794929961a1245baee2fd349684d2569f77f61
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846613"
 ---
+
 # <a name="quality-of-experience-qoe-data"></a>Datos referentes a la calidad de la experiencia (QoE)
  
 ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.

@@ -1,32 +1,27 @@
 ---
 title: Actualizar el administrador de estadísticas para Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Resumen: lea este tema para obtener información sobre cómo actualizar el Administrador de estadísticas para Skype Empresarial Server.'
-ms.openlocfilehash: 297da8efc1259c1128fd0d60584e1db761465217
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857337"
 ---
+
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Actualizar el administrador de estadísticas para Skype Empresarial Server
  
 **Resumen:** Lea este tema para obtener información sobre cómo actualizar el Administrador de estadísticas para Skype Empresarial Server.
   
 En este tema se describe cómo actualizar una instalación existente del Administrador de estadísticas para Skype Empresarial Server, una herramienta eficaz que le permite ver Skype Empresarial Server datos de rendimiento y estado en tiempo real. Puede sondear los datos de rendimiento en cientos de servidores cada pocos segundos y ver los resultados al instante en el sitio web del Administrador de estadísticas. 
   
-Para obtener más información acerca del Administrador de estadísticas y las nuevas características de la versión 2.0, vea [Plan for Statistics Manager for Skype Empresarial Server](plan.md) and Deploy [Statistics Manager for Skype Empresarial Server](deploy.md).
+Para obtener más información acerca del Administrador de estadísticas y las nuevas características de la versión 2.0, vea [Plan for Statistics Manager for Skype Empresarial Server](plan.md) and [Deploy Statistics Manager for Skype Empresarial Server](deploy.md).
   
 Existen dos métodos para actualizar:
   

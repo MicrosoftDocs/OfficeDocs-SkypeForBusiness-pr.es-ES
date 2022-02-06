@@ -1,29 +1,24 @@
 ---
 title: Implementar Skype Empresarial Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 'Summary: Explore these links to learn how to install and configure Skype Empresarial Server 2015 and upgrade from earlier versions of Lync Server.'
-ms.openlocfilehash: 67643b7f28ea3155c9867dd7a4107e4630ddab15
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863087"
 ---
+
 # <a name="deploy-skype-for-business-server-2015"></a>Implementar Skype Empresarial Server 2015
  
 **Resumen:** Explore estos vínculos para obtener información sobre cómo instalar y configurar Skype Empresarial Server 2015 y actualizar desde versiones anteriores de Lync Server.
@@ -35,7 +30,7 @@ Los autores los actualizan de forma constante a medida que disponen de nueva inf
 
 Vea los siguientes recursos para obtener información sobre cómo implementar Skype Empresarial Server.
   
-|&nbsp;|Contenido|Descripción|
+|&nbsp;|Contenido|Description|
 |:-----|:-----|:-----|
 |![Icono para diagramas técnicos.](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Diagramas técnicos para Skype Empresarial Server 2015](../technical-diagrams.md)  |Consulte fácilmente las opciones de arquitectura en estos diagramas de formato grande.   |
 |![Icono para vídeos.](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|Vídeos sobre cómo instalar Skype Empresarial Server : *próximamente!*   |Descubra presentaciones de vídeo y aprendizaje para Skype Empresarial Server.   |
@@ -44,7 +39,7 @@ Vea los siguientes recursos para obtener información sobre cómo implementar Sk
 
 Los siguientes artículos sobre cómo instalar y configurar Skype Empresarial Server están disponibles para verlos en línea. 
   
-|&nbsp;|Contenido|Descripción|
+|&nbsp;|Contenido|Description|
 |:-----|:-----|:-----|
 |![Icono para la documentación.](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Requisitos para su Skype Empresarial entorno](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)  |Obtenga información sobre los requisitos de servidor y entorno para Skype Empresarial Server.   |
 |![Icono para la documentación.](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Conceptos básicos de topología para Skype Empresarial Server 2015](../plan-your-deployment/topology-basics/topology-basics.md)  |Obtenga información sobre las opciones de topología y los escenarios de colocación de servidores para Skype Empresarial Server.   |
@@ -64,6 +59,6 @@ Los siguientes recursos sobre cómo planear la Skype Empresarial Server están d
 |&nbsp;|Contenido|Descripción|
 |:-----|:-----|:-----|
 |![Icono de Docs.](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype Empresarial Server para profesionales de TI](../../Hub/index.yml)  |Visite el centro de recursos para obtener acceso a vídeos, sitios de la comunidad, documentación, descargas y mucho más.   |
-|![Icono de contenido para desarrolladores.](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Plataforma para desarrolladores](/skype-sdk/skypedeveloperplatform)  |Busque recursos para desarrolladores Skype Empresarial Server, incluidos ejemplos de código, aprendizaje y SDK.   |
+|![Icono de contenido para desarrolladores.](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype developer platform](/skype-sdk/skypedeveloperplatform)  |Busque recursos para desarrolladores Skype Empresarial Server, incluidos ejemplos de código, aprendizaje y SDK.   |
 |![Icono de noticias, blogs, y así sucesivamente.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png) | [Administración y adopción de cambios](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899)   <br/> [Skype blog del equipo](https://go.microsoft.com/fwlink/p/?LinkId=532818)  |Manténgase al día con las noticias de los equipos que crean y documentan Skype Empresarial Server.   |
 

@@ -1,24 +1,19 @@
 ---
 title: Informe de lista de errores en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 'Summary: Learn about the Failure List Report in Skype Empresarial Server.'
-ms.openlocfilehash: 37442d95c3a79bffbd79ebd74a793f5d3e1f3fb4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858297"
 ---
+
 # <a name="failure-list-report-in-skype-for-business-server"></a>Informe de lista de errores en Skype Empresarial Server 
  
 **Resumen:** Obtenga información sobre el informe de lista de errores en Skype Empresarial Server.
@@ -27,7 +22,7 @@ El informe de lista de errores proporciona información sobre los participantes 
   
 ## <a name="accessing-the-failure-list-report"></a>Acceso al informe de lista de errores
 
-Para obtener acceso al informe de lista de errores, haga clic en cualquiera de las siguientes métricas del Informe de distribución de [errores Skype Empresarial Server](failure-distribution-report.md):
+Para obtener acceso al informe de lista de errores, haga clic en cualquiera de las siguientes métricas del Informe de distribución de errores [Skype Empresarial Server](failure-distribution-report.md):
   
 - Motivos del diagnóstico principales (sesiones)
     
@@ -45,7 +40,7 @@ Para obtener acceso al informe de lista de errores, haga clic en cualquiera de l
     
 - Agentes de usuarios de origen principales (sesiones)
     
-En el Informe de lista de errores, puede obtener acceso al Informe de detalles de sesión punto a punto en [Skype Empresarial Server](peer-to-peer-session-detail-report.md) haciendo clic en la métrica Detalles de sesión de una sesión punto a punto. También puede obtener acceso al Informe de detalles de conferencia haciendo clic en la métrica de conferencia de una conferencia.
+En el Informe de lista de errores, puede obtener acceso al Informe de detalles de sesión punto a [punto en Skype Empresarial Server](peer-to-peer-session-detail-report.md) haciendo clic en la métrica Detalles de sesión de una sesión punto a punto. También puede obtener acceso al Informe de detalles de conferencia haciendo clic en la métrica de conferencia de una conferencia.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>Hacer el mejor uso del informe de lista de errores
 
@@ -93,7 +88,7 @@ Count    Name
 
 ## <a name="filters"></a>Filtros
 
-Ninguna. No puede filtrar el informe de lista de errores.
+Ninguno. No puede filtrar el informe de lista de errores.
   
 ## <a name="metrics"></a>Métricas
 

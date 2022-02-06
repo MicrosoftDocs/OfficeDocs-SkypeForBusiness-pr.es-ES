@@ -1,24 +1,19 @@
 ---
 title: Implementar la supervisión en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Resumen: obtenga información sobre cómo implementar la supervisión en Skype Empresarial Server.'
-ms.openlocfilehash: 5e3fdf468067b707ee1dd97c5458f3612d78653d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855084"
 ---
+
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Implementar la supervisión en Skype Empresarial Server
 
 **Resumen:** Obtenga información sobre cómo implementar la supervisión en Skype Empresarial Server.
@@ -36,7 +31,7 @@ Aunque a menudo es más sencillo habilitar la supervisión al mismo tiempo que c
 > [!NOTE]
 > Si la supervisión se ha habilitado para un grupo de servidores, puede deshabilitar el proceso de recopilación de datos de supervisión sin tener que cambiar la topología: Skype Empresarial Server proporciona una forma de deshabilitar (y, posteriormente, volver a habilitar) la recopilación de datos de registro de detalles de llamadas (CDR) o calidad de experiencia (QoE). Para obtener más información, vea la sección de configuración del registro de detalles de llamadas y los valores de calidad de experiencia de este documento.
 
-Otra mejora importante de la supervisión en Skype Empresarial Server es el hecho de que los informes de supervisión de Skype Empresarial Server ahora admiten IPv6: los informes que usan el campo Dirección IP mostrarán direcciones IPv4 o IPv6 según : 1) la consulta SQL que se use; y, 2) donde o no se almacena la dirección IPv6 en la base de datos de supervisión.
+Otra mejora importante de la supervisión en Skype Empresarial Server es el hecho de que los informes de supervisión de Skype Empresarial Server ahora admiten IPv6: los informes que usan el campo Dirección IP mostrarán direcciones IPv4 o IPv6 según : 1) el SQL  consulta que se está utilizando; y, 2) donde o no se almacena la dirección IPv6 en la base de datos de supervisión.
 
 > [!NOTE]
 > Asegúrese de que el tipo de inicio del servicio de agente de SQL Server es Automático y que el servicio de agente de SQL Server se está ejecutando para la instancia de SQL que tiene las bases de datos de supervisión, de modo que los trabajos de mantenimiento de SQL Server de supervisión predeterminada se puedan ejecutar de forma programada bajo el control del servicio de agente de SQL Server.
@@ -47,7 +42,7 @@ Esta documentación le guiará por el proceso de instalación y configuración d
 
 - Instale SQL Server Reporting Services y los informes Skype Empresarial Server supervisión. Los informes de supervisión son informes preconfigurados que ofrecen diferentes vistas sobre la información almacenada en una base de datos de supervisión.
 
-- Configurar la recopilación de datos de registro detallado de llamadas (CDR) y calidad de experiencia (QoE). La grabación detallada de llamadas proporciona una forma de realizar un seguimiento del uso de Skype Empresarial Server funciones como llamadas telefónicas de voz sobre IP (VoIP); mensajería instantánea (MI); transferencias de archivos; conferencias de audio y vídeo (A/V); y sesiones de uso compartido de aplicaciones. Las métricas QoE controlan la calidad de las llamadas de audio y vídeo de la organización, incluyen datos sobre el número de paquetes perdidos, el ruido de fondo y la cantidad de "vibración" (diferencias en el retraso de paquetes).
+- Configurar la recopilación de datos de registro detallado de llamadas (CDR) y calidad de experiencia (QoE). La grabación detallada de llamadas proporciona una forma de realizar un seguimiento del uso de funcionalidades de Skype Empresarial Server como llamadas telefónicas de voz sobre IP (VoIP); mensajería instantánea (MI); transferencias de archivos; conferencias de audio y vídeo (A/V) y sesiones de uso compartido de aplicaciones. Las métricas QoE controlan la calidad de las llamadas de audio y vídeo de la organización, incluyen datos sobre el número de paquetes perdidos, el ruido de fondo y la cantidad de "vibración" (diferencias en el retraso de paquetes).
 
 - Depure manualmente los registros de CDR y/o QoE de la base de datos de supervisión.
 
@@ -65,7 +60,7 @@ Aunque la supervisión ya está instalada y activada en cada servidor front-end,
 
 Aunque los agentes de recopilación de datos unificados se instalan y activan automáticamente en cada servidor front-end, eso no significa que comience automáticamente a recopilar datos de supervisión en el momento en que termine de instalar Skype Empresarial Server. En su lugar, debe hacer dos cosas: debe asociar los servidores front-end/grupos de servidores front-end con una base de datos de supervisión y debe habilitar la supervisión del registro detallado de llamadas (CDR) o la supervisión de calidad de la experiencia (QoE) en el ámbito global o en el ámbito del sitio.
 
-Para obtener instrucciones paso a paso sobre cómo asociar servidores front-end o grupos de servidores front-end con una base de datos de supervisión, vea el tema Asociar un almacén de supervisión con un grupo de servidores [front-end](associate-a-monitoring-store.md) en Skype Empresarial Server en la guía de implementación. Una vez realizadas estas asociaciones y después de que se haya publicado la nueva topología de Skype Empresarial Server, aún no podrá recopilar datos de supervisión. Esto se debe a que, de forma predeterminada, la recopilación de datos CDR y QoE está deshabilitada al instalar Skype Empresarial Server.
+Para obtener instrucciones paso a paso sobre la asociación de servidores front-end o grupos de servidores front-end con una base de datos de supervisión, vea el tema Asociar un almacén de supervisión con un grupo de servidores [front-end en Skype Empresarial Server](associate-a-monitoring-store.md) en la guía de implementación. Una vez realizadas estas asociaciones y después de que se haya publicado la nueva topología de Skype Empresarial Server, aún no podrá recopilar datos de supervisión. Esto se debe a que, de forma predeterminada, la recopilación de datos CDR y QoE está deshabilitada al instalar Skype Empresarial Server.
 
 Para comenzar la recopilación de datos, deberá habilitar la supervisión de CDR o QoE. (Tenga en cuenta que no tiene que habilitar la supervisión de CDR y QoE; si lo prefiere, puede habilitar un tipo de supervisión mientras deja deshabilitado el otro tipo). Para habilitar la supervisión de CDR en el ámbito global, ejecute el siguiente comando desde el Shell Skype Empresarial Server administración:
 
@@ -97,6 +92,6 @@ Si lo prefiere, también puede habilitar la supervisión de QoE desde el Panel S
 
 Tal como hemos visto, los ejemplos anteriores muestran cómo habilitar la supervisión de forma global; es decir, permiten habilitar la supervisión de datos de CDR y QoE en la organización. De forma alternativa, puede separar la configuración de CDR y QoE en el sitio para habilitar o deshabilitar la supervisión en cada sitio. Por ejemplo, puede habilitar la supervisión de datos de CDR para el sitio de Redmont y deshabilitarla para el sitio de Dublín. Para obtener más información sobre cómo administrar las opciones de configuración de supervisión, vea el tema De la guía de implementación Configurar el registro detallado de llamadas y la configuración de calidad de la [experiencia en Skype Empresarial Server](call-detail-recording-and-qoe.md).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planear la supervisión en Skype Empresarial Server](../../plan-your-deployment/monitoring.md)

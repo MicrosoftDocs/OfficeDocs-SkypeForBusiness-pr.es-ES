@@ -1,25 +1,20 @@
 ---
 title: Configurar las opciones del servidor de chat persistente en Skype Empresarial Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 'Summary: Learn how to configure Persistent Chat Server options at the global, site, or pool level in Skype Empresarial Server 2015.'
-ms.openlocfilehash: 99dab0b4a5e7bb542dee00803e5c401c63544ada
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835848"
 ---
+
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Configurar las opciones del servidor de chat persistente en Skype Empresarial Server 2015
  
 **Resumen:** Obtenga información sobre cómo configurar las opciones del servidor de chat persistente en el nivel global, de sitio o de grupo en Skype Empresarial Server 2015.
@@ -35,7 +30,7 @@ Puede especificar varias opciones para el servidor de chat persistente que se pu
 - Dirección URL de administración de sala. La dirección URL usada para la administración de salas de chat personalizadas. La configuración permite el uso de una solución de administración de sala personalizada. 
    
 > [!NOTE] 
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015.
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015.
  
 ## <a name="configure-persistent-chat-server-global-options"></a>Configurar opciones globales del servidor de chat persistente
 
@@ -47,10 +42,10 @@ Para configurar las opciones globales del servidor de chat persistente:
     
 3. En la barra de navegación izquierda, haga clic en **Chat persistente** y, a continuación, en **Configuración de chat persistente**.
     
-4. En la **página Configuración de chat persistente,** haga clic en Nuevo **y, a continuación,** haga clic en **Configuración del sitio**.
+4. En la **página Configuración de chat persistente** , haga clic en **Nuevo y, a continuación,** haga clic en **Configuración del sitio**.
     
     > [!IMPORTANT]
-    > Elija esta opción si desea que la configuración se aplique a todos los grupos de servidores de chat persistente implementados en el sitio. Haga **clic en** Configuración del grupo si desea que la configuración se aplique a un grupo de servidores de chat persistente específico.
+    > Elija esta opción si desea que la configuración se aplique a todos los grupos de servidores de chat persistente implementados en el sitio. Haga **clic en Configuración del** grupo si desea que la configuración se aplique a un grupo de servidores de chat persistente específico.
   
 5. En **Seleccionar un sitio**, seleccione el sitio que se va a configurar para la configuración del sitio del servidor de chat persistente.
     
@@ -67,7 +62,7 @@ Para configurar las opciones globales del servidor de chat persistente:
     
    - En **Límite de actualización de participantes**, seleccione el límite de actualizaciones de participantes. El servidor de chat persistente envía información de lista (que está conectado a un salón de chat) a todos los participantes hasta que el número de usuarios conectados alcanza este número. De forma predeterminada, el número es 75. Este límite indica el número máximo de participantes en una sala determinada más allá de la cual el servidor de chat persistente deja de enviar actualizaciones de lista a los clientes conectados acerca de quién está presente en la sala.
     
-   - (Opcional). En **Dirección URL de administración de sala,** seleccione la dirección URL de administración de sala. Esta es la dirección URL para una administración de salones personalizada basada en web. Si no necesita personalizar la administración de sala y simplemente usa la configuración predeterminada, deje esta opción en blanco. Después de definir la dirección URL, se aplica como la dirección URL de administración de salones tanto internos como externos.
+   - (Opcional). En **Dirección URL de administración de sala**, seleccione la dirección URL de administración de sala. Esta es la dirección URL para una administración de salones personalizada basada en web. Si no necesita personalizar la administración de sala y simplemente usa la configuración predeterminada, deje esta opción en blanco. Después de definir la dirección URL, se aplica como la dirección URL de administración de salones tanto internos como externos.
     
      Si desea personalizar la experiencia de creación de salas e incluir su flujo de trabajo empresarial específico, puede crear una solución de administración de salas personalizada mediante el Kit de desarrollo de software (SDK) del servidor de chat persistente, hospedarla en algún lugar y colocar la dirección URL aquí. Esta dirección URL se envía al cliente para que cuando un usuario intente ver o crear un salón, se le dirija a su solución de administración de salones personalizada.
     
@@ -85,7 +80,7 @@ Para configurar opciones para un grupo de servidores de chat persistente especí
     
 4. En la página **Configuración de chat persistente**, haga clic en **Nueva** y, a continuación, haga clic en **Configuración del grupo de servidores**.
     
-5. En **Seleccionar un servicio,** seleccione el servicio asociado al grupo de servidores de chat persistente que se va a configurar.
+5. En **Seleccionar un servicio**, seleccione el servicio asociado al grupo de servidores de chat persistente que se va a configurar.
     
 6. En **Nueva configuración de chat persistente**, haga lo siguiente:
     

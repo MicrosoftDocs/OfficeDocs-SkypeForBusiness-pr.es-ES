@@ -1,25 +1,20 @@
 ---
 title: Planear el servidor de chat persistente en Skype Empresarial Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 'Resumen: lea este tema para obtener información sobre cómo planear el servidor de chat persistente en Skype Empresarial Server 2015.'
-ms.openlocfilehash: 7adeb623f581d7ce6f3bfad5dadafd143299fad5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842722"
 ---
+
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planear el servidor de chat persistente en Skype Empresarial Server 2015
  
 **Resumen:** Lea este tema para obtener información sobre cómo planear el servidor de chat persistente en Skype Empresarial Server 2015.
@@ -39,7 +34,7 @@ El servidor de chat persistente puede ayudar a mejorar la comunicación dentro d
 - Seguir las normativas de cumplimiento mediante la implementación opcional del servicio de cumplimiento de chat persistente
 
 > [!NOTE] 
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015. 
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015. 
     
 ## <a name="persistent-chat-server-high-level-architecture"></a>Arquitectura de alto nivel del servidor de chat persistente
 

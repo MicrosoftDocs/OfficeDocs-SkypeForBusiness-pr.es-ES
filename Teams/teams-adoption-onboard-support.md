@@ -1,7 +1,7 @@
 ---
 title: Incorporar compatibilidad con Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -12,22 +12,17 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Use recursos de aprendizaje en línea para incorporar al personal de soporte técnico a la fase de experimentación de su Teams adopción.
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Adopt
-- seo-marvel-apr2020
+  - Adopt
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 54e4696e1f50f16e9c98fd6543e8a4ca2bb021a1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849493"
+  - Microsoft Teams
 ---
+
 # <a name="onboard-support-for-microsoft-teams"></a>Incorporar compatibilidad con Microsoft Teams
 
 Para asegurarse de que los equipos iniciales de adopción y campeones tendrán el soporte adecuado a medida que empiecen a usar Teams, reúnase con el personal de soporte técnico y revise las capacidades de Teams. Es posible que los miembros clave de la organización de soporte técnico quieran unirse a su programa de adopción temprana. Anime a usar Teams en sus propios escenarios. Lleve a través de la incorporación básica del producto mediante nuestros recursos de aprendizaje en línea.  

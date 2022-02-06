@@ -1,27 +1,22 @@
 ---
 title: Expansor de configuración de dirección URL simple
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SimpleUrlSettingsExpander
+  - ms.lync.tb.SimpleUrlSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Para especificar nuevas direcciones URL, o bien quitar las ya existentes o cambiar las direcciones URL sencillas activas, efectúe lo siguiente:'
-ms.openlocfilehash: f64dc15f859309556b90d6012f6cd482e8b22ff5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847863"
 ---
+
 # <a name="simple-url-settings-expander"></a>Expansor de configuración de dirección URL simple
 
 Para especificar nuevas direcciones URL, o bien quitar las ya existentes o cambiar las direcciones URL sencillas activas, efectúe lo siguiente:
@@ -48,6 +43,6 @@ Para editar o cambiar la dirección URL de acceso administrativo, edite la entra
 
 Una vez haya efectuado todos los cambios en la página Editar propiedades, haga clic en **Aceptar** para guardar los cambios. Haga clic en **Cancelar** para descartar los cambios.
 
-###  <a name="see-also"></a>Consulte también
+###  <a name="see-also"></a>Vea también
 
 Para obtener más información, consulte [Planeación de direcciones URL sencillas](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-simple-urls)

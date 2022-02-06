@@ -1,34 +1,30 @@
 ---
 title: Configurar directivas para controlar el acceso de usuarios federados
-ms.reviewer: ''
-ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
-ms:contentKeyID: 48184180
+ms.reviewer: null
+'ms:assetid': 5485e208-81e4-4e59-9aeb-1232c11dd8a2
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)'
+'ms:contentKeyID': 48184180
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 'Al configurar directivas para admitir comunicaciones con socios federados, las directivas se aplican a los usuarios de dominios federados. '
-ms.openlocfilehash: 020135e26b2a989d6ef0225825cb2597d15687d4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833406"
 ---
+
+
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Configurar directivas para controlar el acceso de usuarios federados en Skype Empresarial Server
 
 Al configurar directivas para admitir comunicaciones con socios federados, las directivas se aplican a los usuarios de dominios federados. Puede configurar una o más directivas de acceso de usuarios externos para controlar si los usuarios de dominios federados pueden colaborar con sus Skype Empresarial Server usuarios. Puede configurar directivas de nivel global, de sitio y de usuario para controlar el acceso de usuarios federados. Skype Empresarial Server la configuración de directiva que se aplica en un nivel de directiva puede invalidar la configuración que se aplica en otro nivel de directiva. La prioridad de las directivas de Skype Empresarial Server es: la directiva de usuario (mayor influencia) invalida una directiva de sitio y una directiva de sitio invalida una directiva global (menor influencia). Esto significa que cuanto más se aproxime la configuración de la directiva al objeto al que afecta la directiva, más influencia tendrá en el objeto.
 
 
 > [!NOTE]  
-> Puede configurar directivas para controlar el acceso de usuarios federados, incluso aunque no haya habilitado una federación para la organización. Sin embargo, las directivas que configure únicamente surtirán efecto cuando haya habilitado la federación en la organización. Para obtener más información sobre cómo habilitar la federación, vea [Habilitar o deshabilitar el acceso de usuarios remotos.](../access-edge/enable-or-disable-remote-user-access.md)  Además, si especifica una directiva de usuario para controlar el acceso de usuarios federados, la directiva solo se aplica a los usuarios que están habilitados para Skype Empresarial Server y configurados para usar la directiva.
+> Puede configurar directivas para controlar el acceso de usuarios federados, incluso aunque no haya habilitado una federación para la organización. Sin embargo, las directivas que configure únicamente surtirán efecto cuando haya habilitado la federación en la organización. Para obtener más información sobre cómo habilitar la federación, consulte [Habilitar o deshabilitar el acceso de usuarios remotos](../access-edge/enable-or-disable-remote-user-access.md).  Además, si especifica una directiva de usuario para controlar el acceso de usuarios federados, la directiva solo se aplica a los usuarios que están habilitados para Skype Empresarial Server y configurados para usar la directiva.
 
 
 ## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>Para configurar una directiva para permitir el acceso de usuarios de dominios federados
@@ -59,15 +55,15 @@ Al configurar directivas para admitir comunicaciones con socios federados, las d
 
 7.  Haga clic en **Confirmar**.
 
-Para habilitar el acceso de usuarios federados, también debe admitir una federación en la organización. Para obtener más información, [vea Habilitar o deshabilitar la federación y la conectividad de mensajería instantánea pública.](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
+Para habilitar el acceso de usuarios federados, también debe admitir una federación en la organización. Para obtener más información, vea [Habilitar o deshabilitar la federación y la conectividad de mensajería instantánea pública](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md).
 
-Si se trata de una directiva de usuario, también tiene que aplicar la directiva a los usuarios que desee que puedan colaborar con usuarios federados. Para obtener más información, vea [Asignar una directiva de acceso de usuario externo.](assign-an-external-user-access-policy.md)
+Si se trata de una directiva de usuario, también tiene que aplicar la directiva a los usuarios que desee que puedan colaborar con usuarios federados. Para obtener más información, vea [Asignar una directiva de acceso de usuarios externos](assign-an-external-user-access-policy.md).
 
 ## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para configurar una directiva existente mediante Windows PowerShell para admitir el acceso de los usuarios de dominios federados
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Inicie el Skype shell de administración de Busines Server: haga clic en Inicio **,** en Todos los **programas,** haga clic en **Skype Empresarial Server** y, a continuación, haga clic en **Skype Empresarial Server Shell de administración**.
+2.  Inicie el Skype shell de administración de busines server: haga clic en **Inicio, haga** clic en Todos los **programas, haga** clic en **Skype Empresarial Server** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
 
 3.  Escriba lo siguiente en el Shell Skype Empresarial Server administración:
     
@@ -84,7 +80,7 @@ Si se trata de una directiva de usuario, también tiene que aplicar la directiva
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** en Todos los **programas,** en **Microsoft Skype Empresarial Server** y, a continuación, haga clic Skype Empresarial Server Shell **de administración**.
+2.  Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, en** Todos los **programas, en** **Microsoft Skype Empresarial Server** y, a continuación, en **Skype Empresarial Server Shell de administración**.
 
 3.  Escriba lo siguiente en el Shell Skype Empresarial Server administración:
     
@@ -120,7 +116,7 @@ Si se trata de una directiva de usuario, también tiene que aplicar la directiva
     `Remove-CsExternalAccessPolicy -Identity UserEAPPolicy`
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 [Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 

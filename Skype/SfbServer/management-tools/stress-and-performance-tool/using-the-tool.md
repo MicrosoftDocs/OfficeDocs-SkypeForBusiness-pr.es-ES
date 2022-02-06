@@ -1,26 +1,21 @@
 ---
 title: Uso de la Skype Empresarial Server de esfuerzo y rendimiento de 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/13/2018
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
-description: Para ejecutar la herramienta de esfuerzo y rendimiento de Skype Empresarial Server 2015, deberá poder administrar usuarios, contactos y perfiles de usuario, configurar la herramienta para su ejecución y, a continuación, revisar los resultados o resultados que produce la herramienta.
-ms.openlocfilehash: b71148f4fcf26726b530861b147336a1c7b1d12e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839852"
+description: 'Para ejecutar la herramienta de esfuerzo y rendimiento de Skype Empresarial Server 2015, deberá poder administrar usuarios, contactos y perfiles de usuario, configurar la herramienta para su ejecución y, a continuación, revisar los resultados o resultados que produce la herramienta.'
 ---
+
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Uso de la Skype Empresarial Server de esfuerzo y rendimiento de 2015
  
 Para ejecutar la herramienta de esfuerzo y rendimiento de Skype Empresarial Server 2015, deberá poder administrar usuarios, contactos y perfiles de usuario, configurar la herramienta para su ejecución y, a continuación, revisar los resultados o resultados que produce la herramienta.
@@ -42,15 +37,15 @@ Debe usar la herramienta de aprovisionamiento de usuarios de Skype Empresarial S
   
 Esta es una lista de términos útiles que pueden ser útiles a medida que lee los temas:
   
-- **Unidad organizativa:** unidad organizativa (OU) de Servicios de dominio de Active Directory (AD DS).
+- **Unidad organizativa** : unidad organizativa (OU) de Servicios de dominio de Active Directory (AD DS).
     
-- **Federados o entre grupos:** usuarios que pueden comunicarse con usuarios de otros servicios de mensajería instantánea (MI).
+- **Federados o entre grupos** : usuarios que pueden comunicarse con usuarios de otros servicios de mensajería instantánea (MI).
     
-- **Listas de distribución:** o DLs. Estos son objetos de AD DS que contienen una lista de usuarios de AD DS. Se usan para facilitar las comunicaciones entre grupos de personas.
+- **Listas de distribución** : o DLs. Estos son objetos de AD DS que contienen una lista de usuarios de AD DS. Se usan para facilitar las comunicaciones entre grupos de personas.
     
 - **Servicio** de información de ubicación: el servicio Skype Empresarial Server 2015 que, cuando está habilitado y configurado por teléfono, permite recuperar la ubicación física de los servicios mejorados de 911 (E911).
     
-- Números de Teléfono **ee.UU.:** números Teléfono asignados al usuario además del URI de SIP que se usa para enrutar llamadas entrantes y salientes en Búsqueda inversa de números (RNL).
+- Números de Teléfono **ee.UU.**: números Teléfono asignados al usuario además del URI de SIP que se usa para enrutar llamadas entrantes y salientes en Búsqueda inversa de números (RNL).
     
 ### <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Crear usuarios y contactos mediante UserProvisioningTool.exe
 
@@ -59,12 +54,12 @@ Esta es una lista de términos útiles que pueden ser útiles a medida que lee l
   
 Debe usar la herramienta de aprovisionamiento Skype Empresarial Server usuario para crear usuarios y contactos para la simulación de carga.
   
-La **Skype Empresarial Server de aprovisionamiento de** usuarios se instala con el Skype Empresarial Server de la herramienta de rendimiento y **esfuerzo.** Asegúrese de que el instalador de paquetes (CapacityPlanningTool.msi) se haya ejecutado en el servidor front-end o en el servidor Standard Edition que desea probar.
+La **Skype Empresarial Server de aprovisionamiento de** usuarios se instala con el **Skype Empresarial Server de la herramienta de esfuerzo y** rendimiento. Asegúrese de que el instalador de paquetes (CapacityPlanningTool.msi) se haya ejecutado en el servidor front-end o en el servidor Standard Edition que desea probar.
   
 Puede iniciar la herramienta de aprovisionamiento de usuarios de Skype Empresarial Server ejecutando el archivo UserProvisioningTool.exe (ubicado en %InstalledDirectory%LyncStressAndPerfTool\LyncStress) en el servidor front-end o en el servidor Standard Edition.
   
 > [!IMPORTANT]
-> Al crear un gran número de usuarios (por ejemplo, 10 000 o más), ejecute el UserProvisioningTool.exe. Tendrás que hacerlo porque la herramienta va a crear y configurar  *nuevos*  usuarios de AD.
+> Al crear un gran número de usuarios (por ejemplo, 10 000 o más), ejecute el UserProvisioningTool.exe. Tendrás que hacerlo porque la herramienta va a crear y  *configurar nuevos usuarios*  de AD.
   
 Cuando se abra la Herramienta de aprovisionamiento de usuarios, haga clic en Configuración y seleccione La configuración de carga. 
   
@@ -78,17 +73,17 @@ Si tiene un archivo XML preconfigurado que ya contiene la configuración persona
     
 2. En el **campo Prefijo de** nombre de usuario, escriba un prefijo que desee usar para romper los nombres de usuario con fines de prueba (como "TestUser").
     
-3. En el **campo Contraseña,** escriba una contraseña que se usará en todas las cuentas de usuario de prueba.
+3. En el **campo Contraseña** , escriba una contraseña que se usará en todas las cuentas de usuario de prueba.
     
 4. En el **campo Dominio de** cuenta, escriba el nombre de dominio del dominio de AD actual (el que desea crear los usuarios de prueba).
     
-5. En el **campo Unidad organizativa,** escriba el nombre del dominio de AD donde desea crear estos usuarios de prueba. (Si la OU aún no existe, se creará automáticamente).
+5. En el **campo Unidad organizativa** , escriba el nombre del dominio de AD donde desea crear estos usuarios de prueba. (Si la OU aún no existe, se creará automáticamente).
     
-6. En el **Teléfono código de área,** escriba el código de área de tres dígitos que se usará en todas las cuentas de usuario de prueba. Asegúrese de que el código de área elegido no entre en conflicto con los códigos de área de otros usuarios en AD.
+6. En el **Teléfono código de área**, escriba el código de área de tres dígitos que se usará en todas las cuentas de usuario de prueba. Asegúrese de que el código de área elegido no entre en conflicto con los códigos de área de otros usuarios en AD.
     
 7. Haga clic para activar la **casilla De** voz habilitada, si desea habilitar los usuarios de prueba para Telefonía IP empresarial.
     
-8. En el **campo Número de usuarios,** dé el número total de usuarios de prueba que desea crear.
+8. En el **campo Número de usuarios** , dé el número total de usuarios de prueba que desea crear.
     
 9. En el campo **Índice** de inicio, asigne el número inicial que se usará como sufijo al prefijo de nombre de usuario (por ejemplo, el prefijo es "TestUser", y el nombre finalizará en "0" en el ejemplo siguiente).
     
@@ -96,7 +91,7 @@ Si tiene un archivo XML preconfigurado que ya contiene la configuración persona
   
 #### <a name="create-users-button"></a>Botón Crear usuarios
 
-Al hacer clic en el **botón Crear usuarios,** se validan los parámetros de entrada que ha especificado. Si hay algún error de validación, se le pedirá que los corrija. O bien, si todos los valores son correctos, los usuarios empezarán a aparecer en AD (en cualquier OU que haya especificado). Verá una barra de progreso en la parte inferior de la herramienta mientras se ejecuta. No cierre la aplicación mientras la barra de progreso esté activa.
+Al hacer clic en el **botón Crear usuarios** , se validan los parámetros de entrada que ha especificado. Si hay algún error de validación, se le pedirá que los corrija. O bien, si todos los valores son correctos, los usuarios empezarán a aparecer en AD (en cualquier OU que haya especificado). Verá una barra de progreso en la parte inferior de la herramienta mientras se ejecuta. No cierre la aplicación mientras la barra de progreso esté activa.
   
 La creación de usuarios lleva tiempo, así que planee según corresponda. Este proceso puede tardar desde varios minutos para unos pocos usuarios hasta unas pocas horas para un gran número de usuarios.
   
@@ -107,10 +102,10 @@ Si no tienes acceso al controlador de dominio de AD en el entorno de prueba, pue
   
 #### <a name="delete-users-button"></a>Botón Eliminar usuarios
 
-Al hacer clic en el **botón Eliminar usuarios,** se validarán los parámetros de entrada de la pestaña. Si hay errores de validación, se le pedirá que los corrija y, si los valores de entrada son correctos, los usuarios de prueba especificados se deshabilitarán y eliminarán de Active Directory. De nuevo, aparecerá una barra de progreso en la parte inferior de esta pestaña y no debe cerrar la aplicación mientras la barra de progreso esté activa.
+Al hacer clic en el **botón Eliminar usuarios** , se validarán los parámetros de entrada de la pestaña. Si hay errores de validación, se le pedirá que los corrija y, si los valores de entrada son correctos, los usuarios de prueba especificados se deshabilitarán y eliminarán de Active Directory. De nuevo, aparecerá una barra de progreso en la parte inferior de esta pestaña y no debe cerrar la aplicación mientras la barra de progreso esté activa.
   
 > [!NOTE]
-> Solo se admiten números de teléfono con formato estadounidense. Teléfono los números siempre se asignan a los usuarios y todos los usuarios creados por UserProvisioningTool.exe están habilitados para Telefonía IP empresarial de forma predeterminada. Cualquier escenario que use el número de teléfono, como conferencias Operador automático o llamadas RTC UC, use este número de teléfono para enrutar correctamente las llamadas. Por este motivo,  *cada usuario*  debe tener un número de *teléfono único*  .
+> Solo se admiten números de teléfono con formato estadounidense. Teléfono los números siempre se asignan a los usuarios y todos los usuarios creados por UserProvisioningTool.exe están habilitados para Telefonía IP empresarial de forma predeterminada. Cualquier escenario que use el número de teléfono, como conferencias Operador automático o llamadas RTC UC, use este número de teléfono para enrutar correctamente las llamadas. Por este motivo,  *cada usuario*  debe tener un *número de teléfono único*  .
   
 > [!NOTE]
 > **Si tiene que crear usuarios dos veces, el comando producirá un error a menos que use un código de área diferente o si los usuarios anteriores se han deshabilitado mediante el cmdlet Disable-CsUser.**
@@ -129,13 +124,13 @@ Esta pestaña te permite proporcionar los detalles de los contactos de los usuar
   
 ### <a name="to-configure-users-contacts-do-the-following"></a>Para configurar los contactos de los usuarios, haga lo siguiente:
 
-1. En el **campo Promedio de contactos por usuario,** escriba el número promedio de contactos que se rellenarán en listas de contactos para cada usuario.
+1. En el **campo Promedio de contactos por usuario** , escriba el número promedio de contactos que se rellenarán en listas de contactos para cada usuario.
     
 2. Active la **casilla** Fijo si desea crear un número igual de contactos para cada usuario. Si desea variar el número de contactos creados para los usuarios, desactive esa casilla.
     
-3. En el campo Promedio de grupos de contactos **por usuario,** escriba el número de grupos de contactos por usuario. Este número debe ser menor que **el promedio de contactos por usuario**.
+3. En el **campo Promedio de grupos de contactos por usuario** , escriba el número de grupos de contactos por usuario. Este número debe ser menor que **el promedio de contactos por usuario**.
     
-4. En el **campo Porcentaje de contactos federados/entre** grupo de servidores, dé un número entre 0 y 100. Este porcentaje de contactos se creará con los usuarios federados.
+4. En el **campo Porcentaje de contactos federados** /entre grupo de servidores, dé un número entre 0 y 100. Este porcentaje de contactos se creará con los usuarios federados.
     
 5. En el **campo Prefijo de** usuario federado o entre grupos, dé el nombre de usuario para los usuarios federados que se agregarán a las listas de contactos de los usuarios locales.
     
@@ -164,7 +159,7 @@ La pestaña Lista de distribución permite crear listas de distribución que usa
     
 3. En el **campo Miembros mínimos de una** lista dist. Escriba el número mínimo de usuarios que se deben colocar en cada DL.
     
-4. En el campo Máximo de miembros en una lista **dist.** Escriba el número máximo de usuarios que se agregarán en cada DL.
+4. En el **campo Máximo de miembros en una lista dist.** Escriba el número máximo de usuarios que se agregarán en cada DL.
     
 #### <a name="create-distribution-lists-button"></a>Botón Crear listas de distribución
 
@@ -216,13 +211,13 @@ A **continuación se** muestra la pestaña Configuración común de la Herramien
   
 1. En el **campo Número de** máquinas disponibles, escriba el número de equipos que desea usar para ejecutar la herramienta Esfuerzo y rendimiento (LyncPerfTool.exe). Se recomienda tener un equipo por cada 4500 usuarios que va a simular, pero ese número puede variar si reduce el nivel de carga o usa solo un subconjunto de las características disponibles de la herramienta (los niveles de carga se establecen en la pestaña Escenarios generales).
     
-2. En el **campo Prefijo de nombres de** usuario, escriba un prefijo para el campo nombre de usuario de todos los usuarios. Para iniciar sesión, el identificador uniforme de recursos (URI) será: *UserPrefix[User Start Index... (Número de usuarios-1)] @User domain*  , por ejemplo, myUser009@Contoso.com.
+2. En el **campo Prefijo de nombres de** usuario, escriba un prefijo para el campo nombre de usuario de todos los usuarios. Para iniciar sesión, el identificador uniforme de recursos (URI) será: *UserPrefix[User Start Index... (Número de usuarios-1)] @User Domain*  , por ejemplo, myUser009@Contoso.com.
     
-3. En el **campo Contraseña para todos los usuarios,** escriba la contraseña usada durante la creación de los usuarios. Si deja este campo vacío, el nombre de usuario se establecerá como contraseña.
+3. En el **campo Contraseña para todos los usuarios** , escriba la contraseña usada durante la creación de los usuarios. Si deja este campo vacío, el nombre de usuario se establecerá como contraseña.
     
 4. En el **campo Índice de inicio de** usuario, escriba el índice del primer usuario que se va a configurar. Puede configurar distintos intervalos para distintos tipos o niveles de carga, pero debe ejecutar la herramienta de configuración de carga (UserProfileGenerator.exe) una vez por el rango que desee configurar.
     
-5. En el **campo Número de usuarios,** escriba el número total de usuarios que va a configurar.
+5. En el **campo Número de usuarios** , escriba el número total de usuarios que va a configurar.
     
 6. En el **campo Dominio de** usuario, escriba el dominio usado para el URI de SIP. Esto se usa para crear el URI sip de cada usuario para iniciar sesión en el servidor front-end de Skype Empresarial Server 2015 o en el servidor Standard Edition, y puede ser diferente del dominio de cuenta.
     
@@ -230,13 +225,13 @@ A **continuación se** muestra la pestaña Configuración común de la Herramien
     
 8. En el **campo Porcentaje de MPOP** (porcentaje de varios puntos de presencia), dé un valor para el porcentaje de usuarios que han iniciado sesión desde varios equipos o dispositivos, por ejemplo, el 10 por ciento.
     
-9. Escriba el número máximo de extremos simultáneos en el campo **Iniciar sesión por segundo (por instancia).** Este es el número máximo de inicios de sesión para los usuarios y la recomendación es una tasa menor o igual a 2 por segundo (<=2).
+9. Escriba el número máximo de extremos simultáneos en el campo **Iniciar sesión por segundo (por instancia** ). Este es el número máximo de inicios de sesión para los usuarios y la recomendación es una tasa menor o igual a 2 por segundo (<=2).
     
 10. En el **campo Fqdn** de grupo o proxy de acceso, escriba el nombre de dominio completo (FQDN) del servidor al que desea que se conecten los clientes. Si los usuarios inician sesión externamente, deberá escribir el proxy de acceso. Si los usuarios son internos, dé el FQDN de su Enterprise o Standard Edition servidor.
     
-11. En el **campo Puerto,** escriba el puerto que desea que los usuarios usen para SIP (el valor predeterminado aquí es 5061).
+11. En el **campo Puerto** , escriba el puerto que desea que los usuarios usen para SIP (el valor predeterminado aquí es 5061).
     
-12. Para el **campo Servidor de red Configuración,** dé el FQDN de grupo o proxy de acceso y, de nuevo, el **puerto**. Esta configuración solo se usa para la simulación de carga de extremos externos.
+12. Para el **campo Servidor de red Configuración**, proporciona el FQDN de grupo o proxy de acceso y, de nuevo, el **puerto**. Esta configuración solo se usa para la simulación de carga de extremos externos.
     
 #### <a name="general-scenarios-tab"></a>Ficha Escenarios generales
 
@@ -249,7 +244,7 @@ Puede configurar los niveles de carga y los parámetros para cada uno de los esc
   
 - **Mensajería instantánea:** Esto incluye conferencias y punto a punto; elija el valor adecuado para Nivel de carga.
     
-- **Audioconferencia -** Elija un nivel de carga solo para *audioconferencia.* Las llamadas punto a punto se abordarán un poco más tarde en la sección **Escenarios de** voz. Abra la **pestaña** Avanzadas para habilitar MultiView.
+- **Audioconferencia -** Elija un nivel de carga solo para *audioconferencia*  . Las llamadas punto a punto se abordarán un poco más tarde en la sección **Escenarios de** voz. Abra la **pestaña** Avanzadas para habilitar MultiView.
     
 - **Uso compartido de aplicaciones:** Elija un nivel de carga para el uso compartido de aplicaciones.
     
@@ -259,7 +254,7 @@ Puede configurar los niveles de carga y los parámetros para cada uno de los esc
     
 - **Consulta web de libreta de direcciones:** Este es el servicio de búsqueda de libreta de direcciones en lugar de la descarga del archivo de libreta de direcciones. Si desea habilitar esto para las descargas de archivos de libreta de direcciones, haga clic en el **botón** Avanzadas y establezca **EnableABSDownload** en True. Dar un valor para el nivel de carga.
     
-- **Servicio de grupo de respuesta -** Haga clic **en el botón** Avanzadas y especifique los URI de los grupos de respuesta que ya creó al aprovisionar Servicio de grupo de respuesta agentes. Debe elegir al menos un grupo de respuesta. Para usar más, separe los grupos de respuesta con punto y coma. Actualice **RGSUriSuffixStartIndex** y **RGSUriSuffixEndIndex a** los valores reales. Elija un nivel de carga.
+- **Servicio de grupo de respuesta: haga** clic en **el botón** Avanzadas y especifique los URI de los grupos de respuesta que ya creó al aprovisionar Servicio de grupo de respuesta agentes. Debe elegir al menos un grupo de respuesta. Para usar más, separe los grupos de respuesta con punto y coma. Actualice **RGSUriSuffixStartIndex** y **RGSUriSuffixEndIndex a** los valores reales. Elija un nivel de carga.
     
 - **Servicios de información de ubicación:** Seleccione un nivel de carga de Enabled o Disabled.
     
@@ -274,9 +269,9 @@ Puede configurar los niveles de carga y los parámetros para cada uno de los esc
     
 Estos botones y casillas son valores adicionales específicos de cada escenario y cambiarán el comportamiento de la Herramienta de esfuerzo y rendimiento y harán posible la personalización.
   
-Para cada escenario de la ficha Escenarios generales (excepto los Servicios de información de ubicación), si el valor de Nivel de carga es **Personalizado,** la tasa de conversación se calculará con el campo correspondiente del cuadro de diálogo Avanzado. El nombre del campo puede variar, según el escenario, pero la descripción del campo se mostrará: NOTA Este número solo se usará si Custom está seleccionado en el  *menú desplegable*  .
+Para cada escenario de la pestaña Escenarios generales (excepto los Servicios de información de ubicación), si el valor de Nivel de carga es **Personalizado**, la tasa de conversación se calculará con el campo correspondiente del cuadro de diálogo Avanzado. El nombre del campo puede variar, según el escenario, pero la descripción del campo se mostrará: NOTA Este número solo se usará si Custom está seleccionado en el  *menú desplegable*  .
   
-Los valores **High**, **Medium** y **Low**, modificarán las tasas de conversación por modalidad en línea con el modelo de usuario que es un equilibrio de todos los escenarios. Si es necesario cambiar el nivel de carga por modalidad debido a una diferencia en el uso esperado, use una tasa de conversación personalizada.
+Los valores **High**, **Medium** y **Low** modificarán las tasas de conversación por modalidad en línea con el modelo de usuario que es un equilibrio de todos los escenarios. Si es necesario cambiar el nivel de carga por modalidad debido a una diferencia en el uso esperado, use una tasa de conversación personalizada.
   
 #### <a name="voice-scenarios-tab"></a>Pestaña Escenarios de voz
 
@@ -293,14 +288,14 @@ Las opciones son:
     > [!TIP]
     > Puede usar el Panel de control Skype Empresarial o el Shell de administración Skype Empresarial para comprobar la configuración de la ruta de voz. 
   
-- **Operador de conferencia -** Proporcione un valor para El nivel de carga. Cualquier valor distinto de Deshabilitado habilitará el **campo Número de** teléfono. Escriba el número de teléfono del Operador automático que desea usar. Haga **clic en** Avanzadas y dé un valor para el campo **LocationProfile.**
+- **Operador de conferencia: proporcione** un valor para El nivel de carga. Cualquier valor distinto de Deshabilitado habilitará el **campo Número de** teléfono. Escriba el número de teléfono del Operador automático que desea usar. Haga **clic en** Avanzadas y dé un valor para el **campo LocationProfile** .
     
 - **Servicio de estacionamiento de llamadas:** Aquí, proporcione un nivel de carga.
     
 - **Servidor de mediación y RTC:** Cada servidor de mediación que desee usar necesita su propio simulador de RTC. Después de determinar qué cliente va a usar para el simulador, configure el servidor de mediación para enrutar las llamadas a ese equipo en el simulador rtc que configuró. Haga clic **en el botón** Agregar para configurar un valor para el servidor de mediación.
     
     > [!NOTE]
-    > Cada escenario tiene un botón Avanzado situado junto a él. Los cuadros de diálogo avanzados contienen configuraciones específicas de cada escenario que cambian el comportamiento de la Herramienta de esfuerzo y rendimiento y habilitan la personalización. > Para cada escenario de la pestaña Escenarios de voz, si el valor de Nivel de carga es **Personalizado,** la tasa de conversación se calculará mediante el campo correspondiente del cuadro de diálogo Avanzado. El nombre del campo puede variar, según el escenario, pero la descripción del campo se mostrará: NOTA Este número solo se usará si Custom está seleccionado en el  *menú desplegable*  .
+    > Cada escenario tiene un botón Avanzado situado junto a él. Los cuadros de diálogo avanzados contienen configuraciones específicas de cada escenario que cambian el comportamiento de la Herramienta de esfuerzo y rendimiento y habilitan la personalización. > Para cada escenario de la pestaña Escenarios de voz, si el valor de Nivel de carga es **Personalizado**, la tasa de conversación se calculará mediante el campo correspondiente del cuadro de diálogo Avanzado. El nombre del campo puede variar, según el escenario, pero la descripción del campo se mostrará: NOTA Este número solo se usará si Custom está seleccionado en el  *menú desplegable*  .
   
 #### <a name="web-app-tab"></a>Pestaña Aplicación web
 
@@ -308,7 +303,7 @@ Las opciones son:
   
 Web App admite escenarios de conferencia a través del servidor de la API web de comunicaciones unificadas (UCWA) que está instalado en un servidor front-end. Use la pestaña Aplicación web para configurar todos los escenarios relacionados con la aplicación web. Las opciones son:
   
-- **General Web App Configuración -** Haga clic **en el botón Configuración** y establezca **ReachTargetServerUrl** en la IP virtual (VIP) del grupo de directorios de la VIP del grupo de servidores front-end.
+- **General Web App Configuración:** haga clic en el botón  Configuración adicional y establezca **ReachTargetServerUrl** en la IP virtual (VIP) del grupo de directorios de la VIP del grupo de servidores front-end.
     
 - **Uso compartido de aplicaciones:** Seleccione un valor para Nivel de carga.
     
@@ -329,7 +324,7 @@ Use esta pestaña para configurar todos los escenarios relacionados con la movil
   
 Las opciones aquí son:
   
-- **General Mobility Configuración -** Haga **clic en** Configuración y establezca el campo UcwaTargetServerUrl en la DIRECCIÓN IP virtual (VIP) del grupo de directores o la VIP del grupo de servidores front-end.
+- **General Mobility Configuración:** haga clic en Configuración  adicionales y establezca el campo UcwaTargetServerUrl en la DIRECCIÓN IP virtual (VIP) del grupo de directores o la VIP del grupo de servidores front-end.
     
 - **Presencia y P2P Mensajería instantánea/Audio-** Seleccione un valor para Nivel de carga para habilitar la simulación de movilidad.
     
@@ -344,9 +339,9 @@ La pestaña Resumen indica qué usuarios usar para cada uno de los escenarios.
   
 La pestaña Resumen indica qué usuarios usar para cada uno de los escenarios. 
   
-Para configurar manualmente los intervalos de números de  usuario, active la casilla Habilitar generación de intervalos de usuarios personalizada y, a continuación, haga doble clic en el escenario de la tabla que tiene el intervalo de usuarios que desea personalizar.
+Para configurar manualmente los intervalos de números de usuario, active la casilla Habilitar generación de intervalos de usuarios personalizada y, a continuación, haga doble clic en el escenario de la tabla que tiene el intervalo de usuarios que desea personalizar.
   
-Check **(RunClient.bat) Add sign-in delay when starting in** order to include delays in the generated batch files to correspond to the sign-in rate. Esto es útil para evitar la sobrecarga del servidor al iniciar sesión en un gran número de usuarios.
+Check **(RunClient.bat) Add sign-in delay when starting** in order to include delays in the generated batch files to correspond to the sign-in rate. Esto es útil para evitar la sobrecarga del servidor al iniciar sesión en un gran número de usuarios.
   
 Haga **clic en Generar** archivos y seleccione la carpeta donde desea generar la configuración. Aparecerá un cuadro de diálogo cuando los archivos se hayan creado correctamente.
   
@@ -365,19 +360,19 @@ La herramienta Configuración de carga (UserProfileGenerator.exe) crea un archiv
 
 1. Copie la carpeta con las carpetas de configuración y los archivos dentro en el directorio que LyncPerfTool.exe en cada equipo cliente. (Por ejemplo, si generó los archivos de configuración en la carpeta denominada 1.28_13.16.16, copie esa carpeta en la carpeta con LyncPerfTool.exe en ella. Haga esto en cada cliente).
     
-2. Vaya a la carpeta de cliente y ejecute el script de lote **RunClient.** Puede hacer doble clic en el archivo por lotes en Windows Explorer y se ejecutarán todos los archivos de configuración para ese cliente. También puede ejecutar el script desde una carpeta cliente mediante la siguiente sintaxis:
+2. Vaya a la carpeta de cliente y ejecute el script **de lote RunClient** . Puede hacer doble clic en el archivo por lotes en Windows Explorer y se ejecutarán todos los archivos de configuración para ese cliente. También puede ejecutar el script desde una carpeta cliente mediante la siguiente sintaxis:
     
    ```console
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 
-Para ejecutar la herramienta Estrés y rendimiento directamente, abra un símbolo del sistema y escriba el siguiente comando en la línea de comandos (y al hacerlo por primera vez, asegúrese de registrar los contadores de rendimiento, como se muestra en la nota más adelante en este  `regsvr32 /i /n /s LyncPerfToolPerf.dll` tema):
+Para ejecutar la herramienta Estrés y rendimiento directamente, abra un símbolo del sistema y escriba el siguiente comando en la línea de comandos (y al hacerlo por primera vez,  `regsvr32 /i /n /s LyncPerfToolPerf.dll`asegúrese de registrar los contadores de rendimiento, como se muestra en la nota más adelante en este tema):
   
 ```console
 LyncPerfTool.exe /file:IM_client0.xml
 ```
 
-Para que la herramienta muestre los valores en el archivo de configuración, incluya el parámetro en el comando anterior, de modo que  `/displayfile` tenga este aspecto:
+Para que la herramienta muestre los valores en el archivo de configuración, incluya  `/displayfile` el parámetro en el comando anterior, de modo que tenga este aspecto:
   
 ```console
 LyncPerfTool.exe /file:IM_client0.xml /displayfile

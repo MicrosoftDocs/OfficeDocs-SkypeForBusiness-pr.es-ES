@@ -1,24 +1,19 @@
 ---
 title: Asociar informes de supervisión con una base de datos reflejada en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Resumen: obtenga información sobre cómo asociar informes de supervisión con una base de datos reflejada usada por Skype Empresarial Server.'
-ms.openlocfilehash: 29992c9b37ea4160c2696bdeb7296ab83e1eb198
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856217"
 ---
+
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Asociar informes de supervisión con una base de datos reflejada en Skype Empresarial Server 
  
 **Resumen:** Obtenga información sobre cómo asociar informes de supervisión con una base de datos reflejada usada por Skype Empresarial Server.
@@ -31,23 +26,23 @@ Para obtener informes de supervisión para conmutar automáticamente por error a
   
 1. Use Internet Explorer para abrir la **SQL Server Reporting Services** principal. La dirección URL de la página principal de Reporting Services incluye:
     
-   - Prefijo **http:.**
+   - Prefijo **http:** .
     
-   - Nombre de dominio completo (FQDN) del equipo donde está instalado Reporting Services (por ejemplo, `atl-sql-001.litwareinc.com` ).
+   - Nombre de dominio completo (FQDN) del equipo donde está instalado Reporting Services (por ejemplo, `atl-sql-001.litwareinc.com`).
     
-   - La cadena de **caracteres /Reports_**.
+   - Cadena de caracteres **/Reports_**.
     
-   - Nombre de la instancia de base de datos donde están instalados los informes de supervisión (por ejemplo, **archinst**).
+   - Nombre de la instancia de base de datos donde están instalados los informes de supervisión (por ejemplo, **archivador**).
     
-     Por ejemplo, si SQL Server Reporting Services se instaló en el equipo y los informes de supervisión usan el archivador de instancia de base de datos, la dirección URL de la página principal tendría `atl-sql-001.litwareinc.com` este aspecto:
+     Por ejemplo, si `atl-sql-001.litwareinc.com` SQL Server Reporting Services se instaló en el equipo y los informes de supervisión usan el archivador de instancia de base de datos, la dirección URL de la página principal tendría este aspecto:
     
      `http://atl-sql-001.litwareinc.com/Reports_archinst`
     
-2. Después de tener acceso a la página principal de Reporting Services, haga clic en **ServerReports** y, a continuación, haga clic **en Reports_Content**. Esto le llevará a la página **Reports_Content** para los Skype Empresarial Server de supervisión.
+2. Después de tener acceso a la página principal de Reporting Services, haga clic en **ServerReports** y, a continuación, **haga clic en Reports_Content**. Esto le llevará a la página **Reports_Content** para los informes de Skype Empresarial Server supervisión.
     
-3. En la **Reports_Content,** haga clic en el origen de **datos CDRDB.**
+3. En la **Reports_Content** , haga clic en el origen **de datos CDRDB** .
     
-4. En la **página CDRDB,** en la ficha **Propiedades,** busque el cuadro de texto con la etiqueta **Cadena de conexión**. La cadena de conexión actual tendrá un aspecto similar al siguiente:
+4. En la **página CDRDB** , en la **pestaña Propiedades** , busque el cuadro de texto con la etiqueta **Cadena de conexión**. La cadena de conexión actual tendrá un aspecto similar al siguiente:
     
     Data source=(local)\archinst;initial catalog=LcsCDR
     
@@ -61,13 +56,13 @@ Para obtener informes de supervisión para conmutar automáticamente por error a
     
 6. Después de actualizar la cadena de conexión, haga clic **en Aplicar**.
     
-7. En la **página CDRDB,** haga clic en **Reports_Content** vínculo. Haga clic en **el origen de datos de QMSDB** y, a continuación, edite la cadena de conexión de la base de datos de QoE. Por ejemplo:
+7. En la **página CDRDB** , haga clic en **Reports_Content** vínculo. Haga clic en **el origen de datos de QMSDB** y, a continuación, edite la cadena de conexión de la base de datos de QoE. Por ejemplo:
     
     `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     
 8. Haga clic en **Aplicar**.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Instalar informes de supervisión en Skype Empresarial Server](install-monitoring-reports.md)
   

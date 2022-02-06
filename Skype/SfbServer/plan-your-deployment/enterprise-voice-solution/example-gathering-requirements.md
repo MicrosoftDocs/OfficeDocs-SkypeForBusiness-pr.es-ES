@@ -1,28 +1,23 @@
 ---
 title: Ejemplo de recopilación de requisitos para el control de admisión de llamadas en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-description: Proporciona un ejemplo detallado de planeación del control de admisión de llamadas en Skype Empresarial Server Telefonía IP empresarial, incluida la recopilación de información sobre los sitios, regiones y ancho de banda de la red.
-ms.openlocfilehash: 0af3072cfd0e248d2811c0aee78f7351b9513249
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850753"
+description: 'Proporciona un ejemplo detallado de planeación del control de admisión de llamadas en Skype Empresarial Server Telefonía IP empresarial, incluida la recopilación de información sobre los sitios, regiones y ancho de banda de la red.'
 ---
+
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Ejemplo: recopilación de requisitos para el control de admisión de llamadas en Skype Empresarial Server
 
 Proporciona un ejemplo detallado de planeación del control de admisión de llamadas en Skype Empresarial Server Telefonía IP empresarial, incluida la recopilación de información sobre los sitios, regiones y ancho de banda de la red.
@@ -60,7 +55,7 @@ Para preparar el control de admisión de llamadas, recopile la información desc
      ![Ejemplo de topología de red con 3 regiones de red.](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
-    > Una red de conmutación de etiquetas multiprotocolo (MPLS) debe representarse como una región de red en la que cada ubicación geográfica tiene un sitio de red correspondiente. Para obtener más información, vea [Components and topologies for call admission control in Skype Empresarial](components-and-topologies.md). 
+    > Una red de conmutación de etiquetas multiprotocolo (MPLS) debe representarse como una región de red en la que cada ubicación geográfica tiene un sitio de red correspondiente. Para obtener más información, consulte [Components and topologies for call admission control in Skype Empresarial](components-and-topologies.md). 
 
     En la topología de red del ejemplo anterior, hay tres regiones de red, cada una con un Skype Empresarial Server central que administra el CAC. El sitio central adecuado para una región de red se elige por la proximidad geográfica. Como el tráfico de medios será mayor dentro de las regiones de red, la propiedad por proximidad geográfica lo hace independiente y seguirá siendo funcional aunque otros sitios centrales dejen de estar disponibles. 
 
@@ -150,7 +145,7 @@ Para preparar el control de admisión de llamadas, recopile la información desc
 
     **Nivel**: 2
 
-    **Descripción:** las subredes de las siguientes direcciones IP: no están configuradas o las \<List of IP Addresses\> subredes no están asociadas a un sitio de red. 
+    **Descripción**: las subredes de las siguientes direcciones IP: \<List of IP Addresses\> no están configuradas o las subredes no están asociadas a un sitio de red. 
 
     **Causa**: las subredes de las correspondientes direcciones IP faltan en las opciones de configuración de la red o las subredes no están asociadas a un sitio de red. 
 

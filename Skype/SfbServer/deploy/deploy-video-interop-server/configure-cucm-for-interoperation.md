@@ -1,25 +1,20 @@
 ---
 title: Configurar CUCM para interoperación con Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 'Resumen: configure CUCM para que funcione con Skype Empresarial Server.'
-ms.openlocfilehash: 2e5e2cfc207fd9c4e52f7cd4da553dc756fddb4c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863097"
 ---
+
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Configurar CUCM para interoperación con Skype Empresarial Server
  
 **Resumen:** Configure CUCM para que funcione con Skype Empresarial Server.
@@ -33,17 +28,17 @@ Es necesario confirmar o cambiar una serie de configuraciones CUCM para interope
   
 ### <a name="configure-the-cucm"></a>Configurar CUCM
 
-1. Inicie sesión en CUCM y navegue a Cisco Unified CM Administration- \> Call Routing- \> Class of Control- \> Partition.
+1. Inicie sesión en CUCM y navegue a Cisco Unified CM Administration-Call\> Routing-Class\> of Control-Partition\>.
     
-2. En la pantalla Configuración de partición, escriba el nombre y la descripción de la partición y haga clic **en Agregar nuevo**.
+2. En la pantalla Configuración de partición, escriba el nombre y la descripción de la partición y haga clic en **Agregar nuevo**.
     
-3. Navegue a Cisco Unified CM Administration- \> Call Routing- \> Class of Control- Calling Search \> Space.
+3. Navegue a Cisco Unified CM Administration-Call\> Routing-Class\> of Control-Calling\> Search Space.
     
 4. En la pantalla Configuración del espacio de búsqueda de llamadas, escriba el nombre del espacio de búsqueda de llamadas y, en Particiones seleccionadas, escriba el nombre de la partición que acaba de crear. Haga **clic en Guardar** cuando haya terminado.
     
-5. Navegue a Cisco Unified CM Administration- \> System- \> Security- \> SIP Trunk Security Profile.
+5. Navegue a Perfil de seguridad de tronco de Cisco Unified CM Administration-System-Security-SIP\>\>\>.
     
-6. En la pantalla Configuración del perfil de seguridad del tronco SIP, establezca las opciones de información de perfil de seguridad de tronco SIP como se muestra y haga clic **en Agregar nuevo**.
+6. En la pantalla Configuración del perfil de seguridad del tronco SIP, establezca las opciones de información de perfil de seguridad del tronco SIP como se muestra y haga clic en **Agregar nuevo**.
     
    |**Parámetro**|**Valor recomendado**|
    |:-----|:-----|
@@ -53,7 +48,7 @@ Es necesario confirmar o cambiar una serie de configuraciones CUCM para interope
    |Tipo de transporte saliente  <br/> |TCP  <br/> |
    |Puerto entrante  <br/> |5060  <br/> |
    
-7. Navegue a Cisco Unified CM Administration- \> Device- \> Device Configuración- \> PERFIL SIP.
+7. Navegue a Cisco Unified CM Administration-Device-Device\>\> Configuración-SIP\> Profile.
     
 8. En la pantalla Configuración de perfil SIP, establezca las opciones de información de perfil SIP como se muestra. 
     
@@ -64,19 +59,19 @@ Es necesario confirmar o cambiar una serie de configuraciones CUCM para interope
    
 9. En la misma pantalla, desplácese hacia abajo hasta la sección Información de perfil de SDP. La **opción SDP Session-level Bandwidth Modifier for Early Offer and Re-invites** está establecida de forma predeterminada en TIAS y AS. Cambie esta opción solo a TIAS. Si deja esta opción en su configuración predeterminada, Skype Empresarial Server comprenderá la información del modificador de ancho de banda en el mensaje SIP. TIAS significa Transport Independent Application Specific mientras que AS significa Application Specific. Estas son las opciones SIP especificadas en RFC3890.
     
-10. En la misma pantalla, desplácese hacia abajo más adelante. En Configuración específica del tronco del  perfil SIP, selecciona Soporte de oferta anticipada para llamadas de voz y vídeo y establa en la opción Obligatorio **(insertar MTP** si es necesario). Esto permitirá a CUCM configurar una llamada SIP saliente con la oferta anticipada. Una nueva característica de CUCM 8.5 y posteriores es que admite la configuración de llamadas salientes con la oferta anticipada sin necesidad de punto de terminación de medios (MTP).
+10. En la misma pantalla, desplácese hacia abajo más adelante. En Configuración específica del tronco del perfil SIP, selecciona Soporte  de oferta anticipada para llamadas de voz y vídeo y establa en la opción Obligatorio **(insertar MTP si es necesario**). Esto permitirá a CUCM configurar una llamada SIP saliente con la oferta anticipada. Una nueva característica de CUCM 8.5 y posteriores es que admite la configuración de llamadas salientes con la oferta anticipada sin necesidad de punto de terminación de medios (MTP).
     
 11. Compruebe que en la sección Ping opciones SIP, la casilla está activada junto a "Habilitar OPCIONES Ping para supervisar el estado de destino de los troncos con el tipo de servicio 'Ninguno (predeterminado)'".
     
 12. Cuando haya terminado, haga clic en **Agregar nuevo**.
     
-13. Navegue a Cisco Unified CM Administration- \> Device- \> Trunk. 
+13. Navegue a Cisco Unified CM Administration-Device-Trunk\>\>. 
     
 14. Establece el Protocolo de dispositivo en SIP y presiona **Siguiente**.
     
 15. En Información del dispositivo, establece el nombre y la descripción del dispositivo (probablemente en algo como SfBVideoInterop_SIPTrunk) y establece la lista de grupos de recursos multimedia en un MRGL que contenga los recursos multimedia adecuados. 
     
-16. Desplácese hacia abajo más adelante. El punto de terminación de medios (MTP) no es necesario para las videollamadas, si aún no está desactivada, desactíquela. Active la opción Ejecutar **en todos los nodos de CM unificados activos.** Tenga en cuenta que debe agregar todos los nodos CUCM a la Skype Empresarial Server configuración.
+16. Desplácese hacia abajo más adelante. El punto de terminación de medios (MTP) no es necesario para las videollamadas, si aún no está desactivada, desactíquela. Active la opción Ejecutar **en todos los nodos de CM unificados activos**. Tenga en cuenta que debe agregar todos los nodos CUCM a la Skype Empresarial Server configuración.
     
 17. Desplácese hacia abajo más adelante. Establezca las opciones Llamadas entrantes y De Configuración como se muestra.
     
@@ -97,11 +92,11 @@ Es necesario confirmar o cambiar una serie de configuraciones CUCM para interope
     |Perfil SIP  <br/> |SfBVideoInterop_SIPProfile  <br/> |
     |Dtmf Signaling (método)  <br/> |RFC 2833  <br/> |
    
-19.  Desplácese hacia abajo más adelante. Establezca la información de grabación según corresponda para el sistema. Está bien dejarlo establecido en **None**. 
+19.  Desplácese hacia abajo más adelante. Establezca la información de grabación según corresponda para el sistema. Está bien dejarlo establecido en **Ninguno**. 
     
 20. Cuando haya terminado, haga clic en **Agregar nuevo**.
     
-21. Navegue a Cisco Unified CM Administration- \> Call Routing- \> Route/Hunt- \> Route pattern.
+21. Navegue hasta el patrón cisco unified CM Administration-Call\> Routing-Route\>/Hunt-Route\>.
     
 22. En la pantalla Configuración del patrón de ruta, escriba los parámetros de definición de patrón que se muestran a continuación. Desplácese hacia abajo hasta la sección Transformaciones de terceros llamadas y establezca la máscara como se muestra y, a continuación, haga clic **en Agregar nuevo** cuando haya terminado.
     
@@ -109,13 +104,13 @@ Es necesario confirmar o cambiar una serie de configuraciones CUCM para interope
     |:-----|:-----|
     |Patrón de ruta  <br/> |7779999  <br/> |
     |Partición de ruta  <br/> |SfBVideoInterop_RoutePartition  <br/> |
-    |Descripción  <br/> |Partición para SfBVideoInterop  <br/> |
+    |Description  <br/> |Partición para SfBVideoInterop  <br/> |
     |Lista de puertas de enlace/rutas  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
     |Máscara de transformación de grupo denominada  <br/> |+14257779999  <br/> |
    
-23. Navegue a Cisco Unified CM Administration- \> Call Routing- \> SIP Route Pattern.
+23. Navegue a Patrón de ruta SIP de administración de\>\> CM unificado de Cisco.
     
-24. En la pantalla Configuración del patrón de ruta SIP, establezca las opciones de definición de patrón como se muestra y haga clic **en Agregar nuevo**.
+24. En la pantalla Configuración del patrón de ruta SIP, establezca las opciones de definición de patrón como se muestra y haga clic en **Agregar nuevo**.
     
     |**Parámetro**|**Valor recomendado**|
     |:-----|:-----|
@@ -127,11 +122,11 @@ Es necesario confirmar o cambiar una serie de configuraciones CUCM para interope
     |Lista de troncos y rutas SIP  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
     |Casilla Patrón de bloqueo  <br/> |leave unchecked  <br/> |
    
-25. Si has cambiado las velocidades de bits de audio o vídeo de la configuración predeterminada, deberás devolverlas a los valores predeterminados. Para establecer la velocidad de bits de las llamadas de audio y vídeo, vaya a Cisco Unified CM Administration- \> System- \> Region Information- \> Region. Los valores predeterminados se muestran a continuación como referencia:
+25. Si has cambiado las velocidades de bits de audio o vídeo de la configuración predeterminada, deberás devolverlas a los valores predeterminados. Para establecer la velocidad de bits de las llamadas de audio y vídeo, vaya a Cisco Unified CM Administration-System-Region\>\> Information-Region\>. Los valores predeterminados se muestran a continuación como referencia:
     
     |**Parámetro**|**Valor recomendado**|
     |:-----|:-----|
-    |Región  <br/> |Predeterminado  <br/> |
+    |Región  <br/> |Predeterminada  <br/> |
     |Lista de preferencias de códec de audio  <br/> |Valor predeterminado del sistema  <br/> |
     |Velocidad máxima de bits de audio  <br/> |64 kbps (G.722, G.711)  <br/> |
     |Velocidad máxima de bits de sesión para videollamadas  <br/> |200000 kbps  <br/> |
@@ -141,6 +136,6 @@ En este momento, la puerta de enlace de vídeo CUCM está configurada para funci
 > [!NOTE]
 > Para mejorar la resistencia, es posible que desee configurar esta puerta de enlace CUCM para que funcione con un segundo servidor de interoperabilidad de vídeo o un grupo vis. Vea [Mecanismos de resistencia para](../../plan-your-deployment/video-interop-server.md#resiliency) obtener más información.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar un VTC para interoperación con Skype Empresarial Server](configure-a-vtc-for-interoperation.md)

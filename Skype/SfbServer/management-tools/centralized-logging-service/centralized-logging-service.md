@@ -1,26 +1,21 @@
 ---
 title: Servicio de registro centralizado en Skype Empresarial 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Summary: Learn about the service components and configuration settings for the Centralized Logging Service in Skype Empresarial Server 2015.'
-ms.openlocfilehash: 457740b04a331d701ce991e696fa7cf88b57230c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854274"
 ---
+
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Servicio de registro centralizado en Skype Empresarial 2015
  
 **Resumen:** Obtenga información sobre los componentes de servicio y las opciones de configuración del servicio de registro centralizado en Skype Empresarial Server 2015.
@@ -38,7 +33,7 @@ El servicio de registro centralizado puede:
   - Use un proveedor existente o cree un nuevo proveedor. Aprovider define lo que recopila la sesión de registro, qué nivel de detalle, qué componentes se van a rastrear y qué marcas se aplican.
     
     > [!TIP]
-    >  Si está familiarizado con OCSLogger, los termproviders se **refieren** **a** la colección de componentes **(por** ejemplo, S4, SIPStack), un tipo de registro (por ejemplo, WPP, EventLog o archivo de registro de IIS), un nivel de seguimiento (por ejemplo, All, verbose, debug) y marcas **(por** ejemplo, TF_COMPONENT, TF_DIAG). Estos elementos se definen en el proveedor (una variable Windows PowerShell) y se pasan al comando Servicio de registro centralizado.
+    >  Si está familiarizado con OCSLogger, los termproviders se refieren **a la** colección de **componentes (por** ejemplo, S4, SIPStack), un tipo de registro (por ejemplo, WPP, EventLog o archivo de registro de IIS), un nivel de **seguimiento (por** ejemplo, All, verbose, debug) y **marcas (por** ejemplo, TF_COMPONENT, TF_DIAG). Estos elementos se definen en el proveedor (una variable Windows PowerShell) y se pasan al comando Servicio de registro centralizado.
   
   - Configurar registros para equipos y grupos específicos.
     
@@ -50,7 +45,7 @@ El servicio de registro centralizado es una herramienta de solución de problema
 
  El servicio de registro centralizado se ejecuta en todos los servidores de la implementación y está hecho de los siguientes agentes y servicios:
   
-- ClsAgent, agente de servicio de registro centralizado, se ejecuta en todos los Skype Empresarial Server implementados. Escucha ( en los puertos **TCP 50001-50003**) los comandos de ClsController a través de WCF y envía respuestas de nuevo al controlador. Administra las sesiones de registro (inicio/detenerse/actualizar) y busca registros. También realiza operaciones de mantenimiento, como el archivado de registros y las purgas. 
+- ClsAgent, agente de servicio de registro centralizado, se ejecuta en todos los Skype Empresarial Server implementados. Escucha (en los puertos **TCP 50001-50003**) los comandos de ClsController a través de WCF y envía respuestas de nuevo al controlador. Administra las sesiones de registro (inicio/detenerse/actualizar) y busca registros. También realiza operaciones de mantenimiento, como el archivado de registros y las purgas. 
     
 - Cmdlets del controlador de servicio de registro centralizado El Shell de administración Skype Empresarial Server envía comandos Start, Stop, Flush y Search al ClsAgent. Cuando se envían comandos de búsqueda, los registros resultantes se devuelven al ClsControllerLib.dll y se agregan. El controlador envía comandos al agente, recibe el estado de esos comandos y administra los datos del archivo de registro de búsqueda a medida que se devuelven de todos los agentes de cualquier equipo del ámbito de búsqueda y agrega los datos de registro en un conjunto de resultados significativo y ordenado. La información de los siguientes temas se centra en el uso del Shell Skype Empresarial Server administración.
     
@@ -60,12 +55,12 @@ El servicio de registro centralizado es una herramienta de solución de problema
   
 Los comandos se emiten mediante la Windows de línea de comandos del servidor o mediante el Shell Skype Empresarial Server administración. Los comandos se ejecutan en el equipo en el que ha iniciado sesión y se envían al ClsAgent localmente o a los demás equipos y grupos de servidores de la implementación.
   
-ClsAgent mantiene un archivo de índice de todos . ARCHIVOS CACHÉ que tiene en el equipo local. ClsAgent los asigna para que se distribuyen uniformemente entre los volúmenes definidos por la opción CacheFileLocalFolders, sin consumir nunca más del 80 % de cada volumen (es decir, la ubicación de caché local y el porcentaje se puede configurar mediante el cmdlet **Set-CsClsConfiguration).** ClsAgent también es responsable de la antigüedad de los archivos de registro de seguimiento de eventos almacenados en caché (.etl) antiguos de la máquina local. Después de dos semanas (es decir, el período de tiempo se puede configurar mediante el cmdlet **Set-CsClsConfiguration),** estos archivos se copian en un recurso compartido de archivos y se eliminan del equipo local. Para obtener más información, [vea Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Cuando se recibe una solicitud de búsqueda, los criterios de búsqueda se usan para seleccionar el conjunto de archivos .etl almacenados en caché para realizar la búsqueda en función de los valores del índice mantenido por el agente.
+ClsAgent mantiene un archivo de índice de todos . ARCHIVOS CACHÉ que tiene en el equipo local. ClsAgent los asigna para que se distribuyen uniformemente entre los volúmenes definidos por la opción CacheFileLocalFolders, sin consumir nunca más del 80 % de cada volumen (es decir, la ubicación de caché local y el porcentaje se puede configurar mediante el cmdlet **Set-CsClsConfiguration** ). ClsAgent también es responsable de la antigüedad de los archivos de registro de seguimiento de eventos almacenados en caché (.etl) antiguos de la máquina local. Después de dos semanas (es decir, el período de tiempo se puede configurar mediante el cmdlet **Set-CsClsConfiguration** ), estos archivos se copian en un recurso compartido de archivos y se eliminan del equipo local. Para obtener más información, [vea Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Cuando se recibe una solicitud de búsqueda, los criterios de búsqueda se usan para seleccionar el conjunto de archivos .etl almacenados en caché para realizar la búsqueda en función de los valores del índice mantenido por el agente.
   
 > [!NOTE]
 > ClsAgent puede buscar los archivos que se mueven al recurso compartido de archivos desde el equipo local. Una vez que ClsAgent mueve los archivos al recurso compartido de archivos, ClsAgent no mantiene el envejecimiento y la eliminación de archivos. Debe definir una tarea administrativa para supervisar el tamaño de los archivos del recurso compartido de archivos y eliminarlos o archivarlos. 
   
-Los archivos de registro resultantes se pueden leer y analizar con una variedad de herramientas, incluidas **Snooper.exe** y cualquier herramienta que pueda leer un archivo de **texto,** comoNotepad.exe. Snooper.exe forma parte de las Skype Empresarial Server de depuración de 2015 y está disponible como descarga [web](https://go.microsoft.com/fwlink/p/?LinkId=285257).
+Los archivos de registro resultantes se pueden leer y analizar con una variedad de herramientas, incluidas **Snooper.exe** y cualquier herramienta que pueda leer un archivo de **texto, comoNotepad.exe**. Snooper.exe forma parte de las Skype Empresarial Server de depuración de 2015 y está disponible como descarga [web](https://go.microsoft.com/fwlink/p/?LinkId=285257).
   
 Al igual que OCSLogger, el servicio de registro centralizado tiene varios componentes a los que rastrear y proporciona opciones para seleccionar marcas, como TF_COMPONENT y TF_DIAG. El servicio de registro centralizado también conserva las opciones de nivel de registro de OCSLogger.
   
@@ -78,7 +73,7 @@ Cuando un usuario solicita una búsqueda de registro, clsController determina a 
 Al iniciar una sesión de registro, se especifican escenarios relativos al problema que está intentando resolver. Puede tener dos escenarios en ejecución en cualquier momento. Uno de estos dos escenarios debe ser el escenario AlwaysOn. Como su nombre indica, siempre debe ejecutarse en la implementación, recopilando información en todos los equipos, grupos de servidores y componentes.
   
 > [!IMPORTANT]
-> De forma predeterminada, el escenario AlwaysOn no se está ejecutando en la implementación. Debe iniciar explícitamente el escenario. Una vez iniciado, seguirá ejecutándose hasta que se detenga explícitamente y el estado de ejecución persistirá a través de los reinicios de los equipos. Para obtener más información sobre los escenarios de inicio y detención, vea [Start or stop CLS log capture in Skype Empresarial Server 2015](start-or-stop-log-capture.md). 
+> De forma predeterminada, el escenario AlwaysOn no se está ejecutando en la implementación. Debe iniciar explícitamente el escenario. Una vez iniciado, seguirá ejecutándose hasta que se detenga explícitamente y el estado de ejecución persistirá a través de los reinicios de los equipos. Para obtener información detallada sobre los escenarios de inicio y detención, vea [Start or stop CLS log capture in Skype Empresarial Server 2015](start-or-stop-log-capture.md). 
   
 Cuando se produzca un problema, inicie un segundo escenario relacionado con el problema notificado. Reproduzca el problema y detenga el registro del segundo escenario. Comience las búsquedas de registro en relación con el problema notificado. La colección agregada de registros genera un archivo de registro que contiene mensajes de seguimiento de todos los equipos del sitio o ámbito global de la implementación. Si la búsqueda devuelve más datos de los que puede analizar (normalmente conocido como relación señal-ruido, donde el ruido es demasiado alto), se ejecuta otra búsqueda con parámetros más estrechos. En este punto, puede empezar a observar patrones que se muestran y pueden ayudarle a centrarse más claramente en el problema. En última instancia, después de realizar un par de búsquedas refinadas, puede encontrar datos relevantes para el problema y averiguar la causa raíz.
   
@@ -93,7 +88,7 @@ El servicio de registro centralizado está configurado para definir lo que el se
   
 ### <a name="to-display-the-current-centralized-logging-service-configuration"></a>Para mostrar la configuración del servicio de registro centralizado actual
 
-1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 2. Escriba lo siguiente en un símbolo del sistema:
     
@@ -102,7 +97,7 @@ El servicio de registro centralizado está configurado para definir lo que el se
    ```
 
     > [!TIP]
-    > Puede restringir o expandir el ámbito de las opciones de configuración que se devuelven definiendo y un ámbito, como "Site:Redmond" para devolver solo  `-Identity` CsClsConfiguration para el sitio Redmond. Si desea obtener detalles sobre una parte determinada de la configuración, puede canalizar el resultado a otro cmdlet Windows PowerShell configuración. Por ejemplo, para obtener detalles sobre los escenarios definidos en la configuración del sitio "Redmond", escriba: `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
+    > Puede restringir  `-Identity` o expandir el ámbito de las opciones de configuración que se devuelven definiendo y un ámbito, como "Site:Redmond" para devolver solo CsClsConfiguration para el sitio Redmond. Si desea obtener detalles sobre una parte determinada de la configuración, puede canalizar el resultado a otro cmdlet Windows PowerShell configuración. Por ejemplo, para obtener detalles sobre los escenarios definidos en la configuración del sitio "Redmond", escriba: `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
   
      ![Salida de ejemplo de Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   

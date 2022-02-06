@@ -1,25 +1,20 @@
 ---
 title: tblPrincipalAffiliations
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 45fd8484-5837-44d2-85bb-45c83546607c
-description: tblPrincipalAffiliations contiene las afiliaciones principales que describen pertenencias en ubicaciones, incluidos los grupos de seguridad de Servicios de dominio de Active Directory, en contenedores de Active Directory, en dominios.
-ms.openlocfilehash: f3625a9877fffdf024131e4a0f1611018d972660
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864607"
+description: 'tblPrincipalAffiliations contiene las afiliaciones principales que describen pertenencias en ubicaciones, incluidos los grupos de seguridad de Servicios de dominio de Active Directory, en contenedores de Active Directory, en dominios.'
 ---
+
 # <a name="tblprincipalaffiliations"></a>tblPrincipalAffiliations
  
 tblPrincipalAffiliations contiene las afiliaciones principales que describen pertenencias en ubicaciones, incluidos los grupos de seguridad de Servicios de dominio de Active Directory, en contenedores de Active Directory, en dominios.

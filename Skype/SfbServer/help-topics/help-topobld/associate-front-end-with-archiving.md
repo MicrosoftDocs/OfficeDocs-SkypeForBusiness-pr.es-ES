@@ -1,27 +1,22 @@
 ---
 title: Asociar front-end con archivado
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AssociateFrontEndWithArchivingPage
+  - ms.lync.tb.AssociateFrontEndWithArchivingPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
-description: Cada grupo de servidores front-end y cada aplicación de sucursal con funciones de supervivencia solo puede tener asociado un servidor de archivado. Si el sitio tiene el archivado habilitado, el servidor de archivado recopila y registra el contenido de mensajes de la mensajería instantánea y el contenido de conferencias web de las conversaciones mantenidas por usuarios hospedados en los grupos asociados y aplicaciones de sucursal con funciones de supervivencia.
-ms.openlocfilehash: 9d23c73093fa32cee4566e3895813bca6266e367
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863877"
+description: 'Cada grupo de servidores front-end y cada aplicación de sucursal con funciones de supervivencia solo puede tener asociado un servidor de archivado. Si el sitio tiene el archivado habilitado, el servidor de archivado recopila y registra el contenido de mensajes de la mensajería instantánea y el contenido de conferencias web de las conversaciones mantenidas por usuarios hospedados en los grupos asociados y aplicaciones de sucursal con funciones de supervivencia.'
 ---
+
 # <a name="associate-front-end-with-archiving"></a>Asociar front-end con archivado
  
 Cada grupo de servidores front-end y cada aplicación de sucursal con funciones de supervivencia solo puede tener asociado un servidor de archivado. Si el sitio tiene el archivado habilitado, el servidor de archivado recopila y registra el contenido de mensajes de la mensajería instantánea y el contenido de conferencias web de las conversaciones mantenidas por usuarios hospedados en los grupos asociados y aplicaciones de sucursal con funciones de supervivencia. 

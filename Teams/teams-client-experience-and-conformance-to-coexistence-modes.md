@@ -1,32 +1,27 @@
 ---
 title: Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: Obtenga información sobre Teams cliente y la conformidad con los modos de coexistencia (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
+description: 'Obtenga información sobre Teams cliente y la conformidad con los modos de coexistencia (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).'
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Teams-upgrade-guidance
-- seo-marvel-apr2020
+  - Teams-upgrade-guidance
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: d346f8f6259eef89b798bec6298f1c1fde0ac0a5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865659"
+  - Microsoft Teams
 ---
+
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia
 
 <a name="about-upgrade-basic"></a>
@@ -45,10 +40,10 @@ La funcionalidad disponible en Teams depende del modo de coexistencia del usuari
 |---|---|
 |Cualquier Skype Empresarial de datos|Las llamadas, el chat y la presencia propia están deshabilitadas.|
 |SfBWithTeamsCollabAndMeetings|La programación de reuniones está disponible|
-|SfBWithTeamsCollab o SfBOnly<sup>1</sup>|La programación de reuniones no está disponible|
+|SfBWithTeamsCollab o SfBOnly1<sup></sup>|La programación de reuniones no está disponible|
 |||
 
-Las siguientes capturas de pantalla ilustran la **diferencia entre Teams modo Solo** o Islas y todos los demás modos.  Tenga en cuenta que los iconos de chat y  llamadas están disponibles de forma predeterminada con el modo **solo Teams** o Islas (captura de pantalla izquierda), pero no con los otros modos (captura de pantalla derecha):
+Las siguientes capturas de pantalla ilustran la **diferencia entre Teams modo Solo** **o Islas** y todos los demás modos. Tenga en cuenta que los iconos de chat y llamadas están disponibles de forma predeterminada con el  modo **solo Teams** o Islas (captura de pantalla izquierda), pero no con los otros modos (captura de pantalla derecha):
 
 ![Una comparación en paralelo de Teams modos.](media/teams-mode-comparison.png)
 
@@ -56,7 +51,7 @@ Además, la presencia personal no está disponible en los otros modos, como se m
 
 ![Captura de pantalla de presencia personal en Reuniones primero.](media/meetings-first-no-self-presence-general.png)
  
-**Nota:** 
+**Nota:**
  <sup>1</sup> En este momento, SfBwithTeamsCollab y SfBOnly se comportan igual, pero la intención es que el modo SfBOnly también deshabilite la funcionalidad Canales y archivos en Teams. Entre tanto, los canales se pueden ocultar con la directiva permisos de aplicación.
 
 
@@ -79,7 +74,7 @@ Los administradores *no* necesitan establecer explícitamente esta configuració
 |SfBWithTeamsCollab o SfBOnly|Deshabilitado|Deshabilitado|Deshabilitado|Deshabilitado|
 ||||||
 
-Al usar PowerShell, el cmdlet comprueba la configuración de la configuración correspondiente en `Grant-CsTeamsUpgradePolicy` TeamsMessagingPolicy, TeamsCallingPolicy y TeamsMeetingPolicy para determinar si TeamsUpgradePolicy reemplazaría dicha configuración y, si es así, se proporciona un mensaje informativo en PowerShell.  Como se ha indicado anteriormente, ya no es necesario establecer estas otras configuraciones de directiva. A continuación se muestra un ejemplo de la apariencia de la advertencia de PowerShell:
+Al usar PowerShell, `Grant-CsTeamsUpgradePolicy` el cmdlet comprueba la configuración de la configuración correspondiente en TeamsMessagingPolicy, TeamsCallingPolicy y TeamsMeetingPolicy para determinar si TeamsUpgradePolicy reemplazaría dicha configuración y, si es así, se proporciona un mensaje informativo en PowerShell.  Como se ha indicado anteriormente, ya no es necesario establecer estas otras configuraciones de directiva. A continuación se muestra un ejemplo de la apariencia de la advertencia de PowerShell:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

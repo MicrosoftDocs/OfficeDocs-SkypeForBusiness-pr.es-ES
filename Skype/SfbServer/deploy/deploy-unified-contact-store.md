@@ -1,24 +1,19 @@
 ---
 title: 'Implementar el almacén de contactos unificado en Skype Empresarial Server '
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Resumen: habilite el almacén de contactos unificado en Skype Empresarial Server.'
-ms.openlocfilehash: 23e5aebcd0ed92cc07a203be5b3112142f692d9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861817"
 ---
+
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Implementar el almacén de contactos unificado en Skype Empresarial Server
  
 **Resumen:** Habilite el almacén de contactos unificado en Skype Empresarial Server.
@@ -40,7 +35,7 @@ Al implementar Skype Empresarial Server y publicar la topología, el almacén de
   
 ### <a name="to-enable-users-for-unified-contact-store"></a>Procedimiento para habilitar usuarios para el almacén de contactos unificados
 
-1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** en Todos los **programas,** haga clic en **Skype Empresarial** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** haga clic en **Skype Empresarial** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
     
 2. Siga uno de estos procedimientos:
     
@@ -110,7 +105,7 @@ Puede determinar si se han migrado los contactos de un usuario usando uno de los
   
 - Compruebe la siguiente clave del registro en el equipo cliente:
     
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync<\\ URL SIP \> \UCS
+    \\ HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync<URL SIP\>\UCS
     
     Si los contactos del usuario se almacenan en Exchange 2013, esta clave contiene un valor de InUCSMode con un valor de 2165.
     
@@ -139,7 +134,7 @@ La importación de datos del almacén de contactos unificado desde una base de d
 - Si exporta datos de usuario después de migrar usuarios a Exchange 2013, revierte la migración y, por algún motivo, importa los datos después de la migración, los datos del almacén de contactos unificados y las listas de contactos se dañarán.
     
 > [!IMPORTANT]
-> Antes de mover un buzón de Exchange de Exchange 2013 a Exchange 2010, el administrador de Exchange debe asegurarse de que el administrador de Skype Empresarial Server revierte primero al usuario de Skype Empresarial Server contactos de Exchange 2013 a Skype Empresarial Server. Para revertir los contactos del almacén de contactos unificados a Skype Empresarial Server, consulte el procedimiento "Para revertir los contactos del almacén de contactos unificados de Exchange 2013 a Skype Empresarial Server", más adelante en esta sección. 
+> Antes de mover un buzón de Exchange de Exchange 2013 a Exchange 2010, el administrador de Exchange debe asegurarse de que el administrador de Skype Empresarial Server revierte primero la Skype Empresarial Server contactos de usuario Exchange 2013 a Skype Empresarial Server. Para revertir los contactos del almacén de contactos unificados a Skype Empresarial Server, consulte el procedimiento "Para revertir los contactos del almacén de contactos unificados de Exchange 2013 a Skype Empresarial Server", más adelante en esta sección. 
   
  **Cómo revertir contactos de usuario:** Si usa el cmdlet **Move-CsUser** para mover usuarios entre Skype Empresarial Server 2015 y Lync Server 2010, puede omitir estos pasos porque el cmdlet **Move-CsUser** revierte automáticamente el almacén de contactos unificado cuando mueve usuarios de Skype Empresarial Server 2015 a Lync Server 2010. **Move-CsUser** no deshabilita la directiva de almacén de contactos unificado, por lo que la migración al almacén de contactos unificado se repetirá si el usuario vuelve a Skype Empresarial Server 2015.
   

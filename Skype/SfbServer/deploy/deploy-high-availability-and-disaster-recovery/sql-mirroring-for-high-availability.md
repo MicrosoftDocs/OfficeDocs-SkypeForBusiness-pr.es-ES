@@ -1,28 +1,23 @@
 ---
 title: Implementar SQL creación de reflejos para la alta disponibilidad del servidor back-end en Skype Empresarial Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Para poder implementar la creación de reflejo de SQL, los servidores deben ejecutar un mínimo de SQL Server 2008 R2. Esta versión debe ejecutarse en todos los servidores implicados: principal, reflejo y testigo. Para obtener más información, vea Paquete de actualización acumulativa 9 para SQL Server 2008 Service Pack 1 .'
-ms.openlocfilehash: b27fed99cafa109da8c13e369c93985d7bc4cf64
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849453"
 ---
+
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implementar SQL creación de reflejo para la alta disponibilidad del servidor back-end en Skype Empresarial server 2015
 
 
-Para poder implementar la creación de reflejo de SQL, los servidores deben ejecutar un mínimo de SQL Server 2008 R2. Esta versión debe ejecutarse en todos los servidores implicados: principal, reflejo y testigo. Para obtener más información, vea Paquete de actualización [acumulativa 9 para SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
+Para poder implementar la creación de reflejo de SQL, los servidores deben ejecutar un mínimo de SQL Server 2008 R2. Esta versión debe ejecutarse en todos los servidores implicados: principal, reflejo y testigo. Para obtener más información, [consulte Paquete de actualización acumulativa 9 para SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
 
 En general, la configuración de creación de reflejo de SQL entre los dos servidores back-end con un testigo requiere lo siguiente:
 
@@ -32,13 +27,13 @@ En general, la configuración de creación de reflejo de SQL entre los dos servi
 
 - El servidor principal y el reflejo deben tener la misma edición de SQL Server. El testigo puede tener una edición diferente.
 
-Para SQL procedimientos recomendados en términos de lo que SQL versiones anteriores se admiten para un rol testigo, vea Testigo de creación de [reflejo de base](/sql/database-engine/database-mirroring/database-mirroring-witness)de datos .
+Para SQL procedimientos recomendados en términos de qué SQL versiones son compatibles con un rol testigo, vea [Testigo de creación de reflejo de base de datos](/sql/database-engine/database-mirroring/database-mirroring-witness).
 
 El Generador de topologías se usa para implementar SQL creación de reflejos. Seleccione una opción en el Generador de topologías para reflejar las bases de datos y el Generador de topologías configura la creación de reflejos (incluida la configuración de un testigo, si lo desea) al publicar la topología. Tenga en cuenta que configura o quita el testigo al mismo tiempo que configura o quita el reflejo. No hay ningún comando independiente para implementar o quitar solo un testigo.
 
-Para configurar la creación de reflejo de servidor, es necesario que primero configure los permisos de base de datos SQL correctamente. Para obtener más información, vea [Set Up Login Accounts for Database Mirroring or AlwaysOn Availability Groups (SQL Server).](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability)
+Para configurar la creación de reflejo de servidor, es necesario que primero configure los permisos de base de datos SQL correctamente. Para obtener más información, vea [Configurar cuentas de inicio de sesión para la creación de](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability) reflejo de la base de datos o Grupos de disponibilidad AlwaysOn (SQL Server)..
 
-Con SQL creación de reflejo, el modo de recuperación de bases de datos siempre está establecido en **Completo,** lo que significa que debe supervisar estrechamente el tamaño del registro de transacciones y realizar una copia de seguridad de los registros de transacciones de forma regular para evitar que se acabe el espacio en disco en los servidores back-end. La frecuencia de las copias de seguridad del registro de transacciones depende de la tasa de crecimiento del registro, que a su vez depende de las transacciones de base de datos en las que incurran las actividades del usuario en el grupo de servidores front-end. Se recomienda determinar cuánto crecimiento del registro de transacciones se espera para la carga de trabajo de implementación, de modo que pueda realizar la planeación en consecuencia. En los siguientes artículos se proporciona información adicional sobre SQL copia de seguridad y administración de registros:
+Con SQL creación de reflejo, el modo de recuperación de bases de datos siempre está establecido en **Full**, lo que significa que debe supervisar estrechamente el tamaño del registro de transacciones y realizar una copia de seguridad de los registros de transacciones de forma regular para evitar que se acabe el espacio en disco en los servidores back-end. La frecuencia de las copias de seguridad del registro de transacciones depende de la tasa de crecimiento del registro, que a su vez depende de las transacciones de base de datos en las que incurran las actividades del usuario en el grupo de servidores front-end. Se recomienda determinar cuánto crecimiento del registro de transacciones se espera para la carga de trabajo de implementación, de modo que pueda realizar la planeación en consecuencia. En los siguientes artículos se proporciona información adicional sobre SQL copia de seguridad y administración de registros:
 
 - [Modelos de recuperación de bases de datos](/sql/relational-databases/backup-restore/recovery-models-sql-server)
 
@@ -61,7 +56,7 @@ Con el reflejo de SQL, puede configurar la topología de creación de reflejos a
 3. Publicar la topología.
 
 > [!NOTE]
-> Debe crearse un recurso compartido de archivos para que se escriban los archivos reflejados y el servicio en el que SQL Server y SQL agente se ejecuten en el acceso de lectura y escritura. Si el servicio SQL Server se ejecuta en el contexto del servicio de red, puede agregar \<Domain\> \\<SQLSERVERNAME $ de los servidores principales y de SQL reflejados a los permisos de recurso \> compartido. El valor $ es importante para identificar que se trata de una cuenta de equipo.
+> Debe crearse un recurso compartido de archivos para que se escriban los archivos reflejados y el servicio en el que SQL Server y SQL agente se ejecuten en el acceso de lectura y escritura. Si el servicio SQL Server se ejecuta en el contexto del servicio de red, \<Domain\>\\ puede agregar<SQLSERVERNAME\>$ de los servidores principal y SQL reflejado a los permisos de recurso compartido. El valor $ es importante para identificar que se trata de una cuenta de equipo.
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>Para configurar SQL creación de reflejos mientras se crea un grupo en el Generador de topologías
 
@@ -225,7 +220,7 @@ La forma más sencilla de configurar la creación de reflejos es mediante el Gen
 
     - El puerto 7022 es accesible a través del firewall si el Firewall de Windows está habilitado en el servidor SQL Server testigo AB14-lct.los_a.lsipt.local\rtc.
 
-   - Las cuentas que ejecutan los servidores SQL en todos los servidores de SQL principales y reflejados tienen permiso de lectura y escritura para el recurso compartido de archivos \\ E04-OCS\csdatabackup
+   - Las cuentas que ejecutan los servidores de SQL en \\todos los servidores SQL principales y reflejados tienen permiso de lectura y escritura para el recurso compartido de archivos E04-OCS\csdatabackup
 
    - Asegúrese de que el proveedor de Instrumental de administración de Windows (WMI) se está ejecutando en todos estos servidores. El cmdlet utiliza dicho proveedor para encontrar la información de cuenta de los servicios de SQL Server que se ejecutan en el servidor principal, el reflejado y el testigo.
 
@@ -287,6 +282,6 @@ Use este procedimiento si necesita quitar el testigo de una configuración de cr
    Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
    ```
 
-    Sin embargo, no siga ese paso y no escriba lo que  `Uninstall-CsMirrorDatabase` desinstale toda la configuración de creación de reflejo.
+    Sin embargo, no siga ese paso y no escriba  `Uninstall-CsMirrorDatabase` lo que desinstale toda la configuración de creación de reflejo.
 
-4. Para quitar solo el testigo de la configuración SQL Server, siga las instrucciones de Quitar el testigo de una sesión de creación de reflejo de base de datos [(SQL Server).](/sql/database-engine/database-mirroring/remove-the-witness-from-a-database-mirroring-session-sql-server)
+4. Para quitar solo el testigo de la configuración SQL Server, siga las instrucciones de Quitar el testigo de una sesión de creación de reflejo de base de datos [(SQL Server).](/sql/database-engine/database-mirroring/remove-the-witness-from-a-database-mirroring-session-sql-server).

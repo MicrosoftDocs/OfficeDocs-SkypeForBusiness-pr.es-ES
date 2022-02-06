@@ -1,7 +1,7 @@
 ---
 title: 'Lista de comprobación de incorporación: habilite el Microsoft 365 o Office 365 integrado'
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
@@ -11,18 +11,14 @@ audience: admin
 description: Siga las tareas principales y las actividades pendientes de esta lista de comprobación al configurar Microsoft 365 o Office 365 tareas pendientes Teams.
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 search.appverid: MET150
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9a542dfbad70502dfa0f76a2062453313e1a3ef6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859687"
 ---
+
+
 # <a name="enable-microsoft-365-or-office-365"></a>Habilitar Microsoft 365 o Office 365
  
 | No | Actividad o tarea| Descripción| ¿Completado? | Información adicional|

@@ -1,27 +1,22 @@
 ---
 title: Preparar un servidor único de Standard Edition (introducción)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.dep.DeployAIOIntro
+  - ms.lync.dep.DeployAIOIntro
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
-description: Para comenzar la instalación de un servidor de Standard Edition de Skype Empresarial Server 2015 que hospedará el almacén de administración central y otros servicios agrupados que seleccione, debe iniciar sesión como miembro del grupo administradores local en el servidor que se convertirá en el servidor de Standard Edition. En la página de preparación de un solo servidor Standard Edition se detallan los requisitos para la instalación inicial. El equipo debe ser miembro del dominio en el que se va a implementar, y el usuario debe haber completado correctamente la preparación del esquema, el bosque y el dominio para el bosque.
-ms.openlocfilehash: 58c25ce952cb888f4595af2b67395b4d764edc5d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850153"
+description: 'Para comenzar la instalación de un servidor de Standard Edition de Skype Empresarial Server 2015 que hospedará el almacén de administración central y otros servicios agrupados que seleccione, debe iniciar sesión como miembro del grupo administradores local en el servidor que se convertirá en el servidor de Standard Edition. En la página de preparación de un solo servidor Standard Edition se detallan los requisitos para la instalación inicial. El equipo debe ser miembro del dominio en el que se va a implementar, y el usuario debe haber completado correctamente la preparación del esquema, el bosque y el dominio para el bosque.'
 ---
+
 # <a name="prepare-single-standard-edition-server-intro"></a>Preparar un servidor único de Standard Edition (introducción)
  
 Para comenzar la instalación de un servidor de Standard Edition de Skype Empresarial Server 2015 que hospedará el almacén de administración central y otros servicios agrupados que seleccione, debe iniciar sesión como miembro del grupo administradores local en el servidor que se convertirá en el servidor de Standard Edition. En la página de **preparación de un solo servidor Standard Edition** se detallan los requisitos para la instalación inicial. El equipo debe ser miembro del dominio en el que se va a implementar, y el usuario debe haber completado correctamente la preparación del esquema, el bosque y el dominio para el bosque.

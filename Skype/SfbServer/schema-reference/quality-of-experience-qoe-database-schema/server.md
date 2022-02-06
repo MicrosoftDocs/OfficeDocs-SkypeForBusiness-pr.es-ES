@@ -1,25 +1,20 @@
 ---
 title: Tabla de servidor
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
 description: La tabla Server es una tabla auxiliar. Cada registro representa a un servidor.
-ms.openlocfilehash: c061176c7a3dbb30fbbe696241fccd54db8dc9b2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834928"
 ---
+
 # <a name="server-table"></a>Tabla de servidor
  
 La tabla Server es una tabla auxiliar. Cada registro representa a un servidor. 

@@ -1,25 +1,20 @@
 ---
 title: Configurar directivas de usuario de chat persistente en Skype Empresarial Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Resumen: lea este tema para obtener información sobre cómo crear directivas de usuario iniciales para el servidor de chat persistente en Skype Empresarial Server 2015. Las directivas de usuario de chat persistente determinan si se permite o no el acceso de los usuarios a los salas de chat.'
-ms.openlocfilehash: 71003f6befa3e6c47cd65829c3703a45527e5964
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832864"
 ---
+
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configurar directivas de usuario de chat persistente en Skype Empresarial Server 2015
  
 **Resumen:** Lea este tema para obtener información sobre cómo crear directivas de usuario iniciales para el servidor de chat persistente en Skype Empresarial Server 2015. Las directivas de usuario de chat persistente determinan si se permite o no el acceso de los usuarios a los salas de chat.
@@ -37,7 +32,7 @@ En este tema se presentan las siguientes secciones:
 - Aplicar una directiva a un usuario o grupo de usuarios
     
 > [!NOTE] 
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015.
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015.
 
 ## <a name="configure-the-global-policy"></a>Configurar la directiva global
 
@@ -47,7 +42,7 @@ Para configurar la directiva global:
     
 2. En el **menú** Inicio, seleccione Skype Empresarial Server Panel de control o abra una ventana del explorador y, a continuación, escriba la dirección URL de administración.
     
-3. En Skype Empresarial Server Panel de control, haga clic **en Chat** persistente y, a continuación, haga clic en Directiva de **chat persistente.**
+3. En Skype Empresarial Server Panel de control, haga clic **en Chat** persistente y, a continuación, haga clic en **Directiva de chat persistente**.
     
 4. Haga clic en **Global** en la lista de directivas, haga clic en **Editar** y, a continuación, en **Mostrar detalles**.
     
@@ -101,7 +96,7 @@ Puede crear directivas específicas del usuario que invalide la directiva global
     
    - En **Nombre**, especifique un nombre para la nueva directiva de usuario.
     
-   - En **Descripción,** proporcione detalles sobre lo que es la directiva de usuario (por ejemplo, directiva de chat persistente para un usuario específico).
+   - En **Descripción**, proporcione detalles sobre lo que es la directiva de usuario (por ejemplo, directiva de chat persistente para un usuario específico).
     
    - Para controlar el chat persistente para todos los usuarios que no están controlados específicamente a través de una directiva de usuario, active o desactive la casilla Habilitar **chat** persistente.
     
@@ -119,7 +114,7 @@ Después de crear directivas, puede aplicarlas a una cuenta de usuario de la sig
     
 4. En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en  **Editar** y, a continuación, en  **Mostrar detalles**.
     
-5. En **Editar Skype Empresarial Server usuario en** Directiva de chat **persistente,** seleccione la directiva de usuario de chat persistente que desee aplicar.
+5. En **Editar Skype Empresarial Server usuario en** **Directiva de chat persistente**, seleccione la directiva de usuario de chat persistente que desee aplicar.
     
     > [!NOTE]
     > La **\<Automatic\>** configuración aplica la directiva efectiva predeterminada. Esta configuración se aplica automáticamente por el servidor.

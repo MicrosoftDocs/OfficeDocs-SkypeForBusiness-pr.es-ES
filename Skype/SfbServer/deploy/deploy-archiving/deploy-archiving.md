@@ -1,29 +1,24 @@
 ---
 title: Implementar el archivado para Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
 description: 'Resumen: lea este tema para obtener información sobre cómo implementar el archivado para Skype Empresarial Server.'
-ms.openlocfilehash: bdf0e6fe170371d1596fd556450fca14d6433239
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837422"
 ---
+
 # <a name="deploy-archiving-for-skype-for-business-server"></a>Implementar el archivado para Skype Empresarial Server
  
 **Resumen:** Lea este tema para obtener información sobre cómo implementar el archivado para Skype Empresarial Server.
   
-El archivado se instala automáticamente en cada servidor front-end de la implementación de Skype Empresarial Server, pero debe realizar los pasos de configuración y configuración iniciales antes de poder usarlo. Antes de comenzar, asegúrese de que está familiarizado con los conceptos de [Plan for archiving in Skype Empresarial Server](../../plan-your-deployment/archiving/archiving.md).
+El archivado se instala automáticamente en cada servidor front-end de la implementación de Skype Empresarial Server, pero debe realizar los pasos de configuración y configuración iniciales antes de poder usarlo. Antes de empezar, asegúrese de que está familiarizado con los conceptos de [Plan for archiving in Skype Empresarial Server](../../plan-your-deployment/archiving/archiving.md).
   
 ## <a name="deployment-checklist"></a>Lista de comprobación de implementación
 

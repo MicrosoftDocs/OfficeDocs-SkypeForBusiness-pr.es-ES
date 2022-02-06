@@ -1,23 +1,18 @@
 ---
 title: Administración de regiones de red
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: La región de red* son los concentradores de red o redes troncales usados en la configuración del control de admisión de llamadas, E9-1-1 y desvío de medios.
-ms.openlocfilehash: 5d0a40576098ceb641bdc677a551908b6a23044b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843873"
+description: 'La región de red* son los concentradores de red o redes troncales usados en la configuración del control de admisión de llamadas, E9-1-1 y desvío de medios.'
 ---
+
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Administrar regiones de red en Skype Empresarial Server
 
 Las *regiones de red* son los concentradores de red o redes troncales que se usan en la configuración del control de admisión de llamadas, de E9-1-1 y del desvío de medios. Siga los siguientes procedimientos para ver, crear o modificar regiones de red. Por ejemplo, si ya ha creado regiones de red para una característica de voz, no es necesario que cree nuevas regiones de red; otras características avanzadas de Enterprise Voice usarán las mismas regiones de red. Sin embargo, es posible que necesite modificar una definición de región de red existente para aplicar una configuración específica de una característica. Por ejemplo, si ha creado regiones de red para E9-1-1 (que no requieren un sitio central asociado) y, a continuación, implementa el control de admisión de llamadas, debe modificar las definiciones de región de red para especificar un sitio central. 
@@ -37,7 +32,7 @@ Una región de red interconecta varias partes de una red a través de varias zon
 
 3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Región**.
 
-4.  En la **página Región,** haga clic en la región que desea ver.
+4.  En la **página Región** , haga clic en la región que desea ver.
   
     > [!NOTE]  
     > Solo puede ver una región a la vez.
@@ -47,7 +42,7 @@ Una región de red interconecta varias partes de una red a través de varias zon
 
 ### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Visualización de información de región de red mediante Windows PowerShell cmdlets
 
-Puede ver la información de la región de red mediante Windows PowerShell y el cmdlet **Get-CsNetworkRegion.** Puede ejecutar este cmdlet desde el Shell de administración Skype Empresarial Server desde una sesión remota de Windows PowerShell. 
+Puede ver la información de región de red mediante Windows PowerShell y el cmdlet **Get-CsNetworkRegion**. Puede ejecutar este cmdlet desde el Shell de administración Skype Empresarial Server desde una sesión remota de Windows PowerShell. 
 
 ### <a name="to-view-network-region-information"></a>Para ver información de región de red
 
@@ -65,7 +60,7 @@ Puede ver la información de la región de red mediante Windows PowerShell y el 
                        BWPolicyModality=Video; AlternatePath=True}<br/>
     NetworkRegionID : Pacific Northwest<br/>
 
-Para obtener más información, vea el tema de ayuda del cmdlet [Get-CsNetworkRegion.](/powershell/module/skype/Get-CsNetworkRegionLink)
+Para obtener más información, vea el tema de ayuda del cmdlet [Get-CsNetworkRegion](/powershell/module/skype/Get-CsNetworkRegionLink) .
 
 
 ## <a name="create-or-modify-network-regions"></a>Crear o modificar regiones de red 
@@ -94,7 +89,7 @@ Una región de red interconecta varias partes de una red a través de varias zon
 
 10. Haga clic en **Confirmar**.
 
-La tabla **Sitios asociados** no se usa para crear una región de red. Un sitio se asocia a una región cuando se crea o modifica el sitio. Para obtener más información, vea [Managing call admission control for sites](managing-call-admission-control-for-sites.md).
+La tabla **Sitios asociados** no se usa para crear una región de red. Un sitio se asocia a una región cuando se crea o modifica el sitio. Para obtener más información, consulte [Managing call admission control for sites](managing-call-admission-control-for-sites.md).
 
 ### <a name="to-modify-a-network-region"></a>Para modificar una región de red
 
@@ -141,7 +136,7 @@ Una región de red interconecta varias partes de una red a través de varias zon
     > No se puede quitar una región si está asociada a un sitio de red. Si intenta quitar una región asociada a un sitio, recibirá un mensaje de error. Para ver si una región está asociada a algún sitio, seleccione la región y haga clic en **Mostrar detalles** en el menú **Editar**.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administración de rutas de región de red](managing-network-region-routes.md)
 

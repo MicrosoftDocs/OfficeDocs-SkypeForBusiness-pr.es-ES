@@ -1,30 +1,25 @@
 ---
 title: Aprobaciones de disponibilidad de aplicaciones en Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
-- Microsoft Teams
+  - Microsoft Teams
 search.appverid: MET150
 description: Más información sobre la disponibilidad de la aplicación de aprobaciones en Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 4c0e4ec40368b8348833b596d55f34adcb0c316d
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766393"
+  - Microsoft Teams
 ---
+
 # <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 
 La aplicación Aprobaciones está disponible como una aplicación personal para todos los usuarios de Microsoft Teams.
@@ -53,7 +48,7 @@ Para implementar la aplicación Aprobaciones, necesita permiso para los siguient
 
 - Rol de administrador en el entorno de destino.
 
-- Licencia para [Power Automate,](/power-automate/get-started-approvals)Office 365 o Dynamics 365.
+- Licencia para [Power Automate](/power-automate/get-started-approvals), Office 365 o Dynamics 365.
 
 - La licencia de Microsoft Forms es necesaria para que los usuarios configuren nuevas plantillas de aprobación.
 
@@ -65,7 +60,7 @@ El modelo de datos común (CDM) es el lenguaje de datos compartido que usan las 
 
 Obtenga más información sobre el [flujo de trabajo de Aprobación](/power-automate/modern-approvals).
 
-Las aprobaciones creadas a partir de una plantilla siguen almacenando datos en CDS, como su título, detalles, id. de plantilla y mucho más. Las respuestas que se envían en la solicitud de aprobación se almacenan en Formularios. Obtenga más información sobre  [el almacenamiento de datos para Microsoft Forms.](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)
+Las aprobaciones creadas a partir de una plantilla siguen almacenando datos en CDS, como su título, detalles, id. de plantilla y mucho más. Las respuestas que se envían en la solicitud de aprobación se almacenan en Formularios. Obtenga más información sobre  [el almacenamiento de datos para Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
 >Si elimina la plantilla Formulario en el sitio de Microsoft Forms, interrumpirá la plantilla de aprobación y los usuarios no podrán iniciar la solicitud. Los usuarios recibirán un error "CDB TableNotFound" al intentar abrir una plantilla de aprobación que se ha eliminado en Microsoft Forms.
@@ -110,7 +105,7 @@ La aplicación Aprobaciones está disponible de forma predeterminada. Puede desh
 
   1. Inicie la sesión en el Centro de administración de Teams
 
-  2. Vaya a **Teams aplicaciones Administrar**  >  **aplicaciones.**
+  2. Vaya a **Teams** **aplicacionesManage** >  aplicaciones.
 
   3. Busque la aplicación Aprobaciones.
 
@@ -202,7 +197,7 @@ Para usar la característica de firma electrónica de la aplicación Aprobacione
 
 Puede usar el centro de Teams para controlar qué proveedores de firma electrónica de terceros están disponibles para los usuarios en la aplicación Aprobaciones. De forma predeterminada, los proveedores de firma electrónica están habilitados en la aplicación Aprobaciones. Al deshabilitar un proveedor de firma electrónica, los usuarios no tendrán acceso a ese proveedor cuando creen aprobaciones. Los usuarios tampoco podrán ver las solicitudes de firma electrónica creadas con ese proveedor.
 
-1. En el panel de navegación izquierdo del Teams de administración, vaya a Teams **aplicaciones**  >  **administrar aplicaciones.**
+1. En el panel de navegación izquierdo del Teams de administración, vaya a Teams **aplicaciones** >  **de administración**.
 2. Busque la aplicación Aprobaciones y selecciónelo.
 3. Vaya a la **Configuración** y, a continuación, realice una o varias de las siguientes acciones:
 

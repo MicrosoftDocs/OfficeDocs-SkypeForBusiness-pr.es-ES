@@ -1,24 +1,19 @@
 ---
 title: Crear una configuración de archivado en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 'Resumen: obtenga información sobre cómo crear una configuración de archivado para Skype Empresarial Server.'
-ms.openlocfilehash: 76fd2785f172cc9dd4b76df97d3c29a78e831e46
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850043"
 ---
+
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Crear una configuración de archivado en Skype Empresarial Server
 
 **Resumen:** Obtenga información sobre cómo crear una configuración de archivado para Skype Empresarial Server.
@@ -35,9 +30,9 @@ Para configurar opciones de archivado para un sitio o grupo específico:
     
 4. En la página **Configuración de archivado**, haga clic en **Nuevo** y elija una de las siguientes acciones: 
     
-   - Para crear una configuración de archivado de sitios, haga clic en **Configuración** del sitio y, a continuación, en **Seleccionar** un sitio, seleccione el sitio que desea configurar para el archivado.
+   - Para crear una configuración de archivado de sitios, haga clic en **Configuración** del sitio y, a continuación, en Seleccionar un sitio, seleccione el sitio que se va **a** configurar para el archivado.
     
-   - Para crear una configuración de archivado de grupo, haga clic en **Configuración** del grupo y, a continuación, en Seleccionar un grupo de servidores, seleccione el grupo que se va **a** configurar para el archivado.
+   - Para crear una configuración de archivado de grupo, haga clic en **Configuración** del grupo y, a continuación, en Seleccionar un grupo, seleccione el grupo que se va **a** configurar para el archivado.
     
 5. En **Nueva configuración de archivado**, vaya al cuadro de lista desplegable **Configuración de archivado** y siga uno de estos procedimientos:
     
@@ -45,13 +40,13 @@ Para configurar opciones de archivado para un sitio o grupo específico:
     
    - Para habilitar el archivado tanto para las sesiones de mensajería instantánea como para las conferencias web, haga clic en **Archivar sesiones de mensajería instantánea y conferencias web**.
     
-   - Para deshabilitar el archivado para esta configuración, haga clic **en Deshabilitar archivado.**
+   - Para deshabilitar el archivado para esta configuración, haga clic **en Deshabilitar archivado**.
     
 6. Además, en **Nueva configuración de archivado**, haga lo siguiente:
     
    - Para bloquear la actividad cuando el archivado no está disponible, active la casilla **Bloquear las sesiones de mensajería instantánea (MI) o conferencias web si se produce algún error en el archivado**.
     
-   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de Exchange **integración de Microsoft.**
+   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de Exchange **integración de Microsoft**.
     
    - Para habilitar la purga de datos, active la casilla **Habilitar purga de los datos de archivado** y realice una de las siguientes acciones:
     
@@ -63,7 +58,7 @@ Para configurar opciones de archivado para un sitio o grupo específico:
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>Configure las opciones de archivado mediante Windows PowerShell
 
-También puede configurar opciones de archivado para un sitio o grupo específico mediante el cmdlet **New-CsArchivingConfiguration.**
+También puede configurar opciones de archivado para un sitio o grupo específico mediante el cmdlet **New-CsArchivingConfiguration** .
   
 El comando siguiente crea una colección de valores de configuración de archivado para el sitio de Redmond:
   
@@ -85,4 +80,4 @@ Si lo desea, puede incluir varios parámetros para modificar varios valores de p
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 
-Para obtener más información, vea el tema de ayuda para el cmdlet [New-CsArchivingConfiguration.](/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps)
+Para obtener más información, vea el tema de ayuda para el cmdlet [New-CsArchivingConfiguration](/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) .

@@ -1,27 +1,22 @@
 ---
 title: Agregar próximo salto del servidor perimetral
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddEdgeServerNextHopPage
+  - ms.lync.tb.AddEdgeServerNextHopPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
-ROBOTS: NOINDEX, NOFOLLOW
-description: El próximo salto del servidor perimetral es un grupo de servidores front-end (puede ser un grupo de servidores Enterprise Edition o un servidor Standard Edition) o bien, si la implementación incluye un servidor director, el próximo salto es el servidor director.
-ms.openlocfilehash: ba13d6979a851d8df4bd39171d1d5ee057353f06
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854794"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'El próximo salto del servidor perimetral es un grupo de servidores front-end (puede ser un grupo de servidores Enterprise Edition o un servidor Standard Edition) o bien, si la implementación incluye un servidor director, el próximo salto es el servidor director.'
 ---
+
 # <a name="add-edge-server-next-hop"></a>Agregar próximo salto del servidor perimetral
 
 El próximo salto del servidor perimetral es un grupo de servidores front-end (puede ser un grupo de servidores Enterprise Edition o un servidor Standard Edition) o bien, si la implementación incluye un servidor director, el próximo salto es el servidor director.

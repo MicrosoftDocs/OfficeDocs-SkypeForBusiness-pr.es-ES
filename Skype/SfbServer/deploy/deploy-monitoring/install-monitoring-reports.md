@@ -1,42 +1,37 @@
 ---
 title: Instalar informes de supervisión en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 'Resumen: obtenga información sobre cómo instalar un servicio que generará informes de supervisión en Skype Empresarial Server.'
-ms.openlocfilehash: 703bb209c68558ba8f98c8e3a3efcde94e4ce5eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861827"
 ---
+
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Instalar informes de supervisión en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo instalar un servicio que generará informes de supervisión en Skype Empresarial Server.
   
-Skype Empresarial Server Los informes de supervisión le proporcionan una gran cantidad de información sobre la calidad y la cantidad de las sesiones de comunicación que tienen lugar en su organización. 
+Skype Empresarial Server de supervisión le proporcionan una gran cantidad de información sobre la calidad y la cantidad de las sesiones de comunicación que tienen lugar en su organización. 
   
 ## <a name="install-monitoring-reports"></a>Instalar los informes de supervisión
 
-Los informes de supervisión no se instalan automáticamente al instalar Skype Empresarial Server; en su lugar, debe instalar informes de supervisión por separado y solo después Skype Empresarial Server se haya instalado en el equipo.
+Los informes de supervisión no se instalan automáticamente al instalar Skype Empresarial Server; en su lugar, debe instalar informes de supervisión por separado y solo después de Skype Empresarial Server se haya instalado en el equipo.
   
 > [!NOTE]
 > Se recomienda que instale los informes de supervisión en el equipo en el que está instalada la base de datos de supervisión. De este modo, se simplifica el proceso de asignación de permisos para obtener acceso a los informes, ya que si instala los informes de supervisión en el equipo en que se hospeda el almacén de supervisión, no tendrá que configurar los permisos necesarios para que las bases de datos de un equipo interactúen con los servicios de Reporting Services que se ejecutan en otro equipo. 
   
-Skype Empresarial Server Los informes de supervisión incluyen más de 30 informes diseñados para proporcionar información detallada sobre conferencias, sesiones de mensajería instantánea punto a punto, registros de usuarios, la aplicación grupo de respuesta y mucho más. Para la versión de 2013, Skype Empresarial Server de supervisión incluyen varias mejoras:
+Skype Empresarial Server de supervisión incluyen más de 30 informes diseñados para proporcionar información detallada sobre conferencias, sesiones de mensajería instantánea punto a punto, registros de usuarios, la aplicación grupo de respuesta y mucho más. Para la versión de 2013, Skype Empresarial Server de supervisión incluyen varias mejoras:
   
-- **Informes nuevos sobre la calidad de voz**. Estos nuevos informes incluyen el Informe de comparación de calidad de medios en [Skype Empresarial Server](../../manage/health-and-monitoring/comparison.md), que compara la calidad entre diferentes tipos de llamadas (por ejemplo, entre llamadas cableadas y llamadas inalámbricas); y el Informe de tiempo de unirse a [la conferencia en Skype Empresarial Server](../../manage/health-and-monitoring/join-time-report.md), que proporciona información sobre la cantidad de tiempo necesaria para que los usuarios se unan a una conferencia. 
+- **Informes nuevos sobre la calidad de voz**. Estos nuevos informes incluyen el Informe de comparación de calidad de medios en [Skype Empresarial Server](../../manage/health-and-monitoring/comparison.md), que compara la calidad entre diferentes tipos de llamadas (por ejemplo, entre llamadas cableadas y llamadas inalámbricas); y el Informe de tiempo de unión a conferencia en [Skype Empresarial Server](../../manage/health-and-monitoring/join-time-report.md) , que proporciona información sobre la cantidad de tiempo necesaria para que los usuarios se unan a una conferencia. 
     
-- **Informes mejorados para la solución de problemas y el análisis de las sesiones de uso compartido de aplicaciones y de vídeo.** El Informe de resumen de calidad de medios en [Skype Empresarial Server](../../manage/health-and-monitoring/summary.md) proporciona una forma de analizar las llamadas de uso compartido de aplicaciones y vídeo, mientras que el Informe de rendimiento del servidor en [Skype Empresarial Server](../../manage/health-and-monitoring/server-performance.md) detalla el rendimiento de los servidores que generan estas llamadas. Las métricas de uso compartido de aplicaciones y vídeo también se notifican ahora en el Informe de detalles de sesión punto a punto en [Skype Empresarial Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) el Informe de detalles de [conferencia en Skype Empresarial Server](../../manage/health-and-monitoring/detail-report.md).
+- **Informes mejorados para la solución de problemas y el análisis de las sesiones de uso compartido de aplicaciones y de vídeo.** El [Informe de resumen](../../manage/health-and-monitoring/summary.md) de calidad de medios en Skype Empresarial Server proporciona una forma de analizar las llamadas de uso compartido de aplicaciones y vídeo, mientras que el Informe de rendimiento del servidor en [Skype Empresarial Server](../../manage/health-and-monitoring/server-performance.md) detalla el rendimiento de los servidores que generan estas llamadas. Las métricas de uso compartido de aplicaciones y vídeo también se notifican ahora en el Informe de detalles de sesión punto a punto en [Skype Empresarial Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) el Informe de detalles de conferencia [en Skype Empresarial Server](../../manage/health-and-monitoring/detail-report.md).
     
 - **Rendimiento mejorado de los informes**. Esto incluye una mayor rapidez del tiempo de respuesta y la recuperación de datos, y una navegación por los informes más sencilla y rápida.
     
@@ -45,7 +40,7 @@ En la documentación sobre los informes de supervisión se puede encontrar más 
 > [!NOTE]
 > Hay otro informe , QoE Call Detail Subreport, incluido en Skype Empresarial Server. Sin embargo, este informe se utiliza principalmente con fines internos y no está pensado para usarse mediante un acceso directo. 
   
-Existen dos formas de instalar informes de supervisión Skype Empresarial Server: puede usar el Asistente para la implementación de Skype Empresarial Server o puede usar un script Windows PowerShell incluido con la instalación Skype Empresarial Server archivos. Independientemente del método que elija, asegúrese de que:
+Existen dos formas de instalar informes de supervisión Skype Empresarial Server: puede usar el Asistente para la implementación de Skype Empresarial Server o puede usar un script Windows PowerShell incluido con el Skype Empresarial Server archivos de instalación. Independientemente del método que elija, asegúrese de que:
   
 - Dispone del derecho para agregar un rol de base de datos a una cuenta de usuario de la base de datos de supervisión.
     
@@ -53,7 +48,7 @@ Existen dos formas de instalar informes de supervisión Skype Empresarial Server
     
 Para instalar los informes de supervisión con el Asistente para la implementación, siga estos pasos:
   
-1. Haga **clic en** Inicio , en **Todos** los programas, **en Skype Empresarial Server** y, a continuación, en Skype Empresarial Server Asistente **para implementación**.
+1. Haga **clic en** Inicio, **en Todos** los programas, **en Skype Empresarial Server** y, a continuación, en **Skype Empresarial Server Asistente para implementación**.
     
 2. En el Asistente para la implementación, haga clic en **Implementar los informes de supervisión** para iniciar el asistente de implementación de los informes de supervisión.
     
@@ -67,7 +62,7 @@ Para instalar los informes de supervisión con el Asistente para la implementaci
     
 6. En la página **Ejecutar comandos**, haga clic en **Finalizar**.
     
-Los informes de supervisión también se pueden instalar desde el Shell Skype Empresarial Server administración mediante la ejecución del script DeployReports.ps1; este Windows PowerShell script se puede encontrar en la \<install location\> carpeta \Skype Empresarial Server 2015\Deployment\Setup. Para instalar los informes de supervisión con el script DeployReports.ps1, escriba un comando como el siguiente en el símbolo del sistema del Shell de administración:
+Los informes de supervisión también se pueden instalar desde el Shell de administración de Skype Empresarial Server ejecutando el script DeployReports.ps1; este script \<install location\>Windows PowerShell se encuentra en la carpeta \Skype Empresarial Server 2015\Deployment\Setup. Para instalar los informes de supervisión con el script DeployReports.ps1, escriba un comando como el siguiente en el símbolo del sistema del Shell de administración:
   
 ```powershell
 C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
@@ -97,6 +92,6 @@ En el comando anterior, para la propiedad ReportingUrl debería definirse la dir
     
 3. En el Administrador de configuración de Reporting Services, haga clic en Dirección URL del Administrador de informes. En el panel Dirección URL del Administrador de informes, deberían aparecer una o varias direcciones URL. Puede usar cualquiera de ellas como la dirección URL de informes, aunque, de nuevo, se recomienda que ReportingUrl utilice el protocolo HTTPS.
     
-Si ha configurado una base de datos reflejada para la base de datos de supervisión, también debe asociar los informes de supervisión con la base de datos reflejada. Vea el artículo Asociar informes de supervisión con una base de datos [reflejada en Skype Empresarial Server](monitoring-reports-with-a-mirror-database.md) para obtener más información.
+Si ha configurado una base de datos reflejada para la base de datos de supervisión, también debe asociar los informes de supervisión con la base de datos reflejada. Vea el artículo [Asociar informes de supervisión con una base de datos reflejada en Skype Empresarial Server](monitoring-reports-with-a-mirror-database.md) para obtener más información.
   
 

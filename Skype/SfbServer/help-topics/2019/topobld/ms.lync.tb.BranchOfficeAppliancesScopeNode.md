@@ -1,27 +1,22 @@
 ---
 title: Nodo de ámbito de aplicaciones de sucursal
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.BranchOfficeAppliancesScopeNode
+  - ms.lync.tb.BranchOfficeAppliancesScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'El nodo Aplicaciones de sucursal con funciones de supervivencia ofrece una lista de las aplicaciones de sucursal con funciones de supervivencia de este sitio de sucursal. Puede realizar la acción siguiente:'
-ms.openlocfilehash: 982d77b38c8fb90140a9373246952a78ab026fec
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865147"
 ---
+
 # <a name="branch-office-appliances-scope-node"></a>Nodo de ámbito de aplicaciones de sucursal
  
 El nodo **Aplicaciones de sucursal con funciones de supervivencia** ofrece una lista de las aplicaciones de sucursal con funciones de supervivencia de este sitio de sucursal. Puede realizar la acción siguiente:

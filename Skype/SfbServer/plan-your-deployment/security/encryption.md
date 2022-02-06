@@ -1,25 +1,20 @@
 ---
 title: Cifrado para Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
-description: Skype Empresarial Server TLS y MTLS para cifrar mensajes instantáneos. Todo el tráfico de servidor a servidor requiere MTLS, independientemente de si el tráfico se limita a la red interna o si atraviesa el perímetro de red interno. Al conectar Skype Empresarial Server a sistemas IPPBX de terceros o troncos SIP TLS es opcional, pero se recomienda encarecidamente entre el servidor de mediación y la puerta de enlace multimedia. Si TLS está configurado en este vínculo, se requiere MTLS. Por lo tanto, la puerta de enlace debe configurarse con un certificado de una CA de confianza del servidor de mediación.
-ms.openlocfilehash: 3ee649f62e2855f959b2ee9fdc25bdb2d77fa6e9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849723"
+description: 'Skype Empresarial Server TLS y MTLS para cifrar mensajes instantáneos. Todo el tráfico de servidor a servidor requiere MTLS, independientemente de si el tráfico se limita a la red interna o si atraviesa el perímetro de red interno. Al conectar Skype Empresarial Server a sistemas IPPBX de terceros o troncos SIP TLS es opcional, pero se recomienda encarecidamente entre el servidor de mediación y la puerta de enlace multimedia. Si TLS está configurado en este vínculo, se requiere MTLS. Por lo tanto, la puerta de enlace debe configurarse con un certificado de una CA de confianza del servidor de mediación.'
 ---
+
 # <a name="encryption-for-skype-for-business-server"></a>Cifrado para Skype Empresarial Server
  
 Skype Empresarial Server TLS y MTLS para cifrar mensajes instantáneos. Todo el tráfico de servidor a servidor requiere MTLS, independientemente de si el tráfico se limita a la red interna o si atraviesa el perímetro de red interno. Al conectar Skype Empresarial Server a sistemas IPPBX de terceros o troncos SIP TLS es opcional, pero se recomienda encarecidamente entre el servidor de mediación y la puerta de enlace multimedia. Si TLS está configurado en este vínculo, se requiere MTLS. Por lo tanto, la puerta de enlace debe configurarse con un certificado de una CA de confianza del servidor de mediación.

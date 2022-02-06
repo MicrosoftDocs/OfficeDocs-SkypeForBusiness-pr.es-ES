@@ -1,24 +1,19 @@
 ---
 title: Modificar las opciones de configuración de reunión en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: 'Summary: Learn how to modify meeting configuration settings in Skype Empresarial Server.'
-ms.openlocfilehash: 2f57f0a7d6bd445e84cf0d9feb43997613d35794
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848563"
 ---
+
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modificar las opciones de configuración de reunión en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo modificar las opciones de configuración de reuniones en Skype Empresarial Server.
@@ -31,9 +26,9 @@ Puede modificar las opciones de configuración de reuniones mediante Skype Empre
     
 2.  Abra Skype Empresarial Server Panel de control.
     
-3. En la barra de navegación izquierda, haga clic **en Conferencia y,** a continuación, haga clic en **Configuración de reunión.**
+3. En la barra de navegación izquierda, haga clic **en Conferencia y**, a continuación, haga clic en **Configuración de reunión**.
     
-4. En la lista de configuraciones de reunión, haga clic en la configuración que desea cambiar, haga clic en **Editar** y, a continuación, haga clic **en Mostrar detalles.**
+4. En la lista de configuraciones de reunión, haga clic en la configuración que desea cambiar, haga clic en **Editar** y, a continuación, haga clic **en Mostrar detalles**.
     
 5. En **Editar configuración de reunión**, modifique cualquiera de las configuraciones de participación en reuniones, excepto el nombre, que no se puede modificar.
 
@@ -42,7 +37,7 @@ Puede modificar las opciones de configuración de reuniones mediante Skype Empre
     
 ## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Modificar las opciones de configuración de reunión mediante Skype Empresarial Server Shell de administración
 
-Para modificar las opciones de configuración de reunión, use el cmdlet **Set-CsMeetingConfiguration.**
+Para modificar las opciones de configuración de reunión, use el cmdlet **Set-CsMeetingConfiguration** .
   
 El comando que se muestra en el siguiente ejemplo modifica las opciones de configuración de reunión asignadas al sitio redmond (-Identity site:Redmond). En este caso, el valor de la propiedad DesignateAsPresenter se establece en Todos:
   

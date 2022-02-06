@@ -1,25 +1,20 @@
 ---
-title: Skype Consideraciones de unión a dominios del sistema de sala
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype consideraciones de unión a dominios del sistema de sala
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Lea este tema para obtener información sobre cómo unirse a un equipo Skype de sistema de sala a su dominio.
-ms.openlocfilehash: d3c94a4983bddb051bda29badf5c569eeef635a3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844873"
 ---
-# <a name="skype-room-system-domain-joining-considerations"></a>Skype Consideraciones de unión a dominios del sistema de sala
+
+# <a name="skype-room-system-domain-joining-considerations"></a>Skype consideraciones de unión a dominios del sistema de sala
  
 Lea este tema para obtener información sobre cómo unirse a un equipo Skype de sistema de sala a su dominio.
   
@@ -66,7 +61,7 @@ Incluso si crea una OU independiente y bloquea la herencia, hay algunas directiv
   
 Es posible que tenga varios enfoques para resolver estos problemas. Le recomendamos que consulte con los expertos de Active Directory para asegurarse de que se le proporciona una OU que tenga la configuración de GPO adecuada, o al menos una OU en la que no existan las directivas descritas anteriormente. Se recomienda habilitar la calidad del servicio (QoS) para Skype del sistema de sala.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
   
 [Configuración de dispositivo: Crear nueva o editar existente](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

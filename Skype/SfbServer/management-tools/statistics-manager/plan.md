@@ -1,25 +1,20 @@
 ---
 title: Plan para el administrador de estadísticas para Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Resumen: lea este tema para obtener información sobre el Administrador de estadísticas para Skype Empresarial Server.'
-ms.openlocfilehash: 166390fe0f034c907e21a3d3147b516d9f502954
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857407"
 ---
+
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Plan para el administrador de estadísticas para Skype Empresarial Server
 
 **Resumen:** Lea este tema para obtener información sobre el Administrador de estadísticas para Skype Empresarial Server.
@@ -28,7 +23,7 @@ ms.locfileid: "60857407"
 
 Puede usar el Administrador de estadísticas para identificar problemas de rendimiento continuos, ver los resultados de un cambio planeado en su entorno, realizar un seguimiento de la resolución de interrupciones y mucho más. De forma rápida, el Administrador de estadísticas está configurado con umbrales del Indicador de mantenimiento clave (KHI) y se puede personalizar para adaptarse a las necesidades únicas de la implementación.
 
-Puede implementar el Administrador de estadísticas en una implementación local en la que un solo servidor hospeda todos los componentes del Administrador de estadísticas del lado servidor. Para obtener más información acerca de la implementación del Administrador de estadísticas, vea [Deploy Statistics Manager for Skype Empresarial Server](deploy.md). Si ya tiene una implementación existente de Statistics Manager, pero aún no ha actualizado a la versión 2.0, consulte Novedades de la [versión 2.0](plan.md#BKMK_WhatsNew) y [Upgrade Statistics Manager for Skype Empresarial Server](upgrade.md).
+Puede implementar el Administrador de estadísticas en una implementación local en la que un solo servidor hospeda todos los componentes del Administrador de estadísticas del lado servidor. Para obtener más información acerca de la implementación del Administrador de estadísticas, vea [Deploy Statistics Manager for Skype Empresarial Server](deploy.md). Si ya tiene una implementación existente de Statistics Manager, pero aún no ha actualizado a la versión 2.0, consulte Novedades de la versión [2.0](plan.md#BKMK_WhatsNew) y [Upgrade Statistics Manager for Skype Empresarial Server](upgrade.md).
 
 En este tema se presentan las siguientes secciones:
 
@@ -124,7 +119,7 @@ En el siguiente diagrama se muestra una implementación local, en la que el siti
 
 ![Implementación local del Administrador de estadísticas.](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 <a name="BKMK_Requirements"> </a>
 
 Deberá tener en cuenta los siguientes requisitos de software, redes y hardware antes de implementar el Administrador de estadísticas.
@@ -159,7 +154,7 @@ Durante la instalación, los puertos de firewall para el agente de escucha y el 
 
 En una implementación local, en la que un solo servidor hospeda todos los componentes del administrador de estadísticas del lado servidor, un servidor con 16 GB de RAM y 4 CPU debería admitir una media de 150 ejemplos por segundo. Para determinar cuántos contadores/agentes puede admitir, use el siguiente cálculo:
 
-100 servidores 80 contadores 1 muestra por minuto de \* \* cada agente / 60 segundos = ~ 133 muestras por segundo.
+100 servidores \*80 contadores \* 1 muestra por minuto de cada agente / 60 segundos = ~ 133 muestras por segundo.
 
 ## <a name="security-considerations"></a>Consideraciones acerca de la seguridad
 <a name="BKMK_Security"> </a>

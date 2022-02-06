@@ -1,39 +1,34 @@
 ---
 title: Editar configuración del servidor Office Web Apps
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/19/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.OfficeWebAppsServerSettingsExpander
+  - ms.lync.tb.OfficeWebAppsServerSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 'Puede editar las propiedades del servidor Office Web Apps Server configurado. Pueden modificarse las siguientes propiedades:'
-ms.openlocfilehash: 7174dbb5949bd8e8033193adf21267fa0735f99b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860347"
 ---
+
 # <a name="edit-office-web-apps-server-settings"></a>Editar configuración del servidor Office Web Apps
 
 Puede editar las propiedades del servidor Office Web Apps Server configurado. Pueden modificarse las siguientes propiedades:
 
- **Office FQDN** de Web Apps Server: esta propiedad define el nombre de dominio completo del servidor de aplicaciones web de Office y debe coincidir con un registro A o AAAA de host del sistema de nombres de dominio (DNS) (si se usa IPv6).
+ **Office FQDN de Web Apps Server**: esta propiedad define el nombre de dominio completo del servidor de aplicaciones web de Office y debe coincidir con un registro A o AAAA de host del sistema de nombres de dominio (DNS) (si se usa IPv6).
 
- Office URL de detección de Web **Apps Server:** el localizador uniforme de recursos (URL) para el acceso de cliente al servidor de aplicaciones web de Office, es posible que deba editar esta dirección desde su valor predeterminado si el servidor se coloca en otra zona de red distinta de la red interna para la implementación.
+ Office URL de detección de Web **Apps Server**: el localizador uniforme de recursos (URL) para el acceso de cliente al servidor de aplicaciones web de Office, es posible que deba editar esta dirección desde su valor predeterminado si el servidor se coloca en otra zona de red distinta de la red interna para la implementación.
 
 Active la casilla **El Servidor de Office Web Apps está implementado como una red externa** si este servidor está implementado en su red perimetral o en otra zona de red que se encuentra fuera del firewall interno que separa la red perimetral, las redes de poca confianza e Internet de la implementación interna.
 
-![Office Expansor Configuración aplicaciones web.](../../media/OfficeWebApps_Settings_Expander.jpg)
+![Office expansor Configuración Web Apps.](../../media/OfficeWebApps_Settings_Expander.jpg)
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Componentes y topologías para conferencias](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)

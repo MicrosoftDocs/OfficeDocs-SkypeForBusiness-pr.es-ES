@@ -1,27 +1,22 @@
 ---
 title: Edición de configuración del registro de dispositivos
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientDeviceUpdateEdit
+  - ms.lync.lscp.ClientDeviceUpdateEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
-ROBOTS: NOINDEX, NOFOLLOW
-description: Puede agregar una configuración de registro de dispositivo a la página Editar configuración de registro, que determina el tamaño de caché de registro máximo o el tiempo de tiempo que se conserva un archivo de registro antes de que se purgue. Puede cambiar esta configuración según los requisitos de su organización.
-ms.openlocfilehash: c9e058fc314a2dcc550d4d399fed0b34b8532029
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857837"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Puede agregar una configuración de registro de dispositivo a la página Editar configuración de registro, que determina el tamaño de caché de registro máximo o el tiempo de tiempo que se conserva un archivo de registro antes de que se purgue. Puede cambiar esta configuración según los requisitos de su organización.'
 ---
+
 # <a name="device-log-configuration-edit"></a>Configuración de registro de dispositivo: Editar
  
 Puede agregar una configuración de registro de dispositivo a la página **Editar configuración de registro**, que determina el tamaño de caché de registro máximo o el tiempo de tiempo que se conserva un archivo de registro antes de que se purgue. Puede cambiar esta configuración según los requisitos de su organización.
@@ -53,6 +48,6 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
     
 - **Días para mantener los archivos de registro (1-365)** Puede especificar el número de días que se mantienen los archivos de registro antes de que se purguen. El valor predeterminado es 10 días.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configuración de registro de dispositivo](ms.lync.lscp.ClientDeviceCfgMain.md)

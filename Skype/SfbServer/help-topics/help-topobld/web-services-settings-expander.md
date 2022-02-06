@@ -1,27 +1,22 @@
 ---
 title: Expansor de configuración de servicios web
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.WebServicesSettingsExpander
+  - ms.lync.tb.WebServicesSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
-description: Desde el Generador de topologías, puede modificar la configuración de puerto usada para los servicios web internos y externos. Además, y si va a implementar el equilibrio de carga del Sistema de nombres de dominio (DNS), puede usar el Generador de topologías para configurar el nombre de dominio completo (FQDN) del grupo de servidores que se resuelve en las direcciones IP físicas de todos los servidores de ese grupo.
-ms.openlocfilehash: 66dc22bed1d8e5e24f5403fec9cfa8c2924c810d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854404"
+description: 'Desde el Generador de topologías, puede modificar la configuración de puerto usada para los servicios web internos y externos. Además, y si va a implementar el equilibrio de carga del Sistema de nombres de dominio (DNS), puede usar el Generador de topologías para configurar el nombre de dominio completo (FQDN) del grupo de servidores que se resuelve en las direcciones IP físicas de todos los servidores de ese grupo.'
 ---
+
 # <a name="web-services-settings-expander"></a>Expansor de configuración de servicios web
  
 Desde el Generador de topologías, puede modificar la configuración de puerto usada para los servicios web internos y externos. Además, y si va a implementar el equilibrio de carga del Sistema de nombres de dominio (DNS), puede usar el Generador de topologías para configurar el nombre de dominio completo (FQDN) del grupo de servidores que se resuelve en las direcciones IP físicas de todos los servidores de ese grupo.
@@ -33,7 +28,7 @@ Desde el Generador de topologías, puede modificar la configuración de puerto u
 2. El el cuadro de diálogo **Editar propiedades**, haga clic en la pestaña **Servicios web**.
     
     > [!CAUTION]
-    > Si tiene más de un grupo de servidores front-end o servidor front-end, el FQDN de servicios web externos debe ser único. Por ejemplo, si define el FQDN de servicios web externos de un servidor front-end como pool01.contoso.com **,** no puede usar **pool01.contoso.com** para otro grupo de servidores front-end o servidor front-end. Si también va a implementar directores, el FQDN de servicios web externos definido para cualquier director o grupo de directores debe ser único de cualquier otro director o grupo de directores, así como de cualquier grupo de servidores front-end o servidor front-end. Si decide invalidar los servicios web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores.
+    > Si tiene más de un grupo de servidores front-end o servidor front-end, el FQDN de servicios web externos debe ser único. Por ejemplo, si define el FQDN de servicios web externos de un servidor front-end como **pool01.contoso.com, no** puede usar **pool01.contoso.com** para otro grupo de servidores front-end o servidor front-end. Si también va a implementar directores, el FQDN de servicios web externos definido para cualquier director o grupo de directores debe ser único de cualquier otro director o grupo de directores, así como de cualquier grupo de servidores front-end o servidor front-end. Si decide invalidar los servicios web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores.
   
 3. Si edita las propiedades de un grupo Enterprise Edition, tiene la opción de seleccionar **FQDN de reemplazo**. Esta opción se debería seleccionar solamente si utiliza el equilibrio de carga del sistema de nombres de dominio (DNS). Si utiliza el equilibrio de carga de DNS, seleccione **FQDN de reemplazo** y, a continuación, en el cuadro de texto, escriba el FQDN del grupo que resuelve a las direcciones IP físicas de todos los servidores del grupo. Si no utiliza el equilibrio de carga de DNS y no selecciona **FQDN de reemplazo**, no podrá cambiar el FQDN de los servicios web internos. El FQDN de servicios web internos es la dirección URL usada por los usuarios internos para conectarse a Skype Empresarial Server.
     

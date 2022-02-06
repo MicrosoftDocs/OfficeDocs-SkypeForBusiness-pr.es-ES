@@ -1,24 +1,19 @@
 ---
 title: Configurar la grabación detallada de llamadas y la configuración de calidad de la experiencia en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: 'Resumen: obtenga información sobre cómo configurar CDR y QoE en Skype Empresarial Server.'
-ms.openlocfilehash: 9275ead7fee4b9751141dd683bafb8b41e077530
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839642"
 ---
+
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Configurar la grabación detallada de llamadas y la configuración de calidad de la experiencia en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo configurar CDR y QoE en Skype Empresarial Server.
@@ -27,7 +22,7 @@ Configure la supervisión de CDR y QoE SQL Server Reporting Services informes de
   
 ## <a name="configure-cdr-and-qoe"></a>Configurar CDR y QoE
 
-Después de asociar un almacén de supervisión con un grupo de servidores front-end, configurar el almacén de supervisión y, a continuación, instalar y configurar SQL Server Reporting Services y los informes de supervisión, puede administrar la supervisión del registro detallado de llamadas (CDR) y la supervisión de calidad de la experiencia (QoE) mediante Skype Empresarial Server Management Shell. Skype Empresarial Server Los cmdlets del Shell de administración permiten habilitar y deshabilitar la supervisión de CDR y/o QoE para un sitio determinado o para toda Skype Empresarial Server implementación; que se puede hacer con un comando tan simple como este:
+Después de asociar un almacén de supervisión con un grupo de servidores front-end, configurar el almacén de supervisión y, a continuación, instalar y configurar SQL Server Reporting Services y los informes de supervisión, puede administrar la supervisión del registro detallado de llamadas (CDR) y la supervisión de calidad de la experiencia (QoE) mediante Skype Empresarial Server Management Shell. Skype Empresarial Server cmdlets del Shell de administración le permiten habilitar y deshabilitar la supervisión de CDR o QoE para un sitio determinado o para toda la implementación de Skype Empresarial Server; esto se puede hacer con un comando tan simple como este:
   
 ```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
@@ -50,7 +45,7 @@ De manera similar, los valores predeterminados para la configuración de QoE se 
 |EnablePurging  <br/> |Indica si los registros de QoE se eliminarán periódicamente de la base de datos. Si se establece en True, se eliminarán los registros tras el período de tiempo especificado por la propiedad KeepQoEDataForDays. Si se establece en False, los registros de QoE se mantendrán de manera indefinida.  <br/> |Verdadero  <br/> |
 |KeepQoEDataForDays  <br/> |Indica el número de días que los registros de QoE se conservarán en la base de datos; los registros de mayor antigüedad que el número de días especificados se eliminarán automáticamente. Sin embargo, esto solo ocurrirá si la depuración está habilitada.  <br/> KeepCallDetailForDays se puede establecer en cualquier valor entero entre 1 y 2562 días.  <br/> |60 días  <br/> |
    
-Si tiene que modificar estos valores globales puede hacerlo mediante los cmdlets Set-CsCdrConfiguration y Set-CsQoEConfiguration. Por ejemplo, este comando (que se ejecuta desde el Shell de administración de Skype Empresarial Server) deshabilita la supervisión de CDR en el ámbito global; que se realiza estableciendo la propiedad EnableCDR en False ($False):
+Si tiene que modificar estos valores globales puede hacerlo mediante los cmdlets Set-CsCdrConfiguration y Set-CsQoEConfiguration. Por ejemplo, este comando (que se ejecuta desde el Shell de administración de Skype Empresarial Server) deshabilita la supervisión de CDR en el ámbito global; esto se realiza estableciendo la propiedad EnableCDR en False ($False):
   
 ```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $False

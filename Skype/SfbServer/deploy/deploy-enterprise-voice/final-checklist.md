@@ -1,28 +1,23 @@
 ---
 title: Lista de comprobación final de implementación del control de admisión de llamadas Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: Lista de comprobación final para implementar el Control de admisión de llamadas (CAC) en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: ca9162604d1a25ecbde0df800e891931cd756d99
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855114"
 ---
+
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Implementación del control de admisión de llamadas: lista de comprobación final Skype Empresarial Server
  
 Lista de comprobación final para implementar el Control de admisión de llamadas (CAC) en Skype Empresarial Server Telefonía IP empresarial. 
@@ -34,9 +29,9 @@ Use la siguiente lista de comprobación para comprobar que ha completado todas l
     > [!NOTE]
     > Los servidores perimetrales no son necesarios para implementar cac. 
   
-- Asegúrese de que cac está habilitado, como se especifica en Habilitar control de admisión de llamadas [en Skype Empresarial Server](enable-call-admission-control.md).
+- Asegúrese de que el CAC está habilitado, tal como se especifica en Habilitar control de admisión [de llamadas en Skype Empresarial Server](enable-call-admission-control.md).
     
-- Compruebe que el servicio de control de admisión de llamadas esté habilitado en todos los sitios centrales. Esto se puede hacer a través del Generador de topologías. Si se genera una advertencia al publicar, *no la ignore.*
+- Compruebe que el servicio de control de admisión de llamadas esté habilitado en todos los sitios centrales. Esto se puede hacer a través del Generador de topologías. Si se genera una advertencia al publicar,  *no la ignore*  .
     
 - Asegúrese de que todas las subredes que se administren en la red de empresa estén configuradas en los parámetros de configuración de red. También es esencial que todas las subredes se asocie a un sitio de red, como se explica en [Deploy network regions, sites and subnets in Skype Empresarial](deploy-network.md).
     

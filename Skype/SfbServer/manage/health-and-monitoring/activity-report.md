@@ -1,24 +1,19 @@
 ---
 title: Informe de actividad de conferencia en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 'Summary: Learn about the Conference Activity Report used in Skype Empresarial Server.'
-ms.openlocfilehash: c136bfaeb40a9b84c2861332636916353856855f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849933"
 ---
+
 # <a name="conference-activity-report-in-skype-for-business-server"></a>Informe de actividad de conferencia en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre el informe de actividad de conferencia usado en Skype Empresarial Server.
@@ -29,7 +24,7 @@ Si la red lenta está causando problemas, puede animar a los usuarios a reprogra
   
 ## <a name="accessing-the-conference-activity-report"></a>Acceso al informe de actividad de conferencia
 
-Se tiene acceso al Informe de actividad de conferencia desde el Informe de resumen de [conferencia en Skype Empresarial Server](conference-summary-report.md) haciendo clic en una de las siguientes métricas:
+Para obtener acceso al Informe de actividad de conferencia desde el Informe de [resumen de conferencia en Skype Empresarial Server](conference-summary-report.md) haga clic en una de las siguientes métricas:
   
 - Total de conferencias
     

@@ -1,26 +1,21 @@
 ---
 title: Configurar Skype Empresarial Server para usar el Exchange Server archivado
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 'Resumen: configure las transcripciones de mensajería instantánea Exchange Server 2016 o Exchange Server 2013 y Skype Empresarial Server.'
-ms.openlocfilehash: 0b154c9184002cf663d61395277471f8a927c556
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840592"
 ---
+
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Configurar Skype Empresarial Server para usar el Exchange Server archivado
 
 **Resumen:** Configure las transcripciones de mensajería instantánea Exchange Server 2016 o Exchange Server 2013 y Skype Empresarial Server.
@@ -28,7 +23,7 @@ ms.locfileid: "60840592"
 Skype Empresarial Server ofrece a los administradores la opción de archivar transcripciones de mensajería instantánea y conferencia web en el buzón de correo de Exchange Server 2016 o Exchange Server 2013 de un usuario en lugar de una base de datos SQL Server. Si se habilita esta opción, las transcripciones se escribirán en la carpeta Purga del buzón del usuario. La carpeta Purga es una carpeta oculta que se encuentra en la carpeta Elementos recuperables. Aunque esta carpeta no es visible para los usuarios finales, el motor de búsqueda de Exchange indiza la carpeta y se puede detectar mediante la búsqueda de buzones de correo Exchange o Microsoft SharePoint Server 2013. Dado que la información se almacena en la misma carpeta usada por la característica de retención de Exchange In-Place (responsable de archivar el correo electrónico y otras comunicaciones de Exchange), los administradores pueden usar una sola herramienta para buscar todas las comunicaciones electrónicas archivadas para un usuario.
 
 > [!IMPORTANT]
-> Para deshabilitar completamente el archivado de conversaciones, también debes deshabilitar el historial de conversaciones. Para obtener más información, vea los siguientes temas: [Managing the Archiving of internal and external communications in Skype Empresarial Server](/previous-versions/office/lync-server-2013/lync-server-2013-managing-the-archiving-of-internal-and-external-communications), [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps)y [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps).
+> Para deshabilitar completamente el archivado de conversaciones, también debes deshabilitar el historial de conversaciones. Para obtener más información, vea los siguientes temas: [Managing the Archiving of internal and external communications in Skype Empresarial Server](/previous-versions/office/lync-server-2013/lync-server-2013-managing-the-archiving-of-internal-and-external-communications), [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) y [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps).
 
 Para archivar las transcripciones en Exchange Server debe empezar configurando la autenticación de servidor a servidor entre Skype Empresarial Server y Exchange Server. Una vez que se haya configurado la autenticación de servidor a servidor, puede llevar a cabo las siguientes tareas en Skype Empresarial Server (tenga en cuenta que, según la configuración y la configuración, es posible que no tenga que completar todas estas tareas):
 
@@ -71,7 +66,7 @@ Exchange el archivado también se puede habilitar (o deshabilitar) mediante el S
 
 3. En el panel **Editar configuración de archivado**, haga clic en la lista desplegable **Configuración de archivado** y seleccione **Archivar sesiones de mensajería instantánea** (para archivar solo las sesiones de mensajería instantánea) o **Archivar sesiones de mensajería instantánea y conferencias web** (para archivar tanto las sesiones de conferencia web y mensajería instantánea).
 
-4. Después de elegir los elementos que se archivarán, active la casilla de Exchange Server **integración** para habilitar el Exchange archivado. Para deshabilitar Exchange archivado, desactive esta casilla.
+4. Después de elegir los elementos que se archivarán, active la casilla **Exchange Server integración** para habilitar el Exchange archivado. Para deshabilitar Exchange archivado, desactive esta casilla.
 
 > [!NOTE]
 > La casilla **Integración con Exchange Server** no estará disponible si la opción **Configuración de archivado** está configurada como **Deshabilitar archivado**. Primero debe habilitar el archivado y, a continuación, habilitar Exchange archivado.
@@ -106,13 +101,13 @@ Si crea una directiva específica para un usuario, necesitará asignar dicha dir
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"
 ```
 
-Las directivas de archivado también se pueden administrar mediante el Panel Skype Empresarial Server control. Desde el Panel de control, haga clic en **Supervisión  y archivado** y haga clic en **Directiva de archivado**. Para modificar una directiva existente, haga doble clic en la directiva (por ejemplo, Global) y, a continuación, en el panel **Editar directiva de archivado**, active o desactive las casillas **Archivar comunicaciones internas** o **Archivar comunicaciones externas** según sea necesario. Para crear una nueva directiva de archivado, haga clic en **Nuevo** y, a continuación, seleccione **Directiva de sitio** o Directiva de **usuario.** Si crea una nueva directiva de usuario, deberá tener acceso a las cuentas de usuario correspondientes (desde la pestaña **Usuarios**) y asignar dichos usuarios a la nueva directiva.
+Las directivas de archivado también se pueden administrar mediante el Panel Skype Empresarial Server control. Desde el Panel de control, haga clic en **Supervisión  y archivado** y haga clic en **Directiva de archivado**. Para modificar una directiva existente, haga doble clic en la directiva (por ejemplo, Global) y, a continuación, en el panel **Editar directiva de archivado**, active o desactive las casillas **Archivar comunicaciones internas** o **Archivar comunicaciones externas** según sea necesario. Para crear una nueva directiva de archivado, haga clic en **Nuevo** y, a continuación, seleccione **Directiva de sitio** o **Directiva de usuario**. Si crea una nueva directiva de usuario, deberá tener acceso a las cuentas de usuario correspondientes (desde la pestaña **Usuarios**) y asignar dichos usuarios a la nueva directiva.
 
 ## <a name="step-3-configuring-the-exchangearchivingpolicy-property"></a>Paso 3: Configuración de la propiedad ExchangeArchivingPolicy
 
-Si Skype Empresarial Server y Exchange Server están ubicados en bosques diferentes, no basta con habilitar el archivado Exchange en las opciones de configuración de archivado; que no dará lugar a que las transcripciones de mensajería instantánea y conferencia web se archiven en Exchange. En su lugar, también debe configurar la propiedad ExchangeArchivingPolicy en cada una de las cuentas Skype Empresarial Server usuario relevantes. Esta propiedad puede establecerse con uno de los cuatro valores posibles:
+Si Skype Empresarial Server y Exchange Server se encuentran en bosques diferentes, no basta con habilitar el archivado de Exchange en las opciones de configuración de archivado; esto no provocará que las transcripciones de mensajería instantánea y conferencia web se archiven en Exchange. En su lugar, también debe configurar la propiedad ExchangeArchivingPolicy en cada una de las cuentas Skype Empresarial Server usuario relevantes. Esta propiedad puede establecerse con uno de los cuatro valores posibles:
 
-1. **Sin inicializar**. Indica que el archivado se basará en la configuración de In-Place de espera configurada para el buzón de correo Exchange usuario; si In-Place la retención no se ha habilitado en el buzón del usuario, el usuario tendrá sus transcripciones de mensajería y conferencia web archivadas en Skype Empresarial Server.
+1. **Sin inicializar**. Indica que el archivado se basará en la configuración de retención de In-Place configurada para el buzón de Exchange del usuario; si no se ha habilitado la retención In-Place en el buzón del usuario, el usuario tendrá sus transcripciones de mensajería y conferencia web archivadas en Skype Empresarial Server.
 
 2. **UseLyncArchivingPolicy**. Indica que las transcripciones de mensajería instantánea y conferencia web del usuario deben archivarse en Skype Empresarial Server en lugar de en Exchange.
 

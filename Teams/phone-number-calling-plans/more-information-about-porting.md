@@ -1,42 +1,37 @@
 ---
 title: Más información sobre la pornografía
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: tonysmit,jastark
+ms.reviewer: 'tonysmit,jastark'
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-voice
+  - M365-voice
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Obtenga las instrucciones que necesita para que los números de teléfono se Microsoft Teams.
-ms.openlocfilehash: 362f7865f820e91e911791685293b7ca9c1786cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848183"
 ---
+
 # <a name="more-information-about-porting"></a>Más información sobre la pornografía
 
 Aquí encontrará más información sobre cómo porte sus números de teléfono a Microsoft Teams.
 
-Para obtener instrucciones detalladas completas, vea [Transferir números de](transfer-phone-numbers-to-teams.md)teléfono a Teams .
+Para obtener instrucciones detalladas, vea [Transferir números de teléfono a Teams](transfer-phone-numbers-to-teams.md).
 
-Si necesita ayuda o si necesita obtener más números de teléfono, póngase en contacto con la ayuda de Service Desk de [TNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
+Si necesita ayuda o si necesita obtener más números de teléfono, póngase en contacto con la ayuda [de Service Desk de TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## <a name="port-order-account-information"></a>Información de cuenta para la portabilidad
 
-Cuando se encuentra  en la página Agregar información de cuenta del asistente de portabilidad para enviar una solicitud de portabilidad, escribirá casi toda la misma información que proporcionaría en la LOA, incluida:
+Cuando se encuentra en la página  Agregar información de cuenta del asistente de portabilidad para enviar una solicitud de portabilidad, escribirá casi toda la misma información que proporcionaría en la LOA, incluida:
   
 - Número de cuenta del proveedor de servicios u operador
     

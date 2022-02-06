@@ -1,28 +1,23 @@
 ---
 title: Requisitos de equilibrio de carga para Skype Empresarial
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Resumen: revise las consideraciones de equilibrio de carga antes de implementar Skype Empresarial Server.'
-ms.openlocfilehash: 4bdfc9d9958154df8ce485c945dbe8accd630ed8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841002"
 ---
+
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos de equilibrio de carga para Skype Empresarial
  
 **Resumen:** Revise las consideraciones de equilibrio de carga antes de implementar Skype Empresarial Server.
@@ -49,7 +44,7 @@ La Skype Empresarial Server perimetral consolidada a escala está optimizada par
   
 - Federación con organizaciones que usan Office Communications Server 2007 R2 o Office Communications Server 2007
     
-- Exchange Mensajería unificada para usuarios remotos que usan Exchange um antes de Exchange 2010 con SP1
+- Exchange mensajería unificada para usuarios remotos que usan Exchange um antes de Exchange 2010 con SP1
     
 - Conectividad con usuarios de mensajería instantánea pública
     
@@ -70,7 +65,7 @@ Estos son los requisitos del equilibrador de carga de hardware para los servidor
   
 - Inhabilitar la aplicación del algoritmo de Nagle TCP para los puertos 443 internos y externos. La aplicación del algoritmo de Nagle es la combinación de varios paquetes pequeños en un único paquete más grande para obtener una transmisión más eficiente.
     
-- Desactivar la nagling TCP para el intervalo de puertos externos entre 50.000 y 59.999. 
+- Desactivar la  nagling TCP para el intervalo de puertos externos entre 50.000 y 59.999. 
     
 - No usar NAT en el firewall interno o externo. 
     
@@ -112,7 +107,7 @@ Si se implementan dispositivos móviles, el equilibrador de carga de hardware de
 > Si va a implementar dispositivos móviles, el equilibrador de carga de hardware debe poder equilibrar individualmente cada solicitud dentro de una conexión TCP. Las últimas aplicaciones móviles que utilizan el sistema Apple iOS requieren el uso seguridad de capa de transporte (TLS), versión 1.2.  
   
 > [!CAUTION]
-> Para obtener información detallada sobre equilibradores de carga de hardware de terceros, vea [Infrastructure for Skype Empresarial](../../../SfbPartnerCertification/certification/infra-gateways.md).  
+> Para obtener información detallada sobre equilibradores de carga de hardware de terceros, consulte [Infrastructure for Skype Empresarial](../../../SfbPartnerCertification/certification/infra-gateways.md).  
   
 A continuación se muestran los requisitos del equilibrador de carga de hardware para servicios web de grupo de directores y de servidores front-end:
   
@@ -161,7 +156,7 @@ En el siguiente diagrama se muestra un ejemplo que incluye equilibrio de carga D
 
 ![ejemplo del diagrama de red DNS.](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
-Si se utiliza el equilibrio de carga de DNS también podría adquirir equilibradores de carga de hardware a un precio más económico que si usa equilibradores de carga de hardware para todos los tipos de tráfico. Debe usar equilibradores de carga que han pasado las pruebas de cualificación de interoperabilidad con Skype Empresarial Server. Para obtener más información sobre las pruebas de interoperabilidad del equilibrador de carga, vea [Lync Server 2010 Load Balancer Partners](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). El contenido que se aplica a Skype Empresarial Server.
+Si se utiliza el equilibrio de carga de DNS también podría adquirir equilibradores de carga de hardware a un precio más económico que si usa equilibradores de carga de hardware para todos los tipos de tráfico. Debe usar equilibradores de carga que han pasado las pruebas de cualificación de interoperabilidad con Skype Empresarial Server. Para obtener información detallada acerca de las pruebas de interoperabilidad del equilibrador de carga, consulte [Lync Server 2010 Load Balancer Partners](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). El contenido que se aplica a Skype Empresarial Server.
   
 El equilibro de carga de DNS es compatible con los grupos front-end, los grupos de servidores perimetrales, los grupos de director y los grupos del servidor de mediación independientes.
   
@@ -235,12 +230,12 @@ Para implementar el equilibrio de carga DNS en grupos de servidores front-end y 
   
 - Un grupo que usa el equilibrio de carga DNS debe tener dos FQDN: el FQDN de grupo normal que usa el equilibrio de carga DNS (como pool01.contoso.com), y se resuelve en las direcciones IP físicas de los servidores del grupo de servidores y otro FQDN para los servicios web del grupo (como web01.contoso.com), que se resuelve en dirección IP virtual del grupo. 
     
-    En el Generador de topologías, si desea implementar el equilibrio de carga DNS para un grupo de servidores, para crear este FQDN adicional para  los servicios web del grupo, debe activar la casilla Invalidar FQDN del grupo de servidores de servicios web internos y escribir el **FQDN,** en la página Especificar las direcciones URL de servicios web para este grupo de servidores.
+    En el Generador de topologías, si desea implementar el equilibrio de carga DNS para un grupo de servidores, para crear este FQDN adicional para los servicios web del grupo, debe activar la casilla Invalidar FQDN del grupo de servidores de servicios web internos y escribir el  **FQDN**, en la página Especificar las direcciones URL de servicios web para este grupo de servidores.
     
 - Para admitir el FQDN que usa el equilibrio de carga DNS, debe aprovisionar el DNS de modo que resuelva el FQDN del grupo de servidores (como, por ejemplo, pool01.contoso.com) como las direcciones IP de todos los servidores del grupo de servidores (por ejemplo, 192.168.1.1, 192.168.1.2, etc.). Solo deberá incluir las direcciones IP de los servidores implementados actualmente.
     
     > [!CAUTION]
-    > Si tiene más de un grupo de servidores front-end o servidor front-end, el FQDN de servicios web externos debe ser único. Por ejemplo, si define el FQDN de servicios web externos de un servidor front-end como pool01.contoso.com **,** no puede usar **pool01.contoso.com** para otro grupo de servidores front-end o servidor front-end. Si también va a implementar directores, el FQDN de servicios web externos definido para cualquier director o grupo de directores debe ser único de cualquier otro director o grupo de directores, así como de cualquier grupo de servidores front-end o servidor front-end. Si decide invalidar los servicios web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores.
+    > Si tiene más de un grupo de servidores front-end o servidor front-end, el FQDN de servicios web externos debe ser único. Por ejemplo, si define el FQDN de servicios web externos de un servidor front-end como **pool01.contoso.com, no** puede usar **pool01.contoso.com** para otro grupo de servidores front-end o servidor front-end. Si también va a implementar directores, el FQDN de servicios web externos definido para cualquier director o grupo de directores debe ser único de cualquier otro director o grupo de directores, así como de cualquier grupo de servidores front-end o servidor front-end. Si decide invalidar los servicios web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores.
   
 ### <a name="dns-load-balancing-on-edge-server-pools"></a>Equilibrio de carga DNS en grupos de servidores perimetrales
 <a name="BK_Edge"> </a>

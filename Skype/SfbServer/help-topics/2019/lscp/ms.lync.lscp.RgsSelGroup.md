@@ -1,27 +1,22 @@
 ---
 title: Seleccionar grupos
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.RgsSelGroup
+  - ms.lync.lscp.RgsSelGroup
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
-ROBOTS: NOINDEX, NOFOLLOW
-description: Las colas de grupo de respuesta mantienen llamadas a grupos de respuesta hasta que un agente responde a la llamada. Las colas tienen grupos de agentes asignados. Al crear o editar una cola, use el cuadro de diálogo Seleccionar grupos para seleccionar uno o varios grupos de agentes para que se asignen a la cola.
-ms.openlocfilehash: 7f58d4004b894b9bf79c1dc63f5d61a5add223fb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830604"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Las colas de grupo de respuesta mantienen llamadas a grupos de respuesta hasta que un agente responde a la llamada. Las colas tienen grupos de agentes asignados. Al crear o editar una cola, use el cuadro de diálogo Seleccionar grupos para seleccionar uno o varios grupos de agentes para que se asignen a la cola.'
 ---
+
 # <a name="select-groups"></a>Seleccionar grupos
 
 Las colas de grupo de respuesta mantienen llamadas a grupos de respuesta hasta que un agente responde a la llamada. Las colas tienen grupos de agentes asignados. Al crear o editar una cola, use el cuadro de diálogo **Seleccionar grupos** para seleccionar uno o varios grupos de agentes para que se asignen a la cola.

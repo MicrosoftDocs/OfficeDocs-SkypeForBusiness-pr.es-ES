@@ -1,28 +1,23 @@
 ---
 title: Elija un proveedor de servicios E9-1-1 para Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: Elegir el proveedor de servicios para una implementación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: fbcbfeeefe6eb96138cda85904370a80f1909c67
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827493"
 ---
+
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>Elija un proveedor de servicios E9-1-1 para Skype Empresarial Server
  
 Elegir el proveedor de servicios para una implementación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.

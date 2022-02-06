@@ -1,28 +1,23 @@
 ---
 title: Planear IPv6 en Skype Empresarial
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Resumen: implemente IPv6 antes de instalar Skype Empresarial Server.'
-ms.openlocfilehash: 21fa37d187f32c9b679a49a3b8181b1a5e2732d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849753"
 ---
+
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planear IPv6 en Skype Empresarial
  
 **Resumen:** Implemente IPv6 antes de instalar Skype Empresarial Server.
@@ -41,7 +36,7 @@ En este tema se incluyen las secciones siguientes:
     
 - [Consideraciones de migración y coexistencia para IPv6](ipv6.md#migration)
     
-Si determina que va a usar direcciones IPv6, consulte el artículo Configurar tipos de direcciones [IP en Skype Empresarial.](ip-address-types.md)
+Si determina que va a usar direcciones IPv6, consulte el artículo Configure [IP address types in Skype Empresarial](ip-address-types.md).
   
 ## <a name="overview-of-ip-address-types"></a>Información general sobre los tipos de direcciones IP
 <a name="over"> </a>
@@ -203,7 +198,7 @@ Se admiten los siguientes escenarios durante la migración y coexistencia:
     
 - Skype Empresarial Server en modo de solo IPv6, si el grupo de servidores de solo IPv6 está siloed.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="migration"> </a>
 
 [Configurar tipos de direcciones IP en Skype Empresarial](ip-address-types.md)

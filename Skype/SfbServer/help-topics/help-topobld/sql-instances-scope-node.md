@@ -1,32 +1,27 @@
 ---
 title: Nodo de ámbito de instancias SQL
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SqlInstancesScopeNode
+  - ms.lync.tb.SqlInstancesScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 description: 'El SQL almacena enumera las bases SQL Server de datos de la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 7bda856e8e4bde303daa5ddee3dca57eb5bfab9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861407"
 ---
+
 # <a name="sql-instances-scope-node"></a>Nodo de ámbito de instancias SQL
  
-El **SQL almacena enumera** las SQL Server bases de datos de la topología. Puede efectuar la acción siguiente:
+El **SQL almacena enumera** las bases SQL Server de datos de la topología. Puede efectuar la acción siguiente:
   
-- **Nuevo almacén SQL**. Inicia el **asistente Definir nueva SQL store,** que se usa para agregar una nueva base de datos SQL Server a la topología.
+- **Nuevo almacén SQL**. Inicia el **Asistente para definir nueva SQL store**, que se usa para agregar una nueva base de datos SQL Server a la topología.
     
 Además de las opciones SQL Server base de datos, puede realizar las siguientes tareas generales:
   

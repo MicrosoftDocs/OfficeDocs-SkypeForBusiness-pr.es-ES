@@ -1,7 +1,7 @@
 ---
 title: Administrar directivas de configuración de aplicación en Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -9,30 +9,25 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar directivas de configuración de aplicaciones Microsoft Teams para los usuarios de su organización.
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: aebf812b7362f5f7572e9b8fabb9e88754118438
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205300"
+  - ms.teamsadmincenter.appsetuppolicies.overview
 ---
+
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
 Como administrador, puede usar directivas de configuración de aplicaciones para instalar y anclar aplicaciones para promover las aplicaciones más usadas de su organización y decidir si desea que los usuarios carguen aplicaciones personalizadas a Teams.
 
-- Anclar **aplicaciones:** las directivas de configuración de aplicaciones le permiten elegir aplicaciones para anclar, establecer el orden en que se muestran para los usuarios y controlar si los usuarios pueden anclar o no sus propias aplicaciones a la barra de aplicaciones Teams aplicación. Para obtener más información, vea [Anclar aplicaciones.](#pin-apps)
-- **Instalar aplicaciones: las** directivas de configuración de aplicaciones le permiten instalar aplicaciones en nombre de los usuarios al iniciar Teams y durante las reuniones. Para obtener más información, vea [Instalar aplicaciones.](#install-apps)
-- **Upload aplicaciones personalizadas: las** directivas de configuración de aplicaciones le permiten a los usuarios cargar aplicaciones personalizadas Teams. Para obtener más información, [vea Upload aplicaciones personalizadas.](#upload-custom-apps)
+- Anclar aplicaciones **:** las directivas de configuración de aplicaciones le permiten elegir aplicaciones para anclar, establecer el orden en que se muestran para los usuarios y controlar si los usuarios pueden anclar o no sus propias aplicaciones a la barra de aplicaciones Teams aplicación. Para obtener más información, vea [Anclar aplicaciones](#pin-apps).
+- **Instalar aplicaciones: las** directivas de configuración de aplicaciones le permiten instalar aplicaciones en nombre de los usuarios al iniciar Teams y durante las reuniones. Para obtener más información, vea [Instalar aplicaciones](#install-apps).
+- **Upload aplicaciones personalizadas: las** directivas de configuración de aplicaciones le permiten a los usuarios cargar aplicaciones personalizadas en Teams. Para obtener más información, [vea Upload aplicaciones personalizadas](#upload-custom-apps).
 
 ## <a name="pin-apps"></a>Anclar aplicaciones
 
@@ -54,20 +49,20 @@ Las aplicaciones se anclan a la barra de aplicaciones, que es la barra del lado 
 
 Para crear una directiva de configuración de aplicaciones para anclar aplicaciones, siga estos pasos:
 
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams **directivas**  >  **de configuración de aplicaciones.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams **de aplicacionessetup** > .
 
 2. Seleccione **Agregar**.
 
 3. Escriba un nombre y una descripción para la directiva.
 
-4. Activa o desactiva la **anclación de usuario,** dependiendo de si quieres permitir que los usuarios personalicen su barra de aplicaciones anclando aplicaciones a ella.
+4. Activa o desactiva la **anclación de** usuario, dependiendo de si quieres permitir que los usuarios personalicen su barra de aplicaciones anclando aplicaciones a ella.
 
    > [!NOTE]
    > La **configuración** de anclación de usuario está disponible en el Centro de administración de Teams en entornos de Microsoft 365 Government Community Cloud (GCC) (GCC, GCC High y DoD), pero actualmente no tiene ningún efecto.
 
-5. En **Aplicaciones ancladas,** selecciona **Agregar aplicaciones.**
+5. En **Aplicaciones ancladas**, seleccione **Agregar aplicaciones**.
 
-6. En el **panel Agregar aplicaciones** ancladas, busque las aplicaciones que desea agregar y, a continuación, seleccione **Agregar**. También puede filtrar aplicaciones por directiva de permisos de aplicación.
+6. En el **panel Agregar aplicaciones** ancladas, busque las aplicaciones que desea agregar y, a continuación, **seleccione Agregar**. También puede filtrar aplicaciones por directiva de permisos de aplicación.
 
 7. Seleccione **Agregar**.
 
@@ -79,7 +74,7 @@ Para crear una directiva de configuración de aplicaciones para anclar aplicacio
 
 ## <a name="install-apps"></a>Instalar aplicaciones
 
-Puede elegir qué aplicaciones están instaladas de forma predeterminada para los usuarios [](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)en su entorno personal de Teams, instalar aplicaciones como extensiones de mensajería y designar las aplicaciones que se instalarán en las reuniones.
+Puede elegir qué aplicaciones están instaladas de forma predeterminada para los usuarios en su entorno personal de Teams, instalar aplicaciones como extensiones de [](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)mensajería y designar aplicaciones que se instalarán en las reuniones.
 
 Con una directiva de configuración de aplicaciones, puede realizar las siguientes tareas:
 
@@ -88,19 +83,19 @@ Con una directiva de configuración de aplicaciones, puede realizar las siguient
 - Instalar aplicaciones en reuniones para organizadores de reuniones
 
 > [!NOTE]
-> Los usuarios aún pueden instalar aplicaciones si [la](teams-app-permission-policies.md) directiva de permisos de la aplicación que se les ha asignado lo permite.
+> Los usuarios aún pueden instalar aplicaciones [si la directiva](teams-app-permission-policies.md) de permisos de la aplicación que se les ha asignado lo permite.
 
 Para crear una directiva de configuración de aplicaciones para instalar aplicaciones, siga estos pasos:
 
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams **directivas**  >  **de configuración de aplicaciones.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams **de aplicacionessetup** > .
 
 2. Seleccione **Agregar**.
 
 3. Escriba un nombre y una descripción para la directiva.
 
-4. En **Aplicaciones instaladas,** seleccione **Agregar aplicaciones.**
+4. En **Aplicaciones instaladas**, seleccione **Agregar aplicaciones**.
 
-5. En el **panel Agregar aplicaciones instaladas,** busque las aplicaciones que desea instalar automáticamente para los usuarios. También puede filtrar aplicaciones por directiva de permisos de aplicación.
+5. En el **panel Agregar aplicaciones instaladas** , busque las aplicaciones que desea instalar automáticamente para los usuarios. También puede filtrar aplicaciones por directiva de permisos de aplicación.
 
 6. Seleccione **Agregar**.
 
@@ -115,16 +110,16 @@ Puede usar el centro de Microsoft Teams para crear una directiva personalizada q
 
 Para crear una directiva de configuración de aplicaciones que permita a los usuarios cargar aplicaciones personalizadas en Teams, siga estos pasos:
 
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams **directivas**  >  **de configuración de aplicaciones.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams **de aplicacionessetup** > .
 
 2. Seleccione **Agregar**.
 
 3. Escriba un nombre y una descripción para la directiva.
 
-4. Activa o desactiva las **Upload** personalizadas, dependiendo de si quieres permitir que los usuarios carguen aplicaciones personalizadas en Teams.
+4. Activa o desactiva las **Upload personalizadas**, dependiendo de si quieres permitir que los usuarios carguen aplicaciones personalizadas a Teams.
 
 > [!NOTE]
-> No puede cambiar esta configuración si Permitir aplicaciones **de terceros** está desactivada en la configuración de la aplicación para toda [la organización.](manage-apps.md#manage-org-wide-app-settings)
+> No puede cambiar esta configuración si Permitir aplicaciones **de terceros** está desactivada en la configuración de aplicaciones [de toda la organización](manage-apps.md#manage-org-wide-app-settings).
 
 ## <a name="manage-app-setup-policies"></a>Administrar directivas de configuración de aplicaciones
 
@@ -138,9 +133,9 @@ Edita la configuración de la directiva global para incluir las aplicaciones que
 
 Puede usar el centro Microsoft Teams administración para editar una directiva, incluidas las directivas globales (predeterminadas para toda la organización) y las directivas personalizadas que cree.
 
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams **directivas**  >  **de configuración de aplicaciones.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams **de aplicacionessetup** > .
 
-2. Elija la directiva que desea editar y, a continuación, **seleccione Editar.**
+2. Elija la directiva que desea editar y, a continuación, **seleccione Editar**.
 
 3. Realice los cambios que desee.
 
@@ -148,7 +143,7 @@ Puede usar el centro Microsoft Teams administración para editar una directiva, 
 
 ### <a name="assign-a-custom-app-setup-policy-to-users"></a>Asignar una directiva de configuración de aplicación personalizada a los usuarios
 
-Para obtener más información sobre cómo asignar directivas a los usuarios, vea [Asignar directivas a usuarios y grupos.](assign-policies-users-and-groups.md)
+Para obtener más información sobre cómo asignar directivas a los usuarios, vea [Asignar directivas a usuarios y grupos](assign-policies-users-and-groups.md).
 
 ## <a name="faq"></a>Preguntas más frecuentes
 
@@ -156,17 +151,17 @@ Para obtener más información sobre cómo asignar directivas a los usuarios, ve
 
 #### <a name="can-i-assign-an-app-setup-policy-to-a-group"></a>¿Puedo asignar una directiva de configuración de aplicación a un grupo?
 
-Las directivas de configuración de aplicaciones se pueden asignar a grupos con PowerShell. Para obtener más información sobre cómo asignar directivas a grupos con PowerShell, vea [Asignar directivas a usuarios y grupos.](assign-policies-users-and-groups.md#use-the-powershell-option)
+Las directivas de configuración de aplicaciones se pueden asignar a grupos con PowerShell. Para obtener más información sobre cómo asignar directivas a grupos con PowerShell, vea Asignar [directivas a usuarios y grupos](assign-policies-users-and-groups.md#use-the-powershell-option).
 
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Qué directivas de configuración de aplicaciones integradas se incluyen en el centro de Microsoft Teams de administración
 
-- **Global (predeterminado para toda** la organización): esta directiva predeterminada se aplica a todos los usuarios de su organización a menos que asigne otra directiva. Edite la directiva global para anclar aplicaciones que sean más importantes para los usuarios.
+- **Global (org-wide default)**: esta directiva predeterminada se aplica a todos los usuarios de su organización a menos que asigne otra directiva. Edite la directiva global para anclar aplicaciones que sean más importantes para los usuarios.
 
-- **FrontlineWorker:** esta directiva es para trabajadores de frontline. Puede asignarlo a Trabajadores de frontline de su organización. Es importante saber que, al igual que las directivas personalizadas que cree, tiene que asignar la directiva a los usuarios para que la configuración esté activa. Para obtener más información, vaya a la sección Asignar una directiva de configuración [de aplicación personalizada a](#assign-a-custom-app-setup-policy-to-users) los usuarios de este artículo.
+- **FrontlineWorker**: esta directiva es para trabajadores de frontline. Puede asignarlo a Trabajadores de frontline de su organización. Es importante saber que, al igual que las directivas personalizadas que cree, tiene que asignar la directiva a los usuarios para que la configuración esté activa. Para obtener más información, vaya a la sección Asignar [una directiva de configuración de aplicación personalizada a](#assign-a-custom-app-setup-policy-to-users) los usuarios de este artículo.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>¿Por qué no puedo encontrar una aplicación en el panel Agregar aplicaciones ancladas?
 
-No todas las aplicaciones se pueden anclar a Teams a través de una directiva de configuración de aplicaciones. Es posible que algunas aplicaciones no admitan esta funcionalidad. Para buscar aplicaciones que se pueden anclar, busque la aplicación en el panel Agregar aplicaciones **ancladas.** Las pestañas que tienen un ámbito personal (pestañas estáticas) y bots se pueden anclar al cliente de escritorio de Teams y estas aplicaciones están disponibles en el panel Agregar aplicaciones **ancladas.**
+No todas las aplicaciones se pueden anclar a Teams a través de una directiva de configuración de aplicaciones. Es posible que algunas aplicaciones no admitan esta funcionalidad. Para buscar aplicaciones que se pueden anclar, busque la aplicación en el panel Agregar aplicaciones **ancladas** . Las pestañas que tienen un ámbito personal (pestañas estáticas) y bots se pueden anclar al cliente de escritorio de Teams y estas aplicaciones están disponibles en el panel Agregar aplicaciones **ancladas.**
 
 Tenga en cuenta que el Teams de aplicaciones enumera todas las Teams aplicaciones. El **panel Agregar aplicaciones ancladas** solo incluye las aplicaciones que se pueden anclar a Teams a través de una directiva.
 
@@ -192,7 +187,7 @@ Para ver todas las aplicaciones ancladas para un usuario, es posible que los usu
 
 |Cliente de escritorio de Teams |Cliente móvil de Teams |
 |---------|---------|
-|En la barra de la aplicación en el lado de Teams, seleccione **... Más aplicaciones**.| En la barra de aplicaciones cerca de la parte inferior de Teams, deslice el dedo hacia arriba.|
+|En la barra de aplicaciones del lado de Teams, seleccione **... Más aplicaciones**.| En la barra de aplicaciones cerca de la parte inferior de Teams, deslice el dedo hacia arriba.|
 |![Más aplicaciones en el Teams escritorio.](media/app-setup-policies-desktop-more-apps.png)<br>   |![más aplicaciones en el Teams móvil](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>¿Qué necesito saber sobre la Teams móvil?
@@ -205,17 +200,17 @@ Con los Teams móviles, los usuarios verán aplicaciones principales de Teams co
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>¿Pueden los usuarios cambiar el orden de las aplicaciones ancladas a través de una directiva?
 
-Los usuarios pueden cambiar el orden de sus aplicaciones ancladas Teams clientes móviles y de escritorio si la opción Ancla **de** usuario está activada. Los usuarios no pueden cambiar el orden de sus aplicaciones ancladas en Teams web.
+Los usuarios pueden cambiar el orden de sus aplicaciones ancladas en Teams de escritorio y móviles si la opción Ancla **de** usuario está activada. Los usuarios no pueden cambiar el orden de sus aplicaciones ancladas en Teams web.
 
 #### <a name="does-user-pinning-take-precedence"></a>¿Tiene prioridad la anclación de usuario?
 
-Los anclares de administrador siempre tienen prioridad. Si la **opción Ancla de** usuario está activada, los usuarios conservarán sus aplicaciones ancladas debajo de las aplicaciones ancladas por el administrador. Si la opción Ancla **de** usuario está desactivada, los usuarios perderán sus pasadores preexistentes y solo las aplicaciones ancladas por el administrador estarán presentes en la barra de aplicaciones.
+Los anclares de administrador siempre tienen prioridad. Si la **opción Ancla de** usuario está activada, los usuarios conservarán sus aplicaciones ancladas debajo de las aplicaciones ancladas por el administrador. Si la **opción Ancla de** usuario está desactivada, los usuarios perderán sus pasadores preexistentes y solo las aplicaciones ancladas por el administrador estarán presentes en la barra de aplicaciones.
 
 ### <a name="custom-teams-apps"></a>Aplicaciones Teams personalizadas
 
 #### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>Mi organización creó una aplicación de Teams personalizada y la publicó, ya sea en AppSource o en el catálogo de aplicaciones de inquilino, pero el icono de la aplicación no se muestra como se esperaba cuando la aplicación se ancla a la barra de aplicaciones en Teams. ¿Cómo puedo corregirlo?
 
-Asegúrese de que sigue las directrices del logotipo antes de enviar la aplicación. Para obtener más información, vea [Envío de lista de comprobación del panel de vendedores.](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)
+Asegúrese de que sigue las directrices del logotipo antes de enviar la aplicación. Para obtener más información, vea [Envío de lista de comprobación para panel de vendedores](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview).
 
 ## <a name="related-articles"></a>Artículos relacionados
 

@@ -1,28 +1,22 @@
 ---
 title: Microsoft Teams de uso de eventos en directo
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 description: Obtenga información sobre cómo usar el Teams de uso de eventos en directo en el Centro de administración de Microsoft Teams para obtener información general sobre Teams actividad de eventos en directo en su organización.
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e2b9d4a9f60b905e03ee27397e24feb74ac3c17
-ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2021
-ms.locfileid: "61135233"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams de uso de eventos en directo
 
@@ -30,10 +24,10 @@ El Teams de uso de eventos en directo en el centro de administración de Microso
 
 ## <a name="view-the-live-event-usage-report"></a>Ver el informe de uso de eventos en directo
 
-1. En el panel de navegación izquierdo del centro Microsoft Teams administración, haga clic **en Análisis & informes de**  >  **uso.** En la **pestaña Ver informes,** **en** Informe, seleccione Teams uso de eventos **en directo.**
-2. En **Intervalo de fechas,** seleccione un rango predefinido o establezca un rango personalizado. Puede establecer un rango para mostrar datos hasta un año, seis meses antes y después de la fecha actual.
-3. (Opcional) En **Organizador,** puede elegir mostrar solo eventos en directo organizados por un usuario específico.
-4. Haga clic **en Ejecutar informe.**  
+1. En el panel de navegación izquierdo del centro Microsoft Teams administración, haga clic **en Análisis &** **informesUsar** >  informes. En la **pestaña Ver informes**, en **Informe**, **seleccione Teams uso de eventos en directo**.
+2. En **Intervalo de fechas**, seleccione un rango predefinido o establezca un rango personalizado. Puede establecer un rango para mostrar datos hasta un año, seis meses antes y después de la fecha actual.
+3. (Opcional) En **Organizador**, puede elegir mostrar solo eventos en directo organizados por un usuario específico.
+4. Haga clic **en Ejecutar informe**.  
 
    :::image type="content" alt-text="Captura de pantalla del Teams de uso de eventos en directo en el Teams de administración con llamadas." source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
 
@@ -60,7 +54,7 @@ La página de detalles del evento en directo le proporciona un resumen de los de
 
 :::image type="content" alt-text="Captura de pantalla que muestra detalles de un evento en directo." source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
 
-Si su organización está habilitada para el eCDN de [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) o [el ECDN de Kollective,](https://kollective.com) puede obtener análisis de asistentes adicionales haciendo clic en el vínculo del informe de partners.
+Si su organización está habilitada para [el](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN de Hive o [el ECDN de Kollective](https://kollective.com) , puede obtener análisis de asistentes adicionales haciendo clic en el vínculo del informe de partners.
 
 ## <a name="related-topics"></a>Temas relacionados
 

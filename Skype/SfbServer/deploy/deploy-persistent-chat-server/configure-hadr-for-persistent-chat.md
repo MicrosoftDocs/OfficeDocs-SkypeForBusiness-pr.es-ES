@@ -1,25 +1,20 @@
 ---
 title: Configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype Empresarial Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 'Summary: Read this topic to learn how to configure high availability and disaster recovery for Persistent Chat Server in Skype Empresarial Server 2015.'
-ms.openlocfilehash: 8c5a219b803f38c4a2690f0b4ff213cb17446cd7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832884"
 ---
+
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype Empresarial Server 2015
  
 **Resumen:** Lea este tema para obtener información sobre cómo configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype Empresarial Server 2015.
@@ -30,7 +25,7 @@ Skype Empresarial Server admite varios modos de alta disponibilidad para los ser
 > Los grupos de disponibilidad AlwaysOn no se admiten con servidores de chat persistente. 
 
 > [!NOTE] 
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015.
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015.
   
 Antes de configurar la implementación de chat persistente para la alta disponibilidad y la recuperación ante desastres, asegúrese de que está familiarizado con los conceptos de [Plan for high availability and disaster recovery for Persistent Chat Server in Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md). La solución de recuperación ante desastres para el servidor de chat persistente que se describe en estos temas se basa en un grupo de servidores de chat persistente extendido. El contenido de planeación describe los requisitos de recursos y la topología de grupo extendido que permite la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente, incluido el uso de la creación de reflejo de SQL Server para alta disponibilidad y el trasvase de registros SQL Server para la recuperación ante desastres.
   
@@ -105,7 +100,7 @@ Con SQL Server Management Studio, conéctese a la instancia de base de datos de 
 
 Realice los siguientes pasos para que el trasvase de registros continúe si la base de datos de chat persistente principal se ha con error en su base de datos reflejada.
   
-1. Conmutar manualmente la conmutación por error de la base de datos de chat persistente principal al reflejo. Para ello, use el Shell Skype Empresarial Server administración y el cmdlet **Invoke-CsDatabaseFailover.**
+1. Conmutar manualmente la conmutación por error de la base de datos de chat persistente principal al reflejo. Para ello, use el Shell Skype Empresarial Server administración y el cmdlet **Invoke-CsDatabaseFailover**.
     
 2. Con el SQL Server Management Studio, conéctese a la instancia reflejada del servidor de chat persistente principal.
     
@@ -149,13 +144,13 @@ Realice los siguientes pasos para que el trasvase de registros continúe si la b
     
 19. En la nueva ventana de consulta, en **Propiedades de base de datos**, haga clic en **Aceptar** para comenzar el proceso de configuración.
     
-20. Seleccione y ejecute la primera mitad de la consulta (vea el paso 18) hasta la línea: -- End: Script que se ejecutará \* \* \* \* \* \* en Primary: \* \* \* \* \* \* .
+20. Seleccione y ejecute la primera mitad de la consulta (vea el paso 18) hasta la línea: -- \*\*\*\*\*\*End: Script que se ejecutará en Primary: . \*\*\*\*\*\*
     
     > [!IMPORTANT]
     > La ejecución manual de este script es necesaria porque SQL Server Management Studio no admite varias bases de datos principales en una SQL Server de trasvase de registros. 
   
 21. Seleccione **Cancelar** para cerrar el panel de configuración de envío del archivo de registro y establecer una configuración de trabajo que implemente correctamente el envío del archivo de registro a la base de datos principal y reflejada (en caso de conmutación por error).
     
-22. Conmutación por recuperación manual de la base de datos de chat persistente principal a la principal. Para ello, use el Shell Skype Empresarial Server administración y el cmdlet **Invoke-CsDatabaseFailover.**
+22. Conmutación por recuperación manual de la base de datos de chat persistente principal a la principal. Para ello, use el Shell Skype Empresarial Server administración y el cmdlet **Invoke-CsDatabaseFailover**.
     
 

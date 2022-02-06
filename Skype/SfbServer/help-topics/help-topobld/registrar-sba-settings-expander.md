@@ -1,27 +1,22 @@
 ---
 title: Expansor de configuración SBA de registrador
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.RegistrarSBASettingsExpander
+  - ms.lync.tb.RegistrarSBASettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 'Modifique la configuración de la Resistencia y configure las siguientes propiedades:'
-ms.openlocfilehash: 8ea7267d5074783823622609e6a2330d09b0ed46
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837722"
 ---
+
 # <a name="registrar-sba-settings-expander"></a>Expansor de configuración SBA de registrador
 
 Modifique la configuración de la **Resistencia** y configure las siguientes propiedades:
@@ -41,6 +36,6 @@ Modifique la configuración de la **Resistencia** y configure las siguientes pro
 
   **Ayuda** Muestra la ayuda de esta pantalla.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planeación de la resistencia de Enterprise Voice](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency)

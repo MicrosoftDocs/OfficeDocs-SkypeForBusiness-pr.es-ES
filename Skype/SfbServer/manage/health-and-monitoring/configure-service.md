@@ -1,24 +1,19 @@
 ---
 title: Configurar el servicio de movilidad para un alto rendimiento en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 description: 'Resumen: obtenga información sobre el servicio de movilidad en Skype Empresarial Server.'
-ms.openlocfilehash: 4c07c1e487875a41da0d1ba3c0d8872d96a5ac70
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828793"
 ---
+
 # <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Configurar el servicio de movilidad para un alto rendimiento en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre el servicio de movilidad en Skype Empresarial Server.

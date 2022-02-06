@@ -1,29 +1,24 @@
 ---
 title: Planear la apariencia de línea compartida en Skype Empresarial Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/21/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
-description: Lea este tema para obtener información sobre cómo planear la apariencia de línea compartida (SLA) en Skype Empresarial Server 2015, actualización acumulativa de noviembre de 2015.
-ms.openlocfilehash: 9400a4a68c992c822162be3a5f84ea4a9d0ede31
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847213"
+description: 'Lea este tema para obtener información sobre cómo planear la apariencia de línea compartida (SLA) en Skype Empresarial Server 2015, actualización acumulativa de noviembre de 2015.'
 ---
+
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Planear la apariencia de línea compartida en Skype Empresarial Server 2015
  
 Lea este tema para obtener información sobre cómo planear la apariencia de línea compartida (SLA) en Skype Empresarial Server 2015, actualización acumulativa de noviembre de 2015. 
@@ -42,7 +37,7 @@ SLA solo se admite en los siguientes dispositivos telefónicos (no se admite par
     
 SLA es una nueva característica de Skype Empresarial Server, actualización acumulativa de noviembre de 2015. 
   
-Para obtener información sobre la implementación de SLA, vea [Deploy Shared Line Appearance in Skype Empresarial Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
+Para obtener información acerca de la implementación de SLA, vea [Deploy Shared Line Appearance in Skype Empresarial Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
   
 ## <a name="feature-list"></a>Lista de características
 

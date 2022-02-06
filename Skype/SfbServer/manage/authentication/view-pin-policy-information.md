@@ -1,30 +1,25 @@
 ---
 title: Ver información de directiva de PIN en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 'Resumen: vea la información de directiva de PIN de un usuario para Skype Empresarial Server.'
-ms.openlocfilehash: 0a0e67d45a89e2c03f45017bfddb1ffaa9bec285
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862487"
 ---
+
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>Ver información de directiva de PIN en Skype Empresarial Server
  
 **Resumen:** Vea la información de directiva de PIN de un usuario Skype Empresarial Server.
   
-Puede usar la pestaña Directiva de **PIN** para ver la autenticación de número de identificación personal (PIN) de los usuarios que se conectan a Skype Empresarial con teléfonos IP. Para usar la autenticación PIN, asegúrese de que la opción **Habilitar autenticación PIN** esté seleccionada en la configuración del servicio web.
+Puede usar la pestaña **Directiva de PIN** para ver la autenticación de número de identificación personal (PIN) de los usuarios que se conectan a Skype Empresarial con teléfonos IP. Para usar la autenticación PIN, asegúrese de que la opción **Habilitar autenticación PIN** esté seleccionada en la configuración del servicio web.
   
 Siga estos pasos para modificar una directiva de PIN de nivel de usuario o de sitio. 
   
@@ -62,8 +57,8 @@ PINLifetime          : 0
 MaximumLogonAttempts :
 </pre>
 
-Para obtener más información, vea el tema de ayuda del cmdlet [Get-CsPinPolicy.](/powershell/module/skype/get-cspinpolicy?view=skype-ps)
+Para obtener más información, vea el tema de ayuda del cmdlet [Get-CsPinPolicy](/powershell/module/skype/get-cspinpolicy?view=skype-ps) .
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Crear una nueva directiva de PIN en Skype Empresarial Server](create-a-new-pin-policy.md)

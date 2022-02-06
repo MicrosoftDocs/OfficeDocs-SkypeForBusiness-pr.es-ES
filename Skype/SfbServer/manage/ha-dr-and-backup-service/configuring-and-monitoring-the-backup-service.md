@@ -1,26 +1,21 @@
 ---
 title: Configurar y supervisar el servicio de copia de seguridad
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: Puede usar los comandos Skype Empresarial Server Shell de administración para configurar y supervisar el servicio de copia de seguridad.
-ms.openlocfilehash: 0881d40ca639edf825b0af104981ceddcab6e87a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832024"
 ---
+
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>Configuración y supervisión del servicio de copia de seguridad en Skype Empresarial Server
 
-Puede usar los siguientes comandos Skype Empresarial Server Shell de administración para configurar y supervisar el servicio de copia de seguridad. Para restaurar la información de conferencia almacenada en el almacén de archivos de un grupo de servidores front-end, vea [Restore conference contents using the Backup Service](#restore-conference-contents-using-the-backup-service), a continuación.
+Puede usar los siguientes comandos Skype Empresarial Server Shell de administración para configurar y supervisar el servicio de copia de seguridad. Para restaurar la información de conferencia almacenada en el almacén de archivos de un grupo de servidores front-end, consulte [Restore conference contents using the Backup Service](#restore-conference-contents-using-the-backup-service), a continuación.
 
 > [!NOTE]  
 > El grupo RTCUniversalServerAdmins es el único grupo que tiene permisos para ejecutar **Get-CsBackupServiceStatus** de forma predeterminada. Para usar este cmdlet, inicie sesión como miembro de este grupo. O bien, puede conceder acceso a este comando a otros grupos (por ejemplo, CSAdministrator) mediante el uso del cmdlet **Set-CsBackupServiceConfiguration**.

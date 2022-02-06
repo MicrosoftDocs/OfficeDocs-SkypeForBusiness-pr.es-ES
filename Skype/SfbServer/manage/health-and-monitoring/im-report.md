@@ -1,24 +1,19 @@
 ---
 title: Informe de mensajería instantánea punto a punto en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 'Summary: Learn about the Peer-to-Peer IM Report in Skype Empresarial Server.'
-ms.openlocfilehash: f72200547ca8af3fa2ebde0e44c4707c82a1596b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834208"
 ---
+
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Informe de mensajería instantánea punto a punto en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre el informe de mensajería instantánea punto a punto en Skype Empresarial Server.
@@ -27,7 +22,7 @@ El informe de mensajería instantánea punto a punto ofrece información de tend
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>Obtener acceso al informe de mensajería instantánea de punto a punto
 
-Solo puede obtener acceso al informe de mensajería instantánea punto a punto abriendo el Informe de resumen de actividad punto a punto en Skype Empresarial Server y, a [continuación,](peer-to-peer-activity-summary-report.md) haciendo clic en cualquiera de las siguientes métricas:
+Solo puede obtener acceso al informe de mensajería instantánea punto a punto abriendo el Informe de resumen de actividad punto a [punto en Skype Empresarial Server](peer-to-peer-activity-summary-report.md) y, a continuación, haciendo clic en cualquiera de las siguientes métricas:
   
 - Total de sesiones de MI punto a punto
     
@@ -70,7 +65,7 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
 
 |**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Tipo de autenticación** <br/> |No  <br/> | Tipo de autenticación utilizado por los participantes de la sesión. Los valores suelen ser los siguientes: <br/>  Enterprise <br/>  Federado <br/>  PIC <br/> |
+|**Tipo de autenticación** <br/> |No  <br/> | Tipo de autenticación utilizado por los participantes de la sesión. Los valores suelen ser los siguientes: <br/>  Empresa <br/>  Federado <br/>  PIC <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Fecha y hora en las que tuvo lugar la sesión.  <br/> |
 |**Total** <br/> |No  <br/> |Número total de sesiones o recuento total de mensajes.  <br/> |
    

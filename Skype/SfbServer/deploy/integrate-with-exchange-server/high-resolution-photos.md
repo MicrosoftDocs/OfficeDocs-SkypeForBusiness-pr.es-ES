@@ -1,26 +1,21 @@
 ---
 title: Configurar el uso de fotos de alta resolución en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Resumen: configure el uso de fotos de alta resolución en Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 o Exchange Online y Skype Empresarial Server.'
-ms.openlocfilehash: 8a28e151d99440b1ec682eab2a473f3cffac7ac4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856997"
 ---
+
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Configurar el uso de fotos de alta resolución en Skype Empresarial Server
  
 **Resumen:** Configure el uso de fotos de alta resolución en Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 o Exchange Online y Skype Empresarial Server.
@@ -36,7 +31,7 @@ En Skype Empresarial Server, las fotos se pueden almacenar en el buzón de corre
 > [!NOTE]
 > Si tiene los recursos, se recomienda cargar 648 x 648 fotos; que proporciona la resolución máxima y la calidad de imagen óptima en cualquiera de las Office 2013. Cada foto JPEG con un tamaño de 648 x 648 y una profundidad de 24 bits da como resultado un tamaño de archivo de aproximadamente 240 kilobytes. Eso significa que necesitará aproximadamente 1 megabyte de espacio en disco por cada 4 fotos de usuario. 
   
-Las fotos de alta resolución, a las que se accede mediante Exchange Web Services, las pueden cargar los usuarios que ejecutan Outlook 2013 Web App; los usuarios solo pueden actualizar su propia foto. Sin embargo, los administradores pueden actualizar la foto de cualquier usuario mediante el Shell de administración de Exchange y una serie de comandos Windows PowerShell similares a los siguientes:
+Las fotos de alta resolución, a las que se accede mediante los servicios web de Exchange, pueden cargarlas los usuarios que ejecutan Outlook 2013 Web App; los usuarios solo pueden actualizar su propia foto. Sin embargo, los administradores pueden actualizar la foto de cualquier usuario mediante el Shell de administración de Exchange y una serie de comandos Windows PowerShell similares a los siguientes:
   
 ```powershell
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
@@ -44,7 +39,7 @@ Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Preview -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
-El primer comando del ejemplo anterior usa el cmdlet para leer el contenido del archivo C:\Photos\Kenmyer.jpg almacenar los datos en una `Get-Content` variable denominada $photo. En el segundo comando, el cmdlet Exchange se usa para cargar la foto y adjuntarla a la cuenta de usuario `Set-UserPhoto` de Ken Myer.
+El primer comando del ejemplo `Get-Content` anterior usa el cmdlet para leer el contenido del archivo C:\Photos\Kenmyer.jpg almacenar los datos en una variable denominada $photo. En el segundo comando, el cmdlet Exchange se `Set-UserPhoto` usa para cargar la foto y adjuntarla a la cuenta de usuario de Ken Myer.
   
 > [!NOTE]
 > En este ejemplo, el nombre para mostrar de Active Directory de Ken Myer se usa como identidad de la cuenta. También puede hacer referencia a una cuenta de usuario usando otros identificadores como la dirección SMTP del usuario o su nombre principal de usuario. Consulte la documentación del cmdlet Set-UserPhoto en [https://go.microsoft.com/fwlink/p/?LinkId=268536](/powershell/module/exchange/set-userphoto) para obtener más información
@@ -55,7 +50,7 @@ Cargar la fotografía no equivale a asignarla a la cuenta de usuario de Ken Myer
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
-Para comprobar que la nueva foto se ha asignado a la cuenta de usuario, Ken Myer puede iniciar sesión en Skype Empresarial, seleccionar Opciones **y,** a continuación, **seleccionar Mi imagen**. La foto recién cargada debe mostrarse como la foto personal de Ken. Otra opción para comprobar la foto de cualquier usuario es que los administradores inicien Internet Explorer y naveguen a una dirección URL similar a esta:
+Para comprobar que la nueva foto se ha asignado a la cuenta de usuario, Ken Myer puede iniciar sesión en Skype Empresarial, seleccionar Opciones **y, a** continuación, **seleccionar Mi imagen**. La foto recién cargada debe mostrarse como la foto personal de Ken. Otra opción para comprobar la foto de cualquier usuario es que los administradores inicien Internet Explorer y naveguen a una dirección URL similar a esta:
   
 ```console
 https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648

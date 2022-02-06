@@ -1,36 +1,31 @@
 ---
 title: Flujo de trabajo de grupos de respuesta
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.RgsWorkFlowMain
+  - ms.lync.lscp.RgsWorkFlowMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
-ROBOTS: NOINDEX, NOFOLLOW
-description: Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Los flujos de trabajo del grupo de respuesta definen las acciones que se toman cuando la aplicación grupo de respuesta recibe una llamada telefónica.
-ms.openlocfilehash: 2a43d8c9c51ec91f31f2ecb726da8f8b11c3aa71
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839452"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Los flujos de trabajo del grupo de respuesta definen las acciones que se toman cuando la aplicación grupo de respuesta recibe una llamada telefónica.'
 ---
+
 # <a name="response-groups-workflow"></a>Flujo de trabajo de grupos de respuesta
 
 Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Los flujos de trabajo del grupo de respuesta definen las acciones que se toman cuando la aplicación grupo de respuesta recibe una llamada telefónica.
 
-La **página Flujo de trabajo** grupos de respuesta muestra una lista de todos los flujos de trabajo del grupo de respuesta  -   definidos para la organización.
+La **página Grupos de** -  **respuestaWorkflow** muestra una lista de todos los flujos de trabajo del grupo de respuesta definidos para su organización.
 
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
-Puede realizar las siguientes tareas desde la página Flujo de **trabajo de grupos**  -  **de** respuesta:
+Puede realizar las siguientes tareas desde la página **Grupos** de **respuestaWorkflow** - :
 
 - Crear o cambiar un flujo de trabajo de grupo de búsqueda
 

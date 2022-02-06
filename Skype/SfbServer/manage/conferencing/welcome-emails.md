@@ -1,24 +1,19 @@
 ---
 title: Enviar correo electrónico de bienvenida a los usuarios de acceso telefónico Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Summary: Learn how to welcome users to dial-in conferencing in Skype Empresarial Server.'
-ms.openlocfilehash: 672e386c223e2b5b9f872334634ac315c9e900e1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848543"
 ---
+
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Enviar correo electrónico de bienvenida a los usuarios de acceso telefónico Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo dar la bienvenida a los usuarios a las conferencias de acceso telefónico local en Skype Empresarial Server.
@@ -37,7 +32,7 @@ Puede crear un script que ejecute repetidamente el script **Set-CsPinSendCAWelco
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins.
     
-2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
@@ -54,7 +49,7 @@ Puede crear un script que ejecute repetidamente el script **Set-CsPinSendCAWelco
    [-Credential <SMTP server credentials used to send email with the specified From address>]
    ```
 
-**SmtpServer** De forma predeterminada, el script usa el valor de la variable de **entorno reservado $PSEmailServer** para este parámetro. Si la variable **$PSEmailServer** no está establecida, debe especificar este parámetro.
+**SmtpServer** De forma predeterminada, el script usa el valor de la variable de **entorno reservada $PSEmailServer** para este parámetro. Si la variable **$PSEmailServer** no está establecida, debe especificar este parámetro.
     
 **Credential** De forma predeterminada, el script usa las credenciales del usuario actual. Si el usuario actual no tiene permisos para enviar un mensaje de correo electrónico en nombre de la dirección que aparece en "Desde" (From) especificada, debe especificar este parámetro. Como regla general, especifique este parámetro si no especifica su dirección de correo electrónico como la dirección que aparece en "Desde" (From).
     

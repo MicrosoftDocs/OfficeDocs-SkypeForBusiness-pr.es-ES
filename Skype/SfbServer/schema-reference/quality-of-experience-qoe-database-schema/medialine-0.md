@@ -1,33 +1,28 @@
 ---
 title: Tabla MediaLine
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
-description: Cada registro representa una línea multimedia. (Una sesión de audio normalmente contiene una línea de medios de audio. Una sesión de audio y vídeo (A/V) normalmente contiene una línea de medios de audio y una línea de medios de vídeo, aunque la sesión puede contener dos líneas multimedia de vídeo si se usa un dispositivo de conferencia o si se usa la vista galería.
-ms.openlocfilehash: 4d832990b92bd0f398c613f2daeec91fc89f5f52
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857167"
+description: 'Cada registro representa una línea multimedia. (Una sesión de audio normalmente contiene una línea de medios de audio. Una sesión de audio y vídeo (A/V) normalmente contiene una línea de medios de audio y una línea de medios de vídeo, aunque la sesión puede contener dos líneas multimedia de vídeo si se usa un dispositivo de conferencia o si se usa la vista galería.'
 ---
+
 # <a name="medialine-table"></a>Tabla MediaLine
  
 Cada registro representa una línea multimedia. (Una sesión de audio normalmente contiene una línea de medios de audio. Una sesión de audio y vídeo (A/V) normalmente contiene una línea de medios de audio y una línea de medios de vídeo, aunque la sesión puede contener dos líneas multimedia de vídeo si se usa un dispositivo de conferencia o si se usa la vista galería.
   
 |**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Principal  <br/> |A la que se hace referencia desde [la tabla Session](session.md).  <br/> |
-|**SessionSeq** <br/> |Entero  <br/> |Principal  <br/> |A la que se hace referencia desde [la tabla Session](session.md).  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Principal  <br/> |Se hace referencia desde la [tabla Session](session.md).  <br/> |
+|**SessionSeq** <br/> |Entero  <br/> |Principal  <br/> |Se hace referencia desde la [tabla Session](session.md).  <br/> |
 |**MediaLineLabel** <br/> |tinyint  <br/> |Principal  <br/> |0 es audio principal, 1 es vídeo principal y 2 es vídeo panorámico, 3 es Uso compartido de aplicaciones y escritorio, 16 es Uso compartido de pantalla basado en vídeo (VbSS). Esta etiqueta debe ser única en una sola sesión.  <br/> |
 |**ConnectivityIce** <br/> |tinyint  <br/> | <br/> |Esta columna está presente pero no se usa en Microsoft Lync Server 2013. La información sobre la conectividad usada para una línea multimedia se captura en las columnas CallerConnectivityICE y CalleeConnectivityICE.  <br/> |
 |**CallerIceWarningFlags** <br/> |Entero  <br/> | <br/> |Información sobre el proceso de establecimiento de conectividad interactiva (ICE) descrito en las marcas de bits. Para obtener más información, consulte  *la Especificación del*  protocolo del servidor de supervisión de calidad de la experiencia , disponible para su descarga. <br/> |
@@ -41,27 +36,27 @@ Cada registro representa una línea multimedia. (Una sesión de audio normalment
 |**CallerMacAddress** <br/> |Entero  <br/> |Externo  <br/> |Dirección mac del autor de la llamada, a la que se hace referencia desde [la tabla MacAddress](macaddress.md).  <br/> |
 |**CallerRelayIPAddr** <br/> |Entero  <br/> |Externo  <br/> |Dirección IP del servicio perimetral A/V que usa el autor de la llamada. Consulte la [tabla IPAddress](ipaddress.md) para obtener más información. <br/> |
 |**CallerRelayPort** <br/> |Entero  <br/> | <br/> |Puerto usado en el servicio perimetral A/V por el autor de la llamada.  <br/> |
-|**CallerCaptureDev** <br/> |Entero  <br/> |Externo  <br/> |Capture el dispositivo usado por el autor de la llamada. Al que se hace referencia desde la [tabla Dispositivo](device.md).  <br/> |
-|**CallerRenderDev** <br/> |Entero  <br/> |Externo  <br/> |Representar el dispositivo usado por el autor de la llamada. Al que se hace referencia desde la [tabla Dispositivo](device.md).  <br/> |
+|**CallerCaptureDev** <br/> |Entero  <br/> |Externo  <br/> |Capture el dispositivo usado por el autor de la llamada. Se hace referencia desde la [tabla Dispositivo](device.md).  <br/> |
+|**CallerRenderDev** <br/> |Entero  <br/> |Externo  <br/> |Representar el dispositivo usado por el autor de la llamada. Se hace referencia desde la [tabla Dispositivo](device.md).  <br/> |
 |**CallerCaptureDevDriver** <br/> |Entero  <br/> |Externo  <br/> |Controlador del dispositivo de captura del autor de la llamada, al que se hace referencia desde la [tabla DeviceDriver](devicedriver.md).  <br/> |
 |**CallerRenderDevDriver** <br/> |Entero  <br/> |Externo  <br/> |Controlador del dispositivo de representación del autor de la llamada, al que se hace referencia desde la [tabla DeviceDriver](devicedriver.md).  <br/> |
 |**CallerNetworkConnectionType** <br/> |tinyint  <br/> |Externo  <br/> |Indica cómo se conectó el autor de la llamada a la red. Los valores se obtienen de la [tabla NetworkConnectionDetail](networkconnectiondetail.md). Los valores típicos son 0 para una conexión cableada' 1 para una conexión WiFi; y 3 para una conexión Ethernet.  <br/> |
-|**CallerBssid** <br/> |Entero  <br/> |Externo  <br/> |BSSID del autor de la llamada si se usa tecnología inalámbrica. A la que se hace referencia [desde la tabla MacAddress](macaddress.md).  <br/> |
+|**CallerBssid** <br/> |Entero  <br/> |Externo  <br/> |BSSID del autor de la llamada si se usa tecnología inalámbrica. Referencia desde la [tabla MacAddress](macaddress.md).  <br/> |
 |**CallerVPN** <br/> |bit  <br/> ||Vínculo del autor de la llamada. El valor 1 indica una red privada virtual (VPN) y 0, otra red diferente.  <br/> |
 |**CallerLinkSpeed** <br/> |decimal(18,0)  <br/> ||Velocidad de vínculo de red, en bps, para el punto de conexión del autor de la llamada.  <br/> |
 |**CalleeIPAddr** <br/> |Entero  <br/> |Externo  <br/> |Dirección IP del receptor de llamadas. Consulte la [tabla IPAddress](ipaddress.md) para obtener más información. <br/> |
 |**CalleePort** <br/> |bit  <br/> ||Puerto usado por el receptor de llamadas.  <br/> |
 |**CalleeSubnet** <br/> |Entero  <br/> |Externo  <br/> |Subred del destinatario. Consulte la [tabla IPAddress](ipaddress.md) para obtener más información. <br/> |
 |**CalleeInside** <br/> |bit  <br/> | <br/> |1 significa que el receptor de llamadas está dentro de la red de empresa, 0 significa que el receptor de llamadas está fuera de la red.  <br/> |
-|**CalleeMacAddress** <br/> |Entero  <br/> |Externo  <br/> |Dirección Mac de destinatario de la llamada. A la que se hace referencia desde [la tabla MacAddress](macaddress.md).  <br/> |
+|**CalleeMacAddress** <br/> |Entero  <br/> |Externo  <br/> |Dirección Mac de destinatario de la llamada. Se hace referencia desde la [tabla MacAddress](macaddress.md).  <br/> |
 |**CalleeRelayIPAddr** <br/> |Entero  <br/> |Externo  <br/> |Dirección IP del servicio perimetral A/V usado por el receptor de llamadas. Consulte la [tabla IPAddress](ipaddress.md) para obtener más información. <br/> |
 |**CalleeRelayPort** <br/> |Entero  <br/> | <br/> |Puerto usado en el servicio perimetral A/V por el receptor de llamadas.  <br/> |
-|**CalleeCaptureDev** <br/> |Entero  <br/> |foreign  <br/> |Capture el dispositivo usado por el receptor de llamadas. Al que se hace referencia desde la [tabla Dispositivo](device.md).  <br/> |
-|**CalleeRenderDev** <br/> |Entero  <br/> |Externo  <br/> |Representar el dispositivo usado por el receptor de llamadas. Al que se hace referencia desde la [tabla Dispositivo](device.md).  <br/> |
+|**CalleeCaptureDev** <br/> |Entero  <br/> |foreign  <br/> |Capture el dispositivo usado por el receptor de llamadas. Se hace referencia desde la [tabla Dispositivo](device.md).  <br/> |
+|**CalleeRenderDev** <br/> |Entero  <br/> |Externo  <br/> |Representar el dispositivo usado por el receptor de llamadas. Se hace referencia desde la [tabla Dispositivo](device.md).  <br/> |
 |**CalleeCaptureDevDriver** <br/> |Entero  <br/> |Externo  <br/> |Controlador del dispositivo de captura del receptor de llamadas. Se hace referencia desde [la tabla DeviceDriver](devicedriver.md).  <br/> |
 |**CalleeRenderDevDriver** <br/> |varchar(256)  <br/> |Externo  <br/> |Controlador del dispositivo de representación del receptor de llamadas. Se hace referencia desde [la tabla DeviceDriver](devicedriver.md).  <br/> |
 |**CalleeNetworkConnectionType** <br/> |tinyint  <br/> |Externo  <br/> |Indica cómo se conectó el destinatario de la llamada a la red. Los valores se obtienen de la [tabla NetworkConnectionDetail](networkconnectiondetail.md). Los valores típicos son 0 para una conexión cableada' 1 para una conexión WiFi; y 3 para una conexión Ethernet.  <br/> |
-|**CalleeBssid** <br/> |Entero  <br/> |Externo  <br/> |BSSID del destinatario de la llamada si se usa tecnología inalámbrica. A la que se hace referencia [desde la tabla MacAddress](macaddress.md).  <br/> |
+|**CalleeBssid** <br/> |Entero  <br/> |Externo  <br/> |BSSID del destinatario de la llamada si se usa tecnología inalámbrica. Referencia desde la [tabla MacAddress](macaddress.md).  <br/> |
 |**CalleeVPN** <br/> |bit  <br/> | <br/> |Vínculo del receptor de llamadas; 1 es una red privada virtual (VPN), 0 no es VPN.  <br/> |
 |**CalleeLinkSpeed** <br/> |decimal(18,0)  <br/> | <br/> |Velocidad de vínculo de red, en bps, para el extremo del receptor de llamadas.  <br/> |
 |**ConversationalMOS** <br/> |decimal(3,2)  <br/> | <br/> |MOS de conversación de banda estrecha de las sesiones de audio (basado en ambas secuencias de audio).  <br/> |

@@ -1,24 +1,19 @@
 ---
 title: Informe de resumen de conferencia en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 description: 'Summary: Learn about the Conference Summary Report in Skype Empresarial Server.'
-ms.openlocfilehash: 029dac40c7bc52602f0403bdfd52559db662b0ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846413"
 ---
+
 # <a name="conference-summary-report-in-skype-for-business-server"></a>Informe de resumen de conferencia en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre el Informe de resumen de conferencia en Skype Empresarial Server.
@@ -89,7 +84,7 @@ La siguiente tabla incluye la información que ofrece el informe de resumen de c
 
 |**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Cada hora** <br/> **Diario** <br/> **Semanalmente** <br/> **Mensualmente** <br/> |No  <br/> |Indica el intervalo temporal que ha seleccionado en la barra de herramientas para filtros. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si usa el intervalo Diario y hace clic en 7/7/2015, verá un desglose por hora de la actividad de registro de usuarios para esa fecha.  <br/> |
+|**Cada hora** <br/> **A diario** <br/> **Semanalmente** <br/> **Mensualmente** <br/> |No  <br/> |Indica el intervalo temporal que ha seleccionado en la barra de herramientas para filtros. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si usa el intervalo Diario y hace clic en 7/7/2015, verá un desglose por hora de la actividad de registro de usuarios para esa fecha.  <br/> |
 |**Total de conferencias** <br/> |No  <br/> |Número total de conferencias (independientemente del tipo de conferencia) celebradas. Al hacer clic en este elemento, el informe le muestra el informe de actividad de conferencia del periodo de tiempo seleccionado.  <br/> |
 |**Total de participantes** <br/> |No  <br/> |Número total de personas que participaron en las conferencias. Al hacer clic en este elemento, el informe le muestra el informe de actividad de conferencia del periodo de tiempo seleccionado.  <br/> |
 |**Media de participantes por conferencia** <br/> |No  <br/> |Número medio de participantes que participaron en una conferencia en concreto. Se calcula dividiendo el número total de conferencias por el número total de participantes.  <br/> |

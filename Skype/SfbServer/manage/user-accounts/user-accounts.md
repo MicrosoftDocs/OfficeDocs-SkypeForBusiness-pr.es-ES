@@ -1,24 +1,19 @@
 ---
 title: Administrar cuentas de usuario para Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
-description: En las secciones de este artículo se describe cómo habilitar, deshabilitar temporalmente o quitar usuarios de Active Directory de Skype Empresarial Server.
-ms.openlocfilehash: 39016a83c11553cd39448efa34d61ffbba5045e9
-ms.sourcegitcommit: 2aae13454178dc2e2cbc8cca967cd181c5f9d044
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "61314218"
+description: 'En las secciones de este artículo se describe cómo habilitar, deshabilitar temporalmente o quitar usuarios de Active Directory de Skype Empresarial Server.'
 ---
+
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Administrar cuentas de usuario para Skype Empresarial Server
 
 En las secciones de este artículo se describe cómo habilitar, deshabilitar temporalmente o quitar usuarios de Active Directory de Skype Empresarial Server.
@@ -56,7 +51,7 @@ Puede buscar usuarios mediante el panel de control Skype Empresarial Server o el
 
 3. En el panel izquierdo, seleccione **Usuarios**.
 
-4. En la **página Usuarios,** en **el** cuadro Buscar, escriba todo o la primera parte del nombre para mostrar que desea buscar y presione **Entrar**.
+4. En la **página Usuarios** , **en el cuadro** Buscar, escriba todo o la primera parte del nombre para mostrar que desea buscar y presione **Entrar**.
 
 5. (Opcional) Especificar criterios de búsqueda adicionales para restringir los resultados:
 
@@ -89,7 +84,7 @@ Puede buscar usuarios mediante el panel de control Skype Empresarial Server o el
 
     2. Escriba la propiedad de usuario escribiendo o haciendo clic en la flecha de la lista desplegable para seleccionar una propiedad de usuario.
 
-    3. En la **lista Igual a,** **seleccione Igual a** o No igual **a**.
+    3. En la **lista Igual a** , seleccione **Igual a** o **No igual a**.
 
     4. En el cuadro de texto, escriba los criterios de búsqueda que desea usar para filtrar los resultados y después haga clic en **Buscar**.
 
@@ -107,11 +102,11 @@ También puede usar un cmdlet, específicamente [Enable-CsUser](/powershell/modu
  
 2. Inicie sesión con una cuenta de usuario asignada al rol CsUserAdministrator o al rol CsAdministrator.
 
-3. Vaya a **Usuarios**  >  **Habilitar usuarios** y haga clic en **Agregar**.
+3. Vaya a **UsuariosEnable** >  Usuarios y haga clic en **Agregar**.
 
-4. En el **cuadro Buscar,** escriba todo o la primera parte del nombre para mostrar y haga clic en **Buscar**.
+4. En el **cuadro Buscar** , escriba todo o la primera parte del nombre para mostrar y haga clic en **Buscar**.
 
-5. (Opcional) Para especificar criterios de usuario adicionales, haga clic **en + Agregar** filtro , seleccione la propiedad de usuario necesaria, seleccione el operador y escriba el valor. Haga clic en **Buscar**.
+5. (Opcional) Para especificar criterios de usuario adicionales, haga clic **en + Agregar** filtro, seleccione la propiedad de usuario necesaria, seleccione el operador y escriba el valor. Haga clic en **Buscar**.
 
 6. En la tabla, seleccione la cuenta que desea agregar a Skype Empresarial Server y, a continuación, haga clic en **Aceptar**.
 
@@ -126,7 +121,7 @@ También puede usar un cmdlet, específicamente [Enable-CsUser](/powershell/modu
 
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.
 
-3. Vaya a **Usuarios**  >  **Habilitar usuarios** Nuevo usuario de Lync  >  **Server** y haga clic en **Agregar.**
+3. Navegue a **UsuariosEnable** >  **usuariosNuevo** >  **usuario de Lync Server** y haga clic en **Agregar.**
 
 6. En el cuadro **Buscar usuarios**, escriba el nombre completo o parcial, el nombre para mostrar, el apellido, el nombre de la cuenta del Administrador de cuentas de seguridad, la dirección de correo electrónico, el nombre principal del usuario (UPN) o el número de teléfono del usuario de Active Directory que está buscando y después haga clic en **Buscar**.
 
@@ -146,10 +141,10 @@ Puede usar el siguiente procedimiento para deshabilitar una cuenta de usuario ha
 
 3. En el panel izquierdo, seleccione **Usuarios**.
 
-4. En la **página Usuarios,** en el **cuadro Buscar,** escriba todo o la primera parte del nombre para mostrar y presione **Entrar**.
+4. En la **página Usuarios** , en el **cuadro Buscar** , escriba todo o la primera parte del nombre para mostrar y presione **Entrar**.
 
 5. En la tabla, haga doble clic en la cuenta de usuario que desea deshabilitar o volver a habilitar.
-    1. En el panel que aparece, para deshabilitar temporalmente la cuenta de usuario para Skype Empresarial Server, seleccione **Deshabilitar usuario**. En el panel que aparece, haga clic **en Guardar**.
+    1. En el panel que aparece, para deshabilitar temporalmente la cuenta de usuario Skype Empresarial Server, seleccione **Deshabilitar usuario**. En el panel que aparece, haga clic en **Guardar**.
     2. Para volver a habilitar la cuenta de usuario para Skype Empresarial Server, en el panel, seleccione **Volver a habilitar usuario**. En el siguiente panel que aparece, haga clic en **Guardar**.
 
 > [!NOTE]
@@ -173,7 +168,7 @@ Puede usar el siguiente procedimiento para deshabilitar una cuenta de usuario ha
   
 ### <a name="disable-or-re-enable-user-accounts-using-windows-powershell"></a>Deshabilitar o volver a habilitar cuentas de usuario mediante Windows PowerShell
 
-Las cuentas de usuario se pueden deshabilitar temporalmente y, posteriormente, volver a habilitarse mediante el cmdlet **Set-CsUser.** Puede ejecutar este cmdlet desde el Shell de administración Skype Empresarial Server desde una sesión remota de Windows PowerShell. Para obtener más información acerca del uso de Windows PowerShell para conectarse a Skype Empresarial Server, vea [Administración remota de PowerShell de Microsoft Lync](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). El proceso es el mismo en Skype Empresarial Server.
+Las cuentas de usuario se pueden deshabilitar temporalmente y, posteriormente, volver a habilitarse mediante el cmdlet **Set-CsUser** . Puede ejecutar este cmdlet desde el Shell de administración Skype Empresarial Server desde una sesión remota de Windows PowerShell. Para obtener más información acerca del uso de Windows PowerShell para conectarse a Skype Empresarial Server, vea [Administración remota de PowerShell de Microsoft Lync](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). El proceso es el mismo en Skype Empresarial Server.
 
 ### <a name="to-disable-a-user-account-using-windows-powershell"></a>Para deshabilitar una cuenta de usuario mediante Windows PowerShell
 
@@ -191,7 +186,7 @@ Las cuentas de usuario se pueden deshabilitar temporalmente y, posteriormente, v
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
-Para obtener más información, vea el tema de ayuda del cmdlet [Set-CsUser.](/powershell/module/skype/set-csuser)
+Para obtener más información, vea el tema de ayuda del cmdlet [Set-CsUser](/powershell/module/skype/set-csuser) .
 
 ## <a name="disable-a-user-for-enterprise-voice"></a>Deshabilitar un usuario para Telefonía IP empresarial
 
@@ -205,18 +200,18 @@ Use el siguiente procedimiento para deshabilitar Telefonía IP empresarial una c
 
 3. En el panel izquierdo, haga clic en **Usuarios**.
 
-4. En el **cuadro Buscar,** escriba todo o la primera parte del nombre para mostrar y haga clic en **Buscar**.
+4. En el **cuadro Buscar** , escriba todo o la primera parte del nombre para mostrar y haga clic en **Buscar**.
 
 5. En la tabla, haga doble clic en la cuenta de usuario que desea deshabilitar para Telefonía IP empresarial.
 
 6. En el panel que aparece, haga clic en el icono de lápiz situado junto a **Directivas asignadas**.
 
-7. En el panel **Directivas asignadas,** en **Telefonía,** haga clic en cualquier opción excepto **Telefonía IP empresarial** en la lista desplegable.
+7. En el panel **Directivas asignadas**, en **Telefonía**, haga clic en cualquier opción excepto **Telefonía IP empresarial** en la lista desplegable.
 
 8. Haga clic en **Guardar**.
 
     > [!NOTE]
-    > Para restringir que un usuario haga llamadas de audio o vídeo, en **Telefonía,** haga clic en **Audio/Vídeo deshabilitado.**
+    > Para restringir que un usuario haga llamadas de audio o vídeo, en **Telefonía**, haga clic en **Audio y vídeo deshabilitado**.
 
 El usuario ahora no puede usar la característica Telefonía IP empresarial usuario. 
 
@@ -240,7 +235,7 @@ El usuario ahora no puede usar la característica Telefonía IP empresarial usua
 7. En la página **Editar usuario de Lync Server**, en **Telefonía**, haga clic en cualquier opción excepto **Telefonía IP empresarial**.
 
     > [!NOTE]
-    > Para restringir que un usuario haga llamadas de audio o vídeo mediante Lync, en **Telefonía,** haga clic en **Audio/vídeo deshabilitado.**
+    > Para restringir que un usuario haga llamadas de audio o vídeo mediante Lync, en **Telefonía**, haga clic en **Audio y vídeo deshabilitado**.
 
 8. Haga clic en **Confirmar**.
 
@@ -253,7 +248,7 @@ Información relacionada: <br/>[Telefonía IP empresarial y movilidad](/previous
 Puede usar el siguiente procedimiento para quitar una cuenta de usuario agregada anteriormente en Skype Empresarial Server.
 
 > [!NOTE]
-> Eliminar un usuario provocará que pierda los parámetros que haya configurado para la cuenta de usuario. Si desea deshabilitar temporalmente una cuenta de usuario en su [lugar,](#disable-or-re-enable-a-user-account-for-skype-for-business-server)vea Deshabilitar o volver a habilitar una cuenta de usuario habilitada anteriormente para Skype Empresarial Server .
+> Eliminar un usuario provocará que pierda los parámetros que haya configurado para la cuenta de usuario. Si desea deshabilitar temporalmente una cuenta de usuario en su lugar, vea [Deshabilitar o volver a](#disable-or-re-enable-a-user-account-for-skype-for-business-server) habilitar una cuenta de usuario habilitada anteriormente para Skype Empresarial Server.
 
 ### <a name="remove-a-user-using-the-new-control-panel"></a>Quitar un usuario mediante el nuevo Panel de control
 
@@ -263,7 +258,7 @@ Puede usar el siguiente procedimiento para quitar una cuenta de usuario agregada
 
 3. En el panel izquierdo, seleccione **Usuarios**.
 
-4. En el **cuadro Buscar,** escriba todo o la primera parte del nombre para mostrar y haga clic en **Buscar**.
+4. En el **cuadro Buscar** , escriba todo o la primera parte del nombre para mostrar y haga clic en **Buscar**.
 
 5. En la tabla, haga doble clic en la cuenta de usuario que desea quitar.
 
@@ -280,7 +275,7 @@ Puede usar el siguiente procedimiento para quitar una cuenta de usuario agregada
 
 3. En el panel izquierdo, seleccione **Usuarios**.
 
-4. En  el cuadro Buscar usuarios, escriba todo o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desea quitar y, a continuación, haga clic en **Buscar**.
+4. En el  cuadro Buscar usuarios, escriba todo o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desea quitar y, a continuación, haga clic en **Buscar**.
 
 5. En la tabla, haga clic en la cuenta de usuario que desee quitar.
 
@@ -300,9 +295,9 @@ Para quitar una cuenta de usuario, utilice el cmdlet Disable-CsUser. Por ejemplo
 
 Una vez que se haya ejecutado este comando, no hay manera de volver a habilitar la cuenta y las configuraciones previas. En su lugar, necesitará utilizar el cmdlet Enable-CsUser para crear una cuenta nueva para Ken Myer.
 
-Para obtener más información, vea el tema de ayuda del cmdlet [Disable-CsUser.](/powershell/module/skype/disable-csuser)
+Para obtener más información, vea el tema de ayuda del cmdlet [Disable-CsUser](/powershell/module/skype/disable-csuser) .
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Enable-CsUser](/powershell/module/skype/enable-csuser)
 

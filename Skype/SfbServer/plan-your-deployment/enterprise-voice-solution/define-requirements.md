@@ -1,28 +1,23 @@
 ---
 title: Definir los requisitos para llamadas de emergencia en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
-description: Resume los pasos necesarios para habilitar E9-1-1 en Skype Empresarial Server Telefonía IP empresarial, en función de si tiene un proveedor de servicios E9-1-1 de tronco SIP o una puerta de enlace ELIN.
-ms.openlocfilehash: 5bb4d4ba27d48118ed28c4a687105dbf5c685013
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857287"
+description: 'Resume los pasos necesarios para habilitar E9-1-1 en Skype Empresarial Server Telefonía IP empresarial, en función de si tiene un proveedor de servicios E9-1-1 de tronco SIP o una puerta de enlace ELIN.'
 ---
+
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>Definir los requisitos para llamadas de emergencia en Skype Empresarial Server
  
 Resume los pasos necesarios para habilitar E9-1-1 en Skype Empresarial Server Telefonía IP empresarial, en función de si tiene un proveedor de servicios E9-1-1 de tronco SIP o una puerta de enlace ELIN.

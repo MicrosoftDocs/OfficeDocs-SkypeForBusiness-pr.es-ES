@@ -1,28 +1,23 @@
 ---
 title: Herramienta de planeación de federación de Lync Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.Federation
-- ms.lync.plan.Federation
+  - ms.lync.plan.Federation
+  - ms.lync.plan.Federation
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: Los servidores perimetrales se pueden configurar para permitir que los usuarios internos y externos accedan a los contactos en organizaciones o servicios asociados.
-ms.openlocfilehash: 1f04264ffe3991d499490560b938116c8f7db4b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829134"
 ---
+
 # <a name="lync-server-federation-planning-tool"></a>Herramienta de planeación de federación de Lync Server
  
 Los servidores perimetrales se pueden configurar para permitir que los usuarios internos y externos accedan a los contactos en organizaciones o servicios asociados.

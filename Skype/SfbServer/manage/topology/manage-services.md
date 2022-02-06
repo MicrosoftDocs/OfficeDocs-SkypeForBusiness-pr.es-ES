@@ -1,23 +1,18 @@
 ---
 title: Administrar servicios en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Obtenga información sobre cómo ver el estado del servicio, iniciar y detener servicios e impedir sesiones para los servicios.
-ms.openlocfilehash: cc5218f5347eb2124f42b8881bce730c74889bda
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864737"
+description: 'Obtenga información sobre cómo ver el estado del servicio, iniciar y detener servicios e impedir sesiones para los servicios.'
 ---
+
 # <a name="manage-services-in-skype-for-business-server"></a>Administrar servicios en Skype Empresarial Server
 
 Puede usar el Panel de control de Skype Empresarial Server para ver una lista de todos los equipos que ejecutan Skype Empresarial Server en la topología, ver el estado de los servicios, iniciar o detener servicios y evitar sesiones para los servicios.
@@ -31,8 +26,8 @@ Puede usar el Panel de control de Skype Empresarial Server para ver una lista de
 
 Use el Panel Skype Empresarial Server control para ver una lista de todos los equipos que se ejecutan Skype Empresarial en la topología y ver el estado del servicio de cada uno. Puede ordenar la lista por PC, grupo de servidores o sitio. 
 
-1. Desde una cuenta de usuario asignada a cualquiera de los roles administrativos predefinidos para Skype Empresarial Server, inicie sesión en cualquier equipo de la implementación interna. Para obtener más información, vea Control de acceso basado en roles [(RBAC) para Skype Empresarial Server](../../plan-your-deployment/security/role-based-access-control-rbac.md).
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control Skype Empresarial Server, vea [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
+1. Desde una cuenta de usuario asignada a cualquiera de los roles administrativos predefinidos para Skype Empresarial Server, inicie sesión en cualquier equipo de la implementación interna. Para obtener más información, vea Control de acceso basado en roles [(RBAC) para obtener Skype Empresarial Server](../../plan-your-deployment/security/role-based-access-control-rbac.md).
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control de Skype Empresarial Server, vea [Instalar y abrir herramientas administrativas](../../management-tools/install-and-open-administrative-tools.md).
 3. En la barra de navegación izquierda, haga clic en **Topología** y, a continuación, en **Estado**.
 4. En la página Estado, realice una de las siguientes acciones según sea necesario:
     - Ordene la lista haciendo clic en el encabezado de columna **Equipo**, **Grupo de servidores** o **Sitio** y después haga clic en la flecha arriba o en la flecha abajo.
@@ -44,12 +39,12 @@ Use el Panel Skype Empresarial Server control para ver una lista de todos los eq
 Use el panel Skype Empresarial Server control para ver todos los servicios que se ejecutan en un equipo específico de la topología Skype Empresarial Server y ver el estado de cada servicio.
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control Skype Empresarial Server, vea [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control de Skype Empresarial Server, vea [Instalar y abrir herramientas administrativas](../../management-tools/install-and-open-administrative-tools.md).
 3. En la barra de navegación izquierda, haga clic en **Topología**.
 4. En la página Estado, ordena o busca en la lista, según sea necesario, para buscar el equipo que te interesa y, a continuación, haz clic en el nombre del equipo.
 5. Realice cualquiera de las siguientes acciones:
     - Para ver el estado más reciente de los servicios que se ejecutan en el equipo, haga clic en **Obtener estado del servicio**.
-    - Para ver una lista de servicios específicos que se ejecutan en el  equipo y el estado de cada servicio, haga clic en Propiedades **y,** a continuación, haga clic en Cerrar para volver a la lista.
+    - Para ver una lista de servicios específicos que se ejecutan en el equipo y el estado de cada servicio, haga clic en  Propiedades **y, a** continuación, haga clic en Cerrar para volver a la lista.
 
 ### <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a>Visualización del estado del servicio mediante Windows PowerShell cmdlets
 
@@ -91,7 +86,7 @@ Use el Panel Skype Empresarial Server control para iniciar o detener todos los s
     Get-CsAdminRoleAssignment -Identity "kenmyer"`
     ```
 
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control Skype Empresarial Server, vea [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control de Skype Empresarial Server, vea [Instalar y abrir herramientas administrativas](../../management-tools/install-and-open-administrative-tools.md).
 3. En la barra de navegación izquierda, haga clic en **Topología** y, a continuación, en **Estado**.
 4. En la página Estado, ordene la lista o realice una búsqueda para encontrar el equipo que ejecuta los servicios que desea iniciar o detener, y haga clic en él.
 5. Haga clic en **Acción**.
@@ -100,7 +95,7 @@ Use el Panel Skype Empresarial Server control para iniciar o detener todos los s
 ### <a name="start-or-stop-a-specific-service"></a>Iniciar o detener un servicio específico
 
 1. Desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control Skype Empresarial Server, vea [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control de Skype Empresarial Server, vea [Instalar y abrir herramientas administrativas](../../management-tools/install-and-open-administrative-tools.md).
 3. En la barra de navegación izquierda, haga clic en **Topología** y, a continuación, en **Estado**.
 4. En la página Estado, ordene la lista o realice una búsqueda para encontrar el equipo que ejecuta el servicio que desea iniciar o detener, y haga clic en él.
 5. Haga clic en **Propiedades**.
@@ -117,7 +112,7 @@ Use el Panel de control Skype Empresarial para impedir sesiones nuevas para todo
 ### <a name="prevent-new-sessions-for-all--skype-for-business-server-services-on-a-computer"></a>Impedir sesiones nuevas para todos los Skype Empresarial Server en un equipo
 
 1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes) o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en la que implementó Skype Empresarial Server.
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control Skype Empresarial Server, vea [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control de Skype Empresarial Server, vea [Instalar y abrir herramientas administrativas](../../management-tools/install-and-open-administrative-tools.md).
 3. En la barra de navegación izquierda, haga clic en **Topología** y después en **Estado**.
 4. En la página Estado , clasifique o busque en la lista, según sea necesario, para localizar el equipo que está ejecutando los servicios para los que desea impedir que se creen sesiones nuevas y, a continuación, haga clic en él.
 5. Haga clic en **Acción**.
@@ -126,7 +121,7 @@ Use el Panel de control Skype Empresarial para impedir sesiones nuevas para todo
 ### <a name="prevent-new-sessions-for-a-specific-service"></a>Impedir nuevas sesiones para un servicio específico
 
 1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes) o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en la que implementó Skype Empresarial Server.
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control Skype Empresarial Server, vea [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de control. Para obtener información detallada sobre los diferentes métodos que puede usar para iniciar el Panel de control de Skype Empresarial Server, vea [Instalar y abrir herramientas administrativas](../../management-tools/install-and-open-administrative-tools.md).
 3. En la barra de navegación izquierda, haga clic en **Topología** y, a continuación, en **Estado**.
 4. Haga clic en **Propiedades**.
 5. Clasifique la lista de servicios, si fuera necesario y, a continuación, haga clic en el servicio para el que desea impedir que se creen sesiones nuevas.

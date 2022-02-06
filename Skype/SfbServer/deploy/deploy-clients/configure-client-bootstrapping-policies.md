@@ -1,29 +1,24 @@
 ---
 title: Configurar las directivas de arranque de cliente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: 'Resumen: Cómo administrar directivas de grupo.'
-ms.openlocfilehash: 073bd23219b3fa0a39ed06a94a5ef0586a740e6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831654"
 ---
+
 # <a name="configure-client-bootstrapping-policies"></a>Configurar las directivas de arranque de cliente
  
 **Resumen:** Cómo administrar directivas de grupo.
   
-La Consola de administración de directivas de grupo (GPMC) y el Editor de objetos de directiva de grupo son herramientas que se usan para administrar la directiva de grupo. La plantilla administrativa de directiva de grupo de Office se incluye en las plantillas administrativas lync16.admx (ADMX) y .adml (ADML), que contienen las opciones de directiva basadas en el Registro para Skype Empresarial que se configuran para los objetos de directiva de grupo en el dominio. Los archivos ADML son complementos específicos del idioma para los archivos ADMX. Cada archivo ADMX y ADML contiene la configuración de directiva de una sola Office aplicación. Puede descargar los archivos Office plantillas administrativas [de 2016 (ADMX/ADML)](https://www.microsoft.com/download/details.aspx?id=49030) de forma gratuita desde el Centro de descarga de Microsoft.
+La Consola de administración de directivas de grupo (GPMC) y el Editor de objetos de directiva de grupo son herramientas que se usan para administrar la directiva de grupo. La plantilla administrativa de directiva de grupo de Office se incluye en las plantillas administrativas lync16.admx (ADMX) y .adml (ADML), que contienen las opciones de directiva basadas en el Registro para Skype Empresarial que se configuran para los objetos de directiva de grupo en el dominio. Los archivos ADML son complementos específicos del idioma para los archivos ADMX. Cada archivo ADMX y ADML contiene la configuración de directiva de una sola Office aplicación. Puede descargar [los archivos Office plantillas administrativas de 2016 (ADMX/ADML)](https://www.microsoft.com/download/details.aspx?id=49030) de forma gratuita desde el Centro de descarga de Microsoft.
   
 Para Skype Empresarial cliente, hay varias directivas de arranque de cliente que debe considerar la configuración antes de que los usuarios inicien sesión en el servidor por primera vez. Por ejemplo, los servidores predeterminados y el modo de seguridad que el cliente debe usar hasta que se complete el inicio de sesión. Puede usar la directiva de grupo para establecer esta configuración en los registros del equipo de los usuarios antes de iniciar sesión y empezar a recibir la configuración de aprovisionamiento en banda desde el servidor. En la tabla siguiente se enumeran las opciones de configuración de directiva de grupo que están disponibles para Skype Empresarial.
   

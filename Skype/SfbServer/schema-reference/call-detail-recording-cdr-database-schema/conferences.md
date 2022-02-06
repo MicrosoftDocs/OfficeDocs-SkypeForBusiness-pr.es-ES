@@ -1,25 +1,20 @@
 ---
 title: Tabla conferencias en Skype Empresarial Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: Cada registro de esta tabla contiene detalles de llamadas sobre una conferencia.
-ms.openlocfilehash: cbcda30c47b4bbeac012f80d64f297a9a1259f2c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838452"
 ---
+
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>Tabla conferencias en Skype Empresarial Server 2015
  
 Cada registro de esta tabla contiene detalles de llamadas sobre una conferencia.
@@ -28,8 +23,8 @@ Cada registro de esta tabla contiene detalles de llamadas sobre una conferencia.
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Principal  <br/> |Hora en la que el agente de CDR capturó la solicitud de conferencia. Se usa solo como clave principal para identificar de forma única una instancia de conferencia.  <br/> |
 |**SessionIdSeq** <br/> |Entero  <br/> |Principal  <br/> |Número de identificador para identificar la sesión. Se usa junto con **SessionIdTime para** identificar de forma única una instancia de conferencia. * <br/> |
-|**ConferenceUriId** <br/> |Entero  <br/> |Externo  <br/> |URI de conferencia. Vea la [tabla ConferenceUris de Skype Empresarial Server 2015](conferenceuris.md) para obtener más información. <br/> |
-|**ConfInstance** <br/> |uniqueidentifier  <br/> | <br/> |Útil para conferencias periódicas; cada instancia de una conferencia periódica tiene el mismo **ConferenceUri**, pero tendrá un **ConfInstance diferente.** <br/> |
+|**ConferenceUriId** <br/> |Entero  <br/> |Externo  <br/> |URI de conferencia. Vea la [tabla ConferenceUris en Skype Empresarial Server 2015](conferenceuris.md) para obtener más información. <br/> |
+|**ConfInstance** <br/> |uniqueidentifier  <br/> | <br/> |Útil para conferencias periódicas; cada instancia de una conferencia periódica tiene el mismo **ConferenceUri**, pero tendrá una **ConfInstance diferente**. <br/> |
 |**ConferenceStartTime** <br/> |datetime  <br/> | <br/> |Hora de inicio de la conferencia.  <br/> |
 |**ConferenceEndTime** <br/> |datetime  <br/> | <br/> |Hora de inicio de la conferencia.  <br/> |
 |**PoolId** <br/> |Entero  <br/> |Externo  <br/> |Número de identificador para identificar el grupo en el que se capturó la conferencia. Vea la [tabla Grupos de servidores](pools.md) para obtener más información. <br/> |

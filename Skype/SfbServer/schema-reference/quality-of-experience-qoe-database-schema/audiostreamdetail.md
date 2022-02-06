@@ -1,25 +1,20 @@
 ---
 title: Vista AudioStreamDetail
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: La vista AudioStreamDetail almacena información sobre cada secuencia de audio de la base de datos. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 2b75d803c75b0d936bf54e5b543ee39e18ee1896
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847023"
 ---
+
 # <a name="audiostreamdetail-view"></a>Vista AudioStreamDetail
  
 La vista AudioStreamDetail almacena información sobre cada secuencia de audio de la base de datos. Esta vista se introdujo en Microsoft Lync Server 2013.
@@ -57,7 +52,7 @@ La vista AudioStreamDetail almacena información sobre cada secuencia de audio d
 |CalleeCPUProcessorSpeed  <br/> |Entero  <br/> |Velocidad del procesador de CPU del punto de conexión del destinatario de la llamada.  <br/> |
 |CallerVirtualizationFlag  <br/> |tinyint  <br/> |Indica si el sistema del autor de la llamada se está ejecutando en un entorno virtualizado. Consulte la [tabla Extremo para](endpoint.md) obtener más información. <br/> |
 |CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Indica si el sistema del destinatario de la llamada se está ejecutando en un entorno virtualizado. Consulte la [tabla Extremo para](endpoint.md) obtener más información. <br/> |
-|CorrelationKey  <br/> ||Clave de correlación. Se hace referencia a la [tabla SessionCorrelation](sessioncorrelation.md).  <br/> |
+|CorrelationKey  <br/> ||Clave de correlación. Se hace referencia desde la [tabla SessionCorrelation](sessioncorrelation.md).  <br/> |
 |ConnectivityIce  <br/> |tinyint  <br/> |Información sobre la ruta de acceso multimedia, como directa o retransmitida. Vea la [tabla MediaLine](medialine-0.md) para obtener más información. <br/> |
 |CallerIceWarningFlags  <br/> |Entero  <br/> |Información sobre el proceso de establecimiento interactivo de conectividad (ICE) descrito en bits de indicador para el autor de la llamada. Si desea obtener información detallada, consulte la Especificación del protocolo de servidor de supervisión de la calidad de la experiencia.  <br/> |
 |CalleeIceWarningFlags  <br/> |Entero  <br/> |Información sobre el proceso de establecimiento interactivo de conectividad (ICE) descrito en bits de indicador para el destinatario de la llamada. Si desea obtener información detallada, consulte la Especificación del protocolo de servidor de supervisión de la calidad de la experiencia.  <br/> |

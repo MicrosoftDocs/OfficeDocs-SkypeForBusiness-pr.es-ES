@@ -1,24 +1,19 @@
 ---
 title: Eliminar una configuración de archivado en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 'Resumen: obtenga información sobre cómo eliminar una configuración de archivado en Skype Empresarial Server.'
-ms.openlocfilehash: defd9377453234e400dbf75a7d0261c52904adda
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851033"
 ---
+
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Eliminar una configuración de archivado en Skype Empresarial Server
 
 **Resumen:** Obtenga información sobre cómo eliminar una configuración de archivado en Skype Empresarial Server.
@@ -44,7 +39,7 @@ Para eliminar una configuración de archivado mediante el Panel de control:
     
 ## <a name="delete-an-archiving-configuration-by-using-windows-powershell"></a>Eliminar una configuración de archivado mediante Windows PowerShell
 
-También puede eliminar una configuración de archivado mediante el cmdlet **Remove-CsArchivingConfiguration.**
+También puede eliminar una configuración de archivado mediante el cmdlet **Remove-CsArchivingConfiguration** .
   
 Por ejemplo, el siguiente comando quita las opciones de configuración de archivado aplicadas al sitio redmond. Cuando se elimina una directiva configurada en el ámbito del sitio, los usuarios administrados anteriormente por la directiva de sitio se regirán automáticamente por la directiva de archivado global:
   
@@ -70,4 +65,4 @@ También puede usar el cmdlet **Remove-CsArchivingConfiguration** para restablec
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-Para obtener más información, vea el tema de ayuda del cmdlet [Remove-CsArchivingConfiguration.](/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps)
+Para obtener más información, vea el tema de ayuda del cmdlet [Remove-CsArchivingConfiguration](/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) .

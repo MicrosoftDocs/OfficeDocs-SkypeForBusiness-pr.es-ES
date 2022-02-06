@@ -1,25 +1,20 @@
 ---
 title: Alta disponibilidad del servidor back-end en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
-description: Obtenga información sobre las opciones de alta disponibilidad del servidor back-end admitidas en Skype Empresarial Server, incluidos los grupos de disponibilidad AlwaysOn, las instancias del clúster de conmutación por error AlwaysOn, la creación de reflejo de la base de datos y SQL clústeres de conmutación por error.
-ms.openlocfilehash: 9e7b06fc1894c67d6d4cee1e2ec04bf910181df5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847183"
+description: 'Obtenga información sobre las opciones de alta disponibilidad del servidor back-end admitidas en Skype Empresarial Server, incluidos los grupos de disponibilidad AlwaysOn, las instancias del clúster de conmutación por error AlwaysOn, la creación de reflejo de la base de datos y SQL clústeres de conmutación por error.'
 ---
+
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Alta disponibilidad del servidor back-end en Skype Empresarial Server
  
 Obtenga información sobre las opciones de alta disponibilidad del servidor back-end admitidas en Skype Empresarial Server, incluidos los grupos de disponibilidad AlwaysOn, las instancias del clúster de conmutación por error AlwaysOn, la creación de reflejo de la base de datos y SQL clústeres de conmutación por error.
@@ -56,7 +51,7 @@ Skype Empresarial Server es compatible con la creación de reflejos con el sigui
     
 
 > [!NOTE]
-> SQL La creación de reflejos está disponible Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn y los métodos de clústeres de conmutación por error SQL son las únicas opciones admitidas con Skype Empresarial Server 2019.
+> SQL creación de reflejo está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn y los métodos de clústeres de conmutación por error SQL son las únicas opciones admitidas con Skype Empresarial Server 2019.
     
 La creación de reflejo asincrónica de bases de datos no es compatible con la alta disponibilidad del servidor back-end en Skype Empresarial Server. En el resto de este documento, la creación de reflejo de la base de datos significa creación de reflejo sincrónica de la base de datos, a menos que se indique explícitamente lo contrario. 
   
@@ -78,9 +73,9 @@ En general, la configuración de creación de reflejo de SQL entre los dos servi
     
 - El servidor principal y el reflejo deben tener la misma edición de SQL Server. El testigo puede tener una edición diferente.
     
-Para SQL procedimientos recomendados en términos de lo que se admiten SQL versiones para un rol testigo, vea "Testigo de creación de reflejo de base de [datos"](/sql/database-engine/database-mirroring/database-mirroring-witness) en MSDN Library.
+Para SQL procedimientos recomendados en términos de lo que se admiten las versiones SQL para un rol testigo, vea ["Testigo](/sql/database-engine/database-mirroring/database-mirroring-witness) de creación de reflejo de base de datos" en MSDN Library.
   
-Antes de configurar la creación de reflejo del servidor, primero debe configurar los SQL de base de datos correctamente. Para obtener más información, vea "Configurar cuentas de inicio de sesión para la creación de reflejo de la base de datos o grupos de disponibilidad [AlwaysOn (SQL Server)"](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability).
+Antes de configurar la creación de reflejo del servidor, primero debe configurar los SQL de base de datos correctamente. Para obtener más información, vea ["Configurar cuentas de inicio de sesión para la](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability) creación de reflejo de la base de datos o grupos de disponibilidad AlwaysOn (SQL Server)".
   
 Con el reflejo de SQL, el modo de recuperación de bases de datos siempre está configurado como **Completa**. Esto significa que deberá controlar atentamente el tamaño del registro de transacciones y crear copias de seguridad de los registros de transacciones periódicamente para evitar que los servidores back-end se queden sin espacio en disco. La frecuencia con que se deben crear copias de seguridad de los registros de transacciones depende de la tasa de crecimiento del registro, que, a su vez, depende de las transacciones de la base de datos producidas por las actividades del usuario en el grupo de servidores front-end. Le recomendamos que determine el crecimiento estimado del registro de transacciones que se necesitará para la carga de trabajo de su implementación de Lync, de modo que pueda realizar la planeación en consonancia. En los artículos siguientes encontrará información adicional sobre la administración del registro y la copia de seguridad de SQL:
   
@@ -88,7 +83,7 @@ Con el reflejo de SQL, el modo de recuperación de bases de datos siempre está 
 > El uso del Generador de topologías o cmdlets para configurar y quitar la creación de reflejo de SQL solo se admite cuando los servidores primarios, reflejados y testigos (si se desea) pertenecen al mismo dominio. Si desea configurar la creación del reflejo de SQL entre servidores de dominios diferentes, consulte la documentación sobre SQL Server. 
 
 > [!NOTE]
-> SQL La creación de reflejos está disponible Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL de clústeres de conmutación por error se prefieren Skype Empresarial Server 2019.
+> SQL creación de reflejo está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL de clústeres de conmutación por error se prefieren Skype Empresarial Server 2019.
   
 ### <a name="recovery-time-for-automatic-back-end-server-failover-with-database-mirroring"></a>Tiempo de recuperación para la conmutación por error automática del servidor back-end con creación de reflejo de la base de datos
 
@@ -132,14 +127,14 @@ Skype Empresarial Server admite AlwaysOn con el siguiente software de base de da
 > SQL Server 2019, 2017 y 2016 son las únicas versiones admitidas por Skype Empresarial Server 2019.
 
 > [!NOTE]
-> Los grupos de  disponibilidad AlwaysOn no se admiten en las ediciones estándar de SQL 2016, 2017 y 2019, pero puede usar instancias de clúster de conmutación por error alwayson. Consulta [Ediciones y características compatibles de SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) para obtener más información.
+> Los grupos de disponibilidad AlwaysOn no se admiten en las ediciones estándar de SQL 2016, 2017 y 2019, pero puede usar instancias de clúster de conmutación por error alwayson. Consulta [Ediciones y características compatibles de SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) para obtener más información.
   
 > [!IMPORTANT]
 > Los nombres de instancia de varias instancias del grupo de disponibilidad AlwaysOn deben ser los mismos. 
   
 Para ver los pasos para implementar grupos de disponibilidad AlwaysOn, vea [Deploy an AlwaysOn Availability Group on a Back End Server in Skype Empresarial Server](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md).
   
-## <a name="sql-server-failover-clustering"></a>SQL Server Clústeres de conmutación por error
+## <a name="sql-server-failover-clustering"></a>SQL Server clústeres de conmutación por error
 
 Skype Empresarial Server admite SQL Server clústeres de conmutación por error con el siguiente software de base de datos:
   
@@ -153,11 +148,11 @@ Skype Empresarial Server admite SQL Server clústeres de conmutación por error 
     
 - SQL Server 2012 SP2 y CU2, tanto Enterprise Edition como Standard Edition
 
-Para usar SQL clústeres de conmutación por error, primero debe configurar el clúster de SQL Server antes de implementar el grupo de servidores front-end. Para obtener instrucciones de configuración y procedimientos recomendados para clústeres de conmutación por error SQL Server 2012, vea [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation) .
+Para usar SQL clústeres de conmutación por error, primero debe configurar el clúster de SQL Server antes de implementar el grupo de servidores front-end. Para obtener instrucciones de configuración y procedimientos recomendados para clústeres de conmutación por error SQL Server 2012, vea [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation).
 
 > [!NOTE]
 > SQL Server 2019, 2017 y SQL Server 2016 son las únicas versiones admitidas por Skype Empresarial Server 2019.
     
-Para usar SQL clústeres de conmutación por error, primero debe configurar el clúster de SQL Server antes de implementar el grupo de servidores front-end. Para obtener instrucciones de configuración y procedimientos recomendados para clústeres de conmutación por error SQL Server 2014 y 2016, vea [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation) . Para clústeres de conmutación por error SQL Server 2008, vea [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105)) .
+Para usar SQL clústeres de conmutación por error, primero debe configurar el clúster de SQL Server antes de implementar el grupo de servidores front-end. Para obtener instrucciones de configuración y procedimientos recomendados para clústeres de conmutación por error SQL Server 2014 y 2016, vea [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation). Para clústeres de conmutación por error SQL Server 2008, vea [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105)).
   
 Cuando instale SQL Server, instale también SQL Server Management Studio para administrar las ubicaciones de la base de datos y las ubicaciones de archivo de registro. SQL Server Management Studio se instala como componente adicional al instalar SQL Server.

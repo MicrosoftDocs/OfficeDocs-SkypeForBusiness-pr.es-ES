@@ -1,43 +1,38 @@
 ---
 title: Definir propiedades y opciones para grupo de servidores de chat persistente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPersistentChatOptionsPage
+  - ms.lync.tb.AddPersistentChatOptionsPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 'Para configurar opciones para el servidor de chat persistente o el grupo de servidores de chat persistente, defina las siguientes propiedades:'
-ms.openlocfilehash: 72afab6d9c74f2347bd14a4d597cf82525c11b48
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851314"
 ---
+
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Definir propiedades y opciones para grupo de servidores de chat persistente
  
 Para configurar opciones para el servidor de chat persistente o el grupo de servidores de chat persistente, defina las siguientes propiedades:
   
- **Nombre para mostrar del** grupo de chat persistente: una propiedad necesaria que define un nombre fácil de usar que se mostrará para este servidor de chat persistente o grupo de servidores de chat persistente.
+ **Nombre para mostrar del grupo de chat** persistente: una propiedad necesaria que define un nombre fácil de usar que se mostrará para este servidor de chat persistente o grupo de servidores de chat persistente.
   
- **Puerto de chat persistente:** una propiedad necesaria que definirá el número de puerto en el que escuchará este servidor de chat persistente o grupo de servidores de chat persistente.
+ **Puerto de chat persistente**: una propiedad necesaria que definirá el número de puerto en el que escuchará este servidor de chat persistente o grupo de servidores de chat persistente.
   
- **Habilitar el cumplimiento:** active la casilla si tiene previsto implementar e implementar la característica y la base de datos de cumplimiento de chat persistente opcionales.
+ **Habilitar el cumplimiento**: active la casilla si tiene previsto implementar e implementar la característica y la base de datos opcionales de cumplimiento de chat persistente.
   
- **Usar** los almacenes de SQL Server de copia de seguridad para habilitar la recuperación ante desastres: active esta casilla si tiene previsto implementar e implementar la recuperación ante desastres de los almacenes de SQL Server de chat persistente de un conjunto de almacenes de copia de seguridad configurado en otro SQL Server. Para obtener más información, vea [Configure high availability and disaster recovery for Persistent Chat Server in Skype Empresarial Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+ **Usar los almacenes de SQL Server** de copia de seguridad para habilitar la recuperación ante desastres: active esta casilla si tiene previsto implementar e implementar la recuperación ante desastres de los almacenes de SQL Server de chat persistente de un conjunto de almacenes de copia de seguridad configurado en otro SQL Server. Para obtener más información, vea [Configure high availability and disaster recovery for Persistent Chat Server in Skype Empresarial Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
   
 > [!NOTE]
 > Esta opción solamente está disponible para grupos de servidores con varios servidores. 
   
- **Use este grupo de \<site that this server or pool is being configured in\> servidores** como predeterminado para el sitio: active esta casilla si será el servidor de chat persistente predeterminado o el grupo de servidores de chat persistente del sitio. Debe tener un servidor de chat persistente predeterminado o pol por sitio.
+ **Use este grupo de servidores como predeterminado para \<site that this server or pool is being configured in\>** el sitio: active esta casilla si será el servidor de chat persistente predeterminado o el grupo de servidores de chat persistente del sitio. Debe tener un servidor de chat persistente predeterminado o pol por sitio.
   
 > [!NOTE]
 > Si la topología incluye varios sitios también aparecerá una casilla de verificación para **Usar este grupo de servidores como predeterminado para todos los sitios**.
@@ -50,7 +45,7 @@ Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asiste
   
 Haga clic en **Ayuda** para acceder a la ayuda contextual, como esta página.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planear el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

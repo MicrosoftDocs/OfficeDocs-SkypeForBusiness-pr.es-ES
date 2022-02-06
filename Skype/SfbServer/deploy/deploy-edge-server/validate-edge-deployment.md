@@ -1,27 +1,22 @@
 ---
 title: Validar la implementación perimetral en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 manager: serdars
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Strat_SB_Hybrid
-ms.custom: ''
+  - Strat_SB_Hybrid
+ms.custom: null
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 'Resumen: obtenga información sobre cómo comprobar que la implementación del servidor perimetral o el grupo de servidores perimetrales funciona en Skype Empresarial Server.'
-ms.openlocfilehash: b8a538d457c2f785d2bdff96dd379524c2df1a28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841932"
 ---
+
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Validar la implementación perimetral en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo comprobar que la implementación del servidor perimetral o el grupo de servidores perimetrales funciona en Skype Empresarial Server.
@@ -36,7 +31,7 @@ El resultado inicial de ejecutar este comando puede dar un estado False, en luga
   
 ## <a name="verify-connectivity-for-your-external-users"></a>Comprobar la conectividad de los usuarios externos
 
-Tenemos una excelente herramienta para confirmar la configuración del servidor perimetral y la capacidad de conectar, enviar y recibir los mensajes correctos para escenarios de servidor perimetral. Es el sitio [anaylzer de conectividad remota.](https://testconnectivity.microsoft.com/) Este es un sitio administrado y mantenido por el soporte técnico de Microsoft. Para usar esta herramienta, vaya al sitio web y siga las instrucciones para elegir el escenario adecuado.
+Tenemos una excelente herramienta para confirmar la configuración del servidor perimetral y la capacidad de conectar, enviar y recibir los mensajes correctos para escenarios de servidor perimetral. Es el sitio [anailzer de conectividad remota](https://testconnectivity.microsoft.com/). Este es un sitio administrado y mantenido por el soporte técnico de Microsoft. Para usar esta herramienta, vaya al sitio web y siga las instrucciones para elegir el escenario adecuado.
   
 ### <a name="things-to-consider-when-testing-external-user-connectivity"></a>Aspectos a tener en cuenta al probar la conectividad de usuarios externos
 

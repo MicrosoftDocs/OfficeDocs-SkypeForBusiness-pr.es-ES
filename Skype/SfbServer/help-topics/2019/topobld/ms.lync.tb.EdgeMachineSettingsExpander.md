@@ -1,27 +1,22 @@
 ---
 title: Expansor de configuración de equipo perimetral
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeMachineSettingsExpander
+  - ms.lync.tb.EdgeMachineSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Para editar las propiedades de un servidor en un grupo de servidores perimetrales, efectúe las acciones siguientes:'
-ms.openlocfilehash: 60c4aaa65f989d7e460539b19a380551e7ac1b74
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857797"
 ---
+
 # <a name="edge-machine-settings-expander"></a>Expansor de configuración de equipo perimetral
  
 Para editar las propiedades de un servidor en un grupo de servidores perimetrales, efectúe las acciones siguientes:

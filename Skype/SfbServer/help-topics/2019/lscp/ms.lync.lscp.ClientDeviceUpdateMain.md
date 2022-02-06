@@ -1,27 +1,22 @@
 ---
 title: Actualización de dispositivos
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientDeviceUpdateMain
+  - ms.lync.lscp.ClientDeviceUpdateMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
-ROBOTS: NOINDEX, NOFOLLOW
-description: Microsoft publica periódicamente un nuevo conjunto de actualizaciones de firmware de dispositivo para Skype Empresarial Teléfono Edition, que puede importar a los servidores y distribuir a los usuarios. Para obtener el último conjunto de reglas de actualización de dispositivos, vaya a la página Ayuda y soporte técnico del sitio web de Microsoft y busquePhone Edition.Descargue el paquete de actualización más reciente y extraiga los archivos en una carpeta del equipo donde se van a cargar las actualizaciones. Una vez extraídos los archivos, use el cmdlet Import-CsDeviceUpdate para importar las reglas de actualización de dispositivos que se encuentran en el archivo .CAB extraído (que tendrán el nombre UCUpdates.cab). Para obtener más información, vea Import-CsDeviceUpdate.
-ms.openlocfilehash: 19815f81a3a6fe9a3c35b1528b5eefb066003481
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858607"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Microsoft publica periódicamente un nuevo conjunto de actualizaciones de firmware de dispositivo para Skype Empresarial Teléfono Edition, que puede importar a los servidores y distribuir a los usuarios. Para obtener el último conjunto de reglas de actualización de dispositivos, vaya a la página Ayuda y soporte técnico del sitio web de Microsoft y busquePhone Edition.Descargue el paquete de actualización más reciente y extraiga los archivos en una carpeta del equipo donde se van a cargar las actualizaciones. Una vez extraídos los archivos, use el cmdlet Import-CsDeviceUpdate para importar las reglas de actualización de dispositivos que se encuentran en el archivo .CAB extraído (que tendrán el nombre UCUpdates.cab). Para obtener más información, vea Import-CsDeviceUpdate.'
 ---
+
 # <a name="device-update"></a>Actualización de dispositivos
 
 Microsoft publica periódicamente un nuevo conjunto de actualizaciones de firmware de dispositivo para Skype Empresarial Teléfono Edition, que puede importar a los servidores y distribuir a los usuarios. Puede obtener el último conjunto de reglas de actualización de dispositivos en la página Ayuda y soporte técnico, en el sitio web de Microsoft, buscando "Phone Edition". Descargue el último paquete de actualización y extraiga los archivos en una carpeta en el PC donde se cargarán las actualizaciones. Una vez extraídos los archivos, puede usar el cmdlet **Import-CsDeviceUpdate** para importar las reglas de actualización del dispositivo que se encuentran en el archivo .CAB importado (que tendrán el mismo nombre UCUpdates.cab). Para obtener más información, [vea Import-CsDeviceUpdate](/powershell/module/skype/import-csdeviceupdate?view=skype-ps).
@@ -62,6 +57,6 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 - **Actualizar** Puedes actualizar la lista para comprobar el estado de todas las actualizaciones de dispositivos.
 
 Para obtener más información sobre el servicio web de actualización de dispositivos, vea [View Software Updates for Devices in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-view-software-updates-for-devices-in-your-organization) en la documentación de planeación.
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Import-CsDeviceUpdate](/powershell/module/skype/import-csdeviceupdate?view=skype-ps)

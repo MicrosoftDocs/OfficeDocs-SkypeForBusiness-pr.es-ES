@@ -1,32 +1,27 @@
 ---
 title: Skype Empresarial Server de herramientas del kit de recursos de 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
-description: En este artículo se describen las herramientas del kit de recursos Skype Empresarial Server 2015, incluido el propósito de cada herramienta, y ejemplos de su uso. El Skype Empresarial Server de recursos de 2015 ayuda a facilitar las tareas rutinarias a los administradores de TI que implementan y administran Skype Empresarial Server 2015. Por ejemplo, la herramienta de datos de Web Conf se puede usar para controlar fácilmente los datos que cargan los usuarios durante una reunión en línea. La herramienta SEFAUtil se puede usar para configurar el reenvío delegado de llamadas y el contestado para los usuarios. Animamos a los administradores de TI a que usen estas herramientas para administrar de forma Skype Empresarial Server 2015.
-ms.openlocfilehash: 04e66f19219291ef851b50af15dd796d36d44afb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857457"
+description: 'En este artículo se describen las herramientas del kit de recursos Skype Empresarial Server 2015, incluido el propósito de cada herramienta, y ejemplos de su uso. El Skype Empresarial Server de recursos de 2015 ayuda a facilitar las tareas rutinarias a los administradores de TI que implementan y administran Skype Empresarial Server 2015. Por ejemplo, la herramienta de datos de Web Conf se puede usar para controlar fácilmente los datos que cargan los usuarios durante una reunión en línea. La herramienta SEFAUtil se puede usar para configurar el reenvío delegado de llamadas y el contestado para los usuarios. Animamos a los administradores de TI a que usen estas herramientas para administrar de forma Skype Empresarial Server 2015.'
 ---
+
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype Empresarial Server de herramientas del kit de recursos de 2015
 
-En este artículo se describen las herramientas del kit de recursos Skype Empresarial Server 2015, incluido el propósito de cada herramienta, y ejemplos de su uso. El Skype Empresarial Server de recursos de 2015 ayuda a facilitar las tareas rutinarias a los administradores de TI que implementan y administran Skype Empresarial Server 2015. Por ejemplo, la herramienta de datos **de Web Conf** se puede usar para controlar fácilmente los datos que cargan los usuarios durante una reunión en línea. La **herramienta SEFAUtil** se puede usar para configurar el reenvío delegado de llamadas y el contestado para los usuarios. Animamos a los administradores de TI a que usen estas herramientas para administrar de forma Skype Empresarial Server 2015.
+En este artículo se describen las herramientas del kit de recursos Skype Empresarial Server 2015, incluido el propósito de cada herramienta, y ejemplos de su uso. El Skype Empresarial Server de recursos de 2015 ayuda a facilitar las tareas rutinarias a los administradores de TI que implementan y administran Skype Empresarial Server 2015. Por ejemplo, la herramienta **de datos de Web Conf** se puede usar para controlar fácilmente los datos que cargan los usuarios durante una reunión en línea. La **herramienta SEFAUtil** se puede usar para configurar el reenvío delegado de llamadas y el contestado para los usuarios. Animamos a los administradores de TI a que usen estas herramientas para administrar de forma Skype Empresarial Server 2015.
 
 ## <a name="installation-of-the-resource-kit-tools"></a>Instalación de las herramientas del kit de recursos
 
-Para instalar el kit Skype Empresarial Server recursos de 2015, descargueOCSReskit.msi[desde](https://www.microsoft.com/download/details.aspx?id=52631) el Centro de descarga.
+Para instalar el kit Skype Empresarial Server recursos de 2015, descargue [OCSReskit.msidesde el ](https://www.microsoft.com/download/details.aspx?id=52631) Centro de descarga.
 
 Ejecute **OCSResKit.msi** para realizar una instalación sencilla. El .msi instala todas las herramientas en la siguiente ruta de acceso: **%Program Files%\Skype Empresarial Server 2015\ResKit**. Las herramientas que son ejecutables independientes se encuentran en esta carpeta. Las herramientas que también tienen archivos compatibles están en sus propias subcarpetas.
 
@@ -73,7 +68,7 @@ A continuación se muestra una lista de las herramientas que se proporcionan en 
 
 La herramienta de configuración del servicio de libreta de direcciones (ABSConfig) es una herramienta administrativa que ayuda a los administradores a personalizar la configuración del servicio de libreta de direcciones en Skype Empresarial Server 2015. Esta herramienta también permite a Skype Empresarial Server administradores de 2015 restaurar la configuración predeterminada del servicio de libreta de direcciones.
 
-### <a name="description"></a>Descripción
+### <a name="description"></a>Description
 
 ABSConfig es una aplicación gráfica de interfaz de usuario que permite a los administradores configurar atributos de servicios de dominio de Active Directory relacionados con el servicio de libreta de direcciones.
 
@@ -85,7 +80,7 @@ Los escenarios principales de la herramienta son los siguientes:
 
 - Para permitir a los administradores restaurar, configuración predeterminada del servicio de libreta de direcciones.
 
-La herramienta ABSConfig se puede iniciar mediante el ABSConfig.exe archivo. La herramienta se abre en la **pestaña Configurar atributos.** Esta tabla tiene opciones para asignar atributos de Servicios de dominio de Active Directory a los campos de atributo de Skype Empresarial Server 2015 y especificar qué usuarios deben incluir o excluir en los archivos de servicio de libreta de direcciones en función de filtros de atributos específicos. También tiene opciones para personalizar el valor del número de teléfono que se incluirá en el archivo de libreta de direcciones. La **opción Restaurar valores predeterminados** permite a los administradores restaurar la configuración del servicio de libreta de direcciones a los valores predeterminados.
+La herramienta ABSConfig se puede iniciar mediante el ABSConfig.exe archivo. La herramienta se abre en la **pestaña Configurar atributos**. Esta tabla tiene opciones para asignar atributos de Servicios de dominio de Active Directory a los campos de atributo de Skype Empresarial Server 2015 y especificar qué usuarios deben incluir o excluir en los archivos de servicio de libreta de direcciones en función de filtros de atributos específicos. También tiene opciones para personalizar el valor del número de teléfono que se incluirá en el archivo de libreta de direcciones. La **opción Restaurar valores predeterminados** permite a los administradores restaurar la configuración del servicio de libreta de direcciones a los valores predeterminados.
 
 > [!NOTE]
 > La nueva asignación de atributos de AD a diferentes nombres de campo OC solo funcionará para la descarga de archivos de libreta de direcciones y no es compatible con la consulta web de libreta de direcciones.
@@ -102,7 +97,7 @@ Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 
 ABSConfig proporciona una forma rápida y fácil de personalizar Skype Empresarial Server de libreta de direcciones de 2015.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 #### <a name="computer"></a>Equipo
 
@@ -124,7 +119,7 @@ Administradores que tienen los permisos necesarios para actualizar la implementa
 
 ### <a name="examples"></a>Ejemplos
 
-ABSConfig se puede iniciar escribiendo **ABSConfig.exe** en un símbolo del sistema. A continuación se muestra la interfaz de usuario de la herramienta ABSConfig.
+ABSConfig se puede iniciar **escribiendoABSConfig.exeen** un símbolo del sistema. A continuación se muestra la interfaz de usuario de la herramienta ABSConfig.
 
 ![La ABSConfig.exe de datos.](../media/Reskit_2012_Tools_Documentation_ABSConfig.JPG)
 
@@ -160,7 +155,7 @@ La **pestaña Información del** equipo muestra los detalles del servicio de dir
 La **pestaña Información de** topología muestra una lista de todos los vínculos configurados en las opciones de configuración de red. Para cada vínculo, se muestra la capacidad de ancho de banda de audio y vídeo. Además, se muestra el ancho de banda utilizado actualmente, tanto en Kbps como como un porcentaje de la capacidad. La herramienta usa la codificación de colores para resaltar vínculos que tienen un uso cercano a la capacidad, lo que permite a los administradores aislar rápidamente dichos vínculos.
 
 > [!NOTE]
->  Si la herramienta Detección de servicio de directivas de ancho de banda experimenta  un error  al conectarse a cualquiera de los servicios de directiva de ancho de banda configurados, no se rellenará la información de las pestañas Información del equipo y Información de topología. Sin embargo, es posible que la herramienta se conecte inicialmente pero, posteriormente, pierda su conexión con el servicio. En estos casos, es posible que los administradores vean información obsoleta. Hay una marca de tiempo **Last Updated** en cada una de las pestañas que puede permitir a los administradores ver cuándo se actualizaron por última vez los datos para un servicio de directivas de ancho de banda determinado.
+>  Si la herramienta Detección de servicio de directivas de ancho de banda experimenta un error al conectarse a cualquiera de los servicios de directiva  de ancho de banda  configurados, no se rellenará la información de las pestañas Información del equipo y Información de topología. Sin embargo, es posible que la herramienta se conecte inicialmente pero, posteriormente, pierda su conexión con el servicio. En estos casos, es posible que los administradores vean información obsoleta. Hay una marca **de tiempo Last Updated** en cada una de las pestañas que puede permitir a los administradores ver cuándo se actualizaron por última vez los datos para un servicio de directivas de ancho de banda determinado.
 
 ### <a name="output"></a>Salida
 
@@ -170,7 +165,7 @@ No hay salida de línea de comandos; el resultado del programa se encuentra dent
 
 El propósito de la herramienta Detección de servicios de directivas de ancho de banda es permitir a los administradores visibilidad del estado de cada uno de los servicios de directiva de ancho de banda definidos en la topología. Además, los administradores pueden ver el uso de ancho de banda en tiempo real para todos los vínculos definidos en el documento de configuración de red.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 La herramienta de supervisión del servicio de directivas de ancho de banda debe ejecutarse en un equipo que forma parte de la topología Skype Empresarial Server directiva.
 
@@ -262,7 +257,7 @@ El registro de la escala de tiempo permite al usuario de la herramienta especifi
 
 El usuario puede especificar los siguientes directorios de archivos como se muestra.
 
-- **Ubicación de los archivos de registro del servidor** Ubicación de carpeta donde se almacenan los registros del servidor de directivas de ancho de banda. Esto suele estar en \<fileserver\> \\<de FE \> \AppServerFiles\PDP.
+- **Ubicación de los archivos de registro del servidor** Ubicación de carpeta donde se almacenan los registros del servidor de directivas de ancho de banda. Esto suele estar en<\<fileserver\>\\ de FE\>\AppServerFiles\PDP.
 
 - **Ubicación de almacenamiento temporal de archivos** Ubicación de archivo temporal donde se almacenan los archivos intermedios mientras se genera el informe.
 
@@ -344,7 +339,7 @@ Filtrar por **niveles críticos**. Seleccione **True** para aplicar el filtro.
 
 ![Filtrado por niveles críticos.](../media/Reskit_2012_Tools_Documentation_Image14.jpg)
 
-Filter by **Under used**. Seleccione **True** para aplicar el filtro.
+Filter by **Under utilized**. Seleccione **True** para aplicar el filtro.
 
 ![Filtrado por UnderUtilizó.](../media/Reskit_2012_Tools_Documentation_Image15.jpg)
 
@@ -356,7 +351,7 @@ Filtrar por **región**. Seleccione una lista de regiones cuyos vínculos deben 
 
 ![Filtrado por región.](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 - El .NET Framework 3.5
 
@@ -377,9 +372,9 @@ El Parkometer de llamadas es una herramienta para realizar un seguimiento de las
 
 Todas las opciones son mutuamente excluyentes. La sintaxis de línea de comandos es la siguiente:
 
-- **Parámetro -o:** enumera todos los intervalos de órbitas configurados para este grupo.
+- **Parámetro -o** : enumera todos los intervalos de órbitas configurados para este grupo.
 
-- **Parámetro -n:** enumera todas las órbitas usadas actualmente en este grupo de servidores. La información mostrada es la siguiente:
+- **Parámetro -n** : enumera todas las órbitas usadas actualmente en este grupo de servidores. La información mostrada es la siguiente:
 
   - Identificador uniforme de recursos SIP (URI) del estacionamiento y el estacionamiento.
 
@@ -387,9 +382,9 @@ Todas las opciones son mutuamente excluyentes. La sintaxis de línea de comandos
 
   - Marca de hora del momento en que se estacionó la llamada.
 
-- **Parámetro -f:** enumera el número de órbitas libres actualmente en el grupo.
+- **Parámetro -f** : enumera el número de órbitas libres actualmente en el grupo.
 
-- **-r \<n\>** parameter: enumera las \<n\> últimas llamadas estacionadas. La información mostrada es la siguiente:
+- **-r \<n\>** parameter: enumera las últimas \<n\> llamadas estacionadas. La información mostrada es la siguiente:
 
   - URI de SIP parkee.
 
@@ -399,7 +394,7 @@ Todas las opciones son mutuamente excluyentes. La sintaxis de línea de comandos
 
   - Marca de hora de cuándo se recuperó o se soltó la llamada.
 
-- **-t \<n\>** parámetro: prueba la reserva de una órbita en la base de datos para mostrar la aleatoriedad de los números de órbita asignados.
+- **-t\<n\>** parámetro: prueba la reserva de una órbita en la base de datos para mostrar la aleatoriedad de los números de órbita asignados.
 
 ### <a name="output"></a>Salida
 
@@ -419,9 +414,9 @@ Según los parámetros de entrada especificados en un símbolo del sistema, El p
 
 El propósito de la herramienta CPS es proporcionar acceso a la línea de comandos a la base de datos cps. El administrador puede ver el uso de CPS y determinar el número de órbitas asignadas a un grupo.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
-No hay requisitos si esta herramienta se ejecuta en el mismo equipo que ejecuta CPS. Si esta herramienta se ejecuta en un equipo remoto, la base de datos SQL Server que usa Skype Empresarial Server 2015 debe configurarse para permitir el acceso remoto. El Parkometer de llamadas debe configurarse con una SQL Server de conexión de base de datos para conectarse a la red del grupo SQL Server. Esta SQL Server de conexión de base de datos se define en el archivo de **configuración,parkometer.exe.config**. Debe colocarse en el mismo directorio donde parkometer.exe se encuentra. El siguiente archivo XML es un ejemplo de una parkometer.exe.config. Los parámetros que deben configurarse son nombre de usuario (por ejemplo, mydomain\Administrator), contraseña (por ejemplo, mypassword) y nombre de host (por ejemplo, myserver).
+No hay requisitos si esta herramienta se ejecuta en el mismo equipo que ejecuta CPS. Si esta herramienta se ejecuta en un equipo remoto, la base de datos SQL Server que usa Skype Empresarial Server 2015 debe configurarse para permitir el acceso remoto. El Parkometer de llamadas debe configurarse con una SQL Server de conexión de base de datos para conectarse a la red del grupo SQL Server. Esta SQL Server de conexión de base de datos se define en el archivo de configuración, **parkometer.exe.config**. Debe colocarse en el mismo directorio donde parkometer.exe se encuentra. El siguiente archivo XML es un ejemplo de una parkometer.exe.config. Los parámetros que deben configurarse son nombre de usuario (por ejemplo, mydomain\Administrator), contraseña (por ejemplo, mypassword) y nombre de host (por ejemplo, myserver).
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -450,7 +445,7 @@ Número de órbitas libres: el parámetro -f enumera el número de órbitas libr
 
 ![Órbitas libres en el Parkometer de llamadas.](../media/Reskit_2012_Tools_Documentation_Image20.jpg)
 
-Llamadas estacionadas recientemente: el parámetro -r \<n\> enumera las \<n\> últimas llamadas estacionadas como se muestra
+Llamadas estacionadas recientemente: el parámetro -r \<n\> enumera las últimas \<n\> llamadas estacionadas como se muestra
 
 ![Llamadas estacionadas recientemente en el Parkometer de llamadas.](../media/Reskit_2012_Tools_Documentation_Image21.jpg)
 
@@ -478,7 +473,7 @@ DBAnalyze es una herramienta de línea de comandos que ayuda a los administrador
 
 - **Modo de conferencia** Informa de los datos detallados de una conferencia específica, incluidos todos los detalles de horario de programación de la conferencia, la lista de invitados, la lista de tipos de medios permitidos para la conferencia, las MCU activas (unidades de control multipunto), la lista de participantes activos y el estado de señalización de cada participante.
 
-- **Descodificar id. de reunión** Descodifica un identificador de reunión de red telefónica conmutada (RTC) especificado por el modificador **/pstnid,** pero que no se conecta al back-end para obtener información detallada.
+- **Descodificar id. de reunión** Descodifica un identificador de reunión de red telefónica conmutada (RTC) especificado por el modificador **/pstnid** , pero que no se conecta al back-end para obtener información detallada.
 
 - **Resolver conferencia** Descodifica un identificador de reunión RTC especificado por el modificador **/pstnid** y muestra información sobre la conferencia indicada por el identificador.
 
@@ -498,7 +493,7 @@ Para instalar Dbanalyze.exe, cópielo en una carpeta local y, a continuación, e
 
 ![Opciones de línea de comandos para Dbanalyze.exe.](../media/Reskit_2012_Tools_Documentation_Image35.JPG)
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
  **Equipo** DBAnalyze solo se puede ejecutar desde un equipo unido a un dominio que Skype Empresarial Server 2015 instalado.
 
@@ -511,7 +506,7 @@ Para instalar Dbanalyze.exe, cópielo en una carpeta local y, a continuación, e
 ![Tabla de permisos para Dbanalyze.exe.](../media/Reskit_2012_Tools_Documentation_Image36.JPG)
 
 > [!NOTE]
-> Se requiere una cuenta de administrador local para **el modo /report:disk.**
+> Se requiere una cuenta de administrador local para **el modo /report:disk** .
 
 ### <a name="examples"></a>Ejemplos
 
@@ -541,7 +536,7 @@ Los datos vaciados del servicio Storage podrían haber sido automáticos (perió
 
  **Escenario 1: durante la** conmutación por error del grupo, los archivos pueden vaciarse del servicio de almacenamiento para cada front-end. Una vez completada la conmutación por error, se debe ejecutar la herramienta para volver a importar los datos.
 
- **Escenario 2:** los datos se vacían automáticamente cada día o en respuesta Storage a una base de datos de servicio que supera determinados umbrales de tamaño (por ejemplo, 60%, 80%, 90 % de lleno). El administrador debe volver a importar de forma rutinaria estos datos vaciados automáticamente. En la situación anterior, si no se implementa el paquete SCOM de supervisión, hay eventos para el servicio de Skype Empresarial Server Storage relacionado con los datos que se van a vaciar del servicio de Storage. Los IDs de eventos de 32075 (se inicia la operación de vaciado completo), 32076 (se ha completado el vaciado completo), 32082 (vaciado de nivel de mantenimiento iniciado), 32083 (vaciado de nivel de mantenimiento completo), 32089 (vaciado debido al llenado de la base de datos). Tenga en cuenta que estos identificadores de evento corresponden a la versión rtm. Cuando un administrador ve estos eventos, significa que hay archivos que se han vaciado. Estos datos deben importarse de forma rutinaria con esta herramienta, por ejemplo, una vez a la semana.
+ **Escenario 2:** los datos se vacían automáticamente cada día o en respuesta Storage una base de datos de servicio que supera determinados umbrales de tamaño (por ejemplo, 60%, 80%, 90 % lleno). El administrador debe volver a importar de forma rutinaria estos datos vaciados automáticamente. En la situación anterior, si no se implementa el paquete SCOM de supervisión, hay eventos para el servicio de Skype Empresarial Server Storage relacionado con los datos que se van a vaciar del servicio de Storage. Los IDs de eventos de 32075 (se inicia la operación de vaciado completo), 32076 (se ha completado el vaciado completo), 32082 (vaciado de nivel de mantenimiento iniciado), 32083 (vaciado de nivel de mantenimiento completo), 32089 (vaciado debido al llenado de la base de datos). Tenga en cuenta que estos identificadores de evento corresponden a la versión rtm. Cuando un administrador ve estos eventos, significa que hay archivos que se han vaciado. Estos datos deben importarse de forma rutinaria con esta herramienta, por ejemplo, una vez a la semana.
 
 Para la versión del servicio en línea, si se implementa el paquete SCOM de supervisión de estado para Skype Empresarial Server, se pueden generar nuevas alertas que piden al administrador que vuelva a importar los datos vaciados en el servicio Storage. Habrá un evento correspondiente en el registro de eventos en el servidor Front-End que desencadenó la alerta. El evento dará una descripción de la ruta de acceso principal en la que se encuentran los archivos de datos vaciados y cuántos archivos hay que cumplen los criterios de alerta. El criterio de alerta es que hay X o más archivos bajo la ruta de acceso principal en particular que tienen al menos Y días de antigüedad (donde X e Y están preestablecidos dentro del StorageService, pero se pueden invalidar cambiando el archivo APPCONFIG). A continuación se muestran dos ejemplos de eventos que pueden desencadenar la alerta de estado, con la diferencia de que su ruta principal. Una posibilidad está en recurso compartido de archivos del servicio web, mientras que la otra posibilidad es el directorio local de datos de aplicación de cada front-end. (por ejemplo c:\ProgramData\Microsoft\Skype Empresarial Server 2015\StorageService). A continuación, el administrador ejecutará esta herramienta de reskit.
 
@@ -549,9 +544,9 @@ Esta herramienta aumentará la carga de CPU e E/S en el front-end en el que se e
 
 ![Eventos de Storage de eventos del servidor de ejemplo.](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
-Instale las Skype Empresarial Server kit de recursos de 2015. La herramienta se ejecuta en máquinas unidas a un dominio donde Skype Empresarial Server y Skype Empresarial Server Shell de administración están instalados. La herramienta usa un cmdlet del shell de administración para identificar todos los Front-End del grupo de servidores. En segundo lugar, la herramienta debe ejecutarse desde una máquina del grupo que tenga instalada la base de datos **RtcLocal.** Esta base de datos la usa la herramienta para recuperar la ubicación del recurso compartido de archivos WEBSERVICE para el grupo. Además, antes de usar la herramienta, cada servidor Front-End debe habilitar primero la comunicación remota de Windows PowerShell con **Enable-PSRemoting** en cada servidor Front-End y la máquina desde la que se ejecuta la herramienta. De lo contrario, Windows PowerShell comandos remotos de esta herramienta producirán un error. Windows PowerShell La comunicación remota se puede desactivar en todos Front-End servidores del grupo una vez finalizada. Por último, la cuenta o credencial que invoca la herramienta debe tener permiso de lectura y escritura para el recurso compartido de archivos de servicio web para el grupo en el que están ejecutando esta herramienta. De lo contrario, la herramienta producirá un error con errores de permiso de E/S.
+Instale las Skype Empresarial Server kit de recursos de 2015. La herramienta se ejecuta en máquinas unidas a un dominio donde Skype Empresarial Server y Skype Empresarial Server Shell de administración están instalados. La herramienta usa un cmdlet del shell de administración para identificar todos los Front-End del grupo de servidores. En segundo lugar, la herramienta debe ejecutarse desde una máquina del grupo que tenga instalada la **base de datos RtcLocal** . Esta base de datos la usa la herramienta para recuperar la ubicación del recurso compartido de archivos WEBSERVICE para el grupo. Además, antes de usar la herramienta, cada servidor Front-End primero debe habilitar Windows PowerShell La comunicación remota mediante **Enable-PSRemoting** en cada servidor Front-End y la máquina desde la que se ejecuta la herramienta. De lo contrario, Windows PowerShell comandos remotos de esta herramienta producirán un error. Windows PowerShell la comunicación remota se puede desactivar en todos los servidores Front-End del grupo una vez finalizado. Por último, la cuenta o credencial que invoca la herramienta debe tener permiso de lectura y escritura para el recurso compartido de archivos de servicio web para el grupo en el que están ejecutando esta herramienta. De lo contrario, la herramienta producirá un error con errores de permiso de E/S.
 
 > [!NOTE]
 > En Windows Server 2012, Windows PowerShell remoción está habilitada de forma predeterminada, pero no en el sistema operativo Windows Server 2008.
@@ -738,13 +733,13 @@ La herramienta LookupUserConsole muestra información Skype Empresarial Server d
 
  Al ejecutar LookupUserConsole.exe se abrirá un símbolo del sistema que acepta direcciones SIP e intenta mostrar información Skype Empresarial Server de enrutamiento que las relaciona. Escriba **exit** para salir de la herramienta LookupUserConsole.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Instale el Skype Empresarial Server de recursos de 2015. La herramienta se ejecuta en máquinas unidas a un dominio donde Skype Empresarial Server está instalado.
 
 ### <a name="examples"></a>Ejemplos
 
-C:\Archivos de programa\Skype Empresarial Server 2015\ResKit \>LookupUserConsole.exe
+C:\Archivos de programa\Skype Empresarial Server 2015\ResKit\>LookupUserConsole.exe
 
 ```console
 > sip:john.doe@vdomain.com
@@ -789,7 +784,7 @@ C:\Archivos de programa\Skype Empresarial Server 2015\ResKit \>LookupUserConsole
 
 La herramienta MSTurnPing permite a un administrador del software de comunicaciones de Skype Empresarial Server 2015 comprobar el estado de los servidores que ejecutan el servidor perimetral de audio y vídeo, los servicios de autenticación de audio y vídeo y los servidores que ejecutan los Servicios de directivas de ancho de banda en la topología.
 
-### <a name="description"></a>Descripción
+### <a name="description"></a>Description
 
 La herramienta MSTurnPing permite a un administrador del software de comunicaciones de Skype Empresarial Server 2015 comprobar el estado de los servidores que ejecutan el servidor perimetral de audio y vídeo, los servicios de autenticación de audio y vídeo y los servidores que ejecutan los Servicios de directivas de ancho de banda en la topología.
 
@@ -813,19 +808,19 @@ Esta herramienta debe ejecutarse desde un equipo que forma parte de la topologí
 
 La herramienta genera los resultados de cada una de las operaciones.
 
-- Si se **realiza la prueba AudioVideoEdgeServer,** los resultados de la herramienta son los siguientes:
+- Si se **realiza la prueba AudioVideoEdgeServer** , los resultados de la herramienta son los siguientes:
 
   - Los resultados de la prueba de los equipos que proporcionan el Skype Empresarial Server de autenticación de audio y vídeo de 2015 en la topología
 
   - Los resultados de la prueba de los equipos que proporcionan el Skype Empresarial Server perimetral de audio y vídeo de 2015 en la topología
 
-- Si se realiza la prueba **BandwidthPolicyServer,** los resultados de la herramienta son los siguientes:
+- Si se **realiza la prueba BandwidthPolicyServer** , los resultados de la herramienta son los siguientes:
 
   - Los resultados de la prueba de los equipos que proporcionan el Skype Empresarial Server de directivas de ancho de banda (autenticación) de 2015 en la topología
 
   - Resultados de prueba de los equipos que proporcionan el Skype Empresarial Server de directivas de ancho de banda (core) de 2015 en la topología
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 - Esta herramienta debe ejecutarse desde un equipo que se encuentra en la topología y que tiene el almacén local.
 
@@ -876,27 +871,27 @@ Vea los vínculos de topología de red cac de empresa en una interfaz gráfica.
 
 ### <a name="examples"></a>Ejemplos
 
- Cargar y ver la topología de red de CAC desde una implementación de **Skype Empresarial Server 2015** en un formato gráfico: Skype Empresarial Server los administradores de 2015 pueden cargar y ver la configuración de topología de red de CAC en cualquier equipo de Skype Empresarial Server 2015 mediante la red de descarga **Opción** de configuración como se muestra en la figura siguiente. La herramienta no podrá descargar ni ver dicha configuración cuando se implemente en un equipo que no tenga conectividad con el almacén de configuración de Skype Empresarial Server 2015.
+ Cargar y ver la topología de red cac desde una implementación de **Skype Empresarial Server 2015** en un formato gráfico: los administradores de Skype Empresarial Server 2015 pueden cargar y ver la configuración de topología de red de CAC en cualquier equipo de Skype Empresarial Server 2015 **mediante el uso del Descargue la opción Configuración de** red como se muestra en la figura siguiente. La herramienta no podrá descargar ni ver dicha configuración cuando se implemente en un equipo que no tenga conectividad con el almacén de configuración de Skype Empresarial Server 2015.
 
 ![Descargar la configuración de red.](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
 
- Cargar y ver topología de red cac desde un archivo de registro de servidor de directivas de ancho de banda en un formato **gráfico:** Skype Empresarial Server 2015 Servidores de directivas de ancho de banda guarda la topología de red cac como parte del mecanismo de registro en la ubicación de recurso compartido de archivos de Skype Empresarial Server 2015. Skype Empresarial Server administradores de 2015 pueden ver dicho archivo en un formato gráfico mediante la opción Abrir configuración **de** red, como se muestra a continuación.
+ **Cargar** y ver topología de red cac desde un archivo de registro de servidor de directivas de ancho de banda en un formato gráfico: Skype Empresarial Server los servidores de directivas de ancho de banda de 2015 guarda la topología de red cac como parte del mecanismo de registro en la ubicación de recurso compartido de archivos de Skype Empresarial Server 2015. Skype Empresarial Server 2015 los administradores pueden ver dicho archivo en un formato gráfico mediante la opción **Abrir** configuración de red, como se muestra a continuación.
 
 ![Abrir un archivo de registro del servidor de directivas de ancho de banda.](../media/Reskit_2012_Tools_Documentation_Image24.jpg)
 
-Guarde y almacene la topología de red cac en un formato XML en el disco: los administradores de Skype Empresarial Server 2015 pueden guardar el archivo de configuración de topología de red cac en un formato XML mediante la opción Guardar una copia de configuración de red como se muestra **a** continuación. A continuación, el archivo de configuración guardado se puede usar sin conexión con fines de visualización gráfica.
+Guarde y almacene la topología de red cac en un formato XML en el disco: los administradores de Skype Empresarial Server 2015 pueden guardar el archivo de configuración de la topología de red cac en un formato XML mediante la opción Guardar una copia de configuración de red como se muestra **a** continuación. A continuación, el archivo de configuración guardado se puede usar sin conexión con fines de visualización gráfica.
 
 ![Guardar la configuración de red como un archivo XML.](../media/Reskit_2012_Tools_Documentation_Image25.jpg)
 
-Guardar y almacenar el diagrama de topología de red cac en formato JPG o BMP: los administradores de Skype Empresarial Server 2015 pueden  guardar la configuración de topología de red cac en un formato gráfico (formatos de archivo JPG y BMP) mediante la opción Guardar diagrama de configuración de red como imagen, como se muestra a continuación.
+Guardar y almacenar el diagrama de topología de red CAC en formato JPG o BMP: los administradores de Skype Empresarial Server 2015 pueden guardar la configuración de topología de red cac en un formato gráfico (formatos de archivo JPG y BMP)  mediante la opción Guardar diagrama de configuración de red como imagen, como se muestra a continuación.
 
 ![Guardar la configuración de red como una imagen.](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
- Ver datos de configuración de topología de red <strong>cac:</strong>los administradores de Skype Empresarial Server 2015 pueden ver datos de configuración de red relacionados, como regiones de red, sitios de red, perfiles de ancho de banda y direcciones IP de subred de sitio en un formato textual mediante la opción Ver datos de configuración de red, como se muestra a continuación.
+ Ver datos de configuración de topología de red <strong>cac:</strong>Skype Empresarial Server Los administradores de 2015 pueden ver datos de configuración de red relacionados como regiones de red, sitios de red, perfiles de ancho de banda y direcciones IP de subred de sitio en un formato textual mediante la opción Ver datos de configuración de red como se muestra a continuación.
 
 ![Visualización de datos de configuración de red.](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
- Ver la topología de red cac en un estilo de vista de **árbol:** los administradores de Skype Empresarial Server 2015 pueden ver los datos de configuración de red relacionados en un estilo de vista de árbol gráfico mediante el panel de control situado en el lado izquierdo de la ventana de herramientas, como se muestra a continuación.
+ **Ver** la topología de red cac en un estilo de vista de árbol: los administradores de Skype Empresarial Server 2015 pueden ver los datos de configuración de red relacionados en un estilo de vista de árbol gráfico mediante el panel de control situado a la izquierda de la ventana de la herramienta, como se muestra a continuación.
 
 ![Visualización de datos de configuración de red en una vista de árbol.](../media/Reskit_2012_Tools_Documentation_Image28.jpg)
 
@@ -904,7 +899,7 @@ Guardar y almacenar el diagrama de topología de red cac en formato JPG o BMP: l
 
 ![Herramientas.](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
 
- Ver la información del sitio de topología de red **cac,** la información de región y las directivas de ancho de banda aprovisionados: Skype Empresarial Server los administradores de 2015 pueden ver información de región de red cac relacionada, información del sitio e información de aprovisionamiento de ancho de banda de CAC mediante las opciones que se muestran a continuación. (Por ejemplo, haga clic **en Información** en una región de red o un objeto de sitio de red).
+ Ver la información del sitio de topología de red cac, la información de región y las directivas de ancho de banda aprovisionados **:** Skype Empresarial Server los administradores de 2015 pueden ver información de región de red cac relacionada, información del sitio e información de aprovisionamiento de ancho de banda de CAC mediante las opciones que se muestran a continuación. (Por ejemplo, haga clic **en Información** en una región de red o un objeto de sitio de red).
 
 ![Definición de conectores personalizados para la red.](../media/Reskit_2012_Tools_Documentation_Image30.jpg)
 
@@ -947,7 +942,7 @@ Las tres características principales siguientes están disponibles para los age
 
 - **Estadísticas en tiempo real:** Response Group Agent Live proporciona estadísticas en tiempo real para todos los grupos de agentes. La frecuencia de actualización es de un minuto. Cuando un grupo de respuesta responde a una llamada, se agrega un indicador visual junto al nombre del grupo con el número actual de llamadas en cola. Al pausar el puntero sobre un grupo también se muestra el tiempo de espera más largo.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 Response Group Agent Live requiere la .NET Framework 4.0. Además, para aprovechar las características de la presencia y la tarjeta de contacto, Skype Empresarial debe instalarse localmente (y estar en ejecución).
 
@@ -1039,7 +1034,7 @@ Estos son algunos de los escenarios clave en los que se puede usar esta herramie
 
 - Una práctica de servicio al cliente en el departamento de recursos humanos de Contoso es proporcionar servicio personal para todos los autores de llamadas desde la primera llamada. Dado que todos los miembros del departamento se sientan muy cerca unos de otros, hacer que todos los teléfonos suene al mismo tiempo con la llamada de equipo es perjudicial para el equipo. Para proporcionar el mejor servicio sin interrumpir a los miembros del equipo, el administrador de Skype Empresarial Server 2015 aprovecha la funcionalidad de recogida de llamadas en grupo. El administrador agrega todos los miembros del departamento a un grupo de recogida y comunica al departamento el número de grupo de recogida. Cuando Samantha está ausente de su escritorio, Joe observa su teléfono sonando y procede a responder la llamada desde su escritorio.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 La herramienta SEFAUtil solo se puede ejecutar en un equipo que forma parte de un grupo de aplicaciones de confianza. UCMA 3.0 debe instalarse en ese equipo. Para ejecutar la herramienta, se debe crear una nueva aplicación de confianza con el identificador de aplicación SEFAUtil en ese grupo.
 
@@ -1095,7 +1090,7 @@ La recogida de llamadas de grupo requiere una configuración adicional en Skype 
 El siguiente comando muestra el control de llamadas para el usuario.  `SEFAUtil.exe /server:SfBS2015server.contoso.com katarina@contoso.com`
 
 > [!NOTE]
-> En este ejemplo se usa el modificador **/server** para especificar el Skype Empresarial Server al que conectarse.
+> En este ejemplo se usa **el modificador /server** para especificar la Skype Empresarial Server a la que conectarse.
 
  **Resultado**
 
@@ -1424,9 +1419,9 @@ SYSPrep.ps1 es un script Windows PowerShell que instalará los siguientes requis
 
   Aunque el nombre del script es similar a la Herramienta de preparación del sistema para los sistemas operativos de Microsoft Windows, son diferentes. Este script solo instalará los requisitos previos necesarios para Skype Empresarial Server 2015. Una vez instalados estos requisitos previos, Windows la herramienta SYSPrep se puede usar para crear una imagen del servidor.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
-Antes de ejecutar el script SYSPrep.ps1, debe copiar los archivos de requisitos previos en una carpeta local en la máquina del sistema operativo Windows Server 2008 (por **ejemplo, D:\Setup).** Esta carpeta también debe incluir una copia de los archivos Skype Empresarial Server 2015, específicamente **Setup.exe.** Los archivos de requisitos previos se pueden descargar desde las siguientes ubicaciones:
+Antes de ejecutar el script SYSPrep.ps1, debe copiar los archivos de requisitos previos en una carpeta local en la máquina del sistema operativo Windows Server 2008 (por ejemplo **, D:\Setup).**. Esta carpeta también debe incluir una copia de los Skype Empresarial Server 2015, específicamente **Setup.exe.** Los archivos de requisitos previos se pueden descargar desde las siguientes ubicaciones:
 
 
 | **Requisito previo**                                | **Location**                                                            |
@@ -1454,7 +1449,7 @@ Para ejecutar el script SYSPrep.ps1 e instalar los requisitos previos de Skype E
 ## <a name="unassigned-number-announcements-migration"></a>Migración de anuncios de números sin asign
 <a name="UNAM"> </a>
 
-La herramienta de migración de anuncios de números sin signo permite a un administrador de Skype Empresarial Server 2015 mover la configuración de números sinsignación a la que presta servicio la aplicación de anuncio desde un Skype Empresarial Server de origen o un grupo a un grupo de servidores o Skype Empresarial Server de destino.
+La herramienta de migración de anuncios de números sinsignación permite a un administrador de Skype Empresarial Server 2015 mover la configuración de números sinsignación a la que presta servicio la aplicación de anuncio desde un Skype Empresarial Server de origen o un grupo de servidores a un destino Skype Empresarial Server o Pool.
 
 ### <a name="description"></a>Descripción
 
@@ -1483,13 +1478,13 @@ Si la ejecución de la operación se interrumpe por algún error, los intervalos
 
 El script de migración Anuncios de número sin signo se puede usar en los tres escenarios siguientes:
 
-- **Migrar las opciones de configuración a una nueva versión de Skype Empresarial Server:** Contoso está en proceso de migración a Skype Empresarial Server 2015 y, como parte del proceso de migración, el administrador de Skype Empresarial Server desea mover la configuración de números sinsignar a la que presta servicio la aplicación de anuncio desde la implementación de Lync Server 2013 a la nueva implementación de Skype Empresarial Server 2015. Para mover las opciones de configuración, el Skype Empresarial Server usa la herramienta de migración de anuncios de números sin signo.
+- **Migración de** opciones de configuración a una nueva versión de Skype Empresarial Server: Contoso está en proceso de migración a Skype Empresarial Server 2015 y como parte del proceso de migración el Skype Empresarial Server  al administrador le gustaría mover la configuración de números sin signo a la que presta servicio la aplicación de anuncio desde la implementación de Lync Server 2013 a la nueva implementación de Skype Empresarial Server 2015. Para mover las opciones de configuración, el Skype Empresarial Server usa la herramienta de migración de anuncios de números sin signo.
 
-- **Revertir una implementación de Skype Empresarial Server 2015 a Lync Server 2013:** Debido a factores inesperados, Contoso tiene que revertir la migración a la nueva Skype Empresarial Server implementación de 2015. Para minimizar las interrupciones en el servicio, el administrador de Skype Empresarial Server usa la herramienta de migración de anuncios de números sinsignar para revertir la configuración de la implementación de Skype Empresarial Server 2015 a la implementación de Lync Server 2013.
+- Revertir una implementación de **Skype Empresarial Server 2015 a Lync Server 2013: debido a** factores inesperados, Contoso tiene que revertir la migración a la nueva implementación de Skype Empresarial Server 2015. Para minimizar las interrupciones en el servicio, el administrador de Skype Empresarial Server usa la herramienta de migración de anuncios de números sinsignar para revertir la configuración de la implementación de Skype Empresarial Server 2015 a la implementación de Lync Server 2013.
 
 - **Mover datos entre implementaciones:** Contoso está en el proceso de reemplazar todos los servidores de un grupo por servidores más recientes. Su estrategia es implementar un nuevo grupo Skype Empresarial Server 2015, mover todos los datos del grupo antiguo al nuevo y, a continuación, desuso del grupo antiguo. Una vez implementado el nuevo grupo de servidores, se usa la herramienta de migración Anuncios de números sinsignados para mover la configuración del grupo antiguo al nuevo.
 
-#### <a name="requirements"></a>Requisitos
+#### <a name="requirements"></a>Requirements
 
 Estos son los requisitos principales necesarios para ejecutar correctamente la herramienta:
 
@@ -1539,7 +1534,7 @@ Esta herramienta permite al administrador realizar las siguientes operaciones:
 4. Mueva todos los datos de conferencia web asociados a un único usuario cuando se mueva de un grupo a otro.
 
     > [!NOTE]
-    > Las herramientas del kit de recursos para Lync Server 2010 admiten el movimiento de todos los datos de conferencia web asociados con un único usuario cuando ese usuario se mueve de un grupo a otro. Esa funcionalidad ahora está en desuso de esta herramienta en favor del parámetro **MoveConferenceData.** Para obtener más información acerca de este parámetro, consulte el cmdlet [Move-CsUser.](/powershell/module/skype/move-csuser?)
+    > Las herramientas del kit de recursos para Lync Server 2010 admiten el movimiento de todos los datos de conferencia web asociados con un único usuario cuando ese usuario se mueve de un grupo a otro. Esa funcionalidad ahora está en desuso de esta herramienta en favor del parámetro **MoveConferenceData** . Para obtener más información acerca de este parámetro, consulte el cmdlet [Move-CsUser](/powershell/module/skype/move-csuser?) .
 
 La herramienta elimina los datos de reunión solo para las reuniones que están inactivas. Las reuniones activas (o reuniones en sesiones) no se pueden eliminar.
 
@@ -1553,7 +1548,7 @@ Esta herramienta genera los resultados de cada una de las operaciones:
 
 - Si se realiza una eliminación, la herramienta genera la lista de todas las carpetas de datos de reunión cuyos datos se eliminarán.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 
 La herramienta debe ejecutarse en el mismo grupo en el que el organizador se encuentra actualmente.
 

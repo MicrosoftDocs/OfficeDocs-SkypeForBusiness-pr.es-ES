@@ -1,25 +1,20 @@
 ---
 title: Vista Conferencias
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 description: La vista Conferencias almacena información sobre las conferencias. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 500a03e85a3339d28227a5b65d5a3c206fc34723
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828633"
 ---
+
 # <a name="conferences-view"></a>Vista Conferencias
  
 La vista Conferencias almacena información sobre las conferencias. Esta vista se introdujo en Microsoft Lync Server 2013.

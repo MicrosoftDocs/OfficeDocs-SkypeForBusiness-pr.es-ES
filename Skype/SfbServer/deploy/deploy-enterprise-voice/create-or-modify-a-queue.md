@@ -1,28 +1,23 @@
 ---
 title: Crear o modificar una cola en Skype Empresarial
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Cree o modifique una cola de grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 6a4eb09e144bd7381ababdf37a0905c4ea9bac06
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842432"
 ---
+
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Crear o modificar una cola en Skype Empresarial
  
 Cree o modifique una cola de grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial.
@@ -46,15 +41,15 @@ Use uno de los siguientes procedimientos para crear o modificar una cola.
     
    - Para crear una cola nueva, haga clic en **Nuevo**. En **Seleccionar un servicio**, escriba parte o todo el nombre del servicio **ApplicationServer** donde desea agregar la cola en el campo de búsqueda. En la lista de resultados que aparece, haga clic en el servicio que desea y en **Aceptar**.
     
-   - Para modificar una cola existente, escriba todo o parte del nombre de cola en el campo de búsqueda. En la lista resultante de colas, haga clic en la cola que desee, haga clic **en Editar** y, a continuación, haga clic en **Mostrar detalles.**
+   - Para modificar una cola existente, escriba todo o parte del nombre de cola en el campo de búsqueda. En la lista resultante de colas, haga clic en la cola que desee, haga clic en **Editar** y, a continuación, haga clic **en Mostrar detalles**.
     
 5. En **Nombre**, escriba un nombre de identificación para la cola.
     
 6. En **Descripción**, escriba una descripción para la cola.
     
-7. En **Grupos,** especifique los grupos que desea asignar a la cola. Realice una de las siguientes acciones: 
+7. En **Grupos**, especifique los grupos que desea asignar a la cola. Realiza una de las siguientes acciones: 
     
-   - Para agregar un grupo a la cola, haga clic en **Seleccionar**. En **el** campo de búsqueda Seleccionar grupos, escriba todo o parte del nombre del grupo de agentes que desea asignar a la cola, haga clic en el grupo de agentes que desee y, a continuación, haga clic en **Aceptar**.
+   - Para agregar un grupo a la cola, haga clic en **Seleccionar**. En el  campo de búsqueda Seleccionar grupos, escriba todo o parte del nombre del grupo de agentes que desea asignar a la cola, haga clic en el grupo de agentes que desee y, a continuación, haga clic en **Aceptar**.
     
    - Para quitar un grupo de la cola, en la lista de grupos de agentes, haga clic en el grupo que desea quitar y, a continuación, haga clic en **Quitar**.
     
@@ -71,11 +66,11 @@ Use uno de los siguientes procedimientos para crear o modificar una cola.
     
    - Para desconectar la llamada tras el tiempo de espera, haga clic en **Desconectar**.
     
-   - Para reenviar la llamada al correo de voz, haga clic en Reenviar a correo de voz y, a continuación, en el campo Dirección **SIP,** escriba una dirección de correo de voz en el formato sip: *\<username\>* @  *\<domainname\>* (por ejemplo, sip:bob@contoso.com).
+   - Para reenviar la llamada al correo de voz, haga clic en Reenviar a correo de voz **y, a** continuación, en el campo Dirección **SIP** , escriba una dirección de correo de voz en el formato sip: *\<username\>*@ *\<domainname\>* (por ejemplo, sip:bob@contoso.com).
     
-   - Para reenviar la llamada a otro número de teléfono, haga clic en Reenviar al número de teléfono y, a continuación, en el campo Dirección **SIP,** escriba el número de teléfono con el formato sip: *\<number\>* @  *\<domainname\>* (por ejemplo, sip:+14255550121@contoso.com).
+   - Para reenviar la llamada a otro número de teléfono, haga clic en Reenviar al número de teléfono **y, a** continuación, en el campo Dirección **SIP** , escriba el número de teléfono con el formato sip: *\<number\>*@ *\<domainname\>* (por ejemplo, sip:+14255550121@contoso.com).
     
-   - Para reenviar la llamada a otro usuario, haga clic en Reenviar a dirección **SIP** y, a continuación, en el campo Dirección **SIP,** escriba el URI del usuario con el formato sip: _\<username\>_ @  _\<domainname\>_ .
+   - Para reenviar la llamada a otro usuario, haga clic en Reenviar a dirección **SIP** y, a continuación, en el campo Dirección **SIP** , escriba el URI del usuario con el formato sip: _\<username\>_@ _\<domainname\>_.
     
    - Para desviar la llamada a otra cola, haga clic en **Desviar a otra cola** y, a continuación, vaya a la cola que desee utilizar.
     
@@ -85,15 +80,15 @@ Use uno de los siguientes procedimientos para crear o modificar una cola.
     
     b. En **Desviar la llamada**, seleccione la llamada que se va a desviar cuando la cola esté llena. **Llamada más reciente** o **Llamada más antigua**.
     
-    c. En **Acción de llamada,** seleccione la acción que se produce cuando se cumple el umbral de desbordamiento de la siguiente manera:
+    c. En **Acción de llamada**, seleccione la acción que se produce cuando se cumple el umbral de desbordamiento de la siguiente manera:
     
    - Para desconectar la llamada tras el tiempo de espera, haga clic en **Desconectar**.
     
-   - Para reenviar la llamada al correo de voz, haga clic en Reenviar a correo de voz y, a continuación, en el campo Dirección **SIP,** escriba una dirección de correo de voz en el formato sip: *\<username\>* @  *\<domainname\>* (por ejemplo, sip:bob@contoso.com).
+   - Para reenviar la llamada al correo de voz, haga clic en Reenviar a correo de voz **y, a** continuación, en el campo Dirección **SIP** , escriba una dirección de correo de voz en el formato sip: *\<username\>*@ *\<domainname\>* (por ejemplo, sip:bob@contoso.com).
     
-   - Para reenviar la llamada a otro número de teléfono, haga clic en Reenviar al número de teléfono y, a continuación, en el campo Dirección **SIP,** escriba el número de teléfono con el formato sip: *\<number\>* @  *\<domainname\>* (por ejemplo, sip:+14255550121@contoso.com).
+   - Para reenviar la llamada a otro número de teléfono, haga clic en Reenviar al número de teléfono **y, a** continuación, en el campo Dirección **SIP** , escriba el número de teléfono con el formato sip: *\<number\>*@ *\<domainname\>* (por ejemplo, sip:+14255550121@contoso.com).
     
-   - Para reenviar la llamada a otro usuario, haga clic en Reenviar a dirección **SIP** y, a continuación, en el campo Dirección **SIP,** escriba el URI del usuario con el formato sip: _\<username\>_ @  _\<domainname\>_ .
+   - Para reenviar la llamada a otro usuario, haga clic en Reenviar a dirección **SIP** y, a continuación, en el campo Dirección **SIP** , escriba el URI del usuario con el formato sip: _\<username\>_@ _\<domainname\>_.
     
    - Para desviar la llamada a otra cola, haga clic en **Desviar a otra cola** y, a continuación, vaya a la cola que desee utilizar.
     
@@ -106,7 +101,7 @@ Use uno de los siguientes procedimientos para crear o modificar una cola.
     > [!NOTE]
     > Si es uno de los administradores de grupos de respuesta delegados para un flujo de trabajo administrado, podrá crear grupos de agentes y colas y asignar grupos de agentes a colas. 
   
-2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 3. Cree el mensaje que se reproducirá cuando se alcance el umbral de tiempo de espera de cola y guárdelo en una variable. En la línea de comandos, ejecute:
     
@@ -201,7 +196,7 @@ Use uno de los siguientes procedimientos para crear o modificar una cola.
     Get-CsRgsQueue -Name "Help Desk"
     ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [New-CsRgsQueue](/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   

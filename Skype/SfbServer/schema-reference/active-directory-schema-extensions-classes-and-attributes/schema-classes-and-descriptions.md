@@ -1,25 +1,20 @@
 ---
 title: Clases de esquema y descripciones en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: En esta sección se describen todas las clases de esquema usadas por Skype Empresarial Server .
-ms.openlocfilehash: fbd3e3293cef72ba6592b86932639bd499464858
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829774"
 ---
+
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Clases de esquema y descripciones en Skype Empresarial Server
  
 En esta sección se describen todas las clases de esquema usadas por Skype Empresarial Server . 
@@ -28,7 +23,7 @@ En esta sección se describen todas las clases de esquema usadas por Skype Empre
 
 |**Clase**|**Descripción**|**Comments**|
 |:-----|:-----|:-----|
-|Mail-Recipient  <br/> |Exchange Destinatario de correo electrónico de mensajería unificada (MU).  <br/> |Esta clase auxiliar se comparte con Exchange um.  <br/> |
+|Mail-Recipient  <br/> |Exchange de correo electrónico de mensajería unificada (MU).  <br/> |Esta clase auxiliar se comparte con Exchange um.  <br/> |
 |msRTCSIP-ApplicationContacts  <br/> |Esta clase es un contenedor para varios contactos de aplicación y no contiene ningún atributo propio.  <br/> |Nuevo en Microsoft Office Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ApplicationServer  <br/> |Esta clase contiene la entrada del punto de control de servicio de una instancia de los servicios de aplicación de comunicaciones unificadas (UCAS).  <br/> |Nuevo en Office Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ApplicationServerService  <br/> |Esta clase proporciona una asociación de un grupo específico a su servicio application.  <br/> |Nuevo en Communications Server 2007 R2.  <br/> |

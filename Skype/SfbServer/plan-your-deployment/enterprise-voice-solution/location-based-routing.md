@@ -1,28 +1,23 @@
 ---
 title: Planear el enrutamiento basado en ubicación en Skype Empresarial
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
-description: Planeación del enrutamiento basado en ubicación en Skype Empresarial Server Telefonía IP empresarial, incluida la interacción con llamadas y delegación simultáneas, y escenarios admitidos para el enrutamiento basado en ubicación.
-ms.openlocfilehash: aada1db39d4dacbd5a6ec7f5dec1ede08468c50e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855337"
+description: 'Planeación del enrutamiento basado en ubicación en Skype Empresarial Server Telefonía IP empresarial, incluida la interacción con llamadas y delegación simultáneas, y escenarios admitidos para el enrutamiento basado en ubicación.'
 ---
+
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Planear el enrutamiento basado en ubicación en Skype Empresarial
 
 Planeación del enrutamiento basado en ubicación en Skype Empresarial Server Telefonía IP empresarial, incluida la interacción con llamadas y delegación simultáneas, y escenarios admitidos para el enrutamiento basado en ubicación.
@@ -116,7 +111,7 @@ En la tabla siguiente se muestra el escenario de un usuario Skype Empresarial en
 
 |Usuario que inicia la transferencia/reenvío de llamadas|El extremo de destino se encuentra en el mismo sitio de red que el usuario que inicia la transferencia o reenvío de llamadas|El extremo de destino se encuentra en un sitio de red diferente como usuario que inicia la transferencia o reenvío de llamadas|El extremo de destino está en sitio de red desconocido o sitio de red no habilitado para el Location-Based enrutamiento
 |:-----|:-----|:-----|:-----|
-|Skype Empresarial usuario   |Se permite la transferencia o reenvío de llamadas   |No se permite la transferencia o el reenvío de llamadas   |No se permite la transferencia o el reenvío de llamadas   |
+|Usuario de Skype® Empresarial   |Se permite la transferencia o reenvío de llamadas   |No se permite la transferencia o el reenvío de llamadas   |No se permite la transferencia o el reenvío de llamadas   |
 
 Por ejemplo: un Skype Empresarial en una llamada con un extremo RTC transfiere la llamada a otro usuario Skype Empresarial que se encuentra en el mismo sitio de red. En este caso, se permite la transferencia de llamadas.
 
@@ -140,7 +135,7 @@ En la tabla siguiente se muestra un usuario configurado con llamadas simultánea
 
 |Llamada RTC entrante para|Ubicado en el mismo sitio de red que el destinatario de la llamada|Ubicado en un sitio de red diferente del destinatario de la llamada|Ubicado en un sitio de red desconocido o no habilitado para el Location-Based enrutamiento|
 |:-----|:-----|:-----|:-----|
-|Skype Empresarial usuario   |Anillo simultáneo permitido   |Anillo simultáneo no permitido   |Anillo simultáneo no permitido   |
+|Usuario de Skype® Empresarial   |Anillo simultáneo permitido   |Anillo simultáneo no permitido   |Anillo simultáneo no permitido   |
 
 En la tabla siguiente se muestra una llamada de un usuario de Skype Empresarial (es decir, Skype Empresarial llamador) en el mismo sitio de red, en un sitio de red diferente o desde un sitio de red desconocido. El destinatario de la llamada tiene un punto de conexión RTC (es decir, teléfono móvil) configurado como un destino de anillo simultáneo. En este escenario, Location-Based Routing determinará si la llamada se debe enrutar al destino de llamada simultánea (es decir, el teléfono móvil) del destinatario de la llamada o no.
 
@@ -150,7 +145,7 @@ En la tabla siguiente se muestra una llamada de un usuario de Skype Empresarial 
 |:-----|:-----|:-----|:-----|
 |Extremo RTC   |Anillo simultáneo permitido a través de la directiva de enrutamiento de voz del sitio del autor de la llamada   |Anillo simultáneo permitido a través de la directiva de enrutamiento de voz del sitio del autor de la llamada   |Anillo simultáneo permitido a través de la directiva de voz del autor de la llamada a troncos no habilitados para Location-Based enrutamiento   |
 
-### <a name="skype-for-business-cumulative-update-4"></a>Skype Empresarial Actualización acumulativa 4
+### <a name="skype-for-business-cumulative-update-4"></a>Skype Empresarial acumulativa 4
 
 Con la actualización acumulativa 4, verá lo siguiente:
 
@@ -166,12 +161,12 @@ En la tabla siguiente se le mostrarán algunos de los escenarios posteriores a l
 |:-----|:-----|:-----|:-----|
 |Skype Empresarial Móvil   |RTC   |Skype Empresarial Mobile recibe una llamada RTC entrante.   |La llamada se enruta mediante llamada a través del trabajo (CvW) y no voIP.   |
 |Skype Empresarial Móvil   |RTC   |Skype Empresarial Mobile realiza una llamada RTC saliente.   |La llamada se enruta a través de CvW y no voIP.   |
-|Skype Empresarial Móvil   |RTC   |Skype Empresarial Mobile está en una llamada RTC. Skype Empresarial A continuación, Mobile escala la llamada a otro usuario o contacto.   |La llamada se enruta a través de VoIP si el usuario o el contacto es local en el tramo de puerta de enlace RTC.  <br/> Si el usuario o el contacto es remoto desde el tramo de puerta de enlace RTC, la llamada se enruta a través de CvW.  <br/> Si no se puede acceder al usuario de destino a través de la RTC, se produce un error en la llamada.  <br/> Si el contacto de destino es una conferencia Operador automático (CAA), la llamada se bloquea.   |
+|Skype Empresarial Móvil   |RTC   |Skype Empresarial Mobile está en una llamada RTC. Skype Empresarial Mobile escala la llamada a otro usuario o contacto.   |La llamada se enruta a través de VoIP si el usuario o el contacto es local en el tramo de puerta de enlace RTC.  <br/> Si el usuario o el contacto es remoto desde el tramo de puerta de enlace RTC, la llamada se enruta a través de CvW.  <br/> Si no se puede acceder al usuario de destino a través de la RTC, se produce un error en la llamada.  <br/> Si el contacto de destino es una conferencia Operador automático (CAA), la llamada se bloquea.   |
 |Skype Empresarial Móvil   |Skype Empresarial cliente o usuario federado   |Un Skype Empresarial Mobile inicia una llamada de voz a otro Skype Empresarial cliente o usuario federado.   |La llamada se completa a través de VoIP.   |
 |Skype Empresarial Móvil   |Skype Empresarial cliente o usuario federado   | Un Skype Empresarial o un usuario federado inicia una llamada de voz a un usuario Skype Empresarial mobile Location-Based enrutamiento.  |La llamada se completa a través de VoIP.   |
 |Skype Empresarial Móvil   |Skype Empresarial cliente o usuario federado   |Un Skype Empresarial cliente o un usuario federado está en una llamada VoIP a un Skype Empresarial móvil. Cualquiera de las partes se escala a un usuario Skype Empresarial o federado adicional.   |La llamada se completa a través de VoIP.   |
-|Skype Empresarial Móvil   |Usuario federado   |Un usuario federado está en llamada de voz a un usuario Skype Empresarial mobile Location-Based routing; un Skype Empresarial móvil se escala a un usuario RTC.   |La llamada está bloqueada.   |
-|Skype Empresarial Móvil   |Usuario federado   |Un usuario federado está en una llamada VoIP a un usuario Skype Empresarial Mobile Location-Based Routing; cualquiera de las partes se escala a un contacto caa.   |La llamada escalada está bloqueada, con un mensaje de error adecuado.   |
+|Skype Empresarial Móvil   |Usuario federado   |Un usuario federado está en llamada de voz a un usuario de Skype Empresarial Mobile Location-Based Routing; un usuario de Skype Empresarial Mobile escala a un usuario RTC.   |La llamada está bloqueada.   |
+|Skype Empresarial Móvil   |Usuario federado   |Un usuario federado está en una llamada VoIP a un usuario de Skype Empresarial Mobile Location-Based Routing; cualquiera de las partes escala a un contacto caa.   |La llamada escalada está bloqueada, con un mensaje de error adecuado.   |
 |Skype Empresarial Móvil   |Usuario federado   |Un usuario federado está en una llamada VoIP a un usuario de Skype Empresarial Mobile Location-Based Routing y el usuario federado escala a un usuario RTC.   |La escalación se permitirá o no se permitirá en función del Location-Based enrutamiento del usuario federado. La Skype Empresarial aplicación del Location-Based de enrutamiento móvil no lleva a ninguna acción.   |
 
 ### <a name="delegation"></a>Delegación

@@ -1,25 +1,20 @@
 ---
 title: Asignar una directiva de PIN por usuario en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 'Resumen: Certificados de fase AV y OAuth para Skype Empresarial Server.'
-ms.openlocfilehash: 51bf650d907923c83801799a28220eae9a1f385c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845483"
 ---
+
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Asignar una directiva de PIN por usuario en Skype Empresarial Server
 
 **Resumen:** Certificados de FASE AV y OAuth para Skype Empresarial Server.
@@ -67,7 +62,7 @@ Tras crear al menos una directiva de PIN por usuario, emplee los procedimientos 
 7. En **Asignar directivas**, en **Directiva de PIN**, realice uno de los procedimientos siguientes:
     
     > [!NOTE]
-    > Dado que hay varias directivas que  puede configurar mediante el cuadro de diálogo Asignar directivas, está seleccionada de forma predeterminada para todas las **\<Keep as is\>** directivas del cuadro de diálogo. Para seguir utilizando la directiva asignada anteriormente al usuario, no efectúe cambios en esta configuración.
+    > Dado que hay varias directivas que puede configurar mediante el cuadro de  diálogo Asignar directivas, **\<Keep as is\>** está seleccionada de forma predeterminada para todas las directivas del cuadro de diálogo. Para seguir utilizando la directiva asignada anteriormente al usuario, no efectúe cambios en esta configuración.
   
    - Permitir Skype Empresarial Server elegir automáticamente la directiva de nivel global o, si se define, la directiva de nivel de sitio.
     
@@ -80,7 +75,7 @@ Tras crear al menos una directiva de PIN por usuario, emplee los procedimientos 
     
 ## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Asignar una directiva Per-User PIN mediante cmdlets de Windows PowerShell datos
 
-Puede asignar directivas de PIN por usuario mediante Windows PowerShell y el cmdlet **Grant-CsPinPolicy.** Puede ejecutar este cmdlet desde el shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información acerca del Windows PowerShell remoto para conectarse a Skype Empresarial Server, vea Administración remota [de PowerShell de Microsoft Lync"](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). El proceso es el mismo en Skype Empresarial Server.
+Puede asignar directivas de PIN por usuario mediante Windows PowerShell y el cmdlet **Grant-CsPinPolicy**. Puede ejecutar este cmdlet desde el shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información acerca del Windows PowerShell para conectarse a Skype Empresarial Server, vea [Administración remota de PowerShell de Microsoft Lync"](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). El proceso es el mismo en Skype Empresarial Server.
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>Asignar una directiva de PIN por usuario a un único usuario
 
@@ -106,8 +101,8 @@ Puede asignar directivas de PIN por usuario mediante Windows PowerShell y el cmd
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-Para obtener más información, [vea Grant-CsPinPolicy](/powershell/module/skype/grant-cspinpolicy?view=skype-ps).
+Para obtener más información, [consulte Grant-CsPinPolicy](/powershell/module/skype/grant-cspinpolicy?view=skype-ps).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Crear una nueva directiva de PIN en Skype Empresarial Server](create-a-new-pin-policy.md)

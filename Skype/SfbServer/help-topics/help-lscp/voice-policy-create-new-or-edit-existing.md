@@ -1,27 +1,22 @@
 ---
 title: Directiva de voz Crear nuevo o editar existente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.VoicePolicyEdit
+  - ms.lync.lscp.VoicePolicyEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb07d783-e084-4256-a928-a67a6ac006cb
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 2d5aee2184fcb687f7f4b83622978b2852893d30
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835438"
 ---
+
 # <a name="voice-policy-create-new-or-edit-existing"></a>Directiva de voz: Crear nuevos o editar los existentes
 
 ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.

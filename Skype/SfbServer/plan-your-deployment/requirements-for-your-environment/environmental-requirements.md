@@ -1,34 +1,29 @@
 ---
 title: Requisitos del entorno Skype Empresarial Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumen: configure los requisitos que no son del servidor para Skype Empresarial Server 2015. Hay una variedad de cosas que querrá configurar antes de realizar la implementación, incluidos Active Directory, DNS, Certs y Fileshares.'
-ms.openlocfilehash: 1d6e43e9ca65af85c37f262900805d9e0d3b8bfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834988"
 ---
+
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Requisitos del entorno Skype Empresarial Server 2015
  
 **Resumen:** Configure los requisitos que no son del servidor para Skype Empresarial Server 2015. Hay una variedad de cosas que querrá configurar antes de realizar la implementación, incluidos Active Directory, DNS, Certs y Fileshares.
   
-¿Cuál es un requisito ambiental para Skype Empresarial Server 2015? Bueno, hemos puesto todo lo que no está directamente relacionado con el servidor en este tema, por lo que no tiene que hacer tanto clic alrededor. Si está buscando requisitos previos del servidor, puede consultar el documento Requisitos del [](../../plan-your-deployment/network-requirements/network-requirements.md) servidor [para Skype Empresarial Server 2015.](server-requirements.md) La planeación de redes también se documenta por separado. De lo contrario, esto es lo que tenemos en este artículo:
+¿Cuál es un requisito ambiental para Skype Empresarial Server 2015? Bueno, hemos puesto todo lo que no está directamente relacionado con el servidor en este tema, por lo que no tiene que hacer tanto clic alrededor. Si está buscando requisitos previos del servidor, consulte el documento Requisitos del servidor [para Skype Empresarial Server 2015](server-requirements.md)[. La](../../plan-your-deployment/network-requirements/network-requirements.md) planeación de redes también se documenta por separado. De lo contrario, esto es lo que tenemos en este artículo:
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -57,7 +52,7 @@ Aunque muchos datos de configuración para servidores y servicios se almacenan e
 
 Por lo tanto, ¿qué sistema operativo de controlador de dominio se puede usar? Tenemos la siguiente lista:
 
-- Windows Server 2019 (debe tener Skype Empresarial Server 2015 Cumulative Update 5 o posterior)
+- Windows Server 2019 (debe tener Skype Empresarial Server actualización acumulativa de 2015 5 o posterior)
   
 - Windows Server 2016
     
@@ -71,7 +66,7 @@ Por lo tanto, ¿qué sistema operativo de controlador de dominio se puede usar? 
     
 Ahora, el nivel funcional de dominio de cualquier dominio en el que implemente Skype Empresarial Server 2015 y el nivel funcional del bosque de cualquier bosque en el que implemente Skype Empresarial Server 2015, debe ser uno de los siguientes:
 
-- Windows Server 2019 (debe tener Skype Empresarial Server 2015 Cumulative Update 5 o posterior)
+- Windows Server 2019 (debe tener Skype Empresarial Server actualización acumulativa de 2015 5 o posterior)
   
 - Windows Server 2016
     
@@ -87,7 +82,7 @@ Ahora, el nivel funcional de dominio de cualquier dominio en el que implemente S
     
 ¿Puede tener controladores de dominio de solo lectura en estos entornos? Seguro, siempre y cuando también haya controladores de dominio grabables disponibles en el mismo sitio que el Skype Empresarial Server.
   
-Ahora, es importante saber que Skype Empresarial Server 2015 no admite dominios con etiqueta única. ¿Cuáles son? Si tiene un dominio raíz etiquetado como contoso.local, estará bien. Si tiene un dominio raíz que se acaba de llamar local, no funcionará y no se admite como resultado. Un poco más sobre esto se ha escrito [en este artículo de Knowledge Base](https://support.microsoft.com/kb/300684/en-us).
+Ahora, es importante saber que Skype Empresarial Server 2015 no admite dominios con etiqueta única. ¿Cuáles son? Si tiene un dominio raíz etiquetado como contoso.local, estará bien. Si tiene un dominio raíz que se acaba de llamar local, no funcionará y no se admite como resultado. Se ha escrito un poco más sobre esto [en este artículo de Knowledge Base](https://support.microsoft.com/kb/300684/en-us).
   
 Skype Empresarial Server 2015 tampoco admite el cambio de nombre de dominios. If you've really got to do that, then you'll need to uninstall Skype Empresarial Server 2015, do the domain rename, and then reinstall Skype Empresarial Server 2015.
   
@@ -161,7 +156,7 @@ Para implementar Skype Empresarial Server 2015 en este tipo de topología, crear
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology-with-exchange-online"></a>Varios bosques en una topología Skype Empresarial bosque de recursos con Exchange Online
 <a name="BKMK_multipleforestopology"> </a>
 
-Esta topología es similar a la topología descrita en [Multiple forests in a Skype Empresarial resource forest topology](environmental-requirements.md#BKMK_multipleforestopology).
+Esta topología es similar a la topología descrita en Varios bosques en una [topología Skype Empresarial bosque de recursos](environmental-requirements.md#BKMK_multipleforestopology).
   
 En esta topología, hay uno o más bosques de usuarios y Skype Empresarial Server se implementa en un bosque de recursos dedicado. Exchange Server puede implementarse localmente en el mismo bosque de recursos o en un bosque diferente y configurarse para servicios híbridos con Exchange Online, o los servicios de correo electrónico pueden ser proporcionados exclusivamente por Exchange Online para las cuentas locales. No hay ningún diagrama disponible para esta topología.
   
@@ -172,7 +167,7 @@ En esta topología, hay uno o más bosques de usuarios y Skype Empresarial Serve
   
 Con este escenario, hay varios bosques locales, con una topología de bosque de recursos. Existe una relación de plena confianza entre los bosques de Active Directory. La Azure Active Directory Conectar se usa para sincronizar cuentas entre los bosques de usuarios locales y Microsoft 365 o Office 365.
   
- La organización también tiene Microsoft 365 o Office 365 y [](/previous-versions/azure/azure-services/dn832695(v=azure.100)) usa Azure Active Directory Conectar para sincronizar sus cuentas locales con Microsoft 365 o Office 365. Los usuarios que están habilitados para Skype Empresarial están habilitados mediante Microsoft 365 o Office 365 y Skype Empresarial Online. Skype Empresarial Server no se implementa localmente.
+ La organización también tiene Microsoft 365 o Office 365 y usa Azure Active Directory Conectar para sincronizar sus cuentas locales con [](/previous-versions/azure/azure-services/dn832695(v=azure.100)) Microsoft 365 o Office 365. Los usuarios que están habilitados para Skype Empresarial están habilitados mediante Microsoft 365 o Office 365 y Skype Empresarial Online. Skype Empresarial Server no se implementa localmente.
   
 La autenticación de inicio de sesión único la proporciona una granja de servicios de federación de Active Directory ubicada en el bosque de usuarios.
   
@@ -264,7 +259,7 @@ Por lo tanto, eso es mucho que pensar y, definitivamente, hay una variedad de ni
   
 ### <a name="certificates-for-your-internal-servers"></a>Certificados para los servidores internos
 
-Necesitará certificados para la mayoría de los servidores internos y lo más probable es que los obtenga de una CA interna (es decir, uno ubicado en su dominio). Si lo desea, puede solicitar estos certificados a una CA externa (una ubicada en Internet). Si se pregunta a qué entidad de certificación pública [](../../../SfbPartnerCertification/certification/services-ssl.md) debe ir, consulte la lista de asociados de certificados de comunicaciones unificadas.
+Necesitará certificados para la mayoría de los servidores internos y lo más probable es que los obtenga de una CA interna (es decir, uno ubicado en su dominio). Si lo desea, puede solicitar estos certificados a una CA externa (una ubicada en Internet). Si se pregunta a qué entidad de certificación pública debe ir, consulte la lista de asociados de certificados de comunicaciones [unificadas](../../../SfbPartnerCertification/certification/services-ssl.md) .
   
 También necesitará certificados cuando Skype Empresarial Server 2015 se comunique con otras aplicaciones y servidores, como Microsoft Exchange Server. Obviamente, esto tendrá que ser un certificado que estas otras aplicaciones y servidores puedan usar de forma compatible. Skype Empresarial Server 2015 y otros productos de Microsoft admiten el protocolo de autorización abierta (OAuth) para la autenticación y autorización de servidor a servidor. Si está interesado en esto, tenemos un artículo de planeación adicional para OAuth y Skype Empresarial Server 2015.
   
@@ -283,36 +278,36 @@ Certificados para servidores Standard Edition:
 |**Certificado**|**Nombre del sujeto/Nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo de servidores y FQDN del servidor  <br/> Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |En el servidor Standard Edition, el FQDN del servidor es igual que el FQDN del grupo de servidores.  <br/> El asistente detecta los dominios SIP que especificó durante la instalación y los agrega automáticamente como nombres alternativos de sujeto.  <br/> También puede usar este certificado para la autenticación de servidor a servidor.  <br/> |
-|Web interno  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web interno (que es el mismo que el FQDN del servidor)  <br/> AND  <br/> • Reunirse con direcciones URL sencillas  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN= \* .contoso.com  <br/> |No puede invalidar el FQDN web interno en el Generador de topologías.  <br/> Si tiene varias direcciones URL sencillas de Meet, debe incluirlas todas como SAN.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
-|Web externo  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web externo  <br/> AND  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Reunirse con direcciones URL sencillas por dominio SIP  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Si tiene varias direcciones URL sencillas de Meet, debe incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
+|Web interno  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web interno (que es el mismo que el FQDN del servidor)  <br/> AND  <br/> • Reunirse con direcciones URL sencillas  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN=\*.contoso.com  <br/> |No puede invalidar el FQDN web interno en el Generador de topologías.  <br/> Si tiene varias direcciones URL sencillas de Meet, debe incluirlas todas como SAN.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
+|Web externo  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web externo  <br/> AND  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Reunirse con direcciones URL sencillas por dominio SIP  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com  <br/> |Si tiene varias direcciones URL sencillas de Meet, debe incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
    
 Certificados para servidores front-end en un grupo Enterprise Edition front-end:
   
 |**Certificado**|**Nombre del sujeto/Nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo de servidores y FQDN del servidor  <br/> Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.  <br/> También puede usar este certificado para la autenticación de servidor a servidor.  <br/> |
-|Web interno  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web interno (que NO es el mismo que el FQDN del servidor)  <br/> • FQDN de servidor  <br/> • Skype Empresarial FQDN del grupo de servidores  <br/> AND  <br/> • Reunirse con direcciones URL sencillas  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN= \* .contoso.com  <br/> |Si tiene varias direcciones URL sencillas de Meet, debe incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
-|Web externo  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web externo  <br/> AND  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Si tiene varias direcciones URL sencillas de Meet, debe incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
+|Web interno  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web interno (que NO es el mismo que el FQDN del servidor)  <br/> • FQDN de servidor  <br/> • Skype Empresarial FQDN del grupo de servidores  <br/> AND  <br/> • Reunirse con direcciones URL sencillas  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=\*.contoso.com  <br/> |Si tiene varias direcciones URL sencillas de Meet, debe incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
+|Web externo  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web externo  <br/> AND  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com  <br/> |Si tiene varias direcciones URL sencillas de Meet, debe incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
    
 Certificados para el director:
   
 |**Certificado**|**Nombre del sujeto/Nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|
 |Predeterminado  <br/> |Grupo de servidores Director  <br/> |FQDN del director, FQDN del grupo de directores.  <br/> Si este grupo es el servidor de inicio de sesión automático para clientes y se requiere una coincidencia de DNS estricta en la directiva de grupo, también necesitará entradas para sip.sipdomain (para cada dominio SIP que tenga).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> Si este grupo de servidores del director es el servidor de inicio automático de sesión de los clientes y se necesita una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
-|Web interno  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web interno (que es el mismo que el FQDN del servidor)  <br/> • FQDN de servidor  <br/> • Skype Empresarial FQDN del grupo de servidores  <br/> AND  <br/> • Reunirse con direcciones URL sencillas  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN= \* .contoso.com  <br/> |
-|Web externo  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web externo  <br/> AND  <br/> • Reunirse con direcciones URL sencillas por dominio SIP  <br/> • Dirección URL sencilla de acceso telefónico  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |El FQDN web externo de Director debe ser diferente del grupo de servidores front-end o el servidor front-end.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN= \* .contoso.com  <br/> |
+|Web interno  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web interno (que es el mismo que el FQDN del servidor)  <br/> • FQDN de servidor  <br/> • Skype Empresarial FQDN del grupo de servidores  <br/> AND  <br/> • Reunirse con direcciones URL sencillas  <br/> • Dirección URL sencilla de acceso telefónico  <br/> • Dirección URL sencilla de administración  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=\*.contoso.com  <br/> |
+|Web externo  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN web externo  <br/> AND  <br/> • Reunirse con direcciones URL sencillas por dominio SIP  <br/> • Dirección URL sencilla de acceso telefónico  <br/> OR  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |El FQDN web externo de Director debe ser diferente del grupo de servidores front-end o el servidor front-end.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=\*.contoso.com  <br/> |
    
 Certificados para servidor de mediación independiente:
   
 |**Certificado**|**Nombre del sujeto/Nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|
-|Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo de servidores  <br/> FQDN del servidor miembro del grupo  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
+|Predeterminada  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo de servidores  <br/> FQDN del servidor miembro del grupo  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
    
 Certificados para la aplicación de sucursal con funciones de supervivencia:
   
 |**Certificado**|**Nombre del sujeto/Nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|
-|Predeterminado  <br/> |FQDN de la aplicación  <br/> |SIP.\<sipdomain\> (solo necesita una entrada por dominio SIP)  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
+|Predeterminada  <br/> |FQDN de la aplicación  <br/> |SIP.\<sipdomain\> (solo necesita una entrada por dominio SIP)  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>Certificados para el servidor de chat persistente
 
@@ -320,7 +315,7 @@ Al instalar el servidor de chat persistente, necesitará un certificado emitido 
   
 ### <a name="certificates-for-external-user-access-edge"></a>Certificados para el acceso de usuarios externos (Edge)
 
-Skype Empresarial Server 2015 admite el uso de un único certificado público para interfaces externas perimetrales de acceso y conferencia web, además del servicio de autenticación A/V, que se proporciona **a** través de los servidores perimetrales. La interfaz interna perimetral normalmente usará un certificado privado emitido por la CA interna, pero si lo prefiere, también puede usar un certificado público para esto, si es de una CA de confianza.
+Skype Empresarial Server 2015 admite el uso de un único certificado público para interfaces externas perimetrales de acceso y conferencia web, además del servicio de autenticación A/V, que se **proporciona a través** de los servidores perimetrales. La interfaz interna perimetral normalmente usará un certificado privado emitido por la CA interna, pero si lo prefiere, también puede usar un certificado público para esto, si es de una CA de confianza.
   
 El proxy inverso (RP) también va a usar un certificado público y cifra la comunicación de su RP a los clientes, y el RP a los servidores internos mediante HTTP (o más exactamente, TLS sobre HTTP).
   
@@ -349,7 +344,7 @@ Requisitos de certificado de grupo de directores y grupo de servidores front-end
 |Dirección URL del servicio de detección automática interna  <br/> |SAN=lyncdiscoverinternal.\<sipdomain\>  <br/> |
 |Dirección URL del servicio de detección automática externa  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
    
-También puede usar SAN= \* .\<sipdomain\>
+También puede usar SAN=\*.\<sipdomain\>
   
 Requisitos de certificado de proxy inverso (CA pública):
   
@@ -367,9 +362,9 @@ Este SAN debe asignarse al certificado asignado al agente de escucha SSL en el p
 
 Skype Empresarial Server 2015 puede usar el mismo recurso compartido de archivos para todo el almacenamiento de archivos. Debe tener en cuenta lo siguiente:
   
-- Un recurso compartido de archivos debe estar en almacenamiento conectado directo (DAS) o en una red de área de almacenamiento (SAN), lo que incluye el Sistema de archivos distribuido (DFS), así como una matriz redundante de discos independientes (RAID) para almacenes de archivos. Para obtener más información sobre DFS Windows Server 2012, consulte [esta página DFS](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)).
+- Un recurso compartido de archivos debe estar en almacenamiento conectado directo (DAS) o en una red de área de almacenamiento (SAN), lo que incluye el Sistema de archivos distribuido (DFS), así como una matriz redundante de discos independientes (RAID) para almacenes de archivos. Para obtener más información sobre DFS Windows Server 2012, consulte [esta página dfs](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)).
     
-- Se recomienda un clúster compartido para el recurso compartido de archivos. Si usa uno, debe agrupar Windows Server 2012 o Windows Server 2012 R2. Windows Server 2008 R2 también es aceptable. ¿Por qué la última Windows? Es posible que las versiones anteriores no tengan los permisos adecuados para habilitar todas las características. Puede usar el Administrador de clústeres [](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) para crear los recursos compartidos de archivos y este artículo Sobre cómo crear recursos compartidos de archivos en un clúster le ayudará con esos detalles.
+- Se recomienda un clúster compartido para el recurso compartido de archivos. Si usa uno, debe agrupar Windows Server 2012 o Windows Server 2012 R2. Windows Server 2008 R2 también es aceptable. ¿Por qué la última Windows? Es posible que las versiones anteriores no tengan los permisos adecuados para habilitar todas las características. Puede usar el Administrador de clústeres para crear los recursos compartidos [](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) de archivos y este artículo Sobre cómo crear recursos compartidos de archivos en un clúster le ayudará con esos detalles.
     
 > [!CAUTION] 
 > Debe saber que no se admite el uso del almacenamiento conectado a la red (NAS) como recurso compartido de archivos, por lo que use una de las opciones enumeradas anteriormente. 

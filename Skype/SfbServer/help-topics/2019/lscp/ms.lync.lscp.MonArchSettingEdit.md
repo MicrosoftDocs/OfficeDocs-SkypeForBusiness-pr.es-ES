@@ -1,27 +1,22 @@
 ---
 title: Configuración de archivado Crear nuevo o editar existente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.MonArchSettingEdit
+  - ms.lync.lscp.MonArchSettingEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Las configuraciones de archivado se usan para controlar las opciones de archivado de la implementación. Las configuraciones de archivado incluyen la configuración global y, de forma opcional, una o varias configuraciones de sitio y grupo:'
-ms.openlocfilehash: 145d86cce250204a219bd9e983a07765259b9144
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831524"
 ---
+
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuración de archivado: Crear nuevos o editar los existentes
  
 Las configuraciones de archivado se usan para controlar las opciones de archivado de la implementación. Las configuraciones de archivado incluyen la configuración global y, de forma opcional, una o varias configuraciones de sitio y grupo:
@@ -54,7 +49,7 @@ Para configurar los ajustes para una nueva configuración de archivado o una exi
     
   - **Deshabilitar archivado**
     
-- **Bloquear sesiones de mensajería instantánea (MI)** o conferencia web si se produce un error en el archivado Entre los errores se incluyen los siguientes:
+- **Bloquear sesiones de mensajería instantánea (MI) o conferencia web si se produce un error en el archivado** Entre los errores se incluyen los siguientes:
     
   - **MI** Un error podría ser una base de datos completa o un problema con el servicio de almacenamiento. En este caso, la mensajería instantánea se bloquea para usuarios que tienen el archivado habilitado.
     
@@ -62,7 +57,7 @@ Para configurar los ajustes para una nueva configuración de archivado o una exi
     
     Tanto el servicio de mensajería instantánea como de conferencias se recuperan automáticamente después de que se corrigen los errores.
     
-- **Integración Exchange Microsoft** Seleccione esta opción si tiene usuarios que están en el Exchange. Con esta opción, Exchange se usa para almacenar datos para esos usuarios, si sus buzones se han colocado en In-Place retención. Si todos los usuarios se encuentran en Exchange, no es necesario configurar bases de datos independientes SQL Server para el almacenamiento de datos de archivado.
+- **Integración Exchange Microsoft** Seleccione esta opción si tiene usuarios que se encuentran en Exchange. Con esta opción, Exchange se usa para almacenar datos para esos usuarios, si sus buzones se han colocado en In-Place retención. Si todos los usuarios se encuentran en Exchange, no es necesario configurar bases de datos independientes SQL Server para el almacenamiento de datos de archivado.
     
 - **Habilitar la depuración de datos de archivado** Seleccione esta opción para habilitar la depuración y especificar las opciones de depuración, que incluyen lo siguiente:
     
@@ -73,5 +68,5 @@ Para configurar los ajustes para una nueva configuración de archivado o una exi
     > [!NOTE]
     > Si habilita la integración de Microsoft Exchange, la depuración de usuarios ubicados en Exchange y con sus buzones colocados en In-Place la retención se controla mediante Exchange. La única excepción es para los archivos de conferencia, que se almacenan en el recurso compartido de archivos de Lync Server. Estos archivos se purgan del recurso compartido de solo después de que los archivos se hayan exportado (cargado a Exchange), si selecciona la opción para purgar datos después de que se exporten los datos de archivado o después de un número máximo especificado de días, si especifica un número máximo de días para la retención. 
   
-Para obtener más información sobre la característica y las funcionalidades de archivado, incluida la integración de Exchange, vea [Plan for archiving in Skype Empresarial Server](../../../plan-your-deployment/archiving/archiving.md), Deploy archiving for [Skype Empresarial Server](../../../deploy/deploy-archiving/deploy-archiving.md)y Manage archiving [in Skype Empresarial Server](../../../manage/archiving/archiving.md).
+Para obtener más información sobre la característica y las funcionalidades de archivado, incluida la integración de Exchange, vea [Plan for archiving in Skype Empresarial Server](../../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype Empresarial Server](../../../deploy/deploy-archiving/deploy-archiving.md) y [Manage archiving in Skype Empresarial Server](../../../manage/archiving/archiving.md).
 

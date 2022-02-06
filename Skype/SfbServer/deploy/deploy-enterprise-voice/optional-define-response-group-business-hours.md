@@ -1,25 +1,20 @@
 ---
 title: (Opcional) Definir el horario comercial del grupo de respuesta en Skype Empresarial
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: Cree o modifique el horario comercial del grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 0a7e22d02a4540973f2f3e3f2ea39fabe848f17c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850413"
 ---
+
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Opcional) Definir el horario comercial del grupo de respuesta en Skype Empresarial 
  
 Cree o modifique el horario comercial del grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial.
@@ -41,7 +36,7 @@ La configuración del horario comercial define cuándo el flujo de trabajo está
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
     
-2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 3. Para cada intervalo único de horas que desee definir, ejecute el comando siguiente:
     
@@ -64,7 +59,7 @@ La configuración del horario comercial define cuándo el flujo de trabajo está
    New-CsRgsHoursOfBusiness -Parent "ApplicationServer:Redmond.contoso.com" -Name "Help Desk Business Hours" -MondayHours1 $a -TuesdayHours1 $a -WednesdayHours1 $a -ThursdayHours1 $a -FridayHours1 $a -SaturdayHours1 $b -SaturdayHours2 $c
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [New-CsRgsTimeRange](/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   

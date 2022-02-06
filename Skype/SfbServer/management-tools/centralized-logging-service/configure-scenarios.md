@@ -1,26 +1,21 @@
 ---
 title: Configurar escenarios para el servicio de registro centralizado en Skype Empresarial Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Summary: Learn how to create, modify, and remove scenarios for the Centralized Logging Service in Skype Empresarial Server 2015.'
-ms.openlocfilehash: 10225be172d91aba18db29a1a6669cfbe8656fa6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855447"
 ---
+
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar escenarios para el servicio de registro centralizado en Skype Empresarial Server 2015
  
 **Resumen:** Obtenga información sobre cómo crear, modificar y quitar escenarios para el servicio de registro centralizado en Skype Empresarial Server 2015.
@@ -28,7 +23,7 @@ ms.locfileid: "60855447"
 Los escenarios definen el ámbito (es decir, global, sitio, grupo o equipo) y qué proveedores usar en el servicio de registro centralizado. Al usar escenarios, puede habilitar o deshabilitar el seguimiento de proveedores (por ejemplo, S4, SIPStack, mensajería instantánea y presencia). Al configurar un escenario, puede agrupar todos los proveedores de una colección lógica determinada que aborda una condición para un problema concreto. Si encuentra que es necesario modificar un escenario para satisfacer sus necesidades de solución de problemas y registro, las herramientas de depuración de Skype Empresarial Server 2015 le proporcionan un módulo de Windows PowerShell denominado ClsScenarioEdit.psm1 que contiene una función denominadaEdit-CsClsScenario. El propósito del módulo es editar las propiedades del escenario en cuestión. En este tema se muestran ejemplos del funcionamiento del módulo. Descargue las Skype Empresarial Server de depuración de 2015 antes [de](https://go.microsoft.com/fwlink/p/?LinkId=285257) continuar.
   
 > [!IMPORTANT]
-> Para cualquier ámbito determinado (sitio, global, grupo o equipo), puede ejecutar un máximo de dos escenarios en un momento dado. Para determinar qué escenarios se están ejecutando actualmente, use Windows PowerShell [y Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps). Al usar Windows PowerShell [y Set-CsClsScenario,](/powershell/module/skype/set-csclsscenario?view=skype-ps)puede cambiar dinámicamente los escenarios que se están ejecutando. Puede modificar los escenarios que se ejecutan durante una sesión de registro para ajustar o refinar los datos que está recopilando y de qué proveedores. 
+> Para cualquier ámbito determinado (sitio, global, grupo o equipo), puede ejecutar un máximo de dos escenarios en un momento dado. Para determinar qué escenarios se están ejecutando actualmente, use Windows PowerShell [y Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps). Al usar Windows PowerShell [y Set-CsClsScenario](/powershell/module/skype/set-csclsscenario?view=skype-ps), puede cambiar dinámicamente los escenarios que se están ejecutando. Puede modificar los escenarios que se ejecutan durante una sesión de registro para ajustar o refinar los datos que está recopilando y de qué proveedores. 
   
 Para ejecutar las funciones del servicio de registro centralizado mediante el Shell de administración de Skype Empresarial Server, debe ser miembro del CsAdministrator o de los grupos de seguridad de control de acceso basado en roles (RBAC) de CsServerAdministrator o de un rol RBAC personalizado que contenga cualquiera de estos dos grupos. Para devolver una lista de todos los roles RBAC a los que se ha asignado este cmdlet, incluidos los roles RBAC personalizados que haya creado usted mismo, ejecute el siguiente comando desde el Shell de administración de Skype Empresarial Server o el símbolo del sistema Windows PowerShell:
   
@@ -44,7 +39,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 El resto de este tema se centra en cómo definir un escenario, modificar un escenario, recuperar qué escenarios se están ejecutando, quitar un escenario y especificar qué contiene un escenario para optimizar la solución de problemas. Puede usar el Shell Skype Empresarial Server administración para emitir Windows PowerShell comandos. Al usar Windows PowerShell, puede definir nuevos escenarios para su uso en las sesiones de registro.
   
-Como se introdujo en el Servicio de registro [centralizado en Skype Empresarial 2015,](centralized-logging-service.md)los elementos de un escenario son:
+Como se introdujo en [el Servicio de registro centralizado en Skype Empresarial 2015](centralized-logging-service.md), los elementos de un escenario son:
   
 - **Proveedores** Si está familiarizado con OCSLogger, los proveedores son los componentes que elige para decir a OCSLogger de qué debe recopilar registros el motor de seguimiento. Los proveedores son los mismos componentes y en muchos casos tienen los mismos nombres que los componentes de OCSLogger. Si no está familiarizado con OCSLogger, los proveedores son componentes específicos del rol de servidor de los que el servicio de registro centralizado puede recopilar registros. Para obtener más información sobre la configuración de proveedores, vea [Configure providers for Centralized Logging Service in Skype Empresarial Server 2015](configure-providers.md).
     
@@ -53,11 +48,11 @@ Como se introdujo en el Servicio de registro [centralizado en Skype Empresarial 
     Opcionalmente, puede usar los parámetros -Name y -Parent. El parámetro Name se define para identificar de forma única el escenario. Si usa Name, también debe usar Parent para agregar el escenario a un sitio o global. 
     
     > [!IMPORTANT]
-    > Si usa los parámetros Name y Parent, no puede usar el **parámetro -Identity.**
+    > Si usa los parámetros Name y Parent, no puede usar el **parámetro -Identity** .
   
 ### <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a>Para crear un escenario con el cmdlet New-CsClsScenario
 
-1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 2. Para crear un escenario para una sesión de registro, utilice [New-CsClsProvider](/powershell/module/skype/new-csclsprovider?view=skype-ps) y defina el nombre del escenario (es decir, un nombre de identificación único). Elija un tipo de formato de registro de WPP (es decir, el preprocesador de seguimiento del software de Windows; es el predeterminado), EventLog (el formato de registro de eventos de Windows) o IISLog (el archivo de formato basado en el formato de archivo de registro de IIS). A continuación, defina Level y Flags tal como se definen en este tema los niveles de registro y las etiquetas, respectivamente.
     
@@ -83,7 +78,7 @@ Como se introdujo en el Servicio de registro [centralizado en Skype Empresarial 
 
 ### <a name="to-create-a-new-scenario-with-multiple-providers-with-the-new-csclsscenario-cmdlet"></a>Para crear un escenario con varios proveedores con el cmdlet New-CsClsScenario
 
-1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 2. Por cada ámbito puede haber un máximo de dos escenarios. Sin embargo, el número de proveedores no está limitado. Para este ejemplo, supongamos que ha creado tres proveedores y que desea asignarlos al escenario que está definiendo. Los nombres de la variable "provider" son LyssProvider, ABServerProvider y SIPStackProvider. Para definir y asignar varios proveedores a un escenario, escriba lo siguiente en un Skype Empresarial Server shell de administración o en Windows PowerShell símbolo del sistema:
     
@@ -92,11 +87,11 @@ Como se introdujo en el Servicio de registro [centralizado en Skype Empresarial 
    ```
 
     > [!NOTE]
-    > Como se conoce en Windows PowerShell, la convención para crear una tabla hash de valores mediante se conoce `@{<variable>=<value1>, <value2>, <value>…}` como "salpicar". Para obtener más información acerca de la Windows PowerShell, vea [https://go.microsoft.com/fwlink/p/?LinkId=267760](/previous-versions/technet-magazine/gg675931(v=msdn.10)) . 
+    > Como se conoce en Windows PowerShell, la convención para crear una tabla hash `@{<variable>=<value1>, <value2>, <value>…}` de valores mediante se conoce como "salpicar". Para obtener más información acerca de la Windows PowerShell, vea [https://go.microsoft.com/fwlink/p/?LinkId=267760](/previous-versions/technet-magazine/gg675931(v=msdn.10)). 
   
 ### <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>Para modificar un escenario existente con el cmdlet Set-CsClsScenario
 
-1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 2. Por cada ámbito puede haber un máximo de dos escenarios. Puede cambiar los escenarios que estén en ejecución en cualquier momento, incluso si hay una sesión de captura de registros en proceso. Si redefine los escenarios que se están ejecutándose, la sesión de registro actual dejará de usar el escenario que se haya quitado y comenzará a usar el escenario nuevo. No obstante, la información de registro que se capturó con el escenario que se haya quitado se mantendrá en los registros capturados. Para definir un nuevo escenario, haga lo siguiente (es decir, suponiendo que se agrega un proveedor ya definido denominado "S4Provider"):
     
@@ -130,7 +125,7 @@ Como se introdujo en el Servicio de registro [centralizado en Skype Empresarial 
 
 ### <a name="to-remove-an-existing-scenario-with-the-remove-csclsscenario-cmdlet"></a>Para quitar un escenario existente con el cmdlet Remove-CsClsScenario
 
-1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 2. Si desea quitar un escenario que se definió previamente, escriba lo siguiente:
     
@@ -147,7 +142,7 @@ Como se introdujo en el Servicio de registro [centralizado en Skype Empresarial 
 El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero los datos de seguimiento que se hayan capturado seguirán disponibles en los registros para su consulta.
 ### <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clsscenarioeditpsm1-module"></a>Para cargar y descargar el cmdlet Edit-CsClsScenario con el módulo ClsScenarioEdit.psm1
 
-1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
     > [!IMPORTANT]
     > El módulo ClsScenarioEdit.psm1 se proporciona como una descarga web independiente. El módulo forma parte de las Skype Empresarial Server de depuración de 2015. De forma predeterminada, las herramientas de depuración se instalan en el directorio C:\Program Files\Skype Empresarial Server 2015\Debugging Tools. 
@@ -159,7 +154,7 @@ El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero los dat
    ```
 
     > [!TIP]
-    > La carga correcta del módulo le devuelve al Windows PowerShell de comandos. Para confirmar que el módulo está cargado y que Edit-CsClsScenario está disponible, escriba  `Get-Help Edit-CsClsScenario` . Debería ver una muestra general de la sintaxis de EditCsClsScenario. 
+    > La carga correcta del módulo le devuelve al Windows PowerShell de comandos. Para confirmar que el módulo está cargado y que Edit-CsClsScenario está disponible, escriba  `Get-Help Edit-CsClsScenario`. Debería ver una muestra general de la sintaxis de EditCsClsScenario. 
   
 3. Para descargar los módulos, escriba:
     
@@ -168,11 +163,11 @@ El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero los dat
    ```
 
     > [!TIP]
-    > La descarga correcta del módulo le devuelve al Windows PowerShell de comandos. Para confirmar que el módulo está descargado, escriba  `Get-Help Edit-CsClsScenario` . Windows PowerShell buscará la ayuda del cmdlet y producirá un error. 
+    > La descarga correcta del módulo le devuelve al Windows PowerShell de comandos. Para confirmar que el módulo está descargado, escriba  `Get-Help Edit-CsClsScenario`. Windows PowerShell buscará la ayuda del cmdlet y producirá un error. 
   
 ### <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a>Para quitar un proveedor existente de un escenario con el módulo Edit-ClsController
 
-1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 2. En el Windows PowerShell, escriba:
     
@@ -181,7 +176,7 @@ El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero los dat
    ```
 
     > [!TIP]
-    > La carga correcta del módulo le devuelve al Windows PowerShell de comandos. Para confirmar que el módulo está cargado y que Edit-CsClsScenario está disponible, escriba  `Get-Help Edit-CsClsScenario` . Debería ver una muestra general de la sintaxis de EditCsClsScenario. 
+    > La carga correcta del módulo le devuelve al Windows PowerShell de comandos. Para confirmar que el módulo está cargado y que Edit-CsClsScenario está disponible, escriba  `Get-Help Edit-CsClsScenario`. Debería ver una muestra general de la sintaxis de EditCsClsScenario. 
   
 3. Para quitar un proveedor del escenario AlwaysOn, escriba:
     
@@ -205,7 +200,7 @@ El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero los dat
     
 ### <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>Para agregar un proveedor a un escenario con el módulo Edit-ClsController
 
-1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 2. Para agregar un proveedor al escenario AlwaysOn, escriba:
     

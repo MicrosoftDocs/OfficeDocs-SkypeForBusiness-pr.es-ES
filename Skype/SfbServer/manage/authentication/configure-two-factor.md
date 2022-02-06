@@ -1,48 +1,43 @@
 ---
 title: Configurar la autenticación en dos fases en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Resumen: configure la autenticación en dos fases en Skype Empresarial Server.'
-ms.openlocfilehash: 1e28c88f28d765737415b01d82e2e8a7621c3744
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844253"
 ---
+
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Configurar la autenticación en dos fases en Skype Empresarial Server
 
 **Resumen:** Configure la autenticación en dos fases Skype Empresarial Server.
 
-En las secciones siguientes se describen los pasos necesarios para configurar la autenticación en dos fases para la implementación. Para obtener más información acerca de la autenticación en dos [fases, vea Enabling Office 365 multi-factor authentication for online administrators - Grid User Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).
+En las secciones siguientes se describen los pasos necesarios para configurar la autenticación en dos fases para la implementación. Para obtener más información acerca de la autenticación en dos [fases, consulte Enabling Office 365 multi-factor authentication for online administrators - Grid User Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).
 
 ## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>Configurar una entidad de Enterprise raíz para admitir la autenticación de tarjeta inteligente
 
 Los siguientes pasos describen cómo configurar una entidad de certificación raíz Enterprise para admitir la autenticación de tarjeta inteligente:
 
-Para obtener información sobre cómo instalar una ca raíz Enterprise, vea [Install an Enterprise Root Certification Authority](/previous-versions/windows/it-pro/windows-server-2003/cc776709(v=ws.10)).
+Para obtener información sobre cómo instalar una entidad de certificación raíz Enterprise, vea [Install an Enterprise Root Certification Authority](/previous-versions/windows/it-pro/windows-server-2003/cc776709(v=ws.10)).
 
 1. Inicie sesión en el equipo Enterprise ca con una cuenta de administrador de dominio.
 
 2. Inicie el Administrador del sistema y compruebe que el rol de inscripción web de entidad de certificación está instalado.
 
-3. En el **menú Herramientas administrativas,** abra la consola **de administración de entidad de** certificación.
+3. En el **menú Herramientas administrativas** , abra la consola **de administración de entidad de** certificación.
 
-4. En el panel navegación, expanda **Entidad de certificación**.
+4. En el panel de navegación, expanda **Entidad de certificación**.
 
-5. Haga clic con el botón **secundario en Plantillas de** certificado , seleccione **Nuevo** y, a continuación, seleccione Plantilla de certificado **para emitir**.
+5. Haga clic con el botón **secundario en Plantillas de** certificado, **seleccione Nuevo** y, a continuación, **seleccione Plantilla de certificado para emitir**.
 
-6. Seleccione **Agente de inscripción,** **Usuario de tarjeta inteligente** e Inicio de sesión de **tarjeta inteligente.**
+6. Seleccione **Agente de inscripción**, **Usuario de tarjeta inteligente** e **Inicio de sesión de tarjeta inteligente**.
 
 7. Haga clic en **Aceptar**.
 
@@ -66,7 +61,7 @@ Para obtener información sobre cómo instalar una ca raíz Enterprise, vea [Ins
 
 Un factor a tener en cuenta al implementar la autenticación en dos fases y la tecnología de tarjetas inteligentes es el costo de implementación. Windows 8 proporciona una serie de nuevas funcionalidades de seguridad y una de las características nuevas más interesantes es la compatibilidad con tarjetas inteligentes virtuales.
 
-Para los equipos equipados con un chip de módulo de plataforma segura (TPM) que cumple con la versión 1.2 de la especificación, las organizaciones ahora pueden obtener las ventajas del inicio de sesión con tarjeta inteligente sin realizar ninguna inversión adicional en hardware. Para obtener más información, vea [Using Virtual Smart Cards with Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).
+Para los equipos equipados con un chip de módulo de plataforma segura (TPM) que cumple con la versión 1.2 de la especificación, las organizaciones ahora pueden obtener las ventajas del inicio de sesión con tarjeta inteligente sin realizar ninguna inversión adicional en hardware. Para obtener más información, consulte [Using Virtual Smart Cards with Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).
 
 ### <a name="to-configure-windows-8-for-virtual-smart-cards"></a>Para configurar Windows 8 tarjetas inteligentes virtuales
 
@@ -76,7 +71,7 @@ Para los equipos equipados con un chip de módulo de plataforma segura (TPM) que
 
 3. Seleccione la **opción Buscar** y, a continuación, busque Símbolo del sistema.
 
-4. Haga clic con el **botón secundario en símbolo del** sistema y, a continuación, seleccione Ejecutar como **administrador**.
+4. Haga clic con el **botón secundario en el símbolo del** sistema y, a continuación, **seleccione Ejecutar como administrador**.
 
 5. Abra la consola de administración del módulo de plataforma segura (TPM) ejecutando el siguiente comando:
 
@@ -116,7 +111,7 @@ Para los equipos equipados con un chip de módulo de plataforma segura (TPM) que
 
 Por lo general, hay dos métodos para inscribir usuarios para la autenticación de tarjetas inteligentes. El método más sencillo implica que los usuarios se inscriban directamente para la autenticación de tarjetas inteligentes mediante la inscripción web, mientras que el método más complejo implica el uso de un agente de inscripción. Este tema se centra en la inscripción automática para certificados de tarjeta inteligente.
 
-Para obtener más información sobre la inscripción en nombre de los usuarios como agente de inscripción, vea Inscribir para certificados [en nombre de otros usuarios](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770802(v=ws.11)).
+Para obtener más información sobre cómo inscribirse en nombre de los usuarios como agente de inscripción, vea Inscribir para certificados [en nombre de otros usuarios](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770802(v=ws.11)).
 
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>Para inscribir usuarios para autenticación con tarjeta inteligente
 
@@ -124,26 +119,26 @@ Para obtener más información sobre la inscripción en nombre de los usuarios c
 
 2. Inicie Internet Explorer.
 
-3. Vaya a la **página Inscripción web de entidad de** certificación (por ejemplo, https://MyCA.contoso.com/certsrv) .
+3. Vaya a la **página Inscripción web de entidad de** certificación (por ejemplo, . https://MyCA.contoso.com/certsrv)
 
     > [!NOTE]
     > Si usas Internet Explorer 10, es posible que deba ver este sitio web en modo de compatibilidad.
 
-4. En la **página de** bienvenida, seleccione Solicitar **un certificado**.
+4. En la **página de** bienvenida, seleccione **Solicitar un certificado**.
 
 5. A continuación, **seleccione Solicitud avanzada**.
 
 6. Seleccione **Crear y enviar una solicitud a esta CA**.
 
-7. Seleccione **Usuario de tarjeta inteligente en** la sección Plantilla **de** certificado y complete la solicitud de certificado avanzada con los siguientes valores:
+7. Seleccione **Usuario de tarjeta inteligente en** la **sección Plantilla de** certificado y complete la solicitud de certificado avanzada con los siguientes valores:
 
   - **Las opciones clave** confirman que sigue la configuración:
 
     - Seleccione el **botón de opción Crear nuevo conjunto de** teclas
 
-    - Para **CSP,** seleccione Proveedor criptográfico **de tarjeta inteligente de Microsoft Base**
+    - Para **CSP**, seleccione Proveedor criptográfico **de tarjeta inteligente de Microsoft Base**
 
-    - Para **Uso de** clave, seleccione **Exchange** (esta es la única opción disponible).
+    - Para **Uso de** clave, **seleccione Exchange** (esta es la única opción disponible).
 
     - Para **Tamaño de clave**, escriba 2048
 
@@ -151,13 +146,13 @@ Para obtener más información sobre la inscripción en nombre de los usuarios c
 
     - Deje las otras casillas desactivadas.
 
-  - En **Opciones adicionales,** confirme los siguientes valores:
+  - En **Opciones adicionales** , confirme los siguientes valores:
 
-    - Para **Formato de solicitud,** **seleccione CMC**.
+    - Para **Formato de solicitud** , seleccione **CMC**.
 
-    - Para **Algoritmo hash,** seleccione **sha1**.
+    - Para **Algoritmo hash** , seleccione **sha1**.
 
-    - Para **Nombre descriptivo,** escribaSmardcard Certificate.
+    - Para **Nombre descriptivo** , escribaSmardcard Certificate.
 
 8. Si usas un lector de tarjeta inteligente física, inserta la tarjeta inteligente en el dispositivo.
 
@@ -178,10 +173,10 @@ Para obtener más información sobre la inscripción en nombre de los usuarios c
 
 ## <a name="configure-active-directory-federation-services-ad-fs-20"></a>Configurar servicios de federación de Active Directory (AD FS 2.0)
 
-En la siguiente sección se describe cómo configurar los Servicios de federación de Active Directory (AD FS 2.0) para admitir la autenticación multifactor. Para obtener información sobre cómo instalar AD FS 2.0, vea [AD FS 2.0 Step-by-Step y How To Guides](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10)).
+En la siguiente sección se describe cómo configurar los Servicios de federación de Active Directory (AD FS 2.0) para admitir la autenticación multifactor. Para obtener información sobre cómo instalar AD FS 2.0, consulte [AD FS 2.0 Step-by-Step y How To Guides](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10)).
 
 > [!NOTE]
-> Al instalar AD FS 2.0, no use el administrador Windows servidor para agregar el rol Servicios de federación de Active Directory. En su lugar, descargue e instale [los Servicios de federación de Active Directory](/troubleshoot/windows-server/identity/availability-description-afds).
+> Al instalar AD FS 2.0, no use el administrador Windows servidor para agregar el rol Servicios de federación de Active Directory. En su lugar, descargue e instale los [Servicios de federación de Active Directory](/troubleshoot/windows-server/identity/availability-description-afds).
 
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>Para configurar AD FS para la autenticación en dos fases
 
@@ -203,7 +198,7 @@ En la siguiente sección se describe cómo configurar los Servicios de federaci�
 
 5. En el menú Herramientas administrativas, inicie la consola de administración de AD FS 2.0.
 
-6. Expande **Relaciones de confianza**  >  **Confianzas de usuario de confianza**.
+6. Expanda **Relaciones de confianzaRelying** >  **Party Trusts**.
 
 7. Compruebe que se ha creado una nueva confianza para su Skype Empresarial Server.
 
@@ -228,7 +223,7 @@ En la siguiente sección se describe cómo configurar los Servicios de federaci�
   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
   ```
 
-10. En la consola de administración de AD FS 2.0, haga clic con el botón secundario en su confianza de usuario de confianza y seleccione **Editar reglas de notificación.**
+10. En la consola de administración de AD FS 2.0, haga clic con el botón secundario en la confianza de los usuarios de confianza y seleccione **Editar reglas de notificación**.
 
 11. Seleccione la **pestaña Reglas de autorización de** emisión y compruebe que la nueva regla de autorización se creó correctamente.
 
@@ -242,7 +237,7 @@ Hay dos tipos de autenticación posibles que se pueden configurar para permitir 
 
 - Autenticación de cliente de seguridad de la capa de transporte
 
-Con la autenticación basada en formularios, puede desarrollar una página web que permita a los usuarios autenticarse con su nombre de usuario o contraseña o con su tarjeta inteligente y PIN. Este tema se centra en cómo implementar la autenticación de cliente de seguridad de la capa de transporte con AD FS 2.0. Para obtener más información acerca de los tipos de autenticación de AD FS 2.0, vea [AD FS 2.0: How to Change the Local Authentication Type](https://go.microsoft.com/fwlink/p/?LinkId=313384).
+Con la autenticación basada en formularios, puede desarrollar una página web que permita a los usuarios autenticarse con su nombre de usuario o contraseña o con su tarjeta inteligente y PIN. Este tema se centra en cómo implementar la autenticación de cliente de seguridad de la capa de transporte con AD FS 2.0. Para obtener más información acerca de los tipos de autenticación de AD FS 2.0, consulta [AD FS 2.0: Cómo cambiar el tipo de autenticación local](https://go.microsoft.com/fwlink/p/?LinkId=313384).
 
 ### <a name="to-configure-ad-fs-20-to-support-client-authentication"></a>Para configurar AD FS 2.0 para admitir la autenticación de cliente
 
@@ -326,7 +321,7 @@ En los pasos siguientes se describe cómo crear una configuración de proxy pers
 
 ### <a name="to-create-a-custom-proxy-configuration"></a>Para crear una configuración de proxy personalizada
 
-1. Desde la línea de comandos del Shell de administración de Skype Empresarial Server, cree una nueva configuración de proxy para cada grupo de servidores perimetrales de Skype Empresarial Server, un grupo de servidores Enterprise y un servidor Standard Edition que se habilitará para la autenticación pasiva ejecutando los siguientes comandos:
+1. Desde la línea de comandos del Shell de administración de Skype Empresarial Server, cree una nueva configuración de proxy para cada grupo de servidores perimetrales de Skype Empresarial Server, grupo de servidores Enterprise y servidor Standard Edition que se habilitará para la autenticación pasiva ejecutando lo siguiente comandos:
 
   ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
@@ -342,7 +337,7 @@ En los pasos siguientes se describe cómo crear una configuración de proxy pers
   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administrar la autenticación en dos fases en Skype Empresarial Server](two-factor-authentication.md)
 

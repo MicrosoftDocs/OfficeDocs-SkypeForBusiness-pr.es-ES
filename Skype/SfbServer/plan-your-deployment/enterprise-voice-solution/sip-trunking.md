@@ -1,28 +1,23 @@
 ---
 title: Enlace troncal SIP en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Obtenga información sobre el enlace troncal SIP en Skype Empresarial Server Telefonía IP empresarial
-ms.openlocfilehash: 6278526a83e5af4b0020c9dbb822eabad7053426
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841022"
 ---
+
 # <a name="sip-trunking-in-skype-for-business-server"></a>Enlace troncal SIP en Skype Empresarial Server
 
 Obtenga información sobre el enlace troncal SIP en Skype Empresarial Server Telefonía IP empresarial
@@ -64,7 +59,7 @@ Con frecuencia, las características de voz constituyen la principal motivación
 
 El término tronco deriva de la tecnología de circuitos conmutados. Se refiere a una línea física dedicada que conecta el equipo de conmutación telefónica. Al igual que su predecesora, los troncos de multiplexación de división de tiempo (TDM), los troncos SIP son conexiones entre dos redes SIP independientes: la empresa Skype Empresarial Server y el ITSP. A diferencia de los troncos de circuitos conmutados, los enlaces troncales SIP son conexiones virtuales que se pueden establecer sobre cualquiera de los tipos de conexión de enlaces troncales SIP compatibles.
 
-Por otra parte, las conexiones SIP directas son conexiones SIP que no cruzan los límites de la red local (es decir, que se conectan a central de conmutación (PBX) o a una red telefónica conmutada (RTC) dentro de su red local). Para obtener más información sobre cómo puede usar conexiones SIP directas con Skype Empresarial Server, vea [Direct SIP connections in Skype Empresarial Server](direct-sip.md).
+Por otra parte, las conexiones SIP directas son conexiones SIP que no cruzan los límites de la red local (es decir, que se conectan a central de conmutación (PBX) o a una red telefónica conmutada (RTC) dentro de su red local). Para obtener más información sobre cómo puede usar conexiones SIP directas con Skype Empresarial Server, consulte [Direct SIP connections in Skype Empresarial Server](direct-sip.md).
 
 ## <a name="how-do-i-implement-sip-trunking"></a>¿Cómo implemento el enlace troncal SIP?
 
@@ -72,7 +67,7 @@ Para implementar el enlace troncal SIP, debe enrutar la conexión a través de u
 
 Cada servidor de mediación tiene una interfaz de red interna y una interfaz de red externa. La interfaz interna se conecta a los servidores front-end. La interfaz externa se denomina comúnmente interfaz de puerta de enlace porque tradicionalmente se ha usado para conectar el servidor de mediación a una puerta de enlace de red telefónica conmutada (RTC) o a una IP-PBX. Para implementar un tronco SIP, debe conectar la interfaz externa del servidor de mediación al componente perimetral externo del ITSP. El componente perimetral externo del ITSP puede ser un controlador SBC (controlador de borde de sesión), un enrutador o una puerta de enlace.
 
-Para obtener más información acerca de los servidores de mediación, vea [Mediation Server component in Skype Empresarial Server](mediation-server.md).
+Para obtener más información acerca de los servidores de mediación, consulte [Mediation Server component in Skype Empresarial Server](mediation-server.md).
 
 ### <a name="centralized-vs-distributed-sip-trunking"></a>Enlace troncal SIP centralizado y distribuido
 
@@ -138,7 +133,7 @@ Skype Empresarial Server admite solo los siguientes códecs:
 
 ### <a name="internet-telephony-service-provider"></a>Proveedor de servicios de telefonía de Internet
 
-El modo en el que se implementa el lado del proveedor de servicios de una conexión basada en troncos SIP varía de un ITSP a otro. Para obtener información acerca de la implementación, póngase en contacto con su proveedor de servicios. Para obtener una lista de proveedores de servicios troncales SIP certificados, consulte Sitio web del Programa de [interoperabilidad](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)abierta de comunicaciones unificadas de Microsoft .
+El modo en el que se implementa el lado del proveedor de servicios de una conexión basada en troncos SIP varía de un ITSP a otro. Para obtener información acerca de la implementación, póngase en contacto con su proveedor de servicios. Para obtener una lista de proveedores de servicios de enlace troncal SIP certificados, consulte Sitio web del Programa de interoperabilidad abierta de comunicaciones unificadas [de Microsoft](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
 
 Para obtener más información acerca de los proveedores de enlaces troncales SIP certificados por Microsoft, póngase en contacto con su representante de Microsoft.
 
@@ -183,6 +178,6 @@ Si usa un servidor de VPN, se recomienda seguir estas instrucciones:
 
 - Cifre los datos de la VPN mediante encapsulación de enrutamiento genérico (GRE).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Enlace troncal SIP del sitio de sucursal en Skype Empresarial Server](branch-site.md)

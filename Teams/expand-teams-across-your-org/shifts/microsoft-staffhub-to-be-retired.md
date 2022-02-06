@@ -1,8 +1,8 @@
 ---
 title: Microsoft StaffHub se ha retirado
-author: HowlinWolf-92
-ms.author: v-mahoffman
-ms.reviewer: lisawu, gumariam
+author: SerdarSoysal
+ms.author: serdars
+ms.reviewer: 'lisawu, gumariam'
 manager: serdars
 audience: admin
 ms.topic: article
@@ -10,21 +10,16 @@ ms.service: msteams
 search.appverid: MET150
 description: Encuentre respuestas a preguntas frecuentes sobre la retirada de Microsoft StaffHub y la transición a la aplicación Turnos en Microsoft Teams.
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_FLW
+  - M365-collaboration
+  - Teams_ITAdmin_FLW
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8defeba782c49d1bd0aa22e438526dcf297a015b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849563"
 ---
+
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub se ha retirado
 
 Desde el 30 de junio de 2020 Microsoft StaffHub ha sido retirado. Estamos creando las funciones de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación Turnos para la administración de la programación y a medida que pase el tiempo se implementarán funciones adicionales
@@ -71,7 +66,7 @@ Turnos está disponible en todas las SKUs de Enterprise donde Teams esté dispon
 
 #### <a name="how-do-i-get-shifts"></a>¿Cómo puedo obtener Turnos? 
 
-Si ya está en un plan que incluye Turnos, puede empezar a usar Turnos hoy como parte de Teams. Consulte [Introducción en Turnos.](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)
+Si ya está en un plan que incluye Turnos, puede empezar a usar Turnos hoy como parte de Teams. Consulte [Introducción en Turnos](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
 
 #### <a name="which-devices-or-platforms-is-shifts-available-on"></a>¿En qué dispositivos o plataformas está disponible Turnos?
 
@@ -92,7 +87,7 @@ La funcionalidad principal es la misma entre las aplicaciones de iOS y Android d
 Turnos funciona en todos los exploradores compatibles Teams que incluye las últimas versiones de Microsoft Edge, Internet Explorer, Google Chrome y Mozilla Firefox. Para obtener más información, vea [Obtener clientes para Teams](../../get-clients.md).
 
 > [!Note]
-> Microsoft 365 aplicaciones y servicios no admitirán Internet Explorer 11 a partir del 17 de agosto de 2021 (Microsoft Teams no admitirá Internet Explorer 11 anteriormente, a partir del 30 de noviembre de 2020). [Más información](https://aka.ms/AA97tsw). Tenga en cuenta que Internet Explorer 11 seguirá siendo un navegador compatible. Internet Explorer 11 es un componente del [](/lifecycle/faq/internet-explorer-microsoft-edge) Windows operativo y sigue la directiva de ciclo de vida del producto en el que está instalado. 
+> Microsoft 365 aplicaciones y servicios no admitirán Internet Explorer 11 a partir del 17 de agosto de 2021 (Microsoft Teams no admitirá Internet Explorer 11 anteriormente, a partir del 30 de noviembre de 2020). [Más información](https://aka.ms/AA97tsw). Tenga en cuenta que Internet Explorer 11 seguirá siendo un navegador compatible. Internet Explorer 11 es un componente del sistema operativo Windows y sigue la directiva de ciclo [](/lifecycle/faq/internet-explorer-microsoft-edge) de vida del producto en el que está instalado. 
 
 #### <a name="what-languages-does-shifts-support"></a>¿Qué idiomas admite Turnos?
 
@@ -102,15 +97,15 @@ Los turnos están disponibles en los siguientes idiomas: chino simplificado, ing
 
 Los datos de turnos se almacenan en Azure en centros de datos de Norteamérica y Europa occidental. SharePoint contenido aprovecha Microsoft 365 grupos y usa el mismo almacenamiento y soporte técnico.
 
-Para obtener más información, vea [Ubicación de los datos de turnos.](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data)
+Para obtener más información, vea [Ubicación de los datos de turnos](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
 
 #### <a name="where-can-i-learn-more-about-shifts"></a>¿Dónde puedo obtener más información sobre turnos?
 
-Para obtener información sobre el producto, vaya a [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software) .
+Para obtener información sobre el producto, vaya a [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software).
 
 Para obtener instrucciones de administración, vea [Administrar la aplicación Turnos para su organización en Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 
-Para obtener ayuda del usuario final, vaya a [Ayuda de turnos para trabajadores de primera línea.](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+Para obtener ayuda del usuario final, vaya a [Ayuda de turnos para los trabajadores de frontline](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b).
 
 #### <a name="what-licenses-do-i-need-for-teams"></a>¿Qué licencias necesito para Teams?
 
@@ -118,7 +113,7 @@ Cada usuario debe tener una licencia Microsoft 365 o Office 365 de un plan váli
 
 #### <a name="how-do-i-enable-teams-in-my-organization"></a>¿Cómo puedo habilitar Teams mi organización?
 
-De forma predeterminada, Teams está habilitado para todas las organizaciones. Asigne licencias Teams usuarios para controlar el acceso individual a Teams. Para obtener más información, vea [Habilitar Teams en su organización](../../Office-365-set-up.md) y Administrar el acceso de usuario a [Teams](../../user-access.md).
+De forma predeterminada, Teams está habilitado para todas las organizaciones. Asigne licencias Teams usuarios para controlar el acceso individual a Teams. Para obtener más información, vea [Habilitar Teams en su organización](../../Office-365-set-up.md) y [Administrar el acceso de usuario a Teams](../../user-access.md).
 
 #### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>¿Qué sucede si actualmente tengo Skype Empresarial habilitado en mi organización, pero no Teams?
 
@@ -156,15 +151,15 @@ Para obtener más información, vea [Administrar la aplicación Turnos para su o
 
 Puede administrar Teams el módulo Microsoft Teams PowerShell y el módulo Skype Empresarial PowerShell. Para obtener más información, [vea Teams información general de PowerShell](../../teams-powershell-overview.md). En este momento, no hay cmdlets de PowerShell específicos disponibles para administrar turnos.  
 
-Si esto es algo que le interesa, envíenos una solicitud a través del portal de comentarios Teams en [UserVoice.](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)
+Si es algo que le interesa, envíenos una solicitud a través del [portal Teams comentarios en UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
 
 
 [!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>¿Los informes están disponibles para ver el uso de turnos en toda mi organización?
 
-Dado que Turnos es una aplicación de Teams, puede ver el uso a través de Teams informes. Para obtener más información, [consulte Teams informes](../../teams-analytics-and-reports/teams-reporting-reference.md) en el centro Microsoft Teams administración y Teams de actividad en el [Centro de administración de Microsoft 365](../../teams-activity-reports.md).
+Dado que Turnos es una aplicación de Teams, puede ver el uso a través de Teams informes. Para obtener más información, [consulte Teams informes](../../teams-analytics-and-reports/teams-reporting-reference.md) en el centro Microsoft Teams administración y Teams de actividad [en el Centro de administración de Microsoft 365](../../teams-activity-reports.md).
 
 #### <a name="where-can-i-provide-feedback"></a>¿Dónde puedo enviar comentarios?
   
-En la aplicación móvil, pulse **Más** en la esquina superior izquierda de la pantalla, vaya a Configuración Enviar comentarios  >   o Informar de **un problema.** De forma similar, en las aplicaciones de escritorio y web, en la parte inferior izquierda de la pantalla, vaya a Ayuda para compartir una idea o  >   Informar de **un problema.**
+En la aplicación móvil, pulse **Más** en la esquina superior izquierda de la pantalla,  >  vaya a Configuración **Enviar comentarios** o **Informar de un problema**. De forma similar, en las aplicaciones de escritorio y web, en la parte inferior izquierda de la pantalla, vaya **a AyudaCompartir** >  una **idea** o **Informar de un problema**.
