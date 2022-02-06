@@ -1,35 +1,30 @@
 ---
 title: Planear los requisitos de red para Skype Empresarial
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Summary: Review the network component considerations below before implementing Skype Empresarial Server.'
-ms.openlocfilehash: 3e5912cb00bb704afdfc5d568b66711a1ddf472f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864707"
 ---
+
 # <a name="plan-network-requirements-for-skype-for-business"></a>Planear los requisitos de red para Skype Empresarial
 
 **Resumen:** Revise las consideraciones del componente de red que se indican a continuación antes de implementar Skype Empresarial Server.
 
-La información de estos temas también se describe en las notas del producto Sobre planeación [de red,](https://www.microsoft.com/download/details.aspx?id=39084) supervisión y solución de problemas con Lync Server con detalles y profundidad adicionales. Aunque el contenido hace referencia explícitamente a Lync 2010 y Lync 2013, las consideraciones para Skype Empresarial Server no cambian.
+La información de estos temas también se describe en las notas del producto Sobre planeación de red, supervisión y solución de problemas con [Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) con detalles y profundidad adicionales. Aunque el contenido hace referencia explícitamente a Lync 2010 y Lync 2013, las consideraciones para Skype Empresarial Server no cambian.
 
-Del mismo modo, si la red implica wi-fi y acceso por cable, el documento técnico Que entrega comunicaciones de [Lync 2013 Real-Time](https://www.microsoft.com/download/details.aspx?id=36494) a través de Wi-Fi es una buena referencia y es igualmente aplicable a Skype Empresarial Server.
+Del mismo modo, si la red implica wi-fi y acceso por cable, el documento técnico Que entrega comunicaciones de [Lync 2013 Real-Time a través de Wi-Fi](https://www.microsoft.com/download/details.aspx?id=36494) es una buena referencia y es igualmente aplicable a Skype Empresarial Server.
 
 <!-- Deprecated tools
 Network performance and needs are directly linked to the traffic load placed on them. When planning your network and server implementations we recommend making use of the [Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md), the [Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md), and the [Skype for Business Server 2015 Stress and Performance Tool](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md).    -->
@@ -50,14 +45,14 @@ Para la integración de la red telefónica conmutada (RTC), puede usar líneas T
 
 Los requisitos de red para audio y vídeo (A/V) en una implementación Skype Empresarial Server incluyen lo siguiente:
 
-- Si va a implementar un único servidor perimetral o un grupo de servidores perimetrales mediante el equilibrio de carga dns, puede configurar el  _firewall_ externo para realizar la traducción de direcciones de red (NAT). No puede configurar el firewall interno _para_ que realice NAT. Para obtener más información, vea [Planeación de puertos y firewall.](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning)
+- Si va a implementar un único servidor perimetral o un grupo de servidores perimetrales mediante el equilibrio de carga dns, puede configurar  _el firewall externo_ para realizar la traducción de direcciones de red (NAT). No puede configurar el firewall interno _para_ que realice NAT. Para obtener más información, consulte [Planeación de puertos y firewall](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
 
     > [!IMPORTANT]
-    > Si tiene un grupo de servidores perimetrales y usa un equilibrador de carga de hardware, debe usar direcciones IP públicas en los servidores perimetrales y no puede usar NAT para los servidores o el grupo de servidores en el dispositivo compatible con NAT (por ejemplo, un dispositivo de firewall o un conmutador LAN. Para obtener más información, [vea Escenarios del servidor](../edge-server-deployments/scenarios.md)perimetral en Skype Empresarial Server .
+    > Si tiene un grupo de servidores perimetrales y usa un equilibrador de carga de hardware, debe usar direcciones IP públicas en los servidores perimetrales y no puede usar NAT para los servidores o el grupo de servidores en el dispositivo compatible con NAT (por ejemplo, un dispositivo de firewall o un conmutador LAN. Para obtener más información, [vea Escenarios de servidor perimetral en Skype Empresarial Server](../edge-server-deployments/scenarios.md).
 
 - Si la organización usa una infraestructura QoS (Calidad de servicio), el subsistema de medios estará diseñado de modo que funcione con esta infraestructura existente.
 
-- Si usa el protocolo de seguridad de Internet (IPsec), se recomienda deshabilitar IPsec en los intervalos de puertos usados para el tráfico de audio y vídeo. Para obtener más información, vea [Excepciones de IPsec](#ipsec-exceptions).
+- Si usa el protocolo de seguridad de Internet (IPsec), se recomienda deshabilitar IPsec en los intervalos de puertos usados para el tráfico de audio y vídeo. Para obtener más información, consulte [Excepciones de IPsec](#ipsec-exceptions).
 
 Para proporcionar una calidad de medios óptima, haga lo siguiente:
 
@@ -132,7 +127,7 @@ El uso del ancho de banda de tráfico de medios puede resultar difícil de calcu
 |Banda ancha/banda estrecha SILK  <br/> |Punto a punto  <br/> |13.0  <br/> |29.0  <br/> |41.0  <br/> |54.0  <br/> |
 
 > [!NOTE]
-> Las llamadas RTC desde Skype Empresarial cliente suelen usar el códec G.711, que requiere un ancho de banda alto. Si no hay suficiente ancho de banda disponible para ese códec, las llamadas pueden producir un error similar al siguiente en los registros multimedia: al menos un códec debe estar **habilitado, hr: c0042004**. Los registros multimedia (archivos .blog) se cifran y solo el personal de soporte técnico de Microsoft puede descodificar.
+> Las llamadas RTC desde Skype Empresarial cliente suelen usar el códec G.711, que requiere un ancho de banda alto. Si no hay suficiente ancho de banda disponible para ese códec, las llamadas pueden producir un error similar al siguiente en los registros multimedia: al menos un códec debe estar habilitado **, hr: c0042004**. Los registros multimedia (archivos .blog) se cifran y solo el personal de soporte técnico de Microsoft puede descodificar.
 
 Los números de ancho de banda de la tabla anterior se basan en la paqueteización de 20 ms (50 paquetes por segundo) y para los códecs Siren y G.722 incluyen la sobrecarga adicional del protocolo de transporte seguro en tiempo real (SRTP) de los escenarios de conferencia y suponen que la secuencia está 100% activa. La corrección de errores hacia delante (FEC) se usa dinámicamente cuando hay pérdida de paquetes en el vínculo para ayudar a mantener la calidad de la secuencia de audio.
 
@@ -268,19 +263,19 @@ Skype Empresarial Server ofrece compatibilidad completa con QoS: esto significa 
 
 - [Habilitar QoS en Skype Empresarial Server dispositivos que no se basan en Windows](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md). De manera predeterminada, QoS se deshabilita para los equipos y otros dispositivos (como iPhone) que ejecutan otros sistemas operativos. Aunque puedes usar Skype Empresarial Server para habilitar y deshabilitar la calidad del servicio para dispositivos, normalmente no puedes usar el producto para modificar los códigos DSCP usados por estos dispositivos.
 
-- [Configurar intervalos de puertos y una directiva de calidad](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)de servicio para los servidores de conferencia, aplicación y mediación. Debe reservar un conjunto único de puertos para diferentes tipos de paquetes, como paquetes de audio y vídeo. Al usar Skype Empresarial Server no se habilita ni deshabilita QoS estableciendo un valor de propiedad en True o false. En su lugar, se habilita QoS mediante la configuración de intervalos de puertos y, a continuación, la creación y aplicación de la directiva de grupo. Si más adelante decide no usar QoS, puede "deshabilitar" QoS quitando los objetos de directiva de grupo adecuados.
+- [Configuración de intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md). Debe reservar un conjunto único de puertos para diferentes tipos de paquetes, como paquetes de audio y vídeo. Al usar Skype Empresarial Server no se habilita ni deshabilita QoS estableciendo un valor de propiedad en True o false. En su lugar, se habilita QoS mediante la configuración de intervalos de puertos y, a continuación, la creación y aplicación de la directiva de grupo. Si más adelante decide no usar QoS, puede "deshabilitar" QoS quitando los objetos de directiva de grupo adecuados.
 
-- [Configuración de intervalos de puertos y una directiva de calidad de servicio para los servidores perimetrales.](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md) Aunque no es un requisito, puede configurar los servidores perimetrales para que usen los mismos intervalos de puertos que los otros servidores. La configuración de una directiva de QoS solo se realiza para el lado interno de los servidores perimetrales. Esto se debe a que QoS está diseñado para su uso en la red interna y no en Internet.
+- [Configuración de intervalos de puertos y una directiva de calidad de servicio para los servidores perimetrales](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md). Aunque no es un requisito, puede configurar los servidores perimetrales para que usen los mismos intervalos de puertos que los otros servidores. La configuración de una directiva de QoS solo se realiza para el lado interno de los servidores perimetrales. Esto se debe a que QoS está diseñado para su uso en la red interna y no en Internet.
 
-- [Configurar intervalos de puertos y una directiva de calidad](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md)de servicio para los clientes en Skype Empresarial Server . Estos intervalos de puertos solo se aplican a los equipos cliente y suelen ser diferentes de los intervalos de puertos configurados en los servidores. Tenga en cuenta que Skype Empresarial Server no admite QoS para Windows sistemas operativos distintos de Windows 10.
+- [Configuración de intervalos de puertos y una directiva de calidad de servicio para sus clientes en Skype Empresarial Server](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md). Estos intervalos de puertos solo se aplican a los equipos cliente y suelen ser diferentes de los intervalos de puertos configurados en los servidores. Tenga en cuenta que Skype Empresarial Server no admite QoS para Windows sistemas operativos distintos de Windows 10.
 
 
 > [!NOTE]
 > Si usa Windows Server 2012 o Windows Server 2012 R2, es posible que le interese el nuevo conjunto de cmdlets Windows PowerShell disponibles para administrar QoS en esa plataforma. Para obtener más información, [vea Windows PowerShell Cmdlets for Networking](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj717268(v=ws.11)).
 
-QoS también se describe en las notas del producto Sobre planeación [de red,](https://www.microsoft.com/download/details.aspx?id=39084) supervisión y solución de problemas con Lync Server con detalles y profundidad adicionales. Aunque el contenido hace referencia explícitamente a Lync 2010 y Lync 2013, las consideraciones para Skype Empresarial Server no cambian.
+QoS también se describe en las notas del producto Sobre planeación de red, supervisión y solución de problemas con [Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) con detalles y profundidad adicionales. Aunque el contenido hace referencia explícitamente a Lync 2010 y Lync 2013, las consideraciones para Skype Empresarial Server no cambian.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="man_QOS"> </a>
 
 [Planear IPv6 en Skype Empresarial](ipv6.md)

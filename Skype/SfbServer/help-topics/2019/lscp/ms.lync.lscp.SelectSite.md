@@ -1,27 +1,22 @@
 ---
 title: Seleccionar un sitio
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.SelectSite
+  - ms.lync.lscp.SelectSite
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
-ROBOTS: NOINDEX, NOFOLLOW
-description: Use el cuadro de diálogo Seleccionar un sitio para buscar sitios disponibles en su entorno. Para usar un sitio existente, haga clic en un sitio de la lista y, a continuación, en Aceptar.
-ms.openlocfilehash: 5b67542a7848d64db5d76be8c99cddbdee69baf6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849233"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Use el cuadro de diálogo Seleccionar un sitio para buscar sitios disponibles en su entorno. Para usar un sitio existente, haga clic en un sitio de la lista y, a continuación, en Aceptar.'
 ---
+
 # <a name="select-a-site"></a>Seleccionar un sitio
 
 > [!NOTE] 

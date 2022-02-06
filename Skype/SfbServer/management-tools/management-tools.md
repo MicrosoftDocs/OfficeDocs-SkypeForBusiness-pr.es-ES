@@ -1,26 +1,21 @@
 ---
 title: Skype Empresarial Server de administración de 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: 'Resumen: obtenga información sobre las herramientas de administración de servicios Skype Empresarial Server 2015.'
-ms.openlocfilehash: 72beb193ac4af90ea08d172d8b93068bf04e3a37
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849793"
 ---
+
 # <a name="skype-for-business-server-2015-management-tools"></a>Skype Empresarial Server de administración de 2015
  
 **Resumen:** Obtenga información sobre las herramientas de administración de servicios en Skype Empresarial Server 2015.
@@ -43,7 +38,7 @@ Skype Empresarial Server software de comunicaciones de 2015 (anteriormente Lync 
 |![icono del panel.](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Skype Empresarial Server calculadora de planeamiento de capacidad de 2015](capacity-planning-calculator.md)  |La Skype Empresarial Server de planeación de capacidad de 2015 le ayuda a modelar una topología para las necesidades de su organización.   |
 |![icono de red.](../media/c74d45da-b10f-43c9-aa80-b1935f45c3ee.png)|[Skype Empresarial Server 2015 Stress and Performance Tool](stress-and-performance-tool/stress-and-performance-tool.md)  |Esta herramienta le permite realizar una variedad de pruebas relacionadas con el rendimiento con la carga del usuario para Skype Empresarial Server entorno de 2015. Los scripts de ejemplo se proporcionan con la herramienta para ayudar con sus necesidades de entorno únicas.  <br/>**Nota:** Esta herramienta no se actualizará para Skype Empresarial Server 2019. |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Herramientas de Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-tools)
   

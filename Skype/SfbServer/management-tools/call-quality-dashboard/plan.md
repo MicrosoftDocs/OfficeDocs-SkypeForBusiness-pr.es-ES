@@ -1,25 +1,20 @@
 ---
 title: 'Skype Empresarial Server: Planear el Panel de calidad de llamadas'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Summary: Learn about what to consider when you plan for the Call Quality Dashboard.'
-ms.openlocfilehash: c9ab2cafcd05ac7ea0585b0f3af2924b9fa4f0cf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835178"
 ---
+
 # <a name="skype-for-business-server-plan-for-call-quality-dashboard"></a>Skype Empresarial Server: Planear el Panel de calidad de llamadas 
  
 **Resumen:** Obtenga información sobre qué tener en cuenta al planear el Panel de calidad de llamadas.
@@ -35,7 +30,7 @@ El Skype Empresarial Server de calidad de llamadas (CQD) es una capa de informes
 - **Acceso de la API web a la estructura de informes y a los datos del cubo de análisis.** El marco de informes del panel no es la única forma de mostrar los datos del cubo. CQD proporciona varios ejemplos de uso de HTML y JavaScript para recuperar datos de las API web de CQD y representar los datos en un formato personalizado. La combinación del Editor de informes y las API web de CQD permite la creación rápida de prototipos de informes y el diseño de informes personalizado.
 
 > [!NOTE]
-> Un administrador ahora puede administrar Skype Empresarial Server 2019 con [CQD versión 3](https://cqd.teams.microsoft.com) (iniciar sesión con credenciales de administrador). Esto requiere una implementación híbrida y el uso de Call Data Connector (CDC). Consulte [Plan Call Data Connector](../../../SfbHybrid/hybrid/plan-call-data-connector.md) para obtener más información sobre la habilitación de CDC. Para obtener más información sobre CQD versión 3, consulte Activar y usar el Panel de calidad de llamadas para Microsoft Teams y [Skype Empresarial Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) para obtener más información acerca de CQD versión 3.
+> Un administrador ahora puede administrar Skype Empresarial Server 2019 con [CQD versión 3](https://cqd.teams.microsoft.com) (iniciar sesión con credenciales de administrador). Esto requiere una implementación híbrida y el uso de Call Data Connector (CDC). Consulte [Plan Call Data Connector](../../../SfbHybrid/hybrid/plan-call-data-connector.md) para obtener más información sobre la habilitación de CDC. Para obtener más información sobre CQD versión 3, consulte Activar y usar el Panel de calidad de llamadas para [Microsoft Teams y Skype Empresarial Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) para obtener más información acerca de CQD versión 3.
 
 ## <a name="cqd-design-goals"></a>Objetivos de diseño de CQD
 
@@ -85,13 +80,13 @@ Los datos de CQD se pueden ver a través del Portal de CQD y se puede acceder a 
 
 El Portal es la forma más rápida de ver los datos en el cubo. El Portal viene con varios informes integrados que se pueden hacer de inmediato. Los informes integrados se vinculan de forma estructurada para guiar al usuario a segmentos sucesivamente más pequeños y pequeños de los datos de llamada. Los informes integrados también destacan las distintas formas en que se pueden mostrar los datos mostrando una combinación de gráficos y tablas con diferentes pivotes, filtros y medidas. Cada usuario que tiene acceso al Portal puede tener su propio conjunto de informes que puede modificar y compartir. Para obtener más información sobre el uso del portal web de CQD, vea [Use Call Quality Dashboard for Skype Empresarial Server](use.md).
   
-Sistemas operativos compatibles para CQD Portal: Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 y Windows Server 2016 (Skype Empresarial Server 2019 CQD solamente).
+Sistemas operativos compatibles para CQD Portal: Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 y Windows Server 2016 (Skype Empresarial Server Solo CQD de 2019).
   
 Exploradores compatibles para CQD Portal: Internet Explorer 11, Internet Explorer 10 e Internet Explorer 9.
   
 ### <a name="rest-apis"></a>API de REST
 
-También se puede obtener acceso a los datos del cubo a través de llamadas a la API de REST. Los datos recuperados a través de las llamadas a la API de REST se pueden representar a través de páginas HTML. Los usuarios pueden aprovechar la velocidad de consulta y el esquema de alto nivel de CQD mientras siguen creando informes personalizados adecuados para sus necesidades empresariales. Para obtener más información sobre la API y los ejemplos, vea [Develop Call Quality Dashboard for Skype Empresarial Server](develop.md). 
+También se puede obtener acceso a los datos del cubo a través de llamadas a la API de REST. Los datos recuperados a través de las llamadas a la API de REST se pueden representar a través de páginas HTML. Los usuarios pueden aprovechar la velocidad de consulta y el esquema de alto nivel de CQD mientras siguen creando informes personalizados adecuados para sus necesidades empresariales. Para obtener más información sobre la API y los ejemplos, consulte [Develop Call Quality Dashboard for Skype Empresarial Server](develop.md). 
   
 ## <a name="defining-your-organizations-requirements-for-cqd"></a>Definición de los requisitos de la organización para CQD
 
@@ -282,7 +277,7 @@ Los siguientes son los servicios de roles de IIS necesarios (en orden jerárquic
   - Consola de administración de IIS
     
 > [!NOTE]
->  Tenga en cuenta lo siguiente para los requisitos anteriores:> las versiones 3.5 y 4.5 de .Net Framework están disponibles. Ambos son necesarios (más específicamente, se requiere 3.5 SP1).> En algunos sistemas, si ASP.NET está configurado antes de la instalación de IIS, es posible que ASP.NET no esté registrado en IIS. El problema se manifiesta a través de la ausencia de grupos de aplicaciones para la versión correspondiente de .Net y también falta la versión CLR de .NET en la configuración del grupo de aplicaciones. Para corregir este problema en Windows Server 2008 R2, ejecute `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru` . En Windows Server 2012 y Windows Server 2012 R2, ejecutar seguido de quitar el módulo "ServiceModel" del sitio web predeterminado en las herramientas de administración de IIS Manager.> es opcional, pero se `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` recomienda.
+>  Tenga en cuenta lo siguiente para los requisitos anteriores:> las versiones 3.5 y 4.5 de .Net Framework están disponibles. Ambos son necesarios (más específicamente, se requiere 3.5 SP1).> En algunos sistemas, si ASP.NET está configurado antes de la instalación de IIS, es posible que ASP.NET no esté registrado en IIS. El problema se manifiesta a través de la ausencia de grupos de aplicaciones para la versión correspondiente de .Net y también falta la versión CLR de .NET en la configuración del grupo de aplicaciones. Para corregir este problema en Windows Server 2008 R2, ejecute `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`. En Windows Server 2012 y Windows Server 2012 R2, `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` ejecutar seguido de quitar el módulo "ServiceModel" del sitio web predeterminado en las herramientas de administración de IIS Manager.> es opcional, pero se recomienda.
   
 Para instalar estos requisitos con PowerShell, ejecute lo siguiente:
   
@@ -309,7 +304,7 @@ En todos los casos, deben instalarse "Motor de base de datos services" y "Analys
   
 Al configurar la configuración de SSAS, en configuración de Analysis Services, establezca "Modo de servidor" en "Modo de minería de datos y multidimensionales". 
   
-Para obtener ayuda adicional en la instalación y configuración de SQL Server business intelligence, vea [Install Analysis Services in Multidimensional and Data Mining Mode](/previous-versions/sql/sql-server-2012/ms143708(v=sql.110)).
+Para obtener ayuda adicional para instalar y configurar SQL Server de inteligencia empresarial, vea [Install Analysis Services in Multidimensional and Data Mining Mode](/previous-versions/sql/sql-server-2012/ms143708(v=sql.110)).
   
 #### <a name="account-requirements"></a>Requisitos de la cuenta
 

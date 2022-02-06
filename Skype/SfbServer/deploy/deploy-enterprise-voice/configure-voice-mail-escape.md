@@ -1,28 +1,23 @@
 ---
 title: Configurar el escape de correo de voz en Skype Empresarial
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 'Summary: Learn how to configure voice mail escape in Skype Empresarial Server by using the Skype Empresarial Server Management Shell.'
-ms.openlocfilehash: 7bd18056362fc4ed6ffdede31515b6eb41d8b134
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865327"
 ---
+
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Configurar el escape de correo de voz en Skype Empresarial
 
 **Resumen:** Obtenga información sobre cómo configurar el escape de correo de voz en Skype Empresarial Server mediante el Shell Skype Empresarial Server administración.
@@ -33,7 +28,7 @@ Esta configuración se realiza mediante el cmdlet Skype Empresarial Server Shell
 
 ### <a name="to-configure-voice-mail-escape"></a>Para configurar el escape de correo de voz
 
-1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
 
 2. Especificar los siguientes parámetros en **Set-CsVoicePolicy**:
 

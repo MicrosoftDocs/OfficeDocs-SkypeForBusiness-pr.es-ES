@@ -1,27 +1,22 @@
 ---
 title: Próximo paso para publicar la topología
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PublishTopologyNextStepPage
+  - ms.lync.tb.PublishTopologyNextStepPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
-description: Una vez publicada la topología, se muestra la página El Asistente para publicaciones ha finalizado.
-ms.openlocfilehash: 600219c813ff78a7e25622855a4da636130ba407
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853114"
+description: 'Una vez publicada la topología, se muestra la página El Asistente para publicaciones ha finalizado.'
 ---
+
 # <a name="publish-topology-next-step"></a>Próximo paso para publicar la topología
 
 Una vez publicada la topología, se muestra la página **El Asistente para publicaciones ha finalizado**.

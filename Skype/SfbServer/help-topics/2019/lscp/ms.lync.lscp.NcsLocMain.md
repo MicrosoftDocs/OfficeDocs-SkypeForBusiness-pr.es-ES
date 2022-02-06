@@ -1,27 +1,22 @@
 ---
 title: Directiva de ubicación
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.NcsLocMain
+  - ms.lync.lscp.NcsLocMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
-ROBOTS: NOINDEX, NOFOLLOW
-description: Las directivas de ubicación determinan si 9-1-1 (E9-1-1) mejorado está habilitado y cómo se usa, así como el modo en que la información de ubicación de usa para usuarios y contactos.
-ms.openlocfilehash: 3226a166ee9389501d9c63c71b933601de633f38
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831514"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Las directivas de ubicación determinan si 9-1-1 (E9-1-1) mejorado está habilitado y cómo se usa, así como el modo en que la información de ubicación de usa para usuarios y contactos.'
 ---
+
 # <a name="location-policy"></a>Directiva de ubicación
 
 Las directivas de ubicación determinan si 9-1-1 (E9-1-1) mejorado está habilitado y cómo se usa, así como el modo en que la información de ubicación de usa para usuarios y contactos.
@@ -35,7 +30,7 @@ Las directivas de ubicación incluyen la directiva global y, de forma opcional, 
 - **Directivas de usuario (opcional):** Puede crear una o varias directivas de ubicación de usuario, cada una de las cuales se aplica a un usuario o grupo de usuarios específicos. Las directivas de usuario anulan la directiva global y las directivas de sitio.
 
 > [!NOTE]
-> También puede asignar directivas de ubicación a sitios de red, que son grupos de subredes. Las directivas de ubicación asignadas a los sitios de red prevalecen sobre las demás directivas de usuario. Para obtener información detallada sobre cómo asignar directivas de ubicación a sitios de red mediante cmdlets, vea Agregar una directiva de ubicación a un sitio de [red en Skype Empresarial Server](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Para obtener más información sobre Skype Empresarial Server panel de control para asignar una directiva de ubicación a un sitio de red, vea [Configuring Network Sites](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites).
+> También puede asignar directivas de ubicación a sitios de red, que son grupos de subredes. Las directivas de ubicación asignadas a los sitios de red prevalecen sobre las demás directivas de usuario. Para obtener información detallada sobre cómo asignar directivas de ubicación a sitios de red mediante cmdlets, vea Agregar una directiva de ubicación [a un sitio de red en Skype Empresarial Server](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Para obtener más información sobre Skype Empresarial Server panel de control para asignar una directiva de ubicación a un sitio de red, vea [Configuring Network Sites](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites).
 
 La página **Directiva de ubicación** muestra una lista de todas las directivas de ubicación definidas para su organización.
 

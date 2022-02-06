@@ -1,28 +1,23 @@
 ---
 title: Proceso de implementación para grupo de respuesta en Skype Empresarial
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Proceso de implementación y pasos para grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 13a83c5fbedc2a7b38118b0e7935c4722e3855ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853704"
 ---
+
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Proceso de implementación para grupo de respuesta en Skype Empresarial
 
 Proceso de implementación y pasos para grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial.
@@ -71,7 +66,7 @@ Es posible que deba realizar las siguientes tareas antes de configurar el grupo 
 
 ### <a name="enabling-users"></a>Habilitar usuarios
 
-El primer paso para configurar el grupo de respuesta es crear grupos de agentes. Para poder crear un grupo de agentes, debe habilitar los usuarios que serán agentes del grupo de respuesta para Skype Empresarial y Telefonía IP empresarial. Habilitar usuarios para Skype Empresarial suele ser un paso en la implementación Enterprise Edition servidor o Standard Edition servidor. Para obtener más información sobre cómo habilitar usuarios para Skype Empresarial, vea Habilitar o deshabilitar [usuarios para Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server). Habilitar usuarios en Enterprise Voice suele ser un paso de la implementación de Enterprise Voice. Para obtener más información, vea [Enable users for Telefonía IP empresarial in Skype Empresarial Server](enable-users-for-enterprise-voice.md).
+El primer paso para configurar el grupo de respuesta es crear grupos de agentes. Para poder crear un grupo de agentes, debe habilitar los usuarios que serán agentes del grupo de respuesta para Skype Empresarial y Telefonía IP empresarial. Habilitar usuarios para Skype Empresarial suele ser un paso en la implementación Enterprise Edition servidor o Standard Edition servidor. Para obtener más información sobre cómo habilitar usuarios para Skype Empresarial, vea [Habilitar o deshabilitar usuarios para Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server). Habilitar usuarios en Enterprise Voice suele ser un paso de la implementación de Enterprise Voice. Para obtener más información, vea [Enable users for Telefonía IP empresarial in Skype Empresarial Server](enable-users-for-enterprise-voice.md).
 
 ### <a name="complying-with-fips-requirements"></a>Cumplimiento de los requisitos de FIPS
 
@@ -104,7 +99,7 @@ Para modificar el archivo Web.config:
 Solo debe tener en cuenta esta sección si su organización necesita admitir caracteres Yi, Meng o Zang.
 
 > [!NOTE]
-> Para obtener información sobre cuáles son los caracteres Yi, Meng y Zang y por qué pueden ser importantes para la implementación, consulte la información sobre los conjuntos de caracteres GB18030 [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105)) .
+> Para obtener información sobre cuáles son los caracteres Yi, Meng y Zang y por qué pueden ser importantes para la implementación, consulte la información sobre los conjuntos de caracteres GB18030 [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105)).
 
 Para permitir la compatibilidad con caracteres Yi, Meng o Zang, debe modificar la intercalación de la base de datos de Rgsconfig. Cambie la intercalación de la columna **Nombre** en las siguientes tablas de cada base de datos de Rgsconfig:
 
@@ -120,9 +115,9 @@ Para permitir la compatibilidad con caracteres Yi, Meng o Zang, debe modificar l
 
 Para SQL Server 2008 R2 y SQL Server 2012, use la intercalación Latin_General_100 (con énfal). Si usa esta intercalación, los nombres de objetos no distinguirán entre mayúsculas y minúsculas.
 
-Puede cambiar la intercalación usando Microsoft SQL Server Management Studio. Para obtener más información sobre el uso de esta herramienta, vea ["Using SQL Server Management Studio".](/sql/ssms/sql-server-management-studio-ssms) Siga estos pasos para cambiar la intercalación:
+Puede cambiar la intercalación usando Microsoft SQL Server Management Studio. Para obtener más información sobre el uso de esta herramienta, [consulte "Using SQL Server Management Studio"](/sql/ssms/sql-server-management-studio-ssms). Siga estos pasos para cambiar la intercalación:
 
-1. Asegúrese de que SQL Server Management Studio está configurado para permitir los cambios que requieren que las tablas se vuelvan a crear. Para obtener más información, vea "Cuadro de [diálogo Guardar (no permitido) "](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box). Para obtener más información sobre cómo establecer una intercalación de columnas, vea ["How to: Set Column Collation (Visual Database Tools)"](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105)).
+1. Asegúrese de que SQL Server Management Studio está configurado para permitir los cambios que requieren que las tablas se vuelvan a crear. Para obtener más información, [vea "Cuadro de diálogo Guardar (no permitido) "](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box). Para obtener más información sobre cómo establecer una intercalación de columnas, vea ["How to: Set Column Collation (Visual Database Tools)"](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105)).
 
 2. Usando Microsoft SQL Server Management Studio, conéctese a la base de datos de Rgsconfig.
 

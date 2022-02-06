@@ -1,25 +1,20 @@
 ---
 title: Establecer el PIN de conferencia de acceso telefónico local de un usuario en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 'Resumen: establezca el PIN de conferencia de acceso telefónico local de un usuario para Skype Empresarial Server.'
-ms.openlocfilehash: 45ee99a0e9ab1b10c429fae470e528ffdd2c3326
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856687"
 ---
+
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Establecer el PIN de conferencia de acceso telefónico local de un usuario en Skype Empresarial Server
  
 **Resumen:** Establezca el PIN de conferencia de acceso telefónico local de un usuario para Skype Empresarial Server.
@@ -65,7 +60,7 @@ Para unirse a una conferencia de acceso telefónico local como usuario autentica
     
 7. En el cuadro de diálogo **Establecer PIN**, realice una de las siguientes acciones:
     
-   - Para permitir Skype Empresarial Server generar el PIN del usuario, seleccione **Generar automáticamente** un PIN válido (valor predeterminado).
+   - Para permitir Skype Empresarial Server generar el PIN del usuario, seleccione **Generar automáticamente un PIN** válido (valor predeterminado).
     
    - Para crear su propio PIN, haga clic en **Introducir manualmente un PIN específico**, haga clic en el cuadro de texto y escriba un PIN que cumpla los requisitos de PIN especificados en la configuración de la directiva de PIN.
     
@@ -99,4 +94,4 @@ Este comando usa el parámetro PIN para asignar el número PIN 121989 al usuario
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 
-Para obtener más información, vea el tema de ayuda del cmdlet [Set-CsClientPin.](/powershell/module/skype/set-csclientpin?view=skype-ps)
+Para obtener más información, vea el tema de ayuda del cmdlet [Set-CsClientPin](/powershell/module/skype/set-csclientpin?view=skype-ps) .

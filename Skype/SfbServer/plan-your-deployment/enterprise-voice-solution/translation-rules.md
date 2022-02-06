@@ -1,28 +1,23 @@
 ---
 title: Reglas de traducción en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: Obtenga información sobre las reglas de traducción y la normalización de cadenas de marcado en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 1ad2434a0f57e57f6d86b8bda0c9c2e7af6c3de9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841012"
 ---
+
 # <a name="translation-rules-in-skype-for-business-server"></a>Reglas de traducción en Skype Empresarial Server
 
 Obtenga información sobre las reglas de traducción y la normalización de cadenas de marcado en Skype Empresarial Server Telefonía IP empresarial.
@@ -42,5 +37,5 @@ Para obtener más información acerca de cómo implementar reglas de conversión
 
 |**Descripción**|**Dígitos iniciales**|**Length**|**Dígitos que se van a quitar**|**Dígitos que se van a agregar**|**Patrón de comparación**|**Conversión**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Marcado convencional de larga distancia en EE.UU.  <br/> (quitar el '+')  <br/> |+1  <br/> |Exactamente 12  <br/> |1  <br/> |0  <br/> |^\+(1\d {10} ) $  <br/> |$1  <br/> |+14255551010 se convierte en 14255551010  <br/> |
-|Marcado internacional de larga distancia de EE.UU.  <br/> (quitar '+' y agregar 011)  <br/> |+  <br/> |11 como mínimo  <br/> |1  <br/> |011  <br/> |^\+(\d {9} \d+)$  <br/> |011$1  <br/> |+441235551010 se convierte en 011441235551010  <br/> |
+|Marcado convencional de larga distancia en EE.UU.  <br/> (quitar el '+')  <br/> |+1  <br/> |Exactamente 12  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 se convierte en 14255551010  <br/> |
+|Marcado internacional de larga distancia de EE.UU.  <br/> (quitar '+' y agregar 011)  <br/> |+  <br/> |11 como mínimo  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 se convierte en 011441235551010  <br/> |

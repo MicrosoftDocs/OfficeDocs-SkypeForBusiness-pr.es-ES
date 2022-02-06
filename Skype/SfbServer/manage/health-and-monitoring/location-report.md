@@ -1,24 +1,19 @@
 ---
 title: Informe de ubicación en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 description: 'Resumen: obtenga información sobre el informe de ubicación en Skype Empresarial Server.'
-ms.openlocfilehash: afbbf54e913146326ee49e6db051869fa2ac7aca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862407"
 ---
+
 # <a name="location-report-in-skype-for-business-server"></a>Informe de ubicación en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre el informe de ubicación en Skype Empresarial Server.

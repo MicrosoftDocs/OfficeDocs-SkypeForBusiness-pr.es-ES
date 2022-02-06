@@ -1,32 +1,27 @@
 ---
 title: Teléfono de números para Hungría
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: chandra.kilaru, kristen.kutser
+ms.reviewer: 'chandra.kilaru, kristen.kutser'
 ms.topic: reference
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- M365-voice
+  - M365-voice
 audience: Admin
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Calling Plans
+  - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Hungría para Microsoft Teams.
-ms.openlocfilehash: 3759277261b02ce14349a7426d8c796d3531a6b9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839792"
 ---
+
 # <a name="phone-number-management-for-hungary"></a>Teléfono de números para Hungría
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
@@ -37,11 +32,11 @@ Para obtener más información, consulte [Administrar los números de teléfono 
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.<br/> |En Hungría, puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y póngase en contacto con el Servicio de atención al cliente de [TNS para obtener instrucciones.](contact-tns-service-desk.md)<br/><br/>[Nueva solicitud de número de teléfono para Hungría (v.1.0) (hu-hu).](https://download.microsoft.com/download/4/d/3/4d3a57e0-c092-492c-a9dc-7a5376e30414/New%20phone%20number%20request%20for%20Hungary.pdf)<br/><br/> Antes de que se le puedan asignar números de teléfono, debe descargar el formulario Conocer al cliente, completarlo en su totalidad y enviarlo a nosotros.<br/><br>Los nuevos pedidos pueden tardar de dos a tres semanas en completarse en este mercado.  |
-|Transferirnos números de teléfono.<br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Hungría (todos los números) (v.1.0) (hu-hu)](https://download.microsoft.com/download/f/b/1/fb17b2df-b5cf-45b7-89f0-0cbf250df1f7/letter-of-authorization-(loa)-for-hungary-(all-numbers)-(v1.0)-(hu-hu)%20(1).pdf) <br/> <br/>Rellene y póngase en contacto con el Servicio de atención al cliente de [TNS para obtener instrucciones.](contact-tns-service-desk.md) <br/><br/>Transferir números puede tardar de dos a tres semanas en completarse en este mercado. <br/><br/>Estos números no se pueden usar para conferencias en este momento.   |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.<br/> |En Hungría, puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y ponerse en contacto con el Servicio de atención al cliente de [TNS para obtener instrucciones](contact-tns-service-desk.md).<br/><br/>[Nueva solicitud de número de teléfono para Hungría (v.1.0) (hu-hu)](https://download.microsoft.com/download/4/d/3/4d3a57e0-c092-492c-a9dc-7a5376e30414/New%20phone%20number%20request%20for%20Hungary.pdf).<br/><br/> Antes de que se le puedan asignar números de teléfono, debe descargar el formulario Conocer al cliente, completarlo en su totalidad y enviarlo a nosotros.<br/><br>Los nuevos pedidos pueden tardar de dos a tres semanas en completarse en este mercado.  |
+|Transferirnos números de teléfono.<br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Hungría (todos los números) (v.1.0) (hu-hu)](https://download.microsoft.com/download/f/b/1/fb17b2df-b5cf-45b7-89f0-0cbf250df1f7/letter-of-authorization-(loa)-for-hungary-(all-numbers)-(v1.0)-(hu-hu)%20(1).pdf) <br/> <br/>Rellene el formulario y [póngase en contacto con el Servicio de atención al cliente de TNS para obtener instrucciones](contact-tns-service-desk.md). <br/><br/>Transferir números puede tardar de dos a tres semanas en completarse en este mercado. <br/><br/>Estos números no se pueden usar para conferencias en este momento.   |
 |Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía. <br/> |
-|Cambie el número de un usuario a un número de servicio.  <br/> |Póngase en contacto con el Servicio de atención al cliente de [TNS](contact-tns-service-desk.md) para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto con el Servicio de asistencia de [TNS para obtener instrucciones.](contact-tns-service-desk.md) |
+|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con el Servicio de](contact-tns-service-desk.md) atención al cliente de TNS para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto [con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md). |
 ## <a name="related-topics"></a>Temas relacionados
 
 [Diferentes tipos de números de teléfono que se usan para Planes de llamada](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

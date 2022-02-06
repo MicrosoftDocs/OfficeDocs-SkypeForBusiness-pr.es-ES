@@ -1,29 +1,24 @@
 ---
 title: Administrar conferencias en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: 'Resumen: obtenga información sobre cómo administrar conferencias en Skype Empresarial Server.'
-ms.openlocfilehash: 122b7d797983df9bb3ef6252234099869650a66e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845463"
 ---
+
 # <a name="manage-conferencing-in-skype-for-business-server"></a>Administrar conferencias en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo administrar conferencias en Skype Empresarial Server.
   
-En este tema se describe cómo administrar conferencias. Para obtener más información acerca de cómo planear e implementar conferencias, vea [Plan for conferencing in Skype Empresarial Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+En este tema se describe cómo administrar conferencias. Para obtener más información sobre cómo planear e implementar conferencias, vea [Plan for conferencing in Skype Empresarial Server](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 En Skype Empresarial Server, puede administrar los detalles de las conferencias especificando la configuración y la configuración de la siguiente manera. Tenga en cuenta que los términos conferencia y reunión a veces se usan indistintamente. Pero, en general, puede pensar en una reunión como una instancia específica de conferencia.
   
@@ -49,37 +44,37 @@ Puede administrar la mayoría de las directivas de conferencia y las opciones de
   
 - Para administrar la configuración de directiva de conferencia:
     
-  - En el Panel de control, **seleccione Conferencia | Directiva de conferencia**.
+  - En el Panel de control, seleccione **Conferencia | Directiva de conferencia**.
     
-  - En PowerShell, busque los **cmdlets -CsConferencingPolicy.**
+  - En PowerShell, busque los **cmdlets -CsConferencingPolicy** .
     
 - Para administrar las opciones de configuración de reunión:
     
-  - En el Panel de control, **seleccione Conferencia | Configuración de la reunión**.
+  - En el Panel de control, seleccione **Conferencia | Configuración de la reunión**.
     
-  - En Skype Empresarial Server Shell de administración, busque los **cmdlets -CsMeetingConfiguration.**
+  - En Skype Empresarial Server Shell de administración, busque los **cmdlets -CsMeetingConfiguration**.
     
 - Para administrar la configuración del número de acceso telefónico:
     
-  - En el Panel de control, **seleccione Conferencia | Número de acceso telefónico.**
+  - En el Panel de control, seleccione **Conferencia | Número de acceso telefónico.**
     
-  - En Skype Empresarial Server Shell de administración, busque los **cmdlets -CsDialInConferencing.**
+  - En Skype Empresarial Server Shell de administración, busque los **cmdlets -CsDialInConferencing**.
     
 - Para administrar la información de acceso telefónico local, como el plan de marcado, la directiva de voz, la ruta y el uso de RTC: 
     
-  - En el Panel de control, **seleccione Conferencia | Enrutamiento de voz**.
+  - En el Panel de control, seleccione **Conferencia | Enrutamiento de voz**.
     
-  - En Skype Empresarial Server Shell de administración, busque los **cmdlets -CsDialPlan** y **-CsVoice.**
+  - En Skype Empresarial Server Shell de administración, busque los **cmdlets -CsDialPlan** y **-CsVoice**.
     
 - Para administrar la configuración de directiva de PIN:
     
-  - En el Panel de control, **seleccione Conferencia | Directiva de PIN**.
+  - En el Panel de control, seleccione **Conferencia | Directiva de PIN**.
     
-  - En Skype Empresarial Server Shell de administración, busque los **cmdlets -CsPinPolicy.**
+  - En Skype Empresarial Server Shell de administración, busque los **cmdlets -CsPinPolicy**.
     
-- Para administrar las opciones de configuración de conferencia, debe usar el Shell Skype Empresarial Server administración. Busque **cmdlets -CsConferencingConfiguration.**
+- Para administrar las opciones de configuración de conferencia, debe usar el Shell Skype Empresarial Server administración. Busque **cmdlets -CsConferencingConfiguration** .
     
-## <a name="skype-for-business-server-management-shell-cmdlets"></a>Skype Empresarial Server Cmdlets del Shell de administración
+## <a name="skype-for-business-server-management-shell-cmdlets"></a>Skype Empresarial Server cmdlets del Shell de administración
 
 Puede usar los siguientes cmdlets Skype Empresarial Server Shell de administración para administrar conferencias: 
   
@@ -170,6 +165,6 @@ Puede usar los siguientes cmdlets Skype Empresarial Server Shell de administraci
 |[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Comprueba si un par de usuarios pueden participar en una conferencia web de Skype Empresarial Server que incluya actividades como compartir o ver PowerPoint diapositivas, pizarras o sondeos. El cmdlet también comprueba que el servicio de conferencia web de Skype Empresarial Server puede detectar Office Web Apps Server y que un cliente puede cargar un archivo PowerPoint para su difusión por Office Web Apps Server.  <br/> |
 |[Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |Comprueba si un usuario puede participar en una sesión de conferencia de acceso telefónico local.  <br/> |
 |[Test-CsDialPlan](/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |Prueba un número de teléfono con un plan de marcado (antes denominado perfil de ubicación) y devuelve la regla de normalización que se aplicará al número, así como el número traducido después de haber aplicado la regla de normalización.  <br/> |
-|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Comprueba la capacidad de tres usuarios para participar en una conferencia Skype Empresarial Server Mobility Service. El servicio de movilidad permite a los usuarios de teléfonos móviles, como iPhones y Windows Teléfonos móviles, realizar actividades tales como intercambiar mensajes instantáneos e información de presencia; almacenar y recuperar el correo de voz internamente en lugar de con su proveedor inalámbrico; y aproveche las Skype Empresarial Server como llamadas a través del trabajo y conferencias de acceso telefónico local.  <br/> **Nota:** Los clientes que usan MCX no se admiten en Skype Empresarial Server 2019.|
+|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Comprueba la capacidad de tres usuarios para participar en una conferencia Skype Empresarial Server Mobility Service. El servicio de movilidad permite a los usuarios de teléfonos móviles como iPhones y teléfonos Windows realizar actividades como intercambiar mensajes instantáneos e información de presencia; almacenar y recuperar el correo de voz internamente en lugar de con su proveedor inalámbrico, y aprovechar las funcionalidades de Skype Empresarial Server como llamadas a través del trabajo y conferencias de acceso telefónico local.  <br/> **Nota:** Los clientes que usan MCX no se admiten en Skype Empresarial Server 2019.|
 |[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Comprueba la capacidad de un par de usuarios para programar, unirse y, a continuación, realizar una conferencia en línea con la API web de comunicaciones unificadas (UCWA).  <br/> |
 |[Debug-CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |Devuelve información de diagnóstico para las funciones de conferencia de datos incluidas en Skype Empresarial Server.  <br/> |

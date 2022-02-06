@@ -1,25 +1,20 @@
 ---
 title: Cambios de esquema en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
-description: Antes de implementar y Skype Empresarial Server, debe preparar los Servicios de dominio de Active Directory extendiendo el esquema. Las extensiones de esquema agregan las clases y atributos requeridos por Skype Empresarial Server.
-ms.openlocfilehash: 9f5a0f5e3b70925a39d94df9d3fec6728ef6429c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829824"
+description: 'Antes de implementar y Skype Empresarial Server, debe preparar los Servicios de dominio de Active Directory extendiendo el esquema. Las extensiones de esquema agregan las clases y atributos requeridos por Skype Empresarial Server.'
 ---
+
 # <a name="schema-changes-in-skype-for-business-server"></a>Cambios de esquema en Skype Empresarial Server
  
 Antes de implementar y Skype Empresarial Server, debe preparar los Servicios de dominio de Active Directory extendiendo el esquema. Las extensiones de esquema agregan las clases y atributos requeridos por Skype Empresarial Server.
@@ -45,7 +40,7 @@ Skype Empresarial Server requiere varias clases y atributos nuevos y modifica al
     
   - Cuenta de autenticación Kerberos (un objeto de equipo opcional)
     
-En este tema se describen los cambios de esquema de Active Directory requeridos por Skype Empresarial Server. No describe los cambios de esquema introducidos por versiones anteriores de Office Communications Server. Para obtener una lista de clases y sus descripciones, vea [Schema classes and descriptions in Skype Empresarial Server](schema-classes-and-descriptions.md). Para obtener una lista de atributos y sus descripciones, vea [Schema attributes and descriptions in Skype Empresarial Server](schema-attributes-and-descriptions.md). Para obtener una lista de clases con los atributos que pueden contener, vea [Schema attributes by class in Skype Empresarial Server](schema-attributes-by-class.md).
+En este tema se describen los cambios de esquema de Active Directory requeridos por Skype Empresarial Server. No describe los cambios de esquema introducidos por versiones anteriores de Office Communications Server. Para obtener una lista de clases y sus descripciones, vea [Clases de esquema y descripciones en Skype Empresarial Server](schema-classes-and-descriptions.md). Para obtener una lista de atributos y sus descripciones, vea [Schema attributes and descriptions in Skype Empresarial Server](schema-attributes-and-descriptions.md). Para obtener una lista de clases con los atributos que pueden contener, vea [Schema attributes by class in Skype Empresarial Server](schema-attributes-by-class.md).
   
 El prefijo msRTCSIP identifica clases y atributos específicos de Skype Empresarial Server.
   

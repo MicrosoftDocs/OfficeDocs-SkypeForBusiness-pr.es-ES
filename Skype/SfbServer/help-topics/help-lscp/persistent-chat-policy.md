@@ -1,30 +1,25 @@
 ---
 title: Directiva de chat persistente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.PersistentChatPolicy
+  - ms.lync.lscp.PersistentChatPolicy
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
-description: Puede usar la página Directiva de chat persistente del grupo chat persistente para administrar directivas a nivel global, de grupo, de sitio o de usuario, incluida la configuración de la directiva global predeterminada y la creación de una o más directivas de usuario y sitio adicionales para la implementación. Si el servidor de chat persistente está habilitado para un usuario por directiva, el entorno del servidor de chat persistente aparece en su cliente.
-ms.openlocfilehash: 26df9230dc24faf41a6f8ed6bf1f8047fe98007d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862787"
+description: 'Puede usar la página Directiva de chat persistente del grupo chat persistente para administrar directivas a nivel global, de grupo, de sitio o de usuario, incluida la configuración de la directiva global predeterminada y la creación de una o más directivas de usuario y sitio adicionales para la implementación. Si el servidor de chat persistente está habilitado para un usuario por directiva, el entorno del servidor de chat persistente aparece en su cliente.'
 ---
+
 # <a name="persistent-chat-policy"></a>Directiva de chat persistente
  
-Puede usar la página Directiva  de **chat** persistente del grupo chat persistente para administrar directivas a nivel global, de grupo, de sitio o de usuario, incluida la configuración de la directiva global predeterminada y la creación de una o más directivas de usuario y sitio adicionales para la implementación. Si el servidor de chat persistente está habilitado para un usuario por directiva, el entorno del servidor de chat persistente aparece en su cliente.
+Puede usar la página **Directiva de chat** persistente del grupo  chat persistente para administrar directivas a nivel global, de grupo, de sitio o de usuario, incluida la configuración de la directiva global predeterminada y la creación de una o más directivas de usuario y sitio adicionales para la implementación. Si el servidor de chat persistente está habilitado para un usuario por directiva, el entorno del servidor de chat persistente aparece en su cliente.
   
 La directiva global se crea automáticamente al implementar el servidor de chat persistente y se puede configurar, pero no eliminar. Dado que la directiva global se aplica a todos los usuarios, no tiene que establecerse por usuario.
   
@@ -43,7 +38,7 @@ Puede realizar las siguientes tareas en la página **Directiva de chat** persist
     
 2. En el **menú** Inicio, seleccione Skype Empresarial Server Panel de control o abra una ventana del explorador y, a continuación, escriba la dirección URL de administración.
     
-3. En Skype Empresarial Server Panel de control, haga clic **en Chat** persistente y, a continuación, haga clic en Directiva de **chat persistente.**
+3. En Skype Empresarial Server Panel de control, haga clic **en Chat** persistente y, a continuación, haga clic en **Directiva de chat persistente**.
     
 4. Haga clic en **Global** en la lista de directivas, haga clic en **Editar** y, a continuación, en **Mostrar detalles**.
     
@@ -101,7 +96,7 @@ Las directivas de usuario invalidan las directivas globales y las directivas de 
     
    - En **Nombre**, especifique un nombre para la nueva directiva de usuario.
     
-   - En **Descripción,** proporcione detalles sobre lo que es la directiva de usuario (por ejemplo, directiva de chat persistente para un usuario específico).
+   - En **Descripción**, proporcione detalles sobre lo que es la directiva de usuario (por ejemplo, directiva de chat persistente para un usuario específico).
     
    - Para controlar el chat persistente para todos los usuarios que no están controlados específicamente a través de una directiva de usuario, active o desactive la casilla Habilitar **chat** persistente.
     
@@ -121,7 +116,7 @@ Use el procedimiento de este tema para aplicar una directiva de usuario de chat 
     
 4. En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en  **Editar** y, a continuación, en  **Mostrar detalles**.
     
-5. En **Editar usuario de Lync Server en** Directiva de chat **persistente,** seleccione la directiva de usuario de chat persistente que desee aplicar.
+5. En **Editar usuario de Lync Server en** **Directiva de chat persistente**, seleccione la directiva de usuario de chat persistente que desea aplicar.
     
     > [!NOTE]
     > La **\<Automatic\>** configuración aplica la directiva efectiva predeterminada. Esta configuración se aplica automáticamente por el servidor.

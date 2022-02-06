@@ -1,27 +1,22 @@
 ---
 title: Directiva de archivado
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchPolicyMain
+  - ms.lync.lscp.MonArchPolicyMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: 'Las directivas de archivado se usan para habilitar y deshabilitar el archivado para los usuarios que se hospedaron en Skype Empresarial Server. En cada directiva de archivado, puede habilitar o deshabilitar el archivado para una de las siguientes opciones o ambas:'
-ms.openlocfilehash: 85842f6722300dfe4b169a443eef512720a997cb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860537"
 ---
+
 # <a name="archiving-policy"></a>Directiva de archivado
  
 Las directivas de archivado se usan para habilitar y deshabilitar el archivado para los usuarios que se hospedaron en Skype Empresarial Server. En cada directiva de archivado, puede habilitar o deshabilitar el archivado para una de las siguientes opciones o ambas:
@@ -68,5 +63,5 @@ La página **Directiva de archivado** muestra cada directiva de archivado config
     
 - **Actualizar** Puede actualizar la página **Directiva de archivado** para comprobar el estado de las opciones de todas las directivas de archivado.
     
-Para obtener más información sobre la característica y las funcionalidades de archivado, incluida la integración de Exchange, vea [Plan for archiving in Skype Empresarial Server 2015](../../plan-your-deployment/archiving/archiving.md), Deploy archiving for Skype Empresarial Server [2015](../../deploy/deploy-archiving/deploy-archiving.md)y [Manage archiving in Skype Empresarial Server 2015](../../manage/archiving/archiving.md).
+Para obtener más información sobre la característica y las funcionalidades de archivado, incluida la integración de Exchange, vea [Plan for archiving in Skype Empresarial Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype Empresarial Server 2015](../../deploy/deploy-archiving/deploy-archiving.md) y [Manage archiving in Skype Empresarial Server  2015](../../manage/archiving/archiving.md).
 

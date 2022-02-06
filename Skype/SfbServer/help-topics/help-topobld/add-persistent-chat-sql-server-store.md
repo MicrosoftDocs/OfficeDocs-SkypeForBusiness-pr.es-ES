@@ -1,36 +1,31 @@
 ---
 title: Agregar almacén SQL Server de chat persistente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPersistentChatSqlStorePage
+  - ms.lync.tb.AddPersistentChatSqlStorePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 description: Configure los almacenes de SQL Server que proporcionarán bases de datos para el servidor de chat persistente o el grupo de servidores de chat persistente.
-ms.openlocfilehash: 0f092d064b280cd75638a7556497debc41b5996c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837792"
 ---
+
 # <a name="add-persistent-chat-sql-server-store"></a>Agregar almacén SQL Server de chat persistente
  
 Configure los almacenes de SQL Server que proporcionarán bases de datos para el servidor de chat persistente o el grupo de servidores de chat persistente.
   
- **SQL Server de almacenamiento:** seleccione una SQL Server existente y, opcionalmente, una instancia para chat persistente.
+ **SQL Server de almacenamiento**: seleccione una instancia SQL Server existente y, opcionalmente, una instancia para chat persistente.
   
 Haga **clic en** Nuevo para definir un nuevo SQL Server y, opcionalmente, una nueva instancia para los datos de chat persistente.
   
-Active la **casilla Habilitar SQL Server** creación de reflejo del almacén para configurar una base de datos SQL Server y una instancia opcional que proporcionará una base de datos reflejada para los datos de chat persistente.
+Active la **casilla Habilitar SQL Server** creación de reflejos del almacén para configurar una base de datos SQL Server y una instancia opcional que proporcionará una base de datos reflejada para los datos de chat persistente.
   
 Seleccione en la lista Creación **de SQL Server** almacenar una instancia SQL Server y opcional para que actúe como el reflejo SQL Server para el servidor de chat persistente SQL Server.
   
@@ -42,13 +37,13 @@ Haga **clic en** Nuevo para definir un nuevo SQL Server testigo opcionalmente un
   
 Haga clic en **Atrás** para retroceder al diálogo de definición de grupo de servidores anterior.
   
-Haga **clic en** Siguiente después de haber terminado de especificar las opciones para la configuración del almacén de SQL Server grupo de servidores y para continuar con la definición del grupo de servidores de chat persistente.
+Haga **clic en** Siguiente una vez que haya terminado de especificar las opciones para la configuración del almacén de SQL Server grupo de servidores y para continuar con la definición del grupo de servidores de chat persistente.
   
 Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asistente **Definir nuevo grupo de chat persistente**.
   
 Haga clic en **Ayuda** para acceder a la ayuda contextual, como esta página.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planear el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

@@ -1,28 +1,23 @@
 ---
 title: Ver registros de uso de RTC en Skype Empresarial
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 'Resumen: obtenga información sobre cómo ver los registros de uso de RTC mediante el Panel de control de Skype Empresarial Server o el Shell Skype Empresarial Server administración.'
-ms.openlocfilehash: f5da972c6a8403a89764433c898c8717dd0630a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850393"
 ---
+
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>Ver registros de uso de RTC en Skype Empresarial
 
 **Resumen:** Obtenga información sobre cómo ver los registros de uso de RTC mediante el Panel de control Skype Empresarial Server o el Shell Skype Empresarial Server administración.
@@ -33,9 +28,9 @@ Un registro de uso de red telefónica conmutada (RTC) especifica una clase de ll
 
 1. Abra Skype Empresarial Server Panel de control.
 
-2. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz** y, a continuación, haga clic en Uso de **RTC.**
+2. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz** y, a continuación, **haga clic en Uso de RTC**.
 
-3. En la **página Uso de** RTC, resalte el registro de uso de RTC que desea ver, haga clic en **Editar** y, a continuación, haga clic en **Mostrar detalles.**
+3. En la **página Uso de** RTC, resalte el registro de uso de RTC que desea ver, haga clic **en Editar** y, a continuación, haga clic **en Mostrar detalles**.
 
     > [!NOTE]
     > Una página de solo lectura del registro de uso de RTC seleccionado muestra las rutas asociadas y las directivas de voz asociadas.
@@ -55,6 +50,6 @@ Un registro de uso de red telefónica conmutada (RTC) especifica una clase de ll
   Usage    : {Internal, Local, Long Distance}
 </pre>
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype Empresarial](voice-policy-and-pstn-usage-records.md)

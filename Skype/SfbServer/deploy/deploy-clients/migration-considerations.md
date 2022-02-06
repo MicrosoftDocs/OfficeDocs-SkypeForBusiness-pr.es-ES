@@ -1,25 +1,20 @@
 ---
-title: Skype Consideraciones de migración del sistema de sala
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype de migración del sistema de sala
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: Lea este tema para obtener información sobre cómo implementar Skype room system en un entorno que tiene varias versiones de Skype Empresarial Server y Lync Server.
-ms.openlocfilehash: 1b57115a332a647143fc0a3a7ca2c1ee178ad5fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850513"
 ---
-# <a name="skype-room-system-migration-considerations"></a>Skype Consideraciones de migración del sistema de sala
+
+# <a name="skype-room-system-migration-considerations"></a>Skype de migración del sistema de sala
  
 Lea este tema para obtener información sobre cómo implementar Skype room system en un entorno que tiene varias versiones de Skype Empresarial Server y Lync Server.
   
@@ -39,21 +34,21 @@ Puede solucionar este problema con las siguientes opciones:
     
 - Si Skype room system se implementa fuera de la red corporativa y se ha implementado y configurado un servidor perimetral de Lync para que apunte a un grupo o director heredado, se requiere un sitio de servidor perimetral secundario, que apunte al grupo de servidores de Lync Server 2013. Consulte la documentación de implementación del servidor perimetral para obtener más información acerca de la implementación de un servidor perimetral secundario. 
     
-## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Skype Interoperabilidad del sistema de sala con un grupo de servidores de Lync Server 2010
+## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Skype interoperabilidad del sistema de sala con un grupo de servidores de Lync Server 2010
 
 Durante la migración, si un usuario que se encuentra en un grupo de servidores de Lync Server 2010 programa una reunión e invita a la cuenta del sistema de salas de Skype, el cliente del sistema de salas de Skype tendrá una funcionalidad limitada mientras asiste a la reunión. 
   
 Cuando el cliente Skype Room System se une a una llamada de conferencia programada que ha sido organizada por un usuario que se encuentra en Lync Server 2010, Skype Room System tiene las siguientes limitaciones en la reunión: 
   
-- Skype El sistema de sala no puede mostrar la galería de vídeos de varias vistas.
+- Skype room system no puede mostrar la galería de vídeos de varias vistas.
     
 - Si el Skype del sistema de sala es el moderador, no puede aplicar bloqueo de vídeo a los participantes.
     
-- Skype El sistema de sala no puede mostrar una resolución de vídeo de 1080p (entrante o saliente), incluso si la directiva de conferencia de Lync Server 2013 lo permite, debido a lo siguiente: 
+- Skype sistema de sala no puede mostrar una resolución de vídeo de 1080p (entrante o saliente), incluso si la directiva de conferencia de Lync Server 2013 lo permite, debido a lo siguiente: 
     
   - Lync Server 2010 no admite la resolución de 1080p.
     
-  - Skype El sistema de sala siempre está limitado por la directiva de conferencia del organizador para la resolución de vídeo. Por lo tanto, incluso si el grupo de lync 2010 admite una resolución de 720p, Skype Room System no podrá aprovechar la resolución de 720p siempre que la directiva del organizador no la admita. 
+  - Skype room system siempre está limitado por la directiva de conferencia del organizador para la resolución de vídeo. Por lo tanto, incluso si el grupo de lync 2010 admite una resolución de 720p, Skype Room System no podrá aprovechar la resolución de 720p siempre que la directiva del organizador no la admita. 
     
 - Los clientes de Lync 2013 detectan la presencia de LRS en la sala de reuniones y se silencian automáticamente para evitar el eco en la sala de reuniones física. Esta característica no funciona en reuniones hospedadas en Lync Server 2010.
     

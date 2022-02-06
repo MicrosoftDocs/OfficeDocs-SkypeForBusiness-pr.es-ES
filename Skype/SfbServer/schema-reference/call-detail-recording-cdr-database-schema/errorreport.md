@@ -1,25 +1,20 @@
 ---
 title: Tabla ErrorReport en Skype Empresarial Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: La tabla ErrorReport almacena información sobre los errores que se han producido. Cada registro representa la aparición de un error. Los errores se capturan con el agente del CDR que se ejecuta en el servidor front-end o los envía el cliente.
-ms.openlocfilehash: 3047ede92ec248f612249a27b7c04fc3c9f046c1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849643"
 ---
+
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>Tabla ErrorReport en Skype Empresarial Server 2015
  
 La tabla ErrorReport almacena información sobre los errores que se han producido. Cada registro representa la aparición de un error. Los errores se capturan con el agente del CDR que se ejecuta en el servidor front-end o los envía el cliente.
@@ -31,7 +26,7 @@ La tabla ErrorReport almacena información sobre los errores que se han producid
 |**ErrorId** <br/> |Entero  <br/> |Externo  <br/> |Identificador único del tipo de error. Vea la [tabla ErrorDef en Skype Empresarial Server 2015](errordef.md) para obtener más información. <br/> |
 |**FromUserId** <br/> |Entero  <br/> |Externo  <br/> |Usuario que originó la solicitud que provocó el error. Consulta la [tabla Usuarios](users.md) para obtener más información. <br/> |
 |**ToUserId** <br/> |Entero  <br/> |Externo  <br/> |Usuario de destino de la solicitud que provocó el error. Consulta la [tabla Usuarios](users.md) para obtener más información. <br/> |
-|**ConferenceUriId** <br/> |Entero  <br/> |Externo  <br/> |URI de conferencia relacionado con el error. Vea la [tabla ConferenceUris de Skype Empresarial Server 2015](conferenceuris.md) para obtener más información. Normalmente, si ConferenceUriId no es null, FromUserId o ToUserId serán null. <br/> |
+|**ConferenceUriId** <br/> |Entero  <br/> |Externo  <br/> |URI de conferencia relacionado con el error. Vea la [tabla ConferenceUris en Skype Empresarial Server 2015](conferenceuris.md) para obtener más información. Normalmente, si ConferenceUriId no es null, FromUserId o ToUserId serán null. <br/> |
 |**SessionIdTime** <br/> |datetime  <br/> |Externo  <br/> |Se usa junto con **SessionIdSeq** para identificar una sesión de manera exclusiva. Vea la [tabla Cuadros de diálogo de Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
 |**SessionIdSeq** <br/> |Entero  <br/> |Externo  <br/> |Número con el que se identifica la sesión. Se usa en combinación con **SessionIdTime** para identificar de forma única una sesión. Vea la [tabla Cuadros de diálogo de Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
 |**SourceId** <br/> |Entero  <br/> |Externo  <br/> |Servidor que envió el informe de error (si el informe se envía desde un componente de servidor). Vea la [tabla Servidores para](servers.md) obtener más información. <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |

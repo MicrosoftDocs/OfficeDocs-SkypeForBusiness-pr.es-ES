@@ -1,7 +1,7 @@
 ---
 title: Actualizar Skype Empresarial local a Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -11,22 +11,17 @@ description: Obtenga información sobre cómo cambiar su organización a Microso
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Teams-upgrade-guidance
-- seo-marvel-apr2020
+  - Teams-upgrade-guidance
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: b6d8c95b34345bd6ea6203abbb099c7071c9db60
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846023"
+  - Microsoft Teams
 ---
+
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Actualizar de una Skype Empresarial local a Teams
 
 ![Etapas del viaje de actualización, con énfasis en la fase implementación e implementación.](media/upgrade-banner-deployment.png "Fases del viaje de actualización, con énfasis en la fase implementación e implementación")
@@ -50,7 +45,7 @@ Siga las instrucciones de este artículo si ha implementado Skype Empresarial o 
 
 El requisito previo clave para actualizar los usuarios a Teams es implementar la conectividad híbrida.
 
-Para obtener más información, vea Implementar conectividad [híbrida entre Skype Empresarial Server y Skype Empresarial Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
+Para obtener más información, vea [Implementar conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>Paso 2: Implementar el viaje de actualización elegido para su organización
 
@@ -58,9 +53,9 @@ Después de completar la configuración híbrida, puede planear mover los usuari
 
 Para obtener más información, vea:
 
-- [TeamsUpgradePolicy: administrar la migración y la coexistencia.](upgrade-to-teams-on-prem-tools.md)
+- [TeamsUpgradePolicy: administrar la migración y la coexistencia](upgrade-to-teams-on-prem-tools.md).
 
-- [Mover usuarios locales a Skype Empresarial Online.](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
+- [Mover usuarios de forma local a Skype Empresarial Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
 
 ## <a name="phone-system-and-teams-upgrade"></a>Sistema telefónico y Teams actualización
 
@@ -68,4 +63,4 @@ La transición de sistemas telefónicos locales a Teams le permitirá aprovechar
 
 Si no usa planes de llamadas, debe cambiar la implementación de voz empresarial a Sistema telefónico enrutamiento directo como parte de la actualización a Teams.
 
-Para obtener más información, [vea consideraciones adicionales para Sistema telefónico enrutamiento directo.](./direct-routing-landing-page.md) Si está pensando en usar planes de llamadas, consulte nuestras instrucciones para transferir sus números de teléfono a [Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Para obtener más información, [vea consideraciones adicionales para Sistema telefónico enrutamiento directo](./direct-routing-landing-page.md). Si planea usar planes de llamadas, consulte nuestras instrucciones para transferir [sus números de teléfono a Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).

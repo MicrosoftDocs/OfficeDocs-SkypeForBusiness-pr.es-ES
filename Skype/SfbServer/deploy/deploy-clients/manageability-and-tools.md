@@ -1,25 +1,20 @@
 ---
-title: Skype Herramientas y capacidad de administración del sistema de sala
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype y herramientas de administración del sistema de sala
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Lea este tema para obtener información sobre las herramientas de administración para Skype Room System.
-ms.openlocfilehash: 976ed518941ded1278bf34a1c991a20adb8a0d8c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865417"
 ---
-# <a name="skype-room-system-manageability-and-tools"></a>Skype Herramientas y capacidad de administración del sistema de sala
+
+# <a name="skype-room-system-manageability-and-tools"></a>Skype y herramientas de administración del sistema de sala
  
 Lea este tema para obtener información sobre las herramientas de administración para Skype Room System.
   
@@ -32,7 +27,7 @@ Vea el siguiente artículo para obtener más detalles:
 - [Implementar SRS v1 Administrative Web Portal en Skype Empresarial Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
   
-## <a name="exchange-checklist"></a>Exchange Lista de comprobación
+## <a name="exchange-checklist"></a>Exchange lista de comprobación
 
 - Confirme que la detección automática está configurada y que hay disponible un REGISTRO A/CNAME de DNS interno para autodiscover.domain.com.
     
@@ -42,15 +37,15 @@ Vea el siguiente artículo para obtener más detalles:
     
 - Si la sala de reuniones ya tiene un buzón de recursos, extienda esta cuenta para el sistema de salas Skype (script de ejemplo en la parte inferior de la página).
     
-## <a name="skype-for-business-checklist"></a>Skype Empresarial Lista de comprobación
+## <a name="skype-for-business-checklist"></a>Skype Empresarial lista de comprobación
 
 - Ejecute las siguientes herramientas:
     
-  - Skype Empresarial Analizador de procedimientos recomendados     
-  - Skype Empresarial Herramienta de análisis de estado (Excel)    
-  - Skype Empresarial Analizador de conectividad de 32 o 64 bits
+  - Skype Empresarial de procedimientos recomendados     
+  - Skype Empresarial de análisis de estado (Excel)    
+  - Skype Empresarial de conectividad de 32 o 64 bits
     
-- Revise [Útiles nuevas herramientas de solución de problemas y](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365)análisis para Office 365 . Confirme que tiene un grupo Skype Empresarial de servidores y un servidor Office Web Apps y puede compartir una PowerPoint con el Skype Empresarial cliente.
+- Revise [Útiles nuevas herramientas de solución de problemas y análisis para Office 365](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365). Confirme que tiene un grupo Skype Empresarial de servidores y un servidor Office Web Apps y puede compartir una PowerPoint con el Skype Empresarial cliente.
     
 - Si la sala de reuniones ya tiene un buzón de recursos, habilitelo para Skype Empresarial.
     
@@ -70,9 +65,9 @@ Vea el siguiente artículo para obtener más detalles:
     
 - Ejecute la Herramienta de diagnóstico de llamadas previas.
     
-## <a name="skype-room-system-security"></a>Skype Seguridad del sistema de sala
+## <a name="skype-room-system-security"></a>Skype seguridad del sistema de sala
 
-Skype Room System es un sistema incrustado que se puede integrar completamente en una implementación de Windows, mediante el modelo de seguridad Skype Empresarial, la administración de derechos y las herramientas de administración, como SCOM. Entre las características se incluyen:
+Skype Room System es un sistema incrustado que se puede integrar completamente en una implementación de Windows, con el modelo de seguridad de Skype Empresarial, la administración de derechos y las herramientas de administración como SCOM. Entre las características se incluyen:
   
 - Un filtro de escritura para evitar escrituras en disco en modo de usuario 
     
@@ -86,13 +81,13 @@ Skype Room System es un sistema incrustado que se puede integrar completamente e
     
 - También puede administrar la cuenta de administrador local mediante el centro Skype Empresarial administración.
     
-- Skype El sistema de sala se actualiza mediante procesos estándar de Microsoft Update.
+- Skype room system se actualiza a través de procesos estándar de Microsoft Update.
     
-- Skype El sistema de sala se conecta Skype Empresarial.
+- Skype room system se conecta con Skype Empresarial.
     
   - Skype Empresarial usa cifrado y autorización de extremo a extremo para todos los modos de comunicación
     
-  - Skype Room System admite Skype Empresarial seguridad y cumplimiento normativo. Vea [Plan for security in Skype For Business Server](../../plan-your-deployment/security/security.md) para obtener más información.
+  - Skype room system admite Skype Empresarial de seguridad y cumplimiento normativo. Vea [Plan for security in Skype For Business Server](../../plan-your-deployment/security/security.md) para obtener más información.
     
 ## <a name="license"></a>Licencia
 
@@ -126,7 +121,7 @@ Compruebe que la entidad de certificación tiene una ruta de acceso http para la
   
 Instale certificados en la configuración de administración del Skype room system en System Configuración \> Certificate Manager. Necesita la ca raíz Enterprise para el certificado interno.
   
-Una forma de obtener los certificados que necesita es detectar la CA que emitió los certificados. Para Skype Empresarial Server, en un equipo de Skype Empresarial, haga clic en Configuración Herramientas de acceso telefónico \> \> Configuración. Se abre una página web protegida por la CA que emitió los certificados internos. Haga clic en el icono Bloquear de la barra de direcciones del explorador para mostrar un informe de seguridad. Haga clic en Ver certificados y examine la propiedad Punto de distribución CRL. El segundo parámetro CN debe ser el nombre del servidor de la CA. Ahora abra Windows Explorer para esa \\ \< CA Server Name \> dirección \CertEnroll. Copie los dos archivos .crl y el archivo .crt en una unidad flash y póngalo en el lado izquierdo de la tarjeta SMART.
+Una forma de obtener los certificados que necesita es detectar la CA que emitió los certificados. Para Skype Empresarial Server, en un equipo de Skype Empresarial, \> haga clic en Configuración Herramientas \> de acceso telefónico Configuración. Se abre una página web protegida por la CA que emitió los certificados internos. Haga clic en el icono Bloquear de la barra de direcciones del explorador para mostrar un informe de seguridad. Haga clic en Ver certificados y examine la propiedad Punto de distribución CRL. El segundo parámetro CN debe ser el nombre del servidor de la CA. Ahora abra Windows Explorer para esa dirección \\\< CA Server Name \>\CertEnroll. Copie los dos archivos .crl y el archivo .crt en una unidad flash y póngalo en el lado izquierdo de la tarjeta SMART.
   
 Importe el archivo .crt al sistema de Skype en la carpeta Entidad de certificación de sala de confianza.
   

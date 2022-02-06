@@ -1,31 +1,26 @@
 ---
 title: Usar plantillas de equipo de gobierno en el Centro de administración
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre cómo usar plantillas de equipo para crear estructuras de equipo diseñadas para las necesidades del gobierno proporcionando configuraciones predefinidas, canales y aplicaciones preinstaladas con el Centro de administración.
+description: 'Obtenga información sobre cómo usar plantillas de equipo para crear estructuras de equipo diseñadas para las necesidades del gobierno proporcionando configuraciones predefinidas, canales y aplicaciones preinstaladas con el Centro de administración.'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- NewAdminCenter_Update
-- seo-marvel-apr2020
+  - NewAdminCenter_Update
+  - seo-marvel-apr2020
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 819eb3297ae3b486e7c9d93053911c5090cfae29
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840752"
+  - Microsoft Teams
 ---
+
 # <a name="use-government-team-templates-in-the-admin-center"></a>Usar plantillas de equipo de gobierno en el Centro de administración
 
 Las plantillas de equipo le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
@@ -36,7 +31,7 @@ En este artículo, presentamos cada una de las plantillas de equipo y le recomen
 
 Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda la organización gubernamental. Ya ha implementado el servicio de Teams en su organización. Si todavía no ha implementado Teams, empiece por leer [Cómo implementar Microsoft Teams](./deploy-overview.md).
 
-Para obtener más información sobre las plantillas de equipo en general, consulte Introducción [a las plantillas de equipo.](get-started-with-teams-templates-in-the-admin-console.md)
+Para obtener más información sobre las plantillas de equipo en general, consulte Introducción [a las plantillas de equipo](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="coordinate-incident-response"></a>Coordinar la respuesta a incidentes
 

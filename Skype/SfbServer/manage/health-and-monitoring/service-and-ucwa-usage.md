@@ -1,24 +1,19 @@
 ---
 title: Supervisar el uso del servicio de movilidad y UCWA en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: 'Resumen: administre el servicio de movilidad (Mcx) y la API web de comunicaciones unificadas (UCWA) en Skype Empresarial Server.'
-ms.openlocfilehash: 6139ab53e964bd7c880a83a7af252fe2da71a152
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835258"
 ---
+
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>Supervisar el uso del servicio de movilidad y UCWA en Skype Empresarial Server
  
 **Resumen:** Administre el Servicio de movilidad (Mcx) y la API web de comunicaciones unificadas (UCWA) en Skype Empresarial Server.
@@ -38,7 +33,7 @@ Para la mayoría de las implementaciones, el uso de CPU ucwa debe estar por deba
   
 Además de los contadores de uso de memoria y CPU, puede usar los siguientes contadores de rendimiento para ayudar a determinar cuándo un servidor está sobrecargado con solicitudes:
   
-- **LS:WEB: limitación y autenticación\WEB: solicitudes** totales en procesamiento , que indica el número de solicitudes web pendientes en el servidor. Cuando este contador alcanza las 10.000, se producirá un error en las solicitudes posteriores, con el mensaje de error "503 - Servicio no disponible".
+- **LS:WEB: limitación y autenticación\WEB: solicitudes** totales en procesamiento, que indica el número de solicitudes web pendientes en el servidor. Cuando este contador alcanza las 10.000, se producirá un error en las solicitudes posteriores, con el mensaje de error "503 - Servicio no disponible".
     
 - **ASP.NET\Requests Queued** (debería ser siempre cero)
     
@@ -65,6 +60,6 @@ Además de los contadores del uso de la CPU y de la memoria, puede usar los sigu
 > [!NOTE]
 > La compatibilidad con MCX (Mobility Service) para clientes móviles heredados ya no está disponible en Skype Empresarial Server 2019. Todos los clientes Skype Empresarial móviles ya usan la API web de comunicaciones unificadas (UCWA) para admitir mensajería instantánea (MI), presencia y contactos. Los usuarios con clientes heredados que usen MCX tendrán que actualizar a un cliente actual.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Supervisar los límites de capacidad de memoria del servidor en Skype Empresarial Server](server-memory-capacity-limits.md)

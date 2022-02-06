@@ -1,23 +1,19 @@
 ---
 title: Vincular regiones de red
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 'Puede configurar vínculos entre dos regiones de red como parte del control de admisión de llamadas. '
-ms.openlocfilehash: 718f9223749c86fdff5ce98d1d652a0a3f1a9fbc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841182"
 ---
+
+
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Vincular regiones de red en Skype Empresarial Server
 
 Puede configurar vínculos entre dos regiones de red como parte del control de admisión de llamadas. Use las secciones de este artículo para ver información de vínculos de región newtwork o configurar o eliminar vínculos de región netwrok. 
@@ -33,7 +29,7 @@ Puede ver enlaces entre dos regiones de red como parte de un servicio de control
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Vínculo **de región.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Vínculo de región**.
 
 4.  En la página **Vínculo de región**, haga clic en el vínculo de región que desea ver.
     
@@ -44,7 +40,7 @@ Puede ver enlaces entre dos regiones de red como parte de un servicio de control
 
 ### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Ver información de vínculos de región de red mediante Windows PowerShell cmdlets
 
-Puede ver vínculos de región de red mediante Windows PowerShell y el cmdlet **Get-CsNetworkRegionLink.** Puede ejecutar este cmdlet desde el shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
+Puede ver vínculos de región de red mediante Windows PowerShell y el cmdlet **Get-CsNetworkRegionLink**. Puede ejecutar este cmdlet desde el shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. 
 
 
 ### <a name="to-view-network-region-link-information"></a>Para ver la información de un vínculo de región de red
@@ -71,7 +67,7 @@ Puede configurar vínculos entre dos regiones de red como parte del control de a
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Vínculo **de región.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Vínculo de región**.
 
 4.  En la página **Vínculo regional**, haga clic en **Nuevo**.
 
@@ -80,9 +76,9 @@ Puede configurar vínculos entre dos regiones de red como parte del control de a
     > [!NOTE]  
     > Este valor debe ser único dentro de la Skype Empresarial Server implementación.
 
-6.  En la lista desplegable Región de red **\# 1,** seleccione una de las dos regiones que desea vincular.
+6.  En la **lista desplegable Región \#de red 1** , seleccione una de las dos regiones que desea vincular.
 
-7.  En la lista desplegable Región de red **\# 2,** seleccione la otra región que se va a vincular. Esta región debe ser diferente de la región seleccionada para la región \# de red 1.
+7.  En la **lista desplegable Región \#de red 2** , seleccione la otra región que se va a vincular. Esta región debe ser diferente de la región seleccionada para la región de red \#1.
 
 8.  (Opcional) Si desea establecer limitaciones de ancho de banda en llamadas de audio o vídeo entre estas regiones, seleccione un perfil de directiva de ancho de banda en la lista desplegable **Directiva de ancho de banda**.
 
@@ -94,7 +90,7 @@ Puede configurar vínculos entre dos regiones de red como parte del control de a
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Vínculo **de región.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Vínculo de región**.
 
 4.  En la página **Vínculo regional**, haga clic en el vínculo regional que desea modificar.
 
@@ -115,7 +111,7 @@ Puede configurar vínculos entre dos regiones de red como parte del control de a
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Vínculo **de región.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Vínculo de región**.
 
 4.  En la página **Vínculo de región**, haga clic en el vínculo de región que desea eliminar.
  
@@ -127,7 +123,7 @@ Puede configurar vínculos entre dos regiones de red como parte del control de a
 6.  Haga clic en **Aceptar**.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [New-CsNetworkRegionLink](/powershell/module/skype/New-CsNetworkRegionLink)  
 

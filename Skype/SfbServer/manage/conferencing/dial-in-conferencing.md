@@ -1,29 +1,24 @@
 ---
 title: Administrar conferencias de acceso telefónico local en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
 description: 'Resumen: obtenga información sobre cómo administrar las conferencias de acceso telefónico local en Skype Empresarial Server.'
-ms.openlocfilehash: e2b836cf45bf3e9253ea6161c4bd634864337e5f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830864"
 ---
+
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>Administrar conferencias de acceso telefónico local en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo administrar las conferencias de acceso telefónico local en Skype Empresarial Server.
   
-En este tema se describe cómo administrar conferencias de acceso telefónico local. Para obtener más información sobre cómo planear y configurar conferencias de acceso telefónico local en la implementación, vea [Plan for dial-in conferencing in Skype Empresarial Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md) y Configure [dial-in conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+En este tema se describe cómo administrar conferencias de acceso telefónico local. Para obtener más información acerca de cómo planear y configurar conferencias de acceso telefónico local en la implementación, vea [Plan for dial-in conferencing in Skype Empresarial Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md) y [Configure dial-in conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 Puede realizar las siguientes tareas para administrar conferencias de acceso telefónico local: habilitar o deshabilitar conferencias de acceso telefónico local, administrar números de acceso, administrar directivas de PIN para la conferencia de acceso telefónico local, administrar anuncios de unión y salida de conferencias, modificar asignaciones de teclas para comandos DTMF y dar la bienvenida a los usuarios a las conferencias de acceso telefónico local. 
   
@@ -47,7 +42,7 @@ Para administrar información sobre los planes de marcado y el uso de RTC:
     
 2.  Abra Skype Empresarial Server Panel de control.
     
-3. En la barra de navegación izquierda, haga clic **en Enrutamiento de voz.**
+3. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz**.
     
 ## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>Administrar conferencias de acceso telefónico local mediante Skype Empresarial Server Shell de administración
 

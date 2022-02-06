@@ -1,23 +1,18 @@
 ---
 title: Conmutar por error y conmutar por recuperación un grupo
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: .
-ms.openlocfilehash: 55377e77a5b365a4db149ee69b6cd796e373a80b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849973"
 ---
+
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Con error y con error de un grupo de servidores en Skype Empresarial Server
 
 Use los siguientes procedimientos si un único grupo de servidores de Front-End ha fallado y necesita que se le haya fallado, o si el grupo de servidores que experimentó el desastre está de nuevo en línea y necesita restaurar la implementación a un estado de trabajo normal. Obtenga información sobre cómo conmutar por error y devolver la conmutación por error del grupo de servidores perimetrales usado para una federación Skype Empresarial o una federación XMPP, o cambiar el grupo de servidores perimetrales asociado a un grupo de servidores Front-End servidor.
@@ -41,7 +36,7 @@ Si se produce un error Front-End grupo de servidores perimetrales, pero el grupo
 
 1. Abra el Generador de topologías, haga clic con el botón secundario en el grupo de servidores perimetrales que debe cambiarse y seleccione **Editar propiedades**.
 
-2. Seleccione **Next Hop**. En la **lista Grupo de servidores del** próximo salto: seleccione el grupo que ahora servirá como grupo de servidores de próximo salto.
+2. Seleccione **Siguiente salto**. En la **lista Grupo de servidores del** próximo salto: seleccione el grupo que ahora servirá como grupo de servidores de próximo salto.
 
 3. Seleccione **Aceptar** y, a continuación, publique los cambios.
 
@@ -61,15 +56,15 @@ Si se produce un error Front-End grupo de servidores perimetrales, pero el grupo
     Invoke-CsManagementServerFailover -Whatif
     ```
 
-    Los resultados de este cmdlet muestran qué grupo hospeda actualmente el servidor de administración central. En el resto de este procedimiento, este grupo se conoce como grupo de \_ CMS.
+    Los resultados de este cmdlet muestran qué grupo hospeda actualmente el servidor de administración central. En el resto de este procedimiento, este grupo se conoce como CMSPool\_.
 
-2. Use el Generador de topologías para buscar la versión de Skype Empresarial Server se ejecuta en el grupo de \_ CMS. Si está ejecutando Skype Empresarial Server, use el siguiente cmdlet para buscar el grupo de copia de seguridad del grupo 1.
+2. Use el Generador de topologías para buscar la versión de Skype Empresarial Server se ejecuta en CMSPool\_. Si está ejecutando Skype Empresarial Server, use el siguiente cmdlet para buscar el grupo de copia de seguridad del grupo 1.
 
     ```powershell
     Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
     ```
 
-    Deje que el \_ grupo de copia de seguridad sea el grupo de copias de seguridad.
+    Deje que BackupPool\_ sea el grupo de copia de seguridad.
 
 3. Compruebe el estado del almacén de administración central con el siguiente cmdlet:
 
@@ -77,25 +72,25 @@ Si se produce un error Front-End grupo de servidores perimetrales, pero el grupo
     Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
     ```
 
-    Este cmdlet debe mostrar que ActiveMasterFQDN y ActiveFileTransferAgents apuntan al FQDN del grupo de \_ CMS. Si están vacíos, el servidor de administración central no está disponible y debe conmutar por error.
+    Este cmdlet debe mostrar que ActiveMasterFQDN y ActiveFileTransferAgents apuntan al FQDN de CMSPool\_. Si están vacíos, el servidor de administración central no está disponible y debe conmutar por error.
 
 4.  Si el almacén de administración central no está disponible o si el almacén de administración central se estaba ejecutando en el grupo1 (es decir, el grupo que ha fallado), debe conmutar por error el servidor de administración central antes de conmutar por error el grupo. Si necesita conmutar por error el servidor de administración central hospedado en un grupo que ejecuta Skype Empresarial Server, use el cmdlet en el paso 5 de este procedimiento. Si no necesita conmutar por error el servidor de administración central, vaya al paso 7 de este procedimiento.
 
 5.  Para conmutar por error el almacén de administración central en un grupo que Skype Empresarial Server, haga lo siguiente:
 
-    1. En primer lugar, compruebe Back-End servidor de copia de seguridad ejecuta la instancia principal del almacén \_ de administración central escribiendo lo siguiente:
+    1. En primer lugar, compruebe Back-End Server en BackupPool\_ ejecuta la instancia principal del almacén de administración central escribiendo lo siguiente:
 
         ```powershell
         Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
         ```
     
-    1. Si el servidor Back-End principal del grupo de copia de \_ seguridad es la entidad de seguridad, escriba:
+    1. Si el servidor Back-End principal en BackupPool\_ es la entidad de seguridad, escriba:
 
         ```powershell        
         Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
         ```
         
-    1. Si el servidor Back-End servidor de copia de \_ seguridad es la entidad de seguridad, escriba:
+    1. Si el servidor Back-End en BackupPool\_ es la entidad de seguridad, escriba:
     
         ```powershell
         Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
@@ -107,7 +102,7 @@ Si se produce un error Front-End grupo de servidores perimetrales, pero el grupo
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
         ```
         
-        Compruebe que ActiveMasterFQDN y ActiveFileTransferAgents apunten al FQDN del grupo de servidores de \_ copia de seguridad.
+        Compruebe que ActiveMasterFQDN y ActiveFileTransferAgents apunten al FQDN de BackupPool\_.
     
     1. Por último, compruebe el estado de la réplica para todos Front-End servidores escribiendo lo siguiente:
         
@@ -119,7 +114,7 @@ Si se produce un error Front-End grupo de servidores perimetrales, pero el grupo
         
         Vaya al paso 7 de este procedimiento.
 
-6.  Instale el almacén de administración central en el servidor back-end del grupo de servidores de \_ copia de seguridad.
+6.  Instale el almacén de administración central en el servidor back-end de BackupPool\_.
     
     1. En primer lugar, ejecute el siguiente comando:
 
@@ -127,7 +122,7 @@ Si se produce un error Front-End grupo de servidores perimetrales, pero el grupo
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-    1. Ejecute el siguiente comando en uno de los servidores front-end del grupo de servidores de copia de seguridad para forzar el \_ movimiento del almacén de administración central:
+    1. Ejecute el siguiente comando en uno de los servidores front-end de BackupPool\_ para forzar el movimiento del almacén de administración central:
 
         ```powershell
         Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force
@@ -139,7 +134,7 @@ Si se produce un error Front-End grupo de servidores perimetrales, pero el grupo
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
         ```
         
-        Compruebe que ActiveMasterFQDN y ActiveFileTransferAgents apunten al FQDN del grupo de servidores de \_ copia de seguridad.
+        Compruebe que ActiveMasterFQDN y ActiveFileTransferAgents apunten al FQDN de BackupPool\_.
     
     1. Compruebe el estado de réplica para todos los servidores front-end escribiendo lo siguiente:
 
@@ -149,7 +144,7 @@ Si se produce un error Front-End grupo de servidores perimetrales, pero el grupo
         
         Compruebe que todas las réplicas tengan un valor de True.
     
-    1. Instale el servicio servidor de administración central en el resto de los servidores front-end en el grupo de servidores de \_ copia de seguridad. Para ello, ejecute el siguiente comando en todos los servidores front-end, excepto el que usó al forzar el movimiento del almacén de administración central anteriormente en este procedimiento:
+    1. Instale el servicio servidor de administración central en el resto de los servidores front-end en BackupPool\_. Para ello, ejecute el siguiente comando en todos los servidores front-end, excepto el que usó al forzar el movimiento del almacén de administración central anteriormente en este procedimiento:
 
         ```console
         Bootstrapper /Setup
@@ -196,13 +191,13 @@ Si el grupo de servidores perimetrales en el que Skype Empresarial Server la fed
 
 2.  En **Editar propiedades**, en la pestaña **General**, desactive **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)**. Seleccione **Aceptar**.
 
-3.  Expanda **Grupos perimetrales** y, a continuación, haga clic con el botón secundario en el servidor perimetral o grupo de servidores perimetrales que ahora desea usar para federación. Seleccione **Editar propiedades**.
+3.  Expanda **Grupos de servidores** perimetrales y, a continuación, haga clic con el botón secundario en el servidor perimetral o grupo de servidores perimetrales que ahora desea usar para federación. Seleccione **Editar propiedades**.
 
 4.  En **Editar propiedades**, en **General**, seleccione **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)**. Seleccione **Aceptar**.
 
-5.  Select **Action**, select **Topology**, select **Publish**. Cuando se le pida **en Publicar la topología,** seleccione **Siguiente**. Cuando finalice la publicación, seleccione **Finalizar**.
+5.  Seleccione **Acción**, **topología y** **publicación**. Cuando se le pida **en Publicar la topología**, seleccione **Siguiente**. Cuando finalice la publicación, seleccione **Finalizar**.
 
-6.  En el servidor perimetral, abra el asistente Skype Empresarial Server implementación. Seleccione **Instalar o actualizar Skype Empresarial Server System** y, a continuación, seleccione Configurar o Quitar Skype Empresarial Server **componentes**. Seleccione **Ejecutar de nuevo**.
+6.  En el servidor perimetral, abra el asistente Skype Empresarial Server implementación. Seleccione **Instalar o actualizar Skype Empresarial Server y**, a continuación, seleccione Configurar o **Quitar Skype Empresarial Server componentes**. Seleccione **Ejecutar de nuevo**.
 
 7.  Seleccione **Siguiente**. La pantalla de resumen mostrará las acciones a medida que se ejecuten. Una vez realizada la implementación, seleccione **Ver registro** para ver los archivos de registro disponibles. Seleccione **Finalizar** para completar la implementación.
     
@@ -261,13 +256,13 @@ Después de que un grupo perimetral con errores que usaba para hospedar la feder
     
     1. En **Editar propiedades**, en la pestaña **General**, desactive **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)**. Seleccione **Aceptar**.
     
-    1. Expanda **Grupos de servidores** perimetrales y, a continuación, haga clic con el botón secundario en el servidor perimetral original o el grupo de servidores perimetrales que de nuevo desea usar para federación. Seleccione **Editar propiedades**.
+    1. Expanda **Grupos de servidores perimetrales** y, a continuación, haga clic con el botón secundario en el servidor perimetral original o grupo de servidores perimetrales que vuelva a usar para federación. Seleccione **Editar propiedades**.
     
     1. En **Editar propiedades**, en **General**, seleccione **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)**. Seleccione **Aceptar**.
     
-    1. Select **Action**, select **Topology**, select **Publish**. Cuando se le pida **en Publicar la topología,** seleccione **Siguiente**. Cuando finalice la publicación, seleccione **Finalizar**.
+    1. Seleccione **Acción**, **topología y** **publicación**. Cuando se le pida **en Publicar la topología**, seleccione **Siguiente**. Cuando finalice la publicación, seleccione **Finalizar**.
     
-    1. En el servidor perimetral, abra el asistente Skype Empresarial Server implementación. Seleccione **Instalar o actualizar Skype Empresarial Server system** y, a continuación, seleccione Configurar o Quitar Skype Empresarial Server **componentes**. Seleccione **Ejecutar de nuevo**.
+    1. En el servidor perimetral, abra el asistente Skype Empresarial Server implementación. Seleccione **Instalar o actualizar Skype Empresarial Server y**, a continuación, **seleccione Configurar o Quitar Skype Empresarial Server componentes**. Seleccione **Ejecutar de nuevo**.
     
     1. Seleccione **Siguiente**. La pantalla de resumen mostrará las acciones a medida que se ejecuten. Una vez realizada la implementación, seleccione **Ver registro** para ver los archivos de registro disponibles. Seleccione **Finalizar** para completar la implementación.
 

@@ -1,31 +1,26 @@
 ---
-title: Microsoft Teams Supervisión y alertas
+title: Microsoft Teams supervisión y alertas
 author: vaibhav
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: vapati
-f1.keywords: ''
+f1.keywords: null
 ms.localizationpriority: medium
-search.appverid: ''
+search.appverid: null
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 description: Obtenga información sobre las Teams de alertas y notificaciones disponibles en el centro Microsoft Teams administración.
 appliesto:
-- Microsoft Teams
-ms.custom: ''
-ms.openlocfilehash: f97905320912ec1a63aa4580018c134bed3589c4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737476"
+  - Microsoft Teams
+ms.custom: null
 ---
+
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams y alertas
 
-Las nuevas capacidades de supervisión y alertas para Microsoft Teams están disponibles en el centro Teams administración. Use diferentes conjuntos de reglas disponibles en la sección Notificaciones **& alertas** en el Centro de administración de Teams para supervisar Teams y recibir alertas. Por ejemplo, puede supervisar activamente el estado de Teams dispositivos como teléfonos IP, barras de colaboración y otros si se desconectan inesperadamente.  
+Las nuevas capacidades de supervisión y alertas para Microsoft Teams están disponibles en el centro Teams administración. Use diferentes conjuntos de reglas disponibles en la sección Notificaciones **& alertas** en el centro de administración de Teams para supervisar Teams y recibir alertas. Por ejemplo, puede supervisar activamente el estado de Teams dispositivos como teléfonos IP, barras de colaboración y otros si se desconectan inesperadamente.  
 
 Su organización puede usar Teams y alertas para realizar los siguientes elementos:
 
@@ -35,11 +30,11 @@ Su organización puede usar Teams y alertas para realizar los siguientes element
 
 ## <a name="how-to-manage-monitoring-and-alerting"></a>Cómo administrar la supervisión y las alertas
 
- Debe ser administrador global en Microsoft 365 o administrador Teams servicio para configurar reglas de alertas. Vea [Usar Teams de](../using-admin-roles.md) administrador para administrar Teams para obtener más información sobre Teams de administrador y qué informes pueden tener acceso a cada rol de administrador.
+ Debe ser administrador global en Microsoft 365 o administrador Teams servicio para configurar reglas de alertas. Vea [Usar Teams de administrador para](../using-admin-roles.md) administrar Teams para obtener más información sobre Teams de administrador y qué informes pueden tener acceso a cada rol de administrador.
 
 1. Inicie la sesión en el Centro de administración de Teams
-2. En el panel de navegación izquierdo, seleccione **Notificaciones & alertas.**
-3. Elija la regla que desea configurar en **Reglas.**
+2. En el panel de navegación izquierdo, seleccione **Notificaciones & alertas**.
+3. Elija la regla que desea configurar en **Reglas**.
 
 ## <a name="teams-monitoring-rules-reference"></a>Teams de reglas de supervisión
 
@@ -48,4 +43,4 @@ Seguimos agregando y mejorando la experiencia Teams supervisión mediante la adi
 
 |Regla  |Capacidad de supervisión|¿Qué se supervisa? |
 |---------|---------|---------|
-|[Estado del estado del dispositivo](device-health-status.md)  |Teams Dispositivos | Pro de forma activa Teams dispositivos si se desconectan.|
+|[Estado del estado del dispositivo](device-health-status.md)  |Teams dispositivos | Pro de forma activa Teams dispositivos si se desconectan.|

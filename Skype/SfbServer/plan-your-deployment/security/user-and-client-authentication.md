@@ -1,24 +1,19 @@
 ---
 title: Autenticación de usuario y cliente para Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-description: Un usuario de confianza es uno cuyas credenciales han sido autenticadas por un servidor de confianza en Skype Empresarial Server. Este servidor es, por lo general, un servidor Standard Edition, un servidor front-end Enterprise Edition o un director. Skype Empresarial Server se basa en los Servicios de dominio de Active Directory como el repositorio back-end único y de confianza de las credenciales de usuario.
-ms.openlocfilehash: c0c64bb269a80ca4241ec9f2d338817b05f1ff9d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831834"
+description: 'Un usuario de confianza es uno cuyas credenciales han sido autenticadas por un servidor de confianza en Skype Empresarial Server. Este servidor es, por lo general, un servidor Standard Edition, un servidor front-end Enterprise Edition o un director. Skype Empresarial Server se basa en los Servicios de dominio de Active Directory como el repositorio back-end único y de confianza de las credenciales de usuario.'
 ---
+
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Autenticación de usuario y cliente para Skype Empresarial Server
  
 Un usuario de confianza es uno cuyas credenciales han sido autenticadas por un servidor de confianza en Skype Empresarial Server. Este servidor es, por lo general, un servidor Standard Edition, un servidor front-end Enterprise Edition o un director. Skype Empresarial Server se basa en los Servicios de dominio de Active Directory como el repositorio back-end único y de confianza de las credenciales de usuario.
@@ -50,7 +45,7 @@ Los certificados de cliente proporcionan una forma alternativa para que los usua
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Requisitos criptográficos debido ASP.NET 4.5 
 
-A partir de Skype Empresarial Server 2015 CU5, AES no es compatible con ASP.NET 4.6 y esto puede provocar que Skype Meetings App no se inicie. Si un cliente usa AES como valor de validación de clave de máquina, deberá restablecer el valor de clave de máquina a SHA-1 u otro algoritmo compatible en el nivel de sitio de la aplicación de reuniones de Skype en IIS. Si es necesario, [vea IIS 8.0 ASP.NET Configuration Management](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) para obtener instrucciones.
+A partir de Skype Empresarial Server 2015 CU5, AES no es compatible con ASP.NET 4.6 y esto puede provocar que Skype Meetings App no se inicie. Si un cliente usa AES como valor de validación de clave de máquina, deberá restablecer el valor de clave de máquina a SHA-1 u otro algoritmo compatible en el nivel de sitio de la aplicación de reuniones de Skype en IIS. Si es necesario, vea [IIS 8.0 ASP.NET Configuration Management](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) para obtener instrucciones.
   
 Otros valores admitidos son:
   

@@ -1,7 +1,7 @@
 ---
 title: Control de administración de inquilinos para el reconocimiento de voz (perfil de voz) en Salas de Teams
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
@@ -11,18 +11,13 @@ search.appverid: MET150
 description: Obtenga información sobre el control de administración de inquilinos para el reconocimiento de voz (perfil de voz) en Teams salas de reuniones.
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 36a501220a986e3873c8ce6a75f1f4f704aa2533
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205262"
+  - Microsoft Teams
 ---
+
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Administrar controles de tecnología de reconocimiento de voz para un altavoz inteligente
 
 Un orador inteligente usa la información de perfil de voz para reconocer quién dijo qué en la transcripción en directo. Cuando una Salas de Microsoft Teams para Windows de reunión está equipada con un altavoz inteligente, se puede usar la transcripción en directo durante la reunión. En este artículo se explica cómo usted, un administrador de inquilinos, controla la generación de perfiles de voz que se usa para el reconocimiento de voz para generar la transcripción en directo. Puede controlar hasta qué punto la organización usa el reconocimiento de voz y las siguientes características:
@@ -73,7 +68,7 @@ Un altavoz inteligente debe colocarse como mínimo a 20 cm de distancia de las p
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>Habilitar un reconocimiento de usuario de Altavoz inteligente
 
-Los datos de perfil de voz se pueden usar en cualquier reunión con un altavoz inteligente. Vea [Teams de reuniones y](../meetings-policies-recording-and-transcription.md#allow-transcription) los cmdlets de reunión de [PowerShell](/powershell/module/skype/set-csteamsmeetingpolicy) para obtener información sobre la configuración de la reunión.
+Los datos de perfil de voz se pueden usar en cualquier reunión con un altavoz inteligente. Vea [Teams de reuniones y](../meetings-policies-recording-and-transcription.md#allow-transcription) los [cmdlets de reunión de PowerShell](/powershell/module/skype/set-csteamsmeetingpolicy) para obtener información sobre la configuración de la reunión.
 
 Los datos de perfil de voz del usuario se crean cuando la directiva se establece para distinguir o un invitado que no es de reunión entra durante la reunión. Los datos de perfil de voz se descartan al final de la reunión.
 
@@ -81,12 +76,12 @@ Las siguientes son las directivas necesarias para establecer un altavoz intelige
 
 |Directiva|Descripción|Valores y comportamiento|
 |-|-|-|
-|enrollUserOverride|Se usa para establecer la captura de perfil de voz o la inscripción en Teams configuración de un inquilino. |**Deshabilitado**<br><ul><li> Los usuarios que nunca se han inscrito no pueden ver, inscribirse o volver a inscribirse.<li>El punto de entrada al flujo de inscripción se ocultará.<li>Si los usuarios seleccionan un vínculo a la página de inscripción, verán un mensaje que indica que esta característica no está habilitada para su organización.  <li>Los usuarios que se han inscrito pueden ver y quitar su perfil de voz en la Teams configuración. Una vez que quiten su perfil de voz, no podrán ver, acceder ni completar el flujo de inscripción.</li></ul><br>**Habilitado**<br><ul><li> Los usuarios pueden ver, acceder y completar el flujo de inscripción.<li>El punto de entrada se mostrará en la Teams de configuración de la pestaña **Reconocimiento.**</li></ul>|
-|roomAttributeUserOverride|Controle la identificación de usuario basada en voz en salas de reuniones. Esta configuración es necesaria para Salas de Teams cuentas.| **Desactivado**<br><ul><li>El Salas de Teams no enviará el ancho de banda de almacenamiento en secuencias de audio desde la sala. <li>Los usuarios de salas de reuniones no se atribuirán ni distinguirán y sus firmas de voz no se recuperarán ni se usarán en absoluto.<li>Se desconocen los usuarios de la sala de reuniones.</li></ul> <br>**Atributo**<br><ul><li>Los usuarios de salas se atribuirán en función de su estado de inscripción.<li>Los usuarios inscritos se muestran con su nombre en la transcripción.  <li>Los usuarios que no están inscritos se muestran como \<n> orador.<li>El Salas de Teams de audio enviará siete transmisiones de audio desde la sala.</ul> <br>**Distinguir**<br> <ul><li>Los usuarios de salas se distinguirán y separarán como orador 1, orador 2, .... orador \<n> en la transcripción.</li><li>Independientemente del estado de inscripción del usuario, su nombre no se mostrará en la transcripción.</li><li>El Salas de Teams de audio enviará siete transmisiones de audio desde la sala.</li></ul>
+|enrollUserOverride|Se usa para establecer la captura de perfil de voz o la inscripción en Teams configuración de un inquilino. |**Deshabilitado**<br><ul><li> Los usuarios que nunca se han inscrito no pueden ver, inscribirse o volver a inscribirse.<li>El punto de entrada al flujo de inscripción se ocultará.<li>Si los usuarios seleccionan un vínculo a la página de inscripción, verán un mensaje que indica que esta característica no está habilitada para su organización.  <li>Los usuarios que se han inscrito pueden ver y quitar su perfil de voz en la Teams configuración. Una vez que quiten su perfil de voz, no podrán ver, acceder ni completar el flujo de inscripción.</li></ul><br>**Habilitado**<br><ul><li> Los usuarios pueden ver, acceder y completar el flujo de inscripción.<li>El punto de entrada se mostrará en Teams de configuración de la **pestaña Reconocimiento.**</li></ul>|
+|roomAttributeUserOverride|Controle la identificación de usuario basada en voz en salas de reuniones. Esta configuración es necesaria para Salas de Teams cuentas.| **Desactivado**<br><ul><li>El Salas de Teams no enviará el ancho de banda de almacenamiento en secuencias de audio desde la sala. <li>Los usuarios de salas de reuniones no se atribuirán ni distinguirán y sus firmas de voz no se recuperarán ni se usarán en absoluto.<li>Se desconocen los usuarios de la sala de reuniones.</li></ul> <br>**Atributo**<br><ul><li>Los usuarios de salas se atribuirán en función de su estado de inscripción.<li>Los usuarios inscritos se muestran con su nombre en la transcripción.  <li>Los usuarios que no están inscritos se muestran como orador \<n>.<li>El Salas de Teams de audio enviará siete transmisiones de audio desde la sala.</ul> <br>**Distinguir**<br> <ul><li>Los usuarios de salas se distinguirán y separarán como orador 1, orador 2, .... orador \<n> en la transcripción.</li><li>Independientemente del estado de inscripción del usuario, su nombre no se mostrará en la transcripción.</li><li>El Salas de Teams de audio enviará siete transmisiones de audio desde la sala.</li></ul>
 |AllowTranscription|Necesario para cuentas de Teams y salas.|**Verdadero** y **Falso**|
 ||||
 
-En el Teams de administración, establezca la **directiva de transcripción.** Configuración están **desactivados** de forma predeterminada.
+En el Teams de administración, establezca la **directiva de transcripción**. Configuración están **desactivados** de forma predeterminada.
 
 ![el centro de administración con las directivas de reunión resaltadas y permitir la transcripción seleccionada.](../media/allow-transcription1.png)
 
@@ -98,7 +93,7 @@ Los datos de perfil de voz se almacenan en Office 365 nube con contenido de usua
 
 **¿Cuál es la línea de tiempo y la directiva de retención?**
 
-La directiva de retención general se indica en información general [sobre la retención de datos.](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) Además, los datos de perfil de voz de un usuario se eliminarán después de 3 años si el usuario no está invitado a ninguna reunión con un orador inteligente dentro de ese período de 3 años. Los datos no se usan en ninguna reunión para los empleados existentes. Si un empleado ha abandonado la empresa, los datos de perfil de voz se consideran contenido de usuario y se tratan como tales Office 365 directiva de retención de datos descrita en información general sobre retención [de datos.](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)
+La directiva de retención general se indica en información general [sobre la retención de datos](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). Además, los datos de perfil de voz de un usuario se eliminarán después de 3 años si el usuario no está invitado a ninguna reunión con un orador inteligente dentro de ese período de 3 años. Los datos no se usan en ninguna reunión para los empleados existentes. Si un empleado ha abandonado la empresa, los datos de perfil de voz se consideran contenido de usuario y se tratan como tales Office 365 directiva de retención de datos descrita en información general [sobre la retención de datos](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 
 **¿Se usan datos de perfil de voz en servicios Microsoft?**
 

@@ -1,7 +1,7 @@
 ---
 title: Planear enrutamiento basado en la ubicación para el enrutamiento directo
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -11,18 +11,13 @@ search.appverid: MET150
 description: Obtenga información sobre cómo planear Location-Based enrutamiento directo.
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-voice
+  - M365-voice
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 27050469b03c63b11d36150bc6213b84554d6db7
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355659"
+  - Microsoft Teams
 ---
+
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 
 ## <a name="overview-of-location-based-routing"></a>Información general sobre Location-Based enrutamiento
@@ -53,7 +48,7 @@ Cuando un Teams está habilitado para Location-Based enrutamiento, se aplica lo 
 
 Location-Based enrutamiento usa las mismas definiciones de región de red, sitio y subred que Skype Empresarial Server red. Cuando la omisión de peaje está restringida para una ubicación, un administrador asocia cada subred IP y cada puerta de enlace RTC de esa ubicación a un sitio de red. La ubicación de un usuario está determinada por la subred IP a la que están conectados los puntos de conexión Teams del usuario en el momento de una llamada RTC. Un usuario puede tener varios clientes de Teams ubicados en sitios diferentes, en cuyo caso Location-Based Enrutamiento exige el enrutamiento de cada cliente por separado según la ubicación de su punto de conexión. 
 
-Para familiarizarse con algunos de los términos de red usados en este [artículo,](cloud-voice-network-settings.md)vea Configuración de red para las características de voz en la nube en Teams .
+Para familiarizarse con parte de la terminología de red usada en este artículo, vea Configuración de red para las características de [voz en la nube en Teams](cloud-voice-network-settings.md).
 
 ## <a name="apply-location-based-routing"></a>Aplicar Location-Based enrutamiento
 
@@ -132,7 +127,7 @@ En comparación, los usuarios habilitados para Location-Based enrutamiento solo 
 
 Cuando se trata de un punto de conexión RTC, Location-Based Routing analiza si uno o ambos usuarios están habilitados para enrutamiento de Location-Based y determina si la llamada debe transferirse o reenviarse en función de la ubicación de ambos puntos de conexión. 
  
-La transferencia de llamadas requiere que el usuario que inicia la llamada resalte la llamada mientras que el reenvío de llamadas no requiere que se conteste la llamada inicial. Esto significa que las llamadas se pueden reenviar incluso si User1 no está en una ubicación para recibir llamadas entrantes (vea la tabla del usuario de Teams recibe una llamada entrante desde la sección [RTC)](#teams-user-receives-an-inbound-call-from-the-pstn) y las llamadas no se pueden transferir si User1 no puede recibir la llamada entrante. 
+La transferencia de llamadas requiere que el usuario que inicia la llamada resalte la llamada mientras que el reenvío de llamadas no requiere que se conteste la llamada inicial. Esto significa que las llamadas se pueden reenviar incluso si User1 no se encuentra en una ubicación para recibir llamadas entrantes (vea la tabla del usuario de Teams recibe una llamada entrante desde la sección [RTC](#teams-user-receives-an-inbound-call-from-the-pstn)) y las llamadas no se pueden transferir si User1 no puede recibir la llamada entrante. 
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Usuario no habilitado para Location-Based enrutamiento
 
@@ -220,8 +215,8 @@ También se permite el reenvío al correo de voz.
 ### <a name="delegation"></a>Delegación
 
 Un Teams usuario puede elegir delegados que pueden realizar y recibir llamadas en su nombre. Las capacidades de delegación Teams se ven afectadas por Location-Based enrutamiento de la siguiente manera: 
-- Para las llamadas salientes de Location-Based delegado habilitado para enrutamiento en nombre de un delegado, se aplican las mismas reglas. El enrutamiento de llamadas se basa en la directiva de autorización de llamadas, la directiva de enrutamiento de voz y la ubicación del delegado. Para obtener más información, [vea Teams usuario coloca una llamada saliente a la RTC.](#teams-user-places-an-outbound-call-to-the-pstn) 
-- Para las llamadas RTC entrantes a un delegado, las mismas reglas de enrutamiento de Location-Based que se aplican para el reenvío de llamadas o la llamada simultánea a otros usuarios también se aplican a los delegados. Para obtener más información, vea Teams llamadas de transferencia de usuario o [reenvíos Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user)otro usuario de Teams , Teams llamadas de transferencia de usuario o [reenvíos al](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)punto de conexión RTC y llamada [simultánea.](#simultaneous-ringing) Cuando un delegado establece un punto de conexión RTC como un destino de llamada simultánea, la directiva de enrutamiento de voz del delegado se usa para enrutar la llamada a la RTC. 
+- Para las llamadas salientes de Location-Based delegado habilitado para enrutamiento en nombre de un delegado, se aplican las mismas reglas. El enrutamiento de llamadas se basa en la directiva de autorización de llamadas, la directiva de enrutamiento de voz y la ubicación del delegado. Para obtener más información, [vea Teams usuario coloca una llamada saliente a la RTC](#teams-user-places-an-outbound-call-to-the-pstn). 
+- Para las llamadas RTC entrantes a un delegado, las mismas reglas de enrutamiento de Location-Based que se aplican para el reenvío de llamadas o la llamada simultánea a otros usuarios también se aplican a los delegados. Para obtener más información, vea Teams llamadas de transferencia de usuario o [reenvíos Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user) otro usuario de Teams, una llamada de transferencia de usuario o de reenvío Teams un punto de conexión RTC y llamadas [simultáneas](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)[.](#simultaneous-ringing) Cuando un delegado establece un punto de conexión RTC como un destino de llamada simultánea, la directiva de enrutamiento de voz del delegado se usa para enrutar la llamada a la RTC. 
 - Para la delegación, se recomienda que el delegado y los delegados asociados se encuentran en el mismo sitio de red. 
 
 ## <a name="other-planning-considerations"></a>Otras consideraciones de planificación
@@ -257,7 +252,7 @@ En una llamada de conferencia iniciada por un usuario sin una licencia de confer
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de omisión de medios para Location-Based enrutamiento
 
-Si va a implementar Location-Based enrutamiento en india, también es necesario configurar la omisión de medios. Para obtener más información, vea Planear la [omisión de medios con enrutamiento directo](direct-routing-plan-media-bypass.md) y [optimización de medios locales para enrutamiento directo.](direct-routing-media-optimization.md)
+Si va a implementar Location-Based enrutamiento en india, también es necesario configurar la omisión de medios. Para obtener más información, vea [Planear la omisión de medios con enrutamiento directo](direct-routing-plan-media-bypass.md) y [optimización de medios locales para enrutamiento directo](direct-routing-media-optimization.md).
 
 ### <a name="direct-voice-over-ip-voip"></a>Voz directa sobre IP (VoIP)
 
@@ -265,7 +260,7 @@ Voz directa sobre IP (VoIP) no debe implementarse con ningún equipo de telefon�
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Vaya a [Configurar la configuración de red para Location-Based enrutamiento.](location-based-routing-configure-network-settings.md)
+Vaya a [Configurar la configuración de red para Location-Based enrutamiento](location-based-routing-configure-network-settings.md).
 
 ## <a name="related-topics"></a>Temas relacionados
 

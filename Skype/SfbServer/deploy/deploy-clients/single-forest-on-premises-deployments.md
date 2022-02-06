@@ -1,25 +1,20 @@
 ---
-title: Skype Implementaciones locales de bosque único del sistema de sala
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype de un solo bosque local del sistema de sala
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Lea este tema para obtener información sobre cómo implementar Skype room system en un único bosque entorno local.
-ms.openlocfilehash: 0f8ab644efc3d832fd5e201bd49517971ba5ba08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828423"
 ---
-# <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype Implementaciones locales de bosque único del sistema de sala
+
+# <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype de un solo bosque local del sistema de sala
  
 Lea este tema para obtener información sobre cómo implementar Skype room system en un único bosque entorno local.
   
@@ -27,7 +22,7 @@ En esta sección se proporciona información general sobre los pasos para aprovi
   
 ## <a name="single-forest-on-premises-deployments"></a>Implementaciones locales de un solo bosque
 
-Si ya tiene una cuenta de buzón de recursos para la sala de conferencias, puede usarla. De lo contrario, tendrá que crear uno nuevo. Puede usar el Shell Exchange administración (PowerShell) o Consola de administración de Exchange para crear una nueva cuenta de buzón de recursos. Se recomienda usar un buzón de recursos nuevo (eliminar buzón antiguo y volver a crear) para Skype room system. Asegúrese de hacer una copia de seguridad de los datos del buzón antes de eliminarlos y, a continuación, volver a exportarlos al buzón de correo creado de nuevo con el cliente de Outlook (vea Exportar o hacer una copia de seguridad de mensajes, calendario, tareas y contactos para obtener más información). Para restaurar las reuniones perdidas mediante la eliminación del buzón de correo, vea [Conectar o restaurar un buzón eliminado](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help). 
+Si ya tiene una cuenta de buzón de recursos para la sala de conferencias, puede usarla. De lo contrario, tendrá que crear uno nuevo. Puede usar el Shell Exchange administración (PowerShell) o Consola de administración de Exchange para crear una nueva cuenta de buzón de recursos. Se recomienda usar un buzón de recursos nuevo (eliminar buzón antiguo y volver a crear) para Skype room system. Asegúrese de hacer una copia de seguridad de los datos del buzón antes de eliminarlos y, a continuación, volver a exportarlos al buzón de correo creado de nuevo con el cliente de Outlook (vea Exportar o hacer una copia de seguridad de mensajes, calendario, tareas y contactos para obtener más información). Para restaurar las reuniones perdidas mediante la eliminación del buzón, vea [Conectar o restaurar un buzón eliminado](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help). 
   
 Para usar una cuenta de buzón de recursos existente (por ejemplo, LRS-01) siga los pasos siguientes:
   
@@ -45,7 +40,7 @@ Para usar una cuenta de buzón de recursos existente (por ejemplo, LRS-01) siga 
 
    En el ejemplo anterior se crea una cuenta de usuario habilitada en Active Directory y un buzón de sala para una sala de conferencias en una organización Exchange local. El parámetro RoomMailboxPassword especifica la contraseña de la cuenta de usuario.
     
-3. Configure la cuenta para resolver automáticamente conflictos aceptando o rechazando reuniones. Skype Las cuentas de salas de conferencias equipadas con el sistema en Exchange pueden ser administradas por individuos, pero tenga en cuenta que hasta que el individuo acepte una reunión no aparecerá en el calendario de la pantalla principal del sistema de salas de Skype.
+3. Configure la cuenta para resolver automáticamente conflictos aceptando o rechazando reuniones. Skype cuentas de sala de conferencias equipadas con el sistema de sala en Exchange pueden ser administradas por personas, pero tenga en cuenta que hasta que el individuo acepte una reunión no aparecerá en el calendario de pantalla principal del sistema de salas de Skype.
     
    ```powershell
    Set-CalendarProcessing -Identity LRS01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteSubject $false -RemovePrivateProperty $false
@@ -73,7 +68,7 @@ Para usar una cuenta de buzón de recursos existente (por ejemplo, LRS-01) siga 
 
 ## <a name="check-resource-mailbox-account-in-active-directory"></a>Comprobar cuenta de buzón de recursos en Active Directory
 
-La cuenta de buzón de sala de conferencia creada Exchange en el paso 1 anterior puede ser un objeto de usuario deshabilitado en Active Directory. Skype El sistema de sala no puede iniciar sesión ni autenticarse mediante la autenticación Kerberos/NTLM si la cuenta está deshabilitada en Active Directory. El Skype del sistema de sala de Exchange debe poder autenticarse en Exchange Web Services para recuperar la configuración del calendario y también debe poder enviar correo electrónico con contenido de pizarra. 
+La cuenta de buzón de sala de conferencia creada Exchange en el paso 1 anterior puede ser un objeto de usuario deshabilitado en Active Directory. Skype room system no puede iniciar sesión ni autenticarse mediante la autenticación Kerberos/NTLM si la cuenta está deshabilitada en Active Directory. El Skype del sistema de sala de Exchange debe poder autenticarse en Exchange Web Services para recuperar la configuración del calendario y también debe poder enviar correo electrónico con contenido de pizarra. 
   
 Por lo tanto, si la cuenta está deshabilitada, debe habilitar esta cuenta en Active Directory haciendo lo siguiente: 
   

@@ -1,28 +1,23 @@
 ---
 title: Planear el estacionamiento de llamadas en Skype Empresarial
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
-description: Planear el estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial, lo que permite poner las llamadas en espera y transferir llamadas a departamentos. Incluye la planeación de capacidad, las llamadas admitidas y los clientes compatibles.
-ms.openlocfilehash: 29ca14f85aeccaa8394ede4420c66af77e5c66c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839842"
+description: 'Planear el estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial, lo que permite poner las llamadas en espera y transferir llamadas a departamentos. Incluye la planeación de capacidad, las llamadas admitidas y los clientes compatibles.'
 ---
+
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planear el estacionamiento de llamadas en Skype Empresarial
  
 Planear el estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial, lo que permite poner las llamadas en espera y transferir llamadas a departamentos. Incluye la planeación de capacidad, las llamadas admitidas y los clientes compatibles.
@@ -56,7 +51,7 @@ La aplicación estacionamiento de llamadas se instala automáticamente al implem
   
 ### <a name="software-requirements"></a>Requisitos de software
 
-Todos los servidores front-end y los servidores de Standard Edition donde se implementa el estacionamiento de llamadas deben tener instalado el tiempo de ejecución de formato multimedia de Windows para servidores que ejecuten Windows Server 2008 R2 o Microsoft Media Foundation para servidores que ejecuten Windows Server 2012 o Windows Server 2012 R2 . Para Windows Server 2008 R2, Windows Media Format Runtime se instala como parte de Windows experiencia de escritorio. Windows Media Format Runtime o Microsoft Media Foundation es necesario Windows archivos de audio multimedia (.wma) que el estacionamiento de llamadas reproduce para la música en espera.
+Todos los servidores front-end y los servidores Standard Edition donde se implementa el estacionamiento de llamadas deben tener el tiempo de ejecución de formato multimedia de Windows instalado para servidores que ejecuten Windows Server 2008 R2 o Microsoft Media Foundation para servidores que ejecuten Windows Server 2012 o Windows Server 2012 R2. Para Windows Server 2008 R2, Windows Media Format Runtime se instala como parte de Windows experiencia de escritorio. Windows Media Format Runtime o Microsoft Media Foundation es necesario para los archivos de audio multimedia (.wma) de Windows que el estacionamiento de llamadas reproduce para la música en espera.
   
 ### <a name="port-requirements"></a>Requisitos de puerto
 
@@ -67,7 +62,7 @@ La aplicación estacionamiento de llamadas usa **el puerto 5075 para**  las soli
   
 ### <a name="audio-file-requirements"></a>Requisitos de archivo de audio
 
-La aplicación Estacionamiento de llamadas solo admite Windows de audio multimedia (.wma) para la música en espera. Puede usar Microsoft Expression Encoder 4 para personalizar los archivos para la música en espera. Para descargar Expression Encoder 4, vea ["Expression Encoder 4".](https://go.microsoft.com/fwlink/p/?linkId=202843) Use la herramienta para convertir el archivo en un formato .wma. El formato recomendado para los archivos de música en espera de estacionamiento de llamadas es Media Audio 9, 44 kHz, 16 bits, Mono, CBR, 32 kbps.
+La aplicación Estacionamiento de llamadas solo admite Windows de audio multimedia (.wma) para la música en espera. Puede usar Microsoft Expression Encoder 4 para personalizar los archivos para la música en espera. Para descargar Expression Encoder 4, consulte   ["Expression Encoder 4"](https://go.microsoft.com/fwlink/p/?linkId=202843). Use la herramienta para convertir el archivo en un formato .wma. El formato recomendado para los archivos de música en espera de estacionamiento de llamadas es Media Audio 9, 44 kHz, 16 bits, Mono, CBR, 32 kbps.
   
 > [!NOTE]
 > El archivo convertido se reproduce por el teléfono solo a 16 kHz, aunque se grabó a 44 kHz. 

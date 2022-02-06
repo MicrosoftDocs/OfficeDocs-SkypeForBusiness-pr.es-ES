@@ -1,27 +1,22 @@
 ---
 title: Directiva de archivado Crear nueva o editar existente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchPolicyEdit
+  - ms.lync.lscp.MonArchPolicyEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: 'Las directivas de archivado se usan para controlar el archivado de comunicaciones internas y externas en la implementación para los usuarios que se encuentran en Skype Empresarial Server. Las directivas de archivado incluyen la directiva global y, opcionalmente, una o varias directivas de sitio y de usuario:'
-ms.openlocfilehash: a32ca25092c5240b3be2080098b8bd8bc3477ec6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838792"
 ---
+
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Directiva de archivado: Crear nuevos o editar los existente
  
 Las directivas de archivado se usan para controlar el archivado de comunicaciones internas y externas en la implementación para los usuarios que se encuentran en Skype Empresarial Server. Las directivas de archivado incluyen la directiva global y, opcionalmente, una o varias directivas de sitio y de usuario:
@@ -50,5 +45,5 @@ Para configurar las opciones de una directiva de archivado nueva o existente, es
     
 - **Archivar comunicaciones externas** Active esta casilla para habilitar el archivado de comunicaciones que incluyen usuarios externos, como usuarios remotos (incluidos usuarios anónimos y de configuración de PIC) y socios federados. De forma predeterminada, esto no está habilitado en ninguna directiva.
     
-Para obtener más información sobre la característica y las funcionalidades de archivado, incluida la integración de Exchange, vea [Plan for archiving in Skype Empresarial Server 2015](../../plan-your-deployment/archiving/archiving.md), Deploy archiving for Skype Empresarial Server [2015](../../deploy/deploy-archiving/deploy-archiving.md)y [Manage archiving in Skype Empresarial Server 2015](../../manage/archiving/archiving.md).
+Para obtener más información sobre la característica y las funcionalidades de archivado, incluida la integración de Exchange, vea [Plan for archiving in Skype Empresarial Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype Empresarial Server 2015](../../deploy/deploy-archiving/deploy-archiving.md) y [Manage archiving in Skype Empresarial Server  2015](../../manage/archiving/archiving.md).
 

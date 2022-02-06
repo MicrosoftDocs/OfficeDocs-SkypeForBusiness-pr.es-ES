@@ -1,25 +1,20 @@
 ---
 title: Implementar SRS v1 Administrative Web Portal en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
-description: El portal web administrativo de Skype Empresarial Server Skype Room Systems v1 (SRS v1, anteriormente conocido como Lync Room System) es un portal web que las organizaciones pueden usar para mantener sus salas de conferencias Skype Room Systems. Los administradores pueden usar el Portal web administrativo de SRS v1 para supervisar el estado del dispositivo, por ejemplo, supervisando dispositivos de audio y vídeo. Con este portal, los administradores pueden recopilar de forma remota información de diagnóstico para supervisar el estado de la sala de conferencias.
-ms.openlocfilehash: c25671717db51af880bd4b7e2700bb9e795f2790
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843973"
+description: 'El portal web administrativo de Skype Empresarial Server Skype Room Systems v1 (SRS v1, anteriormente conocido como Lync Room System) es un portal web que las organizaciones pueden usar para mantener sus salas de conferencias Skype Room Systems. Los administradores pueden usar el Portal web administrativo de SRS v1 para supervisar el estado del dispositivo, por ejemplo, supervisando dispositivos de audio y vídeo. Con este portal, los administradores pueden recopilar de forma remota información de diagnóstico para supervisar el estado de la sala de conferencias.'
 ---
+
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Implementar SRS v1 Administrative Web Portal en Skype Empresarial Server
 
 El portal web administrativo de Skype Empresarial Server Skype Room Systems v1 (SRS v1, anteriormente conocido como Lync Room System) es un portal web que las organizaciones pueden usar para mantener sus salas de conferencias Skype Room Systems. Los administradores pueden usar el Portal web administrativo de SRS v1 para supervisar el estado del dispositivo, por ejemplo, supervisando dispositivos de audio y vídeo. Con este portal, los administradores pueden recopilar de forma remota información de diagnóstico para supervisar el estado de la sala de conferencias.
@@ -29,7 +24,7 @@ Para usar esta característica, el portal web administrativo de SRS v1 debe impl
 Después de implementar el portal web administrativo de SRS v1 en el servidor, los administradores pueden comprobar el estado de los dispositivos SRS v1 iniciando sesión en el sitio desde sus propios equipos o portátiles.
 
 > [!IMPORTANT]
-> Descargue [microsoft Skype Room Systems v1 Administrative Web Portal para Skype Empresarial Server 2015](https://www.microsoft.com/download/details.aspx?id=46906).
+> Descargue [Microsoft Skype Room Systems v1 Administrative Web Portal para Skype Empresarial Server 2015](https://www.microsoft.com/download/details.aspx?id=46906).
 
 En este tema:
 
@@ -49,7 +44,7 @@ Para usar el portal web administrativo de SRS v1, deberá instalar o configurar 
 
 1. Instale Skype Empresarial Server acumulativas en la Skype Empresarial Server topología.
 
-    Para obtener la actualización o ver lo que incluye, vea [Updates for Skype Empresarial Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
+    Para obtener la actualización o ver lo que incluye, vea [Actualizaciones para Skype Empresarial Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
 
 2. Crear un usuario de Active Directory habilitado para SIP.
 
@@ -82,7 +77,7 @@ Para usar el portal web administrativo de SRS v1, deberá instalar o configurar 
 ## <a name="install-the-srs-v1-administrative-web-portal"></a>Instalar el portal web administrativo de SRS v1
 <a name="Install_SRS"> </a>
 
-Descargue [microsoft Skype Room Systems v1 Administrative Web Portal para Skype Empresarial Server 2015](https://www.microsoft.com/download/details.aspx?id=46906).
+Descargue [Microsoft Skype Room Systems v1 Administrative Web Portal para Skype Empresarial Server 2015](https://www.microsoft.com/download/details.aspx?id=46906).
 
 Para instalar el portal web administrativo de SRS v1, siga estos pasos.
 
@@ -98,7 +93,7 @@ Para instalar el portal web administrativo de SRS v1, siga estos pasos.
 
     %Program Files%\Skype Empresarial Server 2015\Web Components\Sala de reuniones Portal\Int\Handler\
 
-4. En el archivo Web.Config, cambie PortalUserName por el nombre de usuario creado en el paso 2 en la sección "[Configure your environment for the SRS v1 Administrative Web Portal"](room-system-v1-administrative-web-portal.md#Config_Env)(el nombre recomendado en el paso es LRSApp):
+4. En el archivo Web.Config, cambie PortalUserName por el nombre de usuario creado en el paso 2 en la sección "Configurar el entorno para el [portal web administrativo srs v1](room-system-v1-administrative-web-portal.md#Config_Env)" (el nombre recomendado en el paso es LRSApp):
 
     ```xml
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
@@ -122,7 +117,7 @@ Para comprobar la instalación del portal web administrativo de SRS v1, haga lo 
 
 1. En un servidor front-end, vaya a la siguiente dirección URL:
 
-    https:// \<fe-server\> /lrs
+    \<fe-server\>https:///lrs
 
     No debe ver ningún error, como se muestra en la siguiente imagen:
 
@@ -130,9 +125,9 @@ Para comprobar la instalación del portal web administrativo de SRS v1, haga lo 
 
 2. Si no ve ningún error, intente obtener acceso a la siguiente dirección URL desde cualquier otro equipo de la topología:
 
-    https:// \<fe-server\> /lrs
+    \<fe-server\>https:///lrs
 
-    Para obtener acceso a la página, deberá agregar los registros DNS tal como se describe en "[Registros DNS](/previous-versions/office/communications-server/bb663700(v=office.12))requeridos para el inicio de sesión automático del cliente".
+    Para obtener acceso a la página, deberá agregar los registros DNS como se describe en "Registros DNS requeridos para el inicio de sesión [automático del cliente](/previous-versions/office/communications-server/bb663700(v=office.12))".
 
 ## <a name="use-the-srs-administrative-web-portal"></a>Usar el portal web administrativo de SRS
 <a name="Use_Portal"> </a>
@@ -143,7 +138,7 @@ Después de implementar SRS en el servidor, puede comprobar el estado de todas l
 
 1. Vaya a la siguiente dirección URL:
 
-    https:// \<fe-server\> /lrs
+    \<fe-server\>https:///lrs
 
 2. Escriba las credenciales de la cuenta LRSSupport o una cuenta que se agregó al grupo de seguridad LRSSupportAdminGroup.
 
@@ -209,11 +204,11 @@ No hay ningún límite en el número de salas SRS que puede seleccionar para la 
 
 Para realizar una operación de administración masiva, seleccione las salas que desea supervisar y haga clic en el menú Administración masiva.
 
-### <a name="frequently-asked-questions"></a>Preguntas frecuentes.
+### <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
 #### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>¿Por qué no puedo iniciar sesión en el portal web administrativo?
 
-Cuando abra , podrá ver la página de inicio de sesión, pero cuando escriba sus https://localhost/lrs credenciales, no podrá iniciar sesión. En este caso, debe abrir para https://FQDNofFEserver/SRS iniciar sesión en el portal web administrativo.
+Cuando abra , https://localhost/lrspodrá ver la página de inicio de sesión, pero cuando escriba sus credenciales, no podrá iniciar sesión. En este caso, debe abrir para https://FQDNofFEserver/SRS iniciar sesión en el portal web administrativo.
 
 #### <a name="why-cant-i-see-srs-v1-in-the-administrative-web-portal"></a>¿Por qué no puedo ver SRS v1 en el portal web administrativo?
 
@@ -240,7 +235,7 @@ Cuando abra , podrá ver la página de inicio de sesión, pero cuando escriba su
 
 - Asegúrese de que la cuenta de usuario de LRSApp está habilitada para SIP.
 
-- Si todavía tiene problemas, recopile el archivo **Trace.log** en el sistema SRS de D:\Tracing\LRSAdminLogs y envíelo a su contacto de soporte técnico \, de SRS.
+- Si todavía tiene problemas, recopile el archivo **Trace.log** en el sistema SRS de D:\Tracing\LRSAdminLogs\, y envíelo a su contacto de soporte técnico de SRS.
 
 #### <a name="why-cant-i-see-the-bulk-management-menus-for-srs-in-the-administrative-web-portal"></a>¿Por qué no puedo ver los menús de administración masiva de SRS en el portal web administrativo?
 

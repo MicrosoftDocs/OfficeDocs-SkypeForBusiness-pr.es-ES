@@ -1,28 +1,23 @@
 ---
 title: Implementar características de administración de llamadas en Skype Empresarial
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: Implementar características de administración de llamadas en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: f68a1e3030692c3c69ba2183e90f8a5f54be47fd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859597"
 ---
+
 # <a name="deploy-call-management-features-in-skype-for-business"></a>Implementar características de administración de llamadas en Skype Empresarial
  
 Implementar características de administración de llamadas en Skype Empresarial Server Telefonía IP empresarial.
@@ -33,7 +28,7 @@ Las características de administración de llamadas de Telefonía IP empresarial
     
 - **Recogida de llamadas en** grupo: permite a los usuarios responder a las llamadas realizadas a otro usuario que está asignado a un grupo de recogida marcando el número de grupo de recogida de llamadas.
     
-- **Grupo de respuesta:** enruta las llamadas entrantes a grupos de agentes mediante grupos de extensiones o preguntas y respuestas interactivas de voz (IVR).
+- **Grupo de respuesta**: enruta las llamadas entrantes a grupos de agentes mediante grupos de extensiones o preguntas y respuestas interactivas de voz (IVR).
     
 - **Anuncio**: reproduce un mensaje para las llamadas realizadas a un número no asignado o enruta la llamada a otro lugar, o ambas.
     

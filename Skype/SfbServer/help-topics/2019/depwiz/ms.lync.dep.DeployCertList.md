@@ -1,27 +1,22 @@
 ---
 title: Lista de certificados
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployCertList
+  - ms.lync.dep.DeployCertList
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
-ROBOTS: NOINDEX, NOFOLLOW
-description: Para asignar un certificado, seleccione un certificado en el almacén de certificados local. Haga clic en Siguiente para continuar.
-ms.openlocfilehash: cec1b97abb8827894661c1738dd775ca8b6e6251
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846923"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Para asignar un certificado, seleccione un certificado en el almacén de certificados local. Haga clic en Siguiente para continuar.'
 ---
+
 # <a name="certificate-list"></a>Lista de certificados
  
 Para asignar un certificado, seleccione un certificado en el almacén de certificados local. Haga clic en **Siguiente** para continuar.

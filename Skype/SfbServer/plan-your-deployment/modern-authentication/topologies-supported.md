@@ -1,26 +1,21 @@
 ---
 title: Topologías de Skype Empresarial compatibles con la autenticación moderna
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
-description: En este artículo se enumeran las topologías locales y en línea que se admiten con la autenticación moderna en Skype Empresarial, así como las características de seguridad que se aplican a cada topología.
-ms.openlocfilehash: ed6710e0f25e946e8cb9e7034300bd450dd07baa
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835078"
+description: 'En este artículo se enumeran las topologías locales y en línea que se admiten con la autenticación moderna en Skype Empresarial, así como las características de seguridad que se aplican a cada topología.'
 ---
+
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Topologías de Skype Empresarial compatibles con la autenticación moderna
 
 En este artículo se enumeran las topologías locales y en línea que se admiten con la autenticación moderna en Skype Empresarial, así como las características de seguridad que se aplican a cada topología.
@@ -74,7 +69,7 @@ Estas son las topologías admitidas. Tenga en cuenta la clave de los gráficos:
 En primer lugar, vamos a cubrir MA con Skype Empresarial en topologías solo locales o solo en la nube.
 
 > [!IMPORTANT]
-> ¿Está listo para configurar la autenticación moderna en Skype Empresarial Online? Los pasos para habilitar esta característica están [aquí.](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)
+> ¿Está listo para configurar la autenticación moderna en Skype Empresarial Online? Los pasos para habilitar esta característica están [aquí](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx).
 
 |Nombre de topología  <br/> |Ejemplo  <br/> |Descripción  <br/> |Compatible  <br/> |
 |:-----|:-----|:-----|:-----|
@@ -92,13 +87,13 @@ Las topologías mixtas implican combinaciones de híbridos de dominio dividido s
 |Mixto 2  <br/> |![MA compatible con topología mixta S4B 2, SFBO más MA que trabaja con EXCH de forma preliminar.](../../media/247a985d-39cd-4c16-a19e-b8b65207d82e.PNG)           <br/> Usuarios homed/mailboxes ubicados: EXCH y SFBO  <br/> |MA solo está en SFBO. El servidor de autorización Azure AD usuarios que se alojen en SFBO, pero AD para EXCH local.  <br/> |MFA, CBA, CA/MAM con Intune.\*  <br/> |
 |Mixto 3  <br/> |![Ma compatible con SFB, EXO con MA on, además de EXCH y SFB local.](../../media/772dc261-c041-4a96-90d0-fd0b5124decf.PNG)           <br/> Usuarios homed/mailboxes ubicados: EXO + SFB, o EXCH + SFB  <br/> |No hay características de SFB MA disponibles en esta topología  <br/> |No hay características de MA para SFB.  <br/> |
 |Mixto 4  <br/> |![Ma compatible con SFB, SFBO con MA on, además de EXCH y SFB.](../../media/8971bfaf-961f-476c-b16e-5418d1fa0a6d.PNG)           <br/> Usuarios homed/mailboxes ubicados: EXCH +SFBO o EXCH + SFB  <br/> |MA está en SFBO, por lo tanto, el servidor de autorización Azure AD para los usuarios que se aloban en SFBO. Los usuarios activos en SFB y EXO usan AD.  <br/> |MFA, CBA, CA/MAM con Intune solo para usuarios en línea.\*  <br/> |
-|Mixto 5  <br/> |![Ma compatible con SFB, EXO con MA y SFBO con MA, y EXCH y SFB local.](../../media/ecc366cf-1a7b-4ad1-bf8e-57111b8ad94f.PNG)           <br/> Usuarios ubicados/buzones ubicados: EXO + SFBO, EXO + SFB, EXCH + SFBO, o EXCH + SFB  <br/> |MA está en EXO y SFBO, por lo tanto, el servidor de autorización se Azure AD para los usuarios que se aloban en SFBO; Los usuarios de exch y SFB usan AD.  <br/> |MFA, CBA, CA/MAM con Intune solo para usuarios en línea.\*  <br/> |
-|Mixto 6  <br/> |![En una topología mixta 6, la autenticación moderna está activa en las cuatro ubicaciones possibiles: la ubicación ideal cuando se trata de autenticación moderna.](../../media/8de21756-9152-466d-a706-58b258e2271c.png)           <br/> Usuarios ubicados/buzones ubicados: EXO + SFBO, EXO + SFB, EXCH + SFBO, o EXCH + SFB  <br/> |MA está en todas partes, por lo tanto, el servidor de autorización Azure AD para todos los usuarios. (en línea y local)  <br/>  Consulte los [https://aka.ms/ModernAuthOverview](/microsoft-365/enterprise/hybrid-modern-auth-overview) pasos de implementación. <br/> |MFA, CBA y CA/MAM (a través de Intune) para todos los usuarios.  <br/> |
+|Mixto 5  <br/> |![Ma compatible con SFB, EXO con MA y SFBO con MA, y EXCH y SFB local.](../../media/ecc366cf-1a7b-4ad1-bf8e-57111b8ad94f.PNG)           <br/> Usuarios ubicados/buzones ubicados: EXO + SFBO, EXO + SFB, EXCH + SFBO, o EXCH + SFB  <br/> |MA está en EXO y SFBO, por lo tanto, el servidor de autorización es Azure AD para los usuarios que se alojen en SFBO; los usuarios de forma local en EXCH y SFB usan AD.  <br/> |MFA, CBA, CA/MAM con Intune solo para usuarios en línea.\*  <br/> |
+|Mixto 6  <br/> |![En una topología mixta 6, la autenticación moderna está activa en las cuatro ubicaciones possibiles: la ubicación ideal cuando se trata de autenticación moderna.](../../media/8de21756-9152-466d-a706-58b258e2271c.png)           <br/> Usuarios ubicados/buzones ubicados: EXO + SFBO, EXO + SFB, EXCH + SFBO, o EXCH + SFB  <br/> |MA está en todas partes, por lo tanto, el servidor de autorización Azure AD para todos los usuarios. (en línea y local)  <br/>  Consulte los pasos [https://aka.ms/ModernAuthOverview](/microsoft-365/enterprise/hybrid-modern-auth-overview) de implementación. <br/> |MFA, CBA y CA/MAM (a través de Intune) para todos los usuarios.  <br/> |
 
 \*- MFA incluye Windows escritorio, MAC, iOS, dispositivos Android y Windows teléfonos móviles; CBA incluye Windows dispositivos De escritorio, iOS y Android; CA/MAM con Intune, incluye dispositivos Android e iOS.
 
 > [!IMPORTANT]
-> Es muy importante tener en cuenta que los usuarios pueden ver varios avisos en algunos **casos,** especialmente cuando el estado de MA no es el mismo en todos los recursos de servidor que los clientes pueden necesitar y solicitar, como sucede con todas las versiones de las topologías mixtas.
+> Es muy importante tener en cuenta que los usuarios pueden ver varios **avisos en algunos casos** , especialmente cuando el estado de MA no es el mismo en todos los recursos de servidor que los clientes pueden necesitar y solicitar, como sucede con todas las versiones de las topologías mixtas.
 
 > [!IMPORTANT]
-> Tenga en cuenta también que en algunos casos (mixtos 1, 3 y 5 específicamente) se debe establecer una clave del Registro [AllowADALForNonLyncIndependentOfLync](https://support.microsoft.com/help/3082803/info-about-the-allowadalfornonlyncindependentoflync-setting-in-skype-for-business,-lync-2013,-and-exchange-online) para una configuración adecuada para los clientes de escritorio Windows.
+> Tenga en cuenta también que en algunos casos (mixtos 1, 3 y 5 específicamente) se debe establecer una clave del Registro [AllowADALForNonLyncIndependentOfLync](https://support.microsoft.com/help/3082803/info-about-the-allowadalfornonlyncindependentoflync-setting-in-skype-for-business,-lync-2013,-and-exchange-online) para una configuración adecuada para los clientes de escritorio de Windows.

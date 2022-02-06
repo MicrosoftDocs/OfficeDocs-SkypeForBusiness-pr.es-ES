@@ -1,25 +1,20 @@
 ---
 title: Stage AV and OAuth certificates in Skype Empresarial Server using -Roll in Set-CsCertificate
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 'Resumen: Certificados de fase AV y OAuth para Skype Empresarial Server.'
-ms.openlocfilehash: 7eeac29ba322d40d8ab8f70712ecfca5ead5c97d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832114"
 ---
+
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Stage AV and OAuth certificates in Skype Empresarial Server using -Roll in Set-CsCertificate
  
 **Resumen:** Certificados de FASE AV y OAuth para Skype Empresarial Server.
@@ -34,19 +29,19 @@ Los cmdlets de PowerShell del Shell de administración de Skype Empresarial Serv
 El servicio de autenticación A/V es responsable de emitir tokens que usan los clientes y otros consumidores de A/V. Los tokens se generan desde atributos del certificado, y cuando el certificado expira, se producirá la pérdida de conexión y el requisito de volverse a unir con un nuevo token generado por el nuevo certificado. Una nueva característica de Skype Empresarial Server aliviará este problema: la capacidad de crear un nuevo certificado antes de que expire el anterior y permitir que ambos certificados sigan funcionando durante un período de tiempo. Esta característica usa la funcionalidad actualizada en el cmdlet Set-CsCertificate Skype Empresarial Server Shell de administración. El nuevo parámetro -Roll, con el parámetro existente -EffectiveDate, colocará el nuevo certificado AudioVideoAuthentication en el almacén de certificados. El certificado AudioVideoAuthentication más antiguo permanecerá todavía para validar con él los tokens emitidos. Comenzando por la implementación del nuevo certificado AudioVideoAuthentication, se producirá la siguiente serie de eventos:
   
 > [!TIP]
-> Con los cmdlets Skype Empresarial Server Shell de administración para administrar certificados, puede solicitar certificados independientes y distintos para cada propósito en el servidor perimetral. El uso del Asistente para certificados en el Asistente para la implementación de  Skype Empresarial Server le ayuda a crear certificados, pero suele ser del tipo predeterminado que une todos los certificados que usa para el servidor perimetral en un solo certificado. La práctica recomendada si va a usar la característica de certificado en secuencia es desvincular el certificado AudioVideoAuthentication de los demás fines de certificado. Puede aprovisionar y organizar un certificado del tipo predeterminado pero solo la parte de AudioVideoAuthentication del certificado combinado se beneficiará del ensayo. Un usuario implicado en (por ejemplo) una conversación de mensajería instantánea cuando expire el certificado tendrá que cerrar sesión y volver a iniciar sesión para hacer uso del nuevo certificado asociado al servicio perimetral de acceso. Se producirá un comportamiento similar para un usuario que participa en una conferencia web mediante el servicio perimetral de conferencia web. El certificado OAuthTokenIssuer es un tipo específico que se comparte en todos los servidores. El certificado se crea y administra en un solo lugar y el certificado se almacena en el almacén de administración central para todos los demás servidores.
+> Con los cmdlets Skype Empresarial Server Shell de administración para administrar certificados, puede solicitar certificados independientes y distintos para cada propósito en el servidor perimetral. El uso del Asistente para certificados en el Asistente para la implementación de Skype Empresarial Server le ayuda a crear certificados, pero suele ser del tipo  predeterminado que une todos los certificados que usa para el servidor perimetral en un solo certificado. La práctica recomendada si va a usar la característica de certificado en secuencia es desvincular el certificado AudioVideoAuthentication de los demás fines de certificado. Puede aprovisionar y organizar un certificado del tipo predeterminado pero solo la parte de AudioVideoAuthentication del certificado combinado se beneficiará del ensayo. Un usuario implicado en (por ejemplo) una conversación de mensajería instantánea cuando expire el certificado tendrá que cerrar sesión y volver a iniciar sesión para hacer uso del nuevo certificado asociado al servicio perimetral de acceso. Se producirá un comportamiento similar para un usuario que participa en una conferencia web mediante el servicio perimetral de conferencia web. El certificado OAuthTokenIssuer es un tipo específico que se comparte en todos los servidores. El certificado se crea y administra en un solo lugar y el certificado se almacena en el almacén de administración central para todos los demás servidores.
   
 Se necesitan detalles adicionales para comprender por completo sus opciones y requisitos al usar el cmdlet Set-CsCertificate y al usarlo para organizar certificados anteriores al certificado actual que expira. El parámetro -Roll es importante, pero esencialmente un único propósito. Si lo define como un parámetro, le está diciendo a Set-CsCertificate que va a proporcionar información sobre el certificado que se verá afectado definido por -Type (por ejemplo, AudioVideoAuthentication y OAuthTokenIssuer), cuando el certificado se hará efectivo definido por -EffectiveDate.
   
- **-Roll:** el parámetro -Roll es obligatorio y tiene dependencias que deben suministrarse junto con él. Parámetros obligatorios para definir por completo qué certificados se verán afectados y cómo se aplicarán:
+ **-Roll**: el parámetro -Roll es necesario y tiene dependencias que deben suministrarse junto con él. Parámetros obligatorios para definir por completo qué certificados se verán afectados y cómo se aplicarán:
   
- **-EffectiveDate:** el parámetro -EffectiveDate define cuándo el nuevo certificado se volverá co-activo con el certificado actual. -EffectiveDate puede estar cerca del tiempo de expiración del certificado actual o puede ser un período de tiempo más largo. Un mínimo recomendado :EffectiveDate para el certificado AudioVideoAuthentication sería de 8 horas, que es la duración predeterminada del token para los tokens de servicio perimetral AV emitidos mediante el certificado AudioVideoAuthentication.
+ **-EffectiveDate**: el parámetro -EffectiveDate define cuándo el nuevo certificado se volverá co-activo con el certificado actual. -EffectiveDate puede estar cerca del tiempo de expiración del certificado actual o puede ser un período de tiempo más largo. Un mínimo recomendado :EffectiveDate para el certificado AudioVideoAuthentication sería de 8 horas, que es la duración predeterminada del token para los tokens de servicio perimetral AV emitidos mediante el certificado AudioVideoAuthentication.
   
 Al organizar certificados OAuthTokenIssuer, hay diferentes requisitos para el plazo antes de que el certificado se haga efectivo. El tiempo mínimo que el certificado OAuthTokenIssuer debe tener para su plazo es de 24 horas antes del tiempo de expiración del certificado actual. El plazo extendido para la coexistencia es debido a otros roles de servidor que son independientes del certificado OAuthTokenIssuer (Exchange Server, por ejemplo) que tiene un tiempo de retención superior para los materiales clave de cifrado y autenticación creada de certificado.
   
  **-Thumbprint**: la huella digital es un atributo del certificado que es único para dicho certificado. El parámetro -Thumbprint se usa para identificar el certificado que se verá afectado por las acciones del cmdlet Set-CsCertificate.
   
- **-Type:** el parámetro -Type puede aceptar un único tipo de uso de certificado o una lista separada por comas de tipos de uso de certificados. Los tipos de certificado son los que identifican al cmdlet y al servidor cuál es el propósito del certificado. Por ejemplo, escriba AudioVideoAuthentication para su uso por el servicio perimetral A/V y el servicio de autenticación AV. Si decide faser y aprovisionar certificados de un tipo diferente al mismo tiempo, debe tener en cuenta el tiempo mínimo de entrega efectivo necesario más largo para los certificados. Por ejemplo, debe crear certificados de fase de tipo AudioVideoAuthentication y OAuthTokenIssuer. El valor mínimo -EffectiveDate debe ser el mayor de los dos certificados, en este caso OAuthTokenIssuer, que tiene un plazo mínimo de ejecución de 24 horas. Si no desea faser el certificado AudioVideoAuthentication con un plazo de ejecución de 24 horas, escenfícelo por separado con un EffectiveDate que sea más según sus requisitos.
+ **-Type**: el parámetro -Type puede aceptar un único tipo de uso de certificado o una lista separada por comas de tipos de uso de certificados. Los tipos de certificado son los que identifican al cmdlet y al servidor cuál es el propósito del certificado. Por ejemplo, escriba AudioVideoAuthentication para su uso por el servicio perimetral A/V y el servicio de autenticación AV. Si decide faser y aprovisionar certificados de un tipo diferente al mismo tiempo, debe tener en cuenta el tiempo mínimo de entrega efectivo necesario más largo para los certificados. Por ejemplo, debe crear certificados de fase de tipo AudioVideoAuthentication y OAuthTokenIssuer. El valor mínimo -EffectiveDate debe ser el mayor de los dos certificados, en este caso OAuthTokenIssuer, que tiene un plazo mínimo de ejecución de 24 horas. Si no desea faser el certificado AudioVideoAuthentication con un plazo de ejecución de 24 horas, escenfícelo por separado con un EffectiveDate que sea más según sus requisitos.
   
 ### <a name="to-update-or-renew-an-av-edge-service-certificate-with-a--roll-and--effectivedate-parameters"></a>Para actualizar o renovar un certificado de servicio perimetral A/V con parámetros -Roll y -EffectiveDate
 
@@ -56,7 +51,7 @@ Al organizar certificados OAuthTokenIssuer, hay diferentes requisitos para el pl
     
 3. Importe el nuevo certificado AudioVideoAuthentication al servidor perimetral y al resto del servidor perimetral del grupo (si tiene implementado un grupo de servidores).
     
-4. Configure el certificado importado con el cmdlet Set-CsCertificate y use el parámetro -Roll con el parámetro -EffectiveDate. La fecha efectiva se debe definir como la hora de expiración del certificado actual (14:00:00 o 2:00:00 PM) menos la vigencia de token (de manera predeterminada, ocho horas). Esto nos da una hora en la que el certificado debe establecerse en activo y es -EffectiveDate \<string\> : "7/22/2015 6:00:00 AM". 
+4. Configure el certificado importado con el cmdlet Set-CsCertificate y use el parámetro -Roll con el parámetro -EffectiveDate. La fecha efectiva se debe definir como la hora de expiración del certificado actual (14:00:00 o 2:00:00 PM) menos la vigencia de token (de manera predeterminada, ocho horas). Esto nos da una hora en la que el certificado debe establecerse en activo y es -EffectiveDate \<string\>: "7/22/2015 6:00:00 AM". 
     
     > [!IMPORTANT]
     > Para un grupo de servidores perimetrales, debe tener todos los certificados AudioVideoAuthentication implementados y aprovisionados por la fecha y hora definidas por el parámetro -EffectiveDate del primer certificado implementado para evitar posibles interrupciones en las comunicaciones A/V debido a que el certificado anterior expira antes de que todos los tokens de cliente y consumidor se hayan renovado con el nuevo certificado. 
@@ -131,7 +126,7 @@ Cuando se alcanza el tiempo efectivo (21/7/2015 1:00:00 AM), el nuevo certificad
 Remove-CsCertificate -Type OAuthTokenIssuer -Previous 
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones asociadas en Skype Empresarial Server](server-to-server-and-partner-applications.md)
 

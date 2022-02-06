@@ -1,31 +1,26 @@
 ---
 title: Administrar cuentas del Sistema de salas de Skype
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
 description: Lea este tema para obtener información sobre cómo administrar Skype de sistema de sala.
-ms.openlocfilehash: 2ae91a977a837e2b1b54db8d127551b5f53bb1a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864457"
 ---
+
 # <a name="manage-skype-room-system-accounts"></a>Administrar cuentas del Sistema de salas de Skype
  
 Lea este tema para obtener información sobre cómo administrar Skype de sistema de sala. 
 
 > [!NOTE]
-> Salas de Microsoft Teams es un producto diferente con diferentes dependencias y procedimientos de implementación. Para obtener información sobre Salas de Microsoft Teams, vea el Salas de Microsoft Teams [de administración.](/microsoftteams/rooms/rooms-manage)
+> Salas de Microsoft Teams es un producto diferente con diferentes dependencias y procedimientos de implementación. Para obtener información sobre Salas de Microsoft Teams, vea la introducción Salas de Microsoft Teams [administración de aplicaciones](/microsoftteams/rooms/rooms-manage).
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>Mover la cuenta Skype sistema de sala entre grupos
 

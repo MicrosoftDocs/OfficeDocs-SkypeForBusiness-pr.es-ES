@@ -1,27 +1,22 @@
 ---
 title: Nodo de ámbito del chat persistente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PersistentChatScopeNode
+  - ms.lync.tb.PersistentChatScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
-ROBOTS: NOINDEX, NOFOLLOW
-description: Para comenzar la creación de un nuevo servidor de chat persistente o grupo de servidores de chat persistente, en el Generador de topologías, haga clic con el botón secundario en Grupos de chat persistente y, a continuación, seleccione Nuevo grupo de chat persistente
-ms.openlocfilehash: c0eafb361ee5511166a18253f056ff0115d4649e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855857"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Para comenzar la creación de un nuevo servidor de chat persistente o grupo de servidores de chat persistente, en el Generador de topologías, haga clic con el botón secundario en Grupos de chat persistente y, a continuación, seleccione Nuevo grupo de chat persistente'
 ---
+
 # <a name="persistent-chat-scope-node"></a>Nodo de ámbito del chat persistente
 
 > [!NOTE] 

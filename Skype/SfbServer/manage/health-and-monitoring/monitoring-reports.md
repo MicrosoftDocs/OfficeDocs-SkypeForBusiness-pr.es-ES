@@ -1,24 +1,19 @@
 ---
 title: Uso de informes de supervisión en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 'Resumen: obtenga información sobre los informes de supervisión en Skype Empresarial Server.'
-ms.openlocfilehash: 0088bb5a83de7f1f22e14461bb841a6011810444
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862287"
 ---
+
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Uso de informes de supervisión en Skype Empresarial Server 
  
 **Resumen:** Obtenga información sobre los informes de supervisión en Skype Empresarial Server.
@@ -31,13 +26,13 @@ Para usar estos informes, debe instalar informes de supervisión en un equipo qu
 
 - [Uso del Panel de supervisión en Skype Empresarial Server](monitoring-dashboard.md) Proporciona a los administradores una introducción rápida del estado del sistema y el uso del sistema.
     
-- [Informes de uso del sistema en Skype Empresarial Server](system-usage-reports.md) Proporciona información de uso del sistema basada en datos CDR recopilados por Skype Empresarial Server.
+- [Informes de uso del sistema en Skype Empresarial Server](system-usage-reports.md) proporciona información de uso del sistema basada en datos cdr recopilados por Skype Empresarial Server.
     
-- [Informes de diagnóstico de llamadas (por usuario) en Skype Empresarial Server](call-diagnostic-reports-per-user.md) Proporciona información por usuario sobre sesiones de conferencia y punto a punto con errores.
+- [Informes de diagnóstico de llamadas (por usuario) en Skype Empresarial Server](call-diagnostic-reports-per-user.md) proporciona información por usuario sobre sesiones de conferencia y punto a punto con errores.
     
-- [Informes de diagnóstico de llamadas en Skype Empresarial Server](call-diagnostic-reports.md) Proporciona información de resumen y datos de diagnóstico para sesiones de conferencia y punto a punto con errores.
+- [Informes de diagnóstico de llamadas en Skype Empresarial Server](call-diagnostic-reports.md) proporciona información resumida y datos de diagnóstico para sesiones de conferencia y punto a punto con errores.
     
-- [Informes de diagnóstico de calidad multimedia en Skype Empresarial Server](media-quality-diagnostic-reports.md) Proporciona información sobre la calidad de las llamadas, así como información de diagnóstico y solución de problemas para llamadas con errores.
+- [Informes de diagnóstico de calidad multimedia en Skype Empresarial Server](media-quality-diagnostic-reports.md) proporciona información sobre la calidad de las llamadas, así como información de diagnóstico y solución de problemas para llamadas con errores.
     
 ## <a name="locating-records"></a>Localización de registros
 

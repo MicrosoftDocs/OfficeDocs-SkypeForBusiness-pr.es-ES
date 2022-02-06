@@ -1,33 +1,28 @@
 ---
 title: Configuración de la compatibilidad de federación para un cliente de Skype Empresarial Online
-ms.reviewer: ''
-ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
-ms:contentKeyID: 48185669
+ms.reviewer: null
+'ms:assetid': e5f7f38d-ede5-4af3-88c2-026e8a78df12
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)'
+'ms:contentKeyID': 48185669
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 'Si implementas Skype Empresarial en la organización, puedes federar con los dominios de uno o más Skype Empresarial online. '
-ms.openlocfilehash: 6b8a22dd4b45f31be9ad4433b486fe3122ae868c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836402"
 ---
+
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Configurar la compatibilidad de federación para un cliente Skype Empresarial Online en Skype Empresarial Server
 
 Puede proporcionar servicios de comunicaciones a usuarios de la organización de cualquiera de las siguientes maneras:
 
-- Implementar Skype Empresarial Server en la organización (conocidos como servicios *locales)* y configurar Skype Empresarial cuentas de usuario de la organización.
-- Configurar una cuenta de cliente de Microsoft Skype Empresarial Online con un proveedor de hospedaje y configurar cuentas de usuario con el proveedor de hospedaje (conocido como *servicios en línea).*
+- Implementar Skype Empresarial Server en la organización (conocidos como servicios *locales) y* configurar Skype Empresarial cuentas de usuario de la organización.
+- Configurar una cuenta de cliente de Microsoft Skype Empresarial Online con un proveedor de hospedaje y configurar cuentas de usuario con el proveedor de hospedaje (conocido como *servicios en línea*).
 
 Si implementas Skype Empresarial en la organización, puedes federar con los dominios de uno o más Skype Empresarial online. Para habilitar la federación entre los usuarios de la implementación Skype Empresarial local y los usuarios de un cliente de Skype Empresarial Online, debe configurar la compatibilidad con el dominio y los usuarios del cliente de Skype Empresarial Online.
 
@@ -43,14 +38,14 @@ Para federar con un cliente de Skype Empresarial Online, ya debería haber compl
 - Implementar al menos un servidor Standard Edition servidor o Enterprise Edition grupo de servidores front-end de la organización.
 - Habilitar cuentas de usuario internas para Skype Empresarial Server.
 - Implementar al menos un servidor perimetral y los demás componentes necesarios para admitir el acceso de usuarios externos. Para obtener más información, vea [Managing federation and external access to Skype Empresarial Server](../managing-federation-and-external-access.md).
-- Habilitar la compatibilidad con la federación en la organización y configurar el método adecuado para controlar el acceso por dominios federados. Para obtener más información, vea [Habilitar o deshabilitar el acceso de usuarios remotos](../access-edge/enable-or-disable-remote-user-access.md) y Administrar proveedores [federados SIP para su organización.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
-- Habilitar el acceso de usuarios externos para los usuarios de la organización. Para obtener más información, vea Asignar una directiva de acceso de usuario [externo a Skype Empresarial usuario habilitado.](../external-access-policies/assign-an-external-user-access-policy.md)
+- Habilitar la compatibilidad con la federación en la organización y configurar el método adecuado para controlar el acceso por dominios federados. Para obtener más información, vea [Habilitar o deshabilitar el acceso de usuarios remotos](../access-edge/enable-or-disable-remote-user-access.md) y [Administrar proveedores federados SIP para su organización](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
+- Habilitar el acceso de usuarios externos para los usuarios de la organización. Para obtener más información, vea [Asignar una directiva de acceso de usuario externo a Skype Empresarial usuario habilitado](../external-access-policies/assign-an-external-user-access-policy.md).
 
 ## <a name="configure-federation-support-for-a-skype-for-business-online-domain"></a>Configurar la compatibilidad de federación para un Skype Empresarial online
 
 La federación con un cliente Skype Empresarial online requiere que complete los pasos siguientes:
 
-- Configure la compatibilidad con el dominio del cliente de Skype Empresarial Online 2010 (por ejemplo, contoso.onmicrosoft.com). Como se especifica en [Requisitos previos](#prerequisites-for-federating-with-a-skype-for-business-online-customer)para federar con un cliente de Skype Empresarial Online, ya debería haber habilitado la federación para su organización. Para ello, se debe especificar el método que se usará para controlar el acceso por dominios federados. Si configuró su organización para que use detección, es opcional agregar el dominio a la lista permitida de su organización. Si no ha habilitado la detección de dominios, debe agregar el nombre de dominio del cliente de Skype Empresarial Online a la lista de dominios permitidos. Puede agregar un nombre de dominio mediante Skype Empresarial Server panel de control o ejecutando el cmdlet **New-CSAllowedDomain.** Para obtener más información sobre Skype Empresarial Server panel de control, incluida la habilitación de la detección de dominios, vea [Manage SIP federated providers for your organization in Skype Empresarial Server](../sip-providers/manage-sip-federated-providers-for-your-organization.md). Para obtener más información sobre cómo usar el cmdlet **New-CSAllowedDomain** para agregar un dominio, vea [New-CsAllowedDomain](/powershell/module/skype/New-CsAllowedDomain).
+- Configure la compatibilidad con el dominio del cliente de Skype Empresarial Online 2010 (por ejemplo, contoso.onmicrosoft.com). Como se especifica en [Requisitos previos para federar con un cliente de Skype Empresarial Online](#prerequisites-for-federating-with-a-skype-for-business-online-customer), ya debería haber habilitado la federación para su organización. Para ello, se debe especificar el método que se usará para controlar el acceso por dominios federados. Si configuró su organización para que use detección, es opcional agregar el dominio a la lista permitida de su organización. Si no ha habilitado la detección de dominios, debe agregar el nombre de dominio del cliente de Skype Empresarial Online a la lista de dominios permitidos. Puede agregar un nombre de dominio mediante Skype Empresarial Server Panel de control o ejecutando el cmdlet **New-CSAllowedDomain**. Para obtener más información sobre Skype Empresarial Server panel de control, incluida la habilitación de la detección de dominios, vea [Manage SIP federated providers for your organization in Skype Empresarial Server](../sip-providers/manage-sip-federated-providers-for-your-organization.md). Para obtener más información sobre cómo **usar el cmdlet New-CSAllowedDomain** para agregar un dominio, vea [New-CsAllowedDomain](/powershell/module/skype/New-CsAllowedDomain).
 
   > [!NOTE]  
   > Un Skype Empresarial online puede tener varios dominios. Si desea federar con más de uno de los dominios, debe configurar la compatibilidad para cada dominio individual con el que desea admitir la federación y el administrador del cliente de Skype Empresarial Online debe habilitar la federación para cada uno de los dominios que se va a federar.
@@ -62,7 +57,7 @@ La federación con un cliente Skype Empresarial online requiere que complete los
 
 ### <a name="to-configure-support-for-a-hosting-provider"></a>Para configurar compatibilidad para un proveedor de hospedaje
 
-1. Desde un servidor front-end, inicie el Shell de administración de Skype Empresarial Server: haga clic en Inicio **,** haga clic en Todos los **programas,** haga clic en **Skype Empresarial Server** y, a continuación, haga clic en Skype Empresarial Server Shell **de administración**.
+1. Desde un servidor front-end, inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio, en** Todos los **programas, en** Skype Empresarial Server **y, a** continuación, en Skype Empresarial Server Shell **de administración**.
 
 2. Ejecute el cmdlet de **New-CsHostingProvider** para crear y configurar el proveedor de hospedaje. Por ejemplo, ejecute:
 
@@ -90,7 +85,7 @@ La federación con un cliente Skype Empresarial online requiere que complete los
 
 ## <a name="configure-user-access-for-federation-with-a-skype-for-business-online-customer"></a>Configurar el acceso de usuario para la federación con un Skype Empresarial online
 
-Para que todos los usuarios de su organización puedan comunicarse con socios federados, debe configurar sus cuentas de usuario. Esta configuración se aplica a todos los socios federados, incluidos los dominios de cliente de Microsoft Skype Empresarial Online con los que admita la federación. Para obtener más información sobre cómo configurar la compatibilidad de federación para cuentas de usuario, vea [Configure policies to control federated user access](../external-access-policies/configure-policies-to-control-federated-user-access.md) y Assign an external user access policy to a Skype Empresarial enabled [user](../external-access-policies/assign-an-external-user-access-policy.md).
+Para que todos los usuarios de su organización puedan comunicarse con socios federados, debe configurar sus cuentas de usuario. Esta configuración se aplica a todos los socios federados, incluidos los dominios de cliente de Microsoft Skype Empresarial Online con los que admita la federación. Para obtener más información sobre cómo configurar la compatibilidad de federación para cuentas de usuario, vea [Configure policies to control federated user access](../external-access-policies/configure-policies-to-control-federated-user-access.md) y [Assign an external user access policy to a Skype Empresarial enabled user](../external-access-policies/assign-an-external-user-access-policy.md).
 
 ## <a name="verify-communications-with-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Compruebe las comunicaciones con un cliente Skype Empresarial Online en Skype Empresarial Server
 

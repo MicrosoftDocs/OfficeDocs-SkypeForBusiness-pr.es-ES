@@ -1,28 +1,23 @@
 ---
 title: Planear la conectividad RTC en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: Planee la conectividad RTC en Telefonía IP empresarial en Skype Empresarial Server.
-ms.openlocfilehash: a13124c67f611f4208614015efdceaf21c2deb50
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861057"
 ---
+
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Planear la conectividad RTC en Skype Empresarial Server
  
 Planee la conectividad RTC en Telefonía IP empresarial en Skype Empresarial Server.

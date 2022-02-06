@@ -1,27 +1,22 @@
 ---
 title: Editar directiva de movilidad de cliente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientMobilityPolicyEdit
+  - ms.lync.lscp.ClientMobilityPolicyEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
-ROBOTS: NOINDEX, NOFOLLOW
-description: En el cuadro de diálogo Editar directiva de movilidad, puede editar los detalles de una directiva de movilidad.
-ms.openlocfilehash: a7c3944684f3894cce599e87edb0f4750683e8fa
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861687"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'En el cuadro de diálogo Editar directiva de movilidad, puede editar los detalles de una directiva de movilidad.'
 ---
+
 # <a name="edit-client-mobility-policy"></a>Editar directiva de movilidad de cliente
 
 En el cuadro de diálogo **Editar directiva de movilidad**, puede editar los detalles de una directiva de movilidad.
@@ -41,7 +36,7 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
 
 Para obtener detalles sobre las directivas de movilidad, vea [Mobility Policies](/previous-versions/office/lync-server-2013/lync-server-2013-mobility-policies).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planeación de la movilidad](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)
 

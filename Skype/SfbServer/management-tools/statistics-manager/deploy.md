@@ -1,25 +1,20 @@
 ---
 title: Implementar el administrador de estadísticas para Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumen: lea este tema para obtener información sobre cómo implementar el Administrador de estadísticas para Skype Empresarial Server.'
-ms.openlocfilehash: 4cfedb385078cd12413cb9f27059f7b5ed8023a1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857437"
 ---
+
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implementar el administrador de estadísticas para Skype Empresarial Server
  
 **Resumen:** Lea este tema para obtener información sobre cómo implementar el Administrador de estadísticas para Skype Empresarial Server.
@@ -29,12 +24,12 @@ ms.locfileid: "60857437"
 Antes de intentar instalar el Administrador de estadísticas, asegúrese de que está familiarizado con los requisitos de software, redes y hardware. Para obtener más información, vea [Plan for Statistics Manager for Skype Empresarial Server](plan.md).
   
 > [!NOTE]
-> Si va a actualizar desde una versión anterior del Administrador de estadísticas, vea [Upgrade Statistics Manager for Skype Empresarial Server](upgrade.md). 
+> Si va a actualizar desde una versión anterior del Administrador de estadísticas, consulte [Upgrade Statistics Manager for Skype Empresarial Server](upgrade.md). 
   
 > [!NOTE]
 > El sitio web del Administrador de estadísticas se ha probado y funciona correctamente en Internet Explorer 11+, Edge 20.10240+ y Chrome 46+ (versión perenne actual). 
   
-Puede encontrar el Administrador de estadísticas descargable en [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload) . 
+Puede encontrar el Administrador de estadísticas descargable en [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload). 
   
 En este tema se presentan las siguientes secciones:
   
@@ -66,7 +61,7 @@ Para implementar el Administrador de estadísticas, siga estos pasos:
 
 Para preparar el equipo host, deberá instalar el sistema de almacenamiento en memoria caché de Redis y asegurarse de que hay un certificado válido en el equipo. Microsoft recomienda instalar la compilación estable más reciente de Redis 3.0. Statistics Manager versión 2.0 se ha probado con Redis 3.2.100. 
   
-1. Descargue Redis desde el siguiente sitio: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis) . 
+1. Descargue Redis desde el siguiente sitio: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis). 
     
     Los instaladores sin firma se pueden descargar desde [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
@@ -78,7 +73,7 @@ Para preparar el equipo host, deberá instalar el sistema de almacenamiento en m
     
 2. El servicio de escucha requiere un certificado. Microsoft recomienda encarecidamente que tenga un certificado firmado por una entidad de certificación de confianza. 
     
-    Si desea usar un certificado autofirmado (para fines de prueba en un laboratorio, por ejemplo), consulte [Create a self-signed certificate](deploy.md#BKMK_SelfCert).
+    Si desea usar un certificado autofirmado (por ejemplo, para pruebas en un laboratorio), consulte [Create a self-signed certificate](deploy.md#BKMK_SelfCert).
     
     Tenga en cuenta que el agente usa la comprobación de huella digital del certificado (en lugar de la verificación en cadena). No realizará la validación completa del certificado porque es posible usar certificados autofirmados.
     
@@ -104,7 +99,7 @@ Instale el servicio de escucha en el equipo host ejecutando el StatsManPerfAgent
        Get-ChildItem -path cert:\LocalMachine\My
        ```
 
-   - **Instalar Dir:** Este es el directorio en el que se instalarán los archivos binarios. Puede cambiarlo desde el valor predeterminado mediante el **botón Examinar....**
+   - **Instalar Dir:** Este es el directorio en el que se instalarán los archivos binarios. Puede cambiarlo desde el valor predeterminado mediante el **botón Examinar** ....
     
    - **Dir de AppData:** Este es el directorio donde se almacenarán la carpeta Registros y otros datos. Puede cambiarlo desde el valor predeterminado. No se eliminará al desinstalar.
     
@@ -112,7 +107,7 @@ Instale el servicio de escucha en el equipo host ejecutando el StatsManPerfAgent
     
 Para validar la instalación, siga estos pasos:
   
-1. Abrir un explorador y navegar a https://localhost: \<service-port\> /healthcheck/
+1. Abrir un explorador y navegar a https://localhost:\<service-port\>/healthcheck/
     
     De forma predeterminada, el puerto de servicio es 8443 (a menos que haya especificado otro puerto).
     
@@ -126,7 +121,7 @@ Para validar la instalación, siga estos pasos:
     
 ### <a name="install-the-website"></a>Instalar el sitio web
 
-Instale el sitio web en el equipo host ejecutando el StatsManWebSite.msi (incluido con [Skype Empresarial Server, Real-Time Statistics Manager (64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)y especificando lo siguiente:
+Instale el sitio web en el equipo host ejecutando el StatsManWebSite.msi (incluido con [Skype Empresarial Server, Real-Time Statistics Manager (64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)) y especificando lo siguiente:
   
 1. Revise el Contrato de licencia y, si está de acuerdo, seleccione **Acepto** los términos del contrato de licencia y, a continuación, haga clic en **Siguiente**. 
     
@@ -134,15 +129,15 @@ Instale el sitio web en el equipo host ejecutando el StatsManWebSite.msi (inclui
     
    - **Puerto de servicio:** Este es el número de puerto en el que escuchará el sitio web. Puede cambiarlo más adelante mediante el enlace del administrador de IIS. Durante la instalación, este puerto se permitirá a través del firewall local.
     
-   - **Instalar Dir:** Este es el directorio donde se instalarán los archivos binarios. Puede cambiarlo desde el valor predeterminado mediante el **botón Examinar....**
+   - **Instalar Dir:** Este es el directorio donde se instalarán los archivos binarios. Puede cambiarlo desde el valor predeterminado mediante el **botón Examinar** ....
     
    - **Dir de AppData:** Este es el directorio donde se almacenarán la carpeta Registros y otros datos. Puede cambiarlo desde el valor predeterminado. No se eliminará al desinstalar.
     
 3. Haga clic en **Instalar**.
     
-Para ver el sitio web, abra un explorador y vaya a: http://localhost ,webport \> /.
+Para ver el sitio web, abra un explorador y vaya a: http://localhost,webport\>/.
   
-Para ver solo información de estado, abra un explorador y vaya a: http://localhost: \<webport\> /healthcheck/.
+Para ver solo información de estado, abra un explorador y vaya a: http://localhost:\<webport\>/healthcheck/.
   
 De forma predeterminada, el número de puerto web es 8080. Puede cambiar el enlace de puerto del sitio web mediante el administrador de IIS.
   
@@ -160,11 +155,11 @@ Instale un agente en cada Skype Empresarial Server que desee supervisar ejecutan
     
    - **URI de servicio:** Este es el URI donde reside el agente de escucha. Debe usar el https://name:port formato.
     
-     Puede usar un nombre NETBIOS o un FQDN. Puede usar el nombre que también  se  especifica como el asunto o los nombres alternativos de sujeto del certificado en el servicio de escucha, pero no es un requisito.
+     Puede usar un nombre NETBIOS o un FQDN. Puede usar el nombre que también se especifica como el asunto o  los nombres  alternativos de sujeto del certificado en el servicio de escucha, pero no es un requisito.
     
    - **Huella digital del servicio:** Esta es la huella digital del certificado SSL que usa listener. El agente usará esta huella digital para autenticarse en el agente de escucha. (No realizará la validación completa del certificado porque es posible usar certificados autofirmados).
     
-   - **Instalar Dir:** Este es el directorio en el que se instalarán los archivos binarios. Puede cambiarlo desde el valor predeterminado mediante el **botón Examinar....**
+   - **Instalar Dir:** Este es el directorio en el que se instalarán los archivos binarios. Puede cambiarlo desde el valor predeterminado mediante el **botón Examinar** ....
     
    - **Dir de AppData:** Este es el directorio donde se almacenarán la carpeta Logs y el password.txt cifrado. Puede cambiarlo desde el valor predeterminado. No se eliminará al desinstalar.
     
@@ -179,13 +174,13 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>Importar la topología
 <a name="BKMK_ImportTopology"> </a>
 
-Después de instalar y ejecutar el Administrador de estadísticas, debe importar la topología Skype Empresarial Server para que el Administrador de estadísticas conozca el sitio, el grupo y el rol de cada servidor. Para importar la topología Skype Empresarial Server, usará el cmdlet [Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) para recuperar información sobre cada grupo de servidores en uso en su organización y, a continuación, importar esta información al Administrador de estadísticas.
+Después de instalar y ejecutar el Administrador de estadísticas, debe importar la topología Skype Empresarial Server para que el Administrador de estadísticas conozca el sitio, el grupo y el rol de cada servidor. Para importar la topología Skype Empresarial Server, usará el cmdlet [Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) para recuperar información sobre cada grupo de servidores en uso en la organización y, a continuación, importar esta información en el Administrador de estadísticas.
   
 Para importar la topología Skype Empresarial Server, siga estos pasos:
   
 1. En un host que tenga el Skype Empresarial Server cmdlets de PowerShell:
     
-    a. Ejecute el comando siguiente: 
+    a. Ejecute el siguiente comando: 
     
    ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
@@ -228,7 +223,7 @@ Si desea supervisar servidores que no están en la topología de Skype Empresari
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
-2. Ejecute el comando siguiente:
+2. Ejecute el siguiente comando:
     
    ```powershell
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
@@ -241,9 +236,9 @@ Si un agente no se inicia, compruebe lo siguiente:
   
 - ¿El agente está registrado en el Administrador de estadísticas?
     
-    1. Asegúrese de que ha seguido las instrucciones para importar la topología. Consulte [Import the topology](deploy.md#BKMK_ImportTopology).
+    1. Asegúrese de que ha seguido las instrucciones para importar la topología. Consulte [Importar la topología](deploy.md#BKMK_ImportTopology).
         
-    2. Si el agente está en un servidor que no aparece en la topología (por ejemplo, los nodos de un clúster alwayson de SQL), deberá agregar el agente manualmente siguiendo las instrucciones de [Importar](deploy.md#BKMK_ImportTopology)la topología .
+    2. Si el agente está en un servidor que no aparece en la topología (por ejemplo, los nodos de un clúster alwayson de SQL), deberá agregar el agente manualmente siguiendo las instrucciones de [Importar](deploy.md#BKMK_ImportTopology) la topología.
     
 - ¿Puede el agente ponerse en contacto con el agente de escucha?
     
@@ -280,11 +275,11 @@ Microsoft recomienda encarecidamente que use un certificado firmado por una enti
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 
-2. Escriba  `certlm.msc` . Esto abrirá el Administrador de certificados para el equipo local.
+2. Escriba  `certlm.msc`. Esto abrirá el Administrador de certificados para el equipo local.
     
-3. Vaya a **Personal** y, a continuación, abra **Certificados**.
+3. Vaya a **Personal** y, a continuación, **abra Certificados**.
     
-4. Haga clic con el botón **secundario en StatsManListener: \> Todas las tareas: Administrar claves \> privadas...**
+4. Haga clic con el **botón secundario en StatsManListener-All\> Tasks-Manage\> Private Keys...**
     
 5. Haga clic en **Agregar**.
     
@@ -292,7 +287,7 @@ Microsoft recomienda encarecidamente que use un certificado firmado por una enti
     
 7. Haga clic en **Aceptar**.
     
-8. En **Control total,** active **la** casilla Permitir. (Solo es necesario el acceso de lectura).
+8. En **Control total**, desaconse la **casilla** Permitir. (Solo es necesario el acceso de lectura).
     
 9. Haga clic en **Aceptar**.
     

@@ -1,24 +1,19 @@
 ---
 title: Informe de detalles de sesión punto a punto en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: 'Summary: Learn about the Peer-to-Peer Session Detail Report in Skype Empresarial Server.'
-ms.openlocfilehash: fe49c455391583a02f873769a75d86da62fe2a25
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829974"
 ---
+
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Informe de detalles de sesión punto a punto en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre el Informe de detalles de sesión punto a punto en Skype Empresarial Server.
@@ -37,7 +32,7 @@ Se puede acceder al informe de detalles de sesiones punto a punto desde cualquie
     
 - Informe de lista de errores 
     
-Desde dentro del Informe de detalles de sesión punto a [punto,](diagnostic-report.md) puede obtener acceso al Informe de diagnóstico en Skype Empresarial Server haciendo clic en la métrica Informe de diagnóstico (detalles). También se puede acceder al informe de errores principales haciendo clic en cualquiera de estas dos métricas:
+Desde dentro del Informe de detalles de sesión punto a punto, puede obtener acceso al Informe de diagnóstico en [Skype Empresarial Server](diagnostic-report.md) haciendo clic en la métrica Informe de diagnóstico (detalles). También se puede acceder al informe de errores principales haciendo clic en cualquiera de estas dos métricas:
   
 - Respuesta
     

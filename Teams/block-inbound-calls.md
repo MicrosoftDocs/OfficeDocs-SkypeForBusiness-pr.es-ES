@@ -1,31 +1,26 @@
 ---
 title: Bloquear llamadas entrantes en Microsoft Teams
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-voice
+  - M365-voice
 audience: Admin
 ms.reviewer: roykuntz
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: d1b5b19189ea301eab5d2c06dfa85be7d4ddb6eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827393"
 ---
+
 # <a name="block-inbound-calls"></a>Bloquear llamadas entrantes
 
 Los planes de llamadas de Microsoft, el enrutamiento directo y el operador Conectar todas las llamadas entrantes de la red telefónica conmutada (RTC) pública. Esta característica permite a un administrador definir una lista de patrones de número en el nivel global del inquilino para que el identificador de llamada de todas las llamadas RTC entrantes al inquilino se pueda comprobar en la lista para obtener una coincidencia. Si se realiza una coincidencia, se rechaza una llamada entrante.
 
-Esta característica de bloqueo de llamadas entrantes solo funciona en las llamadas entrantes que proceden de la RTC y solo funciona en un nivel global de inquilino. Los Teams usuarios no pueden manipular esta lista. El Teams permite a los usuarios individuales bloquear llamadas RTC. Para obtener información sobre cómo los usuarios finales pueden implementar el bloqueo de llamadas, vea Administrar la configuración de llamadas [en Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
+Esta característica de bloqueo de llamadas entrantes solo funciona en las llamadas entrantes que proceden de la RTC y solo funciona en un nivel global de inquilino. Los Teams usuarios no pueden manipular esta lista. El Teams permite a los usuarios individuales bloquear llamadas RTC. Para obtener información sobre cómo los usuarios finales pueden implementar el bloqueo de llamadas, vea Administrar [la configuración de llamadas en Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
 >[!NOTE]
 > Los autores de llamadas bloqueados pueden experimentar comportamientos ligeramente diferentes cuando se han bloqueado. El comportamiento se basa en cómo el operador del autor de la llamada bloqueado controla la notificación de que no se permite que la llamada se complete correctamente. Algunos ejemplos pueden incluir un mensaje de operador que indica que la llamada no se puede completar como marcado, o simplemente soltar la llamada.
@@ -36,14 +31,14 @@ Los controles de administración para bloquear números solo se proporcionan con
 
 ## <a name="call-blocking-powershell-commands"></a>Comandos de PowerShell de bloqueo de llamadas
 
-Los patrones de número se administran con los cmdlets **New-**, **Get-**, **Set-** y **Remove-CsInboundBlockedNumberPattern.** Puede administrar un patrón determinado con estos cmdlets, incluida la posibilidad de activar un patrón determinado.
+Puede administrar patrones de número con los cmdlets **New-**, **Get-**, **Set-y** **Remove-CsInboundBlockedNumberPattern** . Puede administrar un patrón determinado con estos cmdlets, incluida la posibilidad de activar un patrón determinado.
 
 - [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) devuelve una lista de todos los patrones de números bloqueados agregados a la lista de inquilinos, incluidos Nombre, Descripción, Habilitado (Verdadero/Falso) y Patrón para cada uno.
 - [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) agrega un patrón de número bloqueado a la lista de inquilinos.
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) quita un patrón de número bloqueado de la lista de inquilinos.
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) modifica uno o varios parámetros de un patrón de número bloqueado en la lista de inquilinos.
 
-Ver y activar toda la característica de bloqueo de llamadas se administra a través de los cmdlets **Get y** **Set-CsTenantBlockingCallingNumbers.**
+Ver y activar toda la característica de bloqueo de llamadas se administra a través de los cmdlets **Get y** **Set-CsTenantBlockingCallingNumbers** .
 
 - [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) devuelve los patrones de número de bloque de entrada y los parámetros de patrones de números exentos de entrada para la lista global de números bloqueados. Este cmdlet también devuelve si el bloqueo se ha habilitado (Verdadero o Falso). Hay una única directiva de inquilino global que no se puede modificar manualmente, aparte de activar o desactivar la característica.
 - [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) permite modificar las llamadas bloqueadas de inquilino global para que se puedan desactivar y desactivar en el nivel de inquilino.
@@ -96,7 +91,7 @@ Use las capacidades de filtrado de PowerShell integradas para analizar los valor
 
 ## <a name="add-number-exceptions"></a>Agregar excepciones de número
 
-Puede agregar excepciones a los patrones de números bloqueados mediante los cmdlets **New-**, **Get-**, **Set-** y **Remove-CsInboundExemptNumberPattern.**
+Puede agregar excepciones a los patrones de números bloqueados mediante los cmdlets **New-**, **Get-**, **Set-y** **Remove-CsInboundExemptNumberPattern** .
 
 - [New-CsInboundExemptNumberPattern](/powershell/module/skype/New-CsInboundExemptNumberPattern) agrega un patrón de excepción de número a la lista de inquilinos. 
 - [Get-CsInboundExemptNumberPattern](/powershell/module/skype/Get-CsInboundExemptNumberPattern) devuelve una lista de todos los patrones de excepción de número agregados a la lista de inquilinos.
@@ -144,7 +139,7 @@ Set-CsInboundExemptNumberPattern -Identity "AllowContoso1" -Enabled $False
 
 El cmdlet **Remove-CsInboundExemptNumberPattern** quitará el patrón de número dado de la lista de inquilinos. En este ejemplo, se **requiere el** parámetro Identity. 
 
-Si no se conoce la identidad, use el cmdlet **Get-CsInboundExemptNumberPattern** para localizar primero el patrón adecuado y tener en cuenta la identidad. A continuación, ejecute el cmdlet **Remove-CsInboundExemptNumberPattern** y pase el valor de identidad adecuado.Deje tiempo para la replicación antes de probar y validar.  
+Si no se conoce la identidad, use el cmdlet **Get-CsInboundExemptNumberPattern** para localizar primero el patrón adecuado y tener en cuenta la identidad. A continuación, ejecute **el cmdlet Remove-CsInboundExemptNumberPattern** y pase el valor de identidad adecuado.Deje tiempo para la replicación antes de probar y validar.  
 
 ```powershell
 Remove-CsInboundExemptNumberPattern -Identity <String>

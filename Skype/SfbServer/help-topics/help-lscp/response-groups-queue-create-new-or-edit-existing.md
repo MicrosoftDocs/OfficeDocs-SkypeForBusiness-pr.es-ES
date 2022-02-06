@@ -1,27 +1,22 @@
 ---
 title: Cola de grupos de respuesta Crear nuevo o editar existente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.RgsQueueEdit
+  - ms.lync.lscp.RgsQueueEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: Las colas de grupo de respuesta mantienen llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
-ms.openlocfilehash: fba6a756ab12dda91c84aee5c0ed75679db71c71
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827763"
 ---
+
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Cola de grupos de respuesta: Crear nuevos o editar los existentes
 
 Las colas de grupo de respuesta mantienen llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
@@ -46,11 +41,11 @@ En la siguiente lista se describen los campos de la página.
 
   - **Desconectar**
 
-  - **Reenviar al correo de voz** Si selecciona esta opción, en **dirección SIP,** escriba una dirección de correo de voz con el formato sip: \<username> @ \<domainname> (por ejemplo, sip:bob@contoso.com).
+  - **Reenviar al correo de voz** Si selecciona esta opción, en **dirección SIP**, escriba una dirección de correo de voz con el formato sip:\<username>@\<domainname> (por ejemplo, sip:bob@contoso.com).
 
-  - **Reenviar al número de teléfono** Si selecciona esta opción, en dirección **SIP** escriba el número de teléfono con el formato sip: \<number> @ \<domainname> (por ejemplo, sip:+14255550121@contoso.com).
+  - **Reenviar al número de teléfono** Si selecciona esta opción, en dirección **SIP** escriba el número de teléfono con el formato sip:\<number>@\<domainname> (por ejemplo, sip:+14255550121@contoso.com).
 
-  - **Reenviar a la dirección SIP** Seleccione esta opción para reenviar la llamada a otro usuario. En **dirección SIP,** escriba el URI del usuario con el formato sip: \<username> @ \<domainname> .
+  - **Reenviar a la dirección SIP** Seleccione esta opción para reenviar la llamada a otro usuario. En **dirección SIP**, escriba el URI del usuario con el formato sip:\<username>@\<domainname>.
 
   - **Reenviar a otra cola** Si selecciona esta opción, vaya a la cola que va a recibir llamadas cuando las llamadas se alojen.
 
@@ -64,12 +59,12 @@ En la siguiente lista se describen los campos de la página.
 
   - **Desconectar**
 
-  - **Reenviar al correo de voz** Si selecciona esta opción, en **dirección SIP,** escriba una dirección de correo de voz con el formato sip: \<username> @ \<domainname> (por ejemplo, sip:bob@contoso.com).
+  - **Reenviar al correo de voz** Si selecciona esta opción, en **dirección SIP**, escriba una dirección de correo de voz con el formato sip:\<username>@\<domainname> (por ejemplo, sip:bob@contoso.com).
 
-  - **Reenviar al número de teléfono** Si selecciona esta opción, en dirección **SIP** escriba el número de teléfono con el formato sip: \<number> @ \<domainname> (por ejemplo, sip:+14255550121@contoso.com).
+  - **Reenviar al número de teléfono** Si selecciona esta opción, en dirección **SIP** escriba el número de teléfono con el formato sip:\<number>@\<domainname> (por ejemplo, sip:+14255550121@contoso.com).
 
-  - **Reenviar a la dirección SIP** Seleccione esta opción para reenviar la llamada a otro usuario. En **dirección SIP,** escriba el URI del usuario con el formato sip: \<username> @ \<domainname> .
+  - **Reenviar a la dirección SIP** Seleccione esta opción para reenviar la llamada a otro usuario. En **dirección SIP**, escriba el URI del usuario con el formato sip:\<username>@\<domainname>.
 
   - **Reenviar a otra cola** Si selecciona esta opción, vaya a la cola que va a recibir llamadas cuando se alcance el umbral de desbordamiento de cola.
 
-Para obtener más información sobre las características y capacidades del grupo de respuesta, [vea Plan for the Response Group application in Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación sobre planeación. Para obtener detalles sobre cómo trabajar con colas, vea [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) en la documentación de operaciones.
+Para obtener más información sobre las características y capacidades del grupo de respuesta, vea [Plan for the Response Group application in Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación sobre planeación. Para obtener detalles sobre cómo trabajar con colas, vea [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) en la documentación de operaciones.

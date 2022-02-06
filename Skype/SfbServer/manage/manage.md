@@ -1,25 +1,20 @@
 ---
 title: Administrar Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: 'Resumen: explore estos vínculos para obtener información sobre cómo administrar y mantener Skype Empresarial Server.'
-ms.openlocfilehash: 899d0b3b36c3ce7950f2a87bf7e3bc8027a35a08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841192"
 ---
+
 # <a name="manage-skype-for-business-server"></a>Administrar Skype Empresarial Server 
 
 **Resumen:** Explore estos vínculos para obtener información sobre cómo administrar y mantener Skype Empresarial Server.
@@ -32,7 +27,7 @@ Los autores los actualizan de forma constante a medida que disponen de nueva inf
 
 Vea los siguientes recursos para obtener información sobre cómo administrar Skype Empresarial Server.
   
-|&nbsp;|Contenido|Descripción|
+|&nbsp;|Contenido|Description|
 |:-----|:-----|:-----|
 |![Icono para diagramas técnicos.](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Diagramas técnicos para Skype Empresarial Server](../technical-diagrams.md)  |Consulte fácilmente las opciones de arquitectura en estos diagramas de formato grande.   |
 |![Icono para vídeos.](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|Demostraciones de vídeo y aprendizaje:  *¡próximamente!*   |Descubra presentaciones de vídeo y aprendizaje para Skype Empresarial Server.   |
@@ -41,7 +36,7 @@ Vea los siguientes recursos para obtener información sobre cómo administrar Sk
 
 Los siguientes artículos sobre cómo configurar, supervisar y mantener Skype Empresarial Server están disponibles para verlos en línea. 
   
-|&nbsp;|Contenido|Descripción|
+|&nbsp;|Contenido|Description|
 |:-----|:-----|:-----|
 |![Icono numérico how to.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Administrar la topología en Skype Empresarial Server](topology/topology.md)  |Los temas de esta sección proporcionan procedimientos paso a paso para actualizar, actualizar, agregar y quitar servidores mediante Skype Empresarial Server Panel de control y Skype Empresarial Server Shell de administración.   |
 |![Icono numérico how to.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Administrar el estado y la supervisión en Skype Empresarial Server](health-and-monitoring/health-and-monitoring.md)  |Los temas de esta sección proporcionan procedimientos paso a paso para las tareas de supervisión y configuración de estado que puede realizar con el Panel de control Skype Empresarial Server y el Shell de administración Skype Empresarial Server administración.   |

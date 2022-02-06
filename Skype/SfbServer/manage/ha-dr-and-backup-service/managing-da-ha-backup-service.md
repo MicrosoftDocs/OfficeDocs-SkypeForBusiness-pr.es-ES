@@ -1,23 +1,19 @@
 ---
-title: Administración de recuperación ante desastres, alta disponibilidad y servicio de copia de seguridad
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: 'Administración de recuperación ante desastres, alta disponibilidad y servicio de copia de seguridad'
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Obtenga información sobre los procedimientos para las operaciones de recuperación ante desastres, así como para mantener el servicio de copia de seguridad, que sincroniza los datos en grupos de servidores front-end emparejados.
-ms.openlocfilehash: 6d3eb3356c48a99974390f43bc0114d7d6507353
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849943"
+description: 'Obtenga información sobre los procedimientos para las operaciones de recuperación ante desastres, así como para mantener el servicio de copia de seguridad, que sincroniza los datos en grupos de servidores front-end emparejados.'
 ---
+
+
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Administración Skype Empresarial Server recuperación ante desastres, alta disponibilidad y servicio de copia de seguridad
 
 Esta sección contiene procedimientos para las operaciones de recuperación ante desastres, así como para mantener el servicio de copia de seguridad, que sincroniza los datos en grupos de servidores front-end emparejados.
@@ -26,7 +22,7 @@ Los procedimientos de recuperación ante desastres, tanto de conmutación por er
 
 Los procedimientos de recuperación ante desastres de esta sección suponen lo siguiente:
 
-  - Tiene una implementación con grupos de servidores front-end emparejados, ubicados en sitios diferentes, como se describe en [Plan for high availability and disaster recovery](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). El Servicio de copia de seguridad se ha estado ejecutando en estos grupos emparejados para mantenerlos sincronizados.
+  - Tiene una implementación con grupos de servidores front-end emparejados, ubicados en diferentes sitios, como se describe en [Plan for high availability and disaster recovery](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). El Servicio de copia de seguridad se ha estado ejecutando en estos grupos emparejados para mantenerlos sincronizados.
 
   - Si el almacén de administración central se hospeda en cualquiera de los grupos de servidores, se instala y se ejecuta en ambos grupos de servidores emparejados, con uno de esos grupos que hospeda el patrón activo y el otro grupo de servidores que hospeda la espera.
 
@@ -41,7 +37,7 @@ Los procedimientos de recuperación ante desastres de esta sección suponen lo s
 > <P>Si después el administrador desea llevar a cabo la conmutación por recuperación de los usuarios de P2 de vuelta a P2, el PoolFQDN será el FQDN de P2.</P></LI></OL><br>Observe que el paso 1 anterior se debe llevar a cabo antes que el paso 2 para mantener la integridad del grupo de servidores. Si intenta realizar el paso 2 antes que el paso 1, el cmdlet del paso 2 no se completará correctamente.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planear la alta disponibilidad y la recuperación ante desastres](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 
   

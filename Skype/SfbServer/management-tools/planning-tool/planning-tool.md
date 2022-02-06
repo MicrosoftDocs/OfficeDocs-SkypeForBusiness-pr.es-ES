@@ -1,26 +1,21 @@
 ---
 title: Skype Empresarial Server de planeación de 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Instrucciones sobre cómo usar la Skype Empresarial Server de planeación de 2015.
-ms.openlocfilehash: d88504af2935ad0143c7f7c1ca85f17e3f9c7c8b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845323"
 ---
+
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype Empresarial Server de planeación de 2015
  
 Instrucciones sobre cómo usar la Skype Empresarial Server de planeación de 2015.
@@ -31,7 +26,7 @@ En última instancia, el objetivo de la herramienta de planeación es facilitar 
   
 Después de personalizar la topología con las direcciones TCP/IP y los nombres de dominio completos (FQDN) de la infraestructura, la Herramienta de planeación pone a disposición una serie de informes que abarcan nombres del Sistema de nombres de dominio (DNS), reglas de firewall, certificados y mucho más. 
   
-El uso de esta herramienta es el primer paso para planear la implementación. El siguiente paso sería introducir los datos específicos de la información del sitio en la Calculadora de capacidad de [Skype Empresarial Server 2015,](https://www.microsoft.com/download/details.aspx?id=51196)ajustar según sea necesario y, a continuación, usar la Herramienta de esfuerzo y rendimiento de [Skype Empresarial Server 2015](https://www.microsoft.com/download/details.aspx?id=50367) para simular y comprobar que la implementación cumplirá sus necesidades.
+El uso de esta herramienta es el primer paso para planear la implementación. El siguiente paso sería introducir los datos específicos de la información del sitio en la calculadora de capacidad de [Skype Empresarial Server 2015](https://www.microsoft.com/download/details.aspx?id=51196), ajustar según sea necesario y, a continuación, usar la Herramienta de esfuerzo y rendimiento de [Skype Empresarial Server 2015](https://www.microsoft.com/download/details.aspx?id=50367) para simular y comprobar que la implementación se ajustará a sus necesidades.
   
 La herramienta de planeación también proporciona la capacidad de exportar información en dos formatos:
   
@@ -57,7 +52,7 @@ En los temas siguientes se presenta y se detalla la herramienta de planeación.
     
 - [Revisar los informes de administrador en Skype Empresarial Server 2015](review-the-administrator-reports.md)
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Instalar Skype Empresarial Server 2015](../../deploy/install/install.md)
   

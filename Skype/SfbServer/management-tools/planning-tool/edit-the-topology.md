@@ -1,26 +1,21 @@
 ---
 title: Editar la topología en Skype Empresarial Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
-description: Después de completar las preguntas de entrevista iniciales, puede editar el nombre de dominio completo (FQDN) y las direcciones IP del sitio. Para ello, en la página Topología global, haga clic con el botón secundario en el sitio que desea editar.
-ms.openlocfilehash: 698f7e5e94666a67dd01c55a877a037452fd58e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861197"
+description: 'Después de completar las preguntas de entrevista iniciales, puede editar el nombre de dominio completo (FQDN) y las direcciones IP del sitio. Para ello, en la página Topología global, haga clic con el botón secundario en el sitio que desea editar.'
 ---
+
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Editar la topología en Skype Empresarial Server 2015
 
 Después de completar las preguntas de entrevista iniciales, puede editar el nombre de dominio completo (FQDN) y las direcciones IP del sitio. Para ello, en la página **Topología global**, haga clic con el botón secundario en el sitio que desea editar.
@@ -45,7 +40,7 @@ La herramienta de planeación muestra la topología del sitio seleccionado. En l
 
   - Informe DNS: el informe DNS muestra información relevante para las entradas DNS que debe crear. También se incluye el tipo de registro, el FQDN, la dirección IP y los comentarios necesarios para que obtener un funcionamiento correcto.
 
-- Resumen del sitio: el resumen del sitio presenta una introducción a las selecciones realizadas respondiendo a las preguntas iniciales de la entrevista o rellenando los valores de **Sitios de diseño.** También se presenta información de capacidad.
+- Resumen del sitio: el resumen del sitio presenta una introducción a las selecciones realizadas respondiendo a las preguntas iniciales de la entrevista o rellenando los valores en **Sitios de diseño**. También se presenta información de capacidad.
 
     > [!NOTE]
     > La información de la página Resumen del sitio está personalizada para cada diseño y puede que no contenga todas las secciones o toda la información que se indica aquí.
@@ -73,15 +68,15 @@ Una característica útil de la herramienta de planeación es que puede asignar 
 
 2. Por ejemplo, el valor inicial del primer servidor es fe0101.contoso.com y una dirección IP de 192.168.21.122.
 
-3. Escriba fe0.contoso.com en FQDN del servidor **front-end**, escriba 192.168.21.131 en Dirección IP del servidor **front-end** y, a continuación, haga clic en **Aceptar**.
+3. Escriba fe0.contoso.com en **FQDN del servidor front-end**, escriba 192.168.21.131 en Dirección IP del servidor **front-end** y, a continuación, haga clic en **Aceptar**.
 
 4. La característica de incremento automático actualiza todos los servidores del grupo a fe01 a fe06 y todas las direcciones IP de 192.168.21.131 a 136.
 
 Después de completar todas las ediciones, guarde la topología completando los pasos siguientes:
 
-Para guardar el diseño de la herramienta de planeación, haga clic **en** Archivo y, a continuación, haga clic en Guardar topología **o** Guardar topología **como**. Si aparece el cuadro de diálogo **Guardar herramienta de planeación como**, escriba el nombre del archivo en **Nombre de archivo** y haga clic en **Guardar**.
+Para guardar el diseño de la herramienta de planeación, **haga clic en** Archivo y, a continuación, haga clic en Guardar **topología o** **Guardar topología como**. Si aparece el cuadro de diálogo **Guardar herramienta de planeación como**, escriba el nombre del archivo en **Nombre de archivo** y haga clic en **Guardar**.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="Edit_Network_diagram"> </a>
 
 [Edición del diseño](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)

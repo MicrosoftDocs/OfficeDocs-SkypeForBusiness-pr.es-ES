@@ -1,27 +1,22 @@
 ---
 title: Seleccionar cola de tiempo de espera
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.RgsSelTimeoutQueue
+  - ms.lync.lscp.RgsSelTimeoutQueue
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 description: Use el cuadro de diálogo Seleccionar una cola de tiempo de espera para seleccionar una cola en la que las llamadas se reenvíen cuando se agote el tiempo de espera.
-ms.openlocfilehash: ea85d8251a9d915d8c48d689ad147cb679a0dc27
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830364"
 ---
+
 # <a name="select-time-out-queue"></a>Seleccionar cola de tiempo de espera
  
 Use el cuadro de diálogo **Seleccionar una cola de tiempo de espera** para seleccionar una cola en la que las llamadas se reenvíen cuando se agote el tiempo de espera.

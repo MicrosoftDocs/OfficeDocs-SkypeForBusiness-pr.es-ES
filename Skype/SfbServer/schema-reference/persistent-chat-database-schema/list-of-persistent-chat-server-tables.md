@@ -1,25 +1,20 @@
 ---
 title: Lista de tablas de servidores de chat persistente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: El esquema de base de datos de chat persistente consta de las tablas siguientes.
-ms.openlocfilehash: 12ac90c909693678595d6ba53c5f834ac552e8a7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848313"
 ---
+
 # <a name="list-of-persistent-chat-server-tables"></a>Lista de tablas de servidores de chat persistente
  
 El esquema de base de datos de chat persistente consta de las tablas siguientes.

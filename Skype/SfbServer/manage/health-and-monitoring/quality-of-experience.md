@@ -1,24 +1,19 @@
 ---
 title: Calidad de la experiencia (QoE) en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 description: 'Resumen: Administrar la calidad de la experiencia (QoE) en Skype Empresarial Server.'
-ms.openlocfilehash: b8b50567efcc46cc1938174e150754313b0690e1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828783"
 ---
+
 # <a name="quality-of-experience-qoe-in-skype-for-business-server"></a>Calidad de la experiencia (QoE) en Skype Empresarial Server
  
 **Resumen:** Administrar la calidad de la experiencia (QoE) en Skype Empresarial Server.
@@ -37,6 +32,6 @@ La calidad de la experiencia (QoE) registra datos numéricos que indican la cali
     
 - [Purgar manualmente el registro detallado de llamadas y las bases de datos de calidad de la experiencia en Skype Empresarial Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar la grabación detallada de llamadas y la configuración de calidad de la experiencia en Skype Empresarial Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)

@@ -1,24 +1,19 @@
 ---
 title: Informe de voz y vídeo punto a punto en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: 'Summary: Learn about the Peer-to-Peer Voice and Video Report in Skype Empresarial Server.'
-ms.openlocfilehash: 61065578ea67ba3ec5004d517482c8c449216a0c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836332"
 ---
+
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Informe de voz y vídeo punto a punto en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre el informe de voz y vídeo punto a punto en Skype Empresarial Server.
@@ -47,7 +42,7 @@ Solo puede obtener acceso al informe de voz y vídeo punto a punto abriendo el I
     
 ## <a name="to-make-the-best-use-of-the-peer-to-peer-voice-and-video-report"></a>Para aprovechar al máximo el informe de voz y vídeo punto a punto
 
-Hay varias formas de filtrar el informe de voz y vídeo punto a punto. Sin embargo, estas opciones de filtrado están ocultas de la vista de forma predeterminada. Para ver las opciones de filtrado disponibles, haga clic en el botón **Mostrar u** ocultar parámetros de la esquina superior derecha de la ventana Informe.
+Hay varias formas de filtrar el informe de voz y vídeo punto a punto. Sin embargo, estas opciones de filtrado están ocultas de la vista de forma predeterminada. Para ver las opciones de filtrado disponibles, haga clic en el botón **Mostrar u ocultar parámetros** de la esquina superior derecha de la ventana Informe.
   
 ## <a name="filters"></a>Filtros
 

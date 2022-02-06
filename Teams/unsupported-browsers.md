@@ -1,36 +1,31 @@
 ---
 title: Microsoft Teams reuniones en exploradores no compatibles
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 MS.collection:
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: nakulm
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre Teams audio y vídeo en exploradores no compatibles.
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 51ba0ede8df0548288b2519d76220f50f28e4abe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837452"
+  - Microsoft Teams
 ---
+
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams reuniones en exploradores no compatibles
 
 Algunos exploradores, como Internet Explorer 11, Safari y Firefox, admiten la aplicación web Microsoft Teams pero no admiten algunas de las características de Teams llamadas y reuniones. Para evitar esta limitación, la aplicación web Teams permite a los usuarios recibir audio a través de una conexión RTC y les permite ver el contenido presentado (uso compartido de pantalla) a una velocidad de visualización reducida.
 
 > [!Note]
-> Microsoft 365 aplicaciones y servicios no admitirán Internet Explorer 11 a partir del 17 de agosto de 2021 (Microsoft Teams no admitirá Internet Explorer 11 anteriormente, a partir del 30 de noviembre de 2020). [Más información](https://aka.ms/AA97tsw). Tenga en cuenta que Internet Explorer 11 seguirá siendo un navegador compatible. Internet Explorer 11 es un componente del [](/lifecycle/faq/internet-explorer-microsoft-edge) Windows operativo y sigue la directiva de ciclo de vida del producto en el que está instalado.
+> Microsoft 365 aplicaciones y servicios no admitirán Internet Explorer 11 a partir del 17 de agosto de 2021 (Microsoft Teams no admitirá Internet Explorer 11 anteriormente, a partir del 30 de noviembre de 2020). [Más información](https://aka.ms/AA97tsw). Tenga en cuenta que Internet Explorer 11 seguirá siendo un navegador compatible. Internet Explorer 11 es un componente del sistema operativo Windows y sigue la directiva de ciclo [](/lifecycle/faq/internet-explorer-microsoft-edge) de vida del producto en el que está instalado.
 
-Cuando Teams un explorador no compatible, muestra automáticamente un mensaje que explica el problema y las limitaciones de la sesión. El mensaje proporciona instrucciones adicionales para obtener acceso al audio de la reunión, como aconsejar al usuario que deje un número de llamada para que Teams pueda llamar al usuario, o indicar al usuario que llame al número de conferencia incluido en la invitación a la reunión. El mensaje también anima al usuario a descargar y usar el Teams de escritorio [para](https://teams.microsoft.com/downloads) disfrutar de la experiencia Teams usuario.
+Cuando Teams un explorador no compatible, muestra automáticamente un mensaje que explica el problema y las limitaciones de la sesión. El mensaje proporciona instrucciones adicionales para obtener acceso al audio de la reunión, como aconsejar al usuario que deje un número de llamada para que Teams pueda llamar al usuario, o indicar al usuario que llame al número de conferencia incluido en la invitación a la reunión. El mensaje también anima al usuario a descargar y usar el Teams [de escritorio para](https://teams.microsoft.com/downloads) disfrutar de la experiencia Teams usuario.
 
 Si rtc no está disponible, el usuario no verá las instrucciones para acceder a la reunión y no podrá unirse a la reunión.
 
@@ -46,7 +41,7 @@ Las personas que usan la Teams web en exploradores no admitidos experimentarán 
 - Si la llamada se interrumpe, la reunión no se volverá a conectar automáticamente.
 - Los usuarios no pueden iniciar reuniones.
 
-Para obtener más información sobre el soporte del explorador en Teams, vea [Límites y especificaciones para Teams](./limits-specifications-teams.md#browsers).
+Para obtener más información sobre el soporte del explorador Teams, vea [Límites y especificaciones para Teams](./limits-specifications-teams.md#browsers).
 
 ## <a name="related-topics"></a>Temas relacionados
 

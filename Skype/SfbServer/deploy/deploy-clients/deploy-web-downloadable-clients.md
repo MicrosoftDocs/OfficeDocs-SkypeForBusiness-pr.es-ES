@@ -1,34 +1,29 @@
 ---
 title: Implementar clientes descargables web en Skype Empresarial Server
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Summary: Deploy the aplicación web de Skype Empresarial and Skype Meetings App used with Skype Empresarial.'
-ms.openlocfilehash: abb0a24d234043d793b09a538cbff23d0d549ac0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842502"
 ---
+
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Implementar clientes descargables web en Skype Empresarial Server
 
 **Resumen:** Implemente la Skype Empresarial web de 2015 y la aplicación Skype reuniones que se usa con Skype Empresarial Server.
 
-aplicación web de Skype Empresarial es un cliente web de Internet Information Services (IIS) que está instalado en el servidor que ejecuta Skype Empresarial Server y, de forma predeterminada, se implementa a petición para los usuarios que aún no tienen el cliente Skype Empresarial. Estos usuarios de reuniones suelen no conectarse desde fuera de la red. Cada vez que un usuario hace clic en una dirección URL de reunión pero no tiene instalado el cliente de Skype Empresarial, el usuario se presenta con la opción de unirse a la reunión mediante la versión más reciente de aplicación web de Skype Empresarial, Skype Meetings App o Skype Empresarial para Mac.
+aplicación web de Skype Empresarial es un cliente web de Internet Information Services (IIS) que está instalado en el servidor que ejecuta Skype Empresarial Server y, de forma predeterminada, se implementa a petición para los usuarios que aún no tienen el Skype Empresarial cliente. Estos usuarios de reuniones suelen no conectarse desde fuera de la red. Cada vez que un usuario hace clic en una dirección URL de reunión pero no tiene instalado el cliente de Skype Empresarial, el usuario se presenta con la opción de unirse a la reunión mediante la versión más reciente de aplicación web de Skype Empresarial, Skype Meetings App o Skype Empresarial para Mac.
 
 Las características de voz, vídeo y uso compartido de aplicación web de Skype Empresarial requieren un control de microsoft ActiveX que el explorador del usuario usa como complemento. Puede instalar el control ActiveX por adelantado o permitir que los usuarios lo instalen cuando se le pida, lo que ocurre la primera vez que usan aplicación web de Skype Empresarial o la primera vez que acceden a una característica que requiere el control ActiveX.
 
 > [!NOTE]
-> En Skype Empresarial Server de servidor perimetral, se requiere un proxy inverso HTTPS en la red perimetral para el aplicación web de Skype Empresarial cliente. También debe publicar direcciones URL sencillas. Para obtener más información, vea [Setting Up Reverse Proxy Servers](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-reverse-proxy-servers) and DNS requirements for simple [URLs in Skype Empresarial Server](../../plan-your-deployment/network-requirements/simple-urls.md).
+> En Skype Empresarial Server de servidor perimetral, se requiere un proxy inverso HTTPS en la red perimetral para el aplicación web de Skype Empresarial cliente. También debe publicar direcciones URL sencillas. Para obtener más información, consulte [Configuración de servidores proxy inversos](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-reverse-proxy-servers) y requisitos dns para direcciones URL sencillas [en Skype Empresarial Server](../../plan-your-deployment/network-requirements/simple-urls.md).
 
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Habilitar la autenticación multifactor para aplicación web de Skype Empresarial
 <a name="MFA"> </a>
@@ -82,7 +77,7 @@ Para obtener más información sobre cómo deshabilitar BranchCache, consulte la
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>Comprobación de aplicación web de Skype Empresarial implementación
 <a name="MFA"> </a>
 
-Puede usar el cmdlet Test-CsUcwaConference para comprobar que un par de usuarios de prueba puedan participar en una conferencia mediante la API web de comunicaciones unificadas (UCWA). Para obtener más información acerca de este cmdlet, vea [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) en la documentación Skype Empresarial Server Shell de administración.
+Puede usar el cmdlet Test-CsUcwaConference para comprobar que un par de usuarios de prueba puedan participar en una conferencia mediante la API web de comunicaciones unificadas (UCWA). Para obtener más información acerca de este cmdlet, consulte [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) en la Skype Empresarial Server del Shell de administración.
 
 ## <a name="troubleshooting-plug-in-installation-on-windows-server-2008-r2"></a>Solución de problemas de instalación de complementos en Windows Server 2008 R2
 <a name="MFA"> </a>
@@ -93,7 +88,7 @@ Si se produce un error en la instalación del complemento en un equipo que ejecu
 
 1. Abra Internet Explorer.
 
-2. Haga **clic en Herramientas**, en Opciones de **Internet** y, a continuación, en **Opciones avanzadas.**
+2. Haga **clic en Herramientas**, en **Opciones de Internet** y, a continuación, en **Opciones avanzadas**.
 
 3. Desplácese hacia abajo hasta la **sección** Seguridad.
 
@@ -135,7 +130,7 @@ Este procedimiento es opcional y se aplica a Skype Empresarial Server 2015 CU5 y
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    La información enviada a Microsoft cumple estrictamente con Skype Empresarial [prácticas de recopilación de datos](/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    La información enviada a Microsoft se cumple estrictamente con Skype Empresarial [prácticas de recopilación de datos](/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Establezca el tiempo de espera antes de volver a la experiencia de aplicación web de Skype Empresarial local si CDN no está disponible. El valor predeterminado es 6 segundos. Si este valor se establece en 0, no habrá tiempo de espera.
 
@@ -144,10 +139,10 @@ Este procedimiento es opcional y se aplica a Skype Empresarial Server 2015 CU5 y
    ```
 
 > [!NOTE]
-> Con MeetingUxUseCdn en Skype Empresarial Server 2015 Cumulative Update 5, el valor predeterminado se establece en False. Esto provoca un problema en el que Skype Empresarial para Mac cliente no puede unirse a reuniones de socios no federados como invitado, incluso si Skype Empresarial Admin ha establecido MeetingUxUseCdn en True. Para que esto funcione, Skype Empresarial Server 2015 debe tener la actualización acumulativa 7, 6.0.9319.534 o posterior. Consulta [Habilitar la Skype reuniones para reemplazar aplicación web de Skype Empresarial en Skype Empresarial Server 2015](https://support.microsoft.com/kb/4132312).
+> Con MeetingUxUseCdn en Skype Empresarial Server 2015 Cumulative Update 5, el valor predeterminado se establece en False. Esto provoca un problema en el que Skype Empresarial para Mac cliente no puede unirse a reuniones de socios no federados como invitado, incluso si Skype Empresarial Admin ha establecido MeetingUxUseCdn en True. Para que esto funcione, Skype Empresarial Server 2015 debe tener la actualización acumulativa 7, 6.0.9319.534 o posterior. Consulta [Habilitar la aplicación Skype reuniones para reemplazar aplicación web de Skype Empresarial en Skype Empresarial Server 2015](https://support.microsoft.com/kb/4132312).
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="SMA_Enable"> </a>
 
 [Plan for Meetings clients (Web App and Meetings App)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)

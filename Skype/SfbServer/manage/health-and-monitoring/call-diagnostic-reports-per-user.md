@@ -1,39 +1,34 @@
 ---
 title: Informes de diagnóstico de llamadas (por usuario) en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 'Resumen: obtenga información sobre los informes de diagnóstico de llamadas por usuario usados en Skype Empresarial Server.'
-ms.openlocfilehash: 03b3afba9a9177bc1628c100ca5083f1be96b48e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864857"
 ---
+
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Informes de diagnóstico de llamadas (por usuario) en Skype Empresarial Server
   
-Los informes de diagnósticos de llamadas ofrecen información usuario por usuario sobre sesiones de conferencia y punto a punto con errores. En este momento solo hay un informe, el **Informe de actividad del usuario**.
+Los informes de diagnósticos de llamadas ofrecen información usuario por usuario sobre sesiones de conferencia y punto a punto con errores. En este momento solo hay un informe, el **informe de actividad del usuario**.
 
 El Informe de actividad de usuario proporciona una lista detallada de sesiones de conferencia y de punto a punto realizadas por sus usuarios en un período determinado. A diferencia de muchos de los Informes de supervisión, el Informe de actividad de usuario une cada llamada a usuarios individuales. Por ejemplo, las sesiones de punto a punto especifican los URI del SIP de la persona que inició la llamada (el usuario De) y la persona a la que se realizó la llamada (el usuario Para). Si expande la información de una conferencia, verá una lista de todos los participantes de la conferencia y el rol que desempeñaban en esa conferencia.
 
 Al Informe de actividad de usuario a veces se lo conoce como "informe de asistencia técnica", debido a que a menudo el personal de asistencia técnica lo utiliza para recuperar información de sesión para un usuario específico. Es posible establecer filtros para llamadas realizadas a o por un usuario particular con tan solo escribir el URI del SIP del usuario en el cuadro de prefijo de URI del usuario.
 
-Si lo hace, el Informe de actividad del usuario devolverá información para cualquier usuario cuyo URI de SIP comience con la cadena especificada. Por ejemplo, si escribe **ken en** el cuadro URI, el Informe de actividad de usuario localizará **Ken**. Myer@litwareinc.com. Sin embargo, también localizará estos usuarios:
+Si lo hace, el Informe de actividad del usuario devolverá información para cualquier usuario cuyo URI de SIP comience con la cadena especificada. Por ejemplo, si escribe **ken en** el cuadro URI, el Informe de actividad de usuario localizará **Ken.Myer@litwareinc.com**. Sin embargo, también localizará estos usuarios:
 
 - **ken** azi@litwareinc.com
 
 - **ken** burg@litwareinc.com
 
-- **Ken**. Sanchez@litwareinc.com
+- **Ken.Sanchez@litwareinc.com**
 
 - **Ken** nedy@litwareinc.com
 
@@ -43,7 +38,7 @@ Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>Acceso al informe de actividad de usuario
 
-Para acceder al Informe de actividad de usuario hay que ir a la página de inicio de Informes de supervisión. También puede llegar al Informe de actividad de usuario haciendo clic en la métrica URI de usuario en el Informe de inventario de ip [Teléfono en Skype Empresarial Server](ip-phone-inventory-report.md). Desde el Informe de actividad de usuario, puede hacer clic en el URI de conferencia (para una conferencia) para acceder al Informe de detalles de conferencia. Del mismo modo, al hacer clic en la métrica Detail de una llamada punto a punto, se muestra el Informe de detalles de sesión punto a [punto en Skype Empresarial Server](peer-to-peer-session-detail-report.md).
+Para acceder al Informe de actividad de usuario hay que ir a la página de inicio de Informes de supervisión. También puede llegar al Informe de actividad de usuario haciendo clic en la métrica URI de usuario en el Informe de inventario de ip [Teléfono en Skype Empresarial Server](ip-phone-inventory-report.md). Desde el Informe de actividad de usuario, puede hacer clic en el URI de conferencia (para una conferencia) para acceder al Informe de detalles de conferencia. Del mismo modo, al hacer clic en la métrica Detalle de una llamada punto a punto, se le llevará al Informe de detalles de sesión punto a [punto en Skype Empresarial Server](peer-to-peer-session-detail-report.md).
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>Aprovechar al máximo el informe de actividad del usuario
 

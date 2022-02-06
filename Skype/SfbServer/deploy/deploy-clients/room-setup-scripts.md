@@ -1,25 +1,20 @@
 ---
-title: Skype Scripts de configuración de sala del sistema de sala de sala
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype scripts de configuración de sala del sistema de sala de sala
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: Lea este tema para encontrar scripts de ejemplo para aprovisionar Skype de sistema de sala.
-ms.openlocfilehash: ef70cc0c36cf4a1434b0ca1e120a8d81799d7640
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859637"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Skype Scripts de configuración de sala del sistema de sala de sala
+
+# <a name="skype-room-system-room-setup-scripts"></a>Skype scripts de configuración de sala del sistema de sala de sala
  
 Lea este tema para encontrar scripts de ejemplo para aprovisionar Skype de sistema de sala.
   
@@ -47,7 +42,7 @@ Asegúrese de haber revisado los siguientes requisitos previos antes de ejecutar
     
 - Windows Azure Active Directory módulo para Windows PowerShell (versión de 64 bits) o (versión de 32 bits)
     
-- Teams Módulo de PowerShell
+- Teams módulo de PowerShell
     
 - Reiniciar si es necesario
     

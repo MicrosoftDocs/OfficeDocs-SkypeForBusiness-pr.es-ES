@@ -1,24 +1,19 @@
 ---
 title: Crear opciones de configuración de reunión en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 'Summary: Learn how to create meeting configuration settings in Skype Empresarial Server.'
-ms.openlocfilehash: 1b0ba956e467f5b03036d8ef1d1629b4fc4dc517
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850033"
 ---
+
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Crear opciones de configuración de reunión en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo crear opciones de configuración de reuniones en Skype Empresarial Server.
@@ -31,7 +26,7 @@ Puede crear opciones de configuración de reuniones mediante Skype Empresarial S
     
 2.  Abra Skype Empresarial Server Panel de control.
     
-3. En la barra de navegación izquierda, haga clic **en Conferencia y,** a continuación, haga clic en **Configuración de reunión.**
+3. En la barra de navegación izquierda, haga clic **en Conferencia y**, a continuación, haga clic en **Configuración de reunión**.
     
 4. En la página **Configuración de reunión**, haga clic en **Nueva** y después realice una de las siguientes acciones:
     
@@ -67,7 +62,7 @@ Puede crear opciones de configuración de reuniones mediante Skype Empresarial S
     
 ## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Crear opciones de configuración de reuniones mediante Skype Empresarial Server Shell de administración
 
-Para crear opciones de configuración de reunión, use el cmdlet **New-CsMeetingConfiguration.**
+Para crear opciones de configuración de reunión, use el cmdlet **New-CsMeetingConfiguration** .
   
 El siguiente comando crea un nuevo conjunto de opciones de configuración de reunión para el sitio redmond:
   
@@ -89,4 +84,4 @@ Se pueden establecer varios valores de propiedad mediante la inclusión de vario
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-Para obtener más información, incluida una lista completa de parámetros, [vea New-CsMeetingConfiguration](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).
+Para obtener más información, incluida una lista completa de parámetros, vea [New-CsMeetingConfiguration](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).

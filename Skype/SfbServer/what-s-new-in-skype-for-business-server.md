@@ -1,29 +1,24 @@
 ---
 title: Novedades de Skype Empresarial Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2017
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
-description: "Summary: Read this topic to learn about new features in Skype Empresarial Server 2015. Para obtener información detallada acerca de la nueva experiencia del cliente, vea Lync is now Skype Empresarial-- see what's new."
-ms.openlocfilehash: d0ef9ff1790eba546dd54a9fa78c9f63f2b532f4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829754"
+description: 'Summary: Read this topic to learn about new features in Skype Empresarial Server 2015. Para obtener información detallada acerca de la nueva experiencia del cliente, vea Lync is now Skype Empresarial-- see what''s new.'
 ---
+
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Novedades de Skype Empresarial Server 2015
 
-**Resumen:** Lea este tema para obtener información sobre las nuevas características de Skype Empresarial Server 2015. Para obtener información detallada acerca de la nueva experiencia de cliente, [vea Lync is now Skype Empresarial -- see what's new](https://go.microsoft.com/fwlink/p/?LinkId=529022).
+**Resumen:** Lea este tema para obtener información sobre las nuevas características de Skype Empresarial Server 2015. Para obtener información detallada acerca de la nueva experiencia del cliente, [vea Lync is now Skype Empresarial-- see what's new](https://go.microsoft.com/fwlink/p/?LinkId=529022).
   
 Lync es ahora Skype Empresarial, una plataforma de comunicaciones y colaboración que reúne una experiencia inspirada en Skype con la seguridad, el cumplimiento y el control de Lync de nivel empresarial. Skype Empresarial ofrece características como presencia, mensajería instantánea, llamadas de voz y vídeo y reuniones en línea. Skype Empresarial proporciona una nueva experiencia de cliente, una nueva versión del servidor y actualizaciones del servicio en Microsoft 365 o Office 365. Si los usuarios de la organización ya están familiarizados con Skype, apreciarán la potencia y la simplicidad de Skype Empresarial donde es fácil encontrar y conectarse con compañeros de trabajo. Si los usuarios de su organización vienen a Skype Empresarial de Lync, reconocerán todas las características que ya usan, pero en una nueva interfaz nueva con controles simplificados y nuevas adiciones. Además de la nueva experiencia de cliente, Skype Empresarial Server 2015 proporciona varias características nuevas para mejorar la capacidad de administración de los servidores locales y las soluciones híbridas.
   
@@ -40,7 +35,7 @@ Las nuevas características de Skype Empresarial Server 2015 incluyen mejoras en
 
 El Skype Empresarial cliente es muy similar a la versión de consumidor de Skype y usa los mismos botones e iconos. Menos menús y una jerarquía de tareas más plana facilita a los usuarios encontrar rápidamente los controles y comandos que necesitan. 
   
-Skype Empresarial incluye la nueva experiencia de usuario descrita anteriormente y la experiencia de usuario de Lync 2013 publicada anteriormente. La inclusión de ambas experiencias permite a las empresas administrar los cambios para sus usuarios mediante el control del proceso y el tiempo de lanzamiento del nuevo cliente. La experiencia de usuario predeterminada depende de la versión del servidor que use. Los administradores eligen la experiencia preferida mediante el cmdlet **Set-CsClientPolicy** con el parámetro EnableSkypeUI. Para obtener más información acerca de cómo configurar la experiencia del cliente, vea [Configure the client experience with Skype Empresarial](deploy/deploy-clients/configure-the-client-experience.md) and Desktop client feature comparison for [Skype Empresarial](plan-your-deployment/clients-and-devices/desktop-feature-comparison.md).
+Skype Empresarial incluye la nueva experiencia de usuario descrita anteriormente y la experiencia de usuario de Lync 2013 publicada anteriormente. La inclusión de ambas experiencias permite a las empresas administrar los cambios para sus usuarios mediante el control del proceso y el tiempo de lanzamiento del nuevo cliente. La experiencia de usuario predeterminada depende de la versión del servidor que use. Los administradores eligen la experiencia preferida mediante el cmdlet **Set-CsClientPolicy** con el parámetro EnableSkypeUI. Para obtener más información acerca de cómo configurar la experiencia del cliente, vea [Configure the client experience with Skype Empresarial](deploy/deploy-clients/configure-the-client-experience.md) and [Desktop client feature comparison for Skype Empresarial](plan-your-deployment/clients-and-devices/desktop-feature-comparison.md).
   
 > [!NOTE]
 > La experiencia de cliente de Lync 2013 no es una opción para Skype Empresarial de cliente de 2016. Antes de intentar configurar el entorno de cliente para que use el cliente de Lync 2013, compruebe la versión del cliente para asegurarse de que no comienza con el número 16; por ejemplo: 16.x.x.x. 
@@ -120,15 +115,15 @@ Cuando necesite aplicar una revisión o realizar cualquier otro mantenimiento a 
   
 ### <a name="improved-front-end-pool-cold-start-capability"></a>Funcionalidad de inicio en frío del grupo front-end mejorada
 
-Skype Empresarial Server presenta un nuevo cmdlet que simplifica y mejora el proceso de inicio en frío de un grupo de servidores front-end completo. Al usar el nuevo cmdlet **Start-CsPool,** comprueba los requisitos previos de todos los servidores front-end del grupo y, a continuación, intenta iniciar cada servidor. Si encuentra algún problema, los diagnostica y le avisa con detalles y soluciones alternativas. En algunos casos, permite iniciar el grupo incluso si algunos de los servidores individuales no pueden iniciarse.
+Skype Empresarial Server presenta un nuevo cmdlet que simplifica y mejora el proceso de inicio en frío de un grupo de servidores front-end completo. Al usar el nuevo cmdlet **Start-CsPool** , comprueba los requisitos previos de todos los servidores front-end del grupo y, a continuación, intenta iniciar cada servidor. Si encuentra algún problema, los diagnostica y le avisa con detalles y soluciones alternativas. En algunos casos, permite iniciar el grupo incluso si algunos de los servidores individuales no pueden iniciarse.
   
-### <a name="sql-server-alwayson-support-for-on-premises-servers"></a>SQL Server Compatibilidad con AlwaysOn para servidores locales
+### <a name="sql-server-alwayson-support-for-on-premises-servers"></a>SQL Server compatibilidad con AlwaysOn para servidores locales
 
 Skype Empresarial Server 201 SQL Server 5 agrega compatibilidad con los grupos de disponibilidad AlwaysOn y SQL Server de clúster de conmutación por error AlwaysOn. Además de estas características, Skype Empresarial Server compatibilidad con la creación de reflejo de bases de datos y SQL Server clústeres, como en versiones anteriores de Lync Server.
   
 SQL Server AlwaysOn Availability Groups es una solución de alta disponibilidad y recuperación ante desastres en SQL Server 2012 y SQL Server 2014 que proporciona una alternativa a la creación de reflejo de la base de datos. Un grupo de disponibilidad admite un entorno de conmutación por error para un conjunto discreto de bases de datos (conocidas como bases de datos de disponibilidad) que conmutan por error juntos. Un grupo de disponibilidad admite un conjunto de bases de datos principales de lectura y escritura y de uno a cuatro conjuntos de bases de datos secundarias correspondientes. Opcionalmente, las bases de datos secundarias pueden estar disponibles para el acceso de solo lectura y para algunas operaciones de copia de seguridad.
   
-SQL Server Las instancias de clúster de conmutación por error aprovechan Windows funcionalidad de clústeres de conmutación por error de servidor (WSFC) para proporcionar alta disponibilidad local mediante redundancia en el nivel de instancia de servidor: una instancia de clúster de conmutación por error (FCI). Una FCI es una única instancia de SQL Server que se instala en Windows nodos de clústeres de conmutación por error de servidor (WSFC) y, posiblemente, en varias subredes.
+SQL Server instancias de clúster de conmutación por error aprovechan la funcionalidad de clústeres de conmutación por error de Windows (WSFC) para proporcionar alta disponibilidad local mediante redundancia en el nivel de instancia de servidor: una instancia de clúster de conmutación por error (FCI). Una FCI es una única instancia de SQL Server que se instala en Windows nodos de clústeres de conmutación por error de servidor (WSFC) y, posiblemente, en varias subredes.
   
 Para obtener más información, vea [Plan for high availability and disaster recovery in Skype Empresarial Server 2015](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
@@ -140,7 +135,7 @@ Skype Empresarial Server 2015 usa Windows PowerShell cmdlets para administrar lo
   
 El servicio de registro centralizado puede ejecutarse en cualquier Skype Empresarial Server 2015. Los escenarios integrados (seguimientos predefinidos) siguen siendo los mismos, al igual que la capacidad de crear escenarios personalizados. Hay un escenario especial denominado AlwaysOn que siempre se está ejecutando y permite a los administradores localizar problemas comunes casi en tiempo real.
   
-La herramienta de depuración Snooper también se ha actualizado para permitir la depuración de registros de movilidad y funcionará con dispositivos que se conecten a Lync 2013 o Skype Empresarial Server 2015. La herramienta está disponible como descarga web desde [herramientas de depuración.](https://go.microsoft.com/fwlink/?LinkId=285257)
+La herramienta de depuración Snooper también se ha actualizado para permitir la depuración de registros de movilidad y funcionará con dispositivos que se conecten a Lync 2013 o Skype Empresarial Server 2015. La herramienta está disponible como descarga web desde [herramientas de depuración](https://go.microsoft.com/fwlink/?LinkId=285257).
   
 ## <a name="hybrid-deployment-and-management"></a>Implementación y administración híbridas
 

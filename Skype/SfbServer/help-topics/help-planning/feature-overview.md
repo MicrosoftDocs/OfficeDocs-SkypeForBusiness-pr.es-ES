@@ -1,29 +1,24 @@
 ---
-title: Skype Empresarial Server Herramienta de planeación de información general de características
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype Empresarial Server de planeación de información general de características
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.FeatureOverview
-- ms.lync.plan.FeatureOverview
+  - ms.lync.plan.FeatureOverview
+  - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Información sobre la herramienta de planeación Skype Empresarial Server de características.
-ms.openlocfilehash: ac759dab4000ebdbe969b2d7436cbb46c408dc38
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848883"
 ---
-# <a name="skype-for-business-server-feature-overview-planning-tool"></a>Skype Empresarial Server Herramienta de planeación de información general de características
+
+# <a name="skype-for-business-server-feature-overview-planning-tool"></a>Skype Empresarial Server de planeación de información general de características
  
 Skype Empresarial Server de planeación de 2015
   
@@ -87,7 +82,7 @@ Los elementos restantes se han rellenado con las respuestas que proporcionó a l
     
 - **Buzón de Exchange W15**
     
-    Skype Empresarial Server 2015 permite tener mensajes de correo de voz almacenados en Exchange mensajería unificada (UM); esos mensajes de correo de voz aparecerán como mensajes de correo electrónico en las bandejas de entrada de los usuarios.
+    Skype Empresarial Server 2015 permite que los mensajes de correo de voz se almacenen en la mensajería unificada (UM) de Exchange; esos mensajes de correo de voz aparecerán como mensajes de correo electrónico en las bandejas de entrada de los usuarios.
     
 ### <a name="voice"></a>Voz
 
@@ -99,11 +94,11 @@ Los elementos restantes se han rellenado con las respuestas que proporcionó a l
     
 - **Mensajería unificada de Exchange**
     
-    Exchange La mensajería unificada (MU) combina el correo de voz y el correo electrónico en una única infraestructura de mensajería. Skype Empresarial Server 2015 usa Exchange mensajería unificada para proporcionar servicios de contestación de llamadas, acceso de suscriptor, notificación de llamadas y operador automático. Si usa estos servicios, deberá integrar Exchange mensajería unificada y Skype Empresarial Server en una topología compartida de Active Directory.
+    Exchange mensajería unificada (UM) combina el correo de voz y el correo electrónico en una única infraestructura de mensajería. Skype Empresarial Server 2015 usa Exchange mensajería unificada para proporcionar servicios de contestación de llamadas, acceso de suscriptor, notificación de llamadas y operador automático. Si usa estos servicios, deberá integrar Exchange mensajería unificada y Skype Empresarial Server en una topología compartida de Active Directory.
     
 ### <a name="additional-deployment-options"></a>Opciones de implementación adicionales
 
- **Las opciones de implementación adicionales** contienen las siguientes opciones:
+ **Las opciones de implementación** adicionales contienen las siguientes opciones:
   
 - **Alta disponibilidad**
     
@@ -121,7 +116,7 @@ Los elementos restantes se han rellenado con las respuestas que proporcionó a l
     
     El archivado almacena conversaciones y conferencias de mensajería instantánea.
     
-- **Exchange Integración de archivado**
+- **Exchange integración de archivado**
     
     Si tiene usuarios que se encuentran en Exchange 2013 y sus buzones se han puesto en retención In-Place, puede seleccionar la opción para integrar el almacenamiento de Skype Empresarial Server 2015 con Exchange almacenamiento.
     

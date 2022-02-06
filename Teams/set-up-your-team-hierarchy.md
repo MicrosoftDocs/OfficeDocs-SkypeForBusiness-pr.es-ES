@@ -1,33 +1,28 @@
 ---
 title: Configurar la jerarquía de destinos de equipo
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: andfried, acolonna
+ms.reviewer: 'andfried, acolonna'
 search.appverid: MET150
 description: Obtenga información sobre cómo configurar una jerarquía de equipos en su organización para publicar contenido en un gran conjunto de equipos.
 audience: admin
 ms.localizationpriority: medium
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_Help
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: f65ffa8fa6dc661451669ded8f407bb519468112
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850556"
+  - Microsoft Teams
 ---
+
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar la jerarquía de destinos de equipo
 
 Configurar una jerarquía de segmentación de equipos permitirá a su organización publicar contenido en un gran conjunto de equipos. La jerarquía de segmentación de equipos define cómo todos los equipos de la jerarquía están relacionados entre sí, qué usuarios pueden publicar tareas y en qué equipos los usuarios tienen permisos para publicar. Las características de publicación están deshabilitadas para todos los usuarios, a menos que se configure una jerarquía de segmentación de equipos para su organización. Para configurar una jerarquía de segmentación de equipos, deberá crear un archivo que defina la jerarquía y, después, cargarlo en Teams para aplicarlo a su organización. Después de cargar el esquema, las aplicaciones de Teams pueden usarlo.
 
 > [!IMPORTANT]
-> Para la versión inicial, solo la aplicación Tareas admite equipos jerárquicos.  Aplicar una jerarquía de segmentación de equipos a su organización habilitará la publicación [de tareas](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) en la aplicación Tareas. No verá una jerarquía de equipos en otras áreas de Microsoft Teams.
+> Para la versión inicial, solo la aplicación Tareas admite equipos jerárquicos.  Aplicar una jerarquía de segmentación de equipos a su organización habilitará [la publicación de tareas](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) en la aplicación Tareas. No verá una jerarquía de equipos en otras áreas de Microsoft Teams.
 
 Este es un ejemplo de cómo se representa la jerarquía en la aplicación Tareas en Teams. Después de crear una lista de tareas, los miembros del equipo de publicación pueden seleccionar los equipos destinatarios a los que enviar (publicar) la lista de tareas. Al seleccionar equipos, el equipo de publicación puede filtrar por jerarquía, por atributos o por una combinación de ambos.<br>
 
@@ -39,8 +34,8 @@ Los siguientes términos serán importantes a medida que navegue por las jerarqu
 
 * **Los nodos raíz** son los nodos superiores de la jerarquía. En el ejemplo, Retail Communications es un nodo raíz.
 * **Los nodos principales** y **los nodos secundarios** son términos que representan una relación entre dos nodos conectados. En el ejemplo, el Distrito 01 es un nodo secundario del área 1.
-* Varios niveles de niños se denominan **descendientes.** Distrito 01, Tienda 01, Tienda 03, Tienda 07, Distrito 02 y Distrito 03 son descendientes del Área 1.
-* Un nodo sin hijos se denomina nodo **hoja.** Están en la parte inferior de una jerarquía.
+* Varios niveles de niños se denominan **descendientes**. Distrito 01, Tienda 01, Tienda 03, Tienda 07, Distrito 02 y Distrito 03 son descendientes del Área 1.
+* Un nodo sin hijos se denomina nodo **hoja**. Están en la parte inferior de una jerarquía.
 * **Los equipos destinatarios** son equipos que se han seleccionado para recibir un conjunto específico de contenido que se va a publicar. Deben ser nodos hoja.
 
 ## <a name="plan-your-hierarchy"></a>Planear la jerarquía
@@ -78,7 +73,7 @@ Por ejemplo, en la siguiente jerarquía, Recuperar, Comunicaciones y RRHH puede 
 
 El esquema que define la jerarquía se basa en un archivo de valores separados por comas (CSV). El archivo debe estar en formato UTF-8. Cada fila del archivo CSV corresponde a un nodo dentro de la jerarquía de equipos. Cada fila contiene información que denomina el nodo dentro de la jerarquía, opcionalmente lo vincula a un equipo e incluye atributos que se pueden usar para filtrar equipos en aplicaciones que lo admitan.
 
-También puede definir **cubos,** que son categorías que el equipo de publicación puede usar para organizar el contenido enviado a los equipos destinatarios para que les resulte más fácil ver, ordenar y centrarse en el contenido relevante.
+También puede definir **cubos**, que son categorías que el equipo de publicación puede usar para organizar el contenido enviado a los equipos de destinatarios para que les resulte más fácil ver, ordenar y centrarse en el contenido relevante.
 
 ### <a name="add-required-columns"></a>Agregar columnas necesarias
 
@@ -88,7 +83,7 @@ El archivo CSV debe contener las tres columnas siguientes, en el orden siguiente
 ----------------|----------|---------------|
 | DisplayName    | Sí      | Este campo es el nombre del nodo. El nombre puede tener hasta 100 caracteres de longitud y contener solo los caracteres A-Z, a-z y 0-9. Los nombres de nodo deben ser únicos. |
 | ParentName    | Sí       | Este es el nombre del nodo primario. El valor que especifique aquí debe coincidir exactamente con el valor del campo **DisplayName** del nodo primario. Si desea agregar más de un nodo primario, separe cada nombre de nodo primario con un punto y coma (;). Puede agregar hasta 25 nodos primarios y cada nombre de nodo primario puede tener hasta 2500 caracteres. Un nodo solo puede tener varios nodos primarios si los nodos primarios son nodos raíz.   <br><br>**IMPORTANTE** Tenga cuidado de no crear un bucle en el que un elemento primario superior de la jerarquía haga referencia a un nodo secundario en la jerarquía. Esto no es compatible. |
-| TeamId        | Sí, si el equipo publica tareas o recibe tareas de un nodo primario       | Este contiene el id. del equipo al que desea vincular un nodo. Cada nodo debe hacer referencia a un equipo único, por lo que cada valor de TeamId puede aparecer solo una vez en el archivo de jerarquía. Para obtener el id. de un equipo al que desea vincular un nodo, ejecute el siguiente comando de PowerShell: `Get-Team | Export-Csv TeamList.csv` . Este comando enumera los equipos de su organización e incluye el nombre y el id. de cada equipo. Busque el nombre del equipo al que desea vincular y, a continuación, copie el id. en este campo.|
+| TeamId        | Sí, si el equipo publica tareas o recibe tareas de un nodo primario       | Este contiene el id. del equipo al que desea vincular un nodo. Cada nodo debe hacer referencia a un equipo único, por lo que cada valor de TeamId puede aparecer solo una vez en el archivo de jerarquía. Para obtener el id. de un equipo al que desea vincular un nodo, ejecute el siguiente comando de PowerShell: `Get-Team | Export-Csv TeamList.csv`. Este comando enumera los equipos de su organización e incluye el nombre y el id. de cada equipo. Busque el nombre del equipo al que desea vincular y, a continuación, copie el id. en este campo.|
 
 > [!NOTE]
 > Si un nodo no es un nodo raíz o un nodo hoja y no necesita la pertenencia al equipo para conceder los permisos correspondientes para publicar e informar, puede dejar el IdDe Equipo en blanco. Este método se puede usar para agregar más granularidad al elegir equipos de destinatarios o para ver informes de finalización sin tener un equipo correspondiente.
@@ -125,11 +120,11 @@ Al agregar una columna de cubo, tenga en cuenta lo siguiente:
 
 Este es un ejemplo de un archivo CSV de esquema que se crearía para admitir la jerarquía que se muestra en la imagen anterior. Este esquema contiene lo siguiente:
 
-* Tres columnas necesarias con `TargetName` el nombre `ParentName` , y `TeamId`
-* Tres columnas de atributo `Store layout` denominadas , `Departments:Clothing` y `Departments:Foods`
-* Tres columnas de cubo `Fresh Foods` denominadas `Frozen Foods` , y `Women's Wear`
+* Tres columnas necesarias con el nombre `TargetName`, `ParentName`y `TeamId`
+* Tres columnas de atributo denominadas `Store layout`, `Departments:Clothing`y `Departments:Foods`
+* Tres columnas de cubo denominadas `Fresh Foods`, `Frozen Foods`y `Women's Wear`
 
-El `Store layout` atributo tiene valores que incluyen , y `Compact` `Standard` `Large` . Las `Departments` columnas de atributo se pueden establecer en un valor de `0` (cero) o `1` . El `Store` diseño y los atributos no se muestran en la imagen `Departments` anterior. Se agregan aquí para ayudar a mostrar cómo se pueden agregar atributos a las entradas de nodo. Lo mismo ocurre con las tres columnas de cubo.
+El `Store layout` atributo tiene valores que incluyen `Compact`, `Standard`y `Large`. Las `Departments` columnas de atributo se pueden establecer en un valor de `0` (cero) o `1`. El `Store` diseño y los `Departments` atributos no se muestran en la imagen anterior. Se agregan aquí para ayudar a mostrar cómo se pueden agregar atributos a las entradas de nodo. Lo mismo ocurre con las tres columnas de cubo.
 
 ```CSV
 TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear
@@ -154,7 +149,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 > Para realizar este paso, debe instalar y usar el módulo Teams vista previa pública de PowerShell desde la Galería de PowerShell. Para ver los pasos sobre cómo instalar el módulo, vea Instalar Teams PowerShell.
 
 > [!NOTE]
-> Government Community Cloud (GCC) los clientes deben usar la versión preliminar del [cmdlet 2.4.0 o](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) posterior para asegurarse de que los datos se enruta al entorno de GCC, en lugar del entorno de nube pública.
+> Government Community Cloud (GCC) los clientes deben usar la versión preliminar del [cmdlet 2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) o posterior para asegurarse de que los datos se enruta al entorno de GCC, en lugar del entorno de nube pública.
 
 Una vez que haya definido la jerarquía en el archivo CSV del esquema, estará listo para cargarlo en Teams. Para ello, ejecute el siguiente comando. Debe ser administrador global o administrador Teams de servicio para realizar este paso.
 
@@ -179,7 +174,7 @@ El comando devolverá los siguientes campos:
 Campo|Descripción
 -----|------------
 Id. | El id. único para la carga.
-Estado | Upload estado. Los valores **incluyen Inicio,** **Validación,** **Correcto** y **Error**
+Estado | Upload estado. Los valores **incluyen Inicio**, **Validación**, **Correcto** y **Error**
 ErrorDetails | Detalles si hay un error de carga. Para obtener más información sobre los detalles del error, vea la sección Solución de problemas. Si no hay ningún error, este campo está en blanco.
 LastUpdatedAt | Marca de tiempo y fecha de la última actualización del archivo.
 LastModifiedBy | El id. del último usuario que modificó el archivo.
@@ -202,7 +197,7 @@ Al confirmar la eliminación, el mensaje de estado seguirá presentando el esque
 ### <a name="install-the-teams-powershell-module"></a>Instalar el Teams PowerShell
 
 > [!IMPORTANT]
-> Para realizar este paso, debe instalar y usar el módulo Teams vista previa pública de PowerShell desde la [Galería de PowerShell.](https://www.powershellgallery.com/packages/MicrosoftTeams/) Para ver los pasos sobre cómo instalar el módulo, vea [Instalar Teams PowerShell](teams-powershell-install.md).
+> Para realizar este paso, debe instalar y usar el Teams vista previa pública de PowerShell desde la [Galería de PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). Para ver los pasos sobre cómo instalar el módulo, vea [Instalar Teams PowerShell](teams-powershell-install.md).
 
 ### <a name="sample-script"></a>Ejemplo de script
 
@@ -272,8 +267,8 @@ Description: TeamID in row # doesn't match a valid Group ID. Please view our doc
 
 Compruebe que está usando el IdDe Equipo correcto para el equipo en el archivo CSV de esquema. El id. de equipo debe ser el mismo que el id. de grupo del grupo Microsoft 365 que hace una copia de seguridad del equipo. Puede buscar el id. de grupo del equipo en el Microsoft Teams de administración.
 
-1. En el panel de navegación izquierdo [del Microsoft Teams de administración,](https://admin.teams.microsoft.com/)vaya a **Teams**  >  **Administrar equipos.**
-2. Si la **columna Id.** de grupo no se muestra en la tabla, seleccione **Editar** columnas en la esquina superior derecha de la tabla y, después, active Id. **de grupo.**
+1. En el panel de navegación izquierdo del [Microsoft Teams de administración](https://admin.teams.microsoft.com/), vaya a **Teams** >  **Manage teams**.
+2. Si la **columna Id.** de grupo no se muestra en la tabla, seleccione  Editar columnas en la esquina superior derecha de la tabla y, después, active Id. **de grupo**.
 3. Busque el equipo en la lista y, a continuación, busque el id. de grupo.
 
 Asegúrese de que el id. de equipo del archivo CSV del esquema coincida con el id. de grupo que se muestra en el centro de administración Microsoft Teams esquema.

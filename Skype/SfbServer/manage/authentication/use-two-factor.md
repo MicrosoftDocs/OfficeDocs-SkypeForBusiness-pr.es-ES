@@ -1,25 +1,20 @@
 ---
 title: Use la autenticación en dos fases Skype Empresarial cliente y Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Resumen: use la autenticación en dos fases con Skype Empresarial Server y Skype Empresarial.'
-ms.openlocfilehash: 50237639172a70fdf68e1cca122d74cbf785f68e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839942"
 ---
+
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Use la autenticación en dos fases Skype Empresarial cliente y Skype Empresarial Server
  
 **Resumen:** Use la autenticación en dos fases Skype Empresarial Server y Skype Empresarial.
@@ -32,7 +27,7 @@ La información de inicio de sesión normalmente se configura automáticamente c
 
 1. Inicie sesión en la red de su organización.
     
-2. Seleccione **Iniciar**  >  **todos los programas**  >  **Skype Empresarial**.
+2. Seleccione **StartAll** >  **Programs** >  **Skype Empresarial**.
     
     Debería ver la pantalla de inicio de sesión.
     
@@ -50,9 +45,9 @@ Cuando haya terminado de usar Skype Empresarial, puede cerrar la pantalla, cerra
   
 |**Opción**|**Lo que hace**|**Cómo realizarlo**|
 |:-----|:-----|:-----|
-|Cerrar  <br/> |Cierra la pantalla, pero permite que Skype Empresarial sesión identificada con el identificador de usuario continúe en ejecución. Esto es para que pueda seguir recibiendo notificaciones e interactuar con otros usuarios. <br/> <br/> Puedes recuperar la pantalla en cualquier momento haciendo clic en el icono Skype Empresarial en la barra de tareas o en el área de notificación en la parte inferior de la pantalla.  <br/> | En la Skype Empresarial principal, realice una de las siguientes acciones: <br/> 1. Seleccione el **botón Opciones** y, a continuación, **seleccione Cerrar**  >  **archivo**.  <br/> 2. Haga clic en **el botón** Cerrar (X) en la esquina superior derecha de la ventana. <br/> |
-|Cerrar sesión  <br/> |Finaliza la sesión asociada con el identificador de usuario, pero Skype Empresarial se sigue ejecutando en segundo plano. Al cerrar sesión, aparecerá la ventana de inicio de sesión.  <br/> **Sugerencia:** Seleccione **Eliminar mi información de inicio de** sesión cuando cierre la sesión para quitar el registro del identificador de inicio de sesión y la contraseña del equipo. Al hacerlo, es posible que sea más fácil para los usuarios de soporte técnico solucionar problemas de inicio de sesión. También puede ayudar a garantizar que la información de inicio de sesión sea más segura al dificultar que los usuarios no autorizados inicien sesión con sus credenciales. <br/> |En la Skype Empresarial principal, seleccione el botón **Opciones** y, a continuación, seleccione **Cerrar**  >  **sesión del archivo.**  <br/> |
-|Salir  <br/> |Finaliza la sesión Skype Empresarial y cierra Skype Empresarial en el equipo. Después de salir, si desea reiniciar, seleccione **Iniciar**  >  **todos los programas > Skype Empresarial.** <br/> |En la Skype Empresarial principal, seleccione el botón **Opciones** y, a continuación, seleccione **Salida**  >  **de archivo**.  <br/> |
+|Cerrar  <br/> |Cierra la pantalla, pero permite que Skype Empresarial sesión identificada con el identificador de usuario continúe en ejecución. Esto es para que pueda seguir recibiendo notificaciones e interactuar con otros usuarios. <br/> <br/> Puedes recuperar la pantalla en cualquier momento haciendo clic en el icono Skype Empresarial en la barra de tareas o en el área de notificación en la parte inferior de la pantalla.  <br/> | En la Skype Empresarial principal, realice una de las siguientes acciones: <br/> 1. Seleccione el **botón Opciones** y, a continuación, **seleccione FileClose** > .  <br/> 2. Haga clic en **el botón** Cerrar (X) en la esquina superior derecha de la ventana. <br/> |
+|Cerrar sesión  <br/> |Finaliza la sesión asociada con el identificador de usuario, pero Skype Empresarial se sigue ejecutando en segundo plano. Al cerrar sesión, aparecerá la ventana de inicio de sesión.  <br/> **Sugerencia:** Seleccione **Eliminar mi información de inicio de** sesión cuando cierre la sesión para quitar el registro del identificador de inicio de sesión y la contraseña del equipo. Al hacerlo, es posible que sea más fácil para los usuarios de soporte técnico solucionar problemas de inicio de sesión. También puede ayudar a garantizar que la información de inicio de sesión sea más segura al dificultar que los usuarios no autorizados inicien sesión con sus credenciales. <br/> |En la Skype Empresarial principal, seleccione el botón **Opciones** y, a continuación, **seleccione FileSign** >  **Out**.  <br/> |
+|Salir  <br/> |Finaliza la sesión Skype Empresarial y cierra Skype Empresarial en el equipo. Después de salir, si desea reiniciar, seleccione **StartAll** >  **Programs** > Skype Empresarial. <br/> |En la Skype Empresarial principal, seleccione el botón **Opciones** y, a continuación, **seleccione FileExit** > .  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>Inicie sesión en Skype Empresarial con una tarjeta inteligente
 
@@ -75,7 +70,7 @@ Para poder iniciar sesión con una tarjeta inteligente, la tarjeta debe estar "r
     
 2. Con Internet Explorer, vaya a la página Inscripción web de entidad de certificación de su organización. 
     
-    Solicite a Skype Empresarial Server administrador la dirección web de este recurso si aún no la tiene. La dirección URL tendrá un aspecto parecido a este: https://MyCA .[ yourcompanyname].com/certsrv.
+    Solicite a Skype Empresarial Server administrador la dirección web de este recurso si aún no la tiene. La dirección URL tendrá un aspecto parecido a este: https://MyCA.[ yourcompanyname].com/certsrv.
     
     > [!NOTE]
     > Si estás usando Internet Explorer 10, es posible que necesites ver este sitio web en modo de compatibilidad. 
@@ -86,15 +81,15 @@ Para poder iniciar sesión con una tarjeta inteligente, la tarjeta debe estar "r
     
 5. Seleccione **Solicitud avanzada**.
     
-6. Seleccione **Crear y enviar una solicitud a esta ENTIDAD de certificación** y, a continuación, haga clic **en Siguiente**.
+6. Seleccione **Crear y enviar una solicitud a esta ENTIDAD de certificación** y, a continuación, haga clic en **Siguiente**.
     
 7. Ahora verá una página denominada Estación de inscripción de tarjetas inteligentes. Apruebe la solicitud para instalar el control ActiveX y, a continuación, complete el formulario Solicitud de certificado avanzada de la siguiente manera:
     
-    a. Seleccione **Usuario de tarjeta inteligente en** la lista desplegable Plantilla **de** certificado.
+    a. Seleccione **Usuario de tarjeta inteligente en** la **lista desplegable Plantilla de** certificado.
     
     b. Seleccione **Crear nuevo conjunto de claves**.
     
-    c. Busque la información del fabricante en la etiqueta de la tarjeta inteligente y seleccione ese fabricante en la lista desplegable **CSP.**
+    c. Busque la información del fabricante en la etiqueta de la tarjeta inteligente y seleccione ese fabricante en la lista desplegable **CSP** .
     
     d. Seleccione **CSP** como formato de solicitud, si aún no está seleccionado.
     
@@ -102,7 +97,7 @@ Para poder iniciar sesión con una tarjeta inteligente, la tarjeta debe estar "r
     
     f. Asigne al certificado un nombre que reconocerá y haga clic en **Enviar**.
     
-8. Ahora inserte la tarjeta inteligente en blanco en el lector de tarjetas adjunto a la estación de inscripción y haga clic **en Inscribir**.
+8. Ahora inserte la tarjeta inteligente en blanco en el lector de tarjetas adjunto a la estación de inscripción y haga clic en **Inscribir**.
     
 9. Cuando se le pida, escriba su número de identificación personal (PIN) y, a continuación, haga clic en **Aceptar**.
     
@@ -111,7 +106,7 @@ Para poder iniciar sesión con una tarjeta inteligente, la tarjeta debe estar "r
   
 10. Seleccione la opción para forzar al usuario (usted) a cambiar el PIN la primera vez que se usa la tarjeta inteligente.
     
-11. Ahora inserte la tarjeta inteligente en blanco en el lector de tarjetas adjunto a la estación de inscripción y haga clic **en Inscribir**.
+11. Ahora inserte la tarjeta inteligente en blanco en el lector de tarjetas adjunto a la estación de inscripción y haga clic en **Inscribir**.
     
 12. Cuando se le pida, escriba su número de identificación personal (PIN) y, a continuación, haga clic en **Aceptar**.
     
@@ -126,13 +121,13 @@ Para poder iniciar sesión con una tarjeta inteligente, la tarjeta debe estar "r
     
 ### <a name="sign-in-to-skype-for-business-with-your-smart-card-credentials"></a>Inicie sesión en Skype Empresarial con sus credenciales de tarjeta inteligente
 
-Antes de usar la tarjeta inteligente por primera vez,  se recomienda hacer clic en Eliminar mi información de inicio de sesión en la Skype Empresarial inicio de sesión. Al hacerlo, se borran las credenciales de inicio de sesión almacenadas en el equipo y se elimina un posible origen de error.
+Antes de usar la tarjeta inteligente por primera vez, se recomienda hacer clic en Eliminar mi información  de inicio de sesión en la Skype Empresarial inicio de sesión. Al hacerlo, se borran las credenciales de inicio de sesión almacenadas en el equipo y se elimina un posible origen de error.
   
 ### <a name="to-sign-in-to-skype-for-business-with-your-smart-card-credentials"></a>Para iniciar sesión en Skype Empresarial con las credenciales de la tarjeta inteligente
 
 1. Inicie el Skype Empresarial cliente.
     
-2. En la pantalla Iniciar sesión, escriba el  nombre de la cuenta de usuario de inicio de sesión en el cuadro Dirección de inicio de sesión y, a continuación, haga clic **en Iniciar sesión**.
+2. En la pantalla Iniciar sesión, escriba el nombre de la cuenta de usuario de  inicio de sesión en el cuadro Dirección de inicio de sesión y, a continuación, haga clic **en Iniciar sesión**.
     
 3. Si usa una tarjeta inteligente virtual, omita este paso.
     
@@ -143,7 +138,7 @@ Antes de usar la tarjeta inteligente por primera vez,  se recomienda hacer clic 
     > [!NOTE]
     > Si la persona de soporte técnico no le asignó un número de PIN de tarjeta inteligente, use el valor predeterminado, que es 12345678. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administrar la autenticación en dos fases en Skype Empresarial Server](two-factor-authentication.md)
   

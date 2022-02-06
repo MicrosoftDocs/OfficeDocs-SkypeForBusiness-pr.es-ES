@@ -1,7 +1,7 @@
 ---
 title: 'Ejemplo de script de PowerShell: restablecer la configuración de inicio automático en Teams'
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
@@ -9,25 +9,20 @@ ms.service: msteams
 audience: admin
 description: Use este script de PowerShell para restablecer la configuración de inicio automático en Teams por usuario.
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 95d1e5352111ee868c469ccfe4703cf85e25ad92
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859657"
+  - Microsoft Teams
 ---
+
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>Ejemplo de script de PowerShell: restablecer la configuración de inicio automático en Teams
 
 Use este script para restablecer la configuración Teams inicio automático por usuario. Esto incluye los valores establecidos por el usuario o la Teams aplicación. De forma predeterminada, Teams se inicia automáticamente cuando un usuario inicia sesión en su equipo después de instalarlo.
 
-Si ya ha implementado Teams y desea establecer la configuración Impedir [que Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) Teams se inicie automáticamente después de instalar la configuración de directiva de grupo para deshabilitar un inicio automático, primero deberá establecer la configuración de directiva de grupo en el valor que desee y, después, ejecutar este script.
+Si ya ha implementado Teams y desea establecer la configuración Impedir [que Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) se inicie automáticamente después de la instalación directiva de grupo para deshabilitar Teams inicio automático, primero tendrá que establecer la configuración de directiva de grupo en el valor que desee y, a continuación, ejecutar este script.
 
 Después Teams inicio para un usuario, la configuración de inicio automático no se puede deshabilitar con la directiva de grupo.
 

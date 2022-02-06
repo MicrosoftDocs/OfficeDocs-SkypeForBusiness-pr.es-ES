@@ -1,30 +1,24 @@
 ---
 title: 'Recursos de aprendizaje para administradores: Microsoft Teams'
 ms.reviewer: jhwang
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
+  - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
-- seo-marvel-mar2020
-description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
+  - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+  - seo-marvel-mar2020
+description: 'Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams'
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: d85d4a3efd158cb9cc972ef7d7f059e8b3c6fbec
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766653"
+  - Microsoft Teams
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción a la formación de administradores para Microsoft Teams
 
@@ -40,14 +34,14 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|[**Teams esenciales**](https://aka.ms/MicrosoftTeamsforIT) para TI: la serie de vídeo "Teams para TI" de Microsoft Mechanics le muestra , el administrador, cómo realizar, configurar y administrar Teams.     |[**Apoyar a los trabajadores**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) remotos con Microsoft Teams: obtenga las instrucciones que necesita (incluidos los vínculos a la formación) para dar soporte a los usuarios que trabajan desde casa.         |[**Administrar la colaboración del**](/learn/paths/m365-manage-team-collaboration) equipo para TI: aprenda a usar Teams para facilitar el trabajo en equipo y la comunicación dentro de su organización en aplicaciones y dispositivos.         |
-|[**Certificación de especialista en adopción de**](/learn/paths/m365-service-adoption) servicios: el curso de certificación especialista en adopción de servicios de Microsoft Teams. Aprenda a fomentar la adopción de servicios Microsoft en su organización.     |[**Introducción al trabajo en equipo en Microsoft 365:**](/learn/modules/intro-to-teamwork-in-m365/index) el curso de certificación de especialistas en adopción de servicios de Microsoft Teams. Aprenda a fomentar la adopción de servicios Microsoft en su organización.        |[**Microsoft 365 Certificado:**](/learn/certifications/m365-teamwork-administrator) Asociado de administrador de trabajo en equipo: los administradores de trabajo en equipo de Microsoft 365 configuran, implementan y administran cargas de trabajo Microsoft 365 o Office 365, como SharePoint (en línea, local e híbrida), OneDrive y Teams.        |
+|[**Teams**](https://aka.ms/MicrosoftTeamsforIT) esenciales para TI: la serie de vídeo "Teams para TI" de Microsoft Mechanics le muestra , el administrador, cómo realizar, configurar y administrar Teams.     |[**Apoyar a los trabajadores remotos con Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams): obtenga las instrucciones que necesita , incluidos los vínculos a la formación, para dar soporte a los usuarios que trabajan desde casa.         |[**Administrar la colaboración del equipo para TI**](/learn/paths/m365-manage-team-collaboration): aprenda a usar Teams para facilitar el trabajo en equipo y la comunicación dentro de su organización en aplicaciones y dispositivos.         |
+|[**Certificación de especialista en adopción de**](/learn/paths/m365-service-adoption) servicios: el curso de certificación Especialista en adopción de servicios de Microsoft Teams. Aprenda a fomentar la adopción de servicios Microsoft en su organización.     |[**Introducción al trabajo en equipo en Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index): el curso de certificación de especialistas en adopción de servicios de Microsoft Teams. Aprenda a fomentar la adopción de servicios Microsoft en su organización.        |[**Microsoft 365 Certificado:**](/learn/certifications/m365-teamwork-administrator) Asociado de administrador de trabajo en equipo: los administradores de trabajo en equipo de Microsoft 365 configuran, implementan y administran cargas de trabajo Microsoft 365 o Office 365, como SharePoint (en línea, local e híbrida), OneDrive y Teams.        |
 
 <h2>Iniciar aprendizaje técnico</h2>
 
 | Módulo | Vídeo | Presentación de PowerPoint   |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft Mechanics: Teams Essentials para el canal de YouTube de TI](https://aka.ms/MicrosoftTeamsforIT) | [Vídeo: Teams Essentials para TI](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Vídeo: Implementar & Configurar Teams - Introducción](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  <br>[Vídeo: Seguridad y cumplimiento](https://youtu.be/91lHNKVVvQ4) (12:42 min)<br>[Vídeo: Teams controles de](https://www.youtube.com/watch?v=Km4T4hMM__k) seguridad y cumplimiento (10:54 min)||
+| [Microsoft Mechanics: Teams Essentials para el canal de YouTube de TI](https://aka.ms/MicrosoftTeamsforIT) | [Vídeo: Teams Essentials para TI](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Vídeo: Implementar & Configurar Teams - Introducción](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  <br>[Vídeo: Seguridad y cumplimiento](https://youtu.be/91lHNKVVvQ4) (12:42 min)<br>[Vídeo: Teams controles de seguridad y cumplimiento](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)||
 | Fundamentos: los componentes principales | [Vídeo](https://aka.ms/teams-foundations) | [Presentación de diapositivas](https://aka.ms/teams-foundations-deck) |
 | Cliente del escritorio de Windows | [Vídeo](https://aka.ms/teams-clients) | [Presentación de diapositivas](https://aka.ms/teams-clients-deck) |
 | Gobierno, administración y ciclo de vida | [Vídeo](https://aka.ms/teams-governance) | [Presentación de diapositivas](https://aka.ms/teams-governance-deck) |

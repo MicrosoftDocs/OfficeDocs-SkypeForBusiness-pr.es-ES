@@ -1,25 +1,20 @@
 ---
 title: Tabla PurgeSettings
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: 'La tabla PurgeSettings contiene información que especifica si los registros de detalles de llamadas obsoletos se eliminarán automáticamente de la base de datos de CDR (y, en caso de que sí, cuándo). Tenga en cuenta que la información relacionada con la depuración también se puede obtener desde dentro del Skype Empresarial Server 2015 ejecutando el siguiente comando:'
-ms.openlocfilehash: 119c357ed9b0f3da456d34899c8fb9bd7007a375
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859827"
 ---
+
 # <a name="purgesettings-table"></a>Tabla PurgeSettings
  
 La tabla PurgeSettings contiene información que especifica si los registros de detalles de llamadas obsoletos se eliminarán automáticamente de la base de datos de CDR (y, en caso de que sí, cuándo). Tenga en cuenta que la información relacionada con la depuración también se puede obtener desde dentro del Skype Empresarial Server 2015 ejecutando el siguiente comando:
@@ -28,7 +23,7 @@ La tabla PurgeSettings contiene información que especifica si los registros de 
 Get-CsCdrConfiguration
 ```
 
-Los administradores deben tratar la tabla PurgeSettings como de solo lectura: los cambios en la configuración de purga de detalles de llamadas solo deben realizarse con los [cmdlets New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) o [Set-CsCdrConfiguration.](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
+Los administradores deben tratar la tabla PurgeSettings como de solo lectura: los cambios en la configuración de purga de detalles de llamadas solo deben realizarse con los [cmdlets New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) o [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
   
 Esta tabla se introdujo en Microsoft Lync Server 2013.
   

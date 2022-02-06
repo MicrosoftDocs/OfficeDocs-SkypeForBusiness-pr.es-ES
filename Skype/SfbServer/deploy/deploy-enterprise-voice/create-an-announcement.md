@@ -1,28 +1,23 @@
 ---
 title: Crear o eliminar un anuncio en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Cree o elimine anuncios para la aplicación Announcement en Skype Empresarial Server Telefonía IP empresarial. Esto afecta al modo en que se controlan las llamadas a números sin signo.
-ms.openlocfilehash: 26882070c566eba57925b5eddc43cd11d0e9ea7d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843523"
 ---
+
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Crear o eliminar un anuncio en Skype Empresarial Server
 
 Cree o elimine anuncios para la aplicación Announcement en Skype Empresarial Server Telefonía IP empresarial. Esto afecta al modo en que se controlan las llamadas a números sin signo.
@@ -52,9 +47,9 @@ Para crear un anuncio, debe seguir estos pasos:
 
 1. Para mensajes de audio, cree el archivo de audio.
 
-2. Inicie sesión en el equipo donde Skype Empresarial Server Shell de administración está instalado como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegate Setup Permissions**.
+2. Inicie sesión en el equipo en el que Skype Empresarial Server Shell de administración esté instalado como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en Permisos de configuración **delegados**.
 
-3. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+3. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
 
 4. Para mensajes de audio, ejecute:
 
@@ -62,7 +57,7 @@ Para crear un anuncio, debe seguir estos pasos:
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. Ejecute: 
+5. Ejecutar:
 
    ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
@@ -84,15 +79,15 @@ Para crear un anuncio, debe seguir estos pasos:
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   Para obtener más información acerca de estos cmdlets y ver una lista de los códigos de idioma que se usarán en el parámetro **TextToSpeechPrompt,** vea [New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps).
+   Para obtener más información acerca de estos cmdlets y ver una lista de los códigos de idioma que se usarán en el parámetro **TextToSpeechPrompt** , vea [New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps).
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>Eliminar un anuncio para números sin signo
 
 ### <a name="to-delete-an-announcement"></a>Para eliminar un anuncio
 
-1. Inicie sesión en el equipo donde Skype Empresarial Server Shell de administración está instalado como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegate Setup Permissions**.
+1. Inicie sesión en el equipo en el que Skype Empresarial Server Shell de administración esté instalado como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en Permisos de configuración **delegados**.
 
-2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
 
 3. Muestre todos los anuncios de su organización. En la línea de comandos, ejecute:
 
@@ -113,9 +108,9 @@ Para crear un anuncio, debe seguir estos pasos:
    ```
 
     > [!NOTE]
-    > Para obtener más información sobre más opciones, [vea Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps) y [Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps).
+    > Para obtener más información sobre más opciones, vea [Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps) y [Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Crear o eliminar un anuncio en Skype Empresarial Server](create-an-announcement.md)
 

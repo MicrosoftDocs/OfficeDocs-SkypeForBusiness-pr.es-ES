@@ -1,35 +1,30 @@
 ---
 title: Planear el enrutamiento de voz saliente en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
-description: Obtenga información sobre el enrutamiento de voz saliente en Skype Empresarial Server Telefonía IP empresarial, incluida la configuración de enrutamiento de llamadas, los planes de marcado, las reglas de normalización, las directivas de voz, los registros de uso de RTC y las rutas de voz.
-ms.openlocfilehash: 1c8331f1959b03166ecd02b65e6fa1080bb43993
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861077"
+description: 'Obtenga información sobre el enrutamiento de voz saliente en Skype Empresarial Server Telefonía IP empresarial, incluida la configuración de enrutamiento de llamadas, los planes de marcado, las reglas de normalización, las directivas de voz, los registros de uso de RTC y las rutas de voz.'
 ---
+
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planear el enrutamiento de voz saliente en Skype Empresarial Server
  
 Obtenga información sobre el enrutamiento de voz saliente en Skype Empresarial Server Telefonía IP empresarial, incluida la configuración de enrutamiento de llamadas, los planes de marcado, las reglas de normalización, las directivas de voz, los registros de uso de RTC y las rutas de voz.
   
 El enrutamiento de llamadas salientes se aplica Telefonía IP empresarial llamadas que están destinadas a una puerta de enlace de red telefónica conmutada (RTC), un tronco o una central de conmutación privada (PBX). Cuando un Skype Empresarial hace una llamada, el servidor normaliza el número de teléfono al formato E.164, si es necesario, e intenta hacer coincidirlo con un URI de SIP. Si el servidor no puede establecer la coincidencia, aplicará la lógica de enrutamiento de llamadas realizadas basándose en la cadena de marcado proporcionada. Dicha lógica se define con la configuración de las opciones de servidor que se describe en la siguiente tabla.
   
-**Skype Empresarial Server Enrutamiento de llamadas salientes Configuración**
+**Skype Empresarial Server de enrutamiento de llamadas salientes Configuración**
 
 |**Object**|**Descripción**|
 |:-----|:-----|
@@ -60,9 +55,9 @@ Los niveles de ámbito de plan de marcado se definen de la manera siguiente:
     
 - **Plan de marcado de grupo**: puede crearse en el nivel de servicio para cualquier registrador o puerta de enlace de RTC de la topología. Para definir un plan de marcado de grupo, debe especificarse el servicio (puerta de enlace de RTC o grupo de registrador) en el que se aplica el plan de marcado. 
     
-- **Plan de marcado** de sitio: se puede crear para todo un sitio, excepto para los usuarios, grupos u objetos de contacto a los que se les asigna un plan de marcado de grupo o un plan de marcado de usuario. Para definir un plan de marcado de sitio, debe especificar el sitio en el que se aplica el plan de marcado.
+- **Plan de marcado** de sitio: se puede crear para todo un sitio, excepto para los usuarios, grupos u objetos de contacto a los que se asigna un plan de marcado de grupo o un plan de marcado de usuario. Para definir un plan de marcado de sitio, debe especificar el sitio en el que se aplica el plan de marcado.
     
-- **Plan de marcado global:** el plan de marcado predeterminado instalado con el producto. El plan de marcado global puede editarse, pero no eliminarse. Este plan de marcado se aplica a todos los Telefonía IP empresarial, grupos y objetos de contacto de la implementación, a menos que configure y asigne un plan de marcado con un ámbito más específico.
+- **Plan de marcado global**: el plan de marcado predeterminado instalado con el producto. El plan de marcado global puede editarse, pero no eliminarse. Este plan de marcado se aplica a todos los Telefonía IP empresarial, grupos y objetos de contacto de la implementación, a menos que configure y asigne un plan de marcado con un ámbito más específico.
     
 ### <a name="planning-for-dial-plans"></a>Planeación de planes de marcado
 
@@ -106,7 +101,7 @@ Si se implementan conferencias de acceso telefónico local, debe especificarse u
   
 #### <a name="external-access-prefix"></a>Prefijo de acceso externo
 
-Puede especificar un prefijo de acceso externo de hasta cuatro caracteres (#, y 0-9) si los usuarios necesitan marcar uno o más dígitos iniciales \* adicionales (por ejemplo, 9) para obtener una línea externa.
+Puede especificar un prefijo de acceso externo de hasta cuatro caracteres (#, \*y 0-9) si los usuarios necesitan marcar uno o más dígitos iniciales adicionales (por ejemplo, 9) para obtener una línea externa.
   
 > [!NOTE]
 > Si especifica un prefijo de acceso externo, no necesita crear otra regla de normalización para incluir el prefijo. 
@@ -137,7 +132,7 @@ Los siguientes campos numéricos están entre los que deben tener en cuenta las 
 
 Las reglas de normalización usan .NET Framework expresiones regulares para especificar patrones numéricos de coincidencia que el servidor usa para traducir cadenas de marcado al formato E.164 con el fin de realizar búsquedas de números inversos. Para crear reglas de normalización en el Panel de control de Skype Empresarial Server, escriba las expresiones manualmente o escriba los dígitos iniciales y la longitud de las cadenas de marcado para que coincidan y permitir que el Panel de control de Skype Empresarial Server genere la expresión regular correspondiente. De cualquier manera, cuando termine, puede escribir un número de prueba para comprobar que la regla de normalización funciona según lo esperado.
   
-Para obtener más información sobre .NET Framework expresiones regulares, vea [".NET Framework Regular Expressions"](/dotnet/standard/base-types/regular-expressions).
+Para obtener más información sobre .NET Framework expresiones regulares, [vea ".NET Framework Regular Expressions"](/dotnet/standard/base-types/regular-expressions).
   
 #### <a name="sample-normalization-rules"></a>Reglas de normalización de ejemplo
 <a name="BKMK_SampleNormalizationRules"> </a>
@@ -149,16 +144,16 @@ En la siguiente tabla se muestran ejemplos de reglas de normalización escritas 
 |**Nombre de regla**|**Descripción**|**Patrón de número**|**Conversión**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|:-----|
 |4digitExtension  <br/> |Convierte extensiones de 4 dígitos  <br/> |^(\d{4})$  <br/> |+1425555$1  <br/> |0100 se convierte en +14255550100  <br/> |
-|5digitExtension  <br/> |Convierte extensiones de 5 dígitos  <br/> |^5(\d {4} )$  <br/> |+1425555$1  <br/> |50100 se convierte en +14255550100  <br/> |
+|5digitExtension  <br/> |Convierte extensiones de 5 dígitos  <br/> |^5(\d{4})$  <br/> |+1425555$1  <br/> |50100 se convierte en +14255550100  <br/> |
 |7digitcallingRedmond  <br/> |Convierte números de 7 dígitos en números locales de Redmond  <br/> |^(\d{7})$  <br/> |+1425$1  <br/> |5550100 se convierte en +14255550100  <br/> |
 |7digitcallingDallas  <br/> |Convierte números de 7 dígitos en números locales de Dallas  <br/> |^(\d{7})$  <br/> |+1972$1  <br/> |5550100 se convierte en +19725550100  <br/> |
 |10digitcallingUS  <br/> |Convierte números de 10 dígitos en los Estados Unidos  <br/> |^(\d{10})$  <br/> |+1$1  <br/> |2065550100 se convierte en +12065550100  <br/> |
-|LDCallingUS  <br/> |Convierte los números con prefijos de larga distancia de Estados Unidos  <br/> |^1(\d {10} )$  <br/> |+$1  <br/> |12145550100 se convierte en +2145550100  <br/> |
-|IntlCallingUS  <br/> |Convierte los números con prefijos internacionales de Estados Unidos  <br/> |^011(\d \* )$  <br/> |+$1  <br/> |01191445550100 se convierte en +91445550100  <br/> |
+|LDCallingUS  <br/> |Convierte los números con prefijos de larga distancia de Estados Unidos  <br/> |^1(\d{10})$  <br/> |+$1  <br/> |12145550100 se convierte en +2145550100  <br/> |
+|IntlCallingUS  <br/> |Convierte los números con prefijos internacionales de Estados Unidos  <br/> |^011(\d\*)$  <br/> |+$1  <br/> |01191445550100 se convierte en +91445550100  <br/> |
 |RedmondOperator  <br/> |Convierte 0 al operador de Redmond  <br/> |^0$  <br/> |+14255550100  <br/> |0 se convierte en +14255550100  <br/> |
-|RedmondSitePrefix  <br/> |Convierte los números con prefijo de red (6) y prefijo de sitio de Redmond (222)  <br/> |^6222(\d {4} )$  <br/> |+1425555$1  <br/> |62220100 se convierte en +14255550100  <br/> |
-|NYSitePrefix  <br/> |Convierte los números con prefijo de red (6) y prefijo de sitio de Nueva York (333)  <br/> |^6333(\d {4} )$  <br/> |+1202555$1  <br/> |63330100 se convierte en +12025550100  <br/> |
-|DallasSitePrefix  <br/> |Convierte los números con prefijo de red (6) y prefijo de sitio de Dallas (444)  <br/> |^6444(\d {4} )$  <br/> |+1972555$1  <br/> |64440100 se convierte en +19725550100  <br/> |
+|RedmondSitePrefix  <br/> |Convierte los números con prefijo de red (6) y prefijo de sitio de Redmond (222)  <br/> |^6222(\d{4})$  <br/> |+1425555$1  <br/> |62220100 se convierte en +14255550100  <br/> |
+|NYSitePrefix  <br/> |Convierte los números con prefijo de red (6) y prefijo de sitio de Nueva York (333)  <br/> |^6333(\d{4})$  <br/> |+1202555$1  <br/> |63330100 se convierte en +12025550100  <br/> |
+|DallasSitePrefix  <br/> |Convierte los números con prefijo de red (6) y prefijo de sitio de Dallas (444)  <br/> |^6444(\d{4})$  <br/> |+1972555$1  <br/> |64440100 se convierte en +19725550100  <br/> |
    
 En la tabla siguiente se muestra un plan de marcado de ejemplo para Redmond, Washington, Estados Unidos, basado en las reglas de normalización que se muestran en la tabla anterior.
   

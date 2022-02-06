@@ -1,24 +1,19 @@
 ---
 title: Administrar servicios para Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: En este artículo se describe cómo administrar los servicios que se ejecutan en una Skype Empresarial Server topología.
-ms.openlocfilehash: 3bb4092d2538bc994de3f71467cb03aedf8dc302
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856677"
 ---
+
 # <a name="manage-services-for-skype-for-business-server"></a>Administrar servicios para Skype Empresarial Server
 
 En este artículo se describe cómo administrar los servicios que se ejecutan en una Skype Empresarial Server topología.
@@ -51,11 +46,11 @@ Puede usar el Panel Skype Empresarial Server control para ver todos los servicio
 4. En la **página** Estado, ordena o busca en la lista, según sea necesario, para buscar el equipo que te interesa y, a continuación, haz clic en el nombre del equipo.
 5. Siga uno de estos procedimientos:
    - Para ver el estado más reciente de los servicios que se ejecutan en el equipo, haga clic en **Obtener estado del servicio**.
-   - Para ver una lista de servicios específicos que se ejecutan en el  equipo y el estado de cada servicio, haga clic en Propiedades **y,** a continuación, haga clic en Cerrar para volver a la lista.
+   - Para ver una lista de servicios específicos que se ejecutan en el equipo y el estado de cada servicio, haga clic en  Propiedades **y, a** continuación, haga clic en Cerrar para volver a la lista.
     
 ### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>Visualización del estado del servicio con Windows cmdlets de Powershell
 
-También puede ver el estado del servicio mediante Windows PowerShell y el cmdlet **Get-CsWindowsService.** Puede ejecutar este cmdlet desde el shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información acerca del uso de Windows PowerShell para conectarse a Skype Empresarial Server, vea [Administración remota de PowerShell de Microsoft Lync](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). El proceso es el mismo en Skype Empresarial Server.
+También puede ver el estado del servicio mediante Windows PowerShell y el cmdlet **Get-CsWindowsService**. Puede ejecutar este cmdlet desde el shell de administración de Skype Empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información acerca del uso de Windows PowerShell para conectarse a Skype Empresarial Server, vea [Administración remota de PowerShell de Microsoft Lync](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). El proceso es el mismo en Skype Empresarial Server.
   
 ### <a name="to-view-service-status"></a>Para ver el estado del servicio
 

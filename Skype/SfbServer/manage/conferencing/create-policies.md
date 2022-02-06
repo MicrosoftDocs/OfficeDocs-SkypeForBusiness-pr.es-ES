@@ -1,24 +1,19 @@
 ---
 title: Crear directivas de conferencia en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Resumen: obtenga información sobre cómo crear directivas de conferencia en Skype Empresarial Server.'
-ms.openlocfilehash: 56404f98389dbe2fca6a6022e7d6f175bcca030c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828833"
 ---
+
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Crear directivas de conferencia en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo crear directivas de conferencia en Skype Empresarial Server.
@@ -31,7 +26,7 @@ Puede crear directivas de conferencia mediante Skype Empresarial Server Panel de
     
 2. Abra Skype Empresarial Server Panel de control.
     
-3. En la barra de navegación izquierda, haga clic **en Conferencia** y, a continuación, haga clic en Directiva **de conferencia.**
+3. En la barra de navegación izquierda, haga clic **en Conferencia y**, a continuación, haga clic **en Directiva de conferencia**.
     
 4. Haga clic en **Nuevo** y luego siga uno de estos procedimientos:
     
@@ -70,7 +65,7 @@ Puede crear directivas de conferencia mediante Skype Empresarial Server Panel de
     
     - Si permite que los usuarios accedan telefónicamente a las reuniones y desea permitir que usuarios no autenticados (anónimos) se unan a una reunión con llamadas salientes, active la casilla **Permitir acceso telefónico a los participantes anónimos**. Con las llamadas salientes, el servidor de conferencia llama al usuario y este contesta el teléfono para participar en la reunión. Normalmente, los usuarios anónimos no pueden participar en una reunión con llamadas salientes.
     
-12. Si optó por permitir el uso de vídeo en **audio y vídeo,** compruebe **Permitir varias secuencias de vídeo**.
+12. Si optó por permitir el uso de vídeo en **audio y vídeo**, compruebe **Permitir varias secuencias de vídeo**.
     
 13. En **Colaboración de datos**, lleve a cabo uno de los siguientes procedimientos:
     
@@ -84,7 +79,7 @@ Puede crear directivas de conferencia mediante Skype Empresarial Server Panel de
     
     - Para impedir la transferencia de archivos, desactive la casilla **Permitir a los participantes transferir archivos**. Normalmente, los usuarios pueden transferir archivos.
     
-    - Para impedir el uso de anotaciones, desactive la casilla **Habilitar anotaciones**. Para el uso de anotaciones en presentaciones PowerPoint, desactive la casilla **Habilitar PowerPoint anotaciones**. Normalmente, las anotaciones se permiten.
+    - Para impedir el uso de anotaciones, desactive la casilla **Habilitar anotaciones**. Para usar anotaciones en presentaciones compartidas PowerPoint, desactive **la casilla Habilitar PowerPoint anotaciones**. Normalmente, las anotaciones se permiten.
     
     - Para impedir el uso de sondeos, desactive la casilla **Habilitar sondeos**. Normalmente, se permiten los sondeos.
     
@@ -118,7 +113,7 @@ Puede crear directivas de conferencia mediante Skype Empresarial Server Panel de
     
 ## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Crear directivas de conferencia mediante Skype Empresarial Server Shell de administración
 
-Para crear directivas de conferencia, use el cmdlet **New-CsConferencingPolicy.**
+Para crear directivas de conferencia, use el cmdlet **New-CsConferencingPolicy** .
   
 En el ejemplo siguiente se crea una nueva directiva de conferencia con identity SalesConferencingPolicy. Esta directiva usará todos los valores predeterminados para una directiva de conferencia excepto uno: MaxMeetingSize. En este ejemplo, el tamaño máximo de una reunión se establecerá en 50 en lugar del valor predeterminado de 250:
   

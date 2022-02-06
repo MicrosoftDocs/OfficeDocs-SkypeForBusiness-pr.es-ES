@@ -1,24 +1,19 @@
 ---
 title: Informes de uso del sistema en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: 'Resumen: obtenga información sobre los informes de uso del sistema en Skype Empresarial Server.'
-ms.openlocfilehash: cb1fd3fd05d553fa81f7c0646659f7593dad5869
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843883"
 ---
+
 # <a name="system-usage-reports-in-skype-for-business-server"></a>Informes de uso del sistema en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre los Informes de uso del sistema en Skype Empresarial Server.

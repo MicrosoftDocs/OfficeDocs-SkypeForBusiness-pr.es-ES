@@ -1,25 +1,20 @@
 ---
 title: Tabla McuJoinsAndLeaves en Skype Empresarial Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
-description: Cada registro de esta tabla contiene detalles de llamadas sobre una combinación de un servidor de conferencia o unión de usuario o de licencia. Por ejemplo, si un usuario se une a una conferencia que incluye conferencias web y elementos de audio y vídeo, se crearía un registro para la unión a conferencias web de ese usuario y se crearía otro registro para la unión a conferencias de audio y vídeo del usuario.
-ms.openlocfilehash: 35b229d7a3fecbd731fc044cb4c8e30b93e736b3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844973"
+description: 'Cada registro de esta tabla contiene detalles de llamadas sobre una combinación de un servidor de conferencia o unión de usuario o de licencia. Por ejemplo, si un usuario se une a una conferencia que incluye conferencias web y elementos de audio y vídeo, se crearía un registro para la unión a conferencias web de ese usuario y se crearía otro registro para la unión a conferencias de audio y vídeo del usuario.'
 ---
+
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>Tabla McuJoinsAndLeaves en Skype Empresarial Server 2015
  
 Cada registro de esta tabla contiene detalles de llamadas sobre una combinación de un servidor de conferencia o unión de usuario o de licencia. Por ejemplo, si un usuario se une a una conferencia que incluye conferencias web y elementos de audio y vídeo, se crearía un registro para la unión a conferencias web de ese usuario y se crearía otro registro para la unión a conferencias de audio y vídeo del usuario.

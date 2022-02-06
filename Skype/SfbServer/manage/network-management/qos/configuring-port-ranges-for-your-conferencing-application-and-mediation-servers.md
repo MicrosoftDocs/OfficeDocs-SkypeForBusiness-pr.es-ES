@@ -1,27 +1,22 @@
 ---
-title: Configuración de intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación
-ms.reviewer: ''
-ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
-ms:contentKeyID: 48184074
+title: 'Configuración de intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación'
+ms.reviewer: null
+'ms:assetid': 4d6eaa5d-0127-453f-be6a-e55384772d83
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)'
+'ms:contentKeyID': 48184074
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: En este artículo se describe cómo configurar intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación.
-ms.openlocfilehash: 9dfa3e7ccb5b69cd112911f700528cc6fc484d89
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856667"
+description: 'En este artículo se describe cómo configurar intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación.'
 ---
+
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>Configuración de intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación
 
 En este artículo se describe cómo configurar intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación.
@@ -124,19 +119,19 @@ Para crear una directiva de calidad de servicio para administrar audio, inicie s
 
 1.  En la Administración de directivas de grupo, busque el contenedor en el que se deba crear la nueva directiva. Por ejemplo, si todos los Skype Empresarial Server están ubicados en una OU denominada Skype Empresarial Server, la nueva directiva debe crearse en la unidad organizativa Skype Empresarial Server usuario.
 
-2.  Haga clic con el botón secundario en el contenedor adecuado y, a continuación, haga clic en Crear un GPO en este **dominio y vincule aquí**.
+2.  Haga clic con el botón secundario en el contenedor adecuado y, a continuación, haga clic en **Crear un GPO en este dominio y vincule aquí**.
 
-3.  En el cuadro de diálogo Nuevo **GPO,** escriba un  nombre para el nuevo objeto de directiva de grupo en el cuadro Nombre (por ejemplo, **Skype Empresarial Server QoS)** y, a continuación, haga clic en **Aceptar**.
+3.  En el **cuadro de diálogo Nuevo GPO**, escriba un nombre para el nuevo objeto de directiva de  grupo en el cuadro Nombre (por ejemplo, **Skype Empresarial Server QoS**) y, a continuación, haga clic en **Aceptar**.
 
-4.  Haga clic con el botón secundario en la directiva recién creada y, a continuación, haga clic **en Editar**.
+4.  Haga clic con el botón secundario en la directiva recién creada y, a continuación, haga clic en **Editar**.
 
 5.  En el Editor de administración de directivas de grupo, expanda **Configuración del equipo**, expanda **Directivas**, expanda **Configuración de Windows**, haga clic con el botón secundario en **QoS basada en directivas** y, a continuación, haga clic en **Crear nueva directiva**.
 
-6.  En el cuadro de diálogo **QoS** basado en directivas, en la página de apertura, escriba un nombre para la nueva directiva (por ejemplo, Skype Empresarial Server **QoS**) en el cuadro **Nombre.** Seleccione **Especificar el valor de DSCP** y, a continuación, defina el valor en **46**. Deje sin seleccionar **Especificar velocidad de salida del acelerador** y, a continuación, haga clic en **Siguiente**.
+6.  En el **cuadro de diálogo QoS** basado en directivas, en la página de apertura, escriba un nombre para la nueva directiva (por ejemplo, Skype Empresarial Server **QoS**) en el **cuadro Nombre.** Seleccione **Especificar el valor de DSCP** y, a continuación, defina el valor en **46**. Deje sin seleccionar **Especificar velocidad de salida del acelerador** y, a continuación, haga clic en **Siguiente**.
 
 7.  En la página siguiente, asegúrese de que **todas las aplicaciones** están seleccionadas y, a continuación, haga clic en **Siguiente**. Esto sirve, simplemente, para hacer que todas las aplicaciones relacionen los paquetes del intervalo de puertos especificado con el código DSCP especificado.
 
-8.  En la tercera página, asegúrese de que todas las direcciones IP de origen y cualquier dirección **IP** de destino están seleccionadas y, a continuación, haga clic **en Siguiente**. Con estas dos opciones de configuración activadas, los paquetes se administrarán sin importar qué equipo (dirección IP) los envió ni qué equipo (dirección IP) los recibirá.
+8.  En la tercera página, asegúrese de que todas las direcciones IP de origen y **cualquier dirección IP** de destino están seleccionadas y, a continuación, haga clic en **Siguiente**. Con estas dos opciones de configuración activadas, los paquetes se administrarán sin importar qué equipo (dirección IP) los envió ni qué equipo (dirección IP) los recibirá.
 
 9.  En la página cuatro, seleccione **TCP y UDP** en la lista desplegable **Seleccione el protocolo para el que se aplica esta directiva de QoS**. TCP (Transmission Control Protocol) y UDP (User Datagram Protocol) son los dos protocolos de red más usados por Skype Empresarial Server y sus aplicaciones cliente.
 
@@ -147,7 +142,7 @@ Para crear una directiva de calidad de servicio para administrar audio, inicie s
 
 Después de crear la directiva QoS para el tráfico de audio, debe crear una segunda directiva para el tráfico de vídeo (y, opcionalmente, una tercera directiva para administrar el tráfico de uso compartido de aplicaciones). Para crear una directiva destinada al vídeo, siga el mismo procedimiento básico que llevó a cabo al crear la directiva de audio, sustituyendo lo siguiente:
 
-  - Use un nombre de directiva diferente (y único) (por ejemplo, **Skype Empresarial Server Video**).
+  - Use un nombre de directiva diferente (y único) (por ejemplo, **Skype Empresarial Server Vídeo**).
 
   - Establezca el valor de DSCP **34** en lugar de 46. (Tenga en cuenta que no es necesario usar el valor de DSCP 34. El único requisito es usar un valor de DSCP distinto para el vídeo del que se usó para el audio.)
 
@@ -155,7 +150,7 @@ Después de crear la directiva QoS para el tráfico de audio, debe crear una seg
 
 Si decide crear una directiva para administrar el tráfico compartido de aplicaciones, debe crear una tercera directiva, realizando las siguientes sustituciones:
 
-  - Use un nombre de directiva diferente (y único) (por ejemplo, **Skype Empresarial Server uso compartido de aplicaciones).**
+  - Use un nombre de directiva diferente (y único) (por ejemplo, **Skype Empresarial Server uso compartido de aplicaciones**).
 
   - Establezca el valor de DSCP **24** en lugar de 46. (De nuevo, tenga en cuenta que no es necesario usar el valor de DSCP 24. El único requisito es usar un valor de DSCP distinto para el uso compartido de aplicaciones de los que se usaron para el audio y el vídeo.)
 
@@ -173,7 +168,7 @@ Para comprobar que se han aplicado las nuevas directivas de QoS, haga lo siguien
 
 2.  En el **cuadro de** diálogo Ejecutar, escriba **regedit** y, a continuación, presione ENTRAR.
 
-3.  En el Editor del Registro, expanda Equipo **,** expanda **HKEY LOCAL \_ \_ MACHINE**, **expanda SOFTWARE**, expanda **Directivas**, **expanda Microsoft**, expanda Windows y, **a** continuación, haga clic en **QoS**. Debajo de **QoS**, debería ver las claves del Registro de cada una de las directivas de QoS que acaba de crear. Por ejemplo, si creó dos directivas nuevas (una denominada Skype Empresarial Server Audio QoS y la otra denominada Skype Empresarial Server Video QoS), debería ver las entradas del Registro para Skype Empresarial Server Audio QoS y Skype Empresarial Server Video QoS.
+3.  En el Editor del Registro, expanda **Equipo,** **expanda HKEYLOCALMACHINE\_\_**, **SOFTWARE**, **Directivas,** **Microsoft**, expanda **Windows y,** a continuación, haga clic en **QoS**. Debajo de **QoS**, debería ver las claves del Registro de cada una de las directivas de QoS que acaba de crear. Por ejemplo, si creó dos directivas nuevas (una denominada Skype Empresarial Server Audio QoS y la otra denominada Skype Empresarial Server Video QoS), debería ver las entradas del Registro para Skype Empresarial Server Audio QoS y Skype Empresarial Server QoS de vídeo.
 
 Para asegurarse de que los paquetes de red se marquen con el valor de DSCP adecuado, debe crear también una nueva entrada del Registro en cada equipo, mediante el siguiente procedimiento:
 
@@ -181,12 +176,12 @@ Para asegurarse de que los paquetes de red se marquen con el valor de DSCP adecu
 
 2.  En el **cuadro de** diálogo Ejecutar, escriba **regedit** y, a continuación, presione ENTRAR.
 
-3.  En el Editor del Registro, expanda **HKEY \_ LOCAL \_ MACHINE**, **expanda SYSTEM**, **expand CurrentControlSet**, expand **services** y, a continuación, **expande Tcpip**.
+3.  En el Editor del Registro, expanda **HKEYLOCALMACHINE\_\_**, **SYSTEM**, **CurrentControlSet**, servicios **y, a** continuación, **Tcpip**.
 
 4.  Haga clic con el botón secundario en **Tcpip**, elija **Nuevo** y, a continuación, haga clic en **Clave**. Después de crear la nueva clave del Registro, escriba **QoS** y, a continuación, presione ENTRAR para cambiar el nombre de la clave.
 
 5.  Haga clic con el botón secundario en **QoS**, elija **Nuevo** y, a continuación, haga clic en **Valor de cadena**. Después de crear el nuevo valor del Registro, escriba **No usar NLA** y, a continuación, presione ENTRAR para cambiar el nombre del valor.
 
-6.  Haga doble clic en **No usar NLA**. En el cuadro de diálogo Editar **cadena,** escriba **1** en el cuadro **Datos de** valor y, a continuación, haga clic en **Aceptar**.
+6.  Haga doble clic en **No usar NLA**. En el **cuadro de diálogo Editar cadena** , escriba **1** en el cuadro Datos **de** valor y, a continuación, haga clic en **Aceptar**.
 
 7.  Cierre el Editor del Registro y reinicie el equipo.

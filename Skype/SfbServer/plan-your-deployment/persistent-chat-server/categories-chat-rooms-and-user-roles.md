@@ -1,25 +1,20 @@
 ---
-title: Categorías de chat persistente, salas de chat y roles de usuario en Skype Empresarial Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 'Categorías de chat persistente, salas de chat y roles de usuario en Skype Empresarial Server 2015'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Resumen: lea este tema para obtener información sobre categorías, salas de chat y roles de usuario y administrador para el servidor de chat persistente en Skype Empresarial Server 2015.'
-ms.openlocfilehash: 212e731da29bc327487e0e6512db413546d20670
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857257"
 ---
+
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Categorías de chat persistente, salas de chat y roles de usuario en Skype Empresarial Server 2015
  
 **Resumen:** Lea este tema para obtener información sobre categorías, salas de chat y roles de usuario y administrador para el servidor de chat persistente en Skype Empresarial Server 2015.
@@ -33,7 +28,7 @@ Puedes controlar el acceso a los salón de chat creando categorías de salón de
 - Roles de administrador
 
 > [!NOTE] 
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015. 
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015. 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>Categorías para organizar salas de chat
 
@@ -42,13 +37,13 @@ Las categorías permiten organizar los salas de chat y controlar qué usuarios y
 La razón principal para el concepto de miembros permitidos y denegados son los muros éticos. Por ejemplo, en las instituciones financieras y bancarias, es muy común disponer de límites de protección que impidan a los comerciantes y analistas compartir comunicaciones durante la implementación de directivas y convenciones. Para ello, el administrador puede crear categorías de manera que una categoría admita la creación y el uso de salones por parte de los comerciantes, mientras que la otra admita la creación y el uso de salones por parte de los analistas. Los usuarios no se pueden agregar como miembros de un salón de chat si la categoría principal lo impide.
   
 > [!IMPORTANT]
-> Los miembros permitidos y denegados de una categoría no son los mismos que un rol miembro, que se aplica **a** un salón de chat persistente.> Las búsquedas muestran todos los salas de chat abiertas y cerradas para los que el usuario que realiza la búsqueda está en la lista de miembros Permitidos y Denegados. Los salones secretos no se muestran a menos que el usuario que realiza la búsqueda sea miembro del salón secreto. De este modo, el usuario solo puede buscar salones de los que sea miembro o aquellos a los que pueda solicitar ser miembro. 
+> Los miembros permitidos y denegados de una categoría no son los mismos que un rol miembro, que se **aplica a un** salón de chat persistente.Las búsquedas de > muestran todos los salas de chat abiertos y cerrados para los que el usuario que realiza la búsqueda está en la lista de miembros Permitidos y Denegados. Los salones secretos no se muestran a menos que el usuario que realiza la búsqueda sea miembro del salón secreto. De este modo, el usuario solo puede buscar salones de los que sea miembro o aquellos a los que pueda solicitar ser miembro. 
   
 ## <a name="chat-rooms-and-user-roles"></a>Salas de chat y roles de usuario
 
 Además de los miembros permitidos y denegados para las categorías, también puede controlar el acceso a los salas de chat especificando los siguientes roles de usuario: Creador, Administrador, Miembro y Moderador.
   
-- **Creador:** usuarios que tienen permiso para crear salas de chat. Estos usuarios figuran en la lista de autores de determinadas categorías: pueden crear salones de chat en sus categorías, asignar miembros en función de la categoría y asignar administradores del salón de chat. El usuario que cree un salón de chat se agregará automáticamente como administrador del salón.
+- **Creador**: usuarios que tienen permiso para crear salas de chat. Estos usuarios figuran en la lista de autores de determinadas categorías: pueden crear salones de chat en sus categorías, asignar miembros en función de la categoría y asignar administradores del salón de chat. El usuario que cree un salón de chat se agregará automáticamente como administrador del salón.
     
     > [!NOTE]
     > Los autores solo están autorizados a crear salones de chat. La promoción automática al rol de Administrador es la que permite al Autor delimitar las pertenencias a grupos, etc., en los servicios de chat creados. 
@@ -60,7 +55,7 @@ Además de los miembros permitidos y denegados para las categorías, también pu
     > [!IMPORTANT]
     > En caso de que el administrador también sea autor en otra categoría, estará autorizado a cambiar la categoría a otra en la que esté autorizado a crear salones de chat. 
   
-- **Miembro:** usuarios que son miembros de un salón de chat. Estos usuarios pueden ver los salas de chat en el directorio (incluso si el salón de chat es secreto), así como suscribirse al salón de chat (incluidas las opciones de metadatos como mensajes no leídos, filtros de ego y filtros de palabras clave) y participar en el salón de chat (puede publicar, a menos que la sala sea una sala de auditorio donde solo los presentadores puedan publicar,  obtener contenido y buscar). Los usuarios que no son miembros del salón de chat pueden buscar el salón de chat si están en la lista Miembros permitidos de la categoría, pero necesitan solicitar acceso para unirse a estos salón de chat para acceder al contenido. (No hay acceso a solicitudes ni aprobaciones integradas en el sistema; estas se realizan externamente por correo electrónico, teléfono u otras formas de contacto).
+- **Miembro**: usuarios que son miembros de un salón de chat. Estos usuarios pueden ver los salas de chat en el directorio (incluso si el salón de chat es secreto), así como suscribirse al salón de chat (incluidas las opciones de metadatos como mensajes no leídos, filtros de ego y filtros de palabras clave) y participar en el salón de chat (puede publicar, a menos que la sala sea una sala de auditorio donde solo los presentadores puedan publicar,  obtener contenido y buscar). Los usuarios que no son miembros del salón de chat pueden buscar el salón de chat si están en la lista Miembros permitidos de la categoría, pero necesitan solicitar acceso para unirse a estos salón de chat para acceder al contenido. (No hay acceso a solicitudes ni aprobaciones integradas en el sistema; estas se realizan externamente por correo electrónico, teléfono u otras formas de contacto).
     
 - **Moderador**: usuarios que pueden publicar contenido en un salón de auditorio.
     
@@ -68,11 +63,11 @@ Además de los miembros permitidos y denegados para las categorías, también pu
 
 Los siguientes son roles de administrador para el servidor de chat persistente:
   
-- Administrador de **chat persistente:** el rol Administrador de chat persistente puede administrar los salas de chat (modificar todas las propiedades, incluidas la pertenencia, los administradores, las categorías, marcar las salas como deshabilitadas), así como crear y administrar categorías de salas de chat que definan quién puede crear y acceder a los salas de chat. Los administradores también pueden marcar salones de chat como deshabilitados y eliminar los salones de chat que ya no estén activos. Los administradores no están sujetos a las restricciones que tienen los Autores o los Miembros permitidos. Los administradores pueden crear cualquier tipo de salón de chat y agregarse a sí mismos como miembros de cualquier salón de chat. Los administradores también pueden modificar y administrar la configuración de chat persistente (propiedades de grupo, configuración global y configuración de cumplimiento) y también pueden planear e implementar la migración desde una implementación anterior del servidor de chat en grupo Skype Empresarial Server servidor de chat persistente de 2015.
+- Administrador de **chat persistente**: el rol Administrador de chat persistente puede administrar los salas de chat (modificar todas las propiedades, incluidas la pertenencia, los administradores, las categorías, marcar las salas como deshabilitadas), así como crear y administrar categorías de salas de chat que definan quién puede crear y acceder a los salas de chat. Los administradores también pueden marcar salones de chat como deshabilitados y eliminar los salones de chat que ya no estén activos. Los administradores no están sujetos a las restricciones que tienen los Autores o los Miembros permitidos. Los administradores pueden crear cualquier tipo de salón de chat y agregarse a sí mismos como miembros de cualquier salón de chat. Los administradores también pueden modificar y administrar la configuración de chat persistente (propiedades de grupo, configuración global y configuración de cumplimiento) y también pueden planear e implementar la migración desde una implementación anterior del servidor de chat en grupo Skype Empresarial Server servidor de chat persistente de 2015.
     
     Los administradores de chat persistente pueden administrar el servidor de chat persistente mediante el uso Windows PowerShell cmdlets de forma remota (es decir, desde un equipo que no sea el servidor de chat persistente). El servidor de chat persistente comprueba que el administrador de chat persistente es miembro del grupo local de administradores locales rtc en el servidor front-end del servidor de chat persistente.
     
-- **Skype Empresarial Server 2015 Administrador:** administrador de empresa general para Skype Empresarial Server 2015 responsable de la implementación.
+- **Skype Empresarial Server 2015 Administrador**: administrador de empresa general para Skype Empresarial Server 2015 responsable de la implementación.
     
 - **Administrador de operaciones**: usuario responsable de la administración de las operaciones diarias.
     

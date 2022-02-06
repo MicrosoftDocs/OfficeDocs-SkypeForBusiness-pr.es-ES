@@ -1,26 +1,21 @@
 ---
 title: Planeación de desactivar los métodos de autenticación heredados interna y externamente en la red
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: tracyp
-ms.assetid: ''
+ms.assetid: null
 description: En este artículo se describen los cmdlets que dan a los administradores un mayor control de los métodos de autenticación usados dentro y fuera de una empresa. Los administradores pueden activar o desactivar los métodos de autenticación interna o externamente en su red.
-ms.openlocfilehash: 845af6891d7da419ffd6fc5a4f663cfc2b61a01a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835068"
 ---
+
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planeación de desactivar los métodos de autenticación heredados interna y externamente en la red.
 
 > [!NOTE]
@@ -47,7 +42,7 @@ Estos cmdlets solo se instalarán después de la actualización acumulativa de j
 Es importante tener en cuenta que estas son las topologías admitidas implicadas en este escenario. Si necesita ir a Soporte técnico para obtener ayuda con el bloqueo de un método, por ejemplo, tendrá que tener una configuración entre los siguientes tipos. 
 
 > [!IMPORTANT]
-> En la tabla y las descripciones *siguientes,* la autenticación moderna se abrevia como __MA__ y *Windows la* autenticación integrada se abrevia como __Win__. Como recordatorio, Windows autenticación integrada se integra en dos métodos: autenticación NTLM y Kerberos. Tendrás que saber esto para leer la tabla correctamente.
+> En la tabla y las descripciones *siguientes, la* autenticación moderna se abrevia como __MA__ y *Windows la* autenticación integrada se abrevia como __Win__. Como recordatorio, Windows autenticación integrada se integra en dos métodos: autenticación NTLM y Kerberos. Tendrás que saber esto para leer la tabla correctamente.
 
 
 |       |Externamente  |Internamente  |Parámetro  |
@@ -60,13 +55,13 @@ Es importante tener en cuenta que estas son las topologías admitidas implicadas
 
 __Tipo 1 Descripción:__ Este es el escenario predeterminado cuando MA está __activado__ para Skype Empresarial Server. En otras palabras, este es el *punto de partida* cuando se configura MA.
 
-__Tipo 2 Descripción:__ Esta topología bloquea NTLM *externamente,* pero permite que NTLM o Kerberos (para clientes que no admiten ADAL) funcionen *internamente.* Si los clientes admiten ADAL, usarán MA internamente.
+__Tipo 2 Descripción:__ Esta topología bloquea NTLM *externamente*, pero permite que NTLM o Kerberos (para clientes que no admiten ADAL) funcionen *internamente*. Si los clientes admiten ADAL, usarán MA internamente.
 
 __Tipo 3 Descripción:__ Esta topología requiere MA para todos los usuarios. Todos los clientes compatibles con ADAL funcionarán en esta topología y las contraseñas no se aprovecharán si, por ejemplo, desactiva el uso de contraseñas con autenticación basada en certificados.
 
 __Tipo 4 Descripción:__ Esta topología bloquea NTLM *externamente y* MA internamente. Permite a *todos los clientes* usar métodos de autenticación heredados *internamente* (incluso clientes compatibles con ADAL).
 
-__Type 5 Description:__ *Externally*, your modern ADAL clients will use MA and any clients that don't support ADAL will use legacy authentication methods. Sin embargo, *internamente* *todos los clientes* usarán la autenticación heredada (incluidos todos los clientes compatibles con ADAL).
+__Tipo 5 Descripción:__ *Externamente*, los clientes modernos de ADAL usarán MA y los clientes que no admitan ADAL usarán métodos de autenticación heredados. Sin embargo, *internamente* *todos los clientes* usarán la autenticación heredada (incluidos todos los clientes compatibles con ADAL).
 
 Es muy fácil perder de vista el objetivo de proteger las contraseñas en las opciones disponibles. Tenga en cuenta que la situación ideal es usar MA externamente (por ejemplo, mediante la configuración de autenticación basada en certificados) para evitar ataques de DOS. Si lo aprovecha internamente para sus clientes modernos, también podrá probar su red con respecto a los ataques Skype Empresarial Server DOS.
 
@@ -74,12 +69,12 @@ Es muy fácil perder de vista el objetivo de proteger las contraseñas en las op
 
 El `Set-CsAuthConfig` cmdlet afecta a la configuración en los roles Registrador y Servicios web.
 
-Este cmdlet está diseñado para ejecutarse en el nivel global de su Skype Empresarial servidor. Se *puede* ejecutar en el nivel  de grupo, pero no se recomienda porque agregará complejidad a la instalación. Al ejecutar estos comandos en el nivel de grupo de servidores, si el grupo no tiene todos los roles incluidos (por ejemplo, no tiene servicios web), la configuración solo se establecerá para el rol registrador. En ese caso, los servicios web seguirán con la configuración desde el nivel global, lo que puede ser un comportamiento confuso (especialmente cuando esto se hace de forma involuntara).
+Este cmdlet está diseñado para ejecutarse en el nivel global de su Skype Empresarial servidor. Se *puede* ejecutar en el nivel de grupo, pero no  se recomienda porque agregará complejidad a la instalación. Al ejecutar estos comandos en el nivel de grupo de servidores, si el grupo no tiene todos los roles incluidos (por ejemplo, no tiene servicios web), la configuración solo se establecerá para el rol registrador. En ese caso, los servicios web seguirán con la configuración desde el nivel global, lo que puede ser un comportamiento confuso (especialmente cuando esto se hace de forma involuntara).
 
 Si un cliente usa la configuración del registrador de un grupo de servidores y la configuración de servicios web de otro grupo y la configuración de autenticación está en un estado incoherente, es posible que los clientes no puedan iniciar sesión.
 
 Además, si solo hay un rol presente para un grupo: 
-* Set- solo establecerá la configuración que corresponda al rol que existe. No se dará ninguna advertencia especial porque no se han establecido *algunas opciones de* configuración. 
+* Set- solo establecerá la configuración que corresponda al rol que existe. No se dará ninguna advertencia especial porque no se *han establecido algunas opciones de* configuración. 
 * Get- devolverá la configuración que corresponde al rol que existe y la configuración global del rol que no existe.
 * Si ninguna de las funciones está presente para un grupo de servidores, Set- y Get- devolverán un mensaje de error.
 * Si ambos roles están presentes para un grupo de servidores pero las directivas no están definidas en el nivel de grupo, Get- devolverá un mensaje de error.

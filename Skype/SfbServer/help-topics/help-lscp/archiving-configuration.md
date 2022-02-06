@@ -1,27 +1,22 @@
 ---
 title: Configuración de archivado
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchSettingMain
+  - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 description: 'Las configuraciones de archivado se usan para controlar las opciones de archivado Skype Empresarial Server implementación, incluida la habilitación y deshabilitación de las siguientes opciones:'
-ms.openlocfilehash: b2babf5e5fdc5c1a0f7b01bb0a22c516fde062d5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838812"
 ---
+
 # <a name="archiving-configuration"></a>Configuración de archivado
  
 Las configuraciones de archivado se usan para controlar las opciones de archivado Skype Empresarial Server implementación, incluida la habilitación y deshabilitación de las siguientes opciones:
@@ -68,5 +63,5 @@ La página **Configuración de archivado** muestra cada directiva de archivado c
     
 - **Actualizar** Puede actualizar la página **Configuración de** archivado para comprobar el estado de las opciones de todas las configuraciones de archivado.
     
-Para obtener más información sobre la característica y las funcionalidades de archivado, incluida la integración de Exchange, vea [Plan for archiving in Skype Empresarial Server 2015](../../plan-your-deployment/archiving/archiving.md), Deploy archiving for Skype Empresarial Server [2015](../../deploy/deploy-archiving/deploy-archiving.md)y [Manage archiving in Skype Empresarial Server 2015](../../manage/archiving/archiving.md).
+Para obtener más información sobre la característica y las funcionalidades de archivado, incluida la integración de Exchange, vea [Plan for archiving in Skype Empresarial Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype Empresarial Server 2015](../../deploy/deploy-archiving/deploy-archiving.md) y [Manage archiving in Skype Empresarial Server  2015](../../manage/archiving/archiving.md).
 

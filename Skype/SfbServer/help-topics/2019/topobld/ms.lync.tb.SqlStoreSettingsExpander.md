@@ -1,27 +1,22 @@
 ---
 title: Expansor de configuración de almacén SQL
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SqlStoreSettingsExpander
+  - ms.lync.tb.SqlStoreSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
-ROBOTS: NOINDEX, NOFOLLOW
-description: Para editar las propiedades de una SQL Server base de datos, debe cambiar la SQL Server de base de datos. No puede usar el cuadro de diálogo Editar propiedades para realizar tareas como mover la base de datos del servidor de archivado de un equipo a otro. Además, no puede usar el cuadro de diálogo Editar propiedades para cambiar la instancia de SQL Server que hospeda el almacén de administración central.
-ms.openlocfilehash: f77eeb2f397b02231b7d1b004c243f218967c040
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864107"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Para editar las propiedades de una SQL Server base de datos, debe cambiar la SQL Server de base de datos. No puede usar el cuadro de diálogo Editar propiedades para realizar tareas como mover la base de datos del servidor de archivado de un equipo a otro. Además, no puede usar el cuadro de diálogo Editar propiedades para cambiar la instancia de SQL Server que hospeda el almacén de administración central.'
 ---
+
 # <a name="sql-store-settings-expander"></a>Expansor de configuración de almacén SQL
  
 Para editar las propiedades de una SQL Server base de datos, debe cambiar la SQL Server de base de datos. No puede usar el cuadro **de diálogo Editar** propiedades para realizar tareas como mover la base de datos del servidor de archivado de un equipo a otro. Además, no puede usar el cuadro de diálogo **Editar** propiedades para cambiar la instancia de SQL Server que hospeda el almacén de administración central.
@@ -32,7 +27,7 @@ Para cambiar la instancia de SQL Server que usa cualquier base de datos que no s
   
 ### <a name="to-modify-an-instance-of-sql-server"></a>Para modificar una instancia de SQL Server
 
-1. Seleccione la base de datos adecuada en el **nodo SQL almacenes** y, a continuación, haga clic en Editar **propiedades**.
+1. Seleccione la base de datos adecuada en el **nodo SQL almacenes** y, a continuación, haga clic **en Editar propiedades**.
     
 2. En el cuadro de diálogo **Editar propiedades**, realice una de las siguientes acciones:
     
@@ -40,6 +35,6 @@ Para cambiar la instancia de SQL Server que usa cualquier base de datos que no s
     
    - Para usar una instancia de base de datos con nombre, seleccione **Instancia con nombre**, indique un nombre en el cuadro de texto y haga clic en **Aceptar**. Debe escribir solo el nombre de instancia (por ejemplo, ArchivingInstance) y no toda la ruta de acceso SQL Server instancia.
     
-Cuando trabaje en el cuadro de diálogo **Editar** propiedades, el Generador de topologías no comprobará que la instancia de base de datos que ha escrito sea una instancia válida. Por ejemplo, si escribe AccidentalmenteArchivingInstanec como el nombre de instancia y, a continuación, hace clic en **Aceptar,** el Generador de topologías aceptará esa instancia no válida. Antes de poder publicar esta topología, debe corregir este error: si no se puede encontrar una instancia de SQL Server, el Generador de topologías no creará esa instancia por usted.
+Cuando trabaje en el cuadro de diálogo **Editar** propiedades, el Generador de topologías no comprobará que la instancia de base de datos que ha escrito sea una instancia válida. Por ejemplo, si escribe AccidentalmenteArchivingInstanec como nombre de instancia y, a continuación, hace clic en **Aceptar**, el Generador de topologías aceptará esa instancia no válida. Antes de poder publicar esta topología, debe corregir este error: si no se puede encontrar una instancia de SQL Server, el Generador de topologías no creará esa instancia por usted.
   
 

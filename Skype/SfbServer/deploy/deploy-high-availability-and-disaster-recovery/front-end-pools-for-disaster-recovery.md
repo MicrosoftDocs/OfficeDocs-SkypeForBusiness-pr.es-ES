@@ -1,24 +1,19 @@
 ---
 title: Implementar grupos de servidores front-end emparejados para la recuperación ante desastres en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
-description: Puede decidir usar grupos de servidores front-end emparejados para proporcionar protección de recuperación ante desastres, pero hacerlo no es un requisito.
-ms.openlocfilehash: 27909f44f0d86cac3100437f7df094b5f72ba1be
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855104"
+description: 'Puede decidir usar grupos de servidores front-end emparejados para proporcionar protección de recuperación ante desastres, pero hacerlo no es un requisito.'
 ---
+
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Implementar grupos de servidores front-end emparejados para la recuperación ante desastres en Skype Empresarial Server
  
 Puede decidir usar grupos de servidores front-end emparejados para proporcionar protección de recuperación ante desastres, pero hacerlo no es un requisito.
@@ -84,6 +79,6 @@ Puede implementar fácilmente la topología de recuperación ante desastres de g
 > [!NOTE]
 > La **opción Conmutación por** error automática y conmutación por recuperación de voz y los intervalos de tiempo asociados en el Generador de topologías solo se aplican a las características de resistencia de voz que se introdujeron en Lync Server. La selección de esta opción no implica que la conmutación por error de grupos de servidores tratada en este documento sea automática. La conmutación por error y la conmutación por recuperación de grupos de servidores siempre requieren que un administrador invoque manualmente los cmdlets de conmutación por error y de conmutación por recuperación, respectivamente.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Recuperación ante desastres del grupo front-end en Skype Empresarial Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

@@ -1,25 +1,20 @@
 ---
 title: Servicio de elementos para panel de calidad de llamadas (CQD)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 'Summary: Learn about the Item Service, which is part of the Repository API for Call Quality Dashboard. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 58d141930d98704eac101feb5d0fe8994284b587
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848443"
 ---
+
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Servicio de elementos para panel de calidad de llamadas (CQD)
  
 **Resumen:** Obtenga información sobre el servicio de elementos, que forma parte de la API de repositorio para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
@@ -39,13 +34,13 @@ El Panel de calidad de llamadas guarda informes y consultas como elementos en la
   
 El servicio de elementos incluye los siguientes conceptos:
   
-- **Item:** el elemento básico del repositorio. Cada elemento es propiedad de exactamente un usuario.
+- **Item** : el elemento básico del repositorio. Cada elemento es propiedad de exactamente un usuario.
     
 - **Sub item:** la mecánica organizativa básica del repositorio. El elemento puede tener cero, uno o más elementos subordinados.
     
 - **Antecesores del** elemento: la lista de elementos, comenzando desde el elemento superior, que es el elemento predeterminado del usuario, lo que lleva a un elemento determinado.
     
-- **Contenido del elemento:** el contenido específico de la aplicación almacenado en Elementos. El Panel de calidad de llamadas guarda representaciones JSON de informes y consultas en contenido.
+- **Contenido del elemento** : el contenido específico de la aplicación almacenado en Elementos. El Panel de calidad de llamadas guarda representaciones JSON de informes y consultas en contenido.
     
 Las operaciones rest se incluyen en la tabla siguiente.
   

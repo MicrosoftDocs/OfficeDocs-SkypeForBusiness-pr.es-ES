@@ -1,27 +1,22 @@
 ---
 title: Directiva de ubicación Crear nuevo o editar existente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.NcsLocEdit
+  - ms.lync.lscp.NcsLocEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
-description: Puede configurar directivas de ubicación para determinar si enhanced 9-1-1 (E9-1-1) está habilitado y cómo se usa, así como cómo se usa la información de ubicación para los usuarios y los contactos.
-ms.openlocfilehash: da3f0d75cc5759ed7ccc8458873df942992e2f6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847793"
+description: 'Puede configurar directivas de ubicación para determinar si enhanced 9-1-1 (E9-1-1) está habilitado y cómo se usa, así como cómo se usa la información de ubicación para los usuarios y los contactos.'
 ---
+
 # <a name="location-policy-create-new-or-edit-existing"></a>Directiva de ubicación: Crear nuevos o editar los existentes
 
 Puede configurar directivas de ubicación para determinar si enhanced 9-1-1 (E9-1-1) está habilitado y cómo se usa, así como cómo se usa la información de ubicación para los usuarios y los contactos.
@@ -56,13 +51,13 @@ En la siguiente lista se describen los campos de la página.
 - **Máscara de marcado E9-1-1** Especifique un número que marca un usuario, que luego se convierte en el número de marcado de emergencia. Por ejemplo, especifique un valor de 212 en este campo para que un usuario pueda marcar 212 para tener acceso a servicios de emergencia. Esto permite que se marquen números de emergencia alternativos y que la llamada llegue a los servicios de emergencia (por ejemplo, si alguien de un país o región con un número de emergencia diferente intenta marcar el número de ese país o región en lugar del número del país o región en el que se encuentra actualmente). Para definir varias máscaras de marcado de emergencia, separe los valores con punto y coma. Por ejemplo, 212;414. La longitud máxima de la cadena es de 100 caracteres. Todos los caracteres deben ser dígitos del 0 al 9.
 
     > [!IMPORTANT]
-    > Asegúrese de que la máscara de marcado no es la misma que el número del intervalo numérico de estacionamiento de llamadas, ya que el enrutamiento de estacionamiento de llamadas prevalece sobre la conversión de cadenas de marcado de emergencia. Para ver los intervalos de números de estacionamiento de llamadas, haga clic en **Características** de voz en la barra de navegación izquierda y, a continuación, haga clic en **Estacionamiento de llamadas.**
+    > Asegúrese de que la máscara de marcado no es la misma que el número del intervalo numérico de estacionamiento de llamadas, ya que el enrutamiento de estacionamiento de llamadas prevalece sobre la conversión de cadenas de marcado de emergencia. Para ver los intervalos de números de estacionamiento de llamadas, haga clic en **Características** de voz en la barra de navegación izquierda y, a continuación, haga clic en **Estacionamiento de llamadas**.
 
 - **URI de notificación** Especifique uno o varios URI de SIP que se notificarán cuando se realiza una llamada de emergencia. Por ejemplo, escriba el URI del SIP del departamento de seguridad de la empresa para notificar al personal de seguridad mediante mensajería instantánea si se realiza una llamada de emergencia. Si la ubicación del autor de la llamada está disponible, la ubicación se incluye en la notificación. Se pueden incluir varios URI del SIP, separados por comas, en una lista. Por ejemplo, "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". La cadena debe tener entre 1 y 256 caracteres de longitud y debe comenzar con el prefijo "sip:". También puede especificar listas de distribución.
 
 - **URI de conferencia** Especifique el URI de SIP (número de teléfono, en este caso) para que un tercero pueda ser conferenciado en llamadas de emergencia. Por ejemplo, escriba el número de teléfono del departamento de seguridad de la empresa para que reciba una llamada cuando se realice una llamada de emergencia. La configuración del **modo de conferencia** determina si el tercero puede participar o solo escuchar en la llamada. La cadena debe tener entre 1 y 256 caracteres de longitud y debe comenzar con el prefijo sip:.
 
-- **Modo de conferencia** Si especificó un valor para **el URI de** conferencia, establezca este campo en uno de los siguientes valores:
+- **Modo de conferencia** Si especificó un valor para **el URI** de conferencia, establezca este campo en uno de los siguientes valores:
 
   - **Un solo sentido** Especifica que el tercero solo puede escuchar la llamada entre el autor de la llamada y el operador PSAP.
 

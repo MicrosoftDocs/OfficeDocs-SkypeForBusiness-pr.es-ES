@@ -1,28 +1,23 @@
 ---
 title: Conexiones SIP directas en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Las conexiones SIP directas se admiten Skype Empresarial Server puertas de enlace RTC y IP-PBX en Telefonía IP empresarial.
-ms.openlocfilehash: 8a615197a01fafbdf29c838b28a6d12e06f37d00
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848403"
 ---
+
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexiones SIP directas en Skype Empresarial Server
 
 Las conexiones SIP directas se admiten Skype Empresarial Server puertas de enlace RTC y IP-PBX en Telefonía IP empresarial.
@@ -59,7 +54,7 @@ En la siguiente figura se muestra la topología genérica para la implementació
 ![Diagrama de opciones de migración departamental.](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
-> Si va a conectar la implementación de Skype Empresarial Server a un partner SIP directo certificado, no es necesaria una puerta de enlace de red telefónica conmutada (RTC) entre el servidor de mediación y la PBX. Para obtener una lista de asociados SIP directos certificados, vea el Programa de interoperabilidad abierta de comunicaciones unificadas  [de Microsoft](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
+> Si va a conectar la implementación de Skype Empresarial Server a un partner SIP directo certificado, no es necesaria una puerta de enlace de red telefónica conmutada (RTC) entre el servidor de mediación y la PBX. Para obtener una lista de asociados SIP directos certificados, consulte el Programa de interoperabilidad abierta de comunicaciones  [unificadas de Microsoft](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
 
 > [!NOTE]
 > La ruta de acceso multimedia que se muestra en esta figura tiene habilitada la omisión de medios (la configuración recomendada). Si opta por deshabilitar la omisión de medios, la ruta de acceso multimedia se enruta a través del servidor de mediación.
@@ -68,7 +63,7 @@ En esta topología, los departamentos o grupos de trabajo seleccionados están h
 
 Hay dos configuraciones recomendadas para conectar Telefonía IP empresarial a una infraestructura PBX existente para la interoperabilidad: Telefonía IP empresarial detrás de la PBX y Telefonía IP empresarial delante de la PBX.
 
-#### <a name="enterprise-voice-behind-the-pbx"></a>Telefonía IP empresarial Detrás de la PBX
+#### <a name="enterprise-voice-behind-the-pbx"></a>Telefonía IP empresarial detrás de la PBX
 
 Cuando Telefonía IP empresarial se implementa detrás de la PBX, todas las llamadas de la RTC llegan a la PBX, que enruta las llamadas Telefonía IP empresarial los usuarios a una puerta de enlace RTC y las llamadas a los usuarios de PBX a la PBX.
 

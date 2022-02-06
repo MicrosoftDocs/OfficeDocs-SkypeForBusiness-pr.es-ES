@@ -1,26 +1,21 @@
 ---
 title: Planear el almacén de contactos unificado en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 6/8/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: 'Resumen: revise este tema al planear la integración de Skype Empresarial Server con Exchange 2013.'
-ms.openlocfilehash: 9334d8cdacfcc4ab2bf6cc733ce26faa7ff05280
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855234"
 ---
+
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Planear el almacén de contactos unificado en Skype Empresarial Server 2015
  
 **Resumen:** Revise este tema mientras planea integrar Skype Empresarial Server con Exchange 2013 o 2016.
@@ -42,6 +37,6 @@ Para implementar el almacén de contactos unificado en Skype Empresarial Server:
     > [!NOTE]
     > Para conocer los requisitos detallados sobre cómo configurar la autenticación entre Skype Empresarial Server y Exchange 2013 o 2016, consulte [Manage server-to-server authentication (OAuth) and partner applications in Skype Empresarial Server](../../manage/authentication/server-to-server-and-partner-applications.md) en la documentación sobre operaciones.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Implementar el almacén de contactos unificado en Skype Empresarial Server](../../deploy/deploy-unified-contact-store.md)

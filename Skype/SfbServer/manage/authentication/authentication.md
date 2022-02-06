@@ -1,25 +1,20 @@
 ---
 title: Administrar la autenticación en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
 description: 'Resumen: use los siguientes procedimientos para administrar la Skype Empresarial Server seguridad y autenticación.'
-ms.openlocfilehash: b66dfe414b8ce4be7ca699c21d672cae785012fa
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830944"
 ---
+
 # <a name="manage-authentication-in-skype-for-business-server"></a>Administrar la autenticación en Skype Empresarial Server
  
 **Resumen:** Use los siguientes procedimientos para administrar Skype Empresarial Server seguridad y autenticación.

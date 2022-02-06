@@ -1,34 +1,29 @@
 ---
 title: 'Panel de control: búsqueda de usuario actualizada'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.UserMain
+  - ms.lync.lscp.UserMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
-ROBOTS: NOINDEX, NOFOLLOW
-description: Puede usar los resultados de una consulta de búsqueda para configurar usuarios para Skype Empresarial Server. Puede buscar usuarios según el nombre para mostrar, el nombre, los apellidos, el número de cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea. También puede buscar usuarios mediante el Panel de control de Lync Server o el complemento Usuarios y equipos de Active Directory.
-ms.openlocfilehash: 3c5bdc9de490adbc022f00342d291d012da78d4b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854934"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Puede usar los resultados de una consulta de búsqueda para configurar usuarios para Skype Empresarial Server. Puede buscar usuarios según el nombre para mostrar, el nombre, los apellidos, el número de cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea. También puede buscar usuarios mediante el Panel de control de Lync Server o el complemento Usuarios y equipos de Active Directory.'
 ---
+
 # <a name="control-panel---updated-user-search"></a>Panel de control actualizado: Búsqueda de usuarios
 
 Puede usar los resultados de una consulta de búsqueda para configurar usuarios para Skype Empresarial Server. Puede buscar usuarios según el nombre para mostrar, el nombre, los apellidos, el número de cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea. También puede buscar usuarios mediante el Panel de control de Lync Server o el complemento Usuarios y equipos de Active Directory.
 
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
-Puede realizar las siguientes tareas en la **página** Panel de control de búsqueda del usuario:
+Puede realizar las siguientes tareas en **la página Panel** de control de búsqueda del usuario:
 
 - [Buscar usuarios](/previous-versions/office/lync-server-2013/lync-server-2013-search-for-lync-server-users)
 
@@ -76,11 +71,11 @@ Agregar texto descriptivo adicional, según sea conveniente.
 
 ### <a name="search-results-menus"></a>Menús de búsqueda de resultados
 
-- **Habilitar usuarios** Haga clic para abrir el [cuadro de diálogo Usuarios: Nuevo](ms.lync.lscp.UserNew.md) usuario de Lync Server, donde puede agregar un nuevo usuario a Skype Empresarial Server.
+- **Habilitar usuarios** Haga clic para abrir el [cuadro de diálogo Usuarios: Nuevo usuario de Lync Server](ms.lync.lscp.UserNew.md), donde puede agregar un nuevo usuario a Skype Empresarial Server.
 
     Para agregar un nuevo contacto, haga clic en la flecha abajo y luego seleccione **Activar contactos** para abrir el cuadro de diálogo de [Users: New Contact Objects](ms.lync.lscp.UserNewContact.md).
 
-- **Editar** Haga **clic en** Editar y, a continuación, en Mostrar detalles para mostrar los detalles del usuario seleccionado, o haga clic en **Seleccionar** todos los resultados de búsqueda para seleccionar todos los usuarios que se muestran en la tabla de resultados. 
+- **Editar** Haga **clic en** Editar y, a continuación, en Mostrar detalles para mostrar los detalles del usuario seleccionado, o haga clic en **Seleccionar** todos los resultados de búsqueda para seleccionar todos los usuarios que se muestran en la tabla de resultados.
 
 - **Acción** Haga **clic en** Acción y, a continuación, seleccione la acción que desea realizar para los usuarios seleccionados en los resultados de búsqueda. Están disponibles las siguientes acciones:
 
@@ -88,11 +83,11 @@ Agregar texto descriptivo adicional, según sea conveniente.
 
   - **Deshabilitar temporalmente para Lync Server** Deshabilita la cuenta de usuario en Skype Empresarial Server hasta que vuelva a habilitarla, sin quitar la cuenta de usuario.
 
-  - **Asignar directivas** Abre el [cuadro de diálogo Usuarios: Asignar directivas,](ms.lync.lscp.UserAssignPolicy.md) donde puede configurar las directivas asignadas al usuario.
+  - **Asignar directivas** Abre el [cuadro de diálogo Usuarios: Asignar directivas](ms.lync.lscp.UserAssignPolicy.md) , donde puede configurar las directivas asignadas al usuario.
 
-  - **Ver estado del PIN** Abre el [cuadro de diálogo Usuarios: Ver](ms.lync.lscp.UserViewPin.md) estado del PIN, que muestra los datos de PIN del usuario seleccionado.
+  - **Ver estado del PIN** Abre el [cuadro de diálogo Usuarios: Ver estado del PIN](ms.lync.lscp.UserViewPin.md) , que muestra los datos de PIN del usuario seleccionado.
 
-  - **Establecer PIN** Abre el cuadro de diálogo Establecer [PIN,](ms.lync.lscp.UserSetPin.md) donde puede establecer el PIN para el usuario seleccionado.
+  - **Establecer PIN** Abre el [cuadro de diálogo Establecer PIN](ms.lync.lscp.UserSetPin.md) , donde puede establecer el PIN para el usuario seleccionado.
 
   - **BLOQUEAR PIN** Bloquea el PIN del usuario.
 

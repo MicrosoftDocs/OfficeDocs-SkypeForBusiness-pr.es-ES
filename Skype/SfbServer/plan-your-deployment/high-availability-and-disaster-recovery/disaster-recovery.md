@@ -1,25 +1,20 @@
 ---
 title: Recuperación ante desastres del grupo front-end en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
-description: Para la recuperación ante desastres, Skype Empresarial Server el emparejamiento de grupos con conmutación por error en caso de que un grupo de servidores se desalome.
-ms.openlocfilehash: fa63aa9d549f64508f32c32ede24f34592a88719
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833326"
+description: 'Para la recuperación ante desastres, Skype Empresarial Server el emparejamiento de grupos con conmutación por error en caso de que un grupo de servidores se desalome.'
 ---
+
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Recuperación ante desastres del grupo front-end en Skype Empresarial Server
  
 Para la recuperación ante desastres, Skype Empresarial Server el emparejamiento de grupos con conmutación por error en caso de que un grupo de servidores se desalome.
@@ -86,7 +81,7 @@ Si bien el riesgo de ataques de tipo "man in the middle" dentro de la red corpor
   
 ### <a name="mitigating-security-risks"></a>Mitigación de riesgos de seguridad
 
-Tiene muchas formas de mejorar la protección de seguridad para el tráfico del servicio de copia de seguridad. Esto va desde restringir el acceso a los centros de datos hasta proteger el transporte WAN entre los dos centros de datos. En la mayoría de los casos, las Skype Empresarial Server que ya tienen la infraestructura de seguridad necesaria en su lugar. Para las empresas que buscan orientación, Microsoft proporciona una solución como ejemplo de cómo crear una infraestructura de TI segura. Para obtener más información, vea [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) . 
+Tiene muchas formas de mejorar la protección de seguridad para el tráfico del servicio de copia de seguridad. Esto va desde restringir el acceso a los centros de datos hasta proteger el transporte WAN entre los dos centros de datos. En la mayoría de los casos, las Skype Empresarial Server que ya tienen la infraestructura de seguridad necesaria en su lugar. Para las empresas que buscan orientación, Microsoft proporciona una solución como ejemplo de cómo crear una infraestructura de TI segura. Para obtener más información, vea [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)). 
   
 No implicamos que sea la única solución, ni implicamos que sea la solución preferida para Skype Empresarial Server. Se recomienda que los clientes empresariales elijan la solución según sus necesidades específicas, en función de su infraestructura y requisitos de seguridad de TI. La solución de Microsoft de ejemplo emplea IPSec y la directiva de grupo para el aislamiento de servidores y dominios.
   
@@ -99,6 +94,6 @@ Otra solución posible es usar IPSec solo para ayudar a proteger los datos envia
 > [!CAUTION]
 >  IPsec no está pensado como un reemplazo para la seguridad de nivel de aplicación, como SSL/TLS. Una ventaja de usar IPsec es que puede proporcionar seguridad de tráfico de red para las aplicaciones existentes sin tener que cambiarlas. Las empresas que quieran proteger el transporte entre los dos centros de datos deben consultar a sus respectivos proveedores de hardware de red sobre formas de configurar conexiones WAN seguras mediante el equipamiento del proveedor.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Implementar grupos de servidores front-end emparejados para la recuperación ante desastres en Skype Empresarial Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

@@ -1,25 +1,20 @@
 ---
 title: Obtener últimos datos de integración
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 'Resumen: obtenga información sobre la operación Obtener últimos datos de integración, que forma parte de la API de datos para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 7bc9323c4a2d3933706be0a39a2ff4b86b11eb42
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851974"
 ---
+
 # <a name="get-last-integration-data"></a>Obtener últimos datos de integración
  
 **Resumen:** Obtenga información sobre la operación Obtener últimos datos de integración, que forma parte de la API de datos para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.
@@ -35,19 +30,19 @@ Esta característica está deshabilitada de forma predeterminada y debe habilita
 
 |**Método**|**URI de solicitud**|**Versión HTTP**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
    
- **Parámetros uri:** ninguno.
+ **Parámetros uri** : ninguno.
   
- **Encabezados de solicitud:** no hay encabezados adicionales.
+ **Encabezados de solicitud** : no hay encabezados adicionales.
   
  **Cuerpo de la** solicitud: ninguno.
   
- **Respuesta:** la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
+ **Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
   
- **Código de estado:** una operación correcta devuelve el código de estado 200 (Aceptar).
+ **Código de estado** : una operación correcta devuelve el código de estado 200 (Aceptar).
   
- **Encabezados de respuesta:** no hay encabezados adicionales.
+ **Encabezados de respuesta** : no hay encabezados adicionales.
   
  **Cuerpo de la** respuesta: a continuación se muestra un estado de registro de ejemplo.
   

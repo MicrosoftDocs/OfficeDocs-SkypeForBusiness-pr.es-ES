@@ -1,33 +1,28 @@
 ---
 title: Comité de dirección para la implementación de voz en la nube
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Identifique un grupo directivo de partes interesadas clave y jefes de proyecto para identificar los objetivos de implementación, realizar un seguimiento del progreso y eliminar los bloqueadores.
+description: 'Identifique un grupo directivo de partes interesadas clave y jefes de proyecto para identificar los objetivos de implementación, realizar un seguimiento del progreso y eliminar los bloqueadores.'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cd588928f71926981c42f7c909e00c544243279e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858877"
 ---
+
 # <a name="steering-committee"></a>Comité de dirección
 
 ## <a name="steering-committee-overview"></a>Información general del comité de dirección
 
-Un comité de dirección es un grupo de gobierno de partes interesadas clave y jefes de proyecto que se han reunido para guiar un proyecto o programa hacia sus resultados empresariales definidos. El comité de dirección no es directamente responsable *de* cómo se entrega el proyecto, sino de lo que el proyecto entrega a la empresa. 
+Un comité de dirección es un grupo de gobierno de partes interesadas clave y jefes de proyecto que se han reunido para guiar un proyecto o programa hacia sus resultados empresariales definidos. El comité de dirección no es directamente *responsable de cómo* se entrega el proyecto, sino de  lo que el proyecto entrega a la empresa.
 
 Cada proyecto requiere una visión y una carta acordadas. Para ofrecer los resultados deseados de los proyectos, la visión debe estar claramente definida, debe supervisarse y mantenerse. Esto se convierte en responsabilidad del comité de dirección: impulsar decisiones, aconsejar, proporcionar supervisión estratégica, servir como defensores de la organización para las iniciativas del proyecto y, cuando sea necesario, quitar bloqueadores.
 
@@ -128,7 +123,7 @@ Los siguientes activos deben completarse e incluirse en el deck de presentación
 
         -   Identifique los pasos siguientes y qué ayuda podrían necesitar los miembros del comité.
 
--   Información general sobre la calidad: Use las instrucciones [de Preparar la](prepare-network.md)red para Teams .
+-   Información general sobre la calidad: Use las instrucciones [de Preparar la red para Teams](prepare-network.md).
 
     -   Prepárese para explicar en profundidad los resultados de esos informes de calidad e incluya recomendaciones para corregir los problemas que se han observado.
 

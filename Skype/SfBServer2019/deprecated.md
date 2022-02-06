@@ -1,24 +1,19 @@
 ---
 title: Lo que está en desuso Skype Empresarial Server 2019
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Resumen: estas características se han quitado de Skype Empresarial Server 2019.'
-ms.openlocfilehash: 7f956aed60a65d074776756e0c6254e2aa3d9629
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846983"
 ---
+
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Lo que está en desuso Skype Empresarial Server 2019
 
 Obtenga información sobre las características y funcionalidades que están en desuso en Skype Empresarial Server 2019. Para obtener información sobre las nuevas características de Skype Empresarial Server 2019, vea [What's in Skype Empresarial Server 2019](whats-new.md).
@@ -37,11 +32,11 @@ Skype Empresarial Server 2015 y sus predecesoras le permitieron configurar un pr
 
 El servidor de chat persistente es un rol opcional que permite a varios usuarios de la organización participar en conversaciones de salón de chat que persisten con el tiempo. El chat persistente no se puede implementar con Skype Empresarial Server 2019. Este rol de servidor se quita del Generador de topologías y del código. 
 
-La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here).
+La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here).
 
-### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL Creación de reflejos para Skype Empresarial Server
+### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL creación de reflejo para Skype Empresarial Server
 
-SQL La creación de reflejos no se puede implementar Skype Empresarial Server 2019. Todavía se admiten otras opciones para proporcionar alta disponibilidad y recuperación ante desastres y debe elegir entre ellas. Consulte [Plan for high availability and disaster recovery in Skype Empresarial Server](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) para revisar las opciones.
+SQL creación de reflejo no se puede implementar con Skype Empresarial Server 2019. Todavía se admiten otras opciones para proporcionar alta disponibilidad y recuperación ante desastres y debe elegir entre ellas. Consulte [Plan for high availability and disaster recovery in Skype Empresarial Server](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) para revisar las opciones.
 
 ### <a name="in-place-upgrades"></a>Actualizaciones locales 
 
@@ -51,15 +46,15 @@ Las actualizaciones locales estaban disponibles en Skype Empresarial Server 2015
 
 Todos los clientes Skype Empresarial móviles ya usan la API web de comunicaciones unificadas (UCWA) para admitir mensajería instantánea (MI), presencia y contactos. Los usuarios con clientes heredados que usen Mcx tendrán que actualizar a un cliente actual.
 
-Para obtener más información, vea [Plan for Mobility for Skype Empresarial Server](../SfbServer/plan-your-deployment/mobility.md) and Mobile client feature comparison for [Skype Empresarial](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md).
+Para obtener más información, vea [Plan for Mobility for Skype Empresarial Server](../SfbServer/plan-your-deployment/mobility.md) and [Mobile client feature comparison for Skype Empresarial](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md).
 
 ## <a name="tools"></a>Herramientas
 
 Las siguientes herramientas no estarán disponibles para su uso en la versión inicial de Skype Empresarial Server 2019:
 
 - Calculadora de planeamiento de capacidad de Skype Empresarial Server
-- Skype Empresarial Server Herramientas de depuración
-- Skype Empresarial Server Herramientas del kit de recursos (se quitarán algunas herramientas)
+- Skype Empresarial Server de depuración
+- Skype Empresarial Server de kit de recursos (se quitarán algunas herramientas)
     - Parkometer de llamadas
     - Consola de usuario de búsqueda
     - Número sinsignado Migración de anuncios
@@ -71,7 +66,7 @@ Las siguientes herramientas no son compatibles con Skype Empresarial Server 2019
 - Skype Empresarial Server de planeación de 2015
 - Skype Empresarial Server 2015 Stress and Performance Tool
 
-### <a name="see-also"></a>Consulte también
+### <a name="see-also"></a>Vea también
 
 [Novedades de Skype Empresarial Server 2019](whats-new.md)
 

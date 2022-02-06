@@ -1,28 +1,23 @@
 ---
 title: Acerca del enrutamiento entre troncos en Skype Empresarial Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: Obtenga información sobre Skype Empresarial Server Telefonía IP empresarial admite el enrutamiento entre troncos.
-ms.openlocfilehash: 16a67af73db89f884f797c24123b984d3eb87789
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855417"
 ---
+
 # <a name="about-inter-trunk-routing-in-skype-for-business-server"></a>Acerca del enrutamiento entre troncos en Skype Empresarial Server
  
 Obtenga información sobre Skype Empresarial Server Telefonía IP empresarial admite el enrutamiento entre troncos.
