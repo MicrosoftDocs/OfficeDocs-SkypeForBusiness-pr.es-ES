@@ -1,8 +1,8 @@
 ---
 title: Habilitar la recogida de llamadas de grupo para los usuarios y asignar un número de grupo en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: Habilite a los usuarios para la recogida de llamadas de grupo Skype Empresarial Server Telefonía IP empresarial y asigne un número de grupo.
-ms.openlocfilehash: ab98244c570acbd7354abb7b7f6bed2fd85cf407
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5ebb5d4f2f84133b0c226773fd71c66f687ca5f9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864357"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390702"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Habilitar la recogida de llamadas de grupo para los usuarios y asignar un número de grupo en Skype Empresarial
 
@@ -48,6 +48,6 @@ Después de agregar números de grupo de recogida de llamadas a la tabla de órb
    SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Deshabilitar la recogida de grupos para usuarios](/previous-versions/office/lync-server-2013/lync-server-2013-disable-group-call-pickup-for-users)

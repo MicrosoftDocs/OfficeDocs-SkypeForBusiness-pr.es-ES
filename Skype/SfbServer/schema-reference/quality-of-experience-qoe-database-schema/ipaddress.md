@@ -1,8 +1,8 @@
 ---
 title: Tabla IPAddress
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ec018b9-158e-4bbe-ad46-869e60315555
 description: La tabla IPAddress asigna direcciones IP a los identificadores de dirección IP únicos que se usan en otras partes de la base de datos de calidad de la experiencia. Esta tabla se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 7a99971192d0f72f4130e3b88bf6e620af78270c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 52086b456d9011730252c8c104aba46369467350
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849603"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390822"
 ---
 # <a name="ipaddress-table"></a>Tabla IPAddress
  

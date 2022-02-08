@@ -5,8 +5,8 @@ ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)
 ms:contentKeyID: 48679566
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Obtenga información sobre cómo configurar la compatibilidad con usuarios de proveedores federados SIP.
-ms.openlocfilehash: a5812eafc92e466306d7047d2adb48338bef783d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b6a28714ec3ad81470f362f49605d0be4805dbe2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837582"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392562"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Administrar proveedores federados SIP para su organización en Skype Empresarial Server
 
@@ -36,9 +36,9 @@ Para configurar la admisión de los usuarios de proveedores federados de SIP, re
 
 La conectividad de mensajería instantánea (MI) pública permite a los usuarios de la organización usar mensajería instantánea para comunicarse con los usuarios de los servicios de mensajería instantánea proporcionados por proveedores públicos.
 
-Skype Empresarial Server tiene configuraciones de proveedor público para mensajería instantánea. Cada proveedor público está configurado con el nombre de dominio completo del servidor perimetral del proveedor y el nivel de verificación predeterminado Permitir a los usuarios comunicarse solo con personas de su lista de contactos que usan **este proveedor.**
+Skype Empresarial Server tiene configuraciones de proveedor público para mensajería instantánea. Cada proveedor público está configurado con el nombre de dominio completo del servidor perimetral del proveedor y el nivel de comprobación predeterminado Permite a los usuarios comunicarse solo con personas de su lista de contactos que usan **este proveedor**.
 
-Como configuración predeterminada, no está habilitado ninguno de los proveedores públicos. Debe rellenar el contrato de licencia y proporcionar el trabajo antes de habilitar los proveedores públicos. Puede habilitar al proveedor antes de completar la licencia y proporcionar el trabajo. Los usuarios no podrán comunicarse con los contactos de estos proveedores hasta que haya finalizado el trabajo como requisito previo. Para obtener más información sobre las licencias y el aprovisionamiento de proveedores públicos, vea [Configure policies to control public user acces](../external-access-policies/configure-policies-to-control-public-user-access.md).
+Como configuración predeterminada, no está habilitado ninguno de los proveedores públicos. Debe rellenar el contrato de licencia y proporcionar el trabajo antes de habilitar los proveedores públicos. Puede habilitar al proveedor antes de completar la licencia y proporcionar el trabajo. Los usuarios no podrán comunicarse con los contactos de estos proveedores hasta que haya finalizado el trabajo como requisito previo. Para obtener información detallada sobre las licencias y el aprovisionamiento de proveedores públicos, vea [Configure policies to control public user acces](../external-access-policies/configure-policies-to-control-public-user-access.md).
 
 Use el siguiente procedimiento para crear o editar proveedores públicos.
 
@@ -104,7 +104,7 @@ Use el siguiente procedimiento para crear o editar proveedores hospedados.
 7.  Cuando haya terminado de configurar los parámetros, haga clic en **Confirmar** para guardar o haga clic en **Cancelar** para descartar los cambios.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 [Configurar directivas para controlar los accesos de usuarios públicos](../external-access-policies/configure-policies-to-control-public-user-access.md)

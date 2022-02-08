@@ -1,7 +1,7 @@
 ---
 title: Configurar un Microsoft Teams de reunión para Google Workspace
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aravin
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5b3d873dd327be4cbc28d4d979ad06cb6f9c9ea
-ms.sourcegitcommit: 9ed5aecbf671accae93ac5084ad7875e82e3858b
+ms.openlocfilehash: b93fecea83a4fb44a19f490af514626a0d17f3ff
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/31/2021
-ms.locfileid: "61648888"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388992"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurar un Microsoft Teams de reunión para Google Workspace
 
@@ -39,9 +39,9 @@ El complemento está habilitado de forma predeterminada.
 
 1. Inicie sesión en Azure Portal.
 
-2. Seleccione **Enterprise todas las**  >  **aplicaciones**.
+2. Seleccione **Enterprise todas las** >  **aplicaciones**.
 
-3. Busque el **Microsoft Teams reunión de Google Workspace.**
+3. Busque el **Microsoft Teams reunión de Google Workspace**.
 
    ![Azure Portal que muestra todas las aplicaciones.](media/aad-add-google-workspace.png)
 
@@ -73,7 +73,7 @@ if ($servicePrincipal) {
 }
 ```
 
-Para obtener más información, vea Crear una entidad de [servicio de Azure con Azure PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0).
+Para obtener más información, vea [Crear una entidad de servicio de Azure con Azure PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0).
 
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Eliminar el complemento Microsoft Teams reunión de Google Workspace
 

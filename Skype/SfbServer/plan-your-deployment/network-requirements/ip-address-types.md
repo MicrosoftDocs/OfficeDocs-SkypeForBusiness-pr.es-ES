@@ -1,8 +1,8 @@
 ---
 title: Configurar tipos de direcciones IP en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Summary: Review the IP Address type considerations below before implementing Skype Empresarial Server.'
-ms.openlocfilehash: 936857f79cf71328303e3a0a842b230694cf86c1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 076c0e0a3901a3c69a9c6dece73fda487cddfa8c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834998"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390912"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configurar tipos de direcciones IP en Skype Empresarial
 
@@ -53,7 +53,7 @@ Con el Generador de topologías, realice los pasos del siguiente procedimiento p
    - **Dirección IP de RTC**. Defina una dirección IP para la RTC cuando asigne un servidor de mediación en el servidor front-end. Esta dirección debe coincidir con el formato del tipo de dirección seleccionado.
 
 > [!NOTE]
-> No se admite la instalación de tarjetas de interfaz de red (NIC) adicionales para admitir la configuración de direcciones IP RTC (o por cualquier otro motivo) en servidores front-end. Para obtener más información acerca de las configuraciones de NIC admitidas para Skype Empresarial Server, vea Plataformas de hardware de servidor para [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
+> No se admite la instalación de tarjetas de interfaz de red (NIC) adicionales para admitir la configuración de direcciones IP RTC (o por cualquier otro motivo) en servidores front-end. Para obtener más información acerca de las configuraciones de NIC compatibles Skype Empresarial Server, vea [Plataformas de hardware de servidor para Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>Implementar tipos de direcciones IP en un servidor de mediación
 
@@ -61,7 +61,7 @@ Con el Generador de topologías, realice los pasos del siguiente procedimiento p
 
 ### <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>Para implementar tipos de direcciones IP en un servidor de mediación
 
-- En el Generador de topologías, en **Grupos de servidores de mediación,** haga clic con el botón secundario en el servidor de un grupo de servidores y, a continuación, seleccione Editar **propiedades**. (También puede seleccionar el servidor y hacer clic en **Editar propiedades** en el menú **Acción**).
+- En el Generador de topologías, en **Grupos de servidores de mediación**, haga clic con el botón secundario en el servidor de un grupo de servidores y, a continuación, **seleccione Editar propiedades**. (También puede seleccionar el servidor y hacer clic en **Editar propiedades** en el menú **Acción**).
 
 - En el cuadro de diálogo **Editar propiedades**, seleccione el tipo de dirección IP que desea configurar. Para establecer una configuración de doble pila, seleccione **Habilitar IPv4** y **Habilitar IPv6**, como se muestra en la figura siguiente.
 
@@ -92,7 +92,7 @@ Con el Generador de topologías, realice los pasos siguientes:
 
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>Para implementar tipos de direcciones IP en un servidor perimetral
 
-1. En el Generador de topologías, en **Grupos perimetrales,** haga clic con el botón secundario en el servidor de un grupo de servidores y, a continuación, **seleccione Editar propiedades**. (También puede seleccionar el servidor y hacer clic en **Editar propiedades** en el menú **Acción**).
+1. En el Generador de topologías, en **Grupos perimetrales**, haga clic con el botón secundario en el servidor de un grupo de servidores y, a continuación, **seleccione Editar propiedades**. (También puede seleccionar el servidor y hacer clic en **Editar propiedades** en el menú **Acción**).
 
 2. En la ventana **Editar propiedades**, seleccione la configuración de dirección IP que quiera admitir.
 

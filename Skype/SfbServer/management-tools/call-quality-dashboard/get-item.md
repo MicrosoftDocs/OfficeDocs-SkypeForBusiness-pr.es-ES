@@ -1,8 +1,8 @@
 ---
 title: Obtener elemento
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 'Resumen: obtenga información sobre la operación Obtener elemento, que forma parte del servicio de elementos. El servicio de elementos forma parte de la API de repositorio para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 1818bb0538fdc02d77c731cad7404643dc84fe28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c99e848860d12b77a13dbf453298dc697cd2a665
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861237"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390992"
 ---
 # <a name="get-item"></a>Obtener elemento
  
@@ -32,19 +32,19 @@ Get Item devuelve un elemento específico en el repositorio.
   
 |**Método**|**URI de solicitud**|**Versión HTTP**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
- **Parámetros uri:** ninguno.
+ **Parámetros uri** : ninguno.
   
- **Encabezados de solicitud:** no hay encabezados adicionales.
+ **Encabezados de solicitud** : no hay encabezados adicionales.
   
  **Cuerpo de la** solicitud: ninguno.
   
- **Respuesta:** la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
+ **Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
   
- **Código de estado:** una operación correcta devuelve el código de estado 200 (Aceptar). Si no se encuentra un identificador de elemento especificado, devuelve el código de estado 404 (No encontrado).
+ **Código de estado** : una operación correcta devuelve el código de estado 200 (Aceptar). Si no se encuentra un identificador de elemento especificado, devuelve el código de estado 404 (No encontrado).
   
- **Encabezados de respuesta:** no hay encabezados adicionales.
+ **Encabezados de respuesta** : no hay encabezados adicionales.
   
  **Cuerpo de la** respuesta: a continuación se muestra una carga de respuesta de ejemplo en JSON.
   
@@ -58,14 +58,14 @@ Get Item devuelve un elemento específico en el repositorio.
 }
 ```
 
- *itemId:*  id. del elemento.
+ *itemId*  : id. del elemento.
   
- *userId:*  id. del usuario propietario de este elemento.
+ *userId*  : id. del usuario propietario de este elemento.
   
- *content:*  el contenido específico de la aplicación.
+ *content*  : el contenido específico de la aplicación.
   
- *type:*  el tipo del contenido. Las aplicaciones establecen este campo.
+ *type*  : el tipo del contenido. Las aplicaciones establecen este campo.
   
- *subItemIds:*  los id. de los subelementos, si los hay. Se trata de un corto circuito de Obtener Sub-Items operación para guardar una llamada. Las aplicaciones también pueden obtener la misma información mediante Obtener Sub-Items operación.
+ *subItemIds*  : los id. de los subelementos, si los hay. Se trata de un corto circuito de Obtener Sub-Items operación para guardar una llamada. Las aplicaciones también pueden obtener la misma información mediante Obtener Sub-Items operación.
   
 

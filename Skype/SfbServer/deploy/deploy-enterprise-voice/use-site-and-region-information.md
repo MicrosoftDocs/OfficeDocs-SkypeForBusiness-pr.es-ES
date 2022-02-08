@@ -1,8 +1,8 @@
 ---
 title: Configurar la omisión de medios de configuración global Skype Empresarial Server para usar información de sitio y región
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Configure la omisión de medios para que se utilice solo para determinados sitios y regiones de Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 7ec292f768633d64959704599269c0fb9cedd4fd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b818d1ba68d17a45c24904a1d313bafde6e6d1d1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829504"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391832"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurar la omisión de medios de configuración global Skype Empresarial Server para usar información de sitio y región
  
@@ -53,11 +53,11 @@ Para que la omisión de medios funcione correctamente, debe haber coherencia ent
   
 7. Haga clic en **Confirmar**.
     
-A continuación, agregue subredes al sitio de red, como se describe en [Asociar una subred a un sitio de red.](deploy-network.md#BKMK_AssociateSubnets) Cuando haya asociado todas las subredes a sitios de red, la implementación del desvío de medios habrá finalizado.
+A continuación, agregue subredes al sitio de red, tal como se describe en [Asociar una subred a un sitio de red](deploy-network.md#BKMK_AssociateSubnets). Cuando haya asociado todas las subredes a sitios de red, la implementación del desvío de medios habrá finalizado.
 > [!IMPORTANT]
 > Si todavía no ha creado regiones de red y sitios de red, deberá crearlos en primer lugar para poder continuar con la implementación del desvío de medios. Para obtener más información, vea [Deploy network regions, sites and subnets in Skype Empresarial](deploy-network.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Asociar una subred a un sitio de red](deploy-network.md#BKMK_AssociateSubnets)
 

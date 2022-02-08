@@ -1,8 +1,8 @@
 ---
 title: Ruta de voz Crear nuevo o editar existente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: f893dfed7c2d83b434a62d0ff9977c9388248b4f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c37bc7dfaf3f82549bcafd4ec21ee9d43c7f1851
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858577"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390572"
 ---
 # <a name="voice-route-create-new-or-edit-existing"></a>Ruta de voz: Crear nuevos o editar los existentes
 

@@ -1,8 +1,8 @@
 ---
 title: Mover todos los usuarios
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 description: En el cuadro de diálogo Mover usuarios, puede seleccionar los grupos de origen y destino para mover las cuentas de usuario de un grupo a otro en su implementación.
-ms.openlocfilehash: 3b91df6053a6e77a54d78a79786033a6b2c6c716
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: be9e5e023e43138a2fd9e01020a7a2fd4461c60b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841522"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392882"
 ---
 # <a name="move-all-users"></a>Mover todos los usuarios
 

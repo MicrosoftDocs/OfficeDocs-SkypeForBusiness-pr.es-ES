@@ -1,8 +1,8 @@
 ---
 title: 'Directiva de versión de clientes:'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede especificar la versión de clientes que se admiten en su entorno. Cuando interactúan dos clientes que ejecutan versiones diferentes, las características disponibles para cualquiera de esos clientes pueden verse limitadas por las funciones del otro cliente.
-ms.openlocfilehash: 1a32329574b95ed4b918d5b323bc63f86331f617
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 52282e98cbf7f504dcfdc26dd74f8e4e82cb711c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841852"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391802"
 ---
 # <a name="client-version-policy"></a>Directiva de versiones de clientes:
 
@@ -30,7 +30,7 @@ Puede especificar la versión de clientes que se admiten en su entorno. Cuando i
 
 Puede realizar las siguientes tareas en la página **Directiva de versión de cliente**:
 
-- Edite la directiva de versión de cliente predeterminada ( **Global**).
+- Edite la **directiva de versión** de cliente predeterminada (global).
 
 - Crear directivas de versión de cliente para un grupo o sitio concreto.
 

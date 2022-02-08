@@ -1,8 +1,8 @@
 ---
 title: Shell de administración de Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: El Shell Skype Empresarial Server administración proporciona la interfaz de línea de comandos para la administración y administración del servidor. Se basa en Windows PowerShell e incluye un conjunto completo de cmdlets de administración y administración que son específicos de Skype productos de lync server heredados.
-ms.openlocfilehash: 3b9ea4658e7745bb1e6bd330c5dd865bf45a396a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1867789d18e5b0c28cb0772cb46d70c1918789de
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857507"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392492"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Shell de administración de Skype Empresarial Server
  
@@ -52,11 +52,11 @@ Cosas que debe saber Windows PowerShell en Skype Empresarial Server:
     > [!CAUTION]
     > Si abre una ventana Windows PowerShell en lugar del Shell de administración de Skype Empresarial Server, es posible que no pueda ejecutar los cmdlets Skype de forma predeterminada. Para ejecutar Skype Empresarial Server cmdlets desde dentro de Windows PowerShell, escriba primero lo siguiente en el símbolo del sistema Windows PowerShell: >`Import-Module SkypeforBusiness`
   
-- Skype Empresarial Server El Shell de administración se instala automáticamente en todos Skype Empresarial Server Enterprise Edition servidor front-end o Standard Edition servidor.
+- Skype Empresarial Server Shell de administración se instala automáticamente en todos Skype Empresarial Server Enterprise Edition servidor front-end o Standard Edition servidor.
     
-- Puede actualizar el contenido de Skype Empresarial Server ayuda del Shell de administración mediante la ejecución del cmdlet [Update-Help.](/powershell/module/microsoft.powershell.core/update-help) El cmdlet Update-Help descarga e instala los archivos de ayuda más recientes disponibles para todos los módulos instalados en el equipo, incluidas las actualizaciones de Skype Empresarial cmdlets.
+- Puede actualizar el contenido de Skype Empresarial Server ayuda del Shell de administración mediante la ejecución del cmdlet [Update-Help](/powershell/module/microsoft.powershell.core/update-help). El cmdlet Update-Help descarga e instala los archivos de ayuda más recientes disponibles para todos los módulos instalados en el equipo, incluidas las actualizaciones de Skype Empresarial cmdlets.
     
-    De forma predeterminada, el cmdlet **Update-Help** actualizará todos los módulos instalados en el Skype Empresarial Server. Si desea actualizar solo determinados módulos, puede usar el parámetro _Module_ para limitar el ámbito del cmdlet. En el siguiente ejemplo solo se actualiza el Skype Empresarial módulo.
+    De forma predeterminada, **el cmdlet Update-Help** actualizará todos los módulos instalados en el Skype Empresarial Server. Si desea actualizar solo determinados módulos, puede usar el parámetro _Module_ para limitar el ámbito del cmdlet. En el siguiente ejemplo solo se actualiza el Skype Empresarial módulo.
     
   ```PowerShell
   Update-Help -Module SkypeforBusiness

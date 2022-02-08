@@ -1,8 +1,8 @@
 ---
 title: API de datos para panel de calidad de llamadas (CQD) en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 'Resumen: obtenga información sobre la API de datos para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 619a02d776f5eb55c6349d1f123181190bc0299d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4ed1c4716e88fcfe47200b97f2f9cd329e8c56a1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862217"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392472"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de datos para panel de calidad de llamadas (CQD) en Skype Empresarial Server
  
@@ -44,7 +44,7 @@ Las operaciones rest se incluyen en la tabla siguiente.
    
  **Compatibilidad con uso compartido de recursos entre orígenes (CORS) para la API de datos**
   
-La API de datos admite el uso compartido de recursos entre orígenes (CORS). CORS es una característica HTTP que permite a una aplicación web que se ejecuta en un dominio tener acceso a los recursos de otro dominio. Los exploradores web implementan [](https://www.w3.org/Security/wiki/Same_Origin_Policy) una restricción de seguridad conocida como directiva del mismo origen que impide que una página web llame a API en un dominio diferente. CORS proporciona una forma segura de permitir que un dominio (el dominio de origen) llame a las API en otro dominio. Consulte la [especificación CORS](https://www.w3.org/TR/cors/) para obtener más información sobre CORS.
+La API de datos admite el uso compartido de recursos entre orígenes (CORS). CORS es una característica HTTP que permite a una aplicación web que se ejecuta en un dominio tener acceso a los recursos de otro dominio. Los exploradores web implementan una restricción de [](https://www.w3.org/Security/wiki/Same_Origin_Policy) seguridad conocida como directiva del mismo origen que impide que una página web llame a API en un dominio diferente. CORS proporciona una forma segura de permitir que un dominio (el dominio de origen) llame a las API en otro dominio. Consulte la [especificación CORS](https://www.w3.org/TR/cors/) para obtener más información sobre CORS.
   
  **Habilitar CORS para api de datos**
   

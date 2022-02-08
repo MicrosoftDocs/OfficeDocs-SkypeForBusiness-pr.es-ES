@@ -1,8 +1,8 @@
 ---
 title: Instalar y probar Skype Empresarial para Windows Phone
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Summary: Learn how to install and test Skype Empresarial on your Windows Phone.'
-ms.openlocfilehash: 49ba719f13edfa2d9dc85d00c71c59dc5b19b8d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: da3f61b5fdc37cd07a793aad561ff51dcc7f185d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843543"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390722"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Instalar y probar Skype Empresarial para Windows Phone
  
@@ -31,19 +31,19 @@ Antes de dirigir a los usuarios de la organización a descargar la aplicación, 
 
 1. Vaya a [Windows Phone 8 update central](https://www.windowsphone.com/en-us/how-to/wp8/update-central) para actualizar el teléfono a Windows Phone 8.1.
     
-2. Desde el teléfono, vaya a la **Tienda** y busque **Skype Empresarial**.
+2. Desde el teléfono, vaya a la **Tienda** y **busque Skype Empresarial.**
     
-3. Pulsa **Instalar**. 
+3. Pulse **Instalar**. 
     
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>Inicie sesión en Skype Empresarial inicio de sesión por primera vez
 
-1. En la **pantalla Inicio,** desliza el dedo hacia la izquierda para ver las aplicaciones instaladas, busca Skype Empresarial para Windows Phone y, a continuación, pulsa el icono para abrir la aplicación.
+1. En la **pantalla Inicio**, desliza el dedo hacia la izquierda para ver las aplicaciones instaladas, busca Skype Empresarial para Windows Phone y, a continuación, pulsa el icono para abrir la aplicación.
     
-2. Escriba la dirección de inicio de sesión (por ejemplo, user@domain.com) y la contraseña y, a continuación, **puntee Listo**.
+2. Escribe la dirección de inicio de sesión (por ejemplo, user@domain.com) y la contraseña y, a continuación, pulsa **Listo**.
     
      Es posible que deba proporcionar un nombre de usuario y una dirección de inicio de sesión. El nombre de usuario es lo que se usa para iniciar sesión en la red de la organización, ya sea user@domain.com o dominio\nombredeusuario.
     
-3. En la pantalla Programa de  **mejora** de la experiencia del cliente, pulsa Unirse para enviar datos anónimos sobre problemas de la aplicación y el uso a Microsoft, o **No** gracias si prefieres no participar.
+3. En la **pantalla Programa de mejora** de la experiencia  del cliente, pulsa Unirse para enviar datos anónimos sobre problemas de la aplicación y el uso a Microsoft, o **No** gracias si prefieres no participar.
     
 4. En la **pantalla Nunca te pierdas las llamadas de** trabajo, escribe tu número de teléfono móvil con códigos de país y región. Cuando Skype Empresarial para Windows Phone puede usar una red de datos de Wi-Fi o de telefonía móvil para realizar una llamada de audio o vídeo, se le llamará automáticamente en este número y se conectará a la parte de audio de la llamada.
     

@@ -1,8 +1,8 @@
 ---
 title: Configuración de red para las características Telefonía IP empresarial avanzadas en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Obtenga información sobre las regiones de red, los sitios de red y las subredes IP. Todos estos deben configurarse para implementar Plan for media bypass in Skype Empresarial, Plan for call admission control in Skype Empresarial Server) o Plan for emergency services in Skype Empresarial Server in Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 50e076cd4be0e0c98b6319a7d0b4ce1a848689cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 77472a77f26139f7a15f0a3820e6fb90a798a5b7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861097"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391882"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configuración de red para las características Telefonía IP empresarial avanzadas en Skype Empresarial Server
 
-Obtenga información sobre las regiones de red, los sitios de red y las subredes IP. Todos estos deben configurarse para implementar [Plan for media bypass in Skype Empresarial](media-bypass.md), Plan for call admission control in [Skype Empresarial Server](call-admission-control.md)o Plan for emergency services [in Skype Empresarial Server](emergency-services.md) in Skype Empresarial Server Telefonía IP empresarial.
+Obtenga información sobre las regiones de red, los sitios de red y las subredes IP. Todos estos deben configurarse para implementar [Plan for media bypass in Skype Empresarial](media-bypass.md), [Plan for call admission control in Skype Empresarial Server](call-admission-control.md) o [Plan for emergency services in Skype Empresarial Server](emergency-services.md) in Skype Empresarial Server Telefonía IP empresarial.
 
-Skype Empresarial Server tiene tres características avanzadas Telefonía IP empresarial: [Planear](call-admission-control.md)el control de admisión de llamadas en Skype Empresarial Server , Planear los servicios de emergencia en [Skype Empresarial Server](emergency-services.md)y [ Planear la omisión de medios en Skype Empresarial](media-bypass.md). Estas características comparten ciertos requisitos de configuración para las regiones de red, los sitios de red y la asociación de cada subred de la topología Skype Empresarial Server con un sitio de red.
+Skype Empresarial Server tiene tres características avanzadas Telefonía IP empresarial: [Planear el control](call-admission-control.md) de admisión de llamadas en Skype Empresarial Server, Planear servicios de emergencia [en Skype Empresarial Server](emergency-services.md) , y [Plan for media bypass in Skype Empresarial](media-bypass.md). Estas características comparten ciertos requisitos de configuración para las regiones de red, los sitios de red y la asociación de cada subred de la topología Skype Empresarial Server con un sitio de red.
 
 En este tema se proporciona información general sobre los requisitos de configuración que son comunes a las tres características Telefonía IP empresarial avanzadas.
 
@@ -40,11 +40,11 @@ Una región de red es un concentrador de red o una red troncal de red que solo s
 
 El CAC requiere que todas las regiones de red tengan asociado un sitio central de Skype Empresarial Server, que administra el tráfico de medios dentro de la región (es decir, toma decisiones en función de las directivas que haya configurado, con respecto a si se puede establecer una sesión de audio o vídeo en tiempo real). Skype Empresarial Server los sitios centrales no representan ubicaciones geográficas, sino grupos lógicos de servidores configurados como un grupo de servidores o un conjunto de grupos de servidores.
 
-Para configurar una región de red, puede usar  la pestaña **Regiones** de la sección Configuración de red del Panel de control de Skype Empresarial Server o ejecutar los **cmdlets New-CsNetworkRegion** o **Set-CsNetworkRegion** Skype Empresarial Server Management Shell. Para obtener instrucciones, consulte [Deploy network regions, sites and subnets in Skype Empresarial](../../deploy/deploy-enterprise-voice/deploy-network.md) en la documentación de implementación, o consulte la documentación del Shell de administración Skype Empresarial Server administración.
+Para configurar una región de red, puede usar la pestaña **Regiones** de la sección  Configuración de red del Panel de control de Skype Empresarial Server o ejecutar los **cmdlets New-CsNetworkRegion** o **Set-CsNetworkRegion** Skype Empresarial Server Management Shell. Para obtener instrucciones, consulte [Deploy network regions, sites and subnets in Skype Empresarial](../../deploy/deploy-enterprise-voice/deploy-network.md) en la documentación de implementación, o consulte la documentación del Shell de administración Skype Empresarial Server administración.
 
 Las tres características avanzadas comparten las mismas definiciones de Telefonía IP empresarial región de red. Si ya ha creado las regiones de red de una característica, no necesitará crear regiones de red nuevas para las otras características. Sin embargo, es posible que necesite modificar una definición de región de red existente para aplicar una configuración específica de una característica. Por ejemplo, si ha creado las regiones de red de E9-1-1 (que no necesitan tener asociado un sitio central) y, más tarde, implementa el control de admisión de llamadas, debe modificar cada una de las definiciones de las regiones de red para especificar un sitio central.
 
-Para asociar un sitio central de Skype Empresarial Server con una región de red,  especifique el nombre del sitio central mediante la sección Configuración de red del Panel de control de Skype Empresarial Server o mediante la ejecución de los **cmdlets New-CsNetworkRegion** o **Set-CsNetworkRegion.** Para obtener instrucciones, consulte [Deploy network regions, sites and subnets in Skype Empresarial](../../deploy/deploy-enterprise-voice/deploy-network.md) en la documentación de implementación, o consulte la documentación del Shell de administración Skype Empresarial Server administración.
+Para asociar un sitio central de Skype Empresarial Server con una región de red, especifique el nombre del sitio central mediante la sección Configuración de red  del Panel de control de Skype Empresarial Server o mediante la ejecución de los **cmdlets New-CsNetworkRegion** o **Set-CsNetworkRegion**. Para obtener instrucciones, consulte [Deploy network regions, sites and subnets in Skype Empresarial](../../deploy/deploy-enterprise-voice/deploy-network.md) en la documentación de implementación, o consulte la documentación del Shell de administración Skype Empresarial Server administración.
 
 ## <a name="network-sites"></a>Sitios de red
 
@@ -53,7 +53,7 @@ Un sitio de red representa una ubicación geográfica, como una oficina de sucur
 > [!NOTE]
 > Los sitios de red solo los usan las características Telefonía IP empresarial avanzadas. No son los mismos que los sitios de sucursal que configure en la Skype Empresarial Server topología.
 
-Para configurar un sitio de red y asociarlo a  una región de red, puede usar la sección Configuración de red del Panel de control de Skype Empresarial Server o ejecutar los cmdlets **New-CsNetworkSite** o **Set-CsNetworkSite** del Shell de administración de Skype Empresarial Server. Para obtener más información, consulte [Crear o](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-network-site) modificar un sitio de red en la documentación de implementación, o consulte la Skype Empresarial Server del Shell de administración.
+Para configurar un sitio de red y asociarlo a una región de red, puede usar la  sección Configuración de red del Panel de control de Skype Empresarial Server o ejecutar los cmdlets **New-CsNetworkSite** o **Set-CsNetworkSite** del Shell de administración de Skype Empresarial Server. Para obtener más información, consulte [Crear o modificar un](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-network-site) sitio de red en la documentación de implementación, o consulte la Skype Empresarial Server shell de administración.
 
 ## <a name="identify-ip-subnets"></a>Identificar subredes IP
 
@@ -68,9 +68,9 @@ En nuestro ejemplo, el sitio Nueva York de la región Norteamérica puede tener 
 
 Cada subred de la red empresarial debe asociarse a un sitio de red (es decir, cada subred tiene que estar asociada a una ubicación geográfica). Esta asociación de subredes permite a las características Telefonía IP empresarial avanzadas localizar geográficamente los puntos de conexión. Por ejemplo, ubicar los extremos permite al CAC regular el flujo de datos de audio y vídeo que recibe y envía el sitio de red en tiempo real.
 
-Para asociar subredes con sitios de  red, puede usar la sección Configuración de red de Skype Empresarial Server Panel de control o puede usar el Shell Skype Empresarial Server administración. Para obtener instrucciones, consulte Asociar una subred [con un](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site) sitio de red en la documentación de implementación o consulte la documentación del Shell Skype Empresarial Server administración.
+Para asociar subredes con sitios de red, puede usar la sección  Configuración de red de Skype Empresarial Server Panel de control o puede usar el Shell de administración Skype Empresarial Server red. Para obtener instrucciones, consulte Asociar una subred [con un](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site) sitio de red en la documentación de implementación o consulte la documentación Skype Empresarial Server Shell de administración.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planear el control de admisión de llamadas en Skype Empresarial Server](call-admission-control.md)
 

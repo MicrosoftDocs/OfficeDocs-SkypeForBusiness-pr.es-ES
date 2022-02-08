@@ -1,8 +1,8 @@
 ---
 title: Seleccionar usuarios de Enterprise Voice
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el cuadro de diálogo Seleccionar Telefonía IP empresarial usuarios para buscar usuarios habilitados para Telefonía IP empresarial. En el cuadro de búsqueda, escriba la dirección SIP o nombre para mostrar del usuario que desee localizar y, a continuación, haga clic en Buscar. Para seleccionar un usuario, haga clic en el usuario de la lista de los resultados de la búsqueda y, a continuación, haga clic en Aceptar. Si no encuentra el usuario que está buscando, es posible que no esté habilitado para Telefonía IP empresarial.
-ms.openlocfilehash: a9ddb20b223420841687b40b0a886ecfe08fcddd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7938d91b010585fd8f7662539083c9db37fb669d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845713"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391672"
 ---
 # <a name="select-enterprise-voice-users"></a>Seleccionar usuarios de Telefonía IP empresarial
  

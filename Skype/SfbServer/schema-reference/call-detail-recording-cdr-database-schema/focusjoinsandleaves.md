@@ -1,8 +1,8 @@
 ---
 title: Tabla FocusJoinsAndLeaves en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: Cada registro de esta tabla contiene la información de CDR sobre la unión y la licencia de un usuario para una conferencia. Cada conferencia se representa en esta tabla mediante un registro por cada vez que un usuario se une y sale de la conferencia.
-ms.openlocfilehash: f48c36e4a6d12150594c7e5c0bfb44046b6804cf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 607101a4bbcc5909ab8c9271a878a0b59164552d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828583"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392292"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>Tabla FocusJoinsAndLeaves en Skype Empresarial Server 2015
  

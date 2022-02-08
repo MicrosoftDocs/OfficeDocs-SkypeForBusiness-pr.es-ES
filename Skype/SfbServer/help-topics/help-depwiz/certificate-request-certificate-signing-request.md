@@ -1,8 +1,8 @@
 ---
 title: Solicitud de certificados (solicitud de firma de certificado)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: Para crear una solicitud sin conexión, antes debe crear una solicitud de firma de certificado (CSR). Escriba la ruta de acceso y el nombre de archivo de CSR en el cuadro de texto Nombre de archivo. Haga clic en Examinar para buscar la ubicación donde crear la solicitud de firma de certificado. Haga clic en Siguiente para continuar.
-ms.openlocfilehash: 9a4844b88696a9c9bfcf2896513c7f6b84b5ede3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f8de74c3b672ecc85e08d4fd91853a69d0e0a4a2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838942"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391412"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Solicitud de certificados (solicitud de firma de certificado)
  

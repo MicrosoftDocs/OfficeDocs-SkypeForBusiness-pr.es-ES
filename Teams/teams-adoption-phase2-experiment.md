@@ -1,7 +1,7 @@
 ---
 title: 'Fase 2 de la adopción de Microsoft Teams: Experimento'
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882b842e0906426e46132c0a1de10cef5762ea72
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ca77fd910e5b9ada76f7e0fa224e7f1813919222
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865569"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390792"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Fase 2 de la adopción de Microsoft Teams: Experimento
 
@@ -34,11 +34,11 @@ Ahora tiene un equipo de proyecto excelente e información crítica sobre su org
 
 Completará los pasos siguientes en esta fase:
 
-1. [Crear el programa de campeones.](teams-adoption-create-champions-program.md)
+1. [Cree su programa de campeones](teams-adoption-create-champions-program.md).
 2. [Complete el inicio rápido del gobierno](teams-adoption-governance-quick-start.md).
 3. [Defina los casos de uso](teams-adoption-define-usage-scenarios.md).
-4. [Finalizar los participantes del programa de adopción temprana.](teams-adoption-onboard-early-adopters.md)
+4. [Finalizar los participantes del programa de adopción anticipado](teams-adoption-onboard-early-adopters.md).
 5. [Configure los canales de comentarios](teams-adoption-onboard-early-adopters.md#gather-feedback).
-6. [Lleve a su personal de soporte técnico a bordo.](teams-adoption-onboard-support.md)
+6. [Lleve a su personal de soporte técnico a bordo](teams-adoption-onboard-support.md).
 
 ![Un icono que representa el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Crear el programa de campeones](teams-adoption-create-champions-program.md)

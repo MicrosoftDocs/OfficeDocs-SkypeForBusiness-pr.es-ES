@@ -1,8 +1,8 @@
 ---
 title: 'Compatibilidad con la virtualización Skype Empresarial Server 2019 '
 ms.reviewer: corbinm
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 06/04/2020
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Resumen: obtenga información sobre la compatibilidad de virtualización para Skype Empresarial Server 2019.'
-ms.openlocfilehash: 73e9121e2b530e44395aefda50082682fb910e7d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 87263c4204cddbcd5e64cfeb6709b88bb94c2a60
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853784"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392262"
 ---
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>Compatibilidad con la virtualización Skype Empresarial Server 2019
 
@@ -41,7 +41,7 @@ SfB Server 2019 se admite en Windows Server 2016 y Windows Server 2019.
 Para hipervisores de terceros, necesita un hipervisor que haya pasado las pruebas del Programa de validación de virtualización de servidores (SVVP) para el sistema operativo correspondiente.
 
 - Consulta las [Windows Server 2016 en](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) la lista SVVP.
-- Vea el [Windows Server 2019 en](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) la lista SVVP.
+- Vea las [Windows Server 2019 en](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) la lista SVVP.
 
 ## <a name="stress-and-performance-tool"></a>Herramienta de esfuerzo y rendimiento
 
@@ -51,4 +51,4 @@ La Skype Empresarial Server 2019 stress and performance tool incluye herramienta
 - Proporcionar un mayor conocimiento y procedimientos recomendados para la optimización del rendimiento
 - Medir el rendimiento de las implementaciones Skype Empresarial Server 2019
  
-Puede descargar la herramienta desde [aquí](https://www.microsoft.com/download/details.aspx?id=101447).
+Puedes descargar la herramienta desde [aquí](https://www.microsoft.com/download/details.aspx?id=101447).

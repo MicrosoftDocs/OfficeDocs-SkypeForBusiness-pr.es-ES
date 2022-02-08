@@ -1,8 +1,8 @@
 ---
 title: Configurar un VTC para interoperación con Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: 'Resumen: configure los dispositivos VTC para que funcionen con Skype Empresarial Server.'
-ms.openlocfilehash: f3804c0d7f86710fbefa9477d6cf1790b0f16af9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8044e2038ebb8e9c1b68b5b91473e9e57dd1fb7a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861807"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389662"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>Configurar un VTC para interoperación con Skype Empresarial Server
  
@@ -30,7 +30,7 @@ Las configuraciones descritas aquí están pensadas solo como ejemplos de cómo 
   
 ### <a name="configure-a-vtc-registered-with-cucm"></a>Configurar un VTC registrado con CUCM
 
-1. Inicie sesión en el dispositivo VTC de Cisco y vaya a Configuración- \> Configuración del sistema- \> Aprovisionamiento.
+1. Inicie sesión en el dispositivo VTC de Cisco y vaya a Configuration-System\> Configuration-Provisioning\>.
     
 2. Compruebe la siguiente configuración, corrigiéndola según sea necesario: 
     
@@ -40,7 +40,7 @@ Las configuraciones descritas aquí están pensadas solo como ejemplos de cómo 
    |Dirección de ExternalManager  <br/> | FQDN de CUCM <br/> |
    | Dominio de ExternalManager <br/> |Dominio de CUCM  <br/> |
    
-3. Vaya a Configuración- \> Configuración del sistema- \> Red.
+3. Vaya a Configuration-System\> Configuration-Network\>.
     
 4. Compruebe la siguiente configuración, corrigiéndola según sea necesario: 
     
@@ -49,7 +49,7 @@ Las configuraciones descritas aquí están pensadas solo como ejemplos de cómo 
    |Nombre de dominio DNS  <br/> | Nombre de dominio de CUCM <br/> |
    |Dirección del servidor DNS 1  <br/> | la dirección del servidor DNS deseada <br/> |
    
-5. Vaya a Configuración- \> Configuración del sistema: \> Servicios de red. Asegúrese de que el modo H.323 está desactivado y que el modo SIP está activado. 
+5. Vaya a Configuration-System\> Configuration-Network\> Services. Asegúrese de que el modo H.323 está desactivado y que el modo SIP está activado. 
     
 6. Estas opciones se establecen automáticamente cuando el extremo está registrado con CUCM. Compruebe la siguiente configuración, corrigiéndola según sea necesario: 
     
@@ -62,7 +62,7 @@ Las configuraciones descritas aquí están pensadas solo como ejemplos de cómo 
    |WelcomeText  <br/> | Activado <br/> |
    |Modo XMLAPI  <br/> | Activado <br/> |
    
-7. Vaya a Configuración- \> Configuración del sistema- \> SIP.
+7. Vaya a Configuration-System\> Configuration-SIP\>.
     
 8. Compruebe la siguiente configuración, corrigiéndola según sea necesario: 
     
@@ -78,7 +78,7 @@ Las configuraciones descritas aquí están pensadas solo como ejemplos de cómo 
 Los VTC ahora están configurados para interoperación. Antes de que el servicio pueda comenzar, hay pasos finales para realizar en el lado CUCM.
 ### <a name="configure-vtc-devices-on-cucm"></a>Configurar dispositivos VTC en CUCM
 
-1. Inicie sesión en CUCM y navegue a Cisco Unified CM Administration- \> Device- \> Teléfono- \> Find. 
+1. Inicie sesión en CUCM y navegue a Cisco Unified CM Administration-Device-Teléfono-Find\>\>\>. 
     
 2. Seleccione el dispositivo VTC que se va a configurar. Compruebe la siguiente configuración en la pantalla Teléfono configuración, corrificándose según sea necesario. Una vez que se haya cambiado o comprobado esta configuración, haga clic en **Guardar**.
     

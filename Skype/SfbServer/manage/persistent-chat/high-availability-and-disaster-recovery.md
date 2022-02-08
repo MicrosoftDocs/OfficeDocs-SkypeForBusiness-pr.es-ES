@@ -1,8 +1,8 @@
 ---
 title: Administrar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Resumen: obtenga información sobre cómo administrar la alta disponibilidad y la recuperación ante desastres del servidor de chat persistente en Skype Empresarial Server 2015.'
-ms.openlocfilehash: bf24bbb7f8672f0bc3a75b83f4f57320dc975092
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5823d4aa9df744c8a7e0b133f7e4798ddcf712c8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860017"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392482"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Administrar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -27,7 +27,7 @@ ms.locfileid: "60860017"
 En este tema se describe cómo conmutar por error y devolver la conmutación por recuperación del servidor de chat persistente. Antes de leer este tema, asegúrese de leer [Plan for high availability and disaster recovery for Persistent Chat Server in Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) y [Configure high availability and disaster recovery for Persistent Chat Server in Skype Empresarial Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
 
 > [!NOTE]
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015. 
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015. 
   
 ## <a name="fail-over-persistent-chat-server"></a>Conmutación por error del servidor de chat persistente
 
@@ -37,7 +37,7 @@ El procedimiento de conmutación por error se basa en la suposición de que el c
   
 - La base de datos principal del servidor de chat persistente y la base de datos reflejada del servidor de chat persistente están abajo.
     
-- Skype Empresarial Server El servidor front-end está abajo.
+- Skype Empresarial Server servidor front-end está abajo.
     
 El procedimiento se basa en dos pasos básicos:
   
@@ -63,7 +63,7 @@ Para conmutar por error el servidor de chat persistente:
 
 2. Copie cualquier archivo de copia de seguridad no copiado desde el recurso compartido de copia de seguridad a la carpeta de destino de copias del servidor de copias de seguridad.
     
-3. Aplique cualquier copia de seguridad de registro de transacciones no aplicadas en secuencia con la base de datos secundaria. Para obtener más información, [vea How to: Apply a Transaction Log Backup (Transact-SQL).](/previous-versions/sql/sql-server-2008-r2/ms187607(v=sql.105))
+3. Aplique cualquier copia de seguridad de registro de transacciones no aplicadas en secuencia con la base de datos secundaria. Para obtener más información, vea [How to: Apply a Transaction Log Backup (Transact-SQL).](/previous-versions/sql/sql-server-2008-r2/ms187607(v=sql.105)).
     
 4. Publique en línea la base de datos mgc de copia de seguridad. Utilizando la ventana de consultas que se abre en el paso 1b, realice lo siguiente:
     
@@ -176,4 +176,4 @@ Para restaurar el grupo a su estado normal, ejecute el siguiente Windows PowerSh
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 
-Para obtener más información, vea el tema de ayuda para el cmdlet [Set-CsPersistentChatState.](/powershell/module/skype/set-cspersistentchatstate?view=skype-ps)
+Para obtener más información, vea el tema de ayuda para el cmdlet [Set-CsPersistentChatState](/powershell/module/skype/set-cspersistentchatstate?view=skype-ps) .

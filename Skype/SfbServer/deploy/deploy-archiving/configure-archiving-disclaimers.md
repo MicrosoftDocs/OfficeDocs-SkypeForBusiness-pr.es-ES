@@ -1,8 +1,8 @@
 ---
 title: Configurar declinaciones de responsabilidades de archivado para usuarios externos en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Resumen: lea este tema para obtener información sobre cómo configurar una declinación de responsabilidades de archivado para Skype Empresarial Server.'
-ms.openlocfilehash: 05eaec40556b383525331405463ee6d0a10e0a13
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d607bf05d1aca413194a793ed08f84ca57c16f96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834718"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392282"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configurar declinaciones de responsabilidades de archivado para usuarios externos en Skype Empresarial Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60834718"
   
 Si su organización se comunica con socios externos, debe comunicarles que está archivando las comunicaciones con ellos. Al implementar un servidor perimetral y habilitar la federación para la organización, se le pregunta si desea enviar automáticamente una declinación de responsabilidades de archivado a socios externos. 
   
-Si necesita cambiar esta configuración, puede usar el Panel de control Skype Empresarial Server o el cmdlet **Set-CsAccessEdgeConfiguration** Windows PowerShell de configuración. Los cmdlets se pueden ejecutar desde el shell Skype Empresarial Server administración o desde una sesión remota de Windows PowerShell.
+Si necesita cambiar esta configuración, puede usar el panel de control de Skype Empresarial Server o el cmdlet **Set-CsAccessEdgeConfiguration** Windows PowerShell. Los cmdlets se pueden ejecutar desde el shell Skype Empresarial Server administración o desde una sesión remota de Windows PowerShell.
   
 Para permitir que los usuarios externos colaboren con los usuarios en la implementación Skype Empresarial Server, también debe configurar al menos una directiva de acceso externo para admitir el acceso de usuarios externos. Para obtener más información, consulte Manage XMPP Federated Partners for Your Organization. Para obtener más información sobre cómo controlar el acceso para dominios federados específicos, vea Control Access by Individual Federated Domains.
   
@@ -39,7 +39,7 @@ Para permitir que los usuarios externos colaboren con los usuarios en la impleme
     
 4. En la pestaña **Configuración perimetral de acceso**, haga clic en **Global**, en **Editar** y en **Mostrar detalles**.
     
-5. En **Editar** configuración perimetral de acceso , en Habilitar  la federación y la conectividad de mensajería instantánea **pública,** active o desactive la casilla Enviar declinación de responsabilidades de archivado a socios federados para habilitar o deshabilitar el envío automático del aviso de declinación de responsabilidades de archivado.
+5. En **Editar configuración perimetral** de acceso, en Habilitar la federación y la conectividad de mensajería instantánea  **pública, active** o desactive la casilla Enviar declinación de responsabilidades de archivado a socios federados para habilitar o deshabilitar el envío automático del aviso de declinación de responsabilidades de archivado.
     
 6. Haga clic en **Confirmar**.
     

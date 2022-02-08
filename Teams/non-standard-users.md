@@ -1,7 +1,7 @@
 ---
 title: Teams de aplicaciones para usuarios no estándar
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 957574b112c0fbb8fc7efc4fedf726fa7395f4b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 621614b9fc3d46d4629ce8b62dbbcc7b579698db
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846093"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390832"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams de aplicaciones para usuarios no estándar
 
@@ -33,7 +33,7 @@ En este artículo se describe cómo se comportan las aplicaciones de Teams cuand
 - Un **usuario externo (federado)** pertenece a otro dominio y no tiene acceso a los equipos ni a los recursos del equipo de su organización.
 
   > [!Note]
-  > Para obtener una comparación más detallada de los usuarios invitados frente a los externos, vea [Comunicarse con usuarios de otras organizaciones.](./communicate-with-users-from-other-organizations.md)
+  > Para obtener una comparación más detallada de los usuarios invitados frente a los externos, [vea Comunicarse con usuarios de otras organizaciones](./communicate-with-users-from-other-organizations.md).
 
 - Un **usuario anónimo** es un concepto en Teams reuniones en las que el usuario se ha unido a la reunión a través de un vínculo. El usuario no ha iniciado sesión con su cuenta de Microsoft u organización.
 
@@ -80,7 +80,7 @@ Los usuarios anónimos no pueden instalar, actualizar ni eliminar aplicaciones e
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportamiento y directiva de uso para usuarios anónimos
 
-Los usuarios anónimos no pueden usar directamente las aplicaciones en las reuniones. Los usuarios nativos pueden seguir usando las aplicaciones de reuniones si hay usuarios anónimos presentes. Si una aplicación envía una tarjeta adaptable en el chat, los usuarios anónimos pueden interactuar con la tarjeta. Para obtener más información, lea [Permitir que usuarios anónimos se unan a reuniones.](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
+Los usuarios anónimos no pueden usar directamente las aplicaciones en las reuniones. Los usuarios nativos pueden seguir usando las aplicaciones de reuniones si hay usuarios anónimos presentes. Si una aplicación envía una tarjeta adaptable en el chat, los usuarios anónimos pueden interactuar con la tarjeta. Para obtener más información, lea [Permitir que los usuarios anónimos se unan a las reuniones](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 Los usuarios anónimos heredarán la directiva de permisos predeterminada global a nivel de usuario. Pueden interactuar con las aplicaciones en Teams reuniones si la directiva de permisos de nivel de usuario ha habilitado la aplicación. Los usuarios anónimos solo pueden interactuar con aplicaciones que ya están disponibles en una reunión y que no pueden adquirir ni administrar estas aplicaciones.
 

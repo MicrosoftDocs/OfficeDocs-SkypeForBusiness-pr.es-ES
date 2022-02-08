@@ -1,8 +1,8 @@
 ---
 title: Planear la aplicación grupo de respuesta en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planeación de grupos de respuesta en Skype Empresarial Server Telefonía IP empresarial, lo que permite configurar el enrutamiento de llamadas a grupos de usuarios. Incluye requisitos de archivo de audio.
-ms.openlocfilehash: 3b208b5f18b4b14a35985144b2b96cbabbf39dfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c7a34b63cfd01e8958c85f459415e3830d0eb235
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859887"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392412"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planear la aplicación grupo de respuesta en Skype Empresarial Server
 
@@ -50,7 +50,7 @@ Un flujo de trabajo define el comportamiento de una llamada desde el momento en 
 
 En Skype Empresarial Server, hay dos roles de administración disponibles para administrar grupos de respuesta: Administrador de grupo de respuesta y Administrador de grupo de respuesta. Los administradores del grupo de respuesta pueden administrar cualquier aspecto de cualquier grupo de respuesta. Los administradores de grupos de respuesta solo pueden administrar determinados aspectos y solo para los grupos de respuesta que poseen. El rol Administrador puede ayudarle a reducir los costos de administración, ya que puede delegar responsabilidades limitadas para grupos de respuesta específicos a cualquier usuario que esté habilitado para Telefonía IP empresarial. Tenga en cuenta que un usuario puede ser administrador de grupo de respuesta y administrador de grupo de respuesta.
 
-Para dar cabida al rol Administrador, la aplicación grupo de respuesta usa **un** tipo de flujo de trabajo administrado o no administrado. En la tabla siguiente se describen los grupos de respuesta administrados y no administrados.
+Para dar cabida al rol Administrador, la aplicación grupo de respuesta **usa un tipo** de flujo de trabajo administrado o no administrado. En la tabla siguiente se describen los grupos de respuesta administrados y no administrados.
 
 **Grupos de respuesta administrados y no administrados**
 
@@ -78,7 +78,7 @@ Los administradores de grupos de respuesta pueden usar las siguientes herramient
 
 - Shell de administración de Skype Empresarial Server
 
-El grupo de respuesta escala bien a entornos departamentales o de grupo de trabajo (para obtener más información, vea [Capacity Planning for Response Group)](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)y se puede implementar en instalaciones de telefonía totalmente nuevas. Admite llamadas entrantes desde la Telefonía IP empresarial y desde la red de operador local. Los agentes pueden usar Skype Empresarial, Lync 2013, Lync 2010, Operador de Lync 2010 o Lync Teléfono Edition para realizar las llamadas que se les enrutan.
+Response Group escala bien a entornos departamentales o de grupo de trabajo (para obtener más información, vea [Capacity Planning for Response Group](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)) y se puede implementar en instalaciones de telefonía totalmente nuevas. Admite llamadas entrantes desde la Telefonía IP empresarial y desde la red de operador local. Los agentes pueden usar Skype Empresarial, Lync 2013, Lync 2010, Operador de Lync 2010 o Lync Teléfono Edition para realizar las llamadas que se les enrutan.
 
 ## <a name="deployment-and-requirements"></a>Implementación y requisitos
 
@@ -130,7 +130,7 @@ Para obtener el máximo rendimiento de los archivos wave, se recomienda usar un 
 
 Si usa un archivo de audio Windows Media, considere la posibilidad de usar velocidades de bits lentas y compruebe el rendimiento del sistema cuando se somete a carga.
 
-Puede usar Microsoft Expression Encoder 4 para convertir un archivo al formato de audio de Windows Media. Para descargar Expression Encoder 4, vea [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843) .
+Puede usar Microsoft Expression Encoder 4 para convertir un archivo al formato de audio de Windows Media. Para descargar Expression Encoder 4, vea [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843).
 
 ### <a name="response-group-configuration-tool-requirements"></a>Requisitos para la herramienta de configuración del grupo de respuesta
 
@@ -148,7 +148,7 @@ La herramienta de configuración de grupo de respuesta admite las combinaciones 
 |Windows Server 2008 con SP2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> |
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 con Service Pack 1  <br/> |Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> |
 |Windows Server 2012  <br/> ||
-|Windows Server 2012 R2  <br/> ||
+|Windows Server 2012 R2  <br/> ||
 
 ### <a name="response-group-agent-console"></a>Consola del agente del grupo de respuesta
 
@@ -166,7 +166,7 @@ La consola de agente admite combinaciones de los sistemas operativos y los explo
 |Windows Server 2008 con Service Pack 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> |
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 con Service Pack 1  <br/> |Internet Explorer 8 (modo nativo)  <br/> Internet Explorer 9 (modo nativo)  <br/> Firefox 10.0  <br/> Chrome 18.0  <br/> |
 |Windows Server 2012  <br/> |
-|Windows Server 2012 R2  <br/> |
+|Windows Server 2012 R2  <br/> |
 
 ## <a name="client-support"></a>Compatibilidad con clientes
 
@@ -193,7 +193,7 @@ El cliente específico que puede usar depende del tipo de usuario del grupo de r
 
 - **Los agentes informales** (agentes que no inician sesión y no inician sesión en sus grupos para aceptar llamadas) pueden aceptar llamadas mediante Attendant, Lync o Lync Teléfono Edition. Los agentes informales inician sesión automáticamente en sus grupos cuando inician sesión Skype Empresarial Server mediante uno de estos clientes.
 
-- Los agentes **formales** (agentes que deben iniciar y cerrar sesión en sus grupos para aceptar llamadas) pueden aceptar llamadas usando Skype Empresarial y accediendo a la consola del agente desde el elemento de menú, o usando Attendant y accediendo a la consola del agente directamente desde Internet Explorer.
+- **Los agentes formales** (agentes que deben iniciar y cerrar sesión en sus grupos para aceptar llamadas) pueden aceptar llamadas usando Skype Empresarial y accediendo a la consola del agente desde el elemento de menú, o usando Attendant y accediendo a la consola del agente directamente desde Internet Explorer.
 
 ## <a name="capacity-planning"></a>Planeamiento de la capacidad
 
@@ -207,7 +207,7 @@ En la tabla siguiente se describe el modelo de usuario grupo de respuesta que pu
 
 **Modelo de usuario de grupo de respuesta**
 
-|**Métrica**|**Por Enterprise Edition de <br/> servidores (con 8 servidores front-end)**|**Por Standard Edition servidor**|
+|**Métrica**|**Por Enterprise Edition (<br/>con 8 servidores front-end)**|**Por Standard Edition servidor**|
 |:-----|:-----|:-----|
 |Llamadas entrantes por segundo  <br/> |16  <br/> |2  <br/> |
 |Llamadas simultáneas conectadas a IVR o MoH  <br/> |480  <br/> |60  <br/> |

@@ -1,8 +1,8 @@
 ---
 title: Eliminar las opciones de configuración de reunión en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: 'Summary: Learn how to delete meeting configuration settings in Skype Empresarial Server.'
-ms.openlocfilehash: 95eda4da393f1eb677fc331ffb824e6222e35113
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f08869e2cb9c59dc6fb382de6568ad913c329c1a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830904"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391132"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>Eliminar las opciones de configuración de reunión en Skype Empresarial Server
  
@@ -33,13 +33,13 @@ Puede eliminar un sitio o una configuración de usuario, pero no puede eliminar 
     
 2.  Abra Skype Empresarial Server Panel de control.
     
-3. En la barra de navegación izquierda, haga clic **en Conferencia y,** a continuación, haga clic en **Configuración de reunión.**
+3. En la barra de navegación izquierda, haga clic **en Conferencia y**, a continuación, haga clic en **Configuración de reunión**.
     
-4. En la lista de configuraciones de reunión, haga clic en la configuración del sitio o grupo de servidores que desea eliminar, haga clic en **Editar** y, a continuación, haga clic en **Eliminar**.
+4. En la lista de configuraciones de reunión, haga clic en la configuración del sitio o grupo que desea eliminar, haga clic en **Editar** y, a continuación, haga clic en **Eliminar**.
     
 ## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Eliminar las opciones de configuración de reuniones mediante Skype Empresarial Server Shell de administración
 
-Para eliminar la configuración de reunión, use el cmdlet **Remove-CsMeetingConfiguration.**
+Para eliminar la configuración de reunión, use el cmdlet **Remove-CsMeetingConfiguration** .
   
 El siguiente comando quita las opciones de configuración de reunión aplicadas al sitio redmond:
   

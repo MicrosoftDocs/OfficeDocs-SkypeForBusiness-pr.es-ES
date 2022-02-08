@@ -1,8 +1,8 @@
 ---
 title: Número de teléfono sin asignar
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,17 +15,17 @@ ms.localizationpriority: medium
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los números sin asignar son números de teléfono válidos para su organización pero que no se han asignado a un usuario o teléfono. La tabla de números sin asignar identifica cómo desea que se traten las llamadas a números sin asignar.
-ms.openlocfilehash: fa7fd55f0c0fae22643d0dde66cae32c2610bdcd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 113b0273d22b8bacb8df8a97fdb9efbf2e9a4421
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834528"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390582"
 ---
 # <a name="unassigned-phone-number"></a>Número de teléfono sin asignar
 
 > [!NOTE]
-> Exchange La mensajería unificada permanece disponible Skype Empresarial Server 2019 al integrar Skype Empresarial 2019 con Exchange 2013 o Exchange 2016. Debido a los cambios en la compatibilidad en Exchange 2019, Exchange la integración de mensajería unificada se está haciendo hincapié en las características de Correo de voz en la nube y cloud Operador automático.
+> Exchange mensajería unificada permanece disponible en Skype Empresarial Server 2019 al integrar Skype Empresarial 2019 con Exchange 2013 o Exchange 2016. Debido a los cambios en la compatibilidad en Exchange 2019, Exchange la integración de mensajería unificada se está haciendo hincapié en las características de Correo de voz en la nube y cloud Operador automático.
 
 Los números sin asignar son números de teléfono válidos para su organización pero que no se han asignado a un usuario o teléfono. La tabla de números sin asignar identifica cómo desea que se traten las llamadas a números sin asignar.
 

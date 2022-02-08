@@ -1,8 +1,8 @@
 ---
 title: Comprobar replicación en el dominio
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 description: 'Para comprobar la replicación de la preparación del dominio que se ha realizado en step 1: Prepare Schema, es necesario ejecutar un cmdlet desde el Shell de administración de Skype Empresarial Server Shell de administración de Lync Server. Para ejecutar el cmdlet Windows PowerShell, inicie sesión en un equipo que sea miembro del dominio que haya preparado y como miembro del grupo Administradores de dominio. Haga lo siguiente:'
-ms.openlocfilehash: 600d024aa1f2d024c56e08afa20b7f24de086710
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 93d12aa320e150a016fbd58301170c45e1396e6d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857787"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391322"
 ---
 # <a name="verify-replication-in-the-domain"></a>Comprobar replicación en el dominio
  
-Para comprobar la replicación de la preparación del dominio que se ha realizado en el paso **1: Preparar** esquema, es necesario ejecutar un cmdlet desde el Shell de administración de Skype Empresarial Server Shell de administración de Lync Server. Para ejecutar el cmdlet Windows PowerShell, inicie sesión en un equipo que sea miembro del dominio que haya preparado y como miembro del grupo Administradores de dominio. Haga lo siguiente:
+Para comprobar la replicación de la preparación del dominio que se ha realizado en **step 1: Prepare Schema**, es necesario ejecutar un cmdlet desde el Shell de administración de Skype Empresarial Server Shell de administración de Lync Server. Para ejecutar el cmdlet Windows PowerShell, inicie sesión en un equipo que sea miembro del dominio que haya preparado y como miembro del grupo Administradores de dominio. Haga lo siguiente:
   
-1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 2. En Windows PowerShell, escriba lo siguiente:
     

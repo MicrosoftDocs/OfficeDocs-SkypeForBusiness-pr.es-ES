@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito de aplicaciones externas
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo Servidores de aplicaciones de confianza muestra los grupos de aplicaciones de confianza de este sitio. Los grupos de aplicaciones de confianza contienen servidores que ejecutan aplicaciones de Comunicaciones unificadas de Microsoft de confianza, pero no ejecutan Skype Empresarial Server funciones. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 97d6906472b0deac71df8f3458565c508db62f25
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 07669a3afa1cb3ff419cf9d7a01c1ded9fd70852
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847873"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393092"
 ---
 # <a name="external-applications-scope-node"></a>Nodo de ámbito de aplicaciones externas
  

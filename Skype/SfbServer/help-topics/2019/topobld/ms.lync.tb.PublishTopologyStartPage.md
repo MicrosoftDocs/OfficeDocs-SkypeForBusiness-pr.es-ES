@@ -1,8 +1,8 @@
 ---
 title: Publicar la topología
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2ea9613d-e74f-434b-aa51-eaaab206ff1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página Publicar la topología se muestra en pantalla al comenzar el proceso de publicación. Antes de continuar, lea y confirme que estén completas las tareas que aparecen. Cuando desee continuar, haga clic en Siguiente. Si desea salir del proceso de publicación, haga clic en Cancelar.
-ms.openlocfilehash: e684d3432d6f5e2b26a04f692ea6249a95510b91
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 237e1da40b4e37f8280829d0c4ac2900e2c09108
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860557"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391462"
 ---
 # <a name="publish-topology"></a>Publicar la topología
  

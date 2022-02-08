@@ -1,8 +1,8 @@
 ---
 title: Informe de dispositivos en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 'Resumen: obtenga información sobre el informe de dispositivos en Skype Empresarial Server.'
-ms.openlocfilehash: 29ea62f7578b491a940a47663668d0bc83ec5402
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 211dc69423f8f5b2edb9d5508a78c48297d3917c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835268"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392532"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>Informe de dispositivos en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre el informe de dispositivos en Skype Empresarial Server.
   
-Es posible que el informe de dispositivos se titulara mejor como informe de micrófono y altavoces; esto se debe a que el informe de dispositivos recupera métricas relacionadas con llamadas (como porcentaje de llamadas deficientes, eco y tiempo de cambio de voz) agrupadas por los micrófonos y altavoces usados en la llamada. Si está interesado en los teléfonos IP (también denominados comúnmente "dispositivos"), use el informe de inventario de ip Teléfono en Skype Empresarial Server en su [lugar.](ip-phone-inventory-report.md)
+Es posible que el informe de dispositivos se titulara mejor como informe de micrófono y altavoces; esto se debe a que el informe de dispositivos recupera métricas relacionadas con llamadas (como porcentaje de llamadas deficientes, eco y tiempo de cambio de voz) agrupadas por los micrófonos y altavoces usados en la llamada. Si está interesado en los teléfonos IP (también denominados comúnmente "dispositivos"), use el informe de inventario de ip [Teléfono en Skype Empresarial Server](ip-phone-inventory-report.md) en su lugar.
   
 El informe de dispositivos es extremadamente útil para los administradores a la hora de determinar si un tipo específico de dispositivo está experimentando grandes volúmenes de llamadas de mala calidad que otros. A su vez, esto podría influir en cualquier decisión que deba tomar cuando llegue el momento de comprar nuevos dispositivos o reemplazar los dispositivos existentes.
   

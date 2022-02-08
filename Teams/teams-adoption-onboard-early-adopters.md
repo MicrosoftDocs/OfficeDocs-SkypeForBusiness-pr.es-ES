@@ -1,7 +1,7 @@
 ---
 title: Incorporar usuarios pioneros y recopilar comentarios
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a87a6802a538609e9899f2645833a1e9bdab120f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0cbc0f8d77aaa29c7c1d5ba76715840b6a535707
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840732"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390812"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Incorporar usuarios pioneros y recopilar comentarios para Microsoft Teams
 
@@ -49,4 +49,4 @@ Use los componentes de Microsoft 365 o Office 365 para recopilar comentarios par
 > Algunas organizaciones combinarán los canales para los comentarios de los primeros usuarios en el equipo del programa de campeones del trabajo en equipo. Este es un buen enfoque porque muchos usuarios iniciales pueden convertirse en campeones en el futuro y crearán una comunidad más sólida. 
 
 
-![Un icono que representa el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Soporte técnico integrado.](teams-adoption-onboard-support.md)
+![Un icono que representa el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Soporte técnico integrado](teams-adoption-onboard-support.md).

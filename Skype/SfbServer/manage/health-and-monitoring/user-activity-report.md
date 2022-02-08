@@ -1,8 +1,8 @@
 ---
 title: Informe de actividad de usuario en Skype Empresarial Server 25
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 'Summary: Learn about the User Activity Report in Skype Empresarial Server.'
-ms.openlocfilehash: c78718e55740afdd42ceff11e1ab62d6198c15ec
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 673c212ae398c2e7a292c7c46cd5ae24cf274d6b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828743"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392502"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>Informe de actividad del usuario en Skype Empresarial Server
 
@@ -27,13 +27,13 @@ El Informe de actividad de usuario proporciona una lista detallada de sesiones d
 
 Al Informe de actividad de usuario a veces se lo conoce como "informe de asistencia técnica", debido a que a menudo el personal de asistencia técnica lo utiliza para recuperar información de sesión para un usuario específico. Es posible establecer filtros para llamadas realizadas a o por un usuario particular con tan solo escribir el URI del SIP del usuario en el cuadro de prefijo de URI del usuario.
 
-Si lo hace, el Informe de actividad del usuario devolverá información para cualquier usuario cuyo URI de SIP comience con la cadena especificada. Por ejemplo, si escribe **ken en** el cuadro URI, el Informe de actividad de usuario localizará **Ken**. Myer@litwareinc.com. Sin embargo, también localizará estos usuarios:
+Si lo hace, el Informe de actividad del usuario devolverá información para cualquier usuario cuyo URI de SIP comience con la cadena especificada. Por ejemplo, si escribe **ken en** el cuadro URI, el Informe de actividad de usuario localizará **Ken.Myer@litwareinc.com**. Sin embargo, también localizará estos usuarios:
 
 - **ken** azi@litwareinc.com
 
 - **ken** burg@litwareinc.com
 
-- **Ken**. Sanchez@litwareinc.com
+- **Ken.Sanchez@litwareinc.com**
 
 - **Ken** nedy@litwareinc.com
 
@@ -43,7 +43,7 @@ Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>Acceso al informe de actividad de usuario
 
-Para acceder al Informe de actividad de usuario hay que ir a la página de inicio de Informes de supervisión. También puede llegar al Informe de actividad de usuario haciendo clic en la métrica URI de usuario en el Informe de inventario de ip [Teléfono en Skype Empresarial Server](ip-phone-inventory-report.md). Desde el Informe de actividad de usuario, puede hacer clic en el URI de conferencia (para una conferencia) para acceder al Informe de detalles de conferencia. Del mismo modo, al hacer clic en la métrica Detail de una llamada punto a punto, se muestra el Informe de detalles de sesión punto a [punto en Skype Empresarial Server](peer-to-peer-session-detail-report.md).
+Para acceder al Informe de actividad de usuario hay que ir a la página de inicio de Informes de supervisión. También puede llegar al Informe de actividad de usuario haciendo clic en la métrica URI de usuario en el Informe de inventario de ip [Teléfono en Skype Empresarial Server](ip-phone-inventory-report.md). Desde el Informe de actividad de usuario, puede hacer clic en el URI de conferencia (para una conferencia) para acceder al Informe de detalles de conferencia. Del mismo modo, al hacer clic en la métrica Detalle de una llamada punto a punto, se le llevará al Informe de detalles de sesión punto a [punto en Skype Empresarial Server](peer-to-peer-session-detail-report.md).
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>Aprovechar al máximo el informe de actividad del usuario
 

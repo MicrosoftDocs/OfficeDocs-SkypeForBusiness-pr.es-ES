@@ -1,8 +1,8 @@
 ---
 title: Seleccionar tronco
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 description: Use el cuadro de diálogo Seleccionar tronco para buscar un tronco existente que pueda usar.
-ms.openlocfilehash: 98b7252df3efeb44576f4c1d7d11874bea325c18
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 469c3849bc879cc1ed2ff51ddda6f2690aa7bd8c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862707"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391282"
 ---
 # <a name="select-trunk"></a>Seleccionar tronco
  
