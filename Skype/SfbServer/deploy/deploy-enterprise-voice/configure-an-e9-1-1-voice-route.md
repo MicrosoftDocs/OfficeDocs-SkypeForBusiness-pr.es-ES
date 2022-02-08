@@ -1,8 +1,8 @@
 ---
 title: Configurar una ruta de voz E9-1-1 en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,27 +16,27 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Configure las rutas de voz de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 86904c32db6ae43b9fa1b6f184048d3b9f419089
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6543e7c7dac59b026b3b2f7e5738cd1b06c3ffc5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833956"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394342"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Configurar una ruta de voz E9-1-1 en Skype Empresarial Server
  
 Configure las rutas de voz de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial. 
   
-Para implementar E9-1-1, deberá configurar primero una ruta de voz para llamadas de emergencia. Para obtener más información sobre cómo crear rutas de voz, vea [Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md). Puede definir más de una ruta si, por ejemplo, su implementación incluye un tronco SIP principal y otro secundario. 
+Para implementar E9-1-1, deberá configurar primero una ruta de voz para llamadas de emergencia. Para obtener más información acerca de la creación de rutas de voz, vea [Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md). Puede definir más de una ruta si, por ejemplo, su implementación incluye un tronco SIP principal y otro secundario. 
   
 > [!NOTE]
-> Para incluir información de ubicación en una INVITACIÓN de E9-1-1, debe configurar el tronco SIP que se conecta al proveedor de servicios E9-1-1 para enrutar llamadas de emergencia a través de la puerta de enlace. Para ello, establezca la marca EnablePIDFLOSupport en el cmdlet **Set-CsTrunkConfiguration** en True. El valor predeterminado de EnablePIDFLOSupport es False. Por ejemplo: no es necesario habilitar ubicaciones de recepción para puertas de enlace de red telefónica conmutada (RTC) y puertas de enlace de número de identificación de ubicación de `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` emergencia (ELIN).
+> Para incluir información de ubicación en una INVITACIÓN de E9-1-1, debe configurar el tronco SIP que se conecta al proveedor de servicios E9-1-1 para enrutar llamadas de emergencia a través de la puerta de enlace. Para ello, establezca la marca EnablePIDFLOSupport en el cmdlet **Set-CsTrunkConfiguration** en True. El valor predeterminado de EnablePIDFLOSupport es False. Por ejemplo: `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` no es necesario habilitar ubicaciones de recepción para puertas de enlace de red telefónica conmutada (RTC) y puertas de enlace de número de identificación de ubicación de emergencia (ELIN).
   
 ### <a name="to-configure-an-e9-1-1-voice-route"></a>Para configurar una ruta de voz de E9-1-1
 
 1. Inicie sesión en el equipo con una cuenta que sea miembro de los grupos RTCUniversalServerAdmins o del rol administrativo CsVoiceAdministrator.
     
-2.  Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+2.  Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 3. Ejecute el siguiente cmdlet para crear un nuevo registro de uso de RTC. 
     

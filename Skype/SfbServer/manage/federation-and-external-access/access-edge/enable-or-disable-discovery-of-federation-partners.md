@@ -5,8 +5,8 @@ ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182550(v=OCS.15)
 ms:contentKeyID: 48184857
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: En el momento en que implementa los servidores perimetrales y habilita la federación para la organización, debe especificar si se va a admitir la detección automática de los dominios de socios federados.
-ms.openlocfilehash: 4e425566fb0b8aa463c93f0940582487dabaae3d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0742c8ecb2288ca91d8e7f72fc439f7347a7f55e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830014"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395322"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>Habilitar o deshabilitar la detección de socios de federación en Skype Empresarial Server
 
 En el momento en que implementa los servidores perimetrales y habilita la federación para la organización, debe especificar si se va a admitir la detección automática de los dominios de socios federados. Para cambiar esa configuración, siga el procedimiento de este tema.
 
 > [!NOTE]  
-> En el procedimiento siguiente, se presupone que ya ha habilitado la federación para la organización. Para obtener más información sobre cómo habilitar la federación, vea [Habilitar o deshabilitar el acceso de usuarios remotos.](enable-or-disable-remote-user-access.md)
+> En el procedimiento siguiente, se presupone que ya ha habilitado la federación para la organización. Para obtener más información sobre cómo habilitar la federación, consulte [Habilitar o deshabilitar el acceso de usuarios remotos](enable-or-disable-remote-user-access.md).
 
 ## <a name="to-enable-or-disable-automatic-discovery-of-federated-domains-for-your-organization"></a>Para habilitar o deshabilitar la detección automática de dominios federados para la organización
 
@@ -43,7 +43,7 @@ En el momento en que implementa los servidores perimetrales y habilita la federa
 
 6.  Haga clic en **Confirmar**.
 
-Para permitir que los usuarios federados colaboren con los usuarios en la implementación Skype Empresarial Server, también debe haber configurado al menos una directiva de acceso externo para admitir el acceso de usuarios federados. Para obtener más información, [vea Habilitar o deshabilitar la federación y la conectividad de mensajería instantánea pública.](enable-or-disable-federation-and-public-im-connectivity.md) Para obtener más información sobre cómo controlar el acceso para dominios federados específicos, vea [Manage SIP federated domains](../sip-domains/manage-sip-federated-domains-for-your-organization.md) and Manage SIP [federated providers](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
+Para permitir que los usuarios federados colaboren con los usuarios en la implementación Skype Empresarial Server, también debe haber configurado al menos una directiva de acceso externo para admitir el acceso de usuarios federados. Para obtener más información, vea [Habilitar o deshabilitar la federación y la conectividad de mensajería instantánea pública](enable-or-disable-federation-and-public-im-connectivity.md). Para obtener más información sobre cómo controlar el acceso a dominios federados específicos, vea [Manage SIP federated domains](../sip-domains/manage-sip-federated-domains-for-your-organization.md) y [Manage SIP federated providers](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
 
 
 ## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a>Habilitar o deshabilitar la detección de asociados de federación mediante cmdlets Windows PowerShell servidores

@@ -1,8 +1,8 @@
 ---
 title: Planear conferencias en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 'Resumen: lea este tema para obtener información sobre las funciones y características de conferencia en Skype Empresarial Server.'
-ms.openlocfilehash: f5eb0d549b5d0b120017d36e4f904b931e0ea278
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 669c87bd2c5eae3944a586e289bbeac3fd4409df
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864717"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394992"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planear conferencias en Skype Empresarial Server
  
@@ -41,7 +41,7 @@ En este tema se incluyen las secciones siguientes:
 
 Hay cuatro tipos de conferencias disponibles en Skype Empresarial Server: conferencia web, conferencias de audio y vídeo (A/V), conferencias de acceso telefónico local y conferencias de mensajes instantáneos (MI). 
   
-Puede elegir habilitar todos los tipos de conferencia o usar solo un tipo, según sus necesidades. Por ejemplo, puede habilitar todos los tipos, incluidas las conferencias de acceso telefónico local, para permitir que los usuarios que no puedan unirse a una conferencia con un cliente de Skype Empresarial puedan llamar y participar en el audio de la reunión desde un teléfono. Al implementar Skype Empresarial Server, las capacidades de conferencia de mensajería instantánea se implementan automáticamente; especifique si desea implementar conferencias web, A/V y de acceso telefónico local mediante el Generador de topologías. Para obtener más información, vea [Deploy conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/deploy-conferencing.md). 
+Puede elegir habilitar todos los tipos de conferencia o usar solo un tipo, según sus necesidades. Por ejemplo, puede habilitar todos los tipos, incluidas las conferencias de acceso telefónico local, para permitir que los usuarios que no puedan unirse a una conferencia con un cliente de Skype Empresarial puedan llamar y participar en el audio de la reunión desde un teléfono. Al implementar Skype Empresarial Server, las funcionalidades de conferencia de mensajería instantánea se implementan automáticamente; se especifica si se van a implementar conferencias web, A/V y de acceso telefónico local mediante el Generador de topologías. Para obtener más información, vea [Deploy conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/deploy-conferencing.md). 
   
 En las subsecciones siguientes se describen las características y capacidades de cada tipo de conferencia.
   
@@ -55,7 +55,7 @@ La conferencia web permite a los asistentes a la reunión colaborar en documento
     
 - **Uso compartido de aplicaciones y uso compartido de escritorio.** Durante una conferencia, el moderador de la reunión puede compartir todo su escritorio, una aplicación individual o monitores individuales en un entorno de varios monitores. Aparte de solo ver el contenido, otros participantes en la conferencia pueden solicitar el control de la pantalla del moderador y, con permiso, interactuar con el contenido (incluido el desplazamiento y la edición). Los participantes de la reunión también pueden asumir el cargo de moderador y empezar a compartir contenido durante la reunión.
     
-- **PowerPoint Uso compartido.** Permite a los usuarios compartir PowerPoint presentaciones en la reunión a través de un servidor Office Web Apps, lo que permite:
+- **PowerPoint uso compartido.** Permite a los usuarios compartir PowerPoint presentaciones en la reunión a través de un servidor Office Web Apps, lo que permite:
     
   - Pantallas de alta resolución y compatibilidad con PowerPoint funciones, como animaciones, transiciones de diapositivas y vídeo incrustado.
     
@@ -87,7 +87,7 @@ Las conferencias de audio y vídeo permiten audio y vídeo en la reunión. El au
     
 ### <a name="dial-in-conferencing"></a>Conferencia de acceso telefónico local
 
-La conferencia de acceso telefónico local permite a los asistentes a la reunión unirse a la parte de audio de una reunión llamando a la reunión desde un teléfono. La conferencia de acceso telefónico local es un subconjunto de la conferencia de audio y requiere configuración adicional. Para obtener más información acerca de las conferencias de acceso telefónico local, vea [Plan for dial-in conferencing in Skype Empresarial Server](dial-in-conferencing.md) and Configure [dial-in conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/dial-in-conferencing.md). 
+La conferencia de acceso telefónico local permite a los asistentes a la reunión unirse a la parte de audio de una reunión llamando a la reunión desde un teléfono. La conferencia de acceso telefónico local es un subconjunto de la conferencia de audio y requiere configuración adicional. Para obtener más información acerca de las conferencias de acceso telefónico local, vea [Plan for dial-in conferencing in Skype Empresarial Server](dial-in-conferencing.md) and [Configure dial-in conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/dial-in-conferencing.md). 
   
 ### <a name="instant-messaging-conferencing"></a>Conferencias de mensajería instantánea
 
@@ -136,7 +136,7 @@ El tamaño de las reuniones que Skype Empresarial Server pueden admitir depende 
     
 Para obtener más información acerca de la administración de reuniones grandes, vea [Plan for large meetings in Skype Empresarial Server](large-meetings.md).
   
-Si su organización requiere capacidades de reunión más grandes, debe considerar la posibilidad de implementar un entorno híbrido que aproveche la difusión de reuniones de Skype, un servicio en línea que forma parte de Microsoft 365 y Office 365. Skype Difusión de reuniones permite a los usuarios hospedar y difundir reuniones a grandes audiencias en línea de hasta 10 000 participantes. El uso de Skype de reunión requiere que Skype Empresarial Server esté configurado en una configuración híbrida con una organización Microsoft 365 o Office 365 de producción. Todos los usuarios deben tener un inquilino en línea establecido como requisito previo. Si está interesado en implementar una solución híbrida que pueda aprovechar Skype difusión de reuniones, vea [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md).
+Si su organización requiere capacidades de reunión más grandes, debe considerar la posibilidad de implementar un entorno híbrido que aproveche la difusión de reuniones de Skype, un servicio en línea que forma parte de Microsoft 365 y Office 365. Skype difusión de reuniones permite a los usuarios hospedar y difundir reuniones a grandes audiencias en línea de hasta 10 000 participantes. El uso de Skype de reunión requiere que Skype Empresarial Server esté configurado en una configuración híbrida con una organización Microsoft 365 o Office 365 de producción. Todos los usuarios deben tener un inquilino en línea establecido como requisito previo. Si está interesado en implementar una solución híbrida que pueda aprovechar Skype difusión de reuniones, consulte [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md).
   
 ## <a name="determine-your-organizations-needs"></a>Determinar las necesidades de las organizaciones
 
@@ -151,7 +151,7 @@ Al determinar qué capacidades de conferencia implementar, debe tener en cuenta 
     
     El uso compartido de aplicaciones requiere y usa un mayor ancho de banda que la colaboración en documentos. Skype Empresarial Server proporciona un mecanismo de limitación para controlar cada sesión de uso compartido de aplicaciones. De forma predeterminada, este está establecido en 1,5 KB/segundo para cada sesión. Si no desea habilitar el uso compartido de aplicaciones, pero sí desea la colaboración de documentos, puede habilitar las conferencias y usar directivas de conferencia para deshabilitar el uso compartido de aplicaciones. Para obtener más información sobre cómo configurar directivas de conferencia, vea [Manage conferencing policies in Skype Empresarial Server](../../manage/conferencing/conferencing-policies.md).
     
-    Para permitir a los usuarios compartir PowerPoint presentaciones, debe configurar Office Web Apps Server. Para obtener más información sobre cómo configurar Office Web Apps Server, vea [Configure integration with Office Web Apps Server in Skype Empresarial Server](../../deploy/deploy-conferencing/office-web-app-server.md).
+    Para permitir a los usuarios compartir PowerPoint presentaciones, debe configurar Office Web Apps Server. Para obtener más información sobre cómo Office Web Apps Server, consulte [Configure integration with Office Web Apps Server in Skype Empresarial Server](../../deploy/deploy-conferencing/office-web-app-server.md).
     
 - **¿Desea habilitar las conferencias de audio y vídeo?**
     
@@ -161,7 +161,7 @@ Al determinar qué capacidades de conferencia implementar, debe tener en cuenta 
     
     Si desea habilitar audioconferencias pero no videoconferencias, puede habilitar las conferencias A/V y usar directivas de conferencia para evitar las videoconferencias. Como alternativa, puede habilitar la conferencia A/V y habilitar solo a determinados usuarios para que inicien conferencias A/V o participen en ellas. 
     
-    Para obtener más información acerca de cómo configurar directivas de conferencia, vea [Manage conferencing policies in Skype Empresarial Server](../../manage/conferencing/conferencing-policies.md).
+    Para obtener más información sobre cómo configurar directivas de conferencia, vea [Manage conferencing policies in Skype Empresarial Server](../../manage/conferencing/conferencing-policies.md).
     
     > [!NOTE]
     > Telefonía IP empresarial no es necesario que use conferenciaS/V. Si habilita las conferencias A/V, los usuarios pueden agregar audio a sus conferencias si tienen dispositivos de audio, incluso si usa una PBX para la solución telefónica. 
@@ -170,7 +170,7 @@ Al determinar qué capacidades de conferencia implementar, debe tener en cuenta 
     
     Si es así, implemente y habilite las conferencias de acceso telefónico local. De este modo, los usuarios invitados, tanto de dentro como de fuera de la organización, podrán unirse a la sección de audio de las conferencias a través de un teléfono RTC.
     
-    Las conferencias de acceso telefónico local son una característica opcional que puede configurar al implementar Skype Empresarial Server conferencia. Aunque las conferencias de acceso telefónico local usan algunos de los mismos componentes que Telefonía IP empresarial, puede implementar conferencias de acceso telefónico local incluso si no implementa Telefonía IP empresarial. Las conferencias de acceso telefónico local admiten tanto a usuarios de empresa como a usuarios anónimos. Para obtener más información acerca de la configuración de conferencias de acceso telefónico local para usuarios anónimos y empresariales, vea [Deploy conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/deploy-conferencing.md) y Configure [dial-in conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+    Las conferencias de acceso telefónico local son una característica opcional que puede configurar al implementar Skype Empresarial Server conferencia. Aunque las conferencias de acceso telefónico local usan algunos de los mismos componentes que Telefonía IP empresarial, puede implementar conferencias de acceso telefónico local incluso si no implementa Telefonía IP empresarial. Las conferencias de acceso telefónico local admiten tanto a usuarios de empresa como a usuarios anónimos. Para obtener más información acerca de la configuración de conferencias de acceso telefónico local para usuarios anónimos y empresariales, vea [Deploy conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/deploy-conferencing.md) y [Configure dial-in conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
     
 - **¿Desea permitir que los usuarios externos con Skype Empresarial clientes se unan a conferencias?**
     
@@ -184,7 +184,7 @@ Al determinar qué capacidades de conferencia implementar, debe tener en cuenta 
     
     Si desea permitir usuarios externos, deberá implementar servidores perimetrales. Además, con los servidores perimetrales implementados puede crear relaciones federadas con otras organizaciones ,como sus clientes o proveedores, y los usuarios de dichas organizaciones pueden colaborar más fácilmente con los usuarios.
     
-    Para obtener más información acerca de la implementación de servidores perimetrales, vea Plan for Edge Servers e Deploy Edge Servers. Para obtener más información sobre cómo habilitar el acceso externo para Office Web Apps Server, vea [Configure integration with Office Web Apps Server in Skype Empresarial Server](../../deploy/deploy-conferencing/office-web-app-server.md).
+    Para obtener más información acerca de la implementación de servidores perimetrales, vea Plan for Edge Servers e Deploy Edge Servers. Para obtener más información sobre cómo habilitar el acceso externo para Office Web Apps Server, consulte [Configure integration with Office Web Apps Server in Skype Empresarial Server](../../deploy/deploy-conferencing/office-web-app-server.md).
     
 - **¿Desea controlar los clientes que pueden unirse a Skype Empresarial Server reuniones?**
     

@@ -1,8 +1,8 @@
 ---
 title: Directiva de conferencia Crear nueva o editar existente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Una directiva de conferencia define las características y capacidades que los usuarios tienen disponibles durante una conferencia (también conocida como reunión).
-ms.openlocfilehash: a7e5e32d474a915c8c91bfe13fa13feffe98d064
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 55e5d01bb576da71c6a232cf525f624ca2bf3228
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837282"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393292"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Directiva de conferencia: Crear nuevos o editar los existentes
 
@@ -59,13 +59,13 @@ En la siguiente lista se describen los campos de la página.
 
   - **Habilitar audio/vídeo IP** Seleccione esta opción para permitir audio y vídeo.
 
-- **Habilitar conferencias de** acceso telefónico local RTC Si ha habilitado el audio en **audio y vídeo,** active esta casilla para permitir que los usuarios puedan llamar a conferencias mediante la red telefónica conmutada (RTC).
+- **Habilitar conferencias de acceso telefónico local RTC** Si ha habilitado el audio en **audio/vídeo**, active esta casilla para permitir que los usuarios puedan llamar a conferencias mediante la red telefónica conmutada (RTC).
 
 - **Permitir que los participantes anónimos marquen hacia fuera** Active esta casilla si permite a los usuarios llamar a conferencias y desea permitir que los usuarios no autenticados (anónimos) se unan a una conferencia mediante la llamada de salida. Mediante las llamadas de salida, el servidor de conferencia llama al usuario y el usuario responde al teléfono para unirse a la conferencia.
 
-- **Permitir que los participantes no habilitados Telefonía IP empresarial llamar** Si ha habilitado el audio en **audio/vídeo,** active esta casilla para permitir que los usuarios que no están habilitados para Telefonía IP empresarial se unan a una conferencia mediante la llamada de acceso telefónico. Al realizar la marcación, el servidor de conferencia llama al usuario y el usuario responde al teléfono para unirse a la conferencia.
+- Permitir que los **participantes no habilitados para Telefonía IP empresarial** marquen la salida Si habilitó audio en **audio y vídeo**, active esta casilla para permitir que los usuarios que no están habilitados para Telefonía IP empresarial se unan a una conferencia mediante la llamada de acceso telefónico. Al realizar la marcación, el servidor de conferencia llama al usuario y el usuario responde al teléfono para unirse a la conferencia.
 
-- **Permitir varias secuencias de vídeo** Si habilitó el vídeo en **Audio/vídeo,** active esta casilla para permitir a los usuarios organizar conferencias con vídeo de vista de galería. Si esta casilla está activada, los usuarios pueden organizar conferencias que envían varias secuencias de vídeo. Si no está activada, los usuarios solo pueden organizar conferencias que envíen una única secuencia de vídeo.
+- **Permitir varias secuencias de vídeo** Si habilitó el vídeo en **Audio/vídeo**, active esta casilla para permitir a los usuarios organizar conferencias con vídeo de vista de galería. Si esta casilla está activada, los usuarios pueden organizar conferencias que envían varias secuencias de vídeo. Si no está activada, los usuarios solo pueden organizar conferencias que envíen una única secuencia de vídeo.
 
     > [!NOTE]
     > Esta opción determina el tipo de secuencia de vídeo admitido por la conferencia. No determina si los participantes pueden recibir varias secuencias de vídeo. La opción **Permitir a los participantes la conexión a varias secuencias de vídeo** determina si los participantes pueden recibir varias secuencias de vídeo.
@@ -80,7 +80,7 @@ En la siguiente lista se describen los campos de la página.
 
   - **Habilitar anotaciones** Si permite la colaboración de datos, active esta casilla para permitir que los participantes realicen anotaciones en pantalla en el contenido compartido durante la conferencia.
 
-  - **Habilitar PowerPoint anotaciones** Si permite la anotación, active esta casilla para permitir que los participantes realicen anotaciones en PowerPoint diapositivas compartidas durante la conferencia.
+  - **Habilitar PowerPoint si permite la** anotación, active esta casilla para permitir que los participantes realicen anotaciones en PowerPoint diapositivas compartidas durante la conferencia.
 
   - **Habilitar sondeos** Si permite la colaboración de datos, active esta casilla para permitir que los participantes puedan realizar una encuesta durante una conferencia.
 

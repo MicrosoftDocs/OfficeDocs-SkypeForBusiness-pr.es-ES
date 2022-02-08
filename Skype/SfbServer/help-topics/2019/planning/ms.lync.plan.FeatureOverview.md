@@ -1,8 +1,8 @@
 ---
 title: Información general sobre características (herramienta de planeación)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,17 +15,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype Empresarial Server Herramienta de planeación
-ms.openlocfilehash: ee6578aeb51aa0cf9f6a4066c78d6038a057763b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Skype Empresarial Server de planeación
+ms.openlocfilehash: 173a5a5ba0b8fd65e9a412d0b6507005f3cf8547
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832694"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393212"
 ---
 # <a name="feature-overview-planning-tool"></a>Información general sobre características (herramienta de planeación)
  
-Skype Empresarial Server Herramienta de planeación
+Skype Empresarial Server de planeación
   
 Puede usar la página **Sitios centrales** de la Herramienta de planeación para diseñar la Skype Empresarial Server implementación. Puede crear dos implementaciones centralizadas o distribuidas. Una implementación centralizada solo tiene un sitio central, que alberga todos los Skype Empresarial de la organización. Una implementación distribuida tiene más de un sitio central. Si implementas Skype Empresarial Server en varios sitios centrales, escribirá el número de usuarios en cada sitio central en la Herramienta de planeación.
   
@@ -90,10 +90,10 @@ Los elementos restantes se han rellenado con las respuestas que proporcionó a l
     
 - **Buzón de Exchange W15**
     
-    Skype Empresarial Server permite que los mensajes de correo de voz se almacenen en Exchange mensajería unificada (MU); esos mensajes de correo de voz aparecerán como mensajes de correo electrónico en las bandejas de entrada de los usuarios.
+    Skype Empresarial Server permite que los mensajes de correo de voz se almacenen en la mensajería unificada (UM) de Exchange; esos mensajes de correo de voz aparecerán como mensajes de correo electrónico en las bandejas de entrada de los usuarios.
 
     > [!NOTE]
-    > Exchange La mensajería unificada como se conocía anteriormente ya no está disponible en Exchange 2019, pero aún puede usar Sistema telefónico para grabar mensajes de correo de voz y, a continuación, dejar la grabación en el buzón de correo Exchange de un usuario. Vea [Plan Correo de voz en la nube service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obtener más información.
+    > Exchange la mensajería unificada como se conocía anteriormente ya no está disponible en Exchange 2019, pero aún puede usar Sistema telefónico para grabar mensajes de correo de voz y, a continuación, dejar la grabación en el buzón de correo de Exchange de un usuario. Vea [Plan Correo de voz en la nube service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obtener más información.
     
 ### <a name="voice"></a>Voz
 
@@ -105,14 +105,14 @@ Los elementos restantes se han rellenado con las respuestas que proporcionó a l
     
 - **Mensajería unificada de Exchange**
     
-    Exchange La mensajería unificada (MU) combina el correo de voz y el correo electrónico en una única infraestructura de mensajería. Skype Empresarial Server 2015 usa Exchange mensajería unificada para proporcionar servicios de contestación de llamadas, acceso de suscriptor, notificación de llamadas y operador automático. Si usa estos servicios, deberá integrar Exchange mensajería unificada y Skype Empresarial Server en una topología compartida de Active Directory.
+    Exchange mensajería unificada (UM) combina el correo de voz y el correo electrónico en una única infraestructura de mensajería. Skype Empresarial Server 2015 usa Exchange mensajería unificada para proporcionar servicios de contestación de llamadas, acceso de suscriptor, notificación de llamadas y operador automático. Si usa estos servicios, deberá integrar Exchange mensajería unificada y Skype Empresarial Server en una topología compartida de Active Directory.
 
     > [!NOTE]
-    > Exchange La mensajería unificada como se conocía anteriormente ya no está disponible en Exchange 2019, pero aún puede usar Sistema telefónico para grabar mensajes de correo de voz y, a continuación, dejar la grabación en el buzón de correo Exchange de un usuario. Vea [Plan Correo de voz en la nube service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obtener más información.
+    > Exchange la mensajería unificada como se conocía anteriormente ya no está disponible en Exchange 2019, pero aún puede usar Sistema telefónico para grabar mensajes de correo de voz y, a continuación, dejar la grabación en el buzón de correo de Exchange de un usuario. Vea [Plan Correo de voz en la nube service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obtener más información.
     
 ### <a name="additional-deployment-options"></a>Opciones de implementación adicionales
 
- **Las opciones de implementación adicionales** contienen las siguientes opciones:
+ **Las opciones de implementación** adicionales contienen las siguientes opciones:
   
 - **Alta disponibilidad**
     
@@ -130,7 +130,7 @@ Los elementos restantes se han rellenado con las respuestas que proporcionó a l
     
     El archivado almacena conversaciones y conferencias de mensajería instantánea.
     
-- **Exchange Integración de archivado**
+- **Exchange integración de archivado**
     
     Si tiene usuarios que se encuentran en Exchange y sus buzones se han puesto en retención In-Place, puede seleccionar la opción para integrar el almacenamiento Skype Empresarial Server con Exchange almacenamiento.
     

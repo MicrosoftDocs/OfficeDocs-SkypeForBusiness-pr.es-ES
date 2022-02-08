@@ -1,7 +1,7 @@
 ---
 title: Planeación de Skype Empresarial entornos VDI
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: En este tema se analizan las consideraciones de planeación para usar Skype Empresarial al conectarse a un escritorio virtual remoto.
-ms.openlocfilehash: 63dbdb11abf6188cb11d5f96b54ddeb541f1b9fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 052c8b8252846204020ccb29a4d28d6150027963
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864727"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395082"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planeación de Skype Empresarial entornos VDI
  
@@ -31,11 +31,11 @@ Un Infraestructura de escritorio virtual (VDI) se usa en algunas organizaciones 
   
 Hay tres soluciones disponibles para el componente de complemento VDI, ofrecido por Microsoft, Citrix o VMWare. Para las nuevas implementaciones, Microsoft recomienda usar la solución Citrix HDX RealTime Optimization Pack o VMWare Horizon Virtualization Pack. El complemento VDI de Lync original sigue siendo compatible durante el resto de su ciclo de vida.
   
-- El complemento **VDI** de Lync se desarrolló para Lync 2013 y es compatible con el cliente de Lync 2013 o Skype Empresarial 2015 que se ejecuta en un escritorio virtual. Es una aplicación independiente que se instala en el equipo local y permite el uso de dispositivos de audio y vídeo locales con un cliente en un escritorio virtual. El complemento no requiere que se instale un cliente de Skype Empresarial en el equipo local o en el cliente ligero, que debe ejecutar sistemas operativos Windows 7, Windows 8 o Windows Server 2008. (Los dispositivos cliente ligeros que usan estos sistemas operativos y compatibles con Microsoft incluyen: Dell Wyse Z90D7, Dell Wyse R90L7, Dell Wyse X90m7, HP t610 y HP t5740e). Este complemento sigue siendo compatible, pero no se planean actualizaciones futuras. Para entornos virtuales basados en Citrix, se recomienda Citrix RealTime Optimization Pack.
+- El complemento **VDI de Lync** se desarrolló para Lync 2013 y es compatible con el cliente de Lync 2013 o Skype Empresarial 2015 que se ejecuta en un escritorio virtual. Es una aplicación independiente que se instala en el equipo local y permite el uso de dispositivos de audio y vídeo locales con un cliente en un escritorio virtual. El complemento no requiere que se instale un cliente de Skype Empresarial en el equipo local o en el cliente ligero, que debe ejecutar sistemas operativos Windows 7, Windows 8 o Windows Server 2008. (Los dispositivos cliente ligeros que usan estos sistemas operativos y compatibles con Microsoft incluyen: Dell Wyse Z90D7, Dell Wyse R90L7, Dell Wyse X90m7, HP t610 y HP t5740e). Este complemento sigue siendo compatible, pero no se planean actualizaciones futuras. Para entornos virtuales basados en Citrix, se recomienda Citrix RealTime Optimization Pack.
     
-- **Citrix RealTime Optimization Pack** se basa en el complemento VDI de Lync y funciona con Lync 2013 o Skype Empresarial 2016 en un escritorio virtual. Fue desarrollado por Citrix y Microsoft para mejorar el complemento VDI original. Se puede instalar en clientes con sistemas operativos Windows y no Windows (incluidos Windows 10, Mac y Linux). Consta de dos componentes: realTime Connector (que está instalado en el escritorio virtual) y RealTime Media Engine (que se instala en el equipo local del usuario final). Estos dos componentes permiten al equipo local del usuario usar el cliente Skype Empresarial que se ejecuta en el escritorio virtual con el procesamiento A/V movido al equipo local. Para entornos de escritorio virtual basados en Citrix, se recomienda Citrix RealTime Optimization Pack y se planea más compatibilidad.
+- **Citrix RealTime Optimization Pack** se basa en el complemento VDI de Lync y funciona con clientes de Lync 2013 o Skype Empresarial 2016 en un escritorio virtual. Fue desarrollado por Citrix y Microsoft para mejorar el complemento VDI original. Se puede instalar en clientes con sistemas operativos Windows y no Windows (incluidos Windows 10, Mac y Linux). Consta de dos componentes: realTime Connector (que está instalado en el escritorio virtual) y RealTime Media Engine (que se instala en el equipo local del usuario final). Estos dos componentes permiten al equipo local del usuario usar el cliente Skype Empresarial que se ejecuta en el escritorio virtual con el procesamiento A/V movido al equipo local. Para entornos de escritorio virtual basados en Citrix, se recomienda Citrix RealTime Optimization Pack y se planea más compatibilidad.
     
-- VMWare **Horizon Virtualization Pack** for Skype Empresarial, desarrollado en colaboración con VMWare, le permite ofrecer Skype Empresarial en un escritorio virtual y ofrecer una excelente experiencia de usuario. La solución funciona aprovechando un motor multimedia en el cliente para crear una solución optimizada, con el extremo de cliente que proporciona capacidades de descarga de medios para llamadas de audio y vídeo. Esta solución que puede entregar audio y vídeo directamente entre los puntos de conexión para la colaboración uno a uno, o descargarla a una unidad de control multipunto central (MCU) para reuniones o llamadas de conferencias de varias partes.
+- **VMWare Horizon Virtualization Pack** for Skype Empresarial, desarrollado en colaboración con VMWare, le permite ofrecer Skype Empresarial en un escritorio virtual a la vez que ofrece una excelente experiencia de usuario. La solución funciona aprovechando un motor multimedia en el cliente para crear una solución optimizada, con el extremo de cliente que proporciona capacidades de descarga de medios para llamadas de audio y vídeo. Esta solución que puede entregar audio y vídeo directamente entre los puntos de conexión para la colaboración uno a uno, o descargarla a una unidad de control multipunto central (MCU) para reuniones o llamadas de conferencias de varias partes.
     
 > [!NOTE]
 > Los Skype Empresarial Basic no son compatibles con Citrix HDX RealTime Optimization Pack o VMWare Horizon Virtualization Pack. 
@@ -83,7 +83,7 @@ Con la solución de complemento VDI de Microsoft Lync, el usuario debe estar en 
     
 Una vez establecida una conexión, el usuario está listo para realizar y recibir llamadas de audio y vídeo. El tráfico en la red y la carga en el escritorio virtual se minimizan, ya que el equipo local controla el procesamiento de audio y vídeo.
   
-El complemento Lync VDI de Microsoft solo se admite en ciertos sistemas operativos Windows y solo admite clientes de Lync 2013 o Skype Empresarial 2015. Consulte [Tecnologías de virtualización admitidas y](vdi-environments.md#Supported_virt) limitaciones conocidas para obtener más información sobre las tecnologías y limitaciones admitidas.
+El complemento Lync VDI de Microsoft solo se admite en ciertos sistemas operativos Windows y solo admite clientes de Lync 2013 o Skype Empresarial 2015. Consulte [Tecnologías de virtualización admitidas y limitaciones conocidas](vdi-environments.md#Supported_virt) para obtener más información sobre las tecnologías y limitaciones admitidas.
   
 Revise los siguientes vínculos para obtener más información:
   
@@ -95,7 +95,7 @@ Revise los siguientes vínculos para obtener más información:
     
 - Artículo de Citrix Knowledge Center [CTX138408](https://support.citrix.com/article/CTX138408)
     
-El complemento VDI de Microsoft está disponible en el complemento [VDI 2013 de Microsoft Lync (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) o el complemento [VDI 2013 de Microsoft Lync (64 bits).](https://www.microsoft.com/download/details.aspx?id=35454) Este complemento es compatible con el Skype Empresarial 2015, a pesar del nombre.
+El complemento de Microsoft VDI está disponible en [el complemento VDI 2013 de Microsoft Lync (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) o el complemento [VDI 2013 de Microsoft Lync (64 bits).](https://www.microsoft.com/download/details.aspx?id=35454) Este complemento es compatible con el Skype Empresarial 2015, a pesar del nombre.
   
 ### <a name="supported-virtualization-technologies-and-known-limitations"></a>Tecnologías de virtualización admitidas y limitaciones conocidas
 <a name="Supported_virt"> </a>
@@ -106,7 +106,7 @@ El complemento VDI de Lync permite llamadas de audio y vídeo para tecnologías 
 
 El complemento VDI de Lync admite sesiones remotas de escritorio completo en el escenario de escritorio virtual personal, pero no en el escenario de sesión de escritorio remoto. Estos escenarios se pueden describir de la siguiente manera:
   
-- **Compatible: Escritorios virtuales personalizados o Infraestructura de escritorio virtual (VDI).** En este escenario, cada usuario inicia sesión en un escritorio virtual personalizable y puede guardar archivos en el escritorio que persisten entre sesiones. Escritorio remoto de Microsoft Los servicios y VMware Horizon View son implementaciones de ejemplo que se han probado para su uso con Skype Empresarial 2015. Otras implementaciones en proceso de validación son Citrix XenDesktop. Para obtener información acerca de los entornos VDI específicos del proveedor y el hardware de cliente probados por Microsoft, vea [Infrastructure qualified for Microsoft Lync](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
+- **Compatible: Escritorios virtuales personalizados o Infraestructura de escritorio virtual (VDI).** En este escenario, cada usuario inicia sesión en un escritorio virtual personalizable y puede guardar archivos en el escritorio que persisten entre sesiones. Escritorio remoto de Microsoft Services y VMware Horizon View son implementaciones de ejemplo que se han probado para su uso con Skype Empresarial 2015. Otras implementaciones en proceso de validación son Citrix XenDesktop. Para obtener información acerca de los entornos VDI específicos del proveedor y el hardware de cliente probados por Microsoft, vea [Infrastructure qualified for Microsoft Lync](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
     
 - **No compatible: sesiones de Escritorio remoto.** En este escenario, cada usuario inicia sesión en una sesión genérica de escritorio virtual que no se puede personalizar. Algunos ejemplos son Escritorio remoto de Microsoft sesiones (RDSH) y Citrix XenApp combinados con Citrix Receiver.
     
@@ -136,7 +136,7 @@ El equipo local del usuario debe cumplir los siguientes requisitos:
     
 - En el PC local, configure el cliente de escritorio remoto para que el audio se reproduzca en el PC local y que la grabación remota esté deshabilitada. Para configurar estas opciones para la conexión de Escritorio remoto en Windows, consulte la siguiente sección, "Para configurar la configuración de conexión de Escritorio remoto". 
     
-El complemento VDI de Microsoft está disponible en el complemento [VDI 2013 de Microsoft Lync (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) o el complemento [VDI 2013 de Microsoft Lync (64 bits).](https://www.microsoft.com/download/details.aspx?id=35454)
+El complemento de Microsoft VDI está disponible en [el complemento VDI 2013 de Microsoft Lync (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) o el complemento [VDI 2013 de Microsoft Lync (64 bits).](https://www.microsoft.com/download/details.aspx?id=35454)
   
 #### <a name="known-feature-limitations"></a>Limitaciones de características conocidas
 <a name="VDI_prereq"> </a>
@@ -164,9 +164,9 @@ No se admiten estas características:
 El complemento VDI de Lync no se admite en Microsoft 365 o Office 365 entornos.
   
 > [!NOTE]
-> Citrix RealTime Optimization Pack admite Microsoft 365 y Office 365. Para entornos virtuales basados en [](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) Citrix, revise la documentación de Información general técnica de Citrix para obtener la lista de características y versiones admitidas.
+> Citrix RealTime Optimization Pack admite Microsoft 365 y Office 365. Para entornos virtuales basados en Citrix, revise la documentación [](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) de Información general técnica de Citrix para obtener la lista de características y versiones admitidas.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="Citrix_RT"> </a>
 
 [Implementar el complemento VDI de Lync con Skype Empresarial Server](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)

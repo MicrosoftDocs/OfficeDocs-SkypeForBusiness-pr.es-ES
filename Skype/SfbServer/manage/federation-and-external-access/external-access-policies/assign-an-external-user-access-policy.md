@@ -5,8 +5,8 @@ ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Si un usuario se ha habilitado para Skype Empresarial Server, puede configurar la federación SIP, el acceso remoto de usuarios y la conectividad de mensajería instantánea pública (MI) en el Panel de control de Skype Empresarial Server aplicando las directivas adecuadas a usuarios específicos.
-ms.openlocfilehash: 400c49dfc7d0c893af98a8da7bc53894a39d6a9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7430cbe015802d377e4d0ca2f1159006a9951a4f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843923"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395252"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Asignar una directiva de acceso de usuario externo a Skype Empresarial usuario habilitado
 
@@ -44,7 +44,7 @@ Use el procedimiento descrito en este tema para aplicar una directiva de acceso 
 
 4.  En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en  **Editar** y, a continuación, en  **Mostrar detalles**.
 
-5.  En **Editar Skype Empresarial Server usuario en** Directiva de acceso **externo,** seleccione la directiva de usuario que desee aplicar.
+5.  En **Editar Skype Empresarial Server usuario en** **Directiva de acceso externo**, seleccione la directiva de usuario que desea aplicar.
      
 > [!NOTE]  
 > La **\<Automatic>** configuración aplica la configuración predeterminada del servidor o la directiva global.
@@ -61,7 +61,7 @@ Las directivas de acceso externo por usuario se pueden asignar mediante Windows 
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a>Para asignar una directiva de acceso externo por usuario a varios usuarios
 
-  - Este comando asigna la directiva de acceso externo por usuario USAExternalAccessPolicy a todos los usuarios que tienen cuentas en la unidad organizativa (OU) de los Estados Unidos en Active Directory. Para obtener más información sobre el parámetro OU que se usa en este comando, consulte la documentación del cmdlet [Get-CsUser.](/powershell/module/skype/Get-CsUser)<br/><br/>Get-CsUser -OU "ou=United States,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
+  - Este comando asigna la directiva de acceso externo por usuario USAExternalAccessPolicy a todos los usuarios que tienen cuentas en la unidad organizativa (OU) de los Estados Unidos en Active Directory. Para obtener más información sobre el parámetro OU que se usa en este comando, consulte la documentación del cmdlet [Get-CsUser](/powershell/module/skype/Get-CsUser) .<br/><br/>Get-CsUser -OU "ou=United States,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
 
 ## <a name="to-unassign-a-per-user-external-access-policy"></a>Para desasignación de una directiva de acceso externo por usuario
@@ -69,4 +69,4 @@ Las directivas de acceso externo por usuario se pueden asignar mediante Windows 
   - Este comando anula la asignación de una directiva de acceso externo por usuario que se había asignado a Ken Myer. Una vez anulada la asignación, el usuario Ken Myer será administrado por la directiva global o, si la hay, por su directiva de sitio local. Las directivas de sitio tienen preferencia sobre la directiva global.<br/><br/>Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
 
-Para obtener más información, vea el tema de ayuda del cmdlet [Grant-CsExternalAccessPolicy.](/powershell/module/skype/Grant-CsExternalAccessPolicy)
+Para obtener más información, vea el tema de ayuda del cmdlet [Grant-CsExternalAccessPolicy](/powershell/module/skype/Grant-CsExternalAccessPolicy) .

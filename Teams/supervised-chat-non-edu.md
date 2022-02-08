@@ -1,7 +1,7 @@
 ---
 title: Usar chats supervisados para inquilinos no educativos
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre los chats supervisados para inquilinos no educativos en Microsoft Teams reuniones.
-ms.openlocfilehash: 2aabfee2f8267e786acf293d612066af2db46f25
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8ba639953485d03e62d7f75f387f9154f65f9599
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848113"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394492"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>Chats supervisados para inquilinos no educativos
 
@@ -48,13 +48,13 @@ Para que el chat supervisado funcione según lo esperado, cada usuario de su ent
 
 - Permisos restringidos: este rol es ideal para los usuarios que necesitan ser supervisados. Solo pueden iniciar chats con usuarios con permisos completos. Pueden participar en cualquier conversación a la que un usuario con permisos completos les invite. En los casos de chat federado, los usuarios restringidos solo pueden agregarse a los chats por un usuario con permisos completos que sea del inquilino del usuario restringido.
 
-Para establecer el rol de permisos  de chat de los usuarios, use la directiva de roles Permisos de chat que se encuentra en las opciones de directiva de mensajería en el Teams de administración. Puede usar PowerShell para definir roles con la directiva ChatPermissionRole con los valores Full, Limited o Restricted. Esta directiva se encuentra en [CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).
+Para establecer el rol de permisos de chat de los usuarios, use la directiva de roles Permisos de chat que se encuentra en las opciones de directiva de mensajería en el Teams de administración. Puede usar PowerShell para definir roles con la directiva ChatPermissionRole con los valores Full, Limited o Restricted. Esta directiva se encuentra en [CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).
 
 Los roles no se pueden asignar a los invitados de su inquilino. A los invitados se les asigna el rol limitado.
 
 ## <a name="allow-supervised-chat"></a>Permitir el chat supervisado
 
-El chat supervisado está deshabilitado de forma predeterminada para el inquilino. Después de establecer roles de permisos de chat para los usuarios, puede habilitar el chat supervisado dentro de su inquilino yendo a Configuración de toda la organización Teams Configuración y estableciendo la directiva de permisos de chat basado en roles en  >   **Activar**.  También puede usar PowerShell para habilitar el chat supervisado estableciendo AllowRoleBasedChatPermissions en True. Este cmdlet se encuentra en [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps).
+El chat supervisado está deshabilitado de forma predeterminada para el inquilino. Después de establecer roles de permisos de chat para los usuarios, puede habilitar el chat  >  supervisado dentro de su inquilino **yendo a** Configuración de toda la organización Teams Configuración y estableciendo la directiva de permisos de **chat basado en** roles en **Activar**. También puede usar PowerShell para habilitar el chat supervisado estableciendo AllowRoleBasedChatPermissions en True. Este cmdlet se encuentra en [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps).
 
 El chat supervisado debe estar habilitado para todos los usuarios del inquilino y no se puede habilitar solo para una parte de los usuarios.
 

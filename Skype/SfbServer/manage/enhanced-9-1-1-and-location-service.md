@@ -1,8 +1,8 @@
 ---
 title: Administrar 9-1-1 mejorado y el servicio de ubicación
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype Empresarial Server admite llamadas mejoradas 9-1-1 (E9-1-1) desde Skype Empresarial cliente. Al configurar Skype Empresarial Server para E9-1-1, las llamadas de emergencia realizadas desde Skype Empresarial incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos del servicio de información de ubicación.
-ms.openlocfilehash: 5eb5fe86449147c38c5719976f202591f13a67fb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6fb6b539e51bc1178df46baf5990f48d85c44318
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848533"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395372"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Administrar 9-1-1 mejorado y el servicio de ubicación en Skype busines server
 
 Skype Empresarial Server admite llamadas mejoradas 9-1-1 (E9-1-1) desde Skype Empresarial cliente. Al configurar Skype Empresarial Server para E9-1-1, las llamadas de emergencia realizadas desde Skype Empresarial incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos del servicio de información de ubicación. Use los procedimientos de este artículo para administrar la directiva de ubicación.
 
 > [!Note]
-> Para obtener información detallada sobre cómo implementar características Telefonía IP empresarial avanzadas, como E9-1-1 y el servicio de información de ubicación, vea [Deploy advanced Telefonía IP empresarial features](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md).
+> Para obtener más información sobre la implementación de características Telefonía IP empresarial avanzadas, como E9-1-1 y el servicio de información de ubicación, vea [Deploy advanced Telefonía IP empresarial features](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md).
 
 En Skype Empresarial Server, puede usar la directiva de ubicación para aplicar la configuración relacionada con la funcionalidad mejorada 9-1-1 (E9-1-1) y la configuración de ubicación para usuarios o contactos. La directiva de ubicación determina si un usuario está habilitado para E9-1-1 y, si es así, cuál es el comportamiento de una llamada de emergencia. Por ejemplo, puede usar la directiva de ubicación para definir qué número constituye una llamada de emergencia (por ejemplo, 911 en Estados Unidos), si se debe notificar automáticamente a la seguridad corporativa y cómo se debe enrutar la llamada.
 
@@ -36,7 +36,7 @@ Puede configurar directivas de ubicación desde el grupo **Configuración de** r
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Directiva **de ubicación.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en **Directiva de ubicación**.
 
 4.  En la página **Directiva de ubicación**, seleccione la directiva de ubicación que desea modificar.
 
@@ -59,7 +59,7 @@ En Skype Empresarial Server, puede invalidar la cantidad de tiempo predeterminad
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Directiva **de ubicación.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en **Directiva de ubicación**.
 
 4.  En la página  **Directiva de ubicación**, haga clic en  **Nuevo** y, a continuación, seleccione el tipo de directiva que desea crear:
     
@@ -77,7 +77,7 @@ En Skype Empresarial Server, puede invalidar la cantidad de tiempo predeterminad
         
           - **No requerido**	No se solicitará al usuario que especifique una ubicación. Al realizar una llamada sin información de ubicación, el proveedor de servicios de emergencia responderá a la llamada y solicitará que se especifique una ubicación.
         
-          - **Declinación de responsabilidades**   Esta opción es la misma que **Required,** excepto que el usuario no puede descartar el mensaje sin especificar la información de ubicación. El usuario podrá completar una llamada de emergencia, pero no podrá completarse ninguna otra llamada sin especificar la información. Además, puede mostrarse al usuario un texto de declinación de responsabilidades para alertarle sobre las consecuencias de negarse a especificar información de contacto. Para establecer el texto de declinación de responsabilidades, debe usar el Shell de administración de Skype Empresarial Server para ejecutar el cmdlet **Set-CsLocationPolicy** o el cmdlet **New-CsLocationPolicy** con el parámetro EnhancedEmergencyServiceDisclaimer. Para obtener más información, [vea Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) o [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy).
+          - **Declinación de responsabilidades**   Esta opción es la misma que **Required** , excepto que el usuario no puede descartar el mensaje sin especificar la información de ubicación. El usuario podrá completar una llamada de emergencia, pero no podrá completarse ninguna otra llamada sin especificar la información. Además, puede mostrarse al usuario un texto de declinación de responsabilidades para alertarle sobre las consecuencias de negarse a especificar información de contacto. Para establecer el texto de declinación de responsabilidades, debe usar el Shell de administración de Skype Empresarial Server para ejecutar el cmdlet **Set-CsLocationPolicy** o el cmdlet **New-CsLocationPolicy** con el parámetro EnhancedEmergencyServiceDisclaimer. Para obtener más información, [vea Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) o [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy).
           
     
       - **Use la ubicación para los** servicios de emergencia Skype Empresarial puede usar la información de ubicación por diversos motivos (por ejemplo, para notificar a los compañeros de equipo de su ubicación actual). Seleccione esta casilla para garantizar que la información de ubicación solo está disponible para su uso en una llamada de emergencia.
@@ -107,7 +107,7 @@ En Skype Empresarial Server, puede invalidar la cantidad de tiempo predeterminad
 
 
     > [!IMPORTANT]  
-    > Cuando crea una directiva de usuario, no se aplica inicialmente a ningún usuario o sitio de red. Para aplicar la directiva a un usuario, haga clic en **Usuarios** en la barra de navegación izquierda. Busque al usuario al que desea aplicarle la directiva. En el menú **Editar**, haga clic en **Mostrar detalles**. En la **página Editar usuario del** servidor,  seleccione la nueva directiva de ubicación en la lista desplegable Directiva de ubicación y, a continuación, haga clic en **Confirmar**.<BR>Para aplicar la directiva a un sitio de red, haga clic en **Configuración de red** en la barra de navegación izquierda y seleccione **Sitio**. Busque el sitio de red al que desea aplicarle la directiva. En el menú **Editar**, haga clic en **Mostrar detalles**. En la página **Editar sitio**, seleccione una nueva directiva de ubicación de la lista desplegable **Directiva de ubicación** y, a continuación, haga clic en **Confirmar**.
+    > Cuando crea una directiva de usuario, no se aplica inicialmente a ningún usuario o sitio de red. Para aplicar la directiva a un usuario, haga clic en **Usuarios** en la barra de navegación izquierda. Busque al usuario al que desea aplicarle la directiva. En el menú **Editar**, haga clic en **Mostrar detalles**. En la **página Editar usuario del** servidor, seleccione la nueva directiva de ubicación en la **lista** desplegable Directiva de ubicación y, a continuación, haga clic en **Confirmar**.<BR>Para aplicar la directiva a un sitio de red, haga clic en **Configuración de red** en la barra de navegación izquierda y seleccione **Sitio**. Busque el sitio de red al que desea aplicarle la directiva. En el menú **Editar**, haga clic en **Mostrar detalles**. En la página **Editar sitio**, seleccione una nueva directiva de ubicación de la lista desplegable **Directiva de ubicación** y, a continuación, haga clic en **Confirmar**.
 
 
 ### <a name="to-modify-a-location-policy-in-the-skype-for-business-server-control-panel"></a>Para modificar una directiva de ubicación en el Panel Skype Empresarial Server control
@@ -116,7 +116,7 @@ En Skype Empresarial Server, puede invalidar la cantidad de tiempo predeterminad
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Directiva **de ubicación.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en **Directiva de ubicación**.
 
 4.  En la página **Directiva de ubicación**, seleccione la directiva de ubicación que desea modificar.
 
@@ -134,7 +134,7 @@ En Skype Empresarial Server, puede invalidar la cantidad de tiempo predeterminad
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Directiva **de ubicación.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en **Directiva de ubicación**.
 
 4.  En la página  **Directiva de ubicación**, seleccione la directiva de ubicación que desea eliminar.
    
@@ -150,7 +150,7 @@ En Skype Empresarial Server, puede invalidar la cantidad de tiempo predeterminad
     > No puede eliminar la directiva de ubicación Global. Si trata de eliminar la directiva Global recibirá un mensaje de advertencia y las propiedades de dicha directiva se restablecerán a sus valores predeterminados.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Crear o modificar sitios de red](network-management/call-admission-control/managing-call-admission-control-for-sites.md#create-or-modify-network-sites)
 

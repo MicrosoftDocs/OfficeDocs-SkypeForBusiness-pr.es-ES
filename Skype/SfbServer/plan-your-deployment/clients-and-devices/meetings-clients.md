@@ -1,7 +1,7 @@
 ---
 title: Plan for Meetings clients (Web App and Meetings App)
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumen: los profesionales de TI deben revisar los requisitos de soporte técnico para la aplicación aplicación web de Skype Empresarial y Skype reuniones mientras planean Skype Empresarial Server. Este artículo no está pensado para los usuarios de estas aplicaciones.'
-ms.openlocfilehash: dbf9f83599e36189c172daa37cdb7444659aad83
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bf6eb62291309500c942e83c41e898b5a4d25531
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862127"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395162"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Plan for Meetings clients (Web App and Meetings App)
  
@@ -33,19 +33,19 @@ Una vez que haya implementado Skype Empresarial Server, los usuarios de la organ
 Más adelante, esos usuarios pueden crear reuniones e invitar a usuarios de fuera de la organización, y es posible que los invitados a la reunión no tengan ninguna versión del Skype Empresarial cliente. Cuando esos usuarios hacen clic en la dirección URL de la invitación a la reunión, se detectará la falta de un cliente y se pedirá al invitado que no tenga un cliente de Skype Empresarial que descargue e instale un cliente ligero de solo reuniones para que pueda unirse a la reunión.
   
 > [!NOTE]
-> La aplicación web de Skype Empresarial y Skype reuniones solo están disponibles al intentar iniciar sesión en una reunión sin tener Skype Empresarial. La ayuda del usuario para estas aplicaciones se encuentra en [https://aka.ms/smahelp](https://aka.ms/smahelp) . 
+> La aplicación web de Skype Empresarial y Skype reuniones solo están disponibles al intentar iniciar sesión en una reunión sin tener Skype Empresarial. La ayuda del usuario para estas aplicaciones se encuentra en [https://aka.ms/smahelp](https://aka.ms/smahelp). 
   
 > [!NOTE]
-> No puede preinstalar la aplicación de reuniones de aplicación web de Skype Empresarial o Skype, [](https://products.office.com/skype-for-business/download-app?tab=tabs-1) pero [](https://products.office.com/skype-for-business/download-app?tab=tabs-2) los usuarios de teléfonos inteligentes y tabletas pueden instalar clientes móviles económicos que pueden usar para asistir a reuniones.
+> No puede instalar previamente la aplicación de reuniones de aplicación web de Skype Empresarial o Skype, pero los usuarios de teléfonos inteligentes y [](https://products.office.com/skype-for-business/download-app?tab=tabs-1) tabletas pueden [](https://products.office.com/skype-for-business/download-app?tab=tabs-2) instalar clientes móviles económicos que pueden usar para asistir a reuniones.
   
 De forma predeterminada, el servidor que hospeda la reunión dirigirá al usuario a descargar e instalar aplicación web de Skype Empresarial para unirse a la reunión. El aplicación web de Skype Empresarial se almacena en el servidor front-end y se envía al asistente a la reunión. 
   
-Por Skype Empresarial Server, Skype Meetings App (en Windows) y Skype Empresarial para Mac (en Mac) están disponibles como reemplazos para aplicación web de Skype Empresarial a partir de CU5, pero proporcionando el las aplicaciones de reemplazo requieren la configuración adicional descrita en [Enable Skype Meetings App to replace aplicación web de Skype Empresarial (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Si Skype meetings App y Skype Empresarial para Mac están habilitados, los usuarios descargarán la versión más reciente de las aplicaciones desde Microsoft 365 o Office 365 Content Delivery Network (CDN) en lugar de desde su Skype Empresarial servidor. Para Skype Empresarial Server 2019, usar Skype meetings app y Skype Empresarial para Mac es la única opción.
+Por Skype Empresarial Server, Skype Meetings App (en Windows) y Skype Empresarial para Mac (en Mac) están disponibles como reemplazos para aplicación web de Skype Empresarial  a partir de CU5, pero proporcionar las aplicaciones de reemplazo requiere la configuración adicional descrita en [Enable Skype Meetings App to replace aplicación web de Skype Empresarial (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Si Skype meetings App y Skype Empresarial para Mac están habilitados, los usuarios descargarán la versión más reciente de las aplicaciones desde Microsoft 365 o Office 365 Content Delivery Network (CDN) en lugar de desde su Skype Empresarial servidor. Para Skype Empresarial Server 2019, usar Skype meetings app y Skype Empresarial para Mac es la única opción.
   
 Skype Meetings App ofrece una experiencia de explorador simplificada para descargar e instalar la aplicación y unirse a reuniones, incluido unirse con un solo clic para los usuarios de Internet Explorer. Skype Meetings App también tiene muchas mejoras sobre el aplicación web de Skype Empresarial para la confiabilidad y la experiencia de la reunión. 
   
 > [!NOTE]
-> A partir de Skype Empresarial Server 2015 CU5 o posterior, las reuniones celebradas con Skype Empresarial Online ya no enviarán a un usuario sin cliente el aplicación web de Skype Empresarial, sino que se enviarán Skype Meetings App (en Windows) o Skype Empresarial para Mac (en Mac). A partir de Skype Empresarial Server 2015 CU5 o posterior, si habilita Skype Meetings App para reemplazar [aplicación web de Skype Empresarial (opcional),](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)los usuarios sin cliente se enviarán Skype Meetings App o Skype Empresarial para Mac en lugar de aplicación web de Skype Empresarial. 
+> A partir de Skype Empresarial Server 2015 CU5 o posterior, las reuniones celebradas con Skype Empresarial Online ya no enviarán a un usuario sin cliente el aplicación web de Skype Empresarial, sino que se enviarán Skype Meetings App (on) Windows) o Skype Empresarial para Mac (en Mac). A partir de Skype Empresarial Server 2015 CU5 o posterior, si [habilitas Skype Meetings App para reemplazar aplicación web de Skype Empresarial (opcional),](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable) los usuarios sin cliente se enviarán Skype Meetings App o Skype Empresarial para Mac  en lugar de aplicación web de Skype Empresarial. 
   
 ## <a name="software-requirements"></a>Requisitos de software
 <a name="OS-Browser"> </a>
@@ -60,7 +60,7 @@ Para usar el aplicación web de Skype Empresarial, un usuario debe tener una de 
 |Windows 8.1 &#x2776; <br/> |N/D  <br/> |Sí  <br/> |N/D  <br/> |N/D  <br/> |N/D <br/> |Sí &#x2778; <br/> |
 |Windows 8 (basado en Intel) &#x2776; <br/> |N/D  <br/> |N/D  <br/> |Sí  <br/> |N/D <br/> |N/D  <br/> |Sí &#x2778; <br/> |
 |Windows 7 con SP1 &#x2777; <br/> |N/D  <br/> |Sí  <br/> |No  <br/> |No  <br/> |N/D <br/>|Sí &#x2778; <br/> |
-|Windows Servidor 2008 R2 con SP1 &#x2777; <br/> |N/D  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |N/D <br/>|Sí &#x2778; <br/> |
+|Windows Server 2008 R2 con SP1 &#x2777; <br/> |N/D  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |N/D <br/>|Sí &#x2778; <br/> |
 |macOS 10.8 y versiones posteriores (basados en Intel) &#x2777; <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sí  <br/> |Sí <br/> |
    
 &#x2776; El complemento aplicación web de Skype Empresarial explorador de aplicación web de Skype Empresarial requiere un complemento de uso compartido específico para usar la voz, el vídeo, el uso compartido y la visualización de pantalla compartida continua y otras características. A los asistentes a la reunión se les ofrece la opción de instalar el complemento de uso compartido cuando se unen a la reunión o cuando inician una de estas características. En Windows 8 y Windows 8.1, el complemento de uso compartido solo se puede instalar si está ejecutando Internet Explorer 10 o Internet Explorer 11 para el escritorio. Estas características no están disponibles con versiones que no son de escritorio de Internet Explorer 10 y 11. Ten en cuenta que Firefox y Safari versión 12.0 y versiones posteriores ya no son compatibles.
@@ -74,7 +74,7 @@ Para usar el aplicación web de Skype Empresarial, un usuario debe tener una de 
   
 ### <a name="skype-meetings-app"></a>Aplicación Reuniones de Skype
 
-Skype Meetings App se ejecuta como una aplicación en equipos que usan Windows 10, Windows 8.1, Windows 8, Windows 7, con Internet Explorer 11 o posterior de 32 y 64 bits instalado. 
+Skype Meetings App se ejecuta como una aplicación en equipos que usan Windows 10, Windows 8.1, Windows 8, Windows 7, con Internet Explorer 11 o posterior de 32 y 64 bits instalados. 
   
 Para otras dependencias, consulte [Plataformas admitidas para Skype Meetings App](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
   
@@ -85,12 +85,12 @@ Skype Empresarial para Mac se ejecuta en equipos con macOS versión 10.8 o poste
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 <a name="OS-Browser"> </a>
 
-Los requisitos de hardware del equipo los determinan el sistema operativo y el explorador. Las características de voz y telefonía requieren un micrófono y altavoces, auriculares con micrófono o dispositivo equivalente compatible con el equipo. Las características de vídeo requieren un dispositivo de vídeo compatible con el equipo. Para obtener información detallada sobre el soporte de hardware de vídeo y la calidad de vídeo esperada, vea [Skype Empresarial de vídeo de cliente.](video-resolutions.md)
+Los requisitos de hardware del equipo los determinan el sistema operativo y el explorador. Las características de voz y telefonía requieren un micrófono y altavoces, auriculares con micrófono o dispositivo equivalente compatible con el equipo. Las características de vídeo requieren un dispositivo de vídeo compatible con el equipo. Para obtener información detallada acerca de la compatibilidad con hardware de vídeo y la calidad de vídeo esperada, [consulte Skype Empresarial de vídeo de cliente](video-resolutions.md).
   
 ## <a name="network-requirements"></a>Requisitos de red
 <a name="Network"> </a>
 
-Si un usuario de aplicación web de Skype Empresarial o de Skype Meetings App experimenta problemas de conexión de reuniones, lo más probable es que la infraestructura de red de su organización no esté configurada para admitir Office 365 como se describe en Office 365 URL e [intervalos](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)de direcciones IP . Este es el caso de si la reunión fue creada por un usuario de Skype Empresarial Online o Skype Empresarial Server. 
+Si un usuario de aplicación web de Skype Empresarial o Skype Meetings App experimenta problemas de conexión de reuniones, lo más probable es que la infraestructura de red de su organización no esté configurada para admitir Office 365 como se describe en Office 365 [URLs e intervalos](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) de direcciones IP. Este es el caso de si la reunión fue creada por un usuario de Skype Empresarial Online o Skype Empresarial Server. 
   
 Si el usuario está en una red no configurada como se describe, muchas características de la aplicación pueden funcionar o no y es posible que no puedan conectarse a la reunión en absoluto.
   
@@ -130,7 +130,7 @@ En esta tabla se comparan las características de reuniones disponibles para los
 |Realizar sondeos  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Upload archivos para compartir con otros usuarios  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Programar una conferencia o reunión  <br/> |Outlook o Programador web de Skype Empresarial  <br/> |Outlook o Programador web de Skype Empresarial  <br/> |Programador web de Skype Empresarial  <br/> |Programador web de Skype Empresarial  <br/> |Programador web de Skype Empresarial  <br/> |
-|Q &amp; A Manager  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Administrador de QA&amp;  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Deshabilitar vídeo de asistente  <br/> |&#x2714;|||||
 |Deshabilitar la mensajería instantánea de reunión  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Silenciar audiencia  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -148,9 +148,9 @@ En esta tabla se comparan las características de reuniones disponibles para los
 
 Para los usuarios finales, la [ayuda en línea](https://aka.ms/smahelp) para estas aplicaciones está disponible fácilmente. Los profesionales de IT deben ser conscientes de los siguientes problemas:
   
-- Si el usuario está en una red que no está configurada para cumplir los requisitos de [red,](meetings-clients.md#Network)muchas características de la aplicación pueden funcionar o no y es posible que no puedan conectarse a la reunión en absoluto.
+- Si el usuario está en una red que no está configurada para cumplir los requisitos de [red, muchas](meetings-clients.md#Network) características de la aplicación pueden funcionar o no y es posible que no puedan conectarse a la reunión en absoluto.
     
-- Algunos usuarios pueden tener equipos administrados por la empresa con permiso deshabilitado para instalar aplicaciones. para esos usuarios, ninguna aplicación [](https://products.office.com/skype-for-business/download-app?tab=tabs-1) es una [](https://products.office.com/skype-for-business/download-app?tab=tabs-2) opción, pero los usuarios de teléfonos inteligentes y tabletas pueden instalar clientes móviles económicos que pueden usar para asistir a reuniones.
+- Algunos usuarios pueden tener equipos administrados por la empresa con permiso deshabilitado para instalar aplicaciones. para esos usuarios, ninguna aplicación es una opción, pero [](https://products.office.com/skype-for-business/download-app?tab=tabs-1) los usuarios de [](https://products.office.com/skype-for-business/download-app?tab=tabs-2) teléfonos inteligentes y tabletas pueden instalar clientes móviles económicos que pueden usar para asistir a reuniones.
     
     Otros problemas de instalación también se tratan en los [temas de ayuda](https://support.office.com/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US). 
     
@@ -158,15 +158,15 @@ Para los usuarios finales, la [ayuda en línea](https://aka.ms/smahelp) para est
     
 - Debe haber habilitado [ActiveX sin filtrar](https://support.office.com/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US) en Internet Explorer, incluso si IE no es su explorador predeterminado. En aplicación web de Skype Empresarial, se requiere un control ActiveX , un pequeño módulo que agrega características adicionales a una aplicación web u otro programa, para compartir audio, vídeo y pantalla.
     
-- Para que algunas características aplicación web de Skype Empresarial funcionen correctamente, debes permitir que el explorador guarde [cookies](https://support.office.com/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93) en el equipo o dispositivo.
+- Para que algunas características aplicación web de Skype Empresarial funcionen correctamente, debes permitir que el explorador guarde [cookies](https://support.office.com/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93) en tu equipo o dispositivo.
     
-- Es posible que deba [activar la compatibilidad con JavaScript](https://support.office.com/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) en el explorador para que aplicación web de Skype Empresarial características funcionen según lo esperado.
+- Es posible que deba [activar la compatibilidad con JavaScript](https://support.office.com/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) en el explorador para que algunas aplicación web de Skype Empresarial funciones funcionen según lo esperado.
     
 ### <a name="aes-support"></a>Compatibilidad con AES 
 
 A partir de Skype Empresarial Server 2015 CU5, AES no es compatible con ASP.NET 4.6 y esto puede provocar que Skype Meetings App no se inicie. [Los requisitos criptográficos ASP.NET 4.5](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) tienen más detalles.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="BKMK_Conferencing"> </a>
 
 [Implementar clientes descargables web en Skype Empresarial Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)

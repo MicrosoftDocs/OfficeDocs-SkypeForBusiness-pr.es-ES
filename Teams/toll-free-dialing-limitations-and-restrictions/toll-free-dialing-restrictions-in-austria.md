@@ -1,7 +1,7 @@
 ---
 title: Restricciones de marcado gratuitos en Austria
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a averiguar cómo marcar números gratuitos en cada país o región. Después de seleccionar el país o región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad de servicios gratuitos en los que el servicio gratuito está disponible. El formato o los formatos de marcado muestran los códigos de acceso necesarios en cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 635459bd0c3ebd2016a317c9fd50fc1311d801d9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8335435d8eac35b0e65ae8f8165ad2f9160b00d2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853814"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394442"
 ---
 # <a name="toll-free-dialing-restrictions-in-austria"></a>Restricciones de marcado gratuitos en Austria
 
-[Busque otro país o región,](../toll-free-dialing-limitations-and-restrictions.md)o obtenga más información sobre las limitaciones y restricciones de marcado gratuitos.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), o obtenga más información sobre las limitaciones y restricciones de marcado gratuitos.
 
 
 |**Detalles**|**Descripción**|

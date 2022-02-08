@@ -1,8 +1,8 @@
 ---
 title: Tabla de sesión
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: Cada registro representa una sesión que implica audio o audio y vídeo. Contiene información general sobre la sesión. Una sesión se define como un cuadro de diálogo del Protocolo de inicio de sesión (SIP) de audio o vídeo entre dos puntos de conexión.
-ms.openlocfilehash: 044d7d2626ca0d04bb55b7a060d39e7ec330312d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6e69ca38a0338075975919f087c066f683fcfb87
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840932"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394619"
 ---
 # <a name="session-table"></a>Tabla de sesión
  
@@ -26,21 +26,21 @@ Cada registro representa una sesión que implica audio o audio y vídeo. Contien
   
 |**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Principal  <br/> |A la que se hace referencia desde la [tabla Dialog](dialog.md).  <br/> |
-|**SessionSeq** <br/> |Entero  <br/> |Principal  <br/> |A la que se hace referencia desde la [tabla Dialog](dialog.md).  <br/> |
-|**ConferenceKey** <br/> |Entero  <br/> |Externo  <br/> |Clave de conferencia. A la que se hace referencia desde [la tabla Conferencia](conference.md).  <br/> |
-|**CorrelationKey** <br/> |Entero  <br/> |Externo  <br/> |Clave de correlación. Se hace referencia a la [tabla SessionCorrelation](sessioncorrelation.md).  <br/> |
-|**DialogCategory** <br/> |bit  <br/> | <br/> |Categoría de cuadro de diálogo; 0 se Skype Empresarial Server al servidor de mediación; 1 es Servidor de mediación a puerta de enlace RTC.  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Principal  <br/> |Se hace referencia desde la [tabla Dialog](dialog.md).  <br/> |
+|**SessionSeq** <br/> |Entero  <br/> |Principal  <br/> |Se hace referencia desde la [tabla Dialog](dialog.md).  <br/> |
+|**ConferenceKey** <br/> |Entero  <br/> |Externo  <br/> |Clave de conferencia. Se hace referencia desde la [tabla Conferencia](conference.md).  <br/> |
+|**CorrelationKey** <br/> |Entero  <br/> |Externo  <br/> |Clave de correlación. Se hace referencia desde la [tabla SessionCorrelation](sessioncorrelation.md).  <br/> |
+|**DialogCategory** <br/> |bit  <br/> | <br/> |Categoría de cuadro de diálogo; 0 se Skype Empresarial Server al servidor de mediación; 1 es Servidor de mediación a la puerta de enlace RTC.  <br/> |
 |**MediationServerBypassFlag** <br/> |bit  <br/> ||Marca que indica si la llamada se omitió o no.  <br/> |
 |**MediaBypassWarningFlag** <br/> |Entero  <br/> ||Este campo (si existe) indica por qué la llamada no se pasó, aun cuando los identificadores de omisión coincidían. Por Skype Empresarial Server, solo se define un valor.  <br/> 0x0001: identificador de omisión desconocido para el adaptador de red predeterminado.  <br/> |
 |**StartTime** <br/> |datetime  <br/> | <br/> |Hora de inicio de la llamada.  <br/> |
 |**EndTime** <br/> |datetime  <br/> | <br/> |Hora de finalización de la llamada.  <br/> |
 |**CallerPool** <br/> |Entero  <br/> |Externo  <br/> |El grupo de servidores del autor de la llamada. A la que se hace referencia desde [la tabla Pool](pool.md).  <br/> |
 |**CalleePool** <br/> |Entero  <br/> |Externo  <br/> |El grupo de servidores del receptor de llamadas. A la que se hace referencia desde [la tabla Pool](pool.md).  <br/> |
-|**CalleePAI** <br/> |Entero  <br/> |Externo  <br/> |URI de SIP en la identidad de sip (PAI) del extremo de recepción. A la que se hace referencia desde [la tabla User](user-0.md).  <br/> |
-|**CallerURI** <br/> |Entero  <br/> |Externo  <br/> |URI del autor de la llamada. A la que se hace referencia desde [la tabla User](user-0.md).  <br/> |
-|**CallerEndpoint** <br/> |Entero  <br/> |Externo  <br/> |Punto de conexión del autor de la llamada. A la que se hace referencia desde la [tabla Endpoint](endpoint.md).  <br/> |
-|**CallerUserAgent** <br/> |bit  <br/> |Externo  <br/> |Agente de usuario del autor de la llamada. A la que se hace referencia desde [la tabla UserAgent](useragent.md).  <br/> |
+|**CalleePAI** <br/> |Entero  <br/> |Externo  <br/> |URI de SIP en la identidad de sip (PAI) del extremo de recepción. Se hace referencia desde la [tabla Usuario](user-0.md).  <br/> |
+|**CallerURI** <br/> |Entero  <br/> |Externo  <br/> |URI del autor de la llamada. Se hace referencia desde la [tabla Usuario](user-0.md).  <br/> |
+|**CallerEndpoint** <br/> |Entero  <br/> |Externo  <br/> |Punto de conexión del autor de la llamada. Se hace referencia desde la [tabla Endpoint](endpoint.md).  <br/> |
+|**CallerUserAgent** <br/> |bit  <br/> |Externo  <br/> |Agente de usuario del autor de la llamada. Se hace referencia desde la [tabla UserAgent](useragent.md).  <br/> |
 |**CallPriority** <br/> |smallint  <br/> ||La prioridad de esta llamada.  <br/> |
 |**ClassifiedPoorCall** <br/> |bit  <br/> ||Esta columna ha quedado en desuso y no se usa en Skype Empresarial Server. En su lugar, esta información se notifica en una base de línea por medios. Consulte la [tabla MediaLine para](medialine-0.md) obtener más información. <br/> |
 |**CallerPAI** <br/> |Entero  <br/> |Externo  <br/> |P-Asserted-Identity del usuario que ha realizado la llamada. La P-Asserted-Identity (PAI) se usa para transmitir la verdadera identidad del usuario que ha realizado la llamada.  <br/> |

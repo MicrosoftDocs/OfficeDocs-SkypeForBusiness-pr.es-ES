@@ -1,8 +1,8 @@
 ---
 title: Integrar Skype Empresarial Server con Exchange Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,20 +14,20 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: 'Resumen: revise los pasos de integración para Exchange Server 2016 o Exchange Server 2013 y Skype Empresarial Server.'
-ms.openlocfilehash: d93c56278948c01ae47a19128896031de027d95a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a1f7f1c49d948512d3901a2775aed409d19c31fd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838302"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397409"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>Integrar Skype Empresarial Server con Exchange Server
 
 **Resumen:** Revise los pasos de integración Exchange Server 2013 o posterior y Skype Empresarial Server.
 
-Exchange Server 2013 o posterior y Skype Empresarial Server son compatibles e integran bien. Por ejemplo, Skype Empresarial información de presencia del usuario se puede reporta en Microsoft Outlook; Del mismo modo, Skype Empresarial acceder al calendario de Outlook de un usuario, observar que el usuario tiene programada una reunión y mostrar la presencia del usuario como Ocupado durante la reunión. Aunque no es necesario ejecutar Exchange Server para ejecutar Skype Empresarial Server (o viceversa) los dos productos mejoran la experiencia del usuario entre sí.
+Exchange Server 2013 o posterior y Skype Empresarial Server son compatibles e integran bien. Por ejemplo, Skype Empresarial la información de presencia de un usuario puede ser notificada en Microsoft Outlook; del mismo modo, Skype Empresarial puede tener acceso al calendario de Outlook de un usuario, observar que el usuario tiene una reunión programada y mostrar la presencia del usuario como Ocupado durante la reunión. Aunque no es necesario ejecutar Exchange Server para ejecutar Skype Empresarial Server (o viceversa) los dos productos mejoran la experiencia del usuario entre sí.
 
-Esta documentación proporciona información sobre la integración de Skype Empresarial Server y Exchange Server 2016 o Exchange Server 2013, pero supone que ya se ha producido la configuración y configuración iniciales de estos dos productos. Para obtener más información acerca de la Skype Empresarial Server vea [el Skype Empresarial Server Tech Center](../../../Hub/index.yml). Para obtener más información acerca de la Exchange Server vea la documentación de implementación de la versión de Exchange.
+Esta documentación proporciona información sobre la integración de Skype Empresarial Server y Exchange Server 2016 o Exchange Server 2013, pero supone que ya se ha producido la configuración y configuración iniciales de estos dos productos. Para obtener más información acerca de la Skype Empresarial Server vea [el centro Skype Empresarial Server Tech Center](../../../Hub/index.yml). Para obtener más información acerca de la Exchange Server vea la documentación de implementación de la versión de Exchange.
 
 Si va a integrar una instalación local de Skype Empresarial Server con Microsoft Exchange Online, vea [Configure integration between on-premises Skype Empresarial Server and Outlook Web App](outlook-web-app.md).
 
@@ -51,6 +51,6 @@ Si va a integrar Skype Empresarial Online con Exchange Server local, vea [Config
 
 [Configurar el almacén de contactos personales en equipos cliente para Skype Empresarial Server](personal-contacts-store.md)
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Plan para la integración de Skype Empresarial y Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)

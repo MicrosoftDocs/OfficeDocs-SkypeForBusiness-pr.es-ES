@@ -1,7 +1,7 @@
 ---
 title: Comparación de características de cliente móvil para Skype Empresarial
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Resumen: revise la compatibilidad de características para el cliente móvil mientras planea la Skype Empresarial Server.'
-ms.openlocfilehash: f1bbb046827ef762f5def1d532089e9621c32b28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a4696adda500b3011f52ac113b58f283ab7bfd96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834128"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395102"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparación de características de cliente móvil para Skype Empresarial
  
@@ -53,10 +53,10 @@ En este artículo se comparan las características y capacidades entre Skype Emp
 En las tablas siguientes se muestran las características que están disponibles para los Skype Empresarial en una implementación local de Skype Empresarial Server. Las mismas características también están disponibles para los usuarios Skype Empresarial Online y Microsoft 365 o Office 365, a menos que se indique lo contrario en las notas al pie de la tabla.
   
 > [!NOTE]
-> Para obtener ayuda en línea y recursos para usuarios finales, vea [Discover Skype Empresarial](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
+> Para obtener ayuda en línea y recursos para usuarios finales, consulte [Discover Skype Empresarial](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
   
 > [!NOTE]
-> Para comparar las características disponibles en otros Skype Empresarial cliente, consulte Comparación de características de cliente de escritorio [para Skype Empresarial](desktop-feature-comparison.md). 
+> Para comparar las características disponibles en otros clientes Skype Empresarial, consulte Comparación de características [de cliente de escritorio para Skype Empresarial](desktop-feature-comparison.md). 
 
 > [!NOTE]
 > La compatibilidad con MCX (Mobility Service) para clientes móviles heredados ya no está disponible en Skype Empresarial Server 2019. Todos los clientes Skype Empresarial móviles ya usan la API web de comunicaciones unificadas (UCWA) para admitir mensajería instantánea (MI), presencia y contactos. Los usuarios con clientes heredados que usen MCX tendrán que actualizar a un cliente actual.
@@ -247,7 +247,7 @@ En dispositivos iOS, Skype Empresarial cierra sesión automáticamente después 
 
 En esta tabla se tratan las características que requieren compatibilidad con la autenticación moderna.
   
-La autenticación moderna también requiere una topología descrita en [Skype Empresarial topologías compatibles con la autenticación moderna.](../../plan-your-deployment/modern-authentication/topologies-supported.md)
+La autenticación moderna también requiere una topología descrita en [Skype Empresarial topologías compatibles con la autenticación moderna](../../plan-your-deployment/modern-authentication/topologies-supported.md).
   
 
  | Característica/funcionalidad  | Skype Empresarial cliente de escritorio  | Windows Phone  | iOS  | Android |

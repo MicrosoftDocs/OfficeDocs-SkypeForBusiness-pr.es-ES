@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Ghana
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Ghana.
-ms.openlocfilehash: 309ad2a74f503bfe25091f4b82ded758e0159a47
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 28c3611dd2c108a84ba15ebcd1d3c9f55f2ef91b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192141"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394652"
 ---
 # <a name="availability-in-ghana"></a>Disponibilidad en Ghana
 

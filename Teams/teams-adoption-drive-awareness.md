@@ -1,7 +1,7 @@
 ---
 title: Darlo a conocer e implementar formación
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1832ca945edab2560a5a604fe85c01c0c9f53f0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: faa91273932f4896f7ac49add0b76f5288f85870
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842532"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394472"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Darlo a conocer e implementar formación para Microsoft Teams
 

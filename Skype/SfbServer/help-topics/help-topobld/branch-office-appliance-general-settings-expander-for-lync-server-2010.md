@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración general de aplicación de sucursal para Lync Server 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: 'Para editar las propiedades de la aplicación de sucursal con funciones de supervivencia o del servidor de sucursal con funciones de supervivencia , en General, debe configurar:'
-ms.openlocfilehash: 872ad2158b5fa21ebaebd418755a9c1e5feb116d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b9c2d4daee3e67580c9c18445ae309c703e686d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842813"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395492"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración general de aplicación de sucursal para Lync Server 2010
  
-Para editar las propiedades de la aplicación de sucursal con funciones de supervivencia o del servidor de sucursal con funciones de supervivencia , en **General,** debe configurar:
+Para editar las propiedades de la aplicación de sucursal con funciones de supervivencia o del servidor de sucursal con funciones de supervivencia , en **General**, debe configurar:
   
-- **FQDN:** escriba el nombre de dominio completo de la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia.
+- **FQDN**: escriba el nombre de dominio completo de la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia.
     
     **Usar todas las direcciones IP configuradas** usa las direcciones IP configuradas en la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia para todos los fines.
     

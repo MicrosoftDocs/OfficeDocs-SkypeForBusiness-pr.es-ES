@@ -1,8 +1,8 @@
 ---
 title: Conceptos básicos de topología para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Resumen: elija la topología para Skype Empresarial Server. Obtenga información sobre la ubicación del servidor para Skype Empresarial Server.'
-ms.openlocfilehash: 9f28857d6fa8ddbbd77713e113f73314e8f9d3c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 579c14471daab8c96eb6b55bdc2f21fc0b3b7eb4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856537"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394902"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Conceptos básicos de topología para Skype Empresarial Server
 
@@ -41,7 +41,7 @@ La implementación tendrá al menos un sitio central (también denominado centro
 
 - Standard Edition servidor incluye una base de datos SQL Server Express de datos.
 
-- Enterprise Edition El grupo de servidores front-end incluye:
+- Enterprise Edition grupo de servidores front-end incluye:
 
   - Uno o más servidores front-end (idealmente al menos tres, para escalabilidad), con un máximo de doce. El equilibrio de carga sería necesario para más de un servidor.
 
@@ -67,7 +67,7 @@ Para obtener más información, un sitio central también puede tener:
 
 - Varios servidores Standard Edition.
 
-- Office Web Apps Server, que se usa con Office web apps en Skype Empresarial Server para compartir y representar PowerPoint presentaciones.
+- Office Web Apps Server, que se usa con Office Web Apps en Skype Empresarial Server para compartir y representar PowerPoint presentaciones.
 
 - Servidor perimetral o grupo de servidores perimetrales (en una red perimetral). Es necesario si desea que la implementación admita socios federados, conectividad de mensajería instantánea pública, puerta de enlace de protocolo extensible de mensajería y presencia (XMPP) y acceso remoto de usuarios. Puede encontrar más detalles en la documentación de planeación del servidor perimetral.
 
@@ -103,7 +103,7 @@ Hay otros componentes y opciones que van a las implementaciones, por supuesto.
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|
-|Firewalls   |Puertas de enlace RTC (si implementa Telefonía IP empresarial   |Exchange Servidor de mensajería unificada (si desea integrar con Exchange um)   |Equilibrio de carga de DNS   |
+|Firewalls   |Puertas de enlace RTC (si implementa Telefonía IP empresarial   |Exchange de mensajería unificada (si desea integrar con Exchange um)   |Equilibrio de carga de DNS   |
 |Equilibradores de carga de hardware   |Bases de datos SQL Server   |Recursos compartidos de archivos   ||
 
 ## <a name="server-roles"></a>Funciones de servidor
@@ -152,7 +152,7 @@ Los servidores back-end son servidores de base de datos que Microsoft SQL Server
 > No se recomienda la Skype Empresarial Server bases de datos con otras bases de datos. Si lo hace, la disponibilidad y el rendimiento pueden verse afectados.
 
 > [!NOTE]
-> SQL La creación de reflejos está disponible Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL de clústeres de conmutación por error se prefieren Skype Empresarial Server 2019.
+> SQL creación de reflejo está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL de clústeres de conmutación por error se prefieren Skype Empresarial Server 2019.
 
 La información almacenada en las bases de datos del servidor back-end incluye información de presencia, listas de contactos de los usuarios, datos de conferencia (incluidos los datos persistentes sobre el estado de todas las conferencias actuales) y datos de programación de conferencias.
 
@@ -186,7 +186,7 @@ Los directores pueden Skype Empresarial Server solicitudes de usuario, pero no l
 ### <a name="persistent-chat-server-roles"></a>Roles de servidor de chat persistente
 
 > [!NOTE]
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015.
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015.
 
 El chat persistente permite a los usuarios participar en conversaciones con varios participantes sobre un tema en particular que persisten a lo largo del tiempo. El servidor front-end de chat persistente ejecuta el servicio de chat persistente. El servidor back-end de chat persistente almacena los datos del historial de chat y la información sobre categorías y salones de chat. El servidor back-end opcional de cumplimiento de chat persistente puede almacenar el contenido del chat y los eventos de cumplimiento con fines de cumplimiento.
 
@@ -210,7 +210,7 @@ Skype Empresarial Server también admite varias opciones para la alta disponibil
 
 - SQL clústeres de conmutación por error
 
-Para obtener más información sobre el emparejamiento de grupos y la alta disponibilidad del servidor [back-end,](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)vea Plan for high availability and disaster recovery in Skype Empresarial Server .
+Para obtener más información sobre el emparejamiento de grupos y la alta disponibilidad del servidor [back-end, vea Plan for high availability and disaster recovery in Skype Empresarial Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 
 ## <a name="server-collocation-in-skype-for-business-server"></a>Ubicación del servidor en Skype Empresarial Server
 
@@ -241,7 +241,7 @@ Este es el área con diferencias reales entre las implementaciones de servidores
 Dado SQL Server Express se coloca en el servidor Standard Edition y no se puede mover, esto es bastante sencillo. Además, si implementa el servidor de chat persistente en un servidor de Standard Edition, también podrá colocar el chat persistente y la base de datos de cumplimiento de chat persistente en el servidor de Standard Edition, pero no es así.
 
 > [!NOTE]
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015.
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015.
 
 No se pueden colocar en el servidor Standard Edition, pero pueden ir en un único servidor de base de datos propio:
 
@@ -251,7 +251,7 @@ No se pueden colocar en el servidor Standard Edition, pero pueden ir en un únic
 
 - Cualquier base de datos back-end para un grupo Enterprise Edition front-end
 
-#### <a name="enterprise"></a>Enterprise
+#### <a name="enterprise"></a>Empresa
 
 Las siguientes bases de datos se pueden colocar en el mismo servidor back-end SQL Server:
 
@@ -274,7 +274,7 @@ Ahora, hay que seguir algunas reglas adicionales al colocar bases de datos Skype
 - El servidor de bases de datos no puede admitir más de un grupo de servidores front-end de Enterprise Edition, un servidor que ejecuta archivado, un servidor que ejecuta supervisión, una única base de datos de chat persistente y una única base de datos de cumplimiento de chat persistente, pero puede admitir uno de cada uno, independientemente de si las bases de datos usan la misma instancia de SQL Server o instancias independientes de SQL Server.
 
     > [!NOTE]
-    > El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015.
+    > El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015.
 
 ### <a name="file-shares"></a>Recursos compartidos de archivos
 
@@ -299,6 +299,6 @@ El recurso compartido de archivos puede estar en un servidor independiente o pue
 
 - No puede asociar ningún componente Exchange um o SharePoint server con ningún rol Skype Empresarial Server usuario.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Topologías de referencia para Skype Empresarial Server](reference-topologies.md)

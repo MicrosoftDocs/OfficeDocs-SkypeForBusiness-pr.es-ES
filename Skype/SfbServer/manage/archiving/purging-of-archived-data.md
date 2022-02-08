@@ -1,8 +1,8 @@
 ---
 title: Administrar la depuración de datos archivados en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 'Summary: Learn how to manage purging of archived data for Skype Empresarial Server.'
-ms.openlocfilehash: 4050bc40d72cb8a2b306ab050298bb74b7c96dbd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9868277bc79a95b869383025da7e1c52aed35921
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847443"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395382"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Administrar la depuración de datos archivados en Skype Empresarial Server
 
@@ -25,7 +25,7 @@ ms.locfileid: "60847443"
   
 La base de datos de archivado no está diseñada para la retención a largo plazo y Skype Empresarial Server no proporciona una solución de detección electrónica (búsqueda) para los datos archivados, por lo que los datos deben moverse a otro almacenamiento. Skype Empresarial Server proporciona una herramienta de exportación de sesión que puede usar para exportar datos archivados a transcripciones que se pueden buscar. Debe definir cuándo se deben purgar los datos archivados y exportados. 
   
-Para obtener más información acerca de la exportación de datos mediante el cmdlet **Export-CsArchivingData,** vea [Export archived data in Skype Empresarial Server](export-archived-data.md).
+Para obtener más información acerca de la exportación de datos mediante el cmdlet **Export-CsArchivingData**, vea [Export archived data in Skype Empresarial Server](export-archived-data.md).
   
 ## <a name="manage-purging-of-data-by-using-the-control-panel"></a>Administrar la depuración de datos mediante el Panel de control
 
@@ -41,9 +41,9 @@ Para administrar la depuración de datos archivados mediante el Panel de control
     
    - Para habilitar la depuración, active la casilla Habilitar **depuración** de datos de archivado y, a continuación, realice una de las siguientes acciones:
     
-     - Para purgar todos los registros, haga clic en purgar los datos de archivado exportados y los datos de archivado almacenados después de la duración máxima **(días)** y, a continuación, especifique el número de días.
+     - Para purgar todos los registros, haga clic en Purgar datos de archivado exportados y datos de archivado almacenados después de la duración máxima **(días)** y, a continuación, especifique el número de días.
     
-     - Para purgar solo los datos exportados, haga clic **en Purgar solo datos de archivado exportados.**
+     - Para purgar solo los datos exportados, haga clic en **Purgar solo los datos de archivado exportados**.
     
    - Para deshabilitar la depuración, desactive la casilla Habilitar **depuración** de datos de archivado.
     
@@ -53,7 +53,7 @@ Para administrar la depuración de datos archivados mediante el Panel de control
 
 Puede administrar la depuración de datos archivados mediante los siguientes cmdlets Windows PowerShell datos:
   
-- El cmdlet **Set-CsArchivingConfiguration** con el parámetro EnablePurging le permite habilitar o deshabilitar la depuración de datos archivados.
+- **El cmdlet Set-CsArchivingConfiguration** con el parámetro EnablePurging le permite habilitar o deshabilitar la depuración de datos archivados.
     
 - **Invoke-CsArchivingDatabasePurge** le permite purgar manualmente los registros de la base de datos de archivado.
     
@@ -63,13 +63,13 @@ Por ejemplo, el siguiente comando habilita la depuración de todos los datos arc
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 ```
 
-El siguiente comando limita la depuración a los registros archivados que se han exportado a un archivo de datos (mediante el cmdlet **Export-CSArchivingData).** También debe establecer el parámetro PurgeExportedArchivesOnly en True ($True):
+El siguiente comando limita la depuración a los registros archivados que se han exportado a un archivo de datos (mediante el cmdlet **Export-CSArchivingData** ). También debe establecer el parámetro PurgeExportedArchivesOnly en True ($True):
   
 ```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
-Después de ejecutar este comando, Skype Empresarial Server purgará solo los registros de archivado que cumplan dos criterios: 1) son más antiguos que el valor especificado para el parámetro KeepArchivingDataForDays; y, 2) se han exportado mediante el cmdlet **Export-CsArchivingData.**
+Después de ejecutar este comando, Skype Empresarial Server purgará solo los registros de archivado que cumplan dos criterios: 1) son más antiguos que el valor especificado para el parámetro KeepArchivingDataForDays; y, 2) se han exportado mediante el cmdlet **Export-CsArchivingData**.
   
 Para deshabilitar la depuración automatizada de registros de archivado, establezca el parámetro EnablePurging en False ($False):
   

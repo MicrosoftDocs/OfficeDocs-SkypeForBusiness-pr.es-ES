@@ -1,7 +1,7 @@
 ---
 title: Planear la Skype Empresarial cliente de 2015 para los usuarios
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -16,19 +16,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: "Summary: Learn about the new Skype Empresarial and the steps you can take to prepare your environment and your users for the update, whether you're using Skype Empresarial Online, Skype Empresarial Server 2019, Skype Empresarial Server 2015, Lync Server 2013 o Lync Server 2010."
-ms.openlocfilehash: 9979b7d9fe449de926358097b9fd2fdd36e5afb4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: "Summary: Learn about the new Skype Empresarial and the steps you can take to prepare your environment and your users for the update, whether you're using Skype Empresarial Online, Skype Empresarial Server 2019, Skype Empresarial Server  2015, Lync Server 2013 o Lync Server 2010."
+ms.openlocfilehash: fd3771b351f89210f4757dc97084d85933867050
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864747"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395092"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planear la Skype Empresarial cliente de 2015 para los usuarios
  
-**Resumen:** Obtenga información sobre el nuevo Skype Empresarial y los pasos que puede seguir para preparar el entorno y los usuarios para la actualización, tanto si usa Skype Empresarial Online, Skype Empresarial Server 2019, Skype Empresarial Server 2015, Lync Server 2013 o Lync  Servidor 2010.
+**Resumen:** Obtenga información sobre el nuevo Skype Empresarial y los pasos que puede seguir para preparar el entorno y los usuarios para la actualización, ya sea que use Skype Empresarial Online, Skype Empresarial Server 2019, Skype Empresarial Server  2015, Lync Server 2013 o Lync Server 2010.
   
-The April 14th, 2015 Office Update for Lync 2013 includes the new Skype Empresarial user interface. Esta actualización permite a los administradores controlar la apariencia del cliente y elegir si conservar la experiencia de cliente de Lync 2013 o usar la experiencia de cliente Skype Empresarial cliente mejorada. El Skype Empresarial de Skype Empresarial reemplazó eficazmente al cliente de Lync 2013 y agregó la capacidad para que los administradores elijan entre la experiencia de cliente de Lync existente y la nueva experiencia de cliente Skype Empresarial cliente. Para obtener información acerca de esta actualización, vea actualización del 14 de abril de [2015 para Lync 2013 (Skype Empresarial) (KB2889923).](https://support.microsoft.com/kb/2889923/)
+The April 14th, 2015 Office Update for Lync 2013 includes the new Skype Empresarial user interface. Esta actualización permite a los administradores controlar la apariencia del cliente y elegir si conservar la experiencia de cliente de Lync 2013 o usar la experiencia de cliente Skype Empresarial cliente mejorada. El Skype Empresarial de Skype Empresarial reemplazó eficazmente al cliente de Lync 2013 y agregó la capacidad para que los administradores elijan entre la experiencia de cliente de Lync existente y la nueva experiencia de cliente Skype Empresarial cliente. Para obtener información acerca de esta actualización, vea actualización del 14 de abril de [2015 para Lync 2013 (Skype Empresarial) (KB2889923)](https://support.microsoft.com/kb/2889923/).
   
 El 12 de mayo de 2015 habrá otra actualización mensual de Office que incluya la actualización Skype Empresarial cliente. Muchos clientes que no aplicaron la actualización de abril recogerán la actualización del 12 de mayo para Office 2013. La información de este tema le ayudará a preparar su organización, su entorno y los usuarios para la actualización del cliente. Para facilitar la transición a los usuarios y los equipos de soporte técnico, use la información de este tema para ayudarle a decidir qué experiencia de cliente desea para los usuarios y, a continuación, realizar los cambios en el entorno antes de implementar la actualización de cliente en su organización.
   
@@ -44,17 +44,17 @@ El 12 de mayo de 2015 habrá otra actualización mensual de Office que incluya l
 ## <a name="what-client-experience-do-you-want-for-your-users"></a>¿Qué experiencia de cliente desea para los usuarios?
 <a name="clientexperience"> </a>
 
-Con el nuevo Skype Empresarial cliente, puede controlar qué experiencia de cliente obtienen los usuarios, ya sea Lync o Skype Empresarial. La experiencia de cliente predeterminada depende de si está usando Lync o Skype Empresarial local o en línea. Si está usando Skype Empresarial Online (Lync Online) hoy con Aplicaciones Microsoft 365 para empresas, Microsoft 365 Empresa Estándar o Office 2013, la experiencia de cliente actualizada de Skype Empresarial, inspirada en la apariencia de Skype, será la experiencia de usuario predeterminada. Si usa Lync Server local hoy, la experiencia del cliente de Lync será la predeterminada.
+Con el nuevo Skype Empresarial cliente, puede controlar qué experiencia de cliente obtienen los usuarios, ya sea Lync o Skype Empresarial. La experiencia de cliente predeterminada depende de si está usando Lync o Skype Empresarial local o en línea. Si usa Skype Empresarial Online (Lync Online) hoy con Aplicaciones Microsoft 365 para empresas, Microsoft 365 Empresa Estándar o Office 2013, el Skype Empresarial  la experiencia del cliente, que se inspira en la apariencia de Skype, será la experiencia predeterminada del usuario. Si usa Lync Server local hoy, la experiencia del cliente de Lync será la predeterminada.
   
 Puede configurar la experiencia del cliente que obtienen los usuarios mediante directivas de cliente. Una directiva de cliente es un conjunto de opciones de configuración que se aplican a los usuarios cuando inician sesión en Lync o Skype Empresarial.
   
 ### <a name="skype-for-business-client-experience"></a>Skype Empresarial cliente
 
-Además de todas las características de Lync, Skype Empresarial nuevas características con controles simplificados e iconos conocidos de Skype. Algunas características nuevas de Skype Empresarial están disponibles solo con la nueva experiencia Skype Empresarial cliente. Para obtener más información sobre las nuevas características de Skype Empresarial, vea [Discover Skype Empresarial](https://go.microsoft.com/fwlink/p/?LinkId=528686).
+Además de todas las características de Lync, Skype Empresarial nuevas características con controles simplificados e iconos conocidos de Skype. Algunas características nuevas de Skype Empresarial están disponibles solo con la nueva experiencia Skype Empresarial cliente. Para obtener más información sobre las nuevas características de Skype Empresarial, consulte [Discover Skype Empresarial](https://go.microsoft.com/fwlink/p/?LinkId=528686).
   
 ### <a name="lync-client-experience"></a>Experiencia de cliente de Lync
 
-La experiencia de cliente de Lync es muy similar a la experiencia de cliente de Lync 2013 con la que los usuarios ya están familiarizados, pero hay algunos cambios que querrá que los usuarios conozcan. Para ver las diferencias entre la experiencia de cliente de Lync y el cliente de Lync 2013, vea ¿Por qué veo Skype Empresarial cuando uso [Lync?](https://go.microsoft.com/fwlink/p/?LinkId=544712) y los vínculos adicionales que se incluyen más adelante en este tema.
+La experiencia de cliente de Lync es muy similar a la experiencia de cliente de Lync 2013 con la que los usuarios ya están familiarizados, pero hay algunos cambios que querrá que los usuarios conozcan. Para ver las diferencias entre la experiencia de cliente de Lync y el cliente de Lync 2013, vea ¿Por qué veo Skype Empresarial cuando uso [Lync?](https://go.microsoft.com/fwlink/p/?LinkId=544712) y los vínculos adicionales más adelante en este tema.
   
 ## <a name="prepare-your-environment-for-the-skype-for-business-client"></a>Preparar el entorno para el Skype Empresarial cliente
 <a name="usinglync"> </a>
@@ -78,9 +78,9 @@ Siga los pasos de esta sección si desea configurar la experiencia Skype cliente
   
  **Paso 1:** En primer lugar, asegúrese de que está ejecutando una versión de Lync Server que admita la configuración de directiva de cliente.
   
-- **Lync Server 2013:** debe ejecutar la actualización acumulativa de diciembre de 2014 (5.0.8308.857) para Lync Server 2013 o una actualización posterior. Para obtener información, vea [Updates for Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772).
+- **Lync Server 2013** : debe ejecutar la actualización acumulativa de diciembre de 2014 (5.0.8308.857) para Lync Server 2013 o una actualización posterior. Para obtener información, vea [Actualizaciones de Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772).
     
-- **Lync Server 2010:** debe ejecutar la actualización acumulativa de febrero de 2015 (4.0.7577.710) para Lync Server 2010 o una actualización posterior. Para obtener información, vea [Updates for Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771).
+- **Lync Server 2010** : debe ejecutar la actualización acumulativa de febrero de 2015 (4.0.7577.710) para Lync Server 2010 o una actualización posterior. Para obtener información, vea [Updates for Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771).
     
   **Paso 2:** A continuación, use una directiva de cliente para establecer la Skype de cliente con el Skype Empresarial cliente. Hay **3 opciones para** usar una directiva de cliente para establecer la experiencia del cliente.
   
@@ -96,13 +96,13 @@ Set-CsClientPolicy -Identity Global -EnableSkypeUI $True
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $True
 ```
 
- **Opción 3:** Cree una nueva directiva para asignar a los usuarios que incluya la configuración de la Skype cliente. En primer lugar, cree la nueva directiva de cliente y proporcione el nombre de la directiva como valor del **parámetro Identity:**
+ **Opción 3:** Cree una nueva directiva para asignar a los usuarios que incluya la configuración de la Skype cliente. En primer lugar, cree la nueva directiva de cliente y proporcione el nombre de la directiva como valor del **parámetro Identity** :
   
 ```PowerShell
 New-CsClientPolicy -Identity UseSkypeUI -EnableSkypeUI $True
 ```
 
-A continuación, asigne la directiva a los usuarios, usando el nombre de la directiva (el valor que usó para el parámetro **Identity)** como el valor del **parámetro PolicyName:**
+A continuación, asigne la directiva a los usuarios, usando el nombre de la directiva (el valor que usó para el parámetro **Identity** ) como el valor del **parámetro PolicyName** :
   
 ```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
@@ -142,13 +142,13 @@ Set-CsClientPolicy -Identity Global -EnableSkypeUI $False
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $False
 ```
 
- **Opción 3:** Cree una nueva directiva para asignar a los usuarios que incluya la configuración de la experiencia de cliente de Lync. En primer lugar, cree la nueva directiva de cliente y proporcione el nombre de la directiva como valor del **parámetro Identity:**
+ **Opción 3:** Cree una nueva directiva para asignar a los usuarios que incluya la configuración de la experiencia de cliente de Lync. En primer lugar, cree la nueva directiva de cliente y proporcione el nombre de la directiva como valor del **parámetro Identity** :
   
 ```PowerShell
 New-CsClientPolicy -Identity UseLyncUI -EnableSkypeUI $False
 ```
 
-A continuación, asigne la directiva a los usuarios, usando el nombre de la directiva (el valor que usó para el parámetro **Identity)** como el valor del **parámetro PolicyName:**
+A continuación, asigne la directiva a los usuarios, usando el nombre de la directiva (el valor que usó para el parámetro **Identity** ) como el valor del **parámetro PolicyName** :
   
 ```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
@@ -185,7 +185,7 @@ Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisable
 
 Después de configurar las directivas de cliente, implemente el cliente Skype Empresarial, cree 4711.1002 (abril de 2015) o posterior.
   
-Para obtener información detallada sobre cómo configurar la experiencia de cliente con Skype Empresarial Online, incluidos los pasos sobre cómo controlar la primera experiencia de ejecución y los scripts de PowerShell que puede usar para configurar el entorno, vea [Switching between the Skype Empresarial and the Lync client user interfaces](../../../SfbOnline/set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces.md).
+Para obtener información detallada sobre cómo configurar la experiencia del cliente con Skype Empresarial Online, incluidos los pasos sobre cómo controlar la primera experiencia de ejecución y los scripts de PowerShell que puede usar para configurar el entorno, vea [Switching between the Skype Empresarial and the Lync client user interfaces](../../../SfbOnline/set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces.md).
   
 ## <a name="resources-to-help-you-prepare-your-support-teams-and-your-end-users-for-the-update"></a>Recursos que le ayudarán a preparar los equipos de soporte técnico y los usuarios finales para la actualización
 <a name="support"> </a>
@@ -194,7 +194,7 @@ Para que sea más fácil para usted y su organización prepararse para la transi
   
 - [Video: presentación de Skype Empresarial](https://go.microsoft.com/fwlink/p/?LinkId=544819)
     
-- [Skype Empresarial Guías de inicio rápido (descarga)](https://go.microsoft.com/fwlink/p/?LinkId=544818)
+- [Skype Empresarial guías de inicio rápido (descarga)](https://go.microsoft.com/fwlink/p/?LinkId=544818)
     
 - [Lync ya está Skype Empresarial: vea las novedades](https://go.microsoft.com/fwlink/p/?LinkID=529224)
     

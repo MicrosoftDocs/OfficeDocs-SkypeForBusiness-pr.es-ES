@@ -1,8 +1,8 @@
 ---
 title: Plan for dial-in conferencing in Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 'Resumen: lea este tema para obtener información sobre la planeación de conferencias de acceso telefónico local en Skype Empresarial Server.'
-ms.openlocfilehash: 84d034ba358213a0f79548df6cc1ca027098633b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1840133072e6bac5cf9b95597b8f23ed5d37a7bd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841092"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394982"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Plan for dial-in conferencing in Skype Empresarial Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60841092"
   
 La conferencia de acceso telefónico local es una característica opcional de Skype Empresarial Server que permite a los asistentes a la reunión unirse a la parte de audio de una reunión llamando a la reunión desde un teléfono. La conferencia de acceso telefónico local es un subconjunto de la conferencia de audio y requiere configuración adicional. En este tema se describe lo que debe pensar antes de implementar conferencias de acceso telefónico local para su organización. 
   
-Algunos de los componentes necesarios para las conferencias de acceso telefónico local son específicos de las conferencias de acceso telefónico local y otros son Telefonía IP empresarial de acceso telefónico local. Aunque las conferencias de acceso telefónico local usan algunos de los mismos componentes que Telefonía IP empresarial, puede implementar conferencias de acceso telefónico local incluso si no implementa Telefonía IP empresarial. En esta sección se describen los componentes necesarios para las conferencias de acceso telefónico local. Para obtener más información acerca de cómo planear una solución Telefonía IP empresarial completa, vea [Plan your Telefonía IP empresarial solution in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
+Algunos de los componentes necesarios para las conferencias de acceso telefónico local son específicos de las conferencias de acceso telefónico local y otros son Telefonía IP empresarial de acceso telefónico local. Aunque las conferencias de acceso telefónico local usan algunos de los mismos componentes que Telefonía IP empresarial, puede implementar conferencias de acceso telefónico local incluso si no implementa Telefonía IP empresarial. En esta sección se describen los componentes necesarios para las conferencias de acceso telefónico local. Para obtener más información sobre cómo planear una solución Telefonía IP empresarial completa, vea [Plan your Telefonía IP empresarial solution in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
   
 Las conferencias de acceso telefónico local requieren que proporcione conectividad a la red telefónica conmutada (RTC) mediante la implementación de un servidor de mediación. Además de implementar un servidor de mediación, debe tener en cuenta lo siguiente para permitir conferencias de acceso telefónico local para su organización:
   
@@ -50,7 +50,7 @@ Puede implementar un servidor de mediación en un sitio central o en un sitio de
   
 Puede implementar una puerta de enlace RTC en un sitio central o en un sitio de sucursal. En un sitio de sucursal, la puerta de enlace RTC puede ser independiente o un componente de la aplicación de sucursal con funciones de supervivencia.
   
-Para obtener más información sobre los requisitos del servidor de mediación y la puerta de enlace RTC, vea Mediation [Server component in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), Deploy a Mediation Server in [Topology Builder in Skype Empresarial Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)y Define a gateway in [Topology Builder in Skype Empresarial Server ](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
+Para obtener más información acerca de los requisitos del servidor de mediación y la puerta de enlace RTC, vea Mediation [Server component in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [Deploy a Mediation Server in Topology Builder in Skype Empresarial Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) y [Define a gateway in Topology Builder in Skype Empresarial Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>Planear planes de marcado, números de acceso y regiones de conferencia
 
@@ -86,7 +86,7 @@ Antes de configurar los planes de marcado, es importante planear qué nombres de
     
 - Cualquier usuario puede llamar al número de acceso telefónico local que desee para unirse a una conferencia desde cualquier ubicación.
     
-Para obtener más información acerca de la creación de un plan de marcado, vea [Create or modify a dial plan in Skype Empresarial Server](../../deploy/deploy-enterprise-voice/dial-plans.md) y Create or modify a [normalization rule in Skype Empresarial](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
+Para obtener más información acerca de la creación de un plan de marcado, vea [Create or modify a dial plan in Skype Empresarial Server](../../deploy/deploy-enterprise-voice/dial-plans.md) y [Create or modify a normalization rule in Skype Empresarial](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
   
 ## <a name="plan-for-conference-directories"></a>Planeación de directorios de conferencia
 
@@ -106,9 +106,9 @@ Las conferencias deben estar habilitadas para el acceso telefónico local al con
     
 - Uno o más números de acceso RTC
     
-- Un vínculo a una página de conferencia de acceso telefónico Configuración, que contiene una lista completa de números de acceso con sus idiomas asociados; un lugar para crear, restablecer o desbloquear números de identificación personal (PIN); y otra información, como los controles de frecuencia múltiple de tono dual (DTMF)
+- Un vínculo a una página de conferencia de acceso telefónico local Configuración, que contiene una lista completa de números de acceso con sus idiomas asociados; un lugar para crear, restablecer o desbloquear números de identificación personal (PIN) y otra información, como controles de frecuencia múltiple de tono dual (DTMF)
     
-Para obtener más información acerca de las directivas de conferencia, vea [Configure dial-in conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/dial-in-conferencing.md) and Manage [conferencing policies in Skype Empresarial Server](../../manage/conferencing/conferencing-policies.md).  
+Para obtener más información acerca de las directivas de conferencia, vea [Configure dial-in conferencing in Skype Empresarial Server](../../deploy/deploy-conferencing/dial-in-conferencing.md) [and Manage conferencing policies in Skype Empresarial Server](../../manage/conferencing/conferencing-policies.md).  
 
 ## <a name="support-for-enterprise-and-anonymous-users"></a>Compatibilidad con usuarios anónimos y empresariales
 

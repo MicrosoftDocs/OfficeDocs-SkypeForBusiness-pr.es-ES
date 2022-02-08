@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalType
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan para clasificar lo que aparece en la tabla tblPrincipal.
-ms.openlocfilehash: cf55ba04afe3688d3ecfd397dc4ffcbe50da2c19
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cafc8ef175cd3a24178331ce308cf66942c55324
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844073"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394812"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -49,9 +49,9 @@ tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan pa
 |4  <br/> |SystemUser  <br/> |Entidad de seguridad usada internamente por el servidor de chat persistente.  <br/> ||
 |5  <br/> |Usuario  <br/> |Usuario habitual.  <br/> |Sí  <br/> |
 |8   <br/> |DC  <br/> |Controlador de dominio de Servicios de dominio de Active Directory.  <br/> ||
-|9   <br/> |Grupo  <br/> |Grupo de seguridad de Active Directory.  <br/> ||
+|9   <br/> |Group  <br/> |Grupo de seguridad de Active Directory.  <br/> ||
 |10  <br/> |Folder  <br/> |Unidad organizativa o contenedor de Active Directory.  <br/> ||
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [tblPrincipal](tblprincipal.md)

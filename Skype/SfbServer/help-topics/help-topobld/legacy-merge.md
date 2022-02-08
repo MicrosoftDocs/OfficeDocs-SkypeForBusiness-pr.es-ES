@@ -1,8 +1,8 @@
 ---
 title: Combinar información heredada
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 description: El nombre de dominio completo externo de conferencia web permite a los usuarios externos participar de reuniones locales. Especifique el nombre de dominio completo (FQDN) de la interfaz externa de la conferencia web del servidor perimetral heredado.
-ms.openlocfilehash: 0ca61fdb9312cf2265666cd383fc517006d7e83c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2541de3efa0a1585699edcb11ae5187dbe9c425b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847573"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395472"
 ---
 # <a name="legacy-merge"></a>Combinar información heredada
 

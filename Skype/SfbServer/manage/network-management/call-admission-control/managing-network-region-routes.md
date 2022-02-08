@@ -1,8 +1,8 @@
 ---
 title: Administración de rutas de región de red
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Una ruta de región de red define la ruta entre un par de regiones de red. Cada par de regiones de red en su implementación de control de admisión de llamadas requiere una ruta de región de red.
-ms.openlocfilehash: 18bee9a28eed10affae1b0dab855c379709b37bb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a5808a7b3ffdfb860723bf0f84dc32239a9b08ae
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864757"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395242"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Administrar rutas de regiones de red en Skype Empresarial Server
 
@@ -32,7 +32,7 @@ Todas las regiones dentro de una configuración de control de admisión de llama
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Ruta **de región.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Ruta de región**.
 
 4.  En la página **Ruta de región**, haga clic en la ruta regional que desea ver.
 
@@ -75,7 +75,7 @@ Todas las regiones dentro de una configuración de control de admisión de llama
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Ruta **de región.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Ruta de región**.
 
 4.  En la página **Ruta regional**, haga clic en **Nueva**.
 
@@ -84,9 +84,9 @@ Todas las regiones dentro de una configuración de control de admisión de llama
     > [!NOTE]  
     > Este valor debe ser único dentro de la Skype Empresarial Server implementación.
 
-6.  En la lista desplegable Región de red **\# 1,** seleccione una de las dos regiones que se conectarán mediante esta ruta.
+6.  En la **lista desplegable Región \#de red 1** , seleccione una de las dos regiones que se conectarán mediante esta ruta.
 
-7.  En la lista desplegable Región de red **\# 2,** seleccione la otra región para esta ruta. Esta región debe ser diferente de la región seleccionada para la región \# de red 1.
+7.  En la **lista desplegable Región \#de red 2** , seleccione la otra región para esta ruta. Esta región debe ser diferente de la región seleccionada para la región de red \#1.
 
 8.  Use el cuadro de lista **Vínculos de región de red** para agregar vínculos de red a la ruta. Haga clic en el botón **Agregar** para mostrar la página **Vínculo regional**. Haga clic en un vínculo regional para agregarlo a esta ruta y, a continuación, haga clic en **Aceptar**.
     
@@ -102,7 +102,7 @@ Todas las regiones dentro de una configuración de control de admisión de llama
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Ruta **de región.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Ruta de región**.
 
 4.  En la página **Ruta regional**, haga clic en la ruta regional que desea modificar.
 
@@ -123,7 +123,7 @@ Todas las regiones dentro de una configuración de control de admisión de llama
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Ruta **de región.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Ruta de región**.
 
 4.  En la página **Ruta regional**, haga clic en la ruta regional que quiera eliminar.
 
@@ -136,7 +136,7 @@ Todas las regiones dentro de una configuración de control de admisión de llama
 
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administrar regiones de red en Skype Empresarial Server](managing-network-regions.md)
 

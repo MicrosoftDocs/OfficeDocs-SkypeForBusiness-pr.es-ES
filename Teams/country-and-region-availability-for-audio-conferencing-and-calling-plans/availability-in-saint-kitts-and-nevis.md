@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en San Cristóbal y Nieves
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para San Cristóbal y Nieves.
-ms.openlocfilehash: d990c1a6defe59bbe917fea3d1c47acc42ea7bdd
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 94a70a117cf2cbd592a88de859eaea46e94cfac3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192021"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394632"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>Disponibilidad en San Cristóbal y Nieves
 

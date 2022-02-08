@@ -5,8 +5,8 @@ ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619192(v=OCS.15)
 ms:contentKeyID: 49733872
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cómo habilitar y deshabilitar el acceso de usuarios anónimos en Skype Empresarial Server.
-ms.openlocfilehash: 8010261ad63810ff4227b3cf38983067f80c6f7c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 382bc8bcbfce478677264a6a6da2e791a05b945e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848463"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395332"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Habilitar o deshabilitar el acceso de usuarios anónimos en Skype Empresarial Server
 
@@ -29,7 +29,7 @@ Los usuarios anónimos son usuarios que no tienen una cuenta de usuario en los S
 Si más adelante desea impedir de forma temporal o permanente el acceso de usuarios anónimos, puede deshabilitarlo para su organización. Use el procedimiento de esta sección para habilitar o deshabilitar el acceso de usuarios anónimos para su organización.
 
 > [!NOTE]  
-> Al habilitar el acceso de usuarios anónimos para la organización, solo se especifica que los servidores que ejecutan el servicio perimetral de acceso admiten el acceso de usuarios anónimos. Los usuarios anónimos no pueden participar en ninguna reunión de la organización hasta que también configure al menos una directiva de conferencia y la aplique a uno o varios usuarios o grupos de usuarios. Los únicos usuarios que pueden invitar a usuarios anónimos a reuniones son aquellos usuarios a los que se asigna una directiva de conferencia configurada para admitir usuarios anónimos. Para obtener más información sobre cómo configurar directivas de conferencia para admitir la invitación a usuarios anónimos, vea [Manage conferencing policies](../../conferencing/conferencing-policies.md).
+> Al habilitar el acceso de usuarios anónimos para la organización, solo se especifica que los servidores que ejecutan el servicio perimetral de acceso admiten el acceso de usuarios anónimos. Los usuarios anónimos no pueden participar en ninguna reunión de la organización hasta que también configure al menos una directiva de conferencia y la aplique a uno o varios usuarios o grupos de usuarios. Los únicos usuarios que pueden invitar a usuarios anónimos a reuniones son aquellos usuarios a los que se asigna una directiva de conferencia configurada para admitir usuarios anónimos. Para obtener más información sobre cómo configurar directivas de conferencia para admitir la invitación de usuarios anónimos, vea [Manage conferencing policies](../../conferencing/conferencing-policies.md).
 
 ## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>Para habilitar o deshabilitar el acceso de usuarios anónimos para su organización
 
@@ -52,7 +52,7 @@ Si más adelante desea impedir de forma temporal o permanente el acceso de usuar
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Habilitar o deshabilitar el acceso de usuarios anónimos mediante Windows PowerShell cmdlets
 
-Puede administrar el acceso de usuarios anónimos mediante Windows PowerShell y el cmdlet **Set-CsAccessEdgeConfiguration.** Puede ejecutar este cmdlet desde el Shell de administración Skype Empresarial Server desde una sesión remota de Windows PowerShell. 
+Puede administrar el acceso de usuarios anónimos mediante Windows PowerShell y el cmdlet **Set-CsAccessEdgeConfiguration**. Puede ejecutar este cmdlet desde el Shell de administración Skype Empresarial Server desde una sesión remota de Windows PowerShell. 
 
 ## <a name="to-enable-anonymous-user-access"></a>Para habilitar el acceso de usuarios anónimos
 
@@ -60,9 +60,9 @@ Puede administrar el acceso de usuarios anónimos mediante Windows PowerShell y 
 
 ## <a name="to-disable-anonymous-user-access"></a>Para deshabilitar el acceso de usuarios anónimos
 
-  - Para deshabilitar el acceso de usuarios anónimos, establezca el valor de la **propiedad AllowAnonymousUsers** en False ($False):<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+  - Para deshabilitar el acceso de usuarios anónimos, establezca el valor de la propiedad **AllowAnonymousUsers** en False ($False):<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  

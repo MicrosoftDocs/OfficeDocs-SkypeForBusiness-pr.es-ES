@@ -1,8 +1,8 @@
 ---
 title: Configuración de tronco Crear nuevo o editar existente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 6e99333f0656ff5e359b54d3a32b4ca71e6e071c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2cb5cf6d0168b85ac757ec7d677e8eea680bcd85
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841732"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393242"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>Configuración del tronco: Crear nuevos o editar los existentes
 

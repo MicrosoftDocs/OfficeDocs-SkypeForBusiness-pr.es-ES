@@ -1,7 +1,7 @@
 ---
 title: Ver las asignaciones de directivas en el registro de actividades en el centro Microsoft Teams administración
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: jastark
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c48e6b8ea08419b96384be5e19ba1a7d5275dea
-ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
+ms.openlocfilehash: ed7903e0018d30882fa27c63941b5d03a27fdaf3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60785073"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393532"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>Ver las asignaciones de directivas en el registro de actividades
 
@@ -35,16 +35,16 @@ Al asignar directivas a usuarios en el centro de administración de Microsoft Te
 
 Para ver las asignaciones de directivas en el registro de actividades:
 
-1. En la navegación izquierda del centro de Microsoft Teams, vaya a Inicio **y,** a continuación, en Registro de actividades, seleccione Ver **detalles.**
-2. Puede ver todas las asignaciones de directivas o filtrar la lista por estado para mostrar solo las tareas no iniciadas, en curso **o** **completadas.** Verá la siguiente información sobre cada tarea:
-    - **Nombre:** el nombre de la asignación de directivas. Haga clic en el vínculo para ver más detalles. Esto incluye el número de usuarios a los que se asignó la directiva y el número de tareas completadas, en curso y no iniciadas. También verá la lista de usuarios en el lote, así como el estado y el resultado de cada usuario. Aquí se muestra un ejemplo:
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Inicio **y, a** continuación **, en** Registro de actividades, seleccione **Ver detalles**.
+2. Puede ver todas las asignaciones de directivas o filtrar la lista por estado para mostrar solo las tareas no iniciadas **, en** curso o **completadas**.  Verá la siguiente información sobre cada tarea:
+    - **Nombre**: el nombre de la asignación de directivas. Haga clic en el vínculo para ver más detalles. Esto incluye el número de usuarios a los que se asignó la directiva y el número de tareas completadas, en curso y no iniciadas. También verá la lista de usuarios en el lote, así como el estado y el resultado de cada usuario. Aquí se muestra un ejemplo:
 
         ![Captura de pantalla de la.](media/activity-log-policy-assignment-detail.png)
 
     - **Enviado:** Fecha y hora en que se envió la asignación de directiva.
-    - **Hora de finalización:** fecha y hora en que se completó la asignación de directivas.
-    - **Impacto en:** Número de usuarios en el lote.
-    - **Estado general:** Estado de la asignación de directivas.
+    - **Hora de finalización**: fecha y hora en que se completó la asignación de directivas.
+    - **Impacto en**: Número de usuarios en el lote.
+    - **Estado general**: Estado de la asignación de directivas.
 
 > [!NOTE]
 > También puede acceder al registro de actividades desde la **página** Usuarios. Después de hacer **clic en Aplicar** para enviar una asignación de directiva en masa, verá un banner en la parte superior de la página. Haga clic en **el vínculo Registro** de actividades en el banner.

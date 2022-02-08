@@ -1,8 +1,8 @@
 ---
 title: Skype Empresarial de vídeo de cliente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Resumen: revise los requisitos de vídeo del cliente al planear la Skype Empresarial Server.'
-ms.openlocfilehash: 717813e9ed667bbd0d3d9d63e45ae3b9c45b4dcf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 26a47854ac4223a527635111a0c1b25a66d63706
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856557"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395072"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype Empresarial de vídeo de cliente
  
@@ -29,13 +29,13 @@ ms.locfileid: "60856557"
   
 En este artículo se describe la compatibilidad de hardware de vídeo Skype Empresarial videollamadas y se describe cómo determinar la calidad de vídeo esperada para varias configuraciones de equipos, tabletas y dispositivos móviles. 
   
-Los profesionales de TI encontrarán esta información útil para evaluar la idoneidad de los portátiles que ya están en uso en su organización o que se tienen en cuenta para su uso. También pueden buscar en [dispositivos Microsoft Teams para](https://www.microsoft.com/microsoft-teams/across-devices/device) obtener información sobre dispositivos específicos.
+Los profesionales de TI encontrarán esta información útil para evaluar la idoneidad de los portátiles que ya están en uso en su organización o que se tienen en cuenta para su uso. También pueden buscar en dispositivos [Microsoft Teams para](https://www.microsoft.com/microsoft-teams/across-devices/device) obtener información sobre dispositivos específicos.
   
 ## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Windows y funcionalidades de vídeo de escritorio, Mac y tableta
 
 Skype Empresarial aceleración de hardware para codificar y decodificar vídeo basándose en el estándar de codificación avanzada de vídeo H.264/MPEG-4 Parte 10. Esto permite a los equipos con velocidades de reloj de CPU inferiores codificar y descodificar vídeo de mayor resolución. Los requisitos de hardware de vídeo varían en función de la configuración del equipo y de la resolución de vídeo que se desea.
   
-Vea también [los requisitos Windows hardware de Mac y mac.](https://products.office.com/office-system-requirements)
+Vea también [los requisitos Windows de hardware de Mac y de usuario](https://products.office.com/office-system-requirements).
   
 ### <a name="video-hardware-requirements"></a>Requisitos de hardware de vídeo
 
@@ -99,7 +99,7 @@ Las siguientes tres tablas explican la capacidad máxima de codificación y desc
    
 ## <a name="mobile-device-video-capabilities"></a>Funcionalidades de vídeo de dispositivo móvil
 
-En la tabla siguiente se describen las resoluciones de vídeo máximas disponibles en dispositivos móviles compatibles. Para obtener más información acerca de la compatibilidad con dispositivos móviles, comparación de características de cliente [móvil para Skype Empresarial](mobile-feature-comparison.md).
+En la tabla siguiente se describen las resoluciones de vídeo máximas disponibles en dispositivos móviles compatibles. Para obtener más información acerca de la compatibilidad con dispositivos móviles, [comparación de características de cliente móvil para Skype Empresarial](mobile-feature-comparison.md).
   
 |**Característica**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|

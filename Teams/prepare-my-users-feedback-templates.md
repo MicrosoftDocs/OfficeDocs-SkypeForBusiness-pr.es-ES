@@ -1,7 +1,7 @@
 ---
 title: Encuestas de comentarios en Teams o Skype Empresarial
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cebd19b40513ece384112e6fdc3efa1be54155b1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 285fcdf665a29de59596484c6174e73abd0a4083
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836038"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394502"
 ---
 # <a name="user-feedback-surveys"></a>Encuestas de comentarios de usuarios 
 
@@ -29,7 +29,7 @@ Use encuestas de comentarios para capturar la experiencia y la información de l
 
 Personalice las siguientes preguntas y, a continuación, transfiévalas a una herramienta de encuesta como SharePoint para facilitar la distribución y el análisis.
 
-Para el propósito de  estas encuestas, el nuevo sistema telefónico se refiere al uso de características de llamadas en Microsoft Teams o Skype Empresarial, además de dispositivos como un teléfono multimedia o un teléfono móvil. Todas las referencias a Microsoft Teams en estas encuestas también se aplican a Skype Empresarial.
+Para el propósito de estas encuestas *, el* nuevo sistema telefónico se refiere al uso de características de llamadas en Microsoft Teams o Skype Empresarial, además de dispositivos como un teléfono multimedia o un teléfono móvil. Todas las referencias a Microsoft Teams en estas encuestas también se aplican a Skype Empresarial.
 
 Indique su nivel de acuerdo con las siguientes instrucciones, en lo que se refiere al uso de Teams como teléfono. 
 
@@ -44,7 +44,7 @@ Indique su nivel de acuerdo con las siguientes instrucciones, en lo que se refie
 | Usar Teams como mi teléfono hace que sea más fácil para mí hacer mi trabajo.                                          |                      |                    |             |                       |                         |                        |
 | Mi experiencia de audio con Teams es tan buena o mejor que la que tenía con nuestro antiguo sistema telefónico.                   |                      |                    |             |                       |                         |                        |
 
-Si eligió **Algo en desacuerdo** o Totalmente **en** desacuerdo para cualquiera de las instrucciones anteriores, explíquelo. (Texto abierto)
+Si eligió **Algo en desacuerdo** o **Totalmente en** desacuerdo para cualquiera de las instrucciones anteriores, explíquelo. (Texto abierto)
 
 Indique su nivel de acuerdo con las siguientes instrucciones, en relación con su experiencia de incorporación con el nuevo teléfono.  
 
@@ -54,7 +54,7 @@ Indique su nivel de acuerdo con las siguientes instrucciones, en relación con s
 | Tenía recursos de aprendizaje adecuados para incorporarme rápidamente al nuevo sistema telefónico.                                                          |                      |                    |             |                       |                         |                        |
 | Nuestro departamento de soporte técnico podría responder a todas mis preguntas sobre el nuevo sistema telefónico.                                                           |                      |                    |             |                       |                         |                        |
 
-Si eligió **Algo en desacuerdo** o Totalmente **en** desacuerdo para cualquiera de las instrucciones anteriores, explíquelo. (Texto abierto)
+Si eligió **Algo en desacuerdo** o **Totalmente en** desacuerdo para cualquiera de las instrucciones anteriores, explíquelo. (Texto abierto)
 
 ¿Qué probabilidad hay de que recomiendes usar Teams como teléfono a un amigo o compañero de trabajo? (0=No es probable... 10=Muy probable)
 

@@ -1,7 +1,7 @@
 ---
 title: Ver análisis en Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ MS.collection:
 description: Obtenga información sobre análisis entre equipos, análisis por equipo y análisis por canal en Teams, que permiten a los usuarios ver los datos de uso de equipos o canales de los que forman parte.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b682ebe6b6c759be067b98ad99f1d6d8e437480
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 95b6d6431ca8b7f00b65f6c9e8d48a0e3afdcda3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831724"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394462"
 ---
 # <a name="view-analytics-in-teams"></a>Ver análisis en Teams
 
@@ -35,8 +35,8 @@ Los usuarios pueden filtrar cualquiera de estas vistas para ver los datos de un 
 
 ## <a name="view-cross-team-analytics"></a>Ver análisis entre equipos
 
-1. En Teams, en la parte inferior de la lista de equipos, junto a Unirse **o crear un** equipo, haga clic en Administrar **equipos.**
-2. Haga clic en **la pestaña Análisis.**
+1. En Teams, en la parte inferior de la lista de equipos, junto a Unirse **o crear un** equipo, haga clic **en Administrar equipos**.
+2. Haga clic en **la pestaña Análisis** .
 3. Seleccione un intervalo de fechas para mostrar los datos de uso de todos los equipos de los que es miembro o propietario.
 
     ![Captura de pantalla de la vista de análisis entre equipos.](../media/view-analytics-cross-team.png)
@@ -53,38 +53,38 @@ Los usuarios pueden filtrar cualquiera de estas vistas para ver los datos de un 
 
 ## <a name="view-per-team-analytics"></a>Ver análisis por equipo
 
-1. En Teams, vaya al equipo que desee, haga clic en Más opciones **(...)** y, a continuación, haga clic **en Administrar equipo.**
-2. Haga clic en **la pestaña Análisis.**
+1. En Teams, vaya al equipo que desee, haga clic en Más opciones **(...)** y, a continuación, haga clic **en Administrar equipo**.
+2. Haga clic en **la pestaña Análisis** .
 4. Seleccione un intervalo de fechas para mostrar los datos de uso del equipo.  
 
     ![Captura de pantalla de la vista de análisis por equipo.](../media/view-analytics-per-team.png)
 
     |Elemento |Descripción  |
     |--------|-------------|
-    |**Resumen**   |Resumen de la actividad del equipo, que incluye lo siguiente:<ul><li>**Usuarios:** número total de usuarios en el período de tiempo especificado. Esto incluye propietarios de equipos, miembros del equipo e invitados.</li> <li>**Publicaciones:** Número de mensajes nuevos publicados en el chat de grupo durante el período de tiempo especificado.</li><li>**Respuestas:** Número de respuestas en el chat de grupo durante el período de tiempo especificado.</li> <li>**Aplicaciones:** Número de aplicaciones agregadas al equipo.</li><li>**Reuniones:** número de Teams reuniones organizadas en el nivel de equipo.</li> </ul> |
+    |**Resumen**   |Resumen de la actividad del equipo, que incluye lo siguiente:<ul><li>**Usuarios**: Número total de usuarios en el período de tiempo especificado. Esto incluye propietarios de equipos, miembros del equipo e invitados.</li> <li>**Publicaciones**: Número de mensajes nuevos publicados en el chat de grupo durante el período de tiempo especificado.</li><li>**Respuestas**: Número de respuestas en el chat de grupo durante el período de tiempo especificado.</li> <li>**Aplicaciones**: Número de aplicaciones agregadas al equipo.</li><li>**Reuniones**: Número de Teams reuniones organizadas en el nivel de equipo.</li> </ul> |
     |**Usuarios activos**   |Número de usuarios activos e inactivos.|
     |**Rol**   |Número de usuarios por rol, incluidos los propietarios del equipo, los miembros del equipo e invitados.|
     |**Gráfico de usuarios activos**  |Número de activos diarios. Mantenga el puntero sobre el punto en una fecha determinada para ver el número de usuarios activos en esa fecha.|
     |**Gráfico de** mensajes  |Número total de mensajes publicados en el chat de grupo por fecha. Mantenga el puntero sobre el punto en una fecha determinada para ver el número de nuevas publicaciones y respuestas publicadas en esa fecha.|
 
 > [!TIP]
-> También puede ver análisis por equipo haciendo clic en un equipo de la lista en la vista análisis [entre equipos.](#view-cross-team-analytics)
+> También puede ver análisis por equipo haciendo clic en un equipo de la lista en la [vista análisis entre equipos](#view-cross-team-analytics).
 
 ## <a name="view-per-channel-analytics"></a>Ver análisis por canal
 
-1. En Teams, vaya al canal que desee, haga clic en Más opciones **(...)** y, a continuación, haga clic **en Administrar canal.**
-2. Haga clic en **la pestaña Análisis.**
+1. En Teams, vaya al canal que desee, haga clic en Más opciones **(...)** y, a continuación, haga clic **en Administrar canal**.
+2. Haga clic en **la pestaña Análisis** .
 3. Seleccione un intervalo de fechas para mostrar los datos de uso del canal.  
 
     ![Captura de pantalla de la vista de análisis por canal.](../media/view-analytics-per-channel.png)
 
     |Elemento |Descripción  |
     |--------|-------------|
-    |**Resumen**   |Resumen de la actividad del canal, que incluye lo siguiente:<ul><li>**Usuarios:** número total de usuarios en el período de tiempo especificado. Esto incluye propietarios de equipos, miembros del equipo e invitados.</li> <li>**Publicaciones:** Número de mensajes nuevos publicados en el canal durante el período de tiempo especificado.</li><li>**Respuestas:** Número de respuestas en el canal durante el período de tiempo especificado.</li> <li>**Aplicaciones:** Número de aplicaciones agregadas al canal.</li> </ul> |
+    |**Resumen**   |Resumen de la actividad del canal, que incluye lo siguiente:<ul><li>**Usuarios**: Número total de usuarios en el período de tiempo especificado. Esto incluye propietarios de equipos, miembros del equipo e invitados.</li> <li>**Publicaciones**: Número de mensajes nuevos publicados en el canal durante el período de tiempo especificado.</li><li>**Respuestas**: Número de respuestas en el canal durante el período de tiempo especificado.</li> <li>**Aplicaciones**: Número de aplicaciones agregadas al canal.</li> </ul> |
     |**Gráfico de** mensajes  |Número total de mensajes publicados en el chat del canal por fecha. Mantenga el puntero sobre el punto en una fecha determinada para ver el número de nuevas publicaciones y respuestas publicadas en esa fecha.|
 
 > [!TIP]
-> También puede ver análisis por canal seleccionando un canal en el cuadro de lista desplegable de la vista de análisis [por equipo.](#view-per-team-analytics)
+> También puede ver análisis por canal seleccionando un canal en el cuadro de lista desplegable de la vista de análisis [por equipo](#view-per-team-analytics).
     
 > [!NOTE]
 > Definimos usuarios activos como usuarios que realizan una acción intencionada en el cliente de escritorio, el cliente móvil y el cliente web. Ejemplos de una acción intencionada incluyen iniciar un chat, realizar una llamada, compartir un archivo, editar un documento dentro de los equipos, participar en una reunión, y así sucesivamente. Eliminamos acciones pasivas como el inicio automático, minimizar una pantalla o cerrar la aplicación. También desapetemos todas las acciones en un único id. de usuario.

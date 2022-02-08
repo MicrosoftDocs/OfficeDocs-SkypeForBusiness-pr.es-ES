@@ -1,7 +1,7 @@
 ---
 title: Calidad de la experiencia de usuario | Microsoft Teams | QoS | Calidad de llamada
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edc277a80ed9659281c46729646f3cbdfe95d725
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6ea92ffd8adcdfb319cd1b515419b987fc6bbbc4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865539"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394432"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 
@@ -53,8 +53,8 @@ Al evaluar y corregir continuamente las áreas descritas en la guía, puede redu
 
 - Dispositivos de red o subred problemáticos
 
-Las instrucciones que se proporcionan en Mejorar y supervisar la calidad de las llamadas de [Teams](monitor-call-quality-qos.md) se centran en el uso del Panel de calidad de llamadas (CQD) Online como la herramienta principal para informar e investigar cada área descrita, con un enfoque en el audio para maximizar la adopción y el impacto. Las optimizaciones que se realicen en la red para mejorar la experiencia de audio se traducirán directamente en mejoras de las de vídeo y escritorio compartido.
+Las instrucciones proporcionadas en Mejorar y supervisar la calidad de las llamadas para [Teams](monitor-call-quality-qos.md) se centran en el uso del Panel de calidad de llamadas (CQD) Online como la herramienta principal para informar e investigar cada área descrita, con un foco en el audio para maximizar la adopción y el impacto. Las optimizaciones que se realicen en la red para mejorar la experiencia de audio se traducirán directamente en mejoras de las de vídeo y escritorio compartido.
 
-Le recomendamos encarecidamente que nomine al campeón de calidad al principio. Después de ser designados, deben empezar a familiarizarse con el contenido en Mejorar y supervisar la calidad de las [llamadas Teams](monitor-call-quality-qos.md).
+Le recomendamos encarecidamente que nomine al campeón de calidad al principio. Después de ser designados, deben empezar a familiarizarse con el contenido en Mejorar y supervisar la calidad de las [llamadas para Teams](monitor-call-quality-qos.md).
 
 <!--ENDOFSECTION-->

@@ -1,8 +1,8 @@
 ---
 title: Tabla Roles
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
 description: La tabla Roles es una tabla estática que almacena la lista de posibles roles de conferencia, como asistente y moderador.
-ms.openlocfilehash: 67faf16a478a8ca1f4c2f3bc21bd5d4a6f28909f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 38999dd3d90dc39ac2afea9c667224f73da7208c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842652"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394872"
 ---
 # <a name="roles-table"></a>Tabla Roles
  

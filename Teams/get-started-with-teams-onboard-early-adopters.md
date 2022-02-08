@@ -1,7 +1,7 @@
 ---
 title: Incorporar usuarios pioneros en Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db8643d1637f7bda5e65fd3392d40cb4430c359d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 04873436e120f87794037a72ce35efacb85e5ef2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858747"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394522"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Incorporar usuarios pioneros en Microsoft Teams
 

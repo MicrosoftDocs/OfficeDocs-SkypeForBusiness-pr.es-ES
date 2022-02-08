@@ -1,7 +1,7 @@
 ---
 title: Definir resultados y éxitos para la adopción de Microsoft Teams - Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ f1.keywords:
 description: Obtenga información sobre cómo medir los resultados y el éxito de la habilitación a gran escala de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f4594f6d47216c1afe0440562013ca9985cab10
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9aaf0282794fd916c6779664d661b2ac0a569de2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849533"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394482"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir resultados y el éxito de su adopción de Microsoft Teams
 
@@ -76,22 +76,22 @@ En general, debería pensar en estas medidas agregando para crear un cociente de
 
 Teams es una tecnología transformadora, por lo que dependiendo del tamaño de su organización y las tecnologías existentes, puede tomar diferentes enfoques. Tenga en cuenta estas estrategias:
 
-| Teams En primer lugar | Teams Núcleo | Teams Ir en grande | Skype En paralelo | Migración |
+| Teams Primero | Teams core | Teams Ir a gran | Skype en paralelo | Migración |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Dirigir la implementación en la nube con Teams | Habilitar el escenario de colaboración con Teams | Todos los empleados de Teams y de toda la organización | Habilitar Teams y Skype Empresarial | Migrar usuarios de Skype Empresarial a Teams |
-| - Aplicable a clientes nuevos o de Microsoft 365 o Office 365 usuarios <br/>- Cliente potencial con Teams escenario específico del cliente <br/>- Resaltar la experiencia de usuario integrada y acelerar el tiempo de valor de Microsoft 365 o Office 365 <br/>- Realizar juntos la habilitación de carga de trabajo de planificación para evitar la implementación en serie | - Habilitar Teams junto con OneDrive y SharePoint online <br/>- Crear una intranet de empresa para compartir recursos de noticias y vídeo con Microsoft Stream<br/>**Mejor juntos:** <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |- Para clientes con menos de 5000 puestos (limitación actual)<br/>- Habilitar la colaboración entre organizaciones con un equipo para todos<br/>- Automatizar tareas comunes (solicitudes de vacaciones, encuestas de empleados, compromiso ejecutivo) |- Usar Teams principales para acelerar la colaboración<br/>- Resaltar la guía del escenario de reunión según el tamaño y el conjunto de características necesarios</br>- Usar Skype Empresarial para llamadas empresariales, interoperabilidad y escenarios híbridos<br/>- Usar plan de ruta público para la planificación de capacidades. |- Planear el cambio a Teams desde Skype Empresarial mediante la creación de un plan de estrategia de servicio para el cliente<br/>- Adjuntar a la programación de la versión de características<br/>- Recomendamos incluir en paralelo y Teams núcleo para facilitar la transición
+| - Aplicable a clientes nuevos o de Microsoft 365 o Office 365 usuarios <br/>- Cliente potencial con Teams escenario específico del cliente <br/>- Resaltar la experiencia de usuario integrada y acelerar el tiempo de valor de Microsoft 365 o Office 365 <br/>- Realizar juntos la habilitación de carga de trabajo de planificación para evitar la implementación en serie | - Habilitar Teams junto con OneDrive y SharePoint online <br/>- Crear una intranet de empresa para compartir recursos de noticias y vídeo con Microsoft Stream<br/>**Mejor juntos**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |- Para clientes con menos de 5000 puestos (limitación actual)<br/>- Habilitar la colaboración entre organizaciones con un equipo para todos<br/>- Automatizar tareas comunes (solicitudes de vacaciones, encuestas de empleados, compromiso ejecutivo) |- Usar Teams principales para acelerar la colaboración<br/>- Resaltar la guía del escenario de reunión según el tamaño y el conjunto de características necesarios</br>- Usar Skype Empresarial para llamadas empresariales, interoperabilidad y escenarios híbridos<br/>- Usar plan de ruta público para la planificación de capacidades. |- Planear el cambio a Teams desde Skype Empresarial mediante la creación de un plan de estrategia de servicio para el cliente<br/>- Adjuntar a la programación de la versión de características<br/>- Recomendamos incluir en paralelo y Teams núcleo para facilitar la transición
 
 Las siguientes son nuestras recomendaciones para la mayoría de las organizaciones de clientes. Sin embargo, hay excepciones. Para obtener instrucciones sobre cualquier escenario que no se trata aquí, haga sus preguntas en nuestra comunidad de adopción de conducción o consulte al equipo de FastTrack o a la red de partners de Microsoft.
 
-- **Elija Teams primero o Teams principal:** la mayoría de las organizaciones tienen una inversión existente en la tecnología de Microsoft. Es posible que esté habilitando más de una carga de trabajo a la vez, como Exchange Online, OneDrive para la Empresa o SharePoint. En estos casos, seleccionar Teams Primero o Teams Core es una elección acertada. Permitirá a los usuarios acostumbrarse a la experiencia de colaboración mejorada de Teams. A continuación, el equipo del proyecto de colaboración puede planear la implementación de capacidades adicionales y el aprendizaje y el soporte necesarios para que se puedan realizar correctamente. 
+- **Elija Teams primero o Teams principal**: la mayoría de las organizaciones tienen una inversión existente en la tecnología de Microsoft. Es posible que esté habilitando más de una carga de trabajo a la vez, como Exchange Online, OneDrive para la Empresa o SharePoint. En estos casos, seleccionar Teams Primero o Teams Core es una elección acertada. Permitirá a los usuarios acostumbrarse a la experiencia de colaboración mejorada de Teams. A continuación, el equipo del proyecto de colaboración puede planear la implementación de capacidades adicionales y el aprendizaje y el soporte necesarios para que se puedan realizar correctamente. 
 
 - **Elija Teams Ir** a lo grande: en las nuevas organizaciones de clientes de Microsoft 365 o Office 365, a menudo es mejor realizar un enfoque de Teams Ir a gran para minimizar la fatiga de cambio causada por el aprendizaje de nuevas tecnologías varias veces. Podrá obtener el mayor beneficio habilitando Teams para la colaboración principal y las reuniones, SharePoint, OneDrive, Planner y otras cargas de trabajo, y permitiendo a sus empleados obtener información sobre ellas en el contexto de su implementación de Teams. 
 
     Teams Go Big también es la estrategia de habilitación preferida para organizaciones de menos de 1.000 empleados que quieren simplificar la comunicación y la participación de los empleados. El uso del equipo de toda la organización puede reunir a personas para revisar tareas e iniciativas comunes en cualquier dispositivo. 
 
-- Elija en **paralelo:** para las organizaciones que usan Skype Empresarial para audioconferencias, soporte para dispositivos de salas de conferencias o capacidades de voz en la nube, le recomendamos que ejecute Teams y Skype en paralelo para familiarizar a sus empleados con las características principales de colaboración, mientras planea la migración fuera de Skype Empresarial en un momento que sea conveniente para su empresa. Tenga en cuenta que la ejecución de ambos clientes en paralelo puede crear confusiones entre los usuarios sobre qué herramienta usar, por lo que le recomendamos que mantenga esta fase en su camino de adopción breve. 
+- Elija en **paralelo: para** las organizaciones que usan Skype Empresarial para audioconferencias, soporte para dispositivos de salas de conferencias o capacidades de voz en la nube, le recomendamos que ejecute Teams y Skype en paralelo para familiarizar a sus empleados con las características principales de colaboración, mientras planea la migración fuera de Skype Empresarial en un momento que sea conveniente para su empresa. Tenga en cuenta que la ejecución de ambos clientes en paralelo puede crear confusiones entre los usuarios sobre qué herramienta usar, por lo que le recomendamos que mantenga esta fase en su camino de adopción breve. 
 
-- **Elija Migración:** Migrar de Skype Empresarial a Teams tiene componentes adicionales desde una perspectiva técnica, pero el viaje de adopción del usuario tiene los mismos componentes que una implementación de Teams Ir a gran. Además, estará educando Teams los usuarios sobre la interfaz y la experiencia de reunión de Teams, el nuevo comportamiento de chat persistente y otros elementos de la experiencia que son diferentes de Skype Empresarial.
+- **Elija Migración**: Migrar de Skype Empresarial a Teams tiene componentes adicionales desde una perspectiva técnica, pero el viaje de adopción del usuario tiene los mismos componentes que una implementación de Teams Ir a gran. Además, estará educando Teams los usuarios sobre la interfaz y la experiencia de reunión de Teams, el nuevo comportamiento de chat persistente y otros elementos de la experiencia que son diferentes de Skype Empresarial.
 
 Para cada estrategia de habilitación, es esencial trabajar estrechamente con su equipo de preparación técnica para asegurarse de que su entorno ofrezca una gran experiencia de empleados. 
 
@@ -117,7 +117,7 @@ En una organización más pequeña, uno o varios de estos roles pueden ser reali
 
 ## <a name="expand-your-governance-and-information-management-policies"></a>Expandir las directivas de administración de información y gobernanza
 
-Una vez que haya seleccionado su estrategia de habilitación, estará listo para revisar y escalar las decisiones de gobernanza que haya tomado en la fase 1. Revise las decisiones del 1 al 6 desde el inicio rápido gobernanza para expandir estas directivas en alineación con los usuarios empresariales que usarán Teams. [](teams-adoption-governance-quick-start.md) 
+Una vez que haya seleccionado su estrategia de habilitación, estará listo para revisar y escalar las decisiones de gobernanza que haya tomado en la fase 1. Revise las decisiones del 1 al 6 desde el [](teams-adoption-governance-quick-start.md) inicio rápido gobernanza para expandir estas directivas en alineación con los usuarios empresariales que usarán Teams. 
 
 | Nivel de equipo | Ámbito/finalidad | Pertenencia estándar | Duración |
 |----------- | ------------- | ------------------- | -------- |

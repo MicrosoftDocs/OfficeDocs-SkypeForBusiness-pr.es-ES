@@ -5,8 +5,8 @@ ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Si habilita el acceso de usuarios remotos para usuarios remotos, los usuarios remotos compatibles se conectan a través de Internet y no tienen que conectarse con una VPN para colaborar con usuarios internos que usan Skype Empresarial Server.
-ms.openlocfilehash: 8ff48e9fd10a9b5bad6cf1e7ccebebb87bc7ed69
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 94ff8263e61e8113a2f1d47104524d073a082665
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853044"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395282"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Habilitar o deshabilitar el acceso de usuarios remotos en Skype Empresarial Server
 
@@ -30,7 +30,7 @@ Si más adelante desea impedir de forma provisional o definitiva el acceso a usu
 
 
 > [!NOTE]  
-> Al habilitar el acceso de usuarios remotos solo se especifica que los servidores que ejecuten el servicio perimetral de acceso permitan la comunicación con usuarios remotos, pero dichos usuarios no pueden participar en mensajes instantáneos ni en conferencias de la organización hasta que también se configure una directiva para administrar el uso del acceso de usuarios remotos. Skype Empresarial Server la configuración de directiva que se aplica en un nivel de directiva puede invalidar la configuración que se aplica en otro nivel de directiva. La prioridad de las directivas de Skype Empresarial Server es: la directiva de usuario (mayor influencia) invalida una directiva de sitio y una directiva de sitio invalida una directiva global (menor influencia). Esto significa que cuanto más se aproxime la configuración de la directiva al objeto al que afecta la directiva, más influencia tendrá en el objeto. Para obtener más información sobre cómo configurar directivas para el uso del acceso de usuarios remotos, vea Configurar directivas para controlar el acceso remoto de usuarios [en Skype Empresarial Server](../external-access-policies/configure-policies-to-control-remote-user-access.md).
+> Al habilitar el acceso de usuarios remotos solo se especifica que los servidores que ejecuten el servicio perimetral de acceso permitan la comunicación con usuarios remotos, pero dichos usuarios no pueden participar en mensajes instantáneos ni en conferencias de la organización hasta que también se configure una directiva para administrar el uso del acceso de usuarios remotos. Skype Empresarial Server la configuración de directiva que se aplica en un nivel de directiva puede invalidar la configuración que se aplica en otro nivel de directiva. La prioridad de las directivas de Skype Empresarial Server es: la directiva de usuario (mayor influencia) invalida una directiva de sitio y una directiva de sitio invalida una directiva global (menor influencia). Esto significa que cuanto más se aproxime la configuración de la directiva al objeto al que afecta la directiva, más influencia tendrá en el objeto. Para obtener más información acerca de cómo configurar directivas para el uso del acceso de usuarios remotos, vea [Configure policies to control remote user access in Skype Empresarial Server](../external-access-policies/configure-policies-to-control-remote-user-access.md).
 
 
 ## <a name="to-enable-or-disable-remote-user-access-for-your-organization"></a>Para habilitar o deshabilitar el acceso de usuarios remotos en la organización

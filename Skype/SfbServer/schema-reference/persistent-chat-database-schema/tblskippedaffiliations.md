@@ -1,8 +1,8 @@
 ---
 title: tblSkippedAffiliations
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
 description: tblSkippedAffiliations contiene las afiliaciones que no se pudieron leer (normalmente debido a errores de acceso de servicios de dominio de Active Directory).
-ms.openlocfilehash: e5d72c132f0fa9440f5c03c56e51c569adce4edd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b0996e3208e760c55b1b9d621d00e92a8e7a7112
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838422"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394792"
 ---
 # <a name="tblskippedaffiliations"></a>tblSkippedAffiliations
  

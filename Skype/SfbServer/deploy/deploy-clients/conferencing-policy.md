@@ -1,7 +1,7 @@
 ---
 title: Directiva de conferencia para Skype del sistema de sala
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Lea este tema para obtener información sobre cómo asignar directivas de conferencia para Skype del sistema de sala.
-ms.openlocfilehash: 97980cb50613fca105af40686a920a8ff9c9b546
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2bbe7f9ca07e8c17aaf0c03693fbeca7eede2457
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838372"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394402"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Directiva de conferencia para Skype del sistema de sala
  
@@ -56,20 +56,20 @@ La directiva de conferencia asignada a la cuenta Skype sistema de sala debe tene
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |Ignorado por Skype Empresarial Server, Skype room system usa HD1080  <br/> |
 |MaxMeetingSize  <br/> |250  <br/> |Afecta a las sesiones de pizarra Reunirse ahora (ad hoc) en Skype room system  <br/> |
 |AudioBitRateKb  <br/> |200  <br/> |Ver nota al final de la tabla\*  <br/> |
-|VideoBitRateKb  <br/> |5000  <br/> |Esta es la velocidad máxima de bits de vídeo saliente permitida. Skype Room System puede enviar una secuencia 1080 junto con pano (si se usa RoundTable) a esta velocidad de bits. \*  <br/> |
+|VideoBitRateKb  <br/> |5000  <br/> |Esta es la velocidad máxima de bits de vídeo saliente permitida. Skype room system puede enviar una secuencia 1080 junto con pano (si se usa RoundTable) a esta velocidad de bits. \*  <br/> |
 |AppSharingBitRateKb  <br/> |5000  <br/> |Ver nota al final de la tabla\*  <br/> |
 |FileTransferBitRateKb  <br/> |5000  <br/> |N/D  <br/> |
 |TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |Se recomienda establecer esto lo más alto posible. El ancho de banda efectivo depende de las condiciones de red en el momento de las conferencias.\*  <br/> |
 |EnableMultiViewJoin  <br/> |TRUE  <br/> |Debe ser TRUE para Skype room system para garantizar secuencias de vídeo de varias vistas  <br/> |
    
-* Para obtener información sobre la planeación del ancho de banda, vea [Requisitos de ancho de banda de red para el tráfico multimedia.](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic)
+* Para obtener información sobre la planeación del ancho de banda, vea [Requisitos de ancho de banda de red para el tráfico multimedia](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic).
   
 > [!NOTE]
 > Si el cliente del sistema de salas de Skype intenta unirse a una reunión programada organizada por un usuario que se encuentra en un grupo de servidores de Lync Server 2010, la directiva de conferencia del organizador de la reunión podría impedir que el cliente del sistema de salas de Skype realice la colaboración. 
   
 ## <a name="meeting-authentication"></a>Autenticación de reuniones
 
-Skype El sistema de salas pide autenticación a los usuarios cuando usan el vínculo de unión a la reunión para unirse a una reunión restringida; por ejemplo, una reunión para la que se han configurado las opciones de la sala de reuniones en Outlook. Esta configuración siempre está en las reuniones personalizadas y siempre se pide a los usuarios. Sin embargo, para reuniones sin restricciones, los usuarios pueden unirse a la reunión sin autenticación. 
+Skype room system solicita a los usuarios autenticación cuando usan el vínculo de unirse a la reunión para unirse a una reunión restringida; por ejemplo, una reunión para la que se han configurado las opciones de la sala de reuniones en Outlook. Esta configuración siempre está en las reuniones personalizadas y siempre se pide a los usuarios. Sin embargo, para reuniones sin restricciones, los usuarios pueden unirse a la reunión sin autenticación. 
   
 El siguiente comando permite a los administradores requerir autenticación para todas las reuniones, incluidas las reuniones sin restricciones: 
   
