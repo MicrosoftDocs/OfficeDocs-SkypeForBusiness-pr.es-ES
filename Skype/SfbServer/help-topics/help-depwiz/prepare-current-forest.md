@@ -1,8 +1,8 @@
 ---
 title: Preparar bosque actual
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: Para preparar el bosque de Servicios de dominio de Active Directory, debe extender correctamente el esquema, tal como se describe en el tema Running Schema Preparation, y asegurarse de que el esquema se haya replicado.
-ms.openlocfilehash: 24e6d91767f1109bd1049667860b0050678e70f5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 17257199647a0c51a0eabee9ee0b338680f7bcdf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838912"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388518"
 ---
 # <a name="prepare-current-forest"></a>Preparar bosque actual
 
@@ -28,16 +28,16 @@ Para preparar el bosque de Servicios de dominio de Active Directory, debe extend
 
 Después de completar estos requisitos previos, puede comenzar **el paso 3: Preparar el bosque actual**. Para preparar el bosque, inicie sesión en un equipo de la raíz del bosque como miembro de administradores de dominio en la raíz del bosque o como miembro de los administradores de Enterprise para el bosque que está preparando.
 
-1. En el Asistente para implementación **del paso 3: Preparar el bosque actual,** haga clic **en Ejecutar**.
+1. En el Asistente para implementación del **paso 3: Preparar el bosque actual**, haga clic en **Ejecutar**.
 
-2. En la página **Preparar bosque,** haga clic **en Siguiente**.
+2. En la página **Preparar bosque** , haga clic **en Siguiente**.
 
     > [!NOTE]
     > Preparación del bosque permite elegir dónde colocar los grupos universales para Skype Empresarial Server 2015. Elija una ubicación que respete los requisitos de su organización.
 
 3. En la página **Ejecución de comandos**, busque **Estado de la tarea: completado** y, a continuación, haga clic en **Ver registro**. Asegúrese de que no hay errores. Revise las advertencias para determinar si se esperan y son típicas para la infraestructura.
 
-4. En  la columna Acción del registro, expanda Forest **Prep**, busque un resultado de ejecución al final de cada tarea para comprobar que la preparación del bosque se completó correctamente, cierre el registro y, a continuación, haga clic en **\<Success\>** **Finalizar**.
+4. En la  columna Acción del registro, expanda Preparación del **bosque, busque** un resultado de ejecución al final de cada tarea para comprobar que la preparación del bosque se completó correctamente, cierre el registro y, a **\<Success\>** continuación, haga clic en **Finalizar**.
 
 5. Espere a que se complete la replicación de Servicios de dominio de Active Directory o forzar la replicación a todos los controladores de dominio enumerados en el complemento Sitios y servicios de **Active Directory** para el controlador de dominio raíz del bosque, antes de ejecutar la preparación del dominio. Fuerce la replicación entre los controladores de dominio en todos los sitios de Active Directory para que la replicación en los sitios se produzca en cuestión de minutos.
 

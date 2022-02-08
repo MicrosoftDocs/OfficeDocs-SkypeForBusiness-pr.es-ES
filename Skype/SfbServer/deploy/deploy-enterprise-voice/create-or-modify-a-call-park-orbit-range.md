@@ -1,8 +1,8 @@
 ---
 title: Crear o modificar un intervalo de órbitas de estacionamiento de llamadas en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Cree o modifique una tabla de rango de órbitas de estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: ffe4a47a099099d31fdd55d23a95065549233f92
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8e6061f77d59eef8029b5afc52ede0d5acc500c8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839702"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387358"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Crear o modificar un intervalo de órbitas de estacionamiento de llamadas en Skype Empresarial
 
@@ -66,7 +66,7 @@ Use los siguientes procedimientos para crear o modificar un intervalo de órbita
 
    - Si el intervalo de órbitas comienza con el carácter \* o #, el intervalo debe ser mayor que 100.
 
-   - Valores válidos: debe coincidir con la cadena de expresión regular ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Esto significa que el valor debe ser una cadena que comienza con el carácter o # o un número \* del 1 al 9 (el primer carácter no puede ser cero). Si el primer carácter es o #, el siguiente carácter debe ser un número del 1 al \* 9 (no puede ser cero). Los caracteres posteriores pueden ser cualquier número de 0 a 9 hasta siete caracteres adicionales (por ejemplo, "#6000", " \* 92000", " 95551212" y \* "915551212"). Si el primer carácter no es o #, el primer carácter debe ser un número del 1 al 9 (no puede ser cero), seguido de hasta ocho caracteres, cada uno de \* 0 a 9 (por ejemplo, "915551212", "41212", "300").
+   - Valores válidos: debe coincidir con la cadena de expresión regular ([\\*|#]?[ 1-9]\d{0,7})| ([1-9]\d{0,8}). Esto significa que el valor debe ser una cadena \* que comienza con el carácter o # o un número del 1 al 9 (el primer carácter no puede ser cero). Si el primer carácter es \* o #, el siguiente carácter debe ser un número del 1 al 9 (no puede ser cero). Los caracteres posteriores pueden ser cualquier número de 0 a 9 hasta siete caracteres adicionales (por ejemplo, "#6000", "\*92000", "\*95551212" y "915551212"). \* Si el primer carácter no es o #, el primer carácter debe ser un número del 1 al 9 (no puede ser cero), seguido de hasta ocho caracteres, cada uno de 0 a 9 (por ejemplo, "915551212", "41212", "300").
 
    - No debe tener más de 50.000 órbitas por grupo de servidores. Cada intervalo de órbitas normalmente está formado por 100 órbitas o menos, pero puede ser mucho mayor siempre que tenga menos de 10.000 órbitas. Por ejemplo, en lugar de especificar un número de inicio de "7000000" y un número de finalización de "8000000", piense en especificar un número de inicio de "7000000" y un número de finalización de "7000100".
 
@@ -76,9 +76,9 @@ Use los siguientes procedimientos para crear o modificar un intervalo de órbita
 
 ### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Para usar Skype Empresarial Server Shell de administración para crear o modificar un rango de números para las llamadas de estacionamiento
 
-1. Inicie sesión en el equipo donde Skype Empresarial Server Shell de administración está instalado como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegate Setup Permissions**.
+1. Inicie sesión en el equipo en el que Skype Empresarial Server Shell de administración esté instalado como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en Permisos de configuración **delegados**.
 
-2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
 
 3. Use **New-CsCallParkOrbit** para crear un nuevo intervalo de números de órbitas. Use **Set-CsCallParkOrbit** para modificar un intervalo de números de órbitas existente.
 
@@ -100,7 +100,7 @@ Use los siguientes procedimientos para crear o modificar un intervalo de órbita
    Set-CsCallParkOrbit -Identity "Redmond orbit 1" -NumberRangeStart 500 -NumberRangeEnd 699
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [New-CsCallParkOrbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 

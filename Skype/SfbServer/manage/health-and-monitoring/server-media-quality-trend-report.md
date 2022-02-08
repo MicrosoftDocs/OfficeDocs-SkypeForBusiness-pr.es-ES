@@ -1,8 +1,8 @@
 ---
 title: Informe de tendencias de calidad de medios de servidor en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 description: 'Resumen: obtenga información sobre el informe de tendencias de calidad de medios de servidor en Skype Empresarial Server.'
-ms.openlocfilehash: 03091deedf502c4a6d9d65dc5e9f14532a9147ab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 05458e90e90189de46c26dd51eced8a9175e6afd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851023"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385597"
 ---
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Informe de tendencias de calidad de medios de servidor en Skype Empresarial Server
  
@@ -31,7 +31,7 @@ Se puede obtener acceso al Informe de tendencias de calidad de medios de servido
   
 - [Informe de rendimiento del servidor en Skype Empresarial Server](server-performance.md) (haciendo clic en la métrica Trend)
     
-- [Llame al Informe de detalles en Skype Empresarial Server](call-detail-report.md) (haciendo clic en la métrica del servidor perimetral A/V. Si el autor o el destinatario de la llamada es un servidor, también puede obtener acceso al Informe de tendencias de calidad de medios de servidores haciendo clic en el nombre del extremo.)
+- [Llame al informe de detalles en Skype Empresarial Server](call-detail-report.md) (haciendo clic en la métrica del servidor perimetral A/V. Si el autor o el destinatario de la llamada es un servidor, también puede obtener acceso al Informe de tendencias de calidad de medios de servidores haciendo clic en el nombre del extremo.)
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Uso óptimo del Informe de tendencias de calidad de medios de servidores
 

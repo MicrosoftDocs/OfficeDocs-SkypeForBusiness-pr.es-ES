@@ -1,8 +1,8 @@
 ---
 title: Registros de captura de búsqueda creados por el servicio de registro centralizado en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Summary: Learn how to search and read Centralized Logging Service capture logs in Skype Empresarial Server 2015.'
-ms.openlocfilehash: a65fac6ffc96088cd1e544ed17914128d040e2b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2168bdc0a72df6efe4bf9d9f178a2ee9c120aa6a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831924"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385568"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Registros de captura de búsqueda creados por el servicio de registro centralizado en Skype Empresarial Server 2015
  
@@ -55,7 +55,7 @@ El resto de este tema se centra en cómo definir una búsqueda para optimizar su
   
 ### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>Para ejecutar una búsqueda básica mediante el servicio de registro centralizado
 
-1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 2. Asegúrese de que el escenario AlwaysOn se encuentra en ejecución en su implementación en el ámbito global y luego escriba lo siguiente en un símbolo del sistema:
     
@@ -64,7 +64,7 @@ El resto de este tema se centra en cómo definir una búsqueda para optimizar su
    ```
 
 > [!NOTE]
-> Por defecto, Search-CsClsLogging envía los resultados de la búsqueda a la consola. Si desea guardar los resultados de la búsqueda en un archivo, use -OutputFilePath  _\<string fully qualified file path\>_ . Para definir el parámetro -OutputFilePath, proporcione una ruta de acceso y un nombre de archivo como parte del parámetro en un formato de cadena entre comillas (por ejemplo, C:\LogFiles\SearchOutput.txt). En este ejemplo, debe asegurarse de que exista el directorio C:\LogFiles y de que tenga los permisos de lectura y escritura (permiso NTFS Modificar) de archivos de la carpeta. El resultado se anexa y no se sobreescribe. Si necesita archivos independientes, defina un nombre de archivo diferente para cada búsqueda. 
+> Por defecto, Search-CsClsLogging envía los resultados de la búsqueda a la consola. Si desea guardar los resultados de la búsqueda en un archivo, use -OutputFilePath  _\<string fully qualified file path\>_. Para definir el parámetro -OutputFilePath, proporcione una ruta de acceso y un nombre de archivo como parte del parámetro en un formato de cadena entre comillas (por ejemplo, C:\LogFiles\SearchOutput.txt). En este ejemplo, debe asegurarse de que exista el directorio C:\LogFiles y de que tenga los permisos de lectura y escritura (permiso NTFS Modificar) de archivos de la carpeta. El resultado se anexa y no se sobreescribe. Si necesita archivos independientes, defina un nombre de archivo diferente para cada búsqueda. 
   
 Por ejemplo:
     
@@ -110,7 +110,7 @@ Por ejemplo:
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>Para ejecutar una búsqueda utilizando los parámetros de hora
 
-1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 2. De forma predeterminada, la hora de inicio de los parámetros específicos de tiempo de una búsqueda es 25 minutos antes de cinco minutos después del momento en que inicia la búsqueda. En otras palabras, si buscamos a las 4:00:00 PM, la hora de inicio de la búsqueda se mostrará de 3:35:00 PM a 4:05:00 PM. Si necesita buscar 60 minutos o 3 horas antes de la hora actual, use el parámetro -StartTime y establezca la cadena de fecha y hora para indicar la hora en la que desea que se inicie la búsqueda. 
     
@@ -141,7 +141,7 @@ Por ejemplo:
 
 ### <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>Para ejecutar una búsqueda avanzada utilizando otros criterios y opciones de coincidencia
 
-1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 2. Para ejecutar un comando para reunir seguimientos de determinados componentes, escriba lo siguiente:
     
@@ -163,7 +163,7 @@ La búsqueda resultante devuelve todas las entradas de registro que tengan compo
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
-4. La lógica de búsqueda predeterminada para los comandos con varios parámetros es utilizar el conector lógico O con cada uno de los parámetros definidos. Puede cambiar este comportamiento especificando el **parámetro -MatchAll.** Para ello, escriba lo siguiente:
+4. La lógica de búsqueda predeterminada para los comandos con varios parámetros es utilizar el conector lógico O con cada uno de los parámetros definidos. Puede cambiar este comportamiento especificando el **parámetro -MatchAll** . Para ello, escriba lo siguiente:
     
    ```PowerShell
    Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -177,10 +177,10 @@ La búsqueda resultante devuelve todas las entradas de registro que tengan compo
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>Leer registros de captura desde el servicio de registro centralizado
 
-Se da cuenta de la ventaja real del servicio de registro centralizado después de ejecutar la búsqueda y tiene un archivo que puede usar para realizar un seguimiento de un problema notificado. Hay varias formas de leer el archivo. El archivo de salida está en un formato de texto estándar y puede usar Notepad.exe o cualquier otro programa que le permita abrir y leer un archivo de texto. Para archivos más grandes y problemas más complejos, podría usar una herramienta como Snooper.exe diseñada para leer y analizar el resultado del registro desde el servicio de registro centralizado. Snooper se incluye con las herramientas de depuración que están disponibles como descarga independiente. Puede descargar las herramientas de depuración aquí: [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) . Al instalar las herramientas de depuración, no se crean los recortes y los elementos de menú. Después de instalar las herramientas de depuración, abra el Explorador de Windows, una ventana de línea de comandos o el Shell de administración de Skype Empresarial Server y vaya al directorio (ubicación predeterminada) C:\Archivos de programa\Skype Empresarial Server 2015\Herramientas de depuración. Haga doble clic Snooper.exe o escriba Snooper.exe y, a continuación, presione ENTRAR si usa la línea de comandos o Skype Empresarial Server Shell de administración.
+Se da cuenta de la ventaja real del servicio de registro centralizado después de ejecutar la búsqueda y tiene un archivo que puede usar para realizar un seguimiento de un problema notificado. Hay varias formas de leer el archivo. El archivo de salida está en un formato de texto estándar y puede usar Notepad.exe o cualquier otro programa que le permita abrir y leer un archivo de texto. Para archivos más grandes y problemas más complejos, podría usar una herramienta como Snooper.exe diseñada para leer y analizar el resultado del registro desde el servicio de registro centralizado. Snooper se incluye con las herramientas de depuración que están disponibles como descarga independiente. Puede descargar las herramientas de depuración aquí: [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257). Al instalar las herramientas de depuración, no se crean los recortes y los elementos de menú. Después de instalar las herramientas de depuración, abra el Explorador de Windows, una ventana de línea de comandos o el Shell de administración de Skype Empresarial Server y vaya al directorio (ubicación predeterminada) C:\Archivos de programa\Skype Empresarial Server 2015\Herramientas de depuración. Haga doble clic Snooper.exe o escriba Snooper.exe y, a continuación, presione ENTRAR si usa la línea de comandos o Skype Empresarial Server Shell de administración.
   
 > [!IMPORTANT]
-> La finalidad de este tema no es dar información detallada ni tratar las técnicas de solución de problemas. La solución de problemas y los procesos relacionados con esta son un tema muy complejo. Para obtener más información sobre cómo solucionar problemas básicos y solucionar problemas de cargas de trabajo específicas, consulte el libro del Kit de recursos de Microsoft Lync Server 2010 en [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) . Los procesos y procedimientos aún se aplican a Skype Empresarial Server 2015. 
+> La finalidad de este tema no es dar información detallada ni tratar las técnicas de solución de problemas. La solución de problemas y los procesos relacionados con esta son un tema muy complejo. Para obtener más información sobre cómo solucionar problemas básicos y solucionar problemas de cargas de trabajo específicas, consulte el libro del Kit de recursos de Microsoft Lync Server 2010 en [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003). Los procesos y procedimientos aún se aplican a Skype Empresarial Server 2015. 
   
 ### <a name="to-open-a-log-file-in-snooper"></a>Para abrir un archivo de registro en Snooper:
 
@@ -190,7 +190,7 @@ Se da cuenta de la ventaja real del servicio de registro centralizado después d
     
 3. Tras abrir Snooper, haga clic con el botón secundario en **Archivo**, haga clic en **Abrir archivo**, localice los archivos de registro, seleccione un archivo en el cuadro de diálogo **Abrir** y haga clic en **Abrir**.
     
-4. Los mensajes de seguimiento **del** archivo de registro se muestran en la **pestaña** Seguimiento. Haga clic en **la pestaña** Mensajes para ver el contenido del mensaje de los seguimientos recopilados.
+4. Los mensajes de **seguimiento del archivo** de registro se muestran en la **pestaña** Seguimiento. Haga clic en **la pestaña** Mensajes para ver el contenido del mensaje de los seguimientos recopilados.
     
 ### <a name="to-display-a-call-flow-diagram"></a>Para mostrar un diagrama de flujo de llamada:
 

@@ -1,8 +1,8 @@
 ---
 title: Agregar almacén SQL Server de chat persistente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 ROBOTS: NOINDEX, NOFOLLOW
 description: Configure los almacenes de SQL Server que proporcionarán bases de datos para el servidor de chat persistente o el grupo de servidores de chat persistente.
-ms.openlocfilehash: 2af9c0c63611317220ffffdcf3095d44dd94fabc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ce6b8386898965d2163676b7461b05aa422465d1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837062"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388698"
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>Agregar almacén SQL Server de chat persistente
 

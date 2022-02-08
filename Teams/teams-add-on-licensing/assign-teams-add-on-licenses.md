@@ -1,7 +1,7 @@
 ---
 title: Asignar Teams de complementos a los usuarios
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,19 +16,19 @@ ms.reviewer: mikedav
 description: Obtenga información sobre cómo asignar Teams de complementos a los usuarios para características como audioconferencias, Sistema telefónico y planes de llamadas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 200e2bb36940bb4b447c4a46856c4e3ffa07f588
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a0a83c30a4ea0fd4f907fd192b3f6dac455fc4d1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846033"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387598"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Asignar Teams de complementos a los usuarios
 
 Las licencias de complementos son licencias para características específicas de Teams como audioconferencias, Sistema telefónico y planes de llamadas. En este artículo se describe cómo asignar licencias de complementos a usuarios individuales y a grandes conjuntos de usuarios en masa.
 
 > [!NOTE]
-> Consulte [Teams de complementos para](./microsoft-teams-add-on-licensing.md) Teams características disponibles con licencias de complementos. También encontrará información sobre qué licencias necesita comprar y cómo comprarlas (según su plan), para que los usuarios puedan obtener características como Audioconferencia, números gratuitos y la capacidad de llamar a números de teléfono fuera de su organización. Después de decidir qué características desea para los usuarios, asígneles las licencias.
+> Consulte [Teams licencias de complementos para](./microsoft-teams-add-on-licensing.md) Teams características que están disponibles con licencias de complementos. También encontrará información sobre qué licencias necesita comprar y cómo comprarlas (según su plan), para que los usuarios puedan obtener características como Audioconferencia, números gratuitos y la capacidad de llamar a números de teléfono fuera de su organización. Después de decidir qué características desea para los usuarios, asígneles las licencias.
 
 Puede usar el Centro de administración de Microsoft 365 PowerShell para asignar licencias a los usuarios de su organización. Debe ser administrador global o administrador de administración de usuarios para administrar licencias.
 
@@ -38,42 +38,42 @@ Antes de empezar, revise los siguientes requisitos:
 
 - Si usa la conectividad local de red telefónica conmutada (RTC) para los usuarios híbridos, solo tiene que asignar una licencia Sistema telefónico local. No asigne una licencia del plan de llamadas.
 
-- Debido a la latencia entre Microsoft 365 y Microsoft Teams, puede tardar hasta 24 horas en asignar un plan de llamadas a un usuario después de asignar una licencia. Si al usuario no se le asigna un plan de llamadas después de 24 horas, póngase en contacto con el soporte técnico para productos [empresariales: ayuda para administradores.](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+- Debido a la latencia entre Microsoft 365 y Microsoft Teams, puede tardar hasta 24 horas en asignar un plan de llamadas a un usuario después de asignar una licencia. Si al usuario no se le asigna un plan de llamadas después de 24 horas, póngase en contacto con el soporte técnico para productos [empresariales: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - Recibe un mensaje de error si no ha comprado el número correcto de licencias. Si necesita comprar más licencias del Plan de llamadas, elija la opción para comprar más.
 
-- Incluso si a los usuarios se les Enterprise licencias de [](../what-are-communications-credits.md) E5, aún debe asignarles licencias de créditos de comunicaciones si quieren realizar o recibir llamadas desde la RTC.
+- Incluso si los usuarios están asignados Enterprise licencias E5, aún debe asignarles licencias de créditos de comunicaciones si quieren realizar o recibir llamadas desde la RTC.[](../what-are-communications-credits.md)
 
-- Después de asignar licencias de planes de llamadas o créditos de comunicación a los usuarios, tendrá que obtener números de teléfono para su organización y, a continuación, asignar esos números a los usuarios. Para obtener instrucciones paso a paso, vea [Configurar planes de llamadas.](../set-up-calling-plans.md)
+- Después de asignar licencias de planes de llamadas o créditos de comunicación a los usuarios, tendrá que obtener números de teléfono para su organización y, a continuación, asignar esos números a los usuarios. Para obtener instrucciones paso a paso, vea [Configurar planes de llamadas](../set-up-calling-plans.md).
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Usar el Centro de administración de Microsoft 365
 
-Use la Centro de administración de Microsoft 365 para asignar licencias a usuarios individuales o conjuntos pequeños de usuarios a la vez. Asigne licencias en  la página Licencias (para un máximo de 20 usuarios a la vez) o en la página Usuarios activos (para un máximo de 40 usuarios a la vez).  El método que elija depende de si desea administrar licencias de productos para usuarios específicos o administrar licencias de usuario para productos específicos.
+Use la Centro de administración de Microsoft 365 para asignar licencias a usuarios individuales o conjuntos pequeños de usuarios a la vez. Asigne licencias en la página Licencias  (para un máximo de 20 usuarios a la vez) o en la página Usuarios  activos (para un máximo de 40 usuarios a la vez). El método que elija depende de si desea administrar licencias de productos para usuarios específicos o administrar licencias de usuario para productos específicos.
 
-Para obtener instrucciones paso a paso, vea [Asignar licencias a usuarios.](/microsoft-365/admin/manage/assign-licenses-to-users)
+Para obtener instrucciones paso a paso, vea [Asignar licencias a los usuarios](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-Si necesita asignar licencias para un gran número de usuarios, como cientos o miles de usuarios, use Powershell o licencias basadas en grupos en [Azure Active Directory (Azure AD).](/azure/active-directory/users-groups-roles/licensing-groups-assign)  
+Si necesita asignar licencias para un gran número de usuarios, como cientos o miles de usuarios, use Powershell o licencias basadas en grupos en [Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign).  
 
 ## <a name="using-powershell"></a>Con PowerShell
 
-Use PowerShell para asignar licencias a usuarios en masa.  Para obtener más información, vea [Asignar licencias a cuentas de usuario con PowerShell.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+Use PowerShell para asignar licencias a usuarios en masa.  Para obtener más información, vea [Asignar licencias a cuentas de usuario con PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
 
 ### <a name="example-script"></a>Script de ejemplo
 
 Este es un ejemplo de cómo usar un script para asignar licencias a los usuarios.
 
-1. Instale la versión de 64 bits del asistente Microsoft Online Services inicio de sesión para profesionales de [TI RTW.](/collaborate/connect-redirect?DownloadID=59185)
+1. Instale la versión de 64 bits del asistente Microsoft Online Services inicio de sesión para profesionales de [TI RTW](/collaborate/connect-redirect?DownloadID=59185).
 2. Instale el Microsoft Azure Active Directory de Windows PowerShell:
     1. Abra un símbolo Windows PowerShell símbolo del sistema (ejecute Windows PowerShell como administrador).
     2. Ejecute el siguiente comando:
         ```powershell
         Install-Module MSOnline
         ```
-    3. Si se le solicita que instale el proveedor de NuGet, escriba **Y** y, después, presione Entrar.
+    3. Si se le solicita que instale el NuGet, escriba **Y** y, después, presione Entrar.
     4. Si se le solicita que instale el módulo desde PSGallery, escriba **Y** y, después, presione Entrar.
-3. En el símbolo del sistema Windows PowerShell, ejecute el siguiente script para asignar licencias a los usuarios, donde se encuentra el nombre de la organización y el identificador de la licencia \<CompanyName:License> que desea asignar. Por ejemplo, litwareinc:MCOMEETADV.
+3. En el símbolo del sistema Windows PowerShell, ejecute el siguiente script para asignar licencias a los usuarios, \<CompanyName:License> donde se encuentra el nombre de la organización y el identificador de la licencia que desea asignar. Por ejemplo, litwareinc:MCOMEETADV.
 
-    El identificador es diferente del nombre descriptivo de la licencia. Por ejemplo, el identificador de audioconferencia es MCOMEETADV. Para obtener más información, vea [Nombres de producto e identificadores de SKU para licencias.](#product-names-and-sku-identifiers-for-licensing)
+    El identificador es diferente del nombre descriptivo de la licencia. Por ejemplo, el identificador de audioconferencia es MCOMEETADV. Para obtener más información, vea [Nombres de producto e identificadores de SKU para licencias](#product-names-and-sku-identifiers-for-licensing).
 
     ```powershell
     #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.
@@ -127,7 +127,7 @@ Este es un ejemplo de cómo usar un script para asignar licencias a los usuarios
 
 Esta es una lista parcial de nombres de producto y sus correspondientes nombres de partes de SKU que puede usar como referencia al usar PowerShell para administrar licencias en Teams.
 
-Para obtener más información, vea Ver licencias y servicios con [PowerShell,](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)Nombres de productos e identificadores de [plan](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)de servicio para licencias y Referencia [de SKU de educación.](../sku-reference-edu.md)
+Para obtener más información, vea Ver licencias y servicios con [PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell), [nombres](/azure/active-directory/users-groups-roles/licensing-service-plan-reference) de productos e identificadores de plan de servicio para licencias y referencia [de SKU de educación](../sku-reference-edu.md).
 
 | Nombre del producto| Nombre de la parte SKU |
 |--------------|---------------|

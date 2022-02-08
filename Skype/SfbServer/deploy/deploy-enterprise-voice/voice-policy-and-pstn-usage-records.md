@@ -1,8 +1,8 @@
 ---
 title: Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,19 +16,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Resumen: cree o modifique directivas de voz y configure los registros de uso de RTC mediante el panel de control Skype Empresarial Server voz.'
-ms.openlocfilehash: 5dedb504a6d2d3e75b168bf32ff1f0ccb7ed94f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 988ce046e3ef5dbbf9020deeb79665b7fda3f9b2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828383"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386288"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype Empresarial
 
 **Resumen:** Cree o modifique directivas de voz y configure los registros de uso de RTC mediante el panel de control Skype Empresarial Server rtc.
 
 > [!NOTE]
-> Cada directiva de voz debe tener al menos un registro de uso asociado de red telefónica conmutada (RTC). Para ver una lista de todos los registros de uso de RTC disponibles en la implementación Telefonía IP empresarial y ver sus propiedades, vea Ver registros de uso de RTC [en Skype Empresarial](view-pstn-usage-records.md).
+> Cada directiva de voz debe tener al menos un registro de uso asociado de red telefónica conmutada (RTC). Para ver una lista de todos los registros de uso de RTC disponibles en la implementación de Telefonía IP empresarial y ver sus propiedades, vea Ver registros de uso de RTC [en Skype Empresarial](view-pstn-usage-records.md).
 
 ### <a name="to-create-a-voice-policy"></a>Para crear una directiva de voz
 
@@ -77,7 +77,7 @@ ms.locfileid: "60828383"
 
    - **El seguimiento de** llamadas malintencionadas permite a los usuarios notificar llamadas malintencionadas (como amenazas) mediante la interfaz de usuario del cliente, que a su vez marca las llamadas en los registros de detalles de llamadas (CDR). Deshabilitado de forma predeterminada.
 
-   - **Las opciones de** disponibilidad habilitan o deshabilitan opciones de disponibilidad para la directiva de voz especificada. Las opciones de disponibilidad permiten que las llamadas entrantes se enrutan al correo de voz o se rechazan con una señal de disponibilidad cuando el usuario de destino de la llamada está en el teléfono. Opciones de disponibilidad es una nueva directiva de voz introducida en la actualización acumulativa de julio de 2016. Si se comprueba este parámetro, se habilitan las opciones de disponibilidad y si se desactiva, se deshabilitan las opciones de disponibilidad. Para obtener más información, vea [Plan for Busy Options for Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) and Install and configure Busy Options for [Skype Empresarial Server](install-and-configure-busy-options.md).
+   - **Las opciones de** disponibilidad habilitan o deshabilitan opciones de disponibilidad para la directiva de voz especificada. Las opciones de disponibilidad permiten que las llamadas entrantes se enrutan al correo de voz o se rechazan con una señal de disponibilidad cuando el usuario de destino de la llamada está en el teléfono. Opciones de disponibilidad es una nueva directiva de voz introducida en la actualización acumulativa de julio de 2016. Si se comprueba este parámetro, se habilitan las opciones de disponibilidad y si se desactiva, se deshabilitan las opciones de disponibilidad. Para obtener más información, vea [Plan for Busy Options for Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) and [Install and configure Busy Options for Skype Empresarial Server](install-and-configure-busy-options.md).
 
 7. Para asociar y configurar registros de uso de RTC para esta directiva de voz, siga uno de los procedimientos siguientes:
 
@@ -100,7 +100,7 @@ ms.locfileid: "60828383"
 
    - Para quitar una ruta del registro de uso de RTC, resalte la ruta y después haga clic en **Quitar**.
 
-   - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [vea Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
+   - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [consulte Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
 
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**.
 
@@ -116,7 +116,7 @@ ms.locfileid: "60828383"
 
    - Para quitar una ruta de este registro de uso de RTC, resalte la ruta y después haga clic en **Quitar**.
 
-   - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [vea Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
+   - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [consulte Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
 
    - Para editar una ruta que ya está asociado a este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**.
 
@@ -131,7 +131,7 @@ ms.locfileid: "60828383"
 
    - Para usar los mismos registros de uso de RTC en el desvío de llamadas y las llamadas simultáneas que esta directiva de voz, seleccione la opción **Enrutar con los usos de RTC de llamada** en el menú desplegable.
 
-   - Para permitir el reenvío de llamadas y llamadas simultáneas solo  a usuarios de Skype Empresarial internos, seleccione la opción Enrutar a usuarios de Skype Empresarial internos solo en el menú desplegable. Las llamadas no se desviarán a los números de RTC externos.
+   - Para permitir el reenvío de llamadas y llamadas simultáneas solo a usuarios de Skype Empresarial internos, seleccione la opción Enrutar a usuarios internos **Skype Empresarial** solo en el menú desplegable. Las llamadas no se desviarán a los números de RTC externos.
 
    - Para usar unos registros de uso de RTC para el desvío de llamadas y las llamadas simultáneas que no sean los que se usan para esta directiva de voz, seleccione la opción **Redirigir con usos de PSTN personalizados** en el menú desplegable. Esta opción muestra un control para seleccionar registros de uso de RTC o crear nuevos registros de uso de RTC destinados concretamente a desviar llamadas o a realizar llamadas simultáneas.
 
@@ -154,7 +154,7 @@ ms.locfileid: "60828383"
 
    - Para quitar una ruta del registro de uso de RTC, resalte la ruta y haga clic en **Quitar**.
 
-   - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [vea Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
+   - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [consulte Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
 
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**.
 
@@ -170,7 +170,7 @@ ms.locfileid: "60828383"
 
    - Para quitar una ruta de este registro de uso de RTC, resalte la ruta y haga clic en **Quitar**.
 
-   - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [vea Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
+   - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [consulte Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
 
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**.
 
@@ -183,7 +183,7 @@ ms.locfileid: "60828383"
 12. En la página **Directiva de voz**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
 
     > [!NOTE]
-    > Siempre que cree o modifique una directiva de voz, ejecute el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes](voice-route-config-changes.md) en la configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
+    > Siempre que cree o modifique una directiva de voz, ejecute el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes en la](voice-route-config-changes.md) configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
 
 13. (Opcional) Escape de correo de voz detecta que el correo de voz del teléfono móvil del usuario atendió inmediatamente una llamada y desconecta la llamada al correo de voz del teléfono móvil. Esto permite que la llamada siga sonando en los otros puntos de conexión del usuario, lo que da al usuario la oportunidad de responder a la llamada. Para obtener más información sobre cómo configurar una directiva de correo de voz, vea [Configure voice mail escape in Skype Empresarial](configure-voice-mail-escape.md).
 
@@ -249,7 +249,7 @@ ms.locfileid: "60828383"
 
    - Para quitar una ruta del registro de uso de RTC, resalte la ruta y haga clic en **Quitar**.
 
-   - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [vea Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
+   - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [consulte Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
 
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**.
 
@@ -265,7 +265,7 @@ ms.locfileid: "60828383"
 
    - Para quitar una ruta de este registro de uso de RTC, resalte la ruta y haga clic en **Quitar**.
 
-   - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [vea Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
+   - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [consulte Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
 
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**.
 
@@ -280,7 +280,7 @@ ms.locfileid: "60828383"
 
    - Para usar los mismos registros de uso de RTC en el desvío de llamadas y las llamadas simultáneas que esta directiva de voz, seleccione la opción **Enrutar con los usos de RTC de llamada** en el menú desplegable.
 
-   - Para permitir el reenvío de llamadas y llamadas simultáneas  solo a usuarios de Skype Empresarial internos, seleccione Enrutar a usuarios de Skype Empresarial internos solo en el menú desplegable. Las llamadas no se desviarán a números de RTC externos.
+   - Para permitir el reenvío de llamadas y llamadas simultáneas solo a usuarios de Skype Empresarial internos, seleccione Enrutar a usuarios de **Skype Empresarial** internos solo en el menú desplegable. Las llamadas no se desviarán a números de RTC externos.
 
    - Para especificar unos registros de uso de RTC para el desvío de llamadas y en las llamadas simultáneas distintos de los de esta directiva de voz, seleccione la opción **Enrutar con los usos de RTC personalizados** en el menú desplegable. Esta opción muestra un control para seleccionar unos registros de uso de RTC existentes o bien para crear otros registros de uso de RTC específicos para el desvío de llamadas y las llamadas simultáneas.
 
@@ -303,7 +303,7 @@ ms.locfileid: "60828383"
 
    - Para quitar una ruta del registro de uso de RTC, resalte la ruta y haga clic en **Quitar**.
 
-   - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [vea Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
+   - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [consulte Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
 
    - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. Para más información, consulte [Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route).
 
@@ -319,7 +319,7 @@ ms.locfileid: "60828383"
 
      - Para quitar una ruta de este registro de uso de RTC, seleccione la ruta y haga clic en **Quitar**.
 
-     - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [vea Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
+     - Para definir una ruta nueva y asociarla con este registro de uso de RTC, haga clic en **Nuevo**. Para obtener más información, [consulte Create or modify a voice route in Skype Empresarial](create-or-modify-a-voice-route.md).
 
      - Para editar una ruta que ya esté asociada con este registro de uso de RTC, resalte la ruta y haga clic en **Mostrar detalles**. Para obtener más información, consulte [Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route).
 
@@ -332,11 +332,11 @@ ms.locfileid: "60828383"
 11. En la página **Directiva de voz**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
 
     > [!NOTE]
-    > Siempre que cree o modifique una directiva de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes](voice-route-config-changes.md) en la configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
+    > Siempre que cree o modifique una directiva de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes en la](voice-route-config-changes.md) configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
 
-12. (Opcional) Escape de correo de voz detecta que el correo de voz del teléfono móvil del usuario atendió inmediatamente una llamada y desconecta la llamada al correo de voz del teléfono móvil. Esto permite que la llamada siga sonando en los otros puntos de conexión del usuario, lo que da al usuario la oportunidad de responder a la llamada. Para obtener información detallada sobre cómo configurar una directiva de correo de voz, vea [Configure voice mail escape in Skype Empresarial](configure-voice-mail-escape.md).
+12. (Opcional) Escape de correo de voz detecta que el correo de voz del teléfono móvil del usuario atendió inmediatamente una llamada y desconecta la llamada al correo de voz del teléfono móvil. Esto permite que la llamada siga sonando en los otros puntos de conexión del usuario, lo que da al usuario la oportunidad de responder a la llamada. Para obtener más información sobre cómo configurar una directiva de correo de voz, vea [Configure voice mail escape in Skype Empresarial](configure-voice-mail-escape.md).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Ver registros de uso de RTC en Skype Empresarial](view-pstn-usage-records.md)
 

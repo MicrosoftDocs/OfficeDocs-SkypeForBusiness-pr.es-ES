@@ -1,7 +1,7 @@
 ---
 title: Notificaciones de prioridad en Teams mensajería
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: salu
 ms.topic: reference
@@ -20,17 +20,17 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información sobre las notificaciones de prioridad en Microsoft Teams mensajes.
-ms.openlocfilehash: 3411942dfed63f9e435e7900a13723ea86d294cf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7144f52fb0795acffbe755ba0ce1e600dbc24d56
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851764"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387508"
 ---
 # <a name="messaging-policies-licensing"></a>Licencias de directivas de mensajería
 
 Estamos escuchando a clientes de todo el mundo cómo la pandemia de COVID-19 (Coronavirus) ha creado nuevos desafíos a medida que trabajan para controlar turnos drásticos en sus operaciones diarias. Poder conectarse de forma directa y rápida con sus compañeros de equipo durante las condiciones de cambio rápido es esencial para mantener la continuidad empresarial durante la respuesta a la crisis y para que muchos de nosotros regresemos al lugar de trabajo.
 
-Anunciadas originalmente en junio de [](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) 2019, las notificaciones de prioridad para Microsoft Teams conceden a los usuarios la posibilidad de enviar continuamente notificaciones que se repiten cada dos minutos durante un máximo de 20 minutos en todos los mensajes marcados como urgentes. Las notificaciones de prioridad se habían puesto a disposición de todos los Teams hasta la segunda mitad de 2020.
+Anunciadas originalmente en junio de 2019[, las](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) notificaciones de prioridad para Microsoft Teams conceden a los usuarios la posibilidad de enviar continuamente notificaciones que se repiten cada dos minutos durante un máximo de 20 minutos en todos los mensajes marcados como urgentes. Las notificaciones de prioridad se habían puesto a disposición de todos los Teams hasta la segunda mitad de 2020.
 
-A partir de ahora, hemos finalizado esta promoción y hemos puesto las notificaciones de prioridad disponibles para todos los Teams clientes como una funcionalidad básica. Los usuarios ahora podrán enviar y recibir mensajes urgentes ilimitados con notificación de prioridad. [Obtenga más información sobre cómo administrar las notificaciones de prioridad.](../messaging-policies-in-teams.md)
+A partir de ahora, hemos finalizado esta promoción y hemos puesto las notificaciones de prioridad disponibles para todos los Teams clientes como una funcionalidad básica. Los usuarios ahora podrán enviar y recibir mensajes urgentes ilimitados con notificación de prioridad. [Obtenga más información sobre cómo administrar las notificaciones de prioridad](../messaging-policies-in-teams.md).

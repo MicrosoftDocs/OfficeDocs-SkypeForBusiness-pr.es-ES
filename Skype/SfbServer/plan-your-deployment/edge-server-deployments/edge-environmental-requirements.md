@@ -1,8 +1,8 @@
 ---
 title: Requisitos del entorno del servidor perimetral en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Summary: Learn about the environmental requirements for Edge Server in Skype Empresarial Server.'
-ms.openlocfilehash: ce545b6d8242db34a716d386fdca9149c0296a8c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6594b76a66aab6354db516f1223059fe09caf82
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830814"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387978"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Requisitos del entorno del servidor perimetral en Skype Empresarial Server
  
@@ -40,7 +40,7 @@ Debe tener lugar una gran cantidad de planeación y preparación fuera del entor
 ## <a name="topology-planning"></a>Planeación de topologías
 <a name="TopoPlan"> </a>
 
-Skype Empresarial Server Las topologías de servidor perimetral pueden usar:
+Skype Empresarial Server las topologías del servidor perimetral pueden usar:
   
 - Direcciones IP públicas enrutables.
     
@@ -87,7 +87,7 @@ Para ayudarle a elegir uno, tenemos la siguiente tabla que proporciona un resume
 |Perímetro consolidado escalado con direcciones IP públicas (carga dns equilibrada)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí&sup1;  <br/> |
 |Perimetral consolidado escalado con equilibradores de carga de hardware  <br/> |Sí  <br/> |No (un registro A DNS por VIP)  <br/> |Sí  <br/> |Sí  <br/> |
    
-&sup1; Exchange La conmutación por error de usuarios remotos de mensajería unificada (MU) mediante equilibrio de carga DNS Exchange 2013 o posterior.
+&sup1; Exchange la conmutación por error de usuarios remotos de mensajería unificada (MU) mediante equilibrio de carga DNS requiere Exchange 2013 o posterior.
   
 ### <a name="ip-address-requirements"></a>Requisitos de dirección IP
 
@@ -118,13 +118,13 @@ Puede ser un poco más complicado con topologías consolidadas a escala, por lo 
    
 Echemos un vistazo a algunas cosas adicionales en las que pensar durante la planeación.
   
-- **Alta disponibilidad:** si necesita alta disponibilidad en la implementación, debe implementar al menos dos servidores perimetrales en un grupo de servidores. Vale la pena tener en cuenta que un solo grupo de servidores perimetrales admitirá hasta 12 servidores perimetrales (aunque el Generador de topologías te permitirá agregar hasta 20, que no se prueban ni admiten, por lo que te recomendamos que no lo hagas). Si necesita más de 12 servidores perimetrales, debe crear grupos de servidores perimetrales adicionales para ellos.
+- **Alta disponibilidad**: si necesita alta disponibilidad en la implementación, debe implementar al menos dos servidores perimetrales en un grupo de servidores. Vale la pena tener en cuenta que un solo grupo de servidores perimetrales admitirá hasta 12 servidores perimetrales (aunque el Generador de topologías te permitirá agregar hasta 20, que no se prueban ni admiten, por lo que te recomendamos que no lo hagas). Si necesita más de 12 servidores perimetrales, debe crear grupos de servidores perimetrales adicionales para ellos.
     
-- **Equilibrio de carga de hardware:** se recomienda el equilibrio de carga dns para la mayoría de los escenarios. El equilibrio de carga de hardware también es compatible, por supuesto, pero, sobre todo, es necesario para un único escenario sobre el equilibrio de carga dns:
+- **Equilibrio de carga de hardware**: se recomienda el equilibrio de carga dns para la mayoría de los escenarios. El equilibrio de carga de hardware también es compatible, por supuesto, pero, sobre todo, es necesario para un único escenario sobre el equilibrio de carga dns:
     
   - Acceso externo a Exchange 2007 o Exchange 2010 (sin SP) Mensajería unificada (MU).
     
-- **Equilibrio de carga DNS:** para la mensajería unificada, Exchange 2010 SP1 y versiones posteriores pueden ser compatibles con el equilibrio de carga dns. Tenga en cuenta que si necesita ir con el equilibrio de carga DNS para una versión anterior de Exchange, funcionará, pero todo el tráfico para esto irá al primer servidor del grupo y, si no está disponible, ese tráfico producirá un error posterior.
+- **Equilibrio de carga dns**: para la mensajería unificada, Exchange 2010 SP1 y versiones posteriores pueden ser compatibles con el equilibrio de carga DNS. Tenga en cuenta que si necesita ir con el equilibrio de carga DNS para una versión anterior de Exchange, funcionará, pero todo el tráfico para esto irá al primer servidor del grupo y, si no está disponible, ese tráfico producirá un error posterior.
     
     También se recomienda el equilibrio de carga dns si está federando con empresas que usan:
 - Skype Empresarial Server 2015:
@@ -175,18 +175,18 @@ Las conferencias web y las direcciones IP públicas perimetrales A/V son direcci
 > [!TIP]
 >Aquí hay otras configuraciones posibles:
   
-- Puede usar una dirección IP en el adaptador de red externo. No se recomienda esto porque, a continuación, tendrá que diferenciar entre los servicios de ti usando diferentes puertos (que puede hacer en Skype Empresarial Server), pero hay algunos firewalls que pueden bloquear los puertos alternativos. Consulta la [sección Planeación de puertos](edge-environmental-requirements.md#PortFirewallPlan) y firewalls para obtener más información sobre esto.
+- Puede usar una dirección IP en el adaptador de red externo. No se recomienda esto porque, a continuación, tendrá que diferenciar entre los servicios de ti usando diferentes puertos (que puede hacer en Skype Empresarial Server), pero hay algunos firewalls que pueden bloquear los puertos alternativos. Consulta la [sección Planeación de puertos y firewalls](edge-environmental-requirements.md#PortFirewallPlan) para obtener más información sobre esto.
     
 - Puede tener tres adaptadores de red externos en lugar de uno y asignar una de las direcciones IP de servicio a cada uno. ¿Por qué hacerlo? Separaría los servicios y, si algo sale mal, esto facilitaría la solución de problemas y podría permitir que los demás servicios sigan funcionando mientras resuelve un problema.
     
-|**Location**|**Tipo**|**Port**|**Registro DNS o FQDN**|**Dirección IP o FQDN**|**Notas**|
+|**Location**|**Tipo**|**Puerto**|**Registro DNS o FQDN**|**Dirección IP o FQDN**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|DNS externo  <br/> |Un registro  <br/> |ND  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 <br/> **private:** 10.45.16.10 <br/> |Una interfaz externa para el servicio perimetral de acceso. Necesitará uno para cada dominio SIP con Skype Empresarial usuarios.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |N/D  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 <br/> **private:** 10.45.16.10 <br/> |Una interfaz externa para el servicio perimetral de acceso. Necesitará uno para cada dominio SIP con Skype Empresarial usuarios.  <br/> |
 |DNS externo  <br/> |Un registro  <br/> |ND  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 <br/> **private:** 10.45.16.20 <br/> |Una interfaz externa para el servicio perimetral de conferencia web.  <br/> |
 |DNS externo  <br/> |Un registro  <br/> |ND  <br/> |av.contoso.com  <br/> |**public:** 131.107.155.30 <br/> **private:** 10.45.16.30 <br/> |Una interfaz externa para el servicio perimetral A/V.  <br/> |
 |DNS externo  <br/> |registro SRV  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para el servicio perimetral de acceso. Este registro SRV es necesario para que los Skype Empresarial Server, Lync Server 2013 y Lync Server 2010 funcionen externamente. Necesitará uno para cada dominio con Skype Empresarial usuarios.  <br/> |
 |DNS externo  <br/> |registro SRV  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para el servicio perimetral de acceso. Este registro SRV es necesario para la detección automática de DNS de socios federados denominados dominios SIP permitidos. Necesitará uno para cada dominio con Skype Empresarial usuarios.  <br/> |
-|DNS interno  <br/> |Un registro  <br/> |ND  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10  <br/> |La interfaz interna del servidor perimetral consolidado.  <br/> |
+|DNS interno  <br/> |Un registro  <br/> |N/D  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10  <br/> |La interfaz interna del servidor perimetral consolidado.  <br/> |
    
 ### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>Registros DNS para escenarios de servidor perimetral de hardware y DNS escalado
 
@@ -249,28 +249,28 @@ Estos serán los registros DNS que necesitará para un servidor perimetral singe
     
 Aquí hay otras configuraciones posibles:
   
-- Puede usar una dirección IP en el adaptador de red externo. No se recomienda esto porque, a continuación, tendrá que diferenciar entre los servicios de ti usando diferentes puertos (que puede hacer en Skype Empresarial Server), pero hay algunos firewalls que pueden bloquear los puertos alternativos. Consulta la [sección Planeación de puertos](edge-environmental-requirements.md#PortFirewallPlan) y firewalls para obtener más información sobre esto.
+- Puede usar una dirección IP en el adaptador de red externo. No se recomienda esto porque, a continuación, tendrá que diferenciar entre los servicios de ti usando diferentes puertos (que puede hacer en Skype Empresarial Server), pero hay algunos firewalls que pueden bloquear los puertos alternativos. Consulta la [sección Planeación de puertos y firewalls](edge-environmental-requirements.md#PortFirewallPlan) para obtener más información sobre esto.
     
 - Puede tener tres adaptadores de red externos en lugar de uno y asignar una de las direcciones IP de servicio a cada uno. ¿Por qué hacerlo? Separaría los servicios y, si algo sale mal, esto facilitaría la solución de problemas y podría permitir que los demás servicios sigan funcionando mientras resuelve un problema.
     
-|**Location**|**Tipo**|**Port**|**Registro DNS o FQDN**|**Dirección IP o FQDN**|**Notas**|
+|**Location**|**Tipo**|**Puerto**|**Registro DNS o FQDN**|**Dirección IP o FQDN**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externo  <br/> |Un registro  <br/> |ND  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 y 131.107.155.11 <br/> **private:** 10.45.16.10 y 10.45.16.11 <br/> |Una interfaz externa para el servicio perimetral de acceso. Necesitará uno para cada dominio SIP con Skype Empresarial usuarios.  <br/> |
-|DNS externo  <br/> |Un registro  <br/> |ND  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 y 131.107.155.21 <br/> **private:** 10.45.16.20 y 10.45.16.21 <br/> |Una interfaz externa para el servicio perimetral de conferencia web.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |N/D  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 y 131.107.155.21 <br/> **private:** 10.45.16.20 y 10.45.16.21 <br/> |Una interfaz externa para el servicio perimetral de conferencia web.  <br/> |
 |DNS externo  <br/> |Un registro  <br/> |ND  <br/> |av.contoso.com  <br/> |**public:** 131.107.155.30 y 131.107.155.31 <br/> **private:** 10.45.16.30 y 10.45.16.31 <br/> |Una interfaz externa para el servicio perimetral A/V.  <br/> |
 |DNS externo  <br/> |registro SRV  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para el servicio perimetral de acceso. Este registro SRV es necesario para que los Skype Empresarial Server, Lync Server 2013 y Lync Server 2010 funcionen externamente. Necesitará uno para cada dominio con Skype Empresarial.  <br/> |
 |DNS externo  <br/> |registro SRV  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para el servicio perimetral de acceso. Este registro SRV es necesario para la detección automática de DNS de socios federados denominados dominios SIP permitidos. Necesitará uno para cada dominio con Skype Empresarial.  <br/> |
-|DNS interno  <br/> |Un registro  <br/> |ND  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10 y 172.25.33.11  <br/> |La interfaz interna del servidor perimetral consolidado.  <br/> |
+|DNS interno  <br/> |Un registro  <br/> |N/D  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10 y 172.25.33.11  <br/> |La interfaz interna del servidor perimetral consolidado.  <br/> |
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>Registro DNS para federación (todos los escenarios)
 
-|**Location**|**Tipo**|**Port**|**FQDN**|**Registro de host FQDN**|**Notas**|
+|**Location**|**Tipo**|**Puerto**|**FQDN**|**Registro de host FQDN**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externo  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |La interfaz externa perimetral de acceso SIP necesaria para la detección automática de DNS. Usado por los demás socios de federación potenciales. También se conoce como "Permitir dominios SIP". Necesitará uno de estos para cada dominio SIP con Skype Empresarial usuarios.  <br/><br/> **Nota:** Necesitará este registro SRV para movilidad y la cámara de compensación de notificaciones de inserción. <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>Registros DNS para mensajería extensible y protocolo de presencia
 
-|**Location**|**Tipo**|**Port**|**FQDN**|**Dirección IP o registro de host FQDN**|**Notas**|
+|**Location**|**Tipo**|**Puerto**|**FQDN**|**Dirección IP o registro de host FQDN**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |DNS externo  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |La interfaz de proxy XMPP en el servicio perimetral de acceso o el grupo de servidores perimetrales. Debe repetir esto según sea necesario para todos los dominios SIP internos con Skype Empresarial Server usuarios habilitados, donde se permite el contacto con contactos XMPP a través de:  <br/> • una directiva global  <br/> • una directiva de sitio donde el usuario está habilitado  <br/> • una directiva de usuario aplicada al usuario Skype Empresarial Server habilitado  <br/> Una directiva XMPP permitida también debe configurarse en la directiva de usuarios federados XMPP.  <br/> |
 |DNS externo  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |Dirección IP del servicio perimetral de acceso en el servidor perimetral o grupo de servidores perimetrales que hospeda el servicio de proxy XMPP  <br/> |Esto apunta al servicio perimetral de acceso en el servidor perimetral o grupo de servidores perimetrales que hospeda el servicio proxy XMPP. Normalmente, el registro SRV que cree apuntará a este registro host (A o AAAA).  <br/> |
@@ -316,11 +316,11 @@ Para la interfaz interna del servidor perimetral, puede usar un certificado púb
 
 Tenemos una tabla aquí para ayudarle con sus solicitudes. Las entradas FQDN aquí son solo para dominios de ejemplo. Tendrá que realizar solicitudes en función de sus propios dominios públicos y privados, pero esta es una guía de lo que hemos usado:
   
-- contoso <span></span> .com: FQDN público
+- contoso.com<span></span>: FQDN público
     
-- fabrikam .com: Segundo FQDN público (agregado como una demostración de lo que se va <span></span> a solicitar si tiene varios dominios SIP)
+- fabrikam.com<span></span>: Segundo FQDN público (agregado como una demostración de lo que se va a solicitar si tiene varios dominios SIP)
     
-- Contoso <span></span> .net: dominio interno
+- Contoso.net<span></span>: dominio interno
     
 #### <a name="edge-certificate-table"></a>Tabla certificado perimetral
 
@@ -333,9 +333,9 @@ Independientemente de si está haciendo un solo servidor perimetral o un grupo d
    
 Si necesita un certificado para el Protocolo extensible de mensajería y presencia (XMPP), tendrá un aspecto idéntico a las entradas de tabla perimetral externa anteriores, pero tendrá las dos entradas san adicionales siguientes:
   
-- xmpp. <span></span> contoso <span></span> .com
+- xmpp.<span></span> contoso.com<span></span>
     
-- \*.contoso <span></span> .com
+- \*.contoso.com<span></span>
     
 Recuerde que actualmente XMPP solo es compatible con Skype Empresarial Server para Google Talk, si desea o necesita usarlo para cualquier otra cosa, debe confirmar esa funcionalidad con el proveedor de terceros implicado.
   
@@ -355,7 +355,7 @@ Antes de examinar las tablas de resumen de firewalls externos e internos, vamos 
    
 ### <a name="external-port-firewall-summary-table"></a>Tabla de resumen de firewall de puerto externo
 
-La dirección IP de origen y la dirección IP de destino contendrán información para los usuarios que usan direcciones IP privadas con NAT, así como las personas que usan direcciones IP públicas. Esto cubrirá todas las permutaciones en nuestros [escenarios](scenarios.md) de servidor perimetral en Skype Empresarial Server sección.
+La dirección IP de origen y la dirección IP de destino contendrán información para los usuarios que usan direcciones IP privadas con NAT, así como las personas que usan direcciones IP públicas. Esto cubrirá todas las permutaciones en nuestros escenarios de servidor perimetral [en Skype Empresarial Server](scenarios.md) sección.
   
 |**Rol o protocolo**|**TCP o UDP**|**Puerto de destino o intervalo de puertos**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -376,7 +376,7 @@ La dirección IP de origen y la dirección IP de destino contendrán informació
    
 ### <a name="internal-port-firewall-summary-table"></a>Tabla de resumen del firewall de puerto interno
 
-|**Protocolo**|**TCP o UDP**|**Port**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
+|**Protocolo**|**TCP o UDP**|**Puerto**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Cualquiera de los siguientes procedimientos para ejecutar el servicio de puerta de enlace XMPP:  <br/> • Servidor front-end  <br/> • Grupo de servidores front-end  <br/> |Interfaz interna del servidor perimetral  <br/> |Tráfico XMPP saliente desde el servicio de puerta de enlace XMPP que se ejecuta en el servidor front-end o grupo de servidores front-end.  <br/> **Nota:** Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype Empresarial Server 2015, pero ya no se admiten en Skype Empresarial Server 2019. Consulte [Migración de federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obtener más información.|
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Cualquiera:  <br/> • Director  <br/> • Grupo de directores  <br/> • Servidor front-end  <br/> • Grupo de servidores front-end  <br/> |Interfaz interna del servidor perimetral  <br/> |Tráfico SIP saliente desde el director, el grupo de directores, el servidor front-end o el grupo de servidores front-end a la interfaz interna del servidor perimetral.  <br/> |
@@ -396,7 +396,7 @@ Estamos dando a los equilibradores de carga de hardware (HLB) y los puertos peri
   
 #### <a name="external-port-firewall-summary-table"></a>Tabla de resumen de firewall de puerto externo
 
-La dirección IP de origen y la dirección IP de destino contendrán información para los usuarios que usan direcciones IP privadas con NAT, así como las personas que usan direcciones IP públicas. Esto cubrirá todas las permutaciones en nuestros [escenarios](scenarios.md) de servidor perimetral en Skype Empresarial Server sección.
+La dirección IP de origen y la dirección IP de destino contendrán información para los usuarios que usan direcciones IP privadas con NAT, así como las personas que usan direcciones IP públicas. Esto cubrirá todas las permutaciones en nuestros escenarios de servidor perimetral [en Skype Empresarial Server](scenarios.md) sección.
   
 |**Rol o protocolo**|**TCP o UDP**|**Puerto de destino o intervalo de puertos**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -412,7 +412,7 @@ La dirección IP de origen y la dirección IP de destino contendrán informació
    
 #### <a name="internal-port-firewall-summary-table"></a>Tabla de resumen del firewall de puerto interno
 
-|**Protocolo**|**TCP o UDP**|**Port**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
+|**Protocolo**|**TCP o UDP**|**Puerto**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Cualquiera de los siguientes procedimientos para ejecutar el servicio de puerta de enlace XMPP:  <br/> • Servidor front-end  <br/> • Dirección VIP del grupo de servidores front-end que ejecuta el servicio de puerta de enlace XMPP  <br/> |Interfaz interna del servidor perimetral  <br/> |Tráfico XMPP saliente desde el servicio de puerta de enlace XMPP que se ejecuta en el servidor front-end o grupo de servidores front-end.  <br/><br/> **Nota:** Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype Empresarial Server 2015, pero ya no se admiten en Skype Empresarial Server 2019. Consulte [Migración de federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obtener más información. |
 |HTTPS  <br/> |TCP  <br/> |4443  <br/> |Cualquiera:  <br/> • Servidor front-end que contiene el almacén de administración central  <br/> • Grupo de servidores front-end que contiene el almacén de administración central  <br/> |Interfaz interna del servidor perimetral  <br/> |Replicación de cambios desde el almacén de administración central al servidor perimetral.  <br/> |
@@ -446,7 +446,7 @@ Nuestra guía aquí va a ser un poco diferente. En realidad, en una situación d
     
 En la tabla siguiente se proporcionan instrucciones para esos escenarios, pero de lo contrario, debería poder depender del almacén de administración central (CMS) para enrutar el tráfico al servidor perimetral individual que conoce (esto requiere que CMS esté actualizado en la información del servidor perimetral, por supuesto).
   
-|**Protocolo**|**TCP o UDP**|**Port**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
+|**Protocolo**|**TCP o UDP**|**Puerto**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Cualquiera:  <br/> • Director  <br/> • Dirección VIP del grupo de directores  <br/> • Servidor front-end  <br/> • Dirección VIP del grupo de servidores front-end  <br/> |Interfaz interna del servidor perimetral  <br/> |Tráfico SIP saliente desde el director, la dirección VIP del grupo de directores, el servidor front-end o la dirección VIP del grupo de servidores front-end a la interfaz interna del servidor perimetral.  <br/> |
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Interfaz VIP interna del servidor perimetral  <br/> |Cualquiera:  <br/> • Director  <br/> • Dirección VIP del grupo de directores  <br/> • Servidor front-end  <br/> • Dirección VIP del grupo de servidores front-end  <br/> |Tráfico SIP entrante a su director, dirección VIP del grupo de directores, servidor front-end o dirección VIP del grupo de servidores front-end desde la interfaz interna del servidor perimetral.  <br/> |

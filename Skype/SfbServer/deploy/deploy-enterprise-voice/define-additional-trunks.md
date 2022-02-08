@@ -1,8 +1,8 @@
 ---
 title: Definir troncos adicionales en el Generador de topologías en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 'Summary: Learn how to define an additional trunk between a Mediation Server and a gateway peer in Topology Builder in Skype Empresarial Server.'
-ms.openlocfilehash: 9e9927e4e62590ae9e901ed090ecfd80cc64533b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d490033f8efff1176fe9cca1fc7cbd7582e5e126
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857947"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388902"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Definir troncos adicionales en el Generador de topologías en Skype Empresarial Server
  
@@ -36,31 +36,31 @@ Un tronco es una conexión lógica entre un servidor de mediación y una puerta 
   
 ### <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>Para definir un tronco adicional entre un servidor de mediación y un punto de enlace
 
-1. Iniciar generador de topologías: haga clic en Inicio **,** todos los **programas,** haga clic en **Skype Empresarial Server 2015** y, a continuación, haga clic en **Skype Empresarial Server 2015Topology Builder**.
+1. Iniciar generador de topologías: haga clic en **Inicio, en** Todos los **programas, en** **Skype Empresarial Server 2015** y, a continuación, en Skype Empresarial Server **generador de 2015Topology**.
     
-2. En Skype Empresarial Server, el nombre del sitio, **Componentes compartidos**, haga clic con el botón secundario en el **nodo Troncos** y, a continuación, haga clic **en Nuevo tronco**.
+2. En Skype Empresarial Server, el nombre del sitio, **Componentes** compartidos, haga clic con el botón secundario en el **nodo Troncos** y, a continuación, haga clic **en Nuevo tronco**.
    1. En **Definir nuevo tronco**, escriba un nombre descriptivo para identificar con exclusividad el tronco. Dos troncos no pueden tener el mismo nombre.
     
       > [!NOTE]
       > Si especifica Seguridad de la capa de transporte (TLS) como tipo de transporte, debe especificar el FQDN en lugar de la dirección IP del mismo nivel del servidor de mediación. 
   
 3. En **Puerta de enlace PSTN asociada**, seleccione la puerta de enlace de mismo nivel PSTN para asociarla a este tronco.
-    5. En Puerto de escucha para puerta de enlace **RTC**, escriba el puerto de escucha que el mismo nivel (puerta de enlace RTC, IP-PBX o SBC) recibirá mensajes SIP del servidor de mediación que se va a asociar a este tronco. Los puertos de mismo nivel habituales son 5066 para el protocolo de control de transmisiones (TCP) y 5067 para la seguridad de la capa de transporte (TLS). Los puertos predeterminados de aplicación de sucursal con funciones de supervivencia son 5081 para TCP y 5082 para TLS.
+    5. En **Puerto** de escucha para puerta de enlace RTC, escriba el puerto de escucha que el mismo nivel (puerta de enlace RTC, IP-PBX o SBC) recibirá mensajes SIP del servidor de mediación que se va a asociar a este tronco. Los puertos de mismo nivel habituales son 5066 para el protocolo de control de transmisiones (TCP) y 5067 para la seguridad de la capa de transporte (TLS). Los puertos predeterminados de aplicación de sucursal con funciones de supervivencia son 5081 para TCP y 5082 para TLS.
     
 4. En **Protocolo de transporte SIP**, haga clic en el tipo de transporte que usa el punto.
     
     > [!NOTE]
     > Por motivos de seguridad, le recomendamos encarecidamente que implemente un servidor del mismo nivel en el servidor de mediación que pueda usar TLS. 
   
-5. En **Servidor de mediación asociado,** seleccione el grupo de servidores de mediación que desea asociar con el tronco raíz de este mismo nivel
+5. En **Servidor de mediación asociado**, seleccione el grupo de servidores de mediación que se va a asociar al tronco raíz de este mismo nivel.
     
-6. En **Puerto del servidor de mediación** asociado , escriba el puerto de escucha que el servidor de mediación recibirá mensajes SIP del mismo nivel.
+6. En **Puerto del servidor de mediación** asociado, escriba el puerto de escucha que el servidor de mediación recibirá mensajes SIP del mismo nivel.
     
     > [!NOTE]
-    > Con la compatibilidad con varios troncos en Skype Empresarial Server, dos troncos  con nombres de tronco diferentes no se pueden configurar con el mismo puerto de servidor de mediación asociado y puerto de escucha para la puerta de enlace **IP/RTC**
+    > Con la compatibilidad con varios troncos en Skype Empresarial Server, dos troncos con nombres de tronco diferentes no se pueden configurar con  el mismo puerto de servidor de mediación asociado y puerto de escucha para la puerta de enlace **IP/RTC**
   
     > [!NOTE]
-    > Con la compatibilidad con varios troncos Skype Empresarial Server, se pueden definir varios puertos de señalización SIP en el servidor de mediación para la comunicación con varios sistemas del mismo nivel. Al definir un tronco, **el** número de puerto del servidor de mediación asociado debe estar dentro del intervalo de puertos de escucha para el protocolo respectivo permitido por el servidor de mediación. Este intervalo de puertos se define en Skype Empresarial Server y grupos de servidores de mediación. Haga clic con el botón secundario en el grupo de servidores de mediación correspondiente y seleccione **Editar propiedades**. Especifique el intervalo de puertos en el campo **Puertos de escucha**.
+    > Con la compatibilidad con varios troncos Skype Empresarial Server, se pueden definir varios puertos de señalización SIP en el servidor de mediación para la comunicación con varios sistemas del mismo nivel. Al definir un tronco **, el número** de puerto del servidor de mediación asociado debe estar dentro del intervalo de puertos de escucha para el protocolo respectivo permitido por el servidor de mediación. Este intervalo de puertos se define en Skype Empresarial Server y grupos de servidores de mediación. Haga clic con el botón secundario en el grupo de servidores de mediación correspondiente y seleccione **Editar propiedades**. Especifique el intervalo de puertos en el campo **Puertos de escucha**.
   
 7. Haga clic en **Aceptar**. 
     

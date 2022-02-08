@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito de puerta de enlace RTC
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 description: 'El nodo Puertas de enlace RTC contiene las puertas de enlace de red telefónica conmutada (RTC) de la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 2fc89412cdd6e18651c0cf41582697ae0306c84e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 837dbd7c59d34c5498c4043ce401e6279af682a4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832184"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385818"
 ---
 # <a name="pstn-gateways-scope-node"></a>Nodo de ámbito de puerta de enlace RTC
  

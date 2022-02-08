@@ -1,8 +1,8 @@
 ---
 title: Definir los elementos de red usados para determinar la ubicación en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: Decisiones necesarias para planear los componentes de red que usará para asignar autores de llamadas a ubicaciones para la implementación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 6de3d960dd68dfc0f34ce0e67fef569c36e44612
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2ec6f249bc1b502d26a98d67842ab8b7a1eaccc3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861117"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386418"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Definir los elementos de red usados para determinar la ubicación en Skype Empresarial Server
  
@@ -48,7 +48,7 @@ En las secciones siguientes se proporcionan más detalles para usar cada element
   
 ## <a name="wireless-access-point"></a>Punto de acceso inalámbrico
 
-Cuando un cliente se conecta a la red de forma inalámbrica, la solicitud de ubicación usa la dirección BSSID del WAP para determinar su ubicación. Si el cliente está en itinerancia, el WAP indicado puede no ser el más cercano e incluso es posible elegir un WAP que se encuentra en un piso diferente del edificio. Para indicar que la ubicación es aproximada, puede anteponer el valor de ubicación con un descriptor **[Near]** o **[Closeto].**
+Cuando un cliente se conecta a la red de forma inalámbrica, la solicitud de ubicación usa la dirección BSSID del WAP para determinar su ubicación. Si el cliente está en itinerancia, el WAP indicado puede no ser el más cercano e incluso es posible elegir un WAP que se encuentra en un piso diferente del edificio. Para indicar que la ubicación es aproximada, puede anteponer el valor de ubicación con un descriptor **[Near]** o **[Closeto** ].
   
 Este método de ubicación supone que el BSSID de cada WAP es estático. Sin embargo, si el proveedor wap usa SSID asignados dinámicamente, el BSSID que se obtiene de un WAP podría cambiar (esto puede ocurrir después de un cambio de configuración wap) y los clientes inalámbricos podrían quedar en una situación en la que no reciben una ubicación. Para evitar esta posibilidad, debe rellenar la base de datos del servicio de información de ubicación con LASR para todas las direcciones BSSID posibles usadas por cada WAP. 
   

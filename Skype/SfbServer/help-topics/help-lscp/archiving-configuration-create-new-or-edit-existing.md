@@ -1,8 +1,8 @@
 ---
 title: Configuración de archivado Crear nuevo o editar existente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 'Las configuraciones de archivado se usan para controlar las opciones de archivado de la implementación. Las configuraciones de archivado incluyen la configuración global y, de forma opcional, una o varias configuraciones de sitio y grupo:'
-ms.openlocfilehash: 1de397f6cefb8827e664cfe20bf169151c763049
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3dfeace1bf5f8243e1ee82c76021864ec51182fb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838832"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384798"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuración de archivado: Crear nuevos o editar los existentes
  
@@ -54,7 +54,7 @@ Para configurar los ajustes para una nueva configuración de archivado o una exi
     
   - **Deshabilitar archivado**
     
-- **Bloquear sesiones de mensajería instantánea (MI)** o conferencia web si se produce un error en el archivado Entre los errores se incluyen los siguientes:
+- **Bloquear sesiones de mensajería instantánea (MI) o conferencia web si se produce un error en el archivado** Entre los errores se incluyen los siguientes:
     
   - **MI** Un error podría ser una base de datos completa o un problema con el servicio de almacenamiento. En este caso, la mensajería instantánea se bloquea para usuarios que tienen el archivado habilitado.
     
@@ -73,5 +73,5 @@ Para configurar los ajustes para una nueva configuración de archivado o una exi
     > [!NOTE]
     > Si habilita la integración de Microsoft Exchange, la depuración para los usuarios que se alojen en Exchange 2013 y con sus buzones en In-Place la retención se controla mediante Exchange. La única excepción es para los archivos de conferencia, que se almacenan en el recurso compartido de archivos de Lync Server. Estos archivos se purgan del recurso compartido de solo después de que los archivos se hayan exportado (cargado a Exchange), si selecciona la opción para purgar datos después de que se exporten los datos de archivado o después de un número máximo especificado de días, si especifica un número máximo de días para la retención. 
   
-Para obtener más información sobre la característica y las funcionalidades de archivado, incluida la integración de Exchange, vea [Plan for archiving in Skype Empresarial Server 2015](../../plan-your-deployment/archiving/archiving.md), Deploy archiving for Skype Empresarial Server [2015](../../deploy/deploy-archiving/deploy-archiving.md)y [Manage archiving in Skype Empresarial Server 2015](../../manage/archiving/archiving.md).
+Para obtener más información sobre la característica y las funcionalidades de archivado, incluida la integración de Exchange, vea [Plan for archiving in Skype Empresarial Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype Empresarial Server 2015](../../deploy/deploy-archiving/deploy-archiving.md) y [Manage archiving in Skype Empresarial Server  2015](../../manage/archiving/archiving.md).
 

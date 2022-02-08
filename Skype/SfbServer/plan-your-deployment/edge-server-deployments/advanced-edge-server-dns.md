@@ -1,8 +1,8 @@
 ---
 title: Planear la implementación avanzada del servidor perimetral para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: Revise los escenarios Skype Empresarial Server de implementación, tanto si desea un solo servidor como si prefiere un grupo de servidores con DNS o HLB.
-ms.openlocfilehash: 5fa829bf805529792abb408cd6716e2948dd69ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6d2b0e53e3b0b94f19cdac70399a0bb512822cb8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842773"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387988"
 ---
 # <a name="plan-advanced-edge-server-deployment-for-skype-for-business-server"></a>Planear la implementación avanzada del servidor perimetral para Skype Empresarial Server
  
@@ -79,9 +79,9 @@ El servicio de detección automática siempre se favorece, ya que es el método 
   
 Si estás inclinado a hacerlo, puedes configurar el dispositivo móvil para la detección manual de servicios. Si eso es lo que está buscando hacer, cada usuario debe configurar la configuración de su dispositivo móvil con los URI completos del servicio de detección automática internos y externos, incluidos el protocolo y la ruta de acceso, de la siguiente manera:
   
-- Para el acceso externo: https:// \<ExtPoolFQDN\> /Autodiscover/autodiscoverservice.svc/Root
+- Para el acceso externo: https://\<ExtPoolFQDN\>/Autodiscover/autodiscoverservice.svc/Root
     
-- Para el acceso interno: https:// \<IntPoolFQDN\> /AutoDiscover/AutoDiscover.svc/Root
+- Para el acceso interno: https://\<IntPoolFQDN\>/AutoDiscover/AutoDiscover.svc/Root
     
 Se recomienda usar la detección automática en lugar de la detección manual. Pero si estás realizando algunas pruebas o solución de problemas, la configuración manual puede ser muy útil.
   
@@ -106,15 +106,15 @@ Enumeraremos los registros DNS de las zonas internas y externas aquí, pero enco
     
   - Registros DNS A y AAAA (si usa el direccionamiento IPv6) para la interfaz interna perimetral para cada servidor perimetral Skype Empresarial Server de la red perimetral.
     
-  - Los registros DNS A y AAAA (si usa el direccionamiento IPv6) para la interfaz  interna de cada servidor proxy inverso de la red perimetral (que es opcional para la administración de un proxy inverso).
+  - Los registros DNS A y AAAA (si usa el direccionamiento IPv6) para la interfaz interna de cada servidor proxy inverso de la red perimetral (que es opcional para  la administración de un proxy inverso).
     
-  - Dns A y AAAA (si usa el direccionamiento IPv6) y registros SRV para la configuración automática del cliente de Skype Empresarial Server interno (que es **opcional).**
+  - DNS A y AAAA (si usa el direccionamiento IPv6) y los registros SRV para la configuración automática del cliente Skype Empresarial Server (que es **opcional**).
     
   - Dns A y AAAA (si usa el direccionamiento IPv6) o registros CNAME para la detección automática de Skype Empresarial Server Web Services (que es **opcional** ).
     
 - Todas las Skype Empresarial Server las interfaces perimetrales internas de la red perimetral usan esta zona DNS interna para resolver consultas en contoso.com.
     
-- Todos los servidores que ejecutan Skype Empresarial Server y los clientes que ejecutan Skype Empresarial Server en la red corporativa, apuntan a servidores DNS internos para resolver consultas en contoso.com, o usan el archivo host en cada servidor perimetral y listan registros A y AAAA (si usa direccionamiento IPv6) para el servidor de próximo salto (específicamente para la VIP del grupo de directores o directores , VIP del grupo de servidores front-end o Standard Edition servidor).
+- Todos los servidores que ejecutan Skype Empresarial Server y los clientes que ejecutan Skype Empresarial Server en la red corporativa, apuntan a servidores DNS internos para resolver consultas en contoso.com, o usan el archivo host en cada servidor perimetral y listan registros A y AAAA (si usa direccionamiento IPv6) para el servidor de próximo salto (específicamente para el grupo de directores o directores).  VIP, VIP del grupo front-end o Standard Edition servidor).
     
 ### <a name="external-dns"></a>DNS externo
 
@@ -205,7 +205,7 @@ Por lo tanto, ahora que sabemos todo eso, si necesita requisitos automáticos pa
 
 Para configurar DNS para redirigir Skype Empresarial Server web a los sitios de recuperación ante desastres (DR) y de conmutación por error, debe usar un proveedor dns que admita GeoDNS. Puede configurar los registros DNS para admitir la recuperación ante desastres, de modo que las características que usan servicios web continúen incluso si un grupo de servidores front-end completo cae. Esta característica de recuperación ante desastres admite las direcciones URL sencillas de detección automática, reunión y acceso telefónico.
   
-Defina y configure registros A de host DNS adicionales (AAAA si usa IPv6) para la resolución interna y externa de servicios web en su proveedor de GeoDNS. Los siguientes detalles suponen que los grupos de servidores emparejados, geográficamente dispersos, y que los GeoDNS admitidos por el proveedor tienen **DNS** por turnos o están configurados para usar Pool1 como principal y conmutan por error a Pool2 si hay alguna pérdida de comunicaciones o un error de energía. 
+Defina y configure registros A de host DNS adicionales (AAAA si usa IPv6) para la resolución interna y externa de servicios web en su proveedor de GeoDNS. Los siguientes detalles suponen que los grupos de servidores emparejados, geográficamente dispersos, y que los GeoDNS admitidos por el proveedor **tienen DNS por** turnos o están configurados para usar Pool1 como principal y conmutan por error a Pool2 si hay alguna pérdida de comunicaciones o un error de energía.
   
 Todos los registros DNS de esta tabla son ejemplos.
   

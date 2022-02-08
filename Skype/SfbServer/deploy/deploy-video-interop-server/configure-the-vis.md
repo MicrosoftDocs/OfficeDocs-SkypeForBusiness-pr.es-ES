@@ -1,8 +1,8 @@
 ---
 title: Configurar el servidor de interoperabilidad de vídeo en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Resumen: configure el rol servidor de interoperabilidad de vídeo (VIS) en Skype Empresarial Server.'
-ms.openlocfilehash: 4148cf404fba4718f56c3c8db7ffe180881b3ae7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c6122e27f3b462a69a365259827a394b9b379012
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835818"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389622"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurar el servidor de interoperabilidad de vídeo en Skype Empresarial Server
  
@@ -82,10 +82,10 @@ Los cmdlets Windows PowerShell para la configuración del tronco de vídeo menci
   
  **EnableMediaEncryptionForSipOverTls** Este parámetro habilita o deshabilita SRTP para medios cuando el protocolo SIPTransport está establecido en TLS. El valor predeterminado es **True**. Cuando el protocolo SIPTransport se establece en TCP, esta configuración se omite.
   
- **EnableSessionTimer** Este parámetro habilita o deshabilita los temporizadores de sesión en el lado VIS para cada cuadro de diálogo SIP asociado al tronco SIP de vídeo. El valor predeterminado es **False**.
+ **EnableSessionTimer** Este parámetro habilita o deshabilita los temporizadores de sesión en el lado VIS para cada cuadro de diálogo SIP asociado al tronco SIP de vídeo. El valor predeterminado es **Falso**.
   
  **ForwardErrorCorrectionType** Este parámetro se usa para determinar si la corrección de errores de reenvío (FEC) para secuencias de vídeo se va a aplicar en el tramo entre el servidor de interoperabilidad de vídeo y una puerta de enlace de vídeo. Al establecer ForwardErrorCorrectionType en "None" se desactiva FEC entre VIS y Video Gateway/VTC. Al establecer ForwardErrorCorrectionType en "Cisco" se habilita FEC compatible con las puertas de enlace de vídeo de Cisco, como Cisco Unified Communications Manager (CUCM). El valor predeterminado es **Ninguno**.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar CUCM para interoperación con Skype Empresarial Server](configure-cucm-for-interoperation.md)

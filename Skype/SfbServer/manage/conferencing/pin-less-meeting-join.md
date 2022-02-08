@@ -1,8 +1,8 @@
 ---
 title: Configurar la unión a reuniones sin PIN en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 'Summary: Learn how to configure the PIN-less meeting join option in Skype Empresarial Server.'
-ms.openlocfilehash: 13af671edaa9ab8853e0390d43c62b6576bed4e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 82101f391b4b0713495eade53e092fefff8a053e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861367"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385718"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configurar la unión a reuniones sin PIN en Skype Empresarial Server
  

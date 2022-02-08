@@ -1,8 +1,8 @@
 ---
 title: Número de acceso telefónico local
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1b2c8676-b132-4ba0-a242-a1edf30a3d44
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: f977af95e974d8d037ec755b973363cc643c944d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5c8f35961ca2ef987a86103782a2ca066db12df2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859117"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388478"
 ---
 # <a name="dial-in-access-number"></a>Número de acceso telefónico local
 

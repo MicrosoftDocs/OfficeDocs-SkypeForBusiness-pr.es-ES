@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración general de aplicación de sucursal
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Para editar la configuración de una Aplicación de sucursal con funciones de supervivencia o un Servidor de sucursal con funciones de supervivencia, dispone de las secciones siguientes:'
-ms.openlocfilehash: e5e75965698f8dbbb97098ccadb0a76c5a3babe9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 33670654dbea05f376f3ff7f7501ac37237ab8a7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840102"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386768"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de configuración general de aplicación de sucursal
 
@@ -44,12 +44,12 @@ Puede seleccionar **Usar todas las direcciones IP configuradas** o **Limitar el 
 
 En **Asociaciones**, puede editar o especificar lo siguiente:
 
-- Asociar servidor de archivado permite seleccionar asociar un servidor de archivado con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Para seleccionar un servidor de archivado ya definido, seleccione el servidor en  la lista desplegable o haga clic en Nuevo para especificar un nuevo servidor de archivado.
+- Asociar servidor de archivado permite seleccionar asociar un servidor de archivado con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Para seleccionar un servidor de archivado ya definido, seleccione el servidor en la lista desplegable o haga clic en Nuevo para especificar un  nuevo servidor de archivado.
 
     > [!IMPORTANT]
     > Antes de publicar la topología recién definida, el servidor que especifique debe existir y se debe unir en el dominio.
 
-- Asociar servidor de supervisión permite seleccionar asociar un servidor de supervisión con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Para seleccionar un servidor de supervisión ya definido, seleccione el servidor de  la lista desplegable o haga clic en Nuevo para especificar un nuevo servidor de supervisión.
+- Asociar servidor de supervisión permite seleccionar asociar un servidor de supervisión con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Para seleccionar un servidor de supervisión ya definido, seleccione el servidor de la lista desplegable o haga clic en Nuevo para especificar un  nuevo servidor de supervisión.
 
 - Asociar grupo de servidores perimetrales permite seleccionar asociar un servidor perimetral o grupo de servidores con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Puede seleccionar un servidor perimetral o un grupo de servidores perimetrales que ya estén definidos seleccionándolos en la lista desplegable o hacer clic en **Nuevo** para especificar un servidor perimetral o grupo de servidores perimetrales nuevo.
 
@@ -74,6 +74,6 @@ Defina las puertas de enlace de la RTC que están asociadas con el servidor de m
 
 Si tiene más de una puerta de enlace asociada con el servidor de mediación, la primera puerta de enlace asociada será la predeterminada. Si debe elegir otra puerta de enlace como predeterminada, seleccione la que desee y, a continuación, haga clic en **Convertir en predeterminada**.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 Para más información sobre cómo definir y configurar la Aplicación de sucursal con funciones de supervivencia o el Servidor de sucursal con funciones de supervivencia, consulte [Branch-Site Resiliency Solutions](/previous-versions/office/lync-server-2013/lync-server-2013-branch-site-resiliency-solutions).

@@ -1,8 +1,8 @@
 ---
 title: Edición de configuración del registro de dispositivos
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Puede agregar una configuración de registro de dispositivo a la página Editar configuración de registro, que determina el tamaño de caché de registro máximo o el tiempo de tiempo que se conserva un archivo de registro antes de que se purgue. Puede cambiar esta configuración según los requisitos de su organización.
-ms.openlocfilehash: 6e6278fb44344b99f018f297ecdd1494df846730
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a8d1ac8d85fa08461c8f43688e874371e6cb4f60
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835548"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386808"
 ---
 # <a name="device-log-configuration-edit"></a>Configuración de registro de dispositivo: Editar
  
@@ -53,6 +53,6 @@ Las siguientes listas describen los menús, comandos, campos y propiedades de la
     
 - **Días para mantener los archivos de registro (1-365)** Puede especificar el número de días que se mantienen los archivos de registro antes de que se purguen. El valor predeterminado es 10 días.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configuración de registro de dispositivo](device-log-configuration.md)

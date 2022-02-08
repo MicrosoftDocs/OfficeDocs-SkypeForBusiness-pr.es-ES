@@ -1,8 +1,8 @@
 ---
 title: Asociar front-end con servidor perimetral
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cada grupo de servidores front-end solo puede tener asociado un servidor perimetral o un grupo de servidores perimetrales. Al habilitar el acceso de usuarios externos para un sitio, puede proporcionar compatibilidad con usuarios remotos. También puede habilitar la compatibilidad con usuarios federados, que puede incluir compatibilidad con usuarios de proveedores de conectividad de mensajería instantánea (MI) públicos específicos (como Windows Live) y compatibilidad con usuarios anónimos.
-ms.openlocfilehash: e3898bfc4d192dcf6c6feeb89f3498a15de1048b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f894a38fc48b1a2c6610e8d3b886fa028b2559b8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839272"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390472"
 ---
 # <a name="associate-front-end-with-edge"></a>Asociar front-end con servidor perimetral
 

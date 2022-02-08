@@ -1,8 +1,8 @@
 ---
 title: Componentes voIP del servidor front-end para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: Obtenga información sobre los Telefonía IP empresarial que se encuentran en los servidores front-end de Skype Empresarial Server, incluidos el servicio de traducción y varios componentes de enrutamiento.
-ms.openlocfilehash: d649185ccc83da925cc7341087d373d67523b5b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7af507cc7d00f06ac59543e87b4241a53d932193
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850733"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385478"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Componentes voIP del servidor front-end para Skype Empresarial Server
 

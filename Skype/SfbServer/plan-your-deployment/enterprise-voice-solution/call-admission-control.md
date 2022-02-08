@@ -1,8 +1,8 @@
 ---
 title: Planear el control de admisión de llamadas en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Obtenga información sobre el control de admisión de llamadas, que puede impedir que las llamadas tengan lugar si tendrían mala calidad de medios, en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 6260321a29ad138fae41eacb9a1bee5d322d1684
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e0843ef922bc928b5615425f96461e5262a6077e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841082"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387818"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planear el control de admisión de llamadas en Skype Empresarial Server
 
@@ -37,7 +37,7 @@ El servicio de control de admisión de llamadas (CAC) determina si hay suficient
 En esta sección se describen las funciones de control de admisión de llamadas y explica cómo planear para CAC.
 
 > [!NOTE]
-> Skype Empresarial Server tiene tres características avanzadas Telefonía IP empresarial: control de admisión de llamadas (CAC), servicios de emergencia (E9-1-1) y desvío de medios. Para obtener información general sobre la planeación que es común a las tres características, vea Configuración de red para las características Telefonía IP empresarial avanzadas en [Skype Empresarial Server](network-settings-for-advanced-features.md).
+> Skype Empresarial Server tiene tres características avanzadas Telefonía IP empresarial: control de admisión de llamadas (CAC), servicios de emergencia (E9-1-1) y desvío de medios. Para obtener información general sobre la planeación que es común a las tres características, vea Configuración de red para las características Telefonía IP empresarial [avanzadas de Skype Empresarial Server](network-settings-for-advanced-features.md).
 
 El diseño del CAC en Skype Empresarial Server ofrece cuatro atributos principales:
 
@@ -86,7 +86,7 @@ Si su empresa admite medios a través de VPN, asegúrese de que tanto la secuenc
 
 ### <a name="call-admission-control-of-outside-users"></a>Control de admisión de llamadas de usuarios externos
 
-El control de admisión de llamadas no se aplica más allá de los límites de la Skype Empresarial Server organización. El CAC no se puede aplicar al tráfico multimedia que atraviesa Internet, que no se administra mediante Skype Empresarial Server. Las comprobaciones de CAC se realizarán en la parte de la llamada que fluye a través de la red empresarial si el extremo llamado pertenece a la organización y el servidor perimetral se ha agregado a la configuración de red, como se describe en Implementación del control de admisión de [llamadas:](../../deploy/deploy-enterprise-voice/final-checklist.md)lista de comprobación final para Skype Empresarial Server . Si el extremo llamado no pertenece a la organización, como un usuario federado o PIC, no se realizan comprobaciones de directiva de ancho de banda y la llamada saliente omitirá las restricciones de CAC.
+El control de admisión de llamadas no se aplica más allá de los límites de la Skype Empresarial Server organización. El CAC no se puede aplicar al tráfico multimedia que atraviesa Internet, que no se administra mediante Skype Empresarial Server. Las comprobaciones de CAC se realizarán en la parte de la llamada que fluye a través de la red empresarial si el extremo llamado pertenece a la organización y el servidor perimetral se ha agregado a la configuración de red, tal como se describe en Implementación del control de admisión de llamadas: lista de comprobación [final para Skype Empresarial Server](../../deploy/deploy-enterprise-voice/final-checklist.md). Si el extremo llamado no pertenece a la organización, como un usuario federado o PIC, no se realizan comprobaciones de directiva de ancho de banda y la llamada saliente omitirá las restricciones de CAC.
 
 ### <a name="call-admission-control-of-pstn-connections"></a>Control de admisión de llamadas de conexiones RTC
 
@@ -126,7 +126,7 @@ Para explicar estos conceptos, usaremos la topología de red de ejemplo que se m
 > [!NOTE]
 > Todos los sitios de red están asociados a una región de red. Por ejemplo, Portland, Reno y Albuquerque están incluidos en la región Norteamérica. En esta figura, solo se muestran los vínculos WAN que tienen aplicadas directivas de CAC con límites de ancho de banda. Los sitios de red Chicago, Nueva York y Detroit aparecen dentro del óvalo regional Norteamérica debido a que no tienen ancho de banda restringido y, por lo tanto, no precisan directivas de CAC.
 
-Los componentes de esta topología de ejemplo se explican en las siguientes secciones. Para obtener más información sobre cómo se planeó esta topología, incluidos los límites de ancho de banda, vea [Ejemplo:](example-gathering-requirements.md)Recopilación de requisitos para el control de admisión de llamadas en Skype Empresarial Server .
+Los componentes de esta topología de ejemplo se explican en las siguientes secciones. Para obtener más información sobre cómo se planeó esta topología, incluidos los límites de ancho de banda, vea Ejemplo: recopilación de requisitos para el control de admisión de [llamadas en Skype Empresarial Server](example-gathering-requirements.md).
 
 ### <a name="identify-network-regions"></a>Identificar regiones de red
 
@@ -182,7 +182,7 @@ Las directivas de ancho de banda del CAC pueden definir cualquiera de las siguie
 - Ancho de banda máximo asignado para una única videollamada (sesión).
 
 > [!NOTE]
-> Todos los valores de ancho de banda cac representan los límites  *máximos de ancho*  de banda unidireccional.
+> Todos los valores de ancho de banda cac representan los límites  *máximos de ancho de banda unidireccional*  .
 
 > [!NOTE]
 > Las Skype Empresarial Server de directiva de voz proporcionan la capacidad de invalidar las comprobaciones de directivas de ancho de banda para las llamadas entrantes al usuario (no para las llamadas salientes realizadas por el usuario). Una vez establecida la sesión, se justificará detalladamente el consumo de ancho de banda. Esta configuración se debe usar con moderación. Para obtener más información, vea Crear o modificar una directiva de voz y configurar registros de uso de RTC en [Skype Empresarial](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) o Modificar una directiva de voz y Configurar registros de uso de [RTC](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records) en la documentación de implementación.

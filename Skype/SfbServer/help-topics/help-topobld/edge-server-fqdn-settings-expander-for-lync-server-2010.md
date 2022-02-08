@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración FQDN de servidor perimetral para Lync Server 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 'Para definir las propiedades en Configuración externa, configure lo siguiente:'
-ms.openlocfilehash: 763fed345ec3d53496be216dbd94e26825c2766b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 640fcbbafde0648f1e7d8b193d93b354437d79fc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828923"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385808"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Expansor de configuración FQDN de servidor perimetral para Lync Server 2010
  
@@ -31,7 +31,7 @@ Marque la casilla de verificación **Habilitar direcciones IP y números complet
 > [!NOTE]
 > Si decide no activar la casilla para direcciones IP y FQDN independientes, debe proporcionar puertos distintos para cada uno de los tres servicios proporcionados por el servidor perimetral. El único nombre de dominio completo que se va a configurar es el FQDN asociado al servicio perimetral de acceso. 
   
-Active la casilla Servicio perimetral **A/V** está habilitado para NAT si desea que el servicio perimetral A/V use una dirección IP y una configuración de traducción de direcciones de red (NAT).
+Active la **casilla Servicio perimetral A/V** está habilitado para NAT si desea que el servicio perimetral A/V use una dirección IP y una configuración de traducción de direcciones de red (NAT).
   
 Para los servicios perimetrales habilitados, escriba un **FQDN de grupo de servidores** y un puerto en **Puertos**
   

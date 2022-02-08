@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Uganda
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Uganda.
-ms.openlocfilehash: 1b0318bbe2236b1b29da55ea428b915417cbaf3e
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: b7c9dc0f5d785fc5e301682926784b88d0daeb09
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190881"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389714"
 ---
 # <a name="availability-in-uganda"></a>Disponibilidad en Uganda
 

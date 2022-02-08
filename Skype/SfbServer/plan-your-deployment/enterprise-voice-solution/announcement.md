@@ -1,8 +1,8 @@
 ---
 title: Planear la aplicación Anuncio en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: Planeación de la aplicación de anuncio en Skype Empresarial Server Telefonía IP empresarial, que configura qué hacer con las llamadas telefónicas a números de teléfono sinsignación en las organizaciones. Incluye requisitos de archivo de audio.
-ms.openlocfilehash: 6dc2317c170585c6688e04b191182cf7ae500b12
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c895575a88d49bc29a74e53fac1618991b042745
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838502"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387878"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Planear la aplicación Anuncio en Skype Empresarial
 
@@ -39,7 +39,7 @@ La aplicación Anuncio se instala automáticamente con la aplicación Grupo de r
 
 ### <a name="software-requirements"></a>Requisitos de software
 
-Todos los servidores front-end o servidores Standard Edition que ejecuten la aplicación Anuncio deben tener el tiempo de ejecución de formato multimedia de Windows instalado para servidores que ejecuten Windows Server 2008 R2 o Microsoft Media Foundation para servidores que ejecuten Windows Server 2012 o Windows Server 2012 R2. Para Windows Server 2008 R2, Windows Media Format Runtime se instala como parte de Windows Desktop Experience. Windows Media Format Runtime o Microsoft Media Foundation es necesario para los archivos Windows Media Audio (.wma) que reproduce la aplicación Anuncio para anuncios y música.
+Todos los servidores front-end o servidores Standard Edition que ejecuten la aplicación Anuncio deben tener instalado el tiempo de ejecución de formato multimedia de Windows para servidores que ejecuten Windows Server 2008 R2 o Microsoft Media Foundation para servidores que ejecuten Windows Server 2012 o Windows Server 2012  R2. Para Windows Server 2008 R2, Windows Media Format Runtime se instala como parte de Windows Desktop Experience. Windows Media Format Runtime o Microsoft Media Foundation es necesario para los archivos Windows Media Audio (.wma) que la aplicación Anuncio reproduce para anuncios y música.
 
 ### <a name="port-requirements"></a>Requisitos de los puertos
 

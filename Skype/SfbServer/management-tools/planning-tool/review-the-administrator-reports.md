@@ -1,8 +1,8 @@
 ---
 title: Revisar los informes de administrador en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,16 +14,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Los informes de administrador consisten en información detallada acerca de la implementación y las diversas operaciones. Los informes se generan en función de las selecciones marcadas en Sitios de diseño. El diseñador puede seguir incorporando valor agregado a los informes de administrador; para ello, puede editar los diagramas de red y definir todas las direcciones IP y los nombres de dominio completos (FQDN) de servidores, grupos y equilibradores de carga.
-ms.openlocfilehash: fd48494a603b6e279790a92e38040c3e26b01668
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 80dd069f516bff816dc90fb4307ca3ac2b7ebdf0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845303"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385488"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Revisar los informes de administrador en Skype Empresarial Server 2015
 
-Los informes de administrador consisten en información detallada acerca de la implementación y las diversas operaciones. Los informes se generan en función de las selecciones marcadas en **Sitios de diseño.** El diseñador puede seguir incorporando valor agregado a los informes de administrador; para ello, puede editar los diagramas de red y definir todas las direcciones IP y los nombres de dominio completos (FQDN) de servidores, grupos y equilibradores de carga.
+Los informes de administrador consisten en información detallada acerca de la implementación y las diversas operaciones. Los informes se generan en función de las selecciones marcadas en **Sitios de diseño**. El diseñador puede seguir incorporando valor agregado a los informes de administrador; para ello, puede editar los diagramas de red y definir todas las direcciones IP y los nombres de dominio completos (FQDN) de servidores, grupos y equilibradores de carga.
 
 La característica Informes de administrador le permite:
 
@@ -85,7 +85,7 @@ El informe DNS, que forma parte del informe de administrador, detalla todas las 
 
 Debe hacer que el equipo de administración de DNS revise exhaustivamente el informe dns para asegurarse de que no hay errores que puedan causar dificultades durante la implementación o que puedan complicar una sesión de solución de problemas.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="DNS_Report"> </a>
 
 [Revisión de los informes del administrador](/previous-versions/office/lync-server-2013/lync-server-2013-reviewing-the-administrator-reports)

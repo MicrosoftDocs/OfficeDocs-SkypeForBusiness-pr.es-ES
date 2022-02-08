@@ -1,8 +1,8 @@
 ---
 title: Informe de lista de llamadas en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 'Summary: Learn about the Call List Report used in Skype Empresarial Server.'
-ms.openlocfilehash: d56374fa317f6c7b132a9d33dcf9fef966c55625
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 986e107c88210b8abedc44641ce2f13a1db315d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864847"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388168"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Informe de lista de llamadas en Skype Empresarial Server
  
@@ -35,7 +35,7 @@ El informe de lista de llamadas proporciona métricas de calidad de experiencia 
     
 - Relación de tiempo de cambio de voz 
     
-Sin embargo, si abre el informe de lista de llamadas desde el informe de ubicación en [Skype Empresarial Server](location-report.md), no verá ninguna de esas métricas; en su lugar, verás métricas como estas:
+Sin embargo, si abre el informe de lista de llamadas desde el informe de ubicación en [Skype Empresarial Server, no](location-report.md) verá ninguna de esas métricas; en su lugar, verá métricas como estas:
   
 - Recorrido de ida y vuelta (ms)
     
@@ -53,9 +53,9 @@ Se puede obtener acceso al informe de lista de llamadas desde cualquiera de los 
   
 - Informe [de ubicación en Skype Empresarial Server](location-report.md) (haciendo clic en la métrica Volumen de llamadas o Porcentaje de llamadas deficientes)
     
-- Informe [de dispositivo en Skype Empresarial Server](device-report.md) (haciendo clic en la métrica Volumen de llamadas o Porcentaje de llamadas deficiente)
+- El [Informe de dispositivo en Skype Empresarial Server](device-report.md) (haciendo clic en la métrica Volumen de llamadas o Porcentaje de llamadas deficientes)
     
-- Informe [de resumen de calidad](summary.md) multimedia en Skype Empresarial Server (haciendo clic en la métrica Volumen de llamadas o Porcentaje de llamadas deficiente)
+- Informe [de resumen de calidad multimedia en Skype Empresarial Server](summary.md) (haciendo clic en la métrica Volumen de llamadas o Porcentaje de llamadas deficiente)
     
 - Informe [de rendimiento del servidor en Skype Empresarial Server](server-performance.md) (haciendo clic en la métrica Volumen de llamadas o Porcentaje de llamadas deficiente)
     
@@ -67,7 +67,7 @@ Si no recuerda lo que realmente miden algunas de las métricas del informe de li
   
 ## <a name="filters"></a>Filtros
 
-Ninguna. No puede filtrar el informe de lista de llamadas.
+Ninguno. No puede filtrar el informe de lista de llamadas.
   
 ## <a name="metrics"></a>Métricas
 

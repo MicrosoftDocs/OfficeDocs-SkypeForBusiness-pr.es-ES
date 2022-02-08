@@ -1,8 +1,8 @@
 ---
 title: Informe de distribución de errores en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: 'Resumen: obtenga información sobre el informe de distribución de errores en Skype Empresarial Server.'
-ms.openlocfilehash: e8ebf3ccbb14b46c862d03f328fdbb327af51992
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1cea85cb385ef7902dc896d468fea5ddfa71cc9d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847243"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384278"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>Informe de distribución de errores en Skype Empresarial Server
  
@@ -53,7 +53,7 @@ Puede tener acceso al Informe de distribución de errores desde cualquiera de lo
     
 - [Informe de diagnóstico de actividad punto a punto en Skype Empresarial Server](peer-to-peer-activity-diagnostic-report.md)
     
-En el Informe de distribución de errores, puede hacer clic en cualquiera de las siguientes métricas para ver [el informe de](failure-list-report.md)lista de errores en Skype Empresarial Server :
+En el Informe de distribución de errores, puede hacer clic en cualquiera de las siguientes métricas para ver el informe de lista de errores [en Skype Empresarial Server](failure-list-report.md):
   
 - Motivos del diagnóstico principales (sesiones)
     

@@ -1,8 +1,8 @@
 ---
 title: Configurar opciones de archivado para controlar errores en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 'Summary: Learn how to block IM and conferencing sessions in the case of a Skype Empresarial Server failure that would prevent archiving.'
-ms.openlocfilehash: f3f20bf53a784972c720ce5578d78462cbb222c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: caeda2eb86b818faf4b1ec57d4010b182b5957ca
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836472"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386698"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurar opciones de archivado para controlar errores en Skype Empresarial Server
 
@@ -35,7 +35,7 @@ Para especificar si se deben permitir las sesiones de comunicación en caso de e
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, a continuación, haga clic en **Configuración de archivado**.
     
-4. Haga clic en el nombre de la configuración global, del sitio o del grupo correspondiente en la lista de configuraciones de archivado, haga clic en **Editar** y, a continuación, haga clic **en Mostrar detalles.**
+4. Haga clic en el nombre de la configuración global, de sitio o de grupo adecuada en la lista de configuraciones de archivado, haga clic en **Editar** y, a continuación, haga clic **en Mostrar detalles**.
     
 5. Para configurar el comportamiento del archivado cuando se produzca un error, active o desactive la casilla **Bloquear sesiones de mensajería instantánea o conferencias web si no se pueden archivar**.
     
@@ -57,4 +57,4 @@ El siguiente comando habilita las comunicaciones en caso de error de archivado:
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 
-Para obtener más información, vea el tema de ayuda del cmdlet [Set-CsArchivingConfiguration.](/powershell/module/skype/set-csarchivingconfiguration?view=skype-ps)
+Para obtener más información, vea el tema de ayuda del cmdlet [Set-CsArchivingConfiguration](/powershell/module/skype/set-csarchivingconfiguration?view=skype-ps) .

@@ -1,8 +1,8 @@
 ---
 title: Cambios realizados por la preparación del bosque en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: En esta sección se describe la configuración global y los objetos, así como el servicio universal y los grupos de administración, que se crean mediante el paso de preparación del bosque.
-ms.openlocfilehash: 8226c2e9b692699902faa751fafe14424e43ed45
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f5df54a579da84c6e55a055d7949bb60f5774c6c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828643"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389882"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Cambios realizados por la preparación del bosque en Skype Empresarial Server
 
@@ -26,7 +26,7 @@ En esta sección se describe la configuración global y los objetos, así como e
 
 ## <a name="active-directory-global-settings-and-objects"></a>Configuración global y objetos de Active Directory
 
-Si almacena la configuración global en el contenedor De configuración (como ocurre con todas las implementaciones de Skype Empresarial Server nuevas), la preparación del bosque usa el contenedor de servicios existente y agrega un objeto de servicio **RTC** en el objeto Configuration\Services. Al preparar el bosque, se agrega un objeto de **Global Settings** de tipo msRTCSIP-GlobalContainer dentro del objeto RTC Service. El objeto de configuración global contiene toda la configuración que se aplica a la Skype Empresarial Server implementación. Si almacena la configuración global en el contenedor System, al preparar el bosque se usa un contenedor Microsoft dentro del contenedor System del dominio raíz y se agrega un objeto RTC Service dentro del objeto System\Microsoft.
+Si almacena la configuración global en el contenedor de configuración (como ocurre con todas las implementaciones de Skype Empresarial Server nuevas), la preparación del bosque usa el contenedor de servicios existente y agrega un objeto **de servicio RTC** en el objeto Configuration\Services. Al preparar el bosque, se agrega un objeto de **Global Settings** de tipo msRTCSIP-GlobalContainer dentro del objeto RTC Service. El objeto de configuración global contiene toda la configuración que se aplica a la Skype Empresarial Server implementación. Si almacena la configuración global en el contenedor System, al preparar el bosque se usa un contenedor Microsoft dentro del contenedor System del dominio raíz y se agrega un objeto RTC Service dentro del objeto System\Microsoft.
 
 Al preparar el bosque, se agrega también un nuevo objeto **msRTCSIP-Domain** para el dominio raíz en el que se ejecuta el procedimiento.
 

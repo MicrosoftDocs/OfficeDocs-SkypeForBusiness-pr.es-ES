@@ -1,8 +1,8 @@
 ---
 title: Planeación de servicios de emergencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Obtenga información sobre los servicios mejorados de 9-1-1 (E9-1-1) en Skype Empresarial Server Telefonía IP empresarial, incluida la adquisición de ubicación y el enrutamiento de llamadas.
-ms.openlocfilehash: 4f75dcce3bc8de2e8e4f806c1c571c2e7cad1afe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7998b1cbc91d10daae1fb0b163e2a5041d4559f4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844163"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387728"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planeación de servicios de emergencia en Skype Empresarial Server
 
@@ -33,7 +33,7 @@ Skype Empresarial Server admite servicios mejorados 9-1-1 (E9-1-1) en los Estado
 > Skype Empresarial Server ahora admite la configuración de varios números de emergencia para un cliente. Para obtener más información, vea [Plan for multiple emergency numbers in Skype Empresarial Server](multiple-emergency-numbers.md).
 
 > [!NOTE]
-> Skype Empresarial Server tiene tres características avanzadas Telefonía IP empresarial: control de admisión de llamadas, servicios de emergencia (E9-1-1) y desvío de medios. Para obtener información general sobre la planeación que es común a las tres características, vea Configuración de red para las características Telefonía IP empresarial avanzadas en [Skype Empresarial Server](network-settings-for-advanced-features.md).
+> Skype Empresarial Server tiene tres características avanzadas Telefonía IP empresarial: control de admisión de llamadas, servicios de emergencia (E9-1-1) y desvío de medios. Para obtener información general sobre la planeación que es común a las tres características, vea Configuración de red para las características Telefonía IP empresarial [avanzadas de Skype Empresarial Server](network-settings-for-advanced-features.md).
 
 Skype Empresarial Server admite llamadas mejoradas de 9-1-1 (E9-1-1) desde clientes Skype Empresarial y dispositivos Lync Teléfono Edition. Al configurar Skype Empresarial Server para E9-1-1, las llamadas de emergencia realizadas desde Skype Empresarial o Lync Teléfono Edition incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos del servicio de información de ubicación. Las ERL se componen de direcciones civiles (es decir, postales) e información adicional que ayuda a identificar con mayor precisión una ubicación en edificios de oficinas y otras instalaciones con varios inquilinos. Cuando un usuario realiza una llamada de emergencia, Skype Empresarial Server enruta el audio de la llamada, junto con la ubicación y la información de devolución de llamada, a través de un servidor de mediación a un proveedor de servicios E9-1-1. Desde aquí se facilita la ubicación del autor de la llamada junto con una clave de consulta de servicios de emergencia (ESQK) que permite al PSAP buscar la ERL de esta persona.
 
@@ -56,7 +56,7 @@ Cuando se usa una puerta de enlace ELIN, también se agregan LASR a la base de d
 
 - **Opción PS-ALI tradicional** Si tienes puertas de enlace RTC locales en cada sitio donde se implementan teléfonos analógicos y cada teléfono analógico tiene un DID, puedes aprovisionar la ubicación del dispositivo analógico directamente con un proveedor de servicios de identificación de ubicación automática (PS-ALI). En este caso, se configuran directivas de voz de Skype Empresarial especialmente diseñadas y se asignan a los objetos de contacto de dispositivo analógico para que las llamadas E9-1-1 de esos teléfonos se enruten directamente a través de la puerta de enlace local al proveedor rtc que proporciona servicios al sitio (en lugar de enrutar la llamada a un tronco SIP del proveedor de servicios E9-1-1). Cuando se realiza una llamada SOS, una base de datos de un proveedor de PS-ALI asociado con el enlace troncal de RTC asigna el DID de cada teléfono analógico a una ubicación física, y proporciona esta ubicación al PSAP. Estos registros deben actualizarse con el proveedor de servicios de PS-ALI cada vez que los teléfonos se desplazan a ERL diferentes.
 
-- Opción de proveedor de servicios **E9-1-1** Puede registrar los DID de teléfono analógico y sus ERLs correspondientes con el proveedor de servicios E9-1-1, si es compatible con el proveedor de servicios E9-1-1. Si el proveedor recibe una llamada de Skype Empresarial Server que no incluye datos PIDF-LO, el proveedor puede ver si hay una coincidencia de base de datos en el número DID del usuario que realiza la llamada. Mediante el ERL recuperado de su base de datos, el proveedor puede enrutar automáticamente la llamada de emergencia al PSAP correcto y el PSAP recibirá el DID del dispositivo analógico y un registro ESQK que permite al distribuidor buscar la ubicación del autor de la llamada.
+- **Opción de proveedor de servicios E9-1-1** Puede registrar los DID de teléfono analógico y sus ERLs correspondientes con el proveedor de servicios E9-1-1, si es compatible con el proveedor de servicios E9-1-1. Si el proveedor recibe una llamada de Skype Empresarial Server que no incluye datos PIDF-LO, el proveedor puede ver si hay una coincidencia de base de datos en el número DID del usuario que realiza la llamada. Mediante el ERL recuperado de su base de datos, el proveedor puede enrutar automáticamente la llamada de emergencia al PSAP correcto y el PSAP recibirá el DID del dispositivo analógico y un registro ESQK que permite al distribuidor buscar la ubicación del autor de la llamada.
 
 Si usa la opción de puerta de enlace de ELIN y necesita compatibilidad con las llamadas E9-1-1 desde teléfonos analógicos, puede dar la ubicación del dispositivo analógico directamente con el proveedor de servicios PS-ALI, como se describe en la primera opción mencionada anteriormente.
 
@@ -68,7 +68,7 @@ Desde una Skype Empresarial Server, el proceso E9-1-1 se puede separar en dos fa
 
 En esta sección se describe cómo funcionan estas fases.
 
-Si va a configurar la infraestructura para detectar automáticamente la ubicación del cliente, primero debe decidir qué elementos de red usará para asignar los autores de las llamadas a las ubicaciones. Para obtener más información sobre las opciones posibles, vea [Definir los elementos de red usados para determinar la](network-location.md)ubicación en Skype Empresarial Server .
+Si va a configurar la infraestructura para detectar automáticamente la ubicación del cliente, primero debe decidir qué elementos de red usará para asignar los autores de las llamadas a las ubicaciones. Para obtener más información sobre las opciones posibles, vea [Definir los elementos de red usados para determinar la ubicación en Skype Empresarial Server](network-location.md).
 
 ## <a name="acquiring-a-location"></a>Adquirir una ubicación
 
@@ -104,7 +104,7 @@ Cuando se hace una llamada de emergencia desde un cliente Skype Empresarial Serv
 
 1. Una INVITACIÓN SIP que contiene la ubicación, el número de devolución de llamada del autor de la llamada y la dirección URL de notificación (opcional) y el número de devolución de llamada de conferencia se enruta a Skype Empresarial Server.
 
-2. Skype Empresarial Server coincide con el número de emergencia y enruta la llamada (en función del valor de uso RTC definido en la directiva de ubicación aplicable) a un servidor de mediación y, desde allí, a través de un tronco SIP al proveedor de servicios E9-1-1. 
+2. Skype Empresarial Server coincide con el número de emergencia y enruta la llamada (en función del  valor de uso rtc que se define en la directiva de ubicación aplicable) a un servidor de mediación y, desde allí, a través de un tronco SIP al proveedor de servicios E9-1-1.
 
 3. El proveedor de servicios E9-1-1 enruta la llamada de emergencia al PSAP adecuado según la ubicación proporcionada con la llamada. Cuando el cliente incluye una ubicación de respuesta de emergencia (ERL) validada en la llamada de emergencia, el proveedor dirige automáticamente la llamada al punto PSAP adecuado. Si el usuario especificó la ubicación manualmente, el centro de respuestas a llamadas de emergencia (ECRC) verifica verbalmente en primer lugar la exactitud de la ubicación con la persona que llama antes de enrutar la llamada de emergencia al PSAP.
 
@@ -118,7 +118,7 @@ Cuando se hace una llamada de emergencia desde un cliente Skype Empresarial Serv
 
 Algunos asociados del Programa de interoperabilidad abierto de comunicaciones unificadas proporcionan puertas de enlace de número de identificación de ubicación de emergencia (ELIN), que constituyen una alternativa a las conexiones troncales SIP con un proveedor de servicio E9-1-1 cualificado. Las puertas de enlace ELIN admiten la conectividad ISDN o de contabilización de mensajes automática y centralizada (CAMA) con servicios E9-1-1 basados en la red telefónica conmutada (RTC). Para obtener más información acerca de los partners que proporcionan puertas de enlace de ELIN y vínculos a su documentación, vea [Infrastructure qualified for Microsoft Lync](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md) and [Telephony Infrastructure for Skype Empresarial](../../../SfbPartnerCertification/certification/infra-gateways.md).
 
-Al igual que las conexiones troncales SIP con proveedores de servicios E9-1-1, las puertas de enlace ELIN también proporcionan los medios para enrutar una llamada de emergencia al punto de respuesta de seguridad pública (PSAP) más adecuado del autor de la llamada, pero estas puertas de enlace usan un ELIN como identificador de ubicación. Los ELIN se definen para cada ubicación de respuesta de emergencia (ERL) de la organización (para obtener más información, vea [Manage locations for ELIN gateways in Skype Empresarial Server](elin-gateways.md)).
+Al igual que las conexiones troncales SIP con proveedores de servicios E9-1-1, las puertas de enlace ELIN también proporcionan los medios para enrutar una llamada de emergencia al punto de respuesta de seguridad pública (PSAP) más adecuado del autor de la llamada, pero estas puertas de enlace usan un ELIN como identificador de ubicación. Los ELIN se definen para cada ubicación de respuesta de emergencia (ERL) de la organización (para obtener más información, vea Manage [locations for ELIN gateways in Skype Empresarial Server](elin-gateways.md)).
 
 Cuando se usa una puerta de enlace ELIN para llamadas de emergencia, se usa la misma infraestructura Skype Empresarial Server E9-1-1 que usaría para una conexión troncal SIP. Es decir, la base de datos del servicio de información de ubicación proporciona la ubicación al cliente de Skype Empresarial y la directiva de ubicación habilita la característica y define el enrutamiento. Sin embargo, con una puerta de enlace ELIN, debe agregar los ELIN a la base de datos del servicio de información de ubicación y hacer que el operador RTC los cargue en la base de datos de identificación automática de ubicación (ALI).
 
@@ -137,7 +137,7 @@ En el siguiente diagrama se muestra cómo se enruta una llamada de emergencia Sk
 
 1. Una INVITACIÓN SIP que contiene la ubicación, el número de devolución de llamada del autor de la llamada y la dirección URL de notificación (opcional) y el número de devolución de llamada de conferencia se enruta a Skype Empresarial Server.
 
-2. Skype Empresarial Server coincide con el número de emergencia y, a  continuación, enruta la llamada (en función del valor de uso rtc definido en la directiva de ubicación aplicable) a un servidor de mediación y desde allí a una puerta de enlace ELIN.
+2. Skype Empresarial Server coincide con el número de emergencia y, a continuación, enruta la llamada  (en función del valor de uso RTC definido en la directiva de ubicación aplicable) a un servidor de mediación y desde allí a una puerta de enlace ELIN.
 
 3. La puerta de enlace ELIN enruta la llamada a través de un tronco ISDN o CAMA a la RTC.
 

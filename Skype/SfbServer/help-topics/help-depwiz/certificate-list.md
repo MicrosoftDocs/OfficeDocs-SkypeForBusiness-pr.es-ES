@@ -1,8 +1,8 @@
 ---
 title: Lista de certificados
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 description: Para asignar un certificado, seleccione un certificado en el almacén de certificados local. Haga clic en Siguiente para continuar.
-ms.openlocfilehash: 3abba1092a4f7a0d7898c3ab1924e69eb2a62a60
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a6adeaa49a2b721926bfc81f9c259fe6e1b60258
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854664"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388538"
 ---
 # <a name="certificate-list"></a>Lista de certificados
  

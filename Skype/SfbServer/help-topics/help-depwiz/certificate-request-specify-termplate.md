@@ -1,8 +1,8 @@
 ---
 title: Solicitud certificado (especificar plantilla)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 description: La página Especificar plantilla de certificado alternativa permite definir una plantilla de certificado distinta de la plantilla de certificado WebServer que se usa de forma predeterminada. Seleccione la casilla de verificación Usar plantilla de certificado alternativa para entidad de certificación seleccionada; a continuación, en el cuadro de texto Nombre de plantilla de certificado defina el nombre de la plantilla de certificado alternativa Debe usar el mismo nombre de la plantilla que esté definida en la entidad de certificación. Haga clic en Atrás para retroceder a la página anterior. Haga clic en Cancelar para finalizar el proceso de solicitud de certificado.
-ms.openlocfilehash: 5dcaf17f01de47d028e5fdc0b648107b235caa97
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4ae4f34b1fb994119637e3c2066b7cf0982216fa
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860547"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388528"
 ---
 # <a name="certificate-request-specify-termplate"></a>Solicitud de certificados (especificar plantilla)
  

@@ -1,8 +1,8 @@
 ---
 title: Crear o modificar un grupo de agentes en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Cree o modifique un grupo de agentes en grupo de respuesta, en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: d4254a3851b434145eb3afa5cec1a721c51fe1f2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6428a5024922ff74e19404c481794e60e3304998
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853764"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388927"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Crear o modificar un grupo de agentes en Skype Empresarial
  
@@ -55,7 +55,7 @@ Use uno de los siguientes procedimientos para crear o modificar un grupo de agen
     
    - Para crear un nuevo grupo de agentes, haga clic en **Nuevo**. En el **campo Seleccionar un servicio** de búsqueda, escriba todo o parte del nombre del servicio **ApplicationServer** donde desea agregar el grupo. En la lista de resultados que aparece, haga clic en el servicio que desea y en **Aceptar**.
     
-   - Para modificar un grupo de agentes existente, escriba todo o parte del nombre del grupo de agentes en el campo de búsqueda. En la lista resultante, haga clic en el grupo que desee, haga clic **en Editar** y, a continuación, haga clic en **Mostrar detalles.**
+   - Para modificar un grupo de agentes existente, escriba todo o parte del nombre del grupo de agentes en el campo de búsqueda. En la lista resultante, haga clic en el grupo que desee, haga clic **en Editar** y, a continuación, haga clic **en Mostrar detalles**.
     
 5. En **Nombre**, escriba un nombre de identificación para el grupo de agentes.
     
@@ -74,7 +74,7 @@ Use uno de los siguientes procedimientos para crear o modificar un grupo de agen
   
 9. En **Método de enrutamiento**, seleccione un método para enrutar las llamadas a los agentes del grupo, según se muestra a continuación:
     
-   - Para ofrecer una nueva llamada primero al agente que ha estado inactivo  más tiempo (ha tenido una presencia de **Disponible** o Inactivo en Skype Empresarial el más largo), haga clic en Inactivo **más largo.** 
+   - Para ofrecer una nueva llamada primero al agente que ha estado inactivo más tiempo (ha tenido una presencia de **Disponible** o Inactivo en  Skype Empresarial el más largo), haga clic en Inactivo más **largo**. 
     
    - Para ofrecer una nueva llamada a todos los agentes disponibles al mismo tiempo, haga clic en **Enrutamiento en paralelo**. La llamada se envía al primer agente que la acepta.
     
@@ -86,15 +86,15 @@ Use uno de los siguientes procedimientos para crear o modificar un grupo de agen
     
 10. En la ficha **Agentes**, especifique el modo en que desea crear la lista de agentes:
     
-    - Para usar una lista personalizada de agentes, haga clic **en Definir un grupo** personalizado de agentes y realice una de las siguientes acciones:
+    - Para usar una lista personalizada de agentes, haga clic **en Definir un grupo personalizado de agentes** y realice una de las siguientes acciones:
     
-    - Para agregar un usuario al grupo de agentes,  haga clic en **Seleccionar** y, a continuación, en el campo de búsqueda Seleccionar agentes, escriba todo o parte del nombre del usuario que desea agregar a este grupo y, a continuación, haga clic en **Buscar**. En la lista resultante de agentes, haga clic en el usuario y, a continuación, haga clic en **Aceptar**.
+    - Para agregar un usuario al grupo de agentes, haga clic en **Seleccionar** y, a  continuación, en el campo de búsqueda Seleccionar agentes, escriba todo o parte del nombre del usuario que desea agregar a este grupo y, a continuación, haga clic en **Buscar**. En la lista resultante de agentes, haga clic en el usuario y, a continuación, haga clic en **Aceptar**.
     
     - Para quitar un usuario del grupo de agentes, en la lista de agentes, haga clic en el usuario que desea quitar y, a continuación, haga clic en **Quitar**.
     
     - Para cambiar el orden en que se ofrecen llamadas a los agentes en grupos que usan enrutamiento por turnos o enrutamiento en serie, en la lista de agentes, haga clic en un usuario y, a continuación, haga clic en la flecha arriba o abajo. 
     
-    - Para usar una lista de distribución Microsoft Exchange Server como grupo de agentes, haga clic en Usar una lista de distribución de correo electrónico existente y, a continuación, en Dirección de lista de **distribución,** escriba la dirección de correo electrónico de la lista de distribución (por ejemplo, NetworkSupport@contoso.com).
+    - Para usar una lista de distribución Microsoft Exchange Server como grupo de agentes, haga clic en Usar una lista de distribución de correo electrónico existente y, a continuación **, en** Dirección de lista de distribución, escriba la dirección de correo electrónico de la lista de distribución (por ejemplo, NetworkSupport@contoso.com).
     
       Si usa una lista de distribución de correo electrónico, se aplican las restricciones siguientes:
     
@@ -121,7 +121,7 @@ Use uno de los siguientes procedimientos para crear o modificar un grupo de agen
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
     
-2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 3. Use **New-CsRgsAgentGroup para** crear un nuevo grupo de agentes. Use **Set-CsRgsAgentGroup para** modificar un grupo de agentes existente. En la línea de comandos, ejecute:
     
@@ -138,13 +138,13 @@ Use uno de los siguientes procedimientos para crear o modificar un grupo de agen
     > [!IMPORTANT]
     > La configuración de hora de alerta del agente no puede superar los 180 segundos. Si el tiempo de alerta del agente es superior a 180 segundos, la aplicación cliente rechaza la llamada porque el temporizador de transacción SIP alcanza su tiempo máximo de espera. 
   
-4. Confirme que se ha creado el grupo de agentes. Ejecute: 
+4. Confirme que se ha creado el grupo de agentes. Ejecutar:
     
    ```powershell
    Get-CsRgsAgentGroup -Name "Help Desk"
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Get-CsService](/powershell/module/skype/get-csservice?view=skype-ps)
   

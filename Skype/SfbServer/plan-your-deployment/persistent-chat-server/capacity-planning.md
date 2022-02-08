@@ -1,8 +1,8 @@
 ---
 title: Planeación de capacidad para el servidor de chat persistente en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/23/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Resumen: lea este tema para obtener información sobre la planeación de capacidad para el servidor de chat persistente en Skype Empresarial Server 2015.'
-ms.openlocfilehash: 4b84d06a7b6c7f20f26d22ed5718da9abf8108d9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 48df53528b31babe6419bc42ac303b810abdf197
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834066"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390002"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planeación de capacidad para el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -31,7 +31,7 @@ La planeación de capacidad es una parte importante de la preparación para impl
 Antes de leer esta sección, debe estar familiarizado con las topologías de chat persistente. Para obtener más información, vea [Plan Persistent Chat Server topology](topology.md).
 
 > [!NOTE] 
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015. 
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015. 
   
 ## <a name="persistent-chat-server-capacity-planning"></a>Planeación de capacidad del servidor de chat persistente
 
@@ -113,9 +113,9 @@ Para cada salón de chat, la tabla de planeación de capacidad anterior especifi
   
 ### <a name="plan-capacity-for-managing-chat-room-access-by-invitation"></a>Planear la capacidad para administrar el acceso al salón de chat por invitación
 
-Puede usar la siguiente tabla de planeación de capacidad para comprender el número de invitaciones que el servidor de chat persistente crea y almacena en la base de datos de chat persistente cuando está configurado para enviar invitaciones. Las invitaciones se administran  en la categoría mediante la página Configuración de categoría de salón de chat en el Panel de control de Skype Empresarial Server o mediante el cmdlet Windows PowerShell, **set-csPersistentChatCategory**. Puede administrar invitaciones en un salón de chat (en línea  con lo que permite la categoría) mediante la página Administración de salas iniciada desde el cliente de Skype Empresarial o mediante un cmdlet Windows PowerShell, **set-csPersistentChatRoom**.
+Puede usar la siguiente tabla de planeación de capacidad para comprender el número de invitaciones que el servidor de chat persistente crea y almacena en la base de datos de chat persistente cuando está configurado para enviar invitaciones. Las invitaciones se administran en la categoría mediante  la página Configuración de categoría de salón de chat en el Panel de control de Skype Empresarial Server o mediante el cmdlet Windows PowerShell, **set-csPersistentChatCategory**. Puede administrar invitaciones en un salón de chat (en línea con lo que permite la categoría) mediante la  página Administración de salas iniciada desde el cliente de Skype Empresarial o mediante un cmdlet Windows PowerShell, **set-csPersistentChatRoom**.
   
-Los datos de ejemplo de la tabla  siguiente suponen que, en la página  Configuración del salón de chat para el 50 por ciento de todos los salas de chat, la opción Invitaciones está establecida en **Sí**.
+Los datos de ejemplo de la tabla siguiente suponen que, en  la página Configuración del salón de chat para el 50 por ciento de todos  los salas de chat, la opción Invitaciones está establecida en **Sí**.
   
 > [!IMPORTANT]
 > Si el valor calculado para el número de invitaciones que genera el servidor supera el millón, el rendimiento del servidor podría degradarse significativamente. Para evitar este problema, asegúrese de minimizar el número de salas de chat configuradas para enviar invitaciones o restringir el número de usuarios que pueden unirse a los salas de chat que se han configurado para enviar invitaciones. 
@@ -134,7 +134,7 @@ Los datos de ejemplo de la tabla  siguiente suponen que, en la página  Configur
 |Tasa de chat por sala (por día)   |50   |500   |100   |650   |
 |Tasa de chat (por segundo) en todas las salas   |55.56   |18.52   |0.03   |74   |
 |Modelo 2: empezar con el número de mensajes publicados por usuario y día   |||||
-|Tasa de chat por usuario y día   |15    |5   |0.1   |20   |
+|Tasa de chat por usuario y día   |15    |5   |0,1   |20   |
 |Tasa de chat por sala (por día)   |38   |375   |800   |1,213   |
 |Tasa de chat (por segundo) en todas las salas   |41.67   |13.89   |0.28   |56   |
    

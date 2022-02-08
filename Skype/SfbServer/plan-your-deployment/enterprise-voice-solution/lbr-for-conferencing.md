@@ -1,8 +1,8 @@
 ---
 title: Location-Based enrutamiento de conferencias en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planeación del enrutamiento basado en ubicación para conferencias en Skype Empresarial Server Telefonía IP empresarial, incluidas las transferencias de llamadas consultiva.
-ms.openlocfilehash: d9fee0304310f551d750be85a9b6e2b0d9a47ad3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3c5c7e4d374e9ece3ee0f0ce092d4030d2d84100
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855407"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387708"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based enrutamiento de conferencias en Skype Empresarial Server
 
@@ -51,10 +51,10 @@ Estas restricciones de Location-Based de enrutamiento se resumen en la tabla sig
 
 |Usuarios en una conferencia en un momento dado|Usuarios permitidos para unirse a la conferencia|Los usuarios no pueden unirse a la conferencia|
 |:-----|:-----|:-----|
-|Skype Empresarial Usuarios cliente VoIP de un solo sitio de red  <br/> |Skype Empresarial Usuario cliente VoIP desde el mismo sitio de red  <br/> Skype Empresarial Usuario cliente VoIP de un sitio de red diferente  <br/> Skype Empresarial Usuario cliente VoIP de un sitio de red desconocido  <br/> Usuario cliente Skype Empresarial VoIP federado  <br/> Unión de usuarios desde un punto de conexión RTC  <br/> |Ninguno  <br/> |
-|Skype Empresarial Usuarios cliente VoIP de un sitio de red desconocido  <br/> |Skype Empresarial Usuario cliente VoIP desde cualquier sitio  <br/> Skype Empresarial Usuario cliente VoIP desde un sitio desconocido  <br/> Usuario cliente Skype Empresarial VoIP federado  <br/> |Unión de usuarios a través de un extremo RTC  <br/> |
-|Skype Empresarial Usuarios cliente VoIP de diferentes sitios de red  <br/> |Skype Empresarial Usuario cliente VoIP desde cualquier sitio de red  <br/> Skype Empresarial Usuario cliente VoIP de un sitio de red desconocido  <br/> Usuario cliente Skype Empresarial VoIP federado  <br/> |Unión de usuarios a través de un extremo RTC  <br/> |
-|Skype Empresarial Usuarios de cliente VoIP de un solo sitio de red y usuarios que se unen desde un punto de conexión RTC  <br/> |Skype Empresarial Usuario cliente VoIP desde el mismo sitio de red  <br/> |Skype Empresarial Usuario cliente VoIP de un sitio de red diferente  <br/> Skype Empresarial Usuario cliente VoIP de un sitio de red desconocido  <br/> Usuario cliente Skype Empresarial VoIP federado  <br/> |
+|Skype Empresarial usuarios cliente VoIP desde un único sitio de red  <br/> |Skype Empresarial cliente VoIP desde el mismo sitio de red  <br/> Skype Empresarial cliente VoIP desde un sitio de red diferente  <br/> Skype Empresarial cliente VoIP desde un sitio de red desconocido  <br/> Usuario cliente Skype Empresarial VoIP federado  <br/> Unión de usuarios desde un punto de conexión RTC  <br/> |Ninguno  <br/> |
+|Skype Empresarial usuarios cliente VoIP desde un sitio de red desconocido  <br/> |Skype Empresarial cliente VoIP desde cualquier sitio  <br/> Skype Empresarial cliente VoIP desde un sitio desconocido  <br/> Usuario cliente Skype Empresarial VoIP federado  <br/> |Unión de usuarios a través de un extremo RTC  <br/> |
+|Skype Empresarial usuarios cliente VoIP de diferentes sitios de red  <br/> |Skype Empresarial cliente VoIP desde cualquier sitio de red  <br/> Skype Empresarial cliente VoIP desde un sitio de red desconocido  <br/> Usuario cliente Skype Empresarial VoIP federado  <br/> |Unión de usuarios a través de un extremo RTC  <br/> |
+|Skype Empresarial usuarios cliente VoIP desde un único sitio de red y usuarios que se unen desde un extremo rtc  <br/> |Skype Empresarial cliente VoIP desde el mismo sitio de red  <br/> |Skype Empresarial cliente VoIP desde un sitio de red diferente  <br/> Skype Empresarial cliente VoIP desde un sitio de red desconocido  <br/> Usuario cliente Skype Empresarial VoIP federado  <br/> |
 
 Las siguientes son características adicionales de la aplicación Location-Based enrutamiento para conferencias:
 
@@ -62,15 +62,15 @@ Las siguientes son características adicionales de la aplicación Location-Based
 
 - Un extremo RTC que se une a una conferencia con las fuerzas de enrutamiento de Location-Based no se restringirá para unirse a la conferencia independientemente de su estado si el extremo se une a través de un tronco que no está habilitado para el enrutamiento Location-Based.
 
-- Un sistema PBX conectado a un servidor de mediación a través de un tronco SIP que no realiza llamadas de salida a la RTC tendrá las mismas aplicaciones que los usuarios de Skype Empresarial ubicados en el mismo sitio de red donde se define el tronco SIP. Por ejemplo, un extremo RTC podrá unirse a una conferencia con un usuario pbx y un usuario de Skype Empresarial si se encuentran en el mismo sitio de red; de lo contrario, el extremo RTC no podrá unirse a la conferencia si el usuario pbx está en un sitio de red diferente al Skype Empresarial usuario.
+- Un sistema PBX conectado a un servidor de mediación a través de un tronco SIP que no realiza llamadas de salida a la RTC tendrá las mismas aplicaciones que los usuarios de Skype Empresarial ubicados en el mismo sitio de red donde se define el tronco SIP. Por ejemplo, un extremo RTC podrá unirse a una conferencia con un usuario de PBX y un usuario de Skype Empresarial si se encuentran en el mismo sitio de red; de lo contrario, el extremo RTC no podrá unirse a la conferencia si el usuario pbx está en un sitio de red diferente al del usuario de Skype Empresarial.
 
 > [!NOTE]
 > Con Skype Empresarial acumulativa 4, se debe observar el comportamiento de la tabla siguiente:
 
 |Usuario|Otra parte|Acción|Resultado|
 |:-----|:-----|:-----|:-----|
-|Skype Empresarial Móvil  <br/> |RTC  <br/> |Skype Empresarial Mobile está en una llamada RTC. Skype Empresarial Mobile, a continuación, escala la llamada a una conferencia Operador automático (CAA).  <br/> |La llamada está bloqueada, con un mensaje de error adecuado.  <br/> |
-|Skype Empresarial Móvil  <br/> |Skype Empresarial Cliente o usuario federado  <br/> |El cliente o el usuario federado se encuentra en una llamada VoIP a un usuario de Skype Empresarial Mobile Location-Based Routing y cualquiera de las partes escala a una CAA.  <br/> |La llamada de escalación está bloqueada, con un mensaje de error adecuado.  <br/> |
+|Skype Empresarial Móvil  <br/> |RTC  <br/> |Skype Empresarial Mobile está en una llamada RTC. Skype Empresarial Mobile escala la llamada a una conferencia Operador automático (CAA).  <br/> |La llamada está bloqueada, con un mensaje de error adecuado.  <br/> |
+|Skype Empresarial Móvil  <br/> |Skype Empresarial cliente o usuario federado  <br/> |El cliente o el usuario federado se encuentra en una llamada VoIP a un usuario de Skype Empresarial Mobile Location-Based Routing y cualquiera de las partes escala a una CAA.  <br/> |La llamada de escalación está bloqueada, con un mensaje de error adecuado.  <br/> |
 
 ## <a name="consultative-call-transfers"></a>Transferencias de llamadas consultiva
 
@@ -80,7 +80,7 @@ Además de aplicar Location-Based enrutamiento a reuniones de Skype Empresarial,
 
 ![Enrutamiento basado en ubicación para diagrama de conferencia.](../../media/LocationBasedRoutingForConferencing.jpg)
 
-Cuando un usuario habilitado para el enrutamiento de Location-Based inicia una transferencia de llamada consultiva de un punto de conexión RTC (como se muestra en la figura anterior), se crean dos llamadas activas, una llamada entre el usuario RTC y el usuario A de Skype Empresarial y la otra entre el usuario A de Skype Empresarial y el usuario B de Skype Empresarial. El comportamiento siguiente lo aplica el Location-Based  Enrutamiento de la aplicación de conferencia:
+Cuando un usuario habilitado para el enrutamiento de Location-Based inicia una transferencia de llamada consultiva de un extremo RTC (como se muestra en la figura anterior), se crean dos llamadas activas, una entre el usuario RTC y el usuario A de Skype Empresarial y la otra entre el usuario Skype Empresarial A y Skype Empresarial  usuario B. El siguiente comportamiento lo aplica la aplicación Location-Based routing for Conferencing:
 
 - Si el enrutamiento troncal SIP de la llamada RTC está autorizado para Skype Empresarial volver a enrutar la llamada RTC al sitio de red donde se encuentra un usuario B (es decir, destino de transferencia), se permitirá la transferencia de llamadas; de lo contrario, se bloqueará la transferencia de llamadas consultiva. Esta autorización se realiza en función de la ubicación de la parte transferida que se encuentra en el mismo sitio de red que el tronco SIP que enruta la llamada activa al extremo RTC.
 
@@ -104,7 +104,7 @@ En la tabla siguiente se describe cómo Location-Based restricciones de enrutami
 |Extremo PBX en cualquier sitio  <br/> |Skype Empresarial usuario en un sitio de red desconocido  <br/> |Se permitirá la transferencia consultiva  <br/> |
 |Extremo PBX en cualquier sitio  <br/> |Usuario Skype Empresarial federado  <br/> |Se permitirá la transferencia consultiva  <br/> |
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 La aplicación Location-Based routing for Conferencing requiere que Skype Empresarial Server o Lync Server 2013 Cumulative Update 2 se implemente en todos los grupos de servidores de Front-End y servidores Standard Edition de la topología. Si estas versiones de servidor no están instaladas en algunos servidores de la topología, las restricciones de enrutamiento de Location-Based no se pueden aplicar por completo en reuniones y transferencias de llamadas consultiva.
 
@@ -139,7 +139,7 @@ La Location-Based de enrutamiento para conferencias está deshabilitada de forma
 Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
 ```
 
-En este cmdlet, es el grupo en el que se va a habilitar la aplicación Location-Based enrutamiento de \<Pool FQDN\> conferencia.
+En este cmdlet, \<Pool FQDN\> es el grupo en el que se va a habilitar la aplicación Location-Based enrutamiento de conferencia.
 
 Este cmdlet devolverá la lista de las aplicaciones hospedadas por Skype Empresarial Server y el valor de prioridad para cada una de ellas. A la aplicación de enrutamiento de Location-Based para conferencias se le debe asignar un valor de prioridad mayor que la aplicación "UdcAgent" y menor que las aplicaciones "DefaultRouting", "ExumRouting" y "OutboundRouting". Se recomienda asignar a la aplicación Location-Based routing for Conferencing un valor de prioridad que sea un punto superior al valor de prioridad de la aplicación "UdcAgent".
 

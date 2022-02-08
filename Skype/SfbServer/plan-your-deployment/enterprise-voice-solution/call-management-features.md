@@ -1,8 +1,8 @@
 ---
 title: Planear las características de administración de llamadas en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: Información general sobre las características de administración de llamadas admitidas en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 459ec4558e39f01c87679227face57232f08ce41
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b1c149b70532ba673f28dae84c97fcf16353fe31
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846333"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387768"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>Planear las características de administración de llamadas en Skype Empresarial
 
@@ -29,11 +29,11 @@ Información general sobre las características de administración de llamadas a
 
 Las características de administración de llamadas de Telefonía IP empresarial controlan el modo en el que las llamadas se enrutan y contestan. Skype Empresarial Server proporciona las siguientes características de administración de llamadas:
 
-- **Estacionamiento de** llamadas: permite a los usuarios de voz estacionar temporalmente una llamada y, a continuación, recogerla desde el mismo teléfono o desde otro teléfono.
+- **Estacionamiento de llamadas**: permite a los usuarios de voz estacionar temporalmente una llamada y, a continuación, recogerla desde el mismo u otro teléfono.
 
-- **Recogida de grupos:** permite a los usuarios de voz recoger llamadas que están sonando para otros usuarios de voz que están asignados a grupos de recogida de llamadas.
+- **Recogida en grupo**: permite a los usuarios de voz recoger llamadas que están sonando para otros usuarios de voz que están asignados a grupos de recogida de llamadas.
 
-- **Grupo de respuesta:** enruta las llamadas entrantes a grupos de agentes mediante grupos de extensiones o preguntas y respuestas interactivas de voz (IVR).
+- **Grupo de respuesta**: enruta las llamadas entrantes a grupos de agentes mediante grupos de extensiones o preguntas y respuestas interactivas de voz (IVR).
 
 - **Anuncio**: reproduce un mensaje para las llamadas realizadas a un número no asignado o enruta la llamada a otro lugar, o ambas.
 

@@ -1,8 +1,8 @@
 ---
 title: Detalles de la vista QoE
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 description: Las vistas abarcan la mayoría de los escenarios en los que se recuperan datos de la base de datos de SQL de calidad de la experiencia. Se recomienda usar vistas para crear informes personalizados en lugar de tener acceso directamente a las tablas de base de datos; esto se debe a que es más probable que las vistas mantengan la compatibilidad con versiones anteriores con versiones futuras.
-ms.openlocfilehash: f3a22ba6b8984334e3b4c4f1e7cea293a7741b01
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d812af701a0073b8be4188b98cd94a66d50c68d3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858077"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385388"
 ---
 # <a name="qoe-view-details"></a>Detalles de la vista QoE
  

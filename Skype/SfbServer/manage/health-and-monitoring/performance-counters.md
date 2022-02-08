@@ -1,8 +1,8 @@
 ---
 title: Contadores de rendimiento de movilidad en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 'Summary: Learn about the performance counters that you can use to monitor servers running the Unified Communications Web API (UCWA) and the Skype Empresarial Server Mcx Mobility Service.'
-ms.openlocfilehash: e89ffdb590a7028bd1fa9a9594b6ba0bcce9be11
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 157417d7a0cbc8db2a94ecba18f984b3eedde043
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827583"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384268"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Contadores de rendimiento de movilidad en Skype Empresarial Server
  
@@ -54,8 +54,8 @@ El nombre de categoría de los contadores de la tabla Mcx Mobility Service es **
 |Tiempo medio de inicio de la aplicación (ms)  <br/> |Tiempo medio de inicio de la aplicación en milisegundos  <br/> |
 |Duración media de la sesión (ms)  <br/> |Duración media de una sesión en milisegundos  <br/> |
 |Errores de unión de MCU de datos  <br/> |Número de errores de unión de MCU de datos  <br/> |
-|Exchange Latencia de búsqueda de contactos (ms)  <br/> |Este contador muestra el tiempo promedio (en milisegundos) para buscar contacto en Exchange  <br/> |
-|Exchange Latencia de hd photo get (ms)  <br/> |Este contador muestra el tiempo promedio (en milisegundos) para recuperar una foto de Exchange  <br/> |
+|Exchange latencia de búsqueda de contactos (ms)  <br/> |Este contador muestra el tiempo promedio (en milisegundos) para buscar contacto en Exchange  <br/> |
+|Exchange HD Photo Get Latency (ms)  <br/> |Este contador muestra el tiempo promedio (en milisegundos) para recuperar una foto de Exchange  <br/> |
 |Respuestas HTTP 4xx/Second  <br/> |La tasa por segundo de respuestas con código HTTP 4xx  <br/> |
 |Respuestas HTTP 5xx/Second  <br/> |La tasa por segundo de respuestas con código HTTP 5xx  <br/> |
 |Errores de unión de MCU de MI  <br/> |Número de errores de unión a MCU de MI  <br/> |

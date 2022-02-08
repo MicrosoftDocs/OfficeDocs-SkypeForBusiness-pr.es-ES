@@ -1,8 +1,8 @@
 ---
 title: Planear el archivado en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Resumen: lea este tema para obtener información sobre cómo planear el archivado en Skype Empresarial Server.'
-ms.openlocfilehash: 6d67caa4b196c65282ecb404af747e0a60f435a7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b763d2e771d054a1b7522e9af0eace4663f3ce0c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843703"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386438"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planear el archivado en Skype Empresarial Server
  
@@ -40,7 +40,7 @@ El archivado también requiere almacenamiento de archivos, pero el archivado usa
 
 Para implementar el archivado, debe decidir cómo cumplir los requisitos de archivado de su organización mediante la determinación de lo siguiente:
   
-- **Qué opción de almacenamiento se va a usar**. Puede implementar el almacenamiento de una de dos maneras o usar una combinación de ambas:
+- **Qué opción de almacenamiento usar**. Puede implementar el almacenamiento de una de dos maneras o usar una combinación de ambas:
     
   - **Exchange almacenamiento.** Si tiene una implementación Exchange, puede integrar el archivado Skype Empresarial Server y Exchange para que los datos archivados Skype Empresarial Server y Exchange se almacenen juntos en Exchange. Si habilita la opción de integración de Microsoft Exchange, los buzones de usuario que se almacenan en el Exchange Server usan almacenamiento Exchange para los datos archivados, pero solo si los buzones se han puesto In-Place retención. De forma predeterminada, microsoft Exchange la integración no está habilitada.
     
@@ -48,7 +48,7 @@ Para implementar el archivado, debe decidir cómo cumplir los requisitos de arch
     
 - **Cuándo implementar el archivado**. Puede implementar el archivado como parte de la implementación Skype Empresarial Server implementación inicial o puede agregarlo a una implementación existente. Para usar Skype Empresarial Server almacenamiento de archivado (SQL Server base de datos), use el Generador de topologías para agregar las bases de datos a la topología y, a continuación, vuelva a publicar la topología. Si todos los usuarios se encuentran en Exchange y tienen sus buzones en retención In-Place, no es necesario actualizar la topología, sino que solo es necesario habilitar la integración de Microsoft Exchange para almacenar datos archivados en Exchange. 
     
-- **Qué sitios y usuarios de la organización requieren archivado.** Puede configurar las opciones de archivado para toda la organización y, opcionalmente, para sitios, grupos de servidores, usuarios y grupos de usuarios específicos.
+- **Qué sitios y usuarios de la organización requieren archivado**. Puede configurar las opciones de archivado para toda la organización y, opcionalmente, para sitios, grupos de servidores, usuarios y grupos de usuarios específicos.
     
 - **Qué contenido se debe archivar**. Tanto si especifica el archivado a nivel global como para sitios y usuarios específicos, en cada uno de estos niveles, especifique si desea habilitar los siguientes tipos de contenido: 
     
@@ -71,11 +71,11 @@ Para implementar el archivado, debe decidir cómo cumplir los requisitos de arch
     Skype Empresarial Server tampoco archiva las conversaciones de chat persistente. Para archivar conversaciones de chat persistente, debe habilitar y configurar el servicio de cumplimiento, que es un componente que se puede implementar con el servidor de chat persistente. Para obtener más información, vea [Plan for Persistent Chat Server in Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
 
     > [!NOTE] 
-    > El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015. 
+    > El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015. 
     
-- **Cuánto tiempo deben conservarse los materiales archivados.** La base de datos de archivado no está diseñada para la retención a largo plazo y Skype Empresarial Server no proporciona una solución de detección electrónica (búsqueda) para los datos archivados, por lo que los datos deben moverse a otro almacenamiento. Skype Empresarial Server proporciona una herramienta de exportación de sesión que puede usar para exportar datos archivados y que crea transcripciones de los datos archivados que se pueden buscar. 
+- **Cuánto tiempo deben conservarse los materiales archivados**. La base de datos de archivado no está diseñada para la retención a largo plazo y Skype Empresarial Server no proporciona una solución de detección electrónica (búsqueda) para los datos archivados, por lo que los datos deben moverse a otro almacenamiento. Skype Empresarial Server proporciona una herramienta de exportación de sesión que puede usar para exportar datos archivados y que crea transcripciones de los datos archivados que se pueden buscar. 
     
-     Para la directiva global y para cada sitio y directiva de usuario que cree, puede especificar cuándo se deben purgar los datos archivados y exportados. Para obtener más información acerca de la depuración de datos, vea [Manage purging of archived data in Skype Empresarial Server](../../manage/archiving/purging-of-archived-data.md). Para obtener más información acerca del uso de la herramienta de exportación de sesión, vea [Export archived data in Skype Empresarial Server](../../manage/archiving/export-archived-data.md).
+     Para la directiva global y para cada sitio y directiva de usuario que cree, puede especificar cuándo se deben purgar los datos archivados y exportados. Para obtener más información acerca de la depuración de datos, vea [Manage purging of archived data in Skype Empresarial Server](../../manage/archiving/purging-of-archived-data.md). Para obtener más información acerca del uso de la herramienta de exportación de sesión, vea [Exportar datos archivados en Skype Empresarial Server](../../manage/archiving/export-archived-data.md).
     
 - **Archivar o no las comunicaciones internas o externas**. Puede habilitar el archivado de las comunicaciones internas (comunicaciones entre usuarios internos), las comunicaciones externas (comunicaciones que incluyen al menos un usuario fuera de la red interna), o ambas. Puede especificar estas opciones para toda la organización o bien para grupos y sitios específicos. De forma predeterminada, no se habilita ninguna de estas opciones.
     
@@ -99,7 +99,7 @@ El archivado se instala automáticamente en cada servidor front-end al implement
 - Usar Skype Empresarial Server almacenamiento
     
 > [!NOTE]
-> Si implementa las bases de datos de archivado de Skype Empresarial Server y habilita la integración de Microsoft Exchange, las directivas de Exchange invalidan las directivas de archivado de Skype Empresarial Server, pero solo para los usuarios que se encuentran en Exchange y han tenido sus buzones put on In-Place Hold. Skype Empresarial archivado depende de la directiva de retención Exchange In-Place Microsoft. 
+> Si implementa las bases de datos de archivado de Skype Empresarial Server y habilita la integración de Microsoft Exchange, las directivas de Exchange invalidan las directivas de archivado de Skype Empresarial Server, pero solo para los usuarios que se encuentran en Exchange  y han puesto sus buzones en In-Place hold. Skype Empresarial archivado depende de la directiva de retención Exchange In-Place Microsoft. 
   
 Si implementa el archivado para un grupo de servidores front-end o un servidor Standard Edition, debe habilitarlo para todos los demás grupos de servidores front-end y Standard Edition servidores de la implementación. Si el archivado no está habilitado en el grupo donde se hospeda una conversación o reunión, es posible que no se archiven todos los datos de la conferencia. El archivado seguirá funcionando para los mensajes de mensajería instantánea, pero es posible que el contenido y los eventos de conferencia no se archiven.
   
@@ -136,9 +136,9 @@ Al agregar SQL Server de almacenamiento a la topología, puede optar por asociar
 > [!NOTE]
 > El servidor que hospeda la base de datos de archivado puede hospedar otras bases de datos. Sin embargo, si piensa combinar la base de datos de archivado con otras bases de datos, tenga en cuenta que si va a archivar mensajes de más de unos pocos usuarios, el espacio en disco que necesita la base de datos de archivado puede crecer mucho. Por este motivo, no se recomienda la combinación de la base de datos de archivado con la base de datos back-end. 
   
-Si coloca la base de datos de archivado con la base de datos de supervisión, la base de datos back-end o ambas bases de datos, puede usar una sola instancia SQL para cualquiera o todas las bases de datos, o puede usar una instancia SQL independiente para cada base de datos, con la siguiente limitación: cada instancia SQL puede contener solo una base de datos back-end única,  base de datos de supervisión única y base de datos de archivado única.
+Si coloca la base de datos de archivado con la base de datos de supervisión, la base de datos back-end o ambas bases de datos, puede usar una sola instancia SQL para cualquiera o todas las bases de datos, o puede usar una instancia SQL independiente para cada base de datos, con la siguiente limitación: cada instancia SQL puede contener solo una base de datos back-end única, una sola base de datos de supervisión,  y una sola base de datos de archivado.
   
-Para obtener más información acerca de la ubicación de todas las bases de datos y roles de servidor, vea [Topology Basics for Skype Empresarial Server](../../plan-your-deployment/topology-basics/topology-basics.md). Para obtener más información sobre cómo actualizar la topología para incluir bases de datos de almacenamiento, vea [Create and publish new topology in Skype Empresarial Server](../../deploy/install/create-and-publish-new-topology.md).
+Para obtener más información acerca de la colocación de todas las bases de datos y roles de servidor, vea [Topology Basics for Skype Empresarial Server](../../plan-your-deployment/topology-basics/topology-basics.md). Para obtener más información sobre cómo actualizar la topología para incluir bases de datos de almacenamiento, vea [Create and publish new topology in Skype Empresarial Server](../../deploy/install/create-and-publish-new-topology.md).
   
 ### <a name="determine-archiving-options-and-user-policies"></a>Determinar las opciones de archivado y las directivas de usuario
 
@@ -152,7 +152,7 @@ Deberá determinar:
     
 - Si se habilitan directivas para usuarios y grupos específicos
     
-Skype Empresarial Server Las opciones de archivado se pueden especificar en los siguientes niveles. 
+Skype Empresarial Server opciones de archivado se pueden especificar en los siguientes niveles. 
   
 - **Opción de nivel global**. Esta es la configuración de archivado predeterminada y se aplica a toda la implementación. Se crea al implementar Skype Empresarial Server y, de forma predeterminada, deshabilita el archivado para comunicaciones internas y externas. No puede eliminar esta opción. Si elige la opción eliminar, la opción global se restablecerá a la configuración predeterminada.
     
@@ -168,19 +168,19 @@ Skype Empresarial Server Las opciones de archivado se pueden especificar en los 
     
     Por ejemplo, supongamos que deshabilita el archivado para comunicaciones internas y externas en la configuración global, cree una directiva de nivel de sitio en la que habilite el archivado para comunicaciones internas y externas y, a continuación, cree una directiva de nivel de usuario en la que deshabilite el archivado para comunicaciones externas. Las comunicaciones se archivarían tanto para comunicaciones externas como internas para todos los usuarios del sitio, excepto para los usuarios a los que aplica la directiva de nivel de usuario; para estos usuarios solo se archivarían las comunicaciones internas.
     
-Para obtener más información sobre cómo configurar las configuraciones de archivado iniciales al implementar el archivado, vea [Deploy archiving for Skype Empresarial Server](../../deploy/deploy-archiving/deploy-archiving.md). Para obtener más información sobre cómo administrar el archivado después de la implementación, vea [Manage archiving in Skype Empresarial Server](../../manage/archiving/archiving.md). 
+Para obtener más información sobre cómo configurar las configuraciones de archivado iniciales al implementar el archivado, vea [Deploy archiving for Skype Empresarial Server](../../deploy/deploy-archiving/deploy-archiving.md). Para obtener más información sobre cómo administrar el archivado después de la implementación, consulte [Manage archiving in Skype Empresarial Server](../../manage/archiving/archiving.md). 
   
 ## <a name="archiving-configuration-tools"></a>Herramientas de configuración de archivado
 
- La mayoría de las opciones de archivado se controlan mediante el panel Skype Empresarial Server control. Sin embargo, hay algunas opciones disponibles solo mediante el Shell Skype Empresarial Server administración. Estas opciones incluyen archivar mensajes duplicados y exportar datos archivados. Para obtener más información acerca del uso del Panel de control de Skype Empresarial Server y el Shell de administración de Skype Empresarial Server para administrar directivas de archivado, vea [Manage archiving in Skype Empresarial Server](../../manage/archiving/archiving.md).
+ La mayoría de las opciones de archivado se controlan mediante el panel Skype Empresarial Server control. Sin embargo, hay algunas opciones disponibles solo mediante el Shell Skype Empresarial Server administración. Estas opciones incluyen archivar mensajes duplicados y exportar datos archivados. Para obtener más información acerca del uso del Panel de control Skype Empresarial Server y el Shell de administración de Skype Empresarial Server para administrar directivas de archivado, vea [Manage archiving in Skype Empresarial Server](../../manage/archiving/archiving.md).
   
 ## <a name="access-archived-data"></a>Acceder a datos archivados
 
 El acceso a los datos archivados depende de dónde se almacenan los datos: 
   
-- **Almacenamiento Exchange Microsoft**. Si elige la opción de integración Exchange, Skype Empresarial Server deposita el contenido de archivado en el almacén de Exchange para todos los usuarios que se encuentran en Exchange y que han puesto sus buzones en retención In-Place. Los datos archivados se almacenan en la carpeta elementos recuperables de los buzones de usuario, que  generalmente es invisible para los usuarios y solo los usuarios con un rol de administración de detección Exchange búsqueda. Exchange permite la búsqueda federada y la detección, junto con SharePoint, si se implementa. Para obtener más información sobre el almacenamiento, retención y detección de datos almacenados en Exchange, consulte la Exchange y SharePoint datos.
+- **Almacenamiento Exchange Microsoft**. Si elige la opción de integración Exchange, Skype Empresarial Server deposita el contenido de archivado en el almacén de Exchange para todos los usuarios que se encuentran en Exchange y que han puesto sus buzones en retención In-Place. Los datos archivados se almacenan en la carpeta elementos recuperables de los buzones de usuario, que generalmente es invisible para los usuarios y solo pueden buscarlos los usuarios con un rol Exchange **administración** de detección. Exchange permite la búsqueda federada y la detección, junto con SharePoint, si se implementa. Para obtener más información sobre el almacenamiento, retención y detección de datos almacenados en Exchange, consulte la Exchange y SharePoint datos.
     
-- **Skype Empresarial Server de archivado**. Si configura bases de datos de archivado de Skype Empresarial Server, Skype Empresarial Server deposita contenido de archivado en las bases de datos de archivado de Skype Empresarial Server para los usuarios que no están ubicados en Exchange y que no han puesto sus buzones en retención In-Place. Estos datos no pueden buscarse, pero se pueden exportar a formatos que se pueden buscar mediante otras herramientas. Para obtener más información acerca de la exportación de datos almacenados en bases de datos de archivado, vea [Export archived data in Skype Empresarial Server](../../manage/archiving/export-archived-data.md).
+- **Skype Empresarial Server de archivado.** Si configura bases de datos de archivado de Skype Empresarial Server, Skype Empresarial Server deposita contenido de archivado en las bases de datos de archivado de Skype Empresarial Server para los usuarios que no están en Exchange y que no han puesto sus buzones en In-Place Espera. Estos datos no pueden buscarse, pero se pueden exportar a formatos que se pueden buscar mediante otras herramientas. Para obtener más información sobre cómo exportar datos almacenados en bases de datos de archivado, vea [Exportar datos archivados en Skype Empresarial Server](../../manage/archiving/export-archived-data.md).
     
 ## <a name="for-more-information"></a>Más información
 
@@ -190,6 +190,6 @@ Para obtener más información acerca del archivado, consulte los temas siguient
     
 - [Administrar el archivado en Skype Empresarial Server](../../manage/archiving/archiving.md)
     
-Para obtener más información sobre Skype Empresarial Server y Exchange trabajo en conjunto, vea [Plan to integrate Skype Empresarial and Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+Para obtener más información sobre Skype Empresarial Server y Exchange trabajar juntos, vea [Plan to integrate Skype Empresarial and Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
   
 

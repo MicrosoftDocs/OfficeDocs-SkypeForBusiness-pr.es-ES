@@ -1,8 +1,8 @@
 ---
 title: Directiva de acceso externo Crear nueva o editar existente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 6572ad3ab9bf95a425555af75b6d294de183c9c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5db0635f4562712e30f1d239a9e25e958e224337
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838012"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384718"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>Directiva de acceso externo: Crear nuevos o editar los existentes
 

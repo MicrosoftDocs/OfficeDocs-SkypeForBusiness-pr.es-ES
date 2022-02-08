@@ -1,8 +1,8 @@
 ---
 title: Administración de perfiles de directiva de ancho de banda de red
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Use los procedimientos de este artículo para ver, crear, modificar o eliminar perfiles de directiva de ancho de banda de red.
-ms.openlocfilehash: fee0d4f57847747b0e25c98bc99183daa22a9996
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a360bd05ac3ee9cbd4d5a8d8d6578389dfc3068c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851003"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388128"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Administrar perfiles de directivas de ancho de banda de red en Skype Empresarial Server
 
@@ -73,7 +73,7 @@ Como parte del control de admisión de llamadas (CAC), se usa una directiva de a
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Directiva de ancho **de banda.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en **Directiva de ancho de banda**.
 
 4.  En la página **Directiva de ancho de banda**, haga clic en **Nuevo**.
 
@@ -101,13 +101,13 @@ Como parte del control de admisión de llamadas (CAC), se usa una directiva de a
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Directiva de ancho **de banda.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en **Directiva de ancho de banda**.
 
 4.  En la página **Directiva de ancho de banda**, haga clic en el perfil de directiva de ancho de banda que desea modificar.
 
 5.  En el menú **Editar**, haga clic en **Mostrar detalles**.
 
-6.  En la **página Editar perfil de** directiva de ancho de banda, modifique los campos según sea necesario (para obtener más información, vea Para crear un nuevo perfil de directiva de ancho de [banda).](#to-create-a-new-bandwidth-policy-profile)
+6.  En la **página Editar perfil de directiva de** ancho de banda, modifique los campos según sea necesario (para obtener más información, vea [Para crear un nuevo perfil de directiva de ancho de banda](#to-create-a-new-bandwidth-policy-profile)).
 
 7.  Haga clic en **Confirmar**.
 
@@ -125,7 +125,7 @@ Como parte del control de admisión de llamadas (CAC), se usa una directiva de a
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en Directiva de ancho **de banda.**
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en **Directiva de ancho de banda**.
 
 4.  En la página **Directiva de ancho de banda**, haga clic en el perfil de directiva de ancho de banda que desea eliminar.
 
@@ -139,7 +139,7 @@ Como parte del control de admisión de llamadas (CAC), se usa una directiva de a
     > No puede eliminar un perfil de directiva de ancho de banda que esté asociado a un sitio de red. Primero debe eliminar la asociación establecida con el sitio de red para poder eliminar el perfil. 
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administración del control de admisión de llamadas para sitios](managing-call-admission-control-for-sites.md)
  

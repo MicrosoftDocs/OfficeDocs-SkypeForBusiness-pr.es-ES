@@ -1,8 +1,8 @@
 ---
 title: 'Panel de control: búsqueda de usuario actualizada'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/21/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Puede usar los resultados de una consulta de búsqueda para configurar usuarios para Skype Empresarial Server. Puede buscar usuarios según el nombre para mostrar, el nombre, los apellidos, el número de cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea. También puede buscar usuarios mediante el Panel de control de Lync Server o el complemento Usuarios y equipos de Active Directory.
-ms.openlocfilehash: 8ebb4c7d1c8288d3dfaef689422396130490aca0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 40a1ced2933abe628c7d1e56d9a1a7f66466769e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849043"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388498"
 ---
 # <a name="control-panel---updated-user-search"></a>Panel de control actualizado: Búsqueda de usuarios
 
@@ -28,7 +28,7 @@ Puede usar los resultados de una consulta de búsqueda para configurar usuarios 
 
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
-Puede realizar las siguientes tareas en la **página** Panel de control de búsqueda del usuario:
+Puede realizar las siguientes tareas en **la página Panel** de control de búsqueda del usuario:
 
 - [Buscar usuarios de Lync Server 2010](/previous-versions/office/lync-server-2013/lync-server-2013-search-for-lync-server-users)
 
@@ -76,11 +76,11 @@ Agregar texto descriptivo adicional, según sea conveniente.
 
 ### <a name="search-results-menus"></a>Menús de búsqueda de resultados
 
-- **Habilitar usuarios** Haga clic para abrir el [cuadro de diálogo Usuarios: Nuevo](users-new-lync-server-user.md) usuario de Lync Server, donde puede agregar un nuevo usuario a Skype Empresarial Server.
+- **Habilitar usuarios** Haga clic para abrir el [cuadro de diálogo Usuarios: Nuevo usuario de Lync Server](users-new-lync-server-user.md), donde puede agregar un nuevo usuario a Skype Empresarial Server.
 
     Para agregar un nuevo contacto, haga clic en la flecha abajo y luego seleccione **Activar contactos** para abrir el cuadro de diálogo de [Users: New Contact Objects](users-new-contact-objects.md).
 
-- **Editar** Haga **clic en** Editar y, a continuación, en Mostrar detalles para mostrar los detalles del usuario seleccionado, o haga clic en **Seleccionar** todos los resultados de búsqueda para seleccionar todos los usuarios que se muestran en la tabla de resultados. 
+- **Editar** Haga **clic en** Editar y, a continuación, en Mostrar detalles para mostrar los detalles del usuario seleccionado, o haga clic en **Seleccionar** todos los resultados de búsqueda para seleccionar todos los usuarios que se muestran en la tabla de resultados.
 
 - **Acción** Haga **clic en** Acción y, a continuación, seleccione la acción que desea realizar para los usuarios seleccionados en los resultados de búsqueda. Están disponibles las siguientes acciones:
 
@@ -88,11 +88,11 @@ Agregar texto descriptivo adicional, según sea conveniente.
 
   - **Deshabilitar temporalmente para Lync Server** Deshabilita la cuenta de usuario en Skype Empresarial Server hasta que vuelva a habilitarla, sin quitar la cuenta de usuario.
 
-  - **Asignar directivas** Abre el [cuadro de diálogo Usuarios: Asignar directivas,](users-assign-policies.md) donde puede configurar las directivas asignadas al usuario.
+  - **Asignar directivas** Abre el [cuadro de diálogo Usuarios: Asignar directivas](users-assign-policies.md) , donde puede configurar las directivas asignadas al usuario.
 
-  - **Ver estado del PIN** Abre el [cuadro de diálogo Usuarios: Ver](users-view-pin-status.md) estado del PIN, que muestra los datos de PIN del usuario seleccionado.
+  - **Ver estado del PIN** Abre el [cuadro de diálogo Usuarios: Ver estado del PIN](users-view-pin-status.md) , que muestra los datos de PIN del usuario seleccionado.
 
-  - **Establecer PIN** Abre el cuadro de diálogo Establecer [PIN,](set-pin.md) donde puede establecer el PIN para el usuario seleccionado.
+  - **Establecer PIN** Abre el [cuadro de diálogo Establecer PIN](set-pin.md) , donde puede establecer el PIN para el usuario seleccionado.
 
   - **BLOQUEAR PIN** Bloquea el PIN del usuario.
 

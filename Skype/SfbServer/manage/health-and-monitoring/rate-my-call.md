@@ -1,8 +1,8 @@
 ---
 title: Calificar mi llamada en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Summary: Learn about the Rate My Call feature in Skype Empresarial Server.'
-ms.openlocfilehash: f19424edfb4169a27e10a8b5ac1624065e6288dd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 27fbfa68026feeef54d478ba473961601db0ae8d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864837"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390132"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Calificar mi llamada en Skype Empresarial Server
 
@@ -110,7 +110,7 @@ Las definiciones de token se codifican de la siguiente manera:
 
  **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Esta tabla contiene los resultados de sondeo de la votación "Star" y los comentarios de los clientes si están habilitados.
 
-Se puede llamar a los datos de las tablas mediante una selección de una consulta **\* [Table.Name]** o mediante Microsoft SQL Server Management Studio.
+Se puede llamar a los datos de tablas mediante una consulta **select \* de [Table.Name]** o mediante Microsoft SQL Server Management Studio.
 
 Se pueden SQL siguientes consultas:
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>Actualización de definiciones de token
 
-Los últimos Skype Empresarial informan de nuevos identificadores de token de problema ( 100) que pueden no estar \> presentes en su [QoeMetrics].[ dbo]. Tabla [CallQualityFeedbackTokenDef]. Para actualizar la tabla de base de datos con las definiciones de token más recientes, el siguiente comando SQL puede ejecutarse en la base de datos de supervisión mediante Microsoft SQL Server Management Studio. Este comando reemplazará todas las entradas de [QoeMetrics]. [dbo]. Tabla [CallQualityFeedbackTokenDef].
+Los últimos Skype Empresarial informan de nuevos identificadores de token de problema (\> 100) que pueden no estar presentes en su [QoeMetrics].[ dbo]. Tabla [CallQualityFeedbackTokenDef]. Para actualizar la tabla de base de datos con las definiciones de token más recientes, el siguiente comando SQL puede ejecutarse en la base de datos de supervisión mediante Microsoft SQL Server Management Studio. Este comando reemplazará todas las entradas de [QoeMetrics]. [dbo]. Tabla [CallQualityFeedbackTokenDef].
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

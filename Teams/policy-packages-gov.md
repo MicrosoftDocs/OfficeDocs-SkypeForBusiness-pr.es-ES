@@ -1,7 +1,7 @@
 ---
 title: Teams paquetes de directivas para el gobierno
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -17,12 +17,12 @@ ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar Teams paquetes de directivas para su organización gubernamental.
-ms.openlocfilehash: 02680b18d32e62a8a559ac6d2a30708e5aa05497
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 40804e4536be5f4263623c48ace2450dec92036a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749599"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384108"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams paquetes de directivas para el gobierno
 

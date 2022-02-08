@@ -1,8 +1,8 @@
 ---
 title: Administrar Skype Empresarial Server 2015 con el módulo de administración de SCOM
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Summary: Learn how to configure your Skype Empresarial Server 2015 infrastructure to work with System Center Operations Manager.'
-ms.openlocfilehash: 4fb6d0c900285b473012d5f9051f25c8c30320f6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4ee95f04fbaa1241e3aa84c8aa5de39c07c0c170
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836292"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386448"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Administrar Skype Empresarial Server 2015 con el módulo de administración de SCOM
  
@@ -35,17 +35,17 @@ Esta información se escribió basándose en la versión 9319.0 del módulo de s
   
 Identificar y  [configurar el servidor de administración principal](configure-the-primary.md). Para ello, debe instalar System Center Operations Manager 2012 SP1 o R2. 
   
- Identifique y [configure los Skype Empresarial Server equipos que se supervisarán.](configure-computers-to-monitor.md) Para supervisar un equipo Skype Empresarial Server mediante System Center Operations Manager, debe instalar los archivos de agente de System Center Operations Manager y configurar cada servidor para que actúe como proxy. 
+ Identifique y [configure los Skype Empresarial Server equipos que se supervisarán](configure-computers-to-monitor.md). Para supervisar un equipo Skype Empresarial Server mediante System Center Operations Manager, debe instalar los archivos de agente de System Center Operations Manager y configurar cada servidor para que actúe como proxy. 
   
- Identificar e [instalar y configurar nodos de monitor.](watcher-nodes.md) Los nodos de monitor son equipos que ejecutan periódicamente transacciones sintéticas Windows PowerShell cmdlets que comprueban que los componentes clave de Skype Empresarial Server, como la capacidad de iniciar sesión en el sistema o la capacidad de intercambiar mensajes instantáneos, funcionan según lo esperado. Skype Empresarial Server 
+ Identificar e [instalar y configurar nodos de monitor](watcher-nodes.md). Los nodos de monitor son equipos que ejecutan periódicamente transacciones sintéticas Windows PowerShell cmdlets que comprueban que los componentes clave de Skype Empresarial Server, como la capacidad de iniciar sesión en el sistema o la capacidad de intercambiar mensajes instantáneos, funcionan según lo esperado. Skype Empresarial Server 
   
-## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>System Center Soporte técnico de agente y servidor de administración raíz de Operations Manager
+## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>System Center servidor de administración raíz de Operations Manager y soporte técnico de agente
 
 Los módulos de administración se pueden usar con System Center Operations Manager 2007 R2 (64 bits) (compatible solo con fines de migración) o System Center Operations Manager 2012 SP1 &amp; R2 (64 bits) o System Center Operations Manager 2016 (64 bits). En la tabla siguiente se muestran las configuraciones admitidas para los módulos de administración para Skype Empresarial Server 2015: 
   
 |Configuración|¿Se admite?|
 |:-----|:-----|
-|Sistema operativo Windows Server 2008 R2  <br/> Windows Server 2012 Sistema operativo R2   |Sí. Tanto en Skype Empresarial Server servidor de 2015 como en nodos de monitor de transacciones sintéticas.   |
+|Sistema operativo Windows Server 2008 R2  <br/> Windows Server 2012 operativo R2   |Sí. Tanto en Skype Empresarial Server servidor de 2015 como en nodos de monitor de transacciones sintéticas.   |
 |Servidores agrupados   |No admitida.   |
 |Supervisión sin agente   |No admitida.   |
 |Entorno virtual   |Sí.   |
@@ -60,14 +60,14 @@ En la tabla siguiente se muestran los requisitos de capacidad y sistema operativ
 |:-----|:-----|
 |CPU   |Uno de los siguientes:  <br/> Procesador de 64 bits, cuatro núcleos, 2,33 GHz o superior  <br/> Procesador de 2 vías de 64 bits, doble núcleo, 2,33 GHz o superior   |
 |Memoria   |8 GB   |
-|Sistema operativo   |Windows Server 2008 R2  <br/> Windows Server 2012 R2   |
+|Sistema operativo   |Windows Server 2008 R2  <br/> Windows Server 2012 R2   |
 |Red   |1 adaptador de red a 1 Gbps   |
    
 ## <a name="prerequisites"></a>Requisitos previos
 
 Para ejecutar un nodo de monitor de transacciones sintéticas, primero debe instalar lo siguiente:
   
-- System Center Agente de Operations Manager 
+- System Center Operations Manager 
     
 -  Microsoft .NET Framework 4.5
     
@@ -118,7 +118,7 @@ Las alertas se clasifican en las siguientes categorías:
   
  **Alertas de prioridad media:** Estas alertas indican condiciones que afectan a un subconjunto de usuarios o indican problemas en la calidad de la llamada, por ejemplo, errores de componentes, latencia en el establecimiento de llamadas o menor calidad de audio en las llamadas. Las alertas de esta categoría son con estado (es decir, la naturaleza de los cambios de alerta en función del estado de la conexión de red). Por ejemplo, si los tiempos de establecimiento de llamadas indican latencia pero, a continuación, vuelven a un umbral normal, esta alerta de prioridad media se resolvería automáticamente en System Center Operations Manager y los administradores no tendrían que tomar medidas. Las alertas que no se pueden resolver automáticamente suelen ser dirigidas por los administradores en el mismo día laborable.
   
- **Otras alertas:** Estas alertas se generan a partir de componentes que pueden afectar a un usuario específico o subconjunto de usuarios. Por ejemplo, una alerta típica sería que el servicio de libreta de direcciones no podía analizar la entrada de Active Directory® Domain Services (AD DS) para el usuario: testuser@contoso.com. Los administradores pueden abordar estas alertas siempre que tengan tiempo disponible.
+ **Otras alertas:** Estas alertas se generan a partir de componentes que pueden afectar a un usuario específico o subconjunto de usuarios. Por ejemplo, una alerta típica sería que el servicio de libreta de direcciones no podía analizar la entrada de Servicios de dominio de Active Directory® (AD DS) para el usuario: testuser@contoso.com. Los administradores pueden abordar estas alertas siempre que tengan tiempo disponible.
   
 ### <a name="synthetic-transactions"></a>Transacciones sintéticas
 
@@ -173,16 +173,16 @@ En la tabla siguiente se muestran los estados de mantenimiento de los objetos Sk
   
 |Objeto Management Pack|Descripción|
 |:-----|:-----|
-|Skype Empresarial Server Implementación   |Representa la implementación de Skype Empresarial Server 2015 en la organización.   |
-|Skype Empresarial Server Sitio   |Representa diferentes ubicaciones geográficas donde se implementan los servicios.   |
-|Skype Empresarial Server Grupo de servidores   |Un grupo de servidores (dentro de un sitio) que proporciona servicios de comunicaciones, como mensajería instantánea y conferencia, a los usuarios. Aplicable a grupos de servidores front-end, grupos de servidores perimetrales y grupos de directores, incluso si solo hay una sola máquina en un grupo determinado.   |
-|Skype Empresarial Server Rol   |Un rol de servidor que hospeda Skype Empresarial Server servicio.   |
-|Skype Empresarial Server Servicio   |Representa una funcionalidad implementada en un equipo específico (por ejemplo, servicio de usuario en fp01.contoso.com).   |
-|Skype Empresarial Server Componente   |Un componente del servicio (por ejemplo, el componente de descarga de libreta de direcciones forma parte del servicio web).   |
-|Skype Empresarial Server Pool Watcher   |Instancia de transacciones sintéticas que se ejecutan en un grupo.   |
-|Skype Empresarial Server Registrador   |Instancia de transacciones sintéticas que se ejecutan en un grupo de registradores.   |
-|Skype Empresarial Server User Services Pool Watcher   |Instancia de transacciones sintéticas que se ejecutan en un grupo de servicios de usuario.   |
-|Skype Empresarial Server Watcher de grupo de voz   |Una instancia de transacciones sintéticas que se ejecutan en un grupo de servidores de voz.   |
+|Skype Empresarial Server implementación   |Representa la implementación de Skype Empresarial Server 2015 en la organización.   |
+|Skype Empresarial Server web   |Representa diferentes ubicaciones geográficas donde se implementan los servicios.   |
+|Skype Empresarial Server pool   |Un grupo de servidores (dentro de un sitio) que proporciona servicios de comunicaciones, como mensajería instantánea y conferencia, a los usuarios. Aplicable a grupos de servidores front-end, grupos de servidores perimetrales y grupos de directores, incluso si solo hay una sola máquina en un grupo determinado.   |
+|Skype Empresarial Server role   |Un rol de servidor que hospeda Skype Empresarial Server servicio.   |
+|Skype Empresarial Server de Skype Empresarial Server   |Representa una funcionalidad implementada en un equipo específico (por ejemplo, servicio de usuario en fp01.contoso.com).   |
+|Skype Empresarial Server de Skype Empresarial Server   |Un componente del servicio (por ejemplo, el componente de descarga de libreta de direcciones forma parte del servicio web).   |
+|Skype Empresarial Server pool watcher   |Instancia de transacciones sintéticas que se ejecutan en un grupo.   |
+|Skype Empresarial Server registrador   |Instancia de transacciones sintéticas que se ejecutan en un grupo de registradores.   |
+|Skype Empresarial Server de grupo de servicios de usuario   |Instancia de transacciones sintéticas que se ejecutan en un grupo de servicios de usuario.   |
+|Skype Empresarial Server de grupo de voz   |Una instancia de transacciones sintéticas que se ejecutan en un grupo de servidores de voz.   |
 |Skype Empresarial Server Port Watcher   |Instancia de comprobaciones de puerto que se ejecutan en un grupo de servidores.   |
 |Simple URL Watcher   |Realiza el sondeo HTTPS de las direcciones URL sencillas configuradas en una implementación.   |
    
@@ -236,9 +236,9 @@ Los vínculos siguientes le conectan a información sobre tareas comunes asociad
     
 - [Cómo quitar un módulo de administración](/previous-versions/system-center/operations-manager-2007-r2/cc974489(v=technet.10))
     
-Para obtener preguntas sobre Operations Manager y los paquetes de supervisión, consulte el foro de System Center de la comunidad [de Operations Manager](https://go.microsoft.com/fwlink/p/?LinkID=179635).
+Para obtener preguntas sobre Operations Manager y los paquetes de supervisión, [consulte el foro de System Center de la comunidad de Operations Manager](https://go.microsoft.com/fwlink/p/?LinkID=179635).
   
-Un recurso útil es el [blog System Center Operations Manager Unleashed,](https://opsmgrunleashed.wordpress.com/) que contiene entradas "Por ejemplo" para paquetes de supervisión específicos.
+Un recurso útil es el [blog System Center Operations Manager Unleashed](https://opsmgrunleashed.wordpress.com/), que contiene publicaciones "Por ejemplo" para paquetes de supervisión específicos.
   
 Para obtener información adicional acerca de Operations Manager, consulte los blogs siguientes: 
   
@@ -250,6 +250,6 @@ Para obtener información adicional acerca de Operations Manager, consulte los b
 > [!IMPORTANT]
 > Toda la información y el contenido de los sitios que no sean propiedad de Microsoft han sido proporcionados por el propietario o los usuarios del sitio web. Microsoft no ofrece garantías, expresas, implícitas o estatutarias, en cuanto a la información de este sitio web. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Skype Empresarial Server de administración de 2015](../../management-tools/management-tools.md)

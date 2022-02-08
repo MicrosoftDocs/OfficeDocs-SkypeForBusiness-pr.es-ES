@@ -1,8 +1,8 @@
 ---
 title: Planear reuniones grandes en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Resumen: lea este tema para obtener información sobre los procedimientos recomendados para implementar y administrar reuniones grandes en Skype Empresarial Server.'
-ms.openlocfilehash: a9ab532914a69f70cea6d54fb7935a7d8a44c98d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dcf57150dc1120ccd76780ab047c1c48d76b94cf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856547"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387998"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planear reuniones grandes en Skype Empresarial Server
  
@@ -29,7 +29,7 @@ El tamaño de las reuniones que Skype Empresarial Server puede admitir depende d
 > Este tema se centra en los procedimientos recomendados para reuniones grandes admitidas por Skype Empresarial Server. Si su organización requiere capacidades de reunión más grandes, debe considerar la posibilidad de implementar un entorno híbrido que aproveche la difusión de reuniones de Skype, un nuevo servicio en línea que forma parte de Microsoft 365 y Office 365. 
 
 > [!NOTE]
-> Skype Difusión de reuniones permite a los usuarios hospedar y difundir reuniones a grandes audiencias en línea de hasta 10 000 participantes. El uso de Skype de reunión requiere que Skype Empresarial Server esté configurado en una configuración híbrida con una organización Microsoft 365 o Office 365 de producción. Todos los usuarios deben tener un inquilino en línea establecido como requisito previo. Si está interesado en implementar una solución híbrida que pueda aprovechar la difusión de reunión de Skype, vea ¿Qué es una difusión de reunión de [Skype?](https://go.microsoft.com/fwlink/?LinkId=617071) y Configure [your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md). 
+> Skype difusión de reuniones permite a los usuarios hospedar y difundir reuniones a grandes audiencias en línea de hasta 10 000 participantes. El uso de Skype de reunión requiere que Skype Empresarial Server esté configurado en una configuración híbrida con una organización Microsoft 365 o Office 365 de producción. Todos los usuarios deben tener un inquilino en línea establecido como requisito previo. Si está interesado en implementar una solución híbrida que pueda aprovechar la difusión de reunión de Skype, vea ¿Qué es una difusión de reunión de [Skype?](https://go.microsoft.com/fwlink/?LinkId=617071) y Configurar la implementación local para la difusión de reuniones [Skype.](../../deploy/configure-skype-meeting-broadcast.md) 
   
 Las reuniones grandes suelen tener las siguientes características:
   
@@ -136,7 +136,7 @@ Para garantizar la mejor experiencia del usuario, es importante programar la reu
     
 - Especifique el nivel de acceso de reunión de la siguiente manera:
     
-  - Si al menos un invitado es externo a la organización, establezca el tipo de acceso a la reunión en **Cualquiera (sin restricciones).** Esto le habilita para evitar tener que administrar una sala de espera potencialmente grande cuando la reunión está en curso.
+  - Si al menos un invitado es externo a la organización, establezca el tipo de acceso a la reunión en **Cualquiera (sin restricciones).**. Esto le habilita para evitar tener que administrar una sala de espera potencialmente grande cuando la reunión está en curso.
     
   - Si la reunión es solo interna, establezca el tipo de acceso de reunión en **Cualquiera de mi organización**.
     
@@ -164,7 +164,7 @@ Para garantizar la mejor experiencia del usuario, es importante programar la reu
     
 - Active la configuración de **silenciar a todos los asistentes** para asegurarse de que solo los moderadores pueden difundir audio a la reunión.
     
-- Compruebe la configuración bloquear el vídeo de los **asistentes** para asegurarse de que solo los presentadores pueden difundir vídeo en la reunión.
+- Compruebe la **configuración bloquear el vídeo de los asistentes** para asegurarse de que solo los presentadores pueden difundir vídeo en la reunión.
     
 ### <a name="create-a-conferencing-policy"></a>Crear una directiva de conferencia
 
@@ -191,7 +191,7 @@ Cree una nueva directiva de conferencia específicamente para reuniones grandes 
 > [!NOTE]
 > La compatibilidad con reuniones grandes en Skype Empresarial Server requiere que la configuración **AllowLargeMeetings** se establezca en true. Cuando esta configuración se establece en true, la experiencia Skype Empresarial se optimizará para reuniones de gran tamaño cuando los usuarios se unan a la reunión. Específicamente, en una reunión grande, Skype Empresarial no mostrará la inicial o la actualización de la lista completa de participantes de la reunión, lo que es un cuello de botella de rendimiento tanto para el cliente como para Skype Empresarial Server. En su Skype Empresarial solo se mostrará información sobre el usuario y la lista de presentadores de la reunión. Skype Empresarial mostrará el número total de participantes disponibles en las reuniones grandes.
 
-La **configuración allowLargeMeetings $true** hace lo siguiente:
+La **configuración de $true AllowLargeMeetings** hace lo siguiente:
 
 - Oculta la lista de asistentes. 
 

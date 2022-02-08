@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams de complementos
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga información sobre las licencias de complementos para Microsoft Teams y las características que obtiene con cada licencia.
-ms.openlocfilehash: 9af8ae285b591862cfaed36457fc99fc8eaa54de
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 3b555e50355c2368c961ac0dc76c81b4c4586788
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767183"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387588"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams de complementos
 
@@ -41,13 +41,13 @@ Esta es una lista de Teams de complementos y sus características que puede agre
 
 |Licencia|Descripción|
 |-------|-----------|
-|**Microsoft 365 Empresa Voice** <br/> | Business Voice era el paquete de características de voz de Microsoft para pequeñas y medianas empresas, pero estará en desuso el 1 de marzo de 2022. <br/> <br/> Si es una pequeña o mediana empresa, le recomendamos que compre el paquete [Teams Teléfono con plan](../business-voice/whats-business-voice.md)de llamadas, si está disponible en su región. |
+|**Microsoft 365 Empresa Voice** <br/> | Business Voice era el paquete de características de voz de Microsoft para pequeñas y medianas empresas, pero estará en desuso el 1 de marzo de 2022. <br/> <br/> Si es una pequeña o mediana empresa, le recomendamos que compre el paquete [Teams Teléfono plan](../business-voice/whats-business-voice.md) de llamadas, si está disponible en su región. |
 |**Teams Teléfono paquete planes de llamadas** <br/> |Teams Teléfono planes de llamadas es una solución de telefonía que agrupa las capacidades de PBX de Sistema telefónico y un plan de llamadas nacionales para la conectividad RTC. <br/> |
-|**Teams Teléfono** <br/> |[Teams Teléfono](../what-is-phone-system-in-office-365.md) es un servicio telefónico hospedado que le proporciona control de llamadas y funciones de Exchange de sucursal privada (PBX), con opciones para conectarse a la red telefónica conmutada (RTC). Teams Teléfono incluyen correo de voz en la nube, identificador de llamada, parque de llamadas, reenvío de llamadas, operadores automáticos, colas de llamadas, transferencia de llamadas, identificador de llamada y mucho más. <br>Para obtener más información, [vea Esto es lo que obtiene con Teams Teléfono](../here-s-what-you-get-with-phone-system.md). Para obtener información sobre precios, vea [Precios para Teams Teléfono](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |
-|**Planes de llamadas** <br/> |Si desea que los usuarios puedan llamar a números de teléfono fuera de su organización, obtenga un [Plan de llamadas.](../calling-plans-for-office-365.md) Hay planes de llamadas nacionales y planes de llamadas nacionales e internacionales. Para obtener información sobre precios, vea [Precios para planes de llamadas.](https://go.microsoft.com/fwlink/?linkid=799761 )  <br/> |
-|**Créditos de comunicación** |Si desea números gratuitos para audioconferencias, operadores automáticos o colas de llamadas, debe configurar [créditos de comunicaciones.](../set-up-communications-credits-for-your-organization.md) <br/> |
-|**Audioconferencia** <br/> |A veces, los usuarios de su organización tendrán que usar un teléfono para llamar a una reunión Teams en su equipo. Configurar [audioconferencias para](../audio-conferencing-in-office-365.md) usuarios que programe o lidere reuniones. <br/> <br/>Para averiguar si la audioconferencia está disponible en su país o región, vea [Disponibilidad de país y región para las audioconferencias y los planes de llamadas](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Para obtener información sobre precios, consulte [Precios para participar en audio conferencia.](https://go.microsoft.com/fwlink/?linkid=799762)  <br/> <br/>Desde ahora y hasta el 31 de mayo de 2022, los clientes pueden agregar audioconferencias a una suscripción Microsoft 365 o Office 365 gratis durante un máximo de 12 meses. A partir del 1 de marzo de 2022, la funcionalidad de audioconferencia se incluirá en todas las Teams de Microsoft 365 y Office 365 inclusión. Para obtener más información, vea [Configurar audioconferencias para pequeñas y medianas empresas.](../audio-conferencing-smb.md) <br/> <br/>Las organizaciones ahora pueden usar un operador de terceros para sus números de audioconferencia. Vea [Planear conferencias de Conectar operadores para](../operator-connect-conferencing-plan.md) obtener más información. <br/>|
-|**Salas de Microsoft Teams** <br/> |[Salas de Microsoft Teams](../rooms/index.md) no es un complemento, sino una característica que proporciona vídeo, audio y uso compartido de contenido a las salas de conferencias. Vea [Teams Sala de reuniones licencias](../rooms/rooms-licensing.md).  <br/> |
+|**Teams Teléfono** <br/> |[Teams Teléfono](../what-is-phone-system-in-office-365.md) es un servicio telefónico hospedado que le proporciona control de llamadas y funciones de Exchange de sucursal privada (PBX), con opciones para conectarse a la red telefónica conmutada (RTC). Teams Teléfono incluyen correo de voz en la nube, identificador de llamada, parque de llamadas, reenvío de llamadas, operadores automáticos, colas de llamadas, transferencia de llamadas, identificador de llamada y mucho más. <br>Para obtener más información, [vea Esto es lo que obtiene con Teams Teléfono](../here-s-what-you-get-with-phone-system.md). Para obtener información sobre precios, consulte [Precios para Teams Teléfono](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |
+|**Planes de llamadas** <br/> |Si quiere que los usuarios puedan llamar a números de teléfono fuera de su organización, obtenga un [plan de llamadas](../calling-plans-for-office-365.md). Hay planes de llamadas nacionales y planes de llamadas nacionales e internacionales. Para obtener información sobre precios, consulte [Precios para planes de llamadas](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |
+|**Créditos de comunicación** |Si desea números gratuitos para audioconferencias, operadores automáticos o colas de llamadas, debe configurar [créditos de comunicaciones](../set-up-communications-credits-for-your-organization.md). <br/> |
+|**Audioconferencia** <br/> |A veces, los usuarios de su organización tendrán que usar un teléfono para llamar a una reunión Teams en su equipo. Configurar [audioconferencias para](../audio-conferencing-in-office-365.md) usuarios que programe o lidere reuniones. <br/> <br/>Para averiguar si la audioconferencia está disponible en su país o región, vea [Disponibilidad de país y región para las audioconferencias y los planes de llamadas](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Para obtener información sobre precios, consulte [Precios para participar en audio conferencia.](https://go.microsoft.com/fwlink/?linkid=799762)  <br/> <br/>Desde ahora y hasta el 31 de mayo de 2022, los clientes pueden agregar audioconferencias a una suscripción Microsoft 365 o Office 365 gratis durante un máximo de 12 meses. A partir del 1 de marzo de 2022, la funcionalidad de audioconferencia se incluirá en todas las Teams de Microsoft 365 y Office 365 inclusión. Para obtener más información, vea [Configurar audioconferencias para pequeñas y medianas empresas](../audio-conferencing-smb.md). <br/> <br/>Las organizaciones ahora pueden usar un operador de terceros para sus números de audioconferencia. Vea [Planear conferencias de Conectar operadores para](../operator-connect-conferencing-plan.md) obtener más información. <br/>|
+|**Salas de Microsoft Teams** <br/> |[Salas de Microsoft Teams](../rooms/index.md) no es un complemento, sino una característica que proporciona vídeo, audio y uso compartido de contenido a las salas de conferencias. Consulte [Teams Sala de reuniones licencias](../rooms/rooms-licensing.md).  <br/> |
 |**Comunicaciones avanzadas** <br/> |[Comunicaciones avanzadas](advanced-communications.md) incluye personalización de reuniones avanzadas y herramientas para administrar las directivas de comunicación de su organización. |
 
 ## <a name="what-voice-features-are-available-with-my-plan"></a>¿Qué características de voz están disponibles con mi plan?
@@ -64,14 +64,14 @@ Si es una pequeña o mediana empresa (menos de 300 usuarios), tiene cuatro forma
 - Compra un Enterprise plan E1 o E3 y haz Microsoft 365 Teams Teléfono paquete Plan de llamadas.
 - Compre un Enterprise plan E1 o E3 y agregue características de voz individualmente.
 - Compre un Enterprise plan E5, que incluye características de voz.
-  - El Microsoft 365 Enterprise E5 incluye Teams Teléfono, pero las organizaciones seguirán teniendo que elegir una [opción de conectividad RTC.](../pstn-connectivity.md)
+  - El Microsoft 365 Enterprise E5 incluye Teams Teléfono, pero las organizaciones seguirán teniendo que elegir una [opción de conectividad RTC](../pstn-connectivity.md).
 
 Para Microsoft 365 Teams Teléfono, tiene dos opciones entre las que elegir:
 
-- **Microsoft 365 Teams Teléfono paquete plan de** llamadas: Obtén esto si quieres que Microsoft controle toda la administración y facturación de números de teléfono. Compruebe si el [Teams Teléfono con plan de llamadas está disponible en su región.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- **Microsoft 365 Teams Teléfono licencia independiente:** esta licencia incluye Teams Teléfono, pero tendrá que conectarse a la RTC. Para obtener más información sobre las soluciones de voz, vea [Planear Teams de voz.](../cloud-voice-landing-page.md) Para ver todas las opciones de conectividad RTC, vea [Opciones de conectividad RTC.](../pstn-connectivity.md)
+- **Microsoft 365 Teams Teléfono paquete plan de** llamadas: Obtén esto si quieres que Microsoft controle toda la administración de números de teléfono y la facturación. Compruebe si el [Teams Teléfono con plan de llamadas está disponible en su región](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+- **Microsoft 365 Teams Teléfono licencia independiente**: esta licencia incluye Teams Teléfono, pero tendrá que conectarse a la RTC. Para obtener información sobre las soluciones de voz, vea [Planear Teams de voz](../cloud-voice-landing-page.md). Para ver todas las opciones de conectividad RTC, vea [Opciones de conectividad RTC](../pstn-connectivity.md).
 
-Para obtener más información, [vea Teams Teléfono para pequeñas y medianas empresas.](../business-voice/whats-business-voice.md)
+Para obtener más información, [vea Teams Teléfono guía para pequeñas y medianas empresas](../business-voice/whats-business-voice.md).
 
 Este es un resumen basado en el plan de licencias.
 
@@ -115,7 +115,7 @@ Microsoft Teams Essentials (identidad AAD)</td>
 </table>
 
 >[!NOTE]
->Si necesita usar un servicio telefónico de terceros o si los planes de llamadas no están disponibles en [](../direct-routing-landing-page.md) su país o región, puede elegir Operador [Conectar](../operator-connect-plan.md) o Enrutamiento directo para su organización.
+>Si necesita usar un servicio telefónico de terceros o si los planes de llamadas no están disponibles en su país o región, puede elegir Operador [Conectar](../operator-connect-plan.md) o Enrutamiento directo para su organización.[](../direct-routing-landing-page.md)
 
 #### <a name="enterprise"></a>[**Enterprise**](#tab/enterprise/)
 
@@ -152,10 +152,10 @@ Este es un resumen, basado en el plan de licencias.
 </tbody>
 </table>
 
-Para obtener más información, [vea Microsoft 365 Enterprise planes y](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) Office 365 Enterprise [planes](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans).
+Para obtener más información, [vea Microsoft 365 Enterprise planes y](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) [Office 365 Enterprise planes](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans).
 
 >[!NOTE]
->Si necesita usar un servicio telefónico de terceros o si los planes de llamadas no están disponibles en [](../direct-routing-landing-page.md) su país o región, puede elegir Operador [Conectar](../operator-connect-plan.md) o Enrutamiento directo para su organización.
+>Si necesita usar un servicio telefónico de terceros o si los planes de llamadas no están disponibles en su país o región, puede elegir Operador [Conectar](../operator-connect-plan.md) o Enrutamiento directo para su organización.[](../direct-routing-landing-page.md)
 
 #### <a name="education"></a>[**Educación**](#tab/education/)
 
@@ -203,7 +203,7 @@ Este es un resumen, basado en el plan de licencias.
 Para obtener más información, [vea Microsoft 365 Educación](https://www.microsoft.com/education/buy-license/microsoft365) y [Office 365 Educación planes](https://www.microsoft.com/education/products/office).
 
 >[!NOTE]
->Si necesita usar un servicio telefónico de terceros o si los planes de llamadas no están disponibles en [](../direct-routing-landing-page.md) su país o región, puede elegir Operador [Conectar](../operator-connect-plan.md) o Enrutamiento directo para su organización.
+>Si necesita usar un servicio telefónico de terceros o si los planes de llamadas no están disponibles en su país o región, puede elegir Operador [Conectar](../operator-connect-plan.md) o Enrutamiento directo para su organización.[](../direct-routing-landing-page.md)
 
 #### <a name="government"></a>[**Gobierno**](#tab/government/)
 
@@ -248,10 +248,10 @@ Este es un resumen, basado en el plan de licencias.
 </tbody>
 </table>
 
-Para obtener más información, [vea Microsoft 365 administración y](https://www.microsoft.com/microsoft-365/government/) Office 365 Administración Pública [planes](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
+Para obtener más información, [vea Microsoft 365 administración y](https://www.microsoft.com/microsoft-365/government/) [Office 365 Administración Pública planes](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
 
 >[!NOTE]
->Si necesita usar un servicio telefónico de terceros o si los planes de llamadas no están disponibles en [](../direct-routing-landing-page.md) su país o región, puede elegir Operador [Conectar](../operator-connect-plan.md) o Enrutamiento directo para su organización.
+>Si necesita usar un servicio telefónico de terceros o si los planes de llamadas no están disponibles en su país o región, puede elegir Operador [Conectar](../operator-connect-plan.md) o Enrutamiento directo para su organización.[](../direct-routing-landing-page.md)
 
 #### <a name="nonprofit"></a>[**Ong**](#tab/nonprofit/)
 
@@ -303,10 +303,10 @@ Este es un resumen, basado en el plan de licencias.
 </tbody>
 </table>
 
-Para obtener más información, [vea Microsoft 365 y Office 365 para ONG ofertas.](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)
+Para obtener más información, [vea Microsoft 365 y Office 365 para ONG ofertas](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
 
 >[!NOTE]
->Si necesita usar un servicio telefónico de terceros o si los planes de llamadas no están disponibles en [](../direct-routing-landing-page.md) su país o región, puede elegir Operador [Conectar](../operator-connect-plan.md) o Enrutamiento directo para su organización.
+>Si necesita usar un servicio telefónico de terceros o si los planes de llamadas no están disponibles en su país o región, puede elegir Operador [Conectar](../operator-connect-plan.md) o Enrutamiento directo para su organización.[](../direct-routing-landing-page.md)
 
 ---
 

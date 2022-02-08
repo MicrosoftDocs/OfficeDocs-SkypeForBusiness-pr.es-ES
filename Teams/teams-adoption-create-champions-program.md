@@ -1,7 +1,7 @@
 ---
 title: Crear su programa para expertos para Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
@@ -21,12 +21,12 @@ f1.keywords:
 description: Aprenda a formar a un equipo de campeones para promover Teams adopción mediante concienciación, adopción y educación en su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 989525f627a4d8c6ef18f1e17cab9446d85a0a88
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 446b0e4ba0cdc549623ac0411a549e481288ed3b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190891"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387478"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Crear su programa para expertos para Microsoft Teams
 
@@ -45,7 +45,7 @@ Los campeones deben:
 
 Use nuestra [Guía del programa Campeones](https://aka.ms/M365Champions) para crear este programa en su organización. Nuestros procedimientos recomendados para esta comunidad son:
 
-- Unirse al [Programa de campeones.](https://aka.ms/O365Champions) Asegúrese de que, como mínimo, los líderes del programa Campeones (y posiblemente todos los campeones de la compañía) sean miembros del programa. Esta llamada de comunidad mensual gratuita proporcionará información valiosa para ejecutar su propio programa y sacar el máximo partido de Teams y otros Microsoft 365 o Office 365 servicios. Los materiales del programa se pueden reutilizar en su propio programa interno.
+- Únase al [Programa de campeones](https://aka.ms/O365Champions). Asegúrese de que, como mínimo, los líderes del programa Campeones (y posiblemente todos los campeones de la compañía) sean miembros del programa. Esta llamada de comunidad mensual gratuita proporcionará información valiosa para ejecutar su propio programa y sacar el máximo partido de Teams y otros Microsoft 365 o Office 365 servicios. Los materiales del programa se pueden reutilizar en su propio programa interno.
 
 - Use el equipo campeón de trabajo en equipo: los campeones deben usar el equipo que tiene configurado para ellos para todas las comunicaciones, comentarios y recursos del programa.  Al hacerlo, se familiarizarán cada vez más con el producto y sus ventajas.
 

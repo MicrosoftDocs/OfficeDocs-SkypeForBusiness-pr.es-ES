@@ -1,8 +1,8 @@
 ---
 title: Tabla UserAgentDef
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 description: La tabla UserAgentDef asigna identificadores de agente de usuario a los nombres descriptivos del agente. Los agentes de usuario son clientes de software que se usan para conectarse Skype Empresarial Server 2015. Esta tabla se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 4121ca1539dda40d2c7f1d474d0c84cedbacc2b0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 189094391bdb531c844bb516d8a86c34b58bb305
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828553"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389072"
 ---
 # <a name="useragentdef-table"></a>Tabla UserAgentDef
  

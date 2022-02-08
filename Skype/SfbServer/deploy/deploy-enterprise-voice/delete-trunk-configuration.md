@@ -1,8 +1,8 @@
 ---
 title: 'Skype Empresarial Server: eliminar una colección existente de opciones de configuración de tronco SIP'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Summary: Learn how to delete a collection of trunk configuration settings by using the Skype Empresarial Server Control Panel.'
-ms.openlocfilehash: d438db687c8af918a1ac0da67542048ac2fa0bae
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0258b509dee67a657b67d567f5986b240823cf29
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860887"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388892"
 ---
 # <a name="skype-for-business-server-delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype Empresarial Server: eliminar una colección existente de opciones de configuración de tronco SIP 
  
@@ -35,7 +35,7 @@ Las opciones de configuración del tronco SIP definen la relación y las capacid
     
 - Si es necesario o no el cifrado del Protocolo de transporte en tiempo real seguro (SRTP) en cada tronco
     
-Al instalar Skype Empresarial Server, se crea una colección global de opciones de configuración de tronco SIP. Esta recopilación global de configuraciones no puede eliminarse. Sin embargo, puede usar el Panel de control Skype Empresarial Server o el cmdlet [Remove-CsTrunkConfiguration](/powershell/module/skype/remove-cstrunkconfiguration) para "restablecer" las propiedades de la colección global a sus valores predeterminados. Por ejemplo, si ha definido el parámetro Enable3pccRefer como True, cuando restablece la recopilación global el parámetro Enable3pccRefer volverá al valor predeterminado False.
+Al instalar Skype Empresarial Server, se crea una colección global de opciones de configuración de tronco SIP. Esta recopilación global de configuraciones no puede eliminarse. Sin embargo, puede usar el panel de control Skype Empresarial Server o el cmdlet [Remove-CsTrunkConfiguration](/powershell/module/skype/remove-cstrunkconfiguration) para "restablecer" las propiedades de la colección global a sus valores predeterminados. Por ejemplo, si ha definido el parámetro Enable3pccRefer como True, cuando restablece la recopilación global el parámetro Enable3pccRefer volverá al valor predeterminado False.
   
 Los Administradores también pueden crear configuraciones de tronco personalizadas en el ámbito del sitio o en el ámbito del servicio (para una puerta de enlace PSTN individual); estas configuraciones personalizadas pueden eliminarse. Al quitar esta configuración personalizada, tenga en cuenta lo siguiente:
   
@@ -45,21 +45,21 @@ Los Administradores también pueden crear configuraciones de tronco personalizad
     
 ### <a name="to-remove-trunk-configuration-settings-with-skype-for-business-server-control-panel"></a>Para quitar las opciones de configuración de tronco Skype Empresarial Server Panel de control
 
-1. En Skype Empresarial Server panel de control, haga clic en **Enrutamiento de** voz y, a continuación, haga clic en Configuración **del tronco**.
+1. En Skype Empresarial Server Panel de control, haga clic en **Enrutamiento** de voz y, a continuación, haga clic en **Configuración del tronco**.
     
-2. En la **pestaña Configuración de** tronco, seleccione la colección de opciones de configuración de tronco SIP que se eliminarán, haga clic en **Editar** y, a continuación, haga clic en **Eliminar**. Para eliminar varias colecciones en la misma operación, haga clic en la primera colección que se eliminará, mantenga presionada la tecla Ctrl y haga clic en cualquier otra colección que desee quitar.
+2. En la **pestaña Configuración de** tronco, seleccione la colección de opciones de configuración de tronco SIP que se eliminarán, haga clic **en Editar** y, a continuación, haga clic en **Eliminar**. Para eliminar varias colecciones en la misma operación, haga clic en la primera colección que se eliminará, mantenga presionada la tecla Ctrl y haga clic en cualquier otra colección que desee quitar.
     
 3. La propiedad **Estado** de la recopilación se actualizará a **Sin confirmar**. Para confirmar los cambios y para eliminar la recopilación, haga clic en **Confirmar** y, a continuación, haga clic en **Confirmar todo**.
     
 4. En el cuadro de diálogo **Configuración de voz sin confirmar**, haga clic en **Aceptar**.
     
-5. En el **cuadro Skype Empresarial Server panel de control,** haga clic en **Aceptar**.
+5. En el **cuadro Skype Empresarial Server panel de control**, haga clic en **Aceptar**.
     
-6. Si cambia de opinión y decide no eliminar la recopilación, haga clic en **Confirmar** y, a continuación, haga clic en **Cancelar todos los cambios no confirmados**. Cuando aparezca Skype Empresarial Server cuadro de diálogo Panel de **control,** haga clic en **Aceptar**.
+6. Si cambia de opinión y decide no eliminar la recopilación, haga clic en **Confirmar** y, a continuación, haga clic en **Cancelar todos los cambios no confirmados**. Cuando aparezca **Skype Empresarial Server cuadro de diálogo Panel de control**, haga clic en **Aceptar**.
     
 ## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Quitar la configuración de tronco Configuración mediante cmdlets Skype Empresarial Server Shell de administración
 
-Puede eliminar las opciones de configuración de tronco mediante Skype Empresarial Server Shell de administración y el cmdlet **Remove-CsTrunkConfiguration.** Puede ejecutar este cmdlet desde el Shell Skype Empresarial Server administración o desde una sesión remota de Skype Empresarial Server Shell de administración.
+Puede eliminar las opciones de configuración de tronco mediante Skype Empresarial Server Shell de administración y el cmdlet **Remove-CsTrunkConfiguration**. Puede ejecutar este cmdlet desde el Shell Skype Empresarial Server administración o desde una sesión remota de Skype Empresarial Server Shell de administración.
   
 ### <a name="to-remove-a-specified-collection-of-settings"></a>Para quitar una colección especificada de opciones
 
@@ -85,4 +85,4 @@ Puede eliminar las opciones de configuración de tronco mediante Skype Empresari
   Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
   ```
 
-Para obtener más información, vea el tema de ayuda del cmdlet [Remove-CsTrunkConfiguration.](/powershell/module/skype/remove-cstrunkconfiguration)
+Para obtener más información, vea el tema de ayuda del cmdlet [Remove-CsTrunkConfiguration](/powershell/module/skype/remove-cstrunkconfiguration) .

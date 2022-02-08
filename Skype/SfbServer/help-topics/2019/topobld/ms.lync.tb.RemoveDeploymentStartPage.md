@@ -1,8 +1,8 @@
 ---
 title: Quitar introducción de implementación
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 ROBOTS: NOINDEX, NOFOLLOW
 description: Ejecute el Asistente para quitar implementación únicamente si desea retirar toda la implementación. El asistente crea una topología vacía formada por un solo servidor front-end. Una vez se haya ejecutado el asistente y publicado la topología vacía, no podrá volver a la topología original.
-ms.openlocfilehash: bf7da6378f261cfba67dc58b13eb3026d5620ff6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 577f3ec457e806d08c6f11a901dad00691de8e59
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865027"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384818"
 ---
 # <a name="remove-deployment-introduction"></a>Quitar introducción de implementación
  

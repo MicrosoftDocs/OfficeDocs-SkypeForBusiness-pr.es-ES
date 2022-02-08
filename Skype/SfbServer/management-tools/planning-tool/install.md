@@ -1,8 +1,8 @@
 ---
 title: Instalar la herramienta de planeación en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Antes de empezar a diseñar y planear la infraestructura de Skype Empresarial Server 2015 mediante la herramienta de planeación de Skype Empresarial Server 2015, primero debe instalar la herramienta de planeación. La herramienta de planeación no necesita implementarse en una estación de trabajo o servidor que forma parte del dominio o la infraestructura donde tiene previsto instalar Skype Empresarial Server 2015. El archivo Léame que acompaña a la herramienta de planeación detalla información importante sobre la instalación y el uso de la herramienta. Alguna de la información del archivo Léame también aparece aquí por motivos de claridad.
-ms.openlocfilehash: 5d9dc6204647daf03adfab6fcf3cf091d7ba5415
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c635672ff89bae4da3c76fb973246d8cb332c403
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850893"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388068"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Instalar la herramienta de planeación en Skype Empresarial Server 2015
 
@@ -38,7 +38,7 @@ Los sistemas operativos compatibles para la instalación y el funcionamiento de 
 
 - Windows Server 2012
 
-- Windows Server 2012 R2
+- Windows Server 2012 R2
 
 - Edición de 32 bits de Windows 7
 
@@ -60,7 +60,7 @@ Una vez que se cumplen los requisitos de preinstalación, puede instalar la herr
 
 3. Busque el SkypeForBusinessPlanningTool.msi. En el Explorador de Windows, haga doble clic en el archivo. En la ventana de comandos, escriba el nombre del archivo y, a continuación, presione **ENTRAR** para ejecutar el archivo.
 
-4. En la página de bienvenida del **Skype Empresarial Server 2015,** Asistente para la configuración de herramientas de planeación , haga clic **en Siguiente**.
+4. En la página de bienvenida del **Skype Empresarial Server 2015,** Asistente para la configuración de herramientas de planeación, haga clic en **Siguiente**.
 
 5. Lea el **Contrato de licencia para el usuario final**, seleccione **Acepto los términos del contrato de licencia**, si quiere aceptar los términos de uso del contrato de licencia, y haga clic en **Siguiente**.
 
@@ -108,7 +108,7 @@ Al exportar el diseño a Microsoft Visio crea un diagrama para usarlo en los fin
 
 - Diagrama de red perimetral: diagrama que detalla la configuración del servidor perimetral con direcciones IP y FQDN asociados. También se incluyen equilibradores de carga dns y equilibradores de carga de hardware. Además, se muestran directores y el servidor front-end o grupo de servidores front-end, con DNS LB o HLB asociados y la dirección IP asignada (la Herramienta de planeación admite direcciones IPv4 e IPv6) y FQDN.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="Optional_Software"> </a>
 
 [Instalación de la herramienta de planeación](/previous-versions/office/lync-server-2013/lync-server-2013-installing-the-planning-tool)

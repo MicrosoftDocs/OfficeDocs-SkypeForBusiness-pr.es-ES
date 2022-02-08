@@ -5,8 +5,8 @@ ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
 ms:contentKeyID: 48679565
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Obtenga información sobre cómo administrar y configurar dominios SIP con los que puede federar,
-ms.openlocfilehash: b50da7b95bab938a3b5026ce859f423f8a2718a9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0c79141a491f713c1a6858d6703fc3fac55d5b20
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836362"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386648"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Administrar dominios federados SIP para su organización en Skype Empresarial Server
 
@@ -36,7 +36,7 @@ Para administrar y configurar los dominios SIP con los que se puede federar, pue
 Si ha configurado la compatibilidad para socios federados, puede administrar qué dominios específicos pueden federar con su organización. Se configuran uno o más dominios externos específicos como dominios federados permitidos. Para hacerlo, agregue cada uno de los dominios a la lista de dominios admitidos. Incluso en el caso de que la detección de socios esté habilitada en la organización, haga lo anterior si el dominio es un socio federado que podría necesitar comunicarse con más de 1.000 usuarios o enviar más de 20 mensajes por segundo. Si la detección de socios no está habilitada en la organización, solo los usuarios de dominios externos que agregue a la lista de dominios permitidos podrán participar en reuniones y compartir mensajería instantánea con usuarios de su organización. Si desea restringir el acceso de un dominio federado a un servidor específico que ejecuta el servicio perimetral de acceso del socio federado, puede especificar el nombre de dominio del servidor que ejecuta el servicio perimetral de acceso para cada dominio de la lista de dominios permitidos.
 
 > [!NOTE]  
-> Este procedimiento describe cómo configurar la compatibilidad para dominios específicos, pero para permitir usuarios federados es necesario habilitar también dicha compatibilidad en la organización y, además, configurar y aplicar directivas para determinar qué usuarios pueden colaborar con usuarios federados. Para obtener más información sobre cómo habilitar la compatibilidad con usuarios federados, vea [Habilitar o deshabilitar el acceso de usuarios remotos.](../access-edge/enable-or-disable-remote-user-access.md) Para obtener más información sobre cómo configurar directivas para controlar la federación, vea [Configure policies to control federated user access](../external-access-policies/configure-policies-to-control-federated-user-access.md).
+> Este procedimiento describe cómo configurar la compatibilidad para dominios específicos, pero para permitir usuarios federados es necesario habilitar también dicha compatibilidad en la organización y, además, configurar y aplicar directivas para determinar qué usuarios pueden colaborar con usuarios federados. Para obtener más información sobre cómo habilitar la compatibilidad con usuarios federados, consulte [Habilitar o deshabilitar el acceso de usuarios remotos](../access-edge/enable-or-disable-remote-user-access.md). Para obtener más información sobre cómo configurar directivas para controlar la federación, vea [Configurar directivas para controlar el acceso de usuarios federados](../external-access-policies/configure-policies-to-control-federated-user-access.md).
 
 ### <a name="to-add-an-external-domain-to-the-list-of-allowed-domains"></a>Para agregar un dominio externo a la lista de dominios permitidos
 
@@ -57,13 +57,13 @@ Si ha configurado la compatibilidad para socios federados, puede administrar qu�
 6.  Haga clic en **Confirmar**.
 7.  Repita los pasos del 4 al 6 para cada dominio de socio federado que desee permitir.
 
-Para habilitar el acceso de usuarios federados, también debe permitir el acceso de usuarios federados en su organización. Para obtener más información, [vea Enable or disable remote user access](../access-edge/enable-or-disable-remote-user-access.md).
+Para habilitar el acceso de usuarios federados, también debe permitir el acceso de usuarios federados en su organización. Para obtener más información, [consulte Habilitar o deshabilitar el acceso de usuarios remotos](../access-edge/enable-or-disable-remote-user-access.md).
 
-Además, debe configurar y aplicar la directiva a los usuarios que quiera permitir que colaboren con usuarios federados. Para obtener más información, vea [Configure policies to control federated user access](../external-access-policies/configure-policies-to-control-federated-user-access.md).
+Además, debe configurar y aplicar la directiva a los usuarios que quiera permitir que colaboren con usuarios federados. Para obtener más información, vea [Configurar directivas para controlar el acceso de usuarios federados](../external-access-policies/configure-policies-to-control-federated-user-access.md).
 
 ## <a name="configure-support-for-blocked-external-domains-in-skype-for-business-server"></a>Configurar la compatibilidad con dominios externos bloqueados en Skype Empresarial Server 
 
-Si ha configurado la compatibilidad para socios federados, puede administrar los dominios que se bloquearán de la federación con su organización. La lista de dominios bloqueados actuará como una lista de bloqueo (lista de entradas explícitas que no se van a permitir) y se aplicará en la detección de dominios federados, si tiene activada esta opción. Para obtener más información, [vea Habilitar o deshabilitar la detección de socios de federación.](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
+Si ha configurado la compatibilidad para socios federados, puede administrar los dominios que se bloquearán de la federación con su organización. La lista de dominios bloqueados actuará como una lista de bloqueo (lista de entradas explícitas que no se van a permitir) y se aplicará en la detección de dominios federados, si tiene activada esta opción. Para obtener más información, vea [Habilitar o deshabilitar la detección de socios de federación](../access-edge/enable-or-disable-discovery-of-federation-partners.md).
 
 Bloquee uno o más dominios externos para que no puedan conectarse a su organización. Para hacerlo, agregue el dominio a la lista de dominios bloqueados.
 
@@ -86,12 +86,12 @@ Bloquee uno o más dominios externos para que no puedan conectarse a su organiza
 6.  Haga clic en **Confirmar**.
 7.  Repita los pasos del 4 al 6 para cada socio federado que desee bloquear.
 
-Para habilitar el acceso de usuarios federados, también debe permitir el acceso de usuarios federados en su organización. Para obtener más información, [vea Enable or disable remote user access](../access-edge/enable-or-disable-remote-user-access.md).
+Para habilitar el acceso de usuarios federados, también debe permitir el acceso de usuarios federados en su organización. Para obtener más información, [consulte Habilitar o deshabilitar el acceso de usuarios remotos](../access-edge/enable-or-disable-remote-user-access.md).
 
-Además, debe configurar y aplicar la directiva a los usuarios que quiera permitir que colaboren con usuarios federados. Para obtener más información, vea [Configure policies to control federated user access](../external-access-policies/configure-policies-to-control-federated-user-access.md).
+Además, debe configurar y aplicar la directiva a los usuarios que quiera permitir que colaboren con usuarios federados. Para obtener más información, vea [Configurar directivas para controlar el acceso de usuarios federados](../external-access-policies/configure-policies-to-control-federated-user-access.md).
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar directivas para controlar el acceso de usuarios federados](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
 

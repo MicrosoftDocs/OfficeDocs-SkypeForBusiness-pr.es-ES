@@ -1,8 +1,8 @@
 ---
 title: Componente del servidor de mediación en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: Obtenga información sobre los servidores de mediación en Skype Empresarial Server, incluidas sus topologías admitidas y sus relaciones con troncos M:N, desvío de medios y control de admisión de llamadas.
-ms.openlocfilehash: 10d35081e1b6af1d7ee634fa3507a9c6d46f3954
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: db825324ca1493e9ecf93ca9bacb4ed5e58c5a96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861177"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387688"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Componente del servidor de mediación en Skype Empresarial Server
  
@@ -66,7 +66,7 @@ En la figura siguiente se muestran los protocolos de señalización y medios que
 
 Skype Empresarial Server admite flexibilidad en la definición de un tronco para fines de enrutamiento de llamadas. Un tronco es una asociación lógica entre un servidor de mediación y un número de puerto de escucha, con una puerta de enlace y un número de puerto de escucha. Esto implica varias cosas: un servidor de mediación puede tener varios troncos en la misma puerta de enlace; un servidor de mediación puede tener varios troncos a puertas de enlace diferentes; Por el contrario, una puerta de enlace puede tener varios troncos a distintos servidores de mediación.
   
-Todavía debe crear un tronco raíz al agregar una puerta de enlace a la topología Skype Empresarial con el Generador de topologías. El número de puertas de enlace que un servidor de mediación determinado puede controlar depende de la capacidad de procesamiento del servidor durante las horas de mayor actividad. Si implementa un servidor de mediación en hardware que cumpla los requisitos mínimos de hardware para Skype Empresarial Server, como se describe en Requisitos de servidor para [Skype Empresarial Server 2015,](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)un servidor de mediación independiente puede controlar aproximadamente 1000 llamadas. El servidor de mediación realiza la transcodificación, pero sigue enrutando llamadas para varias puertas de enlace incluso si las puertas de enlace no admiten la omisión de medios.
+Todavía debe crear un tronco raíz al agregar una puerta de enlace a la topología Skype Empresarial con el Generador de topologías. El número de puertas de enlace que un servidor de mediación determinado puede controlar depende de la capacidad de procesamiento del servidor durante las horas de mayor actividad. Si implementa un servidor de mediación en hardware que cumpla los requisitos mínimos de hardware para Skype Empresarial Server, como se describe en Requisitos de servidor para [Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md), un servidor de mediación independiente puede controlar aproximadamente 1000 llamadas. El servidor de mediación realiza la transcodificación, pero sigue enrutando llamadas para varias puertas de enlace incluso si las puertas de enlace no admiten la omisión de medios.
   
 Al definir una ruta de llamada, se especifican los troncos asociados a esa ruta, pero no se especifica qué servidores de mediación están asociados a esa ruta. En su lugar, se usa el Generador de topologías para asociar troncos con servidores de mediación. En otras palabras, el enrutamiento determina qué tronco usar para una llamada y, posteriormente, el servidor de mediación asociado a ese tronco se envía la señalización de esa llamada.
   
@@ -161,9 +161,9 @@ Puede usar la Herramienta de planeación de Microsoft Lync Server 2013 para eval
  Los servidores de mediación del sitio central se pueden usar para enrutar llamadas a puertas de enlace RTC o IP-PBX en las sucursales. Sin embargo, si implementa troncos SIP, deberá implementar un servidor de mediación en el sitio donde termina cada tronco. Para que un servidor de mediación del sitio central enrute las llamadas a una puerta de enlace RTC o IP-PBX en una sucursal, no es necesario usar desvío de medios. Sin embargo, si puede habilitar la omisión de medios, si lo hace, reducirá la latencia de la ruta de acceso multimedia y mejorará la calidad de los medios, ya que la ruta de acceso multimedia ya no es necesaria para seguir la ruta de señalización. La omisión de medios también disminuye la carga de procesamiento en el grupo.
   
 > [!NOTE]
-> El desvío de medios no interactuará con todas las puertas de enlace RTC, los sistemas IP-PBX y las SBC. Microsoft ha probado un conjunto de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con IP-PBX de Cisco. La omisión de medios solo se admite con productos y versiones enumerados en el Programa de interoperabilidad abierta de comunicaciones unificadas [- Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). 
+> El desvío de medios no interactuará con todas las puertas de enlace RTC, los sistemas IP-PBX y las SBC. Microsoft ha probado un conjunto de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con IP-PBX de Cisco. La omisión de medios solo se admite con productos y versiones enumerados en el Programa de interoperabilidad abierta de comunicaciones [unificadas : Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). 
   
-Si se necesita resistencia en la sucursal, se debe implementar una aplicación de sucursal con funciones de supervivencia o una combinación de servidor front-end, servidor de mediación y puerta de enlace en la sucursal. (La suposición con la resistencia del sitio de sucursal es que la presencia y las conferencias no son resistentes en el sitio). Para obtener instrucciones sobre la planeación de sitios de sucursal para voz, vea [Plan for Telefonía IP empresarial resiliency in Skype Empresarial Server](enterprise-voice-resiliency.md).
+Si se necesita resistencia en la sucursal, se debe implementar una aplicación de sucursal con funciones de supervivencia o una combinación de servidor front-end, servidor de mediación y puerta de enlace en la sucursal. (La suposición con la resistencia del sitio de sucursal es que la presencia y las conferencias no son resistentes en el sitio). Para obtener instrucciones sobre la planeación de sitios de sucursal para voz, [vea Plan for Telefonía IP empresarial resiliency in Skype Empresarial Server](enterprise-voice-resiliency.md).
   
 En el caso de las interacciones con una IP-PBX, si la IP-PBX no admite correctamente las interacciones de medios tempranos con varios cuadros de diálogo iniciales y las interacciones rfc 3960, puede haber un recorte de las primeras palabras del saludo para las llamadas entrantes desde la IP-PBX a los extremos Skype Empresarial. Este problema puede ser más grave si un servidor de mediación de un sitio central está enrutando llamadas para una IP-PBX donde la ruta finaliza en un sitio de sucursal, ya que se necesita más tiempo para que se complete la señalización. Si experimenta este comportamiento, implementar un servidor de mediación en el sitio de sucursal es la única manera de reducir el recorte de las primeras palabras.
   

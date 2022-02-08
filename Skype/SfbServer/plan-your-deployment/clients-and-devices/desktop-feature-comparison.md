@@ -1,7 +1,7 @@
 ---
 title: Comparación de características de cliente de escritorio Skype Empresarial Server 2015
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: Skype Empresarial Server 2015 o Skype Empresarial Los administradores en línea pueden usar estas tablas para comprender qué características se admiten en qué clientes.'
-ms.openlocfilehash: 6b9aa102e7bde4a991295694b0a0d9d92985dbee
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1b855cca4830473cd0cb9c4198784cec93868fc7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841102"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388038"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparación de características de cliente de escritorio Skype Empresarial Server 2015
 
@@ -30,20 +30,20 @@ ms.locfileid: "60841102"
   
  Antes de implementar o actualizar a Skype Empresarial, compruebe qué clientes ya están en uso en su organización. Use las tablas siguientes para comprender el impacto de la compatibilidad de características en esos clientes. Esto puede ayudarle a comunicar los cambios a los usuarios, dar un ritmo al proceso de implementación y comprender completamente las ventajas de actualizar al cliente más reciente.
   
-Algunas características disponibles con Skype Empresarial Server 2015 no están disponibles en Skype Empresarial Online, consulta Limitaciones de cuentas de usuario [híbridas](desktop-feature-comparison.md#Online-Hybrid) o en línea para obtener información específica. Skype Empresarial Es posible que los administradores en línea quieran consultar [Skype Empresarial descripción](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) del servicio en línea para obtener información sobre los diferentes planes disponibles para ellos.
+Algunas características disponibles con Skype Empresarial Server 2015 no están disponibles en Skype Empresarial Online, consulta Limitaciones de cuentas de usuario [híbridas](desktop-feature-comparison.md#Online-Hybrid) o en línea para obtener información específica. Skype Empresarial los administradores en línea pueden consultar [Skype Empresarial Descripción](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) del servicio en línea para obtener información sobre los diferentes planes disponibles para ellos.
 
-Consulte Comparación de características de cliente de [escritorio para Skype Empresarial 2019](../../../SfBServer2019/plan/feature-comparison.md) para obtener soporte técnico de cliente Skype Empresarial Server 2019.
+Consulte [Comparación de características de cliente de escritorio para Skype Empresarial 2019](../../../SfBServer2019/plan/feature-comparison.md) para obtener soporte técnico de cliente Skype Empresarial Server 2019.
   
-En las tablas siguientes se muestran las características disponibles con cada cliente que funciona con Skype Empresarial Server 2015 o Skype Empresarial Online. Es posible que también quieras hacer referencia a la comparación de características de cliente móvil [Skype Empresarial](mobile-feature-comparison.md) para las comparaciones de características de cliente de teléfonos inteligentes y tabletas. La licencia de acceso de cliente o la licencia de suscripción de usuario las compras de la organización también tendrán un impacto en las características disponibles para los usuarios. Si implementa el cliente completo o básico para los usuarios depende de la licencia o del plan que su organización elija comprar. Consulta la [Guía de licencias](https://products.office.com/skype-for-business/it-pros) para obtener más información.
+En las tablas siguientes se muestran las características disponibles con cada cliente que funciona con Skype Empresarial Server 2015 o Skype Empresarial Online. Es posible que también quieras hacer referencia a la comparación de características de cliente móvil [Skype Empresarial](mobile-feature-comparison.md) comparaciones de características de cliente de teléfonos inteligentes y tabletas. La licencia de acceso de cliente o la licencia de suscripción de usuario las compras de la organización también tendrán un impacto en las características disponibles para los usuarios. Si implementa el cliente completo o básico para los usuarios depende de la licencia o del plan que su organización elija comprar. Consulta la [Guía de licencias](https://products.office.com/skype-for-business/it-pros) para obtener más información.
   
 > [!IMPORTANT]
-> Skype Empresarial Server 2015 y Skype Empresarial Online admiten los siguientes clientes publicados anteriormente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Teléfono Edition y Lync 2010 Attendant. Para obtener información sobre estos clientes cuando se usan con otros servidores, vea las tablas de comparación de clientes para [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) y Tablas de comparación de clientes para [Lync Server 2010](/previous-versions/office/skype-server-2010/gg425836(v=ocs.14)).
+> Skype Empresarial Server 2015 y Skype Empresarial Online admiten los siguientes clientes publicados anteriormente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Teléfono Edition y Lync 2010 Attendant. Para obtener información acerca de estos clientes cuando se usan con otros servidores, vea las tablas de comparación de clientes para [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) y Tablas de comparación de clientes para [Lync Server 2010](/previous-versions/office/skype-server-2010/gg425836(v=ocs.14)).
 
 > [!NOTE]
 > El **cliente operador de Lync 2010** no se admite en Skype Empresarial Online.
 
 > [!NOTE]
-> El aplicación web de Skype Empresarial explorador y la Skype meetings app Windows 10 solo proporcionan [compatibilidad con reuniones.](desktop-feature-comparison.md#BKMK_Conferencing) Consulte [Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md) para obtener más información sobre estos clientes.
+> El aplicación web de Skype Empresarial explorador y la Skype meetings app Windows 10 solo proporcionan [compatibilidad con reuniones](desktop-feature-comparison.md#BKMK_Conferencing). Consulte [Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md) para obtener más información sobre estos clientes.
   
 ## <a name="enhanced-presence-support"></a>Compatibilidad con presencia mejorada
 
@@ -115,10 +115,10 @@ En esta tabla se tratan las características relacionadas con la compatibilidad 
 En esta tabla se tratan las características relacionadas con la compatibilidad con reuniones.
   
 > [!NOTE]
-> Skype Empresarial características de reunión no están disponibles en Skype Empresarial Plan independiente 1 de Online.  El plan 1 se [está retirando.](../../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md)
+> Skype Empresarial características de reunión no están disponibles en Skype Empresarial Plan independiente 1 de Online.  El plan 1 se [está retirando](../../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md).
 
 En Skype sesiones de Skype, un usuario de Skype Empresarial Online Plan 1 puede participar en el uso compartido de aplicaciones y el uso compartido de aplicaciones de escritorio si lo invita un usuario que tiene acceso a las características de uso compartido.
-Para obtener más información, [consulte Skype Empresarial Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description).
+Para obtener más información, [vea la Skype Empresarial del servicio en línea](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description).
   
 |Característica/funcionalidad | Skype Empresarial 2016 | Skype Empresarial en Mac | Aplicación web de Skype Empresarial | Skype Empresarial 2015 | Cliente de Lync 2013 | Aplicación de Windows Lync | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync para Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -141,7 +141,7 @@ Para obtener más información, [consulte Skype Empresarial Online Service Descr
 |Realizar sondeos |&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;|||||
 |Upload archivos para compartir con otros usuarios |&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;||||&#x2714;|
 |Programar una conferencia o reunión |Outlook o Programador web de Skype Empresarial |Outlook o Programador web de Skype Empresarial |Programador web de Skype Empresarial |Outlook o Programador web de Skype Empresarial |Outlook o Lync Web Scheduler |Outlook o Lync Web Scheduler |Outlook ||||Outlook |
-|Q &amp; A Manager |&#x2714;|||||||||||
+|Administrador de QA&amp; |&#x2714;|||||||||||
 |Deshabilitar vídeo de asistente|&#x2714;||&#x2714;|||||||||
  | |Deshabilitar la mensajería instantánea de reunión  |&#x2714;||&#x2714;|&#x2714;|&#x2714;|||||||
 |Silenciar audiencia   |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||||||&#x2714;|
@@ -165,7 +165,7 @@ Para obtener más información, [consulte Skype Empresarial Online Service Descr
 En esta tabla se tratan las características relacionadas con la compatibilidad con los servicios de voz.
   
 > [!NOTE]
-> Skype Empresarial Las características de voz (telefonía) están limitadas a determinados Skype Empresarial de suscripción en línea. Para obtener más información, [consulte Skype Empresarial Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description).
+> Skype Empresarial de voz (telefonía) están limitadas a determinados planes de suscripción Skype Empresarial online. Para obtener más información, [vea la Skype Empresarial del servicio en línea](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description).
   
 | Característica/funcionalidad | Skype Empresarial 2015 o 2016 | Skype Empresarial en Mac | Cliente de Lync 2013 | Aplicación de Windows Lync | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync para Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -226,7 +226,7 @@ En esta tabla se tratan las características relacionadas con la compatibilidad 
 
 En esta tabla se tratan las características que requieren compatibilidad con la autenticación moderna.
   
-La autenticación moderna también requiere una topología descrita en [Skype Empresarial topologías compatibles con la autenticación moderna.](../../plan-your-deployment/modern-authentication/topologies-supported.md)
+La autenticación moderna también requiere una topología descrita en [Skype Empresarial topologías compatibles con la autenticación moderna](../../plan-your-deployment/modern-authentication/topologies-supported.md).
 
 | Característica/funcionalidad | Skype Empresarial 2015 o 2016 | Skype Empresarial en Mac | Cliente de Lync 2013 | Aplicación de Windows Lync | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync para Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -282,7 +282,7 @@ Las cuentas de usuario pueden existir en línea o local, y eso afectará a las c
 - Compatibilidad con mensajería instantánea: escalar un salón de chat persistente a una reunión Skype Empresarial con un solo clic
 - Usuarios externos: realizar llamadas de dos partes o varias con usuarios externos
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 <a name="Types"> </a>
 

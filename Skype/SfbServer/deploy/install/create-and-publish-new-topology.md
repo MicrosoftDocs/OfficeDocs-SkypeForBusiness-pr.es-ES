@@ -1,8 +1,8 @@
 ---
 title: Crear y publicar nueva topología en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -16,17 +16,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
-description: 'Resumen: obtenga información sobre cómo crear, publicar y comprobar una nueva topología antes de instalar Skype Empresarial Server. Descargue una versión de prueba Skype Empresarial Server desde el Centro de evaluación de Microsoft en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: e224df12ddb680dcec86611f2bce65e377e76c04
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 'Resumen: obtenga información sobre cómo crear, publicar y comprobar una nueva topología antes de instalar Skype Empresarial Server. Descargue una prueba gratuita de Skype Empresarial Server desde el Centro de evaluación de Microsoft en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: 099b367c1fa7f0b2f62c8274b68697de053ab205
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841872"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387258"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Crear y publicar nueva topología en Skype Empresarial Server
  
-**Resumen:** Obtenga información sobre cómo crear, publicar y comprobar una nueva topología antes de instalar Skype Empresarial Server. Descargue una versión de prueba Skype Empresarial Server desde el Centro de evaluación de Microsoft en: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) .
+**Resumen:** Obtenga información sobre cómo crear, publicar y comprobar una nueva topología antes de instalar Skype Empresarial Server. Descargue una prueba gratuita de Skype Empresarial Server desde el Centro de evaluación de Microsoft en: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Para poder instalar el Skype Empresarial Server en cada uno de los servidores de la topología, debe crear una topología y publicarla. Al publicar una topología, está cargando la información de topología en la base de datos del Almacén de administración central. Si se trata de un Enterprise Edition de servidores, estás creando la base de datos del Almacén de administración central la primera vez que publiques una topología nueva. Si esto es Standard Edition, deberá ejecutar el proceso Preparar el primer servidor Standard Edition desde el Asistente para la implementación antes de publicar una topología. Esto se prepara para Standard Edition instalando una instancia SQL Server Express Edition y creando el Almacén de administración central. Puede realizar los pasos del 1 al 5 en cualquier orden. Sin embargo, debe realizar los pasos 6, 7 y 8 en orden y después de los pasos del 1 al 5, tal como se describe en el diagrama. Cómo crear y publicar una nueva topología se describe en el paso 6 de 8.
   
@@ -45,24 +45,24 @@ Puede usar el generador Skype Empresarial Server topología para diseñar, defin
     
 2. Abra Skype Empresarial Server generador de topologías.
     
-3. Seleccione **Nueva topología y** haga clic en **Aceptar**..
+3. Seleccione **Nueva topología y** haga clic en **Aceptar**.
     
 4. Seleccione una ubicación y un nombre de archivo para el archivo de configuración de topología.
     
     > [!NOTE]
     > La configuración de topología se guarda como un archivo XML del Generador de topologías (.tbxml). Al publicar una topología, se va a insertar la información de configuración del archivo a la base SQL Server datos. Cuando abra el Generador de topologías en el futuro, puede descargar la configuración existente de SQL Server directamente en el Generador de topologías y volver a publicarla en SQL Server o guardarla como un archivo de configuración del Generador de topologías. 
   
-5. En la **pantalla Definir el dominio principal,** escriba el dominio SIP **principal** y haga clic en **Siguiente**. En este ejemplo, estamos usando `contoso.local` , como se muestra en la figura.
+5. En la **pantalla Definir el dominio principal**, escriba el **dominio SIP principal** y haga clic en **Siguiente**. En este ejemplo, estamos usando `contoso.local`, como se muestra en la figura.
     
      ![Definir el dominio sip principal.](../../media/353e6b38-485f-4042-8585-aefa6c74b554.png)
   
-6. Agregue los dominios SIP compatibles adicionales y, a continuación, haga clic **en Siguiente**.
+6. Agregue los dominios SIP compatibles adicionales y, a continuación, haga clic en **Siguiente**.
     
 7. Escriba un **nombre** y **una descripción** para el primer sitio (ubicación) y, a continuación, haga clic en **Siguiente**, como se muestra en la figura.
     
      ![Definir el primer sitio (ubicación).](../../media/d8b6c54a-2011-4efb-97fb-a4de0f11303c.png)
   
-8. Escriba el **Código de ciudad,** **estado/provincia** y **país/región** para el sitio y, a continuación, haga clic **en Siguiente**.
+8. Escriba el **código de** ciudad, **estado/provincia** y **país/** región para el sitio y, a continuación, haga clic en **Siguiente**.
     
 9. Haga **clic en** Finalizar para completar el proceso de definición de una nueva topología. El Asistente para nuevo front-end se inicia automáticamente.
     
@@ -70,7 +70,7 @@ Puede usar el generador Skype Empresarial Server topología para diseñar, defin
 
 1. Revise los requisitos previos del asistente y, a continuación, haga clic **en Siguiente**.
     
-2. Escriba el nombre de dominio completo (FQDN) del grupo de servidores y seleccione Enterprise Edition Grupo de servidores **front-end** o **servidor Standard Edition** y, a continuación, haga clic en Siguiente **,** como se muestra en la figura.
+2. Escriba el nombre de dominio completo (FQDN) del grupo de servidores y seleccione Enterprise Edition Grupo de servidores **front-end** o **Standard Edition Server** y, a continuación **, haga** clic en Siguiente, como se muestra en la figura.
     
     > [!TIP]
     > Skype Empresarial Server Enterprise Edition puede incluir varios servidores que trabajen juntos para proporcionar el rol front-end. Cuando se usan varios servidores para cumplir el rol, se denomina grupo de servidores. Por lo tanto, varios servidores que trabajan juntos para proporcionar el rol front-end también se conoce como grupo de servidores front-end. Skype Empresarial Server Standard Edition puede incluir un solo servidor para proporcionar el rol front-end. Es común hacer referencia al grupo de servidores front-end incluso si solo un solo servidor proporciona el rol. 
@@ -90,9 +90,9 @@ Puede usar el generador Skype Empresarial Server topología para diseñar, defin
   
 5. En la **página Seleccionar** roles de servidor con colocación, puede optar por colocar el servidor de mediación en el servidor front-end o puede elegir implementarlo como un servidor independiente.
     
-    Si desea colocar el servidor de mediación en el grupo Enterprise Edition front-end, asegúrese de que la casilla esté activada. Los roles de servidor se implementarán en los servidores del grupo. Si desea implementar el servidor de mediación como un servidor independiente, desactive la casilla correspondiente. Implementará el servidor de mediación en un paso de implementación independiente después de implementar completamente el servidor front-end. Para obtener información sobre la planeación de una ubicación, vea [Topology Basics for Skype Empresarial Server](../../plan-your-deployment/topology-basics/topology-basics.md).
+    Si desea colocar el servidor de mediación en el grupo Enterprise Edition front-end, asegúrese de que la casilla esté activada. Los roles de servidor se implementarán en los servidores del grupo. Si desea implementar el servidor de mediación como un servidor independiente, desactive la casilla correspondiente. Implementará el servidor de mediación en un paso de implementación independiente después de implementar completamente el servidor front-end. Para obtener información sobre la planeación de una ubicación, consulte [Topology Basics for Skype Empresarial Server](../../plan-your-deployment/topology-basics/topology-basics.md).
     
-6. Al usar la página Asociar roles de servidor con este grupo **de servidores front-end,** puede definir y asociar roles de servidor con el grupo de servidores front-end. Los tres roles disponibles son:
+6. Al usar la **página Asociar roles de servidor con este grupo de servidores front-end** , puede definir y asociar roles de servidor con el grupo de servidores front-end. Los tres roles disponibles son:
     
     **Habilitar un grupo de servidores perimetrales** Define y asocia un único servidor perimetral o un grupo de servidores perimetrales. Un servidor perimetral facilita la comunicación y la colaboración entre usuarios dentro de la organización y personas fuera de la organización, incluidos los usuarios federados.
     
@@ -112,22 +112,22 @@ Puede usar el generador Skype Empresarial Server topología para diseñar, defin
     
    - Para usar el almacén de SQL Server existente que ya se ha definido en la topología, seleccione **Usar un almacén de SQL definido previamente**.
     
-   - Para definir una nueva instancia SQL Server para almacenar información del grupo, haga clic en Nuevo y, a continuación, especifique el **FQDN** SQL Server en el cuadro de diálogo Definir nuevo **SQL almacén.**
+   - Para definir una nueva instancia SQL Server para almacenar información del grupo, haga clic en Nuevo y, a continuación **, especifique** el **FQDN** de SQL Server en el cuadro de diálogo Definir nuevo **SQL almacén**.
     
    - Para especificar el nombre de una instancia de SQL Server, seleccione **Instancia con nombre** y, a continuación, especifique el nombre de la instancia.
     
    - Para usar la instancia predeterminada, haga clic en **Instancia predeterminada**.
     
-   - Para usar SQL creación de reflejo, **seleccione Habilitar SQL** creación de reflejo y seleccione una instancia existente o cree una nueva instancia.
+   - Para usar SQL creación de reflejos, **seleccione Habilitar SQL** creación de reflejo y seleccione una instancia existente o cree una nueva instancia.
 
      > [!NOTE]
-     > SQL La creación de reflejos está disponible Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL de clústeres de conmutación por error se prefieren Skype Empresarial Server 2019.
+     > SQL creación de reflejo está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL de clústeres de conmutación por error se prefieren Skype Empresarial Server 2019.
     
-     En este ejemplo, especificamos el **FQDN** SQL Server y configuramos cualquier configuración de alta disponibilidad relevante y, a continuación, hacemos clic en **Aceptar**, como se muestra en la figura.
+     En este ejemplo, especificamos el **FQDN de SQL Server** y configuramos cualquier configuración de alta disponibilidad relevante y, a continuación, hacemos clic en **Aceptar**, como se muestra en la figura.
     
      ![Cree un SQL Server de almacenamiento.](../../media/12822cf9-8608-43c0-94ce-2ca8b3a0ffd5.png)
   
-8. Decida si desea habilitar la creación de reflejos SQL Server almacén o SQL Server de creación de reflejos y, a continuación, haga clic en **Siguiente**.
+8. Decida si desea habilitar la creación SQL Server reflejo o SQL Server de creación de reflejo y, a continuación, haga clic en **Siguiente**.
     
 9. Defina el recurso compartido de archivos que desea usar.
     
@@ -135,60 +135,60 @@ Puede usar el generador Skype Empresarial Server topología para diseñar, defin
     
    - Para definir un nuevo recurso compartido de archivos, seleccione **Definir un nuevo recurso compartido de archivos**, en el cuadro **FQDN de servidor de archivos**, escriba el FQDN del servidor de archivos existente donde se ubicará el recurso compartido de archivos y, a continuación, escriba un nombre para el recurso compartido de archivos en el cuadro **Recurso compartido de archivos**.
     
-     Para este ejemplo, haremos clic en Definir un nuevo almacén de **archivos,** escriba el **FQDN** y **el recurso** compartido de archivos del servidor de archivos y, a continuación, haga clic en **Siguiente**.
+     En este ejemplo, haremos clic en **Definir un nuevo** almacén de archivos, escribiremos el **FQDN** y **el** recurso compartido de archivos del servidor de archivos y, a continuación, haremos clic en **Siguiente**.
     
      > [!NOTE]
-     > El recurso compartido de Skype Empresarial Server puede colocarse, pero no se recomienda por motivos de rendimiento. Tenga en cuenta que en este ejemplo, el recurso compartido de archivos se ha ubicado en un único servidor dedicado que actuará como recurso compartido de archivos. Sin embargo, se recomiendan otros sistemas de recurso compartido de archivos más robustos, como DFS Windows Server 2012 R2. Para obtener más información acerca de los sistemas de recursos compartidos de archivos compatibles, vea [Requisitos para su Skype Empresarial de archivos.](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) Para obtener más información acerca de la creación del recurso compartido de archivos, vea [Create a file share in Skype Empresarial Server](create-a-file-share.md). Puede definir el uso compartido de archivos sin que este se haya creado. Tendrá que crear el uso compartido de archivos en la ubicación que defina antes de publicar la topología. 
+     > El recurso compartido de Skype Empresarial Server puede colocarse, pero no se recomienda por motivos de rendimiento. Tenga en cuenta que en este ejemplo, el recurso compartido de archivos se ha ubicado en un único servidor dedicado que actuará como recurso compartido de archivos. Sin embargo, se recomiendan otros sistemas de recurso compartido de archivos más robustos, como DFS Windows Server 2012 R2. Para obtener más información acerca de los sistemas de recursos compartidos de archivos compatibles, consulte [Requisitos para su Skype Empresarial de archivos](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). Para obtener más información acerca de la creación del recurso compartido de archivos, vea [Create a file share in Skype Empresarial Server](create-a-file-share.md). Puede definir el uso compartido de archivos sin que este se haya creado. Tendrá que crear el uso compartido de archivos en la ubicación que defina antes de publicar la topología. 
   
-10. En la página Especificar la dirección URL de servicios web, debe decidir si necesita invalidar la dirección URL base del grupo de servicios web interno. El motivo de esta invalidación tiene que ver con el equilibrio de carga. El tráfico SIP básico puede equilibrarse con el equilibrio de carga dns simple. Sin embargo, el tráfico de red de servicios web HTTP/S debe usar una solución de equilibrio de carga de hardware o software compatible. Para los equilibradores de carga compatibles, vea [Infrastructure for Skype Empresarial](../../../SfbPartnerCertification/certification/infra-gateways.md). En este ejemplo, se usa el equilibrio de carga DNS para el tráfico SIP y una solución de equilibrio de carga de software compatible. Dado que dividimos el tráfico de esta manera, debemos invalidar el FQDN interno del grupo de servicios web. Como alternativa, si hubo un equilibrador de carga de línea superior y se envió todo el tráfico a través de él en lugar de usar el equilibrio de carga DNS para el tráfico SIP, no tendríamos que invalidar la dirección URL de servicios web. 
+10. En la página Especificar la dirección URL de servicios web, debe decidir si necesita invalidar la dirección URL base del grupo de servicios web interno. El motivo de esta invalidación tiene que ver con el equilibrio de carga. El tráfico SIP básico puede equilibrarse con el equilibrio de carga dns simple. Sin embargo, el tráfico de red de servicios web HTTP/S debe usar una solución de equilibrio de carga de hardware o software compatible. Para los equilibradores de carga compatibles, consulte [Infrastructure for Skype Empresarial](../../../SfbPartnerCertification/certification/infra-gateways.md). En este ejemplo, se usa el equilibrio de carga DNS para el tráfico SIP y una solución de equilibrio de carga de software compatible. Dado que dividimos el tráfico de esta manera, debemos invalidar el FQDN interno del grupo de servicios web. Como alternativa, si hubo un equilibrador de carga de línea superior y se envió todo el tráfico a través de él en lugar de usar el equilibrio de carga DNS para el tráfico SIP, no tendríamos que invalidar la dirección URL de servicios web. 
     
-    En la sección DNS de este tema, creamos un registro A para `webint.contoso.local` . Esta es la dirección URL que estamos usando para el tráfico HTTP/S de los servicios web y debe pasar por el equilibrador de carga de software compatible que configuramos. Por lo tanto, en este ejemplo, invalidamos la dirección URL para que Skype Empresarial Server sepa que todo el tráfico HTTP/S debe ir a en lugar de , como se muestra `webint.contoso.local` `pool.contoso.local` en la figura. Para obtener más información sobre el equilibrio de carga, vea [Requisitos de equilibrio](../../plan-your-deployment/network-requirements/load-balancing.md)de carga para Skype Empresarial .
+    En la sección DNS de este tema, creamos un registro A para `webint.contoso.local`. Esta es la dirección URL que estamos usando para el tráfico HTTP/S de los servicios web y debe pasar por el equilibrador de carga de software compatible que configuramos. Por lo tanto, en este ejemplo, invalidamos la dirección URL para que Skype Empresarial Server sepa que todo el tráfico HTTP/S `webint.contoso.local` `pool.contoso.local`debe ir a en lugar de , como se muestra en la figura. Para obtener más información sobre el equilibrio de carga, vea [Requisitos de equilibrio de carga para Skype Empresarial](../../plan-your-deployment/network-requirements/load-balancing.md).
     
     > [!IMPORTANT]
-    > La dirección URL base es la identidad de servicios web de la dirección URL, menos https://. Por ejemplo, si la dirección URL completa de los servicios web del grupo es `https://webint.contoso.local` , la dirección URL base es `webint.contoso.local` . 
+    > La dirección URL base es la identidad de servicios web de la dirección URL, menos https://. Por ejemplo, si la dirección URL completa de los servicios web del grupo es `https://webint.contoso.local`, la dirección URL base es `webint.contoso.local`. 
   
-    - Si va a configurar el equilibrio de carga dns, como se muestra en este ejemplo, active la casilla Invalidar **FQDN** del grupo de servicios web internos y escriba la dirección URL base interna (que debe ser diferente del FQDN del grupo) en Dirección **URL base** interna. 
+    - Si va a configurar el equilibrio de carga dns, como se muestra en este ejemplo, active la casilla Invalidar **FQDN** del grupo de servidores de servicios web internos y escriba la dirección URL base interna (que debe ser diferente del FQDN del grupo) en dirección **URL base** interna. 
     
     > [!CAUTION]
     > Si decide invalidar los servicios web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores. **Use solo caracteres estándar** (incluidos A-Z, a-z, 0-9 y guiones) al definir direcciones URL o nombres de dominio completos. No use caracteres Unicode ni de subrayado. Los caracteres no estándar en una dirección URL o FQDN a menudo no son compatibles con DNS externos y entidades de certificación públicas (CA) (es decir, cuando la dirección URL o FQDN deben asignarse al nombre del sujeto o nombre alternativo del sujeto en el certificado).
   
-    - Opcionalmente, escriba la dirección URL base externa en **Dirección URL base externa**. Escribiría la dirección URL base externa para diferenciarla del nombre de dominio interno. Por ejemplo, el dominio interno es `contoso.local` , pero el nombre de dominio externo es `contoso.com` . Definiría la dirección URL con el `contoso.com` nombre de dominio, ya que debe resolverse desde DNS público. También es importante en el caso de un proxy inverso. El nombre de dominio de la dirección URL base externa será el mismo que el nombre de dominio del FQDN del servidor proxy inverso. El acceso HTTP al grupo de servidores front-end es necesario para la mensajería instantánea y la presencia en clientes móviles.
+    - Opcionalmente, escriba la dirección URL base externa en **Dirección URL base externa**. Escribiría la dirección URL base externa para diferenciarla del nombre de dominio interno. Por ejemplo, el dominio interno es `contoso.local`, pero el nombre de dominio externo es `contoso.com`. Definiría la dirección URL con el nombre `contoso.com` de dominio, ya que debe resolverse desde DNS público. También es importante en el caso de un proxy inverso. El nombre de dominio de la dirección URL base externa será el mismo que el nombre de dominio del FQDN del servidor proxy inverso. El acceso HTTP al grupo de servidores front-end es necesario para la mensajería instantánea y la presencia en clientes móviles.
     
       ![Invalide los servicios web.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
 11. Si seleccionó **Conferencia en** la página **Seleccionar** características, se le pedirá que seleccione un servidor Office Web Apps. Haga **clic en** Nuevo para iniciar el cuadro de diálogo.
     
-12. En el cuadro de diálogo Definir nuevo **Office Servidor de** aplicaciones web, escriba el FQDN del servidor de Office Web Apps en el cuadro FQDN de Office Web Apps **Server;** al hacerlo, la dirección URL Office de detección del servidor de Web Apps debe especificarse automáticamente en el cuadro Office url de detección del servidor web **apps.**
+12. En el cuadro de diálogo Definir nuevo **servidor de aplicaciones** web de Office, escriba el FQDN del servidor de aplicaciones web de Office en el cuadro **FQDN** del servidor de aplicaciones web de Office; al hacerlo, la dirección URL de detección del servidor de Office Web Apps debe escribirse automáticamente en el cuadro dirección URL de detección del servidor de aplicaciones web de **Office**.
     
-    Si el servidor Office Web Apps está instalado localmente y en la misma zona de red que Skype Empresarial Server, no seleccione la opción Office Web Apps Server se implementa en una red externa **(es decir, perimetral/Internet).**
+    Si el servidor Office Web Apps está instalado localmente y en la misma zona de red que Skype Empresarial Server, no seleccione la opción **Office Web Apps Server** se implementa en una red externa (es decir, perimetral/Internet).
     
-    Si el servidor Office Web Apps se implementa fuera del firewall interno, seleccione la opción Office Web Apps Server se implementa en una red externa **(es decir, perimetral/Internet).**
+    Si el servidor Office Web Apps se implementa fuera del firewall interno, seleccione la opción **Office Web Apps Server** se implementa en una red externa (es decir, perimetral/Internet).
     
 13. Haga **clic en** Finalizar para completar la configuración. Si definió otros servidores de roles en la página Asociar **roles** de servidor con esta página del grupo de servidores front-end, se abrirán páginas del Asistente para la configuración de roles independientes donde puede configurar los roles de servidor. En este ejemplo, solo elegimos conferencias.
     
 ### <a name="configure-simple-urls"></a>Configurar direcciones URL sencillas
 
-1. En el Generador de topologías, haga clic con el botón secundario **en Skype Empresarial Server** nodo superior y, a continuación, haga clic en **Editar** propiedades , como se muestra en la figura.
+1. En el Generador de topologías, haga clic con el botón secundario en Skype Empresarial Server nodo superior y, **a** continuación, haga clic en **Editar** propiedades, como se muestra en la figura.
     
      ![Haga clic con el Skype Empresarial Server y seleccione Editar propiedades.](../../media/692c18dd-8e99-4239-ae7b-5e855d866afa.png)
   
-2. En el **panel Direcciones URL** sencillas, seleccione Teléfono direcciones URL de **acceso:** (acceso telefónico) o Direcciones URL de **reunión:** (Reunión) para editar y, a continuación, haga clic en Editar **dirección URL**.
+2. En el **panel Direcciones URL** sencillas, seleccione Teléfono direcciones URL de acceso: (acceso telefónico) o Direcciones URL de reunión **:** (Reunión) para editar y, **a** continuación, haga clic en Editar **dirección URL**.
     
-3. Actualice la dirección URL al valor deseado y haga clic en **Aceptar** para guardar la dirección URL modificada. Debe configurar la dirección URL sencilla mediante el dominio SIP externo para que los usuarios externos puedan unirse a reuniones, por ejemplo, , que es externo, en lugar de , que es `contoso.com` `contoso.local` un dominio interno. Por lo tanto, el dominio SIP debe poder resolverse mediante DNS externo.
+3. Actualice la dirección URL al valor deseado y haga clic en **Aceptar** para guardar la dirección URL modificada. Debe configurar la dirección URL sencilla mediante el dominio SIP externo para que los usuarios externos puedan unirse a reuniones, por ejemplo, `contoso.com`, que es externo, `contoso.local`en lugar de , que es un dominio interno. Por lo tanto, el dominio SIP debe poder resolverse mediante DNS externo.
     
 4. Edite la dirección URL de reunión realizando los mismos pasos, si es necesario.
     
 ### <a name="to-define-the-optional-admin-simple-url"></a>Para definir la dirección URL sencilla de administración opcional
 
-1. En el Generador de topologías, haga clic con el **botón secundario en el Skype Empresarial Server** y, a continuación, haga clic en Editar **propiedades**.
+1. En el Generador de topologías, haga clic con el botón **secundario en el Skype Empresarial Server** y, a continuación, haga clic **en Editar propiedades**.
     
 2. En el **cuadro Dirección URL de** acceso administrativo, escriba la dirección URL sencilla que desea para el acceso administrativo a Skype Empresarial Server Panel de control y, a continuación, haga clic en **Aceptar**.
     
     > [!TIP]
-    > Recomendamos usar la dirección URL más simple posible para la dirección URL de administración. La opción más sencilla es https://admin . _\<domain\>_ . La dirección URL de administrador puede ser un dominio interno o externo, por ejemplo, o , siempre que cualquiera de los registros se `contoso.local` pueda resolver en DNS `contoso.com` interno. 
+    > Recomendamos usar la dirección URL más simple posible para la dirección URL de administración. La opción más sencilla es https://admin. _\<domain\>_. La dirección URL de administrador puede ser un dominio interno o externo, por ejemplo, `contoso.local` `contoso.com`o , siempre que cualquiera de los registros se pueda resolver en DNS interno. 
   
     > [!IMPORTANT]
-    > Si cambia una dirección URL sencilla tras la implementación inicial, deberá conocer qué cambios afectan a los certificados y los registros de su sistema de nombres de dominio (DNS) para direcciones de URL sencillas. Si el cambio afecta a la base de una dirección URL sencilla, también debe cambiar los registros y certificados DNS. Por ejemplo, cambiar de `https://sfb.contoso.com/Meet` a cambia la dirección URL base de `https://meet.contoso.com` sfb.`contoso.com` a , por lo que tendría que cambiar los registros DNS y certificados `meet.contoso.com` para hacer referencia a `meet.contoso.com` . Si cambió la dirección URL sencilla de a , la dirección URL base de permanece igual, por lo que no se necesitan cambios `https://sfb.contoso.com/Meet` de DNS ni de `https://sfb.contoso.com/Meetings` `sfb.contoso.com` certificado. Sin embargo, siempre que cambie un nombre de dirección URL simple, debe ejecutar el cmdlet **Enable-CsComputer** en cada director y servidor front-end para registrar el cambio.
+    > Si cambia una dirección URL sencilla tras la implementación inicial, deberá conocer qué cambios afectan a los certificados y los registros de su sistema de nombres de dominio (DNS) para direcciones de URL sencillas. Si el cambio afecta a la base de una dirección URL sencilla, también debe cambiar los registros y certificados DNS. Por ejemplo, cambiar de a `https://sfb.contoso.com/Meet` cambia `https://meet.contoso.com` la dirección URL base de sfb.`contoso.com` a `meet.contoso.com`, por lo que tendría que cambiar los registros DNS y certificados para hacer referencia a `meet.contoso.com`. Si cambió la dirección URL sencilla de `https://sfb.contoso.com/Meet` a `https://sfb.contoso.com/Meetings`, la dirección URL `sfb.contoso.com` base de permanece igual, por lo que no se necesitan cambios de DNS ni de certificado. Sin embargo, siempre que cambie un nombre de dirección URL simple, debe ejecutar el cmdlet **Enable-CsComputer** en cada director y servidor front-end para registrar el cambio.
   
 ### <a name="publish-and-verify-the-topology"></a>Publicar y comprobar la topología
 
@@ -204,11 +204,11 @@ Puede usar el generador Skype Empresarial Server topología para diseñar, defin
     
     Una vez que haya verificado la topología y comprobado que no existen errores de validación, estará listo para publicar la topología. Si hay errores de validación, debe corregirlos antes de poder publicar la topología.
     
-6. Haga clic con el botón **secundario en el Skype Empresarial Server** y, a continuación, haga clic en Publicar **topología**.
+6. Haga clic con el botón **secundario en Skype Empresarial Server** y, a continuación, haga clic **en Publicar topología**.
     
 7. En la página **Publicar topología**, haga clic en **Siguiente**.
     
-8. En la **página Seleccionar servidor de administración central,** seleccione un grupo de servidores front-end, como se muestra en la figura.
+8. En la **página Seleccionar servidor de administración central** , seleccione un grupo de servidores front-end, como se muestra en la figura.
     
     > [!NOTE]
     > Puede hacer clic en **Avanzadas para** configurar ubicaciones de archivos de base de datos.
@@ -218,11 +218,11 @@ Puede usar el generador Skype Empresarial Server topología para diseñar, defin
 9. En la **página Seleccionar bases de** datos, seleccione las bases de datos que desea publicar.
     
     > [!NOTE]
-    > Si no tiene los derechos adecuados para crear las bases de datos, puede borrar las casillas situadas junto a dichas bases de datos y alguien con derechos adecuados puede crear más adelante las bases de datos. Para obtener más información acerca de los [requisitos,](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)vea Requisitos del servidor para Skype Empresarial Server . 
+    > Si no tiene los derechos adecuados para crear las bases de datos, puede borrar las casillas situadas junto a dichas bases de datos y alguien con derechos adecuados puede crear más adelante las bases de datos. Para obtener más información sobre los requisitos, consulte [Requisitos del servidor para Skype Empresarial Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
   
 10. Opcionalmente, haga clic en **Avanzadas**. Mediante el uso de opciones SQL Server de ubicación de archivos de datos avanzados, puede seleccionar entre las siguientes opciones: 
     
-    - **Determinar automáticamente** la ubicación de los archivos de base de datos: esta opción determina el mejor rendimiento operativo en función de la configuración del disco en el servidor basado en SQL Server distribuyendo los archivos de registro y datos a la mejor ubicación.
+    - **Determinar automáticamente** la ubicación de los archivos de base de datos: esta opción determina el mejor rendimiento operativo en función de la configuración de disco del servidor basado en SQL Server distribuyendo los archivos de registro y datos a la mejor ubicación.
     
     - **Usar SQL Server de instancia predeterminada:** esta opción coloca los archivos de registro y datos en el servidor basado SQL Server mediante la configuración de instancia. No usa la funcionalidad operativa del servidor basado en SQL Server para determinar las ubicaciones óptimas de registros y datos. El administrador de SQL Server suele mover los archivos de datos y de registro a ubicaciones que sean adecuadas para los procedimientos de administración de la organización y del servidor basado en SQL Server.
     
@@ -230,7 +230,7 @@ Puede usar el generador Skype Empresarial Server topología para diseñar, defin
     
 11. Opcionalmente, haga clic en **Avanzadas**. Mediante el uso de opciones SQL Server de ubicación de archivos de datos avanzados, puede seleccionar entre las siguientes opciones: 
     
-    - **Determinar automáticamente** la ubicación de los archivos de base de datos: esta opción determina el mejor rendimiento operativo en función de la configuración del disco en el servidor basado en SQL Server distribuyendo los archivos de registro y datos a la mejor ubicación.
+    - **Determinar automáticamente** la ubicación de los archivos de base de datos: esta opción determina el mejor rendimiento operativo en función de la configuración de disco del servidor basado en SQL Server distribuyendo los archivos de registro y datos a la mejor ubicación.
     
     - **Usar SQL Server de instancia predeterminada:** esta opción coloca los archivos de registro y datos en el servidor basado SQL Server mediante la configuración de instancia. No usa la funcionalidad operativa del servidor basado en SQL Server para determinar las ubicaciones óptimas de registros y datos. El administrador de SQL Server suele mover los archivos de datos y de registro a ubicaciones que sean adecuadas para los procedimientos de administración de la organización y del servidor basado en SQL Server.
     
@@ -243,7 +243,7 @@ Puede usar el generador Skype Empresarial Server topología para diseñar, defin
   
      ![Error al crear el almacén de administración central.](../../media/558bd2e4-2721-422d-9986-df86f642e6a1.png)
   
-13. Cuando se complete el proceso de publicación, se le muestra un vínculo para abrir una lista de los pasos siguientes. Haga **clic en Haga clic aquí para abrir la** lista de tareas por hacer para ver los pasos siguientes y, a continuación, haga clic en **Finalizar**. 
+13. Cuando se complete el proceso de publicación, se le muestra un vínculo para abrir una lista de los pasos siguientes. Haga **clic en Haga clic aquí para abrir la lista de** tareas por hacer para ver los pasos siguientes y, a continuación, haga clic en **Finalizar**. 
     
     El mensaje "Completado con advertencias" para la creación de la base de datos no significa que se produjo un error. El proceso de instalación debe cambiar la configuración SQL Server para que Skype Empresarial Server funcione correctamente. Cuando se cambia una configuración en SQL Server, se registra como una advertencia para que SQL Server administradores puedan comprender exactamente lo que se completó el proceso de instalación. Si recibe una advertencia, puede seleccionar el registro y, a continuación, hacer clic en **Ver** registros para ver los detalles de la advertencia.
     

@@ -1,8 +1,8 @@
 ---
 title: Implementar servidores perimetrales en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Summary: Learn how to deploy Edge Servers into your Skype Empresarial Server environment.'
-ms.openlocfilehash: 30beb7b42b2f77e82d83768d918102cbaa0f7f5e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 44e0c114ab88888e7ee24aea89dabac3e0354c2a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852734"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388952"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Implementar servidores perimetrales en Skype Empresarial Server
  
@@ -78,7 +78,7 @@ Como se indica en Planeación, configurará la interfaz de red con DNS en la red
     
 ## <a name="installation"></a>Instalación
 
-Para completar estos pasos correctamente, deberá haber seguido los pasos del artículo [Create your Edge topology for Skype Empresarial Server.](create-your-edge-topology.md)
+Para completar estos pasos correctamente, deberá haber seguido los pasos del artículo [Create your Edge topology for Skype Empresarial Server](create-your-edge-topology.md).
   
 1. Inicie sesión en el servidor que ha estado configurando para el rol servidor perimetral con una cuenta que está en el grupo del administrador local.
     
@@ -86,11 +86,11 @@ Para completar estos pasos correctamente, deberá haber seguido los pasos del ar
     
 3. Inicie el **Asistente para implementación**.
     
-4. Una vez que se abra el asistente, haga clic en **Instalar o actualizar Skype Empresarial Server Sistema**.
+4. Una vez que se abra el asistente, haga clic **en Instalar o actualizar Skype Empresarial Server sistema**.
     
 5. El asistente ejecutará comprobaciones para ver si ya hay algo instalado. Como es la primera vez que se ejecuta el asistente, querrá empezar en el **paso 1. Instalar el almacén de configuración local.**
     
-6. Aparecerá **el cuadro de diálogo** Configurar réplica local del almacén de administración central. Debe hacer clic en **Importar desde un archivo (recomendado para servidores perimetrales).**
+6. Aparecerá **el cuadro de diálogo Configurar réplica local** del almacén de administración central. Debe hacer clic en **Importar desde un archivo (recomendado para servidores perimetrales).**
     
 7. Desde aquí, vaya a la ubicación de la topología que exportó anteriormente, seleccione el archivo .zip, haga clic en **Abrir** y, a continuación, haga clic en **Siguiente**.
     
@@ -119,7 +119,7 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Inicie sesión en un Skype Empresarial Server en la red interna como miembro del grupo administradores local.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. Abra **Inicio** y **Ejecutar** (o **Buscar** y **ejecutar)** y, a continuación, escriba lo siguiente:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. Abra **Inicio** y **Ejecutar** (o **Buscar** y **ejecutar** ) y, a continuación, escriba lo siguiente:
     
   ```console
   https://<NAME OF YOUR ISSUING CA SERVER>/certsrv
@@ -131,31 +131,31 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
   https://ca01/contoso.com/certsrv
   ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. En la página web certsrv de la ca emisora, en **Seleccionar** una tarea, haga clic en Descargar un certificado de CA, cadena de **certificados o CRL.**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. En la página web certsrv de la entidad emisora, en **Seleccionar** una tarea, haga clic en Descargar un certificado de CA, una cadena de **certificados o una CRL**.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. En **Descargar un certificado de CA, cadena de certificados o CRL,** haga clic en Descargar cadena de certificados de **CA**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. En **Descargar un certificado de CA, cadena de certificados o CRL**, haga clic **en Descargar cadena de certificados de CA**.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v. En el cuadro **Descargar archivo,** haga clic **en Guardar**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v. En el cuadro **Descargar archivo** , haga clic en **Guardar**.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vi. Guarde el archivo .p7b en la unidad de disco duro del servidor y, a continuación, cópielo en una carpeta en cada uno de los servidores perimetrales.
     
 ### <a name="nbspnbspnbspb-export-using-mmc"></a>&nbsp;&nbsp;&nbsp;b. Exportar con MMC
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Puede exportar el certificado raíz de ca desde cualquier máquina unida a un dominio mediante MMC. Vaya a **Inicio** y **ejecución** o abra **Búsqueda** y escriba **MMC** para abrir.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Puede exportar el certificado raíz de ca desde cualquier máquina unida a un dominio mediante MMC. Vaya a **Inicio** y **ejecución**, o abra **Búsqueda** y escriba **MMC** para abrir.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. En la consola MMC, haga clic **en Archivo** y, a continuación, haga clic en **Agregar o quitar complemento.**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. En la consola MMC, haga clic **en Archivo** y, a continuación, haga clic en **Agregar o quitar complemento**.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. En la **lista de diálogo Agregar o** quitar complementos, elija **Certificados** y, a continuación, haga clic en **Agregar**. Cuando se le pida, seleccione **Cuenta del** equipo y, a continuación, **Siguiente**. En el cuadro de diálogo **Seleccionar equipo**, seleccione **Equipo local**. Haga **clic en Finalizar** y, a continuación, en **Aceptar**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. En la **lista de diálogo Agregar o** quitar complementos, elija **Certificados** y, a continuación, haga clic en **Agregar**. Cuando se le pida, seleccione **Cuenta de** equipo y, a continuación, **Siguiente**. En el cuadro de diálogo **Seleccionar equipo**, seleccione **Equipo local**. Haga **clic en** Finalizar y, a continuación, **en Aceptar**.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. Expanda **Certificados (equipo local).** Expanda **Entidades de certificación raíz de confianza**. Seleccione **Certificados**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. Expanda **Certificados (equipo local).**. Expanda **Entidades de certificación raíz de confianza**. Seleccione **Certificados**.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v. Haga clic en el certificado raíz emitido por su CA. Haga clic con el botón secundario en el certificado, **elija Todas** las tareas en el menú y, a continuación, **seleccione Exportar**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v. Haga clic en el certificado raíz emitido por su CA. Haga clic con el botón secundario en el certificado, **elija Todas las tareas** en el menú y, a continuación, **seleccione Exportar**.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vi. Se **abrirá el Asistente para exportación de** certificados. Haga clic en **Siguiente**.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vii. En el **cuadro de diálogo Exportar formato de** archivo, elija el formato al que desea exportar. Nuestra recomendación es **Cryptographic Message Syntax Standard - PKCS #7 Certificates (P7b)**. Si esa es su elección, recuerde también  seleccionar la casilla Incluir todos los certificados en la ruta de certificación si es posible, ya que esto también exportará la cadena de certificados, incluido el certificado de CA raíz y los certificados intermedios. Haga clic en **Siguiente**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vii. En el **cuadro de diálogo Exportar formato de** archivo, elija el formato al que desea exportar. Nuestra recomendación es **Estándar de sintaxis de mensajes criptográficos: certificados PKCS #7 (P7b).**. Si esa es su elección, recuerde también seleccionar la casilla Incluir todos los  certificados en la ruta de certificación si es posible, ya que esto también exportará la cadena de certificados, incluido el certificado de CA raíz y los certificados intermedios. Haga clic en **Siguiente**.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;viii. En el **cuadro de diálogo** Archivo para exportar, en la entrada nombre de archivo, escriba una ruta de acceso y un nombre de archivo (la extensión predeterminada sería .p7b) para el certificado exportado. Si es más fácil, elija  el botón Examinar para ir a la ubicación en la que desea guardar el certificado exportado y asigne un nombre al certificado exportado aquí. Haga **clic en** Guardar y, a continuación, en Siguiente cuando esté listo. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;viii. En el **cuadro de diálogo** Archivo para exportar, en la entrada nombre de archivo, escriba una ruta de acceso y un nombre de archivo (la extensión predeterminada sería .p7b) para el certificado exportado. Si es más fácil, elija el botón Examinar para  ir a la ubicación en la que desea guardar el certificado exportado y asigne un nombre al certificado exportado aquí. Haga **clic en** **Guardar y,** a continuación, en Siguiente cuando esté listo.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ix. Revise el resumen de las acciones y haga clic **en Finalizar** para completar la exportación del certificado. Haga clic en **Aceptar** para confirmar si la exportación se ha completado correctamente.
     
@@ -163,21 +163,21 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
     
 ### <a name="2-import-the-ca-certification-chain"></a>2. Importar la cadena de certificación de CA
 
-&nbsp;&nbsp;&nbsp;a. En cada servidor perimetral, abra mmc (elija **Iniciar** y **ejecutar** o Buscar **y** escriba **MMC** para abrir).
+&nbsp;&nbsp;&nbsp;a. En cada servidor perimetral, abra mmc (elija **Inicio** **y ejecución****, o Búsqueda**, y escriba **MMC** para abrir).
     
-&nbsp;&nbsp;&nbsp;b. En el **menú Archivo,** haga clic **en Agregar o** quitar complemento y, a continuación, elija **Agregar**.
+&nbsp;&nbsp;&nbsp;b. En el **menú Archivo** , haga clic **en Agregar o quitar complemento** y, a continuación, elija **Agregar**.
     
-&nbsp;&nbsp;&nbsp;c. En el **cuadro Agregar o quitar complementos,** haga clic en **Certificados** y, a continuación, haga clic en **Agregar**.
+&nbsp;&nbsp;&nbsp;c. En el **cuadro Agregar o quitar complementos** , haga clic en **Certificados** y, a continuación, haga clic en **Agregar**.
     
 &nbsp;&nbsp;&nbsp;d. En el cuadro de diálogo **Complemento de certificados**, haga clic en **Cuenta de equipo** y, a continuación, haga clic en **Siguiente**.
     
-&nbsp;&nbsp;&nbsp;e. En el **cuadro de diálogo** Seleccionar equipo, asegúrese de que la casilla Equipo **local: (el** equipo en el que se ejecuta esta consola) está activada y, a continuación, haga clic en **Finalizar**.
+&nbsp;&nbsp;&nbsp;e. En el **cuadro de diálogo** Seleccionar equipo, asegúrese de que la casilla Equipo **local: (** el equipo en el que se ejecuta esta consola) está activada y, a continuación, haga clic en **Finalizar**.
     
-&nbsp;&nbsp;&nbsp;f. Haga **clic en** Cerrar y, a continuación, en **Aceptar**.
+&nbsp;&nbsp;&nbsp;f. Haga **clic en** Cerrar y, a continuación **, en Aceptar**.
     
-&nbsp;&nbsp;&nbsp;g. En el árbol de consola, expanda Certificados **(equipo local),** haga clic con el botón secundario en Entidades de certificación raíz de confianza **,** vaya a **Todas** las tareas y, a continuación, haga clic en **Importar**.
+&nbsp;&nbsp;&nbsp;g. En el árbol de consola, expanda Certificados **(equipo local),** haga clic con el botón secundario en Entidades de certificación raíz de **confianza, vaya** a **Todas** las tareas y, a continuación, haga clic en **Importar**.
     
-&nbsp;&nbsp;&nbsp;h. En el asistente que  aparece, en el cuadro de texto Archivo para importar, especifique el nombre de archivo del certificado (el nombre que dio al archivo .p7b en la sección anterior). Haga clic en **Siguiente**.
+&nbsp;&nbsp;&nbsp;h. En el asistente que aparece, en el  cuadro de texto Archivo para importar, especifique el nombre de archivo del certificado (el nombre que dio al archivo .p7b en la sección anterior). Haga clic en **Siguiente**.
     
 &nbsp;&nbsp;&nbsp;i. Deje el botón de radio en **Colocar todos los certificados en el siguiente almacén,** ya que deben seleccionarse las entidades de certificación raíz de confianza. Haga clic en **Siguiente**.
     
@@ -187,11 +187,11 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
     
 ### <a name="3-create-the-certificate-request"></a>3. Crear la solicitud de certificado
 
-&nbsp;&nbsp;&nbsp;a. Inicie sesión en uno de los servidores perimetrales, inicie el Asistente para implementación y, en el paso **3: Solicitar,** instalar o asignar certificados, haga clic en Ejecutar **(o** Ejecutar de **nuevo,** si ya ha ejecutado este asistente).
+&nbsp;&nbsp;&nbsp;a. Inicie sesión en uno de los servidores perimetrales, inicie el Asistente para implementación y, en el paso **3: Solicitar,** instalar o asignar certificados, haga clic en **Ejecutar (o** Ejecutar de **nuevo, si** ya ha ejecutado este asistente).
     
-&nbsp;&nbsp;&nbsp;b. En la **página Solicitud de** certificado, asegúrese de que el certificado perimetral **interno** está seleccionado y haga clic en **Solicitar**.
+&nbsp;&nbsp;&nbsp;b. En la **página Solicitud de** certificado, asegúrese de que **el certificado perimetral interno** está seleccionado y haga clic en **Solicitar**.
     
-&nbsp;&nbsp;&nbsp;c. En la página Solicitudes retrasadas  o **inmediatas,** elija Enviar la solicitud inmediatamente a una entidad de certificación en línea si tiene acceso a una desde el entorno perimetral o Prepare la solicitud **ahora,** pero envíela más adelante de lo contrario.
+&nbsp;&nbsp;&nbsp;c. En la página Solicitudes retrasadas o **inmediatas**, elija  Enviar la solicitud inmediatamente a una entidad de certificación en línea si tiene acceso a una desde el entorno perimetral o Prepare la solicitud ahora **,** pero envíela más adelante de lo contrario.
     
 &nbsp;&nbsp;&nbsp;d. En la **página Archivo de** solicitud de certificado, escriba la parte completa y el nombre del archivo donde se guardará el archivo (como c:\SkypeInternalEdgeCert.cer). Haga clic en **Siguiente**.
     
@@ -203,53 +203,53 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ii. En **Longitud de** bits, elija la longitud de bits (el valor predeterminado es 2048, puede ir más alto y ser más seguro, pero ralentizará el rendimiento).
     
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  iii. Si necesita un certificado exportable, debe marcar la casilla Marcar clave privada del certificado **como exportable.**
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  iii. Si necesita un certificado exportable, debe marcar la casilla Marcar clave privada del certificado **como exportable** .
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  iv. Haga clic en **Siguiente**.
     
 &nbsp;&nbsp;&nbsp;g. En la **página Información de** la organización, escriba el nombre de la organización y la unidad organizativa (OU). Puede escribir su división o departamento (TI, por ejemplo).
     
-&nbsp;&nbsp;&nbsp;h. En la **página Información geográfica,** escriba la información de ubicación.
+&nbsp;&nbsp;&nbsp;h. En la **página Información geográfica** , escriba la información de ubicación.
     
 &nbsp;&nbsp;&nbsp;i. En la **página Nombre de sujeto/Nombres alternativos** de sujeto, el asistente debe rellenarlo automáticamente.
     
 &nbsp;&nbsp;&nbsp;j. En la **página Configurar nombres alternativos de** sujeto adicionales, debe agregar los nombres alternativos de sujeto adicionales que necesite.
     
-&nbsp;&nbsp;&nbsp;k. En la **página Resumen de solicitud,** consulte la información del certificado que se usará para generar la solicitud. Si necesita realizar cambios, vuelva atrás y haga esto ahora.
+&nbsp;&nbsp;&nbsp;k. En la **página Resumen de solicitud** , consulte la información del certificado que se usará para generar la solicitud. Si necesita realizar cambios, vuelva atrás y haga esto ahora.
     
-&nbsp;&nbsp;&nbsp;l. A **continuación,** haga clic en Siguiente para generar el archivo  CSR que necesitará proporcionar a la CA (también puede hacer clic en Ver registro para ver el registro de la solicitud de certificado).
+&nbsp;&nbsp;&nbsp;l. A **continuación**, haga clic en Siguiente para generar el archivo CSR que necesitará proporcionar a la CA (también puede  hacer clic en Ver registro para ver el registro de la solicitud de certificado).
     
-&nbsp;&nbsp;&nbsp;m. Una vez generada la solicitud, puede hacer clic en **Ver** para ver el certificado y Finalizar **para** cerrar la ventana. El contenido del archivo CSR debe ser entregado a la ca, por lo que pueden generar un certificado para que se importe a este equipo en la siguiente sección.
+&nbsp;&nbsp;&nbsp;m. Una vez generada la solicitud, puede hacer clic en **Ver** para ver el certificado y **Finalizar para cerrar** la ventana. El contenido del archivo CSR debe ser entregado a la ca, por lo que pueden generar un certificado para que se importe a este equipo en la siguiente sección.
     
 
 ### <a name="4-import-the-certificate"></a>4. Importar el certificado
 
 &nbsp;&nbsp;&nbsp;a. Inicie sesión, como miembro del grupo administradores local, en el servidor perimetral desde el que realizó la solicitud de certificado en el último procedimiento.
     
-&nbsp;&nbsp;&nbsp;b. En el Asistente para implementación, junto al **paso 3. Request, Install or Assign Certificates**, click **Run Again**.
+&nbsp;&nbsp;&nbsp;b. En el Asistente para implementación, junto al **paso 3. Solicitar, instalar o asignar certificados**, haga clic **en Ejecutar de nuevo**.
     
-&nbsp;&nbsp;&nbsp;c. En la **página Tareas de certificados disponibles,** haga clic en Importar un certificado de un archivo **. Archivo P7b, .pfx o .cer**.
+&nbsp;&nbsp;&nbsp;c. En la **página Tareas de certificados disponibles** , haga **clic en Importar un certificado de un archivo . Archivo P7b, .pfx o .cer**.
     
-&nbsp;&nbsp;&nbsp;d. En la **página** Importar certificado, escriba la ruta de acceso completa y el  nombre de archivo del certificado que obtuvo en la sección anterior (o puede hacer clic en Examinar para buscar y elegir el archivo de esa manera).
+&nbsp;&nbsp;&nbsp;d. En la **página** Importar certificado, escriba la ruta de acceso completa y el nombre de archivo del certificado que obtuvo en la sección anterior (o  puede hacer clic en Examinar para buscar y elegir el archivo de esa manera).
     
-&nbsp;&nbsp;&nbsp;e. Si va a importar certificados para otros miembros del grupo de servidores perimetrales y  el certificado contiene una clave privada, asegúrese de seleccionar la casilla Archivo de certificado que contiene la clave privada del certificado y especifique la contraseña. Haga clic en **Siguiente** para continuar.
+&nbsp;&nbsp;&nbsp;e. Si va a importar certificados para otros miembros del grupo de servidores perimetrales y el certificado contiene una clave privada, asegúrese de seleccionar la casilla Archivo de  certificado que contiene la clave privada del certificado y especifique la contraseña. Haga clic en **Siguiente** para continuar.
     
-&nbsp;&nbsp;&nbsp;f. En la **página Resumen,** haga clic en **Siguiente**  una vez que haya confirmado la información y Finalizar una vez que el certificado se importe correctamente.
+&nbsp;&nbsp;&nbsp;f. En la **páginaSummary**, haga clic en **Siguiente** una vez que haya confirmado la información  y Finalizar una vez que el certificado se haya importado correctamente.
     
  
 ### <a name="5-export-the-certificate"></a>5. Exportar el certificado
 
 &nbsp;&nbsp;&nbsp;a. Asegúrese de que ha iniciado sesión en el servidor perimetral al que importó el certificado anteriormente, como miembro del grupo administradores local.
     
-&nbsp;&nbsp;&nbsp;b. Haga **clic en** Inicio , **Ejecutar** (o abra **Búsqueda)** y escriba **MMC**.
+&nbsp;&nbsp;&nbsp;b. Haga **clic en** **Inicio, Ejecutar** (o **abra Búsqueda** ) y escriba **MMC**.
     
-&nbsp;&nbsp;&nbsp;c. En la consola MMC, haga clic **en Archivo** y haga clic **en Agregar o quitar complemento.**
+&nbsp;&nbsp;&nbsp;c. En la consola de MMC, haga clic **en Archivo** y haga clic en **Agregar o quitar complemento**.
     
-&nbsp;&nbsp;&nbsp;d. En el **cuadro Agregar o quitar complementos,** haga clic en **Certificados** y haga clic en **Agregar**.
+&nbsp;&nbsp;&nbsp;d. En el **cuadro Agregar o quitar complementos** , haga clic en **Certificados** y haga clic en **Agregar**.
     
-&nbsp;&nbsp;&nbsp;e. En el **cuadro de diálogo Complemento** Certificados, elija Cuenta de **equipo**. Haga clic en **Siguiente**.
+&nbsp;&nbsp;&nbsp;e. En el **cuadro de diálogo Complemento** Certificados, elija **Cuenta de equipo**. Haga clic en **Siguiente**.
     
-&nbsp;&nbsp;&nbsp;f. En el **cuadro de diálogo** Seleccionar equipo, seleccione Equipo **local: (el equipo** en el que se ejecuta esta consola). Haga clic en **Finalizar**. Haga **clic en** Aceptar y se completa la configuración de la consola mmc.
+&nbsp;&nbsp;&nbsp;f. En el **cuadro de diálogo** Seleccionar equipo, **seleccione Equipo local: (el equipo en el que se ejecuta esta consola).**. Haga clic en **Finalizar**. Haga **clic en** Aceptar y se completa la configuración de la consola mmc.
     
 &nbsp;&nbsp;&nbsp;g. Haga doble clic en **Certificados (equipo local)** para ampliar los almacenes de certificados. Haga doble clic en **Personal** y, a continuación, haga clic **en Certificados**.
     
@@ -260,14 +260,14 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
     
 &nbsp;&nbsp;&nbsp;i. En el **Asistente para exportación de certificados**, haga clic en **Siguiente**. Seleccione **Sí, exporte la clave privada**. Haga clic en **Siguiente**.
     
-&nbsp;&nbsp;&nbsp;j. En el **cuadro de diálogo** Exportar formatos de archivo, seleccione Personal Information Exchange - **PKCS#12 (. PFX)** y, a continuación, seleccione lo siguiente:
+&nbsp;&nbsp;&nbsp;j. En el **cuadro de diálogo** Exportar formatos de **archivo, seleccione Personal Information Exchange - PKCS#12 (. PFX)** y, a continuación, seleccione lo siguiente:
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   i. Incluya todos los certificados en la ruta de certificación, si es posible.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ii. Exporte todas las propiedades extendidas.
     
    > [!NOTE]
-   > **NUNCA** seleccione **Eliminar la clave privada si la exportación se realiza correctamente.** Significará que tendrá que volver a importar el certificado y la clave privada a este servidor perimetral.
+   > **NUNCA** seleccione **Eliminar la clave privada si la exportación se realiza correctamente**. Significará que tendrá que volver a importar el certificado y la clave privada a este servidor perimetral.
   
 &nbsp;&nbsp;&nbsp;k. Si desea asignar una contraseña para proteger la clave privada, puede escribir una contraseña para la clave privada. Vuelva a escribir la contraseña para confirmar y, a continuación, haga clic en **Siguiente**.
     
@@ -280,30 +280,30 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
  
 ### <a name="6-assign-the-certificate"></a>6. Asignar el certificado
 
-&nbsp;&nbsp;&nbsp;a. En CADA servidor perimetral, en el Asistente para implementación, junto al **paso 3. Request, Install or Assign Certificates**, click **Run again**.
+&nbsp;&nbsp;&nbsp;a. En CADA servidor perimetral, en el Asistente para implementación, junto al **paso 3. Solicitar, instalar o asignar certificados**, haga clic **en Ejecutar de nuevo**.
     
-&nbsp;&nbsp;&nbsp;b. En la **página Tareas de certificados disponibles,** haga clic en Asignar un certificado **existente.**
+&nbsp;&nbsp;&nbsp;b. En la **página Tareas de certificados disponibles** , haga clic **en Asignar un certificado existente**.
     
 &nbsp;&nbsp;&nbsp;c. En la página **Asignación del certificado**, seleccione **Interfaz perimetral interna** en la lista.
     
 &nbsp;&nbsp;&nbsp;d. En la **página Almacén de** certificados, seleccione el certificado que ha importado para el servidor perimetral interno (en la sección anterior).
     
-&nbsp;&nbsp;&nbsp;e. En la **página Resumen de asignación de** certificados, busque la configuración y, a continuación, haga clic en **Siguiente** para asignar el certificado.
+&nbsp;&nbsp;&nbsp;e. En la **página Resumen de asignación de** certificados, busque la configuración y, a continuación, haga clic **en Siguiente** para asignar el certificado.
     
 &nbsp;&nbsp;&nbsp;f. En la página de finalización del asistente, haga clic en **Finalizar**.
     
-&nbsp;&nbsp;&nbsp;g. Una vez completado este procedimiento, es una buena idea abrir el complemento MMC certificados en cada servidor perimetral, expandir Certificados  **(equipo local),** expandir **Personal**, hacer clic en Certificados y confirmar que el certificado perimetral interno aparece en el panel de detalles.
+&nbsp;&nbsp;&nbsp;g. Una vez completado este procedimiento, es una buena idea abrir el complemento MMC certificados en cada servidor perimetral, expandir Certificados **(equipo local),** expandir **Personal**, hacer clic en Certificados y confirmar que el certificado perimetral interno aparece en el panel de detalles.
     
 ### <a name="external-edge-interface-certificates"></a>Certificados de interfaz perimetral externa
 
  
 ### <a name="1-create-the-certificate-request"></a>1. Crear la solicitud de certificado
 
-&nbsp;&nbsp;&nbsp;a. Inicie sesión en uno de los servidores perimetrales, inicie el Asistente para implementación y, en el paso **3: Solicitar,** instalar o asignar certificados, haga clic en Ejecutar (o Ejecutar de **nuevo,** si ya ha ejecutado este asistente).
+&nbsp;&nbsp;&nbsp;a. Inicie sesión en uno de los servidores perimetrales, inicie el Asistente para implementación y, en el paso **3: Solicitar,** instalar o asignar certificados, haga clic en Ejecutar (o Ejecutar de **nuevo, si** ya ha ejecutado este asistente).
     
 &nbsp;&nbsp;&nbsp;b. En la página **Tareas de certificado disponibles**, haga clic en **Crear una nueva solicitud de certificado**.
     
-&nbsp;&nbsp;&nbsp;c. En la **página Solicitud de** certificado, asegúrese de que el certificado perimetral **externo** está seleccionado y haga clic en **Siguiente**.
+&nbsp;&nbsp;&nbsp;c. En la **página Solicitud de** certificado, asegúrese de que **el certificado perimetral externo** está seleccionado y haga clic en **Siguiente**.
     
 &nbsp;&nbsp;&nbsp;d. En la página **Solicitudes retrasadas o inmediatas**, haga clic en **Prepare ahora la solicitud, pero envíela más tarde**.
     
@@ -317,25 +317,25 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ii. En **Longitud de** bits, elija la longitud de bits (el valor predeterminado es 2048, puede ir más alto y ser más seguro, pero ralentizará el rendimiento).
     
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  iii. Si necesita un certificado exportable, debe marcar la casilla Marcar clave privada del certificado **como exportable.**
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  iii. Si necesita un certificado exportable, debe marcar la casilla Marcar clave privada del certificado **como exportable** .
     
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iv. Haga clic en **Siguiente**.
     
 &nbsp;&nbsp;&nbsp;h. En la **página Información de** la organización, escriba el nombre de la organización y la unidad organizativa (OU). Puede escribir su división o departamento (TI, por ejemplo).
     
-&nbsp;&nbsp;&nbsp;i. En la **página Información geográfica,** escriba la información de ubicación.
+&nbsp;&nbsp;&nbsp;i. En la **página Información geográfica** , escriba la información de ubicación.
     
 &nbsp;&nbsp;&nbsp;j. En la **página Nombre de sujeto/Nombres alternativos** de sujeto, el asistente debe rellenar automáticamente la información necesaria.
     
-&nbsp;&nbsp;&nbsp;k. En la página Configuración de dominio SIP en nombres alternativos de sujeto **(SAN),** active la casilla dominio para agregar un sip.\<sipdomain> entrada a la lista de nombres alternativos de sujeto.
+&nbsp;&nbsp;&nbsp;k. En la **página Configuración de dominio SIP en nombres alternativos de sujeto (SAN** ), active la casilla dominio para agregar un sip.\<sipdomain> entrada a la lista de nombres alternativos de sujeto.
     
 &nbsp;&nbsp;&nbsp;l. En la **página Configurar nombres alternativos de** sujeto adicionales, debe agregar los nombres alternativos de sujeto adicionales que necesite.
     
-&nbsp;&nbsp;&nbsp;m. En la **página Resumen de solicitud,** consulte la información del certificado que se usará para generar la solicitud. Si necesita realizar cambios, vuelva atrás y haga esto ahora.
+&nbsp;&nbsp;&nbsp;m. En la **página Resumen de solicitud** , consulte la información del certificado que se usará para generar la solicitud. Si necesita realizar cambios, vuelva atrás y haga esto ahora.
     
-&nbsp;&nbsp;&nbsp;n. Cuando esté listo,  haga clic en Siguiente para generar el archivo CSR que  deberá proporcionar a la CA (también puede hacer clic en Ver registro para ver el registro de la solicitud de certificado).
+&nbsp;&nbsp;&nbsp;n. Cuando esté listo, haga clic en  Siguiente para generar el archivo CSR que deberá proporcionar a la CA (también puede hacer clic en Ver registro  para ver el registro de la solicitud de certificado).
     
-&nbsp;&nbsp;&nbsp;o. Una vez generada la solicitud, puede hacer clic en **Ver** para ver el certificado y Finalizar **para** cerrar la ventana. El contenido del archivo CSR debe ser entregado a la ca, por lo que pueden generar un certificado para que se importe a este equipo en la siguiente sección.
+&nbsp;&nbsp;&nbsp;o. Una vez generada la solicitud, puede hacer clic en **Ver** para ver el certificado y **Finalizar para cerrar** la ventana. El contenido del archivo CSR debe ser entregado a la ca, por lo que pueden generar un certificado para que se importe a este equipo en la siguiente sección.
     
 &nbsp;&nbsp;&nbsp;p. (OPCIONAL) Es posible que, al enviar el contenido de la CSR, se le pida cierta información, como se muestra a continuación (las CA varían mucho, por lo que puede que esto no sea necesario):
     
@@ -352,15 +352,15 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
 
 &nbsp;&nbsp;&nbsp;a. Inicie sesión, como miembro del grupo administradores local, en el servidor perimetral desde el que realizó la solicitud de certificado en el último procedimiento.
     
-&nbsp;&nbsp;&nbsp;b. En el Asistente para implementación, junto al **paso 3. Request, Install or Assign Certificates**, click **Run Again**.
+&nbsp;&nbsp;&nbsp;b. En el Asistente para implementación, junto al **paso 3. Solicitar, instalar o asignar certificados**, haga clic **en Ejecutar de nuevo**.
     
-&nbsp;&nbsp;&nbsp;c. En la **página Tareas de certificados disponibles,** haga clic en Importar un certificado de un archivo **. Archivo P7b, .pfx o .cer**.
+&nbsp;&nbsp;&nbsp;c. En la **página Tareas de certificados disponibles** , haga **clic en Importar un certificado de un archivo . Archivo P7b, .pfx o .cer**.
     
-&nbsp;&nbsp;&nbsp;d. En la **página** Importar certificado, escriba la ruta de acceso completa y el  nombre de archivo del certificado que obtuvo en la sección anterior (o puede hacer clic en Examinar para buscar y elegir el archivo de esa manera). Si el certificado contiene una clave privada, asegúrese de seleccionar Archivo de certificado contiene la clave privada del certificado y escriba la contraseña de la clave privada. Haga **clic en Siguiente** cuando esté listo.
+&nbsp;&nbsp;&nbsp;d. En la **página** Importar certificado, escriba la ruta de acceso completa y el nombre de archivo del certificado que obtuvo en la sección anterior (o  puede hacer clic en Examinar para buscar y elegir el archivo de esa manera). Si el certificado contiene una clave privada, asegúrese de seleccionar Archivo de certificado contiene la clave privada del certificado y escriba la contraseña de la clave privada. Haga **clic en Siguiente** cuando esté listo.
     
-&nbsp;&nbsp;&nbsp;e. En la **página Importar resumen de certificado,** revise la información de resumen y haga clic en **Siguiente**.
+&nbsp;&nbsp;&nbsp;e. En la **página Importar resumen de certificado** , revise la información de resumen y haga clic en **Siguiente**.
     
-&nbsp;&nbsp;&nbsp;f. En la **página Ejecutar comandos,** puede revisar el resultado de la importación cuando se complete haciendo clic en **Ver registro**. Haga **clic en** Finalizar para completar la importación de certificados.
+&nbsp;&nbsp;&nbsp;f. En la **página Ejecutar comandos** , puede revisar el resultado de la importación cuando se complete haciendo clic en **Ver registro**. Haga **clic en** Finalizar para completar la importación de certificados.
     
 &nbsp;&nbsp;&nbsp;g. Si tiene otros servidores perimetrales en un grupo de servidores, también tendrá que seguir los dos procedimientos siguientes. Si se trata de un servidor perimetral independiente, ha terminado con certificados externos.
     
@@ -369,17 +369,17 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
 
 &nbsp;&nbsp;&nbsp;a. Asegúrese de que ha iniciado sesión en el servidor perimetral al que importó el certificado como administrador local.
     
-&nbsp;&nbsp;&nbsp;b. Haga **clic en** Inicio , **Ejecutar** (o abra **Búsqueda)** y escriba **MMC**.
+&nbsp;&nbsp;&nbsp;b. Haga **clic en** **Inicio, Ejecutar** (o **abra Búsqueda** ) y escriba **MMC**.
     
 &nbsp;&nbsp;&nbsp;c. En la consola MMC, haga clic **en Archivo** y, a continuación, haga clic en **Agregar o quitar complemento**.
     
-&nbsp;&nbsp;&nbsp;d. En el **cuadro Agregar o quitar complementos,** haga clic en **Certificados** y haga clic en **Agregar**.
+&nbsp;&nbsp;&nbsp;d. En el **cuadro Agregar o quitar complementos** , haga clic en **Certificados** y haga clic en **Agregar**.
     
-&nbsp;&nbsp;&nbsp;e. En el **cuadro de diálogo Complemento** Certificados, elija Cuenta de **equipo**. Haga clic en **Siguiente**.
+&nbsp;&nbsp;&nbsp;e. En el **cuadro de diálogo Complemento** Certificados, elija **Cuenta de equipo**. Haga clic en **Siguiente**.
     
-&nbsp;&nbsp;&nbsp;f. En el **cuadro de diálogo** Seleccionar equipo, seleccione Equipo **local: (el equipo** en el que se ejecuta esta consola). Haga clic en **Finalizar**. Haga **clic en** Aceptar y se completa la configuración de la consola mmc.
+&nbsp;&nbsp;&nbsp;f. En el **cuadro de diálogo** Seleccionar equipo, **seleccione Equipo local: (el equipo en el que se ejecuta esta consola).**. Haga clic en **Finalizar**. Haga **clic en** Aceptar y se completa la configuración de la consola mmc.
     
-&nbsp;&nbsp;&nbsp;g. Haga doble clic en **Certificados (equipo local)** para ampliar los almacenes de certificados. **Haga doble clic en Personal** y, a continuación, haga clic en **Certificados**.
+&nbsp;&nbsp;&nbsp;g. Haga doble clic en **Certificados (equipo local)** para ampliar los almacenes de certificados. **Haga doble clic en Personal** y, a continuación, haga clic **en Certificados**.
     
    > [!NOTE]
    > Puede que esté aquí y no verá ningún certificado en el almacén de certificados personales del equipo local. No es necesario buscar alrededor, si la clave no está ahí, el certificado importado no tenía una clave privada asociada. Pruebe la solicitud e importe los pasos anteriores una vez más y, si está seguro de que tiene todo lo correcto, consulte a su administrador o proveedor de ca. 
@@ -389,7 +389,7 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
 &nbsp;&nbsp;&nbsp;i. En el **Asistente para exportación de certificados**, haga clic en **Siguiente**. Seleccione **Sí, exporte la clave privada**. Haga clic en **Siguiente**.
     
    > [!NOTE]
-   > Si **es Así, la** exportación de la clave privada no está disponible, la clave privada de este certificado no se marcó para su exportación antes de obtenerla. Debe solicitar el certificado al proveedor de nuevo, con la clave privada establecida para exportar, antes de hacerlo correctamente.
+   > Si **es Así, la exportación de** la clave privada no está disponible, la clave privada de este certificado no se marcó para su exportación antes de obtenerla. Debe solicitar el certificado al proveedor de nuevo, con la clave privada establecida para exportar, antes de hacerlo correctamente.
   
 &nbsp;&nbsp;&nbsp;j. En el cuadro de diálogo Exportar formatos de archivo, seleccione Personal Information Exchange - PKCS#12 (. PFX) y, a continuación, seleccione lo siguiente:
     
@@ -398,7 +398,7 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
  &nbsp;&nbsp;&nbsp;  ii. Exporte todas las propiedades extendidas.
     
    > [!NOTE]
-   > **NUNCA** seleccione **Eliminar la clave privada si la exportación se realiza correctamente.** Significará que tendrá que volver a importar el certificado y la clave privada a este servidor perimetral.
+   > **NUNCA** seleccione **Eliminar la clave privada si la exportación se realiza correctamente**. Significará que tendrá que volver a importar el certificado y la clave privada a este servidor perimetral.
   
 &nbsp;&nbsp;&nbsp;k. Si desea asignar una contraseña para proteger la clave privada, puede escribir una contraseña para la clave privada. Vuelva a escribir la contraseña para confirmar y, a continuación, haga clic en **Siguiente**.
     
@@ -413,19 +413,19 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
  
 ### <a name="4-assign-the-certificate"></a>4. Asignar el certificado
 
-&nbsp;&nbsp;&nbsp;a. En **CADA** servidor perimetral, en el Asistente para implementación, junto al **paso 3. Request, Install or Assign Certificates**, click **Run again**.
+&nbsp;&nbsp;&nbsp;a. En **CADA** servidor perimetral, en el Asistente para implementación, junto al **paso 3. Solicitar, instalar o asignar certificados**, haga clic **en Ejecutar de nuevo**.
     
-&nbsp;&nbsp;&nbsp;b. En la **página Tareas de certificados disponibles,** haga clic en Asignar un certificado **existente.**
+&nbsp;&nbsp;&nbsp;b. En la **página Tareas de certificados disponibles** , haga clic **en Asignar un certificado existente**.
     
 &nbsp;&nbsp;&nbsp;c. En la **página Asignación de** certificados, seleccione **Externo perimetral** en la lista.
     
 &nbsp;&nbsp;&nbsp;d. En la **página Almacén de** certificados, seleccione el certificado que ha importado para el servidor perimetral externo (en la sección anterior).
     
-&nbsp;&nbsp;&nbsp;e. En la **página Resumen de asignación de** certificados, busque la configuración y, a continuación, haga clic en **Siguiente** para asignar el certificado.
+&nbsp;&nbsp;&nbsp;e. En la **página Resumen de asignación de** certificados, busque la configuración y, a continuación, haga clic **en Siguiente** para asignar el certificado.
     
 &nbsp;&nbsp;&nbsp;f. En la página de finalización del asistente, haga clic en **Finalizar**.
     
-&nbsp;&nbsp;&nbsp;g. Una vez completado este procedimiento, es una buena idea abrir el complemento MMC certificados en cada servidor, expandir Certificados  **(equipo local),** expandir **Personal**, hacer clic en Certificados y confirmar que el certificado perimetral interno aparece en el panel de detalles.
+&nbsp;&nbsp;&nbsp;g. Una vez completado este procedimiento, es una buena idea abrir el complemento MMC certificados en cada servidor, expandir Certificados **(equipo local),** expandir **Personal**, hacer clic en Certificados y confirmar que el certificado perimetral interno aparece en el panel de detalles.
     
    > [!NOTE]
    > También tendrá que configurar los certificados para el servidor proxy inverso. 
@@ -434,14 +434,14 @@ Los requisitos de certificado para el servidor perimetral se pueden encontrar en
 
 Una vez completada la instalación, deberá iniciar los servicios en cada servidor perimetral de la implementación:
   
-1. En cada servidor perimetral, en **el** Asistente para implementación , junto al **Paso 4: Iniciar servicios**, haga clic en **Ejecutar**.
+1. En cada servidor perimetral, **en el Asistente** para implementación, junto a **Paso 4: Iniciar servicios**, haga clic en **Ejecutar**.
     
-2. En la **página Skype Empresarial Server servicios,** revise la lista de servicios y, a continuación, haga clic en **Siguiente** para iniciar los servicios.
+2. En la **página Skype Empresarial Server servicios**, revise la lista de servicios y, a continuación, haga clic en **Siguiente** para iniciar los servicios.
     
 3. Una vez iniciados los servicios, puede hacer clic **en Finalizar** para cerrar el asistente.
     
-4. (Opcional) Todavía en **paso 4: Iniciar servicios**, haga clic en Estado de **servicios**.
+4. (Opcional) Todavía en **Paso 4: Iniciar servicios**, haga clic **en Estado de servicios**.
     
-5.  En la **MMC de servicios** de cada servidor, compruebe que todos los Skype Empresarial Server se están ejecutando.
+5.  En el **MMC de servicios** de cada servidor, compruebe que todos los Skype Empresarial Server se están ejecutando.
     
 

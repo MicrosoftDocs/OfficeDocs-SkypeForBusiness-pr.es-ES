@@ -1,7 +1,7 @@
 ---
 title: ¿Hasta qué punto está preparada su organización para Microsoft Teams?
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 105df2024ad67710b1de1e92208deeab6c7b9226
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd02e915ad6ced07afdf2f9dc9dbf29e8a68b69d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865629"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387488"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>¿Hasta qué punto está preparada su organización para Microsoft Teams?
 
@@ -64,7 +64,7 @@ Los primeros usuarios comparten determinados rasgos, independientemente del tama
 - Dispuesto a compartir sus observaciones y aprendizajes con el grupo
 - Son tomadores de riesgos; es decir, están dispuestos a probar algo para ver si funciona
 
-Use un formulario sencillo en Microsoft 365 o Office 365 permitir que estas personas opten por participar en su programa de adopción anticipado para Teams. Según el tamaño y la complejidad de su organización, puede elegir habilitar algunas o todas estas personas para la fase de experimentación. En este programa, aceptan participar activamente en la fase de experimentación y proporcionar comentarios regulares al equipo del proyecto. Evite tener personas que simplemente quieran probar la nueva tecnología. Háles saber que, al proporcionar estos comentarios activos, ayudan a crear el resultado de su proyecto. Usará esta lista de personas en [fase 2 : experimento.](teams-adoption-phase2-experiment.md)
+Use un formulario sencillo en Microsoft 365 o Office 365 permitir que estas personas opten por participar en su programa de adopción anticipado para Teams. Según el tamaño y la complejidad de su organización, puede elegir habilitar algunas o todas estas personas para la fase de experimentación. En este programa, aceptan participar activamente en la fase de experimentación y proporcionar comentarios regulares al equipo del proyecto. Evite tener personas que simplemente quieran probar la nueva tecnología. Háles saber que, al proporcionar estos comentarios activos, ayudan a crear el resultado de su proyecto. Usará esta lista de personas en [la fase 2: experimento](teams-adoption-phase2-experiment.md).
 
 Nuestra Guía del programa de adopción temprana es un recurso útil para iniciar este programa en su entorno.  
  
@@ -74,12 +74,12 @@ El cambio es un proceso humano que no tiene nada que ver con la tecnología. Exi
 
 ![Graph que ilustra la resistencia al cambio.](media/teams-adoption-resistance.png)
 
-Los enfoques de cada organización cambian de forma diferente, dependiendo de la región, el estilo de trabajo, el perfil profesional y otros elementos de la organización. Para evaluar la preparación de su organización, vea Evaluar la [preparación para los cambios organizativos.](upgrade-org-change-readiness.md) Use las directrices para responder a las siguientes preguntas:
+Los enfoques de cada organización cambian de forma diferente, dependiendo de la región, el estilo de trabajo, el perfil profesional y otros elementos de la organización. Para evaluar la preparación de su organización, vea [Evaluar la disponibilidad de los cambios organizativos](upgrade-org-change-readiness.md). Use las directrices para responder a las siguientes preguntas:
 
 1. ¿Qué porcentaje de usuarios se incluyen en cada cubo? (*Cambiar resistencia*)
-    - **Primeros usuarios:** solicite la solución antes de que esté disponible.
-    - **Usuarios informados:** use la solución una vez comprobado su valor.
-    - **Disidentes:** retrocedía en cualquier cambio.
+    - **Primeros usuarios**: solicite la solución antes de que esté disponible.
+    - **Usuarios informados**: use la solución una vez comprobado su valor.
+    - **Disidentes**: retrocedemos en cualquier cambio.
     
    > [!TIP]
    > Los primeros usuarios hacen excelentes probadores piloto y campeones de pares. Los usuarios que tardan en adoptar nuevas herramientas requieren ánimo adicional y más tiempo para ajustarse. 
@@ -92,7 +92,7 @@ Los enfoques de cada organización cambian de forma diferente, dependiendo de la
     > [!TIP]
     > Adapte el tipo y la cantidad de aprendizaje a la competencia y a las personas. Mantenga el aprendizaje actualizado a medida que se en línea con las nuevas características.
 
-3. Además de esta implementación de servicio, ¿cuántos cambios más se están produciendo? (*Capacidad de adaptación*) <br/>Los cambios pueden incluir Office/Windows, movimientos de oficina, fusiones, reorganizaciones, y así sucesivamente.
+3. Además de esta implementación de servicio, ¿cuántos cambios más se están produciendo? (*Adaptabilidad*) <br/>Los cambios pueden incluir Office/Windows, movimientos de oficina, fusiones, reorganizaciones, y así sucesivamente.
     - Ninguna
     - 1-3 cambios
     - Más de 3 cambios
@@ -104,4 +104,4 @@ Combine estos datos con los perfiles de las partes interesadas y los empleados q
 
 Puede usar los campeones internos para solucionar el problema de tener diferentes tipos de cambio. Aquí, los comentarios son la clave del éxito: anime a las personas a compartir sus retos y necesidades. Abrace a los disruptores y disidentes al dar a estos individuos o grupos un puesto en la tabla durante la experimentación. Este procedimiento recomendado allanará el camino para una implementación más fluida y amplia de las mejoras de colaboración.  
 
-![Un icono que representa el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Microsoft Teams fase de adopción 2: Experimento](teams-adoption-phase2-experiment.md) 
+![Un icono que representa el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Microsoft Teams fase 2 de adopción: Experimento](teams-adoption-phase2-experiment.md) 

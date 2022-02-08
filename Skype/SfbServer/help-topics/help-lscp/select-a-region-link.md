@@ -1,8 +1,8 @@
 ---
 title: Seleccionar un vínculo de región
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 description: Use el cuadro de diálogo Vínculo de región para buscar vínculos de región disponibles en su entorno. Para usar un vínculo de región existente, haga clic en un vínculo de región de la lista y, a continuación, haga clic en Aceptar.
-ms.openlocfilehash: 163555acc0992a9c7753c8cb97edd5dbe3a10120
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cab14722a1edae3a58d025033ded31614ecad2ae
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854564"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389222"
 ---
 # <a name="select-a-region-link"></a>Seleccionar un vínculo de región
  

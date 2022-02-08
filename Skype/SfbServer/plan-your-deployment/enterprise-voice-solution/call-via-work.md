@@ -1,8 +1,8 @@
 ---
 title: Plan for Call Via Work in Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Planeación de llamadas a través del trabajo en Skype Empresarial Server, que permite la integración entre Skype Empresarial y el sistema telefónico PBX, de modo que los usuarios puedan usar Skype Empresarial para controlar sus teléfonos PBX.
-ms.openlocfilehash: 0dddb601ecf9928aa1bd1cd63bc8ed3628a1330d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 821b933f3ad4e9aeae6d1ff7156059c37d2a24ab
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854224"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389108"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Plan for Call Via Work in Skype Empresarial Server
  
 Planeación de llamadas a través del trabajo en Skype Empresarial Server, que permite la integración entre Skype Empresarial y el sistema telefónico PBX, de modo que los usuarios puedan usar Skype Empresarial para controlar sus teléfonos PBX.
   
- **Llamar a través del** trabajo es una nueva característica de Skype Empresarial Server que le permite integrar su solución Skype Empresarial con los sistemas telefónicos PBX existentes. Un usuario habilitado para Llamar a través del trabajo puede hacer clic en Skype Empresarial para llamar a otro usuario, ya sea dentro de la implementación o un usuario externo. La llamada se completa con el teléfono PBX del usuario. Esto permite que un usuario con un teléfono PBX incluya audio en sus conversaciones Skype Empresarial enriquecciones. En versiones anteriores del control remoto de llamadas de Lync Server era una característica que permitía a los usuarios controlar sus teléfonos PBX con Lync Server. En Skype Empresarial Server, esta característica se ha reemplazado por Llamar a través del trabajo.
+ **Llamar a través** del trabajo es una nueva característica de Skype Empresarial Server que le permite integrar su solución Skype Empresarial con los sistemas telefónicos PBX existentes. Un usuario habilitado para Llamar a través del trabajo puede hacer clic en Skype Empresarial para llamar a otro usuario, ya sea dentro de la implementación o un usuario externo. La llamada se completa con el teléfono PBX del usuario. Esto permite que un usuario con un teléfono PBX incluya audio en sus conversaciones Skype Empresarial enriquecciones. En versiones anteriores del control remoto de llamadas de Lync Server era una característica que permitía a los usuarios controlar sus teléfonos PBX con Lync Server. En Skype Empresarial Server, esta característica se ha reemplazado por Llamar a través del trabajo.
   
 Llamar a través del trabajo habilita lo siguiente para usuarios de teléfono PBX
   
@@ -47,7 +47,7 @@ Call Via Work usa la API web de comunicaciones unificadas (UCWA) como agente de 
 
 A continuación se muestra cómo un usuario habilitado para llamar a través del trabajo puede usar el Skype Empresarial Server realizar una llamada:
   
-![Muestra los pasos durante una llamada a Través del trabajo; primero el autor de la llamada hace clic para llamar a alguien en el Skype Empresarial cliente; a continuación, la UCWA llama al teléfono del autor de la llamada. Cuando el autor de la llamada toma el teléfono, se llama al destinatario.](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
+![Muestra los pasos durante una llamada a Través del trabajo; primero el autor de la llamada hace clic para llamar a alguien en el Skype Empresarial y, a continuación, el UCWA llama al teléfono del autor de la llamada. Cuando el autor de la llamada toma el teléfono, se llama al destinatario.](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
   
 1. El usuario selecciona un usuario en su Skype Empresarial y hace clic en el icono de teléfono para llamarlos. O bien, durante una conversación de mensajería instantánea, el usuario hace clic para llamar al usuario con el que está teniendo la sesión.
     
@@ -59,7 +59,7 @@ A continuación se muestra cómo un usuario habilitado para llamar a través del
     
 ### <a name="joining-a-conference-with-call-via-work"></a>Unirse a una conferencia con llamada a través del trabajo
 
-Un usuario de Llamada a través del trabajo puede unirse a una reunión programada haciendo clic en la dirección URL de la reunión. Skype Empresarial muestra un **mensaje de** marcado hacia fuera hasta que el servicio de reunión marca el teléfono PBX del usuario. A continuación, el usuario Llamar a través del trabajo toma el teléfono PBX y se une a la reunión.
+Un usuario de Llamada a través del trabajo puede unirse a una reunión programada haciendo clic en la dirección URL de la reunión. Skype Empresarial muestra un **mensaje de** llamada a hasta que el servicio de reunión marca el teléfono PBX del usuario. A continuación, el usuario Llamar a través del trabajo toma el teléfono PBX y se une a la reunión.
   
 Un usuario de Llamada a través del trabajo también puede usar la opción **Reunirse ahora** en Skype Empresarial para crear reuniones de Meet Now. A continuación, el usuario ve el mensaje Marcar hacia **fuera** y el teléfono PBX suena.
   
@@ -67,7 +67,7 @@ Un usuario de Llamada a través del trabajo también puede llamar a una reunión
   
 ### <a name="incoming-calls"></a>Llamadas entrantes
 
-Cuando un usuario habilitado para llamar a través del trabajo recibe una llamada Skype Empresarial, el teléfono PBX y los clientes de Skype Empresarial del usuario suenan simultáneamente (si el usuario ha configurado un anillo simultáneo). El usuario puede aceptar la llamada seleccionando el teléfono PBX o haciendo clic en **Aceptar** en la Skype Empresarial llamada. Si el usuario acepta la llamada mediante Skype Empresarial, la Skype Empresarial de la llamada permanece abierta. Pero si el usuario acepta la llamada seleccionando el teléfono PBX, la ventana de notificación de Skype Empresarial se cierra y no hay ninguna sesión de Skype Empresarial, solo la llamada de voz a través del teléfono PBX.
+Cuando un usuario habilitado para llamar a través del trabajo recibe una llamada Skype Empresarial, el teléfono PBX y los clientes de Skype Empresarial del usuario suenan simultáneamente (si el usuario ha configurado un anillo simultáneo). El usuario puede aceptar la llamada seleccionando el teléfono PBX o haciendo clic en **Aceptar** en la notificación Skype Empresarial llamada. Si el usuario acepta la llamada mediante Skype Empresarial, la Skype Empresarial de la llamada permanece abierta. Pero si el usuario acepta la llamada seleccionando el teléfono PBX, la ventana de notificación de Skype Empresarial se cierra y no hay ninguna sesión de Skype Empresarial, solo la llamada de voz a través del teléfono PBX.
   
 Cuando un usuario habilitado para Llamar a través del trabajo recibe una llamada PBX, solo suena el teléfono PBX.
   
@@ -93,13 +93,13 @@ Call Via Work es una solución de voz que requiere poca configuración de hardwa
     
 - Si un usuario realiza o responde una llamada con el teléfono PBX (y no usa la ventana Skype Empresarial), no habrá ningún registro de la llamada.
     
-- Si el sistema PBX no admite **REFER con Replaces,** se realizará el siguiente comportamiento. Mientras se realiza una llamada a través del trabajo, si el usuario transfiere la llamada en curso desde el Teléfono PBX, la ventana de llamada no desaparecerá de su ventana Skype Empresarial llamada. Si el usuario cierra la ventana de llamada, la llamada entre el destino de transferencia y el transferee finalizará. 
+- Si el sistema PBX no admite **REFER con Replaces**, se realizará el siguiente comportamiento. Mientras se realiza una llamada a través del trabajo, si el usuario transfiere la llamada en curso desde el Teléfono PBX, la ventana de llamada no desaparecerá de su ventana Skype Empresarial llamada. Si el usuario cierra la ventana de llamada, la llamada entre el destino de transferencia y el transferee finalizará. 
     
 ## <a name="prerequisites-for-call-via-work"></a>Requisitos previos para llamar a través del trabajo
 
-Para habilitar cualquier usuario para llamar a través del trabajo, debe tener algunos requisitos previos en su lugar. Para obtener más información sobre estos requisitos previos y para ver los pasos para habilitar a los usuarios para llamadas a través del trabajo, vea [Deploy Call Via Work in Skype Empresarial Server 2015](../../deploy/deploy-call-via-work.md). 
+Para habilitar cualquier usuario para llamar a través del trabajo, debe tener algunos requisitos previos en su lugar. Para obtener más información sobre estos requisitos previos y para obtener pasos sobre cómo habilitar a los usuarios para llamadas a través del trabajo, vea [Deploy Call Via Work in Skype Empresarial Server 2015](../../deploy/deploy-call-via-work.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planear el control remoto de llamadas en Skype Empresarial](remote-call-control.md)
   

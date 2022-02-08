@@ -1,8 +1,8 @@
 ---
 title: Informe de control de admisión de llamadas en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 'Resumen: obtenga información sobre los informes de control de admisión de llamadas usados en Skype Empresarial Server.'
-ms.openlocfilehash: bb980dfa132778e1507e26359beca3679a94893a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d0b32f399b01c18252dbd5593468e86e1ba7283c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849903"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384288"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>Informe de control de admisión de llamadas en Skype Empresarial Server
  

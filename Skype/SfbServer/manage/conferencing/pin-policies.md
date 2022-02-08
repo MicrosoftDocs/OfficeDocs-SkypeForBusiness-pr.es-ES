@@ -1,8 +1,8 @@
 ---
 title: Administrar directivas de PIN para conferencias de acceso telefónico local en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Summary: Learn how to manage PIN policies for dial-in conferencing in Skype Empresarial Server.'
-ms.openlocfilehash: bf78a565cefb38a9a6e747c2b22b74a640a9e706
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 93ee04292ec3ea06299b91c75c2c2fe89a2b2298
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862477"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385612"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Administrar directivas de PIN para conferencias de acceso telefónico local en Skype Empresarial Server
  
@@ -43,11 +43,11 @@ Puede ver información acerca de las directivas de PIN mediante Skype Empresaria
     
 3. En la barra de navegación izquierda, haga clic en **Conferencia** y, a continuación, en **Directiva de PIN**.
     
-4. En la **página Directiva de PIN,** haga clic en la directiva de PIN que desea ver, haga clic en **Editar** y, a continuación, haga clic en **Mostrar detalles.**
+4. En la **página Directiva de PIN** , haga clic en la directiva de PIN que desea ver, haga clic en **Editar** y, a continuación, haga clic **en Mostrar detalles**.
     
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Ver información acerca de las directivas de PIN mediante Skype Empresarial Server Shell de administración
 
-Para ver información sobre las directivas de PIN, use el cmdlet **Get-CsPinPolicy.** Por ejemplo, el siguiente comando devuelve información sobre una única directiva de PIN con el objeto Identity site:Redmond:
+Para ver información sobre las directivas de PIN, use el cmdlet **Get-CsPinPolicy** . Por ejemplo, el siguiente comando devuelve información sobre una única directiva de PIN con el objeto Identity site:Redmond:
   
 ```PowerShell
 Get-CsPinPolicy -Identity "site:Redmond"
@@ -90,9 +90,9 @@ Puede modificar la directiva de PIN global mediante Skype Empresarial Server Pan
     
 ### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modificar la directiva de PIN de conferencia de acceso telefónico local global mediante Skype Empresarial Server Shell de administración
 
-Para modificar la directiva de PIN de conferencia de acceso telefónico local global, use el cmdlet **Set-CsPinPolicy.**
+Para modificar la directiva de PIN de conferencia de acceso telefónico local global, use el cmdlet **Set-CsPinPolicy** .
   
-El siguiente comando cambia el valor de MinPasswordLength para todas las directivas de PIN configuradas para su uso en la organización. Para ello, el comando primero llama al cmdlet **Get-CsPinPolicy** sin ningún parámetro para recuperar una colección de todas las directivas de PIN existentes. A continuación, esa colección se canalizó al cmdlet **Set-CsPinPolicy,** que modifica el valor de la propiedad MinPasswordLength para cada directiva de la colección:
+El siguiente comando cambia el valor de MinPasswordLength para todas las directivas de PIN configuradas para su uso en la organización. Para ello, el comando primero llama al cmdlet **Get-CsPinPolicy** sin ningún parámetro para recuperar una colección de todas las directivas de PIN existentes. A continuación, esa colección se canalizó al cmdlet **Set-CsPinPolicy** , que modifica el valor de la propiedad MinPasswordLength para cada directiva de la colección:
   
 ```PowerShell
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
@@ -141,7 +141,7 @@ Puede crear una directiva de PIN de usuario o sitio mediante Skype Empresarial S
     
 ### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Crear una directiva de PIN de usuario o sitio mediante Skype Empresarial Server Shell de administración
 
-Para crear una directiva de PIN de usuario o sitio, use el cmdlet **New-CsPinPolicy.**
+Para crear una directiva de PIN de usuario o sitio, use el cmdlet **New-CsPinPolicy** .
   
 El siguiente comando crea una nueva directiva de PIN con identity site:Redmond. Este comando incluye solo un parámetro opcional, MinPasswordLength, que se usa para establecer la propiedad MinPasswordLength en 7. El resto de propiedades de directiva se configurarán con los valores predeterminados.
   
@@ -171,7 +171,7 @@ Puede modificar una directiva de PIN de usuario o de sitio mediante el panel de 
     
 ### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modificar una directiva de PIN de usuario o sitio mediante Skype Empresarial Server Shell de administración
 
-Para modificar la directiva de PIN de conferencia de acceso telefónico local, use el cmdlet **Set-CsPinPolicy.**
+Para modificar la directiva de PIN de conferencia de acceso telefónico local, use el cmdlet **Set-CsPinPolicy** .
   
 El siguiente comando modifica la directiva de PIN asignada al sitio Redmond. En este caso, el comando cambia el valor de la propiedad MinPasswordLength a 10; esto significa que los nuevos PIN tendrán que contener al menos 10 dígitos:
   
@@ -193,13 +193,13 @@ Puede eliminar una directiva de PIN de usuario o sitio mediante el panel de cont
     
 3. En la barra de navegación izquierda, haga clic en **Conferencia** y, a continuación, en **Directiva de PIN**.
     
-4. En la **página Directiva de PIN,** haga clic en la directiva de PIN que desea cambiar, haga clic **en Editar** y, a continuación, haga clic en **Eliminar**.
+4. En la **página Directiva de PIN** , haga clic en la directiva de PIN que desea cambiar, haga clic en **Editar** y, a continuación, haga clic en **Eliminar**.
     
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Eliminar una directiva de PIN de usuario o sitio mediante Skype Empresarial Server Shell de administración
 
-Para eliminar una directiva de PIN de usuario o sitio, use el cmdlet **Remove-CsPinPolicy.**
+Para eliminar una directiva de PIN de usuario o sitio, use el cmdlet **Remove-CsPinPolicy** .
   
-El siguiente comando quita todas las directivas de PIN que se han configurado en el ámbito del sitio. Para ello, use el cmdlet **Get-CsPinPolicy,** junto con el parámetro Filter, para devolver una colección de todas las directivas que tienen una identidad que comienza con los caracteres "site:". A continuación, esta colección se canalizó al cmdlet **Remove-CsPinPolicy,** que elimina cada directiva de la colección:
+El siguiente comando quita todas las directivas de PIN que se han configurado en el ámbito del sitio. Para ello, use el cmdlet **Get-CsPinPolicy** , junto con el parámetro Filter, para devolver una colección de todas las directivas que tienen una identidad que comienza con los caracteres "site:". A continuación, esta colección se canalizó al cmdlet **Remove-CsPinPolicy** , que elimina cada directiva de la colección:
   
 ```PowerShell
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy

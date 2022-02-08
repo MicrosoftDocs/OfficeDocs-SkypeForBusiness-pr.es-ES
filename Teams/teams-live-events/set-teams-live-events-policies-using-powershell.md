@@ -1,7 +1,7 @@
 ---
 title: Usar PowerShell para establecer directivas de eventos en directo
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -18,12 +18,12 @@ description: Ejemplos de cómo usar PowerShell para establecer directivas en Tea
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cda9da872d8464064c137713e8eb16ceede7941e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8a834cfd85cdf9f4839b9351b16c1a2e1ca43e9c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851734"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387428"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Usar PowerShell para establecer directivas de eventos en directo en Microsoft Teams
 
@@ -37,16 +37,16 @@ Puede usar los siguientes cmdlets Windows PowerShell para establecer y asignar l
 Estos son algunos ejemplos.
 
 > [!NOTE]
-> Antes de poder ejecutar estos cmdlets, debe estar conectado a Skype Empresarial PowerShell en línea. Para obtener más información, vea [Administrar Skype Empresarial Online con Microsoft 365 o Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+> Antes de poder ejecutar estos cmdlets, debe estar conectado a Skype Empresarial PowerShell en línea. Para obtener más información, vea [Administrar Skype Empresarial En línea con Microsoft 365 o Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 ## <a name="allow-users-to-schedule-live-events"></a>Permitir a los usuarios programar eventos en directo 
 
 > [!NOTE]
-> Estos ejemplos son para eventos producidos en Teams. Para los eventos producidos con una aplicación o dispositivo externos, hay pasos adicionales que debe realizar. Para obtener más información, vea Habilitar a los usuarios para programar eventos que se [produjeron con una aplicación o dispositivo externos.](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)
+> Estos ejemplos son para eventos producidos en Teams. Para los eventos producidos con una aplicación o dispositivo externos, hay pasos adicionales que debe realizar. Para obtener más información, vea [Permitir a los usuarios programar eventos que se generaron con una aplicación o dispositivo externos](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).
 
 **Permitir que un usuario programe eventos en directo**
 
-Si al usuario se le asigna la directiva global, ejecute y compruebe que el parámetro *AllowBroadcastScheduling* está establecido en *True:*
+Si al usuario se le asigna la directiva global, ejecute y compruebe que *el parámetro AllowBroadcastScheduling* está establecido en *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
@@ -58,11 +58,11 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ### <a name="user-scenarios"></a>Escenarios de usuario
 **Desea que todos los usuarios de su organización puedan programar eventos en directo**
 
-Si a los usuarios se les asigna la directiva global, ejecute y compruebe *que AllowBroadcastScheduling* *está establecido en *True:*
+Si a los usuarios se les asigna la directiva global, ejecute y compruebe *que AllowBroadcastScheduling* *está establecido en *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-Si a los usuarios se les asigna una directiva que no sea la directiva global, ejecute y compruebe que *-AllowBroadcastScheduling* se establece en *True:*
+Si a los usuarios se les asigna una directiva que no sea la directiva global, ejecute y compruebe que *-AllowBroadcastScheduling* se establece en *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
@@ -79,7 +79,7 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 **Desea que un gran número de usuarios puedan programar eventos en directo e impedir que un conjunto de usuarios los programe**
 
-Ejecute y compruebe que *AllowBroadcastScheduling* se establece en *True:*
+Ejecute y compruebe que *AllowBroadcastScheduling* está establecido en *True*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```

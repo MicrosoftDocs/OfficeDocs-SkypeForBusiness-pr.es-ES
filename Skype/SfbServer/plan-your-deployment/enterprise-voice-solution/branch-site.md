@@ -1,8 +1,8 @@
 ---
 title: Enlace troncal SIP del sitio de sucursal en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: Obtenga información sobre el enlace troncal SIP en los sitios de sucursal en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: b8c1c930bb2500ca9330b14cce7fd5b341db60a9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 24c9dd53e8c8ce7a00b38ee50b617e9394b7e88c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829904"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387848"
 ---
 # <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Enlace troncal SIP del sitio de sucursal en Skype Empresarial Server
  
 Obtenga información sobre el enlace troncal SIP en los sitios de sucursal en Skype Empresarial Server Telefonía IP empresarial.
   
-En algunos casos, es posible que deba implementar el enlace troncal SIP distribuido en sitios de sucursal seleccionados. Para determinar si se necesita un tronco SIP para un sitio de sucursal y para obtener más información sobre las opciones de topología admitidas para implementar troncos SIP en sitios de sucursal, vea Enlace troncal SIP en [Skype Empresarial Server](sip-trunking.md).
+En algunos casos, es posible que deba implementar el enlace troncal SIP distribuido en sitios de sucursal seleccionados. Para determinar si se necesita un tronco SIP para un sitio de sucursal y para obtener más información sobre las opciones de topología admitidas para implementar troncos SIP en sitios de sucursal, vea Enlace troncal [SIP en Skype Empresarial Server](sip-trunking.md).
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>Ejemplo de análisis de requisitos de un tronco SIP de sitio de sucursal
 

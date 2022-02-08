@@ -1,8 +1,8 @@
 ---
 title: Implementar Skype conectividad en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Summary: Learn how to connect Skype Empresarial Server with Skype consumer. También se conoce como Skype conectividad.'
-ms.openlocfilehash: c8bdbf96fcbf0831433ad2274d8ab89911df1de5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 834d5329e15f5fc52a24e5f1c86a02c416f04d31
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835828"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389672"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implementar Skype conectividad en Skype Empresarial Server
 
@@ -26,36 +26,36 @@ ms.locfileid: "60835828"
   
 En este artículo se guía por la implementación para Skype conectividad.
   
-## <a name="skype-connectivity-overview-for-it-professionals"></a>Skype Información general sobre conectividad para profesionales de TI
+## <a name="skype-connectivity-overview-for-it-professionals"></a>Skype de conectividad para profesionales de TI
 
-Skype La conectividad proporciona Skype Empresarial usuarios con la capacidad de buscar y agregar Skype usuarios. Skype La conectividad es una característica de Skype Empresarial que permite habilitar la búsqueda de federación y directorio con Skype usuarios. Después de habilitar Skype conectividad, Skype Empresarial los usuarios podrán buscar y agregar Skype usuarios.
+Skype conectividad proporciona a Skype Empresarial usuarios la capacidad de buscar y agregar Skype usuarios. Skype Connectivity es una característica de Skype Empresarial que permite habilitar la búsqueda de directorios y federación con Skype usuarios. Después de habilitar Skype conectividad, Skype Empresarial los usuarios podrán buscar y agregar Skype usuarios.
   
-## <a name="skype-directory-search"></a>Skype Búsqueda de directorios
+## <a name="skype-directory-search"></a>Skype búsqueda de directorios
 
-Skype La funcionalidad de búsqueda de directorios Skype Empresarial usuarios con la capacidad de buscar Skype contactos. La funcionalidad de búsqueda permite a los usuarios buscar con lo siguiente:
+Skype de búsqueda de directorios proporciona Skype Empresarial usuarios con la capacidad de buscar Skype contactos. La funcionalidad de búsqueda permite a los usuarios buscar con lo siguiente:
   
-- **Buscar por nombre para mostrar, ejemplo "John Doe":** esto podría devolver muchos resultados, por lo que es posible que no encuentre lo que está buscando.
+- **Buscar por nombre para mostrar, ejemplo "John Doe"** : esto podría devolver muchos resultados, por lo que es posible que no encuentre lo que está buscando.
     
-- Búsqueda por nombre para mostrar más ubicación, ejemplo **"John Doe en Barcelona":** esto limitará considerablemente los resultados de la búsqueda.
+- **Búsqueda por nombre para mostrar más ubicación, ejemplo "John Doe en Barcelona"** : esto limitará considerablemente los resultados de la búsqueda.
     
-- **Búsqueda por correo electrónico, ejemplo "johndoe@outlook.com":** esto debe devolver un resultado en la mayoría de los casos; el que coincide exactamente con el correo electrónico especificado. Pero si el mismo correo electrónico está asociado a más de una cuenta, se pueden devolver varios resultados.
+- **Búsqueda por correo electrónico, ejemplo "johndoe@outlook.com"** : esto debería devolver un resultado en la mayoría de los casos; el que coincide exactamente con el correo electrónico especificado. Pero si el mismo correo electrónico está asociado a más de una cuenta, se pueden devolver varios resultados.
     
-- **Buscar por número de teléfono, ejemplo "123-123-1234":** esto debería devolver un resultado en la mayoría de los casos; el que coincide exactamente con el teléfono especificado. Teléfono número debe incluir el código de país (es decir, 1-xxx-yyy-zzzz). Si el mismo número de teléfono está asociado a más de una cuenta, se pueden devolver varios resultados.
+- **Buscar por número de teléfono, ejemplo "123-123-1234"** : esto debería devolver un resultado en la mayoría de los casos; el que coincide exactamente con el teléfono especificado. Teléfono número debe incluir el código de país (es decir, 1-xxx-yyy-zzzz). Si el mismo número de teléfono está asociado a más de una cuenta, se pueden devolver varios resultados.
     
 - **Search by Skype Name, example "JohnDoe1456"** - If exact match is found, it will be returned as the first result. Se pueden devolver otras posibles coincidencias de "nombre".
     
     > [!NOTE]
-    > Skype La búsqueda de directorios debe poder comunicarse con las siguientes direcciones IP en el puerto 443: 104.40.75.246, 23.101.135.34 y 40.113.86.19. 
+    > Skype Directory Search debe poder comunicarse con las siguientes direcciones IP en el puerto 443: 104.40.75.246, 23.101.135.34 y 40.113.86.19. 
   
 ## <a name="supported-deployment-matrix-for-skype-directory-search"></a>Matriz de implementación compatible para Skype búsqueda de directorios
 
 En la tabla siguiente se describe la compatibilidad Skype búsqueda de directorios.
   
 
-|&nbsp;|Skype Empresarial Server Front-End|Front-End de Lync Server 2013 (o versiones anteriores)|Comentarios|
+|&nbsp;|Skype Empresarial Server front-end|Front-End de Lync Server 2013 (o versiones anteriores)|Comentarios|
 |:-----|:-----|:-----|:-----|
-|Skype Empresarial Server Edge   |Compatible   |No se admite   |Skype Empresarial Server y Edge son requisitos previos para la Skype búsqueda de directorios   |
-|Skype Empresarial Server Edge + Lync Server 2013 Edge implementados en paralelo   |Compatible   |No se admite   |Skype El tráfico de búsqueda de directorios fluye Skype Empresarial Server servidores perimetrales. El tráfico de federación pasa por el perímetro configurado por el administrador. Por ejemplo, el administrador podría optar por continuar con el envío de tráfico de federación a través de servidores perimetrales de Lync Server 2013 que no admitirían la búsqueda Skype directorio.   |
+|Skype Empresarial Server edge   |Compatible   |No se admite   |Skype Empresarial Server y Edge son requisitos previos para la Skype búsqueda de directorios   |
+|Skype Empresarial Server Edge + Lync Server 2013 Edge implementados en paralelo   |Compatible   |No se admite   |Skype tráfico de búsqueda de directorios fluye Skype Empresarial Server servidores perimetrales. El tráfico de federación pasa por el perímetro configurado por el administrador. Por ejemplo, el administrador podría optar por continuar con el envío de tráfico de federación a través de servidores perimetrales de Lync Server 2013 que no admitirían la búsqueda Skype directorio.   |
 |Lync Server 2013 (o versiones anteriores) perimetral   |No se admite   |No se admite   ||
    
 > [!NOTE]
@@ -75,11 +75,11 @@ En la tabla siguiente se describe la compatibilidad Skype búsqueda de directori
   
 ## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>Implementación de Skype conectividad para Skype Empresarial Online
 
-Skype La conectividad también es una característica de Skype Empresarial Online, que forma parte de Microsoft 365 y Office 365. Puede habilitar la característica Skype conectividad desde el Centro Skype Empresarial administración en el Centro de administración de Microsoft 365.
+Skype Connectivity es también una característica de Skype Empresarial Online, que forma parte de Microsoft 365 y Office 365. Puede habilitar la característica Skype conectividad desde el Centro Skype Empresarial administración en el Centro de administración de Microsoft 365.
   
-For Microsoft 365 Midsize Business, Office 365 Enterprise, Microsoft 365 Educación, and Office 365 for Government: Sign in to the Centro de administración de Microsoft 365 and navigate to the Skype Empresarial Centro de administración. Vaya a Comunicaciones externas. En Proveedores de servicios de mensajería instantánea pública, haga clic en Habilitar. Si desea controlar el acceso de usuarios individuales a Skype conectividad, puede hacerlo editando la configuración de comunicaciones externas de los usuarios individuales.
+For Microsoft 365 Midsize Business, Office 365 Enterprise, Microsoft 365 Educación, and Office 365 for Government: Sign in to the Centro de administración de Microsoft 365 and vaya al Centro de Skype Empresarial administración. Vaya a Comunicaciones externas. En Proveedores de servicios de mensajería instantánea pública, haga clic en Habilitar. Si desea controlar el acceso de usuarios individuales a Skype conectividad, puede hacerlo editando la configuración de comunicaciones externas de los usuarios individuales.
   
-Para Office 365 Pequeña Empresa Premium: inicie sesión en Office 365 y vaya a Servicio de administración Configuración mensajería instantánea, reuniones \> \> y conferencias. Activar comunicaciones externas. El conmutador de comunicaciones externas activa tanto Skype conectividad como las comunicaciones con otras organizaciones que usan Skype Empresarial.
+Para Office 365 Pequeña Empresa Premium: inicie sesión en Office 365 y vaya a Servicio \> \> de administración Configuración mensajería instantánea, reuniones y conferencias. Activar comunicaciones externas. El conmutador de comunicaciones externas activa tanto Skype conectividad como las comunicaciones con otras organizaciones que usan Skype Empresarial.
   
 Para obtener más información sobre Skype Empresarial administración en línea, vea:
   
@@ -93,7 +93,7 @@ Para obtener más información sobre Skype Empresarial administración en línea
     
 ## <a name="deploying-skype-connectivity-for-skype-for-business-server"></a>Implementación de Skype conectividad para Skype Empresarial Server
 
-Skype Empresarial Server la arquitectura de acceso de federación para admitir la conectividad con Skype. Esta conectividad permite a los Skype Empresarial Server usuarios agregar Skype. Skype clientes también pueden agregar Skype Empresarial usuarios a su lista de contactos. Según las directivas establecidas administrativamente en Skype Empresarial Server los usuarios podrán comunicarse con mensajería instantánea, ver la presencia de los demás e iniciar llamadas de audio y vídeo. Skype conectividad es también una característica de Skype Empresarial Online y se puede habilitar para clientes de Skype Empresarial Online desde el Centro de administración de Skype Empresarial dentro del Centro de administración de Microsoft 365.
+Skype Empresarial Server la arquitectura de acceso de federación para admitir la conectividad con Skype. Esta conectividad permite a los Skype Empresarial Server usuarios agregar Skype. Skype clientes también pueden agregar Skype Empresarial usuarios a su lista de contactos. Según las directivas establecidas administrativamente en Skype Empresarial Server los usuarios podrán comunicarse con mensajería instantánea, ver la presencia de los demás e iniciar llamadas de audio y vídeo. Skype conectividad es también una característica de Skype Empresarial Online y se puede habilitar para los clientes de Skype Empresarial Online desde el Centro de administración de Skype Empresarial dentro del Centro de administración de Microsoft 365.
   
 > [!NOTE]
 > Si Skype Empresarial Server ya está configurado para conectarse con Windows Messenger mediante la conectividad de mensajería instantánea pública (PIC), la implementación ya está configurada para la Skype conectividad. El único cambio que puede considerar es cambiar el nombre de la entrada pic de Messenger existente como Skype. 
@@ -107,7 +107,7 @@ La comunicación entre cualquier implementación Skype Empresarial local y los u
 > [!NOTE]
 > La mayoría de los clientes no necesitan ninguna acción, incluidas todas las implementaciones federadas con Skype Empresarial Online.
   
-Las implementaciones locales son necesarias para publicar un registro SRV dns de federación para cada dominio que hospedan. Las instrucciones están disponibles en [la planeación de DNS.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning) Cada dominio debe resolverse mediante una consulta SRV dns en un FQDN de servidor perimetral que satisfaga una coincidencia de sufijos de nivel superior del dominio. Por ejemplo, considere el dominio "contoso.com":
+Las implementaciones locales son necesarias para publicar un registro SRV dns de federación para cada dominio que hospedan. Las instrucciones están disponibles en [la planeación de DNS](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Cada dominio debe resolverse mediante una consulta SRV dns en un FQDN de servidor perimetral que satisfaga una coincidencia de sufijos de nivel superior del dominio. Por ejemplo, considere el dominio "contoso.com":
 
 |**FQDN válidos**|**Comment**|
 |:-----|:-----|
@@ -118,7 +118,7 @@ Las implementaciones locales son necesarias para publicar un registro SRV dns de
 |sip.contoso-edge.com   |No es una coincidencia de sufijo.  |
 |sip.it.contoso.com   |No coincide con un sufijo de nivel superior.   |
 
-Puede encontrar más instrucciones sobre certificados externos en [Planeación de certificados.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning)
+Puede encontrar más instrucciones sobre certificados externos en [Planeación de certificados](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning).
 
 #### <a name="faqs"></a>Preguntas frecuentes
 
@@ -141,7 +141,7 @@ Cualquier organización local que no pueda cambiar su configuración del servido
 
 Ahora, céntrate en el entorno Skype Empresarial Server y las tareas administrativas necesarias para configurar Skype conectividad. En esta sección, se supone que el administrador ha implementado Skype Empresarial Server y configurado el acceso externo, también conocido como servidores perimetrales. 
   
-Hay tres pasos principales necesarios para habilitar la federación y pic. Estos son:
+Hay tres pasos principales necesarios para habilitar la federación y pic. Son:
   
 1. Configurar federación y PIC
     
@@ -212,7 +212,7 @@ La configuración Skype conectividad también se puede realizar con PowerShell �
      > El proveedor público debe quitarse y agregarse nuevo si se realizan cambios. No se permiten cambios en la configuración local. 
   
      > [!NOTE]
-     > Agregado en el cliente de escritorio de Lync Server 2013 CU5 en &amp; Office 2013 SP1, NameDecorationRoutingDomain y NameDecorationExcludedDomainList mejoran la situación en la que los usuarios de Lync agregan contactos Skype necesarios para "decorar" dominios que no son de Microsoft para identificarlos y enrutrlos a Skype (el formato de: user(contoso.com)@msn.com). Esta nueva configuración permitirá el formato automático de la dirección que el usuario escribe en el cuadro de diálogo "Agregar contacto de Skype" con nameDecorationRoutingDomain (que debe establecerse en msn.com) si no contiene los dominios del NameDecorationExcludedDomainList (actualmente podemos admitir msn.com, live.com, Hotmail.com, outlook.com). 
+     > Agregado en el cliente de escritorio de Lync Server 2013 CU5 &amp; en Office 2013 SP1, NameDecorationRoutingDomain y NameDecorationExcludedDomainList mejoran la situación en la que los usuarios de Lync agregan contactos Skype necesarios para "decorar" dominios que no son de Microsoft para identificarlos y enrutrlos a Skype (el formato de: user(contoso.com)@msn.com). Esta nueva configuración permitirá el formato automático de la dirección que el usuario escribe en el cuadro de diálogo "Agregar contacto de Skype" con nameDecorationRoutingDomain (que debe establecerse en msn.com) si no contiene los dominios del NameDecorationExcludedDomainList (actualmente podemos admitir msn.com, live.com, Hotmail.com, outlook.com). 
   
 3. Desde un Skype Empresarial los usuarios cliente ahora pueden buscar y agregar un Skype usuario.
     
@@ -221,17 +221,17 @@ La configuración Skype conectividad también se puede realizar con PowerShell �
 En la tabla siguiente se describe el estado de interoperabilidad entre la última versión de Skype consumidor y la versión más reciente de Skype Empresarial.
   
 
-|Skype Clientes|Agregar contactos, mensajería instantánea, presencia, audio y videollamadas|Comentario|
+|Skype clientes|Agregar contactos, mensajería instantánea, presencia, audio y videollamadas|Comentario|
 |:-----|:-----|:-----|
-|Skype Windows escritorio   |7.6 o superior, Windows XP y versiones posteriores   |**NUEVO:** compatibilidad agregada para Windows Skype cliente que se ejecuta en Windows XP y Windows Vista (requiere la versión **7.26 del** cliente más reciente o posterior)  |
+|Skype Windows escritorio   |7.6 o superior, Windows XP y versiones posteriores   |**NUEVO**: Compatibilidad agregada para Windows Skype cliente que se ejecuta en Windows XP y Windows Vista (requiere la versión **7.26 del cliente más reciente o posterior)**  |
 |Skype Móvil: androide Teléfono y tableta   |6.19 o posterior, ejecutando Android OS versión 4.0.3 o posterior   |Es posible que los dispositivos de especificaciones bajas no admitan llamadas de vídeo   |
-|Skype Móvil: iOS   |6.11 o superior, en IOS 7 o posterior   |No se admiten iPhone 4 y versiones anteriores, la 4ª generación del iPod y versiones anteriores, iPad 1ª generación   |
+|Skype Mobile - iOS   |6.11 o superior, en IOS 7 o posterior   |No se admiten iPhone 4 y versiones anteriores, la 4ª generación del iPod y versiones anteriores, iPad 1ª generación   |
 |Skype Mac   |7.19 o superior, en Mac OS X 10.9 (Mavericks) o posterior   |Requiere Mac OSX 10.9 o posterior   |
-|Skype Aplicación Windows universal (Windows 10) escritorio y móvil   |Windows 10 (actualización de Redstone 1 o posterior)   |Windows La aplicación universal recibirá la actualización en otoño de 2016 agregando compatibilidad con interoperabilidad   |
+|Skype aplicación Windows universal (Windows 10) de escritorio y móvil   |Windows 10 (actualización de Redstone 1 o posterior)   |Windows aplicación universal recibirá actualización en otoño de 2016 agregando compatibilidad con interoperabilidad   |
    
 En la tabla siguiente se describe el estado de interoperabilidad entre la última versión de Skype Empresarial y la versión más reciente de Skype consumidor. 
   
-|Client|Skype Búsqueda de directorios y agregar contactos|Skype A/V, interoperabilidad de mensajería instantánea|
+|Client|Skype búsqueda de directorios y agregar contactos|Skype A/V, interoperabilidad de mensajería instantánea|
 |:-----|:-----|:-----|
 |Skype for Business   |Sí   |Sí   |
 |Skype Empresarial en Mac   |Puede agregar (sin búsqueda)   |Sí   |

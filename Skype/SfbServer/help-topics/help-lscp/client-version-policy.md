@@ -1,8 +1,8 @@
 ---
 title: 'Directiva de versión de clientes:'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 description: Puede especificar la versión de clientes que se admiten en su entorno. Cuando interactúan dos clientes que ejecutan versiones diferentes, las características disponibles para cualquiera de esos clientes pueden verse limitadas por las funciones del otro cliente. Para aprovechar al máximo las características incluidas en Skype Empresarial Server 2015 y mejorar la experiencia general del usuario, puede usar el filtro de versión de cliente para restringir las versiones de cliente que se usan en su entorno. Mediante el filtro de versiones de cliente también puede ayudar a reducir los costos asociados al uso de varias versiones de cliente.
-ms.openlocfilehash: 89547442d432f25cc132a296328fe27f734be402
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 54b9ace15dec11618a6d331813c0d81773c4994a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846653"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389232"
 ---
 # <a name="client-version-policy"></a>Directiva de versiones de clientes:
 
@@ -30,7 +30,7 @@ Puede especificar la versión de clientes que se admiten en su entorno. Cuando i
 
 Puede realizar las siguientes tareas en la página **Directiva de versión de cliente**:
 
-- Edite la directiva de versión de cliente predeterminada ( **Global**).
+- Edite la **directiva de versión** de cliente predeterminada (global).
 
 - Crear directivas de versión de cliente para un grupo o sitio concreto.
 

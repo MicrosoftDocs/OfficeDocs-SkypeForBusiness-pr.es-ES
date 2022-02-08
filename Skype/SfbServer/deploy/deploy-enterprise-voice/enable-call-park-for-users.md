@@ -1,8 +1,8 @@
 ---
 title: Habilitar estacionamiento de llamadas para usuarios en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Habilitar usuarios para estacionamiento de llamadas en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 87ac29c8f9b6c893149db8fb91561ee4b3cf1166
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 84a37ad9e3b77042c1c2c04d1d6562b3bb780ee2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843513"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386349"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>Habilitar estacionamiento de llamadas para usuarios en Skype Empresarial
  
@@ -51,9 +51,9 @@ Puede habilitar el estacionamiento de llamadas en el ámbito global, en el ámbi
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o bien como miembro del rol administrativo CsVoiceAdministrator, CsServerAdministrator o CsAdministrator.
     
-2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
-3. Ejecute: 
+3. Ejecutar:
     
    ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
@@ -65,7 +65,7 @@ Puede habilitar el estacionamiento de llamadas en el ámbito global, en el ámbi
    Set-CsVoicePolicy -EnableCallPark $true
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

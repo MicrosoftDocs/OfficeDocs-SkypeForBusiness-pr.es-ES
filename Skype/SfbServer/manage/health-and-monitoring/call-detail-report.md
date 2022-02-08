@@ -1,8 +1,8 @@
 ---
 title: Informe detallado de llamadas en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 'Summary: Learn about the Call Detail Report used in Skype Empresarial Server.'
-ms.openlocfilehash: 8f5d9e99a9141e1954aef2636ed5d671003e6ad3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6d8a79506e215bd46a54c89969fc5991f9962d6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834218"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385622"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Informe detallado de llamadas en Skype Empresarial Server
  
@@ -55,7 +55,7 @@ Es posible tener acceso al Informe de detalles de llamadas desde cualquiera de l
     
 - [Informe de resumen de calidad multimedia en Skype Empresarial Server (summary.md) (haciendo clic en la métrica Volumen de llamadas o Porcentaje de llamadas deficientes)
     
-- El [Informe de comparación de](comparison.md) calidad multimedia en Skype Empresarial Server (haciendo clic en el Informe de lista de llamadas en [Skype Empresarial Server](call-list-report-0.md) y, a continuación, haciendo clic en la métrica Detalle).
+- El [Informe de comparación de calidad multimedia en Skype Empresarial Server](comparison.md) (haciendo clic en el Informe de lista de llamadas en [Skype Empresarial Server](call-list-report-0.md) y, a continuación, haciendo clic en la métrica Detalle).
     
 - Informe [de rendimiento del servidor en Skype Empresarial Server](server-performance.md) (haciendo clic en la métrica Volumen de llamadas o Porcentaje de llamadas deficiente)
     

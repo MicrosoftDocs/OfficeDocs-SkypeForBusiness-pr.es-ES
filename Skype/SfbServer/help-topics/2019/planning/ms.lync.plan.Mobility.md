@@ -1,8 +1,8 @@
 ---
-title: Skype Empresarial Server Herramienta de planeación de movilidad
+title: Skype Empresarial Server de planeación de movilidad
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: La característica de movilidad de Skype Empresarial Server admite Skype Empresarial funcionalidad en dispositivos móviles.
-ms.openlocfilehash: 160fcaecd46d8a201eea99d80fa76af4093e8ec2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fb5dff47adfb35f39a241a245c35bbb4f1236c20
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831274"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388848"
 ---
-# <a name="skype-for-business-server-mobility-planning-tool"></a>Skype Empresarial Server Herramienta de planeación de movilidad
+# <a name="skype-for-business-server-mobility-planning-tool"></a>Skype Empresarial Server de planeación de movilidad
  
 La característica de movilidad de Skype Empresarial Server admite Skype Empresarial funcionalidad en dispositivos móviles.
   

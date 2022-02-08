@@ -1,8 +1,8 @@
 ---
 title: Instalar y abrir herramientas administrativas
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: En este tema se describe cómo instalar y abrir las herramientas administrativas que necesita para implementar y administrar Skype Empresarial.
-ms.openlocfilehash: 21fc33f5e095100f9634695925e1000172742695
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e3df2fd72cafbbf724baed3f86d0b62d74583348
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848423"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384198"
 ---
 # <a name="install-and-open-administrative-tools"></a>Instalar y abrir herramientas administrativas
 
-En este tema se describe cómo instalar las herramientas administrativas que necesita para implementar y administrar Skype Empresarial Server. Las herramientas administrativas se instalan de forma predeterminada en cada servidor que ejecuta Skype Empresarial Server. Además, puede instalar las herramientas administrativas en otros equipos, como consolas administrativas dedicadas. Le recomendamos encarecidamente que instale las herramientas administrativas en un equipo que se encuentra en el mismo dominio o bosque que la implementación de Skype Empresarial Server que está creando, para asegurarse de que los pasos de preparación de Servicios de dominio de Active Directory ya están completados, lo que le permite usar las herramientas administrativas en ese equipo más adelante para publicar la topología. Asegúrese también de revisar los requisitos necesarios antes de instalar o usar las Skype Empresarial Server administrativas. Vea la documentación de requisitos [Skype Empresarial Server 2019](../../SfBServer2019/plan/system-requirements.md) [o Skype Empresarial Server 2015](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md).
+En este tema se describe cómo instalar las herramientas administrativas que necesita para implementar y administrar Skype Empresarial Server. Las herramientas administrativas se instalan de forma predeterminada en cada servidor que ejecuta Skype Empresarial Server. Además, puede instalar las herramientas administrativas en otros equipos, como consolas administrativas dedicadas. Le recomendamos encarecidamente que instale las herramientas administrativas en un equipo que se encuentra en el mismo dominio o bosque que la implementación de Skype Empresarial Server que está creando, para asegurarse de que los pasos de preparación de Servicios de dominio de Active Directory ya están completados, lo que le permite usar las herramientas administrativas en ese equipo más adelante para publicar la topología. Asegúrese también de revisar los requisitos necesarios antes de instalar o usar las Skype Empresarial Server administrativas. Consulte la documentación de requisitos [Skype Empresarial Server 2019](../../SfBServer2019/plan/system-requirements.md) [o Skype Empresarial Server 2015](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md).
  
 > [!Important]
 > Si su organización requiere localizar Internet Information Services (IIS) y todos los servicios web en una unidad que no sea la unidad del sistema, puede cambiar la ruta de ubicación de instalación de los archivos Skype Empresarial Server en el cuadro de diálogo Instalación. Si instala los archivos de instalación en esta ruta de acceso, incluido OCSCore.msi, el resto de los archivos Skype Empresarial Server se implementarán también en esta unidad. 
@@ -53,7 +53,7 @@ Use el siguiente procedimiento para iniciar el Asistente para implementación lo
 **Para iniciar el Asistente Skype Empresarial Server implementación**
 
 1. Inicie sesión en el equipo en el que el Asistente para la implementación de Skype Empresarial Server está instalado como miembro del grupo Administradores de dominio y del grupo RTCUniversalServerAdmins.
-2. Haga **clic en** Inicio , en **Todos** los programas, **en Skype Empresarial Server** y, a continuación, en Skype Empresarial Server Asistente **para implementación**.
+2. Haga **clic en** Inicio, **en Todos** los programas, **en Skype Empresarial Server** y, a continuación, en **Skype Empresarial Server Asistente para implementación**.
 
 
 ## <a name="topology-builder"></a>Topology Builder 
@@ -64,9 +64,9 @@ Use el siguiente procedimiento para abrir el Generador de topologías para defin
 
 1. Inicie sesión en el equipo en el que Topology Builder esté instalado como miembro del grupo Admins. del dominio y el grupo RTCUniversalServerAdmins.
     > [!NOTE]
-    > Puede definir una topología mediante una cuenta que sea miembro del grupo usuarios local, pero para leer, publicar o habilitar una topología, que es necesaria para instalar Skype Empresarial Server en un servidor, debe usar una cuenta que sea miembro del grupo Administradores de dominio y del grupo RTCUniversalServerAdmins,  y que tiene permisos de control total (es decir, lectura, escritura y modificación) en el recurso compartido de archivos que va a usar para el almacén de archivos de archivado para que el Generador de topologías pueda configurar la lista de control de acceso discrecional (DACL) necesaria o una cuenta con derechos de usuario equivalentes.
+    > Puede definir una topología mediante una cuenta que sea miembro del grupo usuarios local, pero para leer, publicar o habilitar una topología, que es necesaria para instalar Skype Empresarial Server en un servidor, debe usar una cuenta que sea miembro del grupo Administradores de dominio y del grupo RTCUniversalServerAdmins, y que tenga permisos de control total (es decir,  read, write, and modify) on the file share that you are going to use for the archiving file store so that Topology Builder can configure the discretionary access control list (DACLs), or an account with equivalent user rights.
  
-2. Iniciar generador de topologías: haga clic **en Inicio**, todos los **programas,** haga clic **en Skype Empresarial Server** y, a continuación, haga clic Skype Empresarial Server Generador **de topologías**.
+2. Iniciar generador de topologías: haga clic en **Inicio**, **todos** los **programas, Skype Empresarial Server** y, a continuación, haga clic **Skype Empresarial Server Generador de topologías**.
 
 ## <a name="skype-for-business-server-control-panel"></a>Panel de control de Skype Empresarial Server 
 
@@ -87,7 +87,7 @@ Use uno de los siguientes procedimientos para abrir el Panel de control de Skype
 **Para abrir el Panel Skype Empresarial Server control en un equipo que ejecute Skype Empresarial Server**
 
 1. Desde una cuenta de usuario que sea miembro del rol CsAdministrator u otro rol que tenga los derechos y permisos de usuario adecuados para realizar la tarea, inicie sesión en un equipo en el que haya instalado Skype Empresarial Server o, como mínimo, las herramientas administrativas de Skype Empresarial Server. Para configurar la configuración, el equipo debe tener una resolución de pantalla mínima de 1024 x 768.
-2. Inicio Skype Empresarial Server Panel de control: haga clic en Inicio **,** haga clic en Todos los programas **,** elija Herramientas administrativas **,** elija Skype Empresarial Server **y,** a continuación, haga clic Skype Empresarial Server **Panel de control**.
+2. Iniciar Skype Empresarial Server Panel de control: haga clic en **Inicio, haga** clic en Todos los **programas, elija** Herramientas **administrativas, seleccione** Skype Empresarial Server **y, a** continuación, haga clic Skype Empresarial Server **Panel de control**.
 
 ## <a name="skype-for-business-server-management-shell"></a>Shell de administración de Skype Empresarial Server 
 
@@ -102,4 +102,4 @@ Si abre una ventana Windows PowerShell en lugar del Shell de administración de 
 
 `Import-Module Lync`
 
-Inicie el Shell Skype Empresarial Server de administración: haga clic en Inicio **,** en Todos los **programas,** haga clic en **Skype Empresarial Server** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
+Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** haga clic en **Skype Empresarial Server** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.

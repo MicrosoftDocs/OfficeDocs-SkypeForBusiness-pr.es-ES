@@ -1,8 +1,8 @@
 ---
 title: Crear directivas entre sitios de red en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Cree directivas entre sitios de red, que se usan Telefonía IP empresarial control de admisión de llamadas en Skype Empresarial Server.
-ms.openlocfilehash: 3510a80935bd19fc6ac36904003f744fd7e65cf5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6d3243f2fd3be78228c9bac72219b4906b84ecfb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841892"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387368"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Crear directivas entre sitios de red en Skype Empresarial Server
  
@@ -30,13 +30,13 @@ Cree directivas entre sitios de red, que se usan Telefonía IP empresarial contr
 Una directiva entre sitios de red define las limitaciones de ancho de banda entre sitios que tienen vínculos WAN directos entre ellos.
   
 > [!IMPORTANT]
-> Solo se requiere una  directiva entre sitios de red si hay un vínculo directo entre dos sitios de red.
+> Solo se requiere una directiva entre sitios de  red si hay un vínculo directo entre dos sitios de red.
   
 En la topología de ejemplo de la región de Norteamérica, hay un vínculo directo entre los sitios de Reno y Albuquerque. Estos dos sitios requieren una directiva entre sitios que aplique un perfil de directiva de ancho de banda adecuado. En el siguiente ejemplo se aplica el perfil 20Mb_Link.
   
 ### <a name="to-create-a-network-inter-site-policy"></a>Para crear una directiva entre sitios de red
 
-1. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+1. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 2. Ejecute el cmdlet New-CsNetworkInterSitePolicy para crear directivas entre sitios de red y aplicar un perfil de directiva de ancho de banda adecuado para dos sitios que tienen un vínculo cruzado directo. Por ejemplo, ejecute:
     
@@ -46,7 +46,7 @@ En la topología de ejemplo de la región de Norteamérica, hay un vínculo dire
 
 3. Repita el paso 2 según sea necesario para crear directivas entre sitios de red para todos los pares de sitios de red que tengan un vínculo cruzado directo.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [New-CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   

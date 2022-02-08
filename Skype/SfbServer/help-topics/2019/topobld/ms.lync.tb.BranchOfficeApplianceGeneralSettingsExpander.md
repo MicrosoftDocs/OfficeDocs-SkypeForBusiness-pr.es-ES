@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración general de aplicación de sucursal
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar la configuración de una Aplicación de sucursal con funciones de supervivencia o un Servidor de sucursal con funciones de supervivencia, dispone de las secciones siguientes:'
-ms.openlocfilehash: f6222f3925289b441d985a8ba07032a0ae6951df
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8f1ac9a0b62752fcf79f2523dbc3b9438dfba867
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831244"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387018"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de configuración general de aplicación de sucursal
 
@@ -43,12 +43,12 @@ Puede seleccionar **Usar todas las direcciones IP configuradas** o **Limitar el 
 
 En **Asociaciones**, puede editar o especificar lo siguiente:
 
-- Asociar servidor de archivado permite seleccionar asociar un servidor de archivado con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Para seleccionar un servidor de archivado ya definido, seleccione el servidor en  la lista desplegable o haga clic en Nuevo para especificar un nuevo servidor de archivado.
+- Asociar servidor de archivado permite seleccionar asociar un servidor de archivado con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Para seleccionar un servidor de archivado ya definido, seleccione el servidor en la lista desplegable o haga clic en Nuevo para especificar un  nuevo servidor de archivado.
 
     > [!IMPORTANT]
     > Antes de publicar la topología recién definida, el servidor que especifique debe existir y se debe unir en el dominio.
 
-- Asociar servidor de supervisión permite seleccionar asociar un servidor de supervisión con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Para seleccionar un servidor de supervisión ya definido, seleccione el servidor de  la lista desplegable o haga clic en Nuevo para especificar un nuevo servidor de supervisión.
+- Asociar servidor de supervisión permite seleccionar asociar un servidor de supervisión con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Para seleccionar un servidor de supervisión ya definido, seleccione el servidor de la lista desplegable o haga clic en Nuevo para especificar un  nuevo servidor de supervisión.
 
 - Asociar grupo de servidores perimetrales permite seleccionar asociar un servidor perimetral o grupo de servidores con la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia. Puede seleccionar un servidor perimetral o un grupo de servidores perimetrales que ya estén definidos seleccionándolos en la lista desplegable o hacer clic en **Nuevo** para especificar un servidor perimetral o grupo de servidores perimetrales nuevo.
 

@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en las Islas Caimán
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para las Islas Caimán.
-ms.openlocfilehash: 40d1617dde8ee45971f705b96e17df61d710b261
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: d5a66a27bf2cbf4ecfa8b5e115aa3545f462cd9e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190641"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384148"
 ---
 # <a name="availability-in-the-cayman-islands"></a>Disponibilidad en las Islas Caimán
 

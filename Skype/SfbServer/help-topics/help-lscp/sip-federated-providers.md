@@ -1,8 +1,8 @@
 ---
 title: Proveedores SIP federados
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0e875ac6-8afb-45bc-bcaa-3c7451125fae
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: b57731c23e892a59b3401d46e1d5649257c97ea8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 74ca90640cd6bd6a934a8a7e9fa1e965e00a49b2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851394"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384698"
 ---
 # <a name="sip-federated-providers"></a>Proveedores federados SIP
 

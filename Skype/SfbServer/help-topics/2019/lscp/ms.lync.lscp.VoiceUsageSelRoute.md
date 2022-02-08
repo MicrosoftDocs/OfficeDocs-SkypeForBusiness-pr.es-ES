@@ -1,8 +1,8 @@
 ---
 title: Seleccionar rutas
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el cuadro de diálogo Seleccionar rutas para buscar rutas de voz existentes que pueda usar.
-ms.openlocfilehash: d33a8310c507a62b24013520f570bd3c68766928
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 95e12666c0db4b1d56f58fb63cd34efcbecd4e5b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859387"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386188"
 ---
 # <a name="select-routes"></a>Seleccionar rutas
  

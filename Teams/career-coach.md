@@ -1,7 +1,7 @@
 ---
 title: Comprar, configurar y habilitar Asesor de carrera para Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6ee69306faed71524742fab46c30c9e8523d8ff
-ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
+ms.openlocfilehash: 8f2698f668f33f078988b4c9ff1967a07c6765d9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61993004"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389772"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Comprar, configurar y habilitar Asesor de carrera para Microsoft Teams
 
@@ -77,7 +77,7 @@ Para habilitar Asesor de carrera para su institución educativa, revise lo que n
 
 - Lista de campos de estudio ofrecidos.
 
-- Página de [LinkedIn](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)de la institución educativa.
+- Página de [LinkedIn de la institución educativa](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
 - Dirección URL de la directiva de privacidad de la institución educativa.
 
@@ -93,19 +93,19 @@ Hay disponible una prueba gratuita estándar de 90 días para 25 estudiantes y 2
 
 ### <a name="assign-app-licenses-to-users"></a>Asignar licencias de aplicaciones a usuarios
 
-Para obtener instrucciones paso a paso, vea [Asignar licencias a usuarios.](/microsoft-365/admin/manage/assign-licenses-to-users)
+Para obtener instrucciones paso a paso, vea [Asignar licencias a los usuarios](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ### <a name="turn-on-linkedin-account-connections"></a>Activar las conexiones de cuentas de LinkedIn
 
-Asesor de carrera **requiere que** los usuarios de la institución educativa tengan la capacidad de conectar su cuenta de Microsoft 365 a su cuenta de LinkedIn que se facilita en Asesor de carrera.
+Asesor de carrera **requiere** que los usuarios de la institución educativa tengan la capacidad de conectar su cuenta de Microsoft 365 a su cuenta de LinkedIn que se facilita en Asesor de carrera.
 
 1. Inicie sesión en el [Azure AD de](https://aad.portal.azure.com/) administración con una cuenta que sea administrador global de la Azure AD organización.
 
 2. Seleccione **Usuarios**.
 
-3. En la **página Usuarios,** seleccione **Configuración de usuario.**
+3. En la **página Usuarios** , seleccione **Configuración de usuario**.
 
-4. **Las conexiones de cuenta de LinkedIn** deben establecerse en **Sí** o **Grupo** seleccionado Asesor de carrera que se configuren correctamente.
+4. **Las conexiones de cuenta de LinkedIn** deben establecerse en **Sí** o **Grupo** seleccionado para que Asesor de carrera esté configurado correctamente.
 
    ![Integrar conexiones de cuentas de LinkedIn en la organización](/azure/active-directory/enterprise-users/media/linkedin-integration/linkedin-integration.png)
 
@@ -116,7 +116,7 @@ Asesor de carrera **requiere que** los usuarios de la institución educativa ten
 
    - Seleccione **Grupo seleccionado para** habilitar el servicio solo para un grupo de usuarios seleccionados en su institución educativa.
 
-Para obtener más información, vea Conexiones de cuentas [de LinkedIn en Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration).
+Para obtener más información, vea [Conexiones de cuentas de LinkedIn en Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration).
 
 ## <a name="access-the-career-coach-app-settings"></a>Acceder a la Asesor de carrera de la aplicación
 
@@ -127,11 +127,11 @@ Use Microsoft Teams de administración para configurar Asesor de carrera para su
 
 1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
 
-2. En el panel de navegación izquierdo, **selecciona Teams aplicaciones Administrar**  >  **[aplicaciones.](https://admin.teams.microsoft.com/policies/manage-apps)**  
+2. En el panel de navegación izquierdo, **selecciona Teams** **[aplicacionesManage](https://admin.teams.microsoft.com/policies/manage-apps)** >  aplicaciones.  
 
 3. Busque o busque **Asesor de carrera**.  
 
-4. Seleccione **Asesor de carrera** y, a **continuación, seleccione Configuración**.  
+4. Seleccione **Asesor de carrera** y, a continuación **, seleccione Configuración**.  
 
     ![muestra la Asesor de carrera aplicación seleccionada con la Configuración que se muestra.](media/career-coach-app.png)
 
@@ -139,18 +139,18 @@ Use Microsoft Teams de administración para configurar Asesor de carrera para su
 
 Asesor de carrera tiene cinco categorías de configuración:
 
-- [Marca y preferencias:](#brand-and-preferences) obligatorio
+- [Marca y preferencias](#brand-and-preferences) : obligatorio
 
-- [Conexión de LinkedIn:](#linkedin-connection) obligatorio
+- [Conexión de LinkedIn](#linkedin-connection) : obligatorio
 
-- [Catálogo de cursos:](#course-catalog) obligatorio
+- [Catálogo de cursos](#course-catalog) : obligatorio
 
-- [Campos de estudio:](#fields-of-study) obligatorio
+- [Campos de estudio](#fields-of-study) : obligatorio
 
 - [Personalización](#customization)
 
 > [!IMPORTANT]
-> La marca y las preferencias, la configuración  de LinkedIn, el catálogo de cursos y los campos de estudio son necesarios para habilitar de forma eficaz la aplicación para estudiantes, profesores y personal.
+> La marca y las preferencias, la configuración de LinkedIn, el catálogo de  cursos y los campos de estudio son necesarios para habilitar de forma eficaz la aplicación para estudiantes, profesores y personal.
 
 ### <a name="brand-and-preferences"></a>Marca y preferencias
 
@@ -163,21 +163,21 @@ Personalice Asesor de carrera para que coincida con la marca de su institución 
 
 1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
 
-2. Selecciona **Teams aplicaciones Administrar** aplicaciones  >  **[](https://admin.teams.microsoft.com/policies/manage-apps)**  >  **Asesor de carrera** marca  >  **y preferencias.**
+2. Seleccione **Teams** **[aplicacionesAgrego](https://admin.teams.microsoft.com/policies/manage-apps)** >  aplicaciones  > **Asesor de carrera** >  **Marca y preferencias**.
 
-3. Upload el **icono de institución educativa**. El icono se usa en Asesor de carrera para identificar contenido exclusivo de su institución educativa, recursos del catálogo de cursos en toda la aplicación y en la sección experiencias del mundo real del panel. El icono tiene el formato más adecuado:
+3. Upload el icono **de institución educativa**. El icono se usa en Asesor de carrera para identificar contenido exclusivo de su institución educativa, recursos del catálogo de cursos en toda la aplicación y en la sección experiencias del mundo real del panel. El icono tiene el formato más adecuado:
 
     - Un PNG transparente
     - Relación de aspecto de 1:1
     - Tamaño máximo de 64 px x 64 px
 
-4. Upload miniatura **de la institución educativa.** La miniatura se usará para los recursos del catálogo del curso en toda la aplicación cuando una imagen específica no esté disponible para un curso. La miniatura tiene el formato más adecuado:
+4. Upload miniatura **de la institución educativa**. La miniatura se usará para los recursos del catálogo del curso en toda la aplicación cuando una imagen específica no esté disponible para un curso. La miniatura tiene el formato más adecuado:
 
     - UN PNG
     - Relación de aspecto de 16:9
     - Tamaño máximo de 360 px x 200 px
 
-5. Agregue la **dirección URL de la directiva de privacidad de la institución educativa.** Si se agrega, la directiva de privacidad de la institución estará disponible para que los alumnos puedan revisarla en Asesor de carrera aplicación.
+5. Agregue la **dirección URL de la directiva de privacidad de la institución educativa**. Si se agrega, la directiva de privacidad de la institución estará disponible para que los alumnos puedan revisarla en Asesor de carrera aplicación.
 
 6. Seleccione **Enviar**.
 
@@ -192,13 +192,13 @@ La configuración de LinkedIn conecta Asesor de carrera datos de antiguos alumno
   
 1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
 
-2. Selecciona **Teams aplicaciones Administrar** aplicaciones  >  **[](https://admin.teams.microsoft.com/policies/manage-apps)**  >  **Asesor de carrera** conexión  >  **de LinkedIn**.
+2. Seleccione **Teams aplicacionesInexiones** >  **[de](https://admin.teams.microsoft.com/policies/manage-apps)** >  **Asesor de carrera** >  **LinkedIn**.
 
-3. Busque la página de LinkedIn buscando en LinkedIn y seleccionando el **filtro Escuela.** O conéctate con un miembro del personal de servicios profesionales para determinar la página educativa de LinkedIn correcta para usar. Para obtener más información, vea [Cómo identificar páginas de LinkedIn.](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)
+3. Busque la página de LinkedIn buscando en LinkedIn y seleccionando el **filtro Escuela** . O conéctate con un miembro del personal de servicios profesionales para determinar la página educativa de LinkedIn correcta para usar. Para obtener más información, vea [Cómo identificar páginas de LinkedIn](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
     ![linkedin buscar la escuela.](media/career-coach-school-search.png)
 
-4. Agregue la dirección URL de la página educativa de LinkedIn. La dirección URL debe ser una página educativa y no una página de la empresa y normalmente tiene el formato de `https://www.linkedin.com/school/willow-university/` .
+4. Agregue la dirección URL de la página educativa de LinkedIn. La dirección URL debe ser una página educativa y no una página de la empresa y normalmente tiene el formato de `https://www.linkedin.com/school/willow-university/`.
 
    ![ejemplo de página de la escuela linkedin.](media/career-coach-linkedin-page-url.png)
 
@@ -208,11 +208,11 @@ La configuración de LinkedIn conecta Asesor de carrera datos de antiguos alumno
 > [!IMPORTANT]
 > La verificación debe ser completada por el superadministrador de la página de LinkedIn de su institución educativa.
 
-1. Si se envía correctamente, la página se actualizará para mostrar el vínculo Verificación **y** la expiración **del vínculo Verificación.** El vínculo de verificación expira después de 30 días.
+1. Si se envía correctamente, la página se actualizará para mostrar el vínculo Verificación **y la** expiración **del vínculo Verificación**. El vínculo de verificación expira después de 30 días.
 
    ![conexiones de linkedin para la aplicación de entrenador profesional.](media/career-coach-linked-in.png)  
 
-2. Copie el vínculo de verificación y compártello con el superadministrador de la página de LinkedIn de su institución educativa. Obtenga más información sobre el rol de superadministrador de la página de LinkedIn en la [documentación de administrador de la página de LinkedIn.](https://www.linkedin.com/help/linkedin/answer/102672)
+2. Copie el vínculo de verificación y compártello con el superadministrador de la página de LinkedIn de su institución educativa. Obtenga más información sobre el rol de superadministrador de la página de LinkedIn en la [documentación del administrador de la página de LinkedIn](https://www.linkedin.com/help/linkedin/answer/102672).
 
 3. El superadministrador de la página de LinkedIn usará el vínculo de verificación único para asociar Asesor de carrera a la página de su escuela. Consulte [Documentación adicional sobre la verificación de página de LinkedIn](https://www.linkedin.com/help/linkedin/answer/102672) para obtener más información.
 
@@ -237,7 +237,7 @@ Para crear el catálogo de cursos, cree una lista de todos los cursos que se imp
 
 1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
 
-1. Selecciona **Teams aplicaciones Administrar** &gt; **[aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Asesor de carrera** &gt; **Configuración** catálogo del &gt; **curso.**  
+1. Selecciona **Teams aplicaciones Administrar** &gt; **[aplicaciones Asesor de carrera](https://admin.teams.microsoft.com/policies/manage-apps)** &gt;  &gt; **Configuración** &gt;**catálogo del curso**.  
 
 2. Upload cursos en formato CSV con las columnas necesarias: courseId, title y sourceLink. Cada fila debe incluir datos para cada una de las columnas necesarias. _Incluir los campos recomendados mejora la experiencia de los alumnos al devolver mejores resultados de búsqueda e identificación de aptitudes._
 
@@ -247,7 +247,7 @@ Para crear el catálogo de cursos, cree una lista de todos los cursos que se imp
 
 #### <a name="course-catalog-document-format-and-schema"></a>Esquema y formato de documento del catálogo de cursos
 
-El documento debe estar en formato CSV con un tamaño máximo de 18 MB. El documento debe contener el título del curso de campos **obligatorios,** **el id. del** curso y la dirección URL del **curso.** 
+El documento debe estar en formato CSV con un tamaño máximo de 18 MB. El documento debe contener los campos obligatorios título del **curso**, **id. de curso** y dirección **URL del curso**. 
 
 > [!TIP]
 > Empiece con el documento [del catálogo de cursos de]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) ejemplo para garantizar el formato correcto. _Incluir los campos recomendados mejora la experiencia de los alumnos al devolver mejores resultados de búsqueda e identificación de aptitudes._
@@ -277,7 +277,7 @@ Los campos de estudio son sinónimos de áreas principales de interés, grado ac
 #### <a name="add-the-fields-of-study"></a>Agregar los campos de estudio
 
 1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
-1. Selecciona **Teams aplicaciones Administrar** &gt; **[aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Asesor de carrera** &gt; **Configuración** campos de &gt; **estudio.**  
+1. Selecciona **Teams aplicaciones Administrar** &gt; **[aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Asesor de carrera** &gt; **Configuración** &gt;**campos de estudio**.  
 
 2. Upload campo de estudio en formato CSV.
 
@@ -304,7 +304,7 @@ Asesor de carrera puede personalizarse para que sea única para su institución 
 
 1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
 
-1. Selecciona **Teams aplicaciones Administrar** &gt; **[aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Asesor de carrera**  >  **Configuración** &gt; **personalización.**
+1. Selecciona **Teams aplicaciones Administrar** &gt; **[aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Asesor de carrera** >  **Configuración** &gt; **personalización**.
 
 2. Agregue cada título, dirección URL y descripción breve.  
   
@@ -323,9 +323,9 @@ Después de completar la configuración, habilite la aplicación para alumnos y 
 
 1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
 
-1. Selecciona **Teams aplicaciones Administrar** aplicaciones &gt; **[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Asesor de carrera**.
+1. Selecciona **Teams aplicaciones Administrar** &gt; **[aplicaciones Asesor de carrera](https://admin.teams.microsoft.com/policies/manage-apps)**&gt;.
 
-2. Mueva el botón de alternancia Estado a **Permitido.**  
+2. Mueva el botón de alternancia Estado a **Permitido**.  
 
    > [!NOTE]
    > **Permitido** significa que la aplicación está disponible para los usuarios de su institución educativa. Bloqueado significa que la aplicación no está disponible para los alumnos.
@@ -337,10 +337,10 @@ Después de completar la configuración, habilite la aplicación para alumnos y 
 
 1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
 
-2. Seleccione **Teams de configuración** de aplicaciones &gt; **y** seleccione su directiva preferida.
-Si no está seguro de qué directiva usar, puede hacer referencia a [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) la documentación de administración de directivas de [Microsoft Teams](/microsoftteams/policy-packages-edu) o usar el Asistente para directivas educativas para configurar una directiva para Microsoft Teams.
+2. Seleccione **Teams de configuración** &gt; **de aplicaciones y** seleccione su directiva preferida.
+Si no está seguro de qué directiva usar, puede hacer referencia a la documentación de administración de directivas de [Microsoft Teams](/microsoftteams/policy-packages-edu) o usar [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) el Asistente para directivas educativas para configurar una directiva para Microsoft Teams.
 
-3. En Aplicaciones instaladas, seleccione **Agregar aplicaciones.**
+3. En Aplicaciones instaladas, seleccione **Agregar aplicaciones**.
 
 4. En el panel Agregar aplicaciones instaladas, busque las aplicaciones que desea instalar automáticamente para los usuarios cuando inicien Teams. También puede filtrar aplicaciones por directiva de permisos de aplicación. Cuando haya elegido la lista de aplicaciones, seleccione **Agregar**.
 
@@ -355,19 +355,19 @@ Anclar Asesor de carrera hará que la aplicación sea más accesible y visible p
 
 1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
 
-2. Seleccione **Teams de configuración** de aplicaciones &gt; **y** seleccione su directiva preferida.
-Si no está seguro de qué directiva usar, puede hacer referencia a [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) la documentación de administración de directivas de [Microsoft Teams](/microsoftteams/policy-packages-edu) o usar el Asistente para directivas educativas para configurar una directiva para Microsoft Teams.
+2. Seleccione **Teams de configuración** &gt; **de aplicaciones y** seleccione su directiva preferida.
+Si no está seguro de qué directiva usar, puede hacer referencia a la documentación de administración de directivas de [Microsoft Teams](/microsoftteams/policy-packages-edu) o usar [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) el Asistente para directivas educativas para configurar una directiva para Microsoft Teams.
 
-3. En **Aplicaciones ancladas,** elija **Agregar aplicaciones.**
+3. En **Aplicaciones ancladas**, elija **Agregar aplicaciones**.
 
-4. Busque **Asesor de carrera** y, a continuación, **seleccione Agregar**.
+4. Busque **Asesor de carrera y**, a continuación, **seleccione Agregar**.
 
-5. Elija el orden para que aparezca la aplicación y seleccione **Guardar.**
+5. Elija el orden para que aparezca la aplicación y seleccione **Guardar**.
 
 > [!NOTE]
 > Se notificará a los alumnos en Microsoft Teams que Asesor de carrera se ha anclado.
 
-Para obtener más información, haga referencia a Administrar directivas de configuración de [aplicaciones en Microsoft.](/microsoftteams/teams-app-setup-policies)
+Para [obtener más información, haga referencia a Administrar directivas de configuración de aplicaciones en Microsoft](/microsoftteams/teams-app-setup-policies) .
 
 ## <a name="career-coach-settings-status"></a>Asesor de carrera de configuración
 
@@ -396,7 +396,7 @@ La sección estado de configuración de la página de configuración de la aplic
 | Campos de estudio       | Completado                  | No se necesitan más acciones.                                   |
 
 > [!NOTE]
-> Una vez que todos los pasos se marquen como completados, la aplicación se puede publicar correctamente en el inquilino y asignar Asesor de carrera licencias. Para obtener instrucciones paso a paso, vea [Asignar licencias a usuarios.](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+> Una vez que todos los pasos se marquen como completados, la aplicación se puede publicar correctamente en el inquilino y asignar Asesor de carrera licencias. Para obtener instrucciones paso a paso, vea [Asignar licencias a los usuarios](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
 
 ### <a name="course-catalog-status"></a>Estado del catálogo del curso
 
@@ -421,7 +421,7 @@ El estado del catálogo del curso se muestra en la página Configuración del ca
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
-- Si ve "Asesor de carrera está configurado para que lo use pronto" en la aplicación Asesor de carrera, no se han completado las secciones __necesarias.__ Es necesario completar las siguientes secciones antes de que Asesor de carrera se puedan [usar:](#brand-and-preferences)Marca y __preferencias,__ Conexión [de LinkedIn,](#linkedin-connection)Catálogo del curso y [Campos de estudio.](#fields-of-study) [](#course-catalog)
+- Si ve "Asesor de carrera se está configurando para que lo use pronto" en la aplicación Asesor de carrera, no se han completado las secciones __necesarias__. Es necesario __completar las__ siguientes secciones antes de que Asesor de carrera se puedan [usar: Marca](#brand-and-preferences) y preferencias, conexión [de LinkedIn](#linkedin-connection)[, catálogo](#course-catalog) de cursos y [Campos de estudio](#fields-of-study).
 
 - Los CSV para el catálogo del curso y el campo de estudio tienen formatos necesarios y un tamaño máximo de 18 MB. Haga referencia al Asesor de carrera [del](#course-catalog-document-format-and-schema) catálogo de cursos y Asesor de carrera [campos de esquema](#fields-of-study-document-format-and-schema) de documento de estudio para garantizar una configuración adecuada.
 
@@ -433,15 +433,15 @@ El estado del catálogo del curso se muestra en la página Configuración del ca
 
 ## <a name="removing-your-tenant-data"></a>Quitar los datos del inquilino
 
-Los datos del inquilino incluyen información que se carga o se genera como parte de la configuración de la aplicación. Para eliminar todos los datos de un inquilino Asesor de carrera, [](https://edusupport.microsoft.com/support?product_id=career_coach) haga que el administrador global del inquilino abra un vale de soporte técnico solicitando que los datos del inquilino se eliminen permanentemente. Tenga en cuenta que este proceso no es reversible. Una vez completada la eliminación de datos, la aplicación Asesor de carrera volverá Asesor de carrera su estado preconfigurado no personalizado para todos los usuarios y un administrador de Teams tendrá que configurar la aplicación de nuevo para seguir usla.
+Los datos del inquilino incluyen información que se carga o se genera como parte de la configuración de la aplicación. Para eliminar todos los datos de un espacio empresarial Asesor de carrera, haga que el administrador global del inquilino abra [](https://edusupport.microsoft.com/support?product_id=career_coach) un vale de soporte técnico solicitando que los datos del inquilino se eliminen permanentemente. Tenga en cuenta que este proceso no es reversible. Una vez completada la eliminación de datos, la aplicación Asesor de carrera volverá Asesor de carrera su estado preconfigurado no personalizado para todos los usuarios y un administrador de Teams tendrá que configurar la aplicación de nuevo para seguir usla.
 
 A continuación se explica el proceso de eliminación:
 
-- Un vale de soporte técnico debe ser presentado por un administrador global de inquilinos que indique claramente la solicitud de eliminación permanente de los datos del inquilino. No se puede limitar el conjunto de datos **ni la ventana de tiempo de la eliminación.**
+- Un vale de soporte técnico debe ser presentado por un administrador global de inquilinos que indique claramente la solicitud de eliminación permanente de los datos del inquilino. **No se puede limitar el conjunto de datos ni la ventana de tiempo de la eliminación**.
 
 - Una vez que se haya presentado, el vale de soporte técnico se abordará después de una semana para cumplir con la directiva de retención mínima del cumplimiento. Puede cancelar la operación durante este tiempo.
 
-- Después de una semana, Asesor de carrera equipo garantiza que se eliminen todos los datos relacionados con el espacio empresarial. El soporte técnico de Microsoft supervisa el vale y le notificará una vez completado el proceso de eliminación, en **un no más de 30 días.**
+- Después de una semana, Asesor de carrera equipo garantiza que se eliminen todos los datos relacionados con el espacio empresarial. El soporte técnico de Microsoft supervisa el vale y le notificará una vez completado el proceso de eliminación, en **un tiempo no superior a 30 días**.
 
 
 ## <a name="resources"></a>Recursos

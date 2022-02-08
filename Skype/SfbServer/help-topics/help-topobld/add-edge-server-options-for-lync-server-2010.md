@@ -1,8 +1,8 @@
 ---
 title: Agregar opciones de servidor perimetral para Lync Server 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 'Defina un nuevo servidor perimetral o grupo de servidores perimetrales y se le ofrece la oportunidad de definir características para el nuevo servidor o grupo de servidores. Las opciones entre las que puede elegir son:'
-ms.openlocfilehash: 0c02e03a1e0e1a8c8455be48915f1c488f4d021f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 94d8986a1b5e7317e768de4cb54c84a5b0735a07
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845543"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385848"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Agregar opciones de servidor perimetral para Lync Server 2010
 
@@ -35,7 +35,7 @@ Defina un nuevo servidor perimetral o grupo de servidores perimetrales y se le o
 
 - NAT traduce la dirección IP externa de este grupo de servidores perimetrales: active esta casilla si usa direcciones **IP** privadas para las interfaces externas perimetrales y proporcionará un dispositivo de traducción de direcciones de red (NAT) para colocar el servidor perimetral o el grupo perimetral lógicamente detrás.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planeación del acceso de usuarios externos](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-external-user-access)
 

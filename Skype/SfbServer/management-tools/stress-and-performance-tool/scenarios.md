@@ -1,8 +1,8 @@
 ---
 title: Escenarios de rendimiento para la Skype Empresarial Server de esfuerzo y rendimiento de 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: Tareas que tendrás que hacer para configurar Skype Empresarial Server 2015 para realizar pruebas de carga y rendimiento con la Herramienta de esfuerzo y rendimiento.
-ms.openlocfilehash: 0a04d94bc0c43b9de2043b9ee601a294b7945a45
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3f8818018120a7230bcdaaa9b6cd04009e761640
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841112"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390062"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Escenarios de rendimiento para la Skype Empresarial Server de esfuerzo y rendimiento de 2015
  
 Tareas que tendrás que hacer para configurar Skype Empresarial Server 2015 para realizar pruebas de carga y rendimiento con la Herramienta de esfuerzo y rendimiento.
   
-Para ejecutar la herramienta de esfuerzo y rendimiento de Skype Empresarial Server 2015 (LyncPerfTool), la topología de Skype Empresarial Server 2015 primero debe configurarse para escenarios relevantes para usted. Si Skype Empresarial Server 2015 no está configurado o está configurado incorrectamente, es muy probable que la simulación de carga falle. Con la Skype Empresarial Server stress and performance tool de 2015, proporcionamos ejemplos de scripts del Shell de administración de Skype Empresarial Server y archivos de recursos básicos como parte de la descarga [de la herramienta](https://www.microsoft.com/download/details.aspx?id=50367). Estos se pueden usar como punto de partida para configurar la implementación Skype Empresarial Server implementación. En este artículo se describen los Windows PowerShell ejemplos proporcionados.
+Para ejecutar la herramienta de esfuerzo y rendimiento de Skype Empresarial Server 2015 (LyncPerfTool), la topología de Skype Empresarial Server 2015 primero debe configurarse para escenarios relevantes para usted. Si Skype Empresarial Server 2015 no está configurado o está configurado incorrectamente, es muy probable que la simulación de carga falle. Con la Skype Empresarial Server de esfuerzo y rendimiento de 2015, proporcionamos ejemplos de scripts del Shell de administración de Skype Empresarial Server y archivos de recursos básicos como parte de la descarga [de la herramienta](https://www.microsoft.com/download/details.aspx?id=50367). Estos se pueden usar como punto de partida para configurar la implementación Skype Empresarial Server implementación. En este artículo se describen los Windows PowerShell ejemplos proporcionados.
   
 > [!NOTE]
 > Este tema no le ayudará a describir cómo configurar Skype Empresarial Server 2015 en general, tenemos otros temas de planeación e implementación para ello. Para obtener más información sobre cómo Windows PowerShell en Skype Empresarial Server 2015, vea la documentación del Shell de administración Skype Empresarial Server en Insertar introducción AQUÍ. 
@@ -39,7 +39,7 @@ Proporcionamos scripts de PowerShell de ejemplo que puede usar para preparar las
   
 ## <a name="stress-and-performance-tool-client-version-names"></a>Nombres de versión de cliente de la herramienta de esfuerzo y rendimiento
 
-Es posible que deba configurar la directiva de comprobación de versiones de cliente si ha cambiado anteriormente la configuración de los valores predeterminados. Si no está seguro acerca de esto, consulte la documentación [de comprobación de versión de cliente](/previous-versions/office/lync-server-2013/lync-server-2013-view-client-version-policy-rules).
+Es posible que deba configurar la directiva de comprobación de versiones de cliente si ha cambiado anteriormente la configuración de los valores predeterminados. Si no está seguro de esto, consulte la documentación [de comprobación de versión de cliente](/previous-versions/office/lync-server-2013/lync-server-2013-view-client-version-policy-rules).
   
 La Herramienta de esfuerzo y rendimiento usa las siguientes versiones del agente de usuario de forma predeterminada al comunicarse con Skype Empresarial Server 2015:
   
