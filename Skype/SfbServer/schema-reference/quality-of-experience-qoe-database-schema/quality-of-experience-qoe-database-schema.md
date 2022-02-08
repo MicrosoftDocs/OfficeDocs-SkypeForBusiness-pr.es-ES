@@ -1,8 +1,8 @@
 ---
 title: Esquema de la base de datos de calidad de la experiencia (QoE)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 87b9c534-a1b1-48a6-bf51-cb232f5240c1
 description: Esto documenta el esquema de la base de datos de calidad de la experiencia (QoE) en Skype Empresarial Server 2015.
-ms.openlocfilehash: 481a8441ae089caae84e1f1abcf0273a3205a416
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 83e8fa665375a495246ded121d78e6f081ab520d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858067"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393602"
 ---
 # <a name="quality-of-experience-qoe-database-schema"></a>Esquema de la base de datos de calidad de la experiencia (QoE)
  

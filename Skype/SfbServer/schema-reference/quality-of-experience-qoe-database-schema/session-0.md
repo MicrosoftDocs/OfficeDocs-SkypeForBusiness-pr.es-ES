@@ -1,8 +1,8 @@
 ---
 title: Vista de sesión
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: La vista de sesión almacena información sobre las sesiones que tienen registros en la base de datos. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 80a275e047934bd60586c344b5487f2593fe48bb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: afcff6c5032c14dbcab525a0032804493bcb0216
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834918"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393582"
 ---
 # <a name="session-view"></a>Vista de sesión
  
@@ -29,7 +29,7 @@ La vista de sesión almacena información sobre las sesiones que tienen registro
 |ConferenceDateTime  <br/> |datetime  <br/> |Se obtiene de la tabla MediaLine.  <br/> |
 |ConferenceURI  <br/> |nvarchar(450)  <br/> |ConferenceURI, si se trata de una conferencia, o DialogID, si es una sesión punto a punto.  <br/> |
 |Correlation  <br/> |varchar(max)  <br/> |Id. de correlación de la sesión.  <br/> |
-|DialogCategory  <br/> |bit  <br/> |Categoría de cuadro de diálogo; 0 se Skype Empresarial Server al servidor de mediación; 1 es Servidor de mediación a puerta de enlace RTC.  <br/> |
+|DialogCategory  <br/> |bit  <br/> |Categoría de cuadro de diálogo; 0 se Skype Empresarial Server al servidor de mediación; 1 es Servidor de mediación a la puerta de enlace RTC.  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |Indica si la llamada se pasó o no.  <br/> |
 |MediaBypassWarningFlag  <br/> |Entero  <br/> |Este campo (si existe) indica por qué la llamada no se pasó, aun cuando los identificadores de omisión coincidían. Por Skype Empresarial Server, solo se define un valor:  <br/> 0x0001: identificador de desvío desconocido para el adaptador de red predeterminado  <br/> |
 |StartTime  <br/> |datetime  <br/> |Hora de inicio de la llamada.  <br/> |

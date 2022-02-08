@@ -1,8 +1,8 @@
 ---
 title: Implementar llamadas a través del trabajo en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Summary: Learn how to deploy Call Via Work in Skype Empresarial Server for some or all of your users.'
-ms.openlocfilehash: 932d94c13d4ba9ead63504cfba66175db52084d7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7ac3d09d81e602c108e1804ad837dd1c87d17e1b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851624"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393422"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Implementar llamadas a través del trabajo en Skype Empresarial Server
  
@@ -38,7 +38,7 @@ La llamada a través del trabajo usa la API web de comunicaciones unificadas (UC
     
 - Debe habilitar todos los usuarios de Llamadas a través del trabajo para Telefonía IP empresarial. Al hacerlo, debe configurar el número DID Skype Empresarial para cada usuario en el número DID correspondiente para el sistema telefónico PBX correspondiente. 
     
-- Todos los usuarios que van a  usar Llamar  a través del trabajo deben tener la configuración automática seleccionada en su opción Conexiones avanzadas en su Skype Empresarial cliente. Esto permite al cliente detectar las direcciones URL de UCWA. **Configuración automática** es la selección predeterminada.
+- Todos los usuarios que usarán La llamada a través del  trabajo deben tener la configuración  automática seleccionada en la opción Conexiones avanzadas de su Skype Empresarial cliente. Esto permite al cliente detectar las direcciones URL de UCWA. **Configuración automática** es la selección predeterminada.
     
 - Para cada usuario de Llamada a través del trabajo, habilite el reenvío de llamadas y la llamada simultánea. 
     
@@ -98,7 +98,7 @@ Una vez que se cumplan los requisitos previos, haga lo siguiente:
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
   ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Plan for Call Via Work in Skype Empresarial Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

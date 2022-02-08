@@ -1,8 +1,8 @@
 ---
 title: Administración de la configuración del grupo de respuesta a nivel de aplicación en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Administrar la configuración del grupo de respuesta a nivel de aplicación, como la música en espera y la configuración de llamada, en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 7ac6b9e03f8a738baa5bb41bac858da1ce057c8b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 05ff86de40efe4d75b9d7fcb54b50615ae7245a8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839672"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394312"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Administración de la configuración del grupo de respuesta a nivel de aplicación en Skype Empresarial
  
@@ -35,7 +35,7 @@ La música en espera predeterminada se reproduce cuando se pone una llamada en e
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
     
-2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
     
 3. En la línea de comandos, ejecute:
     
@@ -56,7 +56,7 @@ La música en espera predeterminada se reproduce cuando se pone una llamada en e
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -DefaultMusicOnHoldFile <$x>
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Get-CsRgsConfiguration](/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   

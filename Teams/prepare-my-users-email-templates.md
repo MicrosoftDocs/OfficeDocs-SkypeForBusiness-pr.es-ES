@@ -1,7 +1,7 @@
 ---
 title: Plantillas de correo electrónico de notificación de usuario para la implementación del sistema de teléfonos en línea
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 975097e9772fbb804f47ac984207d92ec39d46ed
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d709dbbf52746c5eb3a264f6423133ac26b3c744
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834788"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393478"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar la adopción por el usuario de su nuevo sistema telefónico en línea
 

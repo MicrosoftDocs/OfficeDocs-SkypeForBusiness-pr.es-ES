@@ -1,8 +1,8 @@
 ---
 title: Tabla VideoStream
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: Cada registro representa una secuencia de vídeo. Normalmente, una línea multimedia de vídeo contiene dos secuencias de vídeo.
-ms.openlocfilehash: 5e1b566db7ee3f79219835055d6e617beeea6da6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b6a67f6bc6c968e997882fb6406e7dc43d1ba7c4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863257"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393572"
 ---
 # <a name="videostream-table"></a>Tabla VideoStream
  
@@ -27,7 +27,7 @@ Cada registro representa una secuencia de vídeo. Normalmente, una línea multim
 |**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Principal  <br/> |Se hace referencia desde la [tabla MediaLine](medialine-0.md).  <br/> |
-|**SessionSeq** <br/> |Entero  <br/> |Principal  <br/> |R Al que se hace referencia desde [la tabla MediaLine](medialine-0.md).  <br/> |
+|**SessionSeq** <br/> |Entero  <br/> |Principal  <br/> |R al que se hace referencia desde la [tabla MediaLine](medialine-0.md).  <br/> |
 |**MediaLineLabel** <br/> |tinyint  <br/> |Principal  <br/> |Se hace referencia desde la [tabla MediaLine](medialine-0.md).  <br/> |
 |**StreamID** <br/> |Entero  <br/> |Principal  <br/> |Identificador único de una línea de medios.  <br/> |
 |**VideoPayloadDescription** <br/> |smallint  <br/> |Externa, principal  <br/> |Descripción de la carga útil. Consulta la [tabla PayloadDescription](payloaddescription.md) para obtener más información. <br/> |

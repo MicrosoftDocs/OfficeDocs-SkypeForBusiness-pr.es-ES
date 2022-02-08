@@ -1,7 +1,7 @@
 ---
 title: Administrar el acceso basado en turnos para los trabajadores de primera línea en Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aaku
 manager: serdars
 ms.topic: article
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01ef7d91b0119501a3f7570b85ea902c0ebbb7a4
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: d177ac362b7b8c0d1f91be5322fb49696a5cc9b7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180883"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393492"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Administrar el acceso basado en turnos para los trabajadores de primera línea en Teams
 ## <a name="overview"></a>Información general
@@ -29,7 +29,7 @@ ms.locfileid: "62180883"
 
 La presencia en Microsoft Teams indica la disponibilidad y el estado actuales de un usuario a otros usuarios. La presencia de los trabajadores de primera línea suele ser menos predecible que el resto del personal, ya que su horario laboral normalmente no es el mismo cada día. Como administrador, puede configurar Teams para mostrar un conjunto de estados de presencia basados en turnos para que los trabajadores de la primera línea de su organización indiquen cuándo están en o fuera del turno.
 
-Esta presencia basada en turnos indica &mdash; ![ Marca de verificación verde sólida, indica En turno.](../../media/flw-presence-on-shift.png) **En mayús,** ![ círculo gris con x, indica Desactivado mayús.](../../media/flw-presence-off-shift.png) **Off shift**, Círculo rojo sólido, indica que Ocupado está separado del conjunto predeterminado de estados de ![ presencia en ](../../media/flw-presence-busy.png)  &mdash; Teams. [](../../presence-admins.md) Con estos dos conjuntos de estados de presencia, puede configurar experiencias diferentes para los usuarios de su organización en función de su rol.
+Estos estados de presencia basados en turnosSolid&mdash;![ marca de verificación verde, indica En turno.](../../media/flw-presence-on-shift.png) **En turno**, Círculo ![gris con x, indica Desactivar turno.](../../media/flw-presence-off-shift.png) **Desactivado turno**, ![círculo rojo sólido, indica que **Ocupados**&mdash;](../../media/flw-presence-busy.png) son independientes del [conjunto predeterminado](../../presence-admins.md) de estados de presencia en Teams. Con estos dos conjuntos de estados de presencia, puede configurar experiencias diferentes para los usuarios de su organización en función de su rol.
 
 Con el acceso basado en turnos, puede administrar el acceso a Teams cuando los trabajadores de primera línea están fuera del turno. Por ejemplo, puede establecer Teams mostrar un mensaje que los trabajadores de primera línea deben reconocer antes de que puedan usar Teams cuando no están en un turno programado.  
 
@@ -37,7 +37,7 @@ Con el acceso basado en turnos, puede administrar el acceso a Teams cuando los t
 
 Este es un ejemplo de cómo su organización puede administrar el acceso basado en turnos.
 
-Tiene trabajadores de primera línea en su organización a los que solo se les debe pagar por horas que trabajan en un turno que su jefe programó y aprobó. No se les debe pagar por el tiempo invertido trabajando fuera de un turno programado, lo que incluye el uso de la Teams aplicación. Configure un mensaje personalizado que diga "Su tiempo en Teams cuando está fuera del turno no contará para las horas por pagar", que se muestra cuando los trabajadores de primera línea intentan acceder Teams cuando están fuera del turno. Si deciden usar Teams, hacen clic en **Acepto** con la idea de que no se les pagará por este tiempo.
+Tiene trabajadores de primera línea en su organización a los que solo se les debe pagar por horas que trabajan en un turno que su jefe programó y aprobó. No se les debe pagar por el tiempo invertido trabajando fuera de un turno programado, lo que incluye el uso de la Teams aplicación. Configure un mensaje personalizado que diga "Su tiempo en Teams cuando está fuera del turno no contará para las horas por pagar", que se muestra cuando los trabajadores de primera línea intentan acceder Teams cuando están fuera del turno. Si deciden usar Teams, hacen clic en Acepto con el  entendimiento de que no se les pagará por este tiempo.
 
 También tiene trabajadores de la información de su organización que tienen salarios y que no trabajan por turnos. Configure a los trabajadores de la información para que usen los estados de presencia predeterminados en Teams mientras proporciona a los trabajadores de primera línea presencia basada en turnos.
 
@@ -73,7 +73,7 @@ Como administrador, usa directivas para controlar la presencia basada en turnos 
 
 Use el cmdlet New-CsTeamsShiftsPolicy para crear una nueva directiva, establezca la configuración de directiva que desee y, a continuación, use el cmdlet Grant-CsTeamsShiftsPolicy para asignar la directiva a los usuarios.
 
-Por ejemplo: Para obtener información detallada sobre cada parámetro y configuración de directiva, incluida la lista de mensajes de turnos desactivados predefinidos que puede elegir, vea [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy).
+Por ejemplo: Para obtener información detallada sobre cada configuración de directiva y parámetro, incluida la lista de mensajes de turno desactivado predefinidos entre los que puede elegir, vea [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### <a name="example-1"></a>Ejemplo 1
 

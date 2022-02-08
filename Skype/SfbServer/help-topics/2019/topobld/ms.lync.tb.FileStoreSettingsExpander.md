@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración de almacén de archivos
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar las propiedades de los almacenes de archivos definidos:'
-ms.openlocfilehash: 4fc73358ebb2737ad22f4dd2eb5d13a6178999bf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 20a009d16fb196376f73c47f0fe9908c42809a23
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860637"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394172"
 ---
 # <a name="file-store-settings-expander"></a>Expansor de configuración de almacén de archivos
  

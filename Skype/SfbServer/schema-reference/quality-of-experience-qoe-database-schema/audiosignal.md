@@ -1,8 +1,8 @@
 ---
 title: Tabla AudioSignal
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: Cada registro representa métricas de señal de audio para un punto de conexión. Normalmente, cada llamada tiene dos registros, uno es para el autor de la llamada y otro para el destinatario de la llamada.
-ms.openlocfilehash: ee9029992e925fd43cc55da85bc4a7c127793e54
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bef2193d948064f5feef8f5bc2f73630ca864f47
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843603"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393652"
 ---
 # <a name="audiosignal-table"></a>Tabla AudioSignal
  

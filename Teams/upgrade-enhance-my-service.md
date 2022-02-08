@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams requisitos | Mejorar el servicio
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13389c55cc35d9ffe1555f2f28c9f225e6eed4ee
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ed54d4498f02f57131e6665291a6ffa7416722a9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841992"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393463"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>Sacar el máximo partido de Teams después de actualizar
 

@@ -1,8 +1,8 @@
 ---
 title: Filtro de archivo
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6178d9e5-a919-4a7d-9633-d5f155556306
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 3e617384b6f81b1068011b5c26791d8238c2186b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 628d97cb789889bca030a69f9ec15a7bf6630573
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833806"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394242"
 ---
 # <a name="file-filter"></a>Filtro de archivo
 
