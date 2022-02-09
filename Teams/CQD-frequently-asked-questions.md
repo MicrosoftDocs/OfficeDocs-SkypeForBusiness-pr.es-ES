@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Lea las preguntas más frecuentes (PREGUNTAS FRECUENTES) y las respuestas Microsoft Teams panel de calidad de llamadas (CQD).
-ms.openlocfilehash: 81c6478147e0959ca97b67ee0f01632478c0eb38
-ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
+ms.openlocfilehash: bd36fe70d46a190289749a96fbaadb8f6c176251
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61401904"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457180"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Preguntas más frecuentes (PREGUNTAS FRECUENTES) del Panel de calidad de llamadas (CQD)
 
@@ -50,9 +50,9 @@ ms.locfileid: "61401904"
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>¿Por qué CQD marca una llamada como "Buena" si uno o varios participantes de la reunión tuvieron una mala experiencia?
 
-Consulte las reglas que CQD usa para la [clasificación de transmisiones.](stream-classification-in-call-quality-dashboard.md)
+Consulte las reglas que CQD usa para la [clasificación de transmisiones](stream-classification-in-call-quality-dashboard.md).
  
-Para las transmisiones de audio, cualquiera de los cinco clasificadores, que se calculan para el promedio según la longitud de la llamada, podría estar dentro de los parámetros "buenos". Esto no significa que los usuarios no experimentaron algo que contribuyese a una deserción de audio, estática o problemas. 
+Para las transmisiones de audio, cualquiera de los cinco clasificadores (que se calculan para el promedio según la longitud de la llamada) podría estar dentro de parámetros "buenos". Esto no significa que los usuarios no experimentaron algo que contribuyese a una deserción de audio, estática o problemas. 
 
 Para determinar si se trataba de un problema de red, mire el delta entre los valores medios de la sesión y los valores máximos. Los valores máximos son el máximo detectado e notificado durante la sesión.
  
@@ -61,22 +61,22 @@ Este es un ejemplo de cómo solucionar esta situación. Supongamos que hace un s
 Si las métricas de red tienen un buen aspecto en los promedios y los valores máximos, busque otros datos de telemetría: 
 - Compruebe la relación de eventos insuficiente de la CPU para ver si los recursos de CPU detectados disponibles eran insuficientes y causaban mala calidad. 
 - ¿Estaba el dispositivo de audio en modo semidúplex para evitar comentarios debido a micrófonos que están demasiado cerca de los altavoces? 
-- Compruebe la relación de eventos AEC a doble cara del dispositivo. ¿El dispositivo presentaba problemas de error o el micrófono presentaba problemas al introducir ruido o estático debido a las salidas de audio USB cuando se conectaba a un hub o base de acoplamiento?  
+- Compruebe la relación de eventos AEC a doble cara del dispositivo. ¿Se ha presentado un problema de un dispositivo, como un micrófono, al introducir ruido o estático debido a las deserciones de audio USB cuando se conecta a un hub o base de acoplamiento?  
 - Compruebe las relaciones de eventos Problemas del dispositivo y Micrófono. ¿Funcionaba el propio dispositivo correctamente?  
 - Compruebe las relaciones de eventos de captura y representación del dispositivo que no funcionan.
 
 
-Para obtener más información sobre las dimensiones y medidas disponibles en telemetría CQD, lea Dimensiones y [medidas disponibles en Panel](dimensions-and-measures-available-in-call-quality-dashboard.md)de calidad de llamadas.
+Para obtener más información sobre las dimensiones y medidas disponibles en telemetría CQD, lea Dimensiones y [medidas disponibles en Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 Para el ruido de fondo, compruebe la relación del evento de silenciamiento para ver la duración del tiempo que los participantes se silenciaron.
  
 Cree informes detallados en CQD y filtre en Id. de reunión para ver todos los usuarios y transmisiones de una reunión y agregar los campos que le interesan. Es posible que un usuario que informe del problema no sea el que estaba teniendo el problema. Solo están informando de la experiencia.
  
-La telemetría no necesariamente resolverá el problema, pero puede ayudarle a comprender mejor dónde buscar e informar a sus decisiones. ¿Es la red, el dispositivo, el controlador o las actualizaciones de firmware, el uso o el usuario?
+La telemetría no necesariamente llamará al problema, pero puede ayudarle a comprender mejor dónde buscar e informar a sus decisiones. ¿Es la red, el dispositivo, el controlador o las actualizaciones de firmware, el uso o el usuario?
 
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>¿Por qué veo hasta un 0,2 % de diferencia en los valores de llamadas y recuento de usuarios en las medidas y cómo obtener volúmenes más precisos? 
 
-Para calcular las medidas de recuento de llamadas y recuento de usuarios, se realiza una operación countif distinta con los identificadores de llamada o de usuario del conjunto de datos. En conjuntos de datos grandes, hay un error de hasta un 0,2 % inherente a la operación countif distinta. Para obtener el volumen más preciso, debe basarse en las medidas de recuento de transmisiones, ya que no se basan en esta operación countif distinta. Filtrar para reducir el volumen de datos puede reducir el error, pero no puede eliminar esta fuente de error en diferentes recuentos de llamadas y usuarios. Consulte [Dimensiones y medidas disponibles en el Panel de calidad](dimensions-and-measures-available-in-call-quality-dashboard.md) de llamadas para qué medidas se ven afectadas.
+Para calcular las medidas de recuento de llamadas y recuento de usuarios, se realiza una operación countif distinta con los identificadores de llamada o de usuario del conjunto de datos. En conjuntos de datos grandes, hay un error de hasta un 0,2 % inherente a la operación countif distinta. Para obtener el volumen más preciso, debe basarse en las medidas de recuento de transmisiones, ya que no dependen de esta operación countif distinta. Filtrar para reducir el volumen de datos puede reducir el error, pero no puede eliminar esta fuente de error en diferentes recuentos de llamadas y usuarios. Consulte [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md) para qué medidas se ven afectadas.
 
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>¿Por qué no puedo ver EUII en CQD?
@@ -86,19 +86,19 @@ Estos roles de administrador pueden obtener acceso a CQD, pero no pueden ver EUI
 - Microsoft 365 de informes
 - Teams de soporte técnico de comunicaciones
 
-Para obtener más información sobre los roles que pueden tener acceso a CQD ,incluido EUII, lea Asignar roles para obtener acceso [a CQD.](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
+Para obtener más información sobre los roles que pueden tener acceso a CQD ,incluido EUII, lea Asignar [roles para obtener acceso a CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 ### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>Estoy intentando usar CQD para informes de tipo de uso y encuentro que algunos de los datos están incompletos, ¿por qué es eso?
 
-Las herramientas de administración de calidad de llamadas como CQD, Call Analytics, CallRecord Graph API y Análisis en tiempo real se basan en telemetría de diagnóstico. La información que mostramos en Teams de administración de calidad de llamadas es tan completa como los datos de telemetría que recibimos de los clientes que participan en una llamada. Hay varias razones por las que es posible que no recibamos telemetría completa, como interrupciones de red, [o configuraciones incorrectas](/microsoft-365/enterprise/urls-and-ip-address-ranges.md)de firewall o proxy. Seguimos trabajando para mejorar la confiabilidad y resistencia con la que Teams clientes entregan telemetría al servicio.
+Las herramientas de administración de calidad de llamadas como CQD, Call Analytics, CallRecord Graph API y Análisis en tiempo real se basan en telemetría de diagnóstico. La información que mostramos en Teams de administración de calidad de llamadas es tan completa como los datos de telemetría que recibimos de los clientes que participan en una llamada. Hay varias razones por las que es posible que no recibamos telemetría completa, como interrupciones de red, [o configuraciones incorrectas de firewall o proxy](/microsoft-365/enterprise/urls-and-ip-address-ranges.md). Seguimos trabajando para mejorar la confiabilidad y resistencia con la que Teams clientes entregan telemetría al servicio.
 
-Con esto en mente, recomendamos no depender de las herramientas de administración de calidad de llamadas para informes de uso. Teams centro de administración ofrece una serie de informes de uso [y](teams-analytics-and-reports/teams-reporting-reference.md)un informe de asistencia [a](teams-analytics-and-reports/meeting-attendance-report.md) reuniones está disponible directamente desde Teams cliente.
+Con esto en mente, no se admite el uso de herramientas de administración de calidad de llamadas para informes de uso. No están diseñados para adaptarse a estos tipos de escenarios de informes ni están diseñados para este tipo de escenarios, y muchas estadísticas de uso no están ni estarán disponibles en estas herramientas. Teams centro de administración ofrece una serie de informes de [uso y un](teams-analytics-and-reports/teams-reporting-reference.md) informe de [asistencia a reuniones](teams-analytics-and-reports/meeting-attendance-report.md) está disponible directamente desde Teams cliente.
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>¿Por qué veo Skype Empresarial en CQD cuando he filtrado para Teams solo?
 
-Al filtrar por Teams solo en informes CQD (isTeams = 1), está  filtrando para todas las llamadas en las que se encuentra el primer punto de conexión Teams. Si el *segundo punto de* conexión Skype Empresarial, esa información se mostrará en el informe CQD. Según los escenarios de los clientes, CQD puede incluir Skype Empresarial Server llamadas de 2019 cuando [el](/skypeforbusiness/hybrid/plan-call-data-connector.md) conector de datos de llamada está configurado. También puede incluir llamadas Skype Bot (AA, CVI, VDI), Live Events y llamadas RTC.
+Al filtrar por Teams solo en informes CQD (isTeams = 1), está filtrando para todas las llamadas en las que el primer punto  de conexión Teams. Si el *segundo punto de* conexión Skype Empresarial, esa información se mostrará en el informe CQD. Según los escenarios de los clientes, CQD puede incluir Skype Empresarial Server llamadas de 2019 cuando [el](/skypeforbusiness/hybrid/plan-call-data-connector.md) conector de datos de llamada está configurado. También puede incluir llamadas Skype Bot (AA, CVI, VDI), Live Events y llamadas RTC.
 
-Es posible quitar información Skype Empresarial de las consultas filtrando en dimensiones  como Primera categoría de agente de usuario y Segunda categoría *de agente de usuario.* También puede usar el par *de categorías agente de usuario* que combina las dimensiones Primera y Segunda en un único filtro.
+Es posible quitar información Skype Empresarial de las consultas filtrando en dimensiones como Primera categoría de agente de usuario y Segunda categoría  *de agente de usuario*. También puede usar el par *de categorías agente de usuario* que combina las dimensiones Primera y Segunda en un único filtro.
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>¿Por qué mis informes personalizados solo devuelven un máximo de 10 000 filas cuando sé que debería haber más entradas?
 

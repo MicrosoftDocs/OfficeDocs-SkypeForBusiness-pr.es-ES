@@ -1,8 +1,8 @@
 ---
 title: Bloquear o desbloquear un PIN de usuario en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 'Resumen: bloquear o desbloquear el PIN de conferencia de acceso telefónico local de un usuario para Skype Empresarial Server.'
-ms.openlocfilehash: 1ae1deea84b099852decd9acbc6315049484b0b3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6f09886b9f8a3e95317c19e1cd509cc8f1abd1d7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848604"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410903"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Bloquear o desbloquear un PIN de usuario en Skype Empresarial Server
  
 **Resumen:** Bloquear o desbloquear el PIN de conferencia de acceso telefónico local de un usuario para Skype Empresarial Server.
   
-Puedes bloquear o desbloquear el PIN de un usuario desde la **sección Usuarios** de Skype Empresarial Server Panel de control.
+Puedes bloquear o desbloquear el PIN de un usuario desde la sección **Usuarios** de Skype Empresarial Server Panel de control.
   
 ### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>Para bloquear el PIN de un usuario en Skype Empresarial Server Panel de control
 
@@ -108,4 +108,4 @@ Puede bloquear y desbloquear los PIN de usuario mediante Windows PowerShell y lo
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
-Para obtener más información, vea el tema de ayuda para los [cmdlets Lock-CsClientPin](/powershell/module/skype/lock-csclientpin?view=skype-ps) y [Unlock-CsClientPin.](/powershell/module/skype/unlock-csclientpin?view=skype-ps)
+Para obtener más información, vea el tema de ayuda para los [cmdlets Lock-CsClientPin](/powershell/module/skype/lock-csclientpin?view=skype-ps) y [Unlock-CsClientPin](/powershell/module/skype/unlock-csclientpin?view=skype-ps) .

@@ -1,8 +1,8 @@
 ---
 title: Administrar opciones de archivado en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: 'Resumen: obtenga información sobre cómo configurar las opciones de archivado para Skype Empresarial Server.'
-ms.openlocfilehash: d382cd829a9db8472df286580f6bd5d4b3baf036
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e3e8ab30a3abc10104a23a12b9bc5b75829c32a0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856777"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411673"
 ---
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>Administrar opciones de archivado en Skype Empresarial Server
 
@@ -55,11 +55,11 @@ Puede configurar las opciones de archivado mediante el Panel de control de la si
     
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
     
-3. En la barra de navegación izquierda, haga clic **en Configuración de archivado.**
+3. En la barra de navegación izquierda, haga clic **en Configuración de archivado**.
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>Configure las opciones de archivado mediante Windows PowerShell
 
-También puede configurar las opciones de archivado mediante los cmdlets Windows PowerShell que se enumeran en la tabla siguiente. Para obtener información detallada acerca de la sintaxis, incluidos todos los parámetros disponibles, [vea Skype Empresarial Server Shell de administración](../management-shell.md).
+También puede configurar las opciones de archivado mediante los cmdlets Windows PowerShell que se enumeran en la tabla siguiente. Para obtener información detallada acerca de la sintaxis, incluidos todos los parámetros disponibles, [consulte Skype Empresarial Server Shell de administración](../management-shell.md).
   
 
 |**Cmdlet**|**Descripción**|

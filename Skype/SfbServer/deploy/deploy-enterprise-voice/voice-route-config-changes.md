@@ -1,8 +1,8 @@
 ---
 title: Publicar cambios pendientes en la configuración de enrutamiento de voz en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: 'Resumen: obtenga información sobre cómo revisar, publicar o cancelar los cambios de configuración de enrutamiento de voz en Skype Empresarial Server mediante el Panel de control Skype Empresarial Server voz.'
-ms.openlocfilehash: e0ffa60557623eb217f7f43a61cad7b2e0923c77
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 278bc5820ba35580232bb3ef3d73bf9e23c640a2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856287"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418203"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Publicar cambios pendientes en la configuración de enrutamiento de voz en Skype Empresarial
  
@@ -36,7 +36,7 @@ Después de realizar algún cambio en cualquiera de las opciones de configuraci�
 > Todos los cambios pendientes deben publicarse al mismo tiempo, ejecutando el comando **Confirmar todo**. No se pueden publicar los cambios pendientes de forma selectiva. Antes de publicar los cambios pendientes, ejecute el comando **Revisar cambios sin confirmar** y cancele los cambios de configuración que no desee publicar.
   
 > [!NOTE]
-> Si sale de las páginas del grupo **Enrutamiento de voz** antes de confirmar los cambios pendientes, se perderán todos los cambios pendientes. Sin embargo, puede exportar la configuración actual (incluidos los cambios pendientes) a un archivo de configuración de voz y, a continuación, importar y publicar la configuración actualizada. Para obtener más información, [vea Exportar o importar un archivo de configuración](voice-route-configuration-import-export.md)de ruta de voz en Skype Empresarial . 
+> Si sale de las páginas del grupo **Enrutamiento de voz** antes de confirmar los cambios pendientes, se perderán todos los cambios pendientes. Sin embargo, puede exportar la configuración actual (incluidos los cambios pendientes) a un archivo de configuración de voz y, a continuación, importar y publicar la configuración actualizada. Para obtener más información, vea [Exportar o importar un archivo de configuración de ruta de voz en Skype Empresarial](voice-route-configuration-import-export.md). 
   
 ### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>Para revisar, publicar o cancelar cambios de configuración de enrutamiento de voz
 
@@ -60,6 +60,6 @@ Después de realizar algún cambio en cualquiera de las opciones de configuraci�
     
 8. En el cuadro de diálogo **Configuración de voz no confirmada**, que muestra una lista de todos los cambios pendientes, haga clic en **Aceptar**. 
     
-    Cuando Skype Empresarial Server panel de control ha confirmado los cambios, aparece el **mensaje de** configuración de enrutamiento de voz publicado correctamente.
+    Cuando Skype Empresarial Server panel de control ha confirmado los cambios, aparece el mensaje **de configuración de** enrutamiento de voz publicado correctamente.
     
 

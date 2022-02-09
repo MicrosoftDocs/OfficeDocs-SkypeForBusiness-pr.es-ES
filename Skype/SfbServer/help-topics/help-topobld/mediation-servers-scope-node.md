@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito de servidores de mediación
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 description: 'El nodo Grupos de servidores de mediación contiene los nodos de mediación de la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 2385da68e33c0f0adebbcc8b352e7d2496fb12c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 20833cad697f8988aa20e1492ba77bffce571799
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839982"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411743"
 ---
 # <a name="mediation-servers-scope-node"></a>Nodo de ámbito de servidores de mediación
  

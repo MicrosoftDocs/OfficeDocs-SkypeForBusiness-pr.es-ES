@@ -8,8 +8,13 @@ ms.service: msteams
 ms.author: serdars
 audience: admin
 manager: serdars
+ms.openlocfilehash: 4af245f7a3bcd9b00c192a0d616266b60200c002
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411453"
 ---
-
 # <a name="teams-sessions-at-ignite-2020"></a>Teams sesiones en Ignite 2020
 
  Vea estas sesiones para obtener las últimas Teams noticias, anuncios y contenido de aptitudes técnicas de Digital Ignite 2020.  

@@ -1,7 +1,7 @@
 ---
 title: Crear una plantilla de equipo personalizada en Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7bb0805705797587f9475fe7a6ee759165e884b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1fa114e6bc15ff8aeb6d0e75dcb6c0c45871b436
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864487"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399554"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Crear una plantilla de equipo personalizada en Microsoft Teams
 
@@ -38,24 +38,24 @@ Para empezar:
 
 1. Inicie la sesión en el Centro de administración de Teams
 
-2. En el panel de navegación izquierdo, expanda **Teams**  >  **plantillas de equipo.**
+2. En el panel de navegación izquierdo, **expanda Teams** >  **Plantillas de equipo**.
 
 3. Seleccione **Agregar**.
 
     ![Imagen del cuadro de diálogo Plantillas de equipo con Agregar resaltado.](media/team-templates-new.png)
 
-4. En la **sección Plantillas de** equipo, seleccione Crear una plantilla **nueva.**
+4. En la **sección Plantillas de** equipo, seleccione **Crear una plantilla nueva**.
 
-5. En la **sección Configuración de** plantilla, complete los siguientes campos y, a continuación, seleccione **Siguiente:**
+5. En la **sección Configuración de** plantilla, complete los campos siguientes y, a continuación, seleccione **Siguiente**:
     - Nombre de plantilla
     - Descripciones cortas y largas de la plantilla
     - Visibilidad de configuración regional  
 
     ![Imagen del cuadro de diálogo de nomenclatura De configuración de plantillas de equipo.](media/template-add-a-name.png)
 
-6. En la **sección canales, pestañas** y aplicaciones, agregue los canales y aplicaciones que necesite su equipo.
+6. En la **sección canales, pestañas y aplicaciones** , agregue los canales y aplicaciones que necesite su equipo.
 
-    1. En la **sección Canales,** seleccione **Agregar**.
+    1. En la **sección Canales** , seleccione **Agregar**.
     2. En el **cuadro de** diálogo Agregar, asigne un nombre al canal.
     3. Agregue una descripción.
     4. Decida si el canal debe mostrarse de forma predeterminada.
@@ -82,9 +82,9 @@ Para empezar:
 
 1. Cree una nueva plantilla de equipo o edite una plantilla de equipo existente.
 
-2. En la sección Canales, agregue un nuevo canal o seleccione un canal existente y seleccione **Editar.**
+2. En la sección Canales, agregue un nuevo canal o seleccione un canal existente y seleccione **Editar**.
 
-3. En la **sección Agregar una aplicación para esta plantilla,** agregue una aplicación sitio web.
+3. En la **sección Agregar una aplicación para esta plantilla** , agregue una aplicación sitio web.
 
     ![agregar una aplicación para esta opción de plantilla.](media/add-an-app-template.png)
 
@@ -96,17 +96,17 @@ Para empezar:
 
 ## <a name="known-issues"></a>Problemas conocidos
 
-**Problema:** Si ha creado un equipo a partir de una plantilla personalizada que contenía pestañas personalizadas adicionales, es posible que vea pestañas en blanco en lugar de las aplicaciones de pestaña personalizadas. Las pestañas predeterminadas (como **Publicaciones,** **Archivos** y **Wiki)** aparecerán según lo esperado.
+**Problema**: Si ha creado un equipo a partir de una plantilla personalizada que contenía pestañas personalizadas adicionales, es posible que vea pestañas en blanco en lugar de las aplicaciones de pestaña personalizadas. Las pestañas predeterminadas (como **Publicaciones**, **Archivos** y **Wiki**) aparecerán según lo esperado.
 
-**Solución:** Para solucionar este problema, quite la pestaña personalizada y agregue una nueva pestaña con la misma aplicación. Si no tiene permisos para quitar la pestaña personalizada y agregar una nueva pestaña, póngase en contacto con el propietario del equipo para obtener ayuda.
+**Solución**: Para solucionar este problema, quite la pestaña personalizada y agregue una nueva pestaña con la misma aplicación. Si no tiene permisos para quitar la pestaña personalizada y agregar una nueva pestaña, póngase en contacto con el propietario del equipo para obtener ayuda.
 
 Actualmente estamos trabajando en una corrección para futuros equipos creados a partir de plantillas personalizadas.
 
-**Problema:** Al usar Teams en el explorador, algunos sitios web no admiten que se represente dentro de una Teams pestaña.
+**Problema**: Al usar Teams en el explorador, algunos sitios web no admiten que se represente dentro de una Teams pestaña.
 
 ![mensaje de error del explorador.](media/browser-error-message.png)
 
-**Solución:** Si tiene problemas para ver el contenido de la pestaña del sitio web, se le redirigirá a abrir la pestaña en una página web independiente o a abrir Teams en la aplicación de escritorio en su lugar para ver la aplicación de pestaña del sitio web.
+**Solución**: Si tiene problemas para ver el contenido de la pestaña del sitio web, se le redirigirá a abrir la pestaña en una página web independiente o a abrir Teams en la aplicación de escritorio para ver la aplicación de pestaña del sitio web.
 
 ## <a name="related-topics"></a>Temas relacionados
 

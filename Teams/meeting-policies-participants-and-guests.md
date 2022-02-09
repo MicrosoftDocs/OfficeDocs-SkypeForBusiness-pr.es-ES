@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo administrar la configuración de la directiva de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: bd8146ce27f76bd03d7ef991f51dbe1dda3c08ab
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: ac77ab8b032fa792b0b137c84679912768e3b1b6
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563126"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457380"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -70,7 +70,7 @@ Esta es una directiva por organizador. Esta configuración controla si los usuar
 |**Solo usuarios invitados**    |Solo los usuarios invitados y los organizadores de la reunión pueden unirse a la reunión directamente sin esperar en la sala de espera. Todos los demás, incluidos los usuarios autenticados de la organización, los usuarios invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la Teams opciones de reunión del cliente, aparece como "Personas a las que invito". Los usuarios agregados como parte de un grupo de distribución tendrán que pasar por la sala de espera.      |
 
  > [!NOTE]
-> Las organizaciones de confianza son dominios con los que permite las comunicaciones federadas en Teams. Si habilita **Permitir todos los** dominios externos para el acceso externo en el centro de administración de Teams, cualquier usuario autenticado dentro de cualquier Teams organización será de confianza. Si elige especificar dominios externos permitidos y bloquear todos los demás, los dominios permitidos se convertirán en organizaciones de confianza. Cualquier dominio bloqueado se considera que no es una organización de confianza.
+> Las organizaciones de confianza son dominios con los que permite las comunicaciones federadas en Teams. Si habilita **Permitir** todos los dominios externos para el acceso externo en el centro de administración de Teams, cualquier usuario autenticado dentro de cualquier Teams organización será de confianza. Si elige especificar dominios externos permitidos y bloquear todos los demás, los dominios permitidos se convertirán en organizaciones de confianza. Cualquier dominio bloqueado se considera que no es una organización de confianza.
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de espera
 
@@ -96,11 +96,17 @@ Esta configuración es una directiva por usuario y se aplica durante una reunió
 
 Esta configuración es una configuración por participante. Esta configuración controla si se permite el chat de reunión en la reunión del usuario.
 
+|Valor de configuración |Comportamiento  |
+|---------|---------|
+|**Activarlo para todos los usuarios**     | Todos los participantes pueden escribir y ver mensajes de chat. |
+|**Desactivarla para todos los usuarios**     | El chat de la reunión está desactivado para todos los participantes.  |
+|**Activarlo para todos los usuarios menos para usuarios anónimos**| Los usuarios anónimos no pueden chatear durante las reuniones, pero pueden leer mensajes. |
+
 <a name="bkparticipantsandguests"> </a>
 
 ## <a name="enable-meeting-policy-settings"></a>Habilitar la configuración de directiva de reunión
 
-Para habilitar la configuración de directiva de reunión, puede usar el centro de administración de [Teams](https://admin.teams.microsoft.com/policies/meetings) **(Directivas** de reunión Editar una directiva  >    >  **Participantes & invitados)** o el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) en Teams PowerShell. 
+Para habilitar la configuración de la directiva de reunión, puede usar el centro de administración de [Teams](https://admin.teams.microsoft.com/policies/meetings) **(** > Directivas de **reuniónEditar** >  una **directivaParticipantes & invitados**) o el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) en Teams PowerShell. 
 
 En este ejemplo, usamos PowerShell para modificar la directiva global de reunión para permitir que cualquier persona pueda iniciar o unirse a una reunión.
 

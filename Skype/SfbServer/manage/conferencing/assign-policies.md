@@ -1,8 +1,8 @@
 ---
 title: Asignar directivas de conferencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: 'Resumen: obtenga información sobre cómo asignar directivas de conferencia en Skype Empresarial Server.'
-ms.openlocfilehash: 27ebe61329a77b81730bea2bdfe59235560c569a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fe8483abe2a581668b5f5463f588b051e40c7771
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835358"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399744"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Asignar directivas de conferencia en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo asignar directivas de conferencia en Skype Empresarial Server.
   
-Puede asignar directivas de conferencia a los usuarios mediante Skype Empresarial Server Shell de administración y el cmdlet **Grant-CsConferencingPolicy.**
+Puede asignar directivas de conferencia a los usuarios mediante Skype Empresarial Server Shell de administración y el cmdlet **Grant-CsConferencingPolicy**.
   
 ## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Asignar directivas de conferencia mediante Skype Empresarial Server Shell de administración
 
@@ -39,4 +39,4 @@ En el siguiente ejemplo, la directiva de conferencia FinanceConferencingPolicy s
 Get-CsUser -OU "ou=Finance,dc=litwareinc,dc=com" | Grant-CsConferencingPolicy -PolicyName FinanceConferencingPolicy
 ```
 
-Para obtener más información, incluida la sintaxis completa y una lista de parámetros, [vea Grant-CsConferencingPolicy](/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps).
+Para obtener más información, incluida la sintaxis completa y una lista de parámetros, vea [Grant-CsConferencingPolicy](/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps).

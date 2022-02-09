@@ -5,8 +5,8 @@ ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
 ms:contentKeyID: 48184813
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Es obligatorio tener compatibilidad para la federación con el fin de que los usuarios que dispongan de una cuenta con un cliente de confianza o con una organización de un socio, incluso dominios y usuarios de proveedores de mensajería instantánea pública que usted admita, puedan colaborar con los usuarios de su organización.
-ms.openlocfilehash: 638a5d0274679a9d9745656e1b2d740791185b04
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9d76801da22de249da04c7b36b6df9cbd8b2afae
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854354"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399694"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Habilitar o deshabilitar la federación y la conectividad de mensajería instantánea pública en Skype Empresarial Server
 
@@ -35,7 +35,7 @@ Para admitir el acceso de usuarios de dominios federados, es preciso que habilit
 Si más adelante desea impedir, de forma temporal o permanente, el acceso de usuarios de dominios federados, puede deshabilitar la para su organización. Use el procedimiento que aparece en esta sección para habilitar o deshabilitar el acceso de usuarios federados en su organización, así como para especificar las opciones de federación apropiadas para su organización.
 
 > [!NOTE]  
-> Si se habilita la federación para la organización solo se indica que los servidores que ejecutan el servicio perimetral de acceso admiten el enrutamiento a dominios federados. Los usuarios de dominios federados no pueden participar en la mensajería instantánea o conferencias en su organización hasta que configure asimismo al menos una directiva para admitir el acceso de usuarios federados. Los usuarios de proveedores de servicios de mensajería instantánea pública no podrán participar en la mensajería instantánea ni en conferencias de la organización hasta que configure también al menos una directiva para admitir conectividad de mensajería instantánea pública. Skype Empresarial Server puede usar un servicio de Exchange hospedado para proporcionar respuesta a llamadas, acceso de voz de Outlook (incluido el correo de voz) o servicios de operador automático para usuarios cuyos buzones se encuentran en un servicio Exchange hospedado hasta que configure una directiva de correo de voz hospedada que proporcione información de enrutamiento. Para obtener más información sobre cómo configurar directivas para la comunicación con usuarios de dominios federados de otras organizaciones, vea [Manage SIP federated domains for your organization](../sip-domains/manage-sip-federated-domains-for-your-organization.md). Por otra parte, si desea admitir la comunicación con usuarios de los proveedores de servicios de mensajería instantánea, es preciso que configure directivas para aportar tal compatibilidad, así como para aportar compatibilidad a los proveedores de servicios individuales que desee. Para obtener más información, vea   [Manage SIP federated providers for your organization](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
+> Si se habilita la federación para la organización solo se indica que los servidores que ejecutan el servicio perimetral de acceso admiten el enrutamiento a dominios federados. Los usuarios de dominios federados no pueden participar en la mensajería instantánea o conferencias en su organización hasta que configure asimismo al menos una directiva para admitir el acceso de usuarios federados. Los usuarios de proveedores de servicios de mensajería instantánea pública no podrán participar en la mensajería instantánea ni en conferencias de la organización hasta que configure también al menos una directiva para admitir conectividad de mensajería instantánea pública. Skype Empresarial Server puede usar un servicio de Exchange hospedado para proporcionar respuesta a llamadas, acceso de voz de Outlook (incluido el correo de voz) o servicios de operador automático para usuarios cuyos buzones se encuentran en un servicio Exchange hospedado hasta que configure una directiva de correo de voz hospedada que proporcione información de enrutamiento. Para obtener más información sobre cómo configurar directivas para la comunicación con usuarios de dominios federados de otras organizaciones, vea [Manage SIP federated domains for your organization](../sip-domains/manage-sip-federated-domains-for-your-organization.md). Por otra parte, si desea admitir la comunicación con usuarios de los proveedores de servicios de mensajería instantánea, es preciso que configure directivas para aportar tal compatibilidad, así como para aportar compatibilidad a los proveedores de servicios individuales que desee. Para obtener más información, consulte   [Manage SIP federated providers for your organization](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
 
 
 ## <a name="to-enable-or-disable-federated-user-access-for-your-organization"></a>Para habilitar o deshabilitar el acceso de usuarios federados en la organización
@@ -62,7 +62,7 @@ Si más adelante desea impedir, de forma temporal o permanente, el acceso de usu
 
 7.  Haga clic en **Confirmar**.
 
-Para permitir que los usuarios federados colaboren con los usuarios en la implementación Skype Empresarial Server, también debe configurar al menos una directiva de acceso externo para admitir el acceso de usuarios federados. Para obtener más información, vea [Configure policies to control federated user access](../external-access-policies/configure-policies-to-control-federated-user-access.md). Para controlar el acceso a dominios federados específicos, vea [Configure support for allowed external domains](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
+Para permitir que los usuarios federados colaboren con los usuarios en la implementación Skype Empresarial Server, también debe configurar al menos una directiva de acceso externo para admitir el acceso de usuarios federados. Para obtener más información, vea [Configurar directivas para controlar el acceso de usuarios federados](../external-access-policies/configure-policies-to-control-federated-user-access.md). Para controlar el acceso a dominios federados específicos, vea [Configure support for allowed external domains](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
 
 
 ## <a name="enabling-or-disabling-federation-and-public-im-connectivity-by-using-windows-powershell-cmdlets"></a>Habilitar o deshabilitar la federación y la conectividad de mensajería instantánea pública mediante Windows PowerShell cmdlets

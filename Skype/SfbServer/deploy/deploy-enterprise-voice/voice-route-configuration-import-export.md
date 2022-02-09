@@ -1,8 +1,8 @@
 ---
 title: Exportar o importar un archivo de configuración de ruta de voz en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: 'Resumen: obtenga información sobre cómo exportar o importar un archivo de configuración de enrutamiento de voz en Skype Empresarial Server mediante el Panel de control Skype Empresarial Server voz.'
-ms.openlocfilehash: cb9f5acde66c006945c873b24f53f58d35d14ac2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: da58e9c57ff0c71704d81eb7e79c8a53f62624e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832904"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418193"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Exportar o importar un archivo de configuración de ruta de voz en Skype Empresarial
  
@@ -29,7 +29,7 @@ ms.locfileid: "60832904"
   
 Si desea guardar la configuración de enrutamiento de voz sin publicarla, siga estos pasos para guardar y recuperar una instantánea de la configuración de enrutamiento de voz. 
   
-Al importar un archivo de configuración de enrutamiento de voz (.vcfg), pero se han realizado cambios  en la configuración de enrutamiento de voz en el servidor mientras tanto, las páginas del grupo Enrutamiento de voz en el Panel de control de Skype Empresarial Server indicarán que hay cambios no confirmados en el enrutamiento de voz. Estos cambios sin confirmar son distintos entre dos configuraciones que requieren reconciliación.
+Al importar un archivo de configuración de enrutamiento de voz (.vcfg), pero se han realizado cambios en la configuración de enrutamiento de voz en el servidor mientras tanto, las páginas  del grupo Enrutamiento de voz en el Panel de control de Skype Empresarial Server indicarán que hay cambios no confirmados en el enrutamiento de voz. Estos cambios sin confirmar son distintos entre dos configuraciones que requieren reconciliación.
   
 Si ha realizado cambios no confirmados en la configuración de cualquier página del grupo, los cambios se guardan en el archivo de configuración de voz exportado (.vcfg). Esto le permite realizar cambios de configuración de enrutamiento de voz durante varias sesiones antes de publicar los cambios. 
   
@@ -53,13 +53,13 @@ Si ha realizado cambios no confirmados en la configuración de cualquier página
     
 3. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz**.
     
-4. En el **menú Acciones,** haga clic **en Importar configuración**.
+4. En el **menú Acciones** , haga clic **en Importar configuración**.
     
-5. Busque el archivo de configuración que desea importar y, a continuación, haga clic **en Abrir**.
+5. Busque el archivo de configuración que desea importar y, a continuación, haga clic en **Abrir**.
     
 6. Haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
     
     > [!NOTE]
-    > Siempre que importe un archivo de configuración de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, [vea Publicar cambios pendientes](voice-route-config-changes.md) en la configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
+    > Siempre que importe un archivo de configuración de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, [vea Publicar cambios pendientes en la](voice-route-config-changes.md) configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
   
 

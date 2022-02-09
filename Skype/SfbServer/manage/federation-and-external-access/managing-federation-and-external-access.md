@@ -5,8 +5,8 @@ ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
 ms:contentKeyID: 48183665
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Se habilita y configura el acceso de usuarios externos para controlar si los usuarios externos compatibles pueden colaborar con usuarios Skype Empresarial Server usuarios internos.
-ms.openlocfilehash: 42e0644cbad51681f979f83041e4c260788039d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: af651e15030a6d09a930e2b2fab6ec923de238c5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836372"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411633"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>Administración de la federación y el acceso externo a Skype Empresarial Server
 
@@ -28,7 +28,7 @@ La implementación de un servidor perimetral o de un grupo de servidores perimet
 
 Después de instalar y configurar la implementación interna de Skype Empresarial Server, los usuarios internos de la organización pueden colaborar con otros usuarios internos que tengan cuentas SIP en los Servicios de dominio de Active Directory (AD DS). La colaboración puede incluir el envío y recepción de mensajes instantáneos, y la actualización del estado de presencia y la participación en conferencias (también denominadas "reuniones"). Se habilita y configura el acceso de usuarios externos para controlar si los usuarios externos compatibles pueden colaborar con usuarios Skype Empresarial Server usuarios internos. Los usuarios externos pueden incluir usuarios remotos de la implementación, usuarios federados (incluidos los usuarios admitidos de proveedores de servicios de mensajería instantánea (MI) públicos y participantes anónimos en conferencias.
 
-Si la implementación incluía la instalación de un servidor perimetral de Skype Empresarial Server o un grupo de servidores perimetrales, el ámbito de los posibles tipos de comunicación se expande en gran medida con una serie de opciones para el acceso de usuarios externos, la comunicación con miembros de otros dominios federados SIP y proveedores federados SIP. Después de configurar el servidor perimetral o el grupo de servidores perimetrales, se habilitan los tipos de acceso de usuario externo que desea proporcionar y se configuran las directivas para controlar el acceso externo. En Skype Empresarial Server, puede habilitar y configurar directivas y acceso de usuarios externos mediante el Panel de control de Skype Empresarial Server, el Shell de administración de [Skype Empresarial Server](../management-shell.md)o ambos, en función de los requisitos de tarea. 
+Si la implementación incluía la instalación de un servidor perimetral de Skype Empresarial Server o un grupo de servidores perimetrales, el ámbito de los posibles tipos de comunicación se expande en gran medida con una serie de opciones para el acceso de usuarios externos, la comunicación con miembros de otros dominios federados SIP y proveedores federados SIP. Después de configurar el servidor perimetral o el grupo de servidores perimetrales, se habilitan los tipos de acceso de usuario externo que desea proporcionar y se configuran las directivas para controlar el acceso externo. En Skype Empresarial Server, habilita y configura directivas y acceso de usuarios externos mediante el Panel de control de Skype Empresarial Server, el Shell de administración de [Skype Empresarial Server](../management-shell.md) o ambos, según los requisitos de tarea. 
 
 
 
@@ -48,37 +48,37 @@ Para determinar qué valores de configuración y qué directivas tiene que crear
 
 **¿Desea permitir que los usuarios internos y externos de su dominio puedan colaborar mediante la mensajería instantánea, conferencia web y audio/vídeo?**
 
-Configure las opciones como se detalla en los temas Configurar directivas para [controlar](external-access-policies/configure-policies-to-control-remote-user-access.md)la entrada de usuarios remotos y Habilitar o deshabilitar la federación y [la conectividad de mensajería instantánea pública.](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
+Configure las opciones como se detalla en los temas Configurar directivas para [controlar](external-access-policies/configure-policies-to-control-remote-user-access.md) la entrada de usuarios remotos y Habilitar o deshabilitar la federación y [la conectividad de mensajería instantánea pública](access-edge/enable-or-disable-federation-and-public-im-connectivity.md).
 
 **¿Desea permitir que los usuarios anónimos asistan y sean invitados a conferencias hospedadas por usuarios en su implementación?**
 
-Configure las opciones como se detalla en el tema [Asignar](access-edge/assign-conferencing-policies-to-support-anonymous-users.md) directivas de conferencia para admitir usuarios anónimos y [Crear directivas de conferencia.](../conferencing/create-policies.md)
+Configure las opciones como se detalla en el tema [Asignar](access-edge/assign-conferencing-policies-to-support-anonymous-users.md) directivas de conferencia para admitir usuarios anónimos y [Crear directivas de conferencia](../conferencing/create-policies.md).
 
 **¿Desea permitir a los usuarios que se comuniquen con contactos de dominio federados SIP?**
 
-Configure las opciones como se [](external-access-policies/configure-policies-to-control-federated-user-access.md)detalla en los temas Configurar directivas para controlar el acceso de usuarios federados, Habilitar o deshabilitar la federación y la conectividad de mensajería instantánea [pública,](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)y Administrar dominios federados SIP para [su organización.](sip-domains/manage-sip-federated-domains-for-your-organization.md)
+Configure las opciones como se detalla en los temas Configurar directivas para [controlar](external-access-policies/configure-policies-to-control-federated-user-access.md) el acceso de usuarios federados [, Habilitar](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) o deshabilitar la federación y la conectividad de mensajería instantánea pública, y Administrar dominios federados [SIP para su organización](sip-domains/manage-sip-federated-domains-for-your-organization.md).
 
 
 **Si ha habilitado la comunicación con dominios federados SIP, ¿desea habilitar la detección automática de federación SIP?**
 
-Configure las opciones como se detalla en el tema [Habilitar o deshabilitar la detección de socios de federación.](access-edge/enable-or-disable-discovery-of-federation-partners.md)
+Configure las opciones como se detalla en el tema [Habilitar o deshabilitar la detección de socios de federación](access-edge/enable-or-disable-discovery-of-federation-partners.md).
 
 **Si ha habilitado la comunicación con dominios de federación SIP, ¿desea habilitar el envío de una declinación de responsabilidades a contactos federados notificándoles que usa el archivado y que las comunicaciones se pueden archivar?**
 
-Configure las opciones como se detalla en el tema Habilitar o deshabilitar el envío de una declinación de responsabilidades de archivado a [socios federados en](access-edge/enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md).
+Configure las opciones como se detalla en el tema Habilitar o deshabilitar el envío de una declinación de responsabilidades de [archivado a socios federados.](access-edge/enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
 
 **¿Desea permitir que los usuarios se comuniquen con proveedores federados SIP que habiliten la comunicación con proveedores públicos?**
 
-Configure las opciones como se detalla en los temas Configurar directivas para [controlar](external-access-policies/configure-policies-to-control-public-user-access.md)el acceso de usuarios públicos, Habilitar o deshabilitar la federación y la conectividad de [mensajería](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)instantánea pública, y Crear o editar proveedores federados [SIP públicos](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-public-sip-federated-providers-in-skype-for-business-server)
+Configure las opciones como se detalla en los temas Configurar directivas para controlar el acceso de usuarios públicos [, Habilitar](external-access-policies/configure-policies-to-control-public-user-access.md) o deshabilitar la federación y la conectividad de mensajería instantánea [pública, y](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) Crear o editar proveedores federados [SIP públicos](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-public-sip-federated-providers-in-skype-for-business-server)
 
 
 **¿Desea permitir que los usuarios se comuniquen con proveedores federados SIP que son proveedores hospedados que ejecutan Microsoft 365 o Office 365 y Skype Empresarial Online?**
 
-Configure las opciones como se detalla en los temas Habilitar o deshabilitar la federación y la conectividad de [mensajería](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) instantánea pública y Crear o editar proveedores federados [SIP hospedados.](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server)
+Configure las opciones como se detalla en los temas [Habilitar](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) o deshabilitar la federación y la conectividad de mensajería instantánea pública y Crear o editar proveedores federados [SIP hospedados](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server).
 
 **¿Está su implementación configurada en un dominio dividido (también conocido como híbrido), donde algunos usuarios tienen su servidor principal en una implementación local y otros usuarios se configuran con un servidor principal en un entorno en línea?**
 
-Configure las opciones como se detalla en los temas Configurar directivas para [controlar](external-access-policies/configure-policies-to-control-federated-user-access.md)el acceso de usuarios federados, [](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)Habilitar o deshabilitar la federación y la conectividad de mensajería instantánea pública, y Crear o editar proveedores federados SIP [hospedados.](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server)
+Configure las opciones como se detalla en los temas Configurar directivas para controlar el acceso de usuarios federados [, Habilitar](external-access-policies/configure-policies-to-control-federated-user-access.md) o deshabilitar la federación y la conectividad de mensajería instantánea [pública, y](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) Crear o editar proveedores federados [SIP hospedados](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server).
 
 
 Puede configurar parámetros de acceso de usuarios externos, incluidas las directivas que desea usar para controlar el acceso de usuarios externos, aunque no haya habilitado el acceso de usuarios externos en su organización. Sin embargo, tanto las directivas como otros parámetros que se configuran solo son efectivos cuando se habilita el acceso de usuarios externos en su organización. Los usuarios externos no pueden comunicarse con usuarios de su organización cuando el acceso de usuarios externos está deshabilitado o no se han configurado directivas de acceso de usuarios externos para admitir dichas comunicaciones.

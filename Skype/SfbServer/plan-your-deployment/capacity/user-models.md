@@ -1,8 +1,8 @@
 ---
 title: Modelos de usuario en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
 description: Los modelos de usuario que se describen aquí proporcionan la base para las medidas y recomendaciones de planeación de capacidad descritas en Capacity planning user model usage for Skype Empresarial Server.
-ms.openlocfilehash: 22f5d45c5b8c5f75979e061814c03a5b9ffc3e8d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1057d3d4e4d20c4193556aa6801da51ca81effba
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846353"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418423"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>Modelos de usuario en Skype Empresarial Server
  
-Los modelos de usuario que se describen aquí proporcionan la base para las medidas y recomendaciones de planeación de capacidad descritas en Uso del modelo de usuario de planeación de capacidad para [Skype Empresarial Server](user-model.md).
+Los modelos de usuario que se describen aquí proporcionan la base para las medidas y recomendaciones de planeación de capacidad descritas en Uso del modelo de usuario de planeación de [capacidad para Skype Empresarial Server](user-model.md).
   
-## <a name="skype-for-business-server-user-models"></a>Skype Empresarial Server Modelos de usuario
+## <a name="skype-for-business-server-user-models"></a>Skype Empresarial Server de usuario
 
 En la tabla siguiente se describe el modelo de usuario para el registro, los contactos, la mensajería instantánea (MI) y la presencia de Skype Empresarial Server.
   
@@ -46,7 +46,7 @@ En la tabla siguiente se describe el modelo de usuario para el registro, los con
 
 |**Categoría**|**Descripción**|
 |:-----|:-----|
-|Sesiones de MI de punto a punto  <br/> |Cada usuario mantiene una media diaria de seis sesiones de MI de punto a punto.  <br/> Diez mensajes instantáneos por sesión.  <br/> Cada mensaje coincide con dos mensajes SIP INFO y 2 mensajes SIP 200 OK (para los indicadores de estado como " \<Name\> es escribir")  <br/> |
+|Sesiones de MI de punto a punto  <br/> |Cada usuario mantiene una media diaria de seis sesiones de MI de punto a punto.  <br/> Diez mensajes instantáneos por sesión.  <br/> Cada mensaje coincide con dos mensajes SIP INFO y 2 mensajes SIP 200 OK (para los indicadores de estado como "\<Name\> es escribir")  <br/> |
 |Sesiones de mensajería instantánea de grupo  <br/> |El número promedio de mensajes enviados en una sesión de solo mensajería instantánea de grupo es de 5 por usuario.  <br/> El número promedio de mensajes enviados en la parte de mensajería instantánea de una conferencia AV es 2 por usuario.  <br/> |
 |Sondeo de presencia  <br/> |En términos generales, se supone que los sondeos de presencia tienen unos 60 sondeos de media por usuario y hora. Para cada usuario, se supone una media de:  <br/> • Un sondeo por día de la presencia de usuarios en la pestaña organización del usuario (pero no en la lista de contactos). El número promedio de no contactos en la pestaña organización del usuario es de 15 usuarios. Dos operaciones de ver tarjetas de contacto al día.  <br/> • Un sondeo de presencia cada vez que el usuario hace clic en otro usuario para iniciar una conversación, estimada en una vez por hora.  <br/> • Seis búsquedas de usuario por hora. Cada vez que se realiza una búsqueda, se envía un sondeo por lotes para todos los usuarios de la lista de resultados de búsqueda. Se supone que el tamaño promedio de los resultados de búsqueda es 20. Si los resultados de la búsqueda permanecen en pantalla, el sondeo por lotes se actualiza cada 5 minutos; suponemos que habrá dos actualizaciones por hora.  <br/> • Cuando el usuario abre o muestra una vista previa de un correo electrónico en Outlook, un sondeo de la presencia de usuarios en los campos Para: y CC: del correo electrónico, estimado en cinco correos electrónicos por hora y cuatro usuarios por correo electrónico.  <br/> |
 |Suscripciones de presencia  <br/> |Cuando un usuario agrega a otro como contacto, el primer usuario se suscribe a cinco categorías de información acerca del segundo usuario. Las actualizaciones de estas categorías de información se envían automáticamente al primer usuario. <br/> Para cada cliente, se envía una única petición de suscripción por lotes para obtener el estado de presencia de una media de 40 contactos, con 40 diálogos adicionales para obtener la presencia de los contactos federados.  <br/> La presencia de los miembros de un grupo de distribución expandido se averigua a través de las suscripciones de presencia persistente, y no a través de los sondeos, y se modela como 1 expansión por usuario durante cada 2 horas.  <br/> Las suscripciones cortas se suceden cuando un usuario inicia sesión, hay una suscripción por lotes para todos los contactos del usuario y, a continuación, el usuario cierra la sesión pronto. Se suponen 6 suscripciones breves por usuario y hora, y cada suscripción dura 10 minutos. <br/> |

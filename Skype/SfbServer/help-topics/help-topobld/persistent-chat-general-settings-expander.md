@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración general del chat persistente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 'Para editar la configuración general del servidor de chat persistente o el grupo de servidores de chat persistente, configure o defina estas propiedades:'
-ms.openlocfilehash: 8047b6a3d8e4f81056af20feb2d5a36416bac2b8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e93af8c8924117159434691b550f2ed9fcbb6e69
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854424"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417693"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Expansor de configuración general del chat persistente
  
@@ -28,7 +28,7 @@ Para editar la **configuración general** del servidor de chat persistente o el 
   
  **General**
   
-- **FQDN:** edite esta configuración para definir el nombre de dominio completo de su servidor de chat persistente o grupo de servidores de chat persistente
+- **FQDN**: edite esta configuración para definir el nombre de dominio completo de su servidor de chat persistente o grupo de servidores de chat persistente
     
 - **Mostrar nombre del grupo de servidores de chat persistente**: defina esta configuración para proporcionar una configuración comprensible y fácil de usar para el servidor o el grupo de servidores. Esta configuración facilitará a los usuarios asociar un determinado servidor de chat persistente o grupo de servidores de chat persistente en función del nombre para mostrar en lugar de un nombre de dominio completo más difícil de comprender.
     
@@ -42,31 +42,31 @@ Para editar la configuración **de** asociaciones para el servidor de chat persi
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia opcional de SQL Server.
     
-- Active la **casilla Habilitar SQL Server creación** de reflejos del almacén si desea habilitar la creación de reflejos para el almacén SQL Server principal.
+- Active la **casilla SQL Server creación** de reflejo del almacén si desea habilitar la creación de reflejos para el almacén SQL Server principal.
     
-    Si optó por habilitar la creación SQL Server la creación de reflejos del **almacén,** seleccione el almacén y la instancia de la lista Creación SQL Server almacén .
+    Si optó por habilitar la creación SQL Server de almacenamiento, seleccione el almacén y la instancia de la lista Creación **SQL Server almacén**.
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia opcional de SQL Server.
     
-- Active la **casilla Usar SQL Server reflejo** para habilitar la conmutación por error automática si desea la conmutación por error automática del almacén SQL Server principal.
+- Active la **casilla SQL Server** testigo de creación de reflejos para habilitar la conmutación por error automática si desea la conmutación por error automática del almacén SQL Server principal.
     
     Si optó por habilitar el testigo SQL Server reflejo del almacén para habilitar la conmutación por error automática, seleccione el almacén y la instancia de la lista.
     
     Haga clic en **Nuevo** para definir un nuevo almacén de SQL Server y una instancia opcional para el almacén testigo.
     
-- Active la casilla Usar **almacenes SQL Server copia** de seguridad para habilitar la recuperación ante desastres si desea habilitar el uso de SQL Server de recuperación ante desastres
+- Active la **casilla Usar almacenes SQL Server copia** de seguridad para habilitar la recuperación ante desastres si desea habilitar el uso de SQL Server recuperación ante desastres
     
     Si decidió habilitar la recuperación ante desastres, seleccione un almacén y una instancia de la lista **Almacén de SQL Server de reserva**.
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia opcional de SQL Server.
     
-- Active la **casilla SQL Server** creación de reflejos del almacén si desea habilitar la creación de reflejos para el almacén de creación SQL Server creación de reflejos.
+- Active la **casilla Habilitar SQL Server creación** de reflejos del almacén si desea habilitar la creación de reflejos para el almacén de creación SQL Server creación de reflejos.
     
-    Si optó por habilitar la creación SQL Server creación de reflejos del almacén, seleccione el almacén y la instancia de la lista Copia **de seguridad SQL Server reflejo del almacén**.
+    Si optó por habilitar la creación SQL Server reflejo del almacén, seleccione el almacén y la instancia de la lista **Copia de seguridad SQL Server reflejo del almacén**.
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia opcional de SQL Server.
     
-- Active la **casilla Usar SQL Server** reflejo para habilitar la conmutación por error automática si desea la conmutación por error automática del SQL Server copia de seguridad.
+- Active la **casilla SQL Server** testigo de creación de reflejos para habilitar la conmutación por error automática si desea la conmutación por error automática del SQL Server copia de seguridad.
     
     Si optó por habilitar el testigo SQL Server reflejo del almacén para habilitar la conmutación por error automática, seleccione el almacén y la instancia de la lista.
     
@@ -78,13 +78,13 @@ Para editar la configuración **de** asociaciones para el servidor de chat persi
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia opcional de SQL Server.
     
-- Active la **casilla SQL Server creación** de reflejos del almacén si desea habilitar la creación de reflejos para el SQL Server cumplimiento.
+- Active la **casilla Habilitar SQL Server creación** de reflejos del almacén si desea habilitar la creación de reflejos para el SQL Server cumplimiento.
     
-    Si optó por habilitar el cumplimiento SQL Server creación de reflejos del almacén, seleccione el almacén y la instancia de la lista **Cumplimiento SQL Server reflejo del almacén**.
+    Si optó por habilitar la creación SQL Server reflejo del almacén, seleccione el almacén y la instancia de la lista **Reflejo de SQL Server almacén**.
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia opcional de SQL Server.
     
-- Active la **casilla Usar SQL Server** reflejo para habilitar la conmutación por error automática si desea la conmutación por error automática del SQL Server cumplimiento.
+- Active la **casilla Usar SQL Server reflejo** para habilitar la conmutación por error automática si desea la conmutación por error automática del SQL Server cumplimiento.
     
     Si optó por habilitar el testigo SQL Server reflejo del almacén para habilitar la conmutación por error automática, seleccione el almacén y la instancia de la lista.
     
@@ -94,9 +94,9 @@ Para editar la configuración **de** asociaciones para el servidor de chat persi
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia opcional de SQL Server.
     
-- Active la **casilla SQL Server creación** de reflejos del almacén si desea habilitar la creación de reflejos para el SQL Server cumplimiento.
+- Active la **casilla Habilitar SQL Server creación** de reflejos del almacén si desea habilitar la creación de reflejos para el SQL Server cumplimiento.
     
-    Si optó por habilitar la creación SQL Server reflejo del almacén, seleccione el almacén y la instancia de la lista Copia de seguridad de cumplimiento **SQL Server reflejo del almacén.**
+    Si optó por habilitar la creación SQL Server reflejo del almacén, seleccione el almacén y la instancia de la lista Copia de seguridad **del reflejo SQL Server almacén**.
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia opcional de SQL Server.
     
@@ -114,7 +114,7 @@ Para editar la configuración **de** asociaciones para el servidor de chat persi
   
   **Ayuda** Muestra la ayuda de esta pantalla.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planear el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

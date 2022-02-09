@@ -1,7 +1,7 @@
 ---
 title: Crear sus primeros equipos en Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 332c106ca8f3ea881bbef95805c1228a6687cc65
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c26890031279a64cba650d2ec926faaff09f043f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832984"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418343"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Crear sus primeros equipos en Microsoft Teams
 
@@ -35,10 +35,10 @@ La mejor manera de impulsar la adopción de Teams es usar el producto. Le recome
 | Nombre del equipo | Nombres de canal propuestos |
 | --------- | ---------------------- |
 | Conozca Teams | General</br> Saludad</br> ¿Cómo puedo hacerlo?</br>Comentarios </br> Ideas para equipos futuros </br> Soporte técnico |
-| Microsoft Teams Implementación | General <br/> Concienciación y adopción <br/> Compromiso empresarial <br/> Early Adopter Program <br/> Comentarios y Ideas <br/> Seguridad y cumplimiento <br/> Estrategia y planificación <br/> Estado del servicio e incidentes <br/> Aprendizaje <br/> Watercooler Chat |
+| Microsoft Teams implementación | General <br/> Concienciación y adopción <br/> Compromiso empresarial <br/> Early Adopter Program <br/> Comentarios y Ideas <br/> Seguridad y cumplimiento <br/> Estrategia y planificación <br/> Estado del servicio e incidentes <br/> Aprendizaje <br/> Watercooler Chat |
 | Campeones de trabajo en equipo | General <br/> Procedimientos recomendados, aprendizaje y procedimientos <br/> Esquina de campeón <br/> Comentarios y soporte técnico <br/> Clientes potenciales del programa <br/> Social Hub |
 
-En Microsoft Teams, la [](/microsoftteams/platform/concepts/tabs/tabs-overview) galería de pestañas le proporciona acceso a todas las aplicaciones Microsoft 365 o Office 365 y de terceros que ha activado el administrador. Para obtener el máximo valor de su producto, le recomendamos que anclar recursos clave como pestañas en cada uno de los canales adecuados. Vea el ejemplo siguiente.
+En Microsoft Teams, la galería de [](/microsoftteams/platform/concepts/tabs/tabs-overview) pestañas le proporciona acceso a todas las aplicaciones Microsoft 365 o Office 365 y de terceros que ha activado el administrador. Para obtener el máximo valor de su producto, le recomendamos que anclar recursos clave como pestañas en cada uno de los canales adecuados. Vea el ejemplo siguiente.
 
 ![Captura de pantalla que muestra pestañas predeterminadas y personalizadas.](media/teams-adoption-tab-example.png)
 
@@ -46,9 +46,9 @@ En los equipos iniciales, le recomendamos que anclar los siguientes elementos pa
 
 |Nombre del equipo o del canal | Pestaña anclada |
 |----------------- | ---------- |
-| **Microsoft Teams Implementación** ||
+| **Microsoft Teams implementación** ||
 | General | Pestaña Web: [Teams documentación](./index.yml) |
-| Concienciación y adopción | [Teams Centro de adopción](https://aka.ms/DriveTeamsAdoption)<br/>[Kit para el éxito del cliente de Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)|
+| Concienciación y adopción | [Teams de adopción](https://aka.ms/DriveTeamsAdoption)<br/>[Kit para el éxito del cliente de Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)|
 | Compromiso empresarial | Wiki: guía de participación<br/>Formulario: solicitud de Teams consulta<br/>Lista: solicitudes de participación |
 |Primeros adoptantes | Comunidad de comentarios anclados <br/> OneNote preguntas más frecuentes y temas comunes |
 | Comentarios e informes | Pinned Microsoft 365 o Office 365 de uso (solo para Microsoft 365 o Office 365 administradores) |

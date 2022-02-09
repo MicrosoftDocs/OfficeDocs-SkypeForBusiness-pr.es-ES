@@ -8,21 +8,26 @@ ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
 ms.collection:
-  - M365-voice
+- M365-voice
 audience: Admin
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - Skype for Business Certification
-  - dn947482
-  - seo-marvel-apr2020
+- Skype for Business Certification
+- dn947482
+- seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados Microsoft Teams para obtener los mejores resultados.
+ms.openlocfilehash: 83acdef043e972a23a7166b33bd0772d94d62773
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457250"
 ---
-
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams dispositivos certificados
 
 Los Microsoft Teams de certificación garantizan que los clientes que usan teléfonos de escritorio certificados y teléfonos de conferencia experimentarán una experiencia de reuniones y llamadas de audio de alta calidad.
@@ -102,6 +107,8 @@ Las siguientes son las últimas Teams de firmware y aplicación de teléfono.
 
 | Versión del producto | Fecha de lanzamiento  | Microsoft Teams de la aplicación | Portal de empresa versión | Versión del Agente de administración |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| Actualización 2022 #1   | 7 de febrero de 2022   |  1449/1.0.94.2022011305 |5.0.5304.0 | 322 |
+| Actualización de 2022 #1B  | 7 de febrero de 2022   |  1449/1.0.94.2022020202 |5.0.5304.0 | 322 |
 | Actualización de 2021 #3B | 6 de diciembre de 2021   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |
 | Actualización de 2021 #3A | 22 de noviembre de 2021   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
 | Actualización 2021 #3  | 03 de noviembre de 2021   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
@@ -119,10 +126,24 @@ Las siguientes son las últimas Teams de firmware y aplicación de teléfono.
 
 Al instalar una nueva versión de firmware en el dispositivo, puede determinar las versiones instaladas correspondientes de la aplicación Microsoft Teams, Portal de empresa y el Agente de administración. Busque la versión del producto en la **columna Versión de** producto incluida y, a continuación, busque la versión del producto en la tabla de versiones de **la aplicación** anterior.
 
-| Modelo de dispositivo        | Versión de firmware     | Versión de producto incluida  |
-|:--------------------|:---------------------|:-------------------------|
+| Modelo de dispositivo  | Versión de firmware  | Versión de producto incluida  |
+|:----------------|:--------------|:----------------------------|
+|Poly Trio C60   | `7.2.1.1712`  | Actualización 2022 #1   |
+|Poly CCX400/CCX500/CCX600   | `7.2.1.1707`  | Actualización 2022 #1  |
+|Códigos de audio C448HD  | `1.14.500` | Actualización 2022 #1 |
+|Códigos de audio C450HD  | `1.14.500` | Actualización 2022 #1  |
+|Códigos de audio C470HD  | `1.14.500` | Actualización 2022 #1   |
+|Códigos de audio C435HD  | `1.14.500` | Actualización 2022 #1  |
+|Yealink T55/T56/T58   | `58.15.0.153`  | Actualización 2022 #1 |
+|Yealink MP54/MP56/MP58   | `122.15.0.77`     | Actualización 2022 #1  |
+| Yealink VP59   | `91.15.0.87`  | Actualización 2022 #1     |
+| Yealink CP960  | `73.15.0.150`  | Actualización 2022 #1         |
+| Yealink MP52 | `145.15.0.25`  | Actualización 2022 #1         |
 | Poly Trio C60   | `7.1.4.0201`  | Actualización de 2021 #3B                        |
 | Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | Actualización de 2021 #3B                 |
+|Códigos de audio C448HD  | `1.14.449` | Actualización 2021 #3  |
+|Códigos de audio C450HD  | `1.14.449` | Actualización 2021 #3  |
+|Códigos de audio C470HD  | `1.14.449` | Actualización 2021 #3  |
 |Códigos de audio C448HD  | `C448HD_TEAMS_1.14.449` | Actualización 2021 #3  |
 |Códigos de audio C450HD  | `C450HD_TEAMS_1.14.449` | Actualización 2021 #3  |
 |Códigos de audio C470HD  | `C470HD_TEAMS_1.14.449` | Actualización 2021 #3  |
@@ -133,26 +154,26 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 |Yealink MP54/MP56/MP58   | `122.15.0.60`     | Actualización 2021 #3  |
 |Yealink VP59             | `91.15.0.77`      | Actualización 2021 #3  |
 |Yealink CP960            | `73.15.0.139`     | Actualización 2021 #3  |
-| Poly Trio C60   | `7.0.3.0517`  | Actualización 2021 #2                        |
+| Poly Trio C60           | `7.0.3.0517`      | Actualización 2021 #2      |
 | Poly CCX400/CCX500/CCX600   | `7.0.3.0515` | Actualización 2021 #2                     |
 | Códigos de audio C448HD/C450HD/C470HD   | `1.10.143`  | Actualización 2021 #2           |
 | Yealink T55/T56/T58   | `58.15.0.131`  | Actualización 2021 #2                       |
 | Yealink VP59   | `91.15.0.63`  | Actualización 2021 #2                               |
-| Yealink CP960  |`73.15.0.126`  | Actualización 2021 #2                               |
-| Yealink MP56/MP54/MP58  |`122.15.0.44` | Actualización 2021 #2                       |
-| Crestron UC-2  |`1.0.3.66` | Actualización 2021 #2 |
+| Yealink CP960  | `73.15.0.126`  | Actualización 2021 #2                               |
+| Yealink MP56/MP54/MP58  | `122.15.0.44` | Actualización 2021 #2                       |
+| Crestron UC-2  | `1.0.3.66` | Actualización 2021 #2 |
 | Poly Trio C60   | `7.0.2.1071`  | Actualización 2021 #1                        |
 | Poly CCX400/CCX500/CCX600   | `7.0.2.1072`  | Actualización 2021 #1                 |
 | Códigos de audio C448HD/C450HD/C470HD   | `1.10.120`  | Actualización 2021 #1       |
 | Yealink T55/T56/T58   | `58.15.0.124`  | Actualización 2021 #1                      |
 | Yealink VP59   | `91.15.0.58`  | Actualización 2021 #1                              |
-| Yealink CP960  |`73.15.0.117`  | Actualización 2021 #1                              |
-| Yealink MP56/MP54/MP58  |`122.15.0.36`  | Actualización 2021 #1                     |
-| Crestron UC-2  |`1.0.3.52` | Actualización 2021 #1 |
+| Yealink CP960  | `73.15.0.117`  | Actualización 2021 #1                              |
+| Yealink MP56/MP54/MP58  | `122.15.0.36`  | Actualización 2021 #1                     |
+| Crestron UC-2  | `1.0.3.52` | Actualización 2021 #1 |
 | AudioCodes C448HD   | `C450HD_TEAMS_1.8.288`  | Actualización 2020 #7           |
 | AudioCodes C450HD   | `C450HD_TEAMS_1.8.288`  | Actualización 2020 #7           |
 | Crestron UC-2       | `1.0.2.53`              | Actualización 2020 #7            |
-| Vista ThinkSmart de Lenovo|`CD-18781Y.200922.098` | Actualización 2020 #6           |
+| Vista ThinkSmart de Lenovo| `CD-18781Y.200922.098` | Actualización 2020 #6           |
 | Poly CCX400         | `6.2.23.0202`       | Actualización 2020 #7           |
 | Poly CCX500/CCX600  | `6.2.23.0202`         | Actualización 2020 #7          |
 | Poly Trio C60       | `6.2.23.0202`          | Actualización 2020 #7          |
@@ -187,8 +208,8 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo  | Versión de firmware | Versión de producto incluida |
 |:--------------|:-----------------|:-------------------------|
-| Poly Studio X30 | `3.9.0`          | Actualización de 2021 #2F   |
-| Poly Studio X50 | `3.9.0`          | Actualización de 2021 #2F   |
+| Poly Studio X30 | `3.9.0` | Actualización de 2021 #2F   |
+| Poly Studio X50 | `3.9.0` | Actualización de 2021 #2F   |
 | Poly TC8        | `3.9.0`          | Actualización de 2021 #2F   |
 | Poly Studio X30 | `3.8.0`          | Actualización 2021 #2    |
 | Poly Studio X50 | `3.8.0`          | Actualización 2021 #2    |
@@ -196,9 +217,9 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 | Poly Studio X30 | `3.7.0`          | Actualización de 2021 #2A    |
 | Poly Studio X50 | `3.7.0`          | Actualización de 2021 #2A    |
 | Poly TC8        | `3.7.0`          | Actualización de 2021 #2A    |
-| Poly Studio X30 | `3.6.0.350035`          | Actualización de 2021 #2A    |
-| Poly Studio X50 | `3.6.0.350035`        | Actualización de 2021 #2A    |
-| Poly TC8 | `3.6.0.210534`              | Actualización de 2021 #2A    |
+| Poly Studio X30 | `3.6.0.350035`  | Actualización de 2021 #2A    |
+| Poly Studio X50 | `3.6.0.350035`  | Actualización de 2021 #2A    |
+| Poly TC8 | `3.6.0.210534`  | Actualización de 2021 #2A    |
 | EPOS EXPAND Vision 3T |`1.2.2.21182.10`   | Actualización 2021 #2 |
 | AudioCodes RXV80 |`1.13.361`   | Actualización 2021 #2 |
 | Yealink VC210 |`118.15.0.54`   | Actualización 2021 #2    |

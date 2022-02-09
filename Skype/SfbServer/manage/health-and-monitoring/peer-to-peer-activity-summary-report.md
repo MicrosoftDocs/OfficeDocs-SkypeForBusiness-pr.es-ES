@@ -1,8 +1,8 @@
 ---
 title: Informe de resumen de actividad punto a punto en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 'Summary: Learn about the Peer-to-Peer Activity Summary Report in Skype Empresarial Server.'
-ms.openlocfilehash: 876d12b74fa34d745a7e94d31ecc19997f337e40
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3db7a69bb0460337e56ee7e4ce43d4c1ce4b240e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831994"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411553"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Informe de resumen de actividad punto a punto en Skype Empresarial Server
  
@@ -35,7 +35,7 @@ Con el Informe de resumen de actividad punto a punto le será más fácil respon
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>Acceder al Informe de resumen de actividad punto a punto
 
-Acceda al Informe de resumen de actividad punto a punto desde la página inicial de los informes de supervisión. Para abrir el informe de mensajería instantánea punto [a punto en Skype Empresarial Server](im-report.md) haga clic en cualquiera de las siguientes métricas:
+Acceda al Informe de resumen de actividad punto a punto desde la página inicial de los informes de supervisión. Para abrir el [informe de mensajería instantánea punto a punto en Skype Empresarial Server](im-report.md) haga clic en cualquiera de las siguientes métricas:
   
 - Total de sesiones de MI punto a punto
     
@@ -77,7 +77,7 @@ En la tabla siguiente se muestra la información que recoge el Informe de resume
 
 |**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Cada hora** <br/> **Diario** <br/> **Semanalmente** <br/> **Mensualmente** <br/> |No  <br/> |Indica el intervalo temporal que ha seleccionado en la barra de herramientas para filtros. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si usa el intervalo Diario y hace clic en 7/17/12015, verá un desglose por hora de la actividad de registro de usuarios para esa fecha.  <br/> |
+|**Cada hora** <br/> **A diario** <br/> **Semanalmente** <br/> **Mensualmente** <br/> |No  <br/> |Indica el intervalo temporal que ha seleccionado en la barra de herramientas para filtros. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si usa el intervalo Diario y hace clic en 7/17/12015, verá un desglose por hora de la actividad de registro de usuarios para esa fecha.  <br/> |
 |**Total de sesiones punto a punto** <br/> |No  <br/> |Número total de sesiones punto a punto realizadas, independientemente del tipo de sesión.  <br/> |
 |**Total de sesiones de MI punto a punto** <br/> |No  <br/> |Número total de sesiones de mensajería instantánea punto a punto. Cuando se hace clic en este elemento, el informe muestra el Informe de MI punto a punto para el período de tiempo seleccionado.  <br/> |
 |**Total de mensajes instantáneos punto a punto** <br/> |No  <br/> |Número total de mensajes instantáneos enviados en sesiones punto a punto. Cuando se hace clic en este elemento, el informe muestra el Informe de MI punto a punto para el período de tiempo seleccionado.  <br/> |

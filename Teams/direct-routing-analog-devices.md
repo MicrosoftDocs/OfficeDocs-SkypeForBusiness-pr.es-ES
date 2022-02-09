@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
-ms.reviewer: NMuravlyannikov
+ms.reviewer: filippse
 ms.topic: conceptual
 ms.service: msteams
 ms.localizationpriority: medium
@@ -15,17 +15,17 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lea este artículo para obtener información sobre cómo usar dispositivos analógicos con Teléfono Microsoft system direct routing.
-ms.openlocfilehash: 86875f7c4cf3206f673c652487e896adf91b1ce5
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+description: Lea este artículo para obtener información sobre cómo usar dispositivos analógicos con Microsoft Teams Sistema telefónico enrutamiento directo.
+ms.openlocfilehash: e3de63de032d2caf06993ac0a08b624feb5a5b42
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766413"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457390"
 ---
-# <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Cómo usar dispositivos analógicos con Sistema telefónico enrutamiento directo
+# <a name="how-to-use-analog-devices-with-direct-routing"></a>Cómo usar dispositivos analógicos con enrutamiento directo
 
-En este artículo se describe cómo usar dispositivos analógicos con Sistema telefónico enrutamiento directo. Para conectar dispositivos analógicos al enrutamiento directo, debe usar un adaptador de telefonía analógica (ATA) y este adaptador debe ser compatible con el proveedor certificado del controlador de borde de sesión (SBC). 
+En este artículo se describe cómo usar dispositivos analógicos con enrutamiento directo. Para conectar dispositivos analógicos al enrutamiento directo, debe usar un adaptador de telefonía analógica (ATA) y este adaptador debe ser compatible con el proveedor certificado del controlador de borde de sesión (SBC). 
 
 Cuando un usuario realiza una llamada desde un dispositivo analógico, la señalización y los medios fluyen a través del adaptador de telefonía analógica (ATA) al SBC.  El SBC envía la llamada a un punto de conexión Microsoft Teams o a la red telefónica conmutada (RTC) en función de la tabla de enrutamiento interno.  Cuando un dispositivo realiza una llamada, la ruta que toma depende de las directivas de enrutamiento creadas para el dispositivo.
 
@@ -34,7 +34,7 @@ En el siguiente diagrama, enrutamiento directo está configurado de modo que cua
 > [!div class="mx-imgBorder"]
 > ![Diagrama que muestra la configuración de enrutamiento directo.](media/direct-routing-analog-device.png)
 
-## <a name="example--how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>Ejemplo: Cómo configurar el uso de dispositivos analógicos con enrutamiento directo
+## <a name="example-how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>Ejemplo: Cómo configurar el uso de dispositivos analógicos con enrutamiento directo
 
 Para configurar el uso de dispositivos analógicos con enrutamiento directo, debe conectar el adaptador de telefonía analógica al SBC y configurar el SBC para que funcione con enrutamiento directo. 
 
@@ -55,7 +55,7 @@ Para obtener información sobre cómo conectar un ATA a un SBC y configurar el S
 - [Documentación de configuración de la cinta de opciones](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 - [Documentación de configuración de Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html#Link-MicrosoftTeams)
 
-## <a name="step-1--connect-the-sbc-to-direct-routing"></a>Paso 1.  Conectar el SBC a enrutamiento directo
+## <a name="step-1-connect-the-sbc-to-direct-routing"></a>Paso 1. Conectar el SBC a enrutamiento directo
 
 El siguiente comando configura la conexión SBC de la siguiente manera:
 
@@ -69,7 +69,7 @@ El siguiente comando configura la conexión SBC de la siguiente manera:
 PS C:\> New-CsOnlinePSTNGateway -FQDN sbc.contoso.com -SIPSignalingPort 5068 -ForwardCallHistory $true -ForwardPAI $true -MediaBypass $true -Enabled $true 
 ```
 
-## <a name="step-2--create-the-pstn-usage"></a>Paso 2: Crear el uso de RTC 
+## <a name="step-2-create-the-pstn-usage"></a>Paso 2: Crear el uso de RTC 
 
 El comando siguiente crea un uso de RTC vacío. Los usos de RTC en línea son valores de cadena que se usan para la autorización de llamadas. Un uso de RTC en línea vincula una directiva de voz en línea a una ruta. En este ejemplo se agrega la cadena "Interop" a la lista actual de usos de RTC disponibles. 
 
@@ -77,7 +77,7 @@ El comando siguiente crea un uso de RTC vacío. Los usos de RTC en línea son va
 PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"} 
 ```
 
-## <a name="step-3--create-a-voice-route-and-associate-it-with-the-pstn-usage"></a>Paso 3: Crear una ruta de voz y asociarla con el uso de RTC:
+## <a name="step-3-create-a-voice-route-and-associate-it-with-the-pstn-usage"></a>Paso 3: Crear una ruta de voz y asociarla con el uso de RTC
 
 Este comando crea una nueva ruta de voz en línea con la identidad "interoperabilidad analógica" para el rango de números +1425 XXX XX XX.  La ruta de voz se aplica a una lista de puertas de enlace en línea sbc.contoso.com y asocia la ruta con el uso de RTC en línea "Interoperabilidad". Una ruta de voz incluye una expresión regular que identifica qué números de teléfono se enrutarán a través de una ruta de voz determinada:
 
@@ -103,13 +103,13 @@ PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $
 
 ## <a name="step-6-assign-the-voice-route-policy-to-a-user"></a>Paso 6: Asignar la directiva de ruta de voz a un usuario
 
-Este comando asigna la directiva de enrutamiento de voz en línea por usuario AnalogInteropPolicy al usuario con la identidad exampleuser@contoso.com.  Este comando debe ejecutarse para cada usuario Teams (excluyendo los usuarios de dispositivos ATA) en el espacio empresarial de la empresa.
+Este comando asigna la directiva de enrutamiento de voz en línea por usuario AnalogInteropPolicy al usuario con la identidad exampleuser@contoso.com. Este comando debe ejecutarse para cada usuario Teams (excluyendo los usuarios de dispositivos ATA) en el espacio empresarial de la empresa.
 
 ```powershell
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
 ```
 
-## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>Paso 7: Crear una ruta de voz para un dispositivo analógico
+## <a name="step-7-create-a-voice-route-for-an-analog-device"></a>Paso 7: Crear una ruta de voz para un dispositivo analógico
 
 Este comando crea una ruta de voz en línea con la identidad "interoperabilidad analógica" para el rango de números +1425 4XX XX XX aplicable a una lista de puertas de enlace en línea sbc.contoso.com y la asocia con el uso de RTC en línea "Interop".  Este comando debe ejecutarse para cada dispositivo analógico con el patrón de número de teléfono adecuado. Como alternativa, se puede usar un patrón de número adecuado para dispositivos analógicos al configurar la ruta de voz en línea durante uno de los pasos anteriores.
 

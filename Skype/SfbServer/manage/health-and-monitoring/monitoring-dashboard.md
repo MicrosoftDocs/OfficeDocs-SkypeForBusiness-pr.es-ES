@@ -1,8 +1,8 @@
 ---
 title: Uso del Panel de supervisión en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Resumen: obtenga información sobre el Panel de supervisión en Skype Empresarial Server.'
-ms.openlocfilehash: ac68ae2174fcd7c4266da77c2d079c2f9a31d8e5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 58a847ce5e63ad70477f1e43518464760e95d742
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862307"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399684"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Uso del Panel de supervisión en Skype Empresarial Server
  
@@ -31,7 +31,7 @@ El Panel de supervisión proporciona a los administradores una introducción rá
     
 - Totales del mes y totales de tendencia de los últimos seis meses (solo para uso del sistema).
     
-Tenga en cuenta que puede usar el cmdlet [Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para devolver la dirección URL usada para obtener acceso a Skype Empresarial Server informes de supervisión:
+Tenga en cuenta que puede usar el cmdlet [Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para devolver la dirección URL usada para obtener acceso a Skype Empresarial Server de supervisión:
   
 ```PowerShell
 Get-CsReportingConfiguration
@@ -85,7 +85,7 @@ De forma predeterminada, el Panel de supervisión muestra los datos de las sigui
     
 - Total de minutos de participantes RTC
     
-Además de las métricas de uso del sistema, las siguientes métricas muestran el total del día actual y los seis días anteriores (si selecciona Vista **semanal)** o para la semana actual y las últimas seis semanas si selecciona Vista **mensual**.
+Además de las métricas de uso del sistema, las siguientes métricas muestran el total del día actual y los seis días anteriores (si selecciona Vista **semanal) o** de la semana actual y las últimas seis semanas si selecciona Vista **mensual.**
   
 ## <a name="per-user-call-diagnostics"></a>Per-User diagnóstico de llamadas
 
@@ -149,15 +149,15 @@ Principales servidores peores por porcentaje de llamadas de mala calidad
   
 ## <a name="working-with-the-monitoring-dashboard"></a>Trabajar con el Panel de supervisión
 
-Como se ha indicado, los totales predeterminados se muestran para la semana actual y los valores de tendencia se muestran durante las últimas seis semanas. Si prefiere ver los totales del mes actual (así como los valores  de tendencia de los últimos seis meses), haga clic en el vínculo Vista mensual en la esquina superior derecha del panel. Si decide ver totales mensuales, el texto del vínculo cambiará a **Vista semanal**. Puede volver a la vista semanal haciendo clic en ese vínculo.
+Como se ha indicado, los totales predeterminados se muestran para la semana actual y los valores de tendencia se muestran durante las últimas seis semanas. Si prefiere ver los totales del mes actual (así como los valores de tendencia de los últimos seis meses), haga clic en  el vínculo Vista mensual en la esquina superior derecha del panel. Si decide ver totales mensuales, el texto del vínculo cambiará a **Vista semanal**. Puede volver a la vista semanal haciendo clic en ese vínculo.
   
 > [!TIP]
 > El Panel de supervisión le restringe a ver los totales de la semana actual (o mes) y los valores de tendencia de las últimas seis semanas (o meses). No puede cambiar estas fechas y horas. Por ejemplo, no puede usar el Panel para ver los totales de informes del período de tiempo que comenzó hace nueve meses. 
   
-Los valores que se muestran en **las columnas This week**, This **month** o **Today** le vinculan a información más detallada sobre el elemento. Tenga en cuenta que el nombre de columna y los valores que se muestran en esa columna a menudo variarán según la métrica elegida y en función de si ha seleccionado una vista semanal o una vista mensual. Por ejemplo, si hace clic en los totales que se muestran para la métrica Inicios de sesión de usuario **únicos,** verá el **Informe** de registro de usuarios para el período de tiempo especificado. Puede volver al Panel de supervisión en cualquier momento haciendo clic en **Panel**.
+Los valores que se muestran en **las columnas Esta semana**, **Este** mes o Hoy le vinculan a información más detallada sobre el elemento. Tenga en cuenta que el nombre de columna y los valores que se muestran en esa columna a menudo variarán según la métrica elegida y en función de si ha seleccionado una vista semanal o una vista mensual. Por ejemplo, si hace clic en los totales que se muestran para la métrica Inicios de sesión de usuario **únicos** , verá el **Informe** de registro de usuarios para el período de tiempo especificado. Puede volver al Panel de supervisión en cualquier momento haciendo clic en **Panel**.
   
 > [!TIP]
-> También puede obtener acceso a la página  principal informes del servidor de supervisión haciendo clic en el vínculo Informes de la esquina superior derecha del panel.
+> También puede obtener acceso a la página principal informes del servidor de supervisión  haciendo clic en el vínculo Informes de la esquina superior derecha del panel.
   
 La **columna Tendencia** muestra un gráfico de línea simple que muestra totales de las últimas seis semanas (o, según la métrica y el intervalo de tiempo, los últimos seis días o los últimos seis meses). Estos gráficos de línea simples muestran un punto de datos sin etiquetar para cada período de tiempo (por ejemplo, un punto de datos sin etiquetar para cada una de las últimas seis semanas). Sin embargo, puede recuperar los valores reales de estos gráficos manteniendo el puntero del mouse sobre el gráfico. En ese caso, una sugerencia de herramienta muestra los valores máximos y mínimos en el gráfico.
   
@@ -179,17 +179,17 @@ El Panel de supervisión proporciona varias formas de exportar la vista del pane
     
 - Word
     
-Para exportar la vista de panel actual (y sus valores), haga clic en la opción de exportación deseada. Skype Empresarial Server genera un informe en el formato especificado y, a continuación, le ofrece la opción de abrir dicho informe o guardarlo. Tenga en cuenta que, de forma predeterminada, Skype Empresarial Server títulos del Panel de supervisión del informe y lo guarda en la carpeta Descargas.  Para dar al informe un nombre diferente o para almacenarlo en  una carpeta diferente, haga clic en la flecha situada junto al botón Guardar y, a continuación, haga clic **en Guardar como**. Si está bien con el nombre **Panel de supervisión** y con el informe guardado en la carpeta Descargas, puede hacer clic en el **botón** Guardar.
+Para exportar la vista de panel actual (y sus valores), haga clic en la opción de exportación deseada. Skype Empresarial Server genera un informe en el formato especificado y, a continuación, le ofrece la opción de abrir dicho informe o guardarlo. Tenga en cuenta que, de forma Skype Empresarial Server títulos del Panel de supervisión  del informe y lo guarda en la carpeta Descargas. Para dar al informe un nombre diferente o para almacenarlo en una carpeta diferente, haga clic en la flecha situada  junto al botón Guardar y, a continuación, haga clic **en Guardar como**. Si está bien con el nombre **Panel de supervisión** y con el informe guardado en la carpeta Descargas, puede hacer clic en **el botón** Guardar.
   
-Es posible que, al intentar exportar datos  del panel, aparezca un cuadro de diálogo Alerta de seguridad junto con el mensaje "La configuración actual no permite descargar este archivo". Si esto ocurre, haga lo siguiente:
+Es posible que, al intentar exportar datos del panel, aparezca un cuadro de  diálogo Alerta de seguridad junto con el mensaje "La configuración actual no permite descargar este archivo". Si esto ocurre, haga lo siguiente:
   
 - En Internet Explorer, seleccione **Opciones de Internet**.
     
-- En el cuadro **de diálogo Opciones de Internet,** en la **pestaña** Seguridad, haga clic en **Sitios** de confianza y, a continuación, haga clic **en Sitios**.
+- En el cuadro **de diálogo Opciones de Internet** , en la **pestaña** Seguridad, haga clic en **Sitios de confianza** y, a continuación, haga clic en **Sitios**.
     
-- En el **cuadro de**  diálogo Sitios de confianza, haga clic en Agregar para agregar el Skype Empresarial Server que se ejecuta Skype Empresarial Server informes a las colecciones de sitios web de confianza.
+- En el **cuadro de diálogo** Sitios de confianza, haga clic en Agregar para agregar el Skype Empresarial Server que se ejecuta Skype Empresarial Server informes a las colecciones de sitios web de confianza.
     
-- Haga clic **en Cerrar** y, a continuación, en **Aceptar**.
+- Haga clic **en Cerrar** y, a continuación, **en Aceptar**.
     
 A continuación, deberá actualizar el Panel de supervisión antes de que los cambios sumen efecto. Para ello, presione F5 o haga clic en el icono **Actualizar** de la barra de herramientas Panel. (El **icono Actualizar** es un círculo con un par de flechas verdes en él).
   

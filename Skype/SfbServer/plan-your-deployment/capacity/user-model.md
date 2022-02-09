@@ -1,8 +1,8 @@
 ---
 title: Uso del modelo de usuario de planeación de capacidad para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: En este artículo se proporcionan instrucciones sobre cuántos servidores necesita en un sitio para el número de usuarios en ese sitio, según el uso descrito en Modelos de usuario en Skype Empresarial Server.
-ms.openlocfilehash: 145e790c0f6c7ceeaa7330c0cd48ad68bc15b331
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b661c08e15d2de66f213d7deba02a6c162cb7fa6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846363"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418453"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Uso del modelo de usuario de planeación de capacidad para Skype Empresarial Server
 
@@ -52,7 +52,7 @@ En la tabla siguiente se resumen nuestras recomendaciones.
 |Un director   |12.000 usuarios remotos simultáneos.   |
 |Supervisión y archivado   |Los servicios front-end de supervisión y archivado se ejecutan en cada servidor front-end, en lugar de en roles de servidor independientes.  <br/> La supervisión y el archivado aún requieren sus propios almacenes de bases de datos. Si también ejecuta Exchange 2013 o posterior, puede mantener los datos de archivado en Exchange, en lugar de en una base de datos SQL dedicada.   |
 |Un servidor de mediación   |El servidor de mediación asociado con el servidor front-end se ejecuta en todos los servidores front-end de un grupo de servidores y debe proporcionar suficiente capacidad para los usuarios del grupo. Para el servidor de mediación independiente, vea la sección "Servidor de mediación" más adelante en este tema.   |
-|Un servidor Standard Edition   |Se recomienda encarecidamente que si usa servidores Standard Edition para hospedar usuarios, siempre use dos servidores, emparejados con las recomendaciones de Planeación de alta disponibilidad y recuperación [ante desastres.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery) Cada servidor del par puede hospedar hasta 2.500 usuarios y, si se produce un error en un servidor, el servidor restante puede admitir 5.000 usuarios en un escenario de conmutación por error.  <br/>  Si la implementación incluye una cantidad significativa de tráfico de audio o vídeo, el rendimiento del servidor puede sufrir más de 2.500 usuarios por servidor. En este caso, debe considerar agregar más servidores Standard Edition o pasar a Skype Empresarial Server Enterprise Edition.  |
+|Un servidor Standard Edition   |Se recomienda encarecidamente que si usa servidores Standard Edition para hospedar usuarios, siempre use dos servidores, emparejados con las recomendaciones de Planeación de alta disponibilidad y recuperación [ante desastres](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery). Cada servidor del par puede hospedar hasta 2.500 usuarios y, si se produce un error en un servidor, el servidor restante puede admitir 5.000 usuarios en un escenario de conmutación por error.  <br/>  Si la implementación incluye una cantidad significativa de tráfico de audio o vídeo, el rendimiento del servidor puede sufrir más de 2.500 usuarios por servidor. En este caso, debe considerar agregar más servidores Standard Edition o pasar a Skype Empresarial Server Enterprise Edition.  |
 
 ## <a name="front-end-server"></a>Servidor front-end
 
@@ -77,18 +77,18 @@ El número de usuarios admitidos con buen rendimiento por un grupo de servidores
 
 - El uso de su organización es muy diferente de los modelos de usuario, por ejemplo, si tiene mucho más tráfico de conferencia.
 
-En la tabla siguiente se muestra el ancho de banda promedio para mensajería instantánea y presencia, dado el modelo de usuario, tal como se define en Modelos de [usuario en Skype Empresarial Server](user-models.md).
+En la tabla siguiente se muestra el ancho de banda promedio de mensajería instantánea y presencia, dado el modelo de usuario, tal como se define en [Modelos de usuario en Skype Empresarial Server](user-models.md).
 
 |Ancho de banda medio por usuario|Requisitos de ancho de banda por servidor front-end con 6.660 usuarios|
 |:-----|:-----|
 |1,3 Kbps   |13 Mbps   |
 
 > [!NOTE]
-> Para mejorar el rendimiento multimedia de la funcionalidad de servidor de mediación y conferencia A/V en los servidores front-end, debe habilitar el escalado del lado de recepción (RSS) en los adaptadores de red de los servidores front-end. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, [consulte Receive Side Scaling (RSS) en la Windows Server 2012 de datos](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)). Para obtener más información sobre cómo habilitar RSS, deberá consultar la documentación del adaptador de red.
+> Para mejorar el rendimiento multimedia de la funcionalidad de servidor de mediación y conferencia A/V en los servidores front-end, debe habilitar el escalado del lado de recepción (RSS) en los adaptadores de red de los servidores front-end. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, [consulte Receive Side Scaling (RSS) en la Windows Server 2012 documentación](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)). Para obtener más información sobre cómo habilitar RSS, deberá consultar la documentación del adaptador de red.
 
 ## <a name="conferencing-maximums"></a>Máximos de conferencia
 
-Dado el modelo de usuario que el 5 % de los usuarios de un grupo de servidores puede estar en una conferencia a la vez, un grupo de 80.000 usuarios podría tener unos 4.000 usuarios en conferencias simultáneamente. Se espera que esas conferencias sean una combinación de varios medios (algunas, solo de MI; otras, de MI con audio; otras, de audio y vídeo, por ejemplo) y diferentes números de participantes. No hay un límite difícil para el número real de conferencias permitidas y el uso real determina el rendimiento real. Por ejemplo, si su organización tiene muchas más conferencias en modo mixto de las que se suponen en el modelo de usuario, es posible que deba implementar más servidores front-end o servidores de conferencia A/V que las recomendaciones que se encuentran en este artículo. Para obtener información detallada sobre los supuestos del modelo de usuario, vea [Modelos de usuario en Skype Empresarial Server](user-models.md).
+Dado el modelo de usuario que el 5 % de los usuarios de un grupo de servidores puede estar en una conferencia a la vez, un grupo de 80.000 usuarios podría tener unos 4.000 usuarios en conferencias simultáneamente. Se espera que esas conferencias sean una combinación de varios medios (algunas, solo de MI; otras, de MI con audio; otras, de audio y vídeo, por ejemplo) y diferentes números de participantes. No hay un límite difícil para el número real de conferencias permitidas y el uso real determina el rendimiento real. Por ejemplo, si su organización tiene muchas más conferencias en modo mixto de las que se suponen en el modelo de usuario, es posible que deba implementar más servidores front-end o servidores de conferencia A/V que las recomendaciones que se encuentran en este artículo. Para obtener más información sobre los supuestos del modelo de usuario, vea [Modelos de usuario en Skype Empresarial Server](user-models.md).
 
 El tamaño máximo de conferencia admitido hospedado por un grupo de servidores Skype Empresarial Server cliente que también hospeda usuarios es de 250 participantes. Mientras se está produciendo una conferencia de 250 usuarios, el grupo de servidores también admite otras conferencias, de forma que un total del 5 % de los usuarios del grupo están en conferencias simultáneas. Por ejemplo, en un grupo de doce servidores front-end y 80.000 usuarios, mientras se está produciendo la conferencia de 250 usuarios, Skype Empresarial Server admite otros 3.750 usuarios que participan en conferencias más pequeñas.
 
@@ -96,26 +96,26 @@ Independientemente del número de usuarios que se hospedan en el grupo de servid
 
 Para habilitar conferencias con entre 250 y 1000 usuarios, puede configurar un grupo de servidores front-end independiente solo para hospedar esas conferencias. Este grupo de servidores front-end no hospedará ningún usuario. Para obtener más información, consulte [Plan for large meetings in Skype Empresarial Server](../../plan-your-deployment/conferencing/large-meetings.md).
 
-Si su organización tiene muchas más conferencias en modo mixto de las que se suponen en el modelo de usuario, es posible que deba implementar más servidores front-end de los recomendados en este documento (hasta un límite de 12 servidores front-end). Para obtener información detallada sobre los supuestos del modelo de usuario, vea [Modelos de usuario en Skype Empresarial Server](user-models.md).
+Si su organización tiene muchas más conferencias en modo mixto de las que se suponen en el modelo de usuario, es posible que deba implementar más servidores front-end de los recomendados en este documento (hasta un límite de 12 servidores front-end). Para obtener más información sobre los supuestos del modelo de usuario, vea [Modelos de usuario en Skype Empresarial Server](user-models.md).
 
 ## <a name="edge-server"></a>Servidor perimetral
 
 > [!NOTE]
 > Los grupos de servidores extendidos no son compatibles con este rol de servidor.
 
-Debe implementar un servidor perimetral por cada 12.000 usuarios remotos que tendrán acceso a un sitio simultáneamente. Como mínimo, se recomienda el uso de dos servidores perimetrales para obtener alta disponibilidad. Estas recomendaciones suponen que el hardware de los servidores perimetrales cumple las recomendaciones de [Plataformas de hardware de servidor](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
+Debe implementar un servidor perimetral por cada 12.000 usuarios remotos que tendrán acceso a un sitio simultáneamente. Como mínimo, se recomienda el uso de dos servidores perimetrales para obtener alta disponibilidad. Estas recomendaciones suponen que el hardware de los servidores perimetrales cumple las recomendaciones de [Las plataformas de hardware de servidor](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 Cuando calcule el número de usuarios de los servidores perimetrales, incluya los usuarios hospedados en aplicaciones de sucursal con funciones de supervivencia y servidores de sucursal con funciones de supervivencia de las sucursales que estén asociados a un grupo de servidores front-end en este sitio.
 
 > [!NOTE]
-> Para mejorar el rendimiento del servicio de conferencia A/V en los servidores perimetrales, debe habilitar el ajuste de escala en lado de recepción (RSS) en los adaptadores de red de los servidores perimetrales. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, compruebe "[Receive Side Scaling (RSS) in Windows Server 2012".](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) Para obtener más información sobre cómo habilitar RSS, deberá consultar la documentación del adaptador de red.
+> Para mejorar el rendimiento del servicio de conferencia A/V en los servidores perimetrales, debe habilitar el ajuste de escala en lado de recepción (RSS) en los adaptadores de red de los servidores perimetrales. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, [compruebe "Receive Side Scaling (RSS) in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))". Para obtener más información sobre cómo habilitar RSS, deberá consultar la documentación del adaptador de red.
 
 ## <a name="director"></a>Director
 
 > [!NOTE]
 > Los grupos de servidores extendidos no son compatibles con este rol de servidor.
 
-Si implementa el rol de servidor Director, se recomienda implementar un director por cada 12.000 usuarios remotos que tendrán acceso a un sitio simultáneamente. Como mínimo, se recomienda el uso de dos directores para obtener alta disponibilidad. Estas recomendaciones suponen que el hardware de los servidores perimetrales cumple las recomendaciones de [Plataformas de hardware de servidor](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
+Si implementa el rol de servidor Director, se recomienda implementar un director por cada 12.000 usuarios remotos que tendrán acceso a un sitio simultáneamente. Como mínimo, se recomienda el uso de dos directores para obtener alta disponibilidad. Estas recomendaciones suponen que el hardware de los servidores perimetrales cumple las recomendaciones de [Las plataformas de hardware de servidor](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 Cuando calcule el número de usuarios de los directores, incluya los usuarios hospedados en aplicaciones de sucursal con funciones de supervivencia y servidores de sucursal con funciones de supervivencia de las sucursales que estén asociados a un grupo de servidores front-end en este sitio.
 
@@ -128,15 +128,15 @@ Si se asocia el servidor de mediación con el servidor front-end, el servidor de
 
 Si implementa un grupo de servidores de mediación independiente, el número de servidores de mediación que se va a implementar depende de muchos factores, incluido el hardware usado para el servidor de mediación, el número de usuarios VoIP que tiene, el número de servidores del mismo nivel de puerta de enlace que controla cada grupo de servidores de mediación, el tráfico de horas ocupadas a través de esas puertas de enlace y el porcentaje de llamadas con medios que omite el servidor de mediación.
 
-En las tablas siguientes se proporciona una guía sobre cuántas llamadas simultáneas puede controlar un servidor de mediación, suponiendo que el hardware de los servidores de mediación cumple los requisitos de las plataformas de [hardware](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) de servidor y que el hiperprocesamiento está habilitado. Para obtener más información sobre la escalabilidad del servidor de mediación, vea [Estimating voice usage and traffic for Skype Empresarial Server](estimating-voice-traffic.md) and Deployment guidelines for Mediation Server in [Skype Empresarial Server](mediation-server-deployment-guidelines.md).
+En las tablas siguientes se proporciona una guía sobre cuántas llamadas simultáneas puede controlar un servidor de mediación, suponiendo que el hardware de los servidores de mediación cumple los requisitos de las plataformas de [hardware](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) de servidor y que el hiperprocesamiento está habilitado. Para obtener más información sobre la escalabilidad del servidor de mediación, vea [Estimating voice usage and traffic for Skype Empresarial Server](estimating-voice-traffic.md) and [Deployment guidelines for Mediation Server in Skype Empresarial Server](mediation-server-deployment-guidelines.md).
 
-Todas las tablas siguientes suponen el uso tal como se resume en [Modelos de usuario en Skype Empresarial Server](user-models.md).
+Todas las tablas siguientes asumen el uso tal como se resume en [Modelos de usuario en Skype Empresarial Server](user-models.md).
 
 **Capacidad del servidor de mediación independiente: 70 % usuarios internos, 30 % usuarios externos con capacidad de llamada sin desvío (transcodificación de medios realizada por el servidor de mediación)**
 
 |Hardware de servidor|Número máximo de llamadas|Número máximo de líneas T1|Número máximo de líneas E1|
 |:-----|:-----|:-----|:-----|
-|Procesador dual, núcleo hexadecimal, CPU hiperprocesada de 2,26 GHz con **hyper-threading** deshabilitado, con 32 GB de memoria y una tarjeta de adaptador de red de doble puerto.   |1100   |46   |35   |
+|Procesador dual, núcleo hexadecimal, CPU hiperprocesada de 2,26 GHz con **hyper-threading** deshabilitado, con 32 GB de memoria y una tarjeta adaptadora de red de doble puerto.   |1100   |46   |35   |
 |Procesador dual, núcleo hexadecimal, CPU hiperprocesada de 2,26 GHz, con 32 GB de memoria y una tarjeta adaptadora de red de doble puerto.   |1500   |63   |47   |
 
 > [!NOTE]
@@ -152,11 +152,11 @@ Todas las tablas siguientes suponen el uso tal como se resume en [Modelos de usu
 > Este número es mucho menor que los números del servidor de mediación independiente. Esto se debe a que el servidor front-end tiene que controlar otras características y funciones para los 6600 usuarios que se alojen en él, además de la transcodificación necesaria para las llamadas de voz.
 
 > [!NOTE]
-> Para mejorar el rendimiento del servidor de mediación, debe habilitar el escalado del lado de recepción (RSS) en los adaptadores de red de los servidores de mediación. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "[Receive-Side Scaling in Windows Server 2012".](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) Para obtener más información sobre cómo habilitar RSS, deberá consultar la documentación del adaptador de red.
+> Para mejorar el rendimiento del servidor de mediación, debe habilitar el escalado del lado de recepción (RSS) en los adaptadores de red de los servidores de mediación. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, consulte "[Escala del lado de recepción en Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))". Para obtener más información sobre cómo habilitar RSS, deberá consultar la documentación del adaptador de red.
 
 ## <a name="back-end-server"></a>Servidor back-end
 
-Aunque gran parte de la información de la base de datos se almacena principalmente en los servidores front-end, debe asegurarse de que los servidores back-end cumplan las recomendaciones de hardware enumeradas anteriormente en esta sección y en Plataformas de [hardware de servidor.](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
+Aunque gran parte de la información de la base de datos se almacena principalmente en los servidores front-end, debe asegurarse de que los servidores back-end cumplan con las recomendaciones de hardware enumeradas anteriormente en esta sección y en Plataformas de [hardware de servidor](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 Para proporcionar alta disponibilidad del servidor back-end, se recomienda implementar grupos de disponibilidad AlwaysOn o creación de reflejos del servidor. Para obtener más información, [vea Back End Server high availability in Skype Empresarial Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
 

@@ -1,7 +1,7 @@
 ---
 title: Habilitar enrutamiento basado en la ubicación para el enrutamiento directo
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 750c20367c5710054d2b19d266ff9dc70f46edd9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a53ab4ad866f3d9ad6acb1258247da59b15a27d9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829624"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399494"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar enrutamiento basado en la ubicación para el enrutamiento directo
 
-Antes de seguir los pasos de este artículo, asegúrese de que ha leído [Plan de enrutamiento Location-Based](location-based-routing-plan.md) para enrutamiento directo y ha completado los pasos de Configurar la configuración de red para Location-Based [enrutamiento.](location-based-routing-configure-network-settings.md)
+Antes de seguir los pasos de este artículo, asegúrese de que ha leído [Plan de enrutamiento Location-Based](location-based-routing-plan.md) para enrutamiento directo y ha completado los pasos de Configurar la configuración de red [para Location-Based enrutamiento](location-based-routing-configure-network-settings.md).
 
 En este artículo se describe cómo habilitar Location-Based enrutamiento directo. Después de implementar Sistema telefónico enrutamiento directo y configurar regiones de red, sitios y subredes, ya está listo para habilitar Location-Based enrutamiento. Para completar los pasos de este artículo, necesitará familiarizarse con los cmdlets de PowerShell. Para obtener más información, [vea Teams información general de PowerShell](teams-powershell-overview.md).
 
@@ -36,7 +36,7 @@ En este artículo se describe cómo habilitar Location-Based enrutamiento direct
 - Configuraciones de puerta de enlace
 - Directivas de llamada
 
-Puede usar el centro [Microsoft Teams de administración](#using-the-microsoft-teams-admin-center) o [PowerShel](#using-powershell)l para habilitar Location-Based enrutamiento.
+Puede usar el centro [Microsoft Teams de administración](#using-the-microsoft-teams-admin-center) o [PowerShell](#using-powershell) para habilitar Location-Based enrutamiento.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
@@ -48,27 +48,27 @@ Puede usar el centro [Microsoft Teams de administración](#using-the-microsoft-t
     - Use los usos rtc asociados a las rutas de voz que usan una puerta de enlace RTC ubicada en una región donde no se necesitan Location-Based restricciones de enrutamiento.
 2. Asigne la directiva de enrutamiento de voz a los usuarios que requieran que se exijan restricciones de enrutamiento.
 
-Para obtener más información sobre cómo crear directivas de enrutamiento de voz y asignarlas a los usuarios, vea Administrar directivas de enrutamiento de voz [en Microsoft Teams](manage-voice-routing-policies.md).
+Para obtener más información sobre cómo crear directivas de enrutamiento de voz y asignarlas a los usuarios, vea Administrar directivas de enrutamiento de [voz en Microsoft Teams](manage-voice-routing-policies.md).
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>Habilitar Location-Based enrutamiento para sitios de red
 
-Habilite Location-Based enrutamiento para los sitios que necesitan aplicar restricciones de enrutamiento. Para ello, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a Topología de red de ubicaciones, seleccione un sitio de red, haga clic en Editar y, a continuación, active Enrutamiento basado en  >   **ubicación.**   
+Habilite Location-Based enrutamiento para los sitios que necesitan aplicar restricciones de enrutamiento. Para ello, en la navegación izquierda del centro de administración de Microsoft Teams,  >  vaya a Topología **locationsNetwork**, seleccione un sitio de red, haga clic en Editar **y, después**, active Enrutamiento basado en **ubicación**.  
 
-Para obtener más información, vea [Administrar la topología de red.](manage-your-network-topology.md)
+Para obtener más información, vea [Administrar la topología de red](manage-your-network-topology.md).
 
 ### <a name="enable-location-based-routing-for-gateways"></a>Habilitar Location-Based enrutamiento de puertas de enlace
 
 Habilite Location-Based enrutamiento a puertas de enlace que enrute llamadas a puertas de enlace RTC que enrute llamadas a la RTC y asocie el sitio de red donde se encuentra la puerta de enlace. 
 
-1. En el panel de navegación izquierdo, vaya a **Enrutamiento** directo  >  **de** voz y, a continuación, haga clic en la pestaña **SBC.**
-2. Seleccione el SBC y, a continuación, haga clic **en Editar.** 
-3. En **Enrutamiento basado en ubicación y optimización multimedia,** active Habilitar enrutamiento basado en **ubicación.**
+1. En el panel de navegación izquierdo, vaya a **Enrutamiento** **de VoiceDirect** >  y, a continuación, haga clic en la pestaña **SBC**.
+2. Seleccione el SBC y, a continuación, haga clic en **Editar**. 
+3. En **Enrutamiento basado en la ubicación y optimización de medios**, active **Habilitar enrutamiento basado en ubicación**.
 4. Especifique el id. de sitio de la puerta de enlace y, después, establezca el modo de omisión.
 5. Haga clic en **Guardar**.
 
 ### <a name="enable-location-based-routing-for-calling-policies"></a>Habilitar Location-Based enrutamiento para directivas de llamadas
 
-Para exigir Location-Based enrutamiento para usuarios específicos, configure la directiva de llamadas del usuario para evitar la omisión de pago RTC. Para ello, active la configuración Evitar la omisión **de** pago en la directiva de llamadas.
+Para exigir Location-Based enrutamiento para usuarios específicos, configure la directiva de llamadas del usuario para evitar la omisión de pago RTC. Para ello, active la configuración Evitar la **omisión de pago** en la directiva de llamadas.
 
 Para obtener más información, vea [Directivas de llamadas en Teams](teams-calling-policy.md).
 
@@ -114,7 +114,7 @@ Para obtener más información, vea [Directivas de llamadas en Teams](teams-call
     ```
 ### <a name="enable-location-based-routing-for-network-sites"></a>Habilitar Location-Based enrutamiento para sitios de red
 
-1.  Use el cmdlet [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) para habilitar Location-Based enrutamiento y asociar directivas de enrutamiento de voz a los sitios de red que necesitan aplicar restricciones de enrutamiento.
+1.  Use el cmdlet [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) para habilitar Location-Based Enrutamiento y asociar directivas de enrutamiento de voz a los sitios de red que necesitan aplicar restricciones de enrutamiento.
     ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
@@ -146,7 +146,7 @@ Para obtener más información, vea [Directivas de llamadas en Teams](teams-call
     ```PowerShell
     New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignalingPort 5067 
     ```
-    Para obtener más información, vea [Configurar enrutamiento directo.](direct-routing-configure.md)
+    Para obtener más información, vea [Configurar enrutamiento directo](direct-routing-configure.md).
     
 2. Use el cmdlet [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) para habilitar Location-Based enrutamiento para las puertas de enlace que necesitan aplicar restricciones de enrutamiento. 
 

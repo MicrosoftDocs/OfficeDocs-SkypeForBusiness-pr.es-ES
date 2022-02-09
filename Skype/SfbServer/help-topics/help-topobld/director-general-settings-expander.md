@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración general de director
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 'Para editar la configuración de un Director existente, le presentamos las secciones siguientes:'
-ms.openlocfilehash: 4913b70a585b18c1ce4dbe12a435ca5d39bcc216
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5013edf82c630ed2c2e155dc4558683a735bcc92
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851174"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399794"
 ---
 # <a name="director-general-settings-expander"></a>Expansor de configuración general de director
  
@@ -38,7 +38,7 @@ Nombre de dominio completo (FQDN) del grupo de Directores. Edite el FQDN del ser
   
 En **Asociaciones** puede editar o especificar los elementos siguientes:
   
-El recurso compartido de archivos que debe usar el grupo de directores. Seleccione un recurso compartido de archivos existente que ya se haya definido en el Generador de topologías o haga clic en Nuevo **para** crear una nueva definición de recurso compartido de archivos.
+El recurso compartido de archivos que debe usar el grupo de directores. Seleccione un recurso compartido de archivos existente que ya se haya definido en el Generador de topologías o haga clic en **Nuevo para crear** una nueva definición de recurso compartido de archivos.
   
 Supervisión del almacén de SQL Server.
   
@@ -52,7 +52,7 @@ Para editar o especificar una configuración adicional de los servicios web en e
 En el caso de los **servicios web internos** puede especificar lo siguiente:
   
 > [!CAUTION]
-> Si tiene más de un grupo de servidores front-end o servidor front-end, el FQDN de servicios web externos debe ser único. Por ejemplo, si define el FQDN de servicios web externos de un servidor front-end como pool01.contoso.com **,** no puede usar **pool01.contoso.com** para otro grupo de servidores front-end o servidor front-end. Si también va a implementar directores, el FQDN de servicios web externos definido para cualquier director o grupo de directores debe ser único de cualquier otro director o grupo de directores, así como de cualquier grupo de servidores front-end o servidor front-end. Si decide invalidar los servicios web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores.
+> Si tiene más de un grupo de servidores front-end o servidor front-end, el FQDN de servicios web externos debe ser único. Por ejemplo, si define el FQDN de servicios web externos de un servidor front-end como **pool01.contoso.com, no** puede usar **pool01.contoso.com** para otro grupo de servidores front-end o servidor front-end. Si también va a implementar directores, el FQDN de servicios web externos definido para cualquier director o grupo de directores debe ser único de cualquier otro director o grupo de directores, así como de cualquier grupo de servidores front-end o servidor front-end. Si decide invalidar los servicios web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores.
   
 Si selecciona FQDN de reemplazo, puede especificar un FQDN distinto para la identidad de los servicios web internos en el grupo. De forma predeterminada, la configuración del nombre de grupo actual la define el grupo de directores.
   

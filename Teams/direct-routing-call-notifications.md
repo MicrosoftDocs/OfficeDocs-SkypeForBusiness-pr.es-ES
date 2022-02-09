@@ -1,5 +1,5 @@
 ---
-title: 'Teams: Administrar notificaciones de llamadas'
+title: Administrar notificaciones de llamadas para enrutamiento directo
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,7 +10,7 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.reviewer: nmurav
+ms.reviewer: filippse
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,23 +18,23 @@ description: Notificación de llamada de enrutamiento directo
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 80c7c5487d61447a38852ca30328126b19c0499b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 4af5d65a3d92fbe104b7c998cd8045b6fb52c653
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725929"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457190"
 ---
 # <a name="manage-call-notifications"></a>Administrar notificaciones perdidas
 
-En este artículo se describe cómo administrar las notificaciones de llamadas para los usuarios. Puede configurar puntos de conexión de llamadas tanto en Teams como en una sucursal privada de terceros Exchange (PBX) o controlador de borde de sesión (SBC).  Esta configuración es útil, por ejemplo, si desea enviar una llamada a los teléfonos móviles y de escritorio de un usuario al mismo tiempo.   
+En este artículo se describe cómo administrar las notificaciones de llamadas para los usuarios de Enrutamiento directo. Puede configurar puntos de conexión de llamadas tanto en Teams como en una sucursal privada de terceros Exchange (PBX) o controlador de borde de sesión (SBC). Esta configuración es útil, por ejemplo, si desea enviar una llamada a los teléfonos móviles y de escritorio de un usuario al mismo tiempo.   
 
 En el diagrama siguiente, el usuario Irena tiene dos puntos de conexión:
 
 - Un punto Teams de conexión
 - Un teléfono SIP conectado a un SBC de terceros
 
-Cuando llega una llamada, el SBC bifurca la llamada entre Sistema telefónico enrutamiento directo y el SBC de terceros.
+Cuando llega una llamada, el SBC bifurca la llamada entre enrutamiento directo y el SBC de terceros.
 
 
 ![Diagrama que muestra puntos de conexión Teams bifurcados.](media/direct-routing-call-notification-1.png)
@@ -45,7 +45,7 @@ Puede evitar la notificación "Llamada perdida" configurando el SBC para enviar 
 
 MOTIVO: SIP; cause=200;text"Llamada completada en otro lugar" 
 
-La llamada no se registrará en los registros de detalles de llamada de Teléfono Microsoft Sistema como una llamada correcta. La llamada se registrará como un "Intento" con el código SIP final "487", el subcódigo final de Microsoft "540200" y la frase de código SIP final "Llamada completada en otro lugar".  (Para ver los registros de detalles de llamadas, vaya al portal de administración de Teams, Análisis e informes, Informes de uso y seleccione Uso de RTC).
+La llamada no se registrará en los registros de detalles de la llamada Teams Sistema telefónico como una llamada correcta. La llamada se registrará como un "Intento" con el código SIP final "487", el subcódigo final de Microsoft "540200" y la frase de código SIP final "Llamada completada en otro lugar".  (Para ver los registros de detalles de llamadas, vaya al Centro de administración de Teams -> **Analytics e InformesUsage** ->  **Informes** y seleccione Uso **rtc**).
 
 
 En el diagrama siguiente se muestra la escala SIP de Bifurcación 1, se explica el flujo de llamadas y la RAZÓN esperada en el mensaje Cancelar. 

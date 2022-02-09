@@ -1,8 +1,8 @@
 ---
 title: Cambios realizados por Grant-CsOUPermission en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: Para delegar Skype Empresarial Server administración, puede agregar permisos a unidades organizativas (UNIDADES organizativas) especificadas para que los miembros de los grupos universales RTC creados mediante la preparación del bosque puedan tener acceso a las unidades organizativas sin ser miembros del grupo Administradores de dominio.
-ms.openlocfilehash: c8b7841fc6754c5f852945807a68089c922f6497
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 412fd5eb19f3dac23bbbf68cfd4eb751f56fa3bc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838472"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416403"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Cambios realizados por Grant-CsOUPermission en Skype Empresarial Server
  
@@ -32,7 +32,7 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de usuario en una un
   
 **Permisos concedidos para objetos de usuario**
 
-|**Group**|**Permiso**|**Se aplica a**|
+|**Grupo**|**Permiso**|**Se aplica a**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |Replicar los cambios de directorio  <br/> |Solo este objeto  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Contenidos de la lista  <br/> Leer todas las propiedades  <br/> Leer permisos  <br/> |Solo este objeto  <br/> |
@@ -46,7 +46,7 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de equipo en una uni
   
 **Permisos concedidos para objetos de equipo**
 
-|**Group**|**Permiso**|**Se aplica a**|
+|**Grupo**|**Permiso**|**Se aplica a**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |Replicar los cambios de directorio  <br/> |Solo este objeto  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Contenidos de la lista  <br/> Leer todas las propiedades  <br/> Leer permisos  <br/> |Solo este objeto  <br/> |
@@ -60,7 +60,7 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos Contact u objetos Ap
   
 **Permisos concedidos para objetos Contact o AppContact**
 
-|**Group**|**Permiso**|**Se aplica a**|
+|**Grupo**|**Permiso**|**Se aplica a**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |Replicar los cambios de directorio  <br/> |Solo este objeto  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Contenidos de la lista  <br/> Leer todas las propiedades  <br/> Leer permisos  <br/> |Solo este objeto  <br/> |
@@ -74,7 +74,7 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de dispositivo en un
   
 **Permisos concedidos para objetos de dispositivo**
 
-|**Group**|**Permiso**|**Se aplica a**|
+|**Grupo**|**Permiso**|**Se aplica a**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |Replicar los cambios de directorio  <br/> |Solo este objeto  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Contenidos de la lista  <br/> Leer todas las propiedades  <br/> Leer permisos  <br/> |Solo este objeto  <br/> |
@@ -90,7 +90,7 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos InetOrgPerson en una
   
 **Permisos concedidos para objetos InetOrgPerson**
 
-|**Group**|**Permiso**|**Se aplica a**|
+|**Grupo**|**Permiso**|**Se aplica a**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |Replicar los cambios de directorio  <br/> |Solo este objeto  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |Contenidos de la lista  <br/> Leer todas las propiedades  <br/> Leer permisos  <br/> |Solo este objeto  <br/> |

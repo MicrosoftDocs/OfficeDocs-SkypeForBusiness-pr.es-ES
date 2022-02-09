@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar operadores automáticos a través de cmdlets
-ms.openlocfilehash: 1a8a105da3cfeaad0b6bc4069d877d2d8ad95796
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 3911010b201e2b19376c24c6c4b84ae8dbcc5db8
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62181177"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457470"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>Crear un operador automático a través de cmdlets
 
@@ -38,11 +38,11 @@ ms.locfileid: "62181177"
 - Módulo MSOnline instalado ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  Tiene derechos de administración de inquilinos
 3)  Has comprado Microsoft Teams Teléfono
-4)  Las colas de llamadas a las que se hace referencia a continuación ya se han configurado siguiendo la guía Crear colas de llamadas con [cmdlets de PowerShell.](create-a-phone-system-call-queue-via-cmdlets.md)
+4)  Las colas de llamadas a las que se hace referencia a continuación ya se han configurado siguiendo la guía Crear colas de llamadas con [cmdlets de PowerShell](create-a-phone-system-call-queue-via-cmdlets.md) .
                                                                                                
-Nota: Algunos de los cmdlets a los que se hace referencia a continuación pueden formar parte de la versión de vista previa pública de Teams módulo de PowerShell.  Para obtener más información, vea Instalar Teams vista previa pública de [PowerShell](teams-powershell-install.md) y vea también Microsoft Teams [notas de la versión de PowerShell.](teams-powershell-release-notes.md)
+Nota: Algunos de los cmdlets a los que se hace referencia a continuación pueden formar parte de la versión de vista previa pública de Teams módulo de PowerShell.  Para obtener más información, vea [Instalar Teams vista previa pública de PowerShell](teams-powershell-install.md) y vea Microsoft Teams [de la versión de PowerShell](teams-powershell-release-notes.md).
 
-Los usuarios que ya tienen instalado el módulo MicrosoftTeams deben asegurarse de que la versión más actualizada ````Update-Module MicrosoftTeams```` está instalada.
+Los usuarios que ya tienen instalado el módulo MicrosoftTeams ````Update-Module MicrosoftTeams```` deben asegurarse de que la versión más actualizada está instalada.
 
 ## <a name="scenario"></a>Escenario
 
@@ -149,7 +149,7 @@ $newyearCallFlow = New-CsAutoAttendantCallFlow -Name "New Year" -Greetings @($ne
 $newyearCallHandlingAssociation = New-CsAutoAttendantCallHandlingAssociation -Type Holiday -ScheduleId $newyearSchedule.Id -CallFlowId $newyearCallFlow.Id
 ````
 
-### <a name="create-after-hours-schedules"></a>Crear programaciones de horas after hours
+### <a name="create-after-hours-schedules"></a>Crear programaciones de horas  after hours
 ````
 $timerangeMoFr = New-CsOnlineTimeRange -Start 08:30 -end 17:00
 
@@ -235,7 +235,6 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Crear y asignar una cuenta de recursos
-Nota: Teléfono número no obligatorio aquí, ya que la cola de llamadas está delante de una Operador automático
 - Id. de aplicación
 - - Operador automático: ce933385-9390-45d1-9512-c8d228074e07
 - - Cola de llamadas: 11cd3e2e-fccb-42ad-ad00-878b93575e07

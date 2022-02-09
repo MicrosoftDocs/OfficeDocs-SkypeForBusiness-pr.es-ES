@@ -1,8 +1,8 @@
 ---
 title: Tabla AppliedBandwidthSource
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 24fb3caf-19b3-4c0a-90d7-ca5d53de32ad
 description: La tabla AppliedBandwidthSource es una tabla auxiliar. Cada registro representa un origen.
-ms.openlocfilehash: 10dbe69533fe26ba156c270f003fb11ab56e5179
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c886c5179d40063c1325bea3167e06ae7fe37666
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856437"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411513"
 ---
 # <a name="appliedbandwidthsource-table"></a>Tabla AppliedBandwidthSource
  

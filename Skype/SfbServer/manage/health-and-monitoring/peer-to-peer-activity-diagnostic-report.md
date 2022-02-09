@@ -1,8 +1,8 @@
 ---
 title: Informe de diagnóstico de actividad punto a punto en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: 'Summary: Learn about the Peer-to-Peer Activity Diagnostic Report in Skype Empresarial Server.'
-ms.openlocfilehash: c0c568a75cddb8ea9f8165a196ee8cef1e03eaab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3698f4a6b585c3a244fa44f318fc991c3a9634ae
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858237"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411593"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico de actividad punto a punto en Skype Empresarial Server
  
@@ -39,7 +39,7 @@ Si suma 2024 + 469 + 16, obtiene un total de 2.509 sesiones, aunque la columna T
   
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>Obtener acceso al informe de diagnósticos de actividad punto a punto
 
-Al informe de diagnósticos de actividad punto a punto se obtiene acceso desde la página principal de informes de supervisión. Puede obtener acceso al informe de distribución de [errores en Skype Empresarial Server](failure-distribution-report.md) haciendo clic en cualquiera de las siguientes métricas:
+Al informe de diagnósticos de actividad punto a punto se obtiene acceso desde la página principal de informes de supervisión. Puede obtener acceso al [informe de distribución de errores en Skype Empresarial Server](failure-distribution-report.md) haciendo clic en cualquiera de las siguientes métricas:
   
 - Volumen de errores inesperados
     

@@ -1,8 +1,8 @@
 ---
 title: Agregar equipo director
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7d51493a-1b7a-43ad-b562-49e45f899796
 description: Especifique el nombre de dominio completo de cada equipo que desee agregar como director en este grupo de servidores. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Una vez publicada la topología, para cambiar el nombre de dominio se debe eliminar el servidor del Generador de topologías y, a continuación, agregar un nuevo servidor al grupo de servidores con el nuevo nombre de dominio completo.
-ms.openlocfilehash: 6d751c3a00e7aa0d9f324d327b01677b8f1d9286
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0ea8cc2bcbb09c5a8d5ac9472e2f469052054810
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827673"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418653"
 ---
 # <a name="add-director-machine"></a>Agregar equipo director
  

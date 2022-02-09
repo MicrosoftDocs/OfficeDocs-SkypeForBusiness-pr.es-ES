@@ -1,8 +1,8 @@
 ---
 title: Tabla ConferenceSessionDetails en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: Cada registro representa una sesión de conferencia, que podría ser la sesión con Foco o la sesión con un servidor de conferencia específico.
-ms.openlocfilehash: fc69150cf95ca0f00a4c1731aeda44f1e674a6cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6bb5b76f7ad8a5d5843be91db0ab420eea3d9f4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843673"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416393"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>Tabla ConferenceSessionDetails en Skype Empresarial Server 2015
  
@@ -28,9 +28,9 @@ Cada registro representa una sesión de conferencia, que podría ser la sesión 
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |Datetime  <br/> |Principal, Exterior  <br/> |Hora de la solicitud de sesión; se usa junto con **SessionIdSeq para** identificar de forma única una sesión de conferencia. Vea la [tabla Cuadros de diálogo de Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
 |**SessionIdSeq** <br/> |Entero  <br/> |Principal, Exterior  <br/> |Número del identificador para identificar la sesión. Se usa junto con **SessionIdTime para** identificar de forma única una sesión de conferencia. Vea la [tabla Cuadros de diálogo de Skype Empresarial Server 2015](dialogs.md) para obtener más información. * <br/> |
-|**ConferenceUriId** <br/> |Entero  <br/> |Externo  <br/> |URI de conferencia basada en Foco relacionada con esta sesión. Vea la [tabla ConferenceUris de Skype Empresarial Server 2015](conferenceuris.md) para obtener más información. Esta URI es una URI de conferencia basada en Foco. <br/> |
+|**ConferenceUriId** <br/> |Entero  <br/> |Externo  <br/> |URI de conferencia basada en Foco relacionada con esta sesión. Vea la [tabla ConferenceUris en Skype Empresarial Server 2015](conferenceuris.md) para obtener más información. Esta URI es una URI de conferencia basada en Foco. <br/> |
 |**ConfInstance** <br/> |uniqueIdentifier  <br/> ||Identificador que diferencia entre instancias de conferencias periódicas. Cada instancia de conferencia recurrente tiene el mismo ConferenceURI, pero un valor diferente de ConfInstance.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**McuConferenceUriId** <br/> |Entero  <br/> |Externo  <br/> |URI de conferencia para servidor de conferencia relacionada con esta sesión. Vea la [tabla ConferenceUris de Skype Empresarial Server 2015](conferenceuris.md) para obtener más información. Esta URI es la URI de conferencia basada en servidor de conferencia. En las sesiones de conferencia basadas en Foco, esta columna será nula. <br/> |
+|**McuConferenceUriId** <br/> |Entero  <br/> |Externo  <br/> |URI de conferencia para servidor de conferencia relacionada con esta sesión. Vea la [tabla ConferenceUris en Skype Empresarial Server 2015](conferenceuris.md) para obtener más información. Esta URI es la URI de conferencia basada en servidor de conferencia. En las sesiones de conferencia basadas en Foco, esta columna será nula. <br/> |
 |**UserId** <br/> |Entero  <br/> |Externo  <br/> |Id. de un usuario en la sesión de conferencia. Consulta la [tabla Usuarios](users.md) para obtener más información. <br/> |
 |**UserEndpointId** <br/> |uniqueidentifier  <br/> ||GUID para identificar la instancia del extremo. Por ejemplo, si un usuarios inicia sesión en diferentes equipos con la misma cuenta, cada equipo tendrá un id. de extremo diferente.  <br/> |
 |**OnBehalfOfId** <br/> |Entero  <br/> |Externo  <br/> |Señala el identificador de usuario en cuyo nombre llama el autor de la llamada. Consulta la [tabla Usuarios](users.md) para obtener más información. <br/> |
@@ -47,7 +47,7 @@ Cada registro representa una sesión de conferencia, que podría ser la sesión 
 |**ServerId** <br/> |Entero  <br/> |Externo  <br/> |Identificador del servidor front-end usado en esta sesión. Vea la [tabla Servidores para](servers.md) obtener más información. <br/> |
 |**PoolId** <br/> |Entero  <br/> |Externo  <br/> |Identificador del grupo en el que se capturó la sesión. Vea la [tabla Grupos de servidores](pools.md) para obtener más información. <br/> |
 |**MediationServerId** <br/> |Entero  <br/> |Externo  <br/> |El servidor de mediación que está utilizando la llamada. Vea la [tabla MediationServers](mediationservers.md) para obtener más información. <br/> |
-|**GatewayId** <br/> |Entero  <br/> |Externo  <br/> |La puerta de enlace que está utilizando la llamada. Vea la tabla Puertas de enlace [de Skype Empresarial Server 2015](gateways.md) para obtener más información. <br/> |
+|**GatewayId** <br/> |Entero  <br/> |Externo  <br/> |La puerta de enlace que está utilizando la llamada. Vea la [tabla Puertas de enlace de Skype Empresarial Server 2015](gateways.md) para obtener más información. <br/> |
 |**EdgeServerId** <br/> |Entero  <br/> |Externo  <br/> |El servidor perimetral que está utilizando la llamada. Vea la [tabla EdgeServers en Skype Empresarial Server 2015](edgeservers.md) para obtener más información. <br/> |
 |**ContentTypeId** <br/> |Entero  <br/> |Externo  <br/> |Tipo de contenido empleado en la sesión. Vea la [tabla ContentTypes en Skype Empresarial Server 2015](contenttypes.md) para obtener más información. <br/> |
 |**InviteTime** <br/> |datetime  <br/> ||Hora de la primera solicitud INVITE. Este campo suele rellenarse con datos generados a partir del mensaje INVITE inicial en la sesión. Si no hay ningún mensaje INVITE, el campo se rellenará con la fecha y hora del primer mensaje SIP relevante (BYE, CANCEL, MESSAGE o INFO).  <br/> |

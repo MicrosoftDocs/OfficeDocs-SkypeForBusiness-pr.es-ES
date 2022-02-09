@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar las colas de llamadas a través de cmdlets
-ms.openlocfilehash: a8f24f11cb19f448fc897043c7cb046a08c32341
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: aa3330af2a47c87fc71f63396b84f8ad017e19b5
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62181113"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457450"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>Crear una cola de llamadas a través de cmdlets
 
@@ -42,9 +42,9 @@ ms.locfileid: "62181113"
 3)  Has comprado Microsoft Teams Teléfono
 4)  Los agentes, las listas de distribución y los Teams a los que se hace referencia a continuación ya se han creado
 
-Nota: El cmdlet Teams channel que se usa a continuación forma parte de la versión de vista previa pública de Teams módulo de PowerShell.  Para obtener más información, vea Instalar Teams vista previa pública de [PowerShell](teams-powershell-install.md) y vea también Microsoft Teams [notas de la versión de PowerShell.](teams-powershell-release-notes.md)
+Nota: El cmdlet Teams channel que se usa a continuación forma parte de la versión de vista previa pública de Teams módulo de PowerShell.  Para obtener más información, vea [Instalar Teams vista previa pública de PowerShell](teams-powershell-install.md) y vea Microsoft Teams [de la versión de PowerShell](teams-powershell-release-notes.md).
 
-Los usuarios que ya tienen instalado el módulo MicrosoftTeams deben asegurarse de que la versión más actualizada ````Update-Module MicrosoftTeams```` está instalada.
+Los usuarios que ya tienen instalado el módulo MicrosoftTeams ````Update-Module MicrosoftTeams```` deben asegurarse de que la versión más actualizada está instalada.
 
 
 ## <a name="scenario"></a>Escenario
@@ -126,7 +126,7 @@ Connect-MsolService -Credential $credential
 
 ## <a name="sales-queue"></a>Cola de ventas
 ### <a name="create-audio-files"></a>Crear archivos de audio
-Reemplace "d: " por la ruta a la que se almacenan los archivos \\ wav en el equipo.
+Reemplace "d:\\" por la ruta a la que se almacenan los archivos wav en el equipo.
 
 ````
 $content = Get-Content “d:\sales-hold-in-queue-music.wav” -Encoding byte -ReadCount 0
@@ -179,7 +179,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 
 ## <a name="support-queue"></a>Cola de soporte técnico
 ### <a name="create-audio-files"></a>Crear archivos de audio
-Reemplace "d: " por la ruta a la que se almacenan los archivos \\ wav en el equipo.
+Reemplace "d:\\" por la ruta a la que se almacenan los archivos wav en el equipo.
 
 ````
 $content = Get-Content “d:\support-greeting.wav” -Encoding byte -ReadCount 0
@@ -246,7 +246,7 @@ Get-TeamChannel -GroupId $teamFacilitiesGroupID
 $teamFacilitiesHelpDeskChannelID = "{assign ID from output of above command}"
 ````
 
-### <a name="get-facilities-help-desk-channel-ower-user-id"></a>Obtener el id. de usuario de Ower del canal de ayuda de Get Facilities
+### <a name="get-facilities-help-desk-channel-owner-user-id"></a>Id. de usuario del propietario del canal de Ayuda de Get Facilities
 ````
 $teamFacilitiesHelpDeskChannelUserID = (Get-TeamChannelUser -GroupId $teamFacilitiesGroupID -DisplayName "Help Desk" -Role Owner).UserId
 ````
