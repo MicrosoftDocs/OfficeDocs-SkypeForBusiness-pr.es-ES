@@ -1,8 +1,8 @@
 ---
 title: Planear la supervisión en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Resumen: revise este tema mientras planea el servicio de supervisión en Skype Empresarial Server.'
-ms.openlocfilehash: f1bd1dbab35247b17067adaa3b2d06557b8f0292
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 215402fa68c89d6484532b0c6e7fb6093f591b23
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835018"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404592"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Planear la supervisión en Skype Empresarial Server
 
@@ -25,7 +25,7 @@ ms.locfileid: "60835018"
 
 El servicio de supervisión de Skype Empresarial Server permite a los administradores recopilar datos de uso y calidad para las sesiones de comunicación que tienen lugar en su organización, lo que les permite identificar tendencias y problemas. La supervisión continua de la implementación le permite detectar los problemas antes de tiempo y mantener satisfechos a los usuarios de su organización.
 
-La supervisión Skype Empresarial Server no requiere un rol de servidor independiente (como era el caso en versiones anteriores de Lync); en su lugar, el servicio de supervisión está integrado en cada servidor front-end. La supervisión no está habilitada de forma predeterminada en Skype Empresarial Server. Este artículo le ayudará a determinar si habilitar la supervisión durante o después de la configuración Skype Empresarial Server inicial y qué recursos SQL necesitará para admitir las actividades de supervisión. Si no está seguro exactamente de qué es o no se supervisa y cómo puede ser útil la supervisión, vaya a [Conceptos básicos sobre supervisión](monitoring.md#Basics). Para comenzar el proceso de planeación, vaya [a Definir los requisitos para la supervisión](monitoring.md#requirements). Para obtener más información sobre los SQL de supervisión, vaya [a SQL requisitos de supervisión](monitoring.md#topologies).
+La supervisión en Skype Empresarial Server no requiere un rol de servidor independiente (como era el caso en versiones anteriores de Lync); en su lugar, el servicio de supervisión está integrado en cada servidor front-end. La supervisión no está habilitada de forma predeterminada en Skype Empresarial Server. Este artículo le ayudará a determinar si habilitar la supervisión durante o después de la configuración Skype Empresarial Server inicial y qué recursos SQL necesitará para admitir las actividades de supervisión. Si no está seguro exactamente de qué es o no se supervisa y cómo puede ser útil la supervisión, vaya a [Conceptos básicos sobre supervisión](monitoring.md#Basics). Para comenzar el proceso de planeación, vaya [a Definir los requisitos para la supervisión](monitoring.md#requirements). Para obtener más información sobre los SQL de supervisión, vaya [a SQL para la supervisión](monitoring.md#topologies).
 
 ## <a name="basics-about-monitoring"></a>Conceptos básicos sobre supervisión
 <a name="Basics"> </a>
@@ -39,11 +39,11 @@ Una sesión es un término genérico para la conexión de un usuario a un:
 - Otro usuario a través de una conversación punto a punto, como mensajería instantánea o una llamada de audio
 
 > [!NOTE]
-> Skype Empresarial Server realiza un seguimiento de la información sobre cada sesión: quién llamó a quién; qué puntos de conexión se usaron en la sesión; cuánto tiempo ha durado la sesión; cuál era la calidad percibida de la sesión; y así sucesivamente. Skype Empresarial Server no registra ni almacena la llamada real en sí. Esto incluye sesiones de mensajería instantánea: aunque Skype Empresarial Server registra información sobre sesiones de mensajería instantánea, no mantiene un registro de cada mensaje instantáneo que se envió durante la sesión.
+> Skype Empresarial Server realiza un seguimiento de la información sobre cada sesión: quién llamó a quién; qué puntos de conexión se usaron en la sesión; cuánto tiempo hizo la sesión por última vez; cuál era la calidad percibida de la sesión, y así sucesivamente. Skype Empresarial Server no registra ni almacena la llamada real en sí. Esto incluye sesiones de mensajería instantánea: aunque Skype Empresarial Server registra información sobre sesiones de mensajería instantánea, no mantiene un registro de cada mensaje instantáneo que se envió durante la sesión.
 
 La información básica de detalles de llamadas recopilada por Skype Empresarial Server para cada sesión puede usarse para:
 
-- **Análisis de retorno de la inversión (ROI).** Los administradores pueden comparar los datos de uso con datos similares recopilados para su sistema de telefonía anterior con el fin de mostrar ahorros de costos y ayudar a justificar la implementación de Skype Empresarial Server.
+- **Análisis de retorno de la inversión (ROI** ). Los administradores pueden comparar los datos de uso con datos similares recopilados para su sistema de telefonía anterior con el fin de mostrar ahorros de costos y ayudar a justificar la implementación de Skype Empresarial Server.
 
 - **Administración de inventario de dispositivos**. La información de administración de activos ayuda a los administradores a identificar dispositivos antiguos que aún están en uso que deben reemplazarse e identificar dispositivos caros que no se usan o que no se usan.
 
@@ -66,11 +66,11 @@ Al final de cada llamada, los extremos compatibles con SIP transmiten esta infor
 
 Todavía hay varios problemas clave que deben solucionarse antes de empezar a instalar y configurar la supervisión con Skype Empresarial Server:
 
- **¿Cuándo desea instalar la supervisión?** La supervisión se puede instalar y configurar al mismo tiempo que se instala y configura Skype Empresarial Server; el Skype Empresarial Server de implementación le proporcionará la oportunidad de asociar los grupos de servidores front-end con una base de datos de supervisión durante la instalación. Como alternativa, puede instalar la supervisión después Skype Empresarial Server se haya instalado; Esto se puede hacer mediante el Generador de topologías para asociar los grupos de servidores front-end con una base de datos de supervisión y, a continuación, publicar la topología revisada.
+ **¿Cuándo desea instalar la supervisión?** La supervisión se puede instalar y configurar al mismo tiempo que se instala y configura Skype Empresarial Server; el Asistente para la implementación de Skype Empresarial Server le proporcionará la oportunidad de asociar los grupos de servidores front-end con una base de datos de supervisión durante la instalación. Como alternativa, puede instalar la supervisión después de que Skype Empresarial Server se haya instalado; esto se puede hacer mediante el Generador de topologías para asociar los grupos de servidores front-end y los servidores con una base de datos de supervisión y, a continuación, publicar la topología revisada.
 
-Tenga en cuenta que SQL Server debe instalarse y configurarse antes de implementar y configurar la supervisión. Sin embargo, solo necesita implementar SQL Server sí mismo; las bases de datos de supervisión se crearán automáticamente cuando publique la Skype Empresarial Server topología.
+Tenga en cuenta que SQL Server debe instalarse y configurarse antes de implementar y configurar la supervisión. Sin embargo, solo necesita implementar SQL Server propiamente dicha; las bases de datos de supervisión se crearán automáticamente cuando publique la topología Skype Empresarial Server usuario.
 
- **¿Qué tipo de datos desea supervisar?** Skype Empresarial Server permite supervisar dos tipos generales de datos: datos de registro detallado de llamadas (CDR) y datos de calidad de la experiencia (QoE). La grabación detallada de llamadas proporciona una forma de realizar un seguimiento del uso de Skype Empresarial Server características como llamadas telefónicas de voz sobre IP (VoIP); mensajería instantánea (MI); transferencias de archivos; conferencias de audio y vídeo (A/V); y sesiones de uso compartido de aplicaciones. Esta información le ayuda a saber qué características Skype Empresarial Server se usan (y cuáles no) y también proporciona información sobre cuándo se usan estas características. Los datos de calidad de la experiencia permiten mantener un registro de la calidad de las llamadas de audio y las videollamadas realizadas en la organización e incluyen, entre otros, el número de paquetes de red perdidos, el ruido de fondo y la cantidad de "vibración" (diferencias en el retraso de paquetes).
+ **¿Qué tipo de datos desea supervisar?** Skype Empresarial Server permite supervisar dos tipos generales de datos: datos de registro detallado de llamadas (CDR) y datos de calidad de la experiencia (QoE). La grabación detallada de llamadas proporciona una forma de realizar un seguimiento del uso de características de Skype Empresarial Server como llamadas telefónicas de voz sobre IP (VoIP); mensajería instantánea (MI); transferencias de archivos; conferencias de audio/vídeo (A/V) y sesiones de uso compartido de aplicaciones. Esta información le ayuda a saber qué características Skype Empresarial Server se usan (y cuáles no) y también proporciona información sobre cuándo se usan estas características. Los datos de calidad de la experiencia permiten mantener un registro de la calidad de las llamadas de audio y las videollamadas realizadas en la organización e incluyen, entre otros, el número de paquetes de red perdidos, el ruido de fondo y la cantidad de "vibración" (diferencias en el retraso de paquetes).
 
 Si decide habilitar la supervisión en Skype Empresarial Server puede habilitar la supervisión de CDR y la supervisión de QoE, o bien puede habilitar un tipo de supervisión mientras deja deshabilitado el otro tipo. Por ejemplo, supongamos que sus usuarios usan la mensajería instantánea y la transferencia de archivos, pero no las audiollamadas ni las videollamadas. En este caso, no tiene sentido habilitar la supervisión QoE. Del mismo modo, Skype Empresarial Server facilita la habilitación y deshabilitación de la supervisión después de implementar la supervisión. Por ejemplo, supongamos que decidió implementar la supervisión, pero con la supervisión QoE inhabilitada. Si los usuarios empiezan a tener problemas con las audiollamadas o las videollamadas, puede habilitar la supervisión QoE y usar los datos obtenidos para solucionar más fácilmente estos problemas.
 
@@ -90,16 +90,16 @@ En términos de planificación, esto es importante, ya que será necesario dupli
 
  **¿Los Skype Empresarial Server necesitan sus propias configuraciones de supervisión personalizadas?** Al instalar Skype Empresarial Server también se instalan colecciones globales de opciones de configuración de CDR y QoE; estas colecciones globales le dan la capacidad de aplicar la misma configuración de CDR y QoE a toda la organización. En muchos casos, esto será suficiente: a menudo querrá, por ejemplo, tener habilitada la supervisión de CDR para todos los usuarios.
 
-Sin embargo, también puede haber ocasiones en las que quieras aplicar diferentes configuraciones a diferentes sitios. Por ejemplo, quizás quiera usar la supervisión de CDR y QoE en el sitio redmond, pero solo usar la supervisión de CDR en su sitio de Dublín. Del mismo modo, es posible que desee conservar los datos de supervisión durante 60 días en el sitio redmond, pero solo necesita mantener este tipo de datos durante 30 días en el sitio de Dublín. Skype Empresarial Server permite crear colecciones independientes de opciones de configuración de CDR y QoE en el ámbito del sitio; que le permite administrar cada sitio de forma diferente. (Esto incluye la habilitación y deshabilitación de la supervisión, así como la configuración de opciones de administración, como el tiempo que se deben conservar los datos).
+Sin embargo, también puede haber ocasiones en las que quieras aplicar diferentes configuraciones a diferentes sitios. Por ejemplo, quizás quiera usar la supervisión de CDR y QoE en el sitio redmond, pero solo usar la supervisión de CDR en su sitio de Dublín. Del mismo modo, es posible que desee conservar los datos de supervisión durante 60 días en el sitio redmond, pero solo necesita mantener este tipo de datos durante 30 días en el sitio de Dublín. Skype Empresarial Server permite crear colecciones independientes de opciones de configuración de CDR y QoE en el ámbito del sitio, lo que permite administrar cada sitio de forma diferente. (Esto incluye la habilitación y deshabilitación de la supervisión, así como la configuración de opciones de administración, como el tiempo que se deben conservar los datos).
 
 Puede tomar esta decisión antes o después de implementar la supervisión. Por ejemplo, implemente la supervisión y administre toda la organización con la configuración global. Si más tarde cambia de opinión, cree una colección de valores para, por ejemplo, el sitio de Redmond y después use la configuración para administrar la supervisión de Redmond. (La configuración aplicada en el ámbito del sitio, siempre tiene preferencia sobre la configuración aplicada en el ámbito global). Si vuelve a cambiar de opinión, solo tiene que eliminar la configuración aplicada al sitio de Redmond. Cuando se elimina una colección de configuración de un sitio, se aplica automáticamente la colección global de configuración al sitio.
 
 ## <a name="sql-requirements-for-monitoring"></a>SQL requisitos de supervisión
 <a name="topologies"> </a>
 
-Los agentes de recopilación de datos unificados se instalan y activan automáticamente en cada servidor front-end al habilitar la supervisión. Para obtener versiones compatibles de SQL Server y otros detalles, vea Requisitos del [servidor para Skype Empresarial Server 2015](requirements-for-your-environment/server-requirements.md)
+Los agentes de recopilación de datos unificados se instalan y activan automáticamente en cada servidor front-end al habilitar la supervisión. Para obtener versiones compatibles de SQL Server otros detalles, vea [Requisitos del servidor para Skype Empresarial Server 2015](requirements-for-your-environment/server-requirements.md)
 
-Los datos de supervisión pueden compartir una SQL Server con otros tipos de datos. Normalmente, la base de datos de registro de detalles de llamadas (LcsCdr) y la base de datos de calidad de la experiencia (QoEMetrics) comparten la misma instancia SQL usuario; también es común que las dos bases de datos de supervisión se den en la misma SQL que la base de datos de archivado (LcsLog). Acerca del único requisito real con SQL Server instancias es que cualquier instancia de SQL Server se limita a lo siguiente:
+Los datos de supervisión pueden compartir una SQL Server con otros tipos de datos. Normalmente, la base de datos de registro de detalles de llamadas (LcsCdr) y la base de datos de calidad de la experiencia (QoEMetrics) comparten la misma instancia de SQL; también es común que las dos bases de datos de supervisión se den en la misma instancia de SQL que la base de datos de archivado (LcsLog). Acerca del único requisito real con SQL Server instancias es que cualquier instancia de SQL Server se limita a lo siguiente:
 
 - Una instancia de la base Skype Empresarial Server back-end de 2015. (Como regla general, no se recomienda colocar la base de datos de supervisión en la misma instancia de SQL, o incluso en el mismo equipo, que la base de datos back-end. Aunque técnicamente es posible, se ejecuta el riesgo de que la base de datos de supervisión use el espacio en disco necesario para la base de datos back-end).
 
@@ -111,7 +111,7 @@ Los datos de supervisión pueden compartir una SQL Server con otros tipos de dat
 
 En otras palabras, no puede tener dos instancias de la base de datos LcsCdr en la misma instancia de SQL Server. Si necesita varias instancias de la base de datos LcsCdr, debe configurar varias instancias de SQL Server.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 [Implementación de supervisión](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

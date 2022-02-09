@@ -1,8 +1,8 @@
 ---
 title: Planeación de Telefonía IP empresarial en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Telefonía IP empresarial conceptos básicos de planeación Skype Empresarial Server, incluidos sitios, regiones, vínculos de red entre sitios y estimación del tráfico de uso de voz.
-ms.openlocfilehash: 51c197979c5faaf587f63320b4a2dc6c5dc6a06f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 30e6bc8ef71b5e4d201724a6d2dd0bf8675a9468
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829844"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397594"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planeación de Telefonía IP empresarial en Skype Empresarial Server
  

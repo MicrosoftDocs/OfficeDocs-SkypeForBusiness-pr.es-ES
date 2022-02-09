@@ -1,8 +1,8 @@
 ---
 title: Use el Panel de calidad de llamadas para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Resumen: obtenga información sobre cómo usar el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: a1a2f0c6d4cf07563f0aceb6379a9142930e1699
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5647622a04cbe449f426ae38b7d207fcbe2858e9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843813"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398834"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Use el Panel de calidad de llamadas para Skype Empresarial Server
 
@@ -207,7 +207,7 @@ CQD no usa campos de llamador o destinatario de llamada, sino que usa "First" y 
 |4 (Skype Empresarial) |4 (Skype Empresarial) |El autor de la llamada en MediaLine |El destinatario de la llamada en MMediaLine |
 
 
-Si ambos extremos son del mismo tipo, CQD hace que la entrada autor de la llamada sea First y la Llamada Second. Para obtener más información acerca de los nombres de los puntos de conexión, [vea este blog](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks).
+Si ambos extremos son del mismo tipo, CQD hace que la entrada autor de la llamada sea First y la Llamada Second. Para obtener más información acerca de los nombres de los puntos de conexión, [consulte este blog](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks).
 
 ## <a name="accounting-for-vpn"></a>Contabilidad de VPN
 

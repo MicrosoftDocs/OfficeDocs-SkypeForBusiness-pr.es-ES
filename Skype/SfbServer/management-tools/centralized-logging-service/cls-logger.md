@@ -1,8 +1,8 @@
 ---
 title: Registrador de CLS para Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/25/2017
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Summary: Learn how to use the Centralized Logging Service (CLS) Logger in Skype Empresarial Server 2015.'
-ms.openlocfilehash: dbe8ef417eb702943c76214be492151ee4d1dac7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 24db5a23a29f9ae91ef2c3cab351fe7ca8c93a32
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862187"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398804"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>Registrador de CLS para Skype Empresarial Server 2015
  
@@ -99,7 +99,7 @@ Para buscar registros, seleccione la pestaña "Registros cls de búsqueda" y hag
 > 
 > **Identificadores de correlación** Trace statements that are logically linked together by this ID. (Opcional)
 > 
-> **Teléfono número** Filtrar por número de teléfono. (Opcional)
+> **Teléfono número de** filtro por número de teléfono. (Opcional)
 > 
 > **URI de SIP** Filtrar por URI de SIP. (Opcional)
 > 
@@ -113,7 +113,7 @@ Para buscar registros, seleccione la pestaña "Registros cls de búsqueda" y hag
   
 ## <a name="create-a-scenario"></a>Crear un escenario
 
-1. En la **pestaña Editar escenarios,** haga clic en **el botón Crear** escenario.
+1. En la **pestaña Editar escenarios** , haga clic en **el botón Crear** escenario.
     
     > [!NOTE]
     > La creación de un nuevo escenario clonará la configuración del escenario que está seleccionado actualmente. Si hace clic **en Borrar Configuración** antes de crear un nuevo escenario, empezará sin componentes ni marcas seleccionadas.
@@ -126,17 +126,17 @@ Para buscar registros, seleccione la pestaña "Registros cls de búsqueda" y hag
 
 ![CLS Logger Screen shot, edit scenarios.](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
-1. En la **pestaña Editar escenarios,** busque el escenario que desea modificar.
+1. En la **pestaña Editar escenarios** , busque el escenario que desea modificar.
     
 2. Realice los cambios deseados en los componentes, niveles y marcas.
     
-3. Haga clic en **el botón Guardar escenario.**
+3. Haga clic en **el botón Guardar escenario** .
     
 4. Tras guardar correctamente el escenario, actualizará el panel de información del escenario con la configuración actualizada.
     
 ## <a name="delete-a-scenario"></a>Eliminar un escenario
 
-1. En la **pestaña Editar escenarios,** seleccione un escenario existente en el menú desplegable Escenarios.
+1. En la **pestaña Editar escenarios** , seleccione un escenario existente en el menú desplegable Escenarios.
     
 2. Haga **clic en Eliminar escenario** para eliminar el escenario.
     

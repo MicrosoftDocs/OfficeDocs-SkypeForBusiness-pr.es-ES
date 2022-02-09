@@ -1,8 +1,8 @@
 ---
 title: Agregar almacén de archivado front-end
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 ROBOTS: NOINDEX, NOFOLLOW
-description: El archivado requiere una edición compatible de 64 bits del software Microsoft SQL Server base de datos para almacenar los datos de archivado. Puede seleccionar una base de datos de SQL Server definida previamente para el archivado o definir una nueva base de datos de SQL Server especificando un nombre de dominio completo (FQDN) del servidor en el que debe residir la base de datos de SQL Server, además de la instancia de SQL Server que desea usar para la nueva base de datos de SQL Server (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
-ms.openlocfilehash: 29a51e437c5249f2bd361579eadde812d5f65e17
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: El archivado requiere una edición compatible de 64 bits del software Microsoft SQL Server base de datos para almacenar los datos de archivado. Puede seleccionar una base de datos SQL Server definida previamente para el archivado o definir una nueva base de datos de SQL Server especificando un nombre de dominio completo (FQDN) del servidor en el que se va a residir la base de datos de SQL Server, además de la instancia de SQL Server que desea usar para la nueva base de datos SQL Server SQL Server base de datos (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
+ms.openlocfilehash: 94e22e94bb930283103f7358a27dd82d8ee5b2bf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864147"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397138"
 ---
 # <a name="add-front-end-archiving-store"></a>Agregar almacén de archivado front-end
 
-El archivado requiere una edición compatible de 64 bits del software Microsoft SQL Server base de datos para almacenar los datos de archivado. Puede seleccionar una base de datos de SQL Server definida previamente para el archivado o definir una nueva base de datos de SQL Server especificando un nombre de dominio completo (FQDN) del servidor en el que debe residir la base de datos de SQL Server, además de la instancia de SQL Server que desea usar para la nueva base de datos de SQL Server (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
+El archivado requiere una edición compatible de 64 bits del software Microsoft SQL Server base de datos para almacenar los datos de archivado. Puede seleccionar una base de datos SQL Server definida previamente para el archivado o definir una nueva base de datos de SQL Server especificando un nombre de dominio completo (FQDN) del servidor en el que se va a residir la base de datos de SQL Server, además de la instancia de SQL Server que desea usar para la nueva base de datos SQL Server SQL Server base de datos (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
 
 > [!NOTE]
 > Si la cuenta utilizada para publicar la topología tiene los permisos y derechos de usuario adecuados, puede crear la base de datos de supervisión al publicar la topología. También puede crear la base de datos más adelante, incluida como parte del proceso de instalación.

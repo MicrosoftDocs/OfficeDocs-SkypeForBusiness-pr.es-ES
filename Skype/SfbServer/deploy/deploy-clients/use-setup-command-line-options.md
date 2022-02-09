@@ -1,8 +1,8 @@
 ---
 title: Usar opciones de línea de comandos de instalación con Skype Empresarial cliente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: 'Resumen: obtenga información sobre Setup.exe de línea de comandos en Office instalación.'
-ms.openlocfilehash: 6a64ac821019f49f8cbb4988ad0e42da0363245b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a70d6a2c905f40f61d0cdbdcc5dd92a4b9bfdf75
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850489"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396072"
 ---
 # <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Usar opciones de línea de comandos de instalación con Skype Empresarial cliente
  

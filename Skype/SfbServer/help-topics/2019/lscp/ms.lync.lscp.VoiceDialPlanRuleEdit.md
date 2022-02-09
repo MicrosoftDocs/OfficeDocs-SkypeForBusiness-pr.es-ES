@@ -1,8 +1,8 @@
 ---
 title: Regla de normalización Crear nuevo o editar existente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: bdb95d2d74b02cc05b6b39e834c04b2dc4033b44
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 40e886c4019d3497cc8273f7a4d554247342685b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851544"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401474"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>Regla de normalización: Crear nuevos o editar los existentes
 

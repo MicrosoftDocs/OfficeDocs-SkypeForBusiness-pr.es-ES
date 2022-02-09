@@ -1,8 +1,8 @@
 ---
 title: Informe de errores principales en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: 'Summary: Learn about the Top Failures Report in Skype Empresarial Server.'
-ms.openlocfilehash: 3e752ad2f15e6739fb6f1a34aa9f30e86767041d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ad04dee69d44bb28246c87d1001fd1cfafdbfea1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853034"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396512"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>Informe de errores principales en Skype Empresarial Server
  
@@ -33,7 +33,7 @@ No solo se proporciona información del número total de sesiones donde se produ
   
 ## <a name="accessing-the-top-failures-report"></a>Acceso al Informe de errores principales
 
-Desde la página Informes supervisión se obtiene acceso al Informe de errores principales. Hacer clic en la métrica Sesiones notificadas le llevará al Informe de distribución [de errores en Skype Empresarial Server](failure-distribution-report.md).
+Desde la página Informes supervisión se obtiene acceso al Informe de errores principales. Hacer clic en la métrica Sesiones notificadas le llevará al [Informe de distribución de errores en Skype Empresarial Server](failure-distribution-report.md).
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Hacer el mejor uso del Informe de errores principales
 

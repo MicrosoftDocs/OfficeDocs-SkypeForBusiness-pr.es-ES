@@ -1,8 +1,8 @@
 ---
 title: tblSiopWhiteList
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 05fc1df4-32eb-4d46-9d1c-e0b607091142
 description: tblSiopWhiteList es la lista de complementos registrados que es posible asociar con nodos.
-ms.openlocfilehash: 6d548f430c28b09729bfffce0730927327ca1839
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 43277bec50baa3224d52aa247e20d417104b16e6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852814"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398596"
 ---
 # <a name="tblsiopwhitelist"></a>tblSiopWhiteList
  

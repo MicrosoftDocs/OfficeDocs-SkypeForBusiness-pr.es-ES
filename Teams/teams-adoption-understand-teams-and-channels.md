@@ -1,7 +1,7 @@
 ---
 title: Descripción de los equipos y canales en Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3d71e8c542b5f39ab979ae876e0c82868ca380a
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 09aba3d8f6bcdb06d75bf0563a437a87197cb254
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959819"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400844"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Descripción de los equipos y canales en Microsoft Teams
 
@@ -36,7 +36,7 @@ Los conceptos de equipos y canales son fundamentales para una implementación sa
 
 - Los canales son los espacios de colaboración dentro de un equipo en el que se realiza el trabajo real. 
 
-Para obtener más información sobre los equipos y canales, vea información general [sobre los equipos y](teams-channels-overview.md)canales en Microsoft Teams . Para obtener instrucciones Teams adopción, obtenga la [guía Teams adopción.](https://aka.ms/teamstoolkit) Para obtener más información sobre Teams y Microsoft 365, vea Microsoft 365 [y Microsoft Teams](office-365-groups.md) y Más información sobre [Microsoft 365 grupos.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+Para obtener más información sobre los equipos y canales, vea información general [sobre los equipos y canales en Microsoft Teams](teams-channels-overview.md). Para obtener instrucciones Teams adopción, obtenga la [guía Teams adopción](https://aka.ms/teamstoolkit). Para obtener más información sobre Teams y Microsoft 365, vea Microsoft 365 [y](office-365-groups.md) Microsoft Teams y Más información sobre [Microsoft 365 grupos](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 | &nbsp; |&nbsp;  |

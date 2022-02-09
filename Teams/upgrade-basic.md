@@ -1,7 +1,7 @@
 ---
 title: Lista de comprobación de actualización| Skype Empresa para Teams actualizar | Pasos básicos
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3d7ef1ae0375b7cdec373450135e5eed148f776
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 9ad2dcc08bcbb1136c1b00fccf16b4e1e80a74f2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562802"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400814"
 ---
 # <a name="upgrade-basic"></a>Actualizar Basic
 
@@ -164,7 +164,7 @@ Los usuarios están ocupados con sus responsabilidades diarias. Recordarles la a
 
 *(Día de actualización)*
 
-Hoy es el día en que su organización actualiza oficialmente a Teams como su solución de comunicación y colaboración. En el Microsoft Teams de administración, active el modificador de actualización estableciendo el modo de coexistencia **en Teams solo**. (En el centro de administración, vaya **a Teams** Teams configuración  >  **de actualización).** Los usuarios recibirán una notificación en su Skype Empresarial de que se han actualizado a Teams.
+Hoy es el día en que su organización actualiza oficialmente a Teams como su solución de comunicación y colaboración. En el Microsoft Teams de administración, active el modificador de actualización estableciendo el modo de coexistencia **en Teams solo**. (En el centro de administración, vaya **a Teams** >  **Teams de actualización**). Los usuarios recibirán una notificación en su Skype Empresarial de que se han actualizado a Teams.
 
 Le recomendamos que, después de actualizar a todos los usuarios, envíe un correo electrónico en el que se les envíe Teams.
 
@@ -203,7 +203,7 @@ La satisfacción de los empleados puede influir en la productividad, la retenci�
 
 **Recursos:**
 
-- [Correo electrónico de ejemplo: check in with users](upgrade-emails-surveys.md#step-9-email), plus user [surveys](upgrade-emails-surveys.md#step-9-surveys)
+- [Correo electrónico de ejemplo: check in with users](upgrade-emails-surveys.md#step-9-email), plus [user surveys](upgrade-emails-surveys.md#step-9-surveys)
 
 [Volver al principio](#about-upgrade-basic)
 

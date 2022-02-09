@@ -1,8 +1,8 @@
 ---
 title: Configuración de red Configuración global
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 859eb5d8fa85e465bf2706351bc66d1441b69a14
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bd7c23a7f220b116660be7af31b3e5664548cbbb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854964"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401094"
 ---
 # <a name="network-configuration-global-setting"></a>Configuración de red: Configuración global
 

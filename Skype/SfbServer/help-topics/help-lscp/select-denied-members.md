@@ -1,8 +1,8 @@
 ---
 title: Seleccionar miembros denegados
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Un administrador de chat persistente puede crear y administrar categorías de salón de chat. Como parte de la creación y administración de categorías de salón de chat, un administrador de chat persistente puede configurar entidades de seguridad (grupos/contenedores/usuarios de servicios de dominio de Active Directory) que tienen acceso a ser miembros o creadores de salas de chat de una categoría determinada. Un administrador de chat persistente también puede agregar DeniedMembers a una categoría y estas se convierten en exclusiones explícitas en la lista permitida. DeniedMembers invalida lo que hay en AllowedMembers.
-ms.openlocfilehash: 283c358d6b0eab79f667ec7ca17dc9eca3977586
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a03c0291bf69f1ffc099233218bc8e5c418b8c00
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837962"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400394"
 ---
 # <a name="select-denied-members"></a>Seleccionar miembros denegados
 
@@ -38,11 +38,11 @@ Para obtener información detallada sobre los diferentes procedimientos que pued
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorías para salones de chat
 
-En **Pertenencia**, en la sección **Miembros** denegados, agregue o quite usuarios y otras entidades de seguridad de Active Directory asociadas con miembros que se denieguen de la sala.
+En **Pertenencia**, en la **sección Miembros** denegados, agregue o quite usuarios y otras entidades de seguridad de Active Directory asociadas con miembros que se denieguen de la sala.
 
 
 Para obtener más información sobre las características y capacidades del servidor de chat persistente, consulte [Overview of Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) en la documentación sobre planeación. Para obtener más información sobre cómo trabajar con configuraciones de servidor de chat persistente, consulte [Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) en la documentación sobre implementación y [Managing Lync Server 2013, Persistent Chat Server](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) en la documentación sobre operaciones.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Descripción de la pertenencia a chat persistente](/previous-versions/office/lync-server-2013/understanding-persistent-chat-membership)

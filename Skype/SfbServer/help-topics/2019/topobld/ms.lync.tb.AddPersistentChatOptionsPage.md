@@ -1,8 +1,8 @@
 ---
 title: Definir propiedades y opciones para grupo de servidores de chat persistente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para configurar opciones para el servidor de chat persistente o el grupo de servidores de chat persistente, defina las siguientes propiedades:'
-ms.openlocfilehash: d85156f3a9d23e5f95b8b7e6545426026b69b5f7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ad75f692bef3d462c5e0f7e1b9fa570eb4ff6114
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837072"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396954"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Definir propiedades y opciones para grupo de servidores de chat persistente
 

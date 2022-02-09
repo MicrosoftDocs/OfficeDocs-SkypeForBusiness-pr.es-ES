@@ -1,7 +1,7 @@
 ---
-title: Skype Licencia de software Skype Empresarial room system
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype room system Skype Empresarial de software
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,14 +12,14 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Lea este tema para obtener información sobre cómo comprobar si tiene una Skype Empresarial de software por volumen.
-ms.openlocfilehash: 805a9abb6d4d49e653e779edc1d9e1cfb8d2a6ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0e8fcc9b4dc9dec481af7b0a1d976d590c40def0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845973"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399994"
 ---
-# <a name="skype-room-system-skype-for-business-software-license"></a>Skype Sistema de sala: Skype Empresarial de software
+# <a name="skype-room-system-skype-for-business-software-license"></a>Skype room system: Skype Empresarial de software
  
 Lea este tema para obtener información sobre cómo comprobar si tiene una Skype Empresarial de software por volumen. 
   

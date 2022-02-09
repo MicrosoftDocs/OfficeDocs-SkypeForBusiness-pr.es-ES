@@ -1,8 +1,8 @@
 ---
 title: Grupo de grupos de respuesta
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,22 +15,22 @@ ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Un grupo de agentes es un grupo de personas designadas para responder a las llamadas del grupo de respuesta.
-ms.openlocfilehash: 276bdd91edc34e20b47429ae9364c5068ddb8ce5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 52184e7a3c9d95d8aa7d2121ebe5741047d81374
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840442"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401074"
 ---
 # <a name="response-groups-group"></a>Grupos de respuesta: Grupo
 
 Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Un grupo de agentes es un grupo de personas designadas para responder a las llamadas del grupo de respuesta.
 
-La **página Grupo de grupos** de respuesta muestra una lista de todos los grupos de agentes  -   definidos para su organización.
+La **página Grupos de** -  **respuestaGroup** muestra una lista de todos los grupos de agentes definidos para su organización.
 
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
-Puede realizar las siguientes tareas desde la página **Grupo de grupos**  -  **de** respuesta:
+Puede realizar las siguientes tareas desde la página **Grupos de** -  **respuestaGroup**:
 
 - Crear un grupo nuevo de agentes
 

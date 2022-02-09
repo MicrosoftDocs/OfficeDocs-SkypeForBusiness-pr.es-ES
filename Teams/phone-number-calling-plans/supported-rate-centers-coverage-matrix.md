@@ -1,7 +1,7 @@
 ---
 title: Centros de tarifas y cobertura admitidos para planes de llamadas
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: davlick, julienp
 ms.topic: article
@@ -17,18 +17,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Enumera los centros de tasas admitidos y la cobertura de planes de llamadas.
-ms.openlocfilehash: 4287a4acbecaca4b2933cc0308393b6612dff4c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fd0bdaac0765f2b92c4c81758e166948abe8489a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830794"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398414"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Centros de tarifas y cobertura admitidos para planes de llamadas
 
 En este artículo se enumeran los centros de tarifas admitidos y la cobertura de planes de llamadas en Norteamérica. Un centro de tarifas es el término del sector de un área geográfica que define tradicionalmente límites para llamadas locales, tarifas de facturación y asignación de números de teléfono para la red telefónica conmutada (RTC). En muchos casos, con el sector moviéndose a planes todo incluido o paquetes de minutos, el centro de tarifas se ha vuelto menos importante para la facturación, pero algunos siguen usándose.
 
-La hoja de cálculo Centros [de tasas](https://www.microsoft.com/download/details.aspx?id=102534) y cobertura admitidos para Norteamérica enumera los centros de tasas que se admiten. Cuando esté recibiendo nuevos números de teléfono o cuando transfiera números de teléfono de su proveedor existente a Teams, descargue la hoja de cálculo y úsela para buscar centros de tasas. Si no conoce el centro de tasas, puede buscarlo en Internet en función de los códigos de área (NPA) y los prefijos (NXX).
+La [hoja de cálculo Centros de tasas](https://www.microsoft.com/download/details.aspx?id=102534) y cobertura admitidos para Norteamérica enumera los centros de tasas que se admiten. Cuando esté recibiendo nuevos números de teléfono o cuando transfiera números de teléfono de su proveedor existente a Teams, descargue la hoja de cálculo y úsela para buscar centros de tasas. Si no conoce el centro de tasas, puede buscarlo en Internet en función de los códigos de área (NPA) y los prefijos (NXX).
 Si está recibiendo nuevos números y no tenemos los números que ha solicitado, intentaremos ofrecerle números del mismo centro de tasas.
 
 Si está recibiendo nuevos números y no tenemos los números que ha solicitado, le ofreceremos números del mismo centro de tasas.

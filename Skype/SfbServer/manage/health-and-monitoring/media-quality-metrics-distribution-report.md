@@ -1,8 +1,8 @@
 ---
 title: Informe de distribución de métricas de calidad multimedia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 'Summary: Learn about the Media Quality Metrics Distribution Report in Skype Empresarial Server.'
-ms.openlocfilehash: 00899681190e532af971c719c2e81f655facf7ab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 745f88a6943d9d369a104bf4bc42ffaa68138811
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862317"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409973"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Informe de distribución de métricas de calidad multimedia en Skype Empresarial Server 
  

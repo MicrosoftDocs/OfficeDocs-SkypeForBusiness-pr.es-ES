@@ -1,7 +1,7 @@
 ---
 title: Administrar plantillas de equipo en el Centro de administración
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar plantillas de equipo en el Centro de administración
-ms.openlocfilehash: 0ab167cc66a897c0f89679cd2a403a385b2b1b01
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 470194c8a31236e5bed000fa2837c9b1fa05003e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766068"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401184"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Administrar plantillas de equipo en el Centro de administración
 
@@ -38,7 +38,7 @@ Vea este breve vídeo para obtener información sobre cómo administrar directiv
 
 1. Inicie la sesión en el Centro de administración de Teams
 
-2. Expanda **Teams**  >  **de plantillas**.
+2. Expanda **Teams** >  **Templates directivas**.
 
 3. Seleccione **Agregar**.
 
@@ -50,19 +50,19 @@ Vea este breve vídeo para obtener información sobre cómo administrar directiv
 
     - Descripción breve de la directiva de plantillas
 
-2. En la **tabla Plantillas visualizables,** seleccione las plantillas que desea ocultar y seleccione **Ocultar.**
+2. En la **tabla Plantillas visualizables** , seleccione las plantillas que desea ocultar y seleccione **Ocultar**.
 
     ![Las plantillas seleccionadas con ocultar resaltadas.](media/template-policies-2.png)
 
-    Puede ver las plantillas que ha seleccionado para ocultar en la **tabla Plantillas ocultas.**
+    Puede ver las plantillas que ha seleccionado para ocultar en la **tabla Plantillas ocultas** .
 
-1. Para mostrar determinadas plantillas, desplácese hasta la **tabla Plantillas ocultas.**
+1. Para mostrar determinadas plantillas, desplácese hasta la **tabla Plantillas ocultas** .
 
-2. Seleccione las plantillas que desea mostrar y, a continuación, **seleccione Mostrar.**
+2. Seleccione las plantillas que desea mostrar y, a continuación, seleccione **Mostrar**.
 
    ![Las plantillas seleccionadas que no están ocultas.](media/template-policies-3.png)
 
-   Las plantillas seleccionadas aparecerán en la **tabla Plantillas visualizables.**
+   Las plantillas seleccionadas aparecerán en la **tabla Plantillas visualizables** .
 3. Seleccione **Guardar**.
 
    La nueva directiva de plantilla se muestra en la **lista Directivas de** plantillas.
@@ -71,7 +71,7 @@ Vea este breve vídeo para obtener información sobre cómo administrar directiv
 
 Los usuarios asignados a una directiva solo podrán ver las plantillas que se pueden ver dentro de esa directiva.
 
-1. En **Directivas de plantillas,** seleccione una directiva y, a continuación, **seleccione Administrar usuarios.**
+1. En **Directivas de plantillas**, seleccione una directiva y, a continuación, **seleccione Administrar usuarios**.
 
 2. Escriba los usuarios que desea asignar a esta directiva.
 
@@ -108,7 +108,7 @@ A: Las plantillas eliminadas ya no estarán presentes en las directivas de plant
 
 A: Sí.
 
-1. En el Centro de administración, vaya a **Usuarios.**
+1. En el Centro de administración, vaya a **Usuarios**.
 1. En la tabla de lista Usuarios, seleccione los usuarios que desea asignar a una directiva de plantillas determinada.
 1. Seleccione Editar configuración y cambie el campo Directivas de plantillas.
 1. Seleccione Aplicar. [Más información](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).

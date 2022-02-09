@@ -1,8 +1,8 @@
 ---
 title: Tabla SessionDetails
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: Cada registro representa una sesión punto a punto, que puede ser una llamada de teléfono de VoIP a VoIP, una sesión de mensajería instantánea entre dos partes o cualquier otro tipo de sesión. Puede realizar una combinación de tabla con la tabla Multimedia para encontrar los detalles de cada medio implicado en esta sesión.
-ms.openlocfilehash: e7b89dc242fb3e4adec215948915218b579631ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 55c5c85538f61d757bc3d3d2c7f97ff1a58d33cc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863437"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404552"
 ---
 # <a name="sessiondetails-table"></a>Tabla SessionDetails
  
@@ -29,7 +29,7 @@ Tenga en cuenta que los campos IsUser1IntegratedWithDeskPhone y IsUser2Integrate
 |**Columna**|**Tipo de datos**|**Clave/índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Principal, Exterior  <br/> |Hora de la solicitud de sesión. Se usa junto con **SessionIdSeq** para identificar una sesión de manera exclusiva. Vea la [tabla Cuadros de diálogo de Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
-|**SessionIdSeq** <br/> |Entero  <br/> |Principal, Exterior  <br/> |Número del identificador para identificar la sesión. Se usa junto con **SessionIdTime** para identificar de forma única una sesión.* Vea la tabla Cuadros de [diálogo de Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
+|**SessionIdSeq** <br/> |Entero  <br/> |Principal, Exterior  <br/> |Número del identificador para identificar la sesión. Se usa junto con **SessionIdTime** para identificar de forma única una sesión.* Vea la tabla [Cuadros de diálogo de Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
 |**CorrelationId** <br/> |uniqueidentifier  <br/> ||GUID con el que se correlacionan varias sesiones.  <br/> |
 |**ReplaceDialogIdTime** <br/> |datetime  <br/> |Externo  <br/> |Número con el que se identifica el diálogo que se reemplazó por la sesión actual. Vea la [tabla Cuadros de diálogo de Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
 |**ReplaceDialogIdSeq** <br/> |Entero  <br/> |Externo  <br/> |Número con el que se identifica la sesión. Se usa junto con **ReplacesDialogIdTime** para identificar de manera exclusiva una sesión que se reemplazó por esta sesión. Vea la [tabla Cuadros de diálogo de Skype Empresarial Server 2015](dialogs.md) para obtener más información. <br/> |

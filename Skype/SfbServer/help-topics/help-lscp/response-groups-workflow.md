@@ -1,8 +1,8 @@
 ---
 title: Flujo de trabajo de grupos de respuesta
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,22 +15,22 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Los flujos de trabajo del grupo de respuesta definen las acciones que se toman cuando la aplicación grupo de respuesta recibe una llamada telefónica.
-ms.openlocfilehash: 0683cad93475ff23bca20acd6f90cee6a60139f0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ad5c8c67e01a46888da3b8c412bc2317ba6c6af6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838722"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395843"
 ---
 # <a name="response-groups-workflow"></a>Flujo de trabajo de grupos de respuesta
 
 Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Los flujos de trabajo del grupo de respuesta definen las acciones que se toman cuando la aplicación grupo de respuesta recibe una llamada telefónica.
 
-La **página Flujo de trabajo** grupos de respuesta muestra una lista de todos los flujos de trabajo del grupo de respuesta  -   definidos para la organización.
+La **página Grupos de** -  **respuestaWorkflow** muestra una lista de todos los flujos de trabajo del grupo de respuesta definidos para su organización.
 
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
-Puede realizar las siguientes tareas desde la página Flujo de **trabajo de grupos**  -  **de** respuesta:
+Puede realizar las siguientes tareas desde la página **Grupos** de **respuestaWorkflow** - :
 
 - Crear o cambiar un flujo de trabajo de grupo de búsqueda
 
@@ -60,4 +60,4 @@ En la siguiente lista se describen los campos de la página.
 
 - **Habilitado** Indica si el flujo de trabajo está activado para recibir llamadas.
 
-Para obtener más información sobre las características y capacidades del grupo de respuesta, [vea Plan for the Response Group application in Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación sobre planeación. Para obtener más información sobre cómo trabajar con flujos de trabajo de grupo de respuesta, consulte [Managing Response Group Workflows](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows) en la documentación sobre operaciones.
+Para obtener más información sobre las características y capacidades del grupo de respuesta, vea [Plan for the Response Group application in Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación sobre planeación. Para obtener más información sobre cómo trabajar con flujos de trabajo de grupo de respuesta, consulte [Managing Response Group Workflows](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows) en la documentación sobre operaciones.

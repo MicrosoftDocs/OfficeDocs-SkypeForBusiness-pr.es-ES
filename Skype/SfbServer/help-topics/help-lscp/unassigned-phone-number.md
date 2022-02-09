@@ -1,8 +1,8 @@
 ---
 title: Número de teléfono sin asignar
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: Los números sin asignar son números de teléfono válidos para su organización pero que no se han asignado a un usuario o teléfono. La tabla de números sin asignar identifica cómo desea que se traten las llamadas a números sin asignar.
-ms.openlocfilehash: 7b09083238f034a7f087ed8aadfa9169c644ceb1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b42c490363cd5de4247faeb707b9e608d12f9838
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864007"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404082"
 ---
 # <a name="unassigned-phone-number"></a>Número de teléfono sin asignar
 
@@ -81,4 +81,4 @@ En la siguiente lista se describen los campos de la página.
 
 - **Anuncio** El anuncio que se reproducirá para este rango de números sin signo.
 
-Para obtener más información sobre las características y capacidades del anuncio, consulte [Plan for the Announcement application in Skype Empresarial 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación sobre planeación. Para obtener más detalles sobre cómo trabajar con rangos de números sin asignar, vea [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) en la documentación de operaciones.
+Para obtener más información sobre las características y capacidades del anuncio, [vea Plan for the Announcement application in Skype Empresarial 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación sobre planeación. Para obtener más detalles sobre cómo trabajar con rangos de números sin asignar, vea [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) en la documentación de operaciones.

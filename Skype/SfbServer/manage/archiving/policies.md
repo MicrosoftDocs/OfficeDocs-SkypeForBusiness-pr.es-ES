@@ -1,8 +1,8 @@
 ---
 title: Administrar directivas de archivado en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: 'Summary: Learn how to manage user policies for archiving for Skype Empresarial Server.'
-ms.openlocfilehash: aefb05c4ee1be0af0af4d2ab4ab4d53efbd71912
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c4d5278ece9c812254c67d2d783b5a9f9175330c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856767"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397804"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>Administrar directivas de archivado en Skype Empresarial Server
 
@@ -33,7 +33,7 @@ Inicialmente, configura directivas de archivado al implementar el archivado, per
 Las directivas de archivado se pueden establecer en el nivel global, de sitio o de usuario.
   
 > [!NOTE]
-> Si ha habilitado la integración de Microsoft Exchange para la implementación, las directivas de Exchange controlan si el archivado está habilitado para los usuarios que se encuentran en Exchange y tienen sus buzones en espera In-Place. Para obtener más información, vea [Plan for archiving in Skype Empresarial Server](../../plan-your-deployment/archiving/archiving.md) and Configure integration with Exchange storage for [Skype Empresarial Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Si ha habilitado la integración de Microsoft Exchange para la implementación, las directivas de Exchange controlan si el archivado está habilitado para los usuarios que se encuentran en Exchange y tienen sus buzones en espera In-Place. Para obtener más información, vea [Plan for archiving in Skype Empresarial Server](../../plan-your-deployment/archiving/archiving.md) [and Configure integration with Exchange storage for Skype Empresarial Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="manage-archiving-policies-by-using-the-control-panel"></a>Administrar directivas de archivado mediante el Panel de control
 
@@ -47,7 +47,7 @@ Puede administrar las directivas de archivado mediante el Panel de control de la
     
 ## <a name="manage-archiving-policies-by-using-windows-powershell"></a>Administrar directivas de archivado mediante Windows PowerShell
 
-También puede configurar directivas de archivado mediante los cmdlets Windows PowerShell que se enumeran en la tabla siguiente. Para obtener información detallada acerca de la sintaxis, incluidos todos los parámetros disponibles, [vea Skype Empresarial Server Shell de administración](../management-shell.md).
+También puede configurar directivas de archivado mediante los cmdlets Windows PowerShell que se enumeran en la tabla siguiente. Para obtener información detallada acerca de la sintaxis, incluidos todos los parámetros disponibles, [consulte Skype Empresarial Server Shell de administración](../management-shell.md).
   
 
 |**Cmdlet**|**Descripción**|

@@ -1,7 +1,7 @@
 ---
 title: Skype Empresarial compatibilidad con Office aplicaciones
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Comprenda las formas en que puede obtener acceso Skype Empresarial características desde Outlook y otras Microsoft Office aplicaciones.
-ms.openlocfilehash: 06a019416ad8d32b0234b08c01b09630dd07a2ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 249b66eb366d9fa2d5911c24fb7dc88d0dcd6633
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862137"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409903"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype Empresarial compatibilidad con Office aplicaciones
  
@@ -31,7 +31,7 @@ En este tema se describe la compatibilidad de Skype Empresarial con varias versi
   
 ## <a name="office-and-skype-for-business"></a>Office y Skype Empresarial
 
-En la tabla siguiente se describen las características de Skype Empresarial compatibles con varias versiones de Office una vez que Exchange se implementa e integra como se describe en [Integrar Skype Empresarial Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)con Exchange Server .
+En la tabla siguiente se describen las características de Skype Empresarial compatibles con varias versiones de Office una vez que Exchange se implementa e integra como se describe en [Integrar Skype Empresarial Server con Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 **Skype Empresarial y Microsoft Office compatibilidad**
 
@@ -68,7 +68,7 @@ En la tabla siguiente se describe Skype Empresarial compatibilidad con varias ve
 |Exchange Server 2013  <br/> |Igual que Exchange Server 2010, con la adición de  <br/>&bull;&nbsp;&nbsp;Almacén de contactos unificado  <br/>&bull;&nbsp;&nbsp;Imágenes de alta resolución  <br/>&bull;&nbsp;&nbsp;Integración de archivado  <br/> **Nota:** Para obtener más información, [vea Integrar Skype Empresarial Server con Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
 |Exchange Server 2010  <br/>(solo Skype Empresarial Server 2015) |Las siguientes características solo están disponibles a través de EWS:  <br/>&bull;&nbsp;&nbsp;Leer o eliminar elementos de la carpeta Historial de conversaciones  <br/>&bull;&nbsp;&nbsp;Leer o eliminar elementos de correo de voz  <br/>&bull;&nbsp;&nbsp;Mostrar información de disponibilidad extendida y asunto y ubicación de la reunión  <br/>&bull;&nbsp;&nbsp;Exchange de contactos  <br/> Las carpetas públicas son opcionales Exchange Server 2010.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
  
 [Windows cliente y compatibilidad con software](windows-requirements.md)
   

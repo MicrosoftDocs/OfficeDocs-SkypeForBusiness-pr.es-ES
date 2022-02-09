@@ -1,7 +1,7 @@
 ---
 title: Crear una plantilla a partir de un equipo existente en Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5f22f9acbd3cf39c144ca07cce1c5d690267b6b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0672b72da22abe5ce0b174d40b112cce4fd90673
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828483"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396278"
 ---
 # <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>Crear una plantilla de equipo a partir de un equipo existente en Microsoft Teams
 
@@ -33,7 +33,7 @@ Microsoft Teams le permite crear una plantilla a partir de un equipo existente q
 
 1. Inicie la sesión en el Centro de administración de Teams
 
-2. En el panel de navegación izquierdo, expanda **Teams**  >  **plantillas de equipo.**
+2. En el panel de navegación izquierdo, **expanda Teams** >  **Plantillas de equipo**.
 
 3. Seleccione **Agregar**.
 
@@ -45,14 +45,14 @@ Microsoft Teams le permite crear una plantilla a partir de un equipo existente q
 
 ![Imagen de la lista de equipos con un equipo resaltado.](media/team-existing-team-selection.png)
 
-6. En la **sección Configuración de** plantilla, complete los siguientes campos y, a continuación, seleccione **Siguiente:**
+6. En la **sección Configuración de** plantilla, complete los campos siguientes y, a continuación, seleccione **Siguiente**:
     - Nombre de plantilla
     - Descripciones cortas y largas de la plantilla
     - Visibilidad de configuración regional  
   
-7. En la **sección canales, pestañas** y aplicaciones, agregue los canales y aplicaciones que necesite su equipo.
+7. En la **sección canales, pestañas y aplicaciones** , agregue los canales y aplicaciones que necesite su equipo.
 
-    1. En la **sección Canales,** seleccione **Agregar**.
+    1. En la **sección Canales** , seleccione **Agregar**.
     2. En el **cuadro de** diálogo Agregar, asigne un nombre al canal.
     3. Agregue una descripción.
     4. Decida si el canal debe mostrarse de forma predeterminada.

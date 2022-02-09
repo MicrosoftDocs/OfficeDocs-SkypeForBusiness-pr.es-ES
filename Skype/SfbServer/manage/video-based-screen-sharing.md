@@ -1,8 +1,8 @@
 ---
 title: Uso compartido de pantallas basado en vídeo para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/20/2018
 manager: serdars
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype Empresarial Server planeación y configuración para uso compartido de pantalla basado en vídeo (VbSS)
-ms.openlocfilehash: ff8dc9e21ab4b00741acca5dcc4ac972e5d13e68
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0eb381504e797879d9e4235d7ae9cce69f1a468c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859977"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396432"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Uso compartido de pantallas basado en vídeo para Skype Empresarial Server 
  
-El uso compartido de pantalla basado en vídeo (VbSS) en Skype For Business Server 2015 ya está disponible para su descarga: Skype Empresarial Server actualización acumulativa de [2015 KB3061064](https://www.microsoft.com/download/details.aspx?id=47690). VbSS se incluye con Skype Empresarial Server 2019.
+El uso compartido de pantalla basado en vídeo (VbSS) en Skype Para Business Server 2015 ya está disponible para su descarga: [Skype Empresarial Server actualización acumulativa de 2015 KB3061064](https://www.microsoft.com/download/details.aspx?id=47690). VbSS se incluye con Skype Empresarial Server 2019.
   
 El uso compartido de pantalla basado en vídeo, o VbSS, surgió del uso compartido de pantalla de Lync. La diferencia entre VbSS y el uso compartido de pantalla tradicional tiene que ver con los protocolos subyacentes usados y con lo que destacan. El uso compartido de pantalla usa el protocolo de escritorio remoto (RDP), que es excelente para crear miles de sesiones de 1 a 1 entre los equipos de las personas. La tecnología más reciente, VbSS, usará el Protocolo de datagramas de usuario (UDP).
   
@@ -52,8 +52,8 @@ También debe tener en cuenta que se ha negociado cierta fidelidad o nítido del
 
 |**Rol del servidor**|**Nombre del servicio**|**Intervalo de puertos o puertos**|**Protocolo**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|
-|Servidores front-end  <br/> |Skype Empresarial Server Servicio de uso compartido de aplicaciones  <br/> |5065  <br/> |TCP  <br/> |Se usa para las solicitudes de escucha SIP entrantes para compartir las aplicaciones.  <br/> |
-|Servidores front-end  <br/> |Skype Empresarial Server Servicio de uso compartido de aplicaciones  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Intervalo de puerto de medios usado para compartir aplicaciones.  <br/> |
+|Servidores front-end  <br/> |Skype Empresarial Server de uso compartido de aplicaciones  <br/> |5065  <br/> |TCP  <br/> |Se usa para las solicitudes de escucha SIP entrantes para compartir las aplicaciones.  <br/> |
+|Servidores front-end  <br/> |Skype Empresarial Server de uso compartido de aplicaciones  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Intervalo de puerto de medios usado para compartir aplicaciones.  <br/> |
    
 **Puertos de cliente necesarios**
 
@@ -64,7 +64,7 @@ También debe tener en cuenta que se ha negociado cierta fidelidad o nítido del
 Si QoS está habilitado para los siguientes puertos multimedia y VbSS también está habilitado, durante una conferencia que incluya el uso compartido de escritorio, la MCU de AS usará la configuración de puerto de vídeo que se muestra en negrita a continuación para el tráfico compartido de pantalla. 
   
 > [!IMPORTANT]
-> Esta configuración es un caso especial y esta configuración exacta debe usarse al implementar ambas características. Esto invalida otras opciones recomendadas en la [documentación de QoS](/previous-versions/office/lync-server-2013/lync-server-2013-managing-quality-of-service-qos). Para el uso compartido de aplicaciones, también deberá especificar ASMCUSVC.exe en el GPO de QoS además de definir estos valores de puerto. 
+> Esta configuración es un caso especial y esta configuración exacta debe usarse al implementar ambas características. Esto invalida otras opciones de configuración recomendadas en [la documentación de QoS](/previous-versions/office/lync-server-2013/lync-server-2013-managing-quality-of-service-qos). Para el uso compartido de aplicaciones, también deberá especificar ASMCUSVC.exe en el GPO de QoS además de definir estos valores de puerto. 
   
 **Configuración necesaria de QoS/VbSS de Application Server**
 
@@ -153,7 +153,7 @@ Lo bueno es que, una vez que haya instalado la actualización acumulativa 3 (CU3
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    Para obtener más información sobre este comando, [vea Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    Para obtener más información sobre este comando, vea [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - Si necesita desactivar VbSS completamente, puede ejecutar este comando:
     
@@ -161,7 +161,7 @@ Lo bueno es que, una vez que haya instalado la actualización acumulativa 3 (CU3
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    Para obtener más información sobre este comando, [vea Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
+    Para obtener más información sobre este comando, vea [Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > En una reunión de varios Skype Empresarial, todos los extremos de cliente respetarán la configuración de directiva para el organizador de la reunión. 
@@ -180,7 +180,7 @@ Lo bueno es que, una vez que haya instalado la actualización acumulativa 3 (CU3
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    Para obtener más información sobre este comando, [vea Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    Para obtener más información sobre este comando, vea [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - Si necesita volver a activar VbSS después de desactivarlo (está encendido de forma predeterminada), puede ejecutar este comando:
     
@@ -188,12 +188,12 @@ Lo bueno es que, una vez que haya instalado la actualización acumulativa 3 (CU3
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    Para obtener más información sobre este comando, [vea Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
+    Para obtener más información sobre este comando, vea [Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > En una reunión de varios Skype Empresarial, todos los extremos de cliente respetarán la configuración de directiva para el organizador de la reunión. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Skype Empresarial Server actualización acumulativa de 2015 KB3061064](https://www.microsoft.com/download/details.aspx?id=47690)
   

@@ -5,8 +5,8 @@ ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
 ms:contentKeyID: 48183694
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: En este artículo se describe cómo configurar intervalos de puertos para sus clientes y configurar directivas de calidad de servicio en Skype Empresarial Server para clientes que se ejecutan en Windows 10.
-ms.openlocfilehash: 5fa7a425bbb734307b487f63aa7fdf809f627661
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 73bb41a2d7bb585252e8362cf70f2988c6df5882
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860077"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398924"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configurar intervalos de puertos y una directiva de calidad de servicio para sus clientes en Skype Empresarial Server
 
@@ -169,23 +169,23 @@ En el ejemplo siguiente utiliza este conjunto de intervalos de puertos para crea
 </tbody>
 </table>
 
-Para crear una directiva de audio de calidad de servicio para Windows 10 equipos, inicie sesión primero en un equipo donde se haya instalado la administración de directivas de grupo. Abra Administración de directivas de grupo (haga clic **en Inicio**, elija **Herramientas administrativas** y, a continuación, haga clic en **Administración** de directivas de grupo) y, a continuación, realice el siguiente procedimiento:
+Para crear una directiva de audio de calidad de servicio para Windows 10 equipos, inicie sesión primero en un equipo donde se haya instalado la administración de directivas de grupo. Abra Administración de directivas de grupo (haga clic **en Inicio**, seleccione **Herramientas administrativas** y, a continuación, haga clic en **Administración** de directivas de grupo) y, a continuación, realice el siguiente procedimiento:
 
 1.  En Administración de directivas de grupo, busque el contenedor donde se deba crear la nueva directiva. Por ejemplo, si todos los equipos cliente se encuentran en una OU denominada Clientes, la nueva directiva debe crearse en la OU cliente.
 
-2.  Haga clic con el botón secundario en el contenedor adecuado y, a continuación, haga clic en Crear un GPO en este **dominio y vincule aquí**.
+2.  Haga clic con el botón secundario en el contenedor adecuado y, a continuación, haga clic en **Crear un GPO en este dominio y vincule aquí**.
 
-3.  En el **cuadro de diálogo Nuevo GPO,** escriba un  nombre para el nuevo objeto de directiva de grupo en el cuadro Nombre y, a continuación, haga clic en **Aceptar**.
+3.  En el **cuadro de diálogo Nuevo GPO** , escriba un nombre para el nuevo objeto de directiva de grupo **en el cuadro** Nombre y, a continuación, haga clic en **Aceptar**.
 
-4.  Haga clic con el botón secundario en la directiva recién creada y, a continuación, haga clic **en Editar**.
+4.  Haga clic con el botón secundario en la directiva recién creada y, a continuación, haga clic en **Editar**.
 
-5.  En el Editor de administración de directivas de grupo, expanda Configuración del **equipo,** expanda **Windows Configuración**, haga clic con el botón secundario en **QoS** basada en directivas y, a continuación, haga clic **en Crear nueva directiva.**
+5.  En el Editor de administración de directivas de grupo, expanda Configuración del **equipo, expanda** **Windows Configuración**, haga clic con el botón secundario en **QoS** basada en directivas y, a continuación, haga clic en **Crear nueva directiva**.
 
 6.  En el **cuadro de diálogo QoS** basado en directivas, en la página de apertura, escriba un nombre para la nueva directiva en el **cuadro** Nombre. Seleccione **Especificar el valor de DSCP** y, a continuación, defina el valor en **46**. Deje sin seleccionar **Especificar velocidad de salida del acelerador** y, a continuación, haga clic en **Siguiente**.
 
 7.  En la página siguiente, seleccione **Solo aplicaciones** con este nombre ejecutable, **escribaLync.exe** como nombre y, a continuación, haga clic en **Siguiente**. Esta configuración indica a la directiva que sólo priorice el tráfico que coincide con el Skype Empresarial cliente.
 
-8.  En la tercera página, asegúrese de que todas las direcciones **IP** de origen y cualquier dirección **IP** de destino están seleccionadas y, a continuación, haga clic **en Siguiente**. Con estas dos opciones de configuración activadas, los paquetes se administrarán sin importar qué equipo (dirección IP) los envió ni qué equipo (dirección IP) los recibirá.
+8.  En la tercera página, asegúrese de que todas las direcciones **IP** de origen y **cualquier dirección IP** de destino están seleccionadas y, a continuación, haga clic en **Siguiente**. Con estas dos opciones de configuración activadas, los paquetes se administrarán sin importar qué equipo (dirección IP) los envió ni qué equipo (dirección IP) los recibirá.
 
 9.  En la página cuatro, seleccione **TCP y UDP** en la lista desplegable **Seleccione el protocolo para el que se aplica esta directiva de QoS**. TCP (Transmission Control Protocol) y UDP (User Datagram Protocol) son los dos protocolos de red más usados por Skype Empresarial Server y sus aplicaciones cliente.
 
@@ -201,7 +201,7 @@ Después de crear la directiva de QoS para audio, deberá crear una segunda dire
 
 Si decide crear una directiva para administrar el tráfico de uso compartido de aplicaciones, realice estas sustituciones:
 
-  - Use un nombre de directiva diferente (y único) (por ejemplo, **Skype Empresarial Server uso compartido de aplicaciones).**
+  - Use un nombre de directiva diferente (y único) (por ejemplo, **Skype Empresarial Server uso compartido de aplicaciones**).
 
   - Ajuste el valor de DSCP en **24**, en lugar de 46. (También en este caso, este valor no tiene por qué ser 24, sino que debe ser diferente a los valores de DSCP utilizados para el audio y el vídeo.)
 
@@ -209,7 +209,7 @@ Si decide crear una directiva para administrar el tráfico de uso compartido de 
 
 Para una directiva de transferencia de archivos:
 
-  - Use un nombre de directiva diferente (y único) (por ejemplo, **Skype Empresarial Server transferencias de archivos**).
+  - Use un nombre de directiva diferente (y único) (por ejemplo, **Skype Empresarial Server de archivos**).
 
   - Ajuste el valor de DSCP en **14**. (Una vez más, este valor no tiene por qué ser 14, sino simplemente un código DSCP único.)
 
@@ -229,13 +229,13 @@ Para asegurarse de que los paquetes de red se marquen con el valor de DSCP adecu
 
 2.  En el **cuadro de** diálogo Ejecutar, escriba **regedit** y, a continuación, presione ENTRAR.
 
-3.  En el Editor del Registro, expanda **HKEY \_ LOCAL \_ MACHINE**, **expanda SYSTEM**, **expand CurrentControlSet**, expand **services** y, a continuación, **expande Tcpip**.
+3.  En el Editor del Registro, expanda **HKEYLOCALMACHINE\_\_**, **SYSTEM**, **CurrentControlSet**, servicios **y, a** continuación, **Tcpip**.
 
 4.  Haga clic con el botón secundario en **Tcpip**, elija **Nuevo** y, a continuación, haga clic en **Clave**. Después de crear la nueva clave del Registro, escriba **QoS** y, a continuación, presione ENTRAR para cambiar el nombre de la clave.
 
 5.  Haga clic con el botón secundario en **QoS**, elija **Nuevo** y, a continuación, haga clic en **Valor de cadena**. Después de crear el nuevo valor del Registro, escriba **No usar NLA** y, a continuación, presione ENTRAR para cambiar el nombre del valor.
 
-6.  Haga doble clic en **No usar NLA**. En el cuadro de diálogo Editar **cadena,** escriba **1** en el cuadro **Datos de** valor y, a continuación, haga clic en **Aceptar**.
+6.  Haga doble clic en **No usar NLA**. En el **cuadro de diálogo Editar cadena** , escriba **1** en el cuadro Datos **de** valor y, a continuación, haga clic en **Aceptar**.
 
 7.  Cierre el Editor del Registro e arranque el equipo.
 
@@ -249,16 +249,16 @@ Si desea etiquetar valores DSCP para todos los adaptadores de red de un equipo, 
 
 2.  En el **cuadro de** diálogo Ejecutar, escriba **regedit** y, a continuación, presione ENTRAR.
 
-3.  En el Editor del Registro, expanda **HKEY \_ LOCAL \_ MACHINE**, **expanda SYSTEM**, **expand CurrentControlSet**, expand **services** y, a continuación, **expande Tcpip**.
+3.  En el Editor del Registro, expanda **HKEYLOCALMACHINE\_\_**, **SYSTEM**, **CurrentControlSet**, servicios **y, a** continuación, **Tcpip**.
 
 4.  Si no ve una clave de registro con la etiqueta **QoS**, haga clic con el botón secundario en **Tcpip**, seleccione **Nuevo** y, a continuación, haga clic en **Clave**. Después de crear la nueva clave, escriba **QoS** y, a continuación, presione ENTRAR para cambiar el nombre de la tecla.
 
 5.  Haga clic con el botón secundario en **QoS**, elija **Nuevo** y, a continuación, haga clic en **Valor de cadena**. Después de crear el nuevo valor del Registro, escriba **No usar NLA** y, a continuación, presione ENTRAR para cambiar el nombre del valor.
 
-6.  Haga doble clic en **No usar NLA**. En el cuadro de diálogo Editar **cadena,** escriba **1** en el cuadro **Datos de** valor y, a continuación, haga clic en **Aceptar**.
+6.  Haga doble clic en **No usar NLA**. En el **cuadro de diálogo Editar cadena** , escriba **1** en el cuadro Datos **de** valor y, a continuación, haga clic en **Aceptar**.
 
 Después de crear y configurar el nuevo valor del Registro, deberá reiniciar el equipo para que los cambios entren en vigor.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Crear un objeto de directiva de grupo en Windows 10](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)

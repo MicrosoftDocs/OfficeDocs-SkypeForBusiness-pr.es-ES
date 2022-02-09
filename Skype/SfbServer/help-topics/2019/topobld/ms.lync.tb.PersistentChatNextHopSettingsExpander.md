@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración de próximo salto del chat persistente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para configurar el grupo de servidores de próximo salto de chat persistente, seleccione un servidor front-end o un grupo de servidores front-end de la lista.
-ms.openlocfilehash: 3cf6d385d891db55478e97bcc69620c8dd2dbc67
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1c7bcffcc7b2fb9a656836382ee0b05a38aab097
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831144"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395912"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>Expansor de configuración de próximo salto del chat persistente
 

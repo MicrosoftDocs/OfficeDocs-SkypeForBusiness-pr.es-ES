@@ -1,7 +1,7 @@
 ---
 title: Bloquear llamadas entrantes en Skype Empresarial Online
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -13,18 +13,18 @@ appliesto:
 - Skype for Business
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 0c40bea45d569a8887f23c38a62efe03977ad461
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c8059d593235fce0edd402bc019d884f2e8e043d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840632"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398290"
 ---
 # <a name="block-inbound-calls"></a>Bloquear llamadas entrantes
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Skype Empresarial Los planes de llamadas en línea ahora admiten el bloqueo de las llamadas entrantes de la red telefónica conmutada (RTC) pública. Esta característica permite definir una lista global de patrones de números de inquilino para que el identificador de llamada de todas las llamadas RTC entrantes al inquilino se pueda comprobar en la lista para obtener una coincidencia. Si se realiza una coincidencia, se rechaza una llamada entrante.
+Skype Empresarial planes de llamadas en línea ahora admite el bloqueo de llamadas entrantes desde la red telefónica conmutada (RTC). Esta característica permite definir una lista global de patrones de números de inquilino para que el identificador de llamada de todas las llamadas RTC entrantes al inquilino se pueda comprobar en la lista para obtener una coincidencia. Si se realiza una coincidencia, se rechaza una llamada entrante.
 
 Esta característica de bloqueo de llamadas entrantes solo funciona en las llamadas entrantes que proceden de la RTC y solo funciona de forma global y empresarial. No está disponible por usuario.  
 
@@ -39,13 +39,13 @@ Los controles de administración para bloquear números solo se proporcionan con
 
 ## <a name="call-blocking-powershell-commands"></a>Comandos de PowerShell de bloqueo de llamadas
 
-Los patrones de número se administran a través de los ```CsInboundBlockedNumberPattern``` comandos , y y ```New``` ```Get``` ```Set``` ```Remove``` . Puede administrar un patrón determinado con estos cmdlets, incluida la posibilidad de activar un patrón determinado.
+Los patrones de número se administran a través ```CsInboundBlockedNumberPattern``` de los comandos ```New```, ```Get```y ```Set```y ```Remove```. Puede administrar un patrón determinado con estos cmdlets, incluida la posibilidad de activar un patrón determinado.
 - [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) devuelve una lista de todos los patrones de números bloqueados agregados a la lista de inquilinos, incluidos Nombre, Descripción, Habilitado (Verdadero/Falso) y Patrón para cada uno.
 - [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) agrega un patrón de número bloqueado a la lista de inquilinos.
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) quita un patrón de número bloqueado de la lista de inquilinos.
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) modifica uno o varios parámetros de un patrón de número bloqueado en la lista de inquilinos.
 
-Ver y activar toda la característica de bloqueo de llamadas se administra a través de ```CsTenantBlockingCallingNumbers``` los comandos ```Get``` y ```Set``` .
+Ver y activar toda la característica de bloqueo de llamadas se administra a través de los ```CsTenantBlockingCallingNumbers``` comandos ```Get``` y ```Set```.
 
 - [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) devuelve los parámetros de la lista global de números bloqueados, incluido Habilitado (Verdadero/Falso). Hay una única directiva de inquilino global que no se puede modificar manualmente, aparte de activar o desactivar la característica.
 - [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) permite modificar las llamadas bloqueadas de inquilino global para que se puedan desactivar y desactivar en el nivel de inquilino.
@@ -54,7 +54,7 @@ Ver y activar toda la característica de bloqueo de llamadas se administra a tra
 
 #### <a name="block-a-number"></a>Bloquear un número
 
-En este ejemplo, los ```-Enabled``` parámetros y ```-Description``` son opcionales:
+En este ejemplo, los parámetros ```-Enabled``` y ```-Description``` son opcionales:
 
 ```powershell
 New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description “<description>” -Pattern “^[+]?13125550000”
@@ -74,7 +74,7 @@ En este ejemplo, el ```-Identity``` parámetro es obligatorio:
 Remove-CsInboundBlockedNumberPattern -Identity “<identity>”
 ```
  
-Si no se conoce la identidad, use el cmdlet para localizar primero el ```Get-CsInboundBlockedNumberPattern``` patrón adecuado y anote la identidad. Después, ejecute el ```Remove-CsTenantBlockedNumberPattern``` cmdlet y pase el valor de identidad adecuado.
+Si no se conoce la identidad, use el ```Get-CsInboundBlockedNumberPattern``` cmdlet para localizar primero el patrón adecuado y anote la identidad. Después, ejecute el ```Remove-CsTenantBlockedNumberPattern``` cmdlet y pase el valor de identidad adecuado.
 
 Deje tiempo para la replicación antes de probar y validar.
 
@@ -90,7 +90,7 @@ Use las capacidades de filtrado de PowerShell integradas para analizar los valor
 
 ## <a name="add-number-exceptions"></a>Agregar excepciones de número
 
-Puede agregar excepciones a patrones de números bloqueados a través de los comandos ```CsTenantBlockNumberExceptionPattern``` , , y y ```New``` ```Get``` ```Set``` ```Remove``` .
+Puede agregar excepciones a patrones de números bloqueados a ```CsTenantBlockNumberExceptionPattern``` través de los comandos , ```New```, ```Get```y ```Set```y ```Remove```.
 
 - [New-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/new-cstenantblockednumberexceptionpattern) agrega un patrón de excepción de número a la lista de inquilinos. 
 - [Get-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/get-cstenantblockednumberexceptionpattern) devuelve una lista de todos los patrones de excepción de número agregados a la lista de inquilinos.
@@ -101,7 +101,7 @@ Puede agregar excepciones a patrones de números bloqueados a través de los com
 
 #### <a name="add-a-number-exception"></a>Agregar una excepción de número
 
-En este ejemplo, se crea un nuevo patrón de excepción de número y, de forma predeterminada, se agregará el patrón como habilitado. Los ```-Enabled``` parámetros y son ```-Description``` opcionales.
+En este ejemplo, se crea un nuevo patrón de excepción de número y, de forma predeterminada, se agregará el patrón como habilitado. Los ```-Enabled``` parámetros y ```-Description``` son opcionales.
 
 ```powershell
 New-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Pattern <String> -Enabled <bool> -Description <string>
@@ -113,7 +113,7 @@ New-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="view-all-number-exceptions"></a>Ver todas las excepciones de número
 
-En este ejemplo, el parámetro -Identity es opcional. Si no se especifica el parámetro, este cmdlet devuelve una lista de todos los patrones de excepción de número ```-Identity``` especificados para un inquilino.
+En este ejemplo, el parámetro -Identity es opcional. Si no ```-Identity``` se especifica el parámetro, este cmdlet devuelve una lista de todos los patrones de excepción de número especificados para un inquilino.
  
 ```powershell
 Get-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -137,7 +137,7 @@ Set-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="remove-a-number-exception"></a>Quitar una excepción de número
 
-En este ejemplo, el ```-Identity``` parámetro es obligatorio. Este cmdlet quitará el patrón de número dado de la lista de inquilinos.  Si no se conoce la identidad, use el cmdlet para localizar primero el ```Get-CsInboundBlockedNumberPattern``` patrón adecuado y anote la identidad. Después, ejecute el ```Remove-CsTenantBlockedNumberExceptionPattern``` cmdlet y pase el valor de identidad adecuado.Deje tiempo para la replicación antes de probar y validar.  
+En este ejemplo, el ```-Identity``` parámetro es obligatorio. Este cmdlet quitará el patrón de número dado de la lista de inquilinos.  Si no se conoce la identidad, use el ```Get-CsInboundBlockedNumberPattern``` cmdlet para localizar primero el patrón adecuado y anote la identidad. Después, ejecute el ```Remove-CsTenantBlockedNumberExceptionPattern``` cmdlet y pase el valor de identidad adecuado.Deje tiempo para la replicación antes de probar y validar.  
 
 ```powershell
 Remove-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -151,7 +151,7 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tena
 
 Use el ```Test-CsInboundBlockedNumberPattern``` cmdlet para comprobar si un número está bloqueado en el espacio empresarial.
  
-En este ejemplo, los ```-Phonenumber``` parámetros y ```-Tenant``` son obligatorios. El ```-PhoneNumber``` parámetro debe ser una cadena numérica sin caracteres adicionales como + o -. En TRPS, el ```-Tenant parameter``` valor es opcional. El parámetro resultante devuelve un valor de Verdadero si el número está bloqueado en el espacio empresarial y ```isNumberBlocked``` Falso si no está bloqueado.
+En este ejemplo, los parámetros ```-Phonenumber``` y son ```-Tenant``` obligatorios. El ```-PhoneNumber``` parámetro debe ser una cadena numérica sin caracteres adicionales como + o -. En TRPS, el valor ```-Tenant parameter``` es opcional. El parámetro ```isNumberBlocked``` resultante devuelve un valor de Verdadero si el número está bloqueado en el espacio empresarial y Falso si no está bloqueado.
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>

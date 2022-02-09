@@ -1,8 +1,8 @@
 ---
 title: Directrices de implementación para el servidor de mediación en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: En este tema se describen las directrices de planeación para la implementación del servidor de mediación.
-ms.openlocfilehash: 99f975d3dddb8837569c8e8aa1128f7515b2d562
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1b5f628f544cafb358b58d325c5d077aef783a89
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844173"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397624"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Directrices de implementación para el servidor de mediación en Skype Empresarial Server
  
@@ -49,13 +49,13 @@ Puede usar la herramienta de planeación Skype Empresarial para evaluar si la as
  Los servidores de mediación del sitio central se pueden usar para enrutar llamadas a puertas de enlace RTC o IP-PBX en las sucursales. Sin embargo, si implementa troncos SIP, debe implementar un servidor de mediación en el sitio donde termina cada tronco. Tener un servidor de mediación en la ruta de sitio central llama a una puerta de enlace IP-PBX o RTC en un sitio de sucursal no requiere el uso de desvío de medios, pero se recomienda una omisión de medios. Esto se debe a que, si puede habilitar la omisión de medios, reducirá la latencia de la ruta de acceso multimedia y, por lo tanto, mejorará la calidad de los medios porque la ruta de acceso multimedia no es necesaria para seguir la ruta de señalización. El desvío de medios disminuirá también la carga de procesamiento del grupo de servidores.
   
 > [!NOTE]
-> La omisión de medios no interoperará con cada puerta de enlace RTC, IP-PBX y SBC. Microsoft ha probado un conjunto de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con IP-PBX de Cisco. La omisión de medios solo se admite con productos y versiones incluidos en el Programa de interoperabilidad abierta de comunicaciones unificadas: Lync Server en Explorar dispositivos [probados,](http://partnersolutions.skypeforbusiness.com/solutionscatalog)infraestructura y herramientas que admiten y amplían su Skype Empresarial experiencia. 
+> La omisión de medios no interoperará con cada puerta de enlace RTC, IP-PBX y SBC. Microsoft ha probado un conjunto de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con IP-PBX de Cisco. La omisión de medios solo se admite con productos y versiones incluidos en el Programa de interoperabilidad abierta de comunicaciones unificadas: Lync Server en Explorar dispositivos [probados,](http://partnersolutions.skypeforbusiness.com/solutionscatalog) infraestructura y herramientas que admiten y amplían su Skype Empresarial experiencia. 
   
-Si se necesita resistencia en la sucursal, se debe implementar una aplicación de sucursal con funciones de supervivencia o una combinación de servidor front-end, servidor de mediación y puerta de enlace en la sucursal. (La suposición con la resistencia del sitio de sucursal es que la presencia y las conferencias no son resistentes en el sitio). Para obtener instrucciones sobre la planeación de sitios de sucursal para voz, vea [Plan for Telefonía IP empresarial resiliency in Skype Empresarial Server](../enterprise-voice-solution/enterprise-voice-resiliency.md).
+Si se necesita resistencia en la sucursal, se debe implementar una aplicación de sucursal con funciones de supervivencia o una combinación de servidor front-end, servidor de mediación y puerta de enlace en la sucursal. (La suposición con la resistencia del sitio de sucursal es que la presencia y las conferencias no son resistentes en el sitio). Para obtener instrucciones sobre la planeación de sitios de sucursal para voz, [vea Plan for Telefonía IP empresarial resiliency in Skype Empresarial Server](../enterprise-voice-solution/enterprise-voice-resiliency.md).
   
 En el caso de las interacciones con una IP-PBX, si la IP-PBX no admite correctamente las interacciones de medios tempranos con varios cuadros de diálogo iniciales y las interacciones rfc 3960, puede haber recorte de las primeras palabras del saludo para las llamadas entrantes de ip-PBX a extremos de Lync. Este suceso puede agravarse si un servidor de mediación del sitio central enruta llamadas a un IP-PBX en el que la ruta termina en una sucursal, porque se necesita más tiempo para que la señalización finalice. Si experimenta este comportamiento, implementar un servidor de mediación en el sitio de sucursal es la única manera de reducir el recorte de las primeras palabras.
   
 Por último, si el sitio central tiene un PBX TDM, o si el IP-PBX no evita la necesidad de una puerta de enlace RTC, deberá implementar una puerta de enlace en la ruta de la llamada para conectar el servidor de mediación y el PBX.
   
 > [!NOTE]
-> Para mejorar el rendimiento multimedia del servidor de mediación independiente, debe habilitar el escalado del lado de recepción (RSS) en los adaptadores de red de estos servidores. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, vea "[Receive-Side Scaling Enhancements in Windows Server".](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) Para obtener más información sobre cómo habilitar RSS, consulte la documentación del adaptador de red. 
+> Para mejorar el rendimiento multimedia del servidor de mediación independiente, debe habilitar el escalado del lado de recepción (RSS) en los adaptadores de red de estos servidores. El RSS permite administrar los paquetes entrantes en paralelo con varios procesadores del servidor. Para obtener más información, [vea "Receive-Side Scaling Enhancements in Windows Server](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))". Para obtener más información sobre cómo habilitar RSS, consulte la documentación del adaptador de red. 

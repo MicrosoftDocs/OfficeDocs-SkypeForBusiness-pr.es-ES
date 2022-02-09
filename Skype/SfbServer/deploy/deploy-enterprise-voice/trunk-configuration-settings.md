@@ -1,8 +1,8 @@
 ---
 title: Crear una nueva colección de opciones de configuración de tronco en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Summary: Learn how to create a new collection of trunk configuration settings by using the Skype Empresarial Server Control Panel.'
-ms.openlocfilehash: 2a6db1b82693ce78bd48ff8cc816503026871a09
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 18a1639184b84346f09195c35b9d646545fa35a5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856297"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399344"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Crear una nueva colección de opciones de configuración de tronco en Skype Empresarial Server
 
@@ -44,7 +44,7 @@ Al crear opciones de configuración de tronco SIP mediante Skype Empresarial Ser
 |Nombre  <br/> |Identidad  <br/> |Identificador único para la colección. Esta propiedad es de solo lectura; no puede cambiar la Identidad de una colección o las opciones de configuración de troncos.  <br/> |
 |Descripción  <br/> |Descripción  <br/> |Proporciona una manera para que los administradores almacenen información adicional acerca de la configuración (por ejemplo, el propósito de la configuración de troncos).  <br/> |
 |Cantidad máxima de cuadros de diálogo admitidos  <br/> |MaxEarlyDialogs  <br/> |La cantidad máxima de respuestas bifurcadas que puede recibir una puerta de enlace RTC, IP-PBX o SBC en el proveedor de servicio para una invitación enviada al Servidor de mediación.  <br/> |
-|Nivel de compatibilidad con el cifrado  <br/> |SRTPMode  <br/> | Indica el nivel de apoyo para proteger el tráfico de medios entre el Servidor de mediación y la puerta de enlace RTC, IP-PBX, o SBC en el proveedor de servicio. Para los casos de desvío de medios, este valor debe ser compatible con la configuración de EncryptionLevel en la configuración de medios. La configuración de medios se establece mediante los [cmdlets New-CsMediaConfiguration](/powershell/module/skype/new-csmediaconfiguration) y [Set-CsMediaConfiguration.](/powershell/module/skype/set-csmediaconfiguration) <br/>  Los valores permitidos son: <br/>  Requeridos: debe usarse el cifrado SRTP. <br/>  Opcional: el SRTP se utilizará si la puerta de enlace lo admite. <br/>  No admitido: el cifrado SRTP no está admitido y, por lo tanto, no se utilizará. <br/>  El SRTPMode se utiliza solo si la puerta de enlace está configurada para usar la Seguridad de la capa de transporte (TLS). Si la puerta de enlace está configurada con el Protocolo de control de transporte (TCP) como transporte, el SRTPMode se configura internamente como No admitido.<br/> |
+|Nivel de compatibilidad con el cifrado  <br/> |SRTPMode  <br/> | Indica el nivel de apoyo para proteger el tráfico de medios entre el Servidor de mediación y la puerta de enlace RTC, IP-PBX, o SBC en el proveedor de servicio. Para los casos de desvío de medios, este valor debe ser compatible con la configuración de EncryptionLevel en la configuración de medios. La configuración de medios se establece mediante los [cmdlets New-CsMediaConfiguration](/powershell/module/skype/new-csmediaconfiguration) y [Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration) . <br/>  Los valores permitidos son: <br/>  Requeridos: debe usarse el cifrado SRTP. <br/>  Opcional: el SRTP se utilizará si la puerta de enlace lo admite. <br/>  No admitido: el cifrado SRTP no está admitido y, por lo tanto, no se utilizará. <br/>  El SRTPMode se utiliza solo si la puerta de enlace está configurada para usar la Seguridad de la capa de transporte (TLS). Si la puerta de enlace está configurada con el Protocolo de control de transporte (TCP) como transporte, el SRTPMode se configura internamente como No admitido.<br/> |
 |Hacer referencia al soporte  <br/> |Enable3pccRefer  <br/> EnableReferSupport  <br/> |Si se configura en **Habilitar enviar referencia a la puerta de enlace**, indica que el tronco admite la recepción de Solicitudes de referencia desde el Servidor de mediación.  <br/> Si está establecido como **Habilitar la referencia mediante un control de llamadas de terceros**, indica que el protocolo 3pcc puede ser utilizado para permitir llamadas transferidas para desviar el sitio hospedado. 3pcc también se conoce como "control de terceros" y ocurre cuando un tercero se utiliza para conectar un par de personas que llaman (por ejemplo, un operador que realiza una llamada de la persona A a una persona B).<br/> |
 |Habilitar el desvío de medios  <br/> |EnableBypass  <br/> |Indica si la omisión de medios se encuentra habilitado para este tronco. La omisión de medios solo puede estar habilitada si el **Procesamiento de medios centralizado** también está habilitado.<br/> |
 |Procesamiento de medios centralizado  <br/> |ConcentratedTopology  <br/> |Indica si existe un punto de terminación de medios conocido. (Un ejemplo de punto de terminación de medios conocido puede ser una puerta de enlace RTC donde una terminación de medios tiene la misma IP que la terminación de señal).  <br/> |
@@ -61,11 +61,11 @@ Al crear opciones de configuración de tronco SIP mediante Skype Empresarial Ser
 |Número llamado  <br/> |N/D  <br/> |Indica que el número de teléfono que se debe probar es el número telefónico de la persona llamada.  <br/> |
    
 > [!NOTE]
-> Los cmdlets Skype Empresarial Server CsTrunkConfiguration admiten propiedades adicionales que no se muestran en Skype Empresarial Server Panel de control. Para obtener más información, vea el tema de ayuda para el cmdlet [New-CsTrunkConfiguration.](/powershell/module/skype/new-cstrunkconfiguration)
+> Los cmdlets Skype Empresarial Server CsTrunkConfiguration admiten propiedades adicionales que no se muestran en Skype Empresarial Server Panel de control. Para obtener más información, vea el tema de ayuda para el cmdlet [New-CsTrunkConfiguration](/powershell/module/skype/new-cstrunkconfiguration) .
   
 ### <a name="to-create-new-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para crear nuevas opciones de configuración de tronco mediante Skype Empresarial Server Panel de control
 
-1. En Skype Empresarial Server panel de control, haga clic en **Enrutamiento de** voz y, a continuación, haga clic en Configuración **del tronco**.
+1. En Skype Empresarial Server Panel de control, haga clic en **Enrutamiento** de voz y, a continuación, haga clic en **Configuración del tronco**.
     
 2. En la pestaña **Configuración de tronco**, haga clic en **Nuevo** y luego haga clic en **Tronco de sitio** para crear el nuevo parámetro en el ámbito del sitio o en **Tronco de grupo** para crear el nuevo parámetro en el ámbito del servicio.
     
@@ -77,4 +77,4 @@ Al crear opciones de configuración de tronco SIP mediante Skype Empresarial Ser
     
 6. En el cuadro de diálogo **Configuración de voz sin confirmar**, haga clic en **Aceptar**.
     
-7. En el **cuadro Skype Empresarial Server panel de control,** haga clic en **Aceptar**.
+7. En el cuadro **Skype Empresarial Server panel de control**, haga clic en **Aceptar**.

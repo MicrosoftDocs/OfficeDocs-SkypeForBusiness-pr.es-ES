@@ -1,8 +1,8 @@
 ---
 title: Faq for the Skype Empresarial Server 2015 Stress and Performance Tool
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 11/11/2015
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Skype Empresarial 2015 stress and performance tool frequently asked questions (FAQ), útil para averiguar qué configuraciones de herramientas son compatibles, solucionar problemas de la herramienta y aclarar comportamientos que puede ver al ejecutar las herramientas de esfuerzo y rendimiento.
-ms.openlocfilehash: fb81d31711b027d58b8d5b97ecd6d14f32c0fa0f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 72f83f10d84a7e1f50f34d641c73fd1777f2b7b4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857297"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397614"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Faq for the Skype Empresarial Server 2015 Stress and Performance Tool
  

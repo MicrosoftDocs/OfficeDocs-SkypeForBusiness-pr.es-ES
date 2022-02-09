@@ -1,8 +1,8 @@
 ---
 title: Configurar el almacén de contactos personales en equipos cliente de Lync 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/29/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: 'Resumen: configure el almacén de contactos personal que usan los clientes heredados.'
-ms.openlocfilehash: de9bc9472f619f7d35bbc4585d806f6cd82c295a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d2678eb7f0d9bcdf3d981cb08e91cf9a4858f26c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842372"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397309"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Configurar el almacén de contactos personales en equipos cliente de Lync 2010
   
@@ -32,9 +32,9 @@ Para configurar este valor en un solo equipo, siga este procedimiento:
   
 1. En el equipo cliente, haga clic **en Inicio** y, a continuación, en **Ejecutar**.
 2. En el cuadro de diálogo **Ejecutar**, escriba regedit y, a continuación, presione ENTRAR.
-3. En el Editor del Registro, **expanda HKEY_LOCAL_MACHINE**, **expanda Software**, expanda **Directivas**, **expanda Microsoft** y, a continuación, **expanda Communicator**.
-4. Haga clic con **el Communicator**, elija **Nuevo** y, a continuación, haga clic en **DWORD (32 bits) Valor**.
+3. En el Editor del Registro, **expanda HKEY_LOCAL_MACHINE**, **software**, **directivas,** **microsoft** y, a continuación, **expanda Communicator**.
+4. Haga clic con **el Communicator**, elija **Nuevo** y, a continuación, haga clic en **Valor DWORD (32 bits**).
 5. Una vez creado el valor nuevo, escriba PersonalContactStoreOverride y pulse ENTRAR para cambiar el nombre del valor.
 6. Compruebe que el valor de PersonalContactStoreOverride es 0 y, a continuación, cierre el Editor del Registro.
 
-Si necesita realizar este procedimiento en más de un equipo, cree un objeto Directiva de grupo personalizado. Para obtener más información sobre cómo hacerlo en Windows 10, consulte el artículo [Crear un objeto de directiva de grupo.](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)
+Si necesita realizar este procedimiento en más de un equipo, cree un objeto Directiva de grupo personalizado. Para obtener más información sobre cómo hacerlo en Windows 10, consulte el artículo [Crear un objeto de directiva de](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object) grupo.

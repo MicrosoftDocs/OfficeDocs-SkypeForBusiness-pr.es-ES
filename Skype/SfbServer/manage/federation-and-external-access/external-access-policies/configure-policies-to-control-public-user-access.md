@@ -5,8 +5,8 @@ ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
 ms:contentKeyID: 48183343
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: La conectividad de mensajería instantánea (MI) permite a los usuarios de la organización usar mensajería instantánea para comunicarse con los usuarios de los servicios de mensajería instantánea proporcionados por proveedores de servicios de mensajería instantánea públicos.
-ms.openlocfilehash: b5c7d75a6048a584fcb872ed8eb3cd82dfe2076f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d05827c7af0f7712db6d2436f2ecdb00838ea53f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847313"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398964"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Configurar directivas para controlar el acceso de usuarios públicos en Skype Empresarial Server
 
@@ -33,7 +33,7 @@ En el caso de las invitaciones de mensajería instantánea, la respuesta depende
 
 
 > [!NOTE]  
-> Puede configurar directivas para controlar el acceso de usuarios públicos, incluso aunque no haya habilitado una federación para la organización. Sin embargo, las directivas que configure únicamente surtirán efecto cuando haya habilitado la federación en la organización. Para obtener más información sobre cómo habilitar la federación, vea [Habilitar o deshabilitar el acceso de usuarios remotos.](../access-edge/enable-or-disable-remote-user-access.md) Además, si especifica una directiva de usuario para controlar el acceso de usuarios públicos, la directiva solo se aplica a los usuarios que están habilitados para Skype Empresarial Server y configurados para usar la directiva. Para obtener más información sobre cómo especificar usuarios públicos que pueden iniciar sesión en Skype Empresarial Server, vea Asignar una directiva de acceso [de usuarios externos.](assign-an-external-user-access-policy.md)
+> Puede configurar directivas para controlar el acceso de usuarios públicos, incluso aunque no haya habilitado una federación para la organización. Sin embargo, las directivas que configure únicamente surtirán efecto cuando haya habilitado la federación en la organización. Para obtener más información sobre cómo habilitar la federación, consulte [Habilitar o deshabilitar el acceso de usuarios remotos](../access-edge/enable-or-disable-remote-user-access.md). Además, si especifica una directiva de usuario para controlar el acceso de usuarios públicos, la directiva solo se aplica a los usuarios que están habilitados para Skype Empresarial Server y configurados para usar la directiva. Para obtener más información sobre cómo especificar usuarios públicos que pueden iniciar sesión en Skype Empresarial Server, vea [Asignar una directiva de acceso de usuarios externos](assign-an-external-user-access-policy.md).
 
 
 Use el procedimiento que se describe a continuación para configurar una directiva que admita el acceso de usuarios de uno o varios proveedores de mensajería instantánea pública.
@@ -71,6 +71,6 @@ Para habilitar el acceso de usuarios públicos, también debe permitir la federa
 Si se trata de una directiva de usuario, también tiene que aplicar la directiva a los usuarios públicos que desee que puedan colaborar con usuarios públicos. 
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administrar proveedores federados SIP para la organización](../sip-providers/manage-sip-federated-providers-for-your-organization.md)

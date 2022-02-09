@@ -1,8 +1,8 @@
 ---
 title: Crear o modificar un plan de marcado en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Summary: Learn how to create or modify a dial plan by using the Skype Empresarial Server Control Panel.'
-ms.openlocfilehash: c5c4a819c21708f31fbe0bf4801900143d0d4538
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 527c31ea2589f4ee527fbacb2ce90791f844591b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864367"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399364"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Crear o modificar un plan de marcado en Skype Empresarial Server
 
@@ -47,12 +47,12 @@ ms.locfileid: "60864367"
 4. Si está creando un plan de marcado de usuario, escriba un nombre descriptivo en el campo **Nombre** en el cuadro de diálogo **Plan de marcado nuevo**. Una vez se haya guardado este nombre, no se podrá cambiar.
 
     > [!NOTE]
-    > Para los planes  de marcado de sitio, el campo Nombre se ha prepopultado con  el nombre del sitio y no se puede cambiar.> Para los planes de marcado de grupo, el campo Nombre se ha prepoblado con la puerta de enlace RTC o el nombre del registrador y no se puede cambiar.
+    > En el caso de los planes  de marcado de sitio, el campo Nombre está prepoblado con el nombre del sitio y no se puede cambiar.>  Para los planes de marcado de grupo, el campo Nombre se ha prepoblado con la puerta de enlace RTC o el nombre del registrador y no se puede cambiar.
 
 5. El campo **Nombre simple** se cumplimenta previamente con el mismo nombre que aparece en el campo **Nombre**. Opcionalmente, puede editar este campo para especificar un nombre más descriptivo que defina el sitio, servicio o usuario al que se aplica el plan de marcado.
 
    > [!IMPORTANT]
-   > El **nombre simple** debe ser único entre todos los planes de marcado de la implementación. No puede superar los 256 caracteres Unicode, cada uno de los cuales puede ser un carácter alfabético o numérico,  un guión (-), un punto (.) o un carácter de subrayado (_).> Los caracteres no admitidos incluyen espacios y caracteres reservados como se define en RFC 3966 ( <http://www.ietf.org/rfc/rfc3966.txt> ). Los caracteres reservados que **no se admiten** en **El nombre simple** incluyen los siguientes: > ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
+   > El **nombre simple** debe ser único entre todos los planes de marcado de la implementación. No puede superar los 256 caracteres Unicode, cada uno de los cuales puede ser un carácter alfabético o numérico, un guión (-), un punto (.) o un carácter de subrayado (_). **> Los caracteres** no admitidos incluyen espacios y caracteres reservados como se define en RFC 3966 (<http://www.ietf.org/rfc/rfc3966.txt>). Entre los caracteres reservados **que no se admiten** en **el nombre simple** se incluyen los siguientes: > ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
 6. (Opcional) En el campo **Descripción**, puede escribir información descriptiva adicional sobre el plan de marcado.
 
@@ -79,12 +79,12 @@ ms.locfileid: "60864367"
    - Para quitar una regla de normalización del plan de marcado, resalte el nombre de la regla y haga clic en **Eliminar**.
 
      > [!NOTE]
-     > Cada plan de marcado debe tener al menos una regla de normalización asociada. Para obtener información sobre cómo determinar todas las reglas de normalización que requiere un plan de marcado, vea [Plan for outbound voice routing in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) en la documentación de planeación.
+     > Cada plan de marcado debe tener al menos una regla de normalización asociada. Para obtener información sobre cómo determinar todas las reglas de normalización que requiere un plan de marcado, vea [Plan for outbound voice routing in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) en la documentación sobre planeación.
 
 10. Compruebe que las reglas de normalización del plan de marcado están organizadas en el orden correcto. Para cambiar la posición de una regla en la lista, resalte el nombre de la regla y, a continuación, haga clic en la flecha arriba o abajo.
 
     > [!IMPORTANT]
-    > Skype Empresarial Server recorre la lista de reglas de normalización desde arriba abajo y usa la primera regla que coincide con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. > La regla predeterminada **Mantener toda** la normalización^(\d )$ coincide con cualquier número {11} de 11 dígitos. Por ejemplo, si agrega una regla de normalización que coincida con números de 11 dígitos que comiencen por 1425, asegúrese de que **Keep All** esté ordenado por debajo de la regla ^(1425\d )$ más {7} restrictiva.
+    > Skype Empresarial Server recorre la lista de reglas de normalización desde arriba abajo y usa la primera regla que coincide con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. > La regla predeterminada **Mantener toda** la normalización^(\d{11})$ coincide con cualquier número de 11 dígitos. Por ejemplo, si agrega una regla de normalización que coincida con números de 11 dígitos que comiencen por 1425, asegúrese de que **Keep All** esté ordenado por debajo de la regla ^(1425\d{7})$ más restrictiva.
 
 11. (Opcional) Especifique un número para probar el plan de marcado y, a continuación, haga clic en **Ir**. Los resultados de la prueba se muestran en **Introducir un número para probarlo**.
 
@@ -93,7 +93,7 @@ ms.locfileid: "60864367"
 13. En la página **Plan de marcado**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
 
     > [!NOTE]
-    > Siempre que cree un plan de marcado, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes](voice-route-config-changes.md) en la configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
+    > Siempre que cree un plan de marcado, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes en la](voice-route-config-changes.md) configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
 
 ### <a name="to-modify-a-dial-plan"></a>Para modificar un plan de marcado
 
@@ -111,7 +111,7 @@ ms.locfileid: "60864367"
 5. (Opcional) En **Editar plan de marcado**, edite el campo **Nombre simple**, el cual se ha cumplimentado previamente con el mismo nombre que aparece en el campo **Nombre** para especificar un nombre más descriptivo que refleje el sitio, el servicio o el usuario a quien se aplica el plan de marcado.
 
     > [!IMPORTANT]
-    > El **nombre simple** debe ser único entre todos los planes de marcado dentro de la implementación de Lync Server 2013. No puede superar los 256 caracteres Unicode, cada uno de los cuales puede ser un carácter alfabético o numérico, un guión (-), un punto (.), un signo más (+) o un carácter de subrayado (_).los espacios de > no están permitidos en el **campo Nombre** simple.
+    > El **nombre simple** debe ser único entre todos los planes de marcado dentro de la implementación de Lync Server 2013. No puede superar los 256 caracteres Unicode, cada uno de los cuales puede ser un carácter alfabético o numérico, un guión (-), un punto (.), un signo más (+) o un carácter de subrayado (_).los espacios de > no están permitidos en el campo **Nombre** simple.
 
 6. (Opcional) En el campo **Descripción**, escriba información descriptiva sobre el plan de marcado.
 
@@ -138,12 +138,12 @@ ms.locfileid: "60864367"
    - Para quitar una regla de normalización del plan de marcado, resalte el nombre de la regla y haga clic en **Eliminar**.
 
      > [!NOTE]
-     > Cada plan de marcado debe tener al menos una regla de normalización asociada. Para obtener información detallada sobre cómo determinar todas las reglas de normalización que requiere un plan de marcado, consulte [Plan for outbound voice routing in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) en la documentación sobre planeación.
+     > Cada plan de marcado debe tener al menos una regla de normalización asociada. Para obtener más información sobre cómo determinar todas las reglas de normalización que requiere un plan de marcado, consulte [Plan for outbound voice routing in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) en la documentación sobre planeación.
 
 10. Compruebe que las reglas de normalización del plan de marcado están organizadas en el orden correcto. Para cambiar la posición de una regla en la lista, resalte el nombre de la regla y, a continuación, haga clic en la flecha arriba o abajo.
 
     > [!IMPORTANT]
-    > Skype Empresarial Server recorre la lista de reglas de normalización desde arriba abajo y usa la primera regla que coincide con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. > La regla predeterminada **Mantener toda** la normalización^(\d )$ coincide con cualquier número {11} de 11 dígitos. Si, por ejemplo, agrega una regla de normalización que coincida con números de 11 dígitos que comiencen por 1425, asegúrese de que **Keep All** esté ordenado por debajo de la regla ^(1425\d )$ más {7} restrictiva.
+    > Skype Empresarial Server recorre la lista de reglas de normalización desde arriba abajo y usa la primera regla que coincide con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. > La regla predeterminada **Mantener toda** la normalización^(\d{11})$ coincide con cualquier número de 11 dígitos. Si, por ejemplo, agrega una regla de normalización que coincida con números de 11 dígitos que comiencen por 1425, asegúrese de que **Keep All** esté ordenado por debajo de la regla ^(1425\d{7})$ más restrictiva.
 
 11. (Opcional) Especifique un número para probar el plan de marcado y, a continuación, haga clic en **Ir**. Los resultados de la prueba se muestran en **Introducir un número para probarlo**.
 
@@ -155,8 +155,8 @@ ms.locfileid: "60864367"
 13. En la página **Plan de marcado**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**.
 
     > [!NOTE]
-    > Siempre que cree o modifique un plan de marcado, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes](voice-route-config-changes.md) en la configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
+    > Siempre que cree o modifique un plan de marcado, debe ejecutar el comando **Confirmar todo** para publicar el cambio en la configuración. Para obtener más información, [vea Publicar cambios pendientes en la](voice-route-config-changes.md) configuración de enrutamiento de voz en Skype Empresarial en la documentación de operaciones.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Publicar cambios pendientes en la configuración de enrutamiento de voz en Skype Empresarial](voice-route-config-changes.md)

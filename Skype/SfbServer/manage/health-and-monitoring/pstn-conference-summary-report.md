@@ -1,8 +1,8 @@
 ---
 title: Informe de resumen de conferencia RTC en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 'Resumen: obtenga información sobre el Informe de resumen de conferencia RTC en Skype Empresarial Server.'
-ms.openlocfilehash: 19038b29f46e33026e3ef865226aa4d087b0a0da
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2632ce1b9653c4895bfdcb176373b6d4e9996b74
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862297"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397724"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Informe de resumen de conferencia RTC en Skype Empresarial Server
  
@@ -75,7 +75,7 @@ La siguiente tabla contiene la información que recoge el informe de resumen de 
 
 |**Nombre**|**¿Se pueden ordenar los datos en este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Cada hora** <br/> **Diario** <br/> **Semanalmente** <br/> **Mensualmente** <br/> |No  <br/> |Indica el intervalo temporal seleccionado. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si usa el intervalo Diario y hace clic en 7/7/2015, verá un desglose por hora de la actividad de registro de usuarios para esa fecha.  <br/> |
+|**Cada hora** <br/> **A diario** <br/> **Semanalmente** <br/> **Mensualmente** <br/> |No  <br/> |Indica el intervalo temporal seleccionado. Cuando corresponda, podrá hacer clic en un intervalo temporal determinado para ver información detallada para dicho intervalo. Por ejemplo, si usa el intervalo Diario y hace clic en 7/7/2015, verá un desglose por hora de la actividad de registro de usuarios para esa fecha.  <br/> |
 |**Total de conferencias RTC** <br/> |No  <br/> |Número total de conferencias donde se permitió el acceso telefónico.  <br/> |
 |**Total de participantes** <br/> |No  <br/> |Número total de personas que participaron en conferencias donde se permitió el acceso telefónico.  <br/> |
 |**Total de minutos de conferencia A/V** <br/> |No  <br/> |Tiempo total de la conferencia audiovisual.  <br/> |

@@ -1,8 +1,8 @@
 ---
 title: Impedir nuevas conexiones
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: 6fdb3bfdd8e612ccdf61cf639b106baefb60f061
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6f0bfcace21a0383b51a81ee37d60d3f7e227d4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851994"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397694"
 ---
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>Impedir nuevas conexiones a Skype Empresarial Server para el mantenimiento del servidor
 
@@ -37,9 +37,9 @@ Cuando se impiden nuevas conexiones a un servidor front-end, algunas Skype Empre
 
   - Aplicación Estacionamiento de llamadas
 
-Para obtener más información sobre el equilibrio de carga DNS, vea [Requisitos de equilibrio de carga.](../../plan-your-deployment/network-requirements/load-balancing.md)
+Para obtener más información sobre el equilibrio de carga DNS, vea [Requisitos de equilibrio de carga](../../plan-your-deployment/network-requirements/load-balancing.md).
 
-Además de impedir nuevas conexiones para todos los servicios de un servidor que Skype Empresarial Server, también puede impedir nuevas conexiones para servicios Skype Empresarial Server individuales. Por ejemplo, este método es útil en una situación en la que debe aplicar una actualización de Skype Empresarial Server que no requiera que se cierre todo el servidor. Tenga en cuenta que cuando deje de admitir conexiones para un servicio, es necesario seleccionar un servicio según está agrupado y según se muestra en la lista de servicios de Windows. Por ejemplo, el servicio Skype Empresarial Server Front-End y el agente de recopilación de datos para supervisión son servicios de Skype Empresarial Server independientes, pero en la lista de servicios de Windows se consolidan y se muestran como el servicio front-end Skype Empresarial Server. Puede evitar nuevas conexiones para el Skype Empresarial Server front-end, pero no puede evitar nuevas conexiones para estos dos servicios Skype Empresarial Server individuales por separado.
+Además de impedir nuevas conexiones para todos los servicios de un servidor que Skype Empresarial Server, también puede impedir nuevas conexiones para servicios Skype Empresarial Server individuales. Por ejemplo, este método es útil en una situación en la que debe aplicar una actualización de Skype Empresarial Server que no requiera que se cierre todo el servidor. Tenga en cuenta que cuando deje de admitir conexiones para un servicio, es necesario seleccionar un servicio según está agrupado y según se muestra en la lista de servicios de Windows. Por ejemplo, el servicio Skype Empresarial Server Front-End y el agente de recopilación de datos para supervisión son servicios de Skype Empresarial Server independientes, pero en la lista de servicios de Windows se consolidan y se muestran como el front-end Skype Empresarial Server servicio. Puede evitar nuevas conexiones para el Skype Empresarial Server front-end, pero no puede evitar nuevas conexiones para estos dos servicios Skype Empresarial Server individuales por separado.
 
 > [!IMPORTANT]
 > Cuando se establece un servidor para impedir nuevas conexiones y después se reinicia el servidor, el servidor empezará de forma predeterminada y de inmediato a aceptar nuevas comunicaciones tras reiniciarse. Para evitar esto, establezca que el servidor solo pueda pausarse y reanudarse manualmente antes de reiniciar el servidor.
@@ -48,7 +48,7 @@ Además de impedir nuevas conexiones para todos los servicios de un servidor que
 
 1.  Inicie sesión en el equipo local como miembro del grupo Administradores.
 
-2.  Abra la consola de complemento Servicios: haga **clic** en Inicio , elija Todos los programas **,** Herramientas **administrativas** y, a continuación, haga clic en **Servicios**.
+2.  Abra la consola de complemento Servicios: **haga clic en** Inicio, elija Todos los **programas, Herramientas** **administrativas** y, a continuación, haga clic en **Servicios**.
 
 3.  En la lista, haga doble clic en Skype Empresarial Server Windows servicio al que desea evitar nuevas conexiones.
 

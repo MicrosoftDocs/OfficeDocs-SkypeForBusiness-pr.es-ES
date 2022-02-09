@@ -1,8 +1,8 @@
 ---
 title: Amenazas de seguridad comunes en la informática moderna
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/22/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Dado Skype Empresarial Server es un sistema de comunicaciones de clase empresarial, debe ser consciente de los ataques de seguridad comunes que podrían afectar a su infraestructura y comunicaciones.
-ms.openlocfilehash: 8f546ff95bec714f9ddd922b4b786d4a6bd5549c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 187caacad29e3959169ee7b1053729f28e4755d4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851814"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400874"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Amenazas de seguridad comunes en la informática moderna
  
@@ -91,7 +91,7 @@ Un virus es una unidad de código que tiene por objeto reproducir más unidades 
 
 Skype Empresarial Server puede revelar información a través de una red pública que pueda vincularse a un individuo. Dicha información se puede desglosar en dos categorías:
   
-- **Datos de presencia mejorados** Los datos de presencia mejorados son información que un usuario puede elegir compartir o no compartir a través de un vínculo a un partner federado o con contactos dentro de una organización. Estos datos no se comparten con los usuarios de una red de mensajería instantánea pública. Las directivas de cliente y otras opciones de configuración del cliente pueden otorgar algún tipo de control al administrador del sistema. En Skype Empresarial Server, se puede configurar el modo de privacidad de presencia mejorada para un usuario individual para impedir que Skype Empresarial usuarios que no están en la lista de contactos del usuario vean la información de presencia del usuario. El modo de privacidad de presencia mejorada no impide que los usuarios de Microsoft Office Communicator 2007 y Microsoft Office Communicator 2007 R2 vean la información de presencia de un usuario. Para obtener más información sobre cómo implementar el cliente y la presencia, [vea Deploy clients for Skype Empresarial Server](../../deploy/deploy-clients/deploy-clients.md) y Plan for instant messaging and presence in [Skype Empresarial Server](../../plan-your-deployment/instant-messaging-and-presence.md).
+- **Datos de presencia mejorados** Los datos de presencia mejorados son información que un usuario puede elegir compartir o no compartir a través de un vínculo a un partner federado o con contactos dentro de una organización. Estos datos no se comparten con los usuarios de una red de mensajería instantánea pública. Las directivas de cliente y otras opciones de configuración del cliente pueden otorgar algún tipo de control al administrador del sistema. En Skype Empresarial Server, se puede configurar el modo de privacidad de presencia mejorada para un usuario individual para impedir que Skype Empresarial usuarios que no están en la lista de contactos del usuario vean la información de presencia del usuario. El modo de privacidad de presencia mejorada no impide que los usuarios de Microsoft Office Communicator 2007 y Microsoft Office Communicator 2007 R2 vean la información de presencia de un usuario. Para obtener más información acerca de la implementación del cliente y la presencia, [vea Deploy clients for Skype Empresarial Server](../../deploy/deploy-clients/deploy-clients.md) y [Plan for instant messaging and presence in Skype Empresarial Server](../../plan-your-deployment/instant-messaging-and-presence.md).
     
 - **Datos obligatorios** Los datos obligatorios son necesarios para el correcto funcionamiento del servidor o del cliente y NO están bajo el control de la administración del cliente o del sistema. Se trata de información que es necesaria en un servidor o una red para el enrutamiento, el mantenimiento de estados y la señalización.
     

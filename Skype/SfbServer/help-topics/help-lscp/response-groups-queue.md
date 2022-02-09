@@ -1,8 +1,8 @@
 ---
 title: Cola de grupos de respuesta
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,22 +15,22 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Las colas de grupo de respuesta mantienen llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
-ms.openlocfilehash: 430ca12cba9d326c1ef7a2a314932ccaa7ebb6f0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4dd0e6c22cbd31940f26570d0d9a569ffbf3643e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848983"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397983"
 ---
 # <a name="response-groups-queue"></a>Cola de grupos de respuesta
 
 Los grupos de respuestas constan de grupos de agentes, colas y flujos de trabajo. Las colas de grupo de respuesta mantienen llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
 
-La **página Cola de grupos** de respuesta muestra una lista de todas las colas de grupo de respuesta  -   definidas para su organización.
+La **página Grupos de** -  **respuestaQueue** muestra una lista de todas las colas de grupo de respuesta definidas para la organización.
 
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
-Puede realizar las siguientes tareas desde la página **Cola de grupos**  -  **de** respuesta:
+Puede realizar las siguientes tareas desde la página **Grupos de** -  **respuestaQueue**:
 
 - Crear una cola nueva
 
@@ -56,4 +56,4 @@ En la siguiente lista se describen los campos de la página.
 
 - **Descripción** La descripción de la cola.
 
-Para obtener más información sobre las características y capacidades del grupo de respuesta, [vea Plan for the Response Group application in Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación sobre planeación. Para obtener más información sobre cómo trabajar con colas de grupo de respuesta, consulte [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) en la documentación sobre operaciones.
+Para obtener más información sobre las características y capacidades del grupo de respuesta, vea [Plan for the Response Group application in Skype Empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación sobre planeación. Para obtener más información sobre cómo trabajar con colas de grupo de respuesta, consulte [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) en la documentación sobre operaciones.

@@ -1,167 +1,54 @@
 ---
 title: Administrar la Elogio en el centro Teams administración
-author: HowlinWolf-92
-ms.author: v-mahoffman
-manager: serdars
-ms.reviewer: jozhuan
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
+ms.reviewer: rjam
 audience: admin
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
-description: Obtenga información sobre la configuración de administración en Elogio aplicación en el centro Microsoft Teams administración
-ms.openlocfilehash: 044ab5d7fc5aebba1b1245f349e4ed27c61190b6
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
+description: Obtenga información sobre cómo administrar la aplicación Elogio en el centro Microsoft Teams administración.
+ms.openlocfilehash: 064a1b90db44971e2fd796ea96de2a3523f7f380
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513461"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401614"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Administrar la Elogio en el centro Microsoft Teams administración
 
-> [!NOTE]
-> Los administradores deben tener una Teams de acceso a esta característica. Si intenta acceder a esta característica sin una Teams, verá un mensaje de error.
+La Elogio en Microsoft Teams ayuda a los usuarios a mostrar aprecio a los miembros de su organización o clase. Los distintivos de Elogio están diseñados para ayudar a reconocer el esfuerzo que se hace en la amplia gama de trabajo que Teams los usuarios, desde educadores hasta trabajadores de primera línea. Para obtener más información, consulte [Enviar Elogio a las personas](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
 
-La Elogio en Microsoft Teams ayuda a los usuarios a mostrar aprecio a los miembros de su organización o clase. Con una selección de conjuntos de distintivos entre los que elegir y la opción de crear sus propios distintivos, Elogio está diseñado para ayudar a reconocer el esfuerzo que se lleva a la amplia gama de trabajo que los usuarios Teams hacen, desde educadores hasta trabajadores de frontline. Para obtener más información, consulte [Enviar Elogio a personas.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
-
-Los administradores pueden controlar qué distintivos están disponibles para su organización desde el Microsoft Teams de administración. En el panel de navegación izquierdo, vaya **a Teams aplicaciones > Administrar aplicaciones.** En la lista de aplicaciones, haga **clic Elogio** y, a continuación, **seleccione Configuración**.  Desde aquí, puede habilitar conjuntos de distintivos predeterminados e integrados y crear distintivos personalizados.
-
-![Captura de pantalla Configuración pestaña de la Elogio aplicación.](media/manage-praise-app-settings.png)
+Los administradores deben tener una Teams de acceso a esta característica. Si intenta acceder a esta característica sin una Teams, verá un mensaje de error.
 
 > [!NOTE]
 > La Elogio está disponible para GCC de nube, pero no para GCC Alta o DoD.
 
-## <a name="use-built-in-badge-sets"></a>Usar conjuntos de distintivos integrados
+## <a name="enable-or-disable-praise-in-your-organization"></a>Habilitar o deshabilitar Elogio en su organización
 
-Los conjuntos integrados son colecciones de distintivos diseñados por Microsoft para Elogio aplicación. Estos conjuntos no son editables por los administradores. El conjunto de distintivos predeterminado ya está habilitado y disponible en Elogio aplicación. Para cambiar la disponibilidad del conjunto predeterminado o de cualquier conjunto de distintivos, cambie el botón de alternancia correspondiente a Activar o Desactivar. 
+Elogio está habilitado de forma predeterminada para todos los Teams usuarios de su organización. Puede desactivar o activar la aplicación en el nivel de organización en la página [Administrar aplicaciones](manage-apps.md) del Centro de administración de Microsoft Teams.
 
-<a name="default-badges"></br></a>
+:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Captura de pantalla de la Elogio detalles de la aplicación en el Teams de administración, que muestra el botón de alternancia Estado.":::
 
-### <a name="default-badges"></a>Distintivos predeterminados
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**.
+2. En la lista de aplicaciones, busque la aplicación Elogio, selecciónelo y, después, cambie el botón de alternancia Estado a **Bloqueado** o **Permitido**.
 
-El conjunto de distintivos predeterminado está diseñado para ayudar Teams los usuarios reconocen a sus compañeros por ir más allá y más allá con su trabajo.
+Tenga en cuenta que esta configuración afecta tanto a la aplicación Elogio como a Elogio de la aplicación Viva Ideas en Teams.
 
-![Vista previa del conjunto de distintivos predeterminado.](media/default-set-praise.png)
+## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar Elogio usuarios específicos de su organización
 
-<a name="sel-edu-badges"></br></a>
+Para permitir o bloquear usuarios específicos de su organización Elogio, asegúrese de que Elogio está activado para su organización en la [página Administrar aplicaciones](manage-apps.md). A continuación, cree una directiva de permisos de aplicación personalizada y asígnela a esos usuarios. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-app-permission-policies.md).
 
-### <a name="social-and-emotional-learning-badges-for-education"></a>Distintivos de aprendizaje social y emocional para la educación
+## <a name="badges"></a>Distintivos
 
-Los profesores pueden reconocer a alumnos individuales por logros y comportamientos de aprendizaje social y emocional (SEL) con distintivos que ilustran estos conceptos.
+Este es el conjunto predeterminado de distintivos en Elogio. Teams usuarios de su organización pueden usar estos distintivos para reconocer a sus compañeros por ir más allá con su trabajo.
 
-![Vista previa de los distintivos de aprendizaje social y emocional para el sector educativo.](media/sel-edu-set-praise.png)
-
-<a name="create-your-own-badges"></br></a>
-
-## <a name="create-your-own-badges"></a>Crear sus propios distintivos
-
-Seleccione **Crear un distintivo personalizado.** Desde aquí, puede diseñar un distintivo personalizado en el panel lateral. Puede crear hasta 25 distintivos personalizados. 
-
-![Captura de pantalla de Crear un panel de insignia personalizado.](media/manage-praise-app-create-custom-badge.png)
-
-1. Escriba un nombre de distintivo. Este es el nombre que aparecerá en el distintivo cuando los usuarios envíen elogios.
-
-2. Establezca los colores de la insignia. Para establecer el texto y los colores de fondo del distintivo, debe escribir los colores como valores hexadecimales (hexadecimales).
-
-   > [!TIP]
-   > Si es nuevo en los valores hexadecimales, en este artículo se incluye una [introducción](#hex-colors-intro) rápida para mostrarle cómo usarlos.
-
-3. Upload una imagen de distintivo. El tipo de archivo aceptado es .PNG. El archivo de imagen debe tener menos de 40 KB con dimensiones máximas de 216 x 216 píxeles.
-![Distintivo con campos de fondo, texto e imagen etiquetados.](media/praise-app-badge-fields.png)
-
-4. Localice el nombre del distintivo: en **Nombres de insignia localizados,** seleccione **Agregar**. Seleccione la configuración regional que desee en la lista desplegable. A continuación, escriba el nombre del distintivo en el idioma designado.
-
-5. Excluir el distintivo de configuraciones regionales específicas: en **Excluir distintivo de estas configuraciones regionales,** seleccione **Agregar**. Seleccione las configuraciones regionales que desea excluir de la lista desplegable.
-
-6. Seleccione **Aplicar**. El nuevo distintivo aparecerá ahora en la tabla de distintivos personalizados.
+:::image type="content" source="media/default-set-praise.png" alt-text="Imagen de los distintivos en el conjunto de distintivos predeterminado.":::
 
 > [!NOTE]
-> Si se omiten los pasos 4 y 5, el distintivo estará en el idioma predeterminado para todas las configuraciones regionales.
->
-> Cuando haya terminado de realizar cambios en la selección del distintivo, asegúrese de seleccionar **Enviar**. Estos cambios pueden tardar hasta unas horas en estar disponibles para su organización.
+> A partir de febrero de 2022, los usuarios solo pueden enviar y recibir distintivos predeterminados. Los distintivos personalizados ya no están disponibles y las opciones para los distintivos personalizados se quitarán  de la página de Configuración de la aplicación en el centro de administración de Teams próximamente.
 
-<a name="hex-colors-intro"></br></a>
+## <a name="related-articles"></a>Artículos relacionados
 
-## <a name="specify-colors-with-hex-values"></a>Especificar colores con valores hexadecimales
-
-Los valores de color hexadecimal son cadenas de seis dígitos hexadecimales que representan la intensidad del rojo (RR), verde (GG) y azul (BB) en un color específico en una escala de 00 a FF. Al juntar los valores de los tres colores, obtiene un valor hexadecimal: #RRGGBB
-
-Por ejemplo, el valor hexadecimal del color rojo es #FF0000 porque el rojo se establece en el valor más alto posible, FF y verde y azul se establecen en el valor más bajo posible, 00.
-
-Para explorar diferentes colores y sus valores hexadecimales, consulte Bing [selector de color](https://www.bing.com/search?q=color+picker).
-
-A continuación se muestra una lista de colores de ejemplo para empezar:
-
-|Color  |Valor hexadecimal|
-|-------|---------|
-|![color hexadecimal #FF6666.](media/hexColor1.png)|  #FF6666   |
-|![color hexadecimal #7FFFD4.](media/hexColor2.png)|  #7FFFD4   |
-|![color hexadecimal #FF75F0.](media/hexColor3.png)|  #FF75F0   |
-|![color hexadecimal #00BFFF.](media/hexColor4.png)|  #00BFFF   |
-|![color hexadecimal #800080.](media/hexColor5.png)|  #800080   |
-|![color hexadecimal #000000.](media/hexColor6.png)|  #000000   |
-
-<a name="best-practices"></br></a>
-
-## <a name="best-practices-for-creating-custom-badges"></a>Procedimientos recomendados para crear distintivos personalizados
-
-**Envía todos tus distintivos a la vez.** Dado que se tarda un tiempo en procesarse nuevos distintivos, es mejor agregar todos los distintivos personalizados a la tabla antes de enviarlos.
-
-**Al elegir colores, tenga en cuenta la accesibilidad.** Algunos colores van juntos mejor que otros.  Cree contraste entre el texto y los colores de fondo para que el nombre del distintivo sea fácil de leer. Por ejemplo, si elige un color de fondo oscuro, elija un color de texto claro.
-
-**Al seleccionar una imagen, tenga en cuenta las dimensiones del distintivo.** Para obtener la mejor calidad, se recomienda cargar un archivo de imagen de 216 x 216 píxeles (que son las dimensiones máximas). Evite estirar o distorsionar la imagen para que se ajuste a estas dimensiones.
-
-**Si la imagen de distintivo no es rectangular, haga que la imagen sea transparente.** Tendrá que hacerlo antes de cargar el archivo de imagen en Elogio.
-
-![Izquierda: distintivo con imagen no transparente, derecha: distintivo con imagen transparente.](media/praise-app-best-practices.png)
-
-## <a name="badge-set-assets"></a>Activos de conjunto de distintivos
-
-Los conjuntos de distintivos integrados no se pueden modificar, por lo que, cuando se habilita un conjunto integrado, todos los distintivos del conjunto se agregan a la aplicación Elogio integrada. Si desea agregar distintivos específicos de un conjunto integrado y dejar fuera a otros, vuelva a crear los distintivos que quiera usar como distintivos personalizados. Puede descargar la imagen de distintivo y buscar el texto y los colores de fondo de los distintivos de los conjuntos integrados en las tablas siguientes.
-
-### <a name="default-badges-assets"></a>Activos de distintivos predeterminados
-
-</br>
-
-|Nombre del distintivo     |Archivo de imagen  |Color del texto | Color de fondo |
-|---------------|------------|---------- |--------|
-|Achiever       |[Achiever PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever-badge.png)|#D36E70    |#E3F4FC|
-|Increíble        |[Png increíble](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png)</a>|#8283B2    |#D1EFF2|
-|Entrenador          |[Coach PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/coach-badge.png)</a>|#6AA55A    |#DBF1D6|
-|Valor        |[Valor PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage-badge.png)</a>|#DC5041    |#FCF6C8|
-|Creativo       |[Creative PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/creative-badge.png) |#CF9D50    |#FCF6C8|
-|Inclusive      |[PNG inclusivo](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png)</a>|#3C77BB    |#E2F4FC|
-|Kind Heart     |[Kind Heart PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart-badge.png)</a>|#D36D6E    |#F4DEDE|
-|Liderazgo     |[Liderazgo PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership-badge.png)|#419098    |#D2EAEC|
-|Optimismo       |[Png de optimismo](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png)</a>|#D8338C    |#F4DDDE|
-|Solucionador de problemas |[Solucionador de problemas PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/problem-solver-badge.png)|#B8916E    |#CBDADF|
-|Jugador de equipo    |[Jugador de equipo PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/team-player-badge.png)|#8B8DC0    |#F4EEC0|
-|Gracias      |[Gracias PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/thank-you-badge.png)|#469CA4    |#BACCB6|
-
-</br>
-
-### <a name="social-and-emotional-learning-badges-for-education-assets"></a>Distintivos de aprendizaje social y emocional para activos educativos
-
-</br>
-
-|Nombre del distintivo        |Archivo de imagen  |Color del texto | Color de fondo |
-|------------------|------------|---------- |--------|
-|Comunicación     |[Png de comunicación](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/communication-badge.png)|#FFFFFF    |#173B65|
-|Pensamiento crítico |[PNG de pensamiento crítico](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/critical-thinking-badge.png)|#FFFFFF    |#084D26|
-|Curiosidad         |[Curiosity PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/curiosity-badge.png)|#FFFFFF    |#008078|
-|Empatía           |[Png de empatía](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/empathy-badge.png)|#FFFFFF    |#650B35|
-|Búsqueda de objetivos      |[Búsqueda de objetivos PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/goal-pursuit-badge.png)|#FFFFFF    |#006F95|
-|Motivación        |[Motivación PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/motivation-badge.png)|#FFFFFF    |#C52127|
-|Persistencia       |[PNG de persistencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/persistence-badge.png)|#FFFFFF    |#167D3E|
-|Respeto           |[Respetar PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/respect-badge.png)|#FFFFFF    |#8251A0|
-|Responsabilidad    |[PNG de responsabilidad](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/responsibility-badge.png)|#FFFFFF    |#B05DA3|
-|Conciencia de sí mismo    |[PNG autoconocimiento](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
-|Auto-administración   |[PNG de auto-administración](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
-|Reflexión    |[PNG de reflexión](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|
-
-## <a name="upcoming-changes"></a>Próximos cambios
-
-A partir de enero de 2022, lo que está disponible actualmente para distintivos cambiará. Los distintivos de aprendizaje social y emocional para la educación, incluido el autoconocimiento y la autoejería, ya no estarán disponibles.
-
-La **opción Crear un distintivo** personalizado tampoco estará disponible a partir de enero de   2022.
-
-Además, el  botón de alternancia Estado del Centro de administración de Teams que permite o bloquea Elogio afectará Elogio la aplicación Elogio y la característica Elogio de la aplicación Viva Ideas en Teams.
+[Administrar las aplicaciones en el centro Microsoft Teams administración](manage-apps.md)

@@ -1,8 +1,8 @@
 ---
 title: Implementar un servidor de mediación en el Generador de topologías en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Resumen: obtenga información sobre cómo definir e implementar un servidor de mediación en el Generador de topologías en Skype Empresarial Server.'
-ms.openlocfilehash: 7dd3704b47b384d3fab62a7cc051adcf5b380c0e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1e7f3b1540d6436c82e173b32252c5e9c59757da
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857037"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396052"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Implementar un servidor de mediación en el Generador de topologías en Skype Empresarial Server
  
@@ -40,15 +40,15 @@ Puede agregar un servidor de mediación como una función agrupada en un grupo d
   
 ### <a name="to-add-a-mediation-server-to-a-front-end-pool"></a>Para agregar un servidor de mediación a un grupo de servidores front-end
 
-1. Iniciar generador de topologías: haga clic en Inicio **,** todos los **programas,** haga clic en **Skype Empresarial Server 2015** y, a continuación, haga clic en **Skype Empresarial Server 2015Topology Builder**.
+1. Iniciar generador de topologías: haga clic en **Inicio, en** Todos los **programas, en** **Skype Empresarial Server 2015** y, a continuación, en Skype Empresarial Server **generador de 2015Topology**.
     
 2. En el Generador de topologías, en el árbol de consola, expanda el nombre del sitio para el que desea definir un grupo de servidores front-end.
     
-3. En el árbol de consola, haga clic con el botón secundario en el tipo de grupo de servidores front-end que desee y, a continuación, haga clic en Nuevo grupo de servidores **front-end.**.
+3. En el árbol de consola, haga clic con el botón secundario en el tipo de grupo de servidores front-end que desee y, a continuación, haga clic en **Nuevo grupo de servidores front-end**.
     
-4. Navegue por el Asistente para definir nuevo grupo **de servidores front-end** hasta que llegue a la página Seleccionar roles **de servidor.**
+4. Navegue por el Asistente **para definir nuevo grupo de servidores front-end** hasta que llegue a la **página Seleccionar roles de servidor.**
     
-5. En **Seleccionar roles de servidor con** colocación, active la opción Colocar servidor de **mediación**.
+5. En **Seleccionar roles de servidor con** colocación, active la opción **Colocar servidor de mediación**.
     
     > [!NOTE]
     > Si el tipo de grupo de servidores front-end seleccionado es el Enterprise Edition, el componente del servidor de mediación se instalará en todos los servidores front-end de ese grupo de servidores front-end. 
@@ -66,38 +66,38 @@ Puede agregar un servidor de mediación como una función agrupada en un grupo d
     > [!NOTE]
     > Antes de continuar con el siguiente paso del proceso de implementación de Telefonía IP empresarial, asegúrese de que el grupo de servidores de mediación (es decir, el grupo de servidores front-end con el componente de servidor de mediación asociado) esté usando los FQDN que especificó. 
   
-8. Haga clic con el **botón secundario en el Skype Empresarial Server de 2015** y, a continuación, haga clic en Publicar **topología**.
+8. Haga clic con el botón **secundario en Skype Empresarial Server de 2015** y, a continuación, haga clic **en Publicar topología**.
     
 ### <a name="to-add-a-standalone-mediation-server"></a>Para agregar un servidor de mediación independiente
 
-1. Iniciar generador de topologías: haga clic en Inicio **,** todos los **programas,** haga clic en **Skype Empresarial Server 2015** y, a continuación, haga clic en **Skype Empresarial Server 2015Topology Builder**.
+1. Iniciar generador de topologías: haga clic en **Inicio, en** Todos los **programas, en** **Skype Empresarial Server 2015** y, a continuación, en Skype Empresarial Server **generador de 2015Topology**.
     
 2. En el Generador de topologías, en el árbol de consola, expanda el nombre del sitio para el que desea definir un servidor de mediación.
     
-3. En el árbol de consola, haga clic con el botón secundario en el **nodo Grupos de servidores de** mediación y, a continuación, haga clic en Grupo de servidores de **mediación.**
+3. En el árbol de consola, haga clic con el botón secundario en el **nodo Grupos de servidores de mediación** y, a continuación, haga clic en **Grupo de servidores de mediación**.
     
-4. En **Definir nuevo grupo de mediación,** escriba el nombre de dominio completo (FQDN) del grupo de servidores de mediación.
+4. En **Definir nuevo grupo de servidores de mediación**, escriba el nombre de dominio completo (FQDN) del grupo de servidores de mediación.
     
 5. A continuación, realice una de las siguientes acciones:
     
-   - Si desea implementar varios servidores de mediación en el grupo de servidores para proporcionar alta disponibilidad, seleccione **Grupo de servidores de varios equipos.**
+   - Si desea implementar varios servidores de mediación en el grupo de servidores para proporcionar alta disponibilidad, seleccione **Grupo de servidores de varios equipos**.
     
      > [!NOTE]
      > Debe implementar [para admitir](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) grupos de servidores de mediación que tienen varios servidores de mediación.
   
-   - Si desea implementar solo un servidor de mediación en el grupo de servidores porque no necesita alta disponibilidad, seleccione **Grupo de servidores de equipo único**. Omita el siguiente paso.
+   - Si desea implementar solo un servidor de mediación en el grupo de servidores porque no necesita alta disponibilidad, seleccione **Grupo de servidores de un solo equipo**. Omita el siguiente paso.
     
-6. Si seleccionó **Varios** grupos de equipos  en el paso anterior, en el elemento Definir los equipos de este grupo de servidores, haga clic en **FQDN** del equipo, escriba el FQDN de cada servidor del grupo y, a continuación, haga clic en **Agregar**. Repita este paso para todos los demás servidores de mediación que desee agregar al grupo. Cuando haya definido todos los equipos del grupo, haga clic en **Siguiente**.
+6. Si seleccionó **Varios** grupos de equipos en el paso anterior, en  el elemento Definir los equipos de este grupo de servidores, haga clic en **FQDN** del equipo, escriba el FQDN de cada servidor del grupo y, a continuación, haga clic en **Agregar**. Repita este paso para todos los demás servidores de mediación que desee agregar al grupo. Cuando haya definido todos los equipos del grupo, haga clic en **Siguiente**.
     
-7. En la página **Seleccionar el** próximo salto, haga clic en Grupo de servidores de próximo **salto,** haga clic en el FQDN del grupo de servidores front-end que usará este grupo de servidores de mediación y, a continuación, haga clic en **Siguiente**.
+7. En la página **Seleccionar** el próximo salto, haga clic en Grupo de servidores de próximo **salto, haga** clic en el FQDN del grupo de servidores front-end que usará este grupo de servidores de mediación y, a continuación, haga clic en **Siguiente**.
     
-8. En la **página Seleccionar un servidor perimetral,** realice una de las siguientes acciones:
+8. En la **página Seleccionar un servidor perimetral** , realice una de las siguientes acciones:
     
-   - Si desea proporcionar conectividad RTC a usuarios externos habilitados para Telefonía IP empresarial, en Seleccionar grupo perimetral usado por este servidor de mediación, haga clic en el FQDN del grupo de servidores perimetrales que usará este grupo de servidores de mediación para proporcionar conectividad RTC a esos usuarios externos y, a continuación, haga clic en **Siguiente**.
+   - Si desea proporcionar conectividad RTC a usuarios externos habilitados para Telefonía IP empresarial, en Seleccionar grupo perimetral usado por este servidor de mediación **, haga** clic en el FQDN del grupo de servidores perimetrales que usará este grupo de servidores de mediación para proporcionar conectividad RTC a esos usuarios externos y, a continuación, haga clic en **Siguiente**.
     
    - Si no tiene previsto habilitar usuarios externos para Telefonía IP empresarial, o si no desea proporcionar conectividad RTC a los usuarios cuando están fuera de la red interna, haga clic en **Siguiente**.
     
-9. Haga clic con el **botón secundario en el Skype Empresarial Server de 2015** y, a continuación, haga clic en Publicar **topología**.
+9. Haga clic con el botón **secundario en Skype Empresarial Server de 2015** y, a continuación, haga clic **en Publicar topología**.
     
 ## <a name="define-the-mediation-server-listening-ports"></a>Definir los puertos de escucha del servidor de mediación
 
@@ -105,7 +105,7 @@ Siga los pasos descritos en este tema para usar el Generador de topologías para
   
 ### <a name="to-modify-the-mediation-server-listening-ports"></a>Para modificar los puertos de escucha del servidor de mediación
 
-1. Iniciar generador de topologías: haga clic en Inicio **,** todos los **programas,** haga clic en **Skype Empresarial Server 2015** y, a continuación, haga clic en **Skype Empresarial Server 2015Topology Builder**.
+1. Iniciar generador de topologías: haga clic en **Inicio, en** Todos los **programas, en** **Skype Empresarial Server 2015** y, a continuación, en Skype Empresarial Server **generador de 2015Topology**.
     
 2. En el Generador de topologías, en el árbol de consola, expanda el nodo Grupos de **servidores** de mediación y haga clic con el botón secundario en el servidor de mediación creado anteriormente.
     
@@ -114,6 +114,6 @@ Siga los pasos descritos en este tema para usar el Generador de topologías para
 4. Especifique el intervalo de puertos de escucha TLS o TCP deseado que el servidor de mediación aceptará conexiones entrantes de puertas de enlace RTC.
     
     > [!NOTE]
-    > No es necesario especificar un intervalo de puertos TCP si no se comprueba Habilitar puerto **TCP.** Este valor es opcional.
+    > No es necesario especificar un intervalo de puertos TCP si no se comprueba **Habilitar puerto TCP** . Este valor es opcional.
   
 

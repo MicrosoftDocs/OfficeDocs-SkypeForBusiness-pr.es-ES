@@ -1,8 +1,8 @@
 ---
 title: Configurar un sitio de red Crear nuevo o editar existente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: a5658fe1dd49aee3730759e3d42f8598157a5432
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 47570f9cfd70753674aa713faccb2edd7b453590
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837239"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397219"
 ---
 # <a name="configure-a-network-site-create-new-or-edit-existing"></a>Configurar un sitio de red: Crear nuevos o editar los existentes
 

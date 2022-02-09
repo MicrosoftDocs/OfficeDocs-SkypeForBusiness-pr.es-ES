@@ -1,8 +1,8 @@
 ---
 title: Administrar categorías en el servidor de chat persistente en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Resumen: obtenga información sobre cómo administrar categorías de servidor de chat persistente en Skype Empresarial Server 2015.'
-ms.openlocfilehash: 86a90143bad43f4bb8a96434885eec741c01f4a4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7d2cb5114b876c5354b3ba47c45f700a5bd62450
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853014"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396472"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Administrar categorías en el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -41,7 +41,7 @@ Antes de configurar categorías, asegúrese de leer categorías de chat persiste
 Puede configurar y administrar categorías mediante el Panel de control o mediante Windows PowerShell cmdlets.
 
 > [!NOTE]
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015. 
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015. 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>Configurar categorías mediante el Panel de control
 
@@ -55,7 +55,7 @@ Puede configurar y administrar categorías mediante el Panel de control o median
     
 4. En la página **Categoría**, haga clic en **Nueva** o **Editar**.
     
-5. En **Seleccionar un servicio,** seleccione el servicio correspondiente al grupo de servidores de chat persistente en el que debe crearse la categoría. El servicio es el grupo de servidores de chat persistente que usa el cliente de chat persistente para identificar a qué grupo pertenece la categoría. Una categoría solo puede pertenecer a un grupo de servidores de chat persistente y no se puede mover a otro grupo ni compartir con él.
+5. En **Seleccionar un servicio**, seleccione el servicio correspondiente al grupo de servidores de chat persistente en el que debe crearse la categoría. El servicio es el grupo de servidores de chat persistente que usa el cliente de chat persistente para identificar a qué grupo pertenece la categoría. Una categoría solo puede pertenecer a un grupo de servidores de chat persistente y no se puede mover a otro grupo ni compartir con él.
     
 6. En **Nueva categoría**, haga lo siguiente:
     
@@ -67,15 +67,15 @@ Puede configurar y administrar categorías mediante el Panel de control o median
     
    - Para controlar las cargas de archivos en salones de chat que pertenezcan a esta categoría, active o desactive la casilla **Habilitar carga de archivo**. Si se activa, los salones de esta categoría pueden habilitar o deshabilitar las cargas de archivos; si se desactiva, los salones de esta categoría no pueden tener cargas de archivos.
     
-   - Para controlar el historial de chat, active o desactive la casilla Habilitar historial de **chat.** Si se activa, los salones de chat se vuelven persistentes; en caso contrario, los mensajes de chat no permanecen. Si se habilita el cumplimiento, los chats de los salones se guardarán en conformidad, pero los usuarios no podrán obtener acceso a los mensajes más antiguos. Esta opción se puede usar para salas designadas para colaboraciones ad hoc en tiempo real que no necesitan que se conserve el historial de chat.
+   - Para controlar el historial de chat, active o desactive la **casilla Habilitar historial de chat** . Si se activa, los salones de chat se vuelven persistentes; en caso contrario, los mensajes de chat no permanecen. Si se habilita el cumplimiento, los chats de los salones se guardarán en conformidad, pero los usuarios no podrán obtener acceso a los mensajes más antiguos. Esta opción se puede usar para salas designadas para colaboraciones ad hoc en tiempo real que no necesitan que se conserve el historial de chat.
     
 7. En **Editar categoría**, haga lo siguiente:
     
-   - En **Pertenencia**,  en la sección Miembros permitidos, agregue o quite usuarios y otras entidades de seguridad de servicios de dominio de Active Directory (usuarios, grupos de distribución, unidades organizativas, entre otras) que puedan agregarse como miembros de salas de chat pertenecientes a la categoría. Los elementos principales permitidos por una categoría pueden buscar salones en la categoría (a menos que el salón esté oculto, en cuyo caso solo los miembros del salón pueden buscarlo en el directorio).
+   - En **Pertenencia, en** la  sección Miembros permitidos, agregue o quite usuarios y otras entidades de seguridad de servicios de dominio de Active Directory (usuarios, grupos de distribución, unidades organizativas, entre otras) que puedan agregarse como miembros de salas de chat pertenecientes a la categoría. Los elementos principales permitidos por una categoría pueden buscar salones en la categoría (a menos que el salón esté oculto, en cuyo caso solo los miembros del salón pueden buscarlo en el directorio).
     
-   - En **Pertenencia**, en la sección **Miembros** denegados, agregue o quite usuarios y otras entidades de seguridad de Active Directory asociadas con miembros que se denieguen de la sala.
+   - En **Pertenencia**, en la **sección Miembros** denegados, agregue o quite usuarios y otras entidades de seguridad de Active Directory asociadas con miembros que se denieguen de la sala.
     
-   - En **Pertenencia**, en la **sección Creadores,** agregue o quite usuarios y otras entidades de seguridad de Active Directory asociadas con creadores para la categoría. Un creador es un usuario que tiene permisos para crear salones de chat y asignar administradores y miembros de salones de chat.
+   - En **Pertenencia**, en la **sección Creadores** , agregue o quite usuarios y otras entidades de seguridad de Active Directory asociadas con creadores para la categoría. Un creador es un usuario que tiene permisos para crear salones de chat y asignar administradores y miembros de salones de chat.
     
 8. Haga clic en **Confirmar**.
     
@@ -105,11 +105,11 @@ Puede configurar los siguientes parámetros para categorías:
     
 - DeniedMembers. Enumera los usuarios que no tienen permiso para tener acceso a los salones de chat dentro de la categoría.
     
-Para obtener información completa acerca de la sintaxis del cmdlet, incluidos todos los parámetros, vea Skype Empresarial Server Shell de administración [de 2015](../management-shell.md).
+Para obtener información completa acerca de la sintaxis del cmdlet, incluidos [todos los parámetros, vea Skype Empresarial Server Shell de administración de 2015](../management-shell.md).
   
 ### <a name="create-a-new-category"></a>Crear una nueva categoría
 
-Puede crear una nueva categoría mediante el cmdlet **New-CsPersistentChatCategory.** Por ejemplo, el siguiente comando crea una nueva categoría denominada HelpDesk en el grupo atl-cs-001.contoso.com. En este ejemplo, la carga de archivos está habilitada:
+Puede crear una nueva categoría mediante el cmdlet **New-CsPersistentChatCategory** . Por ejemplo, el siguiente comando crea una nueva categoría denominada HelpDesk en el grupo atl-cs-001.contoso.com. En este ejemplo, la carga de archivos está habilitada:
   
 ```PowerShell
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 
@@ -117,7 +117,7 @@ New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-00
 
 ### <a name="configure-an-existing-category"></a>Configurar una categoría existente
 
-Puede configurar una categoría existente mediante el cmdlet **Set-CsPersistentCategory.**
+Puede configurar una categoría existente mediante el cmdlet **Set-CsPersistentCategory** .
   
 Por ejemplo, el siguiente comando especifica que user1 es un AllowedMember y un Creator, mientras que user2 no tiene acceso a las salas de la categoría:
   
@@ -128,7 +128,7 @@ Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contos
 
 ### <a name="get-information-about-categories"></a>Obtener información sobre categorías
 
-Puede obtener información sobre categorías mediante el cmdlet **Get-CsPersistentChatCategory.** Por ejemplo, el siguiente comando devuelve información para todas las categorías de chat persistente de la organización:
+Puede obtener información sobre categorías mediante el cmdlet **Get-CsPersistentChatCategory** . Por ejemplo, el siguiente comando devuelve información para todas las categorías de chat persistente de la organización:
   
 ```PowerShell
 Get-CsPersistentChatCategory
@@ -136,7 +136,7 @@ Get-CsPersistentChatCategory
 
 ### <a name="remove-a-category"></a>Quitar una categoría
 
-Puede quitar una categoría mediante el cmdlet **Remove-CsPersistentChatCategory.** Antes de quitar una categoría, primero debe eliminar todos los salas de chat que hay debajo o mover los salas de chat a una categoría nueva. Por ejemplo, el siguiente comando quita la categoría que tiene la identidad "atl-cs-001.contoso.com\helpdesk":
+Puede quitar una categoría mediante el cmdlet **Remove-CsPersistentChatCategory** . Antes de quitar una categoría, primero debe eliminar todos los salas de chat que hay debajo o mover los salas de chat a una categoría nueva. Por ejemplo, el siguiente comando quita la categoría que tiene la identidad "atl-cs-001.contoso.com\helpdesk":
   
 ```PowerShell
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"

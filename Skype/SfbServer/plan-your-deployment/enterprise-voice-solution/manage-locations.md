@@ -1,8 +1,8 @@
 ---
 title: Administrar ubicaciones para proveedores de servicios troncales SIP en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Decisiones necesarias para planear una base de datos de información de ubicación, o una base de datos externa similar, para una implementación de E9-1-1 mediante proveedores de enlace troncal SIP, en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 4667ea571fe3bbb022c8dd1ee1483e6195165ec9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0c9adec0a213cfc726464285e93af14905b8dd49
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855297"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398734"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Administrar ubicaciones para proveedores de servicios troncales SIP en Skype Empresarial Server
 
@@ -29,11 +29,11 @@ Decisiones necesarias para planear una base de datos de información de ubicaci�
 
 Para configurar Skype Empresarial Server para localizar automáticamente clientes dentro de una red, debe rellenar la base de datos del servicio de información de ubicación con un mapa de conexión de red y publicar las ubicaciones, o bien vincular a una base de datos externa que ya contiene las asignaciones correctas. Como parte de este proceso, valide las direcciones con el proveedor de servicios de E9-1-1. Para más información, vea [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) en la documentación sobre implementación.
 
-Rellene la base de datos del servicio de información de ubicaciones con una ubicación de respuesta de emergencia (ERL), formada por una dirección postal y la dirección específica en un edificio. El campo Ubicación **del** servicio de información de ubicación, que es la ubicación específica dentro de un edificio, tiene una longitud máxima de 20 caracteres (incluidos los espacios). Dentro de esa longitud limitada, intente incluir lo siguiente:
+Rellene la base de datos del servicio de información de ubicaciones con una ubicación de respuesta de emergencia (ERL), formada por una dirección postal y la dirección específica en un edificio. El campo **Ubicación del servicio** de información de ubicación, que es la ubicación específica dentro de un edificio, tiene una longitud máxima de 20 caracteres (incluidos los espacios). Dentro de esa longitud limitada, intente incluir lo siguiente:
 
 - Un nombre fácil de entender que identifique la ubicación del autor de la llamada al 911 para garantizar que los servicios de emergencias encuentren la ubicación específica rápidamente una vez que estos lleguen a la dirección postal. Este nombre de ubicación puede incluir un número de edificio, un número de piso, un indicador de ala, un número de habitación, entre otros elementos. Evite nombres conocidos solo por los empleados, ya que podrían causar que los servicios de emergencia se dirijan a una ubicación equivocada.
 
-- Identificador de ubicación que ayuda a los usuarios a ver fácilmente que Skype Empresarial cliente ha elegido la ubicación correcta. El Skype Empresarial se concatena automáticamente y muestra los campos **Location** y **City** detectados en su encabezado. Una buena práctica es agregar la dirección de calle del edificio a cada identificador de ubicación (por ejemplo, "1st \<street number> Floor"). Si no se indica la calle, un identificador de ubicación genérico como "1ª planta" se podría aplicar a cualquier edificio de la ciudad.
+- Identificador de ubicación que ayuda a los usuarios a ver fácilmente que Skype Empresarial cliente ha elegido la ubicación correcta. El Skype Empresarial se concatena automáticamente y muestra los campos **Location** y **City** detectados en su encabezado. Una buena práctica es agregar la dirección de calle del edificio a cada identificador de ubicación (por ejemplo, "1st Floor \<street number>"). Si no se indica la calle, un identificador de ubicación genérico como "1ª planta" se podría aplicar a cualquier edificio de la ciudad.
 
 - Si la ubicación es aproximada porque está determinada por un punto de acceso inalámbrico, puedes agregar la palabra **[Cerca]** (por ejemplo, "Near 1st Floor 1234").
 

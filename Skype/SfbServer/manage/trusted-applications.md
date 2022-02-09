@@ -1,8 +1,8 @@
 ---
 title: Administrar aplicaciones de confianza
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Una aplicación de confianza es una aplicación basada en microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK que es de confianza para Skype Empresarial Server.
-ms.openlocfilehash: d328eab38e44915998d05f3c16c2b1e4e2f1dc33
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ef4f6aed1ec4964ba5f3d9cfed770dae4437b2f8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857477"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398844"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>Administrar aplicaciones de confianza en Skype Empresarial Server
 
-Una *aplicación de confianza* es una aplicación basada en microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK que es de confianza para Skype Empresarial Server. Para obtener más información sobre las aplicaciones UCMA, consulte "Unified Communications Managed API 3.0 Core SDK Documentation" en https://go.microsoft.com/fwlink/p/?linkId=210320 .
+Una *aplicación de confianza* es una aplicación basada en microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK que es de confianza para Skype Empresarial Server. Para obtener más información sobre las aplicaciones UCMA, consulte "Unified Communications Managed API 3.0 Core SDK Documentation" en https://go.microsoft.com/fwlink/p/?linkId=210320.
 
 Para publicar, habilitar o deshabilitar correctamente una topología al agregar o quitar un rol de servidor, debe haber iniciado sesión como usuario miembro de los grupos Administradores del dominio y RTCUniversalServerAdmins. 
 
@@ -30,17 +30,17 @@ Use este artículo para obtener información sobre cómo configurar un nuevo ser
 
 1.  Inicie sesión en el equipo en el que Topology Builder esté instalado como miembro del grupo Admins. del dominio y el grupo RTCUniversalServerAdmins.
 
-2.  Iniciar generador de topologías: haga clic **en Inicio**, todos los **programas,** haga clic **en Skype Empresarial Server** y, a continuación, haga clic Skype Empresarial Server Generador **de topologías**.
+2.  Iniciar generador de topologías: haga clic en **Inicio**, **todos** los **programas, Skype Empresarial Server** y, a continuación, haga clic **Skype Empresarial Server Generador de topologías**.
 
 3.  Seleccione **Descargar topología de la implementación existente** y haga clic en **Aceptar**.
 
-4.  En el cuadro de diálogo Guardar **topología como,** haga clic en el archivo generador de topologías que desea usar y, a continuación, haga clic en **Guardar**.
+4.  En el **cuadro de diálogo Guardar topología como** , haga clic en el archivo generador de topologías que desea usar y, a continuación, haga clic en **Guardar**.
 
-5.  En el panel izquierdo, haga clic con el botón secundario en **Servidores de aplicaciones de confianza** y, a continuación, haga clic en Nuevo grupo de aplicaciones de **confianza.**
+5.  En el panel izquierdo, haga clic con el botón secundario en **Servidores de aplicaciones de confianza** y, a continuación, haga clic **en Nuevo grupo de aplicaciones de confianza**.
 
 6.  Escriba elFQDN del grupo de servidores del grupo de aplicaciones de confianza, seleccione si va a ser un servidor único o varios servidores y haga clic en **Siguiente**.
 
-7.  En la **página Seleccionar el próximo salto,** en la lista, seleccione el grupo Skype Empresarial Server front-end.
+7.  En la **página Seleccionar el próximo salto**, en la lista, seleccione el grupo Skype Empresarial Server front-end.
 
 8.  Haga clic en **Finalizar**.
 
@@ -66,18 +66,18 @@ En el panel Skype Empresarial Server control, puede ver el nombre de las aplicac
 
 ### <a name="to-view-a-list-of-trusted-applications"></a>Para ver una lista de aplicaciones de confianza
 
-1.  Desde una cuenta de usuario asignada al rol CsServerAdministrator, CsAdministrator, CsHelpDesk, o CsViewOnlyAdministrator , inicie sesión en cualquier equipo de su implementación interna. Para obtener más información sobre los roles administrativos predefinidos disponibles en Skype Empresarial Server, vea Control de acceso basado en roles [(RBAC).](../plan-your-deployment/security/role-based-access-control-rbac.md)
+1.  Desde una cuenta de usuario asignada al rol CsServerAdministrator, CsAdministrator, CsHelpDesk, o CsViewOnlyAdministrator , inicie sesión en cualquier equipo de su implementación interna. Para obtener información detallada sobre los roles administrativos predefinidos disponibles en Skype Empresarial Server, vea Control de acceso basado en roles [(RBAC)](../plan-your-deployment/security/role-based-access-control-rbac.md).
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control.
 
-3.  En la barra de navegación izquierda, haga clic **en Topología** y, a continuación, haga clic en Aplicación **de confianza.**
+3.  En la barra de navegación izquierda, haga clic **en Topología y**, a continuación, haga clic en **Aplicación de confianza**.
 
 4.  En la **página Aplicación de** confianza, haga clic en un encabezado de columna para ordenar las aplicaciones, si es necesario.
 
 
 ## <a name="view-trusted-application-information"></a>Ver información de aplicación de confianza
 
-Puede ver información sobre las aplicaciones de confianza mediante Windows PowerShell y el cmdlet **Get-CsTrustedApplication.** Este cmdlet se puede ejecutar desde el Shell Skype Empresarial Server administración o desde una sesión remota de Windows PowerShell. 
+Puede ver información sobre las aplicaciones de confianza mediante Windows PowerShell y el cmdlet **Get-CsTrustedApplication**. Este cmdlet se puede ejecutar desde el Shell Skype Empresarial Server administración o desde una sesión remota de Windows PowerShell. 
 
 
 ### <a name="to-view-trusted-applications"></a>Para ver aplicaciones de confianza

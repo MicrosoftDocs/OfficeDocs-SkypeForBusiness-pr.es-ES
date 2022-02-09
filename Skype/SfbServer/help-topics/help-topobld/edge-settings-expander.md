@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración perimetral
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Para editar la configuración de un grupo de servidores perimetrales de uno o varios servidores existentes, le presentamos las secciones siguientes:'
-ms.openlocfilehash: e0ad220836bb1a72ebf762e866ab6d3e4a7cd2fb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ab0a94634ba1bd69d4e67a4b47866103ca7b18be
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852174"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397834"
 ---
 # <a name="edge-settings-expander"></a>Expansor de configuración perimetral
 
@@ -46,7 +46,7 @@ Especifique el número de puerto para el **Puerto de replicación de configuraci
 
 ## <a name="next-hop-selection-settings"></a>Configuración de la selección de próximo salto
 
-Para establecer o  modificar el grupo de servidores de próximo salto que usarán los servidores perimetrales para comunicarse con la infraestructura interna, seleccione un director, un grupo de directores, un servidor front-end o un grupo de servidores front-end en el cuadro de lista desplegable. Solo aparecerán para la selección los directores o front-ends configurados en el Generador de topologías.
+Para establecer o modificar el  grupo de servidores de próximo salto que usarán los servidores perimetrales para comunicarse con la infraestructura interna, seleccione un director, un grupo de directores, un servidor front-end o un grupo de servidores front-end en el cuadro de lista desplegable. Solo aparecerán para la selección los directores o front-ends configurados en el Generador de topologías.
 
 ## <a name="edge-server-configuration"></a>Configuración del servidor perimetral
 
@@ -64,6 +64,6 @@ Si decide que la organización va a usar una sola dirección IP y un solo nombre
 > [!IMPORTANT]
 > Si efectúa cambios en cualquiera de estas opciones, incluido el uso de FQDN y direcciones IP o puertos diferentes, debe actualizar todos los demás servicios que dependan de los valores configurados inicialmente.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 Para obtener más información sobre cómo definir y configurar las opciones de los servicios de servidores perimetrales, consulte [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology).

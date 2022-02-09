@@ -1,7 +1,7 @@
 ---
 title: Administrar directivas de permisos de aplicación en Microsoft Teams
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b407d0c96e5aa9cbf84277285ab717a1950a9f17
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b5f6941de4973362f8cdbd99235d099973264c7a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761698"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396248"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Administrar directivas de permisos de aplicación en Microsoft Teams
 
@@ -45,7 +45,7 @@ Si su organización ya usa Teams, la configuración de la aplicación que establ
 Pongamos un ejemplo. Digamos que desea bloquear todas las aplicaciones de terceros y permitir aplicaciones específicas de Microsoft para el equipo de RR. HH. de su organización. En primer lugar, tendría que ir a la página [Administrar aplicaciones](manage-apps.md) y asegurarse de que las aplicaciones que quiera permitir para el equipo de RR. HH. estén permitidas a nivel de la organización. Después, debería crear una directiva personalizada denominada Directiva de permisos de aplicación de RR. HH., configurarla para bloquear, permitir las aplicaciones que desee y asignarla a los usuarios del equipo de RR. HH.
 
 > [!NOTE]
-> Si implementó Teams en un entorno de Microsoft 365 Government Community Cloud High (GCCH) y department of defense (DoD), vea Administrar la configuración de aplicaciones de toda la organización para [Microsoft 365 Government](#manage-org-wide-app-settings-for-microsoft-365-government) para obtener más información sobre la configuración de aplicaciones de terceros que son únicas para GCCH y DoD.
+> Si implementó Teams en un entorno de Microsoft 365 Government Community Cloud High (GCCH) y departamento de defensa (DoD), vea Administrar la configuración de aplicaciones de toda la organización para [Microsoft 365 Government](#manage-org-wide-app-settings-for-microsoft-365-government) para obtener más información sobre la configuración de aplicaciones de terceros que son únicas para GCCH y DoD.
 
 ## <a name="create-a-custom-app-permission-policy"></a>Crear una directiva de permisos de aplicación personalizada
 

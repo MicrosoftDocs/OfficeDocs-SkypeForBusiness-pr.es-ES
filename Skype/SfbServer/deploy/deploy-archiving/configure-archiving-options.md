@@ -1,8 +1,8 @@
 ---
 title: Configurar opciones de archivado para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: 'Resumen: lea este tema para obtener información sobre cómo configurar las opciones de archivado iniciales para Skype Empresarial Server. Inicialmente, configura las configuraciones de archivado al implementar el archivado, pero puede cambiar, agregar y eliminar configuraciones después de la implementación.'
-ms.openlocfilehash: 413347a76c23f680215e4f9d80e4327b3e8fed22
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 953bf4a5a353001993e8aee51b5bd21ac8f377b5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864467"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396082"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>Configurar opciones de archivado para Skype Empresarial Server
  
@@ -48,7 +48,7 @@ Deberá configurar opciones para lo siguiente:
 > [!NOTE]
 > Debe especificar todas las opciones adecuadas antes de habilitar el archivado. 
   
-Para obtener más información sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, vea [Plan for archiving in Skype Empresarial Server](../../plan-your-deployment/archiving/archiving.md). Para obtener información detallada sobre cómo administrar configuraciones después de la implementación mediante el Panel de control o mediante Windows PowerShell, vea [Manage archiving options in Skype Empresarial Server](../../manage/archiving/options.md).
+Para obtener más información sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, vea [Plan for archiving in Skype Empresarial Server](../../plan-your-deployment/archiving/archiving.md). Para obtener más información sobre cómo administrar las configuraciones después de la implementación mediante el Panel de control o mediante Windows PowerShell, vea [Manage archiving options in Skype Empresarial Server](../../manage/archiving/options.md).
   
 ## <a name="configure-global-level-archiving-options"></a>Configurar opciones de archivado de nivel global
 
@@ -72,11 +72,11 @@ Para configurar las opciones de archivado en el nivel global:
     
    - **Archivar mensajería instantánea y sesiones de conferencias web**
     
-6. También en la **página Editar configuración de archivado - Global,** haga lo siguiente:
+6. También en la **página Editar configuración de archivado - Global** , haga lo siguiente:
     
    - Para bloquear la actividad cuando el archivado no está disponible, active la casilla **Bloquear las sesiones de mensajería instantánea (MI) o conferencias web si se produce algún error en el archivado**.
     
-   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de Exchange **integración de Microsoft.**
+   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de Exchange **integración de Microsoft**.
     
    - Para habilitar la purga de datos, active la casilla **Habilitar purga de los datos de archivado** y realice una de las siguientes acciones:
     
@@ -96,7 +96,7 @@ Puede especificar opciones de archivado para un sitio específico. Una configura
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, a continuación, haga clic en **Configuración de archivado**.
     
-4. En la página **Configuración de archivado,** haga clic **en Nuevo** y, a continuación, haga clic en Configuración **del sitio**.
+4. En la página **Configuración de archivado** , haga clic en **Nuevo** y, a continuación, haga clic en **Configuración del sitio**.
     
 5. En **Seleccionar un sitio**, seleccione el sitio que debe configurarse para el archivado.
     
@@ -104,7 +104,7 @@ Puede especificar opciones de archivado para un sitio específico. Una configura
     
    - Para habilitar el archivado solo para las sesiones de mensajería instantánea, haga clic en **Archivar sesiones de mensajería instantánea**.
     
-   - Para habilitar el archivado para sesiones de mensajería instantánea y conferencias, haga clic en Archivar **sesiones de mensajería** instantánea y conferencia web .
+   - Para habilitar el archivado para sesiones de mensajería instantánea y conferencias, haga clic **en Archivar sesiones de mensajería instantánea y conferencias web**.
     
    - Para deshabilitar el archivado para la directiva, haga clic en **Deshabilitar archivado**.
     
@@ -112,7 +112,7 @@ Puede especificar opciones de archivado para un sitio específico. Una configura
     
    - Para bloquear la actividad cuando el archivado no está disponible, active la casilla **Bloquear las sesiones de mensajería instantánea (MI) o conferencias web si se produce algún error en el archivado**.
     
-   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de Exchange **integración de Microsoft.**
+   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de Exchange **integración de Microsoft**.
     
    - Para habilitar la purga de datos, active la casilla **Habilitar purga de los datos de archivado** y realice una de las siguientes acciones:
     
@@ -148,7 +148,7 @@ Puede especificar opciones de archivado para un grupo específico. La configurac
     
    - Para bloquear la actividad cuando el archivado no está disponible, active la casilla  **Bloquear las sesiones de mensajería instantánea (MI) o conferencias si se produce algún error en el archivado**.
     
-   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de Exchange **integración de Microsoft.**
+   - Para usar Microsoft Exchange Server almacenar datos de archivado, haga clic en la casilla de Exchange **integración de Microsoft**.
     
    - Para habilitar la purga de datos, active la casilla **Habilitar purga de los datos de archivado** y realice una de las siguientes acciones:
     

@@ -1,8 +1,8 @@
 ---
 title: Planear la solución Telefonía IP empresarial en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Resumen: obtenga información sobre las opciones para planear una solución unificada de voz y comunicaciones en Skype Empresarial Server.'
-ms.openlocfilehash: 71fc511d6c435ab6b1cd5f553d668acd2fb606a7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 500a34784ea94e16b5531bc94adf222047998a64
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829864"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409893"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planear la solución Telefonía IP empresarial en Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre las opciones para planear una solución unificada de voz y comunicaciones en Skype Empresarial Server.
   
-Skype Empresarial Server ofrece dos opciones de Telefonía IP empresarial locales(Telefonía IP empresarial y Llamada a través del trabajo) para que integre el sistema telefónico de su organización con la implementación Skype Empresarial Server, crear una verdadera solución de comunicaciones unificadas. Ambas opciones permiten a los usuarios usar Skype Empresarial cliente para iniciar llamadas de voz con otros usuarios, tanto dentro como fuera de la organización.
+Skype Empresarial Server ofrece dos opciones de Telefonía IP empresarial locales(Telefonía IP empresarial y Llamar a través del trabajo) para que integre el sistema telefónico de su organización con su Skype Empresarial Server  implementación, lo que hace que sea una verdadera solución de comunicaciones unificadas. Ambas opciones permiten a los usuarios usar Skype Empresarial cliente para iniciar llamadas de voz con otros usuarios, tanto dentro como fuera de la organización.
   
 También puede usar tanto Telefonía IP empresarial como Llamar a través del trabajo juntos.
   
@@ -44,7 +44,7 @@ Por supuesto, puede tener algunos de los usuarios habilitados para Telefonía IP
 > [!NOTE]
 > El control remoto de llamadas era una característica que se ofrecía en versiones anteriores de Lync Server, lo que permite a los usuarios usar su cliente Skype Empresarial realizar y recibir llamadas telefónicas en sus teléfonos PBX. El control remoto de llamadas no es compatible con los usuarios que se encuentran en servidores de Skype Empresarial Server, pero se admite para usuarios con clientes Skype Empresarial que aún se encuentran en servidores que ejecutan Lync Server 2013. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 [Planeación de Telefonía IP empresarial en Skype Empresarial Server](enterprise-voice.md)

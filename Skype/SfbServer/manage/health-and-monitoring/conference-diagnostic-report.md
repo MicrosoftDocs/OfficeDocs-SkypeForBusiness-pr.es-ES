@@ -1,8 +1,8 @@
 ---
 title: Informe de diagnóstico de conferencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: 'Resumen: obtenga información sobre el Informe de diagnóstico de conferencia usado en Skype Empresarial Server.'
-ms.openlocfilehash: 4e15819e220459664875e6a868c2644262885060
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 54f13793e1e76957bfc81f5d46769c5593c82cf8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837562"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398934"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico de conferencia en Skype Empresarial Server
  
@@ -39,7 +39,7 @@ Si sumamos 2024 + 469 + 16, obtenemos un total de 2.509 sesiones y, sin embargo,
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>Acceso al Informe de diagnósticos de conferencia
 
-Al Informe de diagnósticos de conferencia, se accede desde la página de inicio de Informes de supervisión. Puede obtener acceso al informe de distribución de [errores en Skype Empresarial Server](failure-distribution-report.md) haciendo clic en cualquiera de las siguientes métricas:
+Al Informe de diagnósticos de conferencia, se accede desde la página de inicio de Informes de supervisión. Puede obtener acceso al [informe de distribución de errores en Skype Empresarial Server](failure-distribution-report.md) haciendo clic en cualquiera de las siguientes métricas:
   
 - Volumen de errores inesperados
     
@@ -47,7 +47,7 @@ Al Informe de diagnósticos de conferencia, se accede desde la página de inicio
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>Cómo hacer el mejor uso del Informe de diagnósticos de conferencia
 
-El Informe de diagnósticos de conferencia incluye una serie de gráficos. Cada una de las columnas mostradas en el gráfico es, en realidad, un hipervínculo. Si hace clic en una columna, profundizará en el Informe de distribución de errores [en Skype Empresarial Server](failure-distribution-report.md) para ese período de tiempo y ese tipo de conferencia.
+El Informe de diagnósticos de conferencia incluye una serie de gráficos. Cada una de las columnas mostradas en el gráfico es, en realidad, un hipervínculo. Si hace clic en una columna, profundizará en el informe de distribución de errores [en Skype Empresarial Server](failure-distribution-report.md) para ese período de tiempo y ese tipo de conferencia.
   
 ## <a name="filters"></a>Filtros
 

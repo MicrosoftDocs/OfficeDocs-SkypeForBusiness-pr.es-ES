@@ -1,7 +1,7 @@
 ---
 title: ¿Qué es un pedido de portabilidad?
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -18,16 +18,16 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenga información general sobre qué son los pedidos de portabilidad y cómo transferir números de teléfono de su proveedor de servicios a Teams.
-ms.openlocfilehash: bb2c81a1c2263e59aee8477679440c7e26748c3a
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: b17e0dea6181c111355a865bf1f70c07bfcb9258
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124277"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398424"
 ---
 # <a name="whats-a-port-order"></a>¿Qué es un pedido de portabilidad?
 
-Si actualmente tiene un proveedor de servicios telefónicos u operador de telefonía y ya tiene números de teléfono para sus usuarios o servicios, debe crear una *"orden* de portabilidad" para transferir esos números de teléfono a Microsoft Teams. Cuando los números se porte, puede asignar esos números de teléfono a los usuarios y servicios, como las audioconferencias (para puentes de conferencia), los operadores automáticos y las colas de llamadas.
+Si actualmente tiene un proveedor de servicios telefónicos u operador de telefonía y ya tiene números de teléfono para sus usuarios o servicios, debe crear *una "orden* de portabilidad" para transferir esos números de teléfono a Microsoft Teams. Cuando los números se porte, puede asignar esos números de teléfono a los usuarios y servicios, como las audioconferencias (para puentes de conferencia), los operadores automáticos y las colas de llamadas.
   
 Después de portabilidad de los números de teléfono a Teams, Microsoft se convierte en su proveedor de servicios y puede desconectar el servicio con su proveedor de servicios u operador anterior.
 
@@ -35,9 +35,9 @@ Revise la información de este artículo para familiarizarse con la pornografía
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>¿Qué países o regiones admiten la porte de números?
 
-Puede portabilidad o transferir números de teléfono en todos los países o regiones admitidos, pero la forma en que envía una solicitud de portabilidad depende del país o región de donde proceden los números de teléfono. Para obtener una lista de países y regiones que admiten la porción de números, vea Administrar números [de teléfono para su organización.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)  
+Puede portabilidad o transferir números de teléfono en todos los países o regiones admitidos, pero la forma en que envía una solicitud de portabilidad depende del país o región de donde proceden los números de teléfono. Para obtener una lista de países y regiones que admiten la porción de números, vea Administrar números [de teléfono para su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
 
-Actualmente, [el asistente de porte](transfer-phone-numbers-to-teams.md) del centro de administración de Microsoft Teams permite obtener números de teléfono para Reino Unido, Estados Unidos y Canadá. Para obtener números de teléfono para otros países y regiones, puede enviar [manualmente una solicitud de portabilidad.](manually-submit-port-order.md)
+Actualmente, [el asistente de porte](transfer-phone-numbers-to-teams.md) del centro de administración de Microsoft Teams permite obtener números de teléfono para Reino Unido, Estados Unidos y Canadá. Para obtener números de teléfono de otros países y regiones, puede enviar [manualmente una solicitud de portabilidad](manually-submit-port-order.md).
   
 ## <a name="what-numbers-can-be-transferred"></a>¿Qué números se pueden transferir?
 
@@ -65,7 +65,7 @@ En general, puede transferir cualquier número de teléfono que sea de un provee
 
 - Números de teléfono VoIP de un proveedor de telefonía como Vonage o RingCentral.
 
-- Skype Empresarial números de teléfono híbridos. Si desea transferir estos números, envíenos un correo electrónico a <ptn@microsoft.com> .
+- Skype Empresarial números de teléfono híbridos. Si desea transferir estos números, envíenos un correo electrónico a <ptn@microsoft.com>.
 
 **No puede transferir:**
   
@@ -76,7 +76,7 @@ En general, puede transferir cualquier número de teléfono que sea de un provee
 
 - Los números de teléfono dedicados para fax.
 
-    Si ya tiene números de teléfono dedicados que  se usan para fax, puede transferir estos números a Teams pero los servicios de fax no seguirán funcionando según lo esperado. Los servicios de fax no están disponibles para Teams clientes, incluso si tiene licencias para Sistema telefónico, plan de llamadas nacionales o plan de llamadas internacionales.
+    Si tiene números de teléfono dedicados existentes que se usan para fax, puede  transferir estos números a Teams pero los servicios de fax no seguirán funcionando según lo esperado. Los servicios de fax no están disponibles para Teams clientes, incluso si tiene licencias para Sistema telefónico, plan de llamadas nacionales o plan de llamadas internacionales.
 
     Si envía el número de teléfono a Teams, puede asignar este número de teléfono a un usuario de su organización en lugar de usarlo para fax.
 
@@ -91,13 +91,13 @@ Necesita tener toda la información de la cuenta de su operador actual. La infor
 
 Al transferir números de teléfono a Teams, tiene la opción de transferir todos los números o algunos de ellos.
   
-- **Full-port** Esto es cuando transfiere todos los números de su proveedor de servicios actual a Teams. Cuando se le pidan los números de  teléfono que desea transferir, debe incluir el número de teléfono de facturación (BTN) junto con todos los demás números de teléfono de su cuenta.
+- **Full-port** Esto es cuando transfiere todos los números de su proveedor de servicios actual a Teams. Cuando se le pidan los números de teléfono que desea transferir, debe incluir  el número de teléfono de facturación (BTN) junto con todos los demás números de teléfono de su cuenta.
 
     Por ejemplo, supongamos que su BTN es  *+1 425-555-1234*  y desea portabilidad todos sus 25 números de teléfono (*+1 425-555-1235 a 1259*). Cuando siga las instrucciones siguientes para transferir los números, escriba: **+14255551234 - +14255551259**.
 
-- **Puerto parcial** Esto ocurre cuando solo transfiere algunos de sus números de teléfono de su proveedor de servicios actual a Teams. Si desea portar algunos de los números de teléfono vinculados a la misma BTN, **** no debe incluir ** la BTN junto con todos los demás números de teléfono de su cuenta.
+- **Puerto parcial** Esto ocurre cuando solo transfiere algunos de sus números de teléfono de su proveedor de servicios actual a Teams. Si desea portar algunos de los números de teléfono vinculados a la misma BTN *, ** no* debe incluir ** la BTN junto con todos los demás números de teléfono de su cuenta.
 
-    Por ejemplo, supongamos que su BTN es *+1 425-555-1234* y que desea portabilidad solo 5 de sus 25 números de teléfono (*+1 425-555-1235 a 1259).* Cuando siga las instrucciones siguientes para transferir los números, escriba: **+1 425 555 1235 - +1 425 555 1239**.
+    Por ejemplo, supongamos que su BTN es  *+1 425-555-1234*  y que desea portabilidad solo 5 de sus 25 números de teléfono (*+1 425-555-1235 a 1259*). Cuando siga las instrucciones siguientes para transferir los números, escriba: **+1 425 555 1235 - +1 425 555 1239**.
     
 ## <a name="can-i-submit-a-single-number-porting-request-for-all-of-my-numbers-at-one-time"></a>¿Puedo enviar una sola solicitud de portabilidad de número para todos mis números a la vez?
 <a name="bkmk_type_1"> </a>
@@ -116,11 +116,11 @@ Por ejemplo, debe enviar una solicitud separada de portabilidad de número para 
 
 Aquí encontrará más información sobre cómo enviar solicitudes de porte de números para cada uno de estos tipos de números:
   
-- **Teléfono los números proporcionados** por diferentes operadores requieren una solicitud de porteo única para los números con cada operador.
+- **Teléfono los números proporcionados** por diferentes operadores requieren una solicitud de porte única para los números con cada operador.
 
--  Los números gratuitos con códigos de área como: 800, 844, 855, 866, 877 y 888 no se pueden incluir en una solicitud de porte de números con otros tipos de números. Para portabilidad de estos números gratuitos, debe enviar [manualmente una solicitud de portabilidad.](manually-submit-port-order.md) No puede portabilidad de estos números en el centro Microsoft Teams administración. Para obtener más información, consulte [Administrar los números de teléfono para su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+-  Los números gratuitos con códigos de área como: 800, 844, 855, 866, 877 y 888 no se pueden incluir en una solicitud de porte de números con otros tipos de números. Para portabilidad de estos números gratuitos, debe enviar [manualmente una solicitud de portabilidad](manually-submit-port-order.md). No puede portabilidad de estos números en el centro Microsoft Teams administración. Para obtener más información, consulte [Administrar los números de teléfono para su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-    Es importante usar la carta de autorización (LOA) correcta para el país y el tipo de números de teléfono que desea portabilidad. Puede descargar [la LOA que necesita aquí.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+    Es importante usar la carta de autorización (LOA) correcta para el país y el tipo de números de teléfono que desea portabilidad. Puede descargar [la LOA que necesita aquí](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 - Los **números de teléfono móvil** requieren un código PIN para autorizar la transferencia. Por lo tanto, requieren solicitudes de portabilidad de número separadas.
 
@@ -131,16 +131,16 @@ Aquí encontrará más información sobre cómo enviar solicitudes de porte de n
 
 Después de completar la solicitud de portabilidad, se tarda entre 7 y 14 días en procesarse. Sin embargo, según su proveedor de servicios, podría tardar hasta 30 días. Una vez que se han portado los números de teléfono, se te enviará un correo electrónico para que sepas que estás bien.
   
-Para comprobar el estado del pedido de portabilidad, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya Teléfono números de voz y, a continuación, haga clic en  >  Historial **de pedidos.** Cada estado del pedido de portabilidad se muestra en la **columna** Estado.
+Para comprobar el estado del pedido de portabilidad, en el panel de navegación izquierdo del centro de administración de Microsoft Teams,  >  vaya a Voz **Teléfono números** y, a continuación, haga clic en **Historial de pedidos**. Cada estado del pedido de portabilidad se muestra en la **columna** Estado.
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>¿Es posible convertir los números de teléfono de usuario (suscriptor) en números de servicio?
 <a name="bkmk_type_1"> </a>
 
-Sí, lo es. Solo necesita enviar una solicitud de servicio que incluya el GUID del inquilino de su organización y los números de teléfono que desea convertir. Para ello, vea [Administrar números de teléfono para su organización.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+Sí, lo es. Solo necesita enviar una solicitud de servicio que incluya el GUID del inquilino de su organización y los números de teléfono que desea convertir. Para ello, vea Administrar [números de teléfono para su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>¿Puedo portabilidad de mis números de Teams a otro proveedor u operador de telefonía?
 
-Para enviar los números de Teams a otro operador, debe enviar una solicitud con el nuevo operador. También tendrá que establecer un PIN de porte abriendo un caso de soporte técnico. Para obtener información sobre cómo obtener soporte técnico, vea [Obtener soporte técnico.](/microsoft-365/business-video/get-help-support) 
+Para enviar los números de Teams a otro operador, debe enviar una solicitud con el nuevo operador. También tendrá que establecer un PIN de porte abriendo un caso de soporte técnico. Para obtener información sobre cómo obtener soporte técnico, vea [Obtener soporte técnico](/microsoft-365/business-video/get-help-support). 
 
 Cuando el nuevo operador se pone en contacto con nosotros con la solicitud de porteo, le pediremos que proporcione el PIN que definió.
 

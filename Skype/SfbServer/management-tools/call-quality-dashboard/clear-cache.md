@@ -1,8 +1,8 @@
 ---
 title: Borrar caché
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 08648b16-7a64-41d8-9577-5000a20fce46
 description: 'Resumen: obtenga información sobre la operación Borrar caché, que forma parte de la API de datos para el Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: de956a3541416100cf7877b46340f2eccb38b3ea
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f81e22b11851f4b2121f2444d7ded824f3d8530a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843823"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396372"
 ---
 # <a name="clear-cache"></a>Borrar caché
  
@@ -33,19 +33,19 @@ La operación Borrar caché elimina la memoria caché del servidor para consulta
 
 |**Método**|**URI de solicitud**|**Versión HTTP**|
 |:-----|:-----|:-----|
-|POST  <br/> |https:// \<portal\> /QoEDataService/ClearCache  <br/> |HTTP/1.1  <br/> |
+|POST  <br/> |\<portal\>https:///QoEDataService/ClearCache  <br/> |HTTP/1.1  <br/> |
    
- **Parámetros uri:** ninguno.
+ **Parámetros uri** : ninguno.
   
- **Encabezados de solicitud:** no hay encabezados adicionales.
+ **Encabezados de solicitud** : no hay encabezados adicionales.
   
  **Cuerpo de la** solicitud: ninguno.
   
- **Respuesta:** la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
+ **Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
   
- **Código de estado:** una operación correcta devuelve el código de estado 200 (Aceptar).
+ **Código de estado** : una operación correcta devuelve el código de estado 200 (Aceptar).
   
- **Encabezados de respuesta:** no hay encabezados adicionales.
+ **Encabezados de respuesta** : no hay encabezados adicionales.
   
  **Cuerpo de la** respuesta: ninguno.
   

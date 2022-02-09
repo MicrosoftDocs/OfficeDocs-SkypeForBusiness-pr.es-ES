@@ -1,8 +1,8 @@
 ---
 title: Informe de rendimiento del servidor en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 description: 'Resumen: obtenga información sobre el informe de rendimiento del servidor en Skype Empresarial Server.'
-ms.openlocfilehash: 6e13a12452fbdbf650a7e307340269803a2301b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 21bb6dbc462633d3d5620d63389b72a9b4d49a07
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836342"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396542"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>Informe de rendimiento del servidor en Skype Empresarial Server
  
@@ -43,7 +43,7 @@ Es importante tener en cuenta que la clasificación mostrada en este informe com
   
 ## <a name="accessing-the-server-performance-report"></a>Acceso al informe de rendimiento del servidor
 
-El informe de acceso del servidor es accesible desde la página principal de informes de supervisión. Puede explorar en profundidad el Informe de lista de [llamadas en Skype Empresarial Server](call-list-report-0.md) haciendo clic en cualquiera de las siguientes métricas:
+El informe de acceso del servidor es accesible desde la página principal de informes de supervisión. Puede explorar en profundidad el Informe de [lista de llamadas en Skype Empresarial Server](call-list-report-0.md) haciendo clic en cualquiera de las siguientes métricas:
   
 - Volumen de llamadas
     

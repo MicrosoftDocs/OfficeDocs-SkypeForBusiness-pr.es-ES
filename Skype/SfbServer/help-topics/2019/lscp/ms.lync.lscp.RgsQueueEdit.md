@@ -1,8 +1,8 @@
 ---
 title: Cola de grupos de respuesta Crear nuevo o editar existente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Las colas de grupo de respuesta mantienen llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
-ms.openlocfilehash: 1595439c8d85bf5525ef5cecdc250856d9d2596f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0a333badcf5dbc034f08b70407a2f9ed9ffaf00e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832704"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399304"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Cola de grupos de respuesta: Crear nuevos o editar los existentes
 
@@ -46,11 +46,11 @@ En la siguiente lista se describen los campos de la página.
 
   - **Desconectar**
 
-  - **Reenviar al correo de voz** Si selecciona esta opción, en **dirección SIP,** escriba una dirección de correo de voz con el formato sip: \<username> @ \<domainname> (por ejemplo, sip:bob \@ contoso.com).
+  - **Reenviar al correo de voz** Si selecciona esta opción, en dirección **SIP**, escriba una dirección de correo de voz con el formato sip:\<username>@\<domainname> (por ejemplo, sip:bob\@ contoso.com).
 
-  - **Reenviar al número de teléfono** Si selecciona esta opción, en dirección **SIP** escriba el número de teléfono con el formato sip: \<number> @ \<domainname> (por ejemplo, sip:+14255550121 \@ contoso.com).
+  - **Reenviar al número de teléfono** Si selecciona esta opción, en dirección **SIP** escriba el número de teléfono con el formato sip:\<number>@\<domainname> (por ejemplo, sip:+14255550121\@ contoso.com).
 
-  - **Reenviar a la dirección SIP** Seleccione esta opción para reenviar la llamada a otro usuario. En **dirección SIP,** escriba el URI del usuario con el formato sip: \<username> @ \<domainname> .
+  - **Reenviar a la dirección SIP** Seleccione esta opción para reenviar la llamada a otro usuario. En **dirección SIP**, escriba el URI del usuario con el formato sip:\<username>@\<domainname>.
 
   - **Reenviar a otra cola** Si selecciona esta opción, vaya a la cola que va a recibir llamadas cuando las llamadas se alojen.
 
@@ -64,11 +64,11 @@ En la siguiente lista se describen los campos de la página.
 
   - **Desconectar**
 
-  - **Reenviar al correo de voz** Si selecciona esta opción, en **dirección SIP,** escriba una dirección de correo de voz con el formato sip: \<username> @ \<domainname> (por ejemplo, sip:bob@contoso.com).
+  - **Reenviar al correo de voz** Si selecciona esta opción, en **dirección SIP**, escriba una dirección de correo de voz con el formato sip:\<username>@\<domainname> (por ejemplo, sip:bob@contoso.com).
 
-  - **Reenviar al número de teléfono** Si selecciona esta opción, en dirección **SIP** escriba el número de teléfono con el formato sip: \<number> @ \<domainname> (por ejemplo, sip:+14255550121@contoso.com).
+  - **Reenviar al número de teléfono** Si selecciona esta opción, en dirección **SIP** escriba el número de teléfono con el formato sip:\<number>@\<domainname> (por ejemplo, sip:+14255550121@contoso.com).
 
-  - **Reenviar a la dirección SIP** Seleccione esta opción para reenviar la llamada a otro usuario. En **dirección SIP,** escriba el URI del usuario con el formato sip: \<username> @ \<domainname> .
+  - **Reenviar a la dirección SIP** Seleccione esta opción para reenviar la llamada a otro usuario. En **dirección SIP**, escriba el URI del usuario con el formato sip:\<username>@\<domainname>.
 
   - **Reenviar a otra cola** Si selecciona esta opción, vaya a la cola que va a recibir llamadas cuando se alcance el umbral de desbordamiento de cola.
 

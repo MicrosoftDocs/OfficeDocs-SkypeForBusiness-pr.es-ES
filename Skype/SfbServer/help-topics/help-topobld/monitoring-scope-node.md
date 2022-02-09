@@ -1,8 +1,8 @@
 ---
 title: Supervisión del nodo de ámbito
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 'En el Generador de topologías de Lync Server 2013, puede realizar tareas relacionadas con un servidor individual que ejecuta supervisión haciendo clic con el botón secundario en el servidor que ejecuta supervisión en el árbol de consola, haciendo clic en Acción en la barra de herramientas o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en una de las siguientes opciones para el servidor que ejecuta la supervisión:'
-ms.openlocfilehash: 054636ad6b1d5eab604085d918afc0bfca02a5bf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 70ec788c30499424a7af156c6b5941fe30cb1c3a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860107"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397824"
 ---
 # <a name="monitoring-scope-node"></a>Supervisión del nodo de ámbito
  
-En el Generador de topologías de Lync Server 2013, puede realizar tareas relacionadas con un servidor  individual que ejecuta supervisión haciendo clic con el botón secundario en el servidor que ejecuta supervisión en el árbol de consola, haciendo clic en Acción en la barra de herramientas o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en una de las siguientes opciones para el servidor que ejecuta la supervisión:
+En el Generador de topologías de Lync Server 2013, puede realizar tareas relacionadas con un servidor individual que ejecuta supervisión haciendo clic con el botón secundario en el servidor que ejecuta supervisión en  el árbol de consola, haciendo clic en Acción en la barra de herramientas o haciendo clic en una tarea en el panel Acciones y, a continuación, haciendo clic en una de las siguientes opciones para el servidor que ejecuta la supervisión:
   
 - **Editar propiedades**. Abre la **página Editar propiedades** del servidor que ejecuta la supervisión, donde puede cambiar el nombre de dominio completo (FQDN) del servidor que ejecuta la supervisión o la base de datos SQL Server supervisión.
     

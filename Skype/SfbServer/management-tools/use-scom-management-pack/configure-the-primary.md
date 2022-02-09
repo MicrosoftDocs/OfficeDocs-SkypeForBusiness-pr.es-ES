@@ -1,8 +1,8 @@
 ---
 title: Cómo configurar el servidor de administración principal
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 'Summary: Configure your primary management server, install System Center Operations Manager, and import management packs for Skype Empresarial Server 2015.'
-ms.openlocfilehash: 6128cc33f0a877235c3356a2bef78a9288f6fc13
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fe03f40f3fd63cf7bc88a8739c04dd98369be26f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852954"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398764"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>Cómo configurar el servidor de administración principal
 
@@ -39,14 +39,14 @@ Al instalar System Center Operations Manager, deberá instalar todos los compone
 
 - Consola web
 
-- Reporting
+- Generación de informes
 
 - Almacén de datos
 
 > [!IMPORTANT]
 > El Microsoft Report Viewer redistribuible de 2010 debe instalarse antes de instalar System Center Operations Manager 2012.
 
-Para obtener más información sobre estos productos y su instalación, [vea System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
+Para obtener más información sobre estos productos y su [instalación, vea System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
 
 Tenga en cuenta que solo puede tener un servidor de administración raíz por Skype Empresarial Server implementación.
@@ -55,10 +55,10 @@ Tenga en cuenta que solo puede tener un servidor de administración raíz por Sk
 
 Puede ampliar las capacidades de System Center Operations Manager mediante la instalación de módulos de administración, software que determina qué elementos System Center Operations Manager puede supervisar, cómo deben supervisarse esos elementos y cómo deben activarse e informarse las alertas. Skype Empresarial Server 2015 incluye dos System Center de administración de Operations Manager que proporcionan las siguientes funcionalidades:
 
-- El **módulo** de administración de componentes y usuarios (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) realiza un seguimiento de los problemas de Skype Empresarial Server registrados en registros de eventos, registrados por contadores de rendimiento o registrados en las bases de datos de registros de detalles de llamadas (CDR) o calidad de la experiencia (QoE). Para problemas críticos, System Center Operations Manager se puede configurar para notificar inmediatamente a los administradores a través de correo electrónico, mensaje instantáneo o mensajería SMS. (SMS, o servicio de mensajes cortos, es la tecnología que se usa para enviar mensajes de texto de un dispositivo móvil a otro).
+- El **módulo** de administración de componentes y usuarios (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) realiza un seguimiento de Skype Empresarial Server problemas registrados en registros de eventos, registrados por contadores de rendimiento o registrados en los registros de detalles de llamadas (CDR) o en las bases de datos de calidad de la experiencia (QoE). Para problemas críticos, System Center Operations Manager se puede configurar para notificar inmediatamente a los administradores a través de correo electrónico, mensaje instantáneo o mensajería SMS. (SMS, o servicio de mensajes cortos, es la tecnología que se usa para enviar mensajes de texto de un dispositivo móvil a otro).
 
     > [!NOTE]
-    >  Para obtener más información sobre cómo configurar la notificación de Operations Manager, vea [Configuring Notification](/previous-versions/system-center/operations-manager-2007-r2/dd440890(v=technet.10)).
+    >  Para obtener más información sobre cómo configurar la notificación de Operations Manager, consulte [Configuring Notification](/previous-versions/system-center/operations-manager-2007-r2/dd440890(v=technet.10)).
 
 - Active **Monitoring Management Pack** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) prueba proactivamente componentes clave de Skype Empresarial Server, como iniciar sesión en el sistema, intercambiar mensajes instantáneos o realizar llamadas a un teléfono ubicado en la red telefónica conmutada (RTC). Estas pruebas se realizan mediante el uso de los cmdlets Skype Empresarial Server transacciones sintéticas. Por ejemplo, el cmdlet **Test-CsIM** se usa para simular una conversación de mensajería instantánea entre dos usuarios de prueba. Si se produce un error en esta conversación simulada, se genera una alerta.
 
@@ -73,7 +73,7 @@ Puede usar una de las siguientes herramientas para importar los paquetes de admi
 
 - **System Center Operations Manager** Con este método, se usa Operations Manager para agregar supervisión para Skype Empresarial Server.
 
-- **shell de Operations Manager** Puede usar el shell de Operations Manager importar directamente o para solucionar los problemas que se encuentren al importar módulos de administración mediante la consola de System Center Operations Manager.
+- **shell de Operations Manager** Puede usar el shell de Operations Manager para importar directamente o para solucionar los problemas que se encuentren al importar módulos de administración mediante la consola de System Center Operations Manager.
 
 ### <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a>Importar los módulos de administración mediante System Center Operations Manager
 
@@ -85,9 +85,9 @@ Puede usar una de las siguientes herramientas para importar los paquetes de admi
 
 4. En el cuadro de diálogo **Seleccionar paquetes de administración**, haga clic en **Agregar** y luego en **Agregar desde el disco**.
 
-5. En el cuadro **de diálogo Conexión** de catálogo en línea, haga clic en **No**.
+5. En el cuadro **de diálogo Conexión** de catálogo en línea, haga clic **en No**.
 
-6. En el cuadro de diálogo Seleccionar **módulos** de administración para importar, busque y seleccione los archivos Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp y Microsoft.LS.2015.Monitoring.ComponentAndUser.mp y, a continuación, haga clic en **Abrir**. Para seleccionar varios archivos en el cuadro de diálogo, haga clic en el primer archivo y, a continuación, mantenga presionada la tecla Ctrl y haga clic en los archivos siguientes.
+6. En el **cuadro de diálogo Seleccionar módulos** de administración para importar, busque y seleccione los archivos Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp y Microsoft.LS.2015.Monitoring.ComponentAndUser.mp y, a continuación, haga clic en **Abrir**. Para seleccionar varios archivos en el cuadro de diálogo, haga clic en el primer archivo y, a continuación, mantenga presionada la tecla Ctrl y haga clic en los archivos siguientes.
 
 7. En el cuadro de diálogo **Seleccionar paquetes de administración**, haga clic en **Instalar**. Si obtiene un mensaje de error y no se puede producir la instalación, que generalmente significa que los archivos del paquete de administración se encuentran en una carpeta protegida por el control de cuentas de usuario de Windows. Si esto ocurre, copie los archivos en una carpeta diferente y, a continuación, reinicie el proceso de importación e instalación.
 
@@ -97,7 +97,7 @@ Puede usar una de las siguientes herramientas para importar los paquetes de admi
 
 En general, es más fácil importar los módulos de administración mediante la consola de Operations Manager. Sin embargo, si se produce un error y se produce un error en la importación, la consola no siempre proporciona informes de error adecuados. En comparación, el shell de Operations Manager proporciona información detallada. Si usa Operations Manager y encuentra problemas al importar un módulo de administración, importe el paquete mediante el shell de Operations Manager. La información proporcionada por shell de Operations Manager puede ayudarle a determinar por qué se ha fallado la importación.
 
-1. Haga **clic en** Inicio , en **Todos** los programas, en Microsoft System Center **2012**, en **Operations Manager** y, a continuación, en **shell de Operations Manager**.
+1. Haga **clic en** Inicio, **todos los programas**, **Microsoft System Center 2012**, **Operations Manager** y, a continuación, **haga clic en shell de Operations Manager**.
 
 2. En shell de Operations Manager, escriba el siguiente comando en el símbolo del sistema, usando la ruta de acceso real a la copia del archivo Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp y, a continuación, presione ENTRAR:
 

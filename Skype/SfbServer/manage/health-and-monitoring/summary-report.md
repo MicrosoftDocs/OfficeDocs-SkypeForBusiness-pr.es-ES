@@ -1,8 +1,8 @@
 ---
 title: Informe de resumen de diagnóstico de llamadas en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 'Summary: Learn about the Call Diagnostic Summary Report used in Skype Empresarial Server.'
-ms.openlocfilehash: ef50ecde07fdd7354bd97c40bddfe4fb5e762d08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 76907a319f5e4d828829daf7bc0564a964eb7633
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827573"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397704"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Informe de resumen de diagnóstico de llamadas en Skype Empresarial Server
  
@@ -37,7 +37,7 @@ El informe de resumen de diagnósticos de llamadas proporciona un resumen genera
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Acceso al informe de resumen de diagnósticos de llamadas
 
-El informe de resumen de diagnósticos de llamadas es accesible desde la página principal de informes de supervisión. En el Informe de resumen de diagnóstico de llamadas, puede obtener acceso al Informe de diagnóstico de actividad punto a punto en [Skype Empresarial Server](peer-to-peer-activity-diagnostic-report.md) haciendo clic en la métrica Tasa de errores en la sección Resumen de sesión punto a punto del informe. También puede obtener acceso al Informe de diagnóstico de conferencia [en Skype Empresarial Server](conference-diagnostic-report.md) haciendo clic en cualquiera de las siguientes métricas de conferencia:
+El informe de resumen de diagnósticos de llamadas es accesible desde la página principal de informes de supervisión. En el Informe de resumen de diagnóstico de llamadas, puede obtener acceso al Informe de diagnóstico de actividad punto a [punto en Skype Empresarial Server](peer-to-peer-activity-diagnostic-report.md) haciendo clic en la métrica Tasa de errores en la sección Resumen de sesión punto a punto del informe. También puede obtener acceso al [Informe de diagnóstico de conferencia en Skype Empresarial Server](conference-diagnostic-report.md) haciendo clic en cualquiera de las siguientes métricas de conferencia:
   
 - Porcentaje de errores de sesión generales
     

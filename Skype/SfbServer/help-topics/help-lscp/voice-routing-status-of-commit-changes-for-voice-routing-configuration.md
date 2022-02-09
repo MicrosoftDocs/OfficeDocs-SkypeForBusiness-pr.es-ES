@@ -1,8 +1,8 @@
 ---
 title: Estado de enrutamiento de voz de confirmar cambios para la configuración de enrutamiento de voz
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 description: Si los cambios no se han completado, revise los mensajes de este cuadro de diálogo, cambie la configuración de enrutamiento de voz y vuelva a intentarlo.
-ms.openlocfilehash: b5999d1b0a149e64067a6f81e7140d10b7aa626d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7d86525dae0cde0af7eab6fc842fe18857cec9a5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855647"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396720"
 ---
 # <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>Enrutamiento de voz: Estado de confirmación de cambios para la configuración del enrutamiento de voz
  

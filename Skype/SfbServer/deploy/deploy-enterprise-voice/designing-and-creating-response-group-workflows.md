@@ -1,8 +1,8 @@
 ---
 title: Diseño y creación de flujos de trabajo de grupo de respuesta en Skype Empresarial
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Diseñe y cree flujos de trabajo de grupo de respuesta en Skype Empresarial Server Telefonía IP empresarial. Se tratan los flujos de trabajo de grupo de extensiones y los flujos de trabajo interactivos.
-ms.openlocfilehash: ec92a0dfa378746db98a6377b2ebd51df0e77813
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 06ca815eb973fdf26106a0c0c082f4c146d2b590
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864387"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401564"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Diseño y creación de flujos de trabajo de grupo de respuesta en Skype Empresarial
 
@@ -49,9 +49,9 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 5. En el campo de búsqueda **Seleccionar un servicio**, escriba la totalidad o parte del nombre del servicio **ApplicationServer** que hospeda el flujo de trabajo que desea crear o cambiar. En la lista de servicios obtenida, haga clic en el servicio que desee y después en **Aceptar**.
 
     > [!NOTE]
-    > Se abre la Herramienta de configuración de grupo de respuesta. También puede abrir la Herramienta de configuración de grupo de respuesta directamente desde un explorador web escribiendo la siguiente dirección URL: https:// \<webPoolFqdn\> /RgsConfig.
+    > Se abre la Herramienta de configuración de grupo de respuesta. También puede abrir la Herramienta de configuración de grupo de respuesta directamente desde un explorador web escribiendo la siguiente dirección URL: https://\<webPoolFqdn\>/RgsConfig.
 
-6. Realice una de las siguientes acciones:
+6. Realiza una de las siguientes acciones:
 
    - En **Crear nuevo flujo de trabajo**, junto a **Grupo de búsqueda**, haga clic en **Crear**.
 
@@ -65,7 +65,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 8. Para permitir que los usuarios federados puedan llamar al grupo, active la casilla **Habilitar para federación**. También debe tener una directiva de acceso externo que se aplique a la aplicación grupo de respuesta configurada para la federación.
 
     > [!NOTE]
-    > La directiva de acceso externo global se aplica a la aplicación grupo de respuesta. Puede configurar la directiva global para la federación de grupos de respuesta mediante Skype Empresarial Server Panel de control o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Tenga en cuenta que la configuración de directiva global se aplicará a todos los usuarios a menos que estén asignados a un sitio o a una directiva de usuario. Por lo tanto, antes de modificar este parámetro de los grupos de respuesta, asegurese de que la configuración de federación cumple con los requisitos de su organización. Para más información sobre cómo se aplican las directivas a los usuarios, vea [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obtener más información acerca de la configuración de federación, [vea Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
+    > La directiva de acceso externo global se aplica a la aplicación grupo de respuesta. Puede configurar la directiva global para la federación de grupos de respuesta mediante el Panel de control de Skype Empresarial Server o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Tenga en cuenta que la configuración de directiva global se aplicará a todos los usuarios a menos que estén asignados a un sitio o a una directiva de usuario. Por lo tanto, antes de modificar este parámetro de los grupos de respuesta, asegurese de que la configuración de federación cumple con los requisitos de su organización. Para más información sobre cómo se aplican las directivas a los usuarios, vea [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obtener más información sobre la configuración de federación, [vea Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
 
     > [!NOTE]
     > Los usuarios hospedados en Skype Empresarial Online no pueden realizar llamadas a grupos de respuesta hospedados en una implementación local. Esto ocurre tanto en implementaciones híbridas como en los casos en que una implementación local está federada con una Skype Empresarial online.
@@ -89,7 +89,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 13. En **Número para mostrar**, escriba el número tal como desea que aparezca para el grupo de respuesta (por ejemplo, +1 (425) 555-0165).
 
-14. (Opcional) En **Descripción**, escriba una descripción para el flujo de trabajo como desee que aparezca en la tarjeta de contacto en Skype Empresarial.
+14. (Opcional) En **Descripción**, escriba una descripción para el flujo de trabajo tal como desea que aparezca en la tarjeta de contacto en Skype Empresarial.
 
 15. En **Tipo de flujo de trabajo**, seleccione **Administrado** si un administrador de grupos de respuesta va a administrar este flujo de trabajo. Haga lo siguiente para asignar administradores de grupo de respuesta al flujo de trabajo:
 
@@ -133,7 +133,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 20. Si está creando una programación personalizada para este flujo de trabajo, haga clic en las casillas correspondientes a los días de la semana durante los que se encuentra disponible el grupo de respuesta.
 
-21. Si va a crear una  programación  personalizada, escriba las horas de apertura y cierre para cada día de la semana en que el grupo de respuesta está disponible.
+21. Si va a crear una programación personalizada, escriba  las horas  de apertura y cierre para cada día de la semana en que el grupo de respuesta está disponible.
 
     > [!NOTE]
     > Las horas en **Abrir** y **Cerrar** deben mostrarse en formato de 24 horas. Por ejemplo, si en su oficina se trabaja de 9 a 5 y se cierra al mediodía para el almuerzo, el horario de oficina queda representado como **Abrir** 9:00, **Cerrar** 12:00, **Abrir** 13:00 y **Cerrar** 17:00.
@@ -154,16 +154,16 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
     - Para desconectar la llamada, haga clic en **Desconectar llamada**.
 
-    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y, a continuación, escriba la dirección del correo de voz. El formato de la dirección de correo de voz *\<username\>* @ *\<domainName\>* es (por ejemplo, bob@contoso.com).
+    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y, a continuación, escriba la dirección del correo de voz. El formato de la dirección de correo de voz es  *\<username\>*@*\<domainName\>* (por ejemplo, bob@contoso.com).
 
-    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI de SIP** y, a continuación, escriba la dirección de un usuario. El formato de la dirección de usuario es _\<username\>_ @ _\<domainName\>_ .
+    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI de SIP** y, a continuación, escriba la dirección de un usuario. El formato de la dirección de usuario es  _\<username\>_@_\<domainName\>_.
 
-    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y, a continuación, escriba el número de teléfono. El formato del número de teléfono *\<number\>* @ *\<domainName\>* es (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para enrutar al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y, a continuación, escriba el número de teléfono. El formato del número de teléfono es  *\<number\>*@*\<domainName\>* (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para enrutar al autor de la llamada al destino correcto.
 
 24. En **Paso 5 Especificar días festivos**, haga clic en las casillas para uno o más conjuntos de días festivos que definan los días en los que el grupo de respuesta no esté laboralmente disponible.
 
     > [!NOTE]
-    > Debe definir las vacaciones y los conjuntos de vacaciones antes de configurar el flujo de trabajo. Use los cmdlets **New-CsRgsHoliday** y **New-CsRgsHolidaySet** para definir las vacaciones y los conjuntos de vacaciones. Para obtener más información, [vea (Opcional) Definir](optional-define-response-group-holiday-sets.md)conjuntos de días festivos de grupo de respuesta en Skype Empresarial .
+    > Debe definir las vacaciones y los conjuntos de vacaciones antes de configurar el flujo de trabajo. Use los cmdlets **New-CsRgsHoliday** y **New-CsRgsHolidaySet** para definir las vacaciones y los conjuntos de vacaciones. Para obtener más información, [vea (Opcional) Definir](optional-define-response-group-holiday-sets.md) conjuntos de días festivos de grupo de respuesta en Skype Empresarial.
 
 25. Si desea reproducir un mensaje durante los días festivos, active la casilla **Reproducir un mensaje durante los días festivos** y, a continuación, especifique el mensaje que se va a reproducir mediante uno de los siguientes procedimientos:
 
@@ -181,11 +181,11 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
     - Para desconectar la llamada, haga clic en **Desconectar llamada**.
 
-    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y, a continuación, escriba la dirección del correo de voz. El formato de la dirección de correo de voz *\<username\>* @ *\<domainName\>* es (por ejemplo, bob@contoso.com).
+    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y, a continuación, escriba la dirección del correo de voz. El formato de la dirección de correo de voz es  *\<username\>*@*\<domainName\>* (por ejemplo, bob@contoso.com).
 
-    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI de SIP** y, a continuación, escriba la dirección de un usuario. El formato de la dirección de usuario es _\<username\>_ @ _\<domainName\>_ .
+    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI de SIP** y, a continuación, escriba la dirección de un usuario. El formato de la dirección de usuario es  _\<username\>_@_\<domainName\>_.
 
-    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y, a continuación, escriba el número de teléfono. El formato del número de teléfono *\<number\>* @ *\<domainName\>* es (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para enrutar al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y, a continuación, escriba el número de teléfono. El formato del número de teléfono es  *\<number\>*@*\<domainName\>* (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para enrutar al autor de la llamada al destino correcto.
 
 27. En **Paso 6 Configurar una cola**, en **Seleccionar la cola que recibirá las llamadas**, seleccione la cola donde desea que los autores de las llamadas se mantengan en espera hasta que un agente esté disponible.
 
@@ -204,7 +204,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 1. Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
 
-2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
 
 3. Cree el mensaje de bienvenida que se reproducirá y guárdelo en una variable. En la línea de comandos, ejecute:
 
@@ -227,7 +227,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
    ```
 
-    Para obtener más información sobre cómo crear la cola, [vea New-CsRgsQueue](/powershell/module/skype/new-csrgsqueue?view=skype-ps).
+    Para obtener más información sobre cómo crear la cola, [consulte New-CsRgsQueue](/powershell/module/skype/new-csrgsqueue?view=skype-ps).
 
 5. Defina la acción que se ejecutará cuando un flujo de trabajo se abra en horas de trabajo y guárdela en una variable. En la línea de comandos, ejecute:
 
@@ -244,7 +244,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. Para definir horas laborables y vacaciones, créelas antes de crear o modificar el flujo de trabajo. Para obtener más información, vea [(Opcional) Definir](optional-define-response-group-business-hours.md) horario comercial del grupo de respuesta en Skype Empresarial y [(opcional) Definir](optional-define-response-group-holiday-sets.md)conjuntos de días festivos de grupo de respuesta en Skype Empresarial .
+6. Para definir horas laborables y vacaciones, créelas antes de crear o modificar el flujo de trabajo. Para obtener más información, vea [(Opcional) Definir](optional-define-response-group-business-hours.md) horario comercial del grupo de respuesta en Skype Empresarial y (opcional) Definir conjuntos de días festivos de grupo de [respuesta en Skype Empresarial](optional-define-response-group-holiday-sets.md).
 
 7. Si desea tener mensajes para las llamadas que se reciben en un horario no laborable o en época de vacaciones, use el cmdlet **New-CsRgsPrompt** para definir el mensaje y el cmdlet **New-CsRgsCallAction** para definir la acción que se ejecutará después del mensaje. Para obtener más información, [vea New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps) y [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps).
 
@@ -382,7 +382,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 5. En el campo de búsqueda **Seleccionar un servicio** escriba total o parcialmente el nombre del servicio de **ApplicationServer** que hospeda el flujo de trabajo que desea crear o modificar. En la lista de resultados que aparece, haga clic en el servicio que desea y en **Aceptar**.
 
     > [!NOTE]
-    > Se abre la Herramienta de configuración de grupo de respuesta. También puede abrir la Herramienta de configuración de grupo de respuesta directamente desde un explorador web escribiendo la siguiente dirección URL: https:// \<webPoolFqdn\> /RgsConfig.
+    > Se abre la Herramienta de configuración de grupo de respuesta. También puede abrir la Herramienta de configuración de grupo de respuesta directamente desde un explorador web escribiendo la siguiente dirección URL: https://\<webPoolFqdn\>/RgsConfig.
 
 6. Haga una de las acciones siguientes:
 
@@ -398,7 +398,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 8. Para permitir que los usuarios federados puedan llamar al grupo, active la casilla **Habilitar para federación**. También debe tener una directiva de acceso externo que se aplique a la aplicación grupo de respuesta configurada para la federación.
 
     > [!NOTE]
-    > La directiva de acceso externo global se aplica a la aplicación grupo de respuesta. Puede configurar la directiva global para la federación de grupos de respuesta mediante Skype Empresarial Server Panel de control o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Tenga en cuenta que la configuración de directiva global se aplicará a todos los usuarios a menos que estén asignados a un sitio o a una directiva de usuario. Por lo tanto, antes de modificar este parámetro de los grupos de respuesta, asegurese de que la configuración de federación cumple con los requisitos de su organización. Para más información sobre cómo se aplican las directivas a los usuarios, vea [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obtener más información sobre la configuración de federación, **consulte Set-CsExternalAccessPolicy** en la documentación.
+    > La directiva de acceso externo global se aplica a la aplicación grupo de respuesta. Puede configurar la directiva global para la federación de grupos de respuesta mediante el Panel de control de Skype Empresarial Server o mediante el cmdlet **Set-CsExternalAccessPolicy** para establecer el parámetro EnableOutsideAccess en True. Tenga en cuenta que la configuración de directiva global se aplicará a todos los usuarios a menos que estén asignados a un sitio o a una directiva de usuario. Por lo tanto, antes de modificar este parámetro de los grupos de respuesta, asegurese de que la configuración de federación cumple con los requisitos de su organización. Para más información sobre cómo se aplican las directivas a los usuarios, vea [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Para obtener más información sobre la configuración de federación, **consulte Set-CsExternalAccessPolicy** en la documentación.
 
     > [!NOTE]
     > Los usuarios hospedados en Skype Empresarial Online no pueden realizar llamadas a grupos de respuesta hospedados en una implementación local. Esto ocurre tanto en implementaciones híbridas como en los casos en que una implementación local está federada con una Skype Empresarial online.
@@ -413,7 +413,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 11. En **Nombre para mostrar**, escriba el nombre que desea mostrar para el flujo de trabajo (por ejemplo, Grupo de respuesta IVR de ventas).
 
     > [!NOTE]
-    > No incluya los caracteres \<" or "\> " " en el nombre para mostrar. No use los siguientes nombres para mostrar porque están reservados: **Observador de presencia de RGS** o **Servicio de anuncio**.
+    > No incluya los caracteres "\<" or "\>" en el nombre para mostrar. No use los siguientes nombres para mostrar porque están reservados: **Observador de presencia de RGS** o **Servicio de anuncio**.
 
 12. En **Número de teléfono**, especifique el URI de línea para el grupo de respuesta (por ejemplo, +14255550165).
 
@@ -454,13 +454,13 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
     - Para utilizar una programación predefinida de horario de oficina, haga clic en **Utilizar una programación preestablecida** y, a continuación, seleccione el horario que desea utilizar en la lista desplegable.
 
       > [!NOTE]
-      > Debe haber definido al menos una programación preestablecida con anterioridad para poder seleccionar esta opción. Las programaciones preestablecidas se definen mediante el cmdlet **New-CsRgsHoursOfBusiness.** Para obtener más información, [vea (Opcional) Define Response Group business hours in Skype Empresarial](optional-define-response-group-business-hours.md). Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
+      > Debe haber definido al menos una programación preestablecida con anterioridad para poder seleccionar esta opción. Las programaciones preestablecidas se definen mediante el cmdlet **New-CsRgsHoursOfBusiness** . Para obtener más información, [vea (Opcional) Define Response Group business hours in Skype Empresarial](optional-define-response-group-business-hours.md). Cuando selecciona una programación preestablecida, **Día**, **Abrir** y **Cerrar** se rellenan automáticamente con los días y las horas en los que el grupo de respuesta se encuentra disponible.
 
     - Para utilizar una programación personalizada que se aplique únicamente a este flujo de trabajo, haga clic en **Usar programación personalizada**.
 
 20. Si está creando una programación personalizada para este flujo de trabajo, haga clic en las casillas correspondientes a los días de la semana durante los que se encuentra disponible el grupo de respuesta.
 
-21. Si va a crear una programación personalizada, escriba las **horas** **de** apertura y cierre cuando el grupo de respuesta estará disponible.
+21. Si va a crear una programación personalizada, escriba **las horas de** **apertura y** cierre cuando el grupo de respuesta estará disponible.
 
      > [!NOTE]
      > Las horas en **Abrir** y **Cerrar** deben mostrarse en formato de 24 horas. Por ejemplo, si en su oficina se trabaja de 9 a 5 y se cierra al mediodía para el almuerzo, el horario de oficina queda representado como **Abrir** 9:00, **Cerrar** 12:00, **Abrir** 13:00 y **Cerrar** 17:00.
@@ -481,16 +481,16 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
     - Para desconectar la llamada, haga clic en **Desconectar llamada**.
 
-    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y, a continuación, escriba la dirección del correo de voz. El formato de la dirección de correo de voz *\<username\>* @ *\<domainname\>* es (por ejemplo, bob@contoso.com).
+    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y, a continuación, escriba la dirección del correo de voz. El formato de la dirección de correo de voz es  *\<username\>*@*\<domainname\>* (por ejemplo, bob@contoso.com).
 
-    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI de SIP** y, a continuación, escriba la dirección de un usuario. El formato de la dirección de usuario es _\<username\>_ @ _\<domainname\>_ .
+    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI de SIP** y, a continuación, escriba la dirección de un usuario. El formato de la dirección de usuario es  _\<username\>_@_\<domainname\>_.
 
-    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y, a continuación, escriba el número de teléfono. El formato del número de teléfono *\<number\>* @ *\<domainname\>* es (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para enrutar al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y, a continuación, escriba el número de teléfono. El formato del número de teléfono es  *\<number\>*@*\<domainname\>* (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para enrutar al autor de la llamada al destino correcto.
 
 24. En **Paso 5 Especificar días festivos**, haga clic en las casillas para uno o más conjuntos de días festivos que definan los días en los que el grupo de respuesta no esté laboralmente disponible.
 
     > [!NOTE]
-    > Debe definir las vacaciones y los conjuntos de vacaciones antes de configurar el flujo de trabajo. Use los cmdlets **New-CsRgsHoliday** y **New-CsRgsHolidaySet** para definir las vacaciones y los conjuntos de vacaciones. Para obtener más información, [vea (Opcional) Definir](optional-define-response-group-holiday-sets.md)conjuntos de días festivos de grupo de respuesta en Skype Empresarial .
+    > Debe definir las vacaciones y los conjuntos de vacaciones antes de configurar el flujo de trabajo. Use los cmdlets **New-CsRgsHoliday** y **New-CsRgsHolidaySet** para definir las vacaciones y los conjuntos de vacaciones. Para obtener más información, [vea (Opcional) Definir](optional-define-response-group-holiday-sets.md) conjuntos de días festivos de grupo de respuesta en Skype Empresarial.
 
 25. Si desea reproducir un mensaje durante los días festivos, active la casilla **Reproducir un mensaje durante los días festivos** y, a continuación, especifique el mensaje que se va a reproducir mediante uno de los siguientes procedimientos:
 
@@ -508,11 +508,11 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
     - Para desconectar la llamada, haga clic en **Desconectar llamada**.
 
-    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y, a continuación, escriba la dirección del correo de voz. El formato de la dirección de correo de voz *\<username\>* @ *\<domainname\>* es (por ejemplo, bob@contoso.com).
+    - Para desviar la llamada al correo de voz, haga clic en **Desviar a correo de voz** y, a continuación, escriba la dirección del correo de voz. El formato de la dirección de correo de voz es  *\<username\>*@*\<domainname\>* (por ejemplo, bob@contoso.com).
 
-    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI de SIP** y, a continuación, escriba la dirección de un usuario. El formato de la dirección de usuario es _\<username\>_ @ _\<domainname\>_ .
+    - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI de SIP** y, a continuación, escriba la dirección de un usuario. El formato de la dirección de usuario es  _\<username\>_@_\<domainname\>_.
 
-    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y, a continuación, escriba el número de teléfono. El formato del número de teléfono *\<number\>* @ *\<domainname\>* es (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para enrutar al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y, a continuación, escriba el número de teléfono. El formato del número de teléfono es  *\<number\>*@*\<domainname\>* (por ejemplo, +14255550121@contoso.com). El nombre de dominio se usa para enrutar al autor de la llamada al destino correcto.
 
 27. En el **Paso 6 Configurar música en espera**, elija lo que desea que escuchen los autores de las llamadas mientras esperan a un agente siguiendo uno de estos procedimientos:
 
@@ -564,7 +564,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
 1.  Inicie sesión como miembro del grupo RTCUniversalServerAdmins, o como miembro de un rol administrativo predefinido que admita el grupo de respuesta.
 
-2. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** todos los programas **,** haga clic en **Skype Empresarial 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
+2. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
 
 3. Recupere el nombre del servicio para el servicio del grupo de respuesta y asígnelo a una variable. En la línea de comandos, ejecute:
 
@@ -644,7 +644,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
      > [!NOTE]
      > Todos los usuarios designados como administradores de un grupo de respuesta deben tener asignado el rol CsResponseGroupManager. De lo contrario, no podrán administrar los grupos de respuesta.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [(Opcional) Definir conjuntos de días festivos de grupo de respuesta Skype Empresarial](optional-define-response-group-holiday-sets.md)
 

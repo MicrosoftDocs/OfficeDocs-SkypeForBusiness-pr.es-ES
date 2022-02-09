@@ -1,8 +1,8 @@
 ---
 title: 'Business Server 2015: Configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente'
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: Obtenga información sobre cómo configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype Empresarial Server 2015.
-ms.openlocfilehash: 4a214dedacdd38b875db93dc5e2b13f35d640169
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b98f4c49cb3643faa6d6bbe7b899634a4ef6b159
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829454"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397463"
 ---
 # <a name="business-server-2015-configure-high-availability-and-disaster-recovery-for-persistent-chat-server"></a>Business Server 2015: Configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente
  
@@ -102,7 +102,7 @@ Con SQL Server Management Studio, conéctese a la instancia de base de datos de 
 
 Realice los siguientes pasos para que el trasvase de registros continúe si la base de datos de chat persistente principal se ha con error en su base de datos reflejada.
   
-1. Conmutar manualmente la conmutación por error de la base de datos de chat persistente principal al reflejo. Para ello, use el Shell Skype Empresarial Server administración y el cmdlet **Invoke-CsDatabaseFailover.**
+1. Conmutar manualmente la conmutación por error de la base de datos de chat persistente principal al reflejo. Para ello, use el Shell Skype Empresarial Server administración y el cmdlet **Invoke-CsDatabaseFailover**.
     
 2. Con el SQL Server Management Studio, conéctese a la instancia reflejada del servidor de chat persistente principal.
     
@@ -146,13 +146,13 @@ Realice los siguientes pasos para que el trasvase de registros continúe si la b
     
 19. En la nueva ventana de consulta, en **Propiedades de base de datos**, haga clic en **Aceptar** para comenzar el proceso de configuración.
     
-20. Seleccione y ejecute la primera mitad de la consulta (vea el paso 18) hasta la línea: -- End: Script que se ejecutará \* \* \* \* \* \* en Primary: \* \* \* \* \* \* .
+20. Seleccione y ejecute la primera mitad de la consulta (vea el paso 18) hasta la línea: -- \*\*\*\*\*\*End: Script que se ejecutará en Primary: . \*\*\*\*\*\*
     
     > [!IMPORTANT]
     > La ejecución manual de este script es necesaria porque SQL Server Management Studio no admite varias bases de datos principales en una SQL Server de trasvase de registros. 
   
 21. Seleccione **Cancelar** para cerrar el panel de configuración de envío del archivo de registro y establecer una configuración de trabajo que implemente correctamente el envío del archivo de registro a la base de datos principal y reflejada (en caso de conmutación por error).
     
-22. Conmutación por recuperación manual de la base de datos de chat persistente principal a la principal. Para ello, use el Shell Skype Empresarial Server administración y el cmdlet **Invoke-CsDatabaseFailover.**
+22. Conmutación por recuperación manual de la base de datos de chat persistente principal a la principal. Para ello, use el Shell Skype Empresarial Server administración y el cmdlet **Invoke-CsDatabaseFailover**.
     
 

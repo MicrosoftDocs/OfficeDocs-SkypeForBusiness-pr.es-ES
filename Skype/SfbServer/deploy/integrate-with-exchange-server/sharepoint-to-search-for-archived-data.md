@@ -1,8 +1,8 @@
 ---
 title: Configurar SharePoint server para buscar datos Skype Empresarial archivados
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,20 +14,20 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 'Resumen: configure SharePoint Server para buscar datos archivados por Exchange Server y Skype Empresarial Server.'
-ms.openlocfilehash: d3274c29ccdae22a382d045fc6db3ee448223332
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0f2954d5a9875e3009733fc6d869ca57afbf086b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839632"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397299"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Configurar SharePoint server para buscar datos Skype Empresarial archivados
  
 **Resumen:** Configure SharePoint Server para buscar datos archivados por Exchange Server 2016 o Exchange Server 2013 y Skype Empresarial Server.
   
-Una de las principales ventajas de almacenar transcripciones de mensajería instantánea y conferencia web en Exchange Server en lugar de Skype Empresarial Server es que almacenar datos en la misma ubicación permite a los administradores usar una sola herramienta para buscar datos Exchange archivados o datos Skype Empresarial Server archivados. Dado que todos los datos se almacenan en el mismo lugar (Exchange) cualquier herramienta que pueda buscar datos Exchange también puede buscar datos Skype Empresarial Server archivados.
+Una de las principales ventajas de almacenar transcripciones de mensajería instantánea y conferencia web en Exchange Server en lugar de Skype Empresarial Server es que almacenar datos en la misma ubicación permite a los administradores usar una sola herramienta para buscar datos Exchange archivados o archivados Skype Empresarial Server datos. Dado que todos los datos se almacenan en el mismo lugar (Exchange) cualquier herramienta que pueda buscar datos Exchange también puede buscar datos Skype Empresarial Server archivados.
   
-Una herramienta que facilita la búsqueda de datos archivados es Microsoft SharePoint Server 2013. Si desea usar SharePoint para buscar datos Skype Empresarial Server, primero debe completar todos los pasos necesarios para configurar el archivado Exchange en Skype Empresarial Server. Después de Exchange Server y Skype Empresarial Server se hayan integrado correctamente, debe instalar la API administrada Exchange [servicios web](https://go.microsoft.com/fwlink/p/?LinkId=258305) en el servidor SharePoint web. El archivo descargado (EWSManagedAPI.msi) se puede guardar en cualquier carpeta de su SharePoint Server.
+Una herramienta que facilita la búsqueda de datos archivados es Microsoft SharePoint Server 2013. Si desea usar SharePoint para buscar datos Skype Empresarial Server, primero debe completar todos los pasos necesarios para configurar el archivado Exchange en Skype Empresarial Server. Después Exchange Server y Skype Empresarial Server se hayan integrado correctamente, debe instalar la API administrada de Exchange [Web Services](https://go.microsoft.com/fwlink/p/?LinkId=258305) en el servidor SharePoint web. El archivo descargado (EWSManagedAPI.msi) se puede guardar en cualquier carpeta de su SharePoint Server.
   
 Una vez se ha descargado el archivo, complete el siguiente procedimiento en SharePoint Server:
   
@@ -63,9 +63,9 @@ $service.Update()
 ```
 
 > [!NOTE]
-> Asegúrese de usar el URI para su servicio de detección automática. No use el URI de ejemplo https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 . 
+> Asegúrese de usar el URI para su servicio de detección automática. No use el URI de ejemplo https://autodiscover.litwareinc.com/autodiscover/metadata/json/1. 
   
-Después de crear el emisor de tokens y configurar el servicio de token, ejecute estos comandos, asegurándose de sustituir la dirección URL del sitio de SharePoint por la dirección URL de `http://atl-sharepoint-001` ejemplo:
+Después de crear el emisor de tokens y configurar el servicio de token, ejecute estos comandos, asegurándose de sustituir la dirección URL del sitio SharePoint por la dirección URL de ejemplo`http://atl-sharepoint-001`:
   
 ```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
@@ -110,13 +110,13 @@ Cuando el nuevo sitio esté listo, el siguiente paso es configurar Exchange Serv
     
 2. En la página Aplicación de servicio de búsqueda haga clic en **Orígenes de resultados** y, a continuación, en **Nuevo origen de resultados**.
     
-3. En el panel **Nuevo origen de resultados** escriba un nombre para el nuevo origen de resultados (por ejemplo, **Microsoft Exchange**) en el cuadro **Nombre**. Seleccione **Exchange** como el protocolo de origen de resultados y, a continuación, escriba la dirección URL de origen de servicios web para el servidor Exchange en el cuadro dirección **URL** Exchange origen. La dirección URL de origen debería ser similar a la siguiente:
+3. En el panel **Nuevo origen de resultados** escriba un nombre para el nuevo origen de resultados (por ejemplo, **Microsoft Exchange**) en el cuadro **Nombre**. Seleccione **Exchange** como el protocolo de origen de resultados **y, a** continuación, escriba la dirección URL de origen de servicios web para el servidor Exchange en el cuadro dirección **URL** Exchange origen. La dirección URL de origen debería ser similar a la siguiente:
     
     `https://atl-exchange-001.litwareinc.com/ews/exchange.asmx`
     
 4. Asegúrese de que la opción **Usar Autodetección** no está seleccionada y, a continuación, haga clic en **Aceptar**.
     
-Por último, cree un nuevo caso de exhibición de documentos electrónicos y un nuevo conjunto de exhibición de documentos electrónicos completando el siguiente procedimiento desde el sitio de detección de SharePoint (por ejemplo, `https://atl-sharepoint-001/sites/discovery` ):
+Por último, cree un nuevo caso de exhibición de documentos electrónicos y un nuevo conjunto de exhibición de documentos electrónicos completando el siguiente procedimiento desde el sitio de detección SharePoint (por ejemplo, `https://atl-sharepoint-001/sites/discovery`):
   
 1. En la página de contenido del sitio haga clic en **Crear un nuevo caso**.
     
@@ -128,9 +128,9 @@ Por último, cree un nuevo caso de exhibición de documentos electrónicos y un 
     
 4. Cuando aparezca la página de conjunto de eDiscovery, haga clic en **nuevo elemento** debajo de la opción de **identidad y preservar: conjuntos de detección**.
     
-5. En la página de nuevo: conjunto de detección, escriba el alias de correo electrónico del usuario en el cuadro de **nombre de conjunto de detección**. Escriba **eDiscovery \\ Lync** _ en el cuadro _ *Filter** y, a continuación, haga clic en Agregar **administrar &amp; orígenes**.
+5. En la página de nuevo: conjunto de detección, escriba el alias de correo electrónico del usuario en el cuadro de **nombre de conjunto de detección**. Escriba **eDiscovery Lync\\** _ en el cuadro _ *Filter** y, a continuación, haga clic **en Agregar administrar &amp; orígenes**.
     
-6. En la página Agregar administrar orígenes, escriba el alias de correo electrónico del usuario en el &amp; primer cuadro de texto en **Buzones**. Haga clic en el icono de buzón de marca que se encuentra junto al libro de texto para comprobar que SharePoint se puede conectar al buzón especificado.
+6. En la página Agregar &amp; administrar orígenes, escriba el alias de correo electrónico del usuario en el primer cuadro de texto en **Buzones**. Haga clic en el icono de buzón de marca que se encuentra junto al libro de texto para comprobar que SharePoint se puede conectar al buzón especificado.
     
 7. Haga clic en **Aceptar**.
     

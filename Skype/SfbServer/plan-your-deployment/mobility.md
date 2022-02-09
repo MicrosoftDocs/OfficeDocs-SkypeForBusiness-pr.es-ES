@@ -1,8 +1,8 @@
 ---
 title: Plan for Mobility for Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/17/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Planee la implementación de Mobility for Skype Empresarial Server.
-ms.openlocfilehash: a323e9e68ee78af1ea80979c12eb6b0a66906041
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a86f9ed4c3c41a1afa60a3f8181307589b0ce678
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852944"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400284"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Plan for Mobility for Skype Empresarial Server
  
@@ -27,7 +27,7 @@ Planee la implementación de Mobility for Skype Empresarial Server.
   
 Con Skype Empresarial Server, puede implementar la característica Movilidad para proporcionar Skype Empresarial Server funcionalidad en dispositivos móviles. En este artículo se proporcionan detalles sobre la característica Mobility y se le ayuda a planear la implementación.
   
-La característica de movilidad para Skype Empresarial Server es capaz de admitir clientes móviles para Skype Empresarial, así como clientes de Lync que se remontan a 2010. Una vez implementado, los usuarios pueden conectarse a la implementación de Skype Empresarial Server con dispositivos móviles compatibles con iOS, Android y Windows Phone para aprovechar varias características diferentes, incluidas Telefonía IP empresarial características. Hemos incluido una lista parcial a continuación y también puedes consultar la comparación de características de cliente de escritorio para obtener [Skype Empresarial](clients-and-devices/desktop-feature-comparison.md) más información:
+La característica de movilidad para Skype Empresarial Server es capaz de admitir clientes móviles para Skype Empresarial, así como clientes de Lync que se remontan a 2010. Una vez implementado, los usuarios pueden conectarse a la implementación de Skype Empresarial Server con dispositivos móviles compatibles con iOS, Android y Windows Phone para aprovechar varias características diferentes, incluidas Telefonía IP empresarial características. Hemos incluido una lista parcial a continuación y también puedes consultar la comparación de características de cliente de escritorio [para obtener Skype Empresarial](clients-and-devices/desktop-feature-comparison.md) más información:
   
 - Enviar y recibir mensajes
     
@@ -56,7 +56,7 @@ Todo esto se logra a través de la API web de comunicaciones unificadas o UCWA. 
 > [!NOTE]
 > La compatibilidad con MCX (Mobility Service) para clientes móviles heredados ya no está disponible en Skype Empresarial Server 2019. Todos los clientes Skype Empresarial móviles ya usan la API web de comunicaciones unificadas (UCWA) para admitir mensajería instantánea (MI), presencia y contactos. Los usuarios con clientes heredados que usen MCX tendrán que actualizar a un cliente actual.
   
-Es importante tener en cuenta que, aunque todas estas características están disponibles una vez que se implementó Mobility, pueden funcionar de forma un poco diferente en algunos dispositivos. Tenemos un sitio web que analiza qué características funcionan en qué dispositivos, en Comparación de características de cliente móvil [para Skype Empresarial](clients-and-devices/mobile-feature-comparison.md). También tenemos información excelente sobre dispositivos y sos en [Plan for clients and devices](clients-and-devices/clients-and-devices.md).
+Es importante tener en cuenta que, aunque todas estas características están disponibles una vez que se implementó Mobility, pueden funcionar de forma un poco diferente en algunos dispositivos. Tenemos un sitio web que analiza qué características funcionan en qué dispositivos, en Comparación de características de [cliente móvil para Skype Empresarial](clients-and-devices/mobile-feature-comparison.md). También tenemos información excelente sobre dispositivos y sos en [Plan for clients and devices](clients-and-devices/clients-and-devices.md).
   
 La movilidad usa la característica Detección automática, que permite Skype Empresarial Server los clientes localizar automáticamente los servicios web de Skype Empresarial Server sin que los usuarios necesiten escribir ninguna dirección URL (ni siquiera necesitarán conocerlos). Si necesita solucionar algún problema, aún se admite la entrada manual de direcciones URL.
   
@@ -123,7 +123,7 @@ Tenemos las siguientes aplicaciones Skype Empresarial Server compatibles para la
     
 Debe poder usar esta funcionalidad con servidores perimetrales Skype Empresarial Server servidores perimetrales o servidores perimetrales de Lync Server 2013.
   
-El servicio de movilidad se admite en servidores front-end cuando se asocia con el rol servidor de mediación, con dos interfaces de red, pero debe tomar los pasos adecuados para configurar dichas interfaces. Deberá asignar direcciones IP a la interfaz específica que se comunicará como servidor de mediación y la interfaz IP de red que se comunicará como servidor front-end. Puede hacerlo en el Generador de topologías seleccionando la dirección IP correcta para cada servicio, en lugar de usar la selección predeterminada Usar todas las **direcciones IP configuradas.**
+El servicio de movilidad se admite en servidores front-end cuando se asocia con el rol servidor de mediación, con dos interfaces de red, pero debe tomar los pasos adecuados para configurar dichas interfaces. Deberá asignar direcciones IP a la interfaz específica que se comunicará como servidor de mediación y la interfaz IP de red que se comunicará como servidor front-end. Puede hacerlo en el Generador de topologías seleccionando la dirección IP correcta para cada servicio, en lugar de usar la selección predeterminada Usar todas las **direcciones IP configuradas** .
   
 ## <a name="technical-requirements"></a>Requisitos técnicos
 <a name="TechRequirements"> </a>
@@ -201,13 +201,13 @@ Si usa una topología para Skype Empresarial Server que incluya un HLB para el g
   
 Si tiene previsto admitir Skype Empresarial móviles solo a través de la red Wi-Fi interna, debe configurar las VIP internas de servicios web para el origen, tal como se describe para vip de servicios web externos. En esta situación, debe usar la afinidad source_addr (o TCP) para los VIP de servicios web internos en el HLB.
   
-Para obtener información detallada sobre todo esto, revise los [requisitos](network-requirements/load-balancing.md) de equilibrio de carga Skype Empresarial documentación.
+Para obtener información detallada sobre todo esto, consulte la [documentación sobre](network-requirements/load-balancing.md) los requisitos de equilibrio de carga Skype Empresarial de carga.
   
 ### <a name="reverse-proxy-requirements"></a>Requisitos de proxy inverso
 
 Para admitir la detección automática para Skype Empresarial móviles, deberá actualizar la regla de publicación actual de la siguiente manera:
   
-- Si decide actualizar las listas de SAN en los certificados de proxy inverso y usa HTTPS para la solicitud de servicio de detección automática inicial, debe actualizar la regla de publicación web para lyncdiscover. \<sipdomain\> . Esto suele combinarse con el rul de publicación de la dirección URL de servicios web externos en el grupo de servidores front-end.
+- Si decide actualizar las listas de SAN en los certificados de proxy inverso y usa HTTPS para la solicitud de servicio de detección automática inicial, debe actualizar la regla de publicación web para lyncdiscover.\<sipdomain\> Esto suele combinarse con el rul de publicación de la dirección URL de servicios web externos en el grupo de servidores front-end.
     
 - Si ha decidido usar HTTP para la solicitud de servicio de detección automática inicial para evitar tener que actualizar la lista de SAN para los certificados de proxy inverso (lo que no recomendamos), deberá crear una nueva regla de publicación web para el puerto HTTP/TCP 80, si aún no existe. Si esa regla existe, actualícese para incluir una detección de lync.\<sipdomain\> entrada.
     
@@ -222,9 +222,9 @@ Se recomienda encarecidamente que use la detección automática. Requerirá la c
   
 Puede usar la configuración manual si es necesario. Los usuarios tendrán que especificar estas direcciones URL en sus dispositivos móviles:
   
-- **https:// \<ExtPoolFQDN\> /Autodiscover/autodiscoverservice.svc/Root** para el acceso externo.
+- **\<ExtPoolFQDN\>https:///Autodiscover/autodiscoverservice.svc/Root** para el acceso externo.
     
-- **https:// \<IntPoolFQDN\> /Autodiscover/autodiscoverservice.svc/Root** para el acceso interno.
+- **\<IntPoolFQDN\>https:///Autodiscover/autodiscoverservice.svc/Root** para el acceso interno.
     
 De nuevo, se recomienda usar la detección automática. Es posible que la configuración manual sea útil para solucionar problemas.
   
@@ -237,7 +237,7 @@ Las notificaciones push se usan para aplicaciones móviles que admiten esta func
   
 ### <a name="do-you-want-all-your-users-accessing-all-mobility-features-or-do-you-want-to-specify-the-users-who-can-access-these-features-instead"></a>¿Desea que todos los usuarios tengan acceso a todas las características de Mobility o desea especificar los usuarios que pueden acceder a estas características en su lugar?
 
-Tenemos una tabla para ayudar con algunas de las características que están disponibles para todos los usuarios, y si están establecidas de forma predeterminada o no. Para obtener una lista completa, revise [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+Tenemos una tabla para ayudar con algunas de las características que están disponibles para todos los usuarios, y si están establecidas de forma predeterminada o no. Para obtener una lista completa, consulte [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
   
 > [!NOTE]
 > Los ámbitos de todas estas características son Global/Site/User. 

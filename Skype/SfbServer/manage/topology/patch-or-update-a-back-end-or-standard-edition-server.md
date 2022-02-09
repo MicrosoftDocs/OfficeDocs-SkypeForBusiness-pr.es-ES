@@ -1,8 +1,8 @@
 ---
 title: Revisión o actualización de un servidor back-end o Standard Edition servidor en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 'Resumen: obtenga información sobre cómo instalar una actualización o revisión en un servidor back-end en Skype Empresarial Server.'
-ms.openlocfilehash: 55d81e97712abe51544a854bf175348526e9f29c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 69c597aae05950d38b78c8e84d46165a68fd8959
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858217"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397664"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>Revisión o actualización de un servidor back-end o Standard Edition servidor en Skype Empresarial Server
  
@@ -33,7 +33,7 @@ Si un servidor back-end está inactivo al menos 30 minutos mientras se actualiza
     
 2. Descargue la actualización extráigala en el disco duro local.
     
-3. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** en Todos los **programas,** haga clic en **Skype Empresarial** y, a continuación, haga clic Skype Empresarial Server Shell **de administración.**
+3. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** haga clic en **Skype Empresarial** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
     
 4. Detenga Skype Empresarial Server servicios. En la línea de comandos, escriba:
     
@@ -51,7 +51,7 @@ Si un servidor back-end está inactivo al menos 30 minutos mientras se actualiza
     
 7. Instale el paquete.
     
-8. Inicie el Shell Skype Empresarial Server administración: haga clic en Inicio **,** en Todos los **programas,** haga clic en **Skype Empresarial** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
+8. Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** haga clic en **Skype Empresarial** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**.
     
 9. Detenga Skype Empresarial Server servicios de nuevo para capturar ensamblados -d de caché global de ensamblados (GAC). En la línea de comandos, escriba:
     

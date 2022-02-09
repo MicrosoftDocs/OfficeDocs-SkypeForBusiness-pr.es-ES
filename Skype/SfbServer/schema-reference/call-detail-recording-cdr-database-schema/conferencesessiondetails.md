@@ -1,8 +1,8 @@
 ---
 title: Vista ConferenceSessionDetails
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: La vista ConferenceSessionDetails almacena información sobre sesiones con varios participantes. Cada registro representa una sesión de conferencia, que podría ser la sesión con Foco o la sesión con un servidor de conferencia específico. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: f35a815743dcfb8dba3d2a69943c9c5c42344a86
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 902cf40a042d51d6765a0653da439b1bc1a86478
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849673"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400864"
 ---
 # <a name="conferencesessiondetails-view"></a>Vista ConferenceSessionDetails
  

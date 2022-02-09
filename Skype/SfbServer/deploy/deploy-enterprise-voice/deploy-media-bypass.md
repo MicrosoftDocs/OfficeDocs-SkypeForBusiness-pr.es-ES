@@ -1,8 +1,8 @@
 ---
 title: Implementar la omisión de medios en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,30 +16,30 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: Implementar la omisión de medios en Skype Empresarial Server Telefonía IP empresarial. Incluye requisitos previos y lista de comprobación del proceso de implementación.
-ms.openlocfilehash: c5699d1116faa6bc3b8ae0178ec617bcf06c1ef4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d1815b0ec76bed3aa0da9be52a2eeceb0c29b49d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834698"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400714"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>Implementar la omisión de medios en Skype Empresarial Server
  
 Implementar la omisión de medios en Skype Empresarial Server Telefonía IP empresarial. Incluye requisitos previos y lista de comprobación del proceso de implementación.
   
-En este tema se supone que ya ha publicado y configurado al menos uno o más servidores de mediación y al menos un punto de puerta de enlace para proporcionar conectividad RTC. Para obtener más información sobre estas tareas, vea [Deploy a Mediation Server in Topology Builder in Skype Empresarial Server](deploy-a-mediation-server.md) y Define a gateway in [Topology Builder in Skype Empresarial Server](define-a-gateway.md).
+En este tema se supone que ya ha publicado y configurado al menos uno o más servidores de mediación y al menos un punto de puerta de enlace para proporcionar conectividad RTC. Para obtener más información sobre estas tareas, vea [Deploy a Mediation Server in Topology Builder in Skype Empresarial Server](deploy-a-mediation-server.md) y [Define a gateway in Topology Builder in Skype Empresarial Server](define-a-gateway.md).
   
  Si el sistema del mismo nivel al que se conecta es el SBC de un proveedor de enlace troncal SIP, asegúrese de que el proveedor es un proveedor cualificado y de que el proveedor admite la omisión de medios. Por ejemplo, muchos proveedores de servicios de enlace troncal SIP solo permiten a sus SCN recibir tráfico del servidor de mediación. De ser así, el desvío no debe habilitarse para el tronco en cuestión. Además, no puede habilitar el desvío de medios a menos que la organización revele sus direcciones IP de redes internas al proveedor de servicios de enlace troncal SIP.
   
 > [!NOTE]
-> El desvío de medios no interactuará con todas las puertas de enlace RTC, los sistemas IP-PBX y las SBC. Microsoft ha probado un conjunto de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con IP-PBX de Cisco. La omisión de medios solo se admite con productos y versiones enumerados en el Programa de interoperabilidad abierta de comunicaciones unificadas [: Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). 
+> El desvío de medios no interactuará con todas las puertas de enlace RTC, los sistemas IP-PBX y las SBC. Microsoft ha probado un conjunto de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con IP-PBX de Cisco. La omisión de medios solo se admite con productos y versiones enumerados en el Programa de interoperabilidad abierta de comunicaciones [unificadas : Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). 
   
 Si ya ha configurado el control de admisión de llamadas, otra característica avanzada de Telefonía IP empresarial, tenga en cuenta que la reserva de ancho de banda que realiza dicho control no se aplica a ninguna llamada en la que se emplee el desvío de medios. Primero se comprueba si se usa el desvío de medios; si se usa, no se emplea el control de admisión de llamadas; la comprobación para control de admisión de llamadas se realiza si la comprobación de desvío de medios no funciona correctamente. Por lo tanto, las dos características se excluyen mutuamente en cualquier llamada que se enrute a la RTC. Se aplica esta lógica porque el desvío de medios da por supuesto que no hay restricciones de ancho de banda entre los extremos de los medios en una llamada; el desvío de medios no puede realizarse en vínculos que tengan un ancho de banda restringido. Como consecuencia, solo se aplica una de las posibilidades siguientes a una llamada de RTC: a) el medio omite el servidor de mediación y el control de admisión de llamadas no reserva ancho de banda para la llamada; b) el control de admisión de llamadas aplica reserva de ancho de banda para la llamada y el servidor de mediación que interviene en la llamada procesa los medios.
   
 Además de habilitar la omisión de medios para conexiones troncales individuales asociadas a un mismo nivel, también debe habilitar la omisión de medios globalmente. La configuración de omisión de medios global puede especificar que siempre se intenta omitir medios para llamadas a la RTC o que la omisión de medios se usa mediante la asignación de subredes a sitios de red y regiones de red, similar a lo que se hace mediante el control de admisión de llamadas, otra característica de voz avanzada. Cuando el desvío de medios y el control de admisión de llamadas están habilitados, la región de red, el sitio de red y la información de subred que se especifica para el control de admisión de llamadas se usan automáticamente al determinar si se debe usar la omisión de medios. Esto significa que no se puede especificar que siempre se intenta omitir medios para las llamadas a la RTC cuando se habilita el control de admisión de llamadas.
   
 > [!NOTE]
-> Cuando se usan estos pasos para configurar el desvío de medios, se da por hecho que existe una buena conectividad entre los clientes y el nivel de servidor de mediación (por ejemplo, una puerta de enlace RTC, un sistema PBX IP o un SBC en un proveedor de enlace troncal SIP). En caso de que haya limitaciones de ancho de banda en el vínculo, no podrá efectuarse el desvío de medios en la llamada. La omisión de medios no interactuará con todas las puertas de enlace RTC, los sistemas IP-PBX y las SBC. Microsoft ha probado un conjunto de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con IP-PBX de Cisco. La omisión de medios solo se admite con productos y versiones enumerados en el Programa de interoperabilidad abierta de comunicaciones unificadas [: Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). 
+> Cuando se usan estos pasos para configurar el desvío de medios, se da por hecho que existe una buena conectividad entre los clientes y el nivel de servidor de mediación (por ejemplo, una puerta de enlace RTC, un sistema PBX IP o un SBC en un proveedor de enlace troncal SIP). En caso de que haya limitaciones de ancho de banda en el vínculo, no podrá efectuarse el desvío de medios en la llamada. La omisión de medios no interactuará con todas las puertas de enlace RTC, los sistemas IP-PBX y las SBC. Microsoft ha probado un conjunto de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con IP-PBX de Cisco. La omisión de medios solo se admite con productos y versiones enumerados en el Programa de interoperabilidad abierta de comunicaciones [unificadas : Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). 
   
 ## <a name="deployment-process-for-media-bypass"></a>Proceso de implementación para la omisión de medios
 

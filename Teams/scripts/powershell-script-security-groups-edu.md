@@ -1,7 +1,7 @@
 ---
 title: 'Ejemplo de script de PowerShell: crear grupos de seguridad para profesores y alumnos en la escuela'
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 66255e4a8f26109a331446adb099054b1453c3c6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 79b73ac2001acfbb7424250c8c6c118808250459
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769858"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398394"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Ejemplo de script de PowerShell: crear grupos de seguridad para profesores y alumnos en la escuela
 
-Use este script de PowerShell para crear los grupos de seguridad que necesita para administrar Microsoft Teams directivas de su centro educativo. La [característica de asignación](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) de directivas a grupos Teams permite asignar una directiva a un grupo de usuarios, como un grupo de seguridad. La asignación de directiva se extiende a los miembros del grupo en función de las reglas de prioridad. A medida que se agregan o se eliminan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan correspondientemente.
+Use este script de PowerShell para crear los grupos de seguridad que necesita para administrar Microsoft Teams directivas de su centro educativo. La [característica de asignación](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) de directivas a grupos Teams le permite asignar una directiva a un grupo de usuarios, como un grupo de seguridad. La asignación de directiva se extiende a los miembros del grupo en función de las reglas de prioridad. A medida que se agregan o se eliminan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan correspondientemente.
 
-Este script de PowerShell crea dos grupos de seguridad, uno para docentes y docentes y otro para los alumnos de su escuela, según el tipo de licencia. A continuación, puede asignar directivas a los grupos de seguridad que ha creado. Para obtener más información sobre el uso de este script, vea Asignar directivas a grandes [conjuntos de usuarios de su centro educativo.](../batch-group-policy-assignment-edu.md)
+Este script de PowerShell crea dos grupos de seguridad, uno para docentes y docentes y otro para los alumnos de su escuela, según el tipo de licencia. A continuación, puede asignar directivas a los grupos de seguridad que ha creado. Para obtener más información sobre el uso de este script, vea Asignar directivas a grandes [conjuntos de usuarios de su centro educativo](../batch-group-policy-assignment-edu.md).
 
 Este script hace lo siguiente:
 
@@ -39,13 +39,13 @@ Este script hace lo siguiente:
 Tendrá que ejecutar este script periódicamente para mantener los grupos de seguridad actualizados y actualizados.
 
 > [!IMPORTANT]
-> Es importante comprender las reglas de [prioridad](../assign-policies-users-and-groups.md#precedence-rules) y la clasificación de las asignaciones de [grupo](../assign-policies-users-and-groups.md#group-assignment-ranking) al asignar directivas a grupos. Asegúrese de leer y comprender los conceptos de Lo que necesita saber sobre la asignación de directivas [a grupos.](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)
+> Es importante comprender las reglas de [prioridad](../assign-policies-users-and-groups.md#precedence-rules) y la clasificación de las asignaciones de [grupo](../assign-policies-users-and-groups.md#group-assignment-ranking) al asignar directivas a grupos. Asegúrese de leer y comprender los conceptos de [Lo que necesita saber sobre](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups) la asignación de directivas a grupos.
 
 ## <a name="before-you-start"></a>Antes de empezar
 
-Descargue e instale el [Skype Empresarial de PowerShell en](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)línea y, a continuación, reinicie el equipo si se le solicita.
+Descargue e instale el [módulo Skype Empresarial PowerShell en](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell) línea y, a continuación, reinicie el equipo si se le solicita.
 
-Para obtener más información, vea Administrar Skype Empresarial En línea [con Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) y [Teams de PowerShell.](../teams-powershell-overview.md)
+Para obtener más información, vea [Administrar Skype Empresarial Online con Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) y [Teams información general de PowerShell](../teams-powershell-overview.md).
 
 
 ## <a name="sample-script"></a>Ejemplo de script

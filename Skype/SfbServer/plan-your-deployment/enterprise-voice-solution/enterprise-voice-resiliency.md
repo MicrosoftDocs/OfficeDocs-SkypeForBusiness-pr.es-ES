@@ -1,8 +1,8 @@
 ---
 title: Planear la Telefonía IP empresarial resistencia en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Obtenga información sobre cómo admitir la resistencia de voz en Skype Empresarial Server Telefonía IP empresarial, tanto en sitios centrales como en sitios de sucursal. Las opciones de sitio de sucursal incluyen la implementación de aplicaciones de sucursal con funciones de supervivencia o servidores de sucursal con funciones de supervivencia.
-ms.openlocfilehash: a2dc18817f28595cdfdf65be35df85d0ad93239b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fa68fda07e104477bf0e8a089b45adf641ef4ed9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851884"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400294"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planear la Telefonía IP empresarial resistencia en Skype Empresarial Server
 
@@ -76,7 +76,7 @@ A continuación se muestran los requisitos y las recomendaciones para implementa
 
 - Cada sitio central debe contener un grupo de registrador formado por uno o varios registradores.
 
-- Cada grupo de registradores debe tener equilibrio de carga mediante el equilibrio de carga DNS, el equilibrio de carga de hardware o ambos. Para obtener información detallada acerca de la planeación de la configuración de equilibrio de carga, vea [Requisitos de](../../plan-your-deployment/network-requirements/load-balancing.md)equilibrio de carga para Skype Empresarial .
+- Cada grupo de registradores debe tener equilibrio de carga mediante el equilibrio de carga DNS, el equilibrio de carga de hardware o ambos. Para obtener información detallada sobre cómo planear la configuración del equilibrio de carga, vea Requisitos de equilibrio de [carga para Skype Empresarial](../../plan-your-deployment/network-requirements/load-balancing.md).
 
 - Cada usuario debe estar asignado a un grupo de registradores principal mediante el cmdlet **set-CsUser** del Shell de administración de Skype Empresarial Server o el panel de control Skype Empresarial Server administración.
 
@@ -282,12 +282,12 @@ Se recomienda crear una directiva de voz sobre protocolo de Internet (VoIP) inde
 > [!IMPORTANT]
 > Al crear una ruta de copia de seguridad de sucursal, se recomienda agregar dos registros de uso de teléfono RTC a la directiva de usuario de sucursal y asignar rutas independientes a cada una de ellas. La primera ruta, o principal, dirigiría llamadas a la puerta de enlace asociada con la aplicación de sucursal con funciones de supervivencia (SBA) o el servidor de sucursal; la segunda ruta, o copia de seguridad, dirigiría llamadas a la puerta de enlace en el sitio central. Al dirigir llamadas, el SBA o el servidor de sucursal intentarán todas las rutas asignadas al primer registro de uso de RTC antes de intentar el segundo registro de uso.
 
-Para ayudar a garantizar que las llamadas entrantes a los usuarios del sitio de sucursal lleguen a esos usuarios cuando la puerta de enlace de sucursal o el componente Windows del sitio de aplicación de sucursal con funciones de supervivencia no están disponibles (lo que ocurriría, por ejemplo, si la aplicación de sucursal con funciones de supervivencia o la puerta de enlace de sucursal estuvieran sin mantenimiento), cree una ruta de conmutación por error en la puerta de enlace (o trabaje con su proveedor de marcado directo hacia dentro (DID) para redirigir las llamadas entrantes al grupo de registradores de copia de seguridad en el grupo central de registradores sitio. A partir de ahí, las llamadas se enrutarán a través del vínculo WAN a los usuarios de sucursal. Asegúrese de que la ruta traduce números para cumplir con la puerta de enlace RTC u otros formatos de número de teléfono aceptados del mismo nivel del tronco. Para obtener más información sobre cómo crear una ruta de conmutación por error, vea [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route). También cree planes de marcado de nivel de servicio para el tronco asociado con la puerta de enlace en el sitio de sucursal para normalizar las llamadas entrantes. Si tiene dos aplicaciones de sucursal con funciones de supervivencia en un sitio de sucursal, puede crear un plan de marcado de nivel de sitio para ambos a menos que sea necesario un plan de nivel de servicio independiente para cada uno.
+Para ayudar a garantizar que las llamadas entrantes a los usuarios del sitio de sucursal lleguen a esos usuarios cuando la puerta de enlace de sucursal o el componente Windows del sitio de aplicación de sucursal con funciones de supervivencia no están disponibles (lo que ocurriría, por ejemplo, si la aplicación de sucursal con funciones de supervivencia o la puerta de enlace de sucursal estuvieran sin mantenimiento), cree una ruta de conmutación por error en la puerta de enlace (o trabaje con su proveedor de marcado directo interno (DID) para redirigir las llamadas entrantes al grupo de registradores de copia de seguridad en el sitio central. A partir de ahí, las llamadas se enrutarán a través del vínculo WAN a los usuarios de sucursal. Asegúrese de que la ruta traduce números para cumplir con la puerta de enlace RTC u otros formatos de número de teléfono aceptados del mismo nivel del tronco. Para obtener más información sobre cómo crear una ruta de conmutación por error, consulte [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route). También cree planes de marcado de nivel de servicio para el tronco asociado con la puerta de enlace en el sitio de sucursal para normalizar las llamadas entrantes. Si tiene dos aplicaciones de sucursal con funciones de supervivencia en un sitio de sucursal, puede crear un plan de marcado de nivel de sitio para ambos a menos que sea necesario un plan de nivel de servicio independiente para cada uno.
 
 > [!NOTE]
 > Para tener en cuenta el consumo de recursos del sitio central por parte de los usuarios del sitio de sucursal que dependen del sitio central para la presencia, conferencia o conmutación por error, se recomienda tener en cuenta cada usuario del sitio de sucursal como si el usuario estuviera registrado en el sitio central. Actualmente no hay límites en el número de usuarios del sitio de sucursal, incluidos los usuarios registrados con una aplicación de sucursal con funciones de supervivencia.
 
-También se recomienda crear un plan de marcado de nivel de usuario y una directiva de voz y, a continuación, asignarlo a los usuarios del sitio de sucursal. Para obtener más información, consulte [Create or modify a dial plan in Skype Empresarial Server](../../deploy/deploy-enterprise-voice/dial-plans.md) y Create the [VoIP Routing Policy for Branch Users](/previous-versions/office/lync-server-2013/lync-server-2013-create-the-voip-routing-policy-for-branch-users) en la documentación sobre implementación.
+También se recomienda crear un plan de marcado de nivel de usuario y una directiva de voz y, a continuación, asignarlo a los usuarios del sitio de sucursal. Para obtener más información, consulte [Create or modify a dial plan in Skype Empresarial Server](../../deploy/deploy-enterprise-voice/dial-plans.md) y [Create the VoIP Routing Policy for Branch Users](/previous-versions/office/lync-server-2013/lync-server-2013-create-the-voip-routing-policy-for-branch-users) en la documentación sobre implementación.
 
 #### <a name="routing-extension-numbers"></a>Números de extensión de enrutamiento
 
@@ -314,13 +314,13 @@ En este escenario, si el tronco del mismo nivel que controla el rerouting a la R
 
 |**Descripción**|**Patrón de coincidencia**|**Conversión**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|
-|Quita extensión de números de teléfono con extensiones  <br/> |^\+(\d \* ); ext=(\d \* )$  <br/> |+$1  <br/> |+14255550123;ext=10001 se traduce a +14255550123  <br/> |
+|Quita extensión de números de teléfono con extensiones  <br/> |^\+(\d\*); ext=(\d\*)$  <br/> |+$1  <br/> |+14255550123;ext=10001 se traduce a +14255550123  <br/> |
 
 Independientemente de si un vínculo WAN está disponible o no, si su organización no tiene números DID configurados para usuarios individuales y el URI de línea para un usuario contiene el número de teléfono de la organización y el número de extensión único del usuario, debe configurar el URI de línea de número de teléfono de la organización con un número al que se pueda acceder mediante la puerta de enlace RTC o del mismo nivel del tronco en el sitio de sucursal. También debe configurar el URI de línea de número de teléfono de la organización para incluir su propia extensión única para que las llamadas se enrute a ese número.
 
 #### <a name="preparing-for-voice-mail-survivability"></a>Preparación para la supervivencia del correo de voz
 
-Exchange La mensajería unificada (UM) normalmente se instala solo en un sitio central y no en los sitios de sucursal. Un autor de la llamada debe poder dejar un mensaje de correo de voz, incluso si el vínculo WAN entre el sitio de sucursal y el sitio central no está disponible. Como resultado, la configuración del URI de línea para el número de teléfono Operador automático de mensajería unificada de Exchange que proporciona correo de voz para los usuarios del sitio de sucursal requiere consideraciones especiales, además de las reglas de directiva de voz, plan de marcado y normalización aplicables a ese número de correo de voz.
+Exchange mensajería unificada (UM) suele instalarse solo en un sitio central y no en sitios de sucursal. Un autor de la llamada debe poder dejar un mensaje de correo de voz, incluso si el vínculo WAN entre el sitio de sucursal y el sitio central no está disponible. Como resultado, la configuración del URI de línea para el número de teléfono Operador automático de mensajería unificada de Exchange que proporciona correo de voz para los usuarios del sitio de sucursal requiere consideraciones especiales, además de las reglas de directiva de voz, plan de marcado y normalización aplicables a ese número de correo de voz.
 
 Los dispositivos de sucursal con funciones de supervivencia (SBA) y los servidores de sucursal con funciones de supervivencia proporcionan la supervivencia del correo de voz para los usuarios de sucursales durante una interrupción de WAN. En concreto, si usa una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia y la WAN deja de estar disponible, el SBA o el servidor de sucursal con funciones de supervivencia redirige las llamadas sin respuesta a través de la RTC Exchange la mensajería unificada en el sitio central. Con un SBA o un servidor de sucursal con funciones de supervivencia, los usuarios también pueden recuperar mensajes de correo de voz a través de la RTC durante una interrupción de WAN. Por último, durante una interrupción de WAN, la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia pone en cola las notificaciones de llamadas perdidas y, a continuación, las carga en el servidor de mensajería unificada Exchange cuando se restaura la WAN. Para asegurarse de que el reenvía de correo de voz sea resistente, asegúrese de agregar una entrada para el FQDN del grupo de sitios central y una entrada para el FQDN del servidor perimetral al archivo hosts del servidor de sucursal con funciones de supervivencia. De lo contrario, la resolución dns puede hacer tiempo de espera si no tiene un servidor DNS en el sitio de sucursal.
 
@@ -328,9 +328,9 @@ Se recomiendan las siguientes configuraciones para la supervivencia del correo d
 
 - Un administrador de Exchange microsoft debe configurar Exchange um Operador automático (AA) solo para aceptar mensajes. Esta configuración deshabilita todas las demás funciones genéricas, como la transferencia a un usuario o la transferencia a un operador, y limita la AA a aceptar solo mensajes. Como alternativa, el Exchange puede usar un AA genérico o un AA personalizado para enrutar la llamada a un operador.
 
-- El administrador de Skype Empresarial Server debe tomar el número de teléfono AA y usar ese número de teléfono como el número de operador automático de mensajería unificada de **exchange** en la configuración de rerouting de correo de voz para la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal.
+- El administrador Skype Empresarial Server debe tomar el número de teléfono AA y usar ese número de teléfono como el número de operador automático de mensajería unificada de **exchange** en la configuración de rerouting de correo de voz para la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal.
 
-- El administrador de Skype Empresarial Server debe obtener el número de teléfono de acceso  de suscriptor de mensajería unificada de Exchange y usar ese número como número de acceso de suscriptor en la configuración de reobrución de correo de voz para la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia.
+- El administrador de Skype Empresarial Server debe obtener el número de teléfono de acceso de suscriptor de mensajería unificada de Exchange y usarlo como número de  acceso de suscriptor en la configuración de reoje de correo de voz para la aplicación de sucursal con funciones de supervivencia o el servidor de sucursal con funciones de supervivencia.
 
 - El Skype Empresarial Server debe configurar la mensajería unificada Exchange para que solo se asocie un plan de marcado a todos los usuarios de sucursal que necesiten acceso al correo de voz durante una interrupción de wan.
 
@@ -361,11 +361,11 @@ Por último, los usuarios del sitio de sucursal deben configurarse para Telefon�
 
 #### <a name="requirements-for-survivable-branch-servers"></a>Requisitos para servidores de sucursal con funciones de supervivencia
 
-Los requisitos para los servidores de sucursal con funciones de supervivencia son los mismos que para un servidor front-end. Para obtener más información, vea [Server requirements for Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Los requisitos para los servidores de sucursal con funciones de supervivencia son los mismos que para un servidor front-end. Para obtener más información, vea [Requisitos del servidor para Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
 
 #### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Requisitos para Full-Scale Skype Empresarial Server Branch-Site implementaciones
 
-Para obtener más información, consulte [Server requirements for Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) en la documentación de planeación.
+Para obtener más información, consulte [Server requirements for Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) en la documentación sobre planeación.
 
 ### <a name="example-configuring-a-failover-route"></a>Ejemplo: configurar una ruta de conmutación por error
 
@@ -384,9 +384,9 @@ Para obtener más información, consulte [Server requirements for Skype Empresar
 
 | **Nombre de ruta**             | **Patrón de número** | **Uso de teléfono**         | **Tronco**                                 | **Puerta de enlace**                                     |
 |:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
-| Ruta local de Redmond  <br/> | ^\+1(425           | 206                     | 253)(\d {7} )$  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
-| Ruta local de Dallas  <br/>  | ^\+1(972           | 214                     | 469)(\d {7} )$  <br/>                       | Local  <br/>                                    |
-| Ruta universal  <br/>     | ^\+? (\d \* ) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
-| Ruta de usuarios de Dallas  <br/>  | ^\+? (\d \* ) $  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
+| Ruta local de Redmond  <br/> | ^\+1(425           | 206                     | 253)(\d{7})$  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
+| Ruta local de Dallas  <br/>  | ^\+1(972           | 214                     | 469)(\d{7})$  <br/>                       | Local  <br/>                                    |
+| Ruta universal  <br/>     | ^\+? (\d\*) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
+| Ruta de usuarios de Dallas  <br/>  | ^\+? (\d\*) $  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
 
 En la Tabla 1, se agrega el uso de teléfono GlobalPSTNHopoff después del uso de teléfono DallasUsers en la directiva de llamada de Dallas. Esto permite que las llamadas con la directiva de llamada de Dallas usen las rutas configuradas para el uso de teléfono GlobalPSTNHopoff en caso de que una ruta para el uso telefónico DallasUsers no esté disponible.

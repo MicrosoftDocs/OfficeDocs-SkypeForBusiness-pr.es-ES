@@ -1,8 +1,8 @@
 ---
 title: Usuarios Ver estado de PIN
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e4b8cf70-b8c3-499d-b0f9-7019d9b6aae4
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: b9a0ff1ac7b4c4b5e9f21204d84a6b9930659c5a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 729939147899ff4aadca8b3753d6efcbb3c981b2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852294"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399174"
 ---
 # <a name="users-view-pin-status"></a>Usuarios: Ver estado de PIN
  

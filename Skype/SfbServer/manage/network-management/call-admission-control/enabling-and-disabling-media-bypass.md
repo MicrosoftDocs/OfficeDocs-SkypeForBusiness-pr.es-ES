@@ -1,8 +1,8 @@
 ---
 title: Habilitar y deshabilitar la omisión de medios
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Use los procedimientos de este artículo para habilitar o deshabilitar la omisión de medios mediante el panel de control Skype Empresarial Server medios.
-ms.openlocfilehash: e8465d376e32d677d52cb0bdb57e86d9aa9fac44
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d312e74c796b9e68558447c5a56fc199e8920d6a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852004"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396492"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Habilitar y deshabilitar la omisión de medios en Skype Empresarial Server
 
@@ -35,7 +35,7 @@ Puede habilitar y configurar la omisión de medios desde Skype Empresarial Serve
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Global**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en **Global**.
 
 4.  En la página **Global**, haga clic en la configuración **Global**. En todos los casos hay solo una configuración y siempre se llama Global.
 
@@ -69,7 +69,7 @@ La configuración de omisión de medios se aplica globalmente a Skype Empresaria
 
 2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic **en Global**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en **Global**.
 
 4.  En la página **Global**, haga clic en la configuración **Global**. En todos los casos hay solo una configuración y siempre se llama Global.
 

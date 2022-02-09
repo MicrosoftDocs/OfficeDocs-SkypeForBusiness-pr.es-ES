@@ -1,7 +1,7 @@
 ---
 title: Configurar y administrar la moderación del canal
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: jotaing
 ms.topic: article
@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo configurar canales para la moderación en Microsoft Teams, incluido cómo agregar miembros del equipo como moderadores de canal.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dbfdec9af83bda6c0b14a6371e0694d68e25d1d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9fd15b6d7eeecf0f1b7e6ec25e33236f50fd83b3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829570"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400854"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurar y administrar la moderación del canal en Microsoft Teams
 
@@ -60,9 +60,9 @@ En este escenario, el profesor permite a sus asistentes de enseñanza moderar el
 
 ## <a name="manage-channel-moderation"></a>Administrar la moderación del canal
 
-En Teams, vaya al canal, haga clic en **Más opciones ...**  >  **Administrar canal**. Desde aquí puede activar y desactivar la moderación, agregar miembros del equipo como moderadores y establecer preferencias.
+En Teams, vaya al canal, haga clic en **Más opciones ...** >  **Administrar canal**. Desde aquí puede activar y desactivar la moderación, agregar miembros del equipo como moderadores y establecer preferencias.
 
-La moderación del canal es una configuración por canal. No hay ninguna configuración de nivel de inquilino para la moderación del canal. Si desea que agreguemos una configuración de moderación de canal de nivel de inquilino, peticiónla en [Teams UserVoice](https://microsoftteams.uservoice.com/).
+La moderación del canal es una configuración por canal. No hay ninguna configuración de nivel de inquilino para la moderación del canal. Si quiere que agreguemos una configuración de moderación de canal de nivel de inquilino, peticiónla en [Teams UserVoice](https://microsoftteams.uservoice.com/).
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
@@ -72,15 +72,15 @@ La moderación del canal es una configuración por canal. No hay ninguna configu
 
 De forma predeterminada, la moderación está desactivada, lo que significa que la configuración habitual del canal se aplica a los propietarios del equipo y a los miembros del equipo. Por ejemplo, puede restringir las publicaciones nuevas solo a los miembros del equipo o permitir que todos, incluidos los invitados, inicien nuevas publicaciones.
 
-Para activar la moderación de un canal, en **Moderación del canal,** haga clic **en Activar**. Cuando la moderación del canal está en, solo los moderadores pueden iniciar nuevas publicaciones. 
+Para activar la moderación de un canal, en **Moderación del canal**, haga clic **en Activar**. Cuando la moderación del canal está en, solo los moderadores pueden iniciar nuevas publicaciones. 
 
 ### <a name="add-or-remove-channel-moderators"></a>Agregar o quitar moderadores de canal
 
-En **Quién ¿están los moderadores?**, haga clic en Administrar y, a continuación, agregue o quite miembros del equipo como moderadores.  Los propietarios y moderadores del equipo pueden agregar y quitar otros moderadores.  
+En **Quién ¿están los moderadores?**, haga clic en Administrar **y, a** continuación, agregue o quite miembros del equipo como moderadores. Los propietarios y moderadores del equipo pueden agregar y quitar otros moderadores.  
 
 ### <a name="set-team-member-permissions"></a>Establecer permisos de miembro del equipo
 
-En **Permisos de miembro del equipo,** active las casillas situadas junto a las actividades que desea permitir.
+En **Permisos de miembro del equipo**, active las casillas situadas junto a las actividades que desea permitir.
 
 ## <a name="related-topics"></a>Temas relacionados
 

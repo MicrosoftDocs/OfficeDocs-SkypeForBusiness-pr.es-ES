@@ -1,8 +1,8 @@
 ---
 title: Supervisión de archivos de registro de seguimiento de solicitudes iis en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 description: 'Summary: Learn about the Mobility Service (Mcx) in Skype Empresarial Server 2015 support for legacy clients.'
-ms.openlocfilehash: 2b571ceb583f7a42c6f41fba3c868fbe1628631a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a2331d4f18488171b1862e53f06f4910b463ccb5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857557"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396562"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>Supervisión de archivos de registro de seguimiento de solicitudes iis en Skype Empresarial Server 2015
  
@@ -38,4 +38,4 @@ Para desactivar el seguimiento de solicitudes de IIS para todo un servidor, en l
 %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 ```
 
-Para obtener más información sobre **el comando httpLogging,** consulte [la referencia de comando](/previous-versions/iis/settings-schema/aa347466(v=vs.90)).
+Para obtener más información sobre **el comando httpLogging** , consulte [la referencia de comandos](/previous-versions/iis/settings-schema/aa347466(v=vs.90)).

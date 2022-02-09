@@ -1,8 +1,8 @@
 ---
 title: Cómo configurar usuarios y opciones de prueba de nodo de monitor
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: Cómo configurar cuentas de usuario de prueba y opciones de nodo de monitor para Skype Empresarial Server transacciones sintéticas.
-ms.openlocfilehash: e21842550da1a5a96c96cef5ac7e8c728777799b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 503d7f0fd23d3fbbacd0510654d156b07e2ebd7e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849763"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409943"
 ---
 # <a name="how-to-configure-watcher-node-test-users-and-settings"></a>Cómo configurar usuarios y opciones de prueba de nodo de monitor
  
@@ -93,7 +93,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
 
 El comando anterior producirá un error si no ha instalado los Skype Empresarial Server principales y la base de datos RTCLocal en el equipo del nodo de monitor. 
   
-Para probar varias directivas de voz, puede crear una prueba extendida para cada directiva mediante el cmdlet **New-CsExtendedTest.** Los usuarios proporcionados deben configurarse con las directivas de voz deseadas. Las pruebas extendidas se pasan al cmdlet **New-CsWatcherNodeConfiguration** mediante delimitadores de coma, como:
+Para probar varias directivas de voz, puede crear una prueba extendida para cada directiva mediante el cmdlet **New-CsExtendedTest** . Los usuarios proporcionados deben configurarse con las directivas de voz deseadas. Las pruebas extendidas se pasan al cmdlet **New-CsWatcherNodeConfiguration** mediante delimitadores de coma, como:
   
 -ExtendedTests @{Add=$pstnTest 1,$pstnTest 2,$pstnTest 3}
   
@@ -272,7 +272,7 @@ La mayoría de las transacciones sintéticas se pueden ejecutar en un nodo de mo
   
 ### <a name="data-conferencing-synthetic-transaction"></a>Transacción sintética de conferencia de datos
 
-Si el equipo del nodo de monitor se encuentra fuera de la red perimetral, probablemente no podrá ejecutar la transacción sintética de conferencia de datos a menos que deshabilite primero la configuración de proxy del explorador de Internet de Windows® para la cuenta de servicio de red siguiendo los pasos siguientes:
+Si el equipo de nodo de monitor se encuentra fuera de la red perimetral, probablemente no podrá ejecutar la transacción sintética de conferencia de datos a menos que deshabilite primero la configuración del proxy del explorador de Internet Explorer® de Windows para la cuenta de servicio de red siguiendo los pasos siguientes:
   
 1. En el equipo nodo de supervisor, haga clic en **Inicio**, **Todos los programas**, **Accesorios**, haga clic con el botón secundario en **Símbolo del sistema** y haga clic en **Ejecutar como administrador**.
     
@@ -294,7 +294,7 @@ Si el equipo del nodo de monitor se encuentra fuera de la red perimetral, probab
       
     Este mensaje indica que ha deshabilitado la configuración de proxy de Internet Explorer para la cuenta de servicio de red.
   
-### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange Transacción sintética de mensajería unificada
+### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange transacción sintética de mensajería unificada
 
 La Exchange sintética de mensajería unificada (UM) comprueba que los usuarios de prueba pueden conectarse a cuentas de correo de voz que se Exchange.
   
@@ -370,7 +370,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
 En este ejemplo, una regla Skype Empresarial Server debe existir para enrutar los mensajes de litwareinc.com a una puerta de enlace XMPP.
 
 > [!NOTE]
-> Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype Empresarial Server 2015, pero ya no se admiten en Skype Empresarial Server 2019. Para obtener más información, [vea Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md).
+> Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype Empresarial Server 2015, pero ya no se admiten en Skype Empresarial Server 2019. Para obtener más información, consulte [Migración de federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md).
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Transacción sintética del servidor de interoperabilidad de vídeo (VIS)
 
@@ -378,7 +378,7 @@ La transacción sintética del servidor de interoperabilidad de vídeo (VIS) req
   
 Para instalar VISSTSupportPackage.msi asegúrese de que las dependencias (en Requisitos del sistema) del msi ya están instaladas. Ejecute VISSTSupportPackage.msi para realizar una instalación sencilla. El .msi instala todos los archivos en la siguiente ruta de acceso: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
   
-Para obtener más información sobre cómo ejecutar la transacción sintética vis, consulte la documentación del cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV.](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV)
+Para obtener más información sobre cómo ejecutar la transacción sintética vis, consulte la documentación del cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV) .
   
 ## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>Cambiar la frecuencia de ejecución para transacciones sintéticas
 <a name="special_synthetictrans"> </a>
@@ -452,4 +452,4 @@ Puede ver estos archivos mediante Windows Internet Explorer, Microsoft Visual St
 Las transacciones sintéticas que se ejecutan desde System Center Operations Manager generarán automáticamente estos archivos de registro en caso de errores. Estos registros no se generarán si se produce un error en la ejecución Skype Empresarial Server PowerShell pueda cargar y ejecutar la transacción sintética. 
   
 > [!IMPORTANT]
-> De forma predeterminada, Skype Empresarial Server archivos de registro en una carpeta que no se comparte. Para que estos registros estén fácilmente accesibles, debe compartir esta carpeta. Por ejemplo: \\ atl-watcher-001.litwareinc.com\WatcherNode.
+> De forma predeterminada, Skype Empresarial Server archivos de registro en una carpeta que no se comparte. Para que estos registros estén fácilmente accesibles, debe compartir esta carpeta. Por ejemplo: \\atl-watcher-001.litwareinc.com\WatcherNode.

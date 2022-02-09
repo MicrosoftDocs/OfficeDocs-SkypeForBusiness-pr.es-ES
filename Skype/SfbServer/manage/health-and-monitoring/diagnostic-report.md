@@ -1,8 +1,8 @@
 ---
 title: Informe de diagnóstico en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Summary: Learn about the Diagnostic Report in Skype Empresarial Server.'
-ms.openlocfilehash: 6b04dfd74e13568e6d22448ad9160a874dd6f79b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9ab417619828f4c48695ce19d68a5d1bc0f91171
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855537"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397784"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico en Skype Empresarial Server
  
@@ -33,11 +33,11 @@ El informe de diagnóstico proporciona información de diagnóstico y solución 
     
 ## <a name="accessing-the-diagnostic-report"></a>Acceso al informe de diagnóstico
 
-Para obtener acceso al informe de diagnóstico, haga clic en la métrica Informe de diagnóstico (detalle) en el Informe de detalles de sesión punto [a punto](peer-to-peer-session-detail-report.md) en Skype Empresarial Server o en el Informe de detalles de conferencia.
+Para obtener acceso al informe de diagnóstico, haga clic en la métrica Informe de diagnóstico (detalle) en el Informe de detalles de sesión punto a [punto en Skype Empresarial Server](peer-to-peer-session-detail-report.md) o en el Informe de detalles de conferencia.
   
 ## <a name="filters"></a>Filtros
 
-Ninguna. No se puede filtrar el informe de diagnóstico.
+Ninguno. No se puede filtrar el informe de diagnóstico.
   
 ## <a name="metrics"></a>Métricas
 

@@ -1,8 +1,8 @@
 ---
 title: Configurar la integración entre las Skype Empresarial Server locales y Outlook Web App
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/7/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Resumen: integrar Skype Empresarial Server y Outlook Web App.'
-ms.openlocfilehash: cebb8fed6b87dac6ec2c981730d303994c952741
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0284fee227d9adf5560b5f65e56d71c1d46fac0c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853684"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397296"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurar la integración entre las Skype Empresarial Server locales y Outlook Web App
 
@@ -37,7 +37,7 @@ Los clientes que usan implementaciones locales Skype Empresarial Server pueden c
 
 Para integrar las direcciones locales Skype Empresarial Server con Exchange Online, debe configurar un espacio de direcciones SIP compartido. El mismo espacio de direcciones de dominio SIP es compatible tanto con Skype Empresarial Server como con Exchange Online servicio.
 
-Con el Shell de administración de Skype Empresarial Server, configure el servidor perimetral para la federación ejecutando el cmdlet **Set-CSAccessEdgeConfiguration,** con los parámetros que se muestran en el ejemplo siguiente:
+Con el Shell de administración de Skype Empresarial Server, configure el servidor perimetral para la federación ejecutando el cmdlet **Set-CSAccessEdgeConfiguration**, con los parámetros que se muestran en el ejemplo siguiente:
 
 ```powershell
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
@@ -45,11 +45,11 @@ Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 - El parámetro **AllowFederatedUsers** especifica si los usuarios internos pueden comunicarse con usuarios de dominios federados. Esta propiedad también determina si los usuarios internos pueden comunicarse con los usuarios en un escenario de espacio de direcciones SIP compartido con Skype Empresarial Server y Exchange Online.
 
-Para obtener más información acerca del uso Skype Empresarial Server Shell de administración, [vea Skype Empresarial Server Shell de administración](../../manage/management-shell.md).
+Para obtener más información sobre cómo Skype Empresarial Server Shell de administración, [consulte Skype Empresarial Server Shell de administración](../../manage/management-shell.md).
 
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>Configurar un proveedor de hospedaje en el servidor perimetral
 
-Con el Shell de administración de Skype Empresarial Server, configure un proveedor de hospedaje en el servidor perimetral ejecutando el cmdlet **New-CsHostingProvider,** usando los parámetros del ejemplo siguiente:
+Con el Shell de administración de Skype Empresarial Server, configure un proveedor de hospedaje en el servidor perimetral ejecutando el cmdlet **New-CsHostingProvider**, usando los parámetros del ejemplo siguiente:
 
 ```powershell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
@@ -90,7 +90,7 @@ Get-CsHostingProvider -LocalStore
 ```
 Compruebe doblemente si la información mostrada coincide con los cambios confirmados en los pasos anteriores.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Proporcionar Skype Empresarial Server de voz de los usuarios en la mensajería unificada Exchange hospedada](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um)
 

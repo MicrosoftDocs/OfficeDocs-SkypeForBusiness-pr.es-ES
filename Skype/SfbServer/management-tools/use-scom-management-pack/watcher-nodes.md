@@ -1,8 +1,8 @@
 ---
 title: Cómo instalar y configurar nodos de monitor
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2015
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: Describe el proceso para instalar y configurar nodos de monitor para Skype Empresarial Server transacciones sintéticas.
-ms.openlocfilehash: 9b0faf7f449bf75083d3b83e40c7807207ad51a1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 34ab33bb486e3bc9973632c108e6eccf33bec481
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833094"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396683"
 ---
 # <a name="learn-to-install-configure-watcher-nodes"></a>Aprenda a instalar, configurar nodos de monitor
  
@@ -29,7 +29,7 @@ Los nodos de monitor son equipos que ejecutan periódicamente Skype Empresarial 
   
 - **Valor predeterminado** Transacciones sintéticas que se ejecuta un nodo de monitor de forma predeterminada. Al crear un nuevo nodo de monitor, puede especificar qué transacciones sintéticas se ejecutarán en ese nodo. (Ese es el propósito del parámetro Tests usado por el cmdlet New-CsWatcherNodeConfiguration). Si no usa el parámetro Tests cuando se crea el nodo de monitor, ejecutará automáticamente todas las transacciones sintéticas predeterminadas y no ejecutará ninguna de las transacciones sintéticas no predeterminadas. Esto significa, por ejemplo, que el nodo de monitor se configurará para ejecutar la prueba Test-CsAddressBookService, pero no se configurará para ejecutar la Test-CsExumConnectivity prueba.
     
-- **No predeterminado** Pruebas que los nodos de monitor no se ejecutan de forma predeterminada. (Para obtener más información, vea la descripción del tipo Predeterminado). Sin embargo, el nodo de monitor se puede habilitar para ejecutar cualquiera de las transacciones sintéticas no predeterminadas. Puede hacerlo cuando cree el nodo de monitor (mediante el cmdlet New-CsWatcherNodeConfiguration) o en cualquier momento después de que se haya creado el nodo de monitor. Tenga en cuenta que muchas de las transacciones sintéticas no predeterminadas requieren pasos de configuración adicionales. Para obtener más información acerca de estos pasos, vea [Special Setup Instructions for Synthetic Transactions](test-users-and-settings.md#special_synthetictrans).
+- **No predeterminado** Pruebas que los nodos de monitor no se ejecutan de forma predeterminada. (Para obtener más información, vea la descripción del tipo Predeterminado). Sin embargo, el nodo de monitor se puede habilitar para ejecutar cualquiera de las transacciones sintéticas no predeterminadas. Puede hacerlo cuando cree el nodo de monitor (mediante el cmdlet New-CsWatcherNodeConfiguration) o en cualquier momento después de que se haya creado el nodo de monitor. Tenga en cuenta que muchas de las transacciones sintéticas no predeterminadas requieren pasos de configuración adicionales. Para obtener más información acerca de estos pasos, consulte [Special Setup Instructions for Synthetic Transactions](test-users-and-settings.md#special_synthetictrans).
     
 - **Extendido** Un tipo especial de transacción sintética no predeterminada. A diferencia de otras transacciones sintéticas, las pruebas extendidas se pueden ejecutar varias veces durante cada pase. Esto es útil al comprobar el comportamiento, como varias rutas de voz de red telefónica conmutada (RTC) para un grupo de servidores. Puede configurar esto simplemente agregando varias instancias de una prueba extendida a un nodo de monitor.
     
@@ -80,7 +80,7 @@ Los nodos de monitor de Lync Server 2013 pueden implementarse dentro o fuera de 
     
 - Conectividad a Lync Server 2013 dentro de la empresa y a través de redes perimetrales.
     
-Para simplificar la administración, hay diferentes opciones de autenticación disponibles para dentro y fuera de la empresa. Para obtener más información, [vea Configure a Watcher Node to Run Synthetic Transactions](watcher-nodes.md#enable_synthetic_trans).
+Para simplificar la administración, hay diferentes opciones de autenticación disponibles para dentro y fuera de la empresa. Para obtener más información, consulte [Configure a Watcher Node to Run Synthetic Transactions](watcher-nodes.md#enable_synthetic_trans).
   
 Para configurar un equipo para que actúe como nodo de monitor, primero debe completar los siguientes requisitos previos: 
   
@@ -112,7 +112,7 @@ Para instalar los Skype Empresarial Server principales de 2015 y la base de dato
   
 1. En el equipo nodo de supervisor, haga clic en Inicio, Todos los programas, Accesorios, haga clic con el botón secundario en Símbolo del sistema y haga clic en Ejecutar como administrador.
     
-2. En la ventana de consola, escriba el siguiente comando y presione ENTRAR. Asegúrese de escribir la ruta de acceso adecuada a los archivos de instalación de Skype Empresarial Server: D:\Setup.exe /BootstrapLocalMgmtTo comprobar que los componentes principales de Skype Empresarial Server se han instalado correctamente, haga clic en Inicio **,** haga clic en Todos los programas **,** haga clic en **Skype Empresarial Server 2015**, y, a **continuación, haga clic Skype Empresarial Server Shell de administración**. En el Shell Skype Empresarial Server administración, escriba el siguiente comando Windows PowerShell y presione ENTRAR:
+2. En la ventana de consola, escriba el siguiente comando y presione ENTRAR. Asegúrese de escribir la ruta de acceso adecuada a los archivos de instalación de Skype Empresarial Server: D:\Setup.exe /BootstrapLocalMgmtPara comprobar que los componentes principales de Skype Empresarial Server se han instalado correctamente, haga clic en **Inicio, haga** clic en Todos los **programas y haga** clic **en Skype Empresarial Server 2015** y, a continuación, haga clic **Skype Empresarial Server Shell de administración**. En el Shell Skype Empresarial Server administración, escriba el siguiente comando Windows PowerShell y presione ENTRAR:
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration
@@ -145,7 +145,7 @@ Si ve información sobre las directivas de PIN, los componentes principales se h
 
 Al igual que Skype Empresarial Server configuración para notificar alertas de componentes, un nodo de monitor Skype Empresarial Server 2015 requiere System Center archivos de agente de Operations Manager que se instalen. Esto permite ejecutar las transacciones sintéticas y las alertas se notifican al System Center de administración raíz de Operations Manager.
   
-Para instalar los archivos de agente, siga los procedimientos que se indican en [Configure the Skype Empresarial Server computers that will be monitored](configure-computers-to-monitor.md).
+Para instalar los archivos de agente, siga los procedimientos enumerados en [Configurar los Skype Empresarial Server equipos que se supervisarán](configure-computers-to-monitor.md).
   
 ## <a name="configure-a-watcher-node-to-run-synthetic-transactions"></a>Configurar un nodo de monitor para ejecutar transacciones sintéticas
 <a name="enable_synthetic_trans"> </a>
@@ -216,7 +216,7 @@ Para asignar un certificado predeterminado:
 > [!NOTE]
 > Si el botón Ejecutar está deshabilitado, puede que primero necesite hacer clic en Ejecutar en Instalar el almacén de configuración local. 
   
-Realice una de las siguientes acciones:
+Realiza una de las siguientes acciones:
   
 - Si ya tiene un certificado que se puede usar como certificado predeterminado, haga clic en Predeterminado en el Asistente para certificados y, a continuación, haga clic en Asignar. Siga los pasos del Asistente para asignación de certificados para asignar ese certificado.
     

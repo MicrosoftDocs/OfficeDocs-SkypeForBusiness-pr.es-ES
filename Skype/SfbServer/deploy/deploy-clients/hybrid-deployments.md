@@ -1,7 +1,7 @@
 ---
-title: Skype Implementaciones híbridas del sistema de sala
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype implementaciones híbridas del sistema de sala
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Lea este tema para obtener información sobre cómo implementar Skype room system en un entorno híbrido.
-ms.openlocfilehash: caebf77f0ef5abb2b56c64446ad04a052d8f98f9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0592d2cb22eb0a8f34e93dc812f011d13b31a53f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841952"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400766"
 ---
-# <a name="skype-room-system-hybrid-deployments"></a>Skype Implementaciones híbridas del sistema de sala
+# <a name="skype-room-system-hybrid-deployments"></a>Skype implementaciones híbridas del sistema de sala
 
 Lea este tema para obtener información sobre cómo implementar Skype room system en un entorno híbrido.
   
@@ -60,6 +60,6 @@ Para fines ilustrativos, usamos LyncSample.com para el dominio local y LyncSampl
    ```
 
 > [!NOTE]
-> Si ha Skype Empresarial Online en lugar de Skype Empresarial Server en el escenario anterior, después de aprovisionar el buzón de recursos de Exchange, aprovisione una cuenta Skype Empresarial como se describe en Skype Empresarial Online Aprovisionamiento. 
+> Si ha Skype Empresarial Online en lugar de Skype Empresarial Server en el escenario anterior, después de aprovisionar el buzón de recursos de Exchange, aprovisione una cuenta Skype Empresarial como se describe en Skype Empresarial aprovisionamiento en línea. 
   
 

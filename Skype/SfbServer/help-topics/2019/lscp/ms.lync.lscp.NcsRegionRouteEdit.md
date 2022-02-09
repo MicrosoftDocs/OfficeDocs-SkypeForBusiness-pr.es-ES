@@ -1,8 +1,8 @@
 ---
 title: Configurar una ruta de región de red Crear nuevo o editar existente
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? Haga clic en el vínculo de la tarea que desee realizar.
-ms.openlocfilehash: 05b91039aa7c1898d1c49f1b98c689d8f73e78c3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c6d1c6513404990e4ff8c2b9f68d621d5b71e1e1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849293"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401484"
 ---
 # <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>Configurar una ruta de región de red: Crear nuevos o editar los existentes
 

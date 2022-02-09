@@ -1,8 +1,8 @@
 ---
 title: Implementar panel de calidad de llamadas para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumen: obtenga información sobre el proceso de implementación del Panel de calidad de llamadas. Panel de calidad de llamadas es una herramienta para Skype Empresarial Server.'
-ms.openlocfilehash: 87caf5566c509580c211f68b685a868de2d2df58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: be6164c7b73a80c0557ea0814efddf59214a5481
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829924"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396352"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implementar panel de calidad de llamadas para Skype Empresarial Server
  
@@ -28,9 +28,9 @@ ms.locfileid: "60829924"
 
 El Panel de calidad de llamadas (CQD) consta de tres componentes principales:
   
-- **Base de datos de** archivo , donde se replican y almacenan los datos de calidad de la experiencia (QoE).
+- **Base de datos** de archivo, donde se replican y almacenan los datos de calidad de la experiencia (QoE).
     
-- **Cubo**, donde se agregan datos de la base de datos de archivos qoE para un acceso optimizado y rápido.
+- **Cubo**, donde los datos de la base de datos de archivos qoE se agregan para un acceso optimizado y rápido.
     
 - **Portal**, donde los usuarios pueden consultar y visualizar fácilmente los datos de QoE.
     
@@ -68,11 +68,11 @@ La implementación del Panel de calidad de llamadas implica configurar la infrae
     
 6. En la página Configuración de archivo qoE, proporcione la siguiente información:
     
-   - **Métricas de QoE SQL Server: SQL Server** nombre de instancia donde se encuentra la base de datos de métricas de QoE (este será el origen de datos).
+   - **Métricas de QoE SQL Server: SQL Server** de instancia donde se encuentra la base de datos de métricas de QoE (este será el origen de datos).
     
-   - **Nombre de archivo SQL Server QoE:** Este campo es de solo lectura y se fija en el nombre de dominio completo del equipo local. La base de datos de archivo solo se puede instalar en el equipo local.
+   - **Nombre de archivo SQL Server QoE:** este campo es de solo lectura y se fija en el nombre de dominio completo del equipo local. La base de datos de archivo solo se puede instalar en el equipo local.
     
-   - **Instancia de archivo SQL Server QoE:** Un nombre SQL Server instancia local para donde se va a crear la base de datos de archivo. Para usar una instancia SQL Server predeterminada, deje este campo en blanco. Para usar una instancia SQL Server nombre, especifique el nombre de instancia (por ejemplo, el nombre después de " \" ).
+   - **Instancia de archivo SQL Server QoE:** un nombre de instancia SQL Server local para donde se va a crear la base de datos de archivo. Para usar una instancia SQL Server predeterminada, deje este campo en blanco. Para usar una instancia SQL Server nombre, especifique el nombre de instancia (por ejemplo, el nombre después de "\").
     
    - **Base de datos de archivos QoE:** De forma predeterminada, esta opción se establece en "Crear nueva base de datos". Dado que no se admite la actualización de la base de datos de archivo, la única circunstancia en la que se puede usar la opción "Usar base de datos existente" es si la base de datos de archivo existente tiene el mismo esquema que la compilación que se va a instalar.
     
@@ -85,7 +85,7 @@ La implementación del Panel de calidad de llamadas implica configurar la infrae
   
    - **Directorio de archivos de partición:** Ruta de acceso a donde deben colocarse las particiones de la base de datos de archivos qoE. Debe estar en una unidad (HDD3 en la configuración de hardware recomendada) independiente de la unidad del sistema operativo y de SQL de archivos de registro de base de datos. Tenga en cuenta que, dado que los nombres de archivo están fijos en la instalación, para evitar posibles conflictos, se recomienda usar un directorio en blanco sin archivos.
     
-   - **SQL de trabajo del agente: nombre de usuario &amp; Contraseña:** nombre de cuenta de servicio de dominio y contraseña (enmascarada) que se usarán para ejecutar el paso "Datos de archivo qoE" del trabajo del agente de SQL Server (que ejecutará el procedimiento almacenado para capturar datos de la base de datos de métricas de QoE en la base de datos de archivo, por lo que esta cuenta debe tener acceso de lectura a la base de datos de métricas de QoE, tal como se indica en la sección Cuentas. Esta cuenta también debe tener un inicio de sesión en el archivo qoE SQL Server instancia).
+   - usuario del trabajo del agente de **SQL: &amp;** contraseña de nombre de usuario: nombre de cuenta de servicio de dominio y contraseña (enmascarada) que se usarán para ejecutar el paso "Datos de archivo qoE" del trabajo del agente de SQL Server (que ejecutará el procedimiento almacenado para capturar datos de la base de datos de métricas de QoE en la base de datos de archivo, por lo que esta cuenta debe tener acceso de lectura a la base de datos de métricas de QoE, tal como se indica en la sección Cuentas. Esta cuenta también debe tener un inicio de sesión en el archivo qoE SQL Server instancia).
     
      > [!NOTE]
      > La cuenta en la que se ejecuta la instancia de SQL Server, como NT SERVICE\MSSQLSERVER, debe tener acceso o permiso a los directorios anteriores para que la instalación se ejecute correctamente. Para obtener más información, vea [Configure File System Permissions for Motor de base de datos Access](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
@@ -97,11 +97,11 @@ La implementación del Panel de calidad de llamadas implica configurar la infrae
   
 8. En la página Configuración del cubo, proporcione la siguiente información:
     
-   - **Nombre de archivo SQL Server QoE:** Este campo es de solo lectura y se fija en el nombre de dominio completo del equipo local. El cubo solo se puede instalar desde la máquina que tiene la base de datos de archivos qoE (nota. El cubo en sí puede instalarse en un equipo remoto. Vea a continuación)
+   - **Nombre de archivo SQL Server QoE:** este campo es de solo lectura y se fija en el nombre de dominio completo del equipo local. El cubo solo se puede instalar desde la máquina que tiene la base de datos de archivos qoE (nota. El cubo en sí puede instalarse en un equipo remoto. Vea a continuación)
     
-   - **QoE Archive SQL Server Instance:** SQL Server instance name for where the QoE Archive DB is located. Para especificar una instancia SQL Server predeterminada, deje este campo en blanco. Para especificar una instancia SQL Server nombre, escriba el nombre de instancia (por ejemplo, el nombre después de " \" ). Si se seleccionó el componente de archivo qoE para la instalación, este campo se rellenará previamente con el valor proporcionado en la página Configuración de archivo de QoE.
+   - **QoE Archive SQL Server Instance:** SQL Server instance name for where the QoE Archive DB is located. Para especificar una instancia SQL Server predeterminada, deje este campo en blanco. Para especificar una instancia SQL Server nombre, escriba el nombre de instancia (por ejemplo, el nombre después de "\"). Si se seleccionó el componente de archivo qoE para la instalación, este campo se rellenará previamente con el valor proporcionado en la página Configuración de archivo de QoE.
     
-   - **Cube Analysis Server: SQL Server** nombre de instancia de Analysis Service para el lugar donde se va a crear el cubo. Puede ser un equipo diferente, pero el usuario de instalación debe ser miembro de los administradores del servidor de la instancia de SQL Server Analysis Service.
+   - **Cube Analysis Server: SQL Server** nombre de instancia de Analysis Service donde se va a crear el cubo. Puede ser un equipo diferente, pero el usuario de instalación debe ser miembro de los administradores del servidor de la instancia de SQL Server Analysis Service.
     
      > [!NOTE]
      >  Para obtener más información acerca de la configuración de permisos de administrador de Analysis Services Server, vea [Grant Server Administrator Permissions (Analysis Services)](/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance?viewFallbackFrom=sql-server-ver15)
@@ -129,7 +129,7 @@ La implementación del Panel de calidad de llamadas implica configurar la infrae
     
 11. Al hacer clic en siguiente, se realizará la ronda final de validación para asegurarse de que las instancias de SQL Server son accesibles con las credenciales proporcionadas y que IIS está disponible en el equipo. Una vez completada correctamente la validación, el instalador continuará con la instalación. 
     
-Cuando el instalador haya terminado, lo más probable es que el trabajo SQL Server agente esté en curso, realizando la carga inicial de los datos de QoE y el procesamiento del cubo. Según la cantidad de datos de QoE, el portal no tendrá datos disponibles para su visualización todavía. Para comprobar el estado de la carga de datos y el procesamiento del cubo, vaya a  `http://<machinename>/CQD/#/Health` . 
+Cuando el instalador haya terminado, lo más probable es que el trabajo SQL Server agente esté en curso, realizando la carga inicial de los datos de QoE y el procesamiento del cubo. Según la cantidad de datos de QoE, el portal no tendrá datos disponibles para su visualización todavía. Para comprobar el estado de la carga de datos y el procesamiento del cubo, vaya a  `http://<machinename>/CQD/#/Health`. 
 > [!NOTE]
 > Tenga en cuenta que la dirección URL para comprobar el estado del procesamiento del cubo de descarga distingue mayúsculas de minúsculas. Si escribe "estado", la dirección URL no funcionará. Debe escribir "Estado" al final de la dirección URL con una H mayúscula. 
   
@@ -139,7 +139,7 @@ Los mensajes de registro detallados se mostrarán si el modo de depuración est�
 <add key="QoEDataLib.DebugMode" value="True" /> 
 ```
 
-Se puede acceder a la página del portal principal a través  `http://<machinename>/CQD` de . 
+Se puede acceder a la página del portal principal a través de  `http://<machinename>/CQD`. 
 ## <a name="managing-user-access-for-the-portal"></a>Administración del acceso de usuarios para el portal
 
 Para administrar la autorización de usuario en el Portal, se recomienda usar la autorización de dirección URL, que se introdujo en IIS 7.0. Para obtener más información sobre la seguridad de IIS, vea [Understanding IIS 7.0 URL Authorization](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).
@@ -198,11 +198,11 @@ Esto significa que el cubo debe procesarse en SQL Server Analysis Services antes
 
 1. Abra SQL Management Studio y seleccione **Analysis Services**.
 
-2. Expanda el **objeto QoECube,** seleccione **QoE Metric**, haga clic con el botón secundario y, a continuación, elija **Examinar**. 
+2. Expanda el **objeto QoECube** , seleccione **Métrica qoE**, haga clic con el botón secundario y, a continuación, **elija Examinar**. 
 
     Si devuelve el explorador vacío, el cubo aún no se ha realizado.
 
-3. Haga clic con el botón **secundario en Angain métrica qoE** y elija **Procesar**.
+3. Haga clic con el botón **secundario en Angain métrica de QoE** y elija **Proceso**.
 
 4. Cuando se complete el procesamiento, haga clic con el botón secundario en el objeto de nuevo y elija **Examinar** para confirmar que la página del explorador muestra ahora datos. 
 
@@ -233,9 +233,9 @@ Para los enlaces de puerto HTTP y HTTPS, el instalador creará enlaces de puerto
   
 Para habilitar SSL/TLS en IIS y forzar a los usuarios a conectarse a través de HTTPS seguro en lugar de HTTP:
   
-1. Configure Secure Sockets Layer in IIS, consulte [Configuring Secure Sockets Layer in IIS 7](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771438(v=ws.10)). Una vez terminado, reemplace  `http` por `https` .
+1. Configure Secure Sockets Layer in IIS, consulte [Configuring Secure Sockets Layer in IIS 7](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771438(v=ws.10)). Una vez terminado, reemplace  `http` por `https`.
     
-2. Para obtener instrucciones sobre cómo habilitar TLS en las conexiones SQL Server, vea [How to enable SSL encryption for an instance of SQL Server by using Microsoft Management Console](https://support.microsoft.com/kb/316898/).
+2. Para obtener instrucciones sobre cómo habilitar TLS en las conexiones SQL Server, consulte How [to enable SSL encryption for an instance of SQL Server by using Microsoft Management Console](https://support.microsoft.com/kb/316898/).
     
 ## <a name="cube-sync-fails"></a>Error en la sincronización de cubos
 
@@ -305,9 +305,9 @@ Los tipos de propiedad se usan para distinguir los activos de propiedad frente a
   
 Ejemplos
   
-- Contoso Leased non-RE &amp; F
+- Contoso leased non-REF&amp;
     
-- Contoso Leased RE &amp; F
+- REF arrendado de&amp; Contoso
     
 - Contoso Owned
     
@@ -432,7 +432,7 @@ VALUES
 |Ap NName  <br/> |AP  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00 (debe usar el fformat delimitado)  <br/> |
 |Controlador  <br/> |Creación  <br/> |Aruba AP 7  <br/> |
-|Device  <br/> |ess  <br/> |Controlador1  <br/> |
+|Dispositivo  <br/> |ess  <br/> |Controlador1  <br/> |
 |Radio  <br/> |phy  <br/> |bgn  <br/> |
    
 ### <a name="processing-the-imported-data"></a>Procesamiento de los datos importados
