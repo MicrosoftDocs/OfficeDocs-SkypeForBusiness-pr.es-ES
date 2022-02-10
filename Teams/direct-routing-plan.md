@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
-ms.reviewer: NMuravlyannikov
+ms.reviewer: filippse
 ms.topic: conceptual
 ms.service: msteams
 ms.localizationpriority: medium
@@ -17,20 +17,20 @@ appliesto:
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Obtenga información sobre Teléfono Microsoft system direct routing le permite conectar un controlador de borde de sesión (SBC) proporcionado por el cliente compatible con Teléfono Microsoft system.
-ms.openlocfilehash: 3cdce953aa3b4097352f1b98cee0c8557a6e8c9d
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+description: Obtenga información sobre cómo Microsoft Direct Routing le permite conectar un controlador de borde de sesión (SBC) proporcionado por el cliente compatible con Sistema telefónico.
+ms.openlocfilehash: 9f75646dd90b4c30384e12ae23fdc46be8825fab
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766403"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518842"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
 > [!Tip]
-> Vea la siguiente sesión para obtener información sobre las ventajas de Enrutamiento [directo,](https://aka.ms/teams-direct-routing) cómo planearlo y cómo implementarlo: Enrutamiento directo en Microsoft Teams
+> Vea la siguiente sesión para obtener información sobre las ventajas de Enrutamiento directo, cómo planearlo y cómo implementarlo: Enrutamiento [directo en Microsoft Teams](https://aka.ms/teams-direct-routing)
 
-Teléfono Microsoft System Direct Routing le permite conectar un controlador de borde de sesión (SBC) compatible y proporcionado por el cliente a Teléfono Microsoft System.  Con esta capacidad, por ejemplo, puede configurar la conectividad de red telefónica conmutada (RTC) local con un cliente Microsoft Teams, como se muestra en el siguiente diagrama: 
+Enrutamiento directo le permite conectar un controlador de borde de sesión (SBC) compatible y proporcionado por el cliente a Sistema telefónico. Con esta capacidad, puede configurar la conectividad de red telefónica conmutada (RTC) local con un cliente Microsoft Teams local, como se muestra en el siguiente diagrama: 
 
 ![Diagrama que muestra la configuración de conectividad RTC local.](media/PlanDirectRouting1-PSTNwithTeams.png "Configuración de conectividad RTC local con Microsoft Teams cliente")
 
@@ -38,20 +38,23 @@ Teléfono Microsoft System Direct Routing le permite conectar un controlador de 
   > Skype Empresarial Online también le permite emparejar un SBC proporcionado por el cliente, pero esto requiere una implementación de Skype Empresarial Server local o una edición especial de Skype Empresarial, denominada Conector en la nube, entre el SBC y Microsoft Cloud. Este escenario se conoce como voz híbrida. Por el contrario, enrutamiento directo permite una conexión directa entre el SBC compatible y Microsoft Cloud.
 
 > [!Important]
-> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que su organización haya actualizado a Teams, obtenga información sobre cómo conectar su red de telefonía local a Teams mediante [enrutamiento directo.](direct-routing-landing-page.md) 
+> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que su organización haya actualizado a Teams, obtenga información sobre cómo conectar su red de telefonía local a Teams mediante [enrutamiento directo](direct-routing-landing-page.md). 
 
 Con enrutamiento directo, puede conectar su SBC a casi cualquier tronco de telefonía o interconectarse con equipos RTC de terceros. Enrutamiento directo le permite: 
 
-- Use prácticamente cualquier tronco RTC con Teléfono Microsoft sistema. 
-- Configure la interoperabilidad entre equipos de telefonía propiedad del cliente, como un intercambio de sucursales privado (PBX) de terceros, dispositivos analógicos y Teléfono Microsoft System.
+- Use prácticamente cualquier tronco RTC con Sistema telefónico. 
+
+- Configure la interoperabilidad entre equipos de telefonía propiedad del cliente, como un intercambio de sucursales privado (PBX) de terceros, dispositivos analógicos y Teams.
 
 Microsoft también ofrece soluciones de voz todo en la nube, como Plan de llamadas. Sin embargo, una solución de voz híbrida puede ser la mejor para su organización si: 
 
 - Microsoft Calling Plan no está disponible en tu país. 
+
 - Su organización requiere conexión a dispositivos analógicos de terceros, centros de llamadas, y así sucesivamente. 
+
 - Su organización tiene un contrato existente con un operador RTC.
 
-Enrutamiento directo también es compatible con los usuarios que tienen la licencia adicional para el Plan de llamadas de Microsoft. Para obtener más información, [vea Sistema telefónico y Planes de llamadas.](calling-plan-landing-page.md) 
+Enrutamiento directo también es compatible con los usuarios que tienen la licencia adicional para el Plan de llamadas de Microsoft. Para obtener más información, [vea Sistema telefónico y Planes de llamadas](calling-plan-landing-page.md). 
 
 Con enrutamiento directo, cuando los usuarios participan en una conferencia programada, el número de acceso telefónico local lo proporciona el servicio de audioconferencia de Microsoft, que requiere licencias adecuadas.  Al llamar, el servicio de audioconferencia de Microsoft coloca la llamada con las capacidades de llamadas en línea, lo que requiere licencias adecuadas. (Tenga en cuenta que si un usuario no tiene una licencia de Audioconferencia de Microsoft, la llamada se dirige a través del enrutamiento directo). Para obtener más información, vea [Reuniones en línea con Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
@@ -66,81 +69,82 @@ Planear la implementación de Enrutamiento directo es clave para una implementac
 - [Tráfico multimedia: Intervalos de puertos](#media-traffic-port-ranges)
 - [Controladores de borde de sesión (SBC) compatibles](#supported-session-border-controllers-sbcs)
 
-Para obtener información detallada sobre cómo configurar el enrutamiento directo, vea [Configurar enrutamiento directo.](direct-routing-configure.md)
+Para obtener información detallada sobre cómo configurar el enrutamiento directo, vea [Configurar enrutamiento directo](direct-routing-configure.md).
 
 ## <a name="infrastructure-requirements"></a>Requisitos de infraestructura
 Los requisitos de infraestructura para los SBC, dominios y otros requisitos de conectividad de red admitidos para implementar enrutamiento directo se muestran en la tabla siguiente:  
 
 |Requisito de infraestructura|Necesita lo siguiente|
 |:--- |:--- |
-|Controlador de borde de sesión (SBC)|Un SBC compatible. Para obtener más información, vea [SBC compatibles.](#supported-session-border-controllers-sbcs)|
-|Troncos de telefonía conectados al SBC|Uno o varios troncos de telefonía conectados al SBC. En un extremo, el SBC se conecta al sistema Teléfono Microsoft mediante enrutamiento directo. El SBC también puede conectarse a entidades de telefonía de terceros, como PBX, adaptadores de telefonía analógica, entre otras. Cualquier opción de conectividad RTC conectada al SBC funcionará. (Para obtener información sobre la configuración de los troncos RTC en el SBC, consulte los proveedores de SBC o los proveedores troncales).|
-|Microsoft 365 o Office 365 organización|Una Microsoft 365 o Office 365 que usa para hospedar sus Microsoft Teams usuarios, así como la configuración y la conexión con el SBC.|
-|Registrador de usuarios|El usuario debe estar en Microsoft 365 o Office 365.<br/>Si su empresa tiene un entorno de Skype Empresarial o Lync local con conectividad híbrida a Microsoft 365 o Office 365, no puede habilitar la voz en Teams para un usuario alocudo local.<br/><br/>Para comprobar el registrador de un usuario, use la siguiente Skype Empresarial cmdlet de PowerShell en línea:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>El resultado del cmdlet debe mostrar lo siguiente:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Dominios|Uno o varios dominios agregados a Microsoft 365 o Office 365 organizaciones.<br/><br/>Tenga en cuenta que no puede usar el dominio predeterminado , \* .onmicrosoft.com, que se crea automáticamente para el inquilino.<br/><br/>Para ver los dominios, puede usar el siguiente cmdlet Skype Empresarial PowerShell en línea:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obtener más información sobre dominios y Microsoft 365 o Office 365, vea [Preguntas más frecuentes sobre dominios.](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)|
+|Controlador de borde de sesión (SBC)|Un SBC compatible. Para obtener más información, vea [SBC compatibles](#supported-session-border-controllers-sbcs).|
+|Troncos de telefonía conectados al SBC|Uno o varios troncos de telefonía conectados al SBC. En un extremo, el SBC se conecta a Sistema telefónico mediante enrutamiento directo. El SBC también puede conectarse a entidades de telefonía de terceros, como PBX, adaptadores de telefonía analógica, entre otras. Cualquier opción de conectividad RTC conectada al SBC funcionará. (Para obtener información sobre la configuración de los troncos RTC en el SBC, consulte los proveedores de SBC o los proveedores troncales).|
+|Microsoft 365 organización|Una Microsoft 365 que usa para hospedar sus Microsoft Teams usuarios, así como la configuración y la conexión con el SBC.|
+|Registrador de usuarios|El usuario debe estar en el Microsoft 365.<br/>Si su empresa tiene un entorno Skype Empresarial o Lync local con conectividad híbrida a Microsoft 365, no puede habilitar la voz en Teams para un usuario alocudo local.<br/><br/>Para comprobar el registrador de un usuario, use la siguiente Skype Empresarial cmdlet de PowerShell en línea:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>El resultado del cmdlet debe mostrar lo siguiente:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|Dominios|Uno o varios dominios agregados a Microsoft 365 o Office 365 organizaciones.<br/><br/>Tenga en cuenta que no puede usar el dominio predeterminado , \*.onmicrosoft.com, que se crea automáticamente para el inquilino.<br/><br/>Para ver los dominios, puede usar el siguiente cmdlet Skype Empresarial PowerShell en línea:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obtener más información sobre dominios y Microsoft 365 o Office 365, vea Preguntas [más frecuentes sobre dominios](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Dirección IP pública del SBC|Una dirección IP pública que se puede usar para conectarse al SBC. Según el tipo de SBC, el SBC puede usar NAT.|
 |Nombre de dominio completo (FQDN) para el SBC|Un FQDN para el SBC, donde la parte del dominio del FQDN es uno de los dominios registrados en su Microsoft 365 o Office 365 organización. Para obtener más información, vea [Nombres de dominio SBC](#sbc-domain-names).|
 |Entrada DNS pública para el SBC |Una entrada DNS pública asigna el FQDN de SBC a la dirección IP pública. |
-|Certificado de confianza pública para el SBC |Un certificado para que el SBC se utilice para todas las comunicaciones con enrutamiento directo. Para obtener más información, vea [Certificado de confianza pública para el SBC.](#public-trusted-certificate-for-the-sbc)|
-|Puntos de conexión para enrutamiento directo |Los puntos de conexión para enrutamiento directo son los tres FQDN siguientes:<br/><br/>`sip.pstnhub.microsoft.com` – FQDN global, debe probarse primero.<br/>`sip2.pstnhub.microsoft.com` – FQDN secundario, se asigna geográficamente a la región de segunda prioridad.<br/>`sip3.pstnhub.microsoft.com` – FQDN terciario, se asigna geográficamente a la región de tercera prioridad.<br/><br/>Para obtener información sobre los requisitos de configuración, vea [Señalización SIP: FQDN.](#sip-signaling-fqdns)|
-|Direcciones IP de firewall y puertos para medios de enrutamiento directo |El SBC se comunica a los siguientes servicios en la nube:<br/><br/>Proxy SIP, que controla la señalización<br/>Procesador multimedia, que controla los medios ,excepto cuando la omisión de medios está en<br/><br/>Estos dos servicios tienen direcciones IP independientes en Microsoft Cloud, que se describen más adelante en este documento.<br/><br/>Para obtener más información, vea [la Microsoft Teams de](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) direcciones URL e [intervalos de direcciones IP.](/office365/enterprise/urls-and-ip-address-ranges) |
+|Certificado de confianza pública para el SBC |Un certificado para que el SBC se utilice para todas las comunicaciones con enrutamiento directo. Para obtener más información, vea [Certificado de confianza pública para el SBC](#public-trusted-certificate-for-the-sbc).|
+|Puntos de conexión para enrutamiento directo |Los puntos de conexión para enrutamiento directo son los tres FQDN siguientes:<br/><br/>`sip.pstnhub.microsoft.com` – FQDN global, debe probarse primero.<br/>`sip2.pstnhub.microsoft.com` – FQDN secundario, se asigna geográficamente a la región de segunda prioridad.<br/>`sip3.pstnhub.microsoft.com` – FQDN terciario, se asigna geográficamente a la región de tercera prioridad.<br/><br/>Para obtener información sobre los requisitos de configuración, vea [Señalización SIP: FQDN](#sip-signaling-fqdns).|
+|Direcciones IP de firewall y puertos para medios de enrutamiento directo |El SBC se comunica a los siguientes servicios en la nube:<br/><br/>Proxy SIP, que controla la señalización<br/>Procesador multimedia, que controla los medios ,excepto cuando la omisión de medios está en<br/><br/>Estos dos servicios tienen direcciones IP independientes en Microsoft Cloud, que se describen más adelante en este documento.<br/><br/>Para obtener más información, [vea la Microsoft Teams de](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) direcciones [URL e intervalos de direcciones IP](/office365/enterprise/urls-and-ip-address-ranges). |
 |Perfil de transporte multimedia|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-Direcciones IP de firewall y puertos para Microsoft Teams multimedia |Para obtener más información, vea [Direcciones URL e intervalos de direcciones IP.](/office365/enterprise/urls-and-ip-address-ranges) |
+Direcciones IP de firewall y puertos para Microsoft Teams multimedia |Para obtener más información, vea [Direcciones URL e intervalos de direcciones IP](/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Licencias y otros requisitos 
 
-Los usuarios de Enrutamiento directo deben tener asignadas las siguientes licencias Microsoft 365 o Office 365: 
+Los usuarios de Enrutamiento directo deben tener asignadas las siguientes licencias Microsoft 365: 
 
-- Teléfono Microsoft sistema. 
-- Microsoft Teams + Skype Empresarial Plan 2, si se incluye en las licencias.
-- Audioconferencia de Microsoft (lea las notas y el párrafo siguiente para ver ejemplos específicos sobre cuándo se requiere la licencia).
+- Teléfono Microsoft system
+- Microsoft Teams + Skype Empresarial Plan 2, si se incluye en la licencia
+- Audioconferencia de Microsoft (Lea las notas y el párrafo siguiente para ver ejemplos específicos sobre cuándo se requiere esta licencia).
 
 > [!NOTE]
 > Skype Empresarial plan no se debe quitar de ningún contrato de licencia donde se incluya. 
 > 
 > [!IMPORTANT]
-> GCC high y doD los usuarios deben deshabilitar cualquier licencia de audioconferencia incluida en G5 y esperar a habilitar cualquier conferencia de audioconferencia hasta que el enrutamiento directo se haya configurado por completo. Los usuarios deben tener configurados los números de teléfono de acceso telefónico local y un teclado de marcado en funcionamiento antes de habilitar licencias de conferencias de audio. Vea [Conferencias de audio con enrutamiento directo para GCC alta](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) y doD para obtener más información.
+> GCC high y doD los usuarios deben deshabilitar cualquier licencia de audioconferencia incluida en G5 y esperar a habilitar cualquier conferencia de audioconferencia hasta que el enrutamiento directo se haya configurado por completo. Los usuarios deben tener configurados los números de teléfono de acceso telefónico local y un teclado de marcado en funcionamiento antes de habilitar licencias de conferencias de audio. Vea [Conferencias de audio con enrutamiento directo para GCC alta y doD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) para obtener más información.
 
 
 > [!IMPORTANT]
->  En el caso de que quiera agregar participantes externos a las reuniones programadas, ya sea marcando para ellos o proporcionando el número de acceso telefónico local, se requiere la licencia de audioconferencia.
-> Para GCC High y DoD, no asigne una licencia de audioconferencia para los usuarios de G5.  Para los usuarios de G3, no asigne una licencia de audioconferencia hasta que enrutamiento directo esté completamente configurado y el usuario tenga un teclado de marcado funcional.
+>  Si desea agregar participantes externos a las reuniones programadas, ya sea marcando a ellos o proporcionando el número de acceso telefónico local, se requiere la licencia de audioconferencia.
+> Para GCC High y DoD, no asigne una licencia de audioconferencia para los usuarios de G5. Para los usuarios de G3, no asigne una licencia de audioconferencia hasta que enrutamiento directo esté completamente configurado y el usuario tenga un teclado de marcado funcional.
 
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>Escalación de llamadas ad hoc y licencia de audioconferencia
 
-Un Teams puede iniciar una Teams a RTC o Teams Teams para realizar una llamada y agregarle un participante RTC. Este escenario se denomina conferencia ad hoc. La ruta de acceso que toma la llamada depende de si el usuario que escala la llamada tiene una licencia de Audioconferencia de Microsoft asignada o no:
+Un Teams puede iniciar una llamada de Teams a RTC o una llamada de Teams a Teams y agregarle un participante RTC. Este escenario se denomina conferencia ad hoc. La ruta de acceso que toma la llamada depende de si el usuario que escala la llamada tiene una licencia de Audioconferencia de Microsoft asignada o no:
 
-- Si el Teams que escala la llamada tiene asignada una licencia de Audioconferencia de Microsoft, la escalación se produce a través del servicio de audioconferencia de Microsoft. El participante rtc remoto que está invitado a la llamada existente recibe una notificación sobre la llamada entrante y ve el número del puente de Microsoft asignado al usuario de Teams que inició la escalada.
-- Si el Teams que escala la llamada no tiene asignada la licencia de Audioconferencia de Microsoft, la escalación se produce a través de un controlador de borde de sesión conectado a la interfaz de enrutamiento directo. El participante rtc remoto que está invitado a la llamada recibe una notificación sobre la llamada entrante y ve el número del usuario Teams que inició la escalada. La directiva de enrutamiento del usuario define el SBC específico que se usa para la escalada. 
+- **Si el Teams que escala** la llamada tiene asignada una licencia de Audioconferencia de Microsoft, la escalación se produce a través del servicio de audioconferencia de Microsoft. El participante rtc remoto que está invitado a la llamada existente recibe una notificación sobre la llamada entrante y ve el número del puente de Microsoft asignado al usuario de Teams que inició la escalada.
 
+- **Si el Teams que escala** la llamada no tiene asignada la licencia de Audioconferencia de Microsoft, la escalación se produce a través de un controlador de borde de sesión conectado a la interfaz de enrutamiento directo. El participante rtc remoto que está invitado a la llamada recibe una notificación sobre la llamada entrante y ve el número del usuario Teams que inició la escalada. La directiva de enrutamiento del usuario define el SBC específico que se usa para la escalada. 
 
-Además, debe asegurarse de lo siguiente:
+Debe asegurarse de lo siguiente:
  
 - CsOnlineVoiceRoutingPolicy se asigna al usuario. 
+
 - Permitir llamadas privadas está habilitado en el nivel de inquilino para Microsoft Teams. 
 
-Enrutamiento directo también admite usuarios con licencia para Microsoft Calling Plan. Teléfono Microsoft sistema con plan de llamadas puede enrutar algunas llamadas mediante la interfaz enrutamiento directo. Sin embargo, los números de teléfono de los usuarios deben adquirirse en línea o portados a Microsoft.  
+Enrutamiento directo también admite usuarios con licencia para Microsoft Calling Plan. Sistema telefónico con Plan de llamadas puede enrutar algunas llamadas con la interfaz enrutamiento directo. Sin embargo, los números de teléfono de los usuarios deben adquirirse en línea o portados a Microsoft.  
 
-Combinar la conectividad de plan de llamadas y enrutamiento directo para el mismo usuario es opcional, pero podría ser útil (por ejemplo, cuando se asigna al usuario un plan de llamadas de Microsoft, pero quiere enrutar algunas llamadas con el SBC). Uno de los escenarios más comunes son las llamadas a PBX de terceros.  Con PBX de terceros, todas las llamadas, excepto las llamadas a los teléfonos conectados a los PBX, se enruta con el Plan de llamadas de Microsoft, pero las llamadas a los teléfonos conectados a PBX de terceros van al SBC y, por lo tanto, permanecen dentro de la red empresarial y no de la RTC. 
+Combinar la conectividad de plan de llamadas y enrutamiento directo para el mismo usuario es opcional, pero podría ser útil. Por ejemplo, cuando al usuario se le asigna un plan de llamadas de Microsoft, pero quiere enrutar algunas llamadas con el SBC. Uno de los escenarios más comunes son las llamadas a PBX de terceros.  Con PBX de terceros, todas las llamadas, excepto las llamadas a los teléfonos conectados a ese PBX, se enruta con el Plan de llamadas de Microsoft, pero las llamadas a los teléfonos conectados a PBX de terceros van al SBC y, por lo tanto, permanecen dentro de la red empresarial y no de la RTC. 
 
-Para obtener más información sobre Sistema telefónico licencias, vea Sacar el máximo partido de [Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) [y Opciones de plan.](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) 
-
-Para obtener más información sobre Sistema telefónico licencias, [vea Microsoft Teams de complementos.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
+Para obtener más información sobre Sistema telefónico licencias, vea Sacar el [](https://products.office.com/compare-all-microsoft-office-products?tab=2) máximo partido de Office [opciones](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) de planes y Microsoft Teams [licencias de complementos](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
 
 ## <a name="supported-end-points"></a>Puntos finales admitidos 
 
 Puede usar como punto final:
 
 - Cualquier Teams cliente. 
-- Teléfonos de área común. Consulte [Configurar la licencia de uso Teléfono área común para Microsoft Teams](./set-up-common-area-phones.md). Tenga en cuenta que no necesita una licencia de Plan de llamadas al configurar un área común Teléfono con enrutamiento directo.
+
+- Teléfonos de área común. Consulte [Configurar teléfonos de área común para Microsoft Teams](./set-up-common-area-phones.md). No necesita una licencia del Plan de llamadas al configurar un área común Teléfono con enrutamiento directo.
+
 - Skype Empresarial teléfonos 3PIP. Vea [Skype Empresarial teléfonos móviles (3PIP) con Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
 ## <a name="sbc-domain-names"></a>Nombres de dominio SBC
 
-El nombre de dominio SBC debe ser de uno de los nombres registrados en Dominios del inquilino. No puede usar \* el espacio empresarial .onmicrosoft.com para el nombre FQDN del SBC.
+El nombre de dominio SBC debe ser de uno de los nombres registrados en Dominios del inquilino. No puede usar el \*espacio empresarial .onmicrosoft.com para el nombre FQDN del SBC.
 
 En la tabla siguiente se muestran ejemplos de nombres DNS registrados para el inquilino, si el nombre se puede usar como FQDN para el SBC y ejemplos de nombres FQDN válidos:
 
@@ -160,12 +164,12 @@ El SBC solo necesita un FQDN y puede atender a los usuarios desde cualquier espa
 
 Microsoft recomienda solicitar el certificado para el SBC generando una solicitud de firma de certificación (CSR). Para obtener instrucciones específicas sobre cómo generar un CSR para un SBC, consulte las instrucciones de interconexión o la documentación proporcionada por sus proveedores de SBC. 
 
-  > [!NOTE]
-  > La mayoría de las autoridades de certificación (CA) requieren que el tamaño de clave privada sea como mínimo 2048. Tenga esto en cuenta al generar la CSR.
+> [!NOTE]
+> La mayoría de las autoridades de certificación (CA) requieren que el tamaño de clave privada sea como mínimo 2048. Tenga esto en cuenta al generar la CSR.
 
 El certificado debe tener el FQDN de SBC como el nombre común (CN) o el campo de nombre alternativo del asunto (SAN).
 
-Como alternativa, enrutamiento directo admite un carácter comodín en el CN o san, y el carácter comodín debe ajustarse a [RFC estándar HTTP Sobre TLS.](https://tools.ietf.org/html/rfc2818#section-3.1) Un ejemplo sería usar .contoso.com que coincidiría con el FQDN de SBC sbc.contoso.com, pero no coincidiría \* con sbc.test.contoso.com.
+Como alternativa, enrutamiento directo admite un carácter comodín en el CN o san, y el carácter comodín debe ajustarse a [RFC estándar HTTP a través de TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Un ejemplo sería usar \*.contoso.com que coincidiría con el FQDN de SBC sbc.contoso.com, pero no coincidiría con sbc.test.contoso.com.
 
 La interfaz SIP de enrutamiento directo solo confiará en los certificados firmados por entidades de certificación (CA) que forman parte del Programa de certificados raíz de confianza de Microsoft. Asegúrese de que el certificado de SBC está firmado por una entidad de certificación que forma parte del programa y de que la extensión Uso de clave extendida (EKU) del certificado incluye autenticación de servidor.
 Más información: [Requisitos del programa: Microsoft Trusted Root Program](/security/trusted-root/program-requirements)
@@ -173,15 +177,17 @@ Más información: [Requisitos del programa: Microsoft Trusted Root Program](/se
 [Lista de certificados de CA incluida](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT)
   
  Para enrutamiento directo en Office 365 GCCH y DoD, el certificado debe ser generado por una de las siguientes autoridades de certificación raíz:
+
 - DigiCert Global Root CA
 - DigiCert High Assurance EV Root CA
 
 > [!NOTE]
-> *Si el soporte de TLS mutuo (MTLS) está habilitado para la conexión Teams en el SBC, debe instalar el certificado raíz de CyberTrust de Baltimore en el almacén raíz de confianza de SBC del contexto Teams TLS. (Esto se debe a que los certificados de servicio de Microsoft usan el certificado raíz de Baltimore). Para descargar el certificado raíz de Baltimore, [vea Office 365 cadenas de cifrado](/microsoft-365/compliance/encryption-office-365-certificate-chains).
+> Si el soporte técnico de TLS mutuo (MTLS) está habilitado para la conexión Teams en el SBC, debe instalar el certificado raíz de CyberTrust de Baltimore en el almacén raíz de confianza de SBC del contexto Teams TLS. (Esto se debe a que los certificados de servicio de Microsoft usan el certificado raíz de Baltimore). Para descargar el certificado raíz de Baltimore, [vea Office 365 cadenas de cifrado](/microsoft-365/compliance/encryption-office-365-certificate-chains).
 
 ## <a name="sip-signaling-fqdns"></a>Señalización SIP: FQDN 
 
 El enrutamiento directo se ofrece en los siguientes entornos:
+
 - Microsoft 365 o Office 365
 - Office 365 GCC
 - Office 365 GCC High
@@ -193,14 +199,17 @@ Obtenga más información [sobre Office 365 entornos](/office365/servicedescript
 
 Los puntos de conexión para enrutamiento directo son los tres FQDN siguientes:
 
-- **sip.pstnhub.microsoft.com:** FQDN global, debe probarse primero. Cuando el SBC envía una solicitud para resolver este nombre, los servidores DNS Microsoft Azure devuelven una dirección IP que apunta al centro de datos de Azure principal asignado al SBC. La tarea se basa en las métricas de rendimiento de los centros de datos y la proximidad geográfica al SBC. La dirección IP devuelta corresponde al FQDN principal.
-- **sip2.pstnhub.microsoft.com:** FQDN secundario, se asigna geográficamente a la región de segunda prioridad.
-- **sip3.pstnhub.microsoft.com:** FQDN terciario, se asigna geográficamente a la región de tercera prioridad.
+- **sip.pstnhub.microsoft.com** : FQDN global, debe probarse primero. Cuando el SBC envía una solicitud para resolver este nombre, los servidores DNS Microsoft Azure devuelven una dirección IP que apunta al centro de datos de Azure principal asignado al SBC. La tarea se basa en las métricas de rendimiento de los centros de datos y la proximidad geográfica al SBC. La dirección IP devuelta corresponde al FQDN principal.
+
+- **sip2.pstnhub.microsoft.com** : FQDN secundario, se asigna geográficamente a la región de segunda prioridad.
+
+- **sip3.pstnhub.microsoft.com** : FQDN terciario, se asigna geográficamente a la región de tercera prioridad.
 
 Es necesario poner estos tres FQDN en orden para:
 
 - Proporcione una experiencia óptima (menos cargada y más cercana al centro de datos de SBC asignada consultando el primer FQDN).
-- Proporcione conmutación por error cuando se establezca la conexión desde un SBC a un centro de datos que experimenta un problema temporal. Para obtener más información, vea Mecanismo [de conmutación por error a continuación.](#failover-mechanism-for-sip-signaling)  
+
+- Proporcione conmutación por error cuando se establezca la conexión desde un SBC a un centro de datos que experimenta un problema temporal. Para obtener más información, vea Mecanismo [de conmutación por error a continuación](#failover-mechanism-for-sip-signaling) .  
 
 Los FQDN (sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com y sip3.pstnhub.microsoft.com) se resolverán en direcciones IP de las siguientes subredes:
 
@@ -213,7 +222,7 @@ Debe abrir puertos para todos estos intervalos de direcciones IP en el firewall 
 
 El punto de conexión para enrutamiento directo es el siguiente FQDN:
 
-**sip.pstnhub.dod.teams.microsoft.us:** FQDN global. Como el Office 365 DoD solo existe en los centros de datos de EE. UU., no hay FQDN secundarios y terciarios.
+**sip.pstnhub.dod.teams.microsoft.us** : FQDN global. Como el Office 365 DoD solo existe en los centros de datos de EE. UU., no hay FQDN secundarios y terciarios.
 
 El fqdn sip.pstnhub.dod.teams.microsoft.us se resolverá en una dirección IP de la siguiente subred:
 
@@ -225,7 +234,7 @@ Debe abrir puertos para todas estas direcciones IP en el firewall para permitir 
 
 El punto de conexión para enrutamiento directo es el siguiente FQDN:
 
-**sip.pstnhub.gov.teams.microsoft.us:** FQDN global. Como el GCC high solo existe en los centros de datos de EE. UU., no hay FQDN secundarios y terciarios.
+**sip.pstnhub.gov.teams.microsoft.us** : FQDN global. Como el GCC high solo existe en los centros de datos de EE. UU., no hay FQDN secundarios y terciarios.
 
 El fqdn sip.pstnhub.gov.teams.microsoft.us se resolverá en una dirección IP de la siguiente subred:
 
@@ -236,6 +245,7 @@ Debe abrir puertos para todas estas direcciones IP en el firewall para permitir 
 ## <a name="sip-signaling-ports"></a>Señalización SIP: Puertos
 
 Debe usar los siguientes puertos para Microsoft 365 o Office 365 en los que se ofrece enrutamiento directo:
+
 - Microsoft 365 o Office 365
 - Office 365 GCC
 - Office 365 GCC High
@@ -260,9 +270,7 @@ En la tabla siguiente se resumen las relaciones entre centros de datos primarios
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Tráfico multimedia: Intervalos de puertos
-Tenga en cuenta que los requisitos siguientes se aplican si desea implementar enrutamiento directo sin omisión de medios. Para obtener información sobre los requisitos del firewall para la omisión de medios, consulte Planear la omisión [de medios con enrutamiento directo.](./direct-routing-plan-media-bypass.md)
-
-
+Tenga en cuenta que los requisitos siguientes se aplican si desea implementar enrutamiento directo sin omisión de medios. Para obtener información sobre los requisitos del firewall para la omisión de medios, consulte Planear la omisión [de medios con enrutamiento directo](./direct-routing-plan-media-bypass.md).
 
 El tráfico multimedia fluye hacia y desde un servicio independiente en Microsoft Cloud. Los intervalos de direcciones IP para el tráfico multimedia son los siguientes.
 
@@ -305,7 +313,8 @@ El tráfico multimedia fluye a través de componentes denominados procesadores m
 
 ## <a name="media-traffic-codecs"></a>Tráfico multimedia: Códecs
 
-### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Leg between SBC and Cloud Media Processor or Microsoft Teams client.
+### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Leg between SBC and Cloud Media Processor or Microsoft Teams client
+
 Se aplica tanto a casos de omisión multimedia como a casos que no se omiten.
 
 La interfaz de enrutamiento directo en el tramo entre el controlador de borde de sesión y el procesador multimedia en la nube (sin omisión de medios) o entre el cliente de Teams y el SBC (si la omisión de medios está habilitada) puede usar los siguientes códecs:
@@ -316,9 +325,10 @@ La interfaz de enrutamiento directo en el tramo entre el controlador de borde de
 Puede forzar el uso del códec específico en el controlador de borde de sesión excluyendo los códecs no deseados de la oferta.
 
 ### <a name="leg-between-microsoft-teams-client-and-cloud-media-processor"></a>Leg between Microsoft Teams Client and Cloud Media Processor
+
 Solo se aplica a casos de omisión no multimedia. Con la omisión de medios, los medios fluyen directamente entre el Teams y el SBC.
 
-En el tramo entre el procesador multimedia en la nube y Microsoft Teams se usa el cliente SILK o G.722. La elección del códec en esta parte se basa en los algoritmos de Microsoft, que tienen en cuenta varios parámetros. 
+En el tramo entre el procesador multimedia en la nube y Microsoft Teams cliente, se usa SILK o G.722. La elección del códec en esta parte se basa en los algoritmos de Microsoft, que tienen en cuenta varios parámetros. 
 
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Controladores de borde de sesión (SBC) compatibles
@@ -327,7 +337,7 @@ Microsoft solo admite SBC certificados para emparejar con enrutamiento directo. 
 
 Los dispositivos que se han validado se muestran como Certificados para Teams enrutamiento directo. Los dispositivos certificados están garantizados para funcionar en todos los escenarios. 
 
-Para obtener más información sobre los SBC compatibles, vea Lista de controladores de [borde de sesión certificados para enrutamiento directo.](direct-routing-border-controllers.md)
+Para obtener más información sobre los SBC compatibles, vea [Controladores de borde de sesión certificados para enrutamiento directo](direct-routing-border-controllers.md).
 
  
 ## <a name="see-also"></a>Vea también

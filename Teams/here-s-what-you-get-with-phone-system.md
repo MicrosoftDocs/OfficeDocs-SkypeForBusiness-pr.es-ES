@@ -1,5 +1,5 @@
 ---
-title: Esto es lo que obtienes con Teams Teléfono
+title: Esto es lo obtiene con el Sistema telefónico
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -21,32 +21,32 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 'Obtenga información sobre las características, la disponibilidad y cómo planear y configurar Microsoft Teams Sistema telefónico para su empresa. '
-ms.openlocfilehash: 79712a9e3f9221c0aa6d256253d76e266cbbe658
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+description: 'Obtenga información sobre las características, la disponibilidad y cómo planear y configurar Teléfono Microsoft sistema para su empresa. '
+ms.openlocfilehash: 3c641da9434745a9f349ad69171d7471090c1baf
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299075"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518922"
 ---
-# <a name="heres-what-you-get-with-teams-phone"></a>Esto es lo que obtienes con Teams Teléfono
+# <a name="heres-what-you-get-with-phone-system"></a>Esto es lo obtiene con el Sistema telefónico
 
-En este artículo se describen Teams Teléfono características. Para obtener más información sobre el uso de Teams Teléfono Exchange como su reemplazo de pbx (PBX) de la rama privada y las opciones para conectarse a la red telefónica conmutada (RTC), vea Qué [Teams Teléfono.](what-is-phone-system-in-office-365.md)
+En este artículo se describen Sistema telefónico características. Para obtener más información sobre el uso de Sistema telefónico Exchange como su reemplazo de pbx (PBX) de la rama privada y las opciones para conectarse a la red telefónica conmutada (RTC), vea ¿Qué [Sistema telefónico?](what-is-phone-system-in-office-365.md)
 
 Los clientes están disponibles para PC, Mac y dispositivos móviles, lo que proporciona características en dispositivos desde tabletas y teléfonos móviles hasta equipos PC y teléfonos IP de escritorio. Para obtener más información, vea [Obtener clientes para Microsoft Teams](get-clients.md).
 
  > [!Note]
 > Para obtener más información Teams sistemas telefónicos en diferentes plataformas, [vea Teams características por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-Para usar Teams Teléfono características, su organización debe tener una Sistema telefónico licencia. Para obtener más información sobre las licencias, vea [Licencias complementarias de Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para usar Sistema telefónico características, su organización debe tener una Sistema telefónico licencia. Para obtener más información sobre las licencias, vea [Licencias complementarias de Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 Tenga en cuenta que la mayoría de las características requieren que asigne la Sistema telefónico licencia y asegúrese de que los usuarios están "habilitados para voz". Para asignar la licencia, use el [cmdlet Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps) y establezca el parámetro **EnterpriseVoiceEnabled** en $true. Algunas características, como el operador automático en la nube, no requieren que un usuario tenga habilitada la voz. Las excepciones se llaman en la tabla siguiente.
   
-## <a name="teams-phone-features"></a>Teams Teléfono características
+## <a name="phone-system-features"></a>Sistema telefónico características
 
-Teams Teléfono proporciona las siguientes características.
+Sistema telefónico proporciona las siguientes características.
   
-|Teams Teléfono característica  |Descripción |
+|Sistema telefónico característica de Sistema telefónico de datos  |Descripción |
 |:-----|:-----|
 |[Operadores automáticos en la nube](what-are-phone-system-auto-attendants.md)  |Le permite crear un sistema de menús que permite a los autores de llamadas externos e internos localizar y realizar o transferir llamadas a usuarios o departamentos de la empresa de su organización.  <br/> Tenga en cuenta que *los usuarios no* necesitan tener habilitada la voz para recibir llamadas desde el operador automático marcado por nombre, marcado por búsqueda de directorio de números. Los *usuarios* necesitan tener habilitada la voz para recibir llamadas desde las opciones de menú del operador automático. |
 |[Colas de llamadas en la nube](create-a-phone-system-call-queue.md) <br> |Le permite configurar cómo se administran las colas de llamadas para su organización: por ejemplo, configurar saludos y música en espera, buscar el siguiente agente de llamada disponible para administrar la llamada, y así sucesivamente.  <br/> Tenga en cuenta que *los usuarios* necesitan estar habilitados para recibir llamadas desde una cola de llamadas.|
@@ -72,7 +72,7 @@ Teams Teléfono proporciona las siguientes características.
 |[Ocupado en Ocupado](teams-calling-policy.md) (solo Teams)  | Una directiva de llamadas que le permite configurar cómo se administran las llamadas entrantes cuando un usuario es: <ul><li>en una llamada </li><li>en una conferencia</li><li>tiene una llamada en espera. </li></ul> El autor de la llamada recibirá una de las siguientes respuestas: <ul><li>escuchar una señal ocupada cuando el destinatario está en el teléfono</li> <li>se enruta en consecuencia a la configuración sin responder del usuario. Una opción permite al autor de la llamada dejar un correo de voz para el usuario que ya está en una llamada.</li></ul> El destinatario recibe una notificación de llamada perdida, pero no puede responder a las llamadas entrantes. Esta característica está deshabilitada de forma predeterminada, pero puede ser activada por el administrador de inquilinos.|
 |[Bloqueo de llamadas](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | Permite a los usuarios agregar números de teléfono (RTC) a una lista bloqueada para que la siguiente llamada de ese número no suene al usuario.|
 |[Teléfonos de área común](set-up-common-area-phones.md)  | Normalmente, un teléfono de área común se coloca en un área como una sala de espera o una sala de conferencias, lo que hace que esté disponible para varias personas. Los teléfonos de área común están configurados como dispositivos en lugar de como usuarios y pueden iniciar sesión automáticamente en una red.|
-|[Soporte de omisión de](direct-routing-plan-media-bypass.md) medios (solo Teams enrutamiento directo)  | Para un mejor rendimiento, los medios se mantienen entre el controlador de borde de sesión (SBC) y el cliente en lugar de enviarlo a través del Teams Teléfono. |
+|[Soporte de omisión de](direct-routing-plan-media-bypass.md) medios (solo Teams enrutamiento directo)  | Para un mejor rendimiento, los medios se mantienen entre el controlador de borde de sesión (SBC) y el cliente en lugar de enviarlo a través del Sistema telefónico. |
 |[Enrutamiento de números sinsignar](routing-calls-to-unassigned-numbers.md) | Permite el enrutamiento de números sinsignar a usuarios, operadores automáticos, colas de llamadas o un anuncio personalizado. |
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>Disponibilidad en GCC nubes Altas y DoD
@@ -88,11 +88,11 @@ Las siguientes funcionalidades aún no están disponibles en GCC nubes altas y d
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [¿Qué es Teams Teléfono](what-is-phone-system-in-office-365.md)
+- [¿Qué es el Sistema telefónico?](what-is-phone-system-in-office-365.md)
 - [Voz en la nube de Microsoft Teams](cloud-voice-landing-page.md)
-- [Configurar Teams Teléfono](setting-up-your-phone-system.md)
+- [Configurar el Sistema telefónico](setting-up-your-phone-system.md)
 - [¿Qué plan de llamada es adecuado para usted?](calling-plan-landing-page.md)
 - [Supervisar y administrar la calidad de las llamadas](monitor-call-quality-qos.md)
 - [Licencias complementarias de Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [Precios de Teams Teléfono](https://products.office.com/microsoft-teams/voice-calling#requirements)
+- [Precios de Sistema telefónico](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams infraestructura de escritorio virtualizada con llamadas y reuniones](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)

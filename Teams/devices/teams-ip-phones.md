@@ -21,18 +21,20 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: 83acdef043e972a23a7166b33bd0772d94d62773
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 8364ec0440fafb786966541cc73915e40e031a08
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457250"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518862"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams dispositivos certificados
 
-Los Microsoft Teams de certificación garantizan que los clientes que usan teléfonos de escritorio certificados y teléfonos de conferencia experimentarán una experiencia de reuniones y llamadas de audio de alta calidad.
+El Microsoft Teams de certificación de dispositivos Teams garantiza que los dispositivos certificados cumplan un alto estándar, con objetivos de rendimiento más altos y métricas de calidad en toda la experiencia Teams (audio, vídeo, interfaz de usuario). Microsoft y los partners OEM están trabajando conjuntamente de forma activa para garantizar que los dispositivos cumplan todos los requisitos de certificación, incluida la seguridad, la calidad de audio y vídeo, Teams experiencia y accesibilidad.
 
-Microsoft Teams de certificación garantizan una barra de mayor calidad con objetivos de mayor rendimiento y métricas de calidad de audio. Los partners están trabajando activamente para cumplir con esta barra superior y son dispositivos que cumplen los requisitos de certificación. Algunos de nuestros partners también están trabajando para proporcionar soporte técnico para el servicio de Skype Empresarial en el mismo hardware que los Teams teléfonos. 
+Los programas de certificación están diseñados para garantizar que todos los dispositivos certificados ejecuten una versión de Android con el conjunto de características necesario para Teams y Teams centro de administración. La validez de la certificación se basa en la versión del sistema operativo Android que se ejecuta en el dispositivo cuando entra en el programa de certificación. Nuestros partners OEM están trabajando para extender la duración de la certificación actualizando la versión del sistema operativo Android y re-certificando, o lanzando nuevos modelos que son de última generación. Las fechas de validez de la certificación se actualizarán periódicamente en función de los planes de partners OEM para actualizar a una versión más reciente del sistema operativo Android.
+
+Más allá del período de certificación, Microsoft se compromete a realizar esfuerzos para admitir la versión más reciente del cliente de Teams en dichos dispositivos durante dos años después del final del período de certificación.
 
 
 ## <a name="currently-certified-teams-phones"></a>Teléfonos Teams certificados actualmente
@@ -78,7 +80,7 @@ Los siguientes dispositivos están certificados en el Salas de Microsoft Teams p
 | Yealink MeetingBar A20  | `133.15.0.19`      | 5 de agosto de 2023 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | 5 de diciembre de 2022  | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) | 8.1 |
 | Poly Studio X50         | `3.1.1.216109`     | 5 de diciembre de 2022   | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) | 8.1 |
-| Poly TC8                | `3.3.2.210441`     | 5 de agosto de 2023 | Compatible con Poly Studio X30 y Poly Studio X50 | 8.1 |  9  |
+| Poly TC8                | `3.3.2.210441`     | 5 de agosto de 2023 | Compatible con Poly Studio X30 y Poly Studio X50  |  9  |
 | Yealink VC210           | `118.15.0.14`      | 5 de agosto de 2023 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |  9  |
 
 ## <a name="currently-certified-teams-displays"></a>Pantallas Teams certificados actualmente
@@ -128,6 +130,7 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo  | Versión de firmware  | Versión de producto incluida  |
 |:----------------|:--------------|:----------------------------|
+|Códigos de audio C455HD | 1.15.271    | Actualización 2022 #1
 |Poly Trio C60   | `7.2.1.1712`  | Actualización 2022 #1   |
 |Poly CCX400/CCX500/CCX600   | `7.2.1.1707`  | Actualización 2022 #1  |
 |Códigos de audio C448HD  | `1.14.500` | Actualización 2022 #1 |

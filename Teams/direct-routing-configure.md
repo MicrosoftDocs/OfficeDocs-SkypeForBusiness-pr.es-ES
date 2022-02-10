@@ -1,6 +1,6 @@
 ---
 title: Configurar el enrutamiento directo
-ms.reviewer: ''
+ms.reviewer: filippse
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -18,23 +18,20 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Obtenga información sobre cómo configurar Teléfono Microsoft System Direct Routing para conectar su infraestructura de telefonía local a Microsoft Teams.
+description: Obtenga información sobre cómo configurar Microsoft Direct Routing para conectar su infraestructura de telefonía local a Teams Sistema telefónico.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05e3152c13b0cf6559964d3926d7c66e7cf376e8
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: b72a51008e2a5d55b57809ab5e8ae989f4ed3ec7
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634899"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518582"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
-Teléfono Microsoft System Direct Routing le permite conectar su infraestructura de telefonía local a Microsoft Teams. En el artículo se enumeran los pasos de alto nivel necesarios para conectar un controlador de borde de sesión (SBC) local compatible con enrutamiento directo y cómo configurar Teams los usuarios para que usen enrutamiento directo para conectarse a la red telefónica conmutada (RTC) pública. En este artículo se vincula a artículos asociados para obtener más información.  
+Enrutamiento directo le permite conectar su infraestructura de telefonía local a Microsoft Teams. En el artículo se enumeran los pasos de alto nivel necesarios para conectar un controlador de borde de sesión (SBC) local compatible con enrutamiento directo y cómo configurar Teams los usuarios para que usen enrutamiento directo para conectarse a la red telefónica conmutada (RTC) pública. En este artículo se vincula a artículos asociados para obtener más información.  
 
-Para obtener información sobre si enrutamiento directo es la solución adecuada para su organización, [vea Sistema telefónico enrutamiento directo.](direct-routing-landing-page.md) Para obtener información sobre los requisitos previos y la planificación de la implementación, vea [Planear enrutamiento directo.](direct-routing-plan.md)
-
-> [!Tip]
-> También puede ver la siguiente sesión para obtener información sobre las ventajas de Enrutamiento directo, cómo planearlo y cómo implementarlo: Enrutamiento directo [en Microsoft Teams](https://aka.ms/teams-direct-routing).
+Para obtener información sobre si el enrutamiento directo es la solución adecuada para su organización, vea [Opciones de conectividad RTC](pstn-connectivity.md). Para obtener información sobre los requisitos previos y la planificación de la implementación, vea [Planear enrutamiento directo](direct-routing-plan.md).
 
 Para completar los pasos explicados en este artículo, los administradores necesitan cierta familiaridad con los cmdlets de PowerShell. Para obtener más información sobre el uso de PowerShell, vea [Configurar el equipo para Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
 
@@ -46,20 +43,22 @@ Antes de realizar los pasos de estos artículos, Microsoft recomienda que confir
 - [Documentación de implementación de TE-Systems (anynode)](https://www.anynode.de/anynode-and-microsoft-teams/)
 - [Documentación de implementación de Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
-Para obtener una lista completa de SBC compatibles, vea Lista de controladores de [borde de sesión certificados para enrutamiento directo.](direct-routing-border-controllers.md)
+Para obtener una lista completa de SBC compatibles, vea [Controladores de borde de sesión certificados para enrutamiento directo](direct-routing-border-controllers.md).
 
-Para configurar Teléfono Microsoft sistema y permitir a los usuarios usar enrutamiento directo, siga estos pasos: 
+Para configurar Sistema telefónico y permitir a los usuarios usar enrutamiento directo, siga estos pasos: 
 
-- **Paso 1.** [Conectar el SBC con Teléfono Microsoft y validar la conexión](direct-routing-connect-the-sbc.md)
+- **Paso 1.** [Conectar el SBC con Sistema telefónico y validar la conexión](direct-routing-connect-the-sbc.md)
 - **Paso 2.** [Habilitar usuarios para enrutamiento directo, voz y correo de voz](direct-routing-enable-users.md)
 - **Paso 3.** [Configurar el enrutamiento de llamadas](direct-routing-voice-routing.md)
 - **Paso 4.** [Traducir números a un formato alternativo](direct-routing-translate-numbers.md) 
 
-Si está configurando un SBC para varios inquilinos, también querrá leer Configurar un [SBC para varios inquilinos.](direct-routing-sbc-multiple-tenants.md)
+Si está configurando un SBC para varios inquilinos, también querrá leer Configurar un [SBC para varios inquilinos](direct-routing-sbc-multiple-tenants.md).
 
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Enrutamiento directo del Sistema telefónico](direct-routing-landing-page.md)
+[Planear la solución de voz](cloud-voice-landing-page.md)
+
+[Opciones de conectividad RTC](pstn-connectivity.md)
 
 [Planear el enrutamiento directo](direct-routing-plan.md)

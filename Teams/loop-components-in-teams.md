@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a43ea4c217e09ad4473513fd21e159bd15c89716
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+ms.openlocfilehash: 175b7f4bf8d181ae7e66edb255bd32dd40bb2fa1
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312456"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518982"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Información general sobre los componentes de bucle en Teams
 
@@ -81,3 +81,7 @@ Los archivos .fluid solo se pueden abrir como vínculos en el explorador, como O
 - Los invitados B2B no podrán colaborar en un componente activo que se comparte con ellos a través  de los vínculos de personas de su organización, a menos que el inquilino establece una opción de acceso externo para permitir que los invitados B2B tengan el mismo nivel de acceso que los miembros del inquilino. Para obtener más información, vea [Configurar la configuración de colaboración externa B2B](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings).
 - Los componentes de bucle no son compatibles Teams canales.
 - Los componentes de bucle en el chat no se cargarán solo si el archivo se movió a una biblioteca diferente. Si el archivo se mueve a otra carpeta, se seguirá cargando en el chat.
+
+## <a name="related-topics"></a>Temas relacionados
+
+[Administrar componentes de bucle en SharePoint](/sharepoint/manage-loop-components)

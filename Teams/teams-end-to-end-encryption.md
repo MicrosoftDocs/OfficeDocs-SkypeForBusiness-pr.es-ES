@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdc626510a180185cae699106c1420880ea55e73
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: cdce0e30c1aaa3b40f362acda47c1a9ffa35161f
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579708"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518942"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls-public-preview"></a>Usar el cifrado de un extremo a otro para las llamadas de Microsoft Teams uno a uno (versión preliminar pública)
 
@@ -77,7 +77,7 @@ Complete estas tareas para que los usuarios puedan realizar llamadas cifradas de
 
 La directiva global, predeterminada para toda la organización especifica que el cifrado de un extremo a otro está deshabilitado. Los usuarios de su organización obtendrán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada. Para habilitar el cifrado de un extremo a otro, cree una nueva directiva de cifrado o modifique la directiva predeterminada global. Para habilitar el cifrado de un extremo a otro mediante el Centro de administración de Teams, complete estos pasos.
 
-1. Con una cuenta profesional o educativa a la que se haya asignado el rol de administrador global o de Teams, inicie sesión en el centro de administración de [Teams](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+1. Con una cuenta profesional o educativa a la que se haya asignado el rol de administrador global o de Teams, inicie sesión en el centro de administración de [Teams](https://admin.teams.microsoft.com/).
 
 2. Vaya a **Otra configuración** > **Directivas de cifrado mejoradas**.
 

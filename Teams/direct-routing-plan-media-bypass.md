@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo planear la omisión de medios con Sistema telefónico enrutamiento directo, lo que le permite acortar la ruta del tráfico multimedia y mejorar el rendimiento.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d9a38772cd9119a7717608726db45bce6055229
-ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
+ms.openlocfilehash: 560a3a5802469b0cb17170dfae377d8d6f358c8b
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2022
-ms.locfileid: "62064886"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518622"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -42,11 +42,11 @@ Sin omisión de medios, cuando un cliente realiza o recibe una llamada, tanto la
 
 Pero supongamos que un usuario está en el mismo edificio o red que el SBC. Por ejemplo, supongamos que un usuario que se encuentra en un edificio de Fráncfort realiza una llamada a un usuario RTC: 
 
-- **Sin el desvío** de medios, los medios fluirán a través de Ámsterdam o Dublín (donde se implementan los centros de datos de Microsoft) y de nuevo al SBC de Fráncfort. 
+- **Sin el desvío** de medios, los medios fluirán a través de Ámsterdam o Dublín (donde se implementan los centros de datos de Microsoft) y volverán al SBC en Frankfurt. 
 
   El centro de datos en Europa está seleccionado porque el SBC está en Europa y Microsoft usa el centro de datos más próximo al SBC. Aunque este enfoque no afecta a la calidad de las llamadas debido a la optimización del flujo de tráfico dentro de las redes de Microsoft en la mayoría de las geografías, el tráfico tiene un bucle innecesario.     
 
-- **Con la omisión** de medios, el medio se mantiene directamente entre el Teams y el SBC como se muestra en el diagrama siguiente:
+- **Con la** omisión de medios, el contenido multimedia se mantiene directamente entre el Teams y el SBC como se muestra en el diagrama siguiente:
 
   > [!div class="mx-imgBorder"]
   > ![Muestra la señalización y el flujo de medios con la omisión de medios.](media/direct-routing-media-bypass-2.png)
@@ -70,7 +70,7 @@ Si el usuario tiene acceso directo a la dirección IP pública del SBC, el flujo
 
 En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la omisión de medios, el cliente es interno y el cliente puede llegar a la dirección IP pública del SBC (medios directos): 
 
-- Las flechas y los valores numéricos de las rutas de acceso se ajustan a [Microsoft Teams de llamadas.](./microsoft-teams-online-call-flows.md)
+- Las flechas y los valores numéricos de las rutas de acceso se ajustan a Microsoft Teams [de llamadas](./microsoft-teams-online-call-flows.md).
 
 - La señalización SIP siempre toma trayectorias 4 y 4' (según la dirección del tráfico). Multimedia permanece local y toma la ruta 5b.
 
@@ -91,7 +91,7 @@ Por ejemplo, suponga que el usuario es externo y el administrador de inquilinos 
 
 En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la omisión de medios, el cliente es externo y el cliente no puede llegar a la dirección IP pública del controlador de borde de sesión (los medios se retransmiten Teams Retransmisión de transporte).
 
-- Las flechas y los valores numéricos de las rutas de acceso se ajustan a [Microsoft Teams de llamadas.](./microsoft-teams-online-call-flows.md)
+- Las flechas y los valores numéricos de las rutas de acceso se ajustan a Microsoft Teams [de llamadas](./microsoft-teams-online-call-flows.md).
 
 - Los medios se retransmiten a través de las rutas 3, 3', 4 y 4'
 
@@ -106,7 +106,7 @@ En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la o
 
 En el siguiente diagrama se muestra el flujo de llamadas cuando se habilita la omisión de medios, el cliente es externo y el cliente puede llegar a la dirección IP pública del SBC (medios directos).
 
-- Las flechas y los valores numéricos de las rutas de acceso se ajustan al [artículo Microsoft Teams flujos de llamadas.](./microsoft-teams-online-call-flows.md)
+- Las flechas y los valores numéricos de las rutas de acceso se ajustan al [artículo Microsoft Teams flujos de llamadas](./microsoft-teams-online-call-flows.md).
 
 - La señalización SIP siempre toma trayectorias 3 y 3' (según la dirección del tráfico). Los flujos multimedia usan la ruta 2.
 
@@ -179,17 +179,17 @@ El enrutamiento directo se ofrece en los siguientes Microsoft 365 o Office 365 e
 - Microsoft 365 o Office 365
 - Office 365 GCC
 - Office 365 GCC High
-- Office 365 doD Obtenga más información sobre Office 365 y [entornos](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) gubernamentales de EE. UU. como GCC, GCC high y DoD.
+- Office 365 DoD Obtenga más información sobre Office 365 [entornos](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) gubernamentales de Ee. UU. como GCC, GCC high y DoD.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 y Office 365 GCC entornos
 
 Los puntos de conexión para enrutamiento directo son los tres FQDN siguientes:
 
-- **sip.pstnhub.microsoft.com:** FQDN global, debe probarse primero. Cuando el SBC envía una solicitud para resolver este nombre, los servidores DNS Microsoft Azure devuelven una dirección IP que apunta al centro de datos de Azure principal asignado al SBC. La tarea se basa en las métricas de rendimiento de los centros de datos y la proximidad geográfica al SBC. La dirección IP devuelta corresponde al FQDN principal.
+- **sip.pstnhub.microsoft.com** : FQDN global, debe probarse primero. Cuando el SBC envía una solicitud para resolver este nombre, los servidores DNS Microsoft Azure devuelven una dirección IP que apunta al centro de datos de Azure principal asignado al SBC. La tarea se basa en las métricas de rendimiento de los centros de datos y la proximidad geográfica al SBC. La dirección IP devuelta corresponde al FQDN principal.
 
-- **sip2.pstnhub.microsoft.com:** FQDN secundario, se asigna geográficamente a la región de segunda prioridad.
+- **sip2.pstnhub.microsoft.com** : FQDN secundario, se asigna geográficamente a la región de segunda prioridad.
 
-- **sip3.pstnhub.microsoft.com:** FQDN terciario, se asigna geográficamente a la región de tercera prioridad.
+- **sip3.pstnhub.microsoft.com** : FQDN terciario, se asigna geográficamente a la región de tercera prioridad.
 
 Debe colocar estos tres FQDN para:
 
@@ -208,7 +208,7 @@ Debe abrir puertos para todos estos intervalos IP en el firewall para permitir e
 
 El punto de conexión para enrutamiento directo es el siguiente FQDN:
 
-**sip.pstnhub.dod.teams.microsoft.us:** FQDN global. Como el Office 365 DoD solo existe en los centros de datos de EE. UU., no hay FQDN secundarios y terciarios.
+**sip.pstnhub.dod.teams.microsoft.us** : FQDN global. Como el Office 365 DoD solo existe en los centros de datos de EE. UU., no hay FQDN secundarios y terciarios.
 
 El fqdn sip.pstnhub.dod.teams.microsoft.us se resolverá en una dirección IP de la siguiente subred:
 
@@ -220,7 +220,7 @@ Debe abrir puertos para todos estos intervalos IP en el firewall para permitir e
 
 El punto de conexión para enrutamiento directo es el siguiente FQDN:
 
-**sip.pstnhub.gov.teams.microsoft.us:** FQDN global. Como el GCC high solo existe en los centros de datos de EE. UU., no hay FQDN secundarios y terciarios.
+**sip.pstnhub.gov.teams.microsoft.us** : FQDN global. Como el GCC high solo existe en los centros de datos de EE. UU., no hay FQDN secundarios y terciarios.
 
 El fqdn sip.pstnhub.gov.teams.microsoft.us se resolverá en una dirección IP de la siguiente subred:
 
@@ -257,8 +257,8 @@ El cliente debe tener acceso a los puertos especificados (ver tabla) en la direc
 
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Cliente | SBC | 3478-3481 y los puertos configurados por el administrador de inquilinos para el cliente (el valor predeterminado es 50000-50020)| Definido en el SBC |
-| UDP/SRTP | SBC | Cliente | Definido en el SBC | 3478-3481 y los puertos configurados por el administrador de inquilinos para el cliente (el valor predeterminado es 50000-50020)  |
+| UDP/SRTP | Cliente | SBC | 50000-50019| Definido en el SBC |
+| UDP/SRTP | SBC | Cliente | Definido en el SBC | 50000-50019  |
 
 
 > [!NOTE]
@@ -350,7 +350,7 @@ En el ejemplo siguiente se muestra esta lógica.
 | Usuarios con tronco de omisión no multimedia | 980 | sbc1.contoso.com:5061 | falso |
 | Usuarios con tronco de omisión multimedia | 20 | sbc2.contoso.com:5060 | verdadero | 
 
-Ambos troncos pueden apuntar al mismo SBC con la misma dirección IP pública. Los puertos de señalización TLS del SBC deben ser diferentes, como se muestra en el siguiente diagrama. Tenga en cuenta que tendrá que asegurarse de que el certificado admite ambos troncos. En SAN, debe tener dos nombres **(sbc1.contoso.com** y **sbc2.contoso.com)** o tener un certificado comodín.
+Ambos troncos pueden apuntar al mismo SBC con la misma dirección IP pública. Los puertos de señalización TLS del SBC deben ser diferentes, como se muestra en el siguiente diagrama. Tenga en cuenta que tendrá que asegurarse de que el certificado admite ambos troncos. En SAN, debe tener dos nombres (**sbc1.contoso.com** y **sbc2.contoso.com**) o tener un certificado comodín.
 
 > [!div class="mx-imgBorder"]
 > ![Muestra que ambos troncos pueden apuntar al mismo SBC con la misma IP pública.](media/direct-routing-media-bypass-7.png)

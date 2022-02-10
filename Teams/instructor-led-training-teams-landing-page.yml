@@ -62,9 +62,9 @@ additionalContent:
   sections:
     - title: Cursos
       items:
-        - title: Certificación de especialista en trabajo en equipo
-          summary: La colaboración es una habilidad vital para la fuerza de trabajo actual. Obtenga información sobre cómo las características sólidas de Microsoft Teams le permiten mantenerse conectado y trabajar de forma más eficiente con su equipo
+        - title: Ruta de acceso Learning trabajo en equipo
+          summary: La colaboración es una habilidad vital para la fuerza de trabajo actual. Obtenga información sobre cómo las características sólidas de Microsoft Teams le permiten mantenerse conectado y trabajar de forma más eficiente con su equipo.
           url: /learn/paths/teamwork-specialist
-        - title: Certificación de especialista en adopción de servicios
-          summary: El curso de certificación especialista en adopción de servicios de Microsoft Teams. Obtenga información sobre cómo impulsar la adopción de servicios Microsoft en su organización
+        - title: Ruta de acceso del Learning de adopción de servicios
+          summary: El Especialista en adopción de servicios de Microsoft Learning ruta de acceso Teams y otros Microsoft 365 servicios. Obtenga información sobre cómo impulsar la adopción de servicios Microsoft en su organización.
           url: /learn/paths/m365-service-adoption
