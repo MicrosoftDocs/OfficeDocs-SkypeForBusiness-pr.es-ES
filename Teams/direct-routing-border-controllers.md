@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 71ba2fc6856b57a2619122b1c7341404651d4e8f
-ms.sourcegitcommit: b1d1a2b27c9dbc73a306bd69696fceda77688b26
+ms.openlocfilehash: 69add2b195da03dee69b2a33583b5dbed8f614e8
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2022
-ms.locfileid: "62432859"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518932"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -37,20 +37,20 @@ Microsoft trabaja con cada proveedor para:
 - Establecer un proceso de soporte conjunto con los proveedores de CLS.
 
   > [!NOTE]
-  > Microsoft solo admite el Sistema telefónico si hay uno o varios dispositivos certificados conectados a través del Enrutamiento directo. En caso de problemas, el cliente debe ponerse en contacto primero con el servicio de atención al cliente del proveedor de CLS. Si es necesario, el proveedor de CLS remitirá el problema a Microsoft a través de canales internos. Microsoft se reserva el derecho a rechazar casos de soporte técnico de dispositivos no certificados conectados al Sistema telefónico a través del Enrutamiento directo. Si Microsoft determina que el problema de Enrutamiento directo de un cliente está relacionado con el dispositivo de un proveedor de CLS, el cliente deberá ponerse en contacto con el proveedor de CLS para obtener soporte técnico.
+  > Microsoft solo admite un sistema telefónico con enrutamiento directo cuando se usa con dispositivos certificados. En caso de problemas, debe ponerse en contacto con el servicio de atención al cliente del proveedor de SBC  Si es necesario, el proveedor de CLS remitirá el problema a Microsoft a través de canales internos. Microsoft se reserva el derecho a rechazar casos de soporte técnico de dispositivos no certificados conectados al Sistema telefónico a través del Enrutamiento directo. Si Microsoft determina que el problema de Enrutamiento directo de un cliente está relacionado con el dispositivo de un proveedor de CLS, el cliente deberá ponerse en contacto con el proveedor de CLS para obtener soporte técnico.
   >
   > La certificación se concede a versiones de firmware CLS específicas. Cualquier versión de firmware CLS documentada a continuación está certificada y admitida. Se admiten versiones de firmware superiores a las documentadas siempre que la versión principal secundaria sea la misma.
   >
   > Ejemplo:
   >
-  > - Compatible con 6.10.258: en este caso, también se admiten las versiones de firmware 6.10. (258 o superior).
-  > - Recomendado 6.20.100: en este caso, también se recomienda la versión de firmware 6.20. (100 o superior).
+  > - Compatible con 6.10.258: en este caso, Microsoft admite las versiones de firmware 6.10. (258 o superior).
+  > - Recomendado 6.20.100: en este caso, Microsoft recomienda las versiones de firmware 6.20. (100 o superior).
   > - Si tiene preguntas de compatibilidad sobre una versión específica, póngase en contacto con su proveedor de CLS.
 
 En las tablas siguientes se enumeran los dispositivos certificados para Enrutamiento directo. (Para obtener información sobre qué proveedores de CLS admiten la optimización de medios locales, vea [Configurar la optimización de medios locales para el enrutamiento directo](direct-routing-media-optimization-configure.md)).
 
 [Obtenga más información sobre el Enrutamiento directo](https://aka.ms/dr).
-Si tiene alguna pregunta sobre el programa de certificación de CLS para Enrutamiento directo, escriba un correo electrónico a drsbccertification@microsoft.com Tenga en cuenta que no aceptamos nuevas nominaciones para la certificación hasta nuevo aviso.
+Si tiene alguna pregunta sobre el programa de certificación SBC para enrutamiento directo, póngase en contacto con drsbccertification@microsoft.com. Tenga en cuenta que no aceptamos nuevas nominaciones para la certificación hasta nuevo aviso.
 <br/>
 
 ## <a name="certified-sbc-vendors"></a>Proveedores de CLS certificados
@@ -95,7 +95,7 @@ Si tiene alguna pregunta sobre el programa de certificación de CLS para Enrutam
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Vínculo de Orchid    |     &#10004;     |           |      3.1        |     |    |
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    CLS de Teams    |     &#10004;     |     &#10004;      |      1.6        |     |    |
-|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Controlador de límites de sesión de Atos Unify OpenScape   |     &#10004;     |   &#10004;        |     Compatible sin Media Bypass V10R1.2 (recomendado para Media Bypass V10R2.2.0)     |     |    |
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Controlador de límites de sesión de Atos Unify OpenScape   |     &#10004;     |   &#10004;        |     V10R2.2.0     |     |    |
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    CLS de BorderNet Dialogic   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
@@ -173,7 +173,7 @@ En la tabla siguiente se enumeran los dispositivos que se comprueban para la int
 | [Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. Versión de software: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  Anynode con GXW42xx de Grandstream (V1.0.7.10) |     &#10004;     |
   
-Para enviarnos sus comentarios sobre Microsoft Teams, como ideas para nuevas características, consulte [UserVoice](https://microsoftteams.uservoice.com).
+Para enviar sus comentarios sobre Teams, como ideas para nuevas características, consulte [UseVoice](https://microsoftteams.uservoice.com).
 
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
