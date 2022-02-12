@@ -20,12 +20,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74b3f81456b8d0acdff0c41678c04713b5cf967a
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: cb32190c05dcbe165e203d9e4f097622d60943b8
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288418"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763405"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Introducción a Teams para el comercio
 
@@ -167,7 +167,7 @@ En el caso de entornos comerciales, las siguientes aplicaciones y servicios pued
 
 | Más aplicaciones y servicios de Microsoft | Descripción | Manage | Ayuda |
 | ----- | ----- | ----- | ----- |
-| Bookings | Habilitar las consultas y los accesorios virtuales. | [Visitas virtuales con Microsoft Teams y la aplicación Bookings](bookings-virtual-visits.md) | [Usar Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
+| Bookings | Habilitar las consultas y los accesorios virtuales. | [Consultas virtuales con Microsoft Teams y la aplicación Bookings](bookings-virtual-visits.md) | [Usar Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
 | Power Apps y Power Platform | Integre procesos empresariales y habilite actualizaciones rápidas de datos, como inventario de almacén, números de ventas, informes de incidentes y mucho más. | [integración de Teams con Microsoft Power Platform](../teams-power-platfom-integration.md) y [Administrar aplicaciones de Microsoft Power Platform en el Centro de administración de Microsoft Teams](../manage-power-platform-apps.md) | -  |
 | SharePoint | Al crear un nuevo equipo, se crea un nuevo sitio de SharePoint y se conecta al equipo. Muchos de los escenarios anteriores se basan en características de SharePoint ya insertadas en Teams, como compartir documentos para la colaboración en equipo. | [Integración de Teams y SharePoint](/sharepoint/teams-connected-sites) | [Agregar una página, lista o biblioteca de documentos de SharePoint como una pestaña en Teams](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)|
 | Conexiones Viva | Conexiones Viva crea un centro en Teams en el que los asociados comerciales pueden ver una fuente de noticias personalizada de su organización y un panel personalizado con los recursos que necesitan. | [Información general sobre Conexiones Viva](/sharepoint/viva-connections-overview) | [Conexiones Viva en Microsoft Teams](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) |
@@ -194,8 +194,8 @@ Ahora que sabe qué escenarios quiere implementar y qué necesita para admitirlo
 
 | Imagen | Rol | Responsabilidades | Departamento |
 | ---- | ---- | ----- | ----- |
-| ![Símbolo de administrador.](https://docs.microsoft.com/office/media/icons/administrator.png) | Administrador de TI | Trabaje con el personal de operaciones y administración de comercio para definir escenarios y cómo funcionarán para la organización. <br><br>Configure las opciones en el Centro de administración de Teams, como directivas y plantillas, y habilite las aplicaciones. <br><br>Configure los valores de la aplicación (como la configuración global de Turnos) para la organización. <br><br>Agregar y licenciar usuarios.  | Departamento de TI |
-| ![Símbolo de monitor de usuario.](https://docs.microsoft.com/office/media/icons/user-monitor.png) | Personal de Operaciones | Trabaje con los Administradores para definir escenarios y determinar qué configuraciones, directivas, plantillas y aplicaciones son necesarias para Teams. <br><br>Cree equipos regionales o de división a partir de plantillas. <br><br>Configure tareas, listas y flujos de aprobación para la coordinación entre los almacenes de una región o entre los almacenes y las oficinas centrales. <br><br>Configurar el marco de aprendizaje para el personal. | Operaciones centrales |
-| ![Símbolo moderador.](https://docs.microsoft.com/office/media/icons/presenter-teams.png) | Administrador del almacén | Trabaje con Administradores y personal de Operaciones para definir escenarios. <br><br>Crear equipos para el almacén a partir de plantillas. <br><br>Configure canales y aplicaciones para los equipos, según sea necesario. Por ejemplo: un canal para entregas de turnos. <br><br>Configure las programaciones del almacén en Turnos. <br><br>Configure tareas, listas y flujos de aprobación específicos del almacén. <br><br>Configurar tareas de aprendizaje para el personal. | Administración del almacén |
+|<img src="/office/media/icons/administrator.png" alt="Administrator symbol."> | Administrador de TI | Trabaje con el personal de operaciones y administración de comercio para definir escenarios y cómo funcionarán para la organización. <br><br>Configure las opciones en el Centro de administración de Teams, como directivas y plantillas, y habilite las aplicaciones. <br><br>Configure los valores de la aplicación (como la configuración global de Turnos) para la organización. <br><br>Agregar y licenciar usuarios.  | Departamento de TI |
+|<img src="/office/media/icons/user-monitor.png" alt="User monitor symbol.">| Personal de Operaciones | Trabaje con los Administradores para definir escenarios y determinar qué configuraciones, directivas, plantillas y aplicaciones son necesarias para Teams. <br><br>Cree equipos regionales o de división a partir de plantillas. <br><br>Configure tareas, listas y flujos de aprobación para la coordinación entre los almacenes de una región o entre los almacenes y las oficinas centrales. <br><br>Configurar el marco de aprendizaje para el personal. | Operaciones centrales |
+|<img src="/office/media/icons/presenter-teams.png" alt="Presenter symbol."> | Administrador del almacén | Trabaje con Administradores y personal de Operaciones para definir escenarios. <br><br>Crear equipos para el almacén a partir de plantillas. <br><br>Configure canales y aplicaciones para los equipos, según sea necesario. Por ejemplo: un canal para entregas de turnos. <br><br>Configure las programaciones del almacén en Turnos. <br><br>Configure tareas, listas y flujos de aprobación específicos del almacén. <br><br>Configurar tareas de aprendizaje para el personal. | Administración del almacén |
 
 Para obtener más información sobre cómo implementar y adoptar correctamente Teams, vea [Adoptar Microsoft Teams](../adopt-microsoft-teams-landing-page.md).
