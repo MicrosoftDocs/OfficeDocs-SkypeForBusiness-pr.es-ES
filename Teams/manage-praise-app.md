@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Obtenga información sobre cómo administrar la aplicación Elogio en el centro Microsoft Teams administración.
-ms.openlocfilehash: 064a1b90db44971e2fd796ea96de2a3523f7f380
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 24ddbc66018056360e226f13669ee3dae1e78db5
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401614"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763315"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Administrar la Elogio en el centro Microsoft Teams administración
 
@@ -47,7 +47,7 @@ Este es el conjunto predeterminado de distintivos en Elogio. Teams usuarios de s
 :::image type="content" source="media/default-set-praise.png" alt-text="Imagen de los distintivos en el conjunto de distintivos predeterminado.":::
 
 > [!NOTE]
-> A partir de febrero de 2022, los usuarios solo pueden enviar y recibir distintivos predeterminados. Los distintivos personalizados ya no están disponibles y las opciones para los distintivos personalizados se quitarán  de la página de Configuración de la aplicación en el centro de administración de Teams próximamente.
+> A partir de febrero de 2022, los usuarios solo pueden enviar y recibir distintivos predeterminados. Los distintivos personalizados ya no están disponibles y las opciones para los distintivos personalizados se han quitado del Teams de administración.
 
 ## <a name="related-articles"></a>Artículos relacionados
 

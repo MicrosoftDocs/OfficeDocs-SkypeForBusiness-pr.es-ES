@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Busque y administre actualizaciones para Skype Empresarial Server 2015/2019 y Lync 2013 en un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y, después, descárguelas.
-ms.openlocfilehash: e90155c15909ca876362990ba2754e4b136d2ac6
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ea8d88f9287c8795ee3b3f4252c2e0664695a44a
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012384"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763345"
 ---
 # <a name="skype-for-business-server-updates"></a>Actualizaciones de Skype Empresarial Server
 
-Busque y administre actualizaciones para [Skype Empresarial Server 2019](#skype-for-business-server-2019-update-history), [Skype Empresarial Server 2015](#skype-for-business-server-2015-update-history), [Lync Server 2013](#lync-server-2013-update-history)y [Lync Server 2010](#lync-server-2010-update-history) en un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y, después, descárguelas.
+Busque y administre actualizaciones para [Skype Empresarial Server 2019](#skype-for-business-server-2019-update-history), [Skype Empresarial Server 2015](#skype-for-business-server-2015-update-history), [Lync Server 2013](#lync-server-2013-update-history) y [Lync Server 2010](#lync-server-2010-update-history) en un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y, después, descárguelas.
 
-Para obtener las últimas Skype Empresarial online y Microsoft 365 actualizaciones, consulte el [Microsoft 365 guía básica](https://go.microsoft.com/fwlink/p/?linkid=529454).
+Para obtener las últimas Skype Empresarial online y Microsoft 365 actualizaciones, consulte [el Microsoft 365 guía básica](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Skype Empresarial Server de actualizaciones de 2019
 
@@ -54,17 +54,18 @@ Kb 4470124 es el KB principal de Skype Empresarial Server 2019 que tiene toda la
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Skype Empresarial Server de actualizaciones de 2015
 
-[Kb 3061064](https://support.microsoft.com/kb/3061064) todas las actualizaciones acumulativas que se han publicado. 
+[La 3061064 KB](https://support.microsoft.com/kb/3061064) contiene todas las actualizaciones acumulativas que se han publicado. 
 
 |Nombre del paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
-|Skype Empresarial Server 2015 Actualización acumulativa 12|[KB 3061064](https://support.microsoft.com/kb/3061064)| Agosto de 2021 |
-|Skype Empresarial Server 2015 Actualización acumulativa 11 Revisión 2|[KB 3061064](https://support.microsoft.com/kb/3061064)| Noviembre de 2020 |
-|Skype Empresarial Server 2015 Actualización acumulativa 11 Revisión 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Julio de 2020 |
-|Skype Empresarial Server 2015 Actualización acumulativa 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 de mayo de 2020 |
-|Skype Empresarial Server 2015 Actualización acumulativa 10 Revisión 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Agosto de 2019 |
-|Skype Empresarial Server 2015 Actualización acumulativa 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Julio de 2019 |
-|Actualización acumulativa 9 para Skype Empresarial Server 2015, Servidor de componentes web|[Kb 4487981](https://support.microsoft.com/kb/4487981)| Mayo de 2019 |
+|Skype Empresarial Server 2015 Actualización acumulativa 12 Revisión 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|Febrero de 2022 |
+|Skype Empresarial Server 2015 Actualización acumulativa 12|[KB 3061064](https://support.microsoft.com/kb/3061064)|Agosto de 2021 |
+|Skype Empresarial Server 2015 Actualización acumulativa 11 Revisión 2|[KB 3061064](https://support.microsoft.com/kb/3061064)|Noviembre de 2020 |
+|Skype Empresarial Server 2015 Actualización acumulativa 11 Revisión 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|Julio de 2020 |
+|Skype Empresarial Server 2015 Actualización acumulativa 11|[KB 3061064](https://support.microsoft.com/kb/3061064)|13 de mayo de 2020 |
+|Skype Empresarial Server 2015 Actualización acumulativa 10 Revisión 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|Agosto de 2019 |
+|Skype Empresarial Server 2015 Actualización acumulativa 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)|Julio de 2019 |
+|Actualización acumulativa 9 para Skype Empresarial Server 2015, Servidor de componentes web|[Kb 4487981](https://support.microsoft.com/kb/4487981)|Mayo de 2019 |
 |Actualización acumulativa 8 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral|[Kb 4464355](https://support.microsoft.com/kb/4464355)|Enero de 2019|
 |Actualización acumulativa 7 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral |[Kb 4340904](https://support.microsoft.com/kb/4340904) |Julio de 2018 |
 |Actualización acumulativa 6 Revisión 2 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral |[Kb 4086059](https://support.microsoft.com/kb/4086059) |Marzo de 2018 |
@@ -91,7 +92,7 @@ Kb 4470124 es el KB principal de Skype Empresarial Server 2019 que tiene toda la
 
 ## <a name="lync-server-2013-update-history"></a>Historial de actualizaciones de Lync Server 2013
 
-[Kb 2809243](https://support.microsoft.com/kb/2809243) contiene todas las actualizaciones acumulativas que se han publicado.
+[Kb 2809243](https://support.microsoft.com/kb/2809243) todas las actualizaciones acumulativas que se han publicado.
 
 |Nombre del paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
@@ -231,7 +232,7 @@ Nombre del paquete |Fecha de lanzamiento|
 | Herramienta de planeación de Lync Server 2010 |Febrero de 2011 |
 | Herramientas del Kit de recursos de Lync Server 2010|Mayo de 2012 |
 | Herramienta de esfuerzo y rendimiento de Lync Server 2010 |Marzo de 2011 |
-|[Galería de símbolos de Lync Server 2010 Visio](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|Febrero de 2011 |
+|[Galería de símbolos Visio Lync Server 2010](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|Febrero de 2011 |
 | Programador web de Lync Server 2010 |Abril de 2011 |
 
 ### <a name="lync-2010-downloadable-documentation"></a>Documentación descargable de Lync 2010
@@ -241,14 +242,14 @@ Nombre del paquete |Fecha de lanzamiento|
 |[Archivo de ayuda de documentación de Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|Marzo de 2012 |
 |[Página de bienvenida de Lync Server 2010](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|Octubre de 2012 |
 |[Documentación de MI un experto para Microsoft Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|Marzo de 2012 |
-|[Notas de la versión de Lync 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|Enero de 2011 |
+|[Notas de la versión de Lync 2010.aspx](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3))|Enero de 2011 |
 |[Notas de la versión de Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|Enero de 2011 |
 |[Léame de la herramienta de planeación de Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|Enero de 2011 |
 |[Diagramas de arquitectura de referencia del servidor perimetral de Lync Server 2010](https://www.microsoft.com/download/details.aspx?id=13791)|Marzo de 2011 |
 
 ### <a name="resource-kit-technical-reference"></a>Kit de recursos (referencia técnica)
 
-Visite el sitio de descarga del Kit de recursos de [Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) para descargar capítulos de libros individualmente O descargue un archivo .zip que contenga los [19 capítulos](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip)del kit de recursos .
+Visite el sitio de descarga del Kit de recursos de [Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) para descargar capítulos de libros individualmente O descargue un archivo .zip que contenga los [19 capítulos del kit de recursos](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).
 
 ### <a name="group-chat"></a>Group Chat
 

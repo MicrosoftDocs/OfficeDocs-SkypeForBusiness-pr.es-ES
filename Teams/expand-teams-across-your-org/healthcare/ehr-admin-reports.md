@@ -1,5 +1,5 @@
 ---
-title: 'Teams para visitas virtuales: informes de administrador del conector EHR'
+title: 'Visitas virtuales en Teams: informes de administrador del conector EHR'
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,23 +8,28 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_Healthcare
-  - microsoftcloud-healthcare
-  - m365solution-healthcare
-  - m365solution-scenario
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-scenario
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.reviewer: ansantam
 description: Ver informes de administradores para Teams de conectorES EHR
+ms.openlocfilehash: 3f85d48493822db3a26851d281f7a5fddf813960
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763305"
 ---
-
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams de administrador del conector EHR
 
 El Microsoft Teams de administrador del conector de registro de estado electrónico (EHR) proporciona una vista rápida y fácil de leer de los datos de uso.
@@ -33,7 +38,7 @@ Puede ver el informe Teams administrador del conector EHR yendo al panel Microso
 
 Acceda al informe desde el panel Microsoft Teams centro de administración.
 
- ![un cuadro de diálogo de las asignaciones y límites de las visitas virtuales.](../../media/admin-connector-report.png)
+ ![un cuadro de diálogo de asignaciones y límites de visitas virtuales.](../../media/admin-connector-report.png)
 
 El cuadro de diálogo proporciona los siguientes datos:
 

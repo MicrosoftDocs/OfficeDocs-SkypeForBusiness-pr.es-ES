@@ -20,23 +20,23 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
-description: Obtenga información sobre cómo usar la aplicación Bookings en Teams programar, administrar y realizar visitas virtuales.
-ms.openlocfilehash: ae74a4195bc8aa0deeca81221e70fe28890938ec
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+description: Obtenga información sobre cómo programar, administrar y realizar visitas virtuales con la aplicación Bookings en Teams.
+ms.openlocfilehash: 5734dbde3db60e5595a1c712bdfb7849dc86485e
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312353"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763804"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuales con Microsoft Teams y la aplicación Bookings
 
 ## <a name="overview"></a>Información general
 
-La [aplicación Bookings en](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) Microsoft Teams proporciona a las organizaciones una forma sencilla de programar y administrar citas virtuales para el personal y los asistentes. Úsese para programar citas virtuales, como visitas sanitarias, consultas financieras, entrevistas, asistencia al cliente, accesorios y consultas virtuales, horas de oficinas educativas y mucho más.
+La [aplicación Bookings en](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) Microsoft Teams proporciona a las organizaciones una forma sencilla de programar y administrar citas virtuales para el personal y los asistentes. Úsese esta opción para programar citas como visitas sanitarias, consultas financieras, entrevistas, asistencia al cliente, accesorios y consultas virtuales, horas de oficina de educación y mucho más.
 
 La aplicación Bookings facilita la administración de las complejas demandas de programación de cualquier organización. Los programadores pueden administrar varios calendarios de departamento y de personal, así como las comunicaciones con los asistentes internos y externos desde una sola experiencia.
 
-Las visitas virtuales se realizarán Microsoft Teams reuniones, que ofrecen funciones de videoconferencia sólidas. Por ejemplo, un médico puede compartir su pantalla y revisar los resultados de las pruebas con un paciente. O bien, un asesor bancario puede solicitar firmas electrónicas en los documentos, lo que les permite cerrar transacciones de forma remota.
+Las citas virtuales se mantienen a través Microsoft Teams reuniones, que ofrecen sólidas capacidades de videoconferencia. Por ejemplo, un médico puede compartir su pantalla y revisar los resultados de las pruebas con un paciente. O bien, un asesor bancario puede solicitar firmas electrónicas en los documentos, lo que les permite cerrar transacciones de forma remota.
 
 Cada cita virtual incluye un vínculo Teams reunión que se envía a los asistentes por correo electrónico, donde pueden unirse fácilmente desde un explorador web o Teams en cualquier dispositivo. Los avisos de correo electrónico automatizados ayudan a reducir la falta de presentaciones y a mejorar la participación de clientes y clientes.
 
@@ -44,11 +44,11 @@ Con Bookings, obtiene una experiencia adaptada a su sector. Estos son algunos ej
 
 |Sector | Ejemplos |
 |---------|---------|
-|Servicios financieros    |  Visitas virtuales para ventas y servicios remotos<br/>Programe y administre citas virtuales para administradores de relaciones bancarias, asesores financieros y ajustadores de reclamaciones, por citar algunos, para servir a sus clientes con mayor eficiencia y comodidad.  |
-|Sanidad   |  Visitas virtuales para la atención de pacientes <br/>Programe y administre visitas virtuales para que los miembros del equipo de atención se reúnan con pacientes u otros proveedores de servicios de salud para hablar sobre la atención médica.   |
+|Servicios financieros    |  Visitas virtuales para ventas y servicios remotos<br/>Programe y administre citas para administradores de relaciones bancarias, asesores financieros y ajustadores de reclamaciones, por citar solo unos pocos, para servir a sus clientes con mayor eficiencia y comodidad.  |
 |Retail   | Accesorios y consultas virtuales <br/>Programe y administre citas para sus asociados de ventas, expertos en productos y consultores de diseño para llevar a cabo accesorios virtuales y consultas con los clientes.   |
+|Sanidad   |  Visitas virtuales para la atención de pacientes <br/>Programe y administre citas para que los miembros del equipo de atención se reúnan con pacientes u otros proveedores de servicios de salud para hablar sobre la atención médica.   |
 
-En este artículo se ofrece información general sobre cómo usar la aplicación Bookings en Teams programar, administrar y realizar visitas virtuales.
+Este artículo le ofrece información general sobre cómo programar, administrar y realizar visitas virtuales con la aplicación Bookings en Teams.
 
 ## <a name="before-you-get-started"></a>Antes de empezar
 
@@ -84,7 +84,7 @@ En el calendario de reserva, vaya a **Más opciones** (...) > **Tipos de** cita 
 
 La información y los vínculos que agregue se incluyen en la confirmación de correo electrónico que se envía a los asistentes cada vez que se reserva este tipo de cita. Incluso puede establecer avisos de correo electrónico y otras opciones, como si los asistentes pueden unirse desde un explorador [móvil sin tener](mobile-browser-join.md) que descargar Teams. Para obtener más información, vea [Crear un tipo de cita](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
-## <a name="schedule-a-virtual-visit"></a>Programar una visita virtual
+## <a name="schedule-a-visit"></a>Programar una visita
 
 En el calendario de reservas, seleccione **Nueva reserva**. Seleccione un tipo de cita y, a continuación, rellene la información relevante.
 
@@ -92,11 +92,11 @@ Esto incluye la información de contacto de los asistentes, el miembro del perso
 
 La confirmación por correo electrónico enviada al asistente incluye el vínculo de la reunión y un archivo adjunto para que puedan agregar la cita virtual a su calendario. El personal también recibe una confirmación por correo electrónico e invitación a la reunión.
 
-## <a name="conduct-a-virtual-visit"></a>Realizar una visita virtual
+## <a name="conduct-a-visit"></a>Realizar una visita
 
 En su Teams o Outlook, vaya a la reserva y, a continuación, seleccione Unirse o el  vínculo Teams reunión. Compruebe la configuración de audio y vídeo y, a continuación, seleccione **Unirse ahora**. Para obtener más información, consulte [Realizar una cita de Bookings](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
-## <a name="monitor-virtual-visits-and-get-real-time-status-updates"></a>Supervisar las visitas virtuales y obtener actualizaciones de estado en tiempo real
+## <a name="monitor-visits-and-get-real-time-status-updates"></a>Supervisar visitas y obtener actualizaciones de estado en tiempo real
 
 La [vista de cola](https://support.microsoft.com/office/queue-view-in-bookings-3eea2840-a1e0-4bcd-8e09-d3cf51c184d6) de Bookings proporciona a su personal un panel para supervisar todas las citas virtuales del día, con actualizaciones en tiempo real. Para ver la cola, vaya a la **pestaña Cola** en Bookings.
 

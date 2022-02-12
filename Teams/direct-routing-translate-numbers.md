@@ -1,6 +1,6 @@
 ---
 title: Traducir números de teléfono para enrutamiento directo
-ms.reviewer: ''
+ms.reviewer: filippse
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,23 +16,23 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar Teléfono Microsoft system direct routing.
-ms.openlocfilehash: 2e94da39c23c10a912f4b3f0433467439b5ecf77
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 2a9f5c92da348a47f5a6d24389254436f2fd510c
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766373"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763295"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>Traducir números de teléfono a un formato alternativo
 
-En este artículo se describe cómo traducir números para llamadas salientes y entrantes a un formato alternativo.  Este es el paso 4 de los siguientes pasos para configurar enrutamiento directo:
+En este artículo se describe cómo traducir números para llamadas salientes y entrantes a un formato alternativo. Este es el paso 4 de los siguientes pasos para configurar enrutamiento directo:
 
 - Paso 1. [Conectar el SBC con Teléfono Microsoft y validar la conexión](direct-routing-connect-the-sbc.md) 
 - Paso 2. [Habilitar usuarios para enrutamiento directo, voz y correo de voz](direct-routing-enable-users.md)   
 - Paso 3. [Configurar el enrutamiento de voz](direct-routing-voice-routing.md)
 - **Paso 4. Traducir números a un formato alternativo**   (este artículo)
 
-Para obtener información sobre todos los pasos necesarios para configurar el enrutamiento directo, vea [Configurar enrutamiento directo.](direct-routing-configure.md)
+Para obtener información sobre todos los pasos necesarios para configurar el enrutamiento directo, vea [Configurar enrutamiento directo](direct-routing-configure.md).
 
 A veces, es posible que los administradores de inquilinos quieran cambiar el número de las llamadas salientes y/o entrantes en función de los patrones que crearon para garantizar la interoperabilidad con los controladores de borde de sesión (SBC). En este artículo se describe cómo puede especificar una directiva reglas de traducción de números para traducir números a un formato alternativo. 
 
@@ -43,9 +43,9 @@ Puede usar la directiva Reglas de traducción de números para traducir números
 
 La directiva se aplica en el nivel SBC. Puede asignar varias reglas de traducción a un SBC, que se aplican en el orden en que aparecen al enumerarlos en PowerShell. También puede cambiar el orden de las reglas de la directiva.
 
-Para crear, modificar, ver y eliminar reglas de manipulación de números, use los [cmdlets New-CsTeamsTranslationRule](/powershell/module/skype/new-csteamstranslationrule), [Set-CsTeamsTranslationRule,](/powershell/module/skype/set-csteamstranslationrule) [Get-CsTeamsTranslationRule](/powershell/module/skype/get-csteamstranslationrule)y [Remove-CsTeamsTranslationRule.](/powershell/module/skype/remove-csteamstranslationrule)
+Para crear, modificar, ver y eliminar reglas de manipulación de números, use los cmdlets [New-CsTeamsTranslationRule](/powershell/module/skype/new-csteamstranslationrule), [Set-CsTeamsTranslationRule](/powershell/module/skype/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](/powershell/module/skype/get-csteamstranslationrule) y [Remove-CsTeamsTranslationRule](/powershell/module/skype/remove-csteamstranslationrule) .
 
-Para asignar, configurar y enumerar reglas de manipulación de números en SBC, use los cmdlets [New-CSOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) y [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway) junto con inboundTeamsNumberTranslationRules, Parámetros InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules y OutboundPSTNNumberTranslationRules.
+Para asignar, configurar y enumerar reglas de manipulación de números en SBC, use los cmdlets [New-CSOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) y [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway) junto con los parámetros InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules y OutboundPSTNNumberTranslationRules.
 
 > [!NOTE]
 > El número total máximo de reglas de traducción es 400, la longitud máxima del nombre del parámetro de traducción es de 100 símbolos, la longitud máxima del patrón de parámetros de traducción es de 1024 símbolos y la longitud máxima de traducción de parámetros de traducción es de 256 símbolos.
@@ -53,7 +53,7 @@ Para asignar, configurar y enumerar reglas de manipulación de números en SBC, 
 
 ## <a name="example-sbc-configuration"></a>Ejemplo de configuración de SBC
 
-En este escenario, el ```New-CsOnlinePSTNGateway``` cmdlet se ejecuta para crear la siguiente configuración de SBC:
+Para este escenario, el cmdlet New-CsOnlinePSTNGateway se ejecuta para crear la siguiente configuración de SBC:
 
 ```PowerShell
 New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,‘StripPlus1’  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
@@ -63,10 +63,10 @@ Las reglas de traducción asignadas al SBC se resumen en la tabla siguiente:
 
 |Nombre  |Patrón |Traducción  |
 |---------|---------|---------|
-|AddPlus1     |^(\d {10} )$          |+1$1          |
-|AddE164SeattleAreaCode      |^(\d {4} )$          | +1206555$1         |
-|AddSeattleAreaCode    |^(\d {4} )$          | 425555$1         |
-|StripPlus1    |^+1(\d {10} )$          | $1         |
+|AddPlus1     |^(\d{10})$          |+1$1          |
+|AddE164SeattleAreaCode      |^(\d{4})$          | +1206555$1         |
+|AddSeattleAreaCode    |^(\d{4})$          | 425555$1         |
+|StripPlus1    |^+1(\d{10})$          | $1         |
 
 En los ejemplos siguientes, hay dos usuarios, Alicia y Bob. Alice es un Teams cuyo número es +1 206 555 0100. Bob es un usuario RTC cuyo número es +1 425 555 0100.
 

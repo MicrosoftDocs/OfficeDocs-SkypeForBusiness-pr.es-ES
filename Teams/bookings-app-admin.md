@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Obtenga información sobre cómo administrar la aplicación Bookings en Teams usuarios de su organización.
-ms.openlocfilehash: 2bbc671b1054cfa4340abf7656e17939d147dea2
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: 147089c51ebc6d3e5eb6bf567579c9aa7fc5f2ce
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288348"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763734"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Administrar la aplicación Bookings en Microsoft Teams
 

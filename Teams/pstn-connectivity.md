@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Obtenga más información sobre Teams de llamadas (conectividad RTC) y las decisiones que tome para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 409f5a1f8872b8e3bd3b1999a0024fa28583024d
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 28cb740146fc23f3dfdda35c35f280cba8a950c4
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518832"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763754"
 ---
 # <a name="pstn-connectivity-options"></a>Opciones de conectividad RTC
 
@@ -168,7 +168,7 @@ La forma en que adquiere y administra los números de teléfono varía en funci�
 
 - Para obtener información sobre cómo administrar números de teléfono con Conectar, vea Configurar números [de teléfono con operador Conectar](operator-connect-configure.md#set-up-phone-numbers).
 
-- Para obtener información sobre cómo administrar números de teléfono para enrutamiento directo, vea [Configurar el número de teléfono y habilitar la voz y el correo de voz empresariales](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
+- Para obtener información sobre cómo administrar números de teléfono para enrutamiento directo, vea [Configurar el número de teléfono y habilitar la voz empresarial](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
 
 ### <a name="call-routing-and-dial-plans"></a>Planes de marcado y enrutamiento de llamadas
