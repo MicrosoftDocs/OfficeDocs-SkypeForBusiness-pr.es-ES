@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0146c77fc5727a1dc57a7062eeb62cebaba46034
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 07d050782dfef1ce89f54891302457c2f1616fa5
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766223"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763653"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Inicio rápido: reuniones, seminarios web y eventos en vivo 
 
@@ -86,7 +86,8 @@ En la tabla siguiente se resaltan los artículos clave que desea revisar:
 | [Directivas de reunión](meeting-policies-overview.md)  | Describe cómo crear y administrar las directivas que determinan qué características están disponibles para los participantes de la reunión. | 
 | [Administración de grabaciones de reuniones en la nube de Teams](cloud-recording.md) | Describe cómo administrar las grabaciones de reuniones. |
 | [Administración de los dispositivos de su organización](device-management.md)| Describe cómo administrar los dispositivos de su organización, como teléfonos y Salas de Teams. |
-||
+| [Usar telemetría en tiempo real para solucionar problemas de mala calidad de la reunión](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | Describe cómo usar el análisis en tiempo real (RTA) para solucionar problemas de calidad deficiente de las reuniones de Microsoft Teams para usuarios individuales. 
+|||
 
 #### <a name="key-training-for-end-users"></a>Aprendizaje clave para usuarios finales
 
