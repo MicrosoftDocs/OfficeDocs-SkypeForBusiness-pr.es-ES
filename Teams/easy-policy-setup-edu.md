@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el Teams para Educación de directivas de aprendizaje para aplicar fácilmente directivas a alumnos y profesores para mantener su entorno de aprendizaje seguro.
 f1keywords: ''
-ms.openlocfilehash: d724fcd7c5c62e861991e93cbbb9a0969a6c567e
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 9834aceeffc6c5604c144e801405cea968df5a69
+ms.sourcegitcommit: 2612020cd932117148440b60be818ba31208b1d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387648"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "62805461"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use el Asistente Teams para Educación directivas para aplicar fácilmente directivas para un entorno de aprendizaje seguro
 
@@ -77,15 +77,15 @@ Siga estos pasos para ejecutar el asistente.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Captura de pantalla de la página del asistente para seleccionar el tipo de institución.":::
 
-3. Busque y seleccione un grupo que contenga a los profesores y al personal y, a continuación, seleccione **Siguiente**. Si aún no tiene ningún grupo configurado para los profesores y el personal, cree un grupo y vuelva [a](/microsoft-365/admin/create-groups/create-groups) ejecutar el asistente. <br/><br/>Actualmente, solo puede seleccionar un grupo. A los formadores y al personal del grupo que seleccione se les asignará [un conjunto de directivas](#policies-applied-by-the-wizard) personalizadas adaptadas a sus necesidades. Recuerde que este conjunto de directivas es independiente de las directivas aplicadas a los alumnos.
+3. Busque y seleccione grupos que contengan sus profesores y personal y, a continuación, seleccione **Siguiente**. Si aún no tiene ningún grupo configurado para los profesores y el personal, cree un grupo y vuelva [a](/microsoft-365/admin/create-groups/create-groups) ejecutar el asistente. <br/><br/>Puede seleccionar hasta tres grupos. A los formadores y al personal de los grupos que seleccione se les asignará un conjunto de directivas personalizadas adaptadas [a](#policies-applied-by-the-wizard) sus necesidades. Recuerde que este conjunto de directivas es independiente de las directivas aplicadas a los alumnos.
 
-    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Captura de pantalla de la página en el asistente para seleccionar el profesor y el grupo de docentes.":::
+    :::image type="content" source="media/edu-policy-wizard-add-3-groups.png" alt-text="Captura de pantalla de la página del asistente para seleccionar grupos de profesores y docentes.":::
 
 4. Revise las selecciones.
 
-    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Captura de pantalla de página en el asistente para revisar selecciones.":::
+    :::image type="content" source="media/edu-policy-wizard-3-groups-review.png" alt-text="Captura de pantalla de página en el asistente para revisar selecciones.":::
 
-5. Seleccione **Aplicar** para aplicar los cambios. Esto puede tardar unos minutos en completarse.<br/><br/>Las definiciones de directiva global (predeterminada para toda la organización) se aplican inmediatamente a los alumnos. Para los profesores y el personal, las directivas personalizadas podrían tardar varias horas en asignarse a cada miembro del grupo seleccionado, según el tamaño del grupo. Esto ocurre en segundo plano, después de completar correctamente este paso.
+5. Seleccione **Aplicar** para aplicar los cambios. Esto puede tardar unos minutos en completarse.<br/><br/>Las definiciones de directiva global (predeterminada para toda la organización) se aplican inmediatamente a los alumnos. Para los profesores y el personal, las directivas personalizadas podrían tardar unas horas en asignarse a cada miembro de los grupos seleccionados, según el tamaño de los grupos. Esto ocurre en segundo plano, después de completar correctamente este paso.
 6. Estás en camino, pero aún no has terminado. Hay algunas cosas más que tener en cuenta. A continuación, consulte los pasos de la [sección Qué hacer después de ejecutar el](#what-to-do-after-running-the-wizard) asistente de este artículo.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Captura de pantalla de página en el asistente para los pasos siguientes.":::
@@ -137,9 +137,9 @@ Vea [Mantener a los alumnos seguros mientras usan Teams para el aprendizaje a di
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>Paso 3: Buscar actualizaciones de directivas en el Centro de mensajes
 
-Actualmente, el asistente aplica nuestras directivas recomendadas al ejecutarlo. Es importante saber que a medida que las nuevas directivas están disponibles en Teams, el asistente actualiza automáticamente la configuración global (predeterminada para toda la organización) para la seguridad de los alumnos. 
+Actualmente, el asistente aplica nuestras directivas recomendadas al ejecutarlo. Es importante saber que a medida que las nuevas directivas están disponibles en Teams, el asistente actualiza automáticamente la configuración global (predeterminada para toda la organización) para la seguridad de los alumnos.
 
-Pero compruebe [el Centro de](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) mensajes (en el Centro de administración de Microsoft 365) con frecuencia para mantenerse al día sobre las nuevas características y sus directivas y la configuración de directiva en Teams. 
+Pero compruebe [el Centro de](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) mensajes (en el Centro de administración de Microsoft 365) con frecuencia para mantenerse al día sobre las nuevas características y sus directivas y la configuración de directiva en Teams.
 
 ## <a name="make-changes-in-the-wizard"></a>Realizar cambios en el asistente
 
@@ -148,15 +148,15 @@ Pero compruebe [el Centro de](https://admin.microsoft.com/AdminPortal/Home?#/Mes
 Si necesita realizar cambios después de ejecutar el asistente, puede volver a ejecutarlo y cambiar las selecciones.
 
 1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a Inicio **y,** **a** continuación, en el icono Configuración de directivas fácil para un entorno de aprendizaje seguro, seleccione **Cambiar**.
-2. Desde aquí, continúe por cada página del asistente para realizar los cambios. Puede cambiar el tipo de institución, el grupo de profesores y el personal al que desea asignar directivas, o ambos.
+2. Desde aquí, continúe por cada página del asistente para realizar los cambios. Puede cambiar el tipo de institución, los grupos de profesores y docentes a los que desea asignar directivas o ambos.
 
 En la tabla siguiente se resume lo que ocurre al realizar un cambio en el asistente.
 
 |Tipo de cambio  |Comportamiento de la directiva  |
 |---------|---------|
-|Cambiar tanto el tipo de institución educativa como el grupo de profesores y docentes    |<ul><li>**Alumnos**: las definiciones de directiva globales (predeterminadas para toda la organización) basadas en el nuevo tipo de institución educativa se aplican a los alumnos.</li><li>**Profesores y docentes**: se crea un conjunto de definiciones de directivas personalizadas basadas en el nuevo tipo de institución educativa y se asigna al nuevo grupo de profesores y docentes. Las definiciones de directiva personalizadas anteriores se quitan del grupo de profesores y docentes anteriores.</li></ul>    |
-|Cambiar solo el tipo de institución educativa    |<ul><li>**Alumnos**: las definiciones de directiva globales (predeterminadas para toda la organización) basadas en el nuevo tipo de institución educativa se aplican a los alumnos.</li><li>**Profesores y docentes**: se crea un conjunto de definiciones de directivas personalizadas basadas en el nuevo tipo de institución educativa y se asigna al grupo de profesores y docentes. Las definiciones de directiva personalizadas creadas para el tipo de institución educativa anterior se quitan del grupo de profesores y docentes.</li></ul>         |
-|Cambiar solo el grupo de profesores y docentes   |<ul><li>**Alumnos**: No hay ningún cambio en las definiciones de directiva globales (predeterminadas para toda la organización) aplicadas a los alumnos.</li><li>**Profesores y docentes**: las definiciones de directiva personalizadas se asignan al nuevo grupo de profesores y docentes y se quitan del grupo de profesores y docentes anteriores.</li></ul>         |
+|Cambiar tanto el tipo de institución educativa como los profesores y los grupos de docentes    |<ul><li>**Alumnos**: las definiciones de directiva globales (predeterminadas para toda la organización) basadas en el nuevo tipo de institución educativa se aplican a los alumnos.</li><li>**Profesores y docentes**: se crea un conjunto de definiciones de directivas personalizadas basadas en el nuevo tipo de institución educativa y se asigna a los nuevos grupos de profesores y docentes. Las definiciones de directiva personalizadas anteriores se quitan de los grupos de docentes y docentes anteriores.</li></ul>    |
+|Cambiar solo el tipo de institución educativa    |<ul><li>**Alumnos**: las definiciones de directiva globales (predeterminadas para toda la organización) basadas en el nuevo tipo de institución educativa se aplican a los alumnos.</li><li>**Profesores y docentes**: se crea un conjunto de definiciones de directivas personalizadas basadas en el nuevo tipo de institución educativa y se asigna a los profesores y grupos de docentes. Las definiciones de directiva personalizadas creadas para el tipo de institución educativa anterior se quitan de los grupos de profesores y docentes.</li></ul>         |
+|Cambiar solo los grupos de profesores y docentes   |<ul><li>**Alumnos**: No hay ningún cambio en las definiciones de directiva globales (predeterminadas para toda la organización) aplicadas a los alumnos.</li><li>**Profesores y docentes**: las definiciones de directiva personalizadas se asignan a los nuevos profesores y grupos de docentes y se quitan de los grupos de docentes y docentes anteriores.</li></ul>         |
 
 ## <a name="policies-applied-by-the-wizard"></a>Directivas aplicadas por el asistente
 
@@ -266,7 +266,7 @@ Esta es una lista de las definiciones de directivas globales (predeterminadas pa
 
 #### <a name="educators-and-staff"></a>[**Educadores y personal**](#tab/educator-settings/)
 
-Esta es una lista de las definiciones de directiva personalizadas asignadas al grupo de profesores y docentes que elija en el asistente.  
+Esta es una lista de las definiciones de directiva personalizadas asignadas a los profesores y grupos de docentes que elija en el asistente.  
 
 |Área de directiva |Sub-área  |Configuración de directiva  |Principal o Secundario |Educación superior |
 |---------|---------|---------|---------|---------|
