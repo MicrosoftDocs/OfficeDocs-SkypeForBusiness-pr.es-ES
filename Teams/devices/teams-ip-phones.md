@@ -21,14 +21,14 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: 192d56972c0d26484be773cf40fe0d1c59b69136
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 809f69383f73346f7964926e689739016b155705
+ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763673"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62856688"
 ---
-# <a name="microsoft-teams-certified-devices"></a>Microsoft Teams dispositivos certificados
+# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams dispositivos Android certificados
 
 El Microsoft Teams de certificación de dispositivos Teams garantiza que los dispositivos certificados cumplan un alto estándar, con objetivos de rendimiento más altos y métricas de calidad en toda la experiencia Teams (audio, vídeo, interfaz de usuario). Microsoft y los partners OEM están trabajando conjuntamente de forma activa para garantizar que los dispositivos cumplan todos los requisitos de certificación, incluida la seguridad, la calidad de audio y vídeo, Teams experiencia y accesibilidad.
 
@@ -73,17 +73,17 @@ Los siguientes dispositivos están certificados en el Salas de Microsoft Teams p
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
 | EXPANSIÓN DE EPS 80T | `1.2.2.21182.10` | 5 de agosto de 2023 | Incluido con el EPOS Vision 3T | 9 |
 | Dispositivo Logitech Tap     | `1.2.982`     |   3 de septiembre de 2024  | Compatible con Logitech Rally Bar y Rally Bar Mini | 10 |
-| Logitech Rally Bar Mini | `1.2.982`     |   3 de septiembre de 2024  |    Tamaño Sala de reuniones (4,5 m x 4,5 m) | 10 |
+| Logitech Rally Bar Mini | `1.2.982`     |   3 de septiembre de 2024  |    Pequeño Sala de reuniones (4,5 m x 4,5 m) | 10 |
 | Logitech Rally Bar      | `1.2.788`     |   3 de septiembre de 2024  |    Sala de tamaño medio (4,5 m x 6 m)       | 10 |
-| AudioCodes RXV80 | `1.9.155`        |   5 de agosto de 2023  | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) | 9 |
-| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 5 de agosto de 2023 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) | 9 |
+| AudioCodes RXV80 | `1.9.155`        |   5 de agosto de 2023  | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5 m x 4,5 m) | 9 |
+| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 5 de agosto de 2023 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5 m x 4,5 m) | 9 |
 | Yealink MeetingBar A30       | `133.15.0.52`    | 5 de agosto de 2023   | Sala de tamaño medio (4,5 m x 6 m) | 9 |
 | Consola táctil CTP18 de Yealink  | `137.15.0.28`    | 5 de agosto de 2023   | Compatible con Yealink MeetingBar A20 y Yealink MeetingBar A30 | 9 |
-| Yealink MeetingBar A20  | `133.15.0.19`      | 5 de agosto de 2023 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) | 9 |
-| Poly Studio X30         | `3.1.1.216109`     | 5 de diciembre de 2022  | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) | 8.1 |
-| Poly Studio X50         | `3.1.1.216109`     | 5 de diciembre de 2022   | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) | 8.1 |
+| Yealink MeetingBar A20  | `133.15.0.19`      | 5 de agosto de 2023 | Sala de concentración(3 m x 3 m) </br> Pequeña sala de reuniones(4,5 m x 4,5 m) | 9 |
+| Poly Studio X30         | `3.1.1.216109`     | 5 de diciembre de 2022  | Sala de concentración(3 m x 3 m) </br> Pequeña sala de reuniones(4,5 m x 4,5 m) | 8.1 |
+| Poly Studio X50         | `3.1.1.216109`     | 5 de diciembre de 2022   | Sala de concentración(3 m x 3 m) </br> Pequeña sala de reuniones(4,5 m x 4,5 m) | 8.1 |
 | Poly TC8                | `3.3.2.210441`     | 5 de agosto de 2023 | Compatible con Poly Studio X30 y Poly Studio X50  |  9  |
-| Yealink VC210           | `118.15.0.14`      | 5 de agosto de 2023 | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5m x 4,5m) |  9  |
+| Yealink VC210           | `118.15.0.14`      | 5 de agosto de 2023 | Sala de concentración(3 m x 3 m) </br> Pequeña sala de reuniones(4,5 m x 4,5 m) |  9  |
 
 ## <a name="certified-teams-displays"></a>Pantallas Teams certificado
 
@@ -219,6 +219,10 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 | Poly Studio X30 | `3.8.0`          | Actualización 2021 #2    |
 | Poly Studio X50 | `3.8.0`          | Actualización 2021 #2    |
 | Poly TC8        | `3.8.0`          | Actualización 2021 #2    |
+| Barra de concentración de Logi    | 1.3.538         | Actualización de 2021 #2B    |
+| Logi Rallybar Mini | 1.3.538       | Actualización de 2021 #2B    |
+| Barra de concentración de Logi    | 1.4.228         | Actualización de 2021 #2B    |
+| Logi Rallybar Mini | 1.4.228       | Actualización de 2021 #2B    |
 | Poly Studio X30 | `3.7.0`          | Actualización de 2021 #2A    |
 | Poly Studio X50 | `3.7.0`          | Actualización de 2021 #2A    |
 | Poly TC8        | `3.7.0`          | Actualización de 2021 #2A    |

@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Obtenga información sobre cómo configurar teléfonos de área común para lobbies, áreas de recepción y salas de conferencias '
-ms.openlocfilehash: a4e4720fe7baf58d0da6f00800c61b706ec48516
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 144e32e1bf56bc3e2d64d0c6a1a137fd501442b7
+ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279268"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62856668"
 ---
 # <a name="deploy-common-area-phones-for-microsoft-teams"></a>Implementar teléfonos de área comunes para Microsoft Teams
 
@@ -55,7 +55,7 @@ La licencia de Teléfono común es compatible con:
 &sup2; No disponible en nubes soberanas  
 
 >[!NOTE]
-> Las cuentas de teléfonos de área comunes Skype Empresarial Server no se pueden migrar a Microsoft Teams. Siga los pasos de este artículo para volver a crear esas cuentas Teams y, si es necesario, migrar la conectividad de PTSN.
+> Las cuentas de objetos de teléfonos de área común Skype Empresarial Server no se pueden migrar a Microsoft Teams. Siga los pasos de este artículo para volver a crear esas cuentas Teams y, si es necesario, migrar la conectividad de PTSN.
 
 ## <a name="step-1---buy-the-licenses"></a>Paso 1: comprar las licencias
 
