@@ -16,10 +16,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 659cfd90e2fb5f498c00ea4b48039f9493357309
-ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/21/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "62161039"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>Personalizar las aplicaciones Teams basadas en la licencia
@@ -51,16 +51,16 @@ Aplicaciones ancladas para usuarios que tienen una licencia F:
 ## <a name="admin-controls"></a>Controles de administrador
 
 > [!NOTE]
-> La anclación de usuario debe estar activada en la directiva de configuración de aplicaciones global (predeterminada [para](teams-app-setup-policies.md) toda la organización) para que esta característica suba a efecto.
+> La anclación de usuario debe estar activada en la directiva de configuración de aplicaciones global ( [predeterminada para toda](teams-app-setup-policies.md) la organización) para que esta característica suba a efecto.
 
-La característica de experiencia de aplicación personalizada se controla mediante la configuración Mostrar [](manage-apps.md#manage-org-wide-app-settings) aplicaciones **personalizadas basadas** en licencias de aplicaciones de toda la organización en la página Administrar aplicaciones del centro de administración de Teams de administración. Si la característica está en, todos los usuarios de su organización que tengan una licencia F recibirán la experiencia de aplicación personalizada.
+La característica de experiencia de aplicación personalizada se controla mediante la configuración Mostrar aplicaciones **personalizadas basadas** en licencias de aplicaciones de toda la [](manage-apps.md#manage-org-wide-app-settings) organización en la página Administrar aplicaciones del centro de administración Teams usuarios. Si la característica está en, todos los usuarios de su organización que tengan una licencia F recibirán la experiencia de aplicación personalizada.
 
 Tenga en cuenta que las directivas de configuración de aplicaciones personalizadas asignadas a los usuarios tienen prioridad. Esto significa que si un usuario ya tiene asignada una directiva de configuración de aplicaciones personalizada, el usuario obtiene la configuración que se define en la directiva de configuración de la aplicación personalizada. Para obtener más información sobre cómo funciona la característica con las directivas de configuración de aplicaciones existentes que ha aplicado en su organización, vea la sección [Escenarios](#scenarios) de este artículo.
 
 Esta característica está activada de forma predeterminada. Sin embargo, si no quiere la experiencia de aplicación personalizada proporcionada por Microsoft, puede desactivar la característica. Para desactivar o activar la característica:
 
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams aplicaciones Administrar aplicaciones y, **a** continuación, seleccione Configuración de la aplicación para toda la  >   **organización.**
-2. En **Aplicaciones personalizadas,** cambie la opción Mostrar aplicaciones **personalizadas basadas** en licencias **a Desactivado** o **Desactivado.**
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams **aplicaciones** >  **de** administración y, a continuación, seleccione Configuración de la aplicación **para toda la organización**.
+2. En **Aplicaciones personalizadas**, cambie la opción Mostrar **aplicaciones personalizadas basadas en licencias** **a Desactivado** o **Encendido**.
 
     :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="Captura de pantalla de la página Administrar aplicaciones, que muestra la configuración Mostrar aplicaciones personalizadas basadas en la configuración de la aplicación de toda la organización de la licencia" lightbox="media/pin-teams-apps-based-on-license.png":::
 
@@ -79,7 +79,7 @@ Use la información de esta tabla para obtener información sobre cómo funciona
 |Una aplicación en la experiencia de aplicación personalizada ya está definida en una directiva de configuración de la aplicación y la característica está en. |La aplicación se ancla según el orden definido por la experiencia de aplicación personalizada.        |
 
 > [!NOTE]
-> No puede cambiar las aplicaciones ni el orden de las aplicaciones en la experiencia de aplicación personalizada. Por ahora, si desea realizar cambios, puede configurar su propia experiencia personalizada. Para ello, primero desactive la característica. A [continuación, cree una directiva de configuración de aplicaciones personalizada](teams-app-setup-policies.md)y [asígnela a usuarios o grupos.](assign-policies-users-and-groups.md)
+> No puede cambiar las aplicaciones ni el orden de las aplicaciones en la experiencia de aplicación personalizada. Por ahora, si desea realizar cambios, puede configurar su propia experiencia personalizada. Para ello, primero desactive la característica. A [continuación, cree una directiva de configuración de aplicaciones personalizada](teams-app-setup-policies.md) y [asígnela a usuarios o grupos](assign-policies-users-and-groups.md).
 
 ## <a name="related-articles"></a>Artículos relacionados
 

@@ -19,10 +19,10 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "62015020"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicación Walkie Talkie en Microsoft Teams
@@ -37,15 +37,15 @@ Con Walkie Talkie en Teams, los trabajadores de primera línea ahora pueden comu
 
 Walkie Talkie es compatible con dispositivos Android con google Mobile Services (GMS) y dispositivos iOS. 
 
-Actualmente, Walkie Talkie no está preinstalado. Para habilitar esta característica para los usuarios de su organización, [](teams-app-setup-policies.md)debe agregar Walkie Talkie a la directiva de configuración de aplicaciones asignada a los usuarios desde el Centro de administración de   [Teams.](https://admin.teams.microsoft.com/) Una vez habilitado, Walkie Talkie estará disponible en la aplicación en un plazo de 48 horas.
+Actualmente, Walkie Talkie no está preinstalado. Para habilitar esta característica para los usuarios de su organización, debe agregar Walkie Talkie [](teams-app-setup-policies.md)  a la Directiva de configuración deappasignada a los usuarios desde el Centro de administración de [Teams.](https://admin.teams.microsoft.com/) Una vez habilitado, Walkie Talkie estará disponible en la aplicación en un plazo de 48 horas.
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>Agregar Walkie Talkie a la lista de aplicaciones
 
-En el Microsoft Teams de administración, en Teams directivas de configuración de la aplicación, debería tener permitir la anclación de  >  usuario establecida en  **On**. A continuación, en la sección Aplicaciones ancladas, haga clic **en +Agregar aplicaciones.**
+En el Microsoft Teams de administración, en **Teams de appSetup** > , debe tener **permitir** la fijación de usuario establecida en **En**. A continuación, en la sección Aplicaciones ancladas, haga clic **en +Agregar aplicaciones**.
 
 :::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Muestra la sección Aplicaciones ancladas y el botón Agregar aplicaciones que se va a seleccionar.":::
 
-En el **panel** Agregar aplicaciones ancladas que aparece  a la derecha, use el cuadro de texto Buscar para buscar Walkie Talkie. Cuando lo tenga como resultado de  búsqueda, seleccione el botón Agregar a la derecha del nombre para agregarlo a la lista.
+En el **panel** Agregar aplicaciones ancladas que aparece a la derecha, use el cuadro  de texto Buscar para buscar Walkie Talkie. Cuando lo tenga como resultado de búsqueda, seleccione el botón  Agregar a la derecha del nombre para agregarlo a la lista.
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Muestra la barra lateral Agregar aplicaciones ancladas con Walkie escrito en el panel de búsqueda y la aplicación Walkie Talkie en los resultados de búsqueda, con el botón Agregar junto a ella.":::
 
@@ -66,8 +66,8 @@ Walkie Talkie en Teams requiere conectividad a Internet y por debajo de las cond
 Como se ha indicado anteriormente, la calidad de los medios en tiempo real a través de una red IP se encuentra muy afectada por la calidad de la conectividad de red, pero especialmente por la cantidad de:
 
 - **Latencia:** este es el tiempo que se tarda en obtener un paquete IP desde el punto A hasta el punto B de la red. Este retraso de propagación de red está esencialmente vinculado a la distancia física entre los dos puntos y la velocidad de la luz, incluida una mayor sobrecarga de los distintos enrutadores entre sí. La latencia se mide como Tiempo de ida y vuelta (RTT).
-- **Vibración entre llegadas:** este es el cambio medio de retraso entre paquetes sucesivos.
-- **Pérdida de paquetes:** a menudo se define como un porcentaje de paquetes que se pierden en una ventana de tiempo determinada. La pérdida de paquetes afecta directamente a la calidad de audio, desde pequeños paquetes perdidos individuales que casi no tienen impacto, hasta pérdidas de ráfagas back-to-back que provocan un corte total de audio.
+- **Vibración entre llegadas** : este es el cambio medio de retraso entre paquetes sucesivos.
+- **Pérdida de paquetes** : a menudo se define como un porcentaje de paquetes que se pierden en una ventana de tiempo determinada. La pérdida de paquetes afecta directamente a la calidad de audio, desde pequeños paquetes perdidos individuales que casi no tienen impacto, hasta pérdidas de ráfagas back-to-back que provocan un corte total de audio.
 
 El uso de datos esperado de Walkie Talkie es de unos 20 Kb/s al enviar o recibir audio. Cuando está inactivo, el uso de datos esperados de Walkie Talkie es insignificante.
 
@@ -81,10 +81,10 @@ Los trabajadores de primera línea a menudo necesitan hablar y recibir llamadas 
   - Auriculares con cable (solo para Android)
     - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 - **Teléfonos Android resistentes**
-  - Samsung [Galaxy XCover Pro,](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/) [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
+  - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
     - Configuración manual: con Teams instalado, vaya a Configuración > características avanzadas > XCover/Active key. Activa "Tecla Control XCover con la aplicación" y selecciona "Teams"
     - [Configuración de MDM](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
-  - Cebra [TC5x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html) [TC7x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html) [TC2x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html) [EC5x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html) [EC30,](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html) [MC3300,](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html) [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
+  - Cebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html), [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html), [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html), [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html), [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html), [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
     - Configuración manual: con Teams instalado, el botón PTT dedicado (LEFT_TRIGGER_2) funciona con Walkie Talkie de forma predeterminada
     
 > [!NOTE]
@@ -92,7 +92,7 @@ Los trabajadores de primera línea a menudo necesitan hablar y recibir llamadas 
 
 ### <a name="license-requirements"></a>Requisitos de licencia
 
-La aplicación Walkie Talkie se incluye en todas las licencias de pago de Teams en [Office 365 suscripciones.](/office365/servicedescriptions/teams-service-description) Para obtener más información sobre cómo obtener Teams, consulte [¿Cómo puedo obtener acceso](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)a Microsoft Teams?
+La aplicación Walkie Talkie se incluye en todas las licencias de pago de Teams en [Office 365 suscripciones](/office365/servicedescriptions/teams-service-description). Para obtener más información sobre cómo Teams, consulte  [¿Cómo puedo obtener](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) acceso a Microsoft Teams?
 
 ## <a name="further-information"></a>Más información
 

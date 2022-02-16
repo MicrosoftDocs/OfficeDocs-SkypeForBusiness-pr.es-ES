@@ -1,5 +1,5 @@
 ---
-title: Usar el Asistente para la incorporación de trabajadores en primera línea para que su fuerza de trabajo de primera línea esté en funcionamiento
+title: Usar el asistente de incorporación de personal de primera línea para que su fuerza de trabajo esté en funcionamiento
 author: lanachin
 ms.author: v-lanachin
 ms.reviewer: aaglick
@@ -16,23 +16,23 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 97f8994ecc5c7aef610e040f30b43803f03c6844
-ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "61993196"
 ---
-# <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Usar el Asistente para la incorporación de trabajadores en primera línea para que su fuerza de trabajo de primera línea esté en funcionamiento
+# <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Usar el asistente de incorporación de personal de primera línea para que su fuerza de trabajo esté en funcionamiento
 
 ## <a name="overview"></a>Información general
 
 El Asistente para la incorporación de trabajadores en primera línea de la Centro de administración de Microsoft 365 simplifica la incorporación de trabajadores de primera línea a su organización. El asistente le permite implementar rápidamente una experiencia en Microsoft Teams que está adaptada a su personal de primera línea. Con el asistente, puede iniciar fácilmente la implementación piloto de Teams para los trabajadores de primera línea de su organización.
 
-El asistente configura un equipo para los trabajadores [](manage-policy-packages.md) de primera línea y asigna licencias y paquetes de directivas a cada miembro del equipo. Puede crear su equipo desde cero o desde una plantilla [de equipo](get-started-with-teams-templates-in-the-admin-console.md)y, a continuación, agregar usuarios y asignar roles. El rol determina el paquete de directivas que el asistente asigna a cada usuario.
+El asistente configura un equipo para los trabajadores de primera línea y asigna licencias y paquetes de directivas a cada miembro del equipo.[](manage-policy-packages.md) Puede crear su equipo desde cero o a partir de una plantilla [de equipo](get-started-with-teams-templates-in-the-admin-console.md) y, a continuación, agregar usuarios y asignar roles. El rol determina el paquete de directivas que el asistente asigna a cada usuario.
 
 Actualmente, el asistente admite la adición de 100 usuarios cada vez que lo ejecute. Estamos trabajando en aumentar el número de usuarios por ejecución pronto. Vuelva aquí para ver las actualizaciones más recientes.
 
-El asistente está disponible para todas las organizaciones que tengan al menos una [licencia F.](https://www.microsoft.com/microsoft-365/enterprise/frontline) Puede ejecutar el asistente tantas veces como necesite para Teams personal de primera línea en diferentes ubicaciones o sitios de su organización.
+El asistente está disponible para todas las organizaciones que tengan al menos una [licencia F](https://www.microsoft.com/microsoft-365/enterprise/frontline). Puede ejecutar el asistente tantas veces como necesite para Teams personal de primera línea en diferentes ubicaciones o sitios de su organización.
 
 Consulte este breve vídeo para obtener información general sobre cómo ejecutar el asistente para incorporar a su personal de primera línea.
 
@@ -42,11 +42,11 @@ Consulte este breve vídeo para obtener información general sobre cómo ejecuta
 > Este asistente le permite incorporar rápidamente a su personal de primera línea para Teams a través del Centro de administración de Microsoft 365. Para obtener información sobre cómo implementar Teams personal de primera línea con scripts, vea Cómo aprovisionar Teams a escala para los trabajadores [de frontline](flw-scripted-deployment.md).
 
 > [!NOTE]
-> El asistente aún no admite etiquetas [de confidencialidad.](sensitivity-labels.md) Si su organización requiere etiquetas de confidencialidad para crear un equipo, no verá el asistente en el Centro de administración de Microsoft 365.
+> El asistente aún no admite etiquetas [de confidencialidad](sensitivity-labels.md) . Si su organización requiere etiquetas de confidencialidad para crear un equipo, no verá el asistente en el Centro de administración de Microsoft 365.
 
 ## <a name="run-the-wizard"></a>Ejecutar el asistente
 
-1. En el panel de navegación izquierdo del [Centro de administración de Microsoft 365](https://admin.microsoft.com/), elija **Configurar.** Vaya a la **sección Aplicaciones y correo** electrónico y, a continuación, en Activar y ejecutar la plantilla de primera línea, seleccione **Ver.**  Aquí puede obtener más información sobre las capacidades que ofrece Microsoft 365 para los trabajadores de primera línea.
+1. En el panel de navegación izquierdo [de la Centro de administración de Microsoft 365](https://admin.microsoft.com/), elija **Configurar**. Vaya a la **sección Aplicaciones y correo** electrónico y, a continuación, en Obtener su fuerza **de** trabajo de primera línea en marcha, seleccione **Ver**. Aquí puede obtener más información sobre las capacidades que ofrece Microsoft 365 para los trabajadores de primera línea.
 
     :::image type="content" source="media/flw-onboarding-wizard-get-started.png" alt-text="Captura de pantalla de la página de detalles de la experiencia de incorporación de trabajadores de frontline en el Centro de administración de Microsoft 365" lightbox="media/flw-onboarding-wizard-get-started.png":::
 
@@ -68,7 +68,7 @@ Consulte este breve vídeo para obtener información general sobre cómo ejecuta
 
     A continuación, seleccione una ubicación y asigne una Microsoft 365 F a cada miembro del equipo. Si no tiene suficientes licencias, puede seleccionar Comprar **más** licencias para comprar más licencias.  
 
-6. Elija quién recibe el correo electrónico de estado después de completar el asistente. El correo electrónico contiene información de éxito y errores sobre las acciones realizadas por el asistente para crear el equipo, agregar miembros del equipo y asignar un paquete de licencia y directiva a cada miembro &mdash; del equipo. Use esta información para solucionar los errores que se puedan producir.
+6. Elija quién recibe el correo electrónico de estado después de completar el asistente. El correo electrónico contiene información&mdash; de éxito y errores sobre las acciones realizadas por el asistente para crear el equipo, agregar miembros del equipo y asignar un paquete de licencia y directiva a cada miembro del equipo. Use esta información para solucionar los errores que se puedan producir.
 
     :::image type="content" source="media/flw-onboarding-wizard-email-recipients.png" alt-text="Captura de pantalla de la página Agregar destinatarios de correo electrónico de estado del asistente" lightbox="media/flw-onboarding-wizard-email-recipients.png":::
 

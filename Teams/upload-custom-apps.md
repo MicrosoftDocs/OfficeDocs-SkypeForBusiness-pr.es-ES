@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo cargar las aplicaciones personalizadas en la tienda de aplicaciones de su organización en el Microsoft Teams de administración.
-ms.openlocfilehash: ccb123f776bd7a2b5a5c97685d63eea853c79a58
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 30e63673956c71aee53f1acd685b6107a61f566f
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398317"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "62824719"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar una aplicación personalizada cargando un paquete de aplicación
 
@@ -75,7 +75,7 @@ Para permitir que los usuarios de confianza carguen aplicaciones personalizadas,
 Para que la aplicación esté disponible para los usuarios de la tienda de aplicaciones de su organización, cargue la aplicación. Puede hacerlo en la página Administrar <a href="/microsoftteams/manage-apps" target="_blank">aplicaciones</a> del centro Microsoft Teams administración.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**.
-2. Haga **clic Upload**, haga clic **en Seleccionar un** archivo y, a continuación, seleccione el paquete de aplicación que recibió del desarrollador.
+2. Seleccione **Upload**, haga clic **en Upload**, seleccione el paquete de aplicación que recibió del desarrollador y seleccione **Abrir**.
 
    ![Captura de pantalla de carga de una aplicación en el centro de administración.](media/manage-your-lob-apps-upload-new-app.png) 
 

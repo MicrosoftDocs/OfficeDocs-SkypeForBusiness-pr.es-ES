@@ -24,10 +24,10 @@ appliesto:
 ms.reviewer: ansantam
 description: Obtenga información sobre cómo integrar el conector EHR de Teams para permitir que los proveedores de salud de su organización realicen visitas virtuales con pacientes u otros proveedores en Teams directamente desde el sistema Épico EHR.
 ms.openlocfilehash: 3274ed2c566008dd7474accf159540c96c82b865
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "62763325"
 ---
 # <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Visitas virtuales con Teams: integración en Épico EHR

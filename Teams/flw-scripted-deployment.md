@@ -20,10 +20,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
-ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/26/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "61545011"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Cómo proporcionar Teams a escala para personal de primera línea
@@ -282,7 +282,7 @@ Se pueden personalizar las siguientes configuraciones para satisfacer las necesi
 4. En  **Microsoft Apps**, seleccione **Permitir todas las aplicaciones**.
 5. En  **Aplicaciones de terceros**, seleccione **Permitir todas las aplicaciones**.
 6. En **Aplicaciones personalizadas**, seleccione **Permitir todas las aplicaciones**.
-7. Haga clic en **Guardar**.
+7. Haga clic en  **Guardar**.
 
 #### <a name="create-the-frontline-worker-app-permission-policy"></a>Crear la directiva de permisos de la aplicación para el personal de primera línea
 
@@ -297,7 +297,7 @@ Se pueden personalizar las siguientes configuraciones para satisfacer las necesi
 4. En  **Microsoft Apps**, seleccione **Permitir todas las aplicaciones**.
 5. En  **Aplicaciones de terceros**, seleccione **Bloquear todas las aplicaciones**.
 6. En **Aplicaciones personalizadas**, seleccione **Permitir todas las aplicaciones**.
-7. Haga clic en **Guardar**.
+7. Haga clic en  **Guardar**.
 
 ## <a name="users-and-security-groups"></a>Usuarios y grupos de seguridad
 
