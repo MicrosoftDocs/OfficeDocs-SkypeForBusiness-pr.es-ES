@@ -15,33 +15,33 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Instalar Power BI connector para usar plantillas de consulta de panel de calidad de llamadas (CQD)
-ms.openlocfilehash: e72f5731358ae1856b0379b47faefc5346ee3831
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 474edeca9e694e38e1503074fc45c8bcdaca3483
+ms.sourcegitcommit: f0eaaf67b4fdce87d5c01b456c506c1435714ced
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730349"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62852503"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Instalar el conector de calidad de llamadas de Microsoft para Power BI usar plantillas de consulta de panel de calidad de llamadas
 
-Antes de poder usar las plantillas de consulta de Power BI (archivos PBIX Microsoft Teams) para un panel de calidad de llamadas (CQD), deberá instalar el conector de calidad de llamada de Microsoft para Power BI, con el archivo *MicrosoftCallQuality.pqx* incluido en la [descarga.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)
+Antes de poder usar las plantillas de consulta de Power BI (archivos PBIX Microsoft Teams) para un panel de calidad de llamada (CQD), deberá instalar el conector de calidad de llamada de Microsoft para Power BI con el archivo *MicrosoftCallQuality.pqx* incluido en la [descarga.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)
 
-Lea [Usar Power BI para analizar datos de CQD para Teams](CQD-Power-BI-query-templates.md) información sobre estas plantillas.
+Lea [Usar Power BI para analizar datos de CQD Teams](CQD-Power-BI-query-templates.md) información sobre estas plantillas.
 
-Asegúrese de que tiene el rol de [acceso CQD adecuado](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) para obtener acceso a Power BI informes.
+Asegúrese de que tiene el rol de [acceso CQD adecuado](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) para obtener acceso a los Power BI datos.
 
 > [!NOTE]
 > El conector de calidad de llamada de Microsoft solo admite DirectQuery en Power BI; El modo de importación no es compatible. 
 
 ## <a name="installation"></a>Instalación
 
-El proceso para instalar un conector personalizado y ajustar la seguridad para habilitar el uso del conector se describe detalladamente en la [Power BI datos.](/power-bi/desktop-connector-extensibility) En aras de la sencillez, esta es una explicación rápida:
+El proceso para instalar un conector personalizado y ajustar la seguridad para habilitar el uso del conector se describe detalladamente en [la Power BI datos](/power-bi/desktop-connector-extensibility). En aras de la sencillez, esta es una explicación rápida:
 
-1. Compruebe si el equipo ya tiene una carpeta *\[ Documentos Power BI Desktop \] \\ \\ Conectores personalizados.* Si no es así, cree esta carpeta. <sup>1</sup>
+1. Compruebe si el equipo ya tiene *\[una carpeta Documentos\]\\ Power BI Desktop\\ Custom Connectors*. Si no es así, cree esta carpeta. <sup>1</sup>
 
-2. Descargue el archivo del conector (ya sea un *\* archivo .mez* o *\* .pqx)* y colócarlo en el *directorio Conectores personalizados.*
+2. Descargue el archivo del conector (ya sea un *\*archivo .mez* *\*o .pqx* ) y colócarlo en el *directorio Conectores personalizados* .
 
-3. **Si el archivo del conector es *\* un archivo .mez,*** también tendrá que ajustar la configuración de seguridad como se describe en la documentación de configuración del conector [personalizado.](/power-bi/desktop-connector-extensibility#data-extension-security)
+3. **Si el archivo del conector es *\*un archivo .mez* ,** también tendrá que ajustar la configuración de seguridad como se describe en la documentación de configuración del [conector personalizado](/power-bi/desktop-connector-extensibility#data-extension-security).
 
 Si se lanza una nueva versión del conector de calidad de llamada de Microsoft, reemplace el archivo de conector antiguo en el directorio *Conectores personalizados* por el nuevo archivo.
 
@@ -49,29 +49,29 @@ Si se lanza una nueva versión del conector de calidad de llamada de Microsoft, 
 
 Para crear un informe y ejecutar consultas, primero tendrá que conectarse al origen de datos CQD. Siga los pasos siguientes para conectarse:
 
-1. En la pestaña Inicio de Power BI Desktop, haga clic en *Obtener datos.*
+1. En la pestaña Inicio de Power BI Desktop, haga clic en *Obtener datos*.
 
     ![Captura de pantalla: Power BI Connector.](media/CQD-power-bi-connector1-resize.png)
 
-2. La *ventana Obtener* datos debería aparecer en este momento. Vaya a *Servicios en línea* y, a continuación, seleccione Calidad de llamada de Microsoft *(Beta)* y pulse *Conectar*.
+2. La *ventana Obtener* datos debería aparecer en este momento. Vaya a *Servicios en línea*, seleccione *Calidad de llamada de Microsoft (Beta)* y pulse *Conectar*.
 
     ![Captura de pantalla: Power BI Connector.](media/CQD-power-bi-connector2-resize.png)
 
 3. Se le pedirá que inicie sesión a continuación. Use las mismas credenciales que usa para el Panel de calidad de llamadas. <sup>2</sup>
 
-4. El siguiente mensaje le dará la opción entre dos modos *de conectividad de datos.* Seleccione *DirectQuery* y pulse *Aceptar*.
+4. El siguiente mensaje le dará la opción entre dos modos *de conectividad de datos*. Seleccione *DirectQuery* y pulse *Aceptar*.
 
 5. Por último, se le mostrará un mensaje final en el que se le mostrará todo el modelo de datos para el Panel de calidad de llamadas. No se podrá ver ningún dato en este momento, solo el modelo de datos para CQD. Seleccione *Cargar* para completar el proceso de configuración.
 
 6. En este punto, Power BI cargará el modelo de datos en el lado derecho de la ventana. De lo contrario, la página permanecerá en blanco y no se cargarán consultas de forma predeterminada. Vaya a **Crear consultas a** continuación para crear una consulta y devolver datos.
 
-Si alguno de los pasos durante este proceso de configuración no estaba claro, encontrará una explicación más detallada del proceso en Inicio [rápido:](/power-bi/desktop-quickstart-connect-to-data)Conectar a los datos de Power BI Desktop .
+Si alguno de los pasos durante este proceso de configuración no estaba claro, encontrará una explicación más detallada del proceso en Inicio rápido: Conectar a los datos de [Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
 ## <a name="building-queries"></a>Crear consultas
 
 Una vez completada la configuración, verá los nombres de varios cientos de dimensiones y medidas de carga en el *panel* Campos. Crear consultas reales desde aquí es sencillo, solo tiene que seleccionar las dimensiones y medidas que desee para la consulta y, a continuación, arrastrarlas y colocarlas en la página. Esta es una explicación más detallada, con un ejemplo sencillo:
 
-1. Seleccione la visualización que desea usar en el *panel Visualizaciones.* Una versión en blanco de esa visualización debería aparecer en la página. Para los fines de este ejemplo, usaremos la visualización *Tabla.*
+1. Seleccione la visualización que desea usar en el *panel Visualizaciones* . Una versión en blanco de esa visualización debería aparecer en la página. Para los fines de este ejemplo, usaremos la visualización *Tabla* .
 
     ![Captura de pantalla: Power BI Connector.](media/CQD-power-bi-connector3-resize.png)
 
@@ -82,7 +82,7 @@ Una vez completada la configuración, verá los nombres de varios cientos de dim
     > [!IMPORTANT]
     > El Panel de calidad de llamadas requiere una medida para que se ejecute cualquier consulta. Si no se agrega una medida a una consulta, se producirá un error en dicha consulta.
 
-3. A continuación, seleccione las dimensiones que quiera filtrar y arrástrelas al campo Filtros de este *campo visual* en el *panel* Filtros. El conector de calidad de llamada de Microsoft admite actualmente filtrado básico (valores de selección de una lista de posibles valores de dimensión), filtrado  avanzado  (especificar manualmente valores y operandos para filtrar, similar al Panel de calidad de llamada) y filtrado de fecha relativa *(solo* disponible para las dimensiones Hora de finalización e Hora de inicio).   El filtrado según *la parte superior N* no es compatible con el Panel de calidad de llamadas.
+3. A continuación, seleccione las dimensiones que quiera filtrar y arrástrelas al campo Filtros de este *campo visual* en el *panel* Filtros. El conector de calidad de llamada de Microsoft admite  actualmente filtrado *básico (valores* de selección de una lista de posibles valores de *dimensión), filtrado* avanzado (especificar manualmente valores y operandos para filtrar, similar al Panel de calidad de llamada) y filtrado de fecha  *relativa (solo* disponible para las dimensiones Hora de finalización e Hora de inicio). El filtrado según *la parte superior N* no es compatible con el Panel de calidad de llamadas.
 
     ![Captura de pantalla: Power BI Connector.](media/CQD-power-bi-connector5-resize.png)
 
@@ -96,11 +96,11 @@ Una vez completada la configuración, verá los nombres de varios cientos de dim
 
 ## <a name="creating-a-drillthrough-report"></a>Crear un informe de obtención de detalles
 
-[La obtención de detalles Power BI](/power-bi/desktop-drillthrough) permite crear informes centrados que puede filtrar rápidamente con los valores de otros informes como contexto. Una vez que sepa cómo crear la primera consulta con el conector de calidad de llamada de Microsoft, la creación de una obtención de detalles es incluso más sencilla.
+[La obtención de detalles Power BI](/power-bi/desktop-drillthrough) le permite crear informes centrados que puede filtrar rápidamente con los valores de otros informes como contexto. Una vez que sepa cómo crear la primera consulta con el conector de calidad de llamada de Microsoft, la creación de una obtención de detalles es incluso más sencilla.
 
 1. Cree otra página para el informe centrado y, a continuación, agregue las consultas a esa página.
 
-2. Seleccione la dimensión que desea usar como filtro de obtención de detalles y arrástrela al campo *Obtención* de detalles en el *panel Visualizaciones.*
+2. Seleccione la dimensión que desea usar como filtro de obtención de detalles y arrástrela al campo *Obtención* de detalles en el *panel Visualizaciones* .
 
     ![Captura de pantalla: Power BI Connector.](media/CQD-power-bi-connector6-resize.png)
 
@@ -130,7 +130,7 @@ A pesar de hacer uso de Power BI, no todas las funciones Power BI son compatible
 
 6. **Consultas solo de medida :** No se admiten en este momento en el conector de calidad de llamadas de Microsoft. Al crear una visualización con tres o más medidas y sin dimensiones, los datos de columna se transponen. Para evitar esto, incluya siempre al menos una dimensión (por ejemplo: Año del mes) en las visualizaciones. Esto está programado para resolverse en una próxima versión del conector de calidad de llamadas de Microsoft para Power BI.
 
-7. **Government Community Cloud (GCC) –** Para los clientes del GCC, el conector de calidad de llamadas de Microsoft funcionará al usar Power BI Desktop solo. El conector de calidad de llamada de Microsoft no es actualmente compatible con el Power BI para GCC clientes.
+7. **Government Community Cloud (GCC):** para los clientes del entorno GCC, el conector de calidad de llamada de Microsoft funcionará al usar Power BI Desktop solo. El conector de calidad de llamada de Microsoft no es actualmente compatible con el Power BI para GCC clientes.
 
 La mayoría de estos problemas son restricciones al diseño de conector de DirectQuery en Power BI o son fundamentales para el diseño del modelo de datos CQD.
 
@@ -138,11 +138,19 @@ La mayoría de estos problemas son restricciones al diseño de conector de Direc
 
 ### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>Estoy intentando usar la columna Fecha como segmentación de datos de fecha. Tan pronto como convierta el tipo de datos de esta columna en Fecha, aparece este error
 
-> **No se pudieron cargar los** datos de este objeto visual: error OLE DB u ODBC: [Expresión.Error] No se pudo plegar la expresión al origen de datos. Pruebe una expresión más sencilla.
+> **No se pudieron cargar los** datos para este objeto visual: error OLE DB u ODBC: [Expresión.Error] No se pudo plegar la expresión al origen de datos. Pruebe una expresión más sencilla.
 
 Las segmentaciones de datos de fecha no son compatibles con el conector de calidad de llamadas de Microsoft. Para especificar un intervalo de fechas, aplique dos filtros al informe, especificando una fecha menor y mayor que la fecha.
 
 Como alternativa, si las fechas que desea ver son recientes, aplique un filtro de fecha relativa para mostrar solo los datos de los últimos N días/semanas/meses.
+
+
+### <a name="when-i-add-certain-dimensions-to-my-reports-the-visual-immediately-returns-couldnt-load-the-data-for-this-visual-removing-the-dimension-fixes-the-visual----what-is-happening"></a>Cuando agredo determinadas dimensiones a mis informes, el objeto visual devuelve **inmediatamente "No se pudieron cargar los datos de este objeto visual"**. Al quitar la dimensión se corrige el objeto visual, ¿qué está sucediendo?
+
+Este es un problema conocido en el conector de calidad de llamadas de Microsoft; cualquier dimensión que se exponga como un número completo aparecerá en Power BI como una columna de "agregado", donde Power BI intentará una acción de resumen predeterminada (normalmente , "Suma"). En algunos casos, este comportamiento logrará sumar los valores aunque el resultado no sea útil, ya que la "suma" de una dimensión como segundo canal WiFi no tiene sentido. En otros casos, se producirá un error en esta acción de resumen y se producirán errores en el objeto visual.
+
+Para evitar este problema, empiece quitando la dimensión del objeto visual. Seleccione la dimensión de la lista "Campos", vaya a la pestaña "Herramientas de columna" de la cinta de opciones, haga clic en el menú desplegable "Resumen" y seleccione No **resumir.** La dimensión ahora se puede agregar al objeto visual de nuevo.
+
 
 ## <a name="error-codes"></a>Códigos de error
 
@@ -160,9 +168,9 @@ Si encuentra errores adicionales fuera de este ámbito, notifique al equipo pane
 
 ## <a name="footnotes"></a>Notas al pie
 
-**<sup>1</sup>** Algunos procesos y aplicaciones (por ejemplo, OneDrive) pueden hacer que la carpeta raíz documentos cambie; asegúrese de que el *Power BI Desktop \\ de conectores personalizados* se coloca dentro de la carpeta raíz actual Documentos.
+**<sup>1</sup>** Algunos procesos y aplicaciones (por ejemplo, OneDrive) pueden hacer que la carpeta raíz documentos cambie; asegúrese de que el directorio *Power BI Desktop\\ Custom Connectors* se coloca dentro de la carpeta raíz actual Documentos.
 
-**<sup>2</sup>** Las credenciales de inicio  de sesión que usa para el panel de calidad de llamadas no necesitan ser las mismas que usa para iniciar sesión en la propia aplicación Power BI Desktop llamada.
+**<sup>2</sup>** Las credenciales de inicio de sesión que usa para el  panel de calidad de llamadas no necesitan ser las mismas que usa para iniciar sesión en la propia aplicación Power BI Desktop llamada.
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
