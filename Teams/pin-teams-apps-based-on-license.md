@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 659cfd90e2fb5f498c00ea4b48039f9493357309
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 774688012d4e70a20897cd45aa78883ba7985e68
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62161039"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864043"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>Personalizar las aplicaciones Teams basadas en la licencia
 
@@ -61,8 +61,6 @@ Esta característica está activada de forma predeterminada. Sin embargo, si no 
 
 1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams **aplicaciones** >  **de** administración y, a continuación, seleccione Configuración de la aplicación **para toda la organización**.
 2. En **Aplicaciones personalizadas**, cambie la opción Mostrar **aplicaciones personalizadas basadas en licencias** **a Desactivado** o **Encendido**.
-
-    :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="Captura de pantalla de la página Administrar aplicaciones, que muestra la configuración Mostrar aplicaciones personalizadas basadas en la configuración de la aplicación de toda la organización de la licencia" lightbox="media/pin-teams-apps-based-on-license.png":::
 
 ## <a name="scenarios"></a>Escenarios
 

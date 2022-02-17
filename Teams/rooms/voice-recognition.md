@@ -11,13 +11,18 @@ search.appverid: MET150
 description: Obtenga información sobre el control de administración de inquilinos para el reconocimiento de voz (perfil de voz) en Teams salas de reuniones.
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 9c970fb3d8584c9a68512187158c7dad11562c4a
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62863903"
 ---
-
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Administrar controles de tecnología de reconocimiento de voz para un altavoz inteligente
 
 Un orador inteligente usa la información de perfil de voz para reconocer quién dijo qué en la transcripción en directo. Cuando una Salas de Microsoft Teams para Windows de reunión está equipada con un altavoz inteligente, se puede usar la transcripción en directo durante la reunión. En este artículo se explica cómo usted, un administrador de inquilinos, controla la generación de perfiles de voz que se usa para el reconocimiento de voz para generar la transcripción en directo. Puede controlar hasta qué punto la organización usa el reconocimiento de voz y las siguientes características:
@@ -84,6 +89,9 @@ Las siguientes son las directivas necesarias para establecer un altavoz intelige
 En el Teams de administración, establezca la **directiva de transcripción**. Configuración están **desactivados** de forma predeterminada.
 
 ![el centro de administración con las directivas de reunión resaltadas y permitir la transcripción seleccionada.](../media/allow-transcription1.png)
+  
+> [!NOTE]
+> Una vez asignada una directiva, pueden tardar hasta 48 horas en tener efecto. Para que la directiva entre en vigor antes, las cuentas deben haber iniciado sesión y haber iniciado sesión de nuevo.
 
 ## <a name="frequently-asked-questions-faq"></a>Preguntas más frecuentes (P+F)
 
@@ -93,7 +101,7 @@ Los datos de perfil de voz se almacenan en Office 365 nube con contenido de usua
 
 **¿Cuál es la línea de tiempo y la directiva de retención?**
 
-La directiva de retención general se indica en información general [sobre la retención de datos](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). Además, los datos de perfil de voz de un usuario se eliminarán después de 3 años si el usuario no está invitado a ninguna reunión con un orador inteligente dentro de ese período de 3 años. Los datos no se usan en ninguna reunión para los empleados existentes. Si un empleado ha abandonado la empresa, los datos de perfil de voz se consideran contenido de usuario y se tratan como tales Office 365 directiva de retención de datos descrita en información general [sobre la retención de datos](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
+La directiva de retención general se indica en información general [sobre la retención de datos](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). Además, los datos de perfil de voz de un usuario se eliminarán después de 1 año si el usuario no está invitado a ninguna reunión con un orador inteligente dentro de ese período de 1 año. Los datos no se usan en ninguna reunión para los empleados existentes. Si un empleado ha abandonado la empresa, los datos de perfil de voz se consideran contenido de usuario y se tratan como tales Office 365 directiva de retención de datos descrita en información general [sobre la retención de datos](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 
 **¿Se usan datos de perfil de voz en servicios Microsoft?**
 
