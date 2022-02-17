@@ -6,24 +6,29 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
-  - m365solution-spcomms
-  - m365solution-scenario
+- M365-collaboration
+- m365initiative-meetings
+- m365solution-spcomms
+- m365solution-scenario
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-description: 'Descubra la forma en que los eventos en directo permiten a los usuarios difundir vídeo y contenido a un amplio público en Teams, Yammer y Stream.'
+description: Descubra la forma en que los eventos en directo permiten a los usuarios difundir vídeo y contenido a un amplio público en Teams, Yammer y Stream.
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.dashboard.helparticle.liveevents
-  - ms.teamsadmincenter.liveevents.policies
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: high
+ms.openlocfilehash: 53a49355b10a3250366d2bc67655f120412e1cc3
+ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62856678"
 ---
-
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
 ## <a name="overview"></a>Información general
@@ -97,7 +102,7 @@ El objetivo de eCDN consiste en tomar el contenido de vídeo de internet y distr
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
-- [Peer5](https://www.peer5.com/) (próximamente)
+- [Peer5](https://www.peer5.com/)
 
 ### <a name="attendee-experience"></a>Experiencia de los asistentes
 
