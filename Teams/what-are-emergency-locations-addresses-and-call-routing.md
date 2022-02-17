@@ -3,7 +3,7 @@ title: Planear y administrar llamadas de emergencia
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: roykuntz, jastark
+ms.reviewer: roykuntz
 ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
@@ -25,39 +25,39 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Obtenga información sobre las llamadas de emergencia, incluida la información sobre las direcciones de emergencia, el enrutamiento de llamadas de emergencia y las llamadas de emergencia dinámicas.
-ms.openlocfilehash: f6c1dd766ae14d855b9f2ffcf21c41ed8a5a1550
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: db78ff3b8384cc923daa24f119852240fc1744d6
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634869"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881525"
 ---
 # <a name="manage-emergency-calling"></a>Administrar llamadas de emergencia
 
-En este artículo se describen conceptos que debe conocer para administrar las llamadas de emergencia, que incluye información sobre direcciones de emergencia, direcciones de emergencia dinámicas y enrutamiento de &mdash; llamadas de emergencia. En este artículo se usa la terminología siguiente:
+En este artículo se describen los conceptos que debe conocer para administrar las llamadas de emergencia. Incluye información sobre direcciones de emergencia, direcciones de emergencia dinámicas&mdash; y enrutamiento de llamadas de emergencia. En este artículo se usa la terminología siguiente:
 
-- **Dirección de emergencia:** una dirección civil que es la dirección física o de calle &mdash; de un lugar de negocios para su organización.
+- **Dirección de emergencia** : una dirección civilla&mdash; dirección física o de calle de un lugar de negocios para su organización.
 
   Por ejemplo, la dirección *12345 North Main Street, Redmond, WA 98052* se usa para enrutar llamadas de emergencia a las autoridades de envío adecuadas y para ayudar a localizar al autor de la llamada de emergencia.
 
-- **Lugar:** normalmente un número de piso, edificio, ala u oficina. Place está asociado con una dirección de emergencia para dar una ubicación más exacta dentro de un edificio. Puede tener un número ilimitado de lugares asociados con una dirección de emergencia. Por ejemplo, si su organización tiene varios edificios, es posible que desee incluir información de colocación para cada edificio y cada planta dentro de cada edificio.  
+- **Lugar** : normalmente un número de piso, edificio, ala u oficina. Place está asociado con una dirección de emergencia para dar una ubicación más exacta dentro de un edificio. Puede tener un número ilimitado de lugares asociados con una dirección de emergencia. Por ejemplo, si su organización tiene varios edificios, es posible que desee incluir información de colocación para cada edificio y cada planta dentro de cada edificio.  
 
-- **Ubicación de emergencia:** una ubicación es una dirección civil &mdash; con un lugar opcional. Si su empresa tiene más de una ubicación física, es probable que necesite más de una ubicación de emergencia. 
+- **Ubicación de emergencia** : una ubicación es una dirección civilcon&mdash; un lugar opcional. Si su empresa tiene más de una ubicación física, es probable que necesite más de una ubicación de emergencia. 
 
-  Al crear una dirección de emergencia, se crea automáticamente un id. de ubicación único para esta dirección. Si agrega un lugar a una dirección de emergencia, por ejemplo, si agrega un piso a una dirección de edificio, se creará un id. de ubicación para la combinación de la dirección de emergencia &mdash; &mdash; y el lugar.  En este ejemplo, habrá dos direcciones de ubicación: una para la dirección civil; una para la dirección civil unida y el lugar asociado.
+  Al crear una dirección de emergencia, se crea automáticamente un id. de ubicación único para esta dirección. Si agrega un lugar a&mdash; una dirección de emergencia por ejemplo, si agrega un piso a&mdash; una dirección de edificio, se creará un id. de ubicación para la combinación de la dirección de emergencia y el lugar.  En este ejemplo, habrá dos direcciones de ubicación: una para la dirección civil; una para la dirección civil unida y el lugar asociado.
 
   Cuando asigna una ubicación de emergencia a un usuario o sitio, es este id. de ubicación único que está asociado con el usuario o el sitio.
 
-- **Dirección registrada:** una dirección de emergencia asignada a cada usuario. Una dirección registrada a veces se conoce como dirección de emergencia estática o dirección de registro. (Actualmente, las direcciones registradas no son compatibles con enrutamiento directo. Vuelva pronto para ver si hay actualizaciones).
+- **Dirección registrada** : una dirección de emergencia asignada a cada usuario. Una dirección registrada a veces se conoce como dirección de emergencia estática o dirección de registro. (Actualmente, las direcciones registradas no son compatibles con enrutamiento directo. Vuelva pronto para ver si hay actualizaciones).
 
 >[!Note]
->Hay algunas diferencias en la forma de administrar las llamadas de emergencia en función de si usa planes de llamadas de Microsoft, operadores Conectar o enrutamiento directo para la conectividad [RTC.](pstn-connectivity.md) Estas consideraciones se describen a lo largo de este artículo.
+>Hay algunas diferencias en la forma de administrar las llamadas de emergencia dependiendo de si usa planes de llamadas de Microsoft, operadores Conectar o enrutamiento directo para su [conectividad RTC](pstn-connectivity.md). Estas consideraciones se describen a lo largo de este artículo.
 
 ## <a name="emergency-address-validation"></a>Validación de direcciones de emergencia
 
 Para asignar una dirección de emergencia a un usuario o a un identificador de red, debe asegurarse de que la dirección de emergencia está marcada como "validada". La validación de direcciones garantiza que la dirección es legítima y que no se puede modificar después de asignarla. 
 
-Si define una dirección de emergencia mediante la característica de búsqueda de asignación de direcciones en el centro de administración de Teams, la dirección se marcará automáticamente como validada. Como no puede modificar una dirección de emergencia validada si cambia el formato o la representación de la dirección, debe crear una nueva dirección &mdash; con el formato actualizado.
+Si define una dirección de emergencia mediante la característica de búsqueda de asignación de direcciones en el centro de administración de Teams, la dirección se marcará automáticamente como validada. Como no puede modificar una dirección de&mdash; emergencia validada si cambia el formato o la representación de la dirección, debe crear una nueva dirección con el formato actualizado.
 
 
 ## <a name="emergency-address-geo-codes"></a>Códigos geográficos de direcciones de emergencia
@@ -74,7 +74,7 @@ Microsoft recomienda crear direcciones de emergencia mediante la característica
 
 ## <a name="considerations-for-calling-plans"></a>Consideraciones sobre planes de llamadas
 
-En las secciones siguientes se describe cómo administrar las llamadas de emergencia para los usuarios del Plan de llamadas de Microsoft. Para saber si los planes de llamadas de Microsoft son la solución adecuada para su empresa, vea [Opciones de conectividad RTC.](pstn-connectivity.md)
+En las secciones siguientes se describe cómo administrar las llamadas de emergencia para los usuarios del Plan de llamadas de Microsoft. Para averiguar si los planes de llamadas de Microsoft son la solución adecuada para su empresa, consulte [Opciones de conectividad RTC](pstn-connectivity.md).
 
 
 ### <a name="emergency-call-enablement-for-calling-plans"></a>Habilitación de llamadas de emergencia para planes de llamadas
@@ -85,7 +85,7 @@ Cuando la ubicación está asociada al número de teléfono depende del país o 
 
 - En Estados Unidos y Canadá, por ejemplo, se requiere una ubicación de emergencia cuando se asigna un número a un usuario.
 
-- Para otros países como Europa, Oriente Medio y África (EMEA) se requiere una ubicación de emergencia cuando recibe el número de teléfono de Microsoft 365 o cuando se transfiere de otro proveedor de servicios u &mdash; &mdash; operador.
+- &mdash;Para otros países como Europa, Oriente Medio y África (EMEA)&mdash; se requiere una ubicación de emergencia cuando recibe el número de teléfono de Microsoft 365 o cuando se transfiere de otro proveedor de servicios u operador.
 
 
 ### <a name="dynamic-emergency-calling-for-calling-plans"></a>Llamadas de emergencia dinámicas para planes de llamadas
@@ -100,7 +100,7 @@ La ubicación dinámica para el enrutamiento de llamadas de emergencia es compat
 
 La ubicación dinámica para el enrutamiento de llamadas de emergencia se admite en Canadá del mismo modo que en Estados Unidos con la siguiente excepción: todas las llamadas de emergencia se realizarán a nivel nacional antes de transferirse al PSAP.
 
-Para obtener más información, vea Planear y configurar llamadas de [emergencia dinámicas.](configure-dynamic-emergency-calling.md)
+Para obtener más información, vea [Planear y configurar llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md).
 
 ### <a name="emergency-call-routing-for-calling-plans"></a>Enrutamiento de llamadas de emergencia para planes de llamadas
 
@@ -124,13 +124,13 @@ Por ejemplo:
 
 **En Canadá, Irlanda** y el Reino Unido, las llamadas de emergencia se proyectan primero para determinar la ubicación actual del usuario antes de conectar la llamada al centro de envío adecuado.
 
-**En Francia, Alemania** y España, las llamadas de emergencia se enruta directamente al PSAP que sirve la dirección de emergencia asociada con el número, independientemente de la ubicación del autor de la llamada.
+**En Francia, Alemania** y España, las llamadas de emergencia se enruta directamente al PSAP que sirve a la dirección de emergencia asociada con el número, independientemente de la ubicación del autor de la llamada.
 
-**En los Países Bajos,** las llamadas de emergencia se enruta directamente al PSAP para obtener el código de área local del número, independientemente de la ubicación del autor de la llamada.
+**En los Países Bajos**, las llamadas de emergencia se enruta directamente al PSAP para obtener el código de área local del número, independientemente de la ubicación del autor de la llamada.
 
-**En Australia,** las direcciones de emergencia están configuradas y enrutadas por el partner transportista.
+**En Australia**, las direcciones de emergencia están configuradas y enrutadas por el partner transportista.
 
-**En Japón,** las llamadas de emergencia no son compatibles.
+**En Japón**, las llamadas de emergencia no son compatibles.
 
 
 Para obtener más información, vea:
@@ -142,13 +142,13 @@ Para obtener más información, vea:
 
 ## <a name="considerations-for-operator-connect"></a>Consideraciones para operadores Conectar
 
-En las secciones siguientes se describe cómo administrar las llamadas de emergencia para los usuarios Conectar operador. Para saber si Operator Conectar es la solución adecuada para su empresa, vea [Opciones de conectividad RTC.](pstn-connectivity.md)
+En las secciones siguientes se describe cómo administrar las llamadas de emergencia para los usuarios Conectar operador. Para saber si Operator Conectar es la solución adecuada para su empresa, vea [Opciones de conectividad RTC](pstn-connectivity.md).
 
 ### <a name="emergency-call-enablement-for-operator-connect"></a>Habilitación de llamadas de emergencia para operadores Conectar
 
 Cada operador Conectar usuario se habilita automáticamente para las llamadas de emergencia. Las llamadas de emergencia se enruta automáticamente al operador Conectar operador de un número determinado.
 
-La capacidad de un administrador de inquilinos para establecer la dirección registrada de un operador Conectar usuario dependerá de las capacidades asignadas al número cuando el operador las cargue en un inventario de clientes. En función de esta configuración, el administrador de inquilinos puede o no ser necesario o poder establecer, modificar o eliminar la ubicación de emergencia &mdash; &mdash; de un usuario. 
+La capacidad de un administrador de inquilinos para establecer la dirección registrada de un operador Conectar usuario dependerá de las capacidades asignadas al número cuando el operador las cargue en un inventario de clientes. En función de esta configuración, el administrador de inquilinos puede o no&mdash; ser requerido o&mdash; poder establecer, modificar o eliminar la ubicación de emergencia de un usuario. 
 
 ### <a name="dynamic-emergency-calling-for-operator-connect"></a>Llamadas de emergencia dinámicas para operadores Conectar
 
@@ -162,7 +162,7 @@ La ubicación dinámica para el enrutamiento de llamadas de emergencia es compat
 
 La ubicación dinámica para el enrutamiento de llamadas de emergencia es compatible en Canadá del mismo modo que en Estados Unidos con las siguientes excepciones: todas las llamadas de emergencia se realizarán a nivel nacional antes de transferirse al PSAP.
 
-Para obtener más información, vea Planear y configurar llamadas de [emergencia dinámicas.](configure-dynamic-emergency-calling.md)
+Para obtener más información, vea [Planear y configurar llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md).
 
 ### <a name="emergency-call-routing-for-operator-connect"></a>Enrutamiento de llamadas de emergencia para operador Conectar
 
@@ -176,9 +176,10 @@ Cuando un Teams de Conectar marca un número de emergencia, la forma en que la l
 
 - En Estados Unidos y Canadá, el enrutamiento dinámico forma parte del servicio del operador. No es necesario que adquiera este servicio de otro proveedor de servicios.
 
-En Estados Unidos y Canadá:
+- Si un Teams se encuentra en una ubicación de emergencia dinámica definida por el inquilino:
 
-- Si un cliente Teams se encuentra en una ubicación de emergencia dinámica definida por el inquilino, las llamadas de emergencia de ese cliente se enruta automáticamente al PSAP que sirve a esa ubicación geográfica.
+   - En los Estados Unidos, las llamadas de emergencia de ese cliente se enruta automáticamente al PSAP que sirve esa ubicación geográfica.
+   - En Canadá, todas las llamadas de emergencia se realizarán mediante un centro de llamadas nacional antes de transferir la llamada al PSAP que sirve a esa ubicación geográfica.
 
 - Si un cliente de Teams no se encuentra en una ubicación de emergencia dinámica definida por el inquilino, un centro de llamadas nacional proyecta las llamadas de emergencia de ese cliente para determinar la ubicación del autor de la llamada antes de transferir la llamada al PSAP que sirve a esa ubicación geográfica.
 
@@ -187,11 +188,11 @@ En Estados Unidos y Canadá:
 
 ## <a name="considerations-for-direct-routing"></a>Consideraciones para enrutamiento directo
 
-En las secciones siguientes se describe cómo administrar las llamadas de emergencia para los usuarios de Enrutamiento directo. Para saber si enrutamiento directo es la solución adecuada para su empresa, vea [Opciones de conectividad RTC.](pstn-connectivity.md)
+En las secciones siguientes se describe cómo administrar las llamadas de emergencia para los usuarios de Enrutamiento directo. Para averiguar si el enrutamiento directo es la solución adecuada para su empresa, vea [Opciones de conectividad RTC](pstn-connectivity.md).
 
 ### <a name="emergency-call-enablement-for-direct-routing"></a>Habilitación de llamadas de emergencia para enrutamiento directo
 
-Para enrutamiento directo, debe definir directivas de [](manage-emergency-call-routing-policies.md) llamadas de emergencia para los usuarios mediante una directiva de enrutamiento de llamadas de emergencia Teams para definir los números de emergencia y su destino de enrutamiento asociado. (Actualmente, las ubicaciones de emergencia registradas no son compatibles con los usuarios de Enrutamiento directo).
+Para enrutamiento directo, debe definir directivas de llamadas de emergencia para los usuarios mediante [](manage-emergency-call-routing-policies.md) una directiva de enrutamiento de llamadas de emergencia Teams para definir los números de emergencia y su destino de enrutamiento asociado. (Actualmente, las ubicaciones de emergencia registradas no son compatibles con los usuarios de Enrutamiento directo).
 
 Puede asignar una directiva de enrutamiento de llamadas de emergencia a una cuenta de usuario de Enrutamiento directo, un sitio de red o ambos. Cuando un Teams inicia o cambia una conexión de red, Teams realiza una búsqueda del sitio de red donde se encuentra el cliente de la siguiente manera:
 
@@ -214,11 +215,11 @@ Para los usuarios de Enrutamiento directo, la ubicación dinámica para el enrut
 
 La ubicación dinámica para el enrutamiento de llamadas de emergencia se admite en Canadá del mismo modo que en Estados Unidos con la siguiente excepción: todas las llamadas de emergencia se realizarán a nivel nacional antes de transferirse al PSAP.
 
-Para obtener más información, vea [Configurar llamadas de emergencia dinámicas.](configure-dynamic-emergency-calling.md)
+Para obtener más información, vea [Configurar llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md).
 
 ### <a name="emergency-call-routing-for-direct-routing"></a>Enrutamiento de llamadas de emergencia para enrutamiento directo
 
-La directiva de enrutamiento de llamadas de emergencia para enrutamiento directo hace referencia a un uso rtc en línea, que debe tener la configuración de enrutamiento directo adecuada para enrutar correctamente las llamadas de emergencia a las puertas de enlace RTC adecuadas. En particular, debe asegurarse de que hay un OnlineVoiceRoute para la cadena de marcado de emergencia. Para obtener más información, vea [Configurar enrutamiento directo.](direct-routing-configure.md) 
+La directiva de enrutamiento de llamadas de emergencia para enrutamiento directo hace referencia a un uso rtc en línea, que debe tener la configuración de enrutamiento directo adecuada para enrutar correctamente las llamadas de emergencia a las puertas de enlace RTC adecuadas. En particular, debe asegurarse de que hay un OnlineVoiceRoute para la cadena de marcado de emergencia. Para obtener más información, vea [Configurar enrutamiento directo](direct-routing-configure.md). 
 
 > [!NOTE]
 > Teams clientes ya no anteponen el signo "+" delante de los números de emergencia; es decir, +911. Por lo tanto, Teams llamadas de emergencia ya no enviarán un "+" anterior al número 911. Asegúrese de que los patrones de ruta de voz reflejan este cambio.
@@ -236,7 +237,7 @@ En los Estados Unidos, hay numerosos proveedores de servicios de enrutamiento de
 
 -  Las llamadas de emergencia sin una ubicación adquirida dinámicamente se primero se proyectan para determinar la ubicación actual del usuario antes de conectar la llamada al centro de envío adecuado en función de la ubicación actualizada.
 
-Para obtener más información, vea [Controladores de borde de sesión certificados para enrutamiento directo.](direct-routing-border-controllers.md)
+Para obtener más información, vea [Controladores de borde de sesión certificados para enrutamiento directo](direct-routing-border-controllers.md).
 
 
 #### <a name="emergency-location-identification-number-applications"></a>Aplicaciones de número de identificación de ubicación de emergencia
@@ -252,7 +253,7 @@ Cuando una llamada de emergencia con una ubicación adquirida dinámicamente se 
 
 Tras una llamada de nuevo al número de emergencia, la aplicación ELIN realizará la sustitución de número llamada inversa por la del autor de la llamada de emergencia original. 
 
-Para obtener más información, vea [Controladores de borde de sesión certificados para enrutamiento directo.](direct-routing-border-controllers.md)
+Para obtener más información, vea [Controladores de borde de sesión certificados para enrutamiento directo](direct-routing-border-controllers.md).
 
 
 ## <a name="security-desk-notification"></a>Notificación de escritorio de seguridad

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo administrar la configuración de la directiva de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: ac77ab8b032fa792b0b137c84679912768e3b1b6
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: bdff1880104f80e7a5073900087a855202a9a137
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457380"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881535"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -98,15 +98,14 @@ Esta configuración es una configuración por participante. Esta configuración 
 
 |Valor de configuración |Comportamiento  |
 |---------|---------|
-|**Activarlo para todos los usuarios**     | Todos los participantes pueden escribir y ver mensajes de chat. |
-|**Desactivarla para todos los usuarios**     | El chat de la reunión está desactivado para todos los participantes.  |
-|**Activarlo para todos los usuarios menos para usuarios anónimos**| Los usuarios anónimos no pueden chatear durante las reuniones, pero pueden leer mensajes. |
+|**Habilitado**     | Todos los participantes pueden escribir y ver mensajes de chat. |
+|**No habilitado**     | El chat de la reunión está desactivado para todos los participantes.  |
 
 <a name="bkparticipantsandguests"> </a>
 
 ## <a name="enable-meeting-policy-settings"></a>Habilitar la configuración de directiva de reunión
 
-Para habilitar la configuración de la directiva de reunión, puede usar el centro de administración de [Teams](https://admin.teams.microsoft.com/policies/meetings) **(** > Directivas de **reuniónEditar** >  una **directivaParticipantes & invitados**) o el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) en Teams PowerShell. 
+Para habilitar la configuración de la directiva de reunión, puede usar el centro de administración de [Teams](https://admin.teams.microsoft.com/policies/meetings) **(** > Directivas de **reuniónEditar** >  una **directivaParticipantes & invitados**) o el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) en Teams PowerShell. 
 
 En este ejemplo, usamos PowerShell para modificar la directiva global de reunión para permitir que cualquier persona pueda iniciar o unirse a una reunión.
 

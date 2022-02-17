@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo Microsoft Direct Routing le permite conectar un controlador de borde de sesión (SBC) proporcionado por el cliente compatible con Sistema telefónico.
-ms.openlocfilehash: 9f75646dd90b4c30384e12ae23fdc46be8825fab
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 9070acf8483041115308335abac49796be311453
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518842"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881545"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -182,7 +182,7 @@ Más información: [Requisitos del programa: Microsoft Trusted Root Program](/se
 - DigiCert High Assurance EV Root CA
 
 > [!NOTE]
-> Si el soporte técnico de TLS mutuo (MTLS) está habilitado para la conexión Teams en el SBC, debe instalar el certificado raíz de CyberTrust de Baltimore en el almacén raíz de confianza de SBC del contexto Teams TLS. (Esto se debe a que los certificados de servicio de Microsoft usan el certificado raíz de Baltimore). Para descargar el certificado raíz de Baltimore, [vea Office 365 cadenas de cifrado](/microsoft-365/compliance/encryption-office-365-certificate-chains).
+> Si el soporte de TLS mutuo (MTLS) está habilitado para la conexión Teams en el SBC, debe instalar la raíz de CyberTrust de Baltimore y los certificados Global Root G2 de DigiCert en el almacén raíz de confianza de SBC del contexto Teams TLS. (Esto se debe a que los certificados de servicio de Microsoft usan uno de estos dos certificados raíz). Para descargar estos certificados raíz, [vea Office 365 cadenas de cifrado](/microsoft-365/compliance/encryption-office-365-certificate-chains). Para obtener más información, [vea Office de certificados TLS](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
 
 ## <a name="sip-signaling-fqdns"></a>Señalización SIP: FQDN 
 

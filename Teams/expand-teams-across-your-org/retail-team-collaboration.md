@@ -19,12 +19,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef9f41dd9317e31fc91a587abfac40370b035376
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: f86550586a28e1d5261cacb17941b9501d5402a1
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288876"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864053"
 ---
 # <a name="retail-team-collaboration"></a>Colaboración de equipos minoristas
 
@@ -34,7 +34,7 @@ Reúna a los asociados y la administración en la tienda para comunicar, colabor
 
 
 > [!NOTE]
-> Estos escenarios también forman parte de Microsoft Cloud para el sector minorista. Puede hacer más con estos escenarios cuando también use otras capacidades de Microsoft Cloud para el sector minorista, como Microsoft Dynamics 365. Obtenga más información sobre el uso de esta solución, que reúne las capacidades de Azure, Dynamics 365 y Microsoft 365 en [Microsoft Cloud para el sector minorista](/industry/retail).
+> Estos escenarios también forman parte de Microsoft Cloud para el sector minorista. Puede hacer más con estos escenarios cuando también use otras funcionalidades de Microsoft Cloud for Retail, como Microsoft Dynamics 365. Obtenga más información sobre el uso de esta solución, que reúne las capacidades de Azure, Dynamics 365 y Microsoft 365 en [Microsoft Cloud para el sector minorista](/industry/retail).
 
 ## <a name="day-to-day-communications-and-collaboration-in-teams"></a>Comunicaciones diarias y colaboración en Teams
 
@@ -56,7 +56,7 @@ Su equipo puede usar aplicaciones en Teams para coordinar y colaborar entre sí 
 | ---- | ---- | ---- | ---- | ---- |
 | Crear, administrar y compartir programaciones| Turnos | Use Turnos para administrar y compartir programaciones sin problemas. Los administradores pueden crear grupos personalizados como cajeros o saludadores, asignar turnos a empleados, agregar etiquetas y saltos personalizados e incluir turnos abiertos que los empleados pueden solicitar realizar. Los empleados pueden usar Turnos para establecer su disponibilidad, ver sus programaciones, intercambiar turnos con compañeros de trabajo, y marcar la entrada y la salida. | [Administrar Turnos](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)|[Aprendizaje en vídeo de Turnos](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)|
 | Permanecer en contacto | Walkie-talkie | La aplicación Walkie-talkie proporciona una comunicación instantánea entre personas. Al usar Walkie-talkie, los empleados y los administradores pueden comunicarse desde cualquier lugar de la tienda. Por ejemplo, si un cliente de un lado de la tienda le pregunta a un empleado si un artículo está disponible en el otro lado de la tienda, el empleado puede usar Walkie-talkie para ponerse en contacto con alguien que trabaja cerca del artículo. Como Walkie-talkie no tiene un alcance limitado, los empleados también pueden consultar fácilmente con expertos en otras tiendas u oficinas corporativas. | [Administrar Walkie-talkie](../walkie-talkie.md)  | [Aprendizaje en vídeo de Walkie-talkie](https://support.microsoft.com/office/use-walkie-talkie-in-teams-884a008a-761e-4b62-99f8-15671d9a2f69) |
-| Aumentar la moral | Elogio | La aplicación Elogio permite a la administración y a los asociados de la tienda felicitarse entre sí y compartir su agradecimiento enviando distintivos personalizados o predefinidos. Elogio ayuda a los empleados a sentirse reconocidos por logros como lograr objetivos de ventas o hacer un esfuerzo adicional para ayudar a los clientes. | [Administrar la aplicación Elogio](../manage-praise-app.md) |[Aprendizaje en vídeo de Elogio](https://support.microsoft.com/office/communication-and-praise-7d37ef80-542b-42e5-aa01-0fabbaa634b6) |
+| Aumentar la moral | Elogio | La aplicación Elogio permite a la administración y a los asociados de la tienda felicitarse entre sí y compartir su agradecimiento enviando distintivos. Elogio ayuda a los empleados a sentirse reconocidos por logros como lograr objetivos de ventas o hacer un esfuerzo adicional para ayudar a los clientes. | [Administrar la aplicación Elogio](../manage-praise-app.md) |[Aprendizaje en vídeo de Elogio](https://support.microsoft.com/office/communication-and-praise-7d37ef80-542b-42e5-aa01-0fabbaa634b6) |
 | Seguir y supervisar tareas | Tasks | Use Tareas en Teams para realizar un seguimiento de las tareas pendientes de todo el equipo minorista. Los administradores y empleados de la tienda pueden crear, asignar y programar tareas, clasificarlas y actualizar su estado en cualquier momento desde cualquier dispositivo que use Teams. Los administradores y profesionales de TI también pueden publicar tareas en equipos específicos para su organización. Por ejemplo, podría publicar un conjunto de tareas para la limpieza diaria o los pasos para configurar una nueva pantalla.| [Administrar la aplicación Tasks](/microsoftteams/manage-tasks-app) |[Aprendizaje en vídeo de Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) |
 | Simplificar las aprobaciones | Aprobaciones | Use Aprobaciones para simplificar las solicitudes y los procesos con su equipo. Cree, administre y comparta aprobaciones directamente desde su centro para el trabajo en equipo. Inicie un flujo de aprobación desde el mismo sitio desde el que envía un chat, en una conversación de canal o desde la propia lista de Aprobaciones. Solo tiene que seleccionar el tipo de aprobación, agregar detalles, adjuntar archivos y elegir aprobadores. Una vez enviado, los aprobadores reciben una notificación y pueden revisar y responder a la solicitud.<br>Puede permitir el uso de la aplicación Aprobaciones para su organización y agregarla a Teams. | [Disponibilidad de la aplicación Aprobaciones de Teams](/microsoftteams/approval-admin) | [Aprendizaje en vídeo de Aprobaciones](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3?wt.mc_id=otc_microsoft_teams)|
 
