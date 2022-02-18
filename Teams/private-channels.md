@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información acerca de cómo usar y administrar canales privados en Microsoft Teams.
-ms.openlocfilehash: 8d041d0fa8a182cb3cebf485c9cef92f880a99e5
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: edf3fc2933bf51f3c5966fa8e021fe0ff50de39b
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299015"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881555"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canales privados en Microsoft Teams
 
@@ -83,10 +83,6 @@ En la siguiente tabla se describen las acciones que los propietarios, miembros e
 |Editar la configuración|No|N/D|N/D|Sí|No|No|
 |Administrar pestañas y aplicaciones|No|N/D|N/D|Sí, las aplicaciones deben estar instaladas para el equipo|Controlado por el propietario del canal|No|
 
-## <a name="manage-the-lifecycle-of-private-channels"></a>Administrar el ciclo de vida de los canales privados
-
-Consulte [Administrar el ciclo de vida de canales privados en Teams](private-channels-life-cycle-management.md) para obtener instrucciones sobre cómo administrar el ciclo de vida de los canales privados de su organización. Esto incluye cómo controlar si los usuarios de su organización pueden crear canales privados, cómo crear un canal privado en nombre de un propietario del equipo, cómo obtener una lista de todos los mensajes de canales privados para propósitos de archivado y auditoría, y otras tareas de administración.  
-
 ## <a name="private-channel-sharepoint-sites"></a>Sitios de SharePoint de canal privado
 
 Cada canal privado tiene su propio sitio de SharePoint. La finalidad del sitio independiente es garantizar que el acceso a los archivos de canales privados esté restringido exclusivamente a los miembros del canal privado. Estos sitios se crean con una biblioteca de documentos de forma predeterminada y pueden ampliarse fácilmente a un sitio con todas las funciones mediante la [interfaz de administración de sitios](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada sitio se crea en la misma región geográfica que el sitio para el equipo principal. Estos sitios livianos tienen un identificador de plantilla personalizado, "TEAMCHANNEL # 0", para facilitar la administración mediante la API de PowerShell y Graph. 
@@ -139,3 +135,5 @@ No se pueden programar reuniones de canal.
 [Información general de PowerShell para Teams](teams-powershell-overview.md)
 
 [Usar la API de Microsoft Graph para trabajar con Microsoft Teams](/graph/api/resources/teams-api-overview)
+
+[Tipo de recurso de canal](/graph/api/resources/channel)
