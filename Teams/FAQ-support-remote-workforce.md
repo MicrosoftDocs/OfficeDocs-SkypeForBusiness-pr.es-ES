@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos a ser productivos cuando trabajan desde casa (WFH) en respuesta al brote de COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06be01aad7a8bea73c608cd4709149042daec9e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 631fdd7668e8dd0bc8781509671dc11a1c631816
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610527"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893539"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Preguntas más frecuentes: Soporte para los trabajadores remotos
 
@@ -83,7 +83,7 @@ Teams está disponible de forma gratuita a través de un par de programas difere
 
 ### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>Ya tengo Microsoft 365, pero no uso Teams. ¿Proporcionan licencias de prueba?
 
-Si tiene Microsoft 365, también tiene Teams. [Actívelo](Office-365-set-up.md) para todos sus usuarios. Una vez que esté activado, sus usuarios podrán ejecutar Teams, bien instalando clientes de [escritorio](get-clients.md#desktop-client) o [móviles](get-clients.md#mobile-clients), o bien [desde el explorador](get-clients.md#mobile-clients) en [https://teams.microsoft.com](https://teams.microsoft.com). 
+Si tiene Microsoft 365, también tiene Teams. [Actívelo](Office-365-set-up.md) para todos sus usuarios. Una vez que esté activado, sus usuarios podrán ejecutar Teams, bien instalando clientes de [escritorio](get-clients.md#desktop-clients) o [móviles](get-clients.md#mobile-clients), o bien [desde el explorador](get-clients.md#mobile-clients) en [https://teams.microsoft.com](https://teams.microsoft.com). 
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>¿Cómo puedo obtener ayuda para empezar a trabajar con Teams y asegurarme de implementarlo correctamente?
 

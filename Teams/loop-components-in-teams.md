@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175b7f4bf8d181ae7e66edb255bd32dd40bb2fa1
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 7264d7f08342121a862943dd8b063fe904c87072
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518982"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893733"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Información general sobre los componentes de bucle en Teams
 
@@ -78,7 +78,7 @@ Los archivos .fluid solo se pueden abrir como vínculos en el explorador, como O
 - Con los permisos de archivo predeterminados del inquilino establecidos en Personas *específicas (solo* las personas que especifica el usuario), la creación de un componente activo en el chat grupal con más de 20 miembros requerirá que el remitente seleccione manualmente las opciones de permisos para el componente.
 - Buscar componentes de bucle en Teams búsqueda devolverá un vínculo al componente en office.com, no en el mensaje de chat en sí.
 - Los componentes de bucle están deshabilitados en chats federados.
-- Los invitados B2B no podrán colaborar en un componente activo que se comparte con ellos a través  de los vínculos de personas de su organización, a menos que el inquilino establece una opción de acceso externo para permitir que los invitados B2B tengan el mismo nivel de acceso que los miembros del inquilino. Para obtener más información, vea [Configurar la configuración de colaboración externa B2B](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings).
+- Los invitados B2B no podrán colaborar en un componente en directo que se comparta con ellos a través de Company Share Link. Establezca permisos en **Personas que se encuentran actualmente en este chat** para compartir componentes con invitados B2B.
 - Los componentes de bucle no son compatibles Teams canales.
 - Los componentes de bucle en el chat no se cargarán solo si el archivo se movió a una biblioteca diferente. Si el archivo se mueve a otra carpeta, se seguirá cargando en el chat.
 
