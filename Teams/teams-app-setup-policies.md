@@ -1,7 +1,7 @@
 ---
 title: Administrar directivas de configuración de aplicación en Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -9,18 +9,23 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar directivas de configuración de aplicaciones Microsoft Teams para los usuarios de su organización.
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.appsetuppolicies.overview
+- ms.teamsadmincenter.appsetuppolicies.overview
+ms.openlocfilehash: 8105e8086571d6eb227395781fd841820b863f0e
+ms.sourcegitcommit: 86a4826472f3f1357ee9bffd512108d8778e0c5b
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62897545"
 ---
-
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
 Como administrador, puede usar directivas de configuración de aplicaciones para instalar y anclar aplicaciones para promover las aplicaciones más usadas de su organización y decidir si desea que los usuarios carguen aplicaciones personalizadas a Teams.
@@ -119,7 +124,7 @@ Para crear una directiva de configuración de aplicaciones que permita a los usu
 4. Activa o desactiva las **Upload personalizadas**, dependiendo de si quieres permitir que los usuarios carguen aplicaciones personalizadas a Teams.
 
 > [!NOTE]
-> No puede cambiar esta configuración si Permitir aplicaciones **de terceros** está desactivada en la configuración de aplicaciones [de toda la organización](manage-apps.md#manage-org-wide-app-settings).
+> No puede cambiar esta configuración si las **aplicaciones de terceros** están desactivadas en la configuración [de aplicaciones de toda la organización](manage-apps.md#manage-org-wide-app-settings).
 
 ## <a name="manage-app-setup-policies"></a>Administrar directivas de configuración de aplicaciones
 
@@ -127,7 +132,7 @@ Puede administrar directivas de configuración de aplicaciones en el Microsoft T
 
 Edita la configuración de la directiva global para incluir las aplicaciones que desee. Para personalizar Teams para diferentes grupos de usuarios de su organización, cree y asigne una o más directivas personalizadas.
 
-![la página Directivas de configuración de aplicaciones.](media/app-setup-policies.png)
+![la página Directivas de configuración de aplicaciones.](media/app-setup-policies-update.png)
 
 ### <a name="edit-an-app-setup-policy"></a>Editar una directiva de configuración de aplicaciones
 
@@ -141,23 +146,19 @@ Puede usar el centro Microsoft Teams administración para editar una directiva, 
 
 4. Seleccione **Guardar**.
 
-### <a name="assign-a-custom-app-setup-policy-to-users"></a>Asignar una directiva de configuración de aplicación personalizada a los usuarios
+### <a name="assign-a-custom-app-setup-policy-to-users-and-groups"></a>Asignar una directiva de configuración de aplicación personalizada a usuarios y grupos
 
-Para obtener más información sobre cómo asignar directivas a los usuarios, vea [Asignar directivas a usuarios y grupos](assign-policies-users-and-groups.md).
+Para obtener más información sobre cómo asignar directivas a los usuarios y grupos, vea [Asignar directivas a usuarios y grupos](assign-policies-users-and-groups.md).
 
 ## <a name="faq"></a>Preguntas más frecuentes
 
 ### <a name="working-with-app-setup-policies"></a>Trabajar con directivas de configuración de aplicaciones
 
-#### <a name="can-i-assign-an-app-setup-policy-to-a-group"></a>¿Puedo asignar una directiva de configuración de aplicación a un grupo?
-
-Las directivas de configuración de aplicaciones se pueden asignar a grupos con PowerShell. Para obtener más información sobre cómo asignar directivas a grupos con PowerShell, vea Asignar [directivas a usuarios y grupos](assign-policies-users-and-groups.md#use-the-powershell-option).
-
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Qué directivas de configuración de aplicaciones integradas se incluyen en el centro de Microsoft Teams de administración
 
 - **Global (org-wide default)**: esta directiva predeterminada se aplica a todos los usuarios de su organización a menos que asigne otra directiva. Edite la directiva global para anclar aplicaciones que sean más importantes para los usuarios.
 
-- **FrontlineWorker**: esta directiva es para trabajadores de frontline. Puede asignarlo a Trabajadores de frontline de su organización. Es importante saber que, al igual que las directivas personalizadas que cree, tiene que asignar la directiva a los usuarios para que la configuración esté activa. Para obtener más información, vaya a la sección Asignar [una directiva de configuración de aplicación personalizada a](#assign-a-custom-app-setup-policy-to-users) los usuarios de este artículo.
+- **FrontlineWorker**: esta directiva es para trabajadores de frontline. Puede asignarlo a Trabajadores de frontline de su organización. Es importante saber que, al igual que las directivas personalizadas que cree, tiene que asignar la directiva a los usuarios para que la configuración esté activa. Para obtener más información, vaya a la sección Asignar [una directiva de configuración de aplicación personalizada a](#assign-a-custom-app-setup-policy-to-users-and-groups) los usuarios de este artículo.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>¿Por qué no puedo encontrar una aplicación en el panel Agregar aplicaciones ancladas?
 

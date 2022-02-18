@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: e55e2bed641c1cc2042cd02aefbe2a6e13ea8f17
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.openlocfilehash: 5b8e7636c53add6e8ef30fa8903cff8ac3d260a3
+ms.sourcegitcommit: 86a4826472f3f1357ee9bffd512108d8778e0c5b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62863943"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62897555"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams dispositivos Android certificados
 
@@ -71,8 +71,9 @@ Los siguientes dispositivos están certificados en el Salas de Microsoft Teams p
 
 | Modelo de dispositivo | Versión de firmware | Fecha de finalización de la certificación actual | Tamaño del salón                                        |  Versión del sistema operativo Android    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Logitech Roommate | `1.4.71` | 3 de septiembre de 2024  | Gran sala de reuniones (4,5 m x 8,5 m)  |   10  |
 | EXPANSIÓN DE EPS 80T | `1.2.2.21182.10` | 5 de agosto de 2023 | Incluido con el EPOS Vision 3T | 9 |
-| Dispositivo Logitech Tap     | `1.2.982`     |   3 de septiembre de 2024  | Compatible con Logitech Rally Bar y Rally Bar Mini | 10 |
+| Dispositivo Logitech Tap     | `1.2.982`  |   3 de septiembre de 2024  | Compatible con Logitech Rally Bar y Rally Bar Mini | 10 |
 | Logitech Rally Bar Mini | `1.2.982`     |   3 de septiembre de 2024  |    Pequeño Sala de reuniones (4,5 m x 4,5 m) | 10 |
 | Logitech Rally Bar      | `1.2.788`     |   3 de septiembre de 2024  |    Sala de tamaño medio (4,5 m x 6 m)       | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   5 de agosto de 2023  | Sala de enfoque(3m x 3m) </br> Pequeña sala de reuniones(4,5 m x 4,5 m) | 9 |
