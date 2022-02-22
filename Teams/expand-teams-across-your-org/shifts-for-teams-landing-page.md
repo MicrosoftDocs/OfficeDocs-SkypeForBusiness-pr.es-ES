@@ -22,12 +22,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 4c3ed73b3238be2795c30fa7d162ed201cd77afd
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: b92cca01512d31fe193a718eede74fd04f44ae2e
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288508"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918873"
 ---
 # <a name="shifts-for-teams"></a>Turnos para Teams
 
@@ -43,8 +43,9 @@ Use los siguientes recursos para ayudarle a configurar y administrar turnos en s
 
 |&nbsp;  |&nbsp; |
 |---------|---------|
-|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">|**[Administrar turnos en su organización](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** Obtenga información sobre cómo administrar turnos para su organización. |
-|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">|**[Administrar propietarios de programación para la administración de turnos](shifts/schedule-owner-for-shift-management.md)** Esta característica le permite elevar los permisos de un miembro del equipo a un propietario de programación sin convertir al empleado en propietario del equipo. |
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">   |**[Administrar turnos](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** Obtenga información sobre cómo administrar turnos para su organización.         |
+|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">   |**[Administrar propietarios de programación para la administración de turnos](shifts/schedule-owner-for-shift-management.md)** Esta característica le permite elevar los permisos de un miembro del equipo a un propietario de programación sin convertir al empleado en propietario del equipo.         |
+|<img src="/office/media/icons/help.png" alt="Help symbol.">     | **[Preguntas más frecuentes sobre los datos de turnos](shifts/shifts-data-faq.md)** Obtenga información sobre dónde se almacenan los datos de Turnos y otros temas relacionados con los datos de Turnos, como retención, recuperación y cifrado.        |
 
 ## <a name="shifts-connectors"></a>Conectores de turnos
 

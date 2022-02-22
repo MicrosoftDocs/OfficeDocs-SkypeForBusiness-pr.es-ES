@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7264d7f08342121a862943dd8b063fe904c87072
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 660ecd7542eadd56b284642895e5da15a1cdd434
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893733"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918944"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Información general sobre los componentes de bucle en Teams
 
@@ -37,6 +37,8 @@ Los componentes de bucle Teams chat ofrecen una nueva forma de idear, crear y to
 **Compartir componentes.** En esta versión, puede compartir componentes loop en diferentes Teams chats. Los destinatarios pueden editar desde cualquier lugar y ver actualizaciones al instante, independientemente de dónde se realizaron los cambios.
 
 **Empiece en el chat, cree desde allí.** Todos los componentes que cree Teams chat se guardarán automáticamente en un archivo en OneDrive. Por lo tanto, es posible que empiece a colaborar en el chat y, posteriormente, se mueva al archivo, donde tiene un espacio visual más grande para editar y puede agregar tantos componentes como quiera.
+
+Para obtener información sobre la configuración de administración de los componentes de bucle en Teams, vea Administrar componentes [de bucle en SharePoint](/sharepoint/manage-loop-components).
 
 ## <a name="clients-and-platforms"></a>Clientes y plataformas
 
@@ -81,7 +83,3 @@ Los archivos .fluid solo se pueden abrir como vínculos en el explorador, como O
 - Los invitados B2B no podrán colaborar en un componente en directo que se comparta con ellos a través de Company Share Link. Establezca permisos en **Personas que se encuentran actualmente en este chat** para compartir componentes con invitados B2B.
 - Los componentes de bucle no son compatibles Teams canales.
 - Los componentes de bucle en el chat no se cargarán solo si el archivo se movió a una biblioteca diferente. Si el archivo se mueve a otra carpeta, se seguirá cargando en el chat.
-
-## <a name="related-topics"></a>Temas relacionados
-
-[Administrar componentes de bucle en SharePoint](/sharepoint/manage-loop-components)
