@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga información sobre los problemas conocidos Salas de Microsoft Teams, como la actualización, la interfaz de usuario, el hardware y las limitaciones y los comportamientos esperados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0c9d73ddf276fac1474c51156cbc59a3b3bbb47b
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: 5322020d37e3251aa54a20afecba353dd6335f55
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299095"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926323"
 ---
 # <a name="known-issues"></a>Problemas conocidos 
  
@@ -31,6 +31,7 @@ En este artículo se indican los problemas conocidos de Sala de Microsoft Teams 
 
 | Título del problema |  Comportamiento \/ síntoma | Solución conocida | Artículo de KB |
 |  ---        |      ---             |   ---            | --- |
+| La pizarra o la cámara de contenido no puede mejorar el contenido cuando no se detectan bordes | Después de actualizar a 4.11.12.0, cuando no hay bordes de pizarra en vista de la cámara de contenido, la cámara no mejora ni superpone todo el contenido a la vista de la cámara.| Corrección que se incluirá en una versión futura para mejorar todo el contenido en la vista de cámara. Como solución alternativa, las cintas de pintura aplicadas en un cuadro a la pizarra se pueden usar para proporcionar temporalmente bordes que la cámara de contenido puede usar para centrar y mejorar el contenido. | Ninguna |
 | Inicio automático del explorador Edge | El explorador Edge antes de la compilación 97.0.1072.62 se inicia automáticamente junto con la aplicación Microsoft Teams Room cuando se inicia el dispositivo. | Esto debe resolverse automáticamente, sin que sea necesaria la interacción del usuario, el lunes 17 de enero de 2022 o antes de él. Si se requiere una resolución más rápida: cuando Edge se inicie junto a la sala de Microsoft Teams, visite la dirección URL edge://settings/help y una actualización se descargará y aplicará automáticamente. En el explorador, seleccione "Reiniciar" una vez que la actualización haya terminado de aplicarse. Cierre Azure IoT Edge, reinicie el sistema y el problema debe resolverse. | Ninguna |
 | Vídeo de participantes de la galería dividida   |  Cuando no hay contenido compartido en las reuniones con más de 9 participantes remotos y la reunión está en el modo de visualización doble Frente a la sala, es posible que 1 vídeo en una pantalla del frente de la sala con la vista previa automática aparezca como audio. Además, se muestra un número menor de participantes de audio que el número real de participantes de audio en dos pantallas frontales de la sala. | El problema se resolverá en la actualización futura. | Ninguna |
 | Aplicación que no se inicia |  Después de actualizar a la versión 4.4.41.0 de la aplicación, el sistema se inicia en pantalla negra o ve a la pantalla de inicio de sesión después de unos minutos. | Siga los pasos de Salas de Microsoft Teams aplicación no se inicia después de actualizar a la [versión 4.4.41.0 para](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) solucionar este problema.  | Ninguna |

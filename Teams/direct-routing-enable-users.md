@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo habilitar a los usuarios Microsoft Teams Teléfono enrutamiento directo.
-ms.openlocfilehash: 4acf18799060d6cc89e477109e916b5bf0d8401a
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: be2f0e0f33bd236591c8c8a2d9cf415972e018d6
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763335"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926303"
 ---
 # <a name="enable-users-for-direct-routing"></a>Habilitar usuarios para enrutamiento directo
 
@@ -90,6 +90,27 @@ Enrutamiento directo requiere que el usuario esté conectado. Para comprobarlo, 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice"></a>Configurar el número de teléfono y habilitar la voz empresarial 
 
 Después de crear el usuario y asignar una licencia, debe configurar la configuración del teléfono en línea del usuario. Tenga en cuenta que la configuración de Correo de voz en la nube para el usuario es automática; no es necesario realizar ninguna configuración adicional.
+
+Puede configurar el número de teléfono mediante el centro de Teams de administración o mediante Teams PowerShell.
+
+### <a name="use-teams-admin-center"></a>Usar Teams de administración
+
+1. Vaya a **UsuariosManage** ->  usuarios.
+
+2. Seleccione un usuario.
+
+2. En **Información** **general de la cuenta**, seleccione **Editar**.
+
+3. En **Asignar número de teléfono**, en **el menú desplegable Teléfono** tipo de número, seleccione **Enrutamiento directo**.
+
+4. Escriba un número de teléfono asignado y una extensión de número de teléfono si es posible.
+
+5. Seleccione **Aplicar.**
+
+La información general de la cuenta mostrará ahora el número de teléfono asignado y el enrutamiento directo como el tipo de número de teléfono.
+
+
+### <a name="use-powershell"></a>Usar PowerShell
 
 1. Conectar a una sesión Microsoft Teams PowerShell. 
 

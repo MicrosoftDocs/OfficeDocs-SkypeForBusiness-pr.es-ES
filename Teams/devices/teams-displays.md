@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams pantallas
-ms.author: serdars
-author: SerdarSoysal
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: En este artículo se proporciona información general sobre las características compatibles con Microsoft Teams pantallas.
-ms.openlocfilehash: 2d6fb3269e8abf33fc75b59fcef924d133a1ccb3
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 8c8004edd12042ca27e77e545f23b8770f8d1899
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62384144"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926333"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams pantallas
 
@@ -53,6 +53,17 @@ Para obtener más información sobre cómo implementar Teams pantallas con Intun
 ## <a name="manage-teams-displays-in-your-organization"></a>Administrar Teams pantallas en su organización
 
 Para administrar los Teams de pantalla, en la navegación izquierda del centro de administración de Microsoft Teams, vaya a **Teams pantallas**. Desde aquí, puede cambiar el perfil de configuración del dispositivo, administrar actualizaciones, reiniciar dispositivos, agregar y quitar etiquetas de dispositivo y mucho más. Para obtener más información, vea [Administrar los dispositivos en Teams](device-management.md).
+
+## <a name="set-up-hot-desking-on-teams-displays"></a>Configurar el servicio de escritorio en Teams pantallas
+
+El escritorio en caliente permite a los usuarios de su organización reservar áreas de trabajo temporales por adelantado a través de Teams y Outlook, o desde el propio dispositivo. Cuando el servicio de escritorio rápido está habilitado, los usuarios inician sesión en Teams se muestran con sus Microsoft 365 credenciales para acceder a sus reuniones, chats y archivos. Al cerrar sesión, toda su información personal se quita del dispositivo.
+
+Para empezar, deberá adquirir licencias de Salas de Microsoft Teams Estándar y crear cuentas de recursos para cada Teams pantalla. Vea [Implementar Salas de Microsoft Teams con Office 365](../rooms/with-office-365.md) para crear cuentas de recursos.
+
+Después de crear cuentas de recursos, puede crear y asignar una directiva para habilitar el hot desking. Vea [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) para obtener más información.
+
+> [!IMPORTANT]
+> Como varias personas usan Teams pantallas con escritorio rápido en áreas de trabajo compartidas, las reglas de acceso condicional y otras configuraciones de identidad de su entorno, como la autenticación multifactor, pueden afectar a estos dispositivos y causar problemas de inicio de sesión. Para obtener instrucciones sobre cómo proteger dispositivos compartidos, vea Procedimientos recomendados de autenticación [para dispositivos Teams Dispositivos Android](authentication-best-practices-for-android-devices.md).
 
 ## <a name="upgrade-teams-phones-to-teams-displays"></a>Actualizar Teams teléfonos a Teams pantallas
 
