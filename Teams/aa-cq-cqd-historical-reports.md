@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Obtenga información sobre cómo usar el panel de calidad de Power BI para ver los datos históricos Operador automático y Cola de llamadas.
-ms.openlocfilehash: 22c2152401cd9ec08ae1fbad2bbd42eb29fc0726
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: bb83a31b083387bc945f7f4b4388ee6643c00f10
+ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457240"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62921878"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Operador automático & histórico de cola de llamadas
 
@@ -75,7 +75,7 @@ Realice los pasos siguientes:
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - La región se mostrará después del **/** ejemplo como en el ejemplo anterior donde hay una región: noam
+    - La región se mostrará después del **/** ejemplo como en el ejemplo anterior donde se encuentra la región: noam
 
  - El informe se iniciará con datos de ejemplo.
  
@@ -238,7 +238,7 @@ Realice los pasos siguientes:
 
 |Nombre                                    |Tipo de datos                |Descripción                              |
 |:---------------------------------------|:------------------------|:----------------------------------------|
-|***% de llamadas abandonadas***                 |Porcentaje               |Medida: TotalCallCount / Total Calls<br>Relación de éxito a recuento de llamadas abandonado    |
+|***% de llamadas abandonadas***                 |Porcentaje               |Medida: Número de llamadas abandonadas / Llamadas totales    |
 |Total de llamadas                             |Número entero             |Medida: Agente de suma respondió llamadas        |
 |TotalCallCount                          |Número entero             |Medida: Suma(recuento de llamadas)                 |
 

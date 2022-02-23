@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Migre los puntos de conexión de la aplicación hirid antes de retirar Skype Empresarial entorno local.
-ms.openlocfilehash: 2968cdb5ecec3bffb22fffaf43c77e97ab8004d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 74e0ef935c993f6e39b08759d3beb69e0c5c7673
+ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583424"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62921858"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Migrar puntos de conexión de aplicaciones híbridas antes de retirar el entorno local
 
@@ -36,12 +36,12 @@ En este artículo se describe cómo mover puntos de conexión de aplicación hí
 
 - **Paso 3. Migre los puntos de conexión de aplicaciones híbridas de local a online.** (Este artículo)
 
-- Paso 4. [Quite la implementación Skype Empresarial local.](decommission-remove-on-prem.md)
+- Paso 4. [Quite la implementación local Skype Empresarial local](decommission-remove-on-prem.md).
 
 
 ## <a name="migrate-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>Migrar todos los extremos de aplicación híbrida necesarios de local a online
 
-Para poder mover estos puntos de conexión a línea, debe asegurarse de que ha actualizado los registros DNS para que apunten a Microsoft 365 para todos los dominios sip usados por los puntos de conexión. Tenga en cuenta que una vez que actualice DNS para que apunte a Microsoft 365, los puntos de conexión de aplicaciones híbridas existentes ya no se podrán detectar hasta que complete este paso. Dado que este paso (crear cuentas de recursos en línea) no es posible si los registros DNS apuntan a local, debe planear realizar los pasos 2 y 3 en la misma ventana de mantenimiento. Para obtener más información, vea [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
+Para poder mover estos puntos de conexión a línea, debe asegurarse de que ha actualizado los registros DNS para que apunten a Microsoft 365 para todos los dominios sip usados por los puntos de conexión. Tenga en cuenta que una vez que actualice DNS para que apunte a Microsoft 365, los puntos de conexión de aplicaciones híbridas existentes ya no se podrán detectar hasta que complete este paso. Dado que este paso (crear cuentas de recursos en línea) no es posible si los registros DNS apuntan a local, debe planear realizar los pasos 2 y 3 en la misma ventana de mantenimiento. Para obtener más información, consulta [Deshabilitar la configuración híbrida](cloud-consolidation-disabling-hybrid.md).
 
 1. Recupere y exporte la configuración de extremo de aplicación híbrida local ejecutando el siguiente comando de PowerShell Skype Empresarial Server local:
 
@@ -79,9 +79,9 @@ Para poder mover estos puntos de conexión a línea, debe asegurarse de que ha a
    ```PowerShell
    Get-CsHybridApplicationEndpoint | Remove-CsHybridApplicationEndpoint
    ```
-Ya está listo para [quitar la implementación Skype Empresarial local.](decommission-remove-on-prem.md)
+Ya está listo para [quitar la implementación Skype Empresarial local](decommission-remove-on-prem.md).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Retirar el entorno local de Skype Empresarial](decommission-on-prem-overview.md)
 
@@ -90,6 +90,8 @@ Ya está listo para [quitar la implementación Skype Empresarial local.](decommi
 - [Deshabilitar la configuración híbrida](cloud-consolidation-disabling-hybrid.md)
 
 - [Eliminar la implementación local de Skype Empresarial](decommission-remove-on-prem.md)
+
+- [Crear un operador automático mediante cmdlets](/microsoftteams/create-a-phone-system-auto-attendant-via-cmdlets)
 
 
 
