@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Obtenga información sobre cómo programar, administrar y realizar visitas virtuales con la aplicación Bookings en Teams.
-ms.openlocfilehash: 5734dbde3db60e5595a1c712bdfb7849dc86485e
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 6241c377cc5daa0986081fbfa30eca5fa7146efc
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763804"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929275"
 ---
-# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuales con Microsoft Teams y la aplicación Bookings
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Consultas virtuales con Microsoft Teams y la aplicación Bookings
 
 ## <a name="overview"></a>Información general
 
@@ -118,6 +118,8 @@ Para obtener más información, consulte [Microsoft Bookings](/microsoft-365/boo
 ## <a name="related-articles"></a>Artículos relacionados
 
 - [Administrar la experiencia de combinación para Teams visitas virtuales en exploradores móviles](mobile-browser-join.md)
+
+- [Teams de uso de visitas virtuales](../teams-analytics-and-reports/virtual-visits-usage-report.md)
 
 - [Introducción a las Teams para organizaciones sanitarias](healthcare/teams-in-hc.md)
 

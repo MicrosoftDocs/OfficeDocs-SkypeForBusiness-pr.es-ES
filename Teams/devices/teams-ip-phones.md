@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: 5b8e7636c53add6e8ef30fa8903cff8ac3d260a3
-ms.sourcegitcommit: 86a4826472f3f1357ee9bffd512108d8778e0c5b
+ms.openlocfilehash: 1b5b32edeecd7c20840e3644583843a1c7e465b4
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62897555"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929175"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams dispositivos Android certificados
 
@@ -143,6 +143,10 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 | Yealink VP59   | `91.15.0.87`  | Actualización 2022 #1     |
 | Yealink CP960  | `73.15.0.150`  | Actualización 2022 #1         |
 | Yealink MP52 | `145.15.0.25`  | Actualización 2022 #1         |
+| Poly Trio C60  | `7.1.4.0250 ` | Actualización de 2021 #3C  |
+| Poly CCX600    | `7.1.4.0253  `| Actualización de 2021 #3C  |
+| Poly CCX500    | `7.1.4.0253  `| Actualización de 2021 #3C  |
+| Poly CCX400    | `7.1.4.0253  `| Actualización de 2021 #3C  |
 | Poly Trio C60   | `7.1.4.0201`  | Actualización de 2021 #3B                        |
 | Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | Actualización de 2021 #3B                 |
 |Códigos de audio C448HD  | `1.14.449` | Actualización 2021 #3  |

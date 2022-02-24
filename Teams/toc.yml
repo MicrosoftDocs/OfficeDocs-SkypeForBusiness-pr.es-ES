@@ -457,6 +457,8 @@ items:
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
               - name: Informe de licencia de la protección de la información de Microsoft Teams.
                 href: teams-analytics-and-reports/information-protection-license-report.md
+              - name: Informe de uso de consultas virtuales de Teams
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
       - name: 'Archivos de registro, estado del servicio y soporte técnico'
         items:
           - name: Usar archivos de registro para supervisar y solucionar problemas de Teams
@@ -1527,6 +1529,10 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Administrar la aplicación Bookings
                 href: bookings-app-admin.md
+              - name: Administrar la experiencia de unión en exploradores móviles
+                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: Informe de uso de consultas virtuales
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
           - name: Turnos para Teams
             items:
               - name: Introducción a Turnos
@@ -1645,6 +1651,8 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Consultas virtuales con Teams y Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
+              - name: Informe de uso de consultas virtuales
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
               - name: Administrar la experiencia de unión en exploradores móviles
                 href: expand-teams-across-your-org/mobile-browser-join.md
           - name: Ver y asignar paquetes de directivas

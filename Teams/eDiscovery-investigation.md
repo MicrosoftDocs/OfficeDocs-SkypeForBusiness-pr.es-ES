@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesita realizar exhi
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c1d45ea392048e0152f6433c6434db641d8530e4
-ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
+ms.openlocfilehash: b78ec3ad6741d2c7f83d7732400d5f1154747d5e
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61993094"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929165"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -32,7 +32,7 @@ Las grandes empresas suelen estar expuestas a procedimientos legales con penas e
 
 Todos Microsoft Teams chats de grupo o 1:1 se pasan por diario a los buzones de los usuarios respectivos. Todos los mensajes de canal estándar se envían en diario al buzón de grupo que representa al equipo. Los archivos cargados en canales estándar se cubren en la funcionalidad de exhibición de documentos electrónicos para SharePoint Online y OneDrive para la Empresa.
 
-La exhibición de mensajes y archivos en [canales privados](private-channels.md) funciona de forma diferente que en los canales estándar. Para obtener más información, vea [Exhibición de documentos electrónicos de canales privados.](#ediscovery-of-private-channels)
+La exhibición de mensajes y archivos en [canales privados](private-channels.md) funciona de forma diferente que en los canales estándar. Para obtener más información, vea [Exhibición de documentos electrónicos de canales privados](#ediscovery-of-private-channels).
 
 No todo Teams contenido es eDiscoverable. En la tabla siguiente se muestran los tipos de contenido que puede buscar con herramientas de exhibición de documentos electrónicos de Microsoft:
 
@@ -47,15 +47,16 @@ No todo Teams contenido es eDiscoverable. En la tabla siguiente se muestran los 
 |Emojis, GIF y adhesivos | Sí | |
 |Notificaciones de fuentes | No | |
 |Imágenes en línea | Sí | |
+|Bucle de componentes| No|Los mensajes de chat que contienen un componente de bucle se pueden buscar. Sin embargo, el contenido de los componentes de bucle no se indexa para la búsqueda y no se devuelve en los resultados de búsqueda. Si los resultados de la búsqueda contienen un mensaje con un componente de bucle, puede ver el contenido del componente de bucle.  |
 |Conversaciones de mensajería instantánea de reunión | Sí | |
-|Metadatos de<sup>la reunión 1</sup> | Sí |  |
+|Metadatos de la <sup>reunión1</sup> | Sí |  |
 |Nombre del canal | Sí | |
 |Mensajes de canal privado | Sí | |
 |Comillas | Sí | Se puede buscar contenido entre comillas. Sin embargo, los resultados de la búsqueda no indican que el contenido se citó. |
 |Reacciones (como me gusta, corazones y otras reacciones) | No | |
 |Asunto | Sí | |
 |Tablas | Sí | |
-|||
+||||
 
 <sup>1 Los</sup> metadatos de reunión (y llamada) incluyen lo siguiente:
 
@@ -69,7 +70,7 @@ No todo Teams contenido es eDiscoverable. En la tabla siguiente se muestran los 
   La imagen muestra un ejemplo de metadatos de reunión.
 
   > [!div class="mx-imgBorder"]
-  > ![La imagen es de los metadatos de reunión de los registros CVR.](media/conversationOption3.png)
+  > ![Los metadatos de la reunión de la copia de cumplimiento.](media/conversationOption3.png)
 
 Este es un ejemplo de una conversación de mensajería instantánea entre los participantes durante la reunión.
 
@@ -78,9 +79,9 @@ Este es un ejemplo de una conversación de mensajería instantánea entre los pa
 > [!div class="mx-imgBorder"]
 > ![Conversación entre participantes en los resultados de búsqueda de exhibición de documentos electrónicos.](media/MeetingImConversation2.png)
 
-Para obtener más información sobre cómo llevar a cabo una investigación de exhibición de documentos electrónicos, vea Introducción a [eDiscovery principal.](/microsoft-365/compliance/get-started-core-ediscovery)
+Para obtener más información sobre cómo llevar a cabo una investigación de exhibición de documentos electrónicos, vea Introducción a [eDiscovery principal](/microsoft-365/compliance/get-started-core-ediscovery).
 
-Microsoft Teams datos aparecerán como mensajería instantánea o Conversaciones en el Excel de exportación de exhibición de documentos electrónicos. Puede abrir el `.pst` archivo en Outlook ver esos mensajes después de exportarlos.
+Microsoft Teams datos aparecerán como mensajería instantánea o Conversaciones en el Excel de exportación de exhibición de documentos electrónicos. Puede abrir el archivo `.pst` en Outlook ver esos mensajes después de exportarlos.
 
 Al ver el archivo .pst para el equipo, todas las conversaciones se encuentran en la carpeta Chat de grupo en Historial de conversaciones. El título del mensaje contiene el nombre del equipo y el nombre del canal. Por ejemplo, en la imagen siguiente se muestra un mensaje de Bob que envía un mensaje al canal Project 7 estándar del equipo de Especificaciones de fabricación.
 
@@ -90,7 +91,7 @@ Los chats privados en el buzón de un usuario se almacenan en la carpeta Chat de
 
 ## <a name="ediscovery-of-private-channels"></a>eDiscovery de canales privados
 
-Los registros de los mensajes enviados en un canal privado se entregan en el buzón de todos los miembros del canal privado, en lugar de hacerlo en un buzón de grupo. Los títulos de los registros tienen un formato que indica desde qué canal privado fueron enviados.
+Las copias de cumplimiento de los mensajes enviados en un canal privado se entregan al buzón de todos los miembros del canal privado, en lugar de a un buzón de grupo. Los títulos de las copias de cumplimiento tienen formato para indicar el canal privado desde el que se enviaron.
 
 Dado que cada canal privado tiene su propio sitio de SharePoint independiente del sitio de grupo principal, los archivos de un canal privado se administran independientemente del equipo principal.
 
@@ -100,7 +101,7 @@ Siga estos pasos para identificar archivos y mensajes en un canal privado para i
 
 ### <a name="include-private-channel-files-in-an-ediscovery-search"></a>Incluir archivos de canal privado en una búsqueda de exhibición de documentos electrónicos
 
-Antes de realizar estos pasos, instale SharePoint Shell de administración en línea [y conéctese a SharePoint Online.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+Antes de realizar estos pasos, instale SharePoint Shell de administración en línea [y conéctese a SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 1. Ejecute lo siguiente para obtener una lista de todas SharePoint colecciones de sitios asociadas con canales privados en el equipo.
 
@@ -115,7 +116,7 @@ Antes de realizar estos pasos, instale SharePoint Shell de administración en l�
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
-3. Para cada id. de grupo o equipo, ejecute el siguiente script de PowerShell para identificar todos los sitios de canal privado relevantes, donde se encuentra el `$groupID` id. de grupo del equipo.
+3. Para cada id. de grupo o equipo, ejecute el siguiente script de PowerShell para identificar todos los sitios de canal privado relevantes, `$groupID` donde se encuentra el id. de grupo del equipo.
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -127,7 +128,7 @@ Antes de realizar estos pasos, instale SharePoint Shell de administración en l�
 
 ### <a name="include-private-channel-messages-in-an-ediscovery-search"></a>Incluir mensajes de canal privado en una búsqueda de exhibición de documentos electrónicos
 
-Antes de realizar estos pasos, asegúrese de que tiene instalada la versión más reciente [Teams módulo de PowerShell.](teams-powershell-overview.md)
+Antes de realizar estos pasos, asegúrese de que tiene instalada la [versión más reciente Teams módulo de PowerShell](teams-powershell-overview.md).
 
 1. Ejecute el siguiente comando para obtener el id. de grupo del equipo que contiene los canales privados que desea buscar.
 
@@ -150,15 +151,15 @@ Antes de realizar estos pasos, asegúrese de que tiene instalada la versión má
     Get-TeamChannelUser -GroupId <GroupId> -DisplayName "Engineering" 
     ```
 
-4. Incluya los buzones de todos los propietarios y miembros de cada canal privado en el equipo como parte de la consulta de [búsqueda de exhibición de documentos electrónicos.](/microsoft-365/compliance/search-for-content-in-core-ediscovery)
+4. Incluya los buzones de todos los propietarios y miembros de cada canal privado en el equipo como parte de la consulta de [búsqueda de exhibición de documentos electrónicos](/microsoft-365/compliance/search-for-content-in-core-ediscovery).
 
 ## <a name="search-for-content-for-guest-users"></a>Buscar contenido para usuarios invitados
 
-Puede usar herramientas de exhibición de documentos electrónicos para buscar Teams contenido relacionado con los usuarios invitados de su organización. Teams contenido de chat asociado a un usuario invitado se conserva en una ubicación de almacenamiento basada en la nube y se puede buscar con eDiscovery. Esto incluye buscar contenido en conversaciones de chat 1:1 y 1:N en las que un usuario invitado es un participante con otros usuarios de su organización. También puede buscar mensajes de canal privado en los que un usuario invitado es un participante y buscar contenido en conversaciones de chat de *invitado:invitado,* donde los únicos participantes son usuarios invitados.
+Puede usar herramientas de exhibición de documentos electrónicos para buscar Teams contenido relacionado con los usuarios invitados de su organización. Teams contenido de chat asociado a un usuario invitado se conserva en una ubicación de almacenamiento basada en la nube y se puede buscar con eDiscovery. Esto incluye buscar contenido en conversaciones de chat 1:1 y 1:N en las que un usuario invitado es un participante con otros usuarios de su organización. También puede buscar mensajes de canal privado en los que un usuario invitado es un participante y buscar contenido en conversaciones de chat de invitado *:* invitado, donde los únicos participantes son usuarios invitados.
 
 Para buscar contenido para los usuarios invitados:
 
-1. Conectar para Azure AD PowerShell. Para obtener instrucciones, vea la sección "Conectar con Azure Active Directory PowerShell" en Conectar para Microsoft 365 [con PowerShell.](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) Asegúrese de completar los pasos 1 y 2 en el tema anterior.
+1. Conectar para Azure AD PowerShell. Para obtener instrucciones, vea la sección "Conectar con Azure Active Directory PowerShell" en Conectar para [Microsoft 365 con PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Asegúrese de completar los pasos 1 y 2 en el tema anterior.
 
 2. Después de conectarse correctamente Azure AD PowerShell, ejecute el siguiente comando para mostrar el nombre principal de usuario (UPN) para todos los usuarios invitados de su organización. Debe usar el UPN del usuario invitado al crear la búsqueda en el paso 4.
 
@@ -183,7 +184,7 @@ Para buscar contenido para los usuarios invitados:
    New-ComplianceSearch "Sara Davis Guest User" -ExchangeLocation "sara.davis_hotmail.com#EXT#@contoso.onmicrosoft.com" -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
    ```
 
-    Para obtener más información sobre el uso de PowerShell para crear búsquedas de contenido, vea [New-ComplianceSearch](/powershell/module/exchange/new-compliancesearch).
+    Para obtener más información sobre cómo usar PowerShell para crear búsquedas de contenido, vea [Búsqueda de nuevo cumplimiento](/powershell/module/exchange/new-compliancesearch).
 
 5. Ejecute el comando siguiente para iniciar la búsqueda de contenido que creó en el paso 4:
 
@@ -191,7 +192,7 @@ Para buscar contenido para los usuarios invitados:
    Start-ComplianceSearch <search name>
    ```
 
-6. Vaya a [https://compliance.microsoft.com](https://compliance.microsoft.com) y, a continuación, haga clic **en Mostrar toda la búsqueda** de  >  **contenido.**
+6. Vaya a y [https://compliance.microsoft.com](https://compliance.microsoft.com), a continuación, haga clic **en Mostrar todas las búsquedas** >  **de contenido**.
 
 7. En la lista de búsquedas, seleccione la búsqueda que creó en el paso 4 para mostrar la página desplegable.
 
@@ -199,7 +200,7 @@ Para buscar contenido para los usuarios invitados:
 
    - Haga **clic en Ver resultados** para ver los resultados de la búsqueda y obtener una vista previa del contenido.
 
-   - Junto al **campo Consulta,** haga clic **en Editar** para editar y, a continuación, vuelva a ejecutar la búsqueda. Por ejemplo, puede agregar una consulta de búsqueda para restringir los resultados.
+   - Junto al **campo Consulta** , haga clic **en Editar** para editar y, a continuación, vuelva a ejecutar la búsqueda. Por ejemplo, puede agregar una consulta de búsqueda para restringir los resultados.
 
    - Haga **clic en Exportar resultados** para exportar y descargar los resultados de búsqueda.
 
@@ -209,9 +210,9 @@ El contenido de la tarjeta generado por las aplicaciones en Teams canales, chats
 
 Al igual que Teams contenido, donde se almacena el contenido de la tarjeta se basa en el lugar donde se usó la tarjeta. El contenido de las tarjetas usadas en un canal Teams se almacena en el buzón Teams grupo. El contenido de la tarjeta para chats 1:1 y 1xN se almacena en los buzones de los participantes del chat.
 
-Para buscar contenido de tarjeta, puede usar las `kind:microsoftteams` condiciones de búsqueda o `itemclass:IPM.SkypeTeams.Message` o. Al revisar los resultados de la búsqueda, el contenido de la tarjeta generado por los bots en un canal de Teams tiene la propiedad de correo electrónico **Remitente/Autor** como , donde está el nombre de la aplicación que generó el contenido `<appname>@teams.microsoft.com` de la `appname` tarjeta. Si un usuario generó contenido de tarjeta, el valor de **Remitente/Autor** identifica al usuario.
+Para buscar contenido de tarjeta, puede usar las condiciones `kind:microsoftteams` de búsqueda `itemclass:IPM.SkypeTeams.Message` o o. Al revisar los resultados de la búsqueda, el contenido de la tarjeta generado por bots en un canal de Teams tiene la propiedad de correo electrónico Remitente **/**`<appname>@teams.microsoft.com`Autor como , `appname` donde está el nombre de la aplicación que generó el contenido de la tarjeta. Si un usuario generó contenido de tarjeta, el valor de **Remitente/Autor** identifica al usuario.
 
-Al ver el contenido de la tarjeta en los resultados de búsqueda de contenido, el contenido aparece como datos adjuntos al mensaje. El archivo adjunto se denomina `appname.html` , donde está el nombre de la aplicación que `appname` generó el contenido de la tarjeta. Las siguientes capturas de pantalla muestran cómo aparece el contenido de la tarjeta (para una aplicación denominada Asana) en Teams y en los resultados de una búsqueda.
+Al ver el contenido de la tarjeta en los resultados de búsqueda de contenido, el contenido aparece como datos adjuntos al mensaje. El archivo adjunto se denomina `appname.html`, donde `appname` está el nombre de la aplicación que generó el contenido de la tarjeta. Las siguientes capturas de pantalla muestran cómo aparece el contenido de la tarjeta (para una aplicación denominada Asana) en Teams y en los resultados de una búsqueda.
 
 **Contenido de tarjeta en Teams**
 
@@ -222,7 +223,7 @@ Al ver el contenido de la tarjeta en los resultados de búsqueda de contenido, e
 ![El mismo contenido de tarjeta en los resultados de una búsqueda de contenido.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> Para mostrar imágenes del contenido de la tarjeta en los resultados de búsqueda en este momento (como las marcas de verificación de la captura de pantalla anterior), debe haber iniciado sesión en Teams (en una pestaña diferente en la misma sesión del explorador que usa para ver los resultados de https://teams.microsoft.com) búsqueda. En caso contrario, se mostrarán marcadores de posición de imagen.
+> Para mostrar imágenes del contenido de la tarjeta en los resultados de búsqueda en este momento (como las marcas de verificación de la captura de pantalla anterior), debe haber iniciado sesión en Teams (https://teams.microsoft.com)en una pestaña diferente en la misma sesión del explorador que usa para ver los resultados de búsqueda. En caso contrario, se mostrarán marcadores de posición de imagen.
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga información sobre los requisitos para admitir Salas de Microsoft Teams, como elegir el dispositivo, los micrófonos, los altavoces, las cámaras y las pantallas adecuados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0609fc0267a20d716d897ad4782842395b9835b1
-ms.sourcegitcommit: 5e9a8d3cdb72b57adfb842200159c5d753b70ecb
+ms.openlocfilehash: 83430fd401a601ede397de188d956a61c93ac206
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62329050"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929235"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de la sala de Microsoft Teams
 
@@ -67,6 +67,16 @@ Todos los dispositivos y paquetes actuales de la Sala de Microsoft Teams están 
    |[Crestron Flex UC-M70-T con ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M70-T)|Core i5/i7|8 GB |128 GB |
    |[Crestron Flex UC-MX50-T con ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T)|Core i5/i7|8 GB |128 GB |
    |[Crestron Flex UC-MX70-T con ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|Core i5/i7|8 GB |128 GB |
+   |Crestron FLEX UC-B30-T con Dell OPTIPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-Bx30-T con Dell OPTIPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-MM30-T con Dell OPTIPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-MMX30-T con Dell OPTIPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-M50-T con Dell OPTIPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-MX50-T con Dell OPTIPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-M70-T con Dell OPTIPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-MX70-T con Dell OPTIPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-C100-T con Dell OPTIPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-CX100-T con Dell OPTIPLEX|Core i5|8 GB|128 GB|
   |[Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 GB |128 GB |
   |[Dell OptiPlex 7080 con Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 GB |128 GB|
   |[HP Elite Slice para salas de reuniones G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
@@ -140,6 +150,7 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ Camera](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
 |Cámara Huddly L1 con [kit de MTR Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) | Cámara Huddly L1: 1.2.1 </br> Crestron UC-C100-T con ASUS Tek Computer INC 9934 calcula 1.0.20.246 o superior |
+|Cámara Huddly L1 con [kit crestón UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MTR-W | Cámara Huddly L1: 1.2.9 </br> Crestron UC-CX100-T con ASUS Tek Computer INC 9934 1.00.20.246 o superior |
 |Cámara Huddly L1 con kit de MTR UC-M70-T de Crestron | Cámara Huddly L1: 1.2.1 </br> Crestron UC-M70-T con ASUS Tek Computer INC 9934 calcula 1.0.20.246 o superior |
 |Cámara Huddly L1 con kit de MTR Crestron UC-MX70-T | Cámara Huddly L1: 1.2.1 </br> Crestron UC-MX70-T con ASUS Tek Computer INC 9934 calcula 1.0.20.246 o superior |
 |[Cámara Jabra Panacast3](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
@@ -177,11 +188,13 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |[EPS Expandir 80T + 2 micrófonos de extensión](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Altavoz: 4.6.55 <br/> Micrófono de extensión: 0.2.314|
 |[EXPANDIR LA CAPTURA 5](https://www.eposaudio.com/en/us/enterprise/products/expand-capture-5-speakerphone-1000895)  |1.0.1|
 |[Extron DMP128 PLUS C V AT DSP System (DMP 128 Plus C V AT, DMP 128 Plus C AT, DMP 128 Plus C V, DMP 128 Plus C, DMP 128 Plus AT, DMP 128 Plus, DMP 128 FlexPlus C AT, DMP 128 FlexPlus C V AT)](https://www.extron.com/product/dmp128plus) | 1.08 |
+|[Extron DMP 64 PLUS C V AT DSP System (DMP 64 Plus C V AT, DMP 64 Plus C AT, DMP 64 Plus C V, DMP 64 Plus C)](https://www.extron.com/product/dmp64plus) | 1.08|
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[Yamaha YVC-1000MS](https://uc.yamaha.com/products/conference-phones/usb-bluetooth/) |1.0.0 |
+|[Solución de plafón ADECIA de Yamaha](https://uc.yamaha.com/products/microphone-systems/adecia/)|1.2.0|
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
 |[Yealink UVC34 Barra de vídeo todo en uno](https://www.yealink.com/product/usb-videobar-uvc34) | 265.410.0.9 |
@@ -195,6 +208,7 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |[Shure MXA 710 2ft Table Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/products/mixers/p300) +</br></br> [Altavoz de techo MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Altavoz MXN5-C: 1.1.1 |
 |[Shure MXA 710 4ft Wall Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/products/mixers/p300) +</br></br> [Altavoz de techo MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Altavoz MXN5-C: 1.1.1 |
 |[Shure MXA 910 con micrófono de matriz de techo intellimix](https://www.shure.com/products/microphones/mxa910) + </br> [Software de sala Intellimix de Shure](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Software de sala Intellimix de Shure: 3.0.4.14 </br> Shure MXA 910 con micrófono de matriz de techo intellimix: 4.4.11 </br> Shure MXN5-C Altavoces: 1.2.1 </br> Crestron UC-C100-T con el proceso ASUS Tek Computer INC 9934 | 
+|[Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp)|1.0.2|
 |[Biamp Tesira Fore AVB VT4 audio fijo DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Micrófono de techo 2 Sennheiser TeamConnect](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Micrófono de techo Biamp Parlé TCM-XA](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Altavoz de techo biamp Desono C-IC6](https://www.biamp.com/products/tesira-speakers)| Versión de AUDIO FW: 3.15|
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |Versión de AUDIO FW: 3.15|
