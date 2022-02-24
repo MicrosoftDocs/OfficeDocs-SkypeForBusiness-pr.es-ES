@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información acerca de cómo usar y administrar canales privados en Microsoft Teams.
-ms.openlocfilehash: edf3fc2933bf51f3c5966fa8e021fe0ff50de39b
-ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
+ms.openlocfilehash: 2ff886835258d9508e2cbe7c977ab5437d87129e
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62881555"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926313"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canales privados en Microsoft Teams
 
@@ -102,9 +102,9 @@ Si se restaura un canal privado o un equipo que contiene un canal privado, los s
 >
 > Obtenga más información sobre cómo administrar los [Sitios de grupos conectados a Microsoft Teams](/SharePoint/teams-connected-sites).
 
-## <a name="private-channel-message-compliance-records"></a>Registros de cumplimiento de mensajes de canal privado
+## <a name="compliance-copies-of-private-channel-messages"></a>Copias de cumplimiento de mensajes de canal privado
 
-Los registros de los mensajes enviados en un canal privado se entregan en el buzón de todos los miembros del canal privado, en lugar de hacerlo en un buzón de grupo. Los títulos de los registros tienen un formato que indica desde qué canal privado fueron enviados.
+Las copias de cumplimiento de los mensajes enviados en un canal privado se entregan al buzón de todos los miembros del canal privado, en lugar de a un buzón de grupo. Los títulos de las copias de cumplimiento tienen formato para indicar desde qué canal privado se enviaron.
 
 Para obtener más información sobre cómo realizar búsquedas en eDiscovery para mensajes de canal privado, consulte [eDiscovery de canales privados](ediscovery-investigation.md#ediscovery-of-private-channels).
 
