@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenga información general sobre qué son los pedidos de portabilidad y cómo transferir números de teléfono de su proveedor de servicios a Teams.
-ms.openlocfilehash: b17e0dea6181c111355a865bf1f70c07bfcb9258
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: bb9ebd91b1f5a08fb07eff0f469be4496714ecfc
+ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398424"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62963421"
 ---
 # <a name="whats-a-port-order"></a>¿Qué es un pedido de portabilidad?
 
@@ -136,13 +136,17 @@ Para comprobar el estado del pedido de portabilidad, en el panel de navegación 
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>¿Es posible convertir los números de teléfono de usuario (suscriptor) en números de servicio?
 <a name="bkmk_type_1"> </a>
 
-Sí, lo es. Solo necesita enviar una solicitud de servicio que incluya el GUID del inquilino de su organización y los números de teléfono que desea convertir. Para ello, vea Administrar [números de teléfono para su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Sí, lo es. Solo necesita enviar una solicitud de servicio que incluya el GUID del inquilino de su organización y los números de teléfono que desea convertir. Para ello, vea Administrar [números de teléfono para su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>¿Puedo portabilidad de mis números de Teams a otro proveedor u operador de telefonía?
 
-Para enviar los números de Teams a otro operador, debe enviar una solicitud con el nuevo operador. También tendrá que establecer un PIN de porte abriendo un caso de soporte técnico. Para obtener información sobre cómo obtener soporte técnico, vea [Obtener soporte técnico](/microsoft-365/business-video/get-help-support). 
+Para enviar los números de Teams a otro operador, debe enviar una solicitud con el nuevo operador. También necesitará establecer un PIN de porte en el centro Microsoft Teams administración.
+
+Para definir el PIN de porte, en la navegación izquierda del centro de administración de Microsoft Teams,  >  vaya a Voz **Teléfono números,** en la esquina superior derecha de la página, seleccione Administrar **PIN** de porte y, a continuación, escriba un PIN de 10 dígitos.
 
 Cuando el nuevo operador se pone en contacto con nosotros con la solicitud de porteo, le pediremos que proporcione el PIN que definió.
+
+Si necesita más assitance configurar un PIN, póngase en contacto con el equipo [de servicios de número de teléfono](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="common-mistakes-to-watch-out-for"></a>Errores comunes que se deben evitar
 <a name="bkmk_type_1"> </a>
