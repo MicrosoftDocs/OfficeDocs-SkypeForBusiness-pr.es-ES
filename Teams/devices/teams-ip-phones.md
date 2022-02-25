@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: 1b5b32edeecd7c20840e3644583843a1c7e465b4
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: d379505751a25cf0880538efb1745765d7061044
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929175"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960022"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams dispositivos Android certificados
 
@@ -284,7 +284,8 @@ Las siguientes son las últimas Microsoft Teams aplicaciones y versiones de firm
 
 |Versión del producto| Fecha de lanzamiento | Microsoft Teams de la aplicación | Portal de empresa versión | Versión del Agente de administración |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|Actualización 2021 #1  |12 de agosto de 2021 |`1449/1.0.97.2021070601`|`5.0.5211.0`            |  `268`|
+|Actualización 2022 #1  | 22 de febrero de 2022 |`1449/1.0.96.2021726501` | `5.0.5304.0 `  | `322` |
+|Actualización 2021 #1  | 12 de agosto de 2021 |`1449/1.0.97.2021070601`   | `5.0.5211.0`   |  `268`|
 
 #### <a name="firmware-versions"></a>Versiones de firmware
 
@@ -292,8 +293,9 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo  | Versión de firmware | Versión de producto incluida|
 |:--------------|:-----------------|:-------------------------|
-|Crestron -TSS770| `1.004.0115` |Actualización 2021 #1 |
-|Crestron-TSS1070 | `1.004.0115` |Actualización 2021 #1 |
+|Yealink RoomPanel | ` 147.15.0.29 ` | Actualización 2022 #1 |
+|Crestron -TSS770  | `1.004.0115` |Actualización 2021 #1 |
+|Crestron-TSS1070  | `1.004.0115` |Actualización 2021 #1 |
 |Yealink RoomPanel | `147.15.0.17` |Actualización 2021 #1 |
 |Logitech Tap Scheduler | `1.5.209` |Actualización 2021 #1 |
 

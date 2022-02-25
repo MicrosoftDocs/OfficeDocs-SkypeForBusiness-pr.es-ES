@@ -6,7 +6,7 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: heidip
+  ms.author: samanro
   ms.reviewer: keschm
   manager: serdars
   ms.service: msteams
@@ -21,12 +21,12 @@ metadata:
   - remotework
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: e07f2fcc1e7e1ced5f9a42b9969c1b32c2cc172b
-  ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+  ms.openlocfilehash: ab97671ba35ba717b522428383a948664e954be3
+  ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "61993084"
+  ms.lasthandoff: 02/25/2022
+  ms.locfileid: "62959982"
 items:
 - durationInMinutes: 2
   content: >
@@ -77,7 +77,7 @@ items:
     -   Haga una publicación en la sección de comentarios de la parte inferior de la página "Pasos siguientes" de este tutorial.
 
 
-    Para enviarnos comentarios sobre los productos Teams, como ideas para nuevas características, visite [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
+    Para enviarnos comentarios sobre Teams, como ideas para nuevas características, visite el portal [de comentarios Teams de comentarios](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 - title: Reunir a sus personas
   durationInMinutes: 4
   content: "\nReúna a un grupo de personas de su empresa, TI y comunidades de primera línea para actuar como el grupo de partes interesadas y de toma de decisiones para su Teams piloto para los trabajadores de primera línea. Asegúrese de incluir a personas de las tres comunidades para que se den la mejor oportunidad de éxito:\n\nA continuación, identifique la comunidad piloto de fase 1 y asegúrese de que incluye trabajadores reales de primera línea en la agrupación lógica más pequeña de su organización. Por ejemplo, un restaurante, una división de una tienda departamental, una tienda, una sala clínica, un distrito, una planta, un centro de distribución, etc. La clave es optimizar el promedio de los trabajadores de primera línea que forman parte de un solo equipo. Los administradores o especialistas pueden estar en más de uno.\n\n### <a name=\"best-practice\"></a>Procedimientos recomendados\nEs importante incluir todos los roles dentro de esa agrupación lógica más pequeña, desde administradores a trabajadores a tiempo parcial o estacionales para descubrir información valiosa y habilitar escenarios de comunicación modernos. Tu personal más joven te sorprenderá. Algunos escenarios importantes y valiosos no deseados descubiertos durante los pilotos con clientes de ejemplo incluyen:\n-   Expectativas y aprendizaje estandarizados: Tomar una imagen de una cocina limpia para ilustrar al personal de la cocina qué significa limpio. \"Si no tiene este aspecto, no está limpio\".\n\n-   Reducción de la contracción: Tomar una imagen de un tendero conocido y notificar a otros empleados inmediatamente. Teams futuros turnos también verán esta imagen para mitigar riesgos futuros.\n\n### <a name=\"decision-point\"></a>Punto de decisión\nAl final de esta fase, debería poder responder a estas preguntas:\n-   Quién Participará en el piloto?\n\n-   ¿Cuál es la agrupación lógica más pequeña para su organización?\n"
@@ -115,7 +115,7 @@ items:
 
     2.  Envíenos su opinión:
         - Haga una publicación en la sección de comentarios de la parte inferior de esta página.
-        - Para enviarnos comentarios acerca de Teams o solicitar una nueva característica, diríjase a [UserVoice de Teams](https://microsoftteams.uservoice.com/forums/555103-public).
+        - Para enviarnos Teams producto o solicitar una nueva característica, vaya al portal Teams [comentarios](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
     3.  Manténgase al día:
         - Siga el [Blog de Teams](https://aka.ms/teamsblog).
         - Consulte el [Plan de desarrollo de Teams](https://aka.ms/O365Roadmap).

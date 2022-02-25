@@ -4,7 +4,7 @@ metadata:
   author: dstrome
   ms.author: dstrome
   manager: serdars
-  ms.topic: conceptual
+  ms.topic: faq
   ms.service: msteams
   audience: admin
   ms.reviewer: landerl
@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: df6df0d6292458c1655154b1cdfe58dc999acb7e
-  ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+  ms.openlocfilehash: f06e9cd46a0d4627871a07735934f3d02b3dca11
+  ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 12/17/2021
-  ms.locfileid: "61562812"
+  ms.lasthandoff: 02/25/2022
+  ms.locfileid: "62960002"
 title: 'Preguntas frecuentes: actualizar Skype Empresarial a Microsoft Teams'
 summary: ''
 sections:
@@ -73,7 +73,7 @@ sections:
     answer: "\nCon la retirada de Skype Empresarial Online, los clientes híbridos con configuraciones en línea y locales necesitan actualizar los usuarios en línea de Skype Empresarial Online a Microsoft Teams. Microsoft proporcionará actualizaciones asistidos para ayudar a actualizar el resto de Skype Empresarial en línea a Teams modo solo para usuarios.\n\nMicrosoft proporcionará actualizaciones asistidos para ayudar a actualizar a los usuarios Skype Empresarial online a Teams modo solo después de la fecha de retirada.\n\nLas organizaciones con una configuración híbrida pueden seguir usando Skype Empresarial y Teams en paralelo hasta que estén listas para pasar al modo Teams solo. Después de la Skype Empresarial de retirada en línea, cuando un usuario Skype Empresarial Server se mueve a la nube, ese usuario estará en Teams modo solo.\n\nPara más información, consulte[Coexistencia con Skype empresarial](coexistence-chat-calls-presence.md) y [Comprender la coexistencia e interoperabilidad de Microsoft Teams y Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md).\n"
   - question: ¿Cómo afectará la retirada de Skype Empresarial Online a las organizaciones con configuraciones de Skype Empresarial híbridas para la conectividad de red telefónica conmutada (RTC) local y las capacidades de Sistema telefónico en línea?
     answer: >
-      Algunas organizaciones han dividido usuarios entre el hogar local para la conectividad RTC y el hogar en línea para Sistema telefónico funcionalidades. Una vez que finalice el acceso a Skype Empresarial Online, las organizaciones tendrán que actualizar los usuarios en línea para Microsoft Teams y conectar su red de telefonía local a Teams a través del [enrutamiento directo.](./direct-routing-landing-page.md)
+      Algunas organizaciones han dividido usuarios entre el hogar local para la conectividad RTC y el hogar en línea para Sistema telefónico funcionalidades. Una vez que finalice el acceso a Skype Empresarial Online, las organizaciones tendrán que actualizar los usuarios en línea a Microsoft Teams y conectar su red de telefonía local a Teams mediante enrutamiento [directo](./direct-routing-landing-page.md).
 
 
       Se recomienda a los clientes con suscripciones para ello que participen en [FastTrack](https://www.microsoft.com/fasttrack?rtc=1) para recibir asistencia en la incorporación a Teams.

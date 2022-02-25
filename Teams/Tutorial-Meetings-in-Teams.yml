@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: bfdb7ceab9e4a3d3ffebf903b073c5ec707e7bc6
-  ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+  ms.openlocfilehash: 1737461b1eface3038957a862ab2bcb743ca4615
+  ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 10/28/2021
-  ms.locfileid: "60605606"
+  ms.lasthandoff: 02/25/2022
+  ms.locfileid: "62960062"
 items:
 - durationInMinutes: 1
   content: >
@@ -67,7 +67,7 @@ items:
     -   Haga una publicación en la sección de comentarios de la parte inferior de la página "Pasos siguientes" de este tutorial.
 
 
-    Para enviarnos comentarios sobre Microsoft Teams, como ideas para nuevas características, visite [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
+    Para enviarnos comentarios sobre Teams, como ideas para nuevas características, visite Teams [de comentarios](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 - title: Reuniones en Teams
   durationInMinutes: 16
   content: "\nPara conocer las reuniones en Teams, vea lo siguiente:\n-   \"Realizar reuniones\" en [Reuniones y llamadas](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (el tiempo de lectura estimado es de 6 minutos)\n\n-   Vídeo de [Reunirse ahora](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) (1:45 minutos)\n\n-   Vídeo de [Reuniones programadas](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) (1:45 minutos)\n\n-   [9 sugerencias para una reunión con Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) para conocer, entre otras cosas, más sobre la sala de espera, cómo unirse a reuniones de forma anónima, etc. (el tiempo de lectura estimado es de 6 minutos)\n"
@@ -108,7 +108,7 @@ items:
 
     2.  Envíenos su opinión:
         - Haga una publicación en la sección de comentarios de la parte inferior de esta página.
-        - Para enviarnos comentarios acerca de Teams o solicitar una nueva característica, diríjase a [UserVoice de Teams](https://microsoftteams.uservoice.com/forums/555103-public).
+        - Para enviarnos Teams producto o solicitar una nueva característica, vaya a [Teams de comentarios](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
     3.  Manténgase al día:
         - Siga el [Blog de Teams](https://aka.ms/teamsblog).
         - Consulte el [Plan de desarrollo de Teams](https://aka.ms/O365Roadmap).

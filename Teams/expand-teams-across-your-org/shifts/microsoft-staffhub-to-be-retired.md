@@ -2,7 +2,7 @@
 title: Microsoft StaffHub se ha retirado
 author: SerdarSoysal
 ms.author: serdars
-ms.reviewer: 'lisawu, gumariam'
+ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin
 ms.topic: article
@@ -10,16 +10,21 @@ ms.service: msteams
 search.appverid: MET150
 description: Encuentre respuestas a preguntas frecuentes sobre la retirada de Microsoft StaffHub y la transición a la aplicación Turnos en Microsoft Teams.
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_FLW
+- M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 08b3b0ddfa3d53bebb9c3e628347e99d1016a133
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960042"
 ---
-
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub se ha retirado
 
 Desde el 30 de junio de 2020 Microsoft StaffHub ha sido retirado. Estamos creando las funciones de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación Turnos para la administración de la programación y a medida que pase el tiempo se implementarán funciones adicionales
@@ -151,8 +156,7 @@ Para obtener más información, vea [Administrar la aplicación Turnos para su o
 
 Puede administrar Teams el módulo Microsoft Teams PowerShell y el módulo Skype Empresarial PowerShell. Para obtener más información, [vea Teams información general de PowerShell](../../teams-powershell-overview.md). En este momento, no hay cmdlets de PowerShell específicos disponibles para administrar turnos.  
 
-Si es algo que le interesa, envíenos una solicitud a través del [portal Teams comentarios en UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
-
+Si es algo que le interesa, envíenos una solicitud a través del Teams [de comentarios](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 
 [!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 
