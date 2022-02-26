@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07d050782dfef1ce89f54891302457c2f1616fa5
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: ed6abe00ac67b6029fdb72178ad09e21ec58e80d
+ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763653"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "62974457"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Inicio rápido: reuniones, seminarios web y eventos en vivo 
 
@@ -157,7 +157,7 @@ En la tabla siguiente se enumeran artículos con los que puede obtener más info
 | Artículo | Descripción | 
 |----------|--------|
 | [Aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) | Introducción a las aplicaciones y cómo implementarlas en su organización. |
-| [Aplicaciones para reuniones de Teams] (/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings | Información general sobre la extensibilidad de aplicaciones de reuniones, referencias de API y cómo habilitar y configurar aplicaciones para reuniones. |
+| [Aplicaciones para reuniones de Teams](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | Información general sobre la extensibilidad de aplicaciones de reuniones, referencias de API y cómo habilitar y configurar aplicaciones para reuniones. |
 | [Administrar Microsoft Whiteboard en Teams](manage-whiteboard.md) | Describe la funcionalidad de Whiteboard y cómo habilitarla y deshabilitarla en su organización. |
 ||
 

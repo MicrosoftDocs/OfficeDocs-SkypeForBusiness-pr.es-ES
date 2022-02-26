@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesita realizar exhi
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b78ec3ad6741d2c7f83d7732400d5f1154747d5e
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: 5a35afa53a8f94a5d0106e67d2f9f87eacfaca63
+ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929165"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "62974467"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -47,7 +47,7 @@ No todo Teams contenido es eDiscoverable. En la tabla siguiente se muestran los 
 |Emojis, GIF y adhesivos | Sí | |
 |Notificaciones de fuentes | No | |
 |Imágenes en línea | Sí | |
-|Bucle de componentes| No|Los mensajes de chat que contienen un componente de bucle se pueden buscar. Sin embargo, el contenido de los componentes de bucle no se indexa para la búsqueda y no se devuelve en los resultados de búsqueda. Si los resultados de la búsqueda contienen un mensaje con un componente de bucle, puede ver el contenido del componente de bucle.  |
+|Bucle de componentes| Sí|El contenido de un componente de bucle se guarda en un archivo .fluid que se almacena en la cuenta OneDrive para la Empresa del usuario que envía el componente de bucle. Esto significa que debe incluir OneDrive como un origen de datos al buscar contenido en componentes de bucle. |
 |Conversaciones de mensajería instantánea de reunión | Sí | |
 |Metadatos de la <sup>reunión1</sup> | Sí |  |
 |Nombre del canal | Sí | |
@@ -91,7 +91,7 @@ Los chats privados en el buzón de un usuario se almacenan en la carpeta Chat de
 
 ## <a name="ediscovery-of-private-channels"></a>eDiscovery de canales privados
 
-Las copias de cumplimiento de los mensajes enviados en un canal privado se entregan al buzón de todos los miembros del canal privado, en lugar de a un buzón de grupo. Los títulos de las copias de cumplimiento tienen formato para indicar el canal privado desde el que se enviaron.
+Las copias de cumplimiento de los mensajes enviados en un canal privado se entregan al buzón de todos los miembros del canal privado, en lugar de a un buzón de grupo. Los títulos de las copias de cumplimiento tienen formato para indicar desde qué canal privado se enviaron.
 
 Dado que cada canal privado tiene su propio sitio de SharePoint independiente del sitio de grupo principal, los archivos de un canal privado se administran independientemente del equipo principal.
 
