@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69add2b195da03dee69b2a33583b5dbed8f614e8
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 3805a87171a770298e41337dfdd569c1b7d76985
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518932"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039998"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -173,9 +173,9 @@ En la tabla siguiente se enumeran los dispositivos que se comprueban para la int
 | [Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. Versión de software: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  Anynode con GXW42xx de Grandstream (V1.0.7.10) |     &#10004;     |
   
-Para enviar sus comentarios sobre Teams, como ideas para nuevas características, consulte [UseVoice](https://microsoftteams.uservoice.com).
-
-
-[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
 Tenga en cuenta la certificación concedida a una versión principal. Esto significa que se admite el firmware con cualquier número en el firmware del CLS después de la versión principal.
+
+Para proporcionar comentarios sobre Teams, como ideas para nuevas características, consulte el [portal de comentarios de Microsoft](https://feedbackportal.microsoft.com/).
+
+
