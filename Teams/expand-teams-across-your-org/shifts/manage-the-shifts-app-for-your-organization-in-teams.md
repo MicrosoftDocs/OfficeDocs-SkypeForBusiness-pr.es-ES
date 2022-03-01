@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd40888ec8f1f7c5c05c3f5a2bf5a867ece93a65
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: d38af9f55f1620a1f38ad5860c71366201bb9444
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918883"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039908"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
@@ -49,13 +49,14 @@ Es importante saber que los turnos actualmente no admiten invitados. Esto signif
 
 Turnos está disponible en todas las SKUs de Enterprise donde Teams esté disponible.
 
+> [!NOTE]
+> Los turnos están disponibles en Government Community Cloud (GCC) pero no en GCC altos o doD.
+
 ## <a name="location-of-shifts-data"></a>Ubicaciones de datos de Turnos
 
-Actualmente, los datos de Turnos se almacenan en los centros de datos de Azure de Norteamérica y Europa occidental y Asia pacífico. Para obtener más información acerca de la ubicación en la que se almacenan los datos, consulte [¿Dónde están mis datos](http://o365datacentermap.azurewebsites.net/)?
+Los datos de turnos se almacenan actualmente en Azure en centros de datos de Asia Pacífico (APAC), la Unión Europea (UE) y Norteamérica. Para obtener más información acerca de la ubicación en la que se almacenan los datos, consulte [¿Dónde están mis datos](http://o365datacentermap.azurewebsites.net/)?
 
-## <a name="shifts-data"></a>Turnos de datos
-
-Para obtener más información sobre dónde se almacenan los datos de Turnos y la retención, recuperación y cifrado de los datos de Turnos, vea Preguntas [más frecuentes sobre los datos de Turnos](shifts-data-faq.md).
+Para obtener más información sobre los datos de Turnos, incluido el almacenamiento, la retención, la recuperación y el cifrado de los datos de Turnos, vea Preguntas [más frecuentes sobre los datos de turnos](shifts-data-faq.md).
 
 ## <a name="set-up-shifts"></a>Confirgurar Turnos
 
@@ -76,7 +77,7 @@ Las directivas de configuración de aplicaciones le permiten personalizar Teams 
 
 Puede crear una directiva [de configuración de aplicaciones personalizada](../../teams-app-setup-policies.md) agregando la aplicación Turnos y, a continuación, [asigne la directiva](../../assign-policies-users-and-groups.md) a los usuarios. O bien, puede usar la directiva de configuración de la aplicación que forma parte de los paquetes de directiva De frontline worker y Frontline Manager.
 
-Un [paquete de](../../manage-policy-packages.md) directivas en Teams es una colección de directivas predefinidas y configuraciones de directiva que puede asignar a usuarios que tienen roles similares en su organización. El conjunto de directivas de los paquetes de directivas de Frontline Worker y Frontline Manager incluye una directiva de configuración de aplicaciones que ancla la aplicación Turnos y otras aplicaciones que admiten actividades de comunicación y colaboración para ese rol.
+Un [paquete de](../../manage-policy-packages.md) directivas Teams es una colección de directivas predefinidas y configuraciones de directiva que puede asignar a usuarios que tienen roles similares en su organización. El conjunto de directivas de los paquetes de directivas de Frontline Worker y Frontline Manager incluye una directiva de configuración de aplicaciones que ancla la aplicación Turnos y otras aplicaciones que admiten actividades de comunicación y colaboración para ese rol.
 
 Se recomienda usar los paquetes de directivas de Frontline Worker y Frontline Manager a medida que simplifican, simplifican y ayudan a proporcionar coherencia al administrar directivas para los empleados de frontline.
 
@@ -88,9 +89,10 @@ Puede busca el registro de auditoría para ver la actividad de Turnos en su orga
 
 Para que pueda buscar en el registro de auditoría, primero debe activar la característica de auditoría en el [Centro de seguridad y cumplimiento](https://protection.office.com). Para obtener más información, consulte [Activar o desactivar la búsqueda de registros de auditoría](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Tenga en cuenta que los datos de auditoría solo están disponibles desde el momento en que activó la característica de auditoría.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 - [Turnos para Teams](../shifts-for-teams-landing-page.md)
-- [Ayuda de turnos para los trabajadores de primera línea](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Preguntas más frecuentes sobre los datos de turnos](shifts-data-faq.md)
 - [Conectores de turnos](shifts-connectors.md)
+- [Ayuda de turnos para los trabajadores de primera línea](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Asignar directivas a los usuarios en Teams](../../policy-assignment-overview.md)

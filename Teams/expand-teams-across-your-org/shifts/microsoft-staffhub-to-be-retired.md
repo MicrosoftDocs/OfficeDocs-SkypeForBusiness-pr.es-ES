@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Encuentre respuestas a preguntas frecuentes sobre la retirada de Microsoft StaffHub y la transición a la aplicación Turnos en Microsoft Teams.
+description: Encuentre respuestas a preguntas más frecuentes sobre la retirada de Microsoft StaffHub y la transición a la aplicación Turnos en Microsoft Teams.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 08b3b0ddfa3d53bebb9c3e628347e99d1016a133
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.openlocfilehash: dfe4a64799599b690573f6faae9842ce10d0c470
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62960042"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039968"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub se ha retirado
 
-Desde el 30 de junio de 2020 Microsoft StaffHub ha sido retirado. Estamos creando las funciones de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación Turnos para la administración de la programación y a medida que pase el tiempo se implementarán funciones adicionales
+Desde el 30 de junio de 2020 Microsoft StaffHub ha sido retirado. Estamos creando las funciones de StaffHub en Microsoft Teams. Hoy, Teams incluye la aplicación Turnos para la administración de programación y se irán incorporando más funcionalidades a lo largo del tiempo.
 
 Estos cambios forman parte de nuestros esfuerzos continuos para empoderar a todos los empleados con Microsoft 365. Con las capacidades de los trabajadores de frontline ahora en Teams, todos los empleados de su organización podrán usar Teams para simplificar su día laboral, colaborar con compañeros de trabajo y acceder a información y experiencia para ayudarles a realizar su mejor trabajo.
 
@@ -63,20 +63,23 @@ Si tenía un equipo de StaffHub asociado Office 365 un grupo de Office 365 al qu
 
 #### <a name="what-is-shifts"></a>¿Qué es Turnos?
 
-La aplicación Turnos de Teams es una herramienta de administración de programación que mantiene a los trabajadores de frontline conectados y sincronizados. Los administradores crean, actualizan y administran las programaciones de turnos de los equipos, y los miembros del equipo pueden ver sus programaciones, ver quién más está programado para el día, solicitar intercambiar u ofrecer un turno y solicitar un permiso, todo desde sus dispositivos móviles.  
+La aplicación Turnos de Teams es una herramienta de administración de programación que mantiene a los trabajadores de Frontline conectados y sincronizados. Los administradores crean, actualizan y administran las programaciones de turnos de los equipos, y los miembros del equipo pueden ver sus programaciones, ver quién más está programado para el día, solicitar intercambiar u ofrecer un turno y solicitar un permiso, todo desde sus dispositivos móviles.  
 
 #### <a name="which-plans-is-shifts-available-in"></a>¿En qué planes está disponible Turnos?
 
 Turnos está disponible en todas las SKUs de Enterprise donde Teams esté disponible.
 
-#### <a name="how-do-i-get-shifts"></a>¿Cómo puedo obtener Turnos? 
+> [!NOTE]
+> Los turnos están disponibles en Government Community Cloud (GCC) pero no en GCC altos o doD.
+
+#### <a name="how-do-i-get-shifts"></a>¿Cómo puedo obtener Turnos?
 
 Si ya está en un plan que incluye Turnos, puede empezar a usar Turnos hoy como parte de Teams. Consulte [Introducción en Turnos](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
 
 #### <a name="which-devices-or-platforms-is-shifts-available-on"></a>¿En qué dispositivos o plataformas está disponible Turnos?
 
-Turnos está disponible en el Teams web, Teams de escritorio y Teams móviles (iOS y Android).
- 
+Turnos está disponible en el Teams web, Teams cliente de escritorio y Teams móviles (iOS y Android).
+
 #### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>¿Hay diferencias entre las aplicaciones de escritorio y web de Shifts y las aplicaciones móviles (iOS y Android)
 
 Para los administradores, las aplicaciones de escritorio y web están optimizadas para crear equipos, agregar miembros, crear y publicar programaciones y compartir contenido con el equipo. Los administradores suelen usar la aplicación móvil para aprobar solicitudes, enviar mensajes rápidos al equipo, llamar a un miembro del equipo y colaborar en cualquier lugar. 
@@ -89,7 +92,7 @@ La funcionalidad principal es la misma entre las aplicaciones de iOS y Android d
 
 #### <a name="what-browsers-does-shifts-work-on"></a>¿En qué exploradores funciona Turnos?
 
-Turnos funciona en todos los exploradores compatibles Teams que incluye las últimas versiones de Microsoft Edge, Internet Explorer, Google Chrome y Mozilla Firefox. Para obtener más información, vea [Obtener clientes para Teams](../../get-clients.md).
+Turnos funciona en todos los exploradores compatibles Teams que incluyen las últimas versiones de Microsoft Edge, Internet Explorer, Google Chrome y Mozilla Firefox. Para obtener más información, vea [Obtener clientes para Teams](../../get-clients.md).
 
 > [!Note]
 > Microsoft 365 aplicaciones y servicios no admitirán Internet Explorer 11 a partir del 17 de agosto de 2021 (Microsoft Teams no admitirá Internet Explorer 11 anteriormente, a partir del 30 de noviembre de 2020). [Más información](https://aka.ms/AA97tsw). Tenga en cuenta que Internet Explorer 11 seguirá siendo un navegador compatible. Internet Explorer 11 es un componente del sistema operativo Windows y sigue la directiva de ciclo [](/lifecycle/faq/internet-explorer-microsoft-edge) de vida del producto en el que está instalado. 
@@ -100,9 +103,9 @@ Los turnos están disponibles en los siguientes idiomas: chino simplificado, ing
 
 #### <a name="where-is-shifts-data-stored"></a>¿Dónde se almacenan los datos de Turnos?
 
-Los datos de turnos se almacenan en Azure en centros de datos de Norteamérica y Europa occidental. SharePoint contenido aprovecha Microsoft 365 grupos y usa el mismo almacenamiento y soporte técnico.
+Los datos de turnos se almacenan actualmente en Azure en centros de datos de Asia Pacífico (APAC), la Unión Europea (UE) y Norteamérica. Para obtener más información acerca de la ubicación en la que se almacenan los datos, consulte [¿Dónde están mis datos](http://o365datacentermap.azurewebsites.net/)?
 
-Para obtener más información, vea [Ubicación de los datos de turnos](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
+Para obtener más información sobre los datos de Turnos, incluidos el almacenamiento, la retención, la recuperación y el cifrado de los datos de Turnos, vea Preguntas [más frecuentes sobre los datos de turnos](shifts-data-faq.md).
 
 #### <a name="where-can-i-learn-more-about-shifts"></a>¿Dónde puedo obtener más información sobre turnos?
 
@@ -118,19 +121,19 @@ Cada usuario debe tener una licencia Microsoft 365 o Office 365 de un plan váli
 
 #### <a name="how-do-i-enable-teams-in-my-organization"></a>¿Cómo puedo habilitar Teams mi organización?
 
-De forma predeterminada, Teams está habilitado para todas las organizaciones. Asigne licencias Teams usuarios para controlar el acceso individual a Teams. Para obtener más información, vea [Habilitar Teams en su organización](../../Office-365-set-up.md) y [Administrar el acceso de usuario a Teams](../../user-access.md).
+De forma predeterminada, Teams está habilitado para todas las organizaciones. Asigne licencias Teams usuarios para controlar el acceso individual a Teams. Para obtener más información, vea [Habilitar Teams en su organización](../../Office-365-set-up.md) y [Administrar el acceso de los usuarios a Teams](../../user-access.md).
 
-#### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>¿Qué sucede si actualmente tengo Skype Empresarial habilitado en mi organización, pero no Teams?
+#### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>¿Qué sucede si actualmente Skype Empresarial habilitado en mi organización pero no Teams?
 
-Teams admite la coexistencia con Skype Empresarial. Para obtener más información, vea Comprender Teams y [Skype Empresarial](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) coexistencia e interoperabilidad, así como instrucciones de migración e interoperabilidad para organizaciones que usan Teams junto con [Skype Empresarial](../../migration-interop-guidance-for-teams-with-skype.md).
+Teams admite la coexistencia con Skype Empresarial. Para obtener más información, vea Comprender Teams y [Skype Empresarial](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) de coexistencia e interoperabilidad, así como instrucciones de migración e interoperabilidad para organizaciones que usan Teams junto con [Skype Empresarial](../../migration-interop-guidance-for-teams-with-skype.md).
 
-#### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>¿Necesita cada usuario tener una cuenta Microsoft 365 o Office 365 o Azure Active Directory (Azure AD) ?
+#### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>¿Necesita cada usuario tener una cuenta Microsoft 365 o Office 365 o Azure Active Directory (Azure AD) cuenta?
 
 Sí, cada administrador y miembro del equipo que use Teams y Turnos dentro de Teams debe tener una cuenta de Microsoft 365 o Office 365 (Azure AD) y debe tener asignada una licencia válida.
 
 #### <a name="can-i-export-shift-schedules-from-shifts"></a>¿Puedo exportar programaciones de turnos desde Turnos?
   
-Puede exportar información de programación de turnos a un Excel desde las aplicaciones web y de escritorio de Turnos. A continuación, puede importar esta información a los sistemas y herramientas de su organización.
+Puede exportar información de programación de turnos a un archivo Excel desde las aplicaciones web y de escritorio de Turnos. A continuación, puede importar esta información a los sistemas y herramientas de su organización.
 
 #### <a name="how-can-i-recover-a-schedule-if-i-accidentally-deleted-a-team"></a>¿Cómo puedo recuperar una programación si eliminé accidentalmente un equipo?
 
@@ -140,7 +143,7 @@ La eliminación de una programación está vinculada a la eliminación de un equ
 
 La capacidad de uso compartido de archivos, la capacidad de un administrador para distribuir archivos a los miembros del equipo, se alimenta en el back-end SharePoint Online. Cuando se crea un equipo, Microsoft 365 grupo se aprovisiona automáticamente para ese equipo en segundo plano.
 
-Para obtener más información, vea [Cómo SharePoint en línea OneDrive para la Empresa interactuar con Teams](../../SharePoint-OneDrive-interact.md).
+Para obtener más información, vea [Cómo SharePoint en línea y OneDrive para la Empresa interactúan con Teams](../../SharePoint-OneDrive-interact.md).
  
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>¿Hay integración entre Turnos y el Outlook calendario? ¿Puedo exportar una programación a un calendario?
  
@@ -148,7 +151,7 @@ Los trabajadores de primera línea pueden ver toda su programación de trabajo d
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>¿Qué controles de administrador están disponibles para administrar si los usuarios de mi organización pueden usar Turnos?  
   
-Puede activar o desactivar Turnos para toda la organización para todos los usuarios de su organización. En el Microsoft Teams de administración, también puede usar la directiva de configuración de la aplicación Trabajador de frontline para personalizar Teams para su fuerza de trabajo de frontline. La directiva se configura con las aplicaciones Actividad, Turnos, Chat y Llamadas. Al asignar la directiva, estas aplicaciones se anclan a la barra de aplicaciones Teams para un acceso rápido y fácil por parte de los usuarios. 
+Puede activar o desactivar Turnos para toda la organización para todos los usuarios de su organización. En el Microsoft Teams de administración de frontline, también puede usar la directiva de configuración de la aplicación Trabajador de frontline para personalizar Teams personal de frontline. La directiva se configura con las aplicaciones Actividad, Turnos, Chat y Llamadas. Al asignar la directiva, estas aplicaciones se anclan a la barra de aplicaciones Teams para un acceso rápido y fácil por parte de los usuarios. 
 
 Para obtener más información, vea [Administrar la aplicación Turnos para su organización en Teams](manage-the-shifts-app-for-your-organization-in-teams.md).
 
@@ -156,13 +159,13 @@ Para obtener más información, vea [Administrar la aplicación Turnos para su o
 
 Puede administrar Teams el módulo Microsoft Teams PowerShell y el módulo Skype Empresarial PowerShell. Para obtener más información, [vea Teams información general de PowerShell](../../teams-powershell-overview.md). En este momento, no hay cmdlets de PowerShell específicos disponibles para administrar turnos.  
 
-Si es algo que le interesa, envíenos una solicitud a través del Teams [de comentarios](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
+Si esto es algo que le interesa, envíenos una solicitud a través del [Teams de comentarios.](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)
 
 [!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>¿Los informes están disponibles para ver el uso de turnos en toda mi organización?
 
-Dado que Turnos es una aplicación de Teams, puede ver el uso a través de Teams informes. Para obtener más información, [consulte Teams informes](../../teams-analytics-and-reports/teams-reporting-reference.md) en el centro Microsoft Teams administración y Teams de actividad [en el Centro de administración de Microsoft 365](../../teams-activity-reports.md).
+Dado que Turnos es una aplicación en Teams, puede ver el uso a través de Teams informes. Para obtener más información, [consulte Teams](../../teams-analytics-and-reports/teams-reporting-reference.md) informes en el centro Microsoft Teams administración y Teams de actividad [en el Centro de administración de Microsoft 365](../../teams-activity-reports.md).
 
 #### <a name="where-can-i-provide-feedback"></a>¿Dónde puedo enviar comentarios?
   

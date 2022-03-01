@@ -13,29 +13,29 @@ ms.collection:
 description: Aprenda a usar los controles de PowerShell para administrar Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: feaed3702173061561e09ccc784bbae3173914d1a030052d56a4aaa79f7986a0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 99af6bc71bdd25375f6165f1e645bf4626dd3123
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312458"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039978"
 ---
 # <a name="install-microsoft-teams-powershell-module"></a>Instalar Microsoft Teams módulo de PowerShell
 
-En este artículo se explica cómo instalar el módulo Microsoft Teams PowerShell con la Galería de PowerShell. El Microsoft Teams de PowerShell es compatible con todas Windows plataformas. 
+En este artículo se explica cómo instalar el módulo Microsoft Teams PowerShell con la Galería de PowerShell. El Microsoft Teams PowerShell es compatible con todas Windows plataformas. Mac y Linux no son compatibles.
 
 ## <a name="requirements"></a>Requirements
 
-Microsoft Teams El módulo PowerShell requiere PowerShell 5.1 o posterior en todas las plataformas. Instale la [versión más reciente de PowerShell](/powershell/scripting/install/installing-powershell)disponible para su sistema   operativo. 
+Microsoft Teams módulo de PowerShell requiere PowerShell 5.1 o posterior en todas las plataformas. Instale la  [versión más reciente de PowerShell](/powershell/scripting/install/installing-powershell)  disponible para su sistema operativo. 
 
 Para comprobar la versión de PowerShell, ejecute el siguiente comando desde una sesión de PowerShell: 
 
 ```powershell
 $PSVersionTable.PSVersion 
 ```
-Le recomendamos que use el cmdlet Install-Module para instalar el módulo Microsoft Teams PowerShell. 
+Le recomendamos que use el cmdlet Install-Module para instalar el Microsoft Teams PowerShell. 
  
-Si la Galería de PowerShell (PSGallery) no está configurada como repositorio de confianza para **PowerShellGet**, la primera vez que use la PSGallery verá el siguiente mensaje:
+Si la Galería de PowerShell (PSGallery) no está configurada como repositorio de confianza para **PowerShellGet**, la primera vez que use psgallery verá el siguiente mensaje:
 
 ```console
 Untrusted repository
@@ -51,7 +51,7 @@ Responda **Sí** o **Sí a Todos** para continuar con la instalación.
 
 ## <a name="installing-using-the-powershellgallery"></a>Instalación con PowerShellGallery
 
-Microsoft Teams El módulo PowerShell es compatible actualmente para su uso con PowerShell 5.1 en Windows. Siga estos pasos para instalar el módulo: 
+Microsoft Teams módulo de PowerShell es compatible actualmente para su uso con PowerShell 5.1 en Windows. Siga estos pasos para instalar el módulo: 
 
 - Actualizar a [Windows PowerShell 5.1](/powershell/scripting/windows-powershell/install/installing-windows-powershell#upgrading-existing-windows-powershell). Si está en Windows 10 versión 1607 o posterior, ya tiene PowerShell 5.1 instalado. 
 - Instale [.NET Framework 4.7.2](/dotnet/framework/install) o posterior. 
@@ -68,7 +68,7 @@ Install-Module -Name MicrosoftTeams -Force -AllowClobber
 
 ## <a name="offline-installation"></a>Instalación sin conexión 
 
-En algunos entornos, no es posible conectarse a la Galería de PowerShell. En esas situaciones, siga estos [pasos de instalación manuales.](https://aka.ms/psgallery-manualdownload)  
+En algunos entornos, no es posible conectarse a la Galería de PowerShell. En esas situaciones, siga estos [pasos de instalación manuales](https://aka.ms/psgallery-manualdownload).  
 
 ## <a name="sign-in"></a>Iniciar sesión
 
@@ -103,13 +103,13 @@ Uninstall-Module MicrosoftTeams -Allversions
 
 ## <a name="next-steps"></a>Pasos siguientes 
 
-Ahora ya está listo para administrar Microsoft Teams con Microsoft Teams PowerShell. Vea [Administrar Teams con Teams PowerShell para](teams-powershell-managing-teams.md) empezar. 
+Ahora ya está listo para administrar Microsoft Teams con Microsoft Teams PowerShell. Vea [Administrar Teams con Teams PowerShell](teams-powershell-managing-teams.md) para empezar. 
 
 ## <a name="related-topics"></a>Temas relacionados
 
 [Administrar Teams con Teams PowerShell](teams-powershell-managing-teams.md)
 
-[Teams Notas de la versión de PowerShell](teams-powershell-release-notes.md)
+[Teams notas de la versión de PowerShell](teams-powershell-release-notes.md)
 
 [Microsoft Teams referencia de cmdlet](/powershell/teams/?view=teams-ps)
 
