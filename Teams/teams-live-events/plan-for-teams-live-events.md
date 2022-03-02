@@ -8,20 +8,25 @@ ms.service: msteams
 audience: admin
 ms.reviewer: sonua
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
-  - m365initiative-meetings-enabler
-  - enabler-strategic
+- M365-collaboration
+- m365initiative-meetings
+- m365initiative-meetings-enabler
+- enabler-strategic
 search.appverid: MET150
 description: En este artículo encontrará información sobre los factores que debe tener en cuenta antes de configurar eventos en directo en Microsoft Teams.
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f7ce782db18c15e3b08367e0956003f7af2dde75
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047150"
 ---
-
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
 Cuando planee eventos en directo de Teams para tener reuniones grandes en la organización, debe tener en cuenta varios factores antes de empezar la configuración.
@@ -181,7 +186,10 @@ Puede usar eventos en directo de Teams en varias regiones de todo el mundo. La s
 **Exclusiones y permisos**
 
 - **Ubicación de datos:** las ubicaciones de datos de Teams, excepto las que se enumeraron anteriormente, no son compatibles en estos momentos.
-- **China:** los asistentes y miembros del equipo del evento no podrán usar los eventos en directo de Teams porque no se puede acceder a Azure CDN en China. Una solución alternativa consiste en usar una conexión VPN de empresa, que conecte el cliente a la red CDN a través de la red corporativa del cliente.
+
+>[!Note]
+> Los eventos en directo se basan en servicios CDN de Azure, que pueden no estar disponibles en algunos países. Como administrador, es posible que tenga que configurar una VPN de acuerdo con todas las leyes y normativas aplicables para conectarse a la red corporativa para que estas aplicaciones funcionen sin problemas. Una vez completado, los usuarios de su organización pueden programar y asistir a eventos en directo.
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 
