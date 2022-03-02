@@ -19,12 +19,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a067488736a1392ac34259ba77518c299c46d203
-ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
+ms.openlocfilehash: 7136ea224b23e29e7b4e669fbe3d364b787193fd
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62224017"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63043358"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -181,7 +181,23 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |Quiero que la transcripción esté deshabilitada para la mayoría de los usuarios, pero permitir de forma selectiva que determinados usuarios puedan transcribir. |<ol><li>Confirmar que CsTeamsMeetingPolicy global tiene AllowCloudRecording = False. <li>A la mayoría de los usuarios se les ha otorgado la CsTeamsMeetingPolicy global o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = False. <li>Todos los demás usuarios tienen asignada una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = True. </ol>|
 
 ### <a name="terms-of-use-acceptance"></a>Aceptación de los Términos de uso
-Si su organización tiene una directiva de grabación de reuniones que desea que los usuarios acepten antes de grabar una reunión, utilice la función de [Términos de uso de Azure Active Directory.](/azure/active-directory/conditional-access/terms-of-use) Esta característica permite a los usuarios aceptar los términos de la directiva de usuario de su organización antes de obtener acceso a Microsoft Teams. Esta función no es específica para hacer clic en el botón de grabación, sino que está relacionada con el uso de Teams u otras aplicaciones de Microsoft 365 en general. Nuestra sugerencia es agregar la información de grabación de la reunión a los Términos de uso generales para usar Teams o Microsoft 365. 
+Si su organización tiene una directiva de grabación de reuniones que desea que los usuarios acepten antes de grabar una reunión, utilice la función de [Términos de uso de Azure Active Directory.](/azure/active-directory/conditional-access/terms-of-use) Esta característica permite a los usuarios aceptar los términos de la directiva de usuario de su organización antes de obtener acceso a Microsoft Teams. Esta función no es específica para hacer clic en el botón de grabación, sino que está relacionada con el uso de Teams u otras aplicaciones de Microsoft 365 en general. Nuestra sugerencia es agregar la información de grabación de la reunión a los Términos de uso generales para usar Teams o Microsoft 365.
+
+### <a name="set-a-custom-privacy-policy-url"></a>Establecer una dirección URL de la directiva de privacidad personalizada
+
+Como administrador, puede actualizar la dirección URL de la directiva de privacidad de grabación y transcripción de Teams con un vínculo personalizado para su organización. Puede hacerlo en el [centro de administración de Azure AD](https://aad.portal.azure.com) siguiendo estos pasos:
+
+1. Inicie sesión en el centro de administración de Azure AD.
+1. Vaya a **Azure Active Directory** > **Propiedades**.
+1. Actualice el campo **Dirección URL de la declaración de privacidad** con el vínculo a su directiva de privacidad.
+
+> [!NOTE]
+> Si ya ha actualizado este campo para su organización, no es necesario realizar ningún cambio.
+
+Después de agregar la dirección URL de la directiva de privacidad, la declaración de privacidad predeterminada de la grabación y transcripción de las reuniones de Teams se reemplazará por la nueva dirección URL proporcionada por su organización.
+
+> [!NOTE]
+> Los usuarios anónimos, invitados y federados que se unan a reuniones de Teams hospedadas por su organización seguirán teniendo la directiva de privacidad predeterminada de grabación y transcripción de reuniones de Teams.
 
 ## <a name="permissions-and-storage"></a>Permisos y almacenamiento
 
