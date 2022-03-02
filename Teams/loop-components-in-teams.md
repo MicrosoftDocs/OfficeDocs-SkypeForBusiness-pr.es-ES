@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 660ecd7542eadd56b284642895e5da15a1cdd434
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: 3f9ca97a0088c703dc482d69406a9e9c2c8b2a22
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918944"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63043378"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Información general sobre los componentes de bucle en Teams
 
@@ -44,33 +44,33 @@ Para obtener información sobre la configuración de administración de los comp
 
 Disponible en Teams aplicaciones en Windows, Mac, Linux, iOS y Android.
 
-## <a name="loop-components-and-fluid-files"></a>Bucle de componentes y archivos .fluid
+## <a name="loop-components-and-loop-files"></a>Bucle de componentes y archivos .loop
 
-Los componentes de bucle creados en Teams están a los que se les hace una copia de seguridad de un archivo .fluid almacenado en el OneDrive. Ser un archivo en OneDrive significa que los usuarios pueden crear, detectar y administrar componentes de bucle (archivos .fluid) tan fácilmente como cualquier documento Office usuario. Los archivos .fluid funcionan con características de gobierno de datos como eDiscovery, auditoría, informes y retención legal.
+Los componentes de bucle creados en Teams se copian con un archivo .loop almacenado en el OneDrive. Ser un archivo en OneDrive significa que los usuarios pueden crear, detectar y administrar componentes de bucle (archivos .loop) tan fácilmente como cualquier documento Office usuario. Los archivos .loop funcionan con características de gobierno de datos como exhibición de documentos electrónicos, auditoría, informes y retención legal.
 
-## <a name="how-are-fluid--files-stored"></a>¿Cómo se almacenan los archivos .fluid?
+## <a name="how-are-loop--files-stored"></a>¿Cómo se almacenan los archivos .loop?
 
-Los archivos .fluid aparecen en Office.com y OneDrive, como en las áreas Recientes y Recomendados. Los usuarios pueden buscar contenido en archivos .fluid desde Office.com y OneDrive. Los archivos .fluid se pueden restaurar a versiones anteriores desde OneDrive. Para crear componentes de bucle, los participantes de chat deben tener OneDrive cuenta. Sin una cuenta OneDrive, es posible que los participantes del chat puedan colaborar en un componente creado por otros usuarios que tengan una cuenta OneDrive válida, pero no puedan crear su propia cuenta. 
+Los archivos .loop aparecen en Office.com y OneDrive, como en las áreas Recientes y Recomendados. Los usuarios pueden buscar contenido en archivos .loop desde Office.com y OneDrive. Los archivos .loop se pueden restaurar a versiones anteriores desde OneDrive. Para crear componentes de bucle, los participantes de chat deben tener OneDrive cuenta. Sin una cuenta OneDrive, es posible que los participantes del chat puedan colaborar en un componente creado por otros usuarios que tengan una cuenta de OneDrive válida, pero que no puedan crear su propia cuenta. 
 
-Al mover un archivo .fluid OneDrive a un SharePoint web, el componente activo no se carga en Teams chat.
+Al mover un archivo .loop de OneDrive a un SharePoint, el componente activo no se carga en Teams chat.
 
 ## <a name="what-happens-if-the-owner-of-the-file-leaves-the-company"></a>¿Qué sucede si el propietario del archivo abandona la empresa?
 
-OneDrive directivas de retención se aplican a los archivos .fluid igual que a otros contenidos creados por el usuario.
+OneDrive directivas de retención se aplican a los archivos .loop igual que a otros contenidos creados por el usuario.
 
-## <a name="how-are-fluid-files-shared"></a>¿Cómo se comparten los archivos .fluid?
+## <a name="how-are-loop-files-shared"></a>¿Cómo se comparten los archivos .loop?
 
 Los componentes de bucle se pueden insertar en Teams chat o copiarse de un chat a otro. (Los componentes de bucle aún no son compatibles con los canales). Son los permisos existentes de la organización de forma predeterminada, pero los usuarios pueden cambiar los permisos antes de enviarlos para asegurarse de que todos los usuarios tienen acceso.
 
 Abrir componentes desde Teams chat en Office.com ofrece funcionalidad de uso compartido en la parte superior de la ventana, similar a las opciones de uso compartido que se ofrecen para otros Office documentos.
 
-## <a name="what-if-a-fluid-file-becomes-corrupted-or-damaged"></a>¿Qué sucede si un archivo .fluid se daña o se daña?
+## <a name="what-if-a-loop-file-becomes-corrupted-or-damaged"></a>¿Qué sucede si un archivo .loop se daña o se daña?
 
 El Historial de versiones le permite revisar y copiar desde versiones anteriores del archivo.
 
-## <a name="what-apps-can-open-and-edit-fluid-files"></a>¿Qué aplicaciones pueden abrir y editar archivos .fluid?
+## <a name="what-apps-can-open-and-edit-loop-files"></a>¿Qué aplicaciones pueden abrir y editar archivos .loop?
 
-Los archivos .fluid solo se pueden abrir como vínculos en el explorador, como Office.com, y como componentes de bucle en Teams chat. Si se descargan, no se pueden abrir de nuevo sin cargarlas primero en OneDrive o SharePoint.
+Los archivos .loop solo se pueden abrir como vínculos en el explorador, como Office.com, y como componentes de bucle en Teams chat. Si se descargan, no se pueden abrir de nuevo sin volver a cargarlas en OneDrive o SharePoint.
 
 ## <a name="known-issues"></a>Problemas conocidos
 

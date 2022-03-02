@@ -24,12 +24,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: Guía paso a paso que detalla cómo configurar Teams Sistema telefónico para su organización en Microsoft 365.
-ms.openlocfilehash: 1a8f7ed554a360b94e568058be29697c0f2b1767
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 3a5c275c7d7d881ff770e6e84a3d4fa935d2827f
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039988"
+ms.locfileid: "63043348"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar Sistema telefónico en su organización
 
@@ -50,7 +50,7 @@ En este artículo se describen los pasos siguientes:
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Paso 1: Comprar y asignar una Sistema telefónico licencia
 
-Para asignar una Sistema telefónico a un solo usuario, los pasos son los mismos que asignar una Microsoft 365 licencia. También puede asignar licencias a varios usuarios en masa. Para obtener más información sobre las licencias de Sistema telefónico disponibles y cómo adquirir y asignar licencias [, vea Teams](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md) licencias de complementos y Asignar Microsoft Teams licencias de [complementos](/teams-add-on-licensing/assign-teams-add-on-licenses.md).
+Para asignar una Sistema telefónico a un solo usuario, los pasos son los mismos que asignar una Microsoft 365 licencia. También puede asignar licencias a varios usuarios en masa. Para obtener más información sobre las licencias de Sistema telefónico disponibles y cómo adquirir y asignar licencias [, vea Teams](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) licencias de complementos y Asignar licencias de complementos Teams [Microsot](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>Paso 2. Elegir una opción de conectividad RTC 
  
