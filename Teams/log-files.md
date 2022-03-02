@@ -13,15 +13,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: Obtenga información sobre los registros de depuración, medios y escritorio producidos por Microsoft Teams, dónde se pueden encontrar y cómo pueden ayudar con la supervisión y solución de problemas.
+description: Obtenga información sobre los registros de depuración, medios y escritorio producidos por Microsoft Teams, dónde se pueden encontrar y cómo pueden ayudarle con la supervisión y solución de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a8a58511c3a9562281f162ef1c92d8e01d96228
-ms.sourcegitcommit: 45756a51857ed1d8714175d2b715c388e2f0db81
+ms.openlocfilehash: 56a665be7f2b647c3133b3dcd0617779b1e4165e
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62027593"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047130"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Use archivos de registro para supervisar y solucionar problemas Microsoft Teams
 
@@ -33,7 +33,7 @@ Hay tres tipos de archivos de registro generados automáticamente por el cliente
 
 -   [Registros de escritorio](#desktop-logs)
 
-En este artículo se describen estos registros y cómo se usan. Para obtener información sobre cómo solucionar problemas específicos, [vea: Teams solución de problemas.](/MicrosoftTeams/troubleshoot/teams) Para obtener información sobre cómo ponerse en contacto con el soporte técnico, vea [Obtener soporte técnico.](/microsoft-365/business-video/get-help-support) Al crear una solicitud de soporte técnico con soporte técnico de Microsoft, el ingeniero de soporte técnico necesitará los registros de depuración. Tener los registros de depuración a mano antes de crear la solicitud de soporte técnico permitirá a Microsoft empezar rápidamente a solucionar el problema. **Los registros** multimedia **o de** escritorio solo son necesarios si Microsoft lo solicita.
+En este artículo se describen estos registros y cómo se usan. Para obtener información sobre cómo solucionar problemas específicos, [vea: Teams solución de problemas](/MicrosoftTeams/troubleshoot/teams). Para obtener información sobre cómo ponerse en contacto con el soporte técnico, vea [Obtener soporte técnico](/microsoft-365/business-video/get-help-support). Al crear una solicitud de soporte técnico con soporte técnico de Microsoft, el ingeniero de soporte técnico necesitará los registros de depuración. Tener los registros de depuración a mano antes de crear la solicitud de soporte técnico permitirá a Microsoft empezar rápidamente a solucionar el problema. **Los registros** multimedia **o de** escritorio solo son necesarios si Microsoft lo solicita.
 
 > [!NOTE]
 > En este artículo, el término **Registros de depuración** hace referencia a los registros que se usan para la solución de problemas. Sin embargo, los archivos que se generan para estos registros contendrán el término registros **de diagnóstico** en sus nombres.  
@@ -42,20 +42,20 @@ En este artículo se describen estos registros y cómo se usan. Para obtener inf
 
 Es importante recopilar registros tan pronto como se produzca un problema. Los registros se pueden recopilar juntos con solo un par de clics.
 
-- Windows: Haga clic con el botón derecho en el icono Teams en la bandeja del sistema y elija **Recopilar archivos de soporte técnico.** 
+- Windows: Haga clic con el botón derecho en el icono Teams en la bandeja del sistema y elija **Recopilar archivos de soporte técnico**. 
 
-- Mac: seleccione el menú Ayuda y elija **Recopilar archivos de soporte técnico.**
+- Mac: seleccione el menú Ayuda y elija **Recopilar archivos de soporte técnico**.
 
-Los registros de depuración, escritorio y medios se recopilarán en una carpeta con el nombre Registro de diagnóstico _de MSTeams. \<local date and time\>_ Esta carpeta se puede comprimir y compartir al abrir una solicitud de soporte técnico con el soporte técnico de Microsoft. La carpeta contendrá carpetas para escritorio, reunión (multimedia) y depuración (web). Puede recopilar los archivos con los siguientes métodos abreviados de teclado:
+Los registros de depuración, escritorio y medios se recopilarán en una carpeta con el nombre Registro de diagnóstico _de MSTeams \<local date and time\>_. Esta carpeta se puede comprimir y compartir al abrir una solicitud de soporte técnico con el soporte técnico de Microsoft. La carpeta contendrá carpetas para escritorio, reunión (multimedia) y depuración (web). Puede recopilar los archivos con los siguientes métodos abreviados de teclado:
 
 - Windows: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Mayús</kbd> + <kbd>1</kbd>
 
-- Mac: <kbd>Comando de</kbd> + <kbd>opción</kbd> + <kbd>Mayús</kbd> + <kbd>1</kbd>
+- Mac: <kbd>Comando de opción</kbd> + <kbd></kbd> + <kbd>Mayús</kbd> + <kbd>1</kbd>
 
 
-El registro multimedia está desactivado de forma predeterminada. Para habilitar el registro multimedia, los usuarios deben activar la opción en Teams cliente. Vaya a **Configuración** General y seleccione Habilitar registro para diagnósticos de reuniones  >   **(requiere reiniciar Teams).** El Teams debe reiniciarse para iniciar el registro (reinicie haciendo clic con el botón derecho en el icono del dock (Mac) o la barra de tareas (Windows) y seleccionando **Salir.** Después de salir, simplemente haga clic en el icono de la aplicación para abrirlo de nuevo).
+El registro multimedia está desactivado de forma predeterminada. Para habilitar el registro multimedia, los usuarios deben activar la opción en Teams cliente. Vaya a **Configuración** >  **General y** seleccione Habilitar registro para **diagnósticos de reuniones (requiere reiniciar Teams)**. El Teams debe reiniciarse para iniciar el registro (reinicie haciendo clic con el botón derecho en el icono del dock (Mac) o la barra de tareas (Windows) y seleccionando **Salir.** Después de salir, simplemente haga clic en el icono de la aplicación para abrirlo de nuevo).
 
-Si se produce un problema con una reunión específica o un evento en directo, es útil tener la dirección URL asociada a la reunión. Esto proporciona información adicional para ayudar a identificar la reunión exacta o el evento en directo en los registros. Esta información se puede recopilar de cualquier participante para una reunión o del moderador o productor de un evento en directo. Esta dirección URL se puede capturar si mantiene el puntero sobre la dirección URL de combinación y elige **Copiar hipervínculo.**
+Si se produce un problema con una reunión específica o un evento en directo, es útil tener la dirección URL asociada a la reunión. Esto proporciona información adicional para ayudar a identificar la reunión exacta o el evento en directo en los registros. Esta información se puede recopilar de cualquier participante para una reunión o del moderador o productor de un evento en directo. Esta dirección URL se puede capturar si mantiene el puntero sobre la dirección URL de combinación y elige **Copiar hipervínculo**.
 
 > [!NOTE]
 > Si el registro multimedia está habilitado, habrá archivos adicionales incluidos en la carpeta Reunión que son necesarios para investigar problemas de audio y vídeo. Si el registro multimedia no está habilitado, habrá un número limitado de registros disponibles.
@@ -65,7 +65,7 @@ Si se produce un problema con una reunión específica o un evento en directo, e
 >
 > - Windows: <kbd>Crtl</kbd> + <kbd>Alt</kbd> + <kbd>Mayús</kbd> + <kbd>1</kbd>
 >
-> - Mac: <kbd>Comando de</kbd> + <kbd>opción</kbd> + <kbd>Mayús</kbd> + <kbd>1</kbd>
+> - Mac: <kbd>Comando de opción</kbd> + <kbd></kbd> + <kbd>Mayús</kbd> + <kbd>1</kbd>
 
 
 En la tabla siguiente se describen los distintos clientes y sus registros asociados. Los archivos de registro se almacenan en ubicaciones específicas del cliente y del sistema operativo.
@@ -84,7 +84,7 @@ Para ver una lista completa de los sistemas operativos y los exploradores compat
 
 ## <a name="debug-logs"></a>Registros de depuración
 
-Consulte la _sección Recopilar y habilitar el registro_ para obtener Windows y Mac. Los registros de depuración son producidos por Windows y mac clientes de escritorio, así como por clientes basados en explorador. Los registros están basados en texto y se leen desde abajo hacia arriba. Se pueden leer con cualquier editor basado en texto y se crean nuevos registros al iniciar sesión en el cliente.
+Vea la _sección Recopilar y habilitar el registro_ para obtener Windows y Mac. Los registros de depuración se producen por Windows y mac clientes de escritorio, así como por clientes basados en explorador. Los registros están basados en texto y se leen desde abajo hacia arriba. Se pueden leer con cualquier editor basado en texto y se crean nuevos registros al iniciar sesión en el cliente.
 
 Los registros de depuración muestran los siguientes flujos de datos:
 
@@ -95,18 +95,18 @@ Los registros de depuración muestran los siguientes flujos de datos:
 -   Llamada/conversación
 
 Para recopilar registros para Linux:
-- Método abreviado de <kbd>teclado: Ctrl</kbd>  +  <kbd>Alt</kbd>  +  <kbd>Mayús</kbd>  +  <kbd>1</kbd>  
+- Método abreviado de <kbd>teclado</kbd>: <kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> +   
 - Los archivos estarán disponibles en `~/Downloads`
 
 Para recopilar registros del Explorador y Windows:
-- Método abreviado de <kbd>teclado: Ctrl</kbd>  +  <kbd>Alt</kbd>  +  <kbd>Mayús</kbd>  +  <kbd>1</kbd>  
+- Método abreviado de <kbd>teclado</kbd>: <kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> +   
 - Los archivos estarán disponibles en `%userprofile%\Downloads`
 
 ## <a name="media-logs"></a>Registros de medios
 
-Consulte la _sección Recopilar y habilitar el registro_ para obtener Windows y Mac. Los registros multimedia contienen datos de diagnóstico sobre audio, vídeo y uso compartido de pantalla en Teams reuniones. Son necesarios para los casos de soporte técnico vinculados a problemas relacionados con llamadas.
+Vea la _sección Recopilar y habilitar el registro_ para obtener Windows y Mac. Los registros multimedia contienen datos de diagnóstico sobre audio, vídeo y uso compartido de pantalla en Teams reuniones. Son necesarios para los casos de soporte técnico vinculados a problemas relacionados con llamadas.
 
-El registro multimedia está desactivado de forma predeterminada. Para registrar datos de diagnóstico Teams reuniones, los usuarios deben activar la opción en el Teams cliente. Vaya **a Configuración** General , active la casilla Habilitar registro para diagnósticos de reuniones (requiere reiniciar Teams), reinicie Teams y  >  reproduzca el problema. 
+El registro multimedia está desactivado de forma predeterminada. Para registrar datos de diagnóstico Teams reuniones, los usuarios deben activar la opción en el Teams cliente. Vaya **a Configuración** >  **General**, active la casilla Habilitar registro para **diagnósticos** de reuniones (requiere reiniciar Teams), reinicie Teams y reproduzca el problema. 
 
 Cuando envíe los archivos de registro al soporte técnico de Microsoft, compruebe la marca de tiempo de los archivos de registro para asegurarse de que los registros cubren el período de tiempo cuando reproduzca el problema.
 
@@ -117,8 +117,8 @@ Para recopilar registros para Linux:
 
 Para recopilar registros para Windows:  
 - Los archivos estarán disponibles en las siguientes ubicaciones:
-  - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack\\\*\.blog`
-  - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib\\\*\.blog` 
+  - `%appdata%\Microsoft\Teams\media-stack\\\*\.blog`
+  - `%appdata%\Microsoft\Teams\skylib\\\*\.blog` 
 
 Para recopilar registros para Mac:
 - Los archivos estarán disponibles en las siguientes ubicaciones:
@@ -139,14 +139,14 @@ Esta es una lista de los archivos de registro que se generan y la información q
 
 ## <a name="desktop-logs"></a>Registros de escritorio
 
-Consulte la _sección Recopilar y habilitar el registro_ para obtener Windows y Mac. Los registros de escritorio, también conocidos como registros de arranque, contienen datos de registro que se producen entre el cliente de escritorio y el explorador. Al igual que los registros multimedia, estos registros solo son necesarios si Microsoft lo solicita. Los registros están basados en texto y se pueden leer con cualquier editor basado en texto en un formato de arriba abajo.
+Vea la _sección Recopilar y habilitar el registro_ para obtener Windows y Mac. Los registros de escritorio, también conocidos como registros de arranque, contienen datos de registro que se producen entre el cliente de escritorio y el explorador. Al igual que los registros multimedia, estos registros solo son necesarios si Microsoft lo solicita. Los registros están basados en texto y se pueden leer con cualquier editor basado en texto en un formato de arriba abajo.
 
 Para recopilar registros para Linux:
-- Haga clic en el Microsoft Teams en la bandeja del sistema y seleccione **Obtener registros.**
-- Los archivos estarán disponibles en `~/.config/Microsoft/Microsoft Teams/logs.txt` .
+- Haga clic en el Microsoft Teams en la bandeja del sistema y seleccione **Obtener registros**.
+- Los archivos estarán disponibles en `~/.config/Microsoft/Microsoft Teams/logs.txt`.
   
 Para recopilar registros para Windows:
-- Haga clic en Microsoft Teams icono de la bandeja del sistema y seleccione **Recopilar archivos de soporte técnico.**
+- Haga clic en Microsoft Teams en la bandeja del sistema y seleccione **Recopilar archivos de soporte técnico**.
 - El `logs.txt` archivo se abrirá en Bloc de notas automáticamente.
 
 Al investigar problemas al iniciar sesión Teams, es posible que deba recopilar manualmente los registros de escritorio. Estos archivos de registro se encuentran en %appdata%\Microsoft\Teams en Windows.
@@ -168,7 +168,7 @@ Después de haber iniciado sesión, seleccione uno de los vínculos siguientes, 
 -   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
 
 > [!NOTE]
-> En los pasos, reemplace todas las referencias a Azure Portal por el Teams cliente.
+> En los pasos, reemplace todas las referencias a Azure Portal por Teams cliente.
   
 ## <a name="webrtc-logs-in-browsers"></a>Registros webRTC en exploradores
 Los registros webRTC pueden ayudar al soporte técnico de Microsoft proporcionando detalles de conexión para llamadas de audio y vídeo. Siga los pasos para obtener acceso a los registros webRTC en Edge (Chromium) o Chrome: 

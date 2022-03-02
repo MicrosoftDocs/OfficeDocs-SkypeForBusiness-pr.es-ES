@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 774688012d4e70a20897cd45aa78883ba7985e68
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.openlocfilehash: 2d9c316c042230237089d57c23156cf6ac5284c6
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62864043"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047200"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>Personalizar las aplicaciones Teams basadas en la licencia
 
@@ -42,24 +42,27 @@ Las aplicaciones se anclan a la barra de aplicaciones, que es la barra del lado 
 
 Aplicaciones ancladas para usuarios que tienen una licencia F:
 
+- Conexiones Viva
 - Actividad
 - Chat
 - Teams
+- Walkie-talkie
+- Tasks
 - Turnos
-- Tareas
+- Aprobaciones
 
 ## <a name="admin-controls"></a>Controles de administrador
 
 > [!NOTE]
 > La anclación de usuario debe estar activada en la directiva de configuración de aplicaciones global ( [predeterminada para toda](teams-app-setup-policies.md) la organización) para que esta característica suba a efecto.
 
-La característica de experiencia de aplicación personalizada se controla mediante la configuración Mostrar aplicaciones **personalizadas basadas** en licencias de aplicaciones de toda la [](manage-apps.md#manage-org-wide-app-settings) organización en la página Administrar aplicaciones del centro de administración Teams usuarios. Si la característica está en, todos los usuarios de su organización que tengan una licencia F recibirán la experiencia de aplicación personalizada.
+La característica de experiencia de aplicación personalizada se controla mediante la configuración Mostrar aplicaciones **personalizadas basadas** en licencias de aplicaciones de toda la [](manage-apps.md#manage-org-wide-app-settings) organización en la página Administrar aplicaciones del centro de administración de Teams. Si la característica está en, todos los usuarios de su organización que tengan una licencia F recibirán la experiencia de aplicación personalizada.
 
 Tenga en cuenta que las directivas de configuración de aplicaciones personalizadas asignadas a los usuarios tienen prioridad. Esto significa que si un usuario ya tiene asignada una directiva de configuración de aplicaciones personalizada, el usuario obtiene la configuración que se define en la directiva de configuración de la aplicación personalizada. Para obtener más información sobre cómo funciona la característica con las directivas de configuración de aplicaciones existentes que ha aplicado en su organización, vea la sección [Escenarios](#scenarios) de este artículo.
 
 Esta característica está activada de forma predeterminada. Sin embargo, si no quiere la experiencia de aplicación personalizada proporcionada por Microsoft, puede desactivar la característica. Para desactivar o activar la característica:
 
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams **aplicaciones** >  **de** administración y, a continuación, seleccione Configuración de la aplicación **para toda la organización**.
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams **aplicaciones** >  **de** administración y, a continuación, seleccione Configuración de la aplicación para toda **la organización**.
 2. En **Aplicaciones personalizadas**, cambie la opción Mostrar **aplicaciones personalizadas basadas en licencias** **a Desactivado** o **Encendido**.
 
 ## <a name="scenarios"></a>Escenarios
@@ -68,7 +71,7 @@ Use la información de esta tabla para obtener información sobre cómo funciona
 
 |Si...  |Después... |
 |---------|---------|
-|Un usuario tiene la directiva de configuración global de la aplicación y la característica está en.     | El usuario obtiene la experiencia de aplicación personalizada.        |
+|Un usuario tiene la directiva de configuración global de la aplicación y la característica está en.     | El usuario obtiene la experiencia de aplicación personalizada. Las aplicaciones definidas en la directiva global de configuración de aplicaciones siguen ancladas y aparecen más abajo en la lista de aplicaciones ancladas.      |
 |Un usuario tiene una directiva de configuración de aplicaciones personalizada y la característica está en.    |El usuario obtiene la configuración que se define en la directiva de configuración de la aplicación personalizada.          |
 |La característica está en y actualiza la directiva de configuración global de la aplicación.     |El usuario obtiene la experiencia de aplicación personalizada en función de su licencia. Las aplicaciones definidas en la directiva global de configuración de aplicaciones siguen ancladas y aparecen más abajo en la lista de aplicaciones ancladas.          |
 |La característica está desactivada.   | El usuario obtiene la experiencia que se define en la directiva global de configuración de aplicaciones o en la directiva de configuración de aplicaciones personalizada que se les ha asignado.          |
