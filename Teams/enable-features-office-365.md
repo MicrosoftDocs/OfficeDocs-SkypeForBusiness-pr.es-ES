@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b87aaae3feeef9552cd64d76bb777cb081a6102e
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: b3b16b3015771cd136f3e5ee7333619008ada332
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055431"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047140"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
@@ -34,7 +34,23 @@ ms.locfileid: "61055431"
 
 Puede administrar las aplicaciones de su organización en **Aplicaciones de Teams** en el [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com). Por ejemplo, puede establecer las directivas para controlar qué aplicaciones están disponibles para toda la organización o para usuarios específicos de Teams, y puede personalizar Teams al anclar las aplicaciones que son más importantes para sus usuarios.
 
-Para obtener más información, consulte [Configurar la administración de aplicaciones en Teams](admin-settings.md).  
+Para obtener más información, consulte [Configurar la administración de aplicaciones en Teams](admin-settings.md).
+
+### <a name="workflows-in-teams"></a>Flujos de trabajo en Teams
+
+Los flujos de trabajo permiten automatizar tareas y procesos repetitivos mediante Power Automate. Puede desactivar los flujos de trabajo de su organización en Teams mediante una **directiva de permisos de aplicación** o a través de la página **Administrar aplicaciones** bloqueando Power Automate. Esta característica está activada de forma predeterminada. Para obtener más información sobre los flujos de trabajo, consulte [Examinar y agregar flujos de trabajo](https://support.microsoft.com/office/browse-and-add-workflows-4998095c-8b72-4b0e-984c-f2ad39e6ba9a).
+
+Para desactivar flujos de trabajo con una directiva de permisos de aplicación, edite la directiva global (predeterminada para toda la organización) para incluir Power Automate en la lista bloqueada o quitarla de la lista permitida.
+
+También puede bloquear Power Automate en la página **Administrar aplicaciones**.
+
+1. Vaya a [**Aplicaciones de Teams** > **Administrar aplicaciones**](https://admin.teams.microsoft.com/policies/manage-apps).
+1. Busque **Power Automate.**
+1. Seleccione la aplicación.
+1. Cambie el **Estado** de **Permitido** a **Bloqueado**.
+
+> [!NOTE]
+> Al desactivar los flujos de trabajo, se ocultará la aplicación de la tienda de aplicaciones de Teams, las extensiones de mensaje y el menú Más acciones. Al desactivar los flujos de trabajo, también se desactivan los flujos activos.
 
 ## <a name="teams-external-access-and-guest-access-settings-in-the-microsoft-teams-admin-center"></a>Configuración de acceso externo de Teams y acceso de invitado en el Centro de administración de Microsoft Teams
 
@@ -79,7 +95,7 @@ Active esta característica para que los usuarios puedan enviar un correo electr
 
 Aquí puede activar o desactivar las opciones de uso compartido de archivos y de almacenamiento de archivos en la nube.
 
-Los usuarios pueden cargar y compartir archivos de los servicios de almacenamiento en la nube en los canales y chats de Teams. Las opciones de almacenamiento en nube en Microsoft Teams actualmente incluyen ShareFile, Dropbox, Box, Google Drive y Egnyte. Active el conmutador de los proveedores de almacenamiento en la nube que quiera usar su organización.
+Los usuarios pueden cargar y compartir archivos de los servicios de almacenamiento en nube en los canales y chats de Microsoft Teams. Las opciones de almacenamiento en la nube en Teams actualmente incluyen Dropbox, Box, archivos Citrix, Google Drive y Egnyte. Active el conmutador de los proveedores de almacenamiento en nube que quiera usar su organización.
 
 #### <a name="organization"></a>Organización
 
