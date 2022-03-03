@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Obtenga información sobre cómo supervisar la calidad de las llamadas Teams Teléfono con plan de llamadas.
+description: Obtenga información sobre cómo supervisar la calidad de las llamadas Teams Sistema telefónico con plan de llamadas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d313e0fdd13cedd5566fc1625c194e8230f64a1a
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 8471067396840ec30c7b5e643517403e3696f24f
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767163"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053059"
 ---
 [!INCLUDE [monitor-call-quality-qos](../monitor-call-quality-qos.md)]

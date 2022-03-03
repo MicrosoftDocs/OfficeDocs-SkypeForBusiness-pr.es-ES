@@ -1,5 +1,5 @@
 ---
-title: Crear una cola de llamadas en Microsoft Teams - tutorial de pequeña empresa
+title: Crear una cola de llamadas en Microsoft Teams Sistema telefónico - tutorial de pequeña empresa
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,15 +21,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
-description: Obtenga información sobre cómo configurar colas de llamadas para pequeñas empresas en Microsoft 365 Teams Teléfono con Plan de llamadas.
-ms.openlocfilehash: a7bcac2dcc7e5c7bb4bf19fd1c98f256e088ae78
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+description: Obtenga información sobre cómo configurar colas de llamadas para pequeñas y medianas empresas en Microsoft Teams Sistema telefónico.
+ms.openlocfilehash: 8856d447d9197be4833d95fa6262bee1832b4b44
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767113"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053079"
 ---
-# <a name="create-a-call-queue---small-business-tutorial"></a>Crear una cola de llamadas: tutorial para pequeñas empresas
+# <a name="create-a-call-queue---small-and-medium-business-tutorial"></a>Crear una cola de llamadas: tutorial para pequeñas y medianas empresas
 
 Las colas de llamadas proporcionan un método para enrutamiento de autores de llamadas a personas de la organización que pueden ayudarle con un problema o pregunta en particular. Las llamadas se distribuyen de una en una a las personas que están en la cola (que se denominan *agentes*).
 
@@ -51,7 +51,7 @@ En este vídeo se muestra cómo crear una cola de llamadas en Microsoft Teams.
 
 ## <a name="before-you-begin"></a>Antes de empezar
 
-Obtener algunas [Sistema telefónico: licencias de usuario virtual](../teams-add-on-licensing/virtual-user.md) si aún no las tiene. Obtenga una por cada cola de llamadas y operador automático que tiene previsto configurar. Estas licencias son gratuitas, por lo que le recomendamos obtener algunas adicionales en caso de que decida realizar cambios en su configuración en el futuro.
+Obtenga algunas [Microsoft Teams Teléfono estándar: licencias de usuario virtual](../teams-add-on-licensing/virtual-user.md) si aún no las tiene. Obtenga una por cada cola de llamadas y operador automático que tiene previsto configurar. Estas licencias son gratuitas, por lo que le recomendamos obtener algunas adicionales en caso de que decida realizar cambios en su configuración en el futuro.
 
 Puesto que los agentes de una cola de llamadas pueden llamar para devolver una llamada de cliente, considere la posibilidad de establecer el identificador de llamada de los agentes de llamada en su número de teléfono principal o el número de un operador automático adecuado. Consulte [administrar las directivas de identificador de llamada en Microsoft Teams](../caller-id-policies.md) obtener más información.
 
@@ -59,17 +59,17 @@ Puesto que los agentes de una cola de llamadas pueden llamar para devolver una l
 
 ## <a name="follow-these-steps-to-set-up-your-call-queue"></a>Siga estos pasos para configurar la cola de llamadas
 
-### <a name="step-1brcreate-a-team"></a>[Paso 1 <br> Crear un equipo](#tab/create-team)
+### <a name="step-1---create-a-team"></a>[Paso 1: crear un equipo](#tab/create-team)
 
-Al crear una cola de llamadas, puede agregar usuarios individuales a la cola o puede usar un grupo de seguridad existente, Microsoft 365 grupo o Microsoft Teams grupo. Se recomienda [usar un canal de grupo.](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e) Esto permite a los miembros de la cola chatear entre sí, compartir ideas y crear documentos u otros recursos para ayudarles a ayudar a sus clientes. Un equipo también proporciona un buzón de voz para que los autores de llamadas dejen un mensaje fuera del horario laboral o si la cola alcanza su capacidad máxima.
+Al crear una cola de llamadas, puede agregar usuarios individuales a la cola o puede usar un grupo de seguridad existente, Microsoft 365 grupo o Microsoft Teams grupo. Se recomienda [usar un canal de grupo](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e). Esto permite a los miembros de la cola chatear entre sí, compartir ideas y crear documentos u otros recursos para ayudarles a ayudar a sus clientes. Un equipo también proporciona un buzón de voz para que los autores de llamadas dejen un mensaje fuera del horario laboral o si la cola alcanza su capacidad máxima.
 
 Para crear un equipo
 
-1. En primer lugar, **haga clic Teams** en el lado izquierdo de la aplicación y, a continuación, haga clic en Unirse o crear **un** equipo en la parte inferior de la lista de equipos.
+1. En primer lugar, **haga clic Teams** en el lado izquierdo de la aplicación y, **a** continuación, haga clic en Unirse o crear un equipo en la parte inferior de la lista de equipos.
 
-2. A **continuación, haga** clic en Crear equipo (primera tarjeta, esquina superior izquierda).
+2. A **continuación, haga clic en Crear equipo** (primera tarjeta, esquina superior izquierda).
 
-3. Elija **Crear un equipo desde cero.**
+3. Elija **Crear un equipo desde cero**.
 
 4. A continuación, elija si desea un equipo público o privado. Recomendamos **Privado para** la cola de llamadas para evitar que los usuarios se conviertan involuntaramente en parte de la cola uniéndose al equipo.
 
@@ -77,7 +77,7 @@ Para crear un equipo
 
 6. Cuando haya terminado, haga clic en **Crear**.
 
-7. Escriba los nombres de las personas que desea tener en la cola de llamadas y, a continuación, haga clic en **Agregar.**
+7. Escriba los nombres de las personas que desea tener en la cola de llamadas y, a continuación, haga clic en **Agregar**.
 
 8. Haga clic en **Cerrar**. Las personas que agregue a un equipo recibirán un correo electrónico para que sepan que ahora son miembros de su equipo y que el equipo aparecerá en su lista de equipos.
 
@@ -85,28 +85,28 @@ A continuación, agregaremos un canal para usarlo con la cola de llamadas.
 
 Para agregar un canal
 
-1. En Teams, busque el equipo que acaba de crear, haga clic en **Más opciones** (...)y, a continuación, haga clic en **Agregar canal.**
+1. En Teams, busque el equipo que acaba de crear, haga clic en **Más opciones** (...)y, a continuación, haga clic **en Agregar canal**.
 
 2. Escriba un nombre y una descripción para el canal.
 
-3. En **Privacidad,** elija **Estándar: accesible para todos** los usuarios del equipo y, a continuación, haga clic en **Agregar.**
+3. En **Privacidad**, elija **Estándar: accesible para todos los usuarios del equipo** y, a continuación, haga clic en **Agregar**.
 
 > [!div class="nextstepaction"]
 > [Paso 2: Cuentas de recursos >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
 
-### <a name="step-2brresource-accounts"></a>[Paso 2 <br> Cuentas de recursos](#tab/resource-account)
+### <a name="step-2---resource-accounts"></a>[Paso 2: cuentas de recursos](#tab/resource-account)
 
-Cada cola de llamadas que cree requiere una cuenta de recursos. Esto es similar a una cuenta de usuario, excepto que la cuenta está asociada con un operador automático o una cola de llamadas en lugar de una persona. En este paso, crearemos la cuenta, le asignaremos una *Microsoft 365 Sistema telefónico:* licencia de usuario virtual y, a continuación, la usaremos para empezar a crear la cola de llamadas.
+Cada cola de llamadas que cree requiere una cuenta de recursos. Esto es similar a una cuenta de usuario, excepto que la cuenta está asociada con un operador automático o una cola de llamadas en lugar de una persona. En este paso, crearemos la cuenta, le asignaremos una licencia *estándar Microsoft Teams Teléfono usuario virtual* y, a continuación, la usaremos para empezar a crear la cola de llamadas.
 
 #### <a name="create-a-resource-account"></a>Crear una cuenta de recursos
 
 Puede crear una cuenta de recursos en el centro Teams administración.
 
-1. En el Teams de administración, expanda **Voz** y, a continuación, haga clic **en Cuentas de recursos.**
+1. En el Teams de administración, expanda **Voz** y, a continuación, haga clic en **Cuentas de recursos**.
 
 2. Haga clic en **Agregar**.
 
-3. En el **panel Agregar cuenta de** recursos, rellene **Nombre** para mostrar, **Nombre** de usuario y elija Cola **de llamadas** para el tipo de **cuenta Recurso.** Los agentes verán el nombre para mostrar cuando reciban una llamada entrante desde la cola.
+3. En el **panel Agregar cuenta de** recursos, rellene **Nombre** para **mostrar, Nombre** de usuario y elija **Cola de llamadas** para el **tipo de cuenta Recurso**. Los agentes verán el nombre para mostrar cuando reciban una llamada entrante desde la cola.
 
 4. Haga clic en **Guardar**.
 
@@ -114,11 +114,11 @@ Puede crear una cuenta de recursos en el centro Teams administración.
 
 #### <a name="assign-a-license"></a>Asignar una licencia
 
-Debe asignar una licencia *Microsoft 365 Sistema telefónico usuario virtual* a la cuenta de recursos.
+Debe asignar una licencia *Microsoft Teams Teléfono estándar : usuario virtual* a la cuenta de recursos.
 
 1. En la Centro de administración de Microsoft 365, en la **lista Usuarios** activos, haga clic en la cuenta de recursos a la que desea asignar una licencia.
 
-2. En la **pestaña Licencias y aplicaciones,** en **Licencias,** **seleccione Microsoft 365 Sistema telefónico - Usuario virtual.**
+2. En la **pestaña Licencias y aplicaciones****, en Licencias**, seleccione **Microsoft Teams Teléfono Estándar: usuario virtual**.
 
 3. Haga clic en **Guardar cambios**.
 
@@ -126,13 +126,13 @@ Debe asignar una licencia *Microsoft 365 Sistema telefónico usuario virtual* a 
 
 A continuación, empezaremos a crear una nueva cola de llamadas y asignaremos la cuenta de recursos.
 
-1. En el Teams de administración, expanda **Voz,** haga clic en **Colas de** llamadas y, a continuación, haga clic en **Agregar.**
+1. En el centro Teams administración, expanda **Voz**, haga clic en **Colas de** llamadas y, a continuación, haga clic en **Agregar**.
 
 2. Escriba un nombre descriptivo para la cola.
 
 3. Haga clic en **Agregar cuentas**, busque la cuenta de recursos que desea usar con esta cola de llamadas, haga clic en **Agregar** y, después, haga clic en **Agregar**.
 
-4. (Opcional) En **Asignar id. de** llamada, haga clic en **Agregar**, busque las cuentas de recursos que creó para el operador automático, haga clic en Agregar **y,** a continuación, haga clic en **Agregar.** Esto dará a los agentes de llamada el identificador de llamada de la línea principal cuando llamen.
+4. (Opcional) En **Asignar id. de** llamada, haga clic en **Agregar**, busque las cuentas de recursos que creó para el operador automático, haga clic en **Agregar** y, a continuación, haga clic en **Agregar**. Esto dará a los agentes de llamada el identificador de llamada de la línea principal cuando llamen.
 
 5. Elegir un idioma Este idioma se usará para los mensajes de voz generados por el sistema y la transcripción de correo de voz (si las habilita).
 
@@ -147,11 +147,11 @@ A continuación, empezaremos a crear una nueva cola de llamadas y asignaremos la
 > [!div class="nextstepaction"]
 > [Paso 3: llamar a agentes >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
-### <a name="step-3brcall-agents"></a>[Paso 3 <br> Llamar a agentes](#tab/call-agents)
+### <a name="step-3---call-agents"></a>[Paso 3: llamar a agentes](#tab/call-agents)
 
 Para agregar agentes a la cola de llamadas, los agregaremos al equipo y al canal que creamos anteriormente. Para ello, debe ser miembro del equipo.
 
-1. Seleccione la **opción Elegir un equipo** y haga clic en Agregar un **canal.**
+1. Seleccione la **opción Elegir un equipo** y haga **clic en Agregar un canal**.
 2. Escriba el nombre del equipo que creó, selecciónelo y haga clic en **Agregar**.
 3. Seleccione el canal que creó para la cola.
 4. Haga clic en **Aplicar**.
@@ -162,13 +162,13 @@ Para agregar agentes a la cola de llamadas, los agregaremos al equipo y al canal
 > [!div class="nextstepaction"]
 > [Paso 4: Cuentas de recursos >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
 
-### <a name="step-4brcall-routing"></a>[Paso 4 <br> Enrutamiento de llamadas](#tab/call-routing)
+### <a name="step-4---call-routing"></a>[Paso 4: enrutamiento de llamadas](#tab/call-routing)
 
 Elija el método de enrutamiento de llamadas que desea usar.
 
-1. Establecer **el modo de conferencia** en **Auto**.
+1. Establezca **el modo de conferencia** en **Automático**.
 
-2. Elija el **método de enrutamiento** que desea usar. Esto determina el orden en que los agentes reciben llamadas de la cola. Se recomienda **Enrutamiento en serie** o **Redondear.** Elija una de estas opciones:
+2. Elija el **método de enrutamiento** que desea usar. Esto determina el orden en que los agentes reciben llamadas de la cola. Se recomienda enrutamiento **en serie** o **redondear.** Elija una de estas opciones:
 
     - **El enrutamiento de operador** hace una llamada a todos los agentes en la cola al mismo tiempo. El primer agente de llamada que tome la llamada la recibe.
 
@@ -176,9 +176,9 @@ Elija el método de enrutamiento de llamadas que desea usar.
 
     - **Distribución equilibrada** equilibra el enrutamiento de llamadas entrantes para que cada agente de llamadas reciba el mismo número de llamadas de la cola. Esto puede ser deseable en un entorno de ventas de entrada para asegurar la misma oportunidad entre todos los agentes de llamada.
 
-    - **Inactividad mayor** dirige cada llamada al agente que ha estado inactivo por más tiempo. (No se incluyen  agentes cuyo estado de presencia ha estado fuera durante más de 10 minutos).
+    - **Inactividad mayor** dirige cada llamada al agente que ha estado inactivo por más tiempo. (No se incluyen agentes cuyo estado  de presencia ha estado fuera durante más de 10 minutos).
 
-3. Active **el enrutamiento basado en presencia.** Esto enruta las llamadas a agentes cuyo estado de presencia es **Disponible.**
+3. Active **el enrutamiento basado en presencia** . Esto enruta las llamadas a agentes cuyo estado de presencia está **disponible**.
 
 4. Elija si desea permitir que los agentes no puedan realizar llamadas.
 
@@ -187,35 +187,35 @@ Elija el método de enrutamiento de llamadas que desea usar.
 > [!div class="nextstepaction"]
 > [Paso 5: desbordamiento de llamadas >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
 
-### <a name="step-5brcall-overflow"></a>[Paso 5 <br> Desbordamiento de llamadas](#tab/call-overflow)
+### <a name="step-5---call-overflow"></a>[Paso 5: desbordamiento de llamadas](#tab/call-overflow)
 
 Elija cómo desea controlar las llamadas que superan el máximo de la cola.
 
-1. Establezca el **valor Máximo de llamadas en la cola.**
+1. Establezca el **Valor máximo de llamadas en la cola**.
 
 2. Elija lo que desea hacer cuando se alcance el número máximo de llamadas. Puede desconectar la llamada o redirigirla. Se recomienda redirigir la llamada a uno de los siguientes destinos:
-    - **Persona de la organización:** una persona de su organización que puede recibir llamadas de voz
-    - **Aplicación de voz:** un operador automático u otra cola de llamadas. (Elija la cuenta de recursos asociada con el operador automático o la cola de llamadas al elegir este destino).
-    - **Número de teléfono externo:** cualquier número de teléfono. Use este formato: +[código de país][código de área][número de teléfono]
+    - **Persona de la organización** : una persona de su organización que puede recibir llamadas de voz
+    - **Aplicación de voz** : un operador automático u otra cola de llamadas. (Elija la cuenta de recursos asociada con el operador automático o la cola de llamadas al elegir este destino).
+    - **Número de teléfono externo** : cualquier número de teléfono. Use este formato: +[código de país][código de área][número de teléfono]
     - **Correo** de voz: puede usar el buzón de voz del equipo que ha creado.
 
 > [!div class="nextstepaction"]
 > [Paso 6: tiempo de espera de la llamada >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
 
-### <a name="step-6brcall-timeout"></a>[Paso 6 <br> Tiempo de espera de llamada](#tab/call-timeout)
+### <a name="step-6---call-timeout"></a>[Paso 6: tiempo de espera de llamada](#tab/call-timeout)
 
 Elija lo que desea que suceda cuando las llamadas hayan estado esperando en la cola durante demasiado tiempo.
 
 1. Establecer el **tiempo de espera máximo**.
 
 2. Elija lo que desea hacer cuando se resalte el tiempo de espera de una llamada. Puede desconectar la llamada o redirigirla. Se recomienda redirigir la llamada a uno de los siguientes destinos:
-    - **Persona de la organización:** una persona de su organización que puede recibir llamadas de voz
-    - **Aplicación de voz:** un operador automático u otra cola de llamadas. (Elija la cuenta de recursos asociada con el operador automático o la cola de llamadas al elegir este destino).
-    - **Número de teléfono externo:** cualquier número de teléfono. Use este formato: +[código de país][código de área][número de teléfono]
+    - **Persona de la organización** : una persona de su organización que puede recibir llamadas de voz
+    - **Aplicación de voz** : un operador automático u otra cola de llamadas. (Elija la cuenta de recursos asociada con el operador automático o la cola de llamadas al elegir este destino).
+    - **Número de teléfono externo** : cualquier número de teléfono. Use este formato: +[código de país][código de área][número de teléfono]
     - **Correo** de voz: puede usar el buzón de voz del equipo que ha creado.
 
 3. Haga clic en **Guardar**.
 
-Esto completa la configuración de la cola de llamadas. A continuación, es posible que desee [configurar un operador automático.](create-a-phone-system-auto-attendant-smb.md)
+Esto completa la configuración de la cola de llamadas. A continuación, es posible que desee [configurar un operador automático](set-up-auto-attendant.md).
 
 ---

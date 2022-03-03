@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo configurar un operador automático (también conocido como cola de llamadas) Microsoft 365 Teams Teléfono.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f30dcdca74306b27c2516de54e0ab25133b77803
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a70c07e4f0d97484ada63a5bb8163884375e13aa
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766233"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053269"
 ---
 # <a name="step-6-set-up-an-auto-attendant-for-your-companys-main-phone-number"></a>Paso 6: Configurar un operador automático para el número de teléfono principal de su empresa
 
@@ -33,4 +33,4 @@ Un operador automático le permite configurar un menú de llamada para que las p
 Cuando haya pasado por todas las pestañas anteriores para configurar el operador automático, haga clic en el botón siguiente para ir al artículo siguiente.
 
 > [!div class="nextstepaction"]
-> [Paso siguiente: Puerto de números de teléfono a Teams Teléfono](port-phone-numbers.md)
+> [Paso siguiente: Puerto de números de teléfono a Teams Sistema telefónico](port-phone-numbers.md)
