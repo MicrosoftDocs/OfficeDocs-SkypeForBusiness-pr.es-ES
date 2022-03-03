@@ -26,12 +26,12 @@ description: Obtenga información sobre características relacionadas con el ám
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: f257dbf999a333cb9b40d391cf15758631a4ffa6
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 9ca90625fc8b3229d282d9f86ba4e12fdfa56f49
+ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763355"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63050876"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones sanitarias
 
@@ -56,20 +56,20 @@ Los siguientes escenarios están disponibles para las organizaciones del cuidado
 
 | Escenario | Descripción | Requirements |
 | -------- | -------- | -------- |
-| [Visitas virtuales con integración de registros electrónicos de atención sanitaria (EHR)](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Programe, administre y realice citas virtuales con los pacientes. Este escenario conecta Teams y la plataforma Cerner o Epic para admitir visitas virtuales. | Suscripción activa a Microsoft Cloud para el sector sanitario o suscripción a Microsoft Teams independiente del conector EHR. <br> Los usuarios deben tener una licencia Microsoft 365 o Office 365 que incluya Teams reuniones*. <br> Las organizaciones deben tener la versión Cerner de noviembre de 2018 o posterior o la versión epic de noviembre de 2018 o posterior. <br>Detalles de [los requisitos de EHR de Cerner](ehr-admin-cerner.md#before-you-begin) [y Épico EHR](ehr-admin.md#before-you-begin) |
-| [Visitas virtuales con Microsoft Bookings y la aplicación Bookings](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Programe, administre y realice citas virtuales con los pacientes. Este escenario se basa en Microsoft Bookings para admitir las visitas virtuales. | Microsoft Bookings debe estar activado para la organización. <br> Todos los usuarios de la aplicación de Bookings y todo el personal que participe en las reuniones debe tener una licencia que admita la programación de reuniones de Teams. <br>[Detalles de los requisitos de Bookings](../../bookings-app-admin.md#prerequisites-for-using-the-bookings-app-in-teams)|
+| [Visitas virtuales con integración de registros electrónicos de atención sanitaria (EHR)](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Programe, administre y realice citas virtuales con los pacientes. Este escenario conecta Teams y la plataforma Cerner o Epic para admitir visitas virtuales. | Suscripción activa a Microsoft Cloud para el sector sanitario o suscripción a Microsoft Teams de conexión EHR independiente. <br> Los usuarios deben tener una licencia Microsoft 365 o Office 365 que incluya Teams reuniones*. <br> Las organizaciones deben tener la versión Cerner de noviembre de 2018 o posterior o la versión epic de noviembre de 2018 o posterior. <br>Detalles de [los requisitos de EHR de Cerner](ehr-admin-cerner.md#before-you-begin) [y Épico EHR](ehr-admin.md#before-you-begin) |
+| [Visitas virtuales con Microsoft Bookings y la aplicación Bookings](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Programe, administre y realice citas virtuales con los pacientes. Este escenario se basa en Microsoft Bookings para admitir las visitas virtuales. | Microsoft Bookings debe estar activado para la organización. <br> Todos los usuarios de la aplicación de Bookings y todo el personal que participe en las reuniones debe tener una licencia que admita la programación de reuniones de Teams. <br>[Detalles de los requisitos de Bookings](../../bookings-app-admin.md#prerequisites-to-use-the-bookings-app-in-teams)|
 | [Paquetes de directivas de Microsoft Teams](#teams-policy-packages)| Asegúrese de que los dispositivos del personal clínico, del personal de información y de las salas de pacientes tengan el acceso adecuado a la función de Teams.| Los usuarios deben tener una licencia adecuada*. |
 | [Mensajería segura](#secure-messaging) | Obtenga atención más rápida de los mensajes urgentes y tenga la seguridad de que los mensajes se reciben y se leen. | Los usuarios deben tener una licencia adecuada*.  |
 | [Plantillas de Teams](#teams-templates-for-healthcare-organizations) | Cree equipos que incluyan una plantilla predefinida de configuración, canales y aplicaciones preinstaladas para la comunicación y colaboración en una planta, sala o departamento, o entre varias plantas, salas o departamentos en un hospital. | Los usuarios deben tener una licencia adecuada*.  |
 | [Colaboración y coordinación de atención médica](#care-coordination-and-collaboration) | El personal de medicina clínica y el personal general pueden colaborar internamente en los horarios, documentos, tareas, etc.| Los usuarios deben tener una licencia adecuada*. |
 
-*Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3 y E5, Business Standard son compatibles. Para obtener más información sobre las licencias de Teams en general, consulte [Administrar el acceso del usuario a Teams](../../user-access.md).
+*Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3 y E5, Business Standard. Para obtener más información sobre las licencias de Teams en general, consulte [Administrar el acceso del usuario a Teams](../../user-access.md).
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>Visitas virtuales e integración de registros electrónicos de atención sanitaria (EHR)
 
-Use la plataforma de reuniones completas en Teams programar, administrar y realizar citas virtuales con los pacientes.
+Use la plataforma de reuniones completa en Teams programar, administrar y llevar a cabo citas virtuales con los pacientes.
 
-- Si su organización ya usa registros de estado electrónicos o EHR, puede integrar Teams para una experiencia más fluida. Teams de registro de salud electrónico (EHR) facilita que los médicos inicien una visita virtual a pacientes o consultas con otro proveedor en Teams directamente desde el sistema EHR. Para obtener más información, vea Visitas virtuales con Teams: integración en [ehr cerner](ehr-admin-cerner.md) y visitas virtuales con [Teams: integración en Épico EHR](ehr-admin.md).
+- Si su organización ya usa registros de estado electrónicos o EHR, puede integrar Teams una experiencia más fluida. Teams de registro de salud electrónico (EHR) facilita que los médicos inicien una visita virtual de pacientes o una consulta con otro proveedor en Teams directamente desde el sistema EHR. Para obtener más información, vea Visitas virtuales con Teams: integración en [cerner EHR](ehr-admin-cerner.md) y visitas virtuales con [Teams- Integración en Épico EHR](ehr-admin.md).
 - Si no usa una EHR admitida, puede usar Microsoft Bookings y la aplicación de Bookings en Teams. Para obtener más información, vea [Visitas virtuales con Teams y la aplicación Bookings](../bookings-virtual-visits.md).
 
 ![Visitas virtuales con Microsoft Teams.](../../media/virtual-visits-teams.png)
@@ -105,9 +105,9 @@ Se ha desarrollado nuevas plantillas para crear equipos para aplicar a hospitale
 
 Reúne a tu equipo de salud para coordinar la atención y colaborar con Teams.
 
-![Atención sanitaria: Colabore con su equipo de salud en Teams.](../../media/teams-healthcare-collaborate-in-teams.png)
+![Salud: Colabore con su equipo de salud en Teams.](../../media/teams-healthcare-collaborate-in-teams.png)
 
-Teams permite a médicos, médicos, enfermeras y otros docentes colaborar de forma eficiente con características de colaboración incluidas en Teams, como:
+Teams permite a los médicos, médicos, enfermeras y otros docentes colaborar de forma eficiente con características de colaboración incluidas en Teams, como:
 
 - Configurar equipos y canales para sus equipos sanitarios y personal de la información. Usar canales con pestañas para estructurar el trabajo, con la ayuda adicional que proporcionan pestañas en las que el personal puede anclar fuentes de información.
 - Chatear, publicar mensajes y comunicarse. Su equipo puede comunicarse constantemente sobre diferentes pacientes que necesitan atención.
