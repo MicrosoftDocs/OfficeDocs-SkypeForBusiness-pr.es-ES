@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d9c316c042230237089d57c23156cf6ac5284c6
-ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.openlocfilehash: 4520d34c62829e2db50cc18d0edcc6450a440f25
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63047200"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062754"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>Personalizar las aplicaciones Teams basadas en la licencia
 
@@ -42,7 +42,6 @@ Las aplicaciones se anclan a la barra de aplicaciones, que es la barra del lado 
 
 Aplicaciones ancladas para usuarios que tienen una licencia F:
 
-- Conexiones Viva
 - Actividad
 - Chat
 - Teams

@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: En este artículo se proporcionan instrucciones sobre cómo usar Teams dispositivos de paneles.
-ms.openlocfilehash: bd1a7a865d6e07cec47838a518d19523afef5134
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63050906"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062544"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Cómo usar Microsoft Teams paneles
 
@@ -204,7 +204,7 @@ En el panel Teams, inicie sesión con sus credenciales de administrador.
 
 La configuración de la versión de la sala y el check-in permiten a los usuarios realizar el check-in en una reunión en Teams Paneles en la sala que reservaron al principio de la reunión. Si un usuario no hace el check-in dentro de una cantidad de tiempo establecida después de la hora de inicio de la reunión, la sala se libera y está disponible para que otras personas puedan reservar.
 
-Cuando un panel Teams está emparejado con una sala de Microsoft Teams en Android, las notificaciones de check-in se pueden habilitar para que aparezcan en la pantalla del front0of-room cuando las reuniones se retrasan.
+Cuando Teams paneles está emparejado con una sala de Microsoft Teams en Android, las notificaciones de check-in se pueden habilitar para que aparezcan en la pantalla frontal de la sala cuando las reuniones se retrasan.
 
 Para habilitar la protección y la versión de la sala, vea Protección y [la versión de la sala en Microsoft Teams paneles](check-in-and-room-release.md).
 

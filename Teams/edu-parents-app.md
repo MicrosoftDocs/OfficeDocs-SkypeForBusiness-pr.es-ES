@@ -17,18 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af6433cb3e5ca0e1849322bdd128915e826e219b
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 8d1b84fc78558fcbb1945cbc56b311b5e06234a5
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63040068"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062534"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar la conexión principal en Microsoft Teams para Educación
 
 La conexión de padres en Teams para Educación ayuda a los profesores a conectarse e interactuar de forma segura con los padres y tutores de los alumnos en sus equipos de clase Teams mediante un chat, que se ampliará en toda la organización del educador. Todos los datos de padres y tutores se aprovisionan con School Data Sync, lo que permite al personal de IT configurar las cosas sin problemas.
 
-Una vez que los padres y tutores estén configurados, pueden chatear con los profesores de sus alumnos Teams chat. Para obtener instrucciones sobre cómo conectar a los padres y tutores con los educadores, [consulte Conectar con los educadores en Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+Una vez que los educadores y tutores estén configurados, pueden chatear entre ellos Teams chat. 
+
+Para obtener instrucciones sobre cómo conectar a los padres y tutores con los educadores, [consulte Conectar con los educadores en Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+
+Para obtener instrucciones sobre cómo configurar a los educadores para comunicarse con padres y tutores, vea Comunicarse con [tutores en Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
 
 Los padres también funcionan con el chat supervisado. Los padres y tutores no tendrán permisos completos de Teams, lo que significa que no pueden iniciar conversaciones con los alumnos ni quitar los usuarios con permisos completos (como los profesores) de los chats. Para obtener más información sobre el chat supervisado, vea [Usar chats supervisados en Microsoft Teams](supervise-chats-edu.md).
 
@@ -61,7 +65,7 @@ Los padres también funcionan con el chat supervisado. Los padres y tutores no t
 > [!NOTE]
 >Los padres y tutores se clasifican como usuarios externos en la característica Padres, lo que significa que no tienen derechos de inquilino completos. Solo tienen acceso al chat o chats a los que se agregan, así como a archivos, imágenes y otros contenidos compartidos en el chat.
 >
->Además, los usuarios externos pueden ver la presencia (sin conexión, disponible, ocupado, etc.) de los usuarios de su organización, pero esto se puede desactivar con PowerShell para proteger la privacidad de los usuarios. En PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration?view=skype-ps) y set ``EnablePrivacyMode=true``.
+>Además, los usuarios externos pueden ver la presencia (sin conexión, disponible, ocupado, etc.) de los usuarios de su organización, pero esto se puede desactivar con PowerShell para proteger la privacidad de los usuarios. En PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) y set ``EnablePrivacyMode=true``.
 >
 >Aunque los padres y tutores son usuarios externos, sus contribuciones a los chats son reconocibles. Obtenga información sobre cómo realizar una Teams de exhibición de documentos electrónicos mediante la lectura Llevar a cabo una investigación de exhibición de documentos electrónicos de contenido [en Microsoft Teams](ediscovery-investigation.md).
 
