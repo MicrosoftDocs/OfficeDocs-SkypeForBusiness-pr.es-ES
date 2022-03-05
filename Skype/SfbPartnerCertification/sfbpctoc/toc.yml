@@ -9,7 +9,7 @@
       items:
         - name: Teléfonos IP de Skype Empresarial
           href: ../certification/devices-ip-phones.md
-        - name: Teléfonos IP de Teams
+        - name: Dispositivos Android de Teams
           href: /microsoftteams/teams-ip-phones
         - name: Dispositivos de audio y vídeo USB
           href: ../certification/devices-usb-devices.md
