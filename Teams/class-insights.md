@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01fc283f8787ad659678b4e09ad3f573f34eb66d
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: e5e554672156f70556ebc18625115cd9a1ce8c58
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363036"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062694"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guía para administradores de TI de Insights para el ámbito educativo en Microsoft Teams
 
@@ -135,6 +135,7 @@ Actualmente, estos datos se recolectan de las siguientes áreas en los equipos d
 | **Reuniones** |    Asistencia (sin incluir el contenido de la reunión).|
 | **[Progreso de lectura](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |    Tasa de precisión, palabras más desafiantes y palabras por minuto.  |
 | **[Reflect](reflect.md)** |   Visitas (incluidos los valores).|
+| **Asesor profesional** | El alumno proporcionó una importante (campo de estudio) y un año escolar, actividad de los alumnos en la aplicación de asesor profesional que incluye: aptitudes, interés de aptitudes, intereses profesionales, intereses de aprendizaje y actividades relacionadas con la carrera profesional.|
 
 > [!NOTE]
 > La mayoría de los datos recolectados se mostrarán en Insights en unos minutos. La asistencia a las reuniones de clase (reuniones asociadas con uno de los canales de clase) aparecerá unas horas después del final de la reunión, normalmente hasta 24 horas después.
@@ -239,12 +240,24 @@ El uso de Insights *no* requiere el uso de SDS. Sin embargo, puede optar por des
 
 * Para volver a habilitarlo, siga las instrucciones de [Cómo implementar SDS para Insights](/schooldatasync/how-to-deploy-sds-for-insights).
 
-### <a name="how-to-delete-your-data"></a>Cómo eliminar sus datos
-Insights almacena las acciones de los alumnos y los formadores efectuadas en el contexto de un equipo de clase. Estos datos se consideran un conjunto de datos mezclados y, por lo tanto, no se eliminan automáticamente del servicio una vez que se eliminan las cuentas de usuario de los alumnos o formadores de su organización.
-Nota: la eliminación de los datos afecta la capacidad de Insights de analizar el compromiso del equipo de clase a lo largo del tiempo.
-* [Abra una incidencia de soporte técnico](https://aka.ms/edusupport). La incidencia de soporte técnico debe indicar claramente la solicitud de una operación RGPD para eliminar DSR y contener el ID. de objeto de usuario que se eliminará. No es posible limitar el conjunto de datos o la ventana de tiempo de la eliminación.
-*   Una vez que se archivó, la incidencia de soporte técnico permanece en cola por una semana para cumplir con la directiva de retención mínima. Tendrá la oportunidad de cancelar la operación durante este tiempo.
-*   Después de una semana, el equipo de Insights para el ámbito educativo se asegura de que todos los datos relacionados con el Id. de usuario se eliminen del servicio. El soporte técnico de Microsoft supervisa el vale y le notificará una vez que se haya completado el proceso de eliminación en un máximo de 28 días.
+### <a name="how-to-delete-user-data-from-education-insights"></a>Cómo eliminar datos de usuario de Información de Educación
+Ideas almacena las actividades de estudiantes y educadores realizadas en Microsoft Teams for Education.
+
+Hay dos tipos de datos recopilados por insights:
+* **Datos procedentes**: datos que se generan como parte de las actividades de aprendizaje de clase.
+* **Datos no entrantes (privados)**– datos recopilados por la actividad de los alumnos en Teams para el ámbito educativo que no forma parte de la actividad de aprendizaje de clase. 
+
+Los datos completos recopilados por insights se enumeran [aquí](class-insights.md#data-collection).
+
+Con el fin de proporcionar integridad e integridad de los datos de los períodos de tiempo pasados a los líderes educativos y educadores, Insights no elimina automáticamente los datos del servicio cuando se cierran las cuentas de usuario de un alumno o educador. El administrador de TI de la organización puede solicitar la eliminación manual de los datos de un usuario (formador o alumno) siguiendo estos pasos:
+* Abra una [incidencia de soporte técnico](https://aka.ms/edusupport). La incidencia de soporte técnico debe indicar claramente la solicitud de una operación RGPD para eliminar DSR y contener el ID. de objeto de usuario que se eliminará.
+No es posible limitar el conjunto de datos o la ventana de tiempo de la eliminación.
+* En la solicitud, el administrador de TI debe indicar claramente el tipo de datos que debe eliminarse para ese usuario, de entre las siguientes opciones:
+  - Todos los datos (entrantes y privados)
+  - Todos los datos privados 
+  - Solo datos de asesor profesional
+* Una vez que se archivó, la incidencia de soporte técnico permanece en cola por una semana para cumplir con la directiva de retención mínima. Tendrá la oportunidad de cancelar la operación durante este tiempo.
+* Después de una semana, el equipo de Education Insights garantiza que todos los datos relacionados con el identificador de usuario del tipo específico descrito anteriormente se eliminen del servicio. El soporte técnico de Microsoft supervisa la incidencia y le notificará una vez completado el proceso de eliminación, en un plazo máximo de 28 días.
 
 ## <a name="troubleshooting"></a>Solución de problemas
 ### <a name="why-doesnt-my-institution-see-any-data-in-insights"></a>¿Por qué mi institución no ve ningún dato en Insights?
