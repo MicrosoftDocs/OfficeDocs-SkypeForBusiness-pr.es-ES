@@ -1,8 +1,8 @@
 ---
 title: Administrar las aplicaciones en el centro Microsoft Teams administración
-author: KarliStites
-ms.author: kastites
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo administrar sus Teams aplicaciones
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 8e0c475eaf2186c13174d27687a5bd10c2fa1057
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: ad1dd28f4de0bc6db0ab7b2870a1cf7b2dae007a
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062554"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070229"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro Microsoft Teams administración
 
@@ -55,7 +55,7 @@ Puede ver todas las aplicaciones, incluida la siguiente información sobre cada 
 ![Captura de pantalla de la página de detalles de aplicaciones para una aplicación.](media/app-detail-page.jpg)
 
 - **Nombre**: el nombre de la aplicación. Seleccione el nombre de la aplicación para ir a la página de detalles de la aplicación para ver más información sobre la aplicación. Esto incluye una descripción de la aplicación, ya sea permitido o bloqueado, versión, directiva de privacidad, términos de uso, categorías que se aplican a la aplicación, estado de certificación, capacidades compatibles e id. de aplicación.
-- **Certificación**: Si la aplicación ha pasado por la certificación, verá Microsoft 365 **certificado** o **Publisher certificación**. Seleccione el vínculo para ver los detalles de certificación de la aplicación. Si ve "**--**", no tenemos información de certificación para la aplicación. Para obtener más información sobre las aplicaciones certificadas en Teams, Microsoft 365 [programa de certificación de aplicaciones](/microsoft-365-app-certification/overview).
+- **Certificación**: Si la aplicación ha pasado por la certificación, verá Microsoft 365 **certificado** o **Publisher certificación**. Seleccione el vínculo para ver los detalles de certificación de la aplicación. Si ve , `--`no tenemos información de certificación para la aplicación. Para obtener más información sobre las aplicaciones certificadas en Teams, Microsoft 365 [programa de certificación de aplicaciones](/microsoft-365-app-certification/overview).
 - **Publisher**: Nombre del editor.
 - **Estado de publicación**: Estado de publicación de aplicaciones personalizadas.
 - **Estado**: Estado de la aplicación en el nivel de organización, que puede ser uno de los siguientes:

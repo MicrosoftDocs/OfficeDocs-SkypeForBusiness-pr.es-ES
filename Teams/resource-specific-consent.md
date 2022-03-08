@@ -1,9 +1,9 @@
 ---
 title: Consentimiento específico de recursos en Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: nkramer
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e2c77e33165bedbb5302a1202f85906a64cea9a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 9e6e2f0e7827dab36645fec7105a9cbe0c439472
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400834"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070659"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Consentimiento específico de recursos en Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-El consentimiento específico de los recursos en Microsoft Teams permite a los propietarios del equipo dar su consentimiento a las aplicaciones para obtener acceso a los datos del equipo. Algunos ejemplos de este acceso son la capacidad de leer mensajes de canal, crear y eliminar canales, así como crear y quitar pestañas de canal.
+El consentimiento específico de los recursos en Microsoft Teams permite a los propietarios de equipos dar su consentimiento a las aplicaciones para obtener acceso a los datos del equipo. Algunos ejemplos de este acceso son la capacidad de leer mensajes de canal, crear y eliminar canales, así como crear y quitar pestañas de canal.
 
 Como administrador, puede controlar si los propietarios de equipos de su organización pueden dar su consentimiento a través de la configuración que configure mediante el módulo de PowerShell de Azure Active Directory (Azure AD) o azure portal y el centro de administración de Microsoft Teams.  
 
@@ -63,7 +63,7 @@ Además de la configuración en [Azure AD, la](manage-apps.md#manage-org-wide-ap
 
 Esta configuración de aplicación para toda la organización controla si los usuarios de su organización pueden usar aplicaciones de terceros. Esta configuración debe estar activa para permitir que los propietarios de equipos den su consentimiento. Para administrar esta configuración, haga lo siguiente:
 
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya **a Teams aplicaciones** >  **de** administración y, a continuación, haga clic en Configuración de la aplicación para toda **la organización**.
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams **aplicaciones** >  **de** administración y, a continuación, haga clic en Configuración de la aplicación para toda **la organización**.
 2. En **Aplicaciones de terceros**, desactiva o activa Permitir **aplicaciones de terceros**.
 
     ![Captura de pantalla de la configuración "Permitir aplicaciones de terceros Teams"](media/resource-specific-consent-org-wide-setting.png)
@@ -91,7 +91,7 @@ Los propietarios de equipos solo pueden dar consentimiento a las aplicaciones qu
 
 ## <a name="uploading-custom-apps"></a>Cargar aplicaciones personalizadas
 
-Al cargar una aplicación personalizada (también conocida como sideloading) que usa el consentimiento específico de los recursos, la aplicación debe venir del inquilino en el que se está instalando. En otras palabras, el Azure AD de la aplicación debe ser de este espacio empresarial. Los administradores globales están exentos de esta restricción y pueden cargar aplicaciones personalizadas desde cualquier espacio empresarial, ya sea directamente a un equipo (carga lateral) o al catálogo de aplicaciones de inquilino.
+Al cargar una aplicación personalizada (también conocida como sideloading) que usa el consentimiento específico de los recursos, la aplicación debe venir del inquilino en el que se está instalando. En otras palabras, el Azure AD de la aplicación debe ser de este inquilino. Los administradores globales están exentos de esta restricción y pueden cargar aplicaciones personalizadas desde cualquier espacio empresarial, ya sea directamente a un equipo (carga lateral) o al catálogo de aplicaciones de inquilino.
 
 ## <a name="related-topics"></a>Temas relacionados
 

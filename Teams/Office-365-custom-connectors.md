@@ -1,8 +1,8 @@
 ---
 title: Usar Microsoft 365 y conectores personalizados
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Los conectores mantienen su equipo al día haciendo llegar contenid
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e3cc7bcd060caf737b23193e006dad20e316eec7
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 39bc677b57a0cec5381c0d8f05b33d18b072769f
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011774"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070729"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Use Microsoft 365 y conectores personalizados en Microsoft Teams 
 
@@ -30,16 +30,16 @@ Los conectores mantienen al equipo actualizado al ofrecer actualizaciones de ser
 
 Cualquier miembro de un equipo puede conectar su equipo a los servicios en la nube populares con los conectores si los permisos del equipo lo permiten y se notifica a todos los miembros del equipo de las actividades de ese servicio. Los conectores seguirán funcionando incluso después de que el miembro que haya configurado inicialmente el conector se haya ido. Cualquier miembro del equipo con los permisos para agregar o quitar puede modificar los conectores configurados por otros miembros.
 
-Microsoft 365 conectores se pueden usar con grupos Microsoft Teams y Microsoft 365, lo que facilita que todos los miembros se sincronicen y reciban información relevante rápidamente. Tanto Microsoft Teams como Exchange el mismo modelo de conector, lo que le permite usar los mismos conectores en ambas plataformas. Sin embargo, vale la pena señalar que deshabilitar los conectores para el grupo de Microsoft 365 del que depende un equipo también deshabilitará la capacidad de crear conectores para ese equipo.
+Microsoft 365 conectores se pueden usar con grupos Microsoft Teams y Microsoft 365, lo que facilita que todos los miembros permanezcan sincronizados y reciban información relevante rápidamente. Tanto Microsoft Teams como Exchange el mismo modelo de conector, lo que le permite usar los mismos conectores en ambas plataformas. Sin embargo, vale la pena señalar que deshabilitar los conectores para el grupo de Microsoft 365 del que depende un equipo también deshabilitará la capacidad de crear conectores para ese equipo.
 
 > [!NOTE]
-> Los conectores están deshabilitados de forma predeterminada en los entornos de Community (GCC) gubernamentales. Si necesita habilitarlos, establezca los parámetros ConnectorsEnabled o ConnectorsEnabledForTeams en $true con el cmdlet SetOrganizationConfig. Debe conectarse a la [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps).
+> Los conectores están deshabilitados de forma predeterminada en los entornos de Community (GCC) gubernamentales. Si necesita habilitarlos, establezca los parámetros ConnectorsEnabled o ConnectorsEnabledForTeams en $true con el cmdlet SetOrganizationConfig. Debe conectarse a la Exchange Online [PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps).
 
 ## <a name="add-a-connector-to-a-channel"></a>Agregar un conector a un canal
 
 Actualmente, puede agregar conectores mediante Microsoft Teams de escritorio y web. Sin embargo, la información publicada por estos conectores se puede ver en **todos los clientes,** incluido el móvil.
 
-1. Para agregar un conector a un canal, haga clic en los **puntos suspensivos (...),** a la derecha del nombre de un canal y, a continuación, haga clic **en Conectores.**
+1. Para agregar un conector a un canal, haga clic en los **puntos suspensivos (...),** a la derecha del nombre de un canal y, a continuación, haga clic **en Conectores**.
 
     > [!div class="mx-imgBorder"]
     > ![Captura de pantalla de Teams interfaz con la opción Conectores seleccionada.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Sudáfrica.
-ms.openlocfilehash: cccc1b801b2627ecb93eafd38b0ab944baac91aa
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 7c56d5bb6fd8ee3449b110b21b00000eda9dac55
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190821"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070579"
 ---
 # <a name="availability-in-south-africa"></a>Disponibilidad en Sudáfrica
 
@@ -59,9 +59,10 @@ Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Team
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los planes de llamada están disponibles para la compra?  <br/> |No  <br/> |
-|Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
-|¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
+|¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
+|Minutos disponibles para planes de llamadas. |Hay cuatro opciones de planes disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 1200 minutos </li></li><li>Plan de llamadas nacionales e internacionales: 1200 minutos de llamadas nacionales -O- 600 minutos de llamadas internacionales (lo que se alcance primero en el mes calendario)</li></li></ul>|
+|¿Se pueden realizar llamadas a números premium?  <br/> | No se admite en este momento. <br/> |
+|¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países o regiones, [incluidos estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 
 Si los planes de llamadas no están disponibles para la compra, consulte [Opciones de conectividad RTC](../pstn-connectivity.md) para todas las opciones disponibles.
    

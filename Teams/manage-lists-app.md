@@ -1,31 +1,36 @@
 ---
 title: Administrar la aplicación Lists para su organización
-author: SerdarSoysal
-ms.author: serdars
-ms.reviewer: 'anach,v-jasuk'
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+ms.reviewer: anach,v-jasuk
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
-  - Microsoft Cloud for Retail
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: Obtenga más información sobre cómo administrar la aplicación Lists en Teams para los usuarios de su organización.
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - M365-collaboration
-  - microsoftcloud-healthcare
-  - microsoftcloud-retail
-  - m365initiative-lists
+- M365-collaboration
+- microsoftcloud-healthcare
+- microsoftcloud-retail
+- m365initiative-lists
 appliesto:
-  - Microsoft Teams
-ms.custom: null
+- Microsoft Teams
+ms.custom: ''
+ms.openlocfilehash: 1028a1e5826a2519de83d8dc73b7d2f55282ca4b
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070616"
 ---
-
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Lists para su organización en Microsoft Teams
 
 ## <a name="overview-of-lists"></a>Información general de Lists
@@ -102,7 +107,7 @@ Para permitir o impedir que usuarios específicos de la organización puedan usa
 
 ## <a name="search-the-audit-log-for-list-events"></a>Buscar eventos en el registro de auditoría
 
-Las listas están habilitadas con auditoría de nivel empresarial para que pueda buscar listas y eventos de elementos de lista en el registro de auditoría en el Centro de cumplimiento de & seguridad. Para obtener más información, vea [Buscar en el registro de auditoría del Centro de seguridad y cumplimiento](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Las listas están habilitadas con auditoría de nivel empresarial para que pueda buscar listas y eventos de elementos de lista en el registro de auditoría en el Centro de & cumplimiento. Para obtener más información, vea [Buscar en el registro de auditoría del Centro de seguridad y cumplimiento](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 Para obtener una lista de eventos de auditoría relevantes para la aplicación Lists en Teams, vea [actividades de lista de SharePoint](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
 

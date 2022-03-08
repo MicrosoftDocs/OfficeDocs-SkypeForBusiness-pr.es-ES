@@ -1,28 +1,33 @@
 ---
 title: Personalizar aplicaciones en Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_Help
+- M365-collaboration
+- Teams_ITAdmin_Help
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo personalizar aplicaciones en Microsoft Teams.
+ms.openlocfilehash: 7fb940ed512c96bd4aa4519bcdabbf9adcbe86a8
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070429"
 ---
-
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicaciones en Microsoft Teams
 
- Microsoft Teams personalización de aplicaciones para mejorar Teams experiencia. Algunos desarrolladores de aplicaciones permiten que el administrador de aplicaciones personalizó una aplicación Teams aplicación. El administrador puede personalizar o cambiar el nombre de las propiedades de la aplicación en función de las necesidades de la organización con la Teams administrar aplicaciones **del Centro de** administración. Los detalles que puede personalizar son:
+ Microsoft Teams personalización de aplicaciones para mejorar Teams experiencia. Algunos desarrolladores de aplicaciones permiten que el Teams personalización de una aplicación. El administrador puede personalizar o cambiar el nombre de las propiedades de la aplicación en función de las necesidades de la organización con la Teams administrar **aplicaciones del Centro de** administración. Los detalles que puede personalizar son:
 
 - Nombre corto
 - Descripción breve
@@ -37,7 +42,7 @@ description: Obtenga información sobre cómo personalizar aplicaciones en Micro
 Vea el [Teams de manifiesto para](/microsoftteams/platform/resources/schema/manifest-schema) obtener más información sobre los campos que puede personalizar.
 
 > [!NOTE]
-> La personalización de aplicaciones no es compatible con Government Community Cloud High (GCCH) o department of defense (DoD) en este momento.
+> La personalización de aplicaciones no es compatible con Government Community Cloud High (GCCH) o el Departamento de Defensa (DoD) en este momento.
 > Actualmente, esta característica no está disponible para las aplicaciones Microsoft Teams carga lateral.
 
 ## <a name="customize-the-apps-details"></a>Personalizar los detalles de la aplicación
@@ -109,7 +114,7 @@ La siguiente nota incluye detalles importantes sobre cómo personalizar una apli
 > - Los datos de personalización proporcionados por el administrador se almacenan en la región más cercana.
 > - Usted es responsable de garantizar que los vínculos a términos de uso o a la política de privacidad sean válidos.
 > - En caso de que el editor de aplicaciones ya no permita que se pueda personalizar un campo, aparecerá un mensaje en la página de detalles de la aplicación en el que se notificará al administrador sobre los campos que ya no se pueden personalizar. Todos los cambios realizados en ese campo se revertirán a los valores originales.
-> - Se recomienda probar los cambios de personalización de aplicaciones Teams inquilino de prueba antes de realizar estos cambios en el entorno de producción.
+> - Se recomienda probar los cambios de personalización de aplicaciones en Teams inquilino de prueba antes de realizar estos cambios en el entorno de producción.
 > - Los cambios en la personal de marca pueden requerir hasta 24 horas para que los usuarios vean los cambios.
 
 ## <a name="review-app-details"></a>Revisar detalles de la aplicación

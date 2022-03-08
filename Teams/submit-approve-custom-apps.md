@@ -1,8 +1,8 @@
 ---
 title: Usar la API Teams de envío de aplicaciones para enviar y aprobar las aplicaciones personalizadas
-author: KarliStites
-ms.author: kastites
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -16,13 +16,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre cómo aprobar las aplicaciones personalizadas que se envían con Teams API de envío de aplicaciones en Microsoft Teams.
-ms.openlocfilehash: 17741733f506aefd6fd85f1b821d144961af6158
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+description: Obtenga información sobre cómo aprobar las aplicaciones personalizadas que se envían con la API Teams envío de aplicaciones en Microsoft Teams.
+ms.openlocfilehash: a1b6778c79fd389ebfd4b3ce172daa186e92b76e
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312243"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070409"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar una aplicación personalizada enviada a través de la API Teams de envío de aplicaciones
 
@@ -46,21 +46,21 @@ Esta guía se centra en los Teams de la aplicación y está destinada a administ
 
 ### <a name="create-the-app"></a>Crear la aplicación
 
-La Microsoft Teams de desarrolladores facilita a los desarrolladores integrar sus propias aplicaciones y servicios para mejorar la productividad, tomar decisiones más rápidamente y crear colaboración en torno al contenido y flujos de trabajo existentes. Las aplicaciones integradas en la plataforma Teams son puentes entre el cliente Teams y sus servicios y flujos de trabajo, lo que las lleva directamente al contexto de su plataforma de colaboración. Para obtener más información, vaya a la [Teams de desarrolladores](/microsoftteams/platform).
+La Microsoft Teams de desarrolladores facilita a los desarrolladores la integración de sus propias aplicaciones y servicios para mejorar la productividad, tomar decisiones más rápidamente y crear colaboración en torno al contenido y flujos de trabajo existentes. Las aplicaciones integradas en Teams plataforma son puentes entre el cliente Teams y sus servicios y flujos de trabajo, lo que las lleva directamente al contexto de su plataforma de colaboración. Para obtener más información, vaya a la Teams [del desarrollador](/microsoftteams/platform).
 
 ### <a name="submit-the-app"></a>Enviar la aplicación
 
-Cuando la aplicación esté lista para su uso en producción, el desarrollador puede enviar la aplicación mediante la API de envío de aplicaciones de Teams [Graph, que](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog) se puede llamar desde una API, un entorno de desarrollo integrado (IDE) como Visual Studio Code o una plataforma como Power Apps y Power Virtual Agents. Al hacerlo, la aplicación está disponible en [](/microsoftteams/manage-apps) la página Administrar aplicaciones del centro de administración de Microsoft Teams, donde puede revisarla y aprobarla.
+Cuando la aplicación esté lista para su uso en producción, el desarrollador puede enviar la aplicación mediante la API de envío de aplicaciones de Teams Graph, que se puede llamar desde una [API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog), un entorno de desarrollo integrado (IDE) como Visual Studio Code o una plataforma como Power Apps y Power Virtual Agents. Al hacerlo, la aplicación está disponible en [](/microsoftteams/manage-apps) la página Administrar aplicaciones del centro de administración de Microsoft Teams, donde puede revisarla y aprobarla.
 
 La API de envío de aplicaciones de Teams, integrada en [Microsoft Graph](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog), permite que su organización se desarrolle en la plataforma que prefiera y automatiza el proceso de envío a aprobación para aplicaciones personalizadas en Teams.
 
-Este es un ejemplo de la apariencia de este paso de envío de aplicaciones en Visual Studio Code:
+Este es un ejemplo del aspecto que tiene este paso de envío de aplicaciones en Visual Studio Code:
 
 ![enviar una aplicación en Visual Studio Code.](media/custom-app-lifecycle-submit-app.png)
 
 Tenga en cuenta que esto todavía no publica la aplicación en la tienda de aplicaciones de su organización. Este paso envía la aplicación al centro de administración de Microsoft Teams donde puede aprobarla para su publicación en la tienda de aplicaciones de su organización.
 
-Para obtener más información sobre cómo usar Graph API para enviar aplicaciones, vea [aquí](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog).
+Para obtener más información sobre cómo usar la API Graph para enviar aplicaciones, vea [aquí](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog).
 
 ## <a name="notify"></a>Notificar
 
@@ -85,11 +85,11 @@ También puede configurar las notificaciones en un webhook externo especificando
 
 ![Notificación de envío de aplicaciones.](media/app-submission-notification.png)
 
-Después de configurar la regla de envíos de aplicaciones, puede revisar las tarjetas de notificación en el canal especificado para ver los detalles  de la aplicación y seleccionar Ver detalles para abrir aplicaciones en el centro de Teams administración.
+Después de configurar la regla de envíos de aplicaciones, puede revisar las tarjetas de notificación en el canal especificado para ver los detalles  de la aplicación y seleccionar Ver detalles para abrir aplicaciones en el centro de administración de Teams.
 
 ## <a name="validate"></a>Validar
 
-La página Administrar [aplicaciones](/microsoftteams/manage-apps) del Centro de administración de Microsoft Teams (en el panel de navegación izquierdo, vaya [**Teams aplicaciones** >  **De**](https://admin.teams.microsoft.com/manage-apps) administración de aplicaciones), le ofrece una vista de todas las Teams aplicaciones de su organización. El **widget De aprobación** pendiente en la parte superior de la página le permite saber cuándo se envía una aplicación personalizada para su aprobación.
+La [página Administrar aplicaciones](/microsoftteams/manage-apps) del centro de administración de Microsoft Teams (en el panel de navegación izquierdo, vaya [**Teams aplicaciones** >  **De**](https://admin.teams.microsoft.com/manage-apps) administración de aplicaciones), le ofrece una vista de todas las Teams de su organización. El **widget De aprobación** pendiente en la parte superior de la página le permite saber cuándo se envía una aplicación personalizada para su aprobación.
 
 En la tabla, una aplicación recién enviada muestra automáticamente un estado **de** publicación de **Enviado** y **Estado** de **bloqueado**. Puede ordenar la **columna Estado de publicación** en orden descendente para buscar rápidamente la aplicación.
 
@@ -140,7 +140,7 @@ Si creó y asignó una directiva de configuración de aplicaciones, la aplicaci�
 
 Para actualizar una aplicación, los desarrolladores deben seguir los pasos de la [sección](#develop) Desarrollar.
 
-Cuando el desarrollador envíe una actualización a una aplicación personalizada publicada, se le notificará en **el widget De** aprobación pendiente de la [página](/microsoftteams/manage-apps) Administrar aplicaciones. En la tabla, el **estado de publicación** de la aplicación se establecerá en **Actualizar enviado**. También se le notificará en el equipo **alertas** y notificaciones de administrador en el canal de  envío de aplicaciones si ha activado las notificaciones de envío de aplicaciones. La tarjeta de notificación tendrá un vínculo para que te lleve directamente a la aplicación en el Teams de administración. Para obtener más información sobre cómo activar las notificaciones de envío de aplicaciones, vea [Notificar](#notify).
+Cuando el desarrollador envíe una actualización a una aplicación personalizada publicada, se le notificará en **el widget De** aprobación pendiente de la [página](/microsoftteams/manage-apps) Administrar aplicaciones. En la tabla, el **estado de publicación** de la aplicación se establecerá en **Actualizar enviado**. También se le notificará en el equipo **alertas** y notificaciones de administrador en el canal de  envío de aplicaciones si ha activado las notificaciones de envío de aplicaciones. La tarjeta de notificación tendrá un vínculo para llevarte directamente a la aplicación en el Teams de administración. Para obtener más información sobre cómo activar las notificaciones de envío de aplicaciones, vea [Notificar](#notify).
 
 ![Página Administrar aplicaciones que muestra las solicitudes pendientes y el estado de la aplicación.](media/custom-app-lifecycle-update-submitted.png)
 
@@ -159,7 +159,7 @@ Tenga en cuenta lo siguiente:
 - Cuando se aprueba una aplicación, cualquiera puede enviar una actualización a la aplicación. Esto significa que otros desarrolladores, incluido el desarrollador que envió originalmente la aplicación, pueden enviar una actualización a la aplicación.
 - Cuando un desarrollador envía una aplicación y la solicitud está pendiente, solo ese mismo desarrollador puede enviar una actualización a la aplicación. Otros desarrolladores pueden enviar una actualización solo después de aprobar la aplicación.
 
-Para obtener más información sobre cómo usar la API Graph para actualizar aplicaciones, vea <a href="/graph/api/teamsapp-update">aquí</a>.
+Para obtener más información sobre el uso de la API Graph para actualizar aplicaciones, vea <a href="/graph/api/teamsapp-update">aquí</a>.
 
 ## <a name="related-topics"></a>Temas relacionados
 
@@ -169,4 +169,4 @@ Para obtener más información sobre cómo usar la API Graph para actualizar apl
 - [Administrar directivas de permisos de aplicación en Teams](teams-app-permission-policies.md)
 - [Administrar directivas de configuración de aplicación en Teams](teams-app-setup-policies.md)
 - [Teams y alertas](alerts/teams-admin-alerts.md)
-- <a href="/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">API Graph Microsoft para Teams aplicaciones</a>
+- <a href="/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">API de Graph microsoft para Teams aplicaciones</a>

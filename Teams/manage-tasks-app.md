@@ -1,28 +1,33 @@
 ---
 title: Administrar la aplicación Tasks para su organización en Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
-  - Microsoft Cloud for Retail
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 audience: admin
 description: Obtenga información sobre cómo administrar la aplicación Tasks para los usuarios de su organización.
 ms.localizationpriority: medium
 MS.collection:
-  - Teams_ITAdmin_Help
-  - M365-collaboration
-  - microsoftcloud-healthcare
-  - microsoftcloud-retail
+- Teams_ITAdmin_Help
+- M365-collaboration
+- microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 2ad0324509849700ea74afe582d4ce7a4934dc3e
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070599"
 ---
-
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Tasks para su organización en Microsoft Teams
 
 ## <a name="overview-of-tasks"></a>Información general de Tasks
@@ -72,7 +77,7 @@ Para permitir o impedir que usuarios específicos de la organización puedan usa
 
 ### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Usar una directiva de configuración de aplicación para anclar Tasks a Teams
 
-Las directivas de configuración de aplicaciones le permiten personalizar Teams para resaltar las aplicaciones que sean más importantes para los usuarios de su organización. Las aplicaciones que establezca en una directiva se anclan Teams la barra de aplicaciones (la barra del lado del cliente de escritorio de Teams y en la parte inferior de los clientes móviles de Teams), donde los usuarios pueden acceder a ellas de forma rápida y sencilla.
+Las directivas de configuración de aplicaciones le permiten personalizar Teams para resaltar las aplicaciones que sean más importantes para los usuarios de su organización. Las aplicaciones que establezca en una directiva se anclan a la barra de aplicaciones(la barra situada en el lado del cliente de escritorio de Teams y en la parte inferior de los clientes móviles de Teams), donde los usuarios pueden acceder a ellas de forma rápida y sencilla.
 
 Para anclar la aplicación Tasks para sus usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva de configuración de aplicación personalizada. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
 

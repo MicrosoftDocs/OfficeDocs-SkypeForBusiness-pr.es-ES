@@ -1,9 +1,9 @@
 ---
 title: Aprobaciones de disponibilidad de aplicaciones en Teams
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: farhazk
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea3da24dc0fa3a64d90b38a67b13be0fa4d041ce
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62421553"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070439"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 
@@ -41,7 +41,7 @@ La primera aprobación creada a partir de la aplicación Aprobaciones desencaden
 En este artículo se describen los roles y requisitos de la aplicación Aprobaciones.
 
 > [!NOTE]
-> Esta característica aún no se ha publicado para los Government Community Cloud high (GCCH) y el Departamento de Defensa (DOD).
+> Esta característica aún no se ha publicado para Government Community Cloud high (GCCH) y los usuarios del Departamento de Defensa (DOD).
 
 ## <a name="required-permissions-and-licenses"></a>Permisos y licencias necesarios
 
@@ -57,7 +57,7 @@ Para implementar la aplicación Aprobaciones, necesita permiso para los siguient
 
 - La licencia de Microsoft Forms es necesaria para que los usuarios configuren nuevas plantillas de aprobación.
 
-Para usar la aplicación Aprobaciones, necesita una licencia para Power Automate y su cuenta se agregará automáticamente al rol usuario de aprobaciones en el entorno de destino en la primera asignación de aprobación.
+Para usar la aplicación Aprobaciones, necesita una licencia para Power Automate y su cuenta se agregará automáticamente al rol Usuario de aprobaciones en el entorno de destino en la primera asignación de aprobación.
 
 ## <a name="storage-with-cds"></a>Almacenamiento con CDS
 
@@ -99,10 +99,10 @@ Permisos de plantilla de aprobación
 
 - Todos los propietarios de equipos pueden crear una plantilla de aprobación para los equipos de su propiedad.
 
-- Cuando un administrador crea una plantilla para toda la organización por primera vez, creará automáticamente un nuevo grupo de Azure Active Directory (AAD) para todos los administradores del inquilino, incluidos los administradores de servicios globales y Teams. Estos administradores se agregarán como propietarios del grupo, para que puedan administrar en coadministraciones las plantillas de la organización. Los administradores que son nuevos en la organización después de crear el equipo deben agregarse manualmente como propietarios de grupos para que tengan los mismos permisos para administrar plantillas de toda la organización.
+- Cuando un administrador crea una plantilla para toda la organización por primera vez, creará automáticamente un nuevo grupo de Azure Active Directory (AAD) para todos los administradores del espacio empresarial, incluidos los administradores de servicios globales y Teams. Estos administradores se agregarán como propietarios del grupo, para que puedan administrar en coadministraciones las plantillas de la organización. Los administradores que son nuevos en la organización después de crear el equipo deben agregarse manualmente como propietarios de grupos para que tengan los mismos permisos para administrar plantillas de toda la organización.
 
 > [!Note]
-> Si un administrador elimina el grupo, tiene un mes para restaurarlo en el portal Azure Active Directory (AAD) para restaurar todos los datos relacionados. Después de un mes, o si el administrador elimina este grupo dentro de la papelera de reciclaje, perderá todos los datos relacionados.
+> Si un administrador elimina el grupo, tiene un mes para restaurarlo dentro del portal Azure Active Directory (AAD) para restaurar todos los datos relacionados. Después de un mes, o si el administrador elimina este grupo dentro de la papelera de reciclaje, perderá todos los datos relacionados.
 
 ## <a name="disable-the-approvals-app"></a>Administrar la aplicación Aprobaciones
 
@@ -110,7 +110,7 @@ La aplicación Aprobaciones está disponible de forma predeterminada. Puede desh
 
   1. Inicie la sesión en el Centro de administración de Teams
 
-  2. Vaya a **Teams** **aplicacionesManage** >  aplicaciones.
+  2. Vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**.
 
   3. Busque la aplicación Aprobaciones.
 
@@ -200,7 +200,7 @@ Desde la aplicación Aprobaciones de Teams, los usuarios tienen acceso para crea
 Para usar la característica de firma electrónica de la aplicación Aprobaciones, necesita una licencia para el proveedor de firma electrónico específico que desea usar. Para obtener una licencia para su organización, tendrá que ir al sitio del proveedor.
 ### <a name="enable-or-disable-e-signature-providers"></a>Habilitar o deshabilitar proveedores de firma electrónica
 
-Puede usar el centro de Teams para controlar qué proveedores de firma electrónica de terceros están disponibles para los usuarios en la aplicación Aprobaciones. De forma predeterminada, los proveedores de firma electrónica están habilitados en la aplicación Aprobaciones. Al deshabilitar un proveedor de firma electrónica, los usuarios no tendrán acceso a ese proveedor cuando creen aprobaciones. Los usuarios tampoco podrán ver las solicitudes de firma electrónica creadas con ese proveedor.
+Puede usar el centro Teams administración para controlar qué proveedores de firma electrónica de terceros están disponibles para los usuarios en la aplicación Aprobaciones. De forma predeterminada, los proveedores de firma electrónica están habilitados en la aplicación Aprobaciones. Al deshabilitar un proveedor de firma electrónica, los usuarios no tendrán acceso a ese proveedor cuando creen aprobaciones. Los usuarios tampoco podrán ver las solicitudes de firma electrónica creadas con ese proveedor.
 
 1. En el panel de navegación izquierdo del Teams de administración, vaya a Teams **aplicaciones** >  **de administración**.
 2. Busque la aplicación Aprobaciones y selecciónelo.

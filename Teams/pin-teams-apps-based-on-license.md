@@ -1,9 +1,9 @@
 ---
 title: Personalizar las aplicaciones Teams basadas en la licencia
-author: lanachin
-ms.author: v-lanachin
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: aaglick
-manager: samanro
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34614a6c1b45ea9660552b77b7c91d87e5c30d5f
-ms.sourcegitcommit: 2d4dab7a6436e53db9475d67695504753896ca86
+ms.openlocfilehash: 97da80a0bb02c18c3270d547dd0c0753a207dc8c
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "63065248"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070739"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>Personalizar las aplicaciones Teams basadas en la licencia
 

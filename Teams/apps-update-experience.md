@@ -1,8 +1,8 @@
 ---
 title: Experiencia de actualización de aplicaciones en Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo actualizar aplicaciones en Microsoft Teams.
-ms.openlocfilehash: feb1cdf7c8b528b7d773978375d1d16a20fae631
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: aaba298f928e88ad38b862e533cd98bb5aae690f
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850593"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070239"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Actualizar aplicaciones en Microsoft Teams
 

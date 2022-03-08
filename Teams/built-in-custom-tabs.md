@@ -1,8 +1,8 @@
 ---
 title: Usar fichas integradas y personalizadas en Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
@@ -16,18 +16,18 @@ search.appverid: MET150
 description: Aprenda a usar fichas integradas y personalizadas para incluir características como conversaciones, archivos, mapas y mucho más.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf48eef40ec71d1ca661b98ce6f6c842fe636942
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fe954d5f6ec08e13db666e94c3dd7cc3d9121e61
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727179"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070249"
 ---
 # <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar fichas integradas y personalizadas en Microsoft Teams
 
 Las pestañas permiten a los miembros del equipo acceder a servicios y contenido en un espacio dedicado dentro de un canal o en un chat. Esto permite al equipo trabajar directamente con herramientas y datos, y mantener conversaciones sobre las herramientas y los datos, todo dentro del contexto del canal o chat.
 
-Los propietarios y los miembros del equipo pueden agregar pestañas adicionales a cada canal para integrar mejor sus servicios en la nube. Se pueden agregar pestañas para ayudar a los usuarios a obtener acceso y administrar fácilmente los datos que necesitan o con los que más interactúan. Puede ser un informe Power BI, un panel o incluso un canal de vídeo de [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) donde publique vídeos de aprendizaje.
+Los propietarios y los miembros del equipo pueden agregar pestañas adicionales a cada canal para integrar mejor sus servicios en la nube. Se pueden agregar pestañas para ayudar a los usuarios a obtener acceso y administrar fácilmente los datos que necesitan o con los que más interactúan. Puede ser un informe Power BI, un panel o incluso un canal de vídeo de [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) en el que publique vídeos de aprendizaje.
 
 ![Tres capturas de pantalla con contenido diverso en las fichas.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
@@ -43,9 +43,9 @@ Los propietarios y los miembros del equipo pueden agregar pestañas adicionales 
 
     ![Captura de pantalla de las pestañas de un chat.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- Los propietarios y los miembros del equipo pueden  agregar más pestañas a un canal o chat haciendo clic en Agregar una pestaña Captura de pantalla del botón Agregar una pestaña, que muestra ![ un signo +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) en la parte superior del canal o chat.
+- Los propietarios y los miembros del equipo pueden agregar más pestañas a un canal  o chat ![haciendo clic en Agregar una pestaña Captura de pantalla del botón Agregar una pestaña, que muestra un signo +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) en la parte superior del canal o chat.
 
-- Excel, PowerPoint, Word y ARCHIVOS PDF deben cargarse en  la pestaña Archivos antes de que se puedan convertir en pestañas. Cualquier archivo cargado existente se puede convertir en una pestaña con un solo clic, como se muestra a continuación.
+- Excel, PowerPoint, Word y archivos PDF deben cargarse en la pestaña Archivos antes de que se puedan  convertir en pestañas. Cualquier archivo cargado existente se puede convertir en una pestaña con un solo clic, como se muestra a continuación.
 
     ![Captura de pantalla de la ficha Archivos con un archivo de PowerPoint seleccionado.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 

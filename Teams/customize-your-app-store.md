@@ -1,8 +1,8 @@
 ---
 title: Tienda de aplicaciones personalizadas
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: prem
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,14 +18,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre la tienda de aplicaciones personalizadas en Microsoft Teams.
-ms.openlocfilehash: cabfc148edb793ac40b49950b3b92676a0c80bfa
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: f98b91c8a700bfc8ebb560930862e66b38a35a0e
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62399504"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070389"
 ---
-# <a name="custom-apps-store-in-microsoft-teams"></a>Las aplicaciones personalizadas se almacenan en Microsoft Teams
+# <a name="custom-apps-store-in-microsoft-teams"></a>Tienda de aplicaciones personalizadas en Microsoft Teams
 
 Ahora puede personalizar la tienda de aplicaciones de su organización en Teams con la personalización de marca de su empresa agregando su logotipo, fondos personalizados y colores de texto personalizados para que sea más atractivo para los usuarios finales.
 
@@ -44,7 +44,7 @@ En este artículo se describen las características de la tienda de aplicaciones
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Aquí puede cargar el logotipo de su organización. El logotipo seleccionado aparecerá en el cliente Teams en **AppsBuilt** >  **para la página de inquilino**.
+Aquí puede cargar el logotipo de su organización. El logotipo seleccionado aparecerá en el Teams en **AppsBuilt** >  **para la página de inquilino**.
 
 Al seleccionar la **opción Elegir una imagen** , puede cargar el archivo que prefiera. El logotipo debe ser 240x60, o se escalará a ese tamaño. No debe tener más de 5 MB. Los formatos admitidos son:
 
@@ -52,7 +52,7 @@ Al seleccionar la **opción Elegir una imagen** , puede cargar el archivo que pr
 - .png
 - .jpg
 
-El logotipo se muestra en la esquina superior derecha del catálogo de aplicaciones de inquilino en la Teams tienda.
+El logotipo se muestra en la esquina superior derecha del catálogo de aplicaciones de inquilino en la Teams inquilino.
 
 ## <a name="customize-your-small-logo"></a>Personalizar el logotipo pequeño
 
@@ -68,7 +68,7 @@ Al seleccionar la **opción Elegir una imagen** , puede cargar el archivo que pr
 - .png
 - .jpg
 
-El pequeño logotipo se muestra junto al título  de la sección Integrado para inquilinos en la Teams de inicio de la tienda.
+El pequeño logotipo se muestra junto al título **de** la sección Integrado para inquilinos en la Teams de inicio de la tienda.
 
 ## <a name="customize-the-background-color"></a>Personalizar el color de fondo
 
@@ -87,7 +87,7 @@ Tiene las siguientes opciones:
   - .jpg
 - Elija un fondo personalizado. Al seleccionar **Elegir un color personalizado**, se abre un selector de color. Seleccione el color que desee ajustando la escala del selector de color.
 
-La imagen de fondo o el color se usa como fondo para la pancarta superior del catálogo de aplicaciones Teams inquilino.
+La imagen de fondo o el color se usa como fondo para el banner superior del catálogo de aplicaciones Teams inquilino.
 
 ## <a name="customize-the-text-color-of-your-name"></a>Personalizar el color del texto de su nombre
 

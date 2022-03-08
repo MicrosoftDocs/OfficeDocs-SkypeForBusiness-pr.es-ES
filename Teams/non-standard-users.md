@@ -1,7 +1,7 @@
 ---
 title: Teams de aplicaciones para usuarios no estándar
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 621614b9fc3d46d4629ce8b62dbbcc7b579698db
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 4dd2a96b7df3ebcb3ae8659222744ed0f3273fa3
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62390832"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070219"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams de aplicaciones para usuarios no estándar
 
@@ -41,7 +41,7 @@ En este artículo se describe cómo se comportan las aplicaciones de Teams cuand
 
 ### <a name="install-update-and-delete-for-guest-users"></a>Instalar, actualizar y eliminar para usuarios invitados
 
-Los invitados no pueden instalar, actualizar o eliminar aplicaciones en un contexto compartido, como un chat, un canal o una reunión, pero pueden hacerlo en su ámbito personal mediante extensiones de mensajes y vínculos directos. Los invitados no tienen acceso a la tienda de aplicaciones Teams desde la aplicación de escritorio Teams, pero pueden acceder a ella con un vínculo directo.
+Los invitados no pueden instalar, actualizar o eliminar aplicaciones en un contexto compartido, como un chat, un canal o una reunión, pero pueden hacerlo en su ámbito personal mediante extensiones de mensajes y vínculos directos. Los invitados no tienen acceso Teams la tienda de aplicaciones desde la aplicación de escritorio Teams, pero pueden acceder a ella con un vínculo directo.
 
 ### <a name="usage-behavior-and-policy-for-guest-users"></a>Comportamiento y directiva de uso para usuarios invitados
 
