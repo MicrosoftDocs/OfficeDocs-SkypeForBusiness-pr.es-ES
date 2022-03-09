@@ -20,18 +20,18 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9b4175769ea9d6cc57167c086b28ee5ef4e742d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b030ed9efd92a33ef38029088edcd8e2cf6023b5
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850533"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63392902"
 ---
 # <a name="teams-in-30"></a>Teams en 30
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft está encantado de invitarle a Teams en <strong>30</strong>, una serie de talleres interactivos en directo diseñados para ayudar a que las organizaciones medianas (500-5000 empleados) puedan trabajar con Microsoft Teams en tan solo 30 días. Únase a nosotros para obtener instrucciones y procedimientos recomendados probados y obtener respuestas a Teams preguntas. Los participantes del taller también recibirán una invitación exclusiva para el horario de oficina de micrófono abierto con un Teams experto.
-           <p><font color="#6264A7">¿Listo para entrar?</font> Animamos a todos los miembros de su equipo de proyecto a empezar con la Introducción <i>con Teams en 30</i> sesión. Haga clic en un título de sesión a continuación para registrarse.
+        <p>Microsoft está encantado de invitarle <strong>a Teams en 30</strong>, una serie de talleres interactivos en directo diseñados para ayudar a que las organizaciones medianas (entre 500 y 5000 empleados) puedan trabajar con Microsoft Teams en tan solo 30 días. Únase a nosotros para obtener instrucciones y procedimientos recomendados probados y obtener respuestas a Teams preguntas. Los participantes del taller también recibirán una invitación exclusiva para las horas de oficina de micrófono abierto con un Teams experto.
+           <p>¿Listo para entrar? Animamos a todos los miembros de su equipo de proyecto a empezar con la Introducción <i>con Teams en 30</i> sesión. Haga clic en un título de sesión a continuación para registrarse.
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
@@ -44,8 +44,8 @@ ms.locfileid: "60850533"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Introducción a Teams en 30 (¡Empiece aquí!)</h3>
-                        <P>Inicia tu Teams en 30 viajes con el pie derecho. Comprenda el programa, quién debe participar y qué recursos puede usar para garantizar su éxito.</P>
+                        <h3>Introducción a Teams en 30 (Empezar aquí).</h3>
+                        <P>Comience su Teams en 30 viajes con el pie derecho. Comprenda el programa, quién debe participar y qué recursos puede usar para garantizar su éxito.</P>
                         <p><i>Audiencia: Patrocinadores empresariales, administradores de TI, propietarios de adopción y cambio</i></p>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ ms.locfileid: "60850533"
                     </div>
                     <div class="cardText">
                         <h3>Listos sus usuarios finales:</h3>
-                    <p>Descubra estrategias y recursos para preparar a sus usuarios, crear un contingente de campeones y garantizar la aceptación de los usuarios como un componente principal de su Teams implementación.</p><p><i>Audiencia: Adopción y cambio de propietarios</i></p>
+                    <p>Descubra estrategias y recursos para preparar a los usuarios, crear un contingente de campeones y garantizar la aceptación de los usuarios como un componente principal de su Teams implementación.</p><p><i>Audiencia: Adopción y cambio de propietarios</i></p>
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@ ms.locfileid: "60850533"
                     </div>
                     <div class="cardText">
                     <h3>Preparar el entorno: parte I</h3>
-                    <p>Establezca la base de su Teams implementación. Identifique Teams requisitos previos, procedimientos recomendados de redes y seguridad, directivas de coexistencia, análisis e informes y recomendaciones de distribución de clientes.</p><p><i>Público: administradores de IT</i></p>
+                    <p>Establezca las bases para su Teams implementación. Identifique Teams requisitos previos, procedimientos recomendados de seguridad y redes, directivas de coexistencia, análisis e informes y recomendaciones de distribución de clientes.</p><p><i>Público: administradores de IT</i></p>
 </div>
                 </div>
             </div>
@@ -140,9 +140,9 @@ ms.locfileid: "60850533"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Teams Tiza charlas</h3>
-                    <p>Facilitados por expertos en la materia, estos talleres interactivos en línea ofrecen una oportunidad única para aprender prácticas recomendadas y guías prácticas sobre algunos de los escenarios más populares y atractivos de Teams. Tiza de conversaciones supone que ha completado un Teams básico.</p>
-                    <p><strong>Requisito</strong>previo: Teams asistencia a 30 talleres O ya está habilitado para Teams toda la organización.</p>
+                    <h3>Teams tiza</h3>
+                    <p>Facilitados por expertos en la materia, estos talleres interactivos en línea ofrecen una oportunidad única para aprender procedimientos recomendados y instrucciones prácticas sobre algunos de los escenarios más populares y atractivos de Teams. Tizas asume que ha completado una Teams implementación.</p>
+                    <p><strong>Requisito</strong> previo: Teams asistencia a 30 talleres O ya está habilitado para Teams toda la organización.</p>
                     <p><i>Público: administradores de IT</i></p>
                     </div>
                 </div>
