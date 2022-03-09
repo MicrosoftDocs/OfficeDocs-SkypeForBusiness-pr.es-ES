@@ -1,7 +1,7 @@
 ---
-title: 'Microsoft Teams: Recursos para administradores de Educación'
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: 'Microsoft Teams: Recursos para administradores de educación'
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cabaace50bea563ac2803c33f2b302f2f326bfa4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2f0b8f1f070d48c30413f3d89e54b9344c54cafb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865669"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409843"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>Recursos de Microsoft Teams para administradores de educación
 
 ## <a name="resources-for-remote-learning"></a>Recursos para el aprendizaje remoto
 
-¿Necesita su escuela o universidad habilitar Microsoft Teams para el aprendizaje remoto? ¡Empezar a trabajar rápidamente con el programa introducción de [un solo página](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) y cualquiera de los siguientes materiales de adopción!
+¿Necesita su escuela o universidad habilitar Microsoft Teams para el aprendizaje remoto? ¡Empezar a trabajar rápidamente con el programa [introducción de un solo página](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) y cualquiera de los siguientes materiales de adopción!
 
 ## <a name="adoption-content"></a>Contenido de adopción
 
@@ -46,7 +46,7 @@ Lea los [términos y condiciones antes](https://github.com/MicrosoftDocs/OfficeD
 
 ### <a name="digital-assets"></a>Activos digitales
 
-Asegúrese de consultar la Guía de [Toolkit digital para](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) maximizar su Teams inicio. 
+Asegúrese de consultar la Guía de Toolkit [digital para](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) maximizar su Teams inicio. 
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
@@ -56,14 +56,14 @@ Asegúrese de consultar la Guía de [Toolkit digital para](https://github.com/Mi
 
 ## <a name="call-to-action"></a>Llamada a la acción
 
-- Visite la [página Teams para Educación para](https://www.microsoft.com/en-us/education/products/teams/default.aspx) obtener aprendizajes, vídeos y demostraciones interactivas
+- Visite la [Teams para Educación de](https://www.microsoft.com/en-us/education/products/teams/default.aspx) aprendizaje, vídeos y demostraciones interactivas
 - Activar Teams en el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (iniciar sesión como administrador Office 365 usuario)
 - Descargue los clientes de Microsoft Teams: [Descargue Microsoft Teams en todos sus dispositivos](https://teams.microsoft.com/downloads)
 - Obtenga más información sobre Office 365 para el ámbito educativo en el [Centro de ayuda de Educación](https://support.office.com/education)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Teams guía básica](https://aka.ms/teamsroadmap)
+- [Teams mapa de ruta](https://aka.ms/teamsroadmap)
 - Manténgase al día con nuestro [blog de Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
 - [Descripción de PowerShell para Teams](teams-powershell-overview.md)
 - [Enviar una sugerencia](https://aka.ms/eduuservoice)

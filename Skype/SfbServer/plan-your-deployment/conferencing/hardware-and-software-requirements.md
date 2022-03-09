@@ -1,8 +1,8 @@
 ---
 title: Requisitos de hardware y software para conferencias en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Resumen: lea este tema para obtener información sobre los requisitos de hardware y software para conferencias en Skype Empresarial Server.'
-ms.openlocfilehash: 4cb6192475b56d78d1cf03b69eea86b67c05519f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9c230d3dedc9e2941f3b0bd8c92f8360b2722abe
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859897"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404682"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Requisitos de hardware y software para conferencias en Skype Empresarial Server
 
@@ -35,7 +35,7 @@ Por ejemplo, si desea permitir conferencias de acceso telefónico local, deberá
 
 ## <a name="hardware-and-software-requirements-for-front-end-servers"></a>Requisitos de hardware y software para servidores front-end
 
-Dado que las conferencias web, las conferencias A/V, las conferencias de acceso telefónico local y las conferencias de mensajería instantánea se asocian con el servidor front-end, los requisitos de hardware y software del servidor son los mismos que para los servidores front-end. Para obtener más información acerca de estos requisitos, vea Server [requirements for Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) y [Environmental requirements for Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype Empresarial Server 2019](../../../SfBServer2019/plan/system-requirements.md).
+Dado que las conferencias web, las conferencias A/V, las conferencias de acceso telefónico local y las conferencias de mensajería instantánea se asocian con el servidor front-end, los requisitos de hardware y software del servidor son los mismos que para los servidores front-end. Para obtener más información sobre estos requisitos, vea Requisitos del servidor para [Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) y Requisitos del entorno para [Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) o Requisitos de servidor [para Skype Empresarial Server 2019](../../../SfBServer2019/plan/system-requirements.md).
 
 ## <a name="requirements-for-web-conferencing"></a>Requisitos para conferencias web
 
@@ -69,9 +69,9 @@ A continuación, el servicio de conferencia web almacena contenido como diaposit
 
 Para usar las capacidades de conferencia web, debe instalar Office Web Apps Server y configurar Skype Empresarial Server para comunicarse con Office Web Apps Server.
 
-Office Web Apps Server debe instalarse en un equipo independiente que no esté ejecutando Skype Empresarial Server, SQL Server o cualquier otra aplicación de servidor. (No debe tener ninguna versión de Office instalado en ese equipo). Cualquier equipo usado para ejecutar Office Web Apps Server también debe tener instalado un conjunto específico de software (incluidos .NET Framework 4.5 y Windows PowerShell 3.0). Estos requisitos, junto con la información sobre la configuración de certificados y Internet Information Services (IIS), se analizan detalladamente en el sitio web de Microsoft Office web de implementación [de aplicaciones web](/webappsserver/deploy-the-infrastructure-office-web-apps-server).
+Office Web Apps Server debe instalarse en un equipo independiente que no ejecute Skype Empresarial Server, SQL Server o cualquier otra aplicación de servidor. (No debe tener ninguna versión de Office instalado en ese equipo). Cualquier equipo usado para ejecutar Office Web Apps Server también debe tener instalado un conjunto específico de software (incluidos .NET Framework 4.5 y Windows PowerShell 3.0). Estos requisitos, junto con la información sobre la configuración de certificados y Internet Information Services (IIS), se analizan en detalle en el sitio web Microsoft Office [web de implementación de aplicaciones web](/webappsserver/deploy-the-infrastructure-office-web-apps-server).
 
-Para obtener información sobre cómo configurar Skype Empresarial Server para que funcione con Office Web Apps Server, vea [Configure integration with Office Web Apps Server in Skype Empresarial Server](../../deploy/deploy-conferencing/office-web-app-server.md).
+Para obtener información sobre cómo configurar Skype Empresarial Server para que funcione con Office Web Apps Server, consulte [Configure integration with Office Web Apps Server in Skype Empresarial Server](../../deploy/deploy-conferencing/office-web-app-server.md).
 
 ## <a name="requirements-for-audio-and-video-conferencing"></a>Requisitos para conferencias de audio y vídeo
 
@@ -79,13 +79,13 @@ Para planear una conferencia A/V, necesita conocer el ancho de banda necesario p
 
 Para obtener información sobre la planeación de capacidad de audio y vídeo para conferencias, vea [Plan network requirements for Skype Empresarial](../../plan-your-deployment/network-requirements/network-requirements.md).
 
-Puede usar el control de admisión de llamadas (CAC) para administrar el ancho de banda de red usado por las conferencias A/V. Esto es importante para redes restringidas, como vínculos de ancho de banda limitado entre los sitios central y de sucursal. Para obtener más información, vea [Plan for call admission control in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Puede usar el control de admisión de llamadas (CAC) para administrar el ancho de banda de red usado por las conferencias A/V. Esto es importante para redes restringidas, como vínculos de ancho de banda limitado entre los sitios central y de sucursal. Para obtener más información, consulte [Plan for call admission control in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
 
-Si implementa una conferencia de audio en la red, los usuarios necesitarán dispositivos de audio, como pueden ser auriculares, para participar en ella. Si implemente una conferencia de vídeo, necesitará implementar dispositivos de vídeo, como cámaras web para los usuarios. Tanto para dispositivos de audio como de vídeo, la implementación de dispositivos y la formación del usuario son pasos importantes que debes tener en cuenta. Para obtener más información, vea [Plan for clients and devices](../../plan-your-deployment/clients-and-devices/clients-and-devices.md). Microsoft recomienda usar dispositivos de comunicaciones unificadas (UC) certificados por Microsoft para todos los tipos de dispositivos, para garantizar una experiencia de usuario óptima. Para obtener más información acerca de los dispositivos certificados por la UC, consulte [Teléfonos y dispositivos para Skype Empresarial](../../../SfbPartnerCertification/certification/devices-ip-phones.md).
+Si implementa una conferencia de audio en la red, los usuarios necesitarán dispositivos de audio, como pueden ser auriculares, para participar en ella. Si implemente una conferencia de vídeo, necesitará implementar dispositivos de vídeo, como cámaras web para los usuarios. Tanto para dispositivos de audio como de vídeo, la implementación de dispositivos y la formación del usuario son pasos importantes que debes tener en cuenta. Para obtener más información, consulte [Plan for clients and devices](../../plan-your-deployment/clients-and-devices/clients-and-devices.md). Microsoft recomienda usar dispositivos de comunicaciones unificadas (UC) certificados por Microsoft para todos los tipos de dispositivos, para garantizar una experiencia de usuario óptima. Para obtener más información acerca de los dispositivos certificados por la UC, consulte [Teléfonos y dispositivos para Skype Empresarial](../../../SfbPartnerCertification/certification/devices-ip-phones.md).
 
 ## <a name="requirements-for-dial-in-conferencing"></a>Requisitos para conferencias de acceso telefónico local
 
-La conferencia de acceso telefónico local es una característica opcional de la Skype Empresarial Server de conferencia que incluye una variedad de componentes. Algunos componentes son específicos de las conferencias de acceso telefónico local y otros lo son de Enterprise Voice. En esta sección se describen los requisitos para los componentes necesarios para las conferencias de acceso telefónico local. Para obtener más información acerca de los requisitos de puerta de enlace del servidor de mediación y de la red telefónica conmutada (RTC), vea [Mediation Server component in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) e Deploy a Mediation Server in [Topology Builder in Skype Empresarial Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
+La conferencia de acceso telefónico local es una característica opcional de la Skype Empresarial Server de conferencia que incluye una variedad de componentes. Algunos componentes son específicos de las conferencias de acceso telefónico local y otros lo son de Enterprise Voice. En esta sección se describen los requisitos para los componentes necesarios para las conferencias de acceso telefónico local. Para obtener más información acerca de los requisitos de puerta de enlace del servidor de mediación y la red telefónica conmutada (RTC), vea [Mediation Server component in Skype Empresarial Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) and [Deploy a Mediation Server in Topology Builder in Skype Empresarial Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
 
 ### <a name="required-components"></a>Componentes necesarios
 
@@ -103,7 +103,7 @@ Deberá instalar los siguientes componentes Skype Empresarial Server para poder 
 
 Para conferencias de acceso telefónico local, el servicio de aplicaciones, aplicación Operador de conferencia y aplicación Anuncio de conferencia tienen los mismos requisitos del sistema operativo que los servidores front-end. Para obtener más información, vea [Server requirements for Skype Empresarial Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
 
-aplicación Operador de conferencia y aplicación Anuncio de conferencia requieren que Windows Media Format Runtime esté instalado en servidores front-end. Windows Media Format Runtime es necesario para reproducir Windows audio multimedia (WMA) que se usan para música en espera, nombres grabados y mensajes. Si va a instalar en Windows Server 2012 o Windows Server 2012 R2 (que se recomienda), deberá instalar Microsoft Media Foundation para obtener Windows Tiempo de ejecución de formato multimedia. Si va a instalar en cualquier versión de Windows Server antes de Windows 2012, debe asegurarse de que la experiencia de escritorio de Windows está instalada para obtener Windows Media Format Runtime.
+aplicación Operador de conferencia y aplicación Anuncio de conferencia requieren que Windows Media Format Runtime esté instalado en servidores front-end. Windows Media Format Runtime es necesario para reproducir Windows archivos de audio multimedia (WMA) que se usan para la música en espera, nombres grabados y mensajes. Si va a instalar en Windows Server 2012 o Windows Server 2012 R2 (que recomendamos), deberá instalar Microsoft Media Foundation para obtener Windows Tiempo de ejecución de formato multimedia. Si va a instalar en cualquier versión de Windows Server antes de Windows 2012, debe asegurarse de que la experiencia de escritorio de Windows está instalada para obtener Windows Media Format Runtime.
 
 ### <a name="audio-file-requirements-for-dial-in-conferencing"></a>Requisitos de archivos de audio para conferencias de acceso telefónico local
 
@@ -121,34 +121,34 @@ aplicación Operador de conferencia y aplicación Anuncio de conferencia los sig
 
 ### <a name="user-requirements-for-dial-in-conferencing"></a>Requisitos de usuario para conferencias de acceso telefónico local
 
-Los usuarios de conferencias de acceso telefónico local deben tener un número de teléfono único o una extensión asignada a su cuenta. Este requisito admite la autenticación durante las conferencias de acceso telefónico local. Enterprise usuarios (es decir, usuarios que tienen credenciales de Servicios de dominio de Active Directory y cuentas de Skype Empresarial Server dentro de la organización) escriben su número de teléfono (o extensión) y un número de identificación personal (PIN) para llamar a conferencias como usuario autenticado.
+Los usuarios de conferencias de acceso telefónico local deben tener un número de teléfono único o una extensión asignada a su cuenta. Este requisito admite la autenticación durante las conferencias de acceso telefónico local. Enterprise usuarios (es decir, usuarios con credenciales de Servicios de dominio de Active Directory y cuentas de Skype Empresarial Server dentro de la organización) escriben su número de teléfono (o extensión) y un número de identificación personal (PIN) para llamar a conferencias como usuario autenticado.
 
 ## <a name="port-requirements-for-conferencing"></a>Requisitos de puerto para conferencias
 
-Para usar las características de conferencia, Skype Empresarial Server requiere que determinados puertos estén abiertos. En la tabla siguiente se enumeran los requisitos de puerto para conferencias. Para obtener más información acerca de todos los requisitos de puerto, vea [Port and protocol requirements for servers](../../plan-your-deployment/network-requirements/ports-and-protocols.md).
+Para usar las características de conferencia, Skype Empresarial Server requiere que determinados puertos estén abiertos. En la tabla siguiente se enumeran los requisitos de puerto para conferencias. Para obtener más información acerca de todos los requisitos de puerto, consulte [Port and protocol requirements for servers](../../plan-your-deployment/network-requirements/ports-and-protocols.md).
 
 **Puertos de servidor necesarios**
 
 
-|**Rol del servidor**|**Nombre del servicio**|**Port**|**Protocolo**|**Notas**|
+|**Rol del servidor**|**Nombre del servicio**|**Puerto**|**Protocolo**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|
-|Servidores front-end  <br/> |Skype Empresarial Server Servicio de conferencia de mensajería instantánea  <br/> |5062  <br/> |TCP  <br/> |Se usa para las solicitudes SIP entrantes de las conferencias de mensajería instantánea.  <br/> |
-|Servidores front-end  <br/> |Skype Empresarial Server Servicio de conferencia web  <br/> |8057  <br/> |TCP (TLS)  <br/> |Se usa para escuchar las conexiones del Modelo de objetos compartidos persistentes (PSOM) desde un cliente.  <br/> |
-|Servidores front-end  <br/> |Skype Empresarial Server Servicio de compatibilidad de conferencia web  <br/> |8058  <br/> |TCP (TLS)  <br/> |Se usa para escuchar las conexiones del modelo de objetos compartidos persistentes (PSOM) desde el cliente de Live Meeting y las versiones anteriores de Skype Empresarial Server.  <br/> |
-|Servidores front-end  <br/> |Skype Empresarial Server Servicio de conferencia de audio y vídeo  <br/> |5063  <br/> |TCP  <br/> |Se usa para las solicitudes SIP entrantes de las conferencias de audio y vídeo (A/V).  <br/> |
-|Servidores front-end  <br/> |Skype Empresarial Server Servicio de conferencia de audio y vídeo  <br/> |57501-65535  <br/> |TCP/UDP  <br/> |Intervalo de puerto de medios usado para conferencias de vídeo.  <br/> |
+|Servidores front-end  <br/> |Skype Empresarial Server de conferencia de mensajería instantánea  <br/> |5062  <br/> |TCP  <br/> |Se usa para las solicitudes SIP entrantes de las conferencias de mensajería instantánea.  <br/> |
+|Servidores front-end  <br/> |Skype Empresarial Server de conferencia web  <br/> |8057  <br/> |TCP (TLS)  <br/> |Se usa para escuchar las conexiones del Modelo de objetos compartidos persistentes (PSOM) desde un cliente.  <br/> |
+|Servidores front-end  <br/> |Skype Empresarial Server de compatibilidad de conferencia web  <br/> |8058  <br/> |TCP (TLS)  <br/> |Se usa para escuchar las conexiones del modelo de objetos compartidos persistentes (PSOM) desde el cliente de Live Meeting y las versiones anteriores de Skype Empresarial Server.  <br/> |
+|Servidores front-end  <br/> |Skype Empresarial Server de conferencia de audio y vídeo  <br/> |5063  <br/> |TCP  <br/> |Se usa para las solicitudes SIP entrantes de las conferencias de audio y vídeo (A/V).  <br/> |
+|Servidores front-end  <br/> |Skype Empresarial Server de conferencia de audio y vídeo  <br/> |57501-65535  <br/> |TCP/UDP  <br/> |Intervalo de puerto de medios usado para conferencias de vídeo.  <br/> |
 |Servidores front-end  <br/> |Skype Empresarial Server Operador de conferencia (conferencia de acceso telefónico local)  <br/> |5064  <br/> |TCP  <br/> |Se usa para las solicitudes SIP entrantes de las conferencias telefónicas.  <br/> |
 |Servidores front-end  <br/> |Skype Empresarial Server Operador de conferencia (conferencia de acceso telefónico local)  <br/> |5072  <br/> |TCP  <br/> |Se usa para las solicitudes SIP entrantes para Attendant (dial in conferencing).  <br/> |
-|Servidores front-end  <br/> |Skype Empresarial Server Servicio de uso compartido de aplicaciones  <br/> |5065  <br/> |TCP  <br/> |Se usa para las solicitudes de escucha SIP entrantes para compartir las aplicaciones.  <br/> |
-|Servidores front-end  <br/> |Skype Empresarial Server Servicio de uso compartido de aplicaciones  <br/> |49152-65535  <br/> |TCP  <br/> |Intervalo de puerto de medios usado para compartir aplicaciones.  <br/> |
-|Servidores front-end  <br/> |Skype Empresarial Server Anuncio de conferencia servicio  <br/> |5073  <br/> |TCP  <br/> |Se usa para las solicitudes SIP entrantes para el Skype Empresarial Server Anuncio de conferencia (es decir, para conferencias de acceso telefónico local).  <br/> |
-|Todos los usuarios internos  <br/> |Varios  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |El intervalo de puerto de medios se usa para audioconferencias en todos los servidores internos. Se usa en todos los servidores que terminan el audio: servidores front-end (para el servicio Skype Empresarial Server Operador de conferencia, el servicio Skype Empresarial Server Anuncio de conferencia y el servicio de audio y vídeoconferencia Skype Empresarial Server) y el servidor de mediación.  <br/> |
-|Office Servidores de aplicaciones web  <br/> ||443  <br/> ||Se usa Skype Empresarial Server para conectarse a Office Web Apps Server.  <br/> |
+|Servidores front-end  <br/> |Skype Empresarial Server de uso compartido de aplicaciones  <br/> |5065  <br/> |TCP  <br/> |Se usa para las solicitudes de escucha SIP entrantes para compartir las aplicaciones.  <br/> |
+|Servidores front-end  <br/> |Skype Empresarial Server de uso compartido de aplicaciones  <br/> |49152-65535  <br/> |TCP  <br/> |Intervalo de puerto de medios usado para compartir aplicaciones.  <br/> |
+|Servidores front-end  <br/> |Skype Empresarial Server Anuncio de conferencia servicio  <br/> |5073  <br/> |TCP  <br/> |Se usa para las solicitudes SIP entrantes para el servicio Skype Empresarial Server Anuncio de conferencia (es decir, para conferencias de acceso telefónico local).  <br/> |
+|Todos los usuarios internos  <br/> |Varios  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |El intervalo de puerto de medios se usa para audioconferencias en todos los servidores internos. Usado por todos los servidores que terminan el audio: servidores front-end (para el servicio Skype Empresarial Server Operador de conferencia, Skype Empresarial Server Anuncio de conferencia y Skype Empresarial Server servicio de conferencia de audio y vídeo) y servidor de mediación.  <br/> |
+|Office web apps server  <br/> ||443  <br/> ||Se usa Skype Empresarial Server para conectarse a Office Web Apps Server.  <br/> |
 
 **Puertos de cliente necesarios**
 
 
-|**Port**|**Protocolo**|**Notas**|
+|**Puerto**|**Protocolo**|**Notas**|
 |:-----|:-----|:-----|
 |443  <br/> |TCP (PSOM/TLS)  <br/> |Se usa para el acceso de usuarios externos a las sesiones de conferencia web.  <br/> |
 |443  <br/> |TCP (STUN/MSTURN)  <br/> |Se usa para el acceso de usuarios externos a las sesiones de A/V y a los medios (TCP)  <br/> |

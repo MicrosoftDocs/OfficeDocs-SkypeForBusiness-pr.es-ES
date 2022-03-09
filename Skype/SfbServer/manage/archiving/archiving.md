@@ -1,8 +1,8 @@
 ---
 title: Administrar el archivado en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
 description: 'Resumen: obtenga información sobre cómo administrar el archivado para Skype Empresarial Server.'
-ms.openlocfilehash: bdb373bf723e586cbc7222cd2559b87f4c72381e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0849a9fbc3db95579a1711e2934b0bafdc7b6e23
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856797"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392662"
 ---
 # <a name="manage-archiving-in-skype-for-business-server"></a>Administrar el archivado en Skype Empresarial Server
 
@@ -25,10 +25,10 @@ ms.locfileid: "60856797"
   
 Al implementar el archivado de la organización, se especifica la configuración inicial durante la implementación. Sin embargo, puede haber ocasiones en las que desee cambiar la forma en que implementa la compatibilidad de archivado para la administración diaria o para cumplir con los nuevos requisitos de su organización. Por ejemplo, es posible que deba configurar la compatibilidad de archivado de forma diferente para un sitio específico, un grupo de servidores específico o usuarios específicos de la organización. Para los usuarios que se Skype Empresarial Server, puede hacerlo creando y personalizando las opciones de configuración de archivado y las directivas de usuario. 
   
-Antes de leer este tema, asegúrese de estar familiarizado con la información de [Plan for archiving in Skype Empresarial Server](../../plan-your-deployment/archiving/archiving.md) and Deploy archiving for [Skype Empresarial Server](../../deploy/deploy-archiving/deploy-archiving.md).
+Antes de leer este tema, asegúrese de estar familiarizado con la información de [Plan for archiving in Skype Empresarial Server](../../plan-your-deployment/archiving/archiving.md) and [Deploy archiving for Skype Empresarial Server](../../deploy/deploy-archiving/deploy-archiving.md).
   
 > [!NOTE]
-> Si habilita la integración de Microsoft Exchange para la implementación, las directivas de Exchange controlan si el archivado está habilitado para los usuarios que están ubicados en Exchange y tienen sus buzones en espera In-Place. Para obtener más información, vea [Plan for archiving in Skype Empresarial Server](../../plan-your-deployment/archiving/archiving.md) and Configure integration with Exchange storage for [Skype Empresarial Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Si habilita la integración de Microsoft Exchange para la implementación, las directivas de Exchange controlan si el archivado está habilitado para los usuarios que están ubicados en Exchange y tienen sus buzones en espera In-Place. Para obtener más información, vea [Plan for archiving in Skype Empresarial Server](../../plan-your-deployment/archiving/archiving.md) [and Configure integration with Exchange storage for Skype Empresarial Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="archiving-configuration-options"></a>Opciones de configuración de archivado
 
@@ -60,7 +60,7 @@ Estas directivas se pueden establecer en el nivel global, de sitio o de usuario.
   
 ## <a name="manage-archiving-by-using-the-control-panel-or-by-using-windows-powershell"></a>Administrar el archivado mediante el Panel de control o mediante Windows PowerShell
 
-Puede administrar el archivado mediante el Panel de control o mediante Windows PowerShell. En la tabla siguiente se resumen los cmdlets disponibles para ayudarle a administrar el archivado. Para obtener información detallada acerca de la sintaxis, incluidos todos los parámetros disponibles, [vea Skype Empresarial Server Shell de administración](../management-shell.md). 
+Puede administrar el archivado mediante el Panel de control o mediante Windows PowerShell. En la tabla siguiente se resumen los cmdlets disponibles para ayudarle a administrar el archivado. Para obtener información detallada acerca de la sintaxis, incluidos todos los parámetros disponibles, [consulte Skype Empresarial Server Shell de administración](../management-shell.md). 
 
 
 |**Cmdlet**|**Descripción**|

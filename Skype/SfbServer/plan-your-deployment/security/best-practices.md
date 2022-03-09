@@ -1,8 +1,8 @@
 ---
-title: Procedimientos recomendados para la infraestructura principal en Skype Empresarial Server
+title: Procedimientos recomendados para su infraestructura principal en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,20 +12,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: Es probable que ya haya tomado las medidas necesarias para diseñar la tolerancia a errores en el sistema, mediante el uso de prácticas como garantizar la redundancia de hardware, la protección frente a interrupciones del suministro eléctrico, realizar instalaciones rutinarias de las actualizaciones de seguridad y las medidas contra virus, además de la supervisión de la actividad del servidor. Estas prácticas benefician no solo a Skype Empresarial Server infraestructura, sino también a toda la red. Si no ha implementado estos procedimientos, se recomienda hacerlo antes de implementar Skype Empresarial Server.
-ms.openlocfilehash: 352541cf2dfa91eef24f09c4aebd2788c589a10f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3cd9afbba6014536d146454144456edc91fbf9c0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860947"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400241"
 ---
-# <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Procedimientos recomendados para la infraestructura principal en Skype Empresarial Server
+# <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Procedimientos recomendados para su infraestructura principal en Skype Empresarial Server
  
 Es probable que ya haya tomado las medidas necesarias para diseñar la tolerancia a errores en el sistema, mediante el uso de prácticas como garantizar la redundancia de hardware, la protección frente a interrupciones del suministro eléctrico, realizar instalaciones rutinarias de las actualizaciones de seguridad y las medidas contra virus, además de la supervisión de la actividad del servidor. Estas prácticas benefician no solo a Skype Empresarial Server infraestructura, sino también a toda la red. Si no ha implementado estos procedimientos, se recomienda hacerlo antes de implementar Skype Empresarial Server.
   
 To help protect the servers in your Skype Empresarial Server deployment from accidental or purposeful harm that might result in downtime, take the following precautions:
   
-- Mantenga los servidores actualizados con las actualizaciones de seguridad. Al suscribirse al Servicio de notificación de seguridad de Microsoft (Microsoft Security Notification Service), se garantiza que recibirá notificación inmediata de las nuevas versiones de los boletines de seguridad de los productos de Microsoft. Para suscribirse, vaya al sitio web notificaciones de seguridad técnica [de Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=145202).
+- Mantenga los servidores actualizados con las actualizaciones de seguridad. Al suscribirse al Servicio de notificación de seguridad de Microsoft (Microsoft Security Notification Service), se garantiza que recibirá notificación inmediata de las nuevas versiones de los boletines de seguridad de los productos de Microsoft. Para suscribirse, vaya al sitio [web notificaciones de seguridad técnica de Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=145202).
     
 - Asegúrese de que los derechos de acceso estén correctamente configurados.
     

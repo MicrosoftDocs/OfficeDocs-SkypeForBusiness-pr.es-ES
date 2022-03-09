@@ -1,8 +1,8 @@
 ---
 title: Crear una nueva directiva de archivado en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 'Resumen: obtenga información sobre cómo crear una nueva directiva de archivado para Skype Empresarial Server.'
-ms.openlocfilehash: d60ca9399681bf44fadcf7767b7be1499e99cb99
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ffa2821ca4871a0e05d0afe2f162512a60df3897
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836452"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392642"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Crear una nueva directiva de archivado en Skype Empresarial Server
 
@@ -31,7 +31,7 @@ Para crear una nueva directiva de archivado mediante el Panel de control:
   
 1. Desde una cuenta de usuario asignada al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo de su implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el panel Skype Empresarial Server control. 
     
 3. En la barra de navegación izquierda, haga clic en **Configuración y archivado** y, a continuación, en **Directiva de archivado**.
     
@@ -58,7 +58,7 @@ Para crear una nueva directiva de archivado mediante el Panel de control:
   
 ## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Crear una nueva directiva de archivado mediante Windows PowerShell
 
-También puede crear nuevas directivas de archivado mediante el Windows PowerShell **cmdlet New-CsArchivingPolicy.** Para obtener más información, vea el tema de ayuda del cmdlet [New-CsArchivingPolicy.](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)
+También puede crear nuevas directivas de archivado mediante el Windows PowerShell **cmdlet New-CsArchivingPolicy**. Para obtener más información, vea el tema de ayuda del cmdlet [New-CsArchivingPolicy](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) .
   
 ### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>Para crear una nueva directiva de archivado en el nivel de sitio
 

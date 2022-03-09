@@ -1,8 +1,8 @@
 ---
-title: Configurar una aplicación de asociado local para Skype Empresarial Server
+title: Configurar una aplicación de socio local para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 'Resumen: configure una aplicación de socio local para Skype Empresarial Server.'
-ms.openlocfilehash: c922765e81c0507e6eca9e81047cce4dfbb6dd6c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c3ad8184d7a63afa5b481c62901be13a7c5915e2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846473"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392612"
 ---
-# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Configurar una aplicación de asociado local para Skype Empresarial Server
+# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Configurar una aplicación de socio local para Skype Empresarial Server
  
 **Resumen:** Configure una aplicación de socio local para Skype Empresarial Server.
   
-Después de asignar el certificado OAuthTokenIssuer, debe configurar las Skype Empresarial Server asociadas. (El procedimiento que está a punto de tratarse configura Microsoft Exchange Server 2013 y SharePoint para que actúen como aplicaciones asociadas, que es opcional). Para configurar una aplicación de socio local, debe empezar copiando el siguiente script de Windows PowerShell y pegando el código en Bloc de notas (o cualquier otro editor de texto):
+Después de asignar el certificado OAuthTokenIssuer, debe configurar las Skype Empresarial Server asociadas. (El procedimiento que se va a tratar configura Microsoft Exchange Server 2013 y SharePoint para que actúen como aplicaciones asociadas, que es opcional). Para configurar una aplicación de socio local, debe empezar copiando el siguiente script de Windows PowerShell y pegando el código en Bloc de notas (o cualquier otro editor de texto):
   
 ```PowerShell
 if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
@@ -74,7 +74,7 @@ else
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
-Una vez copiado el código, guarde el script con una extensión de archivo .PS1 (por ejemplo, C:\Scripts\ServerToServerAuth.ps1). Tenga en cuenta que, antes de ejecutar este script, debe reemplazar las direcciones URL de metadatos y las direcciones URL de metadatos usadas por los servidores Exchange `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` 2013 y SharePoint, respectivamente. Consulte la documentación del producto Exchange 2013 y SharePoint para obtener información sobre cómo identificar la dirección URL de metadatos del producto correspondiente.
+Una vez copiado el código, guarde el script con una extensión de archivo .PS1 (por ejemplo, C:\Scripts\ServerToServerAuth.ps1). Tenga en cuenta que, antes de ejecutar este script, `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` debe reemplazar las direcciones URL de metadatos y las direcciones URL de metadatos usadas por los servidores Exchange 2013 y SharePoint, respectivamente. Consulte la documentación del producto Exchange 2013 y SharePoint para obtener información sobre cómo puede identificar la dirección URL de metadatos del producto correspondiente.
   
 Si observamos la última línea del script, veremos que se usa la siguiente sintaxis para llamar al cmdlet Set-CsOAuthConfiguration:
   
@@ -104,7 +104,7 @@ New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Ex
 
 Este mensaje de error suele indicar una de estas dos situaciones: 1) una de las direcciones URL especificadas en el script no es válida (dicho de otro modo, una de las direcciones URL de metadatos no es realmente una dirección URL de metadatos) o 2) no se pudo establecer contacto con una de las direcciones URL de metadatos. Si esto sucede, compruebe que las direcciones URL son correctas y accesibles y vuelva a ejecutar el script.
   
-Después de crear la aplicación de asociado para Skype Empresarial Server debe configurar Skype Empresarial Server para que sea una aplicación de socio para Exchange 2013. Puede configurar aplicaciones de asociado para Exchange 2013 ejecutando el script Configure-EnterprisePartnerApplication.ps1; Todo lo que necesita hacer es especificar la dirección URL de metadatos para Skype Empresarial Server e indicar que Skype Empresarial Server es la nueva aplicación asociada. 
+Después de crear la aplicación de asociado para Skype Empresarial Server debe configurar Skype Empresarial Server para que sea una aplicación de asociado para Exchange 2013. Puede configurar las aplicaciones de asociado para Exchange 2013 ejecutando el script Configure-EnterprisePartnerApplication.ps1; todo lo que necesita hacer es especificar la dirección URL de metadatos de Skype Empresarial Server e indicar que Skype Empresarial Server es la nueva aplicación asociada. 
   
 Para configurar Skype Empresarial Server como una aplicación asociada para Exchange, abra el Shell de administración de Exchange y ejecute un comando similar a este
   

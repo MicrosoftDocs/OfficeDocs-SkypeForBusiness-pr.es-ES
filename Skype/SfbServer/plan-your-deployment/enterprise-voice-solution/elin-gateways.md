@@ -1,8 +1,8 @@
 ---
 title: Administrar ubicaciones para puertas de enlace ELIN en Skype Empresarial Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Decisiones necesarias para planear una base de datos de información de ubicación, o una base de datos externa similar, para una implementación de E9-1-1 mediante puertas de enlace ELIN, en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: d958b9d533245e7071cb8c1f030e91a13a44925f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ddc92645a39b007c3bb0d1e72e009ff1bf303b37
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845173"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404672"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Administrar ubicaciones para puertas de enlace ELIN en Skype Empresarial Server
 
@@ -48,11 +48,11 @@ Cuando se usan puertas de enlace ELIN, se rellena la base de datos del servicio 
 
 ### <a name="planning-location-names"></a>Planear nombres de ubicación
 
-El campo Ubicación del **servicio** de información de ubicación, que contiene la ubicación específica dentro de un edificio, tiene una longitud máxima de 20 caracteres (incluidos los espacios). Dentro de esa longitud limitada, intente incluir lo siguiente:
+El campo Ubicación **del servicio de** información de ubicación, que contiene la ubicación específica dentro de un edificio, tiene una longitud máxima de 20 caracteres (incluidos los espacios). Dentro de esa longitud limitada, intente incluir lo siguiente:
 
 - Un nombre fácil de comprender que identifique la ubicación del autor de la llamada al 911 para que a los encargados de emergencias les resulte más fácil encontrar rápidamente la ubicación específica cuando lleguen a la dirección postal. Este nombre de ubicación puede incluir un número de edificio, la planta, la escalera, la puerta, etc. Evite los apodos que solo conozcan los empleados, ya que los encargados de emergencias podrían equivocarse de ubicación.
 
-- Un identificador de ubicación que ayuda a los usuarios a ver fácilmente que su cliente ha elegido la ubicación correcta. El Skype Empresarial se concatena automáticamente y muestra los campos **Location** y **City** detectados en su encabezado. Una buena práctica es agregar la dirección de calle del edificio a cada identificador de ubicación (por ejemplo, "1st \<street number> Floor"). Si no se indica la calle, un identificador de ubicación genérico como "1ª planta" se podría aplicar a cualquier edificio de la ciudad.
+- Un identificador de ubicación que ayuda a los usuarios a ver fácilmente que su cliente ha elegido la ubicación correcta. El Skype Empresarial se concatena automáticamente y muestra los campos **Location** y **City** detectados en su encabezado. Una buena práctica es agregar la dirección de calle del edificio a cada identificador de ubicación (por ejemplo, "1st Floor \<street number>"). Si no se indica la calle, un identificador de ubicación genérico como "1ª planta" se podría aplicar a cualquier edificio de la ciudad.
 
 - Si la ubicación es aproximada porque está determinada por un punto de acceso inalámbrico, es posible que desee agregar la palabra **[Cerca]** (por ejemplo, "Near 1st Floor 1234").
 
@@ -86,7 +86,7 @@ Con las siguientes preguntas le será más fácil determinar cómo rellenar la b
 
 Al usar la opción Servicio de información de ubicación secundaria para conectarse a una base de datos de terceros, puede agrupar y administrar ubicaciones mediante una plataforma sin conexión. La ventana es que además de asociar las ubicaciones a identificadores de red, puede asociar las ubicaciones a un usuario. Esto significa que el servicio de información de ubicación puede devolver varias direcciones, originadas desde el servicio de información de ubicación secundaria, a un Skype Empresarial cliente. Y el usuario puede elegir la ubicación más adecuada.
 
-Para integrarse con el servicio de información de ubicación, la base de datos de terceros debe seguir el Skype Empresarial Server de solicitud y respuesta de ubicación. Para obtener más información, [vea Web Service for E911 Support Protocol](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd). Para obtener más información acerca de la implementación de un servicio de información de ubicación secundaria, vea [Configure a secondary Location Information service in Skype Empresarial Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) en la documentación de implementación.
+Para integrarse con el servicio de información de ubicación, la base de datos de terceros debe seguir el Skype Empresarial Server de solicitud y respuesta de ubicación. Para obtener más información, [consulte Web Service for E911 Support Protocol](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd). Para obtener más información acerca de la implementación de un servicio de información de ubicación secundaria, vea [Configure a secondary Location Information service in Skype Empresarial Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) en la documentación de implementación.
 
 Para más información sobre cómo rellenar la base de datos de ubicaciones, vea [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) en la documentación sobre implementación.
 

@@ -1,8 +1,8 @@
 ---
 title: Requisitos para su Skype Empresarial entorno
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
@@ -17,22 +17,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
 description: 'Resumen: esquema de temas para requisitos de sistemas y requisitos de red o infraestructura para Skype Empresarial Server 2015. Si necesita instalar o configurar cualquier cosa como requisito previo para instalar e implementar Skype Empresarial Server 2015, estará aquí.'
-ms.openlocfilehash: 0bc44108a256e54a180b14293f37fc15510c97e5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8f5bd1d010ab65483fef071d1881e1b31b1a0105
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836208"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416453"
 ---
-# <a name="requirements-for-your-skype-for-business-2015-environment"></a>Requisitos para el entorno Skype Empresarial 2015
+# <a name="requirements-for-your-skype-for-business-2015-environment"></a>Requisitos para su Skype Empresarial 2015
  
 **Resumen:** Esquema de temas para requisitos de sistemas y requisitos de red o infraestructura para Skype Empresarial Server 2015. Si necesita instalar o configurar cualquier cosa como requisito previo para instalar e implementar Skype Empresarial Server 2015, estará aquí.
   
-Esta es la página de aterrizaje de artículos sobre requisitos en torno a una Skype Empresarial Server de 2015. Esto incluye tanto los requisitos del servidor como los aspectos más generales para preparar, incluidos su dominio y la estructura de redes, y los certificados.
+Esta es la página de aterrizaje de artículos sobre los requisitos en torno a una Skype Empresarial Server de 2015. Esto incluye tanto los requisitos del servidor como los aspectos más generales para preparar, incluidos su dominio y la estructura de redes, y los certificados.
   
 ## <a name="whats-in-this-topic"></a>What's in this topic
 
-Los dos artículos de la sección requisitos para su entorno describen lo que necesita tener y/o configurar antes de poder continuar e implementar o actualizar correctamente a Skype Empresarial Server 2015 en el entorno de servidor de su organización.
+Los dos artículos de la sección requisitos para su entorno describen lo que necesita tener y/o configurar antes de poder seguir adelante e implementar o actualizar correctamente a Skype Empresarial Server 2015 en el entorno de servidor de su organización.
   
 ### <a name="server-requirements"></a>Requisitos de servidor
 
@@ -40,6 +40,6 @@ Los dos artículos de la sección requisitos para su entorno describen lo que ne
   
 ### <a name="environmental-requirements"></a>Requisitos del entorno
 
-Los requisitos ambientales [para Skype Empresarial Server 2015](environmental-requirements.md) son un espectro más amplio de cosas que deben estar listos en la infraestructura antes de implementar Skype Empresarial Server 2015.
+[Los requisitos ambientales para Skype Empresarial Server 2015](environmental-requirements.md) son un espectro más amplio de cosas que deben estar listos en la infraestructura antes de implementar Skype Empresarial Server 2015.
   
 

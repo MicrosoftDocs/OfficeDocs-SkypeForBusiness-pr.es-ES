@@ -1,8 +1,8 @@
 ---
 title: Configurar complementos para salas de chat persistente en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Summary: Learn how to configure add-ins for Persistent Chat Server chat rooms in Skype Empresarial Server 2015.'
-ms.openlocfilehash: c23a0dd11d51bbfa1c49d8a910decda5be0ac48f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0020c85b5354738083a213e66cc7cc953e5b7e32
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854304"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402894"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configurar complementos para salas de chat persistente en Skype Empresarial Server 2015
  
@@ -29,7 +29,7 @@ Los complementos se usan para ampliar la experiencia en la sala mediante la asoc
  Para que los usuarios puedan ver un complemento en el cliente, debe agregar el complemento a la lista de complementos registrados y los administradores o creadores de salas de chat deben asociar salas con el complemento.
   
 > [!NOTE]
-> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, vea [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams, o bien seguir usando Skype Empresarial Server 2015. 
+> El chat persistente está disponible en Skype Empresarial Server 2015, pero ya no se admite en Skype Empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). Si necesita usar el chat persistente, las opciones son migrar usuarios que requieren esta funcionalidad a Teams o seguir usando Skype Empresarial Server 2015. 
 
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>Configurar complementos para salas de chat mediante el Panel de control
 
@@ -45,7 +45,7 @@ Para configurar complementos para salas de chat mediante el Panel de control:
     
 4. En la página **Complemento**, haga clic en **Nuevo**.
     
-5. En **Seleccionar un servicio,** seleccione el servicio correspondiente al grupo de servidores de chat persistente donde necesita crear el complemento. Los complementos no se pueden mover de un grupo a otro ni compartir entre grupos distintos.
+5. En **Seleccionar un servicio**, seleccione el servicio correspondiente al grupo de servidores de chat persistente donde necesita crear el complemento. Los complementos no se pueden mover de un grupo a otro ni compartir entre grupos distintos.
     
 6. En **Nuevo complemento**, haga lo siguiente:
     
@@ -57,7 +57,7 @@ Para configurar complementos para salas de chat mediante el Panel de control:
     
 ## <a name="configure-add-ins-by-using-windows-powershell"></a>Configurar complementos mediante Windows PowerShell
 
-Puede configurar complementos para los salas de chat mediante los siguientes cmdlets Windows PowerShell chat. Para obtener más información sobre la sintaxis, incluidos todos los parámetros disponibles, vea Skype Empresarial Server Shell de administración [de 2015](../management-shell.md).
+Puede configurar complementos para los salas de chat mediante los siguientes cmdlets Windows PowerShell chat. Para obtener más información sobre la sintaxis, incluidos todos los parámetros disponibles, [vea Skype Empresarial Server Shell de administración de 2015](../management-shell.md).
   
 
 |**Cmdlet**|**Descripción**|
@@ -69,9 +69,9 @@ Puede configurar complementos para los salas de chat mediante los siguientes cmd
    
 ### <a name="create-a-new-add-in"></a>Crear un nuevo complemento
 
-Puede crear un nuevo complemento mediante el cmdlet **New-CsPersistentChatAddin.**
+Puede crear un nuevo complemento mediante el cmdlet **New-CsPersistentChatAddin** .
   
-Por ejemplo, el siguiente comando crea un nuevo complemento (con el nombre ITPersistentChatAddin) para el grupo `atl-cs-001.contoso.com` . El parámetro URL y el valor del parámetro especifican la ubicación de la página `http://atl-cs-001.contoso.com/itchat` web del complemento:
+Por ejemplo, el siguiente comando crea un nuevo complemento (con el nombre ITPersistentChatAddin) para el grupo `atl-cs-001.contoso.com`. El parámetro URL y el valor del parámetro `http://atl-cs-001.contoso.com/itchat` especifican la ubicación de la página web del complemento:
   
 ```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 ### <a name="configure-settings-for-an-existing-add-in"></a>Configurar la configuración de un complemento existente
 
-Puede configurar las opciones de un complemento existente mediante el cmdlet **Set-CsPersistentChatAddIn.** Por ejemplo, el siguiente comando modifica la dirección URL asignada al complemento de chat persistente ITPersistentChatAddin. En este caso, la dirección URL se cambia a `http://atl-cs-001.contoso.com/itchat2` :
+Puede configurar las opciones de un complemento existente mediante el cmdlet **Set-CsPersistentChatAddIn** . Por ejemplo, el siguiente comando modifica la dirección URL asignada al complemento de chat persistente ITPersistentChatAddin. En este caso, la dirección URL se cambia a `http://atl-cs-001.contoso.com/itchat2`:
   
 ```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
@@ -87,7 +87,7 @@ Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddi
 
 ### <a name="retrieve-information-about-add-ins"></a>Recuperar información sobre complementos
 
-Puede obtener información acerca de los complementos mediante el cmdlet **Get-CsPersistentChatAddin.** Por ejemplo, el siguiente comando devuelve información sobre todos los complementos de chat persistente configurados para su uso en la organización:
+Puede obtener información acerca de los complementos mediante el cmdlet **Get-CsPersistentChatAddin** . Por ejemplo, el siguiente comando devuelve información sobre todos los complementos de chat persistente configurados para su uso en la organización:
   
 ```PowerShell
 Get-CsPersistentChatAddin
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>Quitar un complemento
 
-Puede quitar un complemento mediante el cmdlet **Remove-CsPersistentChatAddIn.** Por ejemplo, el siguiente comando quita el complemento de chat persistente ITChatAddin que se encuentra en el grupo `atl-cs-001.contoso.com` de servidores:
+Puede quitar un complemento mediante el cmdlet **Remove-CsPersistentChatAddIn** . Por ejemplo, el siguiente comando quita el complemento de chat persistente ITChatAddin que se encuentra en el grupo de servidores `atl-cs-001.contoso.com`:
   
 ```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

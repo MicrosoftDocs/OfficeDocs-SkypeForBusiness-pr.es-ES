@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (introducción)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cada grupo de servidores front-end y cada aplicación de sucursal con funciones de supervivencia solo pueden tener asociado un servidor de supervisión. Si se ha habilitado la supervisión en el sitio, el servidor de supervisión proporciona datos e informes del registro de detalles de las llamadas (CDR) y de calidad de la experiencia (QoE).
-ms.openlocfilehash: b7eeca39b79cfdcf2894441f19dfaf614992df83
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6be2c31b3e8cf432a8577ea35fa8883e7332931
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849313"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392092"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (introducción)
  
