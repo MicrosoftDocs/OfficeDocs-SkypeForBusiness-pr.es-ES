@@ -13,22 +13,22 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Busque y administre actualizaciones para Skype Empresarial Server 2019 y 2015 y Lync Server 2013 y 2010 en un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y, después, descárguelas.
-ms.openlocfilehash: 68b34b75cf0e671f5927c4e006e5567052be6e4e
-ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
+ms.openlocfilehash: c9a30c0671302f8cc8c3f27927e3a058dc3cfcd7
+ms.sourcegitcommit: 109be23768ae183e07a0833fa9a9e5cb0369cb43
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62921868"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368405"
 ---
 # <a name="skype-for-business-server-updates"></a>Actualizaciones de Skype Empresarial Server
 
 Busque y administre actualizaciones para [Skype Empresarial Server 2019](#skype-for-business-server-2019-update-history), [Skype Empresarial Server 2015](#skype-for-business-server-2015-update-history), [Lync Server 2013](#lync-server-2013-update-history) y [Lync Server 2010](#lync-server-2010-update-history) en un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y, después, descárguelas.
 
-Para obtener las últimas Skype Empresarial online y Microsoft 365 actualizaciones, consulte [el Microsoft 365 guía básica](https://go.microsoft.com/fwlink/p/?linkid=529454).
+Para obtener las últimas Skype Empresarial online y Microsoft 365 actualizaciones, consulte el [Microsoft 365 guía básica](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Skype Empresarial Server de actualizaciones de 2019
 
-[Kb 4470124](https://support.microsoft.com/kb/4470124) es la KB maestra para Skype Empresarial Server 2019. Contiene datos históricos sobre todas las actualizaciones acumulativas y revisiones que se han publicado para este producto. 
+[KB 4470124](https://support.microsoft.com/kb/4470124) es la KB maestra para Skype Empresarial Server 2019. Contiene datos históricos sobre todas las actualizaciones acumulativas y revisiones que se han publicado para este producto. 
 
 |Nombre del paquete|Número KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
@@ -43,7 +43,7 @@ Para obtener las últimas Skype Empresarial online y Microsoft 365 actualizacion
 |Skype Empresarial Server 2019 Actualización acumulativa 1|[Kb 4470124](https://support.microsoft.com/kb/4470124)| Julio de 2019 |
 | | | |
 
-### <a name="skype-for-business-server-2019-tools"></a>Skype Empresarial Server 2019
+### <a name="skype-for-business-server-2019-tools"></a>Skype Empresarial Server de 2019
 
 |Nombre del paquete |Fecha de lanzamiento|
 |:--- |:--- |
@@ -55,7 +55,7 @@ Para obtener las últimas Skype Empresarial online y Microsoft 365 actualizacion
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Skype Empresarial Server de actualizaciones de 2015
 
-[KB 3061064](https://support.microsoft.com/kb/3061064) es la KB maestra para Skype Empresarial Server 2015. Contiene datos históricos sobre todas las actualizaciones acumulativas y revisiones que se han publicado para este producto. 
+[Kb 3061064](https://support.microsoft.com/kb/3061064) es la KB maestra para Skype Empresarial Server 2015. Contiene datos históricos sobre todas las actualizaciones acumulativas y revisiones que se han publicado para este producto. 
 
 |Nombre del paquete|Número KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
@@ -69,20 +69,20 @@ Para obtener las últimas Skype Empresarial online y Microsoft 365 actualizacion
 |Actualización acumulativa 9 para Skype Empresarial Server 2015, Servidor de componentes web|[Kb 4487981](https://support.microsoft.com/kb/4487981)|Mayo de 2019 |
 |Actualización acumulativa 8 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral|[Kb 4464355](https://support.microsoft.com/kb/4464355)|Enero de 2019|
 |Actualización acumulativa 7 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral |[Kb 4340904](https://support.microsoft.com/kb/4340904) |Julio de 2018 |
-|Actualización acumulativa 6 Revisión 2 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral |[Kb 4086059](https://support.microsoft.com/kb/4086059) |Marzo de 2018 |
+|Actualización acumulativa 6 Revisión 2 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral |[KB 4086059](https://support.microsoft.com/kb/4086059) |Marzo de 2018 |
 |Actualización acumulativa 6 Revisión 1 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral |[Kb 4074701](https://support.microsoft.com/kb/4074701)|Enero de 2018 |
 |Actualización acumulativa 6 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral|[Kb 4036312](https://support.microsoft.com/kb/4036312) |Diciembre de 2017 |
 |Actualización acumulativa 5 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral  |[Kb 4012621](https://support.microsoft.com/kb/4012621) |Mayo de 2017 |
-|Actualización acumulativa 4 Revisión 1 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral |[KB 3207506](https://support.microsoft.com/kb/3207506) |Febrero de 2017 |
+|Actualización acumulativa 4 Revisión 1 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral |[Kb 3207506](https://support.microsoft.com/kb/3207506) |Febrero de 2017 |
 |Actualización acumulativa 4 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral |[Kb 3199093](https://support.microsoft.com/kb/3199093) |Noviembre de 2017 |
-|Actualización acumulativa 3 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral |[KB 3149227](https://support.microsoft.com/kb/3149227) |Junio de 2016 |
+|Actualización acumulativa 3 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral |[Kb 3149227](https://support.microsoft.com/kb/3149227) |Junio de 2016 |
 |Actualización acumulativa 2 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral |[Kb 3134260](https://support.microsoft.com/kb/3134260) |Marzo de 2016 |
 |Actualización acumulativa 1 para Skype Empresarial Server 2015, servidor front-end y servidor perimetral |[KB 3097645](https://support.microsoft.com/kb/3097645) |Noviembre de 2015 |
-|Actualización acumulativa para Skype Empresarial Server 2015, componentes principales |[KB 3098601](https://support.microsoft.com/kb/3098601) |Septiembre de 2015 |
+|Actualización acumulativa para Skype Empresarial Server 2015, Componentes principales |[Kb 3098601](https://support.microsoft.com/kb/3098601) |Septiembre de 2015 |
 |Actualización acumulativa para Skype Empresarial Server 2015, servidor front-end y servidor perimetral|[Kb 3061059](https://support.microsoft.com/kb/3061059) |Junio de 2015 |
 ||||
 
-### <a name="skype-for-business-server-2015-tools"></a>Skype Empresarial Server de 2015
+### <a name="skype-for-business-server-2015-tools"></a>Skype Empresarial Server 2015
 
 |Nombre del paquete |Fecha de lanzamiento|
 |:--- |:--- |
@@ -97,10 +97,11 @@ Para obtener las últimas Skype Empresarial online y Microsoft 365 actualizacion
 
 |Nombre del paquete|Número KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
-|Actualización acumulativa de Lync Server 2013 10 Revisión 6 |[KB 5003602](https://support.microsoft.com/kb/5003602)|Mayo de 2021|
-|Actualización acumulativa de Lync Server 2013 10 Revisión 5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|Febrero de 2021|
-|Actualización acumulativa de Lync Server 2013 10 Revisión 4 |[Kb 4515509](https://support.microsoft.com/kb/4515509)|Julio de 2020|
-|Actualización acumulativa de Lync Server 2013 10 Revisión 3 |[Kb 4515509](https://support.microsoft.com/kb/4515509)|Septiembre de 2019|
+|Actualización acumulativa de Lync Server 2013 10 Revisión 7 |[Kb 5010850](https://support.microsoft.com/kb/5010850)|Febrero de 2022|
+|Actualización acumulativa de Lync Server 2013 10 Revisión 6 |[Kb 5003729](https://support.microsoft.com/kb/5003729)|11 de mayo de 2021|
+|Actualización acumulativa de Lync Server 2013 10 Revisión 5 |[Kb 5000675](https://support.microsoft.com/kb/5000675), [KB 5000688](https://support.microsoft.com/kb/5000688)|9 de febrero de 2021|
+|Actualización acumulativa de Lync Server 2013 10 Revisión 4 |[Kb 4564312](https://support.microsoft.com/kb/4564312)|Julio de 2020|
+|Actualización acumulativa de Lync Server 2013 10 Revisión 3 |[Kb 4518345](https://support.microsoft.com/kb/4518345)|Septiembre de 2019|
 |Actualización acumulativa de Lync Server 2013 10 Revisión 2 |[Kb 4501392](https://support.microsoft.com/kb/4501392)|Junio de 2019|
 |Actualización acumulativa de Lync Server 2013 10 Revisión 1 |[Kb 4458772](https://support.microsoft.com/kb/4458772)|Enero de 2019|
 |Actualización acumulativa 10 de Lync Server 2013 |[Kb 4295703](https://support.microsoft.com/kb/4295703)|Julio de 2018 |
@@ -112,21 +113,21 @@ Para obtener las últimas Skype Empresarial online y Microsoft 365 actualizacion
 |Actualización acumulativa 8 de Lync Server 2013 |[Kb 3175336](https://support.microsoft.com/kb/3175336)|Agosto de 2016 |
 |Actualización acumulativa 7 de Lync Server 2013 |[Kb 3140581](https://support.microsoft.com/kb/3140581)|Abril de 2016 |
 |Actualización acumulativa de Lync Server 2013 6 Revisión 2 |[Kb 3175338](https://support.microsoft.com/kb/3175338)|Enero de 2016 |
-|Actualización acumulativa de Lync Server 2013 6 Revisión 1 |[KB 3121213](https://support.microsoft.com/kb/3121213)|Diciembre de 2015 |
+|Actualización acumulativa de Lync Server 2013 6 Revisión 1 |[Kb 3121213](https://support.microsoft.com/kb/3121213)|Diciembre de 2015 |
 |Actualización acumulativa 6 de Lync Server 2013 |[Kb 3081739](https://support.microsoft.com/kb/3081739)|Septiembre de 2015 |
 |Actualización acumulativa 5 de Lync Server 2013 10 |[Kb 3064728](https://support.microsoft.com/kb/3064728)|Julio de 2015 |
 |Actualización acumulativa de Lync Server 2013 5 Revisión 9 |[Kb 3051951](https://support.microsoft.com/kb/3051951)|Mayo de 2015 |
 |Actualización acumulativa de Lync Server 2013 5 Revisión 8 |[Kb 3031065](https://support.microsoft.com/kb/3031065)|Febrero de 2015 |
 |Actualización acumulativa 5 de Lync Server 2013 7.1 |[Kb 3027553](https://support.microsoft.com/kb/3140582)|Diciembre de 2014 |
-|Actualización acumulativa de Lync Server 2013 5 Revisión 7 |[Kb 3018232](https://support.microsoft.com/kb/3018232)|Diciembre de 2014 |
+|Actualización acumulativa de Lync Server 2013 5 Revisión 7 |[KB 3018232](https://support.microsoft.com/kb/3018232)|Diciembre de 2014 |
 |Actualización acumulativa de Lync Server 2013 5 Revisión 6 |[Kb 3010028](https://support.microsoft.com/kb/3010028)|Noviembre de 2014  |
 |Actualización acumulativa de Lync Server 2013 5 Revisión 5 |[Kb 3003358](https://support.microsoft.com/kb/3003358)|Octubre de 2014 |
-| Actualización acumulativa de Lync Server 2013 5 Revisión 2 |[KB 2987511](https://support.microsoft.com/kb/3120728)|Septiembre de 2014 |
+| Actualización acumulativa de Lync Server 2013 5 Revisión 2 |[Kb 2987511](https://support.microsoft.com/kb/3120728)|Septiembre de 2014 |
 | Actualización acumulativa 5 de Lync Server 2013 |[Kb 2937305](https://support.microsoft.com/kb/2937305)|Agosto de 2014 |
-|Actualización acumulativa 4 de Lync Server 2013 |[Kb 2905040](https://support.microsoft.com/kb/2905040)|Enero de 2014 |
+|Actualización acumulativa 4 de Lync Server 2013 |[KB 2905040](https://support.microsoft.com/kb/2905040)|Enero de 2014 |
 |Actualización acumulativa 3 de Lync Server 2013 | Kb 881682 |Octubre de 2013 |
-|Actualización acumulativa 2 de Lync Server 2013 |[KB 2835432](https://support.microsoft.com/kb/2835432)|Julio de 2013 |
-|Actualización acumulativa 1 de Lync Server 2013 |[Kb 2781550](https://support.microsoft.com/kb/2781550)|Febrero de 2013 |
+|Actualización acumulativa 2 de Lync Server 2013 |[Kb 2835432](https://support.microsoft.com/kb/2835432)|Julio de 2013 |
+|Actualización acumulativa 1 de Lync Server 2013 |[KB 2781550](https://support.microsoft.com/kb/2781550)|Febrero de 2013 |
 ||||
 
 ### <a name="alync-server-2013-dev-tools"></a></a>Herramientas de desarrollo de Lync Server 2013
@@ -144,7 +145,7 @@ Para obtener las últimas Skype Empresarial online y Microsoft 365 actualizacion
 
 #### <a name="pre-configured-vhds"></a>VHD preconfigurados
 
-La topología completa consta de siete máquinas virtuales que le permiten evaluar completamente las API de microsoft Lync 2013, Microsoft Exchange 2013, SharePoint 2013 y la plataforma de desarrolladores de UC (incluidos el SDK de Microsoft Lync 2013, la API administrada de servicios web 2.0 de Exchange, el SDK de Microsoft Lync Server 2013 y la API administrada de comunicaciones unificadas de Microsoft 4.0).
+La topología completa consta de siete máquinas virtuales que le permiten evaluar completamente las API de microsoft Lync 2013, Microsoft Exchange 2013, SharePoint 2013 y la plataforma de desarrolladores uc (incluidos el SDK de Microsoft Lync 2013, la API administrada de servicios web 2.0 de Exchange, el SDK de Microsoft Lync Server 2013 y la API administrada de comunicaciones unificadas de Microsoft 4.0).
 
 Nombre del paquete |Fecha de lanzamiento|
 |:--- |:--- |
@@ -170,7 +171,7 @@ Nombre del paquete |Fecha de lanzamiento|
 | Visor de archivado de pizarra de Lync Server 2013 |Febrero de 2013 |
 |[Complemento de Lync VDI 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) |Octubre de 2012 |
 |[Complemento de Lync VDI 2013 (64 bits)](https://www.microsoft.com/download/details.aspx?id=35454) |Octubre de 2012 |
-|[Galería de símbolos Office Visio nueva](https://www.microsoft.com/download/details.aspx?id=35772) |Julio de 2016 |
+|[Nueva galería Office Visio de símbolos](https://www.microsoft.com/download/details.aspx?id=35772) |Julio de 2016 |
 
 ### <a name="lync-server-2013-downloadable-documentation"></a><a id="lync-2013-downloadable-documentation"></a>Documentación descargable de Lync Server 2013
 
@@ -188,7 +189,7 @@ Nombre del paquete |Fecha de lanzamiento|
 |:--- |:--- |:--- |
 |Actualización acumulativa de Lync Server 2010 18 Revisión 1 | Kb 2493736 |Junio de 2019|
 |Actualización acumulativa 18 de Lync Server 2010| Kb 2493736 |Enero de 2019|
-|Actualización acumulativa 17 de Lync Server 2010| KB 3148801 |Abril de 2016 |
+|Actualización acumulativa 17 de Lync Server 2010| Kb 3148801 |Abril de 2016 |
 |Actualización acumulativa 16 de Lync Server 2010| Kb 3057803 |Mayo de 2015 |
 |Actualización acumulativa 15 de Lync Server 2010 | Kb 3030726 |Febrero de 2015|
 |Actualización acumulativa 13 de Lync Server 2010| Kb 2982385 </br> Kb 2982388 |Septiembre de 2014|
@@ -198,12 +199,12 @@ Nombre del paquete |Fecha de lanzamiento|
 |Actualización acumulativa 9 de Lync Server 2010 | KB 2860700 |Julio de 2013|
 |Actualización acumulativa 8 de Lync Server 2010 | Kb 2791381  |Julio de 2013|
 |Actualización acumulativa 7 de Lync Server 2010 | Kb 2737915 |Octubre de 2012|
-|Actualización acumulativa 6 de Lync Server 2010 | KB 2701585 |Junio de 2012|
+|Actualización acumulativa 6 de Lync Server 2010 | Kb 2701585 |Junio de 2012|
 |Actualización acumulativa 5 de Lync Server 2010 | Kb 2670352 |Febrero de 2012|
-|Actualización acumulativa 4 de Lync Server 2010 | KB 2514980 |Noviembre de 2011|
+|Actualización acumulativa 4 de Lync Server 2010 | Kb 2514980 |Noviembre de 2011|
 |Actualización acumulativa 3 de Lync Server 2010| Kb 2571546 |Julio de 2011|
-|Actualización acumulativa 2 de Lync Server 2010| Kb 2500442 |Abril de 2011|
-|Actualización acumulativa 1 de Lync Server 2010| Kb 2467775 |Enero de 2011|
+|Actualización acumulativa 2 de Lync Server 2010| KB 2500442 |Abril de 2011|
+|Actualización acumulativa 1 de Lync Server 2010| KB 2467775 |Enero de 2011|
 ||||
 
 ### <a name="group-chat-2010-updates"></a>Actualizaciones de Chat en grupo de 2010
@@ -211,8 +212,8 @@ Nombre del paquete |Fecha de lanzamiento|
 |Nombre del paquete|Número KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
 |Actualización acumulativa para Lync Server 2010, Chat en grupo |[Kb 2884623](https://support.microsoft.com/kb/2884623) |Octubre de 2013|
-|Actualización acumulativa para Lync Server 2010, Herramienta de administración de chat en grupo |[KB 2884631](https://support.microsoft.com/kb/2884631) |Octubre de 2013|
-|Actualización acumulativa para Lync 2010, Chat en grupo |[Kb 2884627](https://support.microsoft.com/kb/2884627) |Octubre de 2013|
+|Actualización acumulativa para Lync Server 2010, Herramienta de administración de chat en grupo |[Kb 2884631](https://support.microsoft.com/kb/2884631) |Octubre de 2013|
+|Actualización acumulativa para Lync 2010, Chat en grupo |[KB 2884627](https://support.microsoft.com/kb/2884627) |Octubre de 2013|
 
 ### <a name="lync-server-2010-developer-tools"></a><a id="lync-2010-dev-tools"></a>Herramientas para desarrolladores de Lync Server 2010
 
