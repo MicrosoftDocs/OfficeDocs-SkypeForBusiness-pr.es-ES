@@ -7,49 +7,49 @@ metadata:
   description: "Microsoft está encantado de ofrecer clases de aprendizaje virtuales, en directo y gratuitas diseñadas para que usted esté al día con Teams. \_ Si es un encargado, administrador, profesional de TI o usuario final, encontrará la clase perfecta. Únase a nosotros para ver Microsoft Teams en acción, obtener respuestas a sus preguntas e interactuar con nuestros instructores en directo. Haga clic en una sesión a continuación para registrarse y asegúrese de consultar más cursos más adelante."
   ms.topic: hub-page
   author: SerdarSoysal
-  ms.author: serdars
-  ms.date: 06/16/2020
+  ms.author: samanro
+  ms.date: 03/04/2022
 highlightedContent:
   items:
-    - title: Bienvenido a Microsoft Teams
+    - title: Introducción a Microsoft Teams
       itemType: overview
-      url: 'https://aka.ms/SayhelloTeams'
-    - title: Formación bajo demanda del usuario final
+      url: 'https://youtu.be/UoWHXrmIszg'
+    - title: Introducción a Teams
       itemType: video
-      url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+      url: 'https://aka.ms/GetstartedwithMSTeams'
     - title: Herramientas de adopción de Microsoft 365
       itemType: deploy
       url: 'https://adoption.microsoft.com'
 productDirectory:
   items:
-    - title: Introducción a Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
-      summary: 'Desde chats y reuniones hasta equipos y canales, al final de esta sesión, los usuarios podrán usar Teams con confianza. (Público: Todos)'
-      url: 'https://aka.ms/GetstartedwithMSTeams'
-    - title: Usar llamadas y chat en Teams
+    - title: Llamadas y reuniones en Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
-      summary: 'Obtener información sobre cómo administrar todas las conversaciones desde una plataforma central. (Público: Todos)'
-      url: 'https://aka.ms/ChatCallingInTeams'
-    - title: Celebre reuniones efectivas con Teams.
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
-      summary: 'Obtener información sobre cómo hacer que las reuniones resulten más interesantes, productivas y significativas. (Público: Todos)'
-      url: 'https://aka.ms/RunmeetingsTeams'
+      summary: 'Use llamadas y reuniones para colaborar en tiempo real, mantenerse conectado y acceder a contenido compartido en cualquier momento para aprender, planear e innovar. (Nivel: Teams básicos; Audiencia: Todos)'
+      url: 'https://aka.ms/CallingMeetingsTraining'
     - title: Explorar equipos y canales en Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-group.svg'
-      summary: 'Obtenga información acerca de cómo puede mejorar la colaboración en proyectos y grupos de trabajo. (Público: Todos)'
-      url: 'https://aka.ms/TeamsandchannelsinTeams'
-    - title: Crear áreas de trabajo de colaboración en Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
-      summary: 'Explore formas de determinar el mejor enfoque para crear áreas de trabajo para proyectos y grupos de trabajo. (Público: Todos)'
-      url: 'https://aka.ms/CollaborateInTeams'
-    - title: Use sugerencias profesionales en Teams
+      summary: 'Comprenda el valor de los equipos y canales y cómo pueden ayudarle a colaborar en áreas de trabajo virtuales o con un grupo completo. (Nivel: Teams básicos; Audiencia: Todos)'
+      url: 'https://aka.ms/TeamsChannelsTraining'
+    - title: 'Sugerencias, los métodos abreviados y las novedades de Teams'
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
-      summary: 'Obtenga información sobre cómo Teams puede ayudar a organizar su jornada y hacer que resulte más fácil estar conectado con los compañeros. (Público: Todos)'
+      summary: 'Obtenga información sobre sugerencias y métodos abreviados para convertirse en un usuario de gran potencia. Descubra las novedades y busque la dirección de un experto sobre las características más recientes. (Nivel: Teams básicos; Audiencia: Todos)'
       url: 'https://aka.ms/TeamsProTips'
-    - title: Microsoft Teams en YouTube
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
-      summary: 'Suscríbase y sea el primero en obtener información sobre las últimas características, sugerencias y trucos, y mucho más. (Público: Todos)'
-      url: 'https://www.youtube.com/MicrosoftTeams'
+    - title: Ir más lejos con Teams reuniones
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
+      summary: 'Obtenga información sobre las características clave Teams reuniones y seminarios web, como herramientas de colaboración, salas de reuniones y acceso a recursos de reunión. (Nivel: Teams ir más lejos; Audiencia: Todos)'
+      url: 'https://aka.ms/MeetingsGoFurther'
+    - title: Personalizar Teams con aplicaciones
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
+      summary: 'Vea cómo las integraciones de aplicaciones en Teams se muestran en una única interfaz de usuario y permiten a los empleados trabajar mejor juntos. (Nivel: Teams ir más lejos; Audiencia: Todos)'
+      url: 'https://aka.ms/Teamsappstraining'
+    - title: Soluciones de trabajo híbridas
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
+      summary: 'Manténgase conectado, seguro y productivo a medida que se adapta a las nuevas formas de trabajo. Aprenda a ser productivo en un solo lugar: reuniones, llamadas, chat, aplicaciones y mucho más. (Nivel: Teams ir más lejos; Audiencia: Todos)'
+      url: 'https://aka.ms/HybridWorkTraining'
+    - title: Aumentar la colaboración con Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
+      summary: 'Aprenda a usar al máximo canales, chats y aplicaciones conectadas para mejorar la comunicación y profundizar la colaboración entre equipos de todos los tamaños. (Nivel: Teams básicos; Audiencia: Todos)'
+      url: 'https://aka.ms/CollaborateInTeams'
     - title: 'Teams para el ámbito educativo: seminarios web'
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
       summary: 'Aprenda a usar Teams en entorno de la Educación superior. (Público: empleados, alumnos, profesores, investigadores, profesionales de TI)'
@@ -60,11 +60,14 @@ productDirectory:
       url: 'https://aka.ms/upgradeworkshops'
 additionalContent:
   sections:
-    - title: Cursos
+    - title: Aprendizaje adicional
       items:
         - title: Ruta de acceso Learning trabajo en equipo
           summary: La colaboración es una habilidad vital para la fuerza de trabajo actual. Obtenga información sobre cómo las características sólidas de Microsoft Teams le permiten mantenerse conectado y trabajar de forma más eficiente con su equipo.
           url: /learn/paths/teamwork-specialist
         - title: Ruta de acceso del Learning de adopción de servicios
-          summary: El Especialista en adopción de servicios de Microsoft Learning ruta de acceso Teams y otros Microsoft 365 servicios. Obtenga información sobre cómo impulsar la adopción de servicios Microsoft en su organización.
+          summary: El especialista en adopción de servicios de Microsoft Learning ruta de acceso Teams y otros Microsoft 365 servicios. Obtenga información sobre cómo impulsar la adopción de servicios Microsoft en su organización.
           url: /learn/paths/m365-service-adoption
+        - title: Vídeos de aprendizaje a petición
+          summary: ¿No hay tiempo para una clase? Explore nuestro catálogo de vídeos del soporte técnico de Microsoft para obtener aprendizaje a petición.
+          url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
