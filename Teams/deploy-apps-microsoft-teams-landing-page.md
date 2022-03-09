@@ -3,9 +3,9 @@ title: Conectores, bots y aplicaciones en Microsoft Teams
 ms.reviewer: ''
 description: Obtenga información sobre las aplicaciones, los bots y los conectores, y sobre cómo decidir qué implementar en Microsoft Teams en función del perfil y los requisitos empresariales de su organización.
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 audience: admin
 ms.date: 02/10/2021
 ms.service: msteams
@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a2789e522e666894ca58c8b22e9d571b35a4fb26
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05d683bbefa9b3cc564e4f97e52f0fad441f2763
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618516"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070399"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Conectores, bots y aplicaciones en Microsoft Teams
 
@@ -69,7 +69,7 @@ De forma predeterminada, todas las aplicaciones proporcionadas por Microsoft, as
 
 ### <a name="app-permissions-and-other-considerations"></a>Permisos de aplicación y otras consideraciones
 
-Los usuarios tienen que dar su consentimiento a las aplicaciones y el administrador o profesional de TI las administra mediante directivas. Sin embargo, en la mayoría de los casos, los permisos y el perfil de riesgo de la aplicación se definen en la misma. 
+Los usuarios tienen que dar su consentimiento a las aplicaciones y el administrador o profesional de TI las administra mediante directivas. Sin embargo, los permisos y el perfil de riesgo de la aplicación se definen en la misma aplicación.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
@@ -80,7 +80,7 @@ Los usuarios tienen que dar su consentimiento a las aplicaciones y el administra
 
 Los bots son programas automatizados que responden a las consultas o dan actualizaciones y notificaciones sobre detalles que puedan resultar interesantes para los usuarios o sobre los que quieran mantenerse informados. Los bots permiten a los usuarios interactuar con los servicios de nube, como la administración de tareas, la programación y los sondeos, en un chat de Teams. Teams admite bots en los canales y conversaciones privadas. Los administradores pueden controlar si se permite el uso de bots en una organización con Microsoft 365 u Office 365.
 
-| Pregúntese lo siguiente: | Action |
+| Pregúntese lo siguiente: | Acción |
 |--------------|--------|
 |¿Me interesa permitir bots personalizados en mi organización?|Para obtener más información sobre cómo agregar bots, vea [Agregar bots para chats privados y canales en Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). Para obtener información sobre cómo activar o desactivar los bots personalizados, consulte [Configuración de administrador de aplicaciones en Microsoft Teams](admin-settings.md).|
 |||
@@ -89,7 +89,7 @@ Los bots son programas automatizados que responden a las consultas o dan actuali
 
 Los propietarios y los miembros del equipo pueden agregar pestañas adicionales a cada canal para integrar mejor sus servicios en la nube. Agregue pestañas para ayudar a los usuarios a acceder y administrar los datos que más necesitan o usan. En los canales, las pestañas de Conversaciones y Archivos se crean de forma predeterminada. En cada chat privado, las pestañas de Conversaciones, Archivos, Organización y Actividad se crean de forma predeterminada. Además de estas pestañas integradas, puede diseñar y agregar pestañas personalizadas. Para obtener información sobre cómo activar o desactivar las aplicaciones de Teams en su organización, lea [Configuración de administrador de aplicaciones en Teams](admin-settings.md).
 
-| Pregúntese lo siguiente: | Action |
+| Pregúntese lo siguiente: | Acción |
 |--------------|--------|
 |¿Me interesa permitir pestañas personalizadas en mi organización?|Para obtener más información, vea [Usar fichas integradas y personalizadas en Teams](built-in-custom-tabs.md).|
 |||
