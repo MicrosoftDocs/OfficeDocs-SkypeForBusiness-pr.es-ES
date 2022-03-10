@@ -3,7 +3,7 @@ title: Cifrado de un extremo a otro para Microsoft Teams
 author: kccross
 ms.author: krowley
 manager: laurawi
-ms.date: 10/23/2021
+ms.date: 03/08/2022
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -19,21 +19,21 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdce0e30c1aaa3b40f362acda47c1a9ffa35161f
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 202aee527896b331a6c8e64e1fc8736fa4942ecb
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518942"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388203"
 ---
-# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls-public-preview"></a>Usar el cifrado de un extremo a otro para las llamadas de Microsoft Teams uno a uno (versión preliminar pública)
+# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Usar el cifrado de un extremo a otro para las llamadas de Microsoft Teams uno a uno
 
 > [!IMPORTANT]
 > El modelo de servicio de Teams y su compatibilidad con el cifrado están sujetos a cambios para mejorar las experiencias de los clientes. Por ejemplo, el servicio deja de usar periódicamente conjuntos de cifrado que ya no se consideran seguros. Cualquiera de estos cambios se haría con el objetivo de mantener Teams seguro y confiable por naturaleza. Además, todo el contenido de los clientes de los centros de datos de Microsoft está cifrado. Para obtener información sobre las capas de cifrado en Microsoft 365, consulte [Cifrado en Microsoft 365](/microsoft-365/compliance/encryption).
 
 El cifrado de un extremo a otro, o E2EE, se produce cuando el contenido se cifra antes de que el destinatario previsto lo envíe y descifre. Con el cifrado de un extremo a otro, solo los dos sistemas de punto de conexión están implicados en el cifrado y descifrado de los datos de llamada. Ninguna otra parte, incluido Microsoft, tiene acceso a la conversación descifrada.
 
-Con esta versión preliminar pública, estamos implementando E2EE para llamadas uno a uno no programadas. Solo el flujo multimedia en tiempo real, es decir, los datos de vídeo y voz, para las llamadas de Teams uno a uno se cifran de un extremo a otro. Ambas partes deben activar esta configuración para habilitar el cifrado de un extremo a otro. El [Cifrado en Microsoft 365](/microsoft-365/compliance/encryption) protege el chat, el uso compartido de archivos, la presencia y otro contenido en la llamada.
+Con E2EE para las llamadas individuales no programadas, sólo el flujo de medios en tiempo real, es decir, los datos de vídeo y de voz, para las llamadas de equipos individuales están cifrados de extremo a extremo. Ambas partes deben activar esta configuración para habilitar el cifrado de un extremo a otro. El [Cifrado en Microsoft 365](/microsoft-365/compliance/encryption) protege el chat, el uso compartido de archivos, la presencia y otro contenido en la llamada.
 
 Si no habilita el cifrado de un extremo a otro, Teams todavía protege una llamada o reunión mediante el cifrado basado en estándares del sector. Los datos intercambiados durante las llamadas siempre son seguros mientras están en tránsito y en reposo. Para obtener más información, vea [Cifrado multimedia para Teams](teams-security-guide.md#media-encryption).
 
@@ -109,7 +109,7 @@ Su cuenta de trabajo o escuela necesita el Teams o el rol de administrador globa
 
 #### <a name="to-enable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>Para habilitar el cifrado de un extremo a otro para todo el inquilino mediante la directiva global
 
-De forma predeterminada, el cifrado de un extremo a otro está deshabilitado. Para habilitar el cifrado de un extremo a otro para todo el inquilino estableciendo la directiva global predeterminada, ejecute el cmdlet [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) como se indica a continuación.
+Para habilitar el cifrado de un extremo a otro para todo el inquilino estableciendo la directiva global predeterminada, ejecute el cmdlet [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) como se indica a continuación.
 
 ```powershell
 Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType DisabledUserOverride
@@ -123,7 +123,7 @@ Donde:
 
 #### <a name="to-disable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>Para deshabilitar el cifrado de un extremo a otro para todo el inquilino mediante la directiva global
 
-De forma predeterminada, el cifrado de un extremo a otro está deshabilitado. Si ha realizado cambios en la directiva global, puede volver a cambiar la configuración ejecutando el cmdlet [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) como se indica a continuación.
+Si ha realizado cambios en la directiva global, puede volver a cambiar la configuración ejecutando el cmdlet [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) como se indica a continuación.
 
 ```powershell
 Grant-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType Disabled
@@ -149,7 +149,7 @@ Donde:
 
 - *`policyname`* es el nombre que desea usar para la directiva. Los nombres de directiva no pueden contener espacios, por ejemplo, ContosoE2EEUserPolicy.
 
-Los usuarios aún necesitan activar las llamadas cifradas de un extremo a otro en su configuración de Teams para poder realizar una llamada cifrada de un extremo a otro. Para obtener instrucciones, vea [Usar el cifrado de un extremo a otro para llamadas de Teams](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90).
+Los usuarios aún necesitan activar las llamadas cifradas de un extremo a otro en su configuración de Teams para poder realizar una llamada cifrada de un extremo a otro. Para ver las instrucciones, consulte [Usar cifrado de extremo a extremo para las llamadas de Teams](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90)
 
 Por ejemplo:
 
