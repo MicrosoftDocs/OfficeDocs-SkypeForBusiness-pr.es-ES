@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ddd88bb34c383f5a712e7db1f946a156f68c1f4
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: c734fe5d6326d0fc4bfddfbc381d66339303d36e
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62389802"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63392882"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 
@@ -32,7 +32,7 @@ El complemento para reunión de equipo permite a los usuarios programar reunione
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>El complemento para reunión de Microsoft Teams en Outlook para Windows
 
-El complemento Reunión de Teams se instala automáticamente para los usuarios que tienen Microsoft Teams y Office 2013, Office 2016 u Office 2019 instalados en su PC Windows. Los usuarios verán el complemento reunión de Teams en la cinta de opciones Calendario de Outlook.
+El complemento Reunión de Teams se instala automáticamente para los usuarios que tienen Microsoft Teams y Office 2013, Office 2016, Office 2019 u Office 2021 instalados en su PC Windows. Los usuarios verán el complemento reunión de Teams en la cinta de opciones Calendario de Outlook.
 
 ![Captura de pantalla del complemento reunión de Teams en la cinta de Outlook.](media/Teams-add-in-for-Outlook.png)
 
@@ -100,7 +100,7 @@ Los clientes [pueden elegir la vía de actualización de Skype Empresarial a Tea
 
 Cuando los usuarios que se encuentran en modo de Aplicaciones aisladas programan una reunión en Outlook, normalmente esperan poder decidir si se hará en Skype Empresarial o en Teams. En Outlook en la Web, Outlook para Windows y Outlook para Mac, los usuarios que se encuentran en modo de aplicaciones aisladas ven de forma predeterminada tanto el complemento de Microsoft Teams como el de Skype Empresarial. Puede establecer una configuración de directiva de reuniones de Microsoft Teams para controlar si los usuarios que se encuentran en modo de aplicaciones aisladas pueden usar solamente el complemento para reunión de Microsoft Teams o los complementos para reunión de Microsoft Teams y Skype Empresarial.
 
-Debido a algunas limitaciones de la versión inicial, Outlook para dispositivos móviles solo admite la creación de reuniones de Skype Empresarial **o** de Teams. Consulte la siguiente tabla para obtener información.
+Debido a ciertas limitaciones en la versión inicial, Outlook Mobile solo puede admitir la creación de reuniones de Skype Empresarial **o** Teams. Consulte la tabla siguiente para más información.
 
 | Modo de coexistencia en el centro de administración de Teams | Proveedor de reuniones predeterminado en Outlook para dispositivos móviles |
 | --------------------------------------|---------------------------------------------|
