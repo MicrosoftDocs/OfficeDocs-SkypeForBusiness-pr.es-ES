@@ -21,12 +21,12 @@ description: Su administrador de Teams o de TI puede configurar el acceso extern
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 86a1b83ab0eb2d15810f94d61d0f7faccc226aa4
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: ec2ee80d2475742380944b2e834b5c7b7cf24275
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388102"
+ms.locfileid: "63392922"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Administrar el acceso externo en Microsoft Teams
 
@@ -46,7 +46,7 @@ Use el acceso externo si:
 
 Las directivas de acceso externo incluyen controles para cada tipo de federación en los niveles de organización y usuario. Al desactivar una directiva en el nivel de organización, se desactiva para todos los usuarios, independientemente de su configuración de nivel de usuario. Todas las opciones de acceso externo están habilitadas de forma predeterminada.
 
-El Centro de administración de Teams controla el acceso externo en el nivel de organización. Si desea controlar el acceso externo en el recurso de usuario, debe usar PowerShell. Consulte [Usar PowerShell](#using-powershell) a continuación para obtener más información.
+El Centro de administración de Teams controla el acceso externo en el nivel de organización. La mayoría de las opciones (excepto las restricciones de dominio) están disponibles en el nivel de usuario mediante PowerShell. Consulte [Usar PowerShell](#using-powershell) a continuación para obtener más información.
 
 > [!NOTE]
 > Si desactiva el acceso externo en su organización, los usuarios ajenos a la organización podrán unirse a las reuniones mediante la participación anónima. Para más información, consulte [Administrar la configuración de las reuniones en Teams](meeting-settings-in-teams.md).
@@ -143,13 +143,13 @@ Para obtener más información sobre las formas en las que pueden comunicarse lo
 
 La configuración de nivel de organización se puede configurar mediante [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) y la configuración de nivel de usuario se puede configurar mediante [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
 
-En la tabla siguiente se muestran los parámetros de cmdlet usados para configurar la federación. Tenga en cuenta que la configuración de la federación con dominios específicos solo se puede realizar en el nivel de organización y no en el nivel de usuario.
+En la tabla siguiente se muestran los parámetros de cmdlet usados para configurar la federación.
 
 |Configuración|Nivel de organización (Set-CSTenantFederationConfiguration)|Nivel de usuario (Set-CsExternalAccessPolicy)|
 |:-------|:--------|:------------------|
 |Habilitar o deshabilitar la federación con otras organizaciones de Teams y Skype Empresarial|`-AllowFederatedUsers`|`-EnableFederationAccess`|
-|Habilitar la federación con dominios específicos|`-AllowedDomains`|N/D|
-|Deshabilitar la federación con dominios específicos|`-Blocked Domains`|N/D|
+|Habilitar la federación con dominios específicos|`-AllowedDomains`|No disponible|
+|Deshabilitar la federación con dominios específicos|`-Blocked Domains`|No disponible|
 |Habilitar o deshabilitar la federación con usuarios de Teams que no están administrados por una organización|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
 |Habilitar o deshabilitar que los usuarios de Teams no administrados por una organización inicien conversaciones|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |Habilitar o deshabilitar la federación con Skype|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
