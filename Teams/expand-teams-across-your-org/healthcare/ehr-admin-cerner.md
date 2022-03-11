@@ -22,19 +22,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Obtenga información sobre cómo integrar el conector EHR de Teams para permitir que los proveedores de servicios de salud de su organización realicen visitas virtuales con pacientes u otros proveedores en Teams directamente desde el sistema EHR cerner.
-ms.openlocfilehash: fd37b32acfd2a33cde61b56c7f17191e7470923e
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+description: Obtenga información sobre cómo integrar el conector EHR de Teams para permitir que los proveedores de salud de su organización realicen visitas virtuales con pacientes u otros proveedores en Teams directamente desde el sistema EHR de Cerner.
+ms.openlocfilehash: d7f34be9729989f7930cc6f478738b43b716f6ac
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929335"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435884"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>Visitas virtuales con Teams: integración en Cerner EHR
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-El Microsoft Teams registro de salud electrónico (EHR) permite a los médicos iniciar una visita virtual de pacientes o consultar con otro proveedor en Microsoft Teams directamente desde el sistema EHR cerner. Integrada en la nube de Microsoft 365, Teams permite una colaboración y comunicación sencillas y seguras con herramientas de chat, vídeo, voz y atención sanitaria en un único concentrador compatible con el cumplimiento de hipaa, certificación HITECH y mucho más.
+El Microsoft Teams registro de salud electrónico (EHR) permite a los médicos iniciar una visita virtual de pacientes o consultar con otro proveedor de Microsoft Teams directamente desde el sistema EHR cerner. Integrada en la nube de Microsoft 365, Teams permite una colaboración y comunicación sencillas y seguras con herramientas de chat, vídeo, voz y atención sanitaria en un único concentrador compatible con el cumplimiento de hipaa, certificación HITECH y mucho más.
 
 La plataforma de comunicación y colaboración de Teams facilita a los médicos cortar el desorden de sistemas fragmentados para que puedan centrarse en proporcionar la mejor atención posible. Con el Teams EHR, puede:
 
@@ -56,7 +56,7 @@ Antes de integrar el Teams EHR en su organización sanitaria, debe tener lo sigu
 - Una suscripción activa para Microsoft Teams independiente del conector EHR (solo se aplica al realizar pruebas en un entorno EHR de producción).
 - Los usuarios tienen una licencia Microsoft 365 o Office 365 que incluye Teams reuniones.
 - Teams se adopta y se usa en su organización sanitaria.
-- Sus sistemas cumplen todos los [requisitos de software y explorador](../../hardware-requirements-for-the-teams-app.md) para Teams.
+- Sus sistemas cumplen todos [los requisitos de software y explorador](../../hardware-requirements-for-the-teams-app.md) para Teams.
 - Versión cerner de noviembre de 2018 o posterior
 
 ## <a name="set-up-the-teams-ehr-connector"></a>Configurar el conector Teams EHR
@@ -69,11 +69,11 @@ Para la configuración del conector, debe realizar las siguientes acciones:
 - [Revisar y finalizar la configuración](ehr-admin-cerner.md#review-and-finish-the-configuration)
 
 > [!IMPORTANT]
-> Estos pasos deben ser completados por el Microsoft 365 global de su organización.  
+> El administrador global de su organización debe completar Microsoft 365 estos pasos.  
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>Iniciar el portal de configuración del conector EHR
 
-Para empezar, el administrador de Microsoft 365 inicia el portal de configuración del conector [EHR](https://ehrconnector.teams.microsoft.com) e inicia sesión con sus credenciales de Microsoft.
+Para empezar, el Microsoft 365 inicia el portal de configuración del conector [EHR](https://ehrconnector.teams.microsoft.com) e inicia sesión con sus credenciales de Microsoft.
 
 El Microsoft 365 puede configurar un único departamento o varios departamentos para probar la integración. Configure la dirección URL de prueba y producción en el portal de configuración. Asegúrese de probar la integración desde el entorno de prueba de Cerner antes de pasar a la producción.
 
@@ -95,7 +95,7 @@ Seleccione **Siguiente** para ir al paso siguiente.
 
 Complete este paso si su organización quiere que Microsoft administre las notificaciones DE SMS para sus pacientes. Al habilitar las notificaciones POR SMS, los pacientes recibirán mensajes de confirmación y aviso para las visitas programadas.
 
-Para habilitar las notificaciones SMS, Microsoft 365 administrador hace lo siguiente:
+Para habilitar las notificaciones SMS, el Microsoft 365 hace lo siguiente:
 
 1. En la página notificaciones SMS, seleccione ambas casillas de consentimiento para:
 
@@ -112,7 +112,7 @@ Para habilitar las notificaciones SMS, Microsoft 365 administrador hace lo sigui
 
     Elija **Listo** y, a continuación, **seleccione Siguiente**.
 
-1. Para vincular el número de teléfono a una dirección URL base de FHIR, **en Teléfono número** en la sección configuración de **SMS**, seleccione el número. Haga esto para cada dirección URL base de FHIR para la que desea habilitar las notificaciones SMS.
+1. Para vincular el número de teléfono a una dirección URL base de FHIR, **en Teléfono número** en la sección configuración **de SMS**, seleccione el número. Haga esto para cada dirección URL base de FHIR para la que desea habilitar las notificaciones SMS.
 
     :::image type="content" source="media/ehr-admin-cerner-link-phone-number.png" alt-text="Captura de pantalla que muestra cómo vincular un número de teléfono a una dirección URL base de FHIR." lightbox="media/ehr-admin-cerner-link-phone-number.png":::
 
@@ -138,7 +138,7 @@ Después de completar los pasos del conector EHR y los pasos de configuración d
 
 ### <a name="provider-experience"></a>Experiencia del proveedor
 
-Los proveedores de salud de su organización pueden unirse a las visitas Teams desde el portal de PowerChart. El proveedor debe ir al consejo del paciente donde la Teams está disponible.
+Los proveedores de salud de su organización pueden unirse a las visitas Teams desde el portal de PowerChart. El proveedor debe desplazarse hasta el tablero del paciente donde la Teams está disponible.
 
 Desde allí, el proveedor puede ver la información de las visitas, unirse a las visitas y enviar el vínculo de la reunión. Después del inicio de sesión único, el proveedor se llevará directamente a la cita virtual en Teams.
 
@@ -164,13 +164,19 @@ Características clave de la experiencia del paciente
 - Los pacientes se colocan en una sala de espera hasta que el proveedor se une y los admite.
 - Los pacientes pueden probar el vídeo y el micrófono en la sala de espera antes de unirse a la visita.
 
+## <a name="get-insight-into-virtual-visits-usage"></a>Obtener información sobre el uso de visitas virtuales
+
+El [informe de uso](../../teams-analytics-and-reports/virtual-visits-usage-report.md) de visitas virtuales del centro de administración de Microsoft Teams proporciona a los administradores información general sobre Teams de las visitas virtuales de su organización. El informe muestra análisis detallados para citas virtuales, incluidas Teams reuniones integradas con EHR realizadas desde su sistema EHR.
+
+Puede ver métricas clave, como el tiempo de espera de la sala de espera y la duración de la visita. Use esta información para obtener información sobre las tendencias de uso para ayudarle a optimizar las visitas virtuales para ofrecer mejores resultados empresariales.
+
 ## <a name="privacy-and-location-of-data"></a>Privacidad y ubicación de los datos
 
 Teams integración en sistemas EHR optimiza la cantidad de datos que se usan y almacenan durante la integración y los flujos de visitas virtuales. La solución sigue los principios generales de privacidad y administración de datos de Teams, y las directrices estipuladas en Privacidad de Teams.
 
-El Teams EHR no almacena ni transfiere ningún dato personal identificable ni ningún registro de salud de pacientes o proveedores de salud desde el sistema EHR. Los únicos datos que almacena el conector EHR son el id. único del usuario de EHR, que se usa durante la Teams de la reunión.
+El Teams EHR no almacena ni transfiere ningún dato personal identificable ni ningún registro de salud de pacientes o proveedores de servicios de salud desde el sistema EHR. Los únicos datos que almacena el conector EHR son el id. único del usuario de EHR, que se usa durante la Teams de reunión.
 
-La identificación única del usuario de EHR se almacena en una de las tres regiones geográficas que se describen en [¿Dónde se almacenan los datos de los clientes de Microsoft 365?](/microsoft-365/enterprise/o365-data-locations) Todos los chats, grabaciones y otros datos compartidos en Teams por los participantes de la reunión se almacenan según las directivas de almacenamiento existentes. Para obtener más información sobre la ubicación de los datos en Teams, vea [Ubicación de los datos en Teams](../../location-of-data-in-teams.md).
+La identificación única del usuario de EHR se almacena en una de las tres regiones geográficas que se describen en [¿Dónde se almacenan los datos de los clientes de Microsoft 365?](/microsoft-365/enterprise/o365-data-locations) Todos los chats, grabaciones y otros datos compartidos en Teams por los participantes de la reunión se almacenan según las directivas de almacenamiento existentes. Para obtener más información sobre la ubicación de los datos en Teams, vea Ubicación [de los datos en Teams](../../location-of-data-in-teams.md).
 
 ## <a name="related-articles"></a>Artículos relacionados
 

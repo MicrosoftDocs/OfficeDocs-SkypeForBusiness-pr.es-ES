@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teams notas de la versión de PowerShell
 ms.reviewer: gothambi
-author: rajgodwin
-ms.author: gothambi
-manager: naanur
+author: sumitb18
+ms.author: subadjat
+manager: pbafna03
 ms.date: 12/10/2021
 ms.topic: conceptual
 audience: admin
@@ -13,12 +13,12 @@ ms.collection:
 description: Obtenga información sobre los cambios más recientes en Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b21dd96c44cff963b049e74e159abab1d97f226b
-ms.sourcegitcommit: 109be23768ae183e07a0833fa9a9e5cb0369cb43
+ms.openlocfilehash: 8e45a80f4e16c211ae37579dc7de273c53f64d16
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63368415"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435744"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams notas de la versión de PowerShell
 

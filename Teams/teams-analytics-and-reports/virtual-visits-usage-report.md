@@ -13,26 +13,24 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Obtenga información sobre cómo usar el informe de uso de visitas virtuales en el centro de administración de Microsoft Teams para obtener información general sobre la actividad visitas virtuales en su organización.
+description: Obtenga información sobre cómo usar el informe de uso de visitas virtuales en el centro de administración de Microsoft Teams para obtener información general sobre la actividad de visitas virtuales en su organización.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1f00a8e0837ad4603fe38f664f94716aa8016aa9
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: 2b3432ea92ad89c5304d81b266fce61fb9b95d5b
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929425"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435854"
 ---
 # <a name="microsoft-teams-virtual-visits-usage-report"></a>Microsoft Teams de uso de visitas virtuales
 
-**Esta es una característica de vista previa**.
-
-El informe de uso de visitas virtuales del centro de Microsoft Teams le ofrece información general sobre Teams de visitas virtuales de su organización. Puede ver la actividad detallada de las citas virtuales programadas a través de la aplicación [Bookings](../expand-teams-across-your-org/bookings-virtual-visits.md) y el conector Microsoft Teams registro de estado electrónico [(EHR](../expand-teams-across-your-org/healthcare/teams-in-hc.md#virtual-visits-and-electronic-healthcare-record-ehr-integration)).
+El informe de uso de visitas virtuales del centro de administración de Microsoft Teams le ofrece información general sobre Teams de visitas virtuales de su organización. Puede ver la actividad detallada de las citas virtuales programadas a través de la aplicación [Bookings](../expand-teams-across-your-org/bookings-virtual-visits.md) y el conector Microsoft Teams registro de estado electrónico [(EHR).](../expand-teams-across-your-org/healthcare/teams-in-hc.md#virtual-visits-and-electronic-healthcare-record-ehr-integration)
 
 Para ver el informe, debe ser administrador global o administrador Teams usuario.
 
-El informe contiene las siguientes pestañas. La información que verá en el informe depende de si tiene una licencia para la aplicación Bookings, el Teams conector EHR o ambos.
+El informe contiene las siguientes pestañas. La información que verá en el informe depende de si tiene una licencia para la aplicación Bookings, el conector Teams EHR o ambos.
 
 |Pestaña |Descripción  |
 |---------|---------|
@@ -45,14 +43,13 @@ Use este informe para obtener información sobre la actividad y las tendencias d
 
 ## <a name="view-the-virtual-visits-usage-report"></a>Ver el informe de uso de visitas virtuales
 
-1. En el panel de navegación izquierdo del centro Microsoft Teams administración, elija **Análisis &** **informesUsar** >  informes. En la pestaña **Ver informes** , en **Informe**, seleccione **Uso de visitas virtuales**.
+1. En el panel de navegación izquierdo del Microsoft Teams de administración, elija **Análisis &** **informesUsar** >  informes. En la pestaña **Ver informes** , en **Informe**, seleccione **Uso de visitas virtuales**.
 2. En **Intervalo de** fechas, seleccione un intervalo de fechas de 7 días, 30 días o 90 días. A continuación, elija **Ejecutar informe**.
 
 > [!NOTE]
-> De forma predeterminada, el análisis de visitas virtuales está en y el informe está disponible. Al usar este informe, concede a Microsoft permiso para recopilar datos sobre las visitas virtuales de su organización. Para obtener información sobre nuestras directivas de retención de datos, vea Retención[, eliminación](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) y eliminación de datos en Microsoft 365.
+> De forma predeterminada, el análisis de visitas virtuales está en y el informe está disponible. Al usar este informe, concede a Microsoft permiso para recopilar datos sobre las visitas virtuales de su organización. Para obtener información sobre nuestras directivas de retención de datos, vea Retención [de datos, eliminación y destrucción en Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 >
->Si desea desactivar el informe de su organización, puede hacerlo en Configuración en la esquina superior  derecha de la página.
-
+>Si desea desactivar el informe de su organización, puede hacerlo en Configuración esquina superior derecha de  la página. Esta configuración puede tardar entre 0 (cero) y 2 horas en tener efecto después de cambiarla.
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 
@@ -68,7 +65,7 @@ Los gráficos que verá aquí dependen de si tiene una licencia para la aplicaci
 |**2**   |El eje X es el intervalo de fechas seleccionado para el informe. El eje Y es el número de visitas.<br>Mantenga el puntero sobre el punto en una fecha determinada para ver el número de visitas en esa fecha.|
 |**3**   |Puede filtrar lo que ve en el gráfico seleccionando un elemento de la leyenda. Por ejemplo, seleccione **Total de visitas virtuales de Bookings** o **Total de visitas virtuales ehr** para ver solo la información relacionada con cada una de ellas. Al cambiar esta selección no se cambia la información de la tabla. |
 |**4**   |La tabla proporciona información detallada sobre cada visita que tuvo lugar durante el intervalo de fechas seleccionado. <ul><li>**Hora de inicio (UTC)** es la fecha y la hora en que un miembro del personal y un participante están en la reunión o cuando se produjo la primera actividad en la reunión.  </li> <li>**Id. de** reunión es el id. único de la reunión.</li> <li>**El tiempo de espera** de la sala de espera es el tiempo entre la primera vez que un participante se une a la sala de espera cuando un miembro del personal admite a ese mismo participante o a otro participante a la reunión.</li><li>**Duración** es la diferencia de tiempo entre la hora de inicio y cuando la última persona abandona la reunión. Si un miembro del personal y un participante no se unen a la reunión, la duración se muestra como 0 (cero).</li> <li>**Estado** muestra el estado de la reunión. <ul><li>**Completado**: si uno o varios miembros del personal y participantes se unen a la reunión y la reunión ha finalizado. O bien, si uno o varios participantes se unen a la reunión y la reunión ha finalizado.</li> <li> **No se muestra**: si un miembro del personal se une a la reunión pero ninguna otra persona se une y la reunión ha finalizado. </li></ul> </li> <li>**El tipo de** reunión indica si la cita virtual se programó a través de la aplicación Bookings o Teams conector EHR.</li> <li>**Los asistentes** son el número total de miembros del personal y participantes de la reunión.</li> <li>**Los SMS enviados** indican si se ha enviado una notificación SMS a los asistentes. </li> </li> </ul> |
-|**5**   |Seleccione **Configuración** para abrir el panel de análisis **Visitas virtuales**. Desde aquí, puede desactivar o activar el informe de visitas virtuales de su organización y agregar o quitar columnas en la tabla. Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla.|
+|**5**   |Seleccione **Configuración** para abrir el panel de análisis **Visitas** virtuales. Desde aquí, puede desactivar o activar el informe de visitas virtuales de su organización y agregar o quitar columnas en la tabla. Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla.|
 |**6**   |Puede exportar el informe a un archivo CSV para analizarlo sin conexión. Seleccione **Exportar a Excel** y, a continuación, en la pestaña **Descargas****, elija Descargar** para descargar el informe cuando esté listo.|
 
 ### <a name="duration"></a>Duración
@@ -81,7 +78,7 @@ Los gráficos que verá aquí dependen de si tiene una licencia para la aplicaci
 |**2**   |El eje X es el intervalo de fechas seleccionado para el informe. El eje Y es el número de minutos.<br>Mantenga el puntero sobre el punto de una fecha determinada para ver la duración media de la visita o el tiempo medio de espera de la sala de espera para una fecha determinada.  |
 |**3**   |Puede filtrar lo que ve en el gráfico seleccionando un elemento de la leyenda. Por ejemplo, seleccione **Duración media de la visita virtual** o **Tiempo** medio de espera de la sala de espera para ver solo la información relacionada con cada una de ellas. Al cambiar esta selección no se cambia la información de la tabla. |
 |**4**   |La tabla proporciona información detallada sobre cada visita que tuvo lugar durante el intervalo de fechas seleccionado. <ul><li>**Hora de inicio (UTC)** es la fecha y la hora en que un miembro del personal y un participante están en la reunión o cuando se produjo la primera actividad en la reunión.  </li> <li>**Id. de** reunión es el id. único de la reunión.</li> <li>**El tiempo de espera** de la sala de espera es el tiempo entre la primera vez que un participante se une a la sala de espera cuando un miembro del personal admite a ese mismo participante o a otro participante a la reunión.</li><li>**Duración** es la diferencia de tiempo entre la hora de inicio y cuando la última persona abandona la reunión. Si un miembro del personal y un participante no se unen a la reunión, la duración se muestra como 0 (cero).</li> <li>**Estado** muestra el estado de la reunión. <ul><li>**Completado**: si uno o varios miembros del personal y participantes se unen a la reunión y la reunión ha finalizado. O bien, si uno o varios participantes se unen a la reunión y la reunión ha finalizado.</li> <li> **No se muestra**: si un miembro del personal se une a la reunión pero ninguna otra persona se une y la reunión ha finalizado. </li></ul> </li> <li>**El tipo de** reunión indica si la cita virtual se programó a través de la aplicación Bookings o Teams conector EHR.</li> <li>**Los asistentes** son el número total de miembros del personal y participantes de la reunión.</li> <li>**Los SMS enviados** indican si se ha enviado una notificación SMS a los asistentes. </li> </li> </ul>|
-|**5**   |Seleccione **Configuración** para abrir el panel de análisis **Visitas virtuales**. Desde aquí, puede desactivar o activar el informe de visitas virtuales de su organización y agregar o quitar columnas en la tabla. Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla.|
+|**5**   |Seleccione **Configuración** para abrir el panel de análisis **Visitas** virtuales. Desde aquí, puede desactivar o activar el informe de visitas virtuales de su organización y agregar o quitar columnas en la tabla. Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla.|
 |**6**   |Puede exportar el informe a un archivo CSV para analizarlo sin conexión. Seleccione **Exportar a Excel** y, a continuación, en la pestaña **Descargas****, elija Descargar** para descargar el informe cuando esté listo.|
 ### <a name="bookings"></a>Bookings
 
@@ -94,7 +91,7 @@ Verá esta pestaña si tiene una licencia que incluye la aplicación Bookings. P
 |**1**   |Cada informe tiene una fecha para cuando se generó el informe. Los informes normalmente reflejan una latencia de 24 a 48 horas desde el momento de la actividad. |
 |**2**   |El eje X es el intervalo de fechas seleccionado para el informe. El eje Y es el número de visitas de Bookings.<br>Mantenga el puntero sobre el punto en una fecha determinada para ver el número de visitas de Bookings que se produjeron en esa fecha.|
 |**3**   |La tabla proporciona información detallada sobre cada visita que tuvo lugar durante el intervalo de fechas seleccionado. <ul><li>**Hora de inicio (UTC)** es la fecha y la hora en que un miembro del personal y un participante están en la reunión o cuando se produjo la primera actividad en la reunión.  </li> <li>**Id. de** reunión es el id. único de la reunión.</li> <li>**El tiempo de espera** de la sala de espera es el tiempo entre la primera vez que un participante se une a la sala de espera cuando un miembro del personal admite a ese mismo participante o a otro participante a la reunión.</li><li>**Duración** es la diferencia de tiempo entre la hora de inicio y cuando la última persona abandona la reunión. Si un miembro del personal y un participante no se unen a la reunión, la duración se muestra como 0 (cero).</li> <li>**Estado** muestra el estado de la reunión. <ul><li>**Completado**: si uno o varios miembros del personal y participantes se unen a la reunión y la reunión ha finalizado. O bien, si uno o varios participantes se unen a la reunión y la reunión ha finalizado.</li> <li> **No se muestra**: si un miembro del personal se une a la reunión pero ninguna otra persona se une y la reunión ha finalizado. </li></ul> </li> <li>**El tipo de** reunión indica si la cita virtual se programó a través de la aplicación Bookings o Teams conector EHR.</li> <li>**Los asistentes** son el número total de miembros del personal y participantes de la reunión.</li> <li>**Los SMS enviados** indican si se ha enviado una notificación SMS a los asistentes. </li> </li> </ul>|
-|**4**   |Seleccione **Configuración** para abrir el panel de análisis **Visitas virtuales**. Desde aquí, puede desactivar o activar el informe de visitas virtuales de su organización y agregar o quitar columnas en la tabla. Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla.|
+|**4**   |Seleccione **Configuración** para abrir el panel de análisis **Visitas** virtuales. Desde aquí, puede desactivar o activar el informe de visitas virtuales de su organización y agregar o quitar columnas en la tabla. Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla.|
 |**5**   |Puede exportar el informe a un archivo CSV para analizarlo sin conexión. Seleccione **Exportar a Excel** y, a continuación, en la pestaña **Descargas****, elija Descargar** para descargar el informe cuando esté listo.|
 ### <a name="ehr"></a>EHR
 
@@ -107,7 +104,7 @@ Verá esta pestaña si tiene una licencia que incluye el Teams EHR. Para obtener
 |**1**   |Cada informe tiene una fecha para cuando se generó el informe. Los informes normalmente reflejan una latencia de 24 a 48 horas desde el momento de la actividad. |
 |**2**   |El eje X es el intervalo de fechas seleccionado para el informe. El eje Y es el número de visitas EHR.<br>Mantenga el puntero sobre el punto en una fecha determinada para ver el número de visitas ehr en esa fecha.|
 |**3**   |La tabla proporciona información detallada sobre cada visita que tuvo lugar durante el intervalo de fechas seleccionado. <ul><li>**Hora de inicio (UTC)** es la fecha y la hora en que un miembro del personal y un participante están en la reunión o cuando se produjo la primera actividad en la reunión.  </li> <li>**Id. de** reunión es el id. único de la reunión.</li> <li>**El tiempo de espera** de la sala de espera es el tiempo entre la primera vez que un participante se une a la sala de espera cuando un miembro del personal admite a ese mismo participante o a otro participante a la reunión.</li><li>**Duración** es la diferencia de tiempo entre la hora de inicio y cuando la última persona abandona la reunión. Si un miembro del personal y un participante no se unen a la reunión, la duración se muestra como 0 (cero).</li> <li>**Estado** muestra el estado de la reunión. <ul><li>**Completado**: si uno o varios miembros del personal y participantes se unen a la reunión y la reunión ha finalizado. O bien, si uno o varios participantes se unen a la reunión y la reunión ha finalizado.</li> <li> **No se muestra**: si un miembro del personal se une a la reunión pero ninguna otra persona se une y la reunión ha finalizado. </li></ul> </li> <li>**El tipo de** reunión indica si la cita virtual se programó a través de la aplicación Bookings o Teams conector EHR.</li> <li>**Los asistentes** son el número total de miembros del personal y participantes de la reunión.</li> <li>**Los SMS enviados** indican si se ha enviado una notificación SMS a los asistentes. </li> </li> </ul>|
-|**4**   |Seleccione **Configuración** para abrir el panel de análisis **Visitas virtuales**. Desde aquí, puede desactivar o activar el informe de visitas virtuales de su organización y agregar o quitar columnas en la tabla. Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla.|
+|**4**   |Seleccione **Configuración** para abrir el panel de análisis **Visitas** virtuales. Desde aquí, puede desactivar o activar el informe de visitas virtuales de su organización y agregar o quitar columnas en la tabla. Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla.|
 |**5**   |Puede exportar el informe a un archivo CSV para analizarlo sin conexión. Seleccione **Exportar a Excel** y, a continuación, en la pestaña **Descargas****, elija Descargar** para descargar el informe cuando esté listo.|
 
 > [!NOTE]

@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo cargar las aplicaciones personalizadas en la tienda de aplicaciones de su organización en el Microsoft Teams de administración.
-ms.openlocfilehash: f9cbbfb60b2bb93cb3f687e6da8c6595f5cc185b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b797d8728fba283ccb2f62a46bc6ac00a947c29a
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070189"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435834"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar una aplicación personalizada cargando un paquete de aplicación
 
@@ -116,12 +116,10 @@ En la mayoría de los casos, después de completar una actualización de la apli
 * Se ha agregado o quitado un bot
 * Se ha cambiado la propiedad "botId" de un bot existente
 * Se ha cambiado la propiedad "isNotificationOnly" de un bot existente
-* La propiedad "supportsFiles" del bot ha cambiado
-* Se ha agregado o quitado una extensión de mensajería
+* Se ha agregado la funcionalidad SupportsCalling, SupportsVideo y SupportsFiles de un bot
+* Se ha agregado una extensión de mensajería
 * Se ha agregado un nuevo conector
-* Se ha agregado una nueva pestaña estática
-* Se ha agregado una nueva pestaña configurable
-* Se han cambiado las propiedades dentro de "webApplicationInfo"
+* Los permisos dentro de "Autorización" se agregaron o cambiaron
 
 ![Captura de pantalla de la lista de aplicaciones, que muestra las aplicaciones que tienen una nueva versión disponible.](media/manage-your-custom-apps-update1.png)
 

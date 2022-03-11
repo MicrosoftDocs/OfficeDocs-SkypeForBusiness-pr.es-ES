@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft 365 Sistema telefónico: licencias de usuario virtual'
+title: 'Microsoft Teams Teléfono estándar: licencias de usuario virtual'
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -19,17 +19,19 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: Obtenga información sobre cómo asignar una licencia Sistema telefónico usuario virtual o una licencia de usuario Sistema telefónico pago a cuentas de recursos de su organización.
-ms.openlocfilehash: f0a26c03a5654a3f2df9538fe8bbb74c4a5b58e4
-ms.sourcegitcommit: 11882e93618b8d69d21586c7b1f6a4460b96dd7d
+description: 'Obtenga información sobre cómo asignar licencias de usuario Teams Teléfono: licencias de usuario virtual o de pago Teams Teléfono de usuario estándar a cuentas de recursos de su organización.'
+ms.openlocfilehash: 542d80a8cb463df01e6e232454b2454a939a457b
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60283004"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435734"
 ---
-# <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Sistema telefónico: licencia de usuario virtual
+# <a name="microsoft-teams-phone-standard--virtual-user-licenses"></a>Microsoft Teams Teléfono estándar: licencias de usuario virtual
 
-Las organizaciones con Sistema telefónico usuarios con licencia pueden asignar una licencia gratuita Microsoft 365 Sistema telefónico usuario virtual o una licencia de usuario Sistema telefónico a cuentas de recursos. No siempre es necesario un plan de llamadas (consulte Planear para Teams operador automático y colas de llamadas para obtener los [requisitos](../plan-auto-attendant-call-queue.md#prerequisites) previos al transferir llamadas a un número de teléfono externo). Todos los operadores automáticos o las colas de llamadas requieren una cuenta de recursos asociada. Las cuentas de recursos que requieren un número de teléfono necesitan un Microsoft 365 Sistema telefónico gratuito: una licencia de usuario virtual o una licencia de usuario de Sistema telefónico de pago antes de que se pueda aplicar un número de teléfono a la cuenta de recursos.
+Las organizaciones con Teams Teléfono estándar o Teams Teléfono con usuarios con licencia del Plan de llamadas pueden asignar una licencia gratuita *Microsoft Teams Teléfono Estándar*: usuario virtual o un Teams Teléfono *estándar de pago*  licencia de usuario para cuentas de recursos. No siempre es necesario un plan de llamadas de Microsoft (consulte Planear para Teams operador automático y colas de llamadas para [requisitos](../plan-auto-attendant-call-queue.md#prerequisites) previos al transferir llamadas a un número de teléfono externo).
+
+Todos los operadores automáticos y las colas de llamadas requieren una cuenta de recursos asociada. Las cuentas de recursos que requieren un número de teléfono necesitan una licencia *gratuita Microsoft Teams Teléfono Estándar*: usuario virtual o una licencia de usuario estándar de Teams Teléfono de pago antes de que se pueda aplicar un número de teléfono *a* la cuenta de recursos.
 
 > [!TIP]
 > No se necesita ninguna licencia para las cuentas de recursos que se usarán con operadores automáticos anidados o colas de llamadas que no tengan asignado un número de teléfono. Vea el siguiente diagrama para obtener referencia.
@@ -38,37 +40,37 @@ Las organizaciones con Sistema telefónico usuarios con licencia pueden asignar 
 
 ## <a name="virtual-user-license-allocation"></a>Asignación de licencias de usuario virtual
 
-Su organización se asigna a Microsoft 365 Sistema telefónico: licencias de usuario virtual en función de su tamaño general. Cualquier organización que tenga al menos una licencia Sistema telefónico o haya agregado Sistema telefónico tiene 25 licencias de usuario virtual disponibles sin costo. Al agregar 10 Sistema telefónico de usuario en su organización, una licencia más Microsoft 365 Sistema telefónico: la licencia de usuario virtual estará disponible.
+Su organización se asigna Microsoft Teams Teléfono *estándar: licencias de usuario virtual* en función de su tamaño general. Cualquier organización que tenga al menos una licencia con Teams Sistema telefónico, incluidos Teams Teléfono Standard y Teams Teléfono con licencias del Plan de llamadas, tiene 25 licencias de usuario virtual disponibles sin costo. Al agregar 10 Teams Teléfono estándar o Teams Teléfono con licencias de usuario del Plan de llamadas en su organización, una licencia más Microsoft Teams Teléfono *estándar:* la licencia de usuario virtual estará disponible.
 
 > [!NOTE]
-> Sistema telefónico es una licencia de complemento disponible con Microsoft 365 y Office 365 E1 y E3. Sistema telefónico también se incluye como parte de Microsoft 365 E5, Office 365 E5 y Microsoft 365 Business Voice licencias.
+> Teams Teléfono estándar y Teams Teléfono con plan de llamadas son licencias de complementos disponibles para todos los Microsoft 365 suscriptores. Teams Teléfono licencias estándar también se incluyen como parte de Microsoft 365 E5 planes.
 
-Si su organización usa el Microsoft 365 Sistema telefónico gratuito disponible: licencias de usuario virtual para crear nodos de operador automático o cola de llamadas, puede seguir utilizando las licencias de Teléfono del sistema de pago con una cuenta de recursos. La mayoría de las organizaciones tendrán suficientes licencias de usuario virtual en función del plan de escalado. 
+Si su organización usa el Microsoft Teams Teléfono *Estándar gratuito:* licencias de usuario virtual para crear nodos de operador automático o cola de llamadas, puede seguir utilizando las licencias Teams Teléfono *Standard* de pago con una cuenta de recursos. La mayoría de las organizaciones tendrán suficientes licencias de usuario virtual en función del plan de escalado.
 
 ### <a name="license-allocation-example"></a>Ejemplo de asignación de licencias
 
-Contoso, Inc. compró 600 licencias que incluían Sistema telefónico (una para cada empleado). Contoso se asigna una inicial de 25 más 60 Microsoft 365 Sistema telefónico: licencias de usuario virtual, 85 en total. Su organización tiene 90 colas de llamadas y operadores automáticos que tienen números de teléfono. Deben asignar todas las Microsoft 365 Sistema telefónico: licencias de usuario virtual y obtener cinco licencias de Sistema telefónico regulares.
+Contoso, Inc. compró 600 licencias que incluyen Sistema telefónico (una para cada empleado). Contoso se asigna una inicial de 25 más 60 *Microsoft Teams Teléfono:* licencias de usuario virtual, 85 en total. Su organización tiene 90 colas de llamadas y operadores automáticos que tienen números de teléfono. Deben asignar todas las licencias *estándar Microsoft Teams Teléfono : usuario virtual* y obtener cinco licencias estándar de Teams Teléfono *precio* normal.
 
 Contoso debería considerar la posibilidad de rediseñar el operador automático y el sistema de cola de llamadas. Si usan menos números de teléfono y más nodos anidados que no necesitan un número de teléfono, simplifican la implementación y reducen los costos.
 
-## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Cómo comprar Microsoft 365 Sistema telefónico: licencias de usuario virtual
+## <a name="how-to-buy-microsoft-teams-phone-standard--virtual-user-licenses"></a>Cómo comprar Microsoft Teams Teléfono estándar: licencias de usuario virtual
 
 1. Inicie sesión en el Centro de administración de Microsoft 365.
-2. Ir a **Complementos de servicios** de  >  **compra**  >  **de facturación**
-3. Desplácese hasta el final para buscar la **Microsoft 365 Sistema telefónico de usuario** virtual. Selecciona **Comprar ahora**.
+2. Vaya a **BillingPurchase** >  **servicesAdd-ons** > .
+3. Desplácese hasta el final para buscar **la Microsoft Teams Teléfono estándar : licencia de usuario** virtual. Selecciona **Comprar ahora**.
 
    > [!NOTE]
    > Tenga en cuenta que aún debe **comprar** la licencia aunque tenga un costo de cero.
 
-## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>Cambiar una cuenta de recurso existente para usar una Microsoft 365 Sistema telefónico: licencia de usuario virtual
+## <a name="change-an-existing-resource-account-to-use-a-microsoft-teams-phone-standard--virtual-user-license"></a>Cambiar una cuenta de recurso existente para usar una Microsoft Teams Teléfono estándar: licencia de usuario virtual
 
-Si decide cambiar la licencia de su cuenta de recursos de una Sistema telefónico a una licencia de usuario Microsoft 365 Sistema telefónico: Usuario virtual:
+Si decide cambiar la licencia de su cuenta de recursos de una licencia *estándar* Teams Teléfono a una licencia estándar Microsoft Teams Teléfono *: licencia de usuario virtual*:
 
-1. Obtenga la nueva Microsoft 365 Sistema telefónico: licencia de usuario virtual.
-2. Siga los pasos vinculados del centro de Administración de Microsoft 365 para [mover usuarios a una suscripción diferente.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
+1. Obtenga la nueva Microsoft Teams Teléfono estándar: licencia de usuario virtual.
+2. Siga los pasos vinculados del centro de Administración de Microsoft 365 para [mover usuarios a una suscripción diferente](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
-> Quite siempre una licencia Sistema telefónico licencia completa y asigne la Microsoft 365 Sistema telefónico : licencia de usuario virtual en la misma actividad de licencia. Si quita la licencia antigua, guarda los cambios de la cuenta, agrega la nueva licencia y, a continuación, vuelve a guardar la configuración de la cuenta, es posible que la cuenta de recursos ya no funcione según lo esperado. Si esto sucede, le recomendamos que cree una nueva cuenta de recursos para la licencia Microsoft 365 Sistema telefónico usuario virtual y quite la cuenta de recursos rota. 
+> Quite siempre una licencia *Teams Teléfono estándar* y asigne la Microsoft Teams Teléfono *estándar: licencia* de usuario virtual en la misma actividad de licencia. Si quita la licencia antigua, guarda los cambios de la cuenta, agrega la nueva licencia y, a continuación, vuelve a guardar la configuración de la cuenta, es posible que la cuenta de recursos ya no funcione según lo esperado. Si esto sucede, le recomendamos que cree una nueva cuenta de recursos para la licencia *estándar Microsoft Teams Teléfono: usuario virtual* y quite la cuenta de recursos rota.
 
 ## <a name="related-information"></a>Información relacionada
 

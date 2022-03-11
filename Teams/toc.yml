@@ -829,6 +829,8 @@ items:
             href: dial-pad-configuration.md
           - name: Música en espera.
             href: music-on-hold.md
+          - name: Configurar las opciones de llamada para los usuarios
+            href: user-call-settings.md
       - name: Opciones de conectividad RTC
         items:
           - name: Información general
@@ -1527,6 +1529,8 @@ items:
             href: non-standard-users.md
           - name: Experiencia de actualización para aplicaciones
             href: apps-update-experience.md
+          - name: Administrar el acceso a aplicaciones de Teams de terceros en Microsoft 365
+            href: manage-third-party-teams-apps.md
   - name: Instrucciones para sectores y gobiernos
     items:
       - name: Información general

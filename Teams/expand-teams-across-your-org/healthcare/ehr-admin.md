@@ -23,23 +23,23 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Obtenga información sobre cómo integrar el conector EHR de Teams para permitir que los proveedores de salud de su organización realicen visitas virtuales con pacientes u otros proveedores en Teams directamente desde el sistema Épico EHR.
-ms.openlocfilehash: 47dde0f4314a5506ddede7543f1a294523e84598
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: 86d6061f41c94d95098dbecdad2d92edb9f85a3b
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929155"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435724"
 ---
 # <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Visitas virtuales con Teams: integración en Épico EHR
 
-El Microsoft Teams registro de salud electrónico (EHR) hace que sea fácil para los médicos iniciar una visita virtual de paciente o una consulta con otro proveedor en Microsoft Teams directamente desde el sistema Épico EHR. Integrada en la nube de Microsoft 365, Teams permite una colaboración y comunicación sencillas y seguras con herramientas de chat, vídeo, voz y atención sanitaria en un único concentrador compatible con el cumplimiento de hipaa, certificación HITECH y mucho más.
+El Microsoft Teams registro de salud electrónico (EHR) hace que sea más fácil para los médicos iniciar una visita virtual al paciente o una consulta con otro proveedor en Microsoft Teams directamente desde el sistema Épico EHR. Integrada en la nube de Microsoft 365, Teams permite una colaboración y comunicación sencillas y seguras con herramientas de chat, vídeo, voz y atención sanitaria en un único concentrador compatible con el cumplimiento de hipaa, certificación HITECH y mucho más.
 
 La plataforma de comunicación y colaboración de Teams facilita a los médicos cortar el desorden de sistemas fragmentados para que puedan centrarse en proporcionar la mejor atención posible. Con el Teams EHR, puede:
 
 - Inicie Teams visitas virtuales desde su sistema Épico EHR con un flujo de trabajo clínico integrado.
 - Permitir que los pacientes se unan Teams visitas virtuales desde el portal del paciente o a través de SMS.
 - Admite otros escenarios, incluidos varios participantes, visitas grupales y servicios de intérpretes.
-- Vuelva a escribir metadatos en el sistema EHR sobre Teams visitas virtuales para grabar cuando los asistentes se conecten, desconecten y habiliten la auditoría automática y la conservación de registros.
+- Vuelva a escribir metadatos en el sistema EHR sobre Teams visitas virtuales para grabar cuando los asistentes se conectan, desconectan y habilitan la auditoría automática y la conservación de registros.
 - Vea informes de datos de consumo e información de calidad de llamada personalizable para las visitas conectadas a EHR.
 
 Consulte este vídeo para obtener información general sobre cómo administrar las visitas virtuales desde el portal de EHR.
@@ -67,7 +67,7 @@ Revise la siguiente información para comprender el proceso de integración gene
 Tendrás que solicitar acceso a la aplicación Teams usuario.
 
 1. Solicitar descargar la aplicación Teams en [el mercado de Epic App Orchard](https://apporchard.epic.com/Gallery?id=6153). Al hacerlo, se desencadena una solicitud de Epic al equipo de conectores EHR de Microsoft.
-1. Después de realizar la solicitud, envíe un correo electrónico a [TeamsForHealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) con el nombre de la organización, el identificador de inquilino y la dirección de correo electrónico de su contacto técnico de Epic.
+1. Después de realizar la solicitud, envíe un correo electrónico a [TeamsForHealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) con el nombre de la organización, el id. de inquilino y la dirección de correo electrónico de su contacto técnico de Epic.
 1. El equipo del conector EHR de Microsoft responderá a su correo electrónico con confirmación de habilitación.
 
 ### <a name="review-the-epic-microsoft-teams-telehealth-integration-guide"></a>Revisar la guía Epic-Microsoft Teams integración de Telehealth
@@ -80,7 +80,7 @@ Revise la [integración de teleasistencia sanitaria de Microsoft Teams](https://
 - Versión épico de noviembre de 2018 o posterior.
 - Los usuarios tienen una licencia Microsoft 365 o Office 365 que incluye Teams reuniones.
 - Teams se adopta y se usa en su organización sanitaria.
-- Sus sistemas cumplen todos los [requisitos de software y explorador](../../hardware-requirements-for-the-teams-app.md) para Teams.
+- Sus sistemas cumplen todos [los requisitos de software y explorador](../../hardware-requirements-for-the-teams-app.md) para Teams.
 
 > [!IMPORTANT]
 > Asegúrese de completar los pasos previos a la integración y de que se cumplen todos los requisitos previos antes de avanzar con la integración.
@@ -104,7 +104,7 @@ Para la configuración del conector, debe realizar las siguientes acciones:
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>Iniciar el portal de configuración del conector EHR
 
-Para empezar, el Microsoft 365 inicia el portal de configuración del conector [EHR](https://ehrconnector.teams.microsoft.com) e inicia sesión con sus Microsoft 365 credenciales.
+Para empezar, el administrador de Microsoft 365 inicia el portal de configuración del conector [EHR](https://ehrconnector.teams.microsoft.com) e inicia sesión con sus Microsoft 365 credenciales.
 
 El Microsoft 365 puede configurar una única organización o varias organizaciones para probar la integración. Configure la dirección URL de prueba y producción en el portal de configuración. Asegúrese de probar la integración desde el entorno de prueba épico antes de pasar a la producción.
 
@@ -132,7 +132,7 @@ A continuación, para configurar la integración, Microsoft 365 administrador ha
 
 Complete este paso si su organización quiere que Microsoft administre las notificaciones DE SMS para sus pacientes. Al habilitar las notificaciones POR SMS, los pacientes recibirán mensajes de confirmación y aviso para las visitas programadas.
 
-Para habilitar las notificaciones SMS, Microsoft 365 administrador hace lo siguiente:
+Para habilitar las notificaciones SMS, el Microsoft 365 hace lo siguiente:
 
 1. En la página notificaciones SMS, seleccione ambas casillas de consentimiento para:
 
@@ -149,7 +149,7 @@ Para habilitar las notificaciones SMS, Microsoft 365 administrador hace lo sigui
 
     Elija **Listo** y, a continuación, **seleccione Siguiente**.
 
-1. Para vincular el número de teléfono a una dirección URL base de FHIR, **en Teléfono número** en la sección configuración de **SMS**, seleccione el número. Haga esto para cada dirección URL base de FHIR para la que desea habilitar las notificaciones SMS.
+1. Para vincular el número de teléfono a una dirección URL base de FHIR, **en Teléfono número** en la sección configuración **de SMS**, seleccione el número. Haga esto para cada dirección URL base de FHIR para la que desea habilitar las notificaciones SMS.
 
     :::image type="content" source="media/ehr-connector-epic-link-phone-number.png" alt-text="Captura de pantalla que muestra cómo vincular un número de teléfono a una dirección URL base de FHIR." lightbox="media/ehr-connector-epic-link-phone-number.png":::
 
@@ -168,16 +168,16 @@ Para habilitar las notificaciones SMS, Microsoft 365 administrador hace lo sigui
 
     Se requiere un certificado de clave pública para recibir información de cita para enviar notificaciones POR SMS. El certificado es necesario para comprobar que la información entrante es de un origen válido.
 
-    Cuando el conector se usa para enviar avisos SMS, epic envía el número de teléfono del paciente en una carga de HL7v2 cuando se crean citas en Epic. Estos números se almacenan para cada cita en la geografía de su organización y se conservan hasta que se lleva a cabo la cita. Para obtener más información sobre cómo configurar mensajes de HL7v2, consulte la Guía de integración [de Microsoft Teams de Telesalud](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+    Cuando el conector se usa para enviar avisos SMS, epic envía el número de teléfono del paciente en una carga de HL7v2 cuando se crean citas en Epic. Estos números se almacenan para cada cita en la geografía de su organización y se conservan hasta que se lleva a cabo la cita. Para obtener más información sobre cómo configurar mensajes de HL7v2, consulte la Guía de integración [de Microsoft Teams de telesalud](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
     Elija **Siguiente**.
 
 > [!NOTE]
-> En cualquier momento, el Microsoft 365 puede actualizar cualquiera de las opciones de configuración de SMS. Tenga en cuenta que cambiar la configuración puede provocar una suspensión del servicio de SMS. Para obtener más información sobre cómo ver informes de SMS, [vea Teams de administradores de conectores EHR](ehr-admin-reports.md).
+> En cualquier momento, el Microsoft 365 puede actualizar cualquiera de las opciones de configuración de SMS. Tenga en cuenta que cambiar la configuración puede provocar una suspensión del servicio de SMS. Para obtener más información sobre cómo ver informes de SMS, [vea Teams de](ehr-admin-reports.md) administradores del conector EHR.
 
 ### <a name="approve-or-view-the-configuration"></a>Aprobar o ver la configuración
 
-El analista de clientes de Epic de su organización que se agregó como aprobador inicia el portal de configuración del conector [EHR](https://ehrconnector.teams.microsoft.com) e inicia sesión con sus Microsoft 365 de usuario. Después de la validación correcta, se le pide al aprobador que inicie sesión con sus credenciales de Epic para validar la organización Epic.
+El analista de clientes épicos de su organización que se agregó como aprobador inicia el portal de configuración del conector [EHR](https://ehrconnector.teams.microsoft.com) e inicia sesión con sus credenciales Microsoft 365 usuario. Después de la validación correcta, se le pide al aprobador que inicie sesión con sus credenciales de Epic para validar la organización Epic.
 
 > [!Note]
 > Si el Microsoft 365 y el analista de clientes de Epic son la misma persona, tendrás que iniciar sesión en Epic para validar tu acceso. El inicio de sesión de Epic solo se usa para validar la dirección URL base de FHIR. Microsoft no almacenará credenciales ni accederá a datos EHR con este inicio de sesión.
@@ -197,7 +197,7 @@ Cuando el administrador de Epic apruebe la información de configuración, se le
 - Registro de configuración de SMS
 - Registro de configuración de prueba de dispositivo
 
-El analista de clientes de Epic debe proporcionar estos registros a Epic para completar la configuración de visitas virtuales en Epic. Para obtener más información, consulte la [Guía de integración de Microsoft Teams de Telesalud](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+El analista de clientes de Epic debe proporcionar estos registros a Epic para completar la configuración de visitas virtuales en Epic. Para obtener más información, consulte la [Guía de integración Microsoft Teams telesalud de Epic-Microsoft Teams](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
 > [!Note]  
 > En cualquier momento, el Microsoft 365 o el analista de clientes epic pueden iniciar sesión en el portal de configuración para ver los registros de integración y cambiar la configuración de la organización, según sea necesario.
@@ -205,7 +205,7 @@ El analista de clientes de Epic debe proporcionar estos registros a Epic para co
 :::image type="content" source="media/ehr-connector-epic-finish.png" alt-text="Captura de pantalla de la página Revisar y finalizar, que muestra información de integración." lightbox="media/ehr-connector-epic-finish.png":::
 
 > [!Note]
-> El analista de clientes de Epic debe completar el proceso de aprobación de cada DIRECCIÓN URL base de FHIR que haya configurado el administrador Microsoft 365 usuario.
+> El analista de clientes de Epic debe completar el proceso de aprobación para cada DIRECCIÓN URL base de FHIR que haya configurado el administrador Microsoft 365 cliente.
 
 ## <a name="launch-teams-virtual-visits"></a>Iniciar Teams visitas virtuales
 
@@ -219,7 +219,7 @@ Después de completar los pasos del conector EHR y la configuración de Epic, su
 
 ### <a name="provider-experience"></a>Experiencia del proveedor
 
-Los proveedores de atención sanitaria de su organización pueden unirse a las visitas Teams desde sus aplicaciones de proveedor de Epic (Hyperspace, Haiku, Canto). El botón **Iniciar visita virtual** está incorporado en el flujo del proveedor.
+Los proveedores de salud de su organización pueden unirse a las visitas Teams desde sus aplicaciones de proveedor épico (Hyperspace, Haiku, Canto). El botón **Iniciar visita virtual** está incorporado en el flujo del proveedor.
 
 Características principales de la experiencia del proveedor:
 
@@ -257,13 +257,19 @@ Características principales de la experiencia del paciente:
 > [!Note]
 > Epic, MyChart, Haiku y Canto son marcas comerciales de Epic Systems Corporation.
 
+## <a name="get-insight-into-virtual-visits-usage"></a>Obtener información sobre el uso de visitas virtuales
+
+El [informe de uso](../../teams-analytics-and-reports/virtual-visits-usage-report.md) de visitas virtuales del centro de administración de Microsoft Teams proporciona a los administradores información general sobre Teams de las visitas virtuales de su organización. El informe muestra análisis detallados para citas virtuales, incluidas Teams reuniones integradas con EHR realizadas desde su sistema EHR.
+
+Puede ver métricas clave, como el tiempo de espera de la sala de espera y la duración de la visita. Use esta información para obtener información sobre las tendencias de uso para ayudarle a optimizar las visitas virtuales para ofrecer mejores resultados empresariales.
+
 ### <a name="privacy-and-location-of-data"></a>Privacidad y ubicación de los datos
 
 Teams integración en sistemas EHR optimiza la cantidad de datos que se usan y almacenan durante la integración y los flujos de visitas virtuales. La solución sigue los principios generales de privacidad y administración de datos de Teams, y las directrices estipuladas en Privacidad de Teams.
 
-El Teams EHR no almacena ni transfiere ningún dato personal identificable ni ningún registro de salud de pacientes o proveedores de salud desde el sistema EHR. El único dato que almacena el conector de EHR es la identificación única del usuario de EHR, que se usa durante la configuración de la reunión de Teams.
+El Teams EHR no almacena ni transfiere ningún dato personal identificable ni ningún registro de salud de pacientes o proveedores de servicios de salud desde el sistema EHR. El único dato que almacena el conector de EHR es la identificación única del usuario de EHR, que se usa durante la configuración de la reunión de Teams.
 
-La identificación única del usuario de EHR se almacena en una de las tres regiones geográficas que se describen en [¿Dónde se almacenan los datos de los clientes de Microsoft 365?](/microsoft-365/enterprise/o365-data-locations) Todos los chats, grabaciones y otros datos compartidos en Teams por los participantes de la reunión se almacenan según las directivas de almacenamiento existentes. Para obtener más información sobre la ubicación de los datos en Teams, vea [Ubicación de los datos en Teams](../../location-of-data-in-teams.md).
+La identificación única del usuario de EHR se almacena en una de las tres regiones geográficas que se describen en [¿Dónde se almacenan los datos de los clientes de Microsoft 365?](/microsoft-365/enterprise/o365-data-locations) Todos los chats, grabaciones y otros datos compartidos en Teams por los participantes de la reunión se almacenan según las directivas de almacenamiento existentes. Para obtener más información sobre la ubicación de los datos en Teams, vea Ubicación [de los datos en Teams](../../location-of-data-in-teams.md).
 
 ## <a name="related-articles"></a>Artículos relacionados
 
