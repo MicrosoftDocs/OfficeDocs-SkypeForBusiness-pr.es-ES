@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05d683bbefa9b3cc564e4f97e52f0fad441f2763
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 3a9566ceb6d99bb7d665efea975ecee048607dc9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070399"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442506"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Conectores, bots y aplicaciones en Microsoft Teams
 
-Las aplicaciones le permiten buscar contenido de sus servicios favoritos y compartirlo en Teams. Le ayudan a hacer cosas como anclar servicios al principio de un canal, chatear con bots o compartir y asignar tareas. Para aprender más cosas a este respecto, lea [Información general de aplicaciones en Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0). 
+Las aplicaciones le permiten buscar contenido de sus servicios favoritos y compartirlo en Teams. Le ayudan a hacer cosas como anclar servicios al principio de un canal, chatear con bots o compartir y asignar tareas. Para aprender más cosas a este respecto, lea [Información general de aplicaciones en Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
 Puede agregar aplicaciones a la implementación de Teams con las aplicaciones proporcionadas con Microsoft Teams, con aplicaciones y plantillas certificadas de terceros y creando sus propias aplicaciones personalizadas.
 
@@ -47,7 +47,6 @@ También puede usar [plantillas de Teams](/microsoftteams/platform/samples/app-t
 
 Puede crear rápidamente soluciones personalizadas de poco código si usa la integración de Teams con [Microsoft Power Platform](teams-power-platfom-integration.md). También puede crear su propia aplicación personalizada para adaptarla a sus necesidades empresariales. Para más información, consulte [Crear aplicaciones para Microsoft Teams](/microsoftteams/platform/overview).  
 
-
 ## <a name="apps-deployment-decisions"></a>Decisiones de implementación de aplicaciones
 
 Teams proporciona una experiencia de colaboración excelente para su organización y la configuración predeterminada parece funcionar para la mayoría de organizaciones. Este artículo le ayudará a decidir si cambiar alguna opción de la configuración predeterminada, en función del perfil y los requisitos empresariales de su organización, después, le guiará con cada cambio. Hemos dividido las opciones en dos grupos, comenzando por el conjunto principal de [cambios que es más probable que realice](#core-deployment-decisions). El segundo grupo incluye la [configuración adicional](#additional-deployment-decisions) que puede que quiera configurar según las necesidades de su organización.
@@ -56,9 +55,10 @@ Teams proporciona una experiencia de colaboración excelente para su organizaci�
 
 Estas son las opciones de aplicaciones que la mayoría de organizaciones cambian (si la configuración predeterminada de Teams no funciona).
 
-### <a name="app-availability-settings"></a>Configuración de disponibilidad de aplicaciones 
+### <a name="app-availability-settings"></a>Configuración de disponibilidad de aplicaciones
 
-Teams ofrece una serie de aplicaciones proporcionadas por Microsoft y aplicaciones de terceros para interactuar con los usuarios, ayudar en la productividad e integrar los servicios empresariales usados frecuentemente en Teams. Obtener aplicaciones desde la Tienda Teams. De forma predeterminada, todas las aplicaciones, incluidas las aplicaciones personalizadas que ha enviado a través del [proceso de aprobación de Teams Store](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), están activadas para todos los usuarios. Por ejemplo, los usuarios pueden usar la aplicación de Planner para crear y administrar tareas de equipo en Teams.
+Teams ofrece una serie de aplicaciones proporcionadas por Microsoft y aplicaciones de terceros para interactuar con los usuarios, ayudar en la productividad e integrar los servicios empresariales usados frecuentemente en Teams.
+Obtener aplicaciones desde la Tienda Teams. De forma predeterminada, todas las aplicaciones, incluidas las aplicaciones personalizadas que ha enviado a través del [proceso de aprobación de Teams Store](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), están activadas para todos los usuarios. Por ejemplo, los usuarios pueden usar la aplicación de Planner para crear y administrar tareas de equipo en Teams.
 
 De forma predeterminada, todas las aplicaciones proporcionadas por Microsoft, así como las personalizadas y las de terceros, están disponibles y puede activarlas o desactivarlas individualmente. Hay configuraciones de toda la organización que le permiten activar o desactivar todas las aplicaciones personalizadas o de terceros para toda la organización.
 
@@ -68,6 +68,8 @@ De forma predeterminada, todas las aplicaciones proporcionadas por Microsoft, as
 |||
 
 ### <a name="app-permissions-and-other-considerations"></a>Permisos de aplicación y otras consideraciones
+
+Los usuarios tienen que dar su consentimiento a las aplicaciones y el administrador o profesional de TI las administra mediante directivas. Sin embargo, en general, los permisos y el perfil de riesgo de la aplicación se definen en la misma aplicación.
 
 Los usuarios tienen que dar su consentimiento a las aplicaciones y el administrador o profesional de TI las administra mediante directivas. Sin embargo, los permisos y el perfil de riesgo de la aplicación se definen en la misma aplicación.
 
@@ -118,7 +120,9 @@ Puede usar los informes de actividad para ver cómo los usuarios de su organizac
 
 ### <a name="app-templates"></a>Plantillas de aplicaciones
 
-Las plantillas de aplicaciones son aplicaciones listas para producción en Microsoft Teams que están controladas por la comunidad, son de código abierto y están disponibles en GitHub. Cada una contiene instrucciones detalladas sobre cómo implementar e instalar la aplicación para su organización, lo que proporciona una aplicación lista para usar que puede instalar y empezar a usar inmediatamente. El código fuente completo también está disponible, para que pueda explorarlo en detalle, o bien puede bifurcar el código y modificarlo para satisfacer sus necesidades específicas.
+Las plantillas de aplicaciones son aplicaciones listas para producción en Microsoft Teams que están controladas por la comunidad, son de código abierto y están disponibles en GitHub. Cada una contiene instrucciones detalladas sobre cómo implementar e instalar la aplicación para su organización, lo que proporciona una aplicación lista para usar que puede instalar y empezar a usar inmediatamente.
+
+El código fuente completo también está disponible, para que pueda explorarlo en detalle, o bien puede bifurcar el código y modificarlo para satisfacer sus necesidades específicas.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
