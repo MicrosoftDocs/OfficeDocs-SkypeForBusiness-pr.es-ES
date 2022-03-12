@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directiva de reunión en Teams para audio y vídeo.
-ms.openlocfilehash: 9513650bf9c177154b45d7bd5dcda85354cf390b
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a9fc08208d35880637e5f044285a19fb97357157
+ms.sourcegitcommit: 2b858f5e7281705b383522615b6ade6eba347df5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766953"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448813"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configuración de directiva de reunión para audio & vídeo
 
@@ -39,6 +39,7 @@ En este artículo se describen las configuraciones de directiva de reunión espe
 - [Velocidad de bits multimedia (kb/s)](#media-bit-rate-kbs)
 - [Modo filtros de vídeo](#video-filters-mode)
 - [Permitir la configuración de fondo personalizada](#allow-custom-background-settings)
+- [Control de cámara de extremo lejano (FECC) para cámaras de zoom de inclinación de puntos (PTZ)](#far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras)
 
 ### <a name="mode-for-ip-audio"></a>Modo de audio IP
 
@@ -129,11 +130,11 @@ Para un usuario, la configuración de directiva más restrictiva para el vídeo 
 Se aplica la directiva más restrictiva entre la directiva del organizador de la reunión y la del usuario. Por ejemplo, si un organizador tiene una directiva que restringe el vídeo y la directiva de un usuario no restringe el vídeo, los participantes de la reunión heredan la directiva del organizador de la reunión y no tienen acceso al vídeo en las reuniones. Esto significa que solo podrán unirse a la reunión con audio.
 
 > [!NOTE]
-> Cuando un usuario inicia una llamada de grupo para unirse por teléfono, no se muestra la pantalla **Usar teléfono para el audio**. Este es un problema conocido que estamos intentando resolver. Para solucionar este problema, seleccione **Audio del teléfono** en **Otras opciones para unirse**.  
+> Cuando un usuario inicia una llamada de grupo para unirse por teléfono, no se muestra la pantalla **Usar teléfono para el audio**. Este es un problema conocido que estamos intentando resolver. Para solucionar este problema, seleccione **Audio del teléfono** en **Otras opciones para unirse**.
 
 #### <a name="teams-mobile-clients"></a>Clientes de móvil de Teams
 
-Para los usuarios de Teams móviles, la capacidad de compartir fotos y vídeos durante una reunión también está determinada por la configuración del modo de vídeo **IP** o **IP.** En función de la configuración de directiva que tenga prioridad, la capacidad para compartir vídeos y fotos no estará disponible. Esto no afecta al uso compartido de la pantalla, que se configura con el modo de [Uso compartido de pantalla](meeting-policies-content-sharing.md#screen-sharing-mode). Asimismo, puede establecer una directiva de movilidad de [Teams](/powershell/module/skype/new-csteamsmobilitypolicy) para evitar que los usuarios móviles utilicen vídeo IP sobre una conexión móvil, lo que significa que deben usar una conexión Wi-Fi.
+Para los usuarios de Teams móviles, la capacidad de compartir fotos y vídeos durante una reunión también está determinada por la configuración del modo de vídeo **IP** o **vídeo IP**. En función de la configuración de directiva que tenga prioridad, la capacidad para compartir vídeos y fotos no estará disponible. Esto no afecta al uso compartido de la pantalla, que se configura con el modo de [Uso compartido de pantalla](meeting-policies-content-sharing.md#screen-sharing-mode). Asimismo, puede establecer una directiva de movilidad de [Teams](/powershell/module/skype/new-csteamsmobilitypolicy) para evitar que los usuarios móviles utilicen vídeo IP sobre una conexión móvil, lo que significa que deben usar una conexión Wi-Fi.
 
 ### <a name="media-bit-rate-kbs"></a>Velocidad de bits multimedia (kb/s)
 
@@ -149,7 +150,7 @@ Para las reuniones que necesitan una experiencia de vídeo de mayor calidad, com
 
 Esta configuración se aplica por participante. Esta configuración controla si los usuarios pueden personalizar su fondo de vídeo en una reunión.
 
-Puede usar tanto el centro Teams administración como PowerShell para establecer esta directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
+Puede usar el centro Teams administración y PowerShell para establecer esta directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
 
 Para especificar si los usuarios pueden personalizar su fondo de vídeo en una reunión, establezca el parámetro **VideoFiltersMode** **(configuración** Seleccionar filtros de vídeo en Teams centro de administración) de la siguiente manera:
 
@@ -165,19 +166,19 @@ Para especificar si los usuarios pueden personalizar su fondo de vídeo en una r
 
 ### <a name="allow-custom-background-settings"></a>Permitir la configuración de fondo personalizada
 
-Puede agregar imágenes de fondo personalizadas para que se utilicen por espacio empresarial. Esta característica permite a las empresas aplicar la personal de marca corporativa a Teams reuniones.
+Puede agregar imágenes de fondo personalizadas para que se utilicen por espacio empresarial. Esta característica permite a las empresas aplicar personal de marca corporativa a Teams reuniones.
 
 1. Inicie la sesión en el Centro de administración de Teams
 
-2. Seleccione **Directivas de reunión de** reuniones  >  **Personalizar** imágenes de  >  **reunión.**
+2. Seleccione **ReunionesMeeting** >  **PoliciesPersonalizar** >  **imágenes de reunión**.
 
    ![La selección de directivas de reunión con el botón Personalizar imágenes de reunión resaltado.](media/custom-background-image-button.png)
 
-3. Seleccione **Activar en** imágenes de fondo ancho de la **organización.**
+3. Seleccione **Activar en** **imágenes de fondo ancho de la organización**.
 
 4. Seleccione **+ Agregar imágenes**.
 
-5. En el panel Administrar fondos, seleccione **Agregar imagen.**
+5. En el panel Administrar fondos, seleccione **Agregar imagen**.
 
 6. Asegúrese de que las imágenes cumplen estos requisitos:
   
@@ -186,7 +187,7 @@ Puede agregar imágenes de fondo personalizadas para que se utilicen por espacio
    - Tipo de archivo de PNG, JPG o BMP
    - Se pueden cargar un máximo de 50 imágenes
 
-7. Obtenga una vista previa de las imágenes que ha seleccionado y, a continuación, seleccione **Cerrar.**
+7. Obtenga una vista previa de las imágenes que ha seleccionado y, a continuación, seleccione **Cerrar**.
 
 8. Revise las imágenes y agregue más según sea necesario.
 
@@ -198,7 +199,28 @@ Los asistentes a la reunión verán una selección de imágenes de fondo que pue
 > Los cambios pueden tardar hasta 24 horas en tener efecto.
 
 > [!NOTE]
-> Esta característica está disponible temporalmente en la vista previa pública para todos los Microsoft Teams clientes. Para obtener esta característica después de la vista previa, cada usuario necesitará la licencia de complemento Comunicaciones avanzadas. Para más información, consulte [Complemento de Comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+> Esta característica está disponible temporalmente en la vista previa pública para todos Microsoft Teams clientes. Para obtener esta característica después de la vista previa, cada usuario necesitará la licencia de complemento Comunicaciones avanzadas. Para más información, consulte [Complemento de Comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+
+### <a name="far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras"></a>Control de cámara de extremo lejano (FECC) para cámaras de zoom de inclinación de puntos (PTZ)
+
+El control de cámara de extremo extremo es una directiva que se puede asignar a Salas de Teams en Windows cuentas de recursos. Permite que las cámaras PTZ conectadas a una sala Teams puedan ser controladas por los participantes de la reunión en la Teams cliente durante las reuniones.
+
+Para usar el control de cámara de extremo extremo, los participantes de la reunión tendrán que obtener la **aplicación Controles de cámara PTZ** .  Vea [Permitir y bloquear aplicaciones](manage-apps.md#allow-and-block-apps) para obtener información sobre cómo hacer que la aplicación esté disponible en la tienda de aplicaciones de su organización.
+
+Para especificar quién puede usar el control de cámara de extremo extremo en una reunión, cree y asigne una nueva directiva a una cuenta de recursos de Salas de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) o use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para modificar una existente. Establezca el `TeamsCameraFarEndPTZMode` parámetro en uno de los siguientes valores:
+
+| Valor de configuración | Comportamiento |
+|---------------|----------|
+|Deshabilitado | Esta configuración es la predeterminada. Cuando se establece en "deshabilitado", nadie puede usar controles de cámara PTZ. |
+|AutoAcceptAll | Los controles de cámara PTZ están disponibles automáticamente para cualquier participante de la reunión. |
+|AutoAcceptInTenant | Los controles de cámara PTZ solo están disponibles automáticamente para los participantes de la misma organización que Teams sala. |
+
+Cuando `TeamsCameraFarEndPTZMode` se establece en `AutoAcceptAll` o `AutoAcceptInTenant`, el control de la cámara se puede desactivar manualmente desde la sala de Teams en cualquier momento durante una reunión. El control de la cámara tampoco está disponible cuando la cámara está desactivada.
+
+Se admite cualquier cámara con controles PTZ y UVC mecánicos. Para obtener una lista de las cámaras certificadas para Teams, incluidas las cámaras PTZ y no PTZ, vea Versiones de [firmware certificadas para periféricos de audio y vídeo USB](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). Esta característica aún no es compatible con cámaras con controles PTZ digitales o en Salas de Teams android.  
+
+> [!NOTE]
+> Actualice el firmware de la cámara antes de probar los controles PTZ. Consulte la documentación del fabricante de equipos originales (OEM) para actualizar el firmware.
 
 ## <a name="related-topics"></a>Temas relacionados
 

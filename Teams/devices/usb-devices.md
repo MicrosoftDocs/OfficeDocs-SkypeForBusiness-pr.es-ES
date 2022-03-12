@@ -15,20 +15,20 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Vea qué dispositivos y periféricos USB (como auriculares, altavoces, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: d47e4723efae7ba339b54f5aa62064775d882e38
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 1b9b8116ad06d58f6e77e33394ad5dd3db107c88
+ms.sourcegitcommit: 2b858f5e7281705b383522615b6ade6eba347df5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363196"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448803"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
-El programa de certificación de periféricos garantiza que los periféricos USB (como auriculares, altavoces, cámaras web y monitores) ofrecen una calidad de audio o vídeo enriquecimiento. Los dispositivos certificados funcionan (plug & play) sin necesidad de configuración adicional y ofrecen control de llamadas con Microsoft Teams y Skype Empresarial. Los productos proporcionan una excelente experiencia para los usuarios finales y los administradores.
+El programa de certificación de periféricos garantiza que los periféricos USB (como auriculares, altavoces, cámaras web y monitores) ofrecen una calidad de audio o vídeo enriquecimiento. Los dispositivos certificados funcionan (& jugar) sin necesidad de configuración adicional y ofrecen control de llamadas con Microsoft Teams y Skype Empresarial. Los productos proporcionan una excelente experiencia para los usuarios finales y los administradores.
 
 Para explorar dispositivos probados y certificados para Microsoft Teams, diríjase a la [Teams tienda](https://products.office.com/microsoft-teams/across-devices/devices).
 
-Para obtener más información sobre la compatibilidad con el control de Teams, vea [Controlar llamadas con auriculares en Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8).
+Para obtener más información sobre el soporte de control de llamadas con Teams, vea [Controlar llamadas con auriculares en Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8).
 
 > [!TIP]
 > ¿Busca dispositivos certificados para Skype Empresarial? Diríjase a [dispositivos de audio y vídeo USB certificados para Skype Empresarial](/skypeforbusiness/certification/devices-usb-devices).
@@ -51,7 +51,7 @@ Examinar [dispositivos certificados para Microsoft Teams](https://products.offic
 
 ### <a name="new-teams-certification-benefits"></a>Nuevas Teams de certificación
 
-- Botón de Teams y luz indicadora LED dedicada.
+- Botón de Teams dedicado y luz indicadora LED.
 - Notificación de usuario de eventos y alertas desde Teams cliente (por ejemplo, inicio de la reunión, correo de voz o llamada perdida).
 - Capacidad para activar el Teams o responder a una notificación con una pulsación del botón (por ejemplo, para unirse a una reunión).
 - Certificación diseñada para la extensibilidad (nuevas características de dispositivo o cliente que se entregarán a través de la actualización de firmware).
@@ -74,10 +74,11 @@ Si es un fabricante y desea unirse al programa de certificación [, vea Cómo](/
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabla actualizada en febrero de 2022*
+*Tabla actualizada en marzo de 2022*
 
 | Fabricante        | Modelo                                                     | Cualificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |Speakerphone SP3022                                        |2/7/2022        |Certificado para Microsoft Teams                           |
 |Dell                 |Barra de sonido de conferencias delgadas SB522A                          |1/25/2022       |Certificado para Microsoft Teams                           | 
 |Lenovo               |Auriculares ANC con cable                                       |1/12/2022       |Certificado para Microsoft Teams                           |
 |Lenovo               |Go Wired Speakerphone                                      |1/10/2022       |Certificado para Microsoft Teams                           |
@@ -90,7 +91,7 @@ Si es un fabricante y desea unirse al programa de certificación [, vea Cómo](/
 |Jabra                |PanaCast 20                                                |11/26/2021      |Certificado para Microsoft Teams                           |
 |Poly                 |Voyager Focus 2 y Voyager Office Base                    |10/20/2021      |Certificado para Microsoft Teams                           |
 |Poly                 |Base de Office Voyager 4320 y Office Voyager                       |10/20/2021      |Certificado para Microsoft Teams                           |
-|Poly                 |Base de Office Voyager 4310 y Office Voyager                       |10/20/2021      |Certificado para Microsoft Teams                           |
+|Poly                 |Voyager 4310 y Voyager Office Base                       |10/20/2021      |Certificado para Microsoft Teams                           |
 |Jabra                |Evolve 2 75 Auriculares                                        |10/8/2021       |Certificado para Microsoft Teams                           |
 |Logitech             |Auriculares con cable de zona                                         |9/2/2021        |Certificado para Microsoft Teams                           |
 |AudioCodes           |RXVCam10                                                   |8/26/2021       |Certificado para Microsoft Teams                           |
