@@ -16,12 +16,12 @@ description: Obtenga información sobre cómo comprar aplicaciones de terceros p
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 0ce9458bbec59eb80d399a78e5d3bce1611ca381
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 77a54fc6c6cf45492143d0548e488324514b500a
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070209"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442656"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicaciones de terceros para Teams
 
@@ -39,25 +39,26 @@ Aquí también puede comprar licencias para los servicios ofrecidos por aplicaci
 > Si quiere bloquear a los usuarios para que no compren una aplicación a través Teams tienda de aplicaciones, tiene que bloquear la aplicación. Para obtener más información sobre cómo bloquear una aplicación, vea Administrar directivas de [aplicación](app-policies.md) o obtenga información sobre cómo bloquear una aplicación [a nivel de organización](manage-apps.md#allow-and-block-apps).
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**. Debe ser administrador global o administrador Teams de servicio para acceder a la página.
-2. Busca la aplicación que quieras. Para identificar las aplicaciones que tienen una suscripción de SaaS de pago, busque en la **columna** Licencias. Cada aplicación tendrá uno de los siguientes valores:
+1. Busca la aplicación que quieras. Para identificar las aplicaciones que tienen una suscripción de SaaS de pago, busque en la **columna** Licencias. Cada aplicación tendrá uno de los siguientes valores:
     - **Compra**: La aplicación ofrece una suscripción SaaS y está disponible para comprar.  
     - **Comprado**: La aplicación ofrece una suscripción SaaS y ha comprado licencias para ella.
     - **- -**: La aplicación no ofrece una suscripción a SaaS.
-3. Cuando encuentre la aplicación, haga clic en **Comprar** para ir a la **pestaña Planes y** precios de la página de detalles de la aplicación. Revise los planes y la información de precios de la oferta de SaaS para la aplicación. Si necesita más información, seleccione **Más información** para ir a la página de la aplicación en [AppSource](https://appsource.microsoft.com/).
+1. Cuando encuentre la aplicación, haga clic en **Comprar** para ir a la **pestaña Planes y** precios de la página de detalles de la aplicación. Revise los planes y la información de precios de la oferta de SaaS para la aplicación. Si necesita más información, seleccione **Más información** para ir a la página de la aplicación en [AppSource](https://appsource.microsoft.com/).
 
-> [!NOTE]
-> Los planes privados también pueden aparecer en la lista para la compra, que incluyen precios especiales que su organización ha negociado previamente con un ISV. Estos planes tendrán la etiqueta **Plan privado** bajo el nombre del plan.
+   > [!NOTE]
+   > Los planes privados también pueden aparecer en la lista para la compra, que incluyen precios especiales que su organización ha negociado previamente con un ISV. Estos planes tendrán la etiqueta **Plan privado** bajo el nombre del plan.
 
-4. Para suscribirse a una aplicación, elija el plan que desee y seleccione **Comprar**. El flujo de desprotección se abrirá directamente en el Teams de administración.
-5. Seleccione el número de licencias de usuario que desea comprar.
-6. Compruebe que la cuenta de facturación y la dirección de venta son correctas. Si aún no la tiene, agregue una nueva **seleccionando Agregar**. Para obtener más información sobre las cuentas de facturación, vea [Comprender cuentas de facturación](/microsoft-365/commerce/manage-billing-accounts).
+1. Para suscribirse a una aplicación, elija el plan que desee y seleccione **Comprar**. El flujo de desprotección se abrirá directamente en el Teams de administración.
 
-> [!NOTE]
-> Debes ser administrador global para agregar una nueva cuenta de facturación.
+1. Seleccione el número de licencias de usuario que desea comprar.
+1. Compruebe que la cuenta de facturación y la dirección de venta son correctas. Si aún no la tiene, agregue una nueva **seleccionando Agregar**. Para obtener más información sobre las cuentas de facturación, vea [Comprender cuentas de facturación](/microsoft-365/commerce/manage-billing-accounts).
 
-7. Compruebe que el perfil de facturación correcto está seleccionado. Si aún no la tiene, agregue una nueva **seleccionando Agregar nuevo**. Tiene la opción de pagar con una tarjeta de crédito, tarjeta de débito o con [facturación de factura.](#invoice-billing) El perfil de facturación también le permite agregar un número de pedido de compra para identificar el pedido más adelante. Para obtener más información sobre los perfiles de facturación, vea [Comprender los perfiles de facturación](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
-8. Seleccione **Realizar pedido**.
-9. Seleccione **Configurar para** activar la suscripción en el sitio web del editor. Si no configura la suscripción después de la compra, puede hacerlo más adelante seleccionando Administrar **licencias**.
+   > [!NOTE]
+   > Debes ser administrador global para agregar una nueva cuenta de facturación.
+
+1. Compruebe que el perfil de facturación correcto está seleccionado. Si aún no la tiene, agregue una nueva **seleccionando Agregar nuevo**. Tiene la opción de pagar con una tarjeta de crédito, tarjeta de débito o con [facturación de factura.](#invoice-billing) El perfil de facturación también le permite agregar un número de pedido de compra para identificar el pedido más adelante. Para obtener más información sobre los perfiles de facturación, vea [Comprender los perfiles de facturación](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
+1. Seleccione **Realizar pedido**.
+1. Seleccione **Configurar para** activar la suscripción en el sitio web del editor. Si no configura la suscripción después de la compra, puede hacerlo más adelante seleccionando Administrar **licencias**.
 
 Después de comprar la oferta SaaS asociada Teams la aplicación Teams, puede ver los siguientes detalles de compra en la pestaña Planes y precios de la  página de detalles de la aplicación.
 

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: adfdfa74dd00314cb0b7fad5524a89619e8772d2
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070749"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442346"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -51,7 +51,7 @@ Las aplicaciones están ancladas a:
 
 |Cliente de escritorio de Teams  |Cliente móvil de Teams |
 |---------|---------|
-|![El Teams de escritorio.](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![El Teams móvil](media/mobile-app-ui.png)      |
+|![El Teams de escritorio.](media/app-setup-policies-desktop-app-bar.png)<  |   ![El Teams móvil](media/mobile-app-ui.png)      |
 
 > [!NOTE]
 > Si tiene Teams para Educación, es importante saber que la aplicación Asignaciones está anclada de forma predeterminada en la directiva global aunque actualmente no la vea en la directiva global. Será la cuarta aplicación de la lista de aplicaciones ancladas en Teams clientes.
@@ -193,7 +193,7 @@ Para ver todas las aplicaciones ancladas para un usuario, es posible que los usu
 |Cliente de escritorio de Teams |Cliente móvil de Teams |
 |---------|---------|
 |En la barra de la aplicación en el lado de Teams, seleccione **... Más aplicaciones**.| En la barra de aplicaciones cerca de la parte inferior Teams, deslice el dedo hacia arriba.|
-|![Más aplicaciones en el Teams escritorio.](media/app-setup-policies-desktop-more-apps.png)<br>   |![más aplicaciones en el Teams móvil](media/app-setup-policies-mobile-more-apps.png)  
+|![Más aplicaciones en el Teams escritorio.](media/app-setup-policies-desktop-more-apps.png)   |![más aplicaciones en el Teams móvil](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>¿Qué necesito saber sobre la Teams móvil?
 

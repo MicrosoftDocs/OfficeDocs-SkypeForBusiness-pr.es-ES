@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo actualizar aplicaciones en Microsoft Teams.
-ms.openlocfilehash: fac8f10808300280f52a62501ebb5cb8d69b4bb8
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: ce788bcdfb690aec305b71ec881a865385c895c2
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435714"
+ms.locfileid: "63442286"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Actualizar aplicaciones en Microsoft Teams
 
-En la mayoría de los casos, después de que los desarrolladores de aplicaciones publiquen una actualización de la aplicación, la nueva versión aparecerá automáticamente para los usuarios. Sin embargo, hay algunas actualizaciones del manifiesto <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams que</a> requieren la aceptación del usuario para completar:
+En la mayoría de los casos, después de que los desarrolladores de aplicaciones publiquen una actualización de la aplicación, la nueva versión aparecerá automáticamente para los usuarios. Sin embargo, hay algunas actualizaciones del manifiesto [Microsoft Teams que](/microsoftteams/platform/resources/schema/manifest-schema) requieren la aceptación del usuario para completar:
 
 * Se ha agregado o quitado un bot
 * Se ha cambiado la propiedad "botId" de un bot existente
@@ -41,8 +41,8 @@ En la mayoría de los casos, después de que los desarrolladores de aplicaciones
 
 ![opción de actualización para una aplicación.](media/manage-your-custom-apps-update2.png)
 
-> [!NOTE] 
-> El proceso de actualización se aplica a todas las actualizaciones de aplicaciones de Microsoft, aplicaciones personalizadas y aplicaciones de terceros. 
+> [!NOTE]
+> El proceso de actualización se aplica a todas las actualizaciones de aplicaciones de Microsoft, aplicaciones personalizadas y aplicaciones de terceros.
 
 ## <a name="related-topics"></a>Temas relacionados
 

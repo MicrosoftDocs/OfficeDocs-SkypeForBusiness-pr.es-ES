@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo enrutar llamadas a números sinsignar en su organización.
-ms.openlocfilehash: 4d9c40a0b4a01f7fae4a755603cb5cf7eb132f5c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: f53e83b3d4f26123feed70bdecad32cb45bc5588
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767373"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442798"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Enrutamiento de llamadas a números sinsignar
 
@@ -42,7 +42,7 @@ Puede enrutar las llamadas a números sin asignación a un usuario, a una cuenta
 
 Para enrutar llamadas a un número sinsignar, use el cmdlet New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment disponible en Teams módulo de PowerShell 2.5.1 o posterior.
 
-Debe especificar el número o rango de números denominados y el enrutamiento asociado para las llamadas a estos números. Por ejemplo, el siguiente comando especifica que todas las llamadas al número +1 (555) 222-3333 se enrutarán a la cuenta de recursos aa@contoso.com:
+Debe especificar el número o rango de números denominados y el enrutamiento asociado para las llamadas a estos números. Por ejemplo, el comando siguiente especifica que todas las llamadas al número +1 (555) 222-3333 se enrutarán a la cuenta de recursos aa@contoso.com:
 
 ``` PowerShell
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
@@ -67,7 +67,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - Si el enrutamiento a un anuncio, el archivo de audio se reproducirá una vez al autor de la llamada.
 
-- Para enrutar llamadas a números de suscriptores de Microsoft Calling Plan sinsignar, el inquilino debe tener créditos [de comunicaciones disponibles.](what-are-communications-credits.md)
+- Para enrutar llamadas a números de suscriptores de Microsoft Calling Plan sinsignar, el inquilino debe tener créditos [de comunicaciones disponibles](what-are-communications-credits.md).
 
 - Para enrutar llamadas a números de servicio de Microsoft Calling Plan sinsignar, el inquilino debe tener al menos una Sistema telefónico: licencia de usuario virtual.
 
@@ -82,3 +82,5 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 - [Set-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/set-csteamsunassignednumbertreatment)
 
 - [Remove-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/remove-csteamsunassignednumbertreatment)
+
+- [Test-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/test-csteamsunassignednumbertreatment)

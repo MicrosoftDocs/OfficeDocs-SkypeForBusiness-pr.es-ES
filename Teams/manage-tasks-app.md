@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ad0324509849700ea74afe582d4ce7a4934dc3e
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 90bdf2661432a5d68b8f6a727a272855f1a52173
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070599"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442456"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Tasks para su organización en Microsoft Teams
 
@@ -91,12 +91,12 @@ No se recomienda quitar una licencia de Exchange Online para los trabajadores de
 
 Con la publicación de tareas, la organización puede publicar listas de tareas dirigidas a ubicaciones específicas (equipos) de su organización para definir y compartir un plan de trabajo que se vaya a completar en esas ubicaciones.
 
-- Los miembros del equipo de publicación, como la dirección regional o corporativa, pueden crear listas de tareas y publicarlas en equipos específicos.<br>
+- Los miembros del equipo de publicación, como la dirección regional o corporativa, pueden crear listas de tareas y publicarlas en equipos específicos.
     ![Captura de pantalla de la publicación de tareas.](media/manage-tasks-app-publish.png)
-- Los administradores de los equipos de destinatarios pueden revisar las listas de tareas publicadas y asignar tareas individuales a los miembros del equipo.<br>
+- Los administradores de los equipos de destinatarios pueden revisar las listas de tareas publicadas y asignar tareas individuales a los miembros del equipo.
     ![Captura de pantalla de asignación de una tarea.](media/manage-tasks-app-assign.png)
 - Los trabajadores pueden ver sus tareas asignadas de forma sencilla en sus móviles. Pueden adjuntar fotos para mostrar su trabajo cuando corresponda y marcar sus tareas como completadas.
-- Quienes publiquen tareas y los administradores podrán ver en los informes a quiénes se han asignado las tareas y su progreso en cada nivel, incluidas la ubicación (equipo), la lista de tareas y la tarea individual.<br>
+- Quienes publiquen tareas y los administradores podrán ver en los informes a quiénes se han asignado las tareas y su progreso en cada nivel, incluidas la ubicación (equipo), la lista de tareas y la tarea individual.
     ![Captura de pantalla de tareas asignadas en dispositivos móviles.](media/manage-tasks-app-reporting.png)
 
 Los usuarios podrán crear, administrar y publicar listas de tareas en la pestaña **Listas publicadas** de la aplicación Tasks. En esta pestaña solo se muestra a un usuario si su organización [configura una jerarquía basada en equipos](#set-up-your-team-targeting-hierarchy) y si el usuario se encuentra en un equipo incluido en la jerarquía. La jerarquía determina si el usuario puede publicar o recibir listas de tareas y ver los informes de las listas recibidas.

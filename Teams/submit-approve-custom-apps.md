@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo aprobar las aplicaciones personalizadas que se envían con la API Teams envío de aplicaciones en Microsoft Teams.
-ms.openlocfilehash: a1b6778c79fd389ebfd4b3ce172daa186e92b76e
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 3a4dfc0b14f20f367cd3580c5366adc26233dde9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070409"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442336"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar una aplicación personalizada enviada a través de la API Teams de envío de aplicaciones
 
@@ -116,17 +116,17 @@ Después de publicar la aplicación, el estado **De publicación** cambia a  Pub
 
 ### <a name="control-access-to-the-app"></a>Controlar el acceso a la aplicación
 
-De forma predeterminada, todos los usuarios de su organización pueden acceder a la aplicación en la tienda de aplicaciones de su organización. Para restringir y controlar quién tiene permiso para usar la aplicación, puede crear y asignar una directiva de permisos de aplicación. Para obtener más información, consulte <a href="/microsoftteams/teams-app-permission-policies" target="_blank">Administrar configuración y directivas de aplicación personalizadas en Teams</a>.
+De forma predeterminada, todos los usuarios de su organización pueden acceder a la aplicación en la tienda de aplicaciones de su organización. Para restringir y controlar quién tiene permiso para usar la aplicación, puede crear y asignar una directiva de permisos de aplicación. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-app-permission-policies.md).
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>Anclar e instalar la aplicación para que los usuarios lo descubran
 
-De forma predeterminada, para que los usuarios encuentren la aplicación que tienen que ir a la tienda de aplicaciones de su organización y examinarla o buscarla. Para que sea más fácil para los usuarios acceder a la aplicación, puede anclar la aplicación a la barra de aplicaciones en Teams. Para ello, cree una directiva de configuración de la aplicación y asígnela a los usuarios. Para obtener más información, consulte <a href="/microsoftteams/teams-app-setup-policies" target="_blank">Administrar las directivas de configuración de aplicaciones en Teams</a>.
+De forma predeterminada, para que los usuarios encuentren la aplicación que tienen que ir a la tienda de aplicaciones de su organización y examinarla o buscarla. Para que sea más fácil para los usuarios acceder a la aplicación, puede anclar la aplicación a la barra de aplicaciones en Teams. Para ello, cree una directiva de configuración de la aplicación y asígnela a los usuarios. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>Buscar en el registro de auditoría Teams eventos de la aplicación
 
-Puede buscar en el registro de auditoría para ver Teams de aplicaciones de su organización. Para obtener más información sobre cómo buscar en el registro de auditoría y ver una lista de las actividades de Teams que se registran en el registro de auditoría, vea Buscar eventos en el registro de auditoría en <a href="/microsoftteams/audit-log-events" target="_blank">Teams</a>.
+Puede buscar en el registro de auditoría para ver Teams de aplicaciones de su organización. Para obtener más información sobre cómo buscar en el registro de auditoría y ver una lista de las actividades de Teams que se registran en el registro de auditoría, vea Buscar eventos en el registro de auditoría en [Teams](audit-log-events.md).
 
-Para que pueda buscar en el registro de auditoría, primero debe activar la característica de auditoría en el <a href="https://protection.office.com" target="_blank">Centro de seguridad y cumplimiento</a>. Para obtener más información, consulte <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">Activar o desactivar la búsqueda de registros de auditoría</a>. Tenga en cuenta que los datos de auditoría solo están disponibles desde el momento en que activó la característica de auditoría.
+Para que pueda buscar en el registro de auditoría, primero debe activar la característica de auditoría en el [Centro de seguridad y cumplimiento](https://sip.protection.office.com/). Para obtener más información, consulte [Activar o desactivar la búsqueda de registros de auditoría](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide). Tenga en cuenta que los datos de auditoría solo están disponibles desde el momento en que activó la característica de auditoría.
 
 ## <a name="discover-and-adopt"></a>Descubrir y adoptar
 
@@ -159,7 +159,7 @@ Tenga en cuenta lo siguiente:
 - Cuando se aprueba una aplicación, cualquiera puede enviar una actualización a la aplicación. Esto significa que otros desarrolladores, incluido el desarrollador que envió originalmente la aplicación, pueden enviar una actualización a la aplicación.
 - Cuando un desarrollador envía una aplicación y la solicitud está pendiente, solo ese mismo desarrollador puede enviar una actualización a la aplicación. Otros desarrolladores pueden enviar una actualización solo después de aprobar la aplicación.
 
-Para obtener más información sobre el uso de la API Graph para actualizar aplicaciones, vea <a href="/graph/api/teamsapp-update">aquí</a>.
+Para obtener más información sobre el uso de la API Graph para actualizar aplicaciones, vea [aquí](/graph/api/teamsapp-update?view=graph-rest-1.0&tabs=http).
 
 ## <a name="related-topics"></a>Temas relacionados
 
@@ -169,4 +169,4 @@ Para obtener más información sobre el uso de la API Graph para actualizar apli
 - [Administrar directivas de permisos de aplicación en Teams](teams-app-permission-policies.md)
 - [Administrar directivas de configuración de aplicación en Teams](teams-app-setup-policies.md)
 - [Teams y alertas](alerts/teams-admin-alerts.md)
-- <a href="/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">API de Graph microsoft para Teams aplicaciones</a>
+- [API de Graph microsoft para Teams aplicaciones](alerts/teams-admin-alerts.md)

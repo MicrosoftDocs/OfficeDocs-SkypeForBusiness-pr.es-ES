@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo administrar sus Teams aplicaciones
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: ad1dd28f4de0bc6db0ab7b2870a1cf7b2dae007a
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 96acf3151c2b805fead94979010669520b7a000f
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070229"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442296"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro Microsoft Teams administración
 
@@ -165,7 +165,7 @@ Use la configuración de aplicaciones de toda la organización para controlar si
     - **Permitir aplicaciones de terceros**: esto controla si los usuarios pueden usar aplicaciones de terceros. Si desactiva esta configuración, los usuarios no podrán instalar ni usar aplicaciones de terceros y el estado de la aplicación de estas aplicaciones se muestra como Bloqueado en toda la organización en la  tabla.
 
         > [!NOTE]
-        > Cuando **Permitir** aplicaciones de terceros está desactivado, los [webhooks salientes siguen habilitados](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) para todos los usuarios, pero puede controlarlas en el nivel de usuario al permitir o bloquear la aplicación Webhook saliente a través de directivas de permisos de [aplicación.](teams-app-permission-policies.md) <br><br>Tenga en cuenta que si tiene [](teams-app-permission-policies.md) directivas de permisos de aplicaciones existentes para aplicaciones  **de Microsoft** que usan la configuración Permitir aplicaciones específicas y bloquean todas las demás, y desea habilitar los webhooks salientes para los usuarios, agregue la aplicación Webhook saliente a la lista.
+        > Cuando **Permitir** aplicaciones de terceros está desactivado, los [webhooks salientes siguen habilitados](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) para todos los usuarios, pero puede controlarlas en el nivel de usuario al permitir o bloquear la aplicación Webhook saliente a través de directivas de permisos de [aplicación.](teams-app-permission-policies.md) Tenga en cuenta que si tiene [](teams-app-permission-policies.md) directivas de permisos de aplicaciones existentes para aplicaciones  **de Microsoft** que usan la configuración Permitir aplicaciones específicas y bloquean todas las demás, y desea habilitar los webhooks salientes para los usuarios, agregue la aplicación Webhook saliente a la lista.
 
         > [!NOTE]
         > Los usuarios de Teams puede añadir aplicaciones cuando organizan reuniones o chats con personas de otras organizaciones. También pueden usar aplicaciones compartidas con personas de otras organizaciones cuando organizan reuniones o chats con estas organizaciones. Se aplican las directivas de datos de la organización del usuario anfitrión, así como las prácticas de intercambio de datos de cualquier aplicación de terceros compartida por la organización del usuario.

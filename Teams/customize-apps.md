@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo personalizar aplicaciones en Microsoft Teams.
-ms.openlocfilehash: 7fb940ed512c96bd4aa4519bcdabbf9adcbe86a8
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 1f32b7f7d00b6737d959a1687574ce4560bd4725
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070429"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442646"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicaciones en Microsoft Teams
 
@@ -85,19 +85,19 @@ Para empezar a personalizar una aplicación, siga estos pasos:
 > [!Note]
 > Solo estarán visibles los campos que el desarrollador de aplicaciones haya asignado como personalizables.
 
-5. Expanda la **sección Icono** .
+1. Expanda la **sección Icono** .
 
-   1. Upload un icono. Use un icono de color completo (192x192) píxel en formato PNG.
+1. Upload un icono. Use un icono de color completo (192x192) píxel en formato PNG.
 
-   1. Elija un color de contorno de icono. Use un píxel de contorno transparente (32x32) en formato PNG.
+1. Elija un color de contorno de icono. Use un píxel de contorno transparente (32x32) en formato PNG.
 
-   1. Seleccione un color de acento de aplicación que coincida con el icono.
+1. Seleccione un color de acento de aplicación que coincida con el icono.
 
-    ![Personalizar las opciones de color del panel de iconos.](media/customize-app-colors.png)
+   ![Personalizar las opciones de color del panel de iconos.](media/customize-app-colors.png)
 
-6. Una vez que la aplicación se haya personalizado, seleccione **Aplicar**.
+1. Una vez que la aplicación se haya personalizado, seleccione **Aplicar**.
 
-7. Seleccione **Publicar** para publicar la aplicación personalizada.
+1. Seleccione **Publicar** para publicar la aplicación personalizada.
 
    La aplicación personalizada ahora aparece en la **página Administrar aplicaciones** . Solo tendrá una versión de la aplicación, ya que personalizar las características de la aplicación no crea una copia de la aplicación.
 
@@ -110,6 +110,7 @@ Ahora, Teams usuarios finales pueden abrir su Teams cliente para ver la aplicaci
 La siguiente nota incluye detalles importantes sobre cómo personalizar una aplicación.
 
 > [!Note]
+>
 > - Cuando personalice las aplicaciones y cualquier descripción relacionada con una aplicación, asegúrese de que sigue las directrices de personalización si lo proporciona el editor de aplicaciones en su documentación o términos de uso. También es responsable de respetar los derechos de otras personas con respecto a las imágenes de terceros que pueda usar.
 > - Los datos de personalización proporcionados por el administrador se almacenan en la región más cercana.
 > - Usted es responsable de garantizar que los vínculos a términos de uso o a la política de privacidad sean válidos.

@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59d8303943b8912f7ed0578bd911b633b618f113
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 96755d4396e47ea1a6a3c4266a157cce63008372
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070559"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442706"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Consideraciones y permisos de las aplicaciones de Microsoft Teams
 
@@ -38,7 +38,6 @@ Microsoft Teams aplicaciones son una forma de agregar una o más capacidades _a 
 Los usuarios consienten las aplicaciones y las administran desde una perspectiva de directiva. Sin embargo, en su mayoría, los permisos y el perfil de riesgo de una aplicación se definen por los permisos y perfiles de riesgo de las capacidades que contiene la aplicación. Por lo tanto, este artículo se centra en los permisos y consideraciones en el nivel de capacidad.
 
 Los permisos que se muestran a continuación en mayúsculas, por ejemplo, RECEIVE_MESSAGE y REPLYTO_MESSAGE, no aparecen en ninguna parte de la documentación del desarrollador de [Microsoft Teams](/microsoftteams/platform/overview) ni en los permisos de [Microsoft Graph](/graph/permissions-reference). Son simplemente una abreviada descriptiva para el propósito de este artículo.
-
 
 | Título   | Descripción    |
 |-----------|------------|
@@ -71,7 +70,7 @@ Ninguna
 
 - RECEIVE_MESSAGE, REPLYTO_MESSAGE. El bot puede recibir mensajes de los usuarios y responderles. <sup>1</sup>
 
-- POST_MESSAGE_USER. Después de que un usuario haya enviado un mensaje a un bot, el bot puede enviar al usuario mensajes directos (también denominados *mensajes proactivos* en cualquier momento.
+- POST_MESSAGE_USER. Después de que un usuario haya enviado un mensaje a un bot, el bot puede enviar al usuario mensajes directos (también denominados _mensajes proactivos_ en cualquier momento.
 
 - GET_CHANNEL_LIST. Los bots agregados a los equipos pueden obtener una lista de nombres e IDs de los canales de un equipo.
 
@@ -82,10 +81,10 @@ Ninguna
 - POST_MESSAGE_TEAM. Permite a los bots de una aplicación enviar mensajes directos (proactivos) a cualquier miembro del equipo en cualquier momento, incluso si el usuario nunca ha hablado con el bot antes.
 
 - Los siguientes no son permisos explícitos, pero están implícitos por RECEIVE_MESSAGE y REPLYTO_MESSAGE y los ámbitos en los que se pueden usar los bots, declarados en el manifiesto:
- 
-    - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-    - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-    - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
+
+  - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
+  - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
+  - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM    
 
 - SEND_FILES, RECEIVE_FILES. <sup>2</sup> Controla si un bot puede enviar y recibir archivos en chat personal (aún no es compatible con chats grupales o canales).
 
@@ -105,9 +104,9 @@ Ninguna
 
 - Los bots pueden recuperar (y pueden almacenar) la lista de canales de un equipo; estos datos abandonan la red corporativa.
 
-- Cuando se envía un archivo a un bot, el archivo abandona la red corporativa. Enviar y recibir archivos requiere la aprobación del usuario para cada archivo. 
+- Cuando se envía un archivo a un bot, el archivo abandona la red corporativa. Enviar y recibir archivos requiere la aprobación del usuario para cada archivo.
 
-- De forma predeterminada, los bots no tienen la capacidad de actuar en nombre del usuario, pero los bots pueden pedir a los usuarios que inicien sesión; tan pronto como el usuario inicia sesión, el bot tendrá un token de acceso con el que puede hacer cosas adicionales. Exactamente cuáles son esas cosas adicionales depende del bot y de dónde el usuario inicia sesión: un bot es una aplicación de Azure AD https://apps.dev.microsoft.com/ registrada en y puede tener su propio conjunto de permisos.
+- De forma predeterminada, los bots no tienen la capacidad de actuar en nombre del usuario, pero los bots pueden pedir a los usuarios que inicien sesión; tan pronto como el usuario inicia sesión, el bot tendrá un token de acceso con el que puede hacer cosas adicionales. Exactamente cuáles son esas cosas adicionales depende del bot y de dónde el usuario inicia sesión: un bot es una aplicación de Azure AD registrada en el [Portal](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList) de registro de aplicaciones y puede tener su propio conjunto de permisos.
 
 - Los bots se informan siempre que se agregan o eliminan usuarios de un equipo.
 
@@ -140,7 +139,7 @@ Ninguno (actualmente)
 
 ### <a name="considerations"></a>Consideraciones
 
-- El perfil de riesgo de una pestaña es casi idéntico al mismo sitio web que se ejecuta en una pestaña del explorador. 
+- El perfil de riesgo de una pestaña es casi idéntico al mismo sitio web que se ejecuta en una pestaña del explorador.
 
 - Una pestaña también obtiene el contexto en el que se está ejecutando, incluido el nombre de inicio de sesión y upn del usuario actual, el id. de objeto de Azure AD para el usuario actual, el id. del grupo de Microsoft 365 en el que reside (si es un equipo), el id. de inquilino y la configuración regional actual del usuario. Sin embargo, para asignar estos id. a la información de un usuario, la pestaña tendría que hacer que el usuario inicie sesión en Azure AD.
 
@@ -177,7 +176,7 @@ REPLYTO_CONNECTOR_MESSAGE. Algunos conectores admiten mensajes que se pueden usa
 
 ## <a name="outgoing-webhooks"></a>Webhooks salientes
 
-*Los webhooks salientes* se crean sobre la marcha por los propietarios del equipo o los miembros del equipo. No son capacidades de Teams aplicaciones; esta información se incluye para su integridad.
+_Los webhooks salientes_ se crean sobre la marcha por los propietarios del equipo o los miembros del equipo. No son capacidades de Teams aplicaciones; esta información se incluye para su integridad.
 
 ### <a name="required-permissions"></a>Permisos necesarios
 

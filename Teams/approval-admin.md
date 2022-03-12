@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 0c2ec3432a503755ba6164f4a46f7b35f9696271
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070439"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442316"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 
@@ -198,6 +198,7 @@ Desde la aplicación Aprobaciones de Teams, los usuarios tienen acceso para crea
 ## <a name="approvals-e-signature-integration"></a>Integración de firmas electrónicas de aprobaciones
 
 Para usar la característica de firma electrónica de la aplicación Aprobaciones, necesita una licencia para el proveedor de firma electrónico específico que desea usar. Para obtener una licencia para su organización, tendrá que ir al sitio del proveedor.
+
 ### <a name="enable-or-disable-e-signature-providers"></a>Habilitar o deshabilitar proveedores de firma electrónica
 
 Puede usar el centro Teams administración para controlar qué proveedores de firma electrónica de terceros están disponibles para los usuarios en la aplicación Aprobaciones. De forma predeterminada, los proveedores de firma electrónica están habilitados en la aplicación Aprobaciones. Al deshabilitar un proveedor de firma electrónica, los usuarios no tendrán acceso a ese proveedor cuando creen aprobaciones. Los usuarios tampoco podrán ver las solicitudes de firma electrónica creadas con ese proveedor.

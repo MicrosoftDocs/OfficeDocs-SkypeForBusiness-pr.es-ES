@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: bdc2124da8fb404c289a8e4e5eda962cd66cc9b4
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 2b8eaa4cfc9743ad297c7309769a3195e84cb539
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070379"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442466"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Administrar directivas de permisos de aplicación en Microsoft Teams
 
@@ -52,7 +52,7 @@ Pongamos un ejemplo. Digamos que desea bloquear todas las aplicaciones de tercer
 Si desea controlar qué aplicaciones están disponibles para distintos grupos de usuarios de la organización, cree y asigne una o más directivas de permisos de aplicación personalizadas. Puede crear y asignar directivas personalizadas en función de si las aplicaciones se publican por Microsoft, terceros o su organización. Debe saber que después de crear una directiva personalizada, no podrá cambiarla si las aplicaciones de terceros están deshabilitadas en la configuración de la aplicación para toda la organización.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Directivas de permisos**.
-2. Haga clic en **Agregar**.<br>
+2. Haga clic en **Agregar**.
     ![Captura de pantalla de la nueva directiva de permisos de la aplicación.](media/app-permission-policies-new-policy.png)
 3. Escriba un nombre y una descripción para la directiva.
 4. En **Aplicaciones de Microsoft**, **Aplicaciones de terceros** y **Aplicaciones personalizadas**, seleccione una de las opciones siguientes:
@@ -66,7 +66,7 @@ Si desea controlar qué aplicaciones están disponibles para distintos grupos de
 
     1. Seleccione **Permitir aplicaciones**.
     1. Busque las aplicaciones que quiera permitir y, después, haga clic en **Agregar**. Los resultados de búsqueda se filtran en función de quién haya publicado la aplicación (**Aplicaciones de Microsoft**, **Aplicaciones de terceros** y **Aplicaciones personalizadas**).
-    1. Cuando haya elegido la lista de aplicaciones, haga clic en **Permitir**. 
+    1. Cuando haya elegido la lista de aplicaciones, haga clic en **Permitir**.
 
 6. De forma similar, si seleccionó **Bloquear aplicaciones específicas y permitir todas las demás**, busque y agregue las aplicaciones que desee bloquear y, después, haga clic en **Bloquear**.
 7. Haga clic en **Guardar**.
@@ -97,7 +97,7 @@ Use la configuración de aplicaciones para toda la organización para controlar 
 1. En la página **Directivas de permiso**, seleccione **Configuración de aplicaciones para toda la organización**. Después, podrá configurar las opciones que desee en el panel.
 
     ![Captura de pantalla de la configuración de la aplicación para toda la organización.](media/app-permission-policies-gcc-org-wide.png)
-    
+
 2. En **Aplicaciones de terceros**, desactive o active esta configuración para controlar el acceso a aplicaciones de terceros:
 
     - **Permitir aplicaciones de terceros**: esto controla si los usuarios pueden usar aplicaciones de terceros. Si desactiva esta configuración, los usuarios no podrán instalar ni usar aplicaciones de terceros. En un Microsoft 365: implementación de GCCH y DoD de Teams, esta configuración está desactivada de forma predeterminada.
@@ -113,9 +113,11 @@ Como se indicó anteriormente, para permitir aplicaciones de terceros, puede edi
 ### <a name="working-with-app-permission-policies"></a>Trabajo con directivas de permisos de aplicaciones
 
 #### <a name="what-app-interactions-do-permission-policies-affect"></a>¿A qué tipo de interacciones con aplicaciones afectan las directivas de permisos?
+
 Las directivas de permisos rigen el uso de aplicaciones mediante el control de la instalación, la detección y la interacción de los usuarios finales. Los administradores aún pueden gestionar las aplicaciones en el Centro de administración de Microsoft Teams, independientemente de las directivas de permisos que se les asignen.
 
 #### <a name="can-i-control-line-of-business-lob-apps"></a>¿Puedo controlar las aplicaciones de línea de negocio (LOB)?
+
 Sí, puede usar directivas de permisos de aplicación para controlar la implementación y distribución de aplicaciones personalizadas (LOB). Puede crear una directiva personalizada o editar la directiva global para permitir o bloquear aplicaciones personalizadas según las necesidades de su organización.
 
 #### <a name="how-do-app-permission-policies-relate-to-pinned-apps-and-app-setup-policies"></a>¿Cómo se relacionan las directivas de permisos de aplicación con las aplicaciones ancladas y las directivas de configuración de aplicaciones?

@@ -18,25 +18,27 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd07e375a35ea212bccd988395b5c1adbd721011
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: e65f7a0eef62197e90f77876129af95f32f4d6bc
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299055"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442486"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Introducción a las plantillas de equipo en el centro de administración de Teams
 
 **La capacidad de crear plantillas personalizadas aún no es compatible con los clientes de EDU.**
 
 > [!NOTE]
-> Actualmente, los canales privados y las etiquetas de confidencialidad no son compatibles con las plantillas de equipo. La creación de canales privados no se incluye en las definiciones de plantilla. La opción de etiqueta de confidencialidad **en Crear equipo a partir** del flujo de plantillas no se aplicará al equipo.
+> - Actualmente, los canales privados no son compatibles con las plantillas de equipo. La creación de canales privados no se incluye en las definiciones de plantilla.
+>
+> - Las etiquetas de confidencialidad no son compatibles con las plantillas de grupo GCC entornos. La opción de etiqueta de confidencialidad del flujo Crear equipo a partir de plantilla no se aplicará al equipo.
 
 ## <a name="overview"></a>Información general
 
 Una plantilla de equipo en Microsoft Teams es una definición de la estructura de un equipo diseñada en torno a una necesidad empresarial o un proyecto. Como administrador, puede usar plantillas para implementar fácilmente equipos coherentes en toda la organización. Con las plantillas, los usuarios pueden crear rápidamente espacios de colaboración enriquecidos con configuraciones predefinidas, canales y aplicaciones.
 
-Puede administrar plantillas de equipo en el Microsoft Teams de administración o mediante PowerShell. Puede usar las plantillas predefinidas que proporcionamos y también puede [crear sus propias plantillas personalizadas](#create-your-own-team-templates). También puede aplicar [directivas de plantilla para](#apply-team-template-policies) controlar qué plantillas están disponibles para los usuarios en Teams.
+Puede administrar plantillas de equipo en el Microsoft Teams de administración o mediante PowerShell. Puede usar las plantillas predefinidas que proporcionamos y también puede [crear sus propias plantillas personalizadas](#create-your-own-team-templates). También puede aplicar [directivas de plantilla](#apply-team-template-policies) para controlar qué plantillas están disponibles para los usuarios en Teams.
 
 En este artículo se ofrece información general sobre cómo trabajar con plantillas de grupo en el centro Teams administración. Aprenderá sobre las propiedades compatibles con plantillas, las plantillas predefinidas que proporcionamos, los límites de tamaño de plantilla, cómo crear y administrar plantillas, etc.
 
@@ -63,7 +65,7 @@ La mayoría de las propiedades de un equipo se incluyen y son compatibles con la
 
 ## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Plantillas de equipo predefinidas en el centro Teams administración
 
-Estas son las plantillas de equipo predefinidas que están disponibles en el centro Teams administración. Las plantillas predefinidas son plantillas que hemos creado para sectores específicos. Para ver estas plantillas, en el panel de navegación izquierdo del Teams de administración, vaya a **Teams** >  **Team**.
+Estas son las plantillas de equipo predefinidas que están disponibles en el centro Teams administración. Las plantillas predefinidas son plantillas que hemos creado para sectores específicos. Para ver estas plantillas, en el panel de navegación izquierdo del Teams de administración, vaya a **Teams** >  **de equipo**.
 
 Puede duplicar plantillas predefinidas, pero no editarlas. Si desea cambiar las propiedades de una plantilla predefinida, puede crear una plantilla nueva a partir de una existente y, a continuación, agregar o quitar las propiedades que desee. Tenga en cuenta que algunas propiedades de algunas plantillas no se pueden cambiar.
 
@@ -119,7 +121,7 @@ Para obtener más información, vea [Límites y especificaciones de Teams](limit
 
 #### <a name="view-team-templates"></a>Ver plantillas de equipo
 
-Para ver las plantillas de equipo, en el panel de navegación izquierdo del Teams de administración, vaya a **Teams** >  **de equipo**. Seleccione una plantilla para ver más detalles, incluidos los canales y las aplicaciones que contiene.
+Para ver las plantillas de equipo, en el panel de navegación izquierdo del Teams de administración, vaya a **Teams** >  **Plantillas de equipo**. Seleccione una plantilla para ver más detalles, incluidos los canales y las aplicaciones que contiene.
 
 #### <a name="create-your-own-team-templates"></a>Crear sus propias plantillas de equipo
 
