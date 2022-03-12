@@ -1803,6 +1803,8 @@ items:
             href: teams-powershell-managing-teams.md
           - name: Notas de la versión de PowerShell para Teams
             href: teams-powershell-release-notes.md
+          - name: Versiones compatibles con PowerShell de Teams
+            href: teams-powershell-supported-versions.md
           - name: Pasar del conector de Skype Empresarial Online al módulo de PowerShell para Teams
             href: teams-powershell-move-from-sfbo.md
           - name: Referencia de cmdlet para Teams
