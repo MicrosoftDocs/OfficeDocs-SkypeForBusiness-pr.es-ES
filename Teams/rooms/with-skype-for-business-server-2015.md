@@ -1,7 +1,7 @@
 ---
 title: Implementar Salas de Microsoft Teams con Skype Empresarial Server
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Lea este tema para obtener información sobre cómo implementar Salas de Microsoft Teams con Skype Empresarial Server.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 702eb2128dd37980fd3fc76548638102d45d7af9
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: 358fa9295ec150f9c57a18252c76d309078b8e29
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355629"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503487"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Implementar Salas de Microsoft Teams con Skype Empresarial Server
   
@@ -60,7 +60,7 @@ Antes de empezar a implementar Salas de Microsoft Teams, asegúrese de que tiene
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. Puede establecer varias propiedades Exchange en la Salas de Teams de recursos para mejorar la experiencia de reunión de los usuarios. Si desea ver qué propiedades hay que configurar, consulte la sección sobre propiedades de Exchange.
+3. Puede establecer varias propiedades de Exchange en la Salas de Teams de recursos para mejorar la experiencia de reunión de los usuarios. Si desea ver qué propiedades hay que configurar, consulte la sección sobre propiedades de Exchange.
 
    ``` Powershell
    Set-CalendarProcessing -Identity ConferenceRoom01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -80,16 +80,16 @@ Antes de empezar a implementar Salas de Microsoft Teams, asegúrese de que tiene
    Set-AdUser ConferenceRoom01@contoso.com -Enabled $true
    ```
 
-6. Habilite la cuenta de recursos con Skype Empresarial Server habilitando su cuenta Salas de Microsoft Teams Active Directory en un grupo Skype Empresarial Server recursos:
+6. Habilite la cuenta de recursos con Skype Empresarial Server habilitando su cuenta Salas de Microsoft Teams Active Directory en un Skype Empresarial Server grupo de servidores:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity ConferenceRoom01 -SipAddress sip:ConferenceRoom01@contoso.com -DomainController DC-ND-001.contoso.com
    -RegistrarPool LYNCPool15.contoso.com 
    ```
 
-    Cambie los `-DomainController` atributos y a los valores `-RegistrarPool` adecuados para su entorno.
+    Cambie los atributos `-DomainController` y `-RegistrarPool` a los valores adecuados para su entorno.
 
-7. **Opcional.** También puede permitir que Salas de Microsoft Teams y reciba llamadas telefónicas de red telefónica conmutada (RTC) activando Telefonía IP empresarial para su cuenta. Telefonía IP empresarial no es un requisito para Salas de Microsoft Teams, pero si desea la funcionalidad de marcado RTC para Salas de Microsoft Teams, aquí le explicamos cómo habilitarla:
+7. **Opcional.** También puede permitir que Salas de Microsoft Teams y reciba llamadas telefónicas de red telefónica conmutada (RTC) al habilitar Telefonía IP empresarial para su cuenta. Telefonía IP empresarial no es un requisito para Salas de Microsoft Teams, pero si desea la funcionalidad de marcado RTC para Salas de Microsoft Teams, aquí le explicamos cómo habilitarla:
 
    ``` Powershell
    Set-CsMeetingRoom -Identity ConferenceRoom01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"

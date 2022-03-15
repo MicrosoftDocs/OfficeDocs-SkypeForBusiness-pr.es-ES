@@ -1,7 +1,7 @@
 ---
 title: Consideraciones de unión a dominio del Sistema de salas de Skype
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 ms.collection:
 - M365-collaboration
-description: El administrador puede obtener información sobre cómo unirse a un equipo de Skype de sistema de sala a un dominio de Active Directory, junto con las consideraciones para hacerlo.
+description: El administrador puede obtener información sobre cómo unirse a un equipo Skype de room system a un dominio de Active Directory, junto con las consideraciones para hacerlo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7956160f57971e48f1f979a7c0a905d760b767bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c64f6df46a8fec7364c63227e3c0a620758038f1
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579604"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503977"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -32,10 +32,10 @@ Lea este tema para obtener información sobre cómo unirse a un equipo PC de la 
 
 Puede unirse al equipo Skype room system al dominio de Active Directory o dejarlo en un grupo de trabajo. Considere los siguientes puntos antes de realizar esta decisión:
   
-- Unirse al dominio Skype equipo del sistema de sala ayuda a importar automáticamente la cadena de certificados raíz privada de su organización.
-- Unirse al dominio Skype equipo de sistema de sala le permite conceder derechos administrativos a usuarios y grupos de dominios. Al hacer esto, no tendrá que acordarse de la contraseña de la cuenta de administrador de nivel de máquina local.
-- Cuando se une a un equipo del dispositivo del sistema de salón de Skype al dominio, es necesario que cree una unidad organizativa (OU) independiente, de modo que pueda proporcionar exclusiones de objetos de directiva de grupo (GPO) a la unidad organizativa donde residen todos los objetos del equipo del sistema de salón de Skype. Al hacerlo, cree objetos de máquina en la unidad organizativa antes de unirse al Skype equipo del sistema de sala al dominio.
-- Muchas organizaciones tienen los siguientes GPO, que afectan a Skype de pc del dispositivo Room System. Asegúrese de invalidar o bloquear la herencia de estos GPO en la unidad organizativa Skype room system:
+- Unirse a un dominio Skype equipo del sistema de sala ayuda a importar automáticamente la cadena de certificados raíz privada de su organización.
+- Unirse al dominio Skype equipo del sistema de sala le permite conceder derechos administrativos a los usuarios y grupos de dominios. Al hacer esto, no tendrá que acordarse de la contraseña de la cuenta de administrador de nivel de máquina local.
+- Cuando se une a un equipo del dispositivo del sistema de salón de Skype al dominio, es necesario que cree una unidad organizativa (OU) independiente, de modo que pueda proporcionar exclusiones de objetos de directiva de grupo (GPO) a la unidad organizativa donde residen todos los objetos del equipo del sistema de salón de Skype. Al hacerlo, cree objetos de equipo en la unidad organizativa antes de unirse al Skype equipo del sistema de sala al dominio.
+- Muchas organizaciones tienen los siguientes GPO, que afectan a Skype de pc del dispositivo room system. Asegúrese de invalidar o bloquear la herencia de estos GPO en la unidad organizativa Skype room system:
 
   - Tiempo de espera de sesiones de inicio de sesión (bloqueo automático)
   - Directivas relacionadas con la administración de energía
@@ -44,11 +44,11 @@ Puede unirse al equipo Skype room system al dominio de Active Directory o dejarl
   - Avisar a los usuarios de conexiones de red lentas
   - Iniciar un programa determinado en el inicio de sesión
   - Crear otra cuenta de usuario de dominio en todas las máquinas con unión a dominio.
-  - Insertar Windows actualizar a Skype room system
+  - Push Windows Update to Skype Room System
     
 - De forma alternativa, puede decidir dejar el equipo PC de aplicación en el grupo de trabajo. Al igual que con el Microsoft Teams o Skype Empresarial de escritorio, esto requiere que importe manualmente la cadena de certificados raíz en el equipo de Skype de room system. No es necesario importar la cadena de certificados raíz si la implementación usa un certificado público (por ejemplo, Entrust, VeriSign, entre otros). 
     
-Si tiene previsto unirse Skype los equipos del sistema de sala al dominio, para evitar unirse Skype un equipo del sistema de sala de forma involuntaria a una unidad organizativa no deseada, que puede no estar libre de GPO, asegúrese de unirse a la unidad organizativa correcta. Puede usar el siguiente cmdlet desde el equipo Skype Room System para unirse a la unidad organizativa correcta y no recibe GPO que puedan bloquear la funcionalidad de LRS. Póngase en contacto con el administrador del sistema o con el partner OEM para ejecutar estos cmdlets:
+Si tiene previsto unirse Skype los equipos del sistema de sala al dominio, para evitar unirse Skype una máquina del sistema de sala sin darse cuenta a una unidad organizativa no deseada, que puede no estar libre de GPO, asegúrese de unirse a la unidad organizativa correcta. Puede usar el siguiente cmdlet desde el equipo Skype Room System para unirse a la unidad organizativa correcta y no recibe GPO que puedan bloquear la funcionalidad de LRS. Póngase en contacto con el administrador del sistema o con el partner OEM para ejecutar estos cmdlets:
   
 ```powershell
 $username = "contso.local\LRS01"

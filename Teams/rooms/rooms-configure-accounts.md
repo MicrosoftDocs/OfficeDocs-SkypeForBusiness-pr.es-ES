@@ -1,7 +1,7 @@
 ---
 title: Configurar cuentas para Salas de Microsoft Teams
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lea este tema para obtener información sobre cómo configurar cuentas para Salas de Microsoft Teams en Exchange y Skype Empresarial.
-ms.openlocfilehash: 77e1dbe097bbb75697ec52ef7d472df4707ac9cb
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 9c898d63291d6b2d4a8d2557f2e307156b3487b4
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306125"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503497"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurar cuentas para Salas de Microsoft Teams
  
@@ -34,9 +34,9 @@ En este tema se presenta cómo crear cuentas usadas por Salas de Microsoft Teams
     
 - Implementaciones híbridas: su organización tiene una combinación de servicios, con algunos hospedados localmente y otros hospedados en línea a través de Microsoft 365 o Office 365. Con Salas de Microsoft Teams, se admiten los siguientes escenarios híbridos:
     
-  - Exchange Online con Skype Empresarial Server local. Para obtener más información, vea [Implementar Salas de Microsoft Teams con Exchange Online (híbrido).](with-exchange-online.md)
+  - Exchange Online con Skype Empresarial Server local. Para obtener más información, vea [Implementar Salas de Microsoft Teams con Exchange Online (híbrido).](with-exchange-online.md).
     
-  - Exchange local con Microsoft Teams. Para obtener más información, vea [Implementar Salas de Microsoft Teams con Exchange local (híbrido).](with-exchange-on-premises.md)
+  - Exchange local con Microsoft Teams. Para obtener más información, vea [Implementar Salas de Microsoft Teams con Exchange local (híbrido).](with-exchange-on-premises.md).
     
 La configuración que tenga influirá en la forma de preparar la configuración del dispositivo.
   
@@ -45,11 +45,11 @@ Salas de Microsoft Teams debe asignarse una "cuenta de recursos" en Active Direc
 > [!IMPORTANT]
 > Sin una cuenta de recursos, ninguna de estas características funcionará. 
   
-Cada cuenta de recurso es única para una sola instalación Salas de Microsoft Teams y requiere una configuración:
+Cada cuenta de recursos es única para una sola instalación Salas de Microsoft Teams y requiere alguna configuración:
   
 - La cuenta de recursos debe configurarse correctamente.
     
-- La infraestructura debe configurarse para permitir a Salas de Microsoft Teams validar la cuenta de recursos y para llegar a las servicios Microsoft.
+- La infraestructura debe configurarse para permitir que Salas de Microsoft Teams la cuenta de recursos y que llegue a las servicios Microsoft.
 
 > [!NOTE] 
 > Si usa Microsoft Teams paneles, la cuenta Salas de Teams de recursos inicia sesión tanto en Salas de Teams como en los paneles Teams asociados.
@@ -62,7 +62,7 @@ En entornos híbridos, la cuenta usada para Salas de Microsoft Teams debe tener 
   
 Puede pensar en una cuenta de recursos como la cuenta de recursos que los usuarios reconocen como cuenta de una sala de conferencias o de espacio compartido. Cuando desee programar una reunión con ese espacio, invite a la cuenta a esa reunión.
   
-Si ya tiene una cuenta de buzón de recursos configurada para el espacio donde va a instalar Salas de Microsoft Teams, puede cambiar esa cuenta a una cuenta de Salas de Teams recursos. Una vez que haya terminado, todo lo que necesita hacer es iniciar sesión en Salas de Microsoft Teams con esa cuenta.
+Si ya tiene una cuenta de buzón de recursos configurada para el espacio donde va a instalar Salas de Microsoft Teams, puede cambiar esa cuenta a una cuenta de Salas de Teams recursos. Una vez que haya terminado, todo lo que tiene que hacer es iniciar sesión Salas de Microsoft Teams con esa cuenta.
   
 ## <a name="basic-configuration"></a>Configuración básica
 
@@ -70,13 +70,13 @@ Estas propiedades representan la configuración mínima para que una cuenta de r
   
 |**Propiedad**|**Finalidad**|
 |:-----|:-----|
-|Exchange buzón (Exchange 2013 SP1 o posterior, o Exchange Online)  <br/> |Habilitar la cuenta con un buzón de Exchange proporciona a la cuenta de recursos la capacidad de recibir y enviar tanto solicitudes de correo como de reunión, así como para mostrar un calendario de reuniones en el Salas de Microsoft Teams dispositivo. El Salas de Microsoft Teams debe ser un buzón de sala.  <br/> |
+|Exchange buzón (Exchange 2013 SP1 o posterior, o Exchange Online)  <br/> |Habilitar la cuenta con un buzón de Exchange proporciona a la cuenta de recursos la capacidad de recibir y enviar tanto solicitudes de correo como de reunión, y para mostrar un calendario de reuniones en el Salas de Microsoft Teams dispositivo. El Salas de Microsoft Teams buzón de correo debe ser un buzón de sala.  <br/> |
 |Skype Empresarial está habilitado  <br/> |Skype Empresarial se puede habilitar para usar varias Skype Empresarial de conferencia, como videollamadas, mensajería instantánea y uso compartido de pantalla.  <br/> |
-|Habilitada con contraseña  <br/> |La cuenta de recurso debe estar habilitada con una contraseña o no puede autenticarse con Microsoft Teams, Exchange o Skype Empresarial Server. La expiración de la contraseña debe deshabilitarse en todas Salas de Teams de recursos.   <br/> |
+|Habilitada con contraseña  <br/> |La cuenta de recursos debe estar habilitada con una contraseña o no puede autenticarse con Microsoft Teams, Exchange o Skype Empresarial Server. La expiración de la contraseña debe deshabilitarse en todas Salas de Teams de recursos.   <br/> |
    
 ## <a name="advanced-configuration"></a>Configuración avanzada
 
-Aunque las propiedades de la configuración básica permitirán configurar la cuenta de recursos en un entorno sencillo, es posible que su entorno tenga otras restricciones en las cuentas de directorio que deben cumplirse para que Salas de Microsoft Teams use correctamente la cuenta de recursos.
+Aunque las propiedades de la configuración básica permitirán que la cuenta de recursos se configure en un entorno sencillo, es posible que su entorno tenga otras restricciones en las cuentas de directorio que deben cumplirse para que Salas de Microsoft Teams use correctamente la cuenta de recursos.
   
 |**Propiedad**|**Finalidad**|
 |:-----|:-----|

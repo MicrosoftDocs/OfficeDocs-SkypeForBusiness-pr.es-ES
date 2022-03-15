@@ -1,7 +1,7 @@
 ---
 title: Crear Microsoft Teams de recursos para barras de colaboración para Microsoft Teams usar PowerShell
-ms.author: mitressl
-author: flinchbot
+ms.author: czawideh
+author: cazawideh
 manager: ericwe
 audience: ITPro
 ms.reviewer: payurevi
@@ -16,12 +16,12 @@ ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lea este tema para obtener información sobre cómo implementar barras de colaboración para Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3388e2eb1e086cd347769a50bb9603f4a0832402
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0bbafdfbfc9fb7e9b637216aeb9e5a0d6b470533
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605819"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503917"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>Crear una Microsoft 365 de recursos con PowerShell
 
@@ -44,7 +44,7 @@ Antes de implementar Salas de Microsoft Teams con Office 365, asegúrese de que 
 
 1. Conectar para Exchange Online PowerShell. Para obtener instrucciones, [vea Conectar para Exchange Online PowerShell](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module).
 
-2. En Exchange Online PowerShell, cree un buzón de sala o modifique un buzón de sala existente.
+2. En Exchange Online PowerShell, cree un buzón de sala nuevo o modifique un buzón de sala existente.
 
    - Para crear un buzón de sala nuevo, use la sintaxis siguiente:
 
@@ -78,10 +78,10 @@ Antes de implementar Salas de Microsoft Teams con Office 365, asegúrese de que 
      Set-Mailbox -Identity HuddleRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '808P@$$W0rd' -AsPlainText -Force)
      ```
 
-   Para obtener información detallada sobre la sintaxis y los parámetros, vea [Nuevo buzón](/powershell/module/exchange/mailboxes/new-mailbox) y Conjunto [de buzones.](/powershell/module/exchange/mailboxes/set-mailbox)
+   Para obtener información detallada sobre la sintaxis y los parámetros, vea [Nuevo buzón](/powershell/module/exchange/mailboxes/new-mailbox) y [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
 
-3. En Exchange Online PowerShell, configure las siguientes opciones en el buzón de sala para mejorar la experiencia de la reunión:
+3. En Exchange Online PowerShell, configure las siguientes opciones en el buzón de sala para mejorar la experiencia de reunión:
 
    - AutomateProcessing: AutoAccept (Los organizadores de la reunión reciben la decisión de reserva de sala directamente sin intervención humana: gratis = aceptar; ocupado = rechazar).
 
@@ -105,7 +105,7 @@ Antes de implementar Salas de Microsoft Teams con Office 365, asegúrese de que 
 
    Para obtener información detallada sobre la sintaxis y los parámetros, vea [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Conectar PowerShell de MS Online para realizar la configuración de Active Directory ejecutando el `Connect-MsolService -Credential $cred` cmdlet de powershell.   Para obtener más información sobre Active Directory, vea [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+4. Conectar a PowerShell de MS Online para realizar la configuración de Active Directory ejecutando el `Connect-MsolService -Credential $cred` cmdlet de powershell.   Para obtener más información sobre Active Directory, vea [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) no es compatible. 
@@ -116,7 +116,7 @@ Antes de implementar Salas de Microsoft Teams con Office 365, asegúrese de que 
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true
       ```
     
-6. La cuenta de recursos debe tener una licencia Office 365, preferiblemente la SKU Sala de reuniones recursos. También debe asignar una ubicación de uso a su cuenta de dispositivo, lo que determina qué SKU de licencia están disponibles para su cuenta. Puede usarlo para recuperar una lista de SKU disponibles `Get-MsolAccountSku` para su Office 365 inquilino.
+6. La cuenta de recursos debe tener una licencia Office 365, preferiblemente la SKU Sala de reuniones recursos. También debe asignar una ubicación de uso a su cuenta de dispositivo, lo que determina qué SKU de licencia están disponibles para su cuenta. Puede usar para `Get-MsolAccountSku` recuperar una lista de SKU disponibles para su Office 365 inquilino.
 
       ``` Powershell
       Get-MsolAccountSku
@@ -128,7 +128,7 @@ Antes de implementar Salas de Microsoft Teams con Office 365, asegúrese de que 
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -UsageLocation "US"
       Set-MsolUserLicense -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -AddLicenses contoso:meeting_room
       ```
-   Para obtener instrucciones [detalladas,](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)vea Asignar licencias a cuentas de usuario con Office 365 PowerShell.
+   Para obtener instrucciones [detalladas, vea Asignar licencias a cuentas de usuario con Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
 
 

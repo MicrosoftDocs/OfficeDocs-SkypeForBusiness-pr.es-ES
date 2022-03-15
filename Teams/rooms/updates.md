@@ -1,7 +1,7 @@
 ---
 title: Administrar Windows actualizaciones de Salas de Microsoft Teams
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: ''
 description: El administrador puede obtener información sobre cómo administrar Windows actualizaciones y Windows de características de Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c904db6b168280619b203a1327d6477736077efe
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 95b99e8869ed9fa63a372c6c40d1d0d2be28c019
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015010"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503757"
 ---
 # <a name="manage-windows-updates"></a>Administrar Windows actualizaciones
 
@@ -38,21 +38,21 @@ Windows las actualizaciones se pueden administrar como se describe en las seccio
 ## <a name="windows-updates-for-business-gpo-or-intune"></a>Windows actualizaciones para empresas (GPO o Intune)  
 
 - [Windows actualizaciones para empresas](/windows/deployment/update/waas-manage-updates-wufb)
-- Las actualizaciones se descargan desde Windows o desde Windows Server Update Services (WSUS), pero con retrasos configurados más allá de la fecha de lanzamiento original.
-- Puede usar varias us o directivas filtradas para crear "anillos" de implementación donde los administradores pueden especificar qué dispositivos Salas de Teams instalan actualizaciones de calidad primero y cuáles se instalan más adelante. La confiabilidad y el rendimiento se pueden probar en un subconjunto de dispositivos antes de implementar actualizaciones en toda la implementación sin la sobrecarga de administración de Windows actualizaciones en Configuration Manager.
-- Wsus y Windows actualizaciones para empresas [](/windows/deployment/update/waas-integrate-wufb) se pueden configurar al mismo tiempo si desea tanto la administración de ancho de banda como el control Windows actualizaciones para empresas.
+- Las actualizaciones se descargan desde Windows update o el Windows Server Update Services (WSUS), pero con retrasos configurados más allá de la fecha de lanzamiento original.
+- Puede usar varias us o directivas filtradas para crear "anillos" de implementación donde los administradores pueden especificar qué dispositivos Salas de Teams instalar actualizaciones de calidad en primer lugar y cuáles instalar más adelante. La confiabilidad y el rendimiento se pueden probar en un subconjunto de dispositivos antes de implementar actualizaciones en toda la implementación sin la sobrecarga de administrar Windows actualizaciones en Configuration Manager.
+- Wsus y Windows actualizaciones para empresas se pueden configurar al mismo [](/windows/deployment/update/waas-integrate-wufb) tiempo si desea tanto la administración de ancho de banda como el control Windows Actualizaciones para empresas.
 - Actualizaciones de características. Vea las notas siguientes.
 
 ## <a name="wsusconfiguration-manager"></a>WSUS/Configuration Manager
 
 - [Descarga de WSUS/Configuration Manager](/windows/deployment/update/waas-manage-updates-configuration-manager)
-- Al igual que Windows actualización para empresas, pero con la opción adicional de dirigir KB específicos dentro de cada "anillo" o toda la implementación. Cada actualización se puede implementar y probar individualmente a su voluntad, en lugar de depender solo de un retraso.
+- Al igual que Windows actualización para empresas, pero con la opción adicional de dirigir KB específicas dentro de cada "anillo" o de toda la implementación. Cada actualización se puede implementar y probar individualmente a su voluntad, en lugar de depender solo de un retraso.
 - Actualizaciones de características. Vea las notas siguientes.
 
 ### <a name="feature-updates"></a>Actualizaciones de características
 
-A diferencia de las actualizaciones de calidad y no aplazables, Windows 10 las "actualizaciones de características" (versiones principales del sistema operativo) solo se instalarán después de que Microsoft compruebe y valide una funcionalidad de actualizaciones determinada con Salas de Microsoft Teams. Incluso si la actualización se publica en el Canal de Semi-Annual (o Dirigido si tiene sistemas establecidos en ese canal para pruebas) o se inserta manualmente, Salas de Microsoft Teams no permitirá que se instale la actualización sin probar.
+A diferencia de las actualizaciones de calidad y no aplazables, Windows 10 "Actualizaciones de características" (versiones principales del sistema operativo) solo se instalarán después de que Microsoft compruebe y valide una funcionalidad de actualizaciones determinada con Salas de Microsoft Teams. Incluso si la actualización se publica en el Canal de Semi-Annual (o Dirigido si tiene sistemas establecidos en ese canal para realizar pruebas) o se inserta manualmente, Salas de Microsoft Teams no permitirá que se instale la actualización sin probar.
 
-Salas de Microsoft Teams funciones "de fuera de la caja" con un enfoque práctico. Salas de Teams descargar una actualización y esperar al siguiente reinicio para instalarla. A menos que alguien lo reinicie manualmente, la instalación solo se produce en el reinicio automático por la noche. Windows actualizaciones deben ser transparentes en la sala y el funcionamiento normal nunca debe interrumpirse con Windows actualizaciones.
+Salas de Microsoft Teams funciones "de fuera de la caja" con un enfoque de entrega. Salas de Teams descargar una actualización y esperar al siguiente reinicio para instalarla. A menos que alguien lo reinicie manualmente, la instalación solo se produce en el reinicio automático por la noche. Windows actualizaciones deben ser transparentes en el salón y el funcionamiento normal nunca debe interrumpirse por Windows actualizaciones.
 
 Si elige unirse a un dominio de dispositivos, puede usar Microsoft Endpoint Configuration Manager o WSUS. Preste especial atención a las directivas o acciones que den como resultado una actualización del dispositivo o un reinicio forzoso durante el horario laboral. Salas de Teams reiniciar durante el uso o alertar sobre Windows actualizaciones a través de la interfaz de usuario durante el horario de uso. Revise la configuración si se produce ese comportamiento.

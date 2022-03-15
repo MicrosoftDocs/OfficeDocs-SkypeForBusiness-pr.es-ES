@@ -1,7 +1,7 @@
 ---
 title: Plan para Salas de Microsoft Teams
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: En este artículo se explican las consideraciones de planeación relevantes para implementar Salas de Microsoft Teams, la siguiente generación de Skype de sala.
-ms.openlocfilehash: f0b1f8797a8d1f9d7589e959c71699b1efd84e3c
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: eb1bacc0d96cf48f174980bd7bee9ea476f545f1
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015230"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504087"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Plan Salas de Microsoft Teams
 
-En este artículo se presenta un enfoque de un extremo a otro para planear, ofrecer y operar Salas de Microsoft Teams como parte de la estrategia general de la sala de reuniones y conferencias.
+En este artículo se presenta un enfoque integral para planear, entregar y operar Salas de Microsoft Teams como parte de la estrategia general de la sala de reuniones y conferencias.
 
 Encontrará información de planificación a continuación que cubre el enfoque recomendado y las decisiones clave que debe tomar, con vínculos a información técnica de soporte técnico. Le recomendamos que revise las secciones Planear, Implementar y Administrar incluso si ya está completamente implementado.
 
@@ -32,7 +32,7 @@ Encontrará información de planificación a continuación que cubre el enfoque 
 
 Salas de Microsoft Teams ofrece una experiencia de reunión completa que ofrece vídeo HD, audio y uso compartido de contenido a reuniones de todos los tamaños, desde pequeñas áreas de reunión hasta salas de conferencias grandes.
 
-![Un usuario pulsa una Salas de Teams, con una pantalla en segundo plano.](../media/room-systems-image1.jpg "Un usuario pulsa una consola Salas de Teams, con una pantalla en segundo plano") 
+![Un usuario pulsa una Salas de Teams, con una pantalla en segundo plano.](../media/room-systems-image1.jpg "Un usuario pulsa una Salas de Teams, con una pantalla en segundo plano")
  [Salas de Microsoft Teams ayuda es](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) un recurso excelente para obtener más información sobre Salas de Microsoft Teams y cómo puede agregar valor como parte de la implementación.
 
 ## <a name="microsoft-teams-rooms-components"></a>Salas de Microsoft Teams componentes
@@ -46,14 +46,14 @@ Salas de Microsoft Teams incluye los siguientes componentes clave para ofrecer u
 - Pantallas externas (máximo de dos)
 - Entrada HDMI
 
-Puede adquirir estos componentes como paquetes preinstalados de varios proveedores, o puede comprar los componentes admitidos individualmente siguiendo los requisitos documentados en [este artículo.](requirements.md)
+Puede adquirir estos componentes como paquetes preinstalados de varios proveedores, o puede comprar los componentes admitidos individualmente siguiendo los requisitos documentados en [este artículo](requirements.md).
 
 Puede implementar Salas de Microsoft Teams con Microsoft Teams o Skype Empresarial implementaciones locales.  Consulte la [Teams Sala de reuniones de licencias para](rooms-licensing.md) obtener información sobre las licencias necesarias.
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
 |![decidir la implementación.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Implementará Salas de Microsoft Teams en su organización? </li><li>¿Cómo adquirirá sus Salas de Microsoft Teams sistemas?</li></ul> |
-| ![identificar actividades.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes | <ul><li>Identifique quién llevará a cabo las actividades clave a lo largo de la implementación.</li><li>Revise las salas de reuniones que tiene (y tiene previsto configurar) para comprender dónde desea implementar Salas de Microsoft Teams y los dispositivos periféricos que serían adecuados para el tamaño de la sala.</li></ul> |
+| ![identificar actividades.](../media/audio_conferencing_image9.png)<br/>Siguientes pasos | <ul><li>Identifique quién llevará a cabo las actividades clave a lo largo de la implementación.</li><li>Revise las salas de reuniones que tiene (y planea configurar) para comprender dónde desea implementar Salas de Microsoft Teams y los dispositivos periféricos que serían adecuados para el tamaño de la sala.</li></ul> |
 | | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>Identificar quién llevará a cabo las actividades clave a lo largo de la implementación
@@ -70,14 +70,14 @@ Es posible que tenga que coordinar estas actividades en varios equipos. Proporci
 |----------------------------|----------------------------------------|-------------|-----------------------|
 | Salas de inventario            | Instalaciones / equipo av / IT Project equipo |             | [Inventario de sala y planificación de capacidades](#room-inventory-and-capability-planning)        |
 | Capacidades de planificación          | Equipo de Project de IT                        |             | [Inventario de sala y planificación de capacidades](#room-inventory-and-capability-planning)                       |
-| Selección de dispositivos           | Equipo de PROJECT /AV              |             | [Selección de dispositivos](#device-selection)                      |
-| Adquisición                | Equipo de PROJECT /AV              |             | [Adquisición](#procurement)                      |
+| Selección de dispositivos           | Equipo Project DE.IT/AV              |             | [Selección de dispositivos](#device-selection)                      |
+| Adquisición                | Equipo Project DE.IT/AV              |             | [Adquisición](#procurement)                      |
 | Preparación del sitio             | Instalaciones / equipo av / IT Project equipo |             | [Preparación del sitio](rooms-deploy.md#site-readiness)                      |
 | Preparación del servicio          | Equipo de Project de IT                        |             | [Preparación del servicio](rooms-deploy.md#service-readiness)                      |
 | Configuración              | Equipo de Project de IT                        |             | [Configuración e implementación](rooms-deploy.md#configuration-and-deployment)                      |
 | Deployment                 | Instalaciones / equipo av / IT Project equipo |             | [Lista de comprobación de implementación](console.md#microsoft-teams-rooms-deployment-checklist)                      |
 | Adopción                   | Instalaciones / equipo av / IT Project equipo |             | [Adopción](#plan-for-adoption-and-change-management)                      |
-| Mantenimiento y funcionamiento | Equipo av/ equipo de PROJECT equipo              |             | [Introducción a la administración](rooms-manage.md)                      |
+| Mantenimiento y funcionamiento | Equipo av / IT Project equipo              |             | [Introducción a la administración](rooms-manage.md)                      |
 
 
 ## <a name="room-inventory-and-capability-planning"></a>Inventario de sala y planificación de capacidades
@@ -90,70 +90,70 @@ Como parte de su detección, es clave tener en cuenta la acústica y el diseño 
 
 | &nbsp;   | &nbsp;    |
 |-----------|------------|
-| ![salas de deplyment.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Revise los salas del ámbito y defina Salas de Microsoft Teams configuraciones para ellos.</li></ul>|
+| ![salas de deplyment.](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Revise los salas del ámbito y defina Salas de Microsoft Teams configuraciones para ellos.</li></ul>|
 
 _Inventario de salón de reuniones o conferencias de ejemplo_
 
 | Sitio  | Nombre del salón | Tipo de salón | Número de personas  | ¿En el ámbito? | Capacidades de sala actuales       | Capacidades de sala futuras     |
 |-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
-| Sede de Londres | Curie         | Medio        | 6 &ndash; 12                  | Sí          | Altavoz                        | 1 pantalla, audio y vídeo más presentación<br>Acceso RTC |
-| Sydney HQ | Hill          | Grande         | 12 &ndash; 16                 | Sí          | Unidad AV heredada, 1 pantalla y cámara | 2 pantallas, audio y vídeo más presentación<br>Acceso RTC |
+| Sede de Londres | Curie         | Medio        | 612&ndash;                  | Sí          | Altavoz                        | 1 pantalla, audio y vídeo más presentación<br>Acceso RTC |
+| Sydney HQ | Hill          | Grande         | 1216&ndash;                 | Sí          | Unidad AV heredada, 1 pantalla y cámara | 2 pantallas, audio y vídeo más presentación<br>Acceso RTC |
 
 ## <a name="device-selection"></a>Selección de dispositivos 
 
-Evalúe qué Salas de Microsoft Teams solución es la más adecuada para cada sala en función de las capacidades futuras que desee para la sala. Decida qué dispositivos periféricos AV son los más adecuados, según el tamaño y el diseño del salón. 
+Evalúe qué Salas de Microsoft Teams es la más adecuada para cada sala en función de las capacidades futuras que desee para la sala. Decida qué dispositivos periféricos AV son los más adecuados, según el tamaño y el diseño del salón. 
 
-Para obtener instrucciones sobre el tipo de dispositivos periféricos y del sistema según el tipo de sala y el tamaño, consulte [el artículo Salas de Microsoft Teams requisitos.](requirements.md) 
+Para obtener instrucciones sobre el tipo de sistema y dispositivos periféricos según el tipo de sala y el tamaño, consulte [el artículo Salas de Microsoft Teams requisitos.](requirements.md) 
 
-En función del proveedor que prefiera, use la información proporcionada en el artículo de requisitos para definir la configuración de dispositivo periférico compatible y Salas de Microsoft Teams por tipo de salón y úse esta opción como plantilla para su implementación. 
+En función del proveedor que prefiera, use la información proporcionada en el artículo de requisitos para definir la configuración de dispositivo periférico compatible y de Salas de Microsoft Teams por tipo de salón y úse esta opción como plantilla para su implementación. 
 
 **Pro sugerencia:** es posible que algunos tipos de salón no sean aplicables a la implementación.
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![salas en ámbito.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Desde el inventario, ¿qué tipos de salas están en el ámbito de la implementación?</li><li>¿Qué sistemas implementará para cada tipo de salón?</li></ul>|
-| ![recopilar material.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empiece a recopilar material operativo clave para los sistemas elegidos e interactúe con el equipo de compras.</li></ul>|
+| ![recopilar material.](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Empiece a recopilar material operativo clave para los sistemas elegidos e interactúe con el equipo de compras.</li></ul>|
 
 _Ejemplo Salas de Microsoft Teams de implementación de su organización_
 
 | **Tipo/tamaño de la sala** | **Número de personas**  | **Salas de Microsoft Teams sistema** | **Dispositivos periféricos**  | **Mostrar(s)** |
 |----------------------|-----------------------|----------------------------------|-------------------------|-----------------|
-| Foco 10' por 9'      | 2 &ndash; 4                   |                                  |                         |                 |
-| Pequeño 16' por 16'     | 4 &ndash; 6                   |                                  |                         |                 |
-| Medium 18' by 20'    | 6 &ndash; 12                  |                                  |                         |                 |
-| Grande 15' por 32'     | 12 &ndash; 16                 |                                  |                         |                 |
+| Foco 10' por 9'      | 24&ndash;                   |                                  |                         |                 |
+| Pequeño 16' por 16'     | 46&ndash;                   |                                  |                         |                 |
+| Medium 18' by 20'    | 612&ndash;                  |                                  |                         |                 |
+| Grande 15' por 32'     | 1216&ndash;                 |                                  |                         |                 |
 
-**Pro sugerencia:** ahora es un buen momento para empezar a recopilar información sobre la solución Salas de Microsoft Teams que ha elegido.
+**Pro sugerencia:** ahora es un buen momento para empezar a recopilar información sobre la Salas de Microsoft Teams solución que ha elegido.
 
 ## <a name="procurement"></a>Adquisición 
 
 Puede adquirir el sistema elegido como un paquete o una solución integrada a través de partners de dispositivos.
 
-Puede adquirir Salas de Microsoft Teams de un número de partners que aparecen en el artículo [requisitos](requirements.md). Visite los sitios web de los partners para obtener más información sobre estas soluciones y opciones de adquisición. 
+Puede adquirir Salas de Microsoft Teams de un número de partners que aparecen en el artículo [de requisitos](requirements.md). Visite los sitios web de los partners para obtener más información sobre estas soluciones y opciones de adquisición. 
 
 Según la escala y el enfoque de implementación, es posible que decida que los dispositivos periféricos Salas de Microsoft Teams y compatibles se envíen a una ubicación central para la configuración inicial y la asignación. Este puede ser un buen enfoque para una implementación por fases en muchos sitios. O bien, es posible que elija enviar los paquetes directamente a sus sitios. 
 
 |   &nbsp; |  &nbsp;   |
 |-----------|------------|
 | ![enviar componentes.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Enviará los componentes directamente a un sitio o a una instalación de ensayo?</li><li>Quién administrará la instalación de ensayo (si decide usar una)?</li></ul>|
-| ![planear operaciones.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Planear las operaciones.</li><li>Planear la adopción y la administración de cambios.</li></ul>|
+| ![planear operaciones.](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Planear las operaciones.</li><li>Planear la adopción y la administración de cambios.</li></ul>|
 
 ## <a name="plan-for-operations"></a>Plan de operaciones 
 
 Su organización debe ejecutar tareas de supervisión, administración y administración de forma continua y es clave acordar quién llevará a cabo estas tareas al principio de la implementación. 
 
-Muchas organizaciones tienen un equipo de AV o un partner que administra sus salas de conferencias y dispositivos. También puede hacer que Microsoft le ayude a administrar Salas de Teams mediante Salas de Microsoft Teams Premium. Decida quién administrará los dispositivos Salas de Microsoft Teams para supervisar el rendimiento, así como para implementar actualizaciones de software y revisiones. 
+Muchas organizaciones tienen un equipo de AV o un partner que administra sus salas de conferencias y dispositivos. También puede hacer que Microsoft le ayude a administrar Salas de Teams mediante Salas de Microsoft Teams Premium. Decida quién administrará los dispositivos Salas de Microsoft Teams en el futuro para supervisar el rendimiento, así como para implementar actualizaciones de software y revisiones. 
 
-Consider which helpdesk queue you’ll route Microsoft Teams Rooms֪–related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Microsoft Teams Rooms and the key troubleshooting steps they can take. Un buen punto de partida para estas preguntas frecuentes es la [ayuda del usuario](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) y los problemas [conocidos.](known-issues.md)
+Consider which helpdesk queue you’ll route Microsoft Teams Rooms֪–related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Microsoft Teams Rooms and the key troubleshooting steps they can take. Un buen punto de partida para estas preguntas frecuentes es la [ayuda del usuario](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) y [los problemas conocidos](known-issues.md).
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
 | ![elija administrador.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida quién administrará Salas de Microsoft Teams.</li><li>Decida a qué cola del departamento de soporte técnico se Salas de Microsoft Teams llamadas relacionadas.</li></ul>|
-| ![preparar cuentas de host.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Prepararse para hospedar cuentas. </li></ul>|
+| ![preparar cuentas de host.](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Prepararse para hospedar cuentas. </li></ul>|
 
 
 ## <a name="plan-for-adoption-and-change-management"></a>Planear la adopción y la administración de cambios
 
-Salas de Microsoft Teams nuevos sistemas introducen nuevas capacidades para los usuarios. Es importante que reconozca que esto será un cambio para los usuarios y que debe asegurarse de que su campaña de marketing interno identifique las ventajas que tendrá el nuevo sistema para los usuarios y los puntos de conversación clave que los clientes potenciales pueden usar para hablar con sus equipos. 
+Salas de Microsoft Teams los sistemas introducen nuevas capacidades para los usuarios. Es importante que reconozca que esto será un cambio para los usuarios y que debe asegurarse de que su campaña de marketing interno identifique las ventajas que tendrá el nuevo sistema para los usuarios y los puntos de conversación clave que los clientes potenciales pueden usar para hablar con sus equipos. 
 
 Considere la posibilidad de programar eventos de presentación y pósteres en cada sitio para informar a los usuarios de las nuevas capacidades. También puede crear "guías de inicio rápido" en la sala. Considere la posibilidad de buscar un campeón de reuniones en cada sitio que pueda ayudar a otras personas a estar al día y empezar a usar los dispositivos.

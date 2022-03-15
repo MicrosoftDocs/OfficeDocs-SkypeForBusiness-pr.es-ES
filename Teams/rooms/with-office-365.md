@@ -1,7 +1,7 @@
 ---
 title: Implementar Salas de Microsoft Teams con Office 365
-ms.author: v-lanac
-author: lanachin
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lea este tema para obtener información sobre cómo implementar Salas de Microsoft Teams con Office 365.
-ms.openlocfilehash: d4c66fb863c5c41a717808ddca43002752510fb5
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: f54e7f7e201127b0a61c99f09fee2084378dbbd9
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056030"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503717"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Implementar Salas de Microsoft Teams con Office 365
 
@@ -34,7 +34,7 @@ Antes de implementar Salas de Microsoft Teams con Office 365, asegúrese de que 
 
 1. Conectar para Exchange Online PowerShell. Para obtener instrucciones, [vea Conectar para Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
 
-2. En Exchange Online PowerShell, cree un buzón de sala o modifique un buzón de sala existente. De forma predeterminada, los buzones de sala no tienen cuentas asociadas. Tendrá que agregar una cuenta al crear o modificar un buzón de sala que le permita autenticarse.
+2. En Exchange Online PowerShell, cree un buzón de sala nuevo o modifique un buzón de sala existente. De forma predeterminada, los buzones de sala no tienen cuentas asociadas. Tendrá que agregar una cuenta al crear o modificar un buzón de sala que le permita autenticarse.
 
    - Para crear un buzón de sala nuevo, use la sintaxis siguiente:
 
@@ -62,16 +62,16 @@ Antes de implementar Salas de Microsoft Teams con Office 365, asegúrese de que 
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     En este ejemplo, se habilita la cuenta del buzón de sala existente que tiene el valor de alias ConferenceRoom02 y se establece la contraseña en 9898P@$$W 0rd.
+     En este ejemplo, se habilita la cuenta para el buzón de sala existente que tiene el valor de alias ConferenceRoom02 y se establece la contraseña en 9898P@$$W 0rd.
 
      ``` PowerShell
      Set-Mailbox -Identity 'ConferenceRoom02' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
-   Para obtener información detallada sobre la sintaxis y los parámetros, vea [Nuevo buzón](/powershell/module/exchange/mailboxes/new-mailbox) y Conjunto [de buzones.](/powershell/module/exchange/mailboxes/set-mailbox)
+   Para obtener información detallada sobre la sintaxis y los parámetros, vea [Nuevo buzón](/powershell/module/exchange/mailboxes/new-mailbox) y [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
 
-3. En Exchange Online PowerShell, configure las siguientes opciones en el buzón de sala para mejorar la experiencia de la reunión:
+3. En Exchange Online PowerShell, configure las siguientes opciones en el buzón de sala para mejorar la experiencia de reunión:
 
    - AutomateProcessing: AutoAccept (El buzón toma automáticamente una decisión de reserva de sala directamente sin intervención humana).
 
@@ -87,7 +87,7 @@ Antes de implementar Salas de Microsoft Teams con Office 365, asegúrese de que 
 
    - AdditionalResponse: "Esta es una sala Microsoft Teams reunión" (El texto adicional que se agregará a la solicitud de reunión).
 
-   En este ejemplo se configuran estas opciones en el buzón de sala Project-Rigel-01.
+   En este ejemplo se configuran estas opciones en el buzón de sala denominado Project-Rigel-01.
 
    ``` PowerShell
    Set-CalendarProcessing -Identity 'ConferenceRoom01' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse 'This is a Microsoft Teams meeting room!'
@@ -107,7 +107,7 @@ Antes de implementar Salas de Microsoft Teams con Office 365, asegúrese de que 
     ```
 
 
-1. La cuenta de recursos necesita tener una licencia Office 365 para poder conectarse a Microsoft Teams. También debe asignar una ubicación de uso a su cuenta de dispositivo, lo que determina qué SKU de licencia están disponibles para su cuenta. Puede usarlo para recuperar una lista de SKU disponibles `Get-MsolAccountSku` para su Office 365 inquilino. Puede agregar una licencia con el `Set-MsolUserLicense` cmdlet.
+1. La cuenta de recursos debe tener una licencia Office 365 para poder conectarse a Microsoft Teams. También debe asignar una ubicación de uso a su cuenta de dispositivo, lo que determina qué SKU de licencia están disponibles para su cuenta. Puede usar para `Get-MsolAccountSku` recuperar una lista de SKU disponibles para su Office 365 inquilino. Puede agregar una licencia con el `Set-MsolUserLicense` cmdlet.
 
    En este ejemplo se asigna la Sala de reuniones a un usuario basado en EE. UU.
 
@@ -118,7 +118,7 @@ Antes de implementar Salas de Microsoft Teams con Office 365, asegúrese de que 
   ``` 
 
 
-   Para obtener instrucciones [detalladas,](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)vea Asignar licencias a cuentas de usuario con Office 365 PowerShell.
+   Para obtener instrucciones [detalladas, vea Asignar licencias a cuentas de usuario con Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
 
 ## <a name="validate"></a>Validar

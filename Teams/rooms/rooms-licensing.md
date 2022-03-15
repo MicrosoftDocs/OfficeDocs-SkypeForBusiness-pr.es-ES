@@ -1,7 +1,7 @@
 ---
 title: Licencias de Salas de Microsoft Teams
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: sohailta
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información sobre las licencias disponibles para diferentes tipos de llamadas y características de reunión en Salas de Microsoft Teams.
-ms.openlocfilehash: 05e7b0c3f8cb6f31e84ef16ad0ff23039da26b14
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 4ac62bb4e30e2a7686c334bb638391cd2bf9ee18
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056060"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503507"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams Sala de reuniones de licencias
 
@@ -47,11 +47,11 @@ Microsoft tiene dos SKU dedicadas para licencias de reuniones y llamadas por dis
 |Servicios administrados | | &#x2714; &sup3;|
 
 
-&sup1; La disponibilidad y los minutos incluidos pueden variar según la región. Para comprobar la disponibilidad del servicio, consulte Disponibilidad de país y [región para planes de audioconferencias y llamadas.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans) Es posible que se apliquen cargos por consumo para servicios adicionales, como gratuitos, minutos internacionales para planes nacionales, etc. Los clientes pueden deshabilitar estas características para evitar facturación adicional.  
+&sup1; La disponibilidad y los minutos incluidos pueden variar según la región. Para comprobar la disponibilidad del servicio, consulte Disponibilidad de país y  [región para planes de audioconferencias y llamadas](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Es posible que se apliquen cargos por consumo para servicios adicionales, como gratuitos, minutos internacionales para planes nacionales, etc. Los clientes pueden deshabilitar estas características para evitar facturación adicional.  
 
 &sup2; No disponible en nubes soberanas  
 
-&sup3; Para obtener más información y disponibilidad, [vea Salas de Microsoft Teams servicio administrado.](microsoft-teams-rooms-premium.md)
+&sup3; Para obtener más información y disponibilidad, [vea Salas de Microsoft Teams servicio administrado](microsoft-teams-rooms-premium.md).
 
 Ambas licencias contienen derechos para Skype Empresarial Online, que se retiró el 31 de julio de 2021.
 
@@ -77,4 +77,4 @@ En la tabla siguiente se enumeran las características que están disponibles en
 
  Vea también [Excelentes experiencias de sala de reuniones: Conozca las nuevas Salas de Microsoft Teams Estándar y Premium](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).
 
- Puede leer Configurar la licencia de área [común Teléfono](../set-up-common-area-phones.md) para Microsoft Teams para obtener información sobre las licencias de teléfonos de área común.
+ Puede leer Configurar [la licencia de área común Teléfono para Microsoft Teams](../set-up-common-area-phones.md) para obtener información sobre las licencias de teléfonos de área común.

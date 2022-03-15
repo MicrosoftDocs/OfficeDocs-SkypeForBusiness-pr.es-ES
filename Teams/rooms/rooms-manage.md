@@ -1,7 +1,7 @@
 ---
 title: Administrar Salas de Microsoft Teams
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
-description: Obtenga información sobre cómo desarrollar y ejecutar operaciones y mantenimiento continuos para asegurarse de que sus Salas de Microsoft Teams están disponibles para los usuarios.
+description: Obtenga información sobre cómo desarrollar y ejecutar operaciones y mantenimiento continuos para asegurarse de que sus sistemas de Salas de Microsoft Teams están disponibles para los usuarios.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 72e6a89e23ddb8874c6fe9e262759d2aab4522e7
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+ms.openlocfilehash: 82725093e67b0f7619ea97837b53fd841b965146
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312253"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504107"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Administrar Salas de Microsoft Teams
 
@@ -30,11 +30,11 @@ Con Microsoft Teams de administración, puede:
 
 - Realizar la administración de dispositivos como reiniciar dispositivos y descargar registros de dispositivos
 - Aplicar Teams configuración específica
-- Comprobar el estado de los Salas de Microsoft Teams y sus periféricos, incluidas las cámaras, las pantallas, los micrófonos, entre otros
+- Comprobar el estado de Salas de Microsoft Teams y sus periféricos, incluidas las cámaras, las pantallas, los micrófonos, y así sucesivamente
 - Revisar la actividad de reunión actual y pasada (por ejemplo, detalles sobre la calidad de las llamadas, el estado de la red y la conectividad, y el número de participantes)
 - Vea periféricos (como cámaras y proyectores) conectados a Salas de Microsoft Teams
 
-Para administrar Salas de Teams dispositivos, abra el centro Microsoft Teams [administración](https://admin.teams.microsoft.com) y vaya a **Teams dispositivos** >  **Salas de Teams en Windows**.
+Para administrar Salas de Teams dispositivos, abra el Microsoft Teams [de administración](https://admin.teams.microsoft.com) y vaya a **Teams dispositivos** >  **Salas de Teams en Windows**.
 
 :::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Salas de Teams de resumen en Teams de administración.":::
 
@@ -44,11 +44,11 @@ Para administrar Salas de Teams dispositivos, abra el centro Microsoft Teams [ad
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Realizar cambios en Salas de Teams dispositivos
 
-Si tiene más de una Salas de Teams, puede realizar la mayoría de las acciones en varios dispositivos al mismo tiempo. Por ejemplo, puede establecer la Teams de la aplicación en todos los Salas de Teams al mismo tiempo.
+Si tiene más de una Salas de Teams, puede realizar la mayoría de las acciones en varios dispositivos al mismo tiempo. Por ejemplo, puede establecer Teams de la aplicación en todos los Salas de Teams al mismo tiempo.
 
 ### <a name="device-settings"></a>Configuración del dispositivo
 
-Puede cambiar la configuración en una o más Salas de Teams de su organización. Para cambiar la configuración, seleccione el dispositivo o dispositivos que desea administrar y, a continuación, **seleccione Editar Configuración**. Se abrirá un nuevo panel con todas las opciones de configuración que puede cambiar. En la tabla siguiente se enumeran las opciones de configuración que puede cambiar con el Teams de administración. Algunas opciones de configuración solo están disponibles al seleccionar una sola Salas de Teams.
+Puede cambiar la configuración en una o más Salas de Teams de su organización. Para cambiar la configuración, seleccione el dispositivo o dispositivos que desea administrar y, a continuación, **seleccione Editar Configuración**. Se abrirá un nuevo panel con todas las opciones de configuración que puede cambiar. En la tabla siguiente se enumeran las opciones de configuración que puede cambiar con el centro Teams administración. Algunas opciones de configuración solo están disponibles al seleccionar una sola Salas de Teams.
 
 Si selecciona más de una, las opciones que admiten la edición en masa muestran las dos opciones siguientes.
 
@@ -57,7 +57,7 @@ Si selecciona más de una, las opciones que admiten la edición en masa muestran
     > [!CAUTION]
     > Los valores existentes en la configuración que elija actualizar se reemplazarán por el valor que proporcione. Si desea agregar a una lista de valores existentes, debe incluir los valores existentes con el valor que desea agregar. Por ejemplo, si una configuración `contoso.com, fabrikam.com`tiene una lista de dominios existente de y `northwindtraders.com`desea agregarla, el valor que debe proporcionar sería `contoso.com, fabrikam.com, northwindtraders.com`.
     >
-    > Si selecciona varios Salas de Teams, la configuración de todos los dispositivos que seleccione cambiará al valor que proporcione. Si Salas de Teams valores diferentes para una configuración, todos se actualizarán al mismo valor.
+    > Si selecciona varias Salas de Teams, la configuración de todos los dispositivos que seleccione se cambiará al valor que proporcione. Si Salas de Teams valores diferentes para una configuración, todos se actualizarán al mismo valor.
 
 | Setting                                                      | Valores aceptados                                        | Admite la edición en masa |
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
@@ -107,7 +107,7 @@ Si selecciona más de una, las opciones que admiten la edición en masa muestran
 
 ### <a name="cortana-settings"></a>Cortana configuración
 
-Puede habilitar Cortana activación por voz o _Push para_ hablar con PowerShell para todos los dispositivos de su organización o para cada dispositivo por separado.
+Puede habilitar Cortana para la activación por  voz o _Push para_ hablar con PowerShell para todos los dispositivos de su organización o para cada dispositivo por separado.
 
 Vea [Salas de Microsoft Teams en Windows](../cortana-in-teams.md) en el artículo "Cortana de voz en Teams".
 
@@ -154,7 +154,7 @@ Puede descargar una copia de los archivos de registro de diagnóstico de un disp
 
 Para descargar registros desde un Salas de Teams en el equipo, haga lo siguiente:
 
-1. Vaya **a Teams dispositivos** >  **Salas de Teams en Windows** y seleccione el nombre del dispositivo desde el que desea descargar registros.
+1. Vaya a **Teams dispositivos** >  **Salas de Teams en Windows** y seleccione el nombre del dispositivo desde el que desea descargar registros.
 1. Seleccione **Descargar registros de dispositivos**. Los registros de dispositivos pueden tardar varios minutos en estar disponible.
 1. Seleccione la **pestaña Historial** y, a continuación, seleccione el vínculo archivo de registro en **Archivo de diagnóstico**. Un archivo zip que contiene los archivos de registro de diagnóstico del dispositivo se descargará en la carpeta descargas predeterminada del explorador.
 
@@ -170,14 +170,14 @@ El Salas de Teams del sistema le muestra el estado y el estado de todos los disp
 
 Para ver información detallada sobre un dispositivo, seleccione su nombre en la lista de dispositivos. Cuando esté en la vista de detalles, puede ver la siguiente información sobre el dispositivo:
 
-- **Estado de estado** Muestra el estado general del dispositivo Teams room. El estado de estado puede ser **Correcto** o **Incorrecto**.
+- **Estado de estado** Muestra el estado general del Teams de sala. El estado de estado puede ser **Correcto** o **Incorrecto**.
 - **Sin conexión desde** Muestra la última vez Microsoft 365 se pudo comunicar con el dispositivo.
-- **Estado del dispositivo** Muestra el estado actual del **dispositivo: Inactivo**, **Teams reunión**, **Skype reunión** o **Ingerir**.
-- **Periféricos** Muestra los periféricos conectados a su dispositivo Teams room y su estado de estado. El estado de estado puede estar **conectado** o **desconectado**.
-- **Estado** Muestra información detallada sobre los periféricos conectados a su dispositivo Teams Room, conectividad de red, estado de inicio de sesión a los servicios necesarios e información de versión de software.
+- **Estado del dispositivo** Muestra el estado actual del **dispositivo: Inactivo**, **Teams,** **Skype reunión** o **ingerir**.
+- **Periféricos** Muestra los periféricos conectados a su Teams de sala y su estado de estado. El estado de estado puede estar **conectado** o **desconectado**.
+- **Estado** Muestra información detallada sobre los periféricos conectados a su dispositivo de sala Teams, conectividad de red, estado de inicio de sesión para los servicios necesarios e información de versión de software.
 - **Detalles** Muestra la información del fabricante, la dirección IP de red y Teams de serie o MAC del dispositivo de la sala.
 - **Actividad** Muestra detalles de la reunión pasadas, como la fecha y la hora de la reunión, el número de participantes, la duración y la calidad del audio. Para obtener más información sobre los detalles de la reunión, vea la [sección Detalles de la actividad de](#meeting-activity-details) la reunión más adelante en este artículo.
-- **Historial** Muestra un historial de actividades de administración en el dispositivo Teams room, incluidas las actualizaciones de configuración, los reinicios del dispositivo y los vínculos de descarga del registro de dispositivos.
+- **Historial** Muestra un historial de actividades de administración en el dispositivo Teams Room, incluidas las actualizaciones de configuración, los reinicios del dispositivo y los vínculos de descarga del registro de dispositivos.
 
 #### <a name="meeting-activity-details"></a>Detalles de la actividad de la reunión
 

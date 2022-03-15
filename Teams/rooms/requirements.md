@@ -1,7 +1,7 @@
 ---
 title: Requisitos de la sala de Microsoft Teams
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga información sobre los requisitos para admitir Salas de Microsoft Teams, como elegir el dispositivo, los micrófonos, los altavoces, las cámaras y las pantallas adecuados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83430fd401a601ede397de188d956a61c93ac206
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: d479ff31b95acf349bf7e34aaf29bbe64c10309b
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929235"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503737"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de la sala de Microsoft Teams
 
@@ -35,7 +35,7 @@ Consulte:
 - [Opciones de licencias en función de su plan: Salas de Microsoft Teams](rooms-licensing.md)
 
 > [!NOTE]
-> Salas de Microsoft Teams iniciar sesión en Microsoft Teams, Skype Empresarial Server 2019 o Skype Empresarial Server 2015 y pueden unirse a reuniones hospedadas por cualquiera de estos servicios.
+> Salas de Microsoft Teams sesión en Microsoft Teams, Skype Empresarial Server 2019 o Skype Empresarial Server 2015 y puede unirse a reuniones hospedadas por cualquiera de estos servicios.
 >
 > Las plataformas anteriores como Lync Server 2013 no son compatibles con las Salas de Microsoft Teams. Salas de Microsoft Teams no es compatible con Microsoft 365 o Office 365 21Vianet o entornos DoD.
 >
@@ -142,7 +142,7 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
 |[Aver VB130 Barra de sonido de la cámara](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Barra de vídeo de Bose VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
-|[Biamp Devio SCR-20CX Web-Based centro de conferencias con micrófono de techo](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
+|[Biamp Devio SCR-20CX Web-Based de conferencias con micrófono de techo](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Biamp Devio SCR-20TX Web-Based centro de conferencias con micrófono de mesa](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
 |[Lienzo acurrucado](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
