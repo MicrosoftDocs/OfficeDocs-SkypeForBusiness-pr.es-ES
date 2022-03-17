@@ -21,23 +21,25 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 - intro-overview
-description: En este artículo, aprenderá sobre la tecnología Sistema telefónico en Microsoft 365.
-ms.openlocfilehash: 739745c288e24b1cdb7ddc4cf65644a9fd98cb9e
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+description: En este artículo, aprenderá sobre la tecnología de Sistema telefónico en Microsoft 365.
+ms.openlocfilehash: a838561b25a737025838095e643bd78a2c69af92
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518602"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514561"
 ---
 # <a name="what-is-phone-system"></a>¿Qué es el Sistema telefónico?
 
-Sistema telefónico es la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de Exchange sucursales privadas (PBX) en la nube Microsoft 365 con Microsoft Teams.
+Sistema telefónico es la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de Exchange de sucursales privadas (PBX) en la nube Microsoft 365 con Microsoft Teams.
 
-Sistema telefónico funciona con Teams y dispositivos certificados. Sistema telefónico permite reemplazar el sistema PBX existente con un conjunto de características directamente entregadas desde Microsoft 365.
+Sistema telefónico funciona con Teams y dispositivos certificados. Sistema telefónico permite reemplazar el sistema PBX existente con un conjunto de características directamente entregado desde Microsoft 365.
 
-Las llamadas entre usuarios de su organización se administran internamente dentro de Sistema telefónico y nunca van a la red telefónica conmutada (RTC) pública, lo que elimina los costos de larga distancia en las llamadas internas. 
+Las llamadas entre usuarios de su organización se administran internamente dentro de Sistema telefónico y nunca van a la Red telefónica conmutada (RTC) pública, lo que elimina los costos de larga distancia en las llamadas internas. 
 
 Para realizar llamadas externas, Sistema telefónico opciones de complemento para conectarse a la RTC. Para obtener más información sobre las soluciones de voz y las opciones de conectividad RTC, vea Planear su Teams [de voz](cloud-voice-landing-page.md) y Conectar [a la RTC](#connect-to-the-public-switched-telephone-network-pstn).
+
+Sistema telefónico está disponible en todo el mundo, excepto Macao. 
 
 ## <a name="phone-system-features"></a>Sistema telefónico características
 
@@ -45,7 +47,7 @@ Con Sistema telefónico, los usuarios pueden usar Teams realizar y recibir llama
 
 Sistema telefónico administradores pueden administrar las opciones de llamadas y la configuración desde la misma consola que se usa para mensajería, colaboración, entre otros.
 
-Para obtener más información Sistema telefónico características, vea [Esto es lo que obtiene con Sistema telefónico](here-s-what-you-get-with-phone-system.md).
+Para obtener más información Sistema telefónico características, vea Esto [es lo que obtiene con Sistema telefónico](here-s-what-you-get-with-phone-system.md).
   
 
 ## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>Conectar a la red telefónica conmutada (RTC)
@@ -56,7 +58,7 @@ Para las llamadas externas, Sistema telefónico puede conectarse a la RTC de var
 
 - Use su infraestructura de telefonía existente para la conectividad RTC local.
 
-  Puede conectar su infraestructura de telefonía local a Sistema telefónico mediante El operador Conectar llamadas o enrutamiento directo. 
+  Puede conectar su infraestructura de telefonía local a Sistema telefónico mediante Operador Conectar llamadas o enrutamiento directo. 
 
 Para obtener más información sobre todas las opciones de conectividad RTC, vea [Opciones de conectividad RTC](pstn-connectivity.md).
 
@@ -77,6 +79,6 @@ Para obtener más información sobre las características, vea [Esto es lo que o
 
 - [Sistema telefónico características](here-s-what-you-get-with-phone-system.md)
 - [Configurar el Sistema telefónico](setting-up-your-phone-system.md)
-- [Planear su Teams de voz](cloud-voice-landing-page.md)
+- [Planear la solución Teams voz](cloud-voice-landing-page.md)
 - [Opciones de conectividad RTC](pstn-connectivity.md)
 - [Licencias complementarias de Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

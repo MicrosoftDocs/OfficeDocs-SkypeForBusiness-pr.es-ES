@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 716a18efda2c2c7f55adf68314dae4b1e07e387b
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: a00561f10e78a18acc146df4ed8a76b103c937c9
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537061"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514571"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Iniciar sesión en Microsoft Teams
 
@@ -92,7 +92,7 @@ Teams para iOS y Android ofrece a los administradores de TI la capacidad de envi
 
 Para los usuarios inscritos en Microsoft Intune, puede desplegar los ajustes de configuración de la cuenta utilizando Intune en el portal de Azure.
 
-Una vez que se haya establecido la configuración de la cuenta en el proveedor de MDM, y después de que el usuario inscriba su dispositivo, en la página de inicio de sesión, Microsoft Teams para iOS y Android solo mostrarán las cuentas permitidas en la página de inicio de sesión de Microsoft Teams. El usuario puede acceder a cualquiera de las cuentas permitidas en esta página para iniciar sesión.
+Una vez que se haya establecido la configuración de la cuenta en el proveedor de MDM, y después de que el usuario inscriba su dispositivo, en la página de inicio de sesión, Microsoft Teams para iOS y Android solo mostrarán las cuentas permitidas en la página de inicio de sesión de Microsoft Teams. El usuario puede tocar cualquiera de las cuentas permitidas en esta página para iniciar sesión.
 
 Establezca los siguientes parámetros de configuración en el portal de Azure Intune para los dispositivos administrados.
 
@@ -139,7 +139,7 @@ Ejemplo: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAcco
 
 ### <a name="global-sign-in"></a>Inicio de sesión global
 
-La aplicación de Android de Teams ahora es compatible con el inicio de sesión global para que los trabajadores de primera línea pueden iniciar sesión sin problemas. Los empleados pueden elegir un dispositivo del grupo de dispositivos compartidos y realizar un inicio de sesión único para "hacerlo suyo" por la duración del turno. Una vez finalizado su turno, deberían ser capaces de realizar la sesión de forma global en el dispositivo. Consulte [Cerrar sesión en Teams](sign-out-of-teams.md) para más información. Este proceso quita toda su información personal y de la compañía del dispositivo para que pueda devolverlo al grupo de dispositivos. Para obtener esta funcionalidad, el dispositivo debe estar en modo compartido. Para obtener información sobre cómo configurar un dispositivo compartido, consulte [Cómo usar un modo de dispositivo compartido en Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+La aplicación de Android de Teams ahora es compatible con el inicio de sesión global para que los trabajadores de primera línea pueden iniciar sesión sin problemas. Los empleados pueden elegir un dispositivo del grupo de dispositivos compartidos y realizar un inicio de sesión único para "hacerlo suyo" por la duración del turno. Una vez finalizado su turno, deberían ser capaces de realizar la sesión de forma global en el dispositivo. Consulte [Cerrar sesión en Teams](sign-out-of-teams.md) para más información. Este proceso quitará toda su información personal y de la compañía del dispositivo para que pueda devolverlo al grupo de dispositivos. Para obtener esta funcionalidad, el dispositivo debe estar en modo compartido. Asegúrese de finalizar cualquier reunión o llamada activa en el dispositivo antes de cerrar la sesión. Para obtener información sobre cómo configurar un dispositivo compartido, consulte [Cómo usar un modo de dispositivo compartido en Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 La experiencia de inicio de sesión es similar a nuestra experiencia de inicio de sesión estándar de Teams.
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener información sobre cómo implementar Salas de Microsoft Teams en Android.
-ms.openlocfilehash: 55e410b1863effd671f08cba663211b78f76e30f
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 7b37f03bdecf0bb6b1d3f3545d096836aa81b805
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503547"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514521"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Implementar Salas de Microsoft Teams en Android
 
@@ -122,6 +122,4 @@ Como parte de la implementación, querrá actualizar el registro de activos con 
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Configurar cuentas para Salas de Microsoft Teams usar Microsoft Teams centro de administración](resource-account-ui.md)
-
-<!-- [Configure accounts for collaboration bars for Microsoft Teams using PowerShell](resource-account-ps.md) -->
+[Crear cuentas de recursos para salas y dispositivos Teams compartidos](../rooms/with-office-365.md)

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar y configurar la Salas de Microsoft Teams y sus periféricos.
-ms.openlocfilehash: 42f10ffe4ed2b577e91ed13b57ea8efcae67a1a4
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: c13a247f2ce9d7fee7571f7f3a202310b2ce8b41
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504017"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514725"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Crear una Salas de Microsoft Teams imagen
 
@@ -117,30 +117,36 @@ En Creator's Update, tendrá que usar el script de ApplyCurrentRegionAndLanguage
     
 4. Seleccione **Idioma de &amp; hora**.
     
-5. Seleccione **Idioma de &amp; región**.
+5. Seleccione **el idioma**.
     
 6. Seleccione **Agregar un idioma**.
     
 7. Seleccione el idioma que desea agregar.
     
-8. Seleccione el idioma que acaba de agregar a la lista "Idiomas".
+8. Instalar características de idioma.
     
-9. Haga clic en **Establecer como predeterminado**.
+9. No active Establecer como mi Windows idioma para mostrar.
     
-10. Si desea eliminar algún idioma:
+10. Seleccione **Instalar**.
+    
+11. Seleccione el idioma que acaba de agregar a la lista "Idiomas".
+    
+12. Establecer como predeterminado: flecha arriba para establecer el valor predeterminado
+
+13. Si desea eliminar algún idioma:
     
     a. Seleccione el idioma que desea quitar.
     
-    b. Seleccione **Quitar**.
-    
-11. Inicie un símbolo de sistema con privilegios elevados.
-    
-12. Ejecute el siguiente comando: 
+    b. Seleccione Quitar.
+
+14. Inicie un símbolo de sistema con privilegios elevados.
+
+15. Ejecute el siguiente comando: 
     ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
     
-13. Reinicie el sistema.
+16. Reinicie el sistema.
     
 El idioma que desee ahora se aplica a la Salas de Microsoft Teams consola.
 ## <a name="initial-set-up-of-the-console"></a>Configuración inicial de la consola
@@ -154,12 +160,12 @@ Después Windows instalación, la aplicación Salas de Microsoft Teams pasará a
    
 3. Seleccione el modo de reunión admitido: solo Microsoft Teams, solo Skype Empresarial o una de las dos opciones de modo mixto. Si es necesario, habilite autenticación moderna.
 
-4. Haga clic en **Siguiente**.
+4. Seleccione **Siguiente**.
     
 5. Si usa Skype Empresarial y si el dominio SIP de Skype Empresarial es diferente del dominio Exchange del usuario, establezca el FQDN para el Skype Empresarial Server en la sección Avanzadas. Si no usa Skype Empresarial o el dominio SIP coincide con el Exchange, deje esta sección en blanco.
-6. Haga clic en **Siguiente**.
+6. Seleccione **Siguiente**.
     
-7. Haga clic en **Finalizar**.
+7. Seleccione **Finalizar**.
     
 La Salas de Microsoft Teams debe iniciar sesión en Microsoft Teams o Skype Empresarial Server con las credenciales especificadas anteriormente y también debe empezar a sincronizar su calendario con Exchange con esas mismas credenciales. Para obtener más información sobre Salas de Teams, consulte la [Salas de Microsoft Teams ayuda](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
@@ -195,7 +201,7 @@ Salas de Microsoft Teams debe confiar en los certificados usados por los servido
 ### <a name="join-an-active-directory-domain-optional"></a>Unirse a un dominio de Active Directory (opcional)
 <a name="Certs"> </a>
 
-Puede unirse Salas de Microsoft Teams a su dominio. Salas de Microsoft Teams deben colocarse en una unidad organizativa independiente de las estaciones de trabajo del equipo porque muchas directivas de estaciones de trabajo no son compatibles con Salas de Microsoft Teams. Un ejemplo común son las directivas de aplicación de contraseña que Salas de Microsoft Teams iniciar automáticamente. Para obtener información sobre la administración de la configuración de GPO, consulte [Administrar Salas de Microsoft Teams](rooms-operations.md).
+Puede unirse Salas de Microsoft Teams a su dominio. Salas de Microsoft Teams deben colocarse en una unidad organizativa independiente de las estaciones de trabajo del equipo porque muchas directivas de estaciones de trabajo no son compatibles con Salas de Microsoft Teams. Un ejemplo común es una directiva de aplicación de contraseñas que evitará Salas de Microsoft Teams iniciar automáticamente. Para obtener información sobre la administración de la configuración de GPO, consulte [Administrar Salas de Microsoft Teams](rooms-operations.md).
   
 ### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Para unirse Salas de Microsoft Teams a un dominio
 

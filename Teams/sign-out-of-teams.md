@@ -12,13 +12,18 @@ description: Obtenga información sobre cómo cerrar sesión en Microsoft Teams.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: b453295c02ef371c06c3adea4c2c8489c0a58468
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514715"
 ---
-
 # <a name="sign-out-of-microsoft-teams"></a>Cerrar sesión en Microsoft Teams
 
 Se recomienda que los usuarios mantengan la sesión iniciada en la aplicación de Microsoft Teams para seguir recibiendo chats, llamadas entrantes y otras actividades. Somos conscientes de que, en ocasiones, es posible que los usuarios quieran cerrar sesión en la aplicación de Teams por varias razones:
@@ -49,7 +54,7 @@ En dispositivos móviles, puede cerrar sesión en Teams dirigiéndose al menú y
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>Inicio y cierre de sesión globales para trabajadores de primera línea
 
-La aplicación de Android de Teams ahora es compatible con el inicio y cierre de sesión globales para que los trabajadores de primera línea pueden iniciar y cerrar sesión sin problemas. Los empleados pueden elegir un dispositivo del grupo de dispositivos compartidos y realizar un inicio de sesión único para "hacerlo suyo" por la duración del turno. Una vez finalizado su turno, deberían ser capaces de realizar la sesión de forma global en el dispositivo. Este proceso quitará toda su información personal y de la compañía del dispositivo para que pueda devolverlo al grupo de dispositivos. Para obtener esta funcionalidad, el dispositivo debe estar en modo compartido. Para obtener información sobre cómo configurar un dispositivo compartido, consulte [Cómo usar un modo de dispositivo compartido en Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+La aplicación de Android de Teams ahora es compatible con el inicio y cierre de sesión globales para que los trabajadores de primera línea pueden iniciar y cerrar sesión sin problemas. Los empleados pueden elegir un dispositivo del grupo de dispositivos compartidos y realizar un inicio de sesión único para "hacerlo suyo" por la duración del turno. Una vez finalizado su turno, deberían ser capaces de realizar la sesión de forma global en el dispositivo. Este proceso quitará toda su información personal y de la compañía del dispositivo para que pueda devolverlo al grupo de dispositivos. Para obtener esta funcionalidad, el dispositivo debe estar en modo compartido.  Asegúrese de finalizar cualquier reunión o llamada activa en el dispositivo antes de cerrar la sesión. Para obtener información sobre cómo configurar un dispositivo compartido, consulte [Cómo usar un modo de dispositivo compartido en Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 ## <a name="manual-cleanup"></a>Limpieza manual
 

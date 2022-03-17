@@ -15,18 +15,18 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Obtenga información sobre cómo administrar la característica Música en espera en Sistema telefónico.
-ms.openlocfilehash: d3fa7188e3d2320ba4eeb17ca95d28d1f57c18c4
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a1e2662c04cfa9300d034aaaf8d7975e44e63f69
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767413"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514787"
 ---
 # <a name="music-on-hold"></a>Música en espera
 
 Cuando un Microsoft Teams coloca una llamada entrante de la red telefónica conmutada (RTC) en espera, el autor de la llamada RTC puede escuchar la música seleccionada.
 
-La música que se reproduce es la música predeterminada proporcionada por Microsoft o la música personalizada que carga y configura. Como administrador de inquilinos, puede configurar si Música en espera está disponible creando una directiva de llamada de Teams y asignando la directiva al Teams usuario.
+La música que se reproduce es la música predeterminada proporcionada por Microsoft o la música personalizada que carga y configura. Como administrador de inquilinos, puede configurar si Música en espera está disponible creando una directiva de Teams de llamadas y asignando la directiva al Teams usuario.
 
 La música predeterminada que se proporciona Microsoft Teams escenarios de llamadas RTC está libre de regalías pagaderas por su organización.
 
@@ -36,15 +36,15 @@ Tenga en cuenta que los autores de llamadas RTC también pueden escuchar Música
 
 Para configurar Música en espera:
 
-1.  En el panel de navegación izquierdo del centro Teams de administración, vaya **a Directivas de llamadas > voz.**
+1.  En el panel de navegación izquierdo del centro Teams de administración, vaya a **Directivas de llamadas > voz**.
 
-2.  En la **pestaña Administrar directivas,** seleccione una de las directivas existentes o cree una nueva.
+2.  En la **pestaña Administrar directivas** , seleccione una de las directivas existentes o cree una nueva.
 
 3.  En el **Música de llamadas RTC** en espera, seleccione **Habilitado** en el menú desplegable.
 
 También puede configurar Música en espera mediante el módulo Teams PowerShell. En teamsCallingPolicy, cambie el parámetro MusicOnHoldEnabledType a Habilitado y, después, conceda esa instancia de directiva a uno o varios usuarios.
 
-Si un usuario Teams tiene una directiva de llamadas Teams con Música en espera establecida en Deshabilitado, no se reproducirá música cuando el usuario de Teams coloca la llamada en espera.
+Si un usuario de Teams tiene una directiva de llamadas de Teams con Música en espera establecido en Deshabilitado, no se reproducirá música cuando el usuario de Teams coloca la llamada en espera.
 
 ## <a name="configure-custom-music"></a>Configurar música personalizada
 
@@ -54,7 +54,7 @@ Por ejemplo, es posible que un departamento u organización quiera reproducir un
 > [!NOTE]
 > Usted es responsable de borrar y proteger de forma independiente todos los derechos y permisos necesarios para usar cualquier archivo de música o audio con su Microsoft Teams servicio. Esto puede incluir propiedad intelectual y otros derechos en cualquier música, efectos de sonido, audio, marcas, nombres y otros contenidos del archivo de audio de todos los titulares de derechos pertinentes. Los titulares pueden incluir artistas, actores, intérpretes, músicos, compositores, compositores, discográficas, editores de música, uniones, cofradías, asociaciones de derechos, organizaciones de administración colectiva y cualquier otra parte que tenga, controle o licencia los derechos de propiedad intelectual, los efectos sonoros, el audio y otros derechos de propiedad intelectual.
 
-Para configurar las Música personalizadas en espera, use los cmdlets de PowerShell New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy e Import/Get/Remove/Export-CsOnlineAudioFile en Teams módulo de PowerShell 3.0.0 o posterior.
+Para configurar Música personalizado en espera, use los cmdlets de PowerShell New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy e Import/Get/Remove/Export-CsOnlineAudioFile en Teams Módulo de PowerShell 3.0.0 o posterior.
 
 Para obtener formatos de audio compatibles y el tamaño máximo de archivo, consulte [Importar-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
 
@@ -63,7 +63,7 @@ Para obtener formatos de audio compatibles y el tamaño máximo de archivo, cons
 
 2. Upload el archivo de audio personalizado.
 
-3. Cree una Teams de espera de llamada que haga referencia al archivo de audio personalizado y asígnelo al Teams usuario.
+3. Cree una Teams de retención de llamadas que haga referencia al archivo de audio personalizado y asígnelo al Teams usuario.
 
 ### <a name="upload-the-custom-audio-file"></a>Upload el archivo de audio personalizado
 
@@ -82,13 +82,13 @@ ApplicationId : TenantGlobal
 
 ### <a name="reference-the-audio-file-in-a-teams-call-hold-policy"></a>Hacer referencia al archivo de audio en una Teams de retención de llamadas
 
-Después de cargar el archivo de audio, debe hacer referencia al archivo en una directiva de retención de llamadas de Teams mediante el Id. del archivo al crear o establecer una directiva de retención de llamadas Teams llamada. Por ejemplo:
+Después de cargar el archivo de audio, debe hacer referencia al archivo en una directiva de retención de llamada de Teams mediante el Id. del archivo al crear o establecer una directiva de retención de llamadas Teams llamada. Por ejemplo:
 
 ```PowerShell
 C:\> New-CsTeamsCallHoldPolicy -Identity "CustomMoH1" -Description "Custom MoH using CustomMoH1.mp3" -AudioFileId $AudioFile.Id
 ```
 
-Después de crear la nueva directiva Teams de retención de llamadas, puede concederla a los usuarios Grant-CsTeamsCallHoldPolicy la siguiente manera:
+Después de crear la nueva Teams de retención de llamadas, puede concederla a los usuarios Grant-CsTeamsCallHoldPolicy la siguiente manera:
 
 ```PowerShell
 C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contoso.com
@@ -112,7 +112,7 @@ En la tabla siguiente se indican las características en las que los clientes y 
 
 ## <a name="restrictions"></a>Restricciones
 
-- Música en espera solo está disponible en la nube comercial.
+- Música en espera solo está disponible en instancias comerciales y GCC nube.
 
 - Música en espera solo está disponible cuando el usuario está en modo TeamsOnly.
 
