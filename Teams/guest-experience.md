@@ -19,16 +19,19 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Este artículo describe la funcionalidad de Microsoft Teams disponible para los invitados.
-ms.openlocfilehash: 5d8bb9ab670da0a4002f69cf5ddec9f245cd9c13
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: c7052eb22a68b146c3ee998b57ba877da82e11b4
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190701"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556636"
 ---
 # <a name="guest-experience-in-teams"></a>Experiencia de invitado en Teams
 
 Cuando se invita a un invitado a unirse a un equipo, recibirá un mensaje de correo electrónico de bienvenida. Este mensaje contiene cierta información sobre el equipo y lo que puede esperar de él ahora que es miembro. El invitado debe aceptar la invitación seleccionando el enlace **Abrir Microsoft Teams** incluido en el mensaje de correo electrónico antes de poder acceder al equipo y a sus canales.
+
+> [!NOTE]
+> Después de agregar un invitado a un equipo, es posible que tarde unas horas en tener acceso.
     
 ![Captura de pantalla que muestra un ejemplo de un mensaje de correo electrónico de bienvenida.](media/guest-experience-image1.png)
     

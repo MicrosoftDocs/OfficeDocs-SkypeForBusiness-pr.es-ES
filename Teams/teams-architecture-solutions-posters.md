@@ -4,7 +4,7 @@ ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: hub-page
+ms.topic: landing-page
 ms.service: msteams
 ms.localizationpriority: high
 ms.collection:
@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: 'Resumen: Obtenga información sobre la arquitectura lógica de los servicios de productividad en Microsoft 365, una de las más destacadas gracias a Microsoft Teams. Obtenga también información sobre las soluciones de voz de Teams.'
-ms.openlocfilehash: 1bc157d2b6caad42be1b1cf2e9bfd03fd28d8423
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ec608f192c08a33b9505008eacb6f6549780e7bd
+ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730829"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63564752"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Pósteres de soluciones de voz y arquitectura de TI de Microsoft Teams
 
