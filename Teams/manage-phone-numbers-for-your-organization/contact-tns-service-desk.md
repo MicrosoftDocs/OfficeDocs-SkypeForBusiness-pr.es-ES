@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cuando recibe números de teléfono o números de puerto (transferencia) para su organización, es posible que necesite obtener ayuda y soporte técnico en el servicio de atención al cliente de TNS.
-ms.openlocfilehash: c32a6ed98cc54d04783025eacd03cb178e7f9120
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: b7ac8edd3c3c740f3b87feedc44535a193280a77
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733878"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660700"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>Servicios de número de teléfono (TNS) - Service Desk 
 
@@ -39,11 +39,13 @@ Hay un nuevo proceso para interactuar con el servicio de servicios de número de
 
 Para ponerse en contacto con el departamento de servicio:
 
-1. Inicie sesión en el Centro de administración de Teams: admin.teams.microsoft.com.
+1. Inicie sesión en su [Teams de administración](https://admin.teams.microsoft.com).
 
-2. En el panel izquierdo seleccione **Números de teléfono**.
+2. En el panel izquierdo, seleccione **Voz** y, a continuación **, Teléfono números**.
 
-3. En la parte superior de la página seleccione **Obtener número de teléfono de soporte técnico**. Verá el Centro de servicio de números de teléfono.  
+3. Seleccione **Agregar** o **Puerto**.
+
+4. En la parte superior de la página seleccione **Obtener número de teléfono de soporte técnico**. Verá el Centro de servicio de números de teléfono.  
 
 > [!NOTE]
 > Solo alguien del mismo espacio empresarial podrá crear un caso. Es decir, alguien de @fabrikam.com no puede crear un caso en nombre de @contoso.com. 
@@ -192,7 +194,7 @@ Para ver sus casos seleccione **Ver mis casos** y, a continuación, el número d
 
 - **Filtrar los casos** seleccionando **Casos abiertos**, **Todos los casos** o **Casos cerrados**.
 
-- Comuníquese con el servicio de atención al cliente de **TNS** con respecto a su caso abriendo un caso existente, desplazándose hacia abajo y **seleccionando Agregar comentario.** Aparecerá una nueva ventana. Escriba el mensaje en el cuadro de comentario. Adjunte documentos adicionales (si están disponibles) que puedan ayudarle con su solicitud y seleccione **Enviar**.  
+- **Comuníquese con el servicio de atención al cliente de TNS** con respecto a su caso abriendo un caso existente, desplazándose hacia abajo y **seleccionando Agregar comentario**. Aparecerá una nueva ventana. Escriba el mensaje en el cuadro de comentario. Adjunte documentos adicionales (si están disponibles) que puedan ayudarle con su solicitud y seleccione **Enviar**.  
 
   Las respuestas del **servicio de TNS** se mostrarán en la misma escala de tiempo. Cuando haya una actualización en su caso, recibirá una notificación automática de la actualización por correo electrónico. 
 

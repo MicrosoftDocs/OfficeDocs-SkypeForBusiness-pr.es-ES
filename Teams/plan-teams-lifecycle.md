@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 539597393f34f2f02734c57df57097281a4d7839
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2c69737e6677a48d4fa7788e50fd97a876a67040
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012824"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660605"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Plan para la administración del ciclo de vida en Teams
 
@@ -153,7 +153,7 @@ Como los equipos son organismos vivos, precisan que se les revise y se les atien
 
 Cuando el trabajo de un equipo llega a su fin, es importante reconocer formalmente que ha terminado. De este modo, el equipo se queda con una sensación de cierre y se evita que alguien más acceda a información obsoleta. Podrá usar el equipo para llevar a cabo los rituales de cierre, como análisis finales y resúmenes ejecutivos.
 
-Puede borrar los equipos que sabe que no necesita (por ejemplo, un equipo creado estrictamente para realizar pruebas o un equipo que contiene datos confidenciales). En realidad, los equipos se eliminan con una "eliminación temporal" que el departamento de TI puede revertir hasta por 30 días. El hecho de eliminar equipos no afecta a los chats ni al contenido que se haya conservado según las directivas de cumplimiento. Los canales también tienen una "eliminación temporal" y se pueden invertir hasta veintiún días después de la eliminación. Al eliminar un canal, no se eliminará la carpeta ni su contenido de la biblioteca de documentos de SharePoint.
+Puede borrar los equipos que sabe que no necesita (por ejemplo, un equipo creado estrictamente para realizar pruebas o un equipo que contiene datos confidenciales). En realidad, los equipos se eliminan con una "eliminación temporal" que el departamento de TI puede revertir hasta por 30 días. El hecho de eliminar equipos no afecta a los chats ni al contenido que se haya conservado según las directivas de cumplimiento. Los canales también tienen una "eliminación temporal" y se pueden invertir hasta 30 después de la eliminación. Al eliminar un canal, no se eliminará la carpeta ni su contenido de la biblioteca de documentos de SharePoint.
 
 También se pueden usar las directivas de expiración y retención, además de las funcionalidades de archivado, para reducir la exposición de los equipos que ya no están activos o cuyos miembros han dejado la organización.
 

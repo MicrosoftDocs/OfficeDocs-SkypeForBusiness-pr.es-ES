@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo Microsoft admite la información de ubicación de envío para admitir llamadas de emergencia.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7d241cee858d3ac19747be56b5a53e157b563f64
-ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
+ms.openlocfilehash: d80854fc36e6914ba48e8993d298c75b136bd06f
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61323009"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660715"
 ---
 # <a name="emergency-addresses-for-remote-locations"></a>Direcciones de emergencia para ubicaciones remotas
 
 En este artículo se describe el soporte técnico de Microsoft para la información de ubicación de llamadas de emergencia 911 en Estados Unidos. Este soporte garantiza que se proporciona la información de ubicación de envío más precisa posible para Teams usuarios que hacen llamadas de emergencia. Independientemente de la ubicación del autor de la llamada (en el lugar o trabajando desde casa), la información de ubicación de una persona que llama enviada al Punto de respuesta de seguridad pública (PSAP) debe ser precisa.
 
-En este artículo se incluye información sobre el cumplimiento de Microsoft con la Ley de RAY BAUM para sistemas telefónicos de varias líneas (MLTS). La Ley de RAY BAUM amplía los requisitos de la Ley de Kari, que entró en vigor a principios de 2021. Para obtener más información sobre la Ley de RAY BAUM y la Ley de Kari, vea Ubicación de envío para llamadas y sistemas telefónicos de varias líneas [de 911:](https://www.fcc.gov/911-dispatchable-location) La ley de Kari y la Ley [911](https://www.fcc.gov/mlts-911-requirements)de RAY BAUM Requisitos de marcado directo, notificación y ubicación de distribución. 
+En este artículo se incluye información sobre el cumplimiento de Microsoft con la Ley de RAY BAUM para sistemas telefónicos de varias líneas (MLTS). La Ley de RAY BAUM amplía los requisitos de la Ley de Kari, que entró en vigor a principios de 2021. Para obtener más información sobre la Ley de RAY BAUM y la Ley de Kari, vea Ubicación de envío para llamadas y sistemas telefónicos de varias líneas [de 911](https://www.fcc.gov/911-dispatchable-location) : Ley de Kari y Ley [911 de RAY BAUM](https://www.fcc.gov/mlts-911-requirements) Requisitos de marcado directo, notificación y ubicación de envío. 
 
 Los usuarios que trabajan en casa ahora pueden establecer sus propias direcciones de emergencia si procede. En este artículo se describe cómo puede configurar directivas de usuario para que los usuarios finales puedan establecer sus direcciones de emergencia.
 
@@ -51,7 +51,7 @@ Para admitir estos requisitos, Teams los servicios de ubicación proporcionados 
 
 ## <a name="location-precedence"></a>Prioridad de ubicación
 
-Las direcciones de Teams pueden clasificarse por diferentes tipos. En la lista siguiente se muestra la prioridad de ubicación que se usa cuando se marca un número de emergencia:
+Las direcciones de emergencia Teams pueden clasificarse por diferentes tipos. En la lista siguiente se muestra la prioridad de ubicación que se usa cuando se marca un número de emergencia:
 
 1. Una dirección adquirida dinámicamente definida por el inquilino administrado en el Servicio de información de ubicación.
 
@@ -91,11 +91,11 @@ New-CsTeamsEmergencyCallingPolicy -Identity E911WFH -ExternalLocationLookupMode 
 Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.com
 ```
 
-Después de habilitar esta característica para los usuarios finales, desde la pestaña Llamadas, el usuario puede agregar, editar o confirmar una dirección de emergencia y mostrar la dirección después de establecerla. 
+Después de habilitar esta característica para los usuarios finales, desde la pestaña Llamadas, el usuario puede agregar, editar o confirmar una dirección de emergencia y mostrar la dirección después de establecerla. Para obtener más información sobre cómo los usuarios finales pueden establecer los servicios de ubicación, vea Trabajar desde casa [Emergencias 911: habilitar los servicios de ubicación](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live).
 
-En Windows, puede administrar el servicio de ubicación de Windows y si las aplicaciones tienen acceso a la ubicación, mediante la directiva de grupo o mediante la administración de dispositivos móviles [(MDM).](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation)
+En Windows, puede administrar el servicio de ubicación de Windows y si las aplicaciones tienen acceso a la ubicación, mediante la directiva de grupo o mediante la administración de dispositivos móviles [(MDM).](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation).
 
-Para obtener más información sobre Windows de ubicación, [vea Windows de ubicación y privacidad.](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088)
+Para obtener más información sobre Windows de ubicación, [vea Windows de ubicación y privacidad](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088).
 
 
 
@@ -103,16 +103,18 @@ Para obtener más información sobre Windows de ubicación, [vea Windows de ubic
 
 Tenga en cuenta lo siguiente:
 
-- La experiencia de trabajo desde casa descrita es para Teams escritorio en Windows y Mac.
+- La experiencia de trabajo desde casa que se describe es para Teams escritorio en Windows y Mac.
 
 - Teams teléfonos no admiten la experiencia de trabajo desde casa.
 
-- Teams móvil admite la detección automática de ubicación, pero no la experiencia especificada por el usuario.
+- Teams móvil admite la detección automática de la ubicación, pero no la experiencia especificada por el usuario.
 
 - La configuración de privacidad puede estar en conflicto con la detección automática de la ubicación: se pueden usar sistemas de administración de dispositivos móviles.
 
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Administrar llamadas de emergencia](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Administrar llamadas de emergencia](what-are-emergency-locations-addresses-and-call-routing.md)
+
+- [Trabajo desde El hogar Emergencia 911: habilitar los servicios de ubicación](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live)
 
