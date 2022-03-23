@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo configurar canales para la moderación en Microsoft Teams, incluido cómo agregar miembros del equipo como moderadores de canal.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4441eea880b5dcf1d71ca11f0ad32cf148f90cf4
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.openlocfilehash: b53a7d71fe7dfde77e9038ef4343539e2375985f
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62960012"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711324"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurar y administrar la moderación del canal en Microsoft Teams
 
@@ -32,7 +32,7 @@ En Microsoft Teams, los propietarios de equipos pueden activar la moderación de
 Los propietarios de equipos también pueden agregar miembros del equipo como moderadores. Es posible que el propietario de un equipo no tenga la experiencia de la materia en el nivel de canal para la mejor moderación del canal de soporte técnico. Al permitir que determinados miembros del equipo modere un canal, la responsabilidad de administrar el contenido y el contexto dentro de un canal se comparte entre los propietarios del equipo y los moderadores del canal. Por ejemplo, un propietario del equipo puede agregar propietarios de negocios o propietarios de contenido como moderadores, lo que les permite controlar el uso compartido de información en ese canal.
 
 > [!NOTE]
-> La moderación del canal está disponible para los canales estándar. No está disponible para el canal General ni para los canales privados.
+> La moderación del canal está disponible para los canales estándar. No está disponible para el canal General ni para canales privados o compartidos.
 
 ## <a name="what-can-a-channel-moderator-do"></a>¿Qué puede hacer un moderador de canal?
 
@@ -62,7 +62,7 @@ En este escenario, el profesor permite a sus asistentes de enseñanza moderar el
 
 En Teams, vaya al canal, haga clic en **Más opciones ...** >  **Administrar canal**. Desde aquí puede activar y desactivar la moderación, agregar miembros del equipo como moderadores y establecer preferencias.
 
-La moderación del canal es una configuración por canal. No hay ninguna configuración de nivel de inquilino para la moderación del canal. Si quiere que agreguemos una configuración de moderación de canal de nivel de inquilino, solicitámosla en Teams [de comentarios](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
+La moderación del canal es una configuración por canal. No hay ninguna configuración de nivel de inquilino para la moderación del canal. Si quiere que agreguemos una configuración de moderación de canal de nivel de inquilino, solicitámosla en [Teams de comentarios](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 

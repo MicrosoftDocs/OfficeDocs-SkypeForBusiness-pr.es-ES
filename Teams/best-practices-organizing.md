@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 727425a1dfcd1ea4ebeec27cc79982d996db42fa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 523d35fd1e7981a52e5972232f0c00c276435f7f
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596384"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711884"
 ---
 # <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Prácticas recomendadas para organizar equipos en Microsoft Teams
 
@@ -47,7 +47,7 @@ Obtenga más información sobre [trabajo en equipo](https://support.office.com/a
 
 La mejor práctica: crear equipos con un conjunto más grande de miembros y más canales. Minimizar el número de equipos que requieren la participación de una persona. Los canales dentro de un equipo deben ser pensados como temas o corrientes de trabajo para ayudar al equipo a organizar su trabajo para cumplir con sus objetivos conjuntos. No hay un número específico de canales que deban ser creados. Cada equipo debe crear canales basados en su trabajo, prioridades y estilo.
 
-Utilice canales estándar para las conversaciones en las que todos los miembros del equipo puedan contribuir. Aproveche los [Canales privados en Teams](private-channels.md) cuando necesite un espacio de colaboración enfocado con un grupo selecto de miembros.
+Utilice canales estándar para las conversaciones en las que todos los miembros del equipo puedan contribuir. Aproveche los [canales privados](private-channels.md) cuando necesite un espacio de colaboración centrado con un grupo selecto de miembros del equipo. Use [canales compartidos](shared-channels.md) cuando necesite colaborar con personas ajenas al equipo.
 
 Las organizaciones más grandes pueden querer crear equipos como "plantillas" para estandarizar la información que capturan sobre tipos específicos de trabajo. Esto es útil para la gestión estratégica de los clientes, la gestión de las aulas, los escenarios de atención sanitaria, la gestión de reclamaciones, la gestión de incidentes y otros escenarios apropiados para una industria específica. Para más información, eche un vistazo a[Introducción a las plantillas de Teams](get-started-with-teams-templates.md) y [Plantillas de Teams para pequeñas y medianas empresas](smb-templates.md).
 

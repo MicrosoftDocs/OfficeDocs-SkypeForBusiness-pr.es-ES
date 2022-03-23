@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Con el acceso de invitado en Microsoft Teams, los equipos de su organización pueden colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales.
-ms.openlocfilehash: 8ea0ae05823a1f7402d6a41f51794d0a169faf43
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 99a17d521f0d244083c527803916bf8946730789
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457260"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711454"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado en Microsoft Teams
 
@@ -35,16 +35,18 @@ Con el acceso de invitado, puede proporcionar acceso a equipos, documentos de ca
 
 Un invitado es alguien que no tiene una cuenta profesional o educativa con su organización. Por ejemplo, los invitados pueden incluir socios, proveedores o consultores. Cualquier persona que no forma parte de su organización puede agregarse como invitado en Teams. Esto significa que cualquier usuario con una cuenta de empresa (es decir, una cuenta de Azure Active Directory) o una cuenta de correo electrónico de consumidor (con Outlook.com, Gmail.com u otros) puede participar como invitado en Teams con acceso a las experiencias de canales y equipos.
 
-Los invitados de Teams están protegidos por los mismos cumplimientos normativos y auditorías que el resto de Microsoft 365 y pueden administrarse de forma segura en Azure AD. El acceso de invitado está sujeto a los límites de servicio de Azure AD y de Microsoft 365 u Office 365.
+Al invitar a un usuario a Teams, se le crea una cuenta de invitado en Azure Active Directory y está cubierto por la misma protección de cumplimiento y auditoría que otros usuarios de Microsoft 365. El acceso de invitado está sujeto a los límites de servicio de Azure AD y de Microsoft 365.
 
-La experiencia de invitado tiene limitaciones deliberadamente establecidas. Para obtener una lista completa de lo que un invitado puede y no puede hacer en Teams, consulte [Acceso de invitado en Microsoft Teams](guest-experience.md).
+La experiencia de invitado tiene limitaciones de forma deliberada. Para obtener una lista completa de lo que un invitado puede y no puede hacer en Teams, vea [Acceso de invitado en Microsoft Teams](guest-experience.md).
 
 > [!IMPORTANT]
 > Los invitados siguen la configuración a nivel de organización en Teams para el Modo de actualización en coexistencia.
 
-Para configurar el acceso de invitado, consulte [Colaborar con invitados en un equipo](/microsoft-365/solutions/collaborate-as-team). 
-
 Para comparar el acceso externo (federación) con el acceso de invitado (y decidir cuál de ellos debe usar), lea [Comunicarse con usuarios de otras organizaciones en Teams](communicate-with-users-from-other-organizations.md).
+
+Los canales compartidos ofrecen una alternativa al acceso de invitado, ya que permiten invitar a usuarios de fuera de la organización sin necesidad de tener una cuenta de invitado en Azure AD. Para comparar el acceso de invitado con los canales compartidos, consulte [Planear la colaboración externa](/microsoft-365/solutions/plan-external-collaboration).
+
+Para configurar el acceso de invitado, consulte [Colaborar con invitados en un equipo](/microsoft-365/solutions/collaborate-as-team). 
 
 ## <a name="set-up-guest-access"></a>Configurar el acceso de invitado
 

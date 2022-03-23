@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para grandes organizaciones en Microsoft Teams.
-ms.openlocfilehash: 1b212edfc750210aa7ab66bb0184dfa07541280e
-ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
+ms.openlocfilehash: 3a501ee9cdea0cf04466be1cbbd9c8f4407a9842
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2022
-ms.locfileid: "63660595"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711924"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -149,6 +149,8 @@ Puede establecer la extensión en [el Centro de administración de Microsoft 365
 
 > [!NOTE]
 > Si desea usar las características Marcar por  nombre y Marcar por  extensión, puede asignar una clave de marcado en el operador automático principal para llegar a un operador automático habilitado para Marcar **por nombre**. Dentro de ese operador automático, puede asignar la tecla 1 (que no tiene letras asociadas) para que llegue al operador automático Marcar **por extensión.**
+
+Consulte Referencia [de marcado y voz](dial-voice-reference.md) para obtener más información.
 
 Una vez que haya seleccionado una **opción de búsqueda de** directorio, seleccione **Siguiente**.
 

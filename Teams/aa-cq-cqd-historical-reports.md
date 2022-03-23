@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Obtenga información sobre cómo usar el panel de calidad de Power BI para ver los datos históricos Operador automático y Cola de llamadas.
-ms.openlocfilehash: bb83a31b083387bc945f7f4b4388ee6643c00f10
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.openlocfilehash: 57552af3a1df108dbbf86172793bb9ea86ed1b10
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62921878"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711494"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Operador automático & histórico de cola de llamadas
 
@@ -52,7 +52,7 @@ La cuenta que use para ver el informe histórico debe tener permisos para obtene
 
 ## <a name="installation"></a>Instalación 
 
-Los pasos siguientes suponen que ya ha instalado Power BI Desktop en el equipo y que su cuenta tiene los permisos necesarios para obtener acceso a la canalización de datos CQD.
+En los pasos siguientes se supone que ya ha instalado Power BI Desktop en el equipo y que su cuenta tiene los permisos necesarios para obtener acceso a la canalización de datos CQD.
 
 Realice los pasos siguientes:
 
@@ -138,7 +138,7 @@ Realice los pasos siguientes:
 
 |Nombre de tabla de informe            |Nombre de tabla de origen            |Procesamiento       |
 |:----------------------------|:----------------------------|:----------------|
-|fAutoAttendant               |Autoattendant                |Source = AutoAttendant, <br>#"Filas filtradas" = Table.SelectRows(Source, each true), <br>#"Operador automático" = Table.AddColumn(#"Filas filtradas", "Nombre AA", cada lista.First(Text.Split([AAIdentity], "@"))), <br>#"Tipo cambiado" = Table.TransformColumnTypes(#"Operador automático",{{{"AAStartTime", escriba datetime}}), <br>#"Columnas eliminadas" = Table.RemoveColumns(#"Tipo cambiado",{"AAIdentity"}) |
+|fAutoAttendant               |Autoattendant                |Source = AutoAttendant, <br>#"Filas filtradas" = Table.SelectRows(Source, each true), <br>#"Operador automático" = Table.AddColumn(#"Filas filtradas", "Nombre AA", cada Lista.First(Text.Split([AAIdentity], "@"))), <br>#"Tipo cambiado" = Table.TransformColumnTypes(#"Operador automático",{{{"AAStartTime", escriba datetime}}), <br>#"Columnas eliminadas" = Table.RemoveColumns(#"Tipo cambiado",{"AAIdentity"}) |
 
 
 |Sección Informe                                  |Campos usados                              |Filtros aplicados     |
@@ -205,14 +205,14 @@ Realice los pasos siguientes:
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |Selector de fecha                       |Dates -> DateTime                     |Ninguna                  |
 |Identidad de cola de llamadas                 |dCQ-CQIdentity -> de cola de llamadas |Ninguna                  |
-|Origen de llamadas <sup>entrantes1</sup>    |fCallQueueAnalytics -> recuento de llamadas<br>fCallQueueAnalytics -> de llamada    |Llamadas externas: el tipo de llamada es Externo<br>Llamadas internas: el tipo de llamada es Interno |
+|Origen de llamadas <sup>entrantes1</sup>    |fCallQueueAnalytics -> de llamadas<br>fCallQueueAnalytics -> de llamada    |Llamadas externas: el tipo de llamada es Externo<br>Llamadas internas: el tipo de llamada es Interno |
 |Tiempo medio de espera                    |fCallQueueFinalStateAction -> duración media de la llamada (segundos) |Antes de transferir: el resultado de la llamada de cola de llamadas agent_joined_conference o transferred_to_agent<br>Antes de colgar: el resultado de la llamada de cola de llamadas no agent_joined_conference o transferred_to_agent |
-|Resultado de la llamada                         |fCallQueueAnalytics -> recuento de llamadas<br>fCallQueueAnalytics -> de llamada de cola de llamadas | Ninguna |
+|Resultado de la llamada                         |fCallQueueAnalytics -> de llamadas<br>fCallQueueAnalytics -> de llamada de cola de llamadas | Ninguna |
 |Acción total de llamadas de tiempo de espera/desbordamiento |fCallQueueFinalStateAction -> call count<br>fCallQueueFinalStateAction -> acción de estado final de la cola de llamadas |La acción de estado final de la cola de llamadas no se reenvía |
-|Totales de destino de Transferencia/Forard       |fCallQueueAnalytics -> recuento de llamadas<br>fCallQueueAnalytics -> de destino de cola de llamadas |Ninguna |
-|Volúmenes de llamadas                        |fCallQueueAnalytics -> recuento de llamadas<br>fCallQueueAnalytics -> de cola de llamadas<br>fCallQueueAnalytics -> fecha |Ninguna |
-|Llamadas abandonadas                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> recuento de llamadas<br>fCallQueueAnalytics -> fecha<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned es Verdadero |
-|Duración media de la sesión (segundos)    |fCallQueueFinalStateAction -> duración media de la llamada<br>fCallQueueFinalStateAction -> Date<br>fCallQueueFinalStateAction -> IsAbandoned |Ninguna |
+|Totales de destino de Transferencia/Forard       |fCallQueueAnalytics -> de llamadas<br>fCallQueueAnalytics -> de destino de cola de llamadas |Ninguna |
+|Volúmenes de llamadas                        |fCallQueueAnalytics -> de llamadas<br>fCallQueueAnalytics -> de cola de llamadas<br>fCallQueueAnalytics -> fecha |Ninguna |
+|Llamadas abandonadas                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> de llamadas<br>fCallQueueAnalytics -> fecha<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned es Verdadero |
+|Duración media de la sesión (segundos)    |fCallQueueFinalStateAction -> duración media de la llamada<br>fCallQueueFinalStateAction -> Fecha<br>fCallQueueFinalStateAction -> IsAbandoned |Ninguna |
 
 #### <a name="dcq-cqidenity-cqd-fields-description"></a>dCQ-CQIdenity CQD descripción de campos CQD
 
@@ -279,7 +279,7 @@ Realice los pasos siguientes:
 |:---------------------------------------------|:-------------------------------------|:---------------------|
 |Nombre del agente                                    |Nombre del agente                            |Ninguna                  |
 |Nombre de cola de llamadas                               |Nombre de cola de llamadas                       |Ninguna                  |
-|#Calls por agente                               |Nombre del agente<br>Recuento de llamadas<br>Fecha      |Ninguna                  |
+|#Calls Por agente                               |Nombre del agente<br>Recuento de llamadas<br>Fecha      |Ninguna                  |
 |Distribución por agente y cola de llamadas          |Nombre del agente<br>Recuento de llamadas<br>Duración de la llamada (minutos)<br>Nombre de cola de llamadas |Ninguna                      |
 |Inferior izquierda                                   |Nombre del agente<br>Duración media de la llamada (segundo)<br>Recuento de llamadas<br>Duración de la llamada (minuto)<br>Nombre de cola de llamadas | Ninguna |
 |Duración media de la llamada (segundos) por nombre del agente |Nombre del agente<br>Duración media de la llamada (segundo)<br>Recuento de llamadas<br>Duración de la llamada (minuto)<br>Nombre de cola de llamadas | Ninguna |
@@ -289,9 +289,9 @@ Realice los pasos siguientes:
 |Nombre                                    |Tipo de datos                |Descripción                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |Nombre del agente                              |Texto                     |UPN de usuario<br>Si el nombre de usuario **completo user@microsoft.com** , este valor será: **usuario** |
-|Duración media de la llamada (segundo)          |Número decimal           |Resumir: Suma<br>Duración media de las llamadas en cola de llamadas en segundos |
-|Recuento de llamadas                              |Número entero             |Resumir: Suma<br>Número de llamadas que ha manipulado el agente                    |
-|Duración de la llamada (minuto)                  |Número entero             |Resumir: Suma<br>Duración total de las llamadas en cola de llamadas en minutos  |
+|Duración media de la llamada (segundo)          |Número decimal           |Resumir: Suma<br>Duración media de las llamadas en cola de llamadas respondidas en segundos |
+|Recuento de llamadas                              |Número entero             |Resumir: Suma<br>Número de llamadas presentadas y respondidas por el agente     |
+|Duración de la llamada (minuto)                  |Número entero             |Resumir: Suma<br>Duración total de llamadas de llamadas respondidas en minutos (redondeadas hacia abajo hasta el minuto más próximo)  |
 |Nombre de cola de llamadas                         |Texto                     |Nombre de la cuenta de recursos adjunta a cola de llamadas<br><br>Si el nombre completo de la cuenta de **recursos cq_test@microsoft.com** , este valor será: **cq_test** |
 |Fecha                                    |Fecha                     |                                                    |
 

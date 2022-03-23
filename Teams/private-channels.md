@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información acerca de cómo usar y administrar canales privados en Microsoft Teams.
-ms.openlocfilehash: 097c7e4c43c6127b59423cab94b97ac949a2df57
-ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
+ms.openlocfilehash: e3b8208f760d2ec549e242d390190fce8acba5fd
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63463753"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711474"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canales privados en Microsoft Teams
 
@@ -97,7 +97,7 @@ Teams administra el ciclo de vida del sitio del canal privado. Si se elimina el 
 Si se restaura un canal privado o un equipo que contiene un canal privado, los sitios se restaurarán con él. Si se restaura un sitio de canal privado y se encuentra fuera de la ventana de eliminación temporal de 30 días para el canal privado, el sitio funcionará como un sitio independiente.
 
 > [!NOTE]
-> Al crear un nuevo equipo o un nuevo canal privado en Microsoft Teams, se creará automáticamente un sitio de grupo en SharePoint. Si desea editar la descripción o clasificación de este sitio de grupo, vaya a la [configuración del canal correspondiente en Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
+> Al crear un nuevo equipo, canal privado o canal compartido en Microsoft Teams, se crea automáticamente un sitio de grupo en SharePoint. Si desea editar la descripción o clasificación de este sitio de grupo, vaya a la [configuración del canal correspondiente en Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
 >
 > Obtenga más información sobre cómo administrar los [Sitios de grupos conectados a Microsoft Teams](/SharePoint/teams-connected-sites).
 
@@ -105,7 +105,7 @@ Si se restaura un canal privado o un equipo que contiene un canal privado, los s
 
 Las copias de cumplimiento de los mensajes enviados en un canal privado se entregan al buzón de todos los miembros del canal privado, en lugar de a un buzón de grupo. Los títulos de las copias de cumplimiento tienen formato para indicar desde qué canal privado se enviaron.
 
-Para obtener más información sobre cómo realizar búsquedas en eDiscovery para mensajes de canal privado, consulte [eDiscovery de canales privados](ediscovery-investigation.md#ediscovery-of-private-channels).
+Para obtener más información sobre cómo realizar búsquedas en eDiscovery para mensajes de canal privado, consulte [eDiscovery de canales privados](ediscovery-investigation.md#ediscovery-of-private-and-shared-channels).
 
 ## <a name="considerations-around-file-access-in-private-channels"></a>Consideraciones sobre el acceso a archivos en canales privados
 
@@ -123,11 +123,13 @@ Cada equipo puede tener un máximo de 30 canales privados y cada canal privado p
 
 Cuando se crea un equipo a partir de un equipo existente, los canales privados del equipo existente no se copiarán al nuevo equipo.
 
-Las notificaciones de canales privados no se incluyen en los correos electrónicos de actividad perdida en este momento.
+Las notificaciones de canales privados no se incluyen en los correos electrónicos de actividad perdida.
 
 No se pueden programar reuniones de canal.
 
 ## <a name="related-topics"></a>Temas relacionados
+
+[Canales compartidos en Microsoft Teams](/MicrosoftTeams/shared-channels)
 
 [Información general de los equipos y canales en Microsoft Teams](teams-channels-overview.md)
 

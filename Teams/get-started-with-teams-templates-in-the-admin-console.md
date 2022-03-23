@@ -18,19 +18,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e65f7a0eef62197e90f77876129af95f32f4d6bc
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 832d13955287d4166a575d213c04331b7e79e1bd
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442486"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711904"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Introducción a las plantillas de equipo en el centro de administración de Teams
 
 **La capacidad de crear plantillas personalizadas aún no es compatible con los clientes de EDU.**
 
 > [!NOTE]
-> - Actualmente, los canales privados no son compatibles con las plantillas de equipo. La creación de canales privados no se incluye en las definiciones de plantilla.
+> - Actualmente, los canales privados y compartidos no son compatibles con las plantillas de equipo. La creación de canales privados y compartidos no se incluye en las definiciones de plantilla.
 >
 > - Las etiquetas de confidencialidad no son compatibles con las plantillas de grupo GCC entornos. La opción de etiqueta de confidencialidad del flujo Crear equipo a partir de plantilla no se aplicará al equipo.
 
@@ -139,14 +139,14 @@ Para controlar las plantillas que los usuarios ven en Teams para crear [equipos,
 
 Use los cmdlets siguientes para administrar las plantillas en PowerShell.
 
-- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps)
-- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
-- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps)
-- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate)
+- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist)
+- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate)
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate)
+- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate)
 
 ## <a name="related-articles"></a>Artículos relacionados
 
 - [Crear un equipo a partir de una plantilla](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Introducción a las plantillas de equipo con Microsoft Graph](get-started-with-teams-templates.md)
-- [Clonar un equipo](/graph/api/team-clone?view=graph-rest-1.0&tabs=http)
+- [Clonar un equipo](/graph/api/team-clone)

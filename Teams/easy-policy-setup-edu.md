@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre cómo usar el Teams para Educación de directivas de aprendizaje para aplicar fácilmente directivas a alumnos y profesores para mantener su entorno de aprendizaje seguro.
+description: Obtenga información sobre cómo usar el asistente Teams para Educación directivas para aplicar fácilmente directivas a alumnos y profesores para mantener su entorno de aprendizaje seguro.
 f1keywords: ''
-ms.openlocfilehash: 9834aceeffc6c5604c144e801405cea968df5a69
-ms.sourcegitcommit: 2612020cd932117148440b60be818ba31208b1d1
+ms.openlocfilehash: 4a793baeb725b497310e46db351e12e6c0540477
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "62805461"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711694"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use el Asistente Teams para Educación directivas para aplicar fácilmente directivas para un entorno de aprendizaje seguro
 
@@ -131,7 +131,7 @@ Por ejemplo, asignó una directiva de reunión directamente a los profesores y l
 
 El asistente ajusta y aplica automáticamente [estas directivas](#policies-applied-by-the-wizard). Hay pocas medidas adicionales, que es posible que desee tomar en función de las necesidades de su institución para mantenerse seguro.
 
-Vea [Mantener a los alumnos seguros mientras usan Teams para el aprendizaje a distancia](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) para obtener recomendaciones de seguridad adicionales.
+Consulte [Mantener a los alumnos seguros mientras usan Teams aprendizaje a distancia](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) para obtener recomendaciones de seguridad adicionales.
 
 <a name="polwiz_mc"> </a>
 
@@ -139,7 +139,7 @@ Vea [Mantener a los alumnos seguros mientras usan Teams para el aprendizaje a di
 
 Actualmente, el asistente aplica nuestras directivas recomendadas al ejecutarlo. Es importante saber que a medida que las nuevas directivas están disponibles en Teams, el asistente actualiza automáticamente la configuración global (predeterminada para toda la organización) para la seguridad de los alumnos.
 
-Pero compruebe [el Centro de](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) mensajes (en el Centro de administración de Microsoft 365) con frecuencia para mantenerse al día sobre las nuevas características y sus directivas y la configuración de directiva en Teams.
+Pero compruebe el Centro de [mensajes (en](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) el Centro de administración de Microsoft 365) con frecuencia para mantenerse al día sobre las nuevas características y sus directivas y la configuración de directiva en Teams.
 
 ## <a name="make-changes-in-the-wizard"></a>Realizar cambios en el asistente
 
@@ -164,7 +164,7 @@ En la tabla siguiente se resume lo que ocurre al realizar un cambio en el asiste
 
 ### <a name="policy-areas"></a>Áreas de directiva
 
-Estas son las áreas de directiva y los nombres de directiva correspondientes cubiertos por el asistente. Para buscar estas directivas, vaya al centro de administración Microsoft Teams y, a continuación, en el panel de navegación izquierdo, vaya a cada página del área de directiva.
+Estas son las áreas de directiva y los nombres de directiva correspondientes cubiertos por el asistente. Para buscar estas directivas, vaya al centro de administración de Microsoft Teams y, a continuación, en el panel de navegación izquierdo, vaya a cada página del área de directiva.
 
 #### <a name="students"></a>[**Estudiantes**](#tab/students/)
 
@@ -194,6 +194,9 @@ Estas son las áreas de directiva y los nombres de directiva correspondientes cu
 
 Este es un resumen de la configuración aplicada por el asistente para cada área de directiva.
 
+> [!NOTE]
+> Solo los propietarios de equipos pueden crear canales compartidos.<br><br>Los canales compartidos con otras organizaciones [requieren la configuración Azure AD conexión directa B2B](/azure/active-directory/external-identities/b2b-direct-connect-overview) que está deshabilitada de forma predeterminada. Consulte [Colaborar con participantes externos en un canal para](/microsoft-365/solutions/collaborate-teams-direct-connect) habilitar esta característica.
+
 #### <a name="students"></a>[**Estudiantes**](#tab/student-settings/)
 
 Esta es una lista de las definiciones de directivas globales (predeterminadas para toda la organización) ajustadas por el asistente y aplicadas a los alumnos.
@@ -201,11 +204,14 @@ Esta es una lista de las definiciones de directivas globales (predeterminadas pa
 |Área de directiva |Sub-área  |Configuración de directiva  |Principal o Secundario |Educación superior |
 |---------|---------|---------|---------|---------|
 |Directiva de equipo   |         |Crear canales privados         |Desactivado       |Activado|
-|Directiva de reuniones    |General         |Reunirse ahora en canales         |Desactivado      |Activado|
-|  |        |Outlook complemento         |Desactivado       |Activado|
-|  |        |Programación de reuniones del canal        |Desactivado      |Activado|
-|  |        |Programación privada de reuniones       |Desactivado      |Activado|
-|  |        |Registro de reunión              |Activado       |Activado|
+|               |         |Crear canales compartidos         |Activado       |Activado|
+|               |         |Compartir canal con participantes externos         |Activado       |Activado|
+|               |         |Participar en un canal compartido externo         |Activado       |Activado|
+|Directiva de reuniones    |General         |Permitir la opción Reunirse ahora en canales         |Desactivado      |Activado|
+|  |        |Permitir el complemento de Outlook         |Desactivado       |Activado|
+|  |        |Permitir la programación de reuniones de canal        |Desactivado      |Activado|
+|  |        |Permitir la programación de reuniones privadas       |Desactivado      |Activado|
+|  |        |Permitir el registro de la reunión              |Activado       |Activado|
 |  |        |Quién registro    |Todos los miembros de la organización      |Todos los miembros de la organización|
 |  |Vídeo & audio        |Transcripción        |Activado       |Activado|
 |  |        |Grabación en la nube         |Desactivado      |Activado|
@@ -271,11 +277,14 @@ Esta es una lista de las definiciones de directiva personalizadas asignadas a lo
 |Área de directiva |Sub-área  |Configuración de directiva  |Principal o Secundario |Educación superior |
 |---------|---------|---------|---------|---------|
 |Directiva de equipo   |         |Crear canales privados         |Activado       |Activado|
-|Directiva de reuniones    |General         |Reunirse ahora en canales         |Activado      |Activado|
-|  |        |Outlook complemento         |Activado       |Activado|
-|  |        |Programación de reuniones del canal        |Activado      |Activado|
-|  |        |Programación privada de reuniones       |Activado      |Activado|
-|  |        |Registro de reunión              |Activado       |Activado|
+|               |         |Crear canales compartidos         |Activado       |Activado|
+|               |         |Compartir canal con participantes externos         |Activado       |Activado|
+|               |         |Participar en un canal compartido externo         |Activado       |Activado|
+|Directiva de reuniones    |General         |Permitir la opción Reunirse ahora en canales         |Activado      |Activado|
+|  |        |Permitir el complemento de Outlook         |Activado       |Activado|
+|  |        |Permitir la programación de reuniones de canal        |Activado      |Activado|
+|  |        |Permitir la programación de reuniones privadas       |Activado      |Activado|
+|  |        |Permitir el registro de la reunión              |Activado       |Activado|
 |  |        |Quién registro    |Todos los miembros de la organización      |Todos los miembros de la organización|
 |  |Vídeo & audio        |Transcripción        |Activado       |Activado|
 |  |        |Grabación en la nube         |Activado      |Activado|
@@ -333,4 +342,4 @@ Esta es una lista de las definiciones de directiva personalizadas asignadas a lo
 
 - [Directivas de Teams y paquetes de directivas para educación](policy-packages-edu.md)
 - [Asignar directivas a grandes conjuntos de usuarios de la escuela](batch-group-policy-assignment-edu.md)
-- [Mantener a los alumnos seguros mientras usan Teams aprendizaje a distancia](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)
+- [Mantener a los alumnos seguros mientras Teams aprendizaje a distancia](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)

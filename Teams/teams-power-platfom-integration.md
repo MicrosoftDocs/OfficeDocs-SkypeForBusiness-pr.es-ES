@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información Teams integración con las herramientas de Microsoft Power Platform, incluidos Power BI, power apps, Power automate y Power Virtual Agents.
-ms.openlocfilehash: f902e0a137f5a5f996623a9207e9e192b90bb6b7
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: a89068e5e70387275e21e2d5f8167980c57f51ee
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442496"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711274"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams integración con Microsoft Power Platform
 
@@ -39,7 +39,10 @@ A partir de septiembre de 2020, la integración con Microsoft Power Platform ha 
 - Cree flujos de trabajo automatizados entre sus aplicaciones y servicios para sincronizar archivos, recibir notificaciones, recopilar datos y mucho **más con Power Automate**.
 - Cree bots con una interfaz gráfica guiada sin código con **Power Virtual Agents** para crear fácilmente asistentes digitales dentro de Teams y que estén disponibles para sus compañeros con los que chatear.
 
-Las nuevas capacidades para crear aplicaciones, bots y flujos de trabajo están con el respaldo de la nueva plataforma de datos integrada de bajo código para Teams, [Dataverse para Teams](/powerapps/teams/overview-data-platform), que proporciona almacenamiento de datos relacional, tipos de datos enriquecidos, gobierno de nivel empresarial e implementación de soluciones de un solo clic. Dataverse para Teams se basa en [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro). Con Dataverse para Teams, Teams usuarios pueden buscar e instalar soluciones personalizadas listas para usar desde la tienda de aplicaciones de Teams que muestran escenarios comunes en todos los sectores. Puede personalizar y ampliar estas soluciones personalizadas para adaptarlas a la personalización de marca y a los requisitos de su organización.
+Las nuevas capacidades para crear aplicaciones, bots y flujos de trabajo están con el respaldo de la nueva plataforma de datos integrada de bajo código para Teams, [Dataverse para Teams](/powerapps/teams/overview-data-platform), que proporciona almacenamiento de datos relacional, tipos de datos enriquecidos, gobierno de nivel empresarial e implementación de soluciones de un solo clic.
+
+Dataverse para Teams se basa en [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro). Teams usuarios pueden buscar e instalar soluciones personalizadas listas para usar desde la tienda de aplicaciones de Teams que muestran escenarios comunes en todos los sectores.
+Puede personalizar y ampliar estas soluciones personalizadas para adaptarlas a la personalización de marca y a los requisitos de su organización.
 
 ## <a name="licensing"></a>Licencias
 
@@ -54,3 +57,6 @@ Las nuevas funcionalidades están disponibles para la selección Microsoft 365 s
 - [Power Apps y Teams](/powerapps/teams/overview)
 - [Power Automate y Teams](/power-automate/teams/overview)
 - [Power Virtual Agents y Teams](/power-virtual-agents/teams/fundamentals-what-is-power-virtual-agents-teams)
+
+<!--- TBD: Remove this article from admin doc set. Belongs in dev doc set.
+--->

@@ -277,6 +277,8 @@ items:
         items:
           - name: Barreras de información
             href: information-barriers-in-teams.md
+          - name: Barreras de información y canales compartidos
+            href: information-barriers-shared-channels.md
           - name: Cambio de los modos de barreras de información con un script de PowerShell
             href: information-barriers-mode-script.md
           - name: Directivas de retención
@@ -477,6 +479,8 @@ items:
         href: teams-channels-overview.md
       - name: Información general de los canales privados
         href: private-channels.md
+      - name: Información general de canales compartidos
+        href: shared-channels.md
       - name: Asignar miembros y propietarios de equipo en Teams
         href: assign-roles-permissions.md
       - name: Información general sobre la pertenencia dinámica para los equipos
@@ -1469,11 +1473,11 @@ items:
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Planear la implementación de teléfonos y pantallas
             href: devices/plan-device-deployment.md
-  - name: 'Aplicaciones, bots y conectores'
+  - name: 'Administrar aplicaciones, bots y conectores de Teams'
     items:
       - name: Información general
         href: deploy-apps-microsoft-teams-landing-page.md
-      - name: Aplicaciones de Microsoft
+      - name: Administrar aplicaciones de ejemplo proporcionadas por Microsoft
         items:
           - name: Administrar la aplicación Bookings
             href: bookings-app-admin.md
@@ -1487,33 +1491,33 @@ items:
             href: approval-admin.md
           - name: Administrar la aplicación Turnos
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-      - name: Aplicaciones de terceros
+      - name: Administrar aplicaciones de terceros
         items:
-          - name: Certificación de aplicación
+          - name: 'Seguridad, cumplimiento, privacidad y control de datos para aplicaciones de terceros'
             href: /microsoft-365-app-certification/overview
           - name: Comprar aplicaciones de terceros para Microsoft Teams
             href: purchase-third-party-apps.md
       - name: Plantillas de aplicación para Microsoft Teams
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
-      - name: Cómo crear y personalizar aplicaciones
+      - name: Controlar aplicaciones de línea de negocio personalizadas
         items:
           - name: Integración con Power Platform
             href: teams-power-platfom-integration.md
           - name: Administrar aplicaciones de Power Platform en el Centro de administración de Microsoft Teams
             href: manage-power-platform-apps.md
-          - name: Publicar una aplicación personalizada enviada a través de la API de envío de aplicaciones de Microsoft Teams
+          - name: Publicar aplicaciones personalizadas en la tienda de la organización
             href: submit-approve-custom-apps.md
           - name: Publicar una aplicación personalizada cargando un paquete de aplicación
             href: upload-custom-apps.md
           - name: Personalizar aplicaciones en Teams
             href: customize-apps.md
-          - name: Tienda de aplicaciones personalizada
+          - name: Personalizar la marca de la tienda de aplicaciones de su organización
             href: customize-your-app-store.md
           - name: Usar pestañas integradas y personalizadas
             href: built-in-custom-tabs.md
-      - name: Administrar aplicaciones para Microsoft Teams
+      - name: Controles de administración y gobernanza de aplicaciones
         items:
-          - name: Información general
+          - name: Información general sobre la administración de aplicaciones para administradores
             href: manage-apps.md
           - name: Directivas de aplicación
             items:
@@ -1527,22 +1531,24 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: Personalizar aplicaciones de Teams en función de la licencia
             href: pin-teams-apps-based-on-license.md
-          - name: Ver permisos de aplicaciones y conceder consentimiento de administrador
+          - name: Revisar los permisos de Azure AD y conceder el consentimiento del administrador
             href: app-permissions-admin-center.md
-          - name: Consentimiento específico del recurso
+          - name: Administrar el consentimiento específico del recurso para su organización
             href: resource-specific-consent.md
-          - name: Consideraciones y permisos de las aplicaciones
+          - name: Información sobre los permisos de la aplicación y el acceso a los recursos
             href: app-permissions.md
           - name: Configurar la administración para aplicaciones en Teams
             href: admin-settings.md
           - name: Usar Microsoft 365 u Office 365 y los conectores personalizados
             href: Office-365-custom-connectors.md
-          - name: El comportamiento de las aplicaciones de Teams para usuarios no estándar
+          - name: Comportamiento de la aplicación basado en tipos de usuarios
             href: non-standard-users.md
-          - name: Experiencia de actualización para aplicaciones
+          - name: Actualización de aplicaciones a versiones más recientes como usuarios finales
             href: apps-update-experience.md
           - name: Administrar el acceso a las aplicaciones de Teams en Microsoft 365
             href: manage-third-party-teams-apps.md
+      - name: Informe de uso de aplicaciones
+        href: teams-analytics-and-reports/app-usage-report.md
   - name: Instrucciones para sectores y gobiernos
     items:
       - name: Información general

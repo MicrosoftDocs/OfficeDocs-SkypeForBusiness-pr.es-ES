@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Cree y resalte estándares basados en recomendaciones inteligentes de su entorno.
 f1keywords: ''
-ms.openlocfilehash: 2eb0681999664cd3fd29876fbfa3550eee9fb507
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 978975bdd4ed02f248cf0a36d88109d2e281b8d4
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062900"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711542"
 ---
 # <a name="standards-and-room-planner"></a>Estándares y planificador de sala
 
@@ -37,7 +37,7 @@ Esta página también tiene una barra de comandos desde la que puede iniciar el 
 ![Captura de pantalla de la página principal para crear estándares](../media/standards-and-room-planner-001.png)
 ### <a name="create-standards"></a>Crear estándares
 
-Use el **flujo de trabajo Crear un** estándar para crear un estándar.
+Use el **flujo de trabajo Crear** estándar para crear un estándar.
 
 ![Captura de pantalla de Detalles generales de estándares](../media/standards-and-room-planner-001.png)
 
@@ -45,15 +45,15 @@ Use el **flujo de trabajo Crear un** estándar para crear un estándar.
 
 1. Seleccione **Crear un estándar MTR** y, a continuación, proporcione detalles generales, como el nombre y la descripción del estándar.
 
-   ![Captura de pantalla de Estándares seleccionar Sala de reuniones](../media/standards-and-room-planner-002.png)
+   ![Captura de pantalla de Estándares seleccionar Sala de reuniones tipo](../media/standards-and-room-planner-002.png)
 
 1. Seleccione el tipo de sala de reuniones para este estándar.
 
    ![Captura de pantalla de Estándares Seleccionar dispositivos recomendados](../media/standards-and-room-planner-003.png)
 
-1. Seleccione la opción de dispositivo de la sala de reuniones de la lista Teams dispositivos certificados en su inventario de hardware.
+1. Seleccione una de las Teams de sala certificadas recomendadas en el inventario de hardware. La lista varía según el tipo de salón seleccionado en el paso anterior.
 
-   ![Captura de pantalla de Detalles generales de estándares](../media/standards-and-room-planner-004.png)
+   ![Captura de pantalla de Seleccionar los M.M.M. estándar](../media/standards-and-room-planner-004.png)
 
 
 1. Revise la información estándar de MTR.
@@ -64,14 +64,13 @@ Use el **flujo de trabajo Crear un** estándar para crear un estándar.
 
    ![Captura de pantalla de lugares para publicar los estándares.](../media/standards-and-room-planner-006.png)
 
-Una vez completado el flujo de trabajo, el estándar se crea correctamente y se publica en el sitio, la región, el edificio o la sala de reuniones. Ahora estos estándares deben usarse con fines de planificación.
+Una vez publicados, los estándares se usan con fines de planificación.
 
 ![Captura de pantalla del estándar publicado correctamente'](../media/standards-and-room-planner-008.png)
 ### <a name="discovered-devices"></a>Dispositivos detectados
 
 En Estándares, seleccione **Dispositivos detectados** para ver todos los dispositivos detectados no estándar de su organización.
 
-![Captura de pantalla de los dispositivos detectados en una sala](../media/standards-and-room-planner-008.png)
 
 Puede realizar acciones para revisar y crear estándares a partir de estos dispositivos detectados en su inventario.
 
