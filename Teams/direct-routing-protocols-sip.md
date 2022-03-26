@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436eded0069af9263aec02f62a697572be7a4ead
-ms.sourcegitcommit: b4bc3b4c1d167a075a25180818f61758eb56cd6b
+ms.openlocfilehash: 549ee30fa7327f1b9959cb2153d0846af61ba858
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "61041272"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774039"
 ---
 # <a name="direct-routing---sip-protocol"></a>Enrutamiento directo: protocolo SIP
 
@@ -43,7 +43,7 @@ Antes de que se pueda procesar una llamada entrante o saliente, los mensajes OPT
 | Encabezado de contacto | Contacto: <sip:sbc1.adatum.biz:50588;transport=tls> |
 
 > [!NOTE]
-> Los encabezados SIP no contienen userinfo en el URI de SIP en uso. Según [RFC 3261, sección 19.1.1,](https://tools.ietf.org/html/rfc3261#section-19.1.1)la parte userinfo de un URI es opcional y puede estar ausente cuando el host de destino no tiene un concepto de usuarios o cuando el propio recurso está identificado. Si el signo @ está presente en un URI SIP, el campo de usuario NO DEBE estar vacío.
+> Los encabezados SIP no contienen userinfo en el URI de SIP en uso. Según [RFC 3261, sección 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), la parte userinfo de un URI es opcional y puede estar ausente cuando el host de destino no tiene un concepto de usuarios o cuando el propio recurso está identificado. Si el signo @ está presente en un URI SIP, el campo de usuario NO DEBE estar vacío.
 > Tenga en cuenta que el URI de SIPS no debe usarse con enrutamiento directo, ya que no es compatible.
 > Compruebe la configuración del controlador de borde de sesión y asegúrese de que no usa encabezados "Reemplaza" en las solicitudes SIP. Enrutamiento directo rechazará las solicitudes SIP que tengan los encabezados Replaces definidos.
 
@@ -58,7 +58,7 @@ A continuación se muestra un ejemplo del mensaje Invitar SIP en una llamada ent
 | Request-URI | INVITAR sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0 |
 | A través del encabezado | A través de: SIP/2.0/TLS sbc1.adatum.biz:5058;alias;branch=z9hG4bKac2121518978 | 
 | Max-Forwards encabezado | Max-Forwards:68 |
-| Desde encabezado | Desde encabezado de: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
+| Desde encabezado | Del encabezado de: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
 | A Encabezado | Para: sip:+183338006777@sbc1.adatum.biz | 
 | Encabezado CSeq | CSeq: 1 INVITACIÓN | 
 | Encabezado de contacto | Contacto: <sip: 68712781@sbc1.adatum.biz:5058;transport=tls> | 
@@ -77,7 +77,7 @@ Al recibir la invitación, el proxy SIP realiza los pasos siguientes:
 
 3. El paso 3 solo se aplica si se ha fallado el paso 2. 
 
-   Quite la parte del host del FQDN, que se muestra en el encabezado Contacto (FQDN: sbc12.adatum.biz, después de quitar la parte del host: adatum.biz) y compruebe si este nombre está registrado como nombre DNS en cualquier organización Microsoft 365 o Office 365. Si se encuentra, la búsqueda de usuario se realiza en este espacio empresarial. Si no se encuentra, se produce un error en la llamada.
+   Quite la parte del host del FQDN, que se muestra en el encabezado De contacto (FQDN: sbc12.adatum.biz, después de quitar la parte del host: adatum.biz) y compruebe si este nombre está registrado como nombre DNS en cualquier organización Microsoft 365 o Office 365. Si se encuentra, la búsqueda de usuario se realiza en este espacio empresarial. Si no se encuentra, se produce un error en la llamada.
 
 4. Con el número de teléfono presentado en el URI de solicitud, realice la búsqueda de número inverso dentro del espacio empresarial que se encuentra en los pasos 2 o 3. Coincida con el número de teléfono presentado con un URI SIP de usuario dentro del espacio empresarial encontrado en el paso anterior.
 
@@ -95,15 +95,15 @@ Para todos los mensajes SIP entrantes (OPCIONES, INVITAR) al proxy SIP de Micros
 
 Sintaxis: Contacto: <sip:phone o sip address@FQDN del SBC;transport=tls> 
 
-Según [RFC 3261, sección 11.1,](https://tools.ietf.org/html/rfc3261#section-11.1)un campo de encabezado de contacto puede estar presente en un mensaje OPTIONS. En Enrutamiento directo, el encabezado de contacto es obligatorio. Para los mensajes INVITE en formato anterior, para los mensajes OPTIONS, el userinfo se puede quitar del URI de SIP y solo el FQDN enviado en formato como se muestra a continuación:
+Según [RFC 3261, sección 11.1](https://tools.ietf.org/html/rfc3261#section-11.1), un campo de encabezado de contacto puede estar presente en un mensaje OPTIONS. En Enrutamiento directo, el encabezado de contacto es obligatorio. Para los mensajes INVITE en formato anterior, para los mensajes OPTIONS, el userinfo se puede quitar del URI de SIP y solo el FQDN enviado en formato como se muestra a continuación:
 
 Sintaxis: Contacto: <sip:FQDN del SBC;transport=tls>
 
 Este nombre (FQDN) también debe estar en los campos Nombre común o Nombre alternativo del asunto del certificado presentado. Microsoft admite el uso de valores comodín de los nombres en los campos Nombre común o Nombre alternativo del asunto del certificado.   
 
-La compatibilidad con caracteres comodín se describe [en RFC 2818, sección 3.1.](https://tools.ietf.org/html/rfc2818#section-3.1) Específicamente:
+La compatibilidad con caracteres comodín se describe [en RFC 2818, sección 3.1](https://tools.ietf.org/html/rfc2818#section-3.1). Específicamente:
 
-*"Los nombres pueden contener el carácter comodín que se considera que coincide con cualquier único componente de nombre de dominio \* o fragmento de componente. Por ejemplo, .a.com coincide foo.a.com pero no bar.foo.a.com. f .com coincide foo.com \* \* pero no bar.com".*
+*"Los nombres pueden contener el carácter comodín \* que se considera que coincide con cualquier único componente de nombre de dominio o fragmento de componente. Por ejemplo, \*.a.com coincide foo.a.com pero no bar.foo.a.com. f.com\* coincide foo.com pero no bar.com".*
 
 Si el SBC envía más de un valor en el encabezado Contacto presentado en un mensaje SIP, solo se usa la parte FQDN del primer valor del encabezado de contacto.
 
@@ -128,11 +128,11 @@ El número de teléfono debe contener un signo + como se muestra en el ejemplo s
 From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679
 ```
 
-## <a name="contact-and-record-route-headers-considerations"></a>Consideraciones de Record-Route de contacto y encabezados
+## <a name="contact-and-record-route-headers-considerations"></a>Consideraciones de Record-Route encabezados de contacto y encabezados
 
 El proxy SIP necesita calcular el FQDN de salto siguiente para las nuevas transacciones de cliente en el cuadro de diálogo (por ejemplo, Bye o Re-Invite) y al responder a Opciones SIP. Se usan las Record-Route contacto o las Record-Route. 
 
-Según [RFC 3261, sección 8.1.1.8,](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)el encabezado de contacto es necesario en cualquier solicitud que pueda dar como resultado un nuevo cuadro de diálogo. El Record-Route solo es necesario si un proxy desea mantenerse en la ruta de acceso de las solicitudes futuras en un cuadro de diálogo. Si un SBC proxy está en uso con optimización de medios [locales](./direct-routing-media-optimization.md)para enrutamiento directo, deberá configurarse una ruta de registro ya que el SBC proxy debe permanecer en la ruta. 
+Según [RFC 3261, sección 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8), el encabezado de contacto es necesario en cualquier solicitud que pueda dar como resultado un nuevo cuadro de diálogo. El Record-Route solo es necesario si un proxy desea permanecer en la ruta de acceso de futuras solicitudes en un cuadro de diálogo. Si un SBC proxy está en uso con optimización de medios [locales](./direct-routing-media-optimization.md) para enrutamiento directo, tendrá que configurarse una ruta de registro ya que el SBC proxy debe permanecer en la ruta. 
 
 Microsoft recomienda usar solo el encabezado de contacto si no se usa un SBC proxy:
 
@@ -150,7 +150,7 @@ Si se usan contact y Record-Route, el administrador de SBC debe mantener sus val
 
 ### <a name="use-of-fqdn-name-in-contact-or-record-route"></a>Uso del nombre FQDN en Contacto o Record-Route
 
-El uso de una dirección IP no es compatible ni en Record-Route ni en Contacto. La única opción compatible es un FQDN, que debe coincidir con el nombre común o el nombre alternativo del asunto del certificado SBC (se admiten valores comodín en el certificado).
+El uso de una dirección IP no es compatible con Record-Route o Contacto. La única opción compatible es un FQDN, que debe coincidir con el nombre común o el nombre alternativo del asunto del certificado SBC (se admiten valores comodín en el certificado).
 
 - Si se presenta una dirección IP en Ruta de registro o Contacto, se produce un error en la comprobación del certificado y se produce un error en la llamada.
 
@@ -187,9 +187,9 @@ Un Teams usuario puede tener varios puntos de conexión al mismo tiempo. Por eje
 
 1.  Al recibir la primera invitación desde el SBC, el proxy SIP envía el mensaje "SIP SIP/2.0 100 Trying" y notifica a todos los extremos del usuario final sobre la llamada entrante. 
 
-2.  Tras la notificación, cada punto de conexión empezará a sonar y a enviar mensajes de "Progreso de llamada" al proxy SIP. Dado que Teams usuario puede tener varios puntos finales, el proxy SIP puede recibir varios mensajes de progreso de llamada.
+2.  Tras la notificación, cada punto de conexión empezará a sonar y a enviar mensajes de "Progreso de llamada" al proxy SIP. Dado que Teams usuario puede tener varios puntos de conexión, el proxy SIP puede recibir varios mensajes de progreso de llamada.
 
-3.  Por cada mensaje de progreso de llamada recibido de los clientes, el proxy SIP convierte el mensaje de progreso de llamada en el mensaje SIP "SIP SIP/2.0 180 Trying". El intervalo para enviar estos mensajes se define por el intervalo de los mensajes de recepción desde el controlador de llamadas. En el siguiente diagrama, hay dos 180 mensajes generados por el proxy SIP. Estos mensajes proceden de los dos Teams de conexión del usuario. Cada uno de los clientes tiene un id. de etiqueta único.  Cada mensaje procedente de un punto de conexión diferente será una sesión independiente (el parámetro "etiqueta" en el campo "Para" será diferente). Sin embargo, es posible que un punto de conexión no genere el mensaje 180 y envíe el mensaje 183 inmediatamente, como se muestra en el siguiente diagrama.
+3.  Por cada mensaje de progreso de llamada recibido de los clientes, el proxy SIP convierte el mensaje de progreso de llamada en el mensaje SIP "SIP SIP/2.0 180 Ringing". El intervalo para enviar estos mensajes se define por el intervalo de los mensajes de recepción desde el controlador de llamadas. En el siguiente diagrama, hay dos 180 mensajes generados por el proxy SIP. Estos mensajes proceden de los dos Teams de conexión del usuario. Cada uno de los clientes tiene un id. de etiqueta único.  Cada mensaje procedente de un punto de conexión diferente será una sesión independiente (el parámetro "etiqueta" en el campo "Para" será diferente). Sin embargo, es posible que un punto de conexión no genere el mensaje 180 y envíe el mensaje 183 inmediatamente, como se muestra en el siguiente diagrama.
 
 4.  Una vez que un punto de conexión genera un mensaje de respuesta multimedia con las direcciones IP de los candidatos multimedia del punto de conexión, el proxy SIP convierte el mensaje recibido en un mensaje "Progreso de sesión SIP 183" con el SDP del cliente reemplazado por el SDP desde el procesador multimedia. En el siguiente diagrama, el punto de conexión de Bifurcación 2 respondió a la llamada. Si el tronco no se omite, el mensaje SIP 183 solo se genera una vez (anillo bot o punto final del cliente). El 183 puede venir en una bifurcación existente o iniciar una nueva.
 
@@ -284,7 +284,7 @@ El estándar se explica en la sección 6 de RFC 5589. Las RFC relacionadas son:
 Esta opción supone que el proxy SIP actúa como transferor y envía un mensaje De referencia al SBC. El SBC actúa como transferible y controla la referencia para generar una nueva oferta de transferencia. Hay dos casos posibles:
 
 - La llamada se transfiere a un participante RTC externo. 
-- La llamada se transfiere de un Teams a otro Teams en el mismo espacio empresarial a través del SBC. 
+- La llamada se transfiere de un usuario Teams a otro Teams en el mismo espacio empresarial a través del SBC. 
 
 Si la llamada se transfiere de un usuario de Teams a otro a través del SBC, se espera que el SBC emita una nueva invitación (iniciar un nuevo cuadro de diálogo) para el destino de transferencia (el usuario de Teams) con la información recibida en el mensaje Referencia. 
 
@@ -322,7 +322,7 @@ Microsoft recomienda aplicar siempre el parámetro user=phone para simplificar e
 
 ## <a name="history-info-header"></a>History-Info encabezado
 
-El encabezado History-Info se usa para volver a dirigir solicitudes SIP y "proporcionar un mecanismo estándar para capturar la información del historial de solicitudes para habilitar una amplia variedad de servicios para redes y usuarios finales". Para obtener más información, [vea RFC 4244 - Sección 1.1](http://www.ietf.org/rfc/rfc4244.txt). Para Teléfono Microsoft, este encabezado se usa en escenarios de simulring y reenvío de llamadas.  
+El encabezado History-Info se usa para volver a dirigir las solicitudes SIP y "proporcionar un mecanismo estándar para capturar la información del historial de solicitudes para habilitar una amplia variedad de servicios para redes y usuarios finales". Para obtener más información, vea [RFC 4244 - Sección 1.1](http://www.ietf.org/rfc/rfc4244.txt). Para Teléfono Microsoft, este encabezado se usa en escenarios de simulring y reenvío de llamadas.  
 
 Si envía, el History-Info está habilitado de la siguiente manera:
 
@@ -332,7 +332,7 @@ Si envía, el History-Info está habilitado de la siguiente manera:
 
 - History-Info encabezado no se agregará para los casos de transferencia de llamadas.
 
-- Una entrada de historial individual en el encabezado History-Info reconstruido tendrá el parámetro de número de teléfono proporcionado combinado con el FQDN de enrutamiento directo (sip.pstnhub.microsoft.com) establecido como la parte host del URI; se agregará un parámetro de "user=phone" como parte del URI de SIP.  Cualquier otro parámetro asociado con el encabezado de History-Info original, excepto los parámetros de contexto del teléfono, se pasarán por el encabezado History-Info nuevo.  
+- Una entrada de historial individual en el encabezado de History-Info reconstruido tendrá el parámetro de número de teléfono proporcionado combinado con el FQDN de enrutamiento directo (sip.pstnhub.microsoft.com) establecido como la parte host del URI; se agregará un parámetro de "user=phone" como parte del URI de SIP.  Todos los demás parámetros asociados con el encabezado de History-Info original, excepto los parámetros de contexto del teléfono, se pasarán por el encabezado History-Info nuevo.  
 
   > [!NOTE]
   > Las entradas que son privadas (según lo determinado por los mecanismos definidos en la sección 3.3 de RFC 4244) se reenviarán tal y como se debe a que el proveedor de troncos SIP es un punto de confianza.
@@ -360,7 +360,7 @@ El History-Info está protegido por un mecanismo TLS obligatorio.
 
 ## <a name="sbc-connection-to-direct-routing-and-failover-mechanism"></a>Conexión SBC al mecanismo de enrutamiento directo y conmutación por error
 
-Vea la sección Mecanismo de conmutación por error para la señalización SIP en [Plan de enrutamiento directo.](direct-routing-plan.md#failover-mechanism-for-sip-signaling)
+Vea la sección Mecanismo de conmutación por error para la señalización SIP en [Plan de enrutamiento directo](direct-routing-plan.md#failover-mechanism-for-sip-signaling).
 
 ## <a name="retry-after"></a>Retry-After
 
@@ -379,4 +379,4 @@ El reinicio en Enrutamiento directo se implementa según los párrafos siguiente
 
 *Un agente establece el resto de los campos del SDP para esta transmisión multimedia como lo haría en una oferta inicial de esta transmisión multimedia (vea sección 4.3).  Por lo tanto, el conjunto de candidatos PUEDE incluir algunos, ninguno o todos los candidatos anteriores para esa transmisión y PUEDE incluir un conjunto totalmente nuevo de candidatos reunidos como se describe en la Sección 4.1.1.*
 
-Si la llamada se estableció inicialmente con omisión de medios y la llamada se transfiere a un cliente de Skype Empresarial, enrutamiento directo debe insertar un procesador multimedia, esto se debe a que el enrutamiento directo no se puede usar con un cliente Skype Empresarial con omisión de medios. Enrutamiento directo inicia el proceso de reinicio del ICE cambiando el ice-pwd y ice-ufrag y ofreciendo nuevos candidatos a medios en un revite.
+Si la llamada se estableció inicialmente con omisión de medios y la llamada se transfiere Skype Empresarial un cliente de Skype Empresarial, enrutamiento directo debe insertar un procesador de medios, esto se debe a que el enrutamiento directo no se puede usar con un cliente de Skype Empresarial con omisión de medios. Enrutamiento directo inicia el proceso de reinicio del ICE cambiando el ice-pwd y ice-ufrag y ofreciendo nuevos candidatos a medios en un revite.

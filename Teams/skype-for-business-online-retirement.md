@@ -18,54 +18,52 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f70378e2be1dd47126ee3d83009759c63643ae2f
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: dcd2148a3f939bd8799b7b3f8b86118359936b7c
+ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711764"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783909"
 ---
 # <a name="skype-for-business-online-retirement"></a>Retirada de Skype Empresarial Online
 
-El 31 de julio de 2021, Microsoft se retiró Skype Empresarial Online. Esta retirada se anunció en julio de 2019 para dar a los clientes un aviso con dos años de antelación para planear sus actualizaciones a Microsoft Teams. Teams es la aplicación principal para la comunicación y la colaboración en Microsoft 365. Con Skype Empresarial Online retirado, Microsoft quiere asegurarse de que los clientes tienen la información y los recursos necesarios para planear y ejecutar una actualización correcta a Teams.  El Skype consumidor no se ve afectado por esta retirada.
+El 31 de julio de 2021, Microsoft se retiró Skype Empresarial Online. Esta retirada se anunció en julio de 2019 para dar a los clientes un aviso con dos años de antelación para planear sus actualizaciones a Microsoft Teams. Teams es la aplicación principal para la comunicación y la colaboración en Microsoft 365. Con Skype Empresarial Online retirado, Microsoft quiere asegurarse de que los clientes tienen la información y los recursos necesarios para planear y ejecutar una actualización correcta a Teams.  El Skype consumidor no se ve afectado por esta retirada. Para obtener información sobre por qué Skype Empresarial Online se retiró, vea Preguntas más frecuentes: Actualizar de Skype Empresarial [a Microsoft Teams](FAQ-journey.yml).
 
-## <a name="why-is-skype-for-business-online-retiring"></a>¿Por qué Skype Empresarial online se retira?
+Microsoft comenzará a retirar la infraestructura Skype Empresarial online el 30 de junio de 2022 o después de esta. Este artículo contiene instrucciones para organizaciones con TeamsOnly usuarios que se actualizaron desde cualquier versión de Skype Empresarial.
 
-Desde su introducción, Skype Empresarial Online ha sido una herramienta valiosa para millones de personas de todo el mundo. Al combinar mensajería instantánea, llamadas y vídeo, Skype Empresarial Online estableció nuevas posibilidades para las comunicaciones empresariales. Teams es el siguiente capítulo de esa visión.  Las capacidades de Microsoft Teams van más allá de las de Skype Empresarial Online. La innovación y el desarrollo continuos de la plataforma Teams los usuarios se benefician de un rendimiento, funcionalidad, flexibilidad y seguridad más completos. Al combinar las siguientes funcionalidades en una sola experiencia, Teams nuevas formas de trabajar:
-
-- Chat
-- Vídeo
-- Llamadas
-- Colaboración en documentos
-- Integración de aplicaciones
-
-Teams es más que una actualización para Skype Empresarial Online. Es una herramienta eficaz que permite a las escuelas y organizaciones ser más ágiles y mejorar la eficiencia de los flujos de trabajo clave. Obtenga más información sobre las ventajas de Teams en las white paper de Forrester, [The Total Economic Impact™ of Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1).
-
-## <a name="organizations-with-skype-for-business-online"></a>Organizaciones con Skype Empresarial Online
-
-Microsoft proporciona un proceso de actualización asistido para ayudar a las organizaciones a Skype Empresarial usuarios en línea restantes a Teams solo. Teams está disponible en la mayoría Microsoft 365 planes de negocios y Enterprise, y las inversiones de licencias existentes se llevan a cabo Teams. Las funcionalidades que son cargas de trabajo premium en Skype Empresarial Online hoy seguirán considerándose del mismo modo en Microsoft Teams. Por ejemplo, si ha comprado conferencias de audio independiente o como parte de E5 con Skype Empresarial, audioconferencia se habilitará en Teams.
 
 ## <a name="organizations-with-on-premises-deployments-of-skype-for-business-server"></a>Organizaciones con implementaciones locales de Skype Empresarial Server
 
-La retirada de Skype Empresarial Online no afecta al soporte técnico para implementaciones locales de Skype Empresarial Server Lync Server 2013. Sin embargo, los clientes híbridos con una combinación de usuarios en línea y locales deben actualizar los *usuarios en* línea. Estos usuarios en línea deben asignarse Teams modo solo con TeamsUpgradePolicy. Microsoft proporciona actualizaciones asistidos para ayudar a automatizar la actualización de los usuarios Skype Empresarial en línea a Teams modo solo técnico. Las organizaciones híbridas no necesitan mover sus usuarios *locales Skype Empresarial a* la nube como resultado de esta retirada. Microsoft es totalmente compatible con organizaciones híbridas con una combinación de Teams usuarios y usuarios locales Skype Empresarial usuarios. Los clientes con implementaciones híbridas de Skype Empresarial Server o Lync Server 2013 deben revisar las implicaciones de [retirarse Skype Empresarial Online](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online).
+La retirada de Skype Empresarial Online no afecta al soporte técnico para implementaciones locales de Skype Empresarial Server y Lync Server 2013. Sin embargo, los clientes híbridos con una combinación de usuarios en línea y locales deben actualizar los *usuarios en* línea. Todos los usuarios en línea deben tener asignado el modo TeamsOnly con TeamsUpgradePolicy. Microsoft proporciona actualizaciones asistidos para ayudar a automatizar la actualización de los usuarios Skype Empresarial online restantes al modo TeamsOnly. Las organizaciones híbridas no necesitan mover sus usuarios *locales Skype Empresarial a* la nube como resultado de esta retirada. Microsoft es totalmente compatible con organizaciones híbridas con una combinación de usuarios de TeamsOnly y usuarios Skype Empresarial locales. Los clientes con implementaciones híbridas de Skype Empresarial Server o Lync Server 2013 deben revisar la retirada [de Skype Empresarial Online](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online).
 
 ## <a name="what-to-expect-post-retirement"></a>Qué esperar después de la retirada
 
-Ya no es posible asignar a los usuarios que están en la nube un modo distinto de TeamsOnly. Esto significa:
- - Al otorgar licencias a nuevos usuarios (excepto los usuarios que se aloman en Skype Empresarial Server locales), los usuarios se asignan automáticamente al modo TeamsOnly, independientemente de la directiva global del inquilino de TeamsUpgradePolicy.
- - En organizaciones híbridas, al mover usuarios a la nube, los usuarios se asignan automáticamente al modo TeamsOnly (regarldess de `MoveToTeams` si el modificador se especificó en `Move-CsUser`.)
- - Los usuarios que se encuentran en la nube (por ejemplo, no usan  un servidor Skype Empresarial local) no pueden tener asignado un modo distinto de Teams solo.
+Ya no es posible asignar a los usuarios que se aloen en la nube un modo distinto de TeamsOnly. Esto significa:
 
-Es posible que los clientes tengan partes restantes de su población de usuarios que se encuentran en Skype Empresarial Online y que aún no están asignados Teams modo solo.  Los clientes deben asignar Teams solo a estos usuarios tan pronto como sea posible.  Además, Microsoft proporcionará actualizaciones asistidos para Skype Empresarial usuarios en línea que no Teams modo solo.  La experiencia de actualización asistida depende de si su organización es una organización en línea pura o una organización con usuarios Skype Empresarial local.  Para obtener más información, vea [Actualizaciones asistidos de Skype Empresarial Online a Microsoft Teams](upgrade-assisted.md).
+ - Al otorgar licencias a nuevos usuarios que no se encuentran en el Skype Empresarial Server local, los usuarios se asignan automáticamente al modo TeamsOnly, independientemente de la directiva global del inquilino de TeamsUpgradePolicy.
+ - En organizaciones híbridas `MoveToTeams` , al mover usuarios a la nube, se asigna automáticamente el modo TeamsOnly a los usuarios independientemente de si el modificador se especificó en `Move-CsUser`.
+ - A los usuarios que se aloen en la nube no se les puede asignar un modo distinto de TeamsOnly. Los usuarios en línea *no usan* Skype Empresarial servidor local.
 
-Una vez completada la actualización asistido, *todos los usuarios* en línea estarán en el Teams solo. Los usuarios del Teams solo reciben chats y llamadas entrantes en Teams y también programan reuniones en Teams. No pueden iniciar chats ni llamadas ni programar reuniones en Skype Empresarial Online.  Sin embargo, Teams solo los usuarios pueden unirse Skype Empresarial reuniones que ya tengan o reciban en el futuro. Por último, *los usuarios que se* alocución local permanecen en el entorno local y no se Teams solo.
+Es posible que los clientes tengan usuarios restantes que estén en Skype Empresarial Online y que aún no tengan asignado el modo TeamsOnly. Los clientes deben asignar el modo TeamsOnly a estos usuarios lo antes posible. Microsoft proporcionará actualizaciones asistidos para Skype Empresarial usuarios en línea que no están en modo TeamsOnly. La experiencia de actualización asistida depende de si su organización es una organización en línea pura o una organización con usuarios Skype Empresarial local. Para obtener más información, vea [Actualizaciones asistidos de Skype Empresarial Online a Microsoft Teams](upgrade-assisted.md).
+
+Una vez completada la actualización asistida, todos los usuarios *en* línea estarán en modo TeamsOnly. Los usuarios del modo TeamsOnly reciben chats y llamadas entrantes en Teams y también programan reuniones en Teams. No pueden iniciar chats o llamadas ni programar reuniones en Skype Empresarial Online.  Sin embargo, TeamsOnly los usuarios pueden unirse Skype Empresarial reuniones que ya tienen o reciben en el futuro. Por último, *los usuarios que se aloen localmente* permanecen en el entorno local y no se podrán convertir en TeamsOnly.
+
+## <a name="actions-to-take-before-june-30-2022"></a>Acciones que debe realizar antes del 30 de junio de 2022
+Ahora que Skype Empresarial Online está retirado, Microsoft comenzará a retirar la infraestructura de soporte técnico antes del 30 de junio de 2022.  Para cualquier organización con TeamsOnly los usuarios que se actualizaron desde cualquier versión de Skype Empresarial, debe tomar medidas si se aplica alguna de estas situaciones:
+
+- Si tiene usuarios de TeamsOnly que previaulsy tenía contactos en Skype Empresarial y que aún no han  iniciado sesión en Teams desde que se actualizó.
+- Si tiene algún usuario de TeamsOnly que todavía Skype Empresarial reuniones en línea que organizaron antes de actualizar a TeamsOnly.
+
+Si alguna de estas situaciones se aplica a su organización, debe tomar medidas antes del 30 de junio de 2022 como se describe a continuación:
+
+ - **Skype Empresarial Contactos** en línea: después de actualizar un usuario al modo TeamsOnly, la primera vez que el usuario inicia sesión en Teams, todos los contactos existentes en la cuenta de Skype Empresarial Online de ese usuario se migrarán a Teams. Después de que Microsoft quite la Skype Empresarial en línea, ya no podrá migrar los contactos de los usuarios que aún no hayan iniciado sesión *en Teams.* Para migrar contactos de Skype Empresarial a Teams, Microsoft recomienda que todos los usuarios que previamente tenían Skype Empresarial inicien sesión en Teams al menos una vez antes del 30 de junio de 2022.
+
+ - **Skype Empresarial reuniones en línea:** después de actualizar una organización a TeamsOnly, los usuarios crean todas las reuniones nuevas como Teams reuniones. En algunos casos, es posible que los usuarios de TeamsOnly todavía Skype Empresarial reuniones en línea que han organizado previamente. Actualmente, los usuarios actualizados de TeamsOnly y los asistentes invitados pueden unirse a estas reuniones Skype Empresarial Online con su Skype Empresarial invitado. Después de que Microsoft quite la infraestructura de Skype Empresarial Online para un determinado usuario de TeamsOnly, sin embargo, las reuniones Skype Empresarial Online restantes organizadas por ese usuario ya no existirán. El organizador y los asistentes no podrán unirse a estas reuniones. Si los usuarios de las organizaciones de TeamsOnly tienen las reuniones Skype Empresarial Online que han organizado, Microsoft recomienda que reprogramen estas reuniones Teams reuniones. Como alternativa, los administradores pueden usar el [servicio de](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms#trigger-meeting-migration-manually-via-powershell-cmdlet) migración de reuniones para convertir estas reuniones en Teams reuniones. En cualquier caso, complete estas acciones antes del 30 de junio de 2022.  
 
 
 ## <a name="how-microsoft-is-helping-customers-upgrade-to-teams"></a>Cómo Microsoft ayuda a los clientes a actualizar a Teams
 
-Le recomendamos encarecidamente que comience la actualización de Skype Empresarial Online a Teams hoy.
-
-Aproveche los recursos disponibles para ayudar a planear su Teams y actualizar desde Skype Empresarial:
+Le recomendamos encarecidamente que comience la actualización de Skype Empresarial Online a Teams hoy. Aproveche los recursos disponibles para ayudar a planear su Teams y actualizar desde Skype Empresarial:
 
 - [Teams de implementación y actualización](upgrade-start-here.md): guía técnica gratuita para administradores de TI.
 
@@ -83,7 +81,7 @@ Aproveche los recursos disponibles para ayudar a planear su Teams y actualizar d
 
 - [Microsoft Teams blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog): Teams nuevas características, recursos de adopción y uso, Teams dispositivos e integración con otras aplicaciones empresariales.
 
-Si es un cliente actual de Skype Empresarial Online, empiece a planear la actualización a Teams hoy. Estamos encantados de que experimente sus potentes capacidades de comunicación y colaboración, y nos comprometemos a ayudar en el camino.  Para obtener más información sobre la Skype Empresarial en línea, consulte Preguntas más frecuentes: Actualizar de [Skype Empresarial a Microsoft Teams](FAQ-journey.yml).
+Si es un cliente actual de Skype Empresarial Online, empiece a planear la actualización a Teams hoy. Estamos encantados de que experimente sus potentes capacidades de comunicación y colaboración, y nos comprometemos a ayudar en el camino.  Para obtener más información sobre la Skype Empresarial en línea, vea Preguntas más frecuentes: Actualizar de [Skype Empresarial a Microsoft Teams](FAQ-journey.yml).
 
 
 

@@ -20,21 +20,20 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb32190c05dcbe165e203d9e4f097622d60943b8
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: f611afe731bc178759427efff2fe35d925ca0def
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763405"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403971"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Introducción a Teams para el comercio
 
-Los entornos minoristas, con sus programaciones rotativas y el personal sobre la marcha, tienen necesidades muy diferentes a las de otras organizaciones. Para obtener el máximo beneficio para su organización minorista, primero elija los escenarios con los que Teams puede ayudarle en las operaciones empresariales diarias y, después, asegúrese de preparar su entorno de Teams con los aspectos básicos, los equipos y las aplicaciones adecuados para admitir esos escenarios.
+Los entornos comerciales, con sus programaciones rotatorias y personal sobre la marcha, tienen necesidades muy diferentes a las de otras organizaciones. Para obtener el máximo beneficio para su organización minorista, primero elija los escenarios con los que Teams puede ayudarle en las operaciones empresariales diarias y, después, asegúrese de preparar su entorno de Teams con los aspectos básicos, los equipos y las aplicaciones adecuadas para admitir esos escenarios.
 
 1. [Elija los escenarios](#choose-your-scenarios) que desea implementar para su empresa.
 :::image type="content" source="../media/retail-teams-scenarios.png" alt-text="Diagrama que muestra los escenarios de Teams para el comercio." lightbox="../media/retail-teams-scenarios.png":::
-1. [Configurar los aspectos básicos](#set-up-the-fundamentals) : ayudar a los empleados con los aspectos básicos: administrar cuentas y dispositivos y asegurarse de que se aplican las directivas de Teams adecuadas.
-:::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="Diagrama que muestra los aspectos básicos, incluidas las directivas, las cuentas y los dispositivos de Teams." lightbox="../media/retail-teams-fundamentals.png":::
+1. [Configurar los aspectos básicos](#set-up-the-fundamentals) Apoye sus recursos con los aspectos básicos: administrar cuentas y dispositivos y asegurarse de que se aplican las directivas de Teams adecuadas. :::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="Diagrama que muestra los aspectos básicos, incluidas las directivas, las cuentas y los dispositivos de Teams." lightbox="../media/retail-teams-fundamentals.png":::
 1. [Configurar equipos y aplicaciones](#set-up-teams-and-apps) : use plantillas de equipo para configurar rápidamente los equipos que necesita, incluidos los canales y las aplicaciones que necesita para su empresa. Agregue otras aplicaciones de Microsoft según sea necesario para admitir sus escenarios.
 :::image type="content" source="../media/retail-teams-apps.png" alt-text="Diagrama que muestra equipos, plantillas de equipo y aplicaciones que se pueden incluir." lightbox="../media/retail-teams-apps.png":::
 
@@ -42,7 +41,7 @@ Los entornos minoristas, con sus programaciones rotativas y el personal sobre la
 
 ## <a name="choose-your-scenarios"></a>Elegir los escenarios
 
-Microsoft 365 y Microsoft Teams ofrecen varias funcionalidades que pueden ayudar a las organizaciones minoristas con sus operaciones diarias y transformación digital. Se recomiendan los siguientes escenarios para organizaciones minoristas:
+Microsoft 365 y Microsoft Teams ofrecen varias funcionalidades que pueden ayudar a las organizaciones minoristas con sus operaciones diarias y transformación digital. Se recomiendan los siguientes escenarios para las organizaciones minoristas:
 
 [![Comunicación y colaboración en el almacén.](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![Comunicación y colaboración entre almacenes.](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![Accesorios y consultas virtuales.](../media/retail-scenarios-virtual-visits.png)](#virtual-fittings-and-consultations) [![Simplifique los procesos empresariales.](../media/retail-scenarios-business-processes.png)](#simplify-business-processes) [![Comunicaciones corporativas.](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![Incorporación de nuevos empleados.](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
 
@@ -168,7 +167,7 @@ En el caso de entornos comerciales, las siguientes aplicaciones y servicios pued
 | Más aplicaciones y servicios de Microsoft | Descripción | Manage | Ayuda |
 | ----- | ----- | ----- | ----- |
 | Bookings | Habilitar las consultas y los accesorios virtuales. | [Consultas virtuales con Microsoft Teams y la aplicación Bookings](bookings-virtual-visits.md) | [Usar Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
-| Power Apps y Power Platform | Integre procesos empresariales y habilite actualizaciones rápidas de datos, como inventario de almacén, números de ventas, informes de incidentes y mucho más. | [integración de Teams con Microsoft Power Platform](../teams-power-platfom-integration.md) y [Administrar aplicaciones de Microsoft Power Platform en el Centro de administración de Microsoft Teams](../manage-power-platform-apps.md) | -  |
+| Power Apps y Power Platform | Integre procesos empresariales y habilite actualizaciones rápidas de datos, como inventario de almacén, números de ventas, informes de incidentes y mucho más. | [integración de Teams con Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) y [Administrar aplicaciones de Microsoft Power Platform en el Centro de administración de Microsoft Teams](../manage-power-platform-apps.md) | -  |
 | SharePoint | Al crear un nuevo equipo, se crea un nuevo sitio de SharePoint y se conecta al equipo. Muchos de los escenarios anteriores se basan en características de SharePoint ya insertadas en Teams, como compartir documentos para la colaboración en equipo. | [Integración de Teams y SharePoint](/sharepoint/teams-connected-sites) | [Agregar una página, lista o biblioteca de documentos de SharePoint como una pestaña en Teams](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)|
 | Conexiones Viva | Conexiones Viva crea un centro en Teams en el que los asociados comerciales pueden ver una fuente de noticias personalizada de su organización y un panel personalizado con los recursos que necesitan. | [Información general sobre Conexiones Viva](/sharepoint/viva-connections-overview) | [Conexiones Viva en Microsoft Teams](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) |
 | Aprendizaje Viva | Proporcionar aprendizaje cuando sea necesario, directamente en el flujo de su trabajo. | [Administrar Aprendizaje Viva](/microsoft-365/learning/) | [Usar Aprendizaje Viva (vista previa)](https://support.microsoft.com/office/viva-learning-preview-01bfed12-c327-41e0-a68f-7fa527dcc98a) |
@@ -190,7 +189,7 @@ Además de las plantillas de equipo, también puede configurar otros sitios y se
 
 ## <a name="get-ready-to-roll-out-your-scenarios---identify-roles-and-responsibilities-for-scenarios"></a>Prepárese para implementar sus escenarios: identificación de roles y responsabilidades para escenarios
 
-Ahora que sabe qué escenarios quiere implementar y qué necesita para admitirlos, puede reunir a su equipo para que pueda planear, implementar y supervisar cómo funcionan en su organización. Por ejemplo, es posible que se necesiten los siguientes roles para realizar estos escenarios en su organización:
+Ahora que sabe qué escenarios quiere implementar y qué necesita para admitirlos, puede reunir a su equipo para que pueda planear, implementar y supervisar cómo funcionan en su organización. Por ejemplo, es posible que se necesiten los siguientes roles para implementar estos escenarios en su organización:
 
 | Imagen | Rol | Responsabilidades | Departamento |
 | ---- | ---- | ----- | ----- |

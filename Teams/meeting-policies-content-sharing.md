@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
-description: Aprenda a administrar la configuración de directiva de reunión en Teams para el uso compartido de contenido.
-ms.openlocfilehash: 6c713800aa0f95c7adfd6655455e6ff332f91595
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+description: Obtenga información sobre cómo administrar la configuración de directiva de reunión en Teams uso compartido de contenido.
+ms.openlocfilehash: dccf36a257cde5731c140f2000e3d0733d3366c3
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205320"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403991"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Configuración de la directiva de reunión. Uso compartido de contenido
 
@@ -35,7 +35,7 @@ En este artículo se describen las siguientes opciones de directiva de reunión 
 - [Modo de uso compartido de pantalla](#screen-sharing-mode)
 - [Permitir a un participante ceder o solicitar el control](#allow-a-participant-to-give-or-request-control)
 - [Permitir a un participante externo ceder o solicitar el control](#allow-an-external-participant-to-give-or-request-control)
-- [PowerPoint compartido](#powerpoint-sharing)
+- [PowerPoint Live](#powerpoint-live)
 - [Whiteboard](#whiteboard)
 - [Notas compartidas](#shared-notes)
 
@@ -99,13 +99,13 @@ Que los usuarios federados puedan ceder el control a los usuarios externos mient
 
 Si desea usar PowerShell para controlar si los participantes externos pueden ceder el control o aceptar solicitudes de control, use el cmdlet AllowExternalParticipantGiveRequestControl.
 
-### <a name="powerpoint-sharing"></a>PowerPoint compartido
+### <a name="powerpoint-live"></a>PowerPoint Live
 
 Esta es una directiva por usuario. Esta configuración controla si el usuario puede compartir diapositivas de PowerPoint en una reunión. Los usuarios externos, incluidos los usuarios anónimos, invitados y federados, heredan la directiva del organizador de la reunión.
 
 Veamos el ejemplo siguiente.
 
-|Usuario |Directiva de reuniones  |PowerPoint compartido |
+|Usuario |Directiva de reuniones  |PowerPoint Live |
 |---------|---------|---------|
 |Daniela   | Global   | Activado       |
 |Amanda   | Location1MeetingPolicy        | Desactivado   |

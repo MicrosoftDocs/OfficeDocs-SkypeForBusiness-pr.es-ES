@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Obtenga información sobre los registros de depuración, medios y escritorio producidos por Microsoft Teams, dónde se pueden encontrar y cómo pueden ayudarle con la supervisión y solución de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a665be7f2b647c3133b3dcd0617779b1e4165e
-ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.openlocfilehash: 3cb6718c88f3b084f8a38f039a7e707e65c344d7
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63047130"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774089"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Use archivos de registro para supervisar y solucionar problemas Microsoft Teams
 
@@ -107,6 +107,9 @@ Para recopilar registros del Explorador y Windows:
 Vea la _sección Recopilar y habilitar el registro_ para obtener Windows y Mac. Los registros multimedia contienen datos de diagnóstico sobre audio, vídeo y uso compartido de pantalla en Teams reuniones. Son necesarios para los casos de soporte técnico vinculados a problemas relacionados con llamadas.
 
 El registro multimedia está desactivado de forma predeterminada. Para registrar datos de diagnóstico Teams reuniones, los usuarios deben activar la opción en el Teams cliente. Vaya **a Configuración** >  **General**, active la casilla Habilitar registro para **diagnósticos** de reuniones (requiere reiniciar Teams), reinicie Teams y reproduzca el problema. 
+
+> [!NOTE]
+> Al cerrar sesión en Teams, el registro multimedia se restablece a su valor predeterminado. 
 
 Cuando envíe los archivos de registro al soporte técnico de Microsoft, compruebe la marca de tiempo de los archivos de registro para asegurarse de que los registros cubren el período de tiempo cuando reproduzca el problema.
 

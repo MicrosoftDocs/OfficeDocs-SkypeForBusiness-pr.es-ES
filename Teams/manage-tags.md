@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo se usan las etiquetas en su organización en Microsoft Teams.
-ms.openlocfilehash: 2e099c611cbbfd22cc2cc32c189edc8243ea362d
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: af9855f1ca771cb9f5d4739194e26cba746859ff
+ms.sourcegitcommit: caaed4b48b8f2b05d035c1bdea00a61301bc9f05
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711584"
+ms.locfileid: "63740207"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Administrar etiquetas en Microsoft Teams
 
@@ -35,7 +35,7 @@ Como se mencionó anteriormente, hay dos tipos de etiquetas en Teams.
 - **Etiquetado por** turnos: con esta característica, se asignan automáticamente etiquetas que coinciden con su nombre de grupo de programación y [turnos](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) en la aplicación Turnos de Teams. Por ejemplo, la etiqueta "EngineerOnCall" llega a todos los ingenieros que están programados en Turnos para trabajar en el momento en que se usa la etiqueta en una publicación de chat o canal. Con el etiquetado por turnos, Teams las conjeturas de conocer el nombre del personal en turnos cuando los usuarios necesitan retransmitir información rápidamente. El etiquetado por turnos también puede estar a favor de los principales sistemas de administración de la fuerza laboral como JDA, Kronos y AMiON integrándolos con Turnos en Teams. Para obtener más información sobre cómo configurar esta característica, vea Configurar [el etiquetado por turnos](#set-up-tagging-by-shift).
 
 > [!NOTE]
-> Las etiquetas no son compatibles con canales privados o compartidos. Las etiquetas no están disponibles en organizaciones del Departamento de Defensa (DoD). 
+> Las etiquetas no son compatibles con canales privados o compartidos.  
 
 ## <a name="how-tags-work"></a>Cómo funcionan las etiquetas
 

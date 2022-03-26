@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo administrar sus Teams aplicaciones
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 96acf3151c2b805fead94979010669520b7a000f
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: f8130d8f6d9d8609ce37d5f43f18dd083a5106e0
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442296"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774079"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Administrar las aplicaciones en el centro Microsoft Teams administración
 
@@ -150,14 +150,16 @@ Los permisos de consentimiento específico de recursos (RSC) permiten a los prop
 
 ## <a name="manage-org-wide-app-settings"></a>Administrar la configuración de la aplicación para toda la organización
 
-Use la configuración de aplicaciones de toda la organización para controlar si los usuarios obtienen una experiencia de aplicación personalizada en función de la licencia (próximamente), si los usuarios pueden instalar aplicaciones de terceros y si los usuarios pueden cargar o interactuar con aplicaciones personalizadas en su organización. La configuración de aplicaciones para toda la organización rige el comportamiento de todos los usuarios e invalida cualquier otra directiva de permisos de aplicación asignada a los usuarios. Puede usarla para controlar las aplicaciones malintencionadas o problemáticas.
+Use la configuración de aplicaciones de toda la organización para controlar si los usuarios con una licencia [F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) obtienen la experiencia personalizada de aplicaciones en primera línea (próximamente), si los usuarios pueden instalar aplicaciones de terceros y si los usuarios pueden cargar o interactuar con aplicaciones personalizadas en su organización. La configuración de aplicaciones para toda la organización rige el comportamiento de todos los usuarios e invalida cualquier otra directiva de permisos de aplicación asignada a los usuarios. Puede usarla para controlar las aplicaciones malintencionadas o problemáticas.
 
 > [!NOTE]
 > Para obtener información sobre cómo usar la configuración de aplicaciones para toda la organización en Microsoft 365 Government - Government Community Cloud High GCCH and Department of Defense (DoD) deployments of Teams, vea Administrar directivas de permisos de aplicaciones [en Teams](teams-app-permission-policies.md).
 
-1. En la página Administrar aplicaciones, seleccione **Configuración de la aplicación para toda la organización**. Después, podrá configurar las opciones que desee en el panel.
+1. En la página Administrar aplicaciones, seleccione **Configuración de la aplicación para toda la organización**. A continuación, puede configurar la configuración que desee en el panel.
 
-1. (Próximamente) En **Aplicaciones personalizadas**, desactive o active **Mostrar aplicaciones personalizadas basadas en licencias**. Cuando esta configuración está en, los usuarios obtienen una experiencia en la que las aplicaciones se anclan en función de su licencia. Para obtener más información, vea [Personalizar Teams aplicaciones basadas en licencia](pin-teams-apps-based-on-license.md).
+    :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="Captura de pantalla del panel de configuración de la aplicación para toda la organización en la página Administrar aplicaciones":::
+
+1. (Próximamente) En **Aplicaciones personalizadas**, desactive o active **Mostrar aplicaciones personalizadas**. Cuando esta configuración está en, los usuarios con una [licencia F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) obtienen la experiencia personalizada de la aplicación en primera línea. Esta experiencia ancla las aplicaciones más relevantes en Teams para los trabajadores de primera línea. Para obtener más información, vea [Personalizar Teams aplicaciones para sus trabajadores de primera línea](pin-teams-apps-based-on-license.md).
 
     Esta característica está disponible para licencias F. Otros tipos de licencia serán compatibles en el futuro.
 1. En **Aplicaciones de terceros**, desactive o active esta configuración para controlar el acceso a aplicaciones de terceros:

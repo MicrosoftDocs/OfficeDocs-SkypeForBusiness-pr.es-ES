@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo habilitar a los usuarios Microsoft Teams Teléfono enrutamiento directo.
-ms.openlocfilehash: be2f0e0f33bd236591c8c8a2d9cf415972e018d6
-ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
+ms.openlocfilehash: e82865abcc7bb37835009fb9ab7f93e11c423d66
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62926303"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774099"
 ---
 # <a name="enable-users-for-direct-routing"></a>Habilitar usuarios para enrutamiento directo
 
@@ -46,8 +46,8 @@ Cuando esté listo para habilitar usuarios para enrutamiento directo, siga estos
 
 Hay dos opciones para crear un nuevo usuario en Microsoft 365. Sin embargo, Microsoft recomienda que su organización elija una opción para evitar problemas de enrutamiento: 
 
-- Cree el usuario en Active Directory local y sincronice el usuario con la nube. Consulte [Integrar los directorios locales con Azure Active Directory](/azure/active-directory/connect/active-directory-aadconnect).
-- Cree el usuario directamente en el Centro de administración de Microsoft 365. Consulte [Agregar usuarios individualmente o en masa a Microsoft 365 o Office 365: Ayuda para administradores](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
+- Cree el usuario en Active Directory local y sincronice el usuario con la nube. Vea [Integrar los directorios locales con Azure Active Directory](/azure/active-directory/connect/active-directory-aadconnect).
+- Cree el usuario directamente en el Centro de administración de Microsoft 365. Vea [Agregar usuarios individualmente o en masa a Microsoft 365 o Office 365- Ayuda para administradores](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
 Si su implementación de Skype Empresarial Online coexiste con Skype Empresarial 2015 o Lync 2010 o 2013 local, la única opción compatible es crear el usuario en el Active Directory local y sincronizar el usuario con la nube (opción 1). 
 
@@ -64,9 +64,9 @@ Enrutamiento directo requiere que el usuario esté conectado. Para comprobarlo, 
 2. Publique el comando: 
 
     ```PowerShell
-    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUri,LineUri
     ``` 
-    Si OnPremLineUriManuallySet se establece en False y LineUri se rellena con un número de teléfono de <E.164>, el número de teléfono se asignó localmente y se sincronizó a Microsoft 365. Si desea administrar el número de teléfono en línea, limpie el parámetro con el Shell de administración local de Skype Empresarial y sincronice con Microsoft 365 antes de configurar el número de teléfono con Teams PowerShell. 
+    Si OnPremLineUri se rellena con un número de teléfono <E.164>, el número de teléfono se asignó localmente y se sincronizó a Microsoft 365. Si desea administrar el número de teléfono en línea, limpie el parámetro con el Shell de administración local de Skype Empresarial y sincronice con Microsoft 365 antes de configurar el número de teléfono con Teams PowerShell. 
 
 1. Desde Skype Empresarial Shell de administración, ejecute el comando: 
 
@@ -85,13 +85,13 @@ Enrutamiento directo requiere que el usuario esté conectado. Para comprobarlo, 
    LineURI                              : 
    ```
  > [!NOTE]
- > Todos los atributos de teléfono del usuario deben administrarse en línea antes [de descomissionr su entorno Skype Empresarial local](/skypeforbusiness/hybrid/decommission-on-prem-overview). 
+ > Todos los atributos de teléfono del usuario deben administrarse en línea antes [de descomissionr su entorno local Skype Empresarial local](/skypeforbusiness/hybrid/decommission-on-prem-overview). 
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice"></a>Configurar el número de teléfono y habilitar la voz empresarial 
 
 Después de crear el usuario y asignar una licencia, debe configurar la configuración del teléfono en línea del usuario. Tenga en cuenta que la configuración de Correo de voz en la nube para el usuario es automática; no es necesario realizar ninguna configuración adicional.
 
-Puede configurar el número de teléfono mediante el centro de Teams de administración o mediante Teams PowerShell.
+Puede configurar el número de teléfono mediante el Teams de administración o mediante Teams PowerShell.
 
 ### <a name="use-teams-admin-center"></a>Usar Teams de administración
 
@@ -101,7 +101,7 @@ Puede configurar el número de teléfono mediante el centro de Teams de administ
 
 2. En **Información** **general de la cuenta**, seleccione **Editar**.
 
-3. En **Asignar número de teléfono**, en **el menú desplegable Teléfono** tipo de número, seleccione **Enrutamiento directo**.
+3. En **Asignar número de teléfono**, en **el Teléfono** desplegable tipo de número, seleccione **Enrutamiento directo**.
 
 4. Escriba un número de teléfono asignado y una extensión de número de teléfono si es posible.
 
@@ -116,7 +116,7 @@ La información general de la cuenta mostrará ahora el número de teléfono asi
 
 2. Los pasos siguientes dependen de si está administrando el número de teléfono del usuario local o en línea. Si está administrando el número de teléfono local, debe usar el Shell de administración local de Skype Empresarial, el Panel de control o uno de los métodos explicados en Decidir cómo administrar atributos después [de](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes) la descomisación.
 
-   - Si está administrando el número de teléfono del usuario local, debe asegurarse de que el usuario está Telefonía IP empresarial en línea mediante el comando siguiente:
+   - Si está administrando el número de teléfono del usuario local, debe asegurarse de que el usuario está Telefonía IP empresarial habilitado en línea mediante el comando siguiente:
 
        ```PowerShell
        Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
@@ -149,11 +149,11 @@ La información general de la cuenta mostrará ahora el número de teléfono asi
 
 ## <a name="configure-sending-calls-directly-to-voicemail"></a>Configurar el envío de llamadas directamente al correo de voz
 
-Enrutamiento directo le permite finalizar la llamada a un usuario y enviarla directamente al correo de voz del usuario. Si desea enviar la llamada directamente al correo de voz, adjunte opaque=app:voicemail al encabezado Solicitar URI. Por ejemplo, "sip:user@yourdomain.com;opaque=app:voicemail". El Teams usuario no recibirá la notificación de llamada, la llamada se conectará directamente al correo de voz del usuario.
+Enrutamiento directo le permite finalizar la llamada a un usuario y enviarla directamente al correo de voz del usuario. Si desea enviar la llamada directamente al correo de voz, adjunte opaque=app:voicemail al encabezado Solicitar URI. Por ejemplo, "sip:user@yourdomain.com;opaque=app:voicemail". El Teams no recibirá la notificación de llamada, la llamada se conectará directamente al correo de voz del usuario.
 
-## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Asignar Teams solo a los usuarios para asegurarse de que las llamadas se Microsoft Teams
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Asignar Teams solo a los usuarios para asegurarse de que las llamadas se aterrice en Microsoft Teams
 
-Enrutamiento directo requiere que los usuarios se Teams modo solo para asegurarse de que las llamadas entrantes se aterrice en el Teams cliente. Para poner a los usuarios en Teams solo, asígneles la instancia "UpgradeToTeams" de TeamsUpgradePolicy. Para obtener más información, vea [Estrategias de actualización para administradores de TI](upgrade-to-teams-on-prem-implement.md). Si su organización usa Skype Empresarial Server, consulte el siguiente artículo para obtener información sobre la interoperabilidad entre Skype y Teams: Migración e interoperabilidad [con Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md).
+Enrutamiento directo requiere que los usuarios se Teams modo solo para asegurarse de que las llamadas entrantes se aterrice en Teams cliente. Para poner a los usuarios en Teams solo, asígneles la instancia "UpgradeToTeams" de TeamsUpgradePolicy. Para obtener más información, vea [Estrategias de actualización para administradores de TI](upgrade-to-teams-on-prem-implement.md). Si su organización usa Skype Empresarial Server, consulte el siguiente artículo para obtener información sobre la interoperabilidad entre Skype y Teams: Migración e interoperabilidad [con Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md).
 
 ## <a name="see-also"></a>Vea también
 
