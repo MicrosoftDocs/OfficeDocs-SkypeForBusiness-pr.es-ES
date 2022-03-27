@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ff97fae1fb2483dcddf301715018b6a94f908a7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: d0f2364471b3800042e7536d1013b82d76209a02
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711444"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457073"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -487,6 +487,10 @@ if($cleanup){
 - Teams debe implementarse por usuario o por equipo. No se admite la Teams por usuario y por equipo. Para migrar de una máquina o de un usuario a uno de estos modos, siga el procedimiento de desinstalación y vuelva a implementarlo en ambos modos.
 - Azure Virtual Desktop no es compatible con macOS y clientes basados en Linux en este momento.
 - El cambio rápido de inquilino puede provocar problemas relacionados con las llamadas en VDI, como el uso compartido de pantalla no disponible. Reiniciar el cliente mitigará estos problemas.
+
+### <a name="notifications"></a>Notificaciones
+
+- La notificación y la presencia del recuento de mensajes en Windows la barra de tareas no se admiten en un host Windows Server 2016 correo electrónico.
 
 ### <a name="calling-and-meetings"></a>Llamadas y reuniones
 

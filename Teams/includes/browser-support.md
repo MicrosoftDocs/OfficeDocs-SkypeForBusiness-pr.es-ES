@@ -3,7 +3,7 @@ Teams es totalmente compatible con los siguientes exploradores de internet (con 
 
 |Explorador  |Llamadas: audio, vídeo y uso compartido  |Reuniones: audio, vídeo y uso compartido<sup>1</sup> <sup>2</sup> <sup>3</sup>  |
 |---------|---------|---------|
-|Internet Explorer 11     |No compatible         |Solo es compatible con reuniones si estas incluyen coordenadas RTC. Para asistir a una reunión en IE11 sin coordenadas RTC, los usuarios deben descargar el cliente de escritorio de Teams.<br><br>Vídeo: no compatible<br><br>Uso compartido: solo uso compartido de entrada (no de salida)  <br><br> Las aplicaciones y los servicios de Microsoft 365 dejarán de ser compatibles con Internet Explorer 11 a partir del 17 de agosto de 2021 (Microsoft Teams no será compatible con Internet Explorer 11 o versiones anteriores, a partir del 30 de noviembre de 2020). [Más información](https://www.microsoft.com/edge/business). Tenga en cuenta que Internet Explorer 11 seguirá siendo un navegador compatible. Internet Explorer 11 es un componente del sistema operativo Windows y [sigue la Directiva de ciclos de vida](/lifecycle/faq/internet-explorer-microsoft-edge) del producto en el que está instalado.    |
+|Internet Explorer 11     |No compatible         |Solo es compatible con reuniones si estas incluyen coordenadas RTC. Para asistir a una reunión en IE11 sin coordenadas RTC, los usuarios deben descargar el cliente de escritorio de Teams.<br><br>Vídeo: no compatible<br><br>Uso compartido: solo uso compartido de entrada (no de salida)  <br><br> Las aplicaciones y los servicios de Microsoft 365 dejarán de ser compatibles con Internet Explorer 11 a partir del 17 de agosto de 2021 (Microsoft Teams no será compatible con Internet Explorer 11 o versiones anteriores, a partir del 30 de noviembre de 2020). [Más información](https://www.microsoft.com/edge/business). Tenga en cuenta que Internet Explorer 11 seguirá siendo un navegador compatible. Internet Explorer 11 es un componente del sistema operativo Windows y [sigue la Directiva de ciclos de vida](/lifecycle/faq/internet-explorer-microsoft-edge) del producto en el que está instalado.    |
 |Microsoft Edge, RS2 o posteriores     |Totalmente compatible, pero sin uso compartido de salida<sup>4</sup>         |Totalmente compatible, pero sin uso compartido de salida         |
 |Microsoft Edge (basado en Chromium), la versión más reciente y las dos versiones anteriores     | Completamente compatible    |Completamente compatible         |
 |La última versión de Google Chrome y las dos versiones anteriores       |Completamente compatible |Completamente compatible <br> <br>Compatible con uso compartido sin complementos ni extensiones a partir de la versión 72 de Chrome.       |
@@ -16,7 +16,7 @@ Teams es totalmente compatible con los siguientes exploradores de internet (con 
 
 <sup>2</sup> Si ejecuta Teams en un explorador, la opción de difuminar el fondo no está disponible. Esta característica solo está disponible en la versión de escritorio de Teams.
 
-<sup>3</sup> Las reuniones de Teams en navegadores están limitadas a una única fuente de vídeo entrante de orador activo.
+<sup>3</sup> Las reuniones de Teams en exploradores están limitadas a una sola transmisión; ya sea la fuente de vídeo entrante del altavoz actual o la pantalla compartida.
 
 <sup>4</sup> Microsoft Edge RS2 o posterior no admite el envío de tráfico de audio y vídeo en tiempo real mediante proxy HTTP.
 

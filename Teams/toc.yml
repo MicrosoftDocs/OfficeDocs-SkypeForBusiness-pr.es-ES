@@ -1405,6 +1405,8 @@ items:
             href: rooms/standards-and-room-planner.md
       - name: Dispositivos
         items:
+          - name: Tienda de dispositivos de Teams
+            href: devices/device-store.md
           - name: Implementar
             items:
               - name: Mostrar Teams y teléfonos de la implementación con Intune
@@ -1473,7 +1475,7 @@ items:
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Planear la implementación de teléfonos y pantallas
             href: devices/plan-device-deployment.md
-  - name: 'Administrar aplicaciones, bots y conectores de Teams'
+  - name: Administrar aplicaciones
     items:
       - name: Información general
         href: deploy-apps-microsoft-teams-landing-page.md
@@ -1501,8 +1503,6 @@ items:
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
       - name: Controlar aplicaciones de línea de negocio personalizadas
         items:
-          - name: Integración con Power Platform
-            href: teams-power-platfom-integration.md
           - name: Administrar aplicaciones de Power Platform en el Centro de administración de Microsoft Teams
             href: manage-power-platform-apps.md
           - name: Publicar aplicaciones personalizadas en la tienda de la organización

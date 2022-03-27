@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 9716fe3ba9a2162a3c6c85cfa61ef5541f34fb38
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0f4001fc2a646b83f005d9cc48948fbbb314f042
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711724"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480672"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar las directivas de mensajería en Teams
 
@@ -34,6 +34,9 @@ ms.locfileid: "63711724"
 Las directivas de mensajería se usan para controlar qué características de mensajería de chat y canal están disponibles para los usuarios [(propietarios y miembros)](assign-roles-permissions.md) en Microsoft Teams. Puede usar la directiva global (predeterminada para toda la organización) que se crea automáticamente o crear y asignar directivas de mensajería personalizadas.
 
 Los usuarios de su organización recibirán automáticamente la directiva global, a menos que cree y asigne una directiva personalizada. Edite la configuración de la directiva global o cree y asigne una o varias directivas personalizadas para activar o desactivar las características que desee.
+
+> [!NOTE]
+> Para garantizar la sincronización después de un cambio de directiva, es posible que sea necesario reiniciar determinados casos. 
 
 ## <a name="create-a-custom-messaging-policy"></a>Crear una directiva de mensajería personalizada
 
@@ -106,7 +109,8 @@ Estas son las opciones de configuración de directiva de mensajería que puede c
 - **Quitar usuarios de chats grupales** Active esta configuración para permitir que un usuario quite otros usuarios de un chat grupal. Esta característica te permite continuar un chat con un grupo más pequeño de personas sin perder el historial de chats.
 - **Predicciones de texto** Active esta configuración para permitir que un usuario obtenga predicciones de texto para los mensajes de chat.
 - **Respuestas sugeridas**  Active esta configuración para habilitar las respuestas sugeridas para los mensajes de chat.
-- **Rol de permisos de chat** Use esta configuración para definir el rol de chat supervisado del usuario.  Obtenga más información acerca del [chat supervisado](supervise-chats-edu.md).
+- **Rol de permisos de chat** Use esta configuración para definir el rol de chat supervisado del usuario. Obtenga más información acerca del [chat supervisado](supervise-chats-edu.md).
+- **Los usuarios con permisos de chat completos pueden eliminar cualquier mensaje** Use esta configuración para permitir que los usuarios con permisos completos eliminen cualquier mensaje de chat de grupo o reunión.
 
 > [!NOTE]
 > Algunos de estos ajustes, como giphys, también se pueden configurar en el nivel de equipo por los propietarios del equipo y en el nivel de canal privado o compartido por los propietarios del canal.

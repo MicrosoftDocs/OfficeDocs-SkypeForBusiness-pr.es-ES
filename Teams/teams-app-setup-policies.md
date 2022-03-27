@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442346"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774019"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -35,6 +35,9 @@ Como administrador, puede usar directivas de configuración de aplicaciones para
 - **Upload aplicaciones personalizadas: las** directivas de configuración de aplicaciones le permiten a los usuarios cargar aplicaciones personalizadas Teams. Para obtener más información, [vea Upload aplicaciones personalizadas](#upload-custom-apps).
 
 ## <a name="pin-apps"></a>Anclar aplicaciones
+
+> [!NOTE]
+> Para los trabajadores de primera línea de su organización, se recomienda usar la experiencia personalizada de la aplicación en primera línea. Esta característica ancla las aplicaciones más relevantes de Teams para los usuarios que tienen una [licencia F](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt). Para obtener más información, vea [Personalizar Teams aplicaciones para sus trabajadores de primera línea](pin-teams-apps-based-on-license.md).
 
 Las aplicaciones ancladas le permiten mostrar las aplicaciones que necesitan los usuarios de su organización, incluidas las aplicaciones creadas por terceros o por desarrolladores de su organización.
 

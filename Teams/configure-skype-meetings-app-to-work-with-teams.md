@@ -16,28 +16,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe74237f1f1cfd93d92e0de01a01d3b576a82ec2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 90e14b79c53bf37772c7c5b4c655c293b91d5c2a
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727629"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480652"
 ---
 # <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar la aplicación de Reuniones de Skype para trabajar con Teams
 
-Después de actualizar un usuario Microsoft Teams, los administradores pueden usar el Centro de administración de Microsoft Teams para especificar la aplicación preferida que usarán los usuarios para unirse Skype Empresarial reuniones.
+Después de actualizar un usuario a Microsoft Teams, los administradores pueden usar el Centro de administración de Microsoft Teams para especificar la aplicación preferida que usarán los usuarios para unirse Skype Empresarial reuniones.
 
 Para especificar la aplicación Skype reuniones como la aplicación preferida:
 
 1. Inicie sesión en el centro de administración de Microsoft Teams.
-2. En el panel izquierdo, en **Configuración de toda** la organización, seleccione Teams **actualizar**.
-3. En la página Teams actualización, en **Preferencias** de la **aplicación,** seleccione **Skype De reuniones** de la aplicación Preferida para que los usuarios se unan Skype Empresarial la lista desplegable reuniones.
+2. En el panel izquierdo, en **Teams**, seleccione **Teams configuración de actualización**.
+3. En la página Teams actualización, en **Preferencias** de la **aplicación, seleccione** **Skype Meetings App** en la aplicación Preferida para que los usuarios se unan Skype Empresarial la lista desplegable reuniones.
 
     ![Elija Aplicación preferida para que los usuarios se unan Skype Empresarial reuniones.](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 
 ## <a name="known-limitations"></a>Limitaciones conocidas
 
-Los usuarios que usan la aplicación Skype reuniones con Teams están sujetos a las siguientes limitaciones:
+Los usuarios que usan la Skype reuniones con Teams están sujetos a las siguientes limitaciones:
 
 - Los usuarios no tienen ninguna opción para cambiar su dispositivo de vídeo.
 - Después de actualizar un usuario a Teams, si el usuario se encuentra en una reunión con la aplicación reuniones de Skype y, a continuación, recibe una llamada en Teams, la reunión en la aplicación reuniones de Skype no se coloca en espera. En su lugar, el usuario está conectado a ambas llamadas.
