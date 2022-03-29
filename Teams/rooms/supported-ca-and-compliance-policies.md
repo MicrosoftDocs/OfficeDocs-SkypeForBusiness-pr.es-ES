@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre las directivas de cumplimiento de dispositivos de Intune y acceso condicional admitidas y recomendadas para Salas de Microsoft Teams.
-ms.openlocfilehash: f3b115430779324a260232ce45ba125859abdde8
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: ea27f71a7d4f64bc1d9e8c8a3cd3d7b2a52151f3
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63689184"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504200"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms"></a>Directivas de cumplimiento de dispositivos de Intune y acceso condicional compatibles Salas de Microsoft Teams
 
@@ -28,7 +28,7 @@ En este artículo se proporcionan directivas de cumplimiento de dispositivos de 
 
 ## <a name="supported-conditional-access-policies"></a>Directivas de acceso condicional compatibles  
 
-En la lista siguiente se incluyen las directivas de acceso condicional compatibles para Salas de Teams en Windows y en Android:
+En la lista siguiente se incluyen las directivas de acceso condicional compatibles Salas de Teams en Windows y en Android. Las directivas de Android compatibles se aplican a todos los dispositivos, teléfonos y paneles Android.
 
 | Asignación | Windows | Android |
 |------------|---------|---------|

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.openlocfilehash: 1ed41c595a386607942c81dda8f151435a1d1ac7
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63774019"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504150"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -61,28 +61,30 @@ Las aplicaciones están ancladas a:
 
 Para crear una directiva de configuración de aplicaciones para anclar aplicaciones, siga estos pasos:
 
-1. En el panel de navegación izquierdo del [Teams de administración](https://www.admin.teams.microsoft.com), vaya a **Teams de aplicacionessetup** > .
+1. Inicie sesión en [Microsoft Teams de administración](https://admin.teams.microsoft.com).
 
-2. Seleccione **Agregar**.
+1. En el panel izquierdo, vaya a Teams **de aplicacionesSetup** > .
 
-3. Escriba un nombre y una descripción para la directiva.
+1. Seleccione **Agregar**.
 
-4. Activar la **anclación de usuario**.
+1. Escriba un nombre y una descripción para la directiva.
+
+1. Activar la **anclación de usuario**.
 
    > [!NOTE]
    > La **configuración** de anclación de usuario está disponible en el Centro de administración de Teams en entornos de Microsoft 365 Government Community Cloud (GCC) (GCC, GCC High y DoD), pero actualmente no tiene ningún efecto.
 
-5. En **Aplicaciones ancladas**, seleccione **Agregar aplicaciones**.
+1. En **Aplicaciones ancladas**, seleccione **Agregar aplicaciones**.
 
-6. En el **panel Agregar aplicaciones** ancladas, busque las aplicaciones que desea agregar y, a continuación, **seleccione Agregar**. También puede filtrar aplicaciones por directiva de permisos de aplicación.
+1. En el **panel Agregar aplicaciones** ancladas, busque las aplicaciones que desea agregar y, a continuación, **seleccione Agregar**. También puede filtrar aplicaciones por directiva de permisos de aplicación.
 
-7. Seleccione **Agregar**.
+1. Seleccione **Agregar**.
 
-8. En la **barra de aplicaciones** o **extensiones de** mensajería, organice las aplicaciones en el orden en que desee que aparezcan en Teams.
+1. En la **barra de aplicaciones** o **extensiones de** mensajería, organice las aplicaciones en el orden en que desee que aparezcan en Teams.
 
    ![la sección Aplicaciones ancladas.](media/pin-messaging-extensions.png)
 
-9. Seleccione **Guardar**.
+1. Seleccione **Guardar**.
 
 ## <a name="install-apps"></a>Instalar aplicaciones
 

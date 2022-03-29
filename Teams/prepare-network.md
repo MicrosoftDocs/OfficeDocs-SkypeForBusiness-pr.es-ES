@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f9e11a089c75f1060e509dc9895e97176fc30345
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 748380aec60c578ff6c2b7687cd51a8a07a8024c
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456350"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457063"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams 
 
@@ -91,7 +91,7 @@ Para obtener una explicación más detallada sobre la optimización de redes, co
 </tr>
 <tr class="even">
 <td>Asesor para Teams</td>
-<td>El <a href="/microsoftteams/use-advisor-teams-roll-out">Asesor de Teams</a> forma parte del <a href="https://admin.teams.microsoft.com">Centro de administración de Teams</a>. Evalúa el entorno de Microsoft 365 u Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente Teams.</td>
+<td>El <a href="/microsoftteams/use-advisor-teams-roll-out">Asesor de Teams</a> forma parte del <a href="https://admin.teams.microsoft.com">Centro de administración de Teams</a>. Evalúa el entorno de Microsoft 365 u Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente Teams.</td>
 </tr>
 <tr class="odd">
 <td>Resolución de nombres externos</td>
@@ -153,7 +153,7 @@ Esta tabla describe cómo Teams usa el ancho de banda. Teams siempre hace un uso
       **Modalidad**
    :::column-end:::
    :::column span="3":::
-      **Requisitos de ancho de banda (velocidad de bits KB/s subida/bajada)**
+      **Requisitos de ancho de banda (velocidad de bits KB/s subida/bajada)**    
    :::column-end:::
 :::row-end:::
 :::row:::

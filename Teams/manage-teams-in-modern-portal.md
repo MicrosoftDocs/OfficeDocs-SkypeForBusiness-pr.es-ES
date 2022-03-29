@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b84957e7451b75b804d2c279e160a260dabfbea8
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: d00cc5cd41d0b48f55564894a78f066406288151
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579540"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456953"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Administrar equipos en el Centro de administración de Microsoft Teams
 
@@ -39,11 +39,12 @@ Como administrador, es posible que tenga que ver o actualizar los equipos que la
 
 Puede obtener más información acerca de los roles de administrador en Teams en [Usar los roles de administrador de Microsoft Teams para administrar equipos](using-admin-roles.md) y puede ver más sobre cómo usar los cmdlets de PowerShell para administrar equipos en la [referencia de cmdlets de Microsoft Teams](/powershell/teams/).
 
-
+> [!NOTE]
+> Los administradores de Skype Empresarial Online pueden administrar tanto las directivas de las aplicaciones de **Teams** y **Skype Empresarial Online** a través de PowerShell.
 
 ## <a name="teams-overview-grid"></a>Información general de equipos
 
-Las herramientas de administración para equipos se encuentran en el nodo **Equipos** en el centro de administración de Microsoft Teams. (En el Centro de administración, seleccione **Equipos** > **Administrar equipos**). Cada equipo se basa en un grupo de Microsoft 365 y este nodo ofrece una vista de los grupos que se han habilitado para Microsoft Teams en la organización.
+Las herramientas de administración para equipos se encuentran en el nodo **Equipos** en el centro de administración de Microsoft Teams. (En el Centro de administración, seleccione **Equipos** > **Administrar equipos**). Cada equipo se basa en un grupo de Microsoft 365 y este nodo ofrece una vista de los grupos que se han habilitado para Microsoft Teams en la organización.
 
 ![Captura de pantalla de la cuadrícula de información general de Teams.](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -76,7 +77,7 @@ Para editar configuraciones específicas de grupo y de equipo, seleccione el equ
 
 ### <a name="archive"></a>Archivar
 
-Puede archivar un equipo. El archivado de un equipo convierte el equipo en modo de solo lectura en Teams. Como administrador, puede archivar y desarchivar equipos en nombre de su organización en el centro de administración. 
+Puede archivar un equipo. El archivado de un equipo convierte el equipo en modo de solo lectura en Teams. Como administrador, puede archivar y desarchivar equipos en nombre de su organización en el Centro de administración. 
 
 ### <a name="delete"></a>Eliminar
 
