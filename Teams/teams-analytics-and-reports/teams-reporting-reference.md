@@ -18,12 +18,12 @@ description: En este artículo, aprenderá acerca de los Teams que están dispon
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8e52cfeb36ddc734a5cef420261308e9b8867d56
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: b773b2d214bd105b8ca94850c0ddbc6e8c23757a
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929145"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556361"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análisis e informes de Microsoft Teams
 
@@ -31,12 +31,12 @@ Una nueva experiencia de análisis e informes para Microsoft Teams está disponi
 
 ## <a name="how-to-access-the-reports"></a>Cómo obtener acceso a los informes
 
-Para obtener acceso a los informes, debe ser administrador global en Microsoft 365 o Office 365, lector global en Microsoft 365 o Office 365, Teams administrador del servicio o Skype Empresarial administrador. Para obtener más información sobre Teams de administrador y a qué informes puede tener acceso cada rol de administrador, vea Usar Teams de administrador para [administrar Teams](../using-admin-roles.md).
+Para obtener acceso a los informes, debe ser administrador global en Microsoft 365 o Office 365, lector global en Microsoft 365 o Office 365, administrador Teams servicio o Skype Empresarial administrador. Para obtener más información sobre Teams de administrador y a qué informes puede acceder cada rol de administrador, vea Usar Teams de administrador para [administrar Teams](../using-admin-roles.md).
 
 Vaya al centro Microsoft Teams administración, en el panel de navegación izquierdo, seleccione **Análisis & informes** y, a continuación **, en** Ver informes, elija el informe que desea ejecutar.
 
 > [!NOTE]
-> Los informes del centro Microsoft Teams administración son independientes de los informes de actividades para Teams que forman parte de los informes Microsoft 365 en el Centro de administración de Microsoft 365. Para obtener más información sobre los informes de actividad en el Centro de administración de Microsoft 365, vea Teams [de actividad en el Centro de administración de Microsoft 365](../teams-activity-reports.md)
+> Los informes del centro Microsoft Teams administración son independientes de los informes de actividades de Teams que forman parte de los informes Microsoft 365 en el Centro de administración de Microsoft 365. Para obtener más información sobre los informes de actividades en el Centro de administración de Microsoft 365, vea Teams [de actividad en el Centro de administración de Microsoft 365](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Teams referencia de informes
 
@@ -55,18 +55,19 @@ Estamos mejorando continuamente la experiencia Teams informes y agregando caract
 |[Teams de uso de RTC: planes de llamadas](pstn-usage-report.md#calling-plans)|  Marca de tiempo<br>Nombre de usuario<br>Teléfono número<br>Tipo de llamada <br>Llamado a<br>Para país o región <br>Llamado desde <br>De país o región<br>Cargo<br>Moneda<br>Duración<br>Nacional/Internacional<br>Id. de llamada<br>Tipo de número<br>País o región<br>Id. de conferencia<br>Funcionalidad (licencia)|
 |[Teams de uso de RTC: enrutamiento directo](pstn-usage-report.md#direct-routing)  |  Marca de tiempo<br>Nombre para mostrar<br>Dirección SIP<br>Teléfono número <br>Tipo de llamada<br>Llamado a<br>Hora de inicio<br>Hora de invitación<br>Tiempo de error<br>Hora de finalización<br>Duración<br>Tipo de número<br>Omisión de medios<br>SBC FQDN<br>Región de Azure<br>Tipo de evento<br>Código SIP final<br>Subcódigo final de Microsoft<br>Frase sip final<br>Id. de correlación  |
 |[Teams de licencia de protección de información](information-protection-license-report.md)  | <br>Si los usuarios tienen licencias válidas para insertar sus mensajes a través de notificaciones de cambio</br><br>Número total de eventos de notificación de cambio desencadenados por un usuario<br><br>Qué aplicaciones escuchan los eventos de notificación de cambio en toda la organización<br>|
-|[Teams de uso de visitas virtuales](virtual-visits-usage-report.md)  | Número de visitas virtuales<br>Número de visitas de Bookings<br>Número de Teams registros de estado electrónicos (EHR) integrados<br>Duración media de una visita<br>Promedio de tiempo de espera en la sala de espera de los asistentes<br>Hora de inicio<br>Id. de reunión<br>Tiempo de espera en la sala de espera<br>Duración<br>Estado<br>Tipo de producto<br>Asistentes<br>SMS enviado
+|[Teams de uso de visitas virtuales](virtual-visits-usage-report.md)  | Número de visitas virtuales<br>Número de Bookings visitas<br>Número de Teams registros de estado electrónicos (EHR) integrados<br>Duración media de una visita<br>Promedio de tiempo de espera en la sala de espera de los asistentes<br>Hora de inicio<br>Id. de reunión<br>Tiempo de espera en la sala de espera<br>Duración<br>Estado<br>Tipo de producto<br>Asistentes<br>SMS enviado
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Convertir en anónimos los datos específicos del usuario
 
-Para que los datos de Teams de usuario y Teams informe de uso de dispositivos sean anónimos, debe ser administrador global. Esto ocultará información identificable, como el nombre para mostrar, el correo electrónico y el AAD en los informes y sus exportaciones.
+Para que los datos de Teams de usuario y Teams de uso de dispositivos sean anónimos, debe ser administrador global. Esto ocultará información identificable, como el nombre para mostrar, el correo electrónico y el Microsoft Azure Active Directory en los informes y sus exportaciones.
 
-1. En Centro de administración de Microsoft 365, vaya a la  \> Configuración **de Configuración** y, en la **pestaña Servicios,** elija **Informes**.
+1. En Centro de administración de Microsoft 365, vaya  \> a la Configuración **organización Configuración** y, en la **pestaña Servicios,** elija **Informes**.
     
-2. Seleccione **Informes** y, a continuación, **elija Mostrar identificadores anónimos**. Esta configuración se aplica tanto a los informes de uso de Centro de administración de Microsoft 365 como a Teams centro de administración.
+2. Seleccione **Informes** y, a continuación, elija Mostrar nombres de usuario, grupo y **sitio ocultos en todos los informes**. Esta configuración se aplica tanto a los informes de uso de Centro de administración de Microsoft 365 como a Teams centro de administración.
   
 3. Seleccione **Guardar cambios**.
 
 > [!NOTE]
-> Al habilitar esta configuración, se desa identificará la [información Teams informe](user-activity-report.md) de actividad del usuario [y Teams informes de uso de dispositivos](device-usage-report.md). No afectará a otros informes de uso disponibles en Teams de administración.
+> Al habilitar esta configuración, se desa identificará la [información Teams informe](user-activity-report.md) de actividad del usuario y Teams informes [de uso de dispositivos](device-usage-report.md). No afectará a otros informes de uso disponibles en Teams de administración.
+> Esta configuración también se aplica a Microsoft 365 de uso en Centro de administración de Microsoft 365, Microsoft Graph y Power BI.

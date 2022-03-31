@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02e3f441ad7a4a338c86e89b2740561d3d552d7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: ac7ac28eca8a139d9a7d1ff5a8100af1de772955
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711574"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556281"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Guía de la sala de reuniones para Teams
 
@@ -232,7 +232,7 @@ En el futuro, Salas de Teams admitirá sistemas de audio que usan un concepto ll
 
 Una cámara de ángulo ultranacional se coloca en la parte frontal de la sala debajo de las pantallas para capturar a todos los usuarios del espacio.
 
-La cámara de ángel de nivel superior ofrece un seguimiento inteligente de los participantes de la reunión para que puedan representarse individualmente en una vista grande en lugar de como caras dentro de una imagen grande de toda la sala.
+La cámara de ángulo ultranacional ofrece un seguimiento inteligente de los participantes de la reunión para que puedan representarse individualmente en una vista grande en lugar de como caras dentro de una imagen grande de toda la sala.
 
 ![Representación de una sala de reuniones mejorada desde una vista de sobrecarga.](media/emr5.png)
 
@@ -246,7 +246,7 @@ Para proporcionar a los usuarios de la sala una mayor sensación de conexión co
 
 El contenido de la reunión está rodeado de componentes fluidos contextuales como la agenda, las tareas y las notas, que se pueden actualizar en tiempo real, ayudando a los participantes a mantenerse comprometidos y productivos. Además, el chat de la reunión se ve claramente para que, al unirse a una reunión de Teams desde una sala de Teams, pueda ver y participar fácilmente en la conversación en tiempo real. En una sala de Microsoft Teams, este contenido se muestra en una pantalla de relación de aspecto amplia para maximizar el tamaño del contenido de la reunión y el número de participantes que se pueden ver simultáneamente.
 
-Este diseño será compatible con las configuraciones de una y dos pantallas y estará disponible a través de una Salas de Teams de software. Aunque el diseño de la fila frontal es especialmente impactante en un salón mejorado, la fila frontal se puede usar en cualquier sala de Teams que se ejecute en Windows, independientemente de la configuración de mobiliario y hardware.
+Este diseño es compatible con las configuraciones de una y dos pantallas. Aunque el diseño de la fila frontal es especialmente impactante en un salón mejorado, la fila frontal se puede usar en cualquier sala de Teams que se ejecute en Windows, independientemente de la configuración de mobiliario y hardware.
 
 ### <a name="how-do-you-co-create-content"></a>¿Cómo co-crea contenido?
 

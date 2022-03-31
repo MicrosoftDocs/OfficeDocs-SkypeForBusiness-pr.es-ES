@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 765c0b97d5e277bd086ac4b25ee11ac80cb6fc11
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: fe3ad067844de3c7a5dda0a042dee837a9638eae
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711484"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556291"
 ---
 # <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams de aplicaciones basadas en tipos de usuarios
 
@@ -49,7 +49,7 @@ Los invitados pueden usar una aplicación si la aplicación la instaló un usuar
 
 #### <a name="bots-installed-to-a-channel"></a>Bots instalados en un canal
 
-Los bots pueden enviar mensajes de forma proactiva a los usuarios invitados, pero los invitados no pueden interactuar con el bot. Los invitados no pueden enviar mensajes al bot uno a uno, mencionar el bot o interactuar con tarjetas adaptables que se comunican con el bot.
+Los usuarios invitados pueden mencionar el bot e interactuar con tarjetas adaptables.
 
 #### <a name="personal-bots-installed-with-policies"></a>Bots personales instalados con directivas
 

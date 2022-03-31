@@ -21,12 +21,12 @@ description: Su administrador de Teams o de TI puede configurar el acceso extern
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ec2ee80d2475742380944b2e834b5c7b7cf24275
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 8505a57ff0ab9bb2e79607ffe13768058bab26d6
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392922"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556321"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Administrar el acceso externo en Microsoft Teams
 
@@ -149,7 +149,7 @@ En la tabla siguiente se muestran los parámetros de cmdlet usados para configur
 |:-------|:--------|:------------------|
 |Habilitar o deshabilitar la federación con otras organizaciones de Teams y Skype Empresarial|`-AllowFederatedUsers`|`-EnableFederationAccess`|
 |Habilitar la federación con dominios específicos|`-AllowedDomains`|No disponible|
-|Deshabilitar la federación con dominios específicos|`-Blocked Domains`|No disponible|
+|Deshabilitar la federación con dominios específicos|`-BlockedDomains`|No disponible|
 |Habilitar o deshabilitar la federación con usuarios de Teams que no están administrados por una organización|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
 |Habilitar o deshabilitar que los usuarios de Teams no administrados por una organización inicien conversaciones|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |Habilitar o deshabilitar la federación con Skype|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|

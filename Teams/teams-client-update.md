@@ -18,12 +18,12 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 65421d36c0a8c19d8c7118e348222e3b62175a95
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 00b8079a360dbec05b14f1487755e96bfc98b76f
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893529"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556521"
 ---
 # <a name="teams-update-process"></a>El proceso de actualización de Teams
 
@@ -43,11 +43,6 @@ Teams se instala de forma predeterminada con las nuevas instalaciones de Aplicac
 
 Teams sigue su propio proceso de actualización como se ha descrito anteriormente. Teams no sigue el proceso de actualización de otras aplicaciones de Office, como Word y Excel. Para obtener más información, lea [Introducción a los canales de actualización de Aplicaciones de Microsoft 365](/DeployOffice/overview-update-channels).
 
-## <a name="what-about-updates-to-teams-on-vdi"></a>¿Qué ocurre con las actualizaciones de Teams en VDI?
-
-
-Los clientes de Teams en la infraestructura de escritorio virtual (VDI) no se actualizan automáticamente del mismo modo que los clientes de Teams que no son VDI. Tiene que actualizar la imagen de máquina virtual mediante la instalación de una nueva MSI como se describe en las instrucciones para [Instalar Teams en VDI](teams-for-vdi.md). Debe desinstalar la versión actual para actualizar a una versión más reciente.
-
 ## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>¿Los administradores pueden implementar actualizaciones en lugar de la actualización automática de Teams?
 
 Teams no ofrece a los administradores la capacidad de implementar actualizaciones con ningún mecanismo de entrega.
@@ -61,3 +56,7 @@ Para identificar cuándo los clientes de escritorio no están actualizados, se m
 Los clientes de escritorio de Teams en las nubes gubernamentales tienen actualmente, y hasta nuevo aviso, una excepción a este contrato de servicio.
 
 Para obtener información sobre las nuevas versiones, compruebe el [Centro de mensajes](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) o vaya a **Ayuda** > **Novedades** en el cliente.
+
+## <a name="what-about-updates-to-teams-on-vdi"></a>¿Qué ocurre con las actualizaciones de Teams en VDI?
+
+Los clientes de Teams en la infraestructura de escritorio virtual (VDI) no se actualizan automáticamente del mismo modo que los clientes de Teams que no son VDI. Tiene que actualizar la imagen de máquina virtual mediante la instalación de una nueva MSI como se describe en las instrucciones para [Instalar Teams en VDI](teams-for-vdi.md). Debe desinstalar la versión actual para actualizar a una versión más reciente.

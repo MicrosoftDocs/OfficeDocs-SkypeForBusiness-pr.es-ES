@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 0f4001fc2a646b83f005d9cc48948fbbb314f042
-ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
+ms.openlocfilehash: 74b9474eda7fd3c6bfe7224f62fbf58f61689743
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480672"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556251"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar las directivas de mensajería en Teams
 
@@ -80,6 +80,7 @@ Estas son las opciones de configuración de directiva de mensajería que puede c
 
 - **Los propietarios pueden eliminar los mensajes enviados**  Use esta configuración para permitir a los propietarios eliminar mensajes de canal o publicaciones que los usuarios han enviado.
 - **Eliminar mensajes enviados** Use esta configuración para permitir que los usuarios eliminen los mensajes que enviaron en el chat.
+- **Eliminar chat** Use esta configuración para permitir que los usuarios eliminen los mensajes que enviaron en el chat.
 - **Editar mensajes enviados** Use esta configuración para permitir a los usuarios editar los mensajes que enviaron en el chat.
 - **Confirmaciones de lectura** Las confirmaciones de lectura permiten que el remitente de un mensaje de chat reciba una notificación cuando el destinatario lee el mensaje en 1:1 y los chats grupales de 20 personas o menos. Las confirmaciones de lectura de mensajes quitan de forma incierta si se ha leído un mensaje y mejoran la comunicación del equipo. Las confirmaciones de lectura no se capturan en los informes de exhibición de documentos electrónicos.  
     - **Controlado por el usuario** Esto significa que los usuarios pueden decidir si quieren recibir confirmaciones de lectura on o OFF. La configuración predeterminada dentro de la aplicación está EN. A continuación, los usuarios pueden desactivarlo.

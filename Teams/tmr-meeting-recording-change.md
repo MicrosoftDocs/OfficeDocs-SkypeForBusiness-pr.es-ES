@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf1f393c8f6caf27a53ec45af0f04401f93b6793
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 8d2863517ae4a147f9ded902dffff40ef315642e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514541"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556341"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones
 
@@ -171,9 +171,9 @@ El vídeo se reproducirá en el reproductor de vídeo de OneDrive para la Empres
 
 **Si se planea dejar de usar Stream, ¿se mantendrán como están los vídeos existentes? ¿Durante cuánto tiempo?**
 
-Stream como plataforma no quedará en desuso en un futuro próximo. Los vídeos que están actualmente en Stream permanecerán allí hasta que empecemos a migrar. Tras la migración, esos vídeos también se migrarán a OneDrive para la Empresa o SharePoint. Consulte [Migración a Stream clásico](/stream/streamnew/classic-migration) para obtener más información.
+Stream como plataforma no quedará en desuso en un futuro próximo. Los vídeos que están actualmente en Stream permanecerán allí hasta que empecemos a migrar. Tras la migración, esos vídeos también se migrarán a OneDrive para la Empresa o SharePoint. Para [obtener más información,](/stream/streamnew/migration-details) consulte Detalles de migración.
 
-**¿Cómo puedo aplicar una etiqueta de retención a las Microsoft Teams reuniones?**
+**Cómo aplicar una etiqueta de retención a Microsoft Teams de reunión?**
 
 Consulte [Cómo aplicar automáticamente una etiqueta de retención](/microsoft-365/compliance/apply-retention-labels-automatically).
 

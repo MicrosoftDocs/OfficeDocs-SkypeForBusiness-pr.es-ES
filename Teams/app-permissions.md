@@ -19,32 +19,36 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b15625ae6e487a54fb5dbad122064148465b0ad
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: c95f5ab273112b29b91a312111000ba2dac76f9e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711704"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556331"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Consideraciones y permisos de las aplicaciones de Microsoft Teams
 
-Microsoft Teams aplicaciones son una forma de agregar una o más capacidades _a un_ paquete de aplicaciones que se puede instalar, actualizar y desinstalar. Las funcionalidades incluyen:
+Microsoft Teams aplicaciones son una forma de agregar una o más capacidades en aplicaciones que se pueden instalar, actualizar y desinstalar. Entre las funcionalidades de las aplicaciones se incluyen:
 
 * Bots
 * Extensiones de mensajería
 * Pestañas
 * Conectores
 
-Los usuarios consienten las aplicaciones y las administran desde una perspectiva de directiva. Sin embargo, los permisos y el perfil de riesgo de una aplicación se definen por los permisos y perfiles de riesgo de las capacidades que contiene la aplicación. Por lo tanto, este artículo se centra en los permisos y consideraciones en el nivel de capacidad.
+Como administrador, solo administra aplicaciones. Sin embargo, el artículo se centra en los permisos y consideraciones en el nivel de capacidad, ya que las capacidades de una aplicación afectan a los permisos y perfiles de riesgo necesarios de la aplicación. Para su uso, los usuarios consienten las aplicaciones y las administran los profesionales de TI desde una perspectiva de directiva.
 
-Los permisos que se muestran a continuación en mayúsculas, por ejemplo, RECEIVE_MESSAGE y REPLYTO_MESSAGE, no aparecen en ninguna parte de la documentación del desarrollador de [Microsoft Teams](/microsoftteams/platform/overview) ni en los permisos de [Microsoft Graph](/graph/permissions-reference).
+Los permisos que se muestran a continuación en mayúsculas, por ejemplo `RECEIVE_MESSAGE` `REPLYTO_MESSAGE` , y solo tienen fines de ilustración y explicación. Estas cadenas o permisos no aparecen en ninguna parte de la documentación [](/microsoftteams/platform/overview) Microsoft Teams desarrollador o en los permisos de [Microsoft Graph](/graph/permissions-reference).
 
-| Título   | Descripción    |
+<!--- TBD: What does this table mean? The icons are not used anywhere in this article so commenting this for now.
+
+| Title   | Description    |
 |-----------|------------|
-| ![Un icono que representa un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Use las tablas siguientes como guía para comprender qué permisos solicitan las aplicaciones que está investigando.</li></ul> |
-| ![Un icono que representa el siguiente paso](media/audio_conferencing_image9.png)<br/>Paso siguiente|<ul><li>Investigue la aplicación o el servicio en sí para decidir si desea permitir el acceso a ella dentro de su organización. Por ejemplo, los bots envían y reciben mensajes de los usuarios y, excepto los bots personalizados empresariales, se encuentran fuera del límite de cumplimiento. Por lo tanto, cualquier aplicación que incluya un bot requiere esos permisos y tiene ese perfil de riesgo mínimo. </li></ul>|
+| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul> |
+| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise custom bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that minimum risk profile. </li></ul>|
 
-Vea también [Solicitar permisos de dispositivo para su Microsoft Teams pestaña](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
+See also [Request device permissions for your Microsoft Teams tab](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
+
+--->
 
 ## <a name="global-app-permissions-and-considerations"></a>Consideraciones y permisos globales de la aplicación
 
@@ -62,7 +66,7 @@ Ninguna
 
 * [El consentimiento específico de los](resource-specific-consent.md) recursos proporciona un conjunto de permisos que las aplicaciones pueden solicitar, que aparece en la pantalla de instalación de la aplicación. Para obtener más información sobre los permisos de consentimiento específicos de los recursos, [vea Graph de permisos.](/graph/permissions-reference#teams-resource-specific-consent-permissions)
 
-* Las aplicaciones también pueden necesitar permisos distintos de los permisos de consentimiento específicos de los recursos. Después de instalar una aplicación, la aplicación puede solicitar Graph permisos mediante un aviso de consentimiento. Para obtener más información, vea [Comprender Azure AD experiencias de consentimiento de la aplicación](/azure/active-directory/develop/application-consent-experience). Puede configurar los permisos y el consentimiento de la API en Azure Portal. Para obtener más información, [vea Azure Active Directory marco de consentimiento.](/azure/active-directory/develop/consent-framework)
+* Las aplicaciones también pueden necesitar permisos distintos de los permisos de consentimiento específicos de los recursos. Después de instalar una aplicación, la aplicación puede solicitar Graph permisos mediante un aviso de consentimiento. Para obtener más información, vea [Comprender Azure AD experiencias de consentimiento de la aplicación](/azure/active-directory/develop/application-consent-experience). Puede configurar los permisos y el consentimiento de la API en el Azure Portal. Para obtener más información, [vea Azure Active Directory marco de consentimiento.](/azure/active-directory/develop/consent-framework)
 
 ## <a name="bots-and-messaging-extensions"></a>Bots y extensiones de mensajería
 
@@ -94,8 +98,7 @@ Ninguna
 
   * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM    
-
+  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES, RECEIVE_FILES:<sup>2</sup> Controla si un bot puede enviar y recibir archivos en chat personal (aún no es compatible con chats grupales o canales).
 

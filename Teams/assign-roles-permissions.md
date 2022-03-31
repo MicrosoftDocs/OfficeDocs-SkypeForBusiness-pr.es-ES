@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9ca46e3fa967019e674651ea27299b6552144a7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: b2f14993f47cdea5690413a32c9d286587db7324
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711964"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556351"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Asignar miembros y propietarios de equipo en Microsoft Teams
 
@@ -44,7 +44,7 @@ En la tabla siguiente se muestra la diferencia entre un propietario y un miembro
 |        ***Eliminar canal privado**         |    Sí     |    No|
 |          **Agregar canal compartido**          |    Sí     |    No|
 | **Editar el nombre o la descripción del canal compartido** |    No     |    <sup>No6</sup>|
-|        **Eliminar canal compartido**         |    Sí     |    <sup>No6</sup>|
+|        **Eliminar un canal compartido**         |    Sí     |    <sup>No6</sup>|
 |          **Agregar miembros**          |  Sí<sup>3</sup>   |     No<sup>4</sup>    |
 |          **Solicitud para agregar miembros**          |  N/D   |     Sí<sup>5</sup>     |
 |           **Agregar aplicaciones**            |    Sí     |    Sí<sup>2</sup>|
@@ -63,7 +63,7 @@ En la tabla siguiente se muestra la diferencia entre un propietario y un miembro
 
 ## <a name="moderator-capabilities"></a>Capacidades del moderador
 
-Entre otras, tanto los propietarios como los miembros de un equipo pueden tener capacidades de moderador para un canal (según si la moderación de un equipo está activada). Los moderadores pueden iniciar nuevas publicaciones en un canal y controlar si los miembros del equipo pueden responder a los mensajes del canal existentes. También pueden controlar si los bots y los conectores pueden enviar mensajes de canal.
+Entre otras, tanto los propietarios como los miembros de un equipo pueden tener capacidades de moderador para un canal (según si la moderación de un equipo está activada). Los moderadores pueden iniciar nuevas publicaciones en un canal y controlar si los miembros del equipo pueden responder a los mensajes del canal existentes. Los moderadores también pueden controlar si las aplicaciones con bots y conectores pueden enviar mensajes de canal.
 
 Las capacidades de moderador se asignan en el nivel de canal. De forma predeterminada, los propietarios de un equipo tienen capacidades de moderador. Los miembros de un equipo tienen las capacidades de moderador desactivadas de forma predeterminada, pero el propietario puede asignar capacidades de moderador para un canal a un miembro del equipo. Los moderadores de un canal pueden agregar y quitar moderadores a ese canal.
 

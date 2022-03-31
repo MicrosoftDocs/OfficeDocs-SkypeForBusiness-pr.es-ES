@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c5db10ce87dc98cfb793eefb1daa953385c95f6d
 ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/25/2021
 ms.locfileid: "61205291"
@@ -39,11 +39,11 @@ Para configurar el uso compartido de la pantalla, debe crear una nueva Directiva
 
 1. Seleccione **Reuniones** > **Directivas de reunión**.
 
-    ![Directivas de reunión seleccionadas.](media/configure-desktop-sharing-image1.png)
+    ![Directivas de reuniones seleccionadas](media/configure-desktop-sharing-image1.png)
 
 2. En la página **Directivas de reunión**, seleccione **Agregar**.
 
-    ![Mensaje Directivas de reunión.](media/addMeeting.png)
+    ![El mensaje de directivas de reunión.](media/addMeeting.png)
 
 3. Asigne un título único a la directiva y escriba una breve descripción.
 
@@ -70,7 +70,7 @@ Para configurar el uso compartido de la pantalla, debe crear una nueva Directiva
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>Use PowerShell para configurar el escritorio compartido
 
-También puede usar [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para controlar el uso compartido del escritorio. Ajuste los siguientes parámetros:
+También puede usar el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para controlar el uso compartido del escritorio. Establezca los parámetros siguientes:
 
 - Descripción
 - ScreenSharingMode
