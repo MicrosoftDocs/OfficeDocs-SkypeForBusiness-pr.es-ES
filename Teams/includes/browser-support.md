@@ -21,6 +21,6 @@ Teams es totalmente compatible con los siguientes exploradores de internet (con 
 <sup>4</sup> Microsoft Edge RS2 o posterior no admite el envío de tráfico de audio y vídeo en tiempo real mediante proxy HTTP.
 
 > [!NOTE]
-> Siempre y cuando un sistema operativo pueda ejecutar el explorador compatible, Teams es compatible con equipos de escritorio. Por ejemplo, ejecutar Firefox en el sistema operativo Linux es una forma de usar Teams.
+> La ejecución de Teams en un explorador es compatible con equipos PC y Mac que cumplan los [requisitos mínimos de hardware para Microsoft Teams](../hardware-requirements-for-the-teams-app.md). Por ejemplo, ejecutar Firefox en el sistema operativo Linux es una forma de usar Teams.
 >
-> En el caso de los sistemas operativos móviles, le recomendamos que ejecute la aplicación Teams, disponible en tiendas de Android y iOS. Se puede ejecutar Teams en un sistema operativo móvil, pero muchas características no estarán disponibles.
+> En dispositivos móviles, le recomendamos que use la aplicación Teams. La aplicación Teams está disponible en las tiendas de Android e iOS. Se admite la ejecución de Teams en un explorador en dispositivos móviles, pero muchas características no están disponibles.

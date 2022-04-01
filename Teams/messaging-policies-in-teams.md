@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 74b9474eda7fd3c6bfe7224f62fbf58f61689743
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 00146d35faac13ef511a06b6c442341832867bcc
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556251"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592795"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar las directivas de mensajería en Teams
 
@@ -99,7 +99,7 @@ Estas son las opciones de configuración de directiva de mensajería que puede c
 - **Vistas previas de URL** Use esta configuración para activar o desactivar la vista previa automática de URL en los mensajes.
 - **Traducir mensajes** Active esta configuración para permitir que los usuarios traduzcan automáticamente Teams mensajes al idioma especificado por su configuración de idioma personal para Microsoft 365 o Office 365.
 - **Lector inmersivo para mensajes** Active esta configuración para permitir que los usuarios puedan ver los mensajes en Microsoft Lector inmersivo. Lector inmersivo es una herramienta de aprendizaje que proporciona una experiencia de lectura en pantalla completa para aumentar la legibilidad del texto.
-- **Enviar mensajes urgentes con notificaciones de prioridad** Si activa esta opción, los usuarios pueden enviar mensajes con notificaciones [de prioridad](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Las notificaciones de prioridad notifican a los usuarios cada 2 minutos durante 20 minutos o hasta que los mensajes  marcados como urgentes sean recogidos y leídos por el destinatario. Esta característica aumenta la probabilidad de que el mensaje se actúe de forma oportuna.
+- **Enviar mensajes urgentes con notificaciones de prioridad** Si activa esta opción, los usuarios pueden enviar mensajes con notificaciones [de prioridad](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Las notificaciones de prioridad notifican a los usuarios cada 2 minutos durante 20 minutos o hasta que los mensajes  marcados como urgentes sean recogidos y leídos por el destinatario. Esta característica aumenta la probabilidad de que el mensaje se actúe de forma oportuna. No puede editar un mensaje urgente después de enviarlo.
 - **Crear mensajes de voz**
   > [!Important]
   > Los mensajes de audio no se capturan en los informes de exhibición de documentos electrónicos.

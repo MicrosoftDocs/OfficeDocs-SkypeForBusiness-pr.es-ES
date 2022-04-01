@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 104540c047f499f8b82139e0c76c93e4b4625f62
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 032036c6f08dac76cae9ed124ffe7bc8439e4c32
+ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401144"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64584265"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiencia de reunión de solo vista para Teams
 
@@ -119,6 +119,7 @@ El asistente de solo vista no podrá experimentar las siguientes opciones en las
 - Levantar la mano en la reunión.
 - Enviar o ver reacciones.
 - Interactuar con cualquier aplicación 3P que se integre en la reunión de Teams, incluyendo Encuestas.
+- Acceso a la grabación de la reunión.
 
 ## <a name="view-only-feature-limitations"></a>Limitaciones de características de solo vista
 

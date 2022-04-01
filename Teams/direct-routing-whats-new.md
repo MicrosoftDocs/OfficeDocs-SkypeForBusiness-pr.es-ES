@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6f2ec21ec3e7f4278443d6bcab4b4220db3619f
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 53a1c2730ebf6db06fb92ac2fc4e0873563c98ce
+ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556748"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64584335"
 ---
 # <a name="whats-new-for-direct-routing"></a>Novedades de Enrutamiento directo
 
@@ -62,7 +62,7 @@ A partir de abril de 2022, enrutamiento directo rechazará las solicitudes SIP q
 
 Compruebe las configuraciones de SBC y asegúrese de que no está usando Reemplazar encabezados en solicitudes SIP.
 
-## <a name="tls10-and-10"></a>TLS1.0 y 1.0
+## <a name="tls10-and-11"></a>TLS1.0 y 1.1
 
 Para proporcionar el mejor cifrado de su clase a nuestros clientes, Microsoft planea desuso de las versiones 1.0 y 1.1 de seguridad de la capa de transporte (TLS). El 3 de abril de 2022, Microsoft forzará el uso de TLS1.2 para la interfaz SIP de enrutamiento directo.
 

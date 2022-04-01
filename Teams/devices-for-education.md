@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f237f057d6c8f2975b054f16c293bf87eaf00f0f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 71af93e7d8fa5368480753a50c790dfe77f40693
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637096"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64593025"
 ---
 # <a name="teams-devices-for-education"></a>Teams dispositivos educativos
 
@@ -35,9 +35,9 @@ ms.locfileid: "58637096"
 
 Learning en el futuro será híbrido y combinado. Tanto los profesores como los alumnos requieren una experiencia fluida realizada en un continuo de espacios, motivados por la necesidad de flexibilidad cuando se trata de cómo y dónde se lleva a cabo el aprendizaje. La educación no se limitará a un aula física o a entornos estrictamente virtuales; la participación remota será tan dinámica como el aprendizaje en persona. La flexibilidad que ofrece el aprendizaje híbrido y combinado, aunque no es nueva para todos, será nueva para muchos y tendrá un impacto de gran alcance. 
 
-El aula híbrida moderna no tendrá límites. Los alumnos y los formadores tendrán el poder del aprendizaje sincrónico y asíncrono, así como de la participación interactiva y multimodal diseñada para satisfacer las necesidades de cada alumno en cada circunstancia. Teams dispositivos han sido diseñados para admitir una amplia variedad de espacios para que no se suba ninguna voz. 
+El aula híbrida moderna no tendrá límites. Los alumnos y los formadores tendrán el poder del aprendizaje sincrónico y asíncrono, así como de la participación interactiva y multimodal diseñada para satisfacer las necesidades de cada alumno en cada circunstancia. Teams dispositivos se han diseñado para admitir una amplia variedad de espacios para que ninguna voz se desalome. 
 
-### <a name="student-and-educators-alike-excel-with-microsoft-teams-rooms"></a>Tanto los alumnos como los formadores se destacan con Salas de Microsoft Teams
+### <a name="student-and-educators-alike-excel-with-microsoft-teams-rooms"></a>Tanto los alumnos como los formadores destacan con Salas de Microsoft Teams
 
 -   Salas de Microsoft Teams un aprendizaje seguro y centrado en los alumnos, desde la integración en el aula hasta salas de reuniones para una colaboración más centrada, e incluso uno a uno para abordar las necesidades y preguntas específicas de los alumnos.
 
@@ -49,18 +49,18 @@ El aula híbrida moderna no tendrá límites. Los alumnos y los formadores tendr
 
 Para garantizar que los alumnos y formadores que trabajan de forma remota puedan participar por completo en reuniones y colaboraciones grupales, los espacios de trabajo educativos necesitarán tecnología para ayudar a reducir la división entre los modelos antiguos en persona y los nuevos espacios híbridos y remotos.
 
-![Representación de tecnología futura que muestra asistentes remotos que se muestran en una sala física. ](media/devices1.png)
+![Representación de tecnología futura que muestra asistentes remotos que se muestran en una sala física.](media/devices1.png)
  *Esta imagen representa tecnología futura.*
 
 ## <a name="why-choose-a-native-teams-experience"></a>¿Por qué elegir una Teams nativa?
 
-Microsoft Teams periféricos y salas certificados son soluciones de reuniones y llamadas nativas diseñadas para propósitos que ofrecen una experiencia de reunión completa de Teams, con audio y vídeo de alta definición, en hardware de primer y de terceros certificados por Teams.
+Microsoft Teams periféricos y salas certificados son soluciones de reuniones y llamadas nativas diseñadas para propósitos que ofrecen una experiencia de reunión completa de Teams, con audio y vídeo de alta definición, en hardware de terceros y de primera calidad certificado por Teams.
 
-Cuando decimos "diseñado a propósito y nativo", queremos decir que la experiencia está diseñada específicamente y cuidadosamente por Microsoft para el Teams usuario.
+Cuando decimos "diseñado a propósito y nativo", queremos decir que la experiencia está diseñada específica y cuidadosamente por Microsoft para el Teams usuario.
 
-Salas de Teams más allá de lo que se puede hacer con Teams en dispositivos personales proporcionando funcionalidades únicas en la sala, como la combinación de un solo toque, cámaras de contenido para compartir pizarras físicas en la reunión de forma inteligente y características de proximidad como transferir sin problemas una reunión Teams desde su dispositivo personal a la sala.
+Salas de Teams más allá de lo que se puede hacer con Teams en dispositivos personales proporcionando funcionalidades únicas en la sala, como la combinación de un solo toque, cámaras de contenido para compartir pizarras físicas en la reunión de forma inteligente, y características de proximidad como transferir sin problemas una reunión Teams desde su dispositivo personal a la sala.
 
-Los sistemas no nativos y autoconsejos que se basan en servicios externos o en una conexión de su propio dispositivo nunca coincidirán realmente con la facilidad de uso o la calidad inmersiva de un salón Teams nativo.
+Los sistemas no nativos y autoconsejos que se basan en servicios externos o en una conexión bring-your-own-device nunca coincidirán realmente con la facilidad de uso o la calidad inmersiva de un salón Teams nativo.
 
 **Diseñado para Teams** 
 
@@ -92,13 +92,13 @@ Para los nuevos espacios, el uso previsto de la sala debe impulsar las considera
 
 El siguiente par de imágenes ilustra las configuraciones optimizadas Teams en un espacio de clase existente (superior) y en un nuevo espacio multiusos (inferior):
 
-![Representación que muestra Teams dispositivos en un aula existente.](media/devices2.png) ![Representación que muestra un Teams configuración nativa en un espacio diseñado específicamente.](media/devices3.png)
+![Representación que muestra Teams dispositivos en un aula existente.](media/devices2.png) ![Representación que muestra una configuración Teams nativa en un espacio diseñado específicamente.](media/devices3.png)
 
 ### <a name="what-is-the-function-of-the-space"></a>¿Cuál es la función del espacio?
 
 *¿Las actividades del espacio se centrarán en la co-creación colaborativa?*
 
-La creatividad requiere un diseño y una implementación tecnológica que se diseñe en torno a la colaboración de los usuarios. El espacio adecuado facilita el trabajo entre los usuarios y la tecnología sin problemas y elimina la fricción incluso para los usuarios más principiantes. Teams dispositivos están diseñados para ser lo suficientemente fáciles de usar para que los alumnos jóvenes puedan navegar adeptos y para que los profesores puedan controlar y personalizar desde el primer uso. 
+La creatividad requiere un diseño y una implementación tecnológica que se diseñe en torno a la colaboración de los usuarios. El espacio adecuado facilita el trabajo entre los usuarios y la tecnología sin problemas y elimina la fricción incluso para los usuarios más principiantes. Teams dispositivos están diseñados para ser lo suficientemente fáciles de usar para que los alumnos jóvenes naveguen adeptos y para que los profesores puedan controlar y personalizar desde el primer uso. 
 
 *¿Qué sucede con los espacios en los que el uso compartido de contenido con participantes en persona y con participantes remotos es la prioridad?*
 
@@ -146,11 +146,11 @@ El vídeo de alta calidad es una necesidad para la colaboración Teams moderna. 
 
 Teams reuniones van más allá de las llamadas de audio y vídeo para los participantes. Hay varias formas de compartir e interactuar dinámicamente con el contenido.
 
-Un escenario común es compartir contenido directamente desde el dispositivo de un participante. Los usuarios individuales pueden compartir la experiencia audio y visual completa desde aplicaciones individuales o todo el contenido de su pantalla directamente a la reunión para que todos los usuarios puedan verlos. Esto se extiende a todos los espacios compartidos con dispositivos instalados. Salas de Microsoft Teams la opción de usar una conexión de monitor por cable para permitir que los participantes puedan compartir incluso si no tienen la capacidad de unirse a la reunión individualmente.
+Un escenario común es compartir contenido directamente desde el dispositivo de un participante. Los usuarios individuales pueden compartir la experiencia audio y visual completa desde aplicaciones individuales o todo el contenido de su pantalla directamente a la reunión para que todos los usuarios puedan verlos. Esto se extiende a todos los espacios compartidos con dispositivos instalados. Salas de Microsoft Teams también tiene la opción de usar una conexión de monitor por cable para permitir que los participantes compartan incluso si no tienen la capacidad de unirse a la reunión individualmente.
 
-Para el contenido del mundo físico, los espacios con sistemas de sala Microsoft Teams pueden manejar una pizarra o una cámara de documentos que permite la revisión y discusión coordinadas del contenido desde el espacio.
+Para el contenido del mundo físico, los espacios con sistemas de sala Microsoft Teams pueden controlar una pizarra o una cámara de documentos que permite la revisión y discusión coordinadas del contenido desde el espacio.
 
-Para una experiencia completamente interactiva, las pantallas interactivas (como la familia de productos Surface Hub y la pizarra digital de Microsoft) hacen que sea fácil crear contenido de forma interactiva para estudiantes en persona, así como con alumnos remotos. 
+Para una experiencia totalmente interactiva, las pantallas interactivas (como la familia de productos Surface Hub y la pizarra digital de Microsoft) hacen que sea fácil crear contenido de forma interactiva para estudiantes en persona, así como con alumnos remotos. 
 
 ## <a name="example-spaces"></a>Espacios de ejemplo
 
@@ -162,11 +162,11 @@ Un espacio público, como un salón común en una casa familiar o una tabla en u
 
 *La solución que se muestra es:*
 
-Un dispositivo de equipo personal que se usa con auriculares Teams certificado.
+Un dispositivo de pc personal usado con auriculares Teams certificado.
 
 *¿Por qué este diseño y el tipo de dispositivo?*
 
-Un portátil Teams garantiza que el usuario no se limita a un área de trabajo y puede mover su configuración sin tener que iniciar y cerrar sesión en ninguna reunión. Los auriculares con micrófono integrado restringen el audio a los participantes de la reunión y filtran el ruido de fondo. La cámara integrada del portátil garantiza que todos los participantes de la reunión puedan ver al usuario.
+Un portátil que Teams garantiza que el usuario no se limita a un área de trabajo y puede mover su configuración sin tener que iniciar y cerrar sesión en ninguna reunión. Los auriculares con micrófono integrado restringen el audio a los participantes de la reunión y filtran el ruido de fondo. La cámara integrada del portátil garantiza que todos los participantes de la reunión puedan ver al usuario.
 
 *Dispositivos de* *ejemplo:*
 
@@ -174,9 +174,9 @@ Un portátil Teams garantiza que el usuario no se limita a un área de trabajo y
 
 -   Entre las opciones alternativas del portátil se incluyen:
 
-    -   [Microsoft Surface Laptop 4:](https://www.microsoft.com/d/surface-laptop-4/946627FB12T1?OCID=AID2200083_SEM_6341646f18fa14c7e4d80565e0debe72%3aG%3as&ef_id=6341646f18fa14c7e4d80565e0debe72%3aG%3as&s_kwcid=AL!4249!10!79302431130415!79302713431201&msclkid=6341646f18fa14c7e4d80565e0debe72&activetab=pivot%3aoverviewtab) mayor para la educación superior
+    -   [Microsoft Surface Laptop 4](https://www.microsoft.com/d/surface-laptop-4/946627FB12T1?OCID=AID2200083_SEM_6341646f18fa14c7e4d80565e0debe72%3aG%3as&ef_id=6341646f18fa14c7e4d80565e0debe72%3aG%3as&s_kwcid=AL!4249!10!79302431130415!79302713431201&msclkid=6341646f18fa14c7e4d80565e0debe72&activetab=pivot%3aoverviewtab): mayor para la educación superior
 
-    -   [Portátil Microsoft Surface Go:](https://www.microsoft.com/d/surface-laptop-go/94FC0BDGQ7WV?OCID=AID2200083_SEM_215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&ef_id=215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&s_kwcid=AL!4249!10!78890114459337!78890368468596&msclkid=215e2d5fa8281476bdd84c555fcf1fad&activetab=pivot%3aoverviewtab) ideal para K-12
+    -   [Portátil Microsoft Surface Go](https://www.microsoft.com/d/surface-laptop-go/94FC0BDGQ7WV?OCID=AID2200083_SEM_215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&ef_id=215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&s_kwcid=AL!4249!10!78890114459337!78890368468596&msclkid=215e2d5fa8281476bdd84c555fcf1fad&activetab=pivot%3aoverviewtab) : ideal para K-12
 
 -   [Auriculares sennheiser de EPOS: Adaptar 560](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/epos-sennheiser-adapt-560/467)
 
@@ -276,9 +276,9 @@ Los participantes remotos pueden ver el mismo campo de vista que los participant
 
 *Dispositivos mostrados:*
 
--   Sistema de sala: [Crestron Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) para Teams con un proyector instalado y una pantalla basada en carros
+-   Sistema de sala: [Crestron Flex C100 para Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) con un proyector instalado y una pantalla basada en carros
 
--   Pizarra digital opcional: [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+-   Pizarra digital opcional[: Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
 -   Cámara: [AVer CAM520 Pro](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/aver-cam520-pro-standard/575)
 
@@ -320,10 +320,10 @@ Es vital asegurarse de que sus soluciones son seguras frente a las amenazas cibe
 
 Vea las páginas siguientes para obtener más información sobre Teams dispositivos y partners:
 
-[Microsoft Teams para Educación:](https://www.microsoft.com/education/products/teams) una gran fuente de información para usar Microsoft Teams educación
+[Microsoft Teams para Educación](https://www.microsoft.com/education/products/teams): una gran fuente de información para usar Microsoft Teams educación
 
-[Dispositivos certificados para Microsoft Teams:](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825) una lista completa de dispositivos certificados para Microsoft Teams
+[Dispositivos certificados para Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825): una lista completa de dispositivos certificados para Microsoft Teams
 
-[Más información sobre Salas de Microsoft Teams:](/rooms/) una guía para Salas de Microsoft Teams planificación, implementación y uso
+[Más información sobre Salas de Microsoft Teams](/microsoftteams/rooms): una guía para Salas de Microsoft Teams planeación, implementación y uso
 
-[Teams Sala de reuniones partner:](https://cloudpartners.transform.microsoft.com/teams-mrpp) una lista de partners de todo el mundo disponibles para ayudar a planear e implementar Teams de sala
+[Teams Sala de reuniones partner:](https://cloudpartners.transform.microsoft.com/teams-mrpp) una lista de partners de todo el mundo disponibles para ayudar con la planificación y la implementación de Teams de sala

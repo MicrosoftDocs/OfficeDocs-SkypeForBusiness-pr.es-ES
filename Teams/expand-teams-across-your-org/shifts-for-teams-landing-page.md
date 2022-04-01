@@ -22,12 +22,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: b92cca01512d31fe193a718eede74fd04f44ae2e
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: 59e62ad1278c2703402a1186d198ae3ad877be63
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918873"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592776"
 ---
 # <a name="shifts-for-teams"></a>Turnos para Teams
 
@@ -54,14 +54,17 @@ Si usa un sistema de administración de fuerza de trabajo (WFM) de terceros para
 |&nbsp;  |&nbsp;  |
 |---------|---------|
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Información general sobre los conectores de turnos](shifts/shifts-connectors.md)** Obtenga información general sobre los conectores de Turnos y su forma de trabajar. Obtenga información sobre los conectores administrados y de código abierto que están disponibles y los sistemas WFM compatibles.   |
-|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Conectores de Turnos administrados](shifts/shifts-connectors.md#managed-shifts-connectors)** Los conectores de Turnos administrados, desarrollados en colaboración con nuestros partners, están hospedados y administrados tanto por nosotros como por nuestros partners. Si usa el sistema Reflexis WFM, vea [Reflexis Shifts connector for Microsoft Teams](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams) para obtener más información.    |
-|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[Conectores de turnos de código abierto](/microsoftteams/platform/samples/shifts-wfm-connectors)** Obtenga información sobre cómo usar conectores de código abierto [basados](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) en la comunidad para integrar su sistema de WFM de Kronos o JDA a través de Graph API y SDK.    |
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Conectores de Turnos administrados](shifts/shifts-connectors.md#managed-shifts-connectors)** Los conectores de Turnos administrados, desarrollados en colaboración con nuestros partners, están hospedados y administrados tanto por nosotros como por nuestros partners. Para obtener más información, [vea Microsoft Teams de turnos para conector yonder](shifts/shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) azul y [turnos reflexis para Microsoft Teams](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams).    |
+|   | **[Usar el Asistente para conectores de turnos para conectar Turnos a Blue Yonder Workforce Management](shifts/shifts-connector-wizard.md)** El asistente para conectores turnos de la Centro de administración de Microsoft 365 le ayuda a configurar rápidamente una conexión a su sistema WFM. Actualmente, el asistente admite el conector Teams turnos para Blue Yonder para integrar Turnos con Blue Yonder Workforce Management.
+|  | **[Usar PowerShell para conectar Turnos a Blue Yonder Workforce Management](shifts/shifts-connector-blue-yonder-powershell-setup.md)** Obtenga información sobre cómo usar PowerShell para configurar una conexión a Blue Yonder Workforce Management a través del conector Teams Shifts para Blue Yonder.         |
+|   | **[Usar PowerShell para administrar la conexión de Turnos a Blue Yonder Workforce Management](shifts/shifts-connector-powershell-manage.md)** Obtenga instrucciones sobre cómo usar PowerShell para administrar la conexión de Turnos a Blue Yonder Workforce Management después de configurarla mediante el Asistente para conectores de turnos o PowerShell.
+|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[Conectores de turnos de código abierto](/microsoftteams/platform/samples/shifts-wfm-connectors)** Obtenga información sobre cómo usar conectores de código abierto [basados](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) en la comunidad para integrar su sistema de KRONOS o JDA WFM a través de Graph API y SDK.    |
 
 ## <a name="shifts-extensions"></a>Extensiones de turnos
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph API](/graph/api/resources/shift)** Shifts Graph API le permiten integrar los datos de Turnos con sistemas de administración de fuerza de trabajo externos (WFM). Tendrá la flexibilidad de crear experiencias personalizadas de Turnos en el back-end, a la vez que ofrece a los usuarios una experiencia de front-end enriqueciendo Teams.             |
+| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph API](/graph/api/resources/shift)** Mayús Graph API le permiten integrar datos de Turnos con sistemas de administración de fuerza de trabajo externos (WFM). Tendrá la flexibilidad de crear experiencias personalizadas de Turnos en el back-end, a la vez que ofrece a los usuarios una experiencia de front-end enriqueciendo Teams.             |
 |<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Turnos + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** + Power Automate le permite tomar información de Turnos y crear flujos de trabajo personalizados con otras aplicaciones y realizar operaciones a escala. Automatice procesos clave con poco o ningún código. Los desencadenadores y plantillas admiten varios escenarios, como habilitar aprobaciones automáticas para solicitudes de turno cuando no es necesaria la aprobación de un administrador. |
 
 ## <a name="featured-training"></a>Aprendizaje destacado

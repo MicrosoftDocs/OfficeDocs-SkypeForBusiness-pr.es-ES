@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Lea las preguntas más frecuentes (PREGUNTAS FRECUENTES) y las respuestas Microsoft Teams panel de calidad de llamadas (CQD).
-ms.openlocfilehash: bd36fe70d46a190289749a96fbaadb8f6c176251
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 3d795393f99765ab445a5495b626ebd9b8722131
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457180"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592935"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Preguntas más frecuentes (PREGUNTAS FRECUENTES) del Panel de calidad de llamadas (CQD)
 
@@ -40,7 +40,7 @@ ms.locfileid: "62457180"
 
 [Estoy intentando usar CQD para informes de tipo de uso y encuentro que algunos de los datos están incompletos, ¿por qué es eso?](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
 
-[¿Por qué veo Skype Empresarial en CQD cuando he filtrado para Teams solo?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[¿Por qué veo Skype Empresarial información en CQD cuando he filtrado para Teams solo?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [¿Por qué mis informes personalizados solo devuelven un máximo de 10 000 filas cuando sé que debería haber más entradas?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
@@ -90,19 +90,19 @@ Para obtener más información sobre los roles que pueden tener acceso a CQD ,in
 
 ### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>Estoy intentando usar CQD para informes de tipo de uso y encuentro que algunos de los datos están incompletos, ¿por qué es eso?
 
-Las herramientas de administración de calidad de llamadas como CQD, Call Analytics, CallRecord Graph API y Análisis en tiempo real se basan en telemetría de diagnóstico. La información que mostramos en Teams de administración de calidad de llamadas es tan completa como los datos de telemetría que recibimos de los clientes que participan en una llamada. Hay varias razones por las que es posible que no recibamos telemetría completa, como interrupciones de red, [o configuraciones incorrectas de firewall o proxy](/microsoft-365/enterprise/urls-and-ip-address-ranges.md). Seguimos trabajando para mejorar la confiabilidad y resistencia con la que Teams clientes entregan telemetría al servicio.
+Las herramientas de administración de calidad de llamadas como CQD, Call Analytics, CallRecord Graph API y Análisis en tiempo real se basan en telemetría de diagnóstico. La información que mostramos en Teams de administración de calidad de llamadas es tan completa como los datos de telemetría que recibimos de los clientes que participan en una llamada. Hay varias razones por las que es posible que no recibamos telemetría completa, como interrupciones de red, [o configuraciones incorrectas de firewall o proxy](/microsoft-365/enterprise/urls-and-ip-address-ranges). Seguimos trabajando para mejorar la confiabilidad y resistencia con la que Teams clientes entregan telemetría al servicio.
 
-Con esto en mente, no se admite el uso de herramientas de administración de calidad de llamadas para informes de uso. No están diseñados para adaptarse a estos tipos de escenarios de informes ni están diseñados para este tipo de escenarios, y muchas estadísticas de uso no están ni estarán disponibles en estas herramientas. Teams centro de administración ofrece una serie de informes de [uso y un](teams-analytics-and-reports/teams-reporting-reference.md) informe de [asistencia a reuniones](teams-analytics-and-reports/meeting-attendance-report.md) está disponible directamente desde Teams cliente.
+Con esto en mente, no se admite el uso de herramientas de administración de calidad de llamadas para informes de uso. No están diseñados para adaptarse a estos tipos de escenarios de informes ni están diseñados para este tipo de escenarios, y muchas estadísticas de uso no están ni estarán disponibles en estas herramientas. Teams centro de administración ofrece una serie de informes de [uso y un](teams-analytics-and-reports/teams-reporting-reference.md) informe de [asistencia a reuniones](teams-analytics-and-reports/meeting-attendance-report.md) está disponible directamente desde el Teams cliente.
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>¿Por qué veo Skype Empresarial en CQD cuando he filtrado para Teams solo?
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>¿Por qué veo Skype Empresarial información en CQD cuando he filtrado para Teams solo?
 
-Al filtrar por Teams solo en informes CQD (isTeams = 1), está filtrando para todas las llamadas en las que el primer punto  de conexión Teams. Si el *segundo punto de* conexión Skype Empresarial, esa información se mostrará en el informe CQD. Según los escenarios de los clientes, CQD puede incluir Skype Empresarial Server llamadas de 2019 cuando [el](/skypeforbusiness/hybrid/plan-call-data-connector.md) conector de datos de llamada está configurado. También puede incluir llamadas Skype Bot (AA, CVI, VDI), Live Events y llamadas RTC.
+Al filtrar por Teams solo en informes CQD (isTeams = 1), está filtrando para todas las llamadas en las que el primer punto  de conexión Teams. Si el *segundo punto de* conexión Skype Empresarial, esa información se mostrará en el informe CQD. Según los escenarios de los clientes, CQD puede incluir Skype Empresarial Server llamadas de 2019 cuando [el conector](/skypeforbusiness/hybrid/plan-call-data-connector.md) de datos de llamada está configurado. También puede incluir llamadas Skype Bot (AA, CVI, VDI), Eventos en directo y llamadas RTC.
 
 Es posible quitar información Skype Empresarial de las consultas filtrando en dimensiones como Primera categoría de agente de usuario y Segunda categoría  *de agente de usuario*. También puede usar el par *de categorías agente de usuario* que combina las dimensiones Primera y Segunda en un único filtro.
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>¿Por qué mis informes personalizados solo devuelven un máximo de 10 000 filas cuando sé que debería haber más entradas?
 
-CQD está diseñado para consultas de datos resumidos y no está diseñado para la exportación de datos. Recomendamos que se restructuran los informes, siempre que sea posible, para evitar que se supere el límite de 10 000 filas. Empiece por ver sus KPI con dimensiones más amplias y de menor cardinalidad, como Mes, Año, Fecha, Región, País, entre otras. Desde allí, puede explorar en profundidad las dimensiones de mayor cardinalidad. Tanto el Departamento de soporte técnico como Location-Enhanced informes proporcionan buenos ejemplos de este flujo de trabajo de exploración en profundidad.
+CQD está diseñado para consultas de datos resumidos y no está diseñado para la exportación de datos. Recomendamos que se restructuran los informes, siempre que sea posible, para evitar que se supere el límite de 10 000 filas. Empiece por ver sus KPI con dimensiones más amplias y de menor cardinalidad, como Mes, Año, Fecha, Región, País, entre otras. Desde allí, puede explorar en profundidad las dimensiones de mayor cardinalidad. El Departamento de soporte técnico y Location-Enhanced informes proporcionan buenos ejemplos de este flujo de trabajo de exploración en profundidad.
 
 ### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>¿Por qué Wi-Fi conexiones VPN se muestran como cableadas en lugar de wi-fi?
 
@@ -120,7 +120,7 @@ Este es el comportamiento esperado cuando la grabación basada en directivas est
 
 [Configurar el panel de calidad de llamadas (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Upload inquilino y datos de creación](CQD-upload-tenant-building-data.md)
+[Upload inquilino y generar datos](CQD-upload-tenant-building-data.md)
 
 [Datos e informes de CQD](CQD-data-and-reports.md)
 

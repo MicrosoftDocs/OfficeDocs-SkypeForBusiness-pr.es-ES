@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Obtenga información sobre cómo usar la configuración de directiva de reunión para controlar la expiración de la reunión en Microsoft Teams.
-ms.openlocfilehash: d4752251f65dac0afb41ba357ad03063b3f6dfb0
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: ed76ea0278cdbf8a00bbd0d3e8434103aad2f270
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514693"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592815"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Directivas de reunión y expiración de la reunión en Microsoft Teams
 
@@ -76,9 +76,6 @@ Si desea que los usuarios accedan a las reuniones programadas o iniciadas previa
 > Si la reunión fue enviada por un delegado, a quien se le otorgaron permisos para enviar invitaciones de reunión en nombre de otra persona, como un administrador, la configuración de directiva de reunión se aplica a la persona que ha concedido permiso (el administrador).
 
 ## <a name="changes-to-meeting-expiration"></a>Cambios en la expiración de la reunión
-
-> [!IMPORTANT]
-> Si desea habilitar la expiración de Teams reunión en su inquilino antes de tiempo, aplique al programa de Microsoft Teams de adopción anticipado [de la expiración de la reunión](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u).
 
 Todas las grabaciones Teams reunión (TMR) tendrán una expiración predeterminada de 120 días. Esta opción está predeterminada para todos los inquilinos. Esto significa que, de forma predeterminada, todos los  TMR creados después de que esta característica se haya activado se eliminarán 120 días después de su fecha de creación. Los administradores también pueden establecer reuniones para **que nunca expiren automáticamente**. El OneDrive y SharePoint supervisará la fecha de expiración establecida en todos los TMR y moverá automáticamente los TMR a la papelera de reciclaje en su fecha de expiración.
 
@@ -155,7 +152,7 @@ No, los TMR migrados no tendrán una expiración establecida. En su lugar, recom
 
 Cuando una grabación no se carga en OneDrive o SharePoint, la aplicación de Teams muestra un mensaje en el chat que indica que los usuarios tienen hasta 21 días para descargar el TMR antes de que se elimine permanentemente del servidor Teams. Esta experiencia de expiración existente debido a cargas TMR con errores no está relacionada con la característica de OneDrive y SharePoint de expiración automática que se describe en el documento de ayuda.
 
-### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>¿Cómo puedo saber la distribución de las reproducciones de TMR para saber cuál debe ser la opción predeterminada de expiración automática óptima para mi inquilino?
+### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>Cómo la distribución de las reproducciones de TMR para saber cuál debe ser el valor predeterminado de expiración automática óptimo para mi inquilino?
 
 1. Busque el vídeo en la biblioteca.
 1. Seleccione **...** >  **Detalles**

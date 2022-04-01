@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e02013ddc158e1e64386bc22652404ec387aee1
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 4b922607955d8b825006217bd2fe333eaadbc1ce
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893559"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556571"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams
 
@@ -75,7 +75,7 @@ El cliente de Windows se implementará en la carpeta AppData ubicada en el perfi
 
 - %LocalAppData%\\SquirrelTemp
 
-Cuando los usuarios inician una llamada con el cliente de Teams por primera vez, pueden observar una advertencia con la configuración del firewall de Windows que solicita a los usuarios que permitan la comunicación. Es posible que se indique a los usuarios que ignoren el mensaje porque la llamada funcionará, incluso si la advertencia se descarta.
+Cuando los usuarios inician una llamada utilizando el cliente de Teams, podrían recibir una advertencia con la configuración del firewall de Windows que les pide que permitan la comunicación. Es posible que se indique a los usuarios que ignoren el mensaje porque la llamada funcionará, incluso si la advertencia se descarta.
 
 ![Captura de pantalla de un cuadro de diálogo Alerta de Seguridad de Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
@@ -179,7 +179,7 @@ sudo zypper install teams
 
 ## <a name="mobile-clients"></a>Clientes móviles
 
-Las aplicaciones móviles de Teams están disponibles para Android e iOS, y están orientadas a los usuarios que participan en conversaciones basadas en chat y permiten llamadas de audio punto a punto. Para las aplicaciones móviles, vaya a la tienda móvil correspondiente: Google Play y App Store de Apple.
+Las aplicaciones móviles de Teams están disponibles para iOS y Android, y están pensadas para que los usuarios que no están en un lugar fijo participen en conversaciones basadas en chat y para permitir las llamadas de audio de par a par. Para las aplicaciones móviles, vaya a la tienda móvil correspondiente: Google Play y App Store de Apple.
 
 Las plataformas móviles compatibles con las aplicaciones móviles de Teams son las siguientes:
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar Correo de voz en la nube para los usuarios.
-ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: dd98275ac768990337a47f1f4ba6dacbdb385087
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442326"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592725"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar el Correo de voz en la nube
 
@@ -37,11 +37,11 @@ Correo de voz en la nube mensajes de correo de voz en el buzón de correo de Exc
 
 ## <a name="cloud-voicemail-provisioning"></a>Correo de voz en la nube aprovisionamiento
 
-Para Teams usuarios, Correo de voz en la nube se configura y aprovisiona automáticamente. *No Microsoft Teams Teléfono una licencia de Correo de voz en la nube.*
+Para Teams usuarios, Correo de voz en la nube se configura y aprovisiona automáticamente. *No Teléfono Microsoft Teams una licencia de Correo de voz en la nube.*
 
 El aprovisionamiento Teams usuarios no es el mismo que para Skype Empresarial en línea. Para Skype Empresarial en línea, Correo de voz en la nube se configuraba y aprovisionaba automáticamente cuando se asignaba a los usuarios una licencia de Sistema telefónico y el sistema de aprovisionamiento Telefonía IP empresarial habilitado.
 
-Para Skype Empresarial Server locales, Correo de voz en la nube se configura y aprovisiona automáticamente. Sin embargo, debe configurar el entorno Skype Empresarial Server para enrutar las llamadas a Correo de voz en la nube. Para obtener más información, vea [Planear Correo de voz en la nube para usuarios locales](/skypeforbusiness/hybrid/plan-cloud-voicemail.md).
+Para Skype Empresarial Server locales, Correo de voz en la nube se configura y aprovisiona automáticamente. Sin embargo, debe configurar el entorno Skype Empresarial Server para enrutar las llamadas a Correo de voz en la nube. Para obtener más información, vea [Planear Correo de voz en la nube para usuarios locales](/skypeforbusiness/hybrid/plan-cloud-voicemail).
 
 ## <a name="cloud-voicemail-storage"></a>Correo de voz en la nube almacenamiento
 
@@ -55,7 +55,7 @@ El Exchange de correo electrónico de un usuario almacena los saludos grabados p
 
 La grabación y transcripción de Correo de voz en la nube se inicia en Microsoft 365 en el origen de la llamada que se enruta a Correo de voz en la nube. A continuación, el mensaje se entrega al buzón de correo Exchange usuario.
 
-Por ejemplo, si una llamada llega a un usuario de Enrutamiento directo no disponible a través de un controlador de borde de sesión (SBC) en Europa, la grabación y transcripción del correo de voz se realizan en Europa. A continuación, el mensaje se entrega al buzón de correo Exchange usuario. Por otro ejemplo, supongamos que un Teams en Norteamérica llama a un usuario Teams disponible en Europa. En este caso, la llamada comienza en Norteamérica, el procesamiento se produce en Norteamérica y, a continuación, el correo de voz se entrega al buzón de correo Exchange usuario en Europa.
+Por ejemplo, si una llamada llega a un usuario de Enrutamiento directo no disponible a través de un controlador de borde de sesión (SBC) en Europa, la grabación y transcripción del correo de voz se realizan en Europa. A continuación, el mensaje se entrega al buzón de correo Exchange usuario. Por otro ejemplo, supongamos que un usuario Teams en Norteamérica llama a un usuario Teams disponible en Europa. En este caso, la llamada comienza en Norteamérica, el procesamiento se produce en Norteamérica y, a continuación, el correo de voz se entrega al buzón de correo Exchange usuario en Europa.
 
 La entrega de un correo de voz a un buzón de Exchange se realiza con el Protocolo simple de transporte de correo electrónico (SMTP) como cualquier otro correo electrónico.
 
@@ -75,7 +75,7 @@ También puede deshabilitar Correo de voz en la nube usuario mediante el cmdlet 
 
 La configuración predeterminada para todos los usuarios aprovisionados para Correo de voz en la nube es permitir el enrutamiento de llamadas a Correo de voz en la nube y permitir a los usuarios reenviar llamadas a Correo de voz en la nube.
 
-Puede controlar si el enrutamiento de llamadas a Correo de voz en la nube está permitido para Teams usuarios mediante el cmdlet Set-CsTeamsCallingPolicy con el parámetro AllowVoicemail. Para obtener más información,  [veaSet-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy.md).
+Puede controlar si el enrutamiento de llamadas a Correo de voz en la nube está permitido para Teams usuarios mediante el cmdlet Set-CsTeamsCallingPolicy con el parámetro AllowVoicemail. Para obtener más información,  [veaSet-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
 - Si establece AllowVoicemail en AlwaysDisabled, las llamadas nunca se enrutan al correo de voz, independientemente de la configuración de reenvío de llamadas o sin respuesta de un usuario. El correo de voz no está disponible como una configuración de reenvío de llamadas o sin respuesta en Teams.
 
@@ -105,7 +105,7 @@ Con Microsoft Information Protection, puede cifrar los mensajes de correo de voz
 
 Para cifrar el mensaje de correo de voz, puede crear una etiqueta de confidencialidad. Con la característica de etiquetado automático, puede asegurarse de que la etiqueta se aplicará automáticamente a los mensajes de correo de voz entrantes. 
 
-Al habilitar el correo de voz protegido, los usuarios pueden escuchar mensajes de correo de voz protegidos llamando a su buzón de voz o abriendo el mensaje en Outlook, Outlook en la Web o Outlook para Android o iOS. Los mensajes de correo de voz protegidos no se pueden abrir en Microsoft Teams o Skype para Busimess.
+Al habilitar el correo de voz protegido, los usuarios pueden escuchar mensajes de correo de voz protegidos llamando a su buzón de voz o abriendo el mensaje en Outlook, Outlook en la Web o Outlook para Android o iOS. Los mensajes de correo de voz protegidos no se pueden abrir en Microsoft Teams o Skype Empresarial.
 
 Para crear una etiqueta de confidencialidad para el correo de voz, vea [Usar etiquetas de confidencialidad](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). En la **sección Cifrado** , elija **Permitir que los usuarios asignen permisos al aplicar la etiqueta**. Seleccione **En Outlook, aplique una de las siguientes restricciones** y, a continuación, seleccione la **opción No reenviar**.
 

@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: En este artículo, aprenderá a crear, editar y administrar cuentas de recursos en Microsoft Teams.
-ms.openlocfilehash: bc49142a5e40b0bb883761cde297d01d89a3f67b
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: cb89621d6049106cb090d72244644a4b14565657
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062564"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592715"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -105,9 +105,11 @@ Si va a usar la cuenta de recursos con un operador automático o una cola de lla
 
 Para asignar un enrutamiento directo o un número híbrido a una cuenta de recursos, debe usar PowerShell:
 
-`Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting`
+```powershell
+Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting
+```
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 
 Una vez que haya completado la configuración de la cuenta de recursos y asignar un número de servicio si es necesario, estará listo para usar la cuenta de recursos con un operador automático o una cola de llamadas.
 
@@ -156,5 +158,5 @@ Después de hacerlo, puede eliminar la cuenta de recursos en la Centro de admini
 Para desasociar un número de teléfono de enrutamiento directo de la cuenta de recursos, use el siguiente cmdlet:
 
 ```powershell
-Remove-CsPhoneNumberAssignment -Identity  <Resource Account oid> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
+Remove-CsPhoneNumberAssignment -Identity <Resource Account Object ID> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
 ```
