@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar canales compartidos en Microsoft Teams (versión preliminar).
-ms.openlocfilehash: 3a5b7f1005af95580f56b87188bc8a67325d440d
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0c66d308ef5182c6ace69a7bdcd004c865109bec
+ms.sourcegitcommit: 3e7c491d2bb13c86ac8e73b1c6c9735660c673e3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63712139"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64590388"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Canales compartidos en Microsoft Teams (versión preliminar)
 
@@ -43,7 +43,7 @@ Se recomienda habilitar la versión preliminar para todos los usuarios. Los usua
 
 ## <a name="getting-started-with-shared-channels"></a>Introducción a los canales compartidos
 
-Los canales compartidos están habilitados de forma predeterminada en Teams. Puede elegir darle a los usuarios permiso para crear canales compartidos, si pueden compartirlos con personas de fuera de la organización y si pueden participar en canales compartidos externos [creando una directiva de canal](/MicrosoftTeams/teams-policies).
+Los canales compartidos están habilitados de forma predeterminada en Teams. Puede elegir darles permiso a los usuarios para crear canales compartidos, si pueden compartirlos con personas fuera de la organización y si pueden participar en canales compartidos externos [creando una directiva de canal](/MicrosoftTeams/teams-policies).
 
 Si tiene previsto compartir canales con personas ajenas a la organización, lea [Planear la colaboración externa](/microsoft-365/solutions/plan-external-collaboration) para obtener información importante sobre la planificación.
 
@@ -73,7 +73,7 @@ Cuando se archiva un equipo, el uso compartido individual permanecerá intacto, 
 
 No se puede quitar a un propietario de un canal compartido a través del cliente de Teams si es el último propietario que queda de uno o más canales compartidos.
 
-Si el último propietario del canal compartido abandona la organización o si se quita del grupo de Microsoft 365 asociado al equipo, un miembro del canal compartido se promueve automáticamente para que sea el propietario del canal compartido. Considere agregar a más de un propietario para evitar esta situación.
+Si el último propietario del canal compartido abandona la organización o si se quita del grupo de Microsoft 365 asociado al equipo, se promoverá automáticamente a otro miembro del canal compartido para que sea el propietario de dicho canal. Considere agregar más de un propietario para evitar esta situación.
 
 ## <a name="channel-owner-settings"></a>Configuración del propietario del canal
 
@@ -122,6 +122,22 @@ Los archivos, carpetas y blocs de notas de OneNote de un canal compartido se pue
 Si se concede acceso a un usuario a un archivo, carpeta o bloc de notas en un canal compartido a través de SharePoint, quitar al usuario del equipo o del canal compartido no quitará el acceso del usuario a dicho archivo, carpeta o bloc de notas.
 
 Si un bloc de notas existente se agrega como una pestaña a un canal compartido, no se cambia el acceso al canal compartido y el bloc de notas conserva sus permisos existentes.
+
+## <a name="resources-for-your-users"></a>Recursos para los usuarios
+
+Los siguientes artículos pueden ser útiles para los usuarios de su organización cuando usen canales compartidos.
+
+[Crear un canal compartido en Teams](https://support.microsoft.com/office/80712457-579e-42b2-b54f-112329578aaa)
+
+[Compartir un canal con usuarios de Teams](https://support.microsoft.com/office/5f60de2d-0080-4e55-b26f-33a9dafa120e)
+
+[Compartir un canal con un equipo](https://support.microsoft.com/office/b2e89992-2708-4583-b11e-bbb6edb4f1c3)
+
+[¿Por qué usar un canal compartido frente a otros tipos de canal en Teams?](https://support.microsoft.com/office/e6ad61d0-6b3f-4e1b-baac-63e2978bd92e)
+
+[Invitados y canales compartidos en Teams](https://support.microsoft.com/office/612de4ce-e7a3-4579-b086-bb8ff9f2d11e)
+
+[Roles de propietario del canal compartido y miembro en Teams](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
 ## <a name="limits-for-shared-channels-preview"></a>Límites para los canales compartidos (versión preliminar)
 

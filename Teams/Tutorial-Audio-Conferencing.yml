@@ -22,12 +22,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 667f6964cf5a41992656a59b027e7db93bd9df41
-  ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+  ms.openlocfilehash: 1ff41ead7e06d0aae227c64befb066031068ce3a
+  ms.sourcegitcommit: e3a4df81721abe83886714a7c3c798e4c0888c35
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 03/02/2022
-  ms.locfileid: "63050896"
+  ms.lasthandoff: 04/01/2022
+  ms.locfileid: "64617661"
 items:
 - durationInMinutes: 1
   content: >
@@ -89,7 +89,7 @@ items:
 - title: Valor de unidad
   durationInMinutes: 1
   content: "\nDesde una perspectiva de informes, tiene dos áreas para ver:\n-   El uso: ¿cuántas reuniones tienen lugar?\n-   La calidad: ¿cuál es la calidad de las reuniones?\n\nDebe supervisar las dos áreas:\n-   Un uso bajo indica que los usuarios, por un motivo u otro, no están usando el producto. Solo puede determinar los motivos investigando más.\n    Los motivos pueden ir desde la percepción de que las reuniones no están cumpliendo los requisitos de los usuarios a una falta de reconocimiento o formación o problemas de calidad.\n-   La calidad baja, por otro lado, indica que hay problemas con la conectividad entre usuarios y Office 365. Puede generar una mala experiencia para el usuario y un uso más bajo. Consulte [Informes de Microsoft 365 en el Centro de administración: actividad de los usuarios de Microsoft Teams](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (el tiempo estimado de lectura es de 5 minutos) para conocer más cosas sobre los informes de uso.\n\nLa administración de la calidad no se incluye en esta formación, pero puede ver el siguiente material de formación:\n\n-   [Ejecutar mis servicios](./1-drive-value-operate-my-service.md)\n"
-- title: Pasos siguientes
+- title: Siguientes pasos
   durationInMinutes: 1
   content: >-
     En este curso de formación, hemos explicado los siguientes puntos clave:
@@ -113,4 +113,4 @@ items:
         - Siga el [Blog de Teams](https://aka.ms/teamsblog).
         - Consulte el [Plan de desarrollo de Teams](https://aka.ms/O365Roadmap).
         - Descubra las características más recientes en las [Notas de la versión](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-    4.  Descubra [más módulos de formación y tutoriales](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training).
+    4.  Descubra [más módulos de formación y tutoriales](/microsoftteams/ITAdmin-readiness#technical-training).

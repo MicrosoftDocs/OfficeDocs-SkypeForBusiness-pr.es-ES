@@ -12,12 +12,12 @@ ms.collection:
 description: Obtenga información sobre las versiones compatibles con el Teams PowerShell, que se usa para la administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fc980420b53d850c48e680d25bdbf6ec437e8f8
-ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
+ms.openlocfilehash: e292e3ea5659920bca6fe6f663afc53164da5b49
+ms.sourcegitcommit: e3a4df81721abe83886714a7c3c798e4c0888c35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783970"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "64617711"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams de PowerShell: versiones compatibles
 
@@ -39,7 +39,7 @@ Las organizaciones que no hayan usado un módulo de PowerShell Teams en los últ
 
 ## <a name="current-organizations-tpm-active"></a>Organizaciones actuales (TPM activo)
 
-Las organizaciones que han estado usando un módulo de PowerShell en los últimos tres meses (22 de enero- 22 de marzo) solo podrán usar un módulo de PowerShell Teams en la serie 4.x.x o posterior a partir del 15 de junio de 2022. Teams 
+Las organizaciones que han estado usando un módulo de PowerShell en los últimos tres meses (22 de enero- 22 de marzo) solo podrán usar un módulo de PowerShell Teams en la serie 4.x.x o posterior a partir del 15 de junio de 2022. Teams Publicación del centro de mensajes para referencia: MC350371. 
 
 
 
@@ -61,6 +61,8 @@ Las organizaciones que han estado usando un módulo de PowerShell en los último
   * Actualizaciones de Get-CsOnlineUser & Get-CsOnlineVoiceUser TPM 3.x.x y versiones posteriores: más detalles en [Get-CsOnlineUserGet-CsOnlineVoiceUser](/powershell/module/skype/get-csonlineuser) &  (publicación del centro de mensajes : MC340774).[](/powershell/module/skype/get-csonlinevoiceuser)
 
   * Cambios que vienen Teléfono asignación de números: más detalles en [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) &  (Publicación del centro de mensajes : MC316139)[](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
+
+  * Desuso de Get-CsOnlineDirectoryTenant: más detalles en [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant) (publicación del centro de mensajes : MC346902).
 
 
 

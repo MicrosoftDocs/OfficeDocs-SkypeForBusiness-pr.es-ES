@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fadf6685ada5f0625f7347efe3c1e4d8840af96
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 3e69fad1ab4aeeefba6d357fffd3d10a28139359
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579640"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592735"
 ---
 # <a name="security-and-microsoft-teams"></a>Seguridad y Microsoft Teams
 
@@ -40,7 +40,7 @@ Teams está diseñado y desarrollado conforme al ciclo de vida de desarrollo de 
 
 ## <a name="trustworthy-by-default"></a>Confiable de forma predeterminada
 
-Las comunicaciones de red de Teams se cifran de forma predeterminada. Al requerir que todos los servidores usen certificados y al usar OAUTH, Seguridad de la capa de transporte (TLS) y el protocolo de transporte seguro en tiempo real (SRTP), todos los datos de Teams están protegidos en la red.
+En Teams, todas las comunicaciones en red se cifran de forma predeterminada. Al requerir que todos los servidores usen certificados y al usar OAUTH, Transport Layer Security (TLS) y el protocolo de transporte seguro en tiempo real (SRTP), todos los datos de Teams están protegidos en la red.
 
 ## <a name="how-teams-handles-common-security-threats"></a>¿Cómo controla Teams las amenazas comunes de seguridad?
 
@@ -48,11 +48,11 @@ En esta sección se identifican las amenazas de seguridad más comunes del servi
 
 ### <a name="compromised-key-attack"></a>Ataque mediante clave conocida
 
-Teams usa las características de PKI en el sistema operativo Windows Server para proteger los datos clave que se usan para cifrar las conexiones TLS. Las claves que se usan para cifrar medios se intercambian a través de conexiones TLS.
+Teams usa las características de PKI en el sistema operativo Windows Server para proteger los datos clave usados para el cifrado de las conexiones TLS. Las claves usadas para los cifrados multimedia se intercambian a través de conexiones TLS.
 
 ### <a name="network-denial-of-service-attack"></a>Ataque por denegación de servicio de red
 
-Un ataque por denegación de servicio distribuido (DDOS) tiene lugar cuando el atacante impide el uso y el funcionamiento normales de red a usuarios válidos. Con un ataque por denegación de servicio, el atacante puede:
+Un ataque por denegación de servicio distribuido (DDOS) tiene lugar cuando el atacante impide el uso y el funcionamiento normales de red a usuarios válidos. Al usar un ataque por denegación de servicio, el atacante puede:
 
 - Enviar datos no válidos a las aplicaciones y los servicios que se ejecutan en la red que sufre el ataque para interrumpir su funcionamiento normal.
 - Enviar una gran cantidad de tráfico, lo que sobrecarga el sistema hasta que deja de responder o responde lentamente a las solicitudes legítimas.
@@ -61,21 +61,21 @@ Un ataque por denegación de servicio distribuido (DDOS) tiene lugar cuando el a
 
 ### <a name="eavesdropping"></a>Interceptación
 
-La interceptación se produce cuando un atacante obtiene acceso a la ruta de acceso de datos en una red y tiene la capacidad de supervisar y leer el tráfico. Los interceptores también se denominan examen o rastreo. Si el tráfico se produce como texto sin formato, el atacante puede leerlo cuando obtiene acceso a la ruta. Un ejemplo es un ataque que se realiza al controlar un enrutador de la ruta de acceso a los datos.
+La interceptación se produce cuando un atacante obtiene acceso a la ruta de datos en una red y puede supervisar y leer el tráfico. El espionaje también se denomina rastreo o espionaje. Si el tráfico se produce como texto sin formato, el atacante puede leerlo cuando obtiene acceso a la ruta. Un ejemplo es un ataque que se realiza al controlar un enrutador de la ruta de acceso a los datos.
 
 Teams usa TLS mutua (MTLS) para las comunicaciones de servidor en Microsoft 365 y Office 365, y también usa TLS de los clientes al servicio. MTLS hace que la interceptación sea difícil o imposible de lograr dentro del período de tiempo de una sola conversación. TLS autentica todas las partes y cifra todo el tráfico. Mientras TLS no evita la interceptación, el atacante no puede leer el tráfico a menos que se interrumpa el cifrado.
 
-El protocolo TURN se usa para lograr objetivos relacionados con elementos multimedia en tiempo real. El protocolo TURN no impone el cifrado del tráfico, y la información que envía está protegida por la integridad del mensaje. Si bien este protocolo está abierto a la interceptación, la información que envía (es decir, direcciones IP y puerto) se puede extraer directamente examinando las direcciones de origen y de destino de los paquetes. El servicio Teams se asegura de que los datos son válidos comprobando la integridad del mensaje mediante la clave derivada de algunos elementos, como una contraseña TURN, la cual no se envía nunca en texto no cifrado. SRTP (Secure Real-Time Transport Protocol) se utiliza para el tráfico de elementos multimedia y también está encriptado.
+El protocolo TURN se utiliza para elementos multimedia en tiempo real. Este protocolo no obliga al cifrado del tráfico y la información que se envía está protegida por la integridad del mensaje. Si bien este protocolo está abierto a la interceptación, la información que se envía, es decir, direcciones IP y puerto, se puede extraer directamente examinando las direcciones de origen y de destino de los paquetes. El servicio de Teams se asegura de que los datos son válidos comprobando la integridad del mensaje mediante la clave derivada de algunos elementos como la contraseña TURN, la cual nunca se envía sin cifrar. El protocolo SRTP es el que se utiliza para el tráfico multimedia y también se cifra.
 
 ### <a name="identity-spoofing-ip-address-spoofing"></a>Suplantación de identidad (imitación de direcciones IP)
 
-La suplantación de identidad (spoofing) se produce cuando el atacante identifica y entonces usa una dirección IP de una red, un equipo o un componente de red sin tener autorización para ello. Un ataque con éxito permite al atacante operar como si el atacante fuera la entidad que normalmente se identifica por la dirección IP.
+La suplantación de identidad (spoofing) se produce cuando el atacante identifica y luego usa una dirección IP de una red, un equipo o un componente de red sin tener autorización para ello. El ataque ha tenido éxito cuando el atacante es capaz de operar como si él fuera la entidad que reconoce normalmente la dirección IP. 
 
-TLS autentica todas las partes y cifra todo el tráfico. El uso de TLS impide que un atacante realice la suplantación de direcciones IP en una conexión específica (por ejemplo, conexiones de TLS mutua). Un atacante aún podría suplantar la dirección del servidor Sistema de nombres de dominio (DNS). Pero, puesto que la autenticación en Teams se realiza con certificados, un atacante no tendrá un certificado válido necesario para suplantar a una de las partes de la comunicación.
+TLS autentica a todas las partes y encripta todo el tráfico. El uso de TLS evita que un atacante suplante las direcciones IP en una conexión concreta (por ejemplo, conexiones Mutual TLS). Aún así, un atacante podría suplantar la dirección del servidor Sistema de nombres de dominio (DNS). No obstante, puesto que la autenticación en Temas se realiza con certificados, un atacante no tendrá un certificado válido necesario para suplantar a una de las partes en el proceso de comunicación.
 
 ### <a name="man-in-the-middle-attack"></a>Ataque de intermediario
 
-Un ataque de intermediario se produce cuando un atacante desvía la comunicación entre dos usuarios a través del equipo del atacante sin que lo sepan esos dos usuarios. El atacante puede supervisar y leer el tráfico antes de enviarlo al destinatario previsto. Sin darse cuenta, todos los usuarios que participan en la comunicación envían tráfico al atacante y reciben tráfico del mismo pensando que la comunicación se produce únicamente con el usuario previsto. Este escenario puede suceder si un atacante modifica los Servicios de dominio de Active Directory para agregar su servidor como un servidor de confianza o modifica la configuración de DNS para que los clientes se conecten al servidor a través del atacante.
+Un ataque de intermediario (“Man in the middle”) se produce cuando un atacante desvía la comunicación entre dos usuarios utilizando su propio equipo y sin que esos dos usuarios lo detecten. El atacante puede supervisar y leer el tráfico antes de enviarlo al destinatario correspondiente. Sin darse cuenta, los usuarios que participan en la comunicación envían tráfico al atacante y reciben tráfico del mismo pensando que la comunicación se produce únicamente con el usuario que corresponde. Esto puede suceder si un atacante modifica los Servicios de dominio de Active Directory para agregar su servidor como un servidor de confianza o modifica la configuración del Sistema de nombres de dominio (DNS) para que los clientes se conecten al servidor a través del atacante.
 
 Los ataques de intermediario en el tráfico multimedia entre dos puntos de conexión que participen en audio, vídeo y uso compartido de aplicaciones en Teams, se impide usando SRTP para cifrar la secuencia multimedia. Las claves de cifrado se negocian entre los dos puntos de conexión a través de un protocolo de señalización de propietario (protocolo de señalización de llamada de Teams) que usa el canal de cifrado UDP/TCP de TLS 1.2 y AES-256 (en modo GCM).
 
@@ -85,11 +85,11 @@ Un ataque de reproducción se produce cuando se intercepta y retransmite una tra
 
 ### <a name="spim"></a>Mensajes instantáneos no deseados
 
-Los mensajes instantáneos no deseados son mensajes instantáneos comerciales no solicitados o solicitudes de suscripción de presencia, como el correo no deseado, pero en forma de mensaje instantáneo. Si bien estos mensajes por sí mismos no son un peligro para la seguridad de la red, son como mínimo molestos, pueden reducir la disponibilidad y la productividad de los recursos, y podrían llegar a poner en peligro la red. Un ejemplo es el caso de usuarios que se envían solicitudes no deseadas entre sí. Los usuarios pueden bloquearse entre sí para evitar los mensajes instantáneos no deseados, pero con la federación, si un actor malintencionado establece un ataque coordinado, puede ser difícil de solucionar a menos que se deshabilite la federación del asociado.
+El término inglés "spim" hace referencia a los mensajes instantáneos comerciales no deseados o a las solicitudes de suscripción de presencia no deseadas, como correo no deseado, pero en forma de mensaje instantáneo. Si bien estos mensajes por sí mismos no son un peligro para la seguridad de la red, son como mínimo molestos, pueden reducir la disponibilidad y la productividad de los recursos, y podrían llegar a poner en peligro la red. Un ejemplo es el caso de usuarios que se envían solicitudes no deseadas entre sí. Los usuarios pueden bloquearse entre sí para evitar el spimming, pero con la federación, si un actor malintencionado establece un ataque coordinado de este tipo, puede ser difícil de solucionar a menos que se deshabilite la federación del asociado.
 
 ### <a name="viruses-and-worms"></a>Virus y gusanos
 
-Un virus es una unidad de código cuyo propósito es reproducir más unidades de código similares. Para que funcione, un virus necesita un anfitrión, como un archivo, un correo electrónico o un programa. Al igual que un virus, un gusano es una unidad de código que reproduce más unidades de código similares, pero que, a diferencia de un virus, no necesita un host. Los virus y los gusanos suelen aparecer principalmente durante las transferencias de archivo entre clientes o cuando otros usuarios envían direcciones URL. Si hay un virus en su equipo, podrá, por ejemplo, usar su identidad y enviar mensajes instantáneos en su nombre. Las medidas estándar de seguridad de cliente como los análisis periódicos en busca de virus pueden mitigar este problema.
+Un virus es una unidad de código que tiene por objeto reproducir más unidades de código similares. Los virus necesitan un host, como un archivo, un correo electrónico o un programa, para poder funcionar. Al igual que un virus, un gusano también es una unidad de código que reproduce más unidades de código similares, pero no necesita un host. Los virus y los gusanos suelen aparecer principalmente durante las transferencias de archivo entre clientes o cuando otros usuarios envían direcciones URL. Si hay un virus en su equipo, podrá, por ejemplo, usar su identidad y enviar mensajes instantáneos en su nombre. Para mitigar este problema, el usuario medio debería seguir los procedimientos de seguridad recomendados como, por ejemplo, examinar periódicamente el equipo en busca de virus.
 
 ## <a name="security-framework-for-teams"></a>Marco de seguridad de Teams
 
@@ -110,15 +110,15 @@ Azure Active Directory funciona como el servicio de directorio para Microsoft 36
 
 #### <a name="certificate-revocation-list-crl-distribution-points"></a>Puntos de distribución de lista de revocación de certificados (CRL)
 
-El tráfico de Microsoft 365 y Office 365 se realiza en canales cifrados TLS/HTTPS, lo que significa que los certificados se usan para el cifrado de todo el tráfico. Teams requiere que todos los certificados de servidor cuenten con uno o varios puntos de distribución de CRL. Los puntos de distribución CRL (CDP) son ubicaciones desde las que se pueden descargar CRL para comprobar si un certificado no ha sido revocado después de su emisión y todavía se encuentra dentro del período de validez. Un punto de distribución CRL se anota en las propiedades del certificado como una dirección URL y es HTTPS. El servicio Teams comprueba CRL con cada autenticación de certificado.
+El tráfico de Microsoft 365 y Office 365 se lleva a cabo a través de canales cifrados TLS/HTTPS. Es decir, se utilizan certificados para cifrar todo el tráfico. Teams requiere que todos los certificados de servidor cuenten con uno o más puntos de distribución de CRL. Los puntos de distribución CRL (CDP) son ubicaciones desde las que se pueden descargar CRL para comprobar si un certificado no ha sido revocado después de su emisión y todavía se encuentra dentro del período de validez. Un punto de distribución CRL se indica en las propiedades del certificado como una dirección URL y es HTTP seguro.
 
 #### <a name="enhanced-key-usage"></a>Uso mejorado de clave
 
-Los componentes del servicio Teams requieren que los certificados de servidor sean compatibles con el Uso mejorado de clave (EKU) para la autenticación del servidor. La configuración del campo EKU para la autenticación de los servidores significa que el certificado es válido para la autenticación de los servidores. Este EKU es esencial para MTLS.
+Los componentes de Teams requieren que todos los certificados de servidor admitan el uso mejorado de clave (EKU) para la autenticación de los servidores. La configuración del campo EKU para la autenticación de los servidores significa que el certificado es válido para autenticar los servidores. Este EKU es esencial para MTLS.
 
 ### <a name="tls-and-mtls-for-teams"></a>TLS y MTLS para Teams
 
-TLS y MTLS ofrecen comunicaciones cifradas y autenticación de puntos de conexión en Internet. Teams utiliza estos dos protocolos para crear la red de servidores de confianza y garantizar que todas las comunicaciones en esa red estén cifradas. Toda la comunicación entre servidores se produce a través de MTLS. La comunicación SIP restante o heredada entre el cliente y el servidor se realiza a través de TLS.
+Los protocolos TLS y MTLS ofrecen comunicaciones cifradas y autenticación de puntos de conexión en Internet. Teams utiliza estos dos protocolos para crear la red de servidores de confianza y garantizar que todas la comunicación en esa red esté cifrada. Todas las comunicaciones SIP entre servidores se llevan a cabo a través de MTLS. Las comunicación SIP entre el cliente y el servidor se realiza a través de TLS.
 
 TLS permite a los usuarios, a través de su software cliente, autenticar los servidores de Teams a los que se conectan. En una conexión TLS, el cliente solicita un certificado válido del servidor. Para que sea válido, el certificado debe proceder de una entidad de certificación (CA) en la que también confíe el cliente y el nombre DNS del servidor debe coincidir con el nombre DNS del certificado. Si el certificado es válido, el cliente utiliza la clave pública del certificado para cifrar las claves de cifrado simétrico que se utilizarán en la comunicación. De esta manera, solo el propietario original del certificado puede utilizar la clave privada para descifrar los contenidos de la comunicación. La conexión resultante es de confianza y, a partir de ese momento, no es desafiada por ningún otro cliente ni servidor de confianza.
 
@@ -134,7 +134,7 @@ Hay varias capas de cifrado en funcionamiento dentro de Microsoft 365. El cifrad
 
 #### <a name="traffic-encryption"></a>Cifrado de tráfico
 
-Todo el tráfico de servidor a servidor necesita MTLS, independientemente de si el tráfico está limitado a la red interna o atraviesa el límite de esta. En esta tabla, se resumen los protocolos que usa Teams.
+Todo el tráfico de servidor a servidor requiere MTLS, independientemente de si el tráfico se limita a la red interna o cruza el límite de la red interna. En esta tabla se resumen los protocolos usados por Teams.
 
 |**Tipo de tráfico**|**Cifrado por**|
 |:-----|:-----|
@@ -150,7 +150,7 @@ Teams usa TLS y MTLS para cifrar los mensajes instantáneos.
 
 #### <a name="media-encryption"></a>Cifrado de medios
 
-Los flujos de llamadas en Teams se basan en el modelo de oferta y respuesta [Session Description Protocol (SDP) RFC 4566](https://tools.ietf.org/html/rfc4566) a través de HTTPS. Una vez que el destinatario acepta una llamada entrante, el autor de la llamada y el destinatario aceptan los parámetros de la sesión.
+Los flujos de llamadas en Teams se basan en el modelo de oferta y respuesta [Session Description Protocol (SDP) RFC 8866](https://datatracker.ietf.org/doc/html/rfc8866) a través de HTTPS. Una vez que el destinatario acepta una llamada entrante, el autor de la llamada y el destinatario aceptan los parámetros de la sesión.
 
 El tráfico de medios se cifra, y fluye entre el autor de la llamada y el destinatario utilizando RTP seguro (SRTP), que es un perfil de protocolo de transporte en tiempo real (RTP) que proporciona al tráfico RTP confidencialidad, autenticación y protección contra los ataques de reproducción. SRTP utiliza una clave de sesión creada con un generador de números aleatorios seguros y se intercambia mediante el canal de señalización TLS. En muchos casos, el tráfico multimedia de cliente a cliente se negocia a través de una señalización de conexión de cliente a servidor y se cifra con SRTP cuando se dirige directamente de cliente a cliente.
 
@@ -189,7 +189,7 @@ En Teams, los administradores de TI pueden administrar sus servicios a través d
 
 ### <a name="configuring-access-to-teams-at-your-internet-boundary"></a>Configurar el acceso a Teams en su límite de Internet
 
-Para que Teams pueda funcionar correctamente, por ejemplo, de modo que los usuarios puedan unirse a reuniones, etc., los clientes deben configurar el acceso a Internet para que se permita el tráfico UDP y TCP saliente a los servicios en la nube de Teams. Para obtener más información, consulte[direcciones URL e rangos de direcciones IP de Office 365 ](/office365/enterprise/urls-and-ip-address-ranges).
+Para que Teams funcione correctamente, por ejemplo, para que los usuarios puedan unirse a reuniones, los clientes deben configurar su acceso a Internet de modo que se permita el tráfico UDP y TCP saliente a los servicios en la nube de Teams. Para obtener más información, vea [direcciones URL de Office 365 e intervalos de direcciones IP](/office365/enterprise/urls-and-ip-address-ranges).
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478-3481 y TCP 443
 
@@ -262,13 +262,13 @@ Un moderador también puede promover a un asistente al rol de moderador durante 
 
 Los participantes en la reunión también se clasifican por ubicación y credenciales. Puede utilizar estas dos características para decidir qué usuarios pueden tener acceso a reuniones específicas. Los usuarios se pueden dividir de forma general en las siguientes categorías:
 
-- **Usuarios que pertenecen al inquilino**. Estos usuarios tienen una credencial en Azure Active Directory para el inquilino.
+- **Usuarios que pertenecen al inquilino**. Estos usuarios tienen una credencial en Azure Active Directory para el espacio empresarial.
 
     *Usuarios de mi organización*: estos usuarios tienen una credencial en Azure Active Directory para el inquilino. *Usuarios de mi organización* incluye cuentas de invitado.
 
     *Usuarios remotos*: estos usuarios se unen desde fuera de la red corporativa. Pueden incluir empleados que trabajan desde casa o mientras viajan, y otros, como empleados de proveedores de confianza, a quienes se les han otorgado credenciales empresariales por sus términos de servicio. Los usuarios remotos pueden crear reuniones y unirse a ellas, así como actuar como moderadores.
 
-- **Usuarios que no pertenecen al inquilino**. Estos usuarios no tienen credenciales en Azure AD para el inquilino.
+- **Usuarios que no pertenecen al inquilino**. Estos usuarios no tienen una credencial en Azure AD para el espacio empresarial.
 
     *Usuarios federados*: los usuarios federados tienen credenciales válidas con asociados federados y, por lo tanto, se tratan como autenticadas por Teams, pero son externos al espacio empresarial del organizador de la reunión. Los usuarios federados pueden unirse a reuniones y ser promovidos a moderadores después de unirse a la reunión, pero no pueden crear reuniones en las empresas con las que se hayan federado.
 
@@ -290,7 +290,7 @@ Los organizadores de la reunión controlan si los participantes pueden unirse a 
 Los valores predeterminados son:
 
 - *Usuarios de mi organización*: todos los usuarios externos a la organización esperarán en la sala de espera hasta que se les admita.
-- *Usuarios de mi organización y de organizaciones de confianza*: los usuarios autenticados y usuarios externos de Teams y dominios de Skype Empresarial que están en la lista de permitidos de acceso externo pueden evitar la sala de espera. Los demás usuarios permanecerán en la sala de espera hasta que se les admita.
+- *Usuarios de mi organización y de organizaciones de confianza*: los usuarios autenticados y usuarios externos de Teams y dominios de Skype Empresarial que están en la lista de permitidos de acceso externo pueden evitar la sala de espera. Todos los demás usuarios esperarán en la sala de espera hasta que se admita.
 - *Todos los usuarios*: todos los participantes de la reunión evitan la sala de espera cuando un usuario autenticado se une a la reunión.
 
 ### <a name="presenter-capabilities"></a>Capacidades del presentador
