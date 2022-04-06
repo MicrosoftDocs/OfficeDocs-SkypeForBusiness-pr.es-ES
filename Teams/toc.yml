@@ -969,6 +969,8 @@ items:
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
       - name: Planes de marcado y enrutamiento
         items:
+          - name: Información general
+            href: dial-plans-routing-overview.md
           - name: ¿Qué son los planes de marcado?
             href: what-are-dial-plans.md
           - name: Crear y administrar planes de marcado

@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9accce27ded20f8ce78d4d5b80f6aff474213675
-ms.sourcegitcommit: c2a77ef9c1c9e6f00b3a4589bf02b100c37f5801
+ms.openlocfilehash: 384a57abb724ee29feb5f93fa171d0bc5ec96f3d
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64649041"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686497"
 ---
 # <a name="checks-and-validation-performed-by-microsoft-on-teams-apps"></a>Comprobaciones y validación realizadas por Microsoft en aplicaciones de Teams
 
@@ -31,15 +31,10 @@ Microsoft requiere que todas las aplicaciones pasen una validación obligatoria 
 
 Todas las aplicaciones son obligatoriamente necesarias para cumplir las directivas de certificación de aplicaciones de Microsoft. El equipo de la tienda Teams realiza más de 400 pruebas para garantizar que las aplicaciones sean utilizables y cumplan con altos estándares de privacidad y seguridad.
 
-Para conocer las instrucciones de validación detalladas que cumplen los desarrolladores de aplicaciones, consulta [Directrices de validación para desarrolladores](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
+Para conocer las instrucciones de validación detalladas que cumplen los desarrolladores de aplicaciones, consulta [Directrices de validación para desarrolladores](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines). Las instrucciones se basan en las [directivas de certificación de las aplicaciones de Teams](/legal/marketplace/certification-policies#1140-teams).
 
 > [!NOTE]
 > La validación y las comprobaciones de Microsoft no están disponibles para una aplicación personalizada, ya que se desarrolla dentro de su organización y solo está disponible para los miembros de la organización.
-
-<!--- TBD: Add the link later. 
-To review the certification policies of any app, see [App certification policies]().
-Is the link /microsoft-365-app-certification/teams/teams-apps
---->
 
 ## <a name="app-validation-and-testing"></a>Validación y pruebas de aplicaciones
 
