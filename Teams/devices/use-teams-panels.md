@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: En este artículo se proporcionan instrucciones sobre cómo usar Teams dispositivos de paneles.
-ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 2928bb64881cad5fb5c6615d26767e963f725dcd
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062544"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643044"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Cómo usar Microsoft Teams paneles
 
@@ -33,7 +33,7 @@ En este artículo se proporcionan instrucciones, tanto para los usuarios finales
 
 Para obtener información general sobre los dispositivos de paneles y las instrucciones sobre cómo planearlos, entregarlos y administrarlos en su organización, vea Implementar [Microsoft Teams paneles](teams-panels.md).
 
-Para un inicio rápido, consulte Introducción a [Teams paneles](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
+Para un inicio rápido, consulte Comenzar [con Teams paneles](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
 
 ## <a name="teams-panels-end-user-experience"></a>Teams de paneles finales
 
@@ -158,7 +158,7 @@ Para ver o actualizar una configuración de dispositivo:
 
 ## <a name="teams-panels-admin-experience"></a>Teams de administración de paneles
 
-Si es el administrador de Teams cuenta de recursos del [panel](teams-panels.md\#resource-account-provisioning), también es el administrador de **la aplicación Paneles** en el dispositivo. Como administrador **de la aplicación** Paneles, puede realizar todas las funciones que se mencionan en [](#teams-panels-end-user-experience) la sección experiencia del usuario final, además de administrar la  configuración de la aplicación Paneles en el dispositivo.
+Si es el administrador de [la cuenta de recursos de Panel de Teams](teams-panels.md\#resource-account-provisioning), también es el administrador de **la aplicación Paneles** en el dispositivo. Como administrador **de la aplicación** Paneles, puede realizar todas las funciones que se mencionan en [](#teams-panels-end-user-experience) la sección experiencia del usuario final, además de administrar la  configuración de la aplicación Paneles en el dispositivo.
 
 Los dispositivos de paneles proporcionan dos tipos de configuración de administrador. Debe ser administrador de dispositivos para obtener acceso a la configuración de administrador disponible. Los usuarios finales no pueden acceder a esta configuración.
 
@@ -192,9 +192,11 @@ Para obtener acceso a **la opción Configuración** paneles:
     - [Fondo de pantalla](#update-the-wallpaper)
     - [Indicador LED](#change-the-busy-state-led-color)
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Emparejar un panel Teams con una sala Microsoft Teams en Android
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Emparejar una Panel de Teams con una Microsoft Teams en Android
 
-En el panel Teams, inicie sesión con sus credenciales de administrador.  
+Para emparejar un Panel de Teams y Teams en Android, ambos dispositivos deben haber iniciado sesión en la misma cuenta de recursos.
+
+En el Panel de Teams, inicie sesión con sus credenciales de administrador.
 
 1. Vaya a **Configuración > Dispositivo Configuración > administrador Configuración > aplicaciones paneles Configuración > reuniones > emparejamiento de dispositivos.**
 
@@ -208,6 +210,24 @@ Cuando Teams paneles está emparejado con una sala de Microsoft Teams en Android
 
 Para habilitar la protección y la versión de la sala, vea Protección y [la versión de la sala en Microsoft Teams paneles](check-in-and-room-release.md).
 
+#### <a name="room-capacity-warning"></a>Advertencia de capacidad del salón
+
+Teams paneles que están emparejados con una sala de Teams en Android puede mostrar un mensaje de advertencia cuando una sala de reuniones tiene o supera su capacidad. Para usar esta característica, el Teams debe tener una cámara que admita el recuento de personas. Salas de Teams advertencias de capacidad del salón de soporte técnico android sin Panel de Teams.
+
+Las advertencias de capacidad del salón están desactivadas de forma predeterminada. Para activar la configuración desde el Panel de Teams, primero empareja una Panel de Teams con un Microsoft Teams [en Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). El panel y el Teams sala deben haber iniciado sesión en la misma cuenta de recursos.
+
+ A continuación, vaya **a Configuración > Configuración del dispositivo > configuración de administrador > configuración de la aplicación Panel**. A continuación, **en Reuniones**, activa la notificación **de ocupación de la sala Max**.
+
+#### <a name="view-room-equipment"></a>Ver el equipamiento de la sala
+
+Cuando esta característica está activada, los usuarios finales pueden ver qué equipamiento está disponible en un espacio en un Panel de Teams.
+
+Esta característica está desactivada de forma predeterminada y se puede habilitar por dispositivo. Para activarlo, use [Set-Place](/powershell/module/exchange/set-place?view=exchange-ps) en PowerShell para configurar los nombres para `AudioDeviceName`mostrar para , `DisplayDeviceName``VideoDeviceName`, y `Tags`y `IsWheelChairAccessible`.
+
+O bien, puede habilitar esta característica en el centro Exchange administración. Vea [Editar un recurso para](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) obtener más información.
+
+
+
 #### <a name="update-the-wallpaper"></a>Actualizar el fondo de pantalla
 
 Cambiar la imagen de fondo de pantalla inicio.
@@ -216,7 +236,7 @@ Cambiar la imagen de fondo de pantalla inicio.
 2. Pulse **Fondos de pantalla**.
 3. En **Elegir la imagen**, seleccione una imagen para establecerla como imagen de fondo de la pantalla inicio. Obtenga una vista previa de la imagen seleccionada en **Fondo**.
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="Esta captura de pantalla muestra la pantalla de configuración del fondo de pantalla.":::
-4. Vuelva a la pantalla Inicio y compruebe que el fondo de pantalla está actualizado.
+4. Volver a la pantalla Inicio y compruebe que el fondo de pantalla está actualizado.
 
 #### <a name="change-the-busy-state-led-color"></a>Cambiar el color del LED de estado ocupado
 
@@ -226,7 +246,7 @@ Los administradores pueden elegir rojo o púrpura como color LED para indicar qu
 2. Pulse **LED Configuración**.
 3. En **Elegir el color del LED**, seleccione el color deseado.
 :::image type="content" source="../media/panels-led-settings.png" alt-text="Esta captura de pantalla muestra la configuración de estado ocupado del color del LED.":::
-4. Vuelva a la pantalla Inicio y compruebe que el color del LED para el estado ocupado está actualizado. Si el espacio de reunión está disponible actualmente, intente programar una reunión de prueba para comprobar el cambio en el color del LED para el estado ocupado.
+4. Volver a la pantalla Inicio y compruebe que el color del LED para el estado ocupado está actualizado. Si el espacio de reunión está disponible actualmente, intente programar una reunión de prueba para comprobar el cambio en el color del LED para el estado ocupado.
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 

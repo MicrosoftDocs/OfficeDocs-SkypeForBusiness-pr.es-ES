@@ -1495,6 +1495,8 @@ items:
         items:
           - name: 'Seguridad, cumplimiento, privacidad y control de datos para aplicaciones de terceros'
             href: /microsoft-365-app-certification/overview
+          - name: Usar Microsoft 365 u Office 365 y los conectores personalizados
+            href: Office-365-custom-connectors.md
           - name: Comprar aplicaciones de terceros para Microsoft Teams
             href: purchase-third-party-apps.md
       - name: Plantillas de aplicación para Microsoft Teams
@@ -1511,8 +1513,6 @@ items:
             href: customize-apps.md
           - name: Personalizar la marca de la tienda de aplicaciones de su organización
             href: customize-your-app-store.md
-          - name: Usar pestañas integradas y personalizadas
-            href: built-in-custom-tabs.md
       - name: Controles de administración y gobernanza de aplicaciones
         items:
           - name: Información general sobre la administración de aplicaciones para administradores
@@ -1537,8 +1537,6 @@ items:
             href: app-permissions.md
           - name: Configurar la administración para aplicaciones en Teams
             href: admin-settings.md
-          - name: Usar Microsoft 365 u Office 365 y los conectores personalizados
-            href: Office-365-custom-connectors.md
           - name: Comportamiento de la aplicación basado en tipos de usuarios
             href: non-standard-users.md
           - name: Actualización de aplicaciones a versiones más recientes como usuarios finales

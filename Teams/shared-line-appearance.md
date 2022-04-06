@@ -22,19 +22,19 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo enviar a los usuarios un correo electrónico con su información de audioconferencia en Microsoft Teams.
-ms.openlocfilehash: 1ec0b74bab289eaca1b1046eccebb870e8562a95
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+ms.openlocfilehash: d47b763b877c49194c26eae05904ea1b7ccee5ec
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312273"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642864"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Apariencia de línea compartida en Microsoft Teams
 
 La apariencia de línea compartida forma parte de la característica de delegación que permite al usuario elegir un delegado para responder o administrar llamadas en su nombre. Esta característica es útil si un usuario tiene un asistente administrativo que controla periódicamente las llamadas del usuario. En el contexto de la apariencia de línea compartida, un administrador es alguien que autoriza a un delegado a realizar o recibir llamadas en su nombre, y un delegado puede realizar y recibir llamadas en nombre de otra persona.
 
 > [!IMPORTANT]
-> Esta característica solo está disponible en Teams de implementación solo. Para obtener más información sobre Teams de implementación, vea Comprender Microsoft Teams [y Skype Empresarial e interoperabilidad](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Esta característica solo está disponible en Teams de implementación solo. Para obtener más información sobre Teams de implementación, vea Comprender [Microsoft Teams y Skype Empresarial coexistencia e interoperabilidad](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>Licencia necesaria
 
@@ -46,18 +46,18 @@ Tanto los administradores como los delegados deben tener Sistema telefónico con
 
 La delegación y la apariencia de línea compartida son características controladas por el usuario: no hay ninguna configuración de administrador que configurar. Para obtener información sobre cómo usar la característica, vea [Compartir una línea telefónica con un delegado](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-El administrador de inquilinos puede habilitar la delegación a través de **la configuración TeamsCallingPolicy AllowDelegation** o Teams portal de administración para que esta característica funcione. 
+El administrador de inquilinos puede habilitar la delegación a través de **la configuración TeamsCallingPolicy AllowDelegation** o Teams Portal de administración para que esta característica funcione. 
 
-El administrador de inquilinos también puede configurar relaciones de delegación para un usuario en el Teams de administración. Además, el usuario final también puede configurar sus relaciones de delegación directamente en Teams. El administrador de inquilinos o el usuario no pueden bloquear la configuración entre sí, pero el centro de administración de Teams y el cliente Teams deben mostrar esta relación con precisión en ambos lugares. 
+El administrador de inquilinos también puede configurar relaciones de delegación para un usuario en el Teams de administración. Además, el usuario final también puede configurar sus relaciones de delegación directamente en Teams. El administrador de inquilinos o el usuario no pueden bloquear la configuración entre sí, pero el centro de administración de Teams y Teams cliente deben mostrar esta relación con precisión en ambos lugares. 
 
 > [!IMPORTANT]
-> Cuando el administrador de inquilinos desactiva la delegación de un usuario (después de que se haya activado), también necesitan limpiar las relaciones de delegación para ese usuario en el centro de administración de Teams para evitar un enrutamiento de llamadas incorrecto.
+> Cuando el administrador de inquilinos desactiva la delegación de un usuario (después de que se haya activado), también debe limpiar las relaciones de delegación para ese usuario en el Centro de administración de Teams para evitar un enrutamiento de llamadas incorrecto.
 
 ## <a name="shared-line-appearance-feature-availability"></a>Disponibilidad de características de apariencia de línea compartida
 
 La apariencia de línea compartida es compatible actualmente con las siguientes aplicaciones y dispositivos.
 
-| Funcionalidad | Teams escritorio | Teams Mac App | Teams Web App (Edge) |Teams aplicación móvil iOS/Android | Teams teléfono IP |
+| Funcionalidad | Teams escritorio | Teams aplicación mac | Teams Web App (Edge) |Teams aplicación móvil iOS/Android | Teams teléfono IP |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
 | Configurar la delegación | Sí | Sí | Sí | No | Sí |
 | Recibir llamadas en nombre de otro usuario | Sí | Sí | Sí | Sí | Sí |
@@ -73,6 +73,8 @@ La apariencia de línea compartida es compatible actualmente con las siguientes 
 Los administradores pueden sumar hasta 25 delegados y los delegados pueden tener hasta 25 administradores. No hay ningún límite para el número de relaciones de delegación que se pueden crear en un espacio empresarial. 
  
 Si el delegado y el delegado no están en la misma ubicación geográfica, es el proveedor RTC quien permite que el identificador de llamada se muestre desde una ubicación geográfica diferente para una llamada delegada (en nombre de). 
+
+La configuración de delegación circular no está permitida. Si los usuarios delegados también tienen delegación entre ellos, solo podrán ver su delegación y no la delegación inicial.
  
 ## <a name="more-information"></a>Más información
 

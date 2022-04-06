@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 35246d03fb7611971bd846370413ca0580397647
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+ms.openlocfilehash: e4a09c92fad10f91abad697a92764429deed3bf8
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64457053"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643084"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Administrar directivas de permisos de aplicación en Microsoft Teams
 
@@ -89,9 +89,12 @@ Puede usar el centro Teams administración para editar una directiva, incluidas 
 
 En un Microsoft 365 gubernamental: implementación de GCCH y DoD de Teams, es importante conocer lo siguiente sobre la configuración de aplicaciones de terceros, que son únicas para GCCH y DoD.
 
-En GCCH y DoD, todas las aplicaciones de terceros están bloqueadas de forma predeterminada. Además, verá la siguiente nota sobre la administración de aplicaciones de terceros en la página de directivas de permisos de aplicación del Centro de administración de Microsoft Teams.
+En GCC, todas las aplicaciones de terceros están bloqueadas de forma predeterminada. Además, verá la siguiente nota sobre la administración de aplicaciones de terceros en la página de directivas de permisos de aplicación del Centro de administración de Microsoft Teams.
 
-![Captura de pantalla de la directiva de permisos de aplicación en GCCH y DoD.](media/app-permission-policies-gcc.png)
+:::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="Captura de pantalla de la directiva de permisos de aplicación en GCCH y DoD." lightbox="media/app-permission-policies-gcc.png":::
+
+> [!NOTE]
+> En las nubes GCCH y DOD, las aplicaciones de terceros no están disponibles.
 
 Use la configuración de aplicaciones para toda la organización para controlar si los usuarios pueden instalar aplicaciones de terceros. La configuración de aplicaciones para toda la organización rige el comportamiento de todos los usuarios e invalida cualquier otra directiva de permisos de aplicación asignada a los usuarios. Puede usarla para controlar las aplicaciones malintencionadas o problemáticas.
 

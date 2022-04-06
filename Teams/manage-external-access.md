@@ -21,12 +21,12 @@ description: Su administrador de Teams o de TI puede configurar el acceso extern
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 8505a57ff0ab9bb2e79607ffe13768058bab26d6
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
-ms.translationtype: HT
+ms.openlocfilehash: 06243ca47e26f66dd4194a9ec9e50cc5a6bfbde7
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556321"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642854"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Administrar el acceso externo en Microsoft Teams
 
@@ -106,6 +106,9 @@ Para bloquear dominios específicos
 Para comunicarse con otro inquilino, deben habilitar **Permitir todos los dominios externos** o agregar el inquilino a su lista de dominios permitidos siguiendo los mismos pasos anteriores.  
 
 ## <a name="manage-contact-with-external-teams-users-not-managed-by-an-organization"></a>Administrar el contacto con usuarios externos de Teams no administrados por una organización
+
+> [!NOTE]
+> Las Teams y Skype de interoperabilidad que se debatieron en este artículo no están disponibles en implementaciones de GCC, GCC High o DOD, ni en entornos de nube privados.
 
 Los administradores pueden elegir habilitar o deshabilitar las comunicaciones con usuarios externos de Teams que no estén administrados por una organización ("no administrado"). Si está habilitada, también pueden controlar más si las personas con cuentas de Teams no administradas pueden iniciar el contacto (consulte la siguiente imagen). Si **Usuarios externos con cuentas de Teams no administradas por una organización pueden ponerse en contacto con los usuarios de mi organización** está desactivada, los usuarios de Teams no administrados no podrán buscar la dirección de correo electrónico completa para buscar contactos de la organización y todas las comunicaciones con los usuarios de Teams no administrados deberán ser iniciadas por los usuarios de la organización.
 

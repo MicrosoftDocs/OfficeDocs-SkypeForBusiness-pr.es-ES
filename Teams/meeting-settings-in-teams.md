@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
-ms.openlocfilehash: 294bbac570d1f1741449c7c81cb9389b20cdcdc6
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
-ms.translationtype: HT
+ms.openlocfilehash: 10afbcc30404122e9e4d497570bf0b69e4ef6fa7
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62960032"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642924"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de las reuniones en Microsoft Teams
 
@@ -70,7 +70,7 @@ Puesto que tanto las directivas para toda la organización como las directivas p
 
 Cualquier otra combinación de valores impedirá que los usuarios anónimos se unan a las reuniones.
 > [!NOTE]
-> Para usar la directiva por organizador para las organizaciones con unión de usuarios anónimos desactivada por organización, los administradores deberán crear una directiva y asignarla a los usuarios. Para obtener información sobre cómo hacerlo, vea [Administrar directivas de reunión en Microsoft Teams](/microsoftteams/meeting-policies-overview).
+> Para obtener más información sobre la administración de directivas de reunión, vea [Administrar directivas de reunión en Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 ### <a name="blocking-anonymous-join-for-specific-client-types"></a>Bloquear la combinación anónima para tipos de clientes específicos
 

@@ -8,20 +8,25 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-  - M365-collaboration
-description: Obtenga información sobre cómo usar el informe Teams actividad del usuario en el centro de administración de Microsoft Teams para ver cómo usan los usuarios de su organización Teams.
+- M365-collaboration
+description: Obtenga información sobre cómo usar el Teams actividad del usuario en el centro de administración de Microsoft Teams para ver cómo usan los usuarios de su organización Teams.
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 268cae481a0e501da2569dee379901e6c7a6489d
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642904"
 ---
-
 # <a name="microsoft-teams-user-activity-report"></a>Informe de actividad de usuario de Microsoft Teams
 
-El Teams actividad de usuario proporciona información sobre los tipos de actividades que los usuarios de su organización hacen en Teams. Puede ver cuántos usuarios se comunican de forma no planificada a través de reuniones no programadas (1:1 y llamadas grupales). Vea cuántas reuniones ha organizado Teams usuario y las reuniones en las que ha participado Teams usuario. Vea detalles sobre minutos de pantalla, vídeo y audio, y estadísticas de comunicación de chat, como cuántos usuarios responden y publican mensajes del canal, y cuántos usuarios participan en mensajes de chat grupales o de 1:1.
+El Teams actividad de usuario proporciona información sobre los tipos de actividades que los usuarios de su organización hacen en Teams. Puede ver cuántos usuarios se comunican de forma no planificada a través de reuniones no programadas (1:1 y llamadas grupales). Vea cuántas reuniones ha organizado Teams usuario y las reuniones en las que Teams usuario ha participado. Vea detalles sobre minutos de pantalla, vídeo y audio, y estadísticas de comunicación de chat, como cuántos usuarios responden y publican mensajes del canal, y cuántos usuarios participan en mensajes de chat grupales o de 1:1.
 
 > [!NOTE]
 > La capacidad de programar un informe de actividad de usuario no está disponible en este momento.
@@ -30,7 +35,7 @@ El Teams actividad de usuario proporciona información sobre los tipos de activi
 
 Debe ser administrador de servicio de Teams para poder realizar estos cambios. Consulte [Usar los roles de administrador de Teams para administrar Teams](../using-admin-roles.md) para obtener información sobre cómo obtener roles de administrador y permisos.
 
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, seleccione **Análisis &** **informesUsar** >  informes. En la **pestaña Ver informes**, en **Informe**, **seleccione Teams actividad del usuario**.
+1. En el panel de navegación izquierdo del centro Microsoft Teams administración, seleccione **Análisis &** **informesUsar** >  informes. En la **pestaña Ver informes**, en **Informe**, **seleccione Teams actividad del usuario**.
 2. En **Intervalo de fechas**, seleccione un rango y, a continuación, seleccione **Ejecutar informe**.
 
     ![Captura de pantalla del Teams actividad del usuario en el Teams de administración con llamadas.](../media/teams-reports-user-activity-with-callouts.png "Captura de pantalla del Teams actividad del usuario en el Teams de administración con llamadas")
@@ -53,11 +58,11 @@ Debe ser administrador de servicio de Teams para poder realizar estos cambios. C
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Convertir los datos específicos del usuario en anónimos
 
-Para que los datos de Teams de actividad de usuario sean anónimos, debe ser administrador global. Esto ocultará información identificable (usando hashes MD5), como el nombre para mostrar, el correo electrónico y AAD id. en el informe y su exportación.
+Para que los datos de Teams informe de actividad de usuario sean anónimos, debe ser administrador global. Esto ocultará información identificable (usando hashes MD5), como el nombre para mostrar, el correo electrónico y AAD id. en el informe y su exportación.
 
-1. En Centro de administración de Microsoft 365, vaya a la  \> Configuración **de Configuración** y, en la **pestaña Servicios,** elija **Informes**.
+1. En Centro de administración de Microsoft 365, vaya  \> a la Configuración **organización Configuración** y, en la **pestaña Servicios,** elija **Informes**.
     
-2. Seleccione **Informes** y, a continuación, **elija Mostrar identificadores anónimos**. Esta configuración se aplica tanto a los informes de uso de Centro de administración de Microsoft 365 como Teams de administración.
+2. Seleccione **Informes** y, a continuación, elija Mostrar nombres de usuario, grupo y **sitio ocultos en todos los informes**. Esta configuración se aplica tanto a los informes de uso de Centro de administración de Microsoft 365 como Teams centro de administración.
   
 3. Seleccione **Guardar cambios**.
 
