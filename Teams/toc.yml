@@ -1563,8 +1563,8 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Administrar la aplicación Bookings
                 href: bookings-app-admin.md
-              - name: Administrar la experiencia de unión en exploradores móviles
-                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: Administrar la experiencia de unión en exploradores
+                href: expand-teams-across-your-org/browser-join.md
               - name: Informe de uso de consultas virtuales
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
           - name: Turnos para Teams
@@ -1693,8 +1693,8 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Informe de uso de consultas virtuales
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
-              - name: Administrar la experiencia de unión en exploradores móviles
-                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: Administrar la experiencia de unión en exploradores
+                href: expand-teams-across-your-org/browser-join.md
           - name: Ver y asignar paquetes de directivas
             href: policy-packages-healthcare.md
           - name: Mensajería segura
