@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
-ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
+ms.openlocfilehash: 95dd3f01d07a2e393414013ab40ca97ec1a63bb6
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61216676"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756976"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Actualizar los usuarios de la versión de prueba de Teams Exploratory
 
@@ -37,7 +37,7 @@ En este artículo se proporciona información general sobre cómo actualizar los
 
 ## <a name="step-1-when-to-upgrade"></a>Paso 1: Cuándo actualizar  
 
-Para comprobar cuándo expira la prueba de Teams Exploratory de su organización y cuántos usuarios activos tiene, vaya a **Facturación >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>sus productos</b></a> en el Centro de administración de Microsoft 365. También se le notificará antes de que expire la prueba de Teams Exploratory.
+Para comprobar cuándo expira la prueba de Teams Exploratory de su organización y cuántos usuarios activos tiene, vaya a **Facturación >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>Sus productos</b></a> en el Centro de administración de Microsoft 365. También se le notificará antes de que expire la prueba de Teams Exploratory.
 
 > [!IMPORTANT]
 > Debe realizar un plan para actualizar los usuarios a licencias de pago antes de la fecha de expiración, para que los usuarios no pierdan el acceso a Teams.
@@ -45,6 +45,9 @@ Para comprobar cuándo expira la prueba de Teams Exploratory de su organización
 > Los usuarios perderán el acceso a Teams 30 días después de la fecha de expiración de la prueba. Siempre que los usuarios tengan asignada una licencia de pago en un plazo de 60 días a partir de la fecha de expiración, podrán recuperar el acceso a Teams y todo el contenido seguirá existiendo. Sin embargo, después de 60 días, se eliminan los datos de los usuarios. Después de asignar una nueva licencia a los usuarios para habilitar la funcionalidad de Teams, si se agregan dentro del período de tiempo del período de gracia, todo el contenido permanece. Para más información, consulte <a href="/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide" target="_blank">¿Qué sucede con mis datos y mi acceso cuando termina mi suscripción?</a>
 
 ## <a name="step-2-choose-an-upgrade-path"></a>Paso 2: Elegir una ruta de actualización
+
+> [!TIP]
+> Se recomienda Teams Essentials como la opción principal para los clientes que desean actualizar sus pruebas exploratorias de Teams que expiran. Para obtener más información, vea [Comparar Microsoft Teams Essentials con otros planes](get-started-with-teams-essentials.md#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans).
 
 En función de las suscripciones que tenga actualmente su organización, hay tres maneras de actualizar de una versión de prueba de Microsoft Teams Exploratory a una licencia de pago:
 
@@ -67,7 +70,7 @@ Después de asignar las nuevas licencias, anule la asignación de las licencias 
 
 ### <a name="auto-claim-policies"></a>Directivas de notificación automática
 
-La próxima vez que actualice, use directivas de notificación automática para crear directivas para que su organización asigne automáticamente licencias de suscripciones de pago a nuevos usuarios que no hayan adquirido una licencia de Teams. Para obtener más información, vea <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Administrar directivas de notificación automática</a>.
+La próxima vez que actualice, use directivas de reclamación automática. Con ellas podrá crear directivas para que su organización asigne automáticamente licencias de suscripciones de pago a nuevos usuarios sin una licencia de Teams adquirida. Para obtener más información, vea <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Administrar directivas de notificación automática</a>.
 
 ## <a name="related-topics"></a>Temas relacionados
 
