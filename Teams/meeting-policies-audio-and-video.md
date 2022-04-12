@@ -18,27 +18,27 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
-description: Aprenda a administrar la configuración de directiva de reunión en Teams para audio y vídeo.
-ms.openlocfilehash: a9fc08208d35880637e5f044285a19fb97357157
-ms.sourcegitcommit: 2b858f5e7281705b383522615b6ade6eba347df5
+description: Aprenda a administrar la configuración de la directiva de reunión en Teams de audio y vídeo.
+ms.openlocfilehash: cb53cfa52b9e3be28b6400ab87a9fc3b329406b9
+ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63448813"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784694"
 ---
-# <a name="meeting-policy-settings-for-audio--video"></a>Configuración de directiva de reunión para audio & vídeo
+# <a name="meeting-policy-settings-for-audio--video"></a>Configuración de la directiva de reunión para vídeo & audio
 
 <a name="bkaudioandvideo"> </a>
 <a name="ndi"> </a>
 
-En este artículo se describen las configuraciones de directiva de reunión específicas de audio y vídeo. Entre ellas se incluyen las siguientes:
+En este artículo se describe la configuración de la directiva de reunión específica para el audio y el vídeo. Entre ellas se incluyen las siguientes:
 
 - [Modo de audio IP](#mode-for-ip-audio)
 - [Modo de vídeo IP](#mode-for-ip-video)
 - [Vídeo IP](#ip-video)
 - [Velocidad de bits multimedia (kb/s)](#media-bit-rate-kbs)
-- [Modo filtros de vídeo](#video-filters-mode)
-- [Permitir la configuración de fondo personalizada](#allow-custom-background-settings)
+- [Modo de filtros de vídeo](#video-filters-mode)
+- [Permitir la configuración personalizada del fondo](#allow-custom-background-settings)
 - [Control de cámara de extremo lejano (FECC) para cámaras de zoom de inclinación de puntos (PTZ)](#far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras)
 
 ### <a name="mode-for-ip-audio"></a>Modo de audio IP
@@ -48,9 +48,9 @@ Esta es una directiva por usuario. Esta configuración controla si se puede acti
 |Valor de configuración |Comportamiento  |
 |---------|---------|
 |**Audio entrante y saliente activado**    |De forma predeterminada, se permiten en la reunión el vídeo y audio entrantes y salientes. |
-|**Deshabilitado**     |El audio entrante y saliente en la reunión está desactivado.     |
+|**No habilitado**     |El audio entrante y saliente en la reunión está desactivado.     |
 
-Si se establece en **Deshabilitado** para un usuario, el usuario podrá seguir programando y organizando reuniones, pero no podrá usar el audio. Para unirse a una reunión, tendrá que marcar para acceder a través de la red telefónica conmutada (RTC) o hacer que se llame a la reunión y unirse por teléfono a ella. Los participantes de la reunión que no tengan ninguna directiva asignada (por ejemplo, los participantes anónimos) tienen esto establecido como **Audio de salida y entrada habilitado** de forma predeterminada. Si esta opción está deshabilitada en los clientes móviles de Teams, el usuario tendrá que marcar para acceder a la reunión a través de la RTC.
+Si se establece **en No habilitado** para un usuario, podrá programar y organizar reuniones, pero no podrá usar el audio. Para unirse a una reunión, tendrá que marcar para acceder a través de la red telefónica conmutada (RTC) o hacer que se llame a la reunión y unirse por teléfono a ella. Los participantes de la reunión que no tengan ninguna directiva asignada (por ejemplo, los participantes anónimos) tienen esto establecido como **Audio de salida y entrada habilitado** de forma predeterminada. En Teams clientes móviles, si esta configuración no está habilitada, el usuario tiene que llamar a la reunión a través de RTC.
 
 Esta configuración no se aplica a las llamadas 1:1. Para restringir llamadas 1:1, configure una [directiva de llamada](teams-calling-policy.md) de Teams y desactive el valor **Realizar llamadas privadas**. Esta configuración tampoco se aplica a los dispositivos de la sala de conferencias, como los dispositivos de Surface Hub y Salas de Microsoft Teams.
 
@@ -65,22 +65,22 @@ Esta es una directiva por usuario. Esta configuración controla si se puede acti
 |Valor de configuración |Comportamiento  |
 |---------|---------|
 |**Vídeo entrante y saliente activado**    | Se permite el vídeo entrante y saliente en la reunión. Esta configuración es la predeterminada. |
-|**Deshabilitado**     | El vídeo entrante y saliente en la reunión está desactivado. En los clientes para móvil de Teams, los usuarios no pueden compartir vídeos ni fotos en la reunión. <br><br>Tenga en cuenta que si está deshabilitado el **Modo para audio IP**, entonces el **Modo para vídeo IP** permanecerá también deshabilitado.  |
+|**No habilitado**     | El vídeo entrante y saliente en la reunión está desactivado. En los clientes para móvil de Teams, los usuarios no pueden compartir vídeos ni fotos en la reunión. <br><br>Tenga en cuenta que si el **modo de audio IP** no está habilitado, el **modo de vídeo IP** tampoco permanecerá habilitado.  |
 
-Si se establece en **Deshabilitado** para un usuario, ese usuario no puede activar el vídeo o ver vídeos compartidos por otros participantes de la reunión. Los participantes de la reunión que no tengan ninguna directiva asignada (por ejemplo, los participantes anónimos) tienen esto establecido como **Vídeo de salida y entrada habilitado** de forma predeterminada.
+Si se establece en **No habilitado** para un usuario, no podrá activar el vídeo ni ver vídeos compartidos por otros participantes de la reunión. Los participantes de la reunión que no tengan ninguna directiva asignada (por ejemplo, los participantes anónimos) tienen esto establecido como **Vídeo de salida y entrada habilitado** de forma predeterminada.
 
 Esta configuración no se aplica a los dispositivos de la sala de conferencias, como los dispositivos de Surface Hub y Salas de Microsoft Teams.
 
 Esta configuración aún no está disponible para entornos de Microsoft 365 Government Community Cloud (GCC), GCC High o Department of Defense (DoD).
 
 > [!NOTE]
-> Tenga en cuenta que esta configuración controla tanto el vídeo saliente como el entrante, mientras que la configuración de **vídeo IP** controla el vídeo saliente. Para obtener más información, consulte [¿Cuál es la prioridad de la configuración de directiva de vídeo IP?](#which-ip-video-policy-setting-takes-precedence) y [Administrar el audio y el vídeo de los participantes de la reunión](#manage-audiovideo-for-meeting-participants).
+> Tenga en cuenta que esta configuración controla el vídeo saliente y el entrante, mientras que la configuración de **vídeo IP** controla el vídeo saliente. Para obtener más información, consulte [¿Cuál es la prioridad de la configuración de directiva de vídeo IP?](#which-ip-video-policy-setting-takes-precedence) y [Administrar el audio y el vídeo de los participantes de la reunión](#manage-audiovideo-for-meeting-participants).
 
 Para obtener más información, consulte [Administrar el audio y el vídeo de los participantes de la reunión](#manage-audiovideo-for-meeting-participants).
 
 ### <a name="ip-video"></a>Vídeo IP
 
-Esta es una combinación de directiva por organizador y por usuario. El vídeo es un componente clave de las reuniones. En algunas organizaciones, los administradores pueden querer disponer de más control sobre qué reuniones de usuarios tienen vídeo. Esta configuración controla si se puede activar el vídeo en reuniones hospedadas por un usuario y en llamadas 1:1 y de grupo iniciadas por un usuario. En Teams móviles, esta configuración controla si los usuarios pueden compartir fotos y vídeos en una reunión.
+Esta es una combinación de directiva por organizador y por usuario. El vídeo es un componente clave de las reuniones. En algunas organizaciones, los administradores pueden querer disponer de más control sobre qué reuniones de usuarios tienen vídeo. Esta configuración controla si se puede activar el vídeo en reuniones hospedadas por un usuario y en llamadas 1:1 y de grupo iniciadas por un usuario. En Teams clientes móviles, esta configuración controla si los usuarios pueden compartir fotos y vídeos en una reunión.
 
 Las reuniones organizadas por un usuario que tiene habilitada esta configuración de directiva, permiten el uso compartido de vídeo en la reunión por parte de los participantes de la reunión, si estos también tienen la configuración de directiva habilitada. Los participantes de la reunión a los que no se les ha asignado ninguna directiva (por ejemplo, los participantes anónimos y federados) heredan la directiva del organizador de la reunión.
 
@@ -114,9 +114,9 @@ Para un usuario, la configuración de directiva más restrictiva para el vídeo 
 |---------|---------|---------|
 |Organizador: **Activado**<br><br>Participante: **Activado** |Participante: **Deshabilitado**        |La configuración del **Modo de vídeo IP** tiene prioridad. El participante al que se asigna esta directiva no puede activar o ver vídeos compartidos por otros usuarios.|
 |Organizador: **Activado**<br><br>Participante: **Activado** |Participante: **Vídeo entrante y saliente activado**          |El participante al que se asigna esta directiva puede activar o ver vídeos compartidos por otros usuarios.         |
-|Organizador: **Activado**<br><br>Participante: **Desactivado** |Participante: **Vídeo entrante y saliente activado**         |La **configuración de vídeo IP** tiene prioridad. Los participantes solo pueden ver el vídeo entrante y no pueden enviar vídeo saliente.         |
+|Organizador: **Activado**<br><br>Participante: **Desactivado** |Participante: **Vídeo entrante y saliente activado**         |La configuración de **vídeo IP** tiene prioridad. Los participantes solo pueden ver el vídeo entrante y no pueden enviar vídeo saliente.         |
 |Organizador: **Activado**<br><br>Participante: **Desactivado** |Participante: **Deshabilitado**         |La configuración del **Modo de vídeo IP** tiene prioridad. El participante no puede ver ni el vídeo entrante ni el saliente.|
-|Organizador: **Desactivado**    |       |La **configuración de vídeo IP** tiene prioridad porque está desactivada para el organizador. Nadie puede activar el vídeo en las reuniones organizadas por el usuario al que se asigna esta directiva.         |
+|Organizador: **Desactivado**    |       |La configuración de **vídeo IP** tiene prioridad porque está desactivada para el organizador. Nadie puede activar el vídeo en las reuniones organizadas por el usuario al que se asigna esta directiva.         |
 
 ### <a name="manage-audiovideo-for-meeting-participants"></a>Administrar el audio y el vídeo de los participantes de la reunión
 
@@ -125,7 +125,7 @@ Para un usuario, la configuración de directiva más restrictiva para el vídeo 
 |Deshabilitar el audio y el vídeo para los participantes en reuniones  |Modo de audio IP: **Deshabilitado**<br> Modo de vídeo IP: **Deshabilitado**<br>Vídeo IP: N/A       |
 |Habilitar solo vídeo y audio entrante para participantes en reuniones  |Modo de audio IP: **Audio entrante y saliente activado**<br> Modo de vídeo IP: **Vídeo entrante y saliente activado**<br>Vídeo IP: **Desactivado**       |
 |Deshabilitar el vídeo para los participantes en reuniones (los participantes solo tienen audio)|  Modo de audio IP: **Activar el audio entrante y saliente**<br> Modo de vídeo IP: **Deshabilitado**<br>Vídeo IP: N/A
-|Habilitar el audio y el vídeo para los participantes en reuniones    |Modo de audio IP: **Audio entrante y saliente activado** (predeterminado)<br> Modo de vídeo IP: **Vídeo entrante y saliente activado** (predeterminado)<br>Vídeo IP: **On** (predeterminado)    |
+|Habilitar el audio y el vídeo para los participantes en reuniones    |Modo de audio IP: **Audio entrante y saliente activado** (predeterminado)<br> Modo de vídeo IP: **Vídeo entrante y saliente activado** (predeterminado)<br>Vídeo IP: **Activado** (predeterminado)    |
 
 Se aplica la directiva más restrictiva entre la directiva del organizador de la reunión y la del usuario. Por ejemplo, si un organizador tiene una directiva que restringe el vídeo y la directiva de un usuario no restringe el vídeo, los participantes de la reunión heredan la directiva del organizador de la reunión y no tienen acceso al vídeo en las reuniones. Esto significa que solo podrán unirse a la reunión con audio.
 
@@ -134,7 +134,7 @@ Se aplica la directiva más restrictiva entre la directiva del organizador de la
 
 #### <a name="teams-mobile-clients"></a>Clientes de móvil de Teams
 
-Para los usuarios de Teams móviles, la capacidad de compartir fotos y vídeos durante una reunión también está determinada por la configuración del modo de vídeo **IP** o **vídeo IP**. En función de la configuración de directiva que tenga prioridad, la capacidad para compartir vídeos y fotos no estará disponible. Esto no afecta al uso compartido de la pantalla, que se configura con el modo de [Uso compartido de pantalla](meeting-policies-content-sharing.md#screen-sharing-mode). Asimismo, puede establecer una directiva de movilidad de [Teams](/powershell/module/skype/new-csteamsmobilitypolicy) para evitar que los usuarios móviles utilicen vídeo IP sobre una conexión móvil, lo que significa que deben usar una conexión Wi-Fi.
+Para los usuarios de Teams clientes móviles, la capacidad de compartir fotos y vídeos durante una reunión también viene determinada por la configuración del modo de **vídeo IP** o **de vídeo IP**. En función de la configuración de directiva que tenga prioridad, la capacidad para compartir vídeos y fotos no estará disponible. Esto no afecta al uso compartido de la pantalla, que se configura con el modo de [Uso compartido de pantalla](meeting-policies-content-sharing.md#screen-sharing-mode). Asimismo, puede establecer una directiva de movilidad de [Teams](/powershell/module/skype/new-csteamsmobilitypolicy) para evitar que los usuarios móviles utilicen vídeo IP sobre una conexión móvil, lo que significa que deben usar una conexión Wi-Fi.
 
 ### <a name="media-bit-rate-kbs"></a>Velocidad de bits multimedia (kb/s)
 
@@ -144,47 +144,47 @@ Si no hay suficiente ancho de banda para una reunión, los participantes ven un 
 
 Para las reuniones que necesitan una experiencia de vídeo de mayor calidad, como las reuniones de juntas directivas y los eventos de Teams en directo, le recomendamos que establezca el ancho de banda en 10 Mb/s. Incluso si se establece la experiencia máxima, la pila de medios de Teams se adapta a condiciones de bajo ancho de banda cuando se detectan determinadas condiciones de red, según el contexto.
 
-## <a name="video-filters-mode"></a>Modo filtros de vídeo
+## <a name="video-filters-mode"></a>Modo de filtros de vídeo
 
 <a name="bkvideofilters"> </a>
 
 Esta configuración se aplica por participante. Esta configuración controla si los usuarios pueden personalizar su fondo de vídeo en una reunión.
 
-Puede usar el centro Teams administración y PowerShell para establecer esta directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
+Puede usar Teams centro de administración y PowerShell para establecer esta directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
 
-Para especificar si los usuarios pueden personalizar su fondo de vídeo en una reunión, establezca el parámetro **VideoFiltersMode** **(configuración** Seleccionar filtros de vídeo en Teams centro de administración) de la siguiente manera:
+Para especificar si los usuarios pueden personalizar el fondo del vídeo en una reunión, establezca el parámetro **VideoFiltersMode** (**configuración Seleccionar filtros de vídeo** en Teams centro de administración) de la siguiente manera:
 
-|Establecer valor en PowerShell|Valor de configuración en Teams de administración |Comportamiento  |
+|Establecer valor en PowerShell|Valor de configuración en Teams centro de administración |Comportamiento  |
 |---------|---------|---------|
 |**NoFilters** |**Sin filtro**    |El usuario no puede personalizar su fondo de vídeo.|
-|**BlurOnly**     |**Solo desenfoque de fondo**|El usuario tiene la opción de difuminar el fondo de vídeo. |
+|**BlurOnly**     |**Solo difuminado de fondo**|El usuario tiene la opción de difuminar el fondo de vídeo. |
 |**BlurandDefaultBackgrounds**|**Desenfoque de fondo e imágenes predeterminadas**     |El usuario tiene la opción de difuminar su fondo de vídeo o elegir un conjunto de imágenes predeterminado para usarlo como fondo. |
 |**AllFilters**|**Todos los filtros**     |El usuario tiene la opción de difuminar su fondo de vídeo, elegir entre un conjunto de imágenes predeterminado o cargar una imagen personalizada para usarla como fondo. |
 
 > [!NOTE]
 > Teams no puede filtrar las imágenes cargadas por los usuarios. Al usar la configuración **AllFilters**, debe tener directivas de organización internas para evitar que los usuarios puedan cargar imágenes ofensivas, inadecuadas, o para las cuales la organización no tenga derechos de uso en el contexto de fondos para reuniones de Teams.
 
-### <a name="allow-custom-background-settings"></a>Permitir la configuración de fondo personalizada
+### <a name="allow-custom-background-settings"></a>Permitir la configuración personalizada del fondo
 
-Puede agregar imágenes de fondo personalizadas para que se utilicen por espacio empresarial. Esta característica permite a las empresas aplicar personal de marca corporativa a Teams reuniones.
+Puede agregar imágenes de fondo personalizadas para que se usen por inquilino. Esta característica permite a las empresas aplicar personalización de marca corporativa a Teams reuniones.
 
 1. Inicie la sesión en el Centro de administración de Teams
 
-2. Seleccione **ReunionesMeeting** >  **PoliciesPersonalizar** >  **imágenes de reunión**.
+2. Seleccione **MeetingsMeeting** >  **PoliciesCustomize** >  meeting images.
 
-   ![La selección de directivas de reunión con el botón Personalizar imágenes de reunión resaltado.](media/custom-background-image-button.png)
+   ![Selección de directivas de reunión con el botón Personalizar imágenes de la reunión resaltado.](media/custom-background-image-button.png)
 
-3. Seleccione **Activar en** **imágenes de fondo ancho de la organización**.
+3. Seleccione **Activado en** **imágenes de fondo de toda la organización**.
 
 4. Seleccione **+ Agregar imágenes**.
 
-5. En el panel Administrar fondos, seleccione **Agregar imagen**.
+5. En el panel Administrar fondos, selecciona **Agregar imagen**.
 
 6. Asegúrese de que las imágenes cumplen estos requisitos:
   
-   - Tamaño mínimo 360 px
+   - Tamaño mínimo de 360 px
    - Tamaño máximo 2048 px
-   - Tipo de archivo de PNG, JPG o BMP
+   - Tipo de archivo PNG, JPG o BMP
    - Se pueden cargar un máximo de 50 imágenes
 
 7. Obtenga una vista previa de las imágenes que ha seleccionado y, a continuación, seleccione **Cerrar**.
@@ -196,31 +196,31 @@ Puede agregar imágenes de fondo personalizadas para que se utilicen por espacio
 Los asistentes a la reunión verán una selección de imágenes de fondo que pueden usar cuando asistan a una reunión.
 
 > [!NOTE]
-> Los cambios pueden tardar hasta 24 horas en tener efecto.
+> Los cambios pueden tardar hasta 24 horas en surtir efecto.
 
 > [!NOTE]
-> Esta característica está disponible temporalmente en la vista previa pública para todos Microsoft Teams clientes. Para obtener esta característica después de la vista previa, cada usuario necesitará la licencia de complemento Comunicaciones avanzadas. Para más información, consulte [Complemento de Comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+> Esta característica está disponible temporalmente en la versión preliminar pública para todos los clientes de Microsoft Teams. Para obtener esta característica después de la vista previa, cada usuario necesitará la licencia del complemento Comunicaciones avanzadas. Para más información, consulte [Complemento de Comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ### <a name="far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras"></a>Control de cámara de extremo lejano (FECC) para cámaras de zoom de inclinación de puntos (PTZ)
 
-El control de cámara de extremo extremo es una directiva que se puede asignar a Salas de Teams en Windows cuentas de recursos. Permite que las cámaras PTZ conectadas a una sala Teams puedan ser controladas por los participantes de la reunión en la Teams cliente durante las reuniones.
+El control de cámara de extremo lejano es una directiva que se puede asignar a Salas de Teams en Windows cuentas de recursos. Permite que las cámaras PTZ conectadas a una sala de Teams sean controladas por los participantes de la reunión en la aplicación cliente Teams durante las reuniones.
 
-Para usar el control de cámara de extremo extremo, los participantes de la reunión tendrán que obtener la **aplicación Controles de cámara PTZ** .  Vea [Permitir y bloquear aplicaciones](manage-apps.md#allow-and-block-apps) para obtener información sobre cómo hacer que la aplicación esté disponible en la tienda de aplicaciones de su organización.
+Para usar el control de cámara de extremo lejano, los participantes de la reunión tendrán que obtener la aplicación **Controles de cámara PTZ** .  Consulte [Permitir y bloquear aplicaciones](manage-apps.md#allow-and-block-apps) para obtener información sobre cómo hacer que la aplicación esté disponible en la tienda de aplicaciones de su organización.
 
-Para especificar quién puede usar el control de cámara de extremo extremo en una reunión, cree y asigne una nueva directiva a una cuenta de recursos de Salas de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) o use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para modificar una existente. Establezca el `TeamsCameraFarEndPTZMode` parámetro en uno de los siguientes valores:
+Para especificar quién puede usar el control de cámara de extremo lejano en una reunión, cree y asigne una nueva directiva a una cuenta de recursos de Salas de Teams mediante el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) o use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para modificar una existente. Establezca el `TeamsCameraFarEndPTZMode` parámetro en uno de los siguientes valores:
 
 | Valor de configuración | Comportamiento |
 |---------------|----------|
 |Deshabilitado | Esta configuración es la predeterminada. Cuando se establece en "deshabilitado", nadie puede usar controles de cámara PTZ. |
-|AutoAcceptAll | Los controles de cámara PTZ están disponibles automáticamente para cualquier participante de la reunión. |
-|AutoAcceptInTenant | Los controles de cámara PTZ solo están disponibles automáticamente para los participantes de la misma organización que Teams sala. |
+|AutoAcceptAll | Los controles de la cámara PTZ están disponibles automáticamente para cualquier participante de la reunión. |
+|AutoAcceptInTenant | Los controles de la cámara PTZ solo están disponibles automáticamente para los participantes de la misma organización que la sala de Teams. |
 
 Cuando `TeamsCameraFarEndPTZMode` se establece en `AutoAcceptAll` o `AutoAcceptInTenant`, el control de la cámara se puede desactivar manualmente desde la sala de Teams en cualquier momento durante una reunión. El control de la cámara tampoco está disponible cuando la cámara está desactivada.
 
-Se admite cualquier cámara con controles PTZ y UVC mecánicos. Para obtener una lista de las cámaras certificadas para Teams, incluidas las cámaras PTZ y no PTZ, vea Versiones de [firmware certificadas para periféricos de audio y vídeo USB](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). Esta característica aún no es compatible con cámaras con controles PTZ digitales o en Salas de Teams android.  
+Cualquier cámara con controles mecánicos PTZ y UVC es compatible. Para obtener una lista de las cámaras certificadas para Teams, incluidas las cámaras PTZ y no PTZ, consulta [Versiones certificadas de firmware para periféricos de audio y vídeo USB](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). Esta característica aún no es compatible con las cámaras con controles PTZ digitales ni con Salas de Teams en Android.  
 
 > [!NOTE]
-> Actualice el firmware de la cámara antes de probar los controles PTZ. Consulte la documentación del fabricante de equipos originales (OEM) para actualizar el firmware.
+> Actualiza el firmware de la cámara antes de probar los controles PTZ. Consulta la documentación del fabricante de equipos originales (OEM) para actualizar el firmware.
 
 ## <a name="related-topics"></a>Temas relacionados
 
