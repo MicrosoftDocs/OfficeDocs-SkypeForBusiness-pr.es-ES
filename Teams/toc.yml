@@ -1483,7 +1483,7 @@ items:
     items:
       - name: Información general
         href: deploy-apps-microsoft-teams-landing-page.md
-      - name: Administrar aplicaciones de ejemplo proporcionadas por Microsoft
+      - name: Administrar aplicaciones proporcionadas por Microsoft
         items:
           - name: Administrar la aplicación Bookings
             href: bookings-app-admin.md
