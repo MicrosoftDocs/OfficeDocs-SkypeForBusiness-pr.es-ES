@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97af2abe8542a885f8a0056ed90f2a61330ba8a0
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 4bd98159e9e209cba855e1a0f2d0ee853b3ba889
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711934"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756896"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 
@@ -96,6 +96,9 @@ En la tabla siguiente se muestra una comparación de las características de Tea
 |El canal se puede compartir directamente con su equipo primario.|N/D|No|Sí|
 |Los invitados pueden participar en el canal.|Sí|Sí|No|
 |Los participantes externos (B2B Direct Connect) pueden participar en el canal.|No|No|Sí|
+|Moderación|Sí|No|No|
+|Salas para sesión de subgrupo|Sí|No|No|
+|Copiar vínculo al canal|Sí|No|No|
 |Cada canal tiene un sitio de SharePoint dedicado.|No|Sí|Sí|
 |Reuniones programadas|Sí|No|Sí|
 |Planner|Sí|No|No|
