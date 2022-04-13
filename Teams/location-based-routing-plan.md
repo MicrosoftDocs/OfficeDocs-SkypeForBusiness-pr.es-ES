@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
-description: Obtenga información sobre cómo planear Location-Based enrutamiento para Teams Teléfono enrutamiento directo.
+description: Obtenga información sobre cómo planear el enrutamiento Location-Based para Teams Teléfono enrutamiento directo.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,278 +16,398 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed661681b8aa5fde89093fcec87e61bdbf5df753
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: b6361e9454f6df301c0fbf1c91e39158115f2300
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457210"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817801"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 
-## <a name="overview-of-location-based-routing"></a>Información general sobre Location-Based enrutamiento
+En algunos países y regiones, es ilegal omitir el proveedor de la red telefónica conmutada (RTC) para reducir los costos de llamadas de larga distancia. 
 
-En algunos países y regiones, es ilegal omitir el proveedor de red telefónica conmutada (RTC) para reducir los costos de llamadas de larga distancia. En este artículo se describe cómo usar Location-Based enrutamiento para restringir la omisión de peaje para Microsoft Teams usuarios en función de su ubicación geográfica. Este artículo solo se aplica al enrutamiento directo.
+En este artículo se describe lo que debe saber para usar Location-Based enrutamiento para restringir la omisión de pago para Microsoft Teams usuarios en función de su ubicación geográfica. Este artículo se aplica solo al enrutamiento directo. Location-Based enrutamiento no se aplica al plan de llamadas ni a Conexión con operador.
 
-Aquí encontrará información general sobre el Location-Based y las instrucciones para ayudarle a planearlo. Cuando esté listo para aplicar y habilitar el Location-Based, vea:
+Cuando esté listo para habilitar el enrutamiento Location-Based, consulte:
 
-- [Implementar la configuración de red para Location-Based enrutamiento](location-based-routing-configure-network-settings.md)
+- [Configuración de red de enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md)
+- [Implementar la configuración de red para el enrutamiento de Location-Based](location-based-routing-configure-network-settings.md)
 - [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
 
 > [!NOTE]
-> Location-Based enrutamiento no está disponible en implementaciones Microsoft 365 Government Community Cloud (GCC) High o DoD.
+> No debe usar Location-Based Enrutamiento para enrutar de forma dinámica las llamadas RTC en función de la ubicación del usuario. Si lo hace, es posible que se produzcan resultados no deseados.
 
-Location-Based enrutamiento es una característica que le permite restringir la omisión de peaje en función de la directiva y la ubicación geográfica del usuario en el momento de una llamada RTC entrante o saliente. Location-Based enrutamiento está destinado a proporcionar un mecanismo para evitar la omisión de peaje. No debe usarse como mecanismo para enrutar dinámicamente las llamadas RTC en función de la ubicación del usuario o las consecuencias no deseadas pueden resultar.
+## <a name="overview"></a>Información general
 
-Cuando un Teams está habilitado para Location-Based enrutamiento, se aplica lo siguiente:
+Location-Based enrutamiento le permite restringir la omisión de pago para un usuario en función de la directiva y la ubicación geográfica del usuario en el momento de una llamada RTC de entrada o salida. 
 
-- Para realizar una llamada RTC saliente, debe cumplirse una de las siguientes acciones:
+Location-Based Routing utiliza la topología de red que defina para la región, el sitio y la subred de red. Cuando la omisión de pago está restringida para una ubicación, se asocia cada subred IP y cada puerta de enlace RTC de esa ubicación a un sitio de red. 
 
-    - El punto de conexión del usuario se encuentra en un sitio de red habilitado para la salida de llamadas y enrutamiento de Location-Based a través de la puerta de enlace correspondiente habilitada para Location-Based enrutamiento. 
+En el momento de una llamada RTC, la ubicación de un usuario viene determinada por la subred IP a la que están conectados los puntos de conexión Teams del usuario. Si un usuario tiene varios clientes de Teams ubicados en sitios diferentes, el enrutamiento de Location-Based exige el enrutamiento de cada cliente por separado en función de la ubicación de los puntos de conexión de Teams.
 
-    - El punto de conexión del usuario se encuentra en un sitio de red que no está habilitado para la salida de llamadas y enrutamiento de Location-Based a través de una puerta de enlace que no está habilitada para Location-Based enrutamiento.
+Para obtener más información sobre la configuración de red, consulte [Configuración de red para las características de voz en la nube en Teams](cloud-voice-network-settings.md).
 
-    Las llamadas salientes no están permitidas en ningún otro escenario.
+En este artículo se supone que un sitio de red puede estar en uno de los siguientes estados:
 
-- Para recibir una llamada RTC entrante, el punto de conexión de respuesta del usuario debe estar ubicado en el mismo sitio de red donde la llamada entra a través de la puerta de enlace habilitada para Location-Based enrutamiento. En cualquier otro escenario, como si el usuario está en itinerancia, la llamada no está permitida y se enruta a la configuración de reenvío de llamadas del usuario (normalmente correo de voz).
+- **Habilitado** : sitio configurado con subredes y sitios de red de inquilinos y habilitado para el enrutamiento de Location-Based.
 
-- Para transferir una llamada RTC a otro usuario de Teams, el punto de conexión del usuario de destino debe estar en el mismo sitio de red que el usuario que inicia la transferencia. Las transferencias no están permitidas en ningún otro escenario. 
+- **No habilitado** : sitio configurado mediante sitios y subredes de red de espacio empresarial, pero no habilitado para el enrutamiento de Location-Based.
 
-- Para transferir otro Teams a la RTC, la llamada debe transferirse a través de una puerta de enlace habilitada para enrutamiento de Location-Based ubicada en el mismo sitio de red que el autor de la llamada inicial. Las transferencias no están permitidas en ningún otro escenario.
+- **Desconocido** : sitio no configurado con subredes y sitios de red de inquilinos. Normalmente, estos sitios son internos a la red corporativa, pero por diseño no configurado, o externos a la red corporativa. En cualquier caso, estos sitios no están habilitados para Location-Based Enrutamiento. 
 
-Location-Based enrutamiento usa las mismas definiciones de región de red, sitio y subred que Skype Empresarial Server red. Cuando la omisión de peaje está restringida para una ubicación, un administrador asocia cada subred IP y cada puerta de enlace RTC de esa ubicación a un sitio de red. La ubicación de un usuario está determinada por la subred IP a la que están conectados los puntos de conexión Teams del usuario en el momento de una llamada RTC. Un usuario puede tener varios clientes de Teams ubicados en sitios diferentes, en cuyo caso Location-Based Enrutamiento exige el enrutamiento de cada cliente por separado según la ubicación de su punto de conexión. 
+### <a name="toll-bypass-evaluation-and-outcome"></a>Evaluación y resultado de omisión de pago
 
-Para familiarizarse con parte de la terminología de red usada en este artículo, vea Configuración de red para las características de [voz en la nube en Teams](cloud-voice-network-settings.md).
+Cuando se usa Location-Based enrutamiento, se evalúa una llamada entre un usuario de Teams y la RTC para determinar si la omisión de pago está restringida. En función de los resultados, la llamada se completará o no. 
 
-## <a name="apply-location-based-routing"></a>Aplicar Location-Based enrutamiento
+Si un usuario está habilitado para Location-Based Enrutamiento y el usuario se encuentra en un sitio donde están en vigor Location-Based Restricciones de enrutamiento, la omisión de pago está restringida para ese usuario. Teams usa la siguiente información para determinar si está restringida la omisión de peaje: 
 
-Debe aplicar el Location-Based a usuarios, sitios de red y puertas de enlace RTC.  
+- Si el usuario de Teams está habilitado para Location-Based Enrutamiento según se define en la directiva de llamadas de Teams del usuario.
+
+- La ubicación del sitio de red del punto de conexión del usuario Teams y si el sitio está habilitado o no para Location-Based enrutamiento.
+
+- La ubicación del sitio de red de la puerta de enlace RTC que usa la llamada.
+
+- Si la puerta de enlace RTC que usa la llamada se ha habilitado para el enrutamiento de Location-Based.
+
+- En los escenarios de transferencia, la ruta de la llamada RTC se basa en la configuración de enrutamiento de la persona que transfiere la llamada y en la configuración de enrutamiento Location-Based del usuario Teams al que se transfiere la llamada.  
+
+- Para los escenarios de conferencia y llamada de grupo, si un usuario Teams para el que la omisión de pago está restringida es o ha sido parte de la llamada.
+
+Si no se puede completar una llamada, el usuario de Teams recibirá una notificación como se indica a continuación:
+
+- Para las llamadas RTC salientes, aparece el siguiente mensaje en la ventana de llamada: Llamada no permitida debido a la configuración de su organización.
+
+- Para las llamadas RTC entrantes, la llamada se enruta en función de la configuración de desvío de llamadas no respondida de Teams usuario, normalmente al correo de voz. Si el usuario Teams no tiene configurada la configuración de llamada sin responder, la llamada se desconectará.
+
+## <a name="apply-location-based-routing"></a>Aplicar enrutamiento Location-Based
+
+Debe aplicar Location-Based Enrutamiento a lo siguiente:
+
+- [Usuarios](#apply-location-based-routing-at-the-user-location)
+- [Sitios de red](#apply-location-based-routing-at-the-network-site)
+- [Puertas de enlace RTC](#apply-location-based-routing-at-the-pstn-gateway)
+
+Tenga en cuenta los siguientes procedimientos recomendados:
+
+- La puerta de enlace RTC y el sitio de red asociado a la puerta de enlace deben estar habilitados para Location-Based enrutamiento.
+
+- Para realizar llamadas a través de una puerta de enlace RTC habilitada para Location-Based Enrutamiento, los usuarios también deben estar habilitados para Location-Based Enrutamiento.
+
+- Para permitir que los usuarios habilitados para el enrutamiento de Location-Based puedan realizar llamadas RTC salientes desde un sitio de red desconocido, debe cumplirse lo siguiente:
+
+  - La llamada debe salir desde una puerta de enlace RTC habilitada para el enrutamiento de Location-Based.
+  - La puerta de enlace RTC debe configurarse con la marca GatewayLbrEnabledUserOverride establecida en True.
+
 
 ### <a name="apply-location-based-routing-at-the-user-location"></a>Aplicar Location-Based enrutamiento en la ubicación del usuario
 
-Como se mencionó anteriormente, Location-Based enrutamiento solo se aplica a los usuarios que están configurados para enrutamiento directo. Location-Based enrutamiento no se aplica a los usuarios que están configurados para plan de llamadas. Los usuarios deben estar habilitados para el enrutamiento de Location-Based si están bajo restricción de omisión de peaje, que controla las condiciones en las que pueden realizar y recibir llamadas RTC y la puerta de enlace RTC que se puede usar. Cuando un usuario habilitado para Location-Based Enrutamiento se encuentra en un sitio habilitado para enrutamiento de Location-Based, el usuario debe realizar llamadas a través de una puerta de enlace habilitada para enrutamiento de Location-Based conectada al sitio. 
+La restricción de omisión de pago controla las condiciones en las que un usuario puede realizar y recibir llamadas RTC y la puerta de enlace RTC que se puede usar. 
 
-Location-Based enrutamiento funciona determinando la ubicación actual del usuario en función de la dirección IP del punto de conexión Teams del usuario y aplica las reglas en consecuencia. La ubicación de un usuario habilitado para Location-Based enrutamiento se puede clasificar de las siguientes maneras: 
+Si un usuario está sujeto a una restricción de omisión de pago, ese usuario debe estar habilitado para Location-Based Enrutamiento. Cuando el usuario habilitado se encuentra en un sitio habilitado para Location-Based Enrutamiento, el usuario debe realizar llamadas a través de una puerta de enlace que esté conectada al sitio y habilitada para Location-Based Enrutamiento. 
 
-- **El usuario se encuentra en el mismo Location-Based sitio habilitado para enrutamiento asociado a la puerta de enlace RTC donde se asigna su DID.**<br>En este escenario, el usuario se encuentra en un sitio de red conocido habilitado para enrutamiento de Location-Based y el número de marcado directo entrante (DID) del usuario finaliza en una puerta de enlace RTC que se encuentra en el mismo sitio de red. Por ejemplo, el usuario se encuentra en su oficina. 
+Location-Based enrutamiento funciona determinando la ubicación actual del usuario en función de la dirección IP del extremo Teams del usuario y aplica las reglas en consecuencia. La ubicación de un usuario habilitado para Location-Based Enrutamiento se puede clasificar como sigue: 
 
-- **El usuario se encuentra en un sitio Location-Based enrutamiento no asociado a la puerta de enlace RTC donde se asigna su DID.**<br>En este escenario, el usuario se encuentra en un sitio de red conocido habilitado para enrutamiento de Location-Based y ese sitio no está asociado con la puerta de enlace RTC donde se asigna el número DID del usuario. Por ejemplo, el usuario viaja a otra oficina.  
+- **El usuario se encuentra en la misma Location-Based sitio habilitado para enrutamiento asociado a la puerta de enlace RTC donde se asigna su DID.**<br>En este escenario, el usuario se encuentra en un sitio de red configurado que está habilitado para Location-Based enrutamiento y el número de marcado directo (DID) del usuario termina en una puerta de enlace RTC que está en el mismo sitio de red. Por ejemplo, el usuario está en su oficina. 
 
-- **El usuario se encuentra en un sitio interno que no está habilitado para Location-Based enrutamiento.** <br>En este escenario, el usuario se encuentra en un sitio de red interno conocido que no está habilitado para Location-Based enrutamiento. 
+- **El usuario se encuentra en otro Location-Based sitio habilitado para enrutamiento no asociado a la puerta de enlace RTC donde se asigna su DID.**<br>En este escenario, el usuario se encuentra en un sitio de red configurado que está habilitado para el enrutamiento de Location-Based y ese sitio no está asociado a la puerta de enlace RTC donde se asigna el número DID del usuario. Por ejemplo, el usuario viaja a otra oficina.  
+
+- **El usuario se encuentra en un sitio interno que no está habilitado para Location-Based Enrutamiento.** <br>En este escenario, el usuario se encuentra en un sitio de red configurado que no está habilitado para Location-Based Enrutamiento. 
 
 - **El usuario se encuentra en un sitio desconocido.** 
-    - El usuario se encuentra dentro de la red interna que no se define como un sitio de red. 
+    - El usuario se encuentra dentro de la red interna que no está definida como un sitio de red. 
     - El usuario se encuentra fuera de la red interna. Por ejemplo, el usuario está en Internet en casa o en una cafetería. 
 
 ### <a name="apply-location-based-routing-at-the-network-site"></a>Aplicar Location-Based enrutamiento en el sitio de red 
 
-Los sitios de red deben estar habilitados para Location-Based enrutamiento para ayudar a determinar qué puertas de enlace enrutar Location-Based usuarios habilitados para enrutamiento al itinerancia. Si un usuario habilitado para el enrutamiento de Location-Based va a un sitio habilitado para enrutamiento de Location-Based, solo se puede usar la puerta de enlace RTC habilitada para Location-Based Enrutamiento en ese sitio para llamadas salientes. Si un usuario habilitado para Location-Based Enrutamiento se desancha a un sitio que no está habilitado para enrutamiento de Location-Based, cualquier puerta de enlace que no esté habilitada para Location-Based Enrutamiento se puede usar para las llamadas salientes.  
+Cuando los usuarios habilitados para el enrutamiento Location-Based estén en itinerancia, los sitios de red habilitados para el enrutamiento de Location-Based ayudarán a determinar qué puertas de enlace usar. Por ejemplo:
 
-### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>Aplicar Location-Based enrutamiento en la puerta de enlace RTC 
+- Si un usuario habilitado para Location-Based enrutamiento se desplaza a un sitio habilitado para Location-Based Enrutamiento, solo se puede usar la puerta de enlace RTC habilitada para Location-Based enrutamiento en ese sitio para llamadas salientes. 
 
-Las puertas de enlace están asociadas a sitios para determinar dónde se puede encontrar un usuario habilitado para Location-Based enrutamiento cuando realiza o recibe una llamada RTC. Las puertas de enlace deben estar habilitadas para el enrutamiento de Location-Based para asegurarse de que se encuentra bajo restricciones de omisión de peaje y que los usuarios que no están habilitados para el enrutamiento de Location-Based pago. La misma puerta de enlace puede estar asociada a varios sitios y se puede configurar para que esté habilitada para enrutamiento de Location-Based o no habilitada para Location-Based enrutamiento, según el sitio.
+- Si un usuario habilitado para Location-Based enrutamiento se desplaza a un sitio que no está habilitado para Location-Based Enrutamiento, cualquier puerta de enlace que no esté habilitada para Location-Based Enrutamiento se puede usar para las llamadas salientes.  
+
+### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>Aplicar Location-Based enrutamiento en la puerta de enlace RTC  
+
+Para aplicar Location-Based enrutamiento en la puerta de enlace RTC, debe hacer lo siguiente:
+
+- Habilite la puerta de enlace para Location-Based Enrutamiento. (Las puertas de enlace deben estar habilitadas para el enrutamiento de Location-Based para asegurarse de que no pueden usarlas los usuarios que no están habilitados para Location-Based Enrutamiento).
+
+- Asigne un sitio de red a la puerta de enlace.
+
+A continuación, el sistema determina si un usuario determinado de un sitio determinado puede usar la puerta de enlace. 
+
+Además, si establece GatewayLbrEnabledUserOverride en True, los usuarios habilitados de enrutamiento basado en ubicación en sitios desconocidos (por ejemplo, los usuarios que trabajan en casa) pueden realizar llamadas RTC salientes.
+
+
+## <a name="restriction-rules"></a>Reglas de restricción
+
+Las reglas de restricción dependen de si un usuario de Teams está habilitado o no para Location-Based enrutamiento.
+
+### <a name="user-is-enabled-for-location-based-routing"></a>El usuario está habilitado para el enrutamiento Location-Based
+
+Cuando un usuario está habilitado para Location-Based Enrutamiento, se aplica lo siguiente:
+
+- **Para realizar una llamada RTC de salida**, debe cumplirse una de las siguientes condiciones:
+
+  - El punto de conexión del usuario se encuentra en un sitio habilitado para Location-Based Enrutamiento y llamadas de salida a través de una puerta de enlace RTC habilitada para el enrutamiento de Location-Based en el mismo sitio.  
+
+  - El punto de conexión del usuario se encuentra en un sitio desconocido y llama a la salida a través de una puerta de enlace RTC que está habilitada para Location-Based enrutamiento. La puerta de enlace RTC está configurada con el parámetro GatewayLbrEnabledUserOverride establecido en True.
+
+  - El punto de conexión del usuario se encuentra en un sitio que no está habilitado para Location-Based Enrutamiento y llama a la salida a través de una puerta de enlace RTC que no está habilitada para el enrutamiento de Location-Based.
+
+- **Para recibir una llamada RTC de entrada**, debe cumplirse una de las siguientes condiciones: 
+
+   - El punto de conexión de respuesta del usuario y la puerta de enlace RTC por la que entra la llamada deben encontrarse en el mismo sitio que está habilitado para el enrutamiento de Location-Based. La puerta de enlace RTC debe estar habilitada para el enrutamiento de Location-Based.
+
+   - El punto de conexión de respuesta del usuario y la puerta de enlace RTC por la que entra la llamada deben encontrarse en el mismo sitio que no está habilitado para el enrutamiento de Location-Based. La puerta de enlace RTC no debe estar habilitada para el enrutamiento de Location-Based.  (Este escenario implica volver a redirigir la llamada RTC entrante a la entrada aunque otra puerta de enlace RTC que la que se usa normalmente para las llamadas entrantes al número de teléfono del usuario).
+
+   - En cualquier otro escenario, como si el usuario está en itinerancia, la llamada no está permitida y se enruta a la configuración de desvío de llamadas no respondida del usuario (normalmente, correo de voz).  
+   
+- **Para una llamada de VoIP 1:1 Teams y la transferencia a RTC**, tenga en cuenta lo siguiente:
+
+  - El enrutamiento de la llamada (es decir, qué puerta de enlace RTC a la salida de la llamada en) se basa en la configuración de enrutamiento del usuario que transfiere la llamada.
+
+  - Si la transferencia se permitirá se basa en lo siguiente:
+  
+    - La configuración de enrutamiento Location-Based del usuario que recibe la llamada transferida.
+    - La ubicación del sitio de red del punto de conexión.
+    - Si la ubicación está habilitada para Location-Based Enrutamiento.
+
+    La transferencia se permitirá si el usuario que recibe la llamada transferida puede realizar esa llamada RTC en su ubicación actual con la misma puerta de enlace RTC.
+
+- **Para una llamada RTC entrante o saliente y la transferencia a otro usuario de Teams**, el permiso de la transferencia depende de lo siguiente:
+
+   - La configuración de enrutamiento del usuario que recibe la llamada transferida. 
+   - La ubicación del sitio de red del punto de conexión.
+   - Si la ubicación está habilitada para Location-Based Enrutamiento.
+
+   La transferencia se permitirá si la persona que recibe la llamada transferida puede realizar o recibir esa llamada RTC en su ubicación actual con la puerta de enlace RTC que usa la llamada RTC en curso.
+
+
+### <a name="user-is-not-enabled-for-location-based-routing"></a>El usuario no está habilitado para el enrutamiento Location-Based
+
+Cuando un usuario de Teams no está habilitado para el enrutamiento de Location-Based, todas las llamadas a y desde ese usuario deben redirigirse a través de una puerta de enlace RTC que no esté habilitada para Location-Based Enrutamiento. Una llamada entrante a este usuario enrutada a través de una puerta de enlace RTC habilitada para Location-Based enrutamiento se redirigirá a la configuración de desvío de llamadas no respondida del usuario (normalmente, correo de voz).
+
+### <a name="decision-flows-for-inbound-and-outbound-calls"></a>Flujos de decisión para llamadas entrantes y salientes
+
+En los diagramas siguientes se muestran los flujos de decisión para llamadas entrantes y salientes.
+
+**Llamadas entrantes**
+
+![Diagrama que muestra LBR para llamadas entrantes](media/lbr-routing-inbound1.png "Diagrama que muestra escenarios de enrutamiento Location-Based")
+
+**Llamadas salientes**
+
+![Diagrama que muestra LBR para llamadas salientes](media/lbr-routing-outbound1.png "Diagrama que muestra escenarios de enrutamiento Location-Based")
+
 
 ## <a name="scenarios-for-location-based-routing"></a>Escenarios para el enrutamiento basado en ubicación
 
-En esta sección se describen diferentes escenarios para restringir la omisión de peaje mediante el enrutamiento de Location-Based y se compara cómo se enrutan las llamadas para los usuarios que no están habilitados para el enrutamiento de Location-Based con los usuarios habilitados para Location-Based Enrutamiento.
+En esta sección se describen diferentes escenarios para restringir la omisión de pago mediante Location-Based enrutamiento. Los escenarios comparan cómo se enrutan las llamadas para los usuarios que no están habilitados para el enrutamiento de Location-Based con los usuarios habilitados para Location-Based Enrutamiento.
 
-- [Teams usuario coloca una llamada saliente a la RTC](#teams-user-places-an-outbound-call-to-the-pstn)
+- [Teams usuario realiza una llamada saliente a la RTC](#teams-user-places-an-outbound-call-to-the-pstn)
 - [Teams usuario recibe una llamada entrante desde la RTC](#teams-user-receives-an-inbound-call-from-the-pstn)
-- [Teams de transferencia o reenvío de usuarios a otro Teams usuario](#teams-user-transfers-or-forwards-call-to-another-teams-user)
-- [Teams de transferencia de usuarios o reenvía llamadas al punto de conexión RTC](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
+- [Teams las transferencias de usuario o las llamadas de desvío a otro usuario Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user)
+- [Teams las transferencias de usuario o las llamadas de desvío al punto de conexión RTC](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
 - [Tono de llamada simultáneo](#simultaneous-ringing)
 - [Delegación](#delegation)
 
-En el siguiente diagrama se muestran las restricciones habilitadas por Location-Based enrutamiento en cada escenario. Los usuarios, sitios de red y puertas de enlace habilitados para Location-Based enrutamiento tienen un borde alrededor de ellos. Use el diagrama como guía para ayudarle a comprender cómo funciona Location-Based enrutamiento en cada escenario.  
+El siguiente diagrama muestra las restricciones habilitadas por el enrutamiento de Location-Based en cada escenario. Los usuarios, los sitios de red y las puertas de enlace que están habilitadas para Location-Based Enrutamiento tienen un borde alrededor de ellos. Use el diagrama como guía para ayudarle a comprender cómo funciona Location-Based enrutamiento en cada escenario.  
 
-![Diagrama que muestra escenarios para Location-Based enrutamiento.](media/lbr-direct-routing.png "Diagrama que muestra escenarios para Location-Based enrutamiento")
+![Diagrama que muestra escenarios de enrutamiento Location-Based.](media/lbr-direct-routing.png "Diagrama que muestra escenarios de enrutamiento Location-Based")
 
-### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams usuario coloca una llamada saliente a la RTC
+### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams usuario realiza una llamada saliente a la RTC
 
-#### <a name="user-not-enabled-for-location-based-routing"></a>Usuario no habilitado para Location-Based enrutamiento
+#### <a name="user-not-enabled-for-location-based-routing"></a>Usuario no habilitado para el enrutamiento de Location-Based
 
-Un usuario que no está habilitado para el enrutamiento de Location-Based puede realizar llamadas salientes con cualquier puerta de enlace en cualquier sitio que no esté habilitado para Location-Based Enrutamiento a través de su directiva de enrutamiento de voz asignada. Sin embargo, si una puerta de enlace está habilitada para el enrutamiento de Location-Based, el usuario no puede realizar llamadas salientes a través de la puerta de enlace incluso si está asignada a su directiva de enrutamiento de voz. Si el usuario va a un sitio habilitado para enrutamiento de Location-Based, solo puede realizar llamadas a través de sus puertas de enlace de enrutamiento normales que no están habilitadas para Location-Based enrutamiento.
+Un usuario que no está habilitado para el enrutamiento de Location-Based puede realizar llamadas salientes con cualquier puerta de enlace en cualquier sitio que no esté habilitado para Location-Based Enrutamiento a través de su directiva de enrutamiento de voz asignada. Sin embargo, si una puerta de enlace está habilitada para el enrutamiento de Location-Based, el usuario no puede realizar llamadas salientes a través de la puerta de enlace incluso si está asignada a su directiva de enrutamiento de voz. Si el usuario se desplaza a un sitio habilitado para Location-Based Enrutamiento, solo podrá realizar llamadas a través de sus puertas de enlace de enrutamiento normales que no estén habilitadas para Location-Based Enrutamiento.
  
-#### <a name="user-enabled-for-location-based-routing"></a>Usuario habilitado para Location-Based enrutamiento
+#### <a name="user-enabled-for-location-based-routing"></a>Usuario habilitado para enrutamiento Location-Based
 
-En comparación, el enrutamiento de las llamadas salientes para los usuarios que están habilitados para Location-Based Enrutamiento se ve afectado por la ubicación de red del punto de conexión del usuario. En la tabla siguiente se muestra cómo Location-Based enrutamiento afecta al enrutamiento de llamadas salientes de User1, según la ubicación de User1. 
+En comparación, el enrutamiento de llamadas salientes para los usuarios habilitados para Location-Based Enrutamiento se ve afectado por la ubicación de red del punto de conexión del usuario. En la tabla siguiente se muestra cómo afecta Location-Based enrutamiento al enrutamiento de llamadas salientes de User1, según la ubicación de User1. 
 
 |Ubicación del punto de conexión user1  |Enrutamiento de llamadas salientes para Usuario1  |
 |---------|---------|
-|El mismo sitio en el que se asignó el DID del usuario, sitio habilitado para Location-Based enrutamiento (sitio1)      |Llamada enrutada a través de la puerta de enlace habilitada para Location-Based Routing (GW1) en Site1, según la directiva de enrutamiento de voz del usuario         |
-|Sitio diferente del lugar donde se ha asignado el DID del usuario, sitio habilitado para Location-Based enrutamiento (Sitio2)    |Llamada enrutada a través de puerta de enlace habilitada para Location-Based Routing (GW2) en roam Site2, según la directiva de enrutamiento de voz del usuario        |
-|Sitio diferente del lugar donde se asigna did del usuario, sitio no habilitado para Location-Based enrutamiento (Sitio3)  |Llamada enrutada a través de la puerta de enlace que no está habilitada para Location-Based Enrutamiento en el sitio que no está habilitado para el enrutamiento de Location-Based (GW3), según la directiva de enrutamiento de voz del usuario       |
-|Red interna desconocida (Ubicación4)    |  Llamadas RTC no permitidas       |
-|Red externa desconocida (Location5)    | Llamadas RTC no permitidas        |
+|Mismo sitio al que se asignó EL DID del usuario, sitio habilitado para el enrutamiento de Location-Based (Sitio1)      |Llamada enrutada a través de una puerta de enlace habilitada para enrutamiento de Location-Based (GW1) en Site1, según la directiva de enrutamiento de voz del usuario         |
+|Sitio distinto al que se asigna DID del usuario, sitio habilitado para enrutamiento de Location-Based (sitio2)    |Llamada enrutada a través de una puerta de enlace habilitada para enrutamiento de Location-Based (GW2) en sitio de itinerancia2, según la directiva de enrutamiento de voz del usuario        |
+|Sitio distinto al que se asigna DID del usuario, sitio no habilitado para enrutamiento de Location-Based (sitio3)  |Llamada enrutada a través de una puerta de enlace que no está habilitada para el enrutamiento de Location-Based en el sitio que no está habilitado para el enrutamiento de Location-Based (GW3), según la directiva de enrutamiento de voz del usuario       |
+|Red interna desconocida (Ubicación4)    |  Las llamadas RTC no se permiten a menos que la puerta de enlace tenga GatewayLbrEnabledUserOverride establecido en True       |
+|Red externa desconocida (Ubicación5)    | Las llamadas RTC no se permiten a menos que la puerta de enlace tenga GatewayLbrEnabledUserOverride establecido en True       |
 
 ### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teams usuario recibe una llamada entrante desde la RTC
 
-#### <a name="user-not-enabled-for-location-based-routing"></a>Usuario no habilitado para Location-Based enrutamiento
+#### <a name="user-not-enabled-for-location-based-routing"></a>Usuario no habilitado para el enrutamiento de Location-Based
 
-Un usuario que no está habilitado para Location-Based Enrutamiento puede recibir una llamada entrante desde la puerta de enlace que no está habilitada para Location-Based Enrutamiento desde el que se ha asignado la entrada de número DID. Si el usuario se desenlaza a un sitio que no está habilitado para Location-Based enrutamiento, todavía pueden recibir llamadas a través de sus puertas de enlace RTC normales.
+Un usuario que no está habilitado para el enrutamiento de Location-Based puede recibir una llamada entrante desde la puerta de enlace que no está habilitada para Location-Based enrutamiento desde la que entra el número DID asignado. Si el usuario se desplaza a un sitio que no está habilitado para el enrutamiento de Location-Based, puede seguir recibiendo llamadas a través de sus puertas de enlace RTC normales.
   
-#### <a name="user-enabled-for-location-based-routing"></a>Usuario habilitado para Location-Based enrutamiento
+#### <a name="user-enabled-for-location-based-routing"></a>Usuario habilitado para enrutamiento Location-Based
 
-En comparación, los usuarios habilitados para Location-Based enrutamiento solo pueden recibir llamadas entrantes desde la puerta de enlace RTC a la que se asigna su DID cuando se encuentran en el mismo sitio. En la tabla siguiente se muestra cómo User1 recibe llamadas entrantes cuando User1 se mueve a distintas ubicaciones de red. Si la llamada no se enruta al punto de conexión del usuario, se dirigirá a la configuración de reenvío de llamadas del usuario, si la configuración está configurada. Normalmente, este es el correo de voz.  
+En comparación, los usuarios habilitados para Location-Based Enrutamiento solo pueden recibir llamadas entrantes desde la puerta de enlace RTC a la que se asignaron sus DID cuando se encuentran en el mismo sitio. En la tabla siguiente se muestra cómo User1 recibe llamadas entrantes cuando el usuario1 se mueve a diferentes ubicaciones de red. Si la llamada no se enruta al punto de conexión del usuario, irá a la configuración de desvío de llamadas no respondida del usuario, si la configuración está configurada. Normalmente, las llamadas se desvía al correo de voz.  
 
 |Ubicación del punto de conexión user1  |Enrutamiento de llamadas entrantes a Usuario1  |
 |---------|---------|
-|El mismo sitio donde se ha asignado el DID del usuario, sitio habilitado para Location-Based enrutamiento (sitio1)   | Llamadas enrutadas al punto de conexión de User1 en sitio1        |
-|Sitio diferente del lugar donde se ha asignado el DID del usuario, sitio habilitado para Location-Based enrutamiento (Sitio2)    | Llamadas no enrutadas a puntos de conexión en el sitio2        |
-|Sitio diferente del lugar donde se asigna did del usuario, sitio no habilitado para Location-Based enrutamiento (Sitio3)    | Llamadas no enrutadas a puntos de conexión en Site3        |
+|El sitio está habilitado para Location-Based Routing (Sitio1)   | Llamadas enrutadas al punto de conexión del usuario1 en Site1        |
+|Sitio distinto al que se asigna DID del usuario, sitio habilitado para enrutamiento de Location-Based (sitio2)    | Llamadas no enrutadas a puntos de conexión en Site2        |
+|Sitio distinto al que se asigna DID del usuario, sitio no habilitado para enrutamiento de Location-Based (sitio3)    | Llamadas no enrutadas a puntos de conexión en Site3        |
 |Red interna desconocida (Ubicación4)   | Llamadas no enrutadas a puntos de conexión en Ubicación4        |
-|Red externa desconocida (Location5)     | Llamadas no enrutadas a puntos de conexión en Location5        |
+|Red externa desconocida (Ubicación5)     | Las llamadas no se enrutan a los puntos de conexión en Ubicación5        |
 
-### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teams de transferencia o reenvío de usuarios a otro Teams usuario
+### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teams las transferencias de usuario o las llamadas de desvío a otro usuario Teams
 
-Cuando se trata de un punto de conexión RTC, Location-Based Routing analiza si uno o ambos usuarios están habilitados para enrutamiento de Location-Based y determina si la llamada debe transferirse o reenviarse en función de la ubicación de ambos puntos de conexión. 
+Cuando hay un punto de conexión RTC implicado, el enrutamiento de Location-Based analiza si uno o ambos usuarios están habilitados para Location-Based Enrutamiento y determina si la llamada se debe transferir o desviar en función de la ubicación de ambos puntos de conexión. 
  
-La transferencia de llamadas requiere que el usuario que inicia la llamada resalte la llamada mientras que el reenvío de llamadas no requiere que se conteste la llamada inicial. Esto significa que las llamadas se pueden reenviar incluso si User1 no se encuentra en una ubicación para recibir llamadas entrantes (vea la tabla del usuario de Teams recibe una llamada entrante desde la sección [RTC](#teams-user-receives-an-inbound-call-from-the-pstn)) y las llamadas no se pueden transferir si User1 no puede recibir la llamada entrante. 
+La transferencia de llamada requiere que el usuario iniciador recoja la llamada, mientras que el desvío de llamadas no requiere que se responda la llamada inicial. Las llamadas se pueden desviar incluso si el usuario1 no se encuentra en una ubicación para recibir llamadas entrantes (vea la tabla de la [Teams el usuario recibe una llamada entrante desde la sección RTC](#teams-user-receives-an-inbound-call-from-the-pstn)) y las llamadas no se pueden transferir si el usuario1 no puede recibir la llamada entrante. 
 
-#### <a name="user-not-enabled-for-location-based-routing"></a>Usuario no habilitado para Location-Based enrutamiento
+#### <a name="user-not-enabled-for-location-based-routing"></a>Usuario no habilitado para el enrutamiento de Location-Based
 
-Un usuario que no está habilitado para Location-Based enrutamiento puede transferir o reenviar llamadas RTC a otros usuarios que no están habilitados para Location-Based enrutamiento. Normalmente, el usuario no podrá transferir o reenviar una llamada RTC a un usuario habilitado para enrutamiento de Location-Based porque Location-Based Los usuarios habilitados para enrutamiento generalmente solo pueden estar en co-ubicación en las puertas de enlace habilitadas para enrutamiento de Location-Based para llamadas RTC. La excepción es cuando un Location-Based de enrutamiento habilitado para enrutamiento se desancha a un sitio que no está habilitado para Location-Based enrutamiento. En este escenario, se permite la llamada transferida.  
+Un usuario que no esté habilitado para Location-Based Enrutamiento puede transferir o desviar llamadas RTC a otros usuarios que no estén habilitados para Location-Based Enrutamiento. Los usuarios habilitados para Location-Based Enrutamiento suelen encontrarse en Location-Based puertas de enlace habilitadas para enrutamiento para llamadas RTC. Por lo tanto, los usuarios que no están habilitados no pueden transferir ni reenviar una llamada RTC a un usuario habilitado para el enrutamiento de Location-Based. La excepción es cuando un usuario habilitado Location-Based Enrutamiento se desplaza a un sitio que no está habilitado para Location-Based enrutamiento. En este escenario, se permite la llamada transferida.  
 
-Del mismo modo, un usuario que no está habilitado para Location-Based Enrutamiento solo puede recibir una transferencia o una llamada RTC reenviada de otro usuario que no está habilitado para Location-Based enrutamiento. 
+Del mismo modo, un usuario que no está habilitado para Location-Based enrutamiento solo puede recibir una transferencia o una llamada RTC reenviada de otro usuario que no está habilitado para el enrutamiento de Location-Based. 
 
-#### <a name="user-enabled-for-location-based-routing"></a>Usuario habilitado para Location-Based enrutamiento
+#### <a name="user-enabled-for-location-based-routing"></a>Usuario habilitado para enrutamiento Location-Based
 
-Por lo general, transferir y reenviar llamadas RTC entrantes desde una puerta de enlace habilitada para Location-Based Enrutamiento solo se permite si el usuario de destino está habilitado para el enrutamiento de Location-Based y se encuentra en el mismo sitio. De lo contrario, la transferencia y el reenvío de llamadas no está permitido. 
+La transferencia y el reenvío de llamadas RTC entrantes desde una puerta de enlace habilitada para Location-Based Enrutamiento solo se permite si el usuario de destino está habilitado para Location-Based Enrutamiento y se encuentra en el mismo sitio. En caso contrario, no se permite transferir ni desviar llamadas. 
 
-En la tabla siguiente se muestra si el reenvío de llamadas y las transferencias de llamadas están permitidos, dependiendo de la ubicación del usuario de destino. En esta tabla, User1, ubicado en sitio1, inicia la transferencia o reenvía a otros usuarios de Teams que también están habilitados para Location-Based Routing y que se encuentran en ubicaciones diferentes.  
+La tabla siguiente muestra si se permiten el desvío de llamadas y las transferencias de llamadas, según la ubicación del usuario de destino. En esta tabla, Usuario1, ubicado en Sitio1, inicia la transferencia o reenvío a otros usuarios Teams que también están habilitados para el enrutamiento de Location-Based y que se encuentran en ubicaciones diferentes.  
 
-|Ubicación del punto de conexión de usuario de destino|Usuario1 inicia transferencia de llamadas |Usuario1 inicia el reenvío de llamadas|
+|Ubicación del punto de conexión del usuario de destino|Usuario1 inicia la transferencia de llamadas |User1 inicia el desvío de llamadas|
 |---------|---------|---------|
-|Mismo sitio de red que iniciador (Usuario2)|Permitido|Permitido|
-|Sitio de red diferente, sitio habilitado para Location-Based (Usuario3)|No se permiten|No se permiten|
-|Sitio de red diferente, sitio no habilitado para Location-Based enrutamiento (Usuario4)|No se permiten|No se permiten|
-|Red interna desconocida (User5)| No se permiten|No se permiten|
+|El mismo sitio de red que el iniciador (Usuario2)|Permitido|Permitido|
+|Sitio de red diferente, sitio habilitado para enrutamiento de Location-Based (usuario3)|No se permiten|No se permiten|
+|Sitio de red diferente, sitio no habilitado para enrutamiento de Location-Based (usuario4)|No se permiten|No se permiten|
+|Red interna desconocida (Usuario5)| No se permiten|No se permiten|
 |Red externa desconocida (Usuario6)| No se permiten|No se permiten|
 
-### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teams de transferencia de usuarios o reenvía llamadas al punto de conexión RTC
+### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teams las transferencias de usuario o las llamadas de desvío al punto de conexión RTC
 
-#### <a name="user-not-enabled-for-location-based-routing"></a>Usuario no habilitado para Location-Based enrutamiento
+#### <a name="user-not-enabled-for-location-based-routing"></a>Usuario no habilitado para el enrutamiento de Location-Based
 
-- Se permite transferir y reenviar una llamada RTC a otro número RTC. 
+- Se permite transferir y reenviar una llamada RTC a otro número de RTC. 
 
 - Transferir y reenviar una llamada VOIP entrante a la RTC debe respetar las restricciones de omisión de pago del autor de la llamada. 
 
-    - Si el autor de la llamada no está habilitado para Location-Based enrutamiento, se pueden transferir a cualquier puerta de enlace RTC que no esté habilitada para Location-Based enrutamiento.
-    - Si el autor de la llamada está habilitado para Location-Based enrutamiento, solo se pueden transferir a una puerta de enlace habilitada Location-Based enrutamiento ubicada en el mismo sitio de red. 
+    - Si el autor de la llamada no está habilitado para Location-Based Enrutamiento, se puede transferir a cualquier puerta de enlace RTC que no esté habilitada para Location-Based Enrutamiento.
+    - Si el autor de la llamada está habilitado para Location-Based Enrutamiento, solo se puede transferir a una puerta de enlace habilitada para enrutamiento Location-Based ubicada en el mismo sitio de red. 
 
-#### <a name="user-enabled-for-location-based-routing"></a>Usuario habilitado para Location-Based enrutamiento
+#### <a name="user-enabled-for-location-based-routing"></a>Usuario habilitado para enrutamiento Location-Based
 
-- La transferencia y el reenvío entrante de una llamada RTC a otro número RTC se deben enrutar a la misma puerta de enlace habilitada Location-Based enrutamiento a la que llegó la llamada entrante.
+- La transferencia y el desvío de llamadas entrantes de una llamada RTC a otro número de RTC deben redirigirse a la misma Location-Based puerta de enlace habilitada para enrutamiento a la que llegó la llamada entrante.
 
-- Transferir y reenviar una llamada VOIP entrante a la RTC debe respetar las restricciones de omisión de pago del usuario y el autor de la llamada. 
+- La transferencia y el reenvío de una llamada VOIP entrante a la RTC deben respetar tanto al autor de la llamada como a las restricciones de omisión de pago del usuario que ha llamado. 
 
-    - Si el autor de la llamada no está habilitado para Location-Based enrutamiento, se pueden transferir a cualquier puerta de enlace RTC que no esté habilitada para Location-Based enrutamiento.
+    - Si el autor de la llamada no está habilitado para Location-Based Enrutamiento, se puede transferir a cualquier puerta de enlace RTC que no esté habilitada para Location-Based Enrutamiento.
 
-    - Si el autor de la llamada está habilitado para Location-Based enrutamiento, solo se pueden transferir a una puerta de enlace habilitada Location-Based enrutamiento ubicada en el mismo sitio de red.
+    - Si el autor de la llamada está habilitado para Location-Based Enrutamiento, solo se puede transferir a una puerta de enlace habilitada para enrutamiento Location-Based ubicada en el mismo sitio de red.
  
-En la tabla siguiente se muestra cómo Location-Based Enrutamiento afecta al enrutamiento de una llamada VOIP desde User1 en el sitio1 a los usuarios de distintas ubicaciones que transfieren o reenvía la llamada a un punto de conexión RTC.  
+En la tabla siguiente se muestra cómo afecta el enrutamiento de Location-Based al enrutamiento de una llamada VOIP desde User1 en Site1 a los usuarios de diferentes ubicaciones que transfieren o desvía la llamada a un punto de conexión RTC.  
 
-|Usuario iniciando la transferencia de llamadas o reenviar  |Transferir a RTC  |Reenviar a RTC  |
+|Usuario que inicia la transferencia de llamadas o el desvío de llamadas  |Transferir a RTC  |Reenviar a RTC  |
 |---------|---------|---------|
-|Mismo sitio de red, sitio habilitado para Location-Based enrutamiento (Usuario2)   |La transferencia de llamadas solo se puede enrutar a través de Location-Based enrutamiento habilitado Gateway1 en El sitio1, según la directiva de enrutamiento de voz de User2         |El reenvío de llamadas solo se puede enrutar Location-Based enrutamiento habilitado puerta de enlace1 en el sitio1, según la directiva de enrutamiento de voz de User2         |
-|Sitio de red diferente, sitio habilitado para Location-Based (Usuario3)    |La transferencia de llamadas solo se puede enrutar a través de Location-Based enrutamiento habilitado gateway1 en el sitio1, según la directiva de enrutamiento de voz de User3         |El reenvío de llamadas solo se puede enrutar Location-Based enrutamiento habilitado puerta de enlace1 en el sitio1, según la directiva de enrutamiento de voz de User3         |
-|Sitio de red diferente, sitio no habilitado para Location-Based enrutamiento (Usuario4)    |La transferencia de llamadas solo se puede enrutar a través de Location-Based enrutamiento habilitado Gateway1 en El sitio1, según la directiva de enrutamiento de voz de User4         |El reenvío de llamadas solo se puede enrutar a través de Location-Based enrutamiento habilitado gateway1 en el sitio1, según la directiva de enrutamiento de voz de User4         |
-|Red interna desconocida (User5)     |La transferencia de llamadas solo se puede enrutar a través de Location-Based enrutamiento habilitado gateway1 en el sitio1, según la directiva de enrutamiento de voz de User5         |El reenvío de llamadas solo se puede enrutar Location-Based enrutamiento habilitado gateway1 en el sitio1, según la directiva de enrutamiento de voz de User5         |
-|Red externa desconocida (Usuario6)   |La transferencia de llamadas solo se puede enrutar a través Location-Based enrutamiento habilitado gateway1 en el sitio1, según la directiva de enrutamiento de voz de User6        |El reenvío de llamadas solo se puede enrutar a través de Location-Based enrutamiento habilitado gateway1 en el sitio1, según la directiva de enrutamiento de voz de User6         |
+|Mismo sitio de red, sitio habilitado para enrutamiento de Location-Based (usuario2)   |La transferencia de llamadas solo se puede enrutar a través de Location-Based puerta de enlace habilitada para enrutamiento1 en Site1, en función de la directiva de enrutamiento de voz del usuario2         |El desvío de llamadas solo se puede enrutar a través de Location-Based puerta de enlace habilitada para enrutamiento1 en Site1, en función de la directiva de enrutamiento de voz del usuario2         |
+|Sitio de red diferente, sitio habilitado para enrutamiento de Location-Based (usuario3)    |La transferencia de llamadas solo se puede enrutar a través de Location-Based puerta de enlace habilitada para enrutamiento1 en Site1, en función de la directiva de enrutamiento de voz de User3         |El desvío de llamadas solo se puede enrutar a través de Location-Based puerta de enlace habilitada para enrutamiento1 en Site1, en función de la directiva de enrutamiento de voz de User3         |
+|Sitio de red diferente, sitio no habilitado para enrutamiento de Location-Based (usuario4)    |La transferencia de llamadas solo se puede enrutar a través de Location-Based puerta de enlace habilitada para enrutamiento1 en Site1, en función de la directiva de enrutamiento de voz de User4         |El desvío de llamadas solo se puede enrutar a través de Location-Based Puerta de enlace habilitada para enrutamiento1 en Site1, en función de la directiva de enrutamiento de voz de User4         |
+|Red interna desconocida (Usuario5)     |La transferencia de llamadas solo se puede enrutar a través de Location-Based puerta de enlace habilitada para enrutamiento1 en Site1, en función de la directiva de enrutamiento de voz del usuario5         |El desvío de llamadas solo se puede enrutar a través de Location-Based puerta de enlace habilitada para enrutamiento1 en Site1, en función de la directiva de enrutamiento de voz de User5         |
+|Red externa desconocida (Usuario6)   |La transferencia de llamadas solo se puede enrutar a través de Location-Based puerta de enlace habilitada para enrutamiento1 en Site1, en función de la directiva de enrutamiento de voz de User6        |El desvío de llamadas solo se puede enrutar a través de Location-Based puerta de enlace habilitada para enrutamiento1 en Site1, en función de la directiva de enrutamiento de voz de User6         |
 
 ### <a name="simultaneous-ringing"></a>Tono de llamada simultáneo
 
-Cuando un usuario habilitado para enrutamiento de Location-Based recibe una llamada y tiene habilitada la llamada simultánea, enrutamiento de Location-Based analiza la ubicación de la parte que llama y los puntos de conexión de las partes llamadas para determinar si la llamada se debe enrutar. La llamada simultánea sigue las mismas Location-Based que las transferencias de llamadas y los reenvíos. 
+Cuando un usuario habilitado para el enrutamiento de Location-Based recibe una llamada y tiene habilitada la llamada simultánea, el enrutamiento de Location-Based analiza la ubicación del receptor de la llamada y los puntos de conexión de las partes a las que se llama para determinar si se debe enrutar la llamada. La llamada simultánea sigue las mismas reglas de Location-Based que los desvíos y transferencias de llamadas. 
 
-#### <a name="simultaneous-ringing-for-another-teams-user"></a>Llamada simultánea para otro Teams usuario
+#### <a name="simultaneous-ringing-for-another-teams-user"></a>Llamada simultánea para otro usuario de Teams
 
-En la tabla siguiente se muestra si Location-Based enrutamiento permite llamar simultáneamente a diferentes usuarios para una llamada RTC entrante para Usuario1.
+En la tabla siguiente se muestra si el enrutamiento de Location-Based permite la llamada simultánea a diferentes usuarios para una llamada RTC de entrada para Usuario1.
 
-|Ubicación del punto de conexión de usuario de destino|Anillo simultáneo  |
+|Ubicación del punto de conexión del usuario de destino|Llamada simultánea  |
 |---------|---------|
-|Mismo sitio de red que iniciador (Usuario2)   |Permitido         |
-|Sitio de red roamed diferente habilitado para Location-Based enrutamiento (Usuario3)   |No se permiten         |
-|Sitio de red roamed no habilitado para Location-Based enrutamiento (User4)   |No se permiten        |
-|Red interna desconocida (User5)    | No se permiten        |
+|El mismo sitio de red que el iniciador (Usuario2)   |Permitido         |
+|Sitio de red itinerancia diferente habilitado para el enrutamiento de Location-Based (Usuario3)   |No se permiten         |
+|Sitio de red itinerancia no habilitado para el enrutamiento de Location-Based (usuario4)   |No se permiten        |
+|Red interna desconocida (Usuario5)    | No se permiten        |
 |Red externa desconocida (Usuario6)    |No se permiten        |
-|El usuario de destino es un número RTC    |La llamada solo se puede enrutar a través Location-Based enrutamiento habilitado gateway1 en el sitio1, según la directiva de enrutamiento de voz de User1      |
+|El usuario de destino es un número DE RTC    |La llamada solo se puede enrutar a través de Location-Based Puerta de enlace habilitada para enrutamiento1 en Site1, según la directiva de enrutamiento de voz del usuario1      |
 
-#### <a name="simultaneous-ringing-to-a-pstn-endpoint"></a>Llamada simultánea a un punto de conexión RTC
+#### <a name="simultaneous-ringing-to-a-pstn-endpoint"></a>Llamar simultáneamente a un punto de conexión RTC
 
-En la tabla siguiente se muestra el Location-Based de enrutamiento de una llamada VoIP entrante desde User1 ubicada en el Sitio1 a los usuarios de distintas ubicaciones con llamada simultánea establecida en un número RTC. 
+En la tabla siguiente se muestra Location-Based Comportamiento de enrutamiento para una llamada VoIP entrante de User1 ubicada en Site1 a usuarios en diferentes ubicaciones con llamadas simultáneas establecidas en un número RTC. 
 
-|Ubicación de punto de conexión de usuario llamada  |El destino de llamada simultánea es el punto de conexión RTC |
+|Ubicación del punto de conexión del usuario denominada  |El destino de llamada simultánea es el punto de conexión RTC |
 |---------|---------|
-|Mismo sitio de red, sitio habilitado para Location-Based enrutamiento (Usuario2)    |La llamada solo se puede enrutar a través de Location-Based Routing Gateway1 en El sitio1, según la directiva de enrutamiento de voz de User2       |
-|Sitio de red diferente habilitado para Location-Based enrutamiento (Usuario3)    |La llamada solo se puede enrutar Location-Based Routing Gateway1 en El sitio1, según la directiva de enrutamiento de voz de User3        |
-|Sitio de red diferente no habilitado para Location-Based enrutamiento (Usuario4)    |La llamada solo se puede enrutar Location-Based Routing Gateway1 en el Sitio1, según la directiva de enrutamiento de voz de User4         |
-|Red interna desconocida (User5)    |La llamada solo se puede enrutar Location-Based Routing Gateway1 en El sitio1, según la directiva de enrutamiento de voz de User5         |
-|Red externa desconocida (Usuario6)   |La llamada solo se puede enrutar Location-Based Routing Gateway1 en El sitio1, según la directiva de enrutamiento de voz de User6         |
+|Mismo sitio de red, sitio habilitado para enrutamiento de Location-Based (usuario2)    |La llamada solo se puede enrutar a través de Location-Based Routing Gateway1 en Site1, según la directiva de enrutamiento de voz de User2       |
+|Sitio de red diferente habilitado para el enrutamiento Location-Based (Usuario3)    |La llamada solo se puede enrutar a través de Location-Based Routing Gateway1 en Site1, según la directiva de enrutamiento de voz de User3        |
+|Otro sitio de red no habilitado para el enrutamiento de Location-Based (usuario4)    |La llamada solo se puede enrutar a través de Location-Based Routing Gateway1 en Site1, según la directiva de enrutamiento de voz de User4         |
+|Red interna desconocida (Usuario5)    |La llamada solo se puede enrutar a través de Location-Based Routing Gateway1 en Site1, según la directiva de enrutamiento de voz de User5         |
+|Red externa desconocida (Usuario6)   |La llamada solo se puede enrutar a través de Location-Based Routing Gateway1 en Site1, según la directiva de enrutamiento de voz de User6         |
 
-#### <a name="inbound-calls-through-voice-app-auto-attendant-or-call-queue"></a>Llamadas entrantes a través de la aplicación de voz (Operador automático o Cola de llamadas)
+#### <a name="inbound-calls-through-voice-apps-auto-attendant-or-call-queue"></a>Llamadas entrantes a través de aplicaciones de voz (operador automático o cola de llamadas)
 
-Las llamadas RTC entrantes desde una Location-Based puerta de enlace habilitada para enrutamiento pueden conectarse a un operador automático o a una cola de llamadas. Los usuarios habilitados para Location-Based enrutamiento solo pueden recibir transferencias de llamadas entrantes desde estas aplicaciones cuando se encuentran en el mismo sitio del que procede la llamada RTC entrante. 
+Las llamadas RTC entrantes desde una puerta de enlace habilitada para enrutamiento Location-Based pueden conectarse a un operador automático o a una cola de llamadas. 
+
+Los usuarios habilitados para Location-Based Enrutamiento son compatibles con la recepción de transferencias de llamadas entrantes para estas aplicaciones cuando se encuentran en el mismo sitio desde el que se origina la llamada RTC entrante.
  
-El reenvío de llamadas y la llamada simultánea a los usuarios y la RTC se permiten para las transferencias de aplicaciones de voz. Completar la llamada al destino está sujeto a las mismas Location-Based reglas de enrutamiento enumeradas anteriormente.  
+El desvío de llamadas y las llamadas simultáneas a los usuarios y RTC se permiten para las transferencias de aplicaciones de voz. Completar la llamada al destino está sujeta a las mismas reglas de enrutamiento Location-Based enumeradas anteriormente.  
  
-También se permite el reenvío al correo de voz.  
+También se permite reenviar al correo de voz.  
 
 ### <a name="delegation"></a>Delegación
 
-Un Teams usuario puede elegir delegados que pueden realizar y recibir llamadas en su nombre. Las capacidades de delegación Teams se ven afectadas por Location-Based enrutamiento de la siguiente manera: 
+Un usuario Teams puede elegir delegados que puedan realizar y recibir llamadas en su nombre. Las capacidades de delegación de Teams se ven afectadas por el enrutamiento de Location-Based de la siguiente manera: 
 
-- Para las llamadas salientes de Location-Based delegado habilitado para enrutamiento en nombre de un delegado, se aplican las mismas reglas. El enrutamiento de llamadas se basa en la directiva de autorización de llamadas, la directiva de enrutamiento de voz y la ubicación del delegado. Para obtener más información, [vea Teams usuario coloca una llamada saliente a la RTC](#teams-user-places-an-outbound-call-to-the-pstn). 
+- Para las llamadas salientes de un delegado habilitado para enrutamiento de Location-Based en nombre de un delegador, se aplican las mismas reglas. El enrutamiento de llamadas se basa en la directiva de autorización de llamadas del delegado, la directiva de enrutamiento de voz y la ubicación. Para obtener más información, vea [Teams usuario realiza una llamada saliente a la RTC](#teams-user-places-an-outbound-call-to-the-pstn). 
 
-- Para las llamadas RTC entrantes a un delegado, las mismas reglas de enrutamiento de Location-Based que se aplican para el reenvío de llamadas o la llamada simultánea a otros usuarios también se aplican a los delegados. Para obtener más información, vea Teams llamadas de transferencia de usuario o [reenvíos Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user) otro usuario de Teams, una llamada de transferencia de usuario o de reenvío Teams un punto de conexión RTC y llamadas [simultáneas](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)[.](#simultaneous-ringing) Cuando un delegado establece un punto de conexión RTC como un destino de llamada simultánea, la directiva de enrutamiento de voz del delegado se usa para enrutar la llamada a la RTC. 
+- Para las llamadas RTC entrantes a un delegador, también se aplican a los delegados las mismas reglas de enrutamiento Location-Based que se aplican al desvío de llamadas o a la llamada simultánea a otros usuarios. Para obtener más información, vea [Teams las transferencias de usuarios o las llamadas de desvío a otro usuario Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user), [Teams las transferencias de usuario o los desvíos de llamadas al punto de conexión RTC](#teams-user-transfers-or-forwards-call-to-pstn-endpoint) y [Llamada simultánea](#simultaneous-ringing). Cuando un delegado establece un punto de conexión RTC como destino de llamada simultánea, la directiva de enrutamiento de voz del delegado se usa para redirigir la llamada a la RTC. 
 
-- Para la delegación, Microsoft recomienda que el delegado y los delegados asociados se encuentran en el mismo sitio de red. 
+- Para la delegación, Microsoft recomienda que el delegador y los delegados asociados se encuentren en el mismo sitio de red. 
 
 ## <a name="other-planning-considerations"></a>Otras consideraciones de planificación
 
-### <a name="changes-from-an-on-premises-location-based-routing-deployment"></a>Cambios desde una implementación de enrutamiento Location-Based local
+### <a name="changes-from-an-on-premises-location-based-routing-deployment"></a>Cambios de una implementación de enrutamiento Location-Based local
 
-La directiva de enrutamiento de voz del sitio de red ya no se usa. En su lugar, usamos la directiva de enrutamiento de voz del usuario. Esto significa que, para permitir que los usuarios desistan a otros sitios, la directiva de enrutamiento de voz debe incluir las puertas de enlace de los sitios desogarados. 
+Ya no se usa la directiva de enrutamiento de voz del sitio de red. En su lugar, usamos la directiva de enrutamiento de voz del usuario. Para permitir a los usuarios desplazarse a otros sitios, la directiva de enrutamiento de voz debe incluir las puertas de enlace de los sitios itinerancia. 
 
 ### <a name="technical-considerations-for-location-based-routing"></a>Consideraciones técnicas para el enrutamiento basado en ubicación
 
-Las subredes IPv4 e IPv6 son compatibles, pero IPv6 tiene prioridad al comprobar si hay una coincidencia.
+Las subredes IPv4 e IPv6 son compatibles, pero IPv6 tiene prioridad al buscar una coincidencia.
 
-### <a name="client-support-for-location-based-routing"></a>Soporte técnico de cliente para Location-Based enrutamiento
+### <a name="client-support-for-location-based-routing"></a>Soporte técnico al cliente para el enrutamiento de Location-Based
 
-Los siguientes Teams son compatibles:
-- Teams de escritorio (Windows y Mac)
-- Teams móviles (iOS y Android)
-- Teams teléfonos IP
+Se admiten los siguientes clientes Teams:
+- Teams clientes de escritorio (Windows y Mac)
+- Teams clientes móviles (iOS y Android)
+- teléfonos IP Teams
 
-El Teams web y Skype Empresarial no son compatibles.
+El cliente web Teams y los clientes Skype Empresarial no son compatibles.
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>Capacidades no compatibles con el enrutamiento basado en ubicación
 
-Location-Based enrutamiento no se aplica a los siguientes tipos de interacciones. Location-Based enrutamiento no se exige cuando los Teams interactúan con los puntos de conexión RTC en los siguientes escenarios: 
+Location-Based Enrutamiento no se aplica a los siguientes tipos de interacciones. Location-Based El enrutamiento no se aplica cuando Teams puntos de conexión interactúan con puntos de conexión RTC en los siguientes escenarios: 
 
 - Estacionamiento o recuperación de llamadas RTC a través del estacionamiento de llamadas 
 
-- Un usuario Skype Empresarial local o un usuario Skype Empresarial online llama a un Teams usuario  
+- Un usuario Skype Empresarial local o un usuario de Skype Empresarial Online llama a un usuario Teams  
 
-### <a name="location-based-routing-for-conferencing"></a>Location-Based enrutamiento de conferencias
+### <a name="location-based-routing-for-conferencing"></a>Location-Based enrutamiento para conferencias
 
-Un Location-Based habilitado para enrutamiento en una llamada RTC no puede iniciar una conferencia con otro usuario o número RTC. Se permite la conexión a operadores automáticos o colas de llamadas. Si el usuario tiene una licencia de conferencia, debe iniciar una conferencia con los usuarios relevantes y llamar a la RTC a través del puente de conferencia para iniciar una llamada de conferencia.
+Un usuario habilitado para enrutamiento de Location-Based en una llamada RTC no puede iniciar una conferencia con otro usuario o número de RTC. Se permite la conexión a operadores automáticos o colas de llamadas.
 
-En una llamada de conferencia iniciada por un usuario sin una licencia de conferencia, no se permite agregar participantes RTC si hay o ha habido al menos un usuario habilitado para enrutamiento de Location-Based en la llamada de conferencia. Si al menos un participante RTC es o formaba parte de dicha llamada de conferencia antes de que cualquier participante habilitado para enrutamiento de Location-Based quiera unirse a la llamada, estos participantes no se pueden agregar a la llamada.
+Si el usuario tiene una licencia de audioconferencia, debe iniciar una conferencia con los usuarios relevantes y llamar a la RTC a través del puente de conferencia para iniciar una llamada de conferencia.
 
-### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de omisión de medios para Location-Based enrutamiento
+En una llamada de conferencia iniciada por un usuario sin una licencia de audioconferencia, no se permite agregar participantes RTC si hay o ha sido al menos un usuario habilitado para enrutamiento Location-Based en la llamada de conferencia. Si al menos un participante de RTC forma parte de una llamada de conferencia o forma parte de ella antes de invitar a algún participante habilitado para enrutamiento Location-Based a unirse a la llamada, Location-Based los participantes habilitados para enrutamiento no se pueden agregar a la llamada.
 
-Si va a implementar Location-Based enrutamiento en india, también es necesario configurar la omisión de medios. Para obtener más información, vea [Planear la omisión de medios con enrutamiento directo](direct-routing-plan-media-bypass.md) y [optimización de medios locales para enrutamiento directo](direct-routing-media-optimization.md).
+Si el usuario habilitado Location-Based enrutamiento se une a la llamada de conferencia desde un sitio interno que no está habilitado para Location-Based enrutamiento, no se aplican las restricciones del párrafo anterior. 
+
+Las conferencias en red para Audioconferencia NO se deben implementar con ningún equipo de telefonía en India.
+
+
+### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de omisión de medios para enrutamiento de Location-Based
+
+Si va a implementar Location-Based Enrutamiento en India, es un requisito configurar también la omisión de medios. Para obtener más información, consulta [Planear la omisión de medios con Enrutamiento directo](direct-routing-plan-media-bypass.md) y [Optimización de medios locales para enrutamiento directo](direct-routing-media-optimization.md).
 
 ### <a name="direct-voice-over-ip-voip"></a>Voz directa sobre IP (VoIP)
 
-Voz directa sobre IP (VoIP) no debe implementarse con ningún equipo de telefonía en india.
+Direct Voice over IP (VoIP) no se debe implementar con ningún equipo de telefonía en la India.
 
-## <a name="next-steps"></a>Pasos siguientes
 
-Vaya a [Configurar la configuración de red para Location-Based enrutamiento](location-based-routing-configure-network-settings.md).
-
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 - [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
 - [Configuración de red para las características de voz en la nube en Teams](cloud-voice-network-settings.md)
