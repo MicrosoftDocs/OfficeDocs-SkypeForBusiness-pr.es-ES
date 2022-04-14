@@ -1,5 +1,5 @@
 ---
-title: Teléfono de números para Singapur
+title: administración de números Teléfono para Singapur
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -19,29 +19,29 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Singapur para Microsoft Teams.
-ms.openlocfilehash: 4db07ac8e89583bfce2127b2b30de2df08ad064e
-ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
+description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Singapur para Microsoft Teams.
+ms.openlocfilehash: 968e44e8189bb5eebd50797983cbc639160cd3be
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "64504210"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839011"
 ---
-# <a name="phone-number-management-for-singapore"></a>Teléfono de números para Singapur
+# <a name="phone-number-management-for-singapore"></a>administración de números Teléfono para Singapur
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Singapur para Microsoft Teams.
+Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Singapur para Microsoft Teams.
   
 Para obtener más información, consulte [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization.md).
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams. |En Singapur, puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y ponerse en contacto con el Servicio de [atención al cliente de TNS para obtener instrucciones](contact-tns-service-desk.md).<br/><br/>[Nueva solicitud de número de teléfono para Singapur (v.1.0) (en-sg)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true). <br/><br/>Antes de que se le puedan asignar números de teléfono, debe descargar uno de los siguientes formularios para conocer los clientes:<ul><li>[Conoce a tu cliente Singapur : chino v1.0 zn-CN](https://download.microsoft.com/download/1/4/7/147324ac-06a5-4c7b-a38b-7efa0166fdf7/know-your-customer-for-singapore-(v1.0)-(zh-CN).pdf)</li><li>[Conoce a tu cliente para Singapur: Tamil v1.0 ta-IN](https://download.microsoft.com/download/b/4/8/b48457c1-cef1-4bc7-ae44-71c5302e5eb2/know-your-customer-for-singapore-(v1.0)-(ta-IN).pdf)</li><li>[Conoce a tu cliente Singapur - Malay v1.0 ms-MY](https://download.microsoft.com/download/f/5/9/f597a754-9478-4d5b-88af-a2a2fe5bbd62/know-your-customer-for-singapore-(v1.0)-(ms-MY).pdf)</li></ul>Complete la sesión completa y póngase [en contacto con el Servicio de atención al cliente de TNS para obtener instrucciones](contact-tns-service-desk.md).<br/><br/>Los nuevos pedidos pueden tardar de dos a tres semanas en completarse en este mercado.  |
-|Transferirnos números de teléfono.  <br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Singapur (todos los números) (v.2.0) (en-sg)](<https://download.microsoft.com/download/e/9/5/e959053a-4b35-49f9-a23e-7085575c46f2/Letter of Authorization (LOA) for Singapore (all numbers) (v.2.0) (en-sg).pdf>)<br/> <br/>Rellene el formulario y [póngase en contacto con el Servicio de atención al cliente de TNS para obtener instrucciones](contact-tns-service-desk.md). <br/><br/>Transferir números puede tardar de una a seis semanas en completarse en este mercado dependiendo de la complejidad del puerto. <br/><br/>Estos números no se pueden usar para conferencias en este momento.  |
-|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de](contact-tns-service-desk.md) atención al cliente de TNS para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
-|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con el Servicio de](contact-tns-service-desk.md) atención al cliente de TNS para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto [con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md).|
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams. |En Singapur, puede obtener números de teléfono para su organización mediante el centro de administración de Microsoft Teams. También puedes enviar una nueva solicitud de número de teléfono descargando el formulario y [ponte en contacto con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md).<br/><br/>[Nueva solicitud de número de teléfono para Singapur (v.1.0) (en-sg)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true). <br/><br/>Antes de que se le asignen números de teléfono, debe descargar uno de los siguientes formularios de Conocer los formularios de cliente:<ul><li>[Conozca a su cliente Singapur - Chino v1.0 zn-CN](https://download.microsoft.com/download/1/4/7/147324ac-06a5-4c7b-a38b-7efa0166fdf7/know-your-customer-for-singapore-(v1.0)-(zh-CN).pdf)</li><li>[Conoce a tu cliente de Singapur - Tamil v1.0 ta-IN](https://download.microsoft.com/download/b/4/8/b48457c1-cef1-4bc7-ae44-71c5302e5eb2/know-your-customer-for-singapore-(v1.0)-(ta-IN).pdf)</li><li>[Conoce a tu cliente Singapur - Malayo v1.0 ms-MY](https://download.microsoft.com/download/f/5/9/f597a754-9478-4d5b-88af-a2a2fe5bbd62/know-your-customer-for-singapore-(v1.0)-(ms-MY).pdf)</li></ul>Compórtalo por completo y [ponte en contacto con el servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md).<br/><br/>Los pedidos nuevos pueden tardar de dos a tres semanas en llenarse en este mercado.  |
+|Transferirnos números de teléfono.  <br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Singapur (todos los números)(en-sg)](<https://download.microsoft.com/download/e/9/5/e959053a-4b35-49f9-a23e-7085575c46f2/LOA-EN-SG-TN.pdf>)<br/> <br/>Rellénalo y [ponte en contacto con el servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md). <br/><br/>La transferencia de números puede tardar de una a seis semanas en completarse en este mercado dependiendo de la complejidad del puerto. <br/><br/>Estos números no se pueden usar para conferencias en este momento.  |
+|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md) sobre la lista de números de teléfono que desea publicar o cancelar la publicación. <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md) sobre la lista de números de usuario que desea convertir a números de servicio. <br/> |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar los números de la cola de llamadas o del operador automático, póngase en contacto con [el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md).|
    
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5e554672156f70556ebc18625115cd9a1ce8c58
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 234121449025512f8a5ffe37814804cc775b7b37
+ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062694"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64837463"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guía para administradores de TI de Insights para el ámbito educativo en Microsoft Teams
 
@@ -144,12 +144,14 @@ Actualmente, estos datos se recolectan de las siguientes áreas en los equipos d
 > Los datos recopilados en Insights para Educación se conservan hasta que el administrador de TI desactiva el botón de alternancia de [Education Analytics](#turn-sds-for-insights-on-or-off) o finaliza la suscripción de Office del espacio empresarial. Desactivar características específicas en Teams no eliminará los datos históricos.
 
 ### <a name="privacy-and-security"></a>Privacidad y seguridad
-La información que se recolecta y se muestra a través de Insights cumple con [más de 90 estándares normativos y del sector](/compliance/regulatory/offering-home), incluidos [RGPD](/compliance/regulatory/gdpr) y la [Ley de Derechos Educativos y Privacidad de la Familia (FERPA)](/compliance/regulatory/offering-ferpa) para la seguridad de los alumnos y niños, así como otras normas similares y orientadas a la privacidad.
+Insights para Educación, como parte de Microsoft 365, cumple con las normativas nacionales, regionales y específicas del sector para la recopilación y uso de datos, incluido el [RGPD](/compliance/regulatory/gdpr) y la [Ley de Privacidad y Derechos Educativos de la Familia (FERPA)](/compliance/regulatory/offering-ferpa) que protege la privacidad de los registros educativos de los estudiantes.
 
 Los datos pertenecen a la institución y Microsoft solo los recolecta y los almacena. El personal de Microsoft no puede acceder a los datos ni verlos, excepto cuando lo permite el cumplimiento normativo de una manera auditada para mantener el servicio, como la recuperación de datos.
 
-> [!NOTE]
-> Visite el [Centro de Confianza de Microsoft](https://www.microsoft.com/trust-center) para obtener más información sobre cómo Microsoft protege sus datos. 
+> [!TIP]
+> * Visite el [Centro de Confianza de Microsoft](https://www.microsoft.com/trust-center) para obtener más información sobre cómo Microsoft protege sus datos. 
+> * Visite [Ofertas de cumplimiento de Microsoft](/compliance/regulatory/offering-home) para obtener información sobre cómo Microsoft 365 ayudan a que su institución cumpla con los estándares de cumplimiento normativo.
+
 
 ### <a name="performance-and-reliability"></a>Rendimiento y confiabilidad
 Insights está diseñado para controlar un gran volumen de datos recolectados de Teams con un rendimiento y confiabilidad óptimos. No podemos garantizar una disponibilidad del 100 %, pero nos esforzamos para estar disponibles lo más cerca de ese objetivo.
