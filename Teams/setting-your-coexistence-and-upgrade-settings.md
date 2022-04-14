@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 474c5fc55476e664ba03b9dd82608d8c244b7982
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 8062c4a9b12c067091fcc95f192ac519f680937d
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839191"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64846539"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>Establecer configuración de actualización y coexistencia
 

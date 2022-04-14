@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Aprenda a configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 4c23b03e75c9433bcf5af6d4a5aa57e81447a74d
-ms.sourcegitcommit: 823ad7fe5f7a27f681c95b2d369ce2cbe71cfdfe
+ms.openlocfilehash: 4e194a315abecdf779a2df48c7fbb7b6412693cc
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64691465"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64846549"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -178,7 +178,7 @@ Las cuentas de Teams de los agentes deben establecerse en modo solo Teams. Los a
 > 
 > Cuando se usa La **más larga inactiva** y cuando hay menos llamadas en cola que los agentes disponibles, solo se presentan las llamadas de la cola a los dos primeros agentes inactivos más largos.
 > 
-> Cuando se usa **longest idle** puede haber ocasiones en que un agente recibe una llamada de la cola poco después de dejar de estar disponible o si hay un breve retraso en la recepción de una llamada de la cola después de estar disponible.
+> Cuando se usa **longest idle** puede haber ocasiones en que un agente recibe una llamada de la cola poco después de dejar de estar disponible o un breve retraso en la recepción de una llamada de la cola después de estar disponible.
 > 
 > La presentación de llamadas de la cola de llamadas a agentes puede entrar en conflicto con las restricciones de enrutamiento basado en ubicación. En este caso, el agente recibirá una llamada del sistema, pero no podrá responder a la llamada. Esta condición continuará hasta que otro agente esté disponible para responder a la llamada, el autor de la llamada cuelgue o se produzca la condición de tiempo de espera de la cola de llamadas.  
 
@@ -195,6 +195,8 @@ Si un agente opta por no recibir llamadas, no se incluirán en la lista de enrut
 > Cuando se selecciona **La inactividad más larga** como método de enrutamiento, se requiere un enrutamiento basado en presencia y se habilita automáticamente aunque el botón de alternancia de enrutamiento basado en presencia esté **Desactivado** y atenuado.
 >
 > Si el enrutamiento basado en presencia no está habilitado y hay varias llamadas en la cola, el sistema presentará estas llamadas simultáneamente a los agentes, independientemente de su estado de presencia. Esto provocará varias notificaciones de llamada a los agentes, especialmente si algunos agentes no responden a la llamada inicial que se les ha presentado.
+>
+> Al usar **el enrutamiento basado en** presencia puede haber ocasiones en que un agente recibe una llamada de la cola poco después de dejar de estar disponible o un breve retraso en la recepción de una llamada de la cola después de estar disponible.
 > 
 > Los agentes que usan el cliente de Skype Empresarial no se incluyen en la lista de enrutamiento de llamadas cuando está habilitado el enrutamiento basado en presencia. Si tiene agentes que usan Skype Empresarial, no habilite el enrutamiento de llamadas basado en presencia.
 

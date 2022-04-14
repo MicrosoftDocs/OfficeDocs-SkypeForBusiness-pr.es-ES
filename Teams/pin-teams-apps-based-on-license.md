@@ -1,5 +1,5 @@
 ---
-title: Personalizar Teams aplicaciones para sus trabajadores de primera línea
+title: Personalizar aplicaciones de Teams para los trabajadores de primera línea
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Obtenga información sobre la experiencia de aplicación personalizada para los trabajadores de primera línea en Teams.
+description: Obtenga información sobre la experiencia de aplicación adaptada para los trabajadores de primera línea en Teams.
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
@@ -16,26 +16,26 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b526733558570e4903d9dce43094c7ffa0f7de17
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "63774189"
 ---
-# <a name="tailor-teams-apps-for-your-frontline-workers"></a>Personalizar Teams aplicaciones para sus trabajadores de primera línea
+# <a name="tailor-teams-apps-for-your-frontline-workers"></a>Personalizar aplicaciones de Teams para los trabajadores de primera línea
 
 > [!NOTE]
 > [!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
 
 ## <a name="overview"></a>Información general
 
-Teams una forma sencilla de anclar aplicaciones para los trabajadores de primera línea. Esta característica ancla aplicaciones basadas en licencia para ofrecer a sus trabajadores de primera línea una experiencia personalizada en Teams que se adapte a sus necesidades.
+Teams proporciona una forma sencilla de anclar aplicaciones a los trabajadores de primera línea. Esta característica ancla aplicaciones basadas en licencias para ofrecer a sus trabajadores de primera línea una experiencia rápida en Teams adaptada a sus necesidades.
 
-Con la experiencia personalizada de la aplicación en primera línea, los trabajadores de primera línea obtienen las aplicaciones más relevantes de Teams sin ninguna acción necesaria del administrador.
+Con la experiencia de aplicación frontline adaptada, los trabajadores de primera línea obtienen las aplicaciones más relevantes en Teams sin que el administrador realice ninguna acción.
 
-## <a name="tailored-frontline-app-experience"></a>Experiencia de aplicación en primera línea personalizada
+## <a name="tailored-frontline-app-experience"></a>Experiencia de aplicación de primera línea personalizada
 
-Las aplicaciones se anclan a la barra de aplicaciones, que es la barra en la parte inferior de los clientes móviles de Teams (iOS y Android) y en el lado del cliente de escritorio Teams usuario. Las siguientes aplicaciones están ancladas para los usuarios que tienen una [licencia F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt):
+Las aplicaciones se anclan a la barra de aplicaciones, que es la barra de la parte inferior de la Teams clientes móviles (iOS y Android) y en el lateral del cliente de escritorio de Teams. Las siguientes aplicaciones están ancladas para los usuarios que tienen una [licencia F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt):
 
 - [Actividad](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
 - [Chat](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
@@ -47,57 +47,57 @@ Las aplicaciones se anclan a la barra de aplicaciones, que es la barra en la par
 
 **Teams móvil**
 
-:::image type="content" source="media/tailored-teams-apps-mobile.png" alt-text="La experiencia personalizada de la aplicación en primera línea en Teams móvil" lightbox="media/tailored-teams-apps-mobile.png"::: 
+:::image type="content" source="media/tailored-teams-apps-mobile.png" alt-text="La experiencia de aplicación de primera línea personalizada en Teams móvil" lightbox="media/tailored-teams-apps-mobile.png"::: 
 
 **Teams escritorio**
 
-:::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="La experiencia personalizada de la aplicación en primera línea en Teams escritorio" lightbox="media/tailored-teams-apps-desktop.png"::: 
+:::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="La experiencia de aplicación frontline adaptada en Teams escritorio" lightbox="media/tailored-teams-apps-desktop.png"::: 
 
-## <a name="admin-controls"></a>Controles de administrador
+## <a name="admin-controls"></a>Controles de administración
 
 > [!NOTE]
-> La **configuración de anclación** de usuario debe estar activada en la directiva de configuración de aplicaciones global ( [predeterminada para toda](teams-app-setup-policies.md) la organización) para que esta característica suba a efecto.
+> La configuración **anclaje de usuario** debe estar activada en la [directiva de configuración](teams-app-setup-policies.md) de aplicaciones global (predeterminada para toda la organización) para que esta característica surta efecto.
 
-La experiencia personalizada de la aplicación en primera línea se controla  mediante la configuración Mostrar aplicaciones personalizadas para toda la organización [](manage-apps.md#manage-org-wide-app-settings) en la página Administrar aplicaciones del centro de administración Teams usuarios. Si la característica está en, todos los usuarios de su organización que tengan una licencia F recibirán la experiencia de aplicación personalizada.
+La experiencia de aplicación frontline adaptada se controla mediante la configuración **Mostrar aplicaciones adaptadas** para toda la organización en la página [Administrar aplicaciones](manage-apps.md#manage-org-wide-app-settings) del centro de administración de Teams. Si la característica está activada, todos los usuarios de su organización que tengan una licencia F obtendrán la experiencia de aplicación personalizada.
 
-Tenga en cuenta que las directivas de configuración [de aplicaciones personalizadas](teams-app-setup-policies.md) asignadas a los usuarios tienen prioridad. Esto significa que si un usuario ya tiene asignada una directiva de configuración de aplicaciones personalizada, el usuario obtiene la configuración que se define en la directiva de configuración de la aplicación personalizada. Para obtener más información sobre cómo funciona la característica con Teams de aplicaciones, incluida la directiva global de configuración de aplicaciones, vea la sección [Escenarios](#scenarios) más adelante en este artículo.
+Tenga en cuenta que todas [las directivas de configuración de aplicaciones](teams-app-setup-policies.md) personalizadas asignadas a los usuarios tendrán prioridad. Esto significa que, si un usuario ya tiene asignada una directiva de configuración de aplicación personalizada, el usuario obtiene la configuración que se define en la directiva de configuración de aplicación personalizada. Para obtener más información sobre cómo funciona la característica con las [directivas](#scenarios) de Teams aplicación, incluida la directiva de configuración global de aplicaciones, consulte la sección Escenarios más adelante en este artículo.
 
-Esta característica está activada de forma predeterminada. Sin embargo, si no desea que Microsoft le proporciona la experiencia personalizada de la aplicación en primera línea, puede desactivar la característica. Para desactivar o activar la característica:
+Esta característica está activada de forma predeterminada. Sin embargo, si no desea la experiencia de aplicación de primera línea adaptada proporcionada por Microsoft, puede desactivar la característica. Para activar o desactivar la característica:
 
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Teams **aplicaciones** >  **de** administración y, a continuación, seleccione Configuración de la aplicación para toda **la organización**.
-2. En **Aplicaciones personalizadas**, cambie el botón de alternancia Mostrar aplicaciones **personalizadas** **a Desactivado** o **Encendido**.
+1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Teams** **aplicacionesAdministrar aplicaciones** >  y, después, seleccione **Configuración de aplicaciones para toda** la organización.
+2. En **Aplicaciones adaptadas**, cambia el botón de alternancia **Mostrar aplicaciones adaptadas** a **Desactivado** o **Activado**.
 
-    :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Captura de pantalla de la configuración Mostrar aplicaciones personalizadas en la página Administrar aplicaciones del centro Teams administración" lightbox="media/tailored-teams-apps-admin-center.png":::
+    :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Captura de pantalla de la configuración Mostrar aplicaciones adaptadas en la página Administrar aplicaciones del centro de administración de Teams" lightbox="media/tailored-teams-apps-admin-center.png":::
 
 ## <a name="scenarios"></a>Escenarios
 
-### <a name="how-does-the-tailored-frontline-app-experience-affect-my-global-app-setup-policy"></a>¿Cómo afecta la experiencia de la aplicación de primera línea personalizada a mi directiva global de configuración de aplicaciones?
+### <a name="how-does-the-tailored-frontline-app-experience-affect-my-global-app-setup-policy"></a>¿Cómo afecta la experiencia de la aplicación frontline adaptada a mi directiva de configuración global de aplicaciones?
 
-Obtenga información sobre cómo funciona la experiencia personalizada de la aplicación en primera línea con la directiva global de configuración de aplicaciones. Los escenarios de esta tabla se aplican a los trabajadores de primera línea que tienen una licencia F y la directiva de configuración global de aplicaciones, con el **anclado** de usuario activado.
+Obtenga información sobre cómo funciona la experiencia de aplicación frontline adaptada junto con la directiva de configuración global de aplicaciones. Los escenarios de esta tabla se aplican a los trabajadores de primera línea que tienen una licencia F y la directiva de configuración global de aplicaciones, con **anclaje de usuario** activado.
 
-|Si... |Después... |
+|Si... |Entonces... |
 |---------|---------|
-|Un trabajador en primera línea tiene la directiva de configuración global de la aplicación y la característica está desactivada. |El trabajador de primera línea obtiene las aplicaciones definidas en la directiva global de configuración de aplicaciones.|
-|Un trabajador en primera línea tiene la directiva de configuración global de la aplicación y la característica está en.     | El trabajador de primera línea obtiene la experiencia personalizada de la aplicación en primera línea. Las aplicaciones definidas en la directiva global de configuración de aplicaciones se anclan debajo de las aplicaciones personalizadas.      |
-|Actualiza la directiva de configuración global de la aplicación y la característica está en.     |El trabajador de primera línea obtiene la experiencia personalizada de la aplicación en primera línea y las aplicaciones definidas en la directiva global de configuración de aplicaciones están ancladas debajo de las aplicaciones personalizadas.         |
-|Un trabajador de primera línea tiene la directiva de configuración global de la aplicación y **el anclado de usuario** está desactivado. |El trabajador de primera línea obtiene las aplicaciones definidas en la directiva global de configuración de aplicaciones.|
-|Un trabajador de primera línea tiene la directiva global de configuración de aplicaciones y la directiva global de configuración de aplicaciones cambia para incluir una aplicación de línea de negocio (LOB) en la segunda posición de la lista de aplicaciones. |La aplicación LOB está anclada debajo de las aplicaciones personalizadas. El trabajador de primera línea puede cambiar el orden de la aplicación si **la ancla de usuario** está en.         |
-|Un trabajador de primera línea tiene la directiva de configuración global y la directiva de configuración global de la aplicación cambia para incluir Turnos en la primera posición.  |Los turnos se anclan a la sexta posición, tal y como se define en la experiencia personalizada de la aplicación en primera línea. El trabajador de primera línea puede cambiar el orden de la aplicación si **la ancla de usuario** está en.          |
+|Un trabajador de primera línea tiene la directiva de configuración global de aplicaciones y la característica está desactivada. |El trabajador de primera línea obtiene las aplicaciones definidas en la directiva de configuración global de aplicaciones.|
+|Un trabajador de primera línea tiene la directiva de configuración global de la aplicación y la característica está activada.     | El trabajador de primera línea obtiene la experiencia de aplicación de primera línea personalizada. Las aplicaciones definidas en la directiva de configuración global de aplicaciones se anclan debajo de las aplicaciones adaptadas.      |
+|Actualiza la directiva de configuración global de aplicaciones y la característica está activada.     |El trabajador de primera línea obtiene la experiencia de aplicación de primera línea adaptada y las aplicaciones definidas en la directiva de configuración global de aplicaciones se anclan debajo de las aplicaciones adaptadas.         |
+|Un trabajador de primera línea tiene la directiva de configuración global de la aplicación y el **anclaje de usuarios** está desactivado. |El trabajador de primera línea obtiene las aplicaciones definidas en la directiva de configuración global de aplicaciones.|
+|Un trabajador de primera línea tiene la directiva de configuración global de aplicaciones y la directiva de configuración global de aplicaciones se cambia para incluir una aplicación de línea de negocio (LOB) en la segunda posición en la lista de aplicaciones. |La aplicación LOB está anclada debajo de las aplicaciones adaptadas. El trabajador de primera línea puede cambiar el orden de la aplicación si **el anclaje del usuario** está activado.         |
+|Un trabajador de primera línea tiene la directiva de configuración global y la directiva de configuración global de la aplicación se cambia para incluir turnos en la primera posición.  |Turnos está anclado a la sexta posición, según se define en la experiencia de aplicación de primera línea personalizada. El trabajador de primera línea puede cambiar el orden de la aplicación si **el anclaje del usuario** está activado.          |
 
-### <a name="how-does-the-tailored-frontline-app-experience-work-with-other-teams-app-policies"></a>¿Cómo funciona la experiencia personalizada de la aplicación en primera línea con otras Teams de aplicaciones?
+### <a name="how-does-the-tailored-frontline-app-experience-work-with-other-teams-app-policies"></a>¿Cómo funciona la experiencia de aplicación frontline adaptada con otras directivas de aplicaciones de Teams?
 
-Obtenga información sobre cómo funciona la experiencia personalizada de la aplicación en primera línea con otras Teams de aplicaciones.
+Obtenga información sobre cómo funciona la experiencia de aplicación frontline adaptada con otras directivas de aplicaciones de Teams.
 
-|Si...  |Después... |
+|Si...  |Entonces... |
 |---------|---------|
-La característica está desactivada.   | El trabajador de primera línea obtiene las aplicaciones definidas en la directiva de configuración global de la aplicación o en la directiva de configuración personalizada de aplicaciones asignadas a ellas.          |
-|Un trabajador de primera línea tiene una directiva de configuración de aplicaciones personalizada y la característica está en.    |El trabajador de primera línea obtiene las aplicaciones definidas en la directiva de configuración de la aplicación personalizada.          |
-|Una aplicación de la experiencia de aplicación de primera línea personalizada está bloqueada para un usuario o para su organización.      |La experiencia personalizada de la aplicación en primera línea respeta la [directiva de permisos de la aplicación](teams-app-permission-policies.md). Si una aplicación está bloqueada, el trabajador de primera línea no verá la aplicación bloqueada.           |
-|Una aplicación en la experiencia de aplicación de primera línea personalizada ya está definida en una directiva de configuración de la aplicación y la característica está en. |La aplicación se ancla según el orden definido por la lista de aplicaciones personalizadas.        |
-|Un usuario tiene una licencia E, A o G y la característica está en.   | El usuario no obtiene la experiencia personalizada de la aplicación en primera línea. Actualmente, la experiencia solo se aplica a los usuarios que tienen una licencia F.        |
+La característica está desactivada.   | El trabajador de primera línea obtiene las aplicaciones definidas en la directiva de configuración global de aplicaciones o en la directiva de configuración de aplicaciones personalizada asignadas a ellas.          |
+|Un trabajador de primera línea tiene una directiva de configuración de aplicación personalizada y la característica está activada.    |El trabajador de primera línea obtiene las aplicaciones definidas en la directiva de configuración de aplicaciones personalizada.          |
+|Una aplicación de la experiencia de aplicación frontline adaptada está bloqueada para un usuario o para su organización.      |La experiencia de aplicación frontline adaptada respeta la [directiva de permisos](teams-app-permission-policies.md) de la aplicación. Si una aplicación está bloqueada, el trabajador de primera línea no verá la aplicación bloqueada.           |
+|Una aplicación en la experiencia de aplicación frontline adaptada ya está definida en una directiva de configuración de aplicaciones y la característica está activada. |La aplicación está anclada en función del orden definido por la lista de aplicaciones adaptadas.        |
+|Un usuario tiene una licencia de E, A o G y la característica está activada.   | El usuario no obtiene la experiencia de aplicación frontline adaptada. Actualmente, la experiencia solo se aplica a los usuarios que tienen una licencia F.        |
 
 > [!NOTE]
-> No puede cambiar las aplicaciones ni el orden de las aplicaciones en la experiencia personalizada de la aplicación en primera línea. Por ahora, si desea realizar cambios, puede configurar su propia experiencia personalizada. Para ello, primero desactive la característica. A [continuación, cree una directiva de configuración de aplicaciones personalizada](teams-app-setup-policies.md) y [asígnela a usuarios o grupos](assign-policies-users-and-groups.md).
+> No puedes cambiar las aplicaciones ni el orden de las aplicaciones en la experiencia de aplicación de primera línea adaptada. Por ahora, si desea realizar cambios, puede configurar su propia experiencia personalizada. Para ello, primero desactive la característica. Después, [cree una directiva de configuración de aplicación personalizada](teams-app-setup-policies.md) y [asígnela a usuarios o grupos](assign-policies-users-and-groups.md).
 
 ## <a name="related-articles"></a>Artículos relacionados
 

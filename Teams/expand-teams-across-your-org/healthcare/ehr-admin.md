@@ -24,10 +24,10 @@ appliesto:
 ms.reviewer: ansantam
 description: Obtenga información sobre cómo integrar el conector EHR Teams para permitir que los proveedores de atención médica de su organización realicen visitas virtuales con pacientes u otros proveedores en Teams directamente desde el sistema EPIC EHR.
 ms.openlocfilehash: e573c30720383554c9bda8467221ff48a1369e0b
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "64703606"
 ---
 # <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Visitas virtuales con Teams - Integración en Epic EHR
@@ -149,7 +149,7 @@ Para habilitar las notificaciones SMS, el administrador de Microsoft 365 hace lo
 
     Elija **Listo** y, a continuación, seleccione **Siguiente**.
 
-1. Para vincular el número de teléfono a una dirección URL base de FHIR, en **Número de teléfono** en la sección **configuración de SMS** , seleccione el número. Haga esto para cada url base de FHIR para la que desea habilitar las notificaciones SMS.
+1. Para vincular el número de teléfono a una dirección URL base de FHIR, en **Teléfono número** en la sección **configuración de SMS**, seleccione el número. Haga esto para cada url base de FHIR para la que desea habilitar las notificaciones SMS.
 
     :::image type="content" source="media/ehr-connector-epic-link-phone-number.png" alt-text="Captura de pantalla que muestra cómo vincular un número de teléfono a una dirección URL base FHIR." lightbox="media/ehr-connector-epic-link-phone-number.png":::
 
@@ -164,7 +164,7 @@ Para habilitar las notificaciones SMS, el administrador de Microsoft 365 hace lo
 
     Elija **Guardar**.
 
-1. Seleccione **Cargar certificado** para cargar un certificado de clave pública. Debe cargar un certificado .cer con codificación Base64 (solo clave pública) para cada entorno.
+1. Seleccione **Upload certificado** para cargar un certificado de clave pública. Debe cargar un certificado .cer con codificación Base64 (solo clave pública) para cada entorno.
 
     Se requiere un certificado de clave pública para recibir información de citas para enviar notificaciones SMS. El certificado es necesario para comprobar que la información entrante procede de un origen válido.
 

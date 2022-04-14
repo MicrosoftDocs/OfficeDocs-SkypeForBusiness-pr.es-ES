@@ -16,10 +16,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: ac4db418927c34920614c65d6f94a400ff116a91
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "64703686"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Usar el asistente de incorporación de personal de primera línea para que su fuerza de trabajo esté en funcionamiento
@@ -46,7 +46,7 @@ Consulte este breve vídeo para obtener información general sobre cómo ejecuta
 
 ## <a name="run-the-wizard"></a>Ejecutar el asistente
 
-1. En el panel de navegación izquierdo de la [Centro de administración de Microsoft 365](https://admin.microsoft.com/), elija **Configuración**. Vaya a la sección **Aplicaciones y correo electrónico** y, a continuación, en **Poner en marcha su personal de primera línea**, seleccione **Ver**. Aquí puede obtener más información sobre las capacidades que Microsoft 365 para los trabajadores de primera línea.
+1. En el panel de navegación izquierdo de la [Centro de administración de Microsoft 365](https://admin.microsoft.com/), elija **Configuración**. Vaya a la sección **Aplicaciones y correo electrónico** y, a continuación, en **Poner en marcha su personal de primera línea**, seleccione **Ver**. Aquí, puede obtener más información sobre las capacidades que ofrece Microsoft 365 for frontline workers.
 
     :::image type="content" source="media/flw-onboarding-wizard-get-started.png" alt-text="Captura de pantalla de la página de detalles de la experiencia de incorporación de trabajadores de primera línea en el Centro de administración de Microsoft 365" lightbox="media/flw-onboarding-wizard-get-started.png":::
 
