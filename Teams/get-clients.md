@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b922607955d8b825006217bd2fe333eaadbc1ce
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: b5b67137aa581aae5a27ccc18935f621f51d5093
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556571"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839021"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams
 
@@ -39,8 +39,8 @@ Para obtener más detalles sobre las capacidades de los clientes en distintas pl
 
 El cliente de escritorio de Teams está disponible como una aplicación independiente y como parte de [Aplicaciones de Microsoft 365 para empresas](/deployoffice/teams-install) para los siguientes sistemas operativos:
 
-- Versiones de Windows de 32 y 64 bits (8.1 o posterior)
-- ARM64 para Windows 10 en ARM
+- Versiones de Windows de 32 y 64 bits (8.1 o posterior, excepto Windows 10 LTSC) 
+- ARM64 para Windows 10 en ARM 
 - Windows Server (2012 R2 o posterior)
 - macOS
 - Linux (en formato `.deb` y `.rpm` )
