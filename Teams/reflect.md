@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62aa82c42acf3ca4477da6da60b1faec6c847be1
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: d17409a09cbadc535e3b7971d6224b4e2fcb678b
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837453"
+ms.locfileid: "64839041"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guía para administradores de TI para Reflect en Microsoft Teams
 
@@ -44,7 +44,7 @@ Les estudiantes *nunca* ven los nombres de los demás estudiantes, solo si les r
 
 > [!TIP]
 > * Visite el [Centro de Confianza de Microsoft](https://www.microsoft.com/trust-center) para obtener más información sobre cómo Microsoft protege sus datos. 
-> * Visite las [Ofertas de cumplimiento de Microsoft](/compliance/regulatory/offering-home) para obtener información sobre cómo Microsoft 365 ayuda a su institución a cumplir los estándares de cumplimiento normativo.
+> * Visite [Ofertas de cumplimiento de Microsoft](/compliance/regulatory/offering-home) para obtener información sobre cómo Microsoft 365 ayudan a que su institución cumpla con los estándares de cumplimiento normativo.
 
 ## <a name="data-collection-and-storage"></a>Recolección de datos y almacenamiento
 Los datos pertenecen a la institución educativa y Microsoft solo los recolecta y los almacena. El personal de Microsoft no puede acceder a los datos ni verlos, excepto cuando lo permite el cumplimiento normativo de una manera auditada para mantener el servicio, como la recuperación de datos.
