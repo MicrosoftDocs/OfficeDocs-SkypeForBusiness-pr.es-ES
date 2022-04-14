@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27a3ed1d46626cb5f46aa3279246953b1dbe9a23
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 62aa82c42acf3ca4477da6da60b1faec6c847be1
+ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363126"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64837453"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guía para administradores de TI para Reflect en Microsoft Teams
 
@@ -31,14 +31,20 @@ Esta aplicación de repositorios utiliza emoticonos y granularidad emocional bas
 
 
 ## <a name="privacy-and-security"></a>Privacidad y seguridad
-Reflect sigue los mismos estándares de privacidad y seguridad que Insights para Educación para proteger la información confidencial de los estudiantes.
+Reflect sigue los mismos estándares de privacidad y seguridad que [Insights para Educación](class-insights.md) para proteger la información confidencial de los estudiantes.
 
-La información que se recolecta y se muestra a través de Reflect cumple con [más de 90 estándares normativos y del sector](/compliance/regulatory/offering-home), incluidos [RGPD](/compliance/regulatory/gdpr) y la [Ley de Derechos Educativos y Privacidad de la Familia (FERPA)](/compliance/regulatory/offering-ferpa) para la seguridad de los alumnos y niños, así como otras normas similares y orientadas a la privacidad.
+Reflect, como parte de Microsoft 365, cumple con las normativas nacionales, regionales y específicas del sector para la recolección y el uso de datos, incluido el [RGPD](/compliance/regulatory/gdpr) y la [Ley de Derechos Educativos y Privacidad de la Familia (FERPA)](/compliance/regulatory/offering-ferpa) que protege la privacidad de los registros académicos de los estudiantes.
+
+Los datos pertenecen a la institución y Microsoft solo los recolecta y los almacena. El personal de Microsoft no puede acceder a los datos ni verlos, excepto cuando lo permite el cumplimiento normativo de una manera auditada para mantener el servicio, como la recuperación de datos.
 
 Les estudiantes *nunca* ven los nombres de los demás estudiantes, solo si les responden. Aunque pueden ver la distribución de las respuestas, *no pueden* ver los nombres asociados a cada reflexión. 
 
 > [!NOTE]
 > Si menos de cinco estudiantes responden, no se muestra ningún dato de los estudiantes. Esto se hace para minimizar la posibilidad de que los estudiantes identifiquen las respuestas de los demás.
+
+> [!TIP]
+> * Visite el [Centro de Confianza de Microsoft](https://www.microsoft.com/trust-center) para obtener más información sobre cómo Microsoft protege sus datos. 
+> * Visite las [Ofertas de cumplimiento de Microsoft](/compliance/regulatory/offering-home) para obtener información sobre cómo Microsoft 365 ayuda a su institución a cumplir los estándares de cumplimiento normativo.
 
 ## <a name="data-collection-and-storage"></a>Recolección de datos y almacenamiento
 Los datos pertenecen a la institución educativa y Microsoft solo los recolecta y los almacena. El personal de Microsoft no puede acceder a los datos ni verlos, excepto cuando lo permite el cumplimiento normativo de una manera auditada para mantener el servicio, como la recuperación de datos.
@@ -75,4 +81,4 @@ Podrán hacer clic derecho en el icono Reflect y seleccionar **Anclar** para acc
 > También puede encontrar la aplicación de Reflect en este enlace: [https://aka.ms/getReflect](https://aka.ms/getReflect)
 
 > [!TIP]
-> Para obtener más información, visite [Página de soporte técnico de Reflect](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a). Esta página ofrece guías tanto para los educadores como para los estudiantes y les ayuda en cómo crear sus primeros repositorios Reflect.
+> Para obtener más información, visite la [página de soporte técnico de Reflect](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a). Esta página ofrece guías tanto para los educadores como para los estudiantes y les ayuda a crear sus primeras comprobaciones en Reflect.
