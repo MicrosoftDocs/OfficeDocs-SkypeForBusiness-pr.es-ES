@@ -1,5 +1,5 @@
 ---
-title: 'Visitas virtuales en Teams: informes de administrador del conector EHR'
+title: 'Citas virtuales en Teams: informes de administrador del conector EHR'
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -22,33 +22,33 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Ver informes de administradores para Teams de conectorES EHR
-ms.openlocfilehash: 3f85d48493822db3a26851d281f7a5fddf813960
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+description: Ver informes de administración de Teams citas del conector EHR.
+ms.openlocfilehash: 021c80aef6b1581ae7266e5caeff3782cbbb8f26
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763305"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853201"
 ---
-# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams de administrador del conector EHR
+# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams informes de administrador del conector EHR
 
-El Microsoft Teams de administrador del conector de registro de estado electrónico (EHR) proporciona una vista rápida y fácil de leer de los datos de uso.
+El cuadro de diálogo Microsoft Teams informe de administración del conector de registro médico electrónico (EHR) proporciona una vista rápida y fácil de leer de los datos de uso.
 
-Puede ver el informe Teams administrador del conector EHR yendo al panel Microsoft Teams centro de administración y viendo el cuadro de diálogo allí.
+Para ver el informe de administración del conector EHR Teams, vaya al panel del Centro de administración de Microsoft Teams y vea el cuadro de diálogo allí.
 
-Acceda al informe desde el panel Microsoft Teams centro de administración.
+Acceda al informe desde el Microsoft Teams panel del Centro de administración.
 
- ![un cuadro de diálogo de asignaciones y límites de visitas virtuales.](../../media/admin-connector-report.png)
+ ![un diálogo de asignaciones y límites de citas virtuales.](../../media/admin-connector-report.png)
 
 El cuadro de diálogo proporciona los siguientes datos:
 
 - Límite superado
 - Asignación restante
-- Visitas completadas
+- Citas completadas
 
-Puede usar el cuadro de diálogo informe para comprar más visitas virtuales.
+Puede usar el cuadro de diálogo del informe para comprar más citas virtuales.
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-- [Visitas virtuales con Teams: integración en Cerner EHR](ehr-admin-cerner.md)
-- [Visitas virtuales con Teams: integración en Épico EHR](ehr-admin.md)
+- [Citas virtuales con Teams - Integración en Cerner EHR](ehr-admin-cerner.md)
+- [Citas virtuales con Teams - Integración en Epic EHR](ehr-admin.md)
