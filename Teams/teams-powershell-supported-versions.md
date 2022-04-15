@@ -12,12 +12,12 @@ ms.collection:
 description: Obtenga más información sobre las versiones compatibles con el módulo de PowerShell Teams, que se usa para la administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e557a8ca4e8dff5489dbf729a137d73f9ca13c85
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: 242c7c43b2af31b11e4183fdf3b9ed1b00f4bb1b
+ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732288"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64866245"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Módulo Teams PowerShell: versiones compatibles
 
@@ -101,6 +101,7 @@ Las organizaciones que han estado usando Teams módulo de PowerShell en los últ
   * Get-CsImFilterConfiguration
   * Get-CsAudioConferencingProvider
   * [Obtener| Set]-CsTenantProvider
+  * Get-CsHostingProvider
   * [Obtener| Conjunto| Registrarse| Anular registro]-CsHybridPSTNAppliance
   * [Obtener| Conjunto| Nuevo| Quitar]-CsHybridPSTNSite
   * [Obtener| Conjunto]- CsHybridMediationServer

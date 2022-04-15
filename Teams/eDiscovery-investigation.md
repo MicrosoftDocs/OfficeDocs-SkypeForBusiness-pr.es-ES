@@ -1,5 +1,5 @@
 ---
-title: Realizar una investigación de exhibición de documentos electrónicos sobre contenido
+title: Realizar una investigación de exhibición de documentos electrónicos del contenido
 author: markjjo
 ms.author: markjjo
 manager: laurawi
@@ -13,59 +13,59 @@ ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Obtenga información sobre qué hacer cuando necesita realizar exhibición de documentos electrónicos, por ejemplo, cuando necesita enviar toda la información almacenada electrónicamente para los procedimientos legales.
+description: Obtenga información sobre qué hacer cuando necesita realizar eDiscovery, por ejemplo, cuando necesita enviar toda la información almacenada electrónicamente para un procedimiento legal.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 85124047c5bb894eb4eb4177fad0e0cfee53dfc3
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: d0906e24cc4bb749779bf432fe27c9c2af6ac0e3
+ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711774"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64866205"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
-Las grandes empresas suelen estar expuestas a procedimientos legales con penas elevadas que exigen el envío de toda la información almacenada electrónicamente (ESI). Microsoft Teams contenido se puede buscar y usar durante las investigaciones de exhibición de documentos electrónicos.
+Las grandes empresas suelen estar expuestas a procedimientos judiciales de alta sanción que exigen la presentación de toda la información almacenada electrónicamente (ESI). Microsoft Teams contenido se puede buscar y usar durante las investigaciones de exhibición de documentos electrónicos.
 
 ## <a name="overview"></a>Información general
 
-Todos Microsoft Teams chats de grupo o 1:1 se pasan por diario a los buzones de los usuarios respectivos. Todos los mensajes de canal estándar se envían en diario al buzón de grupo que representa al equipo. Los archivos cargados en canales estándar se cubren en la funcionalidad de exhibición de documentos electrónicos para SharePoint Online y OneDrive para la Empresa.
+Todos los Microsoft Teams 1:1 o chats grupales se realizan en diario en los buzones de los usuarios correspondientes. Todos los mensajes de canal estándar se pasan por el buzón de grupo que representa el equipo. Los archivos cargados en canales estándar están cubiertos por la funcionalidad de exhibición de documentos electrónicos de SharePoint Online y OneDrive para la Empresa.
 
-La exhibición de mensajes y archivos en [canales privados](private-channels.md) funciona de forma diferente que en los canales estándar. Para obtener más información, vea [Exhibición de documentos electrónicos de canales privados](#ediscovery-of-private-and-shared-channels).
+eDiscovery of messages and files in [private channels](private-channels.md) works differently than in standard channels. Para obtener más información, vea [eDiscovery of private channels (Exhibición de canales privados](#ediscovery-of-private-and-shared-channels)).
 
-No todo Teams contenido es eDiscoverable. En la tabla siguiente se muestran los tipos de contenido que puede buscar con herramientas de exhibición de documentos electrónicos de Microsoft:
+No todo el contenido Teams es eDiscoverable. En la tabla siguiente se muestran los tipos de contenido que puede buscar con las herramientas de exhibición de documentos electrónicos de Microsoft:
 
 | Tipo de contenido | eDiscoverable | Notas |
 |:--- | :--- |:--- |
 |Grabaciones de audio | No | |
 |Contenido de la tarjeta|Sí|Vea [Buscar contenido de tarjeta](#search-for-card-content) para obtener más información.|
 |Vínculos de chat | Sí | |
-|Mensajes de chat | Sí |Esto incluye contenido en canales Teams estándar, chats de 1:1, chats grupales 1:N y chats con participantes de usuario invitado.  |
+|Mensajes de chat | Sí |Esto incluye el contenido de los canales de Teams estándar, los chats individuales, los chats grupales 1:N y los chats con los participantes invitados.  |
 |Fragmentos de código | No | |
 |Mensajes editados | Sí | Si el usuario está en espera, también se conservan las versiones anteriores de los mensajes editados. |
 |Emojis, GIF y adhesivos | Sí | |
-|Notificaciones de fuentes | No | |
-|Imágenes en línea | Sí | |
-|Bucle de componentes| Sí|El contenido de un componente de bucle se guarda en un archivo .fluid que se almacena en la cuenta de OneDrive para la Empresa del usuario que envía el componente de bucle. Esto significa que debe incluir OneDrive como un origen de datos al buscar contenido en componentes de bucle. |
-|Conversaciones de mensajería instantánea de reunión | Sí | |
-|Metadatos de la <sup>reunión1</sup> | Sí |  |
+|Notificaciones de fuente | No | |
+|Imágenes alineadas | Sí | |
+|componentes Loop| Sí|El contenido de un componente de bucle se guarda en un archivo .fluid que se almacena en el OneDrive para la Empresa cuenta del usuario que envía el componente de bucle. Esto significa que debe incluir OneDrive como origen de datos al buscar contenido en componentes de bucle. |
+|Conversaciones de mensajería instantánea de la reunión | Sí | |
+|Metadatos <sup>de la reunión1</sup> | Sí |  |
 |Nombre del canal | Sí | |
-|Mensajes de chat de canal privado y compartido | Sí | |
-|Comillas | Sí | Se puede buscar contenido entre comillas. Sin embargo, los resultados de la búsqueda no indican que el contenido se citó. |
+|Mensajes de chat de canal privados y compartidos | Sí | |
+|Presupuestos | Sí | El contenido entrecomillado se puede buscar. Sin embargo, los resultados de la búsqueda no indican que se ha citado el contenido. |
 |Reacciones (como me gusta, corazones y otras reacciones) | No | |
 |Asunto | Sí | |
-|Tablas | Sí | |
+|Mesas | Sí | |
 ||||
 
-<sup>1 Los</sup> metadatos de reunión (y llamada) incluyen lo siguiente:
+<sup>1</sup> Los metadatos de reunión (y llamada) incluyen lo siguiente:
 
-- Hora y duración de inicio y finalización de la reunión
-- Reunión unirse y dejar eventos para cada participante
-- Voip se une o llama
+- Hora de inicio y finalización de la reunión y duración
+- Unirse a la reunión y dejar eventos para cada participante
+- Combinaciones/llamadas VOIP
 - Combinaciones anónimas
 - Combinaciones de usuarios federados
-- Se une el usuario invitado
+- Combinaciones de usuarios invitados
 
 Este es un ejemplo de una conversación de chat entre participantes durante una reunión.
 
@@ -75,40 +75,40 @@ Este es un ejemplo de una conversación de chat entre participantes durante una 
 
 Este es un ejemplo de la copia de cumplimiento de la misma conversación de chat vista en una herramienta de exhibición de documentos electrónicos.
 
-![Conversación entre participantes en los resultados de búsqueda de exhibición de documentos electrónicos.](media/MeetingImConversation2.png)
+![Conversación entre participantes en los resultados de búsqueda de eDiscovery.](media/MeetingImConversation2.png)
 
-Este es un ejemplo de los metadatos de la reunión.
+Aquí tiene un ejemplo de los metadatos de la reunión.
 
   > [!div class="mx-imgBorder"]
   > ![Los metadatos de la reunión de la copia de cumplimiento.](media/conversationOption3.png)
 
-Para obtener más información sobre cómo llevar a cabo una investigación de exhibición de documentos electrónicos, vea Introducción a [eDiscovery principal](/microsoft-365/compliance/get-started-core-ediscovery).
+Para obtener más información sobre cómo llevar a cabo una investigación de exhibición de documentos electrónicos, vea [Comenzar con Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery).
 
-Microsoft Teams datos aparecerán como mensajería instantánea o Conversaciones en el Excel de exportación de exhibición de documentos electrónicos. Puede abrir el archivo en `.pst` Outlook ver esos mensajes después de exportarlos.
+Microsoft Teams datos aparecerán como mensajería instantánea o conversaciones en el resultado de exportación de Excel eDiscovery. Puede abrir el `.pst` archivo en Outlook para verlos después de exportarlos.
 
-Al ver el archivo .pst para el equipo, todas las conversaciones se encuentran en la carpeta Chat de grupo en Historial de conversaciones. El título del mensaje contiene el nombre del equipo y el nombre del canal. Por ejemplo, en la imagen siguiente se muestra un mensaje de Bob que ha Project canal estándar 7 del equipo de Especificaciones de fabricación.
+Al ver el archivo .pst para el equipo, todas las conversaciones se encuentran en la carpeta Chat del equipo, en Historial de conversaciones. El título del mensaje contiene el nombre del equipo y el nombre del canal. Por ejemplo, la imagen siguiente muestra un mensaje de Bob que le ha enviado un mensaje al canal estándar Project 7 del equipo Especificaciones de fabricación.
 
-![Captura de pantalla de una carpeta chat de grupo en el buzón de un usuario en Outlook.](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![Captura de pantalla de una carpeta de chat de equipo en el buzón de un usuario en Outlook.](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
-Los chats privados en el buzón de un usuario se almacenan en la carpeta Chat de grupo en Historial de conversaciones.
+Los chats privados en el buzón de un usuario se almacenan en la carpeta Chat de equipo, en Historial de conversaciones.
 
-## <a name="ediscovery-of-private-and-shared-channels"></a>eDiscovery de canales privados y compartidos
+## <a name="ediscovery-of-private-and-shared-channels"></a>Exhibición de canales privados y compartidos
 
-Las copias de cumplimiento de los mensajes en canales privados y compartidos se envían a distintos buzones según el tipo de canal. Esto significa que tiene que buscar diferentes ubicaciones de buzón en función del tipo de canal del que es miembro un usuario.
+Las copias de cumplimiento de los mensajes en canales privados y compartidos se envían a diferentes buzones según el tipo de canal. Esto significa que tiene que buscar en diferentes ubicaciones de buzón en función del tipo de canal al que pertenece un usuario.
 
 - **Canales privados**. Las copias de cumplimiento se envían al buzón de todos los miembros de los miembros del canal privado. Esto significa que tiene que buscar en el buzón de usuario al buscar contenido en mensajes de canal privado.
 
-- **Canales compartidos**. Las copias de cumplimiento se envían a un buzón del sistema asociado con el equipo principal. Como Teams no admite una búsqueda de exhibición de documentos electrónicos de un único buzón del sistema para un canal compartido, tiene que buscar en el buzón el equipo principal (seleccionando el nombre del buzón de equipo) al buscar contenido de mensajes en canales compartidos.
+- **Canales compartidos**. Las copias de cumplimiento se envían a un buzón del sistema que está asociado con el equipo primario. Como Teams no admite una búsqueda de exhibición de documentos electrónicos en un único buzón del sistema para un canal compartido, tiene que buscar el buzón del equipo primario (seleccionando el nombre del buzón del equipo) al buscar contenido de mensajes en canales compartidos.
 
-Cada canal privado y compartido tiene su propio sitio SharePoint independiente del sitio de grupo principal. Esto significa que los archivos en canales privados y compartidos se almacenan en su propio sitio y se administran independientemente del equipo principal. Esto significa que debe identificar y buscar el sitio específico asociado a un canal al buscar contenido en archivos y datos adjuntos de mensajes de canal.
+Cada canal privado y compartido tiene su propio sitio de SharePoint independiente del sitio de grupo primario. Esto significa que los archivos en canales privados y compartidos se almacenan en su propio sitio y se administran de forma independiente del equipo primario. Esto significa que debe identificar y buscar en el sitio específico asociado a un canal al buscar contenido en archivos y datos adjuntos de mensajes de canal.
 
-Use las secciones siguientes para identificar el canal privado o compartido que se incluirá en la búsqueda de exhibición de documentos electrónicos.
+Use las siguientes secciones para identificar el canal privado o compartido que se va a incluir en la búsqueda de exhibición de documentos electrónicos.
 
-### <a name="identifying-the-members-of-a-private-channel"></a>Identificar los miembros de un canal privado
+### <a name="identifying-the-members-of-a-private-channel"></a>Identificación de los miembros de un canal privado
 
-Use el procedimiento de esta sección para identificar los miembros de un canal privado para que pueda usar herramientas de exhibición de documentos electrónicos para buscar contenido en los mensajes de canal privado en el buzón del miembro.
+Use el procedimiento descrito en esta sección para identificar los miembros de un canal privado, de modo que pueda usar herramientas de exhibición de documentos electrónicos para buscar contenido en el buzón del miembro en mensajes de canal privado.
 
-Antes de realizar estos pasos, asegúrese de que tiene instalada la [versión más reciente Teams módulo de PowerShell](teams-powershell-overview.md).
+Antes de realizar estos pasos, asegúrese de que tiene instalada la [versión más reciente del módulo Teams PowerShell](teams-powershell-overview.md).
 
 1. Ejecute el siguiente comando para obtener el id. de grupo del equipo que contiene los canales compartidos que desea buscar.
 
@@ -117,7 +117,7 @@ Antes de realizar estos pasos, asegúrese de que tiene instalada la [versión m�
    ```
 
    > [!TIP]
-   > Ejecute el cmdlet **Get-Team** sin ningún parámetro para mostrar una lista de todos los Teams de su organización. La lista contiene el id. del grupo y el nombre para mostrar para cada equipo.
+   > Ejecute el cmdlet **Get-Team** sin ningún parámetro para mostrar una lista de todos los Teams de su organización. La lista contiene los nombres de grupo Id. y DisplayName de cada equipo.
 
 2. Ejecute el siguiente comando para obtener una lista de canales privados en el equipo primario. Use el id. de grupo para el equipo que obtuvo en el paso 1.
 
@@ -125,30 +125,30 @@ Antes de realizar estos pasos, asegúrese de que tiene instalada la [versión m�
     Get-TeamChannel -GroupId <parent team GroupId> -MembershipType Private
    ```
 
-3. Ejecute el siguiente comando para obtener una lista de propietarios y miembros de canales privados para un canal privado específico.
+3. Ejecute el siguiente comando para obtener una lista de propietarios y miembros del canal privado para un canal privado específico.
 
    ```PowerShell
     Get-TeamChannelUser -GroupId <parent team GroupId> -DisplayName "Partner Shared Channel"
    ```
 
-4. Incluya los buzones de los propietarios y miembros de un canal privado como parte de la consulta de búsqueda de exhibición de documentos electrónicos en [eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) principal o al identificar y recopilar contenido custodio [en Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case).
+4. Incluya los buzones de propietarios y miembros de un canal privado como parte de la [consulta de búsqueda de eDiscovery en Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) o al [identificar y recopilar contenido de custodio en Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case).
 
-### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>Identificar el SharePoint para canales privados y compartidos
+### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>Identificar el sitio SharePoint para canales privados y compartidos
 
-Como se explicó anteriormente, los archivos compartidos en canales privados y compartidos (y archivos adjuntos a mensajes de canal) se almacenan en la colección de sitios asociada al canal. Use el procedimiento de esta sección para identificar la dirección URL del sitio asociado a un canal privado o compartido específico. A continuación, puede usar herramientas de exhibición de documentos electrónicos para buscar contenido en el sitio.
+Como se ha explicado anteriormente, los archivos compartidos en canales privados y compartidos (y archivos adjuntos a los mensajes del canal) se almacenan en la colección de sitios asociada con el canal. Use el procedimiento descrito en esta sección para identificar la dirección URL del sitio asociado a un canal privado o compartido específico. Después, puede usar herramientas de exhibición de documentos electrónicos para buscar contenido en el sitio.
 
-Antes de realizar estos pasos, instale SharePoint Shell de administración en línea [y conéctese a SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+Antes de realizar estos pasos, [instale el Shell de administración en línea de SharePoint y conéctese a SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
-1. Opcionalmente, ejecute lo siguiente para obtener una lista de todas las SharePoint de sitios asociadas con canales compartidos en el equipo primario.
+1. Si lo desea, ejecute lo siguiente para obtener una lista de todas las colecciones de sitios de SharePoint asociadas con canales compartidos en el equipo primario.
 
    ```PowerShell
     Get-SPOSite
    ```
 
    > [!TIP]
-   > La convención de nomenclatura de la dirección URL de un sitio asociado a canales privados y compartidos es `[SharePoint domain]/sites/[Name of parent team]-[Name of private or shared channel]`. Por ejemplo, la dirección URL del canal compartido denominado "Colaboración de partners", que se encuentra en el equipo primario "Equipo de ingeniero" de la organización contoso es `https://contoso.sharepoint.com/sites/EngineeringTeam-PartnerCollaboration`.
+   > La convención de nomenclatura de la dirección URL de un sitio asociado con canales privados y compartidos es `[SharePoint domain]/sites/[Name of parent team]-[Name of private or shared channel]`. Por ejemplo, la dirección URL del canal compartido denominado "Colaboración con partners", que se encuentra en el equipo primario "Equipo de ingenieros" de la organización Contoso es `https://contoso.sharepoint.com/sites/EngineeringTeam-PartnerCollaboration`.
 
-2. Ejecute los siguientes comandos de PowerShell para mostrar la dirección URL de todos los SharePoint asociados con los canales privados y compartidos de su organización. El resultado del script también incluye el id. de grupo del equipo primario, que debe ejecutar los comandos en el paso 3.
+2. Ejecute los siguientes comandos de PowerShell para mostrar la dirección URL de todos los sitios de SharePoint asociados con los canales privados y compartidos de su organización. El resultado del script también incluye el id. de grupo del equipo primario, que necesita para ejecutar los comandos en el paso 3.
 
     ```PowerShell
     $sites = Get-SPOSite -Template "TEAMCHANNEL#1"
@@ -156,9 +156,9 @@ Antes de realizar estos pasos, instale SharePoint Shell de administración en l�
     ```
 
    > [!NOTE]
-   > SharePoint para canales privados creados antes del 28 de junio de 2021 `"TEAMCHANNEL#0"` usan el valor para el id. de plantilla personalizada. Para mostrar los canales privados creados después de esta fecha, use el valor `"TEAMCHANNEL#1"` al ejecutar los dos scripts anteriores. Los canales compartidos solo usan el valor de `"TEAMCHANNEL#1"`.
+   > SharePoint sitios para canales privados creados antes del 28 de junio de 2021 usan el valor `"TEAMCHANNEL#0"` del id. de plantilla personalizada. Para mostrar los canales privados creados después de esta fecha, use el valor `"TEAMCHANNEL#1"` al ejecutar los dos scripts anteriores. Los canales compartidos solo usan el valor de `"TEAMCHANNEL#1"`.
 
-3. Para cada equipo primario, ejecute los siguientes comandos de PowerShell para identificar los sitios de canal privado y compartido, `$groupID` donde está el id. de grupo del equipo primario.
+3. Para cada equipo primario, ejecute los siguientes comandos de PowerShell para identificar los sitios del canal privado y compartido, donde `$groupID` se encuentra el id. de grupo del equipo primario.
 
     ```PowerShell
     $sites = Get-SPOSite -Template "TEAMCHANNEL#1"
@@ -166,83 +166,91 @@ Antes de realizar estos pasos, instale SharePoint Shell de administración en l�
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-4. Incluya el sitio asociado a un canal privado o compartido como parte de la consulta de búsqueda de exhibición de documentos electrónicos en [eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) principal o al identificar y recopilar contenido custodio [en Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case).
+4. Incluya el sitio asociado a un canal privado o compartido como parte de la [consulta de búsqueda de exhibición de documentos electrónicos en Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) o al [identificar y recopilar contenido custodio en Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case).
 
 ## <a name="search-for-content-for-guest-users"></a>Buscar contenido para usuarios invitados
 
-Puede usar herramientas de exhibición de documentos electrónicos para buscar Teams contenido relacionado con los usuarios invitados de su organización. Teams contenido de chat asociado a un usuario invitado se conserva en una ubicación de almacenamiento basada en la nube y se puede buscar con eDiscovery. Esto incluye buscar contenido en conversaciones de chat 1:1 y 1:N en las que un usuario invitado es un participante con otros usuarios de su organización. También puede buscar mensajes de canal privado en los que un usuario invitado es un participante y buscar contenido en conversaciones de chat de invitado *:* invitado, donde los únicos participantes son usuarios invitados.
+Puede usar las herramientas de exhibición de documentos electrónicos para buscar Teams contenido relacionado con los usuarios invitados de su organización. Teams contenido de chat asociado a un usuario invitado se conserva en una ubicación de almacenamiento basada en la nube y se puede buscar con eDiscovery. Esto incluye la búsqueda de contenido en conversaciones de chat 1:1 y 1:N en las que un usuario invitado es un participante con otros usuarios de su organización. También puede buscar mensajes de canal privados en los que un usuario invitado sea un participante y buscar contenido en conversaciones de *chat invitado:invitado* donde los únicos participantes son usuarios invitados.
 
 Para buscar contenido para los usuarios invitados:
 
-1. Conectar para Azure AD PowerShell. Para obtener instrucciones, vea la sección "Conectar con Azure Active Directory PowerShell" en Conectar para Microsoft 365 [con PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Asegúrese de completar los pasos 1 y 2 en el tema anterior.
+1. Conectar a Azure AD PowerShell. Para obtener instrucciones, consulte la sección "Conectar con la Azure Active Directory PowerShell" de [Conectar para Microsoft 365 con PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Asegúrese de completar los pasos 1 y 2 del artículo anterior.
 
-2. Después de conectarse correctamente Azure AD PowerShell, ejecute el siguiente comando para mostrar el nombre principal de usuario (UPN) para todos los usuarios invitados de su organización. Debe usar el UPN del usuario invitado al crear la búsqueda en el paso 4.
+2. Después de conectarse correctamente a Azure AD PowerShell, ejecute el siguiente comando para mostrar el nombre principal de usuario (UPN) para todos los usuarios invitados de la organización. Debe usar el UPN del usuario invitado al crear la búsqueda en el paso 4.
 
    ```powershell
    Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName
    ```
 
    > [!TIP]
-   > En lugar de mostrar una lista de nombres principales de usuario en la pantalla del equipo, puede redirigir el resultado del comando a un archivo de texto. Puede hacerlo anexando al `> filename.txt` comando anterior. El archivo de texto con los nombres principales de usuario se guardará en la carpeta actual.
+   > En lugar de mostrar una lista de nombres principales de usuario en la pantalla del equipo, puede redirigir la salida del comando a un archivo de texto. Para ello, anexe `> filename.txt` al comando anterior. El archivo de texto con los nombres principales de usuario se guardará en la carpeta actual.
 
-3. En otra ventana Windows PowerShell, conéctese a PowerShell del Centro de & de cumplimiento. Para obtener instrucciones, [vea Conectar PowerShell del Centro de & seguridad](/powershell/exchange/connect-to-scc-powershell). Puede conectarse con o sin la autenticación multifactor.
+3. En una ventana de Windows PowerShell diferente, conéctese a PowerShell del Centro de cumplimiento de & seguridad. Para obtener instrucciones, consulte [Conectar a PowerShell del Centro de cumplimiento & seguridad](/powershell/exchange/connect-to-scc-powershell). Puede conectarse con o sin usar la autenticación multifactor.
 
-4. Cree una búsqueda de contenido que busque todo el contenido (como mensajes de chat y mensajes de correo electrónico) en el que el usuario invitado especificado fuera un participante ejecutando el comando siguiente.
+4. Cree una búsqueda de contenido que busque todo el contenido (como mensajes de chat y mensajes de correo electrónico) en el que el usuario invitado especificado era participante mediante la ejecución del siguiente comando.
 
    ```powershell
    New-ComplianceSearch <search name> -ExchangeLocation <guest user UPN>  -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
    ```
 
-   Por ejemplo, para buscar contenido asociado con la usuario invitada Sara Davis, ejecutaría el siguiente comando.
+   Por ejemplo, para buscar contenido asociado con la usuario invitada Sara Davis, ejecute el siguiente comando.
 
    ```powershell
    New-ComplianceSearch "Sara Davis Guest User" -ExchangeLocation "sara.davis_hotmail.com#EXT#@contoso.onmicrosoft.com" -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
    ```
 
-    Para obtener más información sobre cómo usar PowerShell para crear búsquedas de contenido, vea [Búsqueda de nuevo cumplimiento](/powershell/module/exchange/new-compliancesearch).
+    Para obtener más información sobre el uso de PowerShell para crear búsquedas de contenido, vea [New-ComplianceSearch](/powershell/module/exchange/new-compliancesearch).
 
-5. Ejecute el comando siguiente para iniciar la búsqueda de contenido que creó en el paso 4:
+5. Ejecute el siguiente comando para iniciar la búsqueda de contenido que creó en el paso 4:
 
    ```powershell
    Start-ComplianceSearch <search name>
    ```
 
-6. Vaya a y [https://compliance.microsoft.com](https://compliance.microsoft.com), a continuación, haga clic **en Mostrar todas las búsquedas** >  **de contenido**.
+6. Vaya a y, a [https://compliance.microsoft.com](https://compliance.microsoft.com) continuación, haga clic en **Mostrar búsqueda allContent** > .
 
-7. En la lista de búsquedas, seleccione la búsqueda que creó en el paso 4 para mostrar la página desplegable.
+7. En la lista de búsquedas, seleccione la búsqueda que creó en el paso 4 para mostrar la página del control flotante.
 
-8. En la página desplegable, puede hacer lo siguiente:
+8. En la página del control flotante, puede hacer lo siguiente:
 
-   - Haga **clic en Ver resultados** para ver los resultados de la búsqueda y obtener una vista previa del contenido.
+   - Haga clic en **Ver resultados** para ver los resultados de la búsqueda y obtener una vista previa del contenido.
 
-   - Junto al **campo Consulta** , haga clic **en Editar** para editar y, a continuación, vuelva a ejecutar la búsqueda. Por ejemplo, puede agregar una consulta de búsqueda para restringir los resultados.
+   - Junto al campo **Consulta** , haga clic en **Editar** para editar y vuelva a ejecutar la búsqueda. Por ejemplo, puede agregar una consulta de búsqueda para restringir los resultados.
 
-   - Haga **clic en Exportar resultados** para exportar y descargar los resultados de búsqueda.
+   - Haga clic en **Exportar resultados** para exportar y descargar los resultados de búsqueda.
 
 ## <a name="search-for-card-content"></a>Buscar contenido de tarjeta
 
-El contenido de la tarjeta generado por las aplicaciones en Teams canales, chats 1:1 y chats 1xN se almacena en buzones y se puede buscar. Una *tarjeta es* un contenedor de interfaz de usuario para fragmentos cortos de contenido. Las tarjetas pueden tener varias propiedades y datos adjuntos, y pueden incluir botones que pueden desencadenar acciones de tarjeta. Para obtener más información, vea [Tarjetas](/microsoftteams/platform/task-modules-and-cards/what-are-cards)
+El contenido de la tarjeta generado por las aplicaciones en los canales de Teams, los chats uno a uno y los chats 1xN se almacena en los buzones y se puede buscar. Una *tarjeta* es un contenedor de la interfaz de usuario para fragmentos cortos de contenido. Las tarjetas pueden tener varias propiedades y datos adjuntos, y pueden incluir botones que pueden desencadenar acciones de tarjeta. Para obtener más información, vea [Tarjetas](/microsoftteams/platform/task-modules-and-cards/what-are-cards)
 
-Al igual que Teams contenido, donde se almacena el contenido de la tarjeta se basa en el lugar donde se usó la tarjeta. El contenido de las tarjetas usadas en Teams canal se almacena en el buzón Teams grupo. El contenido de la tarjeta para chats 1:1 y 1xN se almacena en los buzones de los participantes del chat.
+Al igual que otros Teams contenido, el lugar donde se almacena el contenido de la tarjeta se basa en el lugar donde se usó la tarjeta. El contenido de las tarjetas usadas en un canal de Teams se almacena en el buzón del grupo Teams. El contenido de la tarjeta para los chats 1:1 y 1xN se almacena en los buzones de los participantes del chat.
 
-Para buscar contenido de tarjeta, puede usar las condiciones `kind:microsoftteams` de búsqueda `itemclass:IPM.SkypeTeams.Message` o o. Al revisar los resultados de búsqueda, el contenido de la tarjeta generado por bots en un canal de Teams tiene la propiedad de correo electrónico Remitente **/**`<appname>@teams.microsoft.com`Autor como , `appname` donde está el nombre de la aplicación que generó el contenido de la tarjeta. Si un usuario generó contenido de tarjeta, el valor de **Remitente/Autor** identifica al usuario.
+Para buscar contenido de tarjeta, puede usar las `kind:microsoftteams` condiciones o `itemclass:IPM.SkypeTeams.Message` las condiciones de búsqueda. Al revisar los resultados de la búsqueda, el contenido de la tarjeta generado por los bots en un canal de Teams tiene la propiedad de correo electrónico **Remitente/Autor** como `<appname>@teams.microsoft.com`, donde `appname` es el nombre de la aplicación que generó el contenido de la tarjeta. Si el contenido de la tarjeta lo generó un usuario, el valor de **Remitente/Autor** identifica al usuario.
 
-Al ver el contenido de la tarjeta en los resultados de búsqueda de contenido, el contenido aparece como datos adjuntos al mensaje. El archivo adjunto se denomina `appname.html`, donde `appname` está el nombre de la aplicación que generó el contenido de la tarjeta. Las siguientes capturas de pantalla muestran cómo el contenido de la tarjeta (para una aplicación denominada Asana) aparece en Teams y en los resultados de una búsqueda.
+Al ver el contenido de la tarjeta en los resultados de búsqueda de contenido, el contenido aparece como datos adjuntos en el mensaje. El archivo adjunto se denomina `appname.html`, donde `appname` es el nombre de la aplicación que generó el contenido de la tarjeta. Las siguientes capturas de pantalla muestran cómo aparece el contenido de la tarjeta (para una aplicación llamada Asana) en Teams y en los resultados de una búsqueda.
 
-### <a name="card-content-in-teams"></a>Contenido de tarjeta en Teams
+### <a name="card-content-in-teams"></a>Contenido de la tarjeta en Teams
 
-![Contenido de la tarjeta en Teams del canal.](media/CardContentTeams.png)
+![Contenido de la tarjeta en Teams mensaje de canal.](media/CardContentTeams.png)
 
 ### <a name="card-content-in-search-results"></a>Contenido de la tarjeta en los resultados de búsqueda
   
 ![El mismo contenido de tarjeta en los resultados de una búsqueda de contenido.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> Para mostrar imágenes del contenido de la tarjeta en los resultados de búsqueda en este momento (como las marcas de verificación de la captura de pantalla anterior), debe haber iniciado sesión en Teams (https://teams.microsoft.com)en una pestaña diferente en la misma sesión del explorador que usa para ver los resultados de búsqueda. En caso contrario, se mostrarán marcadores de posición de imagen.
+> Para mostrar imágenes del contenido de la tarjeta en los resultados de búsqueda en este momento (como las marcas de verificación en la captura de pantalla anterior), debe iniciar sesión en Teams (en https://teams.microsoft.com) una pestaña diferente en la misma sesión del explorador que usa para ver los resultados de búsqueda. En caso contrario, se mostrarán los marcadores de posición de imagen.
+
+## <a name="ediscovery-in-federated-and-non-federated-environments"></a>Exhibición de documentos electrónicos en entornos federados y no federados
+
+Los administradores pueden usar eDiscovery para buscar contenido en mensajes de chats en una reunión de Teams en entornos federados (denominados *acceso externo*) y no federados (denominado *acceso de invitado*) según las siguientes restricciones:
+
+- **Federado**: en una reunión de Teams con usuarios de su organización y usuarios de una organización externa (que tienen acceso externo en su organización), los administradores de ambas organizaciones pueden buscar contenido en los mensajes de chat de la reunión.
+
+- **No federado**: en una reunión de Teams con usuarios de su organización y usuarios invitados, solo los administradores de la organización que hospedan la reunión Teams pueden buscar contenido en los mensajes de chat de la reunión.
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Microsoft 365 de exhibición de documentos electrónicos](/microsoft-365/compliance/ediscovery)
-- [Introducción a eDiscovery principal](/microsoft-365/compliance/get-started-core-ediscovery)
+- [Microsoft 365 soluciones de exhibición de documentos electrónicos](/microsoft-365/compliance/ediscovery)
+- [Comenzar con Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)
 - [Teams flujo de trabajo en Advanced eDiscovery](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Descripción de PowerShell para Teams](teams-powershell-overview.md)
