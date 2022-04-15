@@ -1567,6 +1567,8 @@ items:
                 href: expand-teams-across-your-org/browser-join.md
               - name: Informe de uso de consultas virtuales
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
+              - name: Ayude a sus clientes a usar citas virtuales
+                href: expand-teams-across-your-org/virtual-appointments-toolkit.md
           - name: Turnos para Teams
             items:
               - name: Introducción a Turnos
