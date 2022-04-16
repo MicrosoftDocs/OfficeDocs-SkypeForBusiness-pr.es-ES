@@ -1559,7 +1559,7 @@ items:
         items:
           - name: Bookings en Teams
             items:
-              - name: Consultas virtuales con Teams y Bookings
+              - name: Citas virtuales con Teams y Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Administrar la aplicación Bookings
                 href: bookings-app-admin.md
@@ -1683,15 +1683,15 @@ items:
         items:
           - name: Introducción a Teams para organizaciones sanitarias
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-          - name: Consultas virtuales
+          - name: Citas virtuales
             items:
-              - name: 'Consultas virtuales con Teams: integración en Cerner EHR'
+              - name: 'Citas virtuales con Teams: integración en Cerner EHR'
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-              - name: 'Consultas virtuales con Teams: integración en Epic EHR'
+              - name: 'Citas virtuales con Teams: integración en Epic EHR'
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: Informes administrativos de HCE
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-              - name: Consultas virtuales con Teams y Bookings
+              - name: Citas virtuales con Teams y Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Informe de uso de consultas virtuales
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
