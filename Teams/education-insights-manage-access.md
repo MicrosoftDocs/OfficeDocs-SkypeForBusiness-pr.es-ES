@@ -17,17 +17,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f97b2aea15fe626c7780f022e2d024729ad02589
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62363186"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Administrar el acceso de usuarios a Insights para Educación
 
 Este documento proporciona los pasos necesarios para administrar el acceso de usuarios a [Insights para Educación en Microsoft Teams](class-insights.md).
 
-Debe proporcionar permisos para los líderes educativos, líderes de distrito, directores de escuela, profesores en jefe, consejeros, directores de áreas de aprendizaje, directores de programa, trabajadores sociales y psicólogos. A los formadores se les concede permiso *automáticamente* cuando son propietarios de un equipo de clase.
+Debe proporcionar permisos para los líderes educativos, líderes de distrito, jefes de estudios, directores escolares, consejeros, directores de áreas de aprendizaje, directores de programa, trabajadores sociales y psicólogos. A los formadores se les concede permiso *automáticamente* cuando son propietarios de un equipo de clase.
 
 Para emplear Insights a nivel de la organización, es necesario [importar los datos del Sistema de información de estudiantes (SIS)](education-insights-sis-data-sync.md) para que Insights tenga la estructura jerárquica del sistema educativo asignada correctamente.
 
