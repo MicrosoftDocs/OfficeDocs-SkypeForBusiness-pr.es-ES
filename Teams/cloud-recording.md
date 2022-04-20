@@ -19,12 +19,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c91e964d9cc0bfc3047ed8413dff15e5aafb0cb8
-ms.sourcegitcommit: 4c608bf06f43e88c844492c262a26dcf3eacb4c3
+ms.openlocfilehash: aab8f71ec8c9eb5ad1e984a68985a8a425e21f16
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63523809"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922671"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -313,7 +313,7 @@ Para más información sobre eDiscovery, consulte el artículo [Soluciones de eD
 
 Puede aplicar etiquetas de retención automáticas solo a los archivos de vídeo de grabación de reuniones de Teams a través de la propiedad ProgID. Para más información, consulte [Cómo aplicar automáticamente una etiqueta de retención a las grabaciones de reuniones de Teams](/microsoft-365/compliance/apply-retention-labels-automatically#microsoft-teams-meeting-recordings).
 
-### <a name="data-loss-prevention-dlp-policies"></a>Directivas para la prevención de pérdida de datos (DLP)
+### <a name="microsoft-purview-data-loss-prevention-dlp-policies"></a>Directivas de prevención de pérdida de datos (DLP) de Microsoft Purview
 
 También puede aplicar directivas DLP a archivos de grabación de reuniones mediante la propiedad ProgID. En la regla DLP para archivos en SharePoint Online y OneDrive para la Empresa, establezca las condiciones de la siguiente manera:
 
