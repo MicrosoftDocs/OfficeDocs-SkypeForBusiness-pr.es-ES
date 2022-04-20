@@ -15,59 +15,59 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Obtenga información sobre cómo administrar la característica Música en espera en Sistema telefónico.
-ms.openlocfilehash: a1e2662c04cfa9300d034aaaf8d7975e44e63f69
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 3e3e9c12eb459fdf52506be4577dfea88943ffa7
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514787"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922661"
 ---
 # <a name="music-on-hold"></a>Música en espera
 
-Cuando un Microsoft Teams coloca una llamada entrante de la red telefónica conmutada (RTC) en espera, el autor de la llamada RTC puede escuchar la música seleccionada.
+Cuando un usuario Microsoft Teams pone una llamada entrante en espera, el autor de la llamada puede escuchar la música seleccionada.
 
-La música que se reproduce es la música predeterminada proporcionada por Microsoft o la música personalizada que carga y configura. Como administrador de inquilinos, puede configurar si Música en espera está disponible creando una directiva de Teams de llamadas y asignando la directiva al Teams usuario.
+La música que se reproduce es la música predeterminada proporcionada por Microsoft o la música personalizada que cargues y configures. Como administrador de inquilinos, puede configurar si Música en espera está disponible creando una directiva de llamadas de Teams y asignando la directiva al usuario de Teams.
 
-La música predeterminada que se proporciona Microsoft Teams escenarios de llamadas RTC está libre de regalías pagaderas por su organización.
+La música predeterminada suministrada en Microsoft Teams escenarios de llamadas está libre de las regalías que su organización debe pagar.
 
-Tenga en cuenta que los autores de llamadas RTC también pueden escuchar Música en espera en otros escenarios; por ejemplo, cuando llaman a una cola de llamadas en la nube o cuando su llamada está estacionada por un Microsoft Teams usuario. Estas situaciones no están cubiertas ni controladas por las características mencionadas en este artículo.
+Tenga en cuenta que los autores de llamadas también pueden escuchar Música en espera en otros escenarios; por ejemplo, cuando llaman a una cola de llamadas en la nube o cuando un usuario de Microsoft Teams estaciona su llamada. Estas situaciones no están cubiertas ni controladas por las características mencionadas en este artículo.
 
 ## <a name="configure-music-on-hold"></a>Configurar Música en espera
 
 Para configurar Música en espera:
 
-1.  En el panel de navegación izquierdo del centro Teams de administración, vaya a **Directivas de llamadas > voz**.
+1.  En el panel de navegación izquierdo del centro de administración de Teams, vaya a **Directivas de llamadas de voz >**.
 
-2.  En la **pestaña Administrar directivas** , seleccione una de las directivas existentes o cree una nueva.
+2.  En la pestaña **Administrar directivas** , seleccione una de las directivas existentes o cree una nueva.
 
-3.  En el **Música de llamadas RTC** en espera, seleccione **Habilitado** en el menú desplegable.
+3.  En el campo **Música en espera para autores de llamadas RTC**, seleccione **Habilitado** en el menú desplegable.
 
-También puede configurar Música en espera mediante el módulo Teams PowerShell. En teamsCallingPolicy, cambie el parámetro MusicOnHoldEnabledType a Habilitado y, después, conceda esa instancia de directiva a uno o varios usuarios.
+También puede configurar Música en espera mediante el módulo Teams PowerShell. En TeamsCallingPolicy, cambie el parámetro MusicOnHoldEnabledType a Enabled y, a continuación, conceda esa instancia de directiva a uno o más usuarios.
 
-Si un usuario de Teams tiene una directiva de llamadas de Teams con Música en espera establecido en Deshabilitado, no se reproducirá música cuando el usuario de Teams coloca la llamada en espera.
+Si un usuario Teams tiene una directiva de llamada Teams con Música en espera establecido en Deshabilitado, no se reproducirá música cuando el usuario de Teams pone la llamada en espera.
 
 ## <a name="configure-custom-music"></a>Configurar música personalizada
 
-Además de reproducir música predeterminada para los autores de llamadas RTC, puede cargar un archivo de audio personalizado con música u otro contenido de audio y configurar ese archivo de audio para que se resalte al autor de la llamada RTC.
-Por ejemplo, es posible que un departamento u organización quiera reproducir un anuncio personalizado o música personalizada cuando los autores de llamadas RTC externos se pongan en espera.  
+Además de reproducir música predeterminada para los autores de llamadas, puede cargar un archivo de audio personalizado con música u otro contenido de audio y configurar ese archivo de audio para que se reproduzca al autor de la llamada.
+Por ejemplo, un departamento u organización podría querer reproducir un anuncio personalizado o música personalizada cuando se ponen en espera las llamadas RTC externas.  
 
 > [!NOTE]
-> Usted es responsable de borrar y proteger de forma independiente todos los derechos y permisos necesarios para usar cualquier archivo de música o audio con su Microsoft Teams servicio. Esto puede incluir propiedad intelectual y otros derechos en cualquier música, efectos de sonido, audio, marcas, nombres y otros contenidos del archivo de audio de todos los titulares de derechos pertinentes. Los titulares pueden incluir artistas, actores, intérpretes, músicos, compositores, compositores, discográficas, editores de música, uniones, cofradías, asociaciones de derechos, organizaciones de administración colectiva y cualquier otra parte que tenga, controle o licencia los derechos de propiedad intelectual, los efectos sonoros, el audio y otros derechos de propiedad intelectual.
+> Usted es responsable de borrar y proteger de forma independiente todos los derechos y permisos necesarios para usar cualquier archivo de música o audio con su servicio de Microsoft Teams. Esto puede incluir la propiedad intelectual y otros derechos en cualquier música, efectos de sonido, audio, marcas, nombres y otro contenido del archivo de audio de todos los titulares de derechos pertinentes. Los titulares pueden incluir artistas, actores, artistas intérpretes o ejecutantes, músicos, compositores, sellos discográficos, editores musicales, sindicatos, sindicatos, sociedades de derechos, organizaciones de gestión colectiva y cualquier otra parte que posea, controle o licencia los derechos de autor de la música, efectos sonoros, audio y otros derechos de propiedad intelectual.
 
-Para configurar Música personalizado en espera, use los cmdlets de PowerShell New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy e Import/Get/Remove/Export-CsOnlineAudioFile en Teams Módulo de PowerShell 3.0.0 o posterior.
+Para configurar Música personalizadas en espera, use los cmdlets de PowerShell New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy e Import/Get/Remove/Export-CsOnlineAudioFile en Teams módulo de PowerShell 3.0.0 o posterior.
 
-Para obtener formatos de audio compatibles y el tamaño máximo de archivo, consulte [Importar-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
+Para ver los formatos de audio admitidos y el tamaño máximo de archivo, consulte [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
 
 
-1. Asegúrese de que Teams usuario Música en espera para los autores de llamadas RTC establecidos en Habilitado en la directiva Teams llamadas. 
+1. Asegúrese de que el usuario de Teams tiene Música en espera para los autores de llamadas RTC establecido en Habilitado en la directiva de llamadas Teams. 
 
 2. Upload el archivo de audio personalizado.
 
-3. Cree una Teams de retención de llamadas que haga referencia al archivo de audio personalizado y asígnelo al Teams usuario.
+3. Cree una Teams directiva de suspensión de llamadas que haga referencia al archivo de audio personalizado y asígnelo al usuario de Teams.
 
 ### <a name="upload-the-custom-audio-file"></a>Upload el archivo de audio personalizado
 
-La configuración de Música en espera comienza con la carga del archivo de audio. Use el cmdlet de PowerShell [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile) para este fin.
+La configuración de Música personalizadas en espera comienza con la carga del archivo de audio. Para este propósito, se usa el cmdlet de PowerShell [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile) .
 
 A continuación se muestra un ejemplo de carga de un archivo de audio MP3 con la interfaz de PowerShell:
 
@@ -80,51 +80,53 @@ FileName      : customMoH1.mp3
 ApplicationId : TenantGlobal
 ```
 
-### <a name="reference-the-audio-file-in-a-teams-call-hold-policy"></a>Hacer referencia al archivo de audio en una Teams de retención de llamadas
+### <a name="reference-the-audio-file-in-a-teams-call-hold-policy"></a>Hacer referencia al archivo de audio en una Teams directiva de retención de llamadas
 
-Después de cargar el archivo de audio, debe hacer referencia al archivo en una directiva de retención de llamada de Teams mediante el Id. del archivo al crear o establecer una directiva de retención de llamadas Teams llamada. Por ejemplo:
+Después de cargar el archivo de audio, debe hacer referencia al archivo en una Teams directiva de suspensión de llamadas con el Identificador del archivo al crear o establecer una Teams directiva de retención de llamadas. Por ejemplo:
 
 ```PowerShell
 C:\> New-CsTeamsCallHoldPolicy -Identity "CustomMoH1" -Description "Custom MoH using CustomMoH1.mp3" -AudioFileId $AudioFile.Id
 ```
 
-Después de crear la nueva Teams de retención de llamadas, puede concederla a los usuarios Grant-CsTeamsCallHoldPolicy la siguiente manera:
+Después de crear la nueva Teams directiva de suspensión de llamadas, puede concederla a los usuarios mediante Grant-CsTeamsCallHoldPolicy como se indica a continuación:
 
 ```PowerShell
 C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contoso.com
 ```
 
-Para obtener información sobre los archivos de audio cargados, use el cmdlet Get-CsOnlineAudioFile carga.
+Para obtener información sobre los archivos de audio cargados, use el cmdlet de Get-CsOnlineAudioFile.
 
-Para quitar un archivo de audio cargado, use el cmdlet Remove-CsOnlineAudioFile carga. Antes de quitar un archivo de audio, compruebe que no está usando ese archivo de audio en teamsCallHoldPolicy.
+Para quitar un archivo de audio cargado, use el cmdlet Remove-CsOnlineAudioFile. Antes de quitar un archivo de audio, compruebe que no está usando ese archivo de audio en un TeamsCallHoldPolicy.
 
-Para exportar un archivo de audio cargado, use el cmdlet Export-CsOnlineAudioFile carga.
+Para exportar un archivo de audio cargado, use el cmdlet de Export-CsOnlineAudioFile.
 
 ## <a name="feature-availability"></a>Disponibilidad de características
 
-En la tabla siguiente se indican las características en las que los clientes y dispositivos admiten Música en espera y Música en espera. Microsoft sigue agregando compatibilidad con características, por lo que vuelve a comprobar a menudo si hay disponibilidad adicional.
+La tabla siguiente indica qué características admiten los clientes y dispositivos Música en espera y Música personalizadas en espera. Microsoft sigue agregando soporte técnico para las características, por lo que debe volver a comprobar con frecuencia si hay disponibilidad adicional.
 
 
 | Característica | Escritorio <br> Windows/Mac OS | Explorador | Móvil <br> iOS | Móvil <br> Android | Teams Teléfono |
 | :------------| :------- | :------- | :------- | :------- | :------- |
-| Espera en una llamada RTC 1:1 | -Música en espera<br>-Custom Música en espera | -Música en espera<br>-Custom Música en espera | -Música en espera<br>-Custom Música en espera | -Música en espera<br>-Custom Música en espera | -Música en espera<br>-Custom Música en espera |
-| Espera en la transferencia consultiva en la llamada RTC 1:1 |-Música en espera<br>-Custom Música en espera | | -Música en espera<br>-Custom Música en espera | -Música en espera<br>-Custom Música en espera | |
+| Espera en llamada RTC 1:1 | -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera |
+| Espera 1:1 Teams llamada | -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera |
+| Espera en transferencia consultiva en llamada RTC 1:1 |-Música en espera<br>-Música personalizado en espera || -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera |
+| Espera en transferencia consultiva el 1:1 Teams llamada |-Música en espera<br>-Música personalizado en espera || -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera |
 
 ## <a name="restrictions"></a>Restricciones
 
-- Música en espera solo está disponible en instancias comerciales y GCC nube.
+- Música en espera solo está disponible en instancias comerciales y GCC en la nube.
 
 - Música en espera solo está disponible cuando el usuario está en modo TeamsOnly.
 
-- Si el usuario Teams está habilitado para Location-Based enrutamiento, Música en espera no se puede reproducir al autor de la llamada.
+- Si el usuario llamado Teams está habilitado para Location-Based enrutamiento, no se puede reproducir Música en espera al autor de la llamada.
 
-- Las Música personalizadas en espera no están disponibles para los usuarios configurados para la apariencia de línea compartida (delegación) y cuando se usa el parque de llamadas. Se reproducirá Música estándar en espera.
+- La Música personalizada en espera no está disponible para los usuarios configurados para la apariencia de línea compartida (delegación) y cuando se usa el parque de llamadas. Se reproducirá el Música estándar en espera.
 
-- En algunos escenarios, una llamada de omisión de medios de enrutamiento directo se convertirá en omisión no multimedia para reproducir Música en espera y la llamada permanecerá como omisión no multimedia hasta que finalice la llamada.
+- En algunos casos, una llamada de omisión multimedia de enrutamiento directo se convertirá en omisión no multimedia para reproducir Música en espera y la llamada permanecerá como omisión no multimedia hasta que finalice la llamada.
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Asignar directivas a los usuarios](policy-assignment-overview.md)
+- [Asignar directivas a usuarios](policy-assignment-overview.md)
 
 - [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
 

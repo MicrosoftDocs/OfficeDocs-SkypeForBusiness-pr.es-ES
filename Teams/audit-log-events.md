@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Obtenga información sobre cómo recuperar datos Microsoft Teams del registro de auditoría en el Centro de cumplimiento de Microsoft 365.
+description: Obtenga información sobre cómo recuperar Microsoft Teams datos del registro de auditoría en el portal de cumplimiento de Microsoft Purview.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdca912b77969e4157af641076dc683c3d17921c
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 744a18f2a8f7f2ed406853ef7efbc9842d0096f5
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63711334"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922641"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -42,7 +42,7 @@ Para obtener una lista completa de las actividades de Teams que se auditan, cons
 
 ## <a name="turn-on-auditing-in-teams"></a>Activar la auditoría en Microsoft Teams
 
-Antes de poder ver los datos de auditoría, primero debe activar la auditoría en el Centro de cumplimiento de Microsoft 365. Para obtener más información, consulte [Activar o desactivar la auditoría](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
+Antes de poder ver los datos de auditoría, primero debe activar la auditoría en el portal de cumplimiento de Microsoft Purview. Para obtener más información, consulte [Activar o desactivar la auditoría](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 
 > [!IMPORTANT]
 > Los datos de auditoría solo están disponibles desde el punto en que se activó la auditoría.
@@ -235,4 +235,4 @@ Estamos trabajando para integrar eventos Teams en directivas de detección de an
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Buscar el registro de auditoría en el Centro de cumplimiento de Microsoft 365](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Buscar el registro de auditoría en el portal de cumplimiento de Microsoft Purview](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

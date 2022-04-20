@@ -1,5 +1,5 @@
 ---
-title: Preguntas más frecuentes sobre los datos de turnos
+title: Preguntas más frecuentes sobre los datos de Turnos
 author: lanachin
 ms.author: v-lanachin
 ms.reviewer: aaku
@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: Obtenga respuestas a las preguntas más frecuentes sobre los datos de Turnos, como dónde se almacenan los datos de Turnos, retención de datos, recuperación y cifrado.
+description: Obtenga respuestas a las preguntas más frecuentes sobre los datos de Turnos, incluido dónde se almacenan los datos de Turnos, la retención, la recuperación y el cifrado de datos.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -22,90 +22,90 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3f26413aa746b37474e7035e313fc8ffff2fb93c
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: d4fc6e36c0c78bdf86e1384fe6269f292f20deb7
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039958"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922831"
 ---
-# <a name="shifts-data-faq"></a>Preguntas más frecuentes sobre los datos de turnos
+# <a name="shifts-data-faq"></a>Preguntas más frecuentes sobre los datos de Turnos
 
-En este artículo se tratan las preguntas más frecuentes sobre los datos de Turnos, como dónde se almacenan los datos de Turnos, la retención de datos, la recuperación y el cifrado.
+Este artículo trata las preguntas más frecuentes sobre los datos de Turnos, incluido dónde se almacenan los datos de Turnos, la retención, la recuperación y el cifrado de datos.
 
 ## <a name="where-is-shifts-data-stored"></a>¿Dónde se almacenan los datos de Turnos?
 
-Los datos de turnos se almacenan en una de las tres geografías (geos): Asia Pacífico (APAC), la Unión Europea (UE) o Estados Unidos. Cada geo almacena datos en al menos dos regiones del centro de datos de Azure para alta disponibilidad (HA) y recuperación ante desastres (DR). Hoy en día, el geo de Estados Unidos/Norteamérica usa centros de datos en Centro Norte y Centro y Sur de Estados Unidos. Para obtener más información, vea [¿Dónde Microsoft 365 datos de clientes almacenados](/microsoft-365/enterprise/o365-data-locations)?
+Los datos de turnos se almacenan en una de las tres zonas geográficas: Asia Pacífico (APAC), la Unión Europea (UE) o la Estados Unidos. Cada geo almacena datos en al menos dos regiones de centros de datos de Azure para alta disponibilidad (HA) y recuperación ante desastres (DR). En la actualidad, la geo Estados Unidos/Norteamérica usa centros de datos en las Estados Unidos Norte Central y Central Sur. Para obtener más información, consulta [Dónde se almacenan Microsoft 365 datos de clientes](/microsoft-365/enterprise/o365-data-locations).
 
-Actualmente, Shifts ofrece residencia de datos en Australia, Canadá, Francia, Japón y el Reino Unido. Estamos trabajando activamente para expandir el soporte técnico a más ubicaciones.
+Actualmente, Shifts ofrece residencia de datos en Australia, Canadá, Francia, Japón y el Reino Unido. Estamos trabajando activamente para ampliar la compatibilidad a más ubicaciones.
 
 ## <a name="can-i-choose-where-shifts-data-is-stored"></a>¿Puedo elegir dónde se almacenan los datos de Turnos?
 
-La primera vez que configure Teams, elija un país o región, que se establece en el nivel de suscripción. Mayúss respeta esta selección y usa la configuración regional y la región que se establece en Teams si se admite esa región. Si aún no estamos en esa región, almacenamos datos en una región cercana compatible. En el futuro, planeamos migrar datos existentes, si se almacenan en una región cercana, a la región que se aprovisiona en Teams.
+Al configurar por primera vez Teams, elige un país o región, que se establece en el nivel de suscripción. Turnos respeta esta selección y usa la configuración regional y la región que se establecen en Teams si se admite esa región. Si aún no estamos en esa región, almacenamos datos en una región cercana que admitimos. En el futuro, tenemos previsto migrar los datos existentes, si se almacenan en una región cercana, a la región aprovisionada en Teams.
 
-## <a name="can-i-access-and-export-or-delete-a-users-personal-data-in-shifts"></a>¿Puedo acceder y exportar o eliminar los datos personales de un usuario en Turnos?
+## <a name="can-i-access-and-export-or-delete-a-users-personal-data-in-shifts"></a>¿Puedo acceder a los datos personales de un usuario y exportarlos o eliminarlos en Turnos?
 
-Los turnos cumplen con el Reglamento general de protección de datos (RGPD).Una solicitud formal de una persona (conocida como interesado) para realizar una acción sobre sus datos personales se denomina solicitud de interesado (DSR). Puede buscar y actuar en función de los datos personales en Turnos en respuesta a un DSR.
+Turnos cumple con el Reglamento general de protección de datos (RGPD).Una solicitud formal por parte de una persona (conocida como interesado) para realizar una acción sobre sus datos personales se denomina solicitud del interesado (DSR). Puede buscar datos personales y actuar en ellos en Turnos en respuesta a una DSR.
 
-Puede usar la herramienta de exhibición de documentos electrónicos de búsqueda de contenido en la Centro de cumplimiento de Microsoft 365 para buscar y exportar datos de programación y reloj de tiempo a Excel. Para todos los demás datos de Turnos, puede realizar capturas de pantalla de los datos.
+Puede usar la herramienta de exhibición de documentos electrónicos de búsqueda de contenido en el portal de cumplimiento de Microsoft Purview para buscar y exportar datos de reloj de hora y programación a Excel. Para todos los demás datos de Turnos, puede realizar capturas de pantalla de los datos.
 
-Para obtener más información, [vea Office 365 solicitudes del interesado para el RGPD y el CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
+Para obtener más información, consulte [Office 365 solicitudes del interesado para el RGPD y la CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
 
-## <a name="what-happens-to-shifts-data-if-i-turn-off-shifts-for-my-organization"></a>¿Qué ocurre con los datos de Turnos si despegar turnos de mi organización?
+## <a name="what-happens-to-shifts-data-if-i-turn-off-shifts-for-my-organization"></a>¿Qué sucede con los datos de Turnos si desactivo turnos para mi organización?
 
-Desactivar Turnos en su organización *no elimina* los datos. Si desactiva Turnos y luego activa Turnos, los datos de Turnos seguirán estando disponibles.
+Si desactiva Turnos en su organización *, no se* eliminarán los datos. Si desactiva Turnos y después activa Turnos, los datos de turnos seguirán estando disponibles.
 
-Si elimina el espacio empresarial, todos los datos de Turnos se eliminan después de que finalice el período de retención.
+Si elimina el inquilino, todos los datos de Turnos se eliminan cuando finaliza el período de retención.
 
-No hay ninguna opción para eliminar solo los datos de Turnos. Si elimina un equipo en Teams, los datos de programación de turnos asociados a ese equipo se eliminan cuando finaliza el período de retención. Para obtener más información, vea [Retención, eliminación](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) y eliminación de datos en Microsoft 365.
+No hay ninguna opción para eliminar solo los datos de Turnos. Si elimina un equipo en Teams, los turnos programan datos asociados a ese equipo se eliminan cuando finaliza el período de retención. Para obtener más información, consulta [Retención, eliminación y destrucción de datos en Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 
 ## <a name="can-i-recover-a-shifts-schedule-that-was-deleted"></a>¿Puedo recuperar una programación de Turnos que se eliminó?
 
-Puede recuperar una programación eliminada si se restaura Microsoft 365 grupo que la copia de seguridad (o el equipo de Teams).
+Puede recuperar una programación eliminada si se restaura el grupo de Microsoft 365 que la respalda (o el equipo de Teams).
 
-De forma predeterminada, un grupo eliminado de Microsoft 365 se conserva durante 30 días. Este período de 30 días se denomina "eliminación suave" porque todavía puede restaurar el grupo. Para obtener más información, vea [Restaurar un grupo Microsoft 365 eliminado.](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center)
+De forma predeterminada, un grupo eliminado de Microsoft 365 se conserva durante 30 días. Este período de 30 días se denomina "eliminación temporal" porque todavía puede restaurar el grupo. Para obtener más información, vea [Restaurar un grupo de Microsoft 365 eliminado](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center).
 
 ## <a name="can-i-use-custom-retention-policies-for-shifts-data"></a>¿Puedo usar directivas de retención personalizadas para los datos de Turnos?
 
 Actualmente, Turnos no admite directivas de retención personalizadas.
 
-Para obtener más información sobre las directivas de retención en Teams, vea [](/microsoft-365/compliance/retention-policies-teams) Información sobre la retención para Teams y Administrar directivas de retención [para Teams](../../retention-policies.md).
+Para obtener más información sobre las directivas de retención en Teams, vea [Obtener información sobre la retención de Teams](/microsoft-365/compliance/retention-policies-teams) y [Administrar directivas de retención para Teams](../../retention-policies.md).
 
-## <a name="can-i-retrieve-shifts-data-for-a-user-whose-license-was-revoked"></a>¿Puedo recuperar datos de Turnos para un usuario cuya licencia se ha revocado?
+## <a name="can-i-retrieve-shifts-data-for-a-user-whose-license-was-revoked"></a>¿Puedo recuperar los datos de Turnos de un usuario cuya licencia se ha revocado?
 
-Hoy en día, no ofrecemos la posibilidad de recuperar datos de un usuario cuya licencia se revocó. Esta capacidad es algo con lo que estamos trabajando.
+Hoy en día, no ofrecemos la capacidad de recuperar datos de un usuario cuya licencia se ha revocado. Estamos trabajando para que esta funcionalidad sea algo en lo que estamos trabajando.
 
-## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>¿Qué tipo de cifrado usa Turnos para los datos en reposo y en tránsito?
+## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>¿Qué tipo de cifrado usan los Turnos para los datos en reposo y en tránsito?
 
-Los datos de Turnos están cifrados en reposo por Azure Cosmos DB y Azure Storage. Para obtener más información, vea [Cifrado de datos de Azure en](/azure/security/fundamentals/encryption-atrest) reposo y Cifrado [de datos en Azure Cosmos DB](/azure/cosmos-db/database-encryption-at-rest).
+Azure Cosmos DB y Azure Storage cifran los datos de turnos en reposo. Para obtener más información, vea [Cifrado de datos de Azure en reposo](/azure/security/fundamentals/encryption-atrest) y [Cifrado de datos en Azure Cosmos DB](/azure/cosmos-db/database-encryption-at-rest).
 
-Turnos sigue las Microsoft 365 para el cifrado de datos en tránsito. Para obtener más información, vea [Cifrado para datos en tránsito](/compliance/assurance/assurance-encryption-in-transit).
+Turnos sigue Microsoft 365 directrices para el cifrado de datos en tránsito. Para obtener más información, consulte [Cifrado de datos en tránsito](/compliance/assurance/assurance-encryption-in-transit).
 
-El cifrado de turnos de datos en reposo y en tránsito se comprueba  año tras año mediante la auditoría de cumplimiento de SOC2.
+El cifrado de turnos de datos en reposo y en tránsito se verifica anualmente mediante la auditoría de cumplimiento de SOC2.
 
 ## <a name="can-i-access-immutable-copies-of-shifts-data"></a>¿Puedo acceder a copias inmutables de datos de Turnos?
 
-No almacenamos copias inmutables de los datos de Turnos. Por ejemplo, un administrador puede realizar cambios en una programación, como agregar notas, cambiar los horarios de turno, asignar tareas, entre otros.
+No almacenamos copias inmutables de datos de Turnos. Por ejemplo, un administrador puede realizar cambios en una programación, como agregar notas, cambiar los tiempos de los turnos, asignar tareas, etc.
 
 ## <a name="can-shifts-data-be-edited"></a>¿Se pueden editar los datos de Turnos?
 
-Hay ciertos aspectos de turnos que no se pueden cambiar y ciertos aspectos que se pueden cambiar. Por ejemplo, los detalles de turno, como notas y colores, se pueden modificar de forma similar a como se pueden cambiar en la aplicación Turnos. Las solicitudes de turno no se pueden editar a menos que se retire la solicitud.
+Hay ciertos aspectos de los turnos que no se pueden cambiar y determinados aspectos que se pueden cambiar. Por ejemplo, los detalles de los turnos, como las notas y los colores, se pueden editar de forma similar a cómo se pueden cambiar en la aplicación Turnos. Las solicitudes de turno no se pueden editar a menos que se retire la solicitud.
 
-Para ver qué campos se han cambiado, puede buscar en el registro Microsoft 365 de auditoría de eventos de Turnos. Para obtener más información sobre los eventos que se registran para las actividades de Turnos en el registro de auditoría de Microsoft 365, vea [Turnos en Teams actividades](../../audit-log-events.md#shifts-in-teams-activities).
+Para ver qué campos se han cambiado, puede buscar eventos de Turnos en el registro de auditoría de Microsoft 365. Para obtener más información sobre los eventos que se registran para las actividades de Turnos en el registro de auditoría de Microsoft 365, vea [Turnos en actividades de Teams](../../audit-log-events.md#shifts-in-teams-activities).
 
 ## <a name="my-organization-uses-a-workforce-management-system-for-scheduling-can-we-integrate-with-and-access-shifts-data"></a>Mi organización usa un sistema de administración de la fuerza de trabajo para la programación. ¿Podemos integrar con datos de Turnos y acceder a ellos?
 
-Los cambios Graph API permiten integrar los datos de Turnos con sistemas de administración de fuerza de trabajo externos (WFM). Para obtener más información, vea [Turnos Graph API](/graph/api/resources/shift).
+Los turnos Graph API le permiten integrar los datos de Shifts con sistemas externos de administración de la fuerza de trabajo (WFM). Para obtener más información, consulta [Turnos Graph API](/graph/api/resources/shift).
 
-También ofrecemos conectores de turnos administrados y conectores de turnos de código abierto. Con estos conectores, puede integrar su sistema WFM directamente con Turnos. Para obtener más información sobre los conectores de Turnos y los sistemas WFM compatibles, vea [Conectores de turnos](shifts-connectors.md).
+También ofrecemos conectores Shift administrados y conectores Shifts de código abierto. Con estos conectores, puede integrar su sistema WFM directamente con Shifts. Para obtener más información sobre los conectores Shifts y los sistemas WFM compatibles, consulte [Conectores Shifts](shifts-connectors.md).
 
 ## <a name="can-shifts-data-be-deleted-permanently-after-a-specified-period-of-time"></a>¿Los datos de Turnos se pueden eliminar permanentemente después de un período de tiempo especificado?
 
-Hoy en día, no eliminamos los datos de Turnos en absoluto. Con [Mayúss Graph API](/graph/api/resources/shift), es posible crear una aplicación con Power Apps conservar los [](/powerapps/maker/) datos durante un período de tiempo especificado. Sin embargo, no lo admitemos de forma nativa.
+Hoy en día, no eliminamos los datos de turnos. Con [turnos Graph API](/graph/api/resources/shift), es posible [crear una aplicación mediante Power Apps](/powerapps/maker/) para conservar los datos durante un período de tiempo especificado. Sin embargo, no se admite de forma nativa.
 
-## <a name="can-shifts-data-be-moved-in-a-tenant-to-tenant-migration"></a>¿Los datos de Turnos se pueden mover en una migración de inquilino a inquilino?
+## <a name="can-shifts-data-be-moved-in-a-tenant-to-tenant-migration"></a>¿Se pueden mover los datos de Turnos en una migración de espacio empresarial a inquilino?
 
-Los datos de turnos se pueden migrar de un inquilino a otro inquilino a petición específica. Tenga en cuenta que la migración de inquilino a inquilino no es compatible desde el primer momento, pero se puede elevar como una solicitud de cliente.
+Los datos de turnos se pueden migrar de un inquilino a otro inquilino a petición específica. Tenga en cuenta que la migración de espacio empresarial a inquilino no se admite de forma rápida, pero se puede plantear como una solicitud de cliente.
 
 ## <a name="related-articles"></a>Artículos relacionados
 

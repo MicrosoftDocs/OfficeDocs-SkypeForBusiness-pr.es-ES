@@ -1,5 +1,5 @@
 ---
-title: Teams de aplicaciones basadas en tipos de usuarios
+title: Teams comportamiento de las aplicaciones en función de los tipos de usuarios
 author: guptaashish
 ms.author: guptaashish
 ms.reviewer: joglocke
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Obtenga información sobre cómo las aplicaciones Microsoft Teams se comportan para diferentes tipos de usuarios.
+description: Obtenga información sobre cómo se comportan las aplicaciones de Microsoft Teams para diferentes tipos de usuarios.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,35 +17,35 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe3ad067844de3c7a5dda0a042dee837a9638eae
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: a407564986d5e4c758d39e2684e5c068539bb9dc
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556291"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922471"
 ---
-# <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams de aplicaciones basadas en tipos de usuarios
+# <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams el comportamiento de las aplicaciones en función de los tipos de usuarios
 
-Teams aplicaciones se comportan cuando los usuarios invitados, externos (federados) y anónimos están presentes en Teams contexto.
+Teams aplicaciones se comportan cuando los usuarios invitados, externos (federados) y anónimos están presentes en un contexto Teams.
 
-- Un **usuario invitado** es alguien que no es empleado, estudiante o miembro de su organización. Tampoco tiene una cuenta profesional o educativa con su organización.
+* Un **usuario invitado** es alguien que no es empleado, estudiante ni miembro de la organización. Tampoco tiene una cuenta profesional o educativa con su organización.
 
-- Un **usuario externo (federado)** pertenece a otro dominio y no tiene acceso a los equipos ni a los recursos del equipo de su organización.
+* Un **usuario externo (federado)** pertenece a otro dominio y no tiene acceso a los equipos ni a los recursos del equipo de su organización.
 
   > [!Note]
-  > Para obtener una comparación más detallada de los usuarios invitados frente a los externos, [vea Comunicarse con usuarios de otras organizaciones](./communicate-with-users-from-other-organizations.md).
+  > Para obtener una comparación más detallada de los usuarios invitados y externos, [vea Comunicarse con usuarios de otras organizaciones](./communicate-with-users-from-other-organizations.md).
 
-- Un **usuario anónimo** es un concepto en Teams reuniones en las que el usuario se ha unido a la reunión a través de un vínculo. El usuario no ha iniciado sesión con su cuenta de Microsoft u organización.
+* Un **usuario anónimo** es un concepto de Teams reuniones en las que el usuario se ha unido a la reunión mediante un vínculo. El usuario no ha iniciado sesión con su cuenta de Microsoft o de la organización.
 
 ## <a name="guest-users"></a>Usuarios invitados
 
 ### <a name="install-update-and-delete-for-guest-users"></a>Instalar, actualizar y eliminar para usuarios invitados
 
-Los invitados no pueden instalar, actualizar o eliminar aplicaciones en un contexto compartido, como un chat, un canal o una reunión, pero pueden hacerlo en su ámbito personal mediante extensiones de mensajes y vínculos directos. Los invitados no tienen acceso Teams la tienda de aplicaciones desde la aplicación de escritorio Teams, pero pueden acceder a ella con un vínculo directo.
+Los invitados no pueden instalar, actualizar ni eliminar aplicaciones en un contexto compartido, como un chat, un canal o una reunión, pero pueden acceder a su ámbito personal mediante extensiones de mensajes y vínculos directos. Los invitados no tienen acceso a la tienda de aplicaciones Teams desde la aplicación de escritorio Teams, pero pueden acceder a ella con un vínculo directo.
 
-### <a name="usage-behavior-and-policy-for-guest-users"></a>Comportamiento y directiva de uso para usuarios invitados
+### <a name="usage-behavior-and-policy-for-guest-users"></a>Comportamiento de uso y directiva para usuarios invitados
 
-Los invitados pueden usar una aplicación si la aplicación la instaló un usuario nativo.
+Los invitados pueden usar una aplicación si la aplicación fue instalada por un usuario nativo.
 
 #### <a name="bots-installed-to-a-channel"></a>Bots instalados en un canal
 
@@ -53,37 +53,38 @@ Los usuarios invitados pueden mencionar el bot e interactuar con tarjetas adapta
 
 #### <a name="personal-bots-installed-with-policies"></a>Bots personales instalados con directivas
 
-- Los invitados se ajustarán a las directivas de permisos globales y de toda la organización establecidas para el inquilino del host para cualquier aplicación. Si una aplicación está bloqueada para toda la organización host, los invitados tampoco pueden usar la aplicación.
-- Los bots incluidos en la directiva de configuración predeterminada global de la aplicación también se instalarán para los invitados.
-- Una vez instalado un bot, los bots pueden comunicarse proactivamente con los invitados y los invitados pueden comunicarse de nuevo con los bots.
-- No puede quitar un invitado de la directiva de configuración de aplicaciones predeterminada global.
-- Para evitar que los invitados accedan a bots, puede crear más directivas de configuración de aplicaciones, asignarlas a usuarios internos e instalar bots con las directivas personalizadas.
+* Los invitados se adhieren a las directivas de permisos globales y de toda la organización establecidas para el inquilino host para cualquier aplicación. Si una aplicación está bloqueada para toda la organización host, los invitados tampoco podrán usar la aplicación.
+* Cualquier bot incluido en la directiva de configuración predeterminada global de la aplicación también se instalará para los invitados.
+* Después de instalar un bot, los bots pueden comunicarse de forma proactiva con los invitados y los invitados pueden comunicarse de nuevo con los bots.
+* No puede quitar un invitado de la directiva global de configuración predeterminada de la aplicación.
+* Para evitar que un invitado acceda a bots, puede crear más directivas de configuración de aplicaciones, asignarlas a usuarios internos e instalar bots con las directivas personalizadas.
 
 ## <a name="external-federated-users"></a>Usuarios externos (federados)
 
-### <a name="install-update-and-delete-for-external-users"></a>Instalar, actualizar y eliminar para usuarios externos
+### <a name="install-update-and-delete-for-external-users"></a>Instalar, actualizar y eliminar usuarios externos
 
-Los usuarios externos no pueden instalar, actualizar ni eliminar aplicaciones en ningún contexto, como un chat, un canal o una reunión personal. No tienen acceso a la tienda de aplicaciones Teams de la organización de hospedaje.
+Los usuarios externos no pueden instalar, actualizar ni eliminar aplicaciones en ningún contexto, como un personal, chat, canal o reunión. No tienen acceso a la tienda de aplicaciones Teams de la organización de hospedaje.
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>Comportamiento de uso y directiva para usuarios externos
 
-- Las personas de otras organizaciones se adhieren a la directiva global (predeterminada para toda la organización) de la organización de hospedaje
-- Los usuarios de la organización de hospedaje pueden agregar aplicaciones en chats de reunión con personas de otras organizaciones. Los usuarios de otras organizaciones no pueden agregar aplicaciones en chats de reunión, pero pueden interactuar con bots, pestañas y extensiones de mensajes una vez agregados al chat.
-- Después de instalar un bot en un chat de reunión, puede comunicarse proactivamente con personas de otras organizaciones en ese chat y esas personas pueden comunicarse con el bot.
-- Se aplican las directivas de datos de la organización de hospedaje, así como las prácticas de uso compartido de datos de las aplicaciones de terceros compartidas por la organización de ese usuario.
+* Los usuarios de otras organizaciones se adhieren a la directiva global (predeterminada para toda la organización) de la organización
+* Los usuarios de la organización de hospedaje pueden agregar aplicaciones en chats de reuniones con personas de otras organizaciones. Los usuarios de otras organizaciones no pueden agregar aplicaciones en los chats de reuniones, pero pueden interactuar con bots, pestañas y extensiones de mensajes una vez agregados al chat.
+* Después de instalar un bot en un chat de reunión, puede comunicarse de forma proactiva con personas de otras organizaciones en ese chat y dichas personas pueden comunicarse con el bot.
+* Se aplican las directivas de datos de la organización de hospedaje, así como las prácticas de uso compartido de datos de cualquier aplicación de terceros compartida por la organización de ese usuario.
 
 ## <a name="anonymous-users"></a>Usuarios anónimos
 
 ### <a name="install-update-and-delete-for-anonymous-users"></a>Instalar, actualizar y eliminar para usuarios anónimos
 
-Los usuarios anónimos no pueden instalar, actualizar ni eliminar aplicaciones en reuniones.
+Los usuarios anónimos no pueden instalar, actualizar ni eliminar aplicaciones en las reuniones.
 
-### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportamiento y directiva de uso para usuarios anónimos
+### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportamiento de uso y directiva para usuarios anónimos
 
-Los usuarios anónimos no pueden usar directamente las aplicaciones en las reuniones. Los usuarios nativos pueden seguir usando las aplicaciones de reuniones si hay usuarios anónimos presentes. Si una aplicación envía una tarjeta adaptable en el chat, los usuarios anónimos pueden interactuar con la tarjeta. Para obtener más información, lea [Permitir que los usuarios anónimos se unan a las reuniones](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
+Los usuarios anónimos no pueden usar aplicaciones directamente en reuniones. Los usuarios anónimos heredan la directiva de permisos predeterminada global a nivel de usuario. Si una aplicación envía una tarjeta adaptable en el chat, los usuarios anónimos pueden interactuar con la tarjeta. Estos usuarios pueden interactuar con aplicaciones en Teams reuniones si la directiva de permisos a nivel de usuario habilita la aplicación.
 
-Los usuarios anónimos heredarán la directiva de permisos predeterminada global a nivel de usuario. Pueden interactuar con las aplicaciones en Teams reuniones si la directiva de permisos de nivel de usuario ha habilitado la aplicación. Los usuarios anónimos solo pueden interactuar con aplicaciones que ya están disponibles en una reunión y que no pueden adquirir ni administrar estas aplicaciones.
+Los usuarios anónimos solo pueden interactuar con las aplicaciones que ya están disponibles en una reunión y no pueden adquirir ni administrar dichas aplicaciones. Los usuarios nativos pueden seguir usando las aplicaciones de reuniones incluso cuando los usuarios anónimos asisten a una reunión.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="see-also"></a>Vea también
 
-[Administrar directivas de configuración de aplicación en Microsoft Teams](teams-app-setup-policies.md)
+* [Permitir que usuarios anónimos se unan a reuniones](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
+* [Administrar directivas de configuración de aplicaciones en Microsoft Teams](teams-app-setup-policies.md).

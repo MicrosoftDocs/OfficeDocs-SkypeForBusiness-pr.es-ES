@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa6a03c5408afcd7cce1d3e48b78b3b1ddb3675a
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: a916d6bdd57c2956c076461d7f36df64d5c503d9
+ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756996"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910906"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Validación realizada por Microsoft para todas las aplicaciones de Teams
 
@@ -53,14 +53,6 @@ Ejecutamos más de 400 casos de prueba para cada aplicación antes de que esté 
 * Los detalles de contacto del ISV están disponibles en la descripción de la tienda y en sus respectivas [Páginas de atestación de Publisher](/microsoft-365-app-certification/teams/teams-apps).
 
 Además, Microsoft anima a los desarrolladores de aplicaciones a participar en su programa de cumplimiento normativo, que es un enfoque riguroso de dos niveles para garantizar la calidad, la seguridad y el cumplimiento de las aplicaciones. La tienda de Teams tiene cientos de aplicaciones que van más allá de cumplir las directrices de validación ya detalladas y cumplir con estos programas.
-
-## <a name="publisher-verification"></a>Verificación del editor
-
-Antes de que un desarrollador de aplicaciones pueda enviar su aplicación a Microsoft, se le pedirá que realice una comprobación. Un publicador comprueba su identidad con su cuenta de Microsoft Partner Network (MPN) y asocia esta cuenta de MPN con el registro de la aplicación. La verificación del publicador ayuda a los administradores y usuarios finales a comprender la autenticidad de los desarrolladores de aplicaciones que se integran en la plataforma de identidad de Microsoft. La comprobación del publicador proporciona las siguientes ventajas:
-
-* Mayor transparencia y reducción de riesgos para los clientes: esta capacidad ayuda a los clientes a comprender qué aplicaciones utilizadas en sus organizaciones son publicadas por desarrolladores en los que confían.
-* Mejora de la marca: aparece un distintivo `verified` en la solicitud de consentimiento de Azure Active Directory, en la página de las aplicaciones empresariales y en otras interfaces de usuario utilizadas por los usuarios finales y los administradores.
-* Adopción empresarial más fluida: los administradores pueden configurar directivas de consentimiento del usuario, con el estado de comprobación del publicador como criterio de directiva principal.
 
 ## <a name="see-also"></a>Vea también
 

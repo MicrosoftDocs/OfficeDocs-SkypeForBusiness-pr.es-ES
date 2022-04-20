@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b04e5937ad737feb39528c06f54ad8890ba32d0
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 52e4a9df0daded1a1091c32790dae2c15294529d
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839062"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922501"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -131,7 +131,7 @@ He aquí algunas consideraciones adicionales para la implementación de Microsof
 
 - Si su organización tiene ciertas normativas por las que se tienen que poder detectar todas las discusiones de las reuniones, debe deshabilitar las reuniones privadas si el organizador tiene un buzón de correo local de Exchange. Para obtener más información, vea [Programación de reuniones privadas](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
 
-- En una implementación híbrida de Exchange, el contenido de los mensajes de chat se puede buscar sin importar que los participantes del chat tengan un buzón de correo basado en la nube o local. Para más información, consulte [Búsqueda de buzones basados en la nube para usuarios locales](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para más información sobre la búsqueda de contenido en Teams, consulte [Búsqueda de contenido en el Centro de cumplimiento de Microsoft 365](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+- En una implementación híbrida de Exchange, el contenido de los mensajes de chat se puede buscar sin importar que los participantes del chat tengan un buzón de correo basado en la nube o local. Para más información, consulte [Búsqueda de buzones basados en la nube para usuarios locales](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para obtener información sobre cómo buscar contenido en Teams, lea Búsqueda de [contenido en el portal de cumplimiento de Microsoft Purview](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
 - Para el estado de presencia, Microsoft Teams debe comprobar si el buzón de correo está hospedado en Exchange Online o en el entorno local. Entonces, el servicio decide dónde acceder al buzón de correo. Para habilitar el servicio de Teams para comprobar la ubicación del buzón de correo mediante la llamada de la REST API al servicio de Exchange Online, debe implementar un entorno híbrido de Exchange mediante el asistente para configuración híbrida de Exchange, como se describe en [Crear una implementación híbrida con el asistente para configuración híbrida](/exchange/hybrid-deployment/deploy-hybrid).
 

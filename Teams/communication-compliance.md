@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4ab8adcbe4a717e62e0dff66ecf00fb1650e31b
-ms.sourcegitcommit: 823ad7fe5f7a27f681c95b2d369ce2cbe71cfdfe
+ms.openlocfilehash: 091fe5eba9d17cefc442978cb3090aaca87844d8
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64691455"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922651"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Cumplimiento de la comunicación con Microsoft Teams
 
-El cumplimiento de las comunicaciones es una solución de riesgo de Insider en Microsoft 365 que ayuda a minimizar los riesgos de comunicación al ayudarle a detectar, capturar y actuar en mensajes inadecuados de su organización.
+Microsoft Purview Communication Compliance es una solución de riesgo para participantes de Insider en Microsoft 365 que ayuda a minimizar los riesgos de comunicación al ayudarle a detectar, capturar y actuar en mensajes inadecuados de su organización.
 
 Por Microsoft Teams, el cumplimiento de las comunicaciones ayuda a identificar los [siguientes tipos](/microsoft-365/compliance/communication-compliance-feature-reference) de contenido inapropiado en canales de Teams, canales de Teams privados o en chats individuales y grupales:
 
@@ -33,7 +33,7 @@ Por Microsoft Teams, el cumplimiento de las comunicaciones ayuda a identificar l
 - Imágenes para adultos, racy y gory
 - Uso compartido de información confidencial
 
-Para obtener más información sobre el cumplimiento de las comunicaciones y cómo configurar directivas para su organización, vea [Cumplimiento de las comunicaciones en Microsoft 365](/microsoft-365/compliance/communication-compliance). Para obtener información sobre Microsoft 365 suscripciones que incluyen cumplimiento de comunicaciones, consulta [Soluciones de riesgo de Insider](/microsoft-365/compliance/insider-risk-solution-overview#communication-compliance).
+Para obtener más información sobre el cumplimiento de comunicaciones y cómo configurar directivas para su organización, vea [Obtener información sobre el cumplimiento de las comunicaciones](/microsoft-365/compliance/communication-compliance).
 
 ## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>Cómo usar el cumplimiento de las comunicaciones en Microsoft Teams
 

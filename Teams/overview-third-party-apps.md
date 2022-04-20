@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85171e8125fc4e6cecbfde4a0f6832b48ca7ca84
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: 90395ab4bd9563a6bd9ad12ae6d9c1d164ddc89b
+ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756966"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910876"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Información general sobre aplicaciones de terceros en Microsoft Teams
 
@@ -34,8 +34,9 @@ Microsoft no posee ni el control ni la propiedad de las aplicaciones de terceros
 Además de asegurarse de que los administradores tengan el control de las aplicaciones de terceros, Microsoft también garantiza que solo se ofrezcan aplicaciones de alta calidad en la tienda. Se requiere que todas las aplicaciones pasen por una ronda obligatoria de validación por parte de Microsoft. En ella se comprueba la funcionalidad de la aplicación, la identidad del editor, los permisos solicitados por la aplicación, y el cumplimiento, la privacidad y la seguridad de los datos recopilados por la aplicación. Queremos fomentar que las aplicaciones formen parte de un programa de cumplimiento opcional con el que dar un énfasis adicional a la seguridad y al cumplimiento de los estándares del sector. Conozca estos programas en los siguientes artículos:
 
 1. [Validación de aplicaciones](overview-of-app-validation.md#app-validation-and-testing)
-1. [Verificación de editores](overview-of-app-validation.md#publisher-verification)
+
 1. Programa de cumplimiento de aplicaciones de Microsoft:
 
+   * [Verificación de editores](overview-of-app-certification.md#publisher-verification)
    * [Atestación de editores](overview-of-app-certification.md#publisher-attestation)
    * [Certificación de Microsoft 365](overview-of-app-certification.md#microsoft-365-certification)
