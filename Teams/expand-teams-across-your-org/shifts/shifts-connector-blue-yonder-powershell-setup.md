@@ -15,31 +15,31 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b78f45919649fda29f09ea338a160c2ab376c1a
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+ms.openlocfilehash: ad0f7e84dcd65f844e457d4821717ff7593593ce
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64593709"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64976028"
 ---
 # <a name="use-powershell-to-connect-shifts-to-blue-yonder-workforce-management"></a>Usar PowerShell para conectar Turnos a Blue Yonder Workforce Management
 
 ## <a name="overview"></a>Información general
 
-Use el [conector Microsoft Teams Turnos para Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) para integrar la aplicación Turnos en Microsoft Teams con Blue Yonder Workforce Management (Blue Yonder WFM). Después de configurar una conexión, los trabajadores de primera línea pueden ver y administrar sin problemas sus programaciones en Blue Yonder WFM desde Turnos.
+Use el [conector Microsoft Teams Shifts para Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) para integrar la aplicación Turnos en Microsoft Teams con Blue Yonder Workforce Management (Blue Yonder WFM). Una vez configurada una conexión, sus trabajadores de primera línea pueden ver y administrar sin problemas sus programaciones en Blue Yonder WFM desde Shifts.
 
-En este artículo, le explicamos cómo usar PowerShell para configurar y configurar el conector para integrar Turnos con Blue Yonder WFM.
+En este artículo, le guiaremos a través de cómo usar PowerShell para configurar el conector para integrar Shifts con Blue Yonder WFM.
 
-Para configurar la conexión, ejecute un script de PowerShell. El script configura el conector, aplica la configuración de sincronización, crea la conexión y asigna los sitios wfm de Yonder azul a los equipos. La configuración de sincronización determina las características habilitadas en Turnos y la información de programación que se sincroniza entre Blue Yonder WFM y Mayúss. Las asignaciones definen la relación de sincronización entre los sitios y los equipos de BLUE Yonder WFM en Teams. Puede asignar a equipos existentes y nuevos equipos.
+Para configurar la conexión, ejecute un script de PowerShell. El script configura el conector, aplica la configuración de sincronización, crea la conexión y asigna sitios de WfM de Blue Yonder a los equipos. La configuración de sincronización determina las características habilitadas en Turnos y la información de programación sincronizada entre Blue Yonder WFM y Shifts. Las asignaciones definen la relación de sincronización entre los sitios y equipos de WFM de Blue Yonder en Teams. Puede asignar a equipos existentes y nuevos equipos.
 
-Proporcionamos dos scripts. Puede usar cualquiera de los scripts, dependiendo de si desea asignar a equipos existentes o crear nuevos equipos a los que asignar.
+Proporcionamos dos scripts. Puede usar cualquiera de las secuencias de comandos, dependiendo de si desea asignar a los equipos existentes o crear nuevos equipos a los que asignar.
 
-Puede configurar varias conexiones, cada una con diferentes configuraciones de sincronización. Por ejemplo, si su organización tiene varias ubicaciones con requisitos de programación diferentes, cree una conexión con una configuración de sincronización única para cada ubicación. Tenga en cuenta que un sitio wfm de Yonder azul solo se puede asignar a un equipo en un momento dado. Si un sitio ya está asignado a un equipo, no se puede asignar a otro equipo.
+Puede configurar varias conexiones, cada una con configuraciones de sincronización diferentes. Por ejemplo, si su organización tiene varias ubicaciones con requisitos de programación diferentes, cree una conexión con la configuración de sincronización única para cada ubicación. Tenga en cuenta que un sitio de WfM de Blue Yonder solo se puede asignar a un equipo en un momento dado. Si un sitio ya está asignado a un equipo, no se puede asignar a otro equipo.
 
-Con Blue Yonder WFM como sistema de registro, los trabajadores de primera línea pueden ver e intercambiar turnos, administrar su disponibilidad y solicitar permiso en Turnos en sus dispositivos. Los administradores de primera línea pueden seguir usando Blue Yonder WFM para configurar programaciones.
+Con Blue Yonder WFM como sistema de registro, sus trabajadores de primera línea pueden ver e intercambiar turnos, administrar su disponibilidad y solicitar permisos en Turnos en sus dispositivos. Los gerentes de frente pueden seguir usando Blue Yonder WFM para configurar programaciones.
 
 > [!NOTE]
-> También puede usar el Asistente [para conectores de turnos](shifts-connector-wizard.md) en el Centro de administración de Microsoft 365 para conectar Turnos a Blue Yonder WFM.
+> También puede usar el [asistente del conector Shifts](shifts-connector-wizard.md) en el Centro de administración de Microsoft 365 para conectar Turnos a Blue Yonder WFM.
 
 ## <a name="before-you-begin"></a>Antes de empezar
 
@@ -55,14 +55,24 @@ Con Blue Yonder WFM como sistema de registro, los trabajadores de primera línea
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
+## <a name="connect-to-teams"></a>Conectar a Teams
+
+Ejecuta lo siguiente para conectarte a Teams.
+
+```powershell
+Connect-MicrosoftTeams
+```
+
+Cuando se le solicite, inicie sesión con sus credenciales de administrador. Ahora está configurado para ejecutar los scripts de este artículo y los cmdlets del conector Shifts.
+
 ## <a name="identify-the-teams-you-want-to-map"></a>Identificar los equipos que desea asignar
 
 > [!NOTE]
-> Complete este paso si va a asignar sitios wfm de Yonder azul a equipos existentes. Si va a crear nuevos equipos a los que asignar, puede omitir este paso.
+> Complete este paso si está asignando sitios de WfM de Blue Yonder a equipos existentes. Si va a crear nuevos equipos a los que asignar, puede omitir este paso.
 
-En el Azure Portal, vaya [a la página](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups) Todos los grupos para obtener una lista de los TeamIds de los equipos de su organización.
+En la Azure Portal, vaya a la página [Todos los grupos](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups) para obtener una lista de los Id. de equipo de los equipos de su organización.
 
-Tome nota de los TeamIds de los equipos que desea asignar. El script le pedirá que escriba esta información.
+Anote los Id. de equipo de los equipos que desea asignar. El script le pedirá que escriba esta información.
 
 > [!NOTE]
 > Si uno o varios equipos tienen una programación existente, el script quitará las programaciones de esos equipos. En caso contrario, verá turnos duplicados.
@@ -72,30 +82,30 @@ Tome nota de los TeamIds de los equipos que desea asignar. El script le pedirá 
 Ejecute el script:
 
 - Para configurar una conexión y crear nuevos equipos para asignar, [ejecute este script](#set-up-a-connection-and-create-new-teams-to-map).
-- Para configurar una conexión y asignar a equipos existentes, [ejecute este script](#set-up-a-connection-and-map-to-existing-teams).
+- Para configurar una conexión y asignarla a equipos existentes, [ejecute este script](#set-up-a-connection-and-map-to-existing-teams).
 
 El script realiza las siguientes acciones. Se le pedirá que escriba los detalles de configuración y configuración.
 
-1. Comprueba y comprueba la conexión a Blue Yonder WFM con las credenciales de cuenta de servicio y las direcciones URL de servicio de Blue Yonder WFM que escriba.
-1. Configura el conector Turnos.
-1. Aplica la configuración de sincronización. Esta configuración incluye la frecuencia de sincronización (en cuestión de minutos) y los datos de programación que se sincronizan entre Blue Yonder WFM y Mayúss. Los datos de programación se definen en los siguientes parámetros:
+1. Comprueba y comprueba la conexión a WfM de Blue Yonder mediante las credenciales de la cuenta de servicio y las direcciones URL de servicio de Blue Yonder WFM que especifique.
+1. Configura el conector Mayús.
+1. Aplica la configuración de sincronización. Esta configuración incluye la frecuencia de sincronización (en minutos) y los datos de programación que se sincronizan entre Blue Yonder WFM y Shifts. Los datos de programación se definen en los parámetros siguientes:
 
-    - El **parámetro enabledConnectorScenarios** define los datos que se sincronizan de Blue Yonder WFM a Shifts. Las opciones son , , `OpenShift`, , , `TimeOffRequest``TimeOff`. `OpenShiftRequest``UserShiftPreferences``SwapRequest``Shift`
-    - El **parámetro enabledWfiScenarios** define los datos que se sincronizan de Mayús a Blue Yonder WFM. Las opciones son `SwapRequest`, `TimeOffRequest``OpenShiftRequest`, `UserShiftPreferences`.
+    - El parámetro **enabledConnectorScenarios** define los datos que se sincronizan de Blue Yonder WFM a Shifts. Las opciones son `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOff`. `TimeOffRequest`
+    - El parámetro **enabledWfiScenarios** define los datos que se sincronizan de Shifts a Blue Yonder WFM. Las opciones son `SwapRequest`, `OpenShiftRequest`, `TimeOffRequest`, `UserShiftPreferences`.
 
-    Para obtener más información, [vea New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps). Para ver la lista de opciones de sincronización compatibles para cada parámetro, ejecute [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps).
+    Para obtener más información, vea [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps). Para ver la lista de opciones de sincronización admitidas para cada parámetro, ejecute [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps).
 
     > [!IMPORTANT]
-    > El script habilita la sincronización para todas estas opciones. Si desea cambiar la configuración de sincronización, puede hacerlo después de configurar la conexión. Para obtener más información, vea [Usar PowerShell para administrar la conexión de Turnos a Blue Yonder Workforce Management](shifts-connector-powershell-manage.md).
+    > El script habilita la sincronización para todas estas opciones. Si desea cambiar la configuración de sincronización, puede hacerlo después de configurar la conexión. Para obtener más información, consulte [Usar PowerShell para administrar la conexión de Turnos con Blue Yonder Workforce Management](shifts-connector-powershell-manage.md).
 
 1. Crea la conexión.
-1. Mapas los sitios wfm de Yonder azules a los equipos. Las asignaciones se basan en los id. de sitio wfm de Yonder azul y los id. de equipo que escriba o los nuevos equipos que cree, según el script que ejecute. Si un equipo tiene una programación existente, el script quita los datos de programación para el intervalo de fecha y hora que especifique.
+1. Mapas los sitios de WFM de Blue Yonder a los equipos. Las asignaciones se basan en los id. de sitio de Blue Yonder WFM y los Id. de equipo que especifique o en los nuevos equipos que cree, según el script que ejecute. Si un equipo tiene una programación existente, el script quita los datos de programación para el intervalo de fecha y hora que especifique.
 
 Un mensaje correcto en la pantalla indica que la conexión se ha configurado correctamente.
 
 ## <a name="if-you-need-to-make-changes-to-a-connection"></a>Si necesita realizar cambios en una conexión
 
-Para realizar cambios en una conexión después de configurarla, vea Usar PowerShell para administrar la conexión de [Turnos a Blue Yonder Workforce Management](shifts-connector-powershell-manage.md). Por ejemplo, puede actualizar la configuración de sincronización, las asignaciones de equipo y deshabilitar la sincronización para una conexión.
+Para realizar cambios en una conexión después de su configuración, consulte [Usar PowerShell para administrar la conexión de Turnos con Blue Yonder Workforce Management](shifts-connector-powershell-manage.md). Por ejemplo, puede actualizar la configuración de sincronización, las asignaciones del equipo y deshabilitar la sincronización para una conexión.
 
 ## <a name="scripts"></a>Scripts
 
@@ -113,12 +123,6 @@ try {
 } catch {
     throw
 }
-
-#Authenticate with powershell as to the authorization capabilities of the caller.
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
 
 #Connect to MS Graph
 Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
@@ -178,7 +182,7 @@ $InstanceResponse = New-CsTeamsShiftsConnectionInstance -Name $InstanceName -Con
 $InstanceId = $InstanceResponse.id
 $Etag = $InstanceResponse.etag
 if ($InstanceId -ne $null){
-    Write-Host "Suceess"
+    Write-Host "Success"
 } else {
     throw "Connector instance creation failed"
 }
@@ -255,10 +259,9 @@ if ($decision -eq 1) {
 #The Teams admin was set as an owner directly when creating a new team, removing it from owners
 Remove-TeamUser -GroupId $TeamsTeamId -User $currentUser -Role Owner
 Disconnect-MgGraph
-Disconnect-MicrosoftTeams
 ```
 
-### <a name="set-up-a-connection-and-map-to-existing-teams"></a>Configurar una conexión y asignar a equipos existentes
+### <a name="set-up-a-connection-and-map-to-existing-teams"></a>Configurar una conexión y asignarla a equipos existentes
 
 ```powershell
 #Map WFM sites to existing teams script
@@ -272,12 +275,6 @@ try {
 } catch {
     throw
 }
-
-#Authenticate with powershell as to the authorization capabilities of the caller.
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
 
 #Connect to MS Graph
 Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
@@ -393,12 +390,11 @@ if ($decision -eq 1) {
 }
 }
 Disconnect-MgGraph
-Disconnect-MicrosoftTeams
 ```
 
-## <a name="shifts-connector-cmdlets"></a>Cmdlets de conector de turnos
+## <a name="shifts-connector-cmdlets"></a>Cmdlets de conector de Turnos
 
-Para obtener ayuda con los cmdlets del conector de Turnos, incluidos los cmdlets usados en los scripts, busque **CsTeamsShiftsConnection** en la referencia de cmdlet Teams [PowerShell](/powershell/teams/intro?view=teams-ps). A continuación se incluyen vínculos a algunos cmdlets que se usan con frecuencia.
+Para obtener ayuda con los cmdlets de conector de Shifts, incluidos los cmdlets usados en los scripts, busque **CsTeamsShiftsConnection** en la [referencia de cmdlet de PowerShell Teams](/powershell/teams/intro?view=teams-ps). Estos son vínculos a algunos cmdlets de uso habitual.
 
 - [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation?view=teams-ps)
 - [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)
@@ -418,8 +414,8 @@ Para obtener ayuda con los cmdlets del conector de Turnos, incluidos los cmdlets
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-- [Conectores de turnos](shifts-connectors.md)
+- [Conectores de Turnos](shifts-connectors.md)
 - [Usar PowerShell para administrar la conexión de Turnos a Blue Yonder Workforce Management](shifts-connector-powershell-manage.md)
 - [Administrar la aplicación Turnos](manage-the-shifts-app-for-your-organization-in-teams.md)
-- [Información general de PowerShell para Teams](../../teams-powershell-overview.md)
-- [Teams de cmdlet de PowerShell](/powershell/teams/intro?view=teams-ps)
+- [Descripción de PowerShell para Teams](../../teams-powershell-overview.md)
+- [Teams referencia de cmdlet de PowerShell](/powershell/teams/intro?view=teams-ps)

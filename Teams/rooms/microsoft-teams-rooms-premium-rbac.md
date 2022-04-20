@@ -1,5 +1,5 @@
 ---
-title: Control de acceso basado en roles con el Microsoft Teams de Premium sala
+title: Control de acceso basado en roles con el servicio de Premium de sala de Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,97 +14,97 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre el control de acceso basado en roles con el Salas de Microsoft Teams administrado.
+description: Obtenga información sobre el control de acceso basado en roles con el servicio administrado de Salas de Microsoft Teams.
 f1keywords: ''
 ms.openlocfilehash: c7594a04dbb1a36b60f3105c663cff3934ffd3c1
-ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62248671"
 ---
-# <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Control de acceso basado en roles con el Salas de Microsoft Teams administrado
+# <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Control de acceso basado en roles con el servicio administrado Salas de Microsoft Teams
 
-El control de acceso basado en roles (RBAC) del servicio administrado Salas de Microsoft Teams ayuda a administrar el acceso de los usuarios a los datos de recursos de sala de su organización. Al asignar roles a los usuarios del portal de servicio, puede limitar lo que pueden ver y cambiar. Cada rol tiene un conjunto de permisos que determinan a qué usuarios con ese rol pueden acceder y cambiar dentro de su organización.
+El control de acceso basado en roles (RBAC) en el servicio administrado de Salas de Microsoft Teams le ayuda a administrar el acceso de los usuarios a los datos de recursos de sala de su organización. Al asignar roles a los usuarios del portal de servicios, puede limitar lo que pueden ver y cambiar. Cada rol tiene un conjunto de permisos que determinan a qué usuarios con ese rol pueden acceder y cambiar dentro de su organización.
 
 Para crear, editar o asignar roles, su cuenta debe tener uno de los siguientes permisos:
 
-- Administrador global a través Azure Active Directory (Azure AD)
-- Administrador de servicios administrados a través Salas de Microsoft Teams portal de servicio administrado
+- Administrador global a través de Azure Active Directory (Azure AD)
+- Administrador de servicios administrados a través del portal de servicios administrados de Salas de Microsoft Teams
 
 ## <a name="what-is-a-role"></a>¿Qué es un rol?
 
-Un rol define el conjunto de permisos concedidos a los usuarios asignados a ese rol. Por ahora, el Salas de Microsoft Teams administrado tiene tres roles **integrados:** Administrador de servicios administrados, Cliente potencial del sitio y Tecnología del **sitio.** Cubren algunos escenarios comunes para los usuarios de su organización que pueden estar implicados en la administración de sus salas.
+Un rol define el conjunto de permisos concedidos a los usuarios asignados a ese rol. Por ahora, el servicio administrado de Salas de Microsoft Teams tiene tres roles integrados: **administrador de servicios administrados**, **jefe de sitio** y **técnico del sitio**. Abarcan algunos escenarios comunes para los usuarios de su organización que pueden estar implicados en la administración de las salas.
 
-Para ver los roles, en el panel de navegación izquierdo del portal de servicio administrado de Salas de Microsoft Teams, vaya a **Roles** y, a continuación, seleccione cualquiera de los roles para ver las propiedades, permisos y asignaciones del rol.  
+Para ver los roles, en el panel de navegación izquierdo del Salas de Microsoft Teams portal de servicios administrados, vaya a **Roles** y, a continuación, seleccione cualquiera de los roles para ver las propiedades, los permisos y las asignaciones del rol.  
 
-- **Propiedades:** el nombre, el tipo de rol y la descripción
-- **Permisos:** enumera las características y el nivel de permisos a los que tiene acceso el rol.
-- **Asignaciones:** una lista de asignaciones de roles que definen qué usuarios tienen los permisos configurados en el ámbito de las cuentas de recursos de sala. Un rol puede tener varias tareas y un usuario puede estar en varias tareas.
+- **Propiedades**: nombre, tipo de rol y descripción
+- **Permisos**: muestra las características y el nivel de permisos a los que tiene acceso el rol.
+- **Asignaciones**: una lista de asignaciones de roles que definen qué usuarios tienen los permisos configurados sobre el ámbito de las cuentas de recursos de sala. Un rol puede tener varias asignaciones y un usuario puede estar en varias asignaciones.
 
 ## <a name="built-in-roles"></a>Roles integrados
 
-Puede asignar roles integrados a grupos o usuarios sin configuración adicional. Tenga en cuenta que no puede eliminar ni editar el nombre, la descripción, el tipo o los permisos de un rol integrado.
+Puede asignar roles integrados a grupos o usuarios sin más configuración. Tenga en cuenta que no puede eliminar ni editar el nombre, la descripción, el tipo o los permisos de un rol integrado.
 
-- **Administrador de servicio administrado:** tiene acceso completo al Microsoft Teams de Premium de servicio.
-- **Cliente potencial del** sitio: organiza salas, tiene acceso a informes y puede administrar entradas. No se puede restablecer la clave de inscripción ni realizar cambios en la configuración del servicio.  
-- **Site Tech**: Administra entradas para salas específicas. No tiene permisos para modificar el servicio u organizar salas en el servicio.
+- **Administrador de servicios administrados**: tiene acceso completo al portal de servicio Premium sala de Microsoft Teams.
+- **Cliente potencial del sitio**: organiza salas, tiene acceso a informes y puede administrar entradas. No se puede restablecer la clave de inscripción ni realizar cambios en la configuración del servicio.  
+- **Site Tech**: Administra las entradas para salas específicas. No tiene permisos para modificar el servicio ni para organizar salas en el servicio.
 
-En la tabla siguiente se resume lo que cada rol puede hacer.
+En la tabla siguiente se resume lo que puede hacer cada rol.
 
 |Funciones |Permiso |Administrador de servicios administrados  |Cliente potencial del sitio  |Site Tech  |
 |---------|---------|---------|---------|---------|
-|Salas     |Ver        |&#10004;           |&#10004;           |&#10004;  |
+|Habitaciones     |Ver        |&#10004;           |&#10004;           |&#10004;  |
 |    |Modificar         |&#10004;           |&#10004;           |&#10004; |
 |    |Tecla Restablecer         |&#10004;           |         ||
 |    |Clave de descarga         |&#10004;           |&#10004;          |&#10004; |
-|    |Desenrollar         |&#10004;           |&#10004;           |&#10004; |
+|    |Anular la inscripción         |&#10004;           |&#10004;           |&#10004; |
 |Administración de grupos   |Crear         |&#10004;           |           ||
 |    |Ver       |&#10004;          |&#10004;           ||
 |    |Modificar         |&#10004;           |           ||
-|Actualizar la administración de anillos    |Crear         |&#10004;           |           ||
+|Administración de anillos de actualización    |Crear         |&#10004;           |           ||
 |    |Ver         |&#10004;           |           ||
 |    |Modificar         |&#10004;           |           ||
 |Informes   |Ver        |&#10004;           |&#10004;           ||
-|Administración de entradas   |Crear un incidente de cliente         |&#10004;           |&#10004;           |&#10004;  |
+|Administración de vales   |Crear incidente de cliente         |&#10004;           |&#10004;           |&#10004;  |
 |    |Ver         |&#10004;           |&#10004;           |&#10004;  |
 |    |Actualización         |&#10004;           |&#10004;           |&#10004;  |
-|Salas de Microsoft Teams de servicio administrado    |Ver         |&#10004;           |         ||
+|configuración del servicio administrado Salas de Microsoft Teams    |Ver         |&#10004;           |         ||
 |    |Modificar        |&#10004;           |         ||
 |Administración de roles    |Ver         |&#10004;           |         ||
 |    |Modificar         |&#10004;           |         ||
 
 ## <a name="create-a-custom-role"></a>Crear un rol personalizado
 
-Si los roles integrados no se adaptan a sus necesidades organizativas, puede crear un rol y configurar sus permisos según lo desee. Para crear un rol, debe ser administrador global o administrador de servicios administrados. 
+Si los roles integrados no se ajustan a sus necesidades de la organización, puede crear un rol y configurar sus permisos como desee. Para crear un rol, debe ser administrador global o administrador de servicios administrados. 
 
-1. En el panel de navegación izquierdo del Salas de Microsoft Teams de servicio administrado, vaya a **Configuración**  >  **Roles.**
+1. En el panel de navegación izquierdo del Salas de Microsoft Teams portal de servicios administrados, vaya a **Configuración** >  **Roles**.
 2. Seleccione **Crear rol**.
-3. En la **página Configuración general,** en **Propiedades del rol,** escriba un nombre para este rol. En **Descripción**, escriba detalles sobre este rol. Elija **Siguiente**.
-4. En la **página Permisos,** en Permisos de **rol,** seleccione los permisos para este rol seleccionando las casillas correspondientes. Elija **Siguiente** para crear la primera tarea para este rol.
-5. En la **página Tareas,** en **Propiedades de asignación,** escriba un nombre para esta tarea. La descripción es opcional. En **Configuración de notificaciones,** active la casilla Notificaciones de correo electrónico si los usuarios de  este rol deben recibir notificaciones por correo electrónico del servicio en salas del ámbito de esta tarea.  Elija **Siguiente**.
-6. En  la página Miembros, en el cuadro Buscar usuario o grupo de seguridad, escriba el nombre de un usuario o grupo de seguridad en el espacio empresarial al que desea conceder permisos y, después, complete la selección.  Elija **Siguiente**. 
-7. En la **página Ámbito,** en el cuadro Buscar salón o grupo de salón, escriba el nombre de un salón o grupo de salón que el usuario podrá administrar.  Elija **Siguiente**.
-8. En la **página Finalizar,** revise los detalles del rol y la tarea. Si está satisfecho con la configuración, elija **Agregar nuevo rol.** Si desea editar una sección, use el **botón** Anterior o seleccione el paso en la navegación izquierda.  
+3. En la página **Configuración general** , en **Propiedades de rol**, escriba un nombre para este rol. En **Descripción**, escriba los detalles sobre este rol. Elija **Siguiente**.
+4. En la página **Permisos** , en **Permisos de rol**, seleccione las casillas correspondientes para elegir los permisos para este rol. Elija **Siguiente** para crear la primera asignación para este rol.
+5. En la página **Tareas** , en **Propiedades de la tarea**, escriba un nombre para esta tarea. La descripción es opcional. En **Configuración de notificaciones** , active la casilla **Notificaciones por correo electrónico** si los usuarios de este rol deben recibir notificaciones por correo electrónico del servicio en salas del **ámbito** de esta tarea. Elija **Siguiente**.
+6. En la página **Miembros** , en el cuadro **Buscar usuario o grupo de seguridad** , escriba el nombre de un usuario o grupo de seguridad de su inquilino al que desea conceder permisos y, después, complete la selección. Elija **Siguiente**. 
+7. En la página **Ámbito** , en el cuadro **de grupo Buscar salones o salones** , escriba el nombre de un salón o grupo de salones que el usuario podrá administrar. Elija **Siguiente**.
+8. En la página **Finalizar** , revise los detalles del rol y la asignación. Si está satisfecho con la configuración, elija **Agregar nuevo rol**. Si desea editar una sección, use el botón **Anterior** o seleccione el paso en el panel de navegación izquierdo.  
 
 ## <a name="assign-a-role"></a>Asignar un rol
 
 Para asignar roles, debe ser administrador global o administrador de servicios administrados o tener un rol con permisos de administración de roles.
 
-1. En el panel de navegación izquierdo del Salas de Microsoft Teams de servicio administrado, vaya a **Configuración**  >  **Roles.**
+1. En el panel de navegación izquierdo del Salas de Microsoft Teams portal de servicios administrados, vaya a **Configuración** >  **Roles**.
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Captura de pantalla de la página de control de Access que muestra los roles.":::
 
 2. Seleccione el rol que desea asignar.
-3. En el panel de roles, seleccione **Tareas**  >  **agregar**.
+3. En el panel de roles, seleccione **AsignaciónAgregar** > .
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="Captura de pantalla de la opción Agregar para agregar un rol.":::
 
-4. En la **página Configuración general,** en **Propiedades de asignación,** escriba un nombre para esta tarea. La descripción es opcional. En **Configuración de**  notificaciones, active la casilla Notificaciones de correo electrónico si los usuarios de  este rol deben recibir notificaciones por correo electrónico del servicio en salas del ámbito de esta tarea. Elija **Siguiente**. 
-5. En  la página Miembros, en el cuadro Buscar usuario o grupo de seguridad, escriba el nombre de un usuario o grupo de seguridad en el espacio empresarial al que desea conceder permisos y, después, complete la selección.  Elija **Siguiente**. 
-6. En la **página Ámbito,** en el cuadro Buscar salón o grupo de salón, escriba el nombre de un salón o grupo de salón que el usuario podrá administrar.  Elija **Siguiente**.
-7. En la **página Finalizar,** revise los detalles de la tarea. Si está satisfecho con la configuración, elija **Agregar tarea.** Si desea editar una sección, use el **botón** Anterior o seleccione el paso en la navegación izquierda.  
+4. En la página **Configuración general** , en **Propiedades de la tarea**, escriba un nombre para esta tarea. La descripción es opcional. En **Configuración de notificaciones**, active la casilla **Notificaciones por correo electrónico** si los usuarios de este rol deben recibir notificaciones por correo electrónico del servicio en salas del **ámbito** de esta asignación. Elija **Siguiente**. 
+5. En la página **Miembros** , en el cuadro **Buscar usuario o grupo de seguridad** , escriba el nombre de un usuario o grupo de seguridad de su inquilino al que desea conceder permisos y, después, complete la selección. Elija **Siguiente**. 
+6. En la página **Ámbito** , en el cuadro **de grupo Buscar salones o salones** , escriba el nombre de un salón o grupo de salones que el usuario podrá administrar. Elija **Siguiente**.
+7. En la página **Finalizar** , revise los detalles de la tarea. Si está satisfecho con la configuración, elija **Agregar asignación**. Si desea editar una sección, use el botón **Anterior** o seleccione el paso en el panel de navegación izquierdo.  
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Salas de Microsoft Teams administrado](microsoft-teams-rooms-premium.md)
+- [Salas de Microsoft Teams servicio administrado](microsoft-teams-rooms-premium.md)
