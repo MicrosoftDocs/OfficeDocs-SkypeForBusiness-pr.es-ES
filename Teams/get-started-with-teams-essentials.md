@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
+ms.lasthandoff: 04/21/2022
 ms.locfileid: "62864033"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>Guía de inicio rápido de Microsoft Teams Essentials para pequeñas empresas
@@ -97,7 +97,7 @@ En la tabla siguiente se enumeran las características principales de Microsoft 
 
 
 > [!IMPORTANT] 
-> Para obtener una administración mejorada y todo el conjunto completo de características de Teams, deberá actualizar a la versión completa de Teams comprando un plan de suscripción de [Microsoft 365 u Office 365 adecuado](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) para sus usuarios. Se recomienda esto, ya que tendrá más flexibilidad para administrar la forma en que su organización colabora.
+> Para obtener una administración mejorada y todo el conjunto completo de características de Teams, deberá actualizar a la versión completa de Teams comprando un plan adecuado de suscripción de[Microsoft 365 u Office 365](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) para los usuarios. Se recomienda esto, ya que tendrá más flexibilidad para administrar la forma en que su organización colabora.
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Límites de administración y especificaciones para Microsoft Teams Essentials
 
@@ -109,9 +109,9 @@ Vaya aquí:  [los límites y las especificaciones de Microsoft Teams](/microsoft
 
 Para empezar a usar Teams Essentials, siga estos pasos:
 
-1. **Compre la suscripción.** Vaya a [Microsoft Teams Essentials para pequeñas empresas](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options) y seleccione **Comprar ahora** en Microsoft Teams Essentials.
+1. **Comprar la suscripción.** Vaya a [Microsoft Teams Essentials para pequeñas empresas](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options) y seleccione **Comprar ahora** en Microsoft Teams Essentials.
 2. **Regístrese con su dirección de correo electrónico existente.** Use una dirección de correo electrónico existente y siga las instrucciones para comprar licencias de usuario.
-3. **Revisar la descripción del servicio Teams.** Visite [descripción del servicio Microsoft Teams ](/office365/servicedescriptions/teams-service-description) para obtener más información sobre Microsoft Teams.
+3. **Revisar la descripción del servicio de Teams.** Visite [Descripción del servicio Microsoft Teams](/office365/servicedescriptions/teams-service-description) para obtener más información sobre Microsoft Teams.
 
 Cuando haya completado estas tareas, estará listo para planear, implementar y usar la aplicación de Teams.
 
