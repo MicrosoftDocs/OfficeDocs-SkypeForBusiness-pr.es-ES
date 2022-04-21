@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Obtenga información acerca de cómo configurar las conferencias de acceso telefónico local o de audio para las personas de su empresa que necesitan usar un teléfono para unirse a llamadas de conferencia. '
-ms.openlocfilehash: 742393413ccf1a9e8a9d715f4ddfa199a4c4e35c
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 2098ec90223ec7242f24368f2b6dc7687d3370fd
+ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055160"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65016642"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar audioconferencias en Microsoft Teams
 
@@ -52,7 +52,7 @@ Vaya a la [Disponibilidad de país y región para Audioconferencia y Planes de l
     >[!NOTE]
     > Las audioconferencias se incluyen en las licencias de Office 365 Enterprise E5 y como complemento.
 
-2. Después de adquirir las licencias de Audioconferencia, tendrá que asignarlas a aquellas personas de la organización que vayan a programar o coordinar reuniones. Vea [Asignar licencias](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) a usuarios de Microsoft 365 o Office 365 para empresas que compró a las personas de su organización que van a programar o dirigir reuniones.
+2. Después de adquirir las licencias de Audioconferencia, tendrá que asignarlas a aquellas personas de la organización que vayan a programar o coordinar reuniones. Vea [Asignar licencias a usuarios en Microsoft 365 o Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) que compró a las personas de su organización que van a programar o coordinar reuniones.
 
 3. También se recomienda que asigne licencias de Créditos de comunicaciones (que no cuesta nada) a los mismos usuarios que asignó licencias en el paso anterior. Para saber si necesita configurar Créditos de comunicaciones, consulte [Configurar Créditos de comunicaciones para su organización](set-up-communications-credits-for-your-organization.md).
 
@@ -65,7 +65,7 @@ En Audioconferencia, no puede usar números de teléfono para los usuarios; debe
   
 - **Usar el centro de administración de Microsoft Teams**. Para algunos países o regiones, puede obtener los números de servicio para el puente de conferencia utilizando el Centro de administración Microsoft Teams. [Obtener números de teléfono de servicio](./getting-service-phone-numbers.md)
 
-- **Portar los números existentes.** Para transferir o transferir números existentes de su proveedor de servicios o operador de telefonía actual a Microsoft 365 o Office 365. Consulte [Transferir números de teléfono a Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) o [Administrar los números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obtener más información que le ayude a hacer esto.  
+- **Portar los números existentes.** Para transferir números existentes desde su proveedor de servicios u operador de telefonía actual a Microsoft 365 o Office 365. Consulte [Transferir números de teléfono a Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) o [Administrar los números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obtener más información que le ayude a hacer esto.  
   
 - **Usar un formulario de solicitud para números nuevos.** En ocasiones, también en función de su país o región, no podrá conseguir números nuevos mediante el Centro de administración de Microsoft Teams o necesitará números de teléfono o códigos de área específicos. Si es así, tendrá que descargar un formulario y enviárselo de nuevo a nosotros. Para obtener más información, vea [Administrar los números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
@@ -75,9 +75,9 @@ Una vez que obtenga los números de teléfono gratuitos o de pago para el puente
 
 Para asignar un nuevo número de teléfono al puente de audioconferencia.
 
- **Usar el Microsoft Teams de administración:**
+ **Con el centro de administración de Microsoft Teams**:
 
- 1. Desde el inicio, vaya **a Números de** Teléfono  >  **voz.**
+ 1. En inicio, vaya a **Voz** >  **Teléfono números**.
  2. Seleccione el número de teléfono y haga clic en **Asignar**.
 
 Para obtener más detalles, vea[Cambiar los números de teléfono de su puente de Audioconferencia](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
@@ -86,34 +86,30 @@ Para obtener más detalles, vea[Cambiar los números de teléfono de su puente d
 
  A continuación, le recomendamos que [establecer un operador automático para las conferencias de audio en Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) que el operador automático de conferencias use para saludar a los usuarios que llaman a un número de teléfono para las audioconferencia.
 
- **Usar el Microsoft Teams de administración:**
+ **Con el centro de administración de Microsoft Teams**:
 
-1. Desde el inicio, vaya a **Puentes de conferencia**  >  **reuniones.**
+1. En Inicio, vaya a **Puentes de conferencia de** >  reuniones **.**
 2. Seleccione el número de teléfono de puente de conferencia, haga clic en **Editar** y, a continuación, elija el idioma predeterminado.
 
 ## <a name="step-6-set-your-conferencing-bridge-settings"></a>Paso 6: configurar el puente de conferencia
 
 Después de configurar el puente de conferencia, compruebe que la configuración predeterminada, como las notificaciones de entrada o salida y la longitud PIN, sea la que va a usar; si no lo es, se puede cambiar.
 
- **Usar el Microsoft Teams de administración:**
+ **Con el centro de administración de Microsoft Teams**:
 
-1. Desde el inicio, vaya a **Puentes de conferencia**  >  **reuniones.**
+1. En Inicio, vaya a **Puentes de conferencia de** >  reuniones **.**
 2. Seleccione **Configuración del puente**. Se abrirá el panel **Configuración de puente**.
 
 Para obtener más información, consulte [Cambiar la configuración de un puente de Audioconferencia](change-the-settings-for-an-audio-conferencing-bridge.md).
 
 ## <a name="step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings"></a>Paso 7: asignar los números de teléfono de acceso telefónico a los usuarios que coordinan las reuniones
 
-Después de haber creado un puente de Audioconferencia, debe establecer los números gratuitos y de pago para los usuarios.
-
-Debe hacer esto para todas las personas de su organización que coordinen o programen reuniones.
-
- **Usar el Microsoft Teams de administración:**
-
-1. En el inicio, haga clic **en Usuarios,** seleccione el usuario de la lista y seleccione **Editar.**
-2. Seleccione **Editar** junto a **Audioconferencia** y, a continuación, en el panel de **Audioconferencia**, elija un número en las listas de **Números de pago** y **Números gratuitos**.
+Consulte [Establecer los números de teléfono incluidos en las invitaciones de Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 Si necesita más detalles, vea [Asignar a Microsoft como proveedor de audioconferencias](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+
+> [!NOTE]
+> También puede establecer números de teléfono agregándolos a *TeamsAudioconferencingpolicy* y asignando la directiva a los usuarios. Los números de teléfono gratuitos y de pago agregados a la directiva tienen prioridad sobre los números de teléfono establecidos individualmente para los usuarios a través del panel de configuración de audioconferencia. Si no se agrega ningún número de teléfono a *teamsaudioconferencingpolicy*, el número de teléfono configurado individualmente para los usuarios a través del panel de configuración de audioconferencia se mostrará en Microsoft Teams convocatorias de reunión. [La configuración de la directiva de audioconferencia para números de pago y gratuitos](audio-conferencing-toll-free-numbers-policy.md) tiene más información.
 
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>Paso 8: configurar las invitaciones a reuniones (opcional)
 

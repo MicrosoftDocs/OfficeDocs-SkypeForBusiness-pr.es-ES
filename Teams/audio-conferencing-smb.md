@@ -20,106 +20,108 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 'Obtenga información sobre cómo configurar las audioconferencias en su pequeña o mediana empresa para las personas que necesitan usar un teléfono para llamar a las reuniones. '
-ms.openlocfilehash: fc9a87c2e516dc97fae5c71f72b5a7ef82c75c8d
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: 'Obtenga información sobre cómo configurar audioconferencias en su pequeña o mediana empresa para personas que necesitan usar un teléfono para llamar a reuniones. '
+ms.openlocfilehash: 91db0bc151d48b2aa7e9557fff7157626ca4ef4f
+ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055630"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65016592"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>Configurar la Audioconferencia para empresas pequeñas y medianas
 
-Con audioconferencia, los usuarios pueden llamar Teams reuniones con un teléfono en lugar de usar la aplicación Teams en su dispositivo móvil o desde su equipo.  
+Con las audioconferencias, los usuarios pueden llamar a Teams reuniones con un teléfono en lugar de con la aplicación de Teams en su dispositivo móvil o desde su equipo.  
 
-Si es una pequeña o mediana empresa con hasta 300 usuarios y actualmente no tiene ninguna licencia de Conferencias de audio, puede obtener Conferencias de audio gratis durante un año. Esta oferta gratuita está disponible a partir del 1 de octubre de 2020.
+Si es una pequeña o mediana empresa con hasta 300 usuarios y actualmente no tiene ninguna licencia de Audioconferencia, puede obtener Audioconferencia gratis durante un año. Esta oferta gratuita está disponible a partir del 1 de octubre de 2020.
 
-La licencia de complemento de audioconferencia se puede aplicar a los usuarios que tienen Microsoft 365 Empresa Básico, Business Standard, Business Premium, Enterprise E1 o Enterprise licencias de E3. Para obtener más información, [vea Teams de complementos](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+La licencia del complemento Audioconferencia se puede aplicar a los usuarios que tienen licencias de Microsoft 365 Empresa Básico, Business Standard, Business Premium, Enterprise E1 o Enterprise E3. Para obtener más información, consulte [Teams licencias de complementos](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 > [!NOTE]
-> Si tiene Enterprise E5 o Microsoft 365 Business Voice, no podrá usar la oferta gratuita de audioconferencia porque estas licencias ya incluyen Conferencias de audio.
+> Si tiene Enterprise E5 o Microsoft 365 Business Voice, no podrá usar la oferta gratuita de Audioconferencia porque estas licencias ya incluyen Audioconferencia.
 
-En este artículo, le explicamos cómo configurar audioconferencias. Solo debe configurar las audioconferencias para los usuarios que van a programar o dirigir las reuniones. Los asistentes a la reunión que llaman a las reuniones no necesitan licencias u otra configuración. Para obtener más información, vea [Audioconferencia.](audio-conferencing-in-office-365.md)
+En este artículo, le explicaremos cómo configurar audioconferencia. Solo debe configurar las audioconferencias para los usuarios que van a programar o dirigir las reuniones. Los asistentes a las reuniones que llaman a las reuniones no necesitan licencias ni otra configuración. Para obtener más información, consulte [Audioconferencia](audio-conferencing-in-office-365.md).
 
 ## <a name="set-up-audio-conferencing"></a>Configurar Audioconferencia
 
-Al configurar audioconferencias, se asigna automáticamente un número de teléfono al puente de conferencias para que se pueda usar en invitaciones a reuniones. El número de teléfono asignado como número predeterminado del puente de conferencia será uno del país o región de su organización. Este número de teléfono es un número de pago, en el que se pueden aplicar cargos de larga distancia.
+Al configurar audioconferencia, se asigna automáticamente un número de teléfono al puente de conferencia para que se pueda usar en invitaciones a reuniones. El número de teléfono asignado como número predeterminado del puente de conferencia será uno del país o la región de su organización. Este número de teléfono es un número de pago en el que pueden aplicarse cargos de larga distancia.
 
 > [!NOTE]
-> También puede usar un número gratuito, que requiere algunos pasos adicionales. Para obtener más información sobre los números de teléfono para el puente de conferencias, vea Números de teléfono de [audioconferencia](#audio-conferencing-phone-numbers) más adelante en este artículo.
+> También puede usar un número gratuito, que requiere algunos pasos adicionales. Para obtener más información sobre los números de teléfono de su puente de conferencia, consulte [Números de teléfono de audioconferencia](#audio-conferencing-phone-numbers) más adelante en este artículo.
 
-### <a name="step-1-get-audio-conferencing-licenses"></a>Paso 1: Obtener licencias de audioconferencia
+### <a name="step-1-get-audio-conferencing-licenses"></a>Paso 1: Obtener licencias de Audioconferencia
 
-Obtenga una licencia de audioconferencia para cada persona que dirigirá las reuniones. Use la Centro de administración de Microsoft 365 para hacerlo.
+Obtenga una licencia de Audioconferencia para cada persona que dirigirá las reuniones. Use la Centro de administración de Microsoft 365 para hacerlo.
 
-1. En la Centro de administración de Microsoft 365, vaya **a** Servicios de compra de facturación y, a continuación, en la parte inferior de la  >  página, seleccione **Complementos.**
-2. Seleccione Microsoft 365 detalles de promoción de adopción de **audioconferencias** y, a  >  continuación, **seleccione Obtener ahora.**
+1. En la Centro de administración de Microsoft 365, vaya a **BillingPurchase** >  services y, a continuación, en la parte inferior de la página, seleccione **Complementos**.
+2. Seleccione Microsoft 365 **Promodetails** >  **de adopción de audioconferencia** y, después, seleccione **Obtener ahora**.
 3. Escriba el número de licencias que necesita para los organizadores de la reunión y, a continuación, complete el pedido.
 
-    :::image type="content" source="media/audio-conferencing-smb-add.png" alt-text="Captura de pantalla de la licencia de promoción de adopción de audioconferencias.":::
+    :::image type="content" source="media/audio-conferencing-smb-add.png" alt-text="Captura de pantalla de la licencia de promoción de adopción de audioconferencia.":::
 
     > [!NOTE]
-    > Desactive o seleccione asignar automáticamente a todos los usuarios sin licencias, dependiendo de si desea asignar automáticamente una licencia de audioconferencia a todos los usuarios que **no** tengan esta licencia.
+    > Desactive o seleccione **asignar automáticamente a todos los usuarios sin licencias**, dependiendo de si desea asignar automáticamente una licencia de Audioconferencia a todos los usuarios que no tengan esta licencia.
 
-### <a name="step-2-assign-an-audio-conferencing-license-to-users-who-lead-meetings"></a>Paso 2: Asignar una licencia de audioconferencia a los usuarios que conducen reuniones
+### <a name="step-2-assign-an-audio-conferencing-license-to-users-who-lead-meetings"></a>Paso 2: Asignar una licencia de Audioconferencia a los usuarios que dirigen reuniones
 
 Asigne una licencia a cada persona que dirigirá las reuniones. Use la Centro de administración de Microsoft 365 para hacerlo.
 
 #### <a name="assign-a-license-to-one-user"></a>Asignar una licencia a un usuario
 
-1. En la Centro de administración de Microsoft 365, vaya a **Usuarios**  >  **usuarios activos.**  
-2. Seleccione la fila del usuario al que desea asignar la licencia y, a continuación, en el panel, seleccione **Licencias y aplicaciones.**
-3. Active la **Microsoft 365 de audioconferencia y,** a continuación, **seleccione Guardar cambios.**
+1. En la Centro de administración de Microsoft 365, vaya a **Usuarios** >  **activos**.  
+2. Seleccione la fila del usuario al que desea asignar la licencia y, a continuación, en el panel, seleccione **Licencias y aplicaciones**.
+3. Active la casilla **Microsoft 365 Audioconferencia** y, a continuación, seleccione **Guardar cambios**.
 
 #### <a name="assign-a-license-to-multiple-users"></a>Asignar una licencia a varios usuarios
 
-1. En la Centro de administración de Microsoft 365, vaya a **Usuarios**  >  **usuarios activos.**  
-2. Seleccione los círculos junto a los usuarios a los que desea asignar la licencia y, a continuación, seleccione **Administrar licencias de producto.**
-3. En el **panel Administrar licencias de producto,** seleccione Asignar **más**.
-4. Active la **Microsoft 365 de audioconferencia y,** a continuación, **seleccione Guardar cambios.**  
+1. En la Centro de administración de Microsoft 365, vaya a **Usuarios** >  **activos**.  
+2. Seleccione los círculos junto a los usuarios a los que desea asignar la licencia y, a continuación, seleccione **Administrar licencias de producto**.
+3. En el panel **Administrar licencias de producto** , seleccione **Asignar más**.
+4. Active la casilla **Microsoft 365 Audioconferencia** y, a continuación, seleccione **Guardar cambios**.  
 
-## <a name="schedule-teams-meetings-in-outlook"></a>Programar Teams reuniones en Outlook
+## <a name="schedule-teams-meetings-in-outlook"></a>Programar reuniones Teams en Outlook
 
-Los organizadores de la reunión ahora pueden programar reuniones en Outlook. En Outlook, vaya **a Calendario** y, a continuación, seleccione el **botón Nueva Teams reunión.** Los números de acceso telefónico de la reunión y el id. de conferencia se agregan automáticamente a la invitación de reunión que se envía a los asistentes a la reunión. Para obtener más información, vea [Programar una reunión Teams en Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f).
+Los organizadores de la reunión ahora pueden programar reuniones en Outlook. En Outlook, vaya a **Calendario** y, a continuación, seleccione el botón **Nueva Teams reunión**. Los números de acceso telefónico local y el id. de conferencia se agregan automáticamente a la invitación a la reunión que se envía a los asistentes a la reunión. Para obtener más información, vea [Programar una reunión de Teams en Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f).
 
 > [!NOTE]
-> Si lo desea, puede personalizar invitaciones a reuniones para agregar el logotipo de su empresa, vínculos a su sitio web de soporte técnico y declinación de responsabilidades legales y un pie de página de solo texto. Para obtener más información, vea [Personalizar invitaciones a reuniones.](meeting-settings-in-teams.md#customize-meeting-invitations)
+> Si lo desea, puede personalizar las invitaciones a reuniones para agregar el logotipo de su empresa, vínculos al sitio web de soporte técnico y avisos de declinación de responsabilidades legales, y un pie de página de solo texto. Para obtener más información, vea [Personalizar invitaciones a reuniones](meeting-settings-in-teams.md#customize-meeting-invitations).
 
 ## <a name="audio-conferencing-phone-numbers"></a>Números de teléfono de audioconferencia
 
-Hay dos tipos de números que puede usar para el puente de conferencias. Puede usar números **compartidos** (como en la sección Configurar audioconferencias anteriores en este artículo) o **números dedicados.** [](#set-up-audio-conferencing) Aquí encontrará más información sobre cada uno de ellos.
+Hay dos tipos de números que puede usar para el puente de conferencia. Puede usar **números compartidos** (como se muestra en la sección [Configurar audioconferencia](#set-up-audio-conferencing) anteriormente en este artículo) o **números dedicados**. Aquí tiene más información sobre cada uno de ellos.
 
 ### <a name="shared-numbers"></a>Números compartidos
 
-Un número compartido es un número que se comparte en todas las organizaciones. Los números compartidos son números de pago y se asignan automáticamente al configurar las audioconferencias.
+Un número compartido es un número que se comparte en todas las organizaciones. Los números compartidos son números de pago y se asignan automáticamente al configurar audioconferencia.
 
-Para ver el número predeterminado asignado al puente de conferencias, en el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Puentes** de conferencia de reuniones y, a continuación, busque el número de la ubicación más cercana a  >  usted.
+Para ver el número predeterminado que se asigna al puente de conferencia, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Puentes** de conferencia **y** > , a continuación, busque el número de la ubicación más cercana a usted.
 
 ### <a name="dedicated-numbers"></a>Números dedicados
 
-Un número dedicado es un número que solo está disponible para los usuarios. Un número dedicado puede ser un número de pago o un número gratuito. Para usar un número dedicado, primero tendrá que obtener el número, asignarlo al puente de conferencias y, a continuación, asignar el número a cada persona que dirigirá las reuniones.
+Un número dedicado es un número que solo está disponible para los usuarios. Un número dedicado puede ser un número de pago o un número gratuito. Para usar un número dedicado, primero tendrá que obtener el número, asignarlo a su puente de conferencia y, después, asignar el número a cada persona que dirigirá las reuniones.
 
-Hay un par de formas de obtener un número dedicado. Puede obtener un número de Microsoft o transferir (puerto) un número existente de su proveedor de servicios actual a Microsoft. Para obtener más información sobre cómo hacerlo, vea [Obtener números de servicio.](getting-service-phone-numbers.md)
+Hay varias maneras de obtener un número dedicado. Puedes obtener un número de Microsoft o transferir (transferir) un número existente de tu proveedor de servicios actual a Microsoft. Para obtener más información sobre cómo hacerlo, vea [Obtener números de servicio](getting-service-phone-numbers.md).
 
-Tenga en cuenta que si usa un número gratuito, primero tiene que asignar una licencia de créditos de comunicaciones a cada persona que dirigirá las reuniones. Para obtener más información, vea [Configurar créditos de comunicaciones para su organización.](set-up-communications-credits-for-your-organization.md)
+Tenga en cuenta que si usa un número gratuito, primero tiene que asignar una licencia de créditos de comunicaciones a cada persona que dirigirá las reuniones. Para obtener más información, consulta [Configurar créditos de comunicaciones para tu organización](set-up-communications-credits-for-your-organization.md).
 
-Después de tener su número, asígnelo al puente de conferencia. Use el Microsoft Teams de administración para ello.
+Después de tener el número, asígnelo al puente de conferencia. Use el centro de administración de Microsoft Teams para hacerlo.
 
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a **Puentes de conferencia**  >  **reuniones.**
-2. Seleccione **Agregar** y, a continuación, **seleccione Número de pago** o Número **gratuito.**
-3. En el **panel Agregar número de** teléfono, seleccione el número y, a continuación, seleccione **Aplicar**.
+1. En el panel de navegación izquierdo del Microsoft Teams centro de administración, vaya a **Puentes** de conferencia **de** >  reuniones.
+2. Seleccione **Agregar** y, a continuación, seleccione **Número de pago** o **Número gratuito**.
+3. En el panel **Agregar número de teléfono** , seleccione el número y, a continuación, seleccione **Aplicar**.
 
-A continuación, asigne el número a cada persona que dirigirá las reuniones. Use el Microsoft Teams de administración para ello.
+#### <a name="assign-dial-in-phone-numbers-for-users-who-lead-meetings"></a>Asignar números de acceso telefónico local a los usuarios que dirigen reuniones
 
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, seleccione **Usuarios,** haga clic en el nombre para mostrar del usuario y seleccione **Editar.**
-2. Seleccione **Editar** junto a **Audioconferencia** y, a continuación, en el  panel  **Audioconferencia,** seleccione un número en las listas Número de pago o Número gratuito y, a continuación, seleccione **Aplicar.**
+Consulte [Establecer los números de teléfono incluidos en las invitaciones de Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
+
+> [!NOTE]
+> También puede establecer números de teléfono agregándolos a *TeamsAudioconferencingpolicy* y asignando la directiva a los usuarios. Los números de teléfono gratuitos y de pago agregados a la directiva tienen prioridad sobre los números de teléfono establecidos individualmente para los usuarios a través del panel de configuración de audioconferencia. Si no se agrega ningún número de teléfono a *teamsaudioconferencingpolicy*, el número de teléfono configurado individualmente para los usuarios a través del panel de configuración de audioconferencia se mostrará en Microsoft Teams convocatorias de reunión. [La configuración de la directiva de audioconferencia para números de pago y gratuitos](audio-conferencing-toll-free-numbers-policy.md) tiene más información.
 
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Audioconferencia](audio-conferencing-in-office-365.md)
-- [Configurar conferencias de audio para Teams](set-up-audio-conferencing-in-teams.md)
+- [Configurar Audioconferencia para Teams](set-up-audio-conferencing-in-teams.md)
 - [Números de teléfono para Audioconferencia](phone-numbers-for-audio-conferencing-in-teams.md)
 - [Preguntas frecuentes sobre Audioconferencia](audio-conferencing-common-questions.md)
-- [Obtener números de servicio](getting-service-phone-numbers.md)
-- [Teams de complementos](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Obtención de números de servicio](getting-service-phone-numbers.md)
+- [Teams licencias de complementos](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Asignar licencias a usuarios](/microsoft-365/admin/manage/assign-licenses-to-users)
