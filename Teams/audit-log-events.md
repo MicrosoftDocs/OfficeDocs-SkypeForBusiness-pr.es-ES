@@ -1,7 +1,7 @@
 ---
 title: Buscar eventos en el registro de auditoría en Microsoft Teams
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 audience: admin
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo recuperar Microsoft Teams datos del registro de auditoría en el portal de cumplimiento de Microsoft Purview.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 744a18f2a8f7f2ed406853ef7efbc9842d0096f5
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 82da7932fb87101ee04759ede3d96b68cbb64aa2
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922641"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031895"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 
@@ -141,7 +141,7 @@ Esta es una lista de todos los eventos que se registran para las actividades adm
 ||||
 
 > [!NOTE]
-> <sup>1</sup> Un registro de auditoría para este evento solo se registra cuando la operación se realiza llamando a un Graph API de Microsoft. Si la operación se realiza en el cliente de Teams, no se registrará un registro de auditoría<br/><sup>2</sup> Este evento solo está disponible en Auditoría avanzada. Esto significa que los usuarios deben tener asignada la licencia adecuada antes de que estos eventos se registren en el registro de auditoría. Para obtener más información sobre las actividades solo disponibles en Auditoría avanzada, vea [Auditoría avanzada en Microsoft 365](/microsoft-365/compliance/advanced-audit#advanced-audit-events). Para conocer los requisitos de licencias de auditoría avanzada, consulte [Soluciones de auditoría en Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> Este evento se encuentra en versión preliminar pública.
+> <sup>1</sup> Un registro de auditoría para este evento solo se registra cuando la operación se realiza llamando a un Graph API de Microsoft. Si la operación se realiza en el cliente de Teams, no se registrará un registro de auditoría<br/><sup>2</sup> Este evento solo está disponible en Auditoría (Premium). Esto significa que los usuarios deben tener asignada la licencia adecuada antes de que estos eventos se registren en el registro de auditoría. Para obtener más información sobre las actividades solo disponibles en Auditoría (Premium), consulte [Auditoría (Premium) en Microsoft Purview](/microsoft-365/compliance/advanced-audit#advanced-audit-events). Para conocer los requisitos de licencia de Auditoría (Premium), consulte [Soluciones de auditoría en Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> Este evento se encuentra en versión preliminar pública.
 
 ## <a name="shifts-in-teams-activities"></a>Turnos en actividades de Teams
 

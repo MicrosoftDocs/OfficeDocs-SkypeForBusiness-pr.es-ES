@@ -1,7 +1,7 @@
 ---
 title: Realizar una investigación de exhibición de documentos electrónicos del contenido
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesita realizar eDis
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d0906e24cc4bb749779bf432fe27c9c2af6ac0e3
-ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
+ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64866205"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031925"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -82,7 +82,7 @@ Aquí tiene un ejemplo de los metadatos de la reunión.
   > [!div class="mx-imgBorder"]
   > ![Los metadatos de la reunión de la copia de cumplimiento.](media/conversationOption3.png)
 
-Para obtener más información sobre cómo llevar a cabo una investigación de exhibición de documentos electrónicos, vea [Comenzar con Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery).
+Para obtener más información sobre cómo llevar a cabo una investigación de exhibición de documentos electrónicos, vea [Comenzar con exhibición de documentos electrónicos (estándar).](/microsoft-365/compliance/get-started-core-ediscovery)
 
 Microsoft Teams datos aparecerán como mensajería instantánea o conversaciones en el resultado de exportación de Excel eDiscovery. Puede abrir el `.pst` archivo en Outlook para verlos después de exportarlos.
 
@@ -131,7 +131,7 @@ Antes de realizar estos pasos, asegúrese de que tiene instalada la [versión m�
     Get-TeamChannelUser -GroupId <parent team GroupId> -DisplayName "Partner Shared Channel"
    ```
 
-4. Incluya los buzones de propietarios y miembros de un canal privado como parte de la [consulta de búsqueda de eDiscovery en Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) o al [identificar y recopilar contenido de custodio en Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case).
+4. Incluya los buzones de propietarios y miembros de un canal privado como parte de la consulta de búsqueda de exhibición de documentos [electrónicos en eDiscovery (Estándar)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) o al [identificar y recopilar contenido custodio en eDiscovery (Premium)](/microsoft-365/compliance/add-custodians-to-case).
 
 ### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>Identificar el sitio SharePoint para canales privados y compartidos
 
@@ -166,7 +166,7 @@ Antes de realizar estos pasos, [instale el Shell de administración en línea de
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-4. Incluya el sitio asociado a un canal privado o compartido como parte de la [consulta de búsqueda de exhibición de documentos electrónicos en Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) o al [identificar y recopilar contenido custodio en Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case).
+4. Incluya el sitio asociado a un canal privado o compartido como parte de la consulta de búsqueda de exhibición de documentos [electrónicos en eDiscovery (Estándar)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) o al [identificar y recopilar contenido custodio en eDiscovery (Premium)](/microsoft-365/compliance/add-custodians-to-case).
 
 ## <a name="search-for-content-for-guest-users"></a>Buscar contenido para usuarios invitados
 
@@ -251,6 +251,6 @@ Los administradores pueden usar eDiscovery para buscar contenido en mensajes de 
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Microsoft 365 soluciones de exhibición de documentos electrónicos](/microsoft-365/compliance/ediscovery)
-- [Comenzar con Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)
-- [Teams flujo de trabajo en Advanced eDiscovery](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
+- [Comenzar con eDiscovery (Estándar)](/microsoft-365/compliance/get-started-core-ediscovery)
+- [Teams flujo de trabajo en eDiscovery (Premium)](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Descripción de PowerShell para Teams](teams-powershell-overview.md)

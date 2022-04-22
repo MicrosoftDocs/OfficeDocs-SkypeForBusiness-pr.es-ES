@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: 353b96f1270ac1f7e52d454f76821b321c60a3e9
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 29cc086cd88ccf801eb1b19e56833f36e6ef86b6
+ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885018"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65030896"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams dispositivos Android certificados
 
@@ -237,6 +237,8 @@ Al instalar una nueva versión de firmware en el dispositivo, puedes determinar 
 
 | Modelo de dispositivo  | Versión de firmware | Versión del producto incluida |
 |:--------------|:-----------------|:-------------------------|
+| Compañero de piso de Logi |   `1.5.705`   | Actualización n.º 1 de 2022    |
+| Logi Rallybar Mini   |   `1.5.705`   | Actualización n.º 1 de 2022    |
 | Logi Rallybar    |   `1.5.705`   | Actualización n.º 1 de 2022    |
 | EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | Actualización n.º 1 de 2022 |
 | AudioCodes RXV80 | `1.16.164 `   | Actualización n.º 1 de 2022 |

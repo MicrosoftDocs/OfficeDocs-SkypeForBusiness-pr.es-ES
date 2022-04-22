@@ -19,10 +19,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d061fa0cda1620980e7da68a345fc13acb6fc12a
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62362986"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
@@ -42,7 +42,7 @@ En este artículo se explican los pasos que deben seguirse para configurar el ce
 > - Ponga en marcha Teams en su centro educativo rápidamente con la [**Introducción de una página**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Descargue [**Empezar a usar Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true): una guía para profesionales de TI con prácticas útiles para la administración de cambios y seguridad.
 > - Una colección de artículos para educadores incluyendo tutoriales detallados sobre [**los primeros pasos importantes para enseñar en Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
-> - Un curso en línea de 1 hora en el Centro de Formación de Microsoft que muestra cómo los educadores usan Teams en el ámbito profesional educativo. [**Trasformar el aprendizaje con Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview)
+> - Un curso en línea de 1 hora en el Centro de Formación de Microsoft que muestra cómo los educadores usan Teams en el ámbito profesional educativo. [**Trasformar el aprendizaje con Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - Un curso en línea de 1 hora en el Centro de Formación de Microsoft que demuestra a los educadores el uso de Teams para enseñar en clase. [**Crear un entorno de aprendizaje colaborativo con Teams en clase**](https://education.microsoft.com/course/b1e15cfc/overview).
 > - Si es un educador, un estudiante, o un padre o tutor, obtenga más información sobre [**la enseñanza y el aprendizaje remotos con Office 365**](https://aka.ms/RemoteLearningHelp).
 > - Los padres y tutores también pueden ir a nuestra [**página de soporte técnico para padres**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) a fin de obtener ayuda con el aprendizaje remoto.
@@ -232,7 +232,7 @@ Los alumnos y los formadores podrán sacar el máximo partido a Teams cuando pue
 
 - ¡Implementación anticipada! Implementación anticipada para asegurarse de que todo funciona de forma segura y está listo el primer día de clase.
 - Si tiene más de 500 000 equipos, le recomendamos que use el [método de la creación de equipos dirigida por el profesor](#educator-led-team-creation-from-office-365-class-groups). Reduce la cantidad de equipos sin usar y el desorden pues solo crea equipos relevantes y necesarios.  
-- Si hay algún problema (por ejemplo, faltan clases) con la creación automática de equipos de SDS y los profesores los necesitan de forma inmediata, es posible usar el [método de creación de equipos dirigidos por el profesor](#educator-led-team-creation-from-office-365-class-groups) para intentarlo de nuevo. La [creación manual de equipos](#manual-team-creation) es otra solución, pero no actualizará la suscripción del equipo.  
+- Si hay algún problema (por ejemplo, faltan clases) con la creación automática de equipos de SDS y los profesores los necesitan de forma inmediata, es posible usar el [método de creación de equipos dirigidos por el profesor](#educator-led-team-creation-from-office-365-class-groups) para intentarlo de nuevo. La [creación manual de equipos](#manual-team-creation) es otra solución, pero no mantendrá actualizada la pertenencia al equipo.  
 - El límite de equipos del espacio empresarial es 500 000 equipos. Por lo tanto, los administradores deben intentar reducir el número de equipos sin usar de manera proactiva para evitar alcanzar esos límites y que se prolongue el tiempo de configuración. Para obtener más información sobre los límites, consulte [Límites y especificaciones de Microsoft Teams](limits-specifications-teams.md).  
 
 #### <a name="early-access-to-class-teams"></a>Acceso anticipado a los equipos de clase
