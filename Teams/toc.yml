@@ -295,7 +295,7 @@ items:
             href: legal-hold.md
           - name: Búsqueda de contenido
             href: content-search.md
-          - name: Flujo de trabajo de Teams en eDiscovery avanzado
+          - name: Flujo de trabajo de Teams en eDiscovery (Premium)
             href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: Auditoría
             href: audit-log-events.md
@@ -667,90 +667,94 @@ items:
                 href: teams-live-events/live-events-recording-policies.md
       - name: Audioconferencia
         items:
-          - name: Planear la implementación
-            href: deploy-audio-conferencing-teams-landing-page.md
-          - name: Audioconferencia en Microsoft 365
+          - name: Audioconferencia en M365
             href: audio-conferencing-in-office-365.md
-          - name: Conferencia en red para audioconferencia
-            href: audio-conferencing-on-network.md
-          - name: Preguntas frecuentes sobre Audioconferencia
-            href: audio-conferencing-common-questions.md
-          - name: Probar o comprar Audioconferencia en Microsoft 365
-            href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: Planificación
+            items:
+              - name: Planear la implementación
+                href: deploy-audio-conferencing-teams-landing-page.md
+              - name: Conferencia en red para audioconferencia
+                href: audio-conferencing-on-network.md
+              - name: Preguntas frecuentes sobre Audioconferencia
+                href: audio-conferencing-common-questions.md
+              - name: Probar o comprar Audioconferencia en Microsoft 365
+                href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: Configurar
+            items:
+              - name: Configurar Audioconferencia
+                href: set-up-audio-conferencing-in-teams.md
+              - name: 'Configurar Audioconferencia: inicio rápido para empresas pequeñas y medianas'
+                href: audio-conferencing-smb.md
+          - name: Administrar
+            items:
+              - name: Administrar el servicio de audioconferencia
+                items:
+                  - name: Minutos extendidos para llamadas en EE. UU. y Canadá
+                    href: dial-out-minutes-canada-us.md
+                  - name: Prestación del plan de audioconferencia "Llamada de salida"/"Llamarme al"
+                    href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+                  - name: Audioconferencia con pago por minuto
+                    href: audio-conferencing-pay-per-minute.md
+              - name: Administrar el puente de Audioconferencia
+                items:
+                  - name: Cambiar los números de teléfono de su puente de Audioconferencia
+                    href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
+                  - name: Cambiar la configuración de un puente de Audioconferencias
+                    href: change-the-settings-for-an-audio-conferencing-bridge.md
+                  - name: Consultar una lista de números de Audioconferencia
+                    href: see-a-list-of-audio-conferencing-numbers-in-teams.md
+                  - name: Establecer los idiomas del operador automático para Audioconferencia
+                    href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
+                  - name: Configurar la confirmación de acceso telefónico a las reuniones para los usuarios
+                    href: set-up-meeting-dial-out-confirmation.md
+              - name: Administrar la configuración de Audioconferencia para su organización
+                href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
+              - name: Administrar la configuración de audioconferencia para los usuarios
+                items:
+                  - name: Información general
+                    href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
+                  - name: Consultar una lista de usuarios que se han habilitado para Audioconferencia
+                    href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
+                  - name: Permitir que los usuarios registren su nombre cuando se unan a una reunión
+                    href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+                  - name: Restablecer un id. de conferencia para un usuario
+                    href: reset-a-conference-id-for-a-user-in-teams.md
+                  - name: Restablecer el PIN de Audioconferencia para un usuario
+                    href: reset-the-audio-conferencing-pin-in-teams.md
+                  - name: Correos electrónicos que se envían de forma automática a los usuarios cuando cambia la configuración
+                    href: emails-sent-to-users-when-their-settings-change-in-teams.md
+                  - name: Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la configuración de Audioconferencia
+                    href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
+                  - name: Configuración de directivas para números gratuitos y de pago
+                    href: audio-conferencing-toll-free-numbers-policy.md
+                  - name: Deshabilitar los números gratuitos para usuarios específicos
+                    href: disabling-toll-free-numbers-for-specific-teams-users.md
+                  - name: Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
+                    href: outbound-calling-restriction-policies.md
+                  - name: Consultar y restablecer un id. de conferencia asignado a un usuario
+                    href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
+                  - name: Enviar un correo electrónico a un usuario con su información de Audioconferencia
+                    href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
+              - name: Administrar la configuración de las reuniones para Audioconferencias
+                items:
+                  - name: Llamar desde una reunión para que otras personas puedan unirse
+                    href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
+                  - name: Activar o desactivar los anuncios de entrada y salida para las reuniones
+                    href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+                  - name: Cambiar la longitud del PIN para las reuniones de Audioconferencia
+                    href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
+                  - name: Establecer los números de teléfono incluidos en las invitaciones
+                    href: set-the-phone-numbers-included-on-invites-in-teams.md
+                  - name: Iniciar una Audioconferencia por teléfono sin PIN
+                    href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
+                  - name: Ocultar números de teléfono en las reuniones de Teams
+                    href: ptsn-mask-phone-numbers.md
           - name: Conexión de conferencia con operador
             items:
               - name: Información general
                 href: operator-connect-conferencing-plan.md
               - name: Configurar Conexión de conferencia con operador
                 href: operator-connect-conferencing-configure.md
-          - name: Minutos extendidos para llamadas en EE. UU. y Canadá
-            href: dial-out-minutes-canada-us.md
-          - name: Período gratuito de aceptación de llamadas de Audioconferencia
-            href: complimentary-dial-out-period.md
-          - name: Prestación del plan de audioconferencia "Llamada de salida"/"Llamarme al"
-            href: audio-conferencing-subscription-dial-out.md
-          - name: Configurar Audioconferencia
-            href: set-up-audio-conferencing-in-teams.md
-          - name: 'Configurar Audioconferencia: inicio rápido para empresas pequeñas y medianas'
-            href: audio-conferencing-smb.md
-          - name: Asignar a Microsoft como proveedor de servicios de audioconferencia
-            href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Administrar el puente de Audioconferencia
-            items:
-              - name: Cambiar los números de teléfono de su puente de Audioconferencia
-                href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
-              - name: Cambiar la configuración de un puente de Audioconferencias
-                href: change-the-settings-for-an-audio-conferencing-bridge.md
-              - name: Consultar una lista de números de Audioconferencia
-                href: see-a-list-of-audio-conferencing-numbers-in-teams.md
-              - name: Establecer los idiomas del operador automático para Audioconferencia
-                href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
-              - name: Configurar la confirmación de acceso telefónico a las reuniones para los usuarios
-                href: set-up-meeting-dial-out-confirmation.md
-          - name: Administrar la configuración de Audioconferencia para su organización
-            href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
-          - name: Audioconferencia con pago por minuto
-            href: audio-conferencing-pay-per-minute.md
-          - name: Administrar la configuración de Audioconferencia para los usuarios
-            items:
-              - name: Información general
-                href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
-              - name: Consultar una lista de usuarios que se han habilitado para Audioconferencia
-                href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
-              - name: Permitir que los usuarios registren su nombre cuando se unan a una reunión
-                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-              - name: Restablecer un id. de conferencia para un usuario
-                href: reset-a-conference-id-for-a-user-in-teams.md
-              - name: Restablecer el PIN de Audioconferencia para un usuario
-                href: reset-the-audio-conferencing-pin-in-teams.md
-              - name: Correos electrónicos que se envían de forma automática a los usuarios cuando cambia la configuración
-                href: emails-sent-to-users-when-their-settings-change-in-teams.md
-              - name: Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la configuración de Audioconferencia
-                href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
-              - name: Deshabilitar los números gratuitos para usuarios específicos
-                href: disabling-toll-free-numbers-for-specific-teams-users.md
-              - name: Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
-                href: outbound-calling-restriction-policies.md
-              - name: Consultar y restablecer un id. de conferencia asignado a un usuario
-                href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
-              - name: Enviar un correo electrónico a un usuario con su información de Audioconferencia
-                href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
-          - name: Administrar la configuración de las reuniones para Audioconferencias
-            items:
-              - name: Llamar desde una reunión para que otras personas puedan unirse
-                href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
-              - name: Activar o desactivar los anuncios de entrada y salida para las reuniones
-                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-              - name: Cambiar la longitud del PIN para las reuniones de Audioconferencia
-                href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
-              - name: Establecer los números de teléfono incluidos en las invitaciones
-                href: set-the-phone-numbers-included-on-invites-in-teams.md
-              - name: Iniciar una Audioconferencia por teléfono sin PIN
-                href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
-              - name: Ocultar números de teléfono en las reuniones de Teams
-                href: ptsn-mask-phone-numbers.md
-          - name: Disponibilidad de país y región para la Audioconferencia
-            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Referencia
             items:
               - name: Idiomas admitidos para Audioconferencia
@@ -759,6 +763,10 @@ items:
                 href: phone-numbers-for-audio-conferencing-in-teams.md
               - name: Disponibilidad de país y región para las audioconferencias
                 href: audio-conferencing-zones.md
+              - name: Disponibilidad de país y región para la Audioconferencia
+                href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+              - name: Período gratuito de aceptación de llamadas de Audioconferencia
+                href: complimentary-dial-out-period.md
               - name: 'Vídeos: Audioconferencia en Microsoft Teams'
                 href: ./audio-conferencing-in-office-365.md
   - name: 'Voz: Sistema telefónico de telefonía y conectividad RTC'
@@ -1539,8 +1547,6 @@ items:
             href: resource-specific-consent.md
           - name: Información sobre los permisos de la aplicación y el acceso a los recursos
             href: app-permissions.md
-          - name: Configurar la administración para aplicaciones en Teams
-            href: admin-settings.md
           - name: Comportamiento de la aplicación basado en tipos de usuarios
             href: non-standard-users.md
           - name: Actualización de aplicaciones a versiones más recientes como usuarios finales
