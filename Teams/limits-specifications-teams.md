@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 647e5e12f7140abc3da8dc63964d5b94d9785e16
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0d9cb6888243f86e1967105720e3859fa905cfb5
+ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711514"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65030906"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -124,6 +124,7 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 |------------|---------------|
 |Número de personas en una reunión (pueden chatear y llamar)  | 1000, incluye GCC, GCCH y DoD, pero no A1 (300). **Solo lectura** permite que hasta 20 000 participantes solo para escuchar se unan a una reunión en la que el organizador tenga una licencia para SKU de E3/E5/A3/A5, así como administración pública (GCC, GCC High, DoD). La experiencia de solo vista pronto también estará disponible para los seminarios web. Más información sobre la [Experiencia de solo vista](view-only-meeting-experience.md).<sup>1,2</sup>|
 |Cantidad de personas en una llamada de audio o vídeo desde el chat | 20 |
+|Número de llamadas activas simultáneas | 4 |
 |Tamaño máximo de archivo de PowerPoint | 2 GB|
 |Teams guarda [grabaciones de la reunión](cloud-recording.md) que no se cargan en Microsoft Stream, que se pueden descargar de forma local | 20 días |
   
