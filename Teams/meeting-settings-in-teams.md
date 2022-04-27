@@ -24,7 +24,7 @@ ms.collection:
 description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
 ms.openlocfilehash: 10afbcc30404122e9e4d497570bf0b69e4ef6fa7
 ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/05/2022
 ms.locfileid: "64642924"
@@ -70,7 +70,7 @@ Puesto que tanto las directivas para toda la organización como las directivas p
 
 Cualquier otra combinación de valores impedirá que los usuarios anónimos se unan a las reuniones.
 > [!NOTE]
-> Para obtener más información sobre la administración de directivas de reunión, vea [Administrar directivas de reunión en Microsoft Teams](/microsoftteams/meeting-policies-overview).
+> Para obtener más información sobre cómo administrar directivas de reunión, vea [Administrar directivas de reunión en Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 ### <a name="blocking-anonymous-join-for-specific-client-types"></a>Bloquear la combinación anónima para tipos de clientes específicos
 
@@ -179,7 +179,7 @@ Tipo de tráfico de medios | Rango de puertos de origen del cliente \* |Protocol
 |:---             |:---                         |:---    |:---      |:---      |
 |Audio            | 50 000 – 50 019               |TCP/UDP |46        |Desvío rápido (EF)|
 |Vídeo            | 50 020 – 50 039               |TCP/UDP |34        |Desvío garantizado (AF41)|
-|Aplicación/Compartir pantalla| 50 040 – 50 059      |TCP/UDP |18        |Desvío garantizado (AF21)|
+|Aplicación/Compartir pantalla| 50 040 – 50 059      |TCP/UDP |18         |Desvío garantizado (AF21)|
 | | | | |
 
 \* Los rangos del puerto asignados no deben superponerse y deben ser adyacentes entre sí.
