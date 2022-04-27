@@ -1,105 +1,110 @@
 ---
-title: Trazar el Kaizala para Teams viaje
+title: Crear un gráfico de la Kaizala para Teams viaje
 author: Benny-54
 ms.author: v-bshilpa
 manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: null
-description: En este artículo se describe cómo prepararse para un movimiento de Kaizala a Microsoft Teams.
-f1.keywords: null
+ms.reviewer: ''
+description: En este artículo se describe cómo prepararse para pasar de Kaizala a Microsoft Teams.
+f1.keywords: ''
 ms.localizationpriority: medium
-search.appverid: null
-ms.collection: null
-ms.custom: null
+search.appverid: ''
+ms.collection: ''
+ms.custom: ''
+ms.openlocfilehash: 246e6e66c27e2779a808c1ff81ae4f40088b9c58
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059348"
 ---
+# <a name="charting-your-kaizala-to-teams-journey"></a>Crear un gráfico de la Kaizala para Teams viaje
 
-# <a name="charting-your-kaizala-to-teams-journey"></a>Trazar el Kaizala para Teams viaje
-
-Has decidido cambiar de Kaizala a Microsoft Teams.
+Has decidido pasar de Kaizala a Microsoft Teams.
 
 Antes de empezar, es importante responder a estas dos preguntas:
 
-- ¿Qué grupos de usuarios se trasladarán a Teams?  
+- ¿Qué grupos de usuarios se moverán a Teams?  
 
-- ¿Cuál es su ruta de Teams?
+- ¿Cuál es su camino a Teams?
 
 ## <a name="identify-user-groups"></a>Identificar grupos de usuarios
 
-*¿Qué grupos existen en su organización? Quién estará usando Teams y cómo? ¿Qué necesidades necesitarán estos grupos para un trabajo en equipo eficaz?* Para comenzar el viaje a Teams, primero **identifique los grupos de usuarios para la transición.**  Los grupos de usuarios son un conjunto de empleados de su fuerza laboral que realizan el trabajo en áreas similares de la empresa. 
+*¿Qué grupos existen en su organización? Quién va a usar Teams y cómo? ¿Qué necesidades requerirán estos grupos para un trabajo en equipo eficaz?* Para comenzar su viaje a Teams, primero **identifique los grupos de usuarios para la transición.**  Los grupos de usuarios son un conjunto de empleados de su personal que realizan trabajo en áreas similares de la empresa. 
 
-Hemos identificado tres grupos de usuarios comunes para que le admitan en la identificación de necesidades de colaboración. Cada grupo de usuarios tiene sus propias necesidades únicas en términos de comunicación. 
+Hemos identificado tres grupos de usuarios comunes para ayudarle a identificar las necesidades de colaboración. Cada grupo de usuarios tiene sus propias necesidades específicas en términos de comunicación. 
 
-![Gráfico de grupos de usuarios para transición](media/kaizala-user-groups.png)
+![Gráfico de grupos de usuarios para la transición](media/kaizala-user-groups.png)
 
- 1. **Los trabajadores de** la información son empleados que crean, usan, transforman, consumen o administran información durante su trabajo.
+ 1. **Los trabajadores** de la información son empleados que crean, usan, transforman, consumen o administran información en el transcurso de su trabajo.
 
- 2.  Los trabajadores de primera línea son principalmente trabajadores sin escritorio cuya función principal es trabajar directamente con los clientes o el público en general que proporciona servicios, soporte y venta de productos, o están directamente implicados en la fabricación de productos o servicios.
+ 2. **Los trabajadores de primera línea** son en su mayoría trabajadores sin escritorio cuya función principal es trabajar directamente con los clientes o con el público en general proporcionando servicios, apoyo y venta de productos, o están involucrados directamente en la fabricación de productos/servicios.
 
- 3. **Los usuarios externos** son personas ajenas a su organización, como sus proveedores, proveedores, socios empresariales, clientes o clientes.
+ 3. **Los usuarios externos** son personas de fuera de su organización, como proveedores, proveedores, socios comerciales, clientes o clientes.
 
-Los usuarios que se conectan con otros trabajadores de la información de su fuerza laboral necesitan:
+Los usuarios que se conecten con otros trabajadores de la información de su personal necesitan:
 
 - Chat, reunión, colaboración de archivos
 
-- Trabajar en todos los dispositivos
+- Trabajar entre dispositivos
 
 - Soluciones del sector
 
-- Controles avanzados de IT
+- Controles de TI avanzados
   
 - Colaboración interna y externa con el correo electrónico
 
-Los usuarios que se conecten con el personal de Frontline necesitan:
+Los usuarios que se conecten con los empleados de Frontline necesitan:
 
-- Conexión con trabajadores de frontline dentro del directorio de su organización
+- Conexión con los frontline workers en el directorio de su organización
 
-- Ubicaciones remotas sin conexión
+- Ubicaciones remotas y sin conexión
 
-- Participación y alcance de la fuerza laboral
+- Participación y divulgación de la fuerza de trabajo
 
 - Procesos y flujos de trabajo digitalizados
 
-- Administración de tareas y programación de turnos
+- Programación de turnos y administración de tareas
 
-Los usuarios que se conecten con usuarios externos (proveedores o proveedores) podrían usar:
+Los usuarios que se conectan con usuarios externos (proveedores o proveedores) podrían usar:
 
-- [Colaboración de acceso de](/MicrosoftTeams/guest-joins) invitado
+- [Microsoft Teams los usuarios pueden chatear con cualquier Teams usuarios que no pertenezcan a su organización](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)
 
-- [Federación](/microsoftteams/manage-external-access)
+- [Agregar o invitar a personas de fuera de su organización de Teams a un chat](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)
 
 ## <a name="determine-your-path"></a>Determinar la ruta de acceso
 
-Después de comprobar las necesidades de colaboración de los grupos de usuarios, podrá determinar cómo será su ruta de Kaizala a Teams usuario. Cada organización es única y el camino de ningún empleado será exactamente el mismo. Las organizaciones que no usan Teams necesitarán tomar decisiones estratégicas adicionales para garantizar un viaje de transición exitoso. Determinar la ruta de acceso le ayudará a identificar las acciones importantes que se deben completar para una transición correcta.
+Después de comprobar las necesidades de colaboración de los grupos de usuarios, podrá determinar el aspecto que tendrá la ruta de Kaizala a Teams. Cada organización es única y el recorrido de ningún empleado será exactamente el mismo. Las organizaciones que no usan actualmente Teams tendrán que tomar decisiones estratégicas adicionales para garantizar un viaje de transición exitoso. Determinar la ruta le ayudará a identificar las acciones importantes que deben completarse para una transición correcta.
 
-Hemos esquemateado en qué consiste la ruta de acceso según el uso de su organización hoy en día:  
+Hemos indicado en qué consiste la ruta de acceso en función del uso que haga actualmente tu organización:  
 
 Para organizaciones **que no usan Teams**:
 
 ![Ruta de acceso para organizaciones que no usan actualmente Teams](media/kaizala-not-using-teams.png)
 
- 1. Imaginar el trabajo en equipo para su organización
+ 1. Visualización del trabajo en equipo para su organización
 
- 2. Piloto Teams
+ 2. Teams piloto
   
  3. Implementar Teams
   
- 4. Use Kaizala y Teams
+ 4. Usar Kaizala y Teams
   
- 5. Administrar el cambio
+ 5. Administrar cambios
 
- 6. Planee la adopción de Teams
+ 6. Planear la adopción de Teams
 
- 7. Mover su organización a Teams
+ 7. Mover la organización a Teams
 
 Para organizaciones **que ya usan Teams**:
 
-![Ruta de acceso para las organizaciones que usan actualmente Teams](media/kaizala-using-teams.png)
+![Ruta de acceso para organizaciones que usan actualmente Teams](media/kaizala-using-teams.png)
 
  1. Planear la transición
 
- 2. Administrar el cambio
+ 2. Administrar cambios
 
 ## <a name="next-steps"></a>Pasos siguientes
 

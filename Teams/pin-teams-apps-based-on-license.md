@@ -1,5 +1,5 @@
 ---
-title: Personalizar aplicaciones de Teams para los trabajadores de primera línea
+title: Adaptar las aplicaciones de Teams para los trabajadores de primera línea
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: aaglick
@@ -15,14 +15,14 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb5bf166d9f7253a5cb72ffc92b674613d959334
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 5c3112740ab2b25b0f0107823d41c5b5e2d68f0f
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64961293"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059311"
 ---
-# <a name="tailor-teams-apps-for-your-frontline-workers"></a>Personalizar aplicaciones de Teams para los trabajadores de primera línea
+# <a name="tailor-teams-apps-for-your-frontline-workers"></a>Adaptar las aplicaciones de Teams para los trabajadores de primera línea
 
 > [!NOTE]
 > Esta característica se está implementando actualmente y es posible que todavía no esté disponible en su organización. Para estar al tanto de las próximas características de Teams, consulte la [Guía básica de Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
@@ -32,6 +32,8 @@ ms.locfileid: "64961293"
 Teams proporciona una forma sencilla de anclar aplicaciones a los trabajadores de primera línea. Esta característica ancla aplicaciones basadas en licencias para ofrecer a sus trabajadores de primera línea una experiencia rápida en Teams adaptada a sus necesidades.
 
 Con la experiencia de aplicación frontline adaptada, los trabajadores de primera línea obtienen las aplicaciones más relevantes en Teams sin que el administrador realice ninguna acción.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4VuCH]
 
 ## <a name="tailored-frontline-app-experience"></a>Experiencia de aplicación de primera línea personalizada
 

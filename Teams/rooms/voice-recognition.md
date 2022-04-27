@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6afd8cbf6a62665dbdb4c472df9620d623011452
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 95f3b03ddad75cd36bb6dbbfd51eac08d7742aac
+ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817711"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65063261"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Administrar los controles de tecnología de reconocimiento de voz para un altavoz inteligente
 
@@ -44,7 +44,7 @@ Los siguientes elementos son requisitos del altavoz inteligente:
 Son compatibles los altavoces inteligentes Epos, Sennheiser y Yealink.
 
 > [!NOTE]
-> El orador inteligente está disponible en todos los países y regiones excepto india, que aún no es compatible. Consulte [Configuraciones regionales admitidas](#supported-locales) para obtener una lista de las configuraciones regionales compatibles actualmente con la inscripción biométrica y la transcripción en la reunión.
+> El altavoz inteligente está disponible en todos los países y regiones. Consulte [Configuraciones regionales admitidas](#supported-locales) para obtener una lista de las configuraciones regionales compatibles actualmente con la inscripción biométrica y la transcripción en la reunión.
 
 ## <a name="set-up-an-intelligent-speaker"></a>Configurar un altavoz inteligente
 

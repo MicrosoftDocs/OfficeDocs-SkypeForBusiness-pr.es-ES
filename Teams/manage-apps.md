@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo administrar sus aplicaciones de Te
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: a6e6adbfbed5e1b371655ca74aa6ca6c717490c9
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: 2a4062bbf71c3ad112a52a10ad9c1b3ff71f3dad
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030946"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059081"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Administrar aplicaciones Teams en el centro de administración de Microsoft Teams
 
@@ -30,9 +30,9 @@ Puede administrar las aplicaciones de su organización en **Teams aplicaciones**
 
 ![Captura de pantalla de la página Administrar aplicaciones.](media/manage-apps.png)
 
-Para administrar aplicaciones, use las siguientes directivas para controlar los permisos de los usuarios, la instalación de aplicaciones y la carga de aplicaciones personalizadas creadas dentro de su organización. Para comprender las directivas, consulte [Información general sobre directivas de aplicaciones](app-policies.md).
+Para usar Teams centro de administración, debe ser administrador global o administrador del servicio de Teams. Para obtener más información, consulte [Teams roles de administrador](./using-admin-roles.md).
 
-Para obtener información sobre cómo obtener permisos y roles de administrador, consulte [Teams roles de administrador](./using-admin-roles.md).
+Para administrar aplicaciones, use directivas para controlar los permisos de los usuarios, la instalación de aplicaciones y la carga de aplicaciones personalizadas creadas dentro de su organización. Para comprender las directivas, consulte [Información general sobre directivas de aplicaciones](app-policies.md).
 
 > [!NOTE]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]

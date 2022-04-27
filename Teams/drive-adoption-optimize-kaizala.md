@@ -1,5 +1,5 @@
 ---
-title: Impulsar la adopción de Kaizala a Microsoft Teams para los trabajadores de primera línea
+title: Fomentar la adopción de Kaizala a Microsoft Teams para los trabajadores de primera línea
 author: Benny-54
 ms.author: v-bshilpa
 manager: serdars
@@ -13,25 +13,31 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: edc590b20678595fc7462901b6cae2c5a4d8f2cb
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: ed0221576b42c01de7a8c3d93188a94af2f74317
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398681"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059291"
 ---
-# <a name="microsoft-teams-for-frontline"></a>Microsoft Teams para Frontline
+# <a name="microsoft-teams-for-frontline"></a>Microsoft Teams para frontline
 
-Microsoft se compromete a hacer lo que podamos para abordar el impacto económico y social de Covid-19. Queremos garantizar que los trabajadores de primera línea tengan acceso a los recursos tecnológicos y a la experiencia que necesitan en estos tiempos difíciles.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWPCnz]
 
-En todos los sectores, los clientes de Microsoft, como [IKEA](https://customers.microsoft.com/story/799203-ikea-retailers-teams) y [Alcoa](https://customers.microsoft.com/story/837930-alcoa-manufacturing-teams), usan Teams para empoderar a sus empleados de primera línea.
+Microsoft se compromete a hacer lo posible para abordar el impacto económico y social de Covid-19. Queremos garantizar que sus trabajadores de primera línea tengan acceso a los recursos tecnológicos y a la experiencia que necesitan en estos tiempos difíciles.
 
-Para [administrar sin](/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page) problemas las programaciones de turnos[, conecte](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M6Xi) a su fuerza de [trabajo,](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M4Uq) simplifique el proceso de administración de tareas, active e interactúe con su comunidad con Teams y proteja [el trabajo en equipo](/microsoftteams/teams-security-guide).
+En todas las industrias, los clientes de Microsoft como [IKEA](https://customers.microsoft.com/story/799203-ikea-retailers-teams) y [Alcoa](https://customers.microsoft.com/story/837930-alcoa-manufacturing-teams) están usando Teams para empoderar a sus empleados de primera línea.
 
-Puede aumentar la participación de los empleados conectándolos con conversaciones uno a uno, chats grupales y videollamadas. Y a [través de Walkie Talkie](/MicrosoftTeams/walkie-talkie), una aplicación push-to-talk integrada de forma nativa en Teams.
+Para [administrar las programaciones de turnos sin problemas](/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page), [conecte a su personal](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M6Xi), [simplifique el proceso de administración de tareas](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M4Uq), active y atraiga a su comunidad con Teams y [proteja el trabajo en equipo](/microsoftteams/teams-security-guide).
 
-Configure un piloto eficaz para su personal de primera línea con la guía interactiva [de inicio rápido del administrador de TI](https://config-flw-interactive-guide.immersivelearning.online/).
+Puede aumentar la participación de los empleados conectándoles con conversaciones privadas, chats grupales y videollamadas. Y a través de [Walkie Talkie](/MicrosoftTeams/walkie-talkie), una aplicación push-to-talk integrada de forma nativa en Teams.
 
-Realice aprendizaje en primera línea para Microsoft Teams con vídeos atractivos y [educativos](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821).
+Configure un piloto eficaz para sus empleados de primera línea con la [guía de inicio rápido del administrador de TI](https://config-flw-interactive-guide.immersivelearning.online/) interactiva.
 
-Para obtener más instrucciones de administración sobre los trabajadores de primera línea en Teams, consulte nuestra guía de inicio rápido [Microsoft Teams de frontline worker: guía de inicio rápido](/Microsoftteams/flw-quickstart).
+Lleve a cabo formación en primera línea para Microsoft Teams con vídeos interesantes y [educativos](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821).
+
+Para obtener más orientación para el administrador sobre los trabajadores de primera línea de Teams, consulte [nuestra Microsoft Teams Frontline Worker : Guía de inicio rápido](/Microsoftteams/flw-quickstart).
+
+Para obtener más información sobre cómo optimizar el impacto frente a los Microsoft 365, visita nuestra [página de productos y precios](https://www.microsoft.com/microsoft-365/enterprise/frontline).
+
+Para obtener más información sobre cómo habilitar a los trabajadores de primera línea con Microsoft Teams, visite la [página del Centro de adopción de primera línea](https://adoption.microsoft.com/microsoft-teams/frontline-workers/).

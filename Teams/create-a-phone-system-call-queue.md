@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Aprenda a configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 4e194a315abecdf779a2df48c7fbb7b6412693cc
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 0a62abc27eed0008a337b900f563f8e7e2a75097
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846549"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059091"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -207,6 +207,9 @@ Si un agente opta por no recibir llamadas, no se incluirán en la lista de enrut
 
 > [!TIP]
 > La configuración recomendada es establecer la **hora de alerta del agente** en **20 segundos** .
+
+> [!NOTE]
+> La configuración [administración del tiempo de espera de llamadas](#call-timeout-handling) tiene prioridad sobre el tiempo de alerta del agente. Si se ha alcanzado el tiempo en cola máximo configurado para la administración del tiempo de espera de llamada, la llamada se recuperará de los agentes incluso si no se ha alcanzado el límite de tiempo de alerta del agente.
 
 ## <a name="call-overflow-handling"></a>Gestión de desbordamiento de llamadas
 
