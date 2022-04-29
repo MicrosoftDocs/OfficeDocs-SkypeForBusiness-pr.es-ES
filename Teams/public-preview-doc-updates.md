@@ -7,19 +7,24 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-  - Teams_ITAdmin_GuestAccess
-  - M365-collaboration
-  - m365initiative-deployteams
+- Teams_ITAdmin_GuestAccess
+- M365-collaboration
+- m365initiative-deployteams
 ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
-  - NOCSH
+- NOCSH
 description: Obtenga más información sobre la versión preliminar pública en Microsoft Teams. Pruebe nuevas características y envíe sus comentarios.
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: high
+ms.openlocfilehash: f814483cee8941d3fd29d2442d653c444915d1a5
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125785"
 ---
-
 # <a name="microsoft-teams-public-preview"></a>Versión preliminar pública en Microsoft Teams
 
 > [!NOTE] 
@@ -41,20 +46,22 @@ La versión preliminar pública se habilita independientemente para cada usuario
 
 2. Asigne un nombre a la directiva de actualización, agregue una descripción y seleccione el valor para **Mostrar características de versión preliminar**.
 
-   -   **Seguir la versión preliminar de Office** (valor predeterminado): esta nueva opción predeterminada habilitará automáticamente las características de la versión preliminar pública de Teams para cualquier usuario inscrito en el Canal actual de Office (versión preliminar). El usuario final no necesita hacer nada más.
-   -   **Habilitado**: esta opción habilita la versión preliminar pública de Teams independientemente de si el usuario está inscrito en el Canal actual de Office (versión preliminar). El usuario final también debe optar por la versión preliminar pública de Teams en su aplicación de Teams.
+   -   **Seguir Office Preview** (predeterminado)
+       - Esta nueva opción predeterminada habilitará automáticamente las características de vista previa pública de Teams para cualquier usuario inscrito en el canal actual de Office (versión preliminar). 
+       - El usuario final no necesita hacer nada más.
+   -   **Habilitado**
+       - Esta opción habilita la vista previa pública de Teams independientemente de si un usuario está inscrito en el canal actual de Office (versión preliminar). 
+       - El usuario final también debe optar por la versión preliminar pública de Teams en su aplicación de Teams.
 
    > [!NOTE]  
    > Para los usuarios de la versión preliminar pública de Teams que NO estén en el **Canal actual (versión preliminar)**, los administradores de TI deberán cambiar la opción predeterminada **Seguir la versión preliminar de Office** a **Habilitado**.
  
-   - **No habilitado**: las características de la versión preliminar pública de Teams no estarán disponibles para los usuarios finales.
+   - **No habilitado** 
+     - Las características de la versión preliminar pública de Teams no estarán disponibles para los usuarios finales.
 
     ![muestra el cuadro de diálogo de configuración de la versión preliminar.](media/public-preview-policy.png)  
 
 También puede establecer la directiva mediante PowerShell con el cmdlet `Set-CsTeamsUpdateManagementPolicy` con el parámetro `-AllowPublicPreview` .
-
-> [!NOTE]   
-> El parámetro AllowPreview quedará pronto en desuso.
 
 ## <a name="enable-public-preview"></a>Habilite la versión preliminar pública
 
@@ -67,9 +74,17 @@ Para habilitar la versión preliminar pública en un cliente de escritorio o cli
 > [!NOTE]  
 > Esta opción solo está disponible cuando **Mostrar características de la versión preliminar** está **Habilitado**.
 
+### <a name="public-preview-for-microsoft-teams-rooms-on-windows"></a>Versión preliminar pública de las Salas de Microsoft Teams en Windows
+
+La versión preliminar pública está desactivada de forma predeterminada. Cuando la versión preliminar pública está activada, los usuarios finales tienen acceso a las funciones que están en la versión preliminar pública en las salas de Teams habilitadas. Para activar la versión preliminar pública, agregue ```<EnablePublicPreview>True</EnablePublicPreview>``` a su archivo de configuración XML.
+
+Recomendamos inscribir entre 5 y 10 dispositivos en la versión preliminar pública. 
+
+Todas las características de la versión preliminar pública se anuncian en la versión preliminar pública de [Microsoft Teams - Microsoft Tech Community ](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)
+
 ## <a name="teams-now-follows-office-preview-users"></a>Teams ahora sigue a los usuarios de Office Preview
 
-El nuevo valor predeterminado de la directiva global de **Seguir la versión preliminar de Office** permitirá a los usuarios estar automáticamente en el canal de la versión preliminar pública de Teams si están en el Canal actual (versión preliminar) para el cliente de Office 365 en Windows.
+La nueva directiva global predeterminada de **Follow Office Preview** permitirá a los usuarios estar automáticamente en el canal de vista previa pública de Teams si están en el canal actual (versión preliminar) para el cliente de Office 365 en Windows y Mac.
 
 Microsoft Office seguirá recibiendo actualizaciones del Canal actual (versión preliminar) y el cliente de Teams recibirá actualizaciones a través del canal de la versión preliminar pública. Esta directiva NO cambiará los canales de Office en función de los canales de Teams. 
 
@@ -80,10 +95,6 @@ Para aquellos usuarios con permiso para decidir si participan o no en la versió
 **¿Cómo desactivar esta configuración?**
 
 Puede deshabilitar la configuración desde el Centro de administración de Teams estableciendo **Seguir la versión preliminar de Office** en **No habilitado** (consulte [Establecer la directiva de actualización](#set-the-update-policy))
-
-## <a name="known-issues"></a>Problemas conocidos
-
-Los usuarios del Canal actual de Office (versión preliminar) pueden salir de la versión preliminar pública de Teams desde el cliente Teams, en el menú Acerca de Teams, mientras su directiva de actualización esté establecida en **Seguir la versión preliminar de Office**. Esta funcionalidad no es definitiva y será eliminada en el futuro. Es posible que el cliente de Teams vuelva automáticamente a la versión preliminar pública la próxima vez que el dispositivo esté inactivo si el usuario está en el Canal actual (versión preliminar) de Office.
 
 ## <a name="related-topics"></a>Temas relacionados
 

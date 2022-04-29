@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 234121449025512f8a5ffe37814804cc775b7b37
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: 3ce84036102407c31076ea2ec12fb5dc96e6b082
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837463"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125625"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guía para administradores de TI de Insights para el ámbito educativo en Microsoft Teams
 
@@ -231,6 +231,17 @@ De forma predeterminada, Insights está activado, lo que nos permite recopilar a
 
 > [!NOTE]
 > Si ha desactivado Insights, se eliminarán los datos recopilados. Los datos eliminados al optar por no participar no pueden restaurarse más adelante, incluso si Insights se vuelve a habilitar.
+
+
+### <a name="turn-machine-learning-in-insights-on-or-off"></a>Activar o desactivar Aprendizaje Automático en Insights
+
+De forma predeterminada, las experiencias basadas en el aprendizaje automático en Insights están desactivadas. Para permitir estas perspectivas, debe **Permitir Insights basado en el aprendizaje automático**. La activación de este botón de alternancia no recopilará ningún dato adicional que no sean los ya recopilados por Insights para Educación.
+
+* Para ajustar esta configuración, abra el [Centro de administración de SDS](https://sds.microsoft.com/) y vaya a **Configuración** > **Administrar Insights para Educación**. 
+* Ajusta el **Permitir que Insights basado en el aprendizaje automático** activado o desactivado.
+
+> [!NOTE]
+> Este botón de alternancia depende del **Recopilar datos de actividad para Insights**. Al desactivar **Recopilar datos de actividad para Insights** también se desactivará **Permitir Insights basado en el aprendizaje automático**.
 
 ### <a name="turn-sds-for-insights-on-or-off"></a>Activar o desactivar SDS para Insights
 
