@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8a1a3e739188859cf34ea60c0160e9532a9ab3d
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 2ebc88b42257ca6f6f6cdce482d042b0dc3b406c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556581"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125765"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -49,9 +49,7 @@ Microsoft trabaja con cada proveedor para:
 
 En las tablas siguientes se enumeran los dispositivos certificados para Enrutamiento directo. (Para obtener información sobre qué proveedores de CLS admiten la optimización de medios locales, vea [Configurar la optimización de medios locales para el enrutamiento directo](direct-routing-media-optimization-configure.md)).
 
-[Obtenga más información sobre el Enrutamiento directo](https://aka.ms/dr).
-Si tiene alguna pregunta sobre el programa de certificación SBC para enrutamiento directo, póngase en contacto con drsbccertification@microsoft.com. Tenga en cuenta que no aceptamos nuevas nominaciones para la certificación hasta nuevo aviso.
-<br/>
+[Obtenga más información sobre el Enrutamiento directo](https://aka.ms/dr). Tenga en cuenta que no aceptamos nuevas nominaciones para la certificación hasta nuevo aviso.<br/>
 
 ## <a name="certified-sbc-vendors"></a>Proveedores de CLS certificados
 
@@ -91,8 +89,7 @@ Si tiene alguna pregunta sobre el programa de certificación SBC para enrutamien
 |                                 |     Elemento de borde unificado de Cisco (CUBE) para enrutadores de servicios de agregación de la serie 1000      |     &#10004;   | &#10004; |      IOS XE Ámsterdam 17.2.1r compatible (recomendado 17.6.1a)         |    &#10004;     |    |
 |                                 |     Elemento de borde unificado de Cisco (CUBE) para plataformas perimetrales de Catalyst 8000      |     &#10004;   | &#10004; |      IOS XE Ámsterdam 17.3.2 compatible (recomendado 17.6.1a)      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de límites de sesión de Avaya para empresas (ASBCE)    |     &#10004;     |       &#10004;     |       Versión 8.1.1 (8.1.2 para omisión de medios)      |     |    |
-|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de límites de sesión Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    |
-|                     |    Controlador de límites de sesión Nokia    |     &#10004;     |           |       20.8       |      &#10004;        |    |
+|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de límites de sesión Nokia    |     &#10004;     |      &#10004;     |       22.0       |   &#10004;  |    |
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       Compatible con 5.0 y 5.1 (recomendado 5.3)     |     |    |
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Vínculo de Orchid    |     &#10004;     |           |      3.1        |     |    |
