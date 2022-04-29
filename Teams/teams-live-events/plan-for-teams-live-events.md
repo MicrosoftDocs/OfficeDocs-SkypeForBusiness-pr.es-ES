@@ -20,12 +20,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f7ce782db18c15e3b08367e0956003f7af2dde75
-ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.openlocfilehash: 8c48c322c913b71eb47e1c093e40200d926d26f3
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63047150"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125675"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -178,18 +178,9 @@ Puede usar eventos en directo de Teams en varias regiones de todo el mundo. La s
 - EMIRATOS ÁRABES UNIDOS
 - Reino Unido
 
-**Estos países o regiones y estas nubes no son compatibles**
-
-- Government Community Cloud (GCC)-H
-- Departamento de Defensa (DOD)
-
 **Exclusiones y permisos**
 
 - **Ubicación de datos:** las ubicaciones de datos de Teams, excepto las que se enumeraron anteriormente, no son compatibles en estos momentos.
-
->[!Note]
-> Los eventos en directo se basan en servicios CDN de Azure, que pueden no estar disponibles en algunos países. Como administrador, es posible que tenga que configurar una VPN de acuerdo con todas las leyes y normativas aplicables para conectarse a la red corporativa para que estas aplicaciones funcionen sin problemas. Una vez completado, los usuarios de su organización pueden programar y asistir a eventos en directo.
-
 
 ## <a name="next-steps"></a>Pasos siguientes
 

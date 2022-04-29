@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Obtenga información sobre la administración de Salas de Microsoft Teams.
-ms.openlocfilehash: e214d0b438ea7dd9b710a7aba8597de6c5b76bdf
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106265"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125475"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Salas de Microsoft Teams mantenimiento y operaciones
  
@@ -37,6 +37,15 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ```
 
 Los registros se enviarán como un archivo ZIP en c:\rigel.
+
+### <a name="managing-disk-space"></a>Administrar el espacio en disco
+<a name="Space"> </a>
+
+Los registros descargados en el dispositivo pueden ocupar espacio en disco. Si los registros no se limpian periódicamente, pueden interferir con la funcionalidad normal de la sala. Salas de Teams elimina los registros descargados después de 30 días. Los administradores de TI pueden invalidar la limpieza de registro mediante la configuración del registro del dispositivo.
+
+|Setting|Permite|
+|:-----|:-----|
+|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold  <br/> |Limpia los registros después de 30 días.  <br/> |
   
 ## <a name="front-of-room-display-settings"></a>Configuración frontal de la pantalla de la sala
 <a name="Display"> </a>

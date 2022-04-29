@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: de2dca728ede7c54480763a439296cde225d1447
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: e9ddd0a2e9988614bd2f0fe7825a75b790736027
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059231"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125515"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams dispositivos Android certificados
 
@@ -141,6 +141,7 @@ Al instalar una nueva versión de firmware en el dispositivo, puedes determinar 
 
 | Modelo de dispositivo  | Versión de firmware  | Versión del producto incluida  |
 |:----------------|:--------------|:----------------------------|
+|Códigos de audio C470HD  | `1.17.558` | #1C de actualización de 2022   |
 |Códigos de audio C455HD | `1.15.289`    | #1C de actualización de 2022    |
 |Códigos de audio C448HD  | `1.14.524` | #1C de actualización de 2022 |
 |Códigos de audio C450HD  | `1.14.524` | #1C de actualización de 2022 |

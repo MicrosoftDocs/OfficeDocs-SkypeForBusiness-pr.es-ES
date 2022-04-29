@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Use telemetría en tiempo real con detalles sobre dispositivos, redes y conectividad para solucionar problemas de usuario con Microsoft Teams reuniones programadas.
-ms.openlocfilehash: 09c31b7734a849740cf1b0ff5749e4d82c667faf
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 4f56e50ddc8ac861e109bbc4d4a2a74533043d24
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62518732"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125805"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Usar telemetría en tiempo real para solucionar problemas de mala calidad de la reunión
 
@@ -57,11 +57,11 @@ Para ver toda la información y los datos de la reunión de un usuario, vaya al 
 
 Para obtener información adicional sobre los participantes de una reunión que está en curso, incluyendo su dispositivo, red y estadísticas de audio, busque la reunión en **Reuniones recientes** y seleccione el vínculo en la columna **Participantes** .
 
-:::image type="content" alt-text="Captura de pantalla de la tabla de detalles del participante." source="media/participant-details.png" lightbox="media/participant-details.png":::
+:::image type="content" alt-text="Captura de pantalla de la tabla de detalles del participante." source="media/participant-details-edit.png" lightbox="media/participant-details-edit.png":::
 
 Para ver la telemetría de un usuario determinado para una reunión en curso, incluida la información sobre el dispositivo, la red, el audio, el vídeo y los detalles del uso compartido de contenido, seleccione el **Id. de reunión**.
 
-:::image type="content" alt-text="Captura de pantalla de datos de sesión de usuario de análisis de llamadas." source="media/real-time-telemetry.png" lightbox="media/real-time-telemetry.png":::
+:::image type="content" alt-text="Captura de pantalla de datos de sesión de usuario de análisis de llamadas." source="media/real-time-telemetry-edit.png" lightbox="media/real-time-telemetry-edit.png":::
 
 ## <a name="measures-available-in-real-time-analytics"></a>Medidas disponibles en Real-Time Analytics
 

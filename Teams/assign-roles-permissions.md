@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2f14993f47cdea5690413a32c9d286587db7324
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 76ca4a5dfd6d120b71e23d899ec9c7749db99827
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556351"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125495"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Asignar miembros y propietarios de equipo en Microsoft Teams
 
-En Microsoft Teams hay dos roles de usuario: **propietario** y **miembro**. De forma predeterminada, el usuario que crea un equipo nuevo recibe el estado de propietario. Además, los propietarios y los miembros del equipo pueden tener funciones de moderador para un canal (según la moderación que se configure). Si se crea un equipo a partir de un grupo de Microsoft 365 existente, los permisos se heredan.
+En Microsoft Teams hay dos roles de usuario: **propietario** y **miembro**. De forma predeterminada, el usuario que crea un equipo nuevo recibe el estado de propietario. Además, los propietarios y los miembros del equipo pueden tener funciones de moderador para un canal (según la moderación que se configure). Si se crea un equipo a partir de un grupo de Microsoft 365 existente, se heredan los permisos.
 
 En la tabla siguiente se muestra la diferencia entre un propietario y un miembro:
 
@@ -54,7 +54,7 @@ En la tabla siguiente se muestra la diferencia entre un propietario y un miembro
 <sup>3</sup> Tras agregar un miembro a un equipo, un propietario también puede promover un miembro al estado de propietario. El propietario también puede degradar su propio estado a miembro.<br>
 <sup>4</sup> Los miembros del equipo pueden agregar otros miembros a un equipo público.<br>
 <sup>5</sup> Aunque un miembro del equipo no puede agregar directamente miembros a un equipo privado, puede solicitar que se añada a una persona a un equipo del que ya es miembro. Cuando un miembro solicita que se añada a una persona a un equipo, los propietarios del equipo reciben una alerta de que tienen una solicitud pendiente que pueden aceptar o denegar.<br>
-<sup>6</sup> Si el miembro del equipo es el propietario de un canal compartido, puede realizar esta acción.
+<sup>6</sup> Si el miembro del equipo es propietario de un canal compartido, puede realizar esta acción.
 
 *Para obtener más información sobre los permisos para los canales privados, consulte [Canales privados en Teams](private-channels.md).
 
@@ -63,7 +63,7 @@ En la tabla siguiente se muestra la diferencia entre un propietario y un miembro
 
 ## <a name="moderator-capabilities"></a>Capacidades del moderador
 
-Entre otras, tanto los propietarios como los miembros de un equipo pueden tener capacidades de moderador para un canal (según si la moderación de un equipo está activada). Los moderadores pueden iniciar nuevas publicaciones en un canal y controlar si los miembros del equipo pueden responder a los mensajes del canal existentes. Los moderadores también pueden controlar si las aplicaciones con bots y conectores pueden enviar mensajes de canal.
+Entre otras, tanto los propietarios como los miembros de un equipo pueden tener capacidades de moderador para un canal (según si la moderación de un equipo está activada). Los moderadores pueden iniciar nuevas publicaciones en un canal y controlar si los miembros del equipo pueden responder a los mensajes del canal existentes. Los moderadores también pueden controlar si las aplicaciones con capacidad de bots y conectores pueden enviar mensajes de canal.
 
 Las capacidades de moderador se asignan en el nivel de canal. De forma predeterminada, los propietarios de un equipo tienen capacidades de moderador. Los miembros de un equipo tienen las capacidades de moderador desactivadas de forma predeterminada, pero el propietario puede asignar capacidades de moderador para un canal a un miembro del equipo. Los moderadores de un canal pueden agregar y quitar moderadores a ese canal.
 
@@ -71,7 +71,10 @@ Para obtener más información sobre las capacidades del moderador, consulte[Con
 
 ## <a name="assign-a-user-role"></a>Asignar un rol de usuario
 
-Para asignar un rol de usuario, en Teams, seleccione el nombre del equipo y clique en **Más opciones** > **Administrar equipo**. En la pestaña **Miembros**, puede agregar miembros y elegir los propietarios y los moderadores (si tiene los permisos suficientes). Para obtener más información, vea [Cambiar la configuración del equipo en Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+Para asignar un rol de usuario, en Teams, seleccione el nombre del equipo y, a continuación, seleccione **Más opciones** (**...**) > **Administrar equipo**. En la pestaña **Miembros**, puede agregar miembros y elegir los propietarios y los moderadores (si tiene los permisos suficientes). Para obtener más información, vea [Cambiar la configuración del equipo en Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+
+> [!NOTE]
+> La opción **Administrar equipo** no aparecerá para los canales anclados. Seleccione el nombre del equipo en *Sus equipos* más abajo y, a continuación, seleccione **Más opciones** (**...**) a la derecha del nombre.
 
 ## <a name="permissions-to-create-teams"></a>Permisos para crear equipos
 
