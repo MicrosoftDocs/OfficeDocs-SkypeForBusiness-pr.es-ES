@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Obtenga información sobre cómo administrar la aplicación de Elogio en el centro de administración de Microsoft Teams.
-ms.openlocfilehash: 364fb60b6a729062e358685426acd98704c7ac02
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 16f59a8fbe0958a63f824762cfede020dbf54b8e
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "63442686"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136981"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Administrar la aplicación Elogio en el centro de administración de Microsoft Teams
 
@@ -31,7 +31,7 @@ Elogio está habilitado de forma predeterminada para todos los usuarios de Teams
 
 :::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Captura de pantalla de la página de detalles de la aplicación Elogio en el centro de administración de Teams, que muestra el botón de alternancia Estado.":::
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**.
+1. En el panel izquierdo del centro de administración de Microsoft Teams, vaya a **Teams** **aplicacionesAdministrar** >  aplicaciones.
 2. En la lista de aplicaciones, busca la aplicación Elogio, selecciónala y cambia el botón de alternancia **Estado** a **Bloqueado** o **Permitido**.
 
 Ten en cuenta que esta configuración afecta tanto a la aplicación Elogio como a la característica Elogio de la aplicación Ideas Viva en Teams.

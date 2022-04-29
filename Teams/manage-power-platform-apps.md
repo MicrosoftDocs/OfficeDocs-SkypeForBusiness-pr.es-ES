@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar el acceso a aplicaciones personalizadas creadas en Microsoft Power Platform en el centro de administración de Microsoft Teams.
-ms.openlocfilehash: c093d432faa8d4977f4d931ac948a35dc6fe6509
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 9f212cf52ec757fc4860f081fb67da2cb1b4fcd5
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "63442676"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137001"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Administrar aplicaciones de Microsoft Power Platform en el centro de administración de Microsoft Teams
 
@@ -66,7 +66,7 @@ Si un usuario tiene permiso para acceder a las aplicaciones desde Power Apps o P
 
 De forma predeterminada, se permiten las aplicaciones **Power Apps compartida** y **Agente virtual de Power Virtual compartida** para todos los usuarios de Teams de su organización. Puede bloquearlas o permitirlas en el nivel de organización en la página [Administrar aplicaciones](manage-apps.md) del centro de administración de Microsoft Teams.  
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**. Debe ser administrador global o Teams administrador del servicio para poder acceder a la página.
+1. En el panel izquierdo del centro de administración de Microsoft Teams, vaya a **Teams** **aplicacionesAdministrar** >  aplicaciones. Debe ser administrador global o Teams administrador del servicio para poder acceder a la página.
 2. En la lista de aplicaciones, realiza una de las siguientes acciones.
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Captura de pantalla de la página Administrar aplicaciones, que muestra las aplicaciones compartidas de Microsoft Power Platform":::

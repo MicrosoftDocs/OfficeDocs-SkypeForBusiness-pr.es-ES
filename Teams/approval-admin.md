@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37c899c1507a28f51bb881a9e7e66de6d7af0d58
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 45f663f2c75d12a21fe38c4bbc71e2b3d93d8247
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64643074"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137131"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 
@@ -57,7 +57,7 @@ Para implementar la aplicación de Aprobaciones, necesita permiso para los sigui
 
 - Se requiere licencia para Microsoft Forms para que los usuarios configuren nuevas plantillas de aprobación.
 
-Para usar la aplicación Aprobaciones, necesita una licencia para Power Automate y su cuenta se agregará automáticamente al rol usuario Aprobaciones en el entorno de destino en la asignación de aprobación inicial.
+Para usar la aplicación Aprobaciones, necesita una licencia para Power Automate y su cuenta se agrega automáticamente al rol usuario Aprobaciones en el entorno de destino en la asignación de aprobación inicial.
 
 ## <a name="storage-with-microsoft-dataverse"></a>Storage con Microsoft Dataverse
 
@@ -68,7 +68,7 @@ Obtenga más información sobre el [flujo de trabajo de Aprobación](/power-auto
 Aprobaciones que se crean a partir de una plantilla siguen almacenando datos en Microsoft Dataverse, como su título, detalles, id. de plantilla y mucho más. Las respuestas que se envían en la solicitud de aprobación se almacenan en Forms. Obtenga más información sobre  [Almacenamiento de datos para Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
->Si elimina la plantilla de formulario en el sitio Microsoft Forms, se romperá la plantilla Aprobación y los usuarios no podrán iniciar la solicitud. Los usuarios recibirán el error "CDB TableNotFound" al intentar abrir una plantilla de Aprobación que se ha eliminado en Microsoft Forms.
+>Si elimina la plantilla de formulario en el sitio Microsoft Forms, se romperá la plantilla Aprobación y los usuarios no podrán iniciar la solicitud. Los usuarios reciben el error "CDB TableNotFound" al intentar abrir una plantilla de Aprobación que se elimina en Microsoft Forms.
 
 Las plantillas de ámbito de organización comparten la misma duración del inquilino y las plantillas de ámbito de equipo comparten la misma duración del equipo. Por lo tanto, al eliminar permanentemente el equipo, se eliminan las plantillas relacionadas.
 
@@ -99,7 +99,7 @@ Permisos de plantilla de aprobación
 
 - Todos los propietarios de equipos pueden crear una plantilla de aprobación para los equipos de los que son propietarios.
 
-- Cuando un administrador crea una plantilla para toda la organización por primera vez, creará automáticamente un nuevo grupo de Azure Active Directory (AAD) para todos los administradores del inquilino, incluidos los administradores globales y de servicios de Teams. Estos administradores se agregarán como propietarios del grupo, por lo que pueden administrar de forma coadministrador las plantillas de organización. Los administradores que son nuevos en la organización después de crear el equipo deben agregarse manualmente como propietarios del grupo para que tengan los mismos permisos para administrar las plantillas de toda la organización.
+- Cuando un administrador crea una plantilla para toda la organización por primera vez, creará automáticamente un nuevo grupo de Azure Active Directory (AAD) para todos los administradores del inquilino, incluidos los administradores globales y de servicios de Teams. Estos administradores se agregan como propietarios del grupo, por lo que pueden coadministrar plantillas organizativas. Los administradores que son nuevos en la organización después de crear el equipo deben agregarse manualmente como propietarios del grupo para que tengan los mismos permisos para administrar las plantillas de toda la organización.
 
 > [!Note]
 > Si un administrador elimina el grupo, dispone de un mes para restaurarlo en el portal de Azure Active Directory (AAD) para restaurar todos los datos relacionados. Después de un mes, o si el administrador elimina este grupo dentro de la Papelera de reciclaje, perderá todos los datos relacionados.
@@ -199,7 +199,7 @@ Obtenga más información sobre el [Registro de actividad de aplicaciones basada
 Desde la aplicación Aprobaciones de Teams, los usuarios tienen acceso para crear nuevas aprobaciones y ver las aprobaciones que han enviado y recibido. Los usuarios no tendrán acceso a Aprobaciones creadas por otros usuarios, excepto si son respondedores o lectores de la solicitud.
 
 > [!Note]
-> A un usuario se le asigna un rol de visor de una solicitud si forma parte del chat o canal donde se creó la aprobación. No tendrán la capacidad de realizar acciones en la solicitud si no se les ha concedido ese rol cuando se creó la aprobación.
+> A un usuario se le asigna un rol de visor de una solicitud si forma parte del chat o canal en el que se creó la aprobación. No tendrán la capacidad de realizar acciones en la solicitud si no se les ha concedido ese rol cuando se creó la aprobación.
 
 ## <a name="approvals-e-signature-integration"></a>Aprobaciones integración con firma electrónica
 
@@ -209,7 +209,7 @@ Para usar la característica de firma electrónica de la aplicación Aprobacione
 
 Puede usar el centro de administración de Teams para controlar qué proveedores de firmas electrónicas de terceros están disponibles para los usuarios en la aplicación Aprobaciones. De forma predeterminada, los proveedores de firmas electrónicas están habilitados en la aplicación de Aprobaciones. Al deshabilitar un proveedor de firmas electrónicas, los usuarios no tendrán acceso a ese proveedor cuando creen aprobaciones. Los usuarios tampoco podrán ver solicitudes de firma electrónica creadas con ese proveedor.
 
-1. En el panel de navegación izquierdo del centro de administración de Teams, vaya a **Teams** **aplicacionesAdministrar** >  aplicaciones.
+1. En el panel izquierdo del centro de administración de Teams, vaya a **Teams** **aplicacionesAdministrar** >  aplicaciones.
 2. Busca la aplicación Aprobaciones y selecciónala.
 3. Vaya a la pestaña **Configuración** y siga uno o varios de estos procedimientos:
 

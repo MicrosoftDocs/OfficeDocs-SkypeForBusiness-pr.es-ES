@@ -16,12 +16,12 @@ description: Obtenga información sobre cómo comprar aplicaciones de terceros p
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 84a527fbd8ec59817b4f0d3ee64a970c44d9abd4
-ms.sourcegitcommit: 708b489a7dca7fd9e5e9b1ec88c9aba79ecafe5f
+ms.openlocfilehash: 52cab02898a2fd187c60d2348a42c3ce97de2a3b
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64712934"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137091"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicaciones de terceros para Teams
 
@@ -38,17 +38,17 @@ Aquí, también puede comprar licencias para los servicios ofrecidos por aplicac
 > [!IMPORTANT]
 > Al habilitar la compra de aplicaciones, también se activará la compra desde la aplicación. Es posible que los usuarios vean ofertas de compra desde la aplicación controladas por el ISV para su aplicación. Si quieres impedir que los usuarios compren una aplicación, tienes que bloquear la aplicación. Para obtener más información sobre cómo bloquear una aplicación, consulta [Administrar directivas de aplicación](app-policies.md) o [aprende a bloquear una aplicación en el nivel de organización](manage-apps.md#allow-and-block-apps).
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**. Para acceder a la página, debe ser administrador global o administrador de servicio de Teams.
+1. En el panel izquierdo del centro de administración de Microsoft Teams, vaya a **Teams** **aplicacionesAdministrar** >  aplicaciones. Para acceder a la página, debe ser administrador global o administrador de servicio de Teams.
 1. Busca la aplicación que quieras. Para identificar las aplicaciones que tienen una suscripción SaaS de pago, busque en la columna **Licencias** . Cada aplicación tendrá uno de los siguientes valores:
     - **Compra**: la aplicación ofrece una suscripción SaaS y está disponible para comprar.  
     - **Comprado**: la aplicación ofrece una suscripción a SaaS y ha comprado licencias para ella.
     - **- -**: La aplicación no ofrece una suscripción SaaS.
-1. Cuando encuentres la aplicación, haz clic en **Comprar** para ir a la pestaña **Planes y precios** de la página de detalles de la aplicación. Revise la información de planes y precios de la oferta de SaaS para la aplicación. Si necesita más información, seleccione **Más información** para ir a la página de la aplicación en [AppSource](https://appsource.microsoft.com/).
+1. Cuando encuentres la aplicación, selecciona **Comprar** para ir a la pestaña **Planes y precios** de la página de detalles de la aplicación. Revise la información de planes y precios de la oferta de SaaS para la aplicación. Si necesita más información, seleccione **Más información** para ir a la página de la aplicación en [AppSource](https://appsource.microsoft.com/).
 
    > [!NOTE]
    > Los planes privados también pueden aparecer para su compra, que incluyen precios especiales que su organización ha negociado previamente con un ISV. Estos planes tendrán la etiqueta **Plan privado** bajo el nombre del plan.
 
-1. Para suscribirte a una aplicación, elige el plan que quieras y selecciona **Comprar**. El flujo de finalización de la compra se abrirá directamente en el centro de administración de Teams.
+1. Para suscribirte a una aplicación, elige el plan que quieras y selecciona **Comprar**. El flujo de desprotección se abre directamente en el Teams centro de administración.
 
 1. Seleccione el número de licencias de usuario que desea comprar.
 1. Comprueba que la cuenta de facturación y la dirección del solicitante son correctas. Si aún no tiene una, agregue una nueva seleccionando **Agregar**. Para obtener más información sobre las cuentas de facturación, consulta [Comprender las cuentas de facturación](/microsoft-365/commerce/manage-billing-accounts).
