@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5a8edd0afc2adde7a6867242dd0bdc0b406ca682
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 85277e9948dac1e083eb587f9bfc3787be3644a6
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910916"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137161"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Programa de cumplimiento de aplicaciones de Microsoft 365 para la seguridad, el cumplimiento y la privacidad de aplicaciones de terceros
 
@@ -80,7 +80,7 @@ Los administradores pueden buscar rápidamente aplicaciones de Microsoft 365 ce
 
 * Al recopilar más información sobre una aplicación en la web, consulte el icono de escudo en la documentación de Microsoft sobre la aplicación.
 
-  :::image type="content" source="media/attested-app-doc-details.png" alt-text="Ver la información de certificación Microsoft 365 en el artículo de ayuda detallado sobre la seguridad y el cumplimiento de una aplicación.":::
+  :::image type="content" source="media/attested-app-doc-details.png" alt-text="Ver la información de certificación de Microsoft 365 en el artículo de ayuda detallado sobre la seguridad y el cumplimiento de una aplicación":::
 
 * Al comprobar una aplicación en el Centro de administración de Teams, ordene la lista de aplicaciones mediante la columna Certificación. Consulte el icono y, opcionalmente, seleccione el vínculo para acceder a la página específica de la aplicación mencionada anteriormente.
 
@@ -92,13 +92,35 @@ Los administradores pueden buscar rápidamente aplicaciones de Microsoft 365 ce
 
 * En el Centro de administración de Teams, al conceder permisos a la aplicación, una marca de verificación azul situada delante del nombre de la aplicación indica una aplicación certificada por el editor o una aplicación Microsoft 365 certificada.
 
-   :::image type="content" source="media/attested-app-tac2.png" alt-text="En el centro de administración de Teams, en el cuadro de diálogo para conceder permisos, los administradores pueden comprobar la marca de verificación azul para asegurarse de que la aplicación está esté certificada por Microsoft 365.":::
+   :::image type="content" source="media/attested-app-tac2.png" alt-text="En el centro de administración de Teams, en el cuadro de diálogo para conceder permisos, los administradores pueden comprobar la marca de verificación azul para asegurarse de que la aplicación está certificada por Microsoft 365.":::
 
-## <a name="view-security-compliance-and-privacy-information-in-microsoft-documentation"></a>Ver la información de seguridad, cumplimiento y privacidad en la documentación de Microsoft
+## <a name="view-security-compliance-and-privacy-information"></a>Ver información de seguridad, cumplimiento y privacidad
 
-En el caso de una aplicación certificada o atestiguada, los detalles sobre seguridad, privacidad, cumplimiento y mucho más de cada aplicación se muestran en los artículos de ayuda específicos de la aplicación, con vínculos desde [Seguridad y cumplimiento de aplicaciones de Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps).
+Puede encontrar información sobre seguridad, privacidad, cumplimiento y comportamiento de una aplicación certificada o atestiguada en la documentación de Microsoft en el centro de administración de Teams.
+
+### <a name="microsoft-documentation"></a>Documentación de Microsoft
+
+Los detalles sobre seguridad, privacidad, cumplimiento y mucho más de cada aplicación se muestran en los artículos de ayuda específicos de la aplicación, con vínculos desde [Seguridad y cumplimiento de aplicaciones de Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps).
 
 :::image type="content" source="media/attested-app-doc-details.png" alt-text="Información detallada que se proporciona para las aplicaciones que se someten al programa de conformidad normativa de Microsoft.":::
+
+### <a name="teams-admin-center"></a>Centro de administración de Teams
+
+Al evaluar una aplicación para su organización, puede usar agentes de seguridad de acceso a la nube (CASB), por ejemplo, Cloud App Security de Microsoft (MCAS), para buscar información sobre la seguridad y comportamiento de una aplicación. El centro de administración de Teams incluye información de seguridad y cumplimiento de MCAS para aplicaciones certificadas de Microsoft 365 y comprueba si una aplicación satisface sus necesidades.
+
+> [!NOTE]
+> Esta característica está disponible para todos los administradores, independientemente de si la organización dispone o no de una licencia compatible con MCAS.
+
+Para acceder a la información de MCAS de una aplicación:
+
+1. En el centro de administración de Teams, seleccione **Administrar aplicaciones** en **Aplicaciones de Teams**.
+1. Seleccione **Certificación** para ordenar las aplicaciones y enviar todas las aplicaciones certificadas de Microsoft 365 a la parte superior de la tabla.
+1. Elija una aplicación certificada de Microsoft 365.
+1. Seleccione la pestaña **Seguridad y cumplimiento**.
+
+   :::image type="content" source="media/mcas.png" alt-text="Captura de pantalla de la pestaña seguridad y cumplimiento del centro de administración de Teams":::
+
+   Para obtener más detalles sobre las funcionalidades que admite la aplicación, seleccione la lista desplegable de cada categoría.
 
 <!--- TBD: Move to the permissions article 
 
@@ -119,7 +141,7 @@ After admins grant the org-wide permissions to an app, they can review the Graph
 
 En el Centro de administración de Teams, cada página de la aplicación se vincula a la declaración de privacidad y las condiciones de uso de la aplicación.
 
-:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="En el centro de administración de Teams, los administradores pueden acceder al vínculo a la directiva de privacidad y a los términos de uso de cada aplicación." lightbox="media/tac-app-tou-privacy-info2.png":::
+:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="Desde el centro de administración de Teams, los administradores pueden acceder desde el vínculo a la directiva de privacidad y los términos de uso de cada aplicación" lightbox="media/tac-app-tou-privacy-info2.png":::
 
 <!--- TBD: Parking some content for later review. Check if this content needs to be published.
 
