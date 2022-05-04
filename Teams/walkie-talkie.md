@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 776f0f31d54788fbffd86bbcbedd44e30ada28a3
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "62015020"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186976"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicación Walkie Talkie en Microsoft Teams
 
@@ -35,23 +35,25 @@ Con Walkie Talkie en Teams, los trabajadores de primera línea ahora pueden comu
 
 ### <a name="deploying-walkie-talkie"></a>Implementar Walkie Talkie
 
-Walkie Talkie es compatible con dispositivos Android con Google Mobile Services (GMS) y dispositivos iOS. 
+Walkie Talkie es compatible con dispositivos Android con Google Mobile Services (GMS) y dispositivos iOS.
 
-Actualmente, el Walkie Talkie no está preinstalado. Para habilitar esta característica para los usuarios de su organización, debe agregar Walkie Talkie a la  [directiva](teams-app-setup-policies.md)  de configuración de aplicacionesasignada a los usuarios desde el [Centro de administración de Teams](https://admin.teams.microsoft.com/). Una vez habilitado, Walkie Talkie estará disponible en la aplicación en 48 horas.
+### <a name="pin-walkie-talkie-to-teams"></a>Anclar walkie talkie a Teams
 
-### <a name="adding-walkie-talkie-to-your-app-list"></a>Agregar Walkie Talkie a la lista de aplicaciones
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>Usa la experiencia de aplicación frontline adaptada para anclar Walkie Talkie y otras aplicaciones a Teams
 
-En el centro de administración de Microsoft Teams, en **Teams directivas appSetup** > , debería tener **Permitir anclaje de usuario** establecido **en Activado**. A continuación, en la sección Aplicaciones ancladas, haga clic en **+Agregar aplicaciones**.
+La experiencia de aplicación frontline adaptada en Teams ancla las aplicaciones más relevantes en Teams para los usuarios que tienen una [licencia F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Entre las aplicaciones ancladas se incluyen Walkie Talkie, Turnos, Tareas y Aprobaciones. De forma predeterminada, esta característica está activada, lo que ofrece a sus trabajadores de primera línea una experiencia predefinida que se adapta a sus necesidades.
 
-:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Muestra la sección Aplicaciones ancladas y el botón Agregar aplicaciones que se seleccionará.":::
+Las aplicaciones se anclan a la barra de aplicaciones (la barra situada en el lateral de la Teams cliente de escritorio y en la parte inferior de los clientes móviles Teams), donde los usuarios pueden acceder a ellas de forma rápida y sencilla.
 
-En el panel **Agregar aplicaciones ancladas** que aparece a la derecha, use el cuadro de texto **Buscar** para buscar Walkie Talkie. Cuando lo tengas como resultado de búsqueda, selecciona el botón **Agregar** a la derecha del nombre para agregarlo a la lista.
+Para obtener más información, incluido cómo funciona la experiencia con las directivas de aplicaciones que establezca, vea [Personalizar las aplicaciones de Teams para los trabajadores de primera línea](pin-teams-apps-based-on-license.md).
 
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Muestra la barra lateral Agregar aplicaciones ancladas con Walkie introducido en el panel de búsqueda y la aplicación Walkie Talkie en los resultados de búsqueda, con el botón Agregar al lado.":::
+#### <a name="use-an-app-setup-policy-to-pin-walkie-talkie-to-teams"></a>Usa una directiva de configuración de aplicaciones para anclar walkie talkie a Teams
 
-La aplicación Walkie Talkie debería aparecer ahora en la lista Aplicaciones ancladas y estar disponible para su uso cuando haga clic en el botón **Guardar** .
+Las directivas de configuración de aplicaciones le permiten personalizar Teams para anclar aplicaciones que son más importantes para los usuarios de los usuarios.
 
-:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="Muestra la lista de aplicaciones ancladas con la aplicación Walkie Talkie agregada y el botón Guardar debajo de la lista.":::
+Para anclar la aplicación Walkie Talkie a los usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva de configuración de aplicación personalizada. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
+
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Captura de pantalla que muestra cómo agregar Walkie Talkie a la lista de aplicaciones ancladas en el panel Agregar aplicaciones ancladas." lightbox="media/deploy-walkie-talkie-2.png":::
 
 ### <a name="network-documentation"></a>Documentación de red
 

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: El administrador puede leer las notas de la versión de Salas de Microsoft Teams, que muestran mejoras acumulativas en Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ff29da1f78c39163dbb8262e1a94687dad6c4aac
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: f91c286f08046d1a521d3758f1fc297bf2aa0d59
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125715"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187026"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de la versión para Salas de Microsoft Teams
 
@@ -230,7 +230,7 @@ Introducido en esta actualización:
 
 - Compartir audio HDMI con los participantes de la reunión en Teams reunión
 - Cortana habilidades de voz (vista previa)
-- Evite el audio activado en función de los permisos de audio cuando Teams Sala se una como asistente. Para obtener más información, vea [Administrar los permisos de audio de los asistentes en reuniones de Teams](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
+- Evite el audio activado en función de los permisos de audio cuando Salas de Teams se una como asistente. Para obtener más información, vea [Administrar los permisos de audio de los asistentes en reuniones de Teams](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
 - Destacar el vídeo de alguien desde Teams consola de sala y consumir vídeo destacado en pantallas de salas
 
 > [!NOTE]

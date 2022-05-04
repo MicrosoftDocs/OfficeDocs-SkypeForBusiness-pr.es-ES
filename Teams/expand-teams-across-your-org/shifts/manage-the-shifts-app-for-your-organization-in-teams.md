@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2dcc945795da34ed3045ffadbc55445303b48281
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 2cd0032291054e5a4c7ee8d9204d6173cdcdebdf
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137011"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187006"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
@@ -71,9 +71,19 @@ De forma predeterminada, Turnos está habilitado para todos los usuarios de Team
 
 Para permitir o impedir que determinados usuarios de su organización usen Turnos, asegúrese de que Turnos esté activado para su organización en la página [Administrar aplicaciones](../../manage-apps.md) . A continuación, cree una directiva de permisos de aplicación personalizada y asígnela a esos usuarios. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](../../teams-app-permission-policies.md).
 
-### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Usar una directiva de configuración de aplicaciones para anclar Turnos a Teams
+### <a name="pin-shifts-to-teams"></a>Anclar Turnos a Teams
 
-Las directivas de configuración de aplicaciones le permiten personalizar Teams para resaltar las aplicaciones que sean más importantes para los usuarios de su organización. Las aplicaciones que establecen en una directiva se anclan a la barra de aplicaciones &mdash;situada en el lateral en el cliente de escritorio de Teams y en la parte inferior para los clientes móviles de Teams&mdash; donde los usuarios pueden acceder a ellas rápida y fácilmente.
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>Usa la experiencia de la aplicación frontline adaptada para anclar Turnos y otras aplicaciones a Teams
+
+La experiencia de aplicación frontline adaptada en Teams ancla las aplicaciones más relevantes en Teams para los usuarios que tienen una [licencia F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Entre las aplicaciones ancladas se incluyen Turnos, Walkie Talkie, Tareas y Aprobaciones. De forma predeterminada, esta característica está activada, lo que ofrece a sus trabajadores de primera línea una experiencia predefinida que se adapta a sus necesidades.
+
+Las aplicaciones se anclan a la barra de aplicaciones (la barra situada en el lateral de la Teams cliente de escritorio y en la parte inferior de los clientes móviles Teams), donde los usuarios pueden acceder a ellas de forma rápida y sencilla.
+
+Para obtener más información, incluido cómo funciona la experiencia con las directivas de aplicaciones que establezca, vea [Personalizar las aplicaciones de Teams para los trabajadores de primera línea](../../pin-teams-apps-based-on-license.md).  
+
+#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Usar una directiva de configuración de aplicaciones para anclar Turnos a Teams
+
+Las directivas de configuración de aplicaciones le permiten personalizar Teams para anclar las aplicaciones más importantes para los usuarios.
 
 Puede crear una [directiva de configuración de aplicación personalizada](../../teams-app-setup-policies.md) agregando la aplicación Turnos y, a continuación, [asignando la directiva](../../assign-policies-users-and-groups.md) a los usuarios. O bien, puede usar la directiva de configuración de la aplicación que forma parte de los paquetes de directiva Frontline Worker y Frontline Manager.
 

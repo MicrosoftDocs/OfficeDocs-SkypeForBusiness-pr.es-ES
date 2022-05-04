@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c3112740ab2b25b0f0107823d41c5b5e2d68f0f
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059311"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187126"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>Adaptar las aplicaciones de Teams para los trabajadores de primera línea
 
@@ -29,7 +29,7 @@ ms.locfileid: "65059311"
 
 ## <a name="overview"></a>Información general
 
-Teams proporciona una forma sencilla de anclar aplicaciones a los trabajadores de primera línea. Esta característica ancla aplicaciones basadas en licencias para ofrecer a sus trabajadores de primera línea una experiencia rápida en Teams adaptada a sus necesidades.
+Teams ancla aplicaciones basadas en una licencia para ofrecer a sus trabajadores de primera línea una experiencia rápida en Teams adaptada a sus necesidades. 
 
 Con la experiencia de aplicación frontline adaptada, los trabajadores de primera línea obtienen las aplicaciones más relevantes en Teams sin que el administrador realice ninguna acción.
 

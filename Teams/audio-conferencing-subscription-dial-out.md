@@ -1,5 +1,5 @@
 ---
-title: Audioconferencias de acceso telefónico local/Llamarme en minutos
+title: Audioconferencia Llamarme o Llamarme en minutos
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -21,82 +21,82 @@ f1.keywords:
 ms.custom:
 - Licensing
 - seo-marvel-mar2020
-description: Beneficio de llamar y llamarme a minutos. A partir del 1 de diciembre de 2019, cada suscripción de audioconferencia proporciona 60 minutos por usuario y mes a los países de la zona A.
-ms.openlocfilehash: 2aa692b915953f3409de4c9cb9cb7d9146586ef5
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: Servicio de llamadas entrantes y llamadas en minutos. A partir del 1 de diciembre de 2019, cada suscripción de audioconferencia proporciona 60 minutos por usuario y mes a los países de la Zona A.
+ms.openlocfilehash: 18300c44c806689b601c8b14d8c871ecb0ff6ba4
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055870"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187016"
 ---
-# <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Beneficio de minutos de la suscripción de audioconferencia "Dial-Out"/"Call Me At"
+# <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Ventaja de minutos de suscripción de audioconferencia "Llamada"/"Llamarme a".
 
-## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft Teams y Skype Empresarial de audioconferencia RTC
+## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft Teams y Skype Empresarial Audioconferencia RTC
 
-Cada suscripción de audioconferencia proporciona 60 minutos por usuario al mes que se pueden usar para llamar a números que no sean premium en CUALQUIERA de los países de zona A como se describe en este documento. El tamaño del grupo de minutos de acceso telefónico de tu inquilino se basa en *las licencias adquiridas.* Esta ventaja es aplicable a  las licencias de suscripción mensuales de Audioconferencia y no se extiende a las licencias de pago por minuto para conferencias de audio.
-
-> [!NOTE]
-> A partir del 22 de octubre de 2020, el tamaño del  grupo de minutos de acceso telefónico local de nuestro inquilino se basa en el número de licencias de suscripción de audioconferencia adquiridas. Antes, el tamaño del grupo de minutos de llamada se basaba en el número de licencias asignadas *a* los usuarios.
+Cada suscripción estándar de Audioconferencia proporciona 60 minutos por usuario al mes que se pueden usar para llamar a números no premium en CUALQUIERA de los países de la zona A, como se describe en este documento. Esta ventaja se aplica a las licencias de *suscripción mensuales* de Audioconferencia y no se extiende a las licencias de pago por minuto de Audioconferencia.
 
 > [!NOTE]
-> El final [](complimentary-dial-out-period.md) del período de acceso telefónico gratuito no se produjo el 30 de noviembre de 2019 para los países en los que la suscripción a conferencias de audio está disponible, pero actualmente no ofrecemos la capacidad de configurar créditos de comunicaciones. Estos países específicos son Rusia, Corea del Sur y Taiwán.
+> El tamaño del grupo de minutos de llamadas entrantes de las suscripciones de Audioconferencia a Ee. UU. y Canadá se basa en el número de licencias *asignadas* a los usuarios. Por ejemplo, si un cliente tiene 100 licencias y 20 de ellas se asignan a usuarios, el grupo de minutos de llamadas entrantes de la suscripción de Audioconferencia a Ee. UU. o Canadá será de 1200 minutos (60 minutos de llamadas entrantes a la suscripción x 20 licencias asignadas a usuarios).
 
-## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Audioconferencia "Llamar desde una reunión" & detalles de "Llamarme a"
+> [!NOTE]
+> El final del [período de llamada complementaria](complimentary-dial-out-period.md) no tuvo lugar el 30 de noviembre de 2019 para los países donde la suscripción de Audioconferencia está disponible, pero actualmente no ofrecemos la posibilidad de configurar créditos de comunicaciones. Estos países específicos son Rusia, Corea del Sur y Taiwán.
 
-Para los clientes que adopten nuestro servicio de audioconferencia, Microsoft ofrece la posibilidad de llamar desde reuniones organizadas por usuarios asignados a una licencia de suscripción de audioconferencia. Las llamadas telefónicas a países no incluidos en la lista de países y regiones de zona A se cobran por minuto con [créditos](audio-conferencing-zones.md) de comunicaciones. Para las llamadas de acceso telefónico local que se facturan por minuto (llamadas que superan el grupo de minutos de acceso telefónico local o llamadas a destinos que no están en la lista de países y regiones de zona A), las llamadas y sus [tarifas asociadas](audio-conferencing-zones.md) se basan en el destino de la llamada y no en el país de residencia del organizador o el participante de la reunión que inicia la llamada de acceso telefónico. Por ejemplo, una llamada telefónica de audioconferencia a un número de teléfono en Francia, que es un país de zona A, se facturará con la misma tasa por minuto si lo inició un participante de la reunión en Estados Unidos, Francia o Zimbabue.
+## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Audioconferencia "Llamar desde una reunión" & detalles "Llamarme al"
 
-|Ubicación de uso de licencia del organizador de la reunión |Destino marcado |¿Puedo usar mis minutos de grupo de minutos de acceso telefónico?|¿Necesito créditos de comunicaciones?|
+Para los clientes que adoptan nuestro servicio de Audioconferencia, Microsoft ofrece la posibilidad de realizar llamadas desde reuniones organizadas por usuarios asignados a una licencia de suscripción de Audioconferencia. Las llamadas de llamada a países no incluidos en la lista de [países y regiones de la Zona A](audio-conferencing-zones.md) se cobran por minuto mediante créditos de comunicaciones. Para las llamadas de llamadas entrantes que se facturan por minuto (llamadas que superan el grupo de minutos de llamada de salida del inquilino o llamadas a destinos que no están en la lista de [países y regiones de la zona A](audio-conferencing-zones.md) ), las llamadas y sus tarifas asociadas se basan en el destino de la llamada y no en el país de residencia del organizador o en el participante de la reunión que inicia la llamada de salida. Por ejemplo, una llamada de llamada de llamada de audioconferencia a un número de teléfono de Francia, que es un país de la zona A, se facturará a la misma velocidad por minuto si la inició un participante de la reunión en la Estados Unidos, Francia o Zimbabue.
+
+|Ubicación de uso de la licencia del organizador de la reunión |Destino marcado |¿Puedo usar mis minutos de llamada entrante en la piscina?|¿Necesito créditos de comunicaciones?|
 |---------|---------|---------|---------|
-|Estados Unidos |Estados Unidos |Sí (país de zona A) |Sí *después de* consumir el grupo de minutos del inquilino         |
-|Estados Unidos |Reino Unido|Sí (país de zona A) |  Sí *después de* consumir el grupo de minutos del inquilino       |
+|Estados Unidos |Estados Unidos |Sí (país de la zona A) |Sí *después de* consumir el grupo de minutos del inquilino         |
+|Estados Unidos |Reino Unido|Sí (país de la zona A) |  Sí *después de* consumir el grupo de minutos del inquilino       |
 |Estados Unidos     |Zimbabue|    No     |     Sí en *TODAS las* llamadas    |
-|Reino Unido     |Reino Unido|Sí (país de zona A) |  Sí *después de* consumir el grupo de minutos del inquilino       |
-|Reino Unido     |Estados Unidos |Sí (país de zona A) |  Sí *después de* consumir el grupo de minutos del inquilino       |
+|Reino Unido     |Reino Unido|Sí (país de la zona A) |  Sí *después de* consumir el grupo de minutos del inquilino       |
+|Reino Unido     |Estados Unidos |Sí (país de la zona A) |  Sí *después de* consumir el grupo de minutos del inquilino       |
 |Reino Unido     |Zimbabue|    No     |   Sí en *TODAS las* llamadas      |
 |Zimbabue     |Zimbabue|    No     |    Sí en *TODAS las* llamadas     |
-|Zimbabue     |Estados Unidos | Sí (país de zona A) | Sí *después de* consumir el grupo de minutos del inquilino        |
-|Zimbabue     |Reino Unido | Sí (país de zona A) | Sí *después de* consumir el grupo de minutos del inquilino        |
+|Zimbabue     |Estados Unidos | Sí (país de la zona A) | Sí *después de* consumir el grupo de minutos del inquilino        |
+|Zimbabue     |Reino Unido | Sí (país de la zona A) | Sí *después de* consumir el grupo de minutos del inquilino        |
 |Islas Cook     |Islas Cook |   No      |    Sí en *TODAS las* llamadas     |
-|Islas Cook     |Estados Unidos  | Sí (país de zona A) |  Sí *después de* consumir el grupo de minutos del inquilino       |
-|Islas Cook     |Reino Unido | Sí (país de zona A) | Sí *después de* consumir el grupo de minutos del inquilino        |
+|Islas Cook     |Estados Unidos  | Sí (país de la zona A) |  Sí *después de* consumir el grupo de minutos del inquilino       |
+|Islas Cook     |Reino Unido | Sí (país de la zona A) | Sí *después de* consumir el grupo de minutos del inquilino        |
 |    |         |         |         |
 
 ## <a name="how-are-minute-pools-calculated"></a>¿Cómo se calculan los grupos de minutos?
 
-Tenga en cuenta el siguiente ejemplo. Un cliente ha comprado 115 licencias de suscripción a audioconferencias y tiene 10 usuarios en Estados Unidos, 100 usuarios en el Reino Unido y 5 usuarios en Zimbabue, todos con licencias de suscripción de audioconferencia asignadas. Todos los 115 usuarios comparten un grupo de (115 usuarios x 60 min = 6.900 minutos de acceso telefónico local de conferencias  por mes calendario) para realizar llamadas salientes a números no premium en cualquiera de los países y regiones de la zona [A,](audio-conferencing-zones.md)independientemente de dónde se encuentra el organizador de la reunión con licencia o ubicación física. Por ejemplo, un organizador de reuniones de Zimbabue podrá llamar a cualquiera de los países y [regiones](audio-conferencing-zones.md) de la zona A hasta el límite de minutos de grupo.
+Considere el ejemplo siguiente. Un cliente ha comprado 115 licencias de suscripción de Audioconferencia y tiene 10 usuarios en la Estados Unidos, 100 usuarios en el Reino Unido y 5 usuarios en Zimbabue, todos ellos con licencias de suscripción de Audioconferencia asignadas. Los 115 usuarios comparten un grupo de (115 usuarios x 60 min = 6.900 minutos de llamadas salientes por mes natural) para realizar llamadas salientes a números no premium en cualquiera de los [países y regiones de la zona A](audio-conferencing-zones.md), *independientemente* de dónde se encuentre físicamente o con licencia el organizador de la reunión. Por ejemplo, un organizador de reuniones de Zimbabue podrá llamar a cualquiera de los [países y regiones de la Zona A](audio-conferencing-zones.md) hasta el límite de minutos del grupo.
 
-- Todas las llamadas de acceso telefónico saliente superiores a 6.900 minutos por mes calendario se facturan por minuto con créditos de comunicaciones con nuestras tarifas publicadas en ese destino.
+- Todas las llamadas de llamada que superen los 6.900 minutos al mes natural se facturan por minuto usando créditos de comunicaciones en nuestras tarifas publicadas para ese destino.
 
    > [!NOTE]
-   > El cliente debe configurar [créditos de comunicaciones](what-are-communications-credits.md) y asignar la licencia créditos de comunicaciones al organizador de la reunión.
+   > El cliente debe configurar [créditos de comunicaciones](what-are-communications-credits.md) y asignar la licencia de créditos de comunicaciones al organizador de la reunión.
 
-- Todas las llamadas de acceso telefónico a destinos que no están en la lista de países y regiones de zona A se facturan por minuto con créditos de comunicaciones con nuestras tarifas publicadas a ese destino (siempre que el cliente haya configurado créditos de comunicaciones y asignado la licencia [créditos](audio-conferencing-zones.md) de comunicaciones al organizador de la reunión).
+- Todas las llamadas de llamada a destinos que no están en la lista de [países y regiones de la zona A](audio-conferencing-zones.md) se facturan por minuto mediante créditos de comunicaciones según nuestras tarifas publicadas para ese destino (siempre que el cliente haya configurado créditos de comunicaciones y asignado la licencia de créditos de comunicaciones al organizador de la reunión).
 
-## <a name="how-can-i-monitor-minute-my-pool-usage"></a>¿Cómo puedo supervisar minutos el uso de mi grupo?
+## <a name="how-can-i-monitor-minute-my-pool-usage"></a>¿Cómo puedo supervisar los minutos de uso del grupo?
 
-- Puede supervisar el uso del grupo de minutos de acceso telefónico en el Microsoft Teams de administración. En el panel de navegación izquierdo, vaya a **Análisis & informes de** uso y, a continuación, seleccione Grupos de minutos  >   **RTC.** El grupo de minutos de acceso telefónico local de zona A se etiquetará en el informe como "Llamadas salientes a países de la zona A".
-- Las notificaciones por correo electrónico se enviarán a los siguientes administradores cuando el uso del grupo de minutos de acceso telefónico de su organización haya alcanzado el 80 por ciento y el 100 por ciento:
+- Puede supervisar el uso en el grupo de minutos de acceso telefónico local en el centro de administración de Microsoft Teams. En el panel de navegación izquierdo, vaya a **Análisis &** **informesUsar** >  informes y, después, seleccione **Grupos de minutos RTC**. Zona Un grupo de minutos de llamada entrante se etiquetará en el informe como "Llamadas salientes a países de la zona A".
+- Las notificaciones por correo electrónico se enviarán a los siguientes administradores cuando el uso del grupo de minutos de llamada de salida de su organización haya alcanzado el 80 % y el 100 %:
 
   - Administrador de facturación
-  - Skype Empresarial administrador
+  - administrador de Skype Empresarial
   - Administrador global
   - Administrador de usuarios
   - Administrador del departamento de soporte técnico
-  - Administrador de soporte técnico de servicio
-  - Azure AD local de dispositivo unido
+  - Administrador de soporte técnico
+  - Azure AD administrador local del dispositivo unido
   - Administrador de aplicaciones
   - Administrador de licencias
   - Administrador de dispositivos en la nube
   - Administrador de autenticación
-  - Administrador de autenticación con privilegios
+  - Privileged Authentication Administrator
   - Administrador de comunicaciones de Teams
   - Ingeniero de soporte en comunicaciones de Teams
-  - Teams de soporte técnico de comunicaciones
+  - Especialista en soporte técnico de comunicaciones de Teams
   - Administrador de Teams
 
-Para obtener información adicional sobre créditos de comunicación, vea [Créditos de comunicaciones.](what-are-communications-credits.md)
+Para obtener información adicional sobre los créditos de comunicación, consulta [Créditos de comunicaciones](what-are-communications-credits.md).
 
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- [Zonas de país y región para audioconferencias](audio-conferencing-zones.md)
+- [Zonas de país y región para audioconferencia](audio-conferencing-zones.md)
