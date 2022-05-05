@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: 97be4ba35a480872e36113926c1f45c1ccd955aa
-ms.sourcegitcommit: 9f7372f7568b4275169590510d2b7a0c0ad7577b
+ms.openlocfilehash: 6a17faead9926ea6a7a7475eb867804d974f700e
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "65171716"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217944"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams dispositivos Android certificados
 
@@ -141,6 +141,7 @@ Al instalar una nueva versión de firmware en el dispositivo, puedes determinar 
 
 | Modelo de dispositivo  | Versión de firmware  | Versión del producto incluida  |
 |:----------------|:--------------|:----------------------------|
+|Códigos de audio C470HD  | `1.17.561` | #1C de actualización de 2022 |
 |Yealink MP54/MP56/MP58   | `122.15.0.80`     | #2A de actualización de 2022  |
 |Yealink MP52 | `145.15.0.28`  | #2A de actualización de 2022         |
 |Códigos de audio C470HD  | `1.17.558` | #1C de actualización de 2022   |
@@ -240,6 +241,8 @@ Al instalar una nueva versión de firmware en el dispositivo, puedes determinar 
 
 | Modelo de dispositivo  | Versión de firmware | Versión del producto incluida |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar Mini   |   `1.6.272`   | Actualización n.º 1 de 2022  |
+| Logi Rallybar    |   `1.6.272`   | Actualización n.º 1 de 2022   |
 | Compañero de piso de Logi |   `1.5.705`   | Actualización n.º 1 de 2022    |
 | Logi Rallybar Mini   |   `1.5.705`   | Actualización n.º 1 de 2022    |
 | Logi Rallybar    |   `1.5.705`   | Actualización n.º 1 de 2022    |
@@ -328,6 +331,7 @@ Al instalar una nueva versión de firmware en el dispositivo, puedes determinar 
 
 | Modelo de dispositivo  | Versión de firmware | Versión del producto incluida|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.6.215` |#1A de actualización de 2022  |
 |Crestron Touchpanel /770-T/1070-T | `1.006.0046 ` | Actualización n.º 1 de 2022|
 |Yealink RoomPanel | ` 147.15.0.30 ` | Actualización n.º 1 de 2022 |
 |Crestron -TSS770  | `1.004.0115` |Actualización n.º 1 de 2021 |

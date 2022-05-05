@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Obtenga información sobre cómo administrar la aplicación Bookings en Teams para los usuarios de su organización.
-ms.openlocfilehash: aab7ce7a4813d851574f9a5796f5ce21d44774ff
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+ms.openlocfilehash: 5740da885fb271af212ba755d7db0228a996b429
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853071"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217934"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Administrar la aplicación Bookings en Microsoft Teams
 
@@ -41,7 +41,7 @@ Los programadores pueden administrar los calendarios y las comunicaciones de var
 
 * El buzón de Exchange está en Exchange Online. No se admiten buzones de Exchange Server locales.
 * Microsoft Bookings está disponible para la organización.
-* Los usuarios tienen una licencia adecuada. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 y Estándar empresarial son compatibles.
+* Los usuarios tienen una licencia adecuada. se admiten Office 365 A3, A5, E1, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 y Estándar empresarial.
 * Todos los usuarios de la aplicación Bookings y todo el personal que participe en las reuniones tienen una licencia compatible con Teams programación de reuniones.
 * [Requisitos previos de software y explorador](hardware-requirements-for-the-teams-app.md).
 
