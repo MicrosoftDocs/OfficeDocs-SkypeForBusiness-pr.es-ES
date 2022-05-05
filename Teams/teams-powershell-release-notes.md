@@ -13,12 +13,12 @@ ms.collection:
 description: Obtenga información sobre los cambios más recientes en Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 827f38a2be539583a30d6b94341bbfa76203f8c4
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 169519741bb0107086679a0472ead65c0e512529
+ms.sourcegitcommit: 3aa1c3cbd8ba9919e2a4dd4c7d4b95c40ed3d55d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125665"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65230984"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams notas de la versión de PowerShell
 
@@ -31,6 +31,7 @@ Esta página proporciona la última Teams registro de cambios de PowerShell para
 
 | Fecha | Versión | Actualizaciones |
 |------- | -------------------- | ------------------------------ |
+| Mayo de 2022 | [4.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.0) |<li>Corrige los tratamientos de errores para los cmdlets de [SetRemove\|]-CsPhoneNumberAssignment.</li><li>[Obtener\| SetRemove\|]-CsOnlineLisSubnet: correcciones para el parámetro Subnet en los cmdlets modernizados.</li><li>[Obtener\| Set]-CsOnlineLisLocation & [GetSet\|]-CsOnlineLisCivicAddress: correcciones sobre los parámetros admitidos en los cmdlets modernizados (más detalles en las respectivas documentación pública).</li>
 | Abril de 2022 | [4.2.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.1-preview) |<li>Corrige los tratamientos de errores para los cmdlets de [SetRemove\|]-CsPhoneNumberAssignment.</li><li>[Obtener\| SetRemove\|]-CsOnlineLisSubnet: correcciones para el parámetro Subnet en los cmdlets modernizados.</li><li>[Obtener\| Set]-CsOnlineLisLocation & [GetSet\|]-CsOnlineLisCivicAddress: correcciones para los parámetros admitidos en los cmdlets modernizados.</li>
 | Abril de 2022 | [4.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.0) |<li>Compatibilidad con proxys para todos los cmdlets relevantes para Teams. Los cmdlets admitidos se están implementando gradualmente.</li><li>Corrige problemas con los cmdlets de directiva modernizadas [NewSet\|]- cuando se usan con parámetros de tipo PSListModifier.</li><li>[CAMBIO DE ROTURA] Los parámetros de tipo PSListModifier solo aceptarán Hashtable con Add o Remove. Hashtable with Replace no es compatible ahora, en su lugar los valores se pueden establecer directamente en el parámetro.</li><li>Corrige problemas de formato con [GetNew\|]- de algunos cmdlets de directiva modernizados (CsVideoInteropServiceProvider, CsInboundBlockedNumberPattern, CsTeamsComplianceRecordingApplication, CsTeamsTranslationRule, CsTeamsUnassignedNumberTreatment, CsVoiceNormalizationRule).</li><li>Se ha mejorado el rendimiento del procesamiento de entrada de canalización con los cmdlets modernizados.</li><li>Corrige problemas menores con los resultados de la canalización de entrada.</li><li>Get-CsOnlineUser: Se agrega el atributo Country (conocido como CountryOrRegionDisplayName en versiones anteriores a 3.x.x).</li><li>[CAMBIO DE ROTURA] Get-CsOnlineUser: El atributo CountryAbbreviation ahora solo está disponible cuando se usa con el parámetro -Identity.</li>
 | Marzo de 2022 | [4.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.1.0) |<li>Corrige problemas con variables de error y advertencia.</li><li>Corrige problemas con el uso de cmdlets modernizados con PowerShell Runspaces.</li><li>Releases [GetNewSetRemove\|\|\|]-CsTeamsShiftsConnectionInstance Cmdlets.</li><li>Releases [GetNewRemove\|\|]-CsTeamsShiftsConnectionTeamMap Cmdlets.</li><li>Publica cmdlets Get-CsTeamsShiftsConnectionWfm[UserTeam\|].</li><li>Releases Get-CsTeamsShiftsConnectionConnector, Get-CsTeamsShiftsConnectionSyncResult, New-CsTeamsShiftsConnectionBatchTeamMap, Remove-CsTeamsShiftsScheduleRecord, Test-CsTeamsShiftsConnectionValidate, Get-CsTeamsShiftsConnectionOperation & Get-CsTeamsShiftsConnectionErrorReport Cmdlets.</li>
