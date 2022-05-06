@@ -431,34 +431,30 @@ items:
         href: FAQ-support-remote-workforce.md
       - name: Informes
         items:
-          - name: Informes de actividad del Centro de administración de Microsoft 365
-            href: teams-activity-reports.md
-          - name: Informes y análisis en el Centro de administración de equipos
-            items:
-              - name: Información general
-                href: teams-analytics-and-reports/teams-reporting-reference.md
-              - name: Informes de uso de Teams
-                href: teams-analytics-and-reports/teams-usage-report.md
-              - name: Informe de actividad de usuario de Teams
-                href: teams-analytics-and-reports/user-activity-report.md
-              - name: Informe de uso de aplicaciones de Teams
-                href: teams-analytics-and-reports/app-usage-report.md
-              - name: Informe de uso de dispositivos de Teams
-                href: teams-analytics-and-reports/device-usage-report.md
-              - name: Informe de usuarios bloqueados por RTC
-                href: teams-analytics-and-reports/pstn-blocked-users-report.md
-              - name: Informe de grupos de minutos de RTC
-                href: teams-analytics-and-reports/pstn-minute-pools-report.md
-              - name: Informe de uso de RTC
-                href: teams-analytics-and-reports/pstn-usage-report.md
-              - name: Informe de uso de llamadas salientes de Audioconferencia de Teams
-                href: audio-conferencing-dial-out-usage-report.md
-              - name: Informe de uso de eventos en directo de Teams
-                href: teams-analytics-and-reports/teams-live-event-usage-report.md
-              - name: Informe de licencia de la protección de la información de Microsoft Teams.
-                href: teams-analytics-and-reports/information-protection-license-report.md
-              - name: Informe de uso de consultas virtuales de Teams
-                href: teams-analytics-and-reports/virtual-visits-usage-report.md
+          - name: Información general
+            href: teams-analytics-and-reports/teams-reporting-reference.md
+          - name: Informes de uso de Teams
+            href: teams-analytics-and-reports/teams-usage-report.md
+          - name: Informe de actividad de usuario de Teams
+            href: teams-analytics-and-reports/user-activity-report.md
+          - name: Informe de uso de aplicaciones de Teams
+            href: teams-analytics-and-reports/app-usage-report.md
+          - name: Informe de uso de dispositivos de Teams
+            href: teams-analytics-and-reports/device-usage-report.md
+          - name: Informe de usuarios bloqueados por RTC
+            href: teams-analytics-and-reports/pstn-blocked-users-report.md
+          - name: Informe de grupos de minutos de RTC
+            href: teams-analytics-and-reports/pstn-minute-pools-report.md
+          - name: Informe de uso de RTC
+            href: teams-analytics-and-reports/pstn-usage-report.md
+          - name: Informe de uso de llamadas salientes de Audioconferencia de Teams
+            href: audio-conferencing-dial-out-usage-report.md
+          - name: Informe de uso de eventos en directo de Teams
+            href: teams-analytics-and-reports/teams-live-event-usage-report.md
+          - name: Informe de licencia de la protección de la información de Microsoft Teams.
+            href: teams-analytics-and-reports/information-protection-license-report.md
+          - name: Informe de uso de consultas virtuales de Teams
+            href: teams-analytics-and-reports/virtual-visits-usage-report.md
       - name: 'Archivos de registro, estado del servicio y soporte técnico'
         items:
           - name: Usar archivos de registro para supervisar y solucionar problemas de Teams
