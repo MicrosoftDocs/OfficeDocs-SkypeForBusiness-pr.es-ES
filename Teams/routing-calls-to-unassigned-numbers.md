@@ -1,5 +1,5 @@
 ---
-title: Enrutamiento de llamadas a números sinsignar
+title: Enrutamiento de llamadas a números no asignados
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,29 +20,29 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Obtenga información sobre cómo enrutar llamadas a números sinsignar en su organización.
-ms.openlocfilehash: f53e83b3d4f26123feed70bdecad32cb45bc5588
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+description: Obtenga información sobre cómo enrutar llamadas a números no asignados de su organización.
+ms.openlocfilehash: cc464419375b6391d0d95d6e99441777a40da9cb
+ms.sourcegitcommit: bc73017b4a3fe6271830bc8c5044bfd43eec80c0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442798"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65266932"
 ---
-# <a name="routing-calls-to-unassigned-numbers"></a>Enrutamiento de llamadas a números sinsignar
+# <a name="routing-calls-to-unassigned-numbers"></a>Enrutamiento de llamadas a números no asignados
 
-Como administrador, puede enrutar las llamadas a números sinsignar en su organización. Por ejemplo, es posible que desee enrutar las llamadas a números sinsignar de la siguiente manera: 
+Como administrador, puede enrutar las llamadas a números no asignados de su organización. Por ejemplo, es posible que desee redirigir las llamadas a números no asignados de la siguiente manera: 
 
-- Enruta todas las llamadas a un número determinado sinsignar a un anuncio personalizado.
+- Enrutar todas las llamadas a un número sin asignar determinado a un anuncio personalizado.
 
-- Enruta todas las llamadas a un número determinado sinsignar a la centralita principal.
+- Enrutar todas las llamadas a un número determinado sin asignar al panel de control principal.
 
-Puede enrutar las llamadas a números sin asignación a un usuario, a una cuenta de recursos asociada con un Operador automático o una cola de llamadas, o a un servicio de anuncios que reproducirá un archivo de audio personalizado al autor de la llamada.
+Puede redirigir las llamadas a números no asignados a un usuario, a una cuenta de recurso asociada a un operador automático o a una cola de llamadas, o a un servicio de anuncios que reproducirá un archivo de audio personalizado al autor de la llamada.
 
 ## <a name="configuration"></a>Configuración
 
-Para enrutar llamadas a un número sinsignar, use el cmdlet New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment disponible en Teams módulo de PowerShell 2.5.1 o posterior.
+Para redirigir las llamadas a un número no asignado, use el cmdlet New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment disponible en Teams módulo de PowerShell 2.5.1 o posterior.
 
-Debe especificar el número o rango de números denominados y el enrutamiento asociado para las llamadas a estos números. Por ejemplo, el comando siguiente especifica que todas las llamadas al número +1 (555) 222-3333 se enrutarán a la cuenta de recursos aa@contoso.com:
+Debe especificar el número o rango de números que se llama y el enrutamiento asociado para las llamadas a estos números. Por ejemplo, el comando siguiente especifica que todas las llamadas al número +1 (555) 222-3333 se redirigirán a la cuenta de recursos aa@contoso.com:
 
 ``` PowerShell
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
@@ -51,7 +51,7 @@ $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectI
 New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -TreatmentPriority 1
 ```
 
-En el ejemplo siguiente se especifica que todas las llamadas al rango de números +1 (555) 333-0000 a +1 (555) 333-9999 se enrutarán al servicio de anuncios, que reproducirá el archivo de audio MainAnnouncement.wav al autor de la llamada.
+En el ejemplo siguiente se especifica que todas las llamadas al intervalo de números +1 (555) 333-0000 a +1 (555) 333-9999 se redirigirán al servicio de anuncios, que reproducirá el archivo de audio MainAnnouncement.wav al autor de la llamada.
 
 ```PowerShell
 $Content = Get-Content "C:\Media\MainAnnoucement.wav" -Encoding byte -ReadCount 0
@@ -65,13 +65,17 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 ## <a name="notes"></a>Notas
 
-- Si el enrutamiento a un anuncio, el archivo de audio se reproducirá una vez al autor de la llamada.
+- Si se enruta a un anuncio, el archivo de audio se reproducirá una vez al autor de la llamada.
 
-- Para enrutar llamadas a números de suscriptores de Microsoft Calling Plan sinsignar, el inquilino debe tener créditos [de comunicaciones disponibles](what-are-communications-credits.md).
+- Para redirigir las llamadas a los números de suscriptor no asignados de Microsoft Calling Plan, su inquilino debe tener [créditos de comunicaciones](what-are-communications-credits.md) disponibles.
 
-- Para enrutar llamadas a números de servicio de Microsoft Calling Plan sinsignar, el inquilino debe tener al menos una Sistema telefónico: licencia de usuario virtual.
+- Para redirigir las llamadas a números de servicio del plan de llamadas de Microsoft no asignados, su inquilino debe tener al menos una Sistema telefónico: licencia de usuario virtual.
 
-- Los formatos compatibles con archivos de audio personalizados son WAV (PCM lineal sin comprimir con profundidad de 8/16/32 bits en mono o estéreo), WMA (solo en mono) y MP3. El contenido del archivo de audio no puede tener más de 5 MB.
+- Los formatos compatibles con archivos de audio personalizados son WAV (PCM lineal sin comprimir con profundidad de 8/16/32 bits en mono o estéreo), WMA (solo mono) y MP3. El contenido del archivo de audio no puede tener más de 5 MB.
+
+- Tanto las llamadas entrantes a Microsoft Teams como las llamadas salientes desde Microsoft Teams tendrán el número llamado marcado en el intervalo de números no asignados.
+
+- Si un patrón o rango especificado contiene números de teléfono asignados a una cuenta de usuario o recurso en el inquilino, las llamadas a estos números de teléfono se redirigirán al destino adecuado y no se redirigirán al tratamiento de números no asignados especificado. No hay otras comprobaciones de los números del rango. Si el intervalo contiene un número de teléfono externo válido, las llamadas salientes desde Microsoft Teams a ese número de teléfono se redirigirán según el tratamiento.
 
 ## <a name="related-topics"></a>Temas relacionados
 
