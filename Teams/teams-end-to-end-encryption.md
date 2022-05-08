@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 202aee527896b331a6c8e64e1fc8736fa4942ecb
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: d5865494b94c280295d13e0f99303bc76d1fc274
+ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388203"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65249012"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Usar el cifrado de un extremo a otro para las llamadas de Microsoft Teams uno a uno
 
@@ -79,13 +79,13 @@ La directiva global, predeterminada para toda la organización especifica que el
 
 1. Con una cuenta profesional o educativa a la que se haya asignado el rol de administrador global o de Teams, inicie sesión en el centro de administración de [Teams](https://admin.teams.microsoft.com/).
 
-2. Vaya a **Otra configuración** > **Directivas de cifrado mejoradas**.
+2. Vaya a **Directivas de cifrado mejoradas**.
 
 3. Elija la directiva predeterminada o elija **Agregar** para agregar una nueva directiva y, a continuación, asigne un nombre a la nueva directiva.
 
-4. Para habilitar el cifrado de un extremo a otro para los usuarios, para **Cifrado de llamadas de un extremo a otro**, elija **los usuarios pueden activarlo** y, a continuación, elija **Guardar**.
+4. Para habilitar el cifrado de extremo a extremo para los usuarios, para **Cifrado de llamadas de extremo a extremo**, elija **Anulación por parte del usuario deshabilitada** y, a continuación, elija **Guardar**.
 
-   Para deshabilitar el cifrado de un extremo a otro, elija **Desactivarlo para todos los usuarios**.
+   Para deshabilitar el cifrado de extremo a extremo, elija **Deshabilitado**.
 
 Una vez que haya terminado de configurar la directiva, asígnela a usuarios, grupos o a todo el inquilino de la misma manera que administra otras directivas de Teams. Para obtener información sobre el uso de directivas en Teams, vea [Administrar Teams con directivas](manage-teams-with-policies.md).
 
