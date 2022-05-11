@@ -18,18 +18,18 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 00b8079a360dbec05b14f1487755e96bfc98b76f
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: a7d296e296b2f5a20b5d7d10da6e598a989f0d71
+ms.sourcegitcommit: cd4464fe9bf0f38ed4c3ca058a51bcd29578eef9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556521"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65316506"
 ---
 # <a name="teams-update-process"></a>El proceso de actualización de Teams
 
-La aplicación web de Teams se actualiza semanalmente.
+Las actualizaciones de aplicaciones web de Teams se publican normalmente el cuarto lunes de cada mes.
 
-Las actualizaciones del cliente de escritorio de Teams se publican cada dos semanas tras un riguroso proceso interno de prueba y validación mediante nuestro Programa de adopción de tecnología (TAP). La actualización suele tener lugar en un martes. Si se requiere una actualización crítica, Teams omite esta programación y publica la actualización en cuanto está disponible.
+Las actualizaciones de cliente de escritorio de Teams se publican mensualmente después de rigurosas pruebas internas y validación a través de nuestro Programa de adopción de tecnología (TAP). Las actualizaciones de los clientes de escritorio suelen comenzar el cuarto lunes del mes y se distribuyen gradualmente a los clientes durante el resto de la semana. Si se requiere una actualización crítica, Teams omite esta programación y publica la actualización en cuanto está disponible.
 
 El cliente de escritorio se actualiza automáticamente. Teams busca actualizaciones cada pocas horas en segundo plano, las descarga y, a continuación, espera a que el equipo esté inactivo para instalar la actualización de forma silenciosa.
 
