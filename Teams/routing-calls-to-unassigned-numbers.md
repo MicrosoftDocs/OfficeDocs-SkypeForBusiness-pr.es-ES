@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo enrutar llamadas a números no asignados de su organización.
-ms.openlocfilehash: cc464419375b6391d0d95d6e99441777a40da9cb
-ms.sourcegitcommit: bc73017b4a3fe6271830bc8c5044bfd43eec80c0
+ms.openlocfilehash: f092cf5501d723dabb4336d648387833dd376e9b
+ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65266932"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65304062"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Enrutamiento de llamadas a números no asignados
 
