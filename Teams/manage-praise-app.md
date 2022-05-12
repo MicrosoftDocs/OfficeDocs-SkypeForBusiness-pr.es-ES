@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Obtenga información sobre cómo administrar la aplicación de Elogio en el centro de administración de Microsoft Teams.
-ms.openlocfilehash: 495000af61c2b5d48dfdc30fe3b013a4ca8b8811
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: ff9985025146136ae78d8e822dd5b61903443605
+ms.sourcegitcommit: 73df40ce6fbd1d305fd381140f293a2feb0d27bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65303992"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65359780"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Administrar la aplicación Elogio en el centro de administración de Microsoft Teams
 
@@ -36,7 +36,7 @@ Elogio está habilitado de forma predeterminada para todos los usuarios de Teams
 
 Ten en cuenta que esta configuración afecta tanto a la aplicación Elogio como a la característica Elogio de la aplicación Ideas Viva en Teams.
 
-Si establece el estado en Bloqueado, la aplicación Elogio se bloqueará en unos minutos. Sin embargo, elogios en Ideas Viva pueden tardar entre 7 y 9 días en bloquearse.
+Si establece el Estado en Bloqueado, la aplicación Elogio se bloqueará en unos minutos durante Teams. Sin embargo, elogios en Ideas Viva pueden tardar entre 7 y 9 días en bloquearse.
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar Elogio para usuarios específicos de la organización
 
