@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d80006e46598d03dd8defffe7baf4ada17415fe2
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187116"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393874"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar la conexión principal en Microsoft Teams para Educación
 
@@ -41,7 +41,7 @@ Estos son algunos recursos que los administradores de TI pueden compartir con tu
 
 Parents Connection permite a los educadores y tutores chatear, enviar correos electrónicos y llamar con Teams.
 
-- Teams datos de contacto de tutores se mantienen actualizados con SIS mediante School Data Sync (SDS).
+- Teams datos de contacto de tutores se mantienen actualizados con SIS usando School Data Sync (SDS).
 - Funciona con el chat supervisado. Para obtener más información, vea [Usar chats supervisados en Microsoft Teams](supervise-chats-edu.md).
   - De forma predeterminada, los tutores tienen permisos restringidos, por lo que no pueden chatear con los alumnos ni quitar usuarios de los chats.
   - El administrador de inquilinos puede cambiar esta configuración.
@@ -68,15 +68,15 @@ Parents Connection permite a los educadores y tutores chatear, enviar correos el
 
 ### <a name="school-data-sync"></a>School Data Sync
 
-- Necesita School Data Sync (SDS) para rellenar la información de **contacto relacionada con** los padres y tutores tutores de cada estudiante.
+- Necesita School Data Sync (SDS) para rellenar la información de **contacto relacionada con** los padres y tutores tutores.
   - [Implementar SDS](/schooldatasync/parents-and-guardians-in-sds)
 
-- Si necesita ayuda para configurar SDS y rellenar **los contactos relacionados con** padres y tutores para los estudiantes de su inquilino, póngase en contacto con el equipo de EDU Customer Success mediante:
+- Si necesita ayuda para configurar SDS y rellenar **los contactos relacionados con** padres y tutores para los estudiantes de su inquilino, póngase en contacto con el equipo de EDU Customer Success de la siguiente manera:
   - Completando el proceso de RFA en [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
   - Abrir un vale en [Soporte técnico](https://aka.ms/sdssupport).
 
-- Actualmente, SDS solo admite la ingestión de datos basada en CSV para contactos principales; sin embargo, puede usar [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) o [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) para todos los datos de lista y agregar contactos primarios mediante CSV.
-  - Cree un segundo perfil de sincronización con el [formato de sincronización CSV de SDS v1](/schooldatasync/school-data-sync-format-csv-files-for-sds).
+- Actualmente, SDS solo admite la ingestión de datos basada en CSV para los contactos principales; sin embargo, puede usar [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) o [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) para todos los datos de lista y agregar contactos principales con CSV.
+  - Cree un segundo perfil de sincronización con el [formato de sincronización CSV SDS v1](/schooldatasync/school-data-sync-format-csv-files-for-sds).
   - Extrae los dos [archivos principales](/schooldatasync/parent-contact-sync-file-format) rellenados con el resto de los archivos v1 vacíos (solo los encabezados).
     - User.csv
     - Guardianrelationship.csv
@@ -84,18 +84,28 @@ Parents Connection permite a los educadores y tutores chatear, enviar correos el
   - Si desea automatizar la extracción de archivos CSV después de la sincronización inicial, lea nuestro [documento CSV File Sync Automation](/schooldatasync/csv-file-sync-automation).
   - Para obtener ayuda con la configuración de la sincronización de datos de SDS, póngase en contacto con [nuestro equipo de éxito del cliente](https://www.microsoft.com/fasttrack?rtc=1) o [abra una incidencia de soporte](https://edusupport.microsoft.com/support?product_id=data_sync) técnico.
 
-### <a name="teams-admin-center---policies"></a>Centro de administración de Teams: directivas
+### <a name="teams-admin-center-policies"></a>directivas del centro de administración de Teams
 
 - Los propietarios del equipo de clase deben tener activado Teams chat.
 - Los propietarios de equipos de clase deben tener acceso externo con **cuentas de Teams no administradas por una organización** activadas.
-  - Esto debe activarse en el nivel de inquilino y en el nivel de usuario. La configuración de nivel de espacio empresarial se encuentra en **Usuarios > acceso externo** en el Centro de administración de Teams. También se puede acceder a esta configuración a través de PowerShell. Solo se puede acceder a las directivas de acceso externo a nivel de usuario a través de PowerShell. Consulte los comandos de PowerShell siguientes para obtener más información.
+  - Esto debe activarse en el nivel de inquilino y en el nivel de usuario. La configuración de nivel de inquilino puede encontrarse en **Usuarios > acceso externo** en el Centro de administración de Teams. También se puede acceder a esta configuración a través de PowerShell. Solo se puede acceder a las directivas de acceso externo a nivel de usuario a través de PowerShell. Consulte los comandos de PowerShell siguientes para obtener más información.
 
-> [!NOTE]
->Los padres y tutores se clasifican como usuarios externos en la función Padres, lo que significa que no tienen derechos de inquilino completos. Solo tienen acceso al chat o chats a los que se agregan, así como a archivos, imágenes y otro contenido compartido en el chat.
->
->Además, los usuarios externos pueden ver la presencia (sin conexión, disponible, ocupado, etc.) de los usuarios de su organización, pero esto se puede desactivar con PowerShell para proteger la privacidad de los usuarios. En PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) y establezca ``EnablePrivacyMode=true``.
->
->A pesar de que los padres y tutores son usuarios externos, sus contribuciones a los chats son reconocibles. Obtenga información sobre cómo llevar a cabo una investigación de eDiscovery Teams leyendo [Realizar una investigación de exhibición de documentos electrónicos del contenido de Microsoft Teams](ediscovery-investigation.md).
+#### <a name="parent-and-guardian-restrictions"></a>Restricciones para padres y tutores
+Los padres y tutores se clasifican como usuarios externos en La conexión de padres, lo que significa que no tienen derechos de inquilino completos. Solo tienen acceso al chat o chats a los que se agregan, así como a archivos, imágenes y otro contenido compartido en el chat.
+
+Además, los usuarios externos pueden ver la presencia (sin conexión, disponible, ocupado, etc.) de los usuarios de su organización, pero esto se puede desactivar con PowerShell para proteger la privacidad de los usuarios. En PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) y establezca ``EnablePrivacyMode=true``.
+
+A pesar de que los padres y tutores son usuarios externos, sus contribuciones a los chats son reconocibles. Obtenga información sobre cómo llevar a cabo una investigación de eDiscovery Teams leyendo [Realizar una investigación de exhibición de documentos electrónicos del contenido de Microsoft Teams](ediscovery-investigation.md).
+
+#### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>Bloquear a un padre o tutor en un chat
+Los profesores pueden bloquear a un tutor en el chat iniciado en conexión con los padres.
+
+El propietario de la clase puede:
+
+1. Abre la tarjeta de perfil del tutor, selecciona los puntos suspensivos y **Bloquear usuario**. 
+2. A continuación, quita al tutor del chat. 
+
+El usuario bloqueado no podrá iniciar chats adicionales con el propietario de la clase.
 
 ## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>Permitir el acceso externo con cuentas de Teams no administradas por una organización
 

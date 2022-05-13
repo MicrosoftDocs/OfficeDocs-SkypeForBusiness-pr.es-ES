@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la directiva de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: 05408ade76aa96b64f07899881beb68fa52c74b4
-ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
+ms.openlocfilehash: 6a3c2dda51c40c57cd100eda9c8c959583dfb60b
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784704"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393754"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -32,6 +32,7 @@ ms.locfileid: "64784704"
 
 Esta configuración controla qué participantes de la reunión se quedan en la sala de espera antes de ser admitidos en la reunión y qué nivel de participación se les permite.
 
+- [Permitir que personas anónimas se unan a una reunión](#let-anonymous-people-join-a-meeting)
 - [Permitir que los usuarios anónimos inicien una reunión](#let-anonymous-people-start-a-meeting)
 - [Admitir automáticamente usuarios](#automatically-admit-people)
 - [Permitir que los usuarios de acceso telefónico omitan la sala de espera](#allow-dial-in-users-to-bypass-the-lobby)
@@ -41,6 +42,9 @@ Esta configuración controla qué participantes de la reunión se quedan en la s
 > [!NOTE]
 >Las opciones para unirse a una reunión pueden variar en función de la configuración de cada grupo de Teams y del método de conexión. Si el grupo tiene audioconferencia y la usa para conectarse, consulte [Audioconferencia](/microsoftteams/audio-conferencing-in-office-365). Si el grupo de Teams no tiene ninguna Audioconferencia, consulte [Unirse a una reunión en Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
+## <a name="let-anonymous-people-join-a-meeting"></a>Permitir que personas anónimas se unan a una reunión
+
+Esta configuración por organizador permite a cualquier persona unirse a las reuniones como usuario anónimo seleccionando el vínculo en la invitación a la reunión. Para más información, consulte[Únase a una reunión sin una cuenta de Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). La capacidad de los usuarios anónimos para unirse a reuniones también se controla en el nivel de su organización, la configuración más restrictiva será eficaz. Para obtener más información, consulte [Uso del centro de administración de Microsoft Teams para configurar directivas para toda la organización](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Permitir que los usuarios anónimos inicien una reunión
 
