@@ -18,18 +18,21 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 776f0f31d54788fbffd86bbcbedd44e30ada28a3
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 29a632efc433a14d578eff80fdeb74a6f167dfc3
+ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65186976"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65400236"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicación Walkie Talkie en Microsoft Teams
 
 La aplicación Walkie Talkie de Teams proporciona una comunicación instantánea de inserción para hablar (PTT) para su equipo y ahora está disponible en Android & iOS. Walkie Talkie permite a los usuarios conectarse con su equipo mediante los mismos canales subyacentes de los que son miembros. Solo los usuarios que se conectan a Walkie Talkie en un canal se convierten en participantes y pueden comunicarse entre sí mediante pulsar para hablar, de uno en uno.
 
 Con Walkie Talkie en Teams, los trabajadores de primera línea ahora pueden comunicarse de forma segura con una experiencia de PTT familiar sin tener que transportar radios voluminosas, y Walkie Talkie funciona en cualquier lugar con WiFi o conectividad a Internet móvil.
+
+> [!NOTE]
+> Walkie Talkie no está disponible actualmente en China.
 
 ## <a name="getting-started"></a>Introducción
 

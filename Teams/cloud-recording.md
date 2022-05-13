@@ -19,12 +19,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aab8f71ec8c9eb5ad1e984a68985a8a425e21f16
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 72ad8b9349681dbb10c3df848f99cc0250711543
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922671"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370823"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -147,8 +147,9 @@ Esta configuración controla si se pueden usar las características de subtítul
   
 Al activar esta opción, se crea una copia de la transcripción que se almacena con la grabación de la reunión, lo que habilita **Búsqueda**, **CC** y **transcripciones** en la grabación de la reunión.
 
+
 > [!NOTE]
-> Actualmente, esa transcripción para reuniones grabadas solo se admite para inglés (EE. UU.), inglés (Canadá), inglés (India), inglés (Reino Unido), inglés (Australia), inglés (Nueva Zelanda), alemán (Alemania), portugués (Brasil), neerlandés (Países Bajos), neerlandés (Bélgica), francés (Francia), español (España), japonés (Japón), francés (Canadá), chino (cantonés, tradicional), chino (mandarín, simplificado), hindi (India), italiano (Italia), coreano (Corea), español (México), sueco (Suecia), Polaco (Polonia), árabe (Emiratos Árabes Unidos), árabe (Arabia Saudí), danés (Dinamarca), finés (Finlandia), noruego (Noruega) y ruso (Rusia). Se almacenan junto con las grabaciones de reuniones en OneDrive para la Empresa y el almacenamiento en la nube de SharePoint Online.
+> Actualmente, esa transcripción para reuniones grabadas solo es compatible con inglés (EE. UU.), inglés (Canadá), inglés (India), inglés (Reino Unido), inglés (Australia), inglés (Nueva Zelanda), árabe (Emiratos Árabes), árabe (Arabia Saudí), chino (cantones), chino (mandarín), Checo (Checo), danés (Dinamarca), neerlandés (Bélgica), neerlandés (Países Bajos), francés (Canadá), francés (Francia), finés (Finlandia), alemán (Alemania), hebreo (Israel), hindi (India), italiano (Italia), japonés (Japón), Coreano (Corea), noruego (Noruega), polaco (Polonia), portugués (Brasil), portugués (Portugal), ruso (Rusia), español (México), español (España), sueco (Suecia), tailandés (Tailandia), turco (Turquía), vietnamita (Australia). Se almacenan junto con las grabaciones de reuniones en OneDrive para la Empresa y el almacenamiento en la nube de SharePoint Online.
 
 Puede usar el centro de administración de Microsoft Teams o PowerShell para establecer una directiva de reunión de Teams para controlar si el iniciador de la reunión tiene la opción de transcribir la grabación de la reunión.
 
