@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar canales compartidos en Microsoft Teams (versión preliminar).
-ms.openlocfilehash: feecbdfe45e890b1e302d49bfdcaf7b6d3e19157
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 1f222d8994c435c315a91deaba77e383b55cba42
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817851"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393884"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Canales compartidos en Microsoft Teams (versión preliminar)
 
@@ -150,7 +150,7 @@ En la tabla siguiente se describe el número máximo de canales y miembros.
 |Miembros de un equipo|25 000|Incluye todos los usuarios del equipo y miembros directos en canales compartidos.|
 |Canales compartidos por equipo|50|Hospedado y compartido con el equipo. (Incluye los canales eliminados durante el período de recuperación de 30 días).|
 |Equipos con los que se puede compartir un canal|50|Excluyendo el equipo primario|
-|Miembros en un canal compartido|1000 miembros directos, incluidos hasta 50 equipos. (Cada equipo con el que se comparte el canal cuenta como un miembro para este límite).|Las actualizaciones en tiempo real solo están disponibles para 25 000 usuarios a la vez y solo 25 000 usuarios aparecerán en la lista de canales.|
+|Miembros en un canal compartido|5000 miembros directos, incluyendo hasta 50 equipos. (Cada equipo con el que se comparte el canal cuenta como un miembro para este límite).|Las actualizaciones en tiempo real solo están disponibles para 25 000 usuarios a la vez y solo 25 000 usuarios aparecerán en la lista de canales.|
 
 También se aplican las siguientes limitaciones:
 
