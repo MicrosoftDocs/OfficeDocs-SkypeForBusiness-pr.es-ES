@@ -13,12 +13,12 @@ ms.collection:
 description: Obtenga información sobre los cambios más recientes en Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 169519741bb0107086679a0472ead65c0e512529
-ms.sourcegitcommit: 3aa1c3cbd8ba9919e2a4dd4c7d4b95c40ed3d55d
+ms.openlocfilehash: 2bd7507767cb7f8747d8abbf4a23adda39738182
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65230984"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442036"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams notas de la versión de PowerShell
 
@@ -31,6 +31,7 @@ Esta página proporciona la última Teams registro de cambios de PowerShell para
 
 | Fecha | Versión | Actualizaciones |
 |------- | -------------------- | ------------------------------ |
+| Mayo de 2022 | [4.3.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.1-preview) |<li>Mejoras en el tamaño del módulo.</li><li>Los parámetros no admitidos en la versión modernizada de todos los cmdlets producirán un error.</li><li>Corrige el control de errores para [GetSet\|]-CsOnlineDialInConferencingUser, Get-CsOnlineDialInConferencingBridge, [GetSetRegisterUnregister\|\|\|]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported cmdlets.</li><li>Publica la implementación en cmdlets scale en versión preliminar: New-CsBatchTeamsDeployment & Get-CsBatchTeamsDeploymentStatus.</li>
 | Mayo de 2022 | [4.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.0) |<li>Corrige los tratamientos de errores para los cmdlets de [SetRemove\|]-CsPhoneNumberAssignment.</li><li>[Obtener\| SetRemove\|]-CsOnlineLisSubnet: correcciones para el parámetro Subnet en los cmdlets modernizados.</li><li>[Obtener\| Set]-CsOnlineLisLocation & [GetSet\|]-CsOnlineLisCivicAddress: correcciones sobre los parámetros admitidos en los cmdlets modernizados (más detalles en las respectivas documentación pública).</li>
 | Abril de 2022 | [4.2.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.1-preview) |<li>Corrige los tratamientos de errores para los cmdlets de [SetRemove\|]-CsPhoneNumberAssignment.</li><li>[Obtener\| SetRemove\|]-CsOnlineLisSubnet: correcciones para el parámetro Subnet en los cmdlets modernizados.</li><li>[Obtener\| Set]-CsOnlineLisLocation & [GetSet\|]-CsOnlineLisCivicAddress: correcciones para los parámetros admitidos en los cmdlets modernizados.</li>
 | Abril de 2022 | [4.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.0) |<li>Compatibilidad con proxys para todos los cmdlets relevantes para Teams. Los cmdlets admitidos se están implementando gradualmente.</li><li>Corrige problemas con los cmdlets de directiva modernizadas [NewSet\|]- cuando se usan con parámetros de tipo PSListModifier.</li><li>[CAMBIO DE ROTURA] Los parámetros de tipo PSListModifier solo aceptarán Hashtable con Add o Remove. Hashtable with Replace no es compatible ahora, en su lugar los valores se pueden establecer directamente en el parámetro.</li><li>Corrige problemas de formato con [GetNew\|]- de algunos cmdlets de directiva modernizados (CsVideoInteropServiceProvider, CsInboundBlockedNumberPattern, CsTeamsComplianceRecordingApplication, CsTeamsTranslationRule, CsTeamsUnassignedNumberTreatment, CsVoiceNormalizationRule).</li><li>Se ha mejorado el rendimiento del procesamiento de entrada de canalización con los cmdlets modernizados.</li><li>Corrige problemas menores con los resultados de la canalización de entrada.</li><li>Get-CsOnlineUser: Se agrega el atributo Country (conocido como CountryOrRegionDisplayName en versiones anteriores a 3.x.x).</li><li>[CAMBIO DE ROTURA] Get-CsOnlineUser: El atributo CountryAbbreviation ahora solo está disponible cuando se usa con el parámetro -Identity.</li>
@@ -63,7 +64,7 @@ Esta página proporciona la última Teams registro de cambios de PowerShell para
 | Septiembre de 2020 | [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Skype Empresarial integración de Conector en línea</li> |
 | Julio de 2020 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Cmdlets de [asignación de directivas de grupo agregados](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)</li> |
 | Junio de 2020 | [1.1.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Skype Empresarial integración de Conector en línea<li>optimizaciones de Get-Team<li>Confiabilidad mejorada</li> |
-| Junio de 2020 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Precarga de cmdlet agregado<li>optimizaciones de .NET Framework</li>   |
+| Junio de 2020 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Precarga de cmdlet agregado<li>Optimizaciones de .NET Framework</li>   |
 | Abril de 2020 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Autenticación y firma de ensamblados<li>Se ha agregado Get-CsPolicyPackage<li>Se ha agregado Get-CsUserPolicyPackage<li>Se ha agregado Get-CsUserPolicyPackageRecommendation<li>Se ha agregado Grant-CsUserPolicyPackage<li>Se ha agregado New-CsBatchPolicyPackageAssignmentOperation<li>Se ha agregado Set-TeamArchivedState<li>Se ha agregado Set-TeamPicture<li>Get-TeamHelp quitado</li>  |
 | Marzo de 2020 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Se ha agregado New-CsBatchPolicyAssignmentOperation</li> |
 | Febrero de 2020 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>optimizaciones de Get-Team</li>  |

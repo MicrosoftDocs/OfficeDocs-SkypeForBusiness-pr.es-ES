@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Obtenga información sobre cómo usar la configuración de la directiva de reunión para controlar la expiración de las reuniones en Microsoft Teams.
-ms.openlocfilehash: 4496896cc86cfd64f175b9cab7c58c3798b9249f
-ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
+ms.openlocfilehash: 74b47d296b06d2ef9462dfafec136a99ebff0a34
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65063251"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442026"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Directivas de reunión y expiración de reuniones en Microsoft Teams
 
@@ -181,3 +181,5 @@ El archivo se eliminará dentro de los cinco días posteriores a la fecha de exp
 [Asignar directivas a los usuarios en Teams](policy-assignment-overview.md)
 
 [Descripción de PowerShell para Teams](teams-powershell-overview.md)
+
+[Límites y especificaciones para Microsoft Teams](/microsoftteams/limits-specifications-teams)

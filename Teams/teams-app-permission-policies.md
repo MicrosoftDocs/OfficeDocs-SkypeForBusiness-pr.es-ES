@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 2a4862b1daedd90dce4d486ed1517efbfeaca336
-ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
+ms.openlocfilehash: a7276c2a538eacefc579a7233bb99fb7882afb8f
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2022
-ms.locfileid: "64737582"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442046"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Administrar directivas de permisos de aplicación en Microsoft Teams
 
@@ -87,14 +87,9 @@ Puede usar el centro de administración de Teams para editar una directiva, incl
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Administrar la configuración de la aplicación para toda la organización para Microsoft 365 Administración Pública  
 
-En una implementación de Teams de Administración Pública Microsoft 365: GCCH y DoD, es importante conocer lo siguiente sobre la configuración de aplicaciones de terceros, que son exclusivas de GCCH y DoD.
+En una implementación de Microsoft 365 Teams de administración pública GCC, GCCH y DoD, todas las aplicaciones de terceros están bloqueadas de forma predeterminada. En las nubes de GCCH y DOD, las aplicaciones de terceros no están disponibles. Además, en GCC, verá la nota siguiente sobre la administración de aplicaciones de terceros en la página Directivas de permisos de aplicaciones del Centro de administración de Microsoft Teams.
 
-En las implementaciones de GCC, GCCH y DoD, todas las aplicaciones de terceros se bloquean de forma predeterminada. Además, en GCC, verá la nota siguiente sobre la administración de aplicaciones de terceros en la página Directivas de permisos de aplicaciones del Centro de administración de Microsoft Teams.
-
-:::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="Captura de pantalla de la directiva de permisos de aplicaciones en GCCH y DoD." lightbox="media/app-permission-policies-gcc.png":::
-
-> [!NOTE]
-> En las nubes de GCCH y DOD, las aplicaciones de terceros no están disponibles.
+:::image type="content" source="media/app-permission-policies-gcc.png" alt-text="Captura de pantalla de la directiva de permisos de aplicaciones en GCCH y DoD.":::
 
 Use la configuración de aplicaciones para toda la organización para controlar si los usuarios pueden instalar aplicaciones de terceros. La configuración de aplicaciones para toda la organización rige el comportamiento de todos los usuarios e invalida cualquier otra directiva de permisos de aplicación asignada a los usuarios. Puede usarla para controlar las aplicaciones malintencionadas o problemáticas.
 
