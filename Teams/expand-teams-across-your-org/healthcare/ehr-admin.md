@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Obtenga información sobre cómo integrar el conector EHR Teams para permitir que los proveedores de atención médica de su organización lleven a cabo citas virtuales con pacientes u otros proveedores en Teams directamente desde el sistema EPIC EHR.
-ms.openlocfilehash: baef8aeda05413ce2f307a4bbea7259490ecfb83
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+ms.openlocfilehash: abe826b1e71c37e0932404233c234282ec90b7f9
+ms.sourcegitcommit: 3cb40132e36717dfbdc6dfe83e7ea319f3ec9347
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853061"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65465441"
 ---
 # <a name="virtual-appointments-with-teams---integration-into-epic-ehr"></a>Citas virtuales con Teams - Integración en Epic EHR
 
@@ -37,14 +37,10 @@ El conector de registro médico electrónico (EHR) Microsoft Teams facilita que 
 La plataforma de comunicación y colaboración de Teams facilita que los médicos corten el desorden de los sistemas fragmentados para que puedan concentrarse en proporcionar la mejor atención posible. Con el conector EHR Teams, puede:
 
 - Inicia Teams citas virtuales desde tu sistema Epic EHR con un flujo de trabajo clínico integrado.
-- Permitir a los pacientes unirse a Teams citas virtuales desde el portal del paciente o a través de SMS.
+- Permita que los pacientes se unan a Teams citas virtuales desde el portal del paciente o a través de SMS.
 - Apoyar otros escenarios, incluidos varios participantes, visitas de grupo y servicios de intérprete.
 - Vuelva a escribir metadatos en el sistema EHR sobre Teams citas virtuales para registrar cuándo los asistentes se conectan, desconectan y habilitan la auditoría automática y el mantenimiento de registros.
 - Vea informes de datos de consumo e información personalizable de calidad de llamada para citas conectadas con EHR.
-
-Consulte este vídeo para obtener información general sobre cómo administrar citas virtuales desde el portal de EHR.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
 En este artículo se describe cómo configurar el conector EHR Teams para que se integre con la plataforma Epic de su organización sanitaria. También te ofrece una visión general de la experiencia de citas virtuales Teams desde el sistema EPIC EHR.
 
@@ -87,7 +83,7 @@ Revise la [integración de teleasistencia sanitaria de Microsoft Teams](https://
 
 Los pasos de integración los realizan los siguientes usuarios de su organización:
 
-- **Microsoft 365 administrador global**: la persona principal responsable de la integración. El administrador configura el conector, habilita el SMS (si es necesario) y agrega al analista de clientes de Epic que aprobará la configuración.
+- **Microsoft 365 administrador global**: la persona principal responsable de la integración. El administrador configura el conector, habilita SMS (si es necesario) y agrega al analista de clientes de Epic que aprobará la configuración.
 - **Epic analista de clientes**: Una persona de su organización que tiene credenciales de inicio de sesión para Epic. Aprueban los ajustes de configuración introducidos por el administrador y proporcionan los registros de configuración a Epic.
 
 El administrador de Microsoft 365 y el analista de clientes de Epic pueden ser la misma persona.
@@ -98,7 +94,7 @@ Para la configuración del conector, debe realizar las siguientes acciones:
 
 - [Iniciar el portal de configuración del conector EHR](#launch-the-ehr-connector-configuration-portal)
 - [Escribir información de configuración](#enter-configuration-information)
-- [Habilitar notificaciones SMS (opcional)](#enable-sms-notifications-optional)
+- [Habilitar notificaciones de SMS (opcional)](#enable-sms-notifications-optional)
 - [Aprobar o ver la configuración](#approve-or-view-the-configuration)
 - [Revisar y finalizar la configuración](#review-and-finish-the-configuration)
 
@@ -125,55 +121,55 @@ A continuación, para configurar la integración, el administrador de Microsoft 
 
     :::image type="content" source="media/ehr-connector-epic-configure.png" alt-text="Captura de pantalla de la página Configuración, en la que se muestra el aprobador que se está agregando." lightbox="media/ehr-connector-epic-configure.png":::
 
-### <a name="enable-sms-notifications-optional"></a>Habilitar notificaciones SMS (opcional)
+### <a name="enable-sms-notifications-optional"></a>Habilitar notificaciones de SMS (opcional)
 
 > [!NOTE]
-> Las notificaciones SMS solo están disponibles actualmente en el Estados Unidos. Estamos trabajando para que esta característica esté disponible en otras regiones en futuras versiones de Teams y actualizaremos este artículo cuando esté disponible.
+> SMS notificaciones solo está disponible actualmente en el Estados Unidos. Estamos trabajando para que esta característica esté disponible en otras regiones en futuras versiones de Teams y actualizaremos este artículo cuando esté disponible.
 
-Complete este paso si su organización quiere que Microsoft administre las notificaciones de SMS para sus pacientes. Cuando habilite notificaciones SMS, sus pacientes recibirán mensajes de confirmación y recordatorio para las citas programadas.
+Complete este paso si su organización quiere que Microsoft administre las notificaciones de SMS para sus pacientes. Al habilitar las notificaciones de SMS, los pacientes recibirán mensajes de confirmación y recordatorio para las citas programadas.
 
-Para habilitar las notificaciones SMS, el administrador de Microsoft 365 hace lo siguiente:
+Para habilitar las notificaciones de SMS, el administrador de Microsoft 365 hace lo siguiente:
 
-1. En la página notificaciones sms, selecciona ambas casillas de consentimiento para:
+1. En la página SMS notificaciones, seleccione ambas casillas de consentimiento para:
 
-    - Permita que Microsoft envíe notificaciones SMS a los pacientes en nombre de su organización.
-    - Confirme que se asegurará de que los asistentes hayan dado su consentimiento para enviar y recibir mensajes SMS.
+    - Permita que Microsoft envíe notificaciones de SMS a los pacientes en nombre de su organización.
+    - Confirme que se asegurará de que los asistentes hayan dado su consentimiento para enviar y recibir mensajes de SMS.
     
-    :::image type="content" source="media/ehr-connector-epic-sms-notifications.png" alt-text="Captura de pantalla de la página de notificaciones sms, que muestra las casillas de consentimiento y la opción para generar un número de teléfono." lightbox="media/ehr-connector-epic-sms-notifications.png":::
+    :::image type="content" source="media/ehr-connector-epic-sms-notifications.png" alt-text="Captura de pantalla de la página de notificaciones de SMS, que muestra las casillas de consentimiento y la opción para generar un número de teléfono." lightbox="media/ehr-connector-epic-sms-notifications.png":::
 
 1. En **Sus números de teléfono**, seleccione **Generar un nuevo número de teléfono** para generar un número de teléfono para su organización. Al hacerlo, se inicia el proceso para solicitar y generar un nuevo número de teléfono. Este proceso puede tardar hasta 2 minutos en completarse.
 
-    Una vez generado el número de teléfono, se muestra en la pantalla. Este número se usará para enviar confirmaciones sms y recordatorios a sus pacientes. Se ha aprovisionado el número, pero aún no está vinculado a la dirección URL base de FHIR. Lo hará en el siguiente paso.
+    Una vez generado el número de teléfono, se muestra en la pantalla. Este número se usará para enviar SMS confirmaciones y recordatorios a los pacientes. Se ha aprovisionado el número, pero aún no está vinculado a la dirección URL base de FHIR. Lo hará en el siguiente paso.
 
     :::image type="content" source="media/ehr-connector-epic-phone-number.png" alt-text="Captura de pantalla que muestra un ejemplo del número de teléfono que se genera." lightbox="media/ehr-connector-epic-phone-number.png":::
 
     Elija **Listo** y, a continuación, seleccione **Siguiente**.
 
-1. Para vincular el número de teléfono a una dirección URL base de FHIR, en **Teléfono número** en la sección **configuración de SMS**, seleccione el número. Haga esto para cada url base de FHIR para la que desea habilitar las notificaciones SMS.
+1. Para vincular el número de teléfono a una dirección URL base de FHIR, en **número de Teléfono** de la sección **configuración de SMS**, seleccione el número. Haga esto para cada dirección URL base de FHIR para la que desea habilitar las notificaciones de SMS.
 
     :::image type="content" source="media/ehr-connector-epic-link-phone-number.png" alt-text="Captura de pantalla que muestra cómo vincular un número de teléfono a una dirección URL base FHIR." lightbox="media/ehr-connector-epic-link-phone-number.png":::
 
-    Si es la primera vez que configura el conector, verá la dirección URL base de FHIR que se escribió en el paso anterior. El mismo número de teléfono se puede vincular a varias direcciones URL base FHIR, lo que significa que los pacientes recibirán notificaciones SMS del mismo número de teléfono para diferentes organizaciones y/o departamentos.
+    Si es la primera vez que configura el conector, verá la dirección URL base de FHIR que se escribió en el paso anterior. El mismo número de teléfono se puede vincular a varias DIRECCIONES URL base FHIR, lo que significa que los pacientes recibirán notificaciones SMS del mismo número de teléfono para diferentes organizaciones y/o departamentos.
 
-1. Seleccione **Configuración de SMS** junto a cada URL base de FHIR para configurar los tipos de notificaciones sms que se enviarán a sus pacientes.
+1. Seleccione **SMS configuración** junto a cada URL base de FHIR para configurar los tipos de notificaciones de SMS que se enviarán a sus pacientes.
 
-    :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="Captura de pantalla que muestra la configuración de SMS." lightbox="media/ehr-connector-epic-sms-setup.png":::
+    :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="Captura de pantalla que muestra SMS configuración de configuración." lightbox="media/ehr-connector-epic-sms-setup.png":::
 
-    - **SMS de confirmación**: las notificaciones se envían a los pacientes cuando se programa, actualiza o cancela una cita en el sistema EHR.
-    - **SMS de aviso**: Las notificaciones se envían a los pacientes según el intervalo de tiempo que especifique y la hora programada de la cita.
+    - **SMS de confirmación**: se envían notificaciones a los pacientes cuando se programa, actualiza o cancela una cita en el sistema EHR.
+    - **Recordatorio SMS**: Las notificaciones se envían a los pacientes según el intervalo de tiempo que especifique y la hora programada de la cita.
 
     Elija **Guardar**.
 
 1. Seleccione **Upload certificado** para cargar un certificado de clave pública. Debe cargar un certificado .cer con codificación Base64 (solo clave pública) para cada entorno.
 
-    Se requiere un certificado de clave pública para recibir información de citas para enviar notificaciones SMS. El certificado es necesario para comprobar que la información entrante procede de un origen válido.
+    Se requiere un certificado de clave pública para recibir información de citas para enviar notificaciones de SMS. El certificado es necesario para comprobar que la información entrante procede de un origen válido.
 
-    Cuando el conector se utiliza para enviar recordatorios SMS, epic en una carga de HL7v2 envía el número de teléfono del paciente cuando las citas se crean en Epic. Estos números se almacenan para cada cita en la geografía de su organización y se conservan hasta que la cita tiene lugar. Para obtener más información sobre cómo configurar mensajes de HL7v2, consulta la [Guía de integración de Epic-Microsoft Teams Telehealth](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+    Cuando el conector se utiliza para enviar recordatorios de SMS, epic en una carga de HL7v2 envía el número de teléfono del paciente cuando las citas se crean en Epic. Estos números se almacenan para cada cita en la geografía de su organización y se conservan hasta que la cita tiene lugar. Para obtener más información sobre cómo configurar mensajes de HL7v2, consulta la [Guía de integración de Epic-Microsoft Teams Telehealth](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
     Elija **Siguiente**.
 
 > [!NOTE]
-> En cualquier momento, el administrador de Microsoft 365 puede actualizar cualquiera de las opciones de configuración de SMS. Ten en cuenta que el cambio de configuración podría dar lugar a una interrupción del servicio de SMS. Para obtener más información sobre cómo ver informes de SMS, consulte [Teams informes de administrador del conector EHR](ehr-admin-reports.md).
+> En cualquier momento, el administrador de Microsoft 365 puede actualizar cualquiera de las opciones de configuración de SMS. Ten en cuenta que cambiar la configuración puede provocar una interrupción de SMS servicio. Para obtener más información sobre cómo ver informes de SMS, consulte [Teams informes de administrador del conector EHR](ehr-admin-reports.md).
 
 ### <a name="approve-or-view-the-configuration"></a>Aprobar o ver la configuración
 
@@ -194,10 +190,10 @@ Cuando el administrador de Epic apruebe la información de configuración, se le
 
 - Registros de pacientes y proveedores
 - Registro SMS directo
-- Registro de configuración de SMS
+- SMS registro de configuración
 - Registro de configuración de prueba de dispositivo
 
-El analista cliente de Epic debe proporcionar estos registros a Epic para completar la configuración de citas virtuales en Epic. Para obtener más información, consulta la [Guía de integración de Epic-Microsoft Teams Telehealth](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+El token de contexto para la prueba de dispositivo puede encontrarse en el registro de integración del paciente. El analista cliente de Epic debe proporcionar estos registros a Epic para completar la configuración de citas virtuales en Epic. Para obtener más información, consulta la [Guía de integración de Epic-Microsoft Teams Telehealth](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
 > [!Note]  
 > En cualquier momento, el Microsoft 365 o epic analista de clientes puede iniciar sesión en el portal de configuración para ver los registros de integración y cambiar la configuración de la organización, según sea necesario.
@@ -221,6 +217,8 @@ Después de completar los pasos del conector EHR y la configuración de Epic, su
 
 Los proveedores de atención médica de su organización pueden unirse a citas con Teams de sus aplicaciones de proveedores de Epic (Hyperspace, Haiku, Canto). El botón **Iniciar visita virtual** está incorporado en el flujo del proveedor.
 
+  ![Experiencia del proveedor de una cita virtual con el paciente.](media/ehc-provider-experience-6.png)
+
 Características principales de la experiencia del proveedor:
 
 - Los proveedores pueden unirse a citas mediante exploradores compatibles o la aplicación de Teams.
@@ -231,18 +229,27 @@ Características principales de la experiencia del proveedor:
 
 - Los proveedores pueden ver actualizaciones en tiempo real de los participantes que se conectan y desconectan para una cita determinada. Los proveedores pueden ver cuándo el paciente está conectado a una cita.
 
-  ![Experiencia del proveedor de una cita con un paciente.](media/ehc-provider-experience-6.png)
-
 > [!NOTE]
 > Cualquier información introducida en el chat de la reunión que sea necesaria para la continuidad de los registros médicos o con fines de retención debe ser descargada, copiada y anotada por el proveedor de atención médica. El chat no constituye un registro médico legal o un conjunto de registros designados. Los mensajes del chat se almacenan en función de la configuración creada por el administrador de Microsoft Teams.
 
 ### <a name="patient-experience"></a>Experiencia del paciente
 
-El conector admite pacientes que se unen a citas a través de MyChart web y móviles. En el momento de la cita, los pacientes pueden iniciar una cita desde MyChart con el botón **Iniciar visita virtual** .
+El conector admite pacientes que se unen a citas a través de un vínculo en el mensaje de texto de SMS, La Web de MyChart y dispositivos móviles. En el momento de la cita, los pacientes pueden iniciar la cita desde MyChart con el botón **Iniciar visita virtual** o pulsando el vínculo del mensaje de texto SMS.
+
+  ![Experiencia del paciente de una cita virtual.](media/ehc-virtual-visit-5.png)
 
 Características principales de la experiencia del paciente:
 
 - Los pacientes pueden unirse a citas desde [exploradores web modernos en equipos de escritorio y móviles sin tener que instalar la aplicación Teams](../browser-join.md).
+- Los pacientes pueden probar el hardware y la conexión del dispositivo antes de unirse a una cita.
+
+    :::image type="content" source="media/ehr-admin-epic-device-test.png" alt-text="Imágenes de un dispositivo móvil, que muestran las capacidades de prueba del dispositivo." lightbox="media/ehr-admin-epic-device-test.png":::
+  
+    Funcionalidades de prueba de dispositivo:
+
+  - Los pacientes pueden probar su altavoz, micrófono, cámara y conexión.
+  - Los pacientes pueden completar una llamada de prueba para validar completamente su configuración.
+  - Los resultados de la prueba de dispositivo se pueden devolver al sistema EHR.
 
 - Los pacientes pueden unirse a las citas con un solo clic y no se requiere ninguna otra cuenta o inicio de sesión.
 
@@ -251,8 +258,6 @@ Características principales de la experiencia del paciente:
 - Los pacientes se colocan en una sala de espera hasta que el proveedor se une y los admite.
 
 - Los pacientes pueden probar el vídeo y el micrófono en la sala de espera antes de unirse a la cita.
-
-  ![Experiencia del paciente con la cita.](media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku y Canto son marcas comerciales de Epic Systems Corporation.
