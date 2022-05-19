@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Obtenga información sobre cómo usar la aplicación Bookings en Microsoft Teams para programar, administrar y llevar a cabo citas virtuales.
-ms.openlocfilehash: 5693049942d48da8c18e46b05f4a8d0bb2ebae0a
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 3fb6b28b9e9e1b7581ef80d9830bce97f6a7070d
+ms.sourcegitcommit: 02fcd6686a2f7a59c0ad67430c2b85f809c1b662
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846671"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "65534385"
 ---
 # <a name="help-your-clients-and-customers-use-virtual-appointments"></a>Ayudar a sus clientes y clientes a usar citas virtuales
 
@@ -66,7 +66,7 @@ Cuando te unas desde el vínculo de la confirmación por correo electrónico, en
 
 **¿Cómo funciona el pago de citas virtuales?**
 
-Informe a sus clientes si acepta diferentes tipos de pago para citas virtuales.
+Informa a tus clientes de si aceptas diferentes tipos de pago para Citas virtuales.
 
 ### <a name="booking-an-appointment"></a>Reservar una cita
 
@@ -113,6 +113,7 @@ Descargue y [personalice](#customize-your-infographic) una de estas infografías
 | [![Imagen de la infografía de servicios financieros](../media/vv-finserv-thumbnail.png)](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) | Infografía personalizable para su organización de servicios financieros <br> [Descargar como PDF](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) <br> [Descargar como PowerPoint](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pptx)
 | [![Imagen de la infografía comercial](../media/vv-retail-thumbnail.png)](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) | Infografía personalizable para su organización comercial <br> [Descargar como PDF](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) <br> [Descargar como PowerPoint](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pptx) |
 | [![Imagen de la infografía de salud](../media/vv-healthcare-thumbnail.png)](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) | Infografía personalizable para su organización sanitaria <br> [Descargar como PDF](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) <br> [Descargar como PowerPoint](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pptx) |
+| [![Imagen de la infografía no específica de la industria.](../media/va-generic-thumb.png)](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) | Infografía personalizable no específica de un sector en particular <br> [Descargar como PDF](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) <br> [Descargar como PowerPoint](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pptx) |
 
 ### <a name="customize-your-infographic"></a>Personalizar la infografía
 
