@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5097586825b231decd220a30bdde85bf258e27fc
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: 6a52b30e1ced457377d7dd1c820192cb856827ba
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65313112"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65601680"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Llamadas y desvío de llamadas en Teams
 
@@ -99,7 +99,7 @@ Ocupado en ocupado (opciones de ocupado) le permite configurar cómo se gestiona
 
 Esta configuración permite a los usuarios llamar a números RTC con el cliente web de Teams.
 
-### <a name="incoming-meeting-invites-are-automatically-answered"></a>Las invitaciones a reuniones entrantes se responden automáticamente
+### <a name="automatically-answer-incoming-meeting-invites"></a>Responder automáticamente a las invitaciones entrantes a reuniones
 
 Esta configuración controla si las invitaciones entrantes a reuniones se responden automáticamente. Está desactivado por defecto. Tenga en cuenta que esta configuración solo se aplica a las invitaciones de reunión entrantes. No se aplica a otros tipos de llamadas.
 

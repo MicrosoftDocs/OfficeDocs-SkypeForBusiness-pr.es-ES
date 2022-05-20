@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 930f4b7a311acc7c34e60b7916071d10349c0313
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: a4759bc010367e6531a557e2a5ff951d1b613505
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64592895"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65598363"
 ---
 # <a name="shifts-connectors"></a>Conectores de Turnos
 
@@ -30,7 +30,7 @@ Los conectores de turnos le permiten integrar Turnos, la herramienta de administ
 
 Conectar su sistema WFM con Teams permite que su personal de primera línea administre programaciones de forma más eficaz y simplifique los procesos diarios para lograr una mayor participación y productividad. Sus trabajadores de primera línea tienen un lugar para que su programación, comunicación y colaboración necesiten realizar el trabajo, desde cualquier lugar y con cualquier dispositivo.
 
-Ofrecemos conectores Turnos administrados y de código abierto. En este artículo se ofrece información general sobre los conectores de Turnos y cómo funcionan.
+En este artículo se ofrece información general sobre los conectores de Turnos y cómo funcionan.
 
 ## <a name="how-shifts-connectors-work"></a>Cómo funcionan los conectores de Mayús
 
@@ -115,17 +115,6 @@ Los trabajadores de primera línea pueden:
 - Solicite permisos, abra turnos, intercambie y ofrezca turnos en Turnos.
 
 Para obtener más información, ve a https://connect.zebra.com/microsoft-connectors.
-
-## <a name="open-source-shifts-connectors"></a>Conectores Mayús de código abierto
-
-Los conectores de Turnos de código abierto son integraciones controladas por la comunidad [creadas en Turnos Graph API](/graph/api/resources/shift). Están disponibles los siguientes conectores de código abierto:
-
-- Kronos-to-Teams WFC local
-- Conector JDA a Teams Turnos (para Blue Yonder versión 2017 a 2020.2)
-
-Cada conector incluye instrucciones detalladas de configuración e implementación. Incluyen scripts de implementación de Azure Resource Manager (ARM) que le permiten hospedar todos los servicios necesarios en Microsoft Azure. El código fuente y los scripts de implementación están disponibles para su descarga en un [repositorio de GitHub](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors). Puede implementar tal cual, personalizar o ampliar para satisfacer sus necesidades.
-
-Para obtener más información, consulte [Conectores de Turnos listos para producción](/microsoftteams/platform/samples/shifts-wfm-connectors).
 
 ## <a name="related-articles"></a>Artículos relacionados
 
