@@ -23,19 +23,19 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: Obtenga información sobre operadores automáticos y colas de llamadas y cómo usarlos para ayudar a los autores de llamadas a desplazarse por un sistema de menús para ponerse en contacto con personas o departamentos de su organización.
-ms.openlocfilehash: 76755e722abdcde6673baac42681697165921aca
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+description: Obtenga información sobre operadores automáticos y colas de llamadas, y cómo usarlos para ayudar a los autores de llamadas a desplazarse por un sistema de menús para ponerse en contacto con personas o departamentos de su organización.
+ms.openlocfilehash: e811586a42c113960d61f51cd30ce824646d3b7c
+ms.sourcegitcommit: a867e2cc94adb96eba5e989a4d7ba5fe7a427939
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059281"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65611916"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear Teams operadores automáticos y colas de llamadas
 
-Los operadores automáticos le permiten configurar opciones de menú para enrutar llamadas en función de la entrada del autor de la llamada. Opciones de menú, como "Para Ventas, presione 1.  Para Servicios, presione 2", para un operador automático, permita que una organización proporcione una serie de opciones que guían a los autores de llamadas a su destino rápidamente, sin necesidad de que un operador humano controle las llamadas entrantes.
+Los operadores automáticos le permiten configurar opciones de menú para enrutar llamadas en función de la entrada del autor de la llamada. Las opciones de menú de un operador automático (como "Para ventas, presione 1)Para Servicios, presione 2", permiten que una organización proporcione una serie de opciones que guían a los autores de llamadas a su destino rápidamente, sin necesidad de que un operador humano controle las llamadas entrantes.
 
-Las colas de llamadas son áreas de espera para los autores de llamadas. En situaciones en las que los autores de llamadas necesitan ponerse en contacto con alguien con una especialidad en particular , como ventas o servicio, en lugar de con una persona específica, puede usar colas de llamadas para conectar a los autores de llamadas con el grupo de agentes que pueden ayudarle. Los autores de llamadas se ponen en espera hasta que un agente asignado a la cola esté disponible para realizar su llamada.
+Las colas de llamadas son áreas de espera para los autores de llamadas. Para las situaciones en las que los autores de llamadas necesitan ponerse en contacto con alguien con una especialidad determinada (como ventas o servicio) en lugar de con una persona específica, puede usar colas de llamadas para conectar los autores de llamadas con el grupo de agentes que pueden ayudarle. Los autores de llamadas se ponen en espera hasta que un agente asignado a la cola esté disponible para realizar su llamada.
 
 Si se usan de forma conjunta, los operadores automáticos y las colas de llamadas pueden redirigir fácilmente los autores de llamadas a la persona o el departamento adecuados de su organización.
 
@@ -70,8 +70,8 @@ Puede asignar un número de teléfono a una cola de llamadas, pero las colas de 
 Para configurar operadores automáticos y colas de llamadas, necesita los siguientes recursos:
 
 - Una cuenta de recursos para cada operador automático y cada cola de llamadas
-- Un sistema de Teléfono Microsoft gratuito: licencia de usuario virtual para cada cuenta de recursos
-- Al menos un [número de servicio de Microsoft](getting-service-phone-numbers.md), Conexión con operador número, número de enrutamiento directo o un número híbrido para cada cuenta de recursos a la que desea que se pueda marcar directamente
+- Un sistema de Teléfono Microsoft gratuito: licencia de usuario virtual para cada cuenta de recursos a la que se podrá marcar directamente desde Teams usuarios o números de teléfono externos
+- Al menos un [número de servicio de Microsoft](getting-service-phone-numbers.md), Conexión con operador número, número de enrutamiento directo o un número híbrido para cada cuenta de recursos a la que quiera que se pueda marcar directamente desde números de teléfono externos
  - El número de servicio puede ser un número de pago o gratuito
 
 > [!NOTE]
@@ -84,11 +84,21 @@ Los agentes que reciben llamadas de las colas de llamadas deben estar Telefonía
 
 Si los agentes usan la aplicación Microsoft Teams para las llamadas de la cola de llamadas, deben estar en el modo TeamsOnly.
 
-Al usar una cuenta de recursos para fines de id. de línea de llamadas en colas de llamadas o cuando un operador automático o una cola de llamadas transfiere llamadas a un número de teléfono externo, la cuenta del recurso debe tener una licencia de usuario virtual Sistema telefónico y una de las siguientes asignadas:
+Al usar una cuenta de recursos para fines de id. de línea de llamadas en colas de llamadas, la cuenta de recursos debe tener una licencia de usuario virtual Sistema telefónico y una de las siguientes opciones asignadas:
 
 - Una licencia [del plan de llamadas](calling-plans-for-office-365.md) y un número de teléfono asignados
 - Un número de teléfono [Conexión con operador](operator-connect-plan.md) asignado
 - Una [directiva de enrutamiento de voz en línea](manage-voice-routing-policies.md) (la asignación de números de teléfono es opcional al usar enrutamiento directo)
+
+Cuando un operador automático o una cola de llamadas transfiere llamadas a un número externo, cuentas de recursos específicas como se describe a continuación deben tener una licencia de usuario virtual Sistema telefónico y una de las siguientes asignadas:
+
+- Una licencia [del plan de llamadas](calling-plans-for-office-365.md) y un número de teléfono asignados
+- Un número de teléfono [Conexión con operador](operator-connect-plan.md) asignado
+- Una [directiva de enrutamiento de voz en línea](manage-voice-routing-policies.md) (la asignación de números de teléfono es opcional al usar enrutamiento directo)
+
+Qué cuenta de recursos licenciar:
+- Licenciar la cuenta de recursos en el primer operador automático que recibe la llamada cuando ese operador automático se transfiere a otros operadores automáticos o colas de llamadas que transfieren llamadas externamente
+- En todos los demás escenarios de llamadas, licenciar la cuenta de recursos del operador automático o de la cola de llamadas que realiza la transferencia externa
 
 > [!NOTE]
 > Si se deshabilita o se quita el plan de llamadas asignado a la cuenta de recursos, se consumirán [créditos de comunicaciones](what-are-communications-credits.md), si están disponibles en el inquilino (sin asignarse a la cuenta de recursos). Si no hay ningún plan de llamadas o créditos de comunicaciones, la llamada no se realizará correctamente.
