@@ -16,73 +16,84 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre cómo usar y administrar directivas de llamadas de emergencia en Microsoft Teams para definir lo que sucede cuando un usuario Teams de su organización realiza una llamada de emergencia.
+description: Aprenda a usar y administrar las directivas de llamadas de emergencia en Microsoft Teams para definir lo que ocurre cuando un usuario de Teams de su organización realiza una llamada de emergencia.
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 1d4bfe0305939e287c262848dd25665898ba79a6
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 66ff287911a22de8b65ed356cd07833a2bbbb0ca
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605456"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624104"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Administrar directivas de llamadas de emergencia en Microsoft Teams
 
-Si su organización usa planes de llamadas de Microsoft, Operador Conectar o Enrutamiento directo como opción de conectividad [RTC,](pstn-connectivity.md)puede usar directivas de llamadas de emergencia en Microsoft Teams para definir lo que sucede cuando un usuario de Teams de su organización realiza una llamada de emergencia.
+Si su organización usa los planes de llamadas de Microsoft, Conexión con operador o enrutamiento directo como [opción de conectividad con RTC](pstn-connectivity.md), puede usar directivas de llamadas de emergencia en Microsoft Teams para definir lo que ocurre cuando un usuario de Teams de su organización realiza una llamada de emergencia.
 
-Puede establecer a quién notificar y cómo se les notifica cuando un usuario al que se le asigna la directiva llama a los servicios de emergencia. Por ejemplo, puede configurar la configuración de directiva para notificar automáticamente al servicio de seguridad de su organización y hacer que escuche las llamadas de emergencia.  
+Puede establecer a quién notificar y cómo se notifica cuando un usuario al que se le asigna la directiva llama a los servicios de emergencia. Por ejemplo, puede configurar la configuración de directivas para notificar automáticamente al departamento de seguridad de su organización y pedirles que escuchen llamadas de emergencia.  
 
-Para administrar las directivas de llamadas de emergencia, vaya a Directivas de emergencia de voz en el centro Microsoft Teams de administración o mediante  >   Windows PowerShell. Las directivas se pueden asignar a usuarios y sitios [de red.](cloud-voice-network-settings.md)
+Para administrar las directivas de llamadas de emergencia, vaya a **Directivas de emergencia de Voice** >  **en el** centro de administración de Microsoft Teams o mediante Windows PowerShell. Las directivas se pueden asignar a usuarios y [sitios de red](cloud-voice-network-settings.md).
 
-Para los usuarios, puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas. Los usuarios recibirán automáticamente la directiva global a menos que cree y asigne una directiva personalizada. Tenga en cuenta que puede editar la configuración de la directiva global, pero no puede cambiar el nombre ni eliminarlo. Para los sitios de red, cree y asigne directivas personalizadas.
+Para los usuarios, puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas. Los usuarios recibirán automáticamente la directiva global a menos que cree y asigne una directiva personalizada. Tenga en cuenta que puede editar la configuración de la directiva global, pero no puede cambiarle el nombre ni eliminarla. Para los sitios de red, puede crear y asignar directivas personalizadas.
 
-Si asignó una directiva de llamadas de emergencia a un sitio de red y a un usuario y si ese usuario se encuentra en ese sitio de red, la directiva asignada al sitio de red reemplaza la directiva asignada al usuario.
+Si asignó una directiva de llamadas de emergencia a un sitio de red y a un usuario y si ese usuario se encuentra en ese sitio de red, la directiva que se asigna al sitio de red reemplaza la directiva asignada al usuario.
 
 ## <a name="create-a-custom-emergency-calling-policy"></a>Crear una directiva de llamadas de emergencia personalizada
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Directivas de emergencia de voz y, a continuación, haga  >  clic en la pestaña **Directivas de** llamadas.
+1. En el panel de navegación izquierdo del Microsoft Teams centro de administración, vaya a **Directivas de emergencia de Voice** >  **y, a** continuación, haga clic en la pestaña **Directivas de llamada**.
 2. Haga clic en **Agregar**.
 3. Escriba un nombre y una descripción para la directiva.
-4. Establezca cómo quiere notificar a los usuarios de su organización, normalmente el escritorio de seguridad, cuando se realiza una llamada de emergencia. Para ello, en **Modo de notificación,** seleccione una de las siguientes opciones:
-    - **Enviar solo notificación:** se envía un Teams de chat a los usuarios y grupos que especifique.
-    - **Conferencia en** silenciada y no se puede activar: se envía un mensaje de chat de Teams a los usuarios y grupos que especifique y pueden escuchar (pero no participar) en la conversación entre el autor de la llamada y el operador psap.
-    - **Conferencia en** silenciada pero que puede activar: se envía un mensaje de chat de Teams a los usuarios y grupos que especifique y que pueden activar para escuchar y participar en la conversación entre el autor de la llamada y el operador de PSAP.
-5.  Si seleccionó cualquiera  de los modos conferencia  en modo de notificación silenciada, en el cuadro Números para marcar para las notificaciones de llamadas de emergencia, puede escribir un número de teléfono RTC de un usuario o grupo para llamar y unirse a la llamada de emergencia. Por ejemplo, escriba el número del servicio de seguridad de su organización, que recibirá una llamada cuando se haga una llamada de emergencia y, a continuación, podrá escuchar la llamada. El teléfono RTC no se puede desmutar incluso cuando el modo está establecido en Conferencia en silenciado, pero pueden **desenmuteer**.
-6. Busque y seleccione uno o varios usuarios o grupos, como el escritorio de seguridad de su organización, para notificar cuando se realiza una llamada de emergencia.  La notificación se puede enviar a direcciones de correo electrónico de usuarios, grupos de distribución y grupos de seguridad. Se puede notificar un máximo de 50 usuarios.
-7. Haga clic en **Aplicar**.
+4. Establezca el **modo de búsqueda Ubicación externa** en activado para permitir que los usuarios finales configuren su dirección de emergencia cuando trabajan desde una ubicación de red fuera de la red corporativa.
+5. Establezca cómo desea notificar a los usuarios de su organización, normalmente el departamento de seguridad, cuando se realiza una llamada de emergencia. Para ello, en **Modo de notificación**, selecciona una de las siguientes opciones:
+    - **Enviar solo notificación**: se envía un mensaje de chat Teams a los usuarios y grupos que especifique.
+    - **Conferencia en modo silenciado y no se puede reactivar el audio**: se envía un mensaje de chat de Teams a los usuarios y grupos que especifique y que pueden escuchar (pero no participar) en la conversación entre el autor de la llamada y el operador PSAP.
+    - **Conferencia en silenciada pero puede reactivar el audio**: se envía un mensaje de chat de Teams a los usuarios y grupos que especifique y pueden reactivar el audio para escuchar y participar en la conversación entre el autor de la llamada y el operador PSAP.
+5.  Establezca la **declinación de responsabilidades del servicio de emergencia** para mostrar un banner que recuerde a los usuarios finales que confirmen su ubicación de emergencia.
+6.  Si ha seleccionado cualquiera de las **conferencias en modos de notificación silenciados** , en el cuadro **Números para marcar para notificaciones de llamadas de emergencia** , puede introducir un número de teléfono RTC de un usuario o grupo para llamar y unirse a la llamada de emergencia. Por ejemplo, escriba el número del departamento de seguridad de su organización, que recibirá una llamada cuando se realice una llamada de emergencia y podrá escucharla. El teléfono RTC no se puede activar incluso cuando el modo se establece **en Conferencia en silenciado, pero puede reactivar el audio**.
+7. Busque y seleccione uno o más usuarios o grupos, como el departamento de seguridad de su organización, para notificar cuando se realiza una llamada de emergencia.  La notificación se puede enviar a direcciones de correo electrónico de usuarios, grupos de distribución y grupos de seguridad. Se puede notificar a un máximo de 50 usuarios.
+8. Haga clic en **Aplicar**.
 
 ### <a name="using-powershell"></a>Con PowerShell
 
-Vea [New-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/new-csteamsemergencycallingpolicy).
+Consulte [New-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/new-csteamsemergencycallingpolicy).
 
 ## <a name="edit-an-emergency-calling-policy"></a>Editar una directiva de llamadas de emergencia
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
-Puede editar la directiva global o las directivas personalizadas que cree.
+Puede editar la directiva global o cualquier directiva personalizada que cree.
 
-1. En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Directivas de emergencia de voz y, a continuación, haga  >  clic en la pestaña **Directivas de** llamadas.
+1. En el panel de navegación izquierdo del Microsoft Teams centro de administración, vaya a **Directivas de emergencia de Voice** >  **y, a** continuación, haga clic en la pestaña **Directivas de llamada**.
 2. Haga clic a la izquierda del nombre de la directiva para seleccionarla y, luego, en **Editar**.
 3. Realice los cambios que desee y, a continuación, haga clic en **Aplicar**.
 
 ### <a name="using-powershell"></a>Con PowerShell
 
-Vea [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy).
+Consulte [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy).
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-users"></a>Asignar una directiva de llamadas de emergencia personalizada a los usuarios
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Vea también [Grant-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/grant-csteamsemergencycallingpolicy).
+Consulte también [Grant-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/grant-csteamsemergencycallingpolicy).
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-a-network-site"></a>Asignar una directiva de llamadas de emergencia personalizada a un sitio de red
 
+### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
+
+Puede asignar la directiva global o cualquier directiva personalizada que cree.
+
+1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Topología de LocationsNetwork** >  y haga clic en la pestaña **Sitios de red**.
+2. Seleccione el sitio haciendo clic a la izquierda del nombre y, a continuación, haga clic en **Editar**.
+3. En **Directiva de llamadas de emergencia**, seleccione la directiva y, a continuación, haga clic en **Guardar**.
+
+### <a name="using-powershell"></a>Con PowerShell
 Use el cmdlet [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) para asignar una directiva de llamadas de emergencia a un sitio de red.
 
-En el ejemplo siguiente se muestra cómo asignar una directiva denominada Directiva de llamadas de emergencia contoso 1 al sitio de Sitio1.
+En el ejemplo siguiente se muestra cómo asignar una directiva denominada Directiva de llamadas de emergencia 1 de Contoso al sitio Site1.
 
 ```powershell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"

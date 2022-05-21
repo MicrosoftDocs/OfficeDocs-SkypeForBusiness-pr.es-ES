@@ -3,7 +3,7 @@ title: Cambiar el idioma predeterminado en los saludos y los correos electrónic
 author: dstrome
 ms.author: dstrome
 manager: serdars
-ms.reviewer: wasseemh
+ms.reviewer: jenstr
 ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
@@ -22,61 +22,78 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: Obtenga información sobre cómo configurar Microsoft Teams y Skype Empresarial usar otro idioma para el saludo predeterminado del correo de voz de su organización.
-ms.openlocfilehash: 4c509edf6efa2fe660a59772f3266e6d49be8d31
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: Obtenga información sobre cómo configurar Microsoft Teams y Skype Empresarial usar otro idioma para el saludo de correo de voz predeterminado de su organización.
+ms.openlocfilehash: 5e486e94470fd6303d132fdaa9c23b0ca6f65b98
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014424"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624094"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Cambiar el idioma predeterminado en los saludos y los correos electrónicos
 
-Si es un administrador [global,](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)puede configurar Skype Empresarial para reproducir el saludo predeterminado del correo de voz en otro idioma. El saludo predeterminado del sistema es similar a: "Deje un mensaje para John Smith. Grabe su mensaje después del tono. Cuando termine la grabación, cuelgue o presione la tecla almohadilla para tener acceso a otras opciones".
-  
- **Primero, lea esta información importante:**
-  
-- **Los idiomas disponibles dependen de la ubicación de su organización**. Por ejemplo, si su organización está en Estados Unidos, puede definir su idioma predeterminado como inglés o español. Si su organización está ubicada en Canadá, puede elegir entre inglés y francés. Para obtener una lista de los idiomas admitidos en Teams y Skype Empresarial, vea lo siguiente:
-  - [Microsoft Teams idiomas admitidos](languages-for-voicemail-greetings-and-messages.md)
-  - [Skype Empresarial idiomas admitidos](/skypeforbusiness/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages)
+Correo de voz en la nube usa varias configuraciones de idioma para reproducir saludos, generar traducciones de transcripción y generar mensajes de correo de voz. La configuración de idioma se puede especificar de forma predeterminada en el nivel de inquilino, por directiva o de forma individual en un usuario determinado.
 
-- **Cambiar los idiomas de los mensajes de correo de voz y de correo de voz de cada usuario.** Puede cambiar el idioma preferido para los usuarios, lo que cambiará el idioma de sus mensajes de correo de voz y saludo de correo de voz enviados a su buzón Outlook correo de voz. Para obtener más información, vea [Cómo establecer la](/office365/troubleshoot/access-management/set-language-and-region)configuración de idioma y región para Microsoft 365 o Office 365 .
+## <a name="greetings"></a>Saludos
+Los saludos se reproducen al autor de la llamada que sale del correo de voz y puede ser de los siguientes tipos:
 
-  > [!NOTE]
-  > Los usuarios pueden cambiar el idioma del saludo mediante su configuración después de iniciar sesión. Para obtener más información, vea Cambiar el idioma de visualización y la zona [horaria en Microsoft 365 para empresas](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
-  
-- **¿Desea grabar el mensaje del correo de voz saliente?** Consulte [Comprobar el correo de voz y las opciones de Skype Empresarial](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Por Microsoft Teams: los usuarios pueden cambiar la configuración del correo de voz desde la [Teams del cliente de escritorio](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- Saludos del sistema
+- Saludos personalizados grabados por el usuario al que se llama
+- Saludo de texto a voz personalizado especificado en el usuario al que se llama
 
-- **¿Desea cambiar el idioma del mensaje de voz?** Para Skype Empresarial - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) y elija un nuevo idioma en Idioma **rápido.** Por Microsoft Teams: los usuarios pueden cambiar el saludo del correo de voz desde la [Teams de cliente de escritorio](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+El idioma usado para reproducir el saludo del sistema es, en orden de prioridad, el idioma de mensaje principal y secundario especificado en la directiva de correo de voz en línea asignada al usuario, el idioma preferido especificado para el usuario o el idioma del inquilino predeterminado.
+
+El saludo personalizado y de fuera de la oficina lo graba el usuario en el idioma elegido por el usuario.
+
+Si el usuario o el Administrador de inquilinos especifican saludos personalizados de texto a voz, el idioma que se usa para generar la voz es el símbolo del sistema especificado junto con los saludos de texto a voz.
+
+Los saludos personalizados de texto a voz solo se usan si no se graban saludos personalizados para el usuario.
+
+## <a name="transcription"></a>Transcripción
+Si la directiva de correo de voz en línea habilita al usuario al que se llama, Correo de voz en la nube intentará transcribir el correo de voz que dejó el autor de la llamada. Utilizará la detección de voz para comprender el idioma usado en el contenido de audio y, si es posible, transcribir el contenido con el idioma detectado.
+
+## <a name="transcription-translation"></a>Traducción de transcripción
+Si la directiva de correo de voz en línea habilita al usuario al que se llama, Correo de voz en la nube traducirá el correo de voz transcribido. Se traducirá desde el idioma detectado durante la detección de voz a, en orden de prioridad, el idioma preferido especificado para el usuario o el idioma predeterminado del espacio empresarial.
+
+## <a name="voicemail-message-template"></a>Plantilla de mensaje de correo de voz
+Correo de voz en la nube generará el mensaje de correo de voz con una plantilla de idioma basada, en orden de prioridad, en el idioma preferido especificado para el usuario o en el idioma predeterminado del inquilino.
+
+## <a name="setting-the-preferred-language-for-a-user"></a>Establecer el idioma preferido para un usuario
+Puede establecer el idioma preferido para un usuario mediante PowerShell en Azure Active Directory o en la Active Directory local. Para obtener más información, vea [Cómo establecer la configuración de idioma y región para Microsoft 365 o Office 365](/office365/troubleshoot/access-management/set-language-and-region).
+
+Los usuarios pueden cambiar su propio idioma preferido a través de su configuración después de iniciar sesión. Para obtener más información, vea [Cambiar el idioma y la zona horaria de la interfaz](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US) de Microsoft 365 empresarial.
 
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Cambiar el idioma del sistema para todos los usuarios de la organización
 
-1. Inicie sesión con su cuenta [de administrador global](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
+1. Inicia sesión con tu cuenta [de administrador global](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
 
-2. En el Centro de administración de Microsoft 365, elija **Configuración**  >  **Configuración**  >  **de organización.**
-
-     ![Captura de pantalla que muestra Configuración y, a continuación, perfil de organización.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
-  
-3. Elija **Edit**.
-
-    ![Captura de pantalla que muestra la opción Editar.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
-  
+2. En el Centro de administración de Microsoft 365, elige **Configuración** >  **SordenaciónorgOrganización** >  **perfil**.
+3. Elija **Información de la organización**.
 4. Seleccione un idioma en la lista **Idioma preferido** para todos los usuarios de la organización.
-
 5. Elija **Guardar**.
 
-## <a name="related-articles-for-the-admin"></a>Artículos relacionados para el administrador
+**Los idiomas disponibles dependen de la ubicación de su organización**. Por ejemplo, si su organización está en Estados Unidos, puede definir su idioma predeterminado como inglés o español. Si su organización está ubicada en Canadá, puede elegir entre inglés y francés.
 
-- [Sistema telefónico y Planes de llamada](calling-plan-landing-page.md)
+## <a name="supported-languages-in-cloud-voicemail"></a>Idiomas admitidos en Correo de voz en la nube
+Para obtener una lista de los idiomas admitidos en Correo de voz en la nube para Microsoft Teams y Skype Empresarial, consulte [Correo de voz en la nube idiomas admitidos](languages-for-voicemail-greetings-and-messages.md).
+  
 
-- [Configurar planes de llamadas](set-up-calling-plans.md)
+## <a name="custom-greeting-recorded-by-a-user"></a>Saludo personalizado grabado por un usuario
+Los usuarios pueden grabar su propio saludo personalizado y de fuera de la oficina. Consulte [Teams configuración de cliente de escritorio](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) y [Comprobar Skype Empresarial correo de voz y opciones](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
 
-- [Planear Sistema telefónico en Microsoft 365 o Office 365 con conectividad RTC local en Skype Empresarial Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+## <a name="custom-text-to-speech-greeting-specified-for-a-user"></a>Saludo de texto a voz personalizado especificado para un usuario
+El Administrador de inquilinos puede especificar el saludo de texto a voz personalizado y el idioma del mensaje para un usuario mediante el cmdlet [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings).
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="custom-text-to-speech-greeting-specified-by-a-user"></a>Saludo de texto a voz personalizado especificado por un usuario
+Los usuarios pueden especificar sus propios saludos personalizados de texto a voz y el idioma que se usa para el saludo. Para Microsoft Teams: los usuarios pueden cambiar el saludo del correo de voz desde la [configuración del cliente de escritorio de Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f). Por Skype Empresarial [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) y elige un nuevo idioma en **Idioma de aviso**. 
 
-- [Cambiar el idioma de visualización y la zona horaria en Microsoft 365 o Office 365 para empresas](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
 
-- [Agregar un idioma o establecer preferencias de idioma en Office 2010 y versiones posteriores](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
+## <a name="related-articles"></a>Artículos relacionados
 
-- [Habilitar o cambiar el idioma de distribución del teclado](https://support.office.com/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
+[Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings)
+
+[Get-CsOnlineVoicemailUserSettings](/powershell/module/skype/get-csonlinevoicemailusersettings)
+
+[Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
+
+[Get-CsOnlineVoicemailPolicy](/powershell/module/skype/get-csonlinevoicemailpolicy)

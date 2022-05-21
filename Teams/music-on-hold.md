@@ -15,18 +15,18 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Obtenga información sobre cómo administrar la característica Música en espera en Sistema telefónico.
-ms.openlocfilehash: 3e3e9c12eb459fdf52506be4577dfea88943ffa7
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 4899ffd2a3b6bfda80164ca2df4a5460a2b005e2
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922661"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624241"
 ---
 # <a name="music-on-hold"></a>Música en espera
 
 Cuando un usuario Microsoft Teams pone una llamada entrante en espera, el autor de la llamada puede escuchar la música seleccionada.
 
-La música que se reproduce es la música predeterminada proporcionada por Microsoft o la música personalizada que cargues y configures. Como administrador de inquilinos, puede configurar si Música en espera está disponible creando una directiva de llamadas de Teams y asignando la directiva al usuario de Teams.
+La música que se reproduce es la música predeterminada proporcionada por Microsoft o la música personalizada que cargues y configures. Como Administrador de inquilinos, puede configurar si Música en espera está disponible creando una directiva de llamada de Teams y asignando la directiva al usuario de Teams.
 
 La música predeterminada suministrada en Microsoft Teams escenarios de llamadas está libre de las regalías que su organización debe pagar.
 
@@ -69,7 +69,7 @@ Para ver los formatos de audio admitidos y el tamaño máximo de archivo, consul
 
 La configuración de Música personalizadas en espera comienza con la carga del archivo de audio. Para este propósito, se usa el cmdlet de PowerShell [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile) .
 
-A continuación se muestra un ejemplo de carga de un archivo de audio MP3 con la interfaz de PowerShell:
+A continuación se muestra un ejemplo de carga de un archivo de audio MP3 con Windows PowerShell 5.1. Para ver otros ejemplos, consulte [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile).
 
 ```PowerShell
 C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
@@ -132,6 +132,10 @@ La tabla siguiente indica qué características admiten los clientes y dispositi
 
 - [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
+- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
+
+- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)
+
 - [Get-CsOnlineAudioFile](/powershell/module/skype/get-csonlineaudiofile)
 
 - [Remove-CsOnlineAudioFile](/powershell/module/skype/remove-csonlineaudiofile)
@@ -144,6 +148,3 @@ La tabla siguiente indica qué características admiten los clientes y dispositi
 
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
 
-- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
-
-- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)

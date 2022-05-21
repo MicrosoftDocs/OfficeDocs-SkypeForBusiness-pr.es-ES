@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Obtenga información sobre las llamadas de emergencia, incluida información sobre las direcciones de emergencia, el enrutamiento de llamadas de emergencia y las llamadas de emergencia dinámicas.
-ms.openlocfilehash: f059f55281df2925511b85941fefbb675d781852
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 2806499e81b524168944e6cca2e9a6acb4d0b6a7
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125455"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624134"
 ---
 # <a name="manage-emergency-calling"></a>Administrar las llamadas de emergencia
 
@@ -148,7 +148,7 @@ En las siguientes secciones se describe cómo administrar las llamadas de emerge
 
 Cada usuario Conexión con operador se habilita automáticamente para las llamadas de emergencia. Las llamadas de emergencia se redirigen automáticamente al Conexión con operador operador para un número determinado.
 
-La posibilidad de que un administrador de inquilinos establezca la dirección registrada de un usuario Conexión con operador dependerá de las capacidades asignadas al número cuando el operador las cargue en un inventario de clientes. En función de esta configuración, el administrador de inquilinos puede o no ser requeridoo&mdash; puede&mdash; establecer, modificar o eliminar la ubicación de emergencia de un usuario. 
+La posibilidad de que un administrador de inquilinos establezca la dirección registrada de un usuario Conexión con operador dependerá de las capacidades asignadas al número cuando el operador las cargue en un inventario de clientes. En función de esta configuración, el Administrador de inquilinos puede o no ser obligatorio o puede ser capaz&mdash;&mdash; de establecer, modificar o eliminar la ubicación de emergencia de un usuario. 
 
 ### <a name="dynamic-emergency-calling-for-operator-connect"></a>Llamadas de emergencia dinámicas para Conexión con operador
 
@@ -275,9 +275,6 @@ Durante una llamada de emergencia, se conferencia un escritorio de seguridad en 
 ### <a name="custom-emergency-disclaimer"></a>Declinación de responsabilidades de emergencia personalizada
 
 Los administradores pueden agregar un banner personalizado en el inquilino para que sus usuarios habiliten E911. Los usuarios pueden descartar el banner cuando confirmen su dirección y el mensaje emergente volverá a aparecer cuando se reinicie Teams. Para habilitar esta característica, establezca la **declinación de responsabilidades del servicio de emergencia** en la directiva de llamadas de emergencia de Teams y escriba un mensaje de cadena que se mostrará a los usuarios. Este campo es opcional al configurar una directiva personalizada y el campo de cadena está limitado a 250 caracteres.
-
-> [!NOTE]
-> Actualmente, esto se puede configurar mediante PowerShell con la directiva EnhancedEmergencyServicesDisclaimer. En el futuro, esto también se podrá configurar en el centro de administración de Teams.
 
     
 ## <a name="related-topics"></a>Temas relacionados
