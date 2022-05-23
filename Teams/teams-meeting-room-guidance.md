@@ -1,8 +1,8 @@
 ---
 title: Guía de salas de reuniones para Teams
-author: amandafrechinjackson
-ms.author: v-amandaf
-manager: jsarrasin
+author: dstrome
+ms.author: dstrome
+manager: serdars
 ms.date: 2/2/2022
 ms.topic: conceptual
 audience: ITPro
@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91356e6716836b78115f6e6a3e19fffd3f521aa5
-ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
+ms.openlocfilehash: 3345cdecbb6b55f1b5dc83693a1caee5b1a6e77f
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65598353"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635378"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Guía de salas de reuniones para Teams
 

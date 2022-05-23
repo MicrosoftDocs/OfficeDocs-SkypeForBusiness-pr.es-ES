@@ -1,7 +1,7 @@
 ---
 title: Fomentar la adopción de Kaizala a Microsoft Teams para los trabajadores de primera línea
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: ed0221576b42c01de7a8c3d93188a94af2f74317
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: e531ab60379bc1aadc0601ff4191c9c1c936934d
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059291"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635388"
 ---
 # <a name="microsoft-teams-for-frontline"></a>Microsoft Teams para frontline
 

@@ -1,7 +1,7 @@
 ---
 title: Kaizala y Microsoft Teams
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: a0760e95f1b91cc12320142fd666c5e837da623d
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: a81aac5cb0a23ad8cadfa988bf4f28e72df0c6f9
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059321"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635358"
 ---
 # <a name="kaizala-and-microsoft-teams"></a>Kaizala y Microsoft Teams 
 

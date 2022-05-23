@@ -1,7 +1,7 @@
 ---
 title: Crear un gráfico de la Kaizala para Teams viaje
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 246e6e66c27e2779a808c1ff81ae4f40088b9c58
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 913d8991678a4da384d9208378e359cec016f1b8
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059348"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635408"
 ---
 # <a name="charting-your-kaizala-to-teams-journey"></a>Crear un gráfico de la Kaizala para Teams viaje
 
