@@ -1,9 +1,9 @@
 ---
 title: Aprobaciones de disponibilidad de aplicaciones en Teams
-author: guptaashish
-ms.author: guptaashish
+author: mkbond007
+ms.author: mabond
 ms.reviewer: farhazk
-manager: prkosh
+manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 205f0869e699384c9a37590db50e690b5b8bd804
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: f31df258558e052e887a679321dd6ed2db48f344
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65186986"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646259"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 
@@ -99,7 +99,7 @@ Permisos de plantilla de aprobación
 
 - Todos los propietarios de equipos pueden crear una plantilla de aprobación para los equipos de los que son propietarios.
 
-- Cuando un administrador crea una plantilla para toda la organización por primera vez, creará automáticamente un nuevo grupo de Azure Active Directory (AAD) para todos los administradores del inquilino, incluidos los administradores globales y de servicios de Teams. Estos administradores se agregan como propietarios del grupo, por lo que pueden coadministrar plantillas organizativas. Los administradores que son nuevos en la organización después de crear el equipo deben agregarse manualmente como propietarios del grupo para que tengan los mismos permisos para administrar las plantillas de toda la organización.
+- Cuando un administrador crea una plantilla para toda la organización por primera vez, se crea automáticamente un nuevo grupo de Azure Active Directory (AAD) para todos los administradores del inquilino, incluidos los administradores globales y de servicios de Teams. Estos administradores se agregan como propietarios del grupo, por lo que pueden coadministrar plantillas organizativas. Los administradores que son nuevos en la organización después de crear el equipo deben agregarse manualmente como propietarios del grupo para que tengan los mismos permisos para administrar las plantillas de toda la organización.
 
 > [!Note]
 > Si un administrador elimina el grupo, dispone de un mes para restaurarlo en el portal de Azure Active Directory (AAD) para restaurar todos los datos relacionados. Después de un mes, o si el administrador elimina este grupo dentro de la Papelera de reciclaje, perderá todos los datos relacionados.
@@ -114,7 +114,7 @@ La aplicación Aprobaciones está disponible de forma predeterminada. Puede desh
 
   3. Busque la aplicación Aprobaciones.
 
-     ![muestra la navegación del Centro de administración con Teams Aplicaciones > Administrar aplicaciones resaltado.](media/manage-approval-apps.png)
+     ![muestra la navegación del Centro de Administración con Teams Aplicaciones > Administrar aplicaciones resaltado.](media/manage-approval-apps.png)
 
   4. Seleccione **Aprobaciones**.
 

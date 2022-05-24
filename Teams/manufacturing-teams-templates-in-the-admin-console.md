@@ -1,8 +1,8 @@
 ---
-title: Introducción a las plantillas de equipo de fabricación en el Centro de administración
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+title: Comenzar con la fabricación de plantillas de equipo en el centro de administración
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre cómo usar plantillas de equipo para crear estructuras de equipo diseñadas para las necesidades de fabricación proporcionando configuraciones predefinidas, canales y aplicaciones preinstaladas con el Centro de administración.
+description: Aprenda a usar plantillas de equipo para crear estructuras de equipo diseñadas para necesidades de fabricación proporcionando opciones de configuración predefinidas, canales y aplicaciones preinstaladas con el Centro de administración.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18fbc93923177c97b4c2d395d10e62311d05d567
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: cd2f7329e293d8b3b20747382686599d18d47bea
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400104"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646329"
 ---
-# <a name="use-manufacturing-team-templates-in-the-admin-center"></a>Usar plantillas de equipo de fabricación en el Centro de administración
+# <a name="use-manufacturing-team-templates-in-the-admin-center"></a>Usar plantillas de equipo de fabricación en el centro de administración
 
 Las plantillas de equipo le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
 
@@ -36,11 +36,11 @@ En este artículo, presentamos cada una de las plantillas de equipo y le recomen
 
 Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda la organización de fabricación. Ya ha implementado el servicio de Teams en su organización. Si todavía no ha implementado Teams, empiece por leer [Cómo implementar Microsoft Teams](./deploy-overview.md).
 
-Para obtener más información sobre las plantillas de equipo en general, consulte Introducción [a las plantillas de equipo](get-started-with-teams-templates-in-the-admin-console.md).
+Para obtener más información sobre las plantillas de equipo en general, consulte [Comenzar con plantillas de equipo](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="quality-and-safety"></a>Calidad y seguridad
 
-Centralice la comunicación, el acceso a recursos y las operaciones de planta con un equipo de la Planta de fabricación. Incluya documentos de directiva y procedimiento, vídeos de aprendizaje, avisos de seguridad, procesos de entrega de turnos.
+Centralice la comunicación, el acceso a los recursos y las operaciones de la planta con un equipo de fábrica. Incluya documentos de directivas y procedimientos, vídeos de aprendizaje, avisos de seguridad, procesos de transferencia de turnos.
 
 | Tipo de plantilla base|baseTemplateId| Propiedades que vienen con esta plantilla base |
 | ------------------|-- |----------------------------------------------------- |

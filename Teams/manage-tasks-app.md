@@ -1,8 +1,8 @@
 ---
 title: Administrar la aplicación Tasks para su organización en Microsoft Teams
-author: guptaashish
-ms.author: guptaashish
-manager: prkosh
+author: mkbond007
+ms.author: mabond
+manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 051ea9a68cda344cf10bc297c84b3cbda6e61437
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: cff25b181af1f5280834080bb2308c9ab9bbc8b0
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65186996"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646399"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Tasks para su organización en Microsoft Teams
 

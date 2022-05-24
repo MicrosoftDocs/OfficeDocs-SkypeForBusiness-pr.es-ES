@@ -1,7 +1,7 @@
 ---
-title: Transmitir Teams reuniones
-author: KarliStites
-ms.author: kastites
+title: Hacer streaming Teams reuniones
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.reviewer: suchakr
 ms.topic: article
@@ -18,41 +18,41 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
-description: Obtenga información sobre cómo configurar y administrar el streaming para sus Teams reuniones.
-ms.openlocfilehash: d5cc83e1ea75d1c28ea4c30bac7cdabc4e60143d
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+description: Obtenga información sobre cómo configurar y administrar el streaming para sus reuniones de Teams.
+ms.openlocfilehash: 352a0c2e7a0584640e466b5e46456906e4912d00
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127554"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646349"
 ---
-# <a name="stream-teams-meetings"></a>Transmitir Teams reuniones
+# <a name="stream-teams-meetings"></a>Hacer streaming Teams reuniones
 
-Este artículo le ayudará a configurar el streaming para Teams reuniones.
+Este artículo le ayudará a configurar el streaming para las reuniones de Teams.
 
 ## <a name="what-is-streaming-and-how-does-it-work"></a>¿Qué es el streaming y cómo funciona?
 
-El streaming permite a su organización expandir su alcance y ofrece a los asistentes a la reunión más opciones de reunión. Al habilitar el streaming, los organizadores pueden transmitir reuniones y seminarios web a puntos de conexión externos proporcionando una dirección URL del Protocolo de mensajería de Real-Time (RTMP) y una clave para la aplicación de streaming personalizada integrada en Teams.
+El streaming permite a su organización ampliar su alcance y ofrece a los asistentes a la reunión más opciones de reunión. Al habilitar la transmisión por secuencias, los organizadores pueden hacer streaming de reuniones y seminarios web a puntos de conexión externos proporcionando una dirección URL de protocolo de mensajería Real-Time (RTMP) y una clave para la aplicación de streaming personalizado integrada en Teams.
 
 > [!NOTE]
 > No puede transmitir eventos en directo.
 
 ## <a name="set-up-streaming-with-powershell"></a>Configurar el streaming con PowerShell
 
-Puede configurar su organización para el streaming con PowerShell. Actualmente, esta directiva no está disponible en el centro Teams administración. La directiva por usuario se usa para especificar **quién** puede habilitar la transmisión en directo. Está desactivado por defecto.
+Puede configurar su organización para el streaming con PowerShell. Actualmente, esta directiva no está disponible en el centro de administración de Teams. La directiva por usuario se usa para especificar **quién** puede habilitar el streaming en directo. Está desactivado por defecto.
 
-Puede usar el siguiente atributo dentro del cmdlet **Set-CsTeamsMeetingPolicy Windows PowerShell set-CsTeamsMeetingPolicy** para configurar la transmisión por secuencias. Para obtener más información sobre el cmdlet, vea [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
+Puede usar el siguiente atributo en el cmdlet de Windows PowerShell **Set-CsTeamsMeetingPolicy** para configurar el streaming. Para obtener más información sobre el cmdlet, vea [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 - LiveStreamingMode
 
-Establezca **LiveStreamingMode** en **Habilitado** para activar las capacidades de streaming para uno o varios usuarios.
+Establezca **LiveStreamingMode** en **Habilitado** para activar las capacidades de streaming para uno o más usuarios.
 
 > [!IMPORTANT]
-> Debe activar el registro de la reunión para que los organizadores puedan transmitir seminarios web. Para obtener más información, vea [Configurar seminarios web.](set-up-webinars.md)
+> Tiene que activar el registro de reuniones para que los organizadores puedan hacer streaming de seminarios web. Para obtener más información, vea [Configurar seminarios web](set-up-webinars.md).
 
 ### <a name="assign-the-policy"></a>Asignar la directiva
 
-Para obtener más información sobre cómo asignar directivas con PowerShell, vea Asignar [directivas en Teams](policy-assignment-overview.md).
+Para obtener más información sobre cómo asignar directivas con PowerShell, vea [Asignar directivas en Teams](policy-assignment-overview.md).
 
 ## <a name="related-topics"></a>Temas relacionados
 

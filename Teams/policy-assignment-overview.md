@@ -1,7 +1,7 @@
 ---
 title: Asignar directivas en Teams
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.reviewer: tomkau, saragava, ritikag, jastark
 ms.topic: article
@@ -18,12 +18,12 @@ description: Obtenga información sobre las diferentes formas de asignar directi
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 48d0e771f50379c548cc801d4f6a3c38bcc81f5e
-ms.sourcegitcommit: 9968ef7d58c526e35cb58174db3535fd6b2bd1db
+ms.openlocfilehash: c618653199a41bc358f4b2a14bdf1c0e8923d9b7
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "65284095"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646419"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Asignar directivas en Teams: introducción
 

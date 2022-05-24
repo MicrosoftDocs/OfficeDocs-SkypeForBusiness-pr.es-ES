@@ -1,14 +1,14 @@
 ---
-title: Crear una plantilla nueva a partir de una plantilla de equipo existente en Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+title: Crear una plantilla a partir de una plantilla de equipo existente en Microsoft Teams
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 ms.reviewer: aaglick
-manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Obtenga información sobre cómo usar una plantilla de equipo existente para crear una nueva plantilla de equipo en Microsoft Teams.
+description: Aprenda a usar una plantilla de equipo existente para crear una plantilla de equipo en Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,65 +16,65 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d53bb4562473c78b552ce8f96d1035a6ba2b34eb
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 6b4cfaf44dd1d81c4733d1432abd1f17240d1b38
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62396258"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646209"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>Crear una nueva plantilla de equipo a partir de una plantilla de equipo existente en Microsoft Teams
 
-**Las plantillas personalizadas aún no son compatibles con los clientes de EDU.**
+**Las plantillas personalizadas aún no son compatibles con los clientes educativos.**
 
-Microsoft Teams proporciona plantillas predefinidas que se pueden guardar y modificar para satisfacer sus necesidades organizativas específicas.
+Microsoft Teams proporciona plantillas predefinidas que se pueden guardar y modificar para satisfacer sus necesidades específicas de la organización.
 
 1. Inicie la sesión en el Centro de administración de Teams
 
-2. En el panel de navegación izquierdo, **expanda Teams** >  **Plantillas de equipo**.
+2. En el panel de navegación izquierdo, expanda **las plantillas Teams** >  **Team**.
 
-3. En la **sección Plantillas de** equipo, seleccione junto a una plantilla de equipo que desea duplicar para resaltarla.
+3. En la sección **Plantillas de** equipo, seleccione junto a una plantilla de equipo que quiera duplicar para resaltarla.
 
 4. Seleccione **Duplicar**.
 
 ![Imagen del cuadro de diálogo Plantillas de equipo con Agregar resaltado.](media/template-duplicate.png)
 
-(Como alternativa, puede seleccionar **Agregar** >  **Empiece con una plantilla existente** para abrir **Seleccionar la plantilla que se usará como punto de partida**).
+(Como alternativa, puedes seleccionar **Agregar** >  **Empezar con una plantilla existente** para abrir **Seleccione la plantilla para usarla como punto de partida**).
 
-![Imagen de la pantalla De inicio de plantillas de equipo con Inicio con una plantilla existente resaltada.](media/template-start-existing-template.png)
+![Imagen de la pantalla del punto de inicio de las plantillas de equipo con La opción Inicio con una plantilla existente resaltada.](media/template-start-existing-template.png)
 
-5. En la **pantalla Seleccionar la plantilla que se usará como punto de** partida, seleccione **Siguiente**.
+5. En la pantalla **Seleccionar la plantilla para usar como punto de partida** , seleccione **Siguiente**.
 
-    Se abrirá la plantilla duplicada y se anexará la palabra **Copiar** al nombre.
+    Se abrirá la plantilla duplicada y se anexa la palabra **Copiar** al nombre.
 
-6. Complete los siguientes campos y, a continuación, **seleccione Siguiente**:
+6. Complete los siguientes campos y, a continuación, seleccione **Siguiente**:
     - Nombre de plantilla
-    - Descripciones cortas y largas de la plantilla
+    - Descripciones breves y largas de las plantillas
     - Visibilidad de configuración regional  
 
-7. En la **sección canales, pestañas y aplicaciones** , modifique los canales y aplicaciones existentes que necesite su equipo.
+7. En la sección **canales, pestañas y aplicaciones** , modifique los canales y aplicaciones existentes que necesite su equipo.
 
-    1. Seleccione un canal para editar y seleccione **Editar**.
-    2. **Aplique** los cambios cuando termine.
+    1. Seleccione el canal que quiera editar y haga clic en **Editar**.
+    2. **Cuando** termine, aplique los cambios.
 
 8. Agregue los canales o aplicaciones que necesite su equipo.
 
-    1. En la **sección Canales** , seleccione **Agregar**.
-    2. En el **cuadro de** diálogo Agregar, asigne un nombre al canal.
+    1. En la sección **Canales** , seleccione **Agregar**.
+    2. En el cuadro de diálogo **Agregar** , asigne un nombre al canal.
     3. Agregue una descripción.
     4. Decida si el canal debe mostrarse de forma predeterminada.
-    5. Busque el nombre de la aplicación que quiera agregar al canal.
-    6. Seleccione **Aplicar** cuando haya terminado.
+    5. Busque un nombre de aplicación que quiera agregar al canal.
+    6. Cuando termine, seleccione **Aplicar** .
 
-7. Selecciona **Enviar** cuando termines de agregar canales y aplicaciones.
+7. Selecciona **Enviar** cuando hayas terminado de agregar canales y aplicaciones.
 
     La nueva plantilla se guarda en la biblioteca de plantillas.
 
 > [!Note]
-> Los usuarios de equipos pueden tardar hasta 24 horas en ver una plantilla personalizada en la galería.
+> Los usuarios de teams pueden tardar hasta 24 horas en ver una plantilla personalizada en la galería.
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-- [Introducción a las plantillas de equipo en el Centro de administración](get-started-with-teams-templates-in-the-admin-console.md)
+- [Comenzar con plantillas de equipo en el centro de administración](get-started-with-teams-templates-in-the-admin-console.md)
 - [Crear una plantilla a partir de un equipo existente](create-template-from-existing-team.md)
 - [Crear una plantilla de equipo](create-a-team-template.md)
