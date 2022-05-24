@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-may-16-2022"></a>Semana del 16 de mayo de 2022
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 5/17/2022 | [Usar el complemento de reunión de Microsoft Teams en Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modificado |
+| 5/18/2022 | [Estacionamiento y recuperación de llamadas en Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modificado |
+| 5/18/2022 | [Citas virtuales con Teams - Integración en Epic EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modificado |
+| 5/19/2022 | [Conectores de Turnos](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connectors) | modificado |
+| 5/20/2022 | [Planear Teams operadores automáticos y colas de llamadas](/MicrosoftTeams/plan-auto-attendant-call-queue) | modificado |
+| 5/20/2022 | [Cambiar el idioma predeterminado en los saludos y los correos electrónicos](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | modificado |
+| 5/20/2022 | [Teams idiomas para los saludos y mensajes del correo de voz](/MicrosoftTeams/languages-for-voicemail-greetings-and-messages) | modificado |
+| 5/20/2022 | [Administrar directivas de enrutamiento de llamadas de emergencia para enrutamiento directo](/MicrosoftTeams/manage-emergency-call-routing-policies) | modificado |
+| 5/20/2022 | [Administrar directivas de llamadas de emergencia en Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | modificado |
+| 5/20/2022 | [Microsoft Teams notas de la versión de PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
+
+
 ## <a name="week-of-may-09-2022"></a>Semana del 09 de mayo de 2022
 
 
@@ -17,7 +34,7 @@
 | 5/10/2022 | [compatibilidad con la versión de la aplicación Salas de Microsoft Teams](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modificado |
 | 5/12/2022 | [Administrar directivas de correo de voz](/MicrosoftTeams/manage-voicemail-policies) | modificado |
 | 5/12/2022 | [Configurar puerta de enlace SIP](/MicrosoftTeams/sip-gateway-configure) | modificado |
-| 5/12/2022 | [Configuración de administrador de padres en Teams para Educación](/MicrosoftTeams/edu-parents-app) | modificado |
+| 5/12/2022 | [Administración configuración de Padres en Teams para Educación](/MicrosoftTeams/edu-parents-app) | modificado |
 | 5/13/2022 | [Aplicación Walkie Talkie en Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modificado |
 | 5/13/2022 | [Requisitos de las Salas de Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
 
@@ -29,7 +46,7 @@
 |------|------------|--------|
 | 5/2/2022 | [Microsoft Teams informe de uso de RTC](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modificado |
 | 5/3/2022 | [Aprobaciones de disponibilidad de aplicaciones en Teams](/MicrosoftTeams/approval-admin) | modificado |
-| 5/3/2022 | [Configuración de administrador de padres en Teams para Educación](/MicrosoftTeams/edu-parents-app) | modificado |
+| 5/3/2022 | [Administración configuración de Padres en Teams para Educación](/MicrosoftTeams/edu-parents-app) | modificado |
 | 5/3/2022 | [Administrar la aplicación Turnos para su organización](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modificado |
 | 5/3/2022 | [Administrar la aplicación Tasks para su organización en Microsoft Teams](/MicrosoftTeams/manage-tasks-app) | modificado |
 | 5/3/2022 | [Aplicación Walkie Talkie en Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modificado |
@@ -87,28 +104,3 @@
 | 4/29/2022 | [Administrar las aplicaciones en el centro de administración de Microsoft Teams](/MicrosoftTeams/manage-apps) | modificado |
 | 4/29/2022 | [Administrar paquetes de directivas en Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modificado |
 | 4/29/2022 | [Información general sobre la certificación de aplicaciones por parte de Microsoft](/MicrosoftTeams/overview-of-app-certification) | modificado |
-
-
-## <a name="week-of-april-18-2022"></a>Semana del 18 de abril de 2022
-
-
-| Fecha de publicación |Título del tema | Cambio |
-|------|------------|--------|
-| 4/18/2022 | [Información general sobre la certificación de aplicaciones por parte de Microsoft](/MicrosoftTeams/overview-of-app-certification) | modificado |
-| 4/18/2022 | Planear los grupos de Microsoft 365 cuando se crean equipos | eliminado |
-| 4/18/2022 | [Administrar directivas de configuración de aplicación en Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
-| 4/19/2022 | [Música en espera](/MicrosoftTeams/music-on-hold) | modificado |
-| 4/19/2022 | [Teams comportamiento de las aplicaciones en función de los tipos de usuarios](/MicrosoftTeams/non-standard-users) | modificado |
-| 4/19/2022 | [Información general sobre seguridad y cumplimiento](/MicrosoftTeams/security-compliance-overview) | modificado |
-| 4/20/2022 | [Audioconferencia directivas de números gratuitos](/MicrosoftTeams/audio-conferencing-toll-free-numbers-policy) | agregado |
-| 4/20/2022 | [Cambiar los números de teléfono en Audioconferencia puente](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | modificado |
-| 4/20/2022 | [Deshabilitar los números gratuitos para usuarios específicos de Teams](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) | modificado |
-| 4/20/2022 | [Administrar la configuración de Audioconferencia](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | modificado |
-| 4/20/2022 | [Establecer los números de teléfono incluidos en las invitaciones](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | modificado |
-| 4/20/2022 | [Configurar audioconferencias en Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | modificado |
-| 4/21/2022 | Microsoft StaffHub se ha retirado | eliminado |
-| 4/21/2022 | Configurar la administración para aplicaciones en Microsoft Teams | eliminado |
-| 4/21/2022 | [Administrar las aplicaciones en el centro de administración de Microsoft Teams](/MicrosoftTeams/manage-apps) | modificado |
-| 4/21/2022 | [Realizar una investigación de exhibición de documentos electrónicos del contenido](/MicrosoftTeams/ediscovery-investigation) | modificado |
-| 4/22/2022 | [Kaizala y Microsoft Teams](/MicrosoftTeams/get-started-kaizala-teams) | modificado |
-| 4/22/2022 | [Navegar por Microsoft Teams](/MicrosoftTeams/navigate-teams) | modificado |
