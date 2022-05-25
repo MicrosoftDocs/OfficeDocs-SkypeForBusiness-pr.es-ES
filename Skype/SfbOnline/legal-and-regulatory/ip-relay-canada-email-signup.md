@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: Cómo suspirar por una cuenta de retransmisión IP para Canadá.
-ms.openlocfilehash: d062ec96a35d01fc5986af24a2bc52adf8138440
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Cómo supirar por una cuenta de IP Relay para Canadá.
+ms.openlocfilehash: 63b4bf27d12a11200ed6dc4601d7116089013a40
+ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620552"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65671696"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>Retransmisión IP en Canadá: registrarse
 
@@ -32,36 +32,33 @@ ms.locfileid: "58620552"
 
 Para configurar una cuenta de retransmisión IP para Canadá, complete la información que se indica a continuación y envíela por correo electrónico a [ptn@microsoft.com](mailto:ptn@microsoft.com).
 
-- Nombre & apellido:
+- Nombre & apellidos:
 
-- Microsoft 365 o Office 365 nombre de dominio de la organización:(Ejemplo: Contoso.com)   
+- Microsoft 365 o Office 365 nombre de dominio de la organización:(Ejemplo: Contoso.com)
 
-- Microsoft 365 o Office 365 de teléfono del usuario:(Ejemplo: +1 XXX XXX XXXX)
+- Microsoft 365 o Office 365 Número de teléfono de usuario:(Ejemplo: +1 XXX XXX XXXX)
 
-- Contraseña (de 8 a 16 caracteres):    
+- Contraseña (de 8 a 16 caracteres):
 
-- La dirección física más probable en el momento de una emergencia: 
+- La dirección física más probable en el momento de una emergencia:
 
-- Nombre & calle: 
+- Número de calle & Nombre:
 
-- Apartamento/suite:    
+- Apartamento / Suite:
 
-- Ciudad: 
+- Ciudad:
 
-- Provincia/Estado: 
+- Provincia/Estado:
 
-- Código postal o código postal:   
+- Código postal/ código postal:
 
-- Teléfono Número: 
+- Teléfono número:
 
-- Microsoft 365 o Office 365 de correo electrónico:
+- Microsoft 365 o Office 365 dirección de correo electrónico:
 
 > [!NOTE]
-> La dirección de correo electrónico anterior recibirá los mensajes que le quedan si no está conectado cuando alguien le llame a través de retransmisión IP. 
+> La dirección de correo electrónico anterior recibirá los mensajes que le quedarán si no está conectado cuando alguien le llame a través de IP Relay. 
 
-Una vez que su cuenta esté lista (en un plazo de 24 horas laborables), le devolveremos el nombre de usuario y la contraseña. 
+Una vez que su cuenta esté lista (en un plazo de 24 horas laborables), le enviaremos un correo electrónico con el Nombre de usuario y la Contraseña. 
 
-
-A continuación, consulte la Guía de usuario [de Retransmisión IP](ip-relay-canada-user-guide.md) en Canadá para empezar. 
-
-
+A continuación, consulte [ip relay in Canada - guía de usuario](ip-relay-canada-user-guide.md) para empezar. 

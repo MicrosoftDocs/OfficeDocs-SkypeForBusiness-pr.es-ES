@@ -1,5 +1,5 @@
 ---
-title: Configurar la base de datos de ubicación en Skype Empresarial Server
+title: Configuración de la base de datos de ubicación en Skype Empresarial Server
 ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: Configure, rellene y publique la base de datos de ubicación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
-ms.openlocfilehash: 5ebace7eabe0db04f06611bc9c11263021733367
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Configure, rellene y publique la base de datos de ubicación E9-1-1 en Skype Empresarial Server Telefonía IP empresarial.
+ms.openlocfilehash: fc7f53e1b62ec23e8075a9eac0d1158ee0143a5b
+ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400724"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65671566"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar la base de datos de ubicación en Skype Empresarial Server
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configuración de la base de datos de ubicación en Skype Empresarial Server
  
-Configure, rellene y publique la base de datos de ubicación de E9-1-1 en Skype Empresarial Server Telefonía IP empresarial. 
+Configure, rellene y publique la base de datos de ubicación E9-1-1 en Skype Empresarial Server Telefonía IP empresarial. 
   
 Para habilitar clientes de modo que detecten automáticamente su ubicación dentro de una red, primero tiene que configurar la base de datos de ubicaciones. 
   
@@ -47,12 +47,12 @@ Puede agregar direcciones a la base de datos de ubicaciones una a una, pero tamb
   
 Si utiliza una puerta de enlace de Número de identificación de ubicación de emergencia (ELIN), incluya el ELIN en el campo **CompanyName** de cada ubicación. Puede incluir varios ELIN para cada ubicación, separándolos por un punto y coma.
   
-|**Elemento de red**|**Columnas obligatorias**|
+|**Elemento Network**|**Columnas obligatorias**|
 |:-----|:-----|
-|**Punto de acceso inalámbrico** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**Subred** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**Puerto** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**Switch** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Punto de acceso inalámbrico** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ...\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Subred** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ...\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Puerto** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,...  <br/> ...\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Switch** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ...\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>Para agregar elementos de red a la base de datos de ubicaciones
 
@@ -116,11 +116,11 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
    $g | Set-CsLisPort
    ```
 
-## <a name="validate-addresses"></a>Validar direcciones
+## <a name="validate-addresses"></a>Validación de direcciones
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>Para validar direcciones ubicadas en la base de datos de ubicaciones
 
-1.  Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
+1.  Inicie el shell de administración de Skype Empresarial Server: haga clic en **Inicio**, todos **los programas**, **Skype Empresarial 2015** y, a continuación, haga clic en **Skype Empresarial Server Shell de administración**.
     
 2. Para configurar la conexión de proveedor de servicios de emergencia, ejecute los siguientes cmdlets.
     
@@ -137,15 +137,15 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
 
    También puede usar el cmdlet **Test-CsLisCivicAddress** para validar direcciones individuales.
     
-## <a name="publish-the-location-database"></a>Publicar la base de datos de ubicación
+## <a name="publish-the-location-database"></a>Publicación de la base de datos de ubicación
 
 Las nuevas ubicaciones agregadas a la base de datos de ubicaciones no estarán disponibles para el cliente mientras no se hayan publicado.
   
-Si usa puertas de enlace de número de identificación de ubicación de emergencia (ELIN), cargue también los ELIN en la base de datos de identificación de ubicación automática (ALI) del proveedor de la red telefónica conmutada (RTC). Probablemente el proveedor de RTC le solicite que use un formato específico para los registros de ELIN. Póngase en contacto con el proveedor de RTC para más información. Puede exportar los registros desde la base de datos del servicio de información de ubicación y dar formato según sea necesario.
+Si usa puertas de enlace de número de identificación de ubicación de emergencia (ELIN), cargue también los ELIN en la base de datos de identificación de ubicación automática (ALI) del proveedor de la red telefónica conmutada (RTC). Probablemente el proveedor de RTC le solicite que use un formato específico para los registros de ELIN. Póngase en contacto con el proveedor de RTC para más información. Puede exportar los registros de la base de datos del servicio de información de ubicación y darles formato según sea necesario.
   
 ### <a name="to-publish-the-location-database"></a>Para publicar la base de datos de ubicaciones
 
--  Inicie el Shell Skype Empresarial Server administración: haga clic en **Inicio, todos** los **programas,** **Skype Empresarial 2015** y, a continuación, haga clic **en Skype Empresarial Server Shell de administración**.
+-  Inicie el shell de administración de Skype Empresarial Server: haga clic en **Inicio**, todos **los programas**, **Skype Empresarial 2015** y, a continuación, haga clic en **Skype Empresarial Server Shell de administración**.
     
 - Ejecute el cmdlet siguiente para publicar la base de datos de ubicaciones.
     

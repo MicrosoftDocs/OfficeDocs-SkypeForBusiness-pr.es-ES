@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: b63adbf126936bf7a4fcf004ab18338351b09565
-ms.sourcegitcommit: 4b0bd129af9cd487123ef6a5dc19ace0ec5a6c41
+ms.openlocfilehash: 43e408defc9f1202cb31d6d46cccbc8df7704254
+ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65406396"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65671786"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams dispositivos Android certificados
 
@@ -45,9 +45,11 @@ Los siguientes dispositivos están certificados en el programa de certificación
 
 |Modelo de dispositivo    | Versión de firmware    | Fecha de finalización de la certificación actual | versión del sistema operativo Android                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| AudioCodes C450HD                      | `1.17.443`                                                  |    5 de agosto de 2023              | 9 |
+| AudioCodes C448HD (solo modo Cap)       |  `1.17.443`                                                   | 5 de agosto de 2023            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | 3 de septiembre de 2025     | 11 |
-| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 22 de abril de 2022               | 7.1x |
-| AudioCodes C448HD (solo modo Cap)       | `C450HD_TEAMS_0.225`                                                  | 22 de abril de 2022               | 7.1x |
+| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 22 de abril de 2022               | 7.1.x |
+| AudioCodes C448HD (solo modo Cap)       | `C450HD_TEAMS_0.225`                                                  | 22 de abril de 2022               | 7.1.x |
 | Crestron UC-P10/T/CT                   | `1.0.0.80`       | 5 de agosto de 2023            | 9 |
 | Crestron UC-P8/T /CT                   | `1.0.0.56`       | 5 de agosto de 2023            | 9 |
 | Códigos de audio C470HD                      | `1.8.293   `                                               | 5 de agosto de 2023               | 9 |
@@ -115,7 +117,7 @@ Las siguientes son las últimas versiones de firmware y aplicación Teams teléf
 
 #### <a name="app-versions"></a>Versiones de aplicaciones
 
-| Lanzamiento del producto | Fecha de lanzamiento  | Microsoft Teams versión de la aplicación | versión Portal de empresa | Versión del agente de administración |
+| Lanzamiento del producto | Fecha de lanzamiento  | Microsoft Teams versión de la aplicación | versión Portal de empresa | versión del agente de Administración |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
 | #2A de actualización de 2022  | 13 de abril de 2022   | `1449/1.0.94.2022041102` |`5.0.5304.0` | `322` |
 | Actualización n.º 2 de 2022   | 21 de marzo de 2022   | `1449/1.0.94.2022030501` |`5.0.5304.0` | `322` |
@@ -137,7 +139,7 @@ Las siguientes son las últimas versiones de firmware y aplicación Teams teléf
 
 #### <a name="firmware-versions"></a>Versiones de firmware
 
-Al instalar una nueva versión de firmware en el dispositivo, puedes determinar las versiones instaladas correspondientes de la aplicación de Microsoft Teams, Portal de empresa y el agente de administración. Busca la versión del producto en la columna **Versión del producto incluido** y, a continuación, busca la versión del producto en la tabla **anterior Versiones** de la aplicación.
+Al instalar una nueva versión de firmware en el dispositivo, puedes determinar las versiones instaladas correspondientes de la aplicación de Microsoft Teams, el Portal de empresa y el agente de Administración. Busca la versión del producto en la columna **Versión del producto incluido** y, a continuación, busca la versión del producto en la tabla **anterior Versiones** de la aplicación.
 
 | Modelo de dispositivo  | Versión de firmware  | Versión del producto incluida  |
 |:----------------|:--------------|:----------------------------|
@@ -227,7 +229,7 @@ Las siguientes son las últimas Salas de Teams en Android versiones de la aplica
 
 #### <a name="app-versions"></a>Versiones de aplicaciones
 
-| Lanzamiento del producto| Fecha de lanzamiento | Microsoft Teams versión de la aplicación | versión Portal de empresa | Versión del agente de administración |
+| Lanzamiento del producto| Fecha de lanzamiento | Microsoft Teams versión de la aplicación | versión Portal de empresa | versión del agente de Administración |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 | Actualización n.º 1 de 2022  | 24 de febrero de 2022 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | #2A de actualización de 2021 | 15 de julio de 2021  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
@@ -240,7 +242,7 @@ Las siguientes son las últimas Salas de Teams en Android versiones de la aplica
 
 #### <a name="firmware-versions"></a>Versiones de firmware
 
-Al instalar una nueva versión de firmware en el dispositivo, puedes determinar las versiones correspondientes de la aplicación de Microsoft Teams, Portal de empresa y el agente de administración, que se instalan al encontrar la versión del producto en la columna **Versión del producto incluida**. A continuación, busca la versión del producto en la tabla versiones de la **aplicación** anterior.
+Al instalar una nueva versión de firmware en el dispositivo, puedes determinar las versiones correspondientes de la aplicación de Microsoft Teams, Portal de empresa y el agente de Administración, que se instalan al buscar la versión del producto en la columna **Versión del producto incluida**. A continuación, busca la versión del producto en la tabla versiones de la **aplicación** anterior.
 
 | Modelo de dispositivo  | Versión de firmware | Versión del producto incluida |
 |:--------------|:-----------------|:-------------------------|
@@ -298,7 +300,7 @@ A continuación se muestran las últimas versiones de la aplicación Pantallas M
 
 #### <a name="app-versions"></a>Versiones de aplicaciones
 
-|Lanzamiento del producto| Fecha de lanzamiento | Microsoft Teams versión de la aplicación | versión Portal de empresa | Versión del agente de administración |
+|Lanzamiento del producto| Fecha de lanzamiento | Microsoft Teams versión de la aplicación | versión Portal de empresa | versión del agente de Administración |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |Actualización n.º 4 de 2021  |5 de enero de 2022 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`
 |Actualización n.º 3 de 2021  |8 de diciembre de 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
@@ -308,7 +310,7 @@ A continuación se muestran las últimas versiones de la aplicación Pantallas M
 
 #### <a name="firmware-versions"></a>Versiones de firmware
 
-Al instalar una nueva versión de firmware en el dispositivo, puedes determinar las versiones correspondientes de la aplicación de Microsoft Teams, Portal de empresa y el agente de administración, que se instalan al encontrar la versión del producto en la columna **Versión del producto incluida**. A continuación, busca la versión del producto en la tabla versiones de la **aplicación** anterior.
+Al instalar una nueva versión de firmware en el dispositivo, puedes determinar las versiones correspondientes de la aplicación de Microsoft Teams, Portal de empresa y el agente de Administración, que se instalan al buscar la versión del producto en la columna **Versión del producto incluida**. A continuación, busca la versión del producto en la tabla versiones de la **aplicación** anterior.
 
 | Modelo de dispositivo  | Versión de firmware | Versión del producto incluida|
 |:--------------|:-----------------|:-------------------------|
@@ -322,7 +324,7 @@ A continuación se muestran las últimas versiones de firmware y aplicación pan
 
 #### <a name="app-versions"></a>Versiones de aplicaciones
 
-|Lanzamiento del producto| Fecha de lanzamiento | Microsoft Teams versión de la aplicación | versión Portal de empresa | Versión del agente de administración |
+|Lanzamiento del producto| Fecha de lanzamiento | Microsoft Teams versión de la aplicación | versión Portal de empresa | versión del agente de Administración |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |Actualización n.º 2 de 2022  | 25 de abril de 2022 | `1449/1.0.97.2022733702` | `5.0.5304.0`  | `322` |
 |#1A de actualización de 2022 | 25 de febrero de 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
@@ -331,7 +333,7 @@ A continuación se muestran las últimas versiones de firmware y aplicación pan
 
 #### <a name="firmware-versions"></a>Versiones de firmware
 
-Al instalar una nueva versión de firmware en el dispositivo, puedes determinar las versiones correspondientes de la aplicación de Microsoft Teams, Portal de empresa y el agente de administración, que se instalan al encontrar la versión del producto en la columna **Versión del producto incluida**. A continuación, busca la versión del producto en la tabla versiones de la **aplicación** anterior.
+Al instalar una nueva versión de firmware en el dispositivo, puedes determinar las versiones correspondientes de la aplicación de Microsoft Teams, Portal de empresa y el agente de Administración, que se instalan al buscar la versión del producto en la columna **Versión del producto incluida**. A continuación, busca la versión del producto en la tabla versiones de la **aplicación** anterior.
 
 | Modelo de dispositivo  | Versión de firmware | Versión del producto incluida|
 |:--------------|:-----------------|:-------------------------|
