@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce8e702682ebcc4b05e94f077882d51f09aac0ff
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 5b85befa685458f5460ab21bb962af3f0df4f004
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624154"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681591"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -101,6 +101,9 @@ Puede implementar la aplicación de escritorio Teams para VDI mediante una insta
 Para una configuración persistente dedicada, funcionará tanto por equipo como por usuario. Sin embargo, para una configuración no persistente, Teams requiere una instalación por equipo para trabajar de forma eficaz. Consulte la sección [Configuración no persistente](#non-persistent-setup) .
 
 Con la instalación por equipo, se deshabilitan las actualizaciones automáticas. Esto significa que para actualizar la aplicación de Teams, debe desinstalar la versión actual para actualizar a una versión más reciente. Con la instalación por usuario, se habilitan las actualizaciones automáticas.
+
+> [!IMPORTANT]
+> Mantenga actualizada la aplicación de escritorio Teams en su entorno VDI. Teams no se admiten las versiones de la aplicación de escritorio con fechas de lanzamiento con más de 90 días de antigüedad que la [fecha de lanzamiento de la versión actual](/officeupdates/teams-app-versioning). Las versiones no admitidas de Teams aplicación de escritorio muestran una página de bloqueo a los usuarios y solicitan que actualicen su aplicación.
 
 Para la mayoría de las implementaciones de VDI, se recomienda implementar Teams mediante la instalación por equipo. Para actualizar a la última versión de Teams, comience con el procedimiento de desinstalación seguido de la implementación de la versión de Teams más reciente.
 
@@ -299,8 +302,8 @@ Para asignar una directiva a varios usuarios a la vez:
 O bien, también puede hacer lo siguiente:
 
 1. En el panel de navegación izquierdo del Teams centro de administración, vaya a la directiva que desea asignar. Por ejemplo:
-    - Vaya a las **directivas de VoiceCalling** >  y, a continuación, haga clic en **No permitir llamada**.
-    - Vaya a **Directivas meetingsMeeting** >  y, a continuación, haga clic en **AllOff**.
+    - Vaya a las **directivas de llamadas** de **voz** >  y, a continuación, haga clic en **No permitir llamadas**.
+    - Vaya a **Directivas** >  de **reunión de** reuniones y, a continuación, haga clic en **AllOff**.
 2. Seleccione **Administrar usuarios**.
 3. En el panel **Administrar usuarios**, busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 4. Cuando termine de agregar usuarios, haga clic en **Guardar**.
@@ -355,8 +358,8 @@ Para asignar una directiva a varios usuarios a la vez:
 O bien, también puede hacer lo siguiente:
 
 1. En el panel de navegación izquierdo del Teams centro de administración, vaya a la directiva que desea asignar. Por ejemplo:
-    - Vaya a las **directivas de VoiceCalling** >  y, a continuación, haga clic en **AllowCalling**.
-    - Vaya a **Directivas** >  de reunión **y, a** continuación, haga clic en **AllOn**.
+    - Vaya a directivas de **llamadas** de **voz** >  y, a continuación, haga clic en **AllowCalling**.
+    - Vaya a **Directivas** >  de **reunión de** reuniones y, a continuación, haga clic en **AllOn**.
 2. Seleccione **Administrar usuarios**.
 3. En el panel **Administrar usuarios**, busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 4. Cuando termine de agregar usuarios, haga clic en **Guardar**.

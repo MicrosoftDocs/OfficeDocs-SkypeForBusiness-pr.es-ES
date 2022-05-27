@@ -19,60 +19,60 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo para Teams usuarios para que los clientes y empresas externas puedan llamar.
-ms.openlocfilehash: 6341b6c3242eafad7039b210995ee7c56613442e
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo a los usuarios de Teams para que empresas y clientes externos puedan llamar.
+ms.openlocfilehash: dc616425b4dce35a2a40179e0ee4a56d31bae12b
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456913"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676492"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Asignar, cambiar o quitar un teléfono móvil de un usuario
 
-Al configurar planes de llamadas u Conectar operador, se asignan números de teléfono a los usuarios. En Microsoft Teams, el número de teléfono que asigna se muestra cuando un usuario hace clic en **Llamadas**. 
+Al configurar planes de llamadas o Conexión con operador, asigna números de teléfono a los usuarios. En Microsoft Teams, el número de teléfono que asigne aparece cuando un usuario hace clic en **Llamadas**.
 
-Este artículo se aplica a planes de llamadas y Conectar. Para obtener información sobre cómo asignar, cambiar o quitar un número de teléfono de un usuario en un escenario de enrutamiento directo, vea Habilitar usuarios para enrutamiento directo, voz y correo [de voz](./direct-routing-enable-users.md).
+Este artículo se aplica a los planes de llamadas y Conexión con operador. Para obtener información sobre cómo asignar, cambiar o quitar un número de teléfono a un usuario en un escenario de enrutamiento directo, vea [Habilitar usuarios para enrutamiento directo, voz y correo de voz](./direct-routing-enable-users.md).
 
-Antes de asignar un número para un plan de llamadas u operador Conectar usuario, debe obtener números para los usuarios. Para obtener más información, vea [Obtener números para usuarios del plan de](getting-phone-numbers-for-your-users.md) llamadas o Configurar números para usuarios Conectar [operadores](operator-connect-configure.md#set-up-phone-numbers).
-
-  
-> [!NOTE]
-> Una forma de ver si un usuario tiene una licencia asignada es yendo al centro de administración de Microsoft Teams de > **usuarios**. Si se asigna una licencia, se indicará en la página.  También puede usar el Centro de administración de Microsoft 365.
+Antes de asignar un número a un plan de llamadas o Conexión con operador usuario, debe obtener los números de los usuarios. Para obtener más información, vea [Obtener números para usuarios del plan de llamadas](getting-phone-numbers-for-your-users.md) o [Configurar números para usuarios de Conexión con operador](operator-connect-configure.md#set-up-phone-numbers).
 
 > [!NOTE]
-> Esta nota se aplica a los clientes que tienen una implementación híbrida con un Active Directory local. Si desea asignar un plan de llamadas u operador Conectar un número de teléfono Conectar un usuario o cuenta de recursos, debe asegurarse de que se ha quitado cualquier número de teléfono almacenado en el atributo msRTCSIP-Line en el objeto de cuenta de usuario o recurso en el Active Directory local y que el cambio se haya sincronizado a Microsoft 365.
-  
+> Una forma de ver si un usuario tiene asignada una licencia es ir al Centro de administración de Microsoft Teams > **Usuarios**. Si se asigna una licencia, se indicará en la página.  También puede usar el Centro de administración de Microsoft 365.
+
+> [!NOTE]
+> Esta nota se aplica a los clientes que tienen una implementación híbrida con una Active Directory local. Si desea asignar un plan de llamadas o Conexión con operador número de teléfono a una cuenta de usuario o recurso, debe asegurarse de que se ha quitado cualquier número de teléfono almacenado en el atributo msRTCSIP-Line en el objeto de cuenta de usuario o recurso de la Active Directory local y que el cambio se ha sincronizado con Microsoft 365.
+
 ## <a name="assign-a-phone-number-to-a-user"></a>Asignar un número de teléfono a un usuario
 
 Al asignar un número de teléfono a un usuario, asegúrese de que el número de teléfono y la ubicación de uso del usuario son del mismo país.
 
-Para asignar un número mediante el centro Teams administración:
-    
-1. En el panel de navegación izquierdo, haga **clic en Teléfono** >  números.
+Para asignar un número mediante el centro de administración de Teams:
 
-2. En la **Teléfono números**, seleccione un número sinsignado en la lista y, a continuación, haga clic en **Editar**.  
+1. En el panel de navegación izquierdo, haga clic en **Voz** >  **Teléfono números**.
 
-3. En el **panel Editar** , en **Asignado** a, busque al usuario por nombre para mostrar o nombre de usuario y, a continuación, haga clic en **Asignar**.
+2. En la página **Teléfono números**, seleccione un número sin asignar en la lista y, a continuación, haga clic en **Editar**.
+
+3. En el panel **Editar** , en **Asignado a**, busque el usuario por nombre para mostrar o nombre de usuario y, a continuación, haga clic en **Asignar**.
 
 4. Para asignar o cambiar la ubicación de emergencia asociada, en **Ubicación de emergencia**, busque y seleccione la ubicación.
 
    > [!NOTE]
-   > Si va a asignar números al operador Conectar usuarios, es posible que no pueda asignar o cambiar la ubicación de emergencia asociada. Esta funcionalidad dependerá del operador. Póngase en contacto con su operador para obtener más información.
+   > Si va a asignar números a Conexión con operador usuarios, es posible que pueda o no asignar o cambiar la ubicación de emergencia asociada. Esta funcionalidad dependerá de tu operador. Ponte en contacto con tu operador para obtener más información.
 
-5. Según si desea enviar un correo electrónico al usuario con su información de número de teléfono, desactive o active Usuario de correo electrónico **con información de número de teléfono**. De forma predeterminada, está en. 
-
+5. Dependiendo de si desea enviar un correo electrónico al usuario con su información de número de teléfono, desactive o active **El usuario de correo electrónico con información de número de teléfono**. De forma predeterminada, esta opción está activada.
 6. Haga clic en **Guardar**.
 
-Para asignar números mediante PowerShell, use el cmdlet [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) de la siguiente manera:
+Para asignar números mediante PowerShell, use el cmdlet [Set-CsPhoneNumberAssignment de](/powershell/module/teams/set-csphonenumberassignment) la siguiente manera:
 
-Para números de plan de llamadas
+Para los números del plan de llamadas:
+
 ```PowerShell
-Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType CallingPlan
+Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType CallingPlan
 ```
 
-Para Números de Conectar operadores
+Para Conexión con operador números:
+
 ```PowerShell
-Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
+Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
 Por ejemplo:
@@ -83,31 +83,30 @@ Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+1425555010
 ```
 
 > [!NOTE]
-> Debido a la latencia entre Microsoft 365 y Teams, los usuarios pueden tardar hasta 24 horas en habilitarse. Si el número de teléfono no se asigna correctamente después de 24 horas, vea [Teléfono Centro de servicio de números](https://pstnsd.powerappsportals.com/). 
+> Debido a la latencia entre Microsoft 365 y Teams, los usuarios pueden tardar hasta 24 horas en habilitarse. Si el número de teléfono no se asigna correctamente después de 24 horas, consulte [Teléfono Centro de servicio de números](https://pstnsd.powerappsportals.com/).
 
-  
-## <a name="change-a-phone-number-for-a-user"></a>Cambiar un número de teléfono para un usuario
+## <a name="change-a-phone-number-for-a-user"></a>Cambiar un número de teléfono de un usuario
 
-Para cambiar un número de teléfono para un usuario mediante el centro Teams administración:
-    
-1. En el panel de navegación izquierdo, haga clic en **Usuarios, busque** y haga doble clic en el usuario que desee, haga clic en Cuenta **y, a** continuación, en Información **general**, anote el número de teléfono asignado al usuario.
+Para cambiar un número de teléfono de un usuario mediante el centro de administración de Teams:
 
-2. En el panel de navegación izquierdo, haga **clic en Teléfono** >  números.
+1. En el panel de navegación izquierdo, haga clic en **Usuarios**, busque y haga doble clic en el usuario que desee, haga clic en **Cuenta** y, a continuación, en **Información general**, anote el número de teléfono asignado al usuario.
 
-3. En la **Teléfono números**, seleccione el número que identificó en el paso 1 y, a continuación, haga clic en **Editar**.  
+2. En el panel de navegación izquierdo, haga clic en **Números de Teléfono** **de voz**\>.
 
-4. En el **panel Editar** , en **Asignado a**, haga clic en la **X** para quitar al usuario.
+3. En la página **Teléfono números**, seleccione el número que identificó en el paso 1 y, a continuación, haga clic en **Editar**.
+
+4. En el panel **Editar** , en **Asignado a**, haga clic en la **X** para quitar el usuario.
 
 5. Haga clic en **Guardar**.
 
-6. En la **Teléfono números**, seleccione un número sinsignado en la lista y, a continuación, haga clic en **Editar**.  
+6. En la página **Teléfono números**, seleccione un número sin asignar en la lista y, a continuación, haga clic en **Editar**.
 
-7. En el **panel Editar** , en **Asignado** a, busque al usuario por nombre para mostrar o nombre de usuario y, a continuación, haga clic en **Asignar**.
+7. En el panel **Editar** , en **Asignado a**, busque el usuario por nombre para mostrar o nombre de usuario y, a continuación, haga clic en **Asignar**.
 
 8. Para asignar o cambiar la ubicación de emergencia asociada, en **Ubicación de emergencia**, busque y seleccione la ubicación.
 
       > [!NOTE]
-      > Si va a cambiar los números de operador Conectar usuarios, es posible que no pueda asignar o cambiar la ubicación de emergencia asociada. Esta funcionalidad dependerá del operador. Póngase en contacto con su operador para obtener más información.
+      > Si va a cambiar los números de Conexión con operador usuarios, es posible que pueda o no asignar o cambiar la ubicación de emergencia asociada. Esta funcionalidad dependerá de tu operador. Ponte en contacto con tu operador para obtener más información.
 
 9. Haga clic en **Guardar**.
 
@@ -115,19 +114,19 @@ Para obtener un ejemplo de PowerShell, vea [Set-CsPhoneNumberAssignment](/powers
 
 ## <a name="remove-a-phone-number-from-a-user"></a>Quitar un número de teléfono de un usuario
 
-Para quitar un número de teléfono mediante el centro Teams administración:
+Para quitar un número de teléfono mediante el centro de administración de Teams:
 
-1. En el panel de navegación izquierdo, haga clic en **Usuarios, busque** y haga doble clic en el usuario que desee, haga clic en Cuenta **y, a** continuación, en Información **general**, anote el número de teléfono asignado al usuario.
+1. En el panel de navegación izquierdo, haga clic en **Usuarios**, busque y haga doble clic en el usuario que desee, haga clic en **Cuenta** y, a continuación, en **Información general**, anote el número de teléfono asignado al usuario.
 
-2. En el panel de navegación izquierdo, haga **clic en Teléfono** >  números.
+2. En el panel de navegación izquierdo, haga clic en **Números de Teléfono** **de voz**\>.
 
-3. En la **Teléfono números**, seleccione el número que identificó en el paso 2 y, a continuación, haga clic en **Editar**.  
+3. En la página **Teléfono números**, seleccione el número que identificó en el paso 2 y, a continuación, haga clic en **Editar**.
 
-4. En el **panel Editar** , en **Asignado a**, haga clic en la **X** para quitar al usuario.
+4. En el panel **Editar** , en **Asignado a**, haga clic en la **X** para quitar el usuario.
 
 5. Haga clic en **Guardar**.
 
-Para obtener un ejemplo de PowerShell, vea [Quitar-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment).
+Para obtener un ejemplo de PowerShell, vea [Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment).
 
 ## <a name="related-topics"></a>Temas relacionados
 
@@ -142,4 +141,3 @@ Para obtener un ejemplo de PowerShell, vea [Quitar-CsPhoneNumberAssignment](/pow
 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
 
 [Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)
-

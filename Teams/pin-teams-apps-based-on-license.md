@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: b59753e1ad1e5a0be36ed8a0d924d7fa6d6658a2
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187126"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675522"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>Adaptar las aplicaciones de Teams para los trabajadores de primera línea
 
@@ -55,7 +55,7 @@ Las aplicaciones se anclan a la barra de aplicaciones, que es la barra de la par
 
 :::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="La experiencia de aplicación frontline adaptada en Teams escritorio" lightbox="media/tailored-teams-apps-desktop.png"::: 
 
-## <a name="admin-controls"></a>Controles de administración
+## <a name="admin-controls"></a>controles de Administración
 
 > [!NOTE]
 > La configuración **anclaje de usuario** debe estar activada en la [directiva de configuración](teams-app-setup-policies.md) de aplicaciones global (predeterminada para toda la organización) para que esta característica surta efecto.
@@ -66,7 +66,7 @@ Tenga en cuenta que todas [las directivas de configuración de aplicaciones](tea
 
 Esta característica está activada de forma predeterminada. Sin embargo, si no desea la experiencia de aplicación de primera línea adaptada proporcionada por Microsoft, puede desactivar la característica. Para activar o desactivar la característica:
 
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Teams** **aplicacionesAdministrar aplicaciones** >  y, después, seleccione **Configuración de aplicaciones para toda** la organización.
+1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, ve a **Teams aplicaciones****Administrar aplicaciones** >  y, a continuación, selecciona **Configuración de aplicaciones para toda la organización**.
 2. En **Aplicaciones adaptadas**, cambia el botón de alternancia **Mostrar aplicaciones adaptadas** a **Desactivado** o **Activado**.
 
     :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Captura de pantalla de la configuración Mostrar aplicaciones adaptadas en la página Administrar aplicaciones del centro de administración de Teams" lightbox="media/tailored-teams-apps-admin-center.png":::

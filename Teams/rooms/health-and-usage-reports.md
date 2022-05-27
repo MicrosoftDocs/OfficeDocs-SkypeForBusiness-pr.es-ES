@@ -18,18 +18,17 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Creación de informes de datos de nodo para el mantenimiento y el uso de informes
 f1keywords: ''
-ms.openlocfilehash: 400da9dca104bb5ff743a8c032d3997bd282e25a
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: f3c8ceec383d801c5992b0e8275cfe5360ef5bfe
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64757160"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674822"
 ---
 # <a name="health-and-usage-reports"></a>Informes de mantenimiento y uso
 
-El nodo de informes contiene datos sobre el estado y el uso de los salones administrados de Microsoft y la información del servicio. **La pestaña 
+El nodo de informes contiene datos sobre el estado y el uso de los salones administrados de Microsoft y la información del servicio. La **información general** presenta las tendencias de estado de los salones para todos los inquilinos. La pestaña **Estado** muestra una lista de salones con sus datos de estado correspondientes. El uso de la sala en función de la información del calendario y los datos de calidad de la llamada está visible en la pestaña **Uso** .
 
-**Información general de** las superficies tendencias de estado de todos los inquilinos de sus salas. La pestaña **Estado** muestra una lista de salones con sus datos de estado correspondientes. El uso de la sala en función de la información del calendario y los datos de calidad de la llamada está visible en la pestaña **Uso** .
 ## <a name="navigating-reports"></a>Navegar por los informes
 
 <!--![A screenshot of active tickets bar graph](../media/health-and-usage-002new.png)-->
@@ -58,6 +57,7 @@ En el control flotante, es posible filtrar la lista de vales por la subcategorí
 Para volver, haga clic en la anillo o haga clic en la ruta de navegación de la parte superior izquierda.
 
 Para navegar a un vale específico en esta vista de lista, haga clic en el vínculo bajo el **colum del vale de soporte**.
+
 ### <a name="ticket-history"></a>Historial de entradas
 
 El gráfico del historial de incidencias muestra una comparación de los incidentes asignados a usted o a Microsoft durante el período de tiempo especificado.
@@ -66,17 +66,21 @@ El gráfico del historial de incidencias muestra una comparación de los inciden
 > Si un billete cambia de propietario en un día, quien posea la asignación la mayor parte del día tendrá el billete contado para ellos. Por ejemplo, si asignas el vale a Microsoft a primera hora del día, el vale cuenta como **Asignado a Microsoft** para el día.
 
 <!--![A screen shot of Tickets history by different periods](../media/health-and-usage-009.png)-->
+
 ### <a name="health-history"></a>Historial de salud
 
 Este gráfico muestra el estado medio (definición en la sección Mantenimiento) de todas las salas del inquilino, así como el estado medio de todos los clientes de MMR en función del día a día. Puede ver el estado medio durante un máximo de 90 días.
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
-### <a name="most-reliableleast-reliable-rooms"></a>Habitaciones más confiables y menos confiables:
+
+### <a name="most-reliableleast-reliable-rooms"></a>Habitaciones más confiables o menos confiables
 
 Dos tablas muestran los salones más confiables y menos confiables en función de la salud. Para obtener la vista de lista completa, seleccione Estado y, después, ordene la lista por la columna Estado.
 
-### <a name="rooms-history"></a>Historial de habitaciones: 
+### <a name="rooms-history"></a>Historial de salas
+
 Proporciona una vista histórica de los salones inscritos en el servicio y ofrece una visión comparativa de los salones que estaban sanos o no supervisados en el mismo período de tiempo.
+
 ## <a name="health"></a>Mantenimiento
 
 Para ir al informe de estado de todas las salas, seleccione Informes y, después, seleccione  **Estado**.
@@ -121,26 +125,27 @@ Los titulares proporcionan algunas perspectivas:
 - Número total de reuniones reservadas a través de intercambio
 - Porcentaje de reuniones reservadas que incluyeron un vínculo de Skype o Teams
 - Total de llamadas con participación en la sala
--   Puntuación agregada de rendimiento de llamadas de todas las llamadas clasificadas con "Buena" calidad para todas las llamadas. 
+- Puntuación agregada de rendimiento de llamadas de todas las llamadas clasificadas con "Buena" calidad para todas las llamadas. 
 
 Debajo de las métricas de títulos hay una tabla de salas con las métricas correspondientes. Seleccione una sala para ver más detalles de uso. Las métricas de la tabla se describen en la tabla siguiente.
 
-| Columna |  Descripción |
-|--------| -------------------|
-| Utilización   | Porcentaje de tiempo que la sala se reservó durante el horario laboral en el período seleccionado. Por ejemplo. Período de tiempo establecido en 7 días. Utilización del 80% sobre los medios que la sala se reservó durante 32/40 horas |
-| Reservado en línea |   De las reuniones reservadas, el porcentaje se ha habilitado con Teams. Por ejemplo. Se han reservado 10 reuniones. De ese número, 8 tenían un vínculo Teams. Reservado en línea = 80% |
-| Reuniones programadas | Número absoluto de reuniones programadas en la sala |
-| Total de llamadas | Número absoluto de llamadas con la sala como participante. |
-Rendimiento de llamadas |  Porcentaje de llamadas con una calificación "Buena". Cada llamada se evalúa y recibe una calificación Buena, Mala y Desconocida. Esta métrica se calcula a partir de Llamadas buenas/Llamadas totales. |
+|Columna|Descripción|
+|---|---|
+|Utilización|Porcentaje de tiempo que la sala se reservó durante el horario laboral en el período seleccionado. Por ejemplo. Período de tiempo establecido en 7 días. Utilización del 80% sobre los medios que la sala se reservó durante 32/40 horas|
+|Reservado en línea|De las reuniones reservadas, el porcentaje se ha habilitado con Teams. Por ejemplo. Se han reservado 10 reuniones. De ese número, 8 tenían un vínculo Teams. Reservado en línea = 80%|
+|Reuniones programadas|Número absoluto de reuniones programadas en la sala|
+|Total de llamadas|Número absoluto de llamadas con la sala como participante.|
+Rendimiento de llamadas|Porcentaje de llamadas con una calificación "Buena". Cada llamada se evalúa y recibe una calificación Buena, Mala y Desconocida. Esta métrica se calcula a partir de Llamadas buenas/Llamadas totales.|
 
 El uso se calcula al final de cada día a medianoche (00:00) hora local del dispositivo de la sala de reuniones. El uso se calcula en función del tiempo total reservado para la reunión de ese día dividido por 8 horas.
+
 ## <a name="usage-details-of-a-room"></a>Detalles de uso de una sala
- 
+
 Al hacer clic en una sala de la vista de lista, se muestra un control flotante con información más detallada. En la pestaña Utilización del control flotante hay un gráfico que muestra las horas de uso de los últimos cinco días laborables. Para cada día hay dos barras: azul representa la hora de reunión reservada; el color púrpura representa la hora programada de las reuniones habilitadas para Teams/Skype. En la parte inferior, se calculan el promedio de reservas de reuniones y la duración de los últimos cinco días laborables.
 
 <!--![A screenshot of utilization by hours per day](../media/health-and-usage-012.png)-->
 
-La tabla **Llamadas** muestra las reuniones en las que la sala ha participado en una llamada Teams. La Calidad de audio de la sala se evalúa solo para la sala, no para todos los participantes. Para ver la calidad de la llamada para todos los participantes de una llamada específica, seleccione una llamada haciendo clic en la Hora de inicio. 
+La tabla **Llamadas** muestra las reuniones en las que la sala ha participado en una llamada Teams. La Calidad de audio de la sala se evalúa solo para la sala, no para todos los participantes. Para ver la calidad de la llamada para todos los participantes de una llamada específica, seleccione una llamada haciendo clic en la Hora de inicio.
 
 <!--!![A screenshot of room audio quality](../media/health-and-usage-016.png)-->
 

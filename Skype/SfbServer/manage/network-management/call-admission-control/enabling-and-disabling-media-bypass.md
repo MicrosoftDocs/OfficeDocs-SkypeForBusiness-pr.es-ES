@@ -1,5 +1,5 @@
 ---
-title: Habilitar y deshabilitar la omisión de medios
+title: Habilitación y deshabilitación de la omisión de medios
 ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
@@ -10,32 +10,32 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Use los procedimientos de este artículo para habilitar o deshabilitar la omisión de medios mediante el panel de control Skype Empresarial Server medios.
-ms.openlocfilehash: d312e74c796b9e68558447c5a56fc199e8920d6a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Use los procedimientos de este artículo para habilitar o deshabilitar la omisión de medios mediante el Skype Empresarial Server Panel de control.
+ms.openlocfilehash: 38ec29c6e4b51a4c6898b13c4de0172f55947907
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62396492"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675342"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Habilitar y deshabilitar la omisión de medios en Skype Empresarial Server
 
-Use los procedimientos de este artículo para habilitar o deshabilitar la omisión de medios mediante el panel de control Skype Empresarial Server medios.
+Use los procedimientos de este artículo para habilitar o deshabilitar la omisión de medios mediante el Skype Empresarial Server Panel de control.
 
-## <a name="enable-network-media-bypass"></a>Habilitar la omisión de medios de red 
+## <a name="enable-network-media-bypass"></a>Habilitación de la omisión de medios de red 
 
-La configuración de omisión de medios se aplica globalmente a Skype Empresarial Server implementación. Con el desvío de medios, las llamadas pueden omitir el servidor de mediación. Para obtener más información sobre cuándo usar la omisión de medios, vea [Plan for media bypass](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
+La configuración de omisión de medios se aplica globalmente en una implementación de Skype Empresarial Server. Con el desvío de medios, las llamadas pueden omitir el servidor de mediación. Para obtener más información sobre cuándo usar la omisión de medios, consulte [Planear la omisión de medios](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
 
-Puede habilitar y configurar la omisión de medios desde Skype Empresarial Server Panel de control.
+Puede habilitar y configurar la omisión de medios desde el Skype Empresarial Server Panel de control.
 
 
 ### <a name="to-enable-and-configure-media-bypass"></a>Para habilitar y configurar el desvío de medios
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
+2.  Abra una ventana del explorador y escriba la dirección URL de Administración para abrir el Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en **Global**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de redy**, a continuación, haga clic en **Global**.
 
 4.  En la página **Global**, haga clic en la configuración **Global**. En todos los casos hay solo una configuración y siempre se llama Global.
 
@@ -58,18 +58,18 @@ Puede habilitar y configurar la omisión de medios desde Skype Empresarial Serve
 8.  Haga clic en **Confirmar** para guardar los cambios.
 
 
-## <a name="disable-network-media-bypass"></a>Deshabilitar la omisión de medios de red
+## <a name="disable-network-media-bypass"></a>Deshabilitación de la omisión de medios de red
 
-La configuración de omisión de medios se aplica globalmente a Skype Empresarial Server implementación. Con el desvío de medios, las llamadas pueden omitir el servidor de mediación. Para obtener más información sobre cuándo usar la omisión de medios, vea [Plan for media bypass](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). Puede deshabilitar la omisión de medios desde Skype Empresarial Server Panel de control. 
+La configuración de omisión de medios se aplica globalmente en una implementación de Skype Empresarial Server. Con el desvío de medios, las llamadas pueden omitir el servidor de mediación. Para obtener más información sobre cuándo usar la omisión de medios, consulte [Planear la omisión de medios](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). Puede deshabilitar la omisión de medios del Skype Empresarial Server Panel de control. 
 
 
 ### <a name="to-disable-media-bypass"></a>Para deshabilitar el desvío de medios
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo de su implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir Skype Empresarial Server Panel de control. 
+2.  Abra una ventana del explorador y escriba la dirección URL de Administración para abrir el Skype Empresarial Server Panel de control. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de** red y, a continuación, haga clic en **Global**.
+3.  En la barra de navegación izquierda, haga clic en **Configuración de redy**, a continuación, haga clic en **Global**.
 
 4.  En la página **Global**, haga clic en la configuración **Global**. En todos los casos hay solo una configuración y siempre se llama Global.
 

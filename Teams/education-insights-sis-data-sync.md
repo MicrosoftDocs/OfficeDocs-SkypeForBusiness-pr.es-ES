@@ -16,32 +16,33 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b22b66800e71f1cea90c31b7091eb98a99466e9f
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 25ab96f30aca6bee084a4bac7304ababe3a0660c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363026"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675882"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>Sincronizar datos del Sistema de información de estudiantes (SIS) con Insights para Educación
+
 Cuando más datos introduzca en [Insights para Educación](class-insights.md), mejor podrán los formadores ayudar a los alumnos y más fácil será para los líderes educativos ayudar a los formadores.
 
-Para emplear Insights a nivel de la organización, es necesario usar [School Data Sync (SDS)](/SchoolDataSync) para conectarse al Sistema de información de estudiantes (SIS) de modo que Insights tenga la estructura jerárquica del sistema educativo asignada correctamente. 
+Para emplear Insights a nivel de la organización, es necesario usar [School Data Sync (SDS)](/SchoolDataSync) para conectarse al Sistema de información de estudiantes (SIS) de modo que Insights tenga la estructura jerárquica del sistema educativo asignada correctamente.
 
 Para ver Insights a nivel de clase como formador de clase *no* necesita esta sincronización, ya que usamos los permisos y la estructura de clase de Teams.
 
 ## <a name="plan-your-school-data-sync-integration"></a>Planear la integración de School Data Sync
-Microsoft School Data Sync (o SDS) proporciona datos del Sistema de información escolar (o SIS) y su estructura jerárquica del sistema educativo y determina adónde se asigna un usuario particular. También ofrece datos adicionales sobre la jerarquía de alumnos y organizaciones.
+
+Microsoft School Data Sync (o SDS) proporciona datos del Sistema de información escolar (o SIS) y su estructura jerárquica del sistema educativo y determina qué usuarios se asignan a qué ubicación en particular. También ofrece datos adicionales sobre los alumnos y la jerarquía organizativa.
 
 Insights funciona mejor cuando se usa el [formato de archivo de SDS V2.1](/schooldatasync/sds-v2.1-csv-file-format), pero también es compatible con un [formato de archivo SDS V2](/schooldatasync/sds-v2-csv-file-format) y [formato de archivo SDS V1](/schooldatasync/school-data-sync-format-csv-files-for-sds) *con una funcionalidad limitada*.
-
 
 ### <a name="differences-between-sds-v1-and-v2-file-formats"></a>Diferencias entre los formatos de archivo SDS V1 y V2
 
 | Tipo de datos | V1 | V2 y V2.1 |
 |:--- |:--- |:--- |
-| **Usuarios** |Solo admite el rol de "formador", como resultado, los permisos de nivel de organización para los líderes educativos deben establecerse manualmente.|Admite varios roles para que se puedan establecer permisos basados en roles|
-| **Organizaciones** | Solo admite "escuelas", nivel de agregación.<br><br>Como resultado, no proporciona varios niveles de agregación y proporciona una capacidad limitada para comparar diferentes tipos de escuelas (por ejemplo, primaria frente a secundaria, ciencias frente a escuela de arte).|Admite jerarquías de varias capas, como distrito o institución, universidades, facultades, profesores, campus, regiones, programas, etc.<br><br>Permite varios niveles de agregación y comparar fácilmente entre unidades organizativas en cada nivel, asignar permisos a niveles específicos, establecer objetivos por nivel de organización, etc.|
+| **Usuarios** |Solo admite el rol de "formador" y, como resultado, los permisos de nivel de organización para los líderes educativos deben establecerse manualmente.|Admite varios roles para que se puedan establecer permisos basados en roles|
+| **Organizaciones** | Solo admite "centros educativos", nivel de grupo.<br><br>Como resultado, no proporciona varios niveles de grupo y proporciona una capacidad limitada para comparar diferentes tipos de escuelas (por ejemplo, primaria frente a secundaria, ciencias frente a escuela de arte).|Admite jerarquías de varias capas, como distrito o institución, universidades, facultades, profesores, campus, regiones, programas, etc.<br><br>Permite varios niveles de agregación y comparar fácilmente entre unidades organizativas en cada nivel, asignar permisos a niveles específicos, establecer objetivos por nivel de organización, etc.|
 | **Información opcional adicional** |Ninguna|**Solo formato de archivo V2.1**<br><br>*Sesiones académicas*: períodos de tiempo de sesiones (semestres, años académicos, etc.)<br><br>Datos demográficos y banderas de estudiantes*: datos como la raza,	etnia y género, así como programas especiales (IEP, 504)|
 
 > [!NOTE]
@@ -54,31 +55,33 @@ Una jerarquía con las asignaciones adecuadas y en la que todos los miembros per
 Cuantos más detalle proporcione, mejores y más relevantes serán los informes y los datos destacados.
 
 #### <a name="file-format-version-to-use-adn-data-to-sync"></a>Versión del formato de archivo que se va a usar y datos para sincronizar
-*   Use el formato de archivo V2.1 y sincronice los datos opcionales que use Insights para Educación como se indica [aquí](/schooldatasync/sds-for-insights-overview#education-insights-capabilities-matrix-and-sds-v21-csv).
+
+- Use el formato de archivo V2.1 y sincronice los datos opcionales que use Insights para Educación como se indica [aquí](/schooldatasync/sds-for-insights-overview#education-insights-capabilities-matrix-and-sds-v21-csv).
 
 #### <a name="users-and-roles"></a>Usuarios y roles
-*   Asegúrese de que **todos los usuarios** aparecen listados en los archivos que proporciona y sincroniza. Esto incluye todos los alumnos y el personal que necesite ver datos para las unidades de organización que abarquen.
-*   Si actualmente solo tiene profesores listados en el SIS, agregue todos los demás usuarios manualmente antes de cargar los archivos al SDS y sincronizar los datos. Las estadísticas recopiladas por Insights serán solo de los alumnos registrados, si faltan algunos alumnos, los datos y las conclusiones no representarán al conjunto.
-    
-*   Si también usa SDS para el aprovisionamiento, asegúrese de **proporcionar el nombre y los apellidos de cada usuario**. De lo contrario, se hará referencia a los alumnos mediante su dirección de correo electrónico, lo que dará lugar a una experiencia poco óptima.
 
-*   El nivel de curso o año debe basarse en esta [lista de asignaciones](#supported-grade-level-values). 
+- Asegúrese de que **todos los usuarios** aparecen listados en los archivos que proporciona y sincroniza. Esto incluye todos los alumnos y el personal que necesite ver datos para las unidades de organización que abarquen.
+- Si actualmente solo tiene profesores listados en el SIS, agregue todos los demás usuarios manualmente antes de cargar los archivos al SDS y sincronizar los datos. Las estadísticas recopiladas por Insights serán solo de los alumnos registrados, si faltan algunos alumnos, los datos y las conclusiones no representarán al conjunto.
 
-*   Asegúrese de **agregar el nivel de curso o año a todos los alumnos** .    
+- Si también usa SDS para el aprovisionamiento, asegúrese de **proporcionar el nombre y los apellidos de cada usuario**. De lo contrario, se hará referencia a los alumnos mediante su dirección de correo electrónico, lo que dará lugar a una experiencia poco óptima.
 
-*   Asegúrese de **asignar cada usuario a su unidad organizativa**.
+- El nivel de curso o año debe basarse en esta [lista de asignaciones](#supported-grade-level-values).
 
-    *   Un alumno se puede asociar a más de una unidad organizativa, por ejemplo, alumnos registrados en un programa especial o en dos facultades. En caso de que el alumno tenga más de una unidad organizativa, proporcione una línea para cada una en el archivo de usuarios para ese alumno.
-    
-    *   El administrador de TI puede conceder permisos en función de la unidad organizativa para el personal. **Asegúrese de que los miembros del personal estén asociados con el nivel de unidad correcto**, para que reciban los permisos que necesitan. Por ejemplo, un orientador asignado a cuatro escuelas necesita ver todos los cursos de estas escuelas, mientras que un director debe poder ver todas las clases de su escuela. 
-    
-*   **El rol es fundamental**. Aunque se trata de una lista cerrada, intente hacer coincidir el rol de [la lista](/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) con el rol real de cada usuario que cargue. De esta forma, puede asignar permisos basados en roles en consecuencia. Por ejemplo, proporcione permisos para que todos los directores vean las clases de su escuela, o para que todos los profesores vean su facultad. 
+- Asegúrese de **agregar el nivel de curso o año a todos los alumnos** .
+
+- Asegúrese de **asignar cada usuario a su unidad organizativa**.
+
+  - Un alumno se puede asociar a más de una unidad organizativa, por ejemplo, alumnos registrados en un programa especial o en dos facultades. En caso de que el alumno tenga más de una unidad organizativa, proporcione una línea para cada una en el archivo de usuarios para ese alumno.
+
+  - El administrador de TI puede conceder permisos en función de la unidad organizativa para el personal. **Asegúrese de que los miembros del personal estén asociados con el nivel de unidad correcto**, para que reciban los permisos que necesitan. Por ejemplo, un orientador asignado a cuatro escuelas necesita ver todos los cursos de estas escuelas, mientras que un director debe poder ver todas las clases de su escuela.
+
+- **El rol es fundamental**. Aunque se trata de una lista cerrada, intente hacer coincidir el rol de [la lista](/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) con el rol real de cada usuario que cargue. De esta forma, puede asignar permisos basados en roles en consecuencia. Por ejemplo, proporcione permisos para que todos los directores vean las clases de su escuela, o para que todos los profesores vean su facultad.
 
 #### <a name="organizations"></a>Organizaciones
 
-* Asegúrese de **reflejar la jerarquía real y completa de la organización**. En algunos casos, esta jerarquía no se refleja en el SIS, en cuyo caso debe agregarse manualmente al archivo CSV antes de la sincronización.
+- Asegúrese de **reflejar la jerarquía real y completa de la organización**. En algunos casos, esta jerarquía no se refleja en el SIS, en cuyo caso debe agregarse manualmente al archivo CSV antes de la sincronización.
 
-* Asegúrese de que **todas las unidades organizativas del árbol de organización incluyan alumnos o clases**. Le recomendamos que los alumnos estén en la rama más baja del árbol.
+- Asegúrese de que **todas las unidades organizativas del árbol de organización incluyan alumnos o clases**. Le recomendamos que los alumnos estén en la rama más baja del árbol.
 
 > [!NOTE]
 > Para obtener más información sobre la implementación de SDS, visite [SDS](/schooldatasync/planning-school-data-sync).
@@ -94,7 +97,8 @@ Como administrador de TI, puede elegir usar SDS solo para el aprovisionamiento, 
 Para sincronizar la información de SIS con Insights para Educación, siga las instrucciones en [Cómo implementar SDS para Insights](/schooldatasync/how-to-deploy-sds-for-insights).
 
 ### <a name="deploy-sds"></a>Implementar SDS
-**Si ya usa SDS**, le recomendamos que siga nuestros [procedimientos recomendados](#best-practices). 
+
+**Si ya usa SDS**, le recomendamos que siga nuestros [procedimientos recomendados](#best-practices).
 
 **Si aún no usa SDS**, ahora necesitará [implementarlo](/schooldatasync/deploying-school-data-sync).
 
@@ -104,6 +108,7 @@ Durante el proceso de implementación, podrá decidir si desea usar SDS para apr
 > Si está a mitad del año y ya ha creado equipos manualmente, use SDS solo para proporcionar los datos de la jerarquía organizativa y los usuarios a Insights, y el próximo año considere la posibilidad de usar SDS también para aprovisionar usuarios y clases para Teams.
 
 ### <a name="verify-the-sync-process"></a>Comprobar el proceso de sincronización
+
 Para comprobar el progreso del estado de sincronización, siga las instrucciones de [SDS para el estado de los datos y el seguimiento de Insights](/schooldatasync/sds-for-insights-data-health-and-monitoring).
 
 > [!IMPORTANT]
@@ -116,8 +121,9 @@ En los archivos SDS, el nivel de curso/año se define como valores enumerados, l
 En la sección siguiente se definen los valores admitidos en el archivo de usuarios.
 
 ### <a name="united-states--worldwide-grade-levels"></a>Niveles de la curso de Estados Unidos y el mundo
+
 |Valor en archivo (columna Curso) | Etiqueta en Insights|
-|:---|:---| 
+|---|---|
 |TI|Infantil|
 |PR|Preescolar|
 |PK|Pre-kindergarten|
@@ -149,8 +155,9 @@ En la sección siguiente se definen los valores admitidos en el archivo de usuar
 |Otros|Otros|
 
 ### <a name="united-kingdom-year-groups"></a>Grupos de años del Reino Unido
+
 |Valor en archivo (columna Curso) | Etiqueta en Insights|
-|:---|:---| 
+|---|---|
 |TI|Infantil|
 |PR|Preescolar|
 |PK|Infantil (segundo ciclo)|
@@ -179,4 +186,3 @@ En la sección siguiente se definen los valores admitidos en el archivo de usuar
 |educación adulta|Educación adulta|
 |UG|Sin calificar|
 |Otros|Otros|
-

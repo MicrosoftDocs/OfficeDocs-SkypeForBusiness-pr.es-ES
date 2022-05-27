@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: 43e408defc9f1202cb31d6d46cccbc8df7704254
-ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
+ms.openlocfilehash: c5b4ab39768d0485de5fb5f6060d5567d035a343
+ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65671786"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65741902"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams dispositivos Android certificados
 
@@ -48,8 +48,6 @@ Los siguientes dispositivos están certificados en el programa de certificación
 | AudioCodes C450HD                      | `1.17.443`                                                  |    5 de agosto de 2023              | 9 |
 | AudioCodes C448HD (solo modo Cap)       |  `1.17.443`                                                   | 5 de agosto de 2023            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | 3 de septiembre de 2025     | 11 |
-| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 22 de abril de 2022               | 7.1.x |
-| AudioCodes C448HD (solo modo Cap)       | `C450HD_TEAMS_0.225`                                                  | 22 de abril de 2022               | 7.1.x |
 | Crestron UC-P10/T/CT                   | `1.0.0.80`       | 5 de agosto de 2023            | 9 |
 | Crestron UC-P8/T /CT                   | `1.0.0.56`       | 5 de agosto de 2023            | 9 |
 | Códigos de audio C470HD                      | `1.8.293   `                                               | 5 de agosto de 2023               | 9 |
@@ -231,6 +229,7 @@ Las siguientes son las últimas Salas de Teams en Android versiones de la aplica
 
 | Lanzamiento del producto| Fecha de lanzamiento | Microsoft Teams versión de la aplicación | versión Portal de empresa | versión del agente de Administración |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Actualización n.º 2 de 2022  | 25 de mayo de 2022 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Actualización n.º 1 de 2022  | 24 de febrero de 2022 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | #2A de actualización de 2021 | 15 de julio de 2021  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | Actualización n.º 2 de 2021 | 28 de junio de 2021  |`1449/1.0.96.2021051904`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |

@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: acolonna
 description: Obtenga información sobre cómo un usuario con el estado Ausente o No molestar puede establecer explícitamente a otro usuario como delegado en su mensaje de estado.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fd1b11038d4dbd0f1ea773065628170d7f55a33c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14f58861074ed8b9291ca725f60ff1612534f4dc
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596194"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674212"
 ---
 # <a name="message-delegation"></a>Delegación de mensajes
 
@@ -62,7 +62,7 @@ Un usuario solo puede establecer una nota en Teams si su modo es TeamsOnly o Apl
   
 No hay nada visual que indica que una nota se ha establecido desde Skype Empresarial.
 
-Skype Empresarial no exige un límite de caracteres en las notas de estado. Microsoft Teams solo mostrará los primeros 280 caracteres de un conjunto de notas de Skype Empresarial. Unos puntos suspensivos (...) al final de una nota indican truncamiento.
+Skype Empresarial no exige un límite de caracteres en las notas de estado. Microsoft Teams solo mostrará los primeros 280 caracteres de un conjunto de notas de Skype Empresarial. Un punto suspensivo (...) al final de una nota indica truncamiento.
   
 Skype Empresarial no admite los tiempos de expiración para las notas.
 

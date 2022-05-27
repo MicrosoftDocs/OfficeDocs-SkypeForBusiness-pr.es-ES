@@ -1,5 +1,5 @@
 ---
-title: Informe de uso de llamadas de salida de audioconferencia
+title: Audioconferencia informe de uso de llamadas entrantes
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -21,28 +21,28 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Obtenga información sobre qué países y regiones tienen números de conferencias de acceso telefónico local y cómo se asignan automáticamente.
-ms.openlocfilehash: 16cdae3a377d5ce87c218affc4944051f14f2631
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 067ff702478e6b7bae38db458a7088021386e6ec
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106452"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675432"
 ---
-# <a name="audio-conferencing-dial-out-usage-report"></a>Informe de uso de llamadas de salida de audioconferencia
+# <a name="audio-conferencing-dial-out-usage-report"></a>Audioconferencia informe de uso de llamadas entrantes
 
-El informe de uso de llamadas de salida de audioconferencia en el centro de administración de Teams le ofrece información general sobre el uso y los dólares gastados en el servicio de llamada de salida de audioconferencia. Este informe permite a los administradores consumir datos a nivel de usuario en términos de créditos de comunicación invertidos y minutos de llamadas entrantes. Ayudará a los administradores a determinar los créditos de comunicación futuros necesarios a partir de cualquier momento en el tiempo.
+El Audioconferencia informe de uso de llamadas de salida en el centro de administración de Teams le ofrece información general sobre el uso y los dólares gastados en el servicio de llamadas de salida de audioconferencia. Este informe permite a los administradores consumir datos a nivel de usuario en términos de créditos de comunicación invertidos y minutos de llamadas entrantes. Ayudará a los administradores a determinar los créditos de comunicación futuros necesarios a partir de cualquier momento en el tiempo.
 
-## <a name="view-the-audio-conferencing-dial-out-usage-report"></a>Ver el informe de uso de llamadas de salida de Audioconferencia
+## <a name="view-the-audio-conferencing-dial-out-usage-report"></a>Ver el Audioconferencia informe de uso de llamadas entrantes
 
-En el panel de navegación izquierdo del centro de administración de Microsoft Teams,  **seleccioneAnalytics &**  **informesAdministrar** > informes. En la pestaña  **Ver informes** ,  **enInforme**, seleccione el **informe Uso de llamadas de salida de Audioconferencia**.
+En el panel de navegación izquierdo del centro de administración de Microsoft Teams, seleccione **Análisis & notifica informes** \> **de uso**. En la pestaña **Ver informes**, en **Informe**, seleccione el **Audioconferencia informe de uso de llamadas.**
 
-En  **Intervalo** de fechas, puede seleccionar un intervalo predefinido de 7 o 28 días, o establecer un intervalo personalizado.
+En **Intervalo de fechas**, puede seleccionar un intervalo predefinido de 7 o 28 días, o establecer un intervalo personalizado.
 
- **EnContrio previsionado**, seleccione un país preferido o seleccione todo y, a continuación, seleccione  **Ejecutar informe**.
+En **País previsionado**, seleccione el país preferido o seleccione todo y, a continuación, seleccione **Ejecutar informe**.
 
 ## <a name="report-details"></a>Detalles del informe
 
-El informe de uso de llamadas de salida de audioconferencia tiene tres pestañas principales que mostrarán información en un formato de gráfico en función del rango seleccionado en las listas desplegables que hay encima:
+El Audioconferencia informe de uso de llamadas entrantes tiene tres pestañas principales que mostrarán información en un formato de gráfico en función del rango seleccionado en las listas desplegables situadas encima de él:
 
 - La pestaña **Costo** muestra los créditos de comunicación gastados durante el período seleccionado y la tabla siguiente proporciona detalles de nivel de usuario.
 - La pestaña **Minutos de uso** muestra el total de minutos de llamadas entrantes durante el período seleccionado y la tabla siguiente proporciona detalles de nivel de usuario.

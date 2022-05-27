@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo se usan las etiquetas en su organización en Microsoft Teams.
-ms.openlocfilehash: 0fa615f2bbcdd7965777925b2413717779ad4a7a
-ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.openlocfilehash: 62ac77c6467a17da10fdc3ba66350383d7c8016c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65442016"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675552"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Administrar etiquetas en Microsoft Teams
 
@@ -35,7 +35,7 @@ Como se mencionó anteriormente, hay dos tipos de etiquetas en Teams.
 - **Etiquetado por turno**: con esta característica, a los usuarios se les asignan etiquetas automáticamente que coinciden con su nombre de grupo de horario y [turnos en la aplicación Turnos](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) de Teams. Por ejemplo, la etiqueta "EngineerOnCall" llega a todos los ingenieros programados en Turnos para trabajar en el momento en que la etiqueta se usa en una publicación de chat o canal. Con el etiquetado por turno, Teams elimina las conjeturas de conocer el nombre del personal a turnos cuando los usuarios necesitan retransmitir rápidamente información. El etiquetado por turno también puede ser respaldado por los principales sistemas de administración de la fuerza de trabajo como JDA, Kronos y AMiON, integrándolos con Turnos en Teams. Para obtener más información sobre cómo configurar esta característica, vea [Configurar el etiquetado por turnos](#set-up-tagging-by-shift).
 
 > [!NOTE]
-> Las etiquetas no son compatibles con los canales privados o compartidos.  
+> Las etiquetas no son compatibles con los canales privados o compartidos.
 
 ## <a name="how-tags-work"></a>Cómo funcionan las etiquetas
 
@@ -55,7 +55,7 @@ Como administrador, puede controlar cómo se usan las etiquetas en toda la organ
 
 ![Captura de pantalla de la configuración de etiquetado en el centro de administración de Microsoft Teams.](media/manage-tags-admin-settings.png)
 
-Un equipo puede tener hasta 100 etiquetas, se pueden asignar hasta 200 miembros al equipo a una etiqueta y se pueden asignar hasta 25 etiquetas en el mismo equipo a un solo usuario. 
+Un equipo puede tener hasta 100 etiquetas, se pueden asignar hasta 200 miembros al equipo a una etiqueta y se pueden asignar hasta 25 etiquetas en el mismo equipo a un solo usuario.
 
 ### <a name="set-who-can-add-custom-tags"></a>Establecer quién puede agregar etiquetas personalizadas
 
@@ -91,15 +91,15 @@ Aquí te mostramos cómo agregar etiquetas personalizadas y cómo configurar el 
 
 ### <a name="create-and-assign-custom-tags"></a>Crear y asignar etiquetas personalizadas
 
-Para crear y asignar etiquetas personalizadas, seleccione **Teams** en el lado izquierdo de la aplicación y, después, busque su equipo en la lista. Seleccione **̇ ̇ ̇ Más opciones** y, después, elija **Administrar etiquetas**. Aquí puede crear etiquetas y asignarlas a los miembros de su equipo.
+Para crear y asignar etiquetas personalizadas, seleccione **Teams** en el lado izquierdo de la aplicación y, después, busque su equipo en la lista. Seleccione **... Más opciones** y, después, elija **Administrar etiquetas**. Aquí puede crear etiquetas y asignarlas a los miembros de su equipo.
 
 ![Captura de pantalla de cómo aplicar etiquetas en el cliente de Teams .](media/manage-tags-teams.png)
 
-Para eliminar una etiqueta, selecciona **̇ ̇ ̇ Más opciones** junto a la etiqueta y, a continuación, selecciona **Eliminar etiqueta**.
+Para eliminar una etiqueta, seleccione **... Más opciones** junto a la etiqueta y, a continuación, seleccione **Eliminar etiqueta**.
 
 ### <a name="set-up-tagging-by-shift"></a>Configurar el etiquetado por turnos
 
-El etiquetado por turno permite a los usuarios llegar a las personas en turno en tiempo real. Teams asigna automáticamente a los usuarios etiquetas que coincidan con su nombre de grupo de turnos y programación desde la aplicación Turnos, lo que habilita la mensajería dinámica basada en roles. Las notificaciones se envían solo a las personas que están de turno en el momento en que se usa una etiqueta para iniciar un chat o en una publicación del canal. 
+El etiquetado por turno permite a los usuarios llegar a las personas en turno en tiempo real. Teams asigna automáticamente a los usuarios etiquetas que coincidan con su nombre de grupo de turnos y programación desde la aplicación Turnos, lo que habilita la mensajería dinámica basada en roles. Las notificaciones se envían solo a las personas que están de turno en el momento en que se usa una etiqueta para iniciar un chat o en una publicación del canal.
 
 1. En Teams, vaya a la [aplicación Turnos](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop).
 2. Cree [grupos de turnos](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) y asímbrelos después de un atributo como un rol. Por ejemplo, EngineerOnCall. El nombre del grupo de turnos será el nombre de la etiqueta.

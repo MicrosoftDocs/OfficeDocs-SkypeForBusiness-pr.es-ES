@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 9bf52e68f8db5ecacfb4683b0a4809437a860d77
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 2455d386e9bdf297995880f679e5db74b299e64d
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635248"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674842"
 ---
 # <a name="navigate-microsoft-teams"></a>Navegar Microsoft Teams
 
@@ -89,7 +89,7 @@ Hay dos formas de mover el Kaizala grupos planos a Teams:
 
 - Opción 2: Cambiar de un grupo plano Kaizala a un equipo Teams
 
-**Opción 1: Cambiar de un grupo Kaizala plano a un chat grupal en Teams**
+**Opción 1: Cambiar de un grupo plano Kaizala a un chat grupal en Teams**:
 
 Puede crear una Teams chat grupal para mantener reuniones rápidas y conversaciones transitorios con hasta 250 participantes. Los chats grupales permiten a los usuarios de su organización tener un lugar central para una conversación abierta en la que se puede agregar a cualquier persona al chat.
 
@@ -102,23 +102,23 @@ Puede crear una Teams chat grupal para mantener reuniones rápidas y conversacio
 2. Agregar personas a la conversación.
 
     ![Agregar personas a la conversación](media/kaizala-to-teams-image5.png)
-    
+
    Al agregar a alguien a un chat grupal (no uno a uno), puede incluir el **historial de chat** y la **duración del historial** que desea compartir con ella.
 
 3. Administrar el chat grupal.
   
     ![Administrar chat grupal](media/manage-groupchats.png)
-    
+
    Para ver quién está en un chat grupal, mantenga el puntero sobre el número de participantes en el encabezado del chat para mostrar una lista de los nombres de todos los usuarios.
 
-**Opción 2: Cambiar de un grupo plano Kaizala a un equipo Teams**
-   
+**Opción 2: Cambiar de un grupo Kaizala plano a un equipo Teams**:
+
 Para una comunicación de grupo grande dirigida, puede crear un equipo para un grupo plano. Puede agregar hasta 25 000 miembros para participar en la comunicación estructurada con conversaciones encadenados. Este tipo de comunicación permite roles de moderación y administración para garantizar que todo funcione sin problemas.
 
 1. Crear un equipo: para empezar a trabajar en Teams, debe crear un equipo, agregar personas y agregar canales. Para obtener más información, vea [sus primeros equipos](get-started-with-teams-create-your-first-teams-and-channels.md).
 2. Revise la guía para los propietarios del equipo:
 
-Como propietario de un [equipo](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us), puede agregar nuevos miembros e invitados, cambiar miembros a propietarios, administrar canales y configuraciones, y archivar un equipo que ya no está en uso.
+   Como propietario de un [equipo](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us), puede agregar nuevos miembros e invitados, cambiar miembros a propietarios, administrar canales y configuraciones, y archivar un equipo que ya no está en uso.
 
 3. Agregar miembros en masa a un equipo:
 
@@ -318,7 +318,7 @@ Use la tabla siguiente para navegar por las funcionalidades correspondientes de 
 | Directorio | Busque a cualquier persona de su organización a través de la **barra de búsqueda** de teams. Los resultados de búsqueda también devolverán archivos, mensajes y publicaciones. |
 | Análisis (tarjetas de acción) | **Sondeos**, **encuestas** y **listas de comprobación tienen informes integrados** con datos descargables. Los trabajos también se pueden asignar con la ayuda de la aplicación Tareas en Teams, disponible para los usuarios. Para más escenarios, aplicaciones de terceros como **Trello**, **Asana** también se pueden explorar para usarse en Teams. |
 | Extensiones: conectores | Use la opción **Conectores** del menú (...) para cualquier canal para el que sea necesario el conector. |
-| [Informe de adopción de análisis (uso),](teams-analytics-and-reports/view-analytics.md) [informe de uso](teams-analytics-and-reports/teams-usage-report.md), [informe de actividad](teams-analytics-and-reports/user-activity-report.md) | Los propietarios de equipos pueden acceder a los informes de sus equipos navegando desde el menú (...) para **administrar** **teamanalytics** > . |
+| [Informe de adopción de análisis (uso),](teams-analytics-and-reports/view-analytics.md) [informe de uso](teams-analytics-and-reports/teams-usage-report.md), [informe de actividad](teams-analytics-and-reports/user-activity-report.md) | Los propietarios de equipos pueden acceder a los informes de sus equipos navegando desde el menú (...) para administrar el **análisis del** **equipo** > . |
 
 > [!NOTE]
 > Teams usuarios finales pueden usar Teams en equipos de escritorio o móviles para administrar sus equipos y canales individuales y no tendrán que acceder al centro de Teams Administración.

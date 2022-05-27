@@ -24,98 +24,96 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: Guía paso a paso que detalla cómo configurar Teams Sistema telefónico para su organización en Microsoft 365.
-ms.openlocfilehash: 6b56c68e7316c78c7c1881d6e9d6ca39b13823b1
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 12e202fed6ad63835c364662194be2eabf872b31
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556301"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681931"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar Sistema telefónico en su organización
 
-En este artículo se proporciona una guía de desarrollo del contenido para configurar Sistema telefónico: la tecnología de Microsoft para habilitar el Exchange control de llamadas y las capacidades de pbx (PBX) de la rama privada en la Microsoft 365 llamada. Los vínculos a información más detallada están disponibles al final de cada paso. 
+Este artículo proporciona una hoja de ruta al contenido para configurar Sistema telefónico: la tecnología de Microsoft para habilitar el control de llamadas y las capacidades de Exchange de la rama privada (PBX) en la nube Microsoft 365. Los vínculos a información más detallada están disponibles al final de cada paso.
 
-Antes de leer este artículo, asegúrese de que ha leído Lo que [Sistema telefónico](what-is-phone-system-in-office-365.md) y Esto es lo que obtiene con [Sistema telefónico](here-s-what-you-get-with-phone-system.md). Estos dos últimos artículos describen Sistema telefónico requisitos y características.    
+Antes de leer este artículo, asegúrese de que ha leído [Qué es Sistema telefónico](what-is-phone-system-in-office-365.md) y [Esto es lo que obtiene con Sistema telefónico](here-s-what-you-get-with-phone-system.md). Los dos últimos artículos describen Sistema telefónico requisitos y características.
 
-En este artículo se describen los pasos siguientes: 
+En este artículo se describen los siguientes pasos:
 
-- [Paso 1: Comprar y asignar una Sistema telefónico licencia](#step-1-buy-and-assign-a-phone-system-license)  
-- [Paso 2: Elegir una opción de conectividad RTC](#step-2-choose-a-pstn-connectivity-option) 
+- [Paso 1: Comprar y asignar una licencia de Sistema telefónico](#step-1-buy-and-assign-a-phone-system-license)
+- [Paso 2: Elegir una opción de conectividad con RTC](#step-2-choose-a-pstn-connectivity-option)
 - [Paso 3: Obtener números de teléfono para los usuarios](#step-3-get-phone-numbers-for-your-users)
-- [Paso 4: Obtener números de teléfono para servicios](#step-4-get-phone-numbers-for-services-call-queues-auto-attendants)
-- [Paso 5: Si desea configurar una cola de llamadas](#step-5-if-you-want-to-set-up-a-call-queue) 
-- [Paso 6: Si desea configurar un operador automático](#step-6-if-you-want-to-set-up-an-auto-attendant) 
+- [Paso 4: Obtener números de teléfono para los servicios](#step-4-get-phone-numbers-for-services-call-queues-auto-attendants)
+- [Paso 5: Si desea configurar una cola de llamadas](#step-5-if-you-want-to-set-up-a-call-queue)
+- [Paso 6: Si desea configurar un operador automático](#step-6-if-you-want-to-set-up-an-auto-attendant)
 - [Paso 7: Configurar créditos de comunicación para números gratuitos](#step-7-set-up-communications-credits-for-toll-free-numbers)
- 
 
-## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Paso 1: Comprar y asignar una Sistema telefónico licencia
+## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Paso 1: Comprar y asignar una licencia de Sistema telefónico
 
-Para asignar una Sistema telefónico a un solo usuario, los pasos son los mismos que asignar una Microsoft 365 licencia. También puede asignar licencias a varios usuarios en masa. Para obtener más información sobre las licencias de Sistema telefónico disponibles y cómo adquirir y asignar licencias [, vea Teams](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) licencias de complementos y Asignar Microsoft Teams licencias de [complementos](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
+Para asignar una licencia de Sistema telefónico a un único usuario, los pasos son los mismos que asignar una licencia de Microsoft 365. También puede asignar licencias a varios usuarios de forma masiva. Para obtener más información sobre las licencias de Sistema telefónico disponibles y cómo adquirir y asignar licencias, vea [Teams licencias de complementos](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) y [Asignar licencias de complementos de Microsoft Teams](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
-## <a name="step-2-choose-a-pstn-connectivity-option"></a>Paso 2. Elegir una opción de conectividad RTC 
- 
-Para permitir que los usuarios realicen y reciban llamadas externas, deberá conectarse Sistema telefónico a la red telefónica conmutada (RTC). Microsoft ofrece varias opciones para conectarse a la RTC, entre las que se incluyen: 
+## <a name="step-2-choose-a-pstn-connectivity-option"></a>Paso 2. Elegir una opción de conectividad con RTC
 
-- Plan de llamadas. Una solución todo en la nube con Microsoft como operador rtc. 
+Para permitir que los usuarios realicen y reciban llamadas externas, deberá conectarse Sistema telefónico a la red telefónica conmutada (RTC). Microsoft ofrece varias opciones para conectarse a LA RTC, entre las que se incluyen:
 
-- Conexión con operador. Si su operador existente participa en el programa microsoft Conexión con operador, puede administrar las llamadas RTC y los controladores de borde de sesión (SBC) por usted. 
+- Plan de llamadas. Una solución todo en la nube con Microsoft como su operador de RTC.
 
-- Enrutamiento directo. Use su propio operador RTC conectando sus SBC a Sistema telefónico. 
+- Conexión con operador. Si su operador actual participa en el programa microsoft Conexión con operador, puede administrar las llamadas RTC y los controladores de borde de sesión (SBCs) por usted.
 
-Para obtener más información sobre todas las opciones de conectividad, vea [Opciones de conectividad RTC](pstn-connectivity.md).   
+- Enrutamiento directo. Use su propio operador RTC conectando sus SBCs a Sistema telefónico.
+
+Para obtener más información sobre todas las opciones de conectividad, vea [Opciones de conectividad de RTC](pstn-connectivity.md).
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>Paso 3: Obtener números de teléfono para los usuarios
 
 [] Para poder configurar los usuarios de su organización para que puedan recibir y realizar llamadas telefónicas, debe usar el Centro de administración de Skype Empresarial para obtener los números de teléfono.
 
-Para obtener información sobre cómo administrar números de teléfono para los usuarios, vea los artículos siguientes. La forma de administrar los números de un usuario depende de la opción de conectividad RTC que elija.   
+Para obtener información sobre cómo administrar los números de teléfono de los usuarios, vea los artículos siguientes. La forma de administrar los números de un usuario depende de la opción de conectividad con RTC que elija.
 
-- [Administrar números de teléfono para](manage-phone-numbers-landing-page.md) su organización: proporciona información general sobre los tipos de números de teléfono con vínculos a artículos específicos para adquirir y administrar números en función de la opción de conectividad RTC. Describe los dos tipos de números [de teléfono de usuario](manage-phone-numbers-landing-page.md#user-telephone-numbers). 
- 
-- [Asignar, cambiar o quitar un](assign-change-or-remove-a-phone-number-for-a-user.md) número de teléfono para un usuario: describe cómo asignar y administrar los números de teléfono que ha adquirido. 
- 
-- [Cuántos números de](how-many-phone-numbers-can-you-get.md) teléfono puede obtener: describe cuántos números de teléfono puede obtener según los tipos de números de teléfono y los tipos de licencias que haya comprado y asignado. 
+- [Administrar números de teléfono para su organización](manage-phone-numbers-landing-page.md) : proporciona información general sobre los tipos de números de teléfono con vínculos a artículos específicos para adquirir y administrar números en función de la opción de conectividad con RTC.
+Describe los dos tipos de [números de teléfono de usuario](manage-phone-numbers-landing-page.md#user-telephone-numbers).
 
+- [Asignar, cambiar o quitar un número de teléfono a un usuario](assign-change-or-remove-a-phone-number-for-a-user.md) : describe cómo asignar y administrar los números de teléfono que ha adquirido.
 
-## <a name="step-4-get-phone-numbers-for-services-call-queues-auto-attendants"></a>Paso 4: Obtener números de teléfono para servicios (colas de llamadas, operadores automáticos)
+- [Cuántos números de teléfono puede obtener](how-many-phone-numbers-can-you-get.md) : describe cuántos números de teléfono puede obtener según los tipos de números de teléfono y tipos de licencias que haya comprado y asignado.
 
-Además de obtener números de teléfono para los usuarios, puede adquirir números de teléfono gratuitos o de pago para servicios como operadores automáticos y colas de llamadas. Un número de servicio puede controlar cientos de llamadas simultáneamente, mientras que el número de teléfono de un usuario solo puede atender algunas llamadas simultáneamente.   
+## <a name="step-4-get-phone-numbers-for-services-call-queues-auto-attendants"></a>Paso 4: Obtener números de teléfono para los servicios (colas de llamadas, operadores automáticos)
 
-Puede obtener números de servicio de Microsoft que se incluyen en las licencias. Si tiene conectividad RTC a través de Conexión con operador o Enrutamiento directo, puede usar números de servicio proporcionados por su propio operador o operador. 
+Además de obtener números de teléfono para los usuarios, puede adquirir números de teléfono de pago o gratuitos para servicios como operadores automáticos y colas de llamadas. Un número de servicio puede administrar cientos de llamadas simultáneamente, mientras que el número de teléfono de un usuario solo puede atender algunas llamadas simultáneamente.
+
+Puede obtener números de servicio de Microsoft incluidos en su licencia. Si tiene conectividad CON RTC a través de Conexión con operador o enrutamiento directo, puede usar los números de servicio proporcionados por su propio operador u operador.
 
 Para obtener más información, vea:
 
-- [Administrar números de teléfono para](manage-phone-numbers-landing-page.md) su organización: proporciona información general sobre los tipos de números de teléfono con vínculos a artículos específicos para adquirir y administrar números en función de la opción de conectividad RTC.  
-Describe los [números de teléfono de](manage-phone-numbers-landing-page.md#service-telephone-numbers) servicio disponibles de Microsoft que se incluyen en las licencias. Para obtener información sobre los números de servicio proporcionados por Conexión con operador o Enrutamiento directo, póngase en contacto con su proveedor. 
+- [Administrar números de teléfono para su organización](manage-phone-numbers-landing-page.md) : proporciona información general sobre los tipos de números de teléfono con vínculos a artículos específicos para adquirir y administrar números en función de la opción de conectividad con RTC.
+Describe los [números de teléfono de servicio](manage-phone-numbers-landing-page.md#service-telephone-numbers) disponibles de Microsoft que se incluyen en la licencia. Para obtener información sobre los números de servicio proporcionados por Conexión con operador o enrutamiento directo, póngase en contacto con su proveedor.
 
-- [Cuántos números de](how-many-phone-numbers-can-you-get.md) teléfono puede obtener: describe cuántos números de teléfono puede obtener según los tipos de números de teléfono y los tipos de licencias que haya comprado y asignado. 
+- [Cuántos números de teléfono puede obtener](how-many-phone-numbers-can-you-get.md) : describe cuántos números de teléfono puede obtener según los tipos de números de teléfono y tipos de licencias que haya comprado y asignado.
 
 ## <a name="step-5-if-you-want-to-set-up-a-call-queue"></a>Paso 5: Si desea configurar una cola de llamadas
 
-Las colas de llamadas incluyen saludos que se usan cuando alguien llama a un número de teléfono de su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de buscar el siguiente agente de llamada disponible para administrar la llamada. Puede crear una o varias colas de llamadas para su organización. 
+Las colas de llamadas incluyen saludos que se usan cuando alguien llama a un número de teléfono de su organización, la capacidad de poner automáticamente las llamadas en espera y la posibilidad de buscar el siguiente agente de llamada disponible para administrar la llamada. Puede crear una o varias colas de llamadas para su organización.
 
-Para obtener más información sobre las colas de llamadas, vea [Crear una cola de llamadas](create-a-phone-system-call-queue.md).
+Para obtener más información sobre las colas de llamadas, consulte [Crear una cola de llamadas](create-a-phone-system-call-queue.md).
 
 ## <a name="step-6-if-you-want-to-set-up-an-auto-attendant"></a>Paso 6: Si desea configurar un operador automático
 
-Los operadores automáticos permiten a las personas que llaman a su organización navegar por un sistema de menús para que lleguen al departamento, la cola de llamadas, la persona u el operador adecuados.  
+Los operadores automáticos permiten a las personas que llaman a su organización navegar por un sistema de menús para que lleguen al departamento, la cola de llamadas, la persona o el operador adecuados.
 
-Para obtener información sobre cómo configurar operadores automáticos, vea  [Configurar un operador automático](create-a-phone-system-auto-attendant.md).
+Para obtener información sobre cómo configurar operadores automáticos, vea [Configurar un operador automático](create-a-phone-system-auto-attendant.md).
 
 ## <a name="step-7-set-up-communications-credits-for-toll-free-numbers"></a>Paso 7: Configurar créditos de comunicaciones para números gratuitos
 
-Si desea usar números gratuitos con Microsoft Teams, deberá configurar créditos de comunicaciones. Las llamadas gratuitas se facturan por minuto y requieren un saldo positivo de créditos de comunicaciones. 
+Si quieres usar números gratuitos con Microsoft Teams, tendrás que configurar créditos de comunicaciones. Las llamadas gratuitas se facturan por minuto y requieren un saldo positivo de créditos de comunicaciones.
 
-Los créditos de comunicaciones son una forma cómoda de agregar números gratuitos para usarlos de la siguiente manera: 
+Los créditos de comunicaciones son una forma cómoda de agregar números gratuitos para usarlos de la siguiente manera:
 
-- Con números de servicio para aplicaciones de voz, como operadores automáticos o colas de llamadas. 
+- Con números de servicio para aplicaciones de voz, como operadores automáticos o colas de llamadas.
 
-- Para marcar cualquier número de teléfono internacional cuando tenga suscripciones al Plan de llamadas nacionales o más allá de lo que se incluye en una suscripción del Plan de llamadas nacionales e internacionales. 
+- Para marcar cualquier número de teléfono internacional cuando tiene suscripciones a Planes de llamadas nacionales o más allá de lo que se incluye en una suscripción de Plan de llamadas nacionales e internacionales.
 
-- Para marcar y pagar por minuto una vez que haya agotado la asignación mensual de minutos. 
+- Para llamar y pagar por minuto una vez que hayas agotado la asignación de minutos mensuales.
 
-Para obtener más información, vea  [¿Qué son los créditos de comunicaciones?](what-are-communications-credits.md) y [Configurar créditos de comunicaciones para su organización](set-up-communications-credits-for-your-organization.md).
-  
+Para obtener más información, consulte [¿Qué son los créditos de comunicaciones?](what-are-communications-credits.md) y [Configurar los créditos de comunicaciones para su organización](set-up-communications-credits-for-your-organization.md).
 
 ## <a name="related-topics"></a>Temas relacionados
 
@@ -124,8 +122,3 @@ Para obtener más información, vea  [¿Qué son los créditos de comunicacion
 - [Esto es lo obtiene con el Sistema telefónico](here-s-what-you-get-with-phone-system.md)
 
 - [Administrar los números de teléfono para su organización](manage-phone-numbers-landing-page.md)
-
-
-    
-  
- 

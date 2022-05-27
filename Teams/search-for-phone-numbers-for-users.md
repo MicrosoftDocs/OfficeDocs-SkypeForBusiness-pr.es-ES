@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Vea cómo buscar números de teléfono que puede asignar a sus usuarios, por país o región y ciudad, y especifique la cantidad de números que necesita.
-ms.openlocfilehash: 46bdc54f892993b9a161690a5d42692fe66b9f5a
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: 4cb30e6ef03e50c3524ccd9b5c36ae10fb8b5ab2
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686377"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681801"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>Buscar números de teléfono para los usuarios
 
@@ -34,7 +34,7 @@ Al configurar los usuarios de su organización para realizar y recibir llamadas 
   
 Antes de poder asignar números de teléfono proporcionados por Microsoft a los usuarios, debe usar la página **Obtener números nuevos** para buscar los números de teléfono disponibles. Puede buscar por **País (Mercado),** **Tipo de número** y **Ubicación**. Entonces verá una lista de operadores que suministran números en ese país.
 
-Si selecciona Microsoft como operador, puede adquirir los números en el centro de administración de Teams especificando la cantidad de números de teléfono que necesitará para los usuarios.La página limitará automáticamente la cantidad en función de la cantidad que todavía tengas disponible para adquirir. Si seleccionas un operador de Conexión con operador, se te dirigirá a la página de aterrizaje de tu operador seleccionado para completar el número de pedido.
+Si selecciona Microsoft como operador, puede adquirir los números en el centro de administración de Teams especificando la cantidad de números de teléfono que necesitará para los usuarios. La página limitará automáticamente la cantidad en función de la cantidad que todavía tengas disponible para adquirir. Si seleccionas un operador de Conexión con operador, se te dirigirá a la página de aterrizaje de tu operador seleccionado para completar el número de pedido.
 
 La forma de adquirir y administrar números de teléfono varía según la opción de conectividad con RTC: Planes de llamadas de Microsoft, Conexión con operador o Enrutamiento directo.
 
@@ -46,10 +46,10 @@ Para buscar números de teléfono para los usuarios:
   
 1. Vaya al **Centro de administración de Microsoft Teams**.
 
-2. En el panel de navegación izquierdo, seleccione **Voz** >  **Teléfono** **númerosObtener** >  nuevos números.
+2. En el panel de navegación izquierdo, seleccione **Números de voz** >  **Teléfono** > **Obtener números nuevos**.
   
     > [!IMPORTANT]
-    > Para ver la opción **Voz** en el panel de navegación izquierdo del centro de administración de Teams, primero debe comprar al menos una **licencia de Enterprise E5 o E3**, una **licencia de complemento de Sistema telefónico** o una licencia de complemento de **Audioconferencia**.  
+    > Para ver la opción **Voz** en el panel de navegación izquierdo del centro de administración de Teams, primero debe comprar al menos una **licencia de Enterprise E5 o E3**, una **licencia de complemento Sistema telefónico** o una licencia **de complemento de Audioconferencia**.  
 
 3. En la página **Seleccionar ubicación y cantidad** , seleccione una ubicación en la lista desplegable **País (mercado** ).
 
@@ -75,10 +75,10 @@ Para buscar números de teléfono para los usuarios:
 
 1. Vaya al **Centro de administración de Microsoft Teams**.
 
-2. En el panel de navegación izquierdo, seleccione **Voz** >  **Teléfono** **númerosObtener** >  nuevos números.
+2. En el panel de navegación izquierdo, seleccione **Números de voz** >  **Teléfono** > **Obtener números nuevos**.
   
     > [!IMPORTANT]
-    > Para ver la opción **Voz** en el panel de navegación izquierdo del centro de administración de Teams, primero debe comprar al menos una **licencia de Enterprise E5 o E3**, una **licencia de complemento de Sistema telefónico** o una licencia de complemento de **Audioconferencia**.  
+    > Para ver la opción **Voz** en el panel de navegación izquierdo del centro de administración de Teams, primero debe comprar al menos una **licencia de Enterprise E5 o E3**, una **licencia de complemento Sistema telefónico** o una licencia **de complemento de Audioconferencia**.  
 
 3. En la página **Seleccionar ubicación y cantidad** , seleccione una ubicación en la lista desplegable **País (mercado** ).
 

@@ -15,12 +15,12 @@ description: Use esta guía para implementar Microsoft Teams como el primer Micr
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6dba57003aaa58b9d0b72e7e866da261bed578e
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 2621ea94e2a35e7de9eed3dac2994f9b1932b0bb
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922691"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681731"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Implementar primero Microsoft Teams
 
@@ -39,8 +39,8 @@ Para empezar con su Teams Primera implementación, tendrá que cumplir como mín
 
 1.  Una Microsoft 365 o Office 365 organización configurada con su nombre de dominio
 
-2.  Azure Active Directory conectividad (AAD conectar) o una solución de sincronización de identidad de nube similar, con todos los atributos necesarios sincronizados con su inquilino  
-    Para comprender los atributos sincronizados con AAD sincronización, lea [Azure AD Conectar sincronización: Atributos sincronizados con Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+2.  Azure Active Directory conectividad (conexión de AAD) o una solución de sincronización de identidad de nube similar, con todos los atributos necesarios sincronizados con su inquilino  
+    Para comprender los atributos sincronizados con la sincronización de AAD, lea [Sincronización de Conectar de Azure AD: Atributos sincronizados con Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  Licencias de usuario adecuadas asignadas para Teams  
     Para comprender Teams licencias, lea [Microsoft Teams descripción del servicio](/office365/servicedescriptions/teams-service-description).
@@ -136,7 +136,7 @@ VoIP/RTC en Teams</td>
 <tr class="odd">
 <td>Plataforma de aplicaciones</td>
 <td>Los usuarios podrán usar las aplicaciones designadas para ellos según las directivas de su empresa.<br />
-Más información aquí: <a href="/microsoftteams/admin-settings">Configuración de administración de aplicaciones en Teams</a></td>
+Más información aquí: <a href="/microsoftteams/admin-settings">configuración de Administración para aplicaciones en Teams</a></td>
 </tr>
 <tr class="even">
 <td>Características de seguridad y cumplimiento</td>
@@ -214,7 +214,7 @@ VoIP/RTC en Teams</td>
 <tr class="odd">
 <td>Plataforma de aplicaciones</td>
 <td>Los usuarios podrán usar las aplicaciones designadas para ellos según las directivas de su empresa.<br />
-Más información aquí: <a href="/microsoftteams/admin-settings">Configuración de administración de aplicaciones en Teams</a></td>
+Más información aquí: <a href="/microsoftteams/admin-settings">configuración de Administración para aplicaciones en Teams</a></td>
 </tr>
 <tr class="even">
 <td>Características de seguridad y cumplimiento</td>

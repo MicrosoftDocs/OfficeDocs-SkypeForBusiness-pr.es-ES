@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d061fa0cda1620980e7da68a345fc13acb6fc12a
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 67be704ae81379a122a9c205305da1c4d4a5dcbd
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62362986"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675652"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 
@@ -106,12 +106,12 @@ Es posible que se deban restringir funciones a los **alumnos de primaria y secun
 
 ### <a name="create-class-teams-for-secure-classroom-use"></a>Creación de equipos de clase para el uso seguro del aula
 
-Microsoft Teams para el ámbito educativo ofrece   [tipos de equipo específicos](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)  de uso educativo. El [tipo de equipo de clase](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) está diseñado para aulas y tiene características específicas que prestan apoyo a las necesidades del aula, como:  
+Microsoft Teams para el ámbito educativo ofrece [tipos de equipos específicos](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)  para uso educativo. El [tipo de equipo de clase](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) está diseñado para aulas y tiene características específicas que prestan apoyo a las necesidades del aula, como:  
 
 - Tareas
 - Notas
 - Bloc de notas de clase de OneNote  
-- [Carpeta de materiales de clase](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)  para proteger el contenido de solo lectura para los alumnos
+- [Carpeta de materiales de clase](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)  para mantener protegido el contenido de solo lectura de los alumnos
 - [Insights](./class-insights.md) para ofrecer datos en tiempo real sobre la participación, las tareas y el bienestar de los estudiantes de cada aula. 
 - [Acceso anticipado para profesores](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) para configurar la clase antes de agregar alumnos 
 - Capacidad de silenciar a alumnos desobedientes y otros permisos especiales  
@@ -127,7 +127,7 @@ Repasaremos varias opciones para ayudarle a elegir la ruta de acceso de implemen
 
 #### <a name="automatic-team-creation-using-sds"></a>Creación automática de equipos con SDS
 
-La creación automática de equipos ahorra tiempo tanto a los administradores de TI como a los profesores. Asegura que los profesores tengan todos los equipos de clase creados y listos para la configuración tras iniciar sesión. [School Data Sync (SDS)](/SchoolDataSync) es una herramienta gratuita de Office 365 Educación que lee los datos del sistema de registro de la institución educativa, como un sistema de información de estudiantes (SIS) o un sistema de administración del aprendizaje (LMS). SDS usa los datos para enriquecer la configuración de Office 365 de muchas maneras, como pueden ser crear equipos de clase de modo masivo y mantener la sincronización con el sistema de información para que las suscripciones de los profesores y los alumnos estén actualizadas a medida que cambia la inscripción. SDS puede importar datos desde cualquier sistema de registro y dispone de conectores integrados para muchos de los actuales [proveedores de SIS ](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support) del mundo. Se recomienda encarecidamente usar SDS, ya que ofrece las siguientes ventajas.  
+La creación automática de equipos ahorra tiempo tanto a los administradores de TI como a los profesores. Asegura que los profesores tengan todos los equipos de clase creados y listos para la configuración tras iniciar sesión. [School Data Sync (SDS)](/SchoolDataSync) es una herramienta gratuita de Office 365 Educación que lee los datos del sistema de registro de la institución educativa, como un sistema de información de estudiantes (SIS) o un sistema de administración del aprendizaje (LMS). SDS usa los datos para enriquecer la configuración de Office 365 de muchas maneras, como pueden ser crear equipos de clase de modo masivo y mantener la sincronización con el sistema de información para que las suscripciones de los profesores y los alumnos estén actualizadas a medida que cambia la inscripción. SDS puede importar datos desde cualquier sistema de registro y dispone de conectores integrados para muchos de los actuales [proveedores de SIS](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support) del mundo. Se recomienda encarecidamente usar SDS, ya que ofrece las siguientes ventajas.  
 
 ###### <a name="benefits"></a>Ventajas
 
@@ -241,7 +241,7 @@ El acceso anticipado de los equipos de clase permite que los profesores tengan a
 
 ##### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>¿Cómo puedo crear equipos de clase que permitan acceso anticipado a los profesores para configurar un equipo antes de admitir a los alumnos?
 
-Los equipos creados a partir de grupos (a través de SDS, dirigidos por profesor o API de Graph) crean automáticamente equipos de acceso anticipado de forma predeterminada. Para crear sus propios equipos de acceso anticipado mediante la API de Graph, tendrá que [crear una clase](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) y [crear el equipo desde un grupo](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true).
+Los equipos creados a partir de grupos (a través de SDS, dirigidos por profesor o API de Graph) crean automáticamente equipos de acceso anticipado de forma predeterminada. Para crear sus propios equipos de acceso anticipado mediante la API de Graph, tendrá que [crear una clase](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) y [crear el equipo a partir de un grupo](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true).
 
 ##### <a name="how-do-i-check-if-a-class-is-activated"></a>¿Cómo puedo comprobar si una clase está activada?
 
@@ -249,7 +249,7 @@ Hemos agregado una nueva propiedad en el [tipo de recurso de equipo](/graph/api/
 
 ##### <a name="how-do-i-activate-a-class-for-an-educator"></a>¿Cómo puedo activar una clase para un profesor?
 
-Use la [API de actualizar equipo](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) y asigne la ```isMembershipLimitedToOwners``` propiedad como falso para activar el equipo en nombre del educador. Tenga en cuenta que después de activar un equipo no se puede revertir.
+Use la [API de actualizar equipo](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) y establezca la propiedad ```isMembershipLimitedToOwners``` en  false para activar el equipo en nombre del formador. Tenga en cuenta que después de activar un equipo no se puede revertir.
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>Crear equipos de personal para las comunicaciones y colaboraciones del mismo
 

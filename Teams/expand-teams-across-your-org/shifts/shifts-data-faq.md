@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4fc6e36c0c78bdf86e1384fe6269f292f20deb7
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 35447b432118737821f578ddaee364e780f18e0d
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922831"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675352"
 ---
 # <a name="shifts-data-faq"></a>Preguntas más frecuentes sobre los datos de Turnos
 
@@ -45,9 +45,9 @@ Al configurar por primera vez Teams, elige un país o región, que se establece 
 
 ## <a name="can-i-access-and-export-or-delete-a-users-personal-data-in-shifts"></a>¿Puedo acceder a los datos personales de un usuario y exportarlos o eliminarlos en Turnos?
 
-Turnos cumple con el Reglamento general de protección de datos (RGPD).Una solicitud formal por parte de una persona (conocida como interesado) para realizar una acción sobre sus datos personales se denomina solicitud del interesado (DSR). Puede buscar datos personales y actuar en ellos en Turnos en respuesta a una DSR.
+Turnos cumple con el Reglamento general de protección de datos (RGPD). Una solicitud formal por parte de una persona (conocida como interesado) para realizar una acción sobre sus datos personales se denomina solicitud del interesado (DSR). Puede buscar datos personales y actuar en ellos en Turnos en respuesta a una DSR.
 
-Puede usar la herramienta de exhibición de documentos electrónicos de búsqueda de contenido en el portal de cumplimiento de Microsoft Purview para buscar y exportar datos de reloj de hora y programación a Excel. Para todos los demás datos de Turnos, puede realizar capturas de pantalla de los datos.
+Puede usar la herramienta de exhibición de documentos electrónicos de búsqueda de contenido en la portal de cumplimiento Microsoft Purview para buscar y exportar datos de reloj de hora y programación a Excel. Para todos los demás datos de Turnos, puede realizar capturas de pantalla de los datos.
 
 Para obtener más información, consulte [Office 365 solicitudes del interesado para el RGPD y la CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
 
@@ -63,7 +63,7 @@ No hay ninguna opción para eliminar solo los datos de Turnos. Si elimina un equ
 
 Puede recuperar una programación eliminada si se restaura el grupo de Microsoft 365 que la respalda (o el equipo de Teams).
 
-De forma predeterminada, un grupo eliminado de Microsoft 365 se conserva durante 30 días. Este período de 30 días se denomina "eliminación temporal" porque todavía puede restaurar el grupo. Para obtener más información, vea [Restaurar un grupo de Microsoft 365 eliminado](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center).
+De forma predeterminada, un grupo eliminado de Microsoft 365 se conserva durante 30 días. Este período de 30 días se denomina "eliminación temporal" porque todavía puede restaurar el grupo. Para obtener más información, vea [Restaurar un grupo de Microsoft 365 eliminado](/microsoft-365/admin/create-groups/restore-deleted-group?tabs=admin-center).
 
 ## <a name="can-i-use-custom-retention-policies-for-shifts-data"></a>¿Puedo usar directivas de retención personalizadas para los datos de Turnos?
 

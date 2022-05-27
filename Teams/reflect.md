@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d17409a09cbadc535e3b7971d6224b4e2fcb678b
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 5df52ff5de4db994cb049db1dde2b27c2465dce5
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839041"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675762"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guía para administradores de TI para Reflect en Microsoft Teams
 
@@ -69,7 +69,7 @@ Si ya ha definido anteriormente que cada aplicación necesita estar permitida, v
 > Para obtener más información, lea [cómo permitir una aplicación o cómo añadirla a un equipo de clase](manage-apps.md#allow-and-block-apps).
 
 ## <a name="where-do-educators-find-reflect"></a>¿Dónde encuentran Reflect los educadores?
-Una vez ha habilitado Reflect, los educadores deben ir a la clase y seleccionar **Crear conversación**. Luego deben seleccionar "**…**" para que aparezcan las extensiones de mensajería y escribir **Reflect** en la barra de búsqueda. El cuadro de diálogo les guiará a través de la definición de preguntas y quién puede ver qué.
+Una vez ha habilitado Reflect, los educadores deben ir a la clase y seleccionar **Crear conversación**. Luego deben seleccionar '**...**' para que aparezcan las extensiones de mensajería y escribir **Reflect** en la barra de búsqueda. El cuadro de diálogo les guiará a través de la definición de preguntas y quién puede ver qué.
 
 :::image type="content" source="media/reflect-add-app.png" alt-text="Agregar Reflect al equipo de clase.":::
 

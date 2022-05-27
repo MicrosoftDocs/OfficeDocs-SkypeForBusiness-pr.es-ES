@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
-ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
+ms.openlocfilehash: 46624ff1e1eeeede5066cf6972cc92469cf8979c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "62864033"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675052"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>Guía de inicio rápido de Microsoft Teams Essentials para pequeñas empresas
 
@@ -37,7 +37,7 @@ Como alternativa, Teams Essentials adquirido a través de determinados asociados
 
 ## <a name="what-microsoft-teams-essentials-subscription-do-i-have"></a>¿Qué suscripción a Microsoft Teams Essentials tengo?  
 
-Si ha comprado Teams Essentials a través del sitio web de Microsoft (directo), es el propietario de **Microsoft Teams Essentials**.
+Si ha comprado Teams Essentials a través del sitio web de Microsoft (directo), es propietario de **Microsoft Teams Essentials**.
 
 Si adquirió Teams Essentials a través de un asociado certificado de Microsoft, es propietario de **Microsoft Teams Essentials (identidad de AAD)**.
 
@@ -153,7 +153,7 @@ Tenga en cuenta las siguientes limitaciones:
 
 #### <a name="how-do-i-upgrade-my-organization"></a>¿Cómo puedo actualizar mi organización?
 
-Para actualizar a la versión de Microsoft Teams Essentials de Teams, seleccione **…** en el menú de navegación superior. Después, seleccione el botón **Actualizar** en la parte inferior del menú desplegable que aparece.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="captura de pantalla que muestra el botón Actualizar"::: 
+Para actualizar a la versión de Microsoft Teams Essentials de Teams, seleccione **...** en el menú de navegación superior. Después, seleccione el botón **Actualizar** en la parte inferior del menú desplegable que aparece.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="captura de pantalla que muestra el botón Actualizar"::: 
 
 Después de seleccionar el botón **actualizar** en Teams, se le dirigirá aquí: [Microsoft Teams para pequeñas empresas](https://www.microsoft.com/microsoft-teams/upgrade-teams)
 
@@ -164,9 +164,9 @@ Escriba la dirección de correo electrónico actual que usa para iniciar sesión
 
 No. Teams Essentials con identidad de AAD solo está disponible a través de determinados asociados de Microsoft Cloud. Si está interesado en trabajar con un partner, visite [Buscar un partner de Microsoft proveedor de soluciones en la nube](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
 
-### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>¿Puedo usar un sistema de correo electrónico existente con Microsoft Teams Essentials?  
+### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>¿Puedo usar un sistema de correo electrónico existente con Microsoft Teams Essentials?  
 
-Sí. Puede mantener su sistema de correo electrónico existente y aprovechar Teams Essentials para reunirse, chatear y colaborar.  
+Sí. Puede mantener su sistema de correo electrónico existente y aprovechar Teams Essentials para reunirse, chatear y colaborar.  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>¿Puedo conectar mi solución de calendario existente con Teams Essentials?
 Sí. Puede sincronizar calendarios existentes desde Outlook.com y Google con Teams Essentials.

@@ -1,9 +1,9 @@
 ---
 title: Administración de la directiva de acceso externo a la organización
-ms.reviewer: null
-'ms:assetid': 5571811e-34c8-443a-b94c-1ab5d4275581
-'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)'
-'ms:contentKeyID': 48184160
+ms.reviewer: ''
+ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)
+ms:contentKeyID: 48184160
 mtps_version: v=OCS.15
 ms.author: serdars
 author: SerdarSoysal
@@ -12,12 +12,16 @@ audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
-description: 'Después de implementar uno o varios servidores Edge, debe habilitar los tipos de acceso externo que se permitirán en la organización.'
+description: Después de implementar uno o varios servidores Edge, debe habilitar los tipos de acceso externo que se permitirán en la organización.
+ms.openlocfilehash: 6134d2d6f5e2a204a18fdbda3360d39f00ed46f2
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674592"
 ---
-
-
 # <a name="manage-external-access-policy-for-your-organization"></a>Administración de la directiva de acceso externo a la organización
 
 Después de implementar uno o varios servidores Edge, debe habilitar los tipos de acceso externo que se permitirán en la organización.
@@ -37,12 +41,12 @@ De forma predeterminada, no hay ninguna directiva configurada para admitir el ac
 
 Entre estas opciones se incluyen los siguientes tipos de acceso externo:
 
-  - **Habilitar comunicaciones con usuarios federados**   Habilite esta opción si desea admitir el acceso de usuarios a dominios de socios federados. Esta configuración configura la capacidad para que los usuarios se comuniquen con otros dominios federados SIP, así como con proveedores hospedados como Microsoft 365 o Office 365. 
+  - **Habilitación de las comunicaciones con usuarios federados**   Habilite esta opción si desea admitir el acceso de usuario a dominios de asociado federados. Esta configuración configura la posibilidad de que los usuarios se comuniquen con otros dominios federados SIP, así como con proveedores hospedados como Microsoft 365 o Office 365. 
 
 
-  - **Habilitar comunicaciones con usuarios remotos**   Habilite esta opción si desea que los usuarios de la organización que están fuera del firewall, como los teletrabadores y los usuarios que están de viaje, puedan conectarse a Skype Empresarial Server a través de Internet.
+  - **Habilitación de las comunicaciones con usuarios remotos**   Habilite esta opción si desea que los usuarios de su organización que están fuera del firewall, como los teletrabajos y los usuarios que viajan, puedan conectarse a Skype Empresarial Server a través de Internet.
 
-  - **Habilitar comunicaciones con usuarios públicos**   Habilite esta opción si desea que los usuarios internos puedan comunicarse con contactos públicos del proveedor de mensajería instantánea.
+  - **Habilitación de las comunicaciones con usuarios públicos**   Habilite esta opción si desea que los usuarios internos puedan comunicarse con los contactos del proveedor de mensajería instantánea pública.
    
 
 > [!NOTE]  

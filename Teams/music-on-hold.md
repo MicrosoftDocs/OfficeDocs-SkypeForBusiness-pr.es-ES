@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Obtenga información sobre cómo administrar la característica Música en espera en Sistema telefónico.
-ms.openlocfilehash: 4899ffd2a3b6bfda80164ca2df4a5460a2b005e2
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 3f5121e72436966a82b38917453bcd21d8efa10f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624241"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674422"
 ---
 # <a name="music-on-hold"></a>Música en espera
 
@@ -36,11 +36,11 @@ Tenga en cuenta que los autores de llamadas también pueden escuchar Música en 
 
 Para configurar Música en espera:
 
-1.  En el panel de navegación izquierdo del centro de administración de Teams, vaya a **Directivas de llamadas de voz >**.
+1. En el panel de navegación izquierdo del centro de administración de Teams, vaya a **Directivas de llamadas de voz >**.
 
-2.  En la pestaña **Administrar directivas** , seleccione una de las directivas existentes o cree una nueva.
+2. En la pestaña **Administrar directivas** , seleccione una de las directivas existentes o cree una nueva.
 
-3.  En el campo **Música en espera para autores de llamadas RTC**, seleccione **Habilitado** en el menú desplegable.
+3. En el campo **Música en espera para autores de llamadas RTC**, seleccione **Habilitado** en el menú desplegable.
 
 También puede configurar Música en espera mediante el módulo Teams PowerShell. En TeamsCallingPolicy, cambie el parámetro MusicOnHoldEnabledType a Enabled y, a continuación, conceda esa instancia de directiva a uno o más usuarios.
 
@@ -57,7 +57,6 @@ Por ejemplo, un departamento u organización podría querer reproducir un anunci
 Para configurar Música personalizadas en espera, use los cmdlets de PowerShell New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy e Import/Get/Remove/Export-CsOnlineAudioFile en Teams módulo de PowerShell 3.0.0 o posterior.
 
 Para ver los formatos de audio admitidos y el tamaño máximo de archivo, consulte [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
-
 
 1. Asegúrese de que el usuario de Teams tiene Música en espera para los autores de llamadas RTC establecido en Habilitado en la directiva de llamadas Teams. 
 
@@ -104,7 +103,6 @@ Para exportar un archivo de audio cargado, use el cmdlet de Export-CsOnlineAudio
 
 La tabla siguiente indica qué características admiten los clientes y dispositivos Música en espera y Música personalizadas en espera. Microsoft sigue agregando soporte técnico para las características, por lo que debe volver a comprobar con frecuencia si hay disponibilidad adicional.
 
-
 | Característica | Escritorio <br> Windows/Mac OS | Explorador | Móvil <br> iOS | Móvil <br> Android | Teams Teléfono |
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | Espera en llamada RTC 1:1 | -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera | -Música en espera<br>-Música personalizado en espera |
@@ -147,4 +145,3 @@ La tabla siguiente indica qué características admiten los clientes y dispositi
 - [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy)
 
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
-

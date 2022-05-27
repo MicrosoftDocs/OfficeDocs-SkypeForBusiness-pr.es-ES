@@ -1,5 +1,5 @@
 ---
-title: Administrar Skype Empresarial configuración en el centro Microsoft Teams administración
+title: Administrar la configuración de Skype Empresarial en el centro de administración de Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,40 +8,45 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-ms.collection: null
+ms.collection: ''
 f1.keywords:
-  - CSH
-  - ms.teamsadmincenter.org-widesettings.skypeforbusiness.overview
-  - ms.teamsadmincenter.org-widesettings.skypeforbusiness.presence
-  - ms.teamsadmincenter.org-widesettings.skypeforbusiness.skypemeetingbroadcast
-  - ms.teamsadmincenter.users.skypeforbusiness.settings
-ms.custom: null
+- CSH
+- ms.teamsadmincenter.org-widesettings.skypeforbusiness.overview
+- ms.teamsadmincenter.org-widesettings.skypeforbusiness.presence
+- ms.teamsadmincenter.org-widesettings.skypeforbusiness.skypemeetingbroadcast
+- ms.teamsadmincenter.users.skypeforbusiness.settings
+ms.custom: ''
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre cómo administrar la configuración de Skype Empresarial características en el centro Microsoft Teams administración.
+description: Obtenga información sobre cómo administrar la configuración de las características de Skype Empresarial en el Centro de administración de Microsoft Teams.
+ms.openlocfilehash: f3c79e40d55319af9a45063893bed285140c6d7f
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681341"
 ---
-
-# <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Administrar Skype Empresarial configuración en el centro Microsoft Teams administración
+# <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Administrar la configuración de Skype Empresarial en el centro de administración de Microsoft Teams
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="sfb-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Como administrador, el centro Microsoft Teams administración es donde administra Skype Empresarial características de Skype Empresarial usuarios de su organización. Puede administrar la configuración [de](#manage-skype-for-business-settings-for-your-organization) su organización en la página **Skype Empresarial** y la configuración para usuarios [individuales](#manage-skype-for-business-settings-for-individual-users) en la **Skype Empresarial** de las páginas de detalles del usuario.
+Como administrador, el centro de administración de Microsoft Teams es donde administra las características de Skype Empresarial para los usuarios Skype Empresarial de su organización. Puede administrar la configuración [de su organización](#manage-skype-for-business-settings-for-your-organization) en la página **de Skype Empresarial** y la configuración [de usuarios individuales](#manage-skype-for-business-settings-for-individual-users) en la pestaña **Skype Empresarial** de las páginas de detalles del usuario.
 
-Solo verá la página de Skype Empresarial  si el modo de coexistencia de su organización no está establecido en **Teams solo**. De forma similar, solo verá la pestaña Skype Empresarial  para un usuario si el modo de coexistencia del usuario no **Teams solo**. Para obtener más información sobre los modos de coexistencia, vea Comprender Teams y [Skype Empresarial e](teams-and-skypeforbusiness-coexistence-and-interoperability.md) interoperabilidad y Establecer la [configuración de coexistencia y actualización](setting-your-coexistence-and-upgrade-settings.md).
+Solo verá la página **de Skype Empresarial** si el modo de coexistencia de su organización no está configurado **solo en Teams**. Del mismo modo, solo verá la pestaña **Skype Empresarial** de un usuario si el modo de coexistencia del usuario no es **solo Teams**. Para obtener más información sobre los modos de coexistencia, consulte [Comprender Teams y Skype Empresarial coexistencia e interoperabilidad](teams-and-skypeforbusiness-coexistence-and-interoperability.md) y Establecer la [configuración de coexistencia y actualización](setting-your-coexistence-and-upgrade-settings.md).
 
 > [!NOTE]
-> Skype Empresarial configuración anterior se encontraba en **el portal** heredado del centro de Microsoft Teams administración. Con la retirada del portal heredado, migramos la configuración a estas nuevas ubicaciones en el centro de administración de Teams para Skype Empresarial administración.
+> Skype Empresarial anteriormente se encontraban en el **Portal heredado** del centro de administración de Microsoft Teams. Con la retirada del portal heredado, hemos migrado la configuración a estas nuevas ubicaciones en el centro de administración de Teams para la administración de Skype Empresarial.
 
-Debe tener asignado el rol [](/azure/active-directory/roles/permissions-reference) de administrador Azure AD administrador global o Skype Empresarial administrador para administrar Skype Empresarial características en el centro Microsoft Teams administración.
+Debe tener asignado el rol de administrador global de [Azure AD](/azure/active-directory/roles/permissions-reference) o administrador de Skype Empresarial para administrar las características de Skype Empresarial en el centro de administración de Microsoft Teams.
 
-## <a name="manage-skype-for-business-settings-for-your-organization"></a>Administrar Skype Empresarial configuración de la organización
+## <a name="manage-skype-for-business-settings-for-your-organization"></a>Administrar la configuración de Skype Empresarial de su organización
 
-En el panel de navegación izquierdo del Microsoft Teams de administración, vaya a Configuración **de** >  toda **la organización Skype Empresarial**. Desde aquí, puede configurar y administrar Skype difusión de reunión, privacidad de presencia y notificaciones de dispositivos móviles para todos los Skype Empresarial usuarios de su organización.
+En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Configuración** >  de toda **la organización Skype Empresarial**. Desde aquí, puede configurar y administrar Reunión de Skype difusión, la privacidad de presencia y las notificaciones del dispositivo móvil para todos los usuarios Skype Empresarial de su organización.
 
 ### <a name="skype-meeting-broadcast"></a>Difusión de reunión de Skype
 
@@ -49,15 +54,15 @@ En el panel de navegación izquierdo del Microsoft Teams de administración, vay
 <a name="sfb-org-wide-broadcast"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Use la siguiente configuración para administrar la [difusión Skype reunión](https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d) en su organización.
+Use la siguiente configuración para administrar [Reunión de Skype Difusión](https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d) en su organización.
 
-:::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="Captura de pantalla Skype configuración de difusión de reunión en el centro de administración.":::
+:::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="Captura de pantalla de Reunión de Skype configuración de Difusión en el centro de administración.":::
 
-- **Skype difusión de reunión**: active esta opción para habilitar Skype difusión de reunión para su organización. Después de habilitar esta característica, debe configurar la red para la difusión Skype [reunión](/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast).
-- **Vea características de vista previa**: Active esta opción para obtener acceso anticipado a las nuevas características.
-- **Los organizadores pueden programar reuniones anónimas**: active esta opción si quiere permitir que los organizadores creen eventos de difusión que permitan a cualquier persona de fuera de su organización unirse sin tener que iniciar sesión. 
-- **Grabar Skype reuniones de difusión de reunión**: active esta opción para permitir que los organizadores y los presentadores graben reuniones.  
-- **Dirección URL de soporte técnico para los asistentes**: escriba la dirección URL de soporte técnico de su organización que los asistentes a la reunión pueden usar si necesitan ayuda durante una reunión.
+- **Reunión de Skype difusiones**: active esta opción para habilitar Reunión de Skype Difusión para su organización. Después de habilitar esta característica, debe [configurar la red para Reunión de Skype Difusión](/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast).
+- **Consulta las características de vista previa**: actívalo para obtener acceso anticipado a nuevas características.
+- **Los organizadores pueden programar reuniones anónimas**: active esta opción si quiere permitir que los organizadores creen eventos de difusión que permitan a cualquier persona de fuera de la organización unirse sin tener que iniciar sesión. 
+- **Grabar Reunión de Skype Difundir reuniones**: active esta opción para permitir que los organizadores y moderadores graben reuniones.  
+- **Dirección URL del departamento de soporte técnico para los asistentes**: escriba la dirección URL de soporte técnico de su organización que los asistentes a la reunión pueden usar si necesitan ayuda durante una reunión.
 
 ### <a name="presence-and-mobile-notifications"></a>Notificaciones de presencia y móvil
 
@@ -66,20 +71,20 @@ Use la siguiente configuración para administrar la [difusión Skype reunión](h
 <!-- Do not remove the bookmark link above. -->
 
 
-Use la siguiente configuración para administrar la privacidad Skype Empresarial presencia y las notificaciones móviles en su organización.
+Use la siguiente configuración para administrar Skype Empresarial privacidad de presencia y notificaciones móviles en su organización.
 
-:::image type="content" source="media/skype-for-business-settings-presence-mobile.png" alt-text="Captura de pantalla de la configuración de presencia en el Centro de administración.":::
+:::image type="content" source="media/skype-for-business-settings-presence-mobile.png" alt-text="Captura de pantalla de la configuración de presencia en el centro de administración.":::
 
 #### <a name="presence"></a>Presence
 
-De forma predeterminada, Skype Empresarial usuarios de su organización pueden ver el estado de presencia (como Disponible, Ocupado o Fuera) de otros Skype Empresarial usuarios. Elija una de las siguientes opciones para establecer quién puede ver la presencia de Skype Empresarial usuarios.
+De forma predeterminada, Skype Empresarial los usuarios de su organización pueden ver el estado de presencia (como Disponible, Ocupado o Ausente) de otros usuarios de Skype Empresarial. Elija una de las siguientes opciones para establecer quién puede ver la presencia de los usuarios de Skype Empresarial.
 
-- **Mostrar automáticamente la** información de presencia: cualquier usuario de Skype Empresarial de su organización que no se haya agregado a la lista de bloqueados o externos del  usuario puede ver la presencia de ese usuario.
-- **Mostrar la información** de presencia solo a los contactos de un usuario: cualquier usuario de Skype Empresarial en la lista contactos del usuario que no se agrega a su lista de  externos  o bloqueados puede ver la presencia de ese usuario. Los usuarios pueden invalidar esta configuración en Skype Empresarial yendo **a Configuración** >  **ToolsOptions** > .
+- **Mostrar automáticamente la información de presencia**: cualquier usuario Skype Empresarial de la organización que no se haya agregado a la lista **de usuarios externos** o **bloqueados** puede ver la presencia de ese usuario.
+- **Mostrar información de presencia solo a los contactos de un usuario**: cualquier usuario Skype Empresarial de la lista de contactos del usuario que no se agregue a su lista **externa** o **bloqueada** puede ver la presencia de ese usuario. Los usuarios pueden invalidar esta configuración en Skype Empresarial yendo a **opciones** **de Configuración** >  **Tools** > .
 
 #### <a name="mobile-notifications"></a>Notificaciones móviles
 
-Puede establecer si los usuarios de Skype Empresarial móviles obtienen alertas sobre mensajes instantáneos entrantes y perdidos, mensajes de correo de voz y llamadas perdidas a través de un servicio de notificaciones push. Según los dispositivos móviles usados en su organización, puede usar el servicio de notificaciones push de **Microsoft**, el servicio de notificaciones **push de Apple** o ambos.
+Puede establecer si sus Skype Empresarial usuarios móviles reciben alertas sobre mensajes instantáneos entrantes y perdidos, mensajes de correo de voz y llamadas perdidas a través de un servicio de notificaciones push. En función de los dispositivos móviles que se usen en su organización, puede usar el **Servicio de notificaciones push de Microsoft**, el **Servicio de notificaciones de inserción de Apple** o ambos.
 
 Tenga en cuenta lo siguiente:
 
@@ -90,33 +95,33 @@ Tenga en cuenta lo siguiente:
 > [!IMPORTANT]
 > Microsoft usa otras empresas que proporcionan notificaciones móviles para Skype Empresarial en tiempo real para usuarios de Windows Phone, iPhone y iPad. Consulte esta [Declaración de privacidad](https://go.microsoft.com/fwlink/p/?linkid=247732).
 
-## <a name="manage-skype-for-business-settings-for-individual-users"></a>Administrar Skype Empresarial configuración para usuarios individuales
+## <a name="manage-skype-for-business-settings-for-individual-users"></a>Administrar la configuración de Skype Empresarial para usuarios individuales
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="sfb-user-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Para administrar la configuración de Skype Empresarial para usuarios individuales, en la navegación izquierda del centro de administración de Teams, vaya a **Usuarios, haga** clic en el nombre para mostrar del usuario para abrir la página de detalles del usuario y, a continuación, seleccione la pestaña **configuración** Skype Empresarial usuario. Desde aquí, puede configurar el acceso externo y la configuración de la reunión para el usuario.
+Para administrar la configuración de Skype Empresarial para usuarios individuales, en el panel de navegación izquierdo del Centro de administración de Teams, vaya a **Usuarios**, haga clic en el nombre para mostrar del usuario para abrir la página de detalles del usuario y, a continuación, seleccione la pestaña **configuración de Skype Empresarial**. Desde aquí, puede configurar las opciones de acceso externo y reunión para el usuario.
 
-:::image type="content" source="media/skype-for-business-settings-user.png" alt-text="Captura de pantalla Skype Empresarial pestaña en la página de detalles del usuario.":::
+:::image type="content" source="media/skype-for-business-settings-user.png" alt-text="Captura de pantalla de Skype Empresarial pestaña en la página de detalles del usuario.":::
 
 ### <a name="external-access-settings"></a>Configuración de acceso externo
 
-Puede permitir o bloquear selectivamente si un usuario puede comunicarse con personas ajenas a su organización.
+Puede permitir o bloquear selectivamente si un usuario puede comunicarse con personas de fuera de su organización.
 
-- **Usuarios Skype Empresarial externos**: Active esta opción si desea permitir que el usuario se comunique con Skype Empresarial en dominios federados.
-- **Usuarios Skype externos**: Active esta opción si desea permitir que el usuario se comunique con Skype usuarios. 
+- **Usuarios de Skype Empresarial externos**: active esta opción si desea permitir que el usuario se comunique con Skype Empresarial usuarios en dominios federados.
+- **Usuarios Skype externos**: active esta opción si desea permitir que el usuario se comunique con Skype usuarios. 
 
 ### <a name="meeting-settings"></a>Configuración de las reuniones
 
 Puede configurar las siguientes opciones de reunión para el usuario.
 
-- **Audio & vídeo**: elija una de las siguientes opciones de configuración de audio y vídeo:
+- **Vídeo de & de** audio: Elija una de las siguientes opciones de configuración de audio y vídeo:
 
     - **Ninguno**: el usuario no puede usar audio o vídeo.
-    - **Solo audio**: el usuario puede usar audio, pero no vídeo.
+    - **Solo audio**: el usuario puede usar el audio, pero no el vídeo.
     - **Audio y vídeo**: el usuario puede usar audio y vídeo.
-    - **Audio y vídeo (HD):** El usuario puede usar audio y vídeo de alta definición.
+    - **Audio y vídeo (HD):** el usuario puede usar audio y vídeo de alta definición.
     
-- **Grabar conversaciones & reuniones**: active esta opción para permitir que el usuario grabe conversaciones y reuniones.
-- **Cumplimiento**: Active esta opción si se le exige legalmente conservar la información almacenada electrónicamente.
+- **Grabar conversaciones & reuniones**: active esta opción para permitir al usuario grabar conversaciones y reuniones.
+- **Cumplimiento** normativo: active esta opción si se le exige legalmente conservar la información almacenada electrónicamente.

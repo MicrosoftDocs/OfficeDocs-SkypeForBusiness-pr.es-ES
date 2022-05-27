@@ -1,5 +1,5 @@
 ---
-title: Configuración de administrador de padres en Teams para Educación
+title: Administración configuración de Padres en Teams para Educación
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393874"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676132"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar la conexión principal en Microsoft Teams para Educación
 
@@ -102,8 +102,8 @@ Los profesores pueden bloquear a un tutor en el chat iniciado en conexión con l
 
 El propietario de la clase puede:
 
-1. Abre la tarjeta de perfil del tutor, selecciona los puntos suspensivos y **Bloquear usuario**. 
-2. A continuación, quita al tutor del chat. 
+1. Abre la tarjeta de perfil del tutor, selecciona los puntos suspensivos y **Bloquear usuario**.
+2. A continuación, quita al tutor del chat.
 
 El usuario bloqueado no podrá iniciar chats adicionales con el propietario de la clase.
 

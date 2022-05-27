@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a00561f10e78a18acc146df4ed8a76b103c937c9
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: b6fb93bf7f8e3278ba4fba16604769c6f8f10e36
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514571"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681611"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Iniciar sesión en Microsoft Teams
 
@@ -84,7 +84,7 @@ Las siguientes imágenes muestran cómo los usuarios pueden agregar varias cuent
 
 ## <a name="restrict-sign-in-to-teams"></a>Restringir el inicio de sesión en Teams
 
-Es posible que la organización quiera restringir el uso de aplicaciones aprobadas por la empresa en los dispositivos administrados, por ejemplo, para restringir la capacidad de los estudiantes o empleados de acceder a los datos de otras organizaciones e incluso utilizar aplicaciones aprobadas por la empresa para situaciones personales. Estas restricciones se pueden aplicar al establecer directivas de dispositivos que reconozcan las aplicaciones de equipo.
+Para ello, es posible que la organización quiera restringir el uso de aplicaciones aprobadas por la empresa en los dispositivos administrados, por ejemplo, para restringir la capacidad de los estudiantes o empleados de acceder a los datos de otras organizaciones e incluso utilizar aplicaciones aprobadas por la empresa para situaciones personales. Estas restricciones se pueden aplicar al establecer directivas de dispositivos que reconozcan las aplicaciones de equipo.
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>Cómo restringir el inicio de sesión en dispositivos móviles
 
@@ -112,7 +112,7 @@ Para crear una directiva de configuración de aplicaciones para dispositivos And
 
 Las aplicaciones de Teams en Windows y macOS son compatibles con las directivas de dispositivos que restringen el inicio de sesión en su organización. Las directivas se pueden establecer mediante soluciones usuales de administración de dispositivos como MDM (administración de dispositivos móviles) o GPO (objeto de directiva de grupo). 
 
-Cuando esta directiva está configurada en un dispositivo, los usuarios solo pueden iniciar sesión con las cuentas hospedadas en un inquilino de Azure AD que se incluye en la "lista de permitidos de inquilino" definida en la directiva. La directiva se aplica a todos los inicios de sesión, entre los que se incluyen la primera cuenta y las cuentas adicionales. Si su organización abarca varios inquilinos de Azure AD, puede incluir varios Id. de inquilinos en la lista de permitidos. Es posible que los vínculos para agregar otra cuenta sigan siendo visibles en la aplicación de Teams, pero en este caso no se podrán utilizar.
+Cuando esta directiva está configurada en un dispositivo, los usuarios solo pueden iniciar sesión con las cuentas hospedadas en un inquilino de Azure AD que se incluye en la "Lista de permitidos de inquilino" definida en la directiva. La directiva se aplica a todos los inicios de sesión, entre los que se incluyen la primera cuenta y las cuentas adicionales. Si su organización abarca varios inquilinos de Azure AD, puede incluir varios Id. de inquilinos en la lista de permitidos. Es posible que los vínculos para agregar otra cuenta sigan siendo visibles en la aplicación de Teams, pero en este caso no se podrán utilizar.
 
 > [!NOTE]
 > 

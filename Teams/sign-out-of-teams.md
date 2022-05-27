@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b453295c02ef371c06c3adea4c2c8489c0a58468
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 80dd1d2561660c9dbbc72d902380c01fb198429e
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514715"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681961"
 ---
 # <a name="sign-out-of-microsoft-teams"></a>Cerrar sesión en Microsoft Teams
 

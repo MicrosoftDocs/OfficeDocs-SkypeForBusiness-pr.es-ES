@@ -19,20 +19,20 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 8a8e8b21bb3b224586ef7e74f971059070d0a74c
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: d530cc3947c738753f053d126ded1dd77b815009
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059301"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676402"
 ---
-# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams 
+# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 
 ## <a name="network-requirements"></a>Requisitos de red
 
 Si ya ha [optimizado la red para Microsoft 365 u Office 365](/Office365/Enterprise/assessing-network-connectivity), probablemente estará listo para usar Microsoft Teams. En cualquier caso, y especialmente si tiene que implementar Teams en poco tiempo como su primera carga de trabajo de Microsoft 365 u Office 365 con el fin de dar cabida a **trabajadores remotos**, lea lo siguiente antes de la implementación:
 
-1.  ¿Tienen todas sus ubicaciones acceso a Internet para conectarse a Microsoft 365 u Office 365? Además del tráfico web normal, asegúrese de que ha abierto los puertos TCP y las direcciones IP que aparecen para Teams en [Intervalos de direcciones IP y URL de Office 365](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
+1. ¿Tienen todas sus ubicaciones acceso a Internet para conectarse a Microsoft 365 u Office 365? Además del tráfico web normal, asegúrese de que ha abierto los puertos TCP y las direcciones IP que aparecen para Teams en [Intervalos de direcciones IP y URL de Office 365](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
 
     > [!IMPORTANT]
     > Si necesita federar con Skype Empresarial, ya sea local o en línea, tendrá que configurar algunos registros DNS adicionales.
@@ -40,14 +40,14 @@ Si ya ha [optimizado la red para Microsoft 365 u Office 365](/Office365/Enterpri
     >|Registro DNS  |Servicio  |Protocolo  |Prioridad  |Peso  |Puerto  |Destino  |
     >|---------|---------|---------|---------|---------|---------|---------|
     >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
-    
-2.  ¿Tiene un dominio comprobado de Microsoft 365 u Office 365 (por ejemplo, contoso.com)?
-    
+
+2. ¿Tiene un dominio comprobado de Microsoft 365 u Office 365 (por ejemplo, contoso.com)?
+
     - Si su organización no ha implementado Microsoft 365 u Office 365, consulte esta [Introducción](/microsoft-365/admin/admin-overview/get-started-with-office-365).
     - Si su organización aún no ha agregado o configurado un dominio comprobado para Microsoft 365 u Office 365, consulte las [Preguntas más frecuentes de dominios](/microsoft-365/admin/setup/domains-faq).
 
-3.  ¿Ha implementado su organización Exchange Online y SharePoint Online?
-    
+3. ¿Ha implementado su organización Exchange Online y SharePoint Online?
+
     - Si su organización no tiene Exchange Online, vea [Interacción entre Exchange y Microsoft Teams](exchange-teams-interact.md).
     - Si su organización no tiene SharePoint Online, vea [Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams](sharepoint-onedrive-interact.md).
 
@@ -55,12 +55,12 @@ Cuando compruebe que cumple estos requisitos de red, puede que esté listo para 
 
 > [!IMPORTANT]
 > **Para instituciones educativas**: si su organización es una institución educativa y usa un Sistema de información de estudiantes (SIS), [implemente School Data Sync](/schooldatasync/) antes de implementar Teams.
->  
+>
 > **Ejecución local de Skype Empresarial Server**: si su organización ejecuta Skype Empresarial Server (o Lync Server) de forma local, deberá [Configurar Azure AD Connect](/skypeforbusiness/hybrid/configure-azure-ad-connect) para sincronizar su directorio local con Microsoft 365 u Office 365.
 
-### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>Procedimiento recomendado: Supervisar su red con el Panel de calidad de llamadas y el análisis de llamadas 
+### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>Procedimiento recomendado: Supervisar su red con el Panel de calidad de llamadas y el análisis de llamadas
 
-Use el [Panel de calidad de llamadas (CQD)](turning-on-and-using-call-quality-dashboard.md) para sacar conclusiones sobre la calidad de las llamadas y reuniones en Teams. El Panel de calidad de llamadas le permite seguir de cerca la calidad, la confiabilidad y la experiencia del usuario para optimizar su red. El Panel de calidad de llamadas examina la telemetría agregada de toda la organización. Esto puede sacar a la luz patrones generales que permitan identificar problemas y planear soluciones. Además, el Panel de calidad de llamadas proporciona informes de métricas enriquecidos que proporcionan información sobre la calidad, la confiabilidad y la experiencia del usuario generales. 
+Use el [Panel de calidad de llamadas (CQD)](turning-on-and-using-call-quality-dashboard.md) para sacar conclusiones sobre la calidad de las llamadas y reuniones en Teams. El Panel de calidad de llamadas le permite seguir de cerca la calidad, la confiabilidad y la experiencia del usuario para optimizar su red. El Panel de calidad de llamadas examina la telemetría agregada de toda la organización. Esto puede sacar a la luz patrones generales que permitan identificar problemas y planear soluciones. Además, el Panel de calidad de llamadas proporciona informes de métricas enriquecidos que proporcionan información sobre la calidad, la confiabilidad y la experiencia del usuario generales.
 
 Usará las herramientas de [análisis de llamadas](set-up-call-analytics.md) para investigar los problemas de llamada y reunión de un usuario individual.
 
@@ -70,9 +70,9 @@ Las siguientes tareas son opcionales. No son necesarias para implementar Teams, 
 
 Es posible que quiera realizar una optimización de red adicional si:
 
-  - Teams se ejecuta lentamente (quizás tenga ancho de banda insuficiente)
-  - Las llamadas siguen desconectándose (puede deberse a firewalls o bloqueadores de proxy)
-  - Las llamadas tienen distorsiones, se cortan o los interlocutores suenan como robots (puede haber fluctuaciones o pérdida de paquetes)
+- Teams se ejecuta lentamente (quizás tenga ancho de banda insuficiente)
+- Las llamadas siguen desconectándose (puede deberse a firewalls o bloqueadores de proxy)
+- Las llamadas tienen distorsiones, se cortan o los interlocutores suenan como robots (puede haber fluctuaciones o pérdida de paquetes)
 
 Para obtener una explicación más detallada sobre la optimización de redes, con instrucciones para identificar y corregir los problemas de red, consulte [Principios de conectividad de red de Microsoft 365 y Office 365](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles).
 
@@ -117,9 +117,9 @@ Para obtener una explicación más detallada sobre la optimización de redes, co
 <td><p>Le recomendamos que proporcione una ruta alternativa para el tráfico de Teams que omita la red privada virtual (VPN). Esto se conoce como <a href="/windows/security/identity-protection/vpn/vpn-routing">VPN de túnel dividido</a>. De esta forma, el tráfico de Microsoft 365 u Office 365 no pasa por la VPN, sino que va directamente a Microsoft 365 u Office 365. Esto tiene un impacto positivo en la calidad de Teams y reduce la carga desde los dispositivos VPN y la red de la organización. Para implementar una VPN de túnel dividido, consulte con su proveedor de VPN.</p>
 <p>Otras razones por las que recomendamos omitir la VPN:
 <ul>
-<li><p>Por lo general las VPN no se diseñan ni se configuran para admitir elementos multimedia en tiempo real.</p></li> 
-<li><p>Es posible que algunas VPN tampoco admitan UDP (necesario para Teams).</p></li> 
-<li><p>Las VPN también introducen una capa adicional de cifrado en el tráfico multimedia que ya está cifrado.</p></li> 
+<li><p>Por lo general las VPN no se diseñan ni se configuran para admitir elementos multimedia en tiempo real.</p></li>
+<li><p>Es posible que algunas VPN tampoco admitan UDP (necesario para Teams).</p></li>
+<li><p>Las VPN también introducen una capa adicional de cifrado en el tráfico multimedia que ya está cifrado.</p></li>
 <li><p>La conectividad con Teams puede no ser eficiente debido al tráfico de redirección al origen que pasa a través de un dispositivo VPN.</p></li></td>
 </tr>
 <tr class="odd">
@@ -144,7 +144,7 @@ Para obtener una explicación más detallada sobre la optimización de redes, co
 
 Teams está concebido para ofrece las mejores posibilidades de uso compartido de audio, vídeo y contenido, independientemente de las condiciones de su red. Dicho esto, cuando el ancho de banda es insuficiente, Teams da prioridad a la calidad de audio sobre la de vídeo.
 
-Cuando el ancho de banda no está limitado, Teams optimiza la calidad multimedia, incluido el audio de alta fidelidad, una resolución de vídeo de hasta 1080p y hasta 30 fps (fotogramas por segundo) para vídeo y contenido.
+Si el ancho de banda no está limitado, Teams optimizará la calidad multimedia —incluido el audio de alta fidelidad— con una resolución de vídeo de hasta 1080p y hasta 30 fps (fotogramas por segundo) para el vídeo y el contenido.
 
 Esta tabla describe cómo Teams usa el ancho de banda. Teams siempre hace un uso conservador del ancho de banda y puede ofrecer una calidad de vídeo de alta definición con menos de 1,5 Mb/s. El consumo real de ancho de banda en cada llamada de audio o vídeo o reunión varía en función de varios factores, como el diseño de vídeo, la resolución de vídeo y los fotogramas por segundo del vídeo. Cuando se disponga de más ancho de banda, la calidad y el uso se incrementarán para proporcionar la mejor experiencia.
 
@@ -153,7 +153,7 @@ Esta tabla describe cómo Teams usa el ancho de banda. Teams siempre hace un uso
       **Modalidad**
    :::column-end:::
    :::column span="3":::
-      **Requisitos de ancho de banda (velocidad de bits KB/s subida/bajada)**     
+      **Requisitos de ancho de banda (velocidad de bits KB/s subida/bajada)** 
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -304,13 +304,13 @@ Esta tabla describe cómo Teams usa el ancho de banda. Teams siempre hace un uso
 
 Los requisitos de ancho de banda **mínimos**, **recomendados** y para **mejor rendimiento** se basan en el uso por punto de conexión. Normalmente, hay un punto de conexión por usuario, como un equipo o un dispositivo móvil. Sin embargo, si un usuario se une a una reunión de Teams en *ambos*, un equipo *y* un dispositivo móvil, se asocian dos puntos de conexión a ese usuario.
 
-- Los requisitos **mínimos** de ancho de banda para videollamadas son una resolución de hasta 240p, velocidades de fotogramas de contenido de uso compartido de pantalla adaptables de 1,875 a 7,5 fps y vídeo en modo conferencia o galería grande con una resolución de hasta 540p.  
+- Los requisitos **mínimos** de ancho de banda para videollamadas son una resolución de hasta 240p, velocidades de fotogramas de contenido de uso compartido de pantalla adaptables de 1,875 a 7,5 fps y vídeo en modo conferencia o galería grande con una resolución de hasta 540p.
 
-- Los requisitos de ancho de banda **recomendados** para las videollamadas son una resolución de hasta 1080p <sup>\*</sup>, velocidades de fotogramas de contenido de uso compartido de pantalla adaptables de 7,5 a 30 fps y vídeo en modo conferencia o galería grande con una resolución de hasta 1080p <sup>\*</sup>.  
+- Los requisitos de ancho de banda **recomendados** para las videollamadas son una resolución de hasta 1080p <sup>\*</sup>, velocidades de fotogramas de contenido de uso compartido de pantalla adaptables de 7,5 a 30 fps y vídeo en modo conferencia o galería grande con una resolución de hasta 1080p <sup>\*</sup>.
 
 - Las instrucciones de **mejor rendimiento** permiten vídeo de mayor fidelidad para reuniones de más asistentes, entornos de pérdida alta y mayor contenido de movimiento con velocidades de fotogramas de contenido de uso compartido de pantalla adaptables de 15 a 30 fps.
 
-<sup>\*</sup>Espere una calidad de hasta 1080p, pero en función de las condiciones de la red, la resolución y la calidad del vídeo se optimizarán en consecuencia.  
+<sup>\*</sup>Espere una calidad de hasta 1080p, pero en función de las condiciones de la red, la resolución y la calidad del vídeo se optimizarán en consecuencia.
 
 ## <a name="related-topics"></a>Temas relacionados
 

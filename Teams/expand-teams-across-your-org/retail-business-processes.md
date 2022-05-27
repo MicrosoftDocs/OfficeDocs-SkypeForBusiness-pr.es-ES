@@ -12,6 +12,9 @@ ms.date: 03/01/2019
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- microsoftcloud-retail
+- m365solution-retail
+- m365solution-scenario
 ms.localizationpriority: high
 search.appverid: MET150
 searchScope:
@@ -19,12 +22,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f8f831b3e24018dfc3f5ba3cbf2a7767b66398b
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
-ms.translationtype: MT
+ms.openlocfilehash: b5befb4fbb128b9adc099ce9822a4595ec8e5978
+ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64643094"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65753113"
 ---
 # <a name="simplify-business-processes-in-retail-environments"></a>Simplifique los procesos empresariales en entornos comerciales
 

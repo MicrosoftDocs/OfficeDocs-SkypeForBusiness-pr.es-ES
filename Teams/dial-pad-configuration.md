@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar el teclado de marcado en el cliente de Teams para que los usuarios puedan acceder a la funcionalidad de la red telefónica conmutada (RTC).
-ms.openlocfilehash: 7fc2622ce0fda97ce608e13d67ff786431a30aa5
-ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
+ms.openlocfilehash: 6aa5edf8f57574fa08a224541772c1f9e662f9ca
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65248932"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676162"
 ---
 # <a name="dial-pad-configuration"></a>Configuración del teclado de marcado
 
@@ -42,19 +42,18 @@ Asegúrese de que el plan asignado para el usuario muestra el **atributo Capabil
 
 Para comprobar que los atributos están establecidos correctamente, use el siguiente comando:
 
-```
+```PowerShell
 (Get-CsOnlineUser -Identity $user).AssignedPlan
 ```
 
 El resultado será similar al siguiente. Solo necesita comprobar los atributos **CapabilityStatus** y **Capability** :
 
-```
+```PowerShell
 AssignedTimestamp   Capability      CapabilityStatus ServiceInstance                          ServicePlanId
 -----------------   ----------      ---------------- ---------------                          -------------
-07-02-2020 12:28:48 MCOEV           Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 4828c8ec-dc2e-4779-b502-…
-07-02-2020 12:28:48 Teams           Enabled          TeamspaceAPI/NA001                       57ff2da0-773e-42df-b2af-…
+07-02-2020 12:28:48 MCOEV           Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 4828c8ec-dc2e-4779-b502-...
+07-02-2020 12:28:48 Teams           Enabled          TeamspaceAPI/NA001                       57ff2da0-773e-42df-b2af-...
 ```
-
 
 ## <a name="user-has-microsoft-calling-plan-operator-connect-or-is-enabled-for-direct-routing"></a>El usuario tiene el plan de llamadas de Microsoft, Conexión con operador O está habilitado para el enrutamiento directo
 
@@ -62,42 +61,43 @@ AssignedTimestamp   Capability      CapabilityStatus ServiceInstance            
 
 Para comprobar los atributos, use el siguiente comando:
 
-```
+```PowerShell
 (Get-CsOnlineUser -Identity $user).AssignedPlan
 ```
 
 El resultado será similar al siguiente. Solo necesita comprobar los atributos **CapabilityStatus** y **Capability** :
 
-```  
+```PowerShell
 AssignedTimestamp   Capability      CapabilityStatus ServiceInstance                          ServicePlanId
 -----------------   ----------      ---------------- ---------------                          -------------
-07-02-2020 12:28:48 MCOEV           Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 4828c8ec-dc2e-4779-b502-…
-07-02-2020 12:28:48 MCOPSTN2        Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 5a10155d-f5c1-411a-a8ec-…
-07-02-2020 12:28:48 Teams           Enabled          TeamspaceAPI/NA001                       57ff2da0-773e-42df-b2af-…
+07-02-2020 12:28:48 MCOEV           Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 4828c8ec-dc2e-4779-b502-...
+07-02-2020 12:28:48 MCOPSTN2        Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 5a10155d-f5c1-411a-a8ec-...
+07-02-2020 12:28:48 Teams           Enabled          TeamspaceAPI/NA001                       57ff2da0-773e-42df-b2af-...
 ```
+
 **Si el usuario está habilitado para Conexión con operador**, el usuario debe tener un valor no nulo para TeamsCarrierEmergencyCallRoutingPolicy. Para comprobar el atributo, use el siguiente comando:
-  
-```
+
+```PowerShell
 Get-CsOnlineUser -Identity $user|Select TeamsCarrierEmergencyCallRoutingPolicy
 ```
 
 El resultado debe tener un valor no nulo, por ejemplo:
 
-```
+```PowerShell
 TeamsCarrierEmergencyCallRoutingPolicy
 --------------------------------------
 Synergy_98d1a5cb-d3e6-4306-885e-69a95f2da5c3
 ```
 
 **Si el usuario está habilitado para Direct Routing**, se debe asignar al usuario un valor no nulo para OnlineVoiceRoutingPolicy. Para comprobar el atributo, use el siguiente comando:
-  
-```
-Get-CsOnlineUser -Identity $user|Select OnlineVoiceRoutingPolicy 
+
+```PowerShell
+Get-CsOnlineUser -Identity $user|Select OnlineVoiceRoutingPolicy
 ```
 
 El resultado debe tener un valor no nulo, por ejemplo:
 
-```
+```PowerShell
 OnlineVoiceRoutingPolicy
 ------------------------
 Test_Policy
@@ -107,30 +107,29 @@ Test_Policy
 
 Para comprobar si el usuario tiene Telefonía IP empresarial habilitado, use el siguiente comando:
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity $user|Select EnterpriseVoiceEnabled
 ```
 
 La salida debe tener el siguiente aspecto:
 
-```
+```PowerShell
 EnterpriseVoiceEnabled
 ----------------------
                   True
-
 ```
- 
+
 ## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>El usuario está alojado en línea y no en Skype Empresarial local
 
 Para asegurarse de que el usuario está alojado en línea y no en Skype Empresarial local, el RegistrarPool no debe ser null y HostingProvider debe contener un valor que empiece por "sipfed.online".  Para comprobar los valores, use el siguiente comando:
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider
 ```
 
 La salida debe ser similar a:
 
-```
+```PowerShell
 RegistrarPool                 HostingProvider
 -------------                 ---------------
 sippoolbn10M02.infra.lync.com sipfed.online.lync.com
@@ -142,13 +141,13 @@ TeamsCallingPolicy eficaz del usuario debe tener AllowPrivateCalling establecido
 
 Para obtener TeamsCallingPolicy para un usuario y comprobar que AllowPrivateCalling está establecido en true, use el siguiente comando:
 
-```
+```PowerShell
 if (($p=Get-CsUserPolicyAssignment -Identity $user -PolicyType TeamsCallingPolicy) -eq $null) {Get-CsTeamsCallingPolicy -Identity Global} else {Get-CsTeamsCallingPolicy -Identity $p.PolicyName}
 ```
 
 La salida debe tener el siguiente aspecto:
 
-```
+```PowerShell
 Identity                   : Global
 Description                :
 AllowPrivateCalling        : True
@@ -161,20 +160,18 @@ AllowCallForwardingToPhone : True
 PreventTollBypass          : False
 BusyOnBusyEnabledType      : Disabled
 MusicOnHoldEnabledType     : Enabled
-``` 
+```
 
 ## <a name="additional-notes"></a>Notas adicionales
 
--   Es posible que tenga que reiniciar el cliente de Teams después de realizar cualquiera de estos cambios de configuración.
+- Es posible que tenga que reiniciar el cliente de Teams después de realizar cualquiera de estos cambios de configuración.
 
--   Si ha actualizado recientemente cualquiera de los criterios anteriores, es posible que tenga que esperar unas horas hasta que el cliente reciba la nueva configuración.
+- Si ha actualizado recientemente cualquiera de los criterios anteriores, es posible que tenga que esperar unas horas hasta que el cliente reciba la nueva configuración.
 
--   Si sigue sin ver el teclado de marcado, compruebe si hay un error de aprovisionamiento mediante el siguiente comando:
+- Si sigue sin ver el teclado de marcado, compruebe si hay un error de aprovisionamiento mediante el siguiente comando:
 
-  ```
+  ```PowerShell
   Get-CsOnlineUser -Identity $user|Select UserValidationErrors
   ```
 
--    Si han transcurrido más de 24 horas y sigues viendo problemas, ponte en contacto con soporte técnico.
-
-
+- Si han transcurrido más de 24 horas y sigues viendo problemas, ponte en contacto con soporte técnico.

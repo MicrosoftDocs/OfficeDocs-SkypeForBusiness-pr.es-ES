@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para grandes organizaciones en Microsoft Teams.
-ms.openlocfilehash: a0b50a83e54059dca68562c2140ece6253448dd0
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 5f4b4f21f2e1cca8c8bbc350541cdd861b1bda3f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059101"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674372"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -128,7 +128,7 @@ Si no ha asignado claves de marcado, elija una opción para **Búsqueda en el di
 
 **Marcar por extensión** : si habilita esta opción, los autores de llamadas pueden conectarse con los usuarios de su organización marcando su extensión de teléfono. Cualquier usuario en línea o cualquier usuario hospedado localmente mediante Skype Empresarial Server, es un usuario apto y puede encontrarse con **Marcado por extensión**. (Puede establecer quién está y quién no está incluido en el directorio en la página [Ámbito de marcado](#dial-scope) ).
 
-Los usuarios que desea que estén disponibles para Marcado por extensión deben tener una extensión especificada como parte de uno de los siguientes atributos del teléfono definidos en Active Directory (y sincronizados a través de Azure AD Conectar) o Azure Active Directory. (Vea [Agregar usuarios individualmente o de forma masiva](/microsoft-365/admin/add-users/add-users) para obtener más información).
+Los usuarios que quiera que estén disponibles para Marcado por extensión deben tener una extensión especificada como parte de uno de los siguientes atributos del teléfono definidos en Active Directory (y sincronizados a través de azure AD Conectar) o Azure Active Directory. (Vea [Agregar usuarios individualmente o de forma masiva](/microsoft-365/admin/add-users/add-users) para obtener más información).
 
 - OfficePhone/TelephoneNumber (AD y Azure AD)
 - HomePhone (AD)
@@ -318,7 +318,7 @@ Para obtener una guía paso a paso para crear operadores automáticos con PowerS
 
 Si es administrador, puede usar la siguiente herramienta de diagnóstico para validar que un operador automático pueda recibir llamadas:
 
-1. Seleccione **Ejecutar pruebas** a continuación, lo cual rellenará el diagnóstico en el Centro de administración de Microsoft 365. 
+1. Seleccione **Ejecutar pruebas** a continuación. Esto rellenará el diagnóstico en el Centro de administración de Microsoft 365. 
 
    > [!div class="nextstepaction"]
    > [Ejecutar pruebas: Teams operador automático](https://aka.ms/TeamsAADiag)

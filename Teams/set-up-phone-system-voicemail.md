@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar Correo de voz en la nube para los usuarios.
-ms.openlocfilehash: 96c96f85625d0cda7e6d7a28a59d6c9415f2bb79
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 6a75856954da509677a1c9ccdb54e34055f171ed
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922631"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681411"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar el Correo de voz en la nube
 
@@ -67,7 +67,7 @@ Para administrar Correo de voz en la nube características para grupos de usuari
 Puede configurar y asignar directivas de correo de voz nuevas o existentes para características como reglas de respuesta de llamadas, transcripción del correo de voz, enmascaramiento de lenguaje profanado de transcripción, traducción de transcripción e idioma de mensaje del sistema. Para obtener más información, consulte [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy).
 
 Para administrar Correo de voz en la nube configuración para usuarios individuales, use el cmdlet [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings). Correo de voz en la nube la configuración que puede aplicar a usuarios individuales incluye reglas de respuesta de llamadas, idioma del mensaje, texto a voz predeterminado y saludos de vacaciones. Para obtener más información, vea [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings).
-(Tenga en cuenta que los usuarios finales también pueden configurar estas opciones en el cliente de Teams yendo a **Configuración** ->  **CallsConfigure** ->  **Voicemail**).
+(Tenga en cuenta que los usuarios finales también pueden configurar estas opciones en el cliente de Teams yendo a **Configuración** ->  **Calls** -> **Configure Voicemail**).
 
 También puede deshabilitar Correo de voz en la nube para un usuario mediante el cmdlet [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) y establecer el parámetro VoicemailEnabled en $false. Esta configuración garantizará que Correo de voz en la nube ya no pueda grabar un correo de voz del usuario.
 
@@ -75,7 +75,7 @@ También puede deshabilitar Correo de voz en la nube para un usuario mediante el
 
 La configuración predeterminada para todos los usuarios aprovisionados para Correo de voz en la nube es permitir el enrutamiento de llamadas a Correo de voz en la nube y permitir que los usuarios desvíen llamadas a Correo de voz en la nube.
 
-Puede controlar si se permite el enrutamiento de llamadas a Correo de voz en la nube para Teams usuarios mediante el cmdlet Set-CsTeamsCallingPolicy con el parámetro AllowVoicemail. Para obtener más información,  [consulteSet-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+Puede controlar si se permite el enrutamiento de llamadas a Correo de voz en la nube para Teams usuarios mediante el cmdlet Set-CsTeamsCallingPolicy con el parámetro AllowVoicemail. Para obtener más información, consulte [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
 - Si establece AllowVoicemail en AlwaysDisabled, las llamadas nunca se enrutan al correo de voz, independientemente de la configuración de desvío de llamadas o de la configuración no respondida de un usuario. El correo de voz no está disponible como opción de desvío de llamadas o no respondida en Teams.
 
@@ -99,36 +99,34 @@ La siguiente información es sobre cómo configurar Correo de voz en la nube par
 
 ## <a name="enable-protected-voicemail-in-your-organization"></a>Habilitar el correo de voz protegido en su organización
 
-Cuando alguien deja un mensaje de correo de voz de un usuario de su organización, el correo de voz se entrega al buzón del usuario como datos adjuntos de un mensaje de correo electrónico. 
+Cuando alguien deja un mensaje de correo de voz de un usuario de su organización, el correo de voz se entrega al buzón del usuario como datos adjuntos de un mensaje de correo electrónico.
 
-Con microsoft Purview Information Protection, puede cifrar los mensajes de correo de voz que dejan los autores de llamadas internos y externos. También puede impedir que el usuario reenvíe estos mensajes. Esta característica es compatible con los usuarios con buzones de Exchange Online.
+Con Microsoft Purview Information Protection, puede cifrar los mensajes de correo de voz que dejan los autores de llamadas internos y externos. También puede impedir que el usuario reenvíe estos mensajes. Esta característica es compatible con los usuarios con buzones de Exchange Online.
 
-Para cifrar el mensaje de correo de voz, puede crear una etiqueta de confidencialidad. Con la característica de etiquetado automático, puede asegurarse de que la etiqueta se aplicará automáticamente a los mensajes de correo de voz entrantes. 
+Para cifrar el mensaje de correo de voz, puede crear una etiqueta de confidencialidad. Con la característica de etiquetado automático, puede asegurarse de que la etiqueta se aplicará automáticamente a los mensajes de correo de voz entrantes.
 
 Al habilitar el correo de voz protegido, los usuarios pueden escuchar mensajes de correo de voz protegidos llamando a su buzón de correo de voz o abriendo el mensaje en Outlook, Outlook en la Web o Outlook para Android o iOS. Los mensajes de correo de voz protegidos no se pueden abrir en Microsoft Teams ni en Skype Empresarial.
 
-Para crear una etiqueta de confidencialidad para el correo de voz, vea [Usar etiquetas de confidencialidad](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). En la sección **Cifrado** , elija **Permitir que los usuarios asignen permisos al aplicar la etiqueta**. Seleccione **En Outlook, aplique una de las siguientes restricciones** y, a continuación, seleccione la opción **No reenviar**.
+Para crear una etiqueta de confidencialidad para el correo de voz, vea [Usar etiquetas de confidencialidad](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions). En la sección **Cifrado** , elija **Permitir que los usuarios asignen permisos al aplicar la etiqueta**. Seleccione **En Outlook, aplique una de las siguientes restricciones** y, a continuación, seleccione la opción **No reenviar**.
 
-Para crear la directiva de etiquetado automático para aplicar una etiqueta de confidencialidad al correo de voz, consulte [Cómo configurar directivas de etiquetado automático](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) y especifique las siguientes opciones específicas:
+Para crear la directiva de etiquetado automático para aplicar una etiqueta de confidencialidad al correo de voz, consulte [Cómo configurar directivas de etiquetado automático](/microsoft-365/compliance/apply-sensitivity-label-automatically#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) y especifique las siguientes opciones específicas:
 
--   En **Elegir la información a la que desea aplicar esta etiqueta**, seleccione **Directiva personalizada**.
+- En **Elegir la información a la que desea aplicar esta etiqueta**, seleccione **Directiva personalizada**.
 
--   En **Elegir las ubicaciones donde desea aplicar la etiqueta**, seleccione **Ubicaciones: Exchange para todos los usuarios**.
+- En **Elegir las ubicaciones donde desea aplicar la etiqueta**, seleccione **Ubicaciones: Exchange para todos los usuarios**.
 
--   Para  **Configurar reglas comunes o avanzadas**, selecciona **Reglas avanzadas**.
+- Para  **Configurar reglas comunes o avanzadas**, selecciona **Reglas avanzadas**.
 
 - Exchange reglas:
-    - Condiciones:<br>
-        - **Patrón de coincidencias de encabezado:**<br>
-              Content-Class = Voice-CA
-       -  **La dirección IP del remitente es:**<br>
-               13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
+  - Condiciones:
+    - **Patrón de coincidencias de encabezado**: Content-Class = Voice-CA
+    - **La dirección IP del remitente es**: 13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
 
 - Para **Elegir una etiqueta para aplicar automáticamente**, seleccione la etiqueta de confidencialidad que creó para el correo de voz en el paso anterior.
 
-- Para obtener **más opciones de configuración para el correo electrónico**, seleccione **Aplicar cifrado al correo electrónico recibido de fuera de la organización** y especifique el propietario de Rights Management.
+- Para obtener **más opciones de configuración para el correo electrónico**, seleccione **Aplicar cifrado al correo recibido de fuera de la organización** y especifique el propietario de la Rights Management.
 
-Los intervalos IP V4 especificados en Dirección IP del remitente se basan en la lista id. 12 de [Office 365 direcciones URL e intervalos de direcciones IP](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams).
+Los intervalos IP V4 especificados en Dirección IP del remitente se basan en la lista id. 12 de [Office 365 direcciones URL e intervalos de direcciones IP](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
 
 Para obtener más información sobre el cifrado de mensajes, vea [Definir reglas de flujo de correo para cifrar mensajes de correo electrónico](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).
 

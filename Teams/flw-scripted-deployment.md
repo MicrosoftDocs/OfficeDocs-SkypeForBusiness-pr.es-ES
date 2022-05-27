@@ -19,12 +19,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 7123d45819f6e956ecf562fd321e7762b50e5ae6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "61545011"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674662"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Cómo proporcionar Teams a escala para personal de primera línea
 
@@ -214,8 +214,8 @@ La aplicaciones se anclan a la barra de aplicaciones. Esta es la barra situada e
 
 Se pueden personalizar las siguientes configuraciones para satisfacer las necesidades de su empresa. Hemos elegido algunas opciones recomendadas basándonos en las prácticas recomendadas y mejorar la facilidad de incorporación de nuevos usuarios a escala. Para obtener más información, haga clic [here](teams-app-setup-policies.md).
 
-1. En el panel de navegación izquierda del centro de administración de Microsoft Teams, vaya a  **Directivas de** > **configuración de aplicaciones de Teams**.
-2. Haga clic en **Agregar**.  
+1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Directivas de configuración**.
+2. Haga clic en **Agregar**.  
 3. Escriba un nombre y una descripción para la directiva. Por ejemplo, Directiva de configuración de la aplicación para administradores de primera línea.
     :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Captura de pantalla del nombre y descripción de ejemplo de la directiva de configuración de aplicaciones del administrador de primera línea.":::
 
@@ -227,7 +227,7 @@ Se pueden personalizar las siguientes configuraciones para satisfacer las necesi
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Captura de pantalla de Agregar aplicaciones ancladas en la que se muestra el botón Agregar de la aplicación Turnos":::
 
 7. Quitar Llamada, si aparece. Si quita esta función no se deshabilitará para el usuario, sino que se evitará que aparezca en la barra de aplicaciones para simplificar la experiencia del usuario final.
-8. Organice las aplicaciones de la siguiente forma para dictar su orden en la barra de aplicaciones de Teams y luego, haga clic en  **Guardar**.
+8. Organice las aplicaciones de la siguiente forma para dictar su orden en la barra de aplicaciones de Teams y luego, haga clic en **Guardar**.
 
     - Actividad
     - Chat
@@ -241,8 +241,8 @@ Se pueden personalizar las siguientes configuraciones para satisfacer las necesi
 
 Se pueden personalizar las siguientes configuraciones para satisfacer las necesidades de su empresa. Hemos elegido algunas opciones recomendadas basándonos en las prácticas recomendadas y mejorar la facilidad de incorporación de nuevos usuarios a escala. Para obtener más información, haga clic [here](teams-app-setup-policies.md).
 
-1. En el panel de navegación izquierda del centro de administración de Microsoft Teams, vaya a  **Directivas de** > **configuración de aplicaciones de Teams**.
-2. Haga clic en **Agregar**.
+1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Directivas de configuración**.
+2. Haga clic en **Agregar**.
 3. Escriba un nombre y una descripción para la directiva. Por ejemplo: directiva de configuración de la aplicación para personal de primera línea.
     :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Captura de pantalla del nombre de ejemplo y la descripción de la directiva de configuración de la aplicación para personal de primera línea.":::
 
@@ -255,7 +255,7 @@ Se pueden personalizar las siguientes configuraciones para satisfacer las necesi
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Captura de pantalla de Agregar aplicaciones ancladas en la que se muestra el botón Agregar de la aplicación Turnos":::
 
 7. Quitar Reuniones y Llamadas, si aparecen. Si quita estas funciones no se deshabilitarán para el usuario, sino que se evitará que aparezcan en la barra de aplicaciones para simplificar la experiencia del usuario final.
-8. Organice las aplicaciones de la siguiente forma para dictar su orden en la barra de aplicaciones de Teams y luego, haga clic en  **Guardar**.
+8. Organice las aplicaciones de la siguiente forma para dictar su orden en la barra de aplicaciones de Teams y luego, haga clic en **Guardar**.
     - Actividad
     - Chat
     - Teams
@@ -273,31 +273,31 @@ Como administrador, puede usar las directivas de permisos de aplicación para co
 
 Se pueden personalizar las siguientes configuraciones para satisfacer las necesidades de su empresa. Estas son algunas de las opciones recomendadas en base a las prácticas recomendadas para mejorar el nivel de incorporación fácil de los nuevos usuarios. Para más información, haga clic [aquí](teams-app-permission-policies.md).
 
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a  **Aplicaciones de Teams** > **Directivas de permisos**.
-2. Haga clic en **Agregar**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Directivas de permisos**.
+2. Haga clic en **Agregar**.
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Captura de pantalla de la página Agregar directiva de permisos de la aplicación.":::
 
 3. Escriba un nombre y una descripción para la directiva. Por ejemplo: Directiva de permisos de la aplicación para administradores de primera línea
-4. En  **Microsoft Apps**, seleccione **Permitir todas las aplicaciones**.
-5. En  **Aplicaciones de terceros**, seleccione **Permitir todas las aplicaciones**.
+4. En **Aplicaciones de Microsoft**, seleccione **Permitir todas las aplicaciones**.
+5. En **Aplicaciones de terceros**, seleccione **Permitir todas las aplicaciones**.
 6. En **Aplicaciones personalizadas**, seleccione **Permitir todas las aplicaciones**.
-7. Haga clic en  **Guardar**.
+7. Haga clic en **Guardar**.
 
 #### <a name="create-the-frontline-worker-app-permission-policy"></a>Crear la directiva de permisos de la aplicación para el personal de primera línea
 
 Se pueden personalizar las siguientes configuraciones para satisfacer las necesidades de su empresa. Estas son algunas de las opciones recomendadas en base a las prácticas recomendadas para mejorar el nivel de incorporación fácil de los nuevos usuarios. Para más información, haga clic [aquí](teams-app-permission-policies.md).
 
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a  **Aplicaciones de Teams** > **Directivas de permisos**.
-2. Haga clic en **Agregar**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Directivas de permisos**.
+2. Haga clic en **Agregar**.
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Captura de pantalla de la página Agregar directiva de permisos de la aplicación.":::
 
 3. Escriba un nombre y una descripción para la directiva. Por ejemplo, directiva de permisos de la aplicación para personal de primera línea.
-4. En  **Microsoft Apps**, seleccione **Permitir todas las aplicaciones**.
-5. En  **Aplicaciones de terceros**, seleccione **Bloquear todas las aplicaciones**.
+4. En **Aplicaciones de Microsoft**, seleccione **Permitir todas las aplicaciones**.
+5. En **Aplicaciones de terceros**, seleccione **Bloquear todas las aplicaciones**.
 6. En **Aplicaciones personalizadas**, seleccione **Permitir todas las aplicaciones**.
-7. Haga clic en  **Guardar**.
+7. Haga clic en **Guardar**.
 
 ## <a name="users-and-security-groups"></a>Usuarios y grupos de seguridad
 

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77d33d29a51fe32fff6901fdcb8ba33ecad107f7
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: 0a1a178c279a418c0555f100c48a63c9efe71717
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370903"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681791"
 ---
 # <a name="plan-for-sip-gateway"></a>Planear la puerta de enlace SIP
 
@@ -47,8 +47,7 @@ Sip Gateway conecta dispositivos SIP compatibles a Teams para ayudar a los usuar
 - **Multifrecuencia de tono dual:** Los usuarios de dispositivos SIP pueden presionar las teclas numéricas para proporcionar entrada durante las llamadas interactivas de respuesta de voz.
 - **Teams reuniones:** un usuario de dispositivo SIP puede unirse a una reunión de Teams marcando el número de acceso a la reunión. Los participantes de la reunión pueden agregar un usuario de dispositivo SIP a la reunión llamando al número de teléfono del usuario o simplemente agregando un participante haciendo clic en "Solicitar unirse" también avisará al dispositivo SIP del usuario. Los usuarios invitados de otra organización pueden agregarlos a una reunión de Teams un participante que llama al número de un usuario invitado para incluirlo.
 - **Transferencias de llamadas:** Los usuarios de dispositivos SIP pueden transferir llamadas. Sip Gateway admite transferencias ciegas y consultivas.
-- **Desvío de llamadas local:** Un usuario de dispositivo SIP puede establecer reglas de reenvío (siempre, en tiempo de espera y ocupado) para el dispositivo. Si el dispositivo está conectado a la puerta de enlace SIP, la llamada se redirigirá a la dirección de destino en función de la regla que establezca el usuario del dispositivo. Para que el desvío de llamadas local funcione, el administrador debe establecer el `AllowCallRedirect` atributo en `Set-CsTeamsCallingPolicy` `Enabled`. 
-
+- **Desvío de llamadas local:** Un usuario de dispositivo SIP puede establecer reglas de reenvío (siempre, en tiempo de espera y ocupado) para el dispositivo. Si el dispositivo está conectado a la puerta de enlace SIP, la llamada se redirigirá a la dirección de destino en función de la regla que establezca el usuario del dispositivo. Para que el desvío de llamadas local funcione, el administrador debe establecer el `AllowCallRedirect` atributo en `Set-CsTeamsCallingPolicy` `Enabled`.
 
 ## <a name="requirements-to-use-sip-gateway"></a>Requisitos para usar puerta de enlace SIP
 
@@ -56,7 +55,8 @@ Teams usuarios deben tener un número de teléfono con llamadas RTC habilitadas 
 
 ### <a name="hardware-software-and-licenses"></a>Hardware, software y licencias
 
-Si tiene un dispositivo SIP o 3PIP, debe tener: 
+Si tiene un dispositivo SIP o 3PIP, debe tener:
+
 - Una licencia para Sistema telefónico (a través de E5 o una licencia independiente)
 - Habilitación de RTC (es decir, un número de teléfono) a través de un plan de llamadas de Microsoft Teams, enrutamiento directo o Conexión con operador
 - Una licencia de área común Teléfono para los dispositivos de área común

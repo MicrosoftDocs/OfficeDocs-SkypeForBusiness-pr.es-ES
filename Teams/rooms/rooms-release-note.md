@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: El administrador puede leer las notas de la versión de Salas de Microsoft Teams, que muestran mejoras acumulativas en Salas de Microsoft Teams.
+description: Administración puede leer las notas de la versión de Salas de Microsoft Teams, que muestran mejoras acumulativas en Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f91c286f08046d1a521d3758f1fc297bf2aa0d59
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 03a23ecb47fb0efca19ce3a7085a1fcc41b80dc3
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187026"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674202"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de la versión para Salas de Microsoft Teams
 
@@ -95,9 +95,9 @@ Salas de Teams se rige por la directiva moderna de ciclo de vida. Consulte [Team
 
 Introducido en esta actualización:
 - Los administradores de TI pueden inscribir un dispositivo de salas de Teams para recibir características de vista previa pública a través de la configuración XML. Una vez inscrito, el dispositivo comenzará a recibir características beta. Todas las características que van a las pruebas beta se anuncian en [Microsoft Teams versión preliminar pública: Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
-- El administrador de TI puede establecer la resolución de pantalla frontal de la sala y escalar de forma remota a través de la configuración <sup>XML2</sup>
-- El administrador de TI puede deshabilitar la supresión de ruido de Microsoft mediante la configuración <sup>XML3</sup> 
-- El administrador de TI puede invalidar la limpieza de la carpeta de descarga en el dispositivo mediante la configuración de la clave del <sup>Registro4</sup>
+- El administrador de TI puede establecer la resolución de pantalla frontal de la sala y el escalado de forma remota a través de la configuración XML<sup>2</sup>
+- El administrador de TI puede deshabilitar la supresión de ruido de Microsoft mediante la configuración XML<sup>3</sup> 
+- El administrador de TI puede invalidar la limpieza de la carpeta de descarga en el dispositivo mediante la configuración<sup>4</sup> de la clave del Registro
 - Permitir a los usuarios unirse a Teams reunión hospedada en otra nube (es decir, el cliente de GCCH puede unirse a reuniones de Teams hospedadas en la nube comercial y viceversa) 
 - Teams salas bloquea el inicio del explorador edge desde las direcciones URL de PowerPoint Live como medida de seguridad adicional para las salas de Teams con pantallas táctiles. 
 - La experiencia Reunirse ahora se ha mejorado para agregar instrucciones para que los usuarios inviten a usuarios a la sala 
@@ -125,21 +125,21 @@ Introducido en esta actualización:
 
 Introducido en esta actualización:
 - Diseño fila frontal (vista previa) para MTR en Windows <sup>1</sup> 
-- Configuración de administración para establecer el diseño de fila frontal como predeterminado  
-- Reunirse ahora y llamar a la actualización de la aplicación solo para Teams, Teams modos de cliente <sup>predeterminados1,2</sup>
-- Cambiar entre varias cámaras de vídeo en Teams <sup>reuniones1</sup> 
+- Administración establecer el diseño fila frontal como predeterminado  
+- Reunirse ahora y llamar a la actualización de la aplicación solo para Teams, Teams modos de cliente<sup>predeterminados 1,2</sup>
+- Cambiar entre varias cámaras de vídeo en Teams reuniones<sup>1</sup> 
 - Configuración predeterminada de la cámara de vídeo 
 - Cortana actualización de iconos push-to-talk en la consola MTR 
 - Inclusión de licencias de Azure AD Premium 1 en room standard y SKU de Premium 
-- AAD compatibilidad de directivas de acceso <sup>condicional3</sup> 
+- Las directivas de acceso condicional de AAD son compatibles con<sup>3</sup> 
 - Cortana activación por voz habilitada de forma predeterminada en la OOBE
-- Compatibilidad con controles PTZ <sup>remotos4</sup>
+- Compatibilidad con los controles PTZ remotos<sup>4</sup>
 
 > <sup>1</sup> Estas características se están implementando con Teams cliente web y se implementarán en las próximas semanas. Más información sobre [las actualizaciones de Teams](../teams-client-update.md) para obtener más información.
 > 
 > <sup>2</sup> salas Teams de Windows que se ejecutan solo en Microsoft Teams o Skype Empresarial y Microsoft Teams (predeterminado) se actualizan con las nuevas experiencias de reunión y llamada, pero otros modos no se ven afectados por esta actualización.
 > 
-> <sup>3</sup> Vea los detalles adicionales sobre cómo configurar AAD directivas de [acceso condicional](../rooms/rooms-authentication.md#azure-ad-conditional-access) para Salas de Teams.
+> <sup>3</sup> Vea más detalles sobre cómo configurar directivas de [acceso condicional de AAD](../rooms/rooms-authentication.md#azure-ad-conditional-access) para Salas de Teams.
 > 
 > <sup>4</sup> Esta característica requiere que los administradores de TI configuren Teams aplicación de controles PTZ remotos del cliente de escritorio.
 > 
@@ -265,7 +265,7 @@ Introducido en esta actualización:
 Introducido en esta actualización:
 
 - Unirse a reuniones WebEx de Cisco desde Salas de Teams con unirse invitado directo
-- Teams habilitación y la inscripción automática del Centro de administración
+- habilitación e inscripción automática del Centro de Teams Administración
 - Soporte técnico de la versión Windows 10 1909
 - Cambiar al diseño de la galería de vídeos incluso cuando el contenido está presente
 - Apoyo para levantar la mano virtual para el asistente y controles para el moderador
@@ -321,7 +321,7 @@ Introducido en esta actualización:
 Introducido en esta actualización:
 
 - Respuesta automática a llamadas basadas en proximidad y configuración de administrador para controlar esto
-- Actualización de la interfaz de usuario Configuración administración de dispositivos con la adición de la configuración del dispositivo en la pestaña Acerca de
+- Actualización de la interfaz de usuario del dispositivo Administración Configuración con la adición de la configuración del dispositivo en la pestaña Acerca de
 - Control de sala volver a la pantalla principal
 - SKU de Sala de reuniones disponible en GCC
 - Compatibilidad con la cámara de contenido para el sistema basado en Surface Pro (compilación mínima necesaria de la aplicación: 4.2.4.0)
@@ -350,9 +350,9 @@ Introducido en esta actualización:
 - Skype aplicación de la tienda room system rebrand to "Salas de Microsoft Teams"
 - Salas de Microsoft Teams interfaz de usuario de la consola vuelve a alinearse con Microsoft Teams
 - Actualización del tema: mantenga solo la imagen de fondo personalizada delante de las pantallas de la sala, mientras convierte el fondo de la consola en un color neutro para garantizar que los controles de la interfaz de usuario de la consola cumplan con el contraste de color( requisitos de accesibilidad
-- Barra universal para los controles de llamada en la reunión de Teams llamadas o reuniones con el fin de proporcionar una experiencia coherente con Microsoft Teams PC/ web/ clientes <sup>móviles1</sup>
-- Calificación de los comentarios sobre la calidad de las llamadas después de Teams llamadas o <sup>reuniones1</sup>
-- Recibir o representar Microsoft Whiteboard en Salas de Microsoft Teams frente a la pantalla de la sala cuando se comparte desde PC/ Web/ Mobile Teams <sup>cliente1</sup> <sup>2</sup>
+- Barra universal para los controles de llamada en la reunión de Teams llamadas o reuniones con el fin de proporcionar una experiencia coherente con Microsoft Teams pc/ web/ clientes móviles<sup>1</sup>
+- Calificación de los comentarios sobre la calidad de las llamadas después de Teams llamadas o reuniones<sup>1</sup>
+- Recibir o representar Microsoft Whiteboard en Salas de Microsoft Teams frente a la pantalla de la sala cuando se comparte desde PC/ Web / Mobile Teams cliente<sup>1</sup> <sup>2</sup>
 - Se ha quitado la compatibilidad con las actualizaciones de Windows 10 versión 1809 debido a problemas de compatibilidad con Salas de Microsoft Teams cliente. Windows 10 compatibilidad con la versión 19H1 se agregará en futuras versiones
 
 <sup>1</sup> Microsoft Teams implementación del servicio con anillos de Teams. Es posible que esta característica esté disponible antes o después de la actualización del cliente 4.0.105.0
@@ -521,7 +521,7 @@ Introducido en esta actualización:
 - Capacidad de enviar comentarios sobre compilaciones públicas
 - Telemetría mejorada en relación con la confiabilidad de la unión a reuniones
 - Informes de OMS mejorados
-- Posibilidad de que el administrador de TI configure dispositivos de forma remota
+- Capacidad de Administración de TI para configurar dispositivos de forma remota
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 

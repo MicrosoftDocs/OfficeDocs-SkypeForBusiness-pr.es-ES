@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Obtenga información sobre cómo usar la configuración de la directiva de reunión para controlar la expiración de las reuniones en Microsoft Teams.
-ms.openlocfilehash: 014989cd2fda0ce28ef96ee53c82908f814ee8c7
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 08cdcd9b7d7f18dafa468bd33ca065dafb5768a6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646219"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675362"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Directivas de reunión y expiración de reuniones en Microsoft Teams
 
@@ -131,7 +131,7 @@ Por ejemplo:
 
 ### <a name="will-this-feature-enforce-file-retention"></a>¿Esta característica exigirá la retención de archivos?
 
-No, los archivos no se conservarán debido a esta característica o su configuración. Si un usuario con permisos de eliminación intenta eliminar un TMR que tiene una configuración de expiración, se ejecutará la acción de eliminación de ese usuario.
+No, los archivos no se conservarán debido a esta característica o su configuración. Si un usuario con permisos de eliminación intenta eliminar una TMR que tiene una configuración de expiración, se ejecutará la acción de eliminación de ese usuario.
 
 ### <a name="what-skus-are-required-for-this-feature"></a>¿Qué SKU se requieren para esta función?
 

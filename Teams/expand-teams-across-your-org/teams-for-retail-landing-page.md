@@ -13,6 +13,8 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - microsoftcloud-retail
+- m365solution-retail
+- m365solution-overview
 ms.localizationpriority: high
 search.appverid: MET150
 searchScope:
@@ -20,12 +22,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c20137aab3299f4151b6ef3ee7906ec39cf4baf
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+ms.openlocfilehash: 03b68923ae47324525f192949d442e94e36685c2
+ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853191"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65753053"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Introducción a Teams para el comercio
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 y Office 365 direcciones URL e intervalos de direcciones IP
+title: direcciones URL e intervalos de direcciones IP de Microsoft 365 y Office 365
 ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
@@ -20,19 +20,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebbac20f7306aa5014aa5703a57813e3c631a9d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1ebcf7c6595da3e1774571be4c65a796838115b3
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601225"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675722"
 ---
-# <a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>Microsoft 365 y Office 365 direcciones URL e intervalos de direcciones IP
+# <a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>direcciones URL e intervalos de direcciones IP de Microsoft 365 y Office 365
 
-Vaya a Microsoft 365 y Office 365 direcciones URL e [intervalos](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) de direcciones IP para obtener una lista detallada y actualizada de las direcciones URL, direcciones IP, puertos y protocolos que deben configurarse correctamente para Teams. Microsoft trata de mejorar constantemente el servicio de Microsoft 365 y Office 365, así como de agregar nuevas funcionalidades, lo que implica que las direcciones IP, las direcciones URL y los puertos pueden cambiar a lo largo del tiempo. Le recomendamos que [se suscriba a través de RSS](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) para recibir notificaciones cuando esta información se actualice o cambie.
+Vaya a [Microsoft 365 y Office 365 direcciones URL e intervalos de direcciones IP](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) para obtener una lista detallada y actualizada de las direcciones URL, direcciones IP, puertos y protocolos que deben configurarse correctamente para Teams. Microsoft trata de mejorar constantemente el servicio de Microsoft 365 y Office 365, así como de agregar nuevas funcionalidades, lo que implica que las direcciones IP, las direcciones URL y los puertos pueden cambiar a lo largo del tiempo. Le recomendamos que [se suscriba a través de RSS](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) para recibir notificaciones cuando esta información se actualice o cambie.
 
-La Teams de llamadas y reuniones se basa en la infraestructura basada en la nube de nueva generación que también usan Skype y Skype Empresarial. Estas inversiones tecnológicas incluyen servicios en la nube basados en Azure para procesamiento y señalización multimedia, códec de vídeo H.264, códec de audio SILK y Opus, resistencia de red, telemetría y diagnósticos de calidad. Por lo tanto, hay direcciones URL e IP necesarias que pueden estar asociadas con Skype y Skype Empresarial.
+La experiencia de llamadas y reuniones Teams se basa en la nueva infraestructura basada en la nube de nueva generación que también usan Skype y Skype Empresarial. Entre estas inversiones tecnológicas se incluyen servicios en la nube basados en Azure para procesamiento de medios y señalización, códec de vídeo H.264, códec de audio SILK y Opus, resistencia de red, telemetría y diagnósticos de calidad. Por lo tanto, hay direcciones URL e IP necesarias que pueden estar asociadas con Skype y Skype Empresarial.
 
-Para todas las Microsoft 365 y Office 365 de trabajo, el método de conexión recomendado para Teams servicios es omitir el proxy de reenvío siempre que sea posible. Cuando un servidor proxy se encuentra entre un cliente y los centros de datos Office 365, es posible que los medios se forzaran a través de TCP en lugar de UDP, lo que afectaría a la calidad de los medios. Descargue archivos PAC de proxy de ejemplo que se pueden usar para configurar la omisión del tráfico desde Administrar Microsoft 365 y [Office 365 extremos](/office365/enterprise/managing-office-365-endpoints).
+Para todas las cargas de trabajo de Microsoft 365 y Office 365, el método de conexión recomendado para Teams servicios omite el proxy de reenvío cuando es posible. Cuando un servidor proxy se coloca entre un cliente y los centros de datos de Office 365, es posible que los medios se vean forzados a través de TCP en lugar de UDP, lo que afectaría a la calidad de los medios. Descargue archivos PAC de proxy de ejemplo que se pueden usar para configurar la omisión del tráfico desde [Administrar puntos de conexión de Microsoft 365 y Office 365](/office365/enterprise/managing-office-365-endpoints).
 
-Si las directivas de red y seguridad requieren que Microsoft 365 o Office 365 tráfico fluya a través de un servidor proxy, asegúrese de que los requisitos anteriores ya se cumplen antes de implementar Teams en producción. Para obtener más información, lea [Servidores proxy para Teams o Skype Empresarial en línea.](proxy-servers-for-skype-for-business-online.md)
+Si las directivas de red y seguridad requieren que Microsoft 365 o Office 365 tráfico fluya a través de un servidor proxy, asegúrese de que los requisitos anteriores ya se cumplen antes de implementar Teams en producción. Para obtener más información, lea [Servidores proxy para Teams o Skype Empresarial En línea](proxy-servers-for-skype-for-business-online.md).

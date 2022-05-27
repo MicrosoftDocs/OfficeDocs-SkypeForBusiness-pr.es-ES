@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar plantillas de equipo en el centro de administración
-ms.openlocfilehash: c753a92205844ebade9a713a8442837039232339
-ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
+ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65248942"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681401"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Administrar plantillas de equipo en el centro de administración
 
@@ -106,7 +106,7 @@ R: Las plantillas eliminadas ya no estarán presentes en ninguna directiva de pl
 
 R: Sí.
 
-1. En el centro de administración de Teams, vaya a **UsuariosAdministrar** >  usuarios.
+1. En el centro de administración de Teams, vaya a **Usuarios** > **administrar usuarios**.
 1. En la lista de usuarios, seleccione los usuarios que desea asignar a la directiva de plantillas.
 1. Seleccione **Editar configuración** y, a continuación, en **Directiva de plantillas**, elija la directiva que quiera asignar.
 1. Elija **Aplicar**.
@@ -117,7 +117,7 @@ Para obtener más información, vea [Asignar una directiva a usuarios individual
 
 R: En el centro de administración de Teams:
 
-1. Vaya a **UsuariosAdministrar** >  usuarios.
+1. Vaya a **Administrar usuarios** > .
 2. Seleccione **Filtro**, establezca un filtro para la directiva de plantillas y, después, elija **Aplicar**.
 
     ![La directiva de plantillas seleccionada y ver los usuarios.](media/template-policies-5.png)

@@ -18,18 +18,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 90395ab4bd9563a6bd9ad12ae6d9c1d164ddc89b
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: acdb924476ca9239b4298700d7f3186d7e80106a
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910876"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675022"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Información general sobre aplicaciones de terceros en Microsoft Teams
 
 Hay muchos ofertantes de aplicaciones en la tienda de Teams. Las aplicaciones las crean desarrolladores de aplicaciones. Microsoft se dedica a validar su funcionalidad básica, su facilidad de uso y su seguridad básica. Solo después de la validación, Microsoft pone las aplicaciones a disposición de los usuarios en la tienda de Teams. Para que los usuarios finales se beneficien del amplio ecosistema de aplicaciones, la gobernanza de aplicaciones por parte de los administradores es un paso clave. Como administrador, debe establecer un proceso de gobernanza de aplicaciones que compagine los variados requisitos de los usuarios finales de las aplicaciones con las limitaciones de las directivas de TI internas, los estándares y los perfiles de riesgo.
 
-Microsoft no posee ni el control ni la propiedad de las aplicaciones de terceros en Microsoft Teams, que tampoco se rigen por el Contrato Microsoft Online Subscription. El uso que las organizaciones hacen de cada aplicación de terceros está sujeto a los términos y condiciones, y la declaración de privacidad de las propias aplicaciones. El Centro de administración de Teams le permite comprobar todos los permisos, las declaraciones de privacidad y los términos de uso de una aplicación antes de permitir su uso. Como siempre, puede permitir el uso de una aplicación para algunos usuarios específicos o para todos los usuarios. En el caso de las aplicaciones de terceros, como ocurre con las aplicaciones personalizadas, Microsoft Teams permite a los administradores permitir, denegar, controlar y analizar el uso de las aplicaciones.
+Microsoft no posee ni el control ni la propiedad de las aplicaciones de terceros en Microsoft Teams, que tampoco se rigen por el Contrato Microsoft Online Subscription. El uso que las organizaciones hacen de cada aplicación de terceros está sujeto a los términos y condiciones, y la declaración de privacidad de las propias aplicaciones. El Centro de administración de Teams le permite comprobar todos los permisos, las declaraciones de privacidad y los términos de uso de una aplicación antes de permitir su uso. Como siempre, puede permitir el uso de una aplicación para algunos usuarios específicos o para todos los usuarios. En el caso de las aplicaciones de terceros, como ocurre con las aplicaciones personalizadas, Microsoft Teams permite a los administradores permitir, denegar, controlar y analizar el uso de las aplicaciones.
 
 Además de asegurarse de que los administradores tengan el control de las aplicaciones de terceros, Microsoft también garantiza que solo se ofrezcan aplicaciones de alta calidad en la tienda. Se requiere que todas las aplicaciones pasen por una ronda obligatoria de validación por parte de Microsoft. En ella se comprueba la funcionalidad de la aplicación, la identidad del editor, los permisos solicitados por la aplicación, y el cumplimiento, la privacidad y la seguridad de los datos recopilados por la aplicación. Queremos fomentar que las aplicaciones formen parte de un programa de cumplimiento opcional con el que dar un énfasis adicional a la seguridad y al cumplimiento de los estándares del sector. Conozca estos programas en los siguientes artículos:
 
@@ -37,6 +37,6 @@ Además de asegurarse de que los administradores tengan el control de las aplica
 
 1. Programa de cumplimiento de aplicaciones de Microsoft:
 
-   * [Verificación de editores](overview-of-app-certification.md#publisher-verification)
-   * [Atestación de editores](overview-of-app-certification.md#publisher-attestation)
-   * [Certificación de Microsoft 365](overview-of-app-certification.md#microsoft-365-certification)
+   - [Verificación de editores](overview-of-app-certification.md#publisher-verification)
+   - [Atestación de editores](overview-of-app-certification.md#publisher-attestation)
+   - [Certificación de Microsoft 365](overview-of-app-certification.md#microsoft-365-certification)

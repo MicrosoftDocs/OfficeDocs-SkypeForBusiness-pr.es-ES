@@ -1,5 +1,5 @@
 ---
-title: 'Ejemplo de script de PowerShell: exportar administradores y sus directos'
+title: 'Ejemplo de script de PowerShell: administradores de exportación y sus directos'
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Use este script de PowerShell para exportar una lista de administradores y sus directos para su organización, en preparación para crear un equipo para cada administrador con sus directos como miembros del equipo.
+description: Use este script de PowerShell para crear un equipo para cada administrador con sus informes directos como miembros del equipo.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -16,41 +16,38 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a25e743f1f8191db8323b29bf33c3fed75261fa1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 436f9566031a2cd9bc3b06a23df7b3b7346d3bec
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577824"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674182"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Ejemplo de script de PowerShell: exportar administradores y sus directos
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Ejemplo de script de PowerShell: administradores de exportación y sus directos
 
-Use este script de PowerShell para exportar una lista de administradores y sus directores para su organización, en preparación para crear un equipo de administrador de personas para cada administrador con sus directos como miembros del equipo.
+Use este script de PowerShell para exportar una lista de administradores y sus directos para su organización. Use este script como preparación para crear un equipo de administrador de personas para cada administrador con sus informes directos como miembros del equipo.
 
-Para obtener información sobre este script de PowerShell, lea [Crear equipos de administrador de personas.](../create-manager-directs-teams.md)
+Para obtener información sobre este script de PowerShell, consulte [Crear equipos de administradores de personas](../create-manager-directs-teams.md).
 
-Si es la primera vez que usa PowerShell y necesita ayuda para comenzar, consulte [Introducción a Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).
+Si es la primera vez que usa PowerShell y necesita ayuda para comenzar, consulte [Introducción a Azure PowerShell](/powershell/azure/overview).
 
-
-## <a name="export-managers-script"></a>Export-Managers script
+## <a name="export-managers-script"></a>script de Export-Managers
 
 ```powershell
-<# 
-.SYNOPSIS 
-  Name: Export-ManagersDirectsFromAAD.ps1 
+<#
+.SYNOPSIS
+  Name: Export-ManagersDirectsFromAAD.ps1
   The purpose of this sample script is to build a list of managers and direct reports to use with the New-TeamsFromManagers.ps1 to create a team for each people manager and their directs.
-   
-.DESCRIPTION 
+
+.DESCRIPTION
  This sample script create new Teams based on the tab delimited .txt file you provide of managers and direct reports. It assumes that DisplayName is not null.
- 
-.NOTES 
-  &copy; 2020 Microsoft Corporation. All rights reserved. This document is provided 
-    "as-is." Information and views expressed in this document, including URL and 
-    other Internet Web site references, may change without notice.
- 
-.EXAMPLE 
+
+.NOTES
+  &copy; 2020 Microsoft Corporation. All rights reserved. This document is provided "as-is." Information and views expressed in this document, including URL and other Internet Web site references, may change without notice.
+
+.EXAMPLE
   Export-ManagersDirectsFromAAD.ps1
-#> 
+#>
 
 #Also create a type that validated the users licenses to ease the create-team burden
 #also add checks to see if the types are appropriately in place.
@@ -103,7 +100,7 @@ foreach ($user in $AllAADUsers) {
                     $manager.DirectReports.Add($directReport)
                 }
                 $Managers.Add($manager)
-                
+
             }
         Write-Host "$(Get-Timestamp) Info: Added Manager: $($manager.UserPrincipalName)"
         $i++
@@ -124,7 +121,7 @@ foreach ($manager in $Managers) {
     }
     $directs = $directs.Substring(0,$directs.Length-1)
     $row = "$($manager.UserPrincipalName)`t$($manager.DisplayName)`t$($directs)"
-    $output.Add($row) 
+    $output.Add($row)
 }
 
 #If Output File already exists from a previous run, it will be replaced.
@@ -138,7 +135,4 @@ foreach ($line in $output) {
 }
 Write-Host -ForegroundColor Green "$(Get-Timestamp) Exported tab delimited output to $($OutputFile). `n"
 #endregion
-
-
-
 ```

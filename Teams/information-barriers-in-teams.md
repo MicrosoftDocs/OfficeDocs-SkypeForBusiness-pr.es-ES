@@ -16,16 +16,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e57686e2decb5b2d663f75f1ad7884220a9ff4c2
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 38698179e2a3b4c6ca402190c98f89f329820d6e
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922811"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675412"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de la información en Microsoft Teams
 
-[Microsoft Purview Information Barriers](/microsoft-365/compliance/information-barriers) (IBs) son directivas que un administrador puede configurar para evitar que individuos o grupos se comuniquen entre sí. Los IB son útiles si, por ejemplo, un departamento trata información que no se debe compartir con otros departamentos. Los IB también son útiles cuando es necesario aislar o impedir que un grupo se comunique con cualquier persona que no pertenezca a ese grupo. Los canales compartidos en Microsoft Teams se apoyan en las barreras de la información. Según el tipo de uso compartido, las directivas de barreras de la información pueden restringir el uso compartido de ciertas maneras. Para obtener más información sobre los canales compartidos y el comportamiento de las barreras de la información, vea [Barreras de información y Canales compartidos](information-barriers-shared-channels.md).
+[Microsoft Purview barreras](/microsoft-365/compliance/information-barriers) de la información (IB) son directivas que un administrador puede configurar para evitar que individuos o grupos se comuniquen entre sí. Los IB son útiles si, por ejemplo, un departamento trata información que no se debe compartir con otros departamentos. Los IB también son útiles cuando es necesario aislar o impedir que un grupo se comunique con cualquier persona que no pertenezca a ese grupo. Los canales compartidos en Microsoft Teams se apoyan en las barreras de la información. Según el tipo de uso compartido, las directivas de barreras de la información pueden restringir el uso compartido de ciertas maneras. Para obtener más información sobre los canales compartidos y el comportamiento de las barreras de la información, vea [Barreras de información y Canales compartidos](information-barriers-shared-channels.md).
 
 Por Microsoft Teams, las barreras de la información pueden determinar e impedir los siguientes tipos de colaboraciones no autorizadas:
 
@@ -67,14 +67,14 @@ El Servicio de evaluación de directivas de barreras de la información determin
 
 ## <a name="managing-information-barrier-policies"></a>Administrar las directivas de barreras de la información
 
-Las directivas de IB se administran en el portal de cumplimiento de Microsoft Purview (SCC) mediante cmdlets de PowerShell. Para obtener más información, vea [Definir directivas para barreras de información](/office365/securitycompliance/information-barriers-policies).
+Las directivas de IB se administran en la portal de cumplimiento Microsoft Purview (SCC) mediante cmdlets de PowerShell. Para obtener más información, vea [Definir directivas para barreras de información](/office365/securitycompliance/information-barriers-policies).
 
 >[!IMPORTANT]
 >Antes de configurar o definir directivas, debe habilitar la búsqueda de directorio de ámbito en Microsoft Teams. Espere al menos unas horas después de habilitar la búsqueda de directorio de ámbito antes de configurar o definir directivas para barreras de información. Para obtener más información, vea [Definir directivas de barreras de la información](/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Rol de administrador de barreras de información
 
-El rol de Administración del cumplimiento de IB es el responsable de administrar las directivas del IB. Para obtener más información sobre este rol, vea [Permisos en el portal de cumplimiento de Microsoft Purview](/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+El rol de Administración del cumplimiento de IB es el responsable de administrar las directivas del IB. Para obtener más información sobre este rol, vea [Permisos en la portal de cumplimiento Microsoft Purview](/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
 ## <a name="information-barrier-triggers"></a>Desencadenadores de la barrera de la información
 

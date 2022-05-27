@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenga información detallada sobre las dimensiones y medidas que usa el Panel de calidad de llamadas para Microsoft Teams y Skype Empresarial En línea.
-ms.openlocfilehash: 01159d64a1c9fdb48321bdb82b6199d6861c4bfa
-ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
+ms.openlocfilehash: f5614f7f0d14aa0053a613f5f471ae5e5315f1cf
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65462054"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675942"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensiones y medidas disponibles en el Panel de calidad de llamadas (CQD)
 
@@ -753,7 +753,7 @@ Muchos valores de Medición también se pueden usar como filtros. En la tabla si
 |P50 Packet Loss Rate | Porcentaje | El 50% de las solicitudes debe tener una tasa de pérdida de paquetes inferior a la indicada.|
 |Retraso posterior al marcado de salida RTC| Milisegundos | El retraso que se produce en las llamadas salientes se mide desde el momento en que se marca un número hasta que la persona que llama o la parte que llama escucha la llamada.|
 |Retraso posterior a la marcación de RTC | Milisegundos | El tiempo o el retraso que se produce en las llamadas entrantes, medido desde el momento en que se marca un número hasta que la persona que llama o la parte que llama escucha la llamada.|
-|Porcentaje bueno de RTC NER | Porcentaje | El NER mide la capacidad de una red para entregar llamadas midiendo el número de llamadas enviadas frente al número de llamadas enviadas a un destinatario.<br/>NER = (Llamadas respondidas + Usuario ocupado + No llamar sin respuesta + Ataques de rechazo terminal)/ Total de llamadas de intento x 100.Hay un error de hasta el 0,2% para esta medida. Consulta la nota que viene a continuación para obtener más información.|
+|Porcentaje bueno de RTC NER | Porcentaje | El NER mide la capacidad de una red para entregar llamadas midiendo el número de llamadas enviadas frente al número de llamadas enviadas a un destinatario.<br/>NER = (Llamadas respondidas + Usuario ocupado + Llamar sin respuesta + Ataques de rechazo terminal) / Total de llamadas de intentos x 100. Hay un error de hasta el 0,2 % para esta medida. Consulta la nota que viene a continuación para obtener más información.|
 | Avg Auto Attendant Chain Duration Seconds | Entero | La duración media que invierten los usuarios en el operador automático, medida en segundos. |
 | Avg Call Queue Duration Seconds | Entero | La duración media que los usuarios esperan para que un agente responda a una cola de llamadas, medida en segundos. |
 

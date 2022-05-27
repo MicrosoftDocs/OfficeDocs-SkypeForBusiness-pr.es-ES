@@ -1,5 +1,5 @@
 ---
-title: Cambiar los números de teléfono en el puente de Audioconferencia
+title: Cambiar los números de teléfono en Audioconferencia puente
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Obtenga información sobre los pasos necesarios para asignar un nuevo número de teléfono de servicio a su puente de conferencia para expandir la cobertura para los usuarios.
-ms.openlocfilehash: 25af462ec7e531bdbaec01ee2a8b37c43376a48e
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+ms.openlocfilehash: 0433577334dca5f84854ba1cdc14b81e4ec37e63
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016652"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674782"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono de su puente de Audioconferencia
 
-Al comprar licencias **de Audioconferencia** , Microsoft hospeda el puente de audioconferencia para su organización. El puente de audioconferencia proporciona números de teléfono de acceso telefónico local de diferentes ubicaciones para que los organizadores de la reunión y los participantes puedan usarlos para unirse a Skype Empresarial o Microsoft Teams reuniones con un teléfono.
-  
+Al comprar licencias **de Audioconferencia**, Microsoft hospeda el puente de audioconferencia para su organización. El puente de audioconferencia proporciona números de teléfono de acceso telefónico local de diferentes ubicaciones para que los organizadores de la reunión y los participantes puedan usarlos para unirse a Skype Empresarial o Microsoft Teams reuniones con un teléfono.
+
 Además de los números de teléfono que ya está asignados al puente de conferencia, puede [obtener números de servicio adicionales (números](./getting-service-phone-numbers.md) de pago y gratuitos que se usan para las audioconferencias) de otras ubicaciones y asignarlos al puente de conferencia para poder ampliar la cobertura para los usuarios.
-  
+
 > [!NOTE]
 > Para poder asignar o quitar la asignación de un número de teléfono a un puente de conferencia, el número de teléfono debe ser un número de "*servicio*". Para ver el tipo de número, vaya a **Voz** >  **Teléfono números** en el centro de administración de Microsoft Teams y busque en la columna **Tipo de número**. Microsoft 365 o Office 365 créditos de comunicaciones deben configurarse primero para que los usuarios llamen al puente en un número gratuito.
 
@@ -50,7 +50,7 @@ Además de los números de teléfono que ya está asignados al puente de confere
 
 2. Seleccione el número de teléfono de la lista y haga clic en **Editar**.
 
-3. En la página **Editar**, en **Asignado a**, expanda la lista desplegable y, a continuación, seleccione **Puente** >  de **conferenciaAplicación**.
+3. En la página **Editar**, en **Asignado a**, expanda la lista desplegable y, a continuación, seleccione **Aplicar** puente  > **de conferencia**.
 
 ### <a name="step-2---change-the-default-phone-number-of-your-conference-bridge-optional"></a>Paso 2: Cambiar el número de teléfono predeterminado del puente de conferencia (opcional)
 
@@ -58,7 +58,7 @@ El número de teléfono predeterminado del puente de conferencia define el ident
 
 Solo se puede establecer un número de servicio de pago como número predeterminado para el puente de conferencia; **los números gratuitos de servicio no se pueden establecer como el número predeterminado del puente de conferencia**. Si va a asignar un número de servicio de pago y desea establecerlo como el nuevo número predeterminado para el puente de audioconferencia, siga estos pasos:
 
-1. En el panel de navegación izquierdo, vaya a **Puentes** de conferencia de  >  reuniones **.**
+1. En el panel de navegación izquierdo, vaya a **Puentes** de **conferencia de** >  reuniones.
 
 2. Resalte el número de servicio de pago que desea configurar como predeterminado.
 
@@ -69,14 +69,14 @@ Solo se puede establecer un número de servicio de pago como número predetermin
 Consulte [Establecer los números de teléfono incluidos en las invitaciones de Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 > [!NOTE]
-> También puede establecer números de teléfono agregándolos a *TeamsAudioconferencingpolicy* y asignando la directiva a los usuarios. Los números de teléfono gratuitos y de pago agregados a la directiva tienen prioridad sobre los números de teléfono establecidos individualmente para los usuarios a través del panel de configuración de audioconferencia. Si no se agrega ningún número de teléfono a *teamsaudioconferencingpolicy*, el número de teléfono configurado individualmente para los usuarios a través del panel de configuración de audioconferencia se mostrará en Microsoft Teams convocatorias de reunión. [La configuración de la directiva de audioconferencia para números de pago y gratuitos](audio-conferencing-toll-free-numbers-policy.md) tiene más información.
+> También puede establecer números de teléfono agregándolos a *TeamsAudioconferencingpolicy* y asignando la directiva a los usuarios. Los números de teléfono gratuitos y de pago agregados a la directiva tienen prioridad sobre los números de teléfono establecidos individualmente para los usuarios a través del panel de configuración de audioconferencia. Si no se agrega ningún número de teléfono a *teamsaudioconferencingpolicy*, el número de teléfono configurado individualmente para los usuarios a través del panel de configuración de audioconferencia se mostrará en Microsoft Teams convocatorias de reunión. [Audioconferencia configuración de la directiva para números de pago y gratuitos](audio-conferencing-toll-free-numbers-policy.md) tiene más información.
 
 ### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Paso 4: Actualizar las invitaciones de reunión existentes de usuarios que usan el servicio de migración de reuniones (opcional)
 
 Para los dos pasos siguientes, deberá iniciar Windows PowerShell.
-  
+
 Si ha actualizado los números de teléfono predeterminados que se incluyen en las invitaciones a la reunión para algunos o todos los usuarios, también puede actualizar las invitaciones de reunión que ya se enviaron a los usuarios de su organización antes de que se cambiaran sus números de teléfono predeterminados mediante el servicio de migración de reuniones. Para obtener información adicional, consulte [Configuración del servicio de migración de reuniones (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
-  
+
 - Ejecute el Servicio de migración de reuniones (MMS) para los usuarios que cambiaron sus números de teléfono predeterminados en el paso 2. Para ello, ejecute el siguiente comando:
 
 ```PowerShell
@@ -122,7 +122,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
 Para obtener más información sobre el servicio de migración de reuniones, consulte [Configuración del servicio de migración de reuniones (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
-  
+
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>Paso 3: Quitar la asignación del número de teléfono antiguo del puente de audioconferencia
 
 Usar el cmdlet Unregister-CsOnlineDialInConferencingServiceNumber para anular el registro de un número de pago o gratuito de un puente de conferencia
@@ -192,7 +192,7 @@ El resultado, aparte de otra información como Identidad, Nombre y Región, tamb
 **Ejemplo**, para anular la asignación, el DefaultServiceNumber "8005551234"
 
 ```PowerShell
-Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
+Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234
 ```
 
 ## <a name="about-windows-powershell"></a>Acerca de Windows PowerShell

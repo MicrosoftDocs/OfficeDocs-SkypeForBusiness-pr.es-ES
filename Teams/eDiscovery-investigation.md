@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesita realizar eDis
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
-ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
+ms.openlocfilehash: a89f2ac8fc94505ec0d97bb426bc8fc92901aa52
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2022
-ms.locfileid: "65031925"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675312"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -36,27 +36,26 @@ eDiscovery of messages and files in [private channels](private-channels.md) work
 
 No todo el contenido Teams es eDiscoverable. En la tabla siguiente se muestran los tipos de contenido que puede buscar con las herramientas de exhibición de documentos electrónicos de Microsoft:
 
-| Tipo de contenido | eDiscoverable | Notas |
-|:--- | :--- |:--- |
-|Grabaciones de audio | No | |
+|Tipo de contenido|eDiscoverable|Notas|
+|---|---|---|
+|Grabaciones de audio|No||
 |Contenido de la tarjeta|Sí|Vea [Buscar contenido de tarjeta](#search-for-card-content) para obtener más información.|
-|Vínculos de chat | Sí | |
-|Mensajes de chat | Sí |Esto incluye el contenido de los canales de Teams estándar, los chats individuales, los chats grupales 1:N y los chats con los participantes invitados.  |
-|Fragmentos de código | No | |
-|Mensajes editados | Sí | Si el usuario está en espera, también se conservan las versiones anteriores de los mensajes editados. |
-|Emojis, GIF y adhesivos | Sí | |
-|Notificaciones de fuente | No | |
-|Imágenes alineadas | Sí | |
-|componentes Loop| Sí|El contenido de un componente de bucle se guarda en un archivo .fluid que se almacena en el OneDrive para la Empresa cuenta del usuario que envía el componente de bucle. Esto significa que debe incluir OneDrive como origen de datos al buscar contenido en componentes de bucle. |
-|Conversaciones de mensajería instantánea de la reunión | Sí | |
-|Metadatos <sup>de la reunión1</sup> | Sí |  |
-|Nombre del canal | Sí | |
-|Mensajes de chat de canal privados y compartidos | Sí | |
-|Presupuestos | Sí | El contenido entrecomillado se puede buscar. Sin embargo, los resultados de la búsqueda no indican que se ha citado el contenido. |
-|Reacciones (como me gusta, corazones y otras reacciones) | No | |
-|Asunto | Sí | |
-|Mesas | Sí | |
-||||
+|Vínculos de chat|Sí||
+|Mensajes de chat|Sí|Esto incluye el contenido de los canales de Teams estándar, los chats individuales, los chats grupales 1:N y los chats con los participantes invitados.|
+|Fragmentos de código|No||
+|Mensajes editados|Sí|Si el usuario está en espera, también se conservan las versiones anteriores de los mensajes editados.|
+|Emojis, GIF y adhesivos|Sí||
+|Notificaciones de fuente|No||
+|Imágenes alineadas|Sí||
+|componentes Loop|Sí|El contenido de un componente de bucle se guarda en un archivo .fluid que se almacena en el OneDrive para la Empresa cuenta del usuario que envía el componente de bucle. Esto significa que debe incluir OneDrive como origen de datos al buscar contenido en componentes de bucle.|
+|Conversaciones de mensajería instantánea de la reunión|Sí||
+|Metadatos<sup>de reunión 1</sup>|Sí||
+|Nombre del canal|Sí||
+|Mensajes de chat de canal privados y compartidos|Sí||
+|Presupuestos|Sí|El contenido entrecomillado se puede buscar. Sin embargo, los resultados de la búsqueda no indican que se ha citado el contenido.|
+|Reacciones (como me gusta, corazones y otras reacciones)|No||
+|Asunto|Sí||
+|Mesas|Sí||
 
 <sup>1</sup> Los metadatos de reunión (y llamada) incluyen lo siguiente:
 
@@ -174,9 +173,9 @@ Puede usar las herramientas de exhibición de documentos electrónicos para busc
 
 Para buscar contenido para los usuarios invitados:
 
-1. Conectar a Azure AD PowerShell. Para obtener instrucciones, consulte la sección "Conectar con la Azure Active Directory PowerShell" de [Conectar para Microsoft 365 con PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Asegúrese de completar los pasos 1 y 2 del artículo anterior.
+1. Conectar a PowerShell de Azure AD. Para obtener instrucciones, consulte la sección "Conectar con la Azure Active Directory PowerShell" de [Conectar para Microsoft 365 con PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Asegúrese de completar los pasos 1 y 2 del artículo anterior.
 
-2. Después de conectarse correctamente a Azure AD PowerShell, ejecute el siguiente comando para mostrar el nombre principal de usuario (UPN) para todos los usuarios invitados de la organización. Debe usar el UPN del usuario invitado al crear la búsqueda en el paso 4.
+2. Después de conectarse correctamente a PowerShell de Azure AD, ejecute el siguiente comando para mostrar el nombre principal de usuario (UPN) para todos los usuarios invitados de la organización. Debe usar el UPN del usuario invitado al crear la búsqueda en el paso 4.
 
    ```powershell
    Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName
@@ -207,7 +206,7 @@ Para buscar contenido para los usuarios invitados:
    Start-ComplianceSearch <search name>
    ```
 
-6. Vaya a y, a [https://compliance.microsoft.com](https://compliance.microsoft.com) continuación, haga clic en **Mostrar búsqueda allContent** > .
+6. Vaya a y, a [https://compliance.microsoft.com](https://compliance.microsoft.com) continuación, haga clic en **Mostrar toda** >  la **búsqueda de contenido**.
 
 7. En la lista de búsquedas, seleccione la búsqueda que creó en el paso 4 para mostrar la página del control flotante.
 
@@ -234,11 +233,11 @@ Al ver el contenido de la tarjeta en los resultados de búsqueda de contenido, e
 ![Contenido de la tarjeta en Teams mensaje de canal.](media/CardContentTeams.png)
 
 ### <a name="card-content-in-search-results"></a>Contenido de la tarjeta en los resultados de búsqueda
-  
+
 ![El mismo contenido de tarjeta en los resultados de una búsqueda de contenido.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> Para mostrar imágenes del contenido de la tarjeta en los resultados de búsqueda en este momento (como las marcas de verificación en la captura de pantalla anterior), debe iniciar sesión en Teams (en https://teams.microsoft.com) una pestaña diferente en la misma sesión del explorador que usa para ver los resultados de búsqueda. En caso contrario, se mostrarán los marcadores de posición de imagen.
+> Para mostrar imágenes del contenido de la tarjeta en los resultados de búsqueda en este momento (como las marcas de verificación en la captura de pantalla anterior), debe haber iniciado sesión en Teams (en <https://teams.microsoft.com>) en una pestaña diferente en la misma sesión del explorador que usa para ver los resultados de búsqueda. En caso contrario, se mostrarán los marcadores de posición de imagen.
 
 ## <a name="ediscovery-in-federated-and-non-federated-environments"></a>Exhibición de documentos electrónicos en entornos federados y no federados
 

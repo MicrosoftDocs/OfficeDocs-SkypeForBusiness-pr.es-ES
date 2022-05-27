@@ -21,12 +21,12 @@ description: Su administrador de Teams o de TI puede configurar reuniones extern
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: b3b1fb8a51993f0c1510a000e835bbae3098e11b
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 7d45fea1b0b2fdb5d659f0a025b74473050b3616
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125725"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674232"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Administrar reuniones externas y chatear en Microsoft Teams
 
@@ -117,14 +117,17 @@ En el Centro de administración de Teams, vaya a **Usuarios** > **Acceso externo
 ![Captura de pantalla de la configuración de cuentas externas](./media/external-access-accounts-not-managed-by-org.png)
 
 Para bloquear a los usuarios de Teams de su organización para que no se comuniquen con usuarios externos de Teams cuyas cuentas no estén administradas por una organización:
+
 1. Desactive la configuración **los usuarios de mi organización pueden comunicarse con los usuarios de Teams cuyas cuentas no estén administradas por una organización**.
 2. Desactive la casilla **Los usuarios externos con cuentas de Teams no administradas por una organización pueden ponerse en contacto con los usuarios de mi organización**.
 
 Para permitir que los usuarios de Teams de su organización se comuniquen con usuarios externos de Teams cuyas cuentas no estén administradas por una organización si los usuarios de Teams han iniciado el contacto:
+
 1. Active la configuración **La gente de mi organización puede comunicarse con los usuarios de Teams cuyas cuentas no estén administradas por una organización**.
 2. Desactive la casilla **Los usuarios externos con cuentas de Teams no administradas por una organización pueden ponerse en contacto con los usuarios de mi organización**.
 
 Para permitir que los usuarios de Teams de su organización se comuniquen con usuarios externos de Teams cuyas cuentas no estén administradas por una organización y reciban solicitudes para comunicarse con esos usuarios externos de Teams:
+
 1. Active la configuración **La gente de mi organización puede comunicarse con los usuarios de Teams cuyas cuentas no estén administradas por una organización**.
 2. Active la casilla **Los usuarios externos con cuentas de Teams no administradas por una organización pueden ponerse en contacto con los usuarios de mi organización**.
 
@@ -134,7 +137,7 @@ Siga los pasos que se indican a continuación para que los usuarios de Teams de 
 
 ![Captura de pantalla de la configuración de usuarios de Skype.](./media/external-access-skype-settings.png)
 
-**Usar el Centro de administración de Microsoft Teams**
+### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
 1. En el panel de navegación izquierdo, vaya a **Usuarios** > **Acceso externo**.
 
@@ -142,7 +145,7 @@ Siga los pasos que se indican a continuación para que los usuarios de Teams de 
 
 Para obtener más información sobre las formas en las que pueden comunicarse los usuarios de Teams y Skype, incluidas las limitaciones que se aplican, consulte [Interoperabilidad de Teams y Skype](teams-skype-interop.md).
 
-## <a name="using-powershell"></a>Con PowerShell
+### <a name="using-powershell"></a>Con PowerShell
 
 La configuración de nivel de organización se puede configurar mediante [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) y la configuración de nivel de usuario se puede configurar mediante [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
 
@@ -219,7 +222,7 @@ Para permitir que los usuarios de la organización se comuniquen con usuarios de
 
 | Si su organización es | Habilitar la federación como se muestra a continuación |
 |:---------|:-----------------------|
-|En línea sin Skype Empresarial local. Esto incluye a las organizaciones que tienen usuarios de TeamsOnly o usuarios de Skype Empresarial Online.| Si usa el Centro de administración de Teams: <br>-   Asegúrese de que los dominios con los que desea comunicarse estén permitidos en Acceso externo.<br><br>Con PowerShell:<br>- Asegúrese de que la cuenta empresarial esté habilitada para la federación: `Get-CsTenantFederationConfiguration` debe mostrar `AllowFederatedUsers=true`. <br>- Asegúrese de que el valor vigente del usuario de `CsExternalAccessPolicy` tenga `EnableFederationAccess=true`.<br>- Si no usa una federación abierta, asegúrese de que el dominio de destino se muestre en `AllowedDomains` de `CsTenantFederationConfiguration`. |
+|En línea sin Skype Empresarial local. Esto incluye a las organizaciones que tienen usuarios de TeamsOnly o usuarios de Skype Empresarial Online.| Si usa el Centro de administración de Teams: <br>- Asegúrese de que los dominios con los que desea comunicarse estén permitidos en acceso externo.<br><br>Con PowerShell:<br>- Asegúrese de que la cuenta empresarial esté habilitada para la federación: `Get-CsTenantFederationConfiguration` debe mostrar `AllowFederatedUsers=true`. <br>- Asegúrese de que el valor vigente del usuario de `CsExternalAccessPolicy` tenga `EnableFederationAccess=true`.<br>- Si no usa una federación abierta, asegúrese de que el dominio de destino se muestre en `AllowedDomains` de `CsTenantFederationConfiguration`. |
 |Solo en entorno local| En las herramientas locales: <br>- Asegúrese de que la federación esté habilitada en `CsAccessEdgeConfiguration`.<br>- Asegúrese de que la federación para el usuario esté habilitada a través de `ExternalAccessPolicy` (ya sea por la directiva global, la directiva del sitio o la directiva asignada por el usuario). <br> - Si no usa una federación abierta, asegúrese de que el dominio de destino se muestre en `AllowedDomains`.|
 |Híbrido con algunos usuarios en línea (en Skype Empresarial o Teams) y algunos usuarios locales. | Siga los pasos anteriores para organizaciones en línea y locales. |
 

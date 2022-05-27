@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Aprenda a personalizar una directiva de mensajería segura para Microsoft Teams que pueda incluir confirmaciones de lectura y notificaciones de prioridad.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ededfabcca1ab61ec822f201502658f4d8ac498a
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: c450bb298e0a0e01440442d0813708048005a652
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045527"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674872"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>Mensajería segura para organizaciones sanitarias
 
@@ -41,7 +41,7 @@ Las directivas se administran fácilmente en el [Centro de administración de Mi
  
  Para editar la directiva de mensajería predeterminada existente para la organización, haga clic en **Global (predeterminada para toda la organización)**, tras lo cual realice los cambios. Para crear una nueva directiva de mensajería predeterminada, haga clic en **Añadir** y, después, seleccione la configuración deseada. Seleccione **Guardar** cuando termine.
 
-![Captura de pantalla de la configuración de directiva de mensajería.](../../media/hc-messaging-policy.png)
+![Captura de pantalla de la configuración de directivas de mensajería.](../../media/hc-messaging-policy.png)
 
 Las siguientes configuraciones son de especial interés como aplicaciones del sector sanitario y deberían tenerse en cuenta al diseñar una directiva personalizada que se use en el mismo:
 

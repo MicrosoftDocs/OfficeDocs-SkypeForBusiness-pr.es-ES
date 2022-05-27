@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f31df258558e052e887a679321dd6ed2db48f344
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 93b0a74feb2d9333d634b9a7858ff6136ca5b5ec
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646259"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676502"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidad de la aplicación Aprobaciones de Teams
 
@@ -65,7 +65,7 @@ El modelo de datos común (CDM) es el lenguaje de datos compartido que usan las 
 
 Obtenga más información sobre el [flujo de trabajo de Aprobación](/power-automate/modern-approvals).
 
-Aprobaciones que se crean a partir de una plantilla siguen almacenando datos en Microsoft Dataverse, como su título, detalles, id. de plantilla y mucho más. Las respuestas que se envían en la solicitud de aprobación se almacenan en Forms. Obtenga más información sobre  [Almacenamiento de datos para Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+Aprobaciones que se crean a partir de una plantilla siguen almacenando datos en Microsoft Dataverse, como su título, detalles, id. de plantilla y mucho más. Las respuestas que se envían en la solicitud de aprobación se almacenan en Forms. Obtenga más información sobre [Almacenamiento de datos para Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
 >Si elimina la plantilla de formulario en el sitio Microsoft Forms, se romperá la plantilla Aprobación y los usuarios no podrán iniciar la solicitud. Los usuarios reciben el error "CDB TableNotFound" al intentar abrir una plantilla de Aprobación que se elimina en Microsoft Forms.
@@ -223,7 +223,7 @@ Para usar la característica de firma electrónica de la aplicación Aprobacione
 
 Puede usar el centro de administración de Teams para controlar qué proveedores de firmas electrónicas de terceros están disponibles para los usuarios en la aplicación Aprobaciones. De forma predeterminada, los proveedores de firmas electrónicas están habilitados en la aplicación de Aprobaciones. Al deshabilitar un proveedor de firmas electrónicas, los usuarios no tendrán acceso a ese proveedor cuando creen aprobaciones. Los usuarios tampoco podrán ver solicitudes de firma electrónica creadas con ese proveedor.
 
-1. En el panel izquierdo del centro de administración de Teams, vaya a **Teams** **aplicacionesAdministrar** >  aplicaciones.
+1. En el panel izquierdo del centro de administración de Teams, vaya a **Teams aplicaciones** > **Administrar aplicaciones**.
 2. Busca la aplicación Aprobaciones y selecciónala.
 3. Vaya a la pestaña **Configuración** y siga uno o varios de estos procedimientos:
 
