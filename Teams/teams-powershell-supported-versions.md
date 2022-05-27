@@ -12,12 +12,12 @@ ms.collection:
 description: Obtenga más información sobre las versiones compatibles con el módulo de PowerShell Teams, que se usa para la administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80465e1685ea05d6f49c6119110ddf2004098055
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 6915448d76de64a65a9ac50e5c66e3ca41e051ef
+ms.sourcegitcommit: 8ce73ea99be607f5cdccb22a5366bc96e8fb09c8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681921"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65758318"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Módulo Teams PowerShell: versiones compatibles
 
@@ -29,11 +29,11 @@ Las organizaciones que se incorpore recientemente a Teams solo podrán usar Team
 
 ## <a name="current-organizations-non-tpm-active"></a>Organizaciones actuales (no tpm activo)
 
-Las organizaciones que no hayan usado Teams módulo de PowerShell en los últimos tres meses (del 22 de enero al 22 de marzo) solo podrán usar Teams módulo de PowerShell en la serie 4.x.x o posterior a partir del 1 de abril de 2022.
+Las organizaciones que no hayan usado Teams módulo de PowerShell entre el 22 de enero y el 22 de marzo solo podrán usar Teams módulo de PowerShell en la serie 4.x.x o posterior a partir del 1 de abril de 2022.
 
 ## <a name="current-organizations-tpm-active"></a>Organizaciones actuales (TPM activo)
 
-Las organizaciones que han estado usando Teams módulo de PowerShell en los últimos tres meses (22 de enero a marzo de 22), solo podrán usar Teams módulo de PowerShell en la serie 4.x.x o posterior a partir del 15 de junio de 2022. Publicación del centro de mensajes como referencia: MC350371.
+Las organizaciones que hayan usado Teams módulo de PowerShell entre el 22 de enero y el 22 de marzo solo podrán usar Teams módulo de PowerShell en la serie 4.x.x o posterior a partir del 15 de junio de 2022. Publicación del centro de mensajes como referencia: MC350371.
 
 ## <a name="important-notes"></a>Notas importantes
 
@@ -54,7 +54,9 @@ Las organizaciones que han estado usando Teams módulo de PowerShell en los últ
 
   - Cambios que llegan a Teléfono asignación de número: más [detalles en Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (publicación del centro de mensajes – MC316139).
 
-  - Cambios de parámetros en Get-CsTenant : más [detalles en Get-CsTenant](/powershell/module/skype/get-cstenant).
+  - Cambios de parámetros en Get-CsTenant: más [detalles en Get-CsTenant](/powershell/module/skype/get-cstenant) (publicación del centro de mensajes: MC365397).
+  
+  - Si los scripts usan cmdlets New/Set of Policy o Configuration con parámetros de tipo PSListModifier, se recomienda usar la versión más reciente (4.2.0 o posterior).
 
 - Al usar TPM 4.x.x o posterior, se recomienda no usar ninguno de los cmdlets obsoletos o no admitidos que se [mencionan a continuación](#deprecated-cmdlets).
 
@@ -77,7 +79,7 @@ Las organizaciones que han estado usando Teams módulo de PowerShell en los últ
   - [Grant| Obtener| Conjunto| Nuevo| Remove]-CsClientPolicy
   - [Grant| Get]-CsHostedVoicemailPolicy
   - [Grant| Obtener| Conjunto| Nuevo| Remove]-CsMobilityPolicy
-  - [Grant| Obtener] CsVoiceRoutingPolicy
+  - [Grant| Get]-CsVoiceRoutingPolicy
   - [Grant| Obtener]-CsBroadcastMeetingPolicy
   - [Grant| Get]-CsCloudMeetingPolicy
   - [Grant| Get]-CsGraphPolicy
@@ -96,7 +98,7 @@ Las organizaciones que han estado usando Teams módulo de PowerShell en los últ
   - Get-CsHostingProvider
   - [Obtener| Conjunto| Registrarse| Anular registro]-CsHybridPSTNAppliance
   - [Obtener| Conjunto| Nuevo| Quitar]-CsHybridPSTNSite
-  - [Obtener| Conjunto]- CsHybridMediationServer
+  - [Obtener| Set]-CsHybridMediationServer
   - [Obtener| Conjunto| Nuevo| Remove]-CsTenantUpdateTimeWindow
   - Get-CsUserLocationStatus
   - Invoke-CsUcsRollback

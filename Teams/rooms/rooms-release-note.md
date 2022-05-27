@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Administración puede leer las notas de la versión de Salas de Microsoft Teams, que muestran mejoras acumulativas en Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03a23ecb47fb0efca19ce3a7085a1fcc41b80dc3
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: eadeea6648da5ef2a5b5210b45bb3c884a1cabe8
+ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674202"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65753063"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de la versión para Salas de Microsoft Teams
 
@@ -39,6 +39,7 @@ Salas de Teams se rige por la directiva moderna de ciclo de vida. Consulte [Team
 
 |Lanzamiento |Publicado en <br/> Microsoft Store |
 |--- |--- |
+|4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
@@ -90,6 +91,13 @@ Salas de Teams se rige por la directiva moderna de ciclo de vida. Consulte [Team
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas de Microsoft Teams introducción a la característica y resolución de problemas
+
+### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
+
+Introducido en esta actualización:
+- Corrección de errores para Jabra Panacast 50
+- Corrección de errores para unirse a una reunión anónima entre nubes
+- Correcciones de calidad y confiabilidad
 
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 
