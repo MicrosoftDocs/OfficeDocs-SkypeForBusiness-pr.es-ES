@@ -1640,6 +1640,8 @@ items:
         items:
           - name: Introducción a Teams para trabajadores de primera línea
             href: flw-landing-page.md
+          - name: Comience con una prueba gratuita de primera línea
+            href: flw-trial.md
           - name: Opciones de licencias para trabajadores de primera línea
             href: flw-licensing-options.md
           - name: Guía de inicio rápido de Trabajador de primera línea

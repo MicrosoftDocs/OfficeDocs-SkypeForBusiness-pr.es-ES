@@ -34,7 +34,7 @@ Para los espacios empresariales de educación, este informe es útil para realiz
 
 Como administrador, usted controla si los organizadores de reuniones pueden descargar informes de asistencia a reuniones al establecer una directiva de reuniones de Teams. De forma predeterminada, la capacidad de descargar el informe está desactivada. Para obtener información sobre cómo activar esta característica, consulte [Configuración de la directiva de reunión: Permitir informe de compromiso](../meeting-policies-in-teams-general.md#engagement-report).
 
-Si los organizadores de la reunión necesitan tener acceso a más datos de asistencia de los que obtienen del informe disponible dentro de la reunión, puede asignarles el rol *lector de informes* para que puedan obtener acceso a los informes de administración de Teams. Para obtener más información, lea [Quién tiene acceso a los informes de actividades de Teams](../teams-activity-reports.md#who-can-access-the-teams-activity-reports). 
+Si los organizadores de la reunión necesitan tener acceso a más datos de asistencia de los que obtienen del informe disponible dentro de la reunión, puede asignarles el rol *lector de informes* para que puedan obtener acceso a los informes de administración de Teams. Para más información, lea [Quién tiene acceso a los informes de actividades de Teams](../teams-activity-reports.md#who-can-access-the-teams-activity-reports). 
 
 ## <a name="related-topics"></a>Temas relacionados
 

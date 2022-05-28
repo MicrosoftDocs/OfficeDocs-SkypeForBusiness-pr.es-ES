@@ -57,7 +57,7 @@ Determinan quién puede unirse al equipo:
 
 Los tipos de usuario de los equipos determinan la cantidad de control que tiene un miembro del equipo:
 
--   El *creador del equipo* tiene permisos para crear un grupo o un equipo en el directorio. El administrador puede limitar este tipo de usuario a un subconjunto de administradores o usuarios. Si desea más información, consulte [Administrar quién puede crear Grupos de Microsoft 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). Los creadores del equipo se convierten automáticamente en propietarios del equipo.
+-   El *creador del equipo* tiene permisos para crear un grupo o un equipo en el directorio. El administrador puede limitar este tipo de usuario a un subconjunto de administradores o usuarios. Si quiere más información, consulte [Administrar quién puede crear Grupos de Microsoft 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). Los creadores del equipo se convierten automáticamente en propietarios del equipo.
 -   El *propietario del equipo* administra la pertenencia y la configuración del equipo. Puede haber hasta 100 propietarios de equipo en un equipo.
 -   El *miembro del equipo* es un miembro de su organización que participa en un equipo.
 -   El *invitado* es un usuario que no pertenece a la organización. A cualquier persona que tenga una dirección de correo electrónico se le puede invitar como invitado, siempre que la organización tenga habilitado el [acceso de invitado](guest-access.md).
