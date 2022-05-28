@@ -1,7 +1,7 @@
 ---
 title: Administrar Salas de Microsoft Teams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo desarrollar y ejecutar operaciones y mantenimiento continuos para garantizar que los sistemas de Salas de Microsoft Teams están disponibles para los usuarios.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 47f1c170fd0c41331dfaffa2d81386ac3c2fb722
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 0252d44b073353aea43fec838f439ecb2233c43f
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106275"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761302"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Administrar Salas de Microsoft Teams
 
@@ -100,8 +100,8 @@ Si selecciona más de una, las opciones de configuración compatibles con la edi
 | **Altavoz predeterminado**                                          | Lista de altavoces disponibles                             | No                 |
 | **Volumen predeterminado**                                           | 0-100                                                  | No                 |
 | **Cámara de contenido**                                           | Lista de cámaras disponibles                              | No                 |
-| **Mejoras de la cámara de contenido**                              | Activado<br>Desactivado                                              | No                 |
-| **Girar la cámara de contenido 180 grados**                        | Activado<br>Desactivado                                              | No                 |
+| **Mejoras de Cámara de contenido**                              | Activado<br>Desactivado                                              | No                 |
+| **Girar contenido Cámara 180 grados**                        | Activado<br>Desactivado                                              | No                 |
 | *Tematización*                                                    |                                                        |                    |
 |                                                              | Valor predeterminado<br>Sin tema<br>Personalizado<br>Lista de temas integrados   | Sí                |
 

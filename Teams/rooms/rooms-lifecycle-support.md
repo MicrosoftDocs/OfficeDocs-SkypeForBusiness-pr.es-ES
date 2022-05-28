@@ -1,7 +1,7 @@
 ---
 title: compatibilidad con la versión de la aplicación Salas de Microsoft Teams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: Obtén información sobre el soporte técnico del ciclo de vida para Salas de Microsoft Teams, incluida la estructura dinámica de soporte técnico y sus fases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0353dc1a52dbc16d42d7c7e2f974675bb5098aa
-ms.sourcegitcommit: cd4464fe9bf0f38ed4c3ca058a51bcd29578eef9
+ms.openlocfilehash: 8348db0129b31920335351f2ebde4ed5db8a3d36
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "65316516"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761072"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>compatibilidad con la versión de la aplicación Salas de Microsoft Teams
  

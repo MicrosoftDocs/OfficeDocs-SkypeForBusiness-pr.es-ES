@@ -1,7 +1,7 @@
 ---
 title: Implementar Salas de Microsoft Teams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener información sobre cómo implementar Salas de Microsoft Teams, incluidas las fases de implementación.
-ms.openlocfilehash: 18a5d72fb9c11b34bb994734b8d064c3aaa2cdae
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 0111e8723d70b753c2d8de64350387252db8f8f7
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125775"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760922"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 
@@ -53,7 +53,7 @@ Puede obtener más información sobre estas dependencias en los siguientes vínc
 Para preparar la implementación de Salas de Microsoft Teams, realice las siguientes tareas centrales clave:
 
 -   Definir Salas de Microsoft Teams cuentas de recursos.
--   Si se une a Salas de Teams a Azure Active Directory, prepare un grupo de Azure AD con pertenencia dinámica para que contenga todas las cuentas de recursos Salas de Teams. Esto simplificará la administración futura, como aplicar directivas de acceso condicional. Para aprovechar más fácilmente Azure AD grupos dinámicos, determine una convención de nomenclatura que identifique de forma exclusiva Salas de Teams cuentas de recursos.
+-   Si se une a Salas de Teams a Azure Active Directory, prepare un grupo de Azure AD con pertenencia dinámica para conservar todas las cuentas de recursos de Salas de Teams. Esto simplificará la administración futura, como aplicar directivas de acceso condicional. Para aprovechar más fácilmente los grupos dinámicos de Azure AD, determine una convención de nomenclatura que identifique de forma exclusiva sus cuentas de recursos Salas de Teams.
 -   Si se une Salas de Teams a Active Directory, prepare una unidad organizativa y un grupo de Active Directory para que mantenga su Salas de Microsoft Teams cuenta de recursos y del equipo y, opcionalmente, prepare directiva de grupo objetos (GPO) para habilitar PowerShell remoto.
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>Definir Salas de Microsoft Teams características de cuenta de recursos 
@@ -63,7 +63,7 @@ Según los escenarios de colaboración que haya decidido habilitar con la implem
 | **Escenario** | **Descripción** | **característica de cuenta de servicio de Salas de Microsoft Teams** |
 |---------- |------------- | --- |
 | Reuniones interactivas            | Uso de voz, vídeo y uso compartido de pantalla; convertir la Salas de Microsoft Teams en un recurso reservable                     | Habilitado para Microsoft Teams o Skype Empresarial; habilitado para Exchange (buzón de recursos) |
-| Conferencia de acceso telefónico local            | Tener un número de teléfono de audioconferencia al pulsar "Nueva reunión" en la consola | Habilitado para audioconferencia                                          |
+| Conferencia de acceso telefónico local            | Tener un número de teléfono de audioconferencia al pulsar "Nueva reunión" en la consola | Habilitado para Audioconferencia                                          |
 | Llamadas RTC de entrada o salida | Habilitar la consola de Salas de Microsoft Teams para realizar y recibir llamadas RTC                                         | Habilitado para Sistema telefónico                                                |
 
 Para obtener más información sobre las cuentas de Salas de Microsoft Teams, vea [Configurar cuentas para Salas de Microsoft Teams](rooms-configure-accounts.md).
@@ -79,13 +79,13 @@ _Ejemplo Salas de Microsoft Teams tabla de planificación de cuentas de recursos
 
 | **Sitio**  | **Nombre de la sala** | **Tipo de sala** | **Capacidades futuras de la sala**                                                 | **características de la cuenta de Salas de Microsoft Teams**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| SEDE de Londres | Curie         | Medio        | 1 pantalla, audio y vídeo y presentación <br>Acceso a conferencias de acceso telefónico local<br> Acceso RTC  | Habilitado para Exchange (buzón de recursos) <br>Habilitado para audioconferencia <br>Habilitado para Sistema telefónico |
-| Sede de Sydney | Colina          | Grande         | 2 pantallas, audio y vídeo más presentación<br>Acceso a conferencias de acceso telefónico local<br> Acceso RTC  | Habilitado para Skype Empresarial <br>Habilitado para Exchange (buzón de recursos)<br> Habilitado para audioconferencia <br>Habilitado para Sistema telefónico |
+| SEDE de Londres | Curie         | Medio        | 1 pantalla, audio y vídeo y presentación <br>Acceso a conferencias de acceso telefónico local<br> Acceso RTC  | Habilitado para Exchange (buzón de recursos) <br>Habilitado para Audioconferencia <br>Habilitado para Sistema telefónico |
+| Sede de Sydney | Colina          | Grande         | 2 pantallas, audio y vídeo más presentación<br>Acceso a conferencias de acceso telefónico local<br> Acceso RTC  | Habilitado para Skype Empresarial <br>Habilitado para Exchange (buzón de recursos)<br> Habilitado para Audioconferencia <br>Habilitado para Sistema telefónico |
 
 
 ### <a name="prepare-to-host-microsoft-teams-rooms-and-resource-accounts-optional"></a>Prepararse para hospedar cuentas de Salas de Microsoft Teams y recursos (opcional)
 
-Para que pueda administrar las cuentas de Salas de Microsoft Teams y recursos e informar de estas, prepare su Active Directory local o Azure Active Directory (Azure AD). 
+Para permitirle administrar sus cuentas de recursos y Salas de Microsoft Teams e informar de ellos, prepare su Active Directory local o Azure Active Directory (Azure AD). 
 
 Defina una Active Directory local o un grupo de Azure Active Directory al que agregar todas las cuentas de recursos de Salas de Microsoft Teams. Si usa Azure Active Directory, considere la posibilidad de usar un grupo dinámico para agregar y quitar automáticamente cuentas de recursos del grupo.
 
@@ -115,7 +115,7 @@ La planificación de la configuración y la implementación abarca las siguiente
 
 Cada dispositivo de Salas de Microsoft Teams requiere una cuenta de recursos dedicada y única que se debe habilitar para Microsoft Teams o Skype Empresarial y Exchange. Esta cuenta debe tener un buzón de sala hospedado en Exchange. El procesamiento del calendario debe configurarse para que el dispositivo pueda aceptar automáticamente las convocatorias de reunión entrantes. Para obtener más información sobre cómo crear estas cuentas, vea [Configurar cuentas para Salas de Microsoft Teams](rooms-configure-accounts.md). 
 
-**sugerencia de Pro**: cada Salas de Microsoft Teams debe tener un nombre de equipo único y válido en la red. Muchos sistemas de supervisión y alerta muestran el nombre del equipo como un identificador de clave, por lo que es importante desarrollar una convención de nomenclatura para implementaciones de Salas de Microsoft Teams que permita al personal de soporte localizar fácilmente el Salas de Microsoft Teams que se ha marcado como que requiere una acción. Un ejemplo podría estar usando un patrón de NOMBRE *MTR-SiteRoom*- (MTR-LON-CURIE). 
+**sugerencia de Pro**: cada Salas de Microsoft Teams debe tener un nombre de equipo único y válido en la red. Muchos sistemas de supervisión y alerta muestran el nombre del equipo como un identificador de clave, por lo que es importante desarrollar una convención de nomenclatura para implementaciones de Salas de Microsoft Teams que permita al personal de soporte localizar fácilmente el Salas de Microsoft Teams que se ha marcado como que requiere una acción. Un ejemplo podría estar usando un patrón de *nombre de salón* MTR-sitio- (MTR-LON-CURIE). 
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|

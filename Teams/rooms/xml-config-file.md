@@ -1,7 +1,7 @@
 ---
 title: Administrar de forma remota la configuración de Salas de Microsoft Teams dispositivo
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Administración remota de la configuración predeterminada usada por un dispositivo Salas de Microsoft Teams, incluida la aplicación de un tema personalizado y la creación de un archivo de configuración maestra.
-ms.openlocfilehash: c363dce55df4d9bdcf125492c2ca92b3b20feba7
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 15cedb921657d9be646fcd1aef94f15f989eec4f
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125465"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761142"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar de forma remota una configuración de consola de Salas de Microsoft Teams con un archivo de configuración XML
 

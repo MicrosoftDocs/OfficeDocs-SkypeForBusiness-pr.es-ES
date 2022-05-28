@@ -1,7 +1,7 @@
 ---
 title: Aprovisionamiento remoto e inicio de sesión para dispositivos Teams Android
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Aprende a aprovisionar de forma remota e iniciar sesión en dispositivos Teams Android
-ms.openlocfilehash: 4b3831bc42da92939c7aa61ff52a15266dc4a940
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 5a746e3255ce8af9bcf59f8dfcae12854b222a1f
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674342"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761292"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Aprovisionamiento remoto e inicio de sesión para dispositivos Teams Android
 

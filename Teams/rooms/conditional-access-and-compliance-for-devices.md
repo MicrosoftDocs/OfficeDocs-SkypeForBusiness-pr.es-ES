@@ -1,7 +1,7 @@
 ---
 title: Procedimientos recomendados de acceso condicional y cumplimiento para Salas de Microsoft Teams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Obtenga más información sobre las directivas recomendadas de cumplimiento del dispositivo de Intune y el acceso condicional y los procedimientos recomendados para Salas de Microsoft Teams.
-ms.openlocfilehash: b4e1d3cb91ff68e664d590c8e180e55211ca93b0
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 1221060121f47154549c6c6fc926415f4feabbe5
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675492"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761312"
 ---
 # <a name="conditional-access-and-intune-compliance-for-microsoft-teams-rooms"></a>Cumplimiento de Intune y acceso condicional para Salas de Microsoft Teams
 

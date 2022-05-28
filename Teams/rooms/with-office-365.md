@@ -1,7 +1,7 @@
 ---
 title: Crear cuentas de recursos para salas y dispositivos de Teams compartidos
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,16 +15,16 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lea este artículo para obtener información sobre cómo crear cuentas de recursos para salas y dispositivos compartidos, incluidos Salas de Microsoft Teams, Salas de Teams en Surface Hub y escritorio en pantallas de Teams.
-ms.openlocfilehash: e788ca2086faf86f602ef0938d520ea03dce4ef4
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 53d69a5dd91e012bc948bad1b9d7350afcbbb1b2
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885028"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760892"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Crear y configurar cuentas de recursos para salas y dispositivos de Teams compartidos
 
-En este artículo se proporcionan pasos para crear cuentas de recursos para espacios compartidos y dispositivos, e incluye pasos para configurar cuentas de recursos para Salas de Microsoft Teams en Windows, Salas de Teams en Android, Salas de Teams en Surface Hub y hot-desking en Teams pantallas.
+Este artículo proporciona pasos para crear cuentas de recursos para espacios compartidos y dispositivos, e incluye pasos para configurar cuentas de recursos para Salas de Microsoft Teams en Windows, Salas de Teams en Android, Salas de Teams en Surface Hub y escritorio caliente en pantallas de Teams.
 
 Microsoft 365 las cuentas de recursos son cuentas de buzón y de Teams que están dedicadas a recursos específicos, como una sala o un proyector. Estas cuentas de recursos pueden responder automáticamente a las invitaciones a reuniones con reglas que defina cuando se creen. Por ejemplo, si tiene un recurso común, como una sala de conferencias, puede configurar una cuenta de recursos para esa sala de conferencias que aceptará o rechazará automáticamente invitaciones a reuniones en función de su disponibilidad del calendario. 
 
@@ -62,7 +62,7 @@ Antes de crear una cuenta de recursos de Microsoft 365, compruebe qué tipo de l
 
 - **Llamadas RTC** Si desea que el recurso realice o reciba llamadas a un número de teléfono externo (denominado red telefónica conmutada o llamada RTC), necesita una licencia de Microsoft 365 Sistema telefónico o Microsoft 365 Business Voice. Solo necesita completar el paso 1 en la siguiente información general. A continuación, consulte [Microsoft Teams licencias de complementos](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para obtener más información.
 
-- Si solo usa una cuenta de recursos para reservar un recurso&mdash;, invite al recurso a la reunión y pídale que acepte o rechace automáticamente la invitación&mdash;, no necesita asignar una licencia a la cuenta de recursos y solo necesita completar el paso 1 en la siguiente información general.  
+- Si solo usa una cuenta de recursos para reservar un recurso&mdash;, invite al recurso a la reunión y pídale que acepte o rechace automáticamente la invitación&mdash;que no necesita para asignar una licencia a la cuenta de recursos y solo necesita completar el paso 1 en la siguiente información general.  
 
 ## <a name="overview"></a>Información general
 
@@ -104,9 +104,9 @@ Cree una cuenta de recursos con un método de una de las pestañas siguientes:
       - Duración máxima (horas): 24
     - Aceptar automáticamente convocatorias de reunión
 
-    Si desea cambiarlas, seleccione **Establecer opciones de programación** antes de seleccionar **Cerrar**. Si desea cambiarlos más adelante, vaya a **ResourcesRooms** >  **& equipo**, seleccione la cuenta de recursos. A continuación, en **Opciones de reserva**, seleccione **Editar**.
+    Si desea cambiarlas, seleccione **Establecer opciones de programación** antes de seleccionar **Cerrar**. Si desea cambiarlos más adelante, vaya a **Salas** >  de recursos **& equipo**, seleccione la cuenta de recursos. A continuación, en **Opciones de reserva**, seleccione **Editar**.
 
-6. Vaya a **UsuariosActivos** >  y seleccione el salón que creó para abrir el panel de propiedades.
+6. Vaya a **Usuarios** > **activos** y seleccione el salón que creó para abrir el panel de propiedades.
 
 7. A continuación, asigne una contraseña a la cuenta de recursos. En el panel, selecciona **Restablecer contraseña**.
  
@@ -202,7 +202,7 @@ Para obtener información detallada sobre la sintaxis y los parámetros, vea [Ne
 > [!IMPORTANT]
 > Si solo usa esta cuenta de recursos para reservar espacio y acepta o rechaza automáticamente invitaciones, ya ha completado la configuración. Si usa esta cuenta de recursos para las llamadas de RTC, consulte [Microsoft Teams licencias de complementos](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para determinar qué licencia necesita.
 >
-> Continúe con la siguiente sección solo si la cuenta de recurso es para una Salas de Teams en Windows, Salas de Teams en Android, Salas de Teams en Surface Hub o una pantalla de Teams con escritorio rápido.
+> Continúe con la siguiente sección solo si la cuenta de recursos es para una Salas de Teams en Windows, Salas de Teams en Android, Salas de Teams en Surface Hub o una pantalla de Teams con escritorio rápido.
 
 ## <a name="configure-mailbox-properties"></a>Configurar las propiedades del buzón
 

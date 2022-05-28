@@ -1,7 +1,7 @@
 ---
 title: Registro de entrada y liberación de la habitación en paneles Microsoft Teams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: gary.lai
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.collection:
 ms.topic: reference
 search.appverid: MET150
 description: Este artículo proporciona instrucciones sobre cómo habilitar el registro de entrada y la liberación de la sala Teams dispositivos de paneles.
-ms.openlocfilehash: 3cf1f48a71f88f012c6d33ba608ee40b53cda474
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: a1fc01b349a2189ab2f5ca09ff6b856338fbcdbb
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65218024"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761282"
 ---
 # <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Registro de entrada y liberación de la habitación en paneles Microsoft Teams
 
@@ -28,7 +28,7 @@ Cuando el registro y la liberación de la sala están habilitados, los usuarios 
 
 ## <a name="requirements"></a>Requirements 
 
-Esta característica se puede usar en una implementación de Panel de Teams independiente. También puedes emparejar paneles Teams con Salas de Teams en Android con la versión de la aplicación 1449/1.0.96.2022011305 o posterior para obtener funcionalidades adicionales, como las notificaciones de registro.  
+Esta característica se puede usar en una implementación de Panel de Teams independiente. También puede emparejar paneles Teams con Salas de Teams en Android con la versión de la aplicación 1449/1.0.96.2022011305 o posterior para funcionalidades adicionales, como las notificaciones de registro.  
 
 ## <a name="enable-check-in-and-room-release"></a>Habilitar el registro de entrada y la liberación de la sala 
 
@@ -36,7 +36,7 @@ El registro de entrada y la liberación de la sala están desactivadas de forma 
 
 1. En la Panel de Teams, inicie sesión con sus credenciales de administrador.  
 
-2. Vaya a **Configuración > Configuración del dispositivo > Configuración de administrador > Teams configuración de administrador > Reuniones**.
+2. Vaya a **Configuración > Configuración del dispositivo > Administración la configuración > Teams la configuración de administrador > Reuniones**.
 
 3. Active Sala de liberación si nadie se registra.
 
@@ -55,7 +55,7 @@ Para activar las notificaciones de registro,
 
 1. En la Panel de Teams, inicie sesión con sus credenciales de administrador. 
 
-2. Vaya a **Configuración > Configuración del dispositivo > Configuración de administrador > Teams configuración de administrador > Reuniones**.
+2. Vaya a **Configuración > Configuración del dispositivo > Administración la configuración > Teams la configuración de administrador > Reuniones**.
 
 3. Vaya a **Registro** y active **Enviar notificación de registro**.
 

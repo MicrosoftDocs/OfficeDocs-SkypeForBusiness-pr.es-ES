@@ -1,7 +1,7 @@
 ---
 title: Crear una imagen de Salas de Microsoft Teams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar la consola de Salas de Microsoft Teams y sus periféricos.
-ms.openlocfilehash: 9c1358b5e9561f197dc1142c40144646b5a11ce4
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: d3c4f534fbd5395c7e0cda8e095b5a6d7a2b8def
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676392"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761262"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Crear una imagen de Salas de Microsoft Teams
 

@@ -1,7 +1,7 @@
 ---
-title: Cómo usar dispositivos Microsoft Teams paneles
-ms.author: czawideh
-author: cazawideh
+title: Cómo usar dispositivos de paneles Microsoft Teams
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -15,248 +15,248 @@ ms.collection:
 - M365-voice
 search.appverid: MET150
 ms.localizationpriority: medium
-description: En este artículo se proporcionan instrucciones sobre cómo usar Teams dispositivos de paneles.
-ms.openlocfilehash: 2928bb64881cad5fb5c6615d26767e963f725dcd
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+description: Este artículo proporciona orientación sobre cómo usar Teams dispositivos de paneles.
+ms.openlocfilehash: 00d2657179e35e2a5e43cbc0665a6d1533ec70d1
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64643044"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760912"
 ---
-# <a name="how-to-use-microsoft-teams-panels"></a>Cómo usar Microsoft Teams paneles
+# <a name="how-to-use-microsoft-teams-panels"></a>Cómo usar paneles Microsoft Teams
 
-Microsoft Teams son dispositivos de visualización digital compactos que se instalan justo fuera de los espacios de reunión, normalmente junto a las entradas. Estos paneles táctiles están dedicados Microsoft Teams dispositivos que proporcionan una vista general sobre su espacio de reunión y la reunión programada. Con los dinámicos indicadores LED y pantalla inicio codificados por colores, puede determinar si el espacio está disponible o reservado a distancia. Puede usar paneles Teams para reservar un espacio de reunión disponible para una reunión ad hoc, en el momento.
+Microsoft Teams paneles son dispositivos de pantalla digital compactos que se monta justo fuera de los espacios de reunión, normalmente junto a las entradas. Estos paneles táctiles están dedicados Microsoft Teams dispositivos que ofrecen una vista rápida del espacio de la reunión y la reunión programada. Con los vibrantes indicadores led codificados por colores e indicadores de pantalla de inicio, puedes determinar si el espacio está disponible o reservado desde una distancia. Puede usar Teams paneles para reservar un espacio de reunión disponible para una reunión ad hoc, en el lugar.
 
-Teams dispositivos de paneles vienen preinstalados con Microsoft Teams y muestran detalles de la reunión que se programan Outlook o Teams calendarios.
+Teams dispositivos de paneles vienen preinstalados con Microsoft Teams y muestran los detalles de la reunión que se programan a través de los calendarios de Outlook o Teams.
 
-En este artículo se proporcionan instrucciones, tanto para los usuarios finales como para los administradores, sobre cómo usar los Teams paneles. También proporciona respuestas a las preguntas [más frecuentes sobre](#frequently-asked-questions) el uso de estos dispositivos.
+En este artículo se proporciona orientación, tanto a usuarios finales como a administradores, sobre cómo usar los dispositivos de paneles Teams. También proporciona respuestas a las [preguntas más frecuentes](#frequently-asked-questions) sobre el uso de estos dispositivos.
 
-Para obtener información general sobre los dispositivos de paneles y las instrucciones sobre cómo planearlos, entregarlos y administrarlos en su organización, vea Implementar [Microsoft Teams paneles](teams-panels.md).
+Para obtener información general sobre los dispositivos de paneles y las instrucciones sobre cómo planificarlos, entregarlos y administrarlos en su organización, consulte [Implementar paneles de Microsoft Teams](teams-panels.md).
 
-Para un inicio rápido, consulte Comenzar [con Teams paneles](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
+Para un inicio rápido, echa un vistazo a [Comenzar con paneles de Teams](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
 
-## <a name="teams-panels-end-user-experience"></a>Teams de paneles finales
+## <a name="teams-panels-end-user-experience"></a>experiencia de usuario final de paneles de Teams
 
-Explore la [pantalla Inicio de su](#explore-teams-panels-home-screen) dispositivo Teams paneles para ver el espacio de reunión y los detalles de la reunión. O bien, pulse y desplácese por el panel de pantalla táctil para realizar otras acciones.
+Explore la [pantalla Inicio](#explore-teams-panels-home-screen) de su dispositivo de paneles Teams para ver los detalles del espacio de la reunión y la reunión. O bien, pulsa y desplázate por el panel de pantalla táctil para realizar otras acciones.
 
-Use los dispositivos Teams paneles para:
+Use sus dispositivos de paneles de Teams para:
 
-- [Ver detalles y disponibilidad del espacio de reunión, detalles de la reunión, próximas reservas](#explore-teams-panels-home-screen)
+- [Ver los detalles y la disponibilidad del espacio de la reunión, los detalles de la reunión, las próximas reservas](#explore-teams-panels-home-screen)
 - [Reservar un espacio de reunión disponible](#reserve-meeting-spaces-for-ad-hoc-meetings)
 - [Informar de un problema](#report-a-problem)
-- [Ver o actualizar una configuración de dispositivo](#view-or-update-a-device-setting)
+- [Ver o actualizar la configuración de un dispositivo](#view-or-update-a-device-setting)
 
-## <a name="explore-teams-panels-home-screen"></a>Explorar Teams pantalla inicio
+## <a name="explore-teams-panels-home-screen"></a>Explorar Teams pantalla principal de paneles
 
-La pantalla Inicio es la interfaz visual principal del dispositivo Teams paneles.  
+La pantalla Inicio es la interfaz visual principal de su dispositivo de paneles Teams.  
 
-Desde la pantalla Inicio, puede ver los detalles de la reunión y la ubicación, reservar un espacio, ver próximas reservas e identificar el estado de disponibilidad actual.
+En la pantalla Inicio, puede ver los detalles de la ubicación y la reunión, reservar un espacio, ver las próximas reservas e identificar el estado de disponibilidad actual.
 
-La siguiente captura de pantalla muestra diferentes partes o mosaicos en la Teams pantalla inicio de paneles:
+La siguiente captura de pantalla muestra diferentes partes o mosaicos en la pantalla principal de los paneles de Teams:
 
-:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="Esta captura de pantalla muestra diferentes áreas en la Teams pantalla inicio.":::
+:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="Esta captura de pantalla muestra diferentes áreas en la pantalla principal Teams paneles.":::
 
 Consulte la tabla siguiente para obtener una descripción de cada mosaico:
 
-Mosaico | Descripción
+Azulejo | Descripción
 :---|:---
-**1-Detalles de la hora, el día, la fecha y el espacio de reunión actuales** | Muestra el nombre actual de la hora, el día, la fecha y el espacio de reunión. El nombre del espacio de reunión es el nombre de la cuenta de recursos que ha iniciado sesión en los paneles.
-**Disponibilidad del espacio de dos reuniones y detalles de la reunión** | Indica la disponibilidad del espacio de reunión y muestra los detalles de la reunión. Vea [El icono Disponibilidad del espacio de reunión y detalles de la reunión](#meeting-space-availability-and-meeting-details-tile).
-**Calendario de 3 próximas** | Muestra el calendario y la disponibilidad del espacio de reunión durante un máximo de 24 horas desde la hora actual. Desplácese hacia arriba o hacia abajo para determinar qué franjas horarias están disponibles y cuáles están reservadas.
-**4-Configuración** | Muestra el **Configuración** de datos. Pón clic en él para informar de un problema o actualizar la configuración del dispositivo disponible.
+**1.Detalles de la hora, el día, la fecha y el espacio de reunión actuales** | Muestra la hora actual, el día, la fecha y el nombre del espacio de reunión. El nombre del espacio de reunión es el nombre de la cuenta de recursos que inició sesión en los paneles.
+**2-Disponibilidad del espacio de reunión y detalles de la reunión** | Indica la disponibilidad del espacio de reunión y muestra los detalles de la reunión. Vea [el mosaico Disponibilidad del espacio de reunión y detalles de la reunión](#meeting-space-availability-and-meeting-details-tile).
+**3-Calendario próximo** | Muestra el calendario y la disponibilidad del espacio de reunión hasta 24 horas a partir de la hora actual. Desplázate hacia arriba o hacia abajo para determinar qué intervalos de tiempo están disponibles y cuáles están reservados.
+**4-Configuración** | Muestra el icono **de Configuración**. Púlsalo para informar de un problema o actualizar la configuración del dispositivo disponible.
 
-### <a name="meeting-space-availability-and-meeting-details-tile"></a>Icono de disponibilidad de espacio de reunión y detalles de la reunión
+### <a name="meeting-space-availability-and-meeting-details-tile"></a>Mosaico Disponibilidad del espacio de reunión y detalles de la reunión
 
 La apariencia de este icono y sus capacidades varían según la disponibilidad del espacio de reunión y el tipo de reserva.
 
 #### <a name="meeting-space-is-reserved-for-a-scheduled-meeting"></a>El espacio de reunión está reservado para una reunión programada
 
-El mosaico aparece en color púrpura para un espacio de reunión reservado para una reunión programada (programada a través de Outlook o Teams). Muestra el título de la reunión en texto prominente, horas de inicio y finalización de la reunión y el nombre del organizador de la reunión. Para una reunión Teams, también aparece Teams logotipo. Con los detalles de la reunión destacados, los asistentes pueden confirmar fácilmente que están en el espacio de reunión adecuado, en el momento adecuado y para la reunión correcta.
+El icono aparece en color púrpura para un espacio de reunión reservado para una reunión programada (programada a través de Outlook o Teams). Muestra el título de la reunión en un texto destacado, las horas de inicio y finalización de la reunión y el nombre del organizador de la reunión. Para una reunión Teams, también aparece el logotipo de Teams. Con los detalles de la reunión visibles, los asistentes pueden confirmar fácilmente que se encuentran en el espacio de reunión adecuado, en el momento adecuado y en la reunión adecuada.
 
-:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams paneles inicio que muestran que el espacio de reunión está reservado para una reunión programada.":::
+:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams pantalla principal de paneles que muestra que el espacio de reunión está reservado para una reunión programada.":::
 
 > [!NOTE]
 >
 > - Después de programar una reunión, el calendario puede tardar hasta 90 segundos en sincronizarse y reflejarse en la pantalla de paneles.
-> - Para una [reunión programada que se marca como privada](https://support.microsoft.com/office/make-an-appointment-or-meeting-private-dc3898f0-22f5-45c6-8cc8-b4d4db84111d)**, la** reunión privada se muestra en lugar del título real de la reunión.
+> - Para las [reuniones programadas marcadas como privadas](https://support.microsoft.com/office/make-an-appointment-or-meeting-private-dc3898f0-22f5-45c6-8cc8-b4d4db84111d), se muestra **Reunión privada** en lugar del título de la reunión real.
 
 #### <a name="meeting-space-is-reserved-for-an-ad-hoc-meeting"></a>El espacio de reunión está reservado para una reunión ad hoc
 
-El mosaico aparece en color púrpura para un espacio de reunión reservado [para una reunión ad hoc](#reserve-meeting-spaces-for-ad-hoc-meetings). Muestra Reservado **en** texto prominente junto con las horas de inicio y finalización de la reunión. Las reuniones ad hoc se programan automáticamente Teams reuniones, por lo que el logotipo de Teams siempre aparece en la pantalla.
+El mosaico aparece en color púrpura para un espacio de reunión [reservado para una reunión ad hoc](#reserve-meeting-spaces-for-ad-hoc-meetings). Muestra **Reservado** en un texto destacado junto con las horas de inicio y finalización de la reunión. Las reuniones ad hoc se programan automáticamente como reuniones Teams, por lo que el logotipo de Teams siempre aparece en la pantalla.
 
-:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams paneles de inicio que muestran que el espacio de reunión está reservado para una reunión ad hoc.":::
+:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams pantalla principal de paneles que muestra que el espacio de reunión está reservado para una reunión ad hoc.":::
 
 #### <a name="meeting-space-is-available"></a>El espacio de reunión está disponible
 
-El mosaico aparece en verde para un espacio de reunión disponible. Muestra Disponible **en** texto prominente y también aparece un  botón Reservar que puede pulsar para reservar el espacio de reunión [para una reunión ad hoc](#reserve-meeting-spaces-for-ad-hoc-meetings). Puede comprobar el calendario próximo del espacio de reunión (mosaico inferior derecho) para decidir la hora de finalización de la reunión ad hoc.
+El icono aparece en verde para un espacio de reunión disponible. Muestra **Disponible** en texto destacado y también aparece un botón **Reservar** que puede pulsar para [reservar el espacio de reunión para una reunión ad hoc](#reserve-meeting-spaces-for-ad-hoc-meetings). Puede comprobar el calendario próximo del espacio de reunión (mosaico de la parte inferior derecha) para decidir la hora de finalización de la reunión ad hoc.
 
-:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="Esta captura de pantalla muestra cómo aparece Teams pantalla inicio de los paneles cuando el espacio de reunión está disponible.":::
+:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="Esta captura de pantalla muestra cómo aparece la pantalla principal de los paneles de Teams cuando el espacio de reunión está disponible.":::
 
 ## <a name="reserve-meeting-spaces-for-ad-hoc-meetings"></a>Reservar espacios de reunión para reuniones ad hoc
 
-Puede reservar un espacio [de reunión disponible directamente](#meeting-space-is-available) desde paneles para una reunión ad hoc. Todas las reuniones ad hoc se programan automáticamente como Teams reuniones. Sin embargo, una vez reservado, no se puede liberar o no reservar ese espacio de reunión a través de paneles. Solo los administradores de la cuenta de recursos del dispositivo pueden cancelar la reunión ad hoc (a través de Outlook o Teams calendario) para anular la reserva del espacio.
+Puede reservar un [espacio de reunión disponible](#meeting-space-is-available) directamente desde paneles para una reunión ad hoc. Todas las reuniones ad hoc se programan automáticamente como reuniones Teams. Sin embargo, una vez reservado, no se puede liberar o no se puede reservar ese espacio de reunión a través de paneles. Solo los administradores de la cuenta de recursos del dispositivo pueden cancelar la reunión ad hoc (a través de Outlook o Teams calendario) para liberar espacio.
 
 Para reuniones ad hoc que se reservan directamente desde paneles:
 
-- La hora de inicio siempre es la hora actual y, como tal, no puede programarla para una hora futura.
-- La hora de finalización puede ser hasta la siguiente reunión programada o hasta 24 horas desde la hora actual, lo que sea anterior. Compruebe el **icono Calendario próximo** en la pantalla Inicio para determinar las franjas de tiempo durante las que el espacio de reunión está disponible o reservado.
+- La hora de inicio es siempre la hora actual y, por lo tanto, no puede programarla para una hora futura.
+- La hora de finalización puede ser hasta la próxima reunión programada o hasta 24 horas a partir de la hora actual, lo que sea anterior. Compruebe el **icono Calendario próximo** en la pantalla Inicio para determinar los intervalos de tiempo durante los cuales el espacio de reunión está disponible o reservado.
 
 Para reservar un espacio de reunión disponible para una reunión ad hoc:
 
-1. En la pantalla Inicio, pulse el **botón** Reservar.
-    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams paneles inicio que muestran el botón Reservar.":::
-2. En la **pantalla Reunión ad hoc** , revise las opciones de hora de finalización disponibles. Puede usar las flechas derecha o izquierda para examinar las opciones de hora de finalización disponibles.
+1. En la pantalla Inicio, pulse el botón **Reservar** .
+    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams pantalla inicio de paneles que muestra el botón Reservar.":::
+2. En la pantalla **Reunión ad hoc** , revise las opciones de hora de finalización disponibles. Puede usar las flechas derecha o izquierda para examinar las opciones de hora de finalización disponibles.
 
-    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Pantalla de reunión ad hoc que muestra las franjas horarias de finalización.":::
+    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Pantalla de reunión ad hoc que muestra los intervalos de tiempo de finalización.":::
 
     > [!Note]
     >
     > - Las opciones de hora de finalización se muestran en intervalos de 15 minutos de una hora.
-    > - La hora de finalización se muestra de forma predeterminada en el siguiente intervalo de 15 minutos, que es al menos cinco minutos después de la hora actual. Por ejemplo, si la hora actual es 1:57 p.m., la hora de finalización predeterminada se muestra como 2:15 p.m. y no 2:00 p.m. Esto impide que los usuarios reserven el espacio durante cinco minutos o menos. En la captura de pantalla anterior, la hora de finalización predeterminada se muestra como 2:00 p.m., que es el siguiente intervalo de 15 minutos que es al menos cinco minutos después de la hora actual (1:53 p.m.).
-    > - Una excepción a la regla anterior es cuando la hora de inicio de la siguiente reunión está dentro de cinco minutos desde la hora actual. En estos casos, puede reservar el espacio hasta la próxima hora de inicio de la reunión. Por ejemplo, si la hora actual es 1:57 p. m. y la siguiente hora de inicio de la reunión es a las 2:00 p.m., a continuación, las 2:00 p.m. se muestra como la única opción de hora de finalización y puede reservar el espacio durante tres minutos.
+    > - La hora de finalización predeterminada es el siguiente intervalo de 15 minutos, que es al menos cinco minutos después de la hora actual. Por ejemplo, si la hora actual es 1:57 p.m., la hora de finalización predeterminada se muestra como 2:15 p.m. y no como 14:00. Esto evita que los usuarios reserven el espacio durante cinco minutos o menos. En la captura de pantalla anterior, la hora de finalización predeterminada se muestra como 2:00 p.m., que es el siguiente intervalo de 15 minutos que es al menos cinco minutos después de la hora actual (1:53 p.m.).
+    > - Una excepción a la regla anterior es cuando la hora de inicio de la próxima reunión está dentro de los cinco minutos de la hora actual. En estos casos, puede reservar el espacio hasta la próxima hora de inicio de la reunión. Por ejemplo, si la hora actual es la 1:57 p.m. y la siguiente hora de inicio de la reunión es las 2:00 p.m., las 2:00 p.m. se muestra como la única opción de hora de finalización y puede reservar el espacio durante tres minutos.
 
 3. Pulse el intervalo de tiempo de finalización deseado y, a continuación, pulse **Reservar**.
 
-    Aparecerá una ventana de confirmación con un emoji de pulgar hacia arriba, la hora de inicio y finalización de la reunión y el nombre del espacio de reunión.
+    Aparece una ventana de confirmación con un emoji de pulgar hacia arriba, la hora de inicio y finalización de la reunión y el nombre del espacio de la reunión.
     :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="Mensaje de confirmación de reunión ad hoc.":::
-El icono derecho de la pantalla Inicio ahora aparece en color púrpura y muestra el **texto reservado y** el Teams texto. Esto indica que el espacio de reunión ahora está reservado para una reunión ad hoc Teams reunión.
+El icono derecho de la pantalla Inicio aparece ahora en color púrpura y muestra el texto **Reservado** y el logotipo de Teams. Esto indica que el espacio de reunión está ahora reservado para una reunión ad hoc Teams.
   
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Pantalla principal que muestra que el espacio de reunión está reservado para una reunión ad hoc.":::
 
     > [!NOTE]
-    > Si el espacio de reunión es una sala Microsoft Teams, puede unirse  a esta reunión Teams con la sala de Microsoft Teams o Surface Hub dispositivos.
+    > Si el espacio de reunión es una sala de Microsoft Teams, puede _unirse a_ esta reunión de Teams con la sala Microsoft Teams de la sala o Surface Hub dispositivos.
 
 ### <a name="report-a-problem"></a>Informar de un problema
 
-Para informar de un problema con el dispositivo o el espacio de reunión, para solicitar una actualización de características o para proporcionar comentarios, use  el icono Configuración en la pantalla Inicio.
+Para informar de un problema con el dispositivo o el espacio de reunión, para solicitar una actualización de características o para proporcionar comentarios, use el icono **Configuración** de la pantalla Inicio.
 
-1. Pulse el **icono Configuración** engranaje de la pantalla Inicio.
+1. Pulse el icono **de engranaje Configuración** en la pantalla inicio.
 
-2. Pulse la **opción Informar de un** problema.
+2. Pulse la opción **Informar de un problema** .
 
-    La **pantalla Enviar comentarios** se muestra en un formato de formulario.
-3. En la **lista** desplegable Tipo, seleccione el tipo de solicitud.
-4. En la **lista desplegable** Problema, seleccione la categoría.
-5. En el **campo de** texto Título, escriba el título con el teclado de paneles.
+    La pantalla **Enviar comentarios** se muestra en un formato de formulario.
+3. En la lista desplegable **Tipo** , seleccione el tipo de solicitud.
+4. En la lista desplegable **Problema** , seleccione la categoría.
+5. En el campo **de texto Título** , escriba el título con el teclado de paneles.
 6. En el campo de texto debajo **de Título**, escriba detalles adicionales, si es necesario.
 
     > [!NOTE]
-    > No incluya ninguna información de identificación personal.
+    > No incluyas ninguna información de identificación personal.
 
-7. Revise las entradas y pulse **Enviar**.
+7. Revise sus entradas y pulse **Enviar**.
 
-### <a name="view-or-update-a-device-setting"></a>Ver o actualizar una configuración de dispositivo
+### <a name="view-or-update-a-device-setting"></a>Ver o actualizar la configuración de un dispositivo
 
-Hay varias opciones de configuración de dispositivo, como acerca de, accesibilidad, reinicio y directiva de privacidad que puede ver o actualizar directamente desde paneles. La configuración del dispositivo disponible puede diferir en función del Fabricante de equipos originales (OEM) de su dispositivo. Para obtener información sobre la configuración específica de su dispositivo, consulte la documentación de OEM.
+Hay varias opciones de configuración del dispositivo, como acerca de, accesibilidad, reinicio y directiva de privacidad que puede ver o actualizar directamente desde los paneles. La configuración del dispositivo disponible puede diferir en función del fabricante de equipos originales (OEM) del dispositivo. Para obtener información sobre la configuración específica del dispositivo, consulta la documentación del OEM.
 
-Para ver o actualizar una configuración de dispositivo:
+Para ver o actualizar la configuración de un dispositivo:
 
-1. Pulse el **icono Configuración** en la pantalla Inicio.
-2. En la **Configuración**, pulse **Configuración del dispositivo**.
-3. En la **pantalla Configuración** dispositivo, pulse la configuración que desea ver o actualizar.
-4. Siga el mensaje en la pantalla para ver o actualizar la configuración.
+1. Pulse el icono **Configuración** en la pantalla Inicio.
+2. En la pantalla **Configuración**, pulse **Configuración del dispositivo**.
+3. En la pantalla **Configuración dispositivo**, pulsa en la configuración que quieras ver o actualizar.
+4. Siga el aviso en pantalla para ver o actualizar la configuración.
 
-## <a name="teams-panels-admin-experience"></a>Teams de administración de paneles
+## <a name="teams-panels-admin-experience"></a>experiencia de administración de paneles Teams
 
-Si es el administrador de [la cuenta de recursos de Panel de Teams](teams-panels.md\#resource-account-provisioning), también es el administrador de **la aplicación Paneles** en el dispositivo. Como administrador **de la aplicación** Paneles, puede realizar todas las funciones que se mencionan en [](#teams-panels-end-user-experience) la sección experiencia del usuario final, además de administrar la  configuración de la aplicación Paneles en el dispositivo.
+Si eres el administrador de la [cuenta de recursos de Panel de Teams](teams-panels.md\#resource-account-provisioning), también eres el administrador de **Panels App** en el dispositivo. Como administrador de la **aplicación paneles** , puede hacer todas las funciones que se mencionan en la sección de [la experiencia del usuario final](#teams-panels-end-user-experience) , además de administrar la configuración de la **aplicación paneles** en el dispositivo.
 
-Los dispositivos de paneles proporcionan dos tipos de configuración de administrador. Debe ser administrador de dispositivos para obtener acceso a la configuración de administrador disponible. Los usuarios finales no pueden acceder a esta configuración.
+Los dispositivos de paneles proporcionan dos tipos de configuración de administración. Debe ser administrador de dispositivos para tener acceso a la configuración de administración disponible. Los usuarios finales no pueden acceder a esta configuración.
 
-- Configuración de administrador que es específica del dispositivo, como pantalla, hora y fecha, idioma, bluetooth, WiFi, y así sucesivamente. Consulte la documentación de OEM para obtener más información sobre esta configuración.
-- Configuración de administrador que es específica de **la aplicación Paneles** en el dispositivo, como el fondo de pantalla y el color del indicador LED. Solo un administrador de **la aplicación Paneles** puede acceder a esta configuración. Puesto **que la** configuración de la aplicación Paneles está disponible como parte de la configuración de administrador, debe tener credenciales de inicio de sesión de administrador tanto para el dispositivo como para **la** aplicación Paneles para acceder a la configuración **de la aplicación** Paneles.
+- Administración opciones de configuración específicas para el dispositivo, como la pantalla, la hora y fecha, el idioma, Bluetooth, la Wi-Fi, etc. Consulta la documentación del OEM para obtener más información sobre esta configuración.
+- Administración ajustes específicos de la **aplicación Paneles** en el dispositivo, como el color del indicador LED y el papel tapiz. Solo un administrador de **la aplicación Paneles** puede acceder a esta configuración. Dado que la configuración de la **aplicación Paneles** está disponible como parte de la configuración de administración, debe tener credenciales de inicio de sesión de administrador para que el dispositivo y la **aplicación paneles** accedan a la configuración de **la aplicación paneles** .
 
 > [!NOTE]
-> Las actualizaciones de la configuración **de la aplicación** Paneles realizadas a través del dispositivo solo se aplican a ese dispositivo específico. Esas actualizaciones no afectarán a otros dispositivos de paneles de su organización. Por ejemplo, si cambia la imagen de fondo de pantalla inicio desde  la configuración de la aplicación Paneles, la imagen de fondo solo cambiará para ese dispositivo específico.
+> Las actualizaciones a la configuración de la **aplicación de paneles** realizadas a través del dispositivo son aplicables solo a ese dispositivo específico. Estas actualizaciones no afectarán a otros dispositivos de paneles de su organización. Por ejemplo, si cambias la imagen de fondo de pantalla inicio desde la configuración de la **aplicación Paneles** , la imagen de fondo cambiará solo para ese dispositivo específico.
 
-### <a name="access-panels-app-settings"></a>Configuración de la aplicación Paneles de Access
+### <a name="access-panels-app-settings"></a>Configuración de la aplicación Paneles de acceso
 
-Puede obtener acceso a **la configuración** específica de la aplicación Paneles mediante la opción **Paneles de Configuración** en la configuración de administración. Los pasos para acceder a **la aplicación Paneles Configuración** pueden diferir en función del OEM del dispositivo.
+Puede acceder a la configuración específica de la **aplicación paneles** mediante el uso de la **aplicación paneles Configuración** opción en la configuración de administrador. Los pasos para acceder a **la aplicación paneles Configuración** pueden diferir en función del OEM del dispositivo.
 
-Para obtener acceso a **la opción Configuración** paneles:
+Para acceder a la **aplicación paneles Configuración** opción:
 
-1. Pulse el **icono Configuración** en la pantalla Inicio.
-2. En la **Configuración**, pulse **Configuración del dispositivo**.
-3. Pulse el **botón Administrador Configuración**.
+1. Pulse el icono **Configuración** en la pantalla Inicio.
+2. En la pantalla **Configuración**, pulse **Configuración del dispositivo**.
+3. Pulse el **Administración Configuración**.
 
     > [!NOTE]
-    > Según el OEM del dispositivo, es posible que deba escribir la contraseña de administrador del dispositivo ahora o después del paso siguiente.
+    > Según el OEM del dispositivo, es posible que tengas que escribir la contraseña de administrador del dispositivo ahora o después del paso siguiente.
 
-4. Desplácese hacia abajo para buscar la **opción Configuración** paneles. Pónsallo.
-5. Pulse el **botón Panel de Configuración** de la pantalla derecha.
-    Se muestra la pantalla con la configuración **de la aplicación** Paneles disponible.
+4. Desplázate hacia abajo para encontrar la opción **de Configuración de la aplicación Paneles**. Púlsalo.
+5. Pulse el botón **de Configuración de la aplicación Paneles** en la pantalla de la derecha.
+    Se muestra la pantalla con la configuración de la **aplicación de paneles** disponible.
 
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="Esta captura de pantalla muestra la pantalla con la configuración de la aplicación Paneles disponible.":::
+    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="Esta captura de pantalla muestra la pantalla con la configuración de la aplicación Paneles disponibles.":::
 
-    Use esta pantalla para actualizar la siguiente configuración **de la aplicación Paneles** para el dispositivo:
+    Usa esta pantalla para actualizar la siguiente configuración de la **aplicación Paneles** para tu dispositivo:
 
-    - [Fondo de pantalla](#update-the-wallpaper)
+    - [Papel pintado](#update-the-wallpaper)
     - [Indicador LED](#change-the-busy-state-led-color)
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Emparejar una Panel de Teams con una Microsoft Teams en Android
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Emparejar un Panel de Teams con una sala de Microsoft Teams en Android
 
-Para emparejar un Panel de Teams y Teams en Android, ambos dispositivos deben haber iniciado sesión en la misma cuenta de recursos.
+Para emparejar una sala de Panel de Teams y Teams en Android, ambos dispositivos deben haber iniciado sesión en la misma cuenta de recursos.
 
-En el Panel de Teams, inicie sesión con sus credenciales de administrador.
+En la Panel de Teams, inicie sesión con sus credenciales de administrador.
 
-1. Vaya a **Configuración > Dispositivo Configuración > administrador Configuración > aplicaciones paneles Configuración > reuniones > emparejamiento de dispositivos.**
+1. Vaya a **Configuración > aplicación Paneles Configuración > Administración Configuración > dispositivo Configuración > Reuniones > emparejamiento de dispositivos.**
 
-2. Aparecerá un código de seis dígitos en el Salas de Teams en la pantalla frontal de la sala de Android. Escriba el código en el Teams panel.  
+2. Aparecerá un código de seis dígitos en la Salas de Teams en Android frente a la pantalla de la sala. Escribe el código en el Panel de Teams.  
 
-#### <a name="meeting-check-in-and-room-release"></a>Entrada de reunión y versión de sala
+#### <a name="meeting-check-in-and-room-release"></a>Registro de la reunión y liberación de la sala
 
-La configuración de la versión de la sala y el check-in permiten a los usuarios realizar el check-in en una reunión en Teams Paneles en la sala que reservaron al principio de la reunión. Si un usuario no hace el check-in dentro de una cantidad de tiempo establecida después de la hora de inicio de la reunión, la sala se libera y está disponible para que otras personas puedan reservar.
+La configuración de registro y de liberación de la sala permite a los usuarios registrarse en una reunión de Teams paneles en la sala que reservaron al comienzo de la reunión. Si un usuario no realiza la facturación dentro de un período de tiempo determinado después de la hora de inicio de la reunión, la sala se libera y está disponible para que otros puedan reservarla.
 
-Cuando Teams paneles está emparejado con una sala de Microsoft Teams en Android, las notificaciones de check-in se pueden habilitar para que aparezcan en la pantalla frontal de la sala cuando las reuniones se retrasan.
+Cuando Teams paneles está emparejado con una sala de Microsoft Teams en Android, se pueden habilitar las notificaciones de registro para que aparezcan en la pantalla del frente de la sala cuando las reuniones se realicen tarde.
 
-Para habilitar la protección y la versión de la sala, vea Protección y [la versión de la sala en Microsoft Teams paneles](check-in-and-room-release.md).
+Para habilitar el registro de entrada y la liberación de la sala, consulte [Registro de entrada y liberación de la sala en Microsoft Teams Paneles](check-in-and-room-release.md).
 
-#### <a name="room-capacity-warning"></a>Advertencia de capacidad del salón
+#### <a name="room-capacity-warning"></a>Advertencia de capacidad de la sala
 
-Teams paneles que están emparejados con una sala de Teams en Android puede mostrar un mensaje de advertencia cuando una sala de reuniones tiene o supera su capacidad. Para usar esta característica, el Teams debe tener una cámara que admita el recuento de personas. Salas de Teams advertencias de capacidad del salón de soporte técnico android sin Panel de Teams.
+Teams paneles que están emparejados con una sala de Teams en Android pueden mostrar un mensaje de advertencia cuando una sala de reuniones tiene una capacidad máxima. Para usar esta característica, la sala de Teams debe tener una cámara que admita el recuento de personas. Salas de Teams en Android advertencias de capacidad de sala de soporte técnico sin Panel de Teams.
 
-Las advertencias de capacidad del salón están desactivadas de forma predeterminada. Para activar la configuración desde el Panel de Teams, primero empareja una Panel de Teams con un Microsoft Teams [en Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). El panel y el Teams sala deben haber iniciado sesión en la misma cuenta de recursos.
+Las advertencias de capacidad de la sala están desactivadas de forma predeterminada. Para activar la configuración desde el Panel de Teams, primero [empareje un Panel de Teams con una sala de Microsoft Teams en Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). El panel y la sala de Teams deben haber iniciado sesión en la misma cuenta de recursos.
 
- A continuación, vaya **a Configuración > Configuración del dispositivo > configuración de administrador > configuración de la aplicación Panel**. A continuación, **en Reuniones**, activa la notificación **de ocupación de la sala Max**.
+ A continuación, ve a **Configuración > Configuración del dispositivo > Administración configuración > configuración de la aplicación Panel**. A continuación, en **Reuniones**, active **La notificación de ocupación máxima de la sala**.
 
 #### <a name="view-room-equipment"></a>Ver el equipamiento de la sala
 
-Cuando esta característica está activada, los usuarios finales pueden ver qué equipamiento está disponible en un espacio en un Panel de Teams.
+Cuando esta característica está activada, los usuarios finales pueden ver qué equipo está disponible en un espacio de una Panel de Teams.
 
-Esta característica está desactivada de forma predeterminada y se puede habilitar por dispositivo. Para activarlo, use [Set-Place](/powershell/module/exchange/set-place?view=exchange-ps) en PowerShell para configurar los nombres para `AudioDeviceName`mostrar para , `DisplayDeviceName``VideoDeviceName`, y `Tags`y `IsWheelChairAccessible`.
+Esta función está desactivada de manera predeterminada y se puede habilitar por dispositivo. Para activarlo, use [Set-Place](/powershell/module/exchange/set-place?view=exchange-ps) en PowerShell para configurar los nombres para mostrar de `AudioDeviceName`, `DisplayDeviceName`, `VideoDeviceName`, `Tags`y `IsWheelChairAccessible`.
 
-O bien, puede habilitar esta característica en el centro Exchange administración. Vea [Editar un recurso para](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) obtener más información.
+O bien, puede habilitar esta característica en el centro de administración de Exchange. Vea [Editar un recurso](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) para obtener más información.
 
 
 
-#### <a name="update-the-wallpaper"></a>Actualizar el fondo de pantalla
+#### <a name="update-the-wallpaper"></a>Actualizar el papel tapiz
 
-Cambiar la imagen de fondo de pantalla inicio.
+Cambiar la imagen de fondo de la pantalla Inicio.
 
-1. [Aplicación **Paneles de Access Configuración**](#access-panels-app-settings).
-2. Pulse **Fondos de pantalla**.
-3. En **Elegir la imagen**, seleccione una imagen para establecerla como imagen de fondo de la pantalla inicio. Obtenga una vista previa de la imagen seleccionada en **Fondo**.
+1. [Aplicación **Paneles** de Acceso Configuración](#access-panels-app-settings).
+2. Pulsa **Fondos de pantalla**.
+3. En **Elegir la imagen**, seleccione una imagen para establecerla como imagen de fondo de la pantalla Inicio. Obtener una vista previa de la imagen seleccionada en **Fondo**.
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="Esta captura de pantalla muestra la pantalla de configuración del fondo de pantalla.":::
-4. Volver a la pantalla Inicio y compruebe que el fondo de pantalla está actualizado.
+4. Volver a la pantalla Inicio y comprueba que el fondo de pantalla esté actualizado.
 
 #### <a name="change-the-busy-state-led-color"></a>Cambiar el color del LED de estado ocupado
 
-Los administradores pueden elegir rojo o púrpura como color LED para indicar que el espacio de reunión está ocupado o reservado. El color del LED para indicar un espacio disponible siempre es verde y no se puede cambiar.
+Los administradores pueden elegir rojo o púrpura como color LED para indicar que el espacio de reunión está ocupado o reservado. El color DEL LED para indicar que hay un espacio disponible siempre es verde y no se puede cambiar.
 
-1. [Aplicación **Paneles de Access Configuración**](#access-panels-app-settings).
-2. Pulse **LED Configuración**.
-3. En **Elegir el color del LED**, seleccione el color deseado.
-:::image type="content" source="../media/panels-led-settings.png" alt-text="Esta captura de pantalla muestra la configuración de estado ocupado del color del LED.":::
-4. Volver a la pantalla Inicio y compruebe que el color del LED para el estado ocupado está actualizado. Si el espacio de reunión está disponible actualmente, intente programar una reunión de prueba para comprobar el cambio en el color del LED para el estado ocupado.
+1. [Aplicación **Paneles** de Acceso Configuración](#access-panels-app-settings).
+2. Pulsa **en Configuración LED**.
+3. En **Elegir el color LED**, selecciona el color deseado.
+:::image type="content" source="../media/panels-led-settings.png" alt-text="Esta captura de pantalla muestra la configuración del estado de ocupado del color LED.":::
+4. Volver a la pantalla Inicio y comprueba que se actualice el color del LED del estado ocupado. Si el espacio de reunión está disponible actualmente, intente programar una reunión de prueba para comprobar el cambio en el color del LED para el estado ocupado.
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
-Encuentre respuestas a preguntas más frecuentes sobre los dispositivos Teams paneles.
+Encuentra respuestas a las preguntas más frecuentes sobre los dispositivos de paneles Teams.
 
-**¿Hasta qué punto en el futuro puedo ver los detalles de programación de un espacio de reunión?**  
-En el **icono Calendario** próximo (inferior derecha) de la pantalla Inicio, puede ver los detalles de programación de un espacio de reunión durante un máximo de 24 horas en el futuro a partir de la hora actual.
+**¿En el futuro puedo ver los detalles de programación de un espacio de reunión?**  
+En el **mosaico Calendario próximo** (inferior derecha) de la pantalla Inicio, puede ver los detalles de programación de un espacio de reunión para un máximo de 24 horas en el futuro a partir de la hora actual.
 
-**¿Puedo reservar un espacio de reunión para un futuro desde el dispositivo Teams paneles?**  
-No, no puede reservar un espacio de reunión para un futuro desde paneles. La hora de inicio siempre es la hora actual para una reunión ad hoc programada desde paneles.
+**¿Puedo reservar un espacio de reunión para un momento futuro desde el dispositivo de paneles Teams?**  
+No, no puede reservar un espacio de reunión para un momento futuro de los paneles. La hora de inicio es siempre la hora actual para una reunión ad hoc programada a partir de paneles.
 
 **¿Cuánto tiempo puedo reservar un espacio de reunión disponible para una reunión ad hoc?**  
-Puede reservar un espacio de reunión disponible a partir de la hora actual hasta la próxima hora programada de la reunión, o hasta un máximo de 24 horas desde la hora actual, lo que sea anterior. Por ejemplo, si la hora actual es 10 a.m. y la siguiente hora de inicio de la reunión es las 2 p. m., puede reservar el espacio de reunión de 10 a. m. a 2 p. m.
+Puede reservar un espacio de reunión disponible desde su hora actual hasta la próxima hora programada, o hasta un máximo de 24 horas desde su hora actual, lo que sea anterior. Por ejemplo, si la hora actual es de 10 a.m. y la siguiente hora de inicio de la reunión es de 14:00, puede reservar el espacio de reunión de 10 a.m. a 2 p.m.

@@ -1,7 +1,7 @@
 ---
 title: Salas de Microsoft Teams mantenimiento y operaciones
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Obtenga información sobre la administración de Salas de Microsoft Teams.
-ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: df9760694bd8e0c650be25eec7d435efcae02127
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125475"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761062"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Salas de Microsoft Teams mantenimiento y operaciones
  
@@ -30,7 +30,7 @@ Salas de Microsoft Teams es la solución de conferencias de Microsoft diseñada 
 
 Para recopilar registros en Teams centro de administración, vaya a **Teams dispositivos > Salas de Teams en Windows**. Seleccione el nombre para mostrar del dispositivo para el que desea registros. En el panel superior, selecciona "Descargar registros de dispositivos". Una vez confirmado, los registros estarán listos para su descarga en la pestaña Historial pasados unos minutos.
 
-También puede usar PowerShell para recopilar registros. Debe invocar el script de colección de registros que se incluye con la aplicación de Salas de Microsoft Teams. En [el modo de administración](rooms-operations.md), inicia un símbolo del sistema con privilegios elevados y ejecuta el siguiente comando:
+También puede usar PowerShell para recopilar registros. Debe invocar el script de colección de registros que se incluye con la aplicación de Salas de Microsoft Teams. En [Administración modo](rooms-operations.md), inicia un símbolo del sistema con privilegios elevados y ejecuta el siguiente comando:
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -96,11 +96,11 @@ La tabla siguiente resume las operaciones remotas posibles y los métodos que se
 
 |Grupo de trabajo |No unido a dominio|Unido a dominio|
 |:-----|:-----|:-----|
-|Reinicio  <br/> |centro de administración de Teams  <br/> Escritorio remoto  <br/> PowerShell remoto  <br/> | <br/>Escritorio remoto (requiere una configuración adicional)  <br/> PowerShell remoto (requiere configuración adicional)  <br/> Configuration Manager  <br/> |
+|Reinicio  <br/> |Centro de administración de Teams  <br/> Escritorio remoto  <br/> PowerShell remoto  <br/> | <br/>Escritorio remoto (requiere una configuración adicional)  <br/> PowerShell remoto (requiere configuración adicional)  <br/> Configuration Manager  <br/> |
 |Actualizar SO  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |Actualización de aplicaciones  <br/> |Tienda Windows  <br/> |Tienda Windows  <br/> Configuration Manager  <br/> |
-|Configuración de la cuenta  <br/> |centro de administración de Teams  <br/> |centro de administración de Teams  <br/> |
-|Registros de acceso  <br/> |centro de administración de Teams  <br/> Powershell  <br/> |centro de administración de Teams <br/> Powershell  <br/>  |
+|Configuración de la cuenta  <br/> |Centro de administración de Teams  <br/> |Centro de administración de Teams  <br/> |
+|Registros de acceso  <br/> |Centro de administración de Teams  <br/> Powershell  <br/> |Centro de administración de Teams <br/> Powershell  <br/>  |
    
 ## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Configuración de directiva de grupo para Salas de Microsoft Teams
 <a name="GroupPolicy"> </a>
@@ -159,10 +159,10 @@ Puede realizar las siguientes operaciones de administración de forma remota med
   
 Por ejemplo, puede habilitar PowerShell remoto de esta manera:
   
-1. Inicie sesión como administrador en un dispositivo Salas de Microsoft Teams.
+1. Inicia sesión como Administración en un dispositivo Salas de Microsoft Teams.
 2. Abra un símbolo del sistema con privilegios elevados de PowerShell.
 3. Escriba el siguiente comando: `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. Abra la directiva de seguridad local y agregue el grupo de seguridad *Administradores* a **Directivas** >  **de seguridad Configuración** >  **LocalA assignment** >  **RightsUserAccess este equipo desde la red**.
+4. Abra la directiva de seguridad local y agregue el grupo de seguridad *Administradores* a Directivas **de seguridad Configuración** >  >  Local **Asignación** >  de derechos **de usuario Acceso a este equipo desde la red**.
 
 Para ejecutar una operación de administración:
   
@@ -230,14 +230,14 @@ Si necesitas administrar manualmente las actualizaciones de aplicaciones, pero n
 ## <a name="admin-mode-and-device-management"></a>Modo de administrador y administración de dispositivos
 <a name="AdminMode"> </a>
 
-Algunas funciones de administración, como instalar manualmente un certificado de ENTIDAD de certificación privada, requieren la colocación de Salas de Teams en modo de administración. 
+Algunas funciones de administración, como instalar manualmente un certificado de CA privada, requieren la colocación de Salas de Teams en modo Administración. 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Cambiar al modo de administración y volver cuando se ejecuta la aplicación Salas de Microsoft Teams
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Cambiar al modo Administración y volver cuando se ejecuta la aplicación Salas de Microsoft Teams
 
 1. Cuelgue las llamadas en curso y vuelva a la pantalla principal.
 2. Selecciona el icono de engranaje y abre el menú (las opciones son **Configuración**, **Accesibilidad** y **Reiniciar dispositivo**).
 3. Seleccione **Configuración**.
-4. Escriba la contraseña de administrador. Se abrirá la pantalla Configuración.  Si el dispositivo no está unido a un dominio, se usará la cuenta administrativa local (nombre de usuario "Administrador") de forma predeterminada. La contraseña predeterminada para esta cuenta es 'sfb'. Cambie esta contraseña tan pronto como sea posible. Si el equipo está unido a un dominio, puede iniciar sesión con una cuenta de dominio con los privilegios adecuados.
+4. Escriba la contraseña de administrador. Se abrirá la pantalla Configuración.  Si el dispositivo no está unido a un dominio, la cuenta administrativa local (nombre de usuario "Administración") se usará de manera predeterminada. La contraseña predeterminada para esta cuenta es 'sfb'. Cambie esta contraseña tan pronto como sea posible. Si el equipo está unido a un dominio, puede iniciar sesión con una cuenta de dominio con los privilegios adecuados.
 5. Seleccione **Windows Configuración** en la columna izquierda.
 6. Inicie sesión en el escritorio con sus credenciales de administrador. Tendrás los privilegios necesarios para administrar el dispositivo.
 7. Realice las tareas de administración que sean necesarias.
@@ -245,9 +245,9 @@ Algunas funciones de administración, como instalar manualmente un certificado d
     
 La consola volverá a su modo de funcionamiento normal. El siguiente procedimiento requiere que agregue un teclado al dispositivo si no hay ninguno todavía.  
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Cambiar al modo de administración y volver atrás cuando se bloquea la aplicación Salas de Microsoft Teams
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Cambiar al modo Administración y volver atrás cuando la aplicación Salas de Microsoft Teams se bloquea
 
-1. Presione rápidamente la tecla Windows cinco veces. De este modo accederá a la pantalla de inicio de sesión de Windows.  
+1. Presione rápidamente la tecla Windows cinco veces. De este modo accederá a la pantalla de inicio de sesión de Windows. 
 2. Inicie sesión en el escritorio con sus credenciales de administrador.
 3. Realice las tareas de administración que sean necesarias.
 4. Reinicia el equipo cuando hayas terminado.

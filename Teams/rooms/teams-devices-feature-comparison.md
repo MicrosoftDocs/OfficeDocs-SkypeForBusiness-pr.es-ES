@@ -1,7 +1,7 @@
 ---
 title: Teams dispositivos para la comparación de características de Espacios compartidos entre Windows y Android
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: jsarrasin
 ms.date: 10/07/2021
 ms.topic: conceptual
@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30e1bc6043d48ff222963c2794ad5099af9308ca
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: de089e5c87615f039e91832d95310faa8ff41ac6
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676302"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761082"
 ---
 # <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Teams dispositivos para la comparación de características de espacios compartidos entre Windows y Android 
 las experiencias de Salas de Microsoft Teams están diseñadas teniendo en cuenta a los clientes. Cada cliente tiene necesidades únicas, por lo que Microsoft ofrece una amplia variedad de opciones, incluyendo Salas de Teams en Windows y en Android. 
