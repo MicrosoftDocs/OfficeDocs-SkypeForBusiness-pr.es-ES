@@ -1,5 +1,5 @@
 ---
-title: Canales compartidos en Microsoft Teams (versión preliminar)
+title: Canales compartidos en Microsoft Teams
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,15 +17,15 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Obtenga información sobre cómo usar y administrar canales compartidos en Microsoft Teams (versión preliminar).
-ms.openlocfilehash: 1f222d8994c435c315a91deaba77e383b55cba42
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+description: Obtenga información sobre cómo usar y administrar canales compartidos en Microsoft Teams.
+ms.openlocfilehash: afaae423b09b36845b0eeadd9276de1356d0fca0
+ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393884"
+ms.lasthandoff: 05/31/2022
+ms.locfileid: "65785990"
 ---
-# <a name="shared-channels-in-microsoft-teams-preview"></a>Canales compartidos en Microsoft Teams (versión preliminar)
+# <a name="shared-channels-in-microsoft-teams"></a>Canales compartidos en Microsoft Teams
 
 Los canales compartidos en Microsoft Teams crean espacios de colaboración donde se puede invitar a usuarios que no forman parte del equipo. Solo los usuarios que sean propietarios o miembros del canal compartido pueden acceder al canal. Aunque los invitados (usuarios con cuentas de invitado de Azure Active Directory de la organización) no se pueden agregar a un canal compartido, se puede invitar a usuarios de fuera de la organización a participar en un canal compartido mediante Azure AD conexión directa B2B.
 
@@ -36,12 +36,6 @@ Solo los miembros de los canales compartidos pueden ver y participar en los cana
 Cuando se crea un canal compartido, se vincula al equipo primario y no se puede mover a otro equipo. Además, los canales compartidos no se pueden convertir en canales estándar y viceversa.
 
 [Comparar canales compartidos con otros tipos de canales](/microsoftteams/teams-channels-overview#channel-feature-comparison).
-
-## <a name="best-practices-for-the-shared-channels-preview"></a>Procedimientos recomendados para la versión preliminar de canales compartidos
-
-Los canales compartidos están en versión preliminar y requieren que se haya configurado la [Versión preliminar pública de Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates). Si planea compartir canales con otras organizaciones, también deben tener configurada la versión preliminar pública de Teams.
-
-Se recomienda habilitar la versión preliminar para todos los usuarios. Los usuarios para los que la versión preliminar no está habilitada no pueden crear canales compartidos, pero sí se pueden agregar a los canales compartidos. Habilitar la versión preliminar para todos los usuarios puede ayudar a garantizar una experiencia correcta.
 
 ## <a name="getting-started-with-shared-channels"></a>Introducción a los canales compartidos
 
@@ -141,14 +135,14 @@ Los siguientes artículos pueden ser útiles para los usuarios de su organizaci�
 
 [Roles de propietario del canal compartido y miembro en Teams](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
-## <a name="limits-for-shared-channels-preview"></a>Límites para los canales compartidos (versión preliminar)
+## <a name="limits-for-shared-channels"></a>Límites para canales compartidos
 
 En la tabla siguiente se describe el número máximo de canales y miembros.
 
 |Máximo...|Valor|Notas|
 |:---------|:----|:----|
 |Miembros de un equipo|25 000|Incluye todos los usuarios del equipo y miembros directos en canales compartidos.|
-|Canales compartidos por equipo|50|Hospedado y compartido con el equipo. (Incluye los canales eliminados durante el período de recuperación de 30 días).|
+|Canales compartidos por equipo|200|Hospedado y compartido con el equipo. (Incluye los canales eliminados durante el período de recuperación de 30 días).|
 |Equipos con los que se puede compartir un canal|50|Excluyendo el equipo primario|
 |Miembros en un canal compartido|5000 miembros directos, incluyendo hasta 50 equipos. (Cada equipo con el que se comparte el canal cuenta como un miembro para este límite).|Las actualizaciones en tiempo real solo están disponibles para 25 000 usuarios a la vez y solo 25 000 usuarios aparecerán en la lista de canales.|
 
@@ -156,7 +150,7 @@ También se aplican las siguientes limitaciones:
 
 - Los canales compartidos admiten pestañas excepto Stream, Planner y Forms.
 
-- Las aplicaciones LOB, los bots, los conectores y las extensiones de mensaje no se admiten en la versión preliminar pública.
+- No se admiten aplicaciones LOB, bots, conectores ni extensiones de mensajes.
 
 - Cuando se crea un equipo a partir de un equipo existente, los canales compartidos del equipo existente no se copiarán.
 
