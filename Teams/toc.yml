@@ -1495,6 +1495,8 @@ items:
             href: approval-admin.md
           - name: Administrar la aplicación Turnos
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+          - name: Administrar la aplicación Actualizaciones
+            href: manage-updates-app.md
       - name: Administrar aplicaciones de terceros
         items:
           - name: Entender las aplicaciones de terceros
@@ -1509,9 +1511,9 @@ items:
             href: purchase-third-party-apps.md
       - name: Plantillas de aplicación para Microsoft Teams
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
-      - name: Controlar aplicaciones de línea de negocio personalizadas
+      - name: Administrar aplicaciones de línea de negocio personalizadas
         items:
-          - name: Administrar aplicaciones de Power Platform en el Centro de administración de Microsoft Teams
+          - name: Administrar aplicaciones de Power Platform en el centro de administración de Teams
             href: manage-power-platform-apps.md
           - name: Publicar aplicaciones personalizadas en la tienda de la organización
             href: submit-approve-custom-apps.md
@@ -1521,7 +1523,7 @@ items:
             href: customize-apps.md
           - name: Personalizar la marca de la tienda de aplicaciones de su organización
             href: customize-your-app-store.md
-      - name: Controles de administración y gobernanza de aplicaciones
+      - name: Controles de administración para controlar las aplicaciones
         items:
           - name: Información general sobre la administración de aplicaciones para administradores
             href: manage-apps.md
@@ -1537,11 +1539,11 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: Personalizar las aplicaciones de Teams para sus trabajadores de primera línea
             href: pin-teams-apps-based-on-license.md
-          - name: Revisar los permisos de Azure AD y conceder el consentimiento del administrador
+          - name: Acerca de los permisos de Azure AD y el consentimiento del administrador
             href: app-permissions-admin-center.md
           - name: Administrar el consentimiento específico del recurso para su organización
             href: resource-specific-consent.md
-          - name: Información sobre los permisos de la aplicación y el acceso a los recursos
+          - name: Descripción de los permisos de la aplicación y el acceso a los recursos
             href: app-permissions.md
           - name: Comportamiento de la aplicación basado en tipos de usuarios
             href: non-standard-users.md
