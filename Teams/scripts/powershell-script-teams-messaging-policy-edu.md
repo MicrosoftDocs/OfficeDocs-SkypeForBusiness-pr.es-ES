@@ -1,5 +1,5 @@
 ---
-title: 'Ejemplo de script de PowerShell: crear & directiva de mensajería'
+title: 'Ejemplo de script de PowerShell: crear & asignar directiva de mensajería'
 author: serdars
 ms.author: serdars
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c6c1faaff2ce252b1363fab149c7d168c5e042e5
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 09254f9ed85f69551ee825dbeb8ae063a010f780
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62390842"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823711"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Ejemplo de script de PowerShell: Crear un equipo y asignar una directiva de mensajería.
 
@@ -30,14 +30,14 @@ Use este script de PowerShell para crear una directiva de mensajería en Microso
 
 Para obtener más información sobre el uso de este script de PowerShell, vea [Inicio rápido: Teams para Educación](../teams-quick-start-edu.yml).
 
-Este script usa el cmdlet [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) que se encuentra en el módulo Skype Empresarial PowerShell en línea. Vea [Teams información general de PowerShell](../teams-powershell-overview.md) para obtener más información sobre cómo administrar Teams con PowerShell.
+Este script usa el cmdlet [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) que se encuentra en el módulo de PowerShell de Skype Empresarial Online. Vea [Teams información general de PowerShell](../teams-powershell-overview.md) para obtener más información sobre cómo administrar Teams con PowerShell.
 
 
 ## <a name="before-you-start"></a>Antes de empezar
 
-Descargue e instale el [módulo Skype Empresarial PowerShell en](https://www.microsoft.com/download/details.aspx?id=39366) línea y, a continuación, reinicie el equipo si se le solicita.
+Descargue e instale el [módulo Skype Empresarial PowerShell en línea](https://www.microsoft.com/download/details.aspx?id=54616) y, a continuación, reinicie el equipo si se le solicita.
 
-Para obtener más información, vea [Administrar Skype Empresarial Online con Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+Para obtener más información, consulte [Administrar Skype Empresarial en línea con Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 ## <a name="sample-script"></a>Ejemplo de script
 
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> También puede asignar una directiva de mensajería directamente a los usuarios a escala a través de una asignación de directiva por lotes o a un grupo del que los usuarios son miembros. Para obtener más información, vea Asignar [directivas a grandes conjuntos](../batch-group-policy-assignment-edu.md) de usuarios de la escuela y Asignar directivas a los usuarios [en Teams](../policy-assignment-overview.md).
+> También puede asignar una directiva de mensajería directamente a los usuarios a escala a través de una asignación de directiva de lote o a un grupo del que los usuarios son miembros. Para obtener más información, vea [Asignar directivas a grandes conjuntos de usuarios de su centro educativo](../batch-group-policy-assignment-edu.md) y [Asignar directivas a los usuarios de Teams](../policy-assignment-overview.md).

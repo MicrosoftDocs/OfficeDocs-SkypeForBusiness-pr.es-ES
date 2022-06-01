@@ -1,5 +1,5 @@
 ---
-title: Preguntas más frecuentes (PREGUNTAS FRECUENTES) del Panel de calidad de llamadas (CQD)
+title: Preguntas más frecuentes (P+F) del Panel de calidad de llamadas
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -20,116 +20,116 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: Lea las preguntas más frecuentes (PREGUNTAS FRECUENTES) y las respuestas Microsoft Teams panel de calidad de llamadas (CQD).
-ms.openlocfilehash: 3d795393f99765ab445a5495b626ebd9b8722131
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+description: Lea las preguntas más frecuentes (P+F) y las respuestas sobre Microsoft Teams panel de calidad de llamadas.
+ms.openlocfilehash: f320bab549ee322c1254babd0feb49cc24419215
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64592935"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823209"
 ---
-# <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Preguntas más frecuentes (PREGUNTAS FRECUENTES) del Panel de calidad de llamadas (CQD)
+# <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Preguntas más frecuentes (P+F) del Panel de calidad de llamadas
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
-[¿Por qué CQD marca una llamada como "Buena" si uno o varios participantes de la reunión tuvieron una mala experiencia?](#why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience)
+[¿Por qué marca el CQD una llamada como "Buena" si uno o varios participantes de la reunión tuvieron una experiencia deficiente?](#why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience)
 
-[¿Por qué veo hasta un 0,2 % de diferencia en los valores de llamadas y recuento de usuarios en las medidas y cómo obtener volúmenes más precisos? ](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
+[¿Por qué veo una diferencia de hasta el 0,2 % en los valores de llamada y de recuento de usuarios en medidas y cómo obtener volúmenes más precisos? ](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
 
-[¿Por qué no puedo ver EUII en CQD?](#why-cant-i-see-euii-in-cqd)
+[¿Por qué no puedo ver EUII en el CQD?](#why-cant-i-see-euii-in-cqd)
 
-[Estoy intentando usar CQD para informes de tipo de uso y encuentro que algunos de los datos están incompletos, ¿por qué es eso?](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
+[Estoy intentando usar el CQD para los informes de tipo de uso y me doy cuenta de que algunos de los datos están incompletos. ¿Por qué es eso?](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
 
-[¿Por qué veo Skype Empresarial información en CQD cuando he filtrado para Teams solo?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[¿Por qué veo Skype Empresarial información en el CQD cuando solo he filtrado por Teams?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
-[¿Por qué mis informes personalizados solo devuelven un máximo de 10 000 filas cuando sé que debería haber más entradas?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
+[¿Por qué mis informes personalizados solo devuelven un máximo de 10 000 filas si sé que debería haber más entradas?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
-[¿Por qué Wi-Fi conexiones VPN se muestran como cableadas en lugar de wi-fi?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
+[¿Por qué Wi-Fi conexiones VPN se muestran como cableadas en lugar de Wi-Fi?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
-[He activado la grabación basada en directivas en Teams y ahora las llamadas punto a punto se marcan como Conferencias, ¿qué ha ocurrido?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
+[He activado la grabación basada en directivas en Teams y ahora las llamadas de punto a punto se marcan como conferencias. ¿Qué ha ocurrido?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
 
-### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>¿Por qué CQD marca una llamada como "Buena" si uno o varios participantes de la reunión tuvieron una mala experiencia?
+### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>¿Por qué marca el CQD una llamada como "Buena" si uno o varios participantes de la reunión tuvieron una experiencia deficiente?
 
-Consulte las reglas que CQD usa para la [clasificación de transmisiones](stream-classification-in-call-quality-dashboard.md).
+Consulte las reglas que usa el CQD para la [clasificación de transmisiones](stream-classification-in-call-quality-dashboard.md).
  
-Para las transmisiones de audio, cualquiera de los cinco clasificadores (que se calculan para el promedio según la longitud de la llamada) podría estar dentro de parámetros "buenos". Esto no significa que los usuarios no experimentaron algo que contribuyese a una deserción de audio, estática o problemas. 
+Para las transmisiones de audio, cualquiera de los cinco clasificadores (que se calculan para el promedio basado en la longitud de la llamada) podría estar dentro de parámetros "buenos". No significa que los usuarios no experimentaron algo que haya contribuido a una entrega de audio, estática o con problemas. 
 
-Para determinar si se trataba de un problema de red, mire el delta entre los valores medios de la sesión y los valores máximos. Los valores máximos son el máximo detectado e notificado durante la sesión.
+Para determinar si se trataba de un problema de red, observe la diferencia entre los valores promedio de la sesión y los valores máximos. Los valores máximos son los máximos detectados y notificados durante la sesión.
  
-Este es un ejemplo de cómo solucionar esta situación. Supongamos que hace un seguimiento de red durante una llamada y los primeros 20 minutos no hay paquetes perdidos, pero después tiene un espacio de 1,5 segundos de paquetes y, a continuación, es bueno para el resto de la llamada. El promedio se va a <10 % (0,1) pérdida de paquetes incluso en un análisis de RTP de seguimiento de Wireshark. ¿Cuál era la pérdida máxima de paquetes? 1,5 segundos en un período de 5 segundos sería el 30 % (0,3). ¿Esto ocurrió dentro del período de muestreo de 5 segundos (quizás o podría dividirse en el período de muestreo)?
+Este es un ejemplo de cómo solucionar esta situación. Supongamos que toma un seguimiento de red durante una llamada y los primeros 20 minutos no hay paquetes perdidos, pero entonces tiene un intervalo de 1,5 segundos de paquetes y, después, es bueno para el resto de la llamada. El promedio va a ser <10% (0.1) Pérdida de paquetes incluso en un análisis RTP de seguimiento de Wireshark. ¿Cuál fue el máximo de pérdida de paquetes? 1,5 Segundos en un período de 5 segundos sería el 30 % (0,3). ¿Ocurrió durante el período de muestreo de 5 segundos (quizás o podría dividirse durante el período de muestreo)?
  
-Si las métricas de red tienen un buen aspecto en los promedios y los valores máximos, busque otros datos de telemetría: 
-- Compruebe la relación de eventos insuficiente de la CPU para ver si los recursos de CPU detectados disponibles eran insuficientes y causaban mala calidad. 
-- ¿Estaba el dispositivo de audio en modo semidúplex para evitar comentarios debido a micrófonos que están demasiado cerca de los altavoces? 
-- Compruebe la relación de eventos AEC a doble cara del dispositivo. ¿Se ha presentado un problema de un dispositivo, como un micrófono, al introducir ruido o estático debido a las deserciones de audio USB cuando se conecta a un hub o base de acoplamiento?  
-- Compruebe las relaciones de eventos Problemas del dispositivo y Micrófono. ¿Funcionaba el propio dispositivo correctamente?  
-- Compruebe las relaciones de eventos de captura y representación del dispositivo que no funcionan.
+Si las métricas de red tienen un buen aspecto en los valores promedios y máximos, busque otros datos de telemetría: 
+- Compruebe la Relación de eventos insuficiente de CPU para ver si los recursos de CPU disponibles detectados eran insuficientes y estaban generando mala calidad. 
+- ¿Estaba el dispositivo de audio en modo Semidúplex para evitar comentarios debido a micrófonos que están demasiado cerca de los altavoces? 
+- Compruebe la relación de eventos AEC AEC semidúplex del dispositivo. ¿Se producía un fallo en un dispositivo, como un micrófono, que introducía ruido o estática debido a las listas desplegables de audio USB cuando se conectaba a un concentrador o a una base de acoplamiento?  
+- Comprueba las relaciones de eventos entre problemas de dispositivo y micrófono. ¿Funcionaba correctamente el propio dispositivo?  
+- Comprueba las relaciones de eventos de captura y representación que no funcionan del dispositivo.
 
 
-Para obtener más información sobre las dimensiones y medidas disponibles en telemetría CQD, lea Dimensiones y [medidas disponibles en Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Para obtener más información sobre las dimensiones y medidas disponibles en telemetría del CQD, lea [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
-Para el ruido de fondo, compruebe la relación del evento de silenciamiento para ver la duración del tiempo que los participantes se silenciaron.
+Para el ruido de fondo, compruebe la relación de evento de silencio para ver la duración del tiempo que los participantes se silenciaron.
  
-Cree informes detallados en CQD y filtre en Id. de reunión para ver todos los usuarios y transmisiones de una reunión y agregar los campos que le interesan. Es posible que un usuario que informe del problema no sea el que estaba teniendo el problema. Solo están informando de la experiencia.
+Cree informes detallados en el CQD y filtre en el Id. de reunión para ver todos los usuarios y las transmisiones de una reunión y agregar los campos que le interesen. Es posible que un usuario que informe del problema no sea el que estaba experimentando el problema. Solo están informando de la experiencia.
  
-La telemetría no necesariamente llamará al problema, pero puede ayudarle a comprender mejor dónde buscar e informar a sus decisiones. ¿Es la red, el dispositivo, el controlador o las actualizaciones de firmware, el uso o el usuario?
+La telemetría no llamará necesariamente al problema, pero puede ayudarte a comprender mejor dónde buscar e informar tus decisiones. ¿Se trata de actualizaciones de red, dispositivo, controlador o firmware, uso o usuario?
 
-### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>¿Por qué veo hasta un 0,2 % de diferencia en los valores de llamadas y recuento de usuarios en las medidas y cómo obtener volúmenes más precisos? 
+### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>¿Por qué veo una diferencia de hasta el 0,2 % en los valores de llamada y de recuento de usuarios en medidas y cómo obtener volúmenes más precisos? 
 
-Para calcular las medidas de recuento de llamadas y recuento de usuarios, se realiza una operación countif distinta con los identificadores de llamada o de usuario del conjunto de datos. En conjuntos de datos grandes, hay un error de hasta un 0,2 % inherente a la operación countif distinta. Para obtener el volumen más preciso, debe basarse en las medidas de recuento de transmisiones, ya que no dependen de esta operación countif distinta. Filtrar para reducir el volumen de datos puede reducir el error, pero no puede eliminar esta fuente de error en diferentes recuentos de llamadas y usuarios. Consulte [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md) para qué medidas se ven afectadas.
+Para calcular el recuento de llamadas y las medidas de recuento de usuarios, se realiza una operación countif distinta con los identificadores de llamada o usuario del conjunto de datos. En conjuntos de datos grandes, hay un error de hasta el 0,2 % inherente a la operación countif distinta. Para obtener el volumen más preciso, debe confiar en las medidas de recuento de transmisiones, ya que no se basan en esta operación countif distinta. El filtrado para reducir el volumen de datos puede reducir el error, pero no puede eliminar este origen de error en distintos recuentos de llamadas y usuarios. Consulte [Dimensiones y medidas disponibles en el panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md) para las medidas que se ven afectadas.
 
   
-### <a name="why-cant-i-see-euii-in-cqd"></a>¿Por qué no puedo ver EUII en CQD?
+### <a name="why-cant-i-see-euii-in-cqd"></a>¿Por qué no puedo ver EUII en el CQD?
 
-Estos roles de administrador pueden obtener acceso a CQD, pero no pueden ver EUII (información de identificación del usuario final):
+Estos roles de administrador pueden acceder al CQD, pero no pueden ver euii (información identificable para el usuario final):
 
-- Microsoft 365 de informes
-- Teams de soporte técnico de comunicaciones
+- Lector de informes de Microsoft 365
+- Especialista en soporte técnico de comunicaciones de Teams
 
-Para obtener más información sobre los roles que pueden tener acceso a CQD ,incluido EUII, lea Asignar [roles para obtener acceso a CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
+Para obtener más información sobre los roles que pueden acceder al CQD, incluido EUII, lea [Asignar roles para acceder al CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
-### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>Estoy intentando usar CQD para informes de tipo de uso y encuentro que algunos de los datos están incompletos, ¿por qué es eso?
+### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>Estoy intentando usar el CQD para los informes de tipo de uso y me doy cuenta de que algunos de los datos están incompletos. ¿Por qué es eso?
 
-Las herramientas de administración de calidad de llamadas como CQD, Call Analytics, CallRecord Graph API y Análisis en tiempo real se basan en telemetría de diagnóstico. La información que mostramos en Teams de administración de calidad de llamadas es tan completa como los datos de telemetría que recibimos de los clientes que participan en una llamada. Hay varias razones por las que es posible que no recibamos telemetría completa, como interrupciones de red, [o configuraciones incorrectas de firewall o proxy](/microsoft-365/enterprise/urls-and-ip-address-ranges). Seguimos trabajando para mejorar la confiabilidad y resistencia con la que Teams clientes entregan telemetría al servicio.
+Las herramientas de administración de calidad de llamadas como CQD, Análisis de llamadas, Graph API CallRecord y Análisis en tiempo real se basan en telemetría de diagnóstico. La información que se muestra en Teams herramientas de administración de calidad de llamadas es tan completa como los datos de telemetría que recibimos de los clientes que participan en una llamada. Hay varios motivos por los que es posible que no recibamos telemetría completa, como interrupciones de red o [errores de configuración del firewall o proxy](/microsoft-365/enterprise/urls-and-ip-address-ranges). Seguimos trabajando para mejorar la confiabilidad y resistencia con la que Teams clientes ofrecen telemetría al servicio.
 
-Con esto en mente, no se admite el uso de herramientas de administración de calidad de llamadas para informes de uso. No están diseñados para adaptarse a estos tipos de escenarios de informes ni están diseñados para este tipo de escenarios, y muchas estadísticas de uso no están ni estarán disponibles en estas herramientas. Teams centro de administración ofrece una serie de informes de [uso y un](teams-analytics-and-reports/teams-reporting-reference.md) informe de [asistencia a reuniones](teams-analytics-and-reports/meeting-attendance-report.md) está disponible directamente desde el Teams cliente.
+Teniendo esto en cuenta, no se admite el uso de herramientas de administración de calidad de llamadas para la generación de informes de uso. No están diseñadas para dar cabida ni están pensadas para estos tipos de escenarios de informes, y muchas estadísticas de uso no están disponibles y no estarán disponibles en estas herramientas. Teams Administración Centro ofrece una serie de [informes de uso](teams-analytics-and-reports/teams-reporting-reference.md) y un [informe de asistencia a](teams-analytics-and-reports/meeting-attendance-report.md) reuniones directamente desde el cliente de Teams.
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>¿Por qué veo Skype Empresarial información en CQD cuando he filtrado para Teams solo?
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>¿Por qué veo Skype Empresarial información en el CQD cuando solo he filtrado por Teams?
 
-Al filtrar por Teams solo en informes CQD (isTeams = 1), está filtrando para todas las llamadas en las que el primer punto  de conexión Teams. Si el *segundo punto de* conexión Skype Empresarial, esa información se mostrará en el informe CQD. Según los escenarios de los clientes, CQD puede incluir Skype Empresarial Server llamadas de 2019 cuando [el conector](/skypeforbusiness/hybrid/plan-call-data-connector.md) de datos de llamada está configurado. También puede incluir llamadas Skype Bot (AA, CVI, VDI), Eventos en directo y llamadas RTC.
+Al filtrar por Teams solo en informes del CQD (isTeams = 1), está filtrando para todas las llamadas en las que el *primer punto de conexión* está Teams. Si el *segundo punto de conexión* está Skype Empresarial, esa información se mostrará en el informe del CQD. Según los escenarios de los clientes, el CQD puede incluir llamadas de Skype Empresarial Server 2019 cuando se configura el [conector de datos de llamadas](/skypeforbusiness/hybrid/plan-call-data-connector). También puede incluir Skype llamadas bot (AA, CVI, VDI), eventos en directo y llamadas RTC.
 
-Es posible quitar información Skype Empresarial de las consultas filtrando en dimensiones como Primera categoría de agente de usuario y Segunda categoría  *de agente de usuario*. También puede usar el par *de categorías agente de usuario* que combina las dimensiones Primera y Segunda en un único filtro.
+Es posible quitar Skype Empresarial información de las consultas filtrando dimensiones como *Primera categoría de agente de usuario* y *Segunda categoría de agente de usuario*. También puede usar *el Par de categorías de agente de usuario* , que combina las dimensiones Primera y Segunda en un único filtro.
 
-### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>¿Por qué mis informes personalizados solo devuelven un máximo de 10 000 filas cuando sé que debería haber más entradas?
+### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>¿Por qué mis informes personalizados solo devuelven un máximo de 10 000 filas si sé que debería haber más entradas?
 
-CQD está diseñado para consultas de datos resumidos y no está diseñado para la exportación de datos. Recomendamos que se restructuran los informes, siempre que sea posible, para evitar que se supere el límite de 10 000 filas. Empiece por ver sus KPI con dimensiones más amplias y de menor cardinalidad, como Mes, Año, Fecha, Región, País, entre otras. Desde allí, puede explorar en profundidad las dimensiones de mayor cardinalidad. El Departamento de soporte técnico y Location-Enhanced informes proporcionan buenos ejemplos de este flujo de trabajo de exploración en profundidad.
+El CQD está diseñado para consultas de datos resumidas y no está diseñado para la exportación de datos. Recomendamos reestructurar los informes, siempre que sea posible, para evitar que se supere el límite de 10.000 filas. Empiece consultando los KPI con dimensiones más amplias y de menor cardinalidad, como Mes, Año, Fecha, Región, País, etc. Desde allí, puede explorar en profundidad las dimensiones cada vez más altas de cardinalidad. El departamento de soporte técnico y los informes de Location-Enhanced proporcionan buenos ejemplos de este flujo de trabajo de exploración en profundidad.
 
-### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>¿Por qué Wi-Fi conexiones VPN se muestran como cableadas en lugar de wi-fi?
+### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>¿Por qué Wi-Fi conexiones VPN se muestran como cableadas en lugar de Wi-Fi?
 
-Este es el comportamiento que se espera. El proveedor de VPN creó un adaptador ethernet virtual que se trata como una conexión por cable. Puesto que no está etiquetado correctamente, el sistema operativo no sabe que es una conexión Wi-Fi y la notifica como cableada.
+Este es el comportamiento que se espera. El proveedor de VPN ha creado un adaptador Ethernet virtual que se trata como una conexión cableada. Dado que no está correctamente etiquetado, el sistema operativo no sabe que es una conexión Wi-Fi y lo notifica como cableada.
 
-### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>He activado la grabación basada en directivas en Teams y ahora las llamadas punto a punto se marcan como Conferencias, ¿qué ha ocurrido?
+### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>He activado la grabación basada en directivas en Teams y ahora las llamadas de punto a punto se marcan como conferencias. ¿Qué ha ocurrido?
 
-Este es el comportamiento esperado cuando la grabación basada en directivas está habilitada en Microsoft Teams. Grabación basada en directivas usa un bot Teams recorder implementado en Microsoft Azure para capturar el contenido de la reunión con fines de cumplimiento. En la administración de calidad de llamadas, "punto a punto" es una descripción del flujo de tráfico multimedia, no de la interacción entre los usuarios. Dado que un bot de grabadora es en sí mismo una parte de la llamada, la llamada ya no es punto a punto, sino una llamada de varias partes. Las llamadas de varias partes se clasifican como conferencias por Microsoft Teams, por lo que se indicarán como tales cuando vea estas llamadas en CQD y otras herramientas de calidad de llamadas.
+Este es el comportamiento esperado cuando la grabación basada en directivas está habilitada en Microsoft Teams. Grabación basada en directivas usa un Teams Recorder Bot implementado en Microsoft Azure para capturar el contenido de las reuniones con fines de cumplimiento normativo. En la administración de calidad de llamadas, "punto a punto" es una descripción del flujo de tráfico multimedia, no de la interacción entre los usuarios. Dado que un Recorder Bot es en sí mismo una parte de la llamada, la llamada ya no es de punto a punto, sino de varias entidades. Las llamadas de varios participantes se clasifican como conferencias por Microsoft Teams, por lo que se indicarán como tales cuando vea estas llamadas en el CQD y otras herramientas de calidad de llamadas.
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-[Mejorar y supervisar la calidad de las llamadas Teams](monitor-call-quality-qos.md)
+[Mejorar y supervisar la calidad de las llamadas para Teams](monitor-call-quality-qos.md)
 
-[¿Qué es CQD?](CQD-what-is-call-quality-dashboard.md)
+[¿Qué es el CQD?](CQD-what-is-call-quality-dashboard.md)
 
 [Configurar el panel de calidad de llamadas (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Upload inquilino y generar datos](CQD-upload-tenant-building-data.md)
+[Upload los datos de inquilinos y compilación](CQD-upload-tenant-building-data.md)
 
-[Datos e informes de CQD](CQD-data-and-reports.md)
+[Datos e informes del CQD](CQD-data-and-reports.md)
 
-[Usar CQD para administrar la calidad de las llamadas y las reuniones](quality-of-experience-review-guide.md)
+[Usar el CQD para administrar la calidad de llamadas y reuniones](quality-of-experience-review-guide.md)
 
-[Dimensiones y medidas disponibles en CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[Dimensiones y medidas disponibles en el CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Clasificación de secuencias en CQD](stream-classification-in-call-quality-dashboard.md)
+[Clasificación de transmisiones en el CQD](stream-classification-in-call-quality-dashboard.md)
 
-[Usar Power BI para analizar datos CQD](CQD-Power-BI-query-templates.md)
+[Usar Power BI para analizar datos del CQD](CQD-Power-BI-query-templates.md)
 
 [Solución de problemas de Teams](/MicrosoftTeams/troubleshoot/teams)

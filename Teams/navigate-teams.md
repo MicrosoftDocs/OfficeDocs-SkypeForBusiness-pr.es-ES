@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 2455d386e9bdf297995880f679e5db74b299e64d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: cbea53abb94bc3cb591d98781187ac2f4cb68dfd
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674842"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823465"
 ---
 # <a name="navigate-microsoft-teams"></a>Navegar Microsoft Teams
 
@@ -259,7 +259,7 @@ Cuestionario es una [extensión de mensajería Teams](/microsoftteams/platform/m
 
 Use la plantilla de la aplicación [Des checkins](/microsoftteams/platform/samples/app-templates#staff-check-ins) para que el personal de primera línea pueda proporcionar fácilmente información de tiempo crítico y actualizaciones de estado, ya sea de forma programada o ad hoc, directamente desde Teams. La aplicación admite ubicación en tiempo real, fotos, notas, notificaciones de avisos y flujos de trabajo automatizados.
 
-Use Teams para facilitar la formación para su organización. Aprendizaje es una aplicación personalizada [de extensión de mensajería Teams](/microsoftteams/platform/what-are-messaging-extensions) que permite a los usuarios publicar un aprendizaje en un chat o canal para compartir conocimientos y habilidades sin conexión. La aplicación es compatible con varios clientes de Teams plataforma, como escritorio, explorador, iOS y Android. Esta aplicación está lista para su implementación como parte de la suscripción de Microsoft 365.
+Use Teams para facilitar la formación para su organización. Aprendizaje es una aplicación personalizada [de extensión de mensajería Teams](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet) que permite a los usuarios publicar un aprendizaje en un chat o canal para compartir conocimientos y habilidades sin conexión. La aplicación es compatible con varios clientes de Teams plataforma, como escritorio, explorador, iOS y Android. Esta aplicación está lista para su implementación como parte de la suscripción de Microsoft 365.
 
 [Consígalo en GitHub](https://github.com/OfficeDev/microsoft-teams-apps-training)
 

@@ -228,7 +228,7 @@ items:
                   - name: Deshabilitar híbrido para completar la migración solo a Teams
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
                   - name: Actualizar entradas DNS
-                    href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                    href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries
                   - name: Decidir cómo administrar atributos después de la retirada
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
               - name: Mover puntos de conexión de aplicaciones a la nube
@@ -1838,7 +1838,7 @@ items:
           - name: Pasar del conector de Skype Empresarial Online al módulo de PowerShell para Teams
             href: teams-powershell-move-from-sfbo.md
           - name: Referencia de cmdlet para Teams
-            href: /powershell/module/teams/?view=teams-ps
+            href: /powershell/module/teams
       - name: Documentación para desarrolladores de Teams
         href: /microsoftteams/platform
       - name: Actualizaciones de contenido de Teams

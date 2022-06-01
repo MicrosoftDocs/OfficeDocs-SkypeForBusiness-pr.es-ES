@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb3eb61de1372012f2a530be86d394ca46893a6
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 8df4740d6f5facc427900e7af760b11a9c8cb43f
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681751"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823405"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Guía de salas de reuniones para Teams
 
@@ -83,7 +83,7 @@ Prepare a los usuarios para que lo hagan por fases para maximizar su experiencia
 
 Puede empezar con este plan abordando todos los espacios de reunión que no están equipados con AV o que no están equipados con colaboración. Aún puede aprovechar las ventajas de Teams en las salas de reuniones, incluso si esas salas de reuniones aún no tenían Teams dispositivos instalados.
 
-*Audio:* Un gran puente hacia una sala de Teams completa es planear la tecnología de reuniones proporcionando a los usuarios individuales dispositivos de audio certificados por Teams para salas y grupos más pequeños, o implementándolos en salas antes de una solución completa Salas de Teams para espacios más grandes destinados a grupos más grandes donde un dispositivo pequeño no lo cortará.
+*Audio:* Un gran puente para una Salas de Teams completa es planear la tecnología de reuniones proporcionando a los usuarios individuales dispositivos de audio certificados por Teams para salas y grupos más pequeños, o bien implementándolos en salas antes de una solución Salas de Teams completa para espacios más grandes destinados a grupos más grandes donde un dispositivo pequeño no lo cortará.
 
 *Video:* Cuando se usan estas salas, los usuarios individuales pueden llevar sus propios dispositivos para compartir el contenido de la reunión Teams y capturar sus expresiones con sus cámaras individuales. A continuación, los usuarios pueden designar a alguien como el único origen de audio para el grupo local, conectando ese dispositivo personal al dispositivo de audio certificado, de modo que todos los usuarios (tanto locales como remotos) tengan una experiencia positiva con el audio de la reunión.
 

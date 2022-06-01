@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: 7ad570697609c8e2f6d2cd13cb26c0e147822afa
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 2daf43e3166c70c0947706d3d8f9ce8166fc1e91
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760942"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823029"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams dispositivos Android certificados
 
@@ -245,6 +245,8 @@ Al instalar una nueva versión de firmware en el dispositivo, puedes determinar 
 
 | Modelo de dispositivo  | Versión de firmware | Versión del producto incluida |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.11.0.364021`          | Actualización n.º 1 de 2022    |
+| Poly Studio X50 | `3.11.0.364021`          | Actualización n.º 1 de 2022    |
 | Compañero de piso de Logi |   `1.6.290`   | Actualización n.º 1 de 2022    |
 | Logi Rallybar Mini   |   `1.6.272`   | Actualización n.º 1 de 2022  |
 | Logi Rallybar    |   `1.6.272`   | Actualización n.º 1 de 2022   |

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para asociados de Microsoft o operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7a465945a55482c84b9d6373240bc89850b80e3a
-ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
+ms.openlocfilehash: be75743752f34024baf7b2fd017557c2f0044ba6
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "65661681"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823691"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -52,7 +52,7 @@ A continuación se indican los pasos de implementación técnica para configurar
 2. Activar el nombre del subdominio.
 3. Configure el tronco del operador al inquilino del cliente y aprovisione usuarios.
 
-*Asegúrese de que comprende los conceptos básicos de DNS y cómo se administra el nombre de dominio en Microsoft 365. Consulte [Obtener ayuda con Microsoft 365 dominios](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) antes de continuar.*
+*Asegúrese de que comprende los conceptos básicos de DNS y cómo se administra el nombre de dominio en Microsoft 365. Consulte [Obtener ayuda con Microsoft 365 dominios](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) antes de continuar.*
 
 ## <a name="deploy-and-configure-the-sbc"></a>Implementar y configurar el SBC
 
@@ -83,7 +83,7 @@ Los subdominios **DEBEN** coincidir con el nombre FQDN del tronco que se configu
 
 Cuando llega una llamada al Microsoft 365 interfaz de enrutamiento directo, la interfaz utiliza el encabezado del contacto para encontrar el inquilino donde se debe buscar al usuario. Enrutamiento directo no usa la búsqueda de números de teléfono en la invitación, ya que es posible que algunos clientes tengan números no DID que se puedan superponer en varios inquilinos. Por lo tanto, el nombre fqdn en el encabezado de contacto es necesario para identificar el espacio empresarial exacto para buscar al usuario por el número de teléfono.
 
-*Para obtener más información sobre cómo crear nombres de dominio en Microsoft 365 organizaciones, vea [Obtener ayuda con los dominios de Microsoft 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Para obtener más información sobre cómo crear nombres de dominio en Microsoft 365 organizaciones, vea [Obtener ayuda con los dominios de Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 En el siguiente diagrama se resumen los requisitos para basar el dominio, los subdominios y el encabezado De contacto.
 
@@ -139,7 +139,7 @@ Después de registrar un nombre de dominio, debe activarlo agregando al menos un
 > [!NOTE]
 > El inquilino del operador debe conservar al menos una licencia de Sistema telefónico asignada al inquilino para evitar la eliminación de la configuración de Skype Empresarial. 
 
-*Para obtener más información sobre cómo agregar usuarios en Microsoft 365 organizaciones, vea [Obtener ayuda con los dominios de Microsoft 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Para obtener más información sobre cómo agregar usuarios en Microsoft 365 organizaciones, vea [Obtener ayuda con los dominios de Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 Por ejemplo: test@customers.adatum.biz
 
@@ -196,7 +196,7 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
 
 Después de registrar un nombre de dominio, debe activarlo agregando al menos un usuario y asignar una dirección SIP con la parte de FQDN de la dirección SIP que coincida con el subdominio creado en el inquilino del cliente. 
 
-*Para obtener más información sobre cómo agregar usuarios en Microsoft 365 organizaciones, vea [Obtener ayuda con Microsoft 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Para obtener más información sobre cómo agregar usuarios en Microsoft 365 organizaciones, vea [Obtener ayuda con Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 Por ejemplo: test@sbc1.customers.adatum.biz
 

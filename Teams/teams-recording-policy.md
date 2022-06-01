@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9b12d77823f6fcf5417370b496507b627858c6c
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 6a86535c701b38b65d1610dc3aa8af2b5616d4a3
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681991"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823009"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introducción a Teams grabación basada en directivas para llamadas & reuniones
 
@@ -230,7 +230,7 @@ Los siguientes partners han certificado su solución para Microsoft Teams.<br/><
 |NICE NTR |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Innovación en roble |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
-|Cuadro rojo |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
+|Cuadro rojo |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/red-box-partners/microsoft-integration/compliance-recording-for-microsoft-teams)  |
 |Lago Theta |[https://thetalake.com/integrations/microsoft/](https://thetalake.com/integrations/microsoft/) |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 |Innovación en roble |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
@@ -246,6 +246,6 @@ Los siguientes partners están en proceso de certificar su solución para Micros
 
 Esta lista se actualizará a medida que se unan más partners y cumplan los criterios de certificación.
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 Si eres un proveedor que busca unirse al programa de certificación, envía un correo a [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
