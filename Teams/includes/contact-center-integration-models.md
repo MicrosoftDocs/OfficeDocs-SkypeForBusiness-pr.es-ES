@@ -8,7 +8,7 @@ Como proveedor de soluciones de Contact Center, hay tres modelos entre los que e
 
 - Si desea usar bots de Azure y las API de comunicación de Microsoft Graph para habilitar a los proveedores de soluciones para crear aplicaciones de Teams, consulte el [modelo Extender](?tabs=extend#steps).
 
-- Si quieres usar un SDK que permita a los proveedores de soluciones instalar experiencias de Teams nativas en su aplicación, consulta el [modelo de Power](?tabs=power#steps). Las soluciones de energía serán posibles cuando el SDK esté disponible, hacia finales de 2021.
+- Si quieres usar un SDK que permita a los proveedores de soluciones instalar experiencias de Teams nativas en su aplicación, consulta el [modelo de Power](?tabs=power#steps). Las soluciones de energía serán posibles cuando el SDK esté disponible. Próximamente.
 
 ### <a name="the-connect-model"></a>[**El modelo de Conectar**](#tab/connect)
 
@@ -64,17 +64,6 @@ Si bien estas características no son una lista completa de funciones para este 
 
 El modelo power permite a los proveedores de soluciones crear aplicaciones de voz nativas basadas en Azure mediante la infraestructura de llamadas de Teams y la plataforma cliente para ofrecer soluciones modernas e inteligentes para la conexión colaborativa entre clientes y agentes. El objetivo del modelo power es proporcionar una experiencia de centro de contactos de una sola aplicación en una pantalla.
 
-**Características destacadas:**
-
-Si bien estas características no son una lista completa de funciones para este modelo de integración, las áreas principales incluyen:
-
-- Experiencias de agente formal habilitadas de forma nativa para la comunicación omnicanal a través de Teams SDK
-
-- Usar los servicios de colaboración Teams para la colaboración de agentes y las interacciones de los clientes
-
-- Aprovisionamiento rápido de servicios en la nube, implementación en cualquier lugar
-
-- Control directo de la conversación e interacción con los usuarios durante las conversaciones de Teams
 
 > [!NOTE]
-> El modelo Power estará disponible a finales de 2021.
+> Próximamente.

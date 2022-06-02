@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2583ec6e2e4eeb8f983d85779c37a91e1abfa646
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: bb4363fec70a7bcf139929541a7dfe3686089937
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675692"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823552"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -75,12 +75,12 @@ Tenga en cuenta que no aceptamos nuevas nominaciones para la certificación hast
 ||SBC SWe Lite|&#10004;|&#10004;|8.x or 9.x|&#10004;|&#10004;|
 ||Serie EdgeMarc|&#10004;||15.6.1||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|SBC Think 365|&#10004;||1.4|||
-|[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|Compatible con 8.3.0.0.1. Se recomienda 8.4.x y 9.x|&#10004;|&#10004;|
-||AP 3900|&#10004;|&#10004;|Compatible con 8.3.0.0.1. Se recomienda 8.4.x y 9.x|&#10004;|&#10004;|
-||AP 4600|&#10004;|&#10004;|Compatible con 8.3.0.0.1. Se recomienda 8.4.x y 9.x|&#10004;|&#10004;|
-||AP 6300|&#10004;|&#10004;|Compatible con 8.3.0.0.1. Se recomienda 8.4.x y 9.x|&#10004;|&#10004;|
-||AP 6350|&#10004;|&#10004;|Compatible con 8.3.0.0.1. Se recomienda 8.4.x y 9.x|&#10004;|&#10004;|
-||VME|&#10004;|&#10004;|Compatible con 8.3.0.0.1. Se recomienda 8.4.x y 9.x|&#10004;|&#10004;|
+|[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|Compatible con 8.3.0.0.1 y recomendada 8.4.x y 9.x|&#10004;|&#10004;|
+||AP 3900|&#10004;|&#10004;|Compatible con 8.3.0.0.1 y recomendada 8.4.x y 9.x|&#10004;|&#10004;|
+||AP 4600|&#10004;|&#10004;|Compatible con 8.3.0.0.1 y recomendada 8.4.x y 9.x|&#10004;|&#10004;|
+||AP 6300|&#10004;|&#10004;|Compatible con 8.3.0.0.1 y recomendada 8.4.x y 9.x|&#10004;|&#10004;|
+||AP 6350|&#10004;|&#10004;|Compatible con 8.3.0.0.1 y recomendada 8.4.x y 9.x|&#10004;|&#10004;|
+||VME|&#10004;|&#10004;|Compatible con 8.3.0.0.1 y recomendada 8.4.x y 9.x|&#10004;|&#10004;|
 ||AP 3950|&#10004;|&#10004;|Compatible con 9.x|&#10004;|&#10004;|
 ||AP 4900|&#10004;|&#10004;|Compatible con 9.x|&#10004;|&#10004;|
 |[TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)|anynode|&#10004;|&#10004;|Compatible con 3.20 (recomendado 4.0)|&#10004;|&#10004;|
@@ -101,8 +101,8 @@ Tenga en cuenta que no aceptamos nuevas nominaciones para la certificación hast
 |[Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|CLS de BorderNet Dialogic|&#10004;|&#10004;|3.9.0-786|||
 |[Patton Electronics Co.](https://www.patton.com/microsoft/)|Patton SmartNode eSBC|&#10004;||3.19.x|||
 |[M5 Technologies (anteriormente conocido como Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|Serie Sentinel de Mediatrix|&#10004;||DGW 48.0.2340 (DGW recomendado 48.1.2503)|||
-|[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|6.6.1m5ha1|||
-||Ekinops Virtual Session Border Controller (ONEvSBC)|&#10004;|&#10004;|6.6.1m5ha1|||
+|[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|Compatible con 6.6.1m5ha1 (recomendada 6.8.x)|||
+||Ekinops Virtual Session Border Controller (ONEvSBC)|&#10004;|&#10004;|Compatible con 6.6.1m5ha1 (recomendada 6.8.x)|||
 |[46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|Voz hiperconvergida|&#10004;|&#10004;|HCVoice 1.0.6|||
 |[Frafos](https://www.frafos.com/ms-teams-abc-sbc)|ABC SBC|&#10004;||4.6|||
 

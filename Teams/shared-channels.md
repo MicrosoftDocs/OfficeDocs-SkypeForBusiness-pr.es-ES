@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar canales compartidos en Microsoft Teams.
-ms.openlocfilehash: afaae423b09b36845b0eeadd9276de1356d0fca0
-ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
+ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
+ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65785990"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65795642"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canales compartidos en Microsoft Teams
 
@@ -155,6 +155,73 @@ También se aplican las siguientes limitaciones:
 - Cuando se crea un equipo a partir de un equipo existente, los canales compartidos del equipo existente no se copiarán.
 
 - Las notificaciones de canales compartidos no se incluyen en los correos electrónicos sobre actividad perdida.
+
+## <a name="supported-apps-in-shared-channels"></a>Aplicaciones admitidas en canales compartidos
+
+Para obtener información sobre cómo preparar la aplicación para canales compartidos, vea [Cómo abrir la aplicación para la colaboración entre organizaciones con Microsoft Teams Connect](https://mybuild.microsoft.com/sessions/4d84d73c-08de-4f56-990b-2a73b2037df1).
+
+Las siguientes aplicaciones se admiten para su uso en canales compartidos. 
+
+- Actividad
+- Adobe Acrobat Sign
+- Asana
+- Calendario
+- Calendario Pro
+- Llamadas
+- Chat
+- Código de Vivani
+- Panel de concepto
+- Excel
+- FileBrowser
+- Archivos
+- Flipgrid
+- Freehand by InVision
+- HeyTaco
+- Jira Cloud
+- Kahoot
+- Listas
+- Lucidchart
+- Lumio
+- MeisterTask
+- MindMeister
+- Mindomo
+- Miro
+- Monday.com
+- MURAL
+- Nearpod
+- OneNote
+- PDF
+- Pear Deck
+- PowerPoint
+- Priority Matrix
+- Quicklinks
+- Quizlet
+- Saved
+- Scrum-Poker
+- Buscar 
+- SharePoint
+- Páginas de SharePoint
+- Slido
+- Smartsheet
+- SurveyMonkey
+- Tareas en un cuadro
+- Teams
+- Teams Manager
+- TeamViewer
+- Trabajo en equipo
+- Testportal
+- TrackingTime
+- Trello
+- Vevox
+- Visio
+- VSTS
+- Wakelet
+- Web
+- Wooclap
+- Word
+- YouTube
+- Zendesk
+- Zoho Projects
 
 ## <a name="related-topics"></a>Temas relacionados
 
