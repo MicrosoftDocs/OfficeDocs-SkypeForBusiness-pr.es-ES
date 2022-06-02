@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar operadores automáticos para grandes organizaciones en Microsoft Teams.
-ms.openlocfilehash: 5f4b4f21f2e1cca8c8bbc350541cdd861b1bda3f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f177f1dd34f4f8f9497e7800007b5be868230dfe
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674372"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840982"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -44,6 +44,7 @@ Los operadores automáticos pueden dirigir llamadas, en función de la entrada d
 - **Persona de la organización** : una persona de la organización que puede recibir llamadas de voz. Esta persona puede ser un usuario en línea o un usuario hospedado localmente mediante Skype Empresarial Server.
 - **Aplicación de voz** : otro operador automático o una cola de llamadas. (Elija la cuenta de recursos asociada con el operador automático o la cola de llamadas al elegir este destino).
 - **Correo de voz**: el buzón de voz asociado a un grupo de Microsoft 365 que especifique. Puede elegir si quiere las transcripciones del correo de voz y "Deje un mensaje después del tono". símbolo del sistema.
+- - En el Centro de Administración de M365, habilite "Permitir que personas que no pertenezcan a la organización envíe un correo electrónico a este equipo" para el grupo de Microsoft 365 que especificó
 - **Número de teléfono externo** : cualquier número de teléfono. (Consulte [los detalles técnicos de las transferencias externas](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
 - **Anuncio (archivo de audio):** reproducir un archivo de audio. Un mensaje de anuncio grabado que carga y que se guarda como audio en . WAV, .MP3 o . Formato WMA. La grabación no puede tener más de 5 MB. El sistema reproduce el anuncio y, a continuación, vuelve al menú del operador automático.
 - **Anuncio (escrito):** escriba un mensaje. Texto que quiere que lea el sistema. Puede escribir hasta 1000 caracteres. El sistema reproduce el anuncio y, a continuación, vuelve al menú del operador automático.
@@ -318,7 +319,7 @@ Para obtener una guía paso a paso para crear operadores automáticos con PowerS
 
 Si es administrador, puede usar la siguiente herramienta de diagnóstico para validar que un operador automático pueda recibir llamadas:
 
-1. Seleccione **Ejecutar pruebas** a continuación. Esto rellenará el diagnóstico en el Centro de administración de Microsoft 365. 
+1. Seleccione **Ejecutar pruebas** a continuación, lo cual rellenará el diagnóstico en el Centro de administración de Microsoft 365. 
 
    > [!div class="nextstepaction"]
    > [Ejecutar pruebas: Teams operador automático](https://aka.ms/TeamsAADiag)

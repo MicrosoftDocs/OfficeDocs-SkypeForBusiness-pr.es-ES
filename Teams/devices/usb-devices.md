@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Consulta qué periféricos y dispositivos USB (como auriculares, altavoces, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: 912d6d3481ba6f9885a79e0600f74c9ecd031c8c
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: ac06ca93423039714de87a5bce036b18becedb27
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760902"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840972"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -74,13 +74,14 @@ Si eres un fabricante y quieres unirte al programa de certificación, consulta [
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabla actualizada en mayo de 2022*
+*Tabla actualizada en junio de 2022*
 
 > [!NOTE]
 > El formato de fecha es MMDDYYYYY.
 
 | Fabricante        | Modelo                                                     | Calificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |Auriculares de la serie C10/C20/C50                                |5/31/2022       |Certificado para Microsoft Teams                           |
 |Polivinílico                 |Studio P21 Monitor                                         |5/12/2022       |Certificado para Microsoft Teams                           |
 |Yealink              |Auriculares UH38                                               |5/2/2022        |Certificado para Microsoft Teams                           |   
 |Yealink              |Auriculares BH72                                               |5/2/2022        |Certificado para Microsoft Teams                           |
@@ -146,8 +147,8 @@ Si eres un fabricante y quieres unirte al programa de certificación, consulta [
 |Lenovo               |Pro auriculares estéreo VoIP con cable                              |12/21/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
 |Polivinílico                 |Savi Office 7320                                           |12/18/2020      |Certificado para Microsoft Teams                           |
 |Polivinílico                 |Savi Office 7310                                           |12/18/2020      |Certificado para Microsoft Teams                           |
-|Jabra                |Auriculares Evolve 75e                                         |12/16/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
-|Jabra                |Auriculares Evolve 65e                                         |12/16/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Auriculares Evolve 75e/SE                                         |12/16/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Auriculares Evolve 65e/SE                                         |12/16/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
 |Dell                 |C3422WE Monitor                                            |12/11/2020      |Certificado para Microsoft Teams                           |
 |Dell                 |C2722DE Monitor                                            |12/11/2020      |Certificado para Microsoft Teams                           |
 |Dell                 |C2422HE Monitor                                            |12/11/2020      |Certificado para Microsoft Teams                           |

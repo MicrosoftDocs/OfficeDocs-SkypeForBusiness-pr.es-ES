@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Aprenda a configurar colas de llamadas para grandes organizaciones en Microsoft Teams, que proporciona un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 0a62abc27eed0008a337b900f563f8e7e2a75097
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 7678d132b8711ea828bf643201df5501323ab77e
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059091"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840992"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -156,6 +156,8 @@ Las cuentas de Teams de los agentes deben establecerse en modo solo Teams. Los a
 
 > [!NOTE]
 > El modo de conferencia no se admite si las llamadas de teléfono se redirigen a la cola desde una puerta de enlace de enrutamiento directo habilitada para el enrutamiento basado en ubicación.
+>
+> El modo de conferencia es necesario si Teams los usuarios necesitan consultar/transferir llamadas con colas de llamadas.
 
 > [!TIP]
 > Establecer **el modo de conferencia** **en Activado** es la opción recomendada.
@@ -221,6 +223,9 @@ Puede elegir desconectar la llamada o redirigirla a cualquiera de los destinos d
 
 > [!NOTE]
 > Si el número máximo de llamadas se establece en 0, no se reproducirá el mensaje de saludo.
+>
+> Al redirigir al correo de voz compartido, asegúrese de que **Permitir que personas que no pertenezcan a la organización envíe correos electrónicos a este equipo** esté habilitado para el equipo o grupo en el Centro de Administración de Microsoft 365.
+
 
 ## <a name="call-timeout-handling"></a>Gestión de la caducidad de la llamada
 
@@ -229,6 +234,9 @@ Puede elegir desconectar la llamada o redirigirla a cualquiera de los destinos d
 **Tiempo de espera de la llamada: tiempo máximo** especifica el tiempo máximo en que una llamada puede estar en espera en la cola antes de que se redirija o se desconecta. Puede establecer un intervalo de entre 0 y 45 minutos.
 
 Puede elegir desconectar la llamada o redirigirla a uno de los destinos de enrutamiento de llamadas. Por ejemplo, puede que el autor de llamada deje un correo de voz para los agentes en la cola. Para las transferencias externas, consulte [Requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) y las [transferencias de números de teléfono externos: detalles técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) para el formato de números.
+
+> [!NOTE]
+> Al redirigir al correo de voz compartido, asegúrese de que **Permitir que personas que no pertenezcan a la organización envíe correos electrónicos a este equipo** esté habilitado para el equipo o grupo en el Centro de Administración de Microsoft 365.
 
 Cuando haya seleccionado las opciones del tiempo de espera de la llamada, haga clic **Guardar**.
 
@@ -244,20 +252,21 @@ Se recomienda la siguiente configuración:
 
 ## <a name="call-queue-feature-compatibility"></a>Compatibilidad de características de la cola de llamadas
 
-|Característica                          |Teams <sup>Escritorio1</sup> |Teams <sup>Mobile2</sup> |Lync |Teléfonos IP | Colas de llamadas estándar |Colas de llamadas basadas en canales | Comentario |
+|Característica                          |Teams Escritorio<sup>1</sup> |Teams Mobile<sup>2</sup> |Lync |Teléfonos IP | Colas de llamadas estándar |Colas de llamadas basadas en canales | Comentario |
 |:--------------------------------|:------------------------:|:-----------------------:|:---:|:--------:|:--------------------:|:------------------------:|:-------------|
 |**Métodos de enrutamiento de agente**        |                          |                         |     |          |                      |                          |              |
 |`Attendant Routing`              |v                         |v                        |v    |v         |v                     |v                         |*Predeterminado*     |
 |`Longest Idle`<sup>3</sup>       |v                         |v                        |N    |v         |v                     |v                         |*Recomendado* |
 |`Round Robin`                    |v                         |v                        |v    |v         |v                     |v                         |*Recomendado* |
-|`Serial`                         |v                         |v                        |v    |v         |<sup>Y4</sup>         |<sup>Y4</sup>             |              |
+|`Serial`                         |v                         |v                        |v    |v         |Y<sup>4</sup>         |Y<sup>4</sup>             |              |
+|**Opciones de enrutamiento de agente**        |                          |                         |     |          |                      |                          |              |
+|`Presence Based Routing`<sup>3</sup>|v                        |v                        |N    |v         |v                     |v                         |*Recomendado* |
+|`Agents can Opt-out`               |v                         |v                        |Y<sup>7</sup>|Y<sup>7</sup>|v          |v                         |*Predeterminado*     |
 |**Modos de transferencia**               |                          |                         |     |          |                      |                          |              |
-|`Conference Mode`<sup>5</sup>    |v                         |v                        |N    |<sup>Y6</sup>|v                  |v                         |*Recomendado* |
-|`Transfer Mode`                  |v                         |v                        |v    |v         |v                     |v                         |              |
-|Enrutamiento basado en <sup>presencia3</sup>|v                        |v                        |N    |v         |v                     |v                         |*Recomendado* |
-|Los agentes pueden optar por no participar               |v                         |v                        |<sup>Y7</sup>|<sup>Y7</sup>|v          |v                         |*Predeterminado*     |
-|Colas basadas en canales             |v                         |N                        |N    |N         |n/a                   |<sup>Y8</sup>             |              |
-|Notificación del sistema de llamadas muestra el nombre de la cuenta de recursos |<sup>Y9</sup>       |v                        |v    |          |v                     |v                         |              |
+|`Conference Mode`<sup>5</sup>    |v                         |v                        |N    |Y<sup>6</sup>|v                  |v                         |*Recomendado* |
+|`Transfer Mode`                  |v                         |v                        |v    |v         |v                     |v                         |*Predeterminado*              |
+|**Llamadas colaborativas**        |                          |                         |     |          |                      |                          |              |
+|`Channel Based Queues`             |v                         |N                        |N    |N         |n/a                   |Y<sup>8</sup>             |              |
 |**Identificador dinámico de llamadas**            |                          |                         |     |          |                      |                          |              |
 |`Standard call queue`            |N                         |v                        |N    |N         |Y                     |n/a                       |              |
 |`Channel based call queue`       |v                         |n/a                      |n/a  |n/a       |n/a                   |v                         |              |
@@ -265,10 +274,12 @@ Se recomienda la siguiente configuración:
 |`Calling Plans`                  |v                         |v                        |v    |v         |v                     |v                         |              |
 |`Direct Routing`                 |v                         |v                        |N    |N         |v                     |v                         |              |
 |`Operator Connect`               |v                         |v                        |     |          |v                     |v                         |              |
+|**Misceláneos**    |                          |                         |     |          |                      |                          |Vea la Nota 10   |
+|`Call toast shows Resource Account Name` |Y<sup>9</sup>       |v                        |v    |          |v                     |v                         |              |
 
 Notas:
 1. Microsoft Teams Windows cliente, Microsoft Teams cliente mac, Microsoft Teams en infraestructura de escritorio virtualizada Microsoft Teams cliente web.
-2. aplicación Microsoft Teams iPhone, Microsoft Teams aplicación para Android.
+2. aplicación Microsoft Teams iPhone, aplicación Microsoft Teams Android.
 3. Si selecciona Longest Idle para el método de enrutamiento del agente, se habilitará automáticamente el enrutamiento basado en presencia.
 4. Solo puede establecer el orden al agregar usuarios individuales como parte de las colas de llamadas estándar. Cuando se usa una lista de distribución o un canal de Teams el orden será alfabético.
 5. El modo de conferencia no se admite si las llamadas de teléfono se redirigen a la cola desde una puerta de enlace de enrutamiento directo habilitada para el enrutamiento basado en ubicación.
