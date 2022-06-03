@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c975abb16b8c131b21733d57463435aa7e643639
-ms.sourcegitcommit: 6e7af2e556526bd8b2bcc8f689192e254d8cb4a3
+ms.openlocfilehash: 39025c0ccd9cb3b7bc02de85719f98f4ec7f3090
+ms.sourcegitcommit: 1788f852508208a01f230f6f68a5a81ec8594c47
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62146257"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860073"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Requisitos de hardware para Microsoft Teams
 
@@ -35,7 +35,7 @@ Todos los requisitos de las siguientes secciones se aplican tanto a la aplicaci�
 
 | Componente | Requisito |
 |---------|---------|
-|Ordenador y procesador    | Mínimo 1.1 GHz o más rápido, 2 núcleos<br><br>Nota: en el caso de los procesadores Intel, es necesario tener en cuenta la velocidad máxima alcanzada con la tecnología Intel Turbo Boost (frecuencia máxima de turbo).         |
+|Ordenador y procesador    | Mínimo 1,1 GHz o más rápido, 2 núcleos<br><br>Nota: en el caso de los procesadores Intel, es necesario tener en cuenta la velocidad máxima alcanzada con la tecnología Intel Turbo Boost (frecuencia máxima de turbo).         |
 |Memoria     |  4,0 GB de RAM |
 |Disco duro    | 3.0 GB de espacio en disco disponible        |
 |Pantalla    |   Resolución de pantalla de 1024 x 768 |
@@ -44,7 +44,7 @@ Todos los requisitos de las siguientes secciones se aplican tanto a la aplicaci�
 |Versión .NET    |  Requiere .NET 4.5 CLR o superior       |
 |Vídeo    |  Cámara de vídeo USB 2.0       |
 |Dispositivos    |   Cámara, micrófono y altavoces estándar de portátil     |
-|Reuniones y llamadas de vídeo|<ul><li>Requiere un procesador de 2 núcleos. Para una mayor resolución de vídeo o de pantalla compartida y tasa de encuadre, se recomienda un procesador de 4 núcleos o mejor.</li> <li>Los efectos de vídeo de fondo requieren Windows 10 o un procesador configurados con instrucción AVX2.</li> <li>Consulte [Recomendaciones de los controladores de decodificadores y codificadores de hardware](hardware-decoders-and-encoders.md) para obtener una lista de los decodificadores y codificadores no admitidos.</li><li>Unirse a una reunión utilizando la detección de proximidad en una Sala de Microsoft Teams requiere Bluetooth LE, que requiere que el Bluetooth esté habilitado en el dispositivo cliente, y para los clientes de Windows también requiere el cliente de Teams de 64 bits. Esta característica no está disponible para clientes de Teams de 32 bits.</li></ul> |
+|Reuniones y llamadas de vídeo|<ul><li>Requiere un procesador de dos núcleos. Para una mayor resolución de vídeo/pantalla compartida y velocidad de fotogramas, se recomienda un procesador de cuatro núcleos o superior.</li> <li>Los efectos de vídeo de fondo requieren Windows 10 o un procesador configurados con instrucción AVX2.</li> <li>Consulte [Recomendaciones de los controladores de decodificadores y codificadores de hardware](hardware-decoders-and-encoders.md) para obtener una lista de los decodificadores y codificadores no admitidos.</li><li>Unirse a una reunión utilizando la detección de proximidad en una Sala de Microsoft Teams requiere Bluetooth LE, que requiere que el Bluetooth esté habilitado en el dispositivo cliente, y para los clientes de Windows también requiere el cliente de Teams de 64 bits. Esta característica no está disponible para clientes de Teams de 32 bits.</li></ul> |
 |Eventos en directo en Teams | Si está produciendo un evento en vivo de Teams, recomendamos usar un ordenador que tenga un procesador Core i5 Kaby Lake, 4,0 GB de RAM (o superior) y un codificador de hardware. Consulte [Recomendaciones de los controladores de decodificadores y codificadores de hardware](hardware-decoders-and-encoders.md) para obtener una lista de los decodificadores y codificadores **no admitidos**. |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Requisitos de hardware para Teams en Mac
@@ -58,7 +58,7 @@ Todos los requisitos de las siguientes secciones se aplican tanto a la aplicaci�
 |Sistema operativo  |    Una de las tres últimas versiones de macOS. Puede obtener más ifnormación sobre las últimas versiones de macOS y cómo actualizar su versión de macOS [aquí](https://support.apple.com/en-us/HT201260). Por ejemplo, si se publica una nueva versión de macOS, la nueva versión y las dos que inmediatamente anteriores serán las versiones admitidas.      |
 |Vídeo  |    Cámara web compatible     |
 |Voz    |  Micrófono y altavoces compatibles, auriculares con micrófono o dispositivo equivalente       |
-|Reuniones y llamadas de vídeo | <ul><li>Requiere un procesador de 2 núcleos. Para una mayor resolución de vídeo o de pantalla compartida y tasa de encuadre, se recomienda un procesador de 4 núcleos o mejor. </li><li>Unirse a una reunión usando la detección de proximidad en una Sala de Microsoft Teams no está disponible en macOS.</li></ul>
+|Reuniones y llamadas de vídeo | <ul><li>Requiere un procesador de dos núcleos. Para una mayor resolución de vídeo/pantalla compartida y velocidad de fotogramas, se recomienda un procesador de cuatro núcleos o superior. </li><li>Unirse a una reunión usando la detección de proximidad en una Sala de Microsoft Teams no está disponible en macOS.</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Requisitos de hardware de la aplicación de Teams en Linux
@@ -74,7 +74,7 @@ Todos los requisitos de las siguientes secciones se aplican tanto a la aplicaci�
 |Vídeo    |  Cámara de vídeo USB 2.0       |
 |Dispositivos    |   Cámara, micrófono y altavoces estándar de portátil     |
 |Voz    |  Micrófono y altavoces compatibles, auriculares con micrófono o dispositivo equivalente       |
-|Reuniones y llamadas de vídeo | <ul><li>Requiere un procesador de 2 núcleos. Para una mayor resolución de vídeo o de pantalla compartida y tasa de encuadre, se recomienda un procesador de 4 núcleos o mejor.</li><li>Unirse a una reunión usando la detección de proximidad en una Sala de Microsoft Teams no está disponible en Linux.</li></ul>
+|Reuniones y llamadas de vídeo | <ul><li>Requiere un procesador de dos núcleos. Para una mayor resolución de vídeo/pantalla compartida y velocidad de fotogramas, se recomienda un procesador de cuatro núcleos o superior.</li><li>Unirse a una reunión usando la detección de proximidad en una Sala de Microsoft Teams no está disponible en Linux.</li></ul>
 |Distribuciones de Linux compatibles | Ubuntu 18.04 LTS, 20.04 LTS, Estación de trabajo Fedora 30, Estación de trabajo RHEL 8, CentOS 8       |
 |Entorno de escritorio compatible | GNOME, KDE       |
 |Servidor de pantalla compatible | X11       |
@@ -101,6 +101,6 @@ Consulte [Teams para la Infraestructura de Escritorio Virtualizado](teams-for-vd
 ### <a name="related-topics"></a>Temas relacionados
 
 - [Consiga aplicaciones para Teams](get-clients.md)
-- [Microsoft Teams en dispositivos móviles](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
+- [Microsoft Teams en dispositivos móviles](https://support.microsoft.com/office/set-up-your-teams-mobile-apps-1ba8dce3-1122-47f4-8db6-00a4f93117e8)
 - [Instalar la aplicación de Microsoft Teams mediante un MSI](msi-deployment.md)
 - [Límites y especificaciones para Microsoft Teams](limits-specifications-teams.md)
