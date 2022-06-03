@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676132"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860801"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar la conexión principal en Microsoft Teams para Educación
 
@@ -56,13 +56,13 @@ Parents Connection permite a los educadores y tutores chatear, enviar correos el
 > - Funcionalidades de Exchange de rama pública (PBX).
 > - Conexión a la RTC.
 >
-> Microsoft 365 A1 y los planes de A3 no incluyen capacidades de PBX ni conexión RTC. Puede comprar [licencias de complementos para cada uno de ellos](/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+> Microsoft 365 A1 y los planes de A3 no incluyen capacidades de PBX ni conexión RTC. Puede comprar [licencias de complementos para cada uno de ellos](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 >
 > Microsoft 365 A5 planes solo incluyen funcionalidades PBX con Teams Sistema telefónico. Seguirá necesitando [comprar un plan de llamadas Teams o usar una solución de terceros](pstn-connectivity.md) para conectarse a números externos en la RTC.
 >
 > Para obtener más información sobre todas las opciones para obtener conectividad con RTC, vea [Opciones de conectividad de RTC](pstn-connectivity.md).
 >
-> Para obtener más información sobre las licencias de llamadas Teams, consulte [Teams opciones de licencias complementarias](/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+> Para obtener más información sobre las licencias de llamadas Teams, consulte [Teams opciones de licencias complementarias](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 ## <a name="requirements"></a>Requirements
 
@@ -91,13 +91,20 @@ Parents Connection permite a los educadores y tutores chatear, enviar correos el
   - Esto debe activarse en el nivel de inquilino y en el nivel de usuario. La configuración de nivel de inquilino puede encontrarse en **Usuarios > acceso externo** en el Centro de administración de Teams. También se puede acceder a esta configuración a través de PowerShell. Solo se puede acceder a las directivas de acceso externo a nivel de usuario a través de PowerShell. Consulte los comandos de PowerShell siguientes para obtener más información.
 
 #### <a name="parent-and-guardian-restrictions"></a>Restricciones para padres y tutores
-Los padres y tutores se clasifican como usuarios externos en La conexión de padres, lo que significa que no tienen derechos de inquilino completos. Solo tienen acceso al chat o chats a los que se agregan, así como a archivos, imágenes y otro contenido compartido en el chat.
+
+Los padres y tutores se clasifican como *usuarios externos* en La conexión de padres, lo que significa que no tienen derechos de inquilino completos. Solo tienen acceso al chat o chats de los que forman parte y a los archivos, imágenes y otro contenido compartido en el chat.
+
+Para los chats externos, tanto los usuarios internos como externos pueden agregar usuarios al chat. Para obtener más información sobre la experiencia de chat externo, vea [Administrar reuniones y chats externos en Microsoft Teams](manage-external-access.md).
 
 Además, los usuarios externos pueden ver la presencia (sin conexión, disponible, ocupado, etc.) de los usuarios de su organización, pero esto se puede desactivar con PowerShell para proteger la privacidad de los usuarios. En PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) y establezca ``EnablePrivacyMode=true``.
 
 A pesar de que los padres y tutores son usuarios externos, sus contribuciones a los chats son reconocibles. Obtenga información sobre cómo llevar a cabo una investigación de eDiscovery Teams leyendo [Realizar una investigación de exhibición de documentos electrónicos del contenido de Microsoft Teams](ediscovery-investigation.md).
 
+> [!IMPORTANT]
+> Los administradores de TI deben educar a todos los propietarios de clase sobre los procedimientos recomendados para compartir información de los alumnos a través del chat, incluidos los riesgos para la privacidad de los alumnos.
+
 #### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>Bloquear a un padre o tutor en un chat
+
 Los profesores pueden bloquear a un tutor en el chat iniciado en conexión con los padres.
 
 El propietario de la clase puede:

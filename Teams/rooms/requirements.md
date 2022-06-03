@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtén información sobre los requisitos para admitir Salas de Microsoft Teams, incluida la elección del dispositivo, micrófonos, altavoces, cámaras y pantallas adecuados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91d9740e987c93dc05ea969b50ecd8e8a12de6b4
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 29b58a57d052acb529bc4c21db184589ed3739d8
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823641"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860611"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de la sala de Microsoft Teams
 
@@ -206,7 +206,7 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |[Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/products/mixers/p300)+</br>[Shure MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/products/mixers/p300) +</br>[Shure MXA 910 con micrófono de techo Intellimix](https://www.shure.com/products/microphones/mxa910) | 4.1|
 |[Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/products/mixers/p300)+</br>[Shure MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) +</br>[Altavoz de techo MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> Micrófono de matriz de tabla MXA310: 4.1.41 </br> Altavoz MXN5W-C: 1.0.4 |
-|[Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/products/mixers/p300) + </br>[Shure MXA 910 con micrófono de matriz de techo Intellimix](https://www.shure.com/products/microphones/mxa910) +</br>[Altavoz de techo MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> Micrófono de matriz de techo MXA910: 4.1.41 </br> Altavoz MXN5W-C: 1.0.4 |
+|[Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/products/mixers/p300) + </br>[Shure MXA 920 con micrófono de matriz de techo Intellimix](https://www.shure.com/en-US/products/microphones/mxa920?utm_source=linkedin&utm_medium=social&sfid=&prod=) +</br>[Altavoz de techo MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.7.7 </br> Micrófono de matriz de techo MXA920: 1.1.56 </br> Altavoz MXN5W-C: 1.5.6 |
 |[Shure MXA 710 2ft Table Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/products/mixers/p300) +</br>[Altavoz de techo MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Altavoz MXN5-C: 1.1.1 |
 |[Shure MXA 710 4ft Wall Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/products/mixers/p300) +</br>[Altavoz de techo MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 Micrófono de matriz lineal de pared de 4ft: 1.2.0 </br> P300 DSP: 4.4.8 </br> Altavoz MXN5-C: 1.1.1 |
 |[Shure MXA 910 con micrófono intellimix de matriz de techo](https://www.shure.com/products/microphones/mxa910) + </br> [Software de sala Shure Intellimix](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Software de sala Shure Intellimix: 3.0.4.14 </br> Shure MXA 910 con micrófono intellimix de matriz de techo: 4.4.11 </br> Altavoces Shure MXN5-C: 1.2.1 </br> Crestron UC-C100-T con ASUS Tek Computer INC 9934 compute | 
