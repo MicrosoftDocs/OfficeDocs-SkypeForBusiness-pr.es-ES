@@ -1693,7 +1693,7 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
               - name: 'Citas virtuales con Teams: integración en Epic EHR'
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: Informes administrativos de HCE
+              - name: Informe de citas virtuales del conector HCE
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Citas virtuales con Teams y Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
