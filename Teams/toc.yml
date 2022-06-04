@@ -455,6 +455,8 @@ items:
             href: teams-analytics-and-reports/information-protection-license-report.md
           - name: Informe de uso de consultas virtuales de Teams
             href: teams-analytics-and-reports/virtual-visits-usage-report.md
+          - name: Informe de citas virtuales del conector HCE de Teams
+            href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
       - name: 'Archivos de registro, estado del servicio y soporte técnico'
         items:
           - name: Usar archivos de registro para supervisar y solucionar problemas de Teams
@@ -1693,7 +1695,7 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
               - name: 'Citas virtuales con Teams: integración en Epic EHR'
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: Informe de citas virtuales del conector HCE
+              - name: Informe de citas virtuales del conector HCE de Teams
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Citas virtuales con Teams y Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
