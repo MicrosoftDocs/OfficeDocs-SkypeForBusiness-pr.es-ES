@@ -18,20 +18,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb3d38060a9538196795e3da7b325840321814d8
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
-ms.translationtype: MT
+ms.openlocfilehash: 1392678e77d96eb34445be1848a6cbfbb559bc5c
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686397"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913418"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Acerca de las aplicaciones de Microsoft Teams
 
-Las aplicaciones son una forma excelente de unir las herramientas y los servicios de su lugar de trabajo y colaborar con otros usuarios. Las aplicaciones ayudan a los usuarios finales a ser más productivos, colaborativos y eficaces en sus tareas diarias. Las organizaciones usan aplicaciones para conectarse con sus clientes, proporcionar servicios y compartir información. Las aplicaciones permiten a los usuarios ser más eficaces en Teams chats, reuniones y canales. Algunos ejemplos son los usuarios finales que usan un calendario anclado en Teams para colaborar rápidamente con otros usuarios, una aplicación con funciones de bots que informa a los usuarios de QoS de un servicio web en un canal de Teams y una aplicación para compartir y asignar tareas a varios usuarios finales en un canal.
+Las aplicaciones son una excelente manera de reunir las herramientas y los servicios del área de trabajo y colaborar con otros usuarios. Las aplicaciones ayudan a los usuarios finales a ser más productivos, colaborativos y eficaces en sus tareas diarias. Las organizaciones usan aplicaciones para conectarse con sus clientes, proporcionar servicios y compartir información. Las aplicaciones permiten a los usuarios ser más eficaces en chats, reuniones y canales de Teams. Algunos ejemplos son los usuarios finales que usan un calendario anclado en Teams para colaborar rápidamente con otros usuarios, una aplicación con la funcionalidad de bots que informa a los usuarios de QoS de un servicio web en un canal de Teams, y una aplicación para compartir y asignar tareas a varios usuarios finales en un canal.
 
-Nuestra amplia selección de aplicaciones validadas y seguras de la tienda proporciona a los usuarios finales acceso a las herramientas y servicios que su organización necesita a diario. Microsoft Teams aplicaciones son aplicaciones SaaS basadas en web que no necesitan implementarse. Los usuarios finales pueden usar aplicaciones en Teams solo en función de los permisos que proporcione. Como administrador, solo tiene que aprobar o bloquear el uso de cualquier aplicación para los usuarios de su organización. Puede controlar la disponibilidad de aplicaciones para todos los usuarios en reuniones, chats y canales.
+Nuestra amplia selección de aplicaciones validadas y seguras en la tienda proporciona a los usuarios finales acceso a las herramientas y los servicios que su organización necesita a diario. Las aplicaciones de Microsoft Teams son aplicaciones SaaS basadas en web que no es necesario implementar. Los usuarios finales pueden usar aplicaciones en Teams solo en función de los [permisos](https://admin.teams.microsoft.com/policies/app-permission) proporcionados por usted. Como administrador, solo tiene que aprobar o bloquear el uso de cualquier aplicación para los usuarios de su organización. Usted controla la disponibilidad de las aplicaciones para todos los usuarios en reuniones, chats y canales.
 
-Para proporcionar a los usuarios finales las aplicaciones que necesitan, siga leyendo para comprender los tipos de aplicaciones y dónde los usuarios obtienen acceso a esas aplicaciones. Para obtener más información sobre el uso de aplicaciones, lea [Información general sobre las aplicaciones para los usuarios finales](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
+Para proporcionar a los usuarios finales las aplicaciones que necesitan, siga leyendo para comprender los tipos de aplicaciones y dónde acceden los usuarios a esas aplicaciones. Para obtener más información sobre el uso de aplicaciones, lea [Información general sobre las aplicaciones para los usuarios finales](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
 
 <!--- Commenting the previous content as part of this article revamp.
 
@@ -43,64 +43,64 @@ Los diferentes tipos de aplicaciones que los usuarios finales pueden usar en Tea
 
 * [Aplicaciones principales que forman parte de Teams](#core-apps).
 * Otras [aplicaciones creadas por Microsoft](#microsoft-provided-apps).
-* [Aplicaciones de terceros](#third-party-apps-validated-by-microsoft) por partners (validadas por Microsoft).
-* [Aplicaciones personalizadas](#custom-apps) creadas por su propia organización.
+* [Aplicaciones de terceros](#third-party-apps-validated-by-microsoft) por asociados (validadas por Microsoft).
+* [Aplicaciones personalizadas](#custom-apps) creadas por tu propia organización.
 
 ## <a name="core-apps"></a>Aplicaciones principales
 
-Algunas funciones predeterminadas, como la fuente de actividades, los canales de Teams, el chat, el calendario y las llamadas, están disponibles y ancladas de forma predeterminada para facilitar el acceso a los usuarios finales. Como administrador, puede modificar el comportamiento predeterminado con la [directiva de configuración](/microsoftteams/teams-app-setup-policies).
+Algunas funciones predeterminadas, como la fuente de actividad, los canales de Teams, el chat, el calendario y las llamadas están disponibles y ancladas de manera predeterminada para la accesibilidad para los usuarios finales. Como administrador, puede modificar el comportamiento predeterminado mediante la [directiva de configuración](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Las aplicaciones principales son las aplicaciones ancladas en Teams de forma predeterminada." lightbox="media/core-apps-pinned2.png":::
 
 ## <a name="microsoft-provided-apps"></a>Aplicaciones proporcionadas por Microsoft
 
-Microsoft proporciona muchas aplicaciones para mejorar la productividad y la colaboración. Usted y los usuarios finales pueden encontrar estas aplicaciones si buscan a Microsoft como la Publisher en el Centro de administración o como Proveedor en la Tienda de equipos.
+Microsoft proporciona muchas aplicaciones para mejorar la productividad y la colaboración. Tanto usted como los usuarios finales pueden encontrar estas aplicaciones si buscan a Microsoft como publicador en el centro de administración o como proveedor en la Tienda de Teams.
 
 Teams incluye un conjunto de aplicaciones integradas, como Listas, Tareas, Elogiar, Aprobaciones y más. Le recomendamos que incluya aplicaciones destacadas de Teams, como Planner, en la implementación inicial de Teams.
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Aplicaciones de Microsoft en Teams centro de administración" lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Aplicaciones de Microsoft en el Centro de administración de Teams" lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-validated-by-microsoft"></a>Aplicaciones de terceros validadas por Microsoft
 
-Además de las aplicaciones proporcionadas por Microsoft, puede usar aplicaciones de terceros validadas por Microsoft. Microsoft valida la funcionalidad y la seguridad de estas aplicaciones antes de hacer que estas aplicaciones estén disponibles en Teams store. Para comprender las ventajas de la validación de aplicaciones, consulta [validación de aplicaciones de terceros](overview-of-app-validation.md).
+Además de las aplicaciones proporcionadas por Microsoft, puede usar aplicaciones de terceros validadas por Microsoft. Microsoft valida la funcionalidad y la seguridad de estas aplicaciones antes de que estén disponibles en la tienda de Teams. Para comprender las ventajas de la validación de aplicaciones, consulte [validación de aplicaciones de terceros](overview-of-app-validation.md).
 
-:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Ejemplo de aplicaciones de terceros en Teams store":::
+:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Ejemplo de aplicaciones de terceros en la tienda de Teams":::
 
 ## <a name="custom-apps"></a>Aplicaciones personalizadas
 
-Las aplicaciones creadas por desarrolladores de su organización se denominan aplicaciones personalizadas. El desarrollo de dicha aplicación se encarga de requisitos específicos de tu organización y dispones de controles para permitir o no permitir dichas aplicaciones. Los desarrolladores de su organización pueden crear rápidamente soluciones personalizadas de bajo código mediante la integración Teams con [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
+Las aplicaciones creadas por los desarrolladores de su organización se denominan aplicaciones personalizadas. El desarrollo de este tipo de aplicación se encarga de los requisitos específicos de su organización y usted tiene controles para permitir o denegar dichas aplicaciones. Los desarrolladores de su organización pueden crear rápidamente soluciones personalizadas de bajo código mediante la integración de Teams con [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
 
-Después de que un administrador permita el uso de aplicaciones personalizadas, los usuarios finales encontrarán dichas aplicaciones haciendo clic en **Creado para su organización** en el panel de navegación izquierdo de Teams store.
+Después de que un administrador permita el uso de aplicaciones personalizadas, los usuarios finales podrán encontrar dichas aplicaciones haciendo clic en **Creado para su organización** en el panel de navegación izquierdo de la tienda de Teams.
 
-:::image type="content" source="media/built-for-your-org1.png" alt-text="Aplicaciones personalizadas en Teams store en Teams aplicación de escritorio" lightbox="media/built-for-your-org2.png":::
+:::image type="content" source="media/built-for-your-org1.png" alt-text="Aplicaciones personalizadas en la tienda de Teams en la aplicación de escritorio de Teams" lightbox="media/built-for-your-org2.png":::
 
-### <a name="understand-sideloading-of-custom-apps"></a>Comprender la instalación de prueba de aplicaciones personalizadas
+### <a name="understand-sideloading-of-custom-apps"></a>Descripción de la instalación de prueba de aplicaciones personalizadas
 
-Al desarrollar aplicaciones personalizadas y antes de distribuirlas a los usuarios finales, los desarrolladores prueban las aplicaciones agregándolas a store para probarlas por su cuenta o realizar pruebas con un equipo en el que realizan la instalación de prueba de la aplicación. Este método se denomina instalación de prueba de aplicaciones y se aplica solo a aplicaciones personalizadas.
+Al desarrollar aplicaciones personalizadas y antes de distribuirlas a los usuarios finales, los desarrolladores prueban las aplicaciones agregándolas a la tienda para probarlas por sí mismas o probarlas con un equipo en el que transfieren localmente la aplicación. Este método se denomina instalación de prueba de aplicaciones y solo se aplica a aplicaciones personalizadas.
 
-Los desarrolladores pueden realizar instalaciones de prueba de una aplicación para que esté disponible para los miembros de un equipo específico, normalmente para probar una aplicación en desarrollo. Esto no requiere la aprobación del administrador si se permite la instalación de prueba. Como administrador, puedes no permitir la instalación de prueba para cualquier desarrollador.
+Los desarrolladores pueden transferir localmente una aplicación para que esté disponible para los miembros de un equipo específico, normalmente para probar una aplicación en desarrollo. Esto no requiere la aprobación del administrador si se permite la instalación de prueba. Como administrador, puede no permitir la instalación de prueba para cualquier desarrollador.
 
-Si no permites la instalación de prueba, los desarrolladores pueden seguir probando sus aplicaciones en un [inquilino de prueba](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Una vez completado el desarrollo de aplicaciones personalizadas, los desarrolladores solicitan a los administradores que distribuyan su aplicación personalizada a los usuarios finales. Para obtener más información, consulta [cómo publicar una aplicación personalizada](/microsoftteams/upload-custom-apps). Como administrador, puede permitir o no permitir el uso de una aplicación personalizada para usuarios específicos.
+Si no permite la instalación de prueba, los desarrolladores aún pueden probar sus aplicaciones en un [espacio empresarial de prueba](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Una vez completado el desarrollo de aplicaciones personalizadas, los desarrolladores solicitan a los administradores que distribuyan su aplicación personalizada a los usuarios finales. Para obtener más información, consulte [cómo publicar una aplicación personalizada](/microsoftteams/upload-custom-apps). Como administrador, puede permitir o denegar el uso de una aplicación personalizada para usuarios específicos.
 
-### <a name="about-app-templates"></a>Acerca de las plantillas de aplicaciones
+### <a name="about-app-templates"></a>Información de plantillas de aplicación
 
-Las plantillas de aplicaciones para Teams son aplicaciones de muestra funcionales listas para producción creadas por Microsoft para ilustrar casos de uso populares, presentar procedimientos recomendados de desarrollo de aplicaciones y proporcionar aplicaciones de código abierto que los desarrolladores pueden ampliar para crear aplicaciones personalizadas. Los desarrolladores de su organización personalizan las plantillas de aplicación para las necesidades de su organización con cambios sencillos en el código disponible en GitHub. Como administrador, estas aplicaciones se proporcionan como aplicaciones personalizadas para los usuarios finales.
+Las plantillas de aplicación para Teams son aplicaciones de ejemplo funcionales listas para producción creadas por Microsoft para ilustrar casos de uso populares, presentar procedimientos recomendados de desarrollo de aplicaciones y proporcionar aplicaciones de código abierto que los desarrolladores pueden ampliar para crear aplicaciones personalizadas. Los desarrolladores de la organización personalizan las plantillas de aplicación para las necesidades de su organización con cambios sencillos en el código disponible en GitHub. Como administrador, estas aplicaciones se proporcionan como aplicaciones personalizadas para los usuarios finales.
 
-Para obtener más información, consulte [plantillas de aplicaciones Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/app-templates/).
+Para obtener más información, consulte [Plantillas de aplicación de Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
-## <a name="understand-app-capabilities"></a>Comprender las capacidades de la aplicación
+## <a name="understand-app-capabilities"></a>Comprender las funcionalidades de la aplicación
 
-Para proporcionar experiencias enriquecidas que permitan a los usuarios finales trabajar dentro de Teams, los desarrolladores de aplicaciones aprovechan las siguientes capacidades de la aplicación. Las extensiones de mensajería permiten a los usuarios interactuar con el servicio web Teams cliente. Buscan o inician acciones en un sistema externo. Puede enviar el resultado de la interacción al cliente de Teams como una tarjeta con formato enriquecido. Las aplicaciones de extensibilidad de reuniones integran las aplicaciones de un desarrollador en las reuniones y ofrecen una experiencia dinámica durante la reunión.
+Para proporcionar experiencias enriquecidas que permitan a los usuarios finales trabajar dentro de Teams, los desarrolladores de aplicaciones aprovechan las siguientes funcionalidades de la aplicación. Las extensiones de mensajería permiten a los usuarios interactuar con el cliente de Teams del servicio web. Buscan o inician acciones en un sistema externo. Puede enviar el resultado de la interacción al cliente de Teams como una tarjeta con formato enriquecido. Las aplicaciones de extensibilidad de reuniones integran las aplicaciones de un desarrollador dentro de las reuniones y ofrecen una experiencia dentro de las reuniones con capacidad de respuesta.
 
-Los bots también se conocen como bots de chat o bots conversacionales. Es una aplicación que ejecuta tareas sencillas y repetitivas. Una interacción del bot puede ser una pregunta y una respuesta rápidas, o puede ser una conversación compleja que proporciona acceso a servicios o asistencia. Los usuarios pueden chatear con un poco uno a uno o en un canal. Por ejemplo, puedes usar la aplicación Polly para crear encuestas rápidas, obtener comentarios y hacer una comprobación de pulsos.
+Un bot también se conoce como bot de chat o bot de conversación. Es una aplicación que ejecuta tareas repetitivas y simples. Una interacción de bot puede ser una pregunta y una respuesta rápidas, o puede ser una conversación compleja que proporcione acceso a servicios o ayuda. Los usuarios pueden chatear con un bot uno a uno o en un canal. Por ejemplo, puede usar la aplicación Polly para crear encuestas rápidas, obtener comentarios y realizar una comprobación de pulsos.
 
-Las pestañas son páginas web con Teams ancladas en la parte superior de un canal o un chat. Las pestañas te permiten interactuar con contenido y servicios con una experiencia similar a la web. Puede agregar pestañas como parte de un canal dentro de un equipo, chat grupal o aplicación personal para un usuario individual.
+Las pestañas son páginas web compatibles con Teams ancladas en la parte superior de un canal o un chat. Las pestañas le permiten interactuar con contenido y servicios con una experiencia similar a la web. Puede agregar pestañas como parte de un canal dentro de un equipo, chat de grupo o aplicación personal para un usuario individual.
 
-Los webhooks y los conectores ofrecen contenido y actualizaciones de los servicios que los usuarios finales usan con frecuencia (como Jira Cloud y Bitbucket) directamente en una conversación del canal. Las aplicaciones que usan esta funcionalidad pueden comunicarse con aplicaciones externas y pueden enviar o recibir notificaciones y mensajes de un servicio externo.
+Los webhooks y conectores proporcionan contenido y actualizaciones de servicios que los usuarios finales usan con frecuencia (como Jira Cloud y Bitbucket) directamente en una conversación de canal. Las aplicaciones que usan esta funcionalidad pueden comunicarse con aplicaciones externas y pueden enviar o recibir notificaciones y mensajes de un servicio externo.
 
-Las extensiones de mensajería son accesos directos para insertar contenido de la aplicación o para actuar en un mensaje sin que los usuarios finales tengan que salir de la conversación. Las extensiones de mensajería pueden tener comandos de búsqueda para que los usuarios finales puedan encontrar rápidamente contenido externo e insertarlo en un mensaje o comandos de acción.
+Las extensiones de mensajería son accesos directos para insertar contenido de la aplicación o para actuar en un mensaje sin que los usuarios finales tengan que salir de la conversación. Las extensiones de mensajería pueden tener comandos de búsqueda para que los usuarios finales encuentren rápidamente contenido externo y lo inserten en un mensaje o comandos de acción.
 
-Para ver los casos de uso comunes asignados a las capacidades de Teams, consulte [Asignar los casos de uso a Teams características](/microsoftteams/platform/concepts/design/map-use-cases) de la aplicación.
+Para ver los casos de uso comunes asignados a las funcionalidades de Teams, consulte [Asignar los casos de uso a las características de la aplicación de Teams](/microsoftteams/platform/concepts/design/map-use-cases).
 
 <!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
 
