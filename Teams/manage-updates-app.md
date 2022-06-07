@@ -19,18 +19,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 39b0e358e57a8780918c6969a562b28d9e3fe49d
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 393793e5c0a5c4a305f26427951968c5614c052f
+ms.sourcegitcommit: 5640e8264b61c1f8cf8eb212315eeba1a794e494
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823731"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65928863"
 ---
-# <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Actualizaciones de su organización en Microsoft Teams
+# <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Actualizaciones para su organización en Microsoft Teams
 
 ## <a name="what-is-the-updates-app"></a>¿Qué es la aplicación Actualizaciones?
 
-Las actualizaciones de Microsoft Teams aplicación proporcionan un lugar centralizado para que los miembros de su organización creen, revisen y envíen actualizaciones. Al crear plantillas, puede usar la aplicación Actualizaciones para realizar un seguimiento de todo lo que necesita su organización. Las actualizaciones están disponibles tanto para equipos de escritorio como para móviles.
+La aplicación Actualizaciones de Microsoft Teams proporciona un lugar centralizado para que los miembros de su organización creen, revisen y envíen actualizaciones. Al crear plantillas, puede usar la aplicación Actualizaciones para realizar un seguimiento de todo lo que necesita su organización. Las actualizaciones están disponibles tanto para equipos de escritorio como para móviles.
 
 En Teams, los usuarios pueden obtener actualizaciones en la tienda de aplicaciones de Teams. Verán todas las actualizaciones que deben enviar en la página **Enviar** .
 
@@ -40,7 +40,7 @@ Los usuarios pueden ver las actualizaciones que han asignado en la página **Rev
 
 [![Imagen de la página Revisar en Teams para escritorio.](media/updates-home-small.png)](media/updates-home.png#lightbox)
 
-Cuando se asigna una actualización a un usuario, se muestra en su fuente de actividades de Teams. Los usuarios también pueden ver todas sus solicitudes de actualización actuales y envíos anteriores en la aplicación Actualizaciones. Además, cualquier persona puede crear plantillas y enviar solicitudes de actualización.
+Cuando se asigna una actualización a un usuario, se mostrará en su fuente de actividades de Teams. Los usuarios también pueden ver todas sus solicitudes de actualización actuales y envíos anteriores en la aplicación Actualizaciones. Además, cualquier persona puede crear plantillas y enviar solicitudes de actualización.
 
 Las actualizaciones se suministran con plantillas predefinidas para escenarios empresariales comunes y la opción de crear su propia plantilla. Cualquier persona puede crear una plantilla para nuevos tipos de actualizaciones.
 
@@ -68,20 +68,20 @@ Necesita permiso para que los siguientes elementos implementen actualizaciones:
 
 - Licencia de Power Automate, Office 365 o Dynamics 365.
 
-- Se requiere licencia para Microsoft Forms para que los usuarios configuren nuevas plantillas.
+- Se requiere una licencia de Microsoft Forms para que los usuarios configuren nuevas plantillas.
 
-## <a name="storage-with-microsoft-dataverse"></a>Storage con Microsoft Dataverse
+## <a name="storage-with-microsoft-dataverse"></a>Almacenamiento con Microsoft Dataverse
 
 El modelo de datos común (CDM) es el lenguaje de datos compartido que usan las aplicaciones empresariales y analíticas en Microsoft Dataverse. Se compone de un conjunto de esquemas de datos estandarizados y extensibles publicados por Microsoft y nuestros asociados que permite la coherencia de los datos y su significado en las aplicaciones y los procesos empresariales. Obtenga más información sobre el [modelo de datos común](/common-data-model/).
 
 Las actualizaciones que se crean a partir de una plantilla siguen almacenando datos en Microsoft Dataverse, como su título, detalles, id. de plantilla y mucho más. Obtenga más información sobre  [Almacenamiento de datos para Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
->Si elimina la plantilla de formulario en el sitio Microsoft Forms, se romperá la plantilla Actualizaciones y los usuarios no podrán enviar la actualización. Los usuarios reciben el error "CDB TableNotFound" al intentar abrir una plantilla que se ha eliminado en Microsoft Forms.
+>Si elimina la plantilla de formulario en el sitio de Microsoft Forms, se romperá la plantilla de actualizaciones y los usuarios no podrán enviar la actualización. Los usuarios reciben el error "CDB TableNotFound" al intentar abrir una plantilla que se ha eliminado en Microsoft Forms.
 
-## <a name="updates-teams-app-permissions"></a>Actualizaciones Teams permisos de aplicaciones
+## <a name="updates-teams-app-permissions"></a>Actualizar los permisos de la aplicación Teams
 
-La aplicación Actualizaciones Teams te permite acceder a las siguientes características:
+La aplicación Actualizaciones de Teams le permite acceder a las siguientes características:
 
 - Recibir los mensajes y los datos que usted solicite.
 
@@ -112,7 +112,7 @@ La aplicación Actualizaciones está disponible de forma predeterminada. Puede d
 
   3. Busca la aplicación Actualizaciones.
 
-     [![Captura de pantalla de la navegación del centro de Administración con Teams Aplicaciones > Administrar aplicaciones resaltado.](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
+     [![Captura de pantalla de la navegación del Centro de administración con Las aplicaciones de Teams > Administrar aplicaciones resaltado.](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
 
   4. Selecciona **Actualizaciones**.
 
@@ -121,17 +121,7 @@ La aplicación Actualizaciones está disponible de forma predeterminada. Puede d
 
 ## <a name="pin-updates-to-teams"></a>Anclar actualizaciones a Teams
 
-### <a name="use-the-tailored-frontline-app-experience-to-pin-updates-and-other-apps-to-teams"></a>Usa la experiencia de aplicación frontline adaptada para anclar actualizaciones y otras aplicaciones a Teams
-
-La experiencia de aplicación frontline adaptada en Teams ancla las aplicaciones más relevantes en Teams para los usuarios que tienen una [licencia F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Entre las aplicaciones ancladas se incluyen Actualizaciones, Aprobaciones, Walkie Talkie, Tareas y Turnos. De forma predeterminada, esta característica está activada, lo que ofrece a sus trabajadores de primera línea una experiencia predefinida que se adapta a sus necesidades.
-
-Las aplicaciones se anclan a la barra de aplicaciones (la barra situada en el lateral de la Teams cliente de escritorio y en la parte inferior de los clientes móviles Teams), donde los usuarios pueden acceder a ellas de forma rápida y sencilla.
-
-Para obtener más información, incluido cómo funciona la experiencia con las directivas de aplicaciones que establezca, vea [Personalizar las aplicaciones de Teams para los trabajadores de primera línea](pin-teams-apps-based-on-license.md).
-
-### <a name="use-an-app-setup-policy-to-pin-updates-to-teams"></a>Usar una directiva de configuración de aplicaciones para anclar actualizaciones a Teams
-
-Las directivas de configuración de aplicaciones le permiten personalizar Teams para anclar aplicaciones que son más importantes para los usuarios de los usuarios.
+Las directivas de configuración de aplicaciones le permiten personalizar Teams para anclar las aplicaciones que son más importantes para los usuarios de sus usuarios. Las aplicaciones se anclan en la barra de aplicaciones (la barra situada en el lateral del cliente de escritorio de Teams y en la parte inferior de los clientes móviles de Teams), donde los usuarios pueden acceder a ellas de forma rápida y sencilla.
 
 Para anclar la aplicación Actualizaciones a los usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva de configuración de aplicación personalizada. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
 
@@ -139,11 +129,11 @@ Para anclar la aplicación Actualizaciones a los usuarios, puede editar la direc
 
 Las actualizaciones creadas desde la aplicación Actualizaciones se almacenan en el entorno predeterminado de Microsoft Dataverse, que no admite copias de seguridad en este momento. Obtenga más información sobre cómo [Respaldar y restaurar entornos - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
-Los datos almacenados en Forms no se eliminarán hasta que los creadores de la plantilla los limpien de la pestaña **formularios eliminados** de la aplicación web de Microsoft Forms.
+Los datos almacenados en Forms no se eliminarán hasta que los creadores de la plantilla los limpien de la pestaña **de formularios eliminados** en la aplicación web de Microsoft Forms.
 
 ## <a name="conditional-access-policies"></a>Directivas de acceso condicional
 
-Actualmente, la aplicación Actualizaciones de Teams no es compatible con las directivas de acceso condicional establecidas para Microsoft Teams.
+Actualmente, la aplicación Actualizaciones en Teams no es compatible con las directivas de acceso condicional establecidas para Microsoft Teams.
 
 ## <a name="data-limitations"></a>Limitaciones de datos
 
@@ -151,7 +141,7 @@ Cada usuario puede crear como máximo 400 plantillas de actualizaciones, y cada 
 
 ## <a name="security"></a>Seguridad
 
-Desde la aplicación actualizaciones de Teams, los usuarios tienen acceso para crear nuevas actualizaciones y ver las actualizaciones que han enviado y recibido. Los usuarios no tendrán acceso a las actualizaciones creadas por otros usuarios a menos que sean lectores de la solicitud.
+Desde la aplicación Actualizaciones de Teams, los usuarios tienen acceso para crear nuevas actualizaciones y ver las actualizaciones que han enviado y recibido. Los usuarios no tendrán acceso a las actualizaciones creadas por otros usuarios a menos que sean lectores de la solicitud.
 
 > [!Note]
 > A un usuario se le asigna un rol de visor de una solicitud si forma parte del chat o canal en el que se creó el informe de actualización o si el creador de la plantilla los agrega manualmente como visor. No podrán tomar medidas en la solicitud si no se les proporcionó ese rol cuando se creó el informe.
