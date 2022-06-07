@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Ucrania.
-ms.openlocfilehash: 90009ddb0d35e920c13389caa5acfb838204adbb
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Ucrania.
+ms.openlocfilehash: 27fa2f6985eaadc345cc8b8e52148603feb9da7c
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191451"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913408"
 ---
-# <a name="availability-in-the-ukraine"></a>Disponibilidad en Ucrania
+# <a name="availability-in-ukraine"></a>Disponibilidad en Ucrania
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Ucrania.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Ucrania.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -63,7 +63,7 @@ Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Team
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
 
-Si los planes de llamadas no están disponibles para la compra, consulte [Opciones de conectividad RTC](../pstn-connectivity.md) para todas las opciones disponibles.
+Si los planes de llamadas no están disponibles para comprar, consulte [Opciones de conectividad RTC](../pstn-connectivity.md) para todas las opciones disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 
