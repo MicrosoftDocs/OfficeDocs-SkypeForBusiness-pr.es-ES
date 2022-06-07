@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ffd0ad9f9b765839a4543dd8600b558000fa164f
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 330faa00c2ba14f03e5219642fa274fc24eb8765
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564742"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913428"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Reuniones, seminarios web y eventos en vivo 
 
@@ -51,9 +51,9 @@ En la tabla siguiente, se resumen los tres tipos de reuniones, el número de par
 | Eventos en directo | Hasta 20 000** |- Difusión a grandes audiencias. <br>- Preguntas y respuestas moderadas para la interacción del público. <br> - Permite especificar productores y moderadores, incluidos moderadores externos.<br>- Admite funcionalidades de producción más avanzadas. | No |
 ||||
 
-*Las 10 000 habituales se incrementan a 20 000 hasta el 30 de junio de 2022.<br>
+*Los 10 000 habituales se incrementan a 20 000 hasta el 31 de diciembre de 2022.<br>
 
-**Las 10 000 habituales se incrementan a 20 000 hasta el 30 de junio de 2022. Puede programar reuniones para incluso más asistentes con eventos en directo en Yammer o Microsoft Stream. Para obtener más información, consulte [Eventos en directo en todo Microsoft 365](/stream/live-event-m365).  Tenga en cuenta que los eventos de más de 20 000 asistentes requieren el [Programa de asistencia de eventos en directo](/stream/live-events-assistance). 
+**Los 10 000 habituales se incrementan a 20 000 hasta el 31 de diciembre de 2022. Puede programar reuniones para incluso más asistentes con eventos en directo en Yammer o Microsoft Stream. Para obtener más información, consulte [Eventos en directo en todo Microsoft 365](/stream/live-event-m365).  Tenga en cuenta que los eventos de más de 20 000 asistentes requieren el [Programa de asistencia de eventos en directo](/stream/live-events-assistance). 
 
 Tenga en cuenta que NDI es totalmente compatible con reuniones, seminarios web y eventos en directo, lo que le permite generar la transmisión mediante herramientas como OBS y Wirecast. Para obtener más información, consulte [Usar la tecnología NDI® en Microsoft Teams](use-ndi-in-meetings.md).
 
