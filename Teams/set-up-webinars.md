@@ -1,7 +1,7 @@
 ---
 title: Configurar seminarios web en Microsoft Teams
-author: mkbond007
-ms.author: mabond
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: sachung, emryan
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Obtenga información sobre cómo administrar directivas de seminario web para reuniones de Teams.
-ms.openlocfilehash: 2cf3af39b64506fc8802eafd1e2c45f35b7a4d00
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 247d5c560075dfd0498ea76b476d5515d0fc6f07
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646249"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045709"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurar seminarios web en Microsoft Teams
 
@@ -41,7 +41,7 @@ Después de configurar seminarios web en su organización, los usuarios pueden p
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>Permitir a los usuarios programar seminarios web en el centro de administración de Teams
 
-Puede usar el centro de administración de Teams para configurar seminarios web para su organización. Encontrará las directivas para configurar seminarios web en el Teams centro de administración en **Directivas** >  de Reuniones **.**
+Puede usar el centro de administración de Teams para configurar seminarios web para su organización. Encontrará las directivas para configurar seminarios web en el Teams centro de administración en **Directivas** >  de **reuniones de reuniones**.
 
 ### <a name="meeting-registration"></a>Registro de reunión
 

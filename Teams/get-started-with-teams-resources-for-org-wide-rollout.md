@@ -1,7 +1,7 @@
 ---
 title: Iniciar la implementación de Microsoft Teams en toda la organización
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1d93cd4261dc1826351a18b8a325abe2a8913de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 22f778158965134cec673a97373a83d7fe95544d
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633314"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045839"
 ---
 # <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Iniciar la implementación de Microsoft Teams en toda la organización
 

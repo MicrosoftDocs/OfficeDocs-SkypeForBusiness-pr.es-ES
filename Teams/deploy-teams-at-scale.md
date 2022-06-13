@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 655e79e70945419c446dab3d721334a1a70b0e9e
-ms.sourcegitcommit: d54217d3c339fe02f83d86efe50dabe67528a14c
+ms.openlocfilehash: 561eaf310201b99ada9cce4dde49746d58d77088
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "65947237"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046029"
 ---
 # <a name="deploy-teams-at-scale-for-frontline-workers-in-microsoft-teams"></a>Implementar equipos a escala para los trabajadores de primera línea en Microsoft Teams
 
@@ -46,7 +46,7 @@ Implementar equipos a escala le permite:
 - Cree equipos con plantillas predefinidas o sus propias plantillas personalizadas.
 - Agregue usuarios a los equipos como propietarios o miembros.
 - Administre equipos a escala agregando o quitando usuarios de equipos existentes.
-- Mantente informado por correo electrónico, incluyendo la finalización, el estado y los errores (si los hubiera). Se notifica a los propietarios y miembros del equipo.
+- Mantente informado por correo electrónico, incluyendo la finalización, el estado y los errores (si los hubiera). Puede notificar hasta a cinco personas sobre el estado de cada lote de equipos que implemente. Los propietarios y miembros del equipo reciben automáticamente una notificación cuando se agregan a un equipo.
 
 ## <a name="how-to-deploy-teams-at-scale"></a>Cómo implementar equipos a escala
 
@@ -55,20 +55,81 @@ Implementar equipos a escala le permite:
 
 Siga estos pasos para implementar un gran número de equipos a la vez.
 
+### <a name="step-1-prepare-your-csv-files"></a>Paso 1: Preparar los archivos CSV
+
+Tendrá que crear dos archivos CSV para cada lote de equipos que implemente:
+
+- **Un archivo CSV que define los equipos que está creando**. Este archivo debe contener estas columnas necesarias, en el siguiente orden, empezando por la primera columna:
+
+    |Nombre de columna  |Descripción  |
+    |---------|---------|
+    |**Nombre del equipo**|El nombre del equipo.|
+    |**Id. de equipo existente**|Si va a agregar o quitar usuarios de un equipo existente, especifique el id. de equipo del equipo.|
+    |**Visibilidad**|Tanto si el equipo es público (cualquier persona de su organización puede unirse) como privado (los usuarios necesitan la aprobación de los propietarios del equipo para unirse). Las opciones son **Pública** y **Privada**.|
+    |**Id. de plantilla de equipo**|Si va a crear un equipo a partir de una plantilla predefinida o personalizada, especifique el id. de plantilla de equipo. Vea [Comenzar con plantillas de equipo en el centro de administración de Teams](get-started-with-teams-templates-in-the-admin-console.md) para obtener una lista de identificadores y plantillas de equipo predefinidas. Si desea usar la plantilla de equipo predeterminada estándar, déjela en blanco.|
+
+- **Un archivo CSV que asigna los usuarios que va a agregar a cada equipo**. Este archivo debe contener estas columnas necesarias, en el siguiente orden, empezando por la primera columna:
+
+    |Nombre de columna  |Descripción  |
+    |---------|---------|
+    |**Nombre completo de usuario**|El nombre para mostrar del usuario.|
+    |**UPN o ID de usuario**|El nombre principal de usuario (UPN) o el id. del usuario. Por ejemplo, averyh@contoso.com.|
+    |**Nombre del equipo**|El nombre del equipo.|
+    |**Tipo de acción**|Tanto si va a agregar o quitar el usuario del equipo. Las opciones son **AddMember** y **RemoveMember**.|
+    |**Propietario o miembro**|Si el usuario es propietario del equipo o miembro del equipo. Las opciones son **Propietario** y **Miembro**.|
+
+#### <a name="examples"></a>Ejemplos
+
+Use los ejemplos siguientes para ayudarle a crear sus archivos CSV. Aquí, hemos denominado los archivos, Teams.csv y Users.csv.
+
+**Teams.csv**
+
+|Nombre del equipo|Id. de equipo existente|Visibilidad|Id. de plantilla de equipo|
+|---------|---------|---------|---------|
+|Contoso Store 1||Público|com.microsoft.teams.template.retailStore|
+|Contoso Store 2||Público|com.microsoft.teams.template.retailStore|
+|Contoso Store 3||Público|com.microsoft.teams.template.retailStore|
+|Contoso Store 4||Público|com.microsoft.teams.template.retailStore|
+|Contoso Store 5||Público|com.microsoft.teams.template.ManageAProject|
+|Contoso Store 6||Público|com.microsoft.teams.template.ManageAProject|
+|Contoso Store 7||Público||
+|Contoso Store 8||Privado|com.microsoft.teams.template.OnboardEmployees|
+|Contoso Store 9||Privado|com.microsoft.teams.template.OnboardEmployees|
+|Contoso Store 10||Privado|com.microsoft.teams.template.OnboardEmployees|
+
+**Users.csv**
+
+|Nombre completo de usuario |UPN o ID de usuario|Nombre del equipo|Tipo de acción|Propietario o miembro|
+|---------|---------|---------|---------|---------|
+|Avery Howard|averyh@contoso.com|Contoso Store 1|Agregar Miembro|Propietario|
+|Casey Jensen|caseyj@contoso.com|Contoso Store 2|Agregar Miembro|Propietario|
+|Jessie Irwin|jessiei@contoso.com|Contoso Store 3|Agregar Miembro|Propietario|
+|Manjeet Bhatia|manjeetb@contoso.com|Contoso Store 4|Agregar Miembro|Propietario|
+|Mikaela Lee|mikaelal@contoso.com|Contoso Store 5|Agregar Miembro|Propietario|
+|Morgan Conners|morganc@contoso.com|Contoso Store 6|Agregar Miembro|Miembro|
+|Oscar Ward|oscarw@contoso.com|Contoso Store 7|Agregar Miembro|Miembro|
+|Rene Pelletier|renep@contoso.com|Contoso Store 8|Agregar Miembro|Miembro|
+|Sydney Mattos|sydneym@contoso.com|Contoso Store 9|Agregar Miembro|Miembro|
+|Violeta Martínez|violetm@contoso.com|Contoso Store 10|Agregar Miembro|Miembro|
+
+### <a name="step-2-deploy-your-teams"></a>Paso 2: Implementar los equipos
+
+Ahora que ha creado los archivos CSV, está listo para configurar su entorno e implementar sus equipos.
+
 Use el ```New-CsBatchTeamsDeployment``` cmdlet para enviar un lote de equipos para crear. Se genera un id. de orquestación para cada lote. A continuación, puede usar el ```Get-CsBatchTeamsDeployment``` cmdlet para realizar un seguimiento del progreso y el estado de cada lote.
 
 1. Instale PowerShell versión 7 o posterior. Para obtener instrucciones detalladas, vea [Instalar PowerShell en Windows](/powershell/scripting/install/installing-powershell-on-windows).
 1. Ejecute PowerShell en modo de administrador.
-1. Ejecute lo siguiente para desinstalar cualquier módulo de PowerShell de Teams instalado previamente.
+1. Ejecute lo siguiente para desinstalar cualquier módulo de PowerShell Teams instalado anteriormente.
 
     ```powershell
     Uninstall-module -Name MicrosoftTeams -Force -Allversions
     ```
 
     Si recibe un mensaje de error, significa que ya está listo. Vaya al paso siguiente.
-1. Descargue e instale la [última versión del módulo de PowerShell de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams).
+1. Descargue e instale la [última versión del módulo Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
-1. Ejecute lo siguiente para conectarse a Teams.
+1. Ejecuta lo siguiente para conectarte a Teams.
 
     ```powershell
     Connect-MicrosoftTeams
@@ -76,7 +137,7 @@ Use el ```New-CsBatchTeamsDeployment``` cmdlet para enviar un lote de equipos pa
 
     Cuando se le solicite, inicie sesión con sus credenciales de administrador.
 
-1. Ejecute lo siguiente para obtener una lista de los comandos del módulo de PowerShell de Teams.
+1. Ejecute lo siguiente para obtener una lista de los comandos del módulo Teams PowerShell.
 
     ```powershell
     Get-Command -Module MicrosoftTeams
@@ -84,11 +145,19 @@ Use el ```New-CsBatchTeamsDeployment``` cmdlet para enviar un lote de equipos pa
 
     Compruebe que ```New-CsBatchTeamsDeployment``` y ```Get-CsBatchTeamsDeployment``` se muestran.
 
-1. Ejecute lo siguiente para implementar un lote de equipos. Puede introducir hasta cinco direcciones de correo electrónico en el parámetro **UsersToNotify** .
+1. Ejecute lo siguiente para implementar un lote de equipos. En este comando, especifique la ruta de acceso a los archivos CSV y las direcciones de correo electrónico de hasta cinco destinatarios para notificar sobre esta implementación.
 
     ```powershell
-    New-CsBatchTeamsDeployment -TeamsFilePath "*Your file path*" -UsersFilePath "*Your file path*" -UsersToNotify *Email addresses* 
+    New-CsBatchTeamsDeployment -TeamsFilePath "Your CSV file path" -UsersFilePath "Your CSV file path" -UsersToNotify "Email addresses" 
     ```
+
+    Por ejemplo:
+
+    ```powershell
+    New-CsBatchTeamsDeployment -TeamsFilePath "C:\dscale\Teams.csv" -UsersFilePath "C:\dscale\Users.csv" -UsersToNotify "adminteams@contoso.com,adelev@contoso.com"
+    ```
+
+    Los destinatarios recibirán notificaciones por correo electrónico sobre el estado de la implementación. El correo electrónico contiene el id. de orquestación del lote que envió y los errores que se hayan podido producir.
 
 1. Ejecute lo siguiente para comprobar el estado del lote que ha enviado.
 

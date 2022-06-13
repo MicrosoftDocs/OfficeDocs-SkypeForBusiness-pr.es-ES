@@ -1,7 +1,7 @@
 ---
 title: Información general de la implementación empresarial de Microsoft Teams
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,19 +16,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6e6a2835df6f00bc9103594b1cfe5ae011c6960
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fae55eb230c3c0a450a95eb00e50861888bbe3f1
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617426"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045579"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Información general de la implementación empresarial de Teams
 
 Si es una empresa mediana o grande, debe pensar en cómo se desarrollará el servicio para los usuarios, cómo va a implementar el cliente de Microsoft Teams en ellos, cómo su diseño de red podría afectar a la calidad de la comunicación en tiempo real, y así sucesivamente. Consulte las siguientes secciones para punteros a artículos que le ayudarán a planear Teams en su organización.
 
 > [!NOTE]
-> Si aún no lo ha hecho, le recomendamos encarecidamente que empiece la implementación de Teams con un programa piloto. Un programa piloto le permitirá a usted y a algunos usuarios pioneros familiarizarse con Teams y sus características antes de su planeación y lanzamiento. Para obtener más información sobre cómo iniciar el programa piloto, consulte [Introducción a Microsoft Teams](get-started-with-teams-quick-start.md).
+> Si aún no lo ha hecho, le sugerimos encarecidamente que comience la implementación de Teams con un piloto. El piloto le permitirá tanto a usted como a los primeros usuarios familiarizarse con Teams y con sus características antes de la planificación y del lanzamiento. Para obtener más información sobre cómo iniciar el piloto, consulte [Introducción a Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Cuando haya leído las secciones siguientes y tenga todo listo para empezar a implementar Teams en su organización, vea [Configurar Microsoft Teams en su empresa](deploy-enterprise-setup.md).
 

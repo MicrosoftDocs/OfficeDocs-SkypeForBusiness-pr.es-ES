@@ -1,7 +1,7 @@
 ---
 title: Introducción a Microsoft Teams
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
@@ -21,12 +21,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - intro-get-started
-ms.openlocfilehash: c3b9a0efac45ed16b776de34759ef0816c1b5f08
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
+ms.openlocfilehash: 54fcf3942d13fa0b759e796e5486808a5f5a40bb
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625831"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045849"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introducción a Microsoft Teams
 

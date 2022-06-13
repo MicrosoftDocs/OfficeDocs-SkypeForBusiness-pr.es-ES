@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: Obtenga información sobre cómo examinar y comprar dispositivos en la tienda de dispositivos del Centro de administración de Teams
-ms.openlocfilehash: da520b6396fa7e47288f4fdaa6b9f028ba16b3dd
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: e5cedb84d50111d90d90d47802f667fb6fdbc106
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761452"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045649"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>Comprar dispositivos en la tienda de dispositivos Teams
 
@@ -34,7 +34,7 @@ La tienda de dispositivos del Centro de administración de Teams te permite exam
 
 ## <a name="requirements"></a>Requirements
 
-Para usar el almacén de dispositivos, debe ser administrador global, administrador de Teams o administrador de dispositivos de Teams.
+Para usar el almacén de dispositivos, debe ser administrador global o administrador de Teams.
 
 ## <a name="browse-the-store"></a>Explorar la Tienda
 
