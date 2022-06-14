@@ -1033,6 +1033,8 @@ items:
         items:
           - name: Instrucciones del sistema telefónico
             href: business-voice/whats-business-voice.md
+          - name: Pasar de Business Voice a las licencias de Teléfono Teams
+            href: business-voice-to-teams-phone-licenses.md
           - name: Disponibilidad de países y regiones
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Comprobar la conexión a Internet
@@ -1405,6 +1407,10 @@ items:
             href: rooms/standards-and-room-planner.md
           - name: Incidentes notificados por el cliente
             href: rooms/customer-reported-incidents.md
+          - name: Información sobre datos y privacidad
+            href: rooms/data-and-privacy-info.md
+          - name: Uso de la aplicación móvil de Salas de Teams
+            href: rooms/extended-mobile-app.md
       - name: Dispositivos
         items:
           - name: Tienda de dispositivos de Teams
