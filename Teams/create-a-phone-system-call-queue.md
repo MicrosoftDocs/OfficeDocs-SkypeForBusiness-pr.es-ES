@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas para grandes organizaciones en Microsoft Teams. Las colas de llamadas proporcionan un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: d6dd0d7211f9e430dbb716ff905c82443d5f4830
-ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
+ms.openlocfilehash: 0d871572f1b1c9b3baa727d35e66f21d93be1f58
+ms.sourcegitcommit: cd34cb3082392d4ca3390b2ecf5bcfe1db7d1046
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046442"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66068685"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -155,6 +155,8 @@ Las cuentas de Teams de los agentes deben estar configuradas en modo TeamsOnly. 
 > [!NOTE]
 > El modo de conferencia no es compatible si las llamadas de teléfono se redirigen a la cola desde una puerta de enlace de enrutamiento directo habilitada para el enrutamiento basado en ubicación.
 >
+> El modo de conferencia no es compatible si las llamadas telefónicas se enrutan a la cola desde Skype Empresarial Server.
+> 
 > El modo de conferencia es necesario si Teams los usuarios necesitan consultar/transferir llamadas con colas de llamadas.
 
 > [!TIP]
