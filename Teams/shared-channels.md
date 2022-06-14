@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar canales compartidos en Microsoft Teams.
-ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
-ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
+ms.openlocfilehash: 11abe6245dea7ee72bc2f71b412addbed5aa6e30
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65795642"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66057060"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canales compartidos en Microsoft Teams
 
@@ -96,10 +96,12 @@ En la siguiente tabla se describen las acciones que los propietarios, miembros e
 
 Cada canal compartido tiene [su propio sitio de SharePoint](/SharePoint/teams-connected-sites). La finalidad del sitio independiente es garantizar que el acceso a los archivos de un canal compartido esté restringido exclusivamente a los miembros de dicho canal. Estos sitios se crean con una biblioteca de documentos de forma predeterminada y pueden ampliarse fácilmente a un sitio con todas las funciones mediante la [interfaz de administración de sitios](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada sitio se crea en la misma región geográfica que el sitio para el equipo principal. Estos sitios livianos tienen un identificador de plantilla personalizado, "TEAMCHANNEL # 0", para facilitar la administración mediante la API de PowerShell y Graph. 
 
+Un sitio de canal compartido hereda la etiqueta de confidencialidad del equipo primario. Esto sigue siendo así incluso si el canal se comparte directamente con otro equipo.
+
 > [!NOTE]
 > Solo las personas con permisos de propietario o miembro en el canal tendrán acceso al contenido del sitio del canal compartido. Las personas del equipo primario y los administradores no tendrán acceso a menos que también sean miembros del canal.
 
-Un sitio de canal compartido sincroniza la clasificación de datos del sitio del equipo primario. La pertenencia del propietario del sitio y los grupos de miembros se mantiene sincronizada con la pertenencia del canal compartido. Los permisos de sitio para un sitio de canal compartido no se pueden administrar de forma independiente a través de SharePoint. 
+La pertenencia del propietario del sitio y los grupos de miembros se mantiene sincronizada con la pertenencia del canal compartido. Los permisos de sitio para un sitio de canal compartido no se pueden administrar de forma independiente a través de SharePoint. 
 
 Teams administra el ciclo de vida del sitio del canal compartido. Si el sitio se elimina fuera de Teams, se restaura automáticamente en un plazo de cuatro horas, siempre y cuando el canal compartido siga activo. Si el sitio se elimina de forma permanente, se aprovisiona un nuevo sitio para el canal compartido.
 

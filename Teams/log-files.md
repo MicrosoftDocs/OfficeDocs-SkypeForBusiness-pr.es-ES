@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Obtén información sobre los registros de depuración, medios y escritorio generados por Microsoft Teams, dónde se pueden encontrar y cómo pueden ayudar con la supervisión y la solución de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d8e3ab079498ecfca11a7d2ba48736aaf457329
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 178e89ff91de4638f6a9ff56a4dcb935d18f6f91
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059111"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056950"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Usar archivos de registro para supervisar y solucionar problemas de Microsoft Teams
 
@@ -95,12 +95,16 @@ Los registros de depuración muestran los siguientes flujos de datos:
 -   Llamada/conversación
 
 Para recopilar registros para Linux:
-- Método abreviado de teclado: <kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- Método abreviado de teclado: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Mayús</kbd> + <kbd>1</kbd>  
 - Los archivos estarán disponibles en `~/Downloads`
 
 Para recopilar registros para el explorador y los Windows:
-- Método abreviado de teclado: <kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- Método abreviado de teclado: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Mayús</kbd> + <kbd>1</kbd>  
 - Los archivos estarán disponibles en `%userprofile%\Downloads`
+
+Para recopilar registros para Mac:
+- Método abreviado de teclado: <kbd>Opción</kbd> + <kbd>Comando</kbd> + <kbd>Mayús</kbd> + <kbd>1</kbd>  
+- Los archivos estarán disponibles en `~/Downloads`
 
 ## <a name="media-logs"></a>Registros de medios
 
@@ -153,7 +157,11 @@ Consulte la sección _Recopilar y habilitar el registro_ para obtener instruccio
 Para recopilar registros para Linux:
 - Haz clic en el icono Microsoft Teams de la bandeja del sistema y selecciona **Obtener registros**.
 - Los archivos estarán disponibles en `~/.config/Microsoft/Microsoft Teams/logs.txt`.
-  
+
+Para recopilar registros para Mac:
+- Haga clic en el menú Ayuda de Microsoft Teams y seleccione **Recopilar archivos de soporte técnico**.
+- El `logs.txt` archivo estará en la carpeta Escritorio, dentro de la carpeta _Registro \<local date and time>de diagnósticos de MSTeams_.
+
 Para recopilar registros para Windows:
 - Haz clic en el icono Microsoft Teams de la bandeja del sistema y selecciona **Recopilar archivos de soporte técnico**.
 - El `logs.txt` archivo se abrirá automáticamente en Bloc de notas.
