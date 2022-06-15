@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenga información general sobre qué son los pedidos de portabilidad y cómo transferir números de teléfono de su proveedor de servicios a Teams.
-ms.openlocfilehash: bb9ebd91b1f5a08fb07eff0f469be4496714ecfc
-ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
-ms.translationtype: HT
+ms.openlocfilehash: 37b8a56603ab7cd6888a624cca1b9e76ae8cfb03
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62963421"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103247"
 ---
 # <a name="whats-a-port-order"></a>¿Qué es un pedido de portabilidad?
 
@@ -57,7 +57,8 @@ En general, puede transferir cualquier número de teléfono de un proveedor admi
 - Números de teléfono gratuitos
 
     > [!NOTE]
-    > El número universal internacional de llamada gratuita (UIFN) no se puede transferir a nosotros. 
+    > El número universal internacional de llamada gratuita (UIFN) no se puede transferir a nosotros.
+    > La disponibilidad de portabilidad para los números de teléfono gratuitos puede variar según el país y la región. Para obtener más información, consulte los documentos específicos de su país o región para ver la compatibilidad disponible para el servicio de portabilidad. 
   
 - Números de teléfono de servicios, como los usados para puentes de conferencia, operadores automáticos, etc.
 

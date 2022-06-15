@@ -19,20 +19,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 393793e5c0a5c4a305f26427951968c5614c052f
-ms.sourcegitcommit: 5640e8264b61c1f8cf8eb212315eeba1a794e494
+ms.openlocfilehash: 27e0cf72149542f7822b1857489be685f6a21546
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65928863"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103397"
 ---
-# <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Actualizaciones para su organización en Microsoft Teams
+# <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Actualizaciones de su organización en Microsoft Teams
 
 ## <a name="what-is-the-updates-app"></a>¿Qué es la aplicación Actualizaciones?
 
-La aplicación Actualizaciones de Microsoft Teams proporciona un lugar centralizado para que los miembros de su organización creen, revisen y envíen actualizaciones. Al crear plantillas, puede usar la aplicación Actualizaciones para realizar un seguimiento de todo lo que necesita su organización. Las actualizaciones están disponibles tanto para equipos de escritorio como para móviles.
+Las actualizaciones de Microsoft Teams aplicación proporcionan un lugar centralizado para que los miembros de su organización creen, revisen y envíen actualizaciones. Al crear plantillas, puede usar la aplicación Actualizaciones para realizar un seguimiento de todo lo que necesita su organización. Las actualizaciones están disponibles tanto para equipos de escritorio como para móviles.
 
-En Teams, los usuarios pueden obtener actualizaciones en la tienda de aplicaciones de Teams. Verán todas las actualizaciones que deben enviar en la página **Enviar** .
+En Teams, los usuarios pueden obtener actualizaciones en la tienda de aplicaciones de Teams. Verán todas las actualizaciones que deben enviar en la página **Enviar** . Puede compartir las [Comenzar del artículo Actualizaciones](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a) con los usuarios para ayudarles a sentirse cómodos con las actualizaciones.
 
 [![Imagen de la página Enviar en Teams para escritorio.](media/updates-submit-small.png)](media/updates-submit.png#lightbox)
 
@@ -68,7 +68,7 @@ Necesita permiso para que los siguientes elementos implementen actualizaciones:
 
 - Licencia de Power Automate, Office 365 o Dynamics 365.
 
-- Se requiere una licencia de Microsoft Forms para que los usuarios configuren nuevas plantillas.
+- Se requiere licencia para Microsoft Forms para que los usuarios configuren nuevas plantillas.
 
 ## <a name="storage-with-microsoft-dataverse"></a>Almacenamiento con Microsoft Dataverse
 
@@ -77,7 +77,7 @@ El modelo de datos común (CDM) es el lenguaje de datos compartido que usan las 
 Las actualizaciones que se crean a partir de una plantilla siguen almacenando datos en Microsoft Dataverse, como su título, detalles, id. de plantilla y mucho más. Obtenga más información sobre  [Almacenamiento de datos para Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
->Si elimina la plantilla de formulario en el sitio de Microsoft Forms, se romperá la plantilla de actualizaciones y los usuarios no podrán enviar la actualización. Los usuarios reciben el error "CDB TableNotFound" al intentar abrir una plantilla que se ha eliminado en Microsoft Forms.
+>Si elimina la plantilla de formulario en el sitio Microsoft Forms, se romperá la plantilla Actualizaciones y los usuarios no podrán enviar la actualización. Los usuarios reciben el error "CDB TableNotFound" al intentar abrir una plantilla que se ha eliminado en Microsoft Forms.
 
 ## <a name="updates-teams-app-permissions"></a>Actualizar los permisos de la aplicación Teams
 
@@ -129,11 +129,11 @@ Para anclar la aplicación Actualizaciones a los usuarios, puede editar la direc
 
 Las actualizaciones creadas desde la aplicación Actualizaciones se almacenan en el entorno predeterminado de Microsoft Dataverse, que no admite copias de seguridad en este momento. Obtenga más información sobre cómo [Respaldar y restaurar entornos - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
-Los datos almacenados en Forms no se eliminarán hasta que los creadores de la plantilla los limpien de la pestaña **de formularios eliminados** en la aplicación web de Microsoft Forms.
+Los datos almacenados en Forms no se eliminarán hasta que los creadores de la plantilla los limpien de la pestaña **formularios eliminados** de la aplicación web de Microsoft Forms.
 
 ## <a name="conditional-access-policies"></a>Directivas de acceso condicional
 
-Actualmente, la aplicación Actualizaciones en Teams no es compatible con las directivas de acceso condicional establecidas para Microsoft Teams.
+Actualmente, la aplicación Actualizaciones de Teams no es compatible con las directivas de acceso condicional establecidas para Microsoft Teams.
 
 ## <a name="data-limitations"></a>Limitaciones de datos
 

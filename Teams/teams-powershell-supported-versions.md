@@ -1,5 +1,5 @@
 ---
-title: 'Módulo Teams PowerShell: versiones compatibles'
+title: 'Módulo PowerShell de Teams: versiones compatibles'
 author: pbafna03
 ms.author: pbafna
 ms.reviewer: pbafna
@@ -9,35 +9,26 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: Obtenga más información sobre las versiones compatibles con el módulo de PowerShell Teams, que se usa para la administración de Microsoft Teams.
+description: Obtenga más información sobre las versiones compatibles con el módulo de PowerShell de Teams, que se usa para la administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6915448d76de64a65a9ac50e5c66e3ca41e051ef
-ms.sourcegitcommit: 8ce73ea99be607f5cdccb22a5366bc96e8fb09c8
+ms.openlocfilehash: ad20cc285a9e882c45d2d158601ebcc90236dbf5
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65758318"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103377"
 ---
-# <a name="teams-powershell-module---supported-versions"></a>Módulo Teams PowerShell: versiones compatibles
+# <a name="teams-powershell-module---supported-versions"></a>Módulo PowerShell de Teams: versiones compatibles
 
-Microsoft Teams versiones del Módulo PowerShell (TPM) de la serie 4.x.x o posteriores serán las únicas versiones compatibles en el futuro. Todas las versiones anteriores están en la ruta de retirada. Se recomienda actualizar Teams módulo de PowerShell a la versión más reciente.
+Microsoft Teams versiones del Módulo de PowerShell (TPM) de la serie 4.x.x o posteriores son las únicas versiones compatibles ahora. Todas las versiones anteriores se han retirado por completo desde el 15 de junio de 2022 & dejarán de funcionar (publicación del Centro de mensajes de referencia: MC350371). 
 
-## <a name="new-organizations"></a>Nuevas organizaciones
+Se recomienda actualizar a la última versión del módulo de PowerShell de Teams.
 
-Las organizaciones que se incorpore recientemente a Teams solo podrán usar Teams módulo de PowerShell en la serie 4.x.x o posterior a partir del 1 de abril de 2022.
-
-## <a name="current-organizations-non-tpm-active"></a>Organizaciones actuales (no tpm activo)
-
-Las organizaciones que no hayan usado Teams módulo de PowerShell entre el 22 de enero y el 22 de marzo solo podrán usar Teams módulo de PowerShell en la serie 4.x.x o posterior a partir del 1 de abril de 2022.
-
-## <a name="current-organizations-tpm-active"></a>Organizaciones actuales (TPM activo)
-
-Las organizaciones que hayan usado Teams módulo de PowerShell entre el 22 de enero y el 22 de marzo solo podrán usar Teams módulo de PowerShell en la serie 4.x.x o posterior a partir del 15 de junio de 2022. Publicación del centro de mensajes como referencia: MC350371.
 
 ## <a name="important-notes"></a>Notas importantes
 
-- Las notas de la versión de todas las versiones del módulo Teams PowerShell pueden encontrarse en [Teams notas de la versión de PowerShell](teams-powershell-release-notes.md).
+- Las notas de la versión de todas las versiones del módulo PowerShell de Teams pueden encontrarse en [las notas de la versión de PowerShell de Teams](teams-powershell-release-notes.md).
 
 - Para actualizar cualquier módulo de PowerShell, debe usar el mismo método usado para instalar el módulo. Por ejemplo, si originalmente usaste Install-Module, deberías usar [Update-Module](/powershell/module/powershellget/update-module) para obtener la versión más reciente.
 
@@ -45,14 +36,14 @@ Las organizaciones que hayan usado Teams módulo de PowerShell entre el 22 de en
   Update-Module MicrosoftTeams
   ```
 
-- Si actualiza desde Teams versión 1.1.6 del Módulo PowerShell, actualice los scripts para que se usen `Connect-MicrosoftTeams` en lugar de `New-CsOnlineSession`.
+- Si actualiza desde el Módulo PowerShell de Teams versión 1.1.6, actualice los scripts para que los use `Connect-MicrosoftTeams` en lugar de `New-CsOnlineSession`.
 
 - Durante la actualización, se recomienda no usar TPM 4.x.x/3.x.x junto con las versiones anteriores a la 3.0.0. Por ejemplo, no se recomienda usar las versiones 4.x.x & 2.6.0 juntas para diferentes operaciones administrativas en la misma organización.
 
 - Cambios relacionados
   - Actualizaciones de Get-CsOnlineUser & Get-CsOnlineVoiceUser en TPM 3.x.x y versiones posteriores: más [detalles en Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) & [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) (publicación del Centro de mensajes: MC340774).
 
-  - Cambios que llegan a Teléfono asignación de número: más [detalles en Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (publicación del centro de mensajes – MC316139).
+  - Cambios en la asignación de número de teléfono: más [detalles en Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (publicación del centro de mensajes : MC316139).
 
   - Cambios de parámetros en Get-CsTenant: más [detalles en Get-CsTenant](/powershell/module/skype/get-cstenant) (publicación del centro de mensajes: MC365397).
   
@@ -110,11 +101,11 @@ Las organizaciones que hayan usado Teams módulo de PowerShell entre el 22 de en
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Teams notas de la versión de PowerShell](teams-powershell-release-notes.md)
+[Notas de la versión de PowerShell de Teams](teams-powershell-release-notes.md)
 
 [Instalar Microsoft Teams PowerShell](teams-powershell-install.md)
 
-[Administrar Teams con PowerShell Teams](teams-powershell-managing-teams.md)
+[Administrar Teams con PowerShell de Teams](teams-powershell-managing-teams.md)
 
 [referencia de cmdlet de Microsoft Teams](/powershell/module/teams)
 
