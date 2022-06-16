@@ -19,18 +19,18 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de la directiva de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: 6a3c2dda51c40c57cd100eda9c8c959583dfb60b
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+ms.openlocfilehash: f63056740ab42c3dde0e05e8b9321173ea20091f
+ms.sourcegitcommit: c73f27ee7a208ae73784edf5b23adc699cf69327
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393754"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66130773"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
 <a name="bkmeetingparticipants"> </a>
 
-Esta configuración controla qué participantes de la reunión se quedan en la sala de espera antes de ser admitidos en la reunión y qué nivel de participación se les permite.
+Esta configuración controla qué participantes de la reunión esperan en la sala de espera antes de ser admitidos en la reunión y el nivel de participación que se les permite en una reunión.
 
 - [Permitir que personas anónimas se unan a una reunión](#let-anonymous-people-join-a-meeting)
 - [Permitir que los usuarios anónimos inicien una reunión](#let-anonymous-people-start-a-meeting)
@@ -55,7 +55,7 @@ Esta configuración es una directiva por organizador que permite reuniones de co
 
 ## <a name="automatically-admit-people"></a>Admitir automáticamente usuarios
 
-Esta es una directiva por organizador. Esta configuración controla si los usuarios pueden unirse a una reunión directamente o esperar en la sala de espera hasta que un usuario autenticado los admita. Esta configuración no se aplica a los usuarios de marcado.
+Esta es una directiva por organizador. Esta configuración controla si las personas se unen a una reunión directamente o esperan en la sala de espera hasta que un usuario autenticado las admita. Esta configuración no se aplica a los usuarios de acceso telefónico local.
 
 ![Captura de pantalla que muestra una reunión con un usuario en la sala de espera.](media/meeting-policies-lobby.png)
 
@@ -66,12 +66,12 @@ Esta es una directiva por organizador. Esta configuración controla si los usuar
   
 |Valor de configuración  |Comportamiento para unirse |
 |---------|---------|
-|**Todos**   |Todos los participantes se unen a la reunión directamente sin tener que esperar en la sala de espera. Esto incluye a los usuarios autenticados, los usuarios externos de organizaciones de confianza (federados), los invitados y los usuarios anónimos.     |
-|**Usuarios en mi organización e invitados**     |Los usuarios autenticados de la organización, incluidos los usuarios invitados, se unen a la reunión directamente sin tener que esperar en la sala de espera. Los usuarios de organizaciones de confianza y los usuarios anónimos esperan en la sala de espera. Esta configuración es la predeterminada.    |
-|**Usuarios de mi organización y de organizaciones de confianza e invitados**     |Los usuarios autenticados en la organización, incluidos los usuarios invitados y los usuarios de las organizaciones de confianza, pueden unirse a la reunión directamente sin tener que esperar en la sala de espera.  Los usuarios anónimos esperan en la sala de espera.   |
-|**Usuarios en mi organización**    |Los usuarios autenticados de la organización se unen a la reunión directamente sin tener que esperar en la sala de espera.  Los usuarios de organizaciones de confianza, los usuarios invitados y los usuarios anónimos esperan en la sala de espera.          |
-|**Solo organizador**    |Solo los organizadores de la reunión se pueden unir a la reunión directamente sin tener que esperar en la sala de espera. Todos los demás usuarios, incluidos los usuarios autenticados de la organización, los usuarios invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la página Teams opciones de reunión de cliente, aparece como "Solo yo".          |
-|**Solo usuarios invitados**    |Solo los usuarios invitados y los organizadores de la reunión pueden unirse a la reunión directamente sin tener que esperar en la sala de espera. Todos los demás usuarios, incluidos los usuarios autenticados de la organización, los usuarios invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la página Teams opciones de reunión del cliente, aparece como "Personas a las que invito". Los usuarios agregados como parte de un grupo de distribución tendrán que pasar por la sala de espera.      |
+|**Todos**   |Todos los participantes se unen a la reunión directamente sin tener que esperar en la sala de espera. Esto incluye usuarios autenticados, usuarios de organizaciones de confianza, invitados y usuarios anónimos.     |
+|**Usuarios en mi organización e invitados**     |Los usuarios autenticados de la organización, incluidos los invitados, se unen a la reunión directamente sin tener que esperar en la sala de espera. Los usuarios de organizaciones de confianza y los usuarios anónimos aguardan en la sala de espera. Esta configuración es la predeterminada.    |
+|**Usuarios de mi organización y de organizaciones de confianza e invitados**     |Los usuarios autenticados de la organización, incluidos los invitados y los usuarios de organizaciones de confianza, se unen a la reunión directamente sin tener que esperar en la sala de espera.  Los usuarios anónimos esperan en la sala de espera.   |
+|**Usuarios en mi organización**    |Los usuarios autenticados de la organización se unen a la reunión directamente sin tener que esperar en la sala de espera.  Los usuarios de organizaciones de confianza, invitados y usuarios anónimos esperan en la sala de espera.          |
+|**Solo organizador**    |Solo los organizadores de la reunión se pueden unir a la reunión directamente sin tener que esperar en la sala de espera. Todos los demás usuarios, incluidos los usuarios autenticados de la organización, los invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la página Teams opciones de reunión de cliente, aparece como "Solo yo".          |
+|**Solo usuarios invitados**    |Solo los usuarios invitados y los organizadores de la reunión pueden unirse a la reunión directamente sin tener que esperar en la sala de espera. Todos los demás usuarios, incluidos los usuarios autenticados de la organización, los invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la página Teams opciones de reunión del cliente, aparece como "Personas a las que invito". Los usuarios agregados como parte de un grupo de distribución tendrán que pasar por la sala de espera.      |
 
  > [!NOTE]
 > Las organizaciones de confianza son dominios con los que se permiten las comunicaciones federadas en Teams. Si habilita **Permitir todos los dominios externos** para el acceso externo en el centro de administración de Teams, cualquier usuario autenticado dentro de cualquier Teams organización será de confianza. Si elige especificar dominios externos permitidos y bloquear todos los demás, los dominios permitidos se convertirán en organizaciones de confianza. Se considera que cualquier dominio bloqueado no es una organización de confianza.
@@ -100,16 +100,19 @@ Esta configuración es una directiva por usuario y se aplica durante una reunió
 
 Esta configuración es una configuración por participante. Esta configuración controla si se permite el chat de reunión en la reunión del usuario.
 
+Esta configuración no se aplica a las reuniones del canal. Una vez que esta directiva de chat de reunión se aplica a los usuarios, un organizador no puede invalidar esta directiva a través de las opciones de la reunión.
+
 |Valor de configuración |Comportamiento  |
 |---------|---------|
-|**Habilitado**     | Todos los participantes pueden escribir y ver mensajes de chat. |
-|**No habilitado**     | El chat de la reunión está desactivado para todos los participantes.  |
+|**Actígalo para todos los usuarios**     | Todos los participantes pueden escribir y ver mensajes de chat. |
+|**Desactívala para todos los usuarios**     | El chat de la reunión está desactivado para todos los participantes.  |
+|**Actígalo para todos los usuarios excepto los anónimos**     | El acceso de escritura por chat de la reunión está desactivado solo para participantes anónimos.  |
 
 <a name="bkparticipantsandguests"> </a>
 
 ## <a name="enable-meeting-policy-settings"></a>Habilitar la configuración de la directiva de reunión
 
-Para habilitar la configuración de la directiva de reunión, puede usar el [centro de administración de Teams](https://admin.teams.microsoft.com/policies/meetings) (**Directivas** >  de **reuniónEditar una** **directivaParticipants** >  & invitados) o el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) en Teams PowerShell. 
+Para habilitar la configuración de la directiva de reunión, puede usar el [centro de administración de Teams](https://admin.teams.microsoft.com/policies/meetings) (Directivas de **reunión** > **Editar una directiva** > **participantes & invitados**) o el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) en Teams PowerShell. 
 
 En este ejemplo, usamos PowerShell para modificar la directiva de reunión global para permitir que cualquier persona pueda iniciar una reunión o unirse a ella.
 
