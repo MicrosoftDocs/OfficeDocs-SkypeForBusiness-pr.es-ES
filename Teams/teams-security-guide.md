@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ed354dfca3ac8600bd25122daa15d3ecf743e55
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 6e5dcee1e45ec191853f088887e7ed36f8e3fbc6
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817791"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103207"
 ---
 # <a name="security-and-microsoft-teams"></a>Seguridad y Microsoft Teams
 
@@ -79,7 +79,7 @@ TLS autentica a todas las partes y encripta todo el tráfico. El uso de TLS evit
 
 ### <a name="man-in-the-middle-attack"></a>Ataque de intermediario
 
-Un ataque de intermediario se produce cuando un atacante desvía la comunicación entre dos usuarios utilizando su propio equipo y sin que esos dos usuarios lo detecten. El atacante puede supervisar y leer el tráfico antes de enviarlo al destinatario correspondiente. Sin darse cuenta, los usuarios que participan en la comunicación envían tráfico al atacante y reciben tráfico del mismo pensando que la comunicación se produce únicamente con el usuario que corresponde. Esto puede suceder si un atacante logra modificar los Servicios de dominio de Active Directory para agregar su servidor como un servidor de confianza, o si modifica la configuración del Sistema de nombres de dominio (DNS) o usa otros medios para que los clientes se conecten al servidor a través del atacante.
+Un ataque de intermediario se produce cuando un atacante desvía la comunicación entre dos usuarios a través del equipo del atacante sin que lo sepan esos dos usuarios. El atacante puede supervisar y leer el tráfico antes de enviarlo al destinatario previsto. Sin darse cuenta, todos los usuarios que participan en la comunicación envían tráfico al atacante y reciben tráfico del mismo pensando que la comunicación se produce únicamente con el usuario previsto. Este escenario puede suceder si un atacante modifica los Servicios de dominio de Active Directory para agregar su servidor como un servidor de confianza o modifica la configuración de DNS o usa otros medios para que los clientes se conecten al servidor a través del atacante.
 
 Los ataques de intermediario en el tráfico multimedia entre dos puntos de conexión que participen en audio, vídeo y uso compartido de aplicaciones en Teams, se impide usando el *Protocolo de transporte en tiempo real seguro* (SRTP) para cifrar la secuencia multimedia. Las claves de cifrado se negocian entre los dos puntos de conexión a través de un protocolo de señalización de propietario (protocolo de señalización de llamada de Teams) que usa el canal de cifrado UDP o TCP de TLS 1.2 y AES-256 (en modo GCM).
 
@@ -264,13 +264,13 @@ Un moderador también puede promover a un asistente al rol de moderador durante 
 
 Los participantes en la reunión también se clasifican por ubicación y credenciales. Puede utilizar estas dos características para decidir qué usuarios pueden tener acceso a reuniones específicas. Los usuarios se pueden dividir de forma general en las siguientes categorías:
 
-- **Usuarios que pertenecen al inquilino**. Estos usuarios tienen una credencial en Azure Active Directory para el espacio empresarial.
+- **Usuarios que pertenecen al inquilino**. Estos usuarios tienen una credencial en Azure Active Directory para el inquilino.
 
     *Usuarios de mi organización*: estos usuarios tienen una credencial en Azure Active Directory para el inquilino. *Usuarios de mi organización* incluye cuentas de invitado.
 
     *Usuarios remotos*: estos usuarios se unen desde fuera de la red corporativa. Pueden incluir empleados que trabajan desde casa o mientras viajan, y otros, como empleados de proveedores de confianza, a quienes se les han otorgado credenciales empresariales por sus términos de servicio. Los usuarios remotos pueden crear reuniones y unirse a ellas, así como actuar como moderadores.
 
-- **Usuarios que no pertenecen al inquilino**. Estos usuarios no tienen una credencial en Azure AD para el espacio empresarial.
+- **Usuarios que no pertenecen al inquilino**. Estos usuarios no tienen credenciales en Azure AD para el inquilino.
 
     *Usuarios federados*: los usuarios federados tienen credenciales válidas con asociados federados y, por lo tanto, se tratan como autenticadas por Teams, pero son externos al espacio empresarial del organizador de la reunión. Los usuarios federados pueden unirse a reuniones y ser promovidos a moderadores después de unirse a la reunión, pero no pueden crear reuniones en las empresas con las que se hayan federado.
 
@@ -292,7 +292,7 @@ Los organizadores de la reunión controlan si los participantes pueden unirse a 
 Los valores predeterminados son:
 
 - *Usuarios de mi organización*: todos los usuarios externos a la organización esperarán en la sala de espera hasta que se les admita.
-- *Usuarios de mi organización y de organizaciones de confianza*: los usuarios autenticados y usuarios externos de Teams y dominios de Skype Empresarial que están en la lista de permitidos de acceso externo pueden evitar la sala de espera. Todos los demás usuarios esperarán en la sala de espera hasta que se admita.
+- *Usuarios de mi organización y de organizaciones de confianza e invitados*: Los usuarios autenticados en la organización, incluidos los usuarios invitados y los usuarios de las organizaciones de confianza, pueden unirse a la reunión directamente sin tener que esperar en la sala de espera. Los usuarios anónimos esperan en la sala de espera.
 - *Todos los usuarios*: todos los participantes de la reunión evitan la sala de espera cuando un usuario autenticado se une a la reunión.
 
 ### <a name="presenter-capabilities"></a>Capacidades del presentador
