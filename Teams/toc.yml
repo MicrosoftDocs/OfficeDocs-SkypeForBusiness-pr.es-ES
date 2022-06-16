@@ -805,11 +805,13 @@ items:
                 href: more-about-calling-line-id-and-calling-party-name.md
           - name: Operadores automáticos y las colas de llamadas
             items:
-              - name: Planificación
+              - name: Planear operadores automáticos y colas de llamadas
                 href: plan-auto-attendant-call-queue.md
-              - name: Configuración del operador automático
+              - name: Planear el flujo de enrutamiento de llamadas
+                href: plan-your-call-routing-flow.md
+              - name: Configurar los operadores automáticos
                 href: create-a-phone-system-auto-attendant.md
-              - name: Configuración de la cola de llamadas
+              - name: Configurar la cola de llamadas
                 href: create-a-phone-system-call-queue.md
               - name: Administrar cuentas de recursos de Teams
                 href: manage-resource-accounts.md
@@ -819,6 +821,8 @@ items:
                 href: answer-auto-attendant-and-call-queue-calls.md
               - name: Informes
                 href: aa-cq-cqd-historical-reports.md
+              - name: Referencia de cmdlets de PowerShell para operadores automáticos y colas de llamadas
+                href: call-queue-auto-attendant-cmdlets.md
               - name: Referencia de voz y marcado
                 href: dial-voice-reference.md
           - name: Bloquear llamadas entrantes
@@ -1056,7 +1060,7 @@ items:
               - name: 'Paso 5: Asignar números de teléfono a los usuarios'
                 href: business-voice/set-up-assign-numbers.md
               - name: 'Paso 6: Configurar un operador automático'
-                href: business-voice/set-up-auto-attendant.md
+                href: create-a-phone-system-auto-attendant.md
               - name: 'Paso 7: Portar números de teléfono (opcional)'
                 href: business-voice/port-phone-numbers.md
               - name: Recursos posteriores a la configuración
@@ -1072,13 +1076,9 @@ items:
               - name: Crear más usuarios
                 href: business-voice/create-users.md
               - name: Configurar una cola de llamada
-                href: business-voice/create-a-phone-system-call-queue-smb.md
-              - name: Configurar un operador automático
-                href: business-voice/create-a-phone-system-auto-attendant-smb.md
+                href: create-a-phone-system-call-queue.md
           - name: Administrar la configuración del Sistema telefónico
             items:
-              - name: Crear un usuario o varios
-                href: business-voice/create-users.md
               - name: Administrar dispositivos
                 href: business-voice/manage-devices.md
               - name: Comprobar la calidad de la llamada
@@ -1793,7 +1793,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: Licencias de directivas de mensajería
             href: teams-add-on-licensing/pri-message.md
-          - name: 'Sistema telefónico de Microsoft 365: Licencia de usuario virtual'
+          - name: 'Teléfono Microsoft Teams Estándar: licencia de usuario virtual'
             href: teams-add-on-licensing/virtual-user.md
           - name: Introducción a Teams Essentials
             href: get-started-with-teams-essentials.md

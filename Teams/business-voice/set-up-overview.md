@@ -1,5 +1,5 @@
 ---
-title: Configurar Microsoft Teams Sistema telefónico con plan de llamadas para pequeñas y medianas empresas
+title: Configurar Teléfono Microsoft Teams sistema con plan de llamadas para pequeñas y medianas empresas
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -15,38 +15,38 @@ MS.collection:
 - Teams_Business_Voice
 ms.custom: intro-get-started
 search.appverid: MET150
-description: Obtenga información sobre cómo configurar Microsoft Teams Sistema telefónico con Plan de llamadas en su pequeña o mediana empresa u organización.
+description: Obtenga información sobre cómo configurar Teléfono Microsoft Teams Sistema con plan de llamadas en su pequeña o mediana empresa u organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a01a20172c07cba8d2bd501762acf0d726dff008
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.openlocfilehash: 80b58e19053b799adf85d1e04947f87de0d4eba5
+ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053069"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66124145"
 ---
-# <a name="set-up-the-teams-phone-system-with-calling-plan-bundle-for-small-to-medium-businesses"></a>Configurar el paquete Teams Sistema telefónico plan de llamadas para pequeñas y medianas empresas
+# <a name="set-up-the-teams-phone-system-with-calling-plan-bundle-for-small-to-medium-businesses"></a>Configurar el Teams Sistema telefónico con el paquete plan de llamadas para pequeñas y medianas empresas
 
-El Teams Sistema telefónico paquete con plan de llamadas es un sistema telefónico completo que puede reemplazar a su proveedor de telefonía existente. Tanto si es una empresa nueva configurando números de teléfono por primera vez como si una empresa establecida se mueve desde un proveedor de telefonía local heredado, los pasos de estos artículos pueden ayudarle a moverse con el paquete Sistema telefónico con plan de llamadas. Cuando haya terminado de configurar:
+La Teams Sistema telefónico con el paquete Plan de llamadas es un sistema telefónico completo que puede reemplazar a su proveedor de telefonía existente. Tanto si es una nueva empresa que configura números de teléfono por primera vez o que es una empresa establecida que cambia de un proveedor de telefonía local heredado, los pasos de estos artículos pueden ayudarle a ponerse en marcha con el Sistema telefónico con el paquete plan de llamadas. Cuando haya terminado de configurar:
 
-* Podrás recibir llamadas telefónicas gratuitas o de pago en una línea telefónica de la compañía principal. Incluso puede configurar un menú de llamada si lo desea.
-* Los usuarios configurados con una Teams Teléfono con licencia del paquete Plan de llamadas tendrán sus propios números de teléfono de marcado directo que pueden usar para realizar y recibir llamadas telefónicas desde cualquier dispositivo con Teams instalado.
-* Los participantes de la reunión podrán llamar a las reuniones con un teléfono normal si no pueden unirse desde un Teams cliente.
+* Podrá recibir llamadas de pago o gratuitas en una línea de teléfono principal de la compañía. Incluso puede configurar un menú de llamada si lo desea.
+* Los usuarios configurados con una Teams Teléfono con licencia del paquete plan de llamadas tendrán sus propios números de teléfono de marcado directo que pueden usar para realizar y recibir llamadas telefónicas desde cualquier dispositivo con Teams instalado.
+* Los participantes de la reunión podrán llamar a las reuniones con un teléfono normal si no pueden unirse desde un cliente de Teams.
 * Si tiene números de teléfono existentes, podrá seguir usándolos después de moverlos a Sistema telefónico con Plan de llamadas.
 
-Si desea obtener más información sobre el paquete Sistema telefónico plan de llamadas para pequeñas y medianas empresas, consulte Teams Sistema telefónico guía para pequeñas y [medianas empresas](whats-business-voice.md).
+Si desea obtener más información sobre la Sistema telefónico con el conjunto de planes de llamadas para pequeñas y medianas empresas, consulte [Teams Sistema telefónico guía para pequeñas y medianas empresas](whats-business-voice.md).
 
 > [!IMPORTANT]
-> Microsoft Teams y Sistema telefónico solo funcionan cuando los buzones de los usuarios se encuentran en Microsoft 365 (excluyendo Microsoft 365 Teams suscriptores de Essentials). No admiten buzones de correo en servidores de Exchange locales.
+> Microsoft Teams y Sistema telefónico solo funcionan cuando los buzones de los usuarios se encuentran en Microsoft 365 (excepto los suscriptores de Microsoft 365 Teams Essentials). No admiten buzones de correo en servidores de Exchange locales.
 
 ## <a name="before-you-begin"></a>Antes de empezar
 
-Antes de configurar el paquete Sistema telefónico plan de llamadas, hay algunas cosas que debe hacer. Las siguientes tareas se asegurarán de que su organización esté lista.
+Antes de configurar el Sistema telefónico con el conjunto de planes de llamadas, hay algunas cosas que debe hacer. Las siguientes tareas garantizarán que su organización esté lista.
 
-* **Compra Teams Teléfono** con licencias de paquetes del Plan de llamadas y, si quieres obtener un número gratuito, realiza llamadas telefónicas de larga distancia o compra [créditos](whats-business-voice.md#purchase-teams-phone-with-calling-plan-bundle-licenses) de comunicación, consulta Comprar Teams Teléfono con licencias de paquetes del Plan de llamadas.
-* **Asegúrese de que su conexión a Internet puede admitir Sistema telefónico**. Para obtener más información, vea [Comprobar la conexión a Internet Teams Sistema telefónico](get-ready-internet.md).
+* **Compre Teams Teléfono con licencias de conjuntos** de planes de llamadas y, si desea obtener un número gratuito, realizar llamadas telefónicas de larga distancia o comprar créditos de comunicación, consulte [Comprar Teams Teléfono con licencias de conjuntos de planes de llamadas](whats-business-voice.md#how-do-i-purchase-teams-phone-with-calling-plan-bundle-licenses).
+* **Asegúrate de que la conexión a Internet admite Sistema telefónico**. Para obtener más información, consulta [Comprobar la conexión a Internet para obtener Teams Sistema telefónico](get-ready-internet.md).
 
-Después de preparar su organización para el paquete Sistema telefónico plan de llamadas, seleccione Siguiente paso: Empezar a configurar Teams Sistema telefónico **con plan de llamadas**.
+Después de preparar su organización para la Sistema telefónico con el paquete Plan de llamadas, seleccione **Siguiente paso: Empezar a configurar Teams Sistema telefónico con plan de llamadas**.
 
 > [!div class="nextstepaction"]
-> [Paso siguiente: Empezar a configurar Teams Sistema telefónico con plan de llamadas](set-up-emergency-locations.md)
+> [Siguiente paso: Empezar a configurar Teams Sistema telefónico con plan de llamadas](set-up-emergency-locations.md)

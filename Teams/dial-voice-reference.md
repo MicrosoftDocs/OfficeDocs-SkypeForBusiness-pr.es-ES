@@ -1,5 +1,5 @@
 ---
-title: Operador automático y referencia de marcación de cola de llamadas y reconocimiento de voz
+title: Referencia de marcado y reconocimiento de voz del operador automático y de la cola de llamadas
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,50 +21,50 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: Obtenga información sobre las opciones De marcado de cola de llamadas y operadores automáticos y reconocimiento de voz en Teams.
-ms.openlocfilehash: db9eb9b4a31bd4d78c2e2519943cb405022e9fc6
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+description: Obtenga información sobre las opciones de marcado y reconocimiento de voz del operador automático y de la cola de llamadas en Teams.
+ms.openlocfilehash: 784dcbf16c5122c165dc1a949fa237769c9837d3
+ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711284"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66124195"
 ---
-# <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Operador automático y referencia de marcación de cola de llamadas y reconocimiento de voz
+# <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Referencia de marcado y reconocimiento de voz del operador automático y de la cola de llamadas
 
-Marcar por nombre o extensión es una característica de operador automático que permite que los autores de llamadas lleguen a Teams usuarios de su organización. Los autores de llamadas con teclado de voz o teléfono pueden decir o escribir el nombre completo o parcial, o la extensión de la persona a la que le gustaría contactar. El operador automático buscará en el directorio de la empresa, localizará a la persona y, a continuación, transferirá la persona que llama.  Marcar por nombre o Marcar por extensión son opciones que configura al configurar la configuración del flujo de [llamadas en un operador automático](create-a-phone-system-auto-attendant.md#call-flow).
+Nombre tecleado o Extensión es una característica de operador automático que permite a los autores de llamadas ponerse en contacto con Teams usuarios de su organización. Con la voz o el teclado del teléfono, los autores de llamadas pueden decir o escribir el nombre completo o parcial, o la extensión de la persona con la que quieran ponerse en contacto. El operador automático buscará en el directorio de la compañía, localizará a la persona y, a continuación, transferirá el autor de la llamada a esa persona.  Nombre tecleado o Marcado por extensión son opciones que configura al [configurar las opciones de flujo de llamadas en un operador automático](create-a-phone-system-auto-attendant.md?tabs=call-flow).
 
+## <a name="searching-for-users"></a>Búsqueda de usuarios
 
-## <a name="searching-for-users"></a>Buscar usuarios
+Teams usuarios a los que se puede contactar con Nombre tecleado **no es necesario que tengan un número de teléfono o que tengan asignados planes de llamadas, pero Telefonía IP empresarial deben estar habilitados para los usuarios de Skype Empresarial Server**. Para organizaciones multinacionales, Nombre tecleado buscará y transferirá autores de llamadas a Microsoft Teams usuarios que se encuentren en diferentes países o regiones.
 
-Teams usuarios a los que se puede acceder mediante Marcado por nombre no son necesarios para tener un número de teléfono o tener planes de llamadas asignados, pero deben estar Telefonía IP empresarial habilitados para **Skype Empresarial Server usuarios**. Para las organizaciones nacionales múltiples, marcar por nombre buscará y transferirá llamadas a Microsoft Teams usuarios que se encuentren en diferentes países o regiones.
+Teams usuarios a los que se puede contactar mediante marcado por extensión **no tienen que tener un número de teléfono o tener asignados planes de llamadas, pero deben estar Telefonía IP empresarial habilitados para los usuarios de Skype Empresarial Server**. También necesitará tener un plan de marcado configurado adecuadamente para los usuarios. Para organizaciones multinacionales, Marcado por extensión buscará y transferirá autores de llamadas a Microsoft Teams usuarios que se encuentren en diferentes países o regiones.
 
-Teams usuarios a los que se puede acceder mediante Dial by Extension no son necesarios para tener un número de teléfono o tener planes de llamadas asignados, pero deben estar Telefonía IP empresarial habilitados para **Skype Empresarial Server usuarios**. También necesitará tener un plan de marcado configurado correctamente para los usuarios. Para las organizaciones nacionales múltiples, Llamar por extensión buscará y transferirá llamadas a Microsoft Teams usuarios que se encuentren en diferentes países o regiones. 
-
-Dados los requisitos previos implicados, marcar por nombre o extensión debe habilitarse explícitamente al configurar un operador automático.
+Dados los requisitos previos implicados, Nombre tecleado o extensión deben habilitarse explícitamente al configurar un operador automático.
 
 ### <a name="maximum-directory-size"></a>Tamaño máximo de directorio
 
-No hay ningún límite en el número de usuarios de Active Directory Marcado por nombre y Marcado por extensión puede admitir cuando un autor de la llamada busca a una persona específica. Un autor de la llamada puede escribir nombres parciales o completos (Nombre + Apellidos, y también Apellido + Nombre), pero necesita el número de extensión completo. El tamaño máximo de la lista de nombres que un solo operador automático puede admitir con el reconocimiento de voz es de 80 000 usuarios.
+No hay ningún límite en el número de usuarios de Active Directory Nombre tecleado y marcado por extensión puede admitir cuando una persona busca una persona específica. El autor de la llamada puede escribir nombres completos o parciales (Nombre + Apellidos, y también Apellidos + Nombre), pero necesita el número de extensión completo. El tamaño máximo de lista de nombres que admite un único operador automático mediante el reconocimiento de voz es de 80 000 usuarios.
   
 |Tipo de entrada|Formato de búsqueda|Número máximo de usuarios en una organización|
 |:-----|:-----|:-----|
 |DTMF (entrada con teclado) |Parcial  <br/> Nombre + Apellidos  <br/> Apellidos + Nombre |Sin límite  |
-|Voz (entrada de voz) |Nombre  <br/> Apellidos  <br/> Nombre + Apellidos  <br/> Apellidos + Nombre  | 80 000 usuarios |
+|Voz (entrada de voz) |Apellido  <br/> Apellido  <br/> Nombre + Apellidos  <br/> Apellidos + Nombre  | 80 000 usuarios |
 
 > [!NOTE]
-> Si usa Marcado por nombre con reconocimiento de voz, pero el Active Directory de su organización es mayor que 80 000 usuarios y no ha limitado el ámbito de Marcado por nombre con la característica Ámbito de marcado, [](create-a-phone-system-auto-attendant.md#dial-scope) Marcar por nombre seguirá funcionando para los autores de llamadas con un teclado del teléfono y las entradas de voz estarán disponibles para todos los demás escenarios. Puede usar la característica de ámbito de marcado para limitar los nombres que se pueden contactar cambiado el ámbito de Marcado por nombre de un operador automático determinado.
- 
-### <a name="search-considerations"></a>Consideraciones de búsqueda 
-Marcar por nombre busca primero en todo el directorio de la organización antes de aplicar cualquier lista incluir o excluir ámbito de marcado que se haya configurado. Si la búsqueda inicial en todo el directorio devuelve más de 100 usuarios, no se aplicarán las listas ámbito de marcado, se producirá un error en la búsqueda y se le indicará al autor de la llamada que se encontraron demasiados nombres.
- 
- 
+> Si usa Nombre tecleado con reconocimiento de voz, pero el Active Directory de su organización tiene más de 80 000 usuarios y no ha limitado el ámbito de Nombre tecleado con la característica [Ámbito](create-a-phone-system-auto-attendant.md?tabs=dial-scope) de marcado, Nombre tecleado seguirá funcionando para los autores de llamadas con un teclado del teléfono y las entradas de voz estarán disponibles para todos los demás escenarios. Puede usar la característica de ámbito de marcado para limitar los nombres que se pueden contactar cambiado el ámbito de Marcado por nombre de un operador automático determinado.
+
+### <a name="search-considerations"></a>Consideraciones de búsqueda
+
+Nombre tecleado busca primero en el directorio de toda la organización antes de aplicar las listas Incluir o Excluir ámbito de marcado que se han configurado. Si la búsqueda inicial en todo el directorio devuelve más de 100 usuarios, no se aplicarán las listas de ámbito de marcado, se producirá un error en la búsqueda y al autor de la llamada se le notificará que se encontraron demasiados nombres.
+
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>Marcado por nombre: entrada mediante teclado (DTMF)
-Las personas que llamen pueden usar Marcar por nombre para comunicarse con los usuarios especificando el nombre completo o parcial de la persona a la que están intentando contactar. Hay varios formatos que se pueden usar cuando se introduce el nombre.
 
-Para realizar búsquedas en el directorio de su organización, los usuarios pueden usar la tecla 0 (cero) para indicar un espacio entre el nombre y el apellidos, o viceversa. Cuando escriban el nombre, se les pedirá que finalicen la entrada del teclado con la tecla #. Por ejemplo, "Después de introducir el nombre de la persona que busca, pulse #". Si se encuentran varios nombres, se proporcionará una lista de nombres al autor de la llamada para que seleccione uno.
+Los autores de llamadas pueden usar Nombre tecleado para ponerse en contacto con los usuarios especificando el nombre completo o parcial de la persona con la que intentan ponerse en contacto. Hay varios formatos que se pueden usar cuando se escribe el nombre.
+
+Para realizar búsquedas en el directorio de su organización, los usuarios pueden usar la tecla 0 (cero) para indicar un espacio entre el nombre y el apellidos, o viceversa. Cuando escriba el nombre, se le pedirá que termine la entrada con el teclado numérico con la tecla #. Por ejemplo, "Después de introducir el nombre de la persona que busca, pulse #". Si se encuentran varios nombres, se proporcionará una lista de nombres al autor de la llamada para que seleccione uno.
 
 > [!NOTE]
-> Si quedan más de 5 nombres después de que se haya aplicado alguna lista incluir o excluir ámbito de marcado, se producirá un error en la búsqueda y se le indicará al autor de la llamada que se han encontrado demasiados nombres. 
+> Si quedan más de 5 nombres después de aplicar las listas Incluir o Excluir ámbito de marcado, se producirá un error en la búsqueda y al autor de la llamada se le notificará que se encontraron demasiados nombres.
   
 Las personas pueden realizar búsquedas por nombre en su organización empleando los siguientes formatos de búsqueda con el teclado del teléfono:
   
@@ -72,13 +72,13 @@ Las personas pueden realizar búsquedas por nombre en su organización empleando
 |:-----|:-----|:-----|:-----|
 |Nombre + Apellidos |Completo  |Amos0Marble# |Amos Marble |
 |Apellidos + Nombre |Completo |Marble0Amos#  |Amos Marble |
-|Nombre  |Completo   |Amos#   |Pulse 1 para Amos Marble  <br/> Pulse 2 para Amos Marcus |
-|Apellidos |Completo |Marble#  |Pulse 1 para Amos Marble  <br/> Pulse 2 para Mary Marble |
+|Apellido  |Completo   |Amos#   |Pulse 1 para Amos Marble  <br/> Pulse 2 para Amos Marcus |
+|Apellido |Completo |Marble#  |Pulse 1 para Amos Marble  <br/> Pulse 2 para Mary Marble |
 |Nombre o Apellidos |Parcial |Mar# |Pulse 1 para Mary Marble  <br/> Pulse 2 para Mary Jones  <br/> Pulse 3 para Amos Marcus |
 |Nombre + Apellidos |Parcial |Amos0Mar # |Pulse 1 para Amos Marble  <br/> Pulse 2 para Amos Marcus |
 |Apellidos + Nombre |Parcial |Mar0Am# |Pulse 1 para Amos Marble  <br/> Pulse 2 para Amos Marcus |
 
-En las búsquedas de personas a través del teclado del teléfono se pueden utilizar diferentes caracteres especiales. Por ejemplo, se le pedirá a la persona que use la tecla de libra (#), mientras que la tecla cero (0) se usa para un espacio entre nombres. Al pulsar la tecla de asterisco (*) se repetirá la lista de nombres coincidentes.
+En las búsquedas de personas a través del teclado del teléfono se pueden utilizar diferentes caracteres especiales. Por ejemplo, se le pedirá al contacto que use la tecla de almohadilla (#), mientras que la tecla cero (0) se usa para un espacio entre nombres. Al pulsar la tecla de asterisco (*) se repetirá la lista de nombres coincidentes.
   
 |Carácter especial del teclado del teléfono|Significado|
 |:-----|:-----|
@@ -88,41 +88,61 @@ En las búsquedas de personas a través del teclado del teléfono se pueden util
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>Marcado por nombre: reconocimiento de nombres por voz
 
-Los usuarios pueden buscar a otras personas de su organización con su voz (reconocimiento de voz). También pueden contactar con cualquier persona de Active Directory diciendo el nombre completo o parcial de la persona a la que están intentando localizar. El uso de entradas de voz puede reconocer nombres en varios formatos, como Nombre, Apellidos, Nombre + Apellidos o Apellidos + Nombre.
+Las personas pueden buscar a otros usuarios de su organización con su voz (reconocimiento de voz). También pueden ponerse en contacto con cualquier persona de Active Directory diciendo el nombre completo o parcial de la persona a la que están intentando localizar. El uso de entradas de voz puede reconocer nombres en varios formatos, como Nombre, Apellidos, Nombre + Apellidos o Apellidos + Nombre.
   
-Puede habilitar el reconocimiento de voz para un operador automático, pero la entrada del teclado del teléfono (DTMF) no está deshabilitada. Teléfono entrada del teclado numérico se puede usar en cualquier momento, incluso si el reconocimiento de voz está habilitado en el operador automático.
+Puede habilitar el reconocimiento de voz para un operador automático, pero la entrada mediante teclado del teléfono (DTMF) no está deshabilitada. Teléfono entrada mediante teclado se puede usar en cualquier momento incluso si el operador automático tiene habilitado el reconocimiento de voz.
   
 Al igual que con la entrada del teclado del teléfono, si se encuentran varios nombres, la persona que llama escuchará una lista de nombres entre los que seleccionar.
 
 > [!NOTE]
-> Si quedan más de 5 nombres después de que se haya aplicado alguna lista incluir o excluir ámbito de marcado, se producirá un error en la búsqueda y se le indicará al autor de la llamada que se han encontrado demasiados nombres. 
+> Si quedan más de 5 nombres después de aplicar las listas Incluir o Excluir ámbito de marcado, se producirá un error en la búsqueda y al autor de la llamada se le notificará que se encontraron demasiados nombres.
   
-Las personas que llaman pueden decir nombres en los siguientes formatos:
+Los autores de llamadas pueden decir los nombres en los siguientes formatos:
   
 |Nombre con voz|Tipo de búsqueda|Ejemplo|Resultado de búsqueda|
 |:-----|:-----|:-----|:-----|
 |Nombre + Apellidos |Completo |Amos Marble |Amos Marble |
 |Apellidos + Nombre |Completo  |Marble Amos |Amos Marble |
-|Nombre |Completo |Amos |Pulse o diga 1 para Amos Marble  <br/> Pulse o diga 2 para Amos Jones |
-|Apellidos |Completo |Marble |Pulse o diga 1 para Amos Marble  <br/> Pulse o diga 2 para Ben Marble |
-|Nombre o Apellidos |Parcial |Mar |Presione o diga 1 para Mary Marble  <br/> Presione o diga 2 para Mary Jones  <br/> Presione o diga 3 para Amós Marco |
-|Nombre + Apellidos |Parcial |Amos Mar |Pulse o diga 1 para Amos Marble  <br/> Presione o diga 2 para Amós Marco |
-
+|Apellido |Completo |Amos |Pulse o diga 1 para Amos Marble  <br/> Pulse o diga 2 para Amos Jones |
+|Apellido |Completo |Marble |Pulse o diga 1 para Amos Marble  <br/> Pulse o diga 2 para Ben Marble |
+|Nombre o Apellidos |Parcial |Marzo |Pulse o diga 1 para Mary Marble  <br/> Pulse o diga 2 para Mary Jones  <br/> Presiona o di 3 para Amos Marcus |
+|Nombre + Apellidos |Parcial |Amos Mar |Pulse o diga 1 para Amos Marble  <br/> Pulse o diga 2 para Amos Marcus |
 
 > [!NOTE]
-> Un nuevo usuario puede tardar hasta 36 horas en aparecer en el directorio de Marcado por nombre con reconocimiento de voz debido al retraso de replicación de Active Directory.
-  
+> Un nuevo usuario puede tardar hasta 36 horas en aparecer su nombre en el directorio para Nombre tecleado con reconocimiento de voz debido a un retraso en la replicación de Active Directory.
+
+### <a name="dial-by-extension"></a>Marcar por extensión
+
+Los usuarios que quiera que estén disponibles para **marcado por extensión** deben tener una extensión especificada como parte de uno de los siguientes atributos del teléfono definidos en Active Directory (y sincronizados a través de Azure AD Conectar) o Azure Active Directory. (Vea [Agregar usuarios individualmente o de forma masiva](/microsoft-365/admin/add-users/add-users) para obtener más información).
+
+- OfficePhone/TelephoneNumber (AD y Azure AD)
+- HomePhone (AD)
+- Mobile/MobilePhone (AD y Azure AD)
+- OtherTelephone (AD)
+
+El formato necesario para introducir la extensión en el campo de número de teléfono de usuario puede ser uno de los siguientes formatos:
+
+- *+\<phone number>;ext=\<extension>*
+- *+\<phone number>X\<extension>*
+- *X\<extension>*
+
+- Ejemplo 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
+- Ejemplo 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+1555555678x5678"
+- Ejemplo 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
+
+Puede establecer la extensión en el [Centro de administración de Microsoft 365](https://admin.microsoft.com/) o en el [centro de administración de Azure Active Directory](https://aad.portal.azure.com). Pueden pasar hasta 12 horas antes de que los cambios estén disponibles para los operadores automáticos y las colas de llamadas.
+
 ## <a name="language-support"></a>Compatibilidad con idiomas
 
-La compatibilidad con el idioma para el reconocimiento de voz y texto a voz está disponible en estos [idiomas admitidos](create-a-phone-system-auto-attendant-languages.md).
+La compatibilidad con idiomas para texto a voz y reconocimiento de voz está disponible en estos [idiomas admitidos](create-a-phone-system-auto-attendant-languages.md).
 
-Los siguientes comandos de voz están disponibles para el reconocimiento de voz: 
+Los siguientes comandos de voz están disponibles para el reconocimiento de voz:
   
 |Comando de voz| Corresponde a |
 |:-----|:-----|
-|Sí | Presione 1 para Sí. |
+|Sí | Presiona 1 para Sí. |
 |No | Presione 2 para No. |
-|Repetir |Repite la lista de opciones. Presione * en el teclado numérico para repetir la lista de opciones. |
+|Repetir |Repite la lista de opciones. Presiona * en el teclado numérico para repetir la lista de opciones. |
 |Operador | Presione 0 para "Operador" |
 |Menú principal  |Lleva al autor de la llamada al menú principal del operador automático. |
 |Cero | Presione 0 (de forma predeterminada, igual que "Operador").|
