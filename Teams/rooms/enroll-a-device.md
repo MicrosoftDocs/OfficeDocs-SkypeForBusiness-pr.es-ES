@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Incorporación Salas de Teams dispositivos a servicios administrados
 f1keywords: ''
-ms.openlocfilehash: d40daed54a04ca7d9949ecc63f57c379aee6b666
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 901cf212d6eaeb7ca98b8a158de517b0687ba517
+ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675792"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66167324"
 ---
 # <a name="enroll-device-into-managed-service"></a>Inscribir el dispositivo en un servicio administrado
 
@@ -85,10 +85,10 @@ Para iniciar sesión en el dispositivo como administrador (administrador local):
 > [!NOTE]
 > Si el equipo está *unido a un dominio*, elige **Otro usuario** y, a continuación, usa **.\admin** o el nombre de usuario del administrador local configurado en el dispositivo como nombre de usuario.
 
-Para volver a la aplicación Sala Microsoft Teams después de realizar las tareas administrativas necesarias:
+Para volver a la aplicación Salas de Microsoft Teams después de realizar las tareas administrativas necesarias:
 
 1. En la ***menú Inicio de Windows***, cierre sesión en la cuenta de Administración.
-1. Para volver a Microsoft Teams sala, seleccione el icono de cuenta de usuario en el extremo izquierdo de la pantalla y, a continuación **, seleccione Skype**.
+1. Vuelve a Salas de Microsoft Teams seleccionando el icono de cuenta de usuario en el extremo izquierdo de la pantalla y, a continuación, seleccionando **Skype**.
 
 > [!NOTE]
 > Si la Skype usuario no aparece en la lista, seleccione Otro usuario, escriba ***.\skype*** como el nombre de usuario e inicie sesión.
