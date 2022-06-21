@@ -3,13 +3,45 @@
 
 
 
+## <a name="week-of-june-13-2022"></a>Semana del 13 de junio de 2022
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 6/13/2022 | [Crear una cola de llamadas en Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 6/13/2022 | [Usar Power BI para analizar datos del CQD para Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | modificado |
+| 6/13/2022 | [Pasar de Business Voice a licencias de Teams Teléfono](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | modificado |
+| 6/13/2022 | [Usar los archivos de registro para solucionar problemas en Microsoft Teams](/MicrosoftTeams/log-files) | modificado |
+| 6/13/2022 | [Información de datos y privacidad](/MicrosoftTeams/rooms/data-and-privacy-info) | modificado |
+| 6/13/2022 | [administración de actualizaciones de Salas de Microsoft Teams](/MicrosoftTeams/rooms/update-management) | modificado |
+| 6/15/2022 | [Módulo Teams PowerShell: versiones compatibles](/MicrosoftTeams/teams-powershell-supported-versions) | modificado |
+| 6/16/2022 | [Referencia de cmdlet de PowerShell para operadores automáticos y colas de llamadas](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | agregado |
+| 6/16/2022 | [Planear el flujo de enrutamiento de llamadas para Microsoft Teams](/MicrosoftTeams/plan-your-call-routing-flow) | agregado |
+| 6/16/2022 | [Consideraciones y permisos de las aplicaciones de Microsoft Teams](/MicrosoftTeams/app-permissions) | modificado |
+| 6/16/2022 | [Asignar, cambiar o quitar un teléfono móvil de un usuario](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modificado |
+| 6/16/2022 | Configurar un operador automático para Microsoft Teams - tutorial sobre pequeñas empresas | eliminado |
+| 6/16/2022 | Crear una cola de llamadas en Teléfono Microsoft Teams System - tutorial de pequeña empresa | eliminado |
+| 6/16/2022 | [Asignar números de teléfono Teams Sistema telefónico a los usuarios](/MicrosoftTeams/business-voice/set-up-assign-numbers) | modificado |
+| 6/16/2022 | Configurar un operador automático para el número de teléfono principal de su empresa | eliminado |
+| 6/16/2022 | [Configurar una cuenta de recursos del sistema Teléfono Microsoft Teams](/MicrosoftTeams/business-voice/set-up-resource-account) | modificado |
+| 6/16/2022 | [Teams Sistema telefónico orientación para pequeñas y medianas empresas](/MicrosoftTeams/business-voice/whats-business-voice) | modificado |
+| 6/16/2022 | [Configurar un operador automático para Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
+| 6/16/2022 | [Crear una cola de llamadas en Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 6/16/2022 | [Modificar la apariencia de las aplicaciones en la tienda de Teams de su organización](/MicrosoftTeams/customize-apps) | modificado |
+| 6/16/2022 | [Referencia de marcado y reconocimiento de voz del operador automático y de la cola de llamadas](/MicrosoftTeams/dial-voice-reference) | modificado |
+| 6/16/2022 | [Administrar cuentas de recursos en Teams](/MicrosoftTeams/manage-resource-accounts) | modificado |
+| 6/16/2022 | [Planear Teams operadores automáticos y colas de llamadas](/MicrosoftTeams/plan-auto-attendant-call-queue) | modificado |
+| 6/16/2022 | [Upload las aplicaciones personalizadas en el centro de administración de Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | modificado |
+| 6/16/2022 | [Administrar directivas de reunión para participantes e invitados](/MicrosoftTeams/meeting-policies-participants-and-guests) | modificado |
+
+
 ## <a name="week-of-june-06-2022"></a>Semana del 06 de junio de 2022
 
 
 | Fecha de publicación |Título del tema | Cambio |
 |------|------------|--------|
 | 6/6/2022 | [Administrar el acceso a las aplicaciones de Teams en Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modificado |
-| 6/7/2022 | [Administrar la aplicación Actualizaciones para su organización](/MicrosoftTeams/manage-updates-app) | modificado |
+| 6/7/2022 | [Administrar la aplicación de Novedades para su organización](/MicrosoftTeams/manage-updates-app) | modificado |
 | 6/7/2022 | [Implementar equipos a escala para los trabajadores de primera línea en Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | agregado |
 | 6/8/2022 | [Habilitar Salas de Teams dispositivos para unirse a reuniones de terceros](/MicrosoftTeams/rooms/third-party-join) | modificado |
 | 6/9/2022 | [Teams comportamiento de las aplicaciones en función de los tipos de usuarios](/MicrosoftTeams/non-standard-users) | modificado |
@@ -27,7 +59,7 @@
 
 | Fecha de publicación |Título del tema | Cambio |
 |------|------------|--------|
-| 5/31/2022 | [Administrar la aplicación Actualizaciones para su organización](/MicrosoftTeams/manage-updates-app) | agregado |
+| 5/31/2022 | [Administrar la aplicación de Novedades para su organización](/MicrosoftTeams/manage-updates-app) | agregado |
 | 5/31/2022 | [Personalizar la tienda de aplicaciones en Teams](/MicrosoftTeams/customize-your-app-store) | modificado |
 | 5/31/2022 | [Administrar directivas de permisos de aplicación en Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modificado |
 | 5/31/2022 | [Canales compartidos en Microsoft Teams](/MicrosoftTeams/shared-channels) | modificado |
@@ -37,7 +69,7 @@
 | 6/1/2022 | [Crear una cola de llamadas en Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
 | 6/2/2022 | [Requisitos de hardware para Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
 | 6/2/2022 | [Restricciones de caracteres especiales en directivas de Teams](/MicrosoftTeams/special-character-restrictions-in-policy-names) | modificado |
-| 6/2/2022 | [Configuración de administrador de padres en Teams para Educación](/MicrosoftTeams/edu-parents-app) | modificado |
+| 6/2/2022 | [Administración configuración de Padres en Teams para Educación](/MicrosoftTeams/edu-parents-app) | modificado |
 | 6/3/2022 | [Microsoft Teams informe de Citas virtual del conector EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-reports) | modificado |
 
 
@@ -71,13 +103,13 @@
 | 5/25/2022 | [dispositivos Teams para educación](/MicrosoftTeams/devices-for-education) | modificado |
 | 5/25/2022 | [Aprovisionamiento remoto e inicio de sesión para dispositivos Teams Android](/MicrosoftTeams/devices/remote-provision-remote-login) | modificado |
 | 5/25/2022 | [configuración del teclado de marcado Teams](/MicrosoftTeams/dial-pad-configuration) | modificado |
-| 5/25/2022 | [Controladores de borde de sesión certificados para Enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 5/25/2022 | [Controladores de límites de sesión certificados para Enrutamiento directo](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
 | 5/25/2022 | [Configurar optimización de medios locales para enrutamiento directo](/MicrosoftTeams/direct-routing-media-optimization-configure) | modificado |
 | 5/25/2022 | [Optimización de medios locales para enrutamiento directo](/MicrosoftTeams/direct-routing-media-optimization) | modificado |
 | 5/25/2022 | [Cuentas de usuario en un entorno híbrido con RTC](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | modificado |
 | 5/25/2022 | [Realizar una investigación de exhibición de documentos electrónicos del contenido](/MicrosoftTeams/ediscovery-investigation) | modificado |
 | 5/25/2022 | [Asistente para directivas de Teams para Educación para aplicar fácilmente directivas de aprendizaje seguro](/MicrosoftTeams/easy-policy-setup-edu) | modificado |
-| 5/25/2022 | [Configuración de administrador de padres en Teams para Educación](/MicrosoftTeams/edu-parents-app) | modificado |
+| 5/25/2022 | [Administración configuración de Padres en Teams para Educación](/MicrosoftTeams/edu-parents-app) | modificado |
 | 5/25/2022 | [Sincronizar datos del Sistema de información de estudiantes (SIS) con Insights para Educación](/MicrosoftTeams/education-insights-sis-data-sync) | modificado |
 | 5/25/2022 | [Tareas de Teams](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | modificado |
 | 5/25/2022 | [Usar PowerShell para conectar Turnos a Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | modificado |
@@ -153,22 +185,3 @@
 | 5/20/2022 | [Administrar directivas de enrutamiento de llamadas de emergencia para enrutamiento directo](/MicrosoftTeams/manage-emergency-call-routing-policies) | modificado |
 | 5/20/2022 | [Administrar directivas de llamadas de emergencia en Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | modificado |
 | 5/20/2022 | [Microsoft Teams notas de la versión de PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
-
-
-## <a name="week-of-may-09-2022"></a>Semana del 09 de mayo de 2022
-
-
-| Fecha de publicación |Título del tema | Cambio |
-|------|------------|--------|
-| 5/9/2022 | [Habilitar a los usuarios para el enrutamiento directo](/MicrosoftTeams/direct-routing-enable-users) | modificado |
-| 5/9/2022 | [Configurar Conexión con operador](/MicrosoftTeams/operator-connect-configure) | modificado |
-| 5/9/2022 | [Asignar directivas en Teams](/MicrosoftTeams/policy-assignment-overview) | modificado |
-| 5/9/2022 | [Informe de historial de la cola de llamadas del operador automático &](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modificado |
-| 5/10/2022 | [Planear enrutamiento basado en la ubicación para el enrutamiento directo](/MicrosoftTeams/location-based-routing-plan) | modificado |
-| 5/10/2022 | [Directivas de llamadas en Microsoft Teams: características de desvío de llamadas y llamadas](/MicrosoftTeams/teams-calling-policy) | modificado |
-| 5/10/2022 | [compatibilidad con la versión de la aplicación Salas de Microsoft Teams](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modificado |
-| 5/12/2022 | [Administrar directivas de correo de voz](/MicrosoftTeams/manage-voicemail-policies) | modificado |
-| 5/12/2022 | [Configurar puerta de enlace SIP](/MicrosoftTeams/sip-gateway-configure) | modificado |
-| 5/12/2022 | [Configuración de administrador de padres en Teams para Educación](/MicrosoftTeams/edu-parents-app) | modificado |
-| 5/13/2022 | [Aplicación Walkie Talkie en Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modificado |
-| 5/13/2022 | [Requisitos de las Salas de Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
