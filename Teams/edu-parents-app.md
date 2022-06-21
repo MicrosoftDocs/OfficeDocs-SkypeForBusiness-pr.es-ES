@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
-ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
+ms.openlocfilehash: 6a38bfbcc8ec7de5e9c1535b1a597b534e46d009
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860801"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190620"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar la conexión principal en Microsoft Teams para Educación
 
@@ -41,12 +41,11 @@ Estos son algunos recursos que los administradores de TI pueden compartir con tu
 
 Parents Connection permite a los educadores y tutores chatear, enviar correos electrónicos y llamar con Teams.
 
-- Teams datos de contacto de tutores se mantienen actualizados con SIS usando School Data Sync (SDS).
+- Los formadores pueden iniciar chats con tutores.
+  - Si el tutor no tiene una Teams cuenta de consumidor, recibirá el mensaje inicial del formador y una invitación por correo electrónico para ir a Teams.
 - Funciona con el chat supervisado. Para obtener más información, vea [Usar chats supervisados en Microsoft Teams](supervise-chats-edu.md).
   - De forma predeterminada, los tutores tienen permisos restringidos, por lo que no pueden chatear con los alumnos ni quitar usuarios de los chats.
   - El administrador de inquilinos puede cambiar esta configuración.
-- Los formadores pueden iniciar chats con tutores.
-  - Si el tutor no tiene una Teams cuenta de consumidor, recibirá el mensaje inicial del formador y una invitación por correo electrónico para ir a Teams.
 - Los formadores pueden hacer clic en el correo electrónico de un tutor para enviarles un correo electrónico con su cliente de correo electrónico nativo.
 - Los profesores pueden hacer clic en el número de teléfono de un tutor para llamarlo dentro de Teams.
 
@@ -66,7 +65,17 @@ Parents Connection permite a los educadores y tutores chatear, enviar correos el
 
 ## <a name="requirements"></a>Requirements
 
+Debe usar Microsoft Graph o School Data Sync (SDS) para rellenar la información de contacto relacionada con los padres y tutores tutores de cada estudiante.
+
+### <a name="graph-api"></a>API de Graph
+
+Si ya usa [el SDK de Microsoft Graph PowerShell](/powershell/microsoftgraph/overview) para crear identidades de estudiantes, puede incluir fácilmente [el tipo de recurso RelatedContact](/graph/api/resources/relatedcontact).
+
 ### <a name="school-data-sync"></a>School Data Sync
+
+Teams datos de contacto de tutores se mantienen actualizados con SIS mediante School Data Sync (SDS), cuando SDS está configurado para sincronizarse periódicamente.
+
+Si se quita a un tutor de los registros *de un alumno* , los chats existentes en los que participe con ellos contendrán una pancarta visible para el propietario del chat. Este banner hará que el propietario del chat conozca el cambio, pidiéndole que quite al tutor del chat. Microsoft no actualizará automáticamente la pertenencia al chat para quitar al tutor.
 
 - Necesita School Data Sync (SDS) para rellenar la información de **contacto relacionada con** los padres y tutores tutores.
   - [Implementar SDS](/schooldatasync/parents-and-guardians-in-sds)

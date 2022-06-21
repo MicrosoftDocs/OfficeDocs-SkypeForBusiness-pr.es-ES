@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtén información sobre cómo personalizar aplicaciones en Microsoft Teams.
-ms.openlocfilehash: 3f8a8a3c1922de230573628926a1aff2eee6ee06
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: Obtenga información sobre cómo cambiar la apariencia de la aplicación y cambiar el nombre de una aplicación editando los detalles y los metadatos de la aplicación.
+ms.openlocfilehash: 62924c6b3ffb4561427d921a4edc26d4888b4d6b
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124375"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190350"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>Personalizar la apariencia de las aplicaciones en la tienda Teams de su organización
 

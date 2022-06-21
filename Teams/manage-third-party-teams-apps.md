@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Administrar el acceso a las aplicaciones de Teams en Microsoft 365.
-ms.openlocfilehash: bb132ba153064fb06429956898146f79ef4495e3
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+description: Obtén información sobre cómo administrar el acceso a las aplicaciones de Teams en Microsoft 365.
+ms.openlocfilehash: 34587bd02f9fddb73bce8e159b9df317b3bc619a
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913528"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190605"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>Administrar el acceso a las aplicaciones de Teams en Microsoft 365
 
-Los desarrolladores de aplicaciones pueden mejorar sus aplicaciones de Microsoft Teams para que funcionen en Outlook y en Office.com, además de la aplicación que trabaja en Teams. Los usuarios finales pueden usar las aplicaciones mejoradas en Teams, en Microsoft Outlook y Microsoft Office.com después de la mejora. Actualmente, solo los usuarios finales de la versión dirigida pueden ver y usar estas aplicaciones específicas en Teams, Outlook y Office.com. La experiencia de administración de Teams existente se aplica para gobernar el acceso a estas aplicaciones. Una notificación sobre este cambio está disponible en el [centro de mensajes](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280). Como administrador de Teams, puede permitir que usuarios finales específicos usen las aplicaciones mejoradas o administren su acceso a las aplicaciones mejoradas en Teams, en Outlook y en Office.com. Los administradores de Teams usan el Centro de administración de Teams para administrar el acceso a las aplicaciones.
+Los desarrolladores de aplicaciones pueden mejorar su Microsoft Teams aplicaciones para que funcionen en Outlook y en Office.com, además de que la aplicación trabaje en Teams. Los usuarios finales pueden usar las aplicaciones mejoradas en Teams, en Microsoft Outlook y Microsoft Office.com después de la mejora. Actualmente, solo los usuarios finales de la versión dirigida pueden ver y usar estas aplicaciones específicas en Teams, Outlook y Office.com. La experiencia de administración de Teams existente se aplica para gobernar el acceso a estas aplicaciones. Una notificación sobre este cambio está disponible en el [centro de mensajes](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280). Como administrador de Teams, puede permitir que usuarios finales específicos usen las aplicaciones mejoradas o administren su acceso a las aplicaciones mejoradas en Teams, en Outlook y en Office.com. Teams los administradores usan el centro de administración de Teams para administrar el acceso a las aplicaciones.
 
 Para su uso en Outlook y Office.com, una aplicación mejorada sigue usando los permisos existentes concedidos en Teams. No hay [ningún cambio en los permisos de la aplicación mejorada](https://devblogs.microsoft.com/microsoft365dev/ignite-2021-building-apps-for-collaboration-in-a-hybrid-world/#personal-tabs).
 
@@ -42,7 +42,7 @@ La siguiente es una lista de las aplicaciones mejoradas:
 
 Puede controlar el acceso de los usuarios finales a las aplicaciones de Teams mediante los métodos siguientes. Si es administrador de aplicaciones de Office, póngase en contacto con el administrador global o con el administrador de Teams para administrar el acceso a las aplicaciones.
 
-| Opciones para administrar el acceso |Portal|Administrador global|Administrador de Teams|
+| Opciones para administrar el acceso |Portal|Administrador global|Teams administrador|
 |--|---|---|--|
 | Solo los usuarios finales de la versión dirigida pueden acceder a la nueva aplicación. Mover los usuarios a la versión estándar. Consulte [Configurar las opciones de versión estándar o dirigida](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) | Centro de administración de Microsoft 365 | Sí | No |
 | Administrar el acceso a la nueva aplicación para usuarios finales específicos. Vea [Agregar una directiva de permisos personalizados](teams-app-permission-policies.md#create-a-custom-app-permission-policy) y [asignar la directiva personalizada a un usuario](policy-assignment-overview.md). | Centro de administración de Teams | Sí | Sí |
@@ -52,11 +52,11 @@ Puede controlar el acceso de los usuarios finales a las aplicaciones de Teams me
 > Se recomienda usar [la opción Versión estándar](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) para administrar el acceso de los usuarios finales. Las demás opciones quitan el acceso del usuario final y ya no podrán usar la aplicación existente en Teams.
 
 > [!NOTE]
-> Los usuarios que hayan instalado un complemento existente en el mercado de la misma aplicación en Outlook y Office seguirán usando esa aplicación. Los complementos no son aplicaciones de Teams y los administradores de Teams no pueden gobernar el acceso.
+> Los usuarios que hayan instalado complementos existentes en el mercado de la misma aplicación en Outlook y Office seguirán usando esa aplicación. Los complementos no son aplicaciones Teams y los administradores de Teams no pueden gobernar el acceso.
 
 ## <a name="see-also"></a>Vea también
 
-* [Aplicaciones de Microsoft Teams diseñadas para Microsoft 365 que llegarán en versión preliminar a Outlook y Office.com](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-teams-apps-designed-for-microsoft-365-coming-in/ba-p/3269538)
+* [Microsoft Teams aplicaciones diseñadas para Microsoft 365 que llegarán a preview a Outlook y Office.com](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-teams-apps-designed-for-microsoft-365-coming-in/ba-p/3269538)
 * [Comprender los roles de administrador en Microsoft 365](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)  
-* [Acerca de los complementos de Outlook](/office/dev/add-ins/outlook/outlook-add-ins-overview)
-* [Cómo amplían los desarrolladores las aplicaciones de Teams para que funcionen en Microsoft 365](/microsoftteams/platform/m365-apps/overview)
+* [Acerca de Outlook complementos](/office/dev/add-ins/outlook/outlook-add-ins-overview)
+* [¿Cómo pueden trabajar los desarrolladores Teams aplicaciones en Microsoft 365](/microsoftteams/platform/m365-apps/overview)

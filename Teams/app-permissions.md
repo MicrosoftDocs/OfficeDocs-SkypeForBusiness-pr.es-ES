@@ -12,19 +12,19 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: Administración puede Saber qué datos y permisos Microsoft Teams aplicaciones solicitan a su organización.
+description: Administración pueden saber qué datos y permisos Microsoft Teams aplicaciones solicitan a su organización.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a9ce3fccd8974bd7f8cba04d01bf16738772ea11
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 925136660ef6adda6374fab1acccf10a2b9f1722
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124185"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190290"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Consideraciones y permisos de las aplicaciones de Microsoft Teams
 
@@ -73,13 +73,13 @@ Ninguna
 
 * POST_MESSAGE_TEAM: permite que los bots de una aplicación envíen mensajes directos (proactivos) al miembro del equipo en cualquier momento, incluso si el usuario nunca ha interactuado con el bot.
 
-* Los siguientes permisos no son explícitos, pero están implícitos por RECEIVE_MESSAGE y REPLYTO_MESSAGE y los ámbitos en los que se pueden usar los bots, declarados en el manifiesto:
+* Los siguientes no son permisos explícitos, pero están implícitos por RECEIVE_MESSAGE y REPLYTO_MESSAGE y los ámbitos en los que se pueden usar los bots, declarados en el manifiesto:
 
   * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
   * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
-* Los siguientes permisos no son explícitos, pero están implícitos por RECEIVE_MESSAGE y REPLYTO_MESSAGE y los ámbitos en los que se pueden usar los bots, declarados en el manifiesto:
+* Los siguientes no son permisos explícitos, pero están implícitos por RECEIVE_MESSAGE y REPLYTO_MESSAGE y los ámbitos en los que se pueden usar los bots, declarados en el manifiesto:
 
   * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
@@ -168,7 +168,7 @@ REPLYTO_CONNECTOR_MESSAGE. Algunos conectores admiten mensajes accionables, que 
 
 * Los mensajes del conector no pueden contener archivos adjuntos.
 
-* La dirección URL de la instancia del conector debe tratarse como secreta/confidencial: cualquier persona que tenga esa dirección URL puede publicar en ella, como una dirección de correo electrónico. Por lo tanto, existe algún riesgo de correo no deseado o vínculos a sitios de suplantación de identidad (phishing) o malware. Si esto ocurriera, los propietarios de equipo pueden eliminar la instancia del conector.
+* La dirección URL de la instancia del conector debe tratarse como secreta/confidencial: cualquier persona que tenga esa dirección URL puede publicar en ella, como una dirección de correo electrónico. Por lo tanto, existe algún riesgo de correo no deseado o vínculos a sitios de suplantación de identidad (phishing) o malware. Si esto ocurre, los propietarios de equipos pueden eliminar la instancia del conector.
 
 * Si el servicio que envía mensajes de conector se ve comprometido y empieza a enviar vínculos de correo no deseado/phishing/malware, una Administrador de inquilinos puede impedir la creación de nuevas instancias de conectores y Microsoft puede bloquearlas de forma centralizada.
 

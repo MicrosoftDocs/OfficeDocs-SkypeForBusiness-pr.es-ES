@@ -12,16 +12,16 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava, nsuter
 search.appverid: MET150
 f1keywords: ''
-description: Obtenga información sobre cómo comprar aplicaciones de terceros para Teams en el centro de administración de Microsoft Teams.
+description: Aprende a comprar aplicaciones de terceros en Teams store con una tarjeta de crédito, una tarjeta de débito o mediante facturación.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 52cab02898a2fd187c60d2348a42c3ce97de2a3b
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 33d5faec0694c666b2f392713d235cb52ef8b0e8
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137091"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190330"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicaciones de terceros para Teams
 
@@ -38,7 +38,7 @@ Aquí, también puede comprar licencias para los servicios ofrecidos por aplicac
 > [!IMPORTANT]
 > Al habilitar la compra de aplicaciones, también se activará la compra desde la aplicación. Es posible que los usuarios vean ofertas de compra desde la aplicación controladas por el ISV para su aplicación. Si quieres impedir que los usuarios compren una aplicación, tienes que bloquear la aplicación. Para obtener más información sobre cómo bloquear una aplicación, consulta [Administrar directivas de aplicación](app-policies.md) o [aprende a bloquear una aplicación en el nivel de organización](manage-apps.md#allow-and-block-apps).
 
-1. En el panel izquierdo del centro de administración de Microsoft Teams, vaya a **Teams** **aplicacionesAdministrar** >  aplicaciones. Para acceder a la página, debe ser administrador global o administrador de servicio de Teams.
+1. En el panel izquierdo del centro de administración de Microsoft Teams, vaya a **Teams aplicaciones** > **Administrar aplicaciones**. Para acceder a la página, debe ser administrador global o administrador de servicio de Teams.
 1. Busca la aplicación que quieras. Para identificar las aplicaciones que tienen una suscripción SaaS de pago, busque en la columna **Licencias** . Cada aplicación tendrá uno de los siguientes valores:
     - **Compra**: la aplicación ofrece una suscripción SaaS y está disponible para comprar.  
     - **Comprado**: la aplicación ofrece una suscripción a SaaS y ha comprado licencias para ella.
@@ -72,7 +72,7 @@ Seleccione **Administrar licencias** para ir a la Centro de administración de M
 Los administradores globales pueden agregar más licencias, quitar licencias y cancelar las suscripciones para las compras realizadas por cualquier persona de la organización. Teams administradores de servicios pueden realizar las mismas acciones para las compras realizadas por ellos mismos. Sin embargo, si un administrador de servicio de Teams también tiene el rol de administrador de facturación, puede administrar las compras realizadas por cualquier persona de la organización.
 
 > [!NOTE]
-> Si un administrador global quiere administrar una suscripción comprada por otro administrador global, debe estar en la misma cuenta de facturación. Puede conceder a otro administrador global acceso a una suscripción que compró seleccionando la aplicación en el Centro de administración de Microsoft 365. Desde allí, vaya a **Ver perfil** >  de **facturaciónSeleccionar** roles  >  de cuenta  >  de **facturaciónAgregar otros administradores globales**.
+> Si un administrador global quiere administrar una suscripción comprada por otro administrador global, debe estar en la misma cuenta de facturación. Puede conceder a otro administrador global acceso a una suscripción que compró seleccionando la aplicación en el Centro de administración de Microsoft 365. Desde allí, vaya a **Ver perfil** >  de **facturación Seleccione la cuenta** >  de facturación **Asignar roles** > **Agregar otros administradores globales**.
 
 ### <a name="invoice-billing"></a>Facturación
 
@@ -91,5 +91,5 @@ Los desarrolladores de aplicaciones de terceros pueden ir a [la oferta Crear un 
 
 - [Administrar las aplicaciones en el centro de administración de Microsoft Teams](manage-apps.md)
 - [Crear una oferta SaaS](/azure/marketplace/partner-center-portal/create-new-saas-offer)
-- [Azure AD roles integrados](/azure/active-directory/roles/permissions-reference)
+- [Roles integrados de Azure AD](/azure/active-directory/roles/permissions-reference)
 - [roles de administrador Microsoft 365](/microsoft-365/admin/add-users/about-admin-roles)
