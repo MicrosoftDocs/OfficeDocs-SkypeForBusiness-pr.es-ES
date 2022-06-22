@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1392678e77d96eb34445be1848a6cbfbb559bc5c
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: bfb786c031acf0d07e67895416b724e24f4950da
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913418"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190300"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Acerca de las aplicaciones de Microsoft Teams
 
