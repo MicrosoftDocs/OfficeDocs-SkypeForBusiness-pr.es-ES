@@ -1,7 +1,7 @@
 ---
 title: Información general sobre la validación de aplicaciones y las pruebas de aplicaciones de Microsoft
 ms.reviewer: ''
-description: Comprenda las comprobaciones de calidad y la validación de aplicaciones realizadas para las aplicaciones de Teams.
+description: Obtenga información sobre las directrices de validación de aplicaciones de Teams basadas en directivas de certificación de Marketplace. Descubra cómo Microsoft garantiza que las aplicaciones de Teams cumplan los altos estándares de privacidad y seguridad.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a916d6bdd57c2956c076461d7f36df64d5c503d9
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 8172db3e67ad895427e90ed3821e1c6fb61f5df9
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910906"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190491"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Validación realizada por Microsoft para todas las aplicaciones de Teams
 
