@@ -1,5 +1,5 @@
 ---
-title: Comprar, configurar y habilitar Asesor de carrera para Microsoft Teams
+title: Comprar, configurar y habilitar entrenador profesional para Microsoft Teams para Educación
 author: SerdarSoysal
 ms.author: serdars
 ms.reviewer: alaina.creager
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Obtenga información sobre cómo comprar, configurar y habilitar Asesor de carrera para Microsoft Teams.
+description: Obtenga información sobre cómo comprar, configurar y habilitar el Entrenador profesional para Microsoft Teams para Educación.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f2698f668f33f078988b4c9ff1967a07c6765d9
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 9d6d3aed02c2f9eb9913a62ed502355590a5df4b
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62389772"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494367"
 ---
-# <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Comprar, configurar y habilitar Asesor de carrera para Microsoft Teams
+# <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Comprar, configurar y habilitar entrenador profesional para Microsoft Teams
 
-Asesor de carrera es una aplicación Microsoft Teams para Educación con tecnología de LinkedIn que proporciona orientación personalizada para que los estudiantes de educación superior puedan navegar por su trayectoria profesional. Asesor de carrera ofrece a las instituciones educativas una solución profesional unificada para que los alumnos descubran su trayectoria profesional, aumenten las aptitudes del mundo real y construyan su red en un solo lugar.
+Entrenador profesional es una aplicación de Microsoft Teams para Educación con tecnología de LinkedIn que proporciona orientación personalizada para que los estudiantes de educación superior naveguen por su recorrido profesional. El Entrenador profesional ofrece a las instituciones educativas una solución unificada para que los estudiantes descubran su trayectoria profesional, aumenten las habilidades del mundo real y desarrollen su red en un solo lugar.
 
 ## <a name="supported-languages"></a>Idiomas admitidos
 
-Asesor de carrera se localiza en los siguientes idiomas:
+Entrenador profesional está localizado en los siguientes idiomas:
 
 - Chino (simplificado, China continental)
 - Chino (tradicional, Taiwán)
@@ -43,425 +43,555 @@ Asesor de carrera se localiza en los siguientes idiomas:
 - Español (España)
 - Español (México)
 
-Obtenga más información [sobre Asesor de carrera](https://aka.ms/career-coach).
+Obtenga más información sobre [entrenador profesional](https://aka.ms/career-coach).
 
 > [!TIP]
-> Use los procedimientos recomendados y sugerencias útiles de esta guía para habilitar las capacidades de Asesor de carrera para estudiantes, profesores y personal. Vea el [artículo Guía de planeación](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) rápida.
+> Use los procedimientos recomendados y las sugerencias útiles de esta guía para habilitar las capacidades del Entrenador profesional para estudiantes, profesores y personal. Consulte el artículo [Guía de planeación rápida](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) .
 
 ## <a name="review-the-requirements"></a>Revisar los requisitos
 
-Para habilitar Asesor de carrera para su institución educativa, revise lo que necesita para que la aplicación esté en funcionamiento.
+Para habilitar el Entrenador profesional para su institución educativa, revise lo que necesita para poner en marcha el Entrenador profesional.
 
-**Requisitos técnicos**
+### <a name="technical-requirements"></a>Requisitos técnicos
 
-- Office 365 inquilino con Azure Active Directory.
-
+- Office 365 espacio empresarial con Azure Active Directory con conexiones de cuenta de LinkedIn habilitadas.
 - Microsoft Teams.
+- Página de la escuela de LinkedIn.
 
-- Conexiones de cuentas de LinkedIn en Azure Active Directory.
+### <a name="data-and-files-from-your-educational-institution"></a>Datos y archivos de su institución educativa
 
-**Licencias**
+- Logotipo y activos gráficos de la institución educativa [en el formato requerido](#brand-and-preferences).
 
-- Profesores
+- Datos del catálogo del curso. [Ver formato de archivo](https://aka.ms/career-coach/docs/it-admins/sample-catalog) y [documento](#course-catalog-document-format-and-schema) de ejemplo.
 
-- Estudiantes
+- Lista de campos de estudio ofrecidos. [Ver archivo de ejemplo](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy).
 
-> [!IMPORTANT]
-> Una Asesor de carrera licencia del profesorado debe asignarse al administrador de TI que complete la configuración.
-
-**Datos y archivos de su institución educativa**
-
-- Logotipo y activos gráficos de la institución educativa en el formato necesario.
-
-- Datos del catálogo de cursos.
-
-- Lista de campos de estudio ofrecidos.
-
-- Página de [LinkedIn de la institución educativa](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
+- Dirección URL de la [página de](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en) la escuela de LinkedIn de la institución educativa.
 
 - Dirección URL de la directiva de privacidad de la institución educativa.
 
-- Los vínculos de instituciones educativas a recursos relacionados con la profesión, como los servicios profesionales y las publicaciones de puestos de estudiantes (opcionales).
+- Vínculos de instituciones educativas a recursos relacionados con la carrera profesional, como un sitio web de servicios profesionales y publicaciones de trabajo de estudiantes (opcional).
 
-- LinkedIn Learning plantel (preferido).
+## <a name="setup-checklist"></a>Lista de comprobación de configuración
 
-## <a name="purchase-the-career-coach-licenses"></a>Comprar las Asesor de carrera licencias
+En preparación para publicar entrenador profesional para su inquilino, se necesitarán varios roles de administrador. Estos roles y permisos pueden asignarse a una persona o es posible que necesiten colaboración con profesionales de TI de su organización. Use esta guía para ayudar a identificar a las personas necesarias para completar las tareas necesarias.
 
-Asesor de carrera está disponible en todo el mundo (excepto China y Rusia) para instituciones de educación superior calificadas como una licencia de complemento a través de Enrollment for Education Solutions (EES), Proveedores de servicios en la nube (CSP) y Centro de administración de Microsoft 365 (web direct). Como aplicación Microsoft Teams, el inquilino debe tener Microsoft 365 A3/A5 o Office 365 A1/A3/A5 para poder comprar el complemento Asesor de carrera licencia. Se ofrecen licencias independientes para estudiantes y usuarios de profesores y docentes.
+Puede comprobar los roles asignados a su cuenta visitando la [Centro de administración de Microsoft 365 > Usuarios > Usuarios activos](https://go.microsoft.com/fwlink/p/?linkid=834822) > Seleccione su nombre de usuario para confirmar su rol.
 
-Hay disponible una prueba gratuita estándar de 90 días para 25 estudiantes y 25 licencias de profesores y docentes. Las licencias de prueba se pueden activar Centro de administración de Microsoft 365 los inquilinos que están cualificados para comprar Asesor de carrera.
+Obtenga más información sobre [los roles de administrador en la Centro de administración de Microsoft 365](/microsoft-365/admin/add-users/about-admin-roles).
 
-### <a name="assign-app-licenses-to-users"></a>Asignar licencias de aplicaciones a usuarios
+### <a name="microsoft-365-admin-center"></a>[Centro de administración de Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2024339)
 
-Para obtener instrucciones paso a paso, vea [Asignar licencias a los usuarios](/microsoft-365/admin/manage/assign-licenses-to-users).
+Rol: Tareas de entrenador profesional [de administrador global](/azure/active-directory/roles/permissions-reference#global-administrator) :
 
-### <a name="turn-on-linkedin-account-connections"></a>Activar las conexiones de cuentas de LinkedIn
+- [Comprar licencias](#purchase-career-coach-licenses)
+- [Asigne las licencias](#assign-career-coach-licenses-to-users)
 
-Asesor de carrera **requiere** que los usuarios de la institución educativa tengan la capacidad de conectar su cuenta de Microsoft 365 a su cuenta de LinkedIn que se facilita en Asesor de carrera.
+### <a name="azure-active-directory-admin-center"></a>[Centro de administración de Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=2067268)
 
-1. Inicie sesión en el [Azure AD de](https://aad.portal.azure.com/) administración con una cuenta que sea administrador global de la Azure AD organización.
+Rol: Tarea De entrenador profesional [de administrador global](/azure/active-directory/roles/permissions-reference#global-administrator) :
+
+- [Activar las conexiones de la cuenta de LinkedIn](#turn-on-linkedin-account-connections)
+
+### <a name="teams-admin-center"></a>[Centro de administración de Teams](https://admin.teams.microsoft.com/dashboard)
+
+Rol: Tareas de entrenador profesional [del administrador de Teams](/azure/active-directory/roles/permissions-reference#teams-administrator) :
+
+- [Agregar entrenador profesional como una aplicación instalada](#add-career-coach-as-an-installed-app)
+- [Configurar la configuración de la aplicación Entrenador profesional](#configure-career-coach-settings)
+  - [Marca y preferencias](#brand-and-preferences)  - Necesario
+  - Conexión   [de LinkedIn](#linkedin-connection) - Necesario
+  - [Catálogo de cursos](#course-catalog)  - Necesario
+  - [Campos de estudio](#fields-of-study)  - Necesario
+  - [Personalización](#customization) : opcional
+- [Directivas de configuración](#setup-policies-and-pin-the-app)
+- [Anclar la aplicación](#setup-policies-and-pin-the-app)
+
+### <a name="linkedin-developer-portal"></a>Portal para desarrolladores de LinkedIn
+
+Rol: Tarea super Administración entrenador profesional de [la página de la escuela de LinkedIn](https://www.linkedin.com/help/linkedin/answer/a541981):
+
+- [Comprobar la página de LinkedIn School](#verify-the-linkedin-school-page)
+
+## <a name="purchase-career-coach-licenses"></a>Comprar licencias de Entrenador profesional
+
+### <a name="license-types"></a>Tipos de licencia
+
+El Entrenador profesional requiere una licencia para acceder a la aplicación.
+
+Hay dos tipos de licencia disponibles.
+
+- La **licencia de Estudiante** está diseñada para los alumnos.
+- La **licencia para profesores** está diseñada para profesores, personal y profesionales de TI involucrados en apoyar a los estudiantes con el Entrenador profesional.
+
+> [!IMPORTANT]
+> Se debe asignar al administrador de TI una licencia de entrenador profesional para **profesores** que complete la configuración.
+
+### <a name="purchase-licenses"></a>Comprar licencias
+
+Entrenador profesional está disponible en todo el mundo (excepto China y Rusia) para instituciones de educación superior cualificadas como una licencia complementaria a través de inscripción para soluciones educativas (EES), proveedores de servicios en la nube (CSP) y Centro de administración de Microsoft 365 (web directo).
+
+Como aplicación de Microsoft Teams, el inquilino debe tener Microsoft 365 A3/A5 o Office 365 A1/A3/A5 para comprar la licencia de Entrenador profesional adicional. Se ofrecen licencias independientes para estudiantes y usuarios de profesores.
+
+### <a name="sign-up-for-a-free-trial"></a>Registrarse para obtener una prueba gratuita
+
+Una prueba gratuita de 90 días estándar está disponible para 25 estudiantes y 25 licencias para profesores y personal. Hay una versión de prueba disponible por inquilino válido. Las licencias de prueba pueden activarse desde Centro de administración de Microsoft 365 por inquilinos que estén cualificados para comprar Entrenador profesional.
+
+Para la activación de la versión de prueba, inicie sesión en [Centro de administración de Microsoft 365 > servicios de facturación > Compra > busque Entrenador](https://go.microsoft.com/fwlink/p/?linkid=868433) profesional para encontrar la prueba de [licencia para estudiantes](https://signup.microsoft.com/signup?OfferId=b3a40ff2-3d0d-481e-a0ed-f4de1069f201) y la [prueba de licencia para profesores](https://signup.microsoft.com/signup?OfferId=6f6e7db5-b9ab-4baa-86be-f13d0ae6a2c8).
+
+## <a name="prepare-for-career-coach"></a>Prepararse para entrenador profesional
+
+### <a name="turn-on-linkedin-account-connections"></a>Activar las conexiones de la cuenta de LinkedIn
+
+Hay dos formas en las que el Entrenador profesional usa las conexiones de la cuenta de LinkedIn.
+
+- Para permitir que los estudiantes, los profesores y el personal conecten su cuenta de Microsoft 365 a su cuenta de LinkedIn y [envíen invitaciones de LinkedIn desde el Entrenador profesional](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_connect_your_linkedin_account).
+- Para activar las características [Crear su red](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_build_your_network) y [Explorar carreras](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_discover_your_career_path) con datos de antiguos alumnos públicos de LinkedIn.
+
+1. Inicie sesión en el [Centro de administración de Azure AD](https://go.microsoft.com/fwlink/p/?linkid=2067268) con una [cuenta de administrador global](#setup-checklist) para la organización de Azure AD.
 
 2. Seleccione **Usuarios**.
 
-3. En la **página Usuarios** , seleccione **Configuración de usuario**.
+3. En la página **Usuarios** , seleccione **Configuración de usuario**.
 
-4. **Las conexiones de cuenta de LinkedIn** deben establecerse en **Sí** o **Grupo** seleccionado para que Asesor de carrera esté configurado correctamente.
-
-   ![Integrar conexiones de cuentas de LinkedIn en la organización](/azure/active-directory/enterprise-users/media/linkedin-integration/linkedin-integration.png)
-
-   > [!NOTE]
-   > No se comparte ningún dato hasta que los usuarios consienten conectar sus cuentas.
+4. Las **conexiones de la cuenta de LinkedIn** deben establecerse en **Sí** o **Grupo seleccionado** para que el Entrenador profesional esté correctamente configurado.
 
    - Seleccione **Sí** para habilitar el servicio para todos los usuarios de su institución educativa.
+   - Seleccione **Grupo seleccionado** para habilitar el servicio solo para un grupo de usuarios seleccionados de su institución educativa.
 
-   - Seleccione **Grupo seleccionado para** habilitar el servicio solo para un grupo de usuarios seleccionados en su institución educativa.
+Para obtener más información, consulte [Conexiones de cuentas de LinkedIn en Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration).
 
-Para obtener más información, vea [Conexiones de cuentas de LinkedIn en Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration).
+> [!NOTE]
+> No se comparten datos sin el consentimiento del usuario.
 
-## <a name="access-the-career-coach-app-settings"></a>Acceder a la Asesor de carrera de la aplicación
+### <a name="allow-microsoft-apps-in-teams"></a>Permitir aplicaciones de Microsoft en Teams
 
-Use Microsoft Teams de administración para configurar Asesor de carrera para su institución educativa y habilitarlo para los usuarios.
+El Entrenador profesional es una aplicación de Microsoft, por lo que debe estar permitido dentro de las directivas de permisos de la aplicación teams.
 
-> [!IMPORTANT]
-> Debe ser administrador global o administrador Teams de servicio para acceder a la página.
+1. Inicie sesión en el **[Centro de administración de Teams](https://admin.teams.microsoft.com)**.
 
-1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
+2. En el panel de navegación izquierdo, seleccione **Directivas****[de permisos](https://admin.teams.microsoft.com/policies/manage-apps)** de aplicaciones  >  de Teams.
 
-2. En el panel de navegación izquierdo, **selecciona Teams** **[aplicacionesManage](https://admin.teams.microsoft.com/policies/manage-apps)** >  aplicaciones.  
+3. Seleccione la directiva que prefiera.
+    1. Si no está seguro de qué directiva usar, consulte la documentación  de administración de directivas de [Microsoft Teams](policy-packages-edu.md)o use el [Asistente para](easy-policy-setup-edu.md) directivas de educación para configurar una directiva para Microsoft Teams.
 
-3. Busque o busque **Asesor de carrera**.  
+Obtenga más información sobre [cómo configurar directivas de permisos](teams-app-permission-policies.md).
 
-4. Seleccione **Asesor de carrera** y, a continuación **, seleccione Configuración**.  
+### <a name="add-career-coach-as-an-installed-app"></a>Agregar entrenador profesional como una aplicación instalada
 
-    ![muestra la Asesor de carrera aplicación seleccionada con la Configuración que se muestra.](media/career-coach-app.png)
+Este paso garantiza que el Entrenador profesional esté correctamente configurado para su organización y que los alumnos encuentren al Entrenador profesional.
 
-## <a name="configure-the-career-coach-app-settings"></a>Configurar la configuración Asesor de carrera aplicación
+1. Inicie sesión en el [Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 
-Asesor de carrera tiene cinco categorías de configuración:
+2. Seleccione **Directivas** **de configuración de** aplicaciones  > de Teams y seleccione la directiva que prefiera.
+    1. Si no está seguro de qué directiva usar, consulte la documentación  de administración de directivas de [Microsoft Teams](policy-packages-edu.md)o use el [Asistente para](easy-policy-setup-edu.md) directivas de educación para configurar una directiva para Microsoft Teams.
 
-- [Marca y preferencias](#brand-and-preferences) : obligatorio
+3. En **Aplicaciones instaladas**, selecciona  **+ Agregar aplicaciones**.
 
-- [Conexión de LinkedIn](#linkedin-connection) : obligatorio
+4. En el panel **Agregar aplicaciones instaladas** , busque las aplicaciones que desea instalar automáticamente para los usuarios cuando inicien Teams. También puede filtrar aplicaciones por directiva de permisos de aplicaciones.
 
-- [Catálogo de cursos](#course-catalog) : obligatorio
+5. Cuando hayas elegido la lista de aplicaciones, selecciona **Agregar**.
 
-- [Campos de estudio](#fields-of-study) : obligatorio
+6. Selecciona  **Guardar** > **Confirmar**.
 
-- [Personalización](#customization)
+> [!NOTE]
+> Editar o asignar una directiva puede tardar unas horas en surtir efecto. El Entrenador profesional no estará disponible en Microsoft Teams hasta que se completen los cambios.
 
-> [!IMPORTANT]
-> La marca y las preferencias, la configuración de LinkedIn, el catálogo de  cursos y los campos de estudio son necesarios para habilitar de forma eficaz la aplicación para estudiantes, profesores y personal.
+## <a name="configure-career-coach-settings"></a>Configurar las opciones de Entrenador profesional
+
+### <a name="access-the-career-coach-app-settings"></a>Acceder a la configuración de la aplicación Entrenador profesional
+
+Para configurar las opciones del Entrenador profesional y habilitarla para los usuarios, debe ser administrador global o administrador del servicio de Teams para poder acceder a la página.
+
+1. Inicie sesión en el [Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+2. En el panel de navegación izquierdo, seleccione Aplicaciones  > **de Teams** **Administrar aplicaciones**.
+3. Busque o busque **Entrenador profesional**.
+4. Seleccione **Entrenador profesional** y, después, **Configuración**.
+
+![muestra la aplicación Entrenador profesional seleccionada con la pestaña Configuración seleccionada.](media/career-coach-app-updated.png)
+
+### <a name="career-coach-configuration-categories"></a>Categorías de configuración de Entrenador profesional
+
+Para habilitar de forma eficaz el Entrenador profesional para estudiantes, profesores y personal, se necesitan las siguientes opciones:
+
+- [Marca y preferencias](#brand-and-preferences)
+- [Conexión de LinkedIn](#linkedin-connection)
+- [Catálogo de cursos](#course-catalog)
+- [Campos de estudio](#fields-of-study)
+
+También puede establecer opciones de [personalización](#customization) opcionales.
+
+> [!TIP]
+> Navegue rápidamente de una categoría a otra seleccionando **Ruta** de entrenador profesional ubicada en la parte superior de la página con el formato `Manage apps\Career Coach\Setting label`.
 
 ### <a name="brand-and-preferences"></a>Marca y preferencias
 
-Personalice Asesor de carrera para que coincida con la marca de su institución educativa. Usted es responsable de respetar los derechos de otras personas, incluidos los derechos de propiedad intelectual y de marca comercial.
+Personalice entrenador profesional para que coincida con la marca de su institución educativa. Usted es responsable de respetar los derechos de otros, incluidos los derechos de autor y marca comercial.
 
 > [!IMPORTANT]
-> Esta es una sección obligatoria: Asesor de carrera no se puede habilitar sin la marca y las preferencias enviadas.
+> Esta es una sección obligatoria. El Entrenador profesional no se puede habilitar sin la **marca y las preferencias enviadas** .
 
-![la Asesor de carrera personal de marca del Centro de administración.](media/career-coach-brand.png)
+1. Inicie sesión en el **[Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
 
-1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
+2. Seleccione **Aplicaciones** >  de Teams **Administrar aplicaciones** > **Configuración del** > **entrenador** >  profesional **Editar marca y preferencias**.
 
-2. Seleccione **Teams** **[aplicacionesAgrego](https://admin.teams.microsoft.com/policies/manage-apps)** >  aplicaciones  > **Asesor de carrera** >  **Marca y preferencias**.
+3. En **Personalización de marca**, agregue **Nombre de la organización**.
 
-3. Upload el icono **de institución educativa**. El icono se usa en Asesor de carrera para identificar contenido exclusivo de su institución educativa, recursos del catálogo de cursos en toda la aplicación y en la sección experiencias del mundo real del panel. El icono tiene el formato más adecuado:
+4. Cargue el **icono Organización**. El icono se usa en todo el Entrenador profesional para identificar contenido exclusivo de su institución educativa, recursos del catálogo de cursos en toda la aplicación y en la sección de experiencias del mundo real del panel.
 
-    - Un PNG transparente
+    El icono tiene el siguiente formato:
+
+    - Png transparente
     - Relación de aspecto de 1:1
     - Tamaño máximo de 64 px x 64 px
 
-4. Upload miniatura **de la institución educativa**. La miniatura se usará para los recursos del catálogo del curso en toda la aplicación cuando una imagen específica no esté disponible para un curso. La miniatura tiene el formato más adecuado:
+5. Cargue la **imagen en miniatura del contenido de aprendizaje**. La miniatura se usará para los recursos de aprendizaje del catálogo de cursos en toda la aplicación cuando no se especifique una imagen específica para un curso ofrecido por su institución educativa.
 
-    - UN PNG
+    El formato de la miniatura es el siguiente:
+
+    - UN ARCHIVO PNG
     - Relación de aspecto de 16:9
     - Tamaño máximo de 360 px x 200 px
 
-5. Agregue la **dirección URL de la directiva de privacidad de la institución educativa**. Si se agrega, la directiva de privacidad de la institución estará disponible para que los alumnos puedan revisarla en Asesor de carrera aplicación.
+6. Agregue la **dirección URL de la directiva de privacidad de la organización**. Si se agrega, la directiva de privacidad de la institución estará disponible para que los alumnos la revisen en el Entrenador profesional.
 
-6. Seleccione **Enviar**.
+7. Selecciona **Enviar**.
+
+8. Para confirmar que la configuración se ha enviado correctamente, compruebe [el estado de configuración del Entrenador](#configuration-status) profesional para **Completar**.
+
+![la sección de personalización de marca del Centro de administración.](media/career-coach-brand-updated.png)
 
 ### <a name="linkedin-connection"></a>Conexión de LinkedIn
 
-La configuración de LinkedIn conecta Asesor de carrera datos de antiguos alumnos públicos de LinkedIn.
+La configuración de conexión de LinkedIn conecta al Entrenador profesional con datos de antiguos alumnos públicos de la página de la escuela de LinkedIn de su institución.
+
+Este paso solo se puede completar si [las conexiones de la cuenta de LinkedIn están habilitadas en Azure Active Directory](#turn-on-linkedin-account-connections). La configuración de conexión de LinkedIn habilita las características [Crear su red](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_build_your_network) y [Explorar carreras](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_discover_your_career_path) .
 
 > [!IMPORTANT]
-> Esta es una sección obligatoria: Asesor de carrera no se puede habilitar sin la conexión de página de LinkedIn verificada.
+> Esta es una sección obligatoria. El Entrenador profesional no se puede habilitar sin la conexión de la página educativa de LinkedIn verificada.
 
-#### <a name="add-the-linkedin-page"></a>Agregar la página de LinkedIn
-  
-1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
+#### <a name="add-the-linkedin-school-page-url"></a>Agregar la dirección URL de la página educativa de LinkedIn
 
-2. Seleccione **Teams aplicacionesInexiones** >  **[de](https://admin.teams.microsoft.com/policies/manage-apps)** >  **Asesor de carrera** >  **LinkedIn**.
+El proceso de agregar la dirección URL de la página educativa de LinkedIn es controlado por un administrador de Teams. El paso posterior de comprobar la dirección URL lo completa el superadministrador de páginas de la escuela de LinkedIn de su institución educativa.
 
-3. Busque la página de LinkedIn buscando en LinkedIn y seleccionando el **filtro Escuela** . O conéctate con un miembro del personal de servicios profesionales para determinar la página educativa de LinkedIn correcta para usar. Para obtener más información, vea [Cómo identificar páginas de LinkedIn](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
+1. Inicie sesión en el **[Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
 
-    ![linkedin buscar la escuela.](media/career-coach-school-search.png)
+2. Seleccione **Aplicaciones** >  de Teams **Administrar aplicaciones** > **Configuración del** > **Entrenador** >  profesional **conexión de LinkedIn**.
 
-4. Agregue la dirección URL de la página educativa de LinkedIn. La dirección URL debe ser una página educativa y no una página de la empresa y normalmente tiene el formato de `https://www.linkedin.com/school/willow-university/`.
+3. Seleccione **Conectarse a LinkedIn**.
 
-   ![ejemplo de página de la escuela linkedin.](media/career-coach-linkedin-page-url.png)
+4. Busque la página educativa de LinkedIn de su institución buscando en LinkedIn y seleccionando el filtro **Escuela** . También puede ponerse en contacto con un miembro del personal de marketing de su institución para determinar la página educativa de LinkedIn correcta que se usará. Para obtener más información, consulte [Cómo identificar páginas de LinkedIn](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
-5. Seleccione **Enviar**.
-#### <a name="verify-the-linkedin-page"></a>Comprobar la página de LinkedIn 
+    ![búsqueda de linkedin para la escuela.](media/career-coach-school-search-updated.png)
 
-> [!IMPORTANT]
-> La verificación debe ser completada por el superadministrador de la página de LinkedIn de su institución educativa.
+5. Agregue la **dirección URL de la página educativa de LinkedIn**. La dirección URL debe ser una *página educativa*, no una *página de empresa* y normalmente tiene el formato `https://www.linkedin.com/school/willow-university/`.
 
-1. Si se envía correctamente, la página se actualizará para mostrar el vínculo Verificación **y la** expiración **del vínculo Verificación**. El vínculo de verificación expira después de 30 días.
+   ![ejemplo de página de la escuela linkedin.](media/career-coach-linkedin-page-url-updated.png)
 
-   ![conexiones de linkedin para la aplicación de entrenador profesional.](media/career-coach-linked-in.png)  
+6. Selecciona **Enviar**.
 
-2. Copie el vínculo de verificación y compártello con el superadministrador de la página de LinkedIn de su institución educativa. Obtenga más información sobre el rol de superadministrador de la página de LinkedIn en la [documentación del administrador de la página de LinkedIn](https://www.linkedin.com/help/linkedin/answer/102672).
+7. Una vez **que la dirección URL de la página educativa de LinkedIn** se haya enviado correctamente, la página de configuración se actualizará para mostrar el  **vínculo** de verificación y la  **expiración del vínculo de verificación**. El vínculo de verificación expira después de 30 días.
 
-3. El superadministrador de la página de LinkedIn usará el vínculo de verificación único para asociar Asesor de carrera a la página de su escuela. Consulte [Documentación adicional sobre la verificación de página de LinkedIn](https://www.linkedin.com/help/linkedin/answer/102672) para obtener más información.
+8. Copie el **vínculo verificación** y compártalo con el superadministrador de la página de la escuela de LinkedIn de su institución educativa.
 
-   ![verificación de página de linkedin en el portal de desarrolladores linkedin.](media/career-coach-linkedin-verification.png)
+9. El superadministrador de la página educativa de LinkedIn usará el vínculo de verificación único para [comprobar la página educativa de LinkedIn](#verify-the-linkedin-school-page) y asociarla con el Entrenador profesional.
+
+10. Para confirmar que la verificación y la configuración se enviaron correctamente, compruebe que el [estado de la configuración del Entrenador profesional](#configuration-status) está marcado como **Completado**.
+
+#### <a name="verify-the-linkedin-school-page"></a>Comprobar la página de LinkedIn School
+
+La verificación de la página educativa de LinkedIn la debe completar el [superadministrador de la página de](https://www.linkedin.com/help/linkedin/answer/a541981) la escuela de LinkedIn de su institución educativa.
+
+Puede comprobar los roles de administrador de su cuenta de LinkedIn iniciando sesión en LinkedIn y visitando la página de linkedin school de su institución educativa. Si su cuenta tiene asignado un rol de superadministrador, verá la **vista Superadministrador** junto al nombre de su institución educativa en la página de LinkedIn. Si no ve la etiqueta **Vista superadministrador** , entonces no es superadministrador de la página de su escuela.
+
+1. Después de que el administrador de Teams envíe la **dirección URL de la página educativa de LinkedIn** , la página mostrará el **vínculo de verificación** y la **expiración del vínculo de verificación**. El vínculo de verificación expira después de 30 días.
+
+   ![conexiones de linkedin para la aplicación de entrenador profesional.](media/career-coach-linkedin-updated.png)  
+
+2. Copie el vínculo de verificación y compártalo con su superadministrador de la página educativa de LinkedIn.
+
+3. La página de LinkedIn Superadministrador abrirá el vínculo de verificación para asociar el Entrenador profesional con la página de su escuela. Para obtener más información, consulte [Documentación adicional sobre la verificación de la página de LinkedIn](https://www.linkedin.com/help/linkedin/answer/102672).
+
+4. Una vez completada la verificación, el administrador de Teams puede ver si la configuración se ha enviado correctamente comprobando si el [estado de la configuración del Entrenador](#configuration-status) profesional está marcado como **Completado**.
+
+   ![verificación de la página de linkedin en el portal de desarrolladores linkedin.](media/career-coach-linkedin-verification-updated.png)
 
 ### <a name="course-catalog"></a>Catálogo de cursos
 
-El catálogo de cursos representa los cursos y clases ofrecidos a los alumnos por su institución educativa.
+El catálogo de cursos registra los cursos y clases ofrecidos por su institución educativa.
+
+El Entrenador profesional usa los datos del catálogo de cursos para identificar las aptitudes de un alumno a partir de su transcripción y para sugerir cursos que realizar.
 
 > [!IMPORTANT]
-> Esta es una sección obligatoria: Asesor de carrera no se puede habilitar sin un catálogo de cursos.
+> Esta es una sección obligatoria. El Entrenador profesional no se puede habilitar sin un catálogo de cursos.
 
-Estos cursos se usan dentro de la aplicación en dos áreas:
+Estos cursos se usan dentro del Entrenador profesional en dos áreas:
 
-- Los cursos se devuelven como parte de los recursos de aprendizaje.  
+- Los cursos se devuelven como parte de [los recursos de aprendizaje](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_grow_real_world_skills).  
 
-- Los metadatos de cursos y cursos, como las descripciones, se usan para ayudar a los alumnos a identificar sus aptitudes al cargar una transcripción.  
+- Los cursos y los metadatos del curso, como los títulos y las descripciones del curso, se usan para ayudar a los alumnos a identificar sus aptitudes cuando [cargan una transcripción](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_Set_up_your_profile).
 
-Para crear el catálogo de cursos, cree una lista de todos los cursos que se imparten en su institución educativa y cargúenlo como un archivo CSV. La aplicación se basa en el catálogo de cursos para identificar las aptitudes de un alumno de su transcripción y sugerir cursos para realizar.
-
-#### <a name="add-the-course-catalog"></a>Agregar el catálogo de cursos
-
-1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
-
-1. Selecciona **Teams aplicaciones Administrar** &gt; **[aplicaciones Asesor de carrera](https://admin.teams.microsoft.com/policies/manage-apps)** &gt;  &gt; **Configuración** &gt;**catálogo del curso**.  
-
-2. Upload cursos en formato CSV con las columnas necesarias: courseId, title y sourceLink. Cada fila debe incluir datos para cada una de las columnas necesarias. _Incluir los campos recomendados mejora la experiencia de los alumnos al devolver mejores resultados de búsqueda e identificación de aptitudes._
-
-4. Seleccione **Enviar**.
-
-   ![la sección catálogo de cursos de la aplicación de entrenador profesional.](media/course-catalog.png)
-
-#### <a name="course-catalog-document-format-and-schema"></a>Esquema y formato de documento del catálogo de cursos
-
-El documento debe estar en formato CSV con un tamaño máximo de 18 MB. El documento debe contener los campos obligatorios título del **curso**, **id. de curso** y dirección **URL del curso**. 
+Para crear el catálogo de cursos, cree una lista de todos los cursos impartidos en su institución educativa y cárguela como un archivo CSV con el [formato y el esquema del documento del catálogo del curso](#course-catalog-document-format-and-schema).
 
 > [!TIP]
-> Empiece con el documento [del catálogo de cursos de]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) ejemplo para garantizar el formato correcto. _Incluir los campos recomendados mejora la experiencia de los alumnos al devolver mejores resultados de búsqueda e identificación de aptitudes._
+> Comience con el documento del catálogo  del [curso de ejemplo](https://aka.ms/career-coach/docs/it-admins/sample-catalog)para garantizar el formato correcto.También puede hacer referencia al [formato del documento del catálogo del curso y](#course-catalog-document-format-and-schema) a las secciones de esquema para obtener más información sobre los campos necesarios y recomendados.
 
-En la tabla siguiente se muestran los elementos que se incluirán en el catálogo de cursos:
+#### <a name="add-the-course-catalog"></a>Agregar el catálogo del curso
+
+1. Inicie sesión en el **[Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
+
+2. Seleccione **Aplicaciones** >  de Teams **Administrar aplicaciones** > Buscar catálogo **de cursos** **de configuración** >  **de entrenador** >  profesional.
+
+3. Seleccione **Cargar catálogo de** cursos > Cargar cursos en formato CSV con las columnas necesarias: courseId, title y sourceLink.
+    1. Cada fila debe incluir datos para cada una de las columnas necesarias.
+    1. *Incluir los campos recomendados mejora la experiencia de los alumnos al devolver mejores resultados de búsqueda e identificación de aptitudes.*
+
+4. Para su referencia, aparecerá una vista previa de una sección del catálogo de cursos cargado.
+
+5. Selecciona **Enviar** cuando estés listo.
+
+6. El [estado del documento cargado](#course-catalog-status) se muestra en la página de configuración.
+
+7. Para confirmar que la configuración se ha enviado correctamente, compruebe que el [estado de la configuración del Entrenador profesional](#configuration-status) está marcado como **Completado**.
+
+> [!TIP]
+> Para cargar un nuevo archivo, asegúrese de que el último archivo está desactivado seleccionando (X) para cerrar la vista previa del documento. Esta acción permitirá que el botón **Cargar** se vuelva a mostrar.
+
+![la sección del catálogo del curso de la aplicación entrenador profesional.](media/course-catalog-updated.png)
+
+#### <a name="course-catalog-document-format-and-schema"></a>Formato y esquema del documento del catálogo de cursos
+
+El documento debe estar en formato CSV con un tamaño máximo de 18 MB. Los archivos de gran tamaño deben dividirse en varios archivos más pequeños que incluyan un máximo de 15.000 filas para que el procesamiento sea correcto.
+
+El documento debe contener los metadatos del curso necesarios: **título del curso**,  **id**. del curso y  **dirección URL del curso**.
+
+> [!TIP]
+> Comience con el documento del [catálogo del curso de ejemplo]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) para garantizar el formato correcto. *Incluir los campos recomendados mejora la experiencia de los alumnos al devolver mejores resultados de búsqueda e identificación de aptitudes.*
+
+En la tabla siguiente se muestran los elementos que se incluirán en el catálogo del curso:
 
 | Nombre             | Estado      | Tipo   | Descripción                                                                    |
 |------------------|-------------|--------|--------------------------------------------------------------------------------|
-| courseId         | Obligatorio    | cadena | Normalmente, el id. del curso (normalmente se asigna a lo que se genera en la transcripción). |
-| título            | Obligatorio    | cadena | Normalmente, el título del curso.                                                      |
-| sourceLink       | Obligatorio    | Dirección URL    | Vínculo del sitio web a la página del curso.                                               |
-| descripción      | Recomendado | cadena | Texto de introducción para el curso.                                              |
-| language         | Recomendado | cadena | Idioma del curso. Use códigos de idioma estándar.                           |
-| formato           | Recomendado | cadena | Modo de enseñanza (en línea, vídeo, en persona).                                   |
-| thumbnailLink    | Recomendado | Dirección URL    | Vínculo de miniaturas a la imagen del curso.                                            |
-| thumbnailAltText | Recomendado | cadena | Texto alternativo de accesibilidad para la imagen                                           |
-| educationLevel   | Recomendado | cadena | Nivel de estudio, por ejemplo. Graduación/graduación.                                       |
-| temas           | Recomendado | cadena | Temas o etiquetas que están asociadas a las aptitudes que imparten los cursos.          |
+| CourseId         | Obligatorio    | Cadena | El courseId se asigna a lo que se genera en la transcripción del alumno.             |
+| Título            | Obligatorio    | Cadena | Título del curso.                                                              |
+| sourceLink       | Obligatorio    | Dirección URL    | Vínculo al sitio web a la página del curso para obtener más información sobre el curso y el plan de estudios.   |
+| Descripción      | Recomendado | Cadena | Texto de introducción del curso que describe los objetivos de aprendizaje.       |
+| language         | Recomendado | Cadena | Idioma del curso. Use códigos de idioma estándar.                           |
+| Formato           | Recomendado | Cadena | Modo de enseñanza (en línea, vídeo, en persona).                                   |
+| miniaturaLink    | Recomendado | Dirección URL    | Vínculo en miniatura a la imagen del curso.                                            |
+| miniaturaAltTexto | Recomendado | Cadena | Texto alternativo de accesibilidad para la imagen                                           |
+| nivel educativo   | Recomendado | Cadena | Nivel de estudio, por ejemplo. Pregrado/Graduado.                                       |
+| Temas           | Recomendado | Cadena | Temas o etiquetas que están asociados con las habilidades que los cursos enseñan.          |
 
-### <a name="fields-of-study"></a>Campos de estudio
+### <a name="course-catalog-status"></a>Estado del catálogo de cursos
 
-Los campos de estudio son sinónimos de áreas principales de interés, grado académico y grado. Los alumnos hacen referencia a estos títulos cuando empiezan a usar la aplicación y empiezan a configurar su perfil personalizado.
+El estado del catálogo del curso se muestra en la página Configuración del catálogo del curso una vez que se ha cargado un documento, proporcionando detalles del estado de carga y procesamiento del documento.
 
-> [!IMPORTANT]
-> Esta es una sección obligatoria: Asesor de carrera no se puede habilitar sin una lista de campos de estudio.
+Durante el procesamiento, el Entrenador profesional analizará el documento en busca de duplicados, normalizará y enriquecerá el catálogo mediante la extracción de aptitudes de títulos y descripciones, y lo almacenará para su uso en la página Aprender y durante las cargas de transcripción de los alumnos para su identificación de aptitudes.
 
-#### <a name="add-the-fields-of-study"></a>Agregar los campos de estudio
-
-1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
-1. Selecciona **Teams aplicaciones Administrar** &gt; **[aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Asesor de carrera** &gt; **Configuración** &gt;**campos de estudio**.  
-
-2. Upload campo de estudio en formato CSV.
-
-3. Seleccione **Enviar**.
-
-#### <a name="fields-of-study-document-format-and-schema"></a>Formato y esquema de los campos de documento de estudio
-
-Agregue todos los campos de estudio disponibles para los alumnos, como Ingeniería, Inglés, Empresa, entre otros. La lista de campos permite a los alumnos descubrir campos de estudio que puedan interesarlos y agregar su área de enfoque a su perfil.
-
-> [!TIP]
-> Empiece con el [campo de ejemplo del documento de](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) estudio para garantizar el formato adecuado.
-
-En la tabla siguiente se muestran los elementos que se incluirán en los campos de estudio:
-
-| Nombre          | Estado   | Tipo   | Descripción                    |
-|---------------|----------|--------|--------------------------------|
-| fieldsOfStudy | Obligatorio | cadena | El nombre del campo de estudio |
-
-### <a name="customization"></a>Personalización
-
-Asesor de carrera puede personalizarse para que sea única para su institución educativa. La personalización permite agregar experiencias al panel. Se recomienda agregar vínculos a paneles de trabajo, eventos, oficina de servicios profesionales, eventos profesionales, clubes de estudiantes y cualquier otro recurso que ayude a los estudiantes a obtener experiencia en el mundo real.
-
-#### <a name="add-customized-experiences"></a>Agregar experiencias personalizadas
-
-1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
-
-1. Selecciona **Teams aplicaciones Administrar** &gt; **[aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Asesor de carrera** >  **Configuración** &gt; **personalización**.
-
-2. Agregue cada título, dirección URL y descripción breve.  
-  
-3. Seleccione **Enviar**.
-
-## <a name="making-career-coach-available-to-your-organization"></a>Hacer que Asesor de carrera disponible para su organización
-
-Ahora que Asesor de carrera se ha configurado para su organización. Siga estos pasos para asegurarse de que Asesor de carrera está disponible para la organización en Microsoft Teams.
-
-### <a name="enable-the-app"></a>Habilitar la aplicación
-
-Después de completar la configuración, habilite la aplicación para alumnos y usuarios con licencia para que tengan acceso a Asesor de carrera.  
-  
-> [!IMPORTANT]
-> Debe tener permisos de rol de administrador Teams global o de administrador.
-
-1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
-
-1. Selecciona **Teams aplicaciones Administrar** &gt; **[aplicaciones Asesor de carrera](https://admin.teams.microsoft.com/policies/manage-apps)**&gt;.
-
-2. Mueva el botón de alternancia Estado a **Permitido**.  
-
-   > [!NOTE]
-   > **Permitido** significa que la aplicación está disponible para los usuarios de su institución educativa. Bloqueado significa que la aplicación no está disponible para los alumnos.
-
-### <a name="add-career-coach-as-an-installed-app"></a>Agregar Asesor de carrera como una aplicación instalada
-
-> [!IMPORTANT]
-> Este paso garantiza que Asesor de carrera esté configurado correctamente para su organización y que los alumnos encuentren Asesor de carrera.
-
-1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
-
-2. Seleccione **Teams de configuración** &gt; **de aplicaciones y** seleccione su directiva preferida.
-Si no está seguro de qué directiva usar, puede hacer referencia a la documentación de administración de directivas de [Microsoft Teams](/microsoftteams/policy-packages-edu) o usar [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) el Asistente para directivas educativas para configurar una directiva para Microsoft Teams.
-
-3. En Aplicaciones instaladas, seleccione **Agregar aplicaciones**.
-
-4. En el panel Agregar aplicaciones instaladas, busque las aplicaciones que desea instalar automáticamente para los usuarios cuando inicien Teams. También puede filtrar aplicaciones por directiva de permisos de aplicación. Cuando haya elegido la lista de aplicaciones, seleccione **Agregar**.
-
-5. Seleccione **Guardar**.
-
-> [!NOTE]
-> Editar o asignar una directiva puede tardar unas horas en que los cambios suenen. La Asesor de carrera aplicación no estará disponible en Microsoft Teams hasta que se completen los cambios.
-
-### <a name="pin-the-app"></a>Anclar la aplicación
-
-Anclar Asesor de carrera hará que la aplicación sea más accesible y visible para los alumnos.
-
-1. Inicie sesión en el **[Teams de administración](https://admin.teams.microsoft.com)**.
-
-2. Seleccione **Teams de configuración** &gt; **de aplicaciones y** seleccione su directiva preferida.
-Si no está seguro de qué directiva usar, puede hacer referencia a la documentación de administración de directivas de [Microsoft Teams](/microsoftteams/policy-packages-edu) o usar [](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) el Asistente para directivas educativas para configurar una directiva para Microsoft Teams.
-
-3. En **Aplicaciones ancladas**, elija **Agregar aplicaciones**.
-
-4. Busque **Asesor de carrera y**, a continuación, **seleccione Agregar**.
-
-5. Elija el orden para que aparezca la aplicación y seleccione **Guardar**.
-
-> [!NOTE]
-> Se notificará a los alumnos en Microsoft Teams que Asesor de carrera se ha anclado.
-
-Para [obtener más información, haga referencia a Administrar directivas de configuración de aplicaciones en Microsoft](/microsoftteams/teams-app-setup-policies) .
-
-## <a name="career-coach-settings-status"></a>Asesor de carrera de configuración
-
-La página Asesor de carrera configuración del centro de administración de Teams proporciona un informe de estado de pasos incompletos, pendientes, completados y con errores para configurar la aplicación. Estos estados pueden ayudarle a determinar si Asesor de carrera está configurado correctamente y listo para su lanzamiento al inquilino.
-
-### <a name="configuration-status"></a>Estado de configuración
-
-La sección estado de configuración de la página de configuración de la aplicación mostrará el estado actual.
-
-![la sección de estado de configuración de la aplicación de entrenador profesional.](media/career-coach-config-status.png)
-
-| Categoría              | Estado                    | Descripción                                                 |
-| --------------------- | ------------------------- | ----------------------------------------------------------- |
-| Aprovisionamiento de servicios  | Pending                   | La aplicación se está agregando al inquilino. No se necesitan más acciones. |
-| Aprovisionamiento de servicios  | Completado                  | Listo para que el administrador de TI envíe la configuración.                      |
-| Marca y preferencias | No iniciado               | Configuración debe enviarse.                              |
-| Marca y preferencias | Faltan _campos obligatorios_ | El administrador de TI debe agregar o cargar los campos que faltan.         |
-| Marca y preferencias | Completado                  | No se necesitan más acciones.                                   |
-| Catálogo de cursos        | No iniciado               | El catálogo debe enviarse.                              |
-| Catálogo de cursos        | Incompleto                | Compruebe el estado de la ingestión para obtener más información sobre cómo resolverlo.   |
-| Catálogo de cursos        | Completado                  | No se necesitan más acciones.                                   |
-| Conexión de LinkedIn   | No iniciado               | La dirección URL de la página educativa de LinkedIn debe enviarse.             |
-| Conexión de LinkedIn   | Pending                   | Esperando la aprobación del administrador de la página educativa de LinkedIn.               |
-| Conexión de LinkedIn   | Completado                  | No se necesitan más acciones.                                   |
-| Campos de estudio       | No iniciado               | Es necesario enviar el documento.                             |
-| Campos de estudio       | Completado                  | No se necesitan más acciones.                                   |
-
-> [!NOTE]
-> Una vez que todos los pasos se marquen como completados, la aplicación se puede publicar correctamente en el inquilino y asignar Asesor de carrera licencias. Para obtener instrucciones paso a paso, vea [Asignar licencias a los usuarios](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
-
-### <a name="course-catalog-status"></a>Estado del catálogo del curso
-
-El estado del catálogo del curso se muestra en la página Configuración del catálogo de cursos una vez que se ha cargado un documento, proporcionando detalles de la carga y procesamiento del documento.
-
-
-![el estado de carga del catálogo del curso de la aplicación de entrenador profesional.](media/career-coach-course-catalog-status.png)
+![el estado de carga del catálogo del curso de la aplicación entrenador profesional.](media/career-coach-course-catalog-status-updated.png)
 
 | Columna           | Valor     | Descripción                                                                                        |
 | ---------------- | --------- | -------------------------------------------------------------------------------------------------- |
-| Hora cargada    | Marca de tiempo | Fecha y hora en que un administrador de TI ha cargado un documento.                                                     |
-| Tiempo completado   | Marca de tiempo | Fecha y hora en que el documento se procesó por completo.                                               |
-| Cursos cargados | Entero   | Número de cursos que se encuentran en el documento.                                                           |
+| Tiempo cargado    | Timestamp | Fecha y hora en que un administrador de TI cargó un documento.                                                     |
+| Tiempo completado   | Timestamp | Fecha y hora en que el documento se procesó por completo.                                               |
+| Cursos cargados | Entero   | Número de cursos encontrados en el documento.                                                           |
 | Estado de ingestión | Pending   | Documento en cola para su procesamiento.                                                                  |
-| Estado de ingestión | Ejecución   | El documento se está procesando actualmente. Este proceso puede tardar hasta 60 minutos.                        |
-| Estado de ingestión | Correcto   | El proceso de ingestión se completa y los cursos y estarán disponibles en la aplicación una vez que esté completamente configurado. |
-| Estado de ingestión | Error    | Compruebe el formato del documento y vuelva a cargarlo.                                                            |
+| Estado de ingestión | Corriendo   | El documento se está procesando actualmente. Este proceso puede tardar hasta 6 horas en función del tamaño del documento. |
+| Estado de ingestión | Correcto   | Se ha completado el proceso de ingestión y los cursos estarán disponibles en el Entrenador profesional una vez que se hayan configurado todas las opciones necesarias. |
+| Estado de ingestión | Fallado    | Comprueba el formato del documento y vuelve a cargarlo.                                                           |
 | Duplicados       | Entero   | Número de cursos duplicados que se encuentran en el documento.                                                 |
 
 > [!NOTE]
-> Si una columna está en blanco, el documento se está procesando actualmente y esos valores no están disponibles. Una vez que se haya procesado el documento, los valores se rellenarán. Puede actualizar la página para buscar actualizaciones.
+> Si una columna del estado del catálogo del curso está en blanco, el documento se está procesando y esos valores no están disponibles. Este proceso puede tardar hasta 6 horas en función del tamaño del catálogo. Una vez procesado el documento, los valores se rellenarán. Puedes actualizar la página para buscar actualizaciones.
+
+### <a name="fields-of-study"></a>Campos de estudio
+
+Los campos de estudio son sinónimos de las principales áreas de interés, asignaturas principales y programas de grado. Estos campos de estudio son referenciados por los estudiantes cuando empiezan a usar el Entrenador profesional y comienzan a configurar su perfil personalizado.
+
+La lista de campos permite a los estudiantes descubrir campos de estudio que puedan interesarles y agregar su enfoque académico planeado a su perfil en Entrenador profesional.
+
+> [!IMPORTANT]
+> Esta es una sección obligatoria. El Entrenador profesional no se puede habilitar sin una lista de campos de estudio.
+>
+> Agregue todos los campos de estudio disponibles para los alumnos, como Ingeniería, Inglés, Empresa, etc.
+
+#### <a name="add-the-fields-of-study"></a>Agregar los campos de estudio
+
+1. Inicie sesión en el **[Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
+
+2. Seleccione **Aplicaciones** >  de Teams **Administrar aplicaciones** > Buscar **campos de estudio de** **configuración** >   del **entrenador** >  profesional.
+
+3. Seleccione **Cargar** para cargar los campos del archivo de estudio en formato CSV. Aparecerá una vista previa de los campos del documento de estudio.
+
+4. Selecciona **Enviar**.
+
+5. Para confirmar que la configuración se ha enviado correctamente, compruebe que el [estado de la configuración del Entrenador profesional](#configuration-status) está marcado como **Completado**.
+
+#### <a name="fields-of-study-document-format-and-schema"></a>Campos del formato y esquema del documento de estudio
+
+El documento debe estar en formato CSV con un tamaño máximo de 18 MB. El documento debe contener los metadatos necesarios: **Nombre del campo del estudio**.
+
+La tabla siguiente muestra los elementos que se incluirán en los campos de estudio:
+
+| Nombre          | Estado   | Tipo   | Descripción                    |
+|---------------|----------|--------|--------------------------------|
+| camposOfStudy | Obligatorio | Cadena | El nombre del campo de estudio |
+
+### <a name="customization"></a>Personalización
+
+La configuración de personalización permite agregar oportunidades para obtener experiencias del mundo real en el panel que su institución educativa ofrece a los alumnos.
+
+Los vínculos recomendados son aquellos que ayudan a los estudiantes a obtener experiencias reales, como paneles de trabajo, eventos, oficina de servicios profesionales, eventos relacionados con la carrera y clubes estudiantiles.
+
+1. Inicie sesión en el **[Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
+
+2. Seleccione **Aplicaciones** >  de Teams **Administrar aplicaciones** > Buscar configuración **del entrenador** > **profesional**.
+
+3. Selecciona **Personalizar la experiencia** >  **+ Agregar**
+
+4. Agrega cada **título**, **dirección URL** y **descripción de información** > Selecciona **Aplicar**.
+
+5. Aparecerá una vista previa de la información agregada.
+
+6. Selecciona **Enviar**.
+
+## <a name="career-coach-settings-status"></a>Estado de la configuración de Entrenador profesional
+
+La página configuración de Entrenador profesional del Centro de administración de Teams proporciona un resumen de estado de los pasos incompletos, pendientes, completados y fallidos para configurar el Entrenador profesional.
+
+El mensaje de estado puede ayudarle a determinar si el Entrenador profesional está correctamente configurado y listo para su publicación para su inquilino.
+
+### <a name="configuration-status"></a>Estado de configuración
+
+La sección de estado de configuración de la página de configuración de la aplicación mostrará el estado en tiempo real con la siguiente leyenda.
+
+![la sección de estado de configuración de la aplicación entrenador profesional.](media/career-coach-config-status-updated.png)
+
+| Categoría                    | Estado                                        | Descripción                                                 |
+| --------------------------- | --------------------------------------------- | ----------------------------------------------------------- |
+| Estado del aprovisionamiento del servicio | El Entrenador profesional está inicializando su inquilino.     | El aprovisionamiento del servicio se realiza automáticamente al acceder a la página de configuración de Entrenador profesional. Los cambios de configuración no se aceptarán hasta que se complete la configuración inicial. El tiempo estimado para el aprovisionamiento del servicio es de hasta 15 minutos. |
+| Estado del aprovisionamiento del servicio | El Entrenador profesional está listo para configurarse.       | La página de configuración del Entrenador profesional está lista para que el administrador de TI envíe la configuración. |
+| Marca y preferencias       | No iniciado                                   | Es necesario enviar la configuración. |
+| Marca y preferencias       | Falta: icono aprendizaje                        | Cargue la imagen en miniatura del contenido de aprendizaje que falta. |
+| Marca y preferencias       | Falta: logotipo                                 | Cargue el icono de organización que falta. |
+| Marca y preferencias       | Falta: nombre de la institución                     | Cargue el nombre de la organización que falta. |
+| Marca y preferencias       | Íntegro                                      | No es necesario realizar ninguna acción adicional. La configuración está completa. |
+| Carga del catálogo de cursos       | No iniciado                                   | El CSV del catálogo de cursos debe enviarse. |
+| Carga del catálogo de cursos       | Falta: carga correcta del catálogo del curso   | Compruebe el estado del catálogo del curso para obtener más información sobre el procesamiento del catálogo del curso. |
+| Carga del catálogo de cursos       | Íntegro                                      | No es necesario realizar ninguna acción adicional. La configuración está completa. |
+| Conexión educativa de LinkedIn  | No iniciado                                   | Es necesario enviar la dirección URL de la página educativa de LinkedIn. |
+| Conexión educativa de LinkedIn  | Falta: dirección URL de una página educativa de LinkedIn aprobada | Esperando la aprobación de la comprobación del superadministrador de la página de LinkedIn School. |
+| Conexión educativa de LinkedIn  | Íntegro                                      | No es necesario realizar ninguna acción adicional. La configuración está completa. |
+| Campos de carga del estudio      | No iniciado                                   | El csv de campo de estudio debe enviarse. |
+| Campos de carga del estudio      | Falta: áreas de interés                    | Compruebe si el campo de carga del estudio es correcto. |
+| Campos de carga del estudio      | Íntegro                                      | No es necesario realizar ninguna acción adicional. La configuración está completa. |
+
+> [!NOTE]
+> Una vez que todos los pasos necesarios se marquen como completados, el Entrenador profesional se puede liberar correctamente a su inquilino.
+
+## <a name="making-career-coach-available-to-your-organization"></a>Hacer que el Entrenador profesional esté disponible para su organización
+
+En este punto, se ha configurado el Entrenador profesional para su organización.
+
+A continuación, siga estos pasos para asegurarse de que el Entrenador profesional esté disponible para su organización en Microsoft Teams.
+
+### <a name="assign-career-coach-licenses-to-users"></a>Asignar licencias de Entrenador profesional a usuarios
+
+Para obtener instrucciones detalladas, consulte [Asignar licencias a usuarios](/microsoft-365/admin/manage/assign-licenses-to-users).
+
+### <a name="setup-policies-and-pin-the-app"></a>Configurar directivas y anclar la aplicación
+
+Anclar entrenador profesional lo agregará a la barra izquierda de la ventana de Microsoft Teams para que sea más accesible y visible para los alumnos. Si prefiere anclar entrenador profesional para un subconjunto de los usuarios, tendrá que implementar una [directiva de configuración](teams-app-setup-policies.md) con ese grupo incluido.
+
+1. Inicie sesión en el **[Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
+
+2. Seleccione **Directivas****de configuración de** aplicaciones  >  de Teams y seleccione la directiva que prefiera.
+
+    Si no está seguro de qué directiva usar, consulte la documentación de administración de directivas de [Microsoft Teams](policy-packages-edu.md) o use el Asistente para directivas de [educación](easy-policy-setup-edu.md) para configurar una directiva para Microsoft Teams.
+
+3. En **Aplicaciones ancladas**, elige **Agregar aplicaciones**.
+
+4. Selecciona la directiva que prefieras en **Buscar en función de esta directiva de permisos de aplicación**.
+
+5. Busque **Entrenador profesional** en **Buscar por nombre** y, a continuación, seleccione  **Agregar** > **Agregar** para cerrar el panel.
+
+6. Elige el orden en que aparecerá la aplicación y selecciona **Confirmar**.
+
+> [!NOTE]
+> Los alumnos recibirán una notificación en Microsoft Teams de que se ha anclado el Entrenador profesional.
+
+## <a name="accessibility-in-career-coach"></a>Accesibilidad en entrenador profesional
+
+El Entrenador profesional tiene la responsabilidad de crear una experiencia accesible para todos los usuarios. Entrenador profesional se ajusta a WCAG 2.1 A, AA y AAA y adopta todos los estándares de accesibilidad globales.
+
+Las características de accesibilidad del Entrenador profesional incluyen:
+
+- Una estructura de títulos lógica y indicadores claros de foco para admitir la navegación con el mouse, el teclado o la voz.
+- Omitir vínculos para permitir a los usuarios acceder a las características importantes más rápido.
+- Texto claro y conciso para simplificar la lectura y la comprensión del Entrenador profesional para todos los usuarios.
+- Contraste de color con los modos de contraste oscuro y alto para distintas necesidades y preferencias.
+- Una experiencia de usuario de tamaño correcto que se comprueba en todos los formatos (PC, Mac, Android y iPhone) usando los [evaluadores de confianza de la sección 508](https://www.dhs.gov/trusted-tester).
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
-- Si ve "Asesor de carrera se está configurando para que lo use pronto" en la aplicación Asesor de carrera, no se han completado las secciones __necesarias__. Es necesario __completar las__ siguientes secciones antes de que Asesor de carrera se puedan [usar: Marca](#brand-and-preferences) y preferencias, conexión [de LinkedIn](#linkedin-connection)[, catálogo](#course-catalog) de cursos y [Campos de estudio](#fields-of-study).
+### <a name="missing-required-configuration-data"></a>Faltan datos de configuración necesarios
 
-- Los CSV para el catálogo del curso y el campo de estudio tienen formatos necesarios y un tamaño máximo de 18 MB. Haga referencia al Asesor de carrera [del](#course-catalog-document-format-and-schema) catálogo de cursos y Asesor de carrera [campos de esquema](#fields-of-study-document-format-and-schema) de documento de estudio para garantizar una configuración adecuada.
+Si ve "Entrenador profesional se está configurando para que lo use pronto" en la experiencia del Entrenador profesional, **no se han agregado todos los datos de configuración necesarios**.
 
-- En las páginas de configuración con campos obligatorios, si los campos no se completan, la página no se envía. No verá un mensaje de advertencia; la página simplemente no se envía.
+Las siguientes **secciones deben completarse** antes de que se pueda usar el Entrenador profesional:
 
-- Al configurar por primera Asesor de carrera, puede aparecer un banner de error que indica "No se puede actualizar la configuración de la aplicación. Inténtalo de nuevo". Esto se debe probablemente al aprovisionamiento del espacio empresarial Asesor de carrera aplicación, que puede tardar hasta 15 minutos. Si esto sucede, espere 15 minutos antes de volver a enviar.
+- [Marca y preferencias](#brand-and-preferences)
+- [Conexión de LinkedIn](#linkedin-connection)
+- [Catálogo de cursos](#course-catalog)
+- [Campos de estudio](#fields-of-study)
 
-- Si la Asesor de carrera aplicación no se muestra en Microsoft Teams, es posible que los cambios de directiva no tengan efecto. Los cambios de directiva pueden tardar unas horas en actualizarse. La Asesor de carrera aplicación no estará disponible en Microsoft Teams hasta que se completen los cambios.
+Haga referencia al [estado de configuración del Entrenador](#configuration-status) profesional para ver qué opciones deben completarse.
 
-## <a name="removing-your-tenant-data"></a>Quitar los datos del inquilino
+### <a name="incorrect-formatting-of-course-catalog-or-fields-of-study-data"></a>Formato incorrecto del catálogo de cursos o campos de datos de estudio
 
-Los datos del inquilino incluyen información que se carga o se genera como parte de la configuración de la aplicación. Para eliminar todos los datos de un espacio empresarial Asesor de carrera, haga que el administrador global del inquilino abra [](https://edusupport.microsoft.com/support?product_id=career_coach) un vale de soporte técnico solicitando que los datos del inquilino se eliminen permanentemente. Tenga en cuenta que este proceso no es reversible. Una vez completada la eliminación de datos, la aplicación Asesor de carrera volverá Asesor de carrera su estado preconfigurado no personalizado para todos los usuarios y un administrador de Teams tendrá que configurar la aplicación de nuevo para seguir usla.
+Los CSV para el catálogo del curso y el campo de estudio requieren formatos y un tamaño máximo de 18 MB.
 
-A continuación se explica el proceso de eliminación:
+Haga referencia al [esquema del documento del catálogo del curso](#course-catalog-document-format-and-schema) de Entrenador profesional y [a los campos del Entrenador profesional del esquema del documento de estudio](#fields-of-study-document-format-and-schema) para garantizar una configuración adecuada.
 
-- Un vale de soporte técnico debe ser presentado por un administrador global de inquilinos que indique claramente la solicitud de eliminación permanente de los datos del inquilino. **No se puede limitar el conjunto de datos ni la ventana de tiempo de la eliminación**.
+Además, un archivo de catálogo de cursos no debe tener más de 15 000 filas para garantizar un procesamiento correcto.
 
-- Una vez que se haya presentado, el vale de soporte técnico se abordará después de una semana para cumplir con la directiva de retención mínima del cumplimiento. Puede cancelar la operación durante este tiempo.
+### <a name="missing-fields-in-career-coach-settings-pages"></a>Faltan campos en las páginas de configuración del Entrenador profesional
 
-- Después de una semana, Asesor de carrera equipo garantiza que se eliminen todos los datos relacionados con el espacio empresarial. El soporte técnico de Microsoft supervisa el vale y le notificará una vez completado el proceso de eliminación, en **un tiempo no superior a 30 días**.
+Las páginas de configuración de Entrenador profesional tienen campos obligatorios. Si no se han completado los campos necesarios, la página no se enviará.
 
+Es posible que no vea un mensaje de advertencia; la página no se enviará.
+
+El envío se realiza correctamente cuando aparece un banner verde en la parte superior de la página.
+
+### <a name="setup-policy-changes-arent-complete"></a>No se han completado los cambios de la directiva de configuración
+
+Si el Entrenador profesional no se muestra en Microsoft Teams para los usuarios, es posible que los cambios en la directiva de configuración aún no se hayan aplicado. El Entrenador profesional no se instalará ni anclará para los usuarios en Microsoft Teams hasta que se apliquen los cambios en la directiva de configuración. Los cambios de directiva pueden tardar unas horas en surtir efecto.
+
+Sin embargo, el Entrenador profesional se puede instalar directamente desde la tienda de aplicaciones de Microsoft Teams.
+
+- Si los usuarios no pueden encontrar entrenador profesional en la tienda de aplicaciones de Microsoft Teams, revise las directivas de permisos de la aplicación y asegúrese de que el Entrenador profesional no sea una aplicación bloqueada.
+- Entrenador profesional es una aplicación de Microsoft y es recomendable permitir las aplicaciones de Microsoft por directivas de permisos. Obtenga más información sobre [cómo configurar directivas de permisos](teams-app-permission-policies.md).
+
+### <a name="career-coach-initialization-isnt-complete"></a>La inicialización del Entrenador profesional no está completa
+
+Es posible que se produzca el siguiente error: "No podemos recuperar la configuración de la aplicación. Inténtelo de nuevo. Si sigues teniendo problemas, ponte en contacto con el servicio de atención al cliente de Microsoft".
+
+Compruebe el **estado aprovisionamiento del servicio** en la página de configuración de Entrenador profesional.
+
+Si el espacio empresarial aún se está inicializando, espere 15 minutos y vuelva a intentarlo. Abra un vale de soporte técnico si sigue recibiendo el error.
 
 ## <a name="resources"></a>Recursos
 
-Los siguientes recursos le ayudarán a planear su Asesor de carrera aplicación.
+Los siguientes recursos le ayudarán a planear la implementación de su Entrenador profesional con Microsoft Teams.
 
+- [Guía de planificación rápida del Entrenador profesional](https://support.microsoft.com/topic/career-coach-quick-planning-guide-c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4)
+- [Guía de inicio rápido de Entrenador profesional para estudiantes](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708)
+- [Involucrar a los alumnos con planes de lecciones del Entrenador profesional](https://support.microsoft.com/topic/get-started-with-career-coach-goals-and-activities-086ce412-05de-4259-a9fd-c96471cef1b0?preview=true)
 - [Bienvenido a Microsoft Teams](Teams-overview.md)
-
 - [Cómo implementar Teams](get-started-with-teams-resources-for-org-wide-rollout.md?tabs=SmallBusiness)
-
 - [Información general de los equipos y canales en Microsoft Teams](teams-channels-overview.md)
-
-- [Administrar aplicaciones en el Microsoft Teams de administración](manage-apps.md)
-
-- [Kit de orientación virtual en línea](https://www.microsoft.com/education/remote-learning/virtual-orientation)
-
-- [Límites y especificación de Teams canales](limits-specifications-teams.md)
-
-- [Introducción a la formación de administradores para Microsoft Teams](ITAdmin-readiness.md)
-
+- [Administrar aplicaciones en el Centro de administración de Microsoft Teams](manage-apps.md)
+- [Introducción al aprendizaje para administradores de Microsoft Teams](ITAdmin-readiness.md)
 - [Solución de problemas de Teams](/microsoftteams/troubleshoot/teams-welcome)
-
 - [Administrar directivas de permisos de aplicación en Microsoft Teams](teams-app-permission-policies.md)

@@ -8,25 +8,25 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Obtenga información sobre cómo usar el asistente para la incorporación de trabajadores de primera línea para implementar rápidamente una experiencia de Teams adaptada a los trabajadores de primera línea y los administradores de su organización.
+description: Obtenga información sobre cómo usar el asistente de incorporación de trabajadores de primera línea para implementar rápidamente una experiencia en Teams adaptada a los trabajadores de primera línea y los administradores de su organización.
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac4db418927c34920614c65d6f94a400ff116a91
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 160a8347e0ea79198f337fce460ced90f5de2931
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64703686"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494517"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Usar el asistente de incorporación de personal de primera línea para que su fuerza de trabajo esté en funcionamiento
 
 ## <a name="overview"></a>Información general
 
-El Asistente para la incorporación de trabajadores de primera línea en el Centro de administración de Microsoft 365 simplifica la incorporación de trabajadores de primera línea a su organización. El asistente le permite implementar rápidamente una experiencia de Microsoft Teams adaptada a su personal de primera línea. Con el asistente, puede iniciar fácilmente la implementación piloto de Teams para los trabajadores de primera línea de su organización.
+El Asistente para la incorporación de trabajadores de primera línea en el Centro de administración de Microsoft 365 simplifica la incorporación de trabajadores de primera línea a su organización. El asistente le permite implementar rápidamente una experiencia en Microsoft Teams adaptada a su personal de primera línea. Con el asistente, puede iniciar fácilmente la implementación piloto de Teams para los trabajadores de primera línea de su organización.
 
 El asistente configura un equipo para los trabajadores de primera línea y asigna licencias y [paquetes de directivas](manage-policy-packages.md) a cada miembro del equipo. Puede crear su equipo desde cero o a partir de una [plantilla de equipo](get-started-with-teams-templates-in-the-admin-console.md) y, a continuación, agregar usuarios y asignar roles. El rol determina el paquete de directivas que el asistente asigna a cada usuario.
 
@@ -39,9 +39,6 @@ Consulte este breve vídeo para obtener información general sobre cómo ejecuta
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN6oh]
 
 > [!NOTE]
-> Este asistente le permite incorporar rápidamente a sus empleados de primera línea para Teams a través de la Centro de administración de Microsoft 365. Para obtener información sobre cómo implementar Teams a los empleados de primera línea con scripts, vea [Cómo aprovisionar Teams a escala para los trabajadores de frontline](flw-scripted-deployment.md).
-
-> [!NOTE]
 > El asistente aún no admite [etiquetas de confidencialidad](sensitivity-labels.md) . Si su organización requiere etiquetas de confidencialidad para crear un equipo, no verá el asistente en el Centro de administración de Microsoft 365.
 
 ## <a name="run-the-wizard"></a>Ejecutar el asistente
@@ -50,7 +47,7 @@ Consulte este breve vídeo para obtener información general sobre cómo ejecuta
 
     :::image type="content" source="media/flw-onboarding-wizard-get-started.png" alt-text="Captura de pantalla de la página de detalles de la experiencia de incorporación de trabajadores de primera línea en el Centro de administración de Microsoft 365" lightbox="media/flw-onboarding-wizard-get-started.png":::
 
-2. Cuando esté listo, seleccione **Comenzar** para ejecutar el asistente.
+2. Cuando esté listo, seleccione **Introducción** para ejecutar el asistente.
 
 3. Escriba un nombre para su equipo, agregue uno o más propietarios del equipo y seleccione una configuración de privacidad. Después, elija si desea crear su equipo desde cero o a partir de una plantilla de equipo. Las plantillas de equipo incluyen fichas y canales predefinidos, que optimizan el equipo para una necesidad o proyecto empresarial en particular.
 
@@ -68,7 +65,7 @@ Consulte este breve vídeo para obtener información general sobre cómo ejecuta
 
     A continuación, seleccione una ubicación y asigne una licencia de Microsoft 365 F a cada miembro del equipo. Si no tiene suficientes licencias, puede seleccionar **Comprar más licencias** para comprar más licencias.  
 
-6. Elija quién recibe el correo electrónico de estado una vez completado el asistente. El correo electrónico contiene información sobre el éxito y el error sobre las acciones realizadas por el asistentecrear&mdash; el equipo, agregar miembros al equipo y asignar una licencia y un paquete de directiva a cada miembro del equipo. Use esta información para solucionar los errores que puedan producirse.
+6. Elija quién recibe el correo electrónico de estado una vez completado el asistente. El correo electrónico contiene información sobre el éxito y el error sobre las acciones realizadas por el asistente&mdash;al crear el equipo, agregar miembros al equipo y asignar una licencia y un paquete de directiva a cada miembro del equipo. Use esta información para solucionar los errores que puedan producirse.
 
     :::image type="content" source="media/flw-onboarding-wizard-email-recipients.png" alt-text="Captura de pantalla de la página Agregar destinatarios de correo electrónico de estado del asistente" lightbox="media/flw-onboarding-wizard-email-recipients.png":::
 
@@ -84,8 +81,8 @@ Consulte este breve vídeo para obtener información general sobre cómo ejecuta
 
 Después de ejecutar el asistente, es importante lo siguiente:
 
-- Informe a los trabajadores de primera línea y a los administradores de que se les han asignado licencias de Teams.
-- Si su organización usa dispositivos compartidos, asegúrese de que Teams esté instalado en esos dispositivos. Los usuarios que haya agregado al equipo recibirán un correo electrónico de bienvenida en el que se les pedirá que abran Teams.
+- Informe a sus trabajadores y administradores de primera línea de que se les han asignado licencias de Teams.
+- Si su organización usa dispositivos compartidos, asegúrese de que Teams está instalado en esos dispositivos. Los usuarios que agregó al equipo recibirán un correo electrónico de bienvenida en el que se les pedirá que abran Teams.
 - Si su organización usa un modelo "traer su propio dispositivo" (BYOD), informe a cada usuario que haya agregado al equipo de que tiene que descargar e instalar Teams en sus dispositivos. También recibirán un correo electrónico de bienvenida en el que se les pedirá que descarguen Teams.
 
     > [!NOTE]
@@ -96,4 +93,4 @@ Cuando el empleado de la primera línea abre Teams por primera vez, recibirá un
 ## <a name="related-articles"></a>Artículos relacionados
 
 - [Administrar los paquetes de directivas para Teams](manage-policy-packages.md)
-- [Usar plantillas de equipo en el centro de administración de Teams](get-started-with-teams-templates-in-the-admin-console.md)
+- [Usar plantillas de equipo en el Centro de administración de Teams](get-started-with-teams-templates-in-the-admin-console.md)

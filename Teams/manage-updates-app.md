@@ -1,5 +1,5 @@
 ---
-title: Administrar la aplicación Actualizaciones para su organización
+title: Administrar la aplicación de Novedades para su organización
 author: daisyfell
 ms.author: daisyfeller
 ms.reviewer: samanro
@@ -10,7 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 searchScope:
 - Microsoft Teams
-description: Obtenga información sobre cómo administrar la aplicación Actualizaciones en Teams para los usuarios de su organización.
+description: Obtenga información sobre cómo administrar la aplicación Novedades en Teams para los usuarios de su organización.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -19,20 +19,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 27e0cf72149542f7822b1857489be685f6a21546
-ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
+ms.openlocfilehash: 4402c2218b8e0e7be50147809e5318034f05eaae
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66103397"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494797"
 ---
-# <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Actualizaciones de su organización en Microsoft Teams
+# <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación de Novedades para su organización en Microsoft Teams
 
-## <a name="what-is-the-updates-app"></a>¿Qué es la aplicación Actualizaciones?
+## <a name="what-is-the-updates-app"></a>¿Cuál es la aplicación Novedades
 
-Las actualizaciones de Microsoft Teams aplicación proporcionan un lugar centralizado para que los miembros de su organización creen, revisen y envíen actualizaciones. Al crear plantillas, puede usar la aplicación Actualizaciones para realizar un seguimiento de todo lo que necesita su organización. Las actualizaciones están disponibles tanto para equipos de escritorio como para móviles.
+La Novedades en la aplicación Microsoft Teams proporciona un lugar centralizado para que los miembros de su organización creen, revisen y envíen actualizaciones. Al crear plantillas, puede usar la aplicación Novedades para realizar un seguimiento de todo lo que necesita su organización. Novedades está disponible tanto para equipos de escritorio como para móviles.
 
-En Teams, los usuarios pueden obtener actualizaciones en la tienda de aplicaciones de Teams. Verán todas las actualizaciones que deben enviar en la página **Enviar** . Puede compartir las [Comenzar del artículo Actualizaciones](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a) con los usuarios para ayudarles a sentirse cómodos con las actualizaciones.
+En Teams, los usuarios pueden obtener Novedades en la tienda de aplicaciones de Teams. Verán todas las actualizaciones que deben enviar en la página **Enviar** . Puede compartir el [artículo Introducción a Novedades](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a) con los usuarios para ayudarles a sentirse cómodos con Novedades.
 
 [![Imagen de la página Enviar en Teams para escritorio.](media/updates-submit-small.png)](media/updates-submit.png#lightbox)
 
@@ -40,25 +40,25 @@ Los usuarios pueden ver las actualizaciones que han asignado en la página **Rev
 
 [![Imagen de la página Revisar en Teams para escritorio.](media/updates-home-small.png)](media/updates-home.png#lightbox)
 
-Cuando se asigna una actualización a un usuario, se mostrará en su fuente de actividades de Teams. Los usuarios también pueden ver todas sus solicitudes de actualización actuales y envíos anteriores en la aplicación Actualizaciones. Además, cualquier persona puede crear plantillas y enviar solicitudes de actualización.
+Cuando se asigna una actualización a un usuario, se mostrará en su fuente de actividades de Teams. Los usuarios también pueden ver todas sus solicitudes de actualización actuales y envíos anteriores en la aplicación Novedades. Además, cualquier persona puede crear plantillas y enviar solicitudes de actualización.
 
-Las actualizaciones se suministran con plantillas predefinidas para escenarios empresariales comunes y la opción de crear su propia plantilla. Cualquier persona puede crear una plantilla para nuevos tipos de actualizaciones.
+Novedades incluye plantillas predefinidas para escenarios empresariales comunes y la opción de crear su propia plantilla. Cualquier persona puede crear una plantilla para nuevos tipos de actualizaciones.
 
 ## <a name="example-scenario"></a>Ejemplo ficticio
 
-Los empleados de una tienda de ropa son responsables de abrir y cerrar la tienda todos los días. Todas las mañanas, el coordinador del turno rellena la actualización de apertura de store, que es una plantilla predefinida en la aplicación Actualizaciones. En esta actualización, describen cualquier problema con el cierre de la noche anterior, responden preguntas sobre la limpieza de la tienda e informan de los suministros que necesitan reposición. Enviar una actualización les permite comunicar sus necesidades para store y cualquier problema de forma rápida y eficaz. Las actualizaciones diarias también ofrecen a los asociados de la tienda la oportunidad de resaltar lo que va bien.
+Los empleados de una tienda de ropa son responsables de abrir y cerrar la tienda todos los días. Todas las mañanas, el coordinador de turno rellena la actualización de apertura de store, que es una plantilla predefinida en la aplicación Novedades. En esta actualización, describen cualquier problema con el cierre de la noche anterior, responden preguntas sobre la limpieza de la tienda e informan de los suministros que necesitan reposición. Enviar una actualización les permite comunicar sus necesidades para store y cualquier problema de forma rápida y eficaz. Las actualizaciones diarias también ofrecen a los asociados de la tienda la oportunidad de resaltar lo que va bien.
 
-En las instalaciones de fabricación de la tienda, los empleados realizan comprobaciones de seguridad con actualizaciones con dispositivos móviles.
+En las instalaciones de fabricación de la tienda, los empleados realizan comprobaciones de seguridad con Novedades el uso de dispositivos móviles.
 
 ![Imagen de la plantilla tutorial de seguridad semanal en un dispositivo móvil.](media/updates-mobile.png)
 
-Mientras tanto, un equipo de trabajadores remotos está actualizando el sitio web de la tienda. Están distribuidas en distintas zonas horarias, por lo que las reuniones de pie diarias no son prácticas. En su lugar, cada uno de los miembros del equipo envía al líder del equipo informes diarios de actualizaciones sobre su progreso.
+Mientras tanto, un equipo de trabajadores remotos está actualizando el sitio web de la tienda. Están distribuidas en distintas zonas horarias, por lo que las reuniones de pie diarias no son prácticas. En su lugar, cada uno de los miembros del equipo envía informes diarios de Novedades sobre su progreso al jefe de equipo.
 
-[Descarga el libro de búsqueda Actualizaciones](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409) para ver más ejemplos de lo que puedes hacer con las actualizaciones.
+[Descarga el lookbook Novedades](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409) para ver más ejemplos de lo que puedes hacer con Novedades.
 
 ## <a name="required-permissions-and-licenses"></a>Permisos y licencias necesarios
 
-Necesita permiso para que los siguientes elementos implementen actualizaciones:
+Necesita permiso para que los siguientes elementos implementen Novedades:
 
 - Permisos para crear una base de datos de Microsoft Dataverse.
 
@@ -74,14 +74,14 @@ Necesita permiso para que los siguientes elementos implementen actualizaciones:
 
 El modelo de datos común (CDM) es el lenguaje de datos compartido que usan las aplicaciones empresariales y analíticas en Microsoft Dataverse. Se compone de un conjunto de esquemas de datos estandarizados y extensibles publicados por Microsoft y nuestros asociados que permite la coherencia de los datos y su significado en las aplicaciones y los procesos empresariales. Obtenga más información sobre el [modelo de datos común](/common-data-model/).
 
-Las actualizaciones que se crean a partir de una plantilla siguen almacenando datos en Microsoft Dataverse, como su título, detalles, id. de plantilla y mucho más. Obtenga más información sobre  [Almacenamiento de datos para Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+Novedades que se crean a partir de una plantilla siguen almacenando datos en Microsoft Dataverse, como su título, detalles, id. de plantilla y mucho más. Obtenga más información sobre  [Almacenamiento de datos para Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
->Si elimina la plantilla de formulario en el sitio Microsoft Forms, se romperá la plantilla Actualizaciones y los usuarios no podrán enviar la actualización. Los usuarios reciben el error "CDB TableNotFound" al intentar abrir una plantilla que se ha eliminado en Microsoft Forms.
+>Si elimina la plantilla de formulario en el sitio de Microsoft Forms, se romperá el Novedades plantilla y los usuarios no podrán enviar la actualización. Los usuarios reciben el error "CDB TableNotFound" al intentar abrir una plantilla que se ha eliminado en Microsoft Forms.
 
-## <a name="updates-teams-app-permissions"></a>Actualizar los permisos de la aplicación Teams
+## <a name="updates-teams-app-permissions"></a>Novedades permisos de aplicaciones de Teams
 
-La aplicación Actualizaciones de Teams le permite acceder a las siguientes características:
+La aplicación Novedades Teams le permite acceder a las siguientes características:
 
 - Recibir los mensajes y los datos que usted solicite.
 
@@ -102,46 +102,48 @@ La aplicación Actualizaciones de Teams le permite acceder a las siguientes cara
 
 - Use la información del equipo para ponerse en contacto con ellos.
 
-## <a name="disable-the-updates-app"></a>Deshabilitar la aplicación Actualizaciones
+## <a name="disable-the-updates-app"></a>Deshabilitar la aplicación Novedades
 
-La aplicación Actualizaciones está disponible de forma predeterminada. Puede deshabilitar la aplicación en el Centro de administración de Microsoft Teams.
+La aplicación Novedades está disponible de forma predeterminada. Puede deshabilitar la aplicación en el Centro de administración de Microsoft Teams.
 
   1. Inicie la sesión en el Centro de administración de Teams
 
   2. Vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**.
 
-  3. Busca la aplicación Actualizaciones.
+  3. Busca la aplicación Novedades.
 
-     [![Captura de pantalla de la navegación del Centro de administración con Las aplicaciones de Teams > Administrar aplicaciones resaltado.](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
+     [![Captura de pantalla de la navegación del centro de Administración con las aplicaciones de Teams > Administrar aplicaciones resaltada.](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
 
-  4. Selecciona **Actualizaciones**.
+  4. Seleccione **Novedades**.
 
   5. Seleccione el botón de alternancia para deshabilitar la aplicación para su organización.
-    ![Imagen del botón de alternancia para habilitar o deshabilitar las actualizaciones.](media/toggle-updates.png)
+    ![Imagen del botón de alternancia para habilitar o deshabilitar Novedades.](media/toggle-updates.png)
 
-## <a name="pin-updates-to-teams"></a>Anclar actualizaciones a Teams
+## <a name="pin-updates-to-teams"></a>Anclar Novedades a Teams
 
 Las directivas de configuración de aplicaciones le permiten personalizar Teams para anclar las aplicaciones que son más importantes para los usuarios de sus usuarios. Las aplicaciones se anclan en la barra de aplicaciones (la barra situada en el lateral del cliente de escritorio de Teams y en la parte inferior de los clientes móviles de Teams), donde los usuarios pueden acceder a ellas de forma rápida y sencilla.
 
-Para anclar la aplicación Actualizaciones a los usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva de configuración de aplicación personalizada. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
+Para anclar la aplicación Novedades para los usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva de configuración de aplicación personalizada. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
 
 ## <a name="retention-policy"></a>Directiva de retención
 
-Las actualizaciones creadas desde la aplicación Actualizaciones se almacenan en el entorno predeterminado de Microsoft Dataverse, que no admite copias de seguridad en este momento. Obtenga más información sobre cómo [Respaldar y restaurar entornos - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
+Novedades creadas a partir de la aplicación Novedades se almacenan en el entorno predeterminado de Microsoft Dataverse, que no admite copias de seguridad en este momento. Obtenga más información sobre cómo [Respaldar y restaurar entornos - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
 Los datos almacenados en Forms no se eliminarán hasta que los creadores de la plantilla los limpien de la pestaña **formularios eliminados** de la aplicación web de Microsoft Forms.
 
-## <a name="conditional-access-policies"></a>Directivas de acceso condicional
+## <a name="conditional-access-and-permission-policies"></a>Directivas de permisos y acceso condicional
 
-Actualmente, la aplicación Actualizaciones de Teams no es compatible con las directivas de acceso condicional establecidas para Microsoft Teams.
+La aplicación Novedades de Teams no es compatible actualmente con las directivas de acceso condicional establecidas para Microsoft Teams.
+
+Puede usar [las directivas de permisos de la aplicación Teams](teams-app-permission-policies.md) para administrar Novedades.
 
 ## <a name="data-limitations"></a>Limitaciones de datos
 
-Cada usuario puede crear como máximo 400 plantillas de actualizaciones, y cada plantilla puede recopilar un máximo de 50 000 solicitudes en función de la capacidad actual de Microsoft Forms.
+Cada usuario puede crear como máximo 400 plantillas de Novedades, y cada plantilla puede recopilar un máximo de 50 000 solicitudes en función de la capacidad actual de Microsoft Forms.
 
 ## <a name="security"></a>Seguridad
 
-Desde la aplicación Actualizaciones de Teams, los usuarios tienen acceso para crear nuevas actualizaciones y ver las actualizaciones que han enviado y recibido. Los usuarios no tendrán acceso a las actualizaciones creadas por otros usuarios a menos que sean lectores de la solicitud.
+Desde la aplicación de Teams Novedades, los usuarios tienen acceso para crear nuevas actualizaciones y ver las actualizaciones que han enviado y recibido. Los usuarios no tendrán acceso a Novedades creadas por otros usuarios a menos que sean lectores de la solicitud.
 
 > [!Note]
 > A un usuario se le asigna un rol de visor de una solicitud si forma parte del chat o canal en el que se creó el informe de actualización o si el creador de la plantilla los agrega manualmente como visor. No podrán tomar medidas en la solicitud si no se les proporcionó ese rol cuando se creó el informe.
