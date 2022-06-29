@@ -17,19 +17,19 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para asociados de Microsoft o operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be75743752f34024baf7b2fd017557c2f0044ba6
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 48a045ea84cabf34ec6f95b4aa0f605a3155d50e
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823691"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240669"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
 Direct Routing admite la configuración de un controlador de borde de sesión (SBC) para servir a varios espacios empresariales.
 
 > [!NOTE]
-> Este escenario está diseñado para asociados de Microsoft y/o operadores RTC, denominados operadores más adelante en este documento. Una operadora vende servicios de telefonía entregados a Microsoft Teams a sus clientes. 
+> Este escenario está diseñado para asociados de Microsoft y/o operadores RTC, denominados operadores más adelante en este documento. Un operador vende servicios de telefonía entregados a Microsoft Teams a sus clientes. 
 
 Un transportista:
 - Implementa y administra un SBC en su centro de datos (los clientes no necesitan implementar un SBC y reciben servicios de telefonía del operador en el cliente de Teams).
@@ -38,7 +38,7 @@ Un transportista:
 - Administra la calidad de la llamada de un extremo a otro.
 - Cargos por separado para los servicios RTC.
 
-Microsoft no administra los operadores. Microsoft ofrece Sistema telefónico, una rama privada Exchange (PBX) y un cliente de Teams. Microsoft también certifica los teléfonos y los SBCs que se pueden usar con Sistema telefónico. Antes de elegir un operador, asegúrese de que su elección tiene un SBC certificado y puede administrar la calidad de voz de un extremo a otro.
+Microsoft no administra los operadores. Microsoft ofrece sistema telefónico, una central de intercambio (PBX) y un cliente de Teams. Microsoft también certifica los teléfonos y los SBCs que se pueden usar con Phone System. Antes de elegir un operador, asegúrese de que su elección tiene un SBC certificado y puede administrar la calidad de voz de un extremo a otro.
 
 A continuación se indican los pasos de implementación técnica para configurar el escenario.
 
@@ -52,17 +52,17 @@ A continuación se indican los pasos de implementación técnica para configurar
 2. Activar el nombre del subdominio.
 3. Configure el tronco del operador al inquilino del cliente y aprovisione usuarios.
 
-*Asegúrese de que comprende los conceptos básicos de DNS y cómo se administra el nombre de dominio en Microsoft 365. Consulte [Obtener ayuda con Microsoft 365 dominios](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) antes de continuar.*
+*Asegúrese de que comprende los conceptos básicos de DNS y cómo se administra el nombre de dominio en Microsoft 365. Consulte [Obtener ayuda con los dominios de Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) antes de continuar.*
 
 ## <a name="deploy-and-configure-the-sbc"></a>Implementar y configurar el SBC
 
 Para conocer los pasos detallados sobre cómo implementar y configurar sbcs para un escenario de hospedaje SBC, consulte la documentación del proveedor de SBC.
 
-- **Audiocodes:** Consulte [Notas de configuración de enrutamiento directo](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) para obtener información sobre la configuración del escenario de hospedaje de SBC, como se describe en "Conectando AudioCodes SBC a Microsoft Teams nota de configuración del modelo de hospedaje de enrutamiento directo". 
+- **Audiocodes:** Consulte [Notas de configuración de enrutamiento directo](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) para obtener información sobre la configuración del escenario de hospedaje de SBC, tal y como se describe en "Conectar AudioCodes SBC a nota de configuración del modelo de hospedaje de enrutamiento directo de Microsoft Teams". 
 - **Oracle:** Consulte [notas de configuración de enrutamiento directo](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) para la configuración del escenario de hospedaje SBC, tal y como se describe en la sección "Microsoft". 
-- **Comunicaciones de la cinta de opciones:** Vea [Ribbon Communications SBC Core Microsoft Teams Configuration Guide (Guía de configuración de Ribbon Communications SBC Core Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)) para obtener documentación sobre cómo configurar LOSC de Ribbon Core Series. Vea también [Procedimientos recomendados de la cinta de opciones: Configuración de operadores para Microsoft Teams edge de SBC de enrutamiento directo](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
-- **TE-Systems (anynode):** Regístrese en el sitio [de la página Community de TE-Systems](https://community.te-systems.de/) para obtener documentación y ejemplos sobre cómo configurar anynode SBC para varios espacios empresariales.
-- **Metaswitch:** Regístrese en el sitio [de la página Community metaswitch](https://manuals.metaswitch.com/MAN39555) para obtener documentación sobre cómo habilitar Perimeta SBC para varios inquilinos.
+- **Comunicaciones de la cinta de opciones:** Consulte [Guía de configuración de Microsoft Teams de Ribbon Communications SBC Core](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para obtener documentación sobre cómo configurar LOSC de Ribbon Core Series. Consulte también [Procedimientos recomendados de la cinta de opciones: Configuración de operadores para Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
+- **TE-Systems (anynode):** Regístrese en el sitio de la [comunidad de TE-Systems](https://community.te-systems.de/) para obtener documentación y ejemplos sobre cómo configurar anynode SBC para varios inquilinos.
+- **Metaswitch:** Regístrese en el sitio de la [comunidad de Metaswitch](https://manuals.metaswitch.com/MAN39555) para obtener documentación sobre cómo habilitar Perimeta SBC para varios inquilinos.
 
 > [!NOTE]
 > Asegúrese de que sabe cómo configurar el encabezado "Contacto". El encabezado Contacto se usa para buscar el inquilino del cliente en el mensaje de invitación entrante. 
@@ -81,9 +81,9 @@ En el ejemplo siguiente:
 
 Los subdominios **DEBEN** coincidir con el nombre FQDN del tronco que se configurará para el cliente y el FQDN en el encabezado Contacto al enviar la invitación a Microsoft 365. 
 
-Cuando llega una llamada al Microsoft 365 interfaz de enrutamiento directo, la interfaz utiliza el encabezado del contacto para encontrar el inquilino donde se debe buscar al usuario. Enrutamiento directo no usa la búsqueda de números de teléfono en la invitación, ya que es posible que algunos clientes tengan números no DID que se puedan superponer en varios inquilinos. Por lo tanto, el nombre fqdn en el encabezado de contacto es necesario para identificar el espacio empresarial exacto para buscar al usuario por el número de teléfono.
+Cuando llega una llamada a la interfaz de Enrutamiento directo de Microsoft 365, la interfaz usa el encabezado de contacto para buscar el espacio empresarial en el que se debe buscar al usuario. Enrutamiento directo no usa la búsqueda de números de teléfono en la invitación, ya que es posible que algunos clientes tengan números no DID que se puedan superponer en varios inquilinos. Por lo tanto, el nombre fqdn en el encabezado de contacto es necesario para identificar el espacio empresarial exacto para buscar al usuario por el número de teléfono.
 
-*Para obtener más información sobre cómo crear nombres de dominio en Microsoft 365 organizaciones, vea [Obtener ayuda con los dominios de Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
+*Para obtener más información sobre cómo crear nombres de dominio en organizaciones de Microsoft 365, consulte [Obtener ayuda con los dominios de Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 En el siguiente diagrama se resumen los requisitos para basar el dominio, los subdominios y el encabezado De contacto.
 
@@ -128,18 +128,22 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
 
 4. En este ejemplo, el inquilino ya tiene adatum.biz como un nombre de dominio comprobado. El asistente no pedirá verificación adicional porque customers.adatum.biz es un subdominio del nombre ya registrado. Sin embargo, si agrega un FQDN que no se ha comprobado antes, tendrá que pasar por el proceso de verificación. El proceso de verificación se [describe a continuación](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
-5. Seleccione **Siguiente** y, en la página **actualizar dns Configuración**, seleccione **Agregaré los registros DNS por mi cuenta** y **seleccionaré Siguiente**.
+5. Seleccione **Siguiente** y, en la página **Actualizar configuración DNS** , seleccione **Agregaré los registros DNS y seleccionaré** **Siguiente**.
 
-6. En la página siguiente, borre todos los valores (a menos que quiera usar el nombre de dominio para Exchange, SharePoint, Teams o Skype Empresarial), seleccione **Siguiente** y, después, seleccione **Finalizar**. Asegúrese de que el nuevo dominio está en el estado De instalación completa.
+6. En la página siguiente, borre todos los valores (a menos que quiera usar el nombre de dominio para Exchange, SharePoint, Teams o Skype Empresarial), seleccione **Siguiente** y, después, **seleccione Finalizar**. Asegúrese de que el nuevo dominio está en el estado De instalación completa.
 
 ### <a name="activate-the-domain-name"></a>Activar el nombre de dominio
 
-Después de registrar un nombre de dominio, debe activarlo agregando al menos un usuario con una licencia de Sistema telefónico y asignando una dirección SIP con la parte FQDN de la dirección SIP que coincida con el dominio base creado.
+Después de registrar un nombre de dominio, debe activarlo agregando al menos una cuenta de usuarios o recursos con licencia de Teams. Las cuentas aceptables se licenciarán con cualquiera de las siguientes SKU:
 
-> [!NOTE]
-> El inquilino del operador debe conservar al menos una licencia de Sistema telefónico asignada al inquilino para evitar la eliminación de la configuración de Skype Empresarial. 
+- Cuenta de usuario con Office 365 E1/E3/E5/A3/A5 o Microsoft 365 E3/E5/A3/A5
+- Cuenta de usuario con Office 365 F1/F3 o Microsoft 365 F1/F3
+- Cuenta de usuario con teléfono de área común
+- Cuenta de recursos con licencia de usuario virtual
 
-*Para obtener más información sobre cómo agregar usuarios en Microsoft 365 organizaciones, vea [Obtener ayuda con los dominios de Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
+Además, el UPN (nombre principal de usuario) de la cuenta o Skype Empresarial dirección SIP local debe usar el mismo FQDN que el dominio recién creado.
+
+Para obtener más información sobre cómo agregar usuarios en organizaciones de Microsoft 365, consulte [Obtener ayuda con los dominios de Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
 Por ejemplo: test@customers.adatum.biz
 
@@ -194,9 +198,16 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
 
 ### <a name="activate-the-subdomain-name"></a>Activar el nombre del subdominio
 
-Después de registrar un nombre de dominio, debe activarlo agregando al menos un usuario y asignar una dirección SIP con la parte de FQDN de la dirección SIP que coincida con el subdominio creado en el inquilino del cliente. 
+Después de registrar un nombre de subdominio, debe activarlo agregando al menos una cuenta de usuarios o recursos con licencia de Teams. Las cuentas aceptables se licenciarán con cualquiera de las siguientes SKU:
+ 
+-   Cuenta de usuario con Office 365 E1/E3/E5/A3/A5 o Microsoft 365 E3/E5/A3/A5
+-   Cuenta de usuario con Office 365 F1/F3 o Microsoft 365 F1/F3
+-   Cuenta de usuario con teléfono de área común
+-   Cuenta de recursos con licencia de usuario virtual
+ 
+Además, el UPN (nombre principal de usuario) de la cuenta o Skype Empresarial dirección SIP local debe usar el mismo FQDN que el subdominio recién creado.
 
-*Para obtener más información sobre cómo agregar usuarios en Microsoft 365 organizaciones, vea [Obtener ayuda con Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
+Para obtener más información sobre cómo agregar usuarios en organizaciones de Microsoft 365, consulte [Obtener ayuda con Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
 Por ejemplo: test@sbc1.customers.adatum.biz
 
@@ -222,7 +233,7 @@ Se introdujeron dos nuevas entidades:
    New-CSOnlinePSTNGateway -FQDN customers.adatum.biz -SIPSignalingport 5068 -ForwardPAI $true
     ```
 
-- Tronco derivado que no requiere registro. Es simplemente un nombre de host deseado agregado desde el tronco del portador. Deriva todos sus parámetros de configuración del tronco del portador. No es necesario crear el tronco derivado en PowerShell y la asociación con el tronco del operador se basa en el nombre fqdn (consulte los detalles a continuación).
+- Tronco derivado que no requiere registro. Es simplemente un nombre de host deseado agregado desde el tronco del portador. Deriva todos sus parámetros de configuración del tronco del portador. La asociación con el tronco del operador se basa en el nombre fqdn (consulte los detalles abajo).
 
 **Ejemplo y lógica de aprovisionamiento**
 
@@ -235,7 +246,7 @@ Se introdujeron dos nuevas entidades:
 Ejemplos:
 - Customers.adatum.biz: el tronco del transportista que debe crearse en el inquilino del transportista.
 
-- Sbc1.customers.adatum.biz: el tronco derivado en un inquilino de cliente que no es necesario crear en PowerShell. Usted puede agregar el nombre del tronco derivado en el inquilino del cliente en la directiva de ruteo de voz en línea sin crearla (utilice el FQDN del tronco derivado al configurar la directiva de ruteo de voz en TAC bajo Teams-Voice-Direct Routing-Voice rutas de campo SBCs inscritos).
+- Sbc1.customers.adatum.biz: el tronco derivado en un inquilino de cliente. Puede agregar el nombre del tronco derivado en el inquilino del cliente en la directiva de enrutamiento de voz en línea sin crearlo.
 
 - El operador tendrá que configurar el registro DNS que resuelve el FQDN del tronco derivado a la dirección IP SBC del operador.
 

@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cuando obtenga números de teléfono o números de portabilidad (transferencia) para su organización, es posible que deba obtener ayuda y soporte técnico en el servicio de asistencia técnica de TNS.
-ms.openlocfilehash: aac4598bfcbf4a26cf20375b39dae8c79df82202
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: bd12ac951e6a0f23ffeebf7a9d2e7655ce73d906
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675632"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240737"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>Servicios de números de teléfono (TNS): Servicio de asistencia
 
@@ -39,20 +39,18 @@ Hay un nuevo proceso para interactuar con el servicio de servicios de números d
 
 Para ponerse en contacto con el departamento de servicio:
 
-1. Inicie sesión en [el centro de administración de Teams](https://admin.teams.microsoft.com).
+1. Inicie sesión en el [Centro de administración de Teams](https://admin.teams.microsoft.com).
 
-2. En el panel izquierdo, seleccione **Voz** y, a continuación, **Teléfono números**.
+2. En el panel izquierdo, selecciona **Voz** y, a continuación, **Números de teléfono**.
 
-3. Seleccione **Agregar** o **Puerto**.
-
-4. En la parte superior de la página seleccione **Obtener número de teléfono de soporte técnico**. Verá el Centro de servicio de números de teléfono.
+3. En la esquina superior derecha de la página, haga clic en **Acciones** y, a continuación, seleccione **Obtener soporte técnico para números de teléfono**. Se le transferirá al Centro de **servicio de número de teléfono** (Portal de Service Desk).
 
 > [!NOTE]
-> Solo alguien del mismo espacio empresarial podrá crear un caso. Es decir, alguien de @fabrikam.com no puede crear un caso en nombre de @contoso.com.
+> Solo una persona del mismo espacio empresarial puede crear un caso. Por ejemplo, alguien de @fabrikam.com no puede crear un caso en nombre de @contoso.com.
 
 Desde el Centro de servicio de números de teléfono, puede crear nuevos casos, ver casos existentes, comunicarse con el departamento de servicio y administrar su perfil de usuario. Estas tareas se describen con más detalle en las secciones siguientes.
 
-- **Teléfono Centro de servicio de números**: vaya a la página principal del portal.
+- **Centro de servicio de números de teléfono** : vaya a la página principal del portal.
 
 - **[Crear un nuevo caso](#create-a-new-case)** : envía una nueva solicitud o consulta general.
 
@@ -78,7 +76,7 @@ Para crear un caso nuevo, siga estos pasos:
 
 2. Proporcione los detalles del caso tal y como se describe en la [ sección siguiente](#provide-case-details).
 
-3. Después de escribir todos los valores seleccione **Enviar**. Verá una nueva pantalla en la que puede ver el número de caso.
+3. Después de escribir todos los valores, seleccione **Enviar**. Verá una nueva pantalla donde puede ver el número de su caso.
 
 ### <a name="provide-case-details"></a>Proporcionar detalles del caso
 
@@ -134,7 +132,7 @@ El tipo de caso solo puede ser uno de los siguientes:
 
   - **Fecha y hora preferidas***: la fecha y hora en que desea que se cambie el tipo de inventario de los números. Vea Fecha y hora para obtener más información.
 
-  - **Casilla: entiendo que para poder actualizar el tipo de inventario es necesario cancelar la asignación de los números de teléfono**: Microsoft no puede procesar solicitudes de cambio de tipo de número de teléfono a menos que los números de teléfono de su espacio empresarial no estén asignados. Si solicita este cambio para una fecha futura, deberá asegurarse de que los números no estén asignados antes de la fecha y hora solicitadas.
+  - **Casilla: entiendo que para poder actualizar el tipo de inventario, mis números de teléfono deben desasignarse** : Microsoft no puede procesar solicitudes de cambio de tipo de número de teléfono a menos que no se asignen los números de teléfono de tu inquilino. Si solicita este cambio para una fecha futura, deberá asegurarse de que los números no estén asignados antes de la fecha y hora solicitadas.
 
   - **Lista de números de teléfono**: la lista de números de teléfono cuyo tipo desea cambiar. Cargue un archivo CSV con la lista de números de teléfono.
 
@@ -142,7 +140,7 @@ El tipo de caso solo puede ser uno de los siguientes:
 
   - **Tipo de número**: seleccione el tipo de los números. Consulte [Tipos de números de teléfono](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
-  - **Intentar obtener números de teléfono en el portal del Centro de administración de Teams**: ¿ha intentado comprar estos números de teléfono en el portal del Centro de administración de Microsoft Teams, donde se proporciona autoservicio?
+  - **Ha intentado obtener números de teléfono desde el portal del Centro de Administración de Teams**: ¿Ha intentado comprar estos números de teléfono desde el Centro de Administración de Microsoft Teams?
 
   - **Cantidad de números de teléfono necesarios**: el recuento de números de teléfono que desea comprar.
 
@@ -158,7 +156,7 @@ El tipo de caso solo puede ser uno de los siguientes:
 
   - **Asignar un nombre a la solicitud de portabilidad**: proporcione un nombre fácil de recordar para la solicitud de portabilidad.
 
-  - **Fecha y hora solicitadas para el porte***: la fecha y hora en que desea que los números se porten a Microsoft. Tenga en cuenta que la portabilidad en esta fecha no está garantizada, ya que el propietario del número actual tiene que aprobar nuestra solicitud de portabilidad primero. Funciones de fecha y hora
+  - **Fecha y hora solicitadas para el porte***: la fecha y hora en que desea que los números se porten a Microsoft. Esta no es una fecha de portabilidad garantizada porque el propietario del número actual tiene que aprobar primero nuestra solicitud de portabilidad. Funciones de fecha y hora
 
   - **Lista de portabilidad de números**: la lista de números de teléfono que desea portar a Microsoft. Cargue un archivo CSV con la lista de números de teléfono.
 
@@ -195,7 +193,7 @@ Para ver sus casos seleccione **Ver mis casos** y, a continuación, el número d
 
 - **Filtrar los casos** seleccionando **Casos abiertos**, **Todos los casos** o **Casos cerrados**.
 
-- **Comuníquese con el servicio de asistencia de TNS** en relación con su caso abriendo un caso existente, desplazándose hacia abajo y seleccionando **Agregar comentario**. Aparecerá una nueva ventana. Escriba el mensaje en el cuadro de comentario. Adjunte documentos adicionales (si están disponibles) que puedan ayudarle con su solicitud y seleccione **Enviar**.
+- **Comuníquese con el servicio de asistencia de TNS** en relación con su caso abriendo un caso existente, desplazándose hacia abajo y seleccionando **Agregar comentario**. Aparecerá una nueva ventana. Escriba el mensaje en el cuadro de comentario. Adjunte los documentos auxiliares (si está disponible) y, a continuación, seleccione **Enviar**.
 
   Las respuestas del **servicio de asistencia de TNS** se mostrarán en la misma línea de tiempo. Cuando haya una actualización en su caso, recibirá una notificación automática de la actualización por correo electrónico.
 
@@ -209,7 +207,7 @@ Para ver sus casos seleccione **Ver mis casos** y, a continuación, el número d
 
 - Para obtener información sobre los planes de llamadas que están disponibles en su país o región, consulte [Países y regiones disponibles para audioconferencias y planes de llamadas](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- Para obtener información que pueda ayudarle a seleccionar los tipos de números de teléfono adecuados para su organización, consulte [Diferentes tipos de números de teléfono](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+- Para obtener información sobre los tipos de números de teléfono adecuados para su organización, vea [Diferentes tipos de números de teléfono](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
 - Para obtener información sobre cómo administrar números de teléfono de su organización, consulte [Administrar números de teléfono de su organización](manage-phone-numbers-for-your-organization.md).
 

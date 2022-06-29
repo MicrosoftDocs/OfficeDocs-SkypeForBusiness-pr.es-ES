@@ -14,18 +14,18 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo configurar la autenticación moderna para Salas de Microsoft Teams
-ms.openlocfilehash: 5667b4bc2ab356ff9776282a6142a22abd33caa1
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: c50b197f554605b291e6af51b140fa6a2599e408
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760882"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240629"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Autenticación en Salas de Microsoft Teams
 
 La administración de cuentas para Salas de Microsoft Teams se controla en el nivel de aplicación. La aplicación se conecta a Microsoft Teams, Skype Empresarial y Exchange para obtener recursos para la cuenta de recursos con el fin de habilitar las experiencias de llamada y reunión. Salas de Teams usa una cuenta de recursos dedicada para permitir funcionalidades siempre activadas, escenarios de llamadas (para dispositivos configurados con un plan de llamadas) y mecanismos de bloqueo personalizados. Esto significa que la autenticación para Salas de Teams se realiza de una manera diferente a la de los dispositivos del usuario final.  
 
-Se recomienda la autenticación moderna para todos los clientes que usen Salas de Microsoft Teams con Microsoft 365 o Office 365. Si tiene una implementación local de Exchange servidor o Skype Empresarial servidor, configure la [autenticación moderna híbrida](/office365/enterprise/hybrid-modern-auth-overview) con Azure Active Directory (Azure AD) para habilitar el uso de la autenticación moderna.
+Se recomienda la autenticación moderna para todos los clientes que usen Salas de Microsoft Teams con Microsoft 365 o Office 365. Si tiene una implementación local de Exchange Server o Skype Empresarial servidor, configure la [autenticación moderna híbrida](/office365/enterprise/hybrid-modern-auth-overview) con Azure Active Directory (Azure AD) para habilitar el uso de la autenticación moderna.
 
 La autenticación moderna se admite en Salas de Microsoft Teams versión 4.4.25.0 y posteriores.
 
@@ -37,7 +37,7 @@ La otra diferencia clave entre cómo funciona la autenticación moderna en Salas
 
 ## <a name="enable-modern-authentication-on-microsoft-teams-rooms"></a>Habilitar la autenticación moderna en Salas de Microsoft Teams
 
-Para que Salas de Microsoft Teams use la autenticación moderna con Skype Empresarial y Exchange, habilite la configuración del lado cliente para la autenticación moderna en Salas de Microsoft Teams. Puede hacerlo en la configuración del dispositivo o en el archivo de configuración XML.
+Para Salas de Microsoft Teams usar la autenticación moderna con Skype Empresarial y Exchange, habilite la configuración del lado cliente para la autenticación moderna en Salas de Microsoft Teams. Puede hacerlo en la configuración del dispositivo o en el archivo de configuración XML.
 
 > [!NOTE]
 > Antes de habilitar la configuración del lado cliente para la autenticación moderna, asegúrese de que su entorno está configurado correctamente para usar la autenticación moderna.
@@ -61,7 +61,7 @@ Para aplicar la configuración, consulte [Administrar una configuración de la c
 
 ## <a name="prepare-your-environment-for-modern-authentication"></a>Preparar el entorno para la autenticación moderna
 
-Antes de empezar, asegúrese de comprender los modelos de identidad que se usan con Office 365 y Azure AD. Encontrará más información en [Office 365 modelos de identidad y Azure Active Directory](/Office365/Enterprise/about-office-365-identity) y en [Identidad híbrida y sincronización de directorios para Microsoft 365 o Office 365](/Office365/Enterprise/plan-for-directory-synchronization).
+Antes de empezar, asegúrese de comprender los modelos de identidad que se usan con Office 365 y Azure AD. Puede encontrar más información en [Office 365 modelos de identidad y Azure Active Directory](/Office365/Enterprise/about-office-365-identity) y en [Identidad híbrida y sincronización de directorios para Microsoft 365 o Office 365](/Office365/Enterprise/plan-for-directory-synchronization).
 
 ### <a name="enable-modern-authentication-in-microsoft-365-or-office-365"></a>Habilitar la autenticación moderna en Microsoft 365 o Office 365
 
@@ -73,9 +73,9 @@ Para obtener más información sobre cómo deshabilitar la autenticación básic
 
 ## <a name="hybrid-modern-authentication"></a>Autenticación moderna híbrida
 
-Para garantizar una autenticación correcta en su servidor Exchange local o Skype Empresarial servidor, debe asegurarse de que la cuenta de recursos que se usa con Salas de Microsoft Teams está configurada para obtener autorización de Azure AD.
+Para garantizar una autenticación correcta en su servidor local de Exchange y/o Skype Empresarial servidor, debe asegurarse de que la cuenta de recursos que se usa con Salas de Microsoft Teams está configurada para obtener autorización de Azure AD.
 
-Salas de Teams los flujos de autenticación varían según la configuración de autenticación. Para los clientes que usan un dominio administrado, Salas de Teams usa credenciales de contraseña de propietario de recursos de [OAuth 2.0](/azure/active-directory/develop/v2-oauth-ropc) con Azure Active Directory. Sin embargo, para los clientes que usan un dominio federado, se usa [la Flow de aserción portadora de OAuth 2.0 SAML](/azure/active-directory/develop/v2-saml-bearer-assertion).
+Salas de Teams los flujos de autenticación varían según la configuración de autenticación. Para los clientes que usan un dominio administrado, Salas de Teams usa [credenciales de contraseña de propietario de recursos de OAuth 2.0](/azure/active-directory/develop/v2-oauth-ropc) con Azure Active Directory. Sin embargo, para los clientes que usan un dominio federado, se usa [OAuth 2.0 SAML Bearer Assertion Flow](/azure/active-directory/develop/v2-saml-bearer-assertion) .
 
 > [!NOTE]
 > Es posible que su proveedor de identidades necesite configuraciones o configuraciones específicas para la integración con Azure Active Directory o Office 365. Póngase en contacto con su proveedor de identidades si necesita ayuda para configurar la autenticación con Salas de Teams.
@@ -83,7 +83,7 @@ Salas de Teams los flujos de autenticación varían según la configuración de 
 
 ### <a name="prerequisites-specific-to-microsoft-teams-rooms"></a>Requisitos previos específicos de Salas de Microsoft Teams
 
-Los requisitos previos para habilitar la autenticación moderna en la topología híbrida se tratan en [Información general sobre la autenticación moderna híbrida y requisitos previos para usarlo con servidores Skype Empresarial locales y Exchange](/office365/enterprise/hybrid-modern-auth-overview). Se aplican todos los requisitos previos descritos en el artículo.
+Los requisitos previos para habilitar la autenticación moderna en la topología híbrida se tratan en [Información general sobre la autenticación moderna híbrida y requisitos previos para usarlo con Skype Empresarial locales y servidores de Exchange](/office365/enterprise/hybrid-modern-auth-overview). Se aplican todos los requisitos previos descritos en el artículo.
 
 Sin embargo, como Salas de Microsoft Teams usa la autorización de [credenciales de contraseña del propietario del recurso](https://tools.ietf.org/html/rfc6749#section-1.3.3) y las API rest subyacentes para la autenticación moderna, a continuación se muestran diferencias importantes que debe tener en cuenta para Salas de Microsoft Teams.
 
@@ -104,10 +104,10 @@ Para habilitar la autenticación moderna híbrida con Skype Empresarial Server, 
 
 ### <a name="remove-or-disable-skype-for-business-and-exchange"></a>Quitar o deshabilitar Skype Empresarial y Exchange
 
-Si su configuración no permite la autenticación moderna híbrida o necesita quitar o deshabilitar la autenticación moderna híbrida para Exchange o Skype Empresarial, consulte [Quitar o deshabilitar la autenticación moderna híbrida de Skype Empresarial y Exchange](/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha).
+Si su configuración no permite la autenticación moderna híbrida o necesita quitar o deshabilitar la autenticación moderna híbrida para Exchange o Skype Empresarial, vea [Quitar o deshabilitar la autenticación moderna híbrida de Skype Empresarial y Exchange](/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha).
 
 ### <a name="azure-ad-conditional-access"></a>Acceso condicional de Azure AD
 
 Puede configurar una cuenta de recursos que se usa con Salas de Microsoft Teams para el acceso basado en IP/ubicación. Para obtener más información, vea [Acceso condicional: Bloquear el acceso por ubicación](/azure/active-directory/conditional-access/howto-conditional-access-policy-location).
 
-No se admiten otras directivas de acceso condicional. Para obtener más información sobre el cumplimiento de dispositivos, vea [Acceso condicional admitido y directivas de cumplimiento de Intune para Salas de Microsoft Teams](supported-ca-and-compliance-policies.md).
+Para obtener más información sobre el cumplimiento de dispositivos, vea [Acceso condicional admitido y directivas de cumplimiento de Intune para Salas de Microsoft Teams](supported-ca-and-compliance-policies.md).

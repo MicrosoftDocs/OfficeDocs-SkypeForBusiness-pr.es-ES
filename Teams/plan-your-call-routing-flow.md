@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo planear el flujo de enrutamiento de llamadas para operadores automáticos y colas de llamadas en Microsoft Teams.
-ms.openlocfilehash: 3be72f17f876eb694d3b46293f039ccc07d65fbb
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 7788bbe07b33a133af04c8a7fe8333ba66f7f2df
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124595"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240989"
 ---
 # <a name="plan-your-call-routing-flow"></a>Planear el flujo de enrutamiento de llamadas
 
@@ -47,8 +47,9 @@ Cuando un operador automático o una cola de llamadas redirigen las llamadas, pu
 
 - **Persona de la organización** : una persona de la organización que puede recibir llamadas de voz. Puede ser un usuario en línea o un usuario hospedado localmente mediante Skype Empresarial Server.
 - **Aplicación de voz** : otro operador automático o una cola de llamadas. Elija la cuenta de recursos asociada con el destino.
-- **Número de teléfono externo** : cualquier número de teléfono. (Consulte [los detalles técnicos de las transferencias externas](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
-- **Correo de voz**: el buzón de voz asociado a un grupo de Microsoft 365 que especifique. Puede elegir si quiere las transcripciones del correo de voz y "Deje un mensaje después del tono". símbolo del sistema.
+- **Número de teléfono externo** : cualquier número de teléfono. Consulta [los detalles técnicos de las transferencias externas](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
+
+- **Correo de voz** : el buzón de voz asociado a un grupo de Microsoft 365 que especifique. Puede elegir si quiere las transcripciones del correo de voz y "Deje un mensaje después del tono". símbolo del sistema.
 - **Operador** (solo operador automático): el operador definido para el operador automático. Definir un operador es opcional. Un operador puede ser cualquiera de los otros destinos de esta lista.
 
 Los operadores automáticos ofrecen opciones de enrutamiento de llamadas independientes para las llamadas recibidas fuera del horario laboral y los días festivos.

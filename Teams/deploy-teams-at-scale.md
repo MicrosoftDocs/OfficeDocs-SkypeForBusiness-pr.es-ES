@@ -15,18 +15,18 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 561eaf310201b99ada9cce4dde49746d58d77088
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: feffd8e6f651b4592e789cd24243f01417f1b966
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046029"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240739"
 ---
 # <a name="deploy-teams-at-scale-for-frontline-workers-in-microsoft-teams"></a>Implementar equipos a escala para los trabajadores de primera línea en Microsoft Teams
 
 > [!NOTE]
-> Esta característica se encuentra actualmente en vista previa privada. Si quieres participar en la versión preliminar privada, ponte en contacto con nosotros en [dscale@microsoft.com](mailto:dscale@microsoft.com).
+> Esta característica se encuentra actualmente en versión preliminar pública. Si desea participar, póngase en contacto con nosotros en [dscale@microsoft.com](mailto:dscale@microsoft.com).
+
 
 ## <a name="overview"></a>Información general
  
@@ -66,7 +66,7 @@ Tendrá que crear dos archivos CSV para cada lote de equipos que implemente:
     |**Nombre del equipo**|El nombre del equipo.|
     |**Id. de equipo existente**|Si va a agregar o quitar usuarios de un equipo existente, especifique el id. de equipo del equipo.|
     |**Visibilidad**|Tanto si el equipo es público (cualquier persona de su organización puede unirse) como privado (los usuarios necesitan la aprobación de los propietarios del equipo para unirse). Las opciones son **Pública** y **Privada**.|
-    |**Id. de plantilla de equipo**|Si va a crear un equipo a partir de una plantilla predefinida o personalizada, especifique el id. de plantilla de equipo. Vea [Comenzar con plantillas de equipo en el centro de administración de Teams](get-started-with-teams-templates-in-the-admin-console.md) para obtener una lista de identificadores y plantillas de equipo predefinidas. Si desea usar la plantilla de equipo predeterminada estándar, déjela en blanco.|
+    |**Id. de plantilla de equipo**|Si va a crear un equipo a partir de una plantilla predefinida o personalizada, especifique el id. de plantilla de equipo. Consulte [Introducción a las plantillas de equipo en el Centro de administración de Teams](get-started-with-teams-templates-in-the-admin-console.md) para obtener una lista de identificadores y plantillas de equipo predefinidas. Si desea usar la plantilla de equipo predeterminada estándar, déjela en blanco.|
 
 - **Un archivo CSV que asigna los usuarios que va a agregar a cada equipo**. Este archivo debe contener estas columnas necesarias, en el siguiente orden, empezando por la primera columna:
 
@@ -120,16 +120,16 @@ Use el ```New-CsBatchTeamsDeployment``` cmdlet para enviar un lote de equipos pa
 
 1. Instale PowerShell versión 7 o posterior. Para obtener instrucciones detalladas, vea [Instalar PowerShell en Windows](/powershell/scripting/install/installing-powershell-on-windows).
 1. Ejecute PowerShell en modo de administrador.
-1. Ejecute lo siguiente para desinstalar cualquier módulo de PowerShell Teams instalado anteriormente.
+1. Ejecute lo siguiente para desinstalar cualquier módulo de PowerShell de Teams instalado previamente.
 
     ```powershell
     Uninstall-module -Name MicrosoftTeams -Force -Allversions
     ```
 
     Si recibe un mensaje de error, significa que ya está listo. Vaya al paso siguiente.
-1. Descargue e instale la [última versión del módulo Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams).
+1. Descargue e instale la [última versión del módulo de PowerShell de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
-1. Ejecuta lo siguiente para conectarte a Teams.
+1. Ejecute lo siguiente para conectarse a Teams.
 
     ```powershell
     Connect-MicrosoftTeams
@@ -137,7 +137,7 @@ Use el ```New-CsBatchTeamsDeployment``` cmdlet para enviar un lote de equipos pa
 
     Cuando se le solicite, inicie sesión con sus credenciales de administrador.
 
-1. Ejecute lo siguiente para obtener una lista de los comandos del módulo Teams PowerShell.
+1. Ejecute lo siguiente para obtener una lista de los comandos del módulo de PowerShell de Teams.
 
     ```powershell
     Get-Command -Module MicrosoftTeams

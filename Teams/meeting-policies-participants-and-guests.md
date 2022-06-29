@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: Aprenda a administrar la configuración de la directiva de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: f63056740ab42c3dde0e05e8b9321173ea20091f
-ms.sourcegitcommit: c73f27ee7a208ae73784edf5b23adc699cf69327
+description: Aprenda a administrar la configuración de directivas de reunión en Teams para participantes e invitados.
+ms.openlocfilehash: 5770c4d998a28edf2b8fc8131650b98420e826f9
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66130773"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241139"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -44,7 +44,7 @@ Esta configuración controla qué participantes de la reunión esperan en la sal
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>Permitir que personas anónimas se unan a una reunión
 
-Esta configuración por organizador permite a cualquier persona unirse a las reuniones como usuario anónimo seleccionando el vínculo en la invitación a la reunión. Para más información, consulte[Únase a una reunión sin una cuenta de Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). La capacidad de los usuarios anónimos para unirse a reuniones también se controla en el nivel de su organización, la configuración más restrictiva será eficaz. Para obtener más información, consulte [Uso del centro de administración de Microsoft Teams para configurar directivas para toda la organización](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
+Esta configuración por organizador permite a cualquier persona unirse a las reuniones como usuario anónimo seleccionando el vínculo en la invitación a la reunión. Para más información, consulte[Únase a una reunión sin una cuenta de Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). La capacidad de los usuarios anónimos para unirse a reuniones también se controla en el nivel de su organización, la configuración más restrictiva será eficaz. Para obtener más información, consulte [Uso del Centro de administración de Microsoft Teams para configurar directivas para toda la organización](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Permitir que los usuarios anónimos inicien una reunión
 
@@ -70,11 +70,11 @@ Esta es una directiva por organizador. Esta configuración controla si las perso
 |**Usuarios en mi organización e invitados**     |Los usuarios autenticados de la organización, incluidos los invitados, se unen a la reunión directamente sin tener que esperar en la sala de espera. Los usuarios de organizaciones de confianza y los usuarios anónimos aguardan en la sala de espera. Esta configuración es la predeterminada.    |
 |**Usuarios de mi organización y de organizaciones de confianza e invitados**     |Los usuarios autenticados de la organización, incluidos los invitados y los usuarios de organizaciones de confianza, se unen a la reunión directamente sin tener que esperar en la sala de espera.  Los usuarios anónimos esperan en la sala de espera.   |
 |**Usuarios en mi organización**    |Los usuarios autenticados de la organización se unen a la reunión directamente sin tener que esperar en la sala de espera.  Los usuarios de organizaciones de confianza, invitados y usuarios anónimos esperan en la sala de espera.          |
-|**Solo organizador**    |Solo los organizadores de la reunión se pueden unir a la reunión directamente sin tener que esperar en la sala de espera. Todos los demás usuarios, incluidos los usuarios autenticados de la organización, los invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la página Teams opciones de reunión de cliente, aparece como "Solo yo".          |
-|**Solo usuarios invitados**    |Solo los usuarios invitados y los organizadores de la reunión pueden unirse a la reunión directamente sin tener que esperar en la sala de espera. Todos los demás usuarios, incluidos los usuarios autenticados de la organización, los invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la página Teams opciones de reunión del cliente, aparece como "Personas a las que invito". Los usuarios agregados como parte de un grupo de distribución tendrán que pasar por la sala de espera.      |
+|**Solo organizador**    |Solo los organizadores de la reunión se pueden unir a la reunión directamente sin tener que esperar en la sala de espera. Todos los demás usuarios, incluidos los usuarios autenticados de la organización, los invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la página de opciones de reunión de cliente de Teams, aparece como "Solo yo".          |
+|**Solo usuarios invitados**    |Solo los usuarios invitados y los organizadores de la reunión pueden unirse a la reunión directamente sin tener que esperar en la sala de espera. Todos los demás usuarios, incluidos los usuarios autenticados de la organización, los invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la página de opciones de reunión de cliente de Teams, aparece como "Personas a las que invito". Los usuarios agregados como parte de un grupo de distribución tendrán que pasar por la sala de espera.      |
 
  > [!NOTE]
-> Las organizaciones de confianza son dominios con los que se permiten las comunicaciones federadas en Teams. Si habilita **Permitir todos los dominios externos** para el acceso externo en el centro de administración de Teams, cualquier usuario autenticado dentro de cualquier Teams organización será de confianza. Si elige especificar dominios externos permitidos y bloquear todos los demás, los dominios permitidos se convertirán en organizaciones de confianza. Se considera que cualquier dominio bloqueado no es una organización de confianza.
+> Las organizaciones de confianza son dominios con los que se permiten las comunicaciones federadas en Teams. Si habilita **Permitir el acceso externo a todos los dominios externos** en el Centro de administración de Teams, cualquier usuario autenticado dentro de cualquier organización de Teams será de confianza. Si elige especificar dominios externos permitidos y bloquear todos los demás, los dominios permitidos se convertirán en organizaciones de confianza. Se considera que cualquier dominio bloqueado no es una organización de confianza.
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de espera
 
@@ -110,9 +110,20 @@ Esta configuración no se aplica a las reuniones del canal. Una vez que esta dir
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="qa-in-meetings"></a>Q&A en reuniones
+
+Esta es una directiva por organizador. Esta configuración controla si los organizadores pueden agregar la experiencia Q&A a sus reuniones. Esta configuración está desactivada de forma predeterminada. Obtenga más información sobre Q&A [aquí](/manage-qna-for-meetings). 
+
+Para el parámetro QnAEngagementMode controla esta directiva en PowerShell y Q&A también se puede ajustar en el portal de administración.
+
+|Valor de configuración |Comportamiento  |
+|---------|---------|
+|**Habilitado**     | Los organizadores pueden agregar Q&A al crear reuniones. |
+|**Deshabilitado**     | Los organizadores no tendrán la opción de agregar Q&A al crear reuniones.  |
+
 ## <a name="enable-meeting-policy-settings"></a>Habilitar la configuración de la directiva de reunión
 
-Para habilitar la configuración de la directiva de reunión, puede usar el [centro de administración de Teams](https://admin.teams.microsoft.com/policies/meetings) (Directivas de **reunión** > **Editar una directiva** > **participantes & invitados**) o el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) en Teams PowerShell. 
+Para habilitar la configuración de la directiva de reunión, puede usar el [Centro de administración de Teams](https://admin.teams.microsoft.com/policies/meetings) (Directivas de **reunión** > **Editar una directiva** > **Participantes & invitados**) o el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) en Teams PowerShell. 
 
 En este ejemplo, usamos PowerShell para modificar la directiva de reunión global para permitir que cualquier persona pueda iniciar una reunión o unirse a ella.
 
