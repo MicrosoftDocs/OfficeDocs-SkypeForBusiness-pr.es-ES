@@ -14,12 +14,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad9b66b249bc907071b00e1c2fd9f7b1c2148def
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 378467e9e540754023c4d69a53e50e6b1b403a1b
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64961303"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241019"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>Introducción a Teams para personal de primera línea
 
@@ -31,7 +31,7 @@ En esta sección:
 
 - [Inicio rápido: Teams para los trabajadores de primera línea](flw-quickstart.yml)
 - [Usar el asistente de incorporación de personal de primera línea para que su fuerza de trabajo esté en funcionamiento](flw-onboarding-wizard.md)
-- [Cómo proporcionar Teams a escala para personal de primera línea](flw-scripted-deployment.md)
+- [Implementar equipos a escala para los trabajadores de primera línea](deploy-teams-at-scale.md)
 - [Paquetes de directivas para trabajadores y administradores de primera línea](manage-policy-packages.md)
 - [Adaptar las aplicaciones de Teams para los trabajadores de primera línea](pin-teams-apps-based-on-license.md)
 - [Iniciar sesión en Teams](sign-in-teams.md)

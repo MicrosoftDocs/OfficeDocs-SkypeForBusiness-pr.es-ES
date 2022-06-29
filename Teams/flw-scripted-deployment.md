@@ -19,12 +19,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7123d45819f6e956ecf562fd321e7762b50e5ae6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 0c51c0e2225d73d140f424535f3dc1bd7a302afa
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674662"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240419"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Cómo proporcionar Teams a escala para personal de primera línea
 
@@ -105,7 +106,7 @@ Por ejemplo: .\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\d
 > [!IMPORTANT]
 > La forma en que se administran las credenciales en estos scripts puede no ser apropiada para su uso y son fáciles de cambiar para cumplir con sus necesidades. Siga siempre los estándares y procedimientos de su empresa para proteger cuentas de servicio e identidades administradas.
 
-Los scripts usan credenciales que se almacenan como archivos XML en $ENV:LOCALAPPDATA\keys, es decir, la carpeta AppData\Local. Es necesario llamar a la función auxiliar **Set-Creds** en el módulo **BulkAddFunctions.psm1** para establecer las credenciales que se usan para ejecutar estos scripts. Esta técnica elimina la necesidad de autenticarse en todos los puntos finales de servicio, manteniendo al mismo tiempo las credenciales en un almacén local. Desde cada script, las credenciales adecuadas se leen con la función auxiliar **Get-Creds** y esas credenciales se usan para conectarse a los distintos servicios.
+Los scripts usan credenciales que se almacenan como archivos XML en `$ENV:LOCALAPPDATA\keys`, es decir, la carpeta AppData\Local. Es necesario llamar a la función auxiliar **Set-Creds** en el módulo **BulkAddFunctions.psm1** para establecer las credenciales que se usan para ejecutar estos scripts. Esta técnica elimina la necesidad de autenticarse en todos los puntos finales de servicio, manteniendo al mismo tiempo las credenciales en un almacén local. Desde cada script, las credenciales adecuadas se leen con la función auxiliar **Get-Creds** y esas credenciales se usan para conectarse a los distintos servicios.
 
 Cuando llama a **SetCreds**, se le solicita que proporcione un nombre de archivo XML que se escribirá en $ENV:LOCALAPPDATA\keys. Es posible que tenga diferentes credenciales para diferentes servicios. Por ejemplo, puede tener diferentes credenciales para MicrosoftTeams, AzureAD y MSonline, en cuyo caso puede ejecutar **Set-Creds** más de una vez guardando cada archivo de credenciales con su propio nombre significativo.
 

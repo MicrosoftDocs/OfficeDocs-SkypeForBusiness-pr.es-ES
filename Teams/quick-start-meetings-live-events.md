@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 330faa00c2ba14f03e5219642fa274fc24eb8765
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: f33ab77f2b615bcdd08f14512585b653027c38e8
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913428"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240979"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Reuniones, seminarios web y eventos en vivo 
 
@@ -176,6 +176,8 @@ Para ejecutar un evento correcto, siga las prácticas que se describen a continu
 ### <a name="guidelines-for-your-end-users"></a>Directrices para los usuarios finales
 
 Los organizadores y moderadores deben implementar las siguientes recomendaciones:
+
+- Para reuniones con más de 10 participantes, use [Preguntas y respuestas](/MicrosoftTeams/manage-qna-for-teams) para dar a los participantes la oportunidad de formular y recibir respuestas formalmente a preguntas, así como participar en conversaciones estructuradas.
 
 - Para crear una reunión fluida, los organizadores de eventos pueden establecer moderadores predefinidos. Una vez iniciada una reunión, los moderadores también pueden promover a otros asistentes al rol de moderador.
 
