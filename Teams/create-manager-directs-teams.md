@@ -1,8 +1,8 @@
 ---
-title: Crear equipos de administradores de personas en Microsoft Teams
+title: Crear equipos de administrador de personas en Microsoft Teams
 ms.reviewer: pbethi
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,31 +16,31 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cad2ed4fdbcec7f13f5b2e932d34395fe4b4c339
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bd880e58b2c6818b8738afd5fb4e5efaf78642d4
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628362"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562589"
 ---
-# <a name="create-people-manager-teams-in-microsoft-teams"></a>Crear equipos de administradores de personas en Microsoft Teams
+# <a name="create-people-manager-teams-in-microsoft-teams"></a>Crear equipos de administrador de personas en Microsoft Teams
 
 
-Al ejecutar Microsoft Teams, en lugar de iniciar con una "pizarra en blanco" (sin equipos ni canales), le recomendamos encarecidamente que configure un marco base de equipos y canales. Esto ayuda a evitar la "expansión del equipo", donde los usuarios crean numerosos equipos cuando deben crear canales en equipos existentes. Para ayudarle a empezar con una estructura de equipos y canales bien diseñada, hemos creado un script de PowerShell que crea un equipo para cada uno de los administradores de personas de primera y segunda línea, con los informes directos de cada administrador como miembros del equipo. Se trata de un script "a tiempo" (no actualiza los equipos o canales automáticamente cuando se agregan o quitan personas de una organización). Pero es una herramienta valiosa que puede usar para imponer algún orden en su estructura Teams desde el principio. Este script lee Azure AD, obtiene una lista de administradores y sus informes directos. Usa esta lista para crear un equipo por cada administrador de personas. 
+Al implementar Microsoft Teams, en lugar de iniciarse con una "pizarra en blanco" (sin equipos ni canales), le recomendamos encarecidamente que configure un marco base de equipos y canales. Esto ayuda a evitar la "expansión de equipos", donde los usuarios crean numerosos equipos cuando deberían crear canales en equipos existentes. Para ayudarle a empezar con una estructura de equipos y canales bien diseñada, hemos creado un script de PowerShell que crea un equipo para cada uno de los administradores de personas de primera y segunda línea, con los informes directos de cada director como miembros del equipo. Se trata de un script "puntual" (no actualiza automáticamente los equipos o canales cuando se agregan o quitan personas de una organización). Pero es una herramienta valiosa que puede usar para imponer algún orden en la estructura de Teams desde el principio. Este script lee su Azure AD y obtiene una lista de administradores y sus informes directos. Usa esta lista para crear un equipo por administrador de personas. 
 
 ## <a name="how-to-use-the-powershell-script"></a>Cómo usar el script de PowerShell 
 
-Empiece ejecutando los administradores de exportación y su script de directs (lo que supone que ya ha ejecutado los [módulos](scripts/powershell-script-create-teams-from-managers-export-managers.md) [de PowerShell Conectar-AzureAd](/powershell/module/azuread/connect-azuread?view=azureadps-2.0) [y Conectar-MicrosoftTeams).](/powershell/module/teams/connect-microsoftteams?view=teams-ps) El *script Exportar administradores y* sus directos crea un archivo delimitado por tabulaciones (ExportedManagerDirects.txt) que enumera todos los administradores con sus informes directos. 
+Para empezar, ejecute [los administradores de exportación y su script de directs](scripts/powershell-script-create-teams-from-managers-export-managers.md) (lo que supone que ya ha ejecutado los módulos de PowerShell [Connect-AzureAd](/powershell/module/azuread/connect-azuread?view=azureadps-2.0) y [Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams?view=teams-ps) ). Los *administradores de exportación y su script de directs* crean un archivo delimitado por tabulaciones (ExportedManagerDirects.txt) que enumera a todos los administradores con sus informes directos. 
 
-A continuación, ejecute el script [Crear nuevos equipos de administrador de personas.](scripts/powershell-script-create-teams-from-managers-new-teams.md) Este script se lee en el ExportedManagerDirects.txt y crea un equipo para cada administrador, con los informes directos de ese administrador como miembros. Si algún administrador o directo no está habilitado para Teams, el script los omite y no crea un equipo. (Revise el informe y vuelva a ejecutar el script después de haber activado Teams para cualquier persona que lo necesite. El script no creará un segundo equipo para ningún administrador para el que ya haya creado un equipo).
+Después, ejecute el [script Crear nuevos equipos de administradores de personas](scripts/powershell-script-create-teams-from-managers-new-teams.md). Este script lee en el archivo de ExportedManagerDirects.txt y crea un equipo para cada administrador, con los informes directos de ese administrador como miembros. Si algún administrador o directo no está habilitado para Teams, el script los omite y no crea un equipo. (Revise el informe y vuelva a ejecutar el script después de haber activado Teams para cualquier persona que lo necesite. El script no creará un segundo equipo para ningún administrador para el que ya haya creado un equipo).
 
-Para cada equipo, el script crea un canal General y "Solo por diversión". 
+Para cada equipo, el script crea un canal General y "Just for fun". 
 
 ## <a name="best-practices"></a>Procedimientos recomendados
 
-- Pida a cada administrador de personas que agregue el sitio web de comunicaciones por crisis de su organización como pestaña al canal General de cada equipo. 
+- Pida a cada administrador de personas que agregue el sitio web de comunicaciones de crisis de su organización como una pestaña al canal General de cada equipo. 
 
-- Consulte la nueva aplicación Crisis Communications leyendo esta entrada de blog del 8 de marzo de 2020: Coordinar las comunicaciones de [crisis con Microsoft Teams + Power Platform.](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/coordinate-crisis-communications-using-microsoft-teams-power/ba-p/1216715)
+- Consulte la nueva aplicación Comunicaciones de crisis leyendo esta entrada de blog del 8 de marzo de 2020: [Coordinar las comunicaciones de crisis con Microsoft Teams + Power Platform](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/coordinate-crisis-communications-using-microsoft-teams-power/ba-p/1216715).
 
 ## <a name="related-topics"></a>Temas relacionados
 

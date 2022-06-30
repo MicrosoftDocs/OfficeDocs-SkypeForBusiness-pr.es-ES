@@ -1,7 +1,7 @@
 ---
 title: Asignar miembros y propietarios de equipo en Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76ca4a5dfd6d120b71e23d899ec9c7749db99827
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 1a8993882bb281dc7c9bd6b8bde95387a183b637
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125495"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562769"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Asignar miembros y propietarios de equipo en Microsoft Teams
 
@@ -43,8 +43,8 @@ En la tabla siguiente se muestra la diferencia entre un propietario y un miembro
 | ***Editar el nombre o la descripción del canal privado** |    No     |    N/D|
 |        ***Eliminar canal privado**         |    Sí     |    No|
 |          **Agregar canal compartido**          |    Sí     |    No|
-| **Editar el nombre o la descripción del canal compartido** |    No     |    <sup>No6</sup>|
-|        **Eliminar un canal compartido**         |    Sí     |    <sup>No6</sup>|
+| **Editar el nombre o la descripción del canal compartido** |    No     |    <sup>N.º 6</sup>|
+|        **Eliminar un canal compartido**         |    Sí     |    <sup>N.º 6</sup>|
 |          **Agregar miembros**          |  Sí<sup>3</sup>   |     No<sup>4</sup>    |
 |          **Solicitud para agregar miembros**          |  N/D   |     Sí<sup>5</sup>     |
 |           **Agregar aplicaciones**            |    Sí     |    Sí<sup>2</sup>|

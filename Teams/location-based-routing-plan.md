@@ -1,14 +1,14 @@
 ---
 title: Planear enrutamiento basado en la ubicación para el enrutamiento directo
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
-description: Obtenga información sobre cómo planear el enrutamiento Location-Based para Teams Teléfono enrutamiento directo.
+description: Obtenga información sobre cómo planear el enrutamiento Location-Based para el enrutamiento directo del teléfono de Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,18 +16,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f156b287969303edbf195c0054b3bb1eb631db2
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65304008"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562629"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 
 En algunos países y regiones, es ilegal omitir el proveedor de la red telefónica conmutada (RTC) para reducir los costos de llamadas de larga distancia. 
 
-En este artículo se describe lo que debe saber para usar Location-Based enrutamiento para restringir la omisión de pago para Microsoft Teams usuarios en función de su ubicación geográfica. Este artículo se aplica solo al enrutamiento directo. Location-Based enrutamiento no se aplica al plan de llamadas ni a Conexión con operador.
+En este artículo se describe lo que debe saber para usar Location-Based enrutamiento para restringir la omisión de pago para los usuarios de Microsoft Teams en función de su ubicación geográfica. Este artículo se aplica solo al enrutamiento directo. Location-Based enrutamiento no se aplica al plan de llamadas ni a la conexión del operador.
 
 Cuando esté listo para habilitar el enrutamiento Location-Based, consulte:
 
@@ -44,7 +44,7 @@ Location-Based enrutamiento le permite restringir la omisión de pago para un us
 
 Location-Based Routing utiliza la topología de red que defina para la región, el sitio y la subred de red. Cuando la omisión de pago está restringida para una ubicación, se asocia cada subred IP y cada puerta de enlace RTC de esa ubicación a un sitio de red. 
 
-En el momento de una llamada RTC, la ubicación de un usuario viene determinada por la subred IP a la que están conectados los puntos de conexión Teams del usuario. Si un usuario tiene varios clientes de Teams ubicados en sitios diferentes, el enrutamiento de Location-Based exige el enrutamiento de cada cliente por separado en función de la ubicación de los puntos de conexión de Teams.
+En el momento de una llamada RTC, la ubicación de un usuario está determinada por la subred IP a la que están conectados los puntos de conexión de Teams del usuario. Si un usuario tiene varios clientes de Teams ubicados en sitios diferentes, el enrutamiento de Location-Based exige el enrutamiento de cada cliente por separado en función de la ubicación de los puntos de conexión de Teams.
 
 Para obtener más información sobre la configuración de red, consulte [Configuración de red para las características de voz en la nube en Teams](cloud-voice-network-settings.md).
 
@@ -62,23 +62,23 @@ Cuando se usa Location-Based enrutamiento, se evalúa una llamada entre un usuar
 
 Si un usuario está habilitado para Location-Based Enrutamiento y el usuario se encuentra en un sitio donde están en vigor Location-Based Restricciones de enrutamiento, la omisión de pago está restringida para ese usuario. Teams usa la siguiente información para determinar si está restringida la omisión de peaje: 
 
-- Si el usuario de Teams está habilitado para Location-Based Enrutamiento según se define en la directiva de llamadas de Teams del usuario.
+- Si el usuario de Teams está habilitado para Location-Based Enrutamiento, tal y como se define en la directiva de llamadas de Teams del usuario.
 
-- La ubicación del sitio de red del punto de conexión del usuario Teams y si el sitio está habilitado o no para Location-Based enrutamiento.
+- La ubicación del sitio de red del punto de conexión del usuario de Teams y si el sitio está habilitado o no para Location-Based enrutamiento.
 
 - La ubicación del sitio de red de la puerta de enlace RTC que usa la llamada.
 
 - Si la puerta de enlace RTC que usa la llamada se ha habilitado para el enrutamiento de Location-Based.
 
-- En los escenarios de transferencia, la ruta de la llamada RTC se basa en la configuración de enrutamiento de la persona que transfiere la llamada y en la configuración de enrutamiento Location-Based del usuario Teams al que se transfiere la llamada.  
+- En los escenarios de transferencia, la ruta de la llamada RTC se basa en la configuración de enrutamiento de la persona que transfiere la llamada y en la configuración de enrutamiento Location-Based del usuario de Teams al que se transfiere la llamada.  
 
-- Para los escenarios de conferencia y llamada de grupo, si un usuario Teams para el que la omisión de pago está restringida es o ha sido parte de la llamada.
+- Para los escenarios de conferencia y llamada de grupo, si un usuario de Teams para el que está restringido el desvío de pagos es o ha sido parte de la llamada.
 
-Si no se puede completar una llamada, el usuario de Teams recibirá una notificación como se indica a continuación:
+Si una llamada no se puede completar, el usuario de Teams recibirá una notificación como se indica a continuación:
 
 - Para las llamadas RTC salientes, aparece el siguiente mensaje en la ventana de llamada: Llamada no permitida debido a la configuración de su organización.
 
-- Para las llamadas RTC entrantes, la llamada se enruta en función de la configuración de desvío de llamadas no respondida de Teams usuario, normalmente al correo de voz. Si el usuario Teams no tiene configurada la configuración de llamada sin responder, la llamada se desconectará.
+- Para las llamadas RTC entrantes, la llamada se enruta en función de la configuración de desvío de llamadas no respondida del usuario de Teams, normalmente al correo de voz. Si el usuario de Teams no tiene configurada la configuración de llamadas sin responder, la llamada se desconectará.
 
 ## <a name="apply-location-based-routing"></a>Aplicar enrutamiento Location-Based
 
@@ -106,7 +106,7 @@ La restricción de omisión de pago controla las condiciones en las que un usuar
 
 Si un usuario está sujeto a una restricción de omisión de pago, ese usuario debe estar habilitado para Location-Based Enrutamiento. Cuando el usuario habilitado se encuentra en un sitio habilitado para Location-Based Enrutamiento, el usuario debe realizar llamadas a través de una puerta de enlace que esté conectada al sitio y habilitada para Location-Based Enrutamiento. 
 
-Location-Based enrutamiento funciona determinando la ubicación actual del usuario en función de la dirección IP del extremo Teams del usuario y aplica las reglas en consecuencia. La ubicación de un usuario habilitado para Location-Based Enrutamiento se puede clasificar como sigue: 
+Location-Based Enrutamiento funciona determinando la ubicación actual del usuario en función de la dirección IP del punto de conexión de Teams del usuario y aplica las reglas en consecuencia. La ubicación de un usuario habilitado para Location-Based Enrutamiento se puede clasificar como sigue: 
 
 - **El usuario se encuentra en la misma Location-Based sitio habilitado para enrutamiento asociado a la puerta de enlace RTC donde se asigna su DID.**<br>En este escenario, el usuario se encuentra en un sitio de red configurado que está habilitado para Location-Based enrutamiento y el número de marcado directo (DID) del usuario termina en una puerta de enlace RTC que está en el mismo sitio de red. Por ejemplo, el usuario está en su oficina. 
 
@@ -141,7 +141,7 @@ Además, si establece GatewayLbrEnabledUserOverride en True, los usuarios habili
 
 ## <a name="restriction-rules"></a>Reglas de restricción
 
-Las reglas de restricción dependen de si un usuario de Teams está habilitado o no para Location-Based enrutamiento.
+Las reglas de restricción dependen de si un usuario de Teams está habilitado o no para Location-Based Enrutamiento.
 
 ### <a name="user-is-enabled-for-location-based-routing"></a>El usuario está habilitado para el enrutamiento Location-Based
 
@@ -163,7 +163,7 @@ Cuando un usuario está habilitado para Location-Based Enrutamiento, se aplica l
 
    - En cualquier otro escenario, como si el usuario está en itinerancia, la llamada no está permitida y se enruta a la configuración de desvío de llamadas no respondida del usuario (normalmente, correo de voz).  
    
-- **Para una llamada de VoIP 1:1 Teams y la transferencia a RTC**, tenga en cuenta lo siguiente:
+- **Para una llamada VoIP de Teams 1:1 y una transferencia a RTC**, tenga en cuenta lo siguiente:
 
   - El enrutamiento de la llamada (es decir, qué puerta de enlace RTC a la salida de la llamada en) se basa en la configuración de enrutamiento del usuario que transfiere la llamada.
 
@@ -175,7 +175,7 @@ Cuando un usuario está habilitado para Location-Based Enrutamiento, se aplica l
 
     La transferencia se permitirá si el usuario que se transfiere puede realizar esa llamada RTC en su ubicación actual con la misma puerta de enlace RTC.
 
-- **Para una llamada RTC entrante o saliente y la transferencia a otro usuario de Teams**, el permiso de la transferencia depende de lo siguiente:
+- **Para una llamada RTC entrante o saliente y la transferencia a otro usuario de Teams**, si se permite la transferencia depende de lo siguiente:
 
    - La configuración de enrutamiento del usuario que recibe la llamada transferida. 
    - La ubicación del sitio de red del punto de conexión.
@@ -186,7 +186,7 @@ Cuando un usuario está habilitado para Location-Based Enrutamiento, se aplica l
 
 ### <a name="user-is-not-enabled-for-location-based-routing"></a>El usuario no está habilitado para el enrutamiento Location-Based
 
-Cuando un usuario de Teams no está habilitado para el enrutamiento de Location-Based, todas las llamadas a y desde ese usuario deben redirigirse a través de una puerta de enlace RTC que no esté habilitada para Location-Based Enrutamiento. Una llamada entrante a este usuario enrutada a través de una puerta de enlace RTC habilitada para Location-Based enrutamiento se redirigirá a la configuración de desvío de llamadas no respondida del usuario (normalmente, correo de voz).
+Cuando un usuario de Teams no está habilitado para Location-Based Enrutamiento, todas las llamadas a ese usuario y desde ese usuario deben redirigirse a través de una puerta de enlace RTC que no esté habilitada para Location-Based enrutamiento. Una llamada entrante a este usuario enrutada a través de una puerta de enlace RTC habilitada para Location-Based enrutamiento se redirigirá a la configuración de desvío de llamadas no respondida del usuario (normalmente, correo de voz).
 
 ### <a name="decision-flows-for-inbound-and-outbound-calls"></a>Flujos de decisión para llamadas entrantes y salientes
 
@@ -205,10 +205,10 @@ En los diagramas siguientes se muestran los flujos de decisión para llamadas en
 
 En esta sección se describen diferentes escenarios para restringir la omisión de pago mediante Location-Based enrutamiento. Los escenarios comparan cómo se enrutan las llamadas para los usuarios que no están habilitados para el enrutamiento de Location-Based con los usuarios habilitados para Location-Based Enrutamiento.
 
-- [Teams usuario realiza una llamada saliente a la RTC](#teams-user-places-an-outbound-call-to-the-pstn)
-- [Teams usuario recibe una llamada entrante desde la RTC](#teams-user-receives-an-inbound-call-from-the-pstn)
-- [Teams las transferencias de usuario o las llamadas de desvío a otro usuario Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user)
-- [Teams las transferencias de usuario o las llamadas de desvío al punto de conexión RTC](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
+- [El usuario de Teams realiza una llamada saliente a la rtc.](#teams-user-places-an-outbound-call-to-the-pstn)
+- [El usuario de Teams recibe una llamada entrante desde la RTC](#teams-user-receives-an-inbound-call-from-the-pstn)
+- [Los usuarios de Teams transfieren o reenvía llamadas a otro usuario de Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user)
+- [Las transferencias o los reenvíos de llamadas de los usuarios de Teams al extremo RTC](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
 - [Tono de llamada simultáneo](#simultaneous-ringing)
 - [Delegación](#delegation)
 
@@ -216,7 +216,7 @@ El siguiente diagrama muestra las restricciones habilitadas por el enrutamiento 
 
 ![Diagrama que muestra escenarios de enrutamiento Location-Based.](media/lbr-direct-routing.png "Diagrama que muestra escenarios de enrutamiento Location-Based")
 
-### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams usuario realiza una llamada saliente a la RTC
+### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>El usuario de Teams realiza una llamada saliente a la rtc.
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Usuario no habilitado para el enrutamiento de Location-Based
 
@@ -234,7 +234,7 @@ En comparación, el enrutamiento de llamadas salientes para los usuarios habilit
 |Red interna desconocida (Ubicación4)    |  Las llamadas RTC no se permiten a menos que la puerta de enlace tenga GatewayLbrEnabledUserOverride establecido en True       |
 |Red externa desconocida (Ubicación5)    | Las llamadas RTC no se permiten a menos que la puerta de enlace tenga GatewayLbrEnabledUserOverride establecido en True       |
 
-### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teams usuario recibe una llamada entrante desde la RTC
+### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>El usuario de Teams recibe una llamada entrante desde la RTC
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Usuario no habilitado para el enrutamiento de Location-Based
 
@@ -252,11 +252,11 @@ En comparación, los usuarios habilitados para Location-Based Enrutamiento solo 
 |Red interna desconocida (Ubicación4)   | Llamadas no enrutadas a puntos de conexión en Ubicación4        |
 |Red externa desconocida (Ubicación5)     | Las llamadas no se enrutan a los puntos de conexión en Ubicación5        |
 
-### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teams las transferencias de usuario o las llamadas de desvío a otro usuario Teams
+### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Los usuarios de Teams transfieren o reenvía llamadas a otro usuario de Teams
 
 Cuando hay un punto de conexión RTC implicado, el enrutamiento de Location-Based analiza si uno o ambos usuarios están habilitados para Location-Based Enrutamiento y determina si la llamada se debe transferir o desviar en función de la ubicación de ambos puntos de conexión. 
  
-La transferencia de llamada requiere que el usuario iniciador recoja la llamada, mientras que el desvío de llamadas no requiere que se responda la llamada inicial. Las llamadas se pueden desviar incluso si el usuario1 no se encuentra en una ubicación para recibir llamadas entrantes (vea la tabla de la [Teams el usuario recibe una llamada entrante desde la sección RTC](#teams-user-receives-an-inbound-call-from-the-pstn)) y las llamadas no se pueden transferir si el usuario1 no puede recibir la llamada entrante. 
+La transferencia de llamada requiere que el usuario iniciador recoja la llamada, mientras que el desvío de llamadas no requiere que se responda la llamada inicial. Las llamadas se pueden desviar incluso si el usuario1 no se encuentra en una ubicación para recibir llamadas entrantes (vea la tabla en teams, el [usuario recibe una llamada entrante de la sección RTC](#teams-user-receives-an-inbound-call-from-the-pstn) ) y las llamadas no se pueden transferir si el usuario1 no puede recibir la llamada entrante. 
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Usuario no habilitado para el enrutamiento de Location-Based
 
@@ -268,7 +268,7 @@ Del mismo modo, un usuario que no está habilitado para Location-Based enrutamie
 
 La transferencia y el reenvío de llamadas RTC entrantes desde una puerta de enlace habilitada para Location-Based Enrutamiento solo se permite si el usuario de destino está habilitado para Location-Based Enrutamiento y se encuentra en el mismo sitio. En caso contrario, no se permite transferir ni desviar llamadas. 
 
-La tabla siguiente muestra si se permiten el desvío de llamadas y las transferencias de llamadas, según la ubicación del usuario de destino. En esta tabla, Usuario1, ubicado en Sitio1, inicia la transferencia o reenvío a otros usuarios Teams que también están habilitados para el enrutamiento de Location-Based y que se encuentran en ubicaciones diferentes.  
+La tabla siguiente muestra si se permiten el desvío de llamadas y las transferencias de llamadas, según la ubicación del usuario de destino. En esta tabla, Usuario1, ubicado en Sitio1, inicia la transferencia o reenvío a otros usuarios de Teams que también están habilitados para Location-Based Enrutamiento y que se encuentran en ubicaciones diferentes.  
 
 |Ubicación del punto de conexión del usuario de destino|Usuario1 inicia la transferencia de llamadas |User1 inicia el desvío de llamadas|
 |---------|---------|---------|
@@ -278,7 +278,7 @@ La tabla siguiente muestra si se permiten el desvío de llamadas y las transfere
 |Red interna desconocida (Usuario5)| No se permiten|No se permiten|
 |Red externa desconocida (Usuario6)| No se permiten|No se permiten|
 
-### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teams las transferencias de usuario o las llamadas de desvío al punto de conexión RTC
+### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Las transferencias o los reenvíos de llamadas de los usuarios de Teams al extremo RTC
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Usuario no habilitado para el enrutamiento de Location-Based
 
@@ -350,11 +350,11 @@ También se permite reenviar al correo de voz.
 
 ### <a name="delegation"></a>Delegación
 
-Un usuario Teams puede elegir delegados que puedan realizar y recibir llamadas en su nombre. Las capacidades de delegación de Teams se ven afectadas por el enrutamiento de Location-Based de la siguiente manera: 
+Un usuario de Teams puede elegir delegados que puedan realizar y recibir llamadas en su nombre. Las capacidades de delegación en Teams se ven afectadas por el enrutamiento de Location-Based como se indica a continuación: 
 
-- Para las llamadas salientes de un delegado habilitado para enrutamiento de Location-Based en nombre de un delegador, se aplican las mismas reglas. El enrutamiento de llamadas se basa en la directiva de autorización de llamadas del delegado, la directiva de enrutamiento de voz y la ubicación. Para obtener más información, vea [Teams usuario realiza una llamada saliente a la RTC](#teams-user-places-an-outbound-call-to-the-pstn). 
+- Para las llamadas salientes de un delegado habilitado para enrutamiento de Location-Based en nombre de un delegador, se aplican las mismas reglas. El enrutamiento de llamadas se basa en la directiva de autorización de llamadas del delegado, la directiva de enrutamiento de voz y la ubicación. Para obtener más información, vea [El usuario de Teams realiza una llamada saliente a la RTC](#teams-user-places-an-outbound-call-to-the-pstn). 
 
-- Para las llamadas RTC entrantes a un delegador, también se aplican a los delegados las mismas reglas de enrutamiento Location-Based que se aplican al desvío de llamadas o a la llamada simultánea a otros usuarios. Para obtener más información, vea [Teams las transferencias de usuarios o las llamadas de desvío a otro usuario Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user), [Teams las transferencias de usuario o los desvíos de llamadas al punto de conexión RTC](#teams-user-transfers-or-forwards-call-to-pstn-endpoint) y [Llamada simultánea](#simultaneous-ringing). Cuando un delegado establece un punto de conexión RTC como destino de llamada simultánea, la directiva de enrutamiento de voz del delegado se usa para redirigir la llamada a la RTC. 
+- Para las llamadas RTC entrantes a un delegador, también se aplican a los delegados las mismas reglas de enrutamiento Location-Based que se aplican al desvío de llamadas o a la llamada simultánea a otros usuarios. Para obtener más información, vea [Transferir o desviar llamadas de usuarios de Teams a otro usuario de Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user), [Transferir o desviar llamadas de usuarios de Teams al extremo RTC](#teams-user-transfers-or-forwards-call-to-pstn-endpoint) y [Llamada simultánea](#simultaneous-ringing). Cuando un delegado establece un punto de conexión RTC como destino de llamada simultánea, la directiva de enrutamiento de voz del delegado se usa para redirigir la llamada a la RTC. 
 
 - Para la delegación, Microsoft recomienda que el delegador y los delegados asociados se encuentren en el mismo sitio de red. 
 
@@ -370,20 +370,20 @@ Las subredes IPv4 e IPv6 son compatibles, pero IPv6 tiene prioridad al buscar un
 
 ### <a name="client-support-for-location-based-routing"></a>Soporte técnico al cliente para el enrutamiento de Location-Based
 
-Se admiten los siguientes clientes Teams:
-- Teams clientes de escritorio (Windows y Mac)
-- Teams clientes móviles (iOS y Android)
-- teléfonos IP Teams
+Se admiten los siguientes clientes de Teams:
+- Clientes de escritorio de Teams (Windows y Mac)
+- Clientes móviles de Teams (iOS y Android)
+- Teléfonos IP de Teams
 
-El cliente web Teams y los clientes Skype Empresarial no son compatibles.
+El cliente web de Teams y los clientes de Skype Empresarial no son compatibles.
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>Capacidades no compatibles con el enrutamiento basado en ubicación
 
-Location-Based Enrutamiento no se aplica a los siguientes tipos de interacciones. Location-Based El enrutamiento no se aplica cuando Teams puntos de conexión interactúan con puntos de conexión RTC en los siguientes escenarios: 
+Location-Based Enrutamiento no se aplica a los siguientes tipos de interacciones. Location-Based El enrutamiento no se aplica cuando los puntos de conexión de Teams interactúan con puntos de conexión RTC en los siguientes escenarios: 
 
 - Estacionamiento o recuperación de llamadas RTC a través del estacionamiento de llamadas 
 
-- Un usuario Skype Empresarial local o un usuario de Skype Empresarial Online llama a un usuario Teams  
+- Un usuario de Skype Empresarial local o un usuario de Skype Empresarial Online llama a un usuario de Teams  
 
 ### <a name="location-based-routing-for-conferencing"></a>Location-Based enrutamiento para conferencias
 
@@ -395,7 +395,7 @@ En una llamada de conferencia iniciada por un usuario sin una licencia de audioc
 
 Si el usuario habilitado Location-Based enrutamiento se une a la llamada de conferencia desde un sitio interno que no está habilitado para Location-Based enrutamiento, no se aplican las restricciones del párrafo anterior. 
 
-Las conferencias en red para Audioconferencia NO deben implementarse con ningún equipo de telefonía en india.
+Las conferencias en red para Audioconferencia NO se deben implementar con ningún equipo de telefonía en India.
 
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de omisión de medios para enrutamiento de Location-Based

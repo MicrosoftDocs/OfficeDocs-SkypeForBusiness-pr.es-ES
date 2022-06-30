@@ -1,7 +1,7 @@
 ---
 title: Configure el uso compartido del escritorio en Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.date: 03/22/2019
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5db10ce87dc98cfb793eefb1daa953385c95f6d
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
-ms.translationtype: HT
+ms.openlocfilehash: 6c94991255b7309e1510a934645f1f4cf0b7e049
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205291"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562389"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configure el uso compartido del escritorio en Microsoft Teams
 

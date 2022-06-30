@@ -1,8 +1,8 @@
 ---
 title: Procedimientos recomendados para organizar equipos
 ms.reviewer: pbethi
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 523d35fd1e7981a52e5972232f0c00c276435f7f
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 959a2936a762584ceee8c3292cc9ced343d33fc5
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711884"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562759"
 ---
 # <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Prácticas recomendadas para organizar equipos en Microsoft Teams
 
@@ -41,13 +41,13 @@ Cuando se despliegan Teams por primera vez, recomendamos empezar con un pequeño
 
 ## <a name="create-channels-to-focus-discussions"></a>Crear canales para enfocar los debates
 
-Una vez que haya creado su equipo, es una buena idea empezar a pensar en los diferentes proyectos y tipos de conversaciones que necesita admitir. Cree canales iniciales para que la gente sepa dónde contribuir y encontrar las conversaciones existentes. Usar nombres descriptivos de los canales, para que la gente sepa fácilmente a dónde ir en cada conversación. Añada herramientas (como OneNote, Power BI o Planner) como pestañas a un canal para que los miembros tengan todo lo que necesitan, justo en el canal. También puede agregar una página web de uso común como una pestaña a un canal.
+Una vez que haya creado el equipo, es una buena idea empezar a pensar en los diferentes proyectos y tipos de conversaciones que necesita admitir. Cree canales iniciales para que la gente sepa dónde contribuir y encontrar las conversaciones existentes. Usar nombres descriptivos de los canales, para que la gente sepa fácilmente a dónde ir en cada conversación. Añada herramientas (como OneNote, Power BI o Planner) como pestañas a un canal para que los miembros tengan todo lo que necesitan, justo en el canal. También puede agregar una página web de uso común como una pestaña a un canal.
 
 Obtenga más información sobre [trabajo en equipo](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) con estos consejos rápidos para los usuarios finales.
 
 La mejor práctica: crear equipos con un conjunto más grande de miembros y más canales. Minimizar el número de equipos que requieren la participación de una persona. Los canales dentro de un equipo deben ser pensados como temas o corrientes de trabajo para ayudar al equipo a organizar su trabajo para cumplir con sus objetivos conjuntos. No hay un número específico de canales que deban ser creados. Cada equipo debe crear canales basados en su trabajo, prioridades y estilo.
 
-Utilice canales estándar para las conversaciones en las que todos los miembros del equipo puedan contribuir. Aproveche los [canales privados](private-channels.md) cuando necesite un espacio de colaboración centrado con un grupo selecto de miembros del equipo. Use [canales compartidos](shared-channels.md) cuando necesite colaborar con personas ajenas al equipo.
+Utilice canales estándar para las conversaciones en las que todos los miembros del equipo puedan contribuir. Aproveche las [ventajas de los canales privados](private-channels.md) cuando necesite un espacio de colaboración centrado con un grupo selecto de miembros del equipo. Use [canales compartidos](shared-channels.md) cuando necesite colaborar con personas de fuera del equipo.
 
 Las organizaciones más grandes pueden querer crear equipos como "plantillas" para estandarizar la información que capturan sobre tipos específicos de trabajo. Esto es útil para la gestión estratégica de los clientes, la gestión de las aulas, los escenarios de atención sanitaria, la gestión de reclamaciones, la gestión de incidentes y otros escenarios apropiados para una industria específica. Para más información, eche un vistazo a[Introducción a las plantillas de Teams](get-started-with-teams-templates.md) y [Plantillas de Teams para pequeñas y medianas empresas](smb-templates.md).
 

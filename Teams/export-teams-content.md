@@ -1,13 +1,13 @@
 ---
-title: Exportar contenido con las MICROSOFT TEAMS Exportar API
-author: SerdarSoysal
-ms.author: serdars
+title: Exportar contenido con las API de exportación de Microsoft Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 audience: admin
 ms.service: msteams
 ms.reviewer: vikramju
-description: En este artículo, obtendrá información sobre cómo exportar Teams contenido mediante las API de exportación de Microsoft Teams.
+description: En este artículo, obtendrá información sobre cómo exportar contenido de Teams mediante las API de exportación de Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f59b275d3caaaa94fc55cf7bc2418ebe0aee4ba
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: ffbea482ac15d1362eabc720fe2c05a8b5954954
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674222"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562649"
 ---
-# <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exportar contenido con las MICROSOFT TEAMS Exportar API
+# <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exportar contenido con las API de exportación de Microsoft Teams
 
-Teams API de exportación le permiten exportar mensajes individuales, chats grupales, chats de reuniones y mensajes de canal de Microsoft Teams. Si su organización necesita exportar mensajes de Microsoft Teams, podrá extraerlos con Teams Exportar API. *Mensaje de* chat representa un mensaje de chat individual dentro de un [canal](/graph/api/resources/channel) o [chat](/graph/api/resources/chat). El mensaje de chat puede ser un mensaje de chat raíz o parte de una conversación de respuesta definida por la propiedad **replyToId** del mensaje de chat.
+Las API de exportación de Teams le permiten exportar mensajes individuales, chats grupales, chats de reuniones y mensajes de canal de Microsoft Teams. Si su organización necesita exportar mensajes de Microsoft Teams, podrá extraerlos con las API de exportación de Teams. *Mensaje de* chat representa un mensaje de chat individual dentro de un [canal](/graph/api/resources/channel) o [chat](/graph/api/resources/chat). El mensaje de chat puede ser un mensaje de chat raíz o parte de una conversación de respuesta definida por la propiedad **replyToId** del mensaje de chat.
 
 Estos son algunos ejemplos sobre cómo puede usar estas API de exportación:
 
@@ -36,14 +36,14 @@ Estos son algunos ejemplos sobre cómo puede usar estas API de exportación:
 
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>¿Qué es compatible con las API de exportación de Teams?
 
-- **Mensaje de exportación masiva de Teams:** Teams las API de exportación admiten hasta 200 RPS por aplicación por inquilino y 600 RPS para una aplicación, con estos límites debería poder exportar en masa Teams mensajes.
+- **Mensaje de exportación masiva de Teams:** Las API de exportación de Teams admiten hasta 200 RPS por aplicación por inquilino y 600 RPS para una aplicación, con estos límites debería poder exportar en masa mensajes de Teams.
 - **Contexto de la aplicación**: para llamar a Microsoft Graph, la aplicación debe adquirir un token de acceso de la Plataforma de identidad de Microsoft. El token de acceso contiene información sobre la aplicación y los permisos que tiene para los recursos y API disponibles a través de Microsoft Graph. Para obtener un token de acceso, la aplicación debe estar registrada con el Plataforma de identidad de Microsoft y estar autorizada por un usuario o un administrador para obtener acceso a los recursos de Microsoft Graph que necesita.
 
-    Si ya estás familiarizado con la integración de una aplicación con la Plataforma de identidad de Microsoft para obtener tokens, consulta la sección [Pasos siguientes](/graph/auth/auth-concepts#next-steps) para obtener información y muestras específicas de Microsoft Graph.
-- **Entorno híbrido:** Las API de exportación admiten los mensajes enviados por usuarios aprovisionados en un entorno híbrido (Exchange local y Teams). Los mensajes enviados por los usuarios configurados para un entorno híbrido serán accesibles mediante exportar API.
+    Si ya está familiarizado con la integración de una aplicación con la Plataforma de identidad de Microsoft para obtener tokens, consulte la sección [Pasos siguientes](/graph/auth/auth-concepts#next-steps) para obtener información y muestras específicas de Microsoft Graph.
+- **Entorno híbrido:** Las API de exportación admiten los mensajes enviados por usuarios aprovisionados en un entorno híbrido (exchange local y teams). Los mensajes enviados por los usuarios configurados para un entorno híbrido serán accesibles mediante exportar API.
 - **Mensajes eliminados por el usuario:** Se puede acceder a los mensajes eliminados por los usuarios del cliente de Teams mediante las API de exportación hasta 21 días a partir del momento de la eliminación.
 - **Datos adjuntos de mensajes:** Las API de exportación incluyen los vínculos a los datos adjuntos que se envían como parte de los mensajes. Con Exportar API puede recuperar los archivos adjuntos en los mensajes.
-- **Propiedades del mensaje de chat:** Consulte la lista completa de propiedades que Teams compatibilidad con las API de exportación [aquí](/graph/api/resources/chatmessage#properties).
+- **Propiedades del mensaje de chat:** Consulte la lista completa de propiedades que admiten las API de exportación de Teams [aquí](/graph/api/resources/chatmessage#properties).
 
 > [!NOTE]
 > Las API de exportación no admiten *reacciones*.
@@ -75,15 +75,15 @@ Estos son algunos ejemplos sobre cómo puede usar estas API de exportación:
 
 ## <a name="prerequisites-to-access-teams-export-apis"></a>Requisitos previos para acceder a las API de exportación de Teams
 
-- Microsoft Teams API de Microsoft Graph que acceden a datos confidenciales se consideran API protegidas. Para poder usarlas, es necesario disponer de validación adicional, más allá de los permisos y el consentimiento. Para solicitar acceso a estas API protegidas, rellena el [formulario de solicitud](https://aka.ms/teamsgraph/requestaccess).
+- Las API de Microsoft Teams en Microsoft Graph que acceden a datos confidenciales se consideran API protegidas. Para poder usarlas, es necesario disponer de validación adicional, más allá de los permisos y el consentimiento. Para solicitar acceso a estas API protegidas, rellena el [formulario de solicitud](https://aka.ms/teamsgraph/requestaccess).
 - Los permisos de aplicación los usan las aplicaciones que se ejecutan sin un usuario con sesión iniciada presente; permisos de aplicación solo puede ser consentido por un administrador. Son necesarios los siguientes permisos:
   - *Chat.Read.All*: permite el acceso a todos los mensajes de chat individuales, grupales y de reunión
   - *ChannelMessage.Read.All*: permite el acceso a todos los mensajes del canal
   - *User.Read.All*: permite el acceso a la lista de usuarios de un inquilino.
 
-## <a name="license-requirements-for-teams-export-apis"></a>Requisitos de licencia para Teams API de exportación
+## <a name="license-requirements-for-teams-export-apis"></a>Requisitos de licencia para las API de exportación de Teams
 
-La API de exportación admite seguridad y cumplimiento (S+C) y escenarios de uso general a través de un parámetro de consulta de modelo. Los escenarios de S+C (modelo A) incluyen capacidad de semillas y requieren una suscripción al plan E5 y los escenarios de uso general (modelo B) están disponibles para todas las suscripciones y solo son de consumo. Para obtener más información sobre la capacidad de semillas y las tarifas de consumo, consulta [Requisitos de licencias y pago para las API de Microsoft Graph Teams](/graph/teams-licenses).
+La API de exportación admite seguridad y cumplimiento (S+C) y escenarios de uso general a través de un parámetro de consulta de modelo. Los escenarios de S+C (modelo A) incluyen capacidad de semillas y requieren una suscripción al plan E5 y los escenarios de uso general (modelo B) están disponibles para todas las suscripciones y solo son de consumo. Para obtener más información sobre la capacidad de semillas y las tarifas de consumo, consulte [Requisitos de licencias y pago para las API de Microsoft Graph Teams](/graph/teams-licenses).
 
 ### <a name="scmodel-a-scenarios"></a>Escenarios de S+C/Modelo A
 

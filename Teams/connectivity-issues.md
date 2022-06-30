@@ -1,8 +1,8 @@
 ---
 title: Solucionar problemas de conectividad con el cliente de Teams
 ms.reviewer: ''
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: troubleshooting
 ms.service: msteams
@@ -16,12 +16,12 @@ description: Aprenda a resolver problemas de conectividad con el cliente de Micr
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 524a78f5a588b0a3a233385f7892624c46e5bac541f7e8a13f647e541b0ffbff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
-ms.translationtype: HT
+ms.openlocfilehash: 8974aa7cf54ab61cb15650b839185daad1b82cc7
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308959"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562169"
 ---
 # <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Solucionar problemas de conectividad con el cliente de Microsoft Teams
 

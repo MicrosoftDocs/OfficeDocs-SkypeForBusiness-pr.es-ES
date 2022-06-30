@@ -1,7 +1,7 @@
 ---
 title: Administrar la Prueba gratuita de Office 365 E1
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 audience: Admin
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 875693e23b5e13f48a031a21f0037f1576dbd1ce
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 496b0d912ba88c17106d4941edacd2777bfcec97
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611699"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562569"
 ---
 # <a name="manage-the-office-365-e1-trial"></a>Administrar la Prueba de Office 365 E1
 
@@ -66,7 +66,7 @@ Para más información, consulte [Descripción del servicio de Microsoft Teams](
 
 [Gestionar acceso de los usuarios a Microsoft Teams](user-access.md)
 
-[Administrar la configuración de Teams de su organización](enable-features-office-365.md)
+[Administrar la configuración de Teams para la organización](enable-features-office-365.md)
 
 [Administrar la experiencia de Teams Exploratory](teams-exploratory.md)
 

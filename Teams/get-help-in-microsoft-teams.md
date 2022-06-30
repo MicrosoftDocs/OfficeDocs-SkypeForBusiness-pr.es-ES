@@ -1,7 +1,7 @@
 ---
 title: Obtener ayuda en Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,26 +17,26 @@ description: Obtenga información sobre temas de ayuda, vídeos, notas de la ver
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 815746f350f4ded43f8f38811e4d0105ac1c742d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c34db9bdd2911a1b2680b9d886ce99ec0f690537
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579724"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562639"
 ---
 # <a name="get-help-in-microsoft-teams"></a>Obtener ayuda en Microsoft Teams
 
-El botón Ayuda de Microsoft Teams es donde los usuarios y los defensores pueden encontrar toda la ayuda que puedan necesitar al usar Teams.
+El botón Ayuda de Microsoft Teams es donde los usuarios y los expertos pueden encontrar toda la asistencia que puedan necesitar al usar Teams.
 
-Teams compatibilidad con idiomas localizados para el contenido de ayuda. Para obtener la lista más reciente de idiomas admitidos, [vea Microsoft Teams idiomas admitidos para el contenido de ayuda.](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)
+Teams proporciona compatibilidad con idiomas localizados para el contenido de la ayuda. Para obtener la lista más reciente de los idiomas admitidos, consulte [Idiomas admitidos por Microsoft Teams para el contenido de ayuda](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).
 
- - **Examinar temas:** esto va a ayudar al contenido organizado por Teams característica. Instrucciones sencillas y sencillas para ayudar a los usuarios a sacar el máximo partido de Teams. 
+ - **Examinar temas** : esto le ayudará a organizar el contenido organizado por la característica de Teams. Instrucciones sencillas y sencillas para ayudar a los usuarios a sacar el máximo partido de Teams. 
 
- - **Vídeos:** nuestro contenido de vídeo a petición permite a los usuarios aprender tareas específicas rápidamente. Estamos produciendo continuamente vídeos nuevos, así que vuelve a comprobarlo con frecuencia. Por supuesto, se requiere acceso a Internet. 
+ - **Vídeos** : nuestro contenido de vídeo bajo demanda permite a los usuarios aprender rápidamente tareas específicas. Estamos produciendo continuamente nuevos vídeos, así que vuelve a comprobarlo con frecuencia. Por supuesto, se requiere acceso a Internet. 
 
  - **Novedades** - 
-    Notas de la versión periódicas para usuarios y propietarios de equipos sobre las características nuevas Teams actualizadas.
+    Notas de la versión periódicas para usuarios y propietarios de equipos sobre características nuevas o actualizadas de Teams.
 
- - **Compartir una idea:** siempre queremos saber de usted cómo mejorar Teams. Esta opción le lleva a nuestro foro de comentarios sobre productos, donde puede enviar nuevas solicitudes de características o votar sobre las existentes. Constantemente revisamos esta información a medida que planeamos nuevas características. 
+ - **Compartir una idea** : siempre queremos conocer su opinión sobre cómo mejorar Teams. Esta opción te lleva a nuestro foro de comentarios del producto, donde puedes enviar nuevas solicitudes de características o votar sobre las existentes. Revisamos constantemente esta información a medida que planeamos nuevas características. 
 
 
