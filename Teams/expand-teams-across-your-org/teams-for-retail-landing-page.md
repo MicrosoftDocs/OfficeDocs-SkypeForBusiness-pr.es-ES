@@ -22,12 +22,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03b68923ae47324525f192949d442e94e36685c2
-ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.openlocfilehash: f965e69e3dda921cf5fdf348a728db403fc26a84
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65753053"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494737"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Introducción a Teams para el comercio
 
@@ -127,7 +127,7 @@ El personal minorista suele ser un personal móvil: trabajadores de primera lín
 
 Con un alto volumen de negocios, la capacidad de agregar y quitar cuentas rápidamente y obtener las directivas adecuadas asignadas es clave. Introducción al Asistente para incorporación de personal de primera línea en el Centro de administración de Microsoft 365. El asistente configura un equipo para el personal de primera línea y asigna licencias y paquetes de directivas a cada miembro del equipo. Para obtener más información, consulte [Usar el Asistente para la incorporación de personal de primera línea para poner en marcha a su personal de primera línea](../flw-onboarding-wizard.md).
 
-Si tiene que agregar muchos usuarios (más de 100), puede aprovisionar rápidamente usuarios y equipos y asignar todas las directivas pertinentes con una[ implementación mediante scripts para el personal de primera línea](../flw-scripted-deployment.md).
+Si tiene muchos equipos que quiere implementar, consulte [Implementar equipos a escala para los trabajadores de primera línea](../deploy-teams-at-scale.md).
 
 La presencia de personal de primera línea suele ser menos predecible que el resto del personal, ya que su horario laboral normalmente no es el mismo cada día. Como administrador, puede configurar Teams con acceso basado en turnos (vista previa) para mostrar un conjunto de estados de presencia basados en turnos para que el personal de primera línea de su organización indique cuándo está dentro y fuera del turno. También puede administrar el acceso a Teams cuando el personal de primera línea está fuera del turno. Para obtener más información, vea [Administrar el acceso basado en turnos para el personal de primera línea](shifts/manage-shift-based-access-flw.md).
 
