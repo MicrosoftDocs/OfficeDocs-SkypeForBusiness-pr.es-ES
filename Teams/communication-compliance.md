@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01b51694b22d44ace9980f2b98fdb89a9150a12d
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: b96108f3bf548475cd19822967ba4e484fb26703
+ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240749"
+ms.locfileid: "66551207"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Cumplimiento de la comunicación con Microsoft Teams
 
@@ -53,7 +53,7 @@ Los administradores de Teams pueden configurar las directivas de cumplimiento de
 >[!NOTE]
 >La disponibilidad de los mensajes notificados por el usuario para las organizaciones con licencia y uso [de cumplimiento de comunicaciones](/microsoft-365/compliance/communication-compliance-configure#subscriptions-and-licensing) y Microsoft Teams comenzó en mayo de 2022. Esta característica estará disponible hasta el 31 de agosto de 2022 para todas las organizaciones con licencia y cumplimiento de comunicaciones hasta julio de 2022. Para las organizaciones que empiezan a usar el cumplimiento de las comunicaciones después de julio de 2022, la disponibilidad de la directiva de mensajes notificados por el usuario puede tardar hasta 30 días desde la fecha de la licencia y el primer uso del cumplimiento de las comunicaciones.
 
-La opción *Informar de un problema* en los mensajes de chat interno de Teams está habilitada de forma predeterminada y se puede controlar a través de las directivas de mensajería de Teams en el [Centro de administración de Teams](/microsoftteams/manage-teams-in-modern-portal). Esto permite a los usuarios de su organización enviar mensajes de chat interno inadecuados para que los revisores de cumplimiento de la comunicación los revisen para la directiva. Para obtener más información sobre los mensajes notificados por el usuario en cumplimiento de comunicaciones, vea [Directivas de cumplimiento de comunicaciones](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
+La opción *Informar de un problema* para los mensajes de chat personales y grupales de Teams está habilitada de forma predeterminada y se puede controlar a través de las directivas de mensajería de Teams en el [Centro de administración de Teams](/microsoftteams/manage-teams-in-modern-portal). Esto permite a los usuarios de su organización enviar mensajes de chat interno inadecuados para que los revisores de cumplimiento de la comunicación los revisen para la directiva. Para obtener más información sobre los mensajes notificados por el usuario en cumplimiento de comunicaciones, vea [Directivas de cumplimiento de comunicaciones](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
 
 ![Informar de un menú de preocupación.](./media/communication-compliance-report-a-concern-full-menu.png)
 
