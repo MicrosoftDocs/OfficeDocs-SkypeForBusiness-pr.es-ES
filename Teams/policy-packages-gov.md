@@ -1,7 +1,7 @@
 ---
-title: Teams paquetes de directivas para el gobierno
-author: serdars
-ms.author: serdars
+title: Paquetes de directivas de Teams para la administración pública
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -16,18 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre cómo usar y administrar Teams paquetes de directivas para su organización gubernamental.
-ms.openlocfilehash: 40804e4536be5f4263623c48ace2450dec92036a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización gubernamental.
+ms.openlocfilehash: fdaacb8b551c1031d71c522dffdbc4afd9f551a8
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62384108"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66564098"
 ---
-# <a name="teams-policy-packages-for-government"></a>Teams paquetes de directivas para el gobierno
+# <a name="teams-policy-packages-for-government"></a>Paquetes de directivas de Teams para la administración pública
 
 > [!NOTE]
-> Los paquetes de directivas no están disponibles actualmente en Microsoft 365 de administración pública GCC implementaciones de Alto o DoD.
+> Los paquetes de directivas no están disponibles actualmente en las implementaciones de Microsoft 365 Government GCC High o DoD.
 
 ## <a name="overview"></a>Información general
 
@@ -41,19 +41,19 @@ Los paquetes de directiva pre define directivas para las siguientes directivas, 
 - Configuración de la aplicación
 - Eventos en directo
 
-Teams incluye actualmente los siguientes paquetes de directivas para el gobierno.
+Teams incluye actualmente los siguientes paquetes de directivas para la administración pública.
 
 |Nombre del paquete en el Centro de administración de Microsoft Teams|Recomendado para|Descripción |
 |---------|---------|---------|
-|Oficial de seguridad pública  |Agentes de seguridad pública de su organización gubernamental  |Crea un conjunto de directivas y configuraciones de directiva que se aplican a los responsables de seguridad pública de su organización. |
-|Administrador de primera línea  |Administradores de primera línea en su organización gubernamental |Crea un conjunto de directivas y aplica esa configuración a los administradores de primera línea de su organización.|
-|Trabajador en primera línea  |Trabajadores de primera línea en su organización gubernamental |Crea un conjunto de directivas y aplica esa configuración a Los trabajadores de frontline de su organización.|
+|Oficial de seguridad pública  |Oficiales de seguridad pública de su organización gubernamental  |Crea un conjunto de directivas y configuraciones de directiva que se aplican a los oficiales de seguridad pública de su organización. |
+|Administrador de frontline  |Administradores de primera línea en su organización gubernamental |Crea un conjunto de directivas y aplica esta configuración a los administradores de primera línea de su organización.|
+|Trabajador de primera línea  |Frontline Workers en su organización gubernamental |Crea un conjunto de directivas y aplica esa configuración a los Frontline Workers de su organización.|
 
-![Captura de pantalla de paquetes de directivas de salud.](media/policy-packages-gov.png)
+![Captura de pantalla de los paquetes de directivas de salud.](media/policy-packages-gov.png)
 
-Cada directiva individual se indica con el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, al asignar el paquete de directiva oficial de seguridad pública a los usuarios de su organización, se crea una directiva denominada PublicSafety_Officer para cada directiva del paquete.
+Cada directiva individual se indica con el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, al asignar el paquete de directivas de agente de seguridad pública a los usuarios de su organización, se crea una directiva denominada PublicSafety_Officer para cada directiva del paquete.
 
-![Captura de pantalla de las directivas del paquete de trabajadores clínicos de Sanidad.](media/policy-packages-public-safety-officer.png)
+![Captura de pantalla de las directivas en el paquete de trabajadores clínicos de la atención médica.](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>Administrar los paquetes de directivas
 
@@ -104,4 +104,4 @@ Un lote puede contener hasta 5000 usuarios. Puede especificar los usuarios por s
 
 [Administrar los paquetes de directivas para Teams](manage-policy-packages.md)
 
-[Asignar paquetes de directiva a usuarios y grupos](assign-policy-packages.md)
+[Asignar paquetes de directivas a usuarios y grupos](assign-policy-packages.md)

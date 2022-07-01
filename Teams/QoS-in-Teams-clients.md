@@ -1,13 +1,13 @@
 ---
-title: Implementar calidad de servicio (QoS) en Microsoft Teams clientes
-author: SerdarSoysal
-ms.author: serdars
+title: Implementar calidad de servicio (QoS) en clientes de Microsoft Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: Serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
-description: Obtenga información sobre cómo usar calidad de servicio (QoS) para optimizar el tráfico de red para el Microsoft Teams escritorio.
+description: Obtenga información sobre cómo usar la Calidad de servicio (QoS) para optimizar el tráfico de red para el cliente de escritorio de Microsoft Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -19,18 +19,18 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: c283a66db274bc8723d429631bf265fdb0f5206b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 70dbc5794fe64a1afed86bc82d0005ad7d510c5f
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606019"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563928"
 ---
-# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Implementar calidad de servicio (QoS) en Microsoft Teams clientes
+# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Implementar calidad de servicio (QoS) en clientes de Microsoft Teams
 
-Puede usar calidad de servicio (QoS) basada en directivas dentro de la directiva de grupo para establecer el intervalo de puertos de origen para el valor DSCP predefinido en el Teams cliente. Los intervalos de puertos especificados en la tabla siguiente son un punto de partida para crear una directiva para cada carga de trabajo.
+Puede usar la Calidad de servicio (QoS) basada en directivas en directiva de grupo para establecer el intervalo de puertos de origen para el valor de DSCP predefinido en el cliente de Teams. Los intervalos de puertos especificados en la tabla siguiente son un punto de partida para crear una directiva para cada carga de trabajo.
 
-*Tabla 1. Rangos de puerto iniciales recomendados*
+*Tabla 1. Intervalos de puertos iniciales recomendados*
 
 |Tipo de tráfico de medios | Rango de puertos de origen del cliente  |Protocolo|Valor de DSCP|Clase DSCP|
 |:--- |:--- |:--- |:--- |:--- |
@@ -39,55 +39,55 @@ Puede usar calidad de servicio (QoS) basada en directivas dentro de la directiva
 |Aplicación/Compartir pantalla| 50 040 – 50 059|TCP/UDP|18|Desvío garantizado (AF21)|
 | | | | | |
 
-Siempre que sea posible, configure la configuración de QoS basada en directivas dentro de un objeto de directiva de grupo. Los pasos siguientes son muy similares a Configurar intervalos de puertos y una directiva de calidad de servicio para sus clientes en [Skype Empresarial Server,](/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)que tiene algunos detalles adicionales que pueden no ser necesarios.
+Siempre que sea posible, configure las opciones de QoS basadas en directivas en un objeto de directiva de grupo. Los pasos siguientes son muy similares a [La configuración de intervalos de puertos y una directiva de calidad de servicio para los clientes en Skype Empresarial Server](/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), que tiene algunos detalles adicionales que puede que no sean necesarios.
 
-Para crear una directiva de audio de QoS para equipos Windows 10 dominio, inicie sesión primero en un equipo en el que se haya instalado administración de directivas de grupo. Abra Administración de directivas de grupo (haga clic en Inicio, seleccione Herramientas administrativas y, a continuación, haga clic en Administración de directivas de grupo) y, a continuación, siga estos pasos:
+Para crear una directiva de audio de QoS para equipos Windows 10 unidos a un dominio, primero inicie sesión en un equipo en el que se haya instalado la administración de directiva de grupo. Abre administración de directiva de grupo (haz clic en Inicio, selecciona Herramientas administrativas y, a continuación, haz clic en Administración de directiva de grupo) y completa los pasos siguientes:
 
-1. En Administración de directivas de grupo, busque el contenedor donde se debe crear la nueva directiva. Por ejemplo, si todos los equipos cliente se encuentran en una unidad organizativa denominada **Clientes,** la nueva directiva debe crearse en la unidad organizativa Clientes.
+1. En administración de directiva de grupo, busque el contenedor donde se debe crear la nueva directiva. Por ejemplo, si todos los equipos cliente se encuentran en una unidad organizativa denominada **Clientes**, la nueva directiva debe crearse en la unidad organizativa clientes.
 
-1. Haga clic con el botón derecho en el contenedor adecuado y, a continuación, haga clic en Crear un GPO en este **dominio y Vincule aquí**.
+1. Haga clic con el botón secundario en el contenedor adecuado y, a continuación, haga clic **en Crear un GPO en este dominio y vincularlo aquí**.
 
-1. En el cuadro de diálogo Nuevo **GPO,** escriba un  nombre para el nuevo objeto de directiva de grupo en el cuadro Nombre y, a continuación, haga clic en **Aceptar.**
+1. En el cuadro de diálogo **Nuevo GPO**, escriba un nombre para el nuevo objeto directiva de grupo en el cuadro **Nombre** y, a continuación, haga clic en **Aceptar**.
 
-1. Haga clic con el botón derecho en la directiva recién creada y, a continuación, haga clic **en Editar.**
+1. Haga clic con el botón secundario en la directiva recién creada y, a continuación, haga clic en **Editar**.
 
-1. En el Editor de administración de directivas de grupo, expanda Configuración del **equipo,** expanda Windows Configuración , **haga** clic con el botón derecho en **QoS** basado en directivas y, a continuación, haga clic **en Crear nueva directiva.**
+1. En el Editor de administración de directiva de grupo, expanda **Configuración del equipo**, expanda **Configuración de Windows**, haga clic con el botón derecho en **QoS basado en** directivas y, a continuación, haga clic en **Crear nueva directiva**.
 
-1. En el **cuadro de diálogo QoS** basado en directivas, en la página de apertura, escriba un nombre para la nueva directiva en el **cuadro** Nombre. Seleccione **Especificar valor DSCP** y establezca el valor en **46**. Deje **especificar la tasa de limitación saliente** no seleccionada y, a continuación, haga clic en **Siguiente.**
+1. En el cuadro de diálogo **QoS basado** en directivas, en la página de apertura, escriba un nombre para la nueva directiva en el cuadro **Nombre** . Seleccione **Especificar valor DSCP** y establezca el valor en **46**. Deje **no seleccionado Especificar velocidad de limitación saliente** y, a continuación, haga clic en **Siguiente**.
 
-1. En la página siguiente, seleccione Solo aplicaciones con este nombre **ejecutable,** escriba el nombre **Teams.exe** y, a continuación, haga clic en **Siguiente.** Esta configuración indica a la directiva que solo priorice el tráfico que coincida desde el Teams cliente.
+1. En la página siguiente, seleccione **Solo las aplicaciones con este nombre ejecutable** , escriba el nombre **Teams.exe** y, a continuación, haga clic en **Siguiente**. Esta configuración indica a la directiva que solo priorice el tráfico coincidente del cliente de Teams.
 
-1. En la tercera página, asegúrese de que todas las direcciones **IP** de origen y Cualquier dirección **IP** de destino están seleccionadas y, a continuación, haga clic en **Siguiente.** Estas dos opciones de configuración garantizan que los paquetes se administrarán independientemente del equipo (dirección IP) que envió los paquetes y del equipo (dirección IP) que recibirá los paquetes.
+1. En la tercera página, asegúrese de que están seleccionadas las opciones **Cualquier dirección IP de origen** y **Cualquier dirección IP de destino** y, a continuación, haga clic en **Siguiente**. Estas dos configuraciones garantizan que los paquetes se administren independientemente del equipo (dirección IP) que envió los paquetes y qué equipo (dirección IP) recibirá los paquetes.
 
-1. En la página cuatro, seleccione **TCP y UDP** en la lista desplegable Seleccionar el protocolo que se aplica a esta directiva de **QoS.** TCP (Transmission Control Protocol) y UDP (User Datagram Protocol) son los dos protocolos de red más usados.
+1. En la página cuatro, seleccione **TCP y UDP** en la lista desplegable **Seleccione el protocolo que esta directiva de QoS aplica a** . TCP (Transmission Control Protocol) y UDP (User Datagram Protocol) son los dos protocolos de red más usados.
 
-1. En el encabezado **Especificar el número de puerto de origen,** seleccione Desde este puerto o rango de **origen.** En el cuadro de texto que lo acompaña, escriba el intervalo de puertos reservado para las transmisiones de audio. Por ejemplo, si ha reservado los puertos 50000 a los puertos 50019 para el tráfico de audio, escriba el intervalo de puertos con este formato: **50000:50019.** Haga clic en **Finalizar**.
+1. En el encabezado **Especifique el número de puerto de origen**, seleccione **Desde este puerto o rango de origen**. En el cuadro de texto correspondiente, escribe el intervalo de puertos reservado para las transmisiones de audio. Por ejemplo, si ha reservado los puertos 50000 a través de los puertos 50019 para el tráfico de audio, introduzca el intervalo de puertos con este formato: **50000:50019**. Haga clic en **Finalizar**.
 
-1. Repita los pasos 5 a 10 para crear directivas para uso compartido de aplicaciones y vídeo, sustituyendo los valores adecuados en los pasos 6 y 10.
+1. Repita los pasos 5 a 10 para crear directivas para uso compartido de aplicaciones y vídeos y escritorios, sustituyéndolos por los valores adecuados en los pasos 6 y 10.
 
-Las nuevas directivas que haya creado no se verán vigentes hasta que se actualice la directiva de grupo en los equipos cliente. Aunque la directiva de grupo se actualiza periódicamente por su cuenta, puede forzar una actualización inmediata siguiendo estos pasos:
+Las nuevas directivas que ha creado no se aplicarán hasta que se actualice directiva de grupo en los equipos cliente. Aunque directiva de grupo se actualiza periódicamente por sí mismo, puede forzar una actualización inmediata siguiendo estos pasos:
 
-1. En cada equipo para el que quiera actualizar la directiva de grupo, abra un símbolo del sistema como administrador *(Ejecutar como administrador).*
+1. En cada equipo para el que quiera actualizar directiva de grupo, abra un símbolo del sistema como administrador (*Ejecutar como administrador*).
 
-1. En el símbolo del sistema, escriba
+1. En el símbolo del sistema, escribe
 
    ```console
    gpupdate /force
    ```
 
-## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Comprobar marcas dscp en el objeto directiva de grupo
+## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Comprobar el marcado de DSCP en el objeto directiva de grupo
 
 Para comprobar que se han establecido los valores del objeto directiva de grupo, siga estos pasos:
 
-1. Abrir un símbolo del sistema como administrador *(Ejecutar como administrador).*
+1. Abrir un símbolo del sistema como administrador (*Ejecutar como administrador*).
 
-1. En el símbolo del sistema, escriba
+1. En el símbolo del sistema, escribe
 
    ```console
    gpresult /R > gp.txt
    ```
 
-   Esto generará un informe de GPO aplicados y lo enviará a un archivo de texto denominado *gp.txt*.
+   Esto generará un informe de los GPO aplicados y lo enviará a un archivo de texto denominado *gp.txt*.
 
    Para obtener un informe HTML más legible denominado *gp.html*, escriba el siguiente comando:
 
@@ -95,15 +95,15 @@ Para comprobar que se han establecido los valores del objeto directiva de grupo,
    gpresult /H gp.html
    ```
 
-1. En el archivo generado, busque el título **Objetos** de directiva de grupo aplicados y compruebe que los nombres de los objetos de directiva de grupo creados anteriormente están en la lista de directivas aplicadas.
+1. En el archivo generado, busque el encabezado **Objetos directiva de grupo aplicados** y compruebe que los nombres de los objetos directiva de grupo creados anteriormente están en la lista de directivas aplicadas.
 
-1. Abra el Editor del Registro y vaya a
+1. Abre el Editor del Registro y ve a
 
-   Directivas de \_ software HKEY LOCAL \_ MACHINE de Microsoft Windows \\ \\ \\ \\ \\ QoS
+   Directivas de software HKEY\_LOCAL\_MACHINE\\de\\\\Microsoft\\Windows\\QoS
 
-   Compruebe los valores de las entradas del Registro que se muestran en la Tabla 2.
+   Compruebe los valores de las entradas del Registro enumeradas en la Tabla 2.
 
-   *Tabla 2. Valores de Windows entradas del Registro para QoS*
+   *Tabla 2. Valores de las entradas del Registro de Windows para QoS*
 
    |          Nombre          |  Tipo  |    Datos     |
    |         :---:          | :---:  |    :---:    |
@@ -114,14 +114,14 @@ Para comprobar que se han establecido los valores del objeto directiva de grupo,
    |       Puerto local       | REG_SZ | 50000-50019 |
    |        Protocolo        | REG_SZ |     \*      |
    |       IP remota        | REG_SZ |     \*      |
-   |    Prefijo IP remoto    | REG_SZ |     \*      |
+   |    Prefijo ip remoto    | REG_SZ |     \*      |
    |      Puerto remoto       | REG_SZ |     \*      |
    |     Velocidad de limitación      | REG_SZ |     -1      |
    | | | |
 
-1. Compruebe que el valor de la entrada Nombre de aplicación es correcto para el cliente que usa y compruebe que las entradas Valor DSCP y Puerto local reflejen la configuración en el objeto Directiva de grupo.
+1. Compruebe que el valor de la entrada Nombre de aplicación es correcto para el cliente que está usando y compruebe que las entradas Valor de DSCP y Puerto local reflejen la configuración del objeto directiva de grupo.
 
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Implementar calidad de servicio (QoS) en Teams](QoS-in-Teams.md)
+[Implementar la calidad de servicio (QoS) en Teams](QoS-in-Teams.md)

@@ -1,7 +1,7 @@
 ---
 title: Paquetes de directivas de Teams para sanidad
-author: serdars
-ms.author: serdars
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -9,20 +9,25 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
-  - microsoftcloud-healthcare
+- M365-collaboration
+- microsoftcloud-healthcare
 appliesto:
-  - Microsoft Teams
-f1.keywords: null
-ms.custom: null
+- Microsoft Teams
+f1.keywords: ''
+ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización sanitaria.
+ms.openlocfilehash: c4a1d6909cd6a2c7f58c3a30353a3d4398c4c70e
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563728"
 ---
-
 # <a name="teams-policy-packages-for-healthcare"></a>Paquetes de directivas de Teams para sanidad
 
 ## <a name="overview"></a>Información general
@@ -47,11 +52,11 @@ Teams actualmente incluye los siguientes paquetes de directivas:
 |Trabajador de la información sanitaria  |Profesionales de la información de su organización sanitaria |Crea un conjunto de directivas y configuraciones de directivas que dan a los trabajadores de la información como el personal de TI, el personal informático, el personal del departamento financiero y los responsables de cumplimiento normativo, acceso completo a chat, llamadas y reuniones.|
 |Sala de pacientes de cuidado de la salud  |Dispositivos de sala de pacientes|Crea un conjunto de directivas y configuraciones de directivas que se aplican a las salas de pacientes de su organización de cuidados de la salud.|
 
-![Captura de pantalla de paquetes de directivas de salud.](media/policy-packages-healthcare.png)
+![Captura de pantalla de los paquetes de directivas de salud.](media/policy-packages-healthcare.png)
 
 Cada directiva individual se indica con el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas. Por ejemplo, cuando asigna el paquete de directivas de trabajadores clínicos sanitarios a clínicas de su organización, se crea una directiva denominada Healthcare_ClinicalWorker para cada directiva del paquete.
 
-![Captura de pantalla de las directivas del paquete de trabajadores clínicos de Sanidad.](media/policy-packages-healthcare-clinical-worker.png)
+![Captura de pantalla de las directivas en el paquete de trabajadores clínicos de la atención médica.](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>Introducción a los paquetes de directiva
 
@@ -112,4 +117,4 @@ Un lote puede contener hasta 5000 usuarios. Puede especificar los usuarios por s
 
 [Administrar los paquetes de directivas para Teams](manage-policy-packages.md)
 
-[Asignar paquetes de directiva a usuarios y grupos](assign-policy-packages.md)
+[Asignar paquetes de directivas a usuarios y grupos](assign-policy-packages.md)

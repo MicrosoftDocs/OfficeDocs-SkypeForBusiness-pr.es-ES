@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesita realizar eDis
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6f24c780944bfed6bb10fb8b1cd7634edc1ce850
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 4b5a0ca0cb52c4b444769b7bfc25b17cab80a02b
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562429"
+ms.locfileid: "66563948"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -38,7 +38,7 @@ No todo el contenido de Teams es eDiscoverable. En la tabla siguiente se muestra
 
 |Tipo de contenido|eDiscoverable|Notas|
 |---|---|---|
-|Grabaciones de audio|No||
+|Grabaciones de audio|Sí||
 |Contenido de la tarjeta|Sí|Vea [Buscar contenido de tarjeta](#search-for-card-content) para obtener más información.|
 |Vínculos de chat|Sí||
 |Mensajes de chat|Sí|Esto incluye el contenido de los canales estándar de Teams, los chats individuales, los chats grupales 1:N y los chats con los participantes invitados.|
@@ -51,7 +51,6 @@ No todo el contenido de Teams es eDiscoverable. En la tabla siguiente se muestra
 |Conversaciones de mensajería instantánea de la reunión|Sí||
 |Metadatos<sup>de reunión 1</sup>|Sí||
 |Nombre del canal|Sí||
-|Mensajes de chat de canal privados y compartidos|Sí||
 |Presupuestos|Sí|El contenido entrecomillado se puede buscar. Sin embargo, los resultados de la búsqueda no indican que se ha citado el contenido.|
 |Reacciones (como me gusta, corazones y otras reacciones)|Sí||
 |Asunto|Sí||
