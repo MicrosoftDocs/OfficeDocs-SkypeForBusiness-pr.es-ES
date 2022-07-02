@@ -18,19 +18,19 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
-description: Obtenga información sobre cómo administrar la configuración de directiva de reunión en Teams uso compartido de contenido.
-ms.openlocfilehash: dccf36a257cde5731c140f2000e3d0733d3366c3
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+description: Aprenda a administrar la configuración de directivas de reuniones en Teams para compartir contenido.
+ms.openlocfilehash: cd493d21b774e260f2188ac8d174d1208cf4eba7
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64403991"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605849"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Configuración de la directiva de reunión. Uso compartido de contenido
 
 <a name="bkcontentsharing"> </a>
 
-En este artículo se describen las siguientes opciones de directiva de reunión relacionadas con el uso compartido de contenido:
+En este artículo se describen las siguientes configuraciones de directiva de reunión relacionadas con el uso compartido de contenido:
 
 - [Modo de uso compartido de pantalla](#screen-sharing-mode)
 - [Permitir a un participante ceder o solicitar el control](#allow-a-participant-to-give-or-request-control)
@@ -41,7 +41,7 @@ En este artículo se describen las siguientes opciones de directiva de reunión 
 
 ## <a name="screen-sharing-mode"></a>Modo de uso compartido de la pantalla
 
-Esta configuración es una combinación de directivas por organizador y por usuario. Esta configuración controla si el escritorio y el uso compartido de ventanas están permitidos en la reunión del usuario. Los participantes de la reunión a los que no se les ha asignado ninguna directiva (por ejemplo, los participantes anónimos, invitados, B2B y federados) heredan la directiva del organizador de la reunión.
+Esta configuración es una combinación de directivas por organizador y por usuario. Esta configuración controla si se permite el uso compartido de ventanas y el escritorio en la reunión del usuario. Los participantes de la reunión a los que no se les ha asignado ninguna directiva (por ejemplo, los participantes anónimos, invitados, B2B y federados) heredan la directiva del organizador de la reunión.
 
 |Valor de configuración |Comportamiento  |
 |---------|---------|
@@ -56,7 +56,7 @@ Veamos el ejemplo siguiente.
 |Daniela  | Global   | Toda la pantalla |
 |Amanda   | Location1MeetingPolicy  | Deshabilitado |
 
-Las reuniones hospedadas por Daniela permiten a los participantes de la reunión compartir toda la pantalla o una aplicación específica. Si Amanda se une a la reunión de Daniela, Amanda no puede compartir su pantalla ni una aplicación específica, ya que esta configuración de directiva está deshabilitada. En las reuniones hospedadas por Amanda no se permite a nadie compartir su pantalla o una sola aplicación, independientemente de la directiva de modo de uso compartido de la pantalla que se les asignó.  Por lo tanto, Daniela no puede compartir su pantalla ni una sola aplicación en las reuniones de Amanda.  
+Las reuniones hospedadas por Daniela permiten a los participantes de la reunión compartir toda la pantalla o una aplicación específica. Si Amanda se une a la reunión de Daniela, Amanda no puede compartir su pantalla ni una aplicación específica, ya que esta configuración de directiva está deshabilitada. En las reuniones hospedadas por Amanda no se permite a nadie compartir su pantalla o una sola aplicación, independientemente de la directiva de modo de uso compartido de la pantalla que se les asignó.  Por lo tanto, Daniela no puede compartir su pantalla o una sola aplicación en las reuniones de Amanda.  
 
 Actualmente, los usuarios no pueden reproducir vídeo ni compartir su pantalla en una reunión de Teams si usan Google Chrome.
 
@@ -79,7 +79,7 @@ Veamos el ejemplo siguiente.
 |Daniela   | Global   | Activado       |
 |Babek    | Location1MeetingPolicy        | Desactivado   |
 
-Daniela puede dar el control del escritorio o ventana compartidos a otros participantes en una reunión organizada por Babek. Sin embargo, Babek no puede ceder el control a otros participantes.
+Daniela puede ceder el control del escritorio o la ventana compartidos a otros participantes en una reunión organizada por Babek. Sin embargo, Babek no puede ceder el control a otros participantes.
 
 Si desea usar PowerShell para controlar quién puede ceder el control o aceptar solicitudes de control, use el cmdlet AllowParticipantGiveRequestControl.
 
@@ -88,7 +88,7 @@ Si desea usar PowerShell para controlar quién puede ceder el control o aceptar 
 
 ## <a name="allow-an-external-participant-to-give-or-request-control"></a>Permitir a un participante externo ceder o solicitar el control
 
-Esta configuración es una directiva por usuario. Si una organización ha establecido esta directiva para un usuario no controla lo que los participantes externos pueden hacer, independientemente de lo que haya establecido el organizador de la reunión. Lo que controla este parámetro es si los participantes externos pueden recibir o solicitar el control de la pantalla que comparten, en función de lo que la persona que comparte haya establecido en las directivas de reuniones de su organización. Los participantes externos en reuniones de Teams se pueden categorizar de la siguiente forma:  
+Esta configuración es una directiva por usuario. Si una organización ha establecido esta directiva para un usuario no controla lo que pueden hacer los participantes externos, independientemente de lo que haya establecido el organizador de la reunión. Lo que controla este parámetro es si los participantes externos pueden recibir o solicitar el control de la pantalla que comparten, en función de lo que la persona que comparte haya establecido en las directivas de reuniones de su organización. Los participantes externos en reuniones de Teams se pueden categorizar de la siguiente forma:  
 
 - Usuario anónimo
 - Usuarios invitados  
@@ -123,7 +123,13 @@ Veamos el ejemplo siguiente.
 |Daniela   | Global   | Activado       |
 |Amanda   | Location1MeetingPolicy        | Desactivado   |
 
-Amanda no puede compartir la pizarra en una reunión, aunque sea la organizadora de la reunión. Daniela puede compartir la pizarra incluso si la reunión está organizada por Amanda.  
+Amanda no puede compartir la pizarra en una reunión, aunque sea la organizadora de la reunión. Daniela puede compartir la pizarra incluso si la reunión está organizada por Amanda.
+
+Para habilitar Whiteboard con PowerShell, establezca el cmdlet IsWBFluidEnabled en $true desde [Set-SPOTenant.](/powershell/module/sharepoint-online/set-spotenant)
+
+### <a name="annotation"></a>Anotación
+
+Cuando la pizarra está habilitada, los usuarios tendrán la opción de usar [anotaciones](/office/use-annotation-while-sharing-your-screen-in-teams), una característica que permite a los participantes colaborar al compartir su pantalla en una reunión de Teams. Si la pizarra está deshabilitada, los usuarios no tendrán acceso a las anotaciones.
 
 ## <a name="shared-notes"></a>Notas compartidas
 

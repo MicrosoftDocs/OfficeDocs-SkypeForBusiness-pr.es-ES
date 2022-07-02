@@ -1,7 +1,7 @@
 ---
 title: Administrar plantillas de equipo en el centro de administración
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar plantillas de equipo en el centro de administración
-ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 9f2044f059414f9afe1ff335f8204cd26861164b
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681401"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605909"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Administrar plantillas de equipo en el centro de administración
 
@@ -38,7 +38,7 @@ Vea este breve vídeo para aprender a administrar directivas de plantillas.
 
 1. Inicie la sesión en el Centro de administración de Teams
 
-2. Vaya a **las directivas Teams** >  **Templates**.
+2. Vaya a **Directivas de plantillas de** **Teams** > .
 
 3. Elija **Agregar**.
 
@@ -74,7 +74,7 @@ Para obtener información general sobre las formas de asignar directivas en Team
 
 ### <a name="assign-a-templates-policy-to-individual-users"></a>Asignar una directiva de plantillas a usuarios individuales
 
-Puede usar el centro de administración de Teams o PowerShell para asignar una directiva de plantillas a un usuario individual o a un número reducido de usuarios a la vez. Para obtener más información, vea [Asignar una directiva a usuarios individuales](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users).
+Puede usar el Centro de administración de Teams o PowerShell para asignar una directiva de plantillas a un usuario individual o a un número reducido de usuarios a la vez. Para obtener más información, vea [Asignar una directiva a usuarios individuales](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users).
 
 ### <a name="assign-a-templates-policy-to-a-batch-of-users"></a>Asignar una directiva de plantillas a un lote de usuarios
 
@@ -102,11 +102,11 @@ R: Las nuevas plantillas estarán visibles de forma predeterminada. Puede elegir
 
 R: Las plantillas eliminadas ya no estarán presentes en ninguna directiva de plantillas.
 
-**P: ¿Puedo asignar varios usuarios a una directiva de plantillas en el centro de administración de Teams?**
+**P: ¿Puedo asignar varios usuarios a una directiva de plantillas en el Centro de administración de Teams?**
 
 R: Sí.
 
-1. En el centro de administración de Teams, vaya a **Usuarios** > **administrar usuarios**.
+1. En el Centro de administración de Teams, vaya a **Usuarios** > **administrar usuarios**.
 1. En la lista de usuarios, seleccione los usuarios que desea asignar a la directiva de plantillas.
 1. Seleccione **Editar configuración** y, a continuación, en **Directiva de plantillas**, elija la directiva que quiera asignar.
 1. Elija **Aplicar**.
@@ -115,7 +115,7 @@ Para obtener más información, vea [Asignar una directiva a usuarios individual
 
 **P: Cómo ver todos los usuarios asignados a una directiva específica?**
 
-R: En el centro de administración de Teams:
+R: En el Centro de administración de Teams:
 
 1. Vaya a **Administrar usuarios** > .
 2. Seleccione **Filtro**, establezca un filtro para la directiva de plantillas y, después, elija **Aplicar**.
@@ -132,7 +132,7 @@ R: No, no se admiten directivas de plantillas para EDU.
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-- [Comenzar con plantillas de equipo en el centro de administración](./get-started-with-teams-templates-in-the-admin-console.md)
+- [Introducción a las plantillas de equipo en el centro de administración](./get-started-with-teams-templates-in-the-admin-console.md)
 
 - [Crear una plantilla de equipo personalizada](./create-a-team-template.md)
 
@@ -140,6 +140,6 @@ R: No, no se admiten directivas de plantillas para EDU.
 
 - [Crear una plantilla de equipo a partir de una plantilla de equipo existente](./create-template-from-existing-template.md)
 
-- [Asignar directivas a los usuarios en Microsoft Teams: Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
+- [Asignar directivas a los usuarios en Microsoft Teams: microsoft teams \| Microsoft Docs](./policy-assignment-overview.md)
 
 - [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

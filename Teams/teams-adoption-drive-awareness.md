@@ -1,7 +1,7 @@
 ---
 title: Darlo a conocer e implementar formación
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre cómo aumentar la concienciación e implementar un programa de aprendizaje para Microsoft Teams adopción.
+description: Obtenga información sobre cómo aumentar el conocimiento y la implementación de un programa de aprendizaje para la adopción de Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,21 +21,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faa91273932f4896f7ac49add0b76f5288f85870
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: d57b826a3abec7aee0df92be1259b1866ce7db73
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394472"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605689"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Darlo a conocer e implementar formación para Microsoft Teams
 
-El conocimiento y la formación son el segmento de marketing y comunicaciones de su estrategia global de adopción. Esto garantizará que los empleados sean conscientes de las nuevas capacidades de Microsoft Teams y sus aplicaciones Microsoft 365 o Office 365 y aplicaciones.
+El conocimiento y la formación son el segmento de marketing y comunicaciones de su estrategia general de adopción. Esto garantizará que los empleados sean conscientes de las nuevas capacidades de Microsoft Teams y sus aplicaciones y servicios de Microsoft 365 o Office 365 subyacentes.
    
-Tanto para los pilotos iniciales como para su eventual implementación en toda la empresa, las comunicaciones internas deben ser una prioridad. Deben incluir:
+Tanto para los pilotos iniciales como para la eventual implementación en toda la empresa, las comunicaciones internas deben ser una prioridad. Deben incluir:
 
 - Material de concientización interno, como posters, carteles digitales y eventos.
-- Información de auto-ayuda y aprendizaje en una única ubicación.
+- Información de autoayuda y aprendizaje en una única ubicación.
 
 Para sus fases piloto, estos son los pasos mínimos para alcanzar el éxito:
 
@@ -43,23 +43,23 @@ Para sus fases piloto, estos son los pasos mínimos para alcanzar el éxito:
 - Proporcione documentación de autoayuda que incluya vídeos del producto.
 - Convoque una reunión inicial con los usuarios piloto para motivarlos con respecto a su participación. No se puede exagerar la importancia de crear un sentido de comunidad con entusiasmo.
 
-Una vez que haya trabajado en el piloto inicial, puede expandir los esfuerzos anteriores para llegar a toda la organización. Dependiendo de su tamaño, esto puede llevar tiempo y ser abordado en fases por región, perfil de usuario u organización. Durante esta implementación a mayor escala, fomente la participación de los comunicadores en su organización. Recomendamos que estas personas participen antes y a menudo a medida que use los materiales de adopción disponibles o diseñe los suyos propios.
+Una vez que haya trabajado en el piloto inicial, puede expandir los esfuerzos anteriores para llegar a toda la organización. Dependiendo de su tamaño, esto puede llevar tiempo y abordarse en fases por región, perfil de usuario u organización. Durante esta implementación a mayor escala, fomente la participación de los comunicadores en su organización. Recomendamos que estas personas participen de forma anticipada y a menudo a medida que use los materiales de adopción disponibles o diseñe los suyos propios.
 
-Si su empresa tiene un portal de intranet central para noticias, información o soporte técnico, puede usarlo como concentrador para obtener información sobre este lanzamiento. Proporcionar información de auto-ayuda ampliamente disponible, aprendizaje y instrucciones escritas permite a los usuarios incorporarse rápidamente. Muchos usuarios simplemente saltarán una vez que Teams esté disponible y lo recomendamos. También sabemos que cada individuo aprende de diferentes maneras; un portal de información central puede admitir todos los estilos de aprendizaje de su organización.
+Si su empresa tiene un portal central de intranet para noticias, información o soporte técnico, puede usarlo como centro para obtener información sobre esta implementación. Proporcionar información de autoayuda, aprendizaje y orientación escrita de amplia disponibilidad permite a los usuarios incorporarse rápidamente. Muchos usuarios simplemente tendrán que entrar una vez que Teams esté disponible y se recomienda hacerlo. También sabemos que cada individuo aprende de diferentes maneras; un portal de información central puede admitir todos los estilos de aprendizaje dentro de su organización.
 
-## <a name="implement-end-user-training"></a>Implementar aprendizaje para usuarios finales
+## <a name="implement-end-user-training"></a>Implementar aprendizaje para el usuario final
 
-Use nuestros recursos para ofrecer aprendizaje a los usuarios finales a medida que los usuarios empiecen a usar Microsoft Teams y otros Microsoft 365 o Office 365 servicios. Visite nuestras páginas de recursos para obtener más información:
+Use nuestros recursos para ofrecer formación para el usuario final cuando los usuarios empiecen a usar Microsoft Teams y otros servicios de Microsoft 365 o Office 365. Visite nuestras páginas de recursos para obtener más información:
 
-- [Aprendizaje del usuario final dirigido por el instructor para Teams](instructor-led-training-teams-landing-page.yml)
+- [Aprendizaje para usuarios finales dirigido por un instructor para Teams](instructor-led-training-teams-landing-page.yml)
 - [Aprendizaje de administrador para Teams](itadmin-readiness.md)
-- [Aprendizaje en vídeo del usuario final en línea](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [Aprendizaje en línea café en la nube para & profesionales de TI](https://aka.ms/CoffeeintheCloud) 
+- [Vídeo de aprendizaje para usuarios finales en línea](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+- [Formación en línea de Café en la nube para expertos & profesionales de TI](https://aka.ms/CoffeeintheCloud) 
 - [Herramientas de adopción](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>Medir y compartir el éxito
 
-Al igual que con cualquier campaña de adopción y comunicaciones, querrá identificar las medidas de éxito por adelantado. Tenga en cuenta lo siguiente:
+Al igual que con cualquier campaña de comunicaciones y adopción, querrá identificar sus mediciones de éxito por adelantado. Tenga en cuenta lo siguiente:
 
 - Usuarios activos en el producto
 - Visualizaciones de las páginas web de información
@@ -67,8 +67,8 @@ Al igual que con cualquier campaña de adopción y comunicaciones, querrá ident
 - Visualizaciones de los vídeos de formación
 - Asistencia en los eventos de aprendizaje
 
-Comparta la información que obtiene de sus canales de comentarios con el hashtag #TeamsStories para facilitar la recuperación. Comparta una historia de #TeamsStory al mes en su intranet para resaltar qué empleados están adoptando el cambio para lograr aumentar la productividad y la colaboración en su entorno. También compártelas con nosotros en nuestro foro de adopción de conducción en el sitio técnico de Microsoft Community. Compartir estos ejemplos del mundo real desde su propia empresa es muy valioso para realizar cambios continuos a lo largo del tiempo con su comunidad de usuarios.
+Comparta la información que obtiene de sus canales de comentarios con el hashtag #TeamsStories para facilitar la recuperación. Comparta una historia de #TeamsStory al mes en su intranet para resaltar qué empleados están adoptando el cambio para lograr aumentar la productividad y la colaboración en su entorno. Compártalos también con nosotros en nuestro foro Impulso de la adopción en el Microsoft Technical Community. Compartir estos ejemplos del mundo real desde dentro de su propia empresa es extremadamente valioso para realizar cambios sostenidos con el tiempo con su comunidad de usuarios.
 
-[Obtenga más información sobre los Microsoft Teams de uso en el Centro de administración de Microsoft 365.](teams-activity-reports.md)
+[Obtenga más información sobre los informes de uso de Microsoft Teams en la Centro de administración de Microsoft 365.](teams-activity-reports.md)
 
-![Un icono que representa los pasos siguientes.](media/teams-adoption-next-icon.png) Siguiente: Programar [revisiones de estado del servicio](teams-adoption-schedule-service-health-reviews.md)
+![Un icono que representa los pasos siguientes.](media/teams-adoption-next-icon.png) Siguiente: [Programar revisiones del estado del servicio](teams-adoption-schedule-service-health-reviews.md)

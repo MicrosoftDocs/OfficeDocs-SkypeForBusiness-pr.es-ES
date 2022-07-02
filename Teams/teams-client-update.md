@@ -1,7 +1,7 @@
 ---
 title: Actualizaciones del cliente de Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a7d296e296b2f5a20b5d7d10da6e598a989f0d71
-ms.sourcegitcommit: cd4464fe9bf0f38ed4c3ca058a51bcd29578eef9
+ms.openlocfilehash: 505998f0e2b84641c3d7b8eafc16e5a24e503c20
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "65316506"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605889"
 ---
 # <a name="teams-update-process"></a>El proceso de actualización de Teams
 

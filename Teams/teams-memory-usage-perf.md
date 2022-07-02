@@ -1,13 +1,13 @@
 ---
 title: Cómo usa Microsoft Teams la memoria
-author: msdmaguire
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ramesa
 audience: admin
-description: Obtenga información sobre Microsoft Teams de memoria del sistema y por qué el uso de memoria es el mismo entre la aplicación de escritorio y la aplicación web.
+description: Obtenga información sobre el uso de memoria del sistema de Microsoft Teams y por qué el uso de memoria es el mismo entre la aplicación de escritorio y la aplicación web.
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
@@ -17,53 +17,53 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 70862d2d48d98517365b35d05ccd36dd9cb4ffd3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0d55caf2a1642b28ccc63e3be1cf3eccc69bb260
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58734039"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605679"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Cómo usa Microsoft Teams la memoria
 
-Algunos Microsoft Teams usuarios tienen preguntas sobre cómo usar Teams memoria. En este artículo se describe cómo Teams usa la memoria y por qué la aplicación de escritorio (aplicación) de Teams y la aplicación web de Teams no impiden que otras aplicaciones y cargas de trabajo del mismo equipo tengan memoria suficiente para ejecutarse de forma óptima. Teams está diseñado para usar tecnología web moderna. Para ello, el Teams de escritorio se ha desarrollado en Electron, que usa Chromium para la representación. Este es el mismo motor de representación detrás de muchos de los exploradores más populares de hoy en día, incluidos Edge y Chrome.
+Algunos usuarios de Microsoft Teams tienen preguntas sobre cómo Teams usa la memoria. En este artículo se describe cómo usa Teams la memoria y por qué la aplicación de escritorio (aplicación) de Teams y la aplicación web de Teams no impiden que otras aplicaciones y cargas de trabajo del mismo equipo tengan suficiente memoria para ejecutarse de forma óptima. Teams está diseñado para usar la tecnología web moderna. Para conseguirlo, el cliente de escritorio de Teams se desarrolló en Electron, que utiliza Chromium para la representación. Este es el mismo motor de representación detrás de muchos de los exploradores más populares de hoy en día, como Edge y Chrome.
 
-## <a name="how-teams-works"></a>Cómo Teams funciona
+## <a name="how-teams-works"></a>Cómo funciona Teams
 
-Teams diseño en Electron permite un desarrollo más rápido y también mantiene la paridad entre las versiones Teams en diferentes sistemas operativos (Windows, Mac y Linux). Esta paridad es posible porque Electron y Chromium una base de código similar en todas las versiones. Otra ventaja de esta arquitectura es que hay un perfil de uso de memoria similar entre la Teams web y la versión de escritorio. Tanto la aplicación web como las versiones de escritorio usan la memoria de forma similar a como lo usaría un explorador. Más información sobre Electron está disponible en [su sitio web.](https://electronjs.org/)
+El diseño de Teams en Electrones permite un desarrollo más rápido y también mantiene la paridad entre las versiones de Teams en diferentes sistemas operativos (Windows, Mac y Linux). Esta paridad es posible porque Electron y Chromium mantener una base de código similar en todas las versiones. Otra ventaja de esta arquitectura es que hay un perfil de uso de memoria similar entre la aplicación web de Teams y la versión de escritorio. Tanto la aplicación web como las versiones de escritorio usan la memoria de forma similar a como la usaría un explorador. Más información sobre Electron está disponible en [su sitio web](https://electronjs.org/).
 
-Vea [Chromium uso de memoria](https://www.chromium.org/developers/memory-usage-backgrounder) y [conceptos clave en la memoria chrome](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md) para obtener más información.
+Consulta [Chromium uso de memoria](https://www.chromium.org/developers/memory-usage-backgrounder) y [conceptos clave en la memoria de Chrome](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md) para obtener más información.
 
-La siguiente imagen muestra los usos de memoria en paralelo de la aplicación de escritorio Teams para Windows y la aplicación web Teams (en este ejemplo, ejecutándose en Google Chrome).
+La imagen siguiente muestra los usos de memoria en paralelo de la aplicación de escritorio de Teams para Windows y la aplicación web de Teams (en este ejemplo, que se ejecuta en Google Chrome).
 
-![Teams de memoria para la aplicación de escritorio y la aplicación web.](media/teams-memory-clientweb.png)
+![Uso de memoria de Teams para la aplicación de escritorio y la aplicación web.](media/teams-memory-clientweb.png)
 
 ## <a name="memory-usage-in-teams"></a>Uso de memoria en Teams
 
-Es importante comprender  el comportamiento esperado de Teams en lo que respecta a la memoria del sistema y conocer los síntomas de problemas de memoria del sistema realmente problemáticos.
+Es importante comprender el comportamiento *esperado* de Teams en lo que respecta a la memoria del sistema y conocer los síntomas de los problemas verdaderamente problemáticos de la memoria del sistema.
 
 ### <a name="expected-memory-usage-by-teams"></a>Uso de memoria esperado por Teams
 
-Tanto si ejecuta la aplicación de escritorio Teams como la aplicación web de Teams, Chromium detecta la cantidad de memoria del sistema disponible y usa suficiente memoria para optimizar la experiencia de representación. Cuando otras aplicaciones o servicios requieren memoria del sistema, Chromium memoria a esos procesos. Chromium de Teams de memoria de forma continua para optimizar el rendimiento de Teams sin afectar a nada más que se esté ejecutando actualmente.
+Tanto si está ejecutando la aplicación de escritorio de Teams como la aplicación web de Teams, Chromium detecta la cantidad de memoria del sistema disponible y usa suficiente memoria para optimizar la experiencia de representación. Cuando otras aplicaciones o servicios requieren memoria del sistema, Chromium entrega memoria a esos procesos. Chromium sintoniza el uso de memoria de Teams de forma continua con el fin de optimizar el rendimiento de Teams sin afectar a nada más que se esté ejecutando actualmente.
 
-De este modo, Chromium cargas de trabajo similares pueden usar distintas cantidades de memoria, dependiendo de la cantidad de memoria del sistema disponible.
+De esta forma, las cargas de trabajo de Chromium similares pueden utilizar distintas cantidades de memoria, dependiendo de la cantidad de memoria del sistema disponible.
 
-En el siguiente gráfico se muestra el uso de la memoria Teams en cuatro sistemas independientes, cada uno con diferentes cantidades de memoria disponibles. Cada uno de los sistemas está procesando cargas de trabajo similares (las mismas aplicaciones abiertas y en ejecución).
+El siguiente gráfico muestra el uso de memoria por parte de Teams en cuatro sistemas independientes, cada uno con diferentes cantidades de memoria disponible. Cada uno de los sistemas procesa cargas de trabajo similares (las mismas aplicaciones abiertas y en ejecución).
 
-![Teams de memoria en diferentes sistemas.](media/teams-memory-usage.png)
+![Uso de memoria de Teams en diferentes sistemas.](media/teams-memory-usage.png)
 
-Cuando los equipos tienen más memoria, Teams usarán esa memoria. En sistemas donde la memoria es escasa, Teams usarán menos.
+Cuando los equipos tengan más memoria, Teams usará esa memoria. En sistemas en los que la memoria es escasa, Teams usará menos.
 
 ### <a name="symptoms-of-system-memory-issues"></a>Síntomas de problemas de memoria del sistema
 
-Si ve uno o varios de los siguientes síntomas en el equipo, podría tener un problema grave de memoria del sistema:
+Si ves uno o varios de los siguientes síntomas en el equipo, podrías tener un problema grave de memoria del sistema:
 
-- Uso de memoria alta cuando varias aplicaciones de gran tamaño se ejecutan simultáneamente.
-- Rendimiento del sistema lento o aplicaciones que se cuelgan.
-- Uso de memoria general del sistema sostenida del 90 % o superior en todas las aplicaciones. Con esta cantidad de uso de memoria, Teams debería devolver la memoria a otras aplicaciones y cargas de trabajo. El uso de memoria sostenida del 90 % podría significar que Teams no está regresando memoria al sistema, lo que indica un problema.
+- Uso de memoria elevada cuando se ejecutan varias aplicaciones de gran tamaño al mismo tiempo.
+- Rendimiento lento del sistema o aplicaciones que se cuelgan.
+- Se ha mantenido el uso de memoria general del sistema del 90 % o superior en todas las aplicaciones. Con esta cantidad de uso de memoria, Teams debería devolver memoria a otras aplicaciones y cargas de trabajo. Un uso sostenido de la memoria del 90 % podría significar que Teams no está devolviendo memoria al sistema, lo que indica un problema.
 
 Las siguientes imágenes muestran ejemplos de vistas en el Administrador de tareas cuando el uso de memoria del sistema es anormalmente alto.
 
-![Teams de uso de memoria en el Administrador de tareas.](media/teams-memory-high-mem-process-list.png)
+![Vista uso de memoria de Teams en el Administrador de tareas.](media/teams-memory-high-mem-process-list.png)
 
-![Teams gráfico de uso de memoria en el Administrador de tareas.](media/teams-memory-high-mem-process-list2.png)
+![Gráfico de uso de memoria de Teams en el Administrador de tareas.](media/teams-memory-high-mem-process-list2.png)

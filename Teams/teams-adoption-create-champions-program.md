@@ -1,7 +1,7 @@
 ---
 title: Crear su programa para expertos para Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
@@ -18,47 +18,47 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Aprenda a formar a un equipo de campeones para promover Teams adopción mediante concienciación, adopción y educación en su organización.
+description: Aprenda a formar a un equipo de expertos para promover la adopción de Teams impulsando la concienciación, la adopción y el ámbito educativo en su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 446b0e4ba0cdc549623ac0411a549e481288ed3b
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: f70f47c034234db16e936d12986121df10b43521
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387478"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605829"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Crear su programa para expertos para Microsoft Teams
 
-Los campeones son esenciales para impulsar la concienciación, la adopción y la educación en su organización. Un campeón es una persona, principalmente motivada por ayudar a otros usuarios, que está interesado en las nuevas tecnologías (específicamente Teams) y ayudar a otros empleados a usarlo en alineación con sus procedimientos recomendados. Dependiendo del tamaño de su organización, es posible que tenga esto como parte formal del rol de la persona, pero a menudo los empleados toman este rol ellos mismos debido a su motivación principal para ayudar a otros.
+Los expertos son esenciales para impulsar la concienciación, la adopción y la educación en su organización. Un campeón es una persona, motivada principalmente por ayudar a otros, que están interesados en la nueva tecnología (específicamente Teams) y ayudar a otros empleados a usarla en consonancia con sus prácticas recomendadas. Dependiendo del tamaño de su organización puede tener esto como parte formal del rol de la persona, pero a menudo los empleados toman este rol ellos mismos debido a su motivación principal para ayudar a otros.
 
-Los campeones se ajustarán a la planificación general del lanzamiento de varias maneras, como se muestra a continuación.
+Los expertos encajarán en la planificación general de lanzamientos de varias maneras, como se muestra a continuación.
 
-![Ilustración de la planificación de inicio de Champions.](media/teams-adoption-champions.png)
+![Ilustración de la planificación de lanzamientos de expertos.](media/teams-adoption-champions.png)
 
-Los campeones deben:
+Los expertos deberían:
 
-- Estar formalmente capacitado para aumentar su profundidad y su amplitud de conocimientos
-- Ser alentado y empoderado para guiar, enseñar y entrenar a sus compañeros
-- Tener un reforzamiento coherente y positivo que afirme el impacto de sus esfuerzos
+- Entrenarse formalmente para aumentar su profundidad y amplitud de conocimiento
+- Ser alentados y capacitados para guiar, enseñar y entrenar a sus compañeros
+- Tener un refuerzo coherente y positivo que afirme el impacto de sus esfuerzos
 - Tener un plan claro para ejecutar
 
-Use nuestra [Guía del programa Campeones](https://aka.ms/M365Champions) para crear este programa en su organización. Nuestros procedimientos recomendados para esta comunidad son:
+Usa nuestra [Guía del programa Expertos](https://aka.ms/M365Champions) para crear este programa en tu organización. Nuestros procedimientos recomendados para esta comunidad son:
 
-- Únase al [Programa de campeones](https://aka.ms/O365Champions). Asegúrese de que, como mínimo, los líderes del programa Campeones (y posiblemente todos los campeones de la compañía) sean miembros del programa. Esta llamada de comunidad mensual gratuita proporcionará información valiosa para ejecutar su propio programa y sacar el máximo partido de Teams y otros Microsoft 365 o Office 365 servicios. Los materiales del programa se pueden reutilizar en su propio programa interno.
+- Únete al [Programa de expertos](https://aka.ms/O365Champions). Asegúrese de que, como mínimo, los líderes del programa de expertos (y potencialmente todos los expertos de la compañía) sean miembros del programa. Esta llamada de comunidad gratuita y mensual proporcionará información valiosa para ejecutar su propio programa y sacar el máximo partido de Teams y otros servicios de Microsoft 365 o Office 365. Los materiales del programa se pueden reutilizar en su propio programa interno.
 
-- Use el equipo campeón de trabajo en equipo: los campeones deben usar el equipo que tiene configurado para ellos para todas las comunicaciones, comentarios y recursos del programa.  Al hacerlo, se familiarizarán cada vez más con el producto y sus ventajas.
+- Usar el equipo de expertos en trabajo en equipo: los expertos deben usar el equipo que haya configurado para ellos para todas las comunicaciones de programa, comentarios y para encontrar recursos.  Al hacerlo, se familiarizarán cada vez más con el producto y sus ventajas.
 
-- Realizar reuniones mensuales periódicas: Promueva el entusiasmo y la cohesividad de su comunidad mediante la celebración de reuniones mensuales periódicas. Estas pueden ser una combinación de reuniones en persona y virtuales, pero su coherencia es clave para tener una comunidad de campeones próspera.
+- Mantenga reuniones mensuales periódicas: Fomente el entusiasmo y la cohesividad de su comunidad mediante reuniones mensuales periódicas. Pueden ser una combinación de reuniones virtuales y en persona, pero su coherencia es clave para tener una comunidad de campeones próspera.
 
     > [!TIP]
-    > Para ayudar a crear sus agendas, programe las reuniones para la semana posterior a la llamada de la comunidad pública. 
+    > Para ayudarle a crear sus agendas, programe las reuniones para la semana posterior a la llamada a la comunidad pública. 
 
-- Tenga claros los requisitos del programa: Algunos programas de campeones requieren que los miembros asistan a las reuniones mensuales, que se mantenga el horario de oficina para el grupo de usuarios a los que admiten y que proporcionen formación a los nuevos usuarios. Independientemente de sus requisitos, asegúrese de que los participantes tienen claro cómo participar correctamente en el programa.
+- Tenga en cuenta los requisitos del programa: algunos programas expertos requieren que los miembros asistan a las reuniones mensuales, mantenga las horas de oficina para el grupo de usuarios que admiten y proporcione formación a los nuevos usuarios. Independientemente de sus requisitos, asegúrese de que los expertos tienen claro cómo participar correctamente en el programa.
 
-- Recompensa visiblemente a tus campeones: tus campeones te darán información importante sobre el progreso y los posibles obstáculos de tu proyecto. Recompense a menudo por su participación. Los pequeños gestos van mucho más allá y, a menudo, los empleados no buscan ganancias económicas, sino que aprecian el reconocimiento por sus contribuciones. Encuentre formas apropiadas y divertidas de agradecer a su comunidad. 
+- Recompensa visiblemente a tus expertos: tus expertos te darán información importante sobre el progreso y los posibles obstáculos de tu proyecto. Recompensen a menudo su participación. Los gestos pequeños van mucho más allá y, a menudo, los empleados no buscan ganancias monetarias, sino que aprecian el reconocimiento de sus contribuciones. Encuentra formas apropiadas y divertidas de agradecer a tu comunidad. 
 
-- Entrenar a los campeones con antelación y con frecuencia: el programa comienza y las reuniones mensuales se pueden usar para crear aptitudes en la comunidad de campeones. Use estas oportunidades para traerlos a bordo, llevar a cabo su formación inicial, animarlos a asistir a nuestros cursos y asegurarse de que están listos para apoyar a sus empleados a medida que avanzan en la fase de experimentación.  
+- Entrenar a los expertos a tiempo y con frecuencia: el programa se inicia y las reuniones mensuales se pueden usar para desarrollar habilidades en la comunidad de expertos. Use estas oportunidades para incorporarlos, llevar a cabo su formación inicial, animarlos a asistir a nuestros cursos y asegurarse de que están listos para apoyar a sus empleados a medida que avanzan en la fase de experimentación.  
 
-![Un icono que representa el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Completar el inicio rápido del gobierno](teams-adoption-governance-quick-start.md)
+![Un icono que representa el paso siguiente.](media/teams-adoption-next-icon.png) Siguiente: [Completar el inicio rápido de gobernanza](teams-adoption-governance-quick-start.md)
 
