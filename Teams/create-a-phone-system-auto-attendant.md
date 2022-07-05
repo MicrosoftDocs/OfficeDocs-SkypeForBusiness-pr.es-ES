@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y administrar operadores automáticos en Microsoft Teams.
-ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 384c7aae5e11c938a6bf8ab5f82924d0379a83aa
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240949"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616116"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -57,9 +57,9 @@ Los pasos descritos en el artículo crean operadores automáticos con el Centro 
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>Siga estos pasos para configurar su operador automático
 
-# <a name="step-1---general-info"></a>[Paso 1: información general](#tab/general-info)
+# <a name="step-1-general-info"></a>[Paso 1: Información general](#tab/general-info)
 
-## <a name="step-1---set-the-auto-attendants-general-information"></a>Paso 1: Establecer la información general del operador automático
+## <a name="step-1-set-the-auto-attendants-general-information"></a>Paso 1: Establecer la información general del operador automático
 
 Para configurar un operador automático, en el [Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851), expanda **Voz**, seleccione **Operadores automáticos** y, a continuación, seleccione **Agregar**.
 
@@ -78,10 +78,9 @@ Para configurar un operador automático, en el [Centro de administración de Tea
 
 Una vez que haya configurado la información general del operador automático, seleccione **Siguiente**.
 
+# <a name="step-2-basic-call-flow"></a>[Paso 2: Flujo de llamadas básico](#tab/call-flow)
 
-# <a name="step-2---basic-call-flow"></a>[Paso 2: Flujo de llamadas básico](#tab/call-flow)
-
-## <a name="step-2---set-up-the-basic-call-flow"></a>Paso 2: Configurar el flujo de llamadas básico
+## <a name="step-2-set-up-the-basic-call-flow"></a>Paso 2: Configurar el flujo de llamadas básico
 
 ### <a name="set-a-greeting"></a>Establecer un saludo
 
@@ -131,9 +130,9 @@ Para obtener más información, consulte [el dial y la referencia de voz](dial-v
 
 Una vez que haya establecido las opciones básicas de flujo de llamadas, seleccione **Siguiente**.
 
-# <a name="step-3---after-hours-call-flow"></a>[Paso 3: Flujo de llamadas fuera del horario laboral](#tab/after-hours)
+# <a name="step-3-after-hours-call-flow"></a>[Paso 3: Flujo de llamadas fuera del horario laboral](#tab/after-hours)
 
-## <a name="step-3---set-up-call-flow-for-after-hours-optional"></a>Paso 3: Configurar el flujo de llamadas para fuera del horario laboral (opcional)
+## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>Paso 3: Configurar el flujo de llamadas para fuera del horario laboral (opcional)
 
 El horario laboral se puede establecer para cada operador automático.
 
@@ -151,9 +150,9 @@ Si desea un enrutamiento de llamadas independiente para los autores de llamadas 
 
 Una vez que haya agregado el flujo de llamadas fuera del horario laboral, seleccione **Siguiente**.
 
-# <a name="step-4---holiday-call-flow"></a>[Paso 4: Flujo de llamadas navideñas](#tab/holidays)
+# <a name="step-4-holiday-call-flow"></a>[Paso 4: Flujo de llamadas navideñas](#tab/holidays)
 
-## <a name="step-4---set-up-call-flows-for-holidays-optional"></a>Paso 4: Configurar flujos de llamadas para días festivos (opcional)
+## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Paso 4: Configurar flujos de llamadas para días festivos (opcional)
 
 El operador automático puede tener un flujo de llamadas para cada [día festivo que haya configurado](set-up-holidays-in-teams.md). Puede agregar un máximo de 20 días festivos programados a cada operador automático.
 
@@ -176,9 +175,9 @@ Repita el procedimiento según sea necesario para cada día festivo adicional.
 
 Una vez que haya agregado todas las horas de vacaciones, seleccione **Siguiente**.
 
-# <a name="step-5---dial-scope"></a>[Paso 5: Ámbito de marcado](#tab/dial-scope)
+# <a name="step-5-dial-scope"></a>[Paso 5: Ámbito de marcado](#tab/dial-scope)
 
-## <a name="step-5---set-up-dial-scope-optional"></a>Paso 5: Configurar el ámbito de marcado (opcional)
+## <a name="step-5-set-up-dial-scope-optional"></a>Paso 5: Configurar el ámbito de marcado (opcional)
 
 El *ámbito de marcado* define qué usuarios están disponibles en el directorio cuando el autor de la llamada usa el marcado por nombre o marcado por extensión. El valor predeterminado de **Todos los usuarios en línea** incluye todos los usuarios de la organización que sean usuarios en línea o que se hospeden localmente con Skype Empresarial Server.
 
@@ -191,9 +190,9 @@ Si un usuario está en ambas listas, se excluirá del directorio.
 
 Una vez que haya seleccionado las opciones de **Ámbito de marcado** , seleccione **Siguiente**.
 
-# <a name="step-6---resource-accounts"></a>[Paso 6: Cuentas de recursos](#tab/resource-accounts)
+# <a name="step-6-resource-accounts"></a>[Paso 6: Cuentas de recursos](#tab/resource-accounts)
 
-## <a name="step-6---set-up-resource-accounts-optional"></a>Paso 6: Configurar cuentas de recursos (opcional)
+## <a name="step-6-set-up-resource-accounts-optional"></a>Paso 6: Configurar cuentas de recursos (opcional)
 
 Todos los operadores automáticos deben tener una cuenta de recursos asociada.  Los operadores automáticos de primer nivel necesitarán al menos una cuenta de recurso que tenga un número de servicio asociado. Si lo desea, puede asignar varias cuentas de recursos a un operador automático, cada una con un número de servicio independiente.
 
@@ -203,9 +202,9 @@ Una vez que haya agregado cuentas de recursos, seleccione **Siguiente**.
 
 Consulte [Administrar cuentas de recursos de Teams](manage-resource-accounts.md) para obtener más información.
 
-# <a name="additional-resources"></a>[Otros recursos](#tab/additional-resources)
+---
 
-## <a name="resources-for-more-complex-scenarios"></a>Recursos para escenarios más complejos
+## <a name="resources-for-complex-scenarios"></a>Recursos para escenarios complejos
 
 ### <a name="external-phone-number-transfers---technical-details"></a>Transferencias de números de teléfono externos: detalles técnicos
 
@@ -236,8 +235,6 @@ Si es administrador, puede usar la siguiente herramienta de diagnóstico para va
 2. En el panel Ejecutar diagnóstico, escriba la Cuenta de recursos en el campo **Nombre de usuario o Correo electrónico** y, después, seleccione **Ejecutar pruebas**.
 
 3. Las pruebas identificarán las configuraciones de cuenta de recursos, directivas o inquilinos que impiden que el operador automático pueda recibir llamadas y proporcionarán pasos para corregir los problemas identificados.
-
----
 
 ### <a name="related-topics"></a>Temas relacionados
 

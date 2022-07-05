@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System - seo-marvel-apr2020
 description: Consulte este artículo sobre los cmdlets de PowerShell para crear y administrar operadores automáticos y colas de llamadas en Microsoft Teams.
-ms.openlocfilehash: afb3b6d7992c828c85cebdf83d89a2b17fff6065
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: bbe8f85cdd2e75693cf71e784cb75274f85d7b9b
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494817"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615896"
 ---
 # <a name="powershell-cmdlet-reference-for-auto-attendants-and-call-queues"></a>Referencia de cmdlet de PowerShell para operadores automáticos y colas de llamadas
 
@@ -58,7 +58,6 @@ Los cmdlets siguientes le permiten administrar operadores automáticos:
 
 Para obtener una guía paso a paso para crear operadores automáticos con PowerShell, consulte [Creación de operadores automáticos con cmdlets de PowerShell](create-a-phone-system-auto-attendant-via-cmdlets.md)
 
-
 ## <a name="call-queue-cmdlets"></a>Cmdlets de colas de llamadas
 
 Los siguientes cmdlets le permiten administrar una cola de llamadas:
@@ -68,9 +67,7 @@ Los siguientes cmdlets le permiten administrar una cola de llamadas:
 - [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
 - [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-
 Para obtener una guía paso a paso para crear colas de llamadas con PowerShell, consulte [Creación de colas de llamadas con cmdlets de PowerShell](create-a-phone-system-call-queue-via-cmdlets.md)
-
 
 ## <a name="common-cmdlets-used-by-both-auto-attendants-and-call-queues"></a>Cmdlets comunes usados por operadores automáticos y colas de llamadas
 
@@ -96,18 +93,15 @@ Los cmdlets siguientes también son necesarios para administrar los usuarios, la
 - [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
 - [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
 
-
-### <a name="virtual-teams-phone-licenses"></a>Licencias de Virtual Teams Phone
+### <a name="teams-phone-resource-account-licenses"></a>Licencias de la cuenta de recursos de Teléfono de Teams
 
 - [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
 - [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
-
 
 ### <a name="phone-number-assignment"></a>Asignación de número de teléfono
 
 - [Get-CsPhoneNumberAssignment](/powershell/module/teams/Get-CsPhoneNumberAssignment)
 - [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
-
 
 ### <a name="audio-files"></a>Archivos de audio
 
@@ -116,9 +110,7 @@ Los cmdlets siguientes también son necesarios para administrar los usuarios, la
 - [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
 - [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
 
-
 ### <a name="support-languages-and-time-zones"></a>Idiomas compatibles y zonas horarias
 
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
 - [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-

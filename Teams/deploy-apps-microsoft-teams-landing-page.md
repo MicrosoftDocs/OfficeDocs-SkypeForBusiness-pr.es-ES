@@ -9,6 +9,7 @@ manager: prkosh
 audience: admin
 ms.date: 04/05/2022
 ms.service: msteams
+ms.subservice: teams-apps
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,13 +18,13 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bfb786c031acf0d07e67895416b724e24f4950da
-ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
+ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
+ms.openlocfilehash: f802506ff815745aaf555501e37171ebddfc7f91
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "66190300"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615866"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Acerca de las aplicaciones de Microsoft Teams
 
@@ -169,6 +170,6 @@ You can use activity reports to see how users in your organization are using Tea
 
 | Ask yourself | Action |
 |--------------|--------|
-| <br>Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
+| Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 
 --->

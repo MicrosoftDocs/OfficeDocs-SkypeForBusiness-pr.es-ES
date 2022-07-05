@@ -1,7 +1,7 @@
 ---
 title: Disponibilidad en Ghana
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Ghana.
-ms.openlocfilehash: 28c3611dd2c108a84ba15ebcd1d3c9f55f2ef91b
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Ghana.
+ms.openlocfilehash: bb0ed535f39a98aefde6f1ca90af58f3c25ed5b2
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394652"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615906"
 ---
 # <a name="availability-in-ghana"></a>Disponibilidad en Ghana
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Ghana.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Ghana.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -62,7 +62,7 @@ Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Team
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
 
-Si los planes de llamadas no están disponibles para la compra, consulte [Opciones de conectividad RTC](../pstn-connectivity.md) para todas las opciones disponibles.
+Si los planes de llamadas no están disponibles para comprar, consulte [Opciones de conectividad RTC](../pstn-connectivity.md) para todas las opciones disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 

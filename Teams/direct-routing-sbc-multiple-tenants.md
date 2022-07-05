@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para asociados de Microsoft o operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48a045ea84cabf34ec6f95b4aa0f605a3155d50e
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9221414053b0ee92b87553e0f81c23b41b23f0fb
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240669"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616346"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -139,7 +139,7 @@ Después de registrar un nombre de dominio, debe activarlo agregando al menos un
 - Cuenta de usuario con Office 365 E1/E3/E5/A3/A5 o Microsoft 365 E3/E5/A3/A5
 - Cuenta de usuario con Office 365 F1/F3 o Microsoft 365 F1/F3
 - Cuenta de usuario con teléfono de área común
-- Cuenta de recursos con licencia de usuario virtual
+- Cuenta de recursos con licencia **de cuenta de recursos de Teléfono Microsoft Teams**
 
 Además, el UPN (nombre principal de usuario) de la cuenta o Skype Empresarial dirección SIP local debe usar el mismo FQDN que el dominio recién creado.
 
@@ -189,22 +189,22 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
 
 10. Seleccione **Finalizar** en la página **Actualizar configuración DNS** .
 
-11. Asegúrese de que el estado es **Configuración completada**. 
-    
+11. Asegúrese de que el estado es **Configuración completada**.
+
     ![Captura de pantalla de la página que muestra el estado del programa de instalación completado.](media/direct-routing-12-sbc-setup-complete.png)
-    
+
 > [!NOTE]
 > La dirección URL base y el subdominio del cliente individual tienen que estar en el mismo espacio empresarial para permitirle agregar un tronco de _ruta directa_ .
 
 ### <a name="activate-the-subdomain-name"></a>Activar el nombre del subdominio
 
 Después de registrar un nombre de subdominio, debe activarlo agregando al menos una cuenta de usuarios o recursos con licencia de Teams. Las cuentas aceptables se licenciarán con cualquiera de las siguientes SKU:
- 
+
 -   Cuenta de usuario con Office 365 E1/E3/E5/A3/A5 o Microsoft 365 E3/E5/A3/A5
 -   Cuenta de usuario con Office 365 F1/F3 o Microsoft 365 F1/F3
 -   Cuenta de usuario con teléfono de área común
--   Cuenta de recursos con licencia de usuario virtual
- 
+-   Cuenta de recursos con una licencia de **cuenta de recursos de Teléfono Microsoft Teams**
+
 Además, el UPN (nombre principal de usuario) de la cuenta o Skype Empresarial dirección SIP local debe usar el mismo FQDN que el subdominio recién creado.
 
 Para obtener más información sobre cómo agregar usuarios en organizaciones de Microsoft 365, consulte [Obtener ayuda con Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).

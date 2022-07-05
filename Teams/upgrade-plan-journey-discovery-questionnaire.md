@@ -1,7 +1,7 @@
 ---
 title: '| de actualización de Microsoft Teams Evaluación del entorno, preguntas sobre detección'
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca3233f2dd0dde20f887378520049023ab82cbb7
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: a72fda2622ab9bcd56520e48db38335d72423e46
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529712"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616036"
 ---
 # <a name="discovery-questionnaire---evaluate-your-environment"></a>Cuestionario de detección: evaluar el entorno
 

@@ -1,42 +1,47 @@
 ---
 title: Disponibilidad en Albania
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Audio Conferencing
-  - Phone System
-  - Calling Plans
-description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Albania.
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Albania.
+ms.openlocfilehash: 84a439d3ea508ec766498c6c4ac1d1c97aa62148
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616226"
 ---
-
 # <a name="availability-in-albania"></a>Disponibilidad en Albania
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Albania.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Albania.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |Sí. Pago por minuto solo  <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |Sí. Solo pago por minuto  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> | No |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Requiere créditos de comunicaciones <br/> |
    

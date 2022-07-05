@@ -8,6 +8,7 @@ audience: ITPro
 ms.topic: article
 feedback_system: None
 ms.service: msteams
+ms.subservice: teams-devices
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -15,19 +16,19 @@ ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Obtenga información sobre cómo configurar Salas de Microsoft Teams, incluida la planificación, la implementación y la administración del sistema para crear su sala de reuniones virtual ideal.
-ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 917b260bc7377c47be52c71179a7a027649846b4
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.custom: seo-marvel-may2020; intro-overview
+ms.openlocfilehash: e4ef69f21ed47c283f9576984d38730ddbd5c2d6
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761132"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615416"
 ---
 # <a name="microsoft-teams-rooms"></a>Salas de Microsoft Teams
 
 :::row:::
     :::column span="2":::
-       Transforme espacios para reuniones que van desde pequeñas áreas de reunión a salas de conferencias grandes con una experiencia de Teams enriquecida y colaborativa que es fácil de usar, implementar y administrar.
+       Transforme espacios para reuniones que van desde pequeñas áreas de reunión a salas de conferencias grandes con una experiencia de teams enriquecida y colaborativa que es fácil de usar, implementar y administrar.
 
        Inicie las reuniones a tiempo con unirse con un solo toque y, a continuación, proyecte al instante en la pantalla de la sala y compártalas con los participantes remotos.
 
@@ -46,11 +47,10 @@ ms.locfileid: "65761132"
 | ------------- | ------------- | ------------- |
 |  **[Plan](./rooms-plan.md)** |  **[Implementación](./rooms-deploy.md)** |  **[Manage](./rooms-manage.md)** |
 
-
 [:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Salas de Microsoft Teams vídeo de Microsoft Mechanics.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 
 > [!NOTE]
-> Salas de Microsoft Teams está pensado para su uso con Microsoft Teams, Skype Empresarial Server 2019 o Skype Empresarial Server 2015.
+> Salas de Microsoft Teams está pensado para usarse con Microsoft Teams, Skype Empresarial Server 2019 o Skype Empresarial Server 2015.
 >
 > Las plataformas anteriores, como Lync Server 2013, no son compatibles con Salas de Microsoft Teams.
 

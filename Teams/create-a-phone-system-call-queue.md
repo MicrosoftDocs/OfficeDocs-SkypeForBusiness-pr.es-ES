@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas en Microsoft Teams. Las colas de llamadas proporcionan un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: b90dc937d9df1b8578e80c34c96030caf2db5bad
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: cd5e0cc291b353b8bb46d82333275cc44ef860d3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494697"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616176"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -96,7 +96,7 @@ Para obtener más información, consulte [Administrar cuentas de recursos de Tea
 Puede asignar números de identificación de llamadas salientes a los agentes especificando una o más cuentas de recursos con un número de teléfono. Los agentes pueden seleccionar el número de identificación de llamada saliente que se usará con cada llamada saliente que realicen. En la aplicación Llamadas, los agentes pueden usar su número de cola de llamadas o operador automático (AA) o su propio dial directo entrante (DID) personal.
 
 > [!NOTE]
-> La cuenta de recursos que se usa para fines de identificador de llamadas debe tener una licencia **de Sistema Teléfono Microsoft Teams - Usuario virtual** y uno de los siguientes asignados:
+> La cuenta de recursos usada para fines de identificador de llamadas debe tener una licencia **de cuenta de recursos de Teléfono Microsoft Teams** y una de las siguientes asignadas:
 >
 > - Una licencia del plan de llamadas y un número de teléfono asignados
 > - Un número de teléfono De conexión de operador asignado
@@ -121,7 +121,7 @@ Si no tiene una cuenta de recursos con un número de teléfono asignado:
 
 Después de crear esta nueva cuenta de recurso para el identificador de llamada, seguirá necesitando lo siguiente:
 
-- Asignar una [Teléfono Teams Estándar: licencia de usuario virtual](manage-resource-accounts.md#assign-a-license)
+- Asignar una [licencia de cuenta de recursos telefónicos de Teams](manage-resource-accounts.md#assign-a-license)
 - Asignar una licencia de Plan de llamadas de Microsoft, asignar un número de teléfono Conectar operador o asignar una directiva de enrutamiento de voz en línea para direct routing
 - Asignar el [número de teléfono de servicio a la cuenta de recursos](manage-resource-accounts.md#assign-a-service-number), si usa Microsoft Calling Plan
 
@@ -133,7 +133,7 @@ Este idioma se usará para mensajes de voz generados por el sistema y transcripc
 
 Una vez que haya seleccionado un idioma, seleccione el botón **Siguiente** en la parte inferior de la página **Agregar una cola de llamadas** .
 
-# <a name="step-2---greeting-and-music"></a>[Paso 2: Saludo y música](#tab/greeting-music)
+# <a name="step-2-greeting-and-music"></a>[Paso 2: Saludo y música](#tab/greeting-music)
 
 ## <a name="step-2-add-a-greeting-and-on-hold-music"></a>Paso 2: Agregar un saludo y música en espera
 
@@ -151,7 +151,7 @@ Teams proporciona música predeterminada a los autores de llamadas mientras est�
 
 Una vez que haya seleccionado un saludo y música en espera, seleccione el botón **Siguiente** en la parte inferior de la página **Agregar una cola de llamadas** .
 
-# <a name="step-3---call-answering"></a>[Paso 3: Responder llamadas](#tab/call-answering)
+# <a name="step-3-call-answering"></a>[Paso 3: Responder llamadas](#tab/call-answering)
 
 ## <a name="step-3-set-up-who-will-answer-incoming-calls"></a>Paso 3: Configurar quién responderá a las llamadas entrantes
 
@@ -223,7 +223,7 @@ Las cuentas de Teams de los agentes deben establecerse en el modo TeamsOnly. Los
 
 Una vez que haya seleccionado las opciones de respuesta de llamadas, seleccione el botón **Siguiente** en la parte inferior de la página **Agregar una cola de llamadas** .
 
-# <a name="step-4---agent-routing"></a>[Paso 4: enrutamiento del agente](#tab/agent-routing)
+# <a name="step-4-agent-routing"></a>[Paso 4: Enrutamiento del agente](#tab/agent-routing)
 
 ## <a name="step-4-select-your-agent-routing-options"></a>Paso 4: Seleccionar las opciones de enrutamiento del agente
 
@@ -285,7 +285,7 @@ Se recomienda establecer el **tiempo de alerta del agente en** **20 segundos**.
 
 Una vez que haya seleccionado las opciones de enrutamiento de llamadas de su agente, seleccione el botón **Siguiente** en la parte inferior de la página **Agregar una cola de llamadas** .
 
-# <a name="step-5---call-overflow"></a>[Paso 5: Desbordamiento de llamadas](#tab/call-overflow)
+# <a name="step-5-call-overflow"></a>[Paso 5: Desbordamiento de llamadas](#tab/call-overflow)
 
 ## <a name="step-5-set-how-to-handle-call-overflow"></a>Paso 5: Establecer cómo controlar el desbordamiento de llamadas
 
@@ -308,7 +308,7 @@ Para las transferencias externas, consulte [Requisitos previos](./plan-auto-atte
 
 Una vez que haya seleccionado las opciones de tiempo de espera de llamada, seleccione el botón **Siguiente** en la parte inferior de la página **Agregar una cola de llamadas** .
 
-# <a name="step-6---call-timeout"></a>[Paso 6: Tiempo de espera de llamada](#tab/call-timeout)
+# <a name="step-6-call-timeout"></a>[Paso 6: Tiempo de espera de llamadas](#tab/call-timeout)
 
 ## <a name="step-6-set-how-to-handle-call-timeouts"></a>Paso 6: Establecer cómo controlar los tiempos de espera de llamada
 
@@ -327,9 +327,11 @@ Para las transferencias externas, consulte [Requisitos previos](./plan-auto-atte
 
 Una vez que haya seleccionado las opciones de enrutamiento de llamadas de su agente, seleccione el botón **Enviar** en la parte inferior de la página **Agregar una cola de llamadas** .
 
-# <a name="additional-resources"></a>[Otros recursos](#tab/additional-resources)
+---
 
-## <a name="summary-of-recommended-call-queue-settings"></a>Resumen de la configuración recomendada de la cola de llamadas
+## <a name="resources-for-complex-scenarios"></a>Recursos para escenarios complejos
+
+### <a name="summary-of-recommended-call-queue-settings"></a>Resumen de la configuración recomendada de la cola de llamadas
 
 Se recomienda la siguiente configuración:
 
@@ -338,7 +340,7 @@ Se recomienda la siguiente configuración:
 - **Enrutamiento basado en presencia** a **Activado**
 - **Hora de alerta de agente:** a **20 segundos**
 
-## <a name="call-queue-feature-compatibility"></a>Compatibilidad de características de la cola de llamadas
+### <a name="call-queue-feature-compatibility"></a>Compatibilidad de características de la cola de llamadas
 
 |Característica                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |Teléfonos IP | Colas de llamadas estándar |Colas de llamadas basadas en canales | Comentario |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
@@ -356,7 +358,7 @@ Se recomienda la siguiente configuración:
 |**Llamadas colaborativas**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |v                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**Identificador dinámico de llamadas**            |                          |          |                |     |          |                      |                          |   |
-|`Standard call queue`            |N                         |N         |v               |N    |N         |Y                     |n/a                       |   |
+|`Standard call queue`            |v                         |v         |v               |N    |N         |Y                     |n/a                       |   |
 |`Channel based call queue`       |v                         |n/a       |n/a             |n/a  |n/a       |n/a                   |v                         |   |
 |**Métodos de conectividad RTC**    |                          |          |                |     |          |                      |                          |Vea la Nota 9   |
 |`Calling Plans`                  |v                         |v         |v               |v    |v         |v                     |v                         |   |
@@ -365,7 +367,7 @@ Se recomienda la siguiente configuración:
 |**Misceláneos**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |v                 |N         |v               |v    |          |v                     |v                         |              |
 
-### <a name="notes"></a>Notas
+#### <a name="notes"></a>Notas
 
 1. Cliente de Microsoft Teams windows, cliente de Microsoft Teams para Mac, Microsoft Teams en infraestructura de escritorio virtualizada.
 2. Aplicación de Microsoft Teams para iPhone, aplicación de Microsoft Teams para Android.
@@ -377,7 +379,7 @@ Se recomienda la siguiente configuración:
 8. Solo se admiten canales públicos.
 9. Los operadores automáticos y las colas de llamadas no pueden transferir llamadas entre métodos de conectividad RTC.
 
-## <a name="supported-clients"></a>Clientes compatibles
+### <a name="supported-clients"></a>Clientes compatibles
 
 Los siguientes clientes son compatibles con agentes de llamada en una cola de llamadas:
 
@@ -397,7 +399,7 @@ Los siguientes clientes son compatibles con agentes de llamada en una cola de ll
   > [!NOTE]
   > Las colas de llamadas a las que se les asigna un número de enrutamiento directo no admiten clientes de Skype Empresarial, clientes Lync o teléfonos IP de Skype Empresarial como agentes. El cliente de Teams solo es compatible con un [modo de existencia única de Teams](setting-your-coexistence-and-upgrade-settings.md).
 
-## <a name="call-queue-diagnostic-tool"></a>Herramienta de diagnóstico de cola de llamadas
+### <a name="call-queue-diagnostic-tool"></a>Herramienta de diagnóstico de cola de llamadas
 
 Si es administrador, puede usar la siguiente herramienta de diagnóstico para validar que una cola de llamadas pueda recibir llamadas:
 
@@ -410,9 +412,7 @@ Si es administrador, puede usar la siguiente herramienta de diagnóstico para va
 
 3. Las pruebas devolverán los mejores pasos siguientes para abordar cualquier inquilino, directiva y configuración de cuenta de recursos para validar que la cola de llamadas pueda recibir llamadas.
 
----
-
-## <a name="related-topics"></a>Temas relacionados
+### <a name="related-topics"></a>Temas relacionados
 
 [Esto es lo que obtienes con Teléfono Microsoft Teams](here-s-what-you-get-with-phone-system.md)
 

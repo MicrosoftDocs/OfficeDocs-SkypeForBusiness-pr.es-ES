@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams y encuestas de transición | Actualización básica
-author: SerdarSoysal
-ms.author: serdars
+title: Correos electrónicos y encuestas de transición de Microsoft Teams | Actualización básica
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Correos electrónicos y encuestas de ejemplo para usar en conjunto con el plan de acción acelerado de diez pasos para actualizar de Skype Empresarial a Teams
+description: Ejemplos de correos electrónicos y encuestas para usar en conjunto con el plan de acción acelerado de diez pasos para actualizar de Skype Empresarial a Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 928ccad80670a140bfe72eaf42c94b145c0134e0
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: bb091735402abf89a7eb20b681252bbb1b681ee3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62409813"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615636"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Mensajes de correo electrónico de ejemplo y encuestas para actualizar las comunicaciones básicas
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Ejemplo de correos electrónicos y encuestas sobre las comunicaciones básicas de actualización
 
-## <a name="sample-emails"></a>Mensajes de correo electrónico de ejemplo
+## <a name="sample-emails"></a>Correos electrónicos de ejemplo
 
 <a name="step-1-email"></a>
 
@@ -82,9 +82,9 @@ If you have questions or need help, please reach out to <<insert company support
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a>Recordar a los usuarios el correo electrónico, para el paso 6
+### <a name="remind-users-email-for-step-6"></a>Recordar correo electrónico a los usuarios, para el paso 6
 
-Línea de asunto: RECORDATORIO: Prepárese para la actualización a Teams
+Línea de asunto: AVISO: Prepararse para la actualización a Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
@@ -148,7 +148,7 @@ Regards,
 
 <a name="step-9-email"></a>
 
-### <a name="check-in-email-for-step-9"></a>Correo electrónico de check-in, para el paso 9
+### <a name="check-in-email-for-step-9"></a>Correo electrónico de registro, para el paso 9
 
 Línea de asunto:
 
@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Correo electrónico para pedir a los usuarios que prueben equipos y canales para el paso 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Correo electrónico para pedir a los usuarios que prueben los equipos y canales, para el paso 10
 
 Línea de asunto:
 
@@ -201,16 +201,16 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>Encuestas de ejemplo
 
-Indique qué aptitudes tiene para realizar las siguientes actividades en Teams y si hay una o más actividades sobre las que le gustaría obtener más información.
+Indique la experiencia con la que está realizando las siguientes actividades en Teams y si hay una o más actividades sobre las que le gustaría obtener más información.
 
-| &nbsp; | Muy cualificado | Algo cualificado | No está capacitado para nada | Desea obtener más información | N/D | No está seguro o no está familiarizado |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
+| &nbsp; | Muy cualificado | Algo expertos | No está capacitado en absoluto | Desea obtener más información | N/D | No seguro/no familiar |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Usar Teams mensajería instantánea o chatear con otras personas | | | | | | | | | | |
+| Usar Teams para mensajería instantánea o chatear con otros usuarios | | | | | | | | | | |
 | Usar Teams para reuniones en línea | | | | | | | | | | |
-| Usar Teams colaboración (equipos y canales) | | | | | | | | | | |
+| Usar Teams para colaborar (equipos y canales) | | | | | | | | | | |
 | Usar Teams en mi dispositivo móvil | | | | | | | | | | |
 
-| **¿Qué, si hay algo, le impide usar Microsoft Teams?** | **Seleccionar todo lo que se aplique** |
+| **¿Qué es lo que, si hay algo, le impide usar Microsoft Teams?** | **Seleccionar todas las opciones que correspondan** |
 |---|---|
 | Nunca he oído hablar de ello | &#9744; |
 | No lo tengo instalado en mi equipo | &#9744; |
@@ -218,12 +218,12 @@ Indique qué aptitudes tiene para realizar las siguientes actividades en Teams y
 | No he tenido tiempo de evaluarlo para mis necesidades | &#9744; |
 | Ya uso otras aplicaciones que satisfacen mis necesidades de comunicación y colaboración | &#9744; |
 | Necesito formación antes de usarlo | &#9744; |
-| He intentado usarlo, pero he tenido problemas técnicos o una mala experiencia | &#9744; |
+| He intentado usarlo, pero tenía problemas técnicos o una mala experiencia | &#9744; |
 | Nuestro servicio de soporte técnico no me ha podido ayudar con mis preguntas | &#9744; |
 | Nada, actualmente lo uso | &#9744; |
 | Otros (especifique) | &#9744; |
 
-**¿Qué probabilidad hay de que recomiendes Microsoft Teams a un amigo o compañero de trabajo? (0=No es probable... 10=Muy probable)**
+**¿Qué probabilidad hay de que recomiendes Microsoft Teams a un amigo o compañero de trabajo? (0=No es probable en absoluto... 10=Extremadamente probable)**
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|

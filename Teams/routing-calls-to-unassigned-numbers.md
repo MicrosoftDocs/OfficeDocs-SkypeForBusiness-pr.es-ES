@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo enrutar llamadas a números no asignados de su organización.
-ms.openlocfilehash: f092cf5501d723dabb4336d648387833dd376e9b
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: 8874fc5a47ede1c35178cf16c7d3eded6f7826a7
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65304062"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615736"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Enrutamiento de llamadas a números no asignados
 
@@ -40,7 +40,7 @@ Puede redirigir las llamadas a números no asignados a un usuario, a una cuenta 
 
 ## <a name="configuration"></a>Configuración
 
-Para redirigir las llamadas a un número no asignado, use el cmdlet New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment disponible en Teams módulo de PowerShell 2.5.1 o posterior.
+Para redirigir las llamadas a un número no asignado, use el cmdlet New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment disponible en el módulo PowerShell 2.5.1 de Teams o posterior.
 
 Debe especificar el número o rango de números que se llama y el enrutamiento asociado para las llamadas a estos números. Por ejemplo, el comando siguiente especifica que todas las llamadas al número +1 (555) 222-3333 se redirigirán a la cuenta de recursos aa@contoso.com:
 
@@ -69,13 +69,13 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - Para redirigir las llamadas a los números de suscriptor no asignados de Microsoft Calling Plan, su inquilino debe tener [créditos de comunicaciones](what-are-communications-credits.md) disponibles.
 
-- Para redirigir las llamadas a números de servicio del plan de llamadas de Microsoft no asignados, su inquilino debe tener al menos una Sistema telefónico: licencia de usuario virtual.
+- Para redirigir las llamadas a números de servicio del plan de llamadas de Microsoft no asignados, su inquilino debe tener al menos una licencia **de cuenta de recurso de Teléfono Microsoft Teams**.
 
 - Los formatos compatibles con archivos de audio personalizados son WAV (PCM lineal sin comprimir con profundidad de 8/16/32 bits en mono o estéreo), WMA (solo mono) y MP3. El contenido del archivo de audio no puede tener más de 5 MB.
 
-- Tanto las llamadas entrantes a Microsoft Teams como las llamadas salientes desde Microsoft Teams tendrán el número llamado marcado en el intervalo de números no asignados.
+- Tanto las llamadas entrantes a Microsoft Teams como las llamadas salientes de Microsoft Teams tendrán el número llamado marcado en el intervalo de números no asignados.
 
-- Si un patrón o rango especificado contiene números de teléfono asignados a una cuenta de usuario o recurso en el inquilino, las llamadas a estos números de teléfono se redirigirán al destino adecuado y no se redirigirán al tratamiento de números no asignados especificado. No hay otras comprobaciones de los números del rango. Si el intervalo contiene un número de teléfono externo válido, las llamadas salientes desde Microsoft Teams a ese número de teléfono se redirigirán según el tratamiento.
+- Si un patrón o rango especificado contiene números de teléfono asignados a una cuenta de usuario o recurso en el inquilino, las llamadas a estos números de teléfono se redirigirán al destino adecuado y no se redirigirán al tratamiento de números no asignados especificado. No hay otras comprobaciones de los números del rango. Si el intervalo contiene un número de teléfono externo válido, las llamadas salientes de Microsoft Teams a ese número de teléfono se enrutarán según el tratamiento.
 
 ## <a name="related-topics"></a>Temas relacionados
 

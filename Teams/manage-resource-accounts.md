@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: En este artículo, aprenderá a crear, editar y administrar cuentas de recursos en Microsoft Teams.
-ms.openlocfilehash: 176cf304909094ae12c102f26ccbcd777366b649
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 0b8c77f7d6371ba1bfefa9837488415405e48f67
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124165"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615806"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -43,16 +43,16 @@ Vea las siguientes referencias para obtener más información:
 
 Puede editar la cuenta de recursos **Nombre para mostrar** y el tipo **de cuenta de recurso** con la opción **Editar** . Haga clic en **Guardar** cuando haya terminado.
 
-## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Cambiar una cuenta de recursos existente para usar una licencia de usuario virtual
+## <a name="change-an-existing-resource-account-to-use-a-teams-phone-resource-account-license"></a>Cambiar una cuenta de recursos existente para usar una licencia de cuenta de recursos de Teléfono de Teams
 
-Si decide cambiar las licencias de su cuenta de recursos existente de una licencia **de Teléfono Teams Estándar** a una licencia de Usuario virtual, tendrá que adquirir la licencia de Usuario virtual gratuita y, a continuación, seguir los pasos de la Centro de administración de Microsoft 365 [Mover usuarios a una suscripción diferente](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
+Si decide cambiar las licencias de su cuenta de recursos existente de una licencia **de Teléfono Teams Estándar** a una licencia de cuenta de recursos **de Teléfono Microsoft Teams**, tendrá que adquirir la licencia gratuita de cuenta de recursos de **Teams Phone** y, a continuación, seguir los pasos de la Centro de administración de Microsoft 365 mover [usuarios a una suscripción diferente](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
-> Quite siempre una licencia de Teléfono Teams Estándar completa y asigne la licencia de Usuario virtual en la misma actividad de licencia. Si quita la licencia antigua, guarda los cambios en la cuenta, agrega la nueva licencia y, a continuación, guarda de nuevo la configuración de la cuenta, es posible que la cuenta de recursos ya no funcione según lo esperado. Si esto ocurre, le recomendamos que cree una nueva cuenta de recursos para la licencia de Usuario virtual y quite la cuenta de recursos rota.
+> Quite siempre una Licencia de Teléfono Teams Estándar completa y asigne la licencia **Teléfono Microsoft Teams cuenta de recursos** en la misma actividad de licencia. Si quita la licencia antigua, guarda los cambios en la cuenta, agrega la nueva licencia y, a continuación, guarda de nuevo la configuración de la cuenta, es posible que la cuenta de recursos ya no funcione según lo esperado. Si esto ocurre, le recomendamos que cree una nueva cuenta de recursos para la licencia **de cuenta de recursos de Teléfono Microsoft Teams** y quite la cuenta de recursos rota.
 
-## <a name="skype-for-business-server-2019"></a>Skype Para Business Server 2019
+## <a name="skype-for-business-server-2019"></a>Skype Empresarial Server 2019
 
-Para las cuentas de recursos que se alojan en Skype Para Business Server 2019 que se pueden usar con colas de llamadas en la nube y operadores automáticos en la nube, consulte [Planear colas de llamadas](/SkypeforBusiness/hybrid/plan-call-queue) en la nube o [Planear operadores automáticos de la nube](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant). Las implementaciones híbridas (números alojados en Direct Routing) se configuran mediante el cmdlet [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) en un servidor local de Skype Empresarial Server 2019.
+Para las cuentas de recursos alojados en Skype Empresarial Server 2019 que se pueden usar con colas de llamadas en la nube y operadores automáticos en la nube, consulte [Planear colas de llamadas](/SkypeforBusiness/hybrid/plan-call-queue) en la nube o [Planear operadores automáticos de la nube](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant). Las implementaciones híbridas (números alojados en Direct Routing) se configuran mediante el cmdlet [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) en un servidor local de Skype Empresarial Server 2019.
 
 Los identificadores de aplicación que necesita usar al crear las instancias de la aplicación son:
 
@@ -60,7 +60,7 @@ Los identificadores de aplicación que necesita usar al crear las instancias de 
 - **Cola de llamadas:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> Si desea que los usuarios de Skype Para Business Server 2019 puedan buscar la cola de llamadas o el operador automático, debe crear sus cuentas de recursos en Skype Para Business Server 2019, ya que las cuentas de recursos en línea no se sincronizan con Active Directory. Cuando los registros SRV de DNS para sipfederationtls se resuelvan en Skype Empresarial Server 2019, es **necesario** crear cuentas de recursos en Skype Para Business Server 2019 con el shell de administración de SfB y sincronizarse con Azure AD.
+> Si quiere que los usuarios de Skype Empresarial Server 2019 puedan buscar la cola de llamadas o el operador automático, debe crear sus cuentas de recursos en Skype Empresarial Server 2019, ya que las cuentas de recursos en línea no se sincronizan con Active Directory. Cuando los registros SRV de DNS para sipfederationtls se resuelvan en Skype Empresarial Server 2019, las cuentas de recursos **deben** crearse en Skype Empresarial Server 2019 con el shell de administración de SfB y sincronizarse con Azure AD.
 
 Para implementaciones híbridas con Skype Empresarial Server:
 

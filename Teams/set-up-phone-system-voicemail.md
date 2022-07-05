@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar Correo de voz en la nube para los usuarios.
-ms.openlocfilehash: 259072194dc474d88a979ac3afb591e72eb51248
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9d6752098ff9dee6294d53fb24f6b7df6ee8e21c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494377"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616256"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar el Correo de voz en la nube
 
@@ -105,7 +105,7 @@ Con Microsoft Purview Information Protection, puede cifrar los mensajes de corre
 
 Para cifrar el mensaje de correo de voz, puede crear una etiqueta de confidencialidad. Con la característica de etiquetado automático, puede asegurarse de que la etiqueta se aplicará automáticamente a los mensajes de correo de voz entrantes.
 
-Al habilitar el correo de voz protegido, los usuarios pueden escuchar mensajes de correo de voz protegidos llamando a su buzón de correo de voz o abriendo el mensaje en Outlook, Outlook en la Web o Outlook para Android o iOS. Los mensajes de correo de voz protegidos no se pueden abrir en Microsoft Teams ni Skype Empresarial.
+Al habilitar el correo de voz protegido, los usuarios pueden escuchar los mensajes de correo de voz protegido abriendo el mensaje en Outlook, Outlook en la Web o Outlook para Android o iOS. Los mensajes de correo de voz protegidos no se pueden abrir en Microsoft Teams ni Skype Empresarial.
 
 Para crear una etiqueta de confidencialidad para el correo de voz, vea [Usar etiquetas de confidencialidad](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions). En la sección **Cifrado** , elija **Permitir que los usuarios asignen permisos al aplicar la etiqueta**. Seleccione **En Outlook, aplique una de las siguientes restricciones** y, a continuación, seleccione la opción **No reenviar** .
 

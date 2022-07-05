@@ -1,36 +1,41 @@
 ---
 title: Disponibilidad en Jamaica
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole, fafan'
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Audio Conferencing
-  - Phone System
-  - Calling Plans
-description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Jamaica.
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Jamaica.
+ms.openlocfilehash: 2e2ddaeca0977b84a7452be8737031282c94fe59
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615486"
 ---
-
 # <a name="availability-in-jamaica"></a>Disponibilidad en Jamaica
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Jamaica.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Jamaica.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -57,7 +62,7 @@ Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Team
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
 
-Si los planes de llamadas no están disponibles para la compra, consulte [Opciones de conectividad RTC](../pstn-connectivity.md) para todas las opciones disponibles.
+Si los planes de llamadas no están disponibles para comprar, consulte [Opciones de conectividad RTC](../pstn-connectivity.md) para todas las opciones disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 
