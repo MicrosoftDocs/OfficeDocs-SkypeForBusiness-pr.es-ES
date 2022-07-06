@@ -7,6 +7,7 @@ author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 ms.service: msteams
+ms.subservice: meetings
 audience: admin
 f1.keywords:
 - NOCSH
@@ -19,13 +20,13 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c41219f080e2270ed27d52688a03891f74ac26d
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.custom: seo-marvel-apr2020; intro-get-started
+ms.openlocfilehash: 51cbef962948063eee08db38b111d732477f9fc3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605366"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615496"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 
@@ -33,27 +34,25 @@ ms.locfileid: "60605366"
 > - Para ver información general sobre cómo realizar la transición al aprendizaje remoto y recursos para ayudarle a empezar, consulte la [**página principal del aprendizaje remoto**](https://www.microsoft.com/education/remote-learning).
 > - Los recursos para ayudar a los profesores y alumnos con el aprendizaje remoto están disponibles en [**Enseñanza y aprendizaje remotos en Office 365 Educación**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
 
-
 Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Ahora está listo para agregar la carga de trabajo de reuniones, incluyendo [audioconferencias](deploy-audio-conferencing-teams-landing-page.md), vídeo y uso compartido. Este artículo le informará detenidamente de la implementación de las reuniones y las conferencias de audio. Para empezar, vea el vídeo sobre reuniones, conferencias y dispositivos en Teams (3:28 minutos):
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
 
-Para obtener más información sobre la experiencia de reuniones para los usuarios, consulte [Reuniones y llamadas](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8). 
-
+Para obtener más información sobre la experiencia de reuniones para los usuarios, consulte [Reuniones y llamadas](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
 
 *Nuevo en abril de 2020*: los organizadores de reuniones pueden finalizar una reunión para todos los participantes de la reunión en Teams al hacer clic en **Finalizar reunión** en los controles de reunión dentro de la reunión.  
 
 *Nuevo en noviembre de 2019*: ahora puede [usar el Asesor de Teams (versión preliminar) para que le ayude a implementar Microsoft Teams](use-advisor-teams-roll-out.md). El Asesor de Teams (vista previa) le guiará en la implementación de Teams, incluidas las reuniones y las conferencias. Evalúa el entorno de Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente las reuniones y conferencias en Teams.
 
- > [!Note]
-> Para obtener más información sobre las reuniones y conferencias de Teams en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+ > [!NOTE]
+ > Para obtener más información sobre las reuniones y conferencias de Teams en las distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>Decisiones sobre la implementación de reuniones y conferencias
 
 Teams proporciona una experiencia excelente para su organización y la configuración predeterminada parece funcionar para la mayoría de organizaciones. Este artículo le ayudará a decidir si cambiar alguna opción de la configuración predeterminada, en función del perfil y los requisitos empresariales de su organización, después, le guiará con cada cambio. Hemos dividido las opciones en dos grupos, comenzando por el conjunto principal de [cambios que es más probable que realice](#core-deployment-decisions). El segundo grupo incluye las [opciones adicionales](#additional-deployment-decisions) que puede que quiera configurar, según las necesidades de su organización.
 
-> [!Tip]
-> Vea la sesión siguiente para obtener más información acerca de las reuniones: [Introducción a las reuniones en Microsoft Teams para profesionales de TI](https://aka.ms/teams-meetings-intro)
+> [!TIP]
+> Vea la sesión siguiente para más información acerca de las reuniones: [Introducción a las reuniones en Microsoft Teams para profesionales de TI](https://aka.ms/teams-meetings-intro).
 
 
 ## <a name="meetings-and-conferencing-prerequisites"></a>Requisitos previos de reuniones y conferencias
@@ -70,7 +69,6 @@ Para implementar las reuniones en toda la organización, asegúrese de que todas
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
 |¿Está mi red lista para la implementación de reuniones de Teams? | Para comprobar que la red está preparada, vea:<ul><li>[Preparar la red de la organización para Microsoft Teams](./prepare-network.md)</li><li>[Intervalos de direcciones IP y URL](./office-365-urls-ip-address-ranges.md)</li></ul> |
-|||
 
 ## <a name="core-deployment-decisions"></a>Decisiones de implementación principales
 
@@ -78,24 +76,22 @@ Estas son las opciones que la mayoría de organizaciones cambia (si la configura
 
 ### <a name="teams-administrators"></a>Administradores de Teams
 
-Teams ofrece un conjunto de roles de administrador personalizados que pueden usarse para administrar Teams en su organización. Los roles proporcionan distintas funciones a los administradores. 
+Teams ofrece un conjunto de roles de administrador personalizados que pueden usarse para administrar Teams en su organización. Los roles proporcionan distintas funciones a los administradores.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
 |¿A quién se asignará el rol de Administrador de comunicaciones de Teams?|Para obtener más información sobre los roles de administrador de Teams, vea [Usar los roles de administrador de Microsoft Teams para administrar Teams](using-admin-roles.md).|
 |¿A quién se asignará el rol de Ingeniero de soporte en comunicaciones de Teams?|Para asignar roles de administrador, vea [asignar roles de administrador y de no administrador a los usuarios con Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
 |¿A quién se asignará el rol de Especialista de soporte en comunicaciones de Teams?||
-|||
 
-### <a name="meetings-settings"></a>Configuración de reuniones 
+### <a name="meetings-settings"></a>Configuración de reuniones
 
-La configuración de las reuniones se usa para controlar si los usuarios anónimos pueden unirse a reuniones de Teams, configurar las invitaciones a reuniones y, si quiere activar la Calidad de servicio (QoS), establecer los puertos para el tráfico en tiempo real. Esta configuración se usará para todas las reuniones de Teams que los usuarios programen en su organización. 
+La configuración de las reuniones se usa para controlar si los usuarios anónimos pueden unirse a reuniones de Teams, configurar las invitaciones a reuniones y, si quiere activar la Calidad de servicio (QoS), establecer los puertos para el tráfico en tiempo real. Esta configuración se usará para todas las reuniones de Teams que los usuarios programen en su organización.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
 |¿Voy a personalizar la configuración inicial de reuniones? |Consulte el [tutorial de Reuniones en Teams](tutorial-meetings-in-teams.yml) para obtener más información sobre la configuración de reuniones.|
 |¿Voy a implementar QoS?|Vea [Calidad de servicio en Microsoft Teams](qos-in-teams.md) para obtener información acerca de los conceptos, escenarios e implementación de QoS.|
-|||
 
 ### <a name="meeting-policies"></a>Directivas de reunión
 
@@ -104,11 +100,10 @@ Las directivas de reunión se usan para controlar qué características están d
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
 |<ul><li>¿Voy a personalizar las directivas iniciales de reuniones?</li><li>¿Necesito varias directivas de reuniones?</li><li>¿Cómo determino qué directiva de reuniones se aplica a cada grupo de usuarios?</li></ul>|<br>Lea [Administrar directivas de reunión en Teams](meeting-policies-overview.md).|
-|||
 
 ### <a name="audio-conferencing"></a>Audioconferencia
 
-La audioconferencia ofrece a las organizaciones puntos de entrada adicionales a cualquier reunión (puntual o programada) permitiendo a los participantes de la reunión unirse a través de la red telefónica conmutada (RTC) llamando con un teléfono fijo tradicional, una central de conmutación (PBX) o un teléfono móvil. 
+La audioconferencia ofrece a las organizaciones puntos de entrada adicionales a cualquier reunión (puntual o programada) permitiendo a los participantes de la reunión unirse a través de la red telefónica conmutada (RTC) llamando con un teléfono fijo tradicional, una central de conmutación (PBX) o un teléfono móvil.
 
 Cuando esté listo para implementar las audioconferencias, consulte la guía en profundidad sobre la [Implementación de audioconferencias](deploy-audio-conferencing-teams-landing-page.md).
 
@@ -120,18 +115,15 @@ Para obtener una experiencia óptima de reunión en Teams, considere el uso de d
 |--------------|--------|
 |¿Voy a comprar dispositivos personales para mis usuarios? |Lea [Administrar los dispositivos en Teams](devices/device-management.md). |
 |¿Voy a comprar e implementar dispositivos de sistemas de sala para las salas de conferencias?|Lea [Soluciones y dispositivos de salas de reuniones](/skypeforbusiness/certification/devices-meeting-rooms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json).|
-|||
 
 ### <a name="reporting"></a>Informes
 
-Use los informes de actividad para ver cómo los usuarios de su organización usan Teams. Por ejemplo, si algunos aún no utilizan Teams, puede que no sepan cómo empezar o no entiendan cómo pueden usar Teams para ser más productivos y mejorar la colaboración. Su organización puede usar los informes de actividad para decidir dónde debe dar prioridad a los esfuerzos de aprendizaje y comunicación. 
-
+Use los informes de actividad para ver cómo los usuarios de su organización usan Teams. Por ejemplo, si algunos aún no utilizan Teams, puede que no sepan cómo empezar o no entiendan cómo pueden usar Teams para ser más productivos y mejorar la colaboración. Su organización puede usar los informes de actividad para decidir dónde debe dar prioridad a los esfuerzos de aprendizaje y comunicación.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
 |¿Quién será responsable de los informes?|Lea [Usar informes de actividad de Teams](teams-activity-reports.md).  |
 |¿Quién será responsable de supervisar el uso?|Lea [Supervisar el uso y los comentarios en Teams](get-started-with-teams-monitor-usage-and-feedback.md).|
-|||
 
 ## <a name="additional-deployment-decisions"></a>Decisiones de implementación adicionales
 
@@ -147,7 +139,6 @@ El planeamiento de ancho de banda permite a las organizaciones estimar el ancho 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
 | ¿Necesito hacer planeación de ancho de banda antes y durante la implementación de reuniones? |Vea [Preparación de la red](3-envision-evaluate-my-environment.md#network-readiness) para obtener más información y vínculos a las herramientas para simplificar el proceso de planeación.|
-|||
 
 ### <a name="meeting-recording-and-archiving"></a>Grabación y archivado de reuniones
 
@@ -161,40 +152,32 @@ Para obtener más información, consulte [Grabación de reuniones en la nube de 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
 | ¿Voy a activar el servicio de transcripción de reuniones?|Vea [Activar o desactivar la transcripción de grabaciones](meetings-policies-recording-and-transcription.md#allow-transcription)|
-|||
-
 
 ### <a name="live-events-policies"></a>Directivas de eventos en directo
 
-Las directivas de eventos en directo de Teams se usan para administrar la configuración de eventos para los grupos de usuarios. Puede usar la directiva predeterminada o crear otras directivas que se pueden asignar a los usuarios que llevan a cabo eventos en directo en su organización. 
+Las directivas de eventos en directo de Teams se usan para administrar la configuración de eventos para los grupos de usuarios. Puede usar la directiva predeterminada o crear otras directivas que se pueden asignar a los usuarios que llevan a cabo eventos en directo en su organización.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
 | ¿Va a usar mi organización los eventos en directo de Teams ?| Consulte los [artículos de eventos en directo](teams-live-events/what-are-teams-live-events.md) para obtener más información sobre cómo planear, instalar y configurar los eventos en directo de Teams.|
-|||
 
 ### <a name="conference-room-systems-rollout"></a>Implementación de sistemas de sala de conferencias
 
 Las organizaciones con muchas salas de conferencias pueden considerar un enfoque estructurado para realizar un inventario de las salas, identificar los dispositivos apropiados y, después, implementarlos. 
 
-
-
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
 | ¿Qué necesito hacer para implementar los sistemas de sala de conferencias?|Consulte los artículos [Planear salas de Microsoft Teams](/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json).|
-|||
 
 ### <a name="cloud-video-interop"></a>Interoperabilidad de vídeos en la nube
 
-La interoperabilidad de vídeos en la nube permite que los dispositivos de salas de reuniones de terceros puedan unirse a reuniones de Teams. 
+La interoperabilidad de vídeos en la nube permite que los dispositivos de salas de reuniones de terceros puedan unirse a reuniones de Teams.
 
-La teleconferencia de vídeo con colaboración de contenido le ayudará a sacar el máximo partido de las reuniones. Sin embargo, es caro actualizar los sistemas y dispositivos de sala de reuniones. La interoperabilidad de vídeos en la nube para Teams funciona con sistemas de terceros y ofrece una experiencia de reunión nativa para todos los participantes, tanto en salas de reuniones como en clientes de Teams. 
+La teleconferencia de vídeo con colaboración de contenido le ayudará a sacar el máximo partido de las reuniones. Sin embargo, es caro actualizar los sistemas y dispositivos de sala de reuniones. La interoperabilidad de vídeos en la nube para Teams funciona con sistemas de terceros y ofrece una experiencia de reunión nativa para todos los participantes, tanto en salas de reuniones como en clientes de Teams.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
 | ¿Voy a usar una solución de interoperabilidad de vídeo en la nube como parte de la implementación de sistemas de sala? | Lea [Interoperabilidad de vídeos en la nube para Teams](cloud-video-interop.md).|
-|||
-
 
 ### <a name="personal-device-rollout"></a>Implementación de dispositivos personales
 
@@ -203,16 +186,14 @@ Al planear una mayor implementación de dispositivos personales para dar soporte
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
 |¿Voy a usar el enfoque de sitio por sitio para implementar reuniones? |  La [Guía de activación de sitios para Teams](3-onboard-deploy-my-service.md#site-enablement-playbook-for-microsoft-teams-voice-workloads) ofrece una buena base que puede usar para sus propias implementaciones. La guía se centra en la función de voz, pero los principios generales de reparto de dispositivos, preparación de cuenta, adopción y aprendizaje se aplican en una implementación de reuniones. |
-|||
 
-### <a name="troubleshoot-meeting-and-call-quality"></a>Solucionar problemas de calidad de las reuniones y llamadas 
+### <a name="troubleshoot-meeting-and-call-quality"></a>Solucionar problemas de calidad de las reuniones y llamadas
 
-Teams ofrece dos formas para supervisar y solucionar problemas de calidad de llamadas: [Análisis de llamadas y Panel de calidad de llamadas](monitor-call-quality-qos.md) Análisis de llamadas muestra información detallada sobre dispositivos, redes y conectividad relacionada con llamadas concretas y reuniones de cada usuario. Análisis de llamadas está diseñado para ayudar a los administradores y agentes de soporte técnico a solucionar problemas de calidad de llamada con llamadas específicas, mientras que el Panel de calidad de llamadas está diseñado para ayudar a los administradores y los ingenieros de red a optimizar una red. El panel de calidad de llamada cambia el enfoque de usuarios específicos y, en su lugar, analiza la información global de toda la organización de Teams. 
+Teams ofrece dos formas para supervisar y solucionar problemas de calidad de llamadas: [Análisis de llamadas y Panel de calidad de llamadas](monitor-call-quality-qos.md) Análisis de llamadas muestra información detallada sobre dispositivos, redes y conectividad relacionada con llamadas concretas y reuniones de cada usuario. Análisis de llamadas está diseñado para ayudar a los administradores y agentes de soporte técnico a solucionar problemas de calidad de llamada con llamadas específicas, mientras que el Panel de calidad de llamadas está diseñado para ayudar a los administradores y los ingenieros de red a optimizar una red. El panel de calidad de llamada cambia el enfoque de usuarios específicos y, en su lugar, analiza la información global de toda la organización de Teams.
 
-|Pregúntese lo siguiente:|Acción |
+|Pregúntese lo siguiente:|Action |
 |------------|-------|
 | ¿Quién será responsable de la supervisión y solución de problemas de calidad de llamadas? | Lea [Usar el Análisis de llamadas para solucionar problemas de mala calidad en las llamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md) para obtener información sobre los niveles de permisos necesarios para solucionar problemas de calidad de llamadas.|
-|||
 
 ### <a name="operate-your-meetings-service"></a>Operar el servicio de reuniones
 
@@ -221,8 +202,6 @@ Es importante que comprenda el estado general del servicio de Teams para que pue
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
 |¿Quién será responsable de administrar el servicio de reuniones en mi organización? | Asegúrese de que esta persona tiene los permisos de administrador de Teams que necesita para administrar el servicio de reuniones. Para obtener más información sobre los roles de administrador de Teams, vea [Usar los roles de administrador de Microsoft Teams para administrar Teams](using-admin-roles.md).|
-|||
-
 
 ## <a name="next-steps"></a>Pasos siguientes
 - [Impulsar la adopción](adopt-microsoft-teams-landing-page.md) de reuniones y conferencias en toda la organización.
