@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Vea qué periféricos y dispositivos USB (como auriculares, manos libres, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: a2f106b71cc6494594ad34b9aa8dbfb61789a67a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: 7df6ca32a359931a62935d68257583c4d499aa93
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66605709"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647662"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -149,8 +149,8 @@ Si eres un fabricante y quieres unirte al programa de certificación, consulta [
 |Lenovo               |Auriculares estéreo VoIP con cable Pro                              |12/21/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
 |Polivinílico                 |Savi Office 7320                                           |12/18/2020      |Certificado para Microsoft Teams                           |
 |Polivinílico                 |Savi Office 7310                                           |12/18/2020      |Certificado para Microsoft Teams                           |
-|Jabra                |Auriculares Evolve 75e/SE                                         |12/16/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
-|Jabra                |Auriculares Evolve 65e/SE                                         |12/16/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Auriculares Evolve 75e                                         |12/16/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Auriculares Evolve 65e                                         |12/16/2020      |Skype Empresarial con la actualización a Microsoft Teams      |
 |Dell                 |C3422WE Monitor                                            |12/11/2020      |Certificado para Microsoft Teams                           |
 |Dell                 |C2722DE Monitor                                            |12/11/2020      |Certificado para Microsoft Teams                           |
 |Dell                 |C2422HE Monitor                                            |12/11/2020      |Certificado para Microsoft Teams                           |
@@ -167,8 +167,8 @@ Si eres un fabricante y quieres unirte al programa de certificación, consulta [
 |EPOS/Sennheiser      |Impact SC 660 con conector USB-ED CC 01 MS               |8/20/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 630 con conector USB-ED CC 01 MS               |8/20/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 260 con conector USB-ED CC 01 MS               |8/20/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
-|Jabra                |Auriculares Evolve 75                                          |7/31/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
-|Jabra                |Auriculares Evolve 65                                          |7/31/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Auriculares Evolve 75/SE                                          |7/31/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
+|Jabra                |Auriculares Evolve 65 /SE                                          |7/31/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
 |Jabra                |Auriculares Engage 50                                          |7/31/2020       |Skype Empresarial con la actualización a Microsoft Teams      |
 |Avocor               |WCD- AVW-6555                                              |7/30/2020       |Certificado para Microsoft Teams                           |
 |Jabra                |Auriculares Evolve2 85                                         |7/17/2020       |Certificado para Microsoft Teams                           |

@@ -8,7 +8,7 @@ audience: ITPro
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: Describe los operadores automáticos de la nube y las colas de llamadas, y explica cómo puede responder estas llamadas en Teams.
+description: Describe operadores automáticos en la nube y colas de llamadas, y explica cómo puede responder estas llamadas en Teams.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 595be9303c0d9732c3e2580b06bf3a0a55a27088
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+ms.openlocfilehash: 1a9058dbd583c9d795d04f27b43995c75095e80d
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853081"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647672"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Responder al operador automático y llamar a la cola de llamadas directamente desde Teams
 
-Teams los usuarios pueden recibir y responder llamadas de operadores automáticos en la nube y colas de llamadas directamente desde su cliente de Teams.
+Los usuarios de Teams pueden recibir y responder llamadas de operadores automáticos en la nube y colas de llamadas directamente desde su cliente de Teams.
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>¿Qué son los operadores automáticos y las colas de llamadas?
 
@@ -48,7 +48,9 @@ Una vez que se responde a un operador automático o a una llamada en cola de lla
 
 > [!NOTE] 
 > Las llamadas de la cola de llamadas no se desvía según la configuración de las reglas de respuesta de llamadas del usuario. Esto garantiza que los autores de llamadas permanezcan en la cola hasta que un agente pueda responder a la llamada y que el autor de la llamada no se reenvíe inesperadamente.
-
+>
+> Los usuarios que reciban llamadas de operadores automáticos y colas de llamadas solo se mostrarán con el nombre del autor de la llamada si se proporciona desde la RTC o si el número del autor de la llamada coincide con los contactos de cliente del equipo local del usuario de destino.
+>
 > No se notifica a los agentes las llamadas perdidas ni los correos de voz de las llamadas de la cola de llamadas.
 
 ## <a name="supported-clients"></a>Clientes compatibles
@@ -60,11 +62,11 @@ La compatibilidad con las llamadas de operador automático y cola de llamadas es
 -    Aplicación Microsoft Teams para iPhone
 -    Aplicación Microsoft Teams para Android
 
-El cliente de Teams solo es compatible con un [modo de existencia Teams Solo](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
+El cliente de Teams solo es compatible con un [modo de existencia única de Teams](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurar la compatibilidad del operador automático y la cola de llamadas para Microsoft Teams
 
-Para recibir llamadas de operador automático y de cola de llamadas en Microsoft Teams, debe configurar la directiva de interoperabilidad y la directiva de actualización. Revise [la migración y la interoperabilidad para las organizaciones que usan Teams junto con Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md). Si no tiene un operador automático o una cola de llamadas configurados y le gustaría hacerlo, consulte [Configurar un operador automático](create-a-phone-system-auto-attendant.md) de nube y [Crear una cola de llamadas](create-a-phone-system-call-queue.md) en la nube.
+Para recibir llamadas del operador automático y de la cola de llamadas en Microsoft Teams, debe configurar la directiva de interoperabilidad y la directiva de actualización. Revise [migración e interoperabilidad para organizaciones que usan Teams junto con Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md). Si no tiene un operador automático o una cola de llamadas configurados y le gustaría hacerlo, consulte [Configurar un operador automático](create-a-phone-system-auto-attendant.md) de nube y [Crear una cola de llamadas](create-a-phone-system-call-queue.md) en la nube.
 
 ## <a name="known-issues"></a>Problemas conocidos
 
