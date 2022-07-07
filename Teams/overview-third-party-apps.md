@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b13793222a6a53ec7c7c271578da31465044afde
-ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
+ms.openlocfilehash: 687d628c3f3f59cc9a584f2f673d3ef7d469b605
+ms.sourcegitcommit: f608811288c82a6348a6af1671246a93ed06e578
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "66190502"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66661026"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Información general sobre aplicaciones de terceros en Microsoft Teams
 
-Hay muchos ofertantes de aplicaciones en la tienda de Teams. Las aplicaciones las crean desarrolladores de aplicaciones. Microsoft se dedica a validar su funcionalidad básica, su facilidad de uso y su seguridad básica. Solo después de la validación, Microsoft pone las aplicaciones a disposición de los usuarios en la tienda de Teams. Para que los usuarios finales se beneficien del amplio ecosistema de aplicaciones, la gobernanza de aplicaciones por parte de los administradores es un paso clave. Como administrador, debe establecer un proceso de gobernanza de aplicaciones que compagine los variados requisitos de los usuarios finales de las aplicaciones con las limitaciones de las directivas de TI internas, los estándares y los perfiles de riesgo.
+La tienda de Teams ofrece muchas aplicaciones útiles creadas por proveedores y desarrolladores de software de terceros, además de las aplicaciones proporcionadas por Microsoft. Si bien estas aplicaciones son creadas por proveedores externos, Microsoft realiza una validación rigurosa de la funcionalidad, la facilidad de uso y la seguridad de estas aplicaciones. Solo después de la validación, Microsoft hace que las aplicaciones estén disponibles en la tienda de Teams. Para que los usuarios finales se beneficien del amplio ecosistema de aplicaciones, la gobernanza de aplicaciones por parte de los administradores es un paso clave. Como administrador, debe establecer un proceso de gobernanza de aplicaciones que compagine los variados requisitos de los usuarios finales de las aplicaciones con las limitaciones de las directivas de TI internas, los estándares y los perfiles de riesgo.
 
 Microsoft no posee ni el control ni la propiedad de las aplicaciones de terceros en Microsoft Teams, que tampoco se rigen por el Contrato Microsoft Online Subscription. El uso que las organizaciones hacen de cada aplicación de terceros está sujeto a los términos y condiciones, y la declaración de privacidad de las propias aplicaciones. El Centro de administración de Teams le permite comprobar todos los permisos, las declaraciones de privacidad y los términos de uso de una aplicación antes de permitir su uso. Como siempre, puede permitir el uso de una aplicación para algunos usuarios específicos o para todos los usuarios. En el caso de las aplicaciones de terceros, como ocurre con las aplicaciones personalizadas, Microsoft Teams permite a los administradores permitir, denegar, controlar y analizar el uso de las aplicaciones.
 

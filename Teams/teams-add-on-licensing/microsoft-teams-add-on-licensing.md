@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams licencias de complementos
+title: Licencias de complementos de Microsoft Teams
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -20,55 +20,55 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga más información sobre las licencias de complementos para Microsoft Teams y las capacidades que obtiene con cada licencia.
-ms.openlocfilehash: 000678a0b41e660371de295ae40d2c6359774efe
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: f3d7b7aacf611592898b6d2aeef0fb3dde854fdf
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756956"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682489"
 ---
-# <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams licencias de complementos
+# <a name="microsoft-teams-add-on-licenses"></a>Licencias de complementos de Microsoft Teams
 
 ## <a name="which-capabilities-can-i-get-with-add-on-licenses"></a>¿Qué funcionalidades puedo obtener con licencias de complementos?
 
-Las licencias de complementos son licencias para funcionalidades de Microsoft Teams específicas. Le ofrecen la flexibilidad de agregar funcionalidades solo para los usuarios de su organización que las necesiten. Para agregar una funcionalidad, compre una licencia de complemento para cada usuario que la vaya a usar.
+Las licencias de complementos son licencias para funcionalidades específicas de Microsoft Teams. Le ofrecen la flexibilidad de agregar funcionalidades solo para los usuarios de su organización que las necesiten. Para agregar una funcionalidad, compre una licencia de complemento para cada usuario que la vaya a usar.
 
 Las opciones de licencias complementarias disponibles dependen del plan de Microsoft 365 que tenga. Para ver qué opciones de llamadas de voz y audioconferencia están disponibles para usted, consulte la sección [¿Qué capacidades de Microsoft están disponibles con mi plan?](#which-microsoft-capabilities-are-available-with-my-plan) de este artículo.
 
-Esta es una lista de Teams licencias de complementos y sus capacidades que puede agregar a su suscripción de Teams.
+Esta es una lista de licencias de complementos de Teams y sus capacidades que puede agregar a su suscripción de Teams.
 
 |Licencia|Descripción|
 |-------|-----------|
-|**Microsoft 365 Empresa Voice** <br/> |Business Voice era el paquete de capacidad de voz de Microsoft para pequeñas y medianas empresas, pero ya no estará disponible para su compra a partir del 1 de marzo de 2022. Los suscriptores actuales de Business Voice pueden renovar sus licencias de Business Voice hasta el 30 de junio de 2022. <br/> <br/> Si es una pequeña o mediana empresa, le recomendamos comprar la [Teams Teléfono con licencia de Plan](../business-voice/whats-business-voice.md) de llamadas, si está disponible en su región. <br/> <br/> Como alternativa, puede comprar una licencia Teams Teléfono Standard que le permita conectarse a su proveedor DE RTC de terceros preferido. |
-|**Teams Teléfono con paquete de plan de llamadas** <br/> |La Teams Teléfono con paquetes de licencias de plan de llamadas Teams Sistema telefónico las capacidades de PBX y un plan de llamadas nacionales para la conectividad CON RTC. <br/> |
-|**Teams Teléfono Estándar** <br/> |[Teams Sistema telefónico](../what-is-phone-system-in-office-365.md) es un servicio telefónico hospedado que le proporciona control de llamadas y funcionalidades de Exchange de rama privada (PBX). Teams Teléfono las licencias estándar le proporcionan todas las capacidades de Teams Sistema telefónico, como el correo de voz en la nube, el identificador de llamadas, el parque de llamadas, el desvío de llamadas, los operadores automáticos, las colas de llamadas, la transferencia de llamadas y el identificador de llamada. <br/> <br/>Para obtener más información sobre Sistema telefónico, consulta [Esto es lo que obtienes con Teams Sistema telefónico](../here-s-what-you-get-with-phone-system.md). <br/> |
-|**Planes de Llamada de Microsoft Teams** <br/> |Si desea que los usuarios puedan llamar a números de teléfono fuera de su organización, puede comprar [Planes de Llamada de Microsoft Teams](../calling-plans-for-office-365.md) para conectarse a números de teléfono RTC con Microsoft como su proveedor de RTC. Hay planes de llamadas nacionales, planes de llamadas internacionales y planes de llamadas nacionales e internacionales. <br/> <br/> Para saber si los planes de llamadas de Teams están disponibles en su país o región, consulte [Disponibilidad del país y la región para los planes de llamadas y audioconferencias](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
+|**Microsoft 365 Empresa Voice** <br/> |Business Voice era el paquete de capacidad de voz de Microsoft para pequeñas y medianas empresas, pero ya no estará disponible para su compra a partir del 1 de marzo de 2022. Los suscriptores actuales de Business Voice pueden renovar sus licencias de Business Voice hasta el 30 de junio de 2022. <br/> <br/> Si es una pequeña o mediana empresa, le recomendamos comprar la [licencia de Teams Phone con plan de llamadas](../business-voice/whats-business-voice.md), si está disponible en su región. <br/> <br/> Como alternativa, puede comprar una licencia de Teléfono Teams Estándar que le permita conectarse a su proveedor DE RTC de terceros preferido. |
+|**Paquete de Teams Phone con plan de llamadas** <br/> |La licencia De Teams Phone con plan de llamadas agrupa las capacidades de PBX de Teams Phone System y un plan de llamadas nacionales para la conectividad con RTC. <br/> |
+|**Teléfono Teams Estándar** <br/> |[Teams Phone System](../what-is-phone-system-in-office-365.md) es un servicio telefónico hospedado que le ofrece control de llamadas y funcionalidades de central de telefonía privada (PBX). Teléfono Teams Estándar licencias le proporcionan todas las capacidades de Teams Phone System, como el correo de voz en la nube, el identificador de llamadas, el parque de llamadas, el desvío de llamadas, los operadores automáticos, las colas de llamadas, la transferencia de llamadas y el identificador de llamada. <br/> <br/>Para obtener más información sobre Sistema telefónico, consulte [Esto es lo que obtiene con Teams Phone System](../here-s-what-you-get-with-phone-system.md). <br/> |
+|**Planes de Llamada de Microsoft Teams** <br/> |Si desea que los usuarios puedan llamar a números de teléfono fuera de su organización, puede comprar [Planes de Llamada de Microsoft Teams](../calling-plans-for-office-365.md) para conectarse a números de teléfono RTC con Microsoft como su proveedor de RTC. Hay planes de llamadas nacionales y planes de llamadas internacionales. <br/> <br/> Para saber si los planes de llamadas de Teams están disponibles en su país o región, consulte [Disponibilidad de país y región para los planes de llamadas y audioconferencias](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
 |**Créditos de comunicación** | Los créditos de comunicación proporcionan un grupo mensual de minutos que también se puede usar para llamadas de teléfono RTC, si todos los minutos del plan de llamadas se usan antes del principio del mes siguiente. Si desea números gratuitos para audioconferencia, operadores automáticos o colas de llamadas, tendrá que [configurar créditos de comunicaciones](../set-up-communications-credits-for-your-organization.md). <br/> |
-|**Audioconferencia** <br/> |A veces, los usuarios de su organización tendrán que usar un teléfono para llamar a una reunión de Teams en lugar de a su equipo. [Configure audioconferencias](../set-up-audio-conferencing-in-teams.md) para los usuarios que programen o dirijan reuniones con asistentes que necesiten llamar con un teléfono. <br/> <br/>Para averiguar si la audioconferencia está disponible en su país o región, vea [Disponibilidad de país y región para las audioconferencias y los planes de llamadas](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Para obtener información sobre precios, consulte [Precios para participar en audio conferencia.](https://go.microsoft.com/fwlink/?linkid=799762)  <br/> <br/>Las organizaciones ahora pueden usar un operador de terceros para sus números de Audioconferencia. Para obtener más información, consulte [Plan de Conexión de conferencia con operador](../operator-connect-conferencing-plan.md). <br/>|
-|**Salas de Microsoft Teams** <br/> | Microsoft Teams Room es un producto Microsoft Teams adicional que ofrece vídeo, audio y uso compartido de contenido en salas de conferencias. Las organizaciones pueden comprar Salas de Microsoft Teams licencias independientes para estas capacidades. Para obtener más información, consulte [Licencias de Teams Sala de reuniones](../rooms/rooms-licensing.md). <br/>|
+|**Audioconferencia** <br/> |A veces, los usuarios de su organización necesitarán usar un teléfono para llamar a una reunión de Teams en lugar de a su equipo. [Configure audioconferencias](../set-up-audio-conferencing-in-teams.md) para los usuarios que programen o dirijan reuniones con asistentes que necesiten llamar con un teléfono. <br/> <br/>Para averiguar si la audioconferencia está disponible en su país o región, vea [Disponibilidad de país y región para las audioconferencias y los planes de llamadas](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Para obtener información sobre precios, consulte [Precios para participar en audio conferencia.](https://go.microsoft.com/fwlink/?linkid=799762)  <br/> <br/>Las organizaciones ahora pueden usar un operador de terceros para sus números de Audioconferencia. Para obtener más información, consulte [Plan de Conexión de conferencia con operador](../operator-connect-conferencing-plan.md). <br/>|
+|**Salas de Microsoft Teams** <br/> | Microsoft Teams Room es un producto adicional de Microsoft Teams que ofrece vídeo, audio y uso compartido de contenido en salas de conferencias. Las organizaciones pueden comprar Salas de Microsoft Teams licencias independientes para estas capacidades. Para obtener más información, consulte [Licencias de salas de reuniones de Teams](../rooms/rooms-licensing.md). <br/>|
 
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>¿Qué funcionalidades de Microsoft están disponibles con mi plan?
 
-Todos los planes de Microsoft 365 permiten a los usuarios Teams realizar llamadas punto a punto dentro de su organización mediante la tecnología VoIP. Sin embargo, es posible que desee agregar distintas licencias para funcionalidades como realizar llamadas a números RTC o configurar un PBX.
+Todos los planes de Microsoft 365 permiten a los usuarios de Teams realizar llamadas de punto a punto dentro de su organización con la tecnología VoIP. Sin embargo, es posible que desee agregar distintas licencias para funcionalidades como realizar llamadas a números RTC o configurar un PBX.
 
 ### <a name="voice-and-pstn-connectivity"></a>Conectividad de voz y RTC
 
-Tanto si es una pequeña empresa, una organización empresarial, una institución educativa, una agencia gubernamental o una organización sin ánimo de lucro, tiene tres maneras de obtener conectividad con Teams Sistema telefónico y RTC:
+Tanto si es una pequeña empresa, una organización empresarial, una institución educativa, una agencia gubernamental o una organización sin ánimo de lucro, tiene tres maneras de obtener Teams Phone System y la conectividad con RTC:
 
-- Compre un plan de Microsoft 365 Business, E1/E3, A1/A3 o G1/G3 y agregue Teams Teléfono con licencias de paquetes de **planes de llamadas**.
-  - Este modelo le proporcionará capacidades de PBX Teams Sistema telefónico y un plan de llamadas nacionales de Microsoft.
+- Compre un plan de Microsoft 365 Empresa, E1/E3, A1/A3 o G1/G3 y agregue **Teams Phone con** licencias de paquetes del plan de llamadas.
+  - Este modelo le proporcionará las capacidades de PBX del sistema telefónico de Teams y un plan de llamadas nacionales de Microsoft.
   - Elija esta configuración si quiere que Microsoft administre todos los números de teléfono y la facturación.
-  - Compruebe si la [Teams Teléfono con licencia del paquete plan de llamadas está disponible en su región](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+  - Compruebe si la licencia del [paquete Teléfono de Teams con plan de llamadas está disponible en su región](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- Compre un plan E1/E3, A1/A3 o G1/G3, agregue **licencias Teams Teléfono Estándar** y elija un plan de llamadas independiente de Microsoft u operador RTC de terceros.
-  - Este modelo le dará Teams Sistema telefónico, pero seguirá necesitando conectarse a la RTC.
+- Compre un plan E1/E3, A1/A3 o G1/G3, agregue licencias **de Teléfono Teams Estándar** y elija un plan de llamadas independiente de Microsoft o un operador RTC de terceros.
+  - Este modelo le proporcionará Teams Phone System, pero seguirá necesitando conectarse a la RTC.
   - Para ver todas las opciones de conectividad de RTC, consulte [Opciones de conectividad de RTC](../pstn-connectivity.md).
-  - Para obtener información sobre todas las soluciones de voz, consulte [Planear la solución de voz Teams](../cloud-voice-landing-page.md).
+  - Para obtener información sobre todas las soluciones de voz, consulte [Planear la solución de voz de Teams](../cloud-voice-landing-page.md).
 
 - Compre un plan E5/A5/G5 y agregue **planes de llamadas de Microsoft** o conéctese a un proveedor de conectividad RTC de terceros.
-  - Los planes de Microsoft 365 E5, A5 y G5 incluyen Teams Sistema telefónico, pero las organizaciones siguen necesitando elegir una [opción de conectividad con RTC](../pstn-connectivity.md).
+  - Los planes de Microsoft 365 E5, A5 y G5 incluyen Teams Phone System, pero las organizaciones siguen necesitando elegir una [opción de conectividad con RTC](../pstn-connectivity.md).
 
-Este es un resumen de las licencias de voz y llamadas de Microsoft para comprar, en función de Microsoft 365 plan:
+Este es un resumen de las licencias de voz y llamadas de Microsoft que debe comprar, según el plan de Microsoft 365:
 
 <table>
 <thead>
@@ -80,13 +80,13 @@ Este es un resumen de las licencias de voz y llamadas de Microsoft para comprar,
 </thead>
 <tbody>
 <tr>
-<td>Teams Essentials (identidad AAD) <br/> <br/>Cualquier plan de Microsoft 365 que incluya Teams <br/> </td>
-<td>Teams Teléfono con licencias de conjuntos de planes de llamadas <br/> <br/>o <br/> <br/>licencias Teams Teléfono Estándar <br/> Más <br/>Licencias de Plan de llamadas nacionales, Planes de llamadas internacionales o Planes de llamadas nacionales e internacionales <br/> </td>
-<td>licencias Teams Teléfono Estándar <br/> </td>
+<td>Teams Essentials (identidad de AAD) <br/> <br/>Cualquier plan de Microsoft 365 que incluya Teams <br/> </td>
+<td>Teams Phone con licencias de paquetes del plan de llamadas <br/> <br/>o <br/> <br/>licencias de Teléfono Teams Estándar <br/> Más <br/>Licencias de Plan de llamadas nacionales o Planes de llamadas internacionales <br/> </td>
+<td>licencias de Teléfono Teams Estándar <br/> </td>
 </tr>
 <tr>
 <td>planes de Microsoft 365 E5/A5/G5</td>
-<td>Licencias de Plan de llamadas nacionales, Planes de llamadas internacionales o Planes de llamadas nacionales e internacionales <br/> </td>
+<td>Licencias de Plan de llamadas nacionales o Planes de llamadas internacionales <br/> </td>
 <td></td>
 </tr>
 </tbody>
@@ -116,4 +116,4 @@ Obtenga más información sobre los planes de Microsoft y obtenga orientación s
 
 - [Asignar licencias de complementos de Teams](assign-teams-add-on-licenses.md)
 - [Gestionar acceso de los usuarios a Microsoft Teams](../user-access.md)
-- [Teams descripción del servicio](/office365/servicedescriptions/teams-service-description)
+- [Descripción del servicio de Teams](/office365/servicedescriptions/teams-service-description)

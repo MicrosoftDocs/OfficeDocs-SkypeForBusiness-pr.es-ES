@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenga información detallada sobre las dimensiones y medidas que usa el Panel de calidad de llamadas para Microsoft Teams y Skype Empresarial Online.
-ms.openlocfilehash: 27b7800efd8835254c5f093781881296b4db2464
-ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
+ms.openlocfilehash: bc2289f06641e206f3188c865b936962e5f1b1f5
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66551227"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682539"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensiones y medidas disponibles en el Panel de calidad de llamadas (CQD)
 
@@ -551,6 +551,9 @@ En la tabla siguiente se enumeran las dimensiones disponibles actualmente en el 
 |¿Está implicada la cola de llamadas?|Boolean|Si es True, una cola de llamadas estuvo involucrada en una llamada o transmisión determinada. ||
 |**Reunión**||||
 |Id. de aplicación de origen de programación|String |El AppID del cliente de programación del primero o de un tercero que reservó la reunión.|El cliente de programación no ha proporcionado este parámetro a través de su telemetría.|
+|**Común**||||
+| First ACS Resource ID |String |Identificador de recurso inmutable del Servicio de comunicación de Azure asociado con el primer punto de conexión. <br/> **Ejemplo:** 00000000-0000-0000-0000-0000000000000000 | El punto de conexión no está usando Azure Communication Services API|
+| Second ACS Resource ID |String |Identificador de recurso inmutable del Servicio de comunicación de Azure asociado con el segundo punto de conexión. <br/> **Ejemplo:** 00000000-0000-0000-0000-0000000000000000 | El punto de conexión no está usando Azure Communication Services API|
 |**Documento de datos**||||
 | Pareja de detalles de conexión de red  | Pareja enumerada <br/>**Valores posibles:** <br/> Wifi : Wifi <br/> wifi : cableada <br/> Cableada : Wifi <br/> Cableada : Cableada <br/> MobileBB : MobileBB <br/> MobileBB : Otros <br/> MobileBB : Túnel <br/> MobileBB : Wifi <br/> MobileBB : Cableada <br/> Otros : Otros <br/> Otro : Wi-Fi <br/> Otros : Cableada <br/> Túnel : Túnel <br/> Túnel : Wifi <br/> Túnel : Cableado <br/> : MobileBB <br/> : otros <br/> : Túnel <br/> : Wifi <br/> : cableada <br/> :  | Pareja de detalles de la conexión de red para el primer punto de conexión y el segundo.  | &bull; Se desconocía el tipo de conectividad de red del punto de conexión. Esto puede ocurrir si no se pudo establecer la llamada.   |
 | User Agent Category Pair  | Pareja enumerada  | Pareja de categoría de agente de usuario para el primer punto de conexión y el segundo. <br/> **Valor de ejemplo:** AV-MCU : OC  | &bull; El agente de usuario de punto de conexión no era un tipo conocido  |

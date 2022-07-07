@@ -14,20 +14,20 @@ f1.keywords:
 - NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
-description: Determine qué plan de llamadas del sistema de Teléfono Microsoft mejor atenderá a su organización en Cloud Voice en Teams.
+description: Determine qué plan de llamadas de Microsoft Phone System servirá mejor a su organización en Cloud Voice en Teams.
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 798d119be837e5ab2aafbd26676dd7e26b641db6
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: e11c6f6cbb53808ba259afd90420ac9855c9731d
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686307"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682479"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>¿Qué plan de llamada es adecuado para usted?
 
-Has completado la [Comenzar](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Es posible que haya implementado [Reuniones & conferencias](deploy-meetings-microsoft-teams-landing-page.md). Ahora ya está listo para agregar cargas de trabajo de voz en la nube y ha decidido usar Teléfono Microsoft Sistema con plan de llamadas para conectarse a la red telefónica conmutada (RTC).
+Ya ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Es posible que haya implementado [Reuniones & conferencias](deploy-meetings-microsoft-teams-landing-page.md). Ahora ya está listo para agregar cargas de trabajo de voz en la nube y ha decidido usar Microsoft Phone System con Plan de llamadas para conectarse a la red telefónica conmutada (RTC).
 
 En este artículo se describen las decisiones básicas de implementación para los planes de llamadas, así como consideraciones adicionales que puede que desee configurar, en función de las necesidades de su organización. También debería leer [Cloud Voice en Microsoft Teams](cloud-voice-landing-page.md) para obtener más información sobre las ofertas de voz en la nube de Microsoft.
 
@@ -41,15 +41,14 @@ En los artículos siguientes se proporciona más información sobre cómo implem
 
 ## <a name="core-deployment-decisions"></a>Decisiones de implementación principales
 
-Para usar Microsoft como su operador de telefonía, debe obtener licencias de Plan de llamadas y asignarlas a sus usuarios de Sistema telefónico.
+Para usar Microsoft como su operador de telefonía, debe obtener licencias de plan de llamadas y asignarlas a los usuarios del sistema telefónico.
 
-Hay tres tipos de planes de llamada disponibles:
+Hay dos tipos de planes de llamada disponibles:
 
 - Planes de llamadas nacionales
 - Planes de llamadas internacionales
-- Planes de llamadas nacionales e internacionales
 
-|Pregúntese lo siguiente:|Acción |
+|Pregúntese lo siguiente:|Action |
 |------------|-------|
 |¿Están disponibles los planes de llamadas en mi área? ¿Qué ubicaciones de usuario tendrán el servicio Plan de llamadas? | Para obtener más información, consulte [Disponibilidad de país y región para planes de llamadas y audioconferencias](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
 ¿Mis usuarios necesitan llamadas internacionales? | Para obtener más información, consulte [Planes de llamadas para Microsoft 365 o Office 365](calling-plans-for-office-365.md). |
@@ -59,13 +58,13 @@ Hay tres tipos de planes de llamada disponibles:
 
 ### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>Transferir números de teléfono a Microsoft 365 o Office 365
 
-Es fácil transferir los números de teléfono de su proveedor de servicios actual a Teams. Después de transferir sus números de teléfono a Teams, Microsoft se convertirá en su proveedor de servicios y le facturará por esos números de teléfono. Para obtener más información, vea [Transferir números de teléfono a Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Es fácil transferir los números de teléfono de su proveedor de servicios actual a Teams. Después de transferir sus números de teléfono a Teams, Microsoft se convertirá en su proveedor de servicios y le facturará por esos números de teléfono. Para obtener más información, consulte [Transferir números de teléfono a Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 ### <a name="phone-numbers-and-emergency-locations"></a>Números de teléfono y ubicaciones de emergencia
 
 Con planes de llamadas en Microsoft 365 o Office 365, todos los usuarios de su organización deben tener un número de teléfono único de marcado directo entrante (DID) y una dirección de emergencia validada correspondiente. También puede especificar una ubicación de emergencia dentro de la dirección de emergencia (por ejemplo, un número de oficina o un número de piso).
 
-|Pregúntese lo siguiente:|Acción |
+|Pregúntese lo siguiente:|Action |
 |:------------|:-------|
 |¿Qué detalles quiero que tenga la dirección de emergencia y la información de ubicación? |Para obtener más información, vea [¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
 
@@ -73,7 +72,7 @@ Con planes de llamadas en Microsoft 365 o Office 365, todos los usuarios de su o
 
 De forma predeterminada, todas las llamadas salientes usan el número de teléfono asignado como identidad de llamada (identificador de llamada). El destinatario de la llamada puede identificar rápidamente a la persona que llama y decidir si desea aceptar o rechazar la llamada.
 
-|Pregúntese lo siguiente:|Acción |
+|Pregúntese lo siguiente:|Action |
 |:------------|:-------|
 |¿Quiero enmascarar o deshabilitar el identificador de llamadas? | Para cambiar o bloquear el identificador de llamada, vea [Establecer el identificador de llamada de un usuario](set-the-caller-id-for-a-user.md). |
 |||
