@@ -15,14 +15,14 @@ description: Obtén información sobre cómo auditar las actividades de la aplic
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: d75773db33f1648e3fff0c7bf06944da133f0604
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: 77c7ac5d80304e82f1309e3a22b21c17d106a58c
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642896"
+ms.locfileid: "66647842"
 ---
-# <a name="search-the-audit-logs-for-app-events"></a>Buscar eventos de aplicación en los registros de auditoría
+# <a name="audit-for-app-management-activities-and-events"></a>Auditoría de actividades y eventos de administración de aplicaciones
 
 La auditoría de Microsoft Purview (estándar) de Microsoft 365 permite buscar registros de auditoría de actividades realizadas en los distintos servicios de Microsoft 365 por parte de usuarios finales y administradores.
 
@@ -32,7 +32,7 @@ Antes de poder buscar en la auditoría, asegúrate de completar los siguientes r
 * [Activa la auditoría en el portal de cumplimiento Microsoft Purview](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 * [Asigna permisos para buscar en el registro de auditoría](/microsoft-365/compliance/set-up-basic-audit).
 
-## <a name="audit-logs-for-app-events-in-teams"></a>Eventos de aplicación en los registros de auditoría en Teams
+## <a name="search-the-audit-logs-for-app-events-in-teams"></a>Buscar eventos de aplicación en Teams en los registros de auditoría
 
 Los registros de auditoría de los eventos de aplicación en Teams ayudan a investigar acciones específicas. Aunque puedes buscar en los registros una amplia gama de acciones, en la tabla siguiente se enumeran algunas de las acciones de aplicación de Teams que se han registrado. Además, puedes buscar actividades relacionadas con conectores, bots, pestañas, etc.
 
