@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ff797e0793373d0cb7b476b31411ccdf377639c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 2694981d18bfbee7f75ea8157fb656d77675a71d
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674382"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647692"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guía para administradores de TI de Insights para el ámbito educativo en Microsoft Teams
 
@@ -252,15 +253,17 @@ De forma predeterminada, Insights está activado, lo que nos permite recopilar a
 > [!NOTE]
 > Si ha desactivado Insights, se eliminarán los datos recopilados. Los datos eliminados al optar por no participar no pueden restaurarse más adelante, incluso si Insights se vuelve a habilitar.
 
-### <a name="turn-machine-learning-in-insights-on-or-off"></a>Activar o desactivar Aprendizaje Automático en Insights
+### <a name="turn-on-and-off-advanced-inferences-in-insights"></a>Activar y desactivar Inferencias avanzadas en Insights
 
-De forma predeterminada, las experiencias basadas en el aprendizaje automático en Insights están desactivadas. Para permitir estas perspectivas, debe **Permitir Insights basado en el aprendizaje automático**. La activación de este botón de alternancia no recopilará ningún dato adicional que no sean los ya recopilados por Insights para Educación.
+Cuando el botón de alternancia **Permitir inferencias avanzadas** para Insights para Educación está activado, Insights para Educación puede presentar a los alumnos, educadores y líderes educativos inferencias avanzadas sobre el aprendizaje (como advertencias de compromiso). Estas inferencias permiten a los formadores proporcionar soporte técnico más adaptado a los alumnos. El botón de alternancia también controla el uso de datos del inquilino para el modelado.
+
+La activación de este botón de alternancia no recopilará ningún dato adicional que no sean los ya recopilados por Insights para Educación.
 
 - Para ajustar esta configuración, abra el [Centro de administración de SDS](https://sds.microsoft.com/) y vaya a **Configuración** > **Administrar Insights para Educación**.
-- Ajusta el **Permitir que Insights basado en el aprendizaje automático** activado o desactivado.
+- Ajuste el botón de alternancia **Permitir inferencias avanzadas** a desactivado o activado.
 
 > [!NOTE]
-> Este botón de alternancia depende del **Recopilar datos de actividad para Insights**. Al desactivar **Recopilar datos de actividad para Insights** también se desactivará **Permitir Insights basado en el aprendizaje automático**.
+> Este botón de alternancia depende del **Recopilar datos de actividad para Insights**. Al desactivar **Recopilar datos de actividad para Insights** también se desactivará el botón de alternancia **Permitir inferencias avanzadas**.
 
 ### <a name="turn-sds-for-insights-on-or-off"></a>Activar o desactivar SDS para Insights
 

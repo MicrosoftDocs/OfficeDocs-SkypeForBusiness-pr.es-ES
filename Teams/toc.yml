@@ -1563,6 +1563,8 @@ items:
             href: apps-update-experience.md
           - name: Administrar el acceso a las aplicaciones de Teams en Microsoft 365
             href: manage-third-party-teams-apps.md
+          - name: Auditoría de actividades y eventos de administración de aplicaciones
+            href: audit-app-management-activities.md
       - name: Análisis y informe del uso de aplicaciones
         href: teams-analytics-and-reports/app-usage-report.md
   - name: Instrucciones para sectores y gobiernos
