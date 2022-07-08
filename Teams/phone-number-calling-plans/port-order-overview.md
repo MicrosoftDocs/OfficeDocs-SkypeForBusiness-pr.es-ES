@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenga información general sobre qué son los pedidos de portabilidad y cómo transferir números de teléfono de su proveedor de servicios a Teams.
-ms.openlocfilehash: 37b8a56603ab7cd6888a624cca1b9e76ae8cfb03
-ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
+ms.openlocfilehash: a4062d6a5c63b590502d5afebc547bd319e2adda
+ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66103247"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66687836"
 ---
 # <a name="whats-a-port-order"></a>¿Qué es un pedido de portabilidad?
 
@@ -66,7 +66,7 @@ En general, puede transferir cualquier número de teléfono de un proveedor admi
 
 - Números de teléfono VoIP de un proveedor de telefonía como Vonage o RingCentral.
 
-- Números de teléfono híbridos de Skype Empresarial. Si desea transferir estos números, envíenos un correo electrónico a <ptn@microsoft.com>.
+- Si está realizando la portabilidad de números de teléfono híbridos (migrando desde Direct Routing o Operator Connect a planes de llamadas), póngase en contacto con el [equipo de servicios de números](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) de teléfono, asegúrese de incluir una nota que indique que son números de teléfono híbridos.
 
 **No puede transferir:**
   
