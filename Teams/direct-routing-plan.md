@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtén información sobre cómo Enrutamiento directo de Microsoft te permite conectar un controlador de borde de sesión (SBC) compatible proporcionado por el cliente al sistema telefónico.
-ms.openlocfilehash: a5ccb8534ed8772124ae6e2506af81e5b63134d0
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: fd5f2733fc11511e6cfc2e646c0bb78aff26b522
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682519"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695063"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -160,6 +160,9 @@ Es posible que una empresa tenga varios espacios de direcciones SIP en un inquil
 
 El SBC solo necesita un FQDN y puede atender a los usuarios desde cualquier espacio de direcciones en el espacio empresarial emparejado. Por ejemplo, un SBC con el nombre sbc1.contoso.com puede recibir y enviar el tráfico RTC para los usuarios con direcciones user@contoso.com y user@fabrikam.com siempre y cuando estos espacios de direcciones SIP se registren en el mismo espacio empresarial.  
 
+ > [!NOTE]
+ > El FQDN de SBC en Azure Communication Services enrutamiento directo debe ser diferente del FQDN de SBC en el enrutamiento directo de Teams.
+  
 ## <a name="public-trusted-certificate-for-the-sbc"></a>Certificado de confianza público para el SBC
 
 Microsoft recomienda solicitar el certificado para el SBC generando una solicitud de firma de certificación (CSR). Para obtener instrucciones específicas sobre cómo generar un CSR para un SBC, consulte las instrucciones de interconexión o la documentación proporcionada por sus proveedores de SBC. 

@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Obtenga información sobre cómo programar, administrar y llevar a cabo citas virtuales con la aplicación Bookings en Teams.
-ms.openlocfilehash: a89eaa242cd62238d4e5c6c9d7a88f3a2e9ac62c
-ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
+ms.openlocfilehash: 245b9fdf8cd619ea68d2d20097f1aee4bdbbf20d
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66103387"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695133"
 ---
 # <a name="virtual-appointments-with-microsoft-teams-and-the-bookings-app"></a>Citas virtuales con Microsoft Teams y la aplicación Bookings
 
@@ -36,7 +36,7 @@ La [aplicación Bookings](https://support.microsoft.com/office/what-is-bookings-
 
 La aplicación Bookings facilita la administración de solicitudes de programación complejas de cualquier organización. Los programadores pueden administrar varios calendarios de departamento y de personal, así como las comunicaciones con los asistentes internos y externos desde una sola experiencia.
 
-Las citas virtuales se realizan a través de Microsoft Teams reuniones, que ofrecen sólidas capacidades de videoconferencia. Por ejemplo, un médico puede compartir su pantalla y revisar los resultados de la prueba con un paciente. O bien, un asesor bancario puede solicitar firmas electrónicas en documentos, lo que les permite cerrar transacciones de forma remota.
+Las citas virtuales se realizan a través de las reuniones de Microsoft Teams, que ofrecen sólidas capacidades de videoconferencia. Por ejemplo, un médico puede compartir su pantalla y revisar los resultados de la prueba con un paciente. O bien, un asesor bancario puede solicitar firmas electrónicas en documentos, lo que les permite cerrar transacciones de forma remota.
 
 Cada cita virtual incluye un vínculo a la reunión de Teams que se envía a los asistentes por correo electrónico, donde pueden unirse fácilmente desde un explorador web o en Teams desde cualquier dispositivo. Los avisos de correo electrónico automatizados ayudan a reducir las no presentaciones y a mejorar la participación de clientes y clientes.
 
@@ -56,13 +56,13 @@ Este artículo le ofrece información general sobre cómo programar, administrar
 
 Si es administrador, consulte [Administrar la aplicación Bookings en Teams](../bookings-app-admin.md) para obtener información sobre los requisitos previos para usar la aplicación Bookings en Teams, cómo controlar el acceso a Bookings en su organización y la configuración recomendada de directivas y administradores.
 
-Recuerde que solo los programadores de su organización deben tener la aplicación Bookings instalada en Teams. El personal que realiza o participa en citas virtuales no necesita la aplicación. Se unen a citas desde su calendario de Teams o Outlook o mediante el vínculo de la reunión en su correo electrónico de confirmación de reserva.
+Recuerde que solo los programadores de su organización deben tener la aplicación Bookings instalada en Teams. Los miembros del personal que dirigen o participan en citas virtuales no necesitan la aplicación. Se unen a citas desde su calendario de Teams o Outlook o mediante el vínculo de la reunión en su correo electrónico de confirmación de reserva.
 
 ## <a name="set-up-a-new-booking-calendar"></a>Configurar un nuevo calendario de reservas
 
 ### <a name="create-the-booking-calendar"></a>Crear el calendario de reservas
 
-En Teams, vaya a **Bookings** >  **Comenzar** y, a continuación, seleccione **Nuevo calendario de reservas**. Complete el formulario y asegúrese de elegir el tipo de negocio relevante para su organización.
+En Teams, vaya a **Introducción** a **Bookings** >  y seleccione **Nuevo calendario de reservas**. Complete el formulario y asegúrese de elegir el tipo de negocio relevante para su organización.
 
 :::image type="content" source="../media/bookings-virtual-visits-new-booking-calendar.png" alt-text="Captura de pantalla de la nueva pantalla del calendario de reservas que muestra los tipos de empresa":::
 
@@ -76,7 +76,7 @@ Para obtener más información, vea [Crear un calendario de Bookings](https://su
 
 En el calendario de reservas, vaya a **Más opciones** (...) > **Configuración** y, después, seleccione **Personal**. Agregue miembros del personal y asigne un rol a cada persona que agregue. Puede agregar hasta 100 miembros del personal a un calendario de reservas.
 
-La aplicación Bookings se integra con Outlook. Después de agregar personal, podrá ver la disponibilidad del calendario de esa persona y programar sus reservas. Para obtener más información, consulte [Agregar personal y ver un calendario de Bookings](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
+La aplicación Bookings se integra con Outlook. Después de agregar miembros del personal, podrá ver su disponibilidad del calendario y programar reservas para ellos. Para obtener más información, consulte [Agregar personal y ver un calendario de Bookings](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
 
 ### <a name="create-appointment-types"></a>Crear tipos de citas
 
@@ -96,7 +96,7 @@ Al trabajar con formularios, tenga en cuenta lo siguiente:
 Cuando un programador usa el tipo de cita para programar una cita, puede elegir incluir el formulario, quitarlo o agregar cualquier otro formulario vinculado al tipo de cita. Los asistentes deben rellenar el formulario antes de unirse a la cita.
 
 > [!NOTE]
-> Cualquier información proporcionada por los pacientes en Forms como parte de bookings o servicios de citas virtuales que es necesario para fines de continuidad o retención de registros médicos se debe descargar, copiar y / o notar directamente en dichos registros. Este servicio no constituye ni un registro médico legal ni un conjunto de registros designados.
+> Si es un proveedor de atención sanitaria, cualquier información proporcionada por usted o por los pacientes en Teams (incluida la aplicación Forms, la aplicación Bookings, las grabaciones de reuniones si usted lo ha habilitado o cualquier otro servicio de citas virtuales de Teams) que sea necesaria para fines de continuidad o retención de registros médicos, debe descargarse, copiarse y/o notar directamente en dichos registros por usted. Este servicio no mantiene registros médicos legales ni un conjunto de registros designados.
 
 Para obtener más información, vea [Crear un tipo de cita](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
@@ -106,13 +106,13 @@ En el calendario de reservas, seleccione **Nueva reserva**. Seleccione un tipo d
 
 Esto incluye la información de contacto de los asistentes, el miembro del personal que proporcionará el servicio, notas internas que solo el personal puede ver, avisos por correo electrónico y si el asistente puede unirse desde un explorador móvil. Si un formulario está vinculado al tipo de cita, puede elegir incluirlo, quitarlo o agregar cualquier otro formulario vinculado.
 
-La confirmación por correo electrónico enviada al asistente incluye el vínculo de la reunión y un archivo adjunto para que pueda agregar la cita virtual a su calendario. El personal también recibe una confirmación por correo electrónico e invitación a la reunión. Si se incluyó un formulario en la cita, los administradores y programadores de Bookings pueden ver si el asistente ha completado el formulario antes de la cita y pueden ver la respuesta del asistente.
+La confirmación por correo electrónico enviada al asistente incluye el vínculo de la reunión y un archivo adjunto para que pueda agregar la cita virtual a su calendario. Los miembros del personal también reciben una confirmación por correo electrónico e invitación a la reunión. Si se incluyó un formulario en la cita, los administradores y programadores de Bookings pueden ver si el asistente ha completado el formulario antes de la cita y pueden ver la respuesta del asistente.
 
 Para obtener más información, consulte [Programar una reserva en la aplicación Teams Bookings](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f).
 
 ## <a name="conduct-an-appointment"></a>Dirigir una cita
 
-En su calendario de Teams o Outlook, vaya a la reserva y, a continuación, seleccione **Unirse** o el vínculo de la reunión de Teams. Compruebe la configuración de audio y vídeo y, después, seleccione **Unirse ahora**. Para obtener más información, consulte [Dirigir una cita de Bookings](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
+En el calendario de Teams o Outlook, vaya a la reserva y, a continuación, seleccione **Unirse** o el vínculo de reunión de Teams. Compruebe la configuración de audio y vídeo y, después, seleccione **Unirse ahora**. Para obtener más información, consulte [Dirigir una cita de Bookings](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
 ## <a name="monitor-appointments-and-get-real-time-status-updates"></a>Supervisar citas y obtener actualizaciones de estado en tiempo real
 
@@ -135,7 +135,7 @@ Para obtener más información, consulta [Microsoft Bookings](/microsoft-365/boo
 
 ## <a name="get-insight-into-virtual-appointments-usage"></a>Obtener información sobre el uso de citas virtuales
 
-El [informe uso de visitas virtuales](../teams-analytics-and-reports/virtual-visits-usage-report.md) del centro de administración de Microsoft Teams ofrece a los administradores información general sobre la actividad de las citas virtuales de Teams en su organización. El informe muestra análisis detallados de citas virtuales, incluidas las citas de Bookings.
+El [informe uso de visitas virtuales](../teams-analytics-and-reports/virtual-visits-usage-report.md) del Centro de administración de Microsoft Teams ofrece a los administradores información general sobre la actividad de las citas virtuales de Teams en su organización. El informe muestra análisis detallados de citas virtuales, incluidas las citas de Bookings.
 
 Puede ver métricas clave como el tiempo de espera de la sala de espera y la duración de las citas. Use esta información para obtener información sobre las tendencias de uso para ayudarle a optimizar las citas virtuales y ofrecer mejores resultados empresariales.
 
@@ -145,6 +145,6 @@ Puede ver métricas clave como el tiempo de espera de la sala de espera y la dur
 
 - [Informe de uso de visitas virtuales de Teams](../teams-analytics-and-reports/virtual-visits-usage-report.md)
 
-- [Comenzar con Teams para organizaciones sanitarias](healthcare/teams-in-hc.md)
+- [Introducción a Teams para organizaciones sanitarias](healthcare/teams-in-hc.md)
 
 - [Aplicación Bookings en la documentación de ayuda de Teams](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)

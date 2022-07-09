@@ -19,12 +19,12 @@ description: Obtenga información sobre cómo administrar las aplicaciones de Te
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 92f7c6d69fbc9f680c204f0210aaa80742dd6384
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: f9bf05364ae990930da89a64643fa86b2b0467c4
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647752"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695073"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Administrar aplicaciones de Teams en el Centro de administración de Microsoft Teams
 
@@ -119,7 +119,7 @@ Puedes ver las solicitudes para hacer que una aplicación bloqueada esté dispon
 
  1. Inicie sesión en el Centro de administración de Teams y seleccione [Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)
 
-    :::image type="content" source="media/requested-apps1.png" alt-text="Solicitud de los usuarios" lightbox="media/requested-apps.png" border="true":::
+    :::image type="content" source="media/requested-apps1.png" alt-text="Las solicitudes de usuario final para aplicaciones bloqueadas se muestran en el Centro de administración de Teams, en la columna denominada Solicitudes de usuarios." lightbox="media/requested-apps.png":::
 
  1. Para ver y comprobar el número de solicitudes de cada aplicación, ordene las solicitudes en la columna **Solicitudes por usuario** .
  1. Selecciona el nombre de la aplicación que quieras desbloquear y se abrirá la página de detalles de la aplicación.
