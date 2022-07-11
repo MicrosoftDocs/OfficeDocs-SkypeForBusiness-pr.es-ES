@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directivas de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: 5770c4d998a28edf2b8fc8131650b98420e826f9
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 7f9cb76e12671425ee2b7b0543263195796e04d5
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241139"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713358"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -112,9 +112,11 @@ Esta configuración no se aplica a las reuniones del canal. Una vez que esta dir
 
 ## <a name="qa-in-meetings"></a>Q&A en reuniones
 
-Esta es una directiva por organizador. Esta configuración controla si los organizadores pueden agregar la experiencia Q&A a sus reuniones. Esta configuración está desactivada de forma predeterminada. Obtenga más información sobre Q&A [aquí](/manage-qna-for-meetings). 
+Esta es una directiva por organizador. Esta configuración permite a los administradores de inquilinos de Microsoft 365 habilitar o deshabilitar la experiencia de preguntas & respuestas (Q&A).
 
-Para el parámetro QnAEngagementMode controla esta directiva en PowerShell y Q&A también se puede ajustar en el portal de administración.
+La configuración se aplica cuando los organizadores crean o actualizan una reunión. Esta configuración está desactivada de forma predeterminada. Obtenga más información sobre Q&A [aquí](/manage-qna-for-meetings).
+
+El parámetro QnAEngagementMode controla esta directiva en PowerShell. Q&A también se puede ajustar en el portal de administración.
 
 |Valor de configuración |Comportamiento  |
 |---------|---------|

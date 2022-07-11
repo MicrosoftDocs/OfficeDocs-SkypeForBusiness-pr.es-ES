@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6015c7b7cf1e7be5bc6b9b3e1fe0577a7f707377
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 5b9c049942808da9b2df97d031ff850949bca211
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564148"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713318"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar la calidad de servicio (QoS) en Microsoft Teams
 
@@ -151,7 +151,7 @@ Tenga en cuenta lo siguiente al usar esta configuración:
 
 - Todos los clientes, incluidos los clientes móviles y los dispositivos de Teams, usarán estos intervalos de puertos y se verán afectados por cualquier directiva de DSCP que implemente que use estos intervalos de puertos de origen. Los únicos clientes que seguirán usando puertos dinámicos son los clientes basados en exploradores (clientes que permiten a los participantes unirse a reuniones mediante sus exploradores).
 
-- Aunque el cliente de Mac usa los mismos intervalos de puertos, también usa valores codificados de forma rígida para audio (EF) y vídeo (AF41). Estos valores no se pueden configurar.
+- Aunque el cliente de Mac usa los mismos intervalos de puertos, también usa valores codificados de forma rígida para audio (EF) y vídeo y uso compartido de aplicaciones y pantallas (AF41). Estos valores no se pueden configurar.
 
 - Si más adelante necesita ajustar los intervalos de puertos para mejorar la experiencia del usuario, los intervalos de puertos no se pueden superponer y deben ser adyacentes entre sí.
 

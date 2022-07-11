@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52e4a9df0daded1a1091c32790dae2c15294529d
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 3c94b1c7f33de136eea33ec7905e1e37a9ceb0e2
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922501"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713368"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -45,12 +45,12 @@ La siguiente tabla ofrece una referencia rápida y útil de la disponibilidad de
 
 **Acciones compatibles:**
 
-| El buzón del usuario se hospeda en:                                       | eDiscovery         | Legal&nbsp;Hold    | Retención        | Administración de equipos y canales | Crear y ver reuniones en Teams | Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Acceder a contactos de Outlook | Correo de voz        | Agregar y configurar conectores | Agregar y configurar fichas | Agregar y configurar bots | Modificar fuera de la configuración de Office |
+| El buzón del usuario se hospeda en:                                       | eDiscovery         | Legal&nbsp;Hold    | Retención        | Administración de equipos y canales | Crear y ver reuniones en Teams | Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Acceder a contactos de Outlook | Correo de voz        | Agregar y configurar conectores | Agregar y configurar fichas | Agregar y configurar bots | Modificar la configuración de Fuera de la oficina |
 |--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|------------------------|
 | **Exchange Online**                                                | Sí<sup>1</sup>   | Sí<sup>1</sup>   | Sí              | Sí                   | Sí                               | Sí<sup>7</sup>             | Sí          | Sí             | Sí<sup>6</sup>        | Sí              | Sí                          | Sí                    | Sí                    | Sí                    
 | **Exchange Online Dedicated vNext**                                | Sí<sup>1</sup>   | Sí<sup>1</sup>   | Sí              | Sí                   | Sí                               | Sí<sup>7</sup>             | Sí          | Sí             | Sí<sup>6</sup>        | Sí              | Sí                          | Sí                    | Sí                    | Sí                    
 | **Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD) | Sí<sup>1</sup>   | Sí<sup>1,2</sup> | Sí<sup>3</sup> | Sí                   | No                                | No                          | Sí          | Sí             | No                      | Sí <sup>4</sup> | Sí<sup>5</sup>             | Sí                    | Sí                    | Sí                    
-| **Exchange local** (Sincronizar con Azure AD)                        | Sí <sup>1,9</sup> | Sí<sup>1</sup>   | Sí<sup>3</sup> | Sí                   | Sí<sup>8</sup>                  | <sup>Sí10</sup>            | Sí          | Sí             | No                      | Sí <sup>4</sup> | Sí<sup>5</sup>             | Sí                    | Sí                    | No                      
+| **Exchange local** (Sincronizar con Azure AD)                        | Sí <sup>1,9</sup> | Sí<sup>1</sup>   | Sí<sup>3</sup> | Sí                   | Sí<sup>8</sup>                  | Sí<sup>10</sup>            | Sí          | Sí             | No                      | Sí <sup>4</sup> | Sí<sup>5</sup>             | Sí                    | Sí                    | No                      
 
 <sup>1</sup> eDiscovery y la suspensión legal para el cumplimiento en los mensajes de canal se admiten en todas las opciones de hospedaje.
 
@@ -60,7 +60,7 @@ La siguiente tabla ofrece una referencia rápida y útil de la disponibilidad de
 
 <sup>4</sup> Los usuarios de Teams con buzón de correo de Exchange en el entorno local pueden usar el buzón de voz con Teams y recibir mensajes del buzón de voz en Outlook, pero los mensajes del buzón de voz no estarán disponibles para ver o reproducir dentro del cliente de Teams.
 
-<sup>5</sup> Si uno de los propietarios de un equipo puede agregar conectores, los demás miembros del equipo también podrán, incluso si sus buzones de correo están hospedados en el entorno local.
+<sup>5</sup> Si uno de los propietarios de un equipo puede agregar conectores, todos los demás miembros de ese equipo podrán hacerlo, independientemente de si su buzón está alojado en local o en línea.
 
 <sup>6</sup> Solo los contactos en la carpeta predeterminada de contactos. No se admite el acceso a otras carpetas o subcarpetas de contactos.
 
@@ -70,9 +70,9 @@ La siguiente tabla ofrece una referencia rápida y útil de la disponibilidad de
 
 <sup>9</sup> También se requiere un mínimo de una licencia Exchange Online Plan 1. Para obtener más información, vea [Buscar datos de chat de Teams para usuarios locales](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
 
-<sup>10</sup> Los usuarios locales pueden usar Teams para actualizar su imagen de perfil incluso si la `SetPhotoEnabled` Outlook en la directiva de buzón web está establecida `false`en .
+<sup>10</sup> Los usuarios locales pueden usar Teams para actualizar su imagen de perfil incluso si la `SetPhotoEnabled` directiva de buzón de Outlook en la Web está establecida `false`en .
  > [!NOTE]
- > La configuración de Fuera de Office (OOF) a través del cliente de Teams no es compatible actualmente para los usuarios cuyos buzones están hospedados en local; estos usuarios deben realizar esta acción a través del cliente de Outlook.
+ > Configurar Fuera de la oficina (OOF) a través del cliente de Teams no es compatible actualmente para los usuarios cuyos buzones están hospedados en local; estos usuarios deben realizar esta acción a través del cliente de Outlook.
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Requisitos para sacar el máximo provecho de Microsoft Teams
 
 Microsoft Teams trabaja con varios servicios de Microsoft 365 y Office 365 para ofrecer a los usuarios una experiencia enriquecedora. Para admitir esta experiencia, deberá habilitar ciertas características o servicios y asignar licencias.
@@ -91,7 +91,7 @@ Microsoft Teams trabaja con varios servicios de Microsoft 365 y Office 365 para 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>Requisitos para crear y ver reuniones para buzones de correo hospedados en el entorno local.
 
   > [!NOTE]
-  > Actualmente, crear y ver reuniones para buzones hospedados localmente solo se admite en entornos comerciales, GCC y GCC alto.
+  > Actualmente, crear y ver reuniones para buzones hospedados localmente solo se admite en entornos comerciales, GCC y GCC High.
 
 Si los buzones de correo están hospedados en el entorno local, se deben cumplir los siguientes requisitos para poder crear y ver reuniones:
 
@@ -101,14 +101,14 @@ Si los buzones de correo están hospedados en el entorno local, se deben cumplir
 
 - Los buzones de correo están hospedados en la actualización acumulativa 3 o posterior de Exchange Server 2016.
 
-- Los servicios web de Exchange y detección automática se publican externamente. Para obtener información sobre qué servicios de Microsoft 365 necesitan acceso a los puntos de conexión de Servicios web de Exchange y Detección automática local, vea [Otros puntos de conexión no incluidos en el servicio web de dirección IP y dirección URL de Office 365](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls).
+- La detección automática y los servicios web de Exchange se publican externamente. Para obtener información sobre qué servicios de Microsoft 365 necesitan acceso a los puntos de conexión de Detección automática y Servicios web de Exchange locales, vea [Otros puntos de conexión no incluidos en el servicio web de dirección IP y dirección URL de Office 365](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls).
 
 - La autenticación OAuth se configura preferiblemente mediante la ejecución de una configuración híbrida completa (Clásica o Moderna) realizada por el Asistente para configuración de Exchange Hybrid. Si no puede utilizar el Asistente para configuración de Hybrid, configure OAuth como se describe en [Configurar la autenticación OAuth entre organizaciones de Exchange y de Exchange Online](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
   > [!NOTE]
   > Exchange confía en el Token de OAuth del servicio de Teams, conocido como EvoSTS. El paso 1 debería bastar, peroe solo EvoSTS; ACS se emplea para la búsqueda Libre/Ocupado en el calendario.
 
-- Está establecida la casilla de verificación para la característica de la implementación híbrida de Exchange en Azure AD Connect. Para obtener más información, vea [Exchange reescritura híbrida](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback).
+- Está establecida la casilla de verificación para la característica de la implementación híbrida de Exchange en Azure AD Connect. Para obtener más información, vea [Reescritura híbrida de Exchange](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback).
 
 - Para la compatibilidad con la aplicación de calendario y el complemento de Outlook Teams para Mac, las direcciones URL del Servicio web Exchange se deben configurar como SPN en el espacio empresarial de Azure AD para la entidad de servicio de Exchange. Este paso se puede realizar con el Asistente para configuración de Hybrid o mediante los [pasos del manual para la Autenticación moderna híbrida](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
 
@@ -119,7 +119,7 @@ Para habilitar la delegación del calendario para estos usuarios:
   > [!NOTE]
   > El paso 2 incluye la asignación de rol para ArchiveApplication, lo que no se requiere para la delegación.
 
-- El complemento programación Teams para Outlook requiere Exchange 2013 CU19 o posterior al programar una reunión en nombre de otra persona. Se requiere para admitir la detección no autenticada del buzón de correo por parte de nuestro servicio para contrastar los permisos delegados con el buzón de correo de la persona que delega. La ubicación del delegado y de la persona que delega puede ser Exchange 2013 o posterior, o Exchange Online, pero la Detección automática debe resolver a Exchange 2013 CU19 o posterior.
+- El complemento de programación de Teams para Outlook requiere Exchange 2013 CU19 o posterior al programar una reunión en nombre de otra persona. Se requiere para admitir la detección no autenticada del buzón de correo por parte de nuestro servicio para contrastar los permisos delegados con el buzón de correo de la persona que delega. La ubicación del delegado y de la persona que delega puede ser Exchange 2013 o posterior, o Exchange Online, pero la Detección automática debe resolver a Exchange 2013 CU19 o posterior.
 
 ## <a name="additional-considerations"></a>Consideraciones adicionales
 
@@ -131,7 +131,7 @@ He aquí algunas consideraciones adicionales para la implementación de Microsof
 
 - Si su organización tiene ciertas normativas por las que se tienen que poder detectar todas las discusiones de las reuniones, debe deshabilitar las reuniones privadas si el organizador tiene un buzón de correo local de Exchange. Para obtener más información, vea [Programación de reuniones privadas](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
 
-- En una implementación híbrida de Exchange, el contenido de los mensajes de chat se puede buscar sin importar que los participantes del chat tengan un buzón de correo basado en la nube o local. Para más información, consulte [Búsqueda de buzones basados en la nube para usuarios locales](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para obtener información sobre cómo buscar contenido en Teams, lea Búsqueda de [contenido en el portal de cumplimiento de Microsoft Purview](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+- En una implementación híbrida de Exchange, el contenido de los mensajes de chat se puede buscar sin importar que los participantes del chat tengan un buzón de correo basado en la nube o local. Para más información, consulte [Búsqueda de buzones basados en la nube para usuarios locales](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para obtener información sobre cómo buscar contenido en Teams, lea [Búsqueda de contenido en el portal de cumplimiento Microsoft Purview](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
 - Para el estado de presencia, Microsoft Teams debe comprobar si el buzón de correo está hospedado en Exchange Online o en el entorno local. Entonces, el servicio decide dónde acceder al buzón de correo. Para habilitar el servicio de Teams para comprobar la ubicación del buzón de correo mediante la llamada de la REST API al servicio de Exchange Online, debe implementar un entorno híbrido de Exchange mediante el asistente para configuración híbrida de Exchange, como se describe en [Crear una implementación híbrida con el asistente para configuración híbrida](/exchange/hybrid-deployment/deploy-hybrid).
 

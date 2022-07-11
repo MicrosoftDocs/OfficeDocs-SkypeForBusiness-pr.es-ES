@@ -17,16 +17,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar las directivas de comentarios para controlar si los usuarios de Teams de su organización pueden enviar comentarios sobre Teams a Microsoft.
-ms.openlocfilehash: 206533faba3ae7c79c5e6bed54eb738061ed37bb
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 7fcfa1738f7dbbc0f7c70afec86e9e2f181d6d21
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562449"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713348"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Administrar directivas de comentarios en Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Los usuarios de su organización pueden enviar comentarios sobre Microsoft Teams para hacernos saber cómo lo estamos haciendo directamente desde el escritorio, los clientes web y los dispositivos móviles de Teams. Mejoramos continuamente la experiencia de Teams y usamos estos comentarios para mejorar Teams.
 
