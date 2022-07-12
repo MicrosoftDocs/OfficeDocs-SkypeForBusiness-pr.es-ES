@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar operadores automáticos mediante cmdlets
-ms.openlocfilehash: a3f669a6540e42cd0ff4a016da0215ca79f3bd22
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 4dccd4e5026d78dada222cedf98659cdcd5ce6e5
+ms.sourcegitcommit: 6fb15729b2ff5ca142cb90605f3c98112cb36804
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676622"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "66744326"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>Crear un operador automático mediante cmdlets
 
@@ -52,7 +52,7 @@ ms.locfileid: "65676622"
 3. Has comprado Teléfono Microsoft Teams
 4. Las colas de llamadas a las que se hace referencia a continuación ya se han configurado siguiendo la guía [Creación de colas de llamadas con cmdlets de PowerShell](create-a-phone-system-call-queue-via-cmdlets.md) .
 
-**Nota**: Algunos de los cmdlets a los que se hace referencia a continuación pueden formar parte de la versión preliminar pública de Teams módulo de PowerShell. Para obtener más información, vea [Instalar Teams versión preliminar pública de PowerShell](teams-powershell-install.md) y vea [también Microsoft Teams notas de la versión de PowerShell](teams-powershell-release-notes.md).
+**Nota**: Algunos de los cmdlets a los que se hace referencia a continuación pueden formar parte de la versión preliminar pública del módulo PowerShell de Teams. Para obtener más información, consulte [Instalar la versión preliminar pública de PowerShell de Teams](teams-powershell-install.md) y vea también Notas de la [versión de Microsoft Teams PowerShell](teams-powershell-release-notes.md).
 
 Los usuarios que ya tienen instalado el módulo MicrosoftTeams deben `Update-Module MicrosoftTeams` asegurarse de que está instalada la versión más actualizada.
 
@@ -113,7 +113,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Crear y asignar cuenta de recursos
 
-**Nota**: Teléfono número no necesario aquí, ya que la cola de llamadas es front-ended por un operador automático
+**Nota**: El número de teléfono no se requiere aquí, ya que la cola de llamadas es front-ended por un operador automático
 
 - Id. de aplicación
   - Operador automático: ce933385-9390-45d1-9512-c8d228074e07
@@ -211,7 +211,7 @@ $dialbynameAAMenuOption3 = New-CsAutoAttendantMenuOption -Action TransferCallToT
 $afterHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -DtmfResponse Tone4 -Prompt $addressPrompt
 ```
 
-### <a name="create-after-hours-menu-and-call-flow"></a>Menú Crear fuera del horario laboral y Flow de llamadas
+### <a name="create-after-hours-menu-and-call-flow"></a>Crear el menú Fuera del horario laboral y el flujo de llamadas
 
 ```PowerShell
 $afterHoursMenu = New-CsAutoAttendantMenu -Name "After Hours Menu" -MenuOptions @($afterHoursMenuOption1, $afterHoursMenuOption2, $dialbynameAAMenuOption3, $afterHoursMenuOption4) -Prompt $afterHoursMenuPrompt
@@ -288,7 +288,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 ### <a name="get-list-of-unassigned-service-numbers"></a>Obtener una lista de números de servicio no asignados
 
 ```PowerShell
-Get-CsOnlineTelephoneNumber -IsNotAssigned -InventoryType Service
+Get-CsPhoneNumberAssignment -PstnAssignmentStatus Unassigned -CapabilitiesContain VoiceApplicationAssignment
 ```
 
 #### <a name="assign-available-phone-number"></a>Asignar número de teléfono disponible
