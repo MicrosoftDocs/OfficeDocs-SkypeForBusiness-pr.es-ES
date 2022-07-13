@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: ad6db1f1766173b8d1e167b912555d85115087e3
-ms.sourcegitcommit: f608811288c82a6348a6af1671246a93ed06e578
+ms.openlocfilehash: f0cfd75ed37937abc988f7f865a1357aec352b3c
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66660976"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773699"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados por Microsoft Teams
 
@@ -72,6 +72,7 @@ Los siguientes dispositivos están certificados en el programa de certificación
 
 | Modelo de dispositivo | Versión de firmware | Fecha de finalización de la certificación actual | Tamaño de la habitación                                        |  Versión del sistema operativo Android    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Yealink MeetingBoard 65" | `155.15.0.6 `   | 3 de septiembre de 2024 | Habitación de tamaño mediano (4,5 m x 6 m) | 10|
 | Yealink MeetingBar A20 | `133.15.0.108  `   | 3 de septiembre de 2024 | Sala de reuniones pequeña(4,5 m x 4,5 m)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 3 de septiembre de 2024 | Habitación de tamaño mediano (4,5 m x 6 m) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   3 de septiembre de 2024  | Compatible con Logitech Rally Bar y Rally Bar Mini | 10 |
