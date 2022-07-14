@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Vea qué periféricos y dispositivos USB (como auriculares, manos libres, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: 7df6ca32a359931a62935d68257583c4d499aa93
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: c56b6c50ff9873aa2eace6a790f484065697f855
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647662"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789165"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -84,6 +84,9 @@ Si eres un fabricante y quieres unirte al programa de certificación, consulta [
 |Dell                 |Cámara WB5023                                              |6/29/2022       |Certificado para Microsoft Teams                           |
 |EPOS                 |Casco ADAPT 560 II                                       |6/22/2022       |Certificado para Microsoft Teams                           |
 |EPOS                 |Auriculares de la serie C10/C20/C50                                |5/31/2022       |Certificado para Microsoft Teams                           |
+|Jabra                |Auriculares estéreo/mono Engage55                               |5/25/2022       |Certificado para Microsoft Teams                           |
+|EPOS                 |EXPAND 40T Manos libres                                    |5/24/2022       |Certificado para Microsoft Teams                           | 
+|Dell                 |U3223QZ Monitor                                            |5/24/2022       |Certificado para Microsoft Teams                           |
 |Polivinílico                 |Studio P21 Monitor                                         |5/12/2022       |Certificado para Microsoft Teams                           |
 |Yealink              |Auriculares UH38                                               |5/2/2022        |Certificado para Microsoft Teams                           |   
 |Yealink              |Auriculares BH72                                               |5/2/2022        |Certificado para Microsoft Teams                           |

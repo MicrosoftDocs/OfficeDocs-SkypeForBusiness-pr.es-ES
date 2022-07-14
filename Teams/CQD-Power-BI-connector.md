@@ -1,7 +1,7 @@
 ---
-title: Instalar Power BI Conector para usar las plantillas de consulta del CQD
-ms.author: serdars
-author: SerdarSoysal
+title: Instalar Power BI Connector para usar plantillas de consulta del CQD
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -14,28 +14,28 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-description: Instalar Power BI conector para usar plantillas de consulta del Panel de calidad de llamadas
-ms.openlocfilehash: 3ca8a4c70b23923dcf49906b85529c7b7e369008
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+description: Instalar Power BI Connector para usar las plantillas de consulta del Panel de calidad de llamadas
+ms.openlocfilehash: 80d1b39c6fbe26f04998b06b22fb527b60bbb6a0
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675262"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789875"
 ---
-# <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Instalar el conector de calidad de llamadas de Microsoft para Power BI usar plantillas de consulta del Panel de calidad de llamadas
+# <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Instalar el conector de calidad de llamadas de Microsoft para Power BI para usar plantillas de consulta del panel de calidad de llamadas
 
-Antes de poder usar las plantillas de consulta de Power BI (archivos PBIX) para Microsoft Teams Panel de calidad de llamadas (CQD), deberá instalar el conector de calidad de llamadas de Microsoft para Power BI, con el archivo *MicrosoftCallQuality.pqx* incluido en la [descarga](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).
+Para poder usar las plantillas de consulta de Power BI (archivos PBIX) para el Panel de calidad de llamadas (CQD) de Microsoft Teams, tendrá que instalar el conector de calidad de llamadas de Microsoft para Power BI con el archivo *MicrosoftCallQuality.pqx* incluido en la [descarga](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).
 
-Lea [Usar Power BI para analizar datos del CQD para Teams](CQD-Power-BI-query-templates.md) para obtener información sobre estas plantillas.
+Lea [Usar Power BI para analizar datos del CQD para Teams para](CQD-Power-BI-query-templates.md) obtener información sobre estas plantillas.
 
-Asegúrese de que tiene el [rol de acceso correcto del CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) para acceder a los informes de Power BI.
+Asegúrese de que tiene el [rol de acceso correcto del CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) para obtener acceso a los informes de Power BI.
 
 > [!NOTE]
-> El conector de Calidad de llamada de Microsoft solo admite DirectQuery en Power BI; El modo de importación no es compatible. 
+> El conector De calidad de llamada de Microsoft solo admite DirectQuery en Power BI; El modo de importación no es compatible. 
 
 ## <a name="installation"></a>Instalación
 
-El proceso para instalar un conector personalizado y ajustar la seguridad para habilitar el uso del conector se describe detalladamente en la [documentación Power BI](/power-bi/desktop-connector-extensibility). Por motivos de simplicidad, esta es una breve explicación:
+El proceso para instalar un conector personalizado y ajustar la seguridad para habilitar el uso del conector se describe detalladamente en la [documentación de Power BI](/power-bi/desktop-connector-extensibility). Por motivos de simplicidad, esta es una breve explicación:
 
 1. Compruebe si su equipo ya tiene una *\[carpeta Documents\]\\ Power BI Desktop\\ Custom Connectors*. Si no es así, cree esta carpeta. <sup>1</sup>
 
@@ -51,11 +51,11 @@ Para crear un informe y ejecutar las consultas, primero necesitará conectarse a
 
 1. En la pestaña Inicio de Power BI Desktop, haga clic en *Obtener datos*.
 
-    ![Obtenga datos en el conector de Power BI.](media/CQD-power-bi-connector1-resize.png)
+    ![Obtenga datos en Power BI Connector.](media/CQD-power-bi-connector1-resize.png)
 
-2. La ventana *Obtener datos* debería aparecer en este momento. Ve a *Servicios en línea*, selecciona *Calidad de llamadas de Microsoft (Beta)* y pulsa *Conectar*.
+2. La ventana *Obtener datos* debería aparecer en este momento. Vaya a *Servicios en línea*, seleccione *Calidad de llamada de Microsoft (Beta)* y pulse *Conectar*.
 
-    ![Calidad de llamadas de Microsoft en el conector de Power BI.](media/CQD-power-bi-connector2-resize.png)
+    ![Calidad de llamadas de Microsoft en Power BI Connector.](media/CQD-power-bi-connector2-resize.png)
 
 3. Se le pedirá que inicie sesión a continuación. Use las mismas credenciales que usa para el panel de calidad de llamadas. <sup>2</sup>
 
@@ -65,7 +65,7 @@ Para crear un informe y ejecutar las consultas, primero necesitará conectarse a
 
 6. En este punto, Power BI cargará el modelo de datos en el lado derecho de la ventana. De lo contrario, la página permanecerá en blanco y no se cargarán consultas de forma predeterminada. Continúe **con La creación de consultas** a continuación con el fin de crear una consulta y devolver datos.
 
-Si alguno de los pasos durante este proceso de configuración no estaba claro, puede encontrar una explicación más detallada del proceso en [Inicio rápido: Conectar a los datos de Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
+Si alguno de los pasos durante este proceso de configuración no estaba claro, puede encontrar una explicación más detallada del proceso en [Inicio rápido: Conectarse a los datos de Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
 ## <a name="building-queries"></a>Consultas de creación
 
@@ -73,18 +73,18 @@ Una vez completada la configuración, debería ver los nombres de varios cientos
 
 1. Seleccione la visualización que desea usar en el panel *Visualizaciones* . Debería aparecer una versión en blanco de esa visualización en la página. Para los fines de este ejemplo, usaremos la visualización *de tabla* .
 
-    ![Panel Visualizaciones en el conector de Power BI.](media/CQD-power-bi-connector3-resize.png)
+    ![Panel Visualizaciones en Power BI Connector.](media/CQD-power-bi-connector3-resize.png)
 
 2. Determine las dimensiones y medidas (indicadas por un símbolo de agregación por su nombre) que desea usar para la consulta, selecciónelas manualmente y arrástrelas a la visualización negra. Como alternativa, arrástrelos hasta el campo *Valores* debajo de las opciones de visualización.
 
-    ! Consulta visualizaciones en el conector de Power BI.] (medios/CQD-power-bi-connector4-resize2.png)
+    ! Consulta de visualizaciones en Power BI Connector.] (medios/CQD-power-bi-connector4-resize2.png)
 
     > [!IMPORTANT]
     > El panel de calidad de llamadas requiere una medida para que cualquier consulta se ejecute. Si no se agrega una medida a una consulta, se producirá un error en esa consulta.
 
 3. A continuación, seleccione las dimensiones por las que quiera filtrar y arrástrelas hasta el campo *de filtros de este campo visual* en el panel *Filtros* . El conector de Calidad de llamada de Microsoft admite actualmente *el filtrado básico* (seleccionar valores de una lista de posibles valores de dimensión), el *filtrado avanzado* (especificar manualmente valores y operandos para filtrar, de forma similar a panel de calidad de llamadas) y el *filtrado de fecha relativo* (solo disponible para las dimensiones *Hora de finalización* y Hora de *inicio* ). El panel de calidad de llamadas no admite el filtrado según *N superior* .
 
-    ![Filtros de visualización en el conector de Power BI.](media/CQD-power-bi-connector5-resize.png)
+    ![Filtros de visualización en Power BI Connector.](media/CQD-power-bi-connector5-resize.png)
 
     > [!IMPORTANT]
     > Los filtros solo se admiten cuando se aplican a dimensiones. El filtrado de los valores de Medidas no se admite en el panel de calidad de llamadas.
@@ -96,17 +96,17 @@ Una vez completada la configuración, debería ver los nombres de varios cientos
 
 ## <a name="creating-a-drillthrough-report"></a>Crear un informe de obtención de detalles
 
-[La obtención de detalles en Power BI](/power-bi/desktop-drillthrough) le permite crear informes enfocados que puede filtrar rápidamente con los valores de otros informes como contexto. Una vez que sepa cómo crear su primera consulta con el conector Calidad de llamada de Microsoft, crear un obtención de detalles es aún más sencillo.
+[La obtención de detalles en Power BI](/power-bi/desktop-drillthrough) le permite crear informes enfocados que puede filtrar rápidamente usando los valores de otros informes como contexto. Una vez que sepa cómo crear su primera consulta con el conector Calidad de llamada de Microsoft, crear un obtención de detalles es aún más sencillo.
 
 1. Cree otra página para el informe prioritario y, después, agregue las consultas a esa página.
 
 2. Seleccione la dimensión que desea usar como filtro de obtención de detalles y arrástrelas hasta el campo *Obtención de detalles* en el panel *Visualizaciones* .
 
-    ![Obtención de detalles en el conector de Power BI.](media/CQD-power-bi-connector6-resize.png)
+    ![Obtención de detalles en Power BI Connector.](media/CQD-power-bi-connector6-resize.png)
 
 3. **Eso es todo\!** Cualquier otra consulta de otra página que use esa dimensión ahora puede explorar en profundidad esa página, aplicando automáticamente el valor de la dimensión de obtención de detalles como filtro.
 
-    ![Filtro de obtención de detalles en el conector de Power BI.](media/CQD-power-bi-connector7-resize.png)
+    ![Filtro de obtención de detalles en Power BI Connector.](media/CQD-power-bi-connector7-resize.png)
 
 A diferencia del panel de calidad de llamadas, Power BI admite la obtención de detalles no secuencial. Si una consulta incluye la dimensión necesaria, puede explorar en profundidad cualquier otra página.
 
@@ -116,21 +116,21 @@ Las consultas del conector de calidad de llamadas de Microsoft deben diseñarse 
 
 ## <a name="limitations"></a>Limitaciones
 
-A pesar de usar Power BI, no todas las funciones Power BI son compatibles con el conector de calidad de llamadas de Microsoft, ya sea como resultado de las limitaciones en el modelo de datos del panel de calidad de llamadas o en los conectores DirectQuery en general. La siguiente lista toma nota de algunas de las limitaciones más importantes de Connector, pero esta lista no debe considerarse exhaustiva:
+A pesar de hacer uso de Power BI, no todas las funciones de Power BI son compatibles con el conector de calidad de llamadas de Microsoft, ya sea como resultado de las limitaciones en el modelo de datos del panel de calidad de llamadas o en los conectores DirectQuery en general. La siguiente lista toma nota de algunas de las limitaciones más importantes de Connector, pero esta lista no debe considerarse exhaustiva:
 
-1. **Columnas calculadas:** Los conectores DirectQuery en general tienen compatibilidad limitada con las columnas calculadas de Power BI. Algunas columnas calculadas pueden funcionar con el conector, ya que esas columnas son excepciones. Como regla general, las columnas calculadas no funcionan.
+1. **Columnas calculadas:** Los conectores DirectQuery en general tienen compatibilidad limitada con las columnas calculadas en Power BI. Algunas columnas calculadas pueden funcionar con el conector, ya que esas columnas son excepciones. Como regla general, las columnas calculadas no funcionan.
 
 2. **Agregaciones:** El modelo de datos del panel de calidad de llamadas se basa en un modelo de cubo, lo que significa que las agregaciones ya se admiten en forma de medidas. Intentar agregar agregaciones manualmente a distintas dimensiones o cambiar el tipo de agregación de una medida no funcionará con el conector y, por lo general, producirá un error.
 
 3. **Objetos visuales personalizados:** Aunque el conector calidad de llamada de Microsoft funciona con una amplia gama de objetos visuales personalizados, no podemos garantizar la compatibilidad con todos los objetos visuales personalizados. Muchos objetos visuales personalizados se basan en el uso de columnas calculadas o datos importados, ninguno de los cuales es compatible con conectores DirectQuery.
 
-4. **Hacer referencia a datos en caché:** Power BI actualmente no admite hacer referencia a datos almacenados en caché de un conector DirectQuery de ninguna manera. Cualquier intento de hacer referencia a los resultados de una consulta dará como resultado una nueva consulta.
+4. **Referencia a datos en caché:** Actualmente, Power BI no admite hacer referencia a los datos almacenados en caché de un conector DirectQuery de ninguna manera. Cualquier intento de hacer referencia a los resultados de una consulta dará como resultado una nueva consulta.
 
-5. **Filtrado de datos relativos:** Es compatible con el conector Calidad de llamada de Microsoft, pero solo con las dimensiones *Hora de inicio* y *Hora de finalización* . Aunque la dimensión *Fecha* puede ser la opción más obvia para el filtrado de fecha relativa, *Date* no se almacena como un objeto de fecha y hora y, por tanto, no admite el filtrado de fecha relativo en Power BI.
+5. **Filtrado de datos relativos:** Es compatible con el conector Calidad de llamada de Microsoft, pero solo con las dimensiones *Hora de inicio* y *Hora de finalización* . Aunque la dimensión *Fecha* puede ser la opción más obvia para el filtrado de fecha relativa, *Date* no se almacena como un objeto de fecha y hora y, por lo tanto, no admite el filtrado de fecha relativo en Power BI.
 
 6. **Consultas solo de medida:** No se admiten en este momento en el conector De calidad de llamada de Microsoft. Al crear una visualización con tres o más medidas y sin dimensiones, los datos de columna se transponen. Para evitar esto, incluya siempre al menos una dimensión (por ejemplo, Month Year) en las visualizaciones. Esto está programado para resolverse en una próxima versión del conector de calidad de llamadas de Microsoft para Power BI.
 
-7. **Soporte técnico de Government Community Cloud (GCC):** para los clientes del entorno GCC, el conector de calidad de llamadas de Microsoft solo funcionará al usar Power BI Desktop. El conector de calidad de llamada de Microsoft no es compatible actualmente con la servicio Power BI para GCC clientes.
+7. **Soporte técnico de Government Community Cloud (GCC):** Para los clientes en el entorno GCC, el conector de calidad de llamada de Microsoft funcionará solo al usar Power BI Desktop. El conector de calidad de llamada de Microsoft no es compatible actualmente con la servicio Power BI para los clientes de GCC.
 
 La mayoría de estos problemas son restricciones al diseño del conector DirectQuery en Power BI o fundamentales para el diseño del modelo de datos del CQD.
 
@@ -154,7 +154,7 @@ Para solucionar este problema, empiece quitando la dimensión del objeto visual.
 
 ## <a name="error-codes"></a>Códigos de error
 
-Dado que el conector de Calidad de llamada de Microsoft para Power BI está menos restringido que la aplicación del explorador en términos de tipos de consultas que puede construir, en ocasiones puede encontrar varios errores al crear las consultas. En el caso de que reciba un mensaje de error del tipo "CQDError. RunQuery – Query Execution Error", haga referencia a la siguiente lista con el número ErrorType proporcionado para solucionar el posible problema con la consulta. Los siguientes son los códigos de tipo de error más comunes que puede encontrar con el conector de Power BI CQD:
+Dado que el conector de calidad de llamadas de Microsoft para Power BI está menos restringido que la aplicación del explorador en términos de tipos de consultas que puede construir, en ocasiones puede encontrar varios errores al crear las consultas. En el caso de que reciba un mensaje de error del tipo "CQDError. RunQuery – Query Execution Error", haga referencia a la siguiente lista con el número ErrorType proporcionado para solucionar el posible problema con la consulta. A continuación se muestran los códigos de tipo de error más comunes que puede encontrar con el conector CQD Power BI:
 
 - **Tipo de error 1 - Error de estructura de consulta:** Un error de estructura de consulta suele deberse a que el conector no puede crear una consulta con el formato correcto. Esto sucede con mayor frecuencia cuando se usa la funcionalidad no compatible, como se especifica en las Limitaciones anteriores. Compruebe que no está usando ninguna columna calculada ni objetos visuales personalizados para esa consulta.
 
@@ -168,19 +168,19 @@ Si encuentra algún error adicional fuera de este ámbito, notifique al equipo d
 
 ## <a name="footnotes"></a>Notas
 
-**<sup>1</sup>** Determinados procesos y aplicaciones (por ejemplo, OneDrive) pueden provocar cambios en la carpeta raíz Documentos; asegúrate de que el directorio *Power BI Desktop\\ Custom Connectors* se coloca dentro de la carpeta raíz actual Documentos.
+**<sup>1</sup>** Determinados procesos y aplicaciones (por ejemplo, OneDrive) pueden hacer que su carpeta raíz Documentos cambie; asegúrese de que el directorio *Power BI Desktop\\ Custom Connectors* se coloca dentro de la carpeta raíz actual Documentos.
 
 **<sup>2</sup>** *No es necesario* que las credenciales de inicio de sesión que use para el panel de calidad de llamadas sean las mismas que usa para iniciar sesión en la propia aplicación Power BI Desktop.
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
-### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>¿Cuándo se actualizará el conector de Power BI desde el estado "Beta"?
+### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>¿Cuándo se actualizará Power BI Connector desde el estado "Beta"?
 
-A pesar de la etiqueta Beta, el conector de Calidad de llamadas (Beta) de Microsoft para Power BI es la primera versión de "lanzamiento" del conector y ha sido firmado oficialmente por el equipo de Power BI para reflejarlo. En el momento de la versión inicial del conector, el equipo de Power BI no podía proporcionar soporte técnico y una certificación más amplia, pero aún estaba preparado para atestiguar la seguridad, la autenticidad y la funcionalidad general del conector de calidad de llamada de Microsoft. De cara al futuro, tenemos previsto invertir en el conector De calidad de llamadas de Microsoft para Power BI en un futuro próximo.
+A pesar de la etiqueta Beta, el conector de Calidad de llamadas (Beta) de Microsoft para Power BI es la primera versión de "lanzamiento" del conector y ha sido firmado oficialmente por el equipo de Power BI para reflejarlo. En el momento de la versión inicial del conector, el equipo de Power BI no pudo proporcionar soporte técnico y una certificación más amplia, pero aún estaba preparado para atestiguar la seguridad, la autenticidad y la funcionalidad general del conector De calidad de llamada de Microsoft. De cara al futuro, tenemos previsto invertir en el conector de calidad de llamadas de Microsoft para Power BI en un futuro próximo.
 
 ### <a name="why-does-the-connector-seem-slower-compared-to-call-quality-dashboard-in-the-browser-what-can-i-do-to-improve-performance"></a>¿Por qué el conector parece más lento en comparación con el panel de calidad de llamadas en el explorador? ¿Qué puedo hacer para mejorar el rendimiento?
 
-El rendimiento de las consultas para las distintas plantillas es en realidad el mismo tanto en el explorador como en el conector.  Al igual que con cualquier otra aplicación independiente, Power BI agrega su tiempo de autenticación y representación a nuestro rendimiento. Además, la diferencia se produce en el número de consultas simultáneas que se ejecutan. Dado que la versión en el explorador del panel de calidad de llamadas tenía menos opciones de visualización bien desarrolladas y densas de información, la mayoría de nuestros informes se limitaban a cargar de 2 a 3 consultas a la vez. Por otro lado, las plantillas de conector suelen mostrar más de 20 consultas simultáneas. Si desea crear informes que respondan igual que los anteriores, intente crear informes con no más de 2 o 3 consultas por pestaña.
+El rendimiento de las consultas para las distintas plantillas es en realidad el mismo tanto en el explorador como en el conector.  Al igual que cualquier otra aplicación independiente, Power BI agrega su tiempo de autenticación y representación a nuestro rendimiento. Además, la diferencia se produce en el número de consultas simultáneas que se ejecutan. Dado que la versión en el explorador del panel de calidad de llamadas tenía menos opciones de visualización bien desarrolladas y densas de información, la mayoría de nuestros informes se limitaban a cargar de 2 a 3 consultas a la vez. Por otro lado, las plantillas de conector suelen mostrar más de 20 consultas simultáneas. Si desea crear informes que respondan igual que los anteriores, intente crear informes con no más de 2 o 3 consultas por pestaña.
 
 Para obtener más información, vea los artículos siguientes:
 

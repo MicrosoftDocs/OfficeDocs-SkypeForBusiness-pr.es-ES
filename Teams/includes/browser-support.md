@@ -23,4 +23,4 @@ Teams es totalmente compatible con los siguientes exploradores de internet (con 
 > [!NOTE]
 > La ejecución de Teams en un explorador es compatible con equipos PC y Mac que cumplan los [requisitos mínimos de hardware para Microsoft Teams](../hardware-requirements-for-the-teams-app.md). Por ejemplo, ejecutar Firefox en el sistema operativo Linux es una forma de usar Teams.
 >
-> En dispositivos móviles, le recomendamos que use la aplicación Teams. La aplicación Teams está disponible en las tiendas de Android e iOS. Se admite la ejecución de Teams en un explorador en dispositivos móviles, pero muchas características no están disponibles.
+> En dispositivos móviles, le recomendamos que use la aplicación Teams. La aplicación Teams está disponible en las tiendas de Android e iOS.

@@ -1,7 +1,7 @@
 ---
 title: Comité directivo para la implementación de voz en la nube
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0aee75ce49734dad37d4e75b77c224fa82301f0b
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 46fc7550e5ee1e29b603d4124ffc5d6fe9b45951
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674682"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789555"
 ---
 # <a name="steering-committee"></a>Comité directivo
 
@@ -71,11 +71,11 @@ Cada comité directivo necesita un liderazgo sólido y roles y responsabilidades
 | Patrocinador ejecutivo | Abogando por el proyecto, asegúrese de que su dirección se mantenga alineada con la visión de la organización. Servir como autoridad definitiva para tomar decisiones sobre las que el comité no puede ponerse de acuerdo. | | |
 | Creadores de decisiones empresariales | Abogar por el proyecto, garantizar que su dirección se mantenga alineada con la visión de la organización | | |
 | Arquitecto | Asegúrese de que las decisiones tecnológicas sean alcanzables y se alineen con los resultados empresariales acordados. | | |
-| Core Project Team | Proporcionar detalles sobre cualquier componente específico, ya sea técnico o no técnico (como la adopción y la administración de cambios) | | |
+| Equipo principal de Project | Proporcionar detalles sobre cualquier componente específico, ya sea técnico o no técnico (como la adopción y la administración de cambios) | | |
 | Experto en calidad | Sea responsable de elaborar métricas de calidad. | | |
-| Administrador de programas o Project | Tome la responsabilidad de la presentación y la recopilación de comentarios para incorporar en el proyecto. | | |
+| Jefe de proyecto o programa | Tome la responsabilidad de la presentación y la recopilación de comentarios para incorporar en el proyecto. | | |
 | Equipo de cuentas de partner | Envíe comentarios desde el punto de vista del partner desde una perspectiva más amplia y desde otras actividades de partner. | | |
-| Equipo de Project partner | Proporcionar comentarios desde el punto de vista del partner sobre la entrega del proyecto | | |
+| Equipo de proyecto de partner | Proporcionar comentarios desde el punto de vista del partner sobre la entrega del proyecto | | |
 
 ## <a name="schedule-steering-committee-meetings"></a>Programar reuniones del comité de dirección 
 
@@ -88,13 +88,13 @@ Al programar una reunión de comité, tenga en cuenta la cadencia del proyecto y
 
 ### <a name="prepare-for-the-meeting"></a>Prepararse para la reunión
 
-Para aprovechar al máximo el tiempo de todos, debe prepararse para la reunión. El equipo principal puede empezar a preparar el material para la reunión del comité de dirección. Puede crear una presentación de PowerPoint para ayudarle a preparar la reunión.
+Para aprovechar al máximo el tiempo de todos, debe prepararse para la reunión. El equipo principal puede empezar a preparar el material para la reunión del comité de dirección. Puede crear una presentación de PowerPoint para ayudarle a prepararse para la reunión.
 
 Los siguientes activos deben completarse e incluirse en la presentación de la reunión:
 
 -   Seguimiento de elementos de acción del comité directivo anterior
 
--   Comité directivo PowerPoint, informe de estado de alto nivel del proyecto
+-   Comité directivo de PowerPoint, informe de estado de alto nivel del proyecto
 
     -   Mire el proyecto desde una revisión mensual, trimestral o anual.
 
@@ -108,7 +108,7 @@ Los siguientes activos deben completarse e incluirse en la presentación de la r
 
     -   Informe sobre los AOD que fueron identificados como importantes para la comisión; asegúrese de incluir métricas de uso, opinión del usuario, calidad y confiabilidad.
 
--   PowerPoint del Comité directivo, informe de estado semanal del proyecto
+-   Comité de dirección de PowerPoint, informe de estado semanal del proyecto
 
     -   Contiene resaltados y luces bajas, problemas clave, elementos de acción y pasos siguientes.
 
@@ -166,7 +166,7 @@ La reunión en sí debe ser una continuación natural del trabajo de preparació
 
 7.  Envíe un correo electrónico de seguimiento a los asistentes que incluya la presentación que ha creado y anexe las notas que se tomaron. Asegúrese de incluir a cualquier persona que no haya asistido.
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
 Después de revisar la información general del comité directivo, ahora es el momento de actuar. El equipo del proyecto debe comenzar su trabajo para implementar el comité directivo en la escala de tiempo del proyecto y preparar una cadencia regular de reunión del comité de dirección. Lo ideal es que el comité se forme antes de que comience el proyecto y proporcionar orientación durante todas sus fases, pero si no puede ser el caso, forme el comité para guiar al equipo del proyecto a un resultado correcto.
 

@@ -1,7 +1,7 @@
 ---
 title: Bloquear llamadas entrantes en Microsoft Teams
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -15,18 +15,18 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Obtenga información sobre cómo usar PowerShell para administrar el bloqueo de llamadas entrantes.
-ms.openlocfilehash: 25b271cbcf62acd732463e9dd34d4189479d2417
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 217a4fe6770d916e9013acf7f90ebf6a5556b837
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674392"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789605"
 ---
 # <a name="block-inbound-calls"></a>Bloquear llamadas entrantes
 
-Planes de llamadas de Microsoft, enrutamiento directo y Conexión con operador todo el soporte técnico que bloquea las llamadas entrantes desde la red telefónica conmutada (RTC). Esta característica permite a un administrador definir una lista de patrones de número en el nivel global del inquilino para que el identificador de llamada de cada llamada RTC entrante al inquilino se pueda comprobar en la lista para obtener una coincidencia. Si se realiza una coincidencia, se rechazará una llamada entrante.
+Planes de llamadas de Microsoft, enrutamiento directo y operador Conectar todo el soporte técnico que bloquea las llamadas entrantes desde la red telefónica conmutada (RTC). Esta característica permite a un administrador definir una lista de patrones de número en el nivel global del inquilino para que el identificador de llamada de cada llamada RTC entrante al inquilino se pueda comprobar en la lista para obtener una coincidencia. Si se realiza una coincidencia, se rechazará una llamada entrante.
 
-Esta característica de bloqueo de llamadas entrantes solo funciona en las llamadas entrantes que se originan desde rtc y solo funciona en un nivel global de inquilino. Los usuarios Teams individuales no pueden manipular esta lista. El cliente de Teams permite que los usuarios individuales bloqueen las llamadas RTC. Para obtener información sobre cómo los usuarios finales pueden implementar el bloqueo de llamadas, vea [Administrar la configuración de llamadas en Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
+Esta característica de bloqueo de llamadas entrantes solo funciona en las llamadas entrantes que se originan desde rtc y solo funciona en un nivel global de inquilino. Los usuarios individuales de Teams no pueden manipular esta lista. El cliente de Teams permite que los usuarios individuales bloqueen las llamadas RTC. Para obtener información sobre cómo los usuarios finales pueden implementar el bloqueo de llamadas, consulte [Administrar la configuración de llamadas en Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
 > [!NOTE]
 > Los autores de llamadas bloqueados pueden experimentar comportamientos ligeramente diferentes cuando se bloquean. El comportamiento se basa en la forma en que el operador del autor de la llamada bloqueado administra la notificación de que no se permite que la llamada se complete correctamente. Algunos ejemplos pueden ser un mensaje del operador que indica que la llamada no se puede completar como marcada, o simplemente dejar de llamar.
@@ -53,13 +53,13 @@ La visualización y activación de toda la característica de bloqueo de llamada
 
 #### <a name="block-a-number"></a>Bloquear un número
 
-En el ejemplo siguiente, el Administrador de inquilinos quiere bloquear todas las llamadas procedentes del intervalo de números 1 (312) 555-0000 a 1 (312) 555-9999. El patrón de números se crea de modo que coincidan los números del rango con + con prefijo y los números del rango sin + con prefijo. No es necesario incluir los símbolos – y () en los números de teléfono porque el sistema los quita antes de hacer coincidir.  Para activar el patrón de número, el parámetro **Enabled** se establece en True. Para deshabilitar este patrón de número específico, establezca el parámetro en False.
+En el ejemplo siguiente, el administrador de inquilinos quiere bloquear todas las llamadas procedentes del intervalo de números 1 (312) 555-0000 a 1 (312) 555-9999. El patrón de números se crea de modo que coincidan los números del rango con + con prefijo y los números del rango sin + con prefijo. No es necesario incluir los símbolos – y () en los números de teléfono porque el sistema los quita antes de hacer coincidir.  Para activar el patrón de número, el parámetro **Enabled** se establece en True. Para deshabilitar este patrón de número específico, establezca el parámetro en False.
 
 ```PowerShell
 New-CsInboundBlockedNumberPattern -Name "BlockRange1" -Enabled $True -Description "Block Contoso" -Pattern "^\+?1312555\d{4}$"
 ```
 
-En el ejemplo siguiente, el Administrador de inquilinos quiere bloquear todas las llamadas procedentes del número 1 (412) 555-1234. Para activar el patrón de número, el parámetro **Enabled** se establece en True.
+En el siguiente ejemplo, el administrador de inquilinos quiere bloquear todas las llamadas procedentes del número 1 (412) 555-1234. Para activar el patrón de número, el parámetro **Enabled** se establece en True.
 
 ```PowerShell
 New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Description "Block Fabrikam" -Pattern "^\+?14125551234$"
@@ -75,7 +75,7 @@ Deje tiempo para la replicación antes de probar y validar.
 
 #### <a name="allow-a-number"></a>Permitir un número
 
-Puede permitir que un número llame quitando el patrón de número bloqueado. En el ejemplo siguiente, el Administrador de inquilinos quiere permitir que 1 (412) 555-1234 realice llamadas de nuevo.
+Puede permitir que un número llame quitando el patrón de número bloqueado. En el ejemplo siguiente, el administrador de inquilinos quiere permitir que 1 (412) 555-1234 realice llamadas de nuevo.
 
 ```PowerShell
 Remove-CsInboundBlockedNumberPattern -Identity "BlockNumber1"
@@ -108,7 +108,7 @@ Puede agregar excepciones a los patrones de número bloqueado mediante los cmdle
 
 #### <a name="add-a-number-exception"></a>Agregar una excepción de número
 
-En el ejemplo siguiente, la Administrador de inquilinos quiere permitir que los números de teléfono 1 (312) 555-8882 y 1 (312) 555-8883 realicen llamadas al inquilino, incluso si estos dos números de teléfono están en el intervalo que se bloqueó en el ejemplo anterior. Para habilitar esto, se crea un nuevo patrón de excepción de número de la siguiente manera:
+En el ejemplo siguiente, el administrador de inquilinos quiere permitir que los números de teléfono 1 (312) 555-8882 y 1 (312) 555-8883 realicen llamadas al inquilino, incluso si estos dos números de teléfono están en el intervalo que se ha bloqueado en el ejemplo anterior. Para habilitar esto, se crea un nuevo patrón de excepción de número de la siguiente manera:
 
 ```PowerShell
 New-CsInboundExemptNumberPattern  -Identity "AllowContoso1" -Pattern "^\+?1312555888[2|3]$" -Description "Allow Contoso helpdesk" -Enabled $True

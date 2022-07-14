@@ -1,7 +1,7 @@
 ---
-title: Teléfono de números de Rumania
-author: SerdarSoysal
-ms.author: serdars
+title: Administración de números de teléfono para Rumania
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -19,29 +19,29 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Use esta tabla para encontrar información sobre cómo obtener y administrar números de teléfono en Rumania para Microsoft Teams.
-ms.openlocfilehash: 1f1d2fe98cd7dbfb1fd15df20a5e8553efbb5bd8
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Rumania para Microsoft Teams.
+ms.openlocfilehash: 202b194fbadfb35123b3867e3fcc0bbc1820f42d
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62399474"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789205"
 ---
-# <a name="phone-number-management-for-romania"></a>Teléfono de números de Rumania
+# <a name="phone-number-management-for-romania"></a>Administración de números de teléfono para Rumania
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-Use esta tabla para encontrar información sobre cómo obtener y administrar números de teléfono en Rumania para Microsoft Teams.
+Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Rumania para Microsoft Teams.
   
 Para obtener más información, consulte [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization.md).
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams. <br/> |En Rumania, puede obtener números de teléfono para su organización mediante el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y ponerse en contacto con el Servicio de [atención al cliente de TNS para obtener instrucciones](contact-tns-service-desk.md).<br/><br/>[Nueva solicitud de número de teléfono para Rumania (v.1.0) (rm-rm)](https://download.microsoft.com/download/1/4/d/14d27bf9-4326-409e-be0c-30f88d1fae83/new-phone-number-request-for-romania-(v1.0)-(ro-RO).pdf). <br/><br/> Antes de que se le puedan asignar números de teléfono, debe descargar el formulario Conocer al cliente, completarlo en su totalidad y ponerse en contacto con el Servicio de atención al cliente de [TNS](contact-tns-service-desk.md) para obtener instrucciones.<br/><br/>Los nuevos pedidos pueden tardar de dos a tres semanas en completarse en este mercado. |
-|Transferirnos números de teléfono.<br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Rumania (todos los números) (v.1.0) (rm-rm)](https://download.microsoft.com/download/9/c/1/9c1dcdc3-2161-4e2e-bdce-34397d20782e/letter-of-authorization-(loa)-for-romania-(all-numbers)-(v.1.0)-(rm-rm).pdf) <br/> <br/>Rellene el formulario y [póngase en contacto con el Servicio de atención al cliente de TNS para obtener instrucciones](contact-tns-service-desk.md).<br/><br/>Transferir números puede tardar entre cuatro y cinco semanas en completarse en este mercado. <br/><br/>Estos números no se pueden usar para conferencias en este momento.  <br/> |
-|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de](contact-tns-service-desk.md) atención al cliente de TNS para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
-|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con el Servicio de](contact-tns-service-desk.md) atención al cliente de TNS para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto [con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md). |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams. <br/> |En Rumania, puede obtener números de teléfono para su organización mediante el Centro de administración de Microsoft Teams. También puedes enviar una nueva solicitud de número de teléfono descargando el formulario y [ponte en contacto con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md).<br/><br/>[Nueva solicitud de número de teléfono para Rumania (v.1.0) (rm-rm)](https://download.microsoft.com/download/1/4/d/14d27bf9-4326-409e-be0c-30f88d1fae83/new-phone-number-request-for-romania-(v1.0)-(ro-RO).pdf). <br/><br/> Antes de poder asignarle números de teléfono, debe descargar el formulario Conocer el formulario de cliente, completarlo por completo y [ponerse en contacto con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md).<br/><br/>Los pedidos nuevos pueden tardar de dos a tres semanas en llenarse en este mercado. |
+|Transferirnos números de teléfono.<br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Rumania (todos los números) (v.1.0) (rm-rm)](https://download.microsoft.com/download/9/c/1/9c1dcdc3-2161-4e2e-bdce-34397d20782e/letter-of-authorization-(loa)-for-romania-(all-numbers)-(v.1.0)-(rm-rm).pdf) <br/> <br/>Rellénalo y [ponte en contacto con el servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md).<br/><br/>La transferencia de números puede tardar de cuatro a cinco semanas en completarse en este mercado. <br/><br/>Estos números no se pueden usar para conferencias en este momento.  <br/> |
+|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md) sobre la lista de números de teléfono que desea publicar o cancelar la publicación. <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md) sobre la lista de números de usuario que desea convertir a números de servicio. <br/> |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar los números de la cola de llamadas o del operador automático, póngase en contacto con [el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md). |
    
 ## <a name="related-topics"></a>Temas relacionados
 

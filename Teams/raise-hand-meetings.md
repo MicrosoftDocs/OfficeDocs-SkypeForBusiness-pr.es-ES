@@ -1,7 +1,7 @@
 ---
 title: Levantar la mano en reuniones de Teams
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: raramaia
 ms.topic: article
@@ -9,17 +9,22 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_Help
+- M365-collaboration
+- Teams_ITAdmin_Help
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre la característica para levantar la mano en reuniones de Microsoft Teams.
+ms.openlocfilehash: 35a6133c66b1f4a8d6b7a2315b76e2bc7e0f84c7
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789135"
 ---
-
 # <a name="raise-your-hand-option-in-teams-meetings"></a>Opción Levantar la mano en reuniones de Teams
 
 Durante una reunión de Microsoft Teams, un participante puede usar la opción **Levantar la mano** para obtener la atención del orador y el moderador.

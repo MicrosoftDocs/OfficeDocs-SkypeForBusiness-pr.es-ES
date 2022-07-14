@@ -1,7 +1,7 @@
 ---
 title: Más información sobre la portabilidad
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: tonysmit,jastark
 ms.topic: article
@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Obtenga la guía que necesita para portar sus números de teléfono a Microsoft Teams.
-ms.openlocfilehash: 6c1bca140c5842e36ddd82ae6417228caea75c9e
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
-ms.translationtype: HT
+ms.openlocfilehash: 6edb3f617a890659d6aeedb817b38fba4a2c1da1
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62414243"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790365"
 ---
 # <a name="more-information-about-porting"></a>Más información sobre la portabilidad
 

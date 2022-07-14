@@ -1,61 +1,66 @@
 ---
 title: Configuración de red para características de voz en la nube
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Obtenga información sobre la configuración de red que debe configurar para Location-Based enrutamiento directo y servicios de emergencia mejorados.
+description: Obtenga información sobre la configuración de red que debe configurar para Location-Based Enrutamiento para enrutamiento directo y servicios de emergencia mejorados.
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-voice
-  - m365initiative-voice
+- M365-voice
+- m365initiative-voice
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 49709c2c3cc8816b404c88970c6ec916470f200e
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790155"
 ---
-
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Configuración de red para las características de voz en la nube en Microsoft Teams
 
-Obtenga información sobre regiones de red, sitios de red, subredes de red y direcciones IP de confianza. Estos términos y conceptos se usan en toda la documentación de voz de la nube para enrutamiento basado en ubicación [para enrutamiento directo](location-based-routing-plan.md) y [llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md). Si va a implementar estas características de nube en su organización, debe configurar la configuración de red para su uso con estas características en Microsoft Teams.
+Obtenga información sobre regiones de red, sitios de red, subredes de red y direcciones IP de confianza. Estos términos y conceptos se usan en nuestra documentación de voz en la nube para [enrutamiento basado en ubicación para enrutamiento directo](location-based-routing-plan.md) y [llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md). Si va a implementar estas características en la nube en su organización, debe configurar las opciones de red para usarlas con estas características en Microsoft Teams.
 
-En este artículo se ofrece información general sobre la configuración de red que son comunes a Location-Based enrutamiento y llamadas de emergencia dinámicas. En función de la característica y la capacidad de voz en la nube que implemente, puede configurar algunas o todas estas opciones de configuración. Para obtener pasos sobre cómo configurar estas opciones de configuración, vea Administrar la topología de red para las [características de la nube en Teams](manage-your-network-topology.md).
+En este artículo se ofrece información general sobre la configuración de red que son comunes a Location-Based enrutamiento y llamadas de emergencia dinámicas. Según la característica de voz en la nube y la funcionalidad que implemente, deberá configurar algunas o todas estas opciones. Para conocer los pasos para configurar estas opciones, consulte [Administrar la topología de red para las características de nube en Teams](manage-your-network-topology.md).
 
 > [!NOTE]
-> Los requisitos específicos de características para la configuración de red se documentan en los temas de configuración de esa característica.
+> Los requisitos específicos de las características para la configuración de red se documentan en los temas de configuración de esa característica.
 
 ## <a name="network-region"></a>Región de red
 
-Una región de red incluye una colección de sitios de red. Interconecta varias partes de una red en varias áreas geográficas. Por ejemplo, si su organización tiene muchos sitios ubicados en india, puede elegir designar "India" como una región de red. Cada sitio de red debe estar asociado a una región de red.
+Una región de red incluye una colección de sitios de red. Interconecta varias partes de una red a través de varias áreas geográficas. Por ejemplo, si su organización tiene muchos sitios ubicados en India, puede elegir designar "India" como región de red. Cada sitio de red debe estar asociado a una región de red.
 
-Las mismas regiones de red se comparten Location-Based enrutamiento directo y servicios de emergencia mejorados. Si ya ha creado regiones de red para una característica, no tiene que crear nuevas regiones de red para la otra característica.
+Las mismas regiones de red las comparte Location-Based Enrutamiento para enrutamiento directo y servicios de emergencia mejorados. Si ya ha creado regiones de red para una característica, no es necesario crear nuevas regiones de red para la otra característica.
 
 ## <a name="network-site"></a>Sitio de red
 
-Un sitio de red representa una ubicación donde su organización tiene un lugar físico, como una oficina, un conjunto de edificios o un campus. Los sitios de red se definen como una colección de subredes IP. Cada sitio de red debe estar asociado a una región de red.
+Un sitio de red representa una ubicación en la que su organización tiene un lugar físico, como una oficina, un conjunto de edificios o un campus. Los sitios de red se definen como una colección de subredes IP. Cada sitio de red debe estar asociado a una región de red.
 
 También puede usar sitios de red para habilitar y configurar las llamadas de emergencia.
 
 ## <a name="network-subnet"></a>Subred de red
 
-Cada subred debe estar asociada a un sitio de red específico. La ubicación de un cliente se determina en función de la subred de red y el sitio de red asociado. Puede asociar varias subredes con el mismo sitio de red, pero no puede asociar varios sitios con la misma subred.
+Cada subred debe estar asociada a un sitio de red específico. La ubicación de un cliente se determina en función de la subred de red y el sitio de red asociado. Puede asociar varias subredes con el mismo sitio de red, pero no puede asociar varios sitios a la misma subred.
 
-La información de subred se usa para determinar el sitio de red en el que se encuentra un punto de conexión cuando se inicia una nueva sesión. Cuando se conoce la ubicación de cada parte de una sesión, la característica de voz en la nube puede aplicar esa información para determinar cómo controlar la configuración de llamadas o el enrutamiento.
+La información de subred se usa para determinar el sitio de red en el que se encuentra un punto de conexión al iniciar una sesión nueva. Cuando se conoce la ubicación de cada participante en una sesión, la característica de voz en la nube puede aplicar esa información para determinar cómo administrar la configuración o el enrutamiento de llamadas.
 
-Para cada sitio de red, trabaje con el administrador de red para determinar qué subredes IP se asignan a cada sitio de red. Por ejemplo, el sitio Nueva York de la región Norteamérica puede tener asignadas las siguientes subredes IP: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Si Bob, que suele trabajar en Detroit, viaja a la oficina de Nueva York para recibir aprendizaje, activa su equipo y se conecta a la red, su equipo recibirá una dirección IP en uno de los cuatro rangos asignados para Nueva York, por ejemplo, 172.29.80.103.
+Para cada sitio de red, trabaje con su administrador de red para determinar qué subredes IP están asignadas a cada sitio de red. Por ejemplo, el sitio Nueva York de la región Norteamérica puede tener asignadas las siguientes subredes IP: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Si Bob, que normalmente trabaja en Detroit, viaja a la oficina de Nueva York para entrenar, enciende su equipo y se conecta a la red, su equipo obtendrá una dirección IP en uno de los cuatro rangos que están asignados para Nueva York, por ejemplo, 172.29.80.103.
 
 ## <a name="trusted-ip-address"></a>Dirección IP de confianza
 
-Las direcciones IP de confianza son las direcciones IP externas de Internet de la red empresarial. Determinan si el punto de conexión del usuario está dentro de la red corporativa antes de comprobar si hay una coincidencia de sitio específica.
+Las direcciones IP de confianza son las direcciones IP externas de Internet de la red empresarial. Determinan si el punto de conexión del usuario se encuentra dentro de la red corporativa antes de comprobar si hay una coincidencia de sitio específica.
 
-Si la dirección IP externa del usuario coincide con una dirección IP que está en la lista de direcciones IP de confianza, la característica de voz de la nube comprueba la subred interna donde se encuentra el punto de conexión del usuario. Se puede hacer una coincidencia con direcciones IP IPv4 o IPv6 y depende del formato del paquete IP enviado a la configuración de red. (Si una dirección IP pública tiene IPv4 e IPv6, debe agregar ambas como direcciones IP de confianza).
+Si la dirección IP externa del usuario coincide con una dirección IP que está en la lista de direcciones IP de confianza, la característica de voz en la nube comprueba para determinar la subred interna donde se encuentra el punto de conexión del usuario. Se puede hacer una coincidencia con las direcciones IP IPv4 o IPv6 y depende del formato del paquete IP enviado a la configuración de red. (Si una dirección IP pública tiene IPv4 e IPv6, debe agregar ambas como direcciones IP de confianza).
 
 Si la dirección IP externa del usuario no coincide con una dirección IP que está en la lista de direcciones IP de confianza, el punto de conexión se clasifica como en una ubicación desconocida.
 
 > [!Important]
-> Las búsquedas de configuración de red no son compatibles con implementaciones de servicio de proxy en la nube que modifican las direcciones IP de origen Teams clientes.
+> Las búsquedas de configuración de configuración de red no son compatibles con las implementaciones de servicios de proxy en la nube que modifican las direcciones IP de origen de los clientes de Teams.

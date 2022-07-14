@@ -1,7 +1,7 @@
 ---
 title: Transferir números de teléfono a Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: article
@@ -19,16 +19,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el asistente para portabilidad para transferir su número de teléfono de su proveedor de servicios actual a Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5b139d332026ffe0ec8338cbe54f6a5309e6e2df
-ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
+ms.openlocfilehash: 98580a16f7d5165bef6bdd177de37a1e80bfb32f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66103257"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790105"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de teléfono a Microsoft Teams
 
-Use el asistente para portabilidad en el centro de administración de Microsoft Teams para transferir los números de teléfono de su proveedor de servicios actual a Teams. Después de transferir sus números de teléfono a Teams, Microsoft se convertirá en su proveedor de servicios y le facturará por esos números de teléfono.
+Use el asistente para portabilidad en el Centro de administración de Microsoft Teams para transferir los números de teléfono de su proveedor de servicios actual a Teams. Después de transferir sus números de teléfono a Teams, Microsoft se convertirá en su proveedor de servicios y le facturará por esos números de teléfono.
 
 Antes de empezar, le recomendamos que revise la información de [¿Qué es una solicitud de portabilidad?](port-order-overview.md) Si tiene números de servicio para puentes de conferencias de acceso telefónico local, operadores automáticos u otros números de servicio, números de teléfono gratuitos o más de 999 números de teléfono de usuarios (suscriptores) que debe transferir a Teams, consulte [Administrar los números de teléfono de su organización para](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) descargar los formularios correctos y enviárnoslos.
 
@@ -41,8 +41,8 @@ Antes de empezar, le recomendamos que revise la información de [¿Qué es una s
 > [!NOTE]
 > **Actualmente, puede usar este asistente para obtener números de teléfono para el Reino Unido, Estados Unidos y Canadá**. Para obtener números de teléfono de otros países y regiones, puede [enviar manualmente una solicitud de portabilidad](manually-submit-port-order.md). Para obtener el formulario que necesita para enviar manualmente una solicitud de portabilidad, seleccione su país o región en la lista desplegable en [Administrar números de teléfono para su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Números de teléfono** **de voz** > . Haga clic en **Números** y, a continuación, haga clic en **Puerto** para iniciar el asistente de portabilidad.
-2. Revise la información de la página **Comenzar** y, cuando esté listo, haga clic en **Siguiente**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Números de teléfono** **de voz** > . Haga clic en **Números** y, a continuación, haga clic en **Puerto** para iniciar el asistente de portabilidad.
+2. Revise la información de la página **Introducción** y, cuando esté listo, haga clic en **Siguiente**.
 3. En la página **Seleccionar ubicación y tipo de número** , especifique lo siguiente y, a continuación, haga clic en **Siguiente**:
 
     - **País o región**: país o región donde se obtienen los números.
@@ -56,7 +56,7 @@ Antes de empezar, le recomendamos que revise la información de [¿Qué es una s
 
     - **Detalles del pedido**: 
         - **Nombre del pedido**: nombre del pedido
-        - **Correos electrónicos de notificación**: direcciones de correo electrónico para recibir notificaciones de pedidos. Si escribe varias direcciones de correo electrónico, sepárelas entre sí con un punto y coma.
+        - **Mensajes de notificación**: Email direcciones para recibir notificaciones de pedidos. Si escribe varias direcciones de correo electrónico, sepárelas entre sí con un punto y coma.
         - **Fecha de transferencia**: fecha de transferencia emitida por su proveedor de servicios actual.
     - **Detalles del número de teléfono**
         - **Tipo de puerto**: si está realizando una portabilidad completa para transferir todos los números o una portabilidad parcial para transferir algunos de los números.
@@ -90,7 +90,7 @@ Antes de empezar, le recomendamos que revise la información de [¿Qué es una s
 
 Cuando recibamos su solicitud de portabilidad, recibirá un correo electrónico verificando su solicitud. Su solicitud se comprueba y se actualiza diariamente y se le notificará su progreso y estado por correo electrónico. Si la solicitud de portabilidad es rechazada por el operador que ha perdido, póngase en contacto con el [Servicio de asistencia de TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
-Para ver el estado de la solicitud de portabilidad, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a >**solicitudes de portabilidad** de **voz** >  y, a continuación, haga clic en **Historial de pedidos**. El estado de cada solicitud de portabilidad se muestra en la columna **Estado**. Para obtener más información, consulte [¿Cuál es el estado de las solicitudes de portabilidad?](port-order-status.md)
+Para ver el estado de la solicitud de portabilidad, en el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a >**solicitudes de portabilidad** de **voz** >  y, a continuación, haga clic en **Historial de pedidos**. El estado de cada solicitud de portabilidad se muestra en la columna **Estado**. Para obtener más información, consulte [¿Cuál es el estado de las solicitudes de portabilidad?](port-order-status.md)
 
 
 ## <a name="reporting-telephone-number-issues"></a>¿Está informando de problemas con los números de teléfono?

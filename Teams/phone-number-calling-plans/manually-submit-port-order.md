@@ -1,7 +1,7 @@
 ---
 title: Enviar una solicitud de portabilidad manualmente
-author: serdarsoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo enviar manualmente una solicitud de pedido de portabilidad.
-ms.openlocfilehash: 221f35bf300ed9ab33ab3088f18e154ecbecc5e3
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
-ms.translationtype: HT
+ms.openlocfilehash: f8a1276ce35cea38cbe2fbb080bd6c6c6312f64c
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733501"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789385"
 ---
 # <a name="manually-submit-a-port-order"></a>Enviar una solicitud de portabilidad manualmente
 

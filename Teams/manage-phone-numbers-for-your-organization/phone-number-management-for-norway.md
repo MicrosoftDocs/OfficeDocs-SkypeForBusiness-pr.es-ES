@@ -1,46 +1,51 @@
 ---
-title: Teléfono de números para Noruega
-author: SerdarSoysal
-ms.author: serdars
+title: Administración de números de teléfono para Noruega
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: 'chandra.kilaru, kristen.kutser'
+ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-  - M365-voice
+- M365-voice
 audience: Admin
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Calling Plans
-description: Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Noruega para Microsoft Teams.
+- Calling Plans
+description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Noruega para Microsoft Teams.
+ms.openlocfilehash: 350850ce4b0292aeff2be757e3137c8906a7a644
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789575"
 ---
-
-# <a name="phone-number-management-for-norway"></a>Teléfono de números para Noruega
+# <a name="phone-number-management-for-norway"></a>Administración de números de teléfono para Noruega
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-Use esta tabla para buscar información sobre cómo obtener y administrar números de teléfono en Noruega para Microsoft Teams.
+Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Noruega para Microsoft Teams.
   
 Para obtener más información, consulte [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization.md).
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.<br/> |En Noruega, puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y ponerse en contacto con el Servicio de [atención al cliente de TNS para obtener instrucciones](contact-tns-service-desk.md).<br/><br/><ul><li>[Nueva solicitud de número de teléfono para Noruega (v.1.0) (nb-NO)](https://download.microsoft.com/download/3/9/a/39adb4f0-74b8-424d-8830-2a116b576bee/know-your-customer-for-norway-(v.1.0)-(nb-NO).pdf)</li><li>[Nueva solicitud de número de teléfono para Noruega : Noruego Bokmål (v.1.0) (nb-no)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)</li></ul> Antes de que se le puedan asignar números de teléfono, debe descargar el formulario Conocer al cliente, completarlo en su totalidad y ponerse en contacto con el Servicio de atención al cliente de [TNS](contact-tns-service-desk.md) para obtener instrucciones. <br/><br/>Los nuevos pedidos pueden tardar de dos a tres semanas en completarse en este mercado.  |
-|Transferirnos números de teléfono.<br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Noruega (todos los números) (v.1.0) (en-nw)](https://download.microsoft.com/download/b/6/f/b6f9b87b-6cee-42e0-afa0-e08db206995e/letter-of-authorization-(loa)-for-norway-(all-numbers)-(v.1.0)-(en-nw).pdf) <br/> <br/>Rellene el formulario y [póngase en contacto con el Servicio de atención al cliente de TNS para obtener instrucciones](contact-tns-service-desk.md). <br/><br/>Transferir números puede tardar entre cuatro y cinco semanas en completarse en este mercado.<br/><br/> Estos números no se pueden usar para conferencias en este momento.  |
-|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de](contact-tns-service-desk.md) atención al cliente de TNS para obtener instrucciones sobre la lista de números de teléfono que desea publicar o anular la publicación. <br/> |
-|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con el Servicio de](contact-tns-service-desk.md) atención al cliente de TNS para obtener instrucciones sobre la lista de números de usuario que desea convertir en números de servicio. <br/> |
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.<br/> |En Noruega, puede obtener números de teléfono para su organización con el centro Microsoft Teams administración. También puede enviar una nueva solicitud de número de teléfono descargando el formulario y [enviándonoslo](mailto:ptneu@microsoft.com).<br/><br/><ul><li>[Nueva solicitud de número de teléfono para Noruega (v.1.0) (nb-NO)](https://download.microsoft.com/download/3/9/a/39adb4f0-74b8-424d-8830-2a116b576bee/know-your-customer-for-norway-(v.1.0)-(nb-NO).pdf)</li><li>[Nueva solicitud de número de teléfono para Noruega : Noruego Bokmål (v.1.0) (nb-no)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)</li></ul><br/> Antes de que se le puedan asignar números de teléfono, debe descargar el formulario Conocer al cliente, completarlo en su totalidad y enviarlo a nosotros. <br/><br/>Los nuevos pedidos pueden tardar de dos a tres semanas en completarse en este mercado.  |
-|Transferirnos números de teléfono.<br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Noruega (todos los números) (v.1.0) (en-nw)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com). <br/><br/>Transferir números puede tardar entre cuatro y cinco semanas en completarse en este mercado.<br/><br/> Estos números no se pueden usar para conferencias en este momento.  |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.<br/> |En Noruega, puede obtener números de teléfono para su organización mediante el Centro de administración de Microsoft Teams. También puedes enviar una nueva solicitud de número de teléfono descargando el formulario y [ponte en contacto con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md).<br/><br/><ul><li>[Nueva solicitud de número de teléfono para Noruega (v.1.0) (nb-NO)](https://download.microsoft.com/download/3/9/a/39adb4f0-74b8-424d-8830-2a116b576bee/know-your-customer-for-norway-(v.1.0)-(nb-NO).pdf)</li><li>[Nueva solicitud de número de teléfono para Noruega - Noruego Bokmål (v.1.0) (nb-no)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)</li></ul> Antes de poder asignarle números de teléfono, debe descargar el formulario Conocer el formulario de cliente, completarlo por completo y [ponerse en contacto con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md). <br/><br/>Los pedidos nuevos pueden tardar de dos a tres semanas en llenarse en este mercado.  |
+|Transferirnos números de teléfono.<br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Noruega (todos los números) (v.1.0) (en-nw)](https://download.microsoft.com/download/b/6/f/b6f9b87b-6cee-42e0-afa0-e08db206995e/letter-of-authorization-(loa)-for-norway-(all-numbers)-(v.1.0)-(en-nw).pdf) <br/> <br/>Rellénalo y [ponte en contacto con el servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md). <br/><br/>La transferencia de números puede tardar de cuatro a cinco semanas en completarse en este mercado.<br/><br/> Estos números no se pueden usar para conferencias en este momento.  |
+|Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md) sobre la lista de números de teléfono que desea publicar o cancelar la publicación. <br/> |
+|Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md) sobre la lista de números de usuario que desea convertir a números de servicio. <br/> |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams.<br/> |En Noruega, puede obtener números de teléfono para su organización mediante el Centro de administración de Microsoft Teams. También puedes enviar una nueva solicitud de número de teléfono descargando el formulario y [enviándonoslo](mailto:ptneu@microsoft.com).<br/><br/><ul><li>[Nueva solicitud de número de teléfono para Noruega (v.1.0) (nb-NO)](https://download.microsoft.com/download/3/9/a/39adb4f0-74b8-424d-8830-2a116b576bee/know-your-customer-for-norway-(v.1.0)-(nb-NO).pdf)</li><li>[Nueva solicitud de número de teléfono para Noruega - Noruego Bokmål (v.1.0) (nb-no)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)</li></ul><br/> Antes de poder asignarle números de teléfono, debe descargar el formulario Conocer el formulario de cliente, completarlo por completo y enviárnoslo. <br/><br/>Los pedidos nuevos pueden tardar de dos a tres semanas en llenarse en este mercado.  |
+|Transferirnos números de teléfono.<br/> | Descargue este formulario. <br/>[Carta de autorización (LOA) para Noruega (todos los números) (v.1.0) (en-nw)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com). <br/><br/>La transferencia de números puede tardar de cuatro a cinco semanas en completarse en este mercado.<br/><br/> Estos números no se pueden usar para conferencias en este momento.  |
 |Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía. <br/> |
 |Cambie el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que quiere convertir en números de servicio. <br/> |
-|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar números de cola de llamadas o operadores automáticos, póngase en contacto [con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md). |
+|Realizar actualizaciones del servicio de directorio para números de cola de llamadas o de operador automático|Para agregar o cambiar los números de la cola de llamadas o del operador automático, póngase en contacto con [el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md). |
    
 ## <a name="related-topics"></a>Temas relacionados
 

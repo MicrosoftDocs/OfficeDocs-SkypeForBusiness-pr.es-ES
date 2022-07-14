@@ -1,7 +1,7 @@
 ---
-title: Teléfono administración de números para la República Checa
-author: SerdarSoysal
-ms.author: serdars
+title: Administración de números de teléfono para la República Checa
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,14 +20,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en la República Checa para Microsoft Teams.
-ms.openlocfilehash: c37e38ddf4f85c39255a9f30e25c70a67e311a38
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 94dafbbcc7969bf70c2b335438982795dc7fb09f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823475"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790225"
 ---
-# <a name="phone-number-management-for-the-czech-republic"></a>Teléfono administración de números para la República Checa
+# <a name="phone-number-management-for-the-czech-republic"></a>Administración de números de teléfono para la República Checa
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
@@ -37,7 +37,7 @@ Para obtener más información, consulte [Administrar los números de teléfono 
 
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams. |En la República Checa, puede obtener números de teléfono para su organización mediante el centro de administración de Microsoft Teams. También puedes enviar una nueva solicitud de número de teléfono descargando el formulario y [ponte en contacto con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md).<br/><br/>`[New phone number request for the Czech Republic (v.1.0) cs-CZ](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf )`. <br/><br/> Antes de poder asignarle números de teléfono, debe descargar el formulario Conocer el formulario de cliente, completarlo por completo y enviárnoslo.<br/><br/>Los pedidos nuevos pueden tardar de dos a tres semanas en llenarse en este mercado.  |
+|Obtenga nuevos números de teléfono de usuario o servicio que no aparecen en el Centro de administración de Microsoft Teams. |En la República Checa, puede obtener números de teléfono para su organización mediante el Centro de administración de Microsoft Teams. También puedes enviar una nueva solicitud de número de teléfono descargando el formulario y [ponte en contacto con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md).<br/><br/>`[New phone number request for the Czech Republic (v.1.0) cs-CZ](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf )`. <br/><br/> Antes de poder asignarle números de teléfono, debe descargar el formulario Conocer el formulario de cliente, completarlo por completo y enviárnoslo.<br/><br/>Los pedidos nuevos pueden tardar de dos a tres semanas en llenarse en este mercado.  |
 |Transferirnos números de teléfono. | Descargue este formulario. <br/><br/>[Carta de autorización (LOA) para la República Checa (todos los números) (v.1.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>Rellénalo y [ponte en contacto con el servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md). También debe incluir una factura de servicios de la dirección de la empresa a la que desea transferir números.<br/><br/>La transferencia de números puede tardar de dos a tres semanas en completarse en este mercado. <br/><br/>Estos números no se pueden usar para conferencias en este momento. |
 |Publicar números de teléfono en la guía telefónica nacional o cancelar su publicación.  <br/> |[Póngase en contacto con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md) sobre la lista de números de teléfono que desea publicar o cancelar la publicación. <br/> |
 |Cambie el número de un usuario a un número de servicio.  <br/> |[Póngase en contacto con el Servicio de asistencia de TNS para obtener instrucciones](contact-tns-service-desk.md) sobre la lista de números de usuario que desea convertir a números de servicio. <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Preguntas más frecuentes (P+F) del Panel de calidad de llamadas
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: Lea las preguntas más frecuentes (P+F) y las respuestas sobre Microsoft Teams panel de calidad de llamadas.
-ms.openlocfilehash: f320bab549ee322c1254babd0feb49cc24419215
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+description: Lea las preguntas más frecuentes (P+F) y las respuestas sobre el Panel de calidad de llamadas (CQD) de Microsoft Teams.
+ms.openlocfilehash: 862967138321b1855f2fdc5b0c8b6ce6caca887f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823209"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789401"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Preguntas más frecuentes (P+F) del Panel de calidad de llamadas
 
@@ -90,13 +90,13 @@ Para obtener más información sobre los roles que pueden acceder al CQD, inclui
 
 ### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>Estoy intentando usar el CQD para los informes de tipo de uso y me doy cuenta de que algunos de los datos están incompletos. ¿Por qué es eso?
 
-Las herramientas de administración de calidad de llamadas como CQD, Análisis de llamadas, Graph API CallRecord y Análisis en tiempo real se basan en telemetría de diagnóstico. La información que se muestra en Teams herramientas de administración de calidad de llamadas es tan completa como los datos de telemetría que recibimos de los clientes que participan en una llamada. Hay varios motivos por los que es posible que no recibamos telemetría completa, como interrupciones de red o [errores de configuración del firewall o proxy](/microsoft-365/enterprise/urls-and-ip-address-ranges). Seguimos trabajando para mejorar la confiabilidad y resistencia con la que Teams clientes ofrecen telemetría al servicio.
+Las herramientas de administración de calidad de llamadas como CQD, Análisis de llamadas, Graph API CallRecord y Análisis en tiempo real se basan en telemetría de diagnóstico. La información que se muestra en las herramientas de administración de calidad de llamadas de Teams es tan completa como los datos de telemetría que recibimos de los clientes que participan en una llamada. Hay varios motivos por los que es posible que no recibamos telemetría completa, como interrupciones de red o [errores de configuración del firewall o proxy](/microsoft-365/enterprise/urls-and-ip-address-ranges). Seguimos trabajando para mejorar la confiabilidad y resistencia con la que los clientes de Teams ofrecen telemetría al servicio.
 
-Teniendo esto en cuenta, no se admite el uso de herramientas de administración de calidad de llamadas para la generación de informes de uso. No están diseñadas para dar cabida ni están pensadas para estos tipos de escenarios de informes, y muchas estadísticas de uso no están disponibles y no estarán disponibles en estas herramientas. Teams Administración Centro ofrece una serie de [informes de uso](teams-analytics-and-reports/teams-reporting-reference.md) y un [informe de asistencia a](teams-analytics-and-reports/meeting-attendance-report.md) reuniones directamente desde el cliente de Teams.
+Teniendo esto en cuenta, no se admite el uso de herramientas de administración de calidad de llamadas para la generación de informes de uso. No están diseñadas para dar cabida ni están pensadas para estos tipos de escenarios de informes, y muchas estadísticas de uso no están disponibles y no estarán disponibles en estas herramientas. El Centro de Administración de Teams ofrece una serie de [informes de uso](teams-analytics-and-reports/teams-reporting-reference.md) y un [informe de asistencia](teams-analytics-and-reports/meeting-attendance-report.md) a reuniones directamente desde el cliente de Teams.
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>¿Por qué veo Skype Empresarial información en el CQD cuando solo he filtrado por Teams?
 
-Al filtrar por Teams solo en informes del CQD (isTeams = 1), está filtrando para todas las llamadas en las que el *primer punto de conexión* está Teams. Si el *segundo punto de conexión* está Skype Empresarial, esa información se mostrará en el informe del CQD. Según los escenarios de los clientes, el CQD puede incluir llamadas de Skype Empresarial Server 2019 cuando se configura el [conector de datos de llamadas](/skypeforbusiness/hybrid/plan-call-data-connector). También puede incluir Skype llamadas bot (AA, CVI, VDI), eventos en directo y llamadas RTC.
+Cuando filtra solo para Teams en informes del CQD (isTeams = 1), está filtrando todas las llamadas en las que el *primer punto de conexión* es Teams. Si el *segundo punto de conexión* está Skype Empresarial, esa información se mostrará en el informe del CQD. Según los escenarios de los clientes, el CQD puede incluir llamadas de Skype Empresarial Server 2019 cuando se configura el [conector de datos de llamadas](/skypeforbusiness/hybrid/plan-call-data-connector). También puede incluir llamadas bot de Skype (AA, CVI, VDI), eventos en directo y llamadas RTC.
 
 Es posible quitar Skype Empresarial información de las consultas filtrando dimensiones como *Primera categoría de agente de usuario* y *Segunda categoría de agente de usuario*. También puede usar *el Par de categorías de agente de usuario* , que combina las dimensiones Primera y Segunda en un único filtro.
 
@@ -110,7 +110,7 @@ Este es el comportamiento que se espera. El proveedor de VPN ha creado un adapta
 
 ### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>He activado la grabación basada en directivas en Teams y ahora las llamadas de punto a punto se marcan como conferencias. ¿Qué ha ocurrido?
 
-Este es el comportamiento esperado cuando la grabación basada en directivas está habilitada en Microsoft Teams. Grabación basada en directivas usa un Teams Recorder Bot implementado en Microsoft Azure para capturar el contenido de las reuniones con fines de cumplimiento normativo. En la administración de calidad de llamadas, "punto a punto" es una descripción del flujo de tráfico multimedia, no de la interacción entre los usuarios. Dado que un Recorder Bot es en sí mismo una parte de la llamada, la llamada ya no es de punto a punto, sino de varias entidades. Las llamadas de varios participantes se clasifican como conferencias por Microsoft Teams, por lo que se indicarán como tales cuando vea estas llamadas en el CQD y otras herramientas de calidad de llamadas.
+Este es el comportamiento esperado cuando la grabación basada en directivas está habilitada en Microsoft Teams. La grabación basada en directivas usa un bot grabador de Teams implementado en Microsoft Azure para capturar el contenido de las reuniones con fines de cumplimiento normativo. En la administración de calidad de llamadas, "punto a punto" es una descripción del flujo de tráfico multimedia, no de la interacción entre los usuarios. Dado que un Recorder Bot es en sí mismo una parte de la llamada, la llamada ya no es de punto a punto, sino de varias entidades. Las llamadas de varios participantes se clasifican como conferencias por Parte de Microsoft Teams, por lo que se indicarán como tales cuando vea estas llamadas en el CQD y otras herramientas de calidad de llamadas.
 
 ## <a name="related-articles"></a>Artículos relacionados
 
@@ -120,7 +120,7 @@ Este es el comportamiento esperado cuando la grabación basada en directivas est
 
 [Configurar el panel de calidad de llamadas (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Upload los datos de inquilinos y compilación](CQD-upload-tenant-building-data.md)
+[Cargar datos de inquilinos y compilación](CQD-upload-tenant-building-data.md)
 
 [Datos e informes del CQD](CQD-data-and-reports.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Asistente para directivas de Teams para Educación para aplicar fácilmente directivas de aprendizaje seguro
-author: serdars
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el asistente de directivas de Teams para Educación para aplicar fácilmente directivas para que los alumnos y profesores mantengan seguro su entorno de aprendizaje.
 f1keywords: ''
-ms.openlocfilehash: 245739f06d86459f119d9f5d0a37e67ac4098953
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 833e4b16ca617d06fcc3ace770e2548f6e05a0bb
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675922"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790235"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Usar el Asistente para directivas de Teams para Educación para aplicar fácilmente directivas para un entorno de aprendizaje seguro
 
@@ -56,7 +56,7 @@ El asistente configura directivas según el tipo de institución educativa (**pr
 
 Solo necesita ejecutar el asistente una vez. Los nuevos alumnos obtienen automáticamente las definiciones de directiva global (predeterminada para toda la organización) aplicadas por el asistente y se asignan automáticamente las directivas personalizadas a los nuevos docentes que agregue al grupo seleccionado.
 
-Además, siempre que se agregue una nueva característica a Teams, el valor predeterminado apropiado de edu relevante de la directiva para esa característica se agregará automáticamente al Global (valor predeterminado para toda la organización) sin necesidad de intervención del administrador. Esto ayuda a garantizar que se aplican las directivas adecuadas para mantener a los alumnos seguros y comprometidos.
+Además, siempre que se agregue una nueva característica a Teams, el valor predeterminado apropiado de edu relevante de la directiva para esa característica se agregará automáticamente a global (valor predeterminado para toda la organización) sin necesidad de intervención del administrador. Esto ayuda a garantizar que se aplican las directivas adecuadas para mantener a los alumnos seguros y comprometidos.
 
 > [!NOTE]
 > Vea [Directivas aplicadas por el asistente](#policies-applied-by-the-wizard) para obtener una lista detallada de las definiciones de directivas aplicadas por el asistente.
@@ -69,7 +69,7 @@ Además, siempre que se agregue una nueva característica a Teams, el valor pred
 
 Siga estos pasos para ejecutar el asistente.
 
-1. Si no está familiarizado con Teams, se iniciará automáticamente el asistente. En caso contrario, puede iniciar el asistente en cualquier momento desde el panel. En el panel de navegación izquierdo del Microsoft Teams centro de administración, vaya a **Inicio** y, a continuación, en el mosaico **Configuración de directivas sencilla para un entorno de aprendizaje seguro**, seleccione **Configuración rápida**.
+1. Si no está familiarizado con Teams, se iniciará automáticamente el asistente. En caso contrario, puede iniciar el asistente en cualquier momento desde el panel. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Inicio** y, a continuación, en el mosaico **Configuración de directivas sencilla para un entorno de aprendizaje seguro** , seleccione **Configuración rápida**.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Captura de pantalla del asistente en el panel.":::
 
@@ -97,7 +97,7 @@ Siga estos pasos para ejecutar el asistente.
 ### <a name="step-1-remove-existing-policy-assignments-that-conflict-with-policies-applied-by-the-wizard"></a>Paso 1: Quitar las asignaciones de directiva existentes que entren en conflicto con las directivas aplicadas por el asistente
 
 > [!IMPORTANT]
-> **Complete este paso solo si tiene directivas existentes asignadas a alumnos, profesores y personal *antes* de ejecutar el asistente**. Si no está familiarizado con Teams y no tiene directivas existentes que no sean las directivas creadas por el asistente, omita esto y vaya al paso 2.
+> **Complete este paso solo si tiene directivas existentes asignadas a alumnos, profesores y personal *antes* de ejecutar el asistente**. Si es la primera vez que usa Teams y no tiene otras directivas que las creadas por el asistente, omita esta opción y vaya al paso 2.
 
 En Teams, para un área de directiva determinada, se puede aplicar una directiva a un usuario de las siguientes maneras:
 
@@ -131,15 +131,15 @@ Por ejemplo, asignó una directiva de reunión directamente a los formadores y l
 
 El asistente ajusta y aplica [automáticamente estas directivas](#policies-applied-by-the-wizard). Hay algunas medidas adicionales, que puede que desee tomar en función de las necesidades de su institución para mantenerse seguro.
 
-Vea [Mantener a los alumnos seguros mientras usan Teams para el aprendizaje a distancia](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) para obtener recomendaciones de seguridad adicionales.
+Consulte [Mantener seguros a los alumnos mientras usan Teams para el aprendizaje a distancia](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) para obtener recomendaciones de seguridad adicionales.
 
 <a name="polwiz_mc"> </a>
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>Paso 3: Buscar actualizaciones de directivas en el Centro de mensajes
 
-Actualmente, el asistente aplica nuestras directivas recomendadas al ejecutarlo. Es importante saber que, a medida que haya nuevas directivas disponibles en Teams, el asistente actualizará automáticamente la configuración global (predeterminada para toda la organización) para la seguridad de los alumnos.
+Actualmente, el asistente aplica nuestras directivas recomendadas al ejecutarlo. Es importante saber que, a medida que las nuevas directivas estén disponibles en Teams, el asistente actualizará automáticamente la configuración global (predeterminada para toda la organización) para la seguridad de los alumnos.
 
-Pero compruebe el [Centro](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) de mensajes (en la Centro de administración de Microsoft 365) con frecuencia para mantenerse al día sobre las nuevas características y sus directivas y configuración de directivas en Teams.
+Pero compruebe con frecuencia el [Centro](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) de mensajes (en la Centro de administración de Microsoft 365) para estar al día de las nuevas características y sus directivas y configuración de directivas en Teams.
 
 ## <a name="make-changes-in-the-wizard"></a>Realizar cambios en el asistente
 
@@ -147,7 +147,7 @@ Pero compruebe el [Centro](https://admin.microsoft.com/AdminPortal/Home?#/Messag
 
 Si necesita realizar cambios después de ejecutar el asistente, puede volver a ejecutarlo y cambiar las selecciones.
 
-1. En el panel de navegación izquierdo del Microsoft Teams centro de administración, vaya a **Inicio** y, a continuación, en el icono **Configuración de directivas sencilla para un entorno de aprendizaje seguro**, seleccione **Cambiar**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Inicio** y, a continuación, en el icono **Configuración de directivas sencilla para un entorno de aprendizaje seguro** , seleccione **Cambiar**.
 2. Desde aquí, continúe por cada página del asistente para realizar los cambios. Puede cambiar el tipo de institución, los grupos de educadores y docentes a los que desea asignar directivas, o ambos.
 
 En la tabla siguiente se resume lo que sucede cuando se realiza un cambio en el asistente.
@@ -164,7 +164,7 @@ En la tabla siguiente se resume lo que sucede cuando se realiza un cambio en el 
 
 ### <a name="policy-areas"></a>Áreas directivas
 
-Estas son las áreas de directiva y los nombres de directiva correspondientes que cubre el asistente. Para buscar estas directivas, vaya al Microsoft Teams centro de administración y, a continuación, en el panel de navegación izquierdo, vaya a cada página del área de directiva.
+Estas son las áreas de directiva y los nombres de directiva correspondientes que cubre el asistente. Para encontrar estas directivas, vaya al Centro de administración de Microsoft Teams y, a continuación, en el panel de navegación izquierdo, vaya a cada página del área de directiva.
 
 #### <a name="students"></a>[**Estudiantes**](#tab/students/)
 
@@ -182,7 +182,7 @@ Estas son las áreas de directiva y los nombres de directiva correspondientes qu
 
 |Área Directiva|Nombre de directiva principal o secundario|Nombre de la directiva de educación superior|
 |---|---|---|
-|Directiva de equipo|Profesores y docentes primarios o secundarios: Teams|Profesores y personal de educación superior : Teams|
+|Directiva de equipo|Profesores y docentes principales o secundarios: Teams|Profesores y docentes de educación superior: Teams|
 |Directiva de reuniones|Profesores y docentes primarios o secundarios: reunión|Profesores y personal de educación superior: reunión|
 |Directiva de eventos en directo|Educadores y personal primarios o secundarios: eventos en directo|Educadores y personal de educación superior: eventos en directo|
 |Directiva de mensajería|Profesores y docentes primarios o secundarios: mensajes|Profesores y personal de educación superior: mensajes|
@@ -210,7 +210,7 @@ Esta es una lista de las definiciones de directiva global (predeterminada para t
 |||Permitir la programación de reuniones de canal|Desactivado|Activado|
 |||Permitir la programación de reuniones privadas|Desactivado|Activado|
 |||Permitir el registro de reuniones|Activado|Activado|
-|||Quién pueden registrarse|Todos los miembros de la organización|Todos los miembros de la organización|
+|||Quién puede registrarse|Todos los miembros de la organización|Todos los miembros de la organización|
 ||Audio & vídeo|Transcripción|Activado|Activado|
 |||Grabación en la nube|Desactivado|Activado|
 |||Modo de audio IP|Audio entrante y saliente activado|Audio entrante y saliente activado|
@@ -221,7 +221,7 @@ Esta es una lista de las definiciones de directiva global (predeterminada para t
 ||Uso compartido de contenido|Modo de uso compartido de la pantalla|Toda la pantalla|Toda la pantalla|
 |||Permitir a un participante ceder o solicitar el control|Activado|Activado|
 |||Permitir a un participante externo ceder o solicitar el control|Activado|Activado|
-|||uso compartido de PowerPoint|Activado|Activado|
+|||Uso compartido de PowerPoint|Activado|Activado|
 |||Whiteboard|Activado|Activado|
 |||Notas compartidas|Activado|Activado|
 ||Participantes & invitados|Permitir que los usuarios anónimos inicien una reunión|Desactivado|Activado|
@@ -254,10 +254,10 @@ Esta es una lista de las definiciones de directiva global (predeterminada para t
 |Directiva de permisos de aplicaciones||Aplicaciones de Microsoft|Bloquear aplicaciones específicas y permitir que todos los demás > Walkie Talkie bloqueado|Permitir todas las aplicaciones|
 |||Aplicaciones de terceros|Permitir todas las aplicaciones|Permitir todas las aplicaciones|
 |||Aplicaciones personalizadas|Permitir todas las aplicaciones|Permitir todas las aplicaciones|
-|Directiva de configuración de aplicaciones||Upload aplicaciones personalizadas|Desactivado|Desactivado|
+|Directiva de configuración de aplicaciones||Cargar aplicaciones personalizadas|Desactivado|Desactivado|
 |||Anclaje de usuario|Activado|Activado|
 |||Aplicaciones instaladas|Ninguna|Ninguna|
-|||Aplicaciones ancladas|Actividad, Calendario Teams|Actividad, Chats, Teams, Calendario, Llamadas, Archivo
+|||Aplicaciones ancladas|Actividad, Calendario, Teams|Actividad, Chats, Teams, Calendario, Llamadas, Archivo
 |Directiva de llamadas||Realizar llamadas privadas|Desactivado|Activado|
 |||Desvío de llamadas y llamadas simultáneas a personas de su organización|Desactivado|Activado|
 |||Desvío de llamadas y llamadas simultáneas a números de teléfono externos|Desactivado|Activado|
@@ -283,7 +283,7 @@ Esta es una lista de las definiciones de directivas personalizadas asignadas a l
 |||Permitir la programación de reuniones de canal|Activado|Activado|
 |||Permitir la programación de reuniones privadas|Activado|Activado|
 |||Permitir el registro de reuniones|Activado|Activado|
-|||Quién pueden registrarse|Todos los miembros de la organización|Todos los miembros de la organización|
+|||Quién puede registrarse|Todos los miembros de la organización|Todos los miembros de la organización|
 ||Audio & vídeo|Transcripción|Activado|Activado|
 |||Grabación en la nube|Activado|Activado|
 |||Modo de audio IP|Audio entrante y saliente activado|Audio entrante y saliente activado|
@@ -294,7 +294,7 @@ Esta es una lista de las definiciones de directivas personalizadas asignadas a l
 ||Uso compartido de contenido|Modo de uso compartido de la pantalla|Toda la pantalla|Toda la pantalla|
 |||Permitir a un participante ceder o solicitar el control|Activado|Activado|
 |||Permitir a un participante externo ceder o solicitar el control|Activado|Activado|
-|||uso compartido de PowerPoint|Activado|Activado|
+|||Uso compartido de PowerPoint|Activado|Activado|
 |||Whiteboard|Activado|Activado|
 |||Notas compartidas|Activado|Activado|
 ||Participantes & invitados|Permitir que los usuarios anónimos inicien una reunión|Activado|Activado|

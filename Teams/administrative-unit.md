@@ -1,7 +1,7 @@
 ---
 title: Administrar dispositivos con unidades administrativas
-author: mahoffman
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 ms.reviewer: prasad.ghlove
 manager: serdars
 ms.topic: article
@@ -16,54 +16,54 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63579e7e9b6b2f7a7456349c489d4f544eb67cc1
-ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
+ms.openlocfilehash: 5afbc4acd33acf7e950218e7cf2e30383b3b1d12
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64584315"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790435"
 ---
-# <a name="manage-devices-in-the-teams-admin-center-with-administrative-units"></a>Administrar dispositivos en el centro Teams administración con unidades administrativas
+# <a name="manage-devices-in-the-teams-admin-center-with-administrative-units"></a>Administrar dispositivos en el Centro de administración de Teams con unidades administrativas
 
-Las unidades administrativas del Teams de administración proporcionan acceso detallado basado en roles para administrar Teams dispositivos. Las unidades administrativas Teams acceso de administrador a recursos específicos, pero limitan el acceso de ese administrador a otros recursos. Esto es especialmente útil si tiene administradores Teams locales en diferentes países o regiones.
+Las unidades administrativas del Centro de administración de Teams proporcionan acceso detallado basado en roles para administrar dispositivos de Teams. Las unidades administrativas conceden a los administradores de Teams acceso a recursos específicos, pero limitan el acceso de ese administrador a otros recursos. Esto es especialmente útil si tiene administradores locales de Teams en diferentes países o regiones.
 
-Por ejemplo, Contoso tiene operaciones en todo el mundo. Alice es una administradora global de TI con sede en Londres, mientras que Prashant es un administrador local de TI con sede en Bangalore, India. Hoy, cuando Prashant inicia sesión en el centro de administración Teams como administrador de dispositivos, puede ver Teams dispositivos de todo el mundo. Alicia quiere limitar el acceso de Prashant a Teams dispositivos solo en Bangalore. Las unidades administrativas le permiten hacerlo. Para obtener más información, vea [Unidades administrativas en Azure Active Directory](/azure/active-directory/roles/administrative-units).
+Por ejemplo, Contoso tiene operaciones en todo el mundo. Alice es una administradora global de TI con sede en Londres, mientras que Prashant es una administradora de TI local con sede en Bangalore, India. Hoy, cuando Prashant inicia sesión en el Centro de administración de Teams como administrador de dispositivos, puede ver los dispositivos de Teams en todo el mundo. Alice quiere limitar el acceso de Prashant a los dispositivos de Teams solo en Bangalore. Las unidades administrativas le dejó hacer esto. Para obtener más información, consulte [Unidades administrativas en Azure Active Directory](/azure/active-directory/roles/administrative-units).
 
 > [!NOTE]
-> Las unidades administrativas están disponibles actualmente en el Teams de administración solo para el rol de administrador de Teams dispositivos.
+> Las unidades administrativas están disponibles actualmente en el Centro de administración de Teams solo para el rol de administrador de dispositivos de Teams.
 
 ## <a name="add-administrative-units"></a>Agregar unidades administrativas
 
-Debe ser un administrador global para agregar unidades administrativas. Para obtener más información, vea [Agregar una unidad administrativa](/azure/active-directory/roles/admin-units-manage#add-an-administrative-unit).
+Debe ser administrador global para agregar unidades administrativas. Para obtener información sobre cómo hacerlo, consulte [Agregar una unidad administrativa](/azure/active-directory/roles/admin-units-manage#add-an-administrative-unit).
 
 ## <a name="assign-admins-to-administrative-units"></a>Asignar administradores a unidades administrativas
 
-También tendrá que ser administrador global para asignar unidades administrativas. Puede asignar unidades administrativas mediante Azure Portal, PowerShell o microsoft Graph API. Para obtener más información, vea [Asignar Azure AD roles con ámbito de unidad administrativa](/azure/active-directory/roles/admin-units-assign-roles).
+También tendrá que ser administrador global para asignar unidades administrativas. Puede asignar unidades administrativas con Azure Portal, PowerShell o microsoft Graph API. Para obtener más información, consulte [Asignar roles de Azure AD con ámbito de unidad administrativa](/azure/active-directory/roles/admin-units-assign-roles).
 
 ## <a name="select-administrative-units"></a>Seleccionar unidades administrativas
 
-Si es administrador de Teams dispositivos, después de que un administrador global le asigne a una unidad administrativa, puede iniciar sesión en el centro de administración de Teams para administrar dispositivos. Si solo está asignado a una unidad administrativa, solo verá los dispositivos asignados a esa unidad administrativa. Si está asignado a varias unidades administrativas, puede cambiar entre esas unidades administrativas sin salir del centro de administración Teams administración. 
+Si es administrador de dispositivos de Teams, después de que un administrador global le asigne a una unidad administrativa, puede iniciar sesión en el Centro de administración de Teams para administrar dispositivos. Si solo está asignado a una unidad administrativa, verá solo los dispositivos asignados a esa unidad administrativa. Si se le asignan varias unidades administrativas, puede cambiar entre esas unidades administrativas sin cerrar la sesión en el Centro de administración de Teams. 
 
-1. Inicie sesión en el [Teams de administración](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+1. Inicie sesión en el [Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-2. En el **cuadro de diálogo Sus unidades** administrativas, siga uno de estos pasos:
-    - Seleccione la unidad administrativa que desea administrar o 
+2. En el cuadro de diálogo **Sus unidades administrativas** , siga uno de estos pasos:
+    - Seleccione la unidad administrativa que desea administrar, o bien 
     - Seleccione **Todos los dispositivos** si tiene permiso para administrar todos los dispositivos de su organización.
 
 3. Seleccione **Guardar**.
 
-## <a name="switch-administrative-units"></a>Cambiar las unidades administrativas
+## <a name="switch-administrative-units"></a>Cambiar unidades administrativas
 
-Si es administrador de Teams dispositivos, puede cambiar entre unidades administrativas si ha iniciado sesión en el Teams de administración. Para cambiar a otra unidad administrativa:
+Si es administrador de dispositivos de Teams, puede cambiar entre unidades administrativas si ha iniciado sesión en el Centro de administración de Teams. Para cambiar a una unidad administrativa diferente:
 
-1. Inicie sesión en el [Teams de administración](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+1. Inicie sesión en el [Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-2. En el panel de navegación izquierdo, **seleccione Teams dispositivos**.
+2. En el panel de navegación izquierdo, seleccione **Dispositivos de Teams**.
 
-3. En el panel derecho, en la esquina superior izquierda, seleccione la unidad administrativa que se muestra.
+3. En el panel derecho, en la parte superior izquierda, seleccione la unidad administrativa que se muestra.
 
-4. En el **cuadro de diálogo Sus unidades** administrativas, siga uno de estos pasos:
-    - Seleccione la unidad administrativa que desea administrar o 
+4. En el cuadro de diálogo **Sus unidades administrativas** , siga uno de estos pasos:
+    - Seleccione la unidad administrativa que desea administrar, o bien 
     - Seleccione **Todos los dispositivos** si tiene permiso para administrar todos los dispositivos de su organización.
 
 5. Seleccione **Guardar**.

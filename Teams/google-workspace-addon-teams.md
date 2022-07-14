@@ -1,7 +1,7 @@
 ---
-title: Configurar un Microsoft Teams de reunión para Google Workspace
-author: SerdarSoysal
-ms.author: serdars
+title: Configurar el complemento para reuniones de Microsoft Teams para Google Workspace
+author: CarolynRowe
+ms.author: crowe
 ms.reviewer: aravin
 manager: serdars
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: Obtenga información sobre cómo configurar Microsoft Teams complemento de reunión para Google Workspace.
+description: Obtenga información sobre cómo configurar el complemento para reuniones de Microsoft Teams para Google Workspace.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,40 +18,40 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b93fecea83a4fb44a19f490af514626a0d17f3ff
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 020fdd048b25dc015036e49d00858c106cf9a7af
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62388992"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789191"
 ---
-# <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurar un Microsoft Teams de reunión para Google Workspace
+# <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurar el complemento para reuniones de Microsoft Teams para Google Workspace
 
-Usar el complemento Microsoft Teams reunión permite a los usuarios del calendario de Google programar y unirse a una reunión Microsoft Teams directamente desde Google Workspace. Los usuarios tendrán acceso Teams de reuniones, como videoconferencias y audioconferencias, uso compartido de pantalla, chat de reunión, pizarras digitales y mucho más. Manténgase conectado y organizado para trabajar más juntos en el trabajo, la escuela y la vida.
+El uso del complemento para reuniones de Microsoft Teams permite a los usuarios del calendario de Google programar y unirse a una reunión de Microsoft Teams directamente desde Google Workspace. Los usuarios obtendrán acceso a las características de reuniones de Teams, incluidas las videoconferencias y audioconferencias, el uso compartido de la pantalla, el chat de reuniones, las pizarras digitales y mucho más. Manténgase conectado y organizado para hacer más cosas juntos en el trabajo, la escuela y la vida.
 
-El Microsoft Teams de reunión de Google Workspace debe estar habilitado por un administrador de Teams para que los usuarios inquilinos puedan acceder a la aplicación.
+El complemento para la reunión de Microsoft Teams para Google Workspace debe estar habilitado por un administrador de Teams antes de que los usuarios del inquilino puedan acceder a la aplicación.
 
-## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Habilitar o deshabilitar Microsoft Teams complemento de reunión de Google Workspace en Azure Portal
+## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Habilite o deshabilite el complemento para reuniones de Microsoft Teams para Google Workspace en la Azure Portal
 
-Como administrador de inquilinos, puede habilitar o deshabilitar un complemento de reunión de Microsoft Teams para Google Workspace desde la cuenta de administrador de su organización con Azure Portal.
+Como administrador de inquilinos, puede habilitar o deshabilitar un complemento de reunión de Microsoft Teams para Google Workspace desde la cuenta de administrador de su organización mediante la Azure Portal.
 
 El complemento está habilitado de forma predeterminada.
 
-1. Inicie sesión en Azure Portal.
+1. Inicia sesión en la Azure Portal.
 
-2. Seleccione **Enterprise todas las** >  **aplicaciones**.
+2. Seleccione **Aplicaciones** >  empresariales **Todas las aplicaciones**.
 
-3. Busque el **Microsoft Teams reunión de Google Workspace**.
+3. Busque **el complemento para reuniones de Microsoft Teams para Google Workspace**.
 
-   ![Azure Portal que muestra todas las aplicaciones.](media/aad-add-google-workspace.png)
+   ![Azure Portal que muestran todas las aplicaciones.](media/aad-add-google-workspace.png)
 
 4. Seleccione **Sí**.
 
-   ![Azure Portal que muestra las propiedades del área de trabajo de Google.](media/google-workspace-properties.png)
+   ![Azure Portal que muestran las propiedades del área de trabajo de Google.](media/google-workspace-properties.png)
 
 5. (Opcional) Para deshabilitar el complemento, seleccione **No** en lugar de **Sí** en el paso 4.
 
-## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Deshabilitar Microsoft Teams de reunión de Google Workspace con PowerShell
+## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Deshabilitar el complemento para reuniones de Microsoft Teams para Google Workspace con PowerShell
 
 ```powershell
 Connect-AzureAD
@@ -75,13 +75,13 @@ if ($servicePrincipal) {
 
 Para obtener más información, vea [Crear una entidad de servicio de Azure con Azure PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0).
 
-## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Eliminar el complemento Microsoft Teams reunión de Google Workspace
+## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Eliminar el complemento de reunión de Microsoft Teams para Google Workspace
 
-Consulte la documentación de Google [Eliminar una aplicación de Google Workspace Marketplace para](https://support.google.com/a/answer/6216211?hl=en) obtener instrucciones.
+Consulta la documentación de Google [Eliminar una aplicación de Google Workspace Marketplace](https://support.google.com/a/answer/6216211?hl=en) para obtener instrucciones.
 
-## <a name="create-the-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Crear el complemento Microsoft Teams reunión de Google Workspace con PowerShell
+## <a name="create-the-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Crear el complemento de reunión de Microsoft Teams para Google Workspace con PowerShell
 
-En caso de Microsoft Teams complemento de reunión no está presente en el espacio empresarial, puede crearlo con PowerShell: 
+En caso de que el complemento para la reunión de Microsoft Teams no esté presente en su inquilino, puede crearlo con PowerShell: 
 
 ```powershell
 Connect-AzureAD

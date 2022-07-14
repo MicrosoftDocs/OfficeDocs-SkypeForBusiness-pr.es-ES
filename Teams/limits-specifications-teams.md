@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d31474233057d930ccdbc0bdfea27262cc5dc04
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 30938e8175c12802339767ba0f2e6324cae3b871
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046009"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789425"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -228,7 +228,7 @@ Un equipo de clase puede admitir a más de 300 miembros. Sin embargo, si tiene p
 |---------|---------|
 |Número de etiquetas por equipo    | 100        |
 |Número de etiquetas predeterminadas sugeridas por equipo    | 25        |
-|Número de miembros del equipo que se asignan a una etiqueta    |100         |
+|Número de miembros del equipo asignados a una etiqueta    |200         |
 |Número de etiquetas asignadas a un usuario por equipo    |25         |
 
 ## <a name="contacts"></a>Contactos

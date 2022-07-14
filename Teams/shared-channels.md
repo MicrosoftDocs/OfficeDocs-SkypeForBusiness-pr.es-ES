@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar canales compartidos en Microsoft Teams.
-ms.openlocfilehash: 11abe6245dea7ee72bc2f71b412addbed5aa6e30
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 9a547963854f981e723d29b1472c2bda808b90c2
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057060"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773769"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canales compartidos en Microsoft Teams
 
@@ -94,7 +94,7 @@ En la siguiente tabla se describen las acciones que los propietarios, miembros e
 
 ## <a name="shared-channel-sharepoint-sites"></a>Sitios de SharePoint de canal compartido
 
-Cada canal compartido tiene [su propio sitio de SharePoint](/SharePoint/teams-connected-sites). La finalidad del sitio independiente es garantizar que el acceso a los archivos de un canal compartido esté restringido exclusivamente a los miembros de dicho canal. Estos sitios se crean con una biblioteca de documentos de forma predeterminada y pueden ampliarse fácilmente a un sitio con todas las funciones mediante la [interfaz de administración de sitios](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada sitio se crea en la misma región geográfica que el sitio para el equipo principal. Estos sitios livianos tienen un identificador de plantilla personalizado, "TEAMCHANNEL # 0", para facilitar la administración mediante la API de PowerShell y Graph. 
+Cada canal compartido tiene [su propio sitio de SharePoint](/SharePoint/teams-connected-sites). La finalidad del sitio independiente es garantizar que el acceso a los archivos de un canal compartido esté restringido exclusivamente a los miembros de dicho canal. Estos sitios se crean con una biblioteca de documentos de forma predeterminada y pueden ampliarse fácilmente a un sitio con todas las funciones mediante la [interfaz de administración de sitios](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada sitio se crea en la misma región geográfica que el sitio para el equipo principal. Estos sitios ligeros tienen un id. de plantilla personalizado, "TEAMCHANNEL#1", para facilitar la administración a través de PowerShell y la API de Graph. 
 
 Un sitio de canal compartido hereda la etiqueta de confidencialidad del equipo primario. Esto sigue siendo así incluso si el canal se comparte directamente con otro equipo.
 
