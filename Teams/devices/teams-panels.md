@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams paneles
-ms.author: serdars
-author: ManikaDhiman
+title: Paneles de Microsoft Teams
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -15,81 +15,81 @@ ms.collection:
 - M365-voice
 search.appverid: MET150
 ms.localizationpriority: medium
-description: En este artículo se proporciona información general sobre las características compatibles con Microsoft Teams paneles.
-ms.openlocfilehash: b860b141cddddbb90ce9d28d7895cf385c77c0ff
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+description: En este artículo se ofrece información general y características compatibles con los paneles de Microsoft Teams.
+ms.openlocfilehash: 313d0b8abbf1dcd703bc617e52173fc7403cc743
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514745"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794558"
 ---
-# <a name="microsoft-teams-panels"></a>Microsoft Teams paneles
+# <a name="microsoft-teams-panels"></a>Paneles de Microsoft Teams
 
-Microsoft Teams paneles son los dispositivos táctiles compactos que se instalan justo fuera de los espacios de reunión, normalmente junto a las entradas. Teams paneles le ofrecen la capacidad de ver de un vistazo los detalles de la reunión y la ubicación y reservar un espacio de reunión disponible en el lugar. Con indicadores enriquecidos, de texto grande e codificados por colores, puede ver la disponibilidad del espacio de reunión desde una distancia.
+Los paneles de Microsoft Teams son los dispositivos de pantalla táctil compactos que se monta justo fuera de los espacios de reunión, normalmente junto a las entradas. Los paneles de Teams le permiten ver los detalles de la ubicación y la reunión de un vistazo y reservar un espacio de reunión disponible en el lugar. Con texto enriquecido y grande e indicadores codificados por colores, puede ver la disponibilidad del espacio de reunión a distancia.
 
-Teams paneles son dispositivos Microsoft Teams que muestran los detalles de la reunión programados a través Teams o Outlook aplicaciones de calendario de 365. Con los detalles de la reunión destacados, los asistentes pueden confirmar que están en el espacio de reunión adecuado, en el momento adecuado y para la reunión correcta.
+Los paneles de Teams son dispositivos de Microsoft Teams dedicados que muestran los detalles de las reuniones programados a través de Teams o las aplicaciones de calendario de Outlook 365. Con los detalles de la reunión visibles, los asistentes pueden confirmar que se encuentran en el espacio de reunión adecuado, en el momento adecuado y en la reunión adecuada.
 
-En este artículo se proporciona información general Teams paneles y puede ayudarle a planear, entregar y administrar Teams paneles de su organización.
+Este artículo proporciona información general sobre los paneles de Teams y puede ayudarle a planear, entregar y administrar dispositivos de paneles de Teams en su organización.
 
-## <a name="features-supported-by-teams-panels"></a>Características compatibles con Teams paneles
+## <a name="features-supported-by-teams-panels"></a>Características compatibles con los paneles de Teams
 
-Teams paneles admiten las siguientes características:
+Los paneles de Teams admiten las siguientes características:
 
-- **Pantalla dedicada de espacio de reunión y detalles de la reunión.** Puede obtener detalles de un vistazo sobre un espacio de reunión, incluida su ubicación y disponibilidad. Para un espacio de reunión reservado, puede ver detalles clave de la reunión, como el título de la reunión, la programación de la reunión y el organizador de la reunión.
-- **Reserve espacios de reunión disponibles para reuniones ad hoc.** Con el panel de pantalla táctil, puede reservar un espacio de reunión disponible en el lugar para una reunión ad hoc  y unirse Teams esa reunión desde la sala Salas de Microsoft Teams o Surface Hub dispositivos.
-- **Indicadores codificados por colores para el estado de disponibilidad de espacio.** Puede ver la disponibilidad del espacio de reunión desde lejos y de cerca con indicadores dinámicos de LED y pantalla de inicio. Verde indica que el espacio de reunión está disponible y, si es necesario, puede reservarlo directamente desde los paneles en sí. Rojo o púrpura indica que el espacio de reunión está reservado.
-- **Personalizar el fondo de pantalla y el indicador de estado reservado.** Los administradores pueden cambiar el aspecto predeterminado de los paneles a través de la configuración. Por ejemplo, los administradores pueden cambiar el fondo de pantalla o cambiar el color del indicador de estado ocupado.
-- **Accesibilidad.** Teams paneles tienen varias características de accesibilidad, como texto de contraste alto, para facilitar su uso.
+- **Visualización dedicada del espacio de reunión y los detalles de la reunión.** Obtendrá detalles de un vistazo sobre un espacio de reunión, incluida su ubicación y disponibilidad. Para un espacio de reunión reservado, puede ver los detalles clave de la reunión, como el título de la reunión, la programación de la reunión y el organizador de la reunión.
+- **Reserve espacios de reunión disponibles para reuniones ad hoc.** Con el panel de pantalla táctil, puedes reservar un espacio de reunión disponible en el lugar para una reunión ad hoc y _unirte a_ esa reunión de Teams desde la sala Salas de Microsoft Teams o dispositivos Surface Hub.
+- **Indicadores codificados por colores para el estado de disponibilidad de espacio.** Puede ver la disponibilidad del espacio de reunión desde lejos y de cerca con indicadores led y pantalla de inicio vibrantes. El color verde indica que el espacio de reunión está disponible y, si es necesario, puede reservarlo directamente desde los propios paneles. Rojo o púrpura indica que el espacio de reunión está reservado.
+- **Personalizar papel tapiz e indicador de estado reservado.** Los administradores pueden cambiar el aspecto predeterminado de los paneles a través de la configuración. Por ejemplo, los administradores pueden cambiar el fondo de pantalla o cambiar el color del indicador de estado ocupado.
+- **Accesibilidad.** Los paneles de Teams tienen varias características de accesibilidad, como texto de contraste alto, para que sea más fácil para cualquier persona usarlos.
 
-Para obtener más información sobre estas características y cómo usarlas, vea [Usar Microsoft Teams paneles](use-teams-panels.md).
+Para obtener más información sobre estas características y cómo usarlas, consulte [Usar paneles de Microsoft Teams](use-teams-panels.md).
 
-## <a name="partners-certified-for-teams-panels"></a>Partners certificados para Teams paneles
+## <a name="partners-certified-for-teams-panels"></a>Partners certificados para paneles de Teams
 
-Para obtener más información sobre los partners certificados Teams paneles, consulte [Paneles Teams certificados actualmente](teams-ip-phones.md#certified-teams-panels).
+Para obtener más información sobre los asociados certificados para los paneles de Teams, consulte [Paneles de Teams certificados actualmente](teams-ip-phones.md#certified-teams-panels).
 
-## <a name="teams-panels-requirements"></a>Teams requisitos de paneles
+## <a name="teams-panels-requirements"></a>Requisitos de los paneles de Teams
 
-Los requisitos de hardware, software y red para implementar dispositivos de paneles pueden diferir en función del tipo de dispositivos de paneles que implemente. Consulte la documentación del Fabricante de equipos originales (OEM) para saber qué es necesario para su conjunto de dispositivos.
+Los requisitos de hardware, software y red para implementar dispositivos de paneles pueden diferir en función del tipo de dispositivos de paneles que esté implementando. Consulta la documentación del fabricante de equipos originales (OEM) para saber lo que se requiere para el conjunto de dispositivos.
 
 ## <a name="license-requirement"></a>Requisito de licencia
 
-Para usar Teams paneles, necesita [Salas de Microsoft Teams Estándar licencia](../rooms/rooms-licensing.md).
+Para usar los paneles de Teams, necesita [Salas de Microsoft Teams Estándar Licencia](../rooms/rooms-licensing.md).
 
 > [!Note]
-> Si ya tiene Salas de Microsoft Teams en el espacio de reunión donde va Teams paneles, no necesita una licencia adicional para usar Teams paneles.
+> Si ya ha implementado Salas de Microsoft Teams en el espacio de reunión donde va a instalar los paneles de Teams, no necesita una licencia adicional para usar los paneles de Teams.
 
-## <a name="deploy-teams-panels-devices"></a>Implementar Teams paneles
+## <a name="deploy-teams-panels-devices"></a>Implementar dispositivos de paneles de Teams
 
-Si está involucrado en la planificación, implementación y administración de Teams paneles, esta sección es para usted. Esta sección no está pensada para los usuarios finales de Teams paneles.
+Si está involucrado en la planeación, la implementación y la administración de dispositivos de paneles de Teams, esta sección es para usted. Esta sección no está destinada a los usuarios finales de los paneles de Teams.
 
-La implementación de Teams paneles se puede dividir en las siguientes tareas:
+La implementación de los dispositivos de paneles de Teams se puede dividir en las siguientes tareas:
 
-- [Inventario de espacio de](#inventory-sites-and-meeting-spaces) reunión y planificación de capacidades: Cree un inventario de los sitios y espacios de reunión de su organización para implementar Teams dispositivos de paneles.
-- [Adquisición](#procurement): Adquiera los dispositivos del partner de dispositivos seleccionado.  
-- [Preparación del sitio](#site-readiness): Confirme que las ubicaciones de implementación (espacios de reunión) cumplen los requisitos de implementación.
+- [Inventario de espacios de reunión y planeamiento de capacidades](#inventory-sites-and-meeting-spaces): cree un inventario de los sitios y espacios de reunión de su organización para implementar dispositivos de paneles de Teams.
+- [Adquisición](#procurement): adquiere los dispositivos del partner de dispositivo seleccionado.  
+- [Preparación del sitio](#site-readiness): confirme que las ubicaciones de implementación (espacios de reunión) cumplen los requisitos de implementación.
 - [Configuración e implementación](#configuration-and-deployment): cree cuentas de recursos y asígnelas a los dispositivos.
 
-## <a name="inventory-sites-and-meeting-spaces"></a>Sitios de inventario y espacios de reunión
+## <a name="inventory-sites-and-meeting-spaces"></a>Inventario de sitios y espacios de reunión
 
-Haga un inventario de los espacios de reunión que se pueden reservar en su organización. Identifique los sitios y espacios de reunión que están en el ámbito para implementar Teams paneles. Trabaje con sus instalaciones y equipos de audio visual para determinar dónde y cómo instalar los dispositivos de paneles Teams y si se necesita hardware adicional para el montaje de los paneles.
+Realice un inventario de los espacios de reunión que se pueden reservar en su organización. Identifique los sitios y los espacios de reunión que están dentro del ámbito de implementación de los paneles de Teams. Trabaje con sus equipos audiovisuales e instalaciones para determinar dónde y cómo instalar los dispositivos de paneles de Teams, y si se necesita algún hardware adicional para montar los paneles.
 
-## <a name="procurement"></a>Adquisición
+## <a name="procurement"></a>Adquisiciones
 
-En función del número de espacios de reunión que están en el ámbito para implementar Teams paneles, adquiera los dispositivos de uno de los asociados certificados [para Teams paneles](#partners-certified-for-teams-panels). Visite los sitios web de los partners para obtener más información sobre los dispositivos y las opciones de adquisición.
+Basándose en el número de espacios de reunión que están dentro del ámbito de implementación de los paneles de Teams, adquiera los dispositivos de uno de los [asociados certificados para los paneles de Teams](#partners-certified-for-teams-panels). Visite los sitios web de los asociados para obtener más información sobre los dispositivos y las opciones de compra.
 
-Los espacios de reunión de su organización pueden tener requisitos de hardware diferentes para instalar o montar los dispositivos. Por ejemplo, es posible que el hardware necesario para instalar el dispositivo en un panel de cristal, yeso, yeso o madera no sea el mismo. Consulte la documentación del partner del dispositivo para ver las opciones de montaje disponibles.
+Los espacios de reunión en su organización pueden tener diferentes requisitos de hardware para instalar o montar los dispositivos. Por ejemplo, el hardware necesario para montar el dispositivo en un vidrio, yeso, paneles de yeso o madera puede no ser el mismo. Consulta la documentación del partner del dispositivo para conocer las opciones de montaje disponibles.
 
-## <a name="site-readiness"></a>Preparación del sitio
+## <a name="site-readiness"></a>Disponibilidad del sitio
 
-Mientras los dispositivos ordenados se entregan a su organización, trabaje con sus redes, instalaciones y equipos de audio visual para asegurarse de que se cumplen los requisitos de implementación y cada sitio y espacio de reunión está listo en términos de potencia y redes.
+Mientras se entregan los dispositivos ordenados a su organización, trabaje con sus equipos de redes, instalaciones y audiovisuales para asegurarse de que se cumplen los requisitos de implementación y de que cada sitio y espacio de reunión están listos en términos de potencia y redes.
 
-Nuestras recomendaciones para Teams paneles son:
+Nuestras recomendaciones para los sitios de paneles de Teams son:
 
-- Cuentas de recursos dedicadas
-- Fuente de alimentación (los paneles generalmente admiten Power over Ethernet plus (PoE+) para la alimentación. Consulte la documentación del OEM para obtener información sobre los requisitos de energía específicos del dispositivo).
+- Cuentas de recursos dedicados
+- Fuente de alimentación (los paneles generalmente admiten la alimentación a través de Ethernet plus (PoE+) para la alimentación. Consulta la documentación del OEM para conocer los requisitos de energía específicos del dispositivo).
 
 
-Para ver las consideraciones de instalación física, consulte la documentación oem y, si tiene una, use la experiencia de su equipo de audio visual antes de instalar y montar dispositivos y ejecutar cableado.
+Para consideraciones de instalación física, consulta la documentación del OEM y, si tienes una, usa la experiencia de tu equipo audiovisual antes de instalar y montar dispositivos y ejecutar cableado.
 
 ## <a name="configuration-and-deployment"></a>Configuración e implementación
 
@@ -100,40 +100,40 @@ La planificación de la configuración y la implementación abarca las siguiente
 
 ### <a name="resource-account-provisioning"></a>Aprovisionamiento de cuentas de recursos
 
-Cada Teams de paneles requiere una Microsoft 365 de recursos de sala. Use las credenciales de la cuenta de recurso para iniciar sesión Microsoft Teams aplicación en el dispositivo de paneles.
+Cada dispositivo de paneles de Teams requiere una cuenta de recursos de sala de Microsoft 365. Use las credenciales de la cuenta de recursos para iniciar sesión en la aplicación Microsoft Teams en el dispositivo de paneles.
 
-Para configurar una cuenta Microsoft 365 de recursos para Teams paneles, le recomendamos que compre una [Salas de Microsoft Teams Estándar licencia](#license-requirement). Para obtener información sobre cómo crear una cuenta de recursos y asignarle una licencia, vea Crear cuentas de recursos para salas y dispositivos [Teams compartidos](../rooms/with-office-365.md).
+Para configurar una cuenta de recursos de Microsoft 365 para paneles de Teams, le recomendamos que compre una [licencia de Salas de Microsoft Teams Estándar](#license-requirement). Para obtener información sobre cómo crear una cuenta de recursos y asignarle una licencia, vea [Crear cuentas de recursos para salas y dispositivos compartidos de Teams](../rooms/with-office-365.md).
 
 > [!NOTE]
 >
->- Si ya tiene una cuenta de recursos de sala configurada para el espacio de reunión donde va a instalar paneles, use la misma cuenta de recursos de sala para iniciar sesión en el dispositivo de paneles. Sin embargo, asegúrese de que la cuenta de recursos de sala tiene la Salas de Microsoft Teams Estándar licencia asignada para usarla como cuenta de recursos de paneles.
+>- Si ya tiene configurada una cuenta de recursos de sala para el espacio de reunión en el que está instalando paneles, use la misma cuenta de recursos de sala para iniciar sesión en el dispositivo de paneles. Sin embargo, asegúrese de que la cuenta de recursos de sala tiene asignada la licencia de Salas de Microsoft Teams Estándar para usarla como cuenta de recursos de grupos especiales.
 >
->- Si ya tiene una Salas de Microsoft Teams en el espacio de reunión donde va a instalar Teams paneles, no es necesario comprar una licencia independiente para implementar paneles. El administrador inicia sesión en el dispositivo de paneles con las mismas credenciales que el Salas de Microsoft Teams para el mismo espacio.
+>- Si ya tiene un Salas de Microsoft Teams implementado en el espacio de reunión donde va a instalar los paneles de Teams, no es necesario comprar una licencia independiente para implementar paneles. El administrador inicia sesión en el dispositivo de paneles con las mismas credenciales que el Salas de Microsoft Teams para el mismo espacio.
 >
 >- Para espacios de reunión grandes, como salas de juntas o salas de conferencias, con varias entradas, puede montar un dispositivo de paneles en cada entrada. Varios paneles que pertenecen a un único espacio de reunión comparten la misma cuenta de recursos e inician sesión con las mismas credenciales. No es necesario crear cuentas de recursos independientes para cada panel para el mismo espacio.
 
 > [!TIP]
-> Se recomienda crear la cuenta de recursos con antelación a la instalación real Teams paneles.
-> Considere la posibilidad de usar convenciones de nomenclatura para la Teams de recursos de paneles. Haga que los nombres para mostrar de Microsoft 365 cuentas de recursos sea descriptivo y fácil de entender. Estos son los nombres que verán los usuarios cuando busquen espacios de reunión mientras programan reuniones en Outlook o Teams calendarios.
+> Se recomienda crear la cuenta de recursos con antelación a la instalación real de paneles de Teams.
+> Considere la posibilidad de usar convenciones de nomenclatura para la cuenta de recursos de paneles de Teams. Haga que los nombres para mostrar de sus cuentas de recursos de Microsoft 365 sean descriptivos y fáciles de entender. Estos son los nombres que verán los usuarios cuando busquen espacios de reunión mientras programan reuniones en los calendarios de Outlook o Teams.
 
 ### <a name="testing"></a> Pruebas
 
-Después de implementar paneles, debe probarlos. Compruebe que las [características compatibles con Teams paneles](#features-supported-by-teams-panels) están trabajando en el dispositivo implementado. Intente crear varias reuniones para varias franjas de tiempo Teams o Outlook 365 en el equipo. Compruebe si los paneles muestran correctamente los detalles de la reunión y la disponibilidad para las reuniones programadas. Intente usar el **botón Reservar** para comprobar si puede reservar un espacio de reunión disponible directamente desde el dispositivo.
+Una vez que haya implementado los paneles, debería probarlos. Compruebe que las [características compatibles con los paneles de Teams](#features-supported-by-teams-panels) funcionan en el dispositivo implementado. Intente crear varias reuniones para varios intervalos de tiempo a través de Teams o Outlook 365 en su equipo. Compruebe si los paneles muestran correctamente los detalles de la reunión y la disponibilidad de las reuniones programadas. Pruebe a usar el botón **Reservar** para comprobar si puede reservar un espacio de reunión disponible directamente desde el dispositivo.
 
-## <a name="manage-teams-panels-in-your-organization"></a>Administrar Teams paneles de su organización
+## <a name="manage-teams-panels-in-your-organization"></a>Administrar paneles de Teams en su organización
 
-Para administrar los Teams paneles, en la navegación izquierda del centro de administración de Microsoft Teams, vaya a **Teams** **DevicesPanels** > . Desde aquí, puede cambiar el perfil de configuración del dispositivo, administrar actualizaciones, reiniciar dispositivos, agregar y quitar etiquetas de dispositivo y mucho más. Para obtener más información, vea [Administrar los dispositivos en Teams](device-management.md).
+Para administrar los dispositivos de los paneles de Teams, en el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Paneles** de **dispositivos** >  de Teams. Desde aquí, puedes cambiar el perfil de configuración del dispositivo, administrar las actualizaciones, reiniciar dispositivos, agregar y quitar etiquetas de dispositivo y mucho más. Para obtener más información, consulte [Administrar los dispositivos en Teams](device-management.md).
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 
-[Cómo usar dispositivos Microsoft Teams paneles](use-teams-panels.md)
+[Cómo usar dispositivos de paneles de Microsoft Teams](use-teams-panels.md)
 
 ## <a name="see-also"></a>Vea también
 
-[Microsoft Teams blog en Teams paneles](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
+[Blog de Microsoft Teams en paneles de Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 
-[Introducción a los Teams paneles](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
+[Introducción a los paneles de Teams](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
 
-[Teams de paneles](https://office.com/teamsdevices)
+[Marketplace de paneles de Teams](https://office.com/teamsdevices)
 
-[Dispositivos certificados bajo Microsoft Teams de certificación de paneles](teams-ip-phones.md#certified-teams-panels)
+[Dispositivos certificados en el programa de certificación de paneles de Microsoft Teams](teams-ip-phones.md#certified-teams-panels)

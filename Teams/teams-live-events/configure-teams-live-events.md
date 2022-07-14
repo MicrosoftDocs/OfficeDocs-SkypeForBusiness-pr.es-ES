@@ -1,7 +1,7 @@
 ---
 title: Configurar eventos en directo en Microsoft Teams
-author: serdarsoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac7558f2177ab468043e624d6230106179f79a6e
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 8ac5bf29fbbe61b2e2224aeccb2082e31742816b
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205240"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794168"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos en directo en Microsoft Teams
 
@@ -35,7 +35,7 @@ Use la configuración de eventos en directo de Teams para establecer la configur
 
 Puede administrar fácilmente estas opciones de configuración en el centro de administración de Microsoft Teams. En el panel de navegación izquierdo, vaya a **Reuniones** > **Configuración eventos en directo**.
 
-![Captura de pantalla de Teams configuración de eventos en directo.](../media/teams-live-events-settings-new.png "Captura de pantalla de las opciones de configuración de eventos en directo de Teams que puede configurar en el centro de administración de Microsoft Teams")
+![Captura de pantalla de la configuración de eventos en directo de Teams.](../media/teams-live-events-settings-new.png "Captura de pantalla de las opciones de configuración de eventos en directo de Teams que puede configurar en el centro de administración de Microsoft Teams")
 
 ## <a name="set-up-event-support-url"></a>Configurar la URL de soporte de eventos
 
@@ -69,7 +69,7 @@ Si compró y configuró una solución de red definida por software (SDN) o una s
 
     - **Proveedor de distribución de terceros** Active esta opción para habilitar el proveedor de distribución de vídeo de terceros.
     - **Nombre del proveedor de SDN** elija el proveedor que está usando.
-    - **Configuración de SDN** Escriba los detalles de configuración de SDN.
+    - **Configuración de SDN** Escriba detalles de configuración de SDN.
         
 ### <a name="using-windows-powershell"></a>Usar Windows PowerShell
 Obtenga el ID. de licencia, el token de API y la plantilla de API del proveedor y, después, ejecute uno de los siguientes procedimientos, en función del proveedor que use:
@@ -104,7 +104,7 @@ Para obtener más información, vea [Set-CsTeamsMeetingBroadcastConfiguration](/
 > El cambio de uso desde Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabar las reuniones](../tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, en noviembre tendrá que cancelar la suscripción si desea continuar usando Stream y por un tiempo, a principios de 2021, requeriremos que todos los clientes usen OneDrive para la Empresa y SharePoint para grabar nuevas reuniones.
 
 >[!Note]
-> La solución de eCDN elegida está sujeta a los términos de servicio y la política de privacidad del proveedor de terceros seleccionado, que regirán el uso de la solución del proveedor de eCDN. El uso de la solución del proveedor de eCDN no estará sujeto a los términos de licencia por volumen de Microsoft ni a los Términos de servicios en línea. Si no está de acuerdo con los términos del proveedor de terceros, no habilite la solución de eCDN en Microsoft Teams.
+> La solución de eCDN elegida está sujeta a los términos de servicio y a la directiva de privacidad del proveedor de terceros seleccionados, que regirán el uso de la solución del proveedor de eCDN. El uso de la solución del proveedor de eCDN no estará sujeto a los términos de licencias por volumen de Microsoft ni a los Términos de servicios en línea. Si no acepta los términos del proveedor de terceros, no habilite la solución eCDN en Microsoft Teams.
 
 ### <a name="related-topics"></a>Temas relacionados
 - [¿Qué son los eventos en directo en Teams?](what-are-teams-live-events.md)

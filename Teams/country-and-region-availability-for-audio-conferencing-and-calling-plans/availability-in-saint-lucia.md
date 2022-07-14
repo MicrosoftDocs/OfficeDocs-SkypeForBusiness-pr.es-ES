@@ -1,36 +1,41 @@
 ---
 title: Disponibilidad en Santa Lucía
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole, fafan'
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Audio Conferencing
-  - Phone System
-  - Calling Plans
-description: Estos son los Microsoft 365 y Office 365 de Skype Empresarial y Microsoft Teams disponibles para Santa Lucía.
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Santa Lucía.
+ms.openlocfilehash: c9f26fbd15a3f627c054d23de29cb606c50b0348
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794338"
 ---
-
 # <a name="availability-in-saint-lucia"></a>Disponibilidad en Santa Lucía
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los Microsoft 365 y Office 365 de Skype Empresarial y Microsoft Teams disponibles para Santa Lucía.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Santa Lucía.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -57,7 +62,7 @@ Estos son los Microsoft 365 y Office 365 de Skype Empresarial y Microsoft Teams 
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
 
-Si los planes de llamadas no están disponibles para la compra, consulte [Opciones de conectividad RTC](../pstn-connectivity.md) para todas las opciones disponibles.
+Si los planes de llamadas no están disponibles para comprar, consulte [Opciones de conectividad RTC](../pstn-connectivity.md) para todas las opciones disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 

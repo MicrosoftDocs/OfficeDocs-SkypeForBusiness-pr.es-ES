@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a715e913966040c5406901403b90d5a6a421e2e4
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 6bf8e6ab6f2a5ba7303887e9e7d7d72d22c50964
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045879"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794688"
 ---
 # <a name="plan-for-sip-gateway"></a>Planear la puerta de enlace SIP
 
@@ -34,32 +34,32 @@ Sip Gateway permite a su organización usar cualquier dispositivo SIP compatible
 
 ## <a name="benefits-of-sip-gateway"></a>Ventajas de la puerta de enlace SIP
 
-Sip Gateway conecta dispositivos SIP compatibles a Teams para ayudar a los usuarios a migrar sin problemas a Teams telefonía. Con puerta de enlace SIP, los usuarios pueden hacer lo siguiente:
+SIP Gateway conecta dispositivos SIP compatibles a Teams para ayudar a los usuarios a migrar sin problemas a la telefonía de Teams. Con puerta de enlace SIP, los usuarios pueden hacer lo siguiente:
 
-- **Realizar llamadas:** Los usuarios de dispositivos SIP pueden realizar llamadas a la red telefónica conmutada (RTC), a otros dispositivos SIP y a usuarios de Teams y Skype Empresarial. Los usuarios de dispositivos SIP solo pueden llamar a usuarios con números de teléfono.
-- **Recibir llamadas:** Los usuarios de dispositivos SIP pueden recibir una llamada de RTC, de usuarios de Teams o Skype Empresarial que tengan dispositivos SIP, así como de aplicaciones cliente de Teams y Skype Empresarial. El dispositivo SIP actúa como un punto de conexión Teams. Las llamadas entrantes también se bifurcarán en el dispositivo SIP del usuario.
+- **Realizar llamadas:** Los usuarios de dispositivos SIP pueden realizar llamadas a la red telefónica conmutada (RTC), a otros dispositivos SIP y a Teams y a los usuarios de Skype Empresarial. Los usuarios de dispositivos SIP solo pueden llamar a usuarios con números de teléfono.
+- **Recibir llamadas:** Los usuarios de dispositivos SIP pueden recibir una llamada desde RTC, desde Teams o Skype Empresarial usuarios que tengan dispositivos SIP, y desde Teams y Skype Empresarial aplicaciones cliente. El dispositivo SIP actúa como punto de conexión de Teams. Las llamadas entrantes también se bifurcarán en el dispositivo SIP del usuario.
 - **Varias llamadas simultáneas:** Un usuario de un dispositivo SIP en una llamada puede poner la llamada en espera para realizar o recibir otras llamadas. Un usuario de dispositivo SIP también puede conferenciar dos llamadas.
-- **No molestar:** Un usuario de dispositivo SIP puede establecer No molestar en el dispositivo para que el dispositivo no suene para las llamadas entrantes. Esto no tiene ningún impacto en el estado del usuario en todos los demás puntos de conexión de Teams.
+- **No molestar:** Un usuario de dispositivo SIP puede establecer No molestar en el dispositivo para que el dispositivo no suene para las llamadas entrantes. Esto no afecta al estado del usuario en el resto de los puntos de conexión de Teams.
 - **Mantener/Reanudar y Silenciar/Reactivar audio:** Un usuario de dispositivo SIP puede retener y reanudar o silenciar y reactivar el audio de una llamada mediante las características de esas acciones en el dispositivo.
 - **Mensaje de voz:** Los usuarios de dispositivos SIP pueden escuchar los mensajes de voz almacenados electrónicamente que los autores de llamadas dejan para ellos.
 - **Indicador de mensaje en espera:** Los usuarios de dispositivos SIP pueden recibir notificaciones que les alertan cuando tienen nuevos mensajes de correo de voz.
 - **Inicio y cierre de sesión:** Los usuarios de dispositivos SIP pueden iniciar y cerrar sesión en Teams en el dispositivo.
 - **Multifrecuencia de tono dual:** Los usuarios de dispositivos SIP pueden presionar las teclas numéricas para proporcionar entrada durante las llamadas interactivas de respuesta de voz.
-- **Teams reuniones:** un usuario de dispositivo SIP puede unirse a una reunión de Teams marcando el número de acceso a la reunión. Los participantes de la reunión pueden agregar un usuario de dispositivo SIP a la reunión llamando al número de teléfono del usuario o simplemente agregando un participante haciendo clic en "Solicitar unirse" también avisará al dispositivo SIP del usuario. Los usuarios invitados de otra organización pueden agregarlos a una reunión de Teams un participante que llama al número de un usuario invitado para incluirlo.
+- **Reuniones de Teams:** Un usuario de dispositivo SIP puede unirse a una reunión de Teams marcando el número de acceso a la reunión. Los participantes de la reunión pueden agregar un usuario de dispositivo SIP a la reunión llamando al número de teléfono del usuario o simplemente agregando un participante haciendo clic en "Solicitar unirse" también avisará al dispositivo SIP del usuario. Los usuarios invitados de otra organización pueden ser agregados a una reunión de Teams por un participante que llama al número de un usuario invitado para incluirlo.
 - **Transferencias de llamadas:** Los usuarios de dispositivos SIP pueden transferir llamadas. Sip Gateway admite transferencias ciegas y consultivas.
 - **Desvío de llamadas local:** Un usuario de dispositivo SIP puede establecer reglas de reenvío (siempre, en tiempo de espera y ocupado) para el dispositivo. Si el dispositivo está conectado a la puerta de enlace SIP, la llamada se redirigirá a la dirección de destino en función de la regla que establezca el usuario del dispositivo. Para que el desvío de llamadas local funcione, el administrador debe establecer el `AllowCallRedirect` atributo en `Set-CsTeamsCallingPolicy` `Enabled`.
 
 ## <a name="requirements-to-use-sip-gateway"></a>Requisitos para usar puerta de enlace SIP
 
-Teams usuarios deben tener un número de teléfono con llamadas RTC habilitadas para usar la puerta de enlace SIP.
+Los usuarios de Teams deben tener un número de teléfono con las llamadas RTC habilitadas para usar la puerta de enlace SIP.
 
 ### <a name="hardware-software-and-licenses"></a>Hardware, software y licencias
 
 Si tiene un dispositivo SIP o 3PIP, debe tener:
 
-- Una licencia para Sistema telefónico (a través de E5 o una licencia independiente)
-- Habilitación de RTC (es decir, un número de teléfono) a través de un plan de llamadas de Microsoft Teams, enrutamiento directo o Conexión con operador
-- Una licencia de área común Teléfono para los dispositivos de área común
+- Una licencia de Phone System (a través de E5 o una licencia independiente)
+- Habilitación de RTC (es decir, un número de teléfono) a través de un plan de llamadas de Microsoft Teams, enrutamiento directo o conexión de operadores
+- Una licencia de Teléfono de área común para cualquier dispositivo de área común
 
 ## <a name="compatible-devices"></a>Dispositivos compatibles
 
@@ -137,6 +137,27 @@ Si tiene un dispositivo SIP o 3PIP, debe tener:
 |          |C450HD      |3.2.1      |3.4.6.687  |   |   |
 |          |445HD       |3.2.1      |3.4.6.687  |   |   |
 |          |RX50        |3.2.1      |3.4.6.687  |   |   |
+|**Spectralink**|       |           |           |   |[Soporte técnico de Spectralink](https://support.spectralink.com)|
+|          |7202        |PCS22B     |PCS22B     |Auricular |   |
+|          |7212        |PCS22B     |PCS22B     |Auricular |   |
+|          |7502        |PCS22B     |PCS22B     |Auricular |   |
+|          |7522        |PCS22B     |PCS22B     |Auricular |   |
+|          |7532        |PCS22B     |PCS22B     |Auricular |   |
+|          |7622        |PCS22B     |PCS22B     |Auricular |   |
+|          |7642        |PCS22B     |PCS22B     |Auricular |   |
+|          |7722        |PCS22B     |PCS22B     |Auricular |   |
+|          |7742        |PCS22B     |PCS22B     |Auricular |   |
+|          |IP-DECT Server 200 |PCS22Ab |PCS22Ab |Servidor IP-DECT |   |
+|          |IP-DECT Server 400 |PCS22Ab |PCS22Ab |Servidor IP-DECT |   |
+|          |IP-DECT Server 6500 |PCS22Ab |PCS22Ab |Servidor IP-DECT |   |
+|          |Virtual IP-DECT Server One |PCS22Ab |PCS22Ab |Servidor IP-DECT |   |
+|          |Estación base IP-DECT |PCS22Ab |PCS22Ab |Servidor IP-DECT |   |
+
+> [!NOTE]
+> Los dispositivos Spectralink reciben actualizaciones de firmware en el aire de los servidores IP-DECT de Spectralink.
+
+> [!NOTE]
+> Para consultas de soporte técnico, los clientes que usen sistemas IP-DECT con Puerta de enlace SIP de Teams deben ponerse en contacto con el fabricante de DECT o con sus socios del canal de implementación.
 
 > [!NOTE]
 > Para algunos dispositivos, la versión mínima de firmware es mayor que la versión de firmware aprobada. Esto se debe a que la versión 3.X es la versión Skype Empresarial. Actualizamos la versión SIP que es 2.X.

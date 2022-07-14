@@ -1,7 +1,7 @@
 ---
 title: Usar telemetría en tiempo real para solucionar problemas de mala calidad de la reunión
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Use telemetría en tiempo real con detalles sobre dispositivos, redes y conectividad para solucionar problemas de usuario con las reuniones programadas de Microsoft Teams.
-ms.openlocfilehash: 26ee7b809d7b18bb07a7f8ae57852c2333b26d94
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: e1f9b445917a0bfd8ba06a736444fc532aa1a0b7
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789625"
+ms.locfileid: "66794348"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Usar telemetría en tiempo real para solucionar problemas de mala calidad de la reunión
 

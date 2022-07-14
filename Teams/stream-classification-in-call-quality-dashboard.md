@@ -1,7 +1,7 @@
 ---
 title: Clasificación de transmisiones en el panel de calidad de llamadas (CQD)
-ms.author: serdars
-author: lolaj
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: gageames
 ms.topic: article
@@ -19,21 +19,21 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Obtenga información sobre cómo se clasifica la calidad de la transmisión en el Panel de calidad de llamadas para Microsoft Teams y Skype Empresarial en línea.
-ms.openlocfilehash: 5ee2575cf952eb9d7e78f14b2b8ba7693cd3f878
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+description: Obtenga información sobre cómo se clasifica la calidad de la transmisión en el Panel de calidad de llamadas para Microsoft Teams y Skype Empresarial En línea.
+ms.openlocfilehash: 9b17cf115759e96edbccdb85369ac42fd5861ff7
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059261"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794298"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Clasificación de transmisiones en el panel de calidad de llamadas (CQD)
 
-El Panel de calidad de llamadas (CQD) para Microsoft Teams y Skype Empresarial Online le permite obtener información sobre la calidad de las llamadas realizadas con los servicios de Microsoft Teams y Skype Empresarial. Este tema proporciona información detallada sobre la clasificación de calidad de las transmisiones multimedia. Para obtener más información sobre el CQD y cómo configurarlo, consulte [Configurar el panel de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md).
+El Panel de calidad de llamadas (CQD) para Microsoft Teams y Skype Empresarial Online le permite obtener información sobre la calidad de las llamadas realizadas con Microsoft Teams y Skype Empresarial servicios. Este tema proporciona información detallada sobre la clasificación de calidad de las transmisiones multimedia. Para obtener más información sobre el CQD y cómo configurarlo, consulte [Configurar el panel de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>Definiciones del clasificador
 
-Secuencias en el CQD se clasifican como _Buena_, _Mala_ o _Sin clasificar_ en función de los valores de las métricas de calidad clave disponibles. Las métricas y condiciones que se usan para clasificar la transmisión se muestran en las tablas siguientes. Las dimensiones del CQD "Poor Due To" se pueden usar para comprender qué métrica es responsable de una clasificación _de mala_ calidad. Para obtener más información sobre estas dimensiones, consulte [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Las transmisiones en el CQD se clasifican como _Buenas_, _Malas_ o _Sin clasificar_ en función de los valores de las métricas de calidad clave disponibles. Las métricas y condiciones que se usan para clasificar la transmisión se muestran en las tablas siguientes. Las dimensiones del CQD "Poor Due To" se pueden usar para comprender qué métrica es responsable de una clasificación _de mala_ calidad. Para obtener más información sobre estas dimensiones, consulte [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Clasificador de audio
 
@@ -48,7 +48,7 @@ Si se cumplen una o varias de las siguientes condiciones y el uso de paquetes se
 
 ### <a name="video-classifier-due-to-freeze"></a>Clasificador de vídeo debido a bloqueo
 
-La transmisión en secuencias de vídeo se marca  _como Buena_ o _Mala_ en función del valor de una puntuación de clasificador generada para calcular que el usuario final ha experimentado Frozen Video. Este clasificador solo está disponible para Microsoft Teams producto.
+La transmisión en secuencias de vídeo se marca  _como Buena_ o _Mala_ en función del valor de una puntuación de clasificador generada para calcular que el usuario final ha experimentado Frozen Video. Este clasificador solo está disponible para productos de Microsoft Teams.
 
 |Paso N. º|Métrica|Escenario|Condición |Clasificación si la condición es verdadera |Clasificación si la condición es falsa |Clasificación si la métrica no está disponible |Explicación |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
@@ -119,7 +119,7 @@ Si la conectividad de ICE se realizó correctamente para una transmisión _sin c
 
 [Configurar el panel de calidad de llamadas (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Upload los datos de inquilinos y compilación](CQD-upload-tenant-building-data.md)
+[Cargar datos de inquilinos y compilación](CQD-upload-tenant-building-data.md)
 
 [Datos e informes del CQD](CQD-data-and-reports.md)
 
