@@ -1,7 +1,7 @@
 ---
 title: Restricciones de marcado de número gratuito en Dinamarca
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -21,27 +21,27 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Esto le ayudará a averiguar cómo marcar números gratuitos en cada país o región. Después de seleccionar el país o región, se le llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad de servicios gratuitos en los que el servicio gratuito está disponible. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 91a652cf84f70d6bfebd58c329bb78a002a122ec
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Esto le ayudará a averiguar cómo marcar números gratuitos en cada país o región. Después de seleccionar el país o la región, te llevará a una página específica del país que contiene detalles específicos, restricciones y límites para la disponibilidad del servicio gratuito donde está disponible el servicio gratuito. El formato o los formatos de marcación le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
+ms.openlocfilehash: e048a247a3c52087c5315db6576cd70a120e8def
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387418"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825724"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>Restricciones de marcado de número gratuito en Dinamarca
 
-[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), o obtenga más información sobre las limitaciones y restricciones de marcado gratuitos.
+[Busca otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtén más información sobre las limitaciones y restricciones de marcación gratuitas.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Hay llamadas gratuitas disponibles?  <br/> |Sí  <br/> |
-|Formatos de marcado  <br/> | 801<br/>  802<br/>  803<br/>804<br/>8060<br/>8061<br/>8062<br/>8063<br/>807<br/>808<br/>809<br/> |
+|¿Están disponibles las llamadas gratuitas?  <br/> |Sí  <br/> |
+|Formatos de marcación  <br/> | 801<br/>  802<br/>  803<br/>804<br/>8060<br/>8061<br/>8062<br/>8063<br/>807<br/>808<br/>809<br/> |
 |Código ISO de país o región  <br/> |DK  <br/> |
 |Isla o territorio cubierto  <br/> |No aplicable  <br/> |
 |Isla o territorio no cubierto  <br/> | Sin acceso en las Islas Feroe ni en Groenlandia. <br/> |
-|Disponibilidad de líneas fijas o cableadas  <br/> |Sí  <br/> |
+|Disponibilidad de línea cableada/fija  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> | Sí. Disponible con tarifa Premium. <br/> |
 |Comentarios, restricciones y problemas de acceso  <br/> |Ninguna  <br/> |
    

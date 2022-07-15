@@ -1,7 +1,7 @@
 ---
 title: 'Ejemplo de script de PowerShell: crear & asignar directiva de mensajería'
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 09254f9ed85f69551ee825dbeb8ae063a010f780
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 764de690bbf743991536416c7fed08d0b88e7e97
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823711"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825894"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Ejemplo de script de PowerShell: Crear un equipo y asignar una directiva de mensajería.
 
@@ -30,7 +30,7 @@ Use este script de PowerShell para crear una directiva de mensajería en Microso
 
 Para obtener más información sobre el uso de este script de PowerShell, vea [Inicio rápido: Teams para Educación](../teams-quick-start-edu.yml).
 
-Este script usa el cmdlet [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) que se encuentra en el módulo de PowerShell de Skype Empresarial Online. Vea [Teams información general de PowerShell](../teams-powershell-overview.md) para obtener más información sobre cómo administrar Teams con PowerShell.
+Este script usa el cmdlet [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) que se encuentra en el módulo de PowerShell de Skype Empresarial Online. Consulte [Introducción a Teams PowerShell](../teams-powershell-overview.md) para obtener más información sobre cómo administrar Teams con PowerShell.
 
 
 ## <a name="before-you-start"></a>Antes de empezar
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> También puede asignar una directiva de mensajería directamente a los usuarios a escala a través de una asignación de directiva de lote o a un grupo del que los usuarios son miembros. Para obtener más información, vea [Asignar directivas a grandes conjuntos de usuarios de su centro educativo](../batch-group-policy-assignment-edu.md) y [Asignar directivas a los usuarios de Teams](../policy-assignment-overview.md).
+> También puede asignar una directiva de mensajería directamente a los usuarios a escala a través de una asignación de directiva de lote o a un grupo del que los usuarios son miembros. Para obtener más información, vea [Asignar directivas a grandes conjuntos de usuarios de su centro educativo](../batch-group-policy-assignment-edu.md) y [Asignar directivas a los usuarios en Teams](../policy-assignment-overview.md).

@@ -7,8 +7,8 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: serdars
-  author: SerdarSoysal
+  ms.author: mikeplum
+  author: MikePlumleyMSFT
   ms.reviewer: shalenc
   manager: serdars
   ms.service: msteams
@@ -20,16 +20,16 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3ada1b46f057c4c1f6f7d715c038c78e1e0eecd1
-  ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+  ms.openlocfilehash: 101be689ff6fba7facf7a550d3affd31cf423d5a
+  ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 06/01/2022
-  ms.locfileid: "65823019"
+  ms.lasthandoff: 07/15/2022
+  ms.locfileid: "66825534"
 items:
 - durationInMinutes: 1
   content: >
-    Este recurso de formación presenta las reuniones en Microsoft Teams. Trataremos las funciones de las reuniones en Teams además de los requisitos y consideraciones de planificación para Teams.
+    Este recurso de formación presenta las reuniones en Microsoft Teams. Trataremos las funciones de las reuniones en Teams, además de los requisitos y consideraciones de planificación para Teams.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
@@ -67,7 +67,7 @@ items:
     -   Publique en la sección de comentarios en la parte inferior de la página "Pasos siguientes" de este tutorial.
 
 
-    Para enviarnos comentarios sobre el producto sobre Teams, como ideas para nuevas funciones, visite [Teams portal de comentarios](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
+    Para enviarnos comentarios sobre los productos sobre Teams, como ideas para nuevas características, visite el [portal de comentarios de Teams](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 - title: Reuniones en Teams
   durationInMinutes: 16
   content: "\nPara conocer las reuniones en Teams, vea lo siguiente:\n-   \"Tener reuniones\" en [Reuniones y llamadas](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (tiempo estimado de lectura de 6 minutos)\n\n-   Vídeo de [Reunirse ahora](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) (1:45 minutos)\n\n-   Vídeo de [Reuniones programadas](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) (1:45 minutos)\n\n-   [9 sugerencias para una reunión con Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) para conocer, entre otras cosas, más sobre la sala de espera, cómo unirse a reuniones de forma anónima, etc. (el tiempo de lectura estimado es de 6 minutos)\n"
@@ -104,11 +104,11 @@ items:
     ### <a name="next-steps"></a>Pasos siguientes
 
 
-    1.Empezar a usar las reuniones en Teams.
+    1.Empiece a usar las reuniones en Teams.
 
     2.  Envíenos su opinión:
         - Haga una publicación en la sección de comentarios de la parte inferior de esta página.
-        - Para enviarnos Teams comentarios del producto o solicitar una nueva característica, ve a [Teams Portal de comentarios](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
+        - Para enviarnos comentarios sobre el producto de Teams o solicitar una nueva característica, vaya al [Portal de comentarios de Teams](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
     3.  Manténgase al día:
         - Siga el [Blog de Teams](https://aka.ms/teamsblog).
         - Consulte el [Plan de desarrollo de Teams](https://aka.ms/O365Roadmap).

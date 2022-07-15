@@ -1,7 +1,7 @@
 ---
-title: 'Ejemplo de script de PowerShell: administradores de exportación y sus directos'
-author: SerdarSoysal
-ms.author: serdars
+title: 'Ejemplo de script de PowerShell: administradores de exportación y sus informes directos'
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436f9566031a2cd9bc3b06a23df7b3b7346d3bec
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: fbd1758c0de6d0cb7751b4a447e21ab386f823ba
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674182"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825674"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Ejemplo de script de PowerShell: administradores de exportación y sus directos
+# <a name="powershell-script-sample---export-managers-and-their-direct-reports"></a>Ejemplo de script de PowerShell: administradores de exportación y sus informes directos
 
-Use este script de PowerShell para exportar una lista de administradores y sus directos para su organización. Use este script como preparación para crear un equipo de administrador de personas para cada administrador con sus informes directos como miembros del equipo.
+Use este script de PowerShell para exportar una lista de administradores y sus informes directos para su organización. Use este script como preparación para crear un equipo de administrador de personas para cada administrador con sus informes directos como miembros del equipo.
 
 Para obtener información sobre este script de PowerShell, consulte [Crear equipos de administradores de personas](../create-manager-directs-teams.md).
 

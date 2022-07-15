@@ -1,7 +1,7 @@
 ---
-title: 'Ejemplo de script de PowerShell: Teams de implementación'
-author: SerdarSoysal
-ms.author: serdars
+title: 'Ejemplo de script de PowerShell: Limpieza de implementación de Teams'
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
@@ -9,19 +9,24 @@ ms.service: msteams
 audience: admin
 description: Use este script de PowerShell para desinstalar Teams y quitar la carpeta Teams para los usuarios.
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: d7875cb01b928567d5883f36e21eb2f0de0bccf6
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825694"
 ---
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Ejemplo de script de PowerShell: limpieza de la implementación de Teams
 
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Ejemplo de script de PowerShell: Teams de implementación
-
-Use este script para quitar Teams. Este script desinstala Teams y quita la carpeta Teams para un usuario. Ejecute este script para cada perfil de usuario en el que Teams instalado en un equipo.
+Use este script para quitar Teams. Este script desinstala Teams y quita la carpeta teams de un usuario. Ejecute este script para cada perfil de usuario en el que teams se instaló en un equipo.
 
 
 ## <a name="sample-script"></a>Ejemplo de script
