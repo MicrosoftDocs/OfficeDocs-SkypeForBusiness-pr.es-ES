@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b040eb7d595a50b92d69a9722ae1e134cd098ff8
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9c18d1ce0e7b9d75245dc62a5990c7dfbbad7246
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241119"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819465"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -80,7 +80,7 @@ Para crear una directiva de configuración de aplicaciones para anclar aplicacio
 > En Teams para Educación, la aplicación Tareas está anclada de forma predeterminada en la directiva global, aunque no se muestre en la directiva global.
 
 > [!NOTE]
-> Para los trabajadores de primera línea de su organización, le recomendamos que use la experiencia de aplicación de primera línea personalizada. Esta característica ancla las aplicaciones más relevantes de Teams para los usuarios que tienen una [licencia F](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt). Para obtener más información, consulte [Personalizar aplicaciones de Teams para los trabajadores de primera línea](pin-teams-apps-based-on-license.md).
+> Para los trabajadores de primera línea de su organización, le recomendamos que use la experiencia de aplicación de primera línea personalizada. Esta característica ancla las aplicaciones más relevantes de Teams para los usuarios que tienen una [licencia F](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt). Para obtener más información, consulte [Personalizar aplicaciones de Teams para los trabajadores de primera línea](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
 ## <a name="install-apps"></a>Instalar aplicaciones
 

@@ -1,8 +1,8 @@
 ---
 title: Administrar la aplicación Tasks para su organización en Microsoft Teams
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cff25b181af1f5280834080bb2308c9ab9bbc8b0
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 1749c4b21c6b67f40eddd437ff0766918b5dc5df
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646399"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819275"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Tasks para su organización en Microsoft Teams
 
@@ -62,7 +62,7 @@ Con Tasks, los usuarios obtienen una experiencia móvil, web y de escritorio. Si
 
 De forma predeterminada, Tasks está habilitado para todos los usuarios de Teams de su organización. Puede desactivar o activar la aplicación en el nivel de organización en la página [Administrar aplicaciones](manage-apps.md) del Centro de administración de Microsoft Teams.
 
-1. En el panel izquierdo del centro de administración de Microsoft Teams, vaya a **Teams** **aplicacionesAdministrar** >  aplicaciones.
+1. En el panel izquierdo del Centro de administración de Microsoft Teams, vaya a Aplicaciones  > **de Teams****Administrar aplicaciones**.
 2. En la lista de aplicaciones, siga uno de estos pasos:
 
     - Para desactivar Tareas para su organización, busque la aplicación Tareas, selecciónela y, a continuación, seleccione **Bloquear**.
@@ -77,17 +77,17 @@ Para permitir o impedir que usuarios específicos de la organización puedan usa
 
 ### <a name="pin-tasks-to-teams"></a>Anclar tareas a Teams
 
-#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>Usa la experiencia de aplicación frontline adaptada para anclar Tareas y otras aplicaciones a Teams
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>Usar la experiencia de aplicación frontline adaptada para anclar tareas y otras aplicaciones a Teams
 
-La experiencia de aplicación frontline adaptada en Teams ancla las aplicaciones más relevantes en Teams para los usuarios que tienen una [licencia F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Entre las aplicaciones ancladas se incluyen Tareas, Walkie Talkie, Turnos y Aprobaciones. De forma predeterminada, esta característica está activada, lo que ofrece a sus trabajadores de primera línea una experiencia predefinida que se adapta a sus necesidades.
+La experiencia de aplicación de primera línea adaptada en Teams ancla las aplicaciones más relevantes en Teams para los usuarios que tienen una [licencia F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Entre las aplicaciones ancladas se incluyen Tareas, Walkie Talkie, Turnos y Aprobaciones. De forma predeterminada, esta característica está activada, lo que ofrece a sus trabajadores de primera línea una experiencia predefinida que se adapta a sus necesidades.
 
-Las aplicaciones se anclan a la barra de aplicaciones (la barra situada en el lateral de la Teams cliente de escritorio y en la parte inferior de los clientes móviles Teams), donde los usuarios pueden acceder a ellas de forma rápida y sencilla.
+Las aplicaciones se anclan en la barra de aplicaciones (la barra situada en el lateral del cliente de escritorio de Teams y en la parte inferior de los clientes móviles de Teams), donde los usuarios pueden acceder a ellas de forma rápida y sencilla.
 
-Para obtener más información, incluido cómo funciona la experiencia con las directivas de aplicaciones que establezca, vea [Personalizar las aplicaciones de Teams para los trabajadores de primera línea](pin-teams-apps-based-on-license.md).
+Para obtener más información, incluido cómo funciona la experiencia con las directivas de aplicaciones que establezca, consulte [Personalizar las aplicaciones de Teams para los trabajadores de primera línea](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
 #### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Usar una directiva de configuración de aplicación para anclar Tasks a Teams
 
-Las directivas de configuración de aplicaciones le permiten personalizar Teams para anclar aplicaciones que son más importantes para los usuarios de los usuarios.
+Las directivas de configuración de aplicaciones le permiten personalizar Teams para anclar las aplicaciones que son más importantes para los usuarios de sus usuarios.
 
 Para anclar la aplicación Tasks para sus usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva de configuración de aplicación personalizada. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
 

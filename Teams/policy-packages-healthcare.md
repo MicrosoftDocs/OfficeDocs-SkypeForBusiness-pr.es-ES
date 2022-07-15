@@ -1,8 +1,8 @@
 ---
 title: Paquetes de directivas de Teams para sanidad
-ms.author: mabond
-author: mkbond007
-manager: serdars
+ms.author: v-lanachin
+author: LanaChin
+manager: samanro
 ms.reviewer: aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización sanitaria.
-ms.openlocfilehash: c4a1d6909cd6a2c7f58c3a30353a3d4398c4c70e
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: a4613716b1c5ce626e5a00ce2ed884cfb208f097
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563728"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819425"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Paquetes de directivas de Teams para sanidad
 
@@ -101,9 +101,7 @@ Si un usuario tiene una directiva asignada y posteriormente asigna otra directiv
 
 #### <a name="assign-a-policy-package-to-a-group"></a>Asignar un paquete de directivas a un grupo
 
-**Esta característica está en versión preliminar privada**
-
-La opción de asignar un paquete de directiva a grupos le permite asignar múltiples directivas a un grupo de usuarios, como un grupo de seguridad o una lista de distribución. La asignación de directiva se extiende a los miembros del grupo en función de las reglas de prioridad. A medida que se agregan o se eliminan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan correspondientemente. Este método es el recomendado para grupos de hasta 50 000 usuarios, pero también funciona con grupos más grandes.
+La asignación del paquete de directivas a grupos le permite asignar varias directivas a un grupo de usuarios, como un grupo de seguridad o una lista de distribución. La asignación de directiva se extiende a los miembros del grupo en función de las reglas de prioridad. A medida que se agregan o se eliminan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan correspondientemente. Este método es el recomendado para grupos de hasta 50 000 usuarios, pero también funciona con grupos más grandes.
 
 Para obtener más información, consulte [Asignar un paquete de directivas a un grupo](assign-policy-packages.md#assign-a-policy-package-to-a-group).
 
@@ -111,7 +109,7 @@ Para obtener más información, consulte [Asignar un paquete de directivas a un 
 
 Use la asignación de paquete de directiva por lotes para asignar un paquete de directivas a grandes grupos de usuarios de una sola vez. Use el cmdlet [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar un lote de usuarios y el paquete de directivas que quiera asignar. Las asignaciones se procesan como una operación de segundo plano y se genera un identificador de operación para cada lote.
 
-Un lote puede contener hasta 5000 usuarios. Puede especificar los usuarios por su identificador de objeto, UPN, dirección SIP o dirección de correo electrónico. Para obtener más información, consulte [Asignar un paquete de directivas a un lote de usuarios](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
+Un lote puede contener hasta 5000 usuarios. Puede especificar los usuarios por su id. de objeto, UPN, dirección SIP o dirección de correo electrónico. Para obtener más información, consulte [Asignar un paquete de directivas a un lote de usuarios](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
 
 ## <a name="related-topics"></a>Temas relacionados
 

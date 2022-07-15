@@ -1,9 +1,9 @@
 ---
 title: Administrar la aplicación Turnos para su organización
-author: mkbond007
-ms.author: mabond
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: aaku
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4c4b76bb4f2f63ffadc0a98d00a8f2d10ec8ef91
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: e97e90a3a6e97bd2637d63cf3ee0d0bceb57dc15
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646269"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819415"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
@@ -50,7 +50,7 @@ Es importante saber que los turnos actualmente no admiten invitados. Esto signif
 Turnos está disponible en todas las SKUs de Enterprise donde Teams esté disponible.
 
 > [!NOTE]
-> Turnos está disponible en entornos de Government Community Cloud (GCC), pero no en entornos GCC alto o dóD.
+> Turnos está disponible en entornos de Government Community Cloud (GCC), pero no en entornos de GCC High o DoD.
 
 ## <a name="location-of-shifts-data"></a>Ubicaciones de datos de Turnos
 
@@ -73,13 +73,13 @@ Para permitir o impedir que determinados usuarios de su organización usen Turno
 
 ### <a name="pin-shifts-to-teams"></a>Anclar Turnos a Teams
 
-#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>Usa la experiencia de la aplicación frontline adaptada para anclar Turnos y otras aplicaciones a Teams
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>Usar la experiencia de la aplicación frontline adaptada para anclar Turnos y otras aplicaciones a Teams
 
-La experiencia de aplicación frontline adaptada en Teams ancla las aplicaciones más relevantes en Teams para los usuarios que tienen una [licencia F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Entre las aplicaciones ancladas se incluyen Turnos, Walkie Talkie, Tareas y Aprobaciones. De forma predeterminada, esta característica está activada, lo que ofrece a sus trabajadores de primera línea una experiencia predefinida que se adapta a sus necesidades.
+La experiencia de aplicación de primera línea adaptada en Teams ancla las aplicaciones más relevantes en Teams para los usuarios que tienen una [licencia F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Entre las aplicaciones ancladas se incluyen Turnos, Walkie Talkie, Tareas y Aprobaciones. De forma predeterminada, esta característica está activada, lo que ofrece a sus trabajadores de primera línea una experiencia predefinida que se adapta a sus necesidades.
 
-Las aplicaciones se anclan a la barra de aplicaciones (la barra situada en el lateral de la Teams cliente de escritorio y en la parte inferior de los clientes móviles Teams), donde los usuarios pueden acceder a ellas de forma rápida y sencilla.
+Las aplicaciones se anclan en la barra de aplicaciones (la barra situada en el lateral del cliente de escritorio de Teams y en la parte inferior de los clientes móviles de Teams), donde los usuarios pueden acceder a ellas de forma rápida y sencilla.
 
-Para obtener más información, incluido cómo funciona la experiencia con las directivas de aplicaciones que establezca, vea [Personalizar las aplicaciones de Teams para los trabajadores de primera línea](../../pin-teams-apps-based-on-license.md).  
+Para obtener más información, incluido cómo funciona la experiencia con las directivas de aplicaciones que establezca, consulte [Personalizar las aplicaciones de Teams para los trabajadores de primera línea](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).  
 
 #### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Usar una directiva de configuración de aplicaciones para anclar Turnos a Teams
 
@@ -87,7 +87,7 @@ Las directivas de configuración de aplicaciones le permiten personalizar Teams 
 
 Puede crear una [directiva de configuración de aplicación personalizada](../../teams-app-setup-policies.md) agregando la aplicación Turnos y, a continuación, [asignando la directiva](../../assign-policies-users-and-groups.md) a los usuarios. O bien, puede usar la directiva de configuración de la aplicación que forma parte de los paquetes de directiva Frontline Worker y Frontline Manager.
 
-Un [paquete de directivas](../../manage-policy-packages.md) de Teams es una colección de directivas predefinidas y configuraciones de directiva que puede asignar a usuarios que tienen roles similares en su organización. El conjunto de directivas de los paquetes de directiva Frontline Worker y Frontline Manager incluye una directiva de configuración de aplicaciones que ancla la aplicación Turnos y otras aplicaciones que admiten actividades de comunicación y colaboración para ese rol.
+Un [paquete de directivas](../../manage-policy-packages.md) en Teams es una colección de directivas predefinidas y configuraciones de directiva que puede asignar a los usuarios que tienen roles similares en su organización. El conjunto de directivas de los paquetes de directiva Frontline Worker y Frontline Manager incluye una directiva de configuración de aplicaciones que ancla la aplicación Turnos y otras aplicaciones que admiten actividades de comunicación y colaboración para ese rol.
 
 Se recomienda usar los paquetes de directivas Frontline Worker y Frontline Manager para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para su personal de primera línea.
 
@@ -101,8 +101,8 @@ Para que pueda buscar en el registro de auditoría, primero debe activar la cara
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-- [Turnos para Teams](../shifts-for-teams-landing-page.md)
+- [Turnos para Teams](/microsoft-365/frontline/shifts-for-teams-landing-page)
 - [Preguntas más frecuentes sobre los datos de Turnos](shifts-data-faq.md)
-- [Conectores de Turnos](shifts-connectors.md)
+- [Conectores de Turnos](/microsoft-365/frontline/shifts-connectors)
 - [Ayuda de turnos para los trabajadores de primera línea](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Asignar directivas a los usuarios en Teams](../../policy-assignment-overview.md)
