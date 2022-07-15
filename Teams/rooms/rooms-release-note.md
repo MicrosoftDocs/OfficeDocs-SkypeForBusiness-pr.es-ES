@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Administración puede leer las notas de la versión de Salas de Microsoft Teams, que muestran mejoras acumulativas en Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d4ac16e7214a6340eb74f1c154661f78a50992ee
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 07b4661df5df7ac766c17a07c2bdd940b3d2cb6b
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529702"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810112"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de la versión para Salas de Microsoft Teams
 
@@ -27,18 +27,19 @@ En este artículo se describen las mejoras acumulativas de Salas de Microsoft Te
 
 Hay dos tipos de actualizaciones para Salas de Teams: Salas de Teams las actualizaciones de aplicaciones y el cliente web de Teams. 
 
-Salas de Teams actualizaciones de aplicaciones se realizan a través de Microsoft Store o a través de [una actualización manual](manual-update.md). Esto actualiza la aplicación de Plataforma universal de Windows (UWP) que se instala localmente en el dispositivo.
+Salas de Teams actualizaciones de aplicaciones se realizan a través de Microsoft Store o a través de [una actualización manual](manual-update.md). Novedades se aplican a la aplicación de Plataforma universal de Windows (UWP) que se instala localmente en el dispositivo.
 
-Las actualizaciones del cliente web de Teams se realizan a través de los servicios de entrega de aplicaciones web de Teams. Se trata de un servicio basado en la nube que no requiere una actualización de la aplicación local para UWP instalada en el dispositivo.
+Las actualizaciones del cliente web de Teams se realizan a través de los servicios de entrega de aplicaciones web de Teams. El cliente web de Teams es un servicio basado en la nube que no requiere una actualización de la aplicación local para UWP instalada en el dispositivo.
 
 Para obtener más información sobre cómo se actualizan Las actualizaciones de Teams, consulte [Proceso de actualización de Teams](../teams-client-update.md)
 
-Salas de Teams se rige por la directiva moderna de ciclo de vida. Consulte [Proceso de actualización de Teams](../teams-client-update.md#servicing-agreement) para obtener más información.
+Salas de Teams se rige por la directiva moderna de ciclo de vida. Para obtener más información, consulte [Proceso de actualización de Teams](../teams-client-update.md#servicing-agreement).
 
 ## <a name="version-history"></a>Historial de versiones
 
 |Lanzamiento |Publicado en <br/> Microsoft Store |
 |--- |--- |
+|4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
@@ -92,6 +93,15 @@ Salas de Teams se rige por la directiva moderna de ciclo de vida. Consulte [Proc
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas de Microsoft Teams introducción a la característica y resolución de problemas
 
+### <a name="4121390-7142022"></a>4.12.139.0 (7/14/2022)
+
+Introducido en esta actualización:
+
+- Cambia el número de versión para permitir que los sistemas afectados por Windows [KB5013942](https://support.microsoft.com/topic/may-10-2022-kb5013942-os-builds-19042-1706-19043-1706-and-19044-1706-60b51119-85be-4a34-9e21-8954f6749504) vuelvan a registrar la aplicación para que se pueda iniciar. No hay cambios funcionales en esta versión de la aplicación desde 4.1.2.138.0.
+
+> [!NOTE]
+> Para obtener más información, consulta "Salas de Teams aplicación no se inicia después de la actualización" en [Problemas conocidos en Salas de Teams y dispositivos](/microsoftteams/troubleshoot/teams-rooms-and-devices/rooms-known-issues).
+
 ### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
 
 Introducido en esta actualización:
@@ -102,7 +112,7 @@ Introducido en esta actualización:
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 
 Introducido en esta actualización:
-- Los administradores de TI pueden inscribir un dispositivo de salas de Teams para recibir características de vista previa públicas a través de la configuración XML. Una vez inscrito, el dispositivo comenzará a recibir características beta. Todas las características que van a las pruebas beta se anuncian en [La versión preliminar pública de Microsoft Teams - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>  
+- Los administradores de TI pueden inscribir un dispositivo de salas de Teams para recibir características de vista previa públicas a través de la configuración XML. Una vez inscrito, el dispositivo comenzará a recibir características beta. Todas las características que van a las pruebas beta se anuncian en la [versión preliminar pública de Microsoft Teams Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
 - El administrador de TI puede establecer la resolución de pantalla frontal de la sala y el escalado de forma remota a través de la configuración XML<sup>2</sup>
 - El administrador de TI puede deshabilitar la supresión de ruido de Microsoft mediante la configuración XML<sup>3</sup> 
 - El administrador de TI puede invalidar la limpieza de la carpeta de descarga en el dispositivo mediante la configuración<sup>4</sup> de la clave del Registro

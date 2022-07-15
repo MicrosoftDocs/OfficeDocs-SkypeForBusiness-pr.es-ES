@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: f0cfd75ed37937abc988f7f865a1357aec352b3c
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: 940f03324ea5a3112296dcb42708a5635c2e2e9f
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773699"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810082"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados por Microsoft Teams
 
@@ -127,6 +127,7 @@ A continuación se muestran las últimas versiones de firmware y aplicación tel
 | #1C de actualización de 2022  | 3 de marzo de 2022  | `1449/1.0.94.2022022305` |`5.0.5304.0` | `322` |
 | #1B de actualización de 2022  | 7 de febrero de 2022   | `1449/1.0.94.2022020202` |`5.0.5304.0` | `322` |
 | Actualización n.º 1 de 2022   | 7 de febrero de 2022   | `1449/1.0.94.2022011305` |`5.0.5304.0` | `322` |
+| #3C de actualización de 2021 | 16 de dic de 2021   | `1449/1.0.94.2021121302` | `5.0.5304.0` | `298` |
 | #3B de actualización de 2021 | 6 de dic de 2021   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |
 | #3A de actualización de 2021 | 22 de noviembre de 2021   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
 | Actualización n.º 3 de 2021  | 3 de noviembre de 2021   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
@@ -176,9 +177,7 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 | Yealink CP960  | `73.15.0.150`  | #1B de actualización de 2022      |
 | Yealink MP52 | `145.15.0.25`  | #1B de actualización de 2022         |
 | Poly Trio C60  | `7.1.4.0250 ` | #3C de actualización de 2021  |
-| Poly CCX600    | `7.1.4.0253  `| #3C de actualización de 2021  |
-| Poly CCX500    | `7.1.4.0253  `| #3C de actualización de 2021  |
-| Poly CCX400    | `7.1.4.0253  `| #3C de actualización de 2021  |
+| Poly CCX400/CCX500/CCX600    | `7.1.4.0253  `| #3C de actualización de 2021  |
 | Poly Trio C60   | `7.1.4.0201`  | #3B de actualización de 2021                        |
 | Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | #3B de actualización de 2021                 |
 |Códigos de audio C448HD  | `1.14.449` | Actualización n.º 3 de 2021  |

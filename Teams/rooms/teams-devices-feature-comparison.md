@@ -20,21 +20,21 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46ea03016b329801b5cdd4b422192ff35496dbdd
-ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
+ms.openlocfilehash: c7b61ebcc5fa650e7282b48d45862b2649783af7
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65886707"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810172"
 ---
 # <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Comparación de características de dispositivos teams para espacios compartidos entre Windows y Android 
-Las experiencias de Salas de Microsoft Teams están diseñadas pensando en los clientes. Cada cliente tiene necesidades únicas, por lo que Microsoft ofrece una gran variedad de opciones, como salas de Teams en Windows y en Android. 
+las experiencias de Salas de Microsoft Teams están diseñadas teniendo en cuenta a los clientes. Cada cliente tiene necesidades únicas, por lo que Microsoft ofrece una amplia variedad de opciones, incluyendo Salas de Teams en Windows y en Android. 
 
 La funcionalidad principal está disponible en ambas plataformas, por lo que los usuarios finales siempre pueden tener excelentes experiencias de audio y vídeo, usar unirse con un solo toque para unirse a reuniones y acceder a características inclusivas, como subtítulos en directo y levantar la mano. 
 
-A medida que Microsoft incorpora nuevas características a Teams y a salas de Teams, nos esforzamos por hacerlas llegar a todas las plataformas, pero las características pueden implementarse en diferentes momentos debido a una serie de factores, incluidos aspectos como la viabilidad técnica y los comentarios de los clientes para cada plataforma. Esto significa que es posible que veas algunas características que se están implementando en Windows antes de que lleguen a la plataforma Android. 
+A medida que Microsoft incorpora nuevas características a Teams y a Salas de Teams, nos esforzamos por llevarlas a todas las plataformas, pero las características pueden implementarse en diferentes momentos debido a una serie de factores, incluidos aspectos como la viabilidad técnica y los comentarios de los clientes para cada plataforma. Esto significa que es posible que veas algunas características que se están implementando en Windows antes de que lleguen a la plataforma Android. 
 
-Para ayudarle a guiarle en cuanto a las características disponibles en distintas plataformas, puede consultar el siguiente gráfico, que se actualizará periódicamente. No todas las características de salas de Teams se incluirán en esta lista, por lo que debe seguir consultando el [mapa de ruta de Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) y los representantes de ventas de Microsoft para obtener detalles adicionales.    
+Para ayudarle a guiarle en cuanto a las características disponibles en distintas plataformas, puede consultar el siguiente gráfico, que se actualizará periódicamente. No todas las características Salas de Teams se incluirán en esta lista, por lo que debe seguir consultando el [mapa de ruta de Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) y los representantes de ventas de Microsoft para obtener detalles adicionales.    
 
 ## <a name="teams-devices-for-shared-spaces"></a>Dispositivos de Teams para espacios compartidos
 ### <a name="feature-comparison-between-windows-and-android"></a>Comparación de características entre Windows y Android
@@ -77,10 +77,11 @@ Para ayudarle a guiarle en cuanto a las características disponibles en distinta
 ||Supervisión del estado periférico conectado |Disponible  |Próximamente |
 ||Configuración remota (reinicio, configuración, recopilación de registros) |Disponible  |Disponible |
 ||Actualizaciones automáticas de la aplicación Teams |Disponible  |Disponible |
-||Inscripción automática del dispositivo |Disponible |Próximamente |
+||Inscripción automática del dispositivo |Disponible |Disponible |
 ||Análisis de calidad de llamadas |Disponible  |Disponible |
 |**Bueno para / Espacio**|Enfoque (2-4 personas) |Disponible  |Disponible |
 ||Pequeño (4-6 personas) |Disponible  |Disponible |
 ||Medio (6-12 personas) |Disponible  |Disponible |
 ||Grande (12-16 personas) |Disponible  |Disponible |
 ||Habitación multiusos (más de 16 personas) |Disponible  |No disponible |
+
