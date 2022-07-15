@@ -1,8 +1,8 @@
 ---
 title: Administrar la aplicación Bookings en Microsoft Teams
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -21,16 +21,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Obtenga información sobre cómo administrar la aplicación Bookings en Teams para los usuarios de su organización.
-ms.openlocfilehash: 45ce6c29cd7bfbaedf53c1b75178142a925157cb
-ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
+ms.openlocfilehash: f11739784dcb9897bf9a3fcbffdadc8aea00d3e0
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "66695043"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819295"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Administrar la aplicación Bookings en Microsoft Teams
 
-La aplicación Bookings en Microsoft Teams ofrece una forma sencilla de programar citas virtuales y en persona. Por ejemplo, visitas médicas, consultas financieras, entrevistas, atención al cliente y horario de oficina para educación. Para obtener más información, consulte [Citas virtuales con Teams y la aplicación bookings](expand-teams-across-your-org/bookings-virtual-visits.md).
+La aplicación Bookings en Microsoft Teams ofrece una forma sencilla de programar citas virtuales y en persona. Por ejemplo, visitas médicas, consultas financieras, entrevistas, atención al cliente y horario de oficina para educación. Para obtener más información, consulte [Citas virtuales con Teams y la aplicación bookings](/microsoft-365/frontline/bookings-virtual-visits).
 
 Los programadores pueden administrar los calendarios y las comunicaciones de varios departamentos y miembros del personal con asistentes internos y externos, desde una única experiencia. Las citas virtuales se realizan a través de reuniones de Microsoft Teams que ofrecen sólidas capacidades de videoconferencia.
 
@@ -100,7 +100,7 @@ Para enviar comentarios, seleccione la opción **Ayuda** en la parte inferior de
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-[Administrar la experiencia de unión para citas virtuales de Teams en exploradores](expand-teams-across-your-org/browser-join.md)
+[Administrar la experiencia de unión para citas virtuales de Teams en exploradores](/microsoft-365/frontline/browser-join)
 
 
   [Documentación de Bookings para usuarios finales](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

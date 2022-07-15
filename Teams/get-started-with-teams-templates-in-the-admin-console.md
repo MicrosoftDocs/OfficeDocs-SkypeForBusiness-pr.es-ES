@@ -11,19 +11,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Obtenga información sobre las plantillas de equipo y cómo administrarlas en el centro de administración de Microsoft Teams.
+description: Obtenga más información sobre las plantillas de equipo y cómo administrarlas en el Centro de administración de Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab184e198c28f4100a224ae17f955ecf73e14cf9
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 0bff3c2c63b94df4c1e19a748d3e9e9912574faa
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676158"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819361"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Introducción a las plantillas de equipo en el centro de administración de Teams
 
@@ -32,18 +32,18 @@ ms.locfileid: "65676158"
 > [!NOTE]
 > - Los canales privados y compartidos no se admiten actualmente en las plantillas de equipo. La creación de canales privados y compartidos no se incluye en las definiciones de plantillas.
 >
-> - Las etiquetas de confidencialidad no se admiten en las plantillas de equipo en entornos de GCC. La opción de etiqueta de confidencialidad del flujo Crear equipo a partir de plantilla no se aplicará al equipo.
+> - Las etiquetas de confidencialidad no se admiten en las plantillas de equipo en entornos GCC. La opción de etiqueta de confidencialidad del flujo Crear equipo a partir de plantilla no se aplicará al equipo.
 
 ## <a name="overview"></a>Información general
 
 Una plantilla de equipo en Microsoft Teams es una definición de la estructura de un equipo diseñada en torno a una necesidad empresarial o un proyecto. Como administrador, puede usar plantillas para implementar fácilmente equipos coherentes en toda la organización. Con las plantillas, los usuarios pueden crear rápidamente espacios de colaboración enriquecidos con configuraciones predefinidas, canales y aplicaciones.
 
-Puede administrar plantillas de equipo en el centro de administración de Microsoft Teams o mediante PowerShell. Puede usar las plantillas predefinidas que proporcionamos y también puede [crear sus propias plantillas personalizadas](#create-your-own-team-templates). También puede [aplicar directivas de plantilla](#apply-team-template-policies) para controlar qué plantillas están disponibles para los usuarios en Teams.
+Puede administrar plantillas de equipo en el Centro de administración de Microsoft Teams o con PowerShell. Puede usar las plantillas predefinidas que proporcionamos y también puede [crear sus propias plantillas personalizadas](#create-your-own-team-templates). También puede [aplicar directivas de plantilla](#apply-team-template-policies) para controlar qué plantillas están disponibles para los usuarios en Teams.
 
-En este artículo se ofrece información general sobre cómo trabajar con plantillas de equipo en el centro de administración de Teams. Obtendrá información sobre las propiedades compatibles con las plantillas, las plantillas predefinidas que proporcionamos, los límites de tamaño de las plantillas, cómo crear y administrar plantillas y mucho más.
+En este artículo se ofrece información general sobre cómo trabajar con plantillas de equipo en el Centro de administración de Teams. Obtendrá información sobre las propiedades compatibles con las plantillas, las plantillas predefinidas que proporcionamos, los límites de tamaño de las plantillas, cómo crear y administrar plantillas y mucho más.
 
 > [!NOTE]
-> Los usuarios pueden [crear equipos a partir de plantillas de equipo predefinidas o personalizadas](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) en la aplicación Teams. Los desarrolladores también pueden crear equipos mediante programación a partir de plantillas de equipo predefinidas con Microsoft Graph. Para obtener más información, consulte [Comenzar con plantillas de equipo con Microsoft Graph](get-started-with-teams-templates.md).
+> Los usuarios pueden [crear equipos a partir de plantillas de equipo predefinidas o personalizadas](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) en la aplicación Teams. Los desarrolladores también pueden crear equipos mediante programación a partir de plantillas de equipo predefinidas con Microsoft Graph. Para obtener más información, consulte [Introducción a las plantillas de equipo con Microsoft Graph](get-started-with-teams-templates.md).
 
 ## <a name="team-template-capabilities"></a>Capacidades de plantillas de equipo
 
@@ -63,9 +63,9 @@ La mayoría de las propiedades de un equipo se incluyen y son compatibles con la
 > [!NOTE]
 > Agregaremos más funcionalidades de plantilla en futuras versiones de Microsoft Teams, así que vuelva a comprobar la información más actualizada sobre las propiedades compatibles.
 
-## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Plantillas de equipo predefinidas en el centro de administración de Teams
+## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Plantillas de equipo predefinidas en el Centro de administración de Teams
 
-Estas son las plantillas de equipo predefinidas que están disponibles en el centro de administración de Teams. Las plantillas predefinidas son plantillas que hemos creado para sectores específicos. Para ver estas plantillas, en el panel de navegación izquierdo del centro de administración de Teams, vaya a **Plantillas de Teams** >  **Team**.
+Estas son las plantillas de equipo predefinidas que están disponibles en el Centro de administración de Teams. Las plantillas predefinidas son plantillas que hemos creado para sectores específicos. Para ver estas plantillas, en el panel de navegación izquierdo del Centro de administración de Teams, vaya a **Plantillas de equipo de** **Teams** > .
 
 Puede duplicar plantillas predefinidas, pero no editarlas. Si desea cambiar las propiedades de una plantilla predefinida, puede crear una plantilla nueva a partir de una existente y, a continuación, agregar o quitar las propiedades que desee. Tenga en cuenta que algunas propiedades de algunas plantillas no se pueden cambiar.
 
@@ -78,7 +78,7 @@ Puede duplicar plantillas predefinidas, pero no editarlas. Si desea cambiar las 
 |Organizar el servicio de asistencia| `com.microsoft.teams.template.OrganizeHelpDesk`|Canales:<ul><li>General</li><li>Anuncios</li><li>Preguntas más frecuentes</li></ul>Aplicaciones:<ul><li>Wiki</li><li>OneNote</li><li>Tareas </li><li>Elogiar</li><li>Informador del problema</li><li>Power Automate</li><li>Boletines</li></ul> |
 | Cuidado del paciente| `com.microsoft.teams.template.healthcareWard`| Canales:<ul><li>General</li><li>Anuncios</li><li>Reuniones</li><li>Rondas</li><li>Personal</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Listas  </li><li>Aprobaciones</li><li>Boletines</li><li>Inspección</li></ul>|
 | Comunicación de crisis |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Canales: <ul><li>General<li>Anuncios</li><li>Noticias mundiales</li><li>Comms internos</li><li>Comunicaciones externas</li><li>Solicitud de aprobaciones</li><li>Escalaciones de clientes</li><li>Actualización ejecutiva</li><li>Planeación</li><li>Logística</li></ul>Aplicaciones: <ul><li>Sitio web</li><li>Tareas</li><li>Informador del problema</li><li>Aprobaciones</li><li>Boletines</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
-|Sucursal bancaria| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Canales: <ul><li>General<li>Anuncios</li><li>Reuniones</li><li>Reuniones de clientes</li><li>solicitud de Aprobaciones </li><li>Asesoramiento</li><li>Desarrollo de aptitudes</li><li>Procesamiento de préstamos</li><li>Quejas de clientes</li><li>Elogios</li><li>Material divertido</li><li>Cumplimiento</li></ul>Aplicaciones:<ul><li>Elogiar </li><li>Informador del problema</li><li>Wiki</li><li>Calendario</li><li>Aprobaciones</li><li>Boletines</li><li>Ideas</li></ul>|
+|Sucursal bancaria| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Canales: <ul><li>General<li>Anuncios</li><li>Reuniones</li><li>Reuniones de clientes</li><li>Solicitud de aprobaciones </li><li>Asesoramiento</li><li>Desarrollo de aptitudes</li><li>Procesamiento de préstamos</li><li>Quejas de clientes</li><li>Elogios</li><li>Material divertido</li><li>Cumplimiento</li></ul>Aplicaciones:<ul><li>Elogiar </li><li>Informador del problema</li><li>Wiki</li><li>Calendario</li><li>Aprobaciones</li><li>Boletines</li><li>Ideas</li></ul>|
 |Respuesta a incidentes| `com.microsoft.teams.template.CoordinateIncidentResponse`|Canales: <ul><li>General<li>Anuncios</li><li>Logística</li><li>Planeación</li><li>Recuperación</li><li>Urgente</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Tareas</li> <li>Aprobaciones</li> <li>Inspección</li> <li>Power Automate</li><li>Boletines</li><li>Hitos</li></ul>|
 |Hospital| `com.microsoft.teams.template.healthcareHospital` |Canales: <ul><li>General</li><li>Anuncios</li><li>Cumplimiento</li><li>Custodia</li><li>Recursos humanos</li><li>Farmacia</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Listas</li><li>Tareas</li><li>Aprobaciones</li><li>Turnos</li><li>Boletines</li><li>Inspección</li><li>Ideas</li></ul>|
 |Organizar una tienda| `com.microsoft.teams.template.retailStore` |Canales: <ul><li>General<li>Cambio de turno</li><li>Preparación del almacén</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Tareas</li><li>Turnos</li><li>Inspección</li></ul>|
@@ -97,7 +97,7 @@ Para obtener más información sobre cómo usar las plantillas predefinidas en s
 - [Plantillas de equipo de atención sanitaria](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [Fabricación de plantillas de equipo](manufacturing-teams-templates-in-the-admin-console.md)
 - [Plantillas de equipo para ONG](team-templates-nonprofit.md)
-- [Plantillas de equipo comerciales](retail-teams-templates-in-the-admin-console.md)
+- [Plantillas de equipo comerciales](get-started-with-retail-teams-templates.md)
 
 ## <a name="team-template-size-limits"></a>Límites de tamaño de las plantillas de equipo
 
@@ -121,7 +121,7 @@ Para obtener más información, consulte [Límites y especificaciones de Teams](
 
 #### <a name="view-team-templates"></a>Ver plantillas de equipo
 
-Para ver las plantillas de equipo, en el panel de navegación izquierdo del centro de administración de Teams, vaya a **plantillas de Teams** >  **Team**. Seleccione una plantilla para ver más detalles, incluidos los canales y las aplicaciones que contiene.
+Para ver las plantillas de equipo, en el panel de navegación izquierdo del Centro de administración de Teams, vaya a **Plantillas de equipo de** **Teams** > . Seleccione una plantilla para ver más detalles, incluidos los canales y las aplicaciones que contiene.
 
 #### <a name="create-your-own-team-templates"></a>Crear sus propias plantillas de equipo
 
@@ -133,7 +133,7 @@ Puede crear sus propias plantillas personalizadas desde cero, a partir de un equ
 
 #### <a name="apply-team-template-policies"></a>Aplicar directivas de plantilla de equipo
 
-Para controlar las plantillas que los usuarios ven en Teams para [crear equipos](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b), puede establecer directivas de plantillas y asignarlas a usuarios y grupos de su organización. Para obtener más información, vea [Administrar plantillas de equipo en el Centro de administración de Teams](templates-policies.md).
+Para controlar las plantillas que los usuarios ven en Teams para [crear equipos](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b), puede establecer directivas de plantillas y asignarlas a usuarios y grupos de su organización. Para obtener más información, consulte [Administrar plantillas de equipo en el Centro de administración de Teams](templates-policies.md).
 
 ### <a name="manage-team-templates-using-powershell"></a>Administrar plantillas de equipo con PowerShell
 

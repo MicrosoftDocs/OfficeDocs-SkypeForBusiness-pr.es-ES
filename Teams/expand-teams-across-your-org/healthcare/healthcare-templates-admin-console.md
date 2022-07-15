@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: yinchang
 description: Obtenga información sobre cómo administrar y usar las plantillas de equipo sanitario en el Centro de administración de Teams y con Microsoft Graph para crear equipos de forma rápida y sencilla para su organización sanitaria.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 78269b393c384af82e48284e3ffefe8785013975
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 831e4e257277ce2fca6dc007ac5f3bfe963bca35
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046006"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819445"
 ---
 # <a name="use-healthcare-team-templates"></a>Usar plantillas de equipo de atención sanitaria
 
@@ -73,7 +73,7 @@ Esta plantilla está pensada para la comunicación y la colaboración entre vari
 &sup1; Aplicación agregada al canal como una pestaña.
 ## <a name="use-team-templates-with-microsoft-graph"></a>Uso de plantillas de equipo con Microsoft Graph
 
-Los desarrolladores pueden usar Microsoft Graph para crear equipos a partir de plantillas de equipo predefinidas. Para obtener más información sobre el uso de plantillas de equipo con Microsoft Graph, vea [Introducción a las plantillas de equipo mediante Microsoft Graph](../../get-started-with-teams-templates.md), [información general de la API de Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0) y [tipo de recurso teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Los desarrolladores pueden usar Microsoft Graph para crear equipos a partir de plantillas de equipo predefinidas. Para obtener más información sobre el uso de plantillas de equipo con Microsoft Graph, vea [Introducción a las plantillas de equipo mediante Microsoft Graph](../../get-started-with-teams-templates.md), [información general de la API de Microsoft Teams](/graph/teams-concept-overview) y [tipo de recurso teamsTemplate](/graph/api/resources/teamstemplate).
 
 Estas son las plantillas de equipo de atención sanitaria predefinidas.
 ### <a name="ward"></a>Sala
@@ -102,7 +102,7 @@ Por ejemplo, si tiene un departamento de *Endocrinología*, pero no necesita un 
 
 ### <a name="how-to-use-team-templates-with-microsoft-graph"></a>Cómo usar las plantillas de equipo con Microsoft Graph
 
-Para usar estas plantillas, cambie la propiedad "template@odata.bind" en el cuerpo de la solicitud de "standard" a TemplateIds anterior. Para obtener más información sobre cómo implementar plantillas de equipo, consulte el artículo de Microsoft Graph sobre cómo [crear un equipo](/graph/api/team-post?view=graph-rest-beta).
+Para usar estas plantillas, cambie la propiedad "template@odata.bind" en el cuerpo de la solicitud de "standard" a TemplateIds anterior. Para obtener más información sobre cómo implementar plantillas de equipo, vea el artículo de Microsoft Graph sobre cómo [crear un equipo](/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Los canales de la plantilla se crearán automáticamente en la pestaña **General**.
@@ -214,4 +214,4 @@ Para usar estas plantillas, cambie la propiedad "template@odata.bind" en el cuer
 - [Crear un equipo a partir de una plantilla](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Introducción a las plantillas de equipo en el centro de administración de Teams](../../get-started-with-teams-templates-in-the-admin-console.md)
 - [Introducción a las plantillas de equipo con Microsoft Graph](../../get-started-with-teams-templates.md)
-- [Introducción a Teams para organizaciones sanitarias](teams-in-hc.md)
+- [Introducción a Teams para organizaciones sanitarias](/microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
