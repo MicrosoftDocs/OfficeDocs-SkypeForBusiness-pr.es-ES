@@ -1,9 +1,9 @@
 ---
 title: Administrar la aplicación Lists para su organización
-author: mkbond007
-ms.author: mabond
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: anach,v-jasuk
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 6c756fcdf8251bc2b468be1f89c98b1f069a1779
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: efb9f2ce1f96dbddef049166e34fd999a5ed987e
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646499"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842236"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Lists para su organización en Microsoft Teams
 
@@ -60,7 +60,7 @@ Una oficina de correos local es la responsable de ordenar y entregar el correo e
 
 Después de juntarse, los carteros recogen su correo e inician la ruta de entrega. Los incidentes pueden producirse en una ruta, por ejemplo, un accidente de vehículo, un problema relacionado con un perro o una protesta social. Cuando los carteros se encuentran con un incidente, usan Teams en sus dispositivos móviles para registrar los detalles del incidente, que se marcan en una lista en el canal del equipo. Todos los miembros del equipo, incluidos los carteros sobre el terreno, pueden ver esta información y mantenerse informados.
 
-Antes de pasar a Teams, los transportistas de correo tuvieron que volver a la oficina de correos para completar un formulario en copia impresa para informar de un incidente, que luego se escribió en una hoja de cálculo de Excel. Teams ofrece a los carteros una experiencia móvil de primera mano en la que pueden usar Lists para informar sobre los incidentes sobre el terreno a medida que se produzcan, compartir detalles de incidentes con los miembros del equipo, mantener conversaciones sobre ellos en el canal e impulsar la resolución de incidentes.
+Antes de pasar a Teams, los operadores de correo tenían que volver a la oficina de correos para completar un formulario en copia impresa para informar de un incidente, que luego se escribió en una hoja de cálculo de Excel. Teams ofrece a los carteros una experiencia móvil de primera mano en la que pueden usar Lists para informar sobre los incidentes sobre el terreno a medida que se produzcan, compartir detalles de incidentes con los miembros del equipo, mantener conversaciones sobre ellos en el canal e impulsar la resolución de incidentes.
 
 ## <a name="what-you-need-to-know-about-lists"></a>Todo lo que debe saber sobre Lists
 
@@ -95,7 +95,7 @@ Si los usuarios de su organización crearon listas con la aplicación SharePoint
 
 De forma predeterminada, Lists está habilitado para todos los usuarios de su organización. Puede desactivar o activar la aplicación en el nivel de organización en la página [Administrar aplicaciones](manage-apps.md) del centro de administración de Microsoft Teams.
 
-1. En el panel izquierdo del centro de administración de Microsoft Teams, vaya a **Teams** **aplicacionesAdministrar** >  aplicaciones.
+1. En el panel izquierdo del Centro de administración de Microsoft Teams, vaya a Aplicaciones  > **de Teams****Administrar aplicaciones**.
 2. Realice una de las siguientes acciones:
 
     - Para desactivar Listas para su organización, busque la aplicación Listas, selecciónela y, a continuación, seleccione **Bloquear**.
@@ -119,7 +119,7 @@ Lists admite [Power Automate](/power-automate/flow-types) para flujos de trabajo
 
 ## <a name="give-feedback-or-report-an-issue"></a>Enviar comentarios o informar de un problema
   
-Para enviarnos comentarios o informar de un problema, selecciona **Ayuda** cerca de la parte inferior del panel izquierdo en Teams y, a continuación, selecciona **Informar de un problema**. Seleccione **Lists** y después escriba sus comentarios o detalles sobre el problema que experimenta.
+Para enviarnos comentarios o informar de un problema, seleccione **Ayuda** cerca de la parte inferior del panel izquierdo en Teams y, a continuación, seleccione **Informar de un problema**. Seleccione **Lists** y después escriba sus comentarios o detalles sobre el problema que experimenta.
 
 ## <a name="related-articles"></a>Artículos relacionados
 

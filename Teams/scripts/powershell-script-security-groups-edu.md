@@ -1,7 +1,7 @@
 ---
 title: 'Ejemplo de script de PowerShell: Crear grupos de seguridad para profesores y alumnos de su centro educativo'
-author: serdars
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f46bd50e47640c575489788ccd3e5db0ce778564
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 99c4e10cc37513323eb3dcfb8159977b269a667d
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681551"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838795"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Ejemplo de script de PowerShell: Crear grupos de seguridad para profesores y alumnos de su centro educativo
 
-Use este script de PowerShell para crear los grupos de seguridad que necesita para administrar las directivas de Microsoft Teams de su centro educativo. La [asignación de directivas a la característica de grupos](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) de Teams le permite asignar una directiva a un grupo de usuarios, como un grupo de seguridad. La asignación de directiva se extiende a los miembros del grupo en función de las reglas de prioridad. A medida que se agregan o se eliminan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan correspondientemente.
+Use este script de PowerShell para crear los grupos de seguridad que necesita para administrar las directivas de Microsoft Teams en su centro educativo. La [asignación de directivas a grupos](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) de Teams le permite asignar una directiva a un grupo de usuarios, como un grupo de seguridad. La asignación de directiva se extiende a los miembros del grupo en función de las reglas de prioridad. A medida que se agregan o se eliminan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan correspondientemente.
 
 Este script de PowerShell crea dos grupos de seguridad, uno para el personal y profesores y otro para los alumnos del centro educativo, según el tipo de licencia. Después, puede asignar directivas a los grupos de seguridad que ha creado. Para obtener más información sobre el uso de este script, vea [Asignar directivas a grandes conjuntos de usuarios de su centro educativo](../batch-group-policy-assignment-edu.md).
 
@@ -34,7 +34,7 @@ Este script hace lo siguiente:
 
 - Identifica al personal y a los formadores a los que se les asigna una SKU para profesores, crea un grupo de seguridad y, a continuación, agrega personal y formadores al grupo.
 - Identifica a los alumnos a los que se les ha asignado una SKU de estudiante, crea un grupo de seguridad y, a continuación, agrega los alumnos al grupo.
-- Actualiza la pertenencia a cada grupo de seguridad para agregar o quitar docentes, profesores y alumnos en función de si tienen una licencia.
+- Novedades la pertenencia a cada grupo de seguridad para agregar o quitar docentes, profesores y alumnos en función de si tienen una licencia.
 
 Tendrá que ejecutar este script periódicamente para mantener actualizados los grupos de seguridad.
 
@@ -45,7 +45,7 @@ Tendrá que ejecutar este script periódicamente para mantener actualizados los 
 
 Descargue e instale el [módulo Skype Empresarial PowerShell en línea](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell) y, a continuación, reinicie el equipo si se le solicita.
 
-Para obtener más información, vea [Administrar Skype Empresarial Online con Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) y [Teams información general de PowerShell](../teams-powershell-overview.md).
+Para obtener más información, consulte [Administrar Skype Empresarial Online con Office 365 Introducción a PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) y [Teams](../teams-powershell-overview.md).
 
 
 ## <a name="sample-script"></a>Ejemplo de script

@@ -2,7 +2,7 @@
 title: Salas de Microsoft Teams incidentes notificados por el cliente
 author: donnah007
 ms.author: v-donnahill
-ms.date: 06/27/2022
+ms.date: 07/08/2022
 manager: serdars
 ms.reviewer: dstrome
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Los partners/clientes pueden cerrar incidentes manualmente y garantizar la notificación precisa del estado de la sala en MTRP.
-ms.openlocfilehash: 3f765627e2d18d52a6b3db8abbdd2ad59cee7019
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: f28462c6fab02a2a6b8e7db00b1f89ff30b80da1
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494673"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842309"
 ---
 # <a name="customer-reported-incident-tickets"></a>Incidencias notificadas por el cliente
 
@@ -31,6 +31,11 @@ Para cualquier tipo de incidente que Microsoft no haya marcado, o para preguntas
 ![captura de pantalla del informe de incidentes >incidente](../media/customer-reported-incidents-001.png)
 
 En el campo Descripción, describe lo mejor posible el problema con el que necesitas ayuda de Microsoft. Puede agregar una o más salas.
+
+Compruebe  **Alto impacto** si el incidente está causando una degradación significativa del estado del servicio o de una sala crítica. Para ayudar a Microsoft a priorizar correctamente tu solicitud, describe detalladamente el motivo por el que esto tiene un gran impacto.
+
+> [!NOTE]
+> No use este campo para preguntas generales, salas o problemas que no tengan mitigación disponible.
 
 ![captura de pantalla de los salones de informe de incidentes afectados](../media/customer-reported-incidents-002.png)
 

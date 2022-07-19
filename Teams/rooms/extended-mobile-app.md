@@ -18,19 +18,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Extensión de aplicación móvil para Salas de Teams
 f1keywords: Microsoft Teams Rooms Managed Service mobile app extension
-ms.openlocfilehash: cfeb5573ce164ea136ba3617fe73661f8ac4ca97
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 939ac7d5bd61f51a229400b2c1aee1bd38047369
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046136"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842326"
 ---
 # <a name="teams-rooms-mobile-client-application-features"></a>Salas de Teams características de la aplicación cliente móvil
 
 Puede haber ocasiones en las que necesite administrar Salas de Teams Servicios administrados (MTMS) desde su dispositivo móvil. La aplicación móvil tiene muchas capacidades que puede administrar desde su dispositivo móvil o tableta.
 ## <a name="before-you-begin"></a>Antes de empezar
 
-Debe ser administrador de una organización Microsoft 365 para poder usar la aplicación móvil de Salas de Teams.
+Debe ser administrador de una organización de Microsoft 365 para poder usar la aplicación móvil Salas de Teams.
 Descarga la aplicación móvil Salas de Teams desde el [App Store de Apple](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8) o desde el [Google Play Store](https://play.google.com/store/search?q=Microsoft%20Teams%20Rooms&c=apps).
 
 **Para obtener la aplicación móvil MTMS**
@@ -52,7 +52,7 @@ Estas son algunas de las funcionalidades que tiene en la aplicación móvil para
 
 La página Incidentes muestra los tipos de incidentes abiertos.
 
-![Pantalla de la página de incidentes de aplicaciones móviles MTMS](../media/mtms-extended-app-001.png)imagen aprobada por autor <!--Microsoft por autor.>
+![Pantalla de la página de incidentes de aplicaciones móviles MTMS](../media/mtms-extended-app-001.png)
 
 ## <a name="managing-tickets"></a>Administración de entradas
 Estas son algunas de las funcionalidades que tienes en la aplicación móvil para administrar entradas.
@@ -99,7 +99,7 @@ A continuación se ofrecen respuestas a las preguntas más frecuentes.
 
 **¿Qué tengo que hacer para poder usar la aplicación?**
 
-Para usar la aplicación, debe tener permisos de administrador y una suscripción de Microsoft 365 válida.
+Para usar la aplicación, debe tener permisos de administrador y una suscripción válida de Microsoft 365.
 
 
 **¿Qué idiomas admite la aplicación?**
@@ -116,7 +116,7 @@ Para usar la aplicación, debe tener permisos de administrador y una suscripció
 Puedes probar algunos pasos comunes de solución de problemas de aplicaciones móviles:
 - Cierre y vuelva a abrir la aplicación.
 - Desinstala y vuelve a instalar la aplicación. Asegúrese de que se encuentra en la versión más reciente de la aplicación.
-- Si tienes Microsoft Authenticator o aplicación del portal de empresa instalada en el dispositivo, intenta volver a instalarla o actualizar a la versión más reciente. Si esto no funciona, puede enviarnos un correo electrónico en feedback365@microsoft.com para informarnos.
+- Si tienes microsoft authenticator o aplicación del portal de empresa instalada en el dispositivo, intenta volver a instalarla o actualizar a la versión más reciente. Si esto no funciona, puede enviarnos un correo electrónico en feedback365@microsoft.com para informarnos.
 
 **¿Qué hago si no encuentro la respuesta a mi pregunta?**
 
@@ -127,5 +127,5 @@ El cliente móvil ofrece tanto la creación de incidencias como la administraci�
 **Para usar la aplicación móvil Salas de Teams**
 
 1. Descarga la aplicación desde el [App Store de Apple]() o desde el [Google Play Store]()
-1. Asegúrese de que tiene una suscripción de Microsoft 365 válida.
+1. Asegúrese de que tiene una suscripción válida de Microsoft 365.
 1. Use las credenciales de trabajo que usa para acceder a la aplicación de escritorio Salas de Teams.

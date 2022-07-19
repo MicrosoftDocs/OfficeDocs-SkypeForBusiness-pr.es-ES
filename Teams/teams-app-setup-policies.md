@@ -19,26 +19,26 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 9c18d1ce0e7b9d75245dc62a5990c7dfbbad7246
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: b97f6c490f562cbd860e6c69a09e3659340dea99
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819465"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838805"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
-Como administrador, puede usar las directivas de configuración de aplicaciones para instalar y anclar aplicaciones y permitir que los usuarios carguen aplicaciones personalizadas. Anclar ayuda a promover la adopción de aplicaciones relevantes en su organización.
+Como administrador, puede usar directivas de configuración de aplicaciones para instalar y anclar aplicaciones, y permitir que los usuarios carguen aplicaciones personalizadas. Anclar ayuda a promover la adopción de aplicaciones relevantes en su organización.
 
 * **Anclar aplicaciones:** Las directivas de configuración de aplicaciones le permiten elegir las aplicaciones que anclar, establecer el orden en que se muestran las aplicaciones para los usuarios en la barra de aplicaciones de Teams o en el área de redacción de mensajes. Los administradores también pueden controlar si los usuarios finales pueden anclar sus propias aplicaciones o no. Consulta [Anclar aplicaciones](#pin-apps).
-* **Instalar aplicaciones:** Las directivas de configuración de aplicaciones le permiten instalar aplicaciones en nombre de los usuarios al iniciar Teams y durante las reuniones. Para obtener más información, consulta [Instalar aplicaciones](#install-apps).
+* **Instalar aplicaciones:** Las directivas de configuración de aplicaciones le permiten instalar las aplicaciones permitidas en nombre de los usuarios cuando inician Teams y durante las reuniones. Para obtener más información, consulta [Instalar aplicaciones](#install-apps).
 * **Cargar aplicaciones personalizadas:** Las directivas de configuración de aplicaciones le permiten a los usuarios cargar aplicaciones personalizadas en Teams. Para obtener más información, vea [Cargar aplicaciones personalizadas](#upload-custom-apps).
 
 ## <a name="pin-apps"></a>Anclar aplicaciones
 
-Anclar aplicaciones te permite resaltar las aplicaciones que más necesitan los usuarios de tu organización. Anclar funciona para aplicaciones proporcionadas por Microsoft, por empresas de ISV y por desarrolladores dentro de su organización. Anclar una aplicación a través de una directiva de configuración de aplicaciones también la instala. Con una directiva de configuración de aplicaciones, puede realizar las siguientes tareas:
+Anclar aplicaciones te permite resaltar las aplicaciones que más necesitan los usuarios de tu organización. Anclar funciona para aplicaciones proporcionadas por Microsoft, por empresas de ISV y por desarrolladores dentro de su organización. Anclar una aplicación a través de una directiva de configuración de la aplicación también la instala, si la aplicación está permitida para el usuario. Con una directiva de configuración de aplicaciones, puede realizar las siguientes tareas:
 
-* Personalice Teams para destacar las aplicaciones más importantes para sus usuarios. Puedes elegir las aplicaciones que quieres anclar y establecer el orden en que aparecen.
+* Personalice Microsoft Teams para los usuarios finales para resaltar las aplicaciones más importantes para ellos. Puedes elegir las aplicaciones que quieres anclar y el orden en que se muestran las aplicaciones.
 * Controlar si los usuarios pueden anclar aplicaciones o no.
 
 Las aplicaciones se anclan en la barra de aplicaciones del lado izquierdo del cliente de escritorio de Teams y en la parte inferior de los clientes móviles de Teams.
@@ -88,7 +88,6 @@ Con una directiva de configuración de la aplicación, un administrador puede re
 
 * Instale aplicaciones para los usuarios finales en su entorno personal de Teams, de forma predeterminada.
 * Instala aplicaciones para los usuarios finales como [extensiones de mensajería](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
-* Instale aplicaciones en reuniones para los organizadores de reuniones.
 
 Los usuarios finales pueden instalar aplicaciones por su cuenta si la [directiva de permisos](teams-app-permission-policies.md) de las aplicaciones lo permite.
 
@@ -201,7 +200,7 @@ Para ver todas las aplicaciones ancladas para un usuario, es posible que los usu
 
 Los clientes móviles de Teams (iOS y Android) admiten aplicaciones personales con pestañas estáticas. Las aplicaciones ancladas al cliente de escritorio de Teams aparecerán en los clientes móviles de Teams. Los bots personales aparecerán en Chat en clientes móviles.
 
-Las aplicaciones de terceros (que se pueden descargar desde la Tienda Teams) deben aprobarse antes de que aparezcan en dispositivos móviles. Si un administrador ancla una aplicación, que Microsoft para móviles no ha aprobado, se mostrará en el escritorio de Teams, pero no se mostrará en dispositivos móviles. Consulte [Clientes móviles](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) para obtener más información.
+Las aplicaciones de terceros (que se pueden descargar desde la Tienda Teams) deben aprobarse antes de que aparezcan en dispositivos móviles. Si un administrador ancla una aplicación, que Microsoft para móviles no ha aprobado, se mostrará en el escritorio de Teams, pero no se mostrará en dispositivos móviles. Para obtener más información, consulte [Clientes móviles](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients).
 
 Con los clientes móviles de Teams, los usuarios verán las principales aplicaciones de Teams, como Actividad, Chat y Teams, y puede anclar algunas aplicaciones de origen de Microsoft, como Turnos.
 

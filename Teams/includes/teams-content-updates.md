@@ -3,6 +3,51 @@
 
 
 
+## <a name="week-of-july-11-2022"></a>Semana del 11 de julio de 2022
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 7/13/2022 | [Música en espera](/MicrosoftTeams/music-on-hold) | modificado |
+| 7/14/2022 | [Planear puerta de enlace SIP](/MicrosoftTeams/sip-gateway-plan) | modificado |
+| 7/15/2022 | [Notas de la versión para Salas de Microsoft Teams (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
+| 7/15/2022 | [Paquetes de directivas de Teams para los trabajadores de primera línea](/MicrosoftTeams/policy-packages-flw) | agregado |
+| 7/15/2022 | [Administrar la aplicación Aprobaciones en Microsoft Teams](/MicrosoftTeams/approval-admin) | modificado |
+| 7/15/2022 | [Administrar la aplicación Bookings en Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | modificado |
+| 7/15/2022 | Implementar equipos a escala para los trabajadores de primera línea en Microsoft Teams | eliminado |
+| 7/15/2022 | Citas virtuales con Microsoft Teams y la aplicación Bookings | eliminado |
+| 7/15/2022 | Administrar la experiencia de unión para citas virtuales de Teams en exploradores | eliminado |
+| 7/15/2022 | [Expandir Microsoft Teams en toda la organización](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | modificado |
+| 7/15/2022 | Citas virtuales con Teams: integración en Cerner EHR | eliminado |
+| 7/15/2022 | Conector EHR de Microsoft Teams Citas virtuales informe | eliminado |
+| 7/15/2022 | Citas virtuales con Teams: integración en Epic EHR | eliminado |
+| 7/15/2022 | Delegación de mensajes | eliminado |
+| 7/15/2022 | Mensajería segura para organizaciones sanitarias que usan Microsoft Teams | eliminado |
+| 7/15/2022 | Introducción a Teams para organizaciones sanitarias | eliminado |
+| 7/15/2022 | Simplifique los procesos empresariales en entornos comerciales | eliminado |
+| 7/15/2022 | Colaboración de equipos minoristas | eliminado |
+| 7/15/2022 | Turnos para Teams | eliminado |
+| 7/15/2022 | Administrar el acceso basado en turnos para los trabajadores de primera línea en Teams | eliminado |
+| 7/15/2022 | [Administrar la aplicación Turnos para su organización](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modificado |
+| 7/15/2022 | Administrar los propietarios de la programación para la administración de turnos | eliminado |
+| 7/15/2022 | Usar PowerShell para conectar Turnos a Blue Yonder Workforce Management | eliminado |
+| 7/15/2022 | Use PowerShell para administrar la conexión de Turnos a Blue Yonder Workforce Management | eliminado |
+| 7/15/2022 | Usar el asistente del conector Mayús para conectar Turnos a Blue Yonder Workforce Management | eliminado |
+| 7/15/2022 | Conectores de Turnos | eliminado |
+| 7/15/2022 | Teams para el comercio | eliminado |
+| 7/15/2022 | Ayudar a sus clientes y clientes a usar citas virtuales | eliminado |
+| 7/15/2022 | [Introducción a Teams para personal de primera línea](/MicrosoftTeams/flw-landing-page) | modificado |
+| 7/15/2022 | Comprender los tipos de usuario y las licencias del personal de primera línea | eliminado |
+| 7/15/2022 | Usar el asistente de incorporación de personal de primera línea para que su fuerza de trabajo esté en funcionamiento | eliminado |
+| 7/15/2022 | Guía de inicio rápido de frontline worker | eliminado |
+| 7/15/2022 | Administrar la versión de prueba de primera línea en Teams | eliminado |
+| 7/15/2022 | Adaptar las aplicaciones de Teams para los trabajadores de primera línea | eliminado |
+| 7/15/2022 | [Paquetes de directivas de Teams para sanidad](/MicrosoftTeams/policy-packages-healthcare) | modificado |
+| 7/15/2022 | Informe de uso de visitas virtuales de Microsoft Teams | eliminado |
+| 7/15/2022 | [Ejemplo de script de PowerShell: administradores de exportación y sus informes directos](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-export-managers) | modificado |
+| 7/15/2022 | [Ejemplo de script de PowerShell: crear nuevos equipos de administradores de personas](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-new-teams) | modificado |
+
+
 ## <a name="week-of-july-04-2022"></a>Semana del 04 de julio de 2022
 
 
@@ -90,22 +135,3 @@
 | 6/16/2022 | [Planear operadores automáticos y colas de llamadas de Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | modificado |
 | 6/16/2022 | [Cargar las aplicaciones personalizadas en el Centro de administración de Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | modificado |
 | 6/16/2022 | [Administrar directivas de reunión para participantes e invitados](/MicrosoftTeams/meeting-policies-participants-and-guests) | modificado |
-
-
-## <a name="week-of-june-06-2022"></a>Semana del 06 de junio de 2022
-
-
-| Fecha de publicación |Título del tema | Cambio |
-|------|------------|--------|
-| 6/6/2022 | [Administrar el acceso a las aplicaciones de Teams en Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modificado |
-| 6/7/2022 | [Administrar la aplicación de Novedades para su organización](/MicrosoftTeams/manage-updates-app) | modificado |
-| 6/7/2022 | [Implementar equipos a escala para los trabajadores de primera línea en Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | agregado |
-| 6/8/2022 | [Habilitar Salas de Teams dispositivos para unirse a reuniones de terceros](/MicrosoftTeams/rooms/third-party-join) | modificado |
-| 6/9/2022 | [Comportamiento de las aplicaciones de Teams en función de los tipos de usuarios](/MicrosoftTeams/non-standard-users) | modificado |
-| 6/9/2022 | [Configurar la licencia de Teléfono de área común](/MicrosoftTeams/set-up-common-area-phones) | modificado |
-| 6/9/2022 | [Crear una cola de llamadas en Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
-| 6/9/2022 | [Configurar Créditos de comunicaciones para su organización](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modificado |
-| 6/10/2022 | [Extensión de aplicación móvil](/MicrosoftTeams/rooms/extended-mobile-app) | agregado |
-| 6/10/2022 | [Implementar equipos a escala para los trabajadores de primera línea en Microsoft Teams](/MicrosoftTeams/deploy-teams-at-scale) | modificado |
-| 6/10/2022 | [Pasar de licencias de Business Voice a Teams Phone](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | agregado |
-| 6/10/2022 | [Habilitar Salas de Teams dispositivos para unirse a reuniones de terceros](/MicrosoftTeams/rooms/third-party-join) | modificado |

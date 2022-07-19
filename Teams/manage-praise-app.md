@@ -1,56 +1,56 @@
 ---
-title: Administrar la aplicación Elogio en el centro de administración de Teams
-author: mkbond007
-ms.author: mabond
-manager: serdars
+title: Administrar la aplicación Elogiar en el Centro de administración de Teams
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 ms.reviewer: rjam
 audience: admin
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
-description: Obtenga información sobre cómo administrar la aplicación de Elogio en el centro de administración de Microsoft Teams.
-ms.openlocfilehash: e9da2a1903c53f469d6a64c6773715bfe1697743
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+description: Obtenga información sobre cómo administrar la aplicación Elogiar en el Centro de administración de Microsoft Teams.
+ms.openlocfilehash: 0b2e733478f309df8ff1c8253b21f01f92d800f9
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646279"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842246"
 ---
-# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Administrar la aplicación Elogio en el centro de administración de Microsoft Teams
+# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Administrar la aplicación Elogiar en el Centro de administración de Microsoft Teams
 
-La aplicación Elogio de Microsoft Teams ayuda a los usuarios a mostrar su agradecimiento a los miembros de su organización o clase. Los distintivos de Elogio están diseñados para ayudar a reconocer el esfuerzo que se realiza en la amplia gama de trabajo que realizan los usuarios Teams, desde educadores hasta trabajadores de primera línea. Para obtener más información, consulta [Enviar Elogio a contactos](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
+La aplicación Elogiar de Microsoft Teams ayuda a los usuarios a mostrar su agradecimiento a los miembros de su organización o clase. Los distintivos de Elogiar están diseñados para ayudar a reconocer el esfuerzo que se realiza en la amplia gama de trabajo que realizan los usuarios de Teams, desde educadores hasta trabajadores de primera línea. Para obtener más información, consulte [Enviar elogios a los usuarios](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
 
-Los administradores deben tener una licencia Teams para acceder a esta característica. Si intenta acceder a esta característica sin una licencia de Teams, recibirá un mensaje de error.
+Los administradores deben tener una licencia de Teams para acceder a esta característica. Si intenta acceder a esta característica sin una licencia de Teams, recibirá un mensaje de error.
 
 > [!NOTE]
-> La aplicación Elogio está disponible para GCC entorno en la nube, pero no para GCC Alto o DoD.
+> La aplicación Elogiar está disponible para el entorno de nube GCC, pero no para GCC High o DoD.
 
 ## <a name="enable-or-disable-praise-in-your-organization"></a>Habilitar o deshabilitar Elogio en su organización
 
-Elogio está habilitado de forma predeterminada para todos los usuarios de Teams de la organización. Puede desactivar o activar la aplicación en el nivel de organización en la página [Administrar aplicaciones](manage-apps.md) del Centro de administración de Microsoft Teams.
+Elogio está habilitado de forma predeterminada para todos los usuarios de Teams de su organización. Puede desactivar o activar la aplicación en el nivel de organización en la página [Administrar aplicaciones](manage-apps.md) del Centro de administración de Microsoft Teams.
 
-:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Captura de pantalla de la página de detalles de la aplicación Elogio en el centro de administración de Teams, que muestra el botón de alternancia Estado.":::
+:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Captura de pantalla de la página de detalles de la aplicación Elogiar en el Centro de administración de Teams, que muestra el botón de alternancia Estado.":::
 
-1. En el panel izquierdo del centro de administración de Microsoft Teams, vaya a **Teams** **aplicacionesAdministrar** >  aplicaciones.
-2. En la lista de aplicaciones, busca la aplicación Elogio, selecciónala y cambia el botón de alternancia **Estado** a **Bloqueado** o **Permitido**.
+1. En el panel izquierdo del Centro de administración de Microsoft Teams, vaya a Aplicaciones  > **de Teams****Administrar aplicaciones**.
+2. En la lista de aplicaciones, busca la aplicación Elogiar, selecciónala y cambia el botón de alternancia **Estado** a **Bloqueada** o **Permitida**.
 
-Ten en cuenta que esta configuración afecta tanto a la aplicación Elogio como a la característica Elogio de la aplicación Ideas Viva en Teams.
+Tenga en cuenta que esta configuración afecta tanto a la aplicación Elogiar como a la característica Elogiar de la aplicación Ideas Viva en Teams.
 
-Si establece el Estado en Bloqueado, la aplicación Elogio se bloqueará en unos minutos durante Teams. Sin embargo, elogios en Ideas Viva pueden tardar entre 7 y 9 días en bloquearse.
+Si establece el Estado en Bloqueado, la aplicación Elogiar se bloqueará en unos minutos para Teams. Sin embargo, elogios en Ideas Viva pueden tardar entre 7 y 9 días en bloquearse.
 
-## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar Elogio para usuarios específicos de la organización
+## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar Elogio para usuarios específicos de su organización
 
-Para permitir o bloquear el uso de Elogio a usuarios específicos de su organización, asegúrese de que Elogio está activado para su organización en la página [Administrar aplicaciones](manage-apps.md). A continuación, cree una directiva de permisos de aplicación personalizada y asígnela a esos usuarios. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-app-permission-policies.md).
+Para permitir o impedir que usuarios específicos de su organización usen Elogiar, asegúrese de que Elogiar está activado para su organización en la página [Administrar aplicaciones](manage-apps.md) . A continuación, cree una directiva de permisos de aplicación personalizada y asígnela a esos usuarios. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-app-permission-policies.md).
 
 ## <a name="badges"></a>Insignias
 
-Este es el conjunto predeterminado de distintivos de Elogio. Teams los usuarios de su organización pueden usar estos distintivos para reconocer a sus compañeros por ir más allá con su trabajo.
+Este es el conjunto predeterminado de distintivos en Elogiar. Los usuarios de Teams de su organización pueden usar estos distintivos para reconocer a sus compañeros por ir más allá con su trabajo.
 
 :::image type="content" source="media/default-set-praise.png" alt-text="Imagen de distintivos en el conjunto de distintivos predeterminado.":::
 
 > [!NOTE]
-> A partir de febrero de 2022, los usuarios solo pueden enviar y recibir distintivos predeterminados. Los distintivos personalizados ya no están disponibles y las opciones para los distintivos personalizados se han quitado del centro de administración de Teams.
+> A partir de febrero de 2022, los usuarios solo pueden enviar y recibir distintivos predeterminados. Los distintivos personalizados ya no están disponibles y las opciones para los distintivos personalizados se han quitado del Centro de administración de Teams.
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-[Administrar las aplicaciones en el centro de administración de Microsoft Teams](manage-apps.md)
+[Administrar las aplicaciones en el Centro de administración de Microsoft Teams](manage-apps.md)

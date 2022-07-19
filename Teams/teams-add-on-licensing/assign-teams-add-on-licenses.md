@@ -1,7 +1,7 @@
 ---
 title: Asignar licencias de complementos de Teams a usuarios
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Obtenga información sobre cómo asignar licencias de complementos de Teams a los usuarios para funcionalidades como Audioconferencia, Sistema telefónico y Planes de llamadas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fca8eb5acac30210e67068f9a2b1eb8dfdce3cb
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 380abec55466d831722c76c9e552055378ecf1df
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682499"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838825"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Asignar licencias de complementos de Teams a usuarios
 
