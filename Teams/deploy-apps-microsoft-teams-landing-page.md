@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: f802506ff815745aaf555501e37171ebddfc7f91
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 24115de31c06c38ff1f0217868cf19993aa24555
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615866"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838865"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Acerca de las aplicaciones de Microsoft Teams
 
@@ -83,9 +83,15 @@ Los desarrolladores pueden transferir localmente una aplicación para que esté 
 
 Si no permite la instalación de prueba, los desarrolladores aún pueden probar sus aplicaciones en un [espacio empresarial de prueba](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Una vez completado el desarrollo de aplicaciones personalizadas, los desarrolladores solicitan a los administradores que distribuyan su aplicación personalizada a los usuarios finales. Para obtener más información, consulte [cómo publicar una aplicación personalizada](/microsoftteams/upload-custom-apps). Como administrador, puede permitir o denegar el uso de una aplicación personalizada para usuarios específicos.
 
-### <a name="about-app-templates"></a>Información de plantillas de aplicación
+## <a name="about-app-templates"></a>Información de plantillas de aplicación
 
-Las plantillas de aplicación para Teams son aplicaciones de ejemplo funcionales listas para producción creadas por Microsoft para ilustrar casos de uso populares, presentar procedimientos recomendados de desarrollo de aplicaciones y proporcionar aplicaciones de código abierto que los desarrolladores pueden ampliar para crear aplicaciones personalizadas. Los desarrolladores de la organización personalizan las plantillas de aplicación para las necesidades de su organización con cambios sencillos en el código disponible en GitHub. Como administrador, estas aplicaciones se proporcionan como aplicaciones personalizadas para los usuarios finales.
+Las plantillas de aplicación para Teams son aplicaciones de ejemplo funcionales y listas para producción creadas por Microsoft para lograr lo siguiente:
+
+* Ilustrar los casos de uso más populares
+* Presentar los procedimientos recomendados de desarrollo de aplicaciones
+* Proporcionar aplicaciones de código abierto que los desarrolladores pueden ampliar para crear aplicaciones personalizadas
+
+Los desarrolladores de la organización personalizan las plantillas de aplicación con cambios sencillos en el código disponible en GitHub. Usted proporciona estas aplicaciones como aplicaciones personalizadas para los usuarios finales, para satisfacer las necesidades de la organización.
 
 Para obtener más información, consulte [Plantillas de aplicación de Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
