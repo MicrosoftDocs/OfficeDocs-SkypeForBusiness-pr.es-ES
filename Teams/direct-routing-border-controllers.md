@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb4363fec70a7bcf139929541a7dfe3686089937
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 3a0db349d1e828a238a6b7a68d8f005e7389182b
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823552"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838855"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -178,3 +178,6 @@ En la tabla siguiente se enumeran los dispositivos que se comprueban para la int
 Tenga en cuenta la certificación concedida a una versión principal. Esto significa que se admite el firmware con cualquier número en el firmware del CLS después de la versión principal.
 
 Para proporcionar comentarios sobre Teams, como ideas para nuevas características, consulte el [portal de comentarios de Microsoft](https://feedbackportal.microsoft.com/).
+
+> [!NOTE]
+> No se admite el redireccionamiento de medios. Durante una llamada de Enrutamiento directo, si el CLS envía una nueva dirección IP de medios a Enrutamiento directo de Teams, aunque se negocia en la señalización SIP, los medios nunca se envían a la nueva dirección IP desde Enrutamiento directo de Teams.
