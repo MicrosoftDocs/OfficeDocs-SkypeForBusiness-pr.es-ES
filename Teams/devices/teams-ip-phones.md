@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: 940f03324ea5a3112296dcb42708a5635c2e2e9f
-ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
+ms.openlocfilehash: 33be6dce1359637602ee81bcefdb6b4035c22f6c
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66810082"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880254"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados por Microsoft Teams
 
@@ -343,6 +343,7 @@ A continuación se muestran las últimas versiones de firmware y aplicación de 
 
 |Lanzamiento del producto| Fecha de lanzamiento | Versión de aplicación de Microsoft Teams | versión Portal de empresa | versión del agente de Administración |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Actualización n.º 3 de 2022  | 12 de julio de 2022 | `1449/1.0.97.2022739901` | `5.0.5304.0`  | `322` |
 |Actualización n.º 2 de 2022  | 25 de abril de 2022 | `1449/1.0.97.2022733702` | `5.0.5304.0`  | `322` |
 |#1A de actualización de 2022 | 25 de febrero de 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
 |Actualización n.º 1 de 2022  | 22 de febrero de 2022 |`1449/1.0.97.2021726501` | `5.0.5304.0 `  | `322` |

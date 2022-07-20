@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1a9058dbd583c9d795d04f27b43995c75095e80d
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: fb621661ab8b5b8ace8a965e77513cd72966cf23
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647672"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880374"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Responder al operador automático y llamar a la cola de llamadas directamente desde Teams
 
@@ -49,7 +49,7 @@ Una vez que se responde a un operador automático o a una llamada en cola de lla
 > [!NOTE] 
 > Las llamadas de la cola de llamadas no se desvía según la configuración de las reglas de respuesta de llamadas del usuario. Esto garantiza que los autores de llamadas permanezcan en la cola hasta que un agente pueda responder a la llamada y que el autor de la llamada no se reenvíe inesperadamente.
 >
-> Los usuarios que reciban llamadas de operadores automáticos y colas de llamadas solo se mostrarán con el nombre del autor de la llamada si se proporciona desde la RTC o si el número del autor de la llamada coincide con los contactos de cliente del equipo local del usuario de destino.
+> Los usuarios que reciban llamadas de colas de llamadas solo se mostrarán con el nombre del autor de la llamada si se proporciona desde la RTC o si el número del autor de la llamada coincide con los contactos del cliente del equipo local del usuario de destino.
 >
 > No se notifica a los agentes las llamadas perdidas ni los correos de voz de las llamadas de la cola de llamadas.
 

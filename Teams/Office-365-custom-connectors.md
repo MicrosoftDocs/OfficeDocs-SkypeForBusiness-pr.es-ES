@@ -13,30 +13,30 @@ ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Obtenga información sobre cómo los conectores mantienen al equipo actualizado al entregar contenido y actualizaciones con frecuencia directamente en un canal de Teams para los servicios que usa.
+description: Obtenga información sobre cómo los conectores mantienen a su equipo actualizado al entregar con frecuencia contenido y actualizaciones directamente en un canal de Teams para los servicios que usa.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: de0c0398d511aca05a69220e0e35a28268535c59
-ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
+ms.openlocfilehash: fb056cbee4dc1d56a6cd967d3f46c3f0680e9b73
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "66190450"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880234"
 ---
 # <a name="manage-microsoft-365-and-custom-connectors"></a>Administrar Microsoft 365 y conectores personalizados
 
 Para mantener su equipo actualizado, los conectores ofrecen actualizaciones de contenido y servicio que se usan con frecuencia directamente en un canal de Teams. Con los conectores, los usuarios de Teams pueden recibir actualizaciones de servicios populares como Trello, Wunderlist, GitHub y Azure DevOps Services. Las actualizaciones se publican directamente en la secuencia de chat de su equipo.
 
-Microsoft 365 conectores se usan con grupos de Microsoft Teams y Microsoft 365, lo que facilita que todos los miembros se sincronicen y reciban rápidamente información relevante. Tanto Microsoft Teams como Exchange utilizan el mismo modelo de conector, lo que le permite utilizar los mismos conectores en ambas plataformas. Sin embargo, si deshabilita los conectores configurados para un grupo de Microsoft 365, también se deshabilita la posibilidad de que el grupo de Microsoft 365 cree conectores.
+Los conectores de Microsoft 365 se usan con los grupos de Microsoft Teams y Microsoft 365, lo que facilita que todos los miembros permanezcan sincronizados y reciban rápidamente información relevante. Tanto Microsoft Teams como Exchange usan el mismo modelo de conector, lo que le permite usar los mismos conectores en ambas plataformas. Sin embargo, si deshabilita los conectores configurados para un grupo de Microsoft 365, también se deshabilita la capacidad del grupo de Microsoft 365 para crear conectores.
 
 Cualquier miembro de un equipo puede conectar su equipo a servicios en la nube populares con los conectores si los permisos del equipo lo permiten y todos los miembros del equipo reciben una notificación de las actividades de ese servicio. Los conectores siguen funcionando después de que el miembro que inicialmente configuró el conector deje de funcionar. Cualquier miembro del equipo con los permisos para agregar o quitar puede modificar la configuración de los conectores por otros miembros.
 
 ## <a name="enable-or-disable-connectors-in-teams"></a>Habilitar o deshabilitar conectores en Teams
 
-El módulo Exchange Online PowerShell V2 usa la autenticación moderna y funciona con la autenticación multifactor, denominada MFA para conectarse a todos los Exchange entornos de PowerShell relacionados en Microsoft 365. Los administradores pueden usar Exchange Online PowerShell para deshabilitar los conectores para todo un espacio empresarial o un buzón de grupo específico, lo que afecta a todos los usuarios de ese espacio empresarial o buzón. No es posible deshabilitar para algunos usuarios específicos. Además, los conectores están deshabilitados de forma predeterminada para Government Community Cloud, denominados inquilinos de GCC.
+El módulo Exchange Online PowerShell V2 usa la autenticación moderna y funciona con la autenticación multifactor, denominada MFA para conectarse a todos los entornos de PowerShell relacionados con Exchange en Microsoft 365. Los administradores pueden usar Exchange Online PowerShell para deshabilitar los conectores para todo un espacio empresarial o un buzón de grupo específico, lo que afecta a todos los usuarios de ese espacio empresarial o buzón. No es posible deshabilitar para algunos usuarios específicos. Además, los conectores están deshabilitados de forma predeterminada para Government Community Cloud, denominados inquilinos GCC.
 
-La configuración del inquilino reemplaza la configuración del grupo. Por ejemplo, si un administrador habilita los conectores para el grupo y los deshabilita en el espacio empresarial, los conectores del grupo se deshabilitan. Para habilitar un conector en Teams, [conéctese a Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true) mediante la autenticación moderna con o sin MFA.
+La configuración del inquilino reemplaza la configuración del grupo. Por ejemplo, si un administrador habilita los conectores para el grupo y los deshabilita en el espacio empresarial, los conectores del grupo se deshabilitan. Para habilitar un conector en Teams, [conéctese a Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true) con autenticación moderna con o sin MFA.
 
 Para habilitar o deshabilitar un conector, ejecute los siguientes comandos en Exchange Online PowerShell:
 
@@ -47,7 +47,7 @@ Para habilitar o deshabilitar un conector, ejecute los siguientes comandos en Ex
   * `Set-OrganizationConfig -ConnectorsEnabledForTeams:$true`
   * `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$true`
 
-Para obtener más información sobre el intercambio de módulos de PowerShell, consulte [Set-OrganizationConfig](/powershell/module/exchange/Set-OrganizationConfig?view=exchange-ps&preserve-view=true). Para habilitar o deshabilitar los conectores de Outlook, [conecte aplicaciones a los grupos de Outlook](https://support.microsoft.com/topic/connect-apps-to-your-groups-in-outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab).
+Para obtener más información sobre el intercambio de módulos de PowerShell, consulte [Set-OrganizationConfig](/powershell/module/exchange/Set-OrganizationConfig?view=exchange-ps&preserve-view=true). Para habilitar o deshabilitar los conectores de Outlook, [conecte aplicaciones a sus grupos en Microsoft Outlook](https://support.microsoft.com/topic/connect-apps-to-your-groups-in-outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab).
 
 <!--- TBD: Find out how can we get to know about completion of customer migration.
 Delete this section after customer migration to new Webhook URL is complete.
@@ -70,15 +70,15 @@ To set up a connector:
 --->
 
 > [!IMPORTANT]
-> Los conectores personalizados no están disponibles en Government Community Cloud (GCC), GCC-High ni en el Departamento de Defensa (DOD).
+> Los conectores personalizados no están disponibles en Government Community Cloud (GCC), Government Community Cloud-High (GCCH) ni en el Departamento de Defensa (DOD).
 
-Para usar conectores en un equipo o canal, abra el menú Más opciones en la esquina superior derecha de un canal. En el menú, seleccione **Conectores** y busque o busque la aplicación del conector necesaria. Configure el conector seleccionado si es necesario.
+Para usar conectores en un equipo o canal, abra el menú Más opciones en la esquina superior derecha de un canal. En el menú, seleccione **Conectores** y busque o busque el conector necesario. Configure el conector seleccionado si es necesario.
 
-:::image type="content" source="media/connectors-selection-ui.png" alt-text="Agregue conectores al canal en Teams desde Más opciones en la esquina superior derecha del canal.":::
+:::image type="content" source="media/connectors-selection-ui.png" alt-text="Agregue conectores a su canal en Teams desde Más opciones en la esquina superior derecha del canal.":::
 
 ## <a name="update-url-of-a-connector"></a>Actualizar la dirección URL de un conector
 
-Los conectores Teams están cambiando a una nueva dirección URL para mejorar la seguridad. Durante la transición, recibirá una notificación para actualizar el conector configurado. Actualice el conector lo antes posible para evitar interrupciones en los servicios del conector. Para actualizar el conector:
+Los conectores de Teams están cambiando a una nueva dirección URL para mejorar la seguridad. Durante la transición, recibirá una notificación para actualizar el conector configurado. Actualice el conector lo antes posible para evitar interrupciones en los servicios del conector. Para actualizar el conector:
 
 1. En la página de configuración de conectores, busque el mensaje **Atención requerida** junto al conector configurado.
 
@@ -92,7 +92,7 @@ Los conectores Teams están cambiando a una nueva dirección URL para mejorar la
 
    :::image type="content" source="media/Teams_URL_up_to_date.png" alt-text="Captura de pantalla del mensaje &quot;La dirección URL está actualizada&quot;.":::
 
-## <a name="see-also"></a>Vea también
+## <a name="related-articles"></a>Artículos relacionados
 
 * [Información general sobre conectores personalizados y webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
 * [Crear conectores Office 365](/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-creating)

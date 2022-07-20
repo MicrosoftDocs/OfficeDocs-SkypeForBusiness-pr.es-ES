@@ -22,16 +22,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Siga estos pasos para crear un número de teléfono predeterminado para que los autores de llamadas se unan a una reunión de Microsoft Teams.
-ms.openlocfilehash: 7f22f86a020940caf663b671c81ab7958230db21
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+ms.openlocfilehash: f0956007d5df72c1fd6c6ae905433e73bd855a56
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016582"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884849"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Establecer los números de teléfono incluidos en las invitaciones en Microsoft Teams
 
-Las audioconferencias en Microsoft 365 y Office 365 permiten a los usuarios de su organización crear reuniones Microsoft Teams y, a continuación, permitir que los usuarios llamen a esas reuniones con un número de teléfono.
+Las audioconferencias en Microsoft 365 y Office 365 permiten a los usuarios de su organización crear reuniones de Microsoft Teams y, a continuación, permiten que los usuarios llamen a esas reuniones con un número de teléfono.
 
 Un puente de conferencias le proporciona un conjunto de números de teléfono de acceso telefónico local para su organización. Todos ellos se pueden usar para unirse a las reuniones que ha creado un organizador de la reunión, pero puede seleccionar cuáles se incluirán en las invitaciones de la reunión.
 
@@ -49,6 +49,9 @@ Los números de teléfono incluidos en las invitaciones a reuniones de usuarios 
 
 Como se mencionó anteriormente, además de los números de teléfono, cada invitación a la reunión contiene un vínculo que abre la lista completa de todos los números de teléfono de acceso telefónico local que se pueden usar para unirse a una reunión determinada.
 
+> [!IMPORTANT]
+> Los números de teléfono asignados pueden tardar hasta 24 horas en aparecer en la invitación a la reunión. Si no ves números actualizados, espera al menos 24 horas antes de ponerte en contacto con el servicio de soporte técnico.
+
 ### <a name="new-users"></a>Nuevos usuarios
 
 Los números de teléfono gratuitos y de pago incluidos en las invitaciones a reuniones para nuevos usuarios también se definen en *TeamsAudioconferencingPolicy* , que se asigna a esos usuarios. De forma predeterminada, a todos los usuarios nuevos se les asigna Global *TeamsAudioconferencingPolicy*. La directiva global no tiene ningún número de teléfono agregado (a menos que el administrador de inquilinos lo cambie). En este caso, los números de teléfono que se incluyen en las invitaciones de reunión de los usuarios habilitados para audioconferencia se definen por el número de teléfono de pago de conferencia predeterminado y el número de teléfono gratuito de conferencia predeterminado que se encuentra en la configuración de cada usuario.
@@ -65,11 +68,11 @@ Consulte [Configuración de la directiva de Audioconferencia para números de pa
 
 Debe ser administrador de servicio de Teams para poder realizar estos cambios. Consulte [Usar los roles de administrador de Teams para administrar Teams](./using-admin-roles.md) para obtener información sobre cómo obtener roles de administrador y permisos.
 
-1. Inicie sesión en el centro de administración de Microsoft Teams.
+1. Inicie sesión en el Centro de administración de Microsoft Teams.
 
 2. En el panel de navegación izquierdo, haga clic en **Usuarios**.
 
-    ![Muestra la selección de usuarios en el centro de administración de Microsoft Teams.](media/Admin-users.png)
+    ![Muestra la selección de usuarios en el Centro de administración de Microsoft Teams.](media/Admin-users.png)
 
 3. Haga clic en el nombre de usuario de la lista de usuarios disponibles.
 
@@ -80,7 +83,7 @@ Debe ser administrador de servicio de Teams para poder realizar estos cambios. C
 5. Use los campos **Número de pago** o **Número gratuito** para escribir los números del usuario.
 
 > [!IMPORTANT]
-> Al cambiar la configuración de audioconferencia de un usuario, las reuniones de Microsoft Teams periódicas y futuras deben actualizarse y enviarse a los asistentes.
+> Al cambiar la configuración de audioconferencia de un usuario, las reuniones periódicas y futuras de Microsoft Teams deben actualizarse y enviarse a los asistentes.
 
 > [!NOTE]
 > Los números de teléfono introducidos en esta configuración solo se usan si *TeamsAudioConferencingPolicy* asignado al usuario no tiene ningún número de teléfono agregado.
@@ -93,7 +96,7 @@ Windows PowerShell se centra en la administración de usuarios y en las acciones
 
 - [Las mejores formas de administrar Microsoft 365 o Office 365 con Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-Para establecer o cambiar el número de teléfono de audioconferencia predeterminado de un organizador o usuario de la reunión con [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps), establezca los **`ServiceNumber`** **`TollFreeServiceNumber`** o parámetros del cmdlet [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) en uno de los números disponibles.
+Para establecer o cambiar el número de teléfono de audioconferencia predeterminado de un organizador o usuario de la reunión con [PowerShell de Microsoft Teams](/powershell/module/teams/?view=teams-ps), establezca los **`ServiceNumber`** **`TollFreeServiceNumber`** o parámetros del cmdlet [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) en uno de los números disponibles.
 
 ## <a name="related-topics"></a>Temas relacionados
 
