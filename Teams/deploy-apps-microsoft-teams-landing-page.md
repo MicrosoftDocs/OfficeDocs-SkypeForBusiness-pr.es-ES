@@ -19,18 +19,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 24115de31c06c38ff1f0217868cf19993aa24555
-ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+ms.openlocfilehash: a74128c7732d649c33ee50c73255eee956053260
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "66838865"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880384"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Acerca de las aplicaciones de Microsoft Teams
 
-Las aplicaciones son una excelente manera de reunir las herramientas y los servicios del área de trabajo y colaborar con otros usuarios. Las aplicaciones ayudan a los usuarios finales a ser más productivos, colaborativos y eficaces en sus tareas diarias. Las organizaciones usan aplicaciones para conectarse con sus clientes, proporcionar servicios y compartir información. Las aplicaciones permiten a los usuarios ser más eficaces en chats, reuniones y canales de Teams. Algunos ejemplos son los usuarios finales que usan un calendario anclado en Teams para colaborar rápidamente con otros usuarios, una aplicación con la funcionalidad de bots que informa a los usuarios de QoS de un servicio web en un canal de Teams, y una aplicación para compartir y asignar tareas a varios usuarios finales en un canal.
+Las aplicaciones son una excelente manera de reunir las herramientas y los servicios del área de trabajo y colaborar con otros usuarios. Las aplicaciones ayudan a los usuarios finales a ser más productivos, colaborativos y eficaces en sus tareas diarias. Las organizaciones usan aplicaciones para conectarse con sus clientes, proporcionar servicios y compartir información. Algunos ejemplos son los usuarios finales que usan un calendario anclado en Teams para colaborar rápidamente con otros usuarios, una aplicación con la funcionalidad de bots que informa a los usuarios de la calidad de un servicio web en un canal de Teams, y una aplicación para compartir y asignar tareas a varios usuarios finales en un canal.
 
-Nuestra amplia selección de aplicaciones validadas y seguras en la tienda proporciona a los usuarios finales acceso a las herramientas y los servicios que su organización necesita a diario. Las aplicaciones de Microsoft Teams son aplicaciones SaaS basadas en web que no es necesario implementar. Los usuarios finales pueden usar aplicaciones en Teams solo en función de los [permisos](https://admin.teams.microsoft.com/policies/app-permission) proporcionados por usted. Como administrador, solo tiene que aprobar o bloquear el uso de cualquier aplicación para los usuarios de su organización. Usted controla la disponibilidad de las aplicaciones para todos los usuarios en reuniones, chats y canales.
+Nuestra amplia selección de aplicaciones validadas y seguras en la tienda proporciona a los usuarios finales acceso a las herramientas y los servicios que su organización necesita a diario. Las aplicaciones de Microsoft Teams son aplicaciones SaaS basadas en web que no se necesitan implementar. Los usuarios finales pueden usar aplicaciones en Teams solo en función de los [permisos](https://admin.teams.microsoft.com/policies/app-permission) proporcionados por usted. Como administrador, solo tiene que aprobar o bloquear el uso de cualquier aplicación para los usuarios de su organización. Usted controla la disponibilidad de las aplicaciones para todos los usuarios en reuniones, chats y canales.
 
 Para proporcionar a los usuarios finales las aplicaciones que necesitan, siga leyendo para comprender los tipos de aplicaciones y dónde acceden los usuarios a esas aplicaciones. Para obtener más información sobre el uso de aplicaciones, lea [Información general sobre las aplicaciones para los usuarios finales](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
 
@@ -57,15 +57,15 @@ Algunas funciones predeterminadas, como la fuente de actividad, los canales de T
 
 Microsoft proporciona muchas aplicaciones para mejorar la productividad y la colaboración. Tanto usted como los usuarios finales pueden encontrar estas aplicaciones si buscan a Microsoft como publicador en el centro de administración o como proveedor en la Tienda de Teams.
 
-Teams incluye un conjunto de aplicaciones integradas, como Listas, Tareas, Elogiar, Aprobaciones y más. Le recomendamos que incluya aplicaciones destacadas de Teams, como Planner, en la implementación inicial de Teams.
+Teams incluye un conjunto de aplicaciones integradas, como Listas, Tareas, Elogiar, Aprobaciones y más. Recomendamos que se incluyan aplicaciones destacadas de Teams, como Planner, en la implementación inicial de Teams.
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Aplicaciones de Microsoft en el Centro de administración de Teams" lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Captura de pantalla de las aplicaciones de Microsoft en el centro de administración de Teams." lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-validated-by-microsoft"></a>Aplicaciones de terceros validadas por Microsoft
 
 Además de las aplicaciones proporcionadas por Microsoft, puede usar aplicaciones de terceros validadas por Microsoft. Microsoft valida la funcionalidad y la seguridad de estas aplicaciones antes de que estén disponibles en la tienda de Teams. Para comprender las ventajas de la validación de aplicaciones, consulte [validación de aplicaciones de terceros](overview-of-app-validation.md).
 
-:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Ejemplo de aplicaciones de terceros en la tienda de Teams":::
+:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Captura de pantalla de un ejemplo de aplicaciones de terceros en la tienda de Teams.":::
 
 ## <a name="custom-apps"></a>Aplicaciones personalizadas
 
@@ -73,23 +73,23 @@ Las aplicaciones creadas por los desarrolladores de su organización se denomina
 
 Después de que un administrador permita el uso de aplicaciones personalizadas, los usuarios finales podrán encontrar dichas aplicaciones haciendo clic en **Creado para su organización** en el panel de navegación izquierdo de la tienda de Teams.
 
-:::image type="content" source="media/built-for-your-org1.png" alt-text="Aplicaciones personalizadas en la tienda de Teams en la aplicación de escritorio de Teams" lightbox="media/built-for-your-org2.png":::
+:::image type="content" source="media/built-for-your-org1.png" alt-text="Captura de pantalla de aplicaciones personalizadas en la tienda de Teams en la aplicación de escritorio de Teams." lightbox="media/built-for-your-org2.png":::
 
 ### <a name="understand-sideloading-of-custom-apps"></a>Descripción de la instalación de prueba de aplicaciones personalizadas
 
-Al desarrollar aplicaciones personalizadas y antes de distribuirlas a los usuarios finales, los desarrolladores prueban las aplicaciones agregándolas a la tienda para probarlas por sí mismas o probarlas con un equipo en el que transfieren localmente la aplicación. Este método se denomina instalación de prueba de aplicaciones y solo se aplica a aplicaciones personalizadas.
+Al desarrollar aplicaciones personalizadas y antes de que se distribuyan a los usuarios finales, los desarrolladores prueban las aplicaciones agregándolas a la tienda para probarlas por sí mismos o con un equipo en el que transfieren localmente la aplicación. Este método se denomina instalación de prueba de aplicaciones y solo se aplica a aplicaciones personalizadas.
 
-Los desarrolladores pueden transferir localmente una aplicación para que esté disponible para los miembros de un equipo específico, normalmente para probar una aplicación en desarrollo. Esto no requiere la aprobación del administrador si se permite la instalación de prueba. Como administrador, puede no permitir la instalación de prueba para cualquier desarrollador.
+Los desarrolladores pueden transferir localmente una aplicación para que esté disponible para los miembros de un equipo específico, normalmente cuando se prueba una aplicación en desarrollo. Cuando se usa una aplicación de esta forma, se limita el uso a los desarrolladores de aplicaciones y no se requiere la aprobación de un administrador, siempre y cuando el administrador permita la instalación de prueba en Teams. Como administrador, se puede denegar la instalación de prueba de aplicaciones para todos los desarrolladores.
 
-Si no permite la instalación de prueba, los desarrolladores aún pueden probar sus aplicaciones en un [espacio empresarial de prueba](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Una vez completado el desarrollo de aplicaciones personalizadas, los desarrolladores solicitan a los administradores que distribuyan su aplicación personalizada a los usuarios finales. Para obtener más información, consulte [cómo publicar una aplicación personalizada](/microsoftteams/upload-custom-apps). Como administrador, puede permitir o denegar el uso de una aplicación personalizada para usuarios específicos.
+Si no se permite la instalación de prueba, los desarrolladores podrán probar sus aplicaciones al [crear un inquilino de prueba independiente](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Una vez completado el desarrollo de aplicaciones personalizadas, los desarrolladores solicitan a los administradores que distribuyan su aplicación personalizada a los usuarios finales. Para obtener más información, consulte [cómo publicar una aplicación personalizada](/microsoftteams/upload-custom-apps). Como administrador, puede permitir o denegar el uso de una aplicación personalizada para usuarios específicos.
 
 ## <a name="about-app-templates"></a>Información de plantillas de aplicación
 
-Las plantillas de aplicación para Teams son aplicaciones de ejemplo funcionales y listas para producción creadas por Microsoft para lograr lo siguiente:
+Las plantillas de aplicación para Teams son aplicaciones de ejemplo funcionales y listas para producción que ha creado Microsoft con los siguientes fines:
 
-* Ilustrar los casos de uso más populares
-* Presentar los procedimientos recomendados de desarrollo de aplicaciones
-* Proporcionar aplicaciones de código abierto que los desarrolladores pueden ampliar para crear aplicaciones personalizadas
+* Ilustrar los casos de uso más populares.
+* Presentar los procedimientos recomendados de desarrollo de aplicaciones.
+* Proporcionar aplicaciones de código abierto que los desarrolladores pueden ampliar para crear aplicaciones personalizadas.
 
 Los desarrolladores de la organización personalizan las plantillas de aplicación con cambios sencillos en el código disponible en GitHub. Usted proporciona estas aplicaciones como aplicaciones personalizadas para los usuarios finales, para satisfacer las necesidades de la organización.
 
