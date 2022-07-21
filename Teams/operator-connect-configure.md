@@ -1,7 +1,7 @@
 ---
 title: Configurar Operador Conectar
-author: cazawideh
-ms.author: czawideh
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c37c6e52eac53e2cf3e43e45566243a6c83025a7
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: e9a773e7c8767164480374826a2410050681505a
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240509"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915198"
 ---
 # <a name="configure-operator-connect"></a>Configurar Operador Conectar
 
@@ -91,18 +91,15 @@ Para obtener más información sobre las llamadas de emergencia, consulte [Admin
 
 1. Ponte en contacto con tu operador para transferir tus números al operador Conectar. Consulta directorio [Microsoft 365 Operator Connect](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) para buscar el sitio web de tu operador.
 
-2. Una vez que el operador complete la solicitud de portabilidad, puede anular la asignación de los números de teléfono del plan de llamadas de los usuarios y quitar la licencia del plan de llamadas. A continuación, el operador puede cargar los números en su inquilino.
+2. Una vez que el operador complete la solicitud de portabilidad, el operador cargará los números en su inquilino.
 
 3. Asigne números de Operador Conectar a usuarios mediante el Centro de administración de Teams o PowerShell. Para obtener más información, vea [Asignar números](#assign-numbers).
 
 ### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>Mover números de Enrutamiento directo a Conexión de operadores
 
-Para mover números de Enrutamiento directo a Conexión de operador, el número de Enrutamiento directo que su operador cargó en su inquilino debe quitarse del usuario al que está asignado. Después, después de migrar el número a Operador conectar, puede volver a asignar el número al usuario. Para pasar de Enrutamiento directo a Conexión de operadores con números de teléfono locales o en línea, siga estos pasos:
+Para pasar de Enrutamiento directo a Conexión de operadores con números de teléfono locales o en línea, siga estos pasos:
 
->[!IMPORTANT]
-> El número de teléfono estará fuera de servicio durante la migración, por lo que debes coordinarlo con el operador Connect del operador antes de empezar.
-
-#### <a name="step-1---remove-existing-direct-routing-numbers"></a>Paso 1: Quitar los números de enrutamiento directo existentes.
+#### <a name="step-1---identify-if-the-existing-direct-routing-numbers-are-assigned-online-or-on-premises"></a>Paso 1: identifique si los números de enrutamiento directo existentes están asignados en línea o de forma local.
 
 Compruebe que el usuario tiene asignado un número de enrutamiento directo ejecutando el comando Módulo de PowerShell de Teams:
 
@@ -119,9 +116,13 @@ Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI
 ```
 
 Si `OnPremLineUri` se rellena con un número de teléfono E.164, el número de teléfono se asignó de forma local y se sincronizó con Microsoft 365.
-    
-**Para quitar los números de enrutamiento directo asignados localmente,** ejecute el siguiente comando Skype Empresarial Server PowerShell:
-    
+
+**Para migrar los números de enrutamiento directo existentes asignados en línea al operador Conectar**, póngase en contacto con su operador. Para buscar el sitio web de tu operador, consulta directorio [Microsoft 365 Operator Connect](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). En la fecha y hora acordadas, el operador migrará los números de Enrutamiento directo a Operador Conectar.
+
+**Para migrar los números de enrutamiento directo asignados localmente a Operator Connect**, ejecute el siguiente comando Skype Empresarial Server PowerShell:
+>[!IMPORTANT]
+> El número de teléfono estará fuera de servicio durante la migración, por lo que debes coordinarlo con el operador Connect del operador antes de empezar.
+
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
@@ -140,7 +141,7 @@ OnPremLineURI                        :
 LineURI                              : 
 ```
 
-<br> **Para quitar los números de enrutamiento directo en línea existentes asignados en línea,** ejecute el siguiente comando del módulo de PowerShell de Teams:
+
 
 
 ```PowerShell

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: 33be6dce1359637602ee81bcefdb6b4035c22f6c
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 39806bd983bb9cd0f7c35e14bd78a93b185d5b7a
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880254"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915208"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados por Microsoft Teams
 
@@ -45,6 +45,7 @@ Los siguientes dispositivos están certificados en el Programa de certificación
 
 |Modelo de dispositivo    | Versión de firmware    | Fecha de finalización de la certificación actual | Versión del sistema operativo Android                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Poly CCX505                            | `7.3.1.0811`                                                  |  5 de agosto de 2023              | 9 |
 | AudioCodes C450HD                      | `1.17.443`                                                  |    5 de agosto de 2023              | 9 |
 | AudioCodes C448HD (solo modo Cap)       |  `1.17.443`                                                   | 5 de agosto de 2023            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | 3 de septiembre de 2025     | 11 |

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da74dcb2203eb43ca5b7174697cbc074f5d50855
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: e2e934e0dd9896c507e4d5818a77a1637cdcb2b3
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642755"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915218"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introducción a la grabación basada en directivas de Teams para llamadas & reuniones
 
@@ -206,8 +206,8 @@ La compatibilidad con notificaciones está habilitada con las experiencias de cl
 **Otros puntos de conexión: aviso de audio**
 - Teléfonos SIP
 - Skype Empresarial
-- Audioconferencia
-- Autores de llamadas RTC
+- Audioconferencia (aviso de audio en el idioma predeterminado del número de acceso telefónico local o seleccionado por el usuario)
+- Autores de llamadas RTC (aviso de audio en el idioma predeterminado del usuario de Teams)
 
 > [!NOTE]
 > La grabación de cumplimiento no es compatible con las colas de llamadas del modo de conferencia. Usa las colas de llamadas del modo transferencia.
