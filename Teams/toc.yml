@@ -1535,10 +1535,6 @@ items:
             href: submit-approve-custom-apps.md
           - name: Publicar una aplicación personalizada cargando un paquete de aplicación
             href: upload-custom-apps.md
-          - name: Personalizar la apariencia y los metadatos de las aplicaciones
-            href: customize-apps.md
-          - name: Personalización de marca de la tienda de aplicaciones de la organización
-            href: customize-your-app-store.md
       - name: Controles de administración para controlar las aplicaciones
         items:
           - name: Información general sobre la administración de aplicaciones
@@ -1561,16 +1557,20 @@ items:
             href: resource-specific-consent.md
           - name: Descripción de los permisos de la aplicación y el acceso a los recursos
             href: app-permissions.md
+          - name: Personalizar la apariencia y los metadatos de las aplicaciones
+            href: customize-apps.md
+          - name: Personalización de marca de la tienda de aplicaciones de la organización
+            href: customize-your-app-store.md
           - name: "Administrar el acceso a las aplicaciones en Microsoft\_365"
             href: manage-third-party-teams-apps.md
-          - name: Auditar actividades de administración de aplicaciones
-            href: audit-app-management-activities.md
-          - name: Análisis y informe del uso de aplicaciones
-            href: teams-analytics-and-reports/app-usage-report.md
           - name: Comportamiento de la aplicación basado en tipos de usuarios
             href: non-standard-users.md
           - name: Actualizaciones de aplicaciones y rol de administrador
             href: apps-update-experience.md
+          - name: Auditar actividades de administración de aplicaciones
+            href: audit-app-management-activities.md
+          - name: Análisis y informe del uso de aplicaciones
+            href: teams-analytics-and-reports/app-usage-report.md
   - name: Instrucciones para sectores y gobiernos
     items:
       - name: Información general
