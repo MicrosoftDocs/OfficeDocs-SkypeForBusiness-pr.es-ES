@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db4b3adabecf147f5adf9cadb9891892b5a82e5a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: e2ac9a38e16000829b391e77dffdd718ed349299
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606229"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952764"
 ---
 # <a name="share-to-teams-from-outlook"></a>Compartir en Teams desde Outlook
 
@@ -30,9 +30,9 @@ Compartir en Teams desde Outlook (Compartir con Teams) permite a los usuarios co
 La característica Compartir en Teams requiere un complemento para Outlook. Este complemento se instala automáticamente siempre que un usuario inicia sesión en la aplicación web de Teams o en el cliente de escritorio de Teams.
 
 > [!NOTE]
-> Asegúrese de revisar [complementos para Outlook en Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) y [reglas de acceso de cliente en Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) para asegurarse de que los complementos para Outlook funcionan correctamente. Además, deshabilitar las experiencias conectadas puede impedir que los complementos para Outlook funcionen correctamente. Vea [Experiencias conectadas en Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) para obtener más información.  
+> Asegúrese de revisar [complementos para Outlook en Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) y [reglas de acceso de cliente en Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) para asegurarse de que los complementos para Outlook funcionan correctamente. Además, deshabilitar las experiencias conectadas puede impedir que los complementos para Outlook funcionen correctamente. Vea [Experiencias conectadas en Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) para obtener más información. Los buzones compartidos no son compatibles con el complemento. 
 
-Compartir en Teams usa el mismo mecanismo de transporte que cuando un usuario envía correos electrónicos a un canal. Para compartir en chats, los correos electrónicos (incluidos los datos adjuntos de correo electrónico) se copian en el OneDrive del remitente. Para compartir con canales, los correos electrónicos y los datos adjuntos se copian en la carpeta **Mensajes de correo electrónico** de SharePoint.
+Compartir en Teams usa el mismo mecanismo de transporte que cuando un usuario envía correos electrónicos a un canal. Para compartir en chats, los correos electrónicos (incluidos los datos adjuntos de correo electrónico) se copian en el OneDrive del remitente. Para compartir con canales, los correos electrónicos y los datos adjuntos se copian en la carpeta **de mensajes de Email** de SharePoint.
 
 El complemento de Outlook para compartir en Teams usa el conjunto de requisitos 1.7, como se detalla en la [documentación de complementos de Outlook](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook), que incluye detalles sobre los complementos de Outlook, los requisitos del entorno para los complementos de Outlook y los clientes específicos de Outlook compatibles con el conjunto de requisitos 1.7.
 
