@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Vea qué periféricos y dispositivos USB (como auriculares, manos libres, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: 956034bff42cdf3694c648306caf218057bca1da
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 63813ca51626ae16903b57e56de9b47345f44c10
+ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880394"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66972785"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -42,7 +42,13 @@ Los usuarios no necesitan reemplazar dispositivos previamente certificados al ac
 
 ### <a name="special-usage-designations"></a>Designaciones de uso especial
 
-- **Micrófono Premium para Abrir Office** Todos los auriculares se prueban para proporcionar un audio claro, pero la oficina abierta y otros entornos ruidosos suponen un desafío mayor. Los auriculares con esta designación recogen la voz del usuario de auriculares pero no transmiten el sonido de sus vecinos.
+- **Periféricos de audio certificados para Bluetooth nativos**  La mayoría de los auriculares y altavoces Bluetooth certificados para Microsoft Teams están diseñados para usarse con una llave USB para la conectividad a equipos PC y hosts Mac. Muchos usuarios han estado pidiendo la opción de emparejar directamente su dispositivo con el host, porque no tienen suficientes puertos USB o no quieren tener que acordarse de llevar la llave USB con ellos cuando trabajan en diferentes ubicaciones.
+
+    Los dispositivos nativos certificados por Bluetooth, incluidos auriculares y manos libres, son compatibles con los PC Windows (es posible que MacOS sea compatible en el futuro). Los dispositivos se prueban para el rendimiento de audio, el control de llamadas y la integración de los botones de Teams, tanto con como sin el uso de una llave USB.
+
+    El rendimiento en el modo Bluetooth nativo se ve afectado por la radio Bluetooth en el equipo host, por lo que recomendamos instalar las últimas actualizaciones de firmware para ambos dispositivos y radio Bluetooth. Es posible que una pequeña parte de los usuarios deba seguir usando la llave USB, como cuando se trabaja en un entorno de radio de alta densidad, si su PC Bluetooth es muy usado por varios dispositivos emparejados o con determinados equipos que tienen radios Bluetooth de bajo rendimiento.
+
+- **Micrófono Premium para Abrir Office** Todos los auriculares se prueban para proporcionar un audio claro, pero la oficina abierta y otros entornos ruidosos suponen un desafío mayor. Los auriculares con esta designación recogen la voz del usuario del casco pero no transmiten el sonido de sus vecinos.
 - **Tamaño de la sala de reuniones** Los dispositivos compartidos, como los altavoces y las cámaras, tienen una distancia de uso compatible. Las distancias recomendadas pueden variar en función del fabricante. Para ofrecer una guía clara a los clientes, todos los dispositivos compartidos se prueban con certificación en entornos de ruido y tamaños de salas bien definidos.
 
 Examinar [dispositivos certificados para Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
