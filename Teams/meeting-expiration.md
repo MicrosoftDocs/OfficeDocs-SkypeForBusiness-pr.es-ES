@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Obtenga información sobre cómo usar la configuración de la directiva de reunión para controlar la expiración de las reuniones en Microsoft Teams.
-ms.openlocfilehash: 08ca5a75b8dd470b006d44e562eb795f814faba6
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 3d79041cf6e8e16ed4ebd680cf5f4370e04cd62a
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529692"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005340"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Directivas de reunión y expiración de reuniones en Microsoft Teams
 
@@ -101,8 +101,8 @@ Los administradores pueden editar la configuración de expiración predeterminad
 El valor de la fecha de expiración se puede establecer de la siguiente manera:
 
 - Valor mínimo: **1 día**
-- Valor máximo: **99.999 días**
-- También puede establecer la fecha de expiración en **-1** para que las grabaciones nunca expiren.
+- Valor máximo: **99999 días**
+- También puede establecer la fecha de expiración en **-1** en PowerShell para que las grabaciones nunca expiren.
 
 Ejemplo de comando de PowerShell:
 
@@ -114,24 +114,19 @@ Puede establecer la fecha de expiración en el Centro de administración de Team
 
 ![Administración captura de pantalla central de la directiva de expiración de reuniones.](media/meeting-expiration-policy.jpg)
 
-### <a name="security-and-compliance"></a>Seguridad y cumplimiento
+### <a name="compliance"></a>Cumplimiento
 
-#### <a name="should-i-rely-on-this-feature-for-strict-security-and-compliance-adherence"></a>¿Debo confiar en esta característica para una estricta conformidad y seguridad?
+No debe confiar en la configuración de expiración de TMR para la protección legal, ya que los usuarios finales pueden modificar la fecha de expiración de las grabaciones que controlan.
 
-No, no debe confiar en esto para la protección legal, ya que los usuarios finales pueden modificar la fecha de expiración de las grabaciones que controlan.
+#### <a name="teams-meeting-recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>Configuración de expiración de la grabación de reuniones de Teams y directivas de retención de Microsoft 365 en Microsoft Purview
 
-#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>¿Una directiva de retención o eliminación que he establecido en el Centro de cumplimiento & seguridad invalidará la configuración de expiración de la grabación de la reunión de Teams?
+La retención de archivos tiene prioridad sobre la eliminación de archivos. Una directiva de expiración de TMR no puede eliminar una grabación de reunión con una directiva de retención de Purview hasta que se haya completado el período de retención. Por ejemplo, si tiene una directiva de alquiler de Purview que indique que se conservará un archivo durante cinco años y una directiva de expiración de TMR establecida durante 60 días, la directiva de expiración TMR eliminará la grabación después de cinco años.  
 
-Sí, todas las directivas que haya establecido en el Centro de cumplimiento tendrán prioridad completa.
+Si tiene una directiva de expiración TMR y una directiva de eliminación de Purview con fechas de eliminación diferentes, el archivo se eliminará lo antes posible de las dos fechas. Por ejemplo, si tiene una directiva de eliminación de Purview que indique que se eliminará un archivo después de un año y un vencimiento de TMR establecido para 120 días, la configuración de expiración de TMR eliminará el archivo después de 120 días.
 
-Por ejemplo:
+### <a name="enforcement-of-file-retention-with-the-teams-meeting-recording-expiration-setting"></a>Aplicación de la retención de archivos con la configuración de expiración de la grabación de la reunión de Teams
 
-- Si tiene una directiva que indica que todos los archivos de un sitio deben conservarse durante 100 días y la configuración de expiración para la grabación de una reunión de Teams es de 30 días, la grabación se conservará durante los 100 días completos.
-- Si tiene una directiva de eliminación que indica que todas las grabaciones de reuniones de Teams se eliminarán después de cinco días y tiene una configuración de expiración para una grabación de reunión de Teams de 30 días, la grabación se eliminará después de cinco días.
-
-### <a name="will-this-feature-enforce-file-retention"></a>¿Esta característica exigirá la retención de archivos?
-
-No, los archivos no se conservarán debido a esta característica o su configuración. Si un usuario con permisos de eliminación intenta eliminar una TMR que tiene una configuración de expiración, se ejecutará la acción de eliminación de ese usuario.
+Los archivos no se conservarán debido a esta característica o su configuración. Si un usuario con permisos de eliminación intenta eliminar una TMR que tiene una configuración de expiración, se ejecutará la acción de eliminación de ese usuario.
 
 ### <a name="what-skus-are-required-for-this-feature"></a>¿Qué SKU se requieren para esta función?
 

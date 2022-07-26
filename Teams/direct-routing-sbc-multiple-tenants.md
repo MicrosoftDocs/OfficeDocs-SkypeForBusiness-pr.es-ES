@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para asociados de Microsoft o operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9221414053b0ee92b87553e0f81c23b41b23f0fb
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616346"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005360"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -60,7 +60,7 @@ Para conocer los pasos detallados sobre cómo implementar y configurar sbcs para
 
 - **Audiocodes:** Consulte [Notas de configuración de enrutamiento directo](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) para obtener información sobre la configuración del escenario de hospedaje de SBC, tal y como se describe en "Conectar AudioCodes SBC a nota de configuración del modelo de hospedaje de enrutamiento directo de Microsoft Teams". 
 - **Oracle:** Consulte [notas de configuración de enrutamiento directo](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) para la configuración del escenario de hospedaje SBC, tal y como se describe en la sección "Microsoft". 
-- **Comunicaciones de la cinta de opciones:** Consulte [Guía de configuración de Microsoft Teams de Ribbon Communications SBC Core](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para obtener documentación sobre cómo configurar LOSC de Ribbon Core Series. Consulte también [Procedimientos recomendados de la cinta de opciones: Configuración de operadores para Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
+- **Comunicaciones de la cinta de opciones:** Consulte [Guía de configuración de Microsoft Teams de Ribbon Communications SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+MS+Teams+Solution+Guide) para obtener documentación sobre cómo configurar LOSC de Ribbon Core Series. Consulte también [Procedimientos recomendados de la cinta de opciones: Configuración de operadores para Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **TE-Systems (anynode):** Regístrese en el sitio de la [comunidad de TE-Systems](https://community.te-systems.de/) para obtener documentación y ejemplos sobre cómo configurar anynode SBC para varios inquilinos.
 - **Metaswitch:** Regístrese en el sitio de la [comunidad de Metaswitch](https://manuals.metaswitch.com/MAN39555) para obtener documentación sobre cómo habilitar Perimeta SBC para varios inquilinos.
 
