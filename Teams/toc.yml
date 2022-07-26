@@ -459,8 +459,10 @@ items:
             href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: 'Archivos de registro, estado del servicio y soporte técnico'
         items:
-          - name: Usar archivos de registro para supervisar y solucionar problemas de Teams
+          - name: Configurar archivos de registro para la supervisión y la solución de problemas en Teams
             href: log-files.md
+          - name: Registros y seguimiento del explorador para Teams
+            href: browser-logs-and-tracing-for-teams.md
           - name: Comprobar el estado del servicio para Microsoft Teams
             href: service-health.md
           - name: Cómo buscar el PIN de soporte técnico
@@ -977,6 +979,8 @@ items:
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: Administrar números de teléfono para enrutamiento directo
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
+          - name: Administración de licencias y números de teléfono
+            href: phone-numbers-licensing-changes.md
       - name: Planes de marcado y enrutamiento
         items:
           - name: Información general
