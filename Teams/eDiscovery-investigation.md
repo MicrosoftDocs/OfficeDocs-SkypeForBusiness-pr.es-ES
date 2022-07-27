@@ -17,12 +17,12 @@ description: Obtenga información sobre qué hacer cuando necesita realizar eDis
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac4aa6e8182342f36da0434aaf78123937d6d8ce
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 1d548149f978764bbfbe3d0cd3475704ad6a76c2
+ms.sourcegitcommit: 9b08e2826b5b210abd9daa2ef40d4693a5000e33
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616416"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67039647"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -69,16 +69,13 @@ Este es un ejemplo de una conversación de chat entre participantes durante una 
 
 ![Conversación entre participantes en Teams.](media/MeetingIMConversations.png)
 
-[!div class="mx-imgBorder"]
-
 Este es un ejemplo de la copia de cumplimiento de la misma conversación de chat vista en una herramienta de exhibición de documentos electrónicos.
 
 ![Conversación entre participantes en los resultados de búsqueda de eDiscovery.](media/MeetingImConversation2.png)
 
 Aquí tiene un ejemplo de los metadatos de la reunión.
 
-  > [!div class="mx-imgBorder"]
-  > ![Los metadatos de la reunión de la copia de cumplimiento.](media/conversationOption3.png)
+![Los metadatos de la reunión de la copia de cumplimiento.](media/conversationOption3.png)
 
 Para obtener más información sobre cómo llevar a cabo una investigación de exhibición de documentos electrónicos, vea [Introducción a la exhibición de documentos electrónicos (estándar).](/microsoft-365/compliance/get-started-core-ediscovery)
 
