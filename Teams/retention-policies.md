@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b6c370eee74266d2d24df4fa8e1e95904cd08386
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 508f10c07a25bb2dc3cef7af84d7dacc62989f28
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711294"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023691"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Administrar directivas de retención de Microsoft Teams
 
@@ -38,7 +38,7 @@ Las directivas de retención y las etiquetas de retención de Microsoft 365 perm
 Teams admite directivas de retención para mensajes de chat y canal para que, como administrador, pueda decidir de forma proactiva si desea conservar estos datos, eliminarlos o conservarlos durante un período de tiempo específico y, a continuación, eliminarlos. El inicio del período de retención de estas acciones siempre se basa en el momento en que se crea un mensaje. Puede aplicar una directiva de retención de Teams a toda la organización o a usuarios y equipos específicos. Las etiquetas de retención no se admiten en Teams.
 
 > [!NOTE]
-> [Los canales compartidos](shared-channels.md), actualmente en versión preliminar, ahora son compatibles con las directivas de retención.
+> [Los canales compartidos](shared-channels.md) son compatibles con las directivas de retención.
 
 Para obtener más información sobre las soluciones de retención en Microsoft 365 consulte [Obtener información sobre las directivas de retención y las etiquetas de retención](/microsoft-365/compliance/retention).
 
@@ -66,17 +66,17 @@ Estos dos principios de retención abordan la mayoría de los conflictos que pue
 
 En muchos casos, las organizaciones consideran que los datos de chat privados son más una responsabilidad que los mensajes de canal, que generalmente son conversaciones más relacionadas con el proyecto.
 
-Puede configurar de forma muy eficaz una única directiva de retención para todos los Teams mensajes. O bien, para obtener un control más preciso, puede:
+Puede configurar de forma muy eficaz una sola directiva de retención para todos los mensajes de Teams. O bien, para un control más detallado, puede:
 
 - Tenga directivas de retención independientes para chats privados (chats 1:1 o 1:many), mensajes de canales estándar o mensajes de canales privados.
 
-- Aplique las directivas solo a usuarios o equipos específicos de su organización. Para Teams chats y canales privados, puede seleccionar a qué usuarios se aplica la directiva. En el caso de los mensajes de canal de Teams, puede seleccionar a qué equipos aplicar la directiva.
+- Aplique las directivas solo a usuarios o equipos específicos de su organización. Para chats de Teams y canales privados, puede seleccionar a qué usuarios se aplica la directiva. En el caso de los mensajes de canal de Teams, puede seleccionar a qué equipos aplicar la directiva.
 
-Por ejemplo, para los mensajes de canal estándar: Cree una directiva de retención para equipos específicos de su organización y configure esa directiva con una acción de eliminación después de 1 año. A continuación, cree otra directiva de retención para los mensajes de canal estándar para todos los demás equipos y configure esa directiva con una acción de eliminación después de 3 años.
+Por ejemplo, para mensajes de canal estándar: cree una directiva de retención para equipos específicos de su organización y configure esa directiva con una acción de eliminación después de 1 año. Después, cree otra directiva de retención para los mensajes de canal estándar para el resto de equipos y configure esa directiva con una acción de eliminación después de 3 años.
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>Crear y administrar directivas de retención en Teams
 
-Para crear o editar una directiva de retención para Teams mensajes, use las instrucciones de la directiva de retención [para Teams ubicaciones](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations).
+Para crear o editar una directiva de retención de mensajes de Teams, use las instrucciones de [Directiva de retención para ubicaciones de Teams](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations).
 
 Esa página contiene información adicional sobre cómo crear y administrar directivas de retención para otras cargas de trabajo en Microsoft 365. Por ejemplo, es posible que también desee crear una directiva de retención para Grupos de Microsoft 365 para conservar y eliminar archivos a los que se accede en Teams y que se almacenan en OneDrive o SharePoint.  
 
@@ -84,10 +84,10 @@ Esa página contiene información adicional sobre cómo crear y administrar dire
 
 En el caso de los chats privados (chats 1:1) o de grupo los usuarios verán que los chats anteriores a la configuración de la directiva de retención se eliminan y que se muestra un mensaje generado automáticamente que indica que «Hemos eliminado mensajes más antiguos debido a la directiva de retención de su organización» encima de los mensajes que aún no se han eliminado. Por ejemplo:
 
-:::image type="content" source="media/retention-policies-image1.png" alt-text="Usuario informado en Teams que los mensajes de chat se eliminan debido a una Teams de retención.":::
+:::image type="content" source="media/retention-policies-image1.png" alt-text="El usuario ha informado en Teams de que los mensajes de chat se eliminan debido a una directiva de retención de Teams.":::
 
 
-:::image type="content" source="media/retention-policies-image2.png" alt-text="El usuario Teams explicando los mensajes se eliminan como resultado de una Teams de retención.":::
+:::image type="content" source="media/retention-policies-image2.png" alt-text="Los usuarios de Teams que explican los mensajes se eliminan como resultado de una directiva de retención de Teams.":::
 
 En el caso de los mensajes de canal, los usuarios (miembros del canal) verán que los mensajes eliminados desaparecen de la vista después de expirar. Si el mensaje eliminado era un mensaje primario de una conversación encadenada, en lugar del mensaje primario se mostrará un mensaje que indica «Este mensaje se ha eliminado debido a una directiva de retención». Por ejemplo:
 
@@ -105,3 +105,4 @@ Los vínculos de estos mensajes que se muestran llevan a [Mensajes de Teams sobr
 - [Introducción a las directivas y etiquetas de retención](/microsoft-365/compliance/get-started-with-retention)
 - [Más información sobre las directivas de retención para Microsoft Teams](/microsoft-365/compliance/retention-policies-teams)
 - [Crear y configurar directivas de retención](/microsoft-365/compliance/create-retention-policies)
+- Solución de problemas: [Los mensajes de las aplicaciones de Teams y Yammer se eliminan inesperadamente mediante directivas de retención](/microsoftteams/troubleshoot/teams-im-presence/messages-unexpectedly-deleted-retention-policy)

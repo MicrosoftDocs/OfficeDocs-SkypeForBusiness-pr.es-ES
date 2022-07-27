@@ -18,12 +18,12 @@ description: Aprenda a configurar los planes de llamadas de Microsoft y la carac
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9da8f8f082812063de7d2fb81c7d5b716ad1e07a
-ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
+ms.openlocfilehash: bc7fb0ae87cda84dfbf7b164d38b709b7ef2eef9
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66972795"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023701"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -156,7 +156,7 @@ Tenga en cuenta que algunos cambios en la configuración de red (como una nueva 
 
 - Si es necesario habilitar dinámicamente las llamadas de emergencia o configurar dinámicamente las notificaciones de escritorio de seguridad, debe configurar tanto las direcciones IP de confianza como los sitios de red.
 
-- Si solo se requieren ubicaciones dinámicas, debe configurar solo las direcciones IP de confianza; no es necesario configurar los parámetros de metwork.
+- Si solo se requieren ubicaciones dinámicas, debe configurar solo las direcciones IP de confianza; no es necesario configurar las opciones de red.
 
 - Si no es necesario, no es necesario configurar la red.
 

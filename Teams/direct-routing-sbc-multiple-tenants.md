@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para asociados de Microsoft o operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005360"
+ms.locfileid: "67024023"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -246,7 +246,7 @@ Se introdujeron dos nuevas entidades:
 Ejemplos:
 - Customers.adatum.biz: el tronco del transportista que debe crearse en el inquilino del transportista.
 
-- Sbc1.customers.adatum.biz: el tronco derivado en un inquilino de cliente. Puede agregar el nombre del tronco derivado en el inquilino del cliente en la directiva de enrutamiento de voz en línea sin crearlo.
+- Sbc1.customers.adatum.biz: el tronco derivado en un inquilino de cliente. Puede agregar el nombre del tronco derivado en el inquilino del cliente en las rutas de voz sin crearlo.
 
 - El operador tendrá que configurar el registro DNS que resuelve el FQDN del tronco derivado a la dirección IP SBC del operador.
 

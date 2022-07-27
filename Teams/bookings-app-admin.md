@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Obtenga información sobre cómo administrar la aplicación Bookings en Teams para los usuarios de su organización.
-ms.openlocfilehash: f11739784dcb9897bf9a3fcbffdadc8aea00d3e0
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: e7b8cbabd7c013c47d0d3d75982eb879ccc23e98
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819295"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023791"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Administrar la aplicación Bookings en Microsoft Teams
 
@@ -75,7 +75,7 @@ Esta característica se está implantando gradualmente en todo el mundo para los
 
 Al configurar un buzón de Bookings, se usa el dominio de correo electrónico predeterminado de su organización de Microsoft 365 u Office 365. Sin embargo, el dominio predeterminado puede causar problemas al enviar invitaciones a reuniones a destinatarios externos. Por ejemplo, es posible que la invitación se marque como correo no deseado y se mueva a la carpeta de correo no deseado del destinatario, por lo que es posible que no vea nunca la invitación.
 
-Le recomendamos que cambie el dominio predeterminado antes de crear el buzón de Bookings. Consulte las [Preguntas más frecuentes sobre dominios](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365).
+Le recomendamos que cambie el dominio predeterminado antes de crear el buzón de Bookings. Consulte las [Preguntas más frecuentes sobre dominios](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-microsoft-365).
 
 Si necesita cambiar el dominio predeterminado después de crear el buzón de Bookings, use PowerShell.
 
