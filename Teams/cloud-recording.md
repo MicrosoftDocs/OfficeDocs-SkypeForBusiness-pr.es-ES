@@ -19,20 +19,20 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 72ad8b9349681dbb10c3df848f99cc0250711543
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: 7e68c0563420ad2c4e2d53421dc8dfaecfc23cd1
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370823"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023983"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
-En Microsoft Teams, los usuarios pueden grabar sus reuniones y llamadas de grupo de Teams para capturar el audio, el vídeo y la actividad de pantalla compartida. Además, hay una opción para que las grabaciones tengan una transcripción automática, para que los usuarios puedan reproducir grabaciones de reunión con subtítulos y revisar elementos de discusión importantes en la transcripción. La grabación tiene lugar en la nube y se guarda en Microsoft OneDrive para la Empresa y Microsoft SharePoint Online, para que los usuarios puedan compartirla de forma segura en la organización.
+En Microsoft Teams, los usuarios pueden grabar sus reuniones y llamadas de grupo de Teams para capturar el audio, el vídeo y la actividad de pantalla compartida. Además, hay una opción para que las grabaciones tengan una transcripción automática, para que los usuarios puedan reproducir grabaciones de reunión con subtítulos y revisar elementos de discusión importantes en la transcripción. La grabación tiene lugar en la nube y se guarda en OneDrive y SharePoint para que los usuarios puedan compartirla de forma segura en la organización.
 
 Cuando se graba una reunión, sucede lo siguiente automáticamente:
 
-- Se carga en OneDrive para la Empresa o en SharePoint Online
+- Cargado en OneDrive o SharePoint
 - Se asignan permisos de la grabación a las personas invitadas a la reunión
 - Se incluye un vínculo a la grabación en el chat de la reunión
 - La grabación se muestra en la pestaña Grabaciones y transcripciones de la reunión en el calendario de Teams
@@ -42,18 +42,18 @@ Cuando se graba una reunión, sucede lo siguiente automáticamente:
 Relacionado: [Documentación de usuario final de grabación de reuniones de Teams](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
 >[!Note]
-> El cambio del uso de Microsoft Stream (clásico) a OneDrive para la Empresa y SharePoint Online para grabaciones de reuniones se producirá automáticamente en agosto de 2021. Para obtener información detallada, consulte [Usar OneDrive para la Empresa y SharePoint Online o Stream para las grabaciones de reuniones](tmr-meeting-recording-change.md).
+> El cambio del uso de Microsoft Stream (clásico) a OneDrive y SharePoint para grabaciones de reuniones se producirá de forma automática en agosto de 2021. Para obtener información detallada, consulte [Use OneDrive y SharePoint o Stream para las grabaciones de reuniones](tmr-meeting-recording-change.md).
 
 > [!NOTE]
 > Para obtener más información sobre el uso de los roles en reuniones de Teams y cómo cambiar los roles de los usuarios, consulte [roles en una reunión de Teams](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019). Para ver las opciones de grabación de eventos en directo, consulte [Directivas de grabación de eventos en directo en Teams](teams-live-events/live-events-recording-policies.md).
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Requisitos previos para grabación de reuniones en la nube de Teams
 
-Para que se graben las reuniones de un usuario de Teams, OneDrive para la Empresa y SharePoint Online deben estar habilitados para el espacio empresarial. Además, son necesarios los siguientes requisitos previos tanto para el organizador de la reunión como para la persona que inicia la grabación:
+Para que se graben las reuniones de un usuario de Teams, OneDrive y SharePoint deben estar habilitados para el espacio empresarial. Además, son necesarios los siguientes requisitos previos tanto para el organizador de la reunión como para la persona que inicia la grabación:
 
-- El usuario debe tener suficiente almacenamiento en OneDrive para la Empresa para que se guarden las grabaciones de reuniones que no sean del canal.
+- El usuario debe tener suficiente almacenamiento en OneDrive para que se guarden las grabaciones de reuniones que no sean del canal.
 
-- El canal de Teams debe tener suficiente almacenamiento en SharePoint Online para que se guarden las grabaciones de reuniones del canal.
+- El canal de Teams tiene suficiente almacenamiento en SharePoint para que se guarden las grabaciones de reuniones del canal.
 
 - El usuario debe tener la configuración `CsTeamsMeetingPolicy -AllowCloudRecording` establecida en true para grabar reuniones y llamadas grupales.
 
@@ -67,7 +67,7 @@ Para que se graben las reuniones de un usuario de Teams, OneDrive para la Empres
 
 > [!IMPORTANT]
 >
-> Los usuarios no necesitarán tener habilitado OneDrive para la Empresa o SharePoint Online si desea que los usuarios solo puedan grabar y descargar las grabaciones. Esto significa que las grabaciones no se almacenan en OneDrive para la Empresa o SharePoint Online, sino en el almacenamiento temporal de Teams con un límite de 21 días antes de que se eliminen. Esto no es algo que un administrador pueda controlar, administrar o eliminar en estos momentos.
+> Los usuarios no necesitarán tener habilitado OneDrive o SharePoint si desea que los usuarios solo puedan grabar y descargar las grabaciones. Esto significa que las grabaciones no se almacenan en OneDrive o SharePoint, sino en el almacenamiento temporal de Teams con un límite de 21 días antes de que se eliminen. Esto no es algo que un administrador pueda controlar, administrar o eliminar en estos momentos.
 >
 > Para más [información sobre cómo funciona el almacenamiento temporal de grabación de reuniones](#temp-storage), consulte la información que se ofrece a continuación.  
 
@@ -115,7 +115,7 @@ Esta configuración controla si las reuniones de canal se guardan en una carpeta
 
 Los dos valores de esta configuración son los siguientes:
 
-- **Permitir** (valor predeterminado): guarda las grabaciones de reuniones del canal en una carpeta "Grabaciones" del canal. Los permisos de los archivos de grabación se basarán en los permisos de SharePoint Online de canal. Es igual que cualquier otro archivo cargado para el canal.
+- **Permitir** (valor predeterminado): guarda las grabaciones de reuniones del canal en una carpeta "Grabaciones" del canal. Los permisos de los archivos de grabación se basarán en los permisos de SharePoint del canal. Es igual que cualquier otro archivo cargado para el canal.
 
 - **Bloquear**: guarda las grabaciones de reuniones del canal en una carpeta "Grabaciones\Ver solo" del canal. Los propietarios del canal tendrán derechos completos sobre las grabaciones de esta carpeta, pero los miembros del canal tendrán acceso de lectura sin capacidad de descarga.
 
@@ -149,7 +149,7 @@ Al activar esta opción, se crea una copia de la transcripción que se almacena 
 
 
 > [!NOTE]
-> Actualmente, esa transcripción para reuniones grabadas solo es compatible con inglés (EE. UU.), inglés (Canadá), inglés (India), inglés (Reino Unido), inglés (Australia), inglés (Nueva Zelanda), árabe (Emiratos Árabes), árabe (Arabia Saudí), chino (cantones), chino (mandarín), Checo (Checo), danés (Dinamarca), neerlandés (Bélgica), neerlandés (Países Bajos), francés (Canadá), francés (Francia), finés (Finlandia), alemán (Alemania), hebreo (Israel), hindi (India), italiano (Italia), japonés (Japón), Coreano (Corea), noruego (Noruega), polaco (Polonia), portugués (Brasil), portugués (Portugal), ruso (Rusia), español (México), español (España), sueco (Suecia), tailandés (Tailandia), turco (Turquía), vietnamita (Australia). Se almacenan junto con las grabaciones de reuniones en OneDrive para la Empresa y el almacenamiento en la nube de SharePoint Online.
+> Actualmente, esa transcripción para reuniones grabadas solo se admite para inglés (EE. UU.), inglés (Canadá), inglés (India), inglés (Reino Unido), inglés (Australia), inglés (Nueva Zelanda), árabe (Emiratos Árabes Unidos), árabe (Arabia Saudí), chino (simplificado, China), chino (tradicional, RAE de Hong Kong), chino (tradicional, Taiwán), checo (República Checa) , danés (Dinamarca), neerlandés (Bélgica), neerlandés (Países Bajos), francés (Canadá), francés (Francia), finés (Finlandia), alemán (Alemania), griego (Grecia), hebreo (Israel), hindi (India), húngaro (Hungría), italiano (Italia), japonés (Japón), coreano (Corea), noruego (Noruega), polaco (Polonia), portugués (Brasil), portugués (Portugal), rumano (Rumanía), ruso (Rusia), eslovaco (Eslovaquia), español (México), español (España), sueco (Suecia), tailandés (Tailandia), turco (Turquía), ucraniano (Ucrania), vietnamita (Eslovaquia). Se almacenan junto con las grabaciones de reuniones en el almacenamiento en la nube de OneDrive y SharePoint.
 
 Puede usar el centro de administración de Microsoft Teams o PowerShell para establecer una directiva de reunión de Teams para controlar si el iniciador de la reunión tiene la opción de transcribir la grabación de la reunión.
 
@@ -202,15 +202,15 @@ Después de agregar la dirección URL de la directiva de privacidad, la declarac
 
 ## <a name="permissions-and-storage"></a>Permisos y almacenamiento
 
-Las grabaciones de reuniones se almacenan en OneDrive para la Empresa y en el almacenamiento en la nube de SharePoint Online. La ubicación y los permisos dependen del tipo de reunión y del rol del usuario en la reunión. A continuación, se enumeran los permisos predeterminados aplicados a la grabación. Los usuarios que tienen todos los derechos de edición sobre el archivo de grabación de vídeo pueden cambiar los permisos y compartir el archivo más adelante con otros usuarios según sea necesario.
+Las grabaciones de reuniones se almacenan en el almacenamiento en la nube de OneDrive y SharePoint. La ubicación y los permisos dependen del tipo de reunión y del rol del usuario en la reunión. A continuación, se enumeran los permisos predeterminados aplicados a la grabación. Los usuarios que tienen todos los derechos de edición sobre el archivo de grabación de vídeo pueden cambiar los permisos y compartir el archivo más adelante con otros usuarios según sea necesario.
 
 ### <a name="non-channel-meetings"></a>Reuniones que no son de canal
 
-- La grabación se almacena en una carpeta denominada **Grabaciones** en OneDrive para la Empresa del usuario que ha hecho clic en Grabar. 
+- La grabación se almacena en una carpeta denominada **Grabaciones** en OneDrive del usuario que ha hecho clic en Grabar. 
 
-  Por ejemplo: <i>OneDrive para la Empresa de la persona que inició la grabación</i>/**Grabaciones**
+  Ejemplo:  <i>OneDrive de la persona que ha iniciado la grabación</i>/**Grabaciones**
 
-- A las personas invitadas a la reunión —excepto los usuarios externos— se les concederá automáticamente permiso para el archivo de la grabación con acceso de vista y sin capacidad de descarga.
+- A las personas invitadas a la reunión —excepto los participantes externos— se les concederá automáticamente permiso para el archivo de la grabación con acceso de vista y sin capacidad de descarga.
 
 - El propietario de la reunión y la persona que ha hecho clic en Grabar obtendrán acceso de edición completo con la capacidad de cambiar los permisos y de compartir con otras personas.
 
@@ -224,7 +224,7 @@ Si `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` está establecido en Per
 
 - El miembro que hizo clic Grabar tiene derechos de edición de la grabación.
 
-- Los permisos de todos los demás miembros se basan en los permisos de SharePoint Online del canal.
+- Los permisos de todos los demás miembros se basan en los permisos de SharePoint del canal.
 
 Si `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` se establece en Bloquear:
 
@@ -240,27 +240,27 @@ Para más información sobre tipos de reunión específicos, consulte la tabla s
 
 | Tipo de reunión  | ¿Quién ha hecho clic en Grabar?| ¿Dónde está la grabación? | ¿Quién tiene acceso? R/W, R o uso compartido  |
 |-------------|-----------------------|------------------------|------------------------|
-|Llamada uno a uno con partes internas             |Autor de la llamada                 |Cuenta de OneDrive para la Empresa del autor de la llamada                        |El autor de la llamada es propietario y tiene todos los derechos. <br /><br />El destinatario (si está en el mismo espacio empresarial) tiene acceso de solo lectura. Sin acceso de uso compartido. <br /><br /> El destinatario (si está en otro espacio empresarial) no tiene acceso. El autor de la llamada debe compartirlo con el destinatario.|
-|Llamada uno a uno con partes internas             |Destinatario                 |Cuenta de OneDrive para la Empresa del destinatario                        |El destinatario es propietario y tiene todos los derechos. <br /><br />El autor de la llamada (si está en el mismo espacio empresarial) tiene acceso de solo lectura. Sin acceso de uso compartido. <br /><br />El autor de la llamada (si está en otro espacio empresarial) no tiene acceso. El destinatario debe compartirlo con el autor de la llamada.|
-|Llamada uno a uno con llamada externa             |Autor de la llamada                 |Cuenta de OneDrive para la Empresa del autor de la llamada                        |El autor de la llamada es propietario y tiene todos los derechos.<br /> <br />El destinatario no tiene acceso. El autor de la llamada debe compartirlo con el destinatario.|
-|Llamada uno a uno con llamada externa             |Destinatario                 |Cuenta de OneDrive para la Empresa del destinatario                        |El destinatario es propietario y tiene todos los derechos.<br /><br />El autor de la llamada no tiene acceso. El destinatario debe compartirlo con el autor de la llamada.|
-|Llamada grupal                                 |Cualquier miembro de la llamada |El miembro del grupo que hizo clic en la cuenta de OneDrive para la Empresa de la grabación  |El miembro que hizo clic en la grabación tiene todos los derechos. <br /><br /> Otros miembros del mismo espacio empresarial tienen derechos de lectura. <br /><br /> Los miembros de grupo de otros espacios empresariales no tienen derechos sobre la grabación.|
-|Reunión programada/adhoc                    |Organizador              |Cuenta de OneDrive para la Empresa del organizador                     |El organizador tiene todos los derechos de la grabación. <br /><br /> El resto de los miembros de la reunión tienen acceso de lectura sin capacidad de descarga.|
+|Llamada uno a uno con partes internas             |Autor de la llamada                 |Cuenta de OneDrive del autor de la llamada                        |El autor de la llamada es propietario y tiene todos los derechos. <br /><br />El destinatario (si está en el mismo espacio empresarial) tiene acceso de solo lectura. Sin acceso de uso compartido. <br /><br /> El destinatario (si está en otro espacio empresarial) no tiene acceso. El autor de la llamada debe compartirlo con el destinatario.|
+|Llamada uno a uno con partes internas             |Destinatario                 |Cuenta de OneDrive del destinatario                        |El destinatario es propietario y tiene todos los derechos. <br /><br />El autor de la llamada (si está en el mismo espacio empresarial) tiene acceso de solo lectura. Sin acceso de uso compartido. <br /><br />El autor de la llamada (si está en otro espacio empresarial) no tiene acceso. El destinatario debe compartirlo con el autor de la llamada.|
+|Llamada uno a uno con llamada externa             |Autor de la llamada                 |Cuenta de OneDrive del autor de la llamada                        |El autor de la llamada es propietario y tiene todos los derechos.<br /> <br />El destinatario no tiene acceso. El autor de la llamada debe compartirlo con el destinatario.|
+|Llamada uno a uno con llamada externa             |Destinatario                 |Cuenta de OneDrive del destinatario                        |El destinatario es propietario y tiene todos los derechos.<br /><br />El autor de la llamada no tiene acceso. El destinatario debe compartirlo con el autor de la llamada.|
+|Llamada grupal                                 |Cualquier miembro de la llamada |El miembro del grupo que hizo clic en la cuenta de OneDrive de la grabación  |El miembro que hizo clic en la grabación tiene todos los derechos. <br /><br /> Otros miembros del mismo espacio empresarial tienen derechos de lectura. <br /><br /> Los miembros de grupo de otros espacios empresariales no tienen derechos sobre la grabación.|
+|Reunión programada/adhoc                    |Organizador              |Cuenta de OneDrive del organizador                     |El organizador tiene todos los derechos de la grabación. <br /><br /> El resto de los miembros de la reunión tienen acceso de lectura sin capacidad de descarga.|
 |Reunión programada/adhoc                    |Otro miembro de la reunión   |El miembro de la reunión que hizo clic en la grabación                                  |El miembro que hizo clic en la grabación tiene todos los derechos de la grabación. <br /><br />El organizador tiene derechos de edición y puede compartir.<br /><br /> El resto de los miembros de la reunión tienen acceso de lectura sin capacidad de descarga.|
-|Reunión programada/addhoc con usuarios externos|Organizador              |Cuenta de OneDrive para la Empresa del organizador                     |El organizador tiene todos los derechos de la grabación.<br /> <br /> Todos los demás miembros de la reunión del mismo espacio empresarial que el organizador tienen acceso de lectura sin capacidad de descarga. <br /><br /> Todos los demás miembros externos no tienen acceso y el organizador debe compartirlo.|
-|Reunión programada/addhoc con usuarios externos|Otro miembro de la reunión   |El miembro que hizo clic en la grabación                                  |El miembro que hizo clic en la grabación tiene todos los derechos de la grabación. El organizador tiene derechos de edición y puede compartir. <br /><br /> Todos los demás miembros de la reunión del mismo espacio empresarial que el organizador tienen acceso de lectura sin capacidad de descarga. <br /><br />Todos los demás miembros externos no tienen acceso y el organizador debe compartirlo.|
-|Reunión de canal                            |Miembro de canal         |Ubicación de SharePoint Online de Teams para ese canal                   |Si Set-CsTeamsMeetingPolicy -ChannelRecordingDownload está establecido en Permitir (valor predeterminado), el miembro que ha hecho clic en Grabar tiene derechos de edición sobre la grabación. Los permisos de todos los demás miembros se basan en los permisos de SharePoint Online del canal.<Br><Br>Si Set-CsTeamsMeetingPolicy -ChannelRecordingDownload está establecido en Bloquear, los propietarios del canal tendrán derechos completos sobre la grabación, pero los miembros del canal tendrán acceso de lectura sin capacidad de descarga.|
+|Reunión programada/addhoc con participantes externos|Organizador              |Cuenta de OneDrive del organizador                     |El organizador tiene todos los derechos de la grabación.<br /> <br /> Todos los demás miembros de la reunión del mismo espacio empresarial que el organizador tienen acceso de lectura sin capacidad de descarga. <br /><br /> Todos los demás miembros externos no tienen acceso y el organizador debe compartirlo.|
+|Reunión programada/addhoc con participantes externos|Otro miembro de la reunión   |El miembro que hizo clic en la grabación                                  |El miembro que hizo clic en la grabación tiene todos los derechos de la grabación. El organizador tiene derechos de edición y puede compartir. <br /><br /> Todos los demás miembros de la reunión del mismo espacio empresarial que el organizador tienen acceso de lectura sin capacidad de descarga. <br /><br />Todos los demás miembros externos no tienen acceso y el organizador debe compartirlo.|
+|Reunión de canal                            |Miembro de canal         |Ubicación de SharePoint de Teams para ese canal                   |Si Set-CsTeamsMeetingPolicy -ChannelRecordingDownload está establecido en Permitir (valor predeterminado), el miembro que ha hecho clic en Grabar tiene derechos de edición sobre la grabación. Los permisos de todos los demás miembros se basan en los permisos de SharePoint del canal.<Br><Br>Si Set-CsTeamsMeetingPolicy -ChannelRecordingDownload está establecido en Bloquear, los propietarios del canal tendrán derechos completos sobre la grabación, pero los miembros del canal tendrán acceso de lectura sin capacidad de descarga.|
 
 <a name="temp-storage"></a>
-### <a name="temporary-storage-when-unable-to-upload-to-onedrive-for-business-and-sharepoint-online"></a>Almacenamiento temporal cuando no se puede cargar en OneDrive para la Empresa y SharePoint Online
+### <a name="temporary-storage-when-unable-to-upload-to-onedrive-and-sharepoint"></a>Almacenamiento temporal cuando no se puede cargar en OneDrive y SharePoint
 
-Si una grabación de reunión no se puede cargar en OneDrive para la Empresa y SharePoint Online, estará disponible temporalmente para su descarga desde Teams durante 21 días antes de que se elimine. En este momento, esto no es algo que un administrador pueda controlar o administrar para incluir la capacidad de eliminarlo.
+Si una grabación de reunión no se puede cargar en OneDrive y SharePoint, estará disponible temporalmente para su descarga desde Teams durante 21 días antes de que se elimine. En este momento, esto no es algo que un administrador pueda controlar o administrar para incluir la capacidad de eliminarlo.
 
 Las grabaciones de reuniones pueden acabar en este almacenamiento temporal por los siguientes motivos:
 
-- Para reuniones que no son de canal, si la grabación del usuario no tiene una configuración de OneDrive para la Empresa o si OneDrive para la Empresa ha alcanzado su cuota de almacenamiento
-- Para una reunión de canal, si el sitio de SharePoint Online ha alcanzado su cuota de almacenamiento o si el sitio aún no se ha aprovisionado
-- Si se habilitan directivas específicas de OneDrive para la Empresa y SharePoint Online que limiten a los usuarios la carga de archivos cuando no se encuentran en intervalos IP específicos, etc.
+- Para reuniones que no son de canal, si el usuario que está grabando no tiene OneDrive o su OneDrive ha alcanzado su cuota de almacenamiento
+- Para una reunión de canal, si el sitio de SharePoint ha alcanzado su cuota de almacenamiento o si el sitio aún no se ha aprovisionado
+- Si se habilitan directivas específicas de OneDrive y SharePoint que limiten a los usuarios la carga de archivos cuando no se encuentran en intervalos IP específicos, etc.
 
 La retención de la grabación para este almacenamiento temporal se ve afectada por el propio mensaje de chat. Por lo tanto, cualquier eliminación del mensaje de chat original de la grabación impedirá que los usuarios puedan acceder a la grabación. Hay dos escenarios que pueden influenciar esta situación:
 
@@ -270,7 +270,7 @@ La retención de la grabación para este almacenamiento temporal se ve afectada 
 
 ### <a name="planning-for-storage"></a>Planificación de almacenamiento
 
-El tamaño de una grabación de 1 hora es de 400 MB. Asegúrese de entender la capacidad necesaria para los archivos grabados y de disponer de suficiente espacio de almacenamiento en OneDrive para la Empresa y en SharePoint Online.  Consulte [Establecer el espacio de almacenamiento predeterminado para OneDrive para la Empresa](/onedrive/set-default-storage-space) y [Administrar los límites de almacenamiento del sitio de SharePoint Online](/sharepoint/manage-site-collection-storage-limits) para comprender el almacenamiento base incluido en la suscripción y cómo comprar almacenamiento adicional.
+El tamaño de una grabación de 1 hora es de 400 MB. Asegúrese de entender la capacidad necesaria para los archivos grabados y de disponer de suficiente espacio de almacenamiento en OneDrive y en SharePoint.  Consulte [Establecer el espacio de almacenamiento predeterminado para OneDrive](/onedrive/set-default-storage-space) y [Administrar los límites de almacenamiento del sitio de SharePoint](/sharepoint/manage-site-collection-storage-limits) para comprender el almacenamiento base incluido en la suscripción y cómo comprar almacenamiento adicional.
 
  <a name="auto-expiration"></a>
 ### <a name="auto-expiration-of-teams-meeting-recordings"></a>Expiración automática de las grabaciones de reuniones de Teams
@@ -283,9 +283,9 @@ Obtenga más información sobre cómo los usuarios finales pueden administrar la
   
 ## <a name="manage-meeting-recordings"></a>Administrar grabaciones de reuniones
 
-Las grabaciones de reuniones se almacenan como archivos de vídeo en OneDrive para la Empresa y SharePoint Online y siguen las opciones de administración y gobernanza disponibles en dichas plataformas. Consulte [Información general sobre la gobernanza de SharePoint Online](/sharepoint/governance-overview), [Guía empresarial de OneDrive para la Empresa](/onedrive/plan-onedrive-enterprise)o [Guía para pequeñas empresas de OneDrive para la Empresa](/onedrive/one-drive-quickstart-small-business) para más información.
+Las grabaciones de reuniones se almacenan como archivos de vídeo en OneDrive y SharePoint y siguen las opciones de administración y gobernanza disponibles en dichas plataformas. Para obtener más información, consulte [Introducción a la gobernanza de SharePoint](/sharepoint/governance-overview).
 
-En el caso de las reuniones que no son de canal, las grabaciones se almacenan en OneDrive para la Empresa, por lo que el control de la propiedad y de la retención después de que un empleado abandone la empresa seguirá el [proceso normal de OneDrive para la Empresa y SharePoint Online](/onedrive/retention-and-deletion#the-onedrive-deletion-process).
+En el caso de las reuniones que no son de canal, las grabaciones se almacenan en OneDrive, por lo que el control de la propiedad y de la retención después de que un empleado abandone la empresa seguirá el [proceso de OneDrive y SharePoint](/onedrive/retention-and-deletion#the-onedrive-deletion-process) regular.
 
 ## <a name="closed-captions-for-recordings"></a>Subtítulos para las grabaciones
 
@@ -293,7 +293,7 @@ Los subtítulos para las grabaciones de reuniones de Teams solo estarán disponi
 
 Los subtítulos ayudan a crear contenido inclusivo para espectadores de todas las capacidades. Como propietario, puede ocultar los subtítulos en la grabación de la reunión, aunque la transcripción de la reunión seguirá estando disponible en Teams a menos que la elimine de allí.
 
-En estos momentos, los subtítulos del archivo de vídeo de la grabación están vinculados a la transcripción de la reunión de Teams. Este vínculo se conservará mientras que el archivo siga existiendo, pero se puede romper si el archivo de vídeo se copia en el mismo OneDrive para la Empresa o sitio de SharePoint Online, lo que provocaría que los subtítulos no estuvieran disponibles en el archivo de vídeo copiado.
+En estos momentos, los subtítulos del archivo de vídeo de la grabación están vinculados a la transcripción de la reunión de Teams. En la mayoría de los casos, este vínculo se conservará mientras que el archivo siga existiendo, pero se puede romper si el archivo de vídeo se copia en el mismo OneDrive o sitio de SharePoint, lo que provocaría que los subtítulos no estén disponibles en el archivo de vídeo copiado.
 
 Cualquier cambio futuro que se realice en el vínculo entre la transcripción en Teams y la grabación se explica aquí y en las notificaciones del centro de mensajes. Si realizamos algún cambio en el futuro, nos aseguraremos de que los archivos de grabación con menos de 60 días de antigüedad muestren la transcripción de la reunión como subtítulos.
 
@@ -304,9 +304,9 @@ Cualquier cambio futuro que se realice en el vínculo entre la transcripción en
 
 ### <a name="ediscovery"></a>eDiscovery
 
-Las grabaciones de reuniones se almacenan en OneDrive para la Empresa y SharePoint Online, lo cual es compatible con el nivel D de Microsoft 365 y Office 365. El mensaje de grabación completa se encuentra disponible en la función de búsqueda de contenido de cumplimiento de Microsoft Teams para admitir las solicitudes de eDiscovery para administradores de cumplimiento que estén interesados en las grabaciones de reuniones o de llamadas. Los administradores de cumplimiento pueden buscar la palabra clave "grabación" en la línea de asunto del elemento en la vista previa de búsqueda de contenido de cumplimiento y detectar grabaciones de reuniones y llamadas en la organización.
+Las grabaciones de reuniones se almacenan en OneDrive y SharePoint, lo cual es compatible con el nivel D de Microsoft 365 y Office 365. El mensaje de grabación completa se encuentra disponible en la función de búsqueda de contenido de cumplimiento de Microsoft Teams para admitir las solicitudes de eDiscovery para administradores de cumplimiento que estén interesados en las grabaciones de reuniones o de llamadas. Los administradores de cumplimiento pueden buscar la palabra clave "grabación" en la línea de asunto del elemento en la vista previa de búsqueda de contenido de cumplimiento y detectar grabaciones de reuniones y llamadas en la organización.
 
-Además, el archivo de vídeo de grabación de reuniones se puede encontrar mediante búsquedas en eDiscovery de archivos en SharePoint Online y OneDrive para la Empresa.
+Además, el archivo de vídeo de grabación de reuniones se puede encontrar mediante búsquedas en eDiscovery de archivos en SharePoint y OneDrive.
 
 Para más información sobre eDiscovery, consulte el artículo [Soluciones de eDiscovery para Microsoft 365](/microsoft-365/compliance/ediscovery)
 
@@ -316,7 +316,7 @@ Puede aplicar etiquetas de retención automáticas solo a los archivos de vídeo
 
 ### <a name="microsoft-purview-data-loss-prevention-dlp-policies"></a>Directivas de prevención de pérdida de datos (DLP) de Microsoft Purview
 
-También puede aplicar directivas DLP a archivos de grabación de reuniones mediante la propiedad ProgID. En la regla DLP para archivos en SharePoint Online y OneDrive para la Empresa, establezca las condiciones de la siguiente manera:
+También puede aplicar directivas DLP a archivos de grabación de reuniones mediante la propiedad ProgID. En la regla DLP para archivos en SharePoint y OneDrive, establezca las condiciones de la siguiente manera:
 
 - Propiedad del documento = *ProgID*
 - Valor = *Media.Meeting*

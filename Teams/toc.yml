@@ -1600,8 +1600,16 @@ items:
             href: easy-policy-setup-edu.md
           - name: Conexión de padres en Teams para Educación
             href: edu-parents-app.md
-          - name: Asesor de carrera en Teams para Educación
-            href: career-coach.md
+          - name: Asesor profesional
+            items:
+              - name: Empezar a trabajar con el Asesor de carrera
+                href: career-coach.md
+              - name: Configurar el Asesor de carrera
+                href: career-coach-set-up-steps.md
+              - name: Solución de problemas del Asesor de carrera
+                href: career-coach-troubleshoot.md
+              - name: Recursos para el Asesor de carrera
+                href: career-coach-resources.md
           - name: Supervisar los chats en Teams
             href: supervise-chats-edu.md
           - name: Insights para Educación
@@ -1998,6 +2006,8 @@ items:
             href: complaint-handling-code-for-the-united-kingdom-u-k.md
           - name: Términos y condiciones de llamadas de emergencia
             href: emergency-calling-terms-and-conditions.md
+      - name: Errores de canales compartidos
+        href: shared-channels-errors.md
       - name: Cuestionario de detección de actualización
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Notas de la versión de las características de administración de Teams

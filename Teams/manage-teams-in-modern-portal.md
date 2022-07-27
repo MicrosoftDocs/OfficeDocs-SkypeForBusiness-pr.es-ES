@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 735fc17c7e82c1c2362b235508b28b9b4a392439
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: d99dacdd0580d2ee9eaf775d843c5c46a0960259
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563978"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67024003"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Administrar equipos en el Centro de administración de Microsoft Teams
 
@@ -58,7 +58,7 @@ La cuadrícula muestra las siguientes propiedades:
 - **Privacidad**: visibilidad o AccessType del grupo de respaldo de Microsoft 365 correspondiente.
 - **Estado**: el estado Archivado o Activo de este equipo. Obtenga más información sobre archivar equipos en [Archivar o restaurar un equipo](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 - **Descripción**: la descripción del grupo de respaldo de Microsoft 365 correspondiente.
-- **Clasificación**: la clasificación (si se usa en su organización) asignada al grupo de respaldo de Microsoft 365 correspondiente. Obtenga más información sobre las clasificaciones en [Crear clasificaciones para los grupos de Office de su organización](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Clasificación**: la clasificación (si se usa en su organización) asignada al grupo de respaldo de Microsoft 365 correspondiente. Obtenga más información sobre las clasificaciones en [Crear clasificaciones para los grupos de Microsoft 365 de su organización](/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell#create-classifications-for-microsoft-365-groups-in-your-organization).
 - **GroupID**: el GroupID único del grupo de respaldo de Microsoft 365 correspondiente.
 
 > [!NOTE]
