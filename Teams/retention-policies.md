@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 508f10c07a25bb2dc3cef7af84d7dacc62989f28
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 000c279c32237fd7477a375bf9968db03ec5376d
+ms.sourcegitcommit: 644374fcad6372494e87d729de690af4c060f635
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023691"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67054931"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Administrar directivas de retención de Microsoft Teams
 
@@ -42,7 +42,7 @@ Teams admite directivas de retención para mensajes de chat y canal para que, co
 
 Para obtener más información sobre las soluciones de retención en Microsoft 365 consulte [Obtener información sobre las directivas de retención y las etiquetas de retención](/microsoft-365/compliance/retention).
 
-Los usuarios que están sujetos a una directiva de retención para Teams deben tener una licencia adecuada, como Office 365 E3 u Office 365 A3. Para ver otras opciones de licencia para estas directivas de retención consulte la sección [Gobierno de información](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) de la [Guía de licencias de Microsoft 365 para seguridad y cumplimiento](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance). Para obtener más información sobre las licencias de Teams consulte [Descripción del servicio Microsoft Teams](/office365/servicedescriptions/teams-service-description).
+Los usuarios que están sujetos a una directiva de retención para Teams deben tener una licencia adecuada, como Office 365 E3 u Office 365 A3. Para ver otras opciones de licencia para estas directivas de retención, consulte la sección [Administración del ciclo de vida de Microsoft Purview](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-lifecycle-management) de [la guía de licencias de Microsoft 365 para el cumplimiento de & de seguridad](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance). Para obtener más información sobre las licencias de Teams consulte [Descripción del servicio Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
 ## <a name="how-teams-retention-policies-support-retain-and-delete-actions"></a>Compatibilidad de las directivas de retención de Teams con las acciones de retención y eliminación
 
