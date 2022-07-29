@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre operadores automáticos y colas de llamadas, y cómo usarlos para ayudar a los autores de llamadas a desplazarse por un sistema de menús para ponerse en contacto con personas o departamentos de su organización.
-ms.openlocfilehash: 1f439ca0a6eb9ff3487582253cdd0aad7b2fad6c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 218377b2082d1a057f503abbf83d37ff78686986
+ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616086"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67070741"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear operadores automáticos y colas de llamadas de Teams
 
@@ -69,7 +69,7 @@ Puede asignar un número de teléfono a una cola de llamadas, pero las colas de 
 
 Para configurar operadores automáticos y colas de llamadas, necesita los siguientes recursos:
 
-- Una cuenta de recursos para cada operador automático y cada cola de llamadas
+- Una [cuenta de recursos](manage-resource-accounts.md) para cada operador automático y cada cola de llamadas
 - Una licencia gratuita de Teléfono Microsoft Teams cuenta de recursos para cada cuenta de recursos a la que se podrá marcar directamente desde usuarios de Teams o números de teléfono externos
 - Al menos un [número de servicio de Microsoft](getting-service-phone-numbers.md), un número de conexión de operador, un número de enrutamiento directo o un número híbrido para cada cuenta de recursos a la que quiera marcar directamente desde números de teléfono externos
   - El número de servicio puede ser un número de pago o gratuito
