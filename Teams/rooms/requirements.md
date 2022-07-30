@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Obtén información sobre los requisitos para admitir Salas de Microsoft Teams, incluida la elección del dispositivo, micrófonos, altavoces, cámaras y pantallas adecuados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3d8084c1136ef462dcced10b73879d2de2a48671
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: fc7c56ff41eb5d5cab01162468acf6b4dd11b344
+ms.sourcegitcommit: 3f6ae7946b64e857f6358019be2f0fdf19a207ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789765"
+ms.lasthandoff: 07/29/2022
+ms.locfileid: "67074648"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de la sala de Microsoft Teams
 
@@ -133,8 +133,8 @@ Todos los dispositivos y paquetes actuales de la Sala de Microsoft Teams están 
 
 Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la sala ](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=) y [https://office.com/teamsdevices](https://office.com/teamsdevices).
 
-|Periféricos de la sala de Microsoft Teams|Versión de firmware certificada | La cámara admite el uso de cámara de contenido|
-|:--- |:--- | :--- |
+|Periféricos de la sala de Microsoft Teams|Versión de firmware certificada | Admite cámara de contenido|Cámara inteligente|
+|:--- |:--- | :--- |:--- |
 |[Cámara de Aver VC520 Pro + Manos libres](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Sistema de conferencias Aver VC520 PRO2](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ Barra de sonido de la cámara](https://www.averusa.com/products/conference-camera/vb342plus) | Barra de sonido: 0.0.0000.97|
@@ -158,7 +158,7 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |Cámara Huddly L1 con kit DE MTR Crestron UC-M70-T | Huddly L1 Cámara: 1.2.1 </br> Crestron UC-M70-T con ASUS Tek Computer INC 9934 computación 1.0.20.246 o superior |
 |Cámara Huddly L1 con kit DE MTR Crestron UC-MX70-T | Huddly L1 Cámara: 1.2.1 </br> Crestron UC-MX70-T con ASUS Tek Computer INC 9934 computación 1.0.20.246 o superior |
 |[Cámara Jabra Panacast3](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
-|[Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|3.4.0| &#x2714; |
+|[Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|4.0.15| &#x2714; | &#x2714;|
 |[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
 |[Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR)|0.9.3|
 |Lenovo ThinkSmart Bar Expand XL|5.9.5|
