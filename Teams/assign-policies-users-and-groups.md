@@ -18,54 +18,54 @@ description: Aprenda las diferentes formas de asignar directivas a usuarios y gr
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 60d3835a3cdda752dab0305b68b68e91446e10d7
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: d3a77082fe3fb2e1f070c11f1ff85e6d883b2704
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646439"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156568"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>Asignar directivas a usuarios y grupos
 
-En este artículo se revisan las diferentes formas de asignar directivas a usuarios y grupos de Microsoft Teams. Antes de leer, asegúrese de que ha leído [Asignar directivas en Teams : introducción](policy-assignment-overview.md).
+En este artículo se revisan las diferentes formas de asignar directivas a usuarios y grupos en Microsoft Teams. Antes de leer, asegúrese de que ha leído [Asignar directivas en Teams: introducción](policy-assignment-overview.md).
 
 ## <a name="assign-a-policy-to-individual-users"></a>Asignar una directiva a usuarios individuales
 
-Siga estos pasos para asignar una directiva a un usuario individual o a un número reducido de usuarios a la vez.
+Siga estos pasos para asignar una directiva a un usuario individual o a unos pocos usuarios a la vez.
 
 ### <a name="use-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
 Para asignar una directiva a un usuario:
 
-1. En el panel de navegación izquierdo del [centro de administración de Microsoft Teams](https://admin.teams.microsoft.com), vaya a **UsuariosAdministrar** >  usuarios.
+1. En el panel de navegación izquierdo del [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com), vaya a **Usuarios** > **administrar usuarios**.
 2. Seleccione el usuario haciendo clic a la izquierda del nombre de usuario y, a continuación, seleccione **Editar configuración**.
 3. Seleccione la directiva que quiera asignar y, a continuación, seleccione **Aplicar**.
 
-![Asigne una directiva a un usuario en el centro de administración de Teams.](media/assign-policy-user.png)
+![Asigne una directiva a un usuario en el Centro de administración de Teams.](media/assign-policy-user.png)
 
 > [!NOTE]
-> Para anular la asignación de una directiva especializada a un usuario, puede establecer cada directiva en **Global (valor predeterminado para toda la organización).**
+> Para anular la asignación de una directiva especializada a un usuario, puede establecer cada directiva en **Global (valor predeterminado para toda la organización).** También puede quitar asignaciones de directiva de forma masiva para todos los usuarios asignados directamente a una directiva. Para obtener más información, lea [Anular la asignación masiva de directivas](#unassign-policies-in-bulk).
 
 También puede hacer lo siguiente para asignar una directiva a un usuario:
 
-1. En el panel de navegación izquierdo del Microsoft Teams centro de administración, vaya a la página de directivas.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la página de directivas.
 2. Seleccione la directiva que desea asignar haciendo clic a la izquierda del nombre de la directiva.
 3. Seleccione **Administrar usuarios**.
 4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 5. Cuando termine de agregar usuarios, seleccione **Aplicar**.
 
-![Asigne una directiva a un usuario en el centro de administración de Teams a través del segundo método.](media/assign-policy-user2.png)
+![Asigne una directiva a un usuario en el Centro de administración de Teams a través del segundo método.](media/assign-policy-user2.png)
 
 ### <a name="use-powershell"></a>Usar PowerShell
 
-Cada tipo de directiva tiene su propio conjunto de cmdlets para administrarlo. Use el `Grant-` cmdlet para un tipo de directiva determinado para asignar la directiva. Por ejemplo, use el `Grant-CsTeamsMeetingPolicy` cmdlet para asignar una directiva de reunión de Teams a los usuarios. Estos cmdlets se incluyen en el módulo Teams PowerShell y se documentan en la [referencia de cmdlet de Skype Empresarial](/powershell/skype).
+Cada tipo de directiva tiene su propio conjunto de cmdlets para administrarlo. Use el `Grant-` cmdlet para un tipo de directiva determinado para asignar la directiva. Por ejemplo, use el `Grant-CsTeamsMeetingPolicy` cmdlet para asignar una directiva de reunión de Teams a los usuarios. Estos cmdlets se incluyen en el módulo de PowerShell de Teams y se documentan en la [referencia de cmdlet de Skype Empresarial](/powershell/skype).
 
- Descargue e instale la [versión pública de Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (si aún no lo ha hecho) y, a continuación, ejecute lo siguiente para conectarse.
+ Descargue e instale la [versión pública de PowerShell de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/) (si aún no lo ha hecho) y, a continuación, ejecute lo siguiente para conectarse.
 
 > [!NOTE]
 > El conector en línea del cliente de Skype® Empresarial actualmente forma parte del módulo más reciente de Windows PowerShell de Teams.
 >
-> Si usa la versión pública más reciente [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), no es necesario instalar el conector en línea de Skype Empresarial.
+> Si usa la última [versión pública de PowerShell de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/), no es necesario instalar la Skype Empresarial Online Connector.
 
 ```powershell
   # When using Teams PowerShell Module
@@ -116,52 +116,52 @@ La directiva efectiva de un usuario se actualiza de acuerdo con estas reglas:
 > [!NOTE]
 > Se puede asignar un tipo de directiva determinado a un máximo de 64 grupos en todas las instancias de directiva para ese tipo.
 
-Al asignar una directiva a un grupo, se especifica una clasificación para la asignación del grupo. Esto se usa para determinar qué directiva debe heredar un usuario como su directiva efectiva si el usuario es miembro de dos o más grupos y se asigna una directiva del mismo tipo a cada grupo.
+Al asignar una directiva a un grupo, se especifica una clasificación para la asignación del grupo. Esta clasificación se usa para determinar qué directiva debe heredar un usuario como su directiva efectiva si el usuario es miembro de dos o más grupos y se asigna una directiva del mismo tipo a cada grupo.
 
-La clasificación de las asignaciones de grupo es relativa a otras asignaciones de grupo del mismo tipo. Por ejemplo, si va a asignar una directiva de llamada a dos grupos, establezca la clasificación de una tarea en 1 y la otra en 2, siendo 1 la más alta. La clasificación de asignaciones de grupo indica qué pertenencia a grupos es más importante o más relevante que otras pertenencias a grupos en lo que respecta a la herencia.
+La clasificación de las asignaciones de grupo es relativa a otras asignaciones de grupo del mismo tipo. Por ejemplo, si va a asignar una directiva de llamada a dos grupos, establezca la clasificación de una tarea en 1 y la otra en 2, siendo 1 la más alta. La clasificación de asignaciones de grupo indica qué pertenencia a grupos es más importante o más relevante que otras pertenencias a grupos en relación con la herencia.
 
-Supongamos, por ejemplo, que tiene dos grupos: Empleados de store y Administradores de tienda. A ambos grupos se les asigna una directiva de llamada Teams, una directiva de llamadas de empleados de store y una directiva de llamada de administradores de almacén, respectivamente. Para un administrador de almacén que se encuentra en ambos grupos, su rol como administrador es más relevante que su rol como empleado, por lo que la directiva de llamada que se asigna al grupo Administradores de almacén debe tener una clasificación más alta.
+Supongamos, por ejemplo, que tiene dos grupos: Empleados de store y Administradores de tienda. A ambos grupos se les asigna una directiva de llamadas de Teams, una directiva de llamadas de empleados de store y una directiva de llamadas de administradores de almacén, respectivamente. Para un administrador de almacén que se encuentra en ambos grupos, su rol como administrador es más relevante que su rol como empleado, por lo que la directiva de llamada que se asigna al grupo Administradores de almacén debe tener una clasificación más alta.
 
-|Grupo |Teams nombre de directiva de llamadas  |Clasificación|
+|Grupo |Nombre de directiva de llamadas de Teams  |Clasificación|
 |---------|---------|---|
 |Administradores de store   |Directiva de llamadas de administradores de almacén         |1|
 |Empleados de store    |Directiva de llamadas de empleados de Store      |2|
 
 Si no especifica una clasificación, se asigna la clasificación más baja a la asignación de directivas.
 
-### <a name="in-the-teams-admin-center"></a>En el centro de administración de Teams
+### <a name="in-the-teams-admin-center"></a>En el Centro de administración de Teams
 
 > [!NOTE]
-> Actualmente, la asignación de directivas a grupos que usan el centro de administración de Microsoft Teams solo está disponible para la directiva de llamadas de Teams, Teams directiva de parque de llamadas, directiva de Teams, directiva de eventos en directo Teams, directiva de reunión de Teams y directiva de mensajería de Teams. Para otros tipos de directivas, use PowerShell.
+> Actualmente, la asignación de directivas a grupos que usan el centro de administración de Microsoft Teams solo está disponible para la directiva de llamadas de Teams, la directiva de parque de llamadas de Teams, la directiva de Teams, la directiva de eventos en directo de Teams, la directiva de reuniones de Teams y la directiva de mensajería de Teams. Para otros tipos de directivas, use PowerShell.
 
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la página de tipo de directiva. Por ejemplo, vaya a **Directivas** >  de Reunión **.**
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la página de tipo de directiva. Por ejemplo, vaya a **Directivas** > **de reunión de** reuniones.
 2. Seleccione la pestaña **Asignación de directiva de grupo** .
 3. Seleccione **Agregar grupo** y, a continuación, en el panel **Asignar directiva a grupo** , haga lo siguiente:
     1. Busque y agregue el grupo al que desea asignar la directiva.
     2. Establezca la clasificación de la tarea de grupo.
     3. Seleccione la directiva que desea asignar.
     4. Seleccione **Aplicar**.
-    
-![Asigne una directiva a un grupo en el centro de administración de Teams.](media/assign-policy-group.png)
+
+![Asigne una directiva a un grupo en el Centro de administración de Teams.](media/assign-policy-group.png)
 
 Para quitar una asignación de directiva de grupo, en la pestaña **Asignación de directiva** de grupo de la página directiva, seleccione la asignación de grupo y, a continuación, seleccione **Quitar**.
 
-Para cambiar la clasificación de una asignación de grupo, primero tiene que quitar la asignación de directiva de grupo. Después, siga los pasos anteriores para asignar la directiva a un grupo.
+Para cambiar la clasificación de una asignación de grupo, primero debe quitar la asignación de directiva de grupo. Después, siga los pasos anteriores para asignar la directiva a un grupo.
 
 ### <a name="use-the-powershell-option"></a>Usar la opción PowerShell
 
 > [!NOTE]
 > Actualmente, la asignación de directivas a grupos con PowerShell no está disponible para todos los tipos de directiva de Teams. Consulte [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment) para obtener la lista de tipos de directiva admitidos.
 
-#### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar y conectarse al módulo Microsoft Teams PowerShell
+#### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar y conectarse al módulo de Microsoft Teams PowerShell
 
-Para obtener instrucciones detalladas, vea [Instalar Teams PowerShell](teams-powershell-install.md).
+Para obtener instrucciones detalladas, consulte [Instalar PowerShell de Teams](teams-powershell-install.md).
 
 #### <a name="assign-a-policy-to-a-group-of-users"></a>Asignar una directiva a un grupo de usuarios
 
 Use el cmdlet [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment) para asignar una directiva a un grupo. Puede especificar un grupo mediante el id. de objeto, la dirección SIP o la dirección de correo electrónico.
 
-En este ejemplo, asignamos una directiva de reunión de Teams denominada Directiva de reunión de administradores de minoristas a un grupo con una clasificación de asignación de 1.
+En este ejemplo, asignamos una directiva de reunión de Teams denominada Directiva de reunión de administradores de minoristas a un grupo con una clasificación de tareas de 1.
 
 ```powershell
 New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName "Retail Managers Meeting Policy" -Rank 1
@@ -169,7 +169,7 @@ New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -Polic
 
 #### <a name="get-policy-assignments-for-a-group"></a>Obtener asignaciones de directivas para un grupo
 
-Use el cmdlet [Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment) para asignar todas las directivas a un grupo. Tenga en cuenta que los grupos siempre se muestran por su id. de grupo incluso si se usó su dirección SIP o su dirección de correo electrónico para asignar la directiva.
+Use el cmdlet [Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment) para asignar todas las directivas a un grupo. Los grupos siempre se muestran por su id. de grupo incluso si se usó su dirección SIP o su dirección de correo electrónico para asignar la directiva.
 
 En este ejemplo, recuperamos todas las directivas asignadas a un grupo específico.
 
@@ -187,14 +187,14 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 Use el cmdlet [Remove-CsGroupPolicyAssignment](/powershell/module/teams/remove-csgrouppolicyassignment) para quitar una directiva de un grupo. Al quitar una directiva de un grupo, se actualizan las prioridades de otras directivas del mismo tipo asignadas a ese grupo y que tienen una clasificación inferior. Por ejemplo, si quita una directiva que tiene una clasificación de 2, las directivas con una clasificación de 3 y 4 se actualizarán para reflejar su nueva clasificación. En las dos tablas siguientes se muestra este ejemplo.
 
-Esta es una lista de las asignaciones y prioridades de directivas para una directiva de reunión de Teams.
+Esta es una lista de las asignaciones de directiva y prioridades de una directiva de reunión de Teams.
 
 |Nombre del grupo  |Nombre de la directiva  |Clasificación|
 |---------|---------|---------|
 |Ventas    |Directiva de ventas       | 1        |
 |Región Oeste     |Directiva de región oeste         |2         |
 |División    |Directiva de división         |3         |
-|Subsidiaria   |Directiva de subsidiarias        |4         |
+|Filial   |Directiva de subsidiarias        |4         |
 
 Si quitamos la directiva Región Oeste del grupo Región Oeste, las asignaciones y prioridades de la directiva se actualizarán de la siguiente manera.
 
@@ -202,9 +202,9 @@ Si quitamos la directiva Región Oeste del grupo Región Oeste, las asignaciones
 |---------|---------|---------|
 |Ventas    |Directiva de ventas       | 1        |
 |División    |Directiva de división         |2         |
-|Subsidiaria   |Directiva de subsidiarias        |3        |
+|Filial   |Directiva de subsidiarias        |3        |
 
-En este ejemplo, quitamos la directiva de reunión Teams de un grupo.
+En este ejemplo, quitamos la directiva de reunión de Teams de un grupo.
 
 ```powershell
 Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy -GroupId f985e013-0826-40bb-8c94-e5f367076044
@@ -221,7 +221,7 @@ Después de asignar una directiva a un grupo, puede usar el cmdlet [Set-CsGroupP
 - Cambiar la directiva de un tipo de directiva determinado
 - Cambiar la directiva de un determinado tipo de directiva y la clasificación
 
-En este ejemplo, cambiamos la directiva de estacionamiento de llamadas Teams de un grupo a una directiva denominada SupportCallPark y la clasificación de tareas a 3.
+En este ejemplo, cambiamos la directiva de parque de llamadas de Teams de un grupo a una directiva denominada SupportCallPark y la clasificación de tareas a 3.
 
 ```powershell
 Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -PolicyType TeamsMeetingPolicy -PolicyName SupportCallPark -Rank 3
@@ -231,13 +231,13 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 Este es un ejemplo de cómo cambiar la directiva efectiva para un usuario al que se le asigna una directiva directamente.
 
-En primer lugar, usamos el cmdlet [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) junto con el `PolicySource` parámetro para obtener detalles de las directivas de difusión de reunión Teams asociadas con el usuario.
+En primer lugar, usamos el cmdlet [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) junto con el `PolicySource` parámetro para obtener información detallada sobre las directivas de difusión de reunión de Teams asociadas con el usuario.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
 ```
 
-La salida muestra que al usuario se le asignó directamente una directiva de difusión de reunión Teams denominada Eventos de empleados, que tiene prioridad sobre la directiva denominada Eventos en directo de proveedor asignada a un grupo al que pertenece el usuario.
+La salida muestra que al usuario se le asignó directamente una directiva de difusión de reunión de Teams denominada **Eventos de empleados**, que tiene prioridad sobre la directiva denominada **Eventos en directo del proveedor** asignada a un grupo al que pertenece el usuario.
 
 ```console
 AssignmentType PolicyName         Reference
@@ -246,7 +246,7 @@ Direct         Employee Events
 Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 ```
 
-Ahora, quitamos la directiva Eventos de empleado del usuario. Esto significa que el usuario ya no tiene asignada una directiva de difusión de reunión de Teams directamente y heredará la directiva Eventos en directo del proveedor asignada al grupo al que pertenece el usuario.
+Ahora, quitamos la directiva Eventos de empleado del usuario. Esto significa que el usuario ya no tiene asignada directamente una directiva de difusión de reunión de Teams y heredará la directiva Eventos en directo del proveedor asignada al grupo al que pertenece el usuario.
 
 Para ello, use el siguiente cmdlet en el módulo Skype Empresarial PowerShell.
 
@@ -254,7 +254,7 @@ Para ello, use el siguiente cmdlet en el módulo Skype Empresarial PowerShell.
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
 ```
 
-Use el siguiente cmdlet en el módulo Teams PowerShell para hacerlo a escala a pesar de una asignación de directiva de lote, donde $users es una lista de usuarios que se especifica.
+Use el siguiente cmdlet en el módulo PowerShell de Teams para hacerlo a escala a través de una asignación de directiva de lote, donde $users es una lista de usuarios que especifica.
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
@@ -266,33 +266,33 @@ New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -Po
 
 Para asignar una directiva a los usuarios en masa:
 
-1. En el panel de navegación izquierdo del Microsoft Teams centro de administración, seleccione **Usuarios**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, seleccione **Usuarios**.
 2. Busque los usuarios a los que desea asignar la directiva o filtre la vista para mostrar los usuarios que desee.
-3. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, haga clic en &#x2713; (marca de verificación) situado en la parte superior de la tabla.
+3. En la columna **&#x2713;** (marca de verificación), seleccione los usuarios. Para seleccionar todos los usuarios, seleccione la &#x2713; (marca de verificación) en la parte superior de la tabla.
 4. Selecciona **Editar configuración**, realiza los cambios que quieras y, a continuación, selecciona **Aplicar**.
 
-Para ver el estado de la asignación de directiva, en el banner que aparece en la parte superior de la página **Usuarios** después de seleccionar **Aplicar** para enviar la asignación de directiva, seleccione **Registro de actividades**. O bien, en el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Panel** y, a continuación, en **Registro** de actividades, seleccione **Ver detalles**. El registro de actividades muestra las asignaciones de directivas a lotes de más de 20 usuarios a través del centro de administración de Microsoft Teams de los últimos 30 días. Para obtener más información, consulte [Ver las asignaciones de directivas en el registro de actividades](activity-log.md).
+Para ver el estado de la asignación de directiva, en el banner que aparece en la parte superior de la página **Usuarios** después de seleccionar **Aplicar** para enviar la asignación de directiva, seleccione **Registro de actividades**. O bien, en el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Panel** y, a continuación, en **Registro** de actividades, seleccione **Ver detalles**. El registro de actividades muestra las asignaciones de directivas a lotes de más de 20 usuarios a través del Centro de administración de Microsoft Teams de los últimos 30 días. Para obtener más información, consulte [Ver las asignaciones de directivas en el registro de actividades](activity-log.md).
 
 ### <a name="use-powershell-method"></a>Usar el método de PowerShell
 
 > [!NOTE]
 > Actualmente, la asignación de directivas por lotes con PowerShell no está disponible para todos los tipos de directiva de Teams. Consulte [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) para obtener la lista de tipos de directiva admitidos.
 
-Con la asignación de directivas por lotes, puede asignar una directiva a grandes conjuntos de usuarios a la vez sin tener que usar un script. Use el cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) para enviar un lote de usuarios y la directiva que desea asignar. Las asignaciones se procesan como una operación de segundo plano y se genera un identificador de operación para cada lote. A continuación, puede usar el cmdlet [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) para realizar un seguimiento del progreso y el estado de las asignaciones de un lote.
+Con la asignación de directivas por lotes, puede asignar una directiva a grandes conjuntos de usuarios a la vez sin usar un script. Use el cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) para enviar un lote de usuarios y la directiva que desea asignar. Las asignaciones se procesan como una operación de segundo plano y se genera un identificador de operación para cada lote. A continuación, puede usar el cmdlet [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) para realizar un seguimiento del progreso y el estado de las asignaciones de un lote.
 
-Especifique los usuarios por su id. de objeto o dirección SIP (Protocolo de inicio de sesión). La dirección SIP de un usuario suele tener el mismo valor que el Nombre principal de usuario (UPN) o la dirección de correo electrónico, pero no es necesario. Si un usuario se especifica mediante su UPN o correo electrónico, pero tiene un valor diferente a su dirección SIP, se producirá un error en la asignación de directivas para el usuario. Si un lote incluye usuarios duplicados, los duplicados se quitarán del lote antes de procesarse y el estado solo se proporcionará para los usuarios únicos que quedan en el lote.
+Especifique los usuarios por su id. de objeto o dirección SIP (Protocolo de inicio de sesión). La dirección SIP de un usuario suele tener el mismo valor que el Nombre principal de usuario (UPN) o la dirección de correo electrónico, pero no es necesario. Si un usuario se especifica mediante su UPN o correo electrónico, pero tiene un valor diferente a su dirección SIP, se producirá un error en la asignación de directivas para el usuario. Si un lote incluye usuarios duplicados, los duplicados se quitarán del lote antes de procesarse, y el estado solo se proporcionará para los usuarios únicos que quedan en el lote.
 
 Un lote puede contener hasta 5000 usuarios. Para obtener los mejores resultados, no envíe más de unos pocos lotes a la vez. Permita que los lotes completen el procesamiento antes de enviar más lotes.
 
-#### <a name="install-and-connect-to-the-teams-powershell-module"></a>Instalar y conectarse al módulo Teams PowerShell
+#### <a name="install-and-connect-to-the-teams-powershell-module"></a>Instalar y conectarse al módulo de PowerShell de Teams
 
-Ejecute lo siguiente para instalar el [módulo Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams). Asegúrate de instalar la versión 1.0.5 o posterior.
+Ejecute lo siguiente para instalar el [módulo de Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams). Asegúrate de instalar la versión 1.0.5 o posterior.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
 ```
 
-Ejecuta lo siguiente para conectarte a Teams e iniciar una sesión.
+Ejecute lo siguiente para conectarse a Teams e iniciar una sesión.
 
 ```powershell
 Connect-MicrosoftTeams
@@ -300,9 +300,9 @@ Connect-MicrosoftTeams
 
 Cuando se le solicite, inicie sesión con sus credenciales de administrador.
 
-#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Instalar y conectarse al módulo de PowerShell de Azure AD para Graph (opcional)
+#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Instalar y conectarse al módulo PowerShell de Azure AD para Graph (opcional)
 
-Es posible que también desee [descargar e instalar PowerShell de Azure AD para Graph módulo](/powershell/azure/active-directory/install-adv2) (si aún no lo ha hecho) y conectarse a Azure AD para poder recuperar una lista de usuarios de su organización.
+Es posible que también desee [descargar e instalar el módulo PowerShell de Azure AD para Graph](/powershell/azure/active-directory/install-adv2) (si aún no lo ha hecho) y conectarse a Azure AD para poder recuperar una lista de usuarios de su organización.
 
 Ejecute lo siguiente para conectarse a Azure AD.
 
@@ -344,6 +344,37 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 ```
 
 Para obtener más información, consulte [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation).
+
+## <a name="unassign-policies-in-bulk"></a>Anular la asignación de directivas en masa
+
+Al anular la asignación de directivas de forma masiva, se quitan las asignaciones de directivas que se asignaron a usuarios individuales mediante asignación directa. Esto es útil en los siguientes escenarios:
+
+1. Para que las **asignaciones de directiva de grupo o globales (predeterminadas para toda la organización) surtan efecto:** Debido a [las reglas de prioridad](policy-assignment-overview.md#which-policy-takes-precedence), las asignaciones de directiva de grupo o globales (predeterminadas para toda la organización) no surtan efecto para los usos que tengan una asignación de directiva directa. Como administrador, puede anular la asignación de directivas de forma masiva para quitar las asignaciones directas para que surtan efecto las asignaciones de directiva de grupo o globales (predeterminadas para toda la organización).
+1. **Limpie las asignaciones de directivas desde el asistente de Teams Educación:** El asistente para directivas de Teams Educación aplica los valores predeterminados de directiva global a los alumnos y asigna un conjunto de directivas personalizado para un grupo de docentes que usa la asignación de directivas de grupo. Los administradores deben limpiar las directivas individuales de los alumnos y el personal para que las tareas globales (predeterminadas para toda la organización) y de grupo sean efectivas.
+1. **Quitar asignaciones de directiva incorrectas:** Si hay un grupo grande de usuarios individuales a los que se asignó la directiva incorrecta mediante asignación directa, puede usar las directivas de desasignación en masa para quitar estas asignaciones.
+
+ Puede anular la asignación de directivas en masa desde el [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com).
+
+1. Vaya a **Administrar usuarios** > .
+2. En la esquina superior derecha de la página, seleccione Anular la asignación masiva de **directivas en** el menú desplegable **Acciones** .
+
+    ![Página Administrar usuarios en el Centro de administración de Teams.](media/manage-users-unassign-policies.png)
+
+    > [!NOTE]
+    > También puede anular la asignación de directivas de las páginas de directivas individuales eligiendo una directiva y seleccionando **Administrar usuarios**.
+
+3. Seleccione un tipo de directiva.
+
+    ![Anular la asignación de directivas en la página en masa del Centro de administración de Teams.](media/unassign-policies-page.png)
+
+4. Elija la directiva que desea reasignar y seleccione **Cargar datos** para obtener el número de usuarios que están asignados actualmente a esa directiva.
+
+    > [!IMPORTANT]
+    > Cuando elige una directiva, quita **todos los** usuarios asignados individualmente de esa directiva.
+
+5. Seleccione **Anular la asignación de directiva.**
+
+Después de anular la asignación de directivas, puede revisar los detalles de la operación en el [registro de actividades](https://admin.teams.microsoft.com/activity-log).
 
 ## <a name="related-topics"></a>Temas relacionados
 

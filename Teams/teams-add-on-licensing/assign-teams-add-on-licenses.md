@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Obtenga información sobre cómo asignar licencias de complementos de Teams a los usuarios para funcionalidades como Audioconferencia, Sistema telefónico y Planes de llamadas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07196e26f38042b6046d6761bd60dfad64f89c7d
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 1bef1464b94f736a10cc184a2bdb88e2cdf6df88
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023681"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156978"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Asignar licencias de complementos de Teams a usuarios
 
@@ -54,7 +54,7 @@ Las licencias se asignan en la página **Licencias** (para un máximo de 20 usua
 
 Para obtener instrucciones detalladas, consulte [Asignar licencias a usuarios](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-Si necesita asignar licencias para un gran número de usuarios, como cientos o miles de usuarios, use Powershell o [licencias basadas en grupos en Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign).
+Si necesita asignar licencias para un gran número de usuarios, como cientos o miles de usuarios, use PowerShell o [licencias basadas en grupos en Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign).
 
 ## <a name="using-powershell"></a>Con PowerShell
 
@@ -142,6 +142,8 @@ Para obtener más información, consulte [Ver licencias y servicios con PowerShe
 | Plan de llamadas nacionales (120 minutos por usuario/mes para cada país) </br>*Este plan no está disponible en la Estados Unidos.* | MCOPSTN5 |
 | Plan de llamadas nacionales (240 minutos por usuario y mes para cada país) </br>*Este plan no está disponible en la Estados Unidos.* | MCOPSTN6 |
 | Créditos de comunicaciones | MCOPSTNPP |
+| Planes de llamadas de pago por ir (países de zona 1) | MCOPSTN_PAYG_1 |
+| Planes de llamadas de pago por ir (países de zona 2) | MCOPSTN_PAYG_2 |
 
 ## <a name="related-content"></a>Contenido relacionado
 
