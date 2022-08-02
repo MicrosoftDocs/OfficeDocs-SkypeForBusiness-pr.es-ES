@@ -3,6 +3,29 @@
 
 
 
+## <a name="week-of-july-25-2022"></a>Semana del 25 de julio de 2022
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 7/25/2022 | [Números de teléfono y cambios en las licencias](/MicrosoftTeams/phone-numbers-licensing-changes) | agregado |
+| 7/25/2022 | [Directivas de reunión y expiración de reuniones en Microsoft Teams](/MicrosoftTeams/meeting-expiration) | modificado |
+| 7/25/2022 | [Inscribir un dispositivo de sala de Teams en Servicios administrados](/MicrosoftTeams/rooms/enroll-a-device) | modificado |
+| 7/25/2022 | [Registros y seguimiento del explorador para Teams](/MicrosoftTeams/browser-logs-and-tracing-for-teams) | agregado |
+| 7/25/2022 | [Configurar archivos de registro para supervisar y solucionar problemas en Teams](/MicrosoftTeams/log-files) | modificado |
+| 7/26/2022 | [Recursos para la integración de Entrenador profesional en Microsoft Teams](/MicrosoftTeams/career-coach-resources) | agregado |
+| 7/26/2022 | [Configurar entrenador profesional para Microsoft Teams](/MicrosoftTeams/career-coach-set-up-steps) | agregado |
+| 7/26/2022 | [Solucionar problemas del entrenador profesional de Microsoft Teams](/MicrosoftTeams/career-coach-troubleshoot) | agregado |
+| 7/26/2022 | [Errores de canales compartidos en Microsoft Teams](/MicrosoftTeams/shared-channels-errors) | agregado |
+| 7/26/2022 | [Introducción al Entrenador profesional de Microsoft Teams](/MicrosoftTeams/career-coach) | modificado |
+| 7/26/2022 | [Introducción al Entrenador profesional de Microsoft Teams](/MicrosoftTeams/cloud-recording) | modificado |
+| 7/26/2022 | [Usar el acceso de invitados y el acceso externo para colaborar con personas fuera de su organización](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modificado |
+| 7/26/2022 | [Administración de partners para clientes](/MicrosoftTeams/rooms/multi-tenant-management-customer) | modificado |
+| 7/26/2022 | [Administración de clientes multiempresa para partners](/MicrosoftTeams/rooms/multi-tenant-management-partner) | modificado |
+| 7/26/2022 | [Asignar licencias de complementos de Teams a usuarios](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | modificado |
+| 7/29/2022 | [Administrar los números de teléfono para su organización](/MicrosoftTeams/manage-phone-numbers-landing-page) | modificado |
+
+
 ## <a name="week-of-july-18-2022"></a>Semana del 18 de julio de 2022
 
 
@@ -108,20 +131,3 @@
 | 6/27/2022 | [Administrar directivas de reunión para participantes e invitados](/MicrosoftTeams/meeting-policies-participants-and-guests) | modificado |
 | 6/28/2022 | [Configurar el controlador de borde de sesión: varios espacios empresariales](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modificado |
 | 6/29/2022 | [Administrar de forma remota la configuración de Salas de Microsoft Teams dispositivo](/MicrosoftTeams/rooms/xml-config-file) | modificado |
-
-
-## <a name="week-of-june-20-2022"></a>Semana del 20 de junio de 2022
-
-
-| Fecha de publicación |Título del tema | Cambio |
-|------|------------|--------|
-| 6/20/2022 | [Configurar ServiceNow para Salas de Teams](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | modificado |
-| 6/21/2022 | [Administración configuración de Padres en Teams para Educación](/MicrosoftTeams/edu-parents-app) | modificado |
-| 6/21/2022 | [Referencia de cmdlet de PowerShell para operadores automáticos y colas de llamadas](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | modificado |
-| 6/21/2022 | [Crear una cola de llamadas en Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
-| 6/21/2022 | [Administrar aplicaciones de Microsoft Power Platform en el Centro de administración de Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | modificado |
-| 6/22/2022 | [Usar telemetría en tiempo real para solucionar problemas de mala calidad de la reunión](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modificado |
-| 6/23/2022 | [Administrar aplicaciones de Microsoft Power Platform en el Centro de administración de Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | modificado |
-| 6/23/2022 | [Comprar, configurar y habilitar entrenador profesional para Microsoft Teams para Educación](/MicrosoftTeams/career-coach) | modificado |
-| 6/23/2022 | [Configurar Operador Conectar](/MicrosoftTeams/operator-connect-configure) | modificado |
-| 6/24/2022 | [Administrar las aplicaciones en el Centro de administración de Microsoft Teams](/MicrosoftTeams/manage-apps) | modificado |
