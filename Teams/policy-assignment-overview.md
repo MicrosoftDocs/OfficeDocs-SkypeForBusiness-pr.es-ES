@@ -14,16 +14,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre las diferentes formas de asignar directivas y paquetes de directivas a usuarios y grupos de Microsoft Teams.
+description: Aprenda las diferentes formas de asignar directivas y paquetes de directivas a usuarios y grupos en Microsoft Teams.
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: c618653199a41bc358f4b2a14bdf1c0e8923d9b7
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 3dec8bf23167c5166302942140fcfe49e9ea3720
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646419"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156518"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Asignar directivas en Teams: introducción
 
@@ -31,7 +31,7 @@ Como administrador, puede usar directivas para controlar las características de
 
 Las organizaciones tienen diferentes tipos de usuarios con necesidades únicas. Las directivas personalizadas que cree y asigne le permiten personalizar la configuración de directivas a diferentes conjuntos de usuarios en función de esas necesidades.
 
-Para administrar fácilmente las directivas de su organización, Teams ofrece varias formas de asignar directivas a los usuarios. Asigne una directiva directamente a los usuarios, ya sea de forma individual o a escala a través de una asignación por lotes, o a un grupo del que los usuarios sean miembros. También puede usar paquetes de directivas para asignar una colección predefinida de directivas a los usuarios de su organización que tengan roles similares. La opción que elija dependerá del número de directivas que esté administrando y del número de usuarios a los que asigne las directivas. Las directivas globales (predeterminadas para toda la organización) se aplican al mayor número de usuarios de su organización. Solo tiene que asignar directivas a los usuarios que requieren directivas especializadas.
+Para administrar fácilmente las directivas de su organización, Teams ofrece varias maneras de asignar directivas a los usuarios. Asigne una directiva directamente a los usuarios, ya sea de forma individual o a escala a través de una asignación por lotes, o a un grupo del que los usuarios sean miembros. También puede usar paquetes de directivas para asignar una colección predefinida de directivas a los usuarios de su organización que tengan roles similares. La opción que elija dependerá del número de directivas que esté administrando y del número de usuarios a los que asigne las directivas. Las directivas globales (predeterminadas para toda la organización) se aplican al mayor número de usuarios de su organización. Solo tiene que asignar directivas a los usuarios que requieren directivas especializadas.
 
 En este artículo se describen las diferentes maneras en que puede asignar directivas a los usuarios y los escenarios recomendados para cuándo usar qué.
 
@@ -65,12 +65,15 @@ Antes de asignar directivas a usuarios o grupos individuales, comience [por esta
 
 |Haz esto  |Si...  | Usando...
 |---------|---------|----|
-|[Asignar una directiva a usuarios individuales](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)   | No está familiarizado con Teams y acaba de empezar o solo necesita asignar una o un par de directivas a un pequeño número de usuarios. |Centro de administración de Microsoft Teams o cmdlets de PowerShell en el módulo Teams PowerShell
-|[Asignar una directiva a un grupo](assign-policies-users-and-groups.md#assign-a-policy-to-a-group) |Asigne directivas basadas en la pertenencia a grupos de un usuario. Por ejemplo, asigne una directiva a todos los usuarios de un grupo de seguridad o una lista de distribución.| Centro de administración de Microsoft Teams o cmdlets de PowerShell en el módulo Teams PowerShell|
-|[Asignar una directiva a un lote de usuarios](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)   | Asigne directivas a grandes conjuntos de usuarios. Por ejemplo, asigne una directiva a cientos o miles de usuarios de su organización a la vez. |Centro de administración de Microsoft Teams o cmdlets de PowerShell en el módulo Teams PowerShell|
-|[Asignar un paquete de directiva a los usuarios](assign-policy-packages.md#assign-a-policy-package-to-users)  |Asigne varias directivas a conjuntos específicos de usuarios de su organización que tienen los mismos roles o similares. Por ejemplo, asigne el paquete de directivas Educación (profesor) a los profesores de su centro educativo para proporcionarles acceso total a chats, llamadas y reuniones. Asigne el paquete de directivas Educación (alumno de secundaria) a los alumnos secundarios para limitar determinadas capacidades, como las llamadas privadas.  |Centro de administración de Microsoft Teams o cmdlets de PowerShell en el módulo Teams PowerShell|
-|[Asignar un paquete de directivas a un grupo](assign-policy-packages.md#assign-a-policy-package-to-a-group)  |Asigne varias directivas a un grupo de usuarios de su organización que tienen los mismos roles o similares. Por ejemplo, asigne un paquete de directivas a todos los usuarios de un grupo de seguridad o una lista de distribución. |Centro de administración de Microsoft Teams (próximamente) o cmdlets de PowerShell en el módulo Teams PowerShell|
-|[Asignar un paquete de directivas a un lote de usuarios](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)|Asigne varias directivas a un lote de usuarios de su organización que tienen los mismos roles o similares. Por ejemplo, asigne el paquete de directivas Educación (profesor) a todos los profesores de su escuela mediante asignación por lotes para proporcionarles acceso total a chats, llamadas y reuniones. Asigne el paquete de directivas Educación (alumno de secundaria) a un lote de alumnos secundarios para limitar determinadas capacidades, como las llamadas privadas.|Cmdlets de PowerShell en el módulo Teams PowerShell|
+|[Asignar una directiva a usuarios individuales](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)   | Es nuevo en Teams y acaba de empezar o solo necesita asignar una o un par de directivas a un pequeño número de usuarios. |Centro de administración de Microsoft Teams o cmdlets de PowerShell en el módulo de PowerShell de Teams
+|[Asignar una directiva a un grupo](assign-policies-users-and-groups.md#assign-a-policy-to-a-group) |Asigne directivas basadas en la pertenencia a grupos de un usuario. Por ejemplo, asigne una directiva a todos los usuarios de un grupo de seguridad o una lista de distribución.| Centro de administración de Microsoft Teams o cmdlets de PowerShell en el módulo de PowerShell de Teams|
+|[Asignar una directiva a un lote de usuarios](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)   | Asigne directivas a grandes conjuntos de usuarios. Por ejemplo, asigne una directiva a cientos o miles de usuarios de su organización a la vez. |Centro de administración de Microsoft Teams o cmdlets de PowerShell en el módulo de PowerShell de Teams|
+|[Asignar un paquete de directiva a los usuarios](assign-policy-packages.md#assign-a-policy-package-to-users)  |Asigne varias directivas a conjuntos específicos de usuarios de su organización que tienen los mismos roles o similares. Por ejemplo, asigne el paquete de directivas Educación (profesor) a los profesores de su centro educativo para proporcionarles acceso total a chats, llamadas y reuniones. Asigne el paquete de directivas Educación (alumno de secundaria) a los alumnos secundarios para limitar determinadas capacidades, como las llamadas privadas.  |Centro de administración de Microsoft Teams o cmdlets de PowerShell en el módulo de PowerShell de Teams|
+|[Asignar un paquete de directivas a un grupo](assign-policy-packages.md#assign-a-policy-package-to-a-group)  |Asigne varias directivas a un grupo de usuarios de su organización que tienen los mismos roles o similares. Por ejemplo, asigne un paquete de directivas a todos los usuarios de un grupo de seguridad o una lista de distribución. |El Centro de administración de Microsoft Teams (próximamente) o los cmdlets de PowerShell en el módulo de PowerShell de Teams|
+|[Asignar un paquete de directivas a un lote de usuarios](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)|Asigne varias directivas a un lote de usuarios de su organización que tienen los mismos roles o similares. Por ejemplo, asigne el paquete de directivas Educación (profesor) a todos los profesores de su escuela mediante asignación por lotes para proporcionarles acceso total a chats, llamadas y reuniones. Asigne el paquete de directivas Educación (alumno de secundaria) a un lote de alumnos secundarios para limitar determinadas capacidades, como las llamadas privadas.|Cmdlets de PowerShell en el módulo de PowerShell de Teams|
+
+> [!NOTE]
+> Para anular la asignación de directivas, puede quitar las asignaciones de forma masiva para todos los usuarios asignados directamente a una directiva. Para obtener más información, lea [Anular la asignación masiva de directivas](assign-policies-users-and-groups.md#unassign-policies-in-bulk).
 
 ## <a name="set-the-global-policies"></a>Establecer las directivas globales
 
@@ -78,11 +81,11 @@ Siga estos pasos para establecer las directivas globales (predeterminadas para t
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la página de directiva del tipo de directiva que desea actualizar. Por ejemplo, **directivas Teams** >  **Teams**, **directivas MeetingsMeetings**, **directivas de mensajes** o **directivas** >  **de Llamada** **de voz** > .
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la página de directivas para el tipo de directiva que desea actualizar. Por ejemplo,**directivas** de **Teams** >  teams,**directivas de reuniones**, **directivas de mensajería** o **directivas** >  de **llamadas** de **voz** > .
 2. Seleccione la **directiva Global (predeterminada para toda** la organización) para ver la configuración actual.
 3. Actualice la directiva según sea necesario y, después, seleccione **Aplicar**.
 
-![Actualizar la directiva global en Teams centro de administración.](media/assign-globalpolicy.png)
+![Actualizar la directiva global en el Centro de administración de Teams.](media/assign-globalpolicy.png)
 
 ### <a name="using-powershell"></a>Con PowerShell
 
@@ -120,13 +123,13 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 ## <a name="view-your-policy-assignments-in-the-activity-log"></a>Ver las asignaciones de directivas en el registro de actividades
 
-Al asignar directivas a usuarios en el Microsoft Teams centro de administración, puede ver el estado de esas asignaciones de directivas en el [registro de actividades](https://admin.teams.microsoft.com/activitylog). El registro de actividades muestra información de carga de registros de red, operaciones de directivas de grupo desde Teams centro de administración y PowerShell, y operaciones de directivas de lotes (para más de 20 usuarios) desde el centro de administración de Teams durante los últimos 30 días.
+Al asignar directivas a usuarios en el Centro de administración de Microsoft Teams, puede ver el estado de esas asignaciones de directivas en el [registro de actividades](https://admin.teams.microsoft.com/activitylog). El registro de actividad muestra información de carga de registros de red, operaciones de directivas de grupo desde el Centro de administración de Teams y PowerShell, y operaciones de directivas de lotes (para más de 20 usuarios) desde el Centro de administración de Teams durante los últimos 30 días.
 
 ![Captura de pantalla de la página del registro de actividades.](media/Activity_Log.png)
 
 Para ver las operaciones de directivas en el registro de actividades:
 
-1. En el panel de navegación izquierdo del Microsoft Teams centro de administración, vaya a **Panel** y, a continuación, en **Registro** de actividades, seleccione **Ver detalles**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Panel** y, a continuación, en **Registro** de actividades, seleccione **Ver detalles**.
 2. Verá la siguiente información sobre cada operación de directiva:
     - **Actividad**: el nombre de la operación de directiva. Por ejemplo: **Asignación de directiva de grupo**
     - **Nombre del** grupo: el nombre del grupo en el que se completó la operación de directiva.

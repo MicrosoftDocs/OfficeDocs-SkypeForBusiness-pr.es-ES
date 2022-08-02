@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 - seo-marvel-mar2020
 description: Obtenga información sobre el número de números de teléfono que puede obtener en Microsoft Teams en función del tipo de número y el número de licencias que tenga.
-ms.openlocfilehash: e4b5c6db17ea6a1f50b7c7d3b53a221ac49b3fe1
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 053a1772ed14b09c1bed159973f50bc47125c58e
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682459"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156778"
 ---
 # <a name="how-many-telephone-numbers-can-you-get"></a>¿Cuántos números de teléfono puede obtener?
 
@@ -45,14 +45,14 @@ Puede ver la cantidad de números de teléfono que puede obtener de Microsoft du
 
 |Este es el tipo de número de teléfono |¿Cómo se obtiene el total de números de teléfono? |Este es un ejemplo |
 |:-----|:-----|:-----|
-|Número de usuario (suscriptor)   |El número de números de teléfono es igual al número total de licencias de **Planes de llamadas nacionales** o **Planes de llamadas internacionales** multiplicados por 1,1 + 10 números de teléfono adicionales.  |Si tengo 50 usuarios en total con un plan de llamadas nacionales o con un plan de llamadas internacionales, puede adquirir **65** números de teléfono **(50 x 1,1 + 10).**  |
+|Número de usuario (suscriptor)   |El número de números de teléfono es igual al número total de licencias de **Planes de llamadas nacionales** o **Planes de llamadas internacionales** multiplicados por 1,1 + 10 números de teléfono adicionales. Si tiene licencias de pago por uso, solo puede adquirir 1 número de teléfono por licencia. |Si tengo 50 usuarios en total con 30 de ellos en un plan de llamadas nacionales o internacionales, y 20 de ellos en un plan de llamadas de pago por uso, puede adquirir **63** números de teléfono **(30 x 1,1 + 10) + 20**. |
 |Número de servicio de pago   | El número de números de teléfono es igual al número total de licencias de **Sistema telefónico** y **Audioconferencia** y usa lo siguiente: <br/>  Si hay **1-25 licencias**, se proporcionan **5** números de teléfono. <br/>  Si hay **26-49 licencias**, se proporcionan **10** números de teléfono. <br/>  Si hay **50-99 licencias** , se ofrecen **20** números de teléfono. <br/>  Si hay **100-149 licencias**, se proporcionan **30** números de teléfono. <br/>  Si hay **150-199 licencias**, se proporcionan **40** números de teléfono. <br/>  Si hay **200-499 licencias**, se proporcionan **65** números de teléfono. <br/>  Si hay **500-749 licencias**, se proporcionan **90** números de teléfono. <br/>  Si hay **750-999 licencias**, se proporcionan **110** números de teléfono. <br/>  Si hay **1.000-1.249 licencias**, se proporcionan **125** números de teléfono. <br/>  Si hay **1.250-1.499 licencias** , se ofrecen **135** números de teléfono. <br/>  Si hay **1.500-1.999 licencias**, se proporcionan **160** números de teléfono. <br/>  Si hay **2.000-2.999 licencias**, se proporcionan **210** números de teléfono. <br/>  Si hay **3.000-6.999 licencias**, se proporcionan **420** números de teléfono. <br/>  Si hay **7.000-9.999 licencias**, se proporcionan **500** números de teléfono. <br/>  Si hay **10.000-14.999 licencias**, se proporcionan **600** números de teléfono. <br/>  Si hay **15.000-19.999 licencias**, se proporcionan **700** números de teléfono. <br/>  Si hay **20.000-49.999 licencias**, se proporcionan **1000** números de teléfono. <br/>  Si hay **más de 50.000**, se proporcionan **1.500** números de teléfono.  |Si tiene un total de **51** licencias de **Sistema telefónico** y **Audioconferencia** , puede obtener **20** números de servicio de pago.  |
 |Número de servicio gratuito   | El número de números de teléfono es igual al número total de licencias de **Sistema telefónico** y **Audioconferencia** y usa lo siguiente: <br/>  Si hay **1-25 licencias**, se proporcionan **5** números de teléfono. <br/>  Si hay **26-49 licencias**, se proporcionan **10** números de teléfono. <br/>  Si hay **50-99 licencias** , se ofrecen **20** números de teléfono. <br/>  Si hay **100-149 licencias**, se proporcionan **30** números de teléfono. <br/>  Si hay **150-199 licencias**, se proporcionan **40** números de teléfono. <br/>  Si hay **200-499 licencias**, se proporcionan **65** números de teléfono. <br/>  Si hay **500-749 licencias**, se proporcionan **90** números de teléfono. <br/>  Si hay **750-999 licencias**, se proporcionan **110** números de teléfono. <br/>  Si hay **1.000-1.249 licencias**, se proporcionan **125** números de teléfono. <br/>  Si hay **1.250-1.499 licencias** , se ofrecen **135** números de teléfono. <br/>  Si hay **1.500-1.999 licencias**, se proporcionan **160** números de teléfono. <br/>  Si hay **2.000-2.999 licencias**, se proporcionan **210** números de teléfono. <br/>  Si hay **3.000-6.999 licencias**, se proporcionan **420** números de teléfono. <br/>  Si hay **7.000-9.999 licencias**, se proporcionan **500** números de teléfono. <br/>  Si hay **10.000-14.999 licencias**, se proporcionan **600** números de teléfono. <br/>  Si hay **15.000-19.999 licencias**, se proporcionan **700** números de teléfono. <br/>  Si hay **20.000-49.999 licencias**, se proporcionan **1000** números de teléfono. <br/>  Si hay **más de 50.000**, se proporcionan **1.500** números de teléfono.  |Si tiene un total de **1001** licencias de **Sistema telefónico** y **Audioconferencia** , puede obtener **125** números de servicio gratuitos. <br/> <br/> **Importante:** La [facturación de créditos de comunicaciones](set-up-communications-credits-for-your-organization.md) es necesaria para reservar y usar números de teléfono gratuitos.          |
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, póngase en contacto con el [Centro de servicio de números de](https://pstnsd.powerappsportals.com/) teléfono.
   
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Administrar los números de teléfono de su organización](manage-phone-numbers-landing-page.md)
 

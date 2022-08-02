@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el informe de uso de aplicaci
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6fb738bc1b1fd068196d1b7c3238c139426eac73
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.openlocfilehash: f9dadab5ee29a15e939a120cddcd3e889d524d88
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825684"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156728"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Informe de uso de aplicaciones de Microsoft Teams
 
@@ -30,11 +30,15 @@ El informe de uso de aplicaciones de Teams del Centro de administración de Micr
 
 ## <a name="view-the-app-usage-report"></a>Ver el informe de uso de aplicaciones
 
-1. En el panel de navegación izquierdo del centro de administración, en , haga clic en <https://admin.teams.microsoft.com>**Análisis & informes** > **de uso**.<br><br>![Captura de pantalla del elemento de menú Informes de uso.](media/app-usage-report1.png "Captura de pantalla del elemento de menú Informes de uso.")
-2. En la pestaña **Ver informes** , en **Informe**, seleccione **Uso de aplicaciones**.
+1. En el panel de navegación izquierdo del Centro de administración de Teams, seleccione **Análisis & informes****[de uso](https://admin.teams.microsoft.com/analytics/reports)** > .
 
-3. En **Intervalo de fechas**, seleccione un rango y haga clic en **Ejecutar informe**. Puede visualizar el informe Uso de aplicaciones de Teams para ver las tendencias de los últimos 7, 30 o 90 días.<br><br>![Captura de pantalla del informe Uso de aplicaciones.](media/app-usage-report2.png "Captura de pantalla del informe Uso de aplicaciones.")
+   :::image type="content" source="media/app-usage-report1.png" alt-text="Captura de pantalla del elemento de menú Informes de uso.":::
 
+1. En la pestaña **Ver informes** , en **Informe**, seleccione **Uso de aplicaciones**.
+
+1. En **Intervalo de fechas**, seleccione un intervalo y, a continuación, seleccione **Ejecutar informe**. Puede ver el informe Uso de aplicaciones de Teams para ver las tendencias de los últimos 7, 30 o 90 días.
+
+   :::image type="content" source="media/app-usage-report2-trimmed.png" alt-text="Captura de pantalla de la interfaz del informe de uso de aplicaciones." lightbox="media/app-usage-report2.png":::
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 
@@ -42,13 +46,13 @@ El informe de uso de aplicaciones de Teams del Centro de administración de Micr
 
 Cada informe tiene una fecha en la esquina superior izquierda que muestra cuándo se creó el informe. Los informes suelen reflejar una latencia de 24 horas desde el momento en que se abrió una aplicación.
 
-El eje Y del gráfico es el número de usuarios que para la fecha que ha seleccionado manteniendo el mouse sobre el gráfico se consideran usuarios activos porque han abierto una aplicación al menos una vez.
+El eje Y del gráfico es el número de usuarios que se consideran usuarios activos para la fecha seleccionada al mantener el puntero sobre el gráfico. Los usuarios que abren una aplicación al menos una vez se consideran usuarios activos.
 
 El eje X del gráfico es el intervalo de fechas seleccionado para el informe.
 
 Desplace el puntero sobre el punto (4) que representa el uso de una aplicación en cualquier fecha para ver el número total de usuarios activos de esa aplicación en esa fecha.
 
-Para seleccionar otras aplicaciones, en la esquina superior derecha, haga clic en el icono **Filtro** (5), seleccione o escriba nuevos criterios y, a continuación, haga clic en **Aplicar**.
+Para seleccionar otras aplicaciones, en la esquina superior derecha, seleccione el icono **Filtro** (5), seleccione o escriba nuevos criterios y, después, seleccione **Aplicar**.
 
 La tabla de la parte inferior del informe (6) muestra los usuarios activos y equipos por nombre de aplicación.
 
@@ -56,22 +60,22 @@ La tabla de la parte inferior del informe (6) muestra los usuarios activos y equ
    - **Usuarios activos** es el número de usuarios que han abierto la aplicación al menos una vez durante el período de tiempo especificado.
    - **El tipo de aplicación** es un valor estático de "Microsoft" o "Tercero".
    - **Equipos activos** es el número de equipos que han abierto la aplicación por al menos un miembro del equipo y durante los períodos de tiempo especificados.
-   - **Publisher** es el editor de software de la aplicación.
-   - **Versión** es la versión de software de la aplicación, del editor de la aplicación.
+   - **Publisher** es el desarrollador de software de la aplicación.
+   - **Versión** es la versión de software de la aplicación, del desarrollador de la aplicación.
 
    > [!NOTE]
-   > **Los usuarios activos** y **los equipos activos** se calculan solo para las aplicaciones que se usan en canales.
+   > **Los usuarios activos** y **los equipos activos** solo se calculan para las aplicaciones que se usan en los canales.
 
-Para agregar o quitar columnas en la tabla, en la esquina superior derecha, haga clic en el icono **Editar columnas** (7), en la pestaña **Editar columnas** , seleccione nuevos criterios y, a continuación, haga clic en **Aplicar**.
+Para agregar o quitar columnas de la tabla, en la esquina superior derecha, seleccione el icono **Editar columnas** (7), en la pestaña **Editar columnas** , seleccione nuevos criterios y, después, seleccione **Aplicar**.
 
-Para exportar el informe a un archivo CSV para analizarlo sin conexión, en la esquina superior derecha, seleccione el icono **Exportar a Excel** (8) y, a continuación, en la pestaña **Descargas** , en **Estado**, haga clic en **Descargar**.
+Para exportar el informe a un archivo CSV para analizarlo sin conexión, en la esquina superior derecha, seleccione el icono **Exportar a Excel** (8) y, a continuación, en la pestaña **Descargas** , en **Estado**, seleccione **Descargar**.
 
    :::image type="content" alt-text="Captura de pantalla del panel Descargas." source="media/app-usage-report7.png" lightbox="media/app-usage-report7.png":::
 
-Cuando vea el informe en Excel, también verá una columna **Id** . que representa el id. de aplicación, normalmente una cadena alfanumérica. Si el **Id** **. está\n**, esto significa que un usuario solicitó que se eliminara su información.
+Al ver el informe en Microsoft Excel, también verá una `Id` columna, que representa el id. de aplicación, normalmente una cadena alfanumérica. Si el valor del `Id` es **\n**, significa que un usuario pidió que se eliminara su información.
 
-   ![Captura de pantalla del informe de Excel descargado.](media/app-usage-report8.png "Captura de pantalla del informe de Excel descargado.")
+   :::image type="content" source="media/app-usage-report8.png" alt-text="Captura de pantalla del informe de Excel descargado.":::
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 - [Análisis e informes de Teams](teams-reporting-reference.md)

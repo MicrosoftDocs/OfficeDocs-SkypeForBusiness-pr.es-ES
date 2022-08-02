@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo obtener números nuevos, transferirlos o transferirlos a Teams y cómo mostrar los cambios a los usuarios.
-ms.openlocfilehash: 18dd5a84110dc25721d9f8c027dffe861d29cbd1
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: b0ed990cd16a7e4878c2819a95fac29f46a9d770
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682549"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156548"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtener números de teléfono de Skype Empresarial para los usuarios
 
@@ -42,31 +42,34 @@ Hay tres maneras de obtener números de usuario:
   
 > [!NOTE]
 > Si necesita ayuda para configurar los números de teléfono de su organización, póngase [en contacto con el servicio de soporte técnico de productos Administración ayuda](/microsoft-365/admin/contact-support-for-business-products).
+
 ## <a name="get-new-phone-numbers-for-your-users"></a>Get new phone numbers for your users
 
- **Usar el Centro de administración de Microsoft Teams**
+**Usar el Centro de administración de Microsoft Teams**
 
 Debe ser administrador de servicio de Teams para poder realizar estos cambios. Consulte [Usar los roles de administrador de Teams para administrar Teams](./using-admin-roles.md) para obtener información sobre cómo obtener roles de administrador y permisos.
 
 1. Vaya al Centro de Administración de Microsoft Teams.
 
-2. En el panel de navegación izquierdo, vaya a **Números de teléfono** **de voz** >  y haga clic en **Agregar**.
+2. En el panel de navegación izquierdo, vaya a **Números de teléfono** **de voz** >  y, después, seleccione **Agregar**.
 
 3. Escriba un nombre para el pedido y agregue una descripción.
 
 4. En la página Ubicación y cantidad, haga lo siguiente:
     1. En **País o región**, selecciona un país o región.
     2. En **Tipo de número**, seleccione **Usuario (suscriptor).**.
-    3. En **Ubicación**, selecciona una ubicación. Si necesita crear una nueva ubicación, haga clic en **Agregar una ubicación**.
+    3. En **Ubicación**, selecciona una ubicación. Si necesitas crear una nueva ubicación, selecciona **Agregar una ubicación**.
     4. En **Código de área**, selecciona un código de área.
-    5. En **Cantidad**, escriba el número de números que desea para su organización y, a continuación, haga clic en **Siguiente** para seleccionar los números.
+    5. En **Cantidad**, escriba el número de números que desea para su organización y, a continuación, seleccione **Siguiente** para seleccionar los números.
 
 5. Seleccione los números que desee. Tienes 10 minutos para seleccionar tus números de teléfono y realizar el pedido. Si tarda más de 10 minutos, los números de teléfono se devolverán al grupo de números.
 
-6. Cuando esté listo para realizar el pedido, haga clic en **Realizar pedido**.
+6. Cuando estés listo para realizar el pedido, selecciona **Realizar pedido**.
 
     > [!IMPORTANT]
-    > El número de números de teléfono de los usuarios (suscriptores) es igual al número total de licencias de **Plan de llamadas nacionales** y **Plan de llamadas internacionales** que ha asignado multiplicado por 1,1, más 10 números de teléfono adicionales. Por ejemplo, si tiene 50 usuarios en total con un plan de llamadas nacionales o un plan de llamadas internacionales, puede adquirir **65** números de teléfono **(50 x 1,1 + 10)**. Para obtener más información, consulte [¿Cuántos números de teléfono puede obtener?](./how-many-phone-numbers-can-you-get.md). Si necesita obtener más números de teléfono, [póngase en contacto con el contacto de soporte técnico para productos de la empresa Administración ayuda](/microsoft-365/admin/contact-support-for-business-products).
+    > El número de números de teléfono de los usuarios (suscriptores) es igual al número total de licencias de **Plan de llamadas nacionales** y **Plan de llamadas internacionales** que ha asignado multiplicado por 1,1, más 10 números de teléfono adicionales. Por ejemplo, si tiene 50 usuarios en total con un plan de llamadas nacionales o un plan de llamadas internacionales, puede adquirir **65** números de teléfono **(50 x 1,1 + 10)**. Tenga en cuenta que si tiene un plan de llamadas de pago por uso, solo puede adquirir 1 número de teléfono por licencia asignada.
+    >
+    > Para obtener más información, consulte [¿Cuántos números de teléfono puede obtener?](./how-many-phone-numbers-can-you-get.md). Si necesita obtener más números de teléfono, [póngase en contacto con el contacto de soporte técnico para productos de la empresa Administración ayuda](/microsoft-365/admin/contact-support-for-business-products).
   
 ## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>Port or transfer phone numbers from your service provider or phone carrier
   
@@ -76,7 +79,7 @@ Debe ser administrador de servicio de Teams para poder realizar estos cambios. C
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Ver los números de teléfono de la organización
 
- **Usar el Centro de administración de Microsoft Teams**
+**Usar el Centro de administración de Microsoft Teams**
 
 En el panel de navegación izquierdo del centro de administración, vaya a **Números de teléfono** de **voz** >  para ver los números de su organización, incluida la ubicación, el tipo de número y la información de estado.
   
@@ -87,7 +90,7 @@ Después de obtener los números de teléfono, tendrá que asignar un número a 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el contacto de soporte técnico para productos de la empresa Administración ayuda](/microsoft-365/admin/contact-support-for-business-products).
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Preguntas comunes sobre la transferencia de números de teléfono](./phone-number-calling-plans/port-order-overview.md)
 

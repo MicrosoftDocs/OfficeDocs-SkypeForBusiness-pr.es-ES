@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar las directivas de comentarios para controlar si los usuarios de Teams de su organización pueden enviar comentarios sobre Teams a Microsoft.
-ms.openlocfilehash: 7fcfa1738f7dbbc0f7c70afec86e9e2f181d6d21
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: f9d001fba9503f6d5f2e482a437bc8f38c8ffc7d
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713348"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156528"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Administrar directivas de comentarios en Microsoft Teams
 
@@ -60,7 +60,7 @@ Puede editar la directiva global o crear y asignar una directiva personalizada. 
 
 Supongamos, por ejemplo, que desea permitir que todos los usuarios de su organización envíen comentarios y reciban encuestas, excepto los nuevos empleados de formación. En este escenario, creará una directiva personalizada para desactivar ambas características y asignarla a los nuevos empleados. El resto de usuarios de su organización obtienen la directiva global con las características activadas.  
 
-Puede administrar las directivas de comentarios con PowerShell. Use el [cmdlet **New-CsTeamsFeedbackPolicy**](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) para crear una directiva personalizada. Use el cmdlet **Grant-CsTeamsFeedbackPolicy** para asignarlo a uno o más usuarios o grupos de usuarios, como un grupo de distribución o un grupo de seguridad. Use **Set-CsTeamsFeedbackPolicy** para establecer marcas específicas.
+Puede administrar las directivas de comentarios con PowerShell. Use el [cmdlet **New-CsTeamsFeedbackPolicy**](/powershell/module/skype/new-csteamsfeedbackpolicy) para crear una directiva personalizada. Use el cmdlet **Grant-CsTeamsFeedbackPolicy** para asignarlo a uno o más usuarios o grupos de usuarios, como un grupo de distribución o un grupo de seguridad. Use **Set-CsTeamsFeedbackPolicy** para establecer marcas específicas.
 
 Para desactivar y activar las características, establezca los siguientes parámetros:
 
@@ -68,7 +68,7 @@ Para desactivar y activar las características, establezca los siguientes parám
 
  - **Encuestas**: establezca el parámetro **receiveSurveysMode** **en habilitado** para permitir que los usuarios asignados a la directiva reciban la encuesta. Para que los usuarios reciban la encuesta y les permita optar por no participar, establezca el parámetro **en enabledUserOverride**. En Teams, los usuarios pueden ir a **Configuración** > **privacidad** y elegir si quieren participar en encuestas. Si se establece el parámetro **en deshabilitado** , se desactivará la característica y los usuarios que tengan asignada la directiva no recibirán la encuesta.
 
- - **Correo electrónico**: use la marca **AllowEmailCollection** para agregar un campo de correo electrónico.
+ - **Email**: Use la marca **AllowEmailCollection** para agregar un campo de correo electrónico.
  - **Colección de registros**: Utilice la marca **AllowLogCollection** para agregar opt-in de la colección de registros para los usuarios. Actualmente, la recopilación de registros solo está habilitada en dispositivos móviles. Para obtener más información sobre qué datos se comparten a través de los registros, [obtenga más información](https://go.microsoft.com/fwlink/?linkid=2168178).
 
 ## <a name="create-a-custom-feedback-policy"></a>Crear una directiva de comentarios personalizada
