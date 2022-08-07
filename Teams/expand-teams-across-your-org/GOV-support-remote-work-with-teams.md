@@ -8,19 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 ms.reviewer: aytange
 ms.localizationpriority: high
 search.appverid: MET150
 description: Use estas recomendaciones para ayudar a los trabajadores remotos de su organización de administración pública a ser productivos con Microsoft Teams, especialmente cuando trabajan desde casa en respuesta al ataque del COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d245055d84025867705c1d83391510324ca7a22f
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.openlocfilehash: 0beed315b626605b0a8ecfa68c64a649d959fcda
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825754"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270235"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Dar soporte a trabajadores remotos de la administración pública con Microsoft Teams
 

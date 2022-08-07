@@ -9,16 +9,17 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: En este artículo se describe cómo configurar su organización y Salas de Teams dispositivos para que admitan la reunión de terceros que se une a Cisco Webex y Zoom.
-ms.openlocfilehash: 23eefeb564e3333b1bc2105a1fc4d57a0ff41bbe
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 1cbcd54983c9122467fbf133cc97b2c189857c96
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529682"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268205"
 ---
 # <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Habilitar Salas de Teams dispositivos para unirse a reuniones de terceros
 
@@ -65,19 +66,19 @@ Obtenga más información sobre [Exchange Online PowerShell](/powershell/exchang
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Paso 2: Configurar Office 365 protección contra amenazas y volver a escribir vínculos
 
-Para habilitar la experiencia de unirse con un solo toque, la información del vínculo para unirse a la reunión de terceros debe estar presente y se puede leer en la invitación a la reunión. Si su organización usa la característica de vínculos [seguros Microsoft Defender para Office 365](/microsoft-365/security/office-365-security/safe-links), o si usa una solución de terceros que analiza todas las direcciones URL entrantes y salientes en busca de amenazas, puede cambiar las direcciones URL de unión a la reunión y hacer que la reunión no se reconozca por el dispositivo Salas de Teams. Para asegurarse de que esto no sucede, debe agregar las direcciones URL del servicio de reunión de terceros a Defender para [Office 365 lista Vínculos seguros **No volver a escribir**](/microsoft-365/security/office-365-security/safe-links) o la lista de excepciones de reescritura de url de terceros.
+Para habilitar la experiencia de unirse con un solo toque, la información del vínculo para unirse a la reunión de terceros debe estar presente y se puede leer en la invitación a la reunión. Si su organización usa la característica de vínculos seguros [Pertahanan Microsoft untuk Office 365](/microsoft-365/security/office-365-security/safe-links), o si usa una solución de terceros que analiza todas las direcciones URL entrantes y salientes en busca de amenazas, puede cambiar las direcciones URL de unión a la reunión y hacer que el dispositivo de Salas de Teams no reconozca la reunión. Para asegurarse de que esto no sucede, debe agregar las direcciones URL del servicio de reunión de terceros a Defender para [Office 365 lista Vínculos seguros **No volver a escribir**](/microsoft-365/security/office-365-security/safe-links) o la lista de excepciones de reescritura de url de terceros.
 
  Si usa una solución de terceros, consulte las instrucciones de esa solución para agregar direcciones URL a su lista de excepciones de reescritura de url.
 
-Estas son algunas entradas de ejemplo que puede que necesite agregar a su Defender para Office 365 Vínculos seguros *No reescribir* lista o lista de excepciones de reescritura de URL de terceros:
+Estas son algunas entradas de ejemplo que puede que necesite agregar a su Defender pre Office 365 Vínculos seguros *No reescribir* lista o lista de excepciones de reescritura de URL de terceros:
 
 - **Cisco Webex** `*.webex.com/*`
 - **Zoom** `*.zoom.us/*`, , `*.zoom.com/*``*.zoomgov.com/*`
 
-Para obtener una lista completa de las direcciones URL que desea agregar a su Defender para Office 365 vínculos seguros *No volver a escribir* lista o lista de excepciones de reescritura de URL de terceros, póngase en contacto con el proveedor de servicios de reuniones de terceros desde el que desea aceptar invitaciones de reunión.
+Para obtener una lista completa de direcciones URL para agregar a su Defender pre Office 365 Vínculos seguros *No volver a escribir* lista ni lista de excepciones de reescritura de URL de terceros, póngase en contacto con el proveedor de servicios de reuniones de terceros desde el que desea aceptar invitaciones de reunión.
 
 > [!CAUTION]
-> Agregar solo direcciones URL de confianza a los Microsoft Defender para Office 365 Vínculos seguros *No vuelva a escribir* lista ni lista de excepciones de reescritura de URL de terceros.
+> Agregue solo direcciones URL de confianza a su Pertahanan Microsoft untuk Office 365 Vínculos seguros *No vuelva a escribir* lista ni lista de excepciones de reescritura de URL de terceros.
 
 ## <a name="step-3a-enable-third-party-meetings-on-teams-rooms-on-windows"></a>Paso 3a: Habilitar reuniones de terceros en Salas de Teams en Windows
 

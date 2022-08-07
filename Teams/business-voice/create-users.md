@@ -1,5 +1,5 @@
 ---
-title: Crear Microsoft 365 usuarios, agregar Teams Teléfono con licencias del paquete Plan de llamadas y asignar números de teléfono
+title: Crear usuarios de Microsoft 365, agregar Teams Phone con licencias de paquetes del plan de llamadas y asignar números de teléfono
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,34 +9,33 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 search.appverid: MET150
-description: Obtenga información sobre cómo crear y licenciar Teams Sistema telefónico usuarios del paquete Plan de llamadas y asignarles números de teléfono.
+description: Obtenga información sobre cómo crear y licenciar Teams Phone System con un paquete de usuarios del plan de llamadas y asignarles números de teléfono.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb60d60a12949cbb2a0b9ac60e727cfab393de12
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+ms.openlocfilehash: ac665f46c7be619d26b0c6da371ba57e554a07ee
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053279"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272005"
 ---
-# <a name="create-and-license-teams-phone-system-with-calling-plan-bundle-users-and-assign-them-phone-numbers"></a>Crear y licenciar Teams Sistema telefónico usuarios del paquete Plan de llamadas y asignarles números de teléfono
+# <a name="create-and-license-teams-phone-system-with-calling-plan-bundle-users-and-assign-them-phone-numbers"></a>Crear y licenciar Teams Phone System con un paquete de usuarios del plan de llamadas y asignarles números de teléfono
 
-Para usar el paquete Teams Sistema telefónico plan de llamadas, necesita una cuenta Microsoft 365 que tenga Teams Teléfono licencias del paquete Plan de llamadas. Cuando tenga una cuenta y licencias, puede empezar a asignar números de teléfono.
+Para usar el paquete Teams Phone System with Calling Plan, necesita una cuenta de Microsoft 365 que tenga licencias del paquete Teams Phone with Calling Plan. Cuando tenga una cuenta y licencias, puede empezar a asignar números de teléfono.
 
 ## <a name="create-and-license-users"></a>Crear y asignar licencias a los usuarios
 
 Siga los pasos en [Agregar usuarios individualmente o en bloque](/microsoft-365/admin/add-users/add-users)y [Asignar licencias a los usuarios](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 > [!NOTE]
-> En el **panel Asignar licencias de producto**, **seleccione Teams Teléfono con Plan de llamadas**.
+> En el panel **Asignar licencias de producto** , seleccione **Teléfono de Teams con plan de llamadas**.
 
 ## <a name="assign-phone-numbers-to-users"></a>Asignar números de teléfono a los usuarios
 
-Después de crear usuarios y asignarles Teams Teléfono licencia del paquete Plan de llamadas, puede asignarles números de teléfono. Debe tener un número de teléfono sin asignar para cada usuario que necesite realizar o recibir llamadas hacia o desde números de teléfono externos. Si no tiene suficientes números de teléfono sin asignar, consulte [Obtener más números de teléfono](#get-more-phone-numbers) más adelante en este artículo.
+Después de crear usuarios y asignarles Teams Phone con licencia de paquete de plan de llamadas, puede asignarles números de teléfono. Debe tener un número de teléfono sin asignar para cada usuario que necesite realizar o recibir llamadas hacia o desde números de teléfono externos. Si no tiene suficientes números de teléfono sin asignar, consulte [Obtener más números de teléfono](#get-more-phone-numbers) más adelante en este artículo.
 
 1. Vaya al [Centro de administración de Teams](https://admin.teams.microsoft.com).
 2. Escriba un nombre y una descripción para la solicitud del número de teléfono.

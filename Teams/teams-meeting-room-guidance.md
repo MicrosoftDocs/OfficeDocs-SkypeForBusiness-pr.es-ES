@@ -9,23 +9,21 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Un lookbook y una guía para la optimización de salas de reuniones con dispositivos y soluciones de salas Teams.
+description: Un lookbook y una guía para la optimización de salas de reuniones con dispositivos y soluciones de salas de Teams.
 ms.collection:
 - M365-voice
 - M365-collaboration
-- skype-for-business-itpro
-- skype-for-business-online
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8df4740d6f5facc427900e7af760b11a9c8cb43f
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 8abd332f29ab23cbdf2dd36150942de06228f645
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823405"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272245"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Guía de salas de reuniones para Teams
 
@@ -49,13 +47,13 @@ Reunir y presentar espacios prioriza la presentación y la discusión, lo que si
 
 Las reuniones de reunión y creación conjunta suelen ser menos formales, con una prioridad en la creación conjunta, la entrada manuscrita y la pizarra. El acceso a archivos personales también es un foco para este bucket. El dispositivo puede ser móvil, animando a los usuarios a ponerse de pie, reunirse e interactuar con el dispositivo.
 
-El espacio adecuado puente a los usuarios y a la tecnología sin problemas y elimina la fricción incluso para los usuarios más principiantes. Teams dispositivos están diseñados para que sean lo suficientemente fáciles de usar para que los estudiantes jóvenes o los nuevos usuarios naveguen adeptomente, y para que los educadores o administradores controlen y personalicen desde el primer uso.
+El espacio adecuado puente a los usuarios y a la tecnología sin problemas y elimina la fricción incluso para los usuarios más principiantes. Los dispositivos de Teams están diseñados para ser lo suficientemente fáciles de usar para los estudiantes jóvenes o los nuevos usuarios para navegar adeptadamente, y para que los formadores o administradores controlen y personalicen desde el primer uso.
 
 **Conozca y cree en conjunto diseños de espacio:** Las tablas y los equipos de cocreación pueden tener posiciones flexibles y deben dar cabida a grupos de personas que trabajan en las mesas o en el equipo.
 
 ### <a name="presentation-and-co-creation-focused-meetings"></a>Presentaciones y reuniones centradas en la creación conjunta
 
-Recuerde que ambos tipos de salones pueden controlar ambos tipos de experiencias cuando sea necesario. Las habitaciones también pueden ser diseñadas para adaptarse a ambas fácilmente con tecnología para cada uso. Lo importante es recordar que no importa el espacio que esté equipar, desde una oficina privada hasta un salón de conferencias, debe ser Teams habilitado.
+Recuerde que ambos tipos de salones pueden controlar ambos tipos de experiencias cuando sea necesario. Las habitaciones también pueden ser diseñadas para adaptarse a ambas fácilmente con tecnología para cada uso. Lo importante es recordar que, independientemente del espacio que esté equipar, desde una oficina privada hasta un salón de conferencias, debe estar habilitado Teams.
 
 **Presentación combinada y diseños de espacio de creación conjunta:** Se puede combinar una combinación de casos de uso de otros escenarios de reunión para formar salas multipropósito en las que las reuniones centradas en presentaciones, así como el trabajo en conjunto, se pueden lograr con la misma eficiencia, a menudo simultáneamente.
 
@@ -65,29 +63,29 @@ Una gran experiencia de reunión es el resultado de utilizar la mejor tecnologí
 
 ### <a name="native-teams-rooms-experiences-versus-other-devices"></a>Experiencias de Salas de Teams nativas frente a otros dispositivos
 
-Salas de Teams ir más allá de lo que se puede hacer con Teams en dispositivos personales al proporcionar capacidades únicas en la sala, como una unión con un solo toque, cámaras de contenido para compartir pizarras físicas en la reunión de forma inteligente y características de proximidad, como transferir sin problemas una reunión Teams desde su dispositivo personal a la sala.
+Salas de Teams ir más allá de lo que se puede hacer con Teams en dispositivos personales al proporcionar capacidades únicas en la sala, como unirse con un solo toque, cámaras de contenido para compartir pizarras físicas en la reunión de forma inteligente, y características de proximidad como transferir sin problemas una reunión de Teams desde su dispositivo personal a la sala.
 
-Los sistemas no nativos y autocompledos que dependen de servicios externos o una conexión bring-your-own-device nunca coincidirán realmente con la facilidad de uso o la calidad inmersiva de una sala de Teams nativa.
+Los sistemas no nativos y autocompledos que dependen de servicios externos, o una conexión bring-your-own-device, nunca coincidirán realmente con la facilidad de uso o la calidad inmersiva de una sala de Teams nativa.
 
-Se entiende que, en el transcurso de una implementación, es posible que tenga que realizar pasos intermedios (como implementar rápidamente salas de reuniones bring-your-own-device) implementados en la ruta de acceso a una experiencia de Teams totalmente nativa en los espacios de reuniones.
+Se entiende que, en el transcurso de una implementación, es posible que tenga que realizar pasos intermedios (como implementar rápidamente salas de reuniones bring-your-own-device) implementados en su ruta a una experiencia de Teams totalmente nativa en los espacios de reunión.
 
-### <a name="using-teams-to-create-the-best-possible-meeting-experience"></a>Uso de Teams para crear la mejor experiencia de reunión posible
+### <a name="using-teams-to-create-the-best-possible-meeting-experience"></a>Usar Teams para crear la mejor experiencia de reunión posible
 
-Al tener ambos Teams en todos sus dispositivos personales e implementados correctamente Salas de Microsoft Teams en todos sus espacios, podrá facilitar la mejor experiencia de reunión posible para cada uno de los usuarios. A medida que planee conseguir la mejor experiencia posible, tendrá que abordar todos sus espacios en términos de implementación tecnológica y orientación y formación para el usuario final.
+Al tener Ambos Equipos en todos sus dispositivos personales e implementados correctamente Salas de Microsoft Teams en todos sus espacios, podrá facilitar la mejor experiencia de reunión posible para cada uno de sus usuarios. A medida que planee conseguir la mejor experiencia posible, tendrá que abordar todos sus espacios en términos de implementación tecnológica y orientación y formación para el usuario final.
 
-Es normal que la planificación de una implementación a gran escala en toda la empresa se produzca en fases, ya que algunas salas ven la tecnología agregada en diferentes momentos o incluso determinados componentes que se instalan antes que otros (por ejemplo, implementar paneles de Teams para programación en cada sala de un edificio en particular al instalar Salas de Teams soluciones de una planta o incluso de una sala a la vez).
+Es normal que la planificación de una implementación a gran escala en toda la empresa se produzca en fases, ya que algunas salas ven la tecnología agregada en momentos diferentes o incluso ciertos componentes que se instalan antes que otros (como implementar paneles de Teams para la programación en cada sala de un edificio en particular mientras se instalan soluciones de Salas de Teams de una planta o incluso de una sala a la vez).
 
-Prepare a los usuarios para que lo hagan por fases para maximizar su experiencia de reunión Teams en cada punto del proceso.
+Prepare a los usuarios para que lo hagan por fases para maximizar su experiencia de reunión de Teams en cada punto del proceso.
 
 #### <a name="good-experience--personal-devices-alone-in-a-meeting-space"></a>Buena experiencia: solo dispositivos personales en un espacio de reunión
 
-Puede empezar con este plan abordando todos los espacios de reunión que no están equipados con AV o que no están equipados con colaboración. Aún puede aprovechar las ventajas de Teams en las salas de reuniones, incluso si esas salas de reuniones aún no tenían Teams dispositivos instalados.
+Puede empezar con este plan abordando todos los espacios de reunión que no están equipados con AV o que no están equipados con colaboración. Aún puede aprovechar Teams en sus salas de reuniones, incluso si esas salas de reuniones aún no tenían dispositivos de Teams instalados.
 
-*Audio:* Un gran puente para una Salas de Teams completa es planear la tecnología de reuniones proporcionando a los usuarios individuales dispositivos de audio certificados por Teams para salas y grupos más pequeños, o bien implementándolos en salas antes de una solución Salas de Teams completa para espacios más grandes destinados a grupos más grandes donde un dispositivo pequeño no lo cortará.
+*Audio:* Un gran puente para una Salas de Teams completa es planear la tecnología de reuniones proporcionando a los usuarios individuales dispositivos de audio certificados para Teams para salas y grupos más pequeños, o implementándolos en salas antes de una solución Salas de Teams completa para espacios más grandes destinados a grupos más grandes donde un dispositivo pequeño no lo cortará.
 
-*Video:* Cuando se usan estas salas, los usuarios individuales pueden llevar sus propios dispositivos para compartir el contenido de la reunión Teams y capturar sus expresiones con sus cámaras individuales. A continuación, los usuarios pueden designar a alguien como el único origen de audio para el grupo local, conectando ese dispositivo personal al dispositivo de audio certificado, de modo que todos los usuarios (tanto locales como remotos) tengan una experiencia positiva con el audio de la reunión.
+*Video:* Cuando se usan estas salas, los usuarios individuales pueden llevar sus propios dispositivos para compartir el contenido de la reunión de Teams y capturar sus expresiones con sus cámaras individuales. A continuación, los usuarios pueden designar a alguien como el único origen de audio para el grupo local, conectando ese dispositivo personal al dispositivo de audio certificado, de modo que todos los usuarios (tanto locales como remotos) tengan una experiencia positiva con el audio de la reunión.
 
-*Compromiso:* Si habilita las salas de reuniones para obtener una mejor experiencia de Teams reunión, incluso cuando necesite el uso de dispositivos personales y periféricos, los usuarios podrán seguir ampliando su información sobre lo que pueden hacer con Teams. Cuando los usuarios se encuentran en oficinas privadas y en estaciones de trabajo individuales, Teams facilita las discusiones en persona además de interactuar con participantes remotos.
+*Compromiso:* Si habilita las salas de reuniones para disfrutar de una mejor experiencia de reunión en Teams, incluso cuando necesite el uso de dispositivos personales y periféricos, los usuarios podrán seguir ampliando su información sobre lo que pueden hacer con Teams. Cuando los usuarios se encuentran en oficinas privadas y en estaciones de trabajo individuales, Teams facilita las discusiones en persona además de interactuar con participantes remotos.
 
 #### <a name="better-experience--teams-rooms-solutions-and-no-personal-devices"></a>Mejor experiencia: soluciones Salas de Teams y sin dispositivos personales
 
@@ -113,7 +111,7 @@ El uso de Teams en todos los dispositivos garantiza que los usuarios de salas lo
 
 ## <a name="technology-considerations"></a>Consideraciones tecnológicas
 
-Las opciones correctas de tecnologías de audio y vídeo ayudarán a los usuarios a sacar el máximo partido de sus reuniones de Microsoft Teams.
+Las opciones de tecnología de audio y vídeo adecuadas ayudarán a los usuarios a sacar el máximo partido de sus reuniones de Microsoft Teams.
 
 ### <a name="audio"></a>Audio
 
@@ -139,7 +137,7 @@ El vídeo es igualmente importante que el audio. Capturar la comunicación físi
 
 *Las cámaras adecuadas para cada espacio*:
 
-Por muy importante que sea el audio, el vídeo de alta calidad es una necesidad de colaboración moderna Teams. La tecnología para cámaras ha avanzado significativamente con cámaras de alta calidad ahora disponibles para todos los espacios.
+Por muy importante que sea el audio, el vídeo de alta calidad es una necesidad de colaboración moderna en Teams. La tecnología para cámaras ha avanzado significativamente con cámaras de alta calidad ahora disponibles para todos los espacios.
 
 - Las cámaras incluidas en dispositivos, como portátiles y tabletas, deben usarse en todas las reuniones para asegurarse de que todos se ven y escuchan. Para los usuarios que buscan ofrecer una experiencia de vídeo más enriquecida en **un** **espacio personal**, las cámaras externas representan un paso más allá de los dispositivos incrustados y se pueden usar en un mayor número de escenarios y configuraciones, lo que garantiza que los participantes de la llamada compartan la mejor vista de calidad de sí mismos. Estos dispositivos se instalan fácilmente con una conexión USB simple que se encuentra en cada PC.
 
@@ -153,7 +151,7 @@ Por muy importante que sea el audio, el vídeo de alta calidad es una necesidad 
 
 ![Representación de una sala de reuniones mejorada.](media/emr1.png)
 
-En esta sección se explica cómo Microsoft está transformando las salas de conferencias estándar en Salas de Microsoft Teams mejoradas que ofrecen lo mejor de la nueva experiencia Teams primera fila. Use este artículo para orientación tecnológica y de diseño de salas, productos recomendados y especificaciones de referencia de las instalaciones corporativas de Microsoft.
+En esta sección se explica cómo Microsoft está transformando las salas de conferencias estándar en Salas de Microsoft Teams mejoradas que ofrecen lo mejor de la nueva experiencia de primera fila de Teams. Use este artículo para orientación tecnológica y de diseño de salas, productos recomendados y especificaciones de referencia de las instalaciones corporativas de Microsoft.
 
 ## <a name="microsofts-vision-for-the-future-of-meeting-rooms"></a>Visión de Microsoft para el futuro de las salas de reuniones
 
@@ -165,9 +163,9 @@ La visión para el futuro de las reuniones se basa en una creencia simple: las r
 
 ## <a name="what-is-an-enhanced-microsoft-teams-room"></a>¿Qué es una sala de Microsoft Teams mejorada?
 
-En el área de trabajo híbrida de Microsoft, la próxima generación de estándares de sala está informada por las necesidades de los participantes remotos y dentro de la sala. Una sala mejorada es una sala de Microsoft Teams diseñada para ofrecer una experiencia de reunión híbrida *elevada*, fomentando conexiones más naturales e inmersivas, al tiempo que permite a todos los participantes de la reunión sentirse incluidos, representados y productivos. La sala sigue un conjunto de principios hechos realidad a través de una combinación de Salas de Teams software y funcionalidades hardware, así como una guía de configuración de sala.
+En el área de trabajo híbrida de Microsoft, la próxima generación de estándares de sala está informada por las necesidades de los participantes remotos y dentro de la sala. Una sala mejorada es una sala de Microsoft Teams diseñada para ofrecer una experiencia de reunión híbrida *elevada* , lo que fomenta conexiones más naturales e inmersivas, al tiempo que permite a todos los participantes de la reunión sentirse incluidos, representados y productivos. La sala sigue un conjunto de principios hechos realidad a través de una combinación de Salas de Teams software y funcionalidades hardware, así como una guía de configuración de sala.
 
-El concepto de sala de Microsoft Teams mejorada está diseñado en torno a dos objetivos clave que se apoyan en un conjunto de principios de experiencia.
+El concepto de sala mejorada de Microsoft Teams está diseñado en torno a dos objetivos clave que son compatibles con un conjunto de principios de experiencia.
 
 **Objetivo 1: Todos los participantes de la reunión se sienten incluidos, representados y productivos.**
 
@@ -189,19 +187,19 @@ Una experiencia de sala mejorada son todos esos componentes e ideas juntos sin n
 
 Ejemplos de implementación de características específicas:
 
-- Aproveche nuestra nueva experiencia de primera fila en la parte frontal de la sala en todos los tipos de espacios de reunión donde hay una solución de sala Microsoft Teams compatible.
+- Aproveche nuestra nueva experiencia de primera fila en la parte frontal de la sala en todos los tipos de espacios de reunión donde hay una solución de salas de Microsoft Teams que lo admite.
 
-- Implemente tablas curvas y diseños frontales con las experiencias tradicionales de sala de Microsoft Teams para promover una mejor conexión humana en la sala y mantener la continuidad de la experiencia en todos los espacios de reunión.
+- Implemente tablas curvas y diseños frontales con las experiencias tradicionales de salas de Microsoft Teams para promover una mejor conexión humana en la sala y mantener la continuidad de la experiencia en todos los espacios de reunión.
 
 ## <a name="when-should-you-deploy-this-room-type"></a>¿Cuándo debería implementar este tipo de salón?
 
 Las Salas de Microsoft Teams mejoradas no están pensadas para reemplazar el resto de los espacios de reunión dentro de su organización, sino para actuar como un suplemento a los espacios de reunión existentes que usan Microsoft Teams. Deben implementarse estratégicamente dentro de su organización en los espacios y ubicaciones donde serán más valiosas las interacciones cara a cara con los participantes de la reunión remota.
 
-Salas de Microsoft Teams seguirá ofreciendo experiencias híbridas de reuniones centradas en las personas disponibles a través de actualizaciones de software. Sin embargo, existen tecnologías de hardware y directrices de configuración de salas que desempeñan un papel clave en la optimización de algunas de las experiencias mejoradas. Es la combinación de estos componentes que componen una sala de Microsoft Teams mejorada. Al evaluar cuántos Salas de Microsoft Teams desea evolucionar a una sala de Microsoft Teams mejorada, tenga en cuenta lo siguiente:
+Salas de Microsoft Teams seguirá ofreciendo experiencias híbridas de reuniones centradas en las personas disponibles a través de actualizaciones de software. Sin embargo, existen tecnologías de hardware y directrices de configuración de salas que desempeñan un papel clave en la optimización de algunas de las experiencias mejoradas. Es la combinación de estos componentes que comprende una sala de Microsoft Teams mejorada. Al evaluar cuántos Salas de Microsoft Teams desea evolucionar a una sala de Microsoft Teams mejorada, tenga en cuenta lo siguiente:
 
 - Qué actualizaciones de hardware y/o inversiones tendrían que realizarse.
 
-- La mayoría de las salas de conferencias están diseñadas para maximizar el material cuadrado valioso con una estrecha relación entre la dimensión de la sala y la capacidad de la sala. Una sala de Microsoft Teams mejorada da prioridad a la experiencia de reunión antes que maximizar la grabación cuadrada. No todas las organizaciones pueden dar prioridad a esta forma para cada espacio de reunión, ya que podría reducir el número de salas de reuniones que pueden tener.
+- La mayoría de las salas de conferencias están diseñadas para maximizar el material cuadrado valioso con una estrecha relación entre la dimensión de la sala y la capacidad de la sala. Una sala de Microsoft Teams mejorada prioriza la experiencia de reunión antes que maximizar el material de archivo cuadrado. No todas las organizaciones pueden dar prioridad a esta forma para cada espacio de reunión, ya que podría reducir el número de salas de reuniones que pueden tener.
 
 ### <a name="understanding-this-space"></a>Comprender este espacio
 
@@ -215,7 +213,7 @@ Nuestra investigación ha demostrado que las reuniones remotas durante la pandem
 
 Este espacio está dedicado a la experiencia de reunión de Teams más envolvente para un pequeño grupo de personas en la sala física.
 
-Al igual que una sala de Microsoft Teams típica, los participantes de la reunión pueden reunirse de forma remota y local para trabajar conjuntamente sin problemas mientras presentan y crean conjuntamente contenido.
+Al igual que una sala típica de Microsoft Teams, los participantes de la reunión pueden reunirse de forma remota y local para colaborar sin problemas mientras presentan y crean conjuntamente contenido.
 
 ### <a name="how-is-this-space-laid-out"></a>¿Cómo se distribuye este espacio?
 
@@ -239,21 +237,21 @@ La cámara ultra ángulo incluye un seguimiento inteligente de los participantes
 
 ### <a name="how-do-the-front-of-room-displays-work"></a>¿Cómo funcionan las pantallas frontales de la sala?
 
-Esta sala está optimizada para el diseño Salas de Microsoft Teams llamada fila frontal y se muestra a través de un proyector especializado de alta resolución de tiro corto, creando una experiencia envolvente frente a la sala diseñada específicamente para reuniones de Teams.
+Esta sala está optimizada para el diseño Salas de Microsoft Teams llamada fila frontal y se muestra a través de un proyector especializado de alta resolución de tiro corto, lo que crea una experiencia envolvente frente a la sala diseñada específicamente para las reuniones de Teams.
 
 ### <a name="what-is-front-row"></a>¿Qué es la primera fila?
 
 Para ofrecer a los usuarios de la sala una mayor sensación de conexión con los participantes remotos y apoyar la colaboración antes, durante y después de las reuniones, Microsoft introdujo un nuevo diseño de contenido para Salas de Microsoft Teams llamada primera fila. Visualmente, este nuevo diseño mueve la galería de vídeos a la parte inferior de la pantalla y se fija con una relación específica para mantener las caras en tamaño real. Con este diseño, los participantes en la sala pueden ver a compañeros remotos cara a cara en un plano horizontal, como si estuvieran en la misma sala.
 
-El contenido de la reunión está rodeado de componentes contextuales fluidos como la agenda, las tareas y las notas, que se pueden actualizar en tiempo real, lo que ayuda a los participantes a mantenerse comprometidos y productivos. Además, el chat de la reunión se visualiza claramente para que, al unirse a una reunión de Teams desde una sala de Teams, pueda ver y participar fácilmente en la conversación en tiempo real. En una sala de Microsoft Teams mejorada, este contenido se muestra en una pantalla con una relación de aspecto amplia para maximizar el tamaño del contenido de la reunión y el número de participantes que se pueden ver simultáneamente.
+El contenido de la reunión está rodeado de componentes contextuales fluidos como la agenda, las tareas y las notas, que se pueden actualizar en tiempo real, lo que ayuda a los participantes a mantenerse comprometidos y productivos. Además, el chat de la reunión se visualiza claramente para que, al unirse a una reunión de Teams desde una sala de Teams, pueda ver y participar en la conversación en tiempo real. En una sala de Microsoft Teams mejorada, este contenido se muestra en una pantalla con una relación de aspecto amplia para maximizar el tamaño del contenido de la reunión y el número de participantes que se pueden ver simultáneamente.
 
-Este diseño es compatible con configuraciones de una y dos pantallas. Aunque el diseño de la fila frontal es especialmente impactante en una sala mejorada, la fila delantera se puede usar en cualquier sala Teams que se ejecute en Windows, independientemente de la configuración de mobiliario y hardware.
+Este diseño es compatible con configuraciones de una y dos pantallas. Aunque el diseño de la fila delantera es especialmente impactante en una sala mejorada, la fila delantera se puede usar en cualquier sala de Teams que se ejecute en Windows, independientemente de la configuración de mobiliario y hardware.
 
 ### <a name="how-do-you-co-create-content"></a>¿Cómo se crea contenido en co-autoría?
 
-En Salas de Microsoft Teams, los usuarios pueden aprovechar las ventajas de la pizarra analógica tradicional mediante la característica de captura inteligente. Para obtener una experiencia modernizada en la que todos los participantes puedan dibujar y realizar entradas de lápiz conjuntamente, se puede acceder a Microsoft Whiteboard mediante una pantalla frontal de la sala con pantalla táctil, dispositivos complementarios como un EQUIPO, un teléfono o una tableta, y a través de Microsoft Surface Hub.
+En Salas de Microsoft Teams, los usuarios pueden aprovechar las ventajas de la pizarra analógica tradicional mediante la característica de captura inteligente. Para obtener una experiencia modernizada en la que todos los participantes pueden dibujar y realizar entradas de lápiz conjuntamente, se puede acceder a Microsoft Whiteboard con una pantalla frontal de la sala con pantalla táctil, dispositivos complementarios como un EQUIPO, un teléfono o una tableta, y a través de Microsoft Surface Hub.
 
-## <a name="enhanced-microsoft-teams-room-design-guidance"></a>Instrucciones de diseño de salas Microsoft Teams mejoradas
+## <a name="enhanced-microsoft-teams-room-design-guidance"></a>Instrucciones de diseño de salas de Microsoft Teams mejoradas
 
 Esta sección está pensada para cubrir la construcción de una sala desde cero.
 
@@ -267,7 +265,7 @@ Esta sección está pensada para cubrir la construcción de una sala desde cero.
 
 #### <a name="room-capacity"></a>Capacidad de la sala
 
-Esta habitación Microsoft Teams mejorada está optimizada para entre 6 y 8 personas.
+Esta sala mejorada de Microsoft Teams está optimizada para entre 6 y 8 personas.
 
 #### <a name="room-furniture"></a>Muebles de habitación
 
@@ -277,7 +275,7 @@ Esta habitación cuenta con una mesa de sala de reuniones estándar de 30 o 76 c
 
 #### <a name="equipment-mounting"></a>Montaje de equipos
 
-La selección de una ubicación para el hardware suele estar controlada por la selección de Teams hardware certificado para salas que se usa en un espacio de reunión determinado.
+La selección de una ubicación para el hardware suele estar controlada por la selección de hardware certificado para salas de Teams que se usa en un espacio de reunión determinado.
 
 Para las implementaciones iniciales de salas mejoradas dentro de nuestras instalaciones de Microsoft, hemos elegido montar la Salas de Microsoft Teams consola de computación y táctil en la mesa, con una cámara integrada y un dispositivo de barra de sonido (con audio discreto de canal izquierdo y derecho para audio espacial) montados en muebles especializados, situados debajo de la imagen mostrada, así como entre la proyección frontal de la sala y la mesa. Es importante mantener la consola al alcance de los participantes sin impedir el uso de la tabla para dispositivos personales o documentos. Para la pantalla, se utiliza un proyector de alta resolución de tiro corto.
 
@@ -289,7 +287,7 @@ La Salas de Microsoft Teams consola táctil debe montarse en el centro de la tab
 
 #### <a name="local-video-presentation"></a>Presentación de vídeo local
 
-Aunque muchos participantes pueden elegir compartir contenido dentro de este tipo de sala de reuniones uniéndose a la reunión de Teams a través de un dispositivo personal a la llamada de Teams, la presentación de vídeo local en la sala también debe estar disponible en la mesa de forma fácil.
+Aunque muchos participantes pueden optar por compartir contenido dentro de este tipo de sala de reuniones uniéndose a la reunión de Teams mediante un dispositivo personal a la llamada de Teams, la presentación de vídeo local en la sala también debe estar disponible en la mesa de forma de fácil acceso.
 
 ## <a name="infrastructure"></a>Infraestructura
 
@@ -321,15 +319,15 @@ Se deben proporcionar luces aéreas para iluminar el espacio de manera uniforme,
 
 ### <a name="microsoft-teams-rooms-solution"></a>solución Salas de Microsoft Teams
 
-Las salas mejoradas para Microsoft Teams requieren el uso de Salas de Microsoft Teams en microsoft Windows.
+Las salas mejoradas para Microsoft Teams requieren el uso de Salas de Microsoft Teams en Microsoft Windows.
 
 ### <a name="cameras"></a>Cámaras
 
-#### <a name="camera-options"></a>Cámara opciones
+#### <a name="camera-options"></a>Opciones de cámara
 
 Una sala de este tipo requiere el uso de una cámara frontal inteligente de ángulo ultradimensional que tenga una clasificación adecuada para la anchura y la profundidad del espacio.
 
-#### <a name="camera-placement"></a>ubicación Cámara
+#### <a name="camera-placement"></a>Ubicación de la cámara
 
 La cámara debe colocarse en la parte frontal de la sala, debajo de la proyección frontal de la sala, pero encima de la parte superior de la tabla, para capturar a todos los participantes de la sala lo más cerca posible del nivel de la vista.
 
@@ -395,15 +393,15 @@ Una sala mejorada requiere que la pantalla sea una sola pantalla con una relaci�
 
 #### <a name="microsoft-whiteboard"></a>Microsoft Whiteboard
 
-Todos los Salas de Teams pueden aprovechar las Microsoft Whiteboard a través de un dispositivo de colaboración interactivo, como una Microsoft Surface Hub, una pantalla frontal de la sala con pantalla táctil y dispositivos complementarios, como un EQUIPO, un teléfono o una tableta.
+Todos los Salas de Teams pueden aprovechar Microsoft Whiteboard a través de un dispositivo de colaboración interactivo, como una Microsoft Surface Hub, una pantalla frontal de la sala con pantalla táctil y dispositivos complementarios, como un EQUIPO, un teléfono o una tableta.
 
 #### <a name="traditional-whiteboard"></a>Pizarra tradicional
 
-Todos los Salas de Teams en Windows pueden aprovechar las pizarras tradicionales en una reunión de Teams mediante la característica de captura inteligente y una cámara de contenido secundaria.
+Todas las Salas de Teams en Windows pueden aprovechar las pizarras tradicionales en una reunión de Teams mediante la característica de captura inteligente y una cámara de contenido secundaria.
 
 ## <a name="recommended-products-for-this-space"></a>Productos recomendados para este espacio
 
-### <a name="microsoft-teams-room-console-and-compute"></a>consola de sala Microsoft Teams y procesos
+### <a name="microsoft-teams-room-console-and-compute"></a>Consola de salas de Microsoft Teams y equipos informáticos
 
 - Una solución de Salas de Microsoft Teams basada en Windows.
 
@@ -572,7 +570,7 @@ Cámaras de contenido:
 
 - [Huddly Canvas](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/huddly-canvas/568)
 
-- [Kit de Cámara de contenido BRIO logitech](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
+- [Kit de cámara de contenido BRIO Logitech](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
 Dispositivos táctiles interactivos:
 

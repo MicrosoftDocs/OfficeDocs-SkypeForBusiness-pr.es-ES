@@ -1,5 +1,5 @@
 ---
-title: Crear cuentas de recursos para salas y dispositivos de Teams compartidos
+title: Crear cuentas de recursos para salas y dispositivos compartidos de Teams
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -12,32 +12,33 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Lea este artículo para obtener información sobre cómo crear cuentas de recursos para salas y dispositivos compartidos, incluidos Salas de Microsoft Teams, Salas de Teams en Surface Hub y escritorio en pantallas de Teams.
-ms.openlocfilehash: 53d69a5dd91e012bc948bad1b9d7350afcbbb1b2
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+description: Lea este artículo para obtener información sobre cómo crear cuentas de recursos para salas y dispositivos compartidos, incluidos Salas de Microsoft Teams, Salas de Teams en Surface Hub y escritorio caliente en pantallas de Teams.
+ms.openlocfilehash: eaa95efde1db01d3c7a346309f50eca2427af4e8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760892"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271715"
 ---
-# <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Crear y configurar cuentas de recursos para salas y dispositivos de Teams compartidos
+# <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Crear y configurar cuentas de recursos para salas y dispositivos compartidos de Teams
 
-Este artículo proporciona pasos para crear cuentas de recursos para espacios compartidos y dispositivos, e incluye pasos para configurar cuentas de recursos para Salas de Microsoft Teams en Windows, Salas de Teams en Android, Salas de Teams en Surface Hub y escritorio caliente en pantallas de Teams.
+En este artículo se proporcionan pasos para crear cuentas de recursos para espacios compartidos y dispositivos, e incluye pasos para configurar cuentas de recursos para Salas de Microsoft Teams en Windows, Salas de Teams en Android, Salas de Teams en Surface Hub y pantallas de escritorio caliente en Teams.
 
-Microsoft 365 las cuentas de recursos son cuentas de buzón y de Teams que están dedicadas a recursos específicos, como una sala o un proyector. Estas cuentas de recursos pueden responder automáticamente a las invitaciones a reuniones con reglas que defina cuando se creen. Por ejemplo, si tiene un recurso común, como una sala de conferencias, puede configurar una cuenta de recursos para esa sala de conferencias que aceptará o rechazará automáticamente invitaciones a reuniones en función de su disponibilidad del calendario. 
+Las cuentas de recursos de Microsoft 365 son cuentas de buzón y de Teams dedicadas a recursos específicos, como una sala o un proyector. Estas cuentas de recursos pueden responder automáticamente a las invitaciones a reuniones con reglas que defina cuando se creen. Por ejemplo, si tiene un recurso común, como una sala de conferencias, puede configurar una cuenta de recursos para esa sala de conferencias que aceptará o rechazará automáticamente invitaciones a reuniones en función de su disponibilidad del calendario. 
 
-Cada cuenta de recursos es única para una única instalación Salas de Microsoft Teams o Teams implementación de escritorio rápido de pantalla.
+Cada cuenta de recursos es única para una única instalación Salas de Microsoft Teams o teams muestra la implementación de escritorio rápido.
 
 > [!NOTE]
-> Si se usan paneles de Microsoft Teams, la cuenta de recursos Salas de Teams inicia sesión en Salas de Teams y en los paneles de Teams asociados.
+> Si usa paneles de Microsoft Teams, el Salas de Teams cuenta de recursos inicia sesión en Salas de Teams y en los paneles de Teams asociados.
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 > [!NOTE]
 > **Skype Empresarial** <br><br>
-> Si necesita habilitar la cuenta de recursos para que funcione con Skype Empresarial, vea [Implementar Salas de Microsoft Teams con Skype Empresarial Server](with-skype-for-business-server-2015.md)
+> Si necesita habilitar la cuenta de recursos para que funcione con Skype for Business, vea [Implementar Salas de Microsoft Teams con Skype Empresarial Server](with-skype-for-business-server-2015.md)
 
 ## <a name="before-you-begin"></a>Antes de empezar
 
@@ -48,9 +49,9 @@ En función de su entorno, necesita uno o más roles para crear cuentas de recur
 |**Ambiente**|**Roles necesarios**|
 |-----|-----|
 |Azure Active Directory  <br/> |Administrador global o administrador de usuarios  <br/> |
-|Active Directory  <br/> |Active Directory Enterprise Administradores, Administradores de dominio o tienen derechos delegados para crear usuarios. Azure Active Directory Conectar derechos de sincronización.  <br/> |
+|Active Directory  <br/> |Los administradores de empresa de Active Directory, los administradores de dominio o tienen derechos delegados para crear usuarios. Derechos de sincronización de Azure Active Directory Connect.  <br/> |
 |Exchange Online  <br/> |Administrador global o administrador de Exchange   <br/> |
-|Exchange Server  <br/> |Exchange Administración de la organización o Administración de destinatarios   <br/> |
+|Exchange Server  <br/> |Administración de la organización de Exchange o Administración de destinatarios   <br/> |
 
 Si está creando cuentas de recursos para Salas de Teams, el UPN debe coincidir con la dirección SMTP de la cuenta de recursos. Consulte [Salas de Microsoft Teams requisitos](requirements.md) antes de implementar Salas de Teams.
 
@@ -58,19 +59,19 @@ Si está creando cuentas de recursos para Salas de Teams, el UPN debe coincidir 
 
 Antes de crear una cuenta de recursos de Microsoft 365, compruebe qué tipo de licencia necesita:
 
-- **Teams reuniones** Si desea asociar la cuenta de recursos a un dispositivo compartido, como una sala de Microsoft Teams o una pantalla Teams con escritorio rápido, y usarla para unirse a una reunión de Teams para que los asistentes puedan usarla para presentar vídeo y audio a través de ella, necesita una licencia de Sala de reuniones. Para obtener más información sobre las licencias para salas de reuniones, consulte [Licencias de Teams Sala de reuniones](rooms-licensing.md).
+- **Reuniones de Teams** Si desea asociar la cuenta de recursos a un dispositivo compartido, como una sala de Microsoft Teams o una pantalla de Teams con escritorio rápido, y usarla para unirse a una reunión de Teams y que los asistentes puedan usarla para presentar vídeo y audio a través de ella, necesita una licencia de sala de reuniones. Para obtener más información sobre las licencias para salas de reuniones, consulte [Licencias](rooms-licensing.md) de salas de reuniones de Teams.
 
-- **Llamadas RTC** Si desea que el recurso realice o reciba llamadas a un número de teléfono externo (denominado red telefónica conmutada o llamada RTC), necesita una licencia de Microsoft 365 Sistema telefónico o Microsoft 365 Business Voice. Solo necesita completar el paso 1 en la siguiente información general. A continuación, consulte [Microsoft Teams licencias de complementos](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para obtener más información.
+- **Llamadas RTC** Si desea que el recurso realice o reciba llamadas a un número de teléfono externo (denominado red telefónica conmutada o llamada RTC), necesita un sistema telefónico de Microsoft 365 o una licencia de Microsoft 365 Business Voice. Solo necesita completar el paso 1 en la siguiente información general. A continuación, consulte [Licencias de complementos de Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para obtener más información.
 
 - Si solo usa una cuenta de recursos para reservar un recurso&mdash;, invite al recurso a la reunión y pídale que acepte o rechace automáticamente la invitación&mdash;que no necesita para asignar una licencia a la cuenta de recursos y solo necesita completar el paso 1 en la siguiente información general.  
 
 ## <a name="overview"></a>Información general
 
-**Paso 1:** [Crear una nueva cuenta de recursos](#create-a-resource-account). O bien, si ya existe un buzón de sala y desea convertirlo en una cuenta de recursos, puede [modificar un buzón de sala Exchange existente](?tabs=existing-account#create-a-resource-account).
+**Paso 1:** [Crear una nueva cuenta de recursos](#create-a-resource-account). O bien, si ya existe un buzón de sala y desea convertirlo en una cuenta de recursos, puede [modificar un buzón de sala de Exchange existente](?tabs=existing-account#create-a-resource-account).
 
-**Paso 2:**  A continuación, [configure su cuenta](#configure-mailbox-properties) para reuniones Teams.
+**Paso 2:**  A continuación, [configure su cuenta](#configure-mailbox-properties) para Reuniones de Teams.
 
-**Paso 3:**  Si la cuenta de recursos se va a asociar a un dispositivo compartido, como Teams se muestra con hot-desking, [desactive la expiración de la contraseña](#turn-off-password-expiration).
+**Paso 3:**  Si la cuenta de recursos se va a asociar a un dispositivo compartido, como se muestra en Teams con hot-desking, [desactive la expiración de la contraseña](#turn-off-password-expiration).
 
 **Paso 4:**  Por último, [asigne una licencia de sala de reuniones](#assign-a-meeting-room-license) para que la cuenta pueda acceder a Microsoft Teams.
 
@@ -90,7 +91,7 @@ Cree una cuenta de recursos con un método de una de las pestañas siguientes:
 
 1. Inicie sesión en el Centro de administración de Microsoft 365.
 
-2. Proporcione las credenciales de administrador de su inquilino de Microsoft 365.
+2. Proporcione las credenciales de administrador para su inquilino de Microsoft 365.
 
 3. Vaya a **Recursos** en el panel izquierdo y, después, seleccione **Salas & equipamiento**. Si estas opciones no están disponibles en el panel izquierdo, es posible que primero tenga que seleccionar **Mostrar todo** .
 
@@ -120,7 +121,7 @@ Es posible que también tenga que aplicar directivas de ancho de banda o directi
 
 #### <a name="with-exchange-online"></a>[**Con Exchange Online**](#tab/exchange-online)
 
-1. Conectar a [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
+1. Conéctese a [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
     ``` PowerShell
     Connect-ExchangeOnline
@@ -148,13 +149,13 @@ Es posible que también tenga que aplicar directivas de ancho de banda o directi
     New-Mailbox -MicrosoftOnlineServicesID ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
     ```
 
-Si no está en un Exchange configuración híbrida, puede continuar con el paso siguiente, [Configurar las propiedades del buzón](#configure-mailbox-properties).
+Si no está en una configuración híbrida de Exchange, puede continuar con el paso siguiente, [Configurar las propiedades del buzón](#configure-mailbox-properties).
 
-Si se encuentra en una configuración híbrida Exchange, debe agregar una dirección de correo electrónico para su cuenta de dominio local. Vea [Sincronizar directorios de cuentas de usuario locales y Office 365](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78) para obtener más información.
+Si se encuentra en una configuración híbrida de Exchange, debe agregar una dirección de correo electrónico para su cuenta de dominio local. Vea [Sincronizar directorios de cuentas de usuario locales y Office 365](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78) para obtener más información.
 
 #### <a name="with-exchange-server"></a>[**Con Exchange Server**](#tab/exchange-server)
 
-  1. Conectar al Shell de administración de Exchange. [Abra el Shell de administración de Exchange](/powershell/exchange/exchange-server/open-the-exchange-management-shell) o [conéctese al servidor de Exchange con PowerShell remoto](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
+  1. Conéctese al Shell de administración de Exchange. [Abra el Shell de administración de Exchange](/powershell/exchange/exchange-server/open-the-exchange-management-shell) o [conéctese al servidor de Exchange con PowerShell remoto](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
 
    2. Para crear un buzón de sala:
 
@@ -176,7 +177,7 @@ Si se encuentra en una configuración híbrida Exchange, debe agregar una direcc
    New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
    ```
 
-#### <a name="modify-an-existing-exchange-room-mailbox"></a>[**Modificar un buzón de sala Exchange existente**](#tab/existing-account)
+#### <a name="modify-an-existing-exchange-room-mailbox"></a>[**Modificar un buzón de exchange existente**](#tab/existing-account)
 
 Para modificar un buzón de sala existente para que se convierta en una cuenta de recursos, use la siguiente sintaxis:
 
@@ -190,17 +191,17 @@ En este ejemplo se habilita la cuenta para el buzón de sala existente que tiene
 Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
 ```
 
-Si se encuentra en una configuración híbrida Exchange, también deberá agregar una dirección de correo electrónico para su cuenta de dominio local. Vea [Sincronizar directorios de cuentas de usuario locales y Office 365](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78) para obtener más información.
+Si se encuentra en una configuración híbrida de Exchange, también deberá agregar una dirección de correo electrónico para su cuenta de dominio local. Vea [Sincronizar directorios de cuentas de usuario locales y Office 365](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78) para obtener más información.
 
 Para obtener información detallada sobre la sintaxis y los parámetros, vea [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) y [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
 > [!NOTE]
-> Si está creando esta cuenta para Teams Room en Surface Hub, también debe habilitar ActiveSync en esta cuenta. Esto le permitirá enviar correo electrónico directamente desde el Surface Hub, que puede usar para características como Whiteboard. Consulte [Aplicar directivas de ActiveSync a cuentas de dispositivo (Surface Hub)](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) para obtener más información.
+> Si vas a crear esta cuenta para Salas de Teams en Surface Hub, también debes habilitar ActiveSync en esta cuenta. Esto te permitirá enviar correo directamente desde Surface Hub, que puedes usar para características como Whiteboard. Consulta [Aplicar directivas de ActiveSync a cuentas de dispositivo (Surface Hub)](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) para obtener más información.
 
 ---
 
 > [!IMPORTANT]
-> Si solo usa esta cuenta de recursos para reservar espacio y acepta o rechaza automáticamente invitaciones, ya ha completado la configuración. Si usa esta cuenta de recursos para las llamadas de RTC, consulte [Microsoft Teams licencias de complementos](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para determinar qué licencia necesita.
+> Si solo usa esta cuenta de recursos para reservar espacio y acepta o rechaza automáticamente invitaciones, ya ha completado la configuración. Si usa esta cuenta de recursos para las llamadas RTC, consulte [Licencias de complementos de Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para determinar qué licencia necesita.
 >
 > Continúe con la siguiente sección solo si la cuenta de recursos es para una Salas de Teams en Windows, Salas de Teams en Android, Salas de Teams en Surface Hub o una pantalla de Teams con escritorio rápido.
 
@@ -216,13 +217,13 @@ En Exchange PowerShell, ya sea en línea o local, configure las siguientes opcio
 
 - **DeleteSubject: `$false`** Mantenga el asunto de las convocatorias de reunión entrantes.
 
-- **ProcessExternalMeetingMessages: `$true`** Especifica si se procesarán las convocatorias de reunión que se originen fuera de la Exchange organización. Necesario para reuniones de Teams externas y [reuniones de terceros](/microsoftteams/rooms/third-party-join).
+- **ProcessExternalMeetingMessages: `$true`** Especifica si se procesarán las convocatorias de reunión que se originen fuera de la organización de Exchange. Necesario para reuniones de Teams externas y [reuniones de terceros](/microsoftteams/rooms/third-party-join).
 
 - **RemovePrivateProperty: `$false`** Garantiza que la marca privada que envió el organizador de la reunión en la convocatoria de reunión original permanece según lo especificado.
 
 - **AddAdditionalResponse: `$true`** El texto especificado por el parámetro AdditionalResponse se agrega a las convocatorias de reunión.
 
-- **AdditionalResponse: "Esta es una sala de reuniones Microsoft Teams!"** El texto adicional que se agregará a la respuesta de aceptación de la reunión.
+- **AdditionalResponse: "¡Esta es una sala de reuniones de Microsoft Teams!"** El texto adicional que se agregará a la respuesta de aceptación de la reunión.
 
 En este ejemplo se configuran estas opciones en un buzón de sala denominado ConferenceRoom01:
 
@@ -237,13 +238,13 @@ Para obtener información detallada sobre la sintaxis y los parámetros, consult
 Si la contraseña de la cuenta de recursos expira, el dispositivo no inicia sesión después de la fecha de expiración. La contraseña tendrá que cambiarse para la cuenta de recursos y, a continuación, actualizarse en cada dispositivo. Para evitar esto, puede desactivar la expiración de la contraseña.
   
 > [!NOTE]
-> Configurar **la contraseña nunca expira** es un requisito para dispositivos de Microsoft Teams compartidos. Si las reglas de su dominio prohíben las contraseñas que no expiran, tendrá que crear una excepción para cada cuenta de recursos de dispositivo Teams.
+> Establecer **la contraseña nunca expira** es un requisito para los dispositivos compartidos de Microsoft Teams. Si las reglas de su dominio prohíben las contraseñas que no expiran, tendrá que crear una excepción para cada cuenta de recursos de dispositivo de Teams.
 
 Siga los pasos de una de las siguientes pestañas para desactivar la expiración de la contraseña:
 
 #### <a name="azure-active-directory-20"></a>[**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
 
-En primer lugar, Conectar a PowerShell de Active Directory:
+En primer lugar, conéctese a PowerShell de Active Directory:
 
 ```PowerShell
    Connect-AzureAD
@@ -259,13 +260,13 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
 #### <a name="azure-active-directory-10"></a>[**Azure Active Directory 1.0**](#tab/azure-active-directory1-password/)
 
- 1. Conectar a PowerShell de MSOnline:
+ 1. Conectarse a PowerShell de MSOnline:
 
        ```PowerShell
        Connect-MsolService
        ```
 
-       Para obtener más información sobre Active Directory, vea [Azure Active Directory (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0).
+       Para obtener más información sobre Active Directory, consulte [Azure Active Directory (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
 2. Establezca la contraseña para que nunca expire con la siguiente sintaxis:
 
@@ -281,7 +282,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
 #### <a name="active-directory-on-premises"></a>[**Active Directory (local)**](#tab/active-directory1-password/)
 
-1. Conectar a PowerShell de Active Directory:
+1. Conectarse a PowerShell de Active Directory:
 
     ```PowerShell
        Import-Module ActiveDirectory
@@ -308,20 +309,20 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 La cuenta de recursos necesita una licencia de Microsoft 365 o Office 365 para iniciar sesión en Microsoft Teams.
 
 > [!NOTE]
-> Salas de Microsoft Teams Estándar y Salas de Microsoft Teams Premium son las dos SKU disponibles para dispositivos de salas de reuniones compartidas, incluidos Salas de Teams. Se requiere una licencia de sala de reuniones para Teams pantallas con escritorio caliente. Para obtener más información, vea [Teams licencias de salas de reuniones](rooms-licensing.md).
+> Salas de Microsoft Teams Estándar y Salas de Microsoft Teams Premium son las dos SKU disponibles para dispositivos de salas de reuniones compartidas, incluidos Salas de Teams. Se requiere una licencia de sala de reuniones para las pantallas de Teams con escritorio caliente. Para obtener más información, consulte [Licencias de salas de reuniones de Teams](rooms-licensing.md).
 
 Para asignar licencias con la Centro de administración de Microsoft 365, vea [Asignar licencias a usuarios](/microsoft-365/admin/manage/assign-licenses-to-users). Para asignar licencias con Azure AD, consulte una de las siguientes pestañas:
 
 #### <a name="active-directory-20"></a>[**Active Directory 2.0**](#tab/active-directory2-license/)
 
 
-1. Conectar a Azure AD
+1. Conectarse a Azure AD
   
     ```PowerShell
     Connect-AzureAD
     ```
 
-     Para obtener más información sobre Active Directory, consulte [Azure Active Directory PowerShell para Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
+     Para obtener más información sobre Active Directory, consulte [PowerShell de Azure Active Directory para Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
     
 2. Asigne una ubicación de uso a su cuenta de recursos mediante el `Set-AzureADUser` cmdlet. Esto determina qué SKU de licencia están disponibles.
 
@@ -331,7 +332,7 @@ Para asignar licencias con la Centro de administración de Microsoft 365, vea [A
     Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -UsageLocation 'US'
     ```
 
-3. A continuación, use `Get-AzureADSubscribedSku` esta opción para recuperar una lista de sku disponibles para su Microsoft 365 o Office 365 organización.
+3. A continuación, use `Get-AzureADSubscribedSku` esta opción para recuperar una lista de sku disponibles para su organización de Microsoft 365 o Office 365.
 
     ```PowerShell
     Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
@@ -356,7 +357,7 @@ Para asignar licencias con la Centro de administración de Microsoft 365, vea [A
 
 #### <a name="active-directory-10"></a>[**Active Directory 1.0**](#tab/active-directory1-license/)
 
-1. Conectar a PowerShell de MSOnline.
+1. Conéctese a PowerShell de MSOnline.
 
    ```PowerShell
    Connect-MsolService
@@ -372,7 +373,7 @@ Para asignar licencias con la Centro de administración de Microsoft 365, vea [A
     Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
     ```
     
-    A continuación, puede usar `Get-MsolAccountSku` para recuperar una lista de SKU disponibles para su Microsoft 365 o Office 365 organización.
+    A continuación, puede usar `Get-MsolAccountSku` para recuperar una lista de SKU disponibles para su organización de Microsoft 365 o Office 365.
 
 4. Para asignar la licencia, use el `Set-MsolUser` cmdlet. En este ejemplo, se asigna la licencia "contoso:MEETING_ROOM" a la cuenta conferenceroom01@contoso.com:
 
@@ -382,7 +383,7 @@ Para asignar licencias con la Centro de administración de Microsoft 365, vea [A
 
 ---
 
-Para validar la creación de la cuenta y la asignación de licencias, inicie sesión en cualquier Teams Cliente con la cuenta que ha creado.
+Para validar la creación de la cuenta y la asignación de licencias, inicie sesión en cualquier cliente de Teams con la cuenta que ha creado.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
@@ -390,7 +391,7 @@ Para validar la creación de la cuenta y la asignación de licencias, inicie ses
 
 Es posible que deba aplicar directivas personalizadas de red, ancho de banda o reunión a esta cuenta. Para obtener más información sobre las directivas de ancho de banda y de red, vea Configuración de la [directiva de reunión para audio & vídeo](/microsoftteams/meeting-policies-audio-and-video). Para Salas de Teams, le recomendamos que establezca el ancho de banda de la directiva de reunión en 10 Mbps.
 
-Para fines de colaboración, active PowerPoint Live, Whiteboard y notas compartidas. Se recomienda que habilite la configuración de directiva de reunión "Reunirse ahora en reuniones privadas". Es posible que desee crear una directiva de reunión para ajustar la configuración de participantes e invitados para Salas de Teams. Por ejemplo, revise la configuración de la sala de espera, como qué asistentes admitirán automáticamente en las reuniones. Para obtener más información sobre Teams directivas de reunión, vea [Administrar directivas de reunión en Microsoft Teams](/microsoftteams/meeting-policies-overview).
+Para fines de colaboración, active PowerPoint Live, Whiteboard y notas compartidas. Se recomienda que habilite la configuración de directiva de reunión "Reunirse ahora en reuniones privadas". Es posible que desee crear una directiva de reunión para ajustar la configuración de participantes e invitados para Salas de Teams. Por ejemplo, revise la configuración de la sala de espera, como qué asistentes admitirán automáticamente en las reuniones. Para obtener más información sobre las directivas de reunión de Teams, vea [Administrar directivas de reunión en Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 ### <a name="calling"></a>Llamadas
 
@@ -399,12 +400,12 @@ No hay requisitos únicos para habilitar las llamadas con cuentas de recursos. H
 > [!NOTE]
 > Se recomienda desactivar el correo de voz para dispositivos compartidos asignando una directiva de llamada a las cuentas de recursos de dispositivo. Consulte [Llamadas y desvío de llamadas en Teams](../teams-calling-policy.md) para obtener más información.
 
-### <a name="configure-distribution-groups-for-teams-calendar"></a>Configurar grupos de distribución para Teams Calendario
+### <a name="configure-distribution-groups-for-teams-calendar"></a>Configurar grupos de distribución para el calendario de Teams
 
-Para organizar las ubicaciones de las salas de reuniones, puede agregar sus cuentas de recursos de dispositivo a Exchange grupos de distribución. Por ejemplo, si tiene oficinas en tres ubicaciones geográficas diferentes, puede crear tres grupos de distribución y agregar las cuentas de recursos adecuadas a cada ubicación. Para obtener más información, vea [Crear una lista de salas](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list).
+Para organizar las ubicaciones de las salas de reuniones, puede agregar sus cuentas de recursos de dispositivo a los grupos de distribución de Exchange. Por ejemplo, si tiene oficinas en tres ubicaciones geográficas diferentes, puede crear tres grupos de distribución y agregar las cuentas de recursos adecuadas a cada ubicación. Para obtener más información, vea [Crear una lista de salas](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list).
 
 ### <a name="configure-places-for-outlook-calendar"></a>Configurar lugares para Calendario de Outlook
-Para que las ubicaciones de las salas de reuniones aparezcan en el Outlook Buscador de salas, debe usar el cmdlet de PowerShell Set-Place Exchange. No solo Set-Place rellenar el Buscador de salas en Outlook, también le permite agregar metadatos adicionales, como la capacidad de la sala o el suelo de la construcción de la sala. Para obtener más información, consulte [Set-Place](/powershell/module/exchange/set-place).
+Para que las ubicaciones de las salas de reuniones aparezcan en el Buscador de salas de Outlook, debe usar el cmdlet de PowerShell de Set-Place Exchange. No solo Set-Place rellenar el Buscador de salas en Outlook, también le permite agregar metadatos adicionales, como la capacidad de la sala o el suelo de la construcción de la sala. Para obtener más información, consulte [Set-Place](/powershell/module/exchange/set-place).
 
 ## <a name="related-articles"></a>Artículos relacionados
 

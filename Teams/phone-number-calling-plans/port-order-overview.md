@@ -18,12 +18,15 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenga información general sobre qué son los pedidos de portabilidad y cómo transferir números de teléfono de su proveedor de servicios a Teams.
-ms.openlocfilehash: 21a91833956e5d24f0bb6e5895232517f39d8c6a
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.collection:
+- M365-voice
+- m365initiative-voice
+ms.openlocfilehash: e9f267bfdb56558245fecefe240f2c09c07d4783
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789405"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270875"
 ---
 # <a name="whats-a-port-order"></a>¿Qué es un pedido de portabilidad?
 

@@ -13,7 +13,6 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 - remotework
 - m365initiative-meetings
 ms.localizationpriority: high
@@ -21,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-get-started
-ms.openlocfilehash: f25ced17475b6e57fe1eb1f81f2e87079c71e102
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 84cc77409aecf5525a16ef73e3dfa7e0115f7566
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790145"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268575"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 

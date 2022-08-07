@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: supervisión proactiva de las salas de reuniones.
 f1keywords: ''
-ms.openlocfilehash: 2311d17c5d60b7c9eb845570ce24c5f6db507717
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 97c812cca2b64979f224e9f7da63087899b9c7a9
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057070"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269125"
 ---
 # <a name="update-management"></a>Administración de actualizaciones 
 Una sala de reuniones moderna está equipada con un dispositivo de Salas de Microsoft Teams y otros periféricos, como una cámara, micrófono o altavoz, y potencialmente más dispositivos para crear una experiencia de reunión inclusiva y eficaz. El equipo de diferentes tipos de OEM proporciona la experiencia organizativa exacta deseada; sin embargo, deben mantenerse con software y firmware de forma continuada.  
@@ -51,17 +51,17 @@ Hay algunos requisitos previos para recibir actualizaciones de servicios adminis
 
 |Software |Instrucciones |
 |:- |:- |
-|Servicios de Sincronización de Logitech  |Debe instalarse y ejecutarse en los dispositivos de la sala de reuniones logitech. Los servicios de sincronización requeridos se instalarán automáticamente desde Windows Actualizaciones a menos que se bloqueen. También se puede instalar el paquete de sincronización completo. |
-|actualizaciones del sistema operativo Windows |Debe mantenerse habilitado y no redirigido a WSUS, ni bloqueado desde una perspectiva de red. No se deben usar directivas GPO ni MDM para administrar las actualizaciones del sistema operativo. |
-|actualizaciones de Microsoft Store   |Debería estar desactivada. Servicios administrados desactivará las actualizaciones de la Store si se encuentran activadas. |
-|Software antivirus |Si está ejecutando software AV en estos dispositivos, debe asegurarse de que AV tiene exclusiones en su lugar para Teams y Skype dlls. Consulta aquí para obtener más detalles. |
+|Servicios de Sincronización de Logitech  |Debe instalarse y ejecutarse en los dispositivos de la sala de reuniones logitech. Los servicios de sincronización requeridos se instalarán automáticamente desde Windows Novedades a menos que se bloqueen. También se puede instalar el paquete de sincronización completo. |
+|Actualizaciones del sistema operativo Windows |Debe mantenerse habilitado y no redirigido a WSUS, ni bloqueado desde una perspectiva de red. No se deben usar directivas GPO ni MDM para administrar las actualizaciones del sistema operativo. |
+|Actualizaciones de Microsoft Store   |Debería estar desactivada. Servicios administrados desactivará las actualizaciones de la Store si se encuentran activadas. |
+|Software antivirus |Si está ejecutando software AV en estos dispositivos, debe asegurarse de que AV tiene exclusiones en su lugar para los dll de Teams y Skype. Consulta aquí para obtener más detalles. |
 |Software adicional |Es necesario revisar software adicional, como la visualización de escritorio remoto de terceros, etc. con Servicios administrados para descartar los efectos secundarios. |
 |Administración de cambios adicionales|Puede interferir con las actualizaciones cubiertas y no debería introducirse. |
 
 ## <a name="managed-updates--how-it-works"></a>Actualizaciones administradas: cómo funciona 
 Hay dos formas principales de administrar las actualizaciones:  
 
-- **Administración automática**: las actualizaciones se instalan en el dispositivo del salón en función de la evaluación de Servicios administrados. No es necesaria intervención para las actualizaciones administradas en nuestra cartera.
+- **Administración automática**: Novedades se instalan en el dispositivo del salón en función de la evaluación de servicios administrados. No es necesaria intervención para las actualizaciones administradas en nuestra cartera.
 - **Anillo validado**: Configure un sistema de anillos para obtener una vista previa de las actualizaciones en dispositivos específicos para que pueda supervisarlos sin el trabajo de las piernas asociadas. La configuración del anillo proporciona una capa adicional de diligencia debida antes de la amplia implementación.  
 
 ### <a name="automatically-managed"></a>Administración automática
@@ -81,30 +81,30 @@ Las actualizaciones administradas se programan para las salas en función del eq
 
 - Para ayudar a nuestros clientes a cumplir los requisitos de administración de cambios, la implementación de actualización se inicia **los miércoles** en el anillo de pruebas. Si se requiere una actualización crítica, omitiremos esta programación y publicaremos la actualización tan pronto como esté disponible. 
 
-- Las actualizaciones se secuencian en función de la necesidad de una sala determinada. 
+- Novedades se secuencian en función de la necesidad de una sala determinada. 
 - Si tienes anillos de configuración para validar las actualizaciones, la actualización avanzará por el orden de llamada. 
 - Una nueva actualización puede reemplazar a una actualización que se pone en cola si determinamos que se ha mejorado la estabilidad de la sala en función de su situación.  
-- Las actualizaciones se aplican normalmente durante nuestra ventana de mantenimiento nocturno, que es de la habitación de **12:00 a 5:00 a.m** . para evitar cualquier tipo de interrupción. 
+- Novedades se aplican normalmente durante la ventana de mantenimiento nocturno, que es de la habitación de **12:00 a 5:00 a.m**. para evitar cualquier tipo de interrupción. 
 
 ## <a name="microsoft-teams-rooms-app-update-lifecycle-policy"></a>directiva de ciclo de vida de actualización de Salas de Microsoft Teams aplicación 
-La directiva de soporte técnico del equipo de ingeniería de MTR indica que todo el soporte finaliza después de que haya expirado el ciclo de vida de doce (12) meses de una versión o si se han publicado más de dos actualizaciones desde entonces. A continuación, los clientes deben actualizar a una versión compatible. Consulta [el soporte técnico de la versión de la aplicación Salas de Microsoft Teams ( Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) para obtener una descripción detallada del servicio.
+La directiva de soporte técnico del equipo de ingeniería de MTR indica que todo el soporte finaliza después de que haya expirado el ciclo de vida de doce (12) meses de una versión o si se han publicado más de dos actualizaciones desde entonces. A continuación, los clientes deben actualizar a una versión compatible. Consulta [el soporte técnico de la versión de la aplicación Salas de Microsoft Teams: Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) para obtener una descripción detallada del servicio.
 
 Para mantener un estándar uniforme en todos nuestros salones administrados y para permitirnos identificar de forma eficiente las tendencias de los problemas, apoyaremos e implementaremos las dos versiones principales o secundarias más recientes (N, N-1) del software de la aplicación MTR de acuerdo con los Términos y condiciones de los servicios de soporte y suscripción. Actualizaremos automáticamente salas no compatibles, omitiendo los canales de actualización según sea necesario. 
 
 La directiva N-1 también se aplica al software de terceros.  
 
 ## <a name="update-management-experience-walk-through"></a>Tutorial de la experiencia de administración de actualizaciones  
-Para ver las actualizaciones, inicie sesión en el portal de servicios administrados y vaya a la página Actualizaciones.
+Para ver las actualizaciones, inicie sesión en el portal de servicios administrados y vaya a la página de Novedades.
 
 ![Captura de pantalla de las actualizaciones de servicios administrados](../media/update-management-001.jpg)
 
-El panel Actualizaciones muestra información general de alto nivel sobre la administración de actualizaciones para sus salas con las siguientes pestañas:
+En el panel Novedades se muestra una descripción general de la administración de actualizaciones de los salones con las siguientes pestañas:
 
-- **Actualizaciones**: actualizaciones de software o firmware que los Servicios administrados están orquestando a través de su organización.  
+- **Novedades**: actualizaciones de software o firmware que los Servicios administrados están orquestando a través de su organización.  
 - **Habitaciones**: La pestaña Habitaciones ofrece vistas a las habitaciones y anillos a los que pertenece cada habitación.
 - **Anillos**: la pestaña Anillos muestra los anillos de salas de su organización.
 
-### <a name="updates"></a>Actualizaciones  
+### <a name="updates"></a>Novedades  
 
 Esta vista muestra las actualizaciones relevantes para su inquilino y su estado respectivo. Para ver las actualizaciones anteriores que ya no están activas, selecciona el botón de alternancia **Incluir actualizaciones anteriores** a Activado.  
 
@@ -133,13 +133,13 @@ Para configurar a qué anillo debe pertenecer un salón:
 1. Seleccione el Anillo al que debe pertenecer la sala.  
 1. Haga clic en **Asignar**.  
 
-La vista de salón detallada muestra las actualizaciones relevantes y su estado en el nodo **Actualizaciones** .  
+La vista de salón detallada muestra las actualizaciones relevantes y su estado en el nodo **Novedades**.  
 
 ![Captura de pantalla de actualizaciones y cambios relevantes](../media/update-management-003.jpg)
 
 ### <a name="rings"></a>Anillos  
 
-Los anillos se usan para reducir el riesgo de problemas derivados de la implementación de las actualizaciones de características. Para ello, implemente gradualmente la actualización en todo el sitio. Cada anillo debe tener una lista de salas de sala Microsoft Teams y una programación de lanzamiento correspondiente. La definición de anillos es generalmente un evento de una sola vez (o al menos poco frecuente), pero TI debe volver a visitar estos grupos de vez en cuando para asegurarse de que la secuencia sigue siendo correcta.  
+Los anillos se usan para reducir el riesgo de problemas derivados de la implementación de las actualizaciones de características. Para ello, implemente gradualmente la actualización en todo el sitio. Cada anillo debe tener una lista de salas de salas de Microsoft Teams y una programación de lanzamiento correspondiente. La definición de anillos es generalmente un evento de una sola vez (o al menos poco frecuente), pero TI debe volver a visitar estos grupos de vez en cuando para asegurarse de que la secuencia sigue siendo correcta.  
 
 La pestaña **Anillos** enumera todos los anillos de su inquilino. Hay tres anillos preconfigurados:  
 
@@ -151,7 +151,7 @@ La pestaña **Anillos** enumera todos los anillos de su inquilino. Hay tres anil
 
 ### <a name="specifying-rollout-timeline"></a>Especificar la escala de tiempo de implementación
 
-Las actualizaciones no pueden superar los 60 días para completarse en todos los anillos.  
+Novedades no pueden superar los 60 días en todos los anillos.  
 
 |Parámetro |Explicación |
 |:- |:- |
@@ -204,8 +204,8 @@ Mover salas de un anillo a otro es posible de dos maneras:
 
 **O**
 
-1. Abra los detalles de la sala que desea mover (ya sea a través de Incidentes, Salas o Actualizaciones -> Salas).
-1. Haga clic en la pestaña **Actualizaciones** .  
+1. Abra los detalles de la sala que desea mover (ya sea a través de Incidentes, Salas o Novedades -> Salas).
+1. Haga clic en la pestaña **Novedades**.  
 1. En **Anillo asignado**, haga clic en **Cambiar**.
 1. En la lista desplegable, selecciona el nuevo anillo.  
 1. Haga clic en **Asignar**.
@@ -220,6 +220,6 @@ Los servicios administrados orquestan las actualizaciones en toda la organizaci�
 - Puede haber situaciones urgentes cuando decidas hacer que una actualización esté disponible anteriormente. En este caso, puedes usar el botón **Forzar actualizaciones** . Al usar la opción Forzar actualización, tiene la opción de forzar la actualización inmediatamente o cuando esté disponible al lado de la sala.  
 
 > [!NOTE]
-> **No recomendamos "Forzar actualizaciones"** como estrategia general de administración de actualizaciones. Si insertas una actualización que todavía está en nuestra fase de validación, es posible que encuentres problemas de los que ya conocemos. En estos casos, la resolución de incidentes para estos salones será lo mejor posible.  
+> **No recomendamos "Forzar Novedades"** como estrategia general de administración de actualizaciones. Si insertas una actualización que todavía está en nuestra fase de validación, es posible que encuentres problemas de los que ya conocemos. En estos casos, la resolución de incidentes para estos salones será lo mejor posible.  
 
 - Además, para garantizar buenas prácticas de administración de cambios, registraremos todas las actualizaciones de fuerza internamente en el servicio. En el futuro, esperamos que también lo hagas visible para ti.

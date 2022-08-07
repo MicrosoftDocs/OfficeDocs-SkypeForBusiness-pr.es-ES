@@ -11,7 +11,6 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,13 +19,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 'Obtenga información sobre cómo configurar audioconferencias en su pequeña o mediana empresa para personas que necesitan usar un teléfono para llamar a reuniones. '
-ms.openlocfilehash: b7b5fbc958c67aa966619c961e011cda9450faf3
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+description: Obtenga información sobre cómo configurar audioconferencias en su pequeña o mediana empresa para personas que necesitan usar un teléfono para llamar a reuniones.
+ms.openlocfilehash: b3b3514e2d33abe53da940759ddacefea29b961a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884829"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270665"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>Configurar la Audioconferencia para empresas pequeñas y medianas
 
@@ -34,7 +33,7 @@ Con las audioconferencias, las personas pueden llamar a las reuniones de Teams c
 
 Si es una pequeña o mediana empresa con hasta 300 usuarios y actualmente no tiene ninguna licencia de Audioconferencia, puede obtener Audioconferencia gratis durante un año. Esta oferta gratuita está disponible a partir del 1 de octubre de 2020.
 
-La licencia del complemento Audioconferencia se puede aplicar a los usuarios que tienen licencias de Microsoft 365 Empresa Básico, Empresa Standard, Empresa Premium, Enterprise E1 o Enterprise E3. Para obtener más información, consulte [Licencias de complementos de Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+La licencia del complemento Audioconferencia se puede aplicar a los usuarios que tienen licencias de Microsoft 365 Business Basic, Empresa Standard, Empresa Premium, Enterprise E1 o Enterprise E3. Para obtener más información, consulte [Licencias de complementos de Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 > [!NOTE]
 > Si tiene Enterprise E5 o Microsoft 365 Business Voice, no podrá usar la oferta gratuita de Audioconferencia porque estas licencias ya incluyen Audioconferencia.

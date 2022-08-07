@@ -8,7 +8,6 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-- SPO_Content
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +16,12 @@ description: Obtenga información sobre qué hacer cuando necesita realizar eDis
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1d548149f978764bbfbe3d0cd3475704ad6a76c2
-ms.sourcegitcommit: 9b08e2826b5b210abd9daa2ef40d4693a5000e33
+ms.openlocfilehash: 28605ac0f691083151fbb84c73c2ffcfa92ca3b4
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "67039647"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269065"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -30,7 +29,7 @@ Las grandes empresas suelen estar expuestas a procedimientos judiciales de alta 
 
 ## <a name="overview"></a>Información general
 
-Todos los chats grupales o de Microsoft Teams 1:1 se realizan en diario en los buzones de los respectivos usuarios. Todos los mensajes de canal estándar se pasan por el buzón de grupo que representa el equipo. Los archivos cargados en canales estándar están cubiertos por la funcionalidad de exhibición de documentos electrónicos para SharePoint Online y OneDrive para la Empresa.
+Todos los chats grupales o de Microsoft Teams 1:1 se realizan en diario en los buzones de los respectivos usuarios. Todos los mensajes de canal estándar se pasan por el buzón de grupo que representa el equipo. Los archivos cargados en canales estándar están cubiertos por la funcionalidad de exhibición de documentos electrónicos para SharePoint Online y OneDrive Entreprise.
 
 eDiscovery of messages and files in [private channels](private-channels.md) works differently than in standard channels. Para obtener más información, vea [eDiscovery of private channels (Exhibición de canales privados](#ediscovery-of-private-and-shared-channels)).
 
@@ -47,7 +46,7 @@ No todo el contenido de Teams es eDiscoverable. En la tabla siguiente se muestra
 |Emojis, GIF y adhesivos|Sí||
 |Notificaciones de fuente|No||
 |Imágenes alineadas|Sí||
-|Componentes de bucle|Sí|El contenido de un componente de bucle se guarda en un archivo .fluid que se almacena en el OneDrive para la Empresa cuenta del usuario que envía el componente de bucle. Esto significa que tiene que incluir OneDrive como origen de datos al buscar contenido en componentes de bucle.|
+|Componentes de bucle|Sí|El contenido de un componente de bucle se guarda en un archivo .fluid almacenado en la cuenta OneDrive Entreprise del usuario que envía el componente de bucle. Esto significa que tiene que incluir OneDrive como origen de datos al buscar contenido en componentes de bucle.|
 |Conversaciones de mensajería instantánea de la reunión|Sí||
 |Metadatos<sup>de reunión 1</sup>|Sí||
 |Nombre del canal|Sí||

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estas son las Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Puerto Rico.
-ms.openlocfilehash: 63c4ce78cb45483118c05d935fb6ade300d51d16
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype for Business y Microsoft Teams disponibles para Puerto Rico.
+ms.openlocfilehash: 00cd5b7068d6feaa14a78623c3c0c50269fead4e
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605919"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271875"
 ---
 # <a name="availability-in-puerto-rico"></a>Disponibilidad en Puerto Rico
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estas son las Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Puerto Rico.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype for Business y Microsoft Teams disponibles para Puerto Rico.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -59,8 +59,8 @@ Estas son las Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Team
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
-|Minutos disponibles para Planes de llamada  <br/> |3000 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (el límite al que se llegue antes cada mes). Las llamadas nacionales en los Estados Unidos incluyen las llamadas a los 50 estados de Estados Unidos y Puerto Rico. Los usuarios que tengan asignada la ubicación de uso de licencia de EE. UU. o Puerto Rico comparten el mismo grupo de minutos.  <br/> |
+|¿Los planes de llamada están disponibles para la compra?  |Sí          |   
+|Minutos disponibles para planes de llamadas.    |Hay cinco opciones de plan disponibles por mes natural: <ul><li>Plan de llamadas de pago por ir </li><li> Plan de llamadas nacionales de 120 minutos </li><li> Plan de llamadas nacionales de 240 minutos </li><li> Plan de llamadas nacionales de 1200 minutos </li><li> Plan de llamadas internacionales: 1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que se alcance primero en el mes natural)</li></ul>|
 |¿Se pueden realizar llamadas a números premium? <br/> | No se admite en este momento. <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    

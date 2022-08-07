@@ -1,5 +1,5 @@
 ---
-title: Hacer streaming Teams reuniones
+title: Hacer streaming de reuniones de Teams
 author: mkbond007
 ms.author: mabond
 manager: serdars
@@ -17,29 +17,28 @@ f1.keywords:
 ms.custom: ''
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
-description: Obtenga información sobre cómo configurar y administrar el streaming para sus reuniones de Teams.
-ms.openlocfilehash: 352a0c2e7a0584640e466b5e46456906e4912d00
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+description: Obtenga información sobre cómo configurar y administrar el streaming para las reuniones de Teams.
+ms.openlocfilehash: 5e1e84fc3b0b4ed2f81b3f3a8c84450dc3cee56c
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646349"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270185"
 ---
-# <a name="stream-teams-meetings"></a>Hacer streaming Teams reuniones
+# <a name="stream-teams-meetings"></a>Hacer streaming de reuniones de Teams
 
 Este artículo le ayudará a configurar el streaming para las reuniones de Teams.
 
 ## <a name="what-is-streaming-and-how-does-it-work"></a>¿Qué es el streaming y cómo funciona?
 
-El streaming permite a su organización ampliar su alcance y ofrece a los asistentes a la reunión más opciones de reunión. Al habilitar la transmisión por secuencias, los organizadores pueden hacer streaming de reuniones y seminarios web a puntos de conexión externos proporcionando una dirección URL de protocolo de mensajería Real-Time (RTMP) y una clave para la aplicación de streaming personalizado integrada en Teams.
+El streaming permite a su organización ampliar su alcance y ofrece a los asistentes a la reunión más opciones de reunión. Al habilitar la transmisión por secuencias, los organizadores pueden hacer streaming de reuniones y seminarios web a puntos de conexión externos proporcionando una dirección URL de protocolo de mensajería Real-Time (RTMP) y una clave para la aplicación de streaming personalizada integrada en Teams.
 
 > [!NOTE]
 > No puede transmitir eventos en directo.
 
 ## <a name="set-up-streaming-with-powershell"></a>Configurar el streaming con PowerShell
 
-Puede configurar su organización para el streaming con PowerShell. Actualmente, esta directiva no está disponible en el centro de administración de Teams. La directiva por usuario se usa para especificar **quién** puede habilitar el streaming en directo. Está desactivado por defecto.
+Puede configurar su organización para el streaming con PowerShell. Actualmente, esta directiva no está disponible en el Centro de administración de Teams. La directiva por usuario se usa para especificar **quién** puede habilitar el streaming en directo. Está desactivado por defecto.
 
 Puede usar el siguiente atributo en el cmdlet de Windows PowerShell **Set-CsTeamsMeetingPolicy** para configurar el streaming. Para obtener más información sobre el cmdlet, vea [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 

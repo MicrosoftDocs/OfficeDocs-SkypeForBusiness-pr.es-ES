@@ -1,5 +1,5 @@
 ---
-title: Asignar Microsoft Teams Teléfono licencias del paquete Plan de llamadas
+title: Asignar licencias de paquete de Teléfono Microsoft Teams con plan de llamadas
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,31 +9,30 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
-description: Obtenga información sobre cómo asignar las Microsoft Teams Teléfono licencias del paquete Plan de llamadas a los usuarios.
+description: Obtenga información sobre cómo asignar las licencias del paquete de Teléfono Microsoft Teams con plan de llamadas a los usuarios.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6883b757c6302265db183550463710000a0b8baf
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+- M365initiative-voice
+ms.openlocfilehash: 952ea1c952a0877e81a654c299e064ba001da07d
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053109"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269245"
 ---
-# <a name="step-3-assign-teams-phone-with-calling-plan-bundle-licenses"></a>Paso 3: Asignar Teams Teléfono licencias del paquete Plan de llamadas
+# <a name="step-3-assign-teams-phone-with-calling-plan-bundle-licenses"></a>Paso 3: Asignar Teams Phone con licencias de paquetes del plan de llamadas
 
-Cada usuario que necesite la Microsoft Teams Sistema telefónico paquete plan de llamadas debe tener asignada una Teams Teléfono **de paquete plan** de llamadas.
+A cada usuario que necesite el sistema de Microsoft Teams 电话 con paquete de plan de llamadas se le debe asignar un **teléfono de Teams con** licencia del paquete Plan de llamadas.
 
-1. Abra el Centro de administración de Microsoft 365 e inicie sesión con un usuario que sea administrador global. Normalmente, esta es la cuenta que usó para registrarse para Microsoft 365.
-1. En el panel de navegación izquierdo, vaya a <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">**BillingLicenses** > </a>.
-1. Seleccione **Microsoft Teams Teléfono con Plan de llamadas**.
+1. Abra la Centro de administración de Microsoft 365 e inicie sesión con un usuario que sea administrador global. Esta suele ser la cuenta que usaste para registrarte en Microsoft 365.
+1. En el panel de navegación izquierdo, vaya a <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">**Licencias** **de facturación** > </a>.
+1. Seleccione **Teléfono Microsoft Teams con plan de llamadas**.
 1. En la página de detalles del producto, seleccione **Asignar licencias**.
-1. En el **panel Asignar licencias a usuarios** , empiece a escribir un nombre y, a continuación, elija uno de los resultados para agregarlo a la lista. Puede agregar hasta 20 usuarios a la vez.
+1. En el panel **Asignar licencias a usuarios** , empiece a escribir un nombre y, a continuación, elíjalo en los resultados para agregarlo a la lista. Puede agregar hasta 20 usuarios a la vez.
 1. Cuando termine, seleccione **Asignar** y haga clic en **Cerrar**.
 
 > [!div class="nextstepaction"]
-> [Siguiente paso: Configurar Teams cuenta de recursos](set-up-resource-account.md)
+> [Siguiente paso: Configurar la cuenta de recursos de Teams](set-up-resource-account.md)

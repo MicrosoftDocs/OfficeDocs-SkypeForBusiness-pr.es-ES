@@ -10,26 +10,26 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Registro de auditoría para TRM.
 f1keywords: ''
-ms.openlocfilehash: 3681f50f0e15a7688a944c14e69907ba53dd2817
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: de7f01a3c93dc31ff10c9e00cb3d0f3ef5806cb3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676621"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269113"
 ---
 # <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Registro de auditoría en el servicio administrado de Salas de Teams
 
 La auditoría en Salas de Teams servicio Administrado (TRM) le permite buscar registros de auditoría para las actividades realizadas en el portal por usuarios y administradores. Esta característica está habilitada de forma predeterminada. Solo el administrador de servicios administrados tiene permiso para exportar y, a continuación, ver los registros.
 
 > [!NOTE]
-> Las acciones realizadas en el servicio TRM no se registran en Microsoft 365 ni en la auditoría de Office 365 
+> Las acciones realizadas en el servicio TRM no se registran en Microsoft 365 ni Office 365 la auditoría 
 
 ## <a name="exporting-logs"></a>Exportar registros
 
@@ -37,7 +37,7 @@ Al exportar todos los resultados de una búsqueda de registros de auditoría, lo
 
 **Para descargar registros** 
 
-1. Vaya a **Configuración > registros de auditoría generales de >**.
+1. Vaya a **Configuración > Registros de auditoría de > generales**.
 1. Para definir el intervalo de fechas de los registros de interés, escriba la **Fecha de inicio** y la **Fecha de finalización.**
 
    > [!NOTE]

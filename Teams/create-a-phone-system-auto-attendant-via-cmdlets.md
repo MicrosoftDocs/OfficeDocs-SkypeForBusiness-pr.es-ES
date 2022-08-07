@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar operadores automáticos mediante cmdlets
-ms.openlocfilehash: 4dccd4e5026d78dada222cedf98659cdcd5ce6e5
-ms.sourcegitcommit: 6fb15729b2ff5ca142cb90605f3c98112cb36804
+ms.openlocfilehash: fa52f84f822635505e3d3390855195ba579406f7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "66744326"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270145"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>Crear un operador automático mediante cmdlets
 
@@ -49,7 +48,7 @@ ms.locfileid: "66744326"
      ```
 
 2. Tiene derechos de administración de inquilinos
-3. Has comprado Teléfono Microsoft Teams
+3. Has comprado Microsoft Teams 电话
 4. Las colas de llamadas a las que se hace referencia a continuación ya se han configurado siguiendo la guía [Creación de colas de llamadas con cmdlets de PowerShell](create-a-phone-system-call-queue-via-cmdlets.md) .
 
 **Nota**: Algunos de los cmdlets a los que se hace referencia a continuación pueden formar parte de la versión preliminar pública del módulo PowerShell de Teams. Para obtener más información, consulte [Instalar la versión preliminar pública de PowerShell de Teams](teams-powershell-install.md) y vea también Notas de la [versión de Microsoft Teams PowerShell](teams-powershell-release-notes.md).
@@ -143,7 +142,7 @@ $dtr = New-CsOnlineDateTimeRange -Start "01/01/2022" -End "02/01/2022"
 $newyearSchedule = New-CsOnlineSchedule -Name "New Year" -FixedSchedule -DateTimeRanges @($dtr)
 ```
 
-### <a name="create-address-fax-and-email-information-prompt"></a>Crear mensaje de información de dirección, FAX y correo electrónico
+### <a name="create-address-fax-and-email-information-prompt"></a>Crear dirección, FAX y Email mensaje de información
 
 ```PowerShell
 $addressPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "To repeat this information at any time press the * key. Our mailing address is: 123 Main Street, Any town, Any Place, County. Our email address is: info@contoso.com. Our fax number is: 929-555-0151"

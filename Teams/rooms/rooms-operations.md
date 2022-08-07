@@ -9,26 +9,27 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Obtenga información sobre la administración de Salas de Microsoft Teams.
-ms.openlocfilehash: df9760694bd8e0c650be25eec7d435efcae02127
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 93a4c2ff7d9c6a1f982a06ec8df6dabf790f8739
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761062"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272225"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Salas de Microsoft Teams mantenimiento y operaciones
  
  
-Salas de Microsoft Teams es la solución de conferencias de Microsoft diseñada para transformar su sala de reuniones en una experiencia enriquecida y colaborativa. Los usuarios disfrutarán de su familiar Microsoft Teams o interfaz de Skype Empresarial y los administradores de TI apreciarán una aplicación de Windows 10 Salas de Teams fácil de implementar y administrar. Salas de Microsoft Teams está diseñado para aprovechar el equipo existente para facilitar la instalación y llevar Microsoft Teams o Skype Empresarial a la sala de reuniones.
+Salas de Microsoft Teams es la solución de conferencias de Microsoft diseñada para transformar su sala de reuniones en una experiencia enriquecida y colaborativa. Los usuarios disfrutarán de su conocida interfaz de Microsoft Teams o Skype for Business y los administradores de TI apreciarán una aplicación de Windows 10 Salas de Teams que se puede implementar y administrar fácilmente. Salas de Microsoft Teams está diseñado para aprovechar el equipo existente para facilitar la instalación y llevar Microsoft Teams o Skype for Business a la sala de reuniones.
     
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Recopilación de registros en Salas de Microsoft Teams
 <a name="Logs"> </a>
 
-Para recopilar registros en Teams centro de administración, vaya a **Teams dispositivos > Salas de Teams en Windows**. Seleccione el nombre para mostrar del dispositivo para el que desea registros. En el panel superior, selecciona "Descargar registros de dispositivos". Una vez confirmado, los registros estarán listos para su descarga en la pestaña Historial pasados unos minutos.
+Para recopilar registros en el Centro de administración de Teams, vaya a **Dispositivos de Teams > Salas de Teams en Windows**. Seleccione el nombre para mostrar del dispositivo para el que desea registros. En el panel superior, selecciona "Descargar registros de dispositivos". Una vez confirmado, los registros estarán listos para su descarga en la pestaña Historial pasados unos minutos.
 
 También puede usar PowerShell para recopilar registros. Debe invocar el script de colección de registros que se incluye con la aplicación de Salas de Microsoft Teams. En [Administración modo](rooms-operations.md), inicia un símbolo del sistema con privilegios elevados y ejecuta el siguiente comando:
   
@@ -64,7 +65,7 @@ Para establecer la escala y la resolución manualmente en la configuración del 
 
 1. En la sala de Teams, cambiar al [modo de administración](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
 
-2. Seleccione el icono de inicio. A continuación, **Configuración > pantalla de > del sistema**
+2. Seleccione el icono de inicio. A continuación **, Configuración > pantalla > sistema**
 
 3. Ve a **Escala y diseño**, **cambia el tamaño del texto, las aplicaciones y otros elementos** y establece el ajuste de escala en el 100 %.
 
@@ -83,10 +84,10 @@ Para establecer la escala y la resolución manualmente en la configuración del 
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Restablecimiento Salas de Microsoft Teams (restauración de fábrica)
 <a name="Reset"> </a>
 
-Si Salas de Microsoft Teams no se ejecuta correctamente, realizar un restablecimiento de fábrica puede ser de ayuda. Para ello, usa la [Microsoft Teams Herramienta de recuperación de salas](recovery-tool.md) y sigue las instrucciones de restauración de fábrica.
+Si Salas de Microsoft Teams no se ejecuta correctamente, realizar un restablecimiento de fábrica puede ser de ayuda. Para ello, use la herramienta de recuperación de salas de [Microsoft Teams](recovery-tool.md) y siga las instrucciones de restauración de fábrica.
 
 > [!NOTE]
-> Hay un problema conocido en el que la Salas de Microsoft Teams puede dejar de usarse si la opción **Mantener mis archivos: quita aplicaciones y opciones de configuración, pero mantiene sus archivos personales** seleccionados durante el proceso de Windows Restablecer. *No* use esta opción.
+> Hay un problema conocido que provoca que la Salas de Microsoft Teams no pueda usarse si la opción **Mantener mis archivos: quita aplicaciones y opciones de configuración, pero mantiene tus archivos personales** seleccionada durante el proceso de restablecimiento de Windows. *No* use esta opción.
   
 ## <a name="supported-remote-options"></a>Opciones remotas admitidas
 <a name="RemoteOptions"> </a>
@@ -111,9 +112,9 @@ La unión de Salas de Teams a un dominio de Active Directory ofrece las siguient
 
 - La Salas de Teams de unión a dominios le permite conceder derechos administrativos a los usuarios y grupos del dominio. Al hacer esto, no tendrá que acordarse de la contraseña de la cuenta de administrador de nivel de máquina local.
 
-- Puede implementar Windows configuración de calidad de servicio en Salas de Teams.
+- Puedes implementar la configuración de Calidad de servicio de Windows en Salas de Teams.
 
-- Si usa Skype Empresarial, la unión a un dominio de la Salas de Teams automatiza la importación de la cadena de certificados raíz privada de su organización.
+- Si usa Skype for Business, unirse a un dominio en el Salas de Teams automatiza la importación de la cadena de certificados raíz privada de su organización.
 
 Al unir Salas de Teams a un dominio, es necesario que cree una unidad organizativa (UO) independiente, de modo que pueda proporcionar exclusiones de objetos de directiva de grupo (GPO) a la unidad organizativa donde residen todos los objetos Salas de Teams. Deshabilite toda la herencia de GPO para que la configuración de directiva de grupo no compatible no se aplique a Salas de Teams. Cree objetos de máquina en la unidad organizativa antes de unir Salas de Teams al dominio para garantizar que no se apliquen las directivas de grupo aplicadas a la unidad organizativa de los equipos predeterminados.
 
@@ -140,7 +141,7 @@ Al unir Salas de Microsoft Teams a un dominio, asegúrese de que las directivas 
 |net accounts /maxpwage:unlimited  <br/> O medios alternativos para deshabilitar la opción de caducidad de la contraseña en la cuenta local. Si esto no se realiza, la cuenta de Skype no podrá iniciar sesión indicando que la contraseña ha caducado. Tenga en cuenta que esto afectará todas las cuentas locales de la máquina y, por consiguiente, si no se configura esto, la cuenta administrativa del cuadro eventualmente también caducará.   <br/> |Permite que la cuenta de Skype siempre inicie sesión  <br/> |
 
 > [!NOTE]
-> Cuando Salas de Microsoft Teams es compatible con la siguiente versión de Windows 10 sistema operativo, Salas de Teams se actualiza automáticamente a la siguiente versión a través de Windows Update. Salas de Microsoft Teams no deben actualizarse a la siguiente versión de Windows 10 manualmente o mediante la habilitación de directivas de grupo de Windows Update para empresas (WUFB) "Seleccione el nivel de preparación de Windows para las actualizaciones que desea recibir" y "Seleccionar cuándo se reciben las versiones preliminares y las actualizaciones de características" a través de GPO. Salas de Teams con estas directivas de grupo habilitadas se sabe que tiene problemas con las actualizaciones del sistema operativo Windows 10.
+> Cuando Salas de Microsoft Teams es compatible con la siguiente versión de Windows 10 sistema operativo, Salas de Teams se actualiza automáticamente a la siguiente versión a través de Windows Update. Salas de Microsoft Teams no deben actualizarse a la siguiente versión de Windows 10 manualmente o mediante la habilitación de directivas de grupo de Windows Update para empresas (WUFB) "Seleccione el nivel de preparación de Windows para las actualizaciones que desea recibir" y "Seleccionar cuándo se reciben las compilaciones preliminares y los Novedades de características" a través de GPO. Salas de Teams con estas directivas de grupo habilitadas se sabe que tiene problemas con las actualizaciones del sistema operativo Windows 10.
 
 ## <a name="remote-management-using-powershell"></a>Administración remota con PowerShell
 <a name="RemotePS"> </a>
@@ -162,7 +163,7 @@ Por ejemplo, puede habilitar PowerShell remoto de esta manera:
 1. Inicia sesión como Administración en un dispositivo Salas de Microsoft Teams.
 2. Abra un símbolo del sistema con privilegios elevados de PowerShell.
 3. Escriba el siguiente comando: `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. Abra la directiva de seguridad local y agregue el grupo de seguridad *Administradores* a Directivas **de seguridad Configuración** >  >  Local **Asignación** >  de derechos **de usuario Acceso a este equipo desde la red**.
+4. Abra la directiva de seguridad local y agregue el grupo de seguridad *Administradores* a Directivas **locales** >  de **configuración** >  de seguridad **Asignación** >  de derechos **de usuario Acceso a este equipo desde la red**.
 
 Para ejecutar una operación de administración:
   
@@ -221,9 +222,9 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>Actualizaciones de software
 <a name="SWupdate"> </a>
 
-De forma predeterminada, Salas de Microsoft Teams intenta conectarse a la Tienda Windows para obtener la última versión del software de Salas de Microsoft Teams. Por lo tanto, Salas de Teams requiere acceso regular a Internet. Antes de ponerte en contacto con Microsoft con problemas de soporte técnico, asegúrate de que Salas de Microsoft Teams se carga con la versión más reciente de la aplicación.
+De manera predeterminada, Salas de Microsoft Teams intenta conectarse a la Tienda Windows para obtener la última versión del software de Salas de Microsoft Teams. Por lo tanto, Salas de Teams requiere acceso regular a Internet. Antes de ponerte en contacto con Microsoft con problemas de soporte técnico, asegúrate de que Salas de Microsoft Teams se carga con la versión más reciente de la aplicación.
   
-Salas de Microsoft Teams se conecta a Windows Update para recuperar las actualizaciones de firmware del sistema operativo y dispositivos periféricos. También se conecta a la Microsoft Store para recuperar las actualizaciones de la aplicación.
+Salas de Microsoft Teams se conecta a Windows Update para recuperar las actualizaciones de firmware del sistema operativo y dispositivos periféricos. También se conecta a Microsoft Store para recuperar las actualizaciones de aplicaciones.
 
 Si necesitas administrar manualmente las actualizaciones de aplicaciones, pero no puedes seguir el procedimiento normal de [Microsoft Store para Empresas](https://businessstore.microsoft.com/store) [Distribuir aplicaciones sin conexión](/microsoft-store/distribute-offline-apps), puedes adquirir Salas de Teams paquetes de actualización para realizar actualizaciones de aplicaciones en sistemas operativos compatibles. Es posible que la versión de actualización no coincida con la versión de Store y que no coincida siempre con la compilación disponible más reciente. Consulta [Actualizar manualmente un dispositivo Salas de Microsoft Teams](manual-update.md) para obtener más información.
 
@@ -235,10 +236,10 @@ Algunas funciones de administración, como instalar manualmente un certificado d
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Cambiar al modo Administración y volver cuando se ejecuta la aplicación Salas de Microsoft Teams
 
 1. Cuelgue las llamadas en curso y vuelva a la pantalla principal.
-2. Selecciona el icono de engranaje y abre el menú (las opciones son **Configuración**, **Accesibilidad** y **Reiniciar dispositivo**).
+2. Selecciona el icono de engranaje y abre el menú (las opciones son **Configuración**, **Accesibilidad** y **Reiniciar dispositivo** ).
 3. Seleccione **Configuración**.
 4. Escriba la contraseña de administrador. Se abrirá la pantalla Configuración.  Si el dispositivo no está unido a un dominio, la cuenta administrativa local (nombre de usuario "Administración") se usará de manera predeterminada. La contraseña predeterminada para esta cuenta es 'sfb'. Cambie esta contraseña tan pronto como sea posible. Si el equipo está unido a un dominio, puede iniciar sesión con una cuenta de dominio con los privilegios adecuados.
-5. Seleccione **Windows Configuración** en la columna izquierda.
+5. Seleccione **Configuración de Windows** en la columna de la izquierda.
 6. Inicie sesión en el escritorio con sus credenciales de administrador. Tendrás los privilegios necesarios para administrar el dispositivo.
 7. Realice las tareas de administración que sean necesarias.
 8.  Reinicia el equipo cuando hayas terminado.
@@ -253,14 +254,14 @@ La consola volverá a su modo de funcionamiento normal. El siguiente procedimien
 4. Reinicia el equipo cuando hayas terminado.
 
     > [!NOTE]
-    > Este método no cierra la sesión del usuario de Skype o finaliza correctamente la aplicación, pero la usarías si la aplicación no respondía y el otro método no estaba disponible. 
+    > Este método no cierra la sesión del usuario de Skype o finaliza correctamente la aplicación, pero la usaría si la aplicación no responde y el otro método no está disponible. 
 
    La consola se reinicia en su modo de funcionamiento normal, ejecutando la aplicación Salas de Microsoft Teams. Puede quitar el teclado si ha conectado uno para completar este procedimiento.
    ## <a name="troubleshooting-tips"></a>Sugerencias para la solución de problemas
    <a name="TS"> </a>
 
-- Es posible que las invitaciones a reuniones no aparezcan cuando se envían a través de los límites del dominio (por ejemplo, entre dos empresas). En estos casos, los administradores de TI deben decidir si permitir que los usuarios externos programen una reunión. Consulte el artículo de la Exchange cmdlet de PowerShell [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing), específicamente el parámetro 'ProcessExternalMeetingMessages'.
-- Salas de Microsoft Teams no admite Exchange redirecciones de Detección automática a través de Exchange 2010.
+- Es posible que las invitaciones a reuniones no aparezcan cuando se envían a través de los límites del dominio (por ejemplo, entre dos empresas). En estos casos, los administradores de TI deben decidir si permitir que los usuarios externos programen una reunión. Consulte el artículo para el cmdlet de Exchange PowerShell [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing), específicamente el parámetro 'ProcessExternalMeetingMessages'.
+- Salas de Microsoft Teams no admite redirecciones de Detección automática de Exchange a través de Exchange 2010.
 - En general, es recomendable que los administradores de TI deshabiliten los puntos de conexión de audio que no quieran usar.
 - En el caso de que se muestre una imagen reflejada en la vista previa de la sala, el administrador de TI puede corregirlo activando la energía de la cámara o volteando la orientación de la imagen con la configuración de la cámara.
 - Ha habido casos de pérdida de acceso táctil a la consola. En estos casos, el problema a veces se resuelve reiniciando Salas de Teams.

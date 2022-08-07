@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,16 +19,16 @@ ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
+- ms.teamsadmincenter.callqueues.overview
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas a través de cmdlets
-ms.openlocfilehash: 8d62d3648d35cc302e333c2efa552bb2094cb14d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: b2439bf6b71fc7381494030c326db88660fa5eaf
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674582"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268805"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>Crear una cola de llamadas a través de cmdlets
 
@@ -50,10 +49,10 @@ ms.locfileid: "65674582"
      ```
 
 2. Tiene derechos de administración de inquilinos
-3. Has comprado Teléfono Microsoft Teams
+3. Has comprado Microsoft Teams 电话
 4. Los agentes, las listas de distribución y los canales de Teams a los que se hace referencia a continuación ya se han creado
 
-Nota: El cmdlet de canal de Teams que se usa a continuación forma parte de la versión preliminar pública del módulo de PowerShell Teams.  Para obtener más información, vea [Instalar Teams versión preliminar pública de PowerShell](teams-powershell-install.md) y vea [también Microsoft Teams notas de la versión de PowerShell](teams-powershell-release-notes.md).
+Nota: El cmdlet del canal de Teams que se usa a continuación forma parte de la versión preliminar pública del módulo de PowerShell de Teams.  Para obtener más información, consulte [Instalar la versión preliminar pública de PowerShell de Teams](teams-powershell-install.md) y vea también Notas de la [versión de Microsoft Teams PowerShell](teams-powershell-release-notes.md).
 
 Los usuarios que ya tienen instalado el módulo MicrosoftTeams deben `Update-Module MicrosoftTeams` asegurarse de que está instalada la versión más actualizada.
 
@@ -113,7 +112,7 @@ Información de la cola de llamadas colaborativas de las instalaciones:
 - Llamadas directas desde RTC: No (solo llamadas internas)
 - Idioma: francés FR
 - Saludo: Ninguno
-- Música en espera: predeterminado
+- Música en espera: predeterminada
 - Respuesta de llamadas: equipo: instalaciones
 - Canal de contestador de llamadas: Servicio de asistencia
   - Propietario del canal: Fred@contoso.com
@@ -176,7 +175,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Crear y asignar cuenta de recursos
 
-Nota: Teléfono número no es necesario aquí, ya que la cola de llamadas es front-ended por un operador automático
+Nota: El número de teléfono no se requiere aquí, ya que la cola de llamadas es front-ended por un operador automático
 
 - Id. de aplicación
   - Operador automático: ce933385-9390-45d1-9512-c8d228074e07
@@ -240,7 +239,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Crear y asignar cuenta de recursos
 
-Nota: Teléfono número no es necesario aquí, ya que la cola de llamadas es front-ended por un operador automático
+Nota: El número de teléfono no es necesario aquí, ya que una cola de llamadas es front-ended por un operador automático
 
 - Id. de aplicación
   - Operador automático: ce933385-9390-45d1-9512-c8d228074e07
@@ -308,7 +307,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Crear y asignar cuenta de recursos
 
-**Nota**: Teléfono número no es necesario aquí, ya que la cola de llamadas es front-ended por un operador automático
+**Nota**: El número de teléfono no es necesario aquí, ya que una cola de llamadas es front-ended por un operador automático
 
 - Id. de aplicación
   - Operador automático: ce933385-9390-45d1-9512-c8d228074e07

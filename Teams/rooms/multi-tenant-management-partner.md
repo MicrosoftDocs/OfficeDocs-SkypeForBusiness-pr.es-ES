@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Administración de clientes multiempresa para partners.
 f1keywords: ''
-ms.openlocfilehash: 23b0460d5f59830ea00522ac001b7f7524ad2f45
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 37ba5cfc12229685bbe4ac8cf188301e9fa7b1f7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67024123"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269115"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>Administración de clientes multiempresa para partners
 

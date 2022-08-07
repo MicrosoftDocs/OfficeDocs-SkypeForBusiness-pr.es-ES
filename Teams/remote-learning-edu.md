@@ -14,16 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67be704ae81379a122a9c205305da1c4d4a5dcbd
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: cc10aa6220d325ac650d753ae2d4321505efa0d8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675652"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268375"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introducción a Microsoft Teams para el aprendizaje remoto
 

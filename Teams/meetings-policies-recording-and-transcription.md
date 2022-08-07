@@ -17,13 +17,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
-description: Aprenda a administrar la configuración de la directiva de reunión en Teams para la grabación y la transcripción.
-ms.openlocfilehash: da7a5d43231abcb00339f2ffc2c57c7e90ff2d2e
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+description: Aprenda a administrar la configuración de directivas de reuniones en Teams para la grabación y la transcripción.
+ms.openlocfilehash: 12f8be910c713a9ce023ac17c956ef50f5889792
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646369"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268985"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>Configuración de la directiva de reunión para grabar & transcripción
 
@@ -39,7 +39,7 @@ Esta es una combinación de directiva por organizador y por usuario. Esta config
 
 Al activar esta opción, se crea una copia de la transcripción que se almacena con la grabación de la reunión, lo que habilita **Búsqueda**, **CC** y **transcripciones** en la grabación de la reunión.
 
-La transcripción para las reuniones grabadas actualmente solo se admite para los usuarios que establecen su idioma o hablan inglés en Teams reuniones.
+La transcripción para las reuniones grabadas actualmente solo se admite para los usuarios que establecen su idioma o hablan inglés en las reuniones de Teams.
 
 ## <a name="allow-cloud-recording"></a>Permitir la grabación en la nube
 
@@ -67,9 +67,10 @@ Para más información sobre la grabación de reuniones en la nube, consulte [Gr
 
 ## <a name="store-recordings-outside-of-your-country-or-region"></a>Almacenar grabaciones fuera de su país o región
 
-Esta directiva controla si los registros de reunión se pueden almacenar de forma permanente en otro país o región. Si está habilitada, las grabaciones no se pueden migrar. Para obtener más información sobre las reuniones en la nube y dónde se almacenan las grabaciones, vea [Teams grabación de reuniones](cloud-recording.md) en la nube.
+Esta directiva controla si los registros de reunión se pueden almacenar de forma permanente en otro país o región. Si está habilitada, las grabaciones no se pueden migrar. Para obtener más información sobre las reuniones en la nube y dónde se almacenan las grabaciones, consulte Grabación de reuniones en la [nube de Teams](cloud-recording.md).
 
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Asignar directivas a usuarios en Teams](policy-assignment-overview.md)
 - [Grabación de reuniones en la nube](cloud-recording.md)
+- [Directivas de reunión y expiración de reuniones en Microsoft Teams](meeting-expiration.md)

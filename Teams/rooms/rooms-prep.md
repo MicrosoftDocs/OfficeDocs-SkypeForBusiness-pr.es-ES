@@ -13,14 +13,15 @@ ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: Obtenga información sobre cómo preparar la infraestructura para implementar Salas de Microsoft Teams de modo que pueda aprovechar todas las características.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0bedb70ade23f92424a14e4bea3f1462fc2cbccf
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 3f0224ebf0c6c8e0f21fe669bb8a92ff345b928b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823059"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268955"
 ---
 # <a name="prepare-your-environment"></a>Preparar el entorno
 
@@ -37,13 +38,13 @@ Esta sección contiene una descripción general de los pasos necesarios para pre
     
 ### <a name="create-and-test-a-resource-account"></a>Crear y probar una cuenta de recursos
 
-Una *cuenta de recursos* es una cuenta que el cliente de Salas de Microsoft Teams usa para obtener acceso a características de Exchange, como el calendario, y para conectarse a Microsoft Teams. Consulte [Implementar Salas de Microsoft Teams](rooms-deploy.md) para obtener más información.
+Una *cuenta de recursos* es una cuenta que el cliente de Salas de Microsoft Teams usa para acceder a características de Exchange, como el calendario, y para conectarse a Microsoft Teams. Consulte [Implementar Salas de Microsoft Teams](rooms-deploy.md) para obtener más información.
   
 ### <a name="check-network-availability"></a>Comprobar la disponibilidad de red
 
 Para funcionar correctamente, Salas de Microsoft Teams deben tener acceso a una red cableada que cumpla estos requisitos:
   
-- Acceso a su instancia de Active Directory o de Azure Active Directory (Azure AD), así como a microsoft Exchange y Microsoft Teams.
+- Acceso a su instancia de Active Directory o Azure Active Directory (Azure AD), así como a Microsoft Exchange y Microsoft Teams.
 
 - Tener acceso a un servidor que pueda proporcionar una dirección IP mediante DHCP. Salas de Microsoft Teams no se puede configurar con una dirección IP estática en el inicio de la primera unidad.
 
@@ -64,7 +65,7 @@ Si su red se ejecuta mediante un proxy, necesitará también la dirección del p
   
 ### <a name="certificates"></a>Certificados
 
-El dispositivo Salas de Microsoft Teams usa certificados para Exchange servicios web, Microsoft Teams o Skype Empresarial, uso de red y autenticación. Si los servidores relacionados usan certificados públicos, que es el caso para implementaciones en línea y algunas implementaciones locales, no debe haber ninguna acción adicional necesaria por parte del administrador para instalar certificados. Si, por otro lado, la entidad emisora de certificados es una CA privada, el dispositivo debe confiar en esa CA. Esto significa tener los certificados de cadena ca + CA instalados en el dispositivo. Al añadir el dispositivo al dominio, esta tarea se realiza de forma automática.
+El dispositivo de Salas de Microsoft Teams usa certificados para los servicios web de Exchange, Microsoft Teams o Skype for Business, el uso de red y la autenticación. Si los servidores relacionados usan certificados públicos, que es el caso para implementaciones en línea y algunas implementaciones locales, no debe haber ninguna acción adicional necesaria por parte del administrador para instalar certificados. Si, por otro lado, la entidad emisora de certificados es una CA privada, el dispositivo debe confiar en esa CA. Esto significa tener los certificados de cadena ca + CA instalados en el dispositivo. Al añadir el dispositivo al dominio, esta tarea se realiza de forma automática.
   
 Los certificados se instalarán del mismo modo en que se instalarían para cualquier otro cliente de Windows. 
 
@@ -78,17 +79,17 @@ Los certificados se instalarán del mismo modo en que se instalarían para cualq
 
 Salas de Microsoft Teams está diseñado para heredar la configuración de Proxy del sistema operativo Windows. Acceda al SO Windows de la siguiente manera:
   
-1. En la interfaz de usuario de Salas de Microsoft Teams, haz clic en el icono de engranaje de Configuración donde se te pedirá la contraseña de administrador local en el dispositivo (la contraseña predeterminada es **sfb**).
-2. Pulsa en **Configuración** seguido de pulsar en el botón **Ir a Windows** y, a continuación, pulsa en el botón **Ir a Administración Iniciar sesión** y, a continuación, haz clic en el botón **Administrador** (si el equipo está unido a un dominio **, elige Otro usuario y,** a continuación, usa .\admin como nombre de usuario).
-3. En el cuadro **Buscar Windows** de la parte inferior izquierda escriba regedit (mantenga presionada la pantalla o haga clic con el botón derecho y elija **Ejecutar como administrador**).
+1. En la interfaz de usuario de Salas de Microsoft Teams, haz clic en el icono de engranaje Configuración, donde se te pedirá la contraseña de administrador local en el dispositivo (la contraseña predeterminada es **sfb**).
+2. Pulsa en **Configuración**, después pulsa en el botón **Ir a Windows** y, a continuación, pulsa en el botón **Ir a Administración Iniciar sesión** y, a continuación, haz clic en el botón **Administrador** (si el equipo está unido a un dominio **, elige Otro usuario y,** a continuación, usa .\admin como nombre de usuario).
+3. En el cuadro **Buscar en Windows** de la parte inferior izquierda, escriba regedit (mantenga presionada la pantalla o haga clic con el botón derecho y elija **Ejecutar como administrador**).
 4. Haga clic en la carpeta HKEY_USERS (podrá ver una lista de identificadores de seguridad de los usuarios de la máquina), asegúrese de que la carpeta raíz HKEY_USERS esté seleccionada.
        
 5. Haga clic en Archivo y, a continuación, elija **Cargar subárbol.**
-6. Vaya a la carpeta **C:\Users\Skype**, escriba el cuadro Nombre de archivo NTUSER.dat y presione el botón Abrir.
+6. Vaya a la carpeta **C:\Users\Skype** , escriba en el cuadro Nombre de archivo NTUSER.dat y presione el botón Abrir.
 
-7. Se le pedirá un Nombre de Clave para su Subárbol recién cargado; escribe Skype (ahora deberías ver la configuración del Registro del usuario de Skype).
+7. Se le pedirá un Nombre de Clave para su Subárbol recién cargado; en Skype (ahora debería ver la configuración del Registro del usuario de Skype).
  
-8. Abre la tecla Skype y busca HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings después asegúrate de que se especifiquen estas opciones de configuración: 
+8. Abre la tecla Skype, busca HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings, a continuación, asegúrate de que se especifique esta configuración: 
     
     ```console
     [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
@@ -118,7 +119,7 @@ Consulte el artículo [seguridad de red](./security.md#network-security) para ob
   
 ### <a name="admin-group-management"></a>Administración del grupo de administradores
 
-Si elige unirse a un dominio (Azure Active Directory o Active Directory), puede usar Microsoft Endpoint Manager, directiva de grupo o Administración de equipos locales para establecer un grupo de seguridad como administrador local como lo haría para un equipo Windows en su dominio. Las personas que formen parte de ese grupo de seguridad podrán introducir sus credenciales y desbloquear Configuración.
+Si elige unirse a un dominio (Azure Active Directory o Active Directory), puede usar Microsoft Endpoint Manager, directiva de grupo o Administración de equipos locales para establecer un grupo de seguridad como administrador local como lo haría con un equipo Windows de su dominio. Las personas que formen parte de ese grupo de seguridad podrán introducir sus credenciales y desbloquear Configuración.
   
 > [!NOTE]
 > Si su dispositivo de Sala de Microsoft Teams pierde la confianza en el dominio (por ejemplo, si elimina Sala de Microsoft Teams del dominio tras haberse unido a él), no podrá autenticarse en el dispositivo ni abrir Configuración. La solución alternativa es iniciar sesión con la cuenta de administrador local. 
@@ -131,7 +132,7 @@ Salas de Teams incluye una cuenta local sin contraseñas denominada "Skype". Est
   
 ### <a name="admin---local-administrator-account"></a>"Administrador": cuenta de administrador local
 
-Salas de Microsoft Teams contraseña predeterminada se establece en "sfb". La contraseña se puede cambiar localmente a través del modo Administración o en el archivo de AutoUnattend.xml (usa el administrador de imágenes de sistema de Windows de ADK para realizar el cambio en el archivo xml).
+Salas de Microsoft Teams contraseña predeterminada se establece en "sfb". La contraseña se puede cambiar localmente a través del modo Administración o en el archivo AutoUnattend.xml (usa el Administrador de imágenes de sistema de Windows de ADK para realizar el cambio al archivo xml).
   
 > [!CAUTION]
 > Asegúrese de cambiar la Salas de Microsoft Teams contraseña tan pronto como sea posible. 
@@ -142,7 +143,7 @@ Puedes obtener más información sobre la cuenta de Administración en el artíc
   
 ### <a name="machine-account"></a>Cuenta de equipo
 
-Al igual que con cualquier dispositivo Windows, se puede cambiar el nombre del equipo haciendo clic con el botón derecho en **Configuración** \> **Acerca** \> de **cambiar el nombre del equipo**.
+Al igual que con cualquier dispositivo Windows, se puede cambiar el nombre del equipo haciendo clic con el botón derecho en **Configuración** \> **acerca** \> del **cambio de nombre del equipo**.
   
 Si desea cambiar el nombre del equipo después de unirlo a un dominio, use [Cambiar nombre de equipo](/powershell/module/microsoft.powershell.management/rename-computer), un comando de PowerShell, seguido del nuevo nombre del equipo.
   

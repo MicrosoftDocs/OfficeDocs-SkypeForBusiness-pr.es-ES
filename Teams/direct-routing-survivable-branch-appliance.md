@@ -9,7 +9,6 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
-- m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -21,21 +20,21 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f087498d3a9d679ea10ba2c8cc9505ab772d85ab
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: cc250b0506614ef658ade9a491c5561a65b98800
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823651"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269675"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Dispositivo de rama con funciones de supervivencia (SBA) para enrutamiento directo
 
 
-En ocasiones, un sitio de cliente que use enrutamiento directo para conectarse a Teléfono Microsoft sistema puede experimentar una interrupción de Internet.
+En ocasiones, un sitio de cliente que use enrutamiento directo para conectarse a Microsoft Phone System puede experimentar una interrupción de Internet.
 
 Suponga que el sitio del cliente (denominado rama) no puede conectarse temporalmente a la nube de Microsoft a través del enrutamiento directo. Sin embargo, la intranet dentro de la rama sigue siendo totalmente funcional y los usuarios pueden conectarse al controlador de borde de sesión (SBC) que proporciona conectividad CON RTC.
 
-En este artículo se describe cómo usar un dispositivo de sucursal con funciones de supervivencia (SBA) para habilitar Teléfono Microsoft Sistema para seguir realizando y recibiendo llamadas de red telefónica conmutada (RTC) en caso de interrupción.
+En este artículo se describe cómo usar un dispositivo de rama con funciones de supervivencia (SBA) para habilitar Microsoft Phone System para seguir realizando y recibiendo llamadas de red telefónica conmutada (RTC) en caso de interrupción.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -43,10 +42,10 @@ El SBA es código distribuible proporcionado por Microsoft a proveedores de SBC 
 
 Para obtener el firmware de controlador de borde de sesión más reciente con el dispositivo de sucursal con funciones de supervivencia incorporado, póngase en contacto con su proveedor de SBC. Además, es necesario lo siguiente:
 
-- El SBC debe configurarse para omisión de medios para asegurarse de que el cliente de Microsoft Teams en el sitio de rama puede tener medios que fluyen directamente con el SBC. 
+- El SBC debe configurarse para omisión de medios para asegurarse de que el cliente de Microsoft Teams en el sitio de la rama puede tener medios que fluyen directamente con el SBC. 
 
 - TLS1.2 debe estar habilitado en el SO de SBA VM.
-- Microsoft SBA Server usa los puertos 3443, 4444 y 8443 para comunicarse con el cliente Teams y deben estar permitidos en el firewall. 
+- Microsoft SBA Server usa los puertos 3443, 4444 y 8443 para comunicarse con el cliente de Teams y deben estar permitidos en el firewall. 
 - Microsoft SBA Server usa el puerto 5061 (o el configurado en el SBC) para comunicarse con el SBC y debe estar permitido en el firewall. 
 - El puerto UDP 123 es utilizado por el servidor SBA de Microsoft para comunicarse con el servidor NTP y se debe permitir en el firewall.
 - Microsoft SBA Server usa el puerto 443 para comunicarse con Microsoft 365 y debe estar permitido en el firewall.
@@ -54,17 +53,17 @@ Para obtener el firmware de controlador de borde de sesión más reciente con el
 
 ## <a name="supported-teams-clients"></a>Clientes de Teams admitidos
 
-La característica SBA se admite en los siguientes clientes de Microsoft Teams: 
+La característica SBA es compatible con los siguientes clientes de Microsoft Teams: 
 
-- Microsoft Teams Windows escritorio 
+- Escritorio de Windows de Microsoft Teams 
 
-- Microsoft Teams macOS escritorio
+- Escritorio de Microsoft Teams para macOS
 - Teams para móviles 
-- teléfonos Teams
+- Teléfonos de Teams
 
 ## <a name="how-it-works"></a>Cómo funciona
 
-Durante una interrupción de Internet, el cliente de Teams debe cambiar al SBA automáticamente y las llamadas en curso deben continuar sin interrupciones. El usuario no necesita realizar ninguna acción. Tan pronto como el cliente de Teams detecta que Internet está listo y las llamadas salientes finalizan, el cliente volverá al modo de funcionamiento normal y se conectará a otros servicios de Teams. El SBA cargará los registros de datos de llamadas recopilados en la nube y el historial de llamadas se actualizará para que la Administrador de inquilinos pueda revisar esta información. 
+Durante una interrupción de Internet, el cliente de Teams debe cambiar a la SBA automáticamente y las llamadas en curso deben continuar sin interrupciones. El usuario no necesita realizar ninguna acción. Tan pronto como el cliente de Teams detecta que Internet está listo y las llamadas salientes han finalizado, el cliente volverá al modo de funcionamiento normal y se conectará a otros servicios de Teams. El SBA cargará los registros de datos de llamadas recopilados en la nube y el historial de llamadas se actualizará para que el administrador de inquilinos pueda revisar esta información. 
 
 Cuando el cliente de Microsoft Teams está en modo sin conexión, está disponible la siguiente funcionalidad relacionada con las llamadas: 
 
@@ -79,11 +78,11 @@ Cuando el cliente de Microsoft Teams está en modo sin conexión, está disponib
 Para que la característica de SBA funcione, el cliente de Teams necesita saber qué SBA están disponibles en cada sitio de la rama y qué SBA se asignan a los usuarios de ese sitio. Los pasos de configuración son los siguientes:
 
 1. Cree los SBA.
-2. Crea la directiva de supervivencia de rama Teams.
+2. Cree la directiva de supervivencia de la rama de Teams.
 3. Asigne la directiva a los usuarios.
-4. Registre una solicitud para el SBA con Azure Active Directory.
+4. Registre una aplicación para el SBA con Azure Active Directory.
 
-Toda la configuración se realiza mediante Skype Empresarial cmdlets de PowerShell en línea. (El centro de administración de Teams aún no admite la característica de SBA de enrutamiento directo). 
+Toda la configuración se realiza mediante Skype for Business cmdlets de PowerShell en línea. (El Centro de administración de Teams aún no admite la característica de SBA de enrutamiento directo). 
 
 (Para obtener información sobre cómo configurar el SBC, con vínculos a la documentación del proveedor de SBC, consulte Configuración del controlador de borde de sesión al final de este artículo).
 
@@ -109,7 +108,7 @@ Site        :
 Description : SBA 1 
 ```
 
-### <a name="create-the-teams-branch-survivability-policy"></a>Crear la directiva de supervivencia de la rama Teams 
+### <a name="create-the-teams-branch-survivability-policy"></a>Crear la directiva de supervivencia de la rama de Teams 
 
 Para crear una directiva, use el cmdlet New-CsTeamsSurvivableBranchAppliancePolicy. Este cmdlet tiene los siguientes parámetros. Tenga en cuenta que la política puede contener uno o más SBA.
 
@@ -156,9 +155,9 @@ Puede quitar una directiva a un usuario al conceder la directiva de $Null como s
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
 ```
 
-### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Registrar una solicitud para el SBA con Azure Active Directory
+### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Registrar una aplicación para el SBA con Azure Active Directory
 
-Para permitir que diferentes SBA utilizados dentro de su inquilino puedan leer los datos requeridos de Microsoft 365, debe registrar una aplicación para el SBA con Azure Active Directory. 
+Para permitir que distintos SBA usados en su inquilino puedan leer los datos necesarios de Microsoft 365, debe registrar una aplicación para el SBA con Azure Active Directory. 
 
 Para obtener más información sobre el registro de aplicaciones, consulte lo siguiente:
 
@@ -179,7 +178,7 @@ Para la aplicación de SBA, tenga en cuenta lo siguiente:
 - Tipos de cuenta admitidos = Solo en este directorio organizativo. 
 - El uri de redirección web = https://login.microsoftonline.com/common/oauth2/nativeclient.
 - Tokens de concesión implícitos = tokens de acceso e id. 
-- Permisos de API = Skype y Teams Tenant Administración Access -> Application permissions -> application_access_custom_sba_appliance.
+- Permisos de API = Acceso de inquilinos de Skype y Teams Administración -> permisos de aplicación -> application_access_custom_sba_appliance.
 - Secreto de cliente: puede usar cualquier descripción y expiración. 
 - Recuerde copiar el secreto del cliente inmediatamente después de crearlo. 
 - El Id. de aplicación (cliente) se muestra en la pestaña Información general.

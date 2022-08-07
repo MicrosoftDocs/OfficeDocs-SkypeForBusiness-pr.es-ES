@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: A continuación se indican los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para España.
-ms.openlocfilehash: 08edc7b535c2d93b1979b58e0549893b7351f5d8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c404b05cc4c05e266024dc0b9dc2e3fb3cc96d38
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615366"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271385"
 ---
 # <a name="availability-in-spain"></a>Disponibilidad en España
 
@@ -59,8 +59,8 @@ A continuación se indican los servicios de Microsoft 365 y Office 365 para Skyp
     
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
-|Minutos disponibles para planes de llamadas. |Hay cuatro opciones de planes disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 1200 minutos </li></li><li>Plan de llamadas nacionales e internacionales: 1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que primero se alcanza durante el mes del calendario)</li></li> 
+|¿Los planes de llamada están disponibles para la compra?  |Sí          |   
+|Minutos disponibles para planes de llamadas.    |Hay cinco opciones de plan disponibles por mes natural: <ul><li>Plan de llamadas de pago por ir </li><li> Plan de llamadas nacionales de 120 minutos </li><li> Plan de llamadas nacionales de 240 minutos </li><li> Plan de llamadas nacionales de 1200 minutos </li><li> Plan de llamadas internacionales: 1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que se alcance primero en el mes natural)</li></ul>|
 |¿Se pueden realizar llamadas a números premium? <br/> | No se admite en este momento. <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    

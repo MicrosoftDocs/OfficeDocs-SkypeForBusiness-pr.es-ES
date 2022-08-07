@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Información de datos y privacidad
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 3fa24a1009c5480c308dfc35306286d470178820
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 5799288005a5d30152a6f810c0aa40d451198390
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057090"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270305"
 ---
 # <a name="approach"></a>Enfoque
 
@@ -37,7 +37,7 @@ La tecnología sigue procesos de privacidad para asegurarse de que se ajusta a l
 > [!Note]
 > Las referencias incidentales a un usuario individual pueden estar presentes en el registro de actividades durante el uso del dispositivo.
 
-## <a name="who-can-access-data"></a>Quién pueden acceder a los datos
+## <a name="who-can-access-data"></a>Quién puede acceder a los datos
 
 Servicios administrados toma medidas sólidas para ayudar a proteger los datos de los clientes contra el acceso o el uso inadecuados por parte de personas no autorizadas. Entre estas medidas se incluyen restringir el acceso por parte del personal y subcontratistas de Microsoft.
 
@@ -73,8 +73,8 @@ Los Servicios administrados no supervisan ni graban audio, vídeo, multimedia ni
  
 |Categoría|Detalles|Motivo de la consulta|
 | :- | :- | :- |
-|Recopilación y administración de datos continuos|Dirección IP, identidad de la cuenta de sala (Exchange, Skype Empresarial y/o Teams), coordenadas de ubicación, correos electrónicos y comunicación dentro del portal con Microsoft o software|Identificar y conectarse al sistema bajo gestión; identificar, diagnosticar y mitigar errores; realizar un seguimiento del uso, el análisis y la información; estado de conectividad de consulta y reparación|
-|Administración y recopilación de datos ad hoc|Información de registro de eventos, actividad del usuario/identidad del usuario de la sala que ha iniciado sesión en el archivo de registro junto con información de diagnóstico, Windows consultas del sistema (ejemplos: Lista de dispositivos USB, estado de energía, etc.)|Identificar, diagnosticar y mitigar errores y para uso, análisis e información|
+|Recopilación y administración de datos continuos|Dirección IP, identidad de la cuenta de sala (Exchange, Skype for Business y/o Teams), coordenadas de ubicación, correos electrónicos y comunicación en el portal con Microsoft o software|Identificar y conectarse al sistema bajo gestión; identificar, diagnosticar y mitigar errores; realizar un seguimiento del uso, el análisis y la información; estado de conectividad de consulta y reparación|
+|Administración y recopilación de datos ad hoc|Información de registro de eventos, actividad del usuario/identidad del usuario de la sala que ha iniciado sesión en el archivo de registro junto con información de diagnósticos, consultas del sistema de Windows (ejemplos: Lista de dispositivos USB, estado de energía, etc.)|Identificar, diagnosticar y mitigar errores y para uso, análisis e información|
 
 Determinados datos confidenciales del registro Actividad de dispositivo se des menoscaban localmente (no se recopilan mediante servicios administrados):
 
@@ -100,4 +100,4 @@ Servicios administrados proporciona soporte de residencia de datos regional a tr
 
 ## <a name="more-resources"></a>Más recursos
 
-Salas de Microsoft Teams Seguridad:/microsoftteams/rooms/security Declaración de privacidad de Microsoft: https://aka.ms/privacy Administración de datos en Microsoft: https://www.microsoft.com/trust-center/privacy/data-management Descripción del servicio de Servicios administrados: [Microsoft Teams servicio administrado](microsoft-teams-rooms-premium.md) por salas
+Salas de Microsoft Teams Seguridad:/microsoftteams/rooms/security Declaración de privacidad de Microsoft: https://aka.ms/privacy Administración de datos en Microsoft: https://www.microsoft.com/trust-center/privacy/data-management Descripción del servicio De servicios administrados: [Servicio administrado por salas de Microsoft Teams](microsoft-teams-rooms-premium.md)

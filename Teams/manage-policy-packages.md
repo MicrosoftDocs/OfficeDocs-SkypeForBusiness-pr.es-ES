@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: 7ba8f21014f892d2170684a8a4cccdfce21cee91
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 10c7eaad9342d1c005c6290ebc957c3580db3962
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66572169"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270855"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Administrar paquetes de directivas para Microsoft Teams
 
@@ -33,7 +33,7 @@ Un paquete de directivas en Microsoft Teams es una colección de directivas y co
 
 Puede usar los [paquetes de directivas incluidos en Teams](#policy-packages-included-in-teams) o [crear sus propios paquetes de directivas personalizados](#custom-policy-packages).
 
-:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Captura de pantalla de la página Paquetes de directivas en el centro de administración.":::
+:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Captura de pantalla de la página Paquetes de directivas en el centro de administración." lightbox="media/policy-packages-admin-center.png":::
 
 Puede personalizar la configuración de las directivas de un paquete de directivas para adaptarla a las necesidades de los usuarios. Al cambiar la configuración de las directivas de un paquete, todos los usuarios asignados a ese paquete obtienen la configuración actualizada. Puede administrar paquetes de directivas mediante el Centro de administración de Microsoft Teams o PowerShell.
 
@@ -64,14 +64,14 @@ Teams incluye actualmente los siguientes paquetes de directivas.
 |Educación (profesor)    |Crea un conjunto de directivas y configuraciones de directiva que se aplican a los profesores.      |
 |Educación (profesor de escuela primaria usando el aprendizaje remoto)    |Crea un conjunto de directivas que se aplican a los profesores de primaria para maximizar la seguridad y colaboración de los alumnos al usar la formación remota.      |
 |Educación (estudiantes de educación primaria usando el aprendizaje remoto)    |Crea un conjunto de directivas que se aplican a los alumnos de primaria para maximizar la seguridad y colaboración de los alumnos al usar la formación remota.      |
-|Administrador de frontline |Crea un conjunto de directivas y aplica esta configuración a los administradores de primera línea de su organización. |
+|Administrador de primera línea |Crea un conjunto de directivas y aplica esta configuración a los administradores de primera línea de su organización. |
 |Trabajador de primera línea |Crea un conjunto de directivas y aplica esta configuración a los trabajadores de primera línea de su organización. |
 |Trabajador clínico de la sanidad  |Crea un conjunto de directivas y configuraciones de directivas que proporciona a los trabajadores clínicos como los profesionales clínicos registrados, las enfermeras de cargo, los médico y los trabajadores sociales acceso completo al chat, a las llamadas, a la administración de turnos y a las reuniones. |
 |Trabajador de la información sanitaria  |Crea un conjunto de directivas y configuraciones de directivas que dan a los trabajadores de la información como el personal de TI, el personal informático, el personal del departamento financiero y los responsables de cumplimiento normativo, acceso completo a chat, llamadas y reuniones.|
-|Sala de pacientes de cuidado de la salud  |Crea un conjunto de directivas y configuraciones de directivas que se aplican a las salas de pacientes de su organización de cuidados de la salud.|
-|Usuario de pequeñas y medianas empresas (Teams Phone System con paquete de plan de llamadas) |Crea una directiva de configuración de aplicaciones que incluye las aplicaciones para un sistema telefónico de Teams con experiencia de paquete de plan de llamadas.|
-|Usuario de pequeña y mediana empresa (sin Teams Phone System con paquete de plan de llamadas) |Crea una directiva de configuración de aplicaciones relevante para los usuarios de Teams de pequeñas y medianas empresas (que no sean de Teams Phone System con experiencia de paquete de plan de llamadas).
+|Sala de pacientes de cuidado de la salud  |Crea un conjunto de directivas y configuraciones de directivas que se aplican a las salas de pacientes de su organización de cuidados de la salud. |
 |Oficial de seguridad pública   |Crea un conjunto de directivas y configuraciones de directiva que se aplican a los oficiales de seguridad pública de su organización.|
+|Usuario de pequeña y mediana empresa (Business Voice) |Crea una directiva de configuración de aplicaciones que incluye las aplicaciones para una experiencia de voz empresarial para los usuarios.|
+|Usuario de pequeña y mediana empresa (sin Business Voice) |Crea una directiva de configuración de aplicaciones relevante para los usuarios de Teams de pequeñas y medianas empresas sin ninguna función de voz de la empresa.
 
 > [!NOTE]
 > Agregaremos más paquetes de directivas en futuras versiones de Teams, así que vuelva a comprobar la información más actualizada.  
@@ -79,7 +79,7 @@ Teams incluye actualmente los siguientes paquetes de directivas.
 Cada directiva individual se indica con el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas.
 Por ejemplo, al asignar el paquete de directivas Educación (profesor) a profesores de su centro educativo, se crea una directiva denominada Education_Teacher para cada directiva del paquete.
 
-![Captura de pantalla del paquete de directivas educación (profesor).](media/policy-packages-education_teacher.png)
+:::image type="content" source="media/teams-policy-packages-education.png" alt-text="Captura de pantalla del paquete de directivas educación (profesor)." lightbox="media/teams-policy-packages-education.png":::
 
 ## <a name="custom-policy-packages"></a>Paquetes de directivas personalizadas
 
@@ -89,11 +89,11 @@ Para crear un nuevo paquete de directivas personalizado:
 
 1. En el panel izquierdo del Centro de administración de Microsoft Teams, seleccione **Paquetes de directivas** y, a continuación, haga clic en **Agregar**.
 
-    :::image type="content" source="media/policy-packages-add.png" alt-text="Captura de pantalla del botón Agregar en la página Paquetes de directivas del centro de administración.":::
+    :::image type="content" source="media/policy-packages-add.png" alt-text="Captura de pantalla del botón Agregar en la página Paquetes de directivas del centro de administración." lightbox="media/policy-packages-add.png":::
 
 2. Escribe un nombre y una descripción para el paquete.
 
-    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Captura de pantalla que muestra cómo agregar un nuevo paquete de directivas personalizado.":::
+    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Captura de pantalla que muestra cómo agregar un nuevo paquete de directivas personalizado." lightbox="media/policy-packages-add-custom.png":::
 
 3. Selecciona los tipos de directiva y nombres de directiva que se incluirán en el paquete.
 

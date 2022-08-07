@@ -11,15 +11,15 @@ search.appverid: MET150
 description: Obtén información sobre cómo puede utilizar Teams para capacitar al personal de primera línea de tu organización.
 ms.localizationpriority: high
 ms.collection:
-- Teams_ITAdmin_FLW
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d8a3f7378c8f24c0279988d4ef3a457b2e45e9e
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: c4fcfa15bb6aa49ff7d367a614f0aac1ad50ec89
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819545"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268185"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>Introducción a Teams para personal de primera línea
 

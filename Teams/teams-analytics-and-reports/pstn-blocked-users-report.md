@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-voice
 description: Use el informe Usuarios bloqueados de RTC en el Centro de administración de Microsoft Teams para obtener información general sobre los usuarios de Teams de su organización que no pueden realizar llamadas RTC.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d689d2696a20f51e232a581d45032d55da6deb6d
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 8f723a9aca6cc57510aaf526297f60966a27bcda
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794148"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267385"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Informe de usuarios bloqueados de Rtc de Microsoft Teams
 

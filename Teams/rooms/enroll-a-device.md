@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Incorporación Salas de Teams dispositivos a servicios administrados
 f1keywords: ''
-ms.openlocfilehash: 124d301a37fde8802b60f3e59ad5f1a1dd19862c
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: 07fbb2b196c0f74b34dbe2018865181e57aca17b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005440"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272045"
 ---
 # <a name="enroll-device-into-managed-service"></a>Inscribir el dispositivo en un servicio administrado
 

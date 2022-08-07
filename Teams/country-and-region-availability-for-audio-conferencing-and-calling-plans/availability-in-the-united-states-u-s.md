@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Estados Unidos.
-ms.openlocfilehash: e03c9c9a2499822a53aa0dc5d122771fda957488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype for Business y Microsoft Teams disponibles para la Estados Unidos.
+ms.openlocfilehash: 524050f9859f8aa2847ee4706705ec8c95399f15
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620696"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268595"
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilidad en Estados Unidos (EE. UU.)
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Estados Unidos. Vea [Cómo comprar un plan de llamadas](../calling-plans-for-office-365.md) para obtener más información.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype for Business y Microsoft Teams disponibles para la Estados Unidos. Consulte [Cómo comprar un plan de llamadas](../calling-plans-for-office-365.md) para obtener más información.
 
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -59,12 +59,12 @@ Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Team
 
 | **Característica**                                       | **Detalles**                                                                                                                                                                                                                                                                                                                     |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ¿Los planes de llamada están disponibles para la compra?  <br/>   | Sí  <br/>                                                                                                                                                                                                                                                                                                                      |
-| Minutos disponibles para planes de llamadas.              | Hay cuatro opciones de planes disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos (disponibilidad limitada)</li><li>Plan de llamadas nacionales de 240 minutos (disponibilidad limitada)</li></li><li>Plan de llamadas nacionales de 3000 minutos </li></li><li>Plan de llamadas nacionales e internacionales: 3000 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que primero se alcanza durante el mes del calendario)</li></li> |
+|¿Los planes de llamada están disponibles para la compra?  |Sí          |   
+|Minutos disponibles para planes de llamadas.    |Hay cinco opciones de plan disponibles por mes natural: <ul><li>Plan de llamadas de pago por ir </li><li> Plan de llamadas nacionales de 120 minutos </li><li> Plan de llamadas nacionales de 240 minutos </li><li> Plan de llamadas nacionales de 1200 minutos </li><li> Plan de llamadas internacionales: 1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que se alcance primero en el mes natural)</li></ul>|
 | ¿Se pueden realizar llamadas a números premium? <br/> | No se admite en este momento. <br/>                                                                                                                                                                                                                                                                                               |
 | ¿A qué números se pueden hacer llamadas salientes?  <br/>                | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                                                                      |
 > [!Note]
-> Cuando un usuario del Plan de llamadas (nacional o nacional e internacional) de ee. UU. marca un número de teléfono en Canadá, se le tratará como una llamada nacional. Esto también ocurre cuando un usuario de Canadá marca un número de teléfono en EE. UU. Sin embargo, si también usa directivas de plan de llamadas para limitar el acceso telefónico de los usuarios a "nacionales", un usuario de EE. UU. no podrá llamar a Canadá y, del mismo modo, un usuario de Canadá no podrá llamar a un usuario de EE. UU.
+> Cuando un usuario de plan de llamadas (nacional o nacional e internacional) de EE. UU. marca un número de teléfono en Canadá, se trata como una llamada nacional. Este también es el caso cuando un usuario de Canadá marca un número de teléfono en ee. UU. Sin embargo, si también usa directivas de plan de llamadas para limitar la llamada de los usuarios a "solo nacionales", un usuario de EE. UU. no podrá llamar a Canadá y, del mismo modo, un usuario de Canadá no podrá llamar a un usuario de EE. UU.
 
 >[!Note]
 > Las llamadas nacionales de Estados Unidos incluyen llamadas a todos los 50 estados y Puerto Rico. Los usuarios que tienen asignada la ubicación de uso de licencias de Estados Unidos y Puerto Rico comparten el mismo grupo de minutos.

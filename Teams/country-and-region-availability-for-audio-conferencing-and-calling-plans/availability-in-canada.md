@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Canadá.
-ms.openlocfilehash: 034a9655afad69b90c9195dad5f7f7bceeac4cba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype for Business y Microsoft Teams disponibles para Canadá.
+ms.openlocfilehash: c8648fc1eda7bdcc38b87611d11ec5263a89dfb8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593144"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270515"
 ---
 # <a name="availability-in-canada"></a>Disponibilidad en Canadá
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Canadá.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype for Business y Microsoft Teams disponibles para Canadá.
 
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -59,16 +59,16 @@ Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Team
 
 | **Característica**                                        | **Detalles**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ¿Los planes de llamada están disponibles para la compra?  <br/>    | Sí  <br/>                                                                                                                                                                                                                                                                  |
-| Minutos disponibles para planes de llamadas.               | Hay cuatro opciones de planes disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 3000 minutos</li></li><li>Plan de llamadas nacionales e internacionales: 3000 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que primero se alcanza durante el mes del calendario)</li>|
+|¿Los planes de llamada están disponibles para la compra?  |Sí          |   
+|Minutos disponibles para planes de llamadas.    |Hay cinco opciones de plan disponibles por mes natural: <ul><li>Plan de llamadas de pago por ir </li><li> Plan de llamadas nacionales de 120 minutos </li><li> Plan de llamadas nacionales de 240 minutos </li><li> Plan de llamadas nacionales de 1200 minutos </li><li> Plan de llamadas internacionales: 1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que se alcance primero en el mes natural)</li></ul>|
 | ¿Se pueden realizar llamadas a números premium?  <br/> | No se admite en este momento.<br/>                                                                                                                                                                                                                                            |
 | ¿A qué números se pueden hacer llamadas salientes?  <br/>                 | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                  |
 
 > [!Note]
-> Cuando un usuario del Plan de llamadas (nacional o nacional e internacional) de ee. UU. marca un número de teléfono en Canadá, se le tratará como una llamada nacional. Esto también ocurre cuando un usuario de Canadá marca un número de teléfono en EE. UU. Sin embargo, si también usa directivas de plan de llamadas para limitar el acceso telefónico de los usuarios a "nacionales", un usuario de EE. UU. no podrá llamar a Canadá y, del mismo modo, un usuario de Canadá no podrá llamar a un usuario de EE. UU.
+> Cuando un usuario de plan de llamadas (nacional o nacional e internacional) de EE. UU. marca un número de teléfono en Canadá, se trata como una llamada nacional. Este también es el caso cuando un usuario de Canadá marca un número de teléfono en ee. UU. Sin embargo, si también usa directivas de plan de llamadas para limitar la llamada de los usuarios a "solo nacionales", un usuario de EE. UU. no podrá llamar a Canadá y, del mismo modo, un usuario de Canadá no podrá llamar a un usuario de EE. UU.
 
 > [!Note]
-> Las llamadas a EE. UU. se tratan como llamadas nacionales.
+> Las llamadas a ee. UU. se tratan como llamadas nacionales.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 

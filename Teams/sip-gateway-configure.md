@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72fdabd1ba25254876bc3d4506c889d50cbc6613
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: d33573d86f2bcb485f6a7e7cfc550ea1f3184223
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370893"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270495"
 ---
 # <a name="configure-sip-gateway"></a>Configurar puerta de enlace SIP
 
@@ -36,7 +36,7 @@ Antes de que pueda configurar puerta de enlace SIP, haga lo siguiente:
 
 - **Restablecer los dispositivos SIP a la configuración predeterminada de fábrica.** Usted o los usuarios de su organización deben restablecer cada dispositivo SIP que se usa con SIP Gateway a su configuración predeterminada de fábrica. Para saber cómo hacerlo, consulta las instrucciones del fabricante.
 
-- **Abra el firewall para Microsoft 365 y Teams.** Abra el firewall de su red para Microsoft 365 y Teams tráfico como se describe en [Office 365 url e intervalos de direcciones IP](/microsoft-365/enterprise/urls-and-ip-address-ranges). Las reglas de firewall son necesarias solo para el tráfico saliente.
+- **Abra el firewall en Microsoft 365 y Teams.** Abra el firewall de su red para el tráfico de Microsoft 365 y Teams tal y como se describe en [Office 365 URL e intervalos de direcciones IP](/microsoft-365/enterprise/urls-and-ip-address-ranges). Las reglas de firewall son necesarias solo para el tráfico saliente.
 
 - **Asegúrese de que los dispositivos SIP no están detrás de un proxy.** Asegúrese de que el tráfico http/s omite cualquier proxy http/s corporativo.
 
@@ -60,7 +60,6 @@ Antes de que pueda configurar puerta de enlace SIP, haga lo siguiente:
   - https://httpblobsdgnoam.blob.core.windows.net
 
 
-
 Las siguientes secciones describen lo que debe hacer como administrador para configurar la puerta de enlace SIP.
 
 - [Compruebe que puerta de enlace SIP está disponible para su organización](#verify-that-sip-gateway-is-available-for-your-organization).
@@ -73,26 +72,25 @@ En este artículo también se describe cómo:
 
 - [Inscriba dispositivos SIP individualmente o en lotes para su comodidad](#provision-and-enroll-sip-devices-as-common-area-phones).  
 
-
 - [Ver y supervisar los dispositivos SIP.](#view-and-monitor-sip-devices)
 
 - [Habilitar la compatibilidad con una interfaz de usuario multilingüe.](#set-a-sip-devices-ui-language)
 
 ## <a name="verify-that-sip-gateway-is-available-for-your-organization"></a>Compruebe que puerta de enlace SIP está disponible para su organización
 
-1. Inicie sesión en el [centro de administración de Teams](https://admin.teams.microsoft.com/).
+1. Inicie sesión en el [Centro de administración de Teams](https://admin.teams.microsoft.com/).
 
-2. En la parte izquierda, seleccione **Teams dispositivos** y compruebe si la pestaña **Dispositivos SIP** está visible. Si lo está, el servicio puerta de enlace SIP está habilitado para su organización.
+2. A la izquierda, seleccione **Dispositivos de Teams** y compruebe si la pestaña **Dispositivos SIP** está visible. Si lo está, el servicio puerta de enlace SIP está habilitado para su organización.
 
 ## <a name="enable-sip-gateway-for-the-users-in-your-organization"></a>Habilitar puerta de enlace SIP para los usuarios de su organización
 
-Puede habilitar Sip Gateway para su organización de dos maneras: mediante el centro de administración de Teams o mediante un cmdlet de PowerShell.
+Puede habilitar puerta de enlace SIP para su organización de dos maneras: mediante el Centro de administración de Teams o mediante un cmdlet de PowerShell.
 
-### <a name="by-using-teams-admin-center"></a>Mediante el centro de administración de Teams
+### <a name="by-using-teams-admin-center"></a>Mediante el Centro de administración de Teams
 
-Para habilitar puerta de enlace SIP en el centro de administración de Teams, siga estos pasos:
+Para habilitar Puerta de enlace SIP en el Centro de administración de Teams, siga estos pasos:
 
-1. Ir al [Centro de administración de Teams](https://admin.teams.microsoft.com/)
+1. Vaya al [Centro de administración de Teams](https://admin.teams.microsoft.com/)
 
 2. A la izquierda, en **Voz**, seleccione **Directivas de llamada**.
 
@@ -122,7 +120,7 @@ Para cada dispositivo SIP, establezca una de las siguientes direcciones URL del 
 - Américas: `http://noam.ipp.sdg.teams.microsoft.com`
 - APAC: `http://apac.ipp.sdg.teams.microsoft.com`
 
-Agregue dispositivos SIP a su organización Teams configurando la dirección URL del servidor de aprovisionamiento de puerta de enlace SIP anterior en su servidor DHCP. Para obtener más información sobre el servidor DHCP, consulta [Implementar y administrar DHCP](/learn/modules/deploy-manage-dynamic-host-configuration-protocol). Además, puede utilizar la opción 42 de DHCP para especificar el servidor del Network Time Protocol (NTP) y la opción 2 de DHCP para especificar el desplazamiento desde el tiempo universal coordinado (UTC) en segundos. Los dispositivos de su organización se redirigirán al servidor de aprovisionamiento de puerta de enlace SIP. Los teléfonos SIP correctamente aprovisionados mostrarán el logotipo de Teams y un botón suave para iniciar sesión.
+Agregue dispositivos SIP a su organización de Teams configurando la dirección URL del servidor de aprovisionamiento de puerta de enlace SIP anterior en el servidor DHCP. Para obtener más información sobre el servidor DHCP, consulta [Implementar y administrar DHCP](/learn/modules/deploy-manage-dynamic-host-configuration-protocol). Además, puede utilizar la opción 42 de DHCP para especificar el servidor del Network Time Protocol (NTP) y la opción 2 de DHCP para especificar el desplazamiento desde el tiempo universal coordinado (UTC) en segundos. Los dispositivos de su organización se redirigirán al servidor de aprovisionamiento de puerta de enlace SIP. Los teléfonos SIP correctamente aprovisionados mostrarán el logotipo de Teams y un botón suave para iniciar sesión.
 
 Asegúrese de que los dispositivos SIP están en la versión mínima de firmware compatible para la incorporación. Durante la incorporación, puerta de enlace SIP insertará la interfaz de usuario de autenticación y configuración predeterminada al dispositivo. Para averiguar la versión de firmware necesaria para dispositivos SIP, consulte [Planear la puerta de enlace SIP](sip-gateway-plan.md).
 
@@ -134,7 +132,7 @@ Los usuarios que trabajan de forma remota deben configurar manualmente la direcc
 
 2. Abre una ventana del explorador, escribe la dirección IP del dispositivo, inicia sesión (si es necesario) y configura la dirección URL del servidor de aprovisionamiento en la utilidad web del dispositivo.
 
-3. En **Configuración** o **Configuración avanzada** en la utilidad web, introduzca la dirección URL del servidor de aprovisionamiento que se muestra arriba.
+3. En **Configuración** o **Configuración avanzada** de la utilidad web, escribe la dirección URL del servidor de aprovisionamiento que se muestra arriba.
 
 > [!NOTE]
 > - Solo se pueden incorporar dispositivos SIP compatibles a la puerta de enlace SIP. 
@@ -160,18 +158,18 @@ El acceso condicional es una característica de Azure Active Directory (Azure AD
 
 Para obtener más información, vea [Intervalos de direcciones IP](/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
-
 ## <a name="provision-and-enroll-sip-devices-as-common-area-phones"></a>Aprovisionar e inscribir dispositivos SIP como teléfonos de área comunes
+
 > [!NOTE]
 > Un dispositivo SIP debe incorporarse a la puerta de enlace SIP antes de que se pueda inscribir.
 
 Para simplificar las tareas, puede inscribir dispositivos SIP en el centro de administración de Teams de uno en uno o en lotes. A continuación se describe cómo:
 
-1. Inicie sesión en el [**centro de administración de Teams**](https://admin.teams.microsoft.com).
+1. Inicie sesión en el [**Centro de administración de Teams**](https://admin.teams.microsoft.com).
 
-2. Seleccione **Teams dispositivosSIP** > .
+2. Seleccione Dispositivos **SIP para** **dispositivos** >  Teams.
 
-3. En la esquina superior derecha, seleccione **Dispositivos** **ActionsProvision** >  y siga uno de estos pasos:
+3. En la esquina superior derecha, selecciona **Acciones** > **Aprovisionar dispositivos** y sigue uno de estos pasos:
 
   - **Para aprovisionar un dispositivo:**
 
@@ -185,19 +183,19 @@ Para simplificar las tareas, puede inscribir dispositivos SIP en el centro de ad
 
    - **Para aprovisionar muchos dispositivos:**
 
-     a. En **Esperando la activación**, a la derecha, selecciona **Exportar** (el icono de Microsoft Excel).
+     a. En **Esperando la activación**, a la derecha, seleccione **Exportar** (el icono de Microsoft Excel).
      
-     b. En el panel **Aprovisionar dispositivos**, en **Upload varias direcciones MAC**, seleccione **Descargar una plantilla**.
+     b. En el panel **Aprovisionar dispositivos** , en **Cargar varias direcciones MAC**, seleccione **Descargar una plantilla**.
      
      c. Guarde **Template_Provisioning.csv** en el equipo y rellene los campos Id. y **Ubicación** de **MAC**.
     
-     d. En el panel **Aprovisionar dispositivos**, seleccione **Upload varias direcciones MAC**. 
+     d. En el panel **Aprovisionar dispositivos** , seleccione **Cargar varias direcciones MAC**. 
 
-     e. En la parte derecha del panel **Upload direcciones MAC**, seleccione **Seleccionar un archivo** y seleccione el archivo **deTemplate_Provisioning.csv** que contiene los datos.
+     e. En la parte derecha del panel **Cargar direcciones MAC** , seleccione **Seleccionar un archivo** y seleccione el archivo **deTemplate_Provisioning.csv** que contiene los datos.
 
      F. En el panel **Aprovisionar dispositivos** , en **Espera durante la activación**, selecciona un dispositivo y, a continuación, **Generar código de verificación** para generar un código de verificación único para cada dispositivo aprovisionado. Anota el código de verificación de cada dispositivo SIP.
 
-4. En el dispositivo SIP, marque el código de la función de inscripción seguido del código de verificación. En el dispositivo SIP, marque el código \*de la característica de inscripción 55* (usado por SIP Gateway para la validación de código de verificación de una sola vez), seguido del código de verificación que se genera en Teams Centro de administración para este dispositivo en particular. Por ejemplo, si el código de verificación está 123456, marque \*el número 55\* 123456 para inscribir el dispositivo.
+4. En el dispositivo SIP, marque el código de la función de inscripción seguido del código de verificación. En el dispositivo SIP, marque el código \*de característica de inscripción 55* (usado por SIP Gateway para la validación de código de verificación de una sola vez), seguido del código de verificación que se genera en el Centro de Administración de Teams para este dispositivo en particular. Por ejemplo, si el código de verificación está 123456, marque \*el número 55\*123456 para inscribir el dispositivo.
 
 5.  En el panel **Aprovisionar dispositivos** , **en Esperando inicio de sesión**, seleccione **Sesión cerrada**.
 
@@ -205,19 +203,19 @@ Para simplificar las tareas, puede inscribir dispositivos SIP en el centro de ad
 
 7. Ve a [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin)y, en **Escribir código**, escribe el código de emparejamiento del dispositivo SIP y, a continuación, selecciona **Siguiente**.
 
-8. En la página **Inicio de sesión de** Microsoft, en el campo **Correo electrónico o teléfono** , escribe la dirección de correo electrónico del dispositivo SIP y, a continuación, selecciona **Siguiente**.
+8. En la página Inicio de **sesión de** Microsoft, en el campo **Email o teléfono**, escribe la dirección de correo electrónico del dispositivo SIP y, a continuación, selecciona **Siguiente**.
 
 9. En la página **Contraseña** , escriba la contraseña de la dirección de correo electrónico del dispositivo SIP y, a continuación, seleccione **Iniciar sesión**.
 
-10. En la página **¿Está intentando iniciar sesión en Teams puerta de enlace de dispositivos SIP**?, seleccione **Continuar**.
+10. En la página **¿Está intentando iniciar sesión en la puerta de enlace de dispositivos SIP para Teams** ?, seleccione **Continuar**.
 
 ## <a name="how-to-sign-in-and-sign-out"></a>Cómo iniciar y cerrar sesión
 
-Solo se admite el inicio de sesión local en los dispositivos personales de los usuarios. Para cerrar la sesión de un dispositivo desde el Centro de administración, siga estos pasos:
+Solo se admite el inicio de sesión local en los dispositivos personales de los usuarios. Para cerrar la sesión de un dispositivo desde el centro de Administración, sigue estos pasos:
 
-1. Inicie sesión en el [**centro de administración de Teams**](https://admin.teams.microsoft.com).
+1. Inicie sesión en el [**Centro de administración de Teams**](https://admin.teams.microsoft.com).
 
-2. Seleccione **Teams dispositivosSIP** > .
+2. Seleccione Dispositivos **SIP para** **dispositivos** >  Teams.
 
 3. A la derecha, seleccione un dispositivo SIP y, a continuación, seleccione **Cerrar sesión**.
 
@@ -233,7 +231,7 @@ Para emparejar un dispositivo SIP después de que el usuario se autentique con c
 3. Introduzca el código de emparejamiento que se muestra en el teléfono SIP en la aplicación de autenticación web para emparejar el teléfono SIP con la cuenta del usuario. En un inicio de sesión correcto, que puede tardar un rato, el teléfono SIP mostrará el número de teléfono y el nombre de usuario, si el dispositivo lo admite.
 
 > [!NOTE]
-> La ubicación del dispositivo que se muestra en la aplicación de autenticación web Azure Active Directory es el centro de datos de puerta de enlace SIP al que está conectado el dispositivo. Los teléfonos SIP en el ámbito no son compatibles con OAuth, por lo que puerta de enlace SIP autentica al usuario a través de la aplicación de autenticación web y, a continuación, empareja el dispositivo con las credenciales del usuario. Obtenga más información aquí: [Plataforma de identidad de Microsoft y el flujo de autorización de dispositivo de OAuth 2.0](/azure/active-directory/develop/v2-oauth2-device-code).
+> La ubicación del dispositivo que se muestra en la aplicación de autenticación web de Azure Active Directory es el centro de datos de puerta de enlace SIP al que está conectado el dispositivo. Los teléfonos SIP en el ámbito no son compatibles con OAuth, por lo que puerta de enlace SIP autentica al usuario a través de la aplicación de autenticación web y, a continuación, empareja el dispositivo con las credenciales del usuario. Obtenga más información aquí: [Plataforma de identidad de Microsoft y el flujo de autorización de dispositivo de OAuth 2.0](/azure/active-directory/develop/v2-oauth2-device-code).
 
 ### <a name="sign-out"></a>Cerrar sesión
 
@@ -241,11 +239,11 @@ Para cerrar la sesión, un usuario del dispositivo puede:
 
 - Presione **Cerrar sesión** en el dispositivo SIP y siga los pasos descritos en el dispositivo. 
 
-Para cerrar la sesión de un dispositivo en el Teams centro de administración:
+Para cerrar la sesión de un dispositivo en el Centro de administración de Teams:
 
-1. Inicie sesión en el [**centro de administración de Teams**](https://admin.teams.microsoft.com).
+1. Inicie sesión en el [**Centro de administración de Teams**](https://admin.teams.microsoft.com).
 
-2. Seleccione **Teams dispositivosSIP** > .
+2. Seleccione Dispositivos **SIP para** **dispositivos** >  Teams.
 
 3. A la derecha, en el panel **dispositivos SIP** , seleccione el dispositivo.
 
@@ -253,24 +251,24 @@ Para cerrar la sesión de un dispositivo en el Teams centro de administración:
 
 ## <a name="view-and-monitor-sip-devices"></a>Ver y supervisar dispositivos SIP
 
-Puede ver y supervisar el inventario de dispositivos SIP en el centro de administración de Teams después de que los usuarios de los dispositivos inicien sesión al menos una vez. A continuación se describe cómo:
+Puede ver y supervisar el inventario de dispositivos SIP en el Centro de administración de Teams después de que los usuarios de los dispositivos inicien sesión al menos una vez. A continuación se describe cómo:
 
-1. Inicie sesión en el [centro de administración de Teams](https://admin.teams.microsoft.com/).
+1. Inicie sesión en el [Centro de administración de Teams](https://admin.teams.microsoft.com/).
 
-2. Seleccione **Teams dispositivosSIP** > . Todos los dispositivos SIP con sesión iniciada aparecen a la derecha.
+2. Seleccione Dispositivos **SIP para** **dispositivos** >  Teams. Todos los dispositivos SIP con sesión iniciada aparecen a la derecha.
 
 ## <a name="restart-a-sip-device"></a>Reiniciar un dispositivo SIP
 
-1. Inicie sesión en el [centro de administración de Teams](https://admin.teams.microsoft.com).
+1. Inicie sesión en el [Centro de administración de Teams](https://admin.teams.microsoft.com).
 
-2. Seleccione **Teams dispositivosSIP** > . 
+2. Seleccione Dispositivos **SIP para** **dispositivos** >  Teams. 
 
 3. A la derecha, selecciona el dispositivo SIP que quieras reiniciar y, a continuación, selecciona **Reiniciar**.
 
 
 > [!NOTE]
-> - La eliminación de un dispositivo SIP de su espacio empresarial no está disponible actualmente en el centro de administración de Teams. 
-> - La ejecución de comandos depende de la disponibilidad del dispositivo y es posible que no coincida con el estado de ejecución que se muestra en el centro de administración de Teams. Si intenta habilitar la puerta de enlace SIP en un dispositivo que no la admite, el comando no se ejecutará.
+> - La eliminación de un dispositivo SIP de su inquilino no está disponible actualmente en el Centro de administración de Teams. 
+> - La ejecución de comandos depende de la disponibilidad del dispositivo y puede que no coincida con el estado de ejecución que se muestra en el Centro de administración de Teams. Si intenta habilitar la puerta de enlace SIP en un dispositivo que no la admite, el comando no se ejecutará.
 
 ## <a name="sync-policy-changes-to-sip-devices-to-enforce-policies"></a>Sincronizar cambios de directivas en dispositivos SIP para aplicar directivas
 
@@ -308,13 +306,13 @@ Cómo establecer el japonés para los Teléfonos Cisco:
 >   - Cisco CP-6821, CP-7811, CP-7821, CP-7841, CP-7861
 >   - La etiqueta de clave temporal de correo de voz está **codificada de forma** impresa con texto vm en todos los idiomas para Poly VVX debido a una limitación de la longitud de la cadena.
 
-## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams e IPv6
+## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams y IPv6
 
-SIP Gateway solo admite IPv4. Microsoft Teams servicio y cliente admiten IPv4 e IPv6. Si desea controlar las comunicaciones con Microsoft Teams, use los intervalos de direcciones IP de [Microsoft 365 direcciones URL e intervalos de direcciones IP](/microsoft-365/enterprise/urls-and-ip-address-ranges).
+SIP Gateway solo admite IPv4. El servicio y el cliente de Microsoft Teams son compatibles tanto con IPv4 como con IPv6. Si desea controlar las comunicaciones con Microsoft Teams, use los intervalos de direcciones IP de [las direcciones URL e intervalos de direcciones IP de Microsoft 365](/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 ## <a name="emergency-calling"></a>Llamadas de emergencia
 
-La puerta de enlace SIP solo admite direcciones de emergencia estáticas (también denominadas direcciones de emergencia registradas). Actualmente, las direcciones registradas no son compatibles con los escenarios de enrutamiento directo. Para obtener más información sobre las llamadas de emergencia, consulte [Planear y administrar las llamadas de emergencia](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+Sip Gateway admite llamadas de emergencia dinámicas (E911 dinámicas) para dispositivos SIP compatibles que comparten atributos de red a través de la cable. Estos atributos se aprovisionan en el Centro de administración de Teams y pueden ser una combinación de IP local y longitud de subred, o id. de chasis y número de puerto de red. Para los dispositivos que no comparten atributos de ubicación, o si la ubicación no se resuelve dinámicamente por cualquier motivo, SIP Gateway seguirá admitiendo las llamadas de emergencia basadas en direcciones registradas. Actualmente, las direcciones registradas no son compatibles con los escenarios de enrutamiento directo. Para obtener más información sobre las llamadas de emergencia, consulte [Planear y administrar las llamadas de emergencia](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
 
 ## <a name="report-problems-to-microsoft"></a>Informar de problemas a Microsoft
 

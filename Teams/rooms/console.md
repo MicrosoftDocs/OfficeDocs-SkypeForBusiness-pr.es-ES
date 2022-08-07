@@ -12,15 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar la consola de Salas de Microsoft Teams y sus periféricos.
-ms.openlocfilehash: d3c4f534fbd5395c7e0cda8e095b5a6d7a2b8def
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 2a38154ebca1dfae282722fdb64e76389627ca15
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761262"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270115"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Crear una imagen de Salas de Microsoft Teams
 
@@ -29,7 +30,7 @@ En este artículo se describe cómo crear una imagen de Salas de Microsoft Teams
 > [!NOTE]
 > Los pasos siguientes solo deben usarse al crear una [imagen basada en WIM](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) para la implementación masiva. Si estás recuperando dispositivos individuales, ponte en contacto con el fabricante de equipos originales (OEM) para obtener soporte técnico.
 
-Solo debe realizar estos pasos si ya se han creado y probado las Microsoft Teams o Skype Empresarial necesarias y Exchange cuentas, como se describe en [Implementar Salas de Microsoft Teams](rooms-deploy.md). Necesitarás el hardware y el software que se describen en [Salas de Microsoft Teams requisitos](requirements.md). Este tema incluye las secciones siguientes:
+Solo debe realizar estos pasos si ya se han creado y probado las cuentas de Microsoft Teams o Skype for Business y Exchange necesarias, como se describe en [Implementar Salas de Microsoft Teams](rooms-deploy.md). Necesitarás el hardware y el software que se describen en [Salas de Microsoft Teams requisitos](requirements.md). Este tema incluye las secciones siguientes:
   
 - [Preparar los medios de instalación](console.md#Prep_Media)
 - [Instalar un certificado de CA privado en la consola](console.md#Certs)
@@ -62,7 +63,7 @@ La instalación de la aplicación de consola Salas de Microsoft Teams requiere u
 El script de CreateSrsMedia.ps1 automatiza las siguientes tareas:
 
 1. Descargue el instalador msi más reciente para Salas de Microsoft Teams.
-2. Determine la compilación de Windows que el usuario debe proporcionar. Las versiones más recientes pueden o no probarse y admitirse para su uso con Salas de Microsoft Teams dispositivos.
+2. Determina la compilación de Windows que el usuario debe proporcionar. Las versiones más recientes pueden o no probarse y admitirse para su uso con Salas de Microsoft Teams dispositivos.
 3. Descargue los componentes auxiliares necesarios.
 4. Ensamble los componentes necesarios en los medios de instalación.
 
@@ -125,7 +126,7 @@ En Creator's Update, tendrás que usar el script de ApplyCurrentRegionAndLanguag
     
 8. Instalar características de idioma.
     
-9. No active Establecer como idioma para mostrar Windows.
+9. No active Establecer como idioma para mostrar de Windows.
     
 10. Selecciona **Instalar**.
     
@@ -152,22 +153,22 @@ El idioma deseado ahora se aplica a la consola de Salas de Microsoft Teams.
 ## <a name="initial-set-up-of-the-console"></a>Configuración inicial de la consola
 <a name="Initial"> </a>
 
-Después de instalar Windows, la aplicación Salas de Microsoft Teams pasará a su proceso de configuración inicial.
+Después de instalar Windows, la aplicación Salas de Microsoft Teams pasará a su proceso de instalación inicial.
   
-1. Aparece la pantalla Cuenta de usuario. Escriba la dirección de inicio de sesión de la cuenta de Recursos de Microsoft Exchange (en formato de user@domain) de la cuenta de sala que se usará con la consola.
+1. Aparece la pantalla Cuenta de usuario. Escriba la dirección de inicio de sesión de la cuenta de recursos de Microsoft Exchange (en formato de user@domain) de la cuenta de sala que se usará con la consola.
     
 2. Introduzca la contraseña de la cuenta de la sala e introdúzcala una vez más para confirmarla.
    
-3. Seleccione el modo de reunión compatible: Microsoft Teams Solo, solo Skype Empresarial o una de las dos opciones del modo mixto. Si es necesario, habilite la autenticación moderna.
+3. Seleccione el modo de reunión compatible: Solo Microsoft Teams, solo Skype for Business o una de las dos opciones de modo mixto. Si es necesario, habilite la autenticación moderna.
 
 4. Seleccione **Siguiente**.
     
-5. Si el uso de Skype Empresarial y si el dominio SIP Skype Empresarial es diferente del dominio Exchange del usuario, establezca el FQDN para el Skype Empresarial Server en la sección Avanzadas. Si no usa Skype Empresarial o el dominio SIP coincide con el dominio Exchange, deje esta sección en blanco.
+5. Si el uso de Skype for Business y si el Skype for Business dominio SIP es diferente del dominio de Exchange del usuario, establezca el FQDN para el Skype Empresarial Server en la sección Avanzadas. Si no usa Skype for Business o el dominio SIP coincide con el dominio de Exchange, deje esta sección en blanco.
 6. Seleccione **Siguiente**.
     
 7. Selecciona **Finalizar**.
     
-La aplicación Salas de Microsoft Teams debe iniciar sesión en Microsoft Teams o Skype Empresarial Server con las credenciales especificadas anteriormente, y también debe iniciar la sincronización de su calendario con Exchange con esas mismas credenciales. Para obtener más información sobre el uso de Salas de Teams, consulte la [ayuda de Salas de Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+La aplicación Salas de Microsoft Teams debe iniciar sesión en Microsoft Teams o Skype Empresarial Server con las credenciales especificadas anteriormente, y también debería iniciar la sincronización de su calendario con Exchange con esas mismas credenciales. Para obtener más información sobre el uso de Salas de Teams, consulte la [ayuda de Salas de Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
 > Salas de Microsoft Teams se basa en la presencia de hardware de consola certificado. Incluso una imagen creada correctamente que contenga la aplicación de consola Salas de Microsoft Teams no arrancará más allá del procedimiento de configuración inicial, a menos que se detecte el hardware de la consola. Para obtener Surface Pro soluciones basadas en, el Surface Pro debe estar conectado a su hardware de la base de acoplamiento correspondiente para pasar esta comprobación.
@@ -178,9 +179,9 @@ La aplicación Salas de Microsoft Teams debe iniciar sesión en Microsoft Teams 
 ### <a name="install-a-private-ca-certificate-on-the-console"></a>Instalar un certificado de CA privado en la consola
 <a name="Certs"> </a>
 > [!NOTE]
-> Lo siguiente solo se aplica si se conecta Salas de Teams a Skype Empresarial.
+> Lo siguiente solo se aplica si Salas de Teams de conexión a Skype for Business.
 
-Salas de Microsoft Teams debe confiar en los certificados usados por los servidores a los que se conecta. En un caso en el que la entidad emisora de certificados es privada, por ejemplo, una implementación local con Active Directory y la entidad emisora de certificados Windows, puede agregar el certificado a Salas de Microsoft Teams de un par de formas:
+Salas de Microsoft Teams debe confiar en los certificados usados por los servidores a los que se conecta. En un caso en el que la entidad emisora de certificados es privada, por ejemplo, una implementación local con Active Directory y la entidad emisora de certificados de Windows, puede agregar el certificado a Salas de Microsoft Teams de un par de formas:
   
 - Puede unir la consola a Active Directory y esto agregará automáticamente los certificados necesarios, dado que la entidad emisora de certificados se publica en Active Directory (opción de implementación normal).
     
@@ -242,7 +243,7 @@ Usa la siguiente lista de comprobación mientras realizas una comprobación fina
 |Completado |Comprobar |
 |:-----:|:-----|
 |☐   |La versión de firmware del periférico de cámara es correcta (si corresponde).   |
-|☐   |Cámara funcional y colocado de forma óptima   |
+|☐   |Cámara funcional y colocada de forma óptima   |
 |☐   |Configuración del dispositivo de reproducción predeterminado y del dispositivo de comunicaciones predeterminado para la reproducción establecida en el periférico de audio correspondiente.   |
 |☐   |Configuración del dispositivo de comunicaciones predeterminado para la grabación establecida en el periférico de audio correspondiente.   |
 |☐   |La versión de firmware del periférico de audio es correcta (si corresponde).   |

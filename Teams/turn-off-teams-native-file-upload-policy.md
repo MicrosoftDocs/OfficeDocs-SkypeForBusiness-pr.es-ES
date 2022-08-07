@@ -1,5 +1,5 @@
 ---
-title: Desactivar Teams directiva de Upload de archivos nativos
+title: Desactivar la directiva de carga de archivos nativos de Teams
 author: danieasmith
 ms.author: danismith
 manager: serdars
@@ -10,48 +10,47 @@ search.appverid: ''
 description: Obtenga información sobre cómo crear, establecer, asignar y ajustar la directiva de archivos de Teams con PowerShell.
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b6089e93b4754fa35edaa9befb5cfa6bb176238
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 1993371099d0712d21106987f21575e85e181ad7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681911"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268932"
 ---
-# <a name="turn-off-teams-native-file-upload-policy"></a>Desactivar Teams directiva de Upload de archivos nativos
+# <a name="turn-off-teams-native-file-upload-policy"></a>Desactivar la directiva de carga de archivos nativos de Teams
 
 Microsoft Teams usa OneDrive y SharePoint para almacenar y compartir contenido, pero es posible que algunas organizaciones y usuarios prefieran usar proveedores de almacenamiento de terceros.  
 
-Si su organización elige un tercero para el almacenamiento de contenido, debe desactivar el `NativeFileEntryPoints` parámetro en la directiva Archivos Teams. Este parámetro está habilitado de forma predeterminada, lo que muestra la opción de cargar contenido de OneDrive o SharePoint a Teams chats o canales.
+Si su organización elige un tercero para el almacenamiento de contenido, debe desactivar el `NativeFileEntryPoints` parámetro en la directiva Archivos de Teams. Este parámetro está habilitado de forma predeterminada, lo que muestra la opción de cargar contenido de OneDrive o SharePoint en chats o canales de Teams.
 
 Este artículo le ayudará a crear, establecer, asignar y quitar el `NativeFileEntryPoints` parámetro con PowerShell.
 
 >[!NOTE]
 >Cuando la directiva Archivos de Teams está desactivada, los usuarios no verán puntos de acceso para OneDrive y SharePoint en Teams, pero la creación de nuevos equipos y canales seguirá desencadenando la generación de bibliotecas de SharePoint coincidentes.
 
-## <a name="prepare-to-update-the-teams-files-policy"></a>Prepararse para actualizar la directiva Archivos de Teams
+## <a name="prepare-to-update-the-teams-files-policy"></a>Prepararse para actualizar la directiva de archivos de Teams
 
 ### <a name="set-up-microsoft-powershell"></a>Configurar Microsoft PowerShell
 
-Actualmente, esta directiva no se puede cambiar en el centro de administración de Teams. El administrador de inquilinos Microsoft 365 de su organización tendrá que realizar los cambios con los cmdlets de PowerShell que se detallan más adelante en este artículo.
+Actualmente, esta directiva no se puede cambiar en el Centro de administración de Teams. El administrador de inquilinos de Microsoft 365 de su organización tendrá que realizar los cambios con los cmdlets de PowerShell que se detallan más adelante en este artículo.
 
-Para obtener información sobre cómo instalar el módulo de Teams de PowerShell con Galería de PowerShell, lea [Instalar Microsoft Teams módulo de PowerShell](teams-powershell-install.md).
+Obtenga información sobre cómo instalar el módulo de PowerShell Teams con Galería de PowerShell en [Instalar módulo de PowerShell de Microsoft Teams](teams-powershell-install.md).
 
-Para instalar o descargar el módulo de PowerShell Teams, vea [Galería de PowerShell para obtener Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0).
+Para instalar o descargar el módulo de PowerShell de Teams, consulte [Galería de PowerShell para Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0).
 
-Para obtener más información sobre cómo configurar PowerShell para la administración de Teams, vea [Administrar Teams con Microsoft Teams PowerShell](teams-powershell-managing-teams.md).
+Para obtener más información sobre cómo configurar PowerShell para la administración de Teams, consulte [Administrar Teams con Microsoft Teams PowerShell](teams-powershell-managing-teams.md).
 
-### <a name="allow-third-party-apps-in-teams-admin-center"></a>Permitir aplicaciones de terceros en el Centro de Teams Administración
+### <a name="allow-third-party-apps-in-teams-admin-center"></a>Permitir aplicaciones de terceros en el Centro de Administración de Teams
 
-Este paso no es necesario para cambiar la directiva de archivos de Teams, pero es necesario cuando esté listo para integrar su proveedor de almacenamiento de terceros en la experiencia Teams de los usuarios.
+Este paso no es necesario para cambiar la directiva archivos de Teams, pero es necesario cuando esté listo para integrar su proveedor de almacenamiento de terceros en la experiencia de los usuarios de Teams.
 
-El administrador de inquilinos de Microsoft 365 deberá habilitar la directiva "Permitir aplicaciones de terceros" en el centro de administración de Teams.
+El administrador de inquilinos de Microsoft 365 deberá habilitar la directiva "Permitir aplicaciones de terceros" en el Centro de administración de Teams.
 
-Para obtener información sobre cómo permitir aplicaciones personalizadas o de terceros, consulte Administrar la configuración de aplicaciones para toda la organización en [Administrar las aplicaciones en el centro de administración de Microsoft Teams](/microsoftteams/manage-apps#manage-org-wide-app-settings).
+Para obtener información sobre cómo permitir aplicaciones personalizadas o de terceros, consulte Administrar la configuración de aplicaciones para toda la organización en [Administrar las aplicaciones en el Centro de administración de Microsoft Teams](/microsoftteams/manage-apps#manage-org-wide-app-settings).
 
 ## <a name="turn-off-nativefileentrypoints-for-your-entire-tenant"></a>Desactivar NativeFileEntryPoints para todo el espacio empresarial
 
@@ -67,7 +66,7 @@ Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
 
 ### <a name="check-the-status-of-your-tenant"></a>Comprobar el estado de su inquilino  
 
-Para ver el estado actual de la directiva archivos Teams de su inquilino, use el `Get-CsTeamsFilesPolicy` cmdlet.
+Para ver el estado actual de la directiva de archivos de Teams de su inquilino, use el `Get-CsTeamsFilesPolicy` cmdlet.
 
 ```powershell
 Get-CsTeamsFilesPolicy -Identity Global
@@ -87,7 +86,7 @@ Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
 
 ### <a name="remove-the-policy-for-your-users"></a>Quitar la directiva de los usuarios
 
-Para quitar la directiva Archivos Teams para los usuarios, use el `Remove-CsTeamsFilesPolicy` cmdlet.
+Para quitar la directiva Archivos de Teams para sus usuarios, use el `Remove-CsTeamsFilesPolicy` cmdlet.
 
 ```powershell
 Remove-CsTeamsFilesPolicy -Identity Global
@@ -95,7 +94,7 @@ Remove-CsTeamsFilesPolicy -Identity Global
 
 ## <a name="turn-off-nativefileentrypoints-for-specific-users"></a>Desactivar NativeFileEntryPoints para usuarios específicos
 
-También puede actualizar la directiva Archivos Teams para usuarios específicos creando una nueva cadena de directiva `-Identity` Archivos Teams y asignando la directiva recién creada a los usuarios.
+También puede actualizar la directiva Archivos de Teams para usuarios específicos creando una nueva cadena de directiva `-Identity` Archivos de Teams y asignando la directiva recién creada a los usuarios.
 
 ### <a name="sample-powershell-policy-cmdlet-for-specific-users"></a>Ejemplo de cmdlet de directiva de PowerShell para usuarios específicos
 
@@ -117,7 +116,7 @@ Grant-CsTeamsFilesPolicy  -identity "user email id" -PolicyName UserPolicy
 
 ### <a name="update-the-policy"></a>Actualizar la directiva
 
-Si necesita cambiar la configuración de la nueva directiva `UserPolicy`de archivos Teams , use el `Set-CsTeamsFilePolicy` cmdlet.
+Si necesita cambiar la configuración de la nueva directiva `UserPolicy`de archivos de Teams, use el `Set-CsTeamsFilePolicy` cmdlet.
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
@@ -125,10 +124,10 @@ Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
 
 ### <a name="remove-the-policy-for-the-complete-list-of-users"></a>Quitar la directiva de la lista completa de usuarios
 
-Para quitar la directiva de todos los usuarios asignados a la directiva `UserPolicy`Archivos Teams , use el `Remove-CsTeamsFilesPolicy` cmdlet.
+Para quitar la directiva de todos los usuarios asignados a la directiva `UserPolicy`Archivos de Teams, use el `Remove-CsTeamsFilesPolicy` cmdlet.
 
 ```powershell
 Remove-CsTeamsFilesPolicy -Identity UserPolicy
 ```
 >[!NOTE]
-> Una vez que haya realizado cambios en la directiva, espere hasta 12 horas para que los cambios se muestren en los clientes Teams de los usuarios.
+> Una vez que haya realizado cambios en la directiva, deje que los cambios se muestren en los clientes de Teams de los usuarios hasta 12 horas.

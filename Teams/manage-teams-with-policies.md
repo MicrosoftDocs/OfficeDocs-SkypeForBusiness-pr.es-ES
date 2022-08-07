@@ -10,17 +10,16 @@ search.appverid: ''
 description: Conozca las directivas de Teams.
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b56e617321cea25fe677b7d9a7a00afba0940b07
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: acaa1280e00ad2e86a49c2bbd8e7f4464bd0c0e7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156538"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268765"
 ---
 # <a name="manage-teams-with-policies"></a>Administrar Teams con directivas
 
@@ -34,7 +33,7 @@ Las directivas se usan para realizar muchas tareas de su organización en difere
 
 Las directivas se pueden asignar de varias maneras diferentes dependiendo de lo que su organización intenta lograr. Puede realizar y ver tareas en el Centro de administración de Teams.
 
-![Captura de pantalla de asignación de directiva de grupo.](media/group-policy-assignment.png)
+:::image type="content" source="media/group-policy-assignment.png" alt-text="Captura de pantalla de la asignación de directivas de grupo de Teams." lightbox="media/group-policy-assignment.png":::
 
 Obtenga más información sobre cómo asignar directivas [aquí](policy-assignment-overview.md).
 
@@ -47,17 +46,17 @@ Las directivas se administran con el Centro de administración de Microsoft Team
 
 Por ejemplo, una directiva de configuración de aplicaciones puede permitirle a los usuarios cargar aplicaciones personalizadas, instalar aplicaciones en nombre de los usuarios y anclar aplicaciones a la barra de aplicaciones de Teams. Estas directivas se configuran en el Centro de administración de Teams.
 
-![Captura de pantalla de la directiva de configuración de aplicaciones.](media/app-setup-policy.png)
+:::image type="content" source="media/app-setup-policy.png" alt-text="Captura de pantalla de la directiva de configuración de aplicaciones." lightbox="media/app-setup-policy.png":::
 
 Además, se puede usar una directiva de reunión para controlar la configuración de audio y vídeo en las reuniones de Teams, como las transcripciones, las grabaciones en la nube y el audio/vídeo IP.
 
-![Captura de pantalla de la directiva de reunión.](media/engineering-meeting-policy.png)
+:::image type="content" source="media/engineering-meeting-policy.png" alt-text="Captura de pantalla de la directiva de reunión." lightbox="media/engineering-meeting-policy.png":::
 
 ### <a name="teams-for-education"></a>Teams para el ámbito educativo
 
 También puede usar el [asistente para directivas de Teams para Educación](easy-policy-setup-edu.md) para configurar y administrar fácilmente directivas para su entorno de aprendizaje.
 
-![Captura de pantalla del Asistente para directivas de Teams para Educación.](media/easy-policy-setup-quick-setup.png)
+:::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Captura de pantalla del Asistente para directivas de Teams para Educación." lightbox="media/easy-policy-setup-quick-setup.png":::
 
 ## <a name="types-of-policies"></a>Tipos de directivas
 

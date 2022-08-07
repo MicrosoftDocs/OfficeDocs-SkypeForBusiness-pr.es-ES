@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga información sobre si audioconferencia, sistema telefónico, planes de llamadas, créditos de comunicaciones y números de teléfono gratuitos y de pago están disponibles en un país o región.
-ms.openlocfilehash: 7693ae0421d186d1ac230d48bf4df2369aa4e3f8
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 0bc0013f27e890e56224dcc1c645afbaf94b699a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682469"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269185"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
@@ -161,7 +161,7 @@ Puede seleccionar un país o una región para ver las características de voz en
 
 ***
 
-Una vez que haya comprobado si uno de los servicios de Skype Empresarial o Microsoft Teams está disponible, puede ver [Skype Empresarial y licencias complementarias de Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para ayudarle a comprar licencias y asignarlas a los usuarios.
+Una vez que haya comprobado si uno de los servicios de Skype for Business o Microsoft Teams está disponible, puede ver [Skype for Business y licencias complementarias de Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para ayudarle a comprar licencias y asignarlas a los usuarios.
 
 > [!NOTE]
 >
@@ -171,7 +171,7 @@ Una vez que haya comprobado si uno de los servicios de Skype Empresarial o Micro
 
 ### <a name="audio-conferencing"></a>Audioconferencia
 
-En algunas ocasiones, en su organización se necesitará un teléfono para llamar a una reunión. Skype Empresarial y Microsoft Teams incluyen la característica Audioconferencia para esta situación. Las personas pueden llamar a las reuniones con un teléfono en lugar de hacerlo con las aplicaciones de Skype Empresarial y Microsoft Teams en un dispositivo móvil o PC. Cuando haya decidido que quiere realizar Audioconferencia para su organización, compre una licencia de **Audioconferencia** para cada persona de su organización que vaya a programar u hospedar una reunión de audio.
+En algunas ocasiones, en su organización se necesitará un teléfono para llamar a una reunión. Skype for Business y Microsoft Teams incluyen la característica Audioconferencia para esta situación. Las personas pueden llamar a las reuniones con un teléfono en lugar de hacerlo con las aplicaciones de Skype Empresarial y Microsoft Teams en un dispositivo móvil o PC. Cuando haya decidido que quiere realizar Audioconferencia para su organización, compre una licencia de **Audioconferencia** para cada persona de su organización que vaya a programar u hospedar una reunión de audio.
   
 Con audioconferencia, hay números de teléfono gratuitos y de pago que pueden usar los usuarios para llamar a las reuniones. Los números de pago de los siguientes países o regiones se asignan automáticamente a las organizaciones como números de audioconferencia compartidos cuando este servicio está habilitado. Los números de pago y gratuitos dedicados se pueden asignar a su organización desde ciudades adicionales.
 
@@ -193,7 +193,7 @@ Puedes llamar desde una reunión a otro país o región del mundo que no se mues
   
 ### <a name="phone-system"></a>Sistema telefónico
 
-Con Sistema telefónico, puede crear operadores automáticos y colas de llamadas (con un número de pago o gratuito) para responder a las llamadas entrantes de su organización. Al agregar un plan de llamadas para los usuarios, estos pueden usar Skype Empresarial para ocuparse de las tareas básicas de control de llamadas, como realizar y recibir llamadas, transferir llamadas y silenciar y reactivar el audio de las llamadas. Los usuarios del **sistema telefónico** hacen clic en un nombre de su libreta de direcciones y Skype Empresarial realizarán una llamada a esa persona. Para realizar y recibir llamadas, los usuarios del **sistema telefónico** usan sus dispositivos móviles, auriculares con un portátil o PC o uno de los muchos teléfonos IP que funcionan con Skype Empresarial.
+Con Sistema telefónico, puede crear operadores automáticos y colas de llamadas (con un número de pago o gratuito) para responder a las llamadas entrantes de su organización. Al agregar un plan de llamadas para los usuarios, pueden usar Skype for Business para ocuparse de las tareas básicas de control de llamadas, como realizar y recibir llamadas, transferir llamadas y silenciar y reactivar el audio de las llamadas. Los usuarios del **sistema telefónico** hacen clic en un nombre de su libreta de direcciones y Skype for Business realizarán una llamada a esa persona. Para realizar y recibir llamadas, los usuarios del **sistema telefónico** usan sus dispositivos móviles, auriculares con un portátil o PC o uno de los muchos teléfonos IP que funcionan con Skype for Business.
 
 La disponibilidad de números de teléfono de pago en algunas de estas ubicaciones puede variar en cualquier momento, según los niveles de inventario. Además de obtener números de teléfono para usuarios individuales, también es posible buscar y adquirir números de teléfono de pago o gratuitos para servicios como audioconferencia (para puentes de conferencia), operadores automáticos y colas de llamadas. Son los llamados números de servicio. Vea [Recepción de números de teléfono de servicio](../getting-service-phone-numbers.md) para obtener números de teléfono. Pero, para sus usuarios, después de asignarles un Plan de llamadas, puede asignar un número de teléfono de usuario para que puedan hacer y recibir llamadas de teléfono. Para encontrar estos números de teléfono, vaya a [Obtener números de teléfono para los usuarios](../getting-phone-numbers-for-your-users.md). También puede consultar [Asignar, cambiar o quitar un número de teléfono para un usuario](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
@@ -206,6 +206,11 @@ Con la lista desplegable situada en la parte superior de la página, busque un p
 
 ### <a name="calling-plans"></a>Planes de llamadas
 
+|Característica     |Detalles  |
+|----------|-----------|
+|¿Los planes de llamada están disponibles para la compra?  |Sí          |   
+|Minutos disponibles para planes de llamadas.    |Hay cinco opciones de plan disponibles por mes natural: <ul><li>Plan de llamadas de pago por ir </li><li> Plan de llamadas nacionales de 120 minutos </li><li> Plan de llamadas nacionales de 240 minutos </li><li> Plan de llamadas nacionales de 1200 minutos </li><li> Plan de llamadas internacionales: 1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que se alcance primero en el mes natural)</li></ul>|
+
 Al igual que sucede con Sistema telefónico, con Planes de llamada los usuarios pueden hacer y recibir llamadas telefónicas. Primero se obtiene un número de teléfono de usuario (suscriptor) (no un número de servicio) para asignar al usuario y, a continuación, se le asigna un plan de llamadas. Hay dos tipos de planes de llamada disponibles: **nacionales** e **internacionales**. Para obtener más información, vea [Sistema telefónico y planes de llamadas](../calling-plan-landing-page.md).
 
 También puede ver [Sistema telefónico y planes de llamadas](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para obtener información sobre las licencias.
@@ -217,7 +222,7 @@ También puede ver [Sistema telefónico y planes de llamadas](../teams-add-on-li
 
 Además de obtener números de teléfono para usuarios individuales, también es posible buscar y adquirir números de teléfono de pago o gratuitos para servicios como Audioconferencia (para puentes de conferencia), operadores automáticos y colas de llamadas. Son los llamados números de servicio.
   
-A continuación se muestra una lista de las capitales y las ciudades más importantes en las que puede conseguir números de servicio de pago que se pueden usar con Audioconferencia y Planes de llamada. Puede obtener números de servicio de pago desde estas ubicaciones mediante el **centro de administración de Skype Empresarial**.
+A continuación se muestra una lista de las capitales y las ciudades más importantes en las que puede conseguir números de servicio de pago que se pueden usar con Audioconferencia y Planes de llamada. Puede obtener números de servicio de pago desde estas ubicaciones mediante el **centro de administración de Skype for Business**.
   
 Si quieres obtener un número de servicio de pago o gratuito, puedes ver [Obtener números de teléfono de servicio](../getting-service-phone-numbers.md). Si ya tiene un número de servicio de pago o gratuito que quiere transferir de otro proveedor, consulte [Administrar los números de teléfono de su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 

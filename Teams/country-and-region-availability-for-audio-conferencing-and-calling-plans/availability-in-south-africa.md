@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Sudáfrica.
-ms.openlocfilehash: 7c56d5bb6fd8ee3449b110b21b00000eda9dac55
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype for Business y Microsoft Teams disponibles para Sudáfrica.
+ms.openlocfilehash: 34b45b9cbff9808d94aaeb44611565c6666b46a5
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070579"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270995"
 ---
 # <a name="availability-in-south-africa"></a>Disponibilidad en Sudáfrica
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para Sudáfrica.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype for Business y Microsoft Teams disponibles para Sudáfrica.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -59,12 +59,12 @@ Estos son los Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Team
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
-|Minutos disponibles para planes de llamadas. |Hay cuatro opciones de planes disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 1200 minutos </li></li><li>Plan de llamadas nacionales e internacionales: 1200 minutos de llamadas nacionales -O- 600 minutos de llamadas internacionales (lo que se alcance primero en el mes calendario)</li></li></ul>|
+|¿Los planes de llamada están disponibles para la compra?  |Sí          |   
+|Minutos disponibles para planes de llamadas.    |Hay cinco opciones de plan disponibles por mes natural: <ul><li>Plan de llamadas de pago por ir </li><li> Plan de llamadas nacionales de 120 minutos </li><li> Plan de llamadas nacionales de 240 minutos </li><li> Plan de llamadas nacionales de 1200 minutos </li><li> Plan de llamadas internacionales: 1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que se alcance primero en el mes natural)</li></ul>|
 |¿Se pueden realizar llamadas a números premium?  <br/> | No se admite en este momento. <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países o regiones, [incluidos estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 
-Si los planes de llamadas no están disponibles para la compra, consulte [Opciones de conectividad RTC](../pstn-connectivity.md) para todas las opciones disponibles.
+Si los planes de llamadas no están disponibles para comprar, consulte [Opciones de conectividad RTC](../pstn-connectivity.md) para todas las opciones disponibles.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 

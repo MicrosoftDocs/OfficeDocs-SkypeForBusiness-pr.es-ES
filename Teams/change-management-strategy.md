@@ -15,12 +15,14 @@ description: Cree una estrategia de administración de cambios para Microsoft Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 589294402d093afef8686dd7a376f0d88d7025cb
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: f9ed4b0a2ac694b13054818f53bcf64a628d4dd3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562379"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268791"
 ---
 # <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Crear una estrategia de administración de cambios para Microsoft Teams
 
@@ -149,4 +151,4 @@ Obtenga más información sobre los informes de uso de Microsoft Teams en la Cen
 
 Impulsar cambios en una organización no es un hecho puntual, sino una actividad continua. La reunión de puesta en marcha es solo el principio del proceso de facilitación de los recursos que necesitan las personas para colaborar con mayor eficacia. Es importante planear momentos en este viaje que resalten sus éxitos, introduzcan nuevas características y se conecten con su estrategia general de servicio de Microsoft 365 o Office 365, que elaborará su departamento de TI. Asegúrese de que sus usuarios están involucrados en el proyecto y no desbordados para reducir los signos de fatiga frente al cambio y apoyarles a la hora de dejar atrás antiguos hábitos, como el envío de datos adjuntos por correo electrónico, para adoptar algo nuevo, como el almacenamiento de documentos en la nube.
 
-Comparta sus preguntas sobre la adopción del servicio de Teams y Microsoft 365 o Office 365 en la [comunidad Impulsor de la adopción](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) en el sitio de la Comunidad técnica de Microsoft. Estamos siempre deseando conocer su opinión y ayudarle en su proceso de adopción.
+Comparta sus preguntas sobre la adopción del servicio de Teams y Microsoft 365 o Office 365 en la [comunidad Impulsor de la adopción](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) en el sitio Microsoft Technical Community. Estamos siempre deseando conocer su opinión y ayudarle en su proceso de adopción.

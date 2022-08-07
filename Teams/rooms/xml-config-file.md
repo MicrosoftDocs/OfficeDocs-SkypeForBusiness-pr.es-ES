@@ -13,15 +13,16 @@ ms.localizationpriority: medium
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.custom:
 - seo-marvel-mar2020
 description: Administración remota de la configuración predeterminada usada por un dispositivo Salas de Microsoft Teams, incluida la aplicación de un tema personalizado y la creación de un archivo de configuración maestra.
-ms.openlocfilehash: b31c6519c04070c644d297071b07cc75c7dfc0f6
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: df9cc718ddcedb9745807dadd70c8e1a78748c6f
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005350"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272105"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar de forma remota una configuración de consola de Salas de Microsoft Teams con un archivo de configuración XML
 
@@ -162,7 +163,7 @@ Si un valor de variable es del tipo incorrecto, los elementos están fuera de or
 | `<GreenComponent>`                          | Byte (0-255)                |                | Representa el componente de color verde.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | `<BlueComponent>`                           | Byte (0-255)                |                | Representa el componente de color azul.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | `<CoordinatedMeetings>`                     | &#x2777; booleano            | Primera &#x2776; | Contenedor de los elementos de configuración de Reuniones coordinadas. Este elemento tiene un atributo:<ul><li><b>Habilitado</b> Determina si Teams está configurado para participar en reuniones coordinadas con otros dispositivos.</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| `<TrustedAccounts>`                         | String                      |                | Esta es una lista de UPN separados por comas para cada dispositivo de sala de Teams o Surface Hub desde la que el dispositivo debe aceptar convocatorias de unión a una reunión, o a la que se deben enviar convocatorias de unión a la reunión.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `<TrustedAccounts>`                         | String                      |                | Esta es una lista de UPN separados por comas para cada dispositivo Salas de Teams o Surface Hub desde el que el dispositivo debe aceptar convocatorias de unión a una reunión, o a la que se deben enviar convocatorias de unión a una reunión.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | `<Settings>`                                | Contenedor                   |                | Contenedor para los elementos de configuración de audio y vídeo de la configuración de reuniones coordinadas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | `<Audio>`                                   | &#x2777; booleano            |                | Controla la configuración de audio en un dispositivo Salas de Teams. Este elemento tiene dos atributos:<br><ul><li><b>Predeterminado</b> Determina en qué dispositivo estará activo el micrófono cuando se inicie una reunión. Solo un dispositivo (normalmente un dispositivo de Salas de Teams) puede tener este campo establecido`true`, mientras que el resto de los dispositivos deben tener este campo configurado para `false` evitar el eco de audio y los comentarios.</li><li><b>Habilitado</b> Determina si los participantes de una reunión pueden activar o desactivar el micrófono. Los dispositivos en los que el **valor predeterminado de Audio** esté establecido `false` deberían tener esta configuración establecida para `false` que los participantes no puedan activar accidentalmente un micrófono y generar eco de audio o comentarios.<p>Si **audio predeterminado** está establecido en `true`, la configuración **de Audio habilitado** se ignora y los participantes pueden silenciar o reactivar el micrófono.</li></ul>                        |
 | `<Video>`                                   | &#x2777; booleano            |                | Controla la configuración de vídeo en un dispositivo Salas de Teams. Este elemento tiene dos atributos:<br><ul><li><b>Predeterminado</b> Determina en qué dispositivo estará activa la cámara cuando se inicie una reunión. Para obtener la mejor experiencia, recomendamos que solo se establezca `true` el dispositivo Salas de Teams mientras que el resto de dispositivos estén establecidos en `false`.</li><li><b>Habilitado</b> Determina si los participantes de una reunión pueden activar o desactivar la cámara. Puedes establecerlo `true` en cualquier otro dispositivo del evento en el que los participantes quieran compartir diferentes perspectivas del vídeo (por ejemplo, si un participante usa la pizarra interactiva de Surface Hub). Si no desea que los participantes activen o desactiven una cámara en un dispositivo, establezca esta opción `false`en .<p> Si **el valor predeterminado de Vídeo** es `true`, se ignora la configuración **habilitada para vídeo** y los participantes pueden activar o desactivar la cámara.</li></ul> |
@@ -194,7 +195,7 @@ Puede utilizar el método que desee, siempre que pueda usarlo para transferir ar
   
 ## <a name="supported-meeting-modes-app-version-49"></a>Modos de reunión compatibles Versión 4.9 de la aplicación
 
-**Skype Empresarial (predeterminado) y Microsoft Teams**
+**Skype for Business (predeterminado) y Microsoft Teams**
 
 | Notación XML                | Valor XML      |
 |----------------------------|---------------|
@@ -202,7 +203,7 @@ Puede utilizar el método que desee, siempre que pueda usarlo para transferir ar
 | `<SfbMeetingEnabled>`        |   True         |
 | `<IsTeamsDefaultClient>`     |   Falso        |
 
-**Skype Empresarial y Microsoft Teams (predeterminado)**
+**Skype for Business y Microsoft Teams (predeterminado)**
 
 | Notación XML                | Valor XML      |
 |----------------------------|---------------|
@@ -229,14 +230,14 @@ Puede utilizar el método que desee, siempre que pueda usarlo para transferir ar
 
 ## <a name="supported-meeting-modes-app-version-48-or-lower"></a>Modos de reunión compatibles Versión 4.8 o inferior de la aplicación
 
-**Skype Empresarial (predeterminado) y Microsoft Teams**
+**Skype for Business (predeterminado) y Microsoft Teams**
 
 | Notación XML                | Valor XML      |
 |----------------------------|---------------|
 |  `<TeamsMeetingsEnabled>`     |   Verdadero         |
 |  `<IsTeamsDefaultClient>`     |   Falso        |
 
-**Skype Empresarial y Microsoft Teams (predeterminado)**
+**Skype for Business y Microsoft Teams (predeterminado)**
 
 | Notación XML                | Valor XML      |
 |----------------------------|---------------|
@@ -286,7 +287,7 @@ La fila frontal está habilitada de forma predeterminada. Desactive Fila frontal
 
 Para establecer la escala y la resolución de las pantallas frontales, agregue `<EnableResolutionAndScalingSetting>true</EnableResolutionAndScalingSetting>` al archivo de configuración XML con el `<MainFoRDisplay>` contenedor. Si el dispositivo usa pantallas duales, incluye `<ExtendedFoRDisplay>` también el contenedor. 
 
-Si usa tanto contenedores como `<MainFoRDisplay>` `<ExtendedFoRDisplay>` contenedores juntos para su sala de Teams con una sola pantalla, el `<ExtendedFoRDisplay>` contenedor se omitirá. Consulte el ejemplo XML y la tabla de elementos anterior para obtener más información.
+Si usa tanto contenedores como `<MainFoRDisplay>` `<ExtendedFoRDisplay>` contenedores juntos para el Salas de Teams con una sola visualización, el `<ExtendedFoRDisplay>` contenedor se omitirá. Consulte el ejemplo XML y la tabla de elementos anterior para obtener más información.
 
 ## <a name="see-also"></a>Vea también
 

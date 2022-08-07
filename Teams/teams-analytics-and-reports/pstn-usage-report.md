@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-voice
 description: Obtenga información sobre cómo usar el informe de uso de RTC de Teams en el Centro de administración de Microsoft Teams para obtener información general sobre el uso de llamadas y audioconferencias en su organización.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15c14e05c1f283971b4882cf3f6e8d3758a2d8ba
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 1539f679225334f71855300a54c4fba950ddd8f8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023777"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267635"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Informe de uso de RTC de Microsoft Teams
 
@@ -136,7 +136,7 @@ La primera fila del CSV contiene los nombres de columna. Todas las fechas son UT
 > | 2 | Id. de conferencia | `nvarchar(64)` | Id. de la audioconferencia |
 > | 3 | Ubicación del usuario | `nvarchar(2)` | Código de país del usuario, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 4 | AAD ObjectId | `uniqueidentifier` | Llamar al identificador de usuario en Azure Active Directory.<br/> Esta y otra información de usuario serán nulas o vacías para los tipos de llamadas de bot (ucap_in, ucap_out) |
-> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (nombre de inicio de sesión) en Azure Active Directory.<br/>Normalmente es la misma que la dirección SIP del usuario y puede ser la misma que la dirección de correo electrónico del usuario. |
+> | 5 | Upn | `nvarchar(128)` | UserPrincipalName (nombre de inicio de sesión) en Azure Active Directory.<br/>Normalmente es la misma que la dirección SIP del usuario y puede ser la misma que la dirección de correo electrónico del usuario. |
 > | 6 | Nombre para mostrar de usuario | `nvarchar(128)` | Nombre para mostrar del usuario |
 > | 7 | Identificador de llamada | `nvarchar(128)` | Número que ha recibido la llamada de llamadas entrantes o el número marcado para las llamadas salientes. [Formato E.164](https://en.wikipedia.org/wiki/E.164) |
 > | 8 | Tipo de llamada | `nvarchar(32)` | Si la llamada era una llamada RTC de salida o entrante y el tipo de llamada como, por ejemplo, una llamada realizada por un usuario o una audioconferencia |
@@ -161,7 +161,7 @@ Puede exportar datos hasta cinco meses (150 días) desde la fecha actual, a meno
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | CorrelationId | `uniqueidentifier` | Identificador de llamada. Varias piernas de la misma llamada pueden compartir el mismo CorrelationId |
 > | 1 | AAD ObjectId | `uniqueidentifier` | Llamar al identificador de usuario en Azure Active Directory.<br/> Esta y otra información de usuario pueden ser nulas o vacías para los tipos de llamadas de bot |
-> | 2 | UPN | `nvarchar(128)` | UserPrincipalName (nombre de inicio de sesión, Azure Active Directory) del usuario o bot que realizó o recibió la llamada.<br/>Normalmente es la misma que la dirección SIP del usuario y puede ser la misma que la dirección de correo electrónico del usuario. |
+> | 2 | Upn | `nvarchar(128)` | UserPrincipalName (nombre de inicio de sesión, Azure Active Directory) del usuario o bot que realizó o recibió la llamada.<br/>Normalmente es la misma que la dirección SIP del usuario y puede ser la misma que la dirección de correo electrónico del usuario. |
 > | 3 | Nombre para mostrar | `nvarchar(128)` | El nombre de un usuario o un bot de llamadas (por ejemplo, cola de llamadas o operador automático) tal y como se establece en Centro de administración de Microsoft 365 |
 > | 4 | País de usuario | `nvarchar(2)` | Código de país del usuario, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 5 | Hora de invitación | `datetimeoffset` | Cuando la invitación inicial se envía de salida desde un usuario de Teams o una llamada bot a la SBC, o se recibe en una llamada entrante a Teams o llamada de bot por el componente de proxy SIP de Enrutamiento directo desde el SBC |

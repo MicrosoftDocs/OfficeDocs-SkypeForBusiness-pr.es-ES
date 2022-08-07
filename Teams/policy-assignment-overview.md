@@ -18,12 +18,12 @@ description: Aprenda las diferentes formas de asignar directivas y paquetes de d
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 3dec8bf23167c5166302942140fcfe49e9ea3720
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: e7cf7ba085c7bad22fea4b14f79b9eb3d4e6e2aa
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156518"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268425"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Asignar directivas en Teams: introducción
 
@@ -83,9 +83,9 @@ Siga estos pasos para establecer las directivas globales (predeterminadas para t
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la página de directivas para el tipo de directiva que desea actualizar. Por ejemplo,**directivas** de **Teams** >  teams,**directivas de reuniones**, **directivas de mensajería** o **directivas** >  de **llamadas** de **voz** > .
 2. Seleccione la **directiva Global (predeterminada para toda** la organización) para ver la configuración actual.
-3. Actualice la directiva según sea necesario y, después, seleccione **Aplicar**.
+3. Actualice la directiva según sea necesario y, a continuación, seleccione **Guardar**.
 
-![Actualizar la directiva global en el Centro de administración de Teams.](media/assign-globalpolicy.png)
+:::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Captura de pantalla que muestra la directiva global de actualización en el Centro de administración de Teams." lightbox="media/teams-meetings-policies-global-expanded.png":::
 
 ### <a name="using-powershell"></a>Con PowerShell
 
@@ -125,7 +125,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 Al asignar directivas a usuarios en el Centro de administración de Microsoft Teams, puede ver el estado de esas asignaciones de directivas en el [registro de actividades](https://admin.teams.microsoft.com/activitylog). El registro de actividad muestra información de carga de registros de red, operaciones de directivas de grupo desde el Centro de administración de Teams y PowerShell, y operaciones de directivas de lotes (para más de 20 usuarios) desde el Centro de administración de Teams durante los últimos 30 días.
 
-![Captura de pantalla de la página del registro de actividades.](media/Activity_Log.png)
+:::image type="content" source="media/teams-activity-log.png" alt-text="Captura de pantalla de la página del registro de actividades." lightbox="media/Activity_Log.png":::
 
 Para ver las operaciones de directivas en el registro de actividades:
 

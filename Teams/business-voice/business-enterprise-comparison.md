@@ -7,20 +7,18 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.localizationpriority: high
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
 description: Obtenga información sobre cuáles son las diferencias entre Microsoft 365 Enterprise Voice y Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88310047ab763631091b8b0efa72ff0c2997fb39
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 6761248bb476ebd8b6d64b9d1b9cbb5717cd81a6
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630314"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271065"
 ---
 # <a name="whats-the-difference-between-business-voice-and-enterprise-voice"></a>¿Cuál es la diferencia entre la Telefonía IP empresarial y Business Voice?
 

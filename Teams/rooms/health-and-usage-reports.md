@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Creación de informes de datos de nodo para el mantenimiento y el uso de informes
 f1keywords: ''
-ms.openlocfilehash: f3c8ceec383d801c5992b0e8275cfe5360ef5bfe
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 87a04860a69799bf00492691dc24498076bd4924
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674822"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271435"
 ---
 # <a name="health-and-usage-reports"></a>Informes de mantenimiento y uso
 
@@ -109,7 +109,7 @@ La vista de impacto de la reunión muestra las reuniones programadas durante las
 
 <!--![A screenshot of a Reports meeting impact](../media/health-and-usage-015.png)-->
 
-La pestaña Configuración muestra los metadatos de la sala, como la información de hardware, la configuración del dispositivo, la información del BIOS, la configuración de la aplicación y la ubicación.
+La pestaña Configuración muestra los metadatos de la sala, como la información de hardware, la configuración del dispositivo, la información del BIOS, la configuración de las aplicaciones y la ubicación.
 
 ## <a name="usage"></a>Uso
 
@@ -132,7 +132,7 @@ Debajo de las métricas de títulos hay una tabla de salas con las métricas cor
 |Columna|Descripción|
 |---|---|
 |Utilización|Porcentaje de tiempo que la sala se reservó durante el horario laboral en el período seleccionado. Por ejemplo. Período de tiempo establecido en 7 días. Utilización del 80% sobre los medios que la sala se reservó durante 32/40 horas|
-|Reservado en línea|De las reuniones reservadas, el porcentaje se ha habilitado con Teams. Por ejemplo. Se han reservado 10 reuniones. De ese número, 8 tenían un vínculo Teams. Reservado en línea = 80%|
+|Reservado en línea|De las reuniones reservadas, el porcentaje se ha habilitado con Teams. Por ejemplo. Se han reservado 10 reuniones. De ese número, 8 tenían un vínculo de Teams. Reservado en línea = 80%|
 |Reuniones programadas|Número absoluto de reuniones programadas en la sala|
 |Total de llamadas|Número absoluto de llamadas con la sala como participante.|
 Rendimiento de llamadas|Porcentaje de llamadas con una calificación "Buena". Cada llamada se evalúa y recibe una calificación Buena, Mala y Desconocida. Esta métrica se calcula a partir de Llamadas buenas/Llamadas totales.|
@@ -141,11 +141,11 @@ El uso se calcula al final de cada día a medianoche (00:00) hora local del disp
 
 ## <a name="usage-details-of-a-room"></a>Detalles de uso de una sala
 
-Al hacer clic en una sala de la vista de lista, se muestra un control flotante con información más detallada. En la pestaña Utilización del control flotante hay un gráfico que muestra las horas de uso de los últimos cinco días laborables. Para cada día hay dos barras: azul representa la hora de reunión reservada; el color púrpura representa la hora programada de las reuniones habilitadas para Teams/Skype. En la parte inferior, se calculan el promedio de reservas de reuniones y la duración de los últimos cinco días laborables.
+Al hacer clic en una sala de la vista de lista, se muestra un control flotante con información más detallada. En la pestaña Utilización del control flotante hay un gráfico que muestra las horas de uso de los últimos cinco días laborables. Para cada día hay dos barras: azul representa la hora de reunión reservada; púrpura representa la hora programada de las reuniones habilitadas para Teams o Skype. En la parte inferior, se calculan el promedio de reservas de reuniones y la duración de los últimos cinco días laborables.
 
 <!--![A screenshot of utilization by hours per day](../media/health-and-usage-012.png)-->
 
-La tabla **Llamadas** muestra las reuniones en las que la sala ha participado en una llamada Teams. La Calidad de audio de la sala se evalúa solo para la sala, no para todos los participantes. Para ver la calidad de la llamada para todos los participantes de una llamada específica, seleccione una llamada haciendo clic en la Hora de inicio.
+La tabla **Llamadas** muestra las reuniones en las que la sala ha participado en una llamada de Teams. La Calidad de audio de la sala se evalúa solo para la sala, no para todos los participantes. Para ver la calidad de la llamada para todos los participantes de una llamada específica, seleccione una llamada haciendo clic en la Hora de inicio.
 
 <!--!![A screenshot of room audio quality](../media/health-and-usage-016.png)-->
 

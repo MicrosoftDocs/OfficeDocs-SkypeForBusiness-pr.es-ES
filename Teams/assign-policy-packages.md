@@ -14,51 +14,49 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtén información sobre las diferentes formas de asignar paquetes de directivas a usuarios y grupos de Microsoft Teams.
+description: Obtenga información sobre las diferentes formas de asignar paquetes de directivas a usuarios y grupos en Microsoft Teams.
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 48391db005ca7d40081c0aeb22f71be58fcc9f9f
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: cd6cbaab900ce1e9e5f4a2bd19731573c66ab7eb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646529"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272055"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>Asignar paquetes de directivas a usuarios y grupos
 
-En este artículo se revisan las diferentes formas de asignar paquetes de directivas a usuarios y grupos de Microsoft Teams. Antes de leer, asegúrese de que ha leído [Asignar directivas en Teams : introducción](policy-assignment-overview.md).
+En este artículo se revisan las diferentes formas de asignar paquetes de directivas a usuarios y grupos en Microsoft Teams. Antes de leer, asegúrese de que ha leído [Asignar directivas en Teams: introducción](policy-assignment-overview.md).
 
 > [!NOTE]
 > Cada usuario necesitará el complemento de Comunicaciones avanzadas para recibir una tarea de paquete personalizado de directiva. Para más información, consulte [Complemento de Comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## <a name="assign-a-policy-package-to-users"></a>Asignar un paquete de directiva a los usuarios
 
-Un paquete de directivas de Teams es una colección de directivas predefinidas y configuraciones de directiva que puede asignar a los usuarios que tienen los mismos roles o similares en su organización. Cada paquete de directivas está diseñado en torno a un rol de usuario e incluye directivas predefinidas y configuraciones de directiva que admiten actividades típicas para ese rol. Algunos ejemplos de paquetes de directivas son el paquete de educación (profesor) y el paquete de atención médica (trabajador clínico). Para obtener más información, consulta [Administrar paquetes de directivas en Teams](manage-policy-packages.md).
+Un paquete de directivas en Teams es una colección de directivas predefinidas y configuraciones de directiva que puede asignar a los usuarios que tienen los mismos roles o similares en su organización. Cada paquete de directivas está diseñado en torno a un rol de usuario e incluye directivas predefinidas y configuraciones de directiva que admiten actividades típicas para ese rol. Algunos ejemplos de paquetes de directivas son el paquete de educación (profesor) y el paquete de atención médica (trabajador clínico). Para obtener más información, consulte [Administrar paquetes de directivas en Teams](manage-policy-packages.md).
 
 ### <a name="assign-a-policy-package-to-one-user"></a>Asignar un paquete de directivas a un usuario
 
-1. En el panel de navegación izquierdo del Microsoft Teams centro de administración, vaya a **Usuarios** y, después, seleccione el usuario.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Usuarios** y seleccione el usuario.
 
 2. En la página del usuario, selecciona **Directivas** y, a continuación, junto a **Paquete de directivas**, selecciona **Editar**.
 
-3. En el panel **Asignar paquete de directivas** , selecciona el paquete que quieras asignar y, a continuación, selecciona **Guardar**.
+3. En el panel **Asignar paquete de directiva** , selecciona el paquete que quieras asignar y, a continuación, selecciona **Aplicar**.
 
-![Teams captura de pantalla del centro de administración de la asignación de paquetes de directivas a un usuario.](media/assign-policypackages-user.png)
+    :::image type="content" source="media/assign-policy-package-one-user.png" alt-text="Captura de pantalla que muestra el Centro de administración de Teams para la asignación de paquetes de directivas a un usuario." lightbox="media/assign-policy-package-one-user-expanded.png":::
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>Asignar un paquete de directiva a varios usuarios
 
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, ve a **Paquetes** de directivas y, a continuación, selecciona el paquete de directivas que quieras asignar haciendo clic a la izquierda del nombre del paquete.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Paquetes** de directivas y, a continuación, seleccione el paquete de directivas que quiera asignar haciendo clic a la izquierda del nombre del paquete.
 
 2. Seleccione **Administrar usuarios**.
 
 3. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 
-4. Cuando termine de agregar usuarios, seleccione **Guardar**.
+4. Cuando termine de agregar usuarios, seleccione **Aplicar**.
 
-
-![Teams captura de pantalla del Centro de administración para la asignación de paquetes de directivas a varios usuarios.](media/assign-policypackages-multipleusers.png)
-
+    :::image type="content" source="media/assign-policy-package-multiple-users.png" alt-text="Captura de pantalla que muestra la asignación del paquete de directivas del Centro de administración de Teams a varios usuarios." lightbox="media/assign-policy-package-multiple-users-expanded.png":::
 
 ## <a name="assign-a-policy-package-to-a-group"></a>Asignar un paquete de directivas a un grupo
 
@@ -73,13 +71,11 @@ Al asignar el paquete de directivas, se asigna inmediatamente al grupo. Sin emba
 
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>Asignar un paquete de directivas a un grupo de usuarios en el centro de administración
 
-1. Inicie la sesión en el Centro de administración de Teams
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la página **Paquetes de directivas** .
 
-2. En el panel de navegación izquierdo, ve a la página del paquete de directivas.
+2. Seleccione la pestaña **Agrupar asignación de paquete** .
 
-3. Seleccione la pestaña Asignación de directiva de grupo.
-
-4. Selecciona **Agregar grupo** y, a continuación, en el panel Asignar un paquete de directiva a grupo, haz lo siguiente:
+3. Selecciona **Agregar** y, a continuación, en el panel **Asignar paquete de directivas a un grupo** , haz lo siguiente:
 
     1. Busque y agregue el grupo al que desea asignar el paquete de directivas.
 
@@ -89,18 +85,17 @@ Al asignar el paquete de directivas, se asigna inmediatamente al grupo. Sin emba
 
     1. Seleccione **Aplicar**.
 
+       :::image type="content" source="media/assign-policy-package-group.png" alt-text="Captura de pantalla de Asignar un paquete de directiva a un panel de grupo." lightbox="media/assign-policy-package-group-expanded.png":::
 
-       ![muestra la asignación de directiva de grupo.](media/group-pkg-assignment.png)
+4. Para administrar la clasificación de un tipo de directiva específico, vaya a la página de directiva específica.
 
-5. Para administrar la clasificación de un tipo de directiva específico, vaya a la página de directiva específica.
-
-6. Para reasignar un paquete de directivas a un grupo, quite primero la asignación de directiva de grupo. A continuación, siga los pasos anteriores para asignar el paquete de directivas a un grupo.
+5. Para reasignar un paquete de directivas a un grupo, quite primero la asignación de directiva de grupo. A continuación, siga los pasos anteriores para asignar el paquete de directivas a un grupo.
 
 ### <a name="work-with-powershell"></a>Trabajar con PowerShell
 
-#### <a name="get-the-teams-powershell-module"></a>Obtener el módulo de PowerShell Teams
+#### <a name="get-the-teams-powershell-module"></a>Obtener el módulo de PowerShell de Teams
 
-Para obtener instrucciones detalladas, vea [Instalar Teams PowerShell](teams-powershell-install.md).
+Para obtener instrucciones detalladas, consulte [Instalar PowerShell de Teams](teams-powershell-install.md).
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>Asignar un paquete de directivas a un grupo de usuarios
 
@@ -120,7 +115,7 @@ Especifique los usuarios por su id. de objeto o dirección SIP (Protocolo de ini
 
 Un lote contiene hasta 5000 usuarios. Para obtener los mejores resultados, no envíe más de unos pocos lotes a la vez. Permita que los lotes completen el procesamiento antes de enviar más lotes.
 
-### <a name="use-the-teams-powershell-module"></a>Usar el módulo Teams PowerShell
+### <a name="use-the-teams-powershell-module"></a>Usar el módulo de PowerShell de Teams
 
 Ejecute lo siguiente para instalar el [módulo Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (si aún no lo ha hecho). Asegúrate de instalar la versión 1.0.5 o posterior.
 
@@ -128,7 +123,7 @@ Ejecute lo siguiente para instalar el [módulo Microsoft Teams PowerShell](https
 Install-Module -Name MicrosoftTeams
 ```
 
-Ejecuta lo siguiente para conectarte a Teams e iniciar una sesión.
+Ejecute lo siguiente para conectarse a Teams e iniciar una sesión.
 
 ```powershell
 Connect-MicrosoftTeams

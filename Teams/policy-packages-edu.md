@@ -10,8 +10,6 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
-- Teams_ITAdmin_RemoteWorkers
 - remotework
 appliesto:
 - Microsoft Teams
@@ -21,12 +19,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: Más información sobre las directivas en una configuración educativa o EDU, y cómo usar y administrar paquetes de directivas en Microsoft Teams.
-ms.openlocfilehash: ce2c3a93d524ce9e08c3e97dd51ef8c6f19d9111
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: e8ed5cd25020dd04ebf0baf281d7a105c2380f8d
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62363006"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268405"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Directivas de Teams y paquetes de directivas para educación
 
@@ -129,7 +127,7 @@ Al igual que en la lista de directivas citada anteriormente en este artículo, l
 - Reuniones
 - Eventos en directo
 - Llamadas
-- Mensajería 
+- Mensajería 
 - Permisos de aplicación
 
 Microsoft Teams actualmente incluye los siguientes paquetes de directiva:

@@ -15,16 +15,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Use el informe Enrutamiento directo de RTC del Panel de calidad de llamadas (CQD) de Microsoft Teams para supervisar y solucionar problemas de llamadas RTC en Microsoft Teams.
-ms.openlocfilehash: 8d6e971adc3cd7e4ec9b4038356e744d4451146f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7b7205658358cfa3aa90824718c03731fa33a534
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789895"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270715"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Usar el informe enrutamiento directo de RTC del CQD
 
-Nuevo en marzo de 2020, hemos agregado un informe del Panel de calidad de llamadas (CQD) de Microsoft Teams a nuestras plantillas de consulta descargables de [Power BI para el CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+El informe Enrutamiento directo de RTC del Panel de calidad de llamadas (CQD) de Microsoft Teams está disponible en nuestras plantillas de consulta descargables de [Power BI para el CQD](https://www.microsoft.com/download/details.aspx?id=102291). 
 
 
 El informe Enrutamiento directo de RTC del CQD (Informe de enrutamiento directo de RTC.pbit) le ayuda a comprender los patrones de uso y la calidad de los servicios RTC. Use este informe para supervisar el uso del servicio, información sobre el controlador de borde de sesión (SBC), el servicio de telefonía, los parámetros de red y los detalles de la relación de eficacia de la red. Esta información puede ayudarle a identificar problemas, incluido el motivo de las llamadas caídas. Por ejemplo, podrás ver cuándo se baja el volumen o cuántas llamadas se ven afectadas y por qué.

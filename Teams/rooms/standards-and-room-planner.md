@@ -1,5 +1,5 @@
 ---
-title: Salas de Microsoft Teams estándares y planificación de sala
+title: Estándares Salas de Microsoft Teams y planificación de salas
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
@@ -10,114 +10,114 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Cree y resalte estándares basados en recomendaciones inteligentes de su entorno.
+description: Cree y adapte estándares basados en recomendaciones inteligentes de su entorno.
 f1keywords: ''
-ms.openlocfilehash: 978975bdd4ed02f248cf0a36d88109d2e281b8d4
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 05376b7c40131be54291961a7562faa6566e8e89
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711542"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271965"
 ---
-# <a name="standards-and-room-planner"></a>Estándares y planificador de sala
+# <a name="standards-and-room-planner"></a>Normas y planificador de salas
 
-Con las recomendaciones inteligentes de su entorno, puede crear y seleccionar estándares. A continuación, puede publicar sus estándares en una región, sitio, edificio o una sala de reuniones específica para compartir salas planeadas con asociados para realizar un seguimiento de las implementaciones de salas.
+Con las recomendaciones inteligentes de su entorno, puede crear y ajustar los estándares. Después, puede publicar los estándares en una región, sitio, edificio o sala de reuniones específica para compartir salas planeadas con los asociados para realizar un seguimiento de las implementaciones de salas.
 
 ## <a name="view-meeting-room-types"></a>Ver tipos de salas de reuniones
 
-En esta página, puede ver los tipos de espacio de salas o reuniones de su organización. Una rápida ruptura de cuántos estándares tiene para salas de reuniones, cuántos nuevos dispositivos se han detectado y número de dispositivos que requieren una acción que realizar.
+En esta página, puede ver los tipos de espacio de sala o reunión de su organización. Un breve resumen de cuántos estándares tiene para las salas de reuniones, cuántos dispositivos nuevos se han detectado y el número de dispositivos que requieren que se realice una acción.
 
-Esta página también tiene una barra de comandos desde la que puede iniciar el flujo de trabajo Crear un flujo de trabajo estándar o ir  **a** Dispositivos detectados, Cambiar registros y Archivar.
+Esta página también tiene una barra de comandos desde la que puede iniciar  **Crear un** flujo de trabajo estándar o ir a Dispositivos detectados, Cambiar registros y Archivar.
 
 ![Captura de pantalla de la página principal para crear estándares](../media/standards-and-room-planner-001.png)
 ### <a name="create-standards"></a>Crear estándares
 
-Use el **flujo de trabajo Crear** estándar para crear un estándar.
+Use **el flujo de trabajo Crear estándar** para crear un estándar.
 
-![Captura de pantalla de Detalles generales de estándares](../media/standards-and-room-planner-001.png)
+![Captura de pantalla de detalles generales de estándares](../media/standards-and-room-planner-001.png)
 
 **Para iniciar el flujo de trabajo**
 
-1. Seleccione **Crear un estándar MTR** y, a continuación, proporcione detalles generales, como el nombre y la descripción del estándar.
+1. Selecciona **Crear un estándar MTR** y, a continuación, proporciona detalles generales, como el nombre y la descripción del estándar.
 
-   ![Captura de pantalla de Estándares seleccionar Sala de reuniones tipo](../media/standards-and-room-planner-002.png)
+   ![Captura de pantalla de Seleccionar tipo de salón de reunión de Estándares](../media/standards-and-room-planner-002.png)
 
 1. Seleccione el tipo de sala de reuniones para este estándar.
 
-   ![Captura de pantalla de Estándares Seleccionar dispositivos recomendados](../media/standards-and-room-planner-003.png)
+   ![Captura de pantalla de Dispositivos recomendados para seleccionar estándares](../media/standards-and-room-planner-003.png)
 
-1. Seleccione una de las Teams de sala certificadas recomendadas en el inventario de hardware. La lista varía según el tipo de salón seleccionado en el paso anterior.
+1. Seleccione una de las plantillas de salas certificadas de Teams recomendadas en el inventario de hardware. La lista varía según el tipo de salón seleccionado en el paso anterior.
 
-   ![Captura de pantalla de Seleccionar los M.M.M. estándar](../media/standards-and-room-planner-004.png)
+   ![Captura de pantalla de Seleccionar los MTR estándar](../media/standards-and-room-planner-004.png)
 
 
-1. Revise la información estándar de MTR.
+1. Revise la información estándar MTR.
 
    ![Captura de pantalla de Revisión de estándares antes de publicar](../media/standards-and-room-planner-005.png)
 
-1. Publique los estándares en una región, sitio, edificio o una sala de reuniones específica.
+1. Publique los estándares en una región, sitio, edificio o sala de reuniones específica.
 
    ![Captura de pantalla de lugares para publicar los estándares.](../media/standards-and-room-planner-006.png)
 
-Una vez publicados, los estándares se usan con fines de planificación.
+Una vez publicados, los estándares se utilizan con fines de planificación.
 
-![Captura de pantalla del estándar publicado correctamente'](../media/standards-and-room-planner-008.png)
+![Captura de pantalla de estándar publicado correctamente](../media/standards-and-room-planner-008.png)
 ### <a name="discovered-devices"></a>Dispositivos detectados
 
-En Estándares, seleccione **Dispositivos detectados** para ver todos los dispositivos detectados no estándar de su organización.
+En Estándares, selecciona **Dispositivos detectados** para ver todos los dispositivos detectados no estándar de tu organización.
 
 
-Puede realizar acciones para revisar y crear estándares a partir de estos dispositivos detectados en su inventario.
+Puedes tomar medidas para revisar y crear estándares a partir de estos dispositivos detectados en el inventario.
 
 ![Captura de pantalla de revisión y creación de estándares](../media/standards-and-room-planner-009.png)
 
-## <a name="room-planning"></a>Planificación de sala
+## <a name="room-planning"></a>Planificación de salas
 
-Planee salas con estándares para la expansión de reuniones con el **Asistente para el planificador de** salas.
+Planee salas con estándares para la expansión de reuniones con el asistente de **planificador** de salas.
 
-Para iniciar el planificador de sala con una experiencia guiada:
+Para iniciar el planificador de salas con experiencia guiada:
 
-1. En el panel de navegación izquierdo, seleccione Inventario y, a continuación, **elija Planear salas**.
+1. En el panel de navegación izquierdo, seleccione Inventario y, después, elija **Planear salas**.
 
-   ![Captura de pantalla del Inventario para la planificación de sala](../media/standards-and-room-planner-010.png)
+   ![Captura de pantalla del inventario para la planificación de salas](../media/standards-and-room-planner-010.png)
 
-1. Agregue salas al planificador desde el directorio de ubicación.
+1. Agregue salas al planificador desde el directorio de ubicaciones.
 
    ![Captura de pantalla de selección de sala para estándares](../media/standards-and-room-planner-011.png)
 
 1. Establezca las preferencias de asignación de estándares de la siguiente manera:
 
-   - Si tiene un partner de planificación registrado, puede seleccionar Hacer que mi **partner asigne la mejor solución para todas estas salas**. Esta opción hace que el partner seleccione la mejor solución local para su cliente.
+   - Si tiene un partner de planificación registrado, puede seleccionar **Hacer que mi partner asigne la mejor solución para todos estos salones**. Esta opción hace que el partner seleccione la mejor solución localmente encontrada para su cliente.
 
-   - Si planea la expansión de reuniones internamente, seleccione El administrador de la organización asignará la mejor solución para todas las salas con los estándares **de la organización**. Los estándares se asignan automáticamente a partir de lo aprobado y publicado por la organización en la vista Estándares.
+   - Si planea la expansión de las reuniones dentro de la empresa, seleccione **Administrador de la organización asignará la mejor solución para todas las salas con los estándares de la organización**. Los estándares se asignan automáticamente a partir de lo que ha aprobado y publicado la organización en la vista Estándares.
 
 1. Seleccione **El administrador de la organización asignará la mejor solución...**
 
-   ![Captura de pantalla de las opciones del método de planeación de sala](../media/standards-and-room-planner-012.png)
+   ![Captura de pantalla de las opciones de métodos de planificación de salas](../media/standards-and-room-planner-012.png)
 
-Puede asignar estándares en masa a varios salas.
+Puede asignar estándares en masa a varias salas.
 
-1. Compruebe varias salas debajo **de Nombre de la sala**.
+1. Compruebe varias salas debajo de **Nombre de la sala**.
 
-   ![Captura de pantalla de varios planes de salas](../media/standards-and-room-planner-013.png)
+   ![Captura de pantalla de varias salas planeando](../media/standards-and-room-planner-013.png)
 
-   ![Captura de pantalla de una tarea en masa](../media/standards-and-room-planner-014.png)
+   ![Captura de pantalla de una asignación masiva](../media/standards-and-room-planner-014.png)
 
-Si tiene más de un estándar disponible para una ubicación, región o sitio, seleccione un estándar de la lista  Asignación estándar para asignarlo a una sala de reuniones que se muestra debajo del **nombre del salón**.
+Si tiene más de un estándar disponible para una ubicación, región o sitio, seleccione un estándar de la lista **Tareas estándar** para asignarlo a una sala de reuniones debajo de **Nombre de la sala**.
 
 ![Captura de pantalla de asignación de estándares a salas](../media/standards-and-room-planner-015.png)
 
-Revise las tareas estándar y finalice el plan. Puede imprimir el plan en PDF para compartirlo con los partners.
+Revise las tareas estándar y finalice el plan. Puede imprimir el plan en PDF para compartirlo con los asociados.
 
-![Captura de pantalla de los planes de salas completados](../media/standards-and-room-planner-016.png)
+![Captura de pantalla de los planes de Salas completados](../media/standards-and-room-planner-016.png)
 
 ## <a name="access-control"></a>Control de acceso
 
-El asistente para el planificador de sala está habilitado de forma predeterminada para el rol administrador del servicio administrado. Para clientes y todos los demás roles integrados, establezca los permisos para la administración de inventario en **la pestaña Permisos** .
+El asistente del planificador de salas está habilitado de forma predeterminada para el rol Administrador de servicios administrados. Para el cliente y el resto de los roles integrados, establezca los permisos para La administración del inventario en la pestaña **Permisos** .
 
 ![Interfaz gráfica de usuario, texto, aplicación, descripción de correo electrónico](../media/standards-and-room-planner-017.png)

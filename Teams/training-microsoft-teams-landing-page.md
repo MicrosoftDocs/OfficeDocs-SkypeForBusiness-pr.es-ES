@@ -11,7 +11,6 @@ ms.service: msteams
 ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 - remotework
 search.appverid: MET150
 f1.keywords:
@@ -19,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: badd5df4e48892bbb22264f23072618c6c2f1eb8
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: b67c1b9500ad5df959831e17a183cb61ca3ed8a1
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606089"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271455"
 ---
 # <a name="microsoft-teams-training"></a>Aprendizaje de Microsoft Teams
 

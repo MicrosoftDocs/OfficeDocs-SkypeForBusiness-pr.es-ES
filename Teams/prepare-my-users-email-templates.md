@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Use plantillas para enviar correos electrónicos a los usuarios a medida que implementa las capacidades de voz en la nube en Teams o Skype Empresarial.
+description: Use plantillas para enviar correos electrónicos a los usuarios a medida que implementa las capacidades de voz en la nube en Teams o Skype for Business.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +16,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 515dcd3438db958eb09554671ad1fd28195c720d
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 8a3591ea6787fe118399d4f5045465ca88a7b209
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794578"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268395"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar la adopción por parte del usuario de su nuevo sistema telefónico en línea
 
 Un teléfono puede ser la línea de vida de un usuario. Cambiar de un sistema telefónico tradicional a un sistema telefónico en línea representa un cambio significativo en la forma de trabajar de los usuarios y puede afectar negativamente a la productividad. Tomarse tiempo para informar, guiar y ayudar a los usuarios a través de este cambio puede ayudar a garantizar una experiencia de usuario positiva y maximizar el retorno de la inversión.
 
-Este artículo contiene plantillas de correo electrónico personalizables para ayudar a informar a los usuarios sobre su nuevo sistema telefónico. Personalice y envíe los correos electrónicos adecuados para alinearlos con su implementación de voz específica. Hemos usado corchetes para indicar secciones para facilitar la personalización, pero le recomendamos que agregue mensajería específica de la organización para que el anuncio sea más relevante para los usuarios. Si se aplica a la implementación, reemplace todas las referencias a "Teams" por "Skype Empresarial".
+Este artículo contiene plantillas de correo electrónico personalizables para ayudar a informar a los usuarios sobre su nuevo sistema telefónico. Personalice y envíe los correos electrónicos adecuados para alinearlos con su implementación de voz específica. Hemos usado corchetes para indicar secciones para facilitar la personalización, pero le recomendamos que agregue mensajería específica de la organización para que el anuncio sea más relevante para los usuarios. Si se aplica a la implementación, reemplace todas las referencias a "Teams" por "Skype for Business".
 
 ## <a name="email-number-1-send-three-weeks-before-launch"></a>Email número 1: Enviar tres semanas antes del lanzamiento
 

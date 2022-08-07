@@ -7,7 +7,6 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 - m365initiative-migratetom365
 search.appverid: MET150
@@ -18,12 +17,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Instrucciones detalladas para migrar de Slack a Microsoft Teams.
-ms.openlocfilehash: d0fe795ac5cbf0ab4781ac2a90f79da53bef5833
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: fbcd47f894445595534bf6a88d21f7372268d983
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563938"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268755"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migración de Slack a Microsoft Teams
 

@@ -10,29 +10,28 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo se usan las etiquetas en su organización en Microsoft Teams.
-ms.openlocfilehash: 146b8fa36eccb446921c87dd98aa3af44458ba00
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: bdb4fcbdd4c4d197dcdc778b9c15130071ad37fc
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563718"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267955"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Administrar etiquetas en Microsoft Teams
 
 ## <a name="overview"></a>Información general
 
-Las etiquetas de Microsoft Teams permiten a los usuarios conectarse rápida y fácilmente con un subconjunto de personas de un equipo. Puede crear y asignar etiquetas personalizadas para clasificar personas en función de atributos, como rol, proyecto, aptitud o ubicación. O bien, las etiquetas se pueden asignar automáticamente a las personas en función de su información de horario y [turnos en la aplicación Turnos](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts). Después de agregar una etiqueta a uno o varios miembros del equipo, puede usarla en @mentions cualquier persona del equipo en una publicación de canal o para iniciar una conversación solo con aquellas personas a las que se les haya asignado esa etiqueta.
+Las etiquetas de Microsoft Teams permiten a los usuarios conectarse rápida y fácilmente con un subconjunto de personas de un equipo. Puede crear y asignar etiquetas personalizadas para clasificar personas en función de atributos, como rol, proyecto, aptitud o ubicación. O bien, las etiquetas se pueden asignar automáticamente a las personas en función de su información de horario y [turnos en la aplicación Turnos](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts). Después de agregar una etiqueta a uno o varios miembros del equipo, puede usarla en @mentions cualquier persona del equipo en una publicación de canal o para notificar solo a aquellas personas a las que se les asigne esa etiqueta de una conversación.
 
 Como se mencionó anteriormente, hay dos tipos de etiquetas en Teams.
 
 - **Etiquetas personalizadas**: los propietarios de equipos y los miembros del equipo (si la característica está habilitada para ellos) pueden crear y asignar etiquetas manualmente a los usuarios. Por ejemplo, una etiqueta "Diseñador" o "Radiólogo" llegará a esos conjuntos de personas de un equipo sin tener que escribir sus nombres.
-- **Etiquetado por turno**: con esta característica, a los usuarios se les asignan etiquetas automáticamente que coinciden con su nombre de grupo de horario y [turnos en la aplicación Turnos](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) en Teams. Por ejemplo, la etiqueta "EngineerOnCall" llega a todos los ingenieros programados en Turnos para trabajar en el momento en que la etiqueta se usa en una publicación de chat o canal. Con el etiquetado por turno, Teams elimina las conjeturas de conocer el nombre del personal en turnos cuando los usuarios necesitan retransmitir rápidamente información. El etiquetado por turno también puede ser respaldado por los principales sistemas de administración de la fuerza de trabajo como JDA, Kronos y AMiON, integrándolos con Turnos en Teams. Para obtener más información sobre cómo configurar esta característica, vea [Configurar el etiquetado por turnos](#set-up-tagging-by-shift).
+- **Etiquetado por turno**: con esta característica, a los usuarios se les asignan etiquetas automáticamente que coinciden con su nombre de grupo de horario y [turnos en la aplicación Turnos](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) en Teams. Por ejemplo, la etiqueta "EngineerOnCall" llega a todos los ingenieros programados en Turnos para trabajar en el momento en que la etiqueta se usa en una publicación de chat o canal. Con el etiquetado por turno, Teams elimina las conjeturas de conocer el nombre del personal en turnos cuando los usuarios necesitan retransmitir rápidamente información.
 
 > [!NOTE]
 > Las etiquetas no son compatibles con los canales privados o compartidos.
@@ -44,24 +43,23 @@ Una etiqueta se puede agregar manualmente o asignar automáticamente a una perso
 - Un administrador de store publica un anuncio en un canal para notificar a todos los cajeros.
 - Un administrador del hospital envía un mensaje a todos los radiólogos de un canal.
 - Un administrador de marketing inicia un chat grupal con todos los diseñadores.
-- Una enfermera envía un mensaje a todos los cardiólogos de guardia. (próximamente)
-- Un ingeniero del sistema publica un anuncio en un canal para notificarlo a todos los ingenieros en turnos. (próximamente)
 
 Cuando se @mentioned una etiqueta en una conversación de canal, se notificará a los miembros del equipo asociados a la etiqueta, igual que cualquier otro @mention.
 
 ## <a name="manage-custom-tags-for-your-organization"></a>Administrar etiquetas personalizadas para su organización
 
-Como administrador, puede controlar cómo se usan las etiquetas en toda la organización en el Centro de administración de Microsoft Teams. Actualmente, no puede usar PowerShell para administrar etiquetas.
+Como administrador, puede controlar cómo se usan las etiquetas en toda la organización en el Centro de administración de Microsoft Teams. Tenga en cuenta que no puede usar PowerShell para administrar etiquetas.
 
-![Captura de pantalla de la configuración de etiquetado en el Centro de administración de Microsoft Teams.](media/manage-tags-admin-settings.png)
+:::image type="content" source="media/manage-tags-admin-settings.png" alt-text="Captura de pantalla de la configuración de etiquetado en el Centro de administración de Microsoft Teams.":::
 
-Un equipo puede tener hasta 100 etiquetas, se pueden asignar hasta 200 miembros al equipo a una etiqueta y se pueden asignar hasta 25 etiquetas en el mismo equipo a un solo usuario.
+Un equipo puede tener hasta 100 etiquetas, hasta 100 miembros del equipo se pueden asignar a una etiqueta y se pueden asignar hasta 25 etiquetas a un solo usuario.
 
 ### <a name="set-who-can-add-custom-tags"></a>Establecer quién puede agregar etiquetas personalizadas
 
 De forma predeterminada, los propietarios de equipos pueden agregar etiquetas personalizadas. Puede cambiar esta configuración para permitir que los propietarios del equipo y los miembros del equipo creen, editen, eliminen y administren etiquetas, o bien puede desactivar las etiquetas para su organización.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, haga clic en **Configuración de** **Teams** > .
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, haga clic en **Configuración de** **Teams**\>.
+
 2. En **Etiquetado**, junto a **Etiquetas administradas por**, seleccione una de las siguientes opciones:
 
     - **Propietarios y miembros** del equipo: permita que los propietarios y miembros del equipo administren etiquetas.
@@ -72,40 +70,13 @@ De forma predeterminada, los propietarios de equipos pueden agregar etiquetas pe
 
 Puede configurar las siguientes opciones de etiquetas para controlar cómo se usan las etiquetas personalizadas en toda la organización.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, haga clic en **Configuración de** **Teams** > .
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, haga clic en **Configuración de** **Teams**\>.
+
 2. En **Etiquetado**, establezca lo siguiente, según las necesidades de su organización.
 
     - **Permitir que los propietarios del equipo invaliden quién puede administrar etiquetas**: al activar esta configuración, los propietarios del equipo pueden establecer si los miembros del equipo pueden crear y administrar etiquetas dentro de un equipo y el valor de las **etiquetas se administran mediante** la configuración es el valor predeterminado para cada equipo. Si desactiva esta configuración, no se pueden cambiar las **etiquetas por** equipo.
     - **Etiquetas predeterminadas sugeridas**: use esta opción para agregar un conjunto de etiquetas predeterminadas. Puede agregar hasta 25 etiquetas y cada etiqueta puede contener un máximo de 25 caracteres. Los propietarios y miembros del equipo (si la característica está habilitada para ellos) pueden usar estas sugerencias, agregarles o crear un nuevo conjunto de etiquetas.
     - **Permitir la creación de etiquetas personalizadas**: active esta opción para permitir que los usuarios agreguen etiquetas distintas de las etiquetas predeterminadas sugeridas que establezca. Si esta opción está desactivada, los usuarios solo podrán usar las etiquetas predeterminadas sugeridas. Si desactiva esta opción, asegúrese de agregar una o más etiquetas predeterminadas.
-
-## <a name="manage-custom-tags-settings-for-a-team"></a>Administrar la configuración de etiquetas personalizadas para un equipo
-
-Si activó la opción **Permitir que los propietarios del equipo invalide quién puede administrar etiquetas** en el Centro de administración de Microsoft Teams, los propietarios del equipo pueden establecer si los miembros pueden agregar etiquetas en el nivel de equipo. Para ello, en la pestaña **Configuración** de un equipo, vaya a **Etiquetas** y elija quién puede agregar etiquetas.
-
-![Captura de pantalla de la configuración de etiquetas en el nivel de equipo.](media/manage-tags-team-settings.png)
-
-## <a name="use-tags"></a>Usar etiquetas
-
-Aquí le mostramos cómo agregar etiquetas personalizadas y cómo configurar el etiquetado por turnos (si usa la aplicación Turnos en Teams). Para obtener más información, consulte [Usar etiquetas en Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
-
-### <a name="create-and-assign-custom-tags"></a>Crear y asignar etiquetas personalizadas
-
-Para crear y asignar etiquetas personalizadas, seleccione **Teams** en el lado izquierdo de la aplicación y, a continuación, busque su equipo en la lista. Seleccione **... Más opciones** y, después, elija **Administrar etiquetas**. Aquí puede crear etiquetas y asignarlas a los miembros de su equipo.
-
-![Captura de pantalla de cómo aplicar etiquetas en el cliente de Teams.](media/manage-tags-teams.png)
-
-Para eliminar una etiqueta, seleccione **... Más opciones** junto a la etiqueta y, a continuación, seleccione **Eliminar etiqueta**.
-
-### <a name="set-up-tagging-by-shift"></a>Configurar el etiquetado por turnos
-
-El etiquetado por turno permite a los usuarios llegar a las personas en turno en tiempo real. Teams asigna automáticamente a los usuarios etiquetas que coinciden con su nombre de grupo de turnos y programación desde la aplicación Turnos, lo que habilita la mensajería dinámica basada en roles. Las notificaciones se envían solo a las personas que están de turno en el momento en que se usa una etiqueta para iniciar un chat o en una publicación del canal.
-
-1. En Teams, vaya a la [aplicación Turnos](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop).
-2. Cree [grupos de turnos](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) y asímbrelos después de un atributo como un rol. Por ejemplo, EngineerOnCall. El nombre del grupo de turnos será el nombre de la etiqueta.
-3. [Rellene una programación](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea) asignando turnos a los miembros de sus equipos. Cuando haya terminado, en la esquina superior derecha de la aplicación Turnos, seleccione **Compartir con el equipo**.
-4. Espere 15 minutos hasta que los turnos programados rellenen el servicio de etiquetado.
-5. Use la etiqueta en cualquier lugar donde use etiquetas en Teams.
 
 ## <a name="related-topics"></a>Temas relacionados
 

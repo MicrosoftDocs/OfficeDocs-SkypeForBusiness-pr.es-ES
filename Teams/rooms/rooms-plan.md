@@ -14,13 +14,14 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- Teams_ITAdmin_Rooms
 description: En este artículo se explican las consideraciones de planeación relevantes para implementar Salas de Microsoft Teams, la próxima generación de sistemas de salas de Skype.
-ms.openlocfilehash: 392a14e3a72d60903db88b34d9b72152e1a8ec81
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: fe973e7e6f3f6d84a4ddf1721ccc8c73fb5da928
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761372"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269755"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planear Salas de Microsoft Teams
 
@@ -48,7 +49,7 @@ Salas de Microsoft Teams incluye los siguientes componentes clave para ofrecer u
 
 Puedes adquirir estos componentes como paquetes preinstalados de varios proveedores o puedes comprar los componentes admitidos individualmente siguiendo [los requisitos documentados en este artículo](requirements.md).
 
-Puede implementar Salas de Microsoft Teams con implementaciones locales de Microsoft Teams o Skype Empresarial.  Consulte la [actualización de licencias de Teams Sala de reuniones](rooms-licensing.md) para obtener información sobre las licencias necesarias.
+Puede implementar Salas de Microsoft Teams con Microsoft Teams o Skype for Business implementaciones locales.  Consulte la [Actualización de licencias](rooms-licensing.md) de salas de reuniones de Teams para obtener información sobre las licencias necesarias.
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
@@ -66,18 +67,18 @@ Comience por comprender qué salas de conferencias tiene y concise qué le funci
 
 Es posible que necesite coordinar estas actividades en varios equipos. Proporcionamos una vista de alto nivel de las actividades principales que debe cubrir, así como sugerencias para los equipos que suelen participar en la implementación y administración de sistemas de salas de conferencias, para ayudarle a decidir con quién necesita trabajar.
 
-| Tarea                       | Quién realizar la tarea           | Asignado a | Vínculos a este contenido |
+| Tarea                       | Quién podría llevar a cabo la tarea           | Asignado a | Vínculos a este contenido |
 |----------------------------|----------------------------------------|-------------|-----------------------|
-| Inventario de salas            | Servicios / AV team / IT Project Team |             | [Inventario de salas y planeamiento de capacidades](#room-inventory-and-capability-planning) |
-| Funcionalidades del plan          | Equipo de Project de TI                        |             | [Inventario de salas y planeamiento de capacidades](#room-inventory-and-capability-planning) |
-| Selección de dispositivos           | Equipo de Project DE TI/AV              |             | [Selección de dispositivos](#device-selection) |
-| Adquisiciones                | Equipo de Project DE TI/AV              |             | [Adquisiciones](#procurement) |
-| Disponibilidad del sitio             | Servicios / AV team / IT Project Team |             | [Disponibilidad del sitio](rooms-deploy.md#site-readiness) |
-| Preparación del servicio          | Equipo de Project de TI                        |             | [Preparación del servicio](rooms-deploy.md#service-readiness) |
-| Configuración              | Equipo de Project de TI                        |             | [Configuración e implementación](rooms-deploy.md#configuration-and-deployment) |
-| Deployment                 | Servicios / AV team / IT Project Team |             | [Lista de comprobación de implementación](console.md#microsoft-teams-rooms-deployment-checklist) |
-| Adopción                   | Servicios / AV team / IT Project Team |             | [Adopción](#plan-for-adoption-and-change-management) |
-| Mantenimiento y funcionamiento | Equipo de AV/equipo de Project de TI              |             | [Introducción a la administración](rooms-manage.md) |
+| Inventario de salas            | Instalaciones / equipo av / equipo de proyecto de TI |             | [Inventario de salas y planeamiento de capacidades](#room-inventory-and-capability-planning) |
+| Funcionalidades del plan          | Equipo de proyecto de TI                        |             | [Inventario de salas y planeamiento de capacidades](#room-inventory-and-capability-planning) |
+| Selección de dispositivos           | Equipo de proyecto de TI/equipo av              |             | [Selección de dispositivos](#device-selection) |
+| Adquisiciones                | Equipo de proyecto de TI/equipo av              |             | [Adquisiciones](#procurement) |
+| Disponibilidad del sitio             | Instalaciones / equipo av / equipo de proyecto de TI |             | [Disponibilidad del sitio](rooms-deploy.md#site-readiness) |
+| Preparación del servicio          | Equipo de proyecto de TI                        |             | [Preparación del servicio](rooms-deploy.md#service-readiness) |
+| Configuración              | Equipo de proyecto de TI                        |             | [Configuración e implementación](rooms-deploy.md#configuration-and-deployment) |
+| Deployment                 | Instalaciones / equipo av / equipo de proyecto de TI |             | [Lista de comprobación de implementación](console.md#microsoft-teams-rooms-deployment-checklist) |
+| Adopción                   | Instalaciones / equipo av / equipo de proyecto de TI |             | [Adopción](#plan-for-adoption-and-change-management) |
+| Mantenimiento y funcionamiento | Equipo de AV /equipo de proyecto de TI              |             | [Introducción a la administración](rooms-manage.md) |
 
 ## <a name="room-inventory-and-capability-planning"></a>Inventario de salas y planeamiento de capacidades
 
@@ -106,7 +107,7 @@ Para obtener instrucciones sobre el tipo de sistema y dispositivos periféricos 
 
 Según el proveedor que prefiera, use la información proporcionada en el artículo de requisitos para definir su Salas de Microsoft Teams y la configuración de dispositivos periféricos admitidos por tipo de salón, y úsela como plantilla para la implementación.
 
-**Sugerencia de Pro**: es posible que algunos tipos de salas no sean aplicables a la implementación.
+**Sugerencia profesional** : es posible que algunos tipos de salas no sean aplicables a la implementación.
 
 | &nbsp; | &nbsp; |
 |---|---|
@@ -122,7 +123,7 @@ _Plantilla de implementación de Salas de Microsoft Teams de ejemplo para su org
 | Mediana de 18' por 20'  | 6&ndash;12       |                              |                    |                 |
 | Grande 15' por 32'   | 12&ndash;16      |                              |                    |                 |
 
-**sugerencia Pro:** ahora es un buen momento para empezar a recopilar información sobre la solución Salas de Microsoft Teams que ha elegido.
+**Sugerencia profesional:** Ahora es un buen momento para empezar a recopilar información sobre la solución Salas de Microsoft Teams que ha elegido.
 
 ## <a name="procurement"></a>Adquisiciones
 
@@ -134,7 +135,7 @@ Según la escala de implementación y el enfoque, es posible que decida que los 
 
 | &nbsp; | &nbsp; |
 |---|---|
-| ![componentes de envío.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Enviará los componentes directamente a un sitio o a una instalación de ensayo?</li><li>Quién administrará la instalación provisional (si decides usar una)?</li></ul> |
+| ![componentes de envío.](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Enviará los componentes directamente a un sitio o a una instalación de ensayo?</li><li>¿Quién administrará la instalación de ensayo (si decide usar una)?</li></ul> |
 | ![planificar operaciones.](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Planear las operaciones.</li><li>Planear la adopción y la administración de cambios.</li></ul> |
 
 ## <a name="plan-for-operations"></a>Plan de operaciones

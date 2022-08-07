@@ -1,5 +1,5 @@
 ---
-title: Encuestas de comentarios en Teams o Skype Empresarial
+title: Encuestas de comentarios en Teams o Skype for Business
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Recopile comentarios de los usuarios para mejorar la implementación de voz en la nube en Microsoft Teams o Skype Empresarial.
+description: Recopile comentarios de los usuarios para mejorar la implementación de voz en la nube en Microsoft Teams o Skype for Business.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -16,12 +16,14 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a2e2eebf6c1b0ffd89f0fbcac22e462be1023c09
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 256e9d672b51cadf31afa4a7febc053cba4effcb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563988"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267655"
 ---
 # <a name="user-feedback-surveys"></a>Encuestas de comentarios de usuarios 
 
@@ -29,7 +31,7 @@ Use encuestas de comentarios para capturar la experiencia y la información de l
 
 Personalice las preguntas siguientes y, a continuación, transfórtelas a una herramienta de encuestas como SharePoint para facilitar la distribución y el análisis.
 
-Para estas encuestas, *el nuevo sistema telefónico* hace referencia al uso de características de llamada en Microsoft Teams o Skype Empresarial, además de dispositivos como un teléfono multimedia o un teléfono móvil. Todas las referencias a Microsoft Teams en estas encuestas también se aplican a Skype Empresarial.
+Para estas encuestas, *el nuevo sistema telefónico* hace referencia al uso de características de llamada en Microsoft Teams o Skype for Business, además de dispositivos como un teléfono multimedia o un teléfono móvil. Todas las referencias a Microsoft Teams en estas encuestas también se aplican a Skype for Business.
 
 Indique su nivel de acuerdo con las siguientes afirmaciones, en relación con el uso de Teams como teléfono. 
 

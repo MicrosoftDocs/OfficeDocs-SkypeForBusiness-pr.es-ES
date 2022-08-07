@@ -10,17 +10,16 @@ search.appverid: MET150
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 description: Obtenga información sobre cómo los administradores de TI pueden configurar, usar y administrar Q&A en Teams Q&A para un enfoque estructurado para recopilar preguntas, organizar discusiones, eliminar mensajes individuales, usar idiomas disponibles y comprender el ciclo de vida de los datos, así como las directivas de retención y eliminación de datos.
-ms.openlocfilehash: 3ffdc4f48c43bef2d1d342983a63612c91bc40a9
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: edcf1578b70bf39ccf330b7a328b7d0de7558263
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880434"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268635"
 ---
 # <a name="manage-qa-in-teams-meetings"></a>Administrar Q&A en reuniones de Teams
 
@@ -34,6 +33,7 @@ En este artículo se describe cómo administrar Q&A y las directivas a nivel de 
 - Para permitir a los usuarios de su organización agregar Q&A a las reuniones de Teams, debe confirmar que los inicios de sesión del servicio Office 365 Yammer están habilitados en Azure Active Directory. Siga los pasos siguientes para confirmar que los inicios de sesión están habilitados:
   - Vaya al Centro  >  de **administración de Azure AD****Todas las** > **aplicaciones** >  empresariales Office 365 **Propiedades** **de Yammer** > .
   - Para la opción **¿Está habilitado para que los usuarios inicien sesión?** , seleccione **Sí** si es necesario.
+- Compruebe que no ha bloqueado la aplicación Q&A (nativa) en las [aplicaciones de Teams](/MicrosoftTeams/manage-apps)
 
 ## <a name="who-can-use-qa"></a>Quién puede usar Q&A
 
@@ -122,7 +122,7 @@ Las siguientes instrucciones explican cómo se almacenan los datos de mensajerí
 
 ## <a name="gdpr-for-qa-in-teams"></a>RGPD para Q&A en Teams
 
-Al completar una solicitud del interesado a través del Centro de Administración de Microsoft 365, esta elimina automáticamente la información de contacto de los usuarios de todo su contenido en la Q&A.
+Cuando se completa una solicitud del interesado a través del Centro de Microsoft 365 അഡ്‌മിൻ, se quita automáticamente la información de contacto de los usuarios de todo su contenido en la Q&A.
 
 ## <a name="data-lifecycle-for-qa-in-teams"></a>Ciclo de vida de datos de Q&A en Teams
 

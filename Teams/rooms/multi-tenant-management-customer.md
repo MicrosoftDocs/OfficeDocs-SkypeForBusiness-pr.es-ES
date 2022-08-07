@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: administración de partners para los clientes.
 f1keywords: ''
-ms.openlocfilehash: b186adbf0df84e0739abd4675cfcf1437885d365
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 9ac7e01de1f9a9e620afa665298d8f3746319db2
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023891"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271375"
 ---
 # <a name="partner-management-for-customers"></a>Administración de partners para clientes
 

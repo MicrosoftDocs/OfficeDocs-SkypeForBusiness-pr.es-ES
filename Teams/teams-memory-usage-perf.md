@@ -11,18 +11,18 @@ description: Obtenga información sobre el uso de memoria del sistema de Microso
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 0d55caf2a1642b28ccc63e3be1cf3eccc69bb260
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: cb2405c50d758c5879bcc44451a0ce9c50a7d614
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66605679"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268145"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Cómo usa Microsoft Teams la memoria
 

@@ -8,13 +8,15 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 manager: serdars
+ms.collection:
+- M365-collaboration
 ROBOTS: NOINDEX
-ms.openlocfilehash: 763c65fae26956483f6950a9f573b1b41d7efa9e
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 1dc9c743c6d122b55b69efffca5e9b9d110f2f18
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175824"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269905"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Sesiones de Teams en Ignite 2020
 
@@ -45,7 +47,7 @@ ms.locfileid: "67175824"
 |[Innovación en reuniones y dispositivos de Teams con inteligencia](https://aka.ms/PR104) |Innovamos y rediseñamos continuamente las reuniones. Obtenga información sobre cómo estamos aportando más inteligencia en las reuniones y nuestra última innovación en dispositivos que dan vida a la inteligencia.  |200|Shalendra Chhabra|
 |[Funcionalidades de llamadas avanzadas](https://aka.ms/IG20-OD265)|Profundice con las llamadas mientras exploramos la nueva experiencia de llamadas. Reciba más información sobre las llamadas colaborativas, el e911, el enrutamiento de Location-Based y otras características. Obtenga información sobre cómo Las llamadas están listas para sus escenarios avanzados, independientemente del tamaño de su empresa. |200|Alan Xie, Roy Kuntz|
 |[Dispositivos de Microsoft Teams para espacios compartidos](https://aka.ms/IG20-OD261) |Los dispositivos de Microsoft Teams están diseñados para ayudar a los usuarios a maximizar la potencia de Teams y reducir la brecha entre áreas de trabajo remotas y compartidas. Con las características de reuniones de Teams, las experiencias de sala centradas en el cliente y el hardware líder del sector, los usuarios se benefician de reuniones interactivas, inclusivas y de baja fricción. Las características de reunión están disponibles tanto si los usuarios se unen de forma remota como si están en la sala de reuniones. Obtén información sobre cómo los dispositivos de espacio compartido, como Salas de Microsoft Teams, barras de colaboración y Surface Hub, pueden ayudar a tus equipos a mantenerse conectados y en colaboración en el área de trabajo híbrida.|200|Greg Baribault, Kendra Baker, Sandhya Rao|
-|[¿En Skype Empresarial? Diseñar la ruta de acceso a Microsoft Teams](https://aka.ms/OD251)|Únase a esta sesión para aprender y determinar el enfoque más adecuado en función de sus objetivos empresariales y de implementación de Skype Empresarial actuales. Tanto si es un cliente de Skype Empresarial en línea como de servidor, compartiremos sugerencias, recursos e instrucciones para llegar a Microsoft Teams hoy mismo. |200|Lisa McKee, Laszlo Somi
+|[¿En Skype for Business? Diseñar la ruta de acceso a Microsoft Teams](https://aka.ms/OD251)|Únase a esta sesión para aprender y determinar el enfoque más adecuado en función de su implementación actual Skype for Business y los objetivos empresariales. Tanto si es un cliente de Skype for Business en línea como de servidor, compartiremos sugerencias, recursos e instrucciones para llegar a Microsoft Teams hoy mismo. |200|Lisa McKee, Laszlo Somi
 |[Innovación moderna en dispositivos personales de Teams](https://aka.ms/PR108)  |Los clientes buscan los dispositivos personales adecuados para Teams, especialmente cuando muchos de sus empleados trabajan de forma remota. Únase a nosotros para obtener información sobre las nuevas innovaciones en dispositivos personales de Teams. Compartiremos nuestro impulso en funciones y dispositivos certificados y nuestras sugerencias para el trabajo remoto. |200|Sandhya Rao, Arash Ghanaie-Sichanie, Kruthika Ponnusamy|
 |[Master virtual breakout rooms in Microsoft Teams meetings](https://aka.ms/PR109) |Únase a nosotros para obtener información sobre las últimas innovaciones con salas para sesión de subgrupo virtuales en Teams. En esta sesión, destacaremos los casos de uso y las prácticas recomendadas para facilitar la ideación de grupos pequeños, la lluvia de ideas, el aprendizaje y las discusiones con salas virtuales para sesión de subgrupo. |200|James Skay, Nakul Madaan|
 |[Hacer que las reuniones de Teams sean seguras e inclusivas con controles de videoconferencia y reuniones](https://aka.ms/PR110) |Únase a esta sesión para obtener más información sobre la seguridad, la seguridad y la moderación de las reuniones. Resaltamos la capacidad de desactivar el audio de todos los asistentes, solicitar la funcionalidad de hablar y configurar salas para sesión de subgrupo. Trataremos características como reacciones y manos levantadas que pueden ayudar a que las reuniones sean más inclusivas.|200|Nakul Madaan, Rajiv Ramaiah|
@@ -110,5 +112,5 @@ ms.locfileid: "67175824"
 |---|----------|---|---|
 |[Habilitar la continuidad empresarial para los empleados de primera línea con Microsoft Teams](https://aka.ms/OD258)|A medida que las organizaciones siguen ajustando sus operaciones y personal para mantener la continuidad empresarial, las nuevas capacidades de Microsoft Teams ayudan a los Frontline Workers a mantenerse centrados en satisfacer las necesidades de los clientes. Esta sesión se centrará en turnos, tareas y comunicación central junto con las capacidades de Walkie Talkie para crear una experiencia de usuario segura y centralizada que le ahorra tiempo y dinero.|200|Scott Morrison, Zoe Hawtof|
 |[Implementar y administrar dispositivos habilitados para Teams para satisfacer las diversas necesidades de su personal de primera línea](https://aka.ms/PR114)|Obtenga información sobre cómo implementar dispositivos específicos de frontline que permitan a los trabajadores centrarse en el trabajo frente a ellos.  Este tutorial incluirá escenarios para Walkie Talkie de Teams y colaboración manos libres. |200|Abid Chaudhry, James Ellis|
-|[Administrar recursos de primera línea distribuidos con capacidades en el Centro de Administración de Microsoft 365](https://aka.ms/PR115)|Descubra los procedimientos recomendados y las instrucciones prácticas sobre escenarios populares de administración e implementación de TI en Microsoft 365 para trabajadores de frontline. Obtenga información sobre cómo crear la experiencia correcta en Microsoft Teams e implementar correctamente la solución para apoyar a su personal de frontline.|300|Irina Parsina, Zoe Hawtof|  
+|[Administrar recursos de primera línea distribuidos con capacidades en el Centro de Microsoft 365 അഡ്‌മിൻ](https://aka.ms/PR115)|Descubra los procedimientos recomendados y las instrucciones prácticas sobre escenarios populares de administración e implementación de TI en Microsoft 365 para trabajadores de frontline. Obtenga información sobre cómo crear la experiencia correcta en Microsoft Teams e implementar correctamente la solución para apoyar a su personal de frontline.|300|Irina Parsina, Zoe Hawtof|  
 

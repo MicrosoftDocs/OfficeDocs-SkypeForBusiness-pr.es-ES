@@ -8,24 +8,25 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Obtenga información sobre el control de administración de inquilinos para el reconocimiento de voz (perfil de voz) en Teams salas de reuniones.
+description: Obtenga información sobre el control de administración de inquilinos para el reconocimiento de voz (perfil de voz) en las salas de reuniones de Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d5caa402be0ea282d70bfe17cc9d2d728e6ec2c
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 9052812a669a808536cbd0179d6c16b9228296c4
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760932"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270045"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Administrar los controles de tecnología de reconocimiento de voz para un altavoz inteligente
 
-Un orador inteligente usa información de perfil de voz para reconocer quién dijo qué en la transcripción en vivo. Cuando una Salas de Microsoft Teams para Windows sala de reuniones está equipada con un altavoz inteligente, se puede usar la transcripción en directo durante la reunión. En este artículo se explica cómo usted, un administrador de inquilinos, controlar la generación de perfiles de voz que se usa para el reconocimiento de voz para generar la transcripción en directo. Puede controlar hasta qué grado usa la organización el reconocimiento de voz y las siguientes características:
+Un orador inteligente usa información de perfil de voz para reconocer quién dijo qué en la transcripción en vivo. Cuando una Salas de Microsoft Teams para la sala de reuniones de Windows está equipada con un altavoz inteligente, se puede usar la transcripción en directo durante la reunión. En este artículo se explica cómo usted, un administrador de inquilinos, controlar la generación de perfiles de voz que se usa para el reconocimiento de voz para generar la transcripción en directo. Puede controlar hasta qué grado usa la organización el reconocimiento de voz y las siguientes características:
 
 - Edite el nombre del orador en las transcripciones.
 - Cambie el orador de una sola expresión en la transcripción o cambie el orador en todas las expresiones de la transcripción (pero no en las transcripciones futuras).
@@ -59,7 +60,7 @@ Un altavoz inteligente se conecta directamente mediante USB a la consola de Sala
 Un altavoz inteligente debe colocarse al menos a 20 cm (8 pulgadas) de las paredes y objetos grandes, como portátiles. Si el cable USB del altavoz inteligente no es lo suficientemente largo para la configuración, usa extensores de cable.
 
 1. Inicia sesión en la consola como administrador.
-2. Establezca la configuración del dispositivo Teams para que coincida con el altavoz y el micrófono del altavoz inteligentes.
+2. Establezca la configuración del dispositivo de Teams para que coincida con el altavoz y el micrófono del altavoz inteligentes.
    Usted también puede hacer esto a través del portal TAC en lugar de en la consola de la sala.
 
    El diagrama muestra cómo se conecta el altavoz inteligente al dispositivo si el dispositivo incluye un cuadro de datos.
@@ -75,7 +76,7 @@ Un altavoz inteligente debe colocarse al menos a 20 cm (8 pulgadas) de las pared
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>Habilitar un reconocimiento de usuario de altavoz inteligente
 
-Los datos de perfil de voz se pueden usar en cualquier reunión con un altavoz inteligente. Vea [Teams directivas de reuniones](../meetings-policies-recording-and-transcription.md#allow-transcription) y los [cmdlets de reuniones de PowerShell](/powershell/module/skype/set-csteamsmeetingpolicy) para obtener información sobre la configuración de la reunión.
+Los datos de perfil de voz se pueden usar en cualquier reunión con un altavoz inteligente. Vea [Directivas de reuniones de Teams](../meetings-policies-recording-and-transcription.md#allow-transcription) y [los cmdlets de reuniones de PowerShell](/powershell/module/skype/set-csteamsmeetingpolicy) para obtener información sobre la configuración de la reunión.
 
 Los datos del perfil de voz del usuario se crean cuando la directiva se establece para distinguir o cuando un invitado que no es de la reunión entra durante la reunión. Los datos del perfil de voz se descartan al final de la reunión.
 
@@ -83,12 +84,12 @@ Las siguientes son las directivas necesarias para establecer un altavoz intelige
 
 |Directiva|Descripción|Valores y comportamiento|
 |-|-|-|
-|enrollUserOverride|Se usa para establecer la captura de perfil de voz o la inscripción en la configuración de Teams de un inquilino. |**Deshabilitado**<br><ul><li> Los usuarios que nunca se han inscrito no pueden ver, inscribirse ni volver a inscribirse.<li>El punto de entrada al flujo de inscripción se ocultará.<li>Si los usuarios seleccionan un vínculo a la página de inscripción, verán un mensaje que indica que esta característica no está habilitada para su organización.  <li>Los usuarios inscritos pueden ver y quitar su perfil de voz en la configuración de Teams. Una vez que quiten su perfil de voz, no podrán ver, acceder ni completar el flujo de inscripción.</li></ul><br>**Habilitado**<br><ul><li> Los usuarios pueden ver, acceder y completar el flujo de inscripción.<li>El punto de entrada se mostrará en Teams página de configuración en la pestaña **Reconocimiento**.</li></ul>|
+|enrollUserOverride|Se usa para establecer la captura de perfil de voz o la inscripción en la configuración de Teams para un inquilino. |**Deshabilitado**<br><ul><li> Los usuarios que nunca se han inscrito no pueden ver, inscribirse ni volver a inscribirse.<li>El punto de entrada al flujo de inscripción se ocultará.<li>Si los usuarios seleccionan un vínculo a la página de inscripción, verán un mensaje que indica que esta característica no está habilitada para su organización.  <li>Los usuarios inscritos pueden ver y quitar su perfil de voz en la configuración de Teams. Una vez que quiten su perfil de voz, no podrán ver, acceder ni completar el flujo de inscripción.</li></ul><br>**Habilitado**<br><ul><li> Los usuarios pueden ver, acceder y completar el flujo de inscripción.<li>El punto de entrada se mostrará en la página de configuración de Teams, en la pestaña **Reconocimiento** .</li></ul>|
 |roomAttributeUserOverride|Controle la identificación de usuario basada en voz en las salas de reuniones. Esta configuración es necesaria para las cuentas de Salas de Teams.| **Desactivado**<br><ul><li>El dispositivo Salas de Teams no enviará ancho de banda para guardar la secuencia de audio desde la sala. <li>Los usuarios de las salas de reuniones no se atribuirán ni distinguirán, y sus firmas de voz no se recuperarán ni se usarán en absoluto.<li>Se desconocen los usuarios de las salas de reuniones.</li></ul> <br>**Atributo**<br><ul><li>Los usuarios de salas se atribuirán en función de su estado de inscripción.<li>Los usuarios inscritos se muestran con su nombre en la transcripción.  <li>Los usuarios que no están inscritos se muestran como oradores \<n>.<li>El dispositivo Salas de Teams enviará siete transmisiones de audio desde la sala.</ul> <br>**Distinguir**<br> <ul><li>Los usuarios de las salas se distinguirán y separarán como altavoz 1, altavoz 2, .... orador \<n> en la transcripción.</li><li>Independientemente del estado de inscripción del usuario, su nombre no se mostrará en la transcripción.</li><li>El dispositivo Salas de Teams enviará siete transmisiones de audio desde la sala.</li></ul>
-|AllowTranscription|Necesario para las cuentas de salas de usuario y de Teams.|**Verdadero** y **falso**|
+|AllowTranscription|Necesario para las cuentas de usuarios y salas de Teams.|**Verdadero** y **falso**|
 ||||
 
-En el centro de administración de Teams, establezca la directiva **de transcripción**. Configuración están **desactivados** de forma predeterminada.
+En el Centro de administración de Teams, establezca la directiva **de transcripción** . La configuración está **desactivada** de forma predeterminada.
 
 ![el centro de administración con las directivas de reunión resaltadas y permitir la transcripción seleccionado.](../media/allow-transcription1.png)
   
@@ -105,9 +106,9 @@ Los datos de perfil de voz se almacenan en Office 365 nube con contenido de usua
 
 La directiva de retención general se indica en Información [general sobre retención de datos](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). Además, los datos del perfil de voz de un usuario se eliminarán después de 1 año si el usuario no está invitado a ninguna reunión con un orador inteligente dentro de ese período de un año. Los datos no se usan en ninguna reunión para empleados existentes. Si un empleado ha abandonado la compañía, los datos del perfil de voz se consideran contenido de usuario y se tratan como tales por Office 365 directiva de retención de datos que se describe en información [general de retención de datos](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 
-**¿Se usan datos de perfil de voz en servicios Microsoft?**
+**¿Se usan los datos de perfil de voz en los servicios Microsoft?**
 
-No, los datos del perfil de voz solo se usan para los fines para los que el usuario ha dado su consentimiento. Microsoft no usará los datos del perfil de voz excepto en Teams escenarios de reconocimiento de voz.
+No, los datos del perfil de voz solo se usan para los fines para los que el usuario ha dado su consentimiento. Microsoft no usará los datos del perfil de voz excepto en los escenarios de reconocimiento de voz de Teams.
 
 Por ejemplo, Microsoft no usará los datos en las siguientes situaciones:
 

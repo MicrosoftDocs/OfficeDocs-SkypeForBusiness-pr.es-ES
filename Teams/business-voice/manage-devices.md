@@ -9,19 +9,18 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
-description: Obtenga información sobre cómo administrar dispositivos para Teams Sistema telefónico con Plan de llamadas.
+description: Obtenga información sobre cómo administrar dispositivos para Teams Phone System con plan de llamadas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 002e6494465c3e036284c36d505582e6285f34c2
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+- Teams_ITAdmin_Devices
+ms.openlocfilehash: cb69fb15ada4a238555e89a98289678b5abbc146
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053049"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270655"
 ---
 [!INCLUDE [device-management](../devices/device-management.md)]

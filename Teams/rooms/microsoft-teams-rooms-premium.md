@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre el servicio administrado Salas de Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 432e09204ae157ece03b2dd0c1f4ac3336adec52
-ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
+ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65741882"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269585"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Salas de Microsoft Teams servicio administrado
 
@@ -60,10 +60,10 @@ A continuación se ofrece información general sobre las capacidades del servici
 |**Planificación e implementación de salas**   |Capacidades de planificación de salas que le permiten comprender el inventario de equipos de sala y tomar decisiones sobre los estándares de equipamiento para nuevas implementaciones de salas.         |
 |**Supervisión y solución de problemas**  |Supervisión del estado de la sala que detecta problemas con el sistema de salas y periféricos y proporciona una respuesta proactiva de administración de incidentes controlada por Microsoft.         |
 |**Administración de actualizaciones**    |Administración y entrega de actualizaciones de aplicaciones y firmware para sistemas de sala y sus periféricos realizados por Microsoft.         |
-|**Ideas y recomendaciones**     |Ideas en la salud, el uso, el uso y la confiabilidad del equipo.         |
+|**Conclusiones y recomendaciones**     |Información sobre la salud, el uso, el uso y la confiabilidad del equipo del cliente.         |
 |**Cumplimiento y certificaciones**   |Cumple con todos los estándares aplicables para Microsoft Online Services.         |
 |**Asistencia al cliente**   |Soporte de vales de 24 x 7x365 a través del centro de operaciones de servicio administrado de Salas de Microsoft Teams (SOC). Escalación en su nombre a otros proveedores principales cuando sea aplicable. Para obtener más información, consulta [Asistencia al cliente](#customer-support).|
-|**Dispositivos admitidos**    |Sistemas de Salas de Microsoft Teams certificados y sus periféricos.<br>*Surface Hub soporte técnico en la segunda mitad de 2021*        |
+|**Dispositivos admitidos**    |Sistemas de Salas de Microsoft Teams certificados y sus periféricos.<br>*El soporte técnico de Surface Hub llegará en la segunda mitad de 2021*        |
 |**Regiones admitidas**    |Consulte [Regiones admitidas](#supported-regions).        |
 |**Integración**    |Integración disponible con el servicio hospedado por el cliente ahora.         |
 
@@ -79,7 +79,7 @@ Este es un resumen de las características importantes que ofrece el servicio ad
 |**Supervisión**    |Supervisión del estado de aplicaciones, sistemas operativos, periféricos y firmware. Detección automatizada de incidentes para problemas que afectan a las experiencias de reunión debido a problemas como el estado periférico. Información general del estado de todo el espacio inmobiliario e incidentes a través de Salas de Microsoft Teams portal de servicios administrados.|
 |**Solución de problemas y corrección**     |Diagnósticos automatizados y corrección automática cuando sea aplicable. Salas de Microsoft Teams corrección de incidentes asistido por SOC de servicio administrado para casos no automatizados. Integración de Service Now para la coordinación de incidentes.         |
 |**Administración de actualizaciones**   |Organización de actualización de firmware y aplicación de reunión automatizada basada en anillos de implementación configurables por el cliente         |
-|**Ideas y recomendaciones**   |Uso, incidentes, salud e informes generales (vistas históricas)         |
+|**Conclusiones y recomendaciones**   |Uso, incidentes, salud e informes generales (vistas históricas)         |
 
 ## <a name="service-prerequisites"></a>Requisitos previos del servicio
 
@@ -124,7 +124,7 @@ La licencia de Salas de Microsoft Teams Premium está disponible en los siguient
 |Qué incluye |Qué se excluye |Canales de soporte técnico para elementos excluidos  |
 |---------|---------|---------|
 |**Configuración del servicio**   |         |         |
-|Investigación y orientación para la configuración de Salas de Microsoft Teams Windows, incluida la configuración de la aplicación de Salas de Microsoft Teams, la configuración de red de origen, la configuración de software de origen y la configuración y configuración de energía recomendadas.     |Las configuraciones e investigaciones de software de terceros que no forman parte directamente de la aplicación Microsoft Teams Room. Además, todas las configuraciones específicas de OEM que requieran configuración fuera de las ventanas de origen o Microsoft Teams configuración de la aplicación Sala.         |Canales de soporte estándar de terceros         |
+|Investigación y orientación para Salas de Microsoft Teams configuración de Windows, incluida la configuración de la aplicación de Salas de Microsoft Teams, la configuración de red de origen, la configuración de software de origen y la configuración y configuración de energía recomendadas.     |Las configuraciones e investigaciones de software de terceros que no forman parte directamente de la aplicación Microsoft Teams Room. Además, las configuraciones específicas de OEM que requieran configuración fuera de las ventanas de origen o la configuración de la aplicación de salas de Microsoft Teams.         |Canales de soporte estándar de terceros         |
 |**Configuración de la cuenta de sala**    |         |         |
 |Dirección de la documentación disponible para la configuración de la cuenta de sala a petición. Para problemas de inicio de sesión o de configuración de la cuenta, se realiza una investigación inicial.     |Ejecución de corrección o problemas recomendados con la ejecución de la corrección recomendada, la configuración de proveedores de autenticación de terceros y la configuración de características de cuentas individuales.        |Soporte estándar de Microsoft y soporte técnico de proveedores de autenticación de terceros         |
 |**Compatibilidad con periféricos**    |         |         |

@@ -12,14 +12,15 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: Administración puede leer las notas de la versión de Salas de Microsoft Teams, que muestran mejoras acumulativas en Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b5630636ce5dc8f26d430e6d883bff0dc2bcc71f
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 9460694aec7a6b7f7c7f1648d8f9512ded4c01f7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175854"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270085"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de la versión para Salas de Microsoft Teams
 
@@ -179,7 +180,7 @@ Introducido en esta actualización:
 
 > <sup>1</sup> Estas características se están implementando con el cliente web de Teams y se implementarán en el próximo par de semanas. Obtenga más información sobre [las actualizaciones de Teams](../teams-client-update.md) para obtener más información.
 > 
-> <sup>2</sup> Las salas de Teams en Windows que se ejecutan solo en Microsoft Teams o Skype Empresarial y Microsoft Teams (predeterminado) se actualizan con las nuevas experiencias de reunión y llamada, pero otros modos no se ven afectados por esta actualización.
+> <sup>2</sup> Las salas de Teams en Windows que se ejecutan solo en Microsoft Teams o Skype for Business y Microsoft Teams (predeterminado) se actualizan con las nuevas experiencias de reunión y llamada, pero otros modos no se ven afectados por esta actualización.
 > 
 > <sup>3</sup> Vea más detalles sobre cómo configurar directivas de [acceso condicional de AAD](../rooms/rooms-authentication.md#azure-ad-conditional-access) para Salas de Teams.
 > 
@@ -229,11 +230,11 @@ Introducido en esta actualización:
 ### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
 
 Introducido en esta actualización:
-- El modo solo de Microsoft Teams está ahora disponible en la configuración de la aplicación, por lo que ya no necesita configurar una cuenta de Skype Empresarial. En este modo, los dispositivos que hayan iniciado sesión en el modo solo teams se unen a Skype Empresarial reuniones como usuario invitado.
+- El modo solo de Microsoft Teams está ahora disponible en la configuración de la aplicación, por lo que ya no necesita configurar una cuenta de Skype for Business. En este modo, los dispositivos que hayan iniciado sesión en el modo solo teams se unirán Skype for Business reuniones como usuario invitado.
 - Corrección para el audio HDMI que causa un volumen de llamada menor. La característica de audio HDMI se habilita automáticamente para todos los dispositivos con la compilación de la aplicación 4.9.12.0.
 
 > [!NOTE]
-> Con Skype Empresarial llegando al final de su vida útil, se recomienda actualizar al modo solo de Teams.
+> Con Skype for Business llegando al final de su vida útil, se recomienda actualizar al modo solo de Teams.
 
 ### <a name="48310-05122021"></a>4.8.31.0 (05/12/2021)
 
@@ -256,9 +257,9 @@ Introducido en esta actualización:
 Introducido en esta actualización:
 - Soporte técnico de Government Community Cloud High (GCCH) para Salas de Teams. Los clientes de GCCH con dispositivos Salas de Teams existentes pueden descargar la versión 4.8.19.0 desde [Actualizar manualmente un dispositivo Salas de Microsoft Teams](manual-update.md)
 - Únase a reuniones de Zoom con una mejor calidad de vídeo (compatibilidad con 720p) y reciba la galería de vídeos de los participantes
-- Skype Empresarial banner de error de inicio de sesión eliminado para el modo predeterminado de Teams. Este cambio permite a las organizaciones quitar Skype Empresarial infraestructura
+- Skype for Business banner de error de inicio de sesión eliminado para el modo predeterminado de Teams. Este cambio permite a las organizaciones quitar Skype for Business infraestructura
 - El análisis de vínculos para unirse a reuniones de Teams ahora controla los vínculos seguros de Protección contra amenazas avanzada de Microsoft Defender para permitir unirse a equipos externos sin problemas
-- Corrección del problema de escalado de contenido compartido en Skype Empresarial reuniones cuando el equipo de la persona que comparte tiene un valor de PPP personalizado establecido en Windows
+- Corrección del problema de escalado de contenido compartido en Skype for Business reuniones cuando el equipo del participante tiene un valor de PPP personalizado establecido en Windows
 - Correcciones de calidad y confiabilidad
 
 ### <a name="47190-02032021"></a>4.7.19.0 (02/03/2021)
@@ -337,7 +338,7 @@ Introducido en esta actualización:
 
 Introducido en esta actualización:
 
-- Compatibilidad de autenticación moderna para Exchange y Skype Empresarial
+- Compatibilidad de autenticación moderna para Exchange y Skype for Business
 - Compatibilidad con llamadas de emergencia dinámicas para Teams (componentes de servicio necesarios y distribuidos con anillos de cliente de Teams)
 - Capacidad para deshabilitar el contenido duplicado fuera de la reunión para salas de doble visualización con XML
 - Pantalla de presentación de aplicaciones
@@ -462,8 +463,8 @@ Introducido en esta actualización:
 
 Introducido en esta actualización:
 
-- Mejoras de características de "Informar de un problema" en el modo de Teams (equivalente a "Enviar comentarios" en Skype Empresarial modo)
-- Habilitar la posibilidad de volver de Teams al modo Skype Empresarial para llamadas SIP
+- Mejoras en la característica "Informar de un problema" en el modo de Teams (equivalente a "Enviar comentarios" en Skype for Business modo)
+- Habilitar la posibilidad de volver de Teams al modo Skype for Business para llamadas SIP
 - Mejoras de accesibilidad (Narrador, Lupa)
 - Reiniciar automáticamente la aplicación cuando sea necesario después de aplicar los cambios de aprovisionamiento XML
 - Varias correcciones
@@ -472,7 +473,7 @@ Introducido en esta actualización:
 
 Introducido en esta actualización:
 
-- Esta actualización permite la compatibilidad de reuniones de Skype Empresarial *y* Teams en dispositivos de Sistemas de salas. Teams está desactivado de forma predeterminada una vez que se aplica la actualización. Los administradores pueden habilitar Teams localmente en la configuración del dispositivo o mediante una inserción xml remota.
+- Esta actualización permite la compatibilidad de reuniones de Skype for Business *y* Teams en dispositivos de Sistemas de salas. Teams está desactivado de forma predeterminada una vez que se aplica la actualización. Los administradores pueden habilitar Teams localmente en la configuración del dispositivo o mediante una inserción xml remota.
 
 ### <a name="311150-06182018"></a>3.1.115.0 (06/18/2018)
 

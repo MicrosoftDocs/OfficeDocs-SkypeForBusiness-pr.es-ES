@@ -1,5 +1,5 @@
 ---
-title: Inicio y cierre de sesión remotos en dispositivos Teams Android
+title: Inicio y cierre de sesión remotos en dispositivos Android de Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -10,28 +10,28 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_Devices
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Aprende a iniciar y cerrar sesión de forma remota en Teams Android dispositivos
-ms.openlocfilehash: 5688ed8b7edf49e3048cb8b36b7e033030c09d5b
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+description: Obtenga información sobre cómo iniciar y cerrar sesión de forma remota en dispositivos Android de Teams
+ms.openlocfilehash: 9da10d25c0dfccff3917dfa949966b5e460ea2a3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761432"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271585"
 ---
-# <a name="remote-sign-in-and-sign-out-for-teams-android-devices"></a>Inicio y cierre de sesión remotos en dispositivos Teams Android
+# <a name="remote-sign-in-and-sign-out-for-teams-android-devices"></a>Inicio y cierre de sesión remotos en dispositivos Android de Teams
 
-En este artículo se describe cómo iniciar y cerrar sesión de forma remota Teams Android dispositivos desde el Centro de administración de Teams. Si aún no has aprovisionado un dispositivo, o si el dispositivo está aprovisionado pero nunca se ha iniciado sesión, consulta [Aprovisionamiento remoto e inicio de sesión para dispositivos Teams Android](remote-provision-remote-login.md).
+En este artículo se describe cómo iniciar y cerrar sesión de forma remota en dispositivos Android de Teams desde el Centro de administración de Teams. Si aún no ha aprovisionado un dispositivo, o si el dispositivo está aprovisionado pero nunca ha iniciado sesión, consulte [Aprovisionamiento remoto e inicio de sesión para dispositivos Android de Teams](remote-provision-remote-login.md).
 
 ## <a name="remote-sign-in"></a>Inicio de sesión remoto
 
-Una vez aprovisionado un dispositivo e iniciado sesión por primera vez, aparecerá en su página correspondiente, debajo del nodo **dispositivos Teams** del centro de administración de Teams .
+Una vez aprovisionado un dispositivo e iniciado sesión por primera vez, aparecerá en su página correspondiente, en el nodo **Dispositivos de Teams** del Centro de administración de Teams.
 
 Para iniciar sesión en un dispositivo con sesión cerrada, ve a la página del dispositivo correspondiente.
 
@@ -47,6 +47,6 @@ Para iniciar sesión en un dispositivo con sesión cerrada, ve a la página del 
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-- [Aprovisionamiento remoto e inicio de sesión para dispositivos Teams Android](remote-provision-remote-login.md)
+- [Aprovisionamiento remoto e inicio de sesión para dispositivos Android de Teams](remote-provision-remote-login.md)
 - [Administrar los dispositivos en Teams](device-management.md)
-- [Actualizar Teams dispositivos de forma remota](remote-update.md)
+- [Actualizar dispositivos de Teams de forma remota](remote-update.md)

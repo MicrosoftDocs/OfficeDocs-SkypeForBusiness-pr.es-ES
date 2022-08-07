@@ -15,12 +15,14 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 24e48a99d4c9b6cc63da517fb8efb7dd4e5fab51
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: d560bdeda1487cc7d2e967e1db18e0d2f0c13736
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563758"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269375"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Herramientas y talleres: planificar, entregar y adoptar Microsoft Teams
 
@@ -56,7 +58,7 @@ Descargue estas herramientas que le ayudarán en la planificación, la entrega y
 
 [Herramientas para la adopción](adopt-tools-and-downloads.md)
 
-[Skype Empresarial al Taller de planificación de actualizaciones de Teams](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+[Skype for Business al Taller de planificación de actualizaciones de Teams](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
 
 [Mover usuarios locales a Microsoft Teams](/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 

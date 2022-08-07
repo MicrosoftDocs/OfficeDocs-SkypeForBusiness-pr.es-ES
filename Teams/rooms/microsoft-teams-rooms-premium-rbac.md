@@ -1,5 +1,5 @@
 ---
-title: Control de acceso basado en roles con el servicio de Premium de sala de Microsoft Teams
+title: Control de acceso basado en roles con el servicio Room Premium de Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -10,18 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre el control de acceso basado en roles con el servicio administrado de Salas de Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: c7594a04dbb1a36b60f3105c663cff3934ffd3c1
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 0edce289a23116ed76bf984bfc72724295fc5a5a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62248671"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268365"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Control de acceso basado en roles con el servicio administrado Salas de Microsoft Teams
 
@@ -46,7 +47,7 @@ Para ver los roles, en el panel de navegación izquierdo del Salas de Microsoft 
 
 Puede asignar roles integrados a grupos o usuarios sin más configuración. Tenga en cuenta que no puede eliminar ni editar el nombre, la descripción, el tipo o los permisos de un rol integrado.
 
-- **Administrador de servicios administrados**: tiene acceso completo al portal de servicio Premium sala de Microsoft Teams.
+- **Administrador de servicios administrados**: tiene acceso completo al portal de servicio de Salas Premium de Microsoft Teams.
 - **Cliente potencial del sitio**: organiza salas, tiene acceso a informes y puede administrar entradas. No se puede restablecer la clave de inscripción ni realizar cambios en la configuración del servicio.  
 - **Site Tech**: Administra las entradas para salas específicas. No tiene permisos para modificar el servicio ni para organizar salas en el servicio.
 
@@ -78,7 +79,7 @@ En la tabla siguiente se resume lo que puede hacer cada rol.
 
 Si los roles integrados no se ajustan a sus necesidades de la organización, puede crear un rol y configurar sus permisos como desee. Para crear un rol, debe ser administrador global o administrador de servicios administrados. 
 
-1. En el panel de navegación izquierdo del Salas de Microsoft Teams portal de servicios administrados, vaya a **Configuración** >  **Roles**.
+1. En el panel de navegación izquierdo del Salas de Microsoft Teams portal de servicios administrados, vaya a **Roles** **de configuración** > .
 2. Seleccione **Crear rol**.
 3. En la página **Configuración general** , en **Propiedades de rol**, escriba un nombre para este rol. En **Descripción**, escriba los detalles sobre este rol. Elija **Siguiente**.
 4. En la página **Permisos** , en **Permisos de rol**, seleccione las casillas correspondientes para elegir los permisos para este rol. Elija **Siguiente** para crear la primera asignación para este rol.
@@ -91,12 +92,12 @@ Si los roles integrados no se ajustan a sus necesidades de la organización, pue
 
 Para asignar roles, debe ser administrador global o administrador de servicios administrados o tener un rol con permisos de administración de roles.
 
-1. En el panel de navegación izquierdo del Salas de Microsoft Teams portal de servicios administrados, vaya a **Configuración** >  **Roles**.
+1. En el panel de navegación izquierdo del Salas de Microsoft Teams portal de servicios administrados, vaya a **Roles** **de configuración** > .
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Captura de pantalla de la página de control de Access que muestra los roles.":::
 
 2. Seleccione el rol que desea asignar.
-3. En el panel de roles, seleccione **AsignaciónAgregar** > .
+3. En el panel de roles, seleccione **Agregar asignaciones** > .
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="Captura de pantalla de la opción Agregar para agregar un rol.":::
 

@@ -1,5 +1,5 @@
 ---
-title: Crear un gráfico de la Kaizala para Teams viaje
+title: Gráficos de su viaje de Kaizala a Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -11,28 +11,29 @@ description: En este artículo se describe cómo prepararse para pasar de Kaizal
 f1.keywords: ''
 ms.localizationpriority: medium
 search.appverid: ''
-ms.collection: ''
+ms.collection:
+- M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 913d8991678a4da384d9208378e359cec016f1b8
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 7256d91a8a306f88e7f40b728158747971497262
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635408"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271425"
 ---
-# <a name="charting-your-kaizala-to-teams-journey"></a>Crear un gráfico de la Kaizala para Teams viaje
+# <a name="charting-your-kaizala-to-teams-journey"></a>Gráficos de su viaje de Kaizala a Teams
 
-Has decidido pasar de Kaizala a Microsoft Teams.
+Ha decidido pasar de Kaizala a Microsoft Teams.
 
 Antes de empezar, es importante responder a estas dos preguntas:
 
 - ¿Qué grupos de usuarios se moverán a Teams?  
 
-- ¿Cuál es su camino a Teams?
+- ¿Cuál es su ruta a Teams?
 
 ## <a name="identify-user-groups"></a>Identificar grupos de usuarios
 
-*¿Qué grupos existen en su organización? Quién va a usar Teams y cómo? ¿Qué necesidades requerirán estos grupos para un trabajo en equipo eficaz?* Para comenzar su viaje a Teams, primero **identifique los grupos de usuarios para la transición.**  Los grupos de usuarios son un conjunto de empleados de su personal que realizan trabajo en áreas similares de la empresa. 
+*¿Qué grupos existen en su organización? ¿Quién usará Teams y cómo? ¿Qué necesidades requerirán estos grupos para un trabajo en equipo eficaz?* Para empezar su viaje a Teams, primero **identifique los grupos de usuarios para la transición.**  Los grupos de usuarios son un conjunto de empleados de su personal que realizan trabajo en áreas similares de la empresa. 
 
 Hemos identificado tres grupos de usuarios comunes para ayudarle a identificar las necesidades de colaboración. Cada grupo de usuarios tiene sus propias necesidades específicas en términos de comunicación. 
 
@@ -70,23 +71,23 @@ Los usuarios que se conecten con los empleados de Frontline necesitan:
 
 Los usuarios que se conectan con usuarios externos (proveedores o proveedores) podrían usar:
 
-- [Microsoft Teams los usuarios pueden chatear con cualquier Teams usuarios que no pertenezcan a su organización](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)
+- [Los usuarios de Microsoft Teams pueden chatear con cualquier usuario de Teams que no pertenezca a su organización](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)
 
 - [Agregar o invitar a personas de fuera de su organización de Teams a un chat](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)
 
 ## <a name="determine-your-path"></a>Determinar la ruta de acceso
 
-Después de comprobar las necesidades de colaboración de los grupos de usuarios, podrá determinar el aspecto que tendrá la ruta de Kaizala a Teams. Cada organización es única y el recorrido de ningún empleado será exactamente el mismo. Las organizaciones que no usan actualmente Teams tendrán que tomar decisiones estratégicas adicionales para garantizar un viaje de transición exitoso. Determinar la ruta le ayudará a identificar las acciones importantes que deben completarse para una transición correcta.
+Después de comprobar las necesidades de colaboración de los grupos de usuarios, podrá determinar el aspecto que tendrá la ruta entre Kaizala y Teams. Cada organización es única y el recorrido de ningún empleado será exactamente el mismo. Las organizaciones que no usan Teams actualmente tendrán que tomar decisiones estratégicas adicionales para garantizar un viaje de transición correcto. Determinar la ruta le ayudará a identificar las acciones importantes que deben completarse para una transición correcta.
 
 Hemos indicado en qué consiste la ruta de acceso en función del uso que haga actualmente tu organización:  
 
 Para organizaciones **que no usan Teams**:
 
-![Ruta de acceso para organizaciones que no usan actualmente Teams](media/kaizala-not-using-teams.png)
+![Ruta de acceso para organizaciones que no usan Teams actualmente](media/kaizala-not-using-teams.png)
 
  1. Visualización del trabajo en equipo para su organización
 
- 2. Teams piloto
+ 2. Equipos piloto
   
  3. Implementar Teams
   
@@ -96,11 +97,11 @@ Para organizaciones **que no usan Teams**:
 
  6. Planear la adopción de Teams
 
- 7. Mover la organización a Teams
+ 7. Mover su organización a Teams
 
 Para organizaciones **que ya usan Teams**:
 
-![Ruta de acceso para organizaciones que usan actualmente Teams](media/kaizala-using-teams.png)
+![Ruta de acceso para organizaciones que usan Teams actualmente](media/kaizala-using-teams.png)
 
  1. Planear la transición
 

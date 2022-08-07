@@ -10,35 +10,35 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo inscribir cuentas de Salas de Microsoft Teams en Salas de Microsoft Teams Premium servicio administrado.
 f1keywords: ''
-ms.openlocfilehash: c64fcaf6e817eb57be2915f4f7b6d8684f2ae49b
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: f721406381e1eb99584563473196893bc21cf39b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635462"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271005"
 ---
 # <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>Inscribir un dispositivo en el servicio administrado Salas de Microsoft Teams Premium
 
-Para inscribir un dispositivo Salas de Microsoft Teams en el servicio administrado Salas de Teams Premium, debe asignar uno o más usuarios al administrador del servicio administrado y, después, completar los pasos de inscripción con ese usuario.
+Para inscribir un dispositivo Salas de Microsoft Teams en el servicio administrado Salas de Teams Premium, debe asignar uno o varios usuarios al administrador del servicio administrado y, después, completar los pasos de inscripción con ese usuario.
 
 ## <a name="assign-users-to-the-managed-service-administrator-role"></a>Asignar usuarios al rol administrador de servicios administrados
 
 Complete los pasos siguientes para asignar usuarios al rol administrador de servicios administrados:
 
-1. Inicie sesión en el [portal de Salas de Teams Premium](https://portal.rooms.microsoft.com/) con los mismos privilegios de administrador que usó para iniciar sesión en el Centro de administración de Microsoft 365.
-2. Vaya a **Configuración** >  **Configuración** >  **Roles** y, después, seleccione **Administrador de servicios administrados**.
+1. Inicia sesión en el [portal de Salas de Teams Premium](https://portal.rooms.microsoft.com/) con los mismos privilegios de administrador que usaste para iniciar sesión en el Centro de administración de Microsoft 365.
+2. Vaya a **Roles** **de configuración de configuración** >  >  y, a continuación, seleccione **Administrador de servicios administrados**.
 3. En **Administrador de servicios administrados**, seleccione la pestaña **Tareas** y, a continuación, seleccione **Agregar**.
 4. Siga el asistente para asignar un nombre a la tarea y seleccionar los usuarios que deben agregarse a ella. La tarea se aplicará a todos los grupos de salas y salas.
 5. Al final del asistente para la tarea, seleccione **Agregar tarea**.
 
-Los usuarios que tienen asignado el rol administrador de servicios administrados son responsables de la administración y supervisión cotidianas del Salas de Teams Premium portal de servicios administrados.
+Los usuarios que tienen asignado el rol de administrador de servicios administrados son responsables de la administración y supervisión cotidianas del portal de servicios administrados de Salas de Teams Premium.
 
 Después de asignar usuarios al rol Administrador de servicios administrados, vaya a [Inscribir un dispositivo Salas de Teams](enroll-a-device.md) para agregar un dispositivo Salas de Teams al portal de servicios administrados.
 

@@ -11,23 +11,21 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
-- Phone System - seo-marvel-apr2020
+- ms.teamsadmincenter.callqueues.overview
+- Phone System
+- seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar las opciones de usuario para el desvío de llamadas y la delegación.
-ms.openlocfilehash: 41d954f468166fd8600601f98ea98d5be129eccd
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 64907043448f44ff861ede026d0a4343899ad98b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65682001"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272235"
 ---
 # <a name="configure-call-settings-for-your-users"></a>Configurar las opciones de llamada para los usuarios
 
@@ -37,17 +35,17 @@ En este artículo se describe cómo el administrador puede cambiar la configurac
 - Debe inspeccionar la configuración del desvío de llamadas para todos los usuarios de un departamento y posiblemente corregirlos según corresponda.
 - Se ha empleado un nuevo asistente y necesita agregar al asistente como delegado de un grupo de empleados.
 
-Puede usar el centro de administración de Teams o Teams cmdlets de PowerShell para ver y cambiar la configuración de llamadas de los usuarios.
+Puede usar el Centro de administración de Teams o los cmdlets de PowerShell de Teams para ver y cambiar la configuración de llamadas de los usuarios.
 
-Para establecer la configuración de llamadas de un usuario, el usuario debe tener asignada una licencia de Teléfono Microsoft Sistema.
+Para establecer la configuración de llamadas de un usuario, el usuario debe tener asignada una licencia de Microsoft Phone System.
 
 ## <a name="use-the-teams-admin-center"></a>Usar el Centro de administración de Teams
 
-Puede usar el centro de administración de Teams para configurar las opciones de desvío de llamadas y sin responder, la recogida de llamadas de grupo y la delegación de llamadas para los usuarios.
+Puede usar el Centro de administración de Teams para configurar opciones de desvío de llamadas y sin responder, selección de llamadas grupales y delegación de llamadas para los usuarios.
 
 Para configurar las opciones de desvío de llamadas inmediato:
 
-1. En el centro de administración de Teams, vaya a **Usuarios** > **administrar usuarios** y seleccione un usuario.
+1. En el Centro de administración de Teams, vaya a **Usuarios** > **Administrar usuarios** y seleccione un usuario.
 
 2. En la página de detalles del usuario, vaya a la pestaña **Voz** .
 
@@ -61,7 +59,7 @@ La configuración de la delegación de llamadas y la recogida de llamadas de gru
 
 ## <a name="use-powershell"></a>Usar PowerShell
 
-Puede usar PowerShell para configurar las opciones de desvío y delegación de llamadas para los usuarios.  Usará los siguientes cmdlets, que están disponibles en Teams versión 4.0 o posterior del módulo de PowerShell:
+Puede usar PowerShell para configurar las opciones de desvío y delegación de llamadas para los usuarios.  Usará los siguientes cmdlets, que están disponibles en la versión 4.0 o posterior del módulo PowerShell de Teams:
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings) : muestra la configuración del desvío de llamadas, los delegados y la información del delegador de un usuario.
 - [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings) : establece la configuración del desvío de llamadas para un usuario.

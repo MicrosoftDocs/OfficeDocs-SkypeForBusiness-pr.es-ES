@@ -18,12 +18,12 @@ description: Aprenda las diferentes formas de asignar directivas a usuarios y gr
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: d3a77082fe3fb2e1f070c11f1ff85e6d883b2704
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 9d286d4451ce143a54beda6e457c12ba059832b3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156568"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267585"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>Asignar directivas a usuarios y grupos
 
@@ -41,7 +41,7 @@ Para asignar una directiva a un usuario:
 2. Seleccione el usuario haciendo clic a la izquierda del nombre de usuario y, a continuación, seleccione **Editar configuración**.
 3. Seleccione la directiva que quiera asignar y, a continuación, seleccione **Aplicar**.
 
-![Asigne una directiva a un usuario en el Centro de administración de Teams.](media/assign-policy-user.png)
+    :::image type="content" source="media/assign-policies-users-edit-settings.png"  alt-text="Captura de pantalla del panel Editar configuración en Administrar usuarios." lightbox="media/assign-policies-users-edit-settings-expanded.png":::
 
 > [!NOTE]
 > Para anular la asignación de una directiva especializada a un usuario, puede establecer cada directiva en **Global (valor predeterminado para toda la organización).** También puede quitar asignaciones de directiva de forma masiva para todos los usuarios asignados directamente a una directiva. Para obtener más información, lea [Anular la asignación masiva de directivas](#unassign-policies-in-bulk).
@@ -50,22 +50,22 @@ También puede hacer lo siguiente para asignar una directiva a un usuario:
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la página de directivas.
 2. Seleccione la directiva que desea asignar haciendo clic a la izquierda del nombre de la directiva.
-3. Seleccione **Administrar usuarios**.
+3. Seleccione **Asignar usuarios**.
 4. En el panel **Administrar usuarios**, busque el usuario por su nombre para mostrar o por su nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso por cada usuario que quiera agregar.
 5. Cuando termine de agregar usuarios, seleccione **Aplicar**.
 
-![Asigne una directiva a un usuario en el Centro de administración de Teams a través del segundo método.](media/assign-policy-user2.png)
+    :::image type="content" source="media/assign-policies-user-example.png" alt-text="Captura de pantalla que muestra cómo asignar una directiva a un usuario en el centro de administración de Teams a través del segundo método." lightbox="media/assign-policies-user-example-expanded.png":::
 
 ### <a name="use-powershell"></a>Usar PowerShell
 
-Cada tipo de directiva tiene su propio conjunto de cmdlets para administrarlo. Use el `Grant-` cmdlet para un tipo de directiva determinado para asignar la directiva. Por ejemplo, use el `Grant-CsTeamsMeetingPolicy` cmdlet para asignar una directiva de reunión de Teams a los usuarios. Estos cmdlets se incluyen en el módulo de PowerShell de Teams y se documentan en la [referencia de cmdlet de Skype Empresarial](/powershell/skype).
+Cada tipo de directiva tiene su propio conjunto de cmdlets para administrarlo. Use el `Grant-` cmdlet para un tipo de directiva determinado para asignar la directiva. Por ejemplo, use el `Grant-CsTeamsMeetingPolicy` cmdlet para asignar una directiva de reunión de Teams a los usuarios. Estos cmdlets se incluyen en el módulo de PowerShell de Teams y se documentan en la [referencia de cmdlet de Skype for Business](/powershell/skype).
 
  Descargue e instale la [versión pública de PowerShell de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/) (si aún no lo ha hecho) y, a continuación, ejecute lo siguiente para conectarse.
 
 > [!NOTE]
 > El conector en línea del cliente de Skype® Empresarial actualmente forma parte del módulo más reciente de Windows PowerShell de Teams.
 >
-> Si usa la última [versión pública de PowerShell de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/), no es necesario instalar la Skype Empresarial Online Connector.
+> Si usa la última [versión pública de PowerShell de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/), no es necesario instalar la Skype for Business Online Connector.
 
 ```powershell
   # When using Teams PowerShell Module
@@ -142,7 +142,7 @@ Si no especifica una clasificación, se asigna la clasificación más baja a la 
     3. Seleccione la directiva que desea asignar.
     4. Seleccione **Aplicar**.
 
-![Asigne una directiva a un grupo en el Centro de administración de Teams.](media/assign-policy-group.png)
+        :::image type="content" source="media/assign-policies-groups-messaging.png" alt-text="Captura de pantalla que muestra cómo asignar una directiva a un grupo en el Centro de administración de Teams." lightbox="media/assign-policies-groups-messaging-expanded.png":::
 
 Para quitar una asignación de directiva de grupo, en la pestaña **Asignación de directiva** de grupo de la página directiva, seleccione la asignación de grupo y, a continuación, seleccione **Quitar**.
 
@@ -194,7 +194,7 @@ Esta es una lista de las asignaciones de directiva y prioridades de una directiv
 |Ventas    |Directiva de ventas       | 1        |
 |Región Oeste     |Directiva de región oeste         |2         |
 |División    |Directiva de división         |3         |
-|Filial   |Directiva de subsidiarias        |4         |
+|Subsidiaria   |Directiva de subsidiarias        |4         |
 
 Si quitamos la directiva Región Oeste del grupo Región Oeste, las asignaciones y prioridades de la directiva se actualizarán de la siguiente manera.
 
@@ -202,7 +202,7 @@ Si quitamos la directiva Región Oeste del grupo Región Oeste, las asignaciones
 |---------|---------|---------|
 |Ventas    |Directiva de ventas       | 1        |
 |División    |Directiva de división         |2         |
-|Filial   |Directiva de subsidiarias        |3        |
+|Subsidiaria   |Directiva de subsidiarias        |3        |
 
 En este ejemplo, quitamos la directiva de reunión de Teams de un grupo.
 
@@ -248,7 +248,7 @@ Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 
 Ahora, quitamos la directiva Eventos de empleado del usuario. Esto significa que el usuario ya no tiene asignada directamente una directiva de difusión de reunión de Teams y heredará la directiva Eventos en directo del proveedor asignada al grupo al que pertenece el usuario.
 
-Para ello, use el siguiente cmdlet en el módulo Skype Empresarial PowerShell.
+Para ello, use el siguiente cmdlet en el módulo Skype for Business PowerShell.
 
 ```powershell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null

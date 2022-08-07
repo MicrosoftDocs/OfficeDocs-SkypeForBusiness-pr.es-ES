@@ -12,15 +12,14 @@ ms.localizationpriority: high
 description: Si no tiene Microsoft Teams y lo necesita de urgencia, distribuya la Prueba de Office 365 E1 a los usuarios que necesiten trabajar de forma remota o desde casa (WFH) como respuesta al ataque COVID-19 (coronavirus).
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 496b0d912ba88c17106d4941edacd2777bfcec97
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 9982f85ee8ff3262a246ec2df7f9ed3511c1c20c
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562569"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270245"
 ---
 # <a name="manage-the-office-365-e1-trial"></a>Administrar la Prueba de Office 365 E1
 

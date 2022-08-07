@@ -10,7 +10,6 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 f1.keywords:
 - NOCSH
 appliesto:
@@ -18,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre la característica para levantar la mano en reuniones de Microsoft Teams.
-ms.openlocfilehash: 35a6133c66b1f4a8d6b7a2315b76e2bc7e0f84c7
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 4ff556d35c043292482b67d0946dcfee9eb24e56
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789135"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270155"
 ---
 # <a name="raise-your-hand-option-in-teams-meetings"></a>Opción Levantar la mano en reuniones de Teams
 
