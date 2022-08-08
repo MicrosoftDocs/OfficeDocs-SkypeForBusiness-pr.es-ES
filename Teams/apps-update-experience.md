@@ -10,32 +10,31 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: En este artículo, obtendrá información sobre cómo se actualizan las aplicaciones de Microsoft, las aplicaciones personalizadas y las aplicaciones de terceros en Microsoft Teams.
-ms.openlocfilehash: 27d51a487af918e6fcee2b7806c81d31506bd1af
-ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
-ms.translationtype: MT
+ms.openlocfilehash: bcd06b9814b03d917014d8136f51a280e30007d1
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66958045"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272065"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Actualizar aplicaciones en Microsoft Teams
 
-En la mayoría de los casos, después de que los desarrolladores de aplicaciones publiquen una actualización de la aplicación, la nueva versión aparece automáticamente para los usuarios. Sin embargo, hay algunas actualizaciones en el [manifiesto de Microsoft Teams](/microsoftteams/platform/resources/schema/manifest-schema) que requieren la aceptación del usuario para completar:
+En la mayoría de los casos, después de que los desarrolladores de aplicaciones publiquen una actualización de la aplicación, la nueva versión aparecerá automáticamente para los usuarios. Sin embargo, hay algunas actualizaciones del [manifiesto de Microsoft Teams](/microsoftteams/platform/resources/schema/manifest-schema) que requieren la aceptación del usuario para completarse:
 
-* Se ha agregado o quitado un bot.
+* Se agregó o quitó un bot.
 * Se cambió la propiedad "botId" de un bot existente.
 * Se cambió la propiedad "isNotificationOnly" de un bot existente.
-* Se ha agregado la funcionalidad SupportsCalling, SupportsVideo y SupportsFiles de un bot.
-* Se ha agregado una extensión de mensajería.
-* Se ha agregado un conector nuevo.
-* Se agregaron o cambiaron los permisos dentro de "Autorización".
+* Se agregó la funcionalidad SupportsCalling, SupportsVideo y SupportsFiles de un bot.
+* Se agregó una extensión de mensajería.
+* Se agregó un nuevo conector.
+* S agregaron o cambiaron permisos dentro de "Authorization".
 
 :::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="Nueva versión disponible." lightbox="media/manage-your-custom-apps-update1.png":::
 
