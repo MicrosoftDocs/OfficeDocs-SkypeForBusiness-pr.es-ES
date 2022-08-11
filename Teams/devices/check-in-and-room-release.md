@@ -16,12 +16,12 @@ ms.collection:
 ms.topic: reference
 search.appverid: MET150
 description: En este artículo se proporcionan instrucciones sobre cómo habilitar el registro de entrada y la liberación de salas en dispositivos de paneles de Teams.
-ms.openlocfilehash: 5f411979c9fb121bb80c999b102332b0208efb81
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 31cdab94ddb6a5c6fdc017b537f446e58aa1c2c5
+ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268225"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "67298330"
 ---
 # <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Registro y liberación de salas en paneles de Microsoft Teams
 
@@ -29,7 +29,9 @@ Cuando el registro y la liberación de la sala están habilitados, los usuarios 
 
 ## <a name="requirements"></a>Requirements 
 
-Esta característica se puede usar en una implementación de Panel de Teams independiente. También puede emparejar paneles de Teams con Salas de Teams en Android con la versión de la aplicación 1449/1.0.96.2022011305 o posterior para obtener funcionalidades adicionales, como las notificaciones de registro.  
+Esta característica se puede usar en una implementación de Panel de Teams independiente. También puede emparejar paneles de Teams con Salas de Teams en Android con la versión de la aplicación 1449/1.0.96.2022011305 o posterior para obtener funcionalidades adicionales, como las notificaciones de registro.
+
+El buzón de correo compartido asociado a la Panel de Teams debe tener la zona horaria correcta establecida para que esta característica funcione correctamente. Para obtener información sobre cómo establecer la zona horaria para los buzones compartidos, vea [Configuración de zona horaria para buzones compartidos en Outlook en la Web](/exchange/troubleshoot/outlook-on-the-web-issues/shared-mailboxes-time-zone-setting).
 
 ## <a name="enable-check-in-and-room-release"></a>Habilitar el registro de entrada y la liberación de la sala 
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b547990a05d6c4ff0bd7a3bd36fdf3fbe431202e
-ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
+ms.openlocfilehash: 73f11abed8101031361e92d008c4edbd89b9a31c
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66958145"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278774"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar la conexión principal en Microsoft Teams para Educación
 
@@ -181,7 +181,7 @@ Una vez que las directivas de acceso externo a nivel de usuario se establecen co
 
 ## <a name="turn-on-the-parents-app-in-the-teams-admin-center"></a>Activar la aplicación Padres en el Centro de administración de Teams
 
-La aplicación Padres está desactivada de forma predeterminada, por lo que los propietarios de equipos de clase no la verán en sus equipos de clase hasta que se permita a través del Centro de administración de Teams. La aplicación Padres está activada en el Centro de administración de Teams con [Permitir aplicaciones bloqueadas por editores](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers).
+La aplicación Padres está desactivada de forma predeterminada, por lo que los propietarios de equipos de clase no la verán en sus equipos de clase hasta que se permita a través del Centro de administración de Teams. La aplicación Padres está activada en el Centro de administración de Teams con [Permitir aplicaciones bloqueadas por desarrolladores](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers).
 
 En cualquier momento, la aplicación se puede desactivar en el nivel de inquilino mediante [Permitir y bloquear aplicaciones](manage-apps.md#allow-and-block-apps) en el Centro de administración de Teams. Si está desactivada en el nivel de inquilino, se bloqueará para todos los usuarios, incluso si los permisos a nivel de usuario están activados.
 

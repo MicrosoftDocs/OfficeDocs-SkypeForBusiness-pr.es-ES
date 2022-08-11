@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: f78ef3b4d637f166ac3c20d50e16532eff9db790
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7feb5cbf411884bfe5249ebf0bbe237c4547fcbc
+ms.sourcegitcommit: 976d49c8c1104282c205ac533ed10450a5371950
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271335"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67304079"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados por Microsoft Teams
 
@@ -152,6 +152,12 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo  | Versión de firmware  | Versión del producto incluida  |
 |:----------------|:--------------|:----------------------------|
+|Yealink T55A/T56A/T58A   | `58.15.0.168`     | #3A de actualización de 2022  |
+|Yealink VP59  | `91.15.0.102`     | #3A de actualización de 2022  |
+|Yealink CP960  | `73.15.0.163`     | #3A de actualización de 2022  |
+|Yealink CP965  | `143.15.0.12`     | #3A de actualización de 2022  |
+|Yealink MP54/MP56/MP58  | `122.15.0.91`     | #3A de actualización de 2022  |
+|Yealink MP52  | `145.15.0.42`     | #3A de actualización de 2022  |
 |Poly Trio C60 | `7.3.1.0813` | #1C de actualización de 2022 |
 |Poly CCX400/CCX500/CCX600/CCX505 | `7.3.1.0811` | #1C de actualización de 2022
 |Yealink T55A/T56A/T58A   | `58.15.0.157`     | #2A de actualización de 2022  |
@@ -240,6 +246,7 @@ Las siguientes son las últimas Salas de Teams en las versiones de la aplicació
 
 | Lanzamiento del producto| Fecha de lanzamiento | Versión de aplicación de Microsoft Teams | versión Portal de empresa | versión del agente de Administración |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| #2A de actualización de 2022  | 8 de agosto de 2022 |`1449/1.0.96.2022072103`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Actualización n.º 2 de 2022  | 25 de mayo de 2022 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Actualización n.º 1 de 2022  | 24 de febrero de 2022 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | #2A de actualización de 2021 | 15 de julio de 2021  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |

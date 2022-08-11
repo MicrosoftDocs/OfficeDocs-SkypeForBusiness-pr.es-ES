@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo asignar licencias de cuenta de recursos de Teams Phone gratuitas o licencias de usuario de Teléfono Teams Estándar de pago a cuentas de recursos de su organización.
-ms.openlocfilehash: 07b47b2ec5b24b1edbfb599dc5a61e96169a02a2
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: f8aaf7480fc228fc78879ed5905aaaf7092777ab
+ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615406"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "67298300"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>Teléfono Microsoft Teams licencias de cuenta de recursos
 
@@ -34,7 +34,7 @@ Las organizaciones con Teléfono Teams Estándar o Teams Phone con plan de llama
 Todos los operadores automáticos y las colas de llamadas requieren una cuenta de recursos asociada. Las cuentas de recursos que requieren un número de teléfono necesitan una licencia gratuita *Teléfono Microsoft Teams cuenta* de recursos o una licencia de usuario *de Teléfono Teams Estándar* de pago antes de que se pueda aplicar un número de teléfono a la cuenta de recursos.
 
 > [!TIP]
-> No se necesita ninguna licencia para las cuentas de recursos que se usarán con operadores automáticos anidados o colas de llamadas que no tengan asignado un número de teléfono. Consulte el siguiente diagrama para obtener referencia.
+> No se necesita ninguna licencia para las cuentas de recursos que se usarán con operadores automáticos anidados o colas de llamadas que no tengan asignado un número de teléfono.
 
 ## <a name="resource-account-license-allocation"></a>Asignación de licencias de cuenta de recursos
 
