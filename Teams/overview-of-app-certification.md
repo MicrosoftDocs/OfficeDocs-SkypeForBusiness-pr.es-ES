@@ -1,6 +1,5 @@
 ---
 title: Información general sobre la certificación de aplicaciones por parte de Microsoft
-ms.reviewer: ''
 description: Obtenga información sobre el programa de cumplimiento de aplicaciones de Microsoft 365 para la seguridad, el cumplimiento y la privacidad de aplicaciones de terceros.
 ms.topic: article
 author: guptaashish
@@ -18,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b18e8e596fc1b8180a056c5a141b45e60bd7f889
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 9918c1ce81464f2fbe9a0c16bc0373e54858d79b
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880424"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299089"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Programa de cumplimiento de aplicaciones de Microsoft 365 para la seguridad, el cumplimiento y la privacidad de aplicaciones de terceros
 
@@ -35,7 +34,7 @@ El programa de conformidad normativa de Microsoft comprueba y audita una aplicac
 
 ## <a name="publisher-verification"></a>Verificación del editor
 
-Antes de que un desarrollador de aplicaciones pueda enviar su aplicación a Microsoft, se le pedirá que realice una comprobación. Un publicador comprueba su identidad con su cuenta de Microsoft Partner Network (MPN) y asocia esa cuenta de MPN al registro de la aplicación. La verificación del publicador ayuda a los administradores y usuarios finales a comprender la autenticidad de los desarrolladores de aplicaciones. La comprobación del publicador proporciona las siguientes ventajas:
+Antes de que un desarrollador de aplicaciones pueda enviar su aplicación a Microsoft, se le pedirá que realice una comprobación. Un desarrollador comprueba su identidad con su cuenta de Microsoft Partner Network (MPN) y asocia esa cuenta de MPN al registro de la aplicación. La verificación del publicador ayuda a los administradores y usuarios finales a comprender la autenticidad de los desarrolladores de aplicaciones. La comprobación del publicador proporciona las siguientes ventajas:
 
 * Mayor transparencia y reducción de riesgos para los clientes: esta capacidad ayuda a los clientes a comprender qué aplicaciones utilizadas en sus organizaciones son publicadas por desarrolladores en los que confían.
 * Mejora de la marca: aparece un distintivo `verified` en la solicitud de consentimiento de Azure Active Directory, en la página de las aplicaciones empresariales y en otras interfaces de usuario utilizadas por los usuarios finales y los administradores.

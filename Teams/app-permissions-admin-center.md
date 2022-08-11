@@ -1,24 +1,23 @@
 ---
 title: Ver permisos de aplicaciones y conceder consentimiento de administrador en el Centro de administración de Microsoft Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
-ms.reviewer: vaibhava
 manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Obtenga información sobre cómo ver los permisos solicitados por las aplicaciones y conceder el consentimiento del administrador a las aplicaciones en la página Administrar aplicaciones del Centro de administración de Microsoft Teams.
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e3d7ca4f86660080cb387a9d4cd80927f296040
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: f5bd84ce2fa19fc7a9aa823250fa77f1980055f0
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175654"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299059"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Ver permisos de aplicaciones y conceder consentimiento de administrador en el Centro de administración de Microsoft Teams
 
@@ -86,11 +85,11 @@ Para ver los permisos de RSC para una aplicación, siga estos pasos:
 
 ### <a name="the-view-details-link-isnt-displayed-in-the-permissions-column-for-some-third-party-apps-that-request-permissions"></a>El vínculo "Ver detalles" no se muestra en la columna Permisos para algunas aplicaciones de terceros que solicitan permisos
 
-Actualmente, la capacidad de revisar permisos y conceder consentimiento no está disponible para todas las aplicaciones de terceros registradas en Azure AD que solicitan permisos. En lugar del vínculo **Ver detalles**, verá **--** en la columna **Permisos**. Estamos trabajando con ISV para habilitar esta función para sus aplicaciones.
+La capacidad de revisar los permisos y dar consentimiento no está disponible para todas las aplicaciones de terceros. Normalmente, las aplicaciones de terceros se registran en Azure Active Directory cuando las aplicaciones solicitan permisos. En lugar del vínculo **Ver detalles**, verá `--` en la columna **Permisos**.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
-* [Administre las aplicaciones en el Centro de administración de Microsoft Teams](manage-apps.md)
+* [Administrar aplicaciones en el Centro de administración de Microsoft Teams](manage-apps.md)
 * [Permisos y consentimiento en el extremo de la plataforma de identidad de Microsoft](/azure/active-directory/develop/v2-permissions-and-consent)
 * [Consentimiento específico de recursos en Teams](resource-specific-consent.md)
 * [Consentimiento específico de recursos (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)

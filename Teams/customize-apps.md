@@ -3,7 +3,6 @@ title: Modificar la apariencia de las aplicaciones en el almacén de Teams de su
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,15 +13,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo cambiar la apariencia de la aplicación y cambiar el nombre de una aplicación editando los detalles y los metadatos de la aplicación.
-ms.openlocfilehash: 32c526e2cbbb4ef464e0daa777228e0a17dd391b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269085"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298889"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>Personalizar la apariencia de las aplicaciones en el almacén de Teams de su organización
 
@@ -102,13 +101,13 @@ Ahora los usuarios finales de Teams pueden ver la aplicación personalizada en s
 
 Tenga en cuenta los siguientes detalles sobre la personalización de una aplicación:
 
-* Al personalizar las aplicaciones y cualquier descripción relacionada con una aplicación, asegúrese de seguir las directrices de personalización que proporcione el editor de la aplicación en su documentación o sus condiciones de uso. También es responsable de respetar los derechos de otros usuarios con respecto a las imágenes de terceros que pueda usar.
+* Al personalizar las aplicaciones y cualquier descripción relacionada con una aplicación, asegúrese de seguir las directrices de personalización que proporcione el desarrollador de la aplicación en su documentación o sus condiciones de uso. También es responsable de respetar los derechos de otros usuarios con respecto a las imágenes de terceros que pueda usar.
 
 * Los datos de personalización proporcionados por el administrador se almacenan en la región más cercana.
 
 * Es responsable de asegurarse de que los vínculos a las condiciones de uso o a la política de privacidad son válidos.
 
-* En caso de que el editor de la aplicación ya no permita que un campo sea personalizable, aparece un mensaje en la página de detalles de la aplicación que notifica al administrador sobre los campos que ya no se pueden personalizar. Todos los cambios realizados en ese campo se revertirán a los valores originales.
+* En caso de que el desarrollador de la aplicación ya no permita que un campo sea personalizable, aparece un mensaje en la página de detalles de la aplicación que notifica al administrador sobre los campos que ya no se pueden personalizar. Todos los cambios realizados en ese campo se revertirán a los valores originales.
 
 * Se recomienda probar los cambios de personalización de aplicaciones en un inquilino de prueba de Teams antes de realizar estos cambios en el entorno de producción.
 
