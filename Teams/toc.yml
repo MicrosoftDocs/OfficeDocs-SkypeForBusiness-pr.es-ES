@@ -1533,14 +1533,18 @@ items:
             href: adobe-acrobat-pdf-viewer-teams.md
           - name: Administrar Microsoft 365 y los conectores personalizados
             href: Office-365-custom-connectors.md
-      - name: Administrar aplicaciones de línea de negocio personalizadas
+      - name: Administrar aplicaciones personalizadas
         items:
+          - name: Administrar aplicaciones personalizadas y transferidas localmente
+            href: custom-app-overview.md
+          - name: Administrar directivas de aplicación personalizadas
+            href: teams-custom-app-policies-and-settings.md
+          - name: Publicar aplicaciones personalizadas enviadas mediante API
+            href: submit-approve-custom-apps.md
+          - name: Publicar una aplicación personalizada enviada como paquete
+            href: upload-custom-apps.md
           - name: Administrar aplicaciones de Power Platform en el centro de administración de Teams
             href: manage-power-platform-apps.md
-          - name: Publicar aplicaciones personalizadas en la tienda de la organización
-            href: submit-approve-custom-apps.md
-          - name: Publicar una aplicación personalizada cargando un paquete de aplicación
-            href: upload-custom-apps.md
       - name: Controles de administración para controlar las aplicaciones
         items:
           - name: Información general sobre la administración de aplicaciones
@@ -1557,7 +1561,7 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: Personalizar las aplicaciones de Teams para sus trabajadores de primera línea
             href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-          - name: Permisos de graph y consentimiento del administrador en Azure AD
+          - name: Revisar los permisos de Azure AD y conceder el consentimiento del administrador
             href: app-permissions-admin-center.md
           - name: Administrar el consentimiento específico de recursos para su organización
             href: resource-specific-consent.md
