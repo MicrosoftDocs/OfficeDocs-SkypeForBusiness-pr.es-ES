@@ -1,9 +1,8 @@
 ---
 title: Experiencia de actualización de aplicaciones en Microsoft Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,31 +13,33 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
-description: En este artículo, obtendrá información sobre cómo se actualizan las aplicaciones de Microsoft, las aplicaciones personalizadas y las aplicaciones de terceros en Microsoft Teams.
-ms.openlocfilehash: bcd06b9814b03d917014d8136f51a280e30007d1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: En este artículo, aprenderá cómo se actualizan las aplicaciones de Microsoft, las aplicaciones personalizadas y las aplicaciones de terceros en Microsoft Teams y cómo los administradores facilitan esto.
+ms.openlocfilehash: ed91ad441b773833838796d9ea8c71038c842b88
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272065"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299049"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Actualizar aplicaciones en Microsoft Teams
 
-En la mayoría de los casos, después de que los desarrolladores de aplicaciones publiquen una actualización de la aplicación, la nueva versión aparecerá automáticamente para los usuarios. Sin embargo, hay algunas actualizaciones del [manifiesto de Microsoft Teams](/microsoftteams/platform/resources/schema/manifest-schema) que requieren la aceptación del usuario para completarse:
+En la mayoría de los casos, cuando una nueva versión de una aplicación está disponible en la Tienda Teams, la aplicación se actualiza automáticamente para los usuarios. Sin embargo, algunos cambios específicos en la nueva versión de la aplicación requieren la aceptación del usuario para que la aplicación se actualice. La aceptación del usuario garantiza el conocimiento de los cambios, como la funcionalidad o el acceso. Si los desarrolladores de aplicaciones realizan los siguientes cambios específicos en las aplicaciones de Microsoft Teams, los usuarios finales deben aprobar la actualización de la aplicación:
 
-* Se agregó o quitó un bot.
-* Se cambió la propiedad "botId" de un bot existente.
-* Se cambió la propiedad "isNotificationOnly" de un bot existente.
-* Se agregó la funcionalidad SupportsCalling, SupportsVideo y SupportsFiles de un bot.
+* Se agrega un bot.
+* Se cambia la propiedad `botId` o la propiedad `isNotificationOnly` de un bot existente.
+* Se agrega la funcionalidad `SupportsCalling`, `SupportsVideo`y `SupportsFiles` de un bot.
 * Se agregó una extensión de mensajería.
-* Se agregó un nuevo conector.
-* S agregaron o cambiaron permisos dentro de "Authorization".
+* Los permisos dentro de la autorización se agregan o cambian.
+* `Id` o `ApplicationPermissionsHash` o ambos se cambian dentro de la `webApplicationInfo`.
 
-:::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="Nueva versión disponible." lightbox="media/manage-your-custom-apps-update1.png":::
+<!--- image update
+:::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="New version available." lightbox="media/manage-your-custom-apps-update1.png":::
 
-:::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="Opción de actualización para una aplicación." lightbox="media/manage-your-custom-apps-update2.png":::
+:::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="Upgrade option for an app." lightbox="media/manage-your-custom-apps-update2.png":::
+--->
 
-> [!NOTE]
-> El proceso de actualización se aplica a todas las actualizaciones de aplicaciones de Microsoft, aplicaciones personalizadas y aplicaciones de terceros.
+## <a name="related-articles"></a>Artículos relacionados
+
+* [Comprender el esquema del manifiesto para las actualizaciones realizadas en las aplicaciones](/microsoftteams/platform/resources/schema/manifest-schema).
