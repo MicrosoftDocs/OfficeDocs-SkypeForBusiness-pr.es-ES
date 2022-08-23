@@ -29,7 +29,8 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "ocv-translation-feedback": true},
     "fileMetadata": {},
     "template": [],
     "dest": "OfficeDocs-SkypeForBusiness"
