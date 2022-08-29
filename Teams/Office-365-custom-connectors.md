@@ -3,7 +3,6 @@ title: Administrar Microsoft 365 y los conectores personalizados
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,14 +15,14 @@ f1.keywords:
 description: Obtenga información sobre cómo los Conectores mantienen actualizado a su equipo entregando con frecuencia contenido y actualizaciones directamente en un canal de Teams para los servicios que usa.
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9bfc425fbabc5270a3b24cfa2248a9ee2eb7b833
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 22d14ec191fcc6c13e8384cae0396b5175a0de0a
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267615"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278474"
 ---
 # <a name="manage-microsoft-365-and-custom-connectors"></a>Administrar Microsoft 365 y los conectores personalizados
 

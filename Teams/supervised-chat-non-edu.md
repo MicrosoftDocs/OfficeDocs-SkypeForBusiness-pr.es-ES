@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga información sobre los chats supervisados para inquilinos no educativos en las reuniones de Microsoft Teams.
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 8b587dbc7537c612d2b48f5b202cd94e55e4d8f6
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6f499845f77ededf47fa907961624081197b65b1
+ms.sourcegitcommit: 2d873e774c1a1182326e22e5de6ee5df4d50f41e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270465"
+ms.lasthandoff: 08/27/2022
+ms.locfileid: "67446773"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>Chats supervisados para inquilinos no educativos
 
@@ -56,7 +56,7 @@ Los roles no se pueden asignar a los invitados de su inquilino. A los invitados 
 
 ## <a name="allow-supervised-chat"></a>Permitir chat supervisado
 
-El chat supervisado está deshabilitado de forma predeterminada para su inquilino. Después de establecer roles de permisos de chat para los usuarios, puede habilitar el chat supervisado dentro de su inquilino yendo a **Configuración** \> de **Teams** para toda la organización y estableciendo la directiva de **permisos de chat basado en roles** **en Activado**. También puedes usar PowerShell para habilitar el chat supervisado estableciendo AllowRoleBasedChatPermissions en True. Este cmdlet se encuentra en [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration).
+El chat supervisado está deshabilitado de forma predeterminada para su inquilino. Después de establecer roles de permisos de chat para los usuarios, puede habilitar el chat supervisado dentro de su inquilino yendo a **Configuración de** **Teams** \> teams y estableciendo la directiva de **permisos de chat basado en** roles **en Activado**. También puedes usar PowerShell para habilitar el chat supervisado estableciendo AllowRoleBasedChatPermissions en True. Este cmdlet se encuentra en [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration).
 
 El chat supervisado debe estar habilitado para todos los usuarios del espacio empresarial y no se puede habilitar para solo una parte de los usuarios.
 

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Obtenga información sobre cómo usar el informe de Power BI del panel de calidad de llamadas para ver los datos históricos del operador automático y de la cola de llamadas.
-ms.openlocfilehash: b9bb3cf0990058cd16ed35d52d07f63be6cd90fb
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: ec345a66a06b03bb9926ff74ceac7b85b31a0190
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67024013"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443347"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Informe de historial de la cola de llamadas del operador automático &
 
@@ -39,7 +39,7 @@ La plantilla de Power BI Informe histórico de la cola de llamadas del operador 
 
 Estos informes usan datos del almacén de datos del [panel de calidad de llamadas](CQD-Power-BI-query-templates.md) . Los informes permiten a las organizaciones informar sobre el número de llamadas que procesan los operadores automáticos y las colas de llamadas.  Los informes también proporcionan información sobre el rendimiento del agente en las colas de llamadas.
 
-### <a name="v160-published-on-july-22-2022"></a>V1.60 publicado el 22 de julio de 2022
+### <a name="v163-published-on-august-24-2022"></a>V1.63 publicado el 24 de agosto de 2022
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -124,36 +124,34 @@ Siga estos pasos:
 
 |Sección informe                          |Descripción                                                       |
 |:---------------------------------------|:-----------------------------------------------------------------|
-|Origen de llamadas<sup>entrantes 1</sup>        |Distribución de llamadas por origen de llamadas interno o externo             |
-|Totales del método de búsqueda en directorios          |Distribución de llamadas por tipo de búsqueda                               |
-|Acción del autor de la llamada                           |Distribución de llamadas por receptor de llamadas                             |
-|Resultado de llamada                             |Distribución de llamadas por estado de llamada final                          |
-|Recuento de acciones del autor de la llamada                     |Distribución de llamadas por número de acción usada durante la llamada        |
+|Origen de llamadas entrantes<sup>1</sup>        |Distribución de llamadas por origen de llamadas interno o externo            |
+|Método de búsqueda en directorios                 |Distribución de llamadas por tipo de búsqueda                              |
+|Recuento de acciones del autor de la llamada                     |Distribución de llamadas por número de acción usada durante la llamada       |
+|Promedio de segundos en AA                   |Número medio de segundos que pasan los autores de llamadas en la AA                 |
+|Acciones de llamada promedio                  |Número medio de acciones que realizan los autores de llamadas en la AA               |
+|Resultados de llamadas                            |Distribución de llamadas por estado de llamada final                         |
+|Sección inferior del informe                 |Desglose del flujo de llamadas                                               |
+
 
 
 #### <a name="report-to-cqd-table-and-field-mapping"></a>Informar sobre la tabla y asignación de campos del CQD
 
-|Pestaña Informe            |Nombre de tabla de informe     |Filtro global                          |
-|:---------------------|:---------------------|:--------------------------------------|
-|Operador automático        |fAutoAttendant        |AAStartTime está dentro de los últimos 28 días |
-
-
-|Nombre de tabla de informe            |Nombre de la tabla de origen            |Tratamiento       |
-|:----------------------------|:----------------------------|:----------------|
-|fAutoAttendant               |AutoAttendant                |Source = AutoAttendant, <br>#"Filas filtradas" = Table.SelectRows(Source, each true), <br>#"Operador automático" = Table.AddColumn(#"Filas filtradas", "Nombre AA", cada Lista.Primero(Text.Split([AAIdentity], "@"))), <br>#"Changed Type" = Table.TransformColumnTypes(#"Auto Attendant",{{"AAStartTime", type datetime}}), <br>#"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"AAIdentity"}) |
-
+|Pestaña Informe            |Nombre de tabla de informe     |Nombre de la tabla de origen            |Filtro global                          |
+|:---------------------|:---------------------|:----------------------------|:--------------------------------------|
+|Operador automático        |fAutoAttendant        |AutoAttendant                |Ninguna                                   |
 
 |Sección informe                                  |Campo(s) Utilizados                              |Filtros aplicados     |
 |:-----------------------------------------------|:------------------------------------------|:-------------------|
 |Selector de fecha                                   |AAStartTime                                |Ninguna                |
+|Selector intervalo de tiempo                             |AAStartHour                                |Ninguna                |
 |Operador automático                                  |Nombre AA                                    |Ninguna                |
-|Origen de llamadas<sup>entrantes 1</sup>                |Tipo de llamada<br>TotalCallCount                |Llamadas externas: el tipo de llamada es externo<br>Llamadas internas: el tipo de llamada es interno |
-|Totales del método de búsqueda en directorios                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod es abs_search_dtmf o abs_search_name    |
-|Acciones del autor de la llamada                                  |AATransferAction<br>TotalCallCount         |Ninguna                                                             |
-|Promedio de segundos en AA<br>Acciones de llamada promedio |AAChainDuration<br>AACallerActionCount     |Ninguna                                                             |
-|Resultados de llamadas                                    |AACallResult<br>TotalCallCount             |Ninguna                                                             |
-|Recuento de acciones del autor de la llamada                            |AACallerActionCount<br>TotalCallCount      |Ninguna                                                             |
-|Sección inferior del informe                         |Nombre AA<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Tipo de llamada<br>TotalCallCount |Ninguna                |
+|Origen de llamadas entrantes<sup>1</sup>                |Tipo de llamada<br>Suma de TotalCallCount (medida) |Llamadas externas: el tipo de llamada es externo<br>Llamadas internas: el tipo de llamada es interno |
+|Método de búsqueda en directorios                         |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod es abs_search_dtmf o abs_search_name    |
+|Recuento de acciones del autor de la llamada                             |AACallerActionCount<br>TotalCallCount      |Ninguna                                                             |
+|Promedio de segundos en AA                           |AAChainDuration (medida)                  |Ninguna                                                             |
+|Acciones de llamada promedio                          |AACallerActionCount (medida)              |Ninguna                                                             |
+|Resultados de llamadas                                    |AACallResult<br>AACallResultLegend<br>TotalCallCount             |Ninguna                                       |
+|Sección inferior del informe                         |Nombre AA<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Tipo de llamada<br>MM-DD<br>TotalCallCount |Ninguna       |
 
 #### <a name="fautoattendant-cqd-fields-description"></a>Descripción de los campos fAutoAttendant CQD
 
@@ -161,19 +159,25 @@ Siga estos pasos:
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |Nombre AA                                 |Texto                     |Nombre de la cuenta de recursos adjunta al operador automático<br><br>Si se **aa_test@microsoft.com** el nombre completo de la cuenta de recursos, este valor será: **aa_test** |
 |AACallerActionCount                     |Número entero             |Resumir: Suma<br>Recuento de acciones seleccionadas por el autor de la llamada en operador automático durante la llamada  |
+|AACallerActionCount (medida)          |Número entero             |Igual que antes, excepto será 0 si no hay llamadas en lugar de en blanco                              |
 |AACallFlow                              |Texto                     |Encapsula los diferentes estados de la llamada del operador automático (valores posibles):<br><br>§ abs_search<br>§ anuncio<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |Texto                     |Resultado de la llamada final: valores posibles:<br><br>§ failed_to_establish_media (no se pudo establecer la parte multimedia de la llamada)<br>§ failover_to_operator (llamada transferida al operador normalmente debido a un error del sistema)<br>§ oaa_chain_too_long (demasiadas piernas en la AA)<br>§ oaa_session_too_long (la sesión de AA ha durado demasiado tiempo)<br>§ service_declined (AA no aceptó la llamada)<br>§ service_terminated (la configuración AA desconecta la llamada)<br>§ terminated_automatic_selection (la configuración AA desconecta las llamadas)<br>§ terminated_no_operator (llamada finalizada debido a un error no definido por un operador) <br>§ terminated_transfer_failed (llamada cancelada por error en la transferencia - normalmente a número expernal)<br>***§ transferred_to_operator*** (la llamada se transfirieron al operador- normalmente debido a un error de entrada del usuario)<br>§ transferred_to_receptionist (igual que transferred_to_operator)<br>§ transferred_to_self (la llamada se devolvió al inicio de la AA - normalmente desde una opción de anuncio de menú)<br>§ transferred_to_shared_voicemail (la llamada se transfirieron al correo de voz compartido)<br>§ transferred_to_user (la llamada se ha transferido a un usuario- incluye colas de llamadas)<br>§ Desconocido (se ha producido un error desconocido)<br>§ user_terminated (el llamador colgó) |
+|AACallResult                            |Texto                     |Resultado de la llamada final: valores posibles:<br><br>§ failed_to_establish_media (no se pudo establecer la parte multimedia de la llamada)<br>§ failover_to_operator (llamada transferida al operador normalmente debido a un error del sistema)<br>§ oaa_chain_too_long (demasiadas piernas en la AA)<br>§ oaa_session_too_long (la sesión de AA ha durado demasiado tiempo)<br>§ service_declined (AA no aceptó la llamada)<br>§ service_terminated (la configuración AA desconecta la llamada o la llamada colgada)<br>§ terminated_automatic_selection (la configuración AA desconecta las llamadas)<br>§ terminated_no_operator (llamada finalizada debido a un error no definido por un operador) <br>§ terminated_transfer_failed (llamada terminada como error en la transferencia - normalmente a un número externo)<br>§ transfer_in_progress (transferencia AA->AA)<br>§ transferred_to_operator (la llamada se transfirieron al operador- normalmente debido a un error del usuario)<br>§ transferred_to_receptionist (igual que transferred_to_operator)<br>§ transferred_to_self (la llamada se devolvió al inicio de la AA - normalmente desde una opción de anuncio de menú)<br>§ transferred_to_shared_voicemail (la llamada se transfirieron al correo de voz compartido)<br>§ transferred_to_user (la llamada se ha transferido a un usuario- incluye colas de llamadas)<br>§ Desconocido (se ha producido una condición desconocida)<br>§ user_terminated (el llamador colgó) |
+|Leyenda de llamada de AA                          |Texto                     |Configura elementos de leyenda basados en AACallResult                               |
 |AAChainDuration                         |Número decimal           |Resumir: Suma<br>Duración de la llamada en el operador automático                     |
+|AAChainDuration (medida)               |Número decimal           |Igual que antes, excepto será 0 si no hay llamadas en lugar de en blanco              |
 |AAChainIndex                            |Texto                     |                                                                         |
 |AAConnectivityType                      |Texto                     |Tipo de llamada: valores posibles:<br><br>§ Llamada externa<br>§ InternalCall |
 |AACount                                 |Texto                     |Número de operadores automáticos implicados en la llamada                               |
 |AADirectorySearchMethod                 |Texto                     |Método de búsqueda última libreta de direcciones: valores posibles:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
+|AAStartHour                             |Número decimal           |Hora de inicio de llamada de Operador automático                                           |
 |AAStartTime                             |Fecha y hora                |Hora de inicio de llamada de Operador automático                                           |
-|AATransferAction                        |Texto                     |Tipo de destino de transferencia de llamada: posibles valores:<br><br>***§ aplicación - entidad** _<br>de aplicación de voz§ external_pstn<br>_*_§ hunt_group - entidad_*_<br>_* de cola de _llamadas§ orgaa - Entidad operador automático organizativo_**<br>§ shared_voicemail<br>§ desconocido<br>§ usuario |
-|Tipo<sup>de llamada 1</sup>                   |Texto                     |Tipo de llamada: valores posibles:<br><br>§ Externo<br>§ Interno         |
+|AATransferAction                        |Texto                     |Tipo de destino de transferencia de llamada: posibles valores:<br><br>§ aplicación - entidad de aplicación de voz<br>§ external_pstn<br>§ hunt_group - Entidad de cola de llamadas<br>§ orgaa: entidad Operador automático<br>§ shared_voicemail<br>§ desconocido<br>§ usuario |
+|Tipo<sup>de llamada 1</sup>                   |Texto                     |Tipo de llamada: valores posibles:<br><br>§ Externo<br>§ Interno           |
 |IsAAInvolved                            |Texto                     |Siempre 1                                                                 |
+|MM-DD                                   |Texto                     |Llamada del mes del operador automático                                            |
 |PSTNMinutes                             |Número entero             |Resumir: Suma<br>Uso total de minutos                                     |
 |TotalCallCount                          |Número entero             |Resumir: Suma<br>Siempre 1: se usa para proporcionar la suma de todas las llamadas            |
+|Suma de TotalCallCount (medida)         |Número entero             |Igual que antes, excepto será 0 si no hay llamadas en lugar de en blanco              |
 
 
 ### <a name="cloud-call-queue-analytics"></a>Análisis de cola de llamadas en la nube
@@ -182,79 +186,73 @@ Siga estos pasos:
 
 |Sección informe                          |Descripción                                                        |
 |:---------------------------------------|:------------------------------------------------------------------|
-|Origen de llamadas<sup>entrantes 1</sup>        |Distribución de llamadas por origen de llamada interno o externo              |
-|Volumen de llamadas                             |Distribución de llamadas por colas de llamadas                                |
-|Resultado del autor de la llamada                           |Distribución de llamadas por resultado de llamada                                |
-|Tiempo de espera/desbordamiento acción total de llamada      |Distribución de NO desviados(abandonados) llamadas por resultado de llamada       |
-|Totales de destino de transferencia o reenvío          |Distribución de llamadas desviadas por resultado de llamada                      |
-|Relación de llamadas abandonadas                   |Relación entre el número de llamadas exitosas y las llamadas abandonadas                        |
-|Duración media de la sesión (segundos)        |Duración de la llamada en segundos agrupada por llamadas abandonadas o correctas       |
+|Origen de llamadas entrantes<sup>1</sup>        |Distribución de llamadas por origen de llamadas interno o externo             |
+|Tiempo medio de espera (segundos)             |Esperar tiempo para las llamadas contestadas y abandonadas                          |
+|Volumen de llamadas y recuento de agentes aceptados      |Distribución de llamadas por colas de llamadas / Número máximo de opt-ins del agente  |
+|Resultados de llamadas                            |Distribución de llamadas por resultado de llamada                               |
+|Llamadas abandonadas                         |Distribución de llamadas abandonadas por colas de llamadas                     |
+|Duración media de la sesión (segundos)        |Duración de la llamada en segundos agrupada por resultado de llamada                      |
+|Destinos de desbordamiento o tiempo de espera de llamadas      |Distribución de llamadas con tiempo de salida o desbordados                 |
+
 
 #### <a name="report-to-cqd-table-and-field-mapping"></a>Informar sobre la tabla y asignación de campos del CQD
 
-|Pestaña Informe         |Nombres de tabla de informe                                                          |Filtro global |
-|:------------------|:---------------------------------------------------------------------------|:-------------|
-|Cola de llamadas         |Fechas<br>dCQ-CQIdenity<br>fCallQueueAnalytics<br>fCallQueueFinalStateAction |Ninguna          |
- 
-|Nombre de tabla de informe            |Nombre de la tabla de origen            |Tratamiento       |
-|:----------------------------|:----------------------------|:----------------|
-|Fechas                        |Fechas                        |Ninguna             |
-|dCQ-CQIdentity               |CallQueueAnalytics           |Source = CallQueueAnalytics, <br>#"Removed Columns" = Table.RemoveColumns(Source,{"Call Count", "Call Queue Call Result", "Date", "PSTN Connectivity Type", "Call Queue Target Type", "PSTN Total Minutes"}),<br>Distinct = Table.Distinct(#"Columnas quitadas") |
-|fCallQueueAnalytics          |CallQueueAnalytics           |Ninguna             |
-|fCallQueueFinalStateAction   |CallQueueFinalStateAction    |Ninguna             |
+|Pestaña Informe            |Nombre de tabla de informe                                   |Nombre de la tabla de origen                               |Filtro global       |
+|:---------------------|:---------------------------------------------------|:-----------------------------------------------|:-------------------|
+|Cola de llamadas            |fCallQueueAnalytics<br>fCallQueueFinalStateAction   |CallQueueAnalytics<br>CallQueueFinalStateAction |Ninguna                |
 
 |Sección informe                      |Tabla -> Campo(s) Usados                |Filtros aplicados       |
 |:-----------------------------------|:-------------------------------------|:---------------------|
-|Selector de fecha                       |Dates -> DateTime                     |Ninguna                  |
-|Identidad de la cola de llamadas                 |dCQ-CQIdentity -> identidad de la cola de llamadas |Ninguna                  |
-|Origen de llamadas<sup>entrantes 1</sup>    |fCallQueueAnalytics -> Recuento de llamadas<br>fCallQueueAnalytics -> tipo de llamada    |Llamadas externas: el tipo de llamada es externo<br>Llamadas internas: el tipo de llamada es interno |
-|Avg Waiting Time                    |fCallQueueFinalStateAction -> duración media de llamadas (segundos) |Antes de la transferencia: el resultado de llamadas en cola de llamadas se agent_joined_conference o se transferred_to_agent<br>Antes de colgar: el resultado de llamadas en cola de llamadas no está agent_joined_conference ni transferred_to_agent |
-|Resultado de llamada                         |fCallQueueAnalytics -> Recuento de llamadas<br>fCallQueueAnalytics -> resultado de llamadas de la cola de llamadas | Ninguna |
-|Tiempo de espera/desbordamiento de llamadas acción total |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> acción de estado final de la cola de llamadas |La acción de estado final de la cola de llamadas no se reenvía |
-|Totales de destino de Transferencia/Forard       |fCallQueueAnalytics -> Recuento de llamadas<br>fCallQueueAnalytics -> tipo de destino de la cola de llamadas |Ninguna |
-|Volúmenes de llamadas                        |fCallQueueAnalytics -> Recuento de llamadas<br>fCallQueueAnalytics -> identificación de la cola de llamadas<br>fCallQueueAnalytics -> Date |Ninguna |
-|Llamadas abandonadas                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> Recuento de llamadas<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned es verdadero |
-|Duración media de la sesión (segundos)    |fCallQueueFinalStateAction -> duración media de llamadas<br>fCallQueueFinalStateAction -> Date<br>fCallQueueFinalStateAction -> IsAbandoned |Ninguna |
+|Selector de fecha                       |fCallQueueAnalytics -> Date           |Ninguna                  |
+|Selector intervalo de tiempo                 |fCallQueueAnalytics -> CQHour         |Ninguna                  |
+|Cuenta de recursos de cola de llamadas         |fCallQueueAnalytics -> nombre del CQ        |Ninguna                  |
+|Origen de llamadas<sup>entrantes 1</sup>    |fCallQueueAnalytics -> Suma del recuento de llamadas (medida)<br>fCallQueueAnalytics -> tipo de llamada    |Llamadas externas: el tipo de llamada es externo<br>Llamadas internas: el tipo de llamada es interno |
+|Avg Wait Time (seconds)-Before Answered |fCallQueueFinalStateAction -> Avg of Average CQ Duration (Measure) |El resultado de llamadas en cola de llamadas es agent_joined_conference o transferred_to_agent|
+|Avg Wait Time (seconds)-Before Abandoned |fCallQueueFinalStateAction -> Avg of Average Call Duration (Measure) |El resultado de llamadas en cola de llamadas no es agent_joined_conference, transferred_to_agent, desbordamiento timed_out |
+|Recuento de Opt-In de agente y volumen de llamadas   |fCallQueueAnalytics -> Recuento de llamadas<br>fCallQueueAnalytics -> agente de cola de llamadas Opt In Count<br>fCallQueueAnalytics -> nombre del CQ<br>fCallQueueAnalytics -> Date |Ninguna |
+|Llamadas abandonadas                     |fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> TotalCallCount | La leyenda de resultados de llamadas de la cola de llamadas está abandonada |
+|Duración media de la sesión (segundos)    |fCallQueueFinalStateAction -> duración media de la cola de llamadas (seg.)<br>Leyenda de resultados de llamadas de la cola de llamadas |Duración media de la cola de llamadas (seg.) > 0 |
+|Destinos de desbordamiento o tiempo de espera de llamadas  |fCallQueueAnalytics -> Recuento de llamadas<br>fCallQueueAnalytics -> tipo de destino de la cola de llamadas<br>Leyenda de tipo de destino fCallQueue |Leyenda de tipo de destino de la cola de llamadas no contiene abandonado y agente respondido |
 
-#### <a name="dcq-cqidenity-cqd-fields-description"></a>Descripción de los campos del dCQ-CQIdenity CQD
-
-|Nombre                                    |Tipo de datos                |Descripción                            |
-|:---------------------------------------|:------------------------|:--------------------------------------|
-|Identidad de la cola de llamadas                     |Texto                     |Nombre de la cuenta de recursos adjunta a la cola de llamadas<br><br>Si se **cq_test@microsoft.com** el nombre completo de la cuenta de recursos, el valor será: **cq_test** |
 
 #### <a name="fcallqueueanalytics-cqd-fields-description"></a>Descripción de los campos fCallQueueAnalytics CQD
 
 |Nombre                                    |Tipo de datos                |Descripción                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |Recuento de llamadas                              |Número entero             |Resumir: Suma<br>Número de llamadas                                          |
-|Resultado de llamadas en cola de llamadas                  |Texto                     |Estado final de llamada de la cola de llamadas: valores posibles:<br><br>§ agent_joined_conference (llamadas en modo conferencia contestadas)<br>§ rechazada<br>§ desconectado<br>§ error<br>§ Error<br>§ no válido<br>§ desbordamiento (condición de desbordamiento cumplida)<br>§ timed_out (condición de tiempo de espera cumplida)<br>§ transferred_to_agent (llamadas en modo de transcripción contestadas {default}) |
-|Identidad de la cola de llamadas                     |Texto                     |Nombre de la cuenta de recursos adjunta a la cola de llamadas<br><br>Si se **cq_test@microsoft.com** el nombre completo de la cuenta de recursos, el valor será: **cq_test** |
+|Recuento del agente de cola de llamadas                  |Número entero             |Resumir: Suma<br>Número de agentes configurados en la cola de llamadas            |
+|Cuenta de la opción Agente de cola de llamadas           |Número entero             |Resumir: Suma<br>Número de agentes que han optado por participar en la cola de llamadas              |
+|Resultado de llamadas en cola de llamadas                  |Texto                     |Estado final de llamada de la cola de llamadas: valores posibles:<br><br>§ agent_joined_conference (llamadas en modo conferencia contestadas)<br>§ rechazada<br>§ desconectado<br>§ error<br>§ Error<br>§ no válido<br>§ desbordamiento (condición de desbordamiento cumplida)<br>§ timed_out (condición de tiempo de espera cumplida)<br>§ transferred_to_agent (llamadas en modo de transferencia contestadas {default}) |
+|Leyenda de resultados de llamadas de la cola de llamadas           |Texto                     |Configura elementos de leyenda según el resultado de la cola de llamadas                             |
 |Tipo de destino de la cola de llamadas                  |Texto                     |***Tipo de destino de redireccionamiento de llamadas: posibles valores:***<br><br>§ ApplicationEndpoint<br>§ Buzón<br>§ Otros<br>§ Usuario |
-|Tipo<sup>de llamada 1</sup>                   |Texto                     |Tipo de llamada: valores posibles:<br><br>§ Externo<br>§ Interno           |
-|Fecha                                    |Fecha y hora                |Fecha y hora de inicio de llamadas de la cola de llamadas (hora) (UTC)                           | 
-|IsAbandoned                             |Verdadero/falso               |Verdadero si un agente no responde a la llamada                                   |
-|Tipo de conectividad RTC                  |Texto                     |Tipo de llamada: valores posibles:<br><br>§ Llamada externa<br>§ InternalCall   |
+|Leyenda de tipo de destino de la cola de llamadas           |Texto                     |Configura elementos de leyenda según el tipo de destino de la cola de llamadas                        |
+|Tipo<sup>de llamada 1</sup>                   |Texto                     |Tipo de llamada: valores posibles:<br><br>§ Externo<br>§ Interno             |
+|Nombre del CQ                                 |Texto                     |Nombre de la cuenta de recursos adjunta a la cola de llamadas<br><br>Si se **cq_test@microsoft.com** el nombre completo de la cuenta de recursos, el valor será: **cq_test** |
+|Hora del CQ                                 |Número entero             |Hora de inicio de llamada de la cola de llamadas                                                 |
+|Fecha                                    |Fecha y hora                |Fecha y hora de inicio de la llamada en cola de llamadas (hora)                                 | 
+|DateTimeCQName                          |Texto                     |Clave única para filtrar en fCallQueueFinalStateAction                     |
+|Tipo de conectividad RTC                  |Texto                     |Tipo de llamada: valores posibles:<br><br>§ Llamada externa<br>§ InternalCall     |
 |Minutos totales de RTC                      |Número entero             |Resumir: Suma<br>Uso total de minutos para llamadas RTC                       |
+|Suma del recuento de llamadas (medida)             |Número entero             |Igual que el recuento de llamadas, sin embargo, será 0 cuando no se llame                          |
+|TotalCallCount (medida)                |Número entero             |Resumir: Suma<br>Recuento de llamadas                                                |
 
-#### <a name="fcallqueueanalytics-measures-description"></a>descripción de medidas fCallQueueAnalytics
-
-|Nombre                                    |Tipo de datos                |Descripción                              |
-|:---------------------------------------|:------------------------|:----------------------------------------|
-|***% de llamadas abandonadas***                 |Porcentaje               |Medida: Número de llamadas abandonadas/llamadas totales    |
-|Total de llamadas                             |Número entero             |Medida: el agente de Suma respondió llamadas        |
-|TotalCallCount                          |Número entero             |Medida: Suma(Recuento de llamadas)                 |
 
 #### <a name="fcallqueuefinalstateaction--cqd-fields-description"></a>descripción de los campos fCallQueueFinalStateAction CQD
 
 |Nombre                                    |Tipo de datos                |Descripción                                        |
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
-|Duración media de la llamada (segundos)         |Número decimal           |Resumir: Suma<br>Duración media de la llamada en segundos |
-|Recuento de llamadas                              |Número entero             |Resumir: Suma<br>Número de llamadas                  |
+|Duración media de la llamada (segundos)         |Número decimal           |Resumir: Suma<br>Duración media de llamadas en segundos para llamadas abandonadas    |
+|Duración media de la cola de llamadas (s)       |Número decimal           |Resumir: Suma<br>Promedio de espera en segundos para las llamadas contestadas           |
+|Avg of Average Call Duration (Measure)  |Número entero             |Igual que la duración media de llamadas (segundos), sin embargo, será 0 cuando no haya llamadas   |
+|Avg of Average CQ Duration (Measure)    |Número entero             |Igual que la duración media de la cola de llamadas (s), sin embargo, será 0 cuando no haya llamadas |
+|Recuento de llamadas                              |Número entero             |Resumir: Suma<br>Número de llamadas                                         |
 |Resultado de llamadas en cola de llamadas                  |Texto                     |Estado final de llamada de la cola de llamadas: valores posibles:<br><br>§ agent_joined_conference (llamadas en modo conferencia contestadas)<br>§ rechazada<br>§ desconectado<br>§ error<br>§ Error<br>§ no válido<br>§ desbordamiento (condición de desbordamiento cumplida)<br>§ timed_out (condición de tiempo de espera cumplida)<br>§ transferred_to_agent (llamadas en modo de transferencia contestadas {default} |
-|Acción de estado final de la cola de llamadas           |Texto                     |Acción final de la cola de llamadas: valores posibles:<br><br>§ Desconectar (llamadas timed_out)<br>§ disconnect_with_busy (llamadas desbordadas)<br>§ failed_to_accept_call<br>§ adelante<br>§ shared_voicemail<br>§ otro<br>§ correo de voz |
-|Identidad de la cola de llamadas                     |Texto                     |Nombre de la cuenta de recursos adjunta a la cola de llamadas<br><br>Si se **cq_test@microsoft.com** el nombre completo de la cuenta de recursos, el valor será: **cq_test** |
-|Fecha                                    |Fecha y hora                |Fecha y hora de inicio de llamadas de la cola de llamadas (hora) (UTC)   |
-|IsAbandoned                             |Verdadero/falso               |Verdadero si un agente no responde a la llamada           |
+|Leyenda de resultados de llamadas de la cola de llamadas           |Texto                     |Configura elementos de leyenda según el resultado de llamadas en cola de llamadas                      |
+|Acción de estado final de la cola de llamadas           |Texto                     |Acción final de la cola de llamadas: valores posibles:<br><br>§ Desconectar (llamadas timed_out)<br>§ disconnect_with_busy (llamadas desbordadas)<br>§ failed_to_accept_call<br>§ adelante<br>§ shared_voicemail<br>§ otro<br>§ correo de voz                |
+|Nombre del CQ                                 |Texto                     |Nombre de la cuenta de recursos adjunta a la cola de llamadas<br><br>Si se **cq_test@microsoft.com** el nombre completo de la cuenta de recursos, el valor será: **cq_test** |
+|Fecha                                    |Fecha y hora                |Fecha y hora de inicio de llamadas de la cola de llamadas (hora)                                 |
+|DateTimeCQName                          |Texto                     |Clave única para filtrar en fCallQueueFinalStateAction                     |
+|IsAbandoned                             |Verdadero/falso               |Verdadero si un agente no responde a la llamada                                   |
 
 
 ### <a name="cloud-call-queue-agent-timeline"></a>Escala de tiempo del agente de cola de llamadas en la nube
@@ -263,44 +261,45 @@ Siga estos pasos:
 
 |Sección informe                                          |Descripción                                                  |
 |:-------------------------------------------------------|:------------------------------------------------------------|
-|# llamadas por agente                                        |Distribución de llamadas por cola de llamadas y agente                 |
-|Duración total de llamadas (segundos) por agente y cola de llamadas   |Duración total (segundos) de llamadas por agente y cola de llamadas     |
-|Duración media de llamadas (segundos) por nombre de agente           |Duración media (segundos) de llamada por agente                  |
+|Número de llamadas por agente                                |Distribución de llamadas por cola de llamadas y agente                |
+|Distribución por agente y toda la cola                     |Distribución de llamadas por agente y cola de llamadas                |
+|Tabla (inferior derecha)                                    |Distribución de llamadas por agente con duración media y total de llamadas |
+|Duración media de llamadas (segundos) por agente                |Duración media (segundos) de llamada por agente                  |
 
 #### <a name="report-to-cqd-table-and-field-mapping"></a>Informar sobre la tabla y asignación de campos del CQD
 
-|Pestaña Informe         |Nombres de tabla de informe        |Filtro global |
-|:------------------|:-------------------------|:-------------|
-|Escala de tiempo del agente     |fAgentTimelineAnalytics   |Ninguna          |
- 
-|Nombre de tabla de informe            |Nombre de la tabla de origen            |Tratamiento       |
-|:----------------------------|:----------------------------|:----------------|
-|fAgentTimelineAnalytics      |AgentTimelineAnalytics       |Source = AgentTimelineAnalytics, <br>#"Changed Type" = Table.TransformColumnTypes(Source,{{"Call Count", Int64.Type}, {"Call Duration (Minute)", Int64.Type}, {"Average Call Duration (Second)", type number}, {"Date", type date}})|
+|Pestaña Informe            |Nombre de tabla de informe           |Nombre de la tabla de origen         |Filtro global       |
+|:---------------------|:---------------------------|:-------------------------|:-------------------|
+|Escala de tiempo del agente        |fAgentTimelineAnalytics     |fAgentTimelineAnalytics   |Ninguna                |
+
 
 |Sección informe                                |Campo(s) Utilizados                         |Filtros aplicados       |
 |:---------------------------------------------|:-------------------------------------|:---------------------|
-|Nombre del agente                                    |Nombre del agente                            |Ninguna                  |
-|Nombre de la cola de llamadas                               |Nombre de la cola de llamadas                       |Ninguna                  |
-|#Calls por agente                               |Nombre del agente<br>Recuento de llamadas<br>Fecha      |Ninguna                  |
-|Distribución por agente y cola de llamadas          |Nombre del agente<br>Recuento de llamadas<br>Duración de la llamada (minutos)<br>Nombre de la cola de llamadas |Ninguna                      |
-|Inferior izquierda                                   |Nombre del agente<br>Duración media de llamadas (segundo)<br>Recuento de llamadas<br>Duración de la llamada (minuto)<br>Nombre de la cola de llamadas | Ninguna |
-|Duración media de llamadas (segundos) por nombre de agente |Nombre del agente<br>Duración media de llamadas (segundo)<br>Recuento de llamadas<br>Duración de la llamada (minuto)<br>Nombre de la cola de llamadas | Ninguna |
+|Selector de fecha                                 |Datetime                              |Ninguna                  |
+|Selector de nombre de usuario de agente                       |Nombre del agente                            |Ninguna                  |
+|Selector de cuentas de recursos de cola de llamadas          |Nombre del CQ                               |Ninguna                  |
+|Número de llamadas por agente                      |Nombre del agente<br>Recuento de llamadas<br>Hour      |Ninguna                  |
+|Distribución por agente y cola de llamadas          |Nombre del agente<br>Duración media de llamadas (segundos)<br>Recuento de llamadas<br>Nombre del CQ |Ninguna                      |
+|Inferior izquierda                                   |Nombre del agente<br>Duración media de la llamada (segundos)<br>Recuento de llamadas<br>Duración de la llamada (minuto)<br>Nombre del CQ<br>Hour<br>MM-DD | Ninguna |
+|Duración media de llamadas (segundos) por agente      |Nombre del agente<br>Duración media de la llamada (segundos) | Ninguna |
 
 #### <a name="fagenttimelineanalytics-cqd-fields-description"></a>Descripción de los campos fAgentTimelineAnalytics CQD
 
 |Nombre                                    |Tipo de datos                |Descripción                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |Nombre del agente                              |Texto                     |UPN de usuario<br>Si se **user@microsoft.com** el nombre de usuario completo, este valor será: **usuario** |
-|Duración media de llamadas (segundo)          |Número decimal           |Resumir: Suma<br>Duración media de las llamadas en cola de llamadas respondidas en segundos |
-|Recuento de llamadas                              |Número entero             |Resumir: Suma<br>Número de llamadas que se presentan al agente     |
-|Duración de la llamada (minuto)                  |Número entero             |Resumir: Suma<br>Duración total de las llamadas de la cola de llamadas respondidas en minutos (redondeado hacia abajo a los minutos más cercanos)  |
-|Nombre de la cola de llamadas                         |Texto                     |Nombre de la cuenta de recursos adjunta a la cola de llamadas<br><br>Si se **cq_test@microsoft.com** el nombre completo de la cuenta de recursos, el valor será: **cq_test** |
-|Fecha                                    |Fecha                     |                                                    |
+|Duración media de la llamada (segundos)         |Número decimal           |Resumir: Suma<br>Duración media de las llamadas en cola de llamadas respondidas en segundos |
+|Recuento de llamadas                              |Número entero             |Resumir: Suma<br>Número de llamadas contestadas por el agente     |
+|Duración de la llamada (minutos)                 |Número entero             |Resumir: Suma<br>Duración total de las llamadas de la cola de llamadas respondidas en minutos (redondeado hacia abajo a los minutos más cercanos)  |
+|Nombre del CQ                                 |Texto                     |Nombre de la cuenta de recursos adjunta a la cola de llamadas<br><br>Si se **cq_test@microsoft.com** el nombre completo de la cuenta de recursos, el valor será: **cq_test** |
+|Fecha                                    |Fecha                     |Fecha de llamada                                             |
+|Datetime                                |Datetime                 |Fecha de llamada                                             |
+|Hour                                    |Número entero             |Hora de llamada                                             |
+|MM-DD                                   |Texto                     |Mes y día de llamada                                    |
 
 
 > [!NOTE]
-> 1) Este informe muestra el recuento de llamadas desde la perspectiva de los agentes y, por lo tanto, el número total de llamadas de este informe suele ser mayor que el número total de llamadas en el informe análisis de cola de **llamadas** en la nube. Cada llamada de la cola se puede presentar a uno o más agentes al menos una vez antes de que se responda. Todas las llamadas a la cola de llamadas que se presentan a un agente se cuentan en este informe, incluso si el agente no la ha respondido. La diferencia en el recuento de llamadas entre estos dos informes se pronuncia más con la opción de **enrutamiento de Attendant** que suena a cada agente para cada llamada. 
-> 2) Cuando una llamada llega por primera vez a la primera cola de llamadas, si el número de llamadas que ya están en esa cola supera el límite de **administración de desbordamiento** de llamadas y si la opción de redirección envía llamadas a una segunda cola de llamadas, los agentes de la segunda cola de llamadas se mostrarán como en la primera cola de llamadas de este informe. 
+> Cuando una llamada llega a la primera cola de llamadas, si el número de llamadas que ya están en esa cola ha alcanzado el límite de **administración de desbordamiento** de llamadas y si la opción de redirección envía nuevas llamadas a una segunda cola de llamadas, se mostrará que los agentes de la segunda cola de llamadas están en la primera cola de llamadas de este informe. 
 
 ## <a name="known-issues"></a>Problemas conocidos
 
@@ -315,6 +314,7 @@ Siga estos pasos:
 ## <a name="version-history"></a>Historial de versiones
 |Versión  |Fecha de publicación     |Nombre                                                           |Descripción                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
+|1.63     |24 de agosto de 2022    |Operador automático de Teams del CQD & informe de historial de la cola de llamadas V1.63.pbit |Consulte:<br>Operador automático de Equipos del CQD & informes históricos de la cola de llamadas: cambiar Log.docx en el archivo zip descargado para obtener una lista de cambios                                                                             |
 |1.60     |22 de julio de 2022      |Operador automático de Teams del CQD & informe histórico de la cola de llamadas V1.60.pbit |Consulte:<br>Operador automático de Equipos del CQD & informes históricos de la cola de llamadas: cambiar Log.docx en el archivo zip descargado para obtener una lista de cambios                                                                             |
 |1.00     |5 de noviembre de 2020   |Análisis combinado de CQ y AA 20201105.pbit                         |Versión inicial                                     |
 

@@ -21,12 +21,12 @@ description: Su administrador de Teams o de TI puede configurar reuniones extern
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 7d45fea1b0b2fdb5d659f0a025b74473050b3616
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
-ms.translationtype: HT
+ms.openlocfilehash: 009d82d65a79bacfc0c5eca785cb595b5aebc793
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674232"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418519"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Administrar reuniones externas y chatear en Microsoft Teams
 
@@ -274,6 +274,13 @@ Si es administrador, puede usar la siguiente herramienta de diagnóstico para va
 
 3. Las pruebas indicarán los mejores pasos a seguir para abordar cualquier configuración de espacio empresarial o directiva que impida la comunicación con el usuario federado.
 
+## <a name="user-level-controls"></a>Controles a nivel de usuario
+
+Cuando los usuarios reciben chats uno a uno de alguien fuera de la organización, se les presenta una experiencia de pantalla completa en la que pueden elegir **Entre obtener una vista previa** del mensaje, **Aceptar** el chat o **Bloquear** a la persona que envía el chat.
+
+El bloqueo de personas externas está disponible en varios lugares dentro de Teams, incluido el menú más (**...**) de la lista de chats y el menú más (**...**) de la tarjeta de contactos. Los usuarios también pueden desbloquear personas externas a través del menú más (**...**) de la lista de chats, el menú más (**...**) de la tarjeta de contactos o visitando **Configuración** > **De contactos bloqueados****Editar contactos bloqueados** > . El bloqueo está disponible antes o después de que se envíen los mensajes.
+
+El bloqueo de personas externas les impide enviar mensajes en chats individuales, agregar el usuario a nuevos chats grupales y ver su presencia. Aunque las invitaciones de chat grupal están bloqueadas, los usuarios bloqueados pueden estar en los mismos chats con los usuarios que los bloquearon, ya sea porque el chat se inició antes del bloqueo o porque otro miembro envió la invitación de chat grupal.
 
 ## <a name="related-topics"></a>Temas relacionados
 

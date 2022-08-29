@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directivas de reuniones en Teams para compartir contenido.
-ms.openlocfilehash: cd493d21b774e260f2188ac8d174d1208cf4eba7
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: c2baa0328cd1ff0271d2b1ecbf8e1fab76f24846
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66605849"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418619"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Configuración de la directiva de reunión. Uso compartido de contenido
 
@@ -34,14 +34,14 @@ En este artículo se describen las siguientes configuraciones de directiva de re
 
 - [Modo de uso compartido de pantalla](#screen-sharing-mode)
 - [Permitir a un participante ceder o solicitar el control](#allow-a-participant-to-give-or-request-control)
-- [Permitir a un participante externo ceder o solicitar el control](#allow-an-external-participant-to-give-or-request-control)
+- [Los participantes externos pueden dar o solicitar el control](#external-participants-can-give-or-request-control)
 - [PowerPoint Live](#powerpoint-live)
 - [Whiteboard](#whiteboard)
 - [Notas compartidas](#shared-notes)
 
 ## <a name="screen-sharing-mode"></a>Modo de uso compartido de la pantalla
 
-Esta configuración es una combinación de directivas por organizador y por usuario. Esta configuración controla si se permite el uso compartido de ventanas y el escritorio en la reunión del usuario. Los participantes de la reunión a los que no se les ha asignado ninguna directiva (por ejemplo, los participantes anónimos, invitados, B2B y federados) heredan la directiva del organizador de la reunión.
+Esta configuración es una combinación de directivas por organizador y por usuario. Esta configuración controla si se permite el uso compartido de ventanas y el escritorio en la reunión del usuario. Los participantes de la reunión que no tienen ninguna directiva asignada (por ejemplo, participantes externos) heredan la directiva del organizador de la reunión.
 
 |Valor de configuración |Comportamiento  |
 |---------|---------|
@@ -86,22 +86,21 @@ Si desea usar PowerShell para controlar quién puede ceder el control o aceptar 
 > [!NOTE]
 > Para ceder y tomar el control del contenido compartido durante el uso compartido, ambas partes deben usar el cliente de escritorio de Teams. El control no es compatible cuando cualquiera de las partes ejecuta Teams en un explorador. Esto se debe a una limitación técnica que planeamos solucionar.
 
-## <a name="allow-an-external-participant-to-give-or-request-control"></a>Permitir a un participante externo ceder o solicitar el control
+## <a name="external-participants-can-give-or-request-control"></a>Los participantes externos pueden dar o solicitar el control
 
 Esta configuración es una directiva por usuario. Si una organización ha establecido esta directiva para un usuario no controla lo que pueden hacer los participantes externos, independientemente de lo que haya establecido el organizador de la reunión. Lo que controla este parámetro es si los participantes externos pueden recibir o solicitar el control de la pantalla que comparten, en función de lo que la persona que comparte haya establecido en las directivas de reuniones de su organización. Los participantes externos en reuniones de Teams se pueden categorizar de la siguiente forma:  
 
-- Usuario anónimo
-- Usuarios invitados  
-- Usuario B2B
-- Usuario federado  
+- Participante anónimo
+- Invitados
+- Usuarios de acceso externo
 
-Que los usuarios federados puedan ceder el control a los usuarios externos mientras realicen un uso compartido se controla mediante la configuración **Permitir a un participante externo ceder o solicitar el control** de su organización.
+Si los usuarios de acceso externo pueden ceder el control a otros participantes externos mientras el uso compartido es controlado por **los participantes externos, pueden establecer o solicitar el control** en su organización.
 
 Si desea usar PowerShell para controlar si los participantes externos pueden ceder el control o aceptar solicitudes de control, use el cmdlet AllowExternalParticipantGiveRequestControl.
 
 ### <a name="powerpoint-live"></a>PowerPoint Live
 
-Esta es una directiva por usuario. Esta configuración controla si el usuario puede compartir diapositivas de PowerPoint en una reunión. Los usuarios externos, incluidos los usuarios anónimos, invitados y federados, heredan la directiva del organizador de la reunión.
+Esta es una directiva por usuario. Esta configuración controla si el usuario puede compartir diapositivas de PowerPoint en una reunión. Los participantes externos, incluidos los usuarios anónimos, invitados y de acceso externo, heredan la directiva del organizador de la reunión.
 
 Veamos el ejemplo siguiente.
 
@@ -114,7 +113,7 @@ Amanda no puede compartir los conjuntos de diapositivas de PowerPoint en las reu
 
 ## <a name="whiteboard"></a>Whiteboard
 
-Esta configuración es una directiva por usuario. Esta configuración controla si un usuario puede compartir la pizarra en una reunión. Los usuarios externos, incluidos los usuarios anónimos, B2B y federados, heredan la directiva del organizador de la reunión.
+Esta configuración es una directiva por usuario. Esta configuración controla si un usuario puede compartir la pizarra en una reunión. Los participantes externos, incluidos los usuarios anónimos, invitados y de acceso externo, heredan la directiva del organizador de la reunión.
 
 Veamos el ejemplo siguiente.
 
@@ -133,7 +132,7 @@ Cuando la pizarra está habilitada, los usuarios tendrán la opción de usar [an
 
 ## <a name="shared-notes"></a>Notas compartidas
 
-Esta configuración es una directiva por usuario. Esta configuración controla si un usuario puede crear y compartir notas en una reunión. Los usuarios externos, incluidos los usuarios anónimos, B2B y federados, heredan la directiva del organizador de la reunión. Actualmente, la pestaña **Notas de la reunión** solo es compatible con reuniones que tienen menos de 20 participantes.
+Esta configuración es una directiva por usuario. Esta configuración controla si un usuario puede crear y compartir notas en una reunión. Los participantes externos, incluidos anónimos, invitados y acceso externo, heredan la directiva del organizador de la reunión. Actualmente, la pestaña **Notas de la reunión** solo es compatible con reuniones que tienen menos de 20 participantes.
 
 Veamos el ejemplo siguiente.
 

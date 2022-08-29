@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el informe de uso de aplicaci
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9dadab5ee29a15e939a120cddcd3e889d524d88
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 745761b80bd2507a31cb76cdadc015eac8e9f7fd
+ms.sourcegitcommit: a4a65283e85d0c393c844dfd335df0d48e0e4105
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156728"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "67313932"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Informe de uso de aplicaciones de Microsoft Teams
 
@@ -46,9 +46,7 @@ El informe de uso de aplicaciones de Teams del Centro de administración de Micr
 
 Cada informe tiene una fecha en la esquina superior izquierda que muestra cuándo se creó el informe. Los informes suelen reflejar una latencia de 24 horas desde el momento en que se abrió una aplicación.
 
-El eje Y del gráfico es el número de usuarios que se consideran usuarios activos para la fecha seleccionada al mantener el puntero sobre el gráfico. Los usuarios que abren una aplicación al menos una vez se consideran usuarios activos.
-
-El eje X del gráfico es el intervalo de fechas seleccionado para el informe.
+Administración centro proporciona un gráfico de los usuarios activos y las fechas. Usuarios activos es el número de usuarios que han abierto una aplicación al menos una vez durante el período de tiempo seleccionado.
 
 Desplace el puntero sobre el punto (4) que representa el uso de una aplicación en cualquier fecha para ver el número total de usuarios activos de esa aplicación en esa fecha.
 
@@ -64,7 +62,7 @@ La tabla de la parte inferior del informe (6) muestra los usuarios activos y equ
    - **Versión** es la versión de software de la aplicación, del desarrollador de la aplicación.
 
    > [!NOTE]
-   > **Los usuarios activos** y **los equipos activos** solo se calculan para las aplicaciones que se usan en los canales.
+   > **Los usuarios activos** y **los equipos activos** se calculan solo para las aplicaciones que se usan en canales.
 
 Para agregar o quitar columnas de la tabla, en la esquina superior derecha, seleccione el icono **Editar columnas** (7), en la pestaña **Editar columnas** , seleccione nuevos criterios y, después, seleccione **Aplicar**.
 

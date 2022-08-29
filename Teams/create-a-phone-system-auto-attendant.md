@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y administrar operadores automáticos en Microsoft Teams.
-ms.openlocfilehash: e54ffdeac8db21ebcc6cc00f51893769e0d194bb
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 913ac62ceb251f166852ec8c6d5ba84b7c0777ea
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67176104"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443407"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -46,6 +46,15 @@ Los operadores automáticos pueden redirigir las llamadas, en función de la ent
 
 > [!NOTE]
 > Al redirigir llamadas a una **persona de la organización**, esa persona debe tener habilitada la voz. Para obtener más información sobre cómo habilitar la voz, consulte [Asignar licencias de complementos de Teams a usuarios](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+>
+> Al definir un **operador** es opcional, se recomienda.  Los operadores automáticos redirigen las llamadas al operador si el autor de la llamada no realiza una selección en los menús, selecciona repetidamente opciones no válidas o marca repetidamente por nombre o número.  Si no se define un operador, el operador automático anulará la llamada.
+
+## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>Novedades para los operadores automáticos en los últimos 6 meses
+ 
+ - Agosto: las **opciones del menú Reproducir** en Flujo de llamadas, Flujo de llamadas fuera del horario laboral y Flujo de llamadas durante los días festivos ahora admiten \* las teclas (asterisco) y \# (almohadilla).
+ - Julio: el flujo de llamadas durante los días festivos ahora admite **las opciones del menú Reproducir**.
+ 
+## <a name="steps-to-create-an-auto-attendant"></a>Pasos para crear un operador automático
 
 Los pasos para agregar un operador automático son:
 
@@ -99,10 +108,9 @@ Una vez que haya configurado la información general del operador automático, s
 
 #### <a name="play-menu-options"></a>Reproducir opciones de menú
 
-Para las opciones de marcación, asigne las teclas 0-9 del teclado del teléfono a uno de los destinos de enrutamiento de llamadas. Las teclas \* (asterisco) y \# (almohadilla) están reservadas por el sistema y no se pueden reasignar. Al presionar cualquiera de estas teclas, se repetirá el menú actual.
+*Las teclas Nuevo - \* (asterisco) y \# (almohadilla) ahora se pueden usar en las opciones de menú.*
 
-> [!NOTE]
-> La tecla # solo realiza copias de seguridad del operador automático más reciente. Una vez que se cruza el límite con un nuevo operador automático, la tecla # no podrá llevarte al anterior.
+Para las opciones de marcación, asigne las teclas 0-9, \* (asterisco) y \# (almohadilla) del teclado del teléfono a uno de los destinos de enrutamiento de llamada. 
 
 Las asignaciones clave no tienen por qué ser continuas. Es posible crear un menú con las teclas 0, 1 y 3 asignadas a opciones, mientras que la tecla número 2 no se usa.
 
@@ -159,6 +167,8 @@ Una vez que haya agregado el flujo de llamadas fuera del horario laboral, selecc
 
 El operador automático puede tener un flujo de llamadas para cada [día festivo que haya configurado](set-up-holidays-in-teams.md). Puede agregar un máximo de 20 días festivos programados a cada operador automático.
 
+*Nuevo: las **opciones del menú Reproducir** ya están disponibles en los flujos de llamadas navideñas.*
+
 1. En la página Configuración de llamadas navideñas, seleccione **Agregar**.
 
 1. Escriba un nombre para esta configuración navideña.
@@ -167,7 +177,7 @@ El operador automático puede tener un flujo de llamadas para cada [día festivo
 
 1. Elija el tipo de saludo que desea usar.
 
-1. Elija si desea **Desconectar** o **Redirigir** la llamada.
+1. Elige si quieres las **opciones de menú** **Desconectar**, **Redirigir** o Reproducir de la llamada.
 
     1. Si decide redirigir, elija el destino del enrutamiento de llamadas para la llamada.
     1. Si elige reproducir las opciones de menú, configure las **opciones del menú Reproducir**.

@@ -1,7 +1,7 @@
 ---
 title: Crear una cola de llamadas en Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas en Microsoft Teams. Las colas de llamadas proporcionan un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: f14c0644c7a4be2a63e74ae59705bb7e3bc0cb76
+ms.openlocfilehash: c95365701760c7db4c0d80ea0875920a91f814e1
 ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443337"
+ms.locfileid: "67443507"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 

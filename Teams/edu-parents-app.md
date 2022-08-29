@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73f11abed8101031361e92d008c4edbd89b9a31c
-ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
+ms.openlocfilehash: 37de74db112dcbd5466659b385f1bb94d7c134aa
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67278774"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418629"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar la conexión principal en Microsoft Teams para Educación
 
@@ -42,7 +42,7 @@ Estos son algunos recursos que los administradores de TI pueden compartir con tu
 La conexión de padres permite a los formadores y tutores chatear, enviar correo electrónico y llamar con Teams.
 
 - Los formadores pueden iniciar chats con tutores.
-  - Si el tutor no tiene una cuenta de consumidor de Teams, recibirá el mensaje inicial del formador y una invitación por correo electrónico para ir a Teams.
+  - Si el tutor no tiene una cuenta de consumidor de Teams o aún no se ha unido a Teams, recibirá el mensaje del formador junto con una invitación por correo electrónico para ir a Teams. Esto solo se aplica en los casos en los que no se han alcanzado los límites de invitación y el chat es un chat nuevo o un chat existente que se ha vuelto a introducir desde la conexión principal.
 - Funciona con el chat supervisado. Para obtener más información, vea [Usar chats supervisados en Microsoft Teams](supervise-chats-edu.md).
   - De forma predeterminada, los tutores tienen permisos restringidos, por lo que no pueden chatear con los alumnos ni quitar usuarios de los chats.
   - El administrador de inquilinos puede cambiar esta configuración.

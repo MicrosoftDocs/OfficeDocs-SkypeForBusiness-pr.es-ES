@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c6ca0590f254a0567eec8946ae3c4323bf541f05
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: d7d705d09dc9ded8ee2b831e41ed18921fbb7381
+ms.sourcegitcommit: a4a65283e85d0c393c844dfd335df0d48e0e4105
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299239"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "67314012"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Validación realizada por Microsoft para todas las aplicaciones de Teams
 
@@ -41,14 +41,14 @@ Ejecutamos más de 400 casos de prueba para cada aplicación antes de que esté 
 
 * Asegúrese de que los permisos de Graph solicitados por la aplicación son realmente los que necesita la funcionalidad de la aplicación y no los permisos adicionales. Los permisos de Graph para las aplicaciones existentes se comprueban periódicamente para asegurarse de que una aplicación no requiere permisos adicionales.
 * Las aplicaciones que requieren que los usuarios inicien sesión tienen una opción de cierre de sesión.
-* Todos los desarrolladores de aplicaciones se someten a un proceso detallado de verificación en el Centro de partners de Microsoft. La comprobación incluye la verificación por correo electrónico, la comprobación empresarial y mucho más. Para obtener más información sobre la publicación de aplicaciones, consulte [Cómo crean los desarrolladores una cuenta de Centro de partners](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account), [Guía de envío para desarrolladores](/office/dev/store/add-in-submission-guide) y [Cómo publican las aplicaciones](https://aka.ms/PublishToTeamsStore).
+* Los desarrolladores de todas las aplicaciones se someten a un proceso detallado de verificación en el Centro de partners de Microsoft. La comprobación incluye la verificación por correo electrónico, la comprobación empresarial y mucho más. Para obtener más información sobre la publicación de aplicaciones, consulte [Cómo crean los desarrolladores una cuenta de Centro de partners](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account), [Guía de envío para desarrolladores](/office/dev/store/add-in-submission-guide) y [Cómo publican las aplicaciones](https://aka.ms/PublishToTeamsStore).
 * Solo las aplicaciones de desarrolladores comprobados pueden solicitar permisos de Graph a los usuarios finales.
 * Ninguna aplicación puede descargar un archivo ejecutable.
 * Las aplicaciones se prueban para que no contengan anuncios o promociones para otras aplicaciones
 * Se ha probado que las aplicaciones funcionan correctamente sin lenguaje ofensivo, bots de ciberataques, correo no deseado o contenido de estafa.
 * Todos los vínculos de una aplicación son funcionales y solo están relacionados con la oferta de la aplicación.
 * Probamos y evaluamos todas las aplicaciones de Teams publicadas periódicamente como parte de las comprobaciones de estado de la tienda de aplicaciones.
-* Los desarrolladores de la aplicación publican la Directiva de privacidad y los Términos de uso que cubren las aplicaciones de Teams.
+* La directiva de privacidad y los Términos de uso que cubren las aplicaciones de Teams los proporciona el desarrollador de aplicaciones.
 * Los detalles de contacto del desarrollador de la aplicación están disponibles en la descripción de la tienda y en sus respectivas [Páginas de atestación del editor](/microsoft-365-app-certification/teams/teams-apps).
 
 Además, Microsoft anima a los desarrolladores de aplicaciones a participar en su programa de cumplimiento normativo, que es un enfoque riguroso de dos niveles para garantizar la calidad, la seguridad y el cumplimiento de las aplicaciones. La tienda de Teams tiene cientos de aplicaciones que van más allá de cumplir las directrices de validación ya detalladas y cumplir con estos programas.

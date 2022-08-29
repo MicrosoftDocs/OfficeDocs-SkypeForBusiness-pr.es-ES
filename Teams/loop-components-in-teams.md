@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 041a2fbf54eb513c74348adf09df7452dabb4368
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268125"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418649"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Información general sobre los componentes del bucle en Teams
 
@@ -82,7 +82,7 @@ Si deshabilita estas experiencias como se describe en la sección [Administraci�
 
 - El punto de entrada para crear o insertar en la mensajería de Teams se ocultará. Los usuarios no podrán crear nuevos archivos .fluid.
 - Los mensajes existentes que anteriormente se habrían representado como un componente de bucle interactivo se representarán en su lugar como un hipervínculo "Componente de bucle". No se mostrará ningún contenido interactivo en Teams.
-- Cuando un usuario final hace clic en el hipervínculo "Componente de bucle" o busca un archivo .fluid en OneDrive Entreprise y hace clic para abrirlo, se abrirá el archivo en una pestaña del explorador independiente, pero los usuarios finales no podrán editar el archivo.
+- Cuando un usuario final hace clic en el hipervínculo "Componente de bucle" o busca un archivo .fluid en OneDrive para la Empresa y hace clic para abrirlo, se abrirá el archivo en una pestaña del explorador independiente, pero los usuarios finales no podrán editar el archivo.
 
 ## <a name="known-issues"></a>Problemas conocidos
 
@@ -90,6 +90,6 @@ Si deshabilita estas experiencias como se describe en la sección [Administraci�
 - Con los permisos de archivo predeterminados del inquilino establecidos en *Personas específicas* (solo las personas que especifique el usuario), la creación de un componente en directo en el chat grupal con más de 20 miembros requerirá que el remitente seleccione manualmente las opciones de permisos para el componente.
 - Si busca Componentes de bucle en la búsqueda de Teams, se devolverá un vínculo al componente de office.com, no al mensaje de chat en sí.
 - Los componentes del bucle se deshabilitan en los chats federados.
-- Los invitados B2B no podrán colaborar en un componente en directo compartido con ellos a través de Company Share Link. Establezca permisos **en Personas que están actualmente en este chat** para compartir componentes con invitados B2B.
+- Los invitados no podrán colaborar en un componente en directo que se comparte con ellos a través de Company Share Link. Establezca permisos para **Personas actualmente en este chat** para compartir componentes con invitados.
 - Los componentes de bucle no son compatibles con los canales de Teams.
 - Los componentes del bucle en el chat no se cargarán solo si el archivo se ha movido a otra biblioteca. Si el archivo se mueve a otra carpeta, seguirá cargándose en el chat.
