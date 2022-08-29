@@ -24,12 +24,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74f4580eee7ee7ee935b405cfe51c4a3e49ef98c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
-ms.translationtype: HT
+ms.openlocfilehash: 28a816dee54d8f5ac2aead0deeb6aedf3f8076f7
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616286"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396931"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 
@@ -85,6 +85,10 @@ Una actividad clave de planificación inicial para animar a los usuarios a utili
 > Al crear un nuevo equipo o un nuevo canal privado o compartido en Teams, se crea automáticamente un sitio de grupo en SharePoint. Para editar la descripción o clasificación del sitio de grupo, vaya a la [configuración del canal correspondiente en Microsoft Teams](https://support.microsoft.com/office/bf39798f-90d2-44fb-a750-55fa05a56f1d).
 >
 > Obtenga más información sobre cómo administrar los [Sitios de grupos conectados a Microsoft Teams](/SharePoint/teams-connected-sites).
+
+En este vídeo se muestran los pasos para ver y administrar la pertenencia al equipo de un usuario.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x1L?autoplay=false]
 
 ## <a name="channel-feature-comparison"></a>Comparación de características de canal
 

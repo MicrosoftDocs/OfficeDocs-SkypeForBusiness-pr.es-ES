@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directivas de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: 7f9cb76e12671425ee2b7b0543263195796e04d5
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: da04d38ce63e43414c1a560f92593fbd76ef5b0c
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713358"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396511"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -40,7 +40,7 @@ Esta configuración controla qué participantes de la reunión esperan en la sal
 - [Chatear en reuniones](#chat-in-meetings)
 
 > [!NOTE]
->Las opciones para unirse a una reunión pueden variar en función de la configuración de cada grupo de Teams y del método de conexión. Si el grupo tiene audioconferencia y la usa para conectarse, consulte [Audioconferencia](/microsoftteams/audio-conferencing-in-office-365). Si el grupo de Teams no tiene ninguna Audioconferencia, consulte [Unirse a una reunión en Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+> Las opciones para unirse a una reunión pueden variar en función de la configuración de cada grupo de Teams y del método de conexión. Si el grupo tiene audioconferencia y la usa para conectarse, consulte [Audioconferencia](/microsoftteams/audio-conferencing-in-office-365). Si el grupo de Teams no tiene ninguna Audioconferencia, consulte [Unirse a una reunión en Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>Permitir que personas anónimas se unan a una reunión
 
@@ -71,7 +71,7 @@ Esta es una directiva por organizador. Esta configuración controla si las perso
 |**Usuarios de mi organización y de organizaciones de confianza e invitados**     |Los usuarios autenticados de la organización, incluidos los invitados y los usuarios de organizaciones de confianza, se unen a la reunión directamente sin tener que esperar en la sala de espera.  Los usuarios anónimos esperan en la sala de espera.   |
 |**Usuarios en mi organización**    |Los usuarios autenticados de la organización se unen a la reunión directamente sin tener que esperar en la sala de espera.  Los usuarios de organizaciones de confianza, invitados y usuarios anónimos esperan en la sala de espera.          |
 |**Solo organizador**    |Solo los organizadores de la reunión se pueden unir a la reunión directamente sin tener que esperar en la sala de espera. Todos los demás usuarios, incluidos los usuarios autenticados de la organización, los invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la página de opciones de reunión de cliente de Teams, aparece como "Solo yo".          |
-|**Solo usuarios invitados**    |Solo los usuarios invitados y los organizadores de la reunión pueden unirse a la reunión directamente sin tener que esperar en la sala de espera. Todos los demás usuarios, incluidos los usuarios autenticados de la organización, los invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la página de opciones de reunión de cliente de Teams, aparece como "Personas a las que invito". Los usuarios agregados como parte de un grupo de distribución tendrán que pasar por la sala de espera.      |
+|**Solo usuarios invitados**    |Solo los usuarios invitados y los organizadores de la reunión pueden unirse a la reunión directamente sin tener que esperar en la sala de espera. Todos los demás usuarios, incluidos los usuarios autenticados de la organización, los invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera. En la página de opciones de reunión de cliente de Teams, aparece como "Personas invito". Los usuarios agregados como parte de un grupo de distribución tendrán que pasar por la sala de espera.      |
 
  > [!NOTE]
 > Las organizaciones de confianza son dominios con los que se permiten las comunicaciones federadas en Teams. Si habilita **Permitir el acceso externo a todos los dominios externos** en el Centro de administración de Teams, cualquier usuario autenticado dentro de cualquier organización de Teams será de confianza. Si elige especificar dominios externos permitidos y bloquear todos los demás, los dominios permitidos se convertirán en organizaciones de confianza. Se considera que cualquier dominio bloqueado no es una organización de confianza.
@@ -98,15 +98,20 @@ Esta configuración es una directiva por usuario y se aplica durante una reunió
 
 ## <a name="chat-in-meetings"></a>Chatear en reuniones
 
-Esta configuración es una configuración por participante. Esta configuración controla si se permite el chat de reunión en la reunión del usuario.
-
-Esta configuración no se aplica a las reuniones del canal. Una vez que esta directiva de chat de reunión se aplica a los usuarios, un organizador no puede invalidar esta directiva a través de las opciones de la reunión.
+Se trata de una directiva por usuario y por organizador. Esta configuración controla si se permite el chat de reunión en la reunión del usuario. Esta configuración no se aplica a las reuniones del canal.
 
 |Valor de configuración |Comportamiento  |
 |---------|---------|
 |**Actígalo para todos los usuarios**     | Todos los participantes pueden escribir y ver mensajes de chat. |
 |**Desactívala para todos los usuarios**     | El chat de la reunión está desactivado para todos los participantes.  |
 |**Actígalo para todos los usuarios excepto los anónimos**     | El acceso de escritura por chat de la reunión está desactivado solo para participantes anónimos.  |
+
+Una vez que esta directiva de **Chat en reuniones** se aplica a los usuarios, un organizador no puede invalidar esta directiva a través de **las Opciones de reunión**.
+
+La directiva aplicada al organizador de la reunión puede afectar a otros usuarios de la reunión. Por ejemplo:
+
+- Si el organizador tiene la opción **Chatear en reuniones** establecida **en Activar para todos los usuarios** o **Activarla para todos los usuarios excepto anónimos**, se aplicará la directiva individual de un usuario y los usuarios que tengan **la opción Desactivar para todos** los usuarios establecida no podrán chatear en la reunión.
+- Si el organizador tiene la opción **Chat en reuniones establecida en** **Desactivarla para todos los usuarios**, se aplica la directiva del organizador y nadie podrá chatear en la reunión.
 
 <a name="bkparticipantsandguests"> </a>
 
