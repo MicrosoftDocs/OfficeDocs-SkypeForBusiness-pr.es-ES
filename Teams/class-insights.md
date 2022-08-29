@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02a425d325721dc732e0bd06aa3aee8fd3973dda
-ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
-ms.translationtype: HT
+ms.openlocfilehash: 1f95f9c1a3ad6a65dbefa4d48c0c5277e01b65f2
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66952784"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397277"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guía para administradores de TI de Insights para el ámbito educativo en Microsoft Teams
 
@@ -256,13 +256,15 @@ Hay dos lugares donde puede controlar *Insights para Educación*. Ambas opciones
 1. Ve a **Configuración** > **Administrar Insights para Educación**.
 1. Ajusta el botón de alternancia **Recopilar datos de actividad para Insights** en activado o desactivado.
 
-![Captura de pantalla del centro de administración en alternancia de SDS para activar y desactivar Insights](media/manage-insights-toggles.png)
+![Captura de pantalla del centro de administración de SDS para activar y desactivar Insights.](media/manage-insights-toggles.png)
 
 #### <a name="turn-on-and-off-insights-from-the-teams-client"></a>Activar y desactivar Insights desde el cliente de Teams
 
 1. Si no tienes anclada la aplicación personal *Insights para Educación*, sigue [estas instrucciones](class-insights.md#education-leaders) para agregarla.
 1. Con una cuenta de administrador de Microsoft 365, abra la página **Configuración de administrador** con el icono de puntos suspensivos situado en la esquina superior derecha de *Insights para Educación*.
 1. Ajusta el botón de alternancia **Recopilar datos de actividad para Insights** en activado o desactivado.
+
+![Captura de pantalla de los botones de alternancia del cliente de Teams para activar y desactivar Insights.](media/admin-settings-main-screen.png)
 
 > [!NOTE]
 > Si ha desactivado Insights, se eliminarán los datos recopilados. Los datos eliminados al optar por no participar no pueden restaurarse más adelante, incluso si Insights se vuelve a habilitar.

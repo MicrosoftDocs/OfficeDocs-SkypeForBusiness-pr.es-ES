@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e1c436e6bcd204eb383228a73a115a70ae29e08
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: 1b28dfccd79c99d633d56480963f06632cd758ae
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563768"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283101"
 ---
 # <a name="user-presence-in-teams"></a>Presencia del usuario en Teams
 
@@ -91,7 +91,7 @@ Los estados configurados por el usuario tienen una configuración de caducidad p
 
 La siguiente configuración de administración Skype Empresarial es diferente en Teams:
 
-- En Teams, el uso compartido de la presencia siempre está habilitado para los usuarios de la organización. La configuración de privacidad (en donde define quién puede ver la presencia) no está disponible en Teams.
+- En Teams, el uso compartido de presencia siempre está habilitado para los usuarios de la organización a menos que el modo de privacidad esté habilitado. En el modo de privacidad, la presencia no es visible para los usuarios externos.
 - Compartir la presencia con todo el mundo (incluidos los servicios Federados) siempre está habilitado para los usuarios de Teams. Su lista de contactos (si tenía una en Skype Empresarial) está visible en **Chat > Contactos** o en **Llamadas > Contactos**.
 - Las funciones de No molestar al cliente y Contacto siempre están habilitadas para los usuarios de Teams.
 - La integración del calendario (incluye información de fuera de la oficina y otra información de calendario) siempre está habilitada para los usuarios cuando Teams se integra con Outlook.

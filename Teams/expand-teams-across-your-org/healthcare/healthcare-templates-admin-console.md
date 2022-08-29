@@ -16,17 +16,18 @@ ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.reviewer: yinchang
 description: Obtenga información sobre cómo administrar y usar las plantillas de equipo sanitario en el Centro de administración de Teams y con Microsoft Graph para crear equipos de forma rápida y sencilla para su organización sanitaria.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 015b752b6cfeeae64c7e4713059a7d7344b97dac
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 4f3aa9d42ef86dde75acf8cbd559b6e50059a428
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271615"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396921"
 ---
 # <a name="use-healthcare-team-templates"></a>Usar plantillas de equipo de atención sanitaria
 

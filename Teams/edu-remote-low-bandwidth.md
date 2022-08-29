@@ -1,5 +1,5 @@
 ---
-title: Guía ancho de banda bajo de Microsoft Teams para EDU
+title: Solucionar problemas de escenarios de ancho de banda bajo para Teams
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: jesegher
-description: Artículo de Microsoft Teams para EDU que le ayudará con los problemas de reunión y vídeo relacionados con el ancho de banda bajo. Tanto si es un padre, un formador o un administrador de TI, tiene opciones para mejorar la experiencia con Teams.
+description: Obtenga ayuda con problemas de reunión y vídeo relacionados con problemas de ancho de banda bajo en Teams. Tanto si es un padre, un educador o un Administración de TI, tiene opciones para mejorar la experiencia con Teams.
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
@@ -17,79 +17,88 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87800943dc6e6a615e09b7995a613d109ebcf30c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 7f60095f20d62ed14b19d7c23493553efc39b872
+ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269055"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67426817"
 ---
-# <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>Ayuda para las situaciones de ancho de banda bajo para Teams para EDU
+# <a name="troubleshoot-low-bandwidth-scenarios-for-teams"></a>Solucionar problemas de escenarios de ancho de banda bajo para Teams
 
-Hay muchos elementos de red cuando se trata de trabajar con Microsoft Teams que pueden afectar el rendimiento. El ancho de banda bajo es una de las situaciones que pueden resultar completamente fuera de su control. Considere las siguientes situaciones:
+Este artículo ofrecerá a los administradores de TI los procedimientos recomendados para solucionar problemas de ancho de banda bajo en Teams.
 
-- Una conexión a Internet de baja velocidad para la escuela.
-- Una conexión a Internet de baja velocidad para uno o más alumnos.
+Numerosos elementos de red pueden afectar al rendimiento al trabajar con Microsoft Teams.
+
+- Conexión a Internet de baja velocidad para la escuela.
+- Conexión a Internet de baja velocidad para uno o más estudiantes.
 - Horas del día en que el ancho de banda se reduce debido al uso de la red en un área.
-- Períodos de ancho de banda bajo causados por interrupciones locales no por las escuelas ni por los alumnos, pero que afecta negativamente al rendimiento.
-- Problemas que no son de ancho de banda (por ejemplo, problema con el hardware) que se hacen pasar por problemas de ancho de banda bajo.
-
-Este artículo le proporcionará las mejores prácticas para realizar diversas actividades de Teams cuando se enfrente a un problema de ancho de banda bajo.
+- Las interrupciones no son locales para la escuela o los alumnos, pero afectan al rendimiento.
+- Problemas con el hardware que causan problemas de ancho de banda bajo.
 
 > [!IMPORTANT]
-> Aquí encontrará información sobre [Cómo Microsoft Teams usa la memoria](teams-memory-usage-perf.md), porque además de los problemas de ancho de banda bajo, es posible que tenga problemas de recursos en su dispositivo. Si está buscando una guía de red para Microsoft Teams, consulte [Preparar la red de la organización para Microsoft Teams](prepare-network.md).
+> Lea [Cómo Microsoft Teams usa la memoria](teams-memory-usage-perf.md) para las limitaciones de recursos en los dispositivos.
+>
+>Para obtener instrucciones sobre la red de Teams, consulte [Preparar la red de su organización para Microsoft Teams](prepare-network.md).
 
-## <a name="resolving-low-bandwidth-issues-for-admins"></a>Resolver problemas de ancho de banda bajo para administradores
+## <a name="resolving-low-bandwidth-issues-for-it-admins"></a>Resolver problemas de ancho de banda bajo para administradores de TI
 
-Lo más importante que debe recordar, como administrador de TI, es que, aunque tenga soluciones para problemas de ancho de banda bajo que sean de amplia difusión y que resolverán los problemas rápidamente, las soluciones deben considerarse con cuidado. Algunos problemas pueden resolverse con un enfoque más limitado tomado a nivel del formador o incluso del alumno/padre.
+Es posible que algunos problemas solo se resuelvan con un enfoque limitado en el nivel de usuario individual.
 
-Es decir, si se produce un problema de ancho de banda bajo para un amplio grupo de alumnos, tomar medidas como un administrador de TI tiene sentido y también tiene sentido si las acciones emprendidas en el nivel de alumno/formador no le han sido útiles.
+Si se producen problemas de ancho de banda para muchos usuarios o si las acciones realizadas en el nivel de usuario no han sido útiles, la acción para toda la escuela es el siguiente paso.
 
 > [!NOTE]
-> Si tiene tiempo, inviértalo leyendo la [guía de revisión de la calidad de la experiencia](quality-of-experience-review-guide.md), es una lectura valiosa (que aunque no es específica de EDU, aún tendrá información valiosa). Esta guía permitirá que los administradores de TI experimentados podrán profundizar en la experiencia de los formadores y alumnos.
+> También puede leer la [Guía de revisión de calidad de la experiencia](quality-of-experience-review-guide.md). No es específica de la educación, pero tiene información valiosa.
 
 ### <a name="meetings-and-video"></a>Reuniones y vídeo
 
-Un enfoque principal para los problemas de ancho de banda bajo son las reuniones; específicamente, vídeo en reuniones. Un administrador de TI debe tener en cuenta las siguientes acciones al tratar con problemas notificados por alumnos o educadores en relación con tener la mejor experiencia de reunión en un entorno educativo.
+Tenga en cuenta las siguientes acciones al tratar los problemas de reunión relacionados con el bajo ancho de banda de red.
 
-#### <a name="meeting-policies"></a>Directivas de reunión
+#### <a name="meeting-video-policies"></a>Directivas de vídeo de reunión
 
-En lo que respecta a las reuniones, una de las áreas más relacionadas para las situaciones de ancho de banda baja tiene que ver con los vídeos. Además de que Teams puede escalar el ancho de banda detectado automáticamente, usted, como administrador de TI, dispone de opciones de directivas que puede establecer en el nivel de organizador y/o usuario. Estas opciones le permiten brindar a todos la mejor experiencia considerando el ancho de banda que tienen para trabajar en un momento dado.
+Teams escala automáticamente la calidad de las reuniones al ancho de banda detectado por un usuario. Sin embargo, puede establecer más restricciones para conservar el ancho de banda.
 
-Entre las cosas que puede establecer mediante la directiva se incluyen:
+Entre algunas restricciones que puede establecer a través de la directiva se incluyen:
 
-- Deshabilitar el vídeo completamente, para que nadie pueda habilitarlo.
-- Tasa de bits multimedia (este ajuste se define por usuario).
+- Desactivación del vídeo por completo para que nadie pueda usar vídeo.
+- Limitación de la velocidad de bits multimedia, que se establece por usuario.
 
-Para obtener más información sobre sus opciones y para ver las especificaciones específicas de las directivas que necesitaría establecer para las reuniones y el vídeo, consulte [Configuración de la directiva de reuniones en Teams: audio y vídeo](meeting-policies-audio-and-video.md).
+Para ver más directivas que debe establecer para reuniones y vídeo, lea [Configuración de directivas de reunión en Teams: audio y vídeo](meeting-policies-audio-and-video.md).
 
 #### <a name="screen-sharing-policies"></a>Directivas de uso compartido de pantalla
 
-En otros casos, los formadores pueden compartir toda la pantalla con los alumnos, cuando el uso compartido debe limitarse a una aplicación relevante para la lección que se está impartiendo. Esta configuración también puede establecerse con una directiva, si esa es una forma más deseable de hacerlo que hacer que los formadores tomen esa decisión individualmente.
+En Teams, los usuarios pueden compartir toda la pantalla o ventanas individuales.
 
-Para tener una buena idea de lo que puede hacer para limitar la pantalla el uso compartido de la pantalla con la configuración de directivas, consulte [Configuración de la directiva de reunión en Teams: audio y vídeo](meeting-policies-audio-and-video.md).
+Compartir una pantalla completa usa más ancho de banda que simplemente compartir una ventana.
+
+- Impedir que los usuarios compartan toda la pantalla a través de la directiva.
+- Indique a los formadores que solo compartan aplicaciones, no toda la pantalla.
+
+Obtenga más información sobre las directivas de uso compartido de la pantalla [en Configuración de directivas de reunión en Teams: Audio y vídeo](meeting-policies-audio-and-video.md).
 
 #### <a name="dial-in-number-for-meetings"></a>Número de acceso telefónico para una reunión
 
-Puede ser más fácil para algunos alumnos intentar llamar en algunas sesiones de clase. Puede proporcionar un número de acceso telefónico para reuniones de Teams, de modo que los alumnos que tienen problemas pueden llamar como alternativa para asistir a una reunión de vídeo.
+Puede que sea más fácil para algunos alumnos llamar a las sesiones de clase.
 
-Para obtener más información sobre esto, puede leer [Establecer los números de teléfono incluidos en las invitaciones en Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
+- Proporcione un número de acceso telefónico local para las reuniones de Teams como alternativa a asistir a una reunión de vídeo.
+
+Para obtener más información, lea [Establecer los números de teléfono incluidos en las invitaciones en Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 ## <a name="low-bandwidth-scenarios-as-an-educator"></a>Escenarios de ancho de banda bajo como formador
 
-Los formadores deben sentirse capacitados para tomar medidas para resolver problemas de ancho de banda bajo y puede ser una mejor opción que la acción del administrador de TI en las situaciones siguientes:
+Hacer que los formadores solucione los problemas de ancho de banda puede ser una mejor opción que la acción de TI en las situaciones siguientes:
 
-- Si el problema es intermitente o relativamente transitorio.
-- Si hay un momento específico del día, puede anticiparse a un problema o el ancho de banda bajo tiene alguna previsibilidad.
+- El problema es intermitente.
+- Hay una hora específica del día que puede anticipar que hay un problema.
 
-En estas situaciones, puede llevar a cabo algunas acciones.
-
-Para obtener más información, consulte [Usar Teams para el trabajo escolar cuando el ancho de banda es bajo](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262).
+Para conocer los pasos que un formador puede tomar para resolver problemas de ancho de banda, lea [Usar Teams para el trabajo escolar cuando el ancho de banda es bajo](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262).
 
 ## <a name="low-bandwidth-scenarios-as-a-parent-or-student"></a>Escenarios de ancho de banda bajo como padre o alumno
 
-También hay situaciones, y debe analizarlas de manera proactiva con los formadores, donde el problema de ancho de banda se encuentra en el lado del alumno (por ejemplo, un gran número de alumnos pueden ver las lecciones de vídeo sin problemas, pero un pequeño número de alumnos tienen dificultades).
+A veces, el problema de ancho de banda está del lado de un alumno.
 
-Es poco probable que sean muchos los padres que puedan solucionar estos problemas. Los problemas de ancho de banda bajo pueden estar fuera del control de un alumno o de los padres (su hogar puede no tener acceso a un ancho de banda alto, puede que tengan varias personas en el área inmediata consumiendo ancho de banda y afectando lo que pueden hacer, probablemente el Internet es inestable, etc.).
+- Es posible que su casa no tenga acceso a un ancho de banda alto.
+- Pueden tener muchas personas en su área inmediata también consumiendo ancho de banda.
+- Puede haber inestabilidad en Internet.
 
-Hemos incorporado una guía en nuestro artículo [Usar Teams para el trabajo escolar cuando el ancho de banda es bajo](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262) para padres y alumnos, también puede revisar y probar estas recomendaciones si tiene algún problema.
+Hemos recopilado instrucciones en nuestro artículo [Usar Teams para el trabajo escolar cuando el ancho de banda es bajo](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262) para padres y alumnos.

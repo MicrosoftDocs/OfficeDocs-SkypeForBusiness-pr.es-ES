@@ -1,6 +1,6 @@
 ---
 title: Comprar aplicaciones de terceros para Microsoft Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -15,12 +15,12 @@ description: Obtenga información sobre cómo comprar aplicaciones de terceros e
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 41882a241a911e7c482a2a9a16c9fa9cfd649e9d
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299199"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396311"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicaciones de terceros para Microsoft Teams
 
@@ -34,9 +34,9 @@ Aquí, también puede comprar licencias de servicios ofrecidos por aplicaciones 
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>Comprar aplicaciones en el centro de administración de Teams
 
-Para comprar aplicaciones en el centro de administración de Teams, siga estos pasos: 
+Para comprar aplicaciones en el centro de administración de Teams, siga estos pasos:
 
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **[Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)**. Debe ser Administrador global o Administrador de servicio de Teams para acceder a la página.
+1. Inicie sesión en el Centro de administración de Teams y acceda a **las aplicaciones** > **[de Teams Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)**. Debe ser Administrador global o Administrador de servicio de Teams para acceder a la página.
 
 1. Busque la aplicación que quiera por su nombre. Para identificar las aplicaciones que tienen una suscripción SaaS de pago, consulte la columna **Licencias**. Cada aplicación tiene uno de los siguientes valores:
     * **Comprar**: la aplicación ofrece una suscripción SaaS y está disponible para comprar.  

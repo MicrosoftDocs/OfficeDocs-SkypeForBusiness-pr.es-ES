@@ -16,12 +16,12 @@ description: Obtenga información sobre qué hacer cuando necesita realizar eDis
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 28605ac0f691083151fbb84c73c2ffcfa92ca3b4
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c77cb7cda26b6061ee1e4fce05bf5ff326b7116b
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269065"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283121"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -29,31 +29,30 @@ Las grandes empresas suelen estar expuestas a procedimientos judiciales de alta 
 
 ## <a name="overview"></a>Información general
 
-Todos los chats grupales o de Microsoft Teams 1:1 se realizan en diario en los buzones de los respectivos usuarios. Todos los mensajes de canal estándar se pasan por el buzón de grupo que representa el equipo. Los archivos cargados en canales estándar están cubiertos por la funcionalidad de exhibición de documentos electrónicos para SharePoint Online y OneDrive Entreprise.
+Todos los chats grupales o de Microsoft Teams 1:1 se realizan en diario en los buzones de los respectivos usuarios. Todos los mensajes de canal estándar se pasan por el buzón de grupo que representa el equipo. Los archivos cargados en canales estándar están cubiertos por la funcionalidad de exhibición de documentos electrónicos para SharePoint Online y OneDrive para la Empresa.
 
 eDiscovery of messages and files in [private channels](private-channels.md) works differently than in standard channels. Para obtener más información, vea [eDiscovery of private channels (Exhibición de canales privados](#ediscovery-of-private-and-shared-channels)).
 
 No todo el contenido de Teams es eDiscoverable. En la tabla siguiente se muestran los tipos de contenido que puede buscar con las herramientas de exhibición de documentos electrónicos de Microsoft:
 
-|Tipo de contenido|eDiscoverable|Notas|
-|---|---|---|
-|Grabaciones de audio|Sí||
-|Contenido de la tarjeta|Sí|Vea [Buscar contenido de tarjeta](#search-for-card-content) para obtener más información.|
-|Vínculos de chat|Sí||
-|Mensajes de chat|Sí|Esto incluye el contenido de los canales estándar de Teams, los chats individuales, los chats grupales 1:N y los chats con los participantes invitados.|
-|Fragmentos de código|No||
-|Mensajes editados|Sí|Si el usuario está en espera, también se conservan las versiones anteriores de los mensajes editados.|
-|Emojis, GIF y adhesivos|Sí||
-|Notificaciones de fuente|No||
-|Imágenes alineadas|Sí||
-|Componentes de bucle|Sí|El contenido de un componente de bucle se guarda en un archivo .fluid almacenado en la cuenta OneDrive Entreprise del usuario que envía el componente de bucle. Esto significa que tiene que incluir OneDrive como origen de datos al buscar contenido en componentes de bucle.|
-|Conversaciones de mensajería instantánea de la reunión|Sí||
-|Metadatos<sup>de reunión 1</sup>|Sí||
-|Nombre del canal|Sí||
-|Presupuestos|Sí|El contenido entrecomillado se puede buscar. Sin embargo, los resultados de la búsqueda no indican que se ha citado el contenido.|
-|Reacciones (como me gusta, corazones y otras reacciones)|Sí|Las reacciones son compatibles con todos los clientes comerciales después del 1 de junio de 2022. Las reacciones anteriores a esta fecha no están disponibles para eDiscovery. El soporte en la nube de la administración pública está previsto. No hay ningún apoyo legal para las reacciones.|
-|Asunto|Sí||
-|Mesas|Sí||
+|Tipo de contenido|Notas|
+|---|---|
+|Grabaciones de audio||
+|Contenido de la tarjeta|Vea [Buscar contenido de tarjeta](#search-for-card-content) para obtener más información.|
+|Vínculos de chat||
+|Mensajes de chat|Esto incluye el contenido de los canales estándar de Teams, los chats individuales, los chats grupales 1:N y los chats con los participantes invitados.|
+|Fragmentos de código||
+|Mensajes editados|Si el usuario está en espera, también se conservan las versiones anteriores de los mensajes editados.|
+|Emojis, GIF y adhesivos||
+|Imágenes alineadas||
+|Componentes de bucle|El contenido de un componente de bucle se guarda en un archivo .fluid que se almacena en el OneDrive para la Empresa cuenta del usuario que envía el componente de bucle. Esto significa que tiene que incluir OneDrive como origen de datos al buscar contenido en componentes de bucle.|
+|Conversaciones de mensajería instantánea de la reunión||
+|Metadatos<sup>de reunión 1</sup>||
+|Nombre del canal||
+|Presupuestos|El contenido entrecomillado se puede buscar. Sin embargo, los resultados de la búsqueda no indican que se ha citado el contenido.|
+|Reacciones (como me gusta, corazones y otras reacciones)|Las reacciones son compatibles con todos los clientes comerciales después del 1 de junio de 2022. Las reacciones anteriores a esta fecha no están disponibles para eDiscovery. El soporte en la nube de la administración pública está previsto. No hay ningún apoyo legal para las reacciones.|
+|Asunto||
+|Mesas||
 
 <sup>1</sup> Los metadatos de reunión (y llamada) incluyen lo siguiente:
 

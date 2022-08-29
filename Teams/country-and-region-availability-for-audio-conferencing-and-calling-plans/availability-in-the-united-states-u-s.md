@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Microsoft 365 y Office 365 para Skype for Business y Microsoft Teams disponibles para la Estados Unidos.
-ms.openlocfilehash: 524050f9859f8aa2847ee4706705ec8c95399f15
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para la Estados Unidos.
+ms.openlocfilehash: b3d20d24e0c52538eba1f55f91d34a2b8d3107dd
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268595"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396721"
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilidad en Estados Unidos (EE. UU.)
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) u obtenga más información sobre la disponibilidad por país y región para planes de llamadas de voz y conferencias.
 
-Estos son los servicios de Microsoft 365 y Office 365 para Skype for Business y Microsoft Teams disponibles para la Estados Unidos. Consulte [Cómo comprar un plan de llamadas](../calling-plans-for-office-365.md) para obtener más información.
+Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para la Estados Unidos. Consulte [Cómo comprar un plan de llamadas](../calling-plans-for-office-365.md) para obtener más información.
 
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -60,7 +60,7 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype for Business y 
 | **Característica**                                       | **Detalles**                                                                                                                                                                                                                                                                                                                     |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |¿Los planes de llamada están disponibles para la compra?  |Sí          |   
-|Minutos disponibles para planes de llamadas.    |Hay cinco opciones de plan disponibles por mes natural: <ul><li>Plan de llamadas de pago por ir </li><li> Plan de llamadas nacionales de 120 minutos </li><li> Plan de llamadas nacionales de 240 minutos </li><li> Plan de llamadas nacionales de 1200 minutos </li><li> Plan de llamadas internacionales: 1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que se alcance primero en el mes natural)</li></ul>|
+|Minutos disponibles para planes de llamadas.    |Hay cinco opciones de plan disponibles por mes natural: <ul><li> Plan de llamadas nacionales de 120 minutos </li><li> Plan de llamadas nacionales de 240 minutos </li><li> Plan de llamadas nacionales de 1200 minutos </li><li> Plan de llamadas internacionales: 1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que se alcance primero en el mes natural)</li></ul>|
 | ¿Se pueden realizar llamadas a números premium? <br/> | No se admite en este momento. <br/>                                                                                                                                                                                                                                                                                               |
 | ¿A qué números se pueden hacer llamadas salientes?  <br/>                | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                                                                      |
 > [!Note]

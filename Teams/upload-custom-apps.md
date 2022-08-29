@@ -16,12 +16,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo cargar sus aplicaciones personalizadas en la tienda de aplicaciones de la organización en el Centro de administración de Microsoft Teams.
-ms.openlocfilehash: 52977d9663f5dbee915e2227075127fe1c6575ad
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: d95635546da7337c9c18ee0fddf7b40a5bf061c3
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299029"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397121"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar una aplicación personalizada cargando un paquete de aplicación
 
@@ -55,23 +55,23 @@ Para permitir que los usuarios de confianza carguen aplicaciones personalizadas,
 
 1. Active la opción de configuración de aplicaciones **Permitir interacción con aplicaciones personalizadas** para toda la organización. Para hacerlo:
 
-    1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones** y, luego, haga clic en **Configuración de aplicaciones para toda la organización**.
+    1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones** >  de Teams **Administrar aplicaciones** y, después, seleccione **Configuración de aplicaciones para toda la organización**.
 
-    1. En **Aplicaciones personalizadas**, active **Permitir interacción con aplicaciones personalizadas** y, a continuación, haga clic en **Guardar**.
+    1. En **Aplicaciones personalizadas**, activa **Permitir interacción con aplicaciones personalizadas** y, a continuación, selecciona **Guardar**.
 
 1. Desactive la opción **Cargar aplicaciones personalizadas** en la directiva global de configuración de aplicaciones. Para hacerlo:
 
-    1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Directivas de configuración** y, luego, haga clic en **Directiva global (de forma predeterminada para toda la organización)**.
+    1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Directivas** de **configuración** de aplicaciones  >  de Teams y, a continuación, seleccione la directiva **Global (predeterminada para toda** la organización).
 
-    1. Desactive **Cargar aplicaciones personalizadas** y, a continuación, haga clic en **Guardar**.
+    1. Desactiva **Cargar aplicaciones personalizadas** y, a continuación, selecciona **Guardar**.
 
 1. Cree una nueva directiva de configuración de aplicaciones que permita cargar aplicaciones personalizadas y asignarla al conjunto de usuarios de confianza. Para hacerlo:
 
-    1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Directivas de configuración** y, luego, haga clic en **Agregar**. Asigne un nombre y una descripción a la nueva directiva, active **Cargar aplicaciones personalizadas** y, a continuación, haga clic en **Guardar**.
+    1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Directivas** de **configuración** de aplicaciones  >  de Teams y, después, seleccione **Agregar**. Asigna un nombre y una descripción a la nueva directiva, activa **Cargar aplicaciones personalizadas** y, a continuación, selecciona **Guardar**.
 
-    1. Seleccione la nueva directiva que ha creado y, a continuación, haga clic en **Administrar usuarios**. Busque un usuario, haga clic en **Agregar** y, a continuación, haga clic en **Aplicar**. Repita este paso para asignar la directiva a todos los usuarios de confianza.
+    1. Seleccione la nueva directiva que ha creado y, a continuación, seleccione **Administrar usuarios**. Busca un usuario, selecciona **Agregar** y luego selecciona **Aplicar**. Repita este paso para asignar la directiva a todos los usuarios de confianza.
 
-       ![Captura de pantalla de la página "Agregar directiva de configuración de aplicaciones"](media/manage-your-lob-apps-new-app-setup-policy.png)
+       :::image type="content" source="media/manage-your-lob-apps-new-app-setup-policy.png" alt-text="Captura de pantalla de la página Agregar directiva de configuración de aplicaciones.":::
 
 Estos usuarios ahora pueden cargar el manifiesto de la aplicación para validar que la aplicación funciona correctamente en el inquilino de producción.
 
@@ -80,9 +80,10 @@ Estos usuarios ahora pueden cargar el manifiesto de la aplicación para validar 
 Para que la aplicación esté disponible para los usuarios de la tienda de aplicaciones de su organización, cargue la aplicación.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **[Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)**.
-1. Seleccione **Cargar**, haga clic en **Cargar**, seleccione el paquete de la aplicación que ha recibido del desarrollador y seleccione **Abrir**.
 
-   ![Captura de pantalla de la carga de una aplicación en el centro de administración.](media/manage-your-lob-apps-upload-new-app.png)
+1. Seleccione **Cargar**, **seleccione Cargar**, seleccione el paquete de la aplicación que ha recibido del desarrollador y seleccione **Abrir**.
+
+   ![Captura de pantalla de la carga de aplicaciones personalizadas en el centro de administración.](media/manage-your-lob-apps-upload-new-app.png)
 
 ## <a name="set-up-and-manage"></a>Configurar y administrar
 
@@ -92,7 +93,7 @@ De forma predeterminada, todos los usuarios de su organización pueden acceder a
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>Anclar e instalar la aplicación para que los usuarios la descubran
 
-De forma predeterminada, para que los usuarios encuentren la aplicación, tienen que ir a la tienda de aplicaciones de su organización y explorar o buscarla. Para que sea más fácil para los usuarios acceder a la aplicación, puede anclar la aplicación a la barra de aplicaciones de Teams. Para ello, cree una directiva de configuración de aplicaciones y asígnela a los usuarios. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
+De forma predeterminada, para que los usuarios encuentren la aplicación, tienen que ir a la tienda de aplicaciones de su organización y explorar o buscarla. Para que sea más fácil para los usuarios acceder a la aplicación, puede anclar la aplicación a la barra de aplicaciones de Teams. Para anclar la aplicación, cree una directiva de configuración de la aplicación y asígnela a los usuarios. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>Buscar eventos de aplicaciones de Teams en el registro de auditoría
 
@@ -108,24 +109,24 @@ Los usuarios finales que tienen permisos para la aplicación pueden encontrarla 
 
 Si ha creado y asignado una directiva de configuración de aplicaciones, la aplicación se ancla a la barra de aplicaciones de Teams para facilitar el acceso a los usuarios a los que se asignó la directiva.
 
-## <a name="update"></a>Actualización
+## <a name="update-a-custom-app"></a>Actualizar una aplicación personalizada
 
 Para actualizar una aplicación, los desarrolladores siguen los pasos de las secciones [Crear la aplicación](#create-your-app) y [Validar](#validate).
 
-Puede actualizar la aplicación en la página Administrar aplicaciones del Centro de administración de Microsoft Teams. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**. Haga clic en el nombre de la aplicación y, a continuación, haga clic en **Actualizar**. Al hacerlo, se reemplaza la aplicación existente, y todas las directivas de permisos de aplicaciones y directivas de configuración de aplicaciones se aplican a la aplicación actualizada.
+Puede actualizar la aplicación en la página Administrar aplicaciones del Centro de administración de Microsoft Teams. Para actualizar la aplicación, en el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a Aplicaciones  > **de Teams****Administrar aplicaciones**. selecciona el nombre de la aplicación y, a continuación **, actualizar.** La actualización de la aplicación reemplaza a la aplicación existente, y todas las directivas de permisos y directivas de configuración de aplicaciones siguen vigentes para la aplicación actualizada.
 
 ### <a name="end-user-update-experience"></a>Experiencia de actualización para el usuario final
 
 En la mayoría de los casos, después de completar la actualización de una aplicación, la nueva versión aparece automáticamente para los usuarios finales. Para obtener más información, consulte [experiencia de actualización para el usuario final](apps-update-experience.md).
 
-## <a name="remove"></a>Quitar
+## <a name="remove-a-custom-app-from-your-organizations-store"></a>Quitar una aplicación personalizada de la tienda de su organización
 
 Para quitar una aplicación, siga estos pasos:
 
 1. Inicie la sesión en el Centro de administración de Teams
 1. Acceda a la página **Aplicaciones de Teams** > **[Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)**.
 1. Haga clic en el nombre de la aplicación para abrir la página de detalles de la aplicación.
-1. Junto al banner de la aplicación, seleccione **Acciones** > **Eliminar**.
+1. Junto al banner de la aplicación, seleccione **Eliminar acciones** > .
 1. En el cuadro de diálogo, seleccione **Eliminar**.
 
 ## <a name="related-articles"></a>Artículos relacionados

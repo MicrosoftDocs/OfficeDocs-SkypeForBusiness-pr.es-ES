@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: f74ae28176f147d768e8e551ac07d1bcf189836b
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 1975262b6fdd404d9314c3644ebba79b6cb5bd9a
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563968"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396521"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
 
@@ -112,6 +112,7 @@ Estas son las opciones de directiva de mensajería que puede configurar.
 - **Respuestas sugeridas**  Active esta opción para habilitar las respuestas sugeridas para los mensajes de chat.
 - **Rol de permisos de chat** Use esta configuración para definir el rol de chat supervisado del usuario. Obtenga más información acerca del [chat supervisado](supervise-chats-edu.md).
 - **Los usuarios con permisos de chat completos pueden eliminar cualquier mensaje** Use esta configuración para permitir que los usuarios con permisos completos eliminen cualquier mensaje de chat de grupo o reunión.
+- **Mensajes de vídeo** Active esta opción si quiere que los usuarios de su organización puedan usar la aplicación Teams para enviar mensajes de vídeo a otras personas en chat.
 
 > [!NOTE]
 > Algunos de estos ajustes, como el uso de Giphys, también pueden configurarse en el nivel de equipo los propietarios del equipo y a nivel de canal privado o compartido por los propietarios de canal.

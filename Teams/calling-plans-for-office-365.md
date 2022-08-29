@@ -1,5 +1,5 @@
 ---
-title: Planes de llamadas para Microsoft 365
+title: Planes de llamadas para Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -27,16 +27,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization.
-ms.openlocfilehash: 624b155bb6a114a1b1dbe71220379e4c3d9d7ede
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: eb10b681b867461122fe6b5e89f6f0a519d60ae7
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269225"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396851"
 ---
-# <a name="calling-plans-for-microsoft-365"></a>Planes de llamadas para Microsoft 365
+# <a name="calling-plans-for-microsoft-teams"></a>Planes de llamadas para Microsoft Teams
 
-Las llamadas a otros usuarios de Skype for Business y Microsoft Teams son gratuitas, pero si quiere que los usuarios puedan llamar a teléfonos normales y aún no tiene un proveedor de servicios para realizar llamadas de voz, debe comprar un plan de llamadas. Para obtener más información, consulte [Sistema telefónico y planes de llamadas](calling-plan-landing-page.md).
+Las llamadas a otros usuarios de Skype Empresarial y Microsoft Teams son gratuitas, pero si quiere que los usuarios puedan llamar a teléfonos normales y aún no tiene un proveedor de servicios para realizar llamadas de voz, debe comprar un plan de llamadas. Para obtener más información, consulte [Sistema telefónico y planes de llamadas](calling-plan-landing-page.md).
   
 Estas son las opciones de Planes de llamadas:
   
@@ -44,7 +44,11 @@ Estas son las opciones de Planes de llamadas:
 
 - **Plan de llamadas internacionales**: los usuarios con licencia pueden llamar a números ubicados en el país o región donde se asigna su licencia de Microsoft 365 al usuario en función de la ubicación del usuario y a números internacionales de [196 países o regiones](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Se incluyen minutos entrantes ilimitados. Los minutos salientes se incluyen en función de la licencia comprada.
 
-- **Plan de llamadas de pago por uso**: los usuarios con licencia pueden llamar a números ubicados en el país o región donde se asigna su licencia de Microsoft 365 al usuario en función de la ubicación del usuario y a números internacionales de  [196 países o regiones](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Se incluyen minutos entrantes ilimitados. No se incluyen los minutos salientes. Todas las llamadas salientes se cobran en función de los minutos utilizados, ya sea con créditos de comunicación o facturación posterior al pago.
+- **Plan de llamadas de pago por uso**: los usuarios con licencia pueden llamar a números ubicados en el país o región donde se asigna su licencia de Microsoft 365 al usuario en función de la ubicación del usuario y a números internacionales de  [196 países o regiones](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Se incluyen minutos entrantes ilimitados. No se incluyen los minutos salientes. Todas las llamadas salientes se cobran en función de los minutos utilizados, ya sea con créditos de comunicación o facturación posterior al pago. Las licencias se asignan a los usuarios en función de su ubicación. Hay 2 opciones entre las que elegir:
+  - **Plan de llamadas de pago por ir Zona 1**: compre esto para los usuarios de la Estados Unidos, incluidos Puerto Rico, Canadá y el Reino Unido.
+    - Las licencias de zona 1 no están disponibles actualmente para la venta en el Estados Unidos y Puerto Rico, pero se pueden aprovisionar a los usuarios de Estados Unidos y Puerto Rico si se compran en otros países.
+  - **Pay-As-You-Go Calling Plan Zone-2**: Compre esto para los usuarios de Austria, Bélgica, Croacia, República Checa, Dinamarca, Estonia, Finlandia, Francia, Alemania, Hungría, Irlanda, Italia, Letonia, Lituania, Luxemburgo, Países Bajos, Nueva Zelanda, Polonia, Portugal, Rumania, Singapur, Eslovaquia, Eslovenia, Sudáfrica, España, Suecia y Suiza.
+    - Las licencias de zona 2 no están disponibles actualmente para la venta en el Estados Unidos y Puerto Rico.
 
 Todos los usuarios del mismo país o región (es decir, la ubicación del país de usuario definida en el área de licencias de la Centro de administración de Microsoft 365) con el mismo plan de llamadas comparten un grupo de minutos. Por ejemplo, si tiene 100 usuarios situados en el mismo país o región con un plan de llamadas nacionales asignado de 120 minutos, compartirán un grupo de 12.000 minutos. Todas las llamadas que superen estos minutos se facturan por minuto.
 

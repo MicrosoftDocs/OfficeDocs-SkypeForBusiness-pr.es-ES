@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365-frontline
 description: Obtenga más información sobre las plantillas de equipo y cómo administrarlas en el Centro de administración de Microsoft Teams.
 f1.keywords:
 - CSH
@@ -18,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bff3c2c63b94df4c1e19a748d3e9e9912574faa
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: e4fb9c538335a50271bd0ae15249ec8aec7af95b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819361"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396731"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Introducción a las plantillas de equipo en el centro de administración de Teams
 
@@ -43,7 +44,7 @@ Puede administrar plantillas de equipo en el Centro de administración de Micros
 En este artículo se ofrece información general sobre cómo trabajar con plantillas de equipo en el Centro de administración de Teams. Obtendrá información sobre las propiedades compatibles con las plantillas, las plantillas predefinidas que proporcionamos, los límites de tamaño de las plantillas, cómo crear y administrar plantillas y mucho más.
 
 > [!NOTE]
-> Los usuarios pueden [crear equipos a partir de plantillas de equipo predefinidas o personalizadas](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) en la aplicación Teams. Los desarrolladores también pueden crear equipos mediante programación a partir de plantillas de equipo predefinidas con Microsoft Graph. Para obtener más información, consulte [Introducción a las plantillas de equipo con Microsoft Graph](get-started-with-teams-templates.md).
+> Los usuarios pueden [crear equipos a partir de plantillas de equipo predefinidas o personalizadas](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) en la aplicación Teams. Los desarrolladores también pueden crear equipos mediante programación a partir de plantillas de equipo predefinidas o personalizadas con Microsoft Graph. Para obtener más información, consulte [Introducción a las plantillas de equipo con Microsoft Graph](get-started-with-teams-templates.md).
 
 ## <a name="team-template-capabilities"></a>Capacidades de plantillas de equipo
 

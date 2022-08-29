@@ -16,12 +16,12 @@ f1.keywords:
 description: Protocolos de enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a4ba1715ccf7b1ea2f0dbf12b58fd5aa6556b24
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 00df395ab67ea3e268cb31f202dd59cba4d4148b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271265"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396321"
 ---
 # <a name="direct-routing---sip-protocol"></a>Enrutamiento directo: protocolo SIP
 
@@ -42,7 +42,7 @@ Antes de que se pueda procesar una llamada entrante o saliente, los mensajes OPT
 | Encabezado de contacto | Contacto: <sip:sbc1.adatum.biz:50588;transport=tls> |
 
 > [!NOTE]
-> Los encabezados SIP no contienen userinfo en el URI del SIP en uso. Según [RFC 3261, sección 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), la parte userinfo de un URI es opcional y PUEDE estar ausente cuando el host de destino no tiene una noción de usuarios o cuando el propio recurso está siendo identificado. Si el signo @ está presente en un URI de SIP, el campo de usuario NO DEBE estar vacío.
+> Los encabezados SIP no contienen userinfo en el URI del SIP en uso. Según [RFC 3261, sección 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), la parte userinfo de un URI es opcional y PUEDE estar ausente cuando el host de destino no tiene una noción de usuarios o cuando el propio host es el recurso que se está identificando. Si el signo @ está presente en un URI de SIP, el campo de usuario NO DEBE estar vacío.
 > Tenga en cuenta que el URI del SIPS no debe utilizarse con el Direct Routing ya que no es compatible.
 > Compruebe la configuración del controlador de borde de sesión y asegúrese de que no está usando encabezados "Reemplaza" en solicitudes SIP. Enrutamiento directo rechazará solicitudes SIP que tengan los encabezados Replaces definidos.
 
@@ -378,4 +378,4 @@ El reinicio en enrutamiento directo se implementa de acuerdo con los siguientes 
 
 *Un agente establece el resto de los campos en el SDP para esta transmisión multimedia como lo haría en una oferta inicial de esta transmisión multimedia (consulte la sección 4.3).  Por consiguiente, el conjunto de candidatos PUEDE incluir algunos, ninguno o todos los candidatos anteriores para esa transmisión y PUEDE incluir un conjunto totalmente nuevo de candidatos recopilados como se describe en la sección 4.1.1.*
 
-Si la llamada se estableció inicialmente con omisión de medios y la llamada se transfiere a un cliente de Skype for Business, el enrutamiento directo debe insertar un procesador multimedia; esto se debe a que el enrutamiento directo no se puede usar con un cliente de Skype for Business con omisión multimedia. Direct Routing inicia el proceso de reinicio de ICE cambiando el ice-pwd y el ice-ufrag y ofreciendo nuevos candidatos de medios en un revite.
+Si la llamada se estableció inicialmente con omisión de medios y la llamada se transfiere a un cliente de Skype Empresarial, enrutamiento directo debe insertar un procesador multimedia; esto se debe a que el enrutamiento directo no se puede usar con un cliente de Skype Empresarial con omisión multimedia. Direct Routing inicia el proceso de reinicio de ICE cambiando el ice-pwd y el ice-ufrag y ofreciendo nuevos candidatos de medios en un revite.

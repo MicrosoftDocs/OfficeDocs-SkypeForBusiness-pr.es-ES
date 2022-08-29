@@ -20,12 +20,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar las opciones de usuario para el desvío de llamadas y la delegación.
-ms.openlocfilehash: 64907043448f44ff861ede026d0a4343899ad98b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c9d085027ed1b365e8aa47b5908c946c4234e5ca
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272235"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397361"
 ---
 # <a name="configure-call-settings-for-your-users"></a>Configurar las opciones de llamada para los usuarios
 
@@ -56,6 +56,10 @@ Para configurar la llamada simultánea, en la misma página, seleccione **Llamar
 Para configurar opciones sin responder, en la misma página, seleccione la configuración adecuada en la lista desplegable **Si no se ha respondido** . En la lista desplegable **Llamar durante estos segundos antes de redirigir** , especifique el número de segundos que debe esperar.
 
 La configuración de la delegación de llamadas y la recogida de llamadas de grupo se integran en el desvío de llamadas y las configuraciones no respondidas seleccionando el tipo adecuado. Por ejemplo, para configurar que las llamadas también llamen a los delegados del usuario, en la misma página seleccione **Delegación de llamadas** en **Permitir también**. A continuación, agregue los delegados adecuados seleccionando **Agregar personas** y haciendo clic en **Guardar**.
+
+Este vídeo muestra los pasos para ver y editar la configuración de voz de un usuario.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE546F7?autoplay=false]
 
 ## <a name="use-powershell"></a>Usar PowerShell
 

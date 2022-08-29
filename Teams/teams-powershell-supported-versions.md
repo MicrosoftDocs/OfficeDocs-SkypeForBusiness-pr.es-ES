@@ -12,12 +12,12 @@ ms.collection:
 description: Obtenga más información sobre las versiones compatibles con el Módulo de PowerShell de Teams, que se usa para la administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175d9785cd32d18db7eebd363d08840538baa0df
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: 5ae244a16e934b70085b2193bee3ef21a277f7ed
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819555"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397291"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Módulo PowerShell de Teams: versiones compatibles
 
@@ -48,6 +48,8 @@ Se recomienda actualizar a la última versión del módulo de PowerShell de Team
   - Cambios de parámetros en Get-CsTenant: más [detalles en Get-CsTenant](/powershell/module/skype/get-cstenant) (publicación del centro de mensajes: MC365397).
   
   - Si los scripts usan cmdlets New/Set of Policy o Configuration con parámetros de tipo PSListModifier, se recomienda usar la versión más reciente (4.2.0 o posterior). Publicación del centro de mensajes como referencia: MC397428.
+
+  - [Nuevo| Get]-CsCloudCallDataConnection cmdlets ahora son compatibles con las versiones 4.6.0 o posteriores (publicación del centro de mensajes - MC408993).
 
 - Al usar TPM 4.x.x o posterior, se recomienda no usar ninguno de los cmdlets obsoletos o no admitidos que se [mencionan a continuación](#deprecated-cmdlets).
 

@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar canales compartidos en Microsoft Teams.
-ms.openlocfilehash: 55d1956b1f112e0f1685ac6c4126f564cf40bdb1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 767773d8c7f91bb290332fbd0976fb638edb2b8b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272265"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397231"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canales compartidos en Microsoft Teams
 
@@ -70,6 +70,9 @@ Cuando se archiva un equipo, el uso compartido individual permanecerá intacto, 
 No se puede quitar a un propietario de un canal compartido a través del cliente de Teams si es el último propietario que queda de uno o más canales compartidos.
 
 Si el último propietario del canal compartido abandona la organización o si se quita del grupo de Microsoft 365 asociado al equipo, se promoverá automáticamente a otro miembro del canal compartido para que sea el propietario de dicho canal. Considere agregar más de un propietario para evitar esta situación.
+
+> [!NOTE]
+> Los participantes externos deben agregarse con su UPN, en lugar de con su dirección de correo electrónico, si los dos no coinciden en Azure Active Directory.
 
 ## <a name="channel-owner-settings"></a>Configuración del propietario del canal
 
@@ -154,7 +157,7 @@ También se aplican las siguientes limitaciones:
 
 - Los canales compartidos admiten pestañas excepto Stream, Planner y Forms.
 
-- No se admiten aplicaciones LOB, bots, conectores ni extensiones de mensajes.
+- Los bots, conectores y extensiones de mensajes no son compatibles.
 
 - Cuando se crea un equipo a partir de un equipo existente, los canales compartidos del equipo existente no se copiarán.
 

@@ -18,15 +18,16 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f05ba56086a9c9dd3cbad046c1cfad34733ee2ee
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f7132f79936616ba66565cd133e5ab8616541254
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268195"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396861"
 ---
 # <a name="shifts-data-faq"></a>Preguntas más frecuentes sobre los datos de Turnos
 
@@ -96,7 +97,7 @@ Para ver qué campos se han cambiado, puede buscar eventos de Turnos en el regis
 
 Las API de Shifts Graph le permiten integrar datos de Shifts con sistemas externos de administración de la fuerza de trabajo (WFM). Para obtener más información, consulte [Turnos API de Graph](/graph/api/resources/shift).
 
-También ofrecemos conectores Shift administrados y conectores Shifts de código abierto. Con estos conectores, puede integrar su sistema de WFM directamente con Turnos. Para obtener más información sobre los conectores de Mayús y los sistemas de WFM [admitidos, vea Conectores de Turnos](shifts-connectors.md).
+También ofrecemos conectores Turnos administrados. Con estos conectores, puede integrar su sistema de WFM directamente con Turnos. Para obtener más información sobre los conectores de Mayús y los sistemas de WFM [admitidos, vea Conectores de Turnos](/microsoft-365/frontline/shifts-connectors).
 
 ## <a name="can-shifts-data-be-deleted-permanently-after-a-specified-period-of-time"></a>¿Los datos de Turnos se pueden eliminar permanentemente después de un período de tiempo especificado?
 

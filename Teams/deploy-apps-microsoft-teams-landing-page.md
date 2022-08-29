@@ -3,15 +3,15 @@ title: Información sobre las aplicaciones de Microsoft Teams
 ms.reviewer: ''
 description: Obtenga información sobre las aplicaciones, los bots y los conectores, y sobre cómo decidir qué implementar en Microsoft Teams según el perfil y los requisitos empresariales de su organización.
 ms.topic: article
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
-ms.date: 04/05/2022
 ms.service: msteams
 ms.subservice: teams-apps
 ms.collection:
 - M365-collaboration
+- m365-frontline
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 77d33fc464ab67945c8d3c588c4ce47366c2ba2d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 78f0f0857884f70d5e758b1c52e13341c15faa0e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270265"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397201"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Comprender las aplicaciones de terceros en Microsoft Teams
 
@@ -49,7 +49,7 @@ Algunas funcionalidades de Teams, como la fuente de actividades, los equipos, el
 
 ## <a name="microsoft-provided-apps"></a>Aplicaciones proporcionadas por Microsoft
 
-Microsoft proporciona muchas aplicaciones para mejorar la productividad y la colaboración. Tanto usted como los usuarios finales pueden encontrar estas aplicaciones si buscan a Microsoft como publicador en el centro de administración o como proveedor en la Tienda de Teams.
+Microsoft proporciona muchas aplicaciones para mejorar la productividad y la colaboración. Usted y los usuarios finales pueden encontrar estas aplicaciones si buscan a Microsoft como Editor en el Centro de administración de Teams o como Proveedor en la tienda de Teams.
 
 Teams incluye un conjunto de aplicaciones integradas, como Listas, Tareas, Elogiar, Aprobaciones y más. Recomendamos que se incluyan aplicaciones destacadas de Teams, como Planner, en la implementación inicial de Teams.
 
@@ -65,29 +65,21 @@ Además de las aplicaciones proporcionadas por Microsoft, puede usar aplicacione
 
 Las aplicaciones creadas por los desarrolladores de su organización se denominan aplicaciones personalizadas (o aplicaciones de línea de negocio). Su organización puede encargar la creación de aplicaciones personalizadas para los requisitos específicos de la organización. Tiene el control para permitir o bloquear dichas aplicaciones para toda la organización o para usuarios específicos. Los desarrolladores de su organización pueden crear rápidamente soluciones personalizadas de bajo código mediante la integración de Teams con [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
 
-Después de que un administrador permita el uso de aplicaciones personalizadas, los usuarios finales podrán encontrar dichas aplicaciones haciendo clic en **Creado para su organización** en el panel de navegación izquierdo de la tienda de Teams.
+Después de que un administrador permita el uso de aplicaciones personalizadas, los usuarios finales pueden encontrarlas seleccionando **Creado para su organización** en el panel de navegación izquierdo de la Tienda Teams.
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Captura de pantalla de aplicaciones personalizadas en la tienda de Teams en la aplicación de escritorio de Teams." lightbox="media/built-for-your-org2.png":::
 
-<!--- TBD - new article on custom app overview and sideloading. --->
-
-### <a name="understand-sideloading-of-custom-apps"></a>Descripción de la instalación de prueba de aplicaciones personalizadas
-
-Al desarrollar aplicaciones personalizadas y antes de que se distribuyan a los usuarios finales, los desarrolladores prueban las aplicaciones agregándolas a la tienda para probarlas por sí mismos o con un equipo en el que transfieren localmente la aplicación. Los desarrolladores pueden realizar pruebas por su cuenta o con un grupo específico de usuarios, pero la aplicación no está disponible para otros usuarios finales de la organización. Este método se denomina instalación de prueba de aplicaciones y solo se aplica a aplicaciones personalizadas.
-
-Los desarrolladores pueden transferir localmente una aplicación para que esté disponible para los miembros de un equipo específico, normalmente cuando se prueba una aplicación en desarrollo. Cuando se usa una aplicación de esta forma, se limita el uso a los desarrolladores de aplicaciones y no se requiere la aprobación de un administrador, siempre y cuando el administrador permita la instalación de prueba en Teams. Como administrador, se puede denegar la instalación de prueba de aplicaciones para todos los desarrolladores.
-
-Si no se permite la instalación de prueba, los desarrolladores podrán probar sus aplicaciones al [crear un inquilino de prueba independiente](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Una vez completado el desarrollo de aplicaciones personalizadas, los desarrolladores solicitan a los administradores que distribuyan su aplicación personalizada a los usuarios finales. Para obtener más información, consulte [cómo publicar una aplicación personalizada](/microsoftteams/upload-custom-apps). Como administrador, puede permitir o denegar el uso de una aplicación personalizada para usuarios específicos.
+Para obtener más información, consulta [Comprender y administrar aplicaciones personalizadas y de instalación de prueba](custom-app-overview.md).
 
 ## <a name="about-app-templates"></a>Información de plantillas de aplicación
 
-Las plantillas de aplicación para Teams son aplicaciones de ejemplo funcionales y listas para producción que ha creado Microsoft con los siguientes fines:
+Con los métodos de desarrollo de aplicaciones, Microsoft crea y proporciona aplicaciones de muestra funcionales y listas para producción. Colectivamente, estas aplicaciones se denominan plantillas de aplicaciones para Teams y se proporcionan a:
 
-* Ilustrar los casos de uso más populares.
-* Presentar los procedimientos recomendados de desarrollo de aplicaciones.
-* Proporcionar aplicaciones de código abierto que los desarrolladores pueden ampliar para crear aplicaciones personalizadas.
+* Ilustra algunos casos de uso de colaboración en Teams.
+* Muestra los procedimientos recomendados y métodos de desarrollo de aplicaciones.
+* Proporciona aplicaciones de código abierto que los desarrolladores pueden ampliar para crear sus propias aplicaciones.
 
-Los desarrolladores de la organización personalizan las plantillas de aplicación con cambios sencillos en el código disponible en GitHub. Usted proporciona estas aplicaciones como aplicaciones personalizadas para los usuarios finales, para satisfacer las necesidades de la organización.
+Los desarrolladores de la organización personalizan las plantillas de aplicación con cambios sencillos en el código fuente proporcionado. Usted proporciona estas aplicaciones como aplicaciones personalizadas para los usuarios finales, para satisfacer las necesidades de la organización.
 
 Para obtener más información, consulte [Plantillas de aplicación de Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
@@ -175,3 +167,7 @@ You can use activity reports to see how users in your organization are using Tea
 | Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 
 --->
+
+## <a name="related-articles"></a>Artículos relacionados
+
+* [Obtenga más información sobre las plantillas de aplicaciones para Teams](/microsoftteams/platform/samples/app-templates).

@@ -18,12 +18,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4dc2bb1055853bdd5b06b85303ea6dceda934dc
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: cc931e442b5777c129482ad22e7698b9446e5695
+ms.sourcegitcommit: 10bb44fdd23d0b42a81229028d1b86515f88e7bb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269305"
+ms.lasthandoff: 08/25/2022
+ms.locfileid: "67435296"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción al aprendizaje para administradores de Microsoft Teams
 
@@ -67,14 +67,14 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 
 | Módulo | Vídeo | Conjunto de diapositivas de PowerPoint (PDF)  |
 | ------------ | -------------------- | -------------------- |
-| Módulo 1: Introducción a Salas de Microsoft Teams (18:29 min) | [Vídeo](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| Módulo 2: Redes de Microsoft Teams (34:10 min) | [Vídeo](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
-| Módulo 3: Elegir el dispositivo adecuado para el espacio adecuado (18:45 min) | [Vídeo](https://www.youtube.com/watch?v=jUac7mT7xP4) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| Módulo 4: Implementación de Salas de Microsoft Teams (56:36 min) | [Vídeo](https://www.youtube.com/watch?v=IJZPczMAsEM) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| Módulo 5: Configuración e inicio Salas de Microsoft Teams (32:27 min) | [Vídeo](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| Módulo 6: Administración de Salas de Microsoft Teams, Parte 1 (18:31 min) | [Vídeo](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| Módulo 7: Administración de Salas de Microsoft Teams, Parte 2 (41:06 min) | [Vídeo](https://www.youtube.com/watch?v=vDCYM5sKylc) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| Módulo 8: Salas de Microsoft Teams-- Consejos, trucos y solución de problemas (18:14 min)|[Vídeo](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| Módulo 1: Introducción a Salas de Microsoft Teams (18:29 min) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
+| Módulo 2: Redes de Microsoft Teams (34:10 min) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
+| Módulo 3: Elegir el dispositivo adecuado para el espacio adecuado (18:45 min) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
+| Módulo 4: Implementación de Salas de Microsoft Teams (56:36 min) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| Módulo 5: Configuración e inicio Salas de Microsoft Teams (32:27 min) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| Módulo 6: Administración de Salas de Microsoft Teams, Parte 1 (18:31 min) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
+| Módulo 7: Administración de Salas de Microsoft Teams, Parte 2 (41:06 min) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
+| Módulo 8: Salas de Microsoft Teams-- Consejos, trucos y solución de problemas (18:14 min)| [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | Instrucciones para unirse con un solo toque |  | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 | Introducción a Salas de Microsoft Teams Servicios administrados |  | [Presentación de diapositivas](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
@@ -101,7 +101,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 | Simplificar la administración de Teams con PowerShell y grupos dinámicos        | Convierta un grupo de Office 365 de pertenencia estática a dinámica y use Windows PowerShell para asignar una nueva directiva de permisos de aplicación a todos los miembros.                                                                         |  [Guía de administración de Teams de simplificación](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
 | Administrar Teams y acceso de invitado en el Centro de administración de Microsoft Teams         | Obtenga información sobre cómo configurar y administrar Microsoft Teams y el acceso de invitado para su organización.                                                                                                                              | [Administrar Teams y la guía de acceso de invitado](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
 | Configurar Teams Phone System: Operador automático & cola de llamadas                   | Siga el proceso de creación e implementación de una cola de llamadas y un operador automático como parte de las llamadas de Microsoft Teams mediante el Centro de administración de Microsoft Teams.                                                          |  [Configurar la guía del sistema telefónico de Teams](https://aka.ms/TeamsPhoneInteractiveGuide)             |
-| Configurar enrutamiento directo: conexión de SBCs y enrutamiento de voz                 | Use Microsoft Teams 电话 Enrutamiento directo del sistema para integrarse con su infraestructura de telefonía existente.                                                                                                              | [Configurar guía de enrutamiento directo](https://aka.ms/DirectRoutingInteractiveGuide)          |
+| Configurar enrutamiento directo: conexión de SBCs y enrutamiento de voz                 | Use Teléfono Microsoft Teams Enrutamiento directo del sistema para integrarlo con su infraestructura de telefonía existente.                                                                                                              | [Configurar guía de enrutamiento directo](https://aka.ms/DirectRoutingInteractiveGuide)          |
 | Configurar el gobierno en Microsoft Teams                                     | Obtenga información sobre cómo crear una directiva de retención de mensajería de Teams para su organización y cómo archivar, eliminar y restaurar equipos individuales                                                                                   |  [Configurar el gobierno en la guía de Microsoft Teams](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Configuración e implementación de reuniones de Microsoft Teams                          | Siga el proceso de implementar la carga de trabajo de reuniones para Microsoft Teams.                                                                                                                                       |  [Guía de configuración e implementación de reuniones de Microsoft Teams](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Configurar Audioconferencia para Microsoft Teams                            | Descubra las capacidades de Audioconferencia en Teams y aprenda a asignar puentes de conferencia y números de teléfono de acceso telefónico local.                                                                                          |  [Configurar audioconferencia para la guía de Microsoft Teams](https://aka.ms/AudioConferencingInteractiveGuide)      |

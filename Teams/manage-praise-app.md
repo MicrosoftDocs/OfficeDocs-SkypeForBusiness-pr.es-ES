@@ -11,12 +11,13 @@ ms.localizationpriority: medium
 description: Obtenga información sobre cómo administrar la aplicación Elogiar en el Centro de administración de Microsoft Teams.
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 0f30a508fd1c0f2e82dcab3c22d3ade94d4e0118
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+- m365-frontline
+ms.openlocfilehash: 36f904f40fdb878480addc0d753b4ccb44a3f2d9
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269425"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396691"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Administrar la aplicación Elogiar en el Centro de administración de Microsoft Teams
 
@@ -33,12 +34,12 @@ Elogio está habilitado de forma predeterminada para todos los usuarios de Teams
 
 :::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Captura de pantalla de la página de detalles de la aplicación Elogiar en el Centro de administración de Teams, que muestra el botón de alternancia Estado.":::
 
-1. En el panel izquierdo del Centro de administración de Microsoft Teams, vaya a Aplicaciones  > **de Teams****Administrar aplicaciones**.
+1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**.
 2. En la lista de aplicaciones, busca la aplicación Elogiar, selecciónala y cambia el botón de alternancia **Estado** a **Bloqueada** o **Permitida**.
 
-Tenga en cuenta que esta configuración afecta tanto a la aplicación Elogiar como a la característica Elogiar de la aplicación Viva Insights en Teams.
+Tenga en cuenta que esta configuración afecta tanto a la aplicación Elogiar como a la característica Elogiar de la aplicación Ideas Viva en Teams.
 
-Si establece el Estado en Bloqueado, la aplicación Elogiar se bloqueará en unos minutos para Teams. Sin embargo, elogios en Viva Insights pueden tardar entre 7 y 9 días en bloquearse.
+Si establece el Estado en Bloqueado, la aplicación Elogiar se bloqueará en unos minutos para Teams. Sin embargo, elogios en Ideas Viva pueden tardar entre 7 y 9 días en bloquearse.
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar Elogio para usuarios específicos de su organización
 

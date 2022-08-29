@@ -1,9 +1,8 @@
 ---
 title: Consideraciones y permisos de las aplicaciones de Microsoft Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.date: 06/27/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -15,16 +14,16 @@ ms.reviewer: rowille
 description: El administrador puede saber qué datos y permisos solicitan las aplicaciones de Microsoft Teams a su organización.
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2cb641bb8756802820cf6ec6a311e3328c3887ca
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
-ms.translationtype: HT
+ms.openlocfilehash: 2f4809d615d97aa46ecad3b46c2b723c33b4619e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175674"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396871"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Consideraciones y permisos de las aplicaciones de Microsoft Teams
 
@@ -97,7 +96,7 @@ Ninguna
 
 * Cuando un usuario habla con un bot, si el bot almacena el id. de usuario, puede enviar al usuario mensajes directos en cualquier momento.
 
-* Teóricamente, es posible que los mensajes bot contengan vínculos a sitios de suplantación de identidad (phishing) o malware. Sin embargo, El usuario, el administrador de inquilinos o Microsoft pueden bloquear los bots de forma global. [Las comprobaciones de validación y verificación de aplicaciones](overview-of-app-validation.md) garantizan que las aplicaciones falsas no estén disponibles en la tienda de Teams.
+* Teóricamente, es posible que los mensajes bot contengan vínculos a sitios de suplantación de identidad (phishing) o malware. Sin embargo, El usuario, el administrador de inquilinos o Microsoft pueden bloquear los bots de forma global. [Las comprobaciones de validación y verificación](overview-of-app-validation.md) de aplicaciones garantizan que las aplicaciones falsas no estén disponibles en la tienda de Teams.
 
 * Un bot puede recuperar (y almacenar) información de identidad básica para los miembros del equipo a los que se ha agregado la aplicación, o para usuarios individuales en chats personales o grupales. Para obtener más información sobre estos usuarios, el bot debe pedirles que inicien sesión en Azure Active Directory (Azure AD).
 
@@ -106,8 +105,6 @@ Ninguna
 * De forma predeterminada, los bots no tienen la capacidad de actuar en nombre del usuario, pero los bots pueden pedir a los usuarios que inicien sesión; tan pronto como el usuario inicie sesión, el bot tendrá un token de acceso con el que puede hacer cosas adicionales. Exactamente lo que esas otras cosas dependen del bot y de dónde el usuario inicia sesión: un bot es una aplicación de Azure AD registrada en https://apps.dev.microsoft.com/ y puede tener su propio conjunto de permisos.
 
 * Cuando se envía un archivo a un bot, el archivo abandona la red corporativa. El envío y la recepción de archivos requiere la aprobación del usuario para cada archivo.
-
-* De forma predeterminada, los bots no tienen la capacidad de actuar en nombre del usuario, pero los bots pueden pedir a los usuarios que inicien sesión; tan pronto como el usuario inicie sesión, el bot tendrá un token de acceso con el que puede hacer cosas adicionales. Exactamente lo que esos elementos adicionales dependen del bot y de dónde el usuario inicie sesión: un bot es una aplicación de Azure AD registrada en el [Portal de registro de aplicaciones](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList) y puede tener su propio conjunto de permisos.
 
 * Los bots se informan siempre que se agregan a los usuarios o se eliminan de un equipo.
 
@@ -191,7 +188,7 @@ Ninguna
 
 * Los webhooks salientes son similares a los bots, pero tienen menos privilegios. Deben mencionarse explícitamente, al igual que los bots.
 
-* Cuando se registra un webhook saliente, se genera un secreto, que permite al webhook saliente comprobar que el remitente es Microsoft Teams en lugar de un atacante malintencionado. Este secreto debe seguir siendo un secreto; cualquier persona que tenga acceso a ella puede hacerse pasar por Microsoft Teams. Si el secreto está en peligro, el webhook saliente se puede eliminar y volver a crear, y se generará un nuevo secreto.
+* Cuando se registra un webhook saliente, se genera un secreto, que permite al webhook saliente comprobar que el remitente es Microsoft Teams en lugar de un atacante malintencionado. Este secreto debe seguir siendo un secreto; cualquier persona que tenga acceso a ella puede hacerse pasar por Microsoft Teams. Si el secreto está en peligro, elimine y vuelva a crear el webhook saliente para generar un nuevo secreto.
 
 * Aunque es posible crear un webhook saliente que no valide el secreto, le recomendamos que lo haga.
 

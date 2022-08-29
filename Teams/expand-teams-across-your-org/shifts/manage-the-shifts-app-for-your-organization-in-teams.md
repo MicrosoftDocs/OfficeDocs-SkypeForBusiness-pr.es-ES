@@ -20,15 +20,16 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - microsoftcloud-retail
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec51237ff9a3b0dff1894581364756afbfd6f5cf
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759e0cb846b6bca404276e50ca00a1ff28d5725c
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269015"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405142"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
@@ -89,6 +90,17 @@ Puede crear una [directiva de configuración de aplicación personalizada](../..
 Un [paquete de directivas](../../manage-policy-packages.md) en Teams es una colección de directivas predefinidas y configuraciones de directiva que puede asignar a los usuarios que tienen roles similares en su organización. El conjunto de directivas de los paquetes de directiva Frontline Worker y Frontline Manager incluye una directiva de configuración de aplicaciones que ancla la aplicación Turnos y otras aplicaciones que admiten actividades de comunicación y colaboración para ese rol.
 
 Se recomienda usar los paquetes de directivas Frontline Worker y Frontline Manager para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para su personal de primera línea.
+
+### <a name="enable-shift-based-tags-in-teams"></a>Habilitar etiquetas basadas en turnos en Teams
+
+[Las etiquetas](https://support.microsoft.com/office/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e) de Teams permiten a los usuarios conectarse fácilmente con un subconjunto de personas de un equipo. Con las etiquetas basadas en turnos, a los usuarios se les asignan automáticamente etiquetas que coinciden con su nombre de grupo de turnos y programación en Turnos. La etiqueta se puede usar en @mentions en la línea **Para** de un chat o en una publicación en cualquier canal estándar del equipo.
+
+Las etiquetas basadas en turnos permiten a los usuarios ponerse en contacto con personas que están en turno en tiempo real. Las notificaciones se envían solo a aquellas personas que están de turno en el momento en que se usa la etiqueta en un chat o publicación de canal. Por ejemplo:
+
+- Un administrador de store usa la etiqueta @Cashiers para publicar un anuncio en un canal para todos los cajeros a turnos.
+- Una enfermera usa la etiqueta @CardiologistsOnCall para iniciar un chat con todos los cardiólogos de llamada.
+
+Puede activar o desactivar la característica en el Centro de administración de Microsoft Teams. Para obtener más información, consulte [Administración de etiquetas en Teams](../../manage-tags.md).
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>Buscar eventos de Turnos en el registro de auditoría
 

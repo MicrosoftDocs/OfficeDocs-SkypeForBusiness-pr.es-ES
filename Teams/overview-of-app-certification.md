@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9918c1ce81464f2fbe9a0c16bc0373e54858d79b
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: d1fb640e6bf43d4a91eb1c672244cdf33cefd059
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299089"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396441"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Programa de cumplimiento de aplicaciones de Microsoft 365 para la seguridad, el cumplimiento y la privacidad de aplicaciones de terceros
 
@@ -112,7 +112,7 @@ Al evaluar una aplicación, puede usar Agentes de seguridad de acceso a la nube 
 
 Para acceder a la información de MCAS de una aplicación:
 
-1. En el centro de administración de Teams, seleccione **Aplicaciones de Teams** > **[Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Inicie sesión en el Centro de administración de Teams y acceda a **las aplicaciones** > **[de Teams Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 1. Seleccione **Certificación** para ordenar las aplicaciones y enviar todas las aplicaciones certificadas de Microsoft 365 a la parte superior de la tabla.
 

@@ -11,6 +11,7 @@ audience: Admin
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- m365-frontline
 appliesto:
 - Microsoft Teams
 f1.keywords: ''
@@ -21,12 +22,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización sanitaria.
-ms.openlocfilehash: a4613716b1c5ce626e5a00ce2ed884cfb208f097
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: 29192cfeec6545cdbbb5528eeabc1298146e4577
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819425"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397261"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Paquetes de directivas de Teams para sanidad
 
@@ -101,7 +102,7 @@ Si un usuario tiene una directiva asignada y posteriormente asigna otra directiv
 
 #### <a name="assign-a-policy-package-to-a-group"></a>Asignar un paquete de directivas a un grupo
 
-La asignación del paquete de directivas a grupos le permite asignar varias directivas a un grupo de usuarios, como un grupo de seguridad o una lista de distribución. La asignación de directiva se extiende a los miembros del grupo en función de las reglas de prioridad. A medida que se agregan o se eliminan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan correspondientemente. Este método es el recomendado para grupos de hasta 50 000 usuarios, pero también funciona con grupos más grandes.
+La opción de asignar un paquete de directiva a grupos le permite asignar múltiples directivas a un grupo de usuarios, como un grupo de seguridad o una lista de distribución. La asignación de directiva se extiende a los miembros del grupo en función de las reglas de prioridad. A medida que se agregan o se eliminan miembros de un grupo, sus asignaciones de directivas heredadas se actualizan correspondientemente. Este método es el recomendado para grupos de hasta 50 000 usuarios, pero también funciona con grupos más grandes.
 
 Para obtener más información, consulte [Asignar un paquete de directivas a un grupo](assign-policy-packages.md#assign-a-policy-package-to-a-group).
 

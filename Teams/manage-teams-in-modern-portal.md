@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d99dacdd0580d2ee9eaf775d843c5c46a0960259
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
-ms.translationtype: HT
+ms.openlocfilehash: fca16f3b09fc153717b24161eb8717f419171677
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67024003"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396331"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Administrar equipos en el Centro de administración de Microsoft Teams
 
@@ -44,7 +44,7 @@ Puede obtener más información acerca de los roles de administrador en Teams en
 
 ## <a name="teams-overview-grid"></a>Información general de equipos
 
-Las herramientas de administración para equipos se encuentran en el nodo **Equipos** en el centro de administración de Microsoft Teams. (En el Centro de administración, seleccione **Equipos** > **Administrar equipos**). Cada equipo se basa en un grupo de Microsoft 365 y este nodo ofrece una vista de los grupos que se han habilitado para Microsoft Teams en la organización.
+Las herramientas de administración para equipos se encuentran en el nodo **Equipos** en el centro de administración de Microsoft Teams. (En el centro de administración, seleccione **Teams** >  **Administrar equipos**). Cada equipo cuenta con el respaldo de un grupo de Microsoft 365 y este nodo proporciona una vista de los grupos habilitados para Microsoft Teams en su organización.
 
 ![Captura de pantalla de la cuadrícula de información general de Teams.](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -54,7 +54,7 @@ La cuadrícula muestra las siguientes propiedades:
 - **Canales**: es el número de todos los canales del equipo, incluido el canal General predeterminado.
 - **Miembros del equipo**: un recuento de los usuarios totales, incluidos los propietarios, los invitados y los miembros de su espacio empresarial.
 - **Propietarios**: un recuento de propietarios de este equipo.
-- **Invitados**: recuento de usuarios invitados de B2B de Azure Active Directory que son miembros de este equipo.
+- **Invitados** : un recuento de invitados B2B de Azure Active Directory que son miembros de este equipo.
 - **Privacidad**: visibilidad o AccessType del grupo de respaldo de Microsoft 365 correspondiente.
 - **Estado**: el estado Archivado o Activo de este equipo. Obtenga más información sobre archivar equipos en [Archivar o restaurar un equipo](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 - **Descripción**: la descripción del grupo de respaldo de Microsoft 365 correspondiente.
@@ -71,9 +71,17 @@ Para agregar un nuevo equipo, haga clic en **Agregar**. En el panel **Agregar un
 > [!NOTE]
 > Los equipos recién creados se pueden administrar inmediatamente en el Centro de administración de Teams, a diferencia de lo que ocurre con otros clientes, como Outlook.
 
+En este vídeo se muestran los pasos para crear un equipo y un canal para ellos.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53TXG?autoplay=false]
+
 ### <a name="edit"></a>Editar 
 
 Para editar configuraciones específicas de grupo y de equipo, seleccione el equipo haciendo clic a la izquierda del nombre de equipo y seleccione **Editar**.
+
+Este vídeo muestra los pasos para ver y editar los detalles de un equipo existente.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53JpG?autoplay=false]
 
 ### <a name="archive"></a>Archivar
 

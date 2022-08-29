@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
+- m365-frontline
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar y usar las plantillas de equipos de venta minorista en el Centro de administración de Teams y con Microsoft Graph para crear equipos de forma rápida y sencilla para su organización de venta minorista.
@@ -19,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3cf6d2e7eb23517477572775e7d18571463957b
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
-ms.translationtype: HT
+ms.openlocfilehash: 3e8d908a0c6183f4d305b0b622060cfd2ed78922
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046346"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396301"
 ---
 # <a name="use-retail-team-templates"></a>Usar plantillas de equipo de venta minorista
 
@@ -45,7 +46,7 @@ La forma de administrar y trabajar con plantillas de equipo depende de si es adm
 
 Como un administrador, puede administrar plantillas de equipo en el Centro de administración de Microsoft Teams. Aquí puede ver los detalles acerca de cada plantilla. También puede [crear y asignar directivas de plantillas](templates-policies.md) al personal para controlar qué plantillas ven en Teams para [crear equipos](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b).
 
-Para obtener más información sobre las plantillas de equipo en general, vea [Introducción a las plantillas de equipo en el Centro de administración de Teams](get-started-with-teams-templates-in-the-admin-console.md).
+Para obtener más información sobre las plantillas de equipo en general, vea [Introducción a las plantillas de Teams en el Centro de administración](get-started-with-teams-templates-in-the-admin-console.md).
 
 Actualmente ofrecemos las siguientes plantillas de equipo de venta directa predefinidas. Para verlos, en el panel de navegación izquierdo del Centro de administración de Teams, vaya a **Teams** > **plantillas de Teams**.
 

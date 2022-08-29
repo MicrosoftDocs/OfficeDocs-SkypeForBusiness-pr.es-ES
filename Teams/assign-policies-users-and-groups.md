@@ -18,12 +18,12 @@ description: Aprenda las diferentes formas de asignar directivas a usuarios y gr
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 9d286d4451ce143a54beda6e457c12ba059832b3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: a57c038242c06f4305410e68cff907aef6889841
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267585"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396654"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>Asignar directivas a usuarios y grupos
 
@@ -58,14 +58,14 @@ También puede hacer lo siguiente para asignar una directiva a un usuario:
 
 ### <a name="use-powershell"></a>Usar PowerShell
 
-Cada tipo de directiva tiene su propio conjunto de cmdlets para administrarlo. Use el `Grant-` cmdlet para un tipo de directiva determinado para asignar la directiva. Por ejemplo, use el `Grant-CsTeamsMeetingPolicy` cmdlet para asignar una directiva de reunión de Teams a los usuarios. Estos cmdlets se incluyen en el módulo de PowerShell de Teams y se documentan en la [referencia de cmdlet de Skype for Business](/powershell/skype).
+Cada tipo de directiva tiene su propio conjunto de cmdlets para administrarlo. Use el `Grant-` cmdlet para un tipo de directiva determinado para asignar la directiva. Por ejemplo, use el `Grant-CsTeamsMeetingPolicy` cmdlet para asignar una directiva de reunión de Teams a los usuarios. Estos cmdlets se incluyen en el módulo de PowerShell de Teams y se documentan en la [referencia de cmdlet de Skype Empresarial](/powershell/skype).
 
  Descargue e instale la [versión pública de PowerShell de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/) (si aún no lo ha hecho) y, a continuación, ejecute lo siguiente para conectarse.
 
 > [!NOTE]
 > El conector en línea del cliente de Skype® Empresarial actualmente forma parte del módulo más reciente de Windows PowerShell de Teams.
 >
-> Si usa la última [versión pública de PowerShell de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/), no es necesario instalar la Skype for Business Online Connector.
+> Si usa la última [versión pública de PowerShell de Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/), no es necesario instalar la Skype Empresarial Online Connector.
 
 ```powershell
   # When using Teams PowerShell Module
@@ -147,6 +147,10 @@ Si no especifica una clasificación, se asigna la clasificación más baja a la 
 Para quitar una asignación de directiva de grupo, en la pestaña **Asignación de directiva** de grupo de la página directiva, seleccione la asignación de grupo y, a continuación, seleccione **Quitar**.
 
 Para cambiar la clasificación de una asignación de grupo, primero debe quitar la asignación de directiva de grupo. Después, siga los pasos anteriores para asignar la directiva a un grupo.
+
+En este vídeo se muestran los pasos para crear y asignar una directiva de reunión personalizada a un grupo.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Ws0?autoplay=false]
 
 ### <a name="use-the-powershell-option"></a>Usar la opción PowerShell
 
@@ -248,7 +252,7 @@ Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 
 Ahora, quitamos la directiva Eventos de empleado del usuario. Esto significa que el usuario ya no tiene asignada directamente una directiva de difusión de reunión de Teams y heredará la directiva Eventos en directo del proveedor asignada al grupo al que pertenece el usuario.
 
-Para ello, use el siguiente cmdlet en el módulo Skype for Business PowerShell.
+Para ello, use el siguiente cmdlet en el módulo Skype Empresarial PowerShell.
 
 ```powershell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null

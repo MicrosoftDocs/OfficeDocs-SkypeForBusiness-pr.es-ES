@@ -16,12 +16,12 @@ description: Obtenga información sobre cómo establecer Adobe Acrobat como un v
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 9e8860c10e74d5dc06f73632b33b6c94ea792a09
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: b1c5654791dde3def8ec622880e26b07f693633f
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299249"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396711"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Adobe Acrobat como visor de PDF predeterminado en Microsoft Teams
 
@@ -39,11 +39,11 @@ Para configurar la aplicación Adobe Acrobat como el controlador predeterminado 
 
 Antes de configurar la aplicación, asegúrese de que permite que las aplicaciones se usen en el inquilino, que ha permitido específicamente la aplicación Adobe Acrobat y que las directivas de permisos de la aplicación lo permiten. Para configurar Adobe Acrobat como la aplicación predeterminada para archivos PDF, siga estos pasos:
 
-1. Inicie sesión en el Centro de administración de Teams y vaya a **Aplicación de Teams** > **[Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Inicie sesión en el Centro de administración de Teams y acceda a la aplicación  > **de Teams****[Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
-1. Busque la aplicación Adobe Acrobat y selecciónela.
+1. Busque la aplicación Adobe Acrobat y selecciónela. Se abrirá la página de detalles de la aplicación.
 
-1. En la pestaña **Permisos**, seleccione **Revisar permiso**.
+1. Seleccione la pestaña **Permisos** y, a continuación, seleccione **Permiso de revisión**.
 
    :::image type="content" source="media/permission-policy.png" alt-text="Captura de pantalla del permiso de aplicación en el Centro de administración de Teams." lightbox="media/teams-app-adobe-acrobat-permission.png":::
 

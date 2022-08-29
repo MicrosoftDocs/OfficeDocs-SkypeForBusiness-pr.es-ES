@@ -18,12 +18,12 @@ description: Aprenda las diferentes formas de asignar directivas y paquetes de d
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: e7cf7ba085c7bad22fea4b14f79b9eb3d4e6e2aa
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7c9855a56031d3eb22cdcbc1ac1b27dfa075db49
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268425"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418459"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Asignar directivas en Teams: introducción
 
@@ -87,6 +87,9 @@ Siga estos pasos para establecer las directivas globales (predeterminadas para t
 
 :::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Captura de pantalla que muestra la directiva global de actualización en el Centro de administración de Teams." lightbox="media/teams-meetings-policies-global-expanded.png":::
 
+> [!NOTE]
+> Después de enviar cualquier operación de directiva, se le pedirá un cuadro de diálogo emergente para confirmarla. Esto incluye las asignaciones de directivas, el cambio de una directiva existente y la creación de nuevas directivas personalizadas. Debes confirmar que debes iniciar la operación de directiva o puedes cancelarla y volver más tarde.
+
 ### <a name="using-powershell"></a>Con PowerShell
 
 Para establecer las directivas globales con PowerShell, use el identificador global.  Empiece revisando la directiva global actual para determinar qué configuración desea cambiar.
@@ -148,6 +151,10 @@ Para ver las operaciones de directivas en el registro de actividades:
 
 > [!NOTE]
 > También puede acceder al registro de actividades desde la página **Usuarios** . Después de seleccionar **Aplicar** para enviar una asignación de directiva masiva, verá un banner en la parte superior de la página. Seleccione el vínculo **Registro de** actividades en la pancarta.
+
+Este vídeo muestra los pasos para ver y administrar las directivas asignadas y eficaces para un usuario.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x4E?autoplay=false]
 
 ## <a name="related-topics"></a>Temas relacionados
 

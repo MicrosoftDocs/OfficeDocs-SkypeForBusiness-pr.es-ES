@@ -10,6 +10,7 @@ ms.custom: intro-get-started
 audience: admin
 ms.collection:
 - M365-collaboration
+- m365-frontline
 ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords:
@@ -18,12 +19,12 @@ description: Obtenga información sobre cómo administrar aplicaciones de Teams.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: bbad8eb283fe3e27397b2ddd5d22a91fc6570394
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 5c769a5cb8aab00265dee90bcce4b093c50e2a90
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298869"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397061"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Administrar aplicaciones de Teams en el Centro de administración de Microsoft Teams
 
@@ -44,9 +45,10 @@ Durante la creación de una aplicación, los desarrolladores crean y agregan un 
 
 Las opciones para llevar a cabo la mayoría de los casos de administración de aplicaciones están disponibles en el centro de administración de Teams. Además, ciertas opciones están disponibles en otros portales o en diferentes páginas del Centro de administración de Teams.
 
+Las tareas de administración de aplicaciones compatibles con el Centro de administración se encuentran en la tabla siguiente.
+
 | Casos de uso de administración de aplicaciones | Vínculo a la interfaz | Documentación |
 |:----|:----|:----|
-| **En el Centro de administración de Teams** | | |
 | Controle qué aplicaciones están disponibles para los usuarios de su organización permitiendo y bloqueando aplicaciones. También puede cargar y aprobar aplicaciones personalizadas. Después de administrar las aplicaciones en esta página, puede usar los permisos de la aplicación y las directivas de configuración de la aplicación para configurar qué aplicaciones están disponibles para usuarios específicos en la tienda de aplicaciones de su organización. | [Administrar aplicaciones en el Centro de administración de Teams](https://admin.teams.microsoft.com/policies/manage-apps) | Artículo actual |
 | Las directivas de permisos de aplicaciones controlan qué aplicaciones desea que estén disponibles para los usuarios de Teams de su organización. Puede usar la directiva predeterminada global (de toda la organización) y personalizarla, o puede crear una o más directivas para satisfacer las necesidades de su organización. | [Directivas de permisos](https://admin.teams.microsoft.com/policies/app-permission) | [Administrar directivas de permisos de aplicación](teams-app-permission-policies.md) |
 | Las directivas de configuración de aplicaciones controlan cómo las aplicaciones se ponen a disposición de un usuario con la aplicación Teams. Use la directiva Global (predeterminada para toda la organización) y personalícela o cree directivas personalizadas y asígnelas a un conjunto de usuarios. | [Directivas de configuración](https://admin.teams.microsoft.com/policies/app-setup) | [Administrar directivas de configuración de aplicaciones](teams-app-setup-policies.md) |
@@ -55,8 +57,12 @@ Las opciones para llevar a cabo la mayoría de los casos de administración de a
 | El informe de uso de aplicaciones de Teams proporciona información sobre las aplicaciones en uso, los usuarios activos y otra información de uso de aplicaciones. | [Informes de uso](https://admin.teams.microsoft.com/analytics/reports) | [Informe de uso de la aplicación Teams](teams-analytics-and-reports/app-usage-report.md) |
 | Los usuarios pueden agregar aplicaciones cuando hospedan reuniones o chats con invitados. También pueden usar aplicaciones compartidas por los invitados cuando se unen a reuniones o chats hospedados externamente. Se aplican las directivas de datos de la organización del usuario de hospedaje y las prácticas de intercambio de datos de cualquier aplicación de terceros compartida por la organización de ese usuario. | [Acceso externo](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [ Comportamiento de la aplicación en función de los tipos de usuarios](non-standard-users.md) |
 | Con el acceso de invitados, puede proporcionar acceso a aplicaciones y otras funcionalidades de Teams a personas ajenas a su organización, al tiempo que mantiene el control sobre sus datos corporativos. | [Acceso de invitado](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Acceso de invitado a Teams](guest-access.md) |
-| Las directivas de actualización se usan para administrar a los usuarios de la versión preliminar de Teams y Office que verán las características previas al lanzamiento o de versión preliminar en la aplicación Teams. | [Directivas de actualización de Teams](https://admin.teams.microsoft.com/policies/updatemanagement) | [Versión preliminar pública de Teams](public-preview-doc-updates.md) |
-| **Centro de administración de Outside Teams** | | |
+| Las directivas de actualización de Teams se usan para administrar Teams y los usuarios de la versión preliminar de Office que pueden ver las características preliminares o previas de la versión preliminar en la aplicación teams. | [Directivas de actualización de Teams](https://admin.teams.microsoft.com/policies/updatemanagement) | [Versión preliminar pública de Teams](public-preview-doc-updates.md) |
+
+Las tareas de administración de aplicaciones compatibles con otros portales se encuentran en la tabla siguiente.
+
+| Casos de uso de administración de aplicaciones | Vínculo a la interfaz | Documentación |
+|:----|:----|:----|
 | Administrar licencias y suscripciones de aplicaciones de terceros en el Centro de administración de Microsoft 365 | [Centro de administración de Microsoft 365](https://admin.microsoft.com/#/licenses) | [Administrar suscripciones de aplicaciones de terceros](/microsoft-365/commerce/manage-saas-apps) |
 | Eventos de la aplicación Auditoría de Teams en el portal de cumplimiento de Microsoft Purview. | [Auditoría](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Actividades de Teams](audit-app-management-activities.md) |
 | A las aplicaciones se les pueden conceder permisos para su organización y sus datos mediante tres métodos: un administrador da su consentimiento a la aplicación para todos los usuarios, un usuario otorga su consentimiento a la aplicación o un administrador que integra una aplicación y habilita el acceso de autoservicio o asigna usuarios directamente a la aplicación. Compruebe los permisos de Graph para las aplicaciones. Compruebe los permisos que proporcionaron los usuarios o que delegaron los administradores. | [Portal de Azure AD](https://aad.portal.azure.com/) | [Revisar los permisos concedidos a las aplicaciones](/azure/active-directory/manage-apps/manage-application-permissions) |
@@ -71,9 +77,8 @@ La página Administrar aplicaciones es donde se permiten o bloquean aplicaciones
 
 Para permitir o bloquear una aplicación:
 
-1. Inicie sesión en el Centro de administración de Teams.
-1. Acceso a la página **aplicaciones de Teams** > **[Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)**.
-1. Seleccione una aplicación de la lista de aplicaciones. Puede buscar por el nombre de la aplicación y, a continuación, seleccionarla.
+1. Inicie sesión en el Centro de administración de Teams y acceda a **las aplicaciones** > **[de Teams Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)**
+1. Seleccione una aplicación de la lista de aplicaciones. Puede buscar por el nombre de la aplicación.
 1. Seleccione la opción **Permitir** o **Bloquear**.
 
 Cuando permite (o bloquea) una aplicación en la página [Administre las aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps) en el Centro de administración de Teams, se permite (o bloquea) la aplicación en particular para todos los usuarios de su organización. Este método difiere de la directiva de permisos de la aplicación en el contexto en que permitir (o bloquear) una aplicación a través de la directiva de permisos solo afecta a los usuarios específicos a los que se asigna la directiva.
@@ -88,7 +93,7 @@ Los usuarios finales pueden ver, pero no usar, las aplicaciones bloqueadas en la
 
 ### <a name="view-a-request"></a>Ver una solicitud
 
- 1. Inicie sesión en el Centro de administración de Teams y seleccione **Aplicaciones de Teams** > **[Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)**.
+ 1. Inicie sesión en el Centro de administración de Teams y acceda a Aplicaciones  > **de Teams****[Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
     :::image type="content" source="media/requested-apps1.png" alt-text="Las solicitudes de usuarios finales para aplicaciones bloqueadas se muestran en el Centro de administración de Teams en la columna denominada Solicitudes de usuarios." lightbox="media/requested-apps.png":::
 
@@ -129,7 +134,7 @@ Use la configuración de aplicaciones de toda la organización para controlar si
 > [!NOTE]
 > Para obtener información sobre cómo usar la configuración de aplicaciones para toda la organización de Microsoft 365 Government - Government Community Cloud High GCCH y del departamento de Defensa (DoD) de Teams, consulte [Administrar directivas de permisos de aplicaciones en Teams.](teams-app-permission-policies.md).
 
-1. En la página Administrar aplicaciones, seleccione **Configuración de la aplicación en toda la organización**. A continuación, puede configurar las opciones que desee en el panel.
+1. En la página **[Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)** , seleccione **Configuración de aplicaciones para toda la organización**. A continuación, puede configurar las opciones que desee en el panel.
 
     :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="Captura de pantalla del panel de configuración de la aplicación de toda la organización en la página Administrar aplicaciones":::
 

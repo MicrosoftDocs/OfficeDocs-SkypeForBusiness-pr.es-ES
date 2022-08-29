@@ -15,14 +15,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - remotework
+- m365-frontline
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e99183ae51458f2e1d91462a5a3ecd9819304c0
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d24837a54ce9ab994e7e029b5887e366a9301633
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267975"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396881"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams para RealWear
 

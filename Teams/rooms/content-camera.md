@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 ms.custom:
 - seo-marvel-mar2020
-description: Use una cámara de contenido en una Sala de Microsoft Teams, que utiliza software de procesamiento de imágenes para que los presentadores puedan dibujar en una pizarra tradicional.
-ms.openlocfilehash: 090a9bafb101805797afd61e014893c681b6032f
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Use una cámara de contenido en Salas de Microsoft Teams que interactúe con el software de procesamiento de imágenes para permitir que los moderadores dibujen en una pizarra analógica.
+ms.openlocfilehash: 08d360e62cd2d254f2c207e9b9eee9adea424c34
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270475"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396671"
 ---
 # <a name="content-cameras"></a>Cámaras de contenido
 
-Ahora puede usar una cámara de contenido con un sistema de Sala de Microsoft Teams. Una cámara de contenido utiliza un software de procesamiento de imágenes especial y una pizarra para permitir que un presentador escriba en una pizarra tradicional y comparta el contenido con los participantes remotos.
+Ahora puede usar una cámara de contenido con un sistema de Salas de Microsoft Teams. Una cámara de contenido utiliza un software de procesamiento de imágenes especial y una pizarra para permitir que un presentador escriba en una pizarra tradicional y comparta el contenido con los participantes remotos.
 
 Vea el siguiente vídeo para obtener ejemplos de las funciones de la cámara de contenido.
 

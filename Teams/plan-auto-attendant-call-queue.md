@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre operadores automáticos y colas de llamadas, y cómo usarlos para ayudar a los autores de llamadas a desplazarse por un sistema de menús para ponerse en contacto con personas o departamentos de su organización.
-ms.openlocfilehash: 218377b2082d1a057f503abbf83d37ff78686986
-ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
+ms.openlocfilehash: f97081e641574c0d2ea192820100861b39b48d9b
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67070741"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443357"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear operadores automáticos y colas de llamadas de Teams
 
@@ -175,6 +175,18 @@ Consulte los artículos siguientes para obtener información sobre cómo crear o
 
 - [Configurar un operador automático](create-a-phone-system-auto-attendant.md)
 - [Crear una cola de llamada](create-a-phone-system-call-queue.md)
+
+> [!IMPORTANT]
+> El token GUID de Azure Active Directory (AAD) de un usuario se almacena como parte de la configuración del operador automático o de la cola de llamadas cuando el usuario está configurado como:
+>
+>  - un operador automático o una cola **de llamadas Usuario autorizado**.
+>  - un **operador** automático.
+>  - un punto **de transferencia de persona de la organización** .
+>  - un miembro individual de una cola de llamadas.
+> 
+> Las configuraciones del operador automático y la cola de llamadas no se sincronizan con los eventos del ciclo de vida de AAD.  Los administradores de Teams deben actualizar manualmente las configuraciones de los operadores automáticos y de las colas de llamadas para quitar estos datos personales cuando un usuario incluido en la configuración deja la organización.
+>
+> Esto no se aplica a las pertenencias a agentes de cola de llamadas configuradas a través de listas de distribución o canales. Tampoco se aplica a los usuarios a los que se les alcanza mediante la característica **Marcado por nombre** o **Marcado por número** de operadores automáticos.
 
 Si necesita funcionalidades más amplias, como la integración con flujos de trabajo, bots y SMS, considere [la posibilidad de Azure Communication Services](/azure/communication-services/overview).
 

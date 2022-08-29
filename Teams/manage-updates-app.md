@@ -16,15 +16,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 4402c2218b8e0e7be50147809e5318034f05eaae
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 66ff8f642e3e006221507953a2fff1740237aea0
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494797"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397111"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación de Novedades para su organización en Microsoft Teams
 

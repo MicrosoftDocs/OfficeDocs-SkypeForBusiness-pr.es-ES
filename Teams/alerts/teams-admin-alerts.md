@@ -16,12 +16,12 @@ description: Obtenga más información sobre las capacidades de alertas y notifi
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: c4acbbb085bbf47339b0b0b2bcb7000466953b70
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 452bcbebeffa3936b9d05270626e11923caf5cda
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616296"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283091"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Supervisión y alertas de Microsoft Teams
 
@@ -32,6 +32,9 @@ Su organización puede usar la supervisión y las alertas de Teams para realizar
 - Administrar automáticamente las capacidades de Teams
 - Recibir alertas si muestran algo inesperado.
 - Realiza acciones correctivas para que todo vuelva a estar en el buen camino.
+
+> [!NOTE]
+> La funcionalidad de alertas dentro del centro de administración de Teams no está disponible en entornos GCC/GCC-High.
 
 ## <a name="how-to-manage-monitoring-and-alerting"></a>Cómo administrar la supervisión y las alertas
 

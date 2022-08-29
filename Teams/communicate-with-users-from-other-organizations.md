@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Aprenda a llamar, chatear, encontrar y agregar usuarios de fuera de la organización en Microsoft Teams utilizando el acceso externo y el acceso de invitados.
-ms.openlocfilehash: 829f763c77578fdc9e17a29386ebad30e52f4986
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
-ms.translationtype: HT
+ms.openlocfilehash: 14b1bee39caacc6465c64dbb2151cbeed936b3ff
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023993"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418469"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Usar el acceso de invitados y el acceso externo para colaborar con personas fuera de su organización
 
@@ -43,9 +43,17 @@ De forma predeterminada, el acceso externo está habilitado para todos los domin
 ![Captura de pantalla de la configuración de acceso externo.](media/external-access-federation-settings.png)
 
 El acceso externo está disponible para los siguientes inquilinos:
-
-- En y entre Comercial, GCC y GCC High
-- Solo entre DOD
+- Cuentas empresariales administradas
+     - Entre solo comercial
+     - Solo entre GCC
+     - Solo entre GCC High
+     - Solo entre DOD
+- Cuentas no administradas (personales)
+     - Solo entre cuentas comerciales y personales
+- interoperabilidad Skype Empresarial
+     - Entre comercial, GCC, GCC High y DoD
+- Interoperabilidad de Skype
+     - Solo entre comercial y Skype
 
 Para configurar el acceso externo, vea [Administrar el acceso externo](manage-external-access.md). 
 
@@ -56,7 +64,7 @@ Para configurar el acceso externo, vea [Administrar el acceso externo](manage-ex
 
 Use el acceso de invitado para agregar a una persona de fuera de su organización a un equipo, donde puede chatear, llamar, reunirse y colaborar en archivos. A un invitado se le pueden dar casi todos los mismos permisos de Teams que a un miembro nativo de un equipo. Para obtener más información, consulte [Experiencia de invitado en Teams](guest-experience.md).
 
-Los invitados se agregan al directorio de Azure Active Directory de la organización como usuarios B2B y deben iniciar sesión en Teams con su cuenta de invitado. Esto significa que es posible que un invitado tenga que cerrar sesión en su propia organización para iniciar sesión en la suya.
+Los invitados se agregan a Azure Active Directory de su organización como usuarios de colaboración B2B y deben iniciar sesión en Teams con su cuenta de invitado. Esto significa que es posible que un invitado tenga que cerrar sesión en su propia organización para iniciar sesión en la suya.
 
 El acceso de invitado está disponible para los siguientes inquilinos:
 

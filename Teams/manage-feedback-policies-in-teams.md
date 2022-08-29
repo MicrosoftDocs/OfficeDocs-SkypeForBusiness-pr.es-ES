@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar las directivas de comentarios para controlar si los usuarios de Teams de su organización pueden enviar comentarios sobre Teams a Microsoft.
-ms.openlocfilehash: f9d001fba9503f6d5f2e482a437bc8f38c8ffc7d
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
+ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156528"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "67339804"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Administrar directivas de comentarios en Microsoft Teams
 
@@ -68,6 +68,7 @@ Para desactivar y activar las características, establezca los siguientes parám
 
  - **Encuestas**: establezca el parámetro **receiveSurveysMode** **en habilitado** para permitir que los usuarios asignados a la directiva reciban la encuesta. Para que los usuarios reciban la encuesta y les permita optar por no participar, establezca el parámetro **en enabledUserOverride**. En Teams, los usuarios pueden ir a **Configuración** > **privacidad** y elegir si quieren participar en encuestas. Si se establece el parámetro **en deshabilitado** , se desactivará la característica y los usuarios que tengan asignada la directiva no recibirán la encuesta.
 
+ - **Capturas de pantalla**: Utilice la marca **AllowScreenshotCollection** para agregar la opción de la colección de capturas de pantalla para los usuarios.
  - **Email**: Use la marca **AllowEmailCollection** para agregar un campo de correo electrónico.
  - **Colección de registros**: Utilice la marca **AllowLogCollection** para agregar opt-in de la colección de registros para los usuarios. Actualmente, la recopilación de registros solo está habilitada en dispositivos móviles. Para obtener más información sobre qué datos se comparten a través de los registros, [obtenga más información](https://go.microsoft.com/fwlink/?linkid=2168178).
 

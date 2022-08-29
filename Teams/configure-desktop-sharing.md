@@ -17,21 +17,20 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c94991255b7309e1510a934645f1f4cf0b7e049
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 759751dba6a674c9236c7c401209740f298c2a6f
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562389"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418449"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configure el uso compartido del escritorio en Microsoft Teams
 
-Al compartir el escritorio, los usuarios pueden presentar una pantalla o aplicación durante una reunión o un chat. Los administradores pueden configurar la pantalla compartiendo en Microsoft Teams para que los usuarios puedan compartir una pantalla completa, una aplicación o un archivo. Puede permitir que los usuarios puedan dar control, permitir el uso compartido de PowerPoint, agregar una pizarra y permitir notas compartidas. Asimismo, puede configurar si los usuarios anónimos o externos pueden solicitar el control de la pantalla compartida. Los participantes externos en reuniones de Teams se pueden categorizar de la siguiente forma:
+Al compartir el escritorio, los usuarios pueden presentar una pantalla o aplicación durante una reunión o un chat. Los administradores pueden configurar la pantalla compartiendo en Microsoft Teams para que los usuarios puedan compartir una pantalla completa, una aplicación o un archivo. Puede permitir que los usuarios puedan dar control, permitir el uso compartido de PowerPoint, agregar una pizarra y permitir notas compartidas. También puede configurar si los participantes anónimos o externos pueden solicitar el control de la pantalla compartida. Los participantes externos en reuniones de Teams se pueden categorizar de la siguiente forma:
 
-- Usuario anónimo
-- Usuarios invitados
-- Usuario B2B
-- Usuario federado
+- Participante anónimo
+- Invitados
+- Usuarios de acceso externo
 
 Para configurar el uso compartido de la pantalla, debe crear una nueva Directiva de reuniones y, a continuación, asignarla a los usuarios que quiera administrar.
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lea este artículo para obtener información sobre cómo crear cuentas de recursos para salas y dispositivos compartidos, incluidos Salas de Microsoft Teams, Salas de Teams en Surface Hub y escritorio caliente en pantallas de Teams.
-ms.openlocfilehash: eaa95efde1db01d3c7a346309f50eca2427af4e8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 45cd61b476f10f673150653144bdb79a47604962
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271715"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405162"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Crear y configurar cuentas de recursos para salas y dispositivos compartidos de Teams
 
@@ -38,7 +38,7 @@ Cada cuenta de recursos es única para una única instalación Salas de Microsof
 
 > [!NOTE]
 > **Skype Empresarial** <br><br>
-> Si necesita habilitar la cuenta de recursos para que funcione con Skype for Business, vea [Implementar Salas de Microsoft Teams con Skype Empresarial Server](with-skype-for-business-server-2015.md)
+> Si necesita habilitar la cuenta de recursos para que funcione con Skype Empresarial, vea [Implementar Salas de Microsoft Teams con Skype Empresarial Server](with-skype-for-business-server-2015.md)
 
 ## <a name="before-you-begin"></a>Antes de empezar
 
@@ -95,7 +95,7 @@ Cree una cuenta de recursos con un método de una de las pestañas siguientes:
 
 3. Vaya a **Recursos** en el panel izquierdo y, después, seleccione **Salas & equipamiento**. Si estas opciones no están disponibles en el panel izquierdo, es posible que primero tenga que seleccionar **Mostrar todo** .
 
-4. Seleccione **Agregar un buzón de recursos** para crear una nueva cuenta de sala. Escribe un nombre para mostrar y una dirección de correo electrónico para la cuenta, selecciona **Agregar** y, a continuación, **cerrar**.
+4. Seleccione **Agregar recurso** para crear una nueva cuenta de salón. Escribe un nombre para mostrar y una dirección de correo electrónico para la cuenta, selecciona **Agregar** y, a continuación, **cerrar**.
 
 5. De forma predeterminada, las cuentas de recursos están configuradas con las siguientes opciones:
 
@@ -105,13 +105,13 @@ Cree una cuenta de recursos con un método de una de las pestañas siguientes:
       - Duración máxima (horas): 24
     - Aceptar automáticamente convocatorias de reunión
 
-    Si desea cambiarlas, seleccione **Establecer opciones de programación** antes de seleccionar **Cerrar**. Si desea cambiarlos más adelante, vaya a **Salas** >  de recursos **& equipo**, seleccione la cuenta de recursos. A continuación, en **Opciones de reserva**, seleccione **Editar**.
+    Si desea cambiarlas, seleccione **Editar opciones de reserva** antes de seleccionar **Cerrar**. Si desea cambiarlos más adelante, vaya a **Salas** >  de recursos **& equipo**, seleccione la cuenta de recursos. A continuación, en **Opciones de reserva**, seleccione **Editar**.
 
 6. Vaya a **Usuarios** > **activos** y seleccione el salón que creó para abrir el panel de propiedades.
 
 7. A continuación, asigne una contraseña a la cuenta de recursos. En el panel, selecciona **Restablecer contraseña**.
  
-8. Si se requiere que los usuarios cambien la contraseña en un dispositivo compartido, se producirán problemas de inicio de sesión. Desactive **Requerir que este usuario cambie su contraseña la primera vez que inicie sesión** y seleccione **Restablecer**.
+8. Si se requiere que los usuarios cambien la contraseña en un dispositivo compartido, se producirán problemas de inicio de sesión. Desactive **Requerir que este usuario cambie su contraseña la primera vez que inicie sesión** y seleccione **Restablecer contraseña**.
 
 9. En la sección **Licencias y aplicaciones** , establece **Seleccionar ubicación** en el país o la región donde se instalará el dispositivo. A continuación, seleccione la licencia que desea asignar, como Sala de reuniones, y seleccione **Guardar cambios**. La licencia puede variar en función de su organización.
 
@@ -250,7 +250,7 @@ En primer lugar, conéctese a PowerShell de Active Directory:
    Connect-AzureAD
 ```
 
-A continuación, consulta [Establecer una contraseña para que nunca expire](/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire).
+A continuación, consulta [Establecer una contraseña para que nunca expire](/microsoft-365/admin/add-users/set-password-to-never-expire#set-a-password-to-never-expire).
 
 En este ejemplo se establece que la contraseña de la cuenta ConferenceRoom01@contoso.com no expire nunca.
 
@@ -288,7 +288,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Import-Module ActiveDirectory
     ```
     
-    Para obtener más información sobre PowerShell de Active Directory, vea [ActiveDirectory](/powershell/module/activedirectory/?view=windowsserver2022-ps).
+    Para obtener más información sobre PowerShell de Active Directory, vea [ActiveDirectory](/powershell/module/activedirectory/).
 
 2. Establezca la contraseña para que nunca expire con la siguiente sintaxis:
 
