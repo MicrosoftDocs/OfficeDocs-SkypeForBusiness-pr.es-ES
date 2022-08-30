@@ -14,12 +14,12 @@ description: Obtén información sobre cómo auditar las actividades de la aplic
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 5eb1ffe4a637c61efc8e64e970f25474933914a7
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 33e308dec79163b2b3ccbc82870352555d0aa80f
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299259"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457280"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>Auditoría de actividades y eventos de administración de aplicaciones
 
@@ -68,6 +68,9 @@ Después de buscar el inicio de sesión de auditoría en el portal de cumplimien
 
 > [!NOTE]
 > Cuando un usuario o un administrador realiza una de las actividades anteriores, Teams genera y almacena un registro de auditoría. En Auditoría (Estándar), los registros se conservan durante 90 días, lo que significa que puedes buscar actividades que se hayan producido en los últimos tres meses.
+
+> [!TIP]
+> Como administrador, si desea crear un informe por usuario para saber si un usuario ha bloqueado o silenciado un bot, consulte [Comprender quién ha bloqueado, silenciado o desinstalado un bot](/microsoftteams/platform/bots/how-to/conversations/send-proactive-messages?#understand-who-blocked-muted-or-uninstalled-a-bot).
 
 ## <a name="related-articles"></a>Artículos relacionados
 
