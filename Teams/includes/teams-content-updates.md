@@ -3,6 +3,36 @@
 
 
 
+## <a name="week-of-august-22-2022"></a>Semana del 22 de agosto de 2022
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 8/22/2022 | [Administrar la aplicación Turnos para su organización](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modificado |
+| 8/22/2022 | [Administrar etiquetas en Microsoft Teams](/MicrosoftTeams/manage-tags) | modificado |
+| 8/22/2022 | [Crear cuentas de recursos para salas y dispositivos compartidos de Teams](/MicrosoftTeams/rooms/with-office-365) | modificado |
+| 8/23/2022 | [Usar el acceso de invitados y el acceso externo para colaborar con personas fuera de su organización](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modificado |
+| 8/23/2022 | [Administrar directivas de reunión para compartir contenido](/MicrosoftTeams/meeting-policies-content-sharing) | modificado |
+| 8/23/2022 | [Teams: Administrar directivas de reunión](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
+| 8/24/2022 | [Inicio rápido: Configurar Microsoft Teams para Educación](/MicrosoftTeams/teams-quick-start-guide-edu) | agregado |
+| 8/24/2022 | Inicio rápido: administradores de Microsoft Teams para el ámbito educativo | eliminado |
+| 8/24/2022 | [Solucionar problemas de escenarios de ancho de banda bajo para Teams](/MicrosoftTeams/edu-remote-low-bandwidth) | modificado |
+| 8/24/2022 | [Teams para el ámbito educativo](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | modificado |
+| 8/24/2022 | [Preguntas más frecuentes sobre Microsoft Education para administradores de TI](/MicrosoftTeams/plan-teams-governance-edu) | modificado |
+| 8/24/2022 | [Administrar directivas y paquetes de directivas de Microsoft Teams para el ámbito educativo](/MicrosoftTeams/policy-packages-edu) | modificado |
+| 8/24/2022 | [Introducción a Microsoft Teams para el aprendizaje remoto](/MicrosoftTeams/remote-learning-edu) | modificado |
+| 8/24/2022 | [Compartir recursos de adopción de Teams](/MicrosoftTeams/resources-teams-edu) | modificado |
+| 8/24/2022 | [Asignar licencias de Microsoft Teams para el ámbito educativo](/MicrosoftTeams/teams-edu-licensing) | modificado |
+| 8/24/2022 | [Administrar el uso de un número de teléfono](/MicrosoftTeams/manage-the-usage-of-a-phone-number) | agregado |
+| 8/25/2022 | [Recursos de aprendizaje de Administración: Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modificado |
+| 8/26/2022 | [Informe de historial de la cola de llamadas del operador automático &](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modificado |
+| 8/26/2022 | [Configurar un operador automático para Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | modificado |
+| 8/26/2022 | [Configurar un operador automático para Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
+| 8/26/2022 | [Crear una cola de llamadas en Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | modificado |
+| 8/26/2022 | [Crear una cola de llamadas en Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 8/26/2022 | [Planear operadores automáticos y colas de llamadas de Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | modificado |
+
+
 ## <a name="week-of-august-15-2022"></a>Semana del 15 de agosto de 2022
 
 
@@ -194,25 +224,3 @@
 | 7/26/2022 | [Administración de clientes multiempresa para partners](/MicrosoftTeams/rooms/multi-tenant-management-partner) | modificado |
 | 7/26/2022 | [Asignar licencias de complementos de Teams a usuarios](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | modificado |
 | 7/29/2022 | [Administrar los números de teléfono para su organización](/MicrosoftTeams/manage-phone-numbers-landing-page) | modificado |
-
-
-## <a name="week-of-july-18-2022"></a>Semana del 18 de julio de 2022
-
-
-| Fecha de publicación |Título del tema | Cambio |
-|------|------------|--------|
-| 7/18/2022 | [Información sobre las aplicaciones de Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modificado |
-| 7/18/2022 | [Administrar directivas de configuración de aplicación en Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
-| 7/18/2022 | Aprovisionamiento de Microsoft Teams en escala para el personal de primera línea | eliminado |
-| 7/19/2022 | [Administrar Microsoft 365 y los conectores personalizados](/MicrosoftTeams/office-365-custom-connectors) | modificado |
-| 7/19/2022 | [Información sobre las aplicaciones de Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modificado |
-| 7/19/2022 | [Administrar aplicaciones de Microsoft Power Platform en el centro de administración de Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | modificado |
-| 7/19/2022 | [Administrar Q&A en reuniones de Teams](/MicrosoftTeams/manage-qna-for-teams) | modificado |
-| 7/19/2022 | [Información general sobre la certificación de aplicaciones por parte de Microsoft](/MicrosoftTeams/overview-of-app-certification) | modificado |
-| 7/19/2022 | [Comprar aplicaciones de terceros para Microsoft Teams](/MicrosoftTeams/purchase-third-party-apps) | modificado |
-| 7/20/2022 | [Configurar Operador Conectar](/MicrosoftTeams/operator-connect-configure) | modificado |
-| 7/21/2022 | [Guía para administradores de TI de Insights para el ámbito educativo en Microsoft Teams](/MicrosoftTeams/class-insights) | modificado |
-| 7/21/2022 | [Experiencia de actualización de aplicaciones en Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modificado |
-| 7/21/2022 | [Administrar aplicaciones en el Centro de administración de Microsoft Teams](/MicrosoftTeams/manage-apps) | modificado |
-| 7/21/2022 | [Usar la API de envío de aplicaciones de Teams para enviar y aprobar sus aplicaciones personalizadas](/MicrosoftTeams/submit-approve-custom-apps) | modificado |
-| 7/21/2022 | [Cargar aplicaciones personalizadas en el Centro de administración de Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | modificado |
