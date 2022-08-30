@@ -20,16 +20,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo cambiar el uso de un número de teléfono para usarlo como número de servicio o número de usuario.
-ms.openlocfilehash: f2db1b3bd0b0e437d02bf1fbfe9a92690877b2eb
-ms.sourcegitcommit: dcf4664ea8ceb6ed40d0a406e7f4467e14d6817b
+ms.openlocfilehash: e07255420cf9b480aa28e25a635b799eed94bd0f
+ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "67432128"
+ms.lasthandoff: 08/30/2022
+ms.locfileid: "67460703"
 ---
 # <a name="manage-the-usage-of-a-phone-number"></a>Administrar el uso de un número de teléfono
 
 Es posible que deba cambiar el uso de un número de teléfono después de que se adquirió para su organización o se haya realizado la portabilidad. El uso de números de teléfono se puede cambiar con el Centro de administración de Teams, ya sea un número de servicio o de usuario.
+
+## <a name="how-to-manage-the-usage-of-a-phone-number"></a>Cómo administrar el uso de un número de teléfono
 
 Para cambiar el uso de un número de teléfono mediante el Centro de administración de Teams:
 
