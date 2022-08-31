@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Información general sobre los controles de directivas para Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
-ms.translationtype: HT
+ms.openlocfilehash: 13b807d98b92deaac54ad8b755295b73e90c6548
+ms.sourcegitcommit: b4bc3b4c1d167a075a25180818f61758eb56cd6b
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142816"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61041262"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Introducción al control de directivas para Microsoft Teams
 
@@ -87,9 +87,6 @@ Los usuarios no podrán cambiar el nivel de datos de diagnóstico para sus dispo
 Estos datos de diagnóstico no incluyen nombres de usuarios, sus direcciones de correo electrónico ni otro contenido de usuario, como archivos de Office compartidos en Teams, un mensaje de chat enviado en Teams o el texto de una publicación realizada en un canal de Teams. El sistema crea un identificador único que asocia a los datos de diagnóstico de los usuarios. Cuando recibimos datos de diagnóstico en los que se muestra que la aplicación Teams se ha bloqueado 100 veces, este identificador único nos permite determinar si se trata de un único usuario que ha tenido el problema 100 veces o si se trata de 100 usuarios diferentes que lo han tenido una vez. No usamos este identificador único para identificar a un usuario específico.
 
 Para ver los datos de diagnóstico que se envían a Microsoft, puede usar el Visor de datos de diagnóstico, que puede descargar e instalar de forma gratuita desde la Microsoft Store. Para obtener más información, consulte [Usar el Visor de datos de diagnóstico con Office](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
-
-> [!NOTE]
-> La compatibilidad del visor de datos de diagnóstico está disponible para Teams en dispositivos con Android. Se está trabajando en la compatibilidad para Teams en dispositivos con Windows, macOS o iOS.
 
 ## <a name="required-service-data-for-connected-experiences"></a>Datos de servicio necesarios para experiencias conectadas
 

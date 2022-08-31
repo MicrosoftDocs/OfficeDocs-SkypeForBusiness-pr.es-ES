@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Una lista de propiedades de escritorio y eventos para los controles de directiva para Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c255fd02342eb6db1878608ad2da09683d7a83ec
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
-ms.translationtype: HT
+ms.openlocfilehash: 5bb9e4dfd604728ea1714d3ab2e663dab3b5c3c6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863231"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608927"
 ---
 # <a name="required-desktop-diagnostic-data-for-microsoft-teams"></a>Datos de diagnóstico de escritorio necesarios para Microsoft Teams
 
@@ -32,7 +32,7 @@ Para más información sobre los datos de diagnóstico, incluido cómo controlar
 ## <a name="events"></a>Eventos
 
 > [!NOTE]
-> Existen propiedades comunes para todos los eventos que se muestran a continuación. Para poder revisarlas, consulte [Propiedades que se envían con todos los eventos](#properties-sent-with-all-events).
+> Hay propiedades comunes para todos los eventos que se muestran a continuación, con el fin de revisarlos, vea [Propiedades que se envían con todos los eventos](#properties-sent-with-all-events).
 
 ### <a name="logging"></a>Registro
 
@@ -148,7 +148,7 @@ Para más información sobre los datos de diagnóstico, incluido cómo controlar
 |--------------------------------------------|--------------------------------------------------------------------|
 | EventInfo_Time                             | Hora de generación de evento                                              |
 | EventInfo_Name                             | Nombre del evento - Se usa para diferenciar entre los tipos de evento             |
-| EventInfo_BaseType/Name                    | Nombre del evento: se usa para diferenciar entre los tipos de evento en un evento |
+| EventInfo_BaseType/Name                    | Tipo de evento - Se usa para diferenciar entre los tipos de eventos en un evento. |
 | EventInfo_Sequence                         | Secuencia del evento                                              |
 | userAgent                                  | Cadena del agente del explorador                                               |
 | userpdclevel                               | Configuración de control de datos de privacidad del usuario                           |
@@ -309,7 +309,7 @@ Para más información sobre los datos de diagnóstico, incluido cómo controlar
 
 ### <a name="properties-sent-with-userbi-panelview-events"></a>Propiedades enviadas con eventos UserBI PanelView
 
-| Propiedad           | Description                                              |
+| Propiedad           | Descripción                                              |
 |--------------------|----------------------------------------------------------|
 | Panel_Uri          | URL del panel entregado al usuario                   |
 | Panel_Type         | Tipo de panel al que obtuvo acceso el usuario.                          |
@@ -322,7 +322,7 @@ Para más información sobre los datos de diagnóstico, incluido cómo controlar
 | Thread_Type        | Tipo de hilo al que tiene acceso el usuario.                          |
 | Panel_LaunchSource | Información de origen del panel que se inició        |
 | Tab_Type           | Tipo de la pestaña a la que obtiene acceso el usuario.                         |
-| Team_Type          | Tipo de equipo al que accedió el usuario                            |
+| Team_Type          | Tipo de equipo al que tiene acceso el usuario.                            |
 
 ### <a name="properties-sent-with-userbi-panelaction-events"></a>Propiedades enviadas con eventos UserBI panelaction
 
@@ -348,7 +348,7 @@ Para más información sobre los datos de diagnóstico, incluido cómo controlar
 | Action_Scenario       | Característica en un grupo de características que está relacionada con el sistema métrico de la empresa |
 | Panel_LaunchSource    | Información de origen del panel que se inició                  |
 | Tab_Type              | Tipo de la pestaña a la que obtiene acceso el usuario.                                   |
-| Team_Type             | Tipo de equipo al que accedió el usuario                                      |
+| Team_Type             | Tipo de equipo al que tiene acceso el usuario.                                      |
 
 ### <a name="properties-sent-with-outlook-addin-events"></a>Propiedades enviadas con los eventos del complemento de Outlook
 
