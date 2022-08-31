@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc315353e1ece0b4d455937c1677e35e3c18d152
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: e78cbb4740b5839af7c6c2d09450220a080d036f
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794158"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466119"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar OneDrive para la Empresa y SharePoint o Stream para grabar las reuniones
 
@@ -49,7 +49,7 @@ Las ventajas de usar OneDrive para la Empresa y SharePoint para almacenar grabac
 - Directivas de retención para la grabación de reuniones de Teams (TMR) (etiquetas de autoretención S+C E5)
 - Ventaja de OneDrive para la Empresa y gobierno de información de SharePoint
 - Fácil de establecer permisos y uso compartido
-- Compartir grabaciones con invitados (usuarios externos) solo con uso compartido explícito
+- Compartir grabaciones con invitados solo con uso compartido explícito
 - Solicitar flujo de acceso
 - Proporcionar OneDrive para la Empresa y vínculos compartidos de SharePoint
 - Las grabaciones de las reuniones están disponibles más rápido
@@ -67,7 +67,7 @@ Vea "Novedades de las grabaciones de reuniones de Microsoft Teams" para obtener 
 
 La opción de grabación de la reunión es una configuración en el nivel de directiva de Teams. En el ejemplo siguiente se muestra cómo establecer la directiva global. Asegúrese de establecer la opción de grabación de la reunión para la directiva o las directivas que haya asignado a los usuarios.
 
-> [!Note]
+> [!NOTE]
 > Los cambios en la directiva de reunión de Teams tardan un tiempo en propagarse. Vuelva a comprobarlo después de unas horas de configuración, cierre la sesión y vuelva a iniciar sesión en la aplicación de escritorio de Teams o simplemente reinicie el equipo.
 
 1. Instale Teams PowerShell.
@@ -95,14 +95,13 @@ La opción de grabación de la reunión es una configuración en el nivel de dir
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
 
-> [!Note]
+> [!NOTE]
 > Si algunos de los usuarios han asignado una directiva por organizador o por usuario, debe establecer esta configuración en esta directiva si quiere que también almacenen las grabaciones de reuniones en OneDrive para la Empresa y SharePoint. Para más información, consulte [Administrar directivas de reunión en Teams](meeting-policies-overview.md).
-
 
 ## <a name="permissions-or-role-based-access"></a>Permisos y acceso basado en roles
 
-> [!Note]
-> Se recomienda que el destinatario sea un usuario con sesión iniciada al compartir las grabaciones de reuniones de Teams. Seleccione la opción **Contactos en (su organización)** cuando comparta el archivo como se documentó en [los archivos o las carpetas de SharePoint](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US). El uso compartido externo no está diseñado para la distribución de archivos de gran tamaño o para un gran número de archivos. Para evitar situaciones de fraude y abuso, puede experimentar problemas al compartir una gran cantidad de datos con usuarios externos.
+> [!NOTE]
+> Se recomienda que el destinatario sea un usuario con sesión iniciada al compartir grabaciones de reuniones de Teams. Seleccione la opción **Contactos en (su organización)** cuando comparta el archivo como se documentó en [los archivos o las carpetas de SharePoint](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c). El uso compartido externo no está diseñado para la distribución de archivos de gran tamaño o para un gran número de archivos.
 
 |Tipo de reunión                               | ¿Quién ha hecho clic en Grabar?| ¿Dónde está la grabación?                               |¿Quién tiene acceso? R/W, R o uso compartido                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -113,8 +112,8 @@ La opción de grabación de la reunión es una configuración en el nivel de dir
 |Llamada grupal                                 |Cualquier miembro de la llamada |El miembro del grupo que hizo clic en la cuenta de OneDrive para la Empresa de la grabación  |El miembro que hizo clic en la grabación tiene todos los derechos. <br /><br /> Otros miembros del grupo del mismo inquilino tienen derechos de lectura. <br /><br /> Otros miembros del grupo de otro espacio empresarial no tienen derechos sobre él.|
 |Reunión programada/adhoc                    |Organizador              |Cuenta de OneDrive para la Empresa del organizador                     |El organizador tiene todos los derechos de la grabación. <br /><br /> El resto de los miembros de la reunión tienen acceso de lectura.|
 |Reunión programada/adhoc                    |Otro miembro de la reunión   |El miembro de la reunión que hizo clic en la grabación                                  |El miembro que hizo clic en la grabación tiene todos los derechos de la grabación. <br /><br />El organizador tiene derechos de edición y puede compartir.<br /><br /> El resto de los miembros de la reunión tienen acceso de lectura.|
-|Reunión programada/addhoc con usuarios externos|Organizador              |Cuenta de OneDrive para la Empresa del organizador                     |El organizador tiene todos los derechos de la grabación.<br /> <br /> Todos los demás miembros de la reunión del mismo espacio empresarial que el organizador tienen acceso de lectura. <br /><br /> Todos los demás miembros externos no tienen acceso y el organizador debe compartirlo.|
-|Reunión programada/addhoc con usuarios externos|Otro miembro de la reunión   |El miembro que hizo clic en la grabación                                  |El miembro que hizo clic en la grabación tiene todos los derechos de la grabación. El organizador tiene derechos de edición y puede compartir. <br /><br /> Todos los demás miembros de la reunión del mismo espacio empresarial que el organizador tienen acceso de lectura. <br /><br />Todos los demás miembros externos no tienen acceso y el organizador debe compartirlo.|
+|Reunión programada/addhoc con participantes externos|Organizador              |Cuenta de OneDrive para la Empresa del organizador                     |El organizador tiene todos los derechos de la grabación.<br /> <br /> Todos los demás miembros de la reunión del mismo espacio empresarial que el organizador tienen acceso de lectura. <br /><br /> El resto de participantes externos no tienen acceso y el organizador debe compartirlo con ellos.|
+|Reunión programada/addhoc con participantes externos|Otro miembro de la reunión   |El miembro que hizo clic en la grabación                                  |El miembro que hizo clic en la grabación tiene todos los derechos de la grabación. El organizador tiene derechos de edición y puede compartir. <br /><br /> Todos los demás miembros de la reunión del mismo espacio empresarial que el organizador tienen acceso de lectura. <br /><br />El resto de participantes externos no tienen acceso y el organizador debe compartirlo con ellos.|
 |Reunión de canal                            |Miembro de canal         |Ubicación de SharePoint de Teams para ese canal. **Nota**: La carga de la grabación de reuniones de canal en SharePoint no es compatible con las restricciones basadas en IP. Se recomienda usar el [acceso condicional de Azure](/azure/active-directory/conditional-access/overview). |El miembro que hizo clic en la grabación tiene derechos de edición de la grabación. <br /> <br />Los permisos de todos los demás miembros se basan en los permisos de SharePoint del canal.|
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
@@ -123,11 +122,11 @@ La opción de grabación de la reunión es una configuración en el nivel de dir
 
 - Para reuniones que no son de canal, la grabación se almacena en una carpeta denominada **Grabaciones** que se encuentra en el nivel superior de OneDrive para la Empresa y que pertenece a la persona que inició la grabación de la reunión. Ejemplo:
 
-  <i>OneDrive para la Empresa de la persona que inició la grabación</i>/**Grabaciones**
+  *OneDrive para la Empresa de la persona que inició la grabación*/**Grabaciones**
 
 - Para las reuniones de canal, la grabación se almacena en la biblioteca de documentación del sitio de Teams, en una carpeta denominada **Grabaciones**. Ejemplo:
 
-  <i>Nombre de Teams: nombre del canal</i>/**Documentos**/**Grabaciones**
+  *Nombre de Teams: nombre del canal*/**Documentos**/**Grabaciones**
 
 **Cuando los archivos de Stream (por ejemplo, las grabaciones) se almacenan en SharePoint o OneDrive, ¿cómo se decide a dónde van? ¿Puede el administrador cambiar el lugar donde se guardan?**
 
@@ -139,7 +138,7 @@ Dado que los vídeos son iguales que cualquier otro archivo de OneDrive para la 
 
 **¿Quién tiene los permisos para ver la grabación de la reunión?**
 
-- En las reuniones que no son del canal, todos los invitados de las reuniones, excepto los usuarios externos, recibirán automáticamente un vínculo compartido personalmente. El organizador de la reunión o la persona que inició la grabación de la reunión deberá agregar explícitamente a los usuarios externos a la lista compartida.
+- Para las reuniones que no sean del Canal, todos los invitados a la reunión, excepto los participantes externos, recibirán automáticamente un vínculo compartido personalmente. El organizador de la reunión o la persona que inició la grabación de la reunión deberá agregar explícitamente a la lista compartida a los participantes externos.
 
 - Para las reuniones de canal, los permisos se heredan de los propietarios y miembros de la lista de miembros en el canal.
 
@@ -148,7 +147,7 @@ Dado que los vídeos son iguales que cualquier otro archivo de OneDrive para la 
 
 **¿Cómo puedo administrar los subtítulos?**
 
-Los subtítulos para las grabaciones de reuniones de Teams solo estarán disponibles durante la reproducción si el usuario tenía activada la transcripción en el momento de la grabación. Los administradores deben [activar la transcripción de la grabación](meetings-policies-recording-and-transcription.md#allow-transcription) para asegurarse de que sus usuarios tienen la opción de grabar reuniones con transcripción.
+Los subtítulos para las grabaciones de reuniones de Teams solo estarán disponibles durante la reproducción si el usuario tenía activada la transcripción en el momento de la grabación. Los administradores deben [activar la transcripción de la grabación](meetings-policies-recording-and-transcription.md#transcription) para asegurarse de que sus usuarios tienen la opción de grabar reuniones con transcripción.
 
 Los subtítulos ayudan a crear contenido inclusivo para espectadores de todas las capacidades. Como propietario, puede ocultar los subtítulos en la grabación de la reunión, aunque la transcripción de la reunión seguirá estando disponible en Teams a menos que la elimine de allí.
 

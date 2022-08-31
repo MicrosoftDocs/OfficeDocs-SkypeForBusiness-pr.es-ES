@@ -17,12 +17,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: Obtenga información sobre cómo examinar y comprar dispositivos en la tienda de dispositivos del Centro de administración de Teams
-ms.openlocfilehash: a6b68f6e1ffbde15f9f38dfcdeac881a7b3aabc1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d1e3d016f51c6113b6f09076f67647c32f7fd1fa
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267985"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466218"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>Comprar dispositivos en la tienda de dispositivos de Teams
 
@@ -32,7 +32,7 @@ La tienda de dispositivos en el Centro de administración de Teams le permite ex
 
 ## <a name="requirements"></a>Requirements
 
-Para usar el almacén de dispositivos, debe ser administrador global o administrador de Teams.
+Para usar el almacén de dispositivos, debe ser administrador global, administrador de Teams o administrador de dispositivos de Teams.
 
 ## <a name="browse-the-store"></a>Explorar la Tienda
 
@@ -45,14 +45,6 @@ Al comprar dispositivos en la tienda de dispositivos, el pago y el cumplimiento,
 Puedes pagar con tarjeta de crédito o pedido de compra. El pago del pedido de compra requiere una configuración única con el proveedor de cumplimiento.
 
 Todos los pedidos se pueden devolver hasta 30 días después de su entrega.
-
-## <a name="data-handling-and-sharing"></a>Tratamiento y uso compartido de datos
-
-El almacén de dispositivos de Teams debe compartir información básica de usuario y de empresa, incluidos los GUID de usuario e inquilino, con UnifiedCommunications.com para habilitar la compra en el Centro de administración de Teams.
-
-El uso compartido de datos está desactivado de forma predeterminada. Para habilitarla, vaya a la tienda de dispositivos de Teams, seleccione el icono de configuración y active la configuración.  
-
-Si esta opción está desactivada, los datos no se compartirán y podrá explorar la tienda de dispositivos de Teams, pero no podrá realizar compras. Los datos que se recopilaron y compartieron con el proveedor de servicios mientras el ajuste estaba activado se procesan como se especifica en su declaración de privacidad.
 
 ## <a name="order-tracking-and-history"></a>Seguimiento e historial de pedidos
 

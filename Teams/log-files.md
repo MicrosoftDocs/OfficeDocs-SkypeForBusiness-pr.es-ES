@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Obtenga información sobre los registros de depuración, medios y escritorio producidos por Microsoft Teams, dónde se pueden encontrar y cómo pueden ayudarle con la supervisión y la solución de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7883fe7f3d8f9938e66151bb784fa5fc45a91c74
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: ae6e6eb0c84eae8293f141940842506fa3f54142
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005370"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466038"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>Configurar archivos de registro para supervisar y solucionar problemas en Teams
 
@@ -118,7 +118,7 @@ Lea [Grant-CsTeamsMediaLoggingPolicy](/powershell/module/teams/grant-csteamsmedi
 
 ### <a name="end-user-configuration"></a>Configuración del usuario final
 
-Para que los usuarios finales registren datos de diagnóstico para las reuniones de Teams, deben activar la opción en el cliente de Teams. Irán a **Configuración** > **general**, activarán la casilla **Habilitar el registro para diagnósticos de reuniones** (es necesario reiniciar Teams), reiniciarán Teams y reproducirán el problema. Debe reiniciarse el cliente de Teams para que se inicie el registro. Los usuarios pueden reiniciarlo haciendo clic con el botón derecho en el icono de su dock (Mac) o la barra de tareas (Windows) y seleccionando Salir. Después de salir, pueden hacer clic en el icono de la aplicación para volver a abrir Teams.
+Para que los usuarios finales registren datos de diagnóstico para las reuniones de Teams, deben activar la opción en el cliente de Teams. Irán a **Configuración** > **general** y seleccionarán **Habilitar registros multimedia (datos de diagnóstico para audio, vídeo y uso compartido de la pantalla. Es necesario reiniciar Teams)** (es necesario reiniciar Teams), reiniciar Teams y reproducir el problema. Debe reiniciarse el cliente de Teams para que se inicie el registro. Los usuarios pueden reiniciarlo haciendo clic con el botón derecho en el icono de su dock (Mac) o la barra de tareas (Windows) y seleccionando Salir. Después de salir, pueden hacer clic en el icono de la aplicación para volver a abrir Teams.
 
 > [!NOTE]
 > Cuando los usuarios cierran la sesión de Teams, el registro multimedia se restablece a su valor predeterminado.

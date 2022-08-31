@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9052812a669a808536cbd0179d6c16b9228296c4
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 29a048ccc02082ec019bb64dca9e89b7f265ff83
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270045"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465978"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Administrar los controles de tecnología de reconocimiento de voz para un altavoz inteligente
 
@@ -71,12 +71,12 @@ Un altavoz inteligente debe colocarse al menos a 20 cm (8 pulgadas) de las pared
 
    ![Configuración del altavoz inteligente con el altavoz que se conecta directamente a la consola.](../media/intelligent-speakers2.png)
 
-> [!Note]
+> [!NOTE]
 > Los dispositivos EPOS y Yealink deben tener prefijo "EPOS" o "Yealink" y contener "UAC2_RENDER" en el nombre del altavoz y "UAC2_TEAMS" en el nombre del micrófono. Si no encuentras estos nombres de micrófono y altavoz en el menú desplegable, reinicia el dispositivo Altavoz inteligente.
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>Habilitar un reconocimiento de usuario de altavoz inteligente
 
-Los datos de perfil de voz se pueden usar en cualquier reunión con un altavoz inteligente. Vea [Directivas de reuniones de Teams](../meetings-policies-recording-and-transcription.md#allow-transcription) y [los cmdlets de reuniones de PowerShell](/powershell/module/skype/set-csteamsmeetingpolicy) para obtener información sobre la configuración de la reunión.
+Los datos de perfil de voz se pueden usar en cualquier reunión con un altavoz inteligente. Vea [Directivas de reuniones de Teams](../meetings-policies-recording-and-transcription.md#transcription) y [los cmdlets de reuniones de PowerShell](/powershell/module/skype/set-csteamsmeetingpolicy) para obtener información sobre la configuración de la reunión.
 
 Los datos del perfil de voz del usuario se crean cuando la directiva se establece para distinguir o cuando un invitado que no es de la reunión entra durante la reunión. Los datos del perfil de voz se descartan al final de la reunión.
 
@@ -163,4 +163,4 @@ Una vez que un usuario final se inscribe, su voz se puede reconocer durante las 
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Artículo de soporte técnico: Usar altavoces inteligentes para identificar a los participantes en la sala ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)
+[Artículo de soporte técnico: Usar altavoces inteligentes para identificar a los participantes en la sala](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)

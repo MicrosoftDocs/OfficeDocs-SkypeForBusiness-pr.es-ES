@@ -19,12 +19,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7a1f8aa97f43e70e2ec17e64cfa2a618b7a61af7
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
-ms.translationtype: HT
+ms.openlocfilehash: f1ec379a7f8d30738fc71b66d840752137ce72bf
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175714"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466018"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -39,7 +39,7 @@ Cuando se graba una reunión, sucede lo siguiente automáticamente:
 - Se agrega a varias listas de archivos en Microsoft 365: Compartidos conmigo, office.com, Recomendado, Reciente, etc.
 - Se indexa para la búsqueda de Microsoft 365
 
-Relacionado: [Documentación de usuario final de grabación de reuniones de Teams](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
+Relacionado: [Documentación de usuario final de grabación de reuniones de Teams](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
 >[!Note]
 > El cambio del uso de Microsoft Stream (clásico) a OneDrive y SharePoint para grabaciones de reuniones se producirá de forma automática en agosto de 2021. Para obtener información detallada, consulte [Use OneDrive y SharePoint o Stream para las grabaciones de reuniones](tmr-meeting-recording-change.md).
@@ -79,7 +79,7 @@ En esta sección se explica cómo puede configurar y planear la grabación de re
 
 Puede usar el centro de administración de Microsoft Teams o PowerShell para establecer una directiva de reunión de Teams para controlar si se pueden grabar las reuniones del usuario.
 
-En el centro de administración de Microsoft Teams, habilite o deshabilite la opción **grabación en la nube** en la directiva de reunión. Para más información, consulte [Configuración de la directiva de reunión para audio y vídeo](meetings-policies-recording-and-transcription.md#allow-cloud-recording).
+En el centro de administración de Microsoft Teams, habilite o deshabilite la opción **grabación en la nube** en la directiva de reunión. Para más información, consulte [Configuración de la directiva de reunión para audio y vídeo](meetings-policies-recording-and-transcription.md#cloud-recording).
 
 Con PowerShell, configure la opción AllowCloudRecording en TeamsMeetingPolicy. Para obtener más información, consulte [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -107,8 +107,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 | Quiero deshabilitar la grabación al 100%. | <ol><li>Confirmar que CsTeamsMeetingPolicy global tiene AllowCloudRecording = False.<li>A todos los usuarios se les ha otorgado la CsTeamsMeetingPolicy global o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = False. |
 | Quiero que la grabación esté deshabilitada para la mayoría de los usuarios, pero permitir de forma selectiva qué usuarios específicos pueden grabar. | <ol><li>Confirmar que CsTeamsMeetingPolicy global tiene AllowCloudRecording = False.<li>A la mayoría de los usuarios se les ha otorgado la CsTeamsMeetingPolicy global o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = False.<li>Todos los demás usuarios tienen asignada una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = True. <ol> |
 
-
 <a name="bd-channel"></a>
+
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>Bloquear o permitir la descarga de grabaciones de reuniones de canal
 
 Esta configuración controla si las reuniones de canal se guardan en una carpeta "Grabaciones" o en una carpeta "Solo grabaciones\Ver" en el canal. La configuración se aplica a la directiva del usuario que selecciona el registro para la reunión del canal.
@@ -143,17 +143,17 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 >```
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Activar o desactivar la transcripción de grabaciones
+
 Esta configuración controla si se pueden usar las características de subtítulos y transcripción durante la reproducción de las grabaciones de la reunión. La persona que inició la grabación necesita esta configuración activada para que estas características funcionen con su grabación.
   
 Al activar esta opción, se crea una copia de la transcripción que se almacena con la grabación de la reunión, lo que habilita **Búsqueda**, **CC** y **transcripciones** en la grabación de la reunión.
-
 
 > [!NOTE]
 > Actualmente, esa transcripción para reuniones grabadas solo se admite para inglés (EE. UU.), inglés (Canadá), inglés (India), inglés (Reino Unido), inglés (Australia), inglés (Nueva Zelanda), árabe (Emiratos Árabes Unidos), árabe (Arabia Saudí), chino (simplificado, China), chino (tradicional, RAE de Hong Kong), chino (tradicional, Taiwán), checo (República Checa) , danés (Dinamarca), neerlandés (Bélgica), neerlandés (Países Bajos), francés (Canadá), francés (Francia), finés (Finlandia), alemán (Alemania), griego (Grecia), hebreo (Israel), hindi (India), húngaro (Hungría), italiano (Italia), japonés (Japón), coreano (Corea), noruego (Noruega), polaco (Polonia), portugués (Brasil), portugués (Portugal), rumano (Rumanía), ruso (Rusia), eslovaco (Eslovaquia), español (México), español (España), sueco (Suecia), tailandés (Tailandia), turco (Turquía), ucraniano (Ucrania), vietnamita (Eslovaquia). Se almacenan junto con las grabaciones de reuniones en el almacenamiento en la nube de OneDrive y SharePoint.
 
 Puede usar el centro de administración de Microsoft Teams o PowerShell para establecer una directiva de reunión de Teams para controlar si el iniciador de la reunión tiene la opción de transcribir la grabación de la reunión.
 
-En el centro de administración de Microsoft Teams, active o desactive la opción **Permitir transcripción** en la directiva de reunión. Para más información, consulte [Configuración de la directiva de reunión para audio y vídeo](meetings-policies-recording-and-transcription.md#allow-transcription).
+En el centro de administración de Microsoft Teams, active o desactive la opción **Permitir transcripción** en la directiva de reunión. Para más información, consulte [Configuración de la directiva de reunión para audio y vídeo](meetings-policies-recording-and-transcription.md#transcription).
 
 Con PowerShell, configure la opción AllowTranscription en TeamsMeetingPolicy. Para obtener más información, consulte [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -171,9 +171,6 @@ Para cambiar el valor de AllowCloudRecording en la directiva global, use el sigu
 Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 ```
 
-</br>
-</br>
-
 |Escenario|Pasos |
 |---|---|
 |Quiero que todos los usuarios de mi empresa puedan transcribir cuando inician la grabación de una reunión. |<ol><li>Confirmar que CsTeamsMeetingPolicy global tiene AllowTranscription = True. <li>Todos los usuarios tienen csTeamsMeetingPolicy global o una de las directivas de CsTeamsMeetingPolicy con AllowTranscription = True </ol>|
@@ -182,6 +179,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |Quiero que la transcripción esté deshabilitada para la mayoría de los usuarios, pero permitir de forma selectiva que determinados usuarios puedan transcribir. |<ol><li>Confirmar que CsTeamsMeetingPolicy global tiene AllowCloudRecording = False. <li>A la mayoría de los usuarios se les ha otorgado la CsTeamsMeetingPolicy global o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = False. <li>Todos los demás usuarios tienen asignada una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = True. </ol>|
 
 ### <a name="terms-of-use-acceptance"></a>Aceptación de los Términos de uso
+
 Si su organización tiene una directiva de grabación de reuniones que desea que los usuarios acepten antes de grabar una reunión, utilice la función de [Términos de uso de Azure Active Directory.](/azure/active-directory/conditional-access/terms-of-use) Esta característica permite a los usuarios aceptar los términos de la directiva de usuario de su organización antes de obtener acceso a Microsoft Teams. Esta función no es específica para hacer clic en el botón de grabación, sino que está relacionada con el uso de Teams u otras aplicaciones de Microsoft 365 en general. Nuestra sugerencia es agregar la información de grabación de la reunión a los Términos de uso generales para usar Teams o Microsoft 365.
 
 ### <a name="set-a-custom-privacy-policy-url"></a>Establecer una dirección URL de la directiva de privacidad personalizada
@@ -208,7 +206,7 @@ Las grabaciones de reuniones se almacenan en el almacenamiento en la nube de One
 
 - La grabación se almacena en una carpeta denominada **Grabaciones** en OneDrive del usuario que ha hecho clic en Grabar. 
 
-  Ejemplo:  <i>OneDrive de la persona que ha iniciado la grabación</i>/**Grabaciones**
+  Ejemplo:**Grabaciones** *de OneDrive*/ de la grabadora
 
 - A las personas invitadas a la reunión —excepto los participantes externos— se les concederá automáticamente permiso para el archivo de la grabación con acceso de vista y sin capacidad de descarga.
 
@@ -220,7 +218,7 @@ Si `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` está establecido en Per
 
 - La grabación se almacena en la biblioteca de documentación del sitio de Teams, en una carpeta denominada **Grabaciones**.
 
-  Ejemplo: <i>Nombre de Teams: nombre del canal</i>/**Documentos**/**Grabaciones**
+  Ejemplo: *Nombre de Teams - Nombre*/ del canal **Grabaciones de** **documentos**/
 
 - El miembro que hizo clic Grabar tiene derechos de edición de la grabación.
 
@@ -230,7 +228,7 @@ Si `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` se establece en Bloquear
 
 - La grabación se almacena en la biblioteca de documentación del sitio de Teams, en una carpeta denominada **Grabaciones/Ver solo**. 
 
-  Ejemplo: <i>nombre de Teams: nombre del canal</i>/**Documentos/Grabaciones/Ver solo**
+  Ejemplo: *Nombre de teams: nombre*/ del canal **Documentos/Grabaciones/Solo vista**
 
 - Los propietarios del canal tendrán derechos completos de edición y de descarga sobre las grabaciones de esta carpeta.
 
@@ -252,6 +250,7 @@ Para más información sobre tipos de reunión específicos, consulte la tabla s
 |Reunión de canal                            |Miembro de canal         |Ubicación de SharePoint de Teams para ese canal                   |Si Set-CsTeamsMeetingPolicy -ChannelRecordingDownload está establecido en Permitir (valor predeterminado), el miembro que ha hecho clic en Grabar tiene derechos de edición sobre la grabación. Los permisos de todos los demás miembros se basan en los permisos de SharePoint del canal.<Br><Br>Si Set-CsTeamsMeetingPolicy -ChannelRecordingDownload está establecido en Bloquear, los propietarios del canal tendrán derechos completos sobre la grabación, pero los miembros del canal tendrán acceso de lectura sin capacidad de descarga.|
 
 <a name="temp-storage"></a>
+
 ### <a name="temporary-storage-when-unable-to-upload-to-onedrive-and-sharepoint"></a>Almacenamiento temporal cuando no se puede cargar en OneDrive y SharePoint
 
 Si una grabación de reunión no se puede cargar en OneDrive y SharePoint, estará disponible temporalmente para su descarga desde Teams durante 21 días antes de que se elimine. En este momento, esto no es algo que un administrador pueda controlar o administrar para incluir la capacidad de eliminarlo.
@@ -271,21 +270,14 @@ La retención de la grabación para este almacenamiento temporal se ve afectada 
 ### <a name="planning-for-storage"></a>Planificación de almacenamiento
 
 El tamaño de una grabación de 1 hora es de 400 MB. Asegúrese de entender la capacidad necesaria para los archivos grabados y de disponer de suficiente espacio de almacenamiento en OneDrive y en SharePoint.  Consulte [Establecer el espacio de almacenamiento predeterminado para OneDrive](/onedrive/set-default-storage-space) y [Administrar los límites de almacenamiento del sitio de SharePoint](/sharepoint/manage-site-collection-storage-limits) para comprender el almacenamiento base incluido en la suscripción y cómo comprar almacenamiento adicional.
-
- <a name="auto-expiration"></a>
-### <a name="auto-expiration-of-teams-meeting-recordings"></a>Expiración automática de las grabaciones de reuniones de Teams
-
-Vea las preguntas más frecuentes para que los administradores y los usuarios finales recopilen información sobre cómo funcionará la expiración automática de las grabaciones de reuniones de Teams, qué acciones puede realizar ahora y qué acciones puede realizar después de que se inicie la característica.
-  
-Obtenga más información sobre los cambios específicos del administrador [aquí](meeting-expiration.md#changes-to-meeting-expiration).
-
-Obtenga más información sobre cómo los usuarios finales pueden administrar la expiración de reuniones [aquí](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
   
 ## <a name="manage-meeting-recordings"></a>Administrar grabaciones de reuniones
 
 Las grabaciones de reuniones se almacenan como archivos de vídeo en OneDrive y SharePoint y siguen las opciones de administración y gobernanza disponibles en dichas plataformas. Para obtener más información, consulte [Introducción a la gobernanza de SharePoint](/sharepoint/governance-overview).
 
 En el caso de las reuniones que no son de canal, las grabaciones se almacenan en OneDrive, por lo que el control de la propiedad y de la retención después de que un empleado abandone la empresa seguirá el [proceso de OneDrive y SharePoint](/onedrive/retention-and-deletion#the-onedrive-deletion-process) regular.
+
+Las grabaciones de reuniones tienen un tiempo de expiración predeterminado de 120 días. Puede desactivar la configuración Reuniones que expiran automáticamente o cambiar la hora de expiración predeterminada. Obtenga más información sobre la [expiración automática de las grabaciones de reuniones](meetings-policies-recording-and-transcription.md#meetings-automatically-expire).
 
 ## <a name="closed-captions-for-recordings"></a>Subtítulos para las grabaciones
 
@@ -324,11 +316,12 @@ También puede aplicar directivas DLP a archivos de grabación de reuniones medi
 Para más información sobre DLP, consulte el artículo [Información sobre la prevención de pérdida de datos](/microsoft-365/compliance/dlp-learn-about-dlp)
 
 ## <a name="meeting-recording-diagnostic-tools"></a>Herramientas de diagnóstico de grabación de reuniones
-  ### <a name="user-cannot-record-meetings"></a>El usuario no puede grabar reuniones
+
+### <a name="user-cannot-record-meetings"></a>El usuario no puede grabar reuniones
 
 Si es administrador, puede usar la siguiente herramienta de diagnóstico para validar que se ha configurado correctamente al usuario para grabar una reunión en Teams:
 
-1. Seleccione **Ejecutar pruebas** a continuación. Esto rellenará el diagnóstico en el Centro de administración de Microsoft 365. 
+1. Seleccione **Ejecutar pruebas** a continuación. Esto rellenará el diagnóstico en el Centro de administración de Microsoft 365.
 
    > [!div class="nextstepaction"]
    > [Ejecutar pruebas: Grabación de reuniones](https://aka.ms/MeetingRecordingDiag)
@@ -337,16 +330,16 @@ Si es administrador, puede usar la siguiente herramienta de diagnóstico para va
 
 3. Las pruebas devolverán los mejores pasos siguientes para abordar cualquier configuración de inquilino o directiva para validar que el usuario esté configurado correctamente para grabar una reunión en Teams.
   
-  ### <a name="meeting-record-is-missing"></a>Falta un registro de reunión
+### <a name="meeting-record-is-missing"></a>Falta un registro de reunión
 
 Si es administrador, puede usar la siguiente herramienta de diagnóstico para validar que la grabación de la reunión se ha completado correctamente y se ha cargado en Stream o OneDrive, según el id. de la reunión y la hora de inicio de la grabación:
 
-1. Seleccione **Ejecutar pruebas** a continuación. Esto rellenará el diagnóstico en el Centro de administración de Microsoft 365. 
+1. Seleccione **Ejecutar pruebas** a continuación. Esto rellenará el diagnóstico en el Centro de administración de Microsoft 365.
 
    > [!div class="nextstepaction"]
    > [Ejecutar pruebas: falta la grabación de la reunión](https://aka.ms/MissingRecordingDiag)
 
-2. En el panel Ejecutar diagnóstico, escriba la dirección URL de la reunión en el campo de la **dirección URL de la reunión que se registró** (normalmente se encuentra en la invitación a la reunión), así como la fecha de la reunión en el campo ** cambo y, a continuación, seleccionar **Ejecutar pruebas**.
+2. En el panel Ejecutar diagnóstico, escriba la dirección URL de la reunión en la **dirección URL de la reunión que se registró** (normalmente se encuentra en la invitación a la reunión), así como la fecha de la reunión en el campo **¿Cuándo se registró la reunión?** y, después, seleccione **Ejecutar pruebas**.
 
 3. Las pruebas validarán que la grabación de la reunión se haya completado correctamente y se haya cargado en Stream o OneDrive.
 
