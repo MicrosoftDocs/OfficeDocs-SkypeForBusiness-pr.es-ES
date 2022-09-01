@@ -18,12 +18,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc931e442b5777c129482ad22e7698b9446e5695
-ms.sourcegitcommit: 10bb44fdd23d0b42a81229028d1b86515f88e7bb
+ms.openlocfilehash: 133369477a9e633e3e7ccb6309d8cae037f86f90
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2022
-ms.locfileid: "67435296"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486905"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción al aprendizaje para administradores de Microsoft Teams
 
@@ -65,18 +65,18 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 
 <p>La tabla siguiente contiene vínculos a aprendizaje en vídeo completo, con presentaciones de PowerPoint (en formato PDF) en Salas de Microsoft Teams.  
 
-| Módulo | Vídeo | Conjunto de diapositivas de PowerPoint (PDF)  |
-| ------------ | -------------------- | -------------------- |
-| Módulo 1: Introducción a Salas de Microsoft Teams (18:29 min) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| Módulo 2: Redes de Microsoft Teams (34:10 min) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
-| Módulo 3: Elegir el dispositivo adecuado para el espacio adecuado (18:45 min) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| Módulo 4: Implementación de Salas de Microsoft Teams (56:36 min) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| Módulo 5: Configuración e inicio Salas de Microsoft Teams (32:27 min) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| Módulo 6: Administración de Salas de Microsoft Teams, Parte 1 (18:31 min) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| Módulo 7: Administración de Salas de Microsoft Teams, Parte 2 (41:06 min) | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| Módulo 8: Salas de Microsoft Teams-- Consejos, trucos y solución de problemas (18:14 min)| [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
-| Instrucciones para unirse con un solo toque |  | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
-| Introducción a Salas de Microsoft Teams Servicios administrados |  | [Presentación de diapositivas](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
+| Módulo | Conjunto de diapositivas de PowerPoint (PDF)  |
+| ------------ | -------------------- |
+| Módulo 1: Introducción a Salas de Microsoft Teams  | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
+| Módulo 2: Redes de Microsoft Teams  | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
+| Módulo 3: Elegir el dispositivo adecuado para el espacio adecuado  | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
+| Módulo 4: Implementar Salas de Microsoft Teams  | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| Módulo 5: Configurar e iniciar Salas de Microsoft Teams  | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| Módulo 6: Administrar Salas de Microsoft Teams, parte 1  | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
+| Módulo 7: Administración de Salas de Microsoft Teams, parte 2  | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
+| Módulo 8: Salas de Microsoft Teams-- Sugerencias, trucos y solución de problemas | [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| Instrucciones para unirse con un solo toque |  [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
+| Introducción a Salas de Microsoft Teams Servicios administrados | [Presentación de diapositivas](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Dispositivos Android de Teams</h2>
 

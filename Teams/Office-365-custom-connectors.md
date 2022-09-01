@@ -1,6 +1,6 @@
 ---
 title: Administrar Microsoft 365 y los conectores personalizados
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 22d14ec191fcc6c13e8384cae0396b5175a0de0a
-ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
+ms.openlocfilehash: 8abc7dc981902945cdb8be8ed9a2fe705e0d6e73
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67278474"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486745"
 ---
 # <a name="manage-microsoft-365-and-custom-connectors"></a>Administrar Microsoft 365 y los conectores personalizados
 

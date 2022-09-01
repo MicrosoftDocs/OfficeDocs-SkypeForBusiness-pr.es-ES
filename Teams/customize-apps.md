@@ -1,6 +1,6 @@
 ---
 title: Modificar la apariencia de las aplicaciones en el almacén de Teams de su organización
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -16,16 +16,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo cambiar la apariencia de la aplicación y cambiar el nombre de una aplicación editando los detalles y los metadatos de la aplicación.
-ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 444cf5cda737b9d4b4c3dc7f4032b7eb0877f4aa
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298889"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486925"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>Personalizar la apariencia de las aplicaciones en el almacén de Teams de su organización
 
-Microsoft Teams permite a los administradores personalizar la aplicación de Teams para mejorar la experiencia del almacén y cumplir con la personalización de marca de su organización. Un desarrollador de aplicaciones puede permitir que un administrador de Teams personalice su aplicación. Después, puede actualizar las propiedades de la aplicación en función de las necesidades de la organización, en la página Administrar aplicaciones del Centro de administración de Teams. Los detalles que puede personalizar son:
+Microsoft Teams permite a los administradores personalizar la aplicación teams para mejorar la experiencia de store y ajustarse a la personalización de marca de su organización. Un desarrollador de aplicaciones puede permitir que un administrador de Teams personalice su aplicación. Después, puede actualizar las propiedades de la aplicación en función de las necesidades de la organización, en la página Administrar aplicaciones del Centro de administración de Teams. Los detalles que puede personalizar son:
 
 * Nombre corto
 * Descripción breve

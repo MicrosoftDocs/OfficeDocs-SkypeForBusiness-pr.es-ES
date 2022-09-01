@@ -15,12 +15,12 @@ description: Obtenga información sobre cómo comprar aplicaciones de terceros e
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 53a630fd887bd793f2b811e97e176cbd40ec1d0d
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396311"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486725"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicaciones de terceros para Microsoft Teams
 
@@ -28,7 +28,7 @@ La instalación de las aplicaciones de Teams es gratuita y algunas pueden requer
 
 La página [Administrar aplicaciones](manage-apps.md) del Centro de administración de Microsoft Teams es donde puede ver y administrar todas las aplicaciones de Teams para su organización. Por ejemplo, puede ver el estado y las propiedades de las aplicaciones a nivel de organización, cargar nuevas aplicaciones personalizadas en la tienda de aplicaciones de su organización, bloquear o permitir aplicaciones en el nivel de organización y administrar la configuración de aplicaciones de toda la organización.
 
-Aquí, también puede comprar licencias de servicios ofrecidos por aplicaciones de terceros para los usuarios de su organización. La columna **Licencias** de la tabla indica si una aplicación ofrece una suscripción SaaS para su compra.
+Aquí, también puede comprar licencias de servicios ofrecidos por aplicaciones de terceros para los usuarios de su organización. La columna **Licencias** de la tabla indica si una aplicación ofrece una suscripción SaaS para su compra. Los usuarios finales pueden comprar aplicaciones con tarjeta de crédito, tarjeta de débito o con facturación.
 
 ![Captura de pantalla de la página de administración de licencias de compra de aplicaciones.](media/manage-apps-new-page.png)
 

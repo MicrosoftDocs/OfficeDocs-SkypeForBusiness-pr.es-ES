@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Las siguientes son algunas de las principales preguntas que nos hacen nuestros clientes que quieren usar Audioconferencia.
-ms.openlocfilehash: b6b14397282a365931dc58e6da20f2b3da3ab6c8
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 1f2e45a68b1f964453645c1d06794f9016019beb
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023751"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486985"
 ---
 # <a name="audio-conferencing-common-questions"></a>Preguntas frecuentes sobre Audioconferencia
 
@@ -142,7 +142,7 @@ Solo para los organizadores de la reunión:
 | Nombre del comando                   | Teclas de comando | Descripción                                                 |
 |--------------------------------|--------------|-------------------------------------------------------------|
 | Admitir todo                      | \*21         | Pulse \*21 para admitir a todos los participantes que esperan en la sala de espera.  |
-| Silenciar a todos                       | \*22         | Presione \*21 para silenciar a todos los participantes (excepto el organizador). |
+| Silenciar a todos                       | \*22         | Pulse \*22 para silenciar a todos los participantes (excepto el organizador). |
 | Alternar anuncio de entrar o salir | \*23         | Presione \*23 para habilitar o deshabilitar Entrar/salir del anuncio.    |
 
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>¿Los asistentes pueden llamar a números de teléfono internacionales cuando están en una Skype Empresarial o en una reunión de Microsoft Teams?

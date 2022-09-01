@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas en Microsoft Teams. Las colas de llamadas proporcionan un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: c95365701760c7db4c0d80ea0875920a91f814e1
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 2a1f16d9cde74988e082736f4d50f101fa0d6759
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443507"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486875"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -361,11 +361,11 @@ Se recomienda la siguiente configuración:
 |`Round Robin`                    |v                         |v         |v               |v    |v         |v                     |v                         |*Recomendado* |
 |`Serial`                         |v                         |v         |v               |v    |v         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Opciones de enrutamiento de agente**        |                          |          |                |     |          |                      |                          |   |
-|`Presence Based Routing`<sup>3</sup>|v                      |v         |v               |N    |v         |v                     |v                         |*Recomendado* |
+|`Presence Based Routing`<sup>3</sup>|v                      |v         |v               |N    |v         |v                     |v                         |*Predeterminado* |
 |`Agents can Opt-out`               |v                       |v         |v               |Y<sup>7</sup>|Y<sup>7</sup>|v          |v                         |*Predeterminado*     |
 |**Modos de transferencia**               |                          |          |                |     |          |                      |                          |   |
-|`Conference Mode`<sup>5</sup>    |v                         |v         |v               |N    |Y<sup>6</sup>|v                  |v                         |*Recomendado* |
-|`Transfer Mode`                  |v                         |v         |v               |v    |v         |v                     |v                         |*Predeterminado*              |
+|`Conference Mode`<sup>5</sup>    |v                         |v         |v               |N    |Y<sup>6</sup>|v                  |v                         |*Predeterminado* |
+|`Transfer Mode`                  |v                         |v         |v               |v    |v         |v                     |v                         |   |
 |**Llamadas colaborativas**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |v                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**Identificador dinámico de llamadas**            |                          |          |                |     |          |                      |                          |   |
