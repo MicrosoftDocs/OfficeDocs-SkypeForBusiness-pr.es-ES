@@ -1,59 +1,59 @@
 ### YamlMime:Hub
 title: Skype Empresarial
-summary: Documentación técnica de Skype empresarial
+summary: Skype Empresarial documentación técnica
 brand: m365
 metadata:
   title: Skype Empresarial
-  description: Documentación técnica de Skype empresarial
+  description: Skype Empresarial documentación técnica
   ms.service: skype-for-business-online
   ms.topic: hub-page
   audience: ITPro
   author: samanro
   ms.author: samanro
   ms.date: 07/03/2019
-  localization_priority: Priority
-  ms.openlocfilehash: 4fddbad88364a26bee8c8217175080b80380ed60
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: HT
+  ms.localizationpriority: high
+  ms.openlocfilehash: 35f0728c28765ccfeaffd2b2716280b9d20dfbb3
+  ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+  ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51119039"
+  ms.lasthandoff: 08/26/2021
+  ms.locfileid: "58592994"
 additionalContent:
   sections:
   - title: Para profesionales de TI
     items:
     - title: Skype Empresarial Online
-      summary: Encuentre recursos para administrar Skype Empresarial Online en su entorno de Office 365.
+      summary: Obtenga recursos para administrar Skype Empresarial Online en su entorno de Office 365.
       url: ../SfbOnline/skype-for-business-online.yml
     - title: Soluciones híbridas
-      summary: Obtenga información sobre cómo planificar una implementación híbrida de Skype empresarial.
+      summary: Obtenga información sobre cómo planear una implementación Skype Empresarial híbrida.
       url: ../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
     - title: Skype Empresarial Server
-      summary: Implemente y administre Skype empresarial Server para su organización.
+      summary: Implemente y administre Skype Empresarial Server para su organización.
       url: ../SfBServer2019/skype-for-business-server-2019.yml
     - title: Referencia de PowerShell para Skype Empresarial
-      summary: Obtenga más información sobre los cmdlets de PowerShell que necesita para administrar Skype empresarial y Skype empresarial online.
+      summary: Obtenga información sobre los cmdlets de PowerShell que necesita para administrar Skype Empresarial y Skype Empresarial Online.
       url: /powershell/skype/intro
     - title: Microsoft Teams
-      summary: Obtenga la programación, el procedimiento y la orientación práctica que necesita para implementar correctamente Microsoft Teams.
+      summary: Consiga la planificación, el procedimiento y la guía práctica que necesita para implementar con éxito Microsoft Teams.
       url: /MicrosoftTeams/
     - title: Viaje de Skype Empresarial a Microsoft Teams
-      summary: Obtenga información y herramientas para explorar la ruta óptima hacia Teams.
+      summary: Encuentre orientación y herramientas para explorar su ruta óptima a Teams.
       url: /MicrosoftTeams/upgrade-start-here
     - title: Salas de Microsoft Teams
       summary: Obtenga información sobre cómo planear, implementar y administrar salas de Microsoft Teams.
       url: /SkypeForBusiness/room-systems/
     - title: Programa de certificación de Skype Empresarial
-      summary: Obtenga información sobre las soluciones certificadas y los dispositivos.
+      summary: Obtenga información sobre soluciones y dispositivos certificados.
       url: ../SfbPartnerCertification/certification/overview.md
     - title: Solucionar problemas
-      summary: Buscar los recursos de solución de problemas y soporte técnico para los profesionales de TI y administradores.
+      summary: Encuentre recursos de solución de problemas y soporte técnico para profesionales de TI y administradores.
       url: /office/troubleshoot
-  - title: Para otros públicos
+  - title: Para otras audiencias
     items:
     - title: Desarrolladores
-      summary: Instrucciones para desarrollar soluciones para Skype Empresarial.
+      summary: Orientación para el desarrollo de soluciones para Skype Empresarial.
       url: /skype-sdk/
     - title: Usuarios finales
-      summary: Encuentre ayuda, formación y soporte técnico para usuarios de Skype Empresarial en support.office.com.
+      summary: Busque ayuda, formación y soporte técnico para usuarios de Skype Empresarial en support.office.com.
       url: https://support.office.com/skype-for-business

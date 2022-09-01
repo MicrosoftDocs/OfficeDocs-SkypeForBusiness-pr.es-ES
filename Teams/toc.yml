@@ -607,8 +607,8 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: Quitar la directiva de reunión de RestrictedAnonymousAccess de los usuarios
                     href: meeting-policies-restricted-anonymous-access.md
-          - name: Directivas y expiración de reuniones
-            href: meeting-expiration.md
+          - name: Administrar quién puede iniciar y programar reuniones
+            href: manage-who-can-schedule-meetings.md
           - name: Administrar la configuración de reuniones
             href: meeting-settings-in-teams.md
           - name: Correos electrónicos que se envían a los usuarios cuando cambia la configuración
@@ -863,8 +863,6 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Conexión con operador
             items:
-              - name: Novedades
-                href: operator-connect-whats-new.md
               - name: Plan de Conexión con operador
                 href: operator-connect-plan.md
               - name: Configurar Conexión con operador
@@ -953,6 +951,8 @@ items:
             href: search-for-phone-numbers-for-users.md
           - name: 'Asignar, cambiar o quitar un teléfono móvil de un usuario'
             href: assign-change-or-remove-a-phone-number-for-a-user.md
+          - name: Administrar el uso de un número de teléfono
+            href: manage-the-usage-of-a-phone-number.md
           - name: Consultar una lista de números de teléfono de su organización
             href: see-a-list-of-phone-numbers-in-your-organization.md
           - name: Tipos de números de teléfono que se usan para el plan de llamadas
@@ -1068,7 +1068,7 @@ items:
               - name: 'Paso 5: Asignar números de teléfono a los usuarios'
                 href: business-voice/set-up-assign-numbers.md
               - name: 'Paso 6: Configurar un operador automático'
-                href: create-a-phone-system-auto-attendant.md
+                href: create-a-phone-system-auto-attendant-smb.md
               - name: 'Paso 7: Portar números de teléfono (opcional)'
                 href: business-voice/port-phone-numbers.md
               - name: Recursos posteriores a la configuración
@@ -1084,7 +1084,7 @@ items:
               - name: Crear más usuarios
                 href: business-voice/create-users.md
               - name: Configurar una cola de llamada
-                href: create-a-phone-system-call-queue.md
+                href: create-a-phone-system-call-queue-smb.md
           - name: Administrar la configuración del Sistema telefónico
             items:
               - name: Administrar dispositivos
@@ -1135,6 +1135,8 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
               - name: Administración de números de teléfono para Luxemburgo
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+              - name: Administración de números de teléfono para México
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
               - name: Administración de números de teléfono para Nueva Zelanda
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
               - name: Administración de números de teléfono para Noruega
@@ -1579,44 +1581,65 @@ items:
             href: apps-update-experience.md
           - name: Auditar actividades de administración de aplicaciones
             href: audit-app-management-activities.md
-          - name: Análisis y informe del uso de aplicaciones
+          - name: Visualización del informe y análisis de uso de aplicaciones
             href: teams-analytics-and-reports/app-usage-report.md
   - name: Instrucciones para sectores y gobiernos
     items:
       - name: Información general
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: Teams para Educación
-        href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:
-          - name: 'Inicio rápido: Administradores de Teams para Educación'
-            href: teams-quick-start-edu.yml
-          - name: Introducción al aprendizaje remoto
-            href: remote-learning-edu.md
-          - name: Directivas y paquetes de directivas de Teams EDU
-            href: policy-packages-edu.md
-          - name: Asignar directivas a grandes grupos de usuarios
-            href: batch-group-policy-assignment-edu.md
-          - name: Script de PowerShell para crear grupos de seguridad para educadores y estudiantes
-            href: scripts/powershell-script-security-groups-edu.md
-          - name: Guía de ancho de banda bajo para administradores de educación
-            href: edu-remote-low-bandwidth.md
-          - name: Asistente de directiva de Microsoft Teams para Educación
-            href: easy-policy-setup-edu.md
-          - name: Conexión de padres en Teams para Educación
-            href: edu-parents-app.md
-          - name: Asesor profesional
+          - name: Introducción a Teams para Educación
+            href: expand-teams-across-your-org/teams-for-education-landing-page.md
+          - name: Introducción a Teams para Educación
             items:
-              - name: Empezar a trabajar con el Asesor de carrera
-                href: career-coach.md
-              - name: Configurar el Asesor de carrera
-                href: career-coach-set-up-steps.md
-              - name: Solución de problemas del Asesor de carrera
-                href: career-coach-troubleshoot.md
-              - name: Recursos para el Asesor de carrera
-                href: career-coach-resources.md
-          - name: Supervisar los chats en Teams
-            href: supervise-chats-edu.md
-          - name: Insights para Educación
+              - name: 'Inicio rápido: configuración de Teams para Educación'
+                href: teams-quick-start-guide-edu.md
+              - name: Introducción al aprendizaje remoto
+                href: remote-learning-edu.md
+              - name: Solución de problemas de escenarios de ancho de banda bajo
+                href: edu-remote-low-bandwidth.md
+              - name: Asignación de licencias de Teams para educación
+                href: teams-edu-licensing.md
+              - name: Preguntas más frecuentes sobre Microsoft Education para administradores de TI
+                href: plan-teams-governance-edu.md
+              - name: Compartir recursos de adopción de Teams
+                href: resources-teams-edu.md
+              - name: Referencia de SKU de Educación
+                href: sku-reference-edu.md
+          - name: Directivas de Teams para educación
+            items:
+              - name: Administración de directivas y paquetes de directivas de Teams
+                href: policy-packages-edu.md
+              - name: Configuración rápida de directivas para usuarios
+                href: easy-policy-setup-edu.md
+              - name: Asignar directivas a grandes grupos de usuarios
+                href: batch-group-policy-assignment-edu.md
+              - name: Creación de grupos de seguridad para educadores y alumnos
+                href: scripts/powershell-script-security-groups-edu.md
+          - name: Configuración de características para educadores
+            items:
+              - name: Configuración de chats supervisados en Teams
+                href: supervise-chats-edu.md
+              - name: Configurar asignaciones en Teams
+                href: expand-teams-across-your-org/assignments-in-teams.md
+              - name: Configuración de la conexión primaria en Teams
+                href: edu-parents-app.md
+              - name: Asesor profesional
+                items:
+                  - name: Empezar a trabajar con el Asesor de carrera
+                    href: career-coach.md
+                  - name: Configurar el Asesor de carrera
+                    href: career-coach-set-up-steps.md
+                  - name: Solución de problemas del Asesor de carrera
+                    href: career-coach-troubleshoot.md
+                  - name: Recursos para el Asesor de carrera
+                    href: career-coach-resources.md
+          - name: Integraciones de LMS y LTI
+            items:
+              - name: Instalación de la integración de Moodle LMS
+                href: install-moodle-integration.md
+          - name: Obtenga información sobre los alumnos con Insights para Educación
             items:
               - name: Introducción a Insights
                 href: class-insights.md
@@ -1624,23 +1647,11 @@ items:
                 href: education-insights-sis-data-sync.md
               - name: Administrar el acceso de los usuarios a Insights
                 href: education-insights-manage-access.md
-              - name: Introducción a Reflect
+              - name: Configuración de Reflect para información emocional
                 href: reflect.md
               - name: Comprender Insights para el Progreso de lectura
                 href: insights-for-reading-progress.md
-          - name: Tareas en Teams para Educación
-            href: expand-teams-across-your-org/assignments-in-teams.md
-          - name: Recursos de Teams para administradores de educación
-            href: resources-teams-edu.md
-          - name: Preguntas frecuentes de la administración de Microsoft Education para administradores
-            href: plan-teams-governance-edu.md
-          - name: Instalar la integración Moodle
-            href: install-moodle-integration.md
-          - name: Licencias de Teams para educación
-            href: teams-edu-licensing.md
-          - name: Referencia de SKU de Educación
-            href: sku-reference-edu.md
-          - name: Dispositivos de Teams para el ámbito educativo
+          - name: Buscar dispositivos de Teams para educación
             href: devices-for-education.md
       - name: Teams para los trabajadores de primera línea
         items:
@@ -1720,13 +1731,13 @@ items:
             href: get-started-with-teams-essentials.md
           - name: Conectar Teams Essentials (identidad de AAD) al correo electrónico
             href: connect-teams-essentials-to-email.md
-      - name: Actualizar desde Kaizala
+      - name: Traslado desde Kaizala
         items:
           - name: Introducción
             href: get-started-kaizala-teams.md
-          - name: Preparación de la actualización
+          - name: Preparación para moverse
             href: prepare-for-teams-kaizala.md
-          - name: Planear el recorrido de actualización
+          - name: Planea tu traslado a Kaizala
             href: plan-your-move-kaizala.md
           - name: Navegar por Microsoft Teams
             href: navigate-teams.md
