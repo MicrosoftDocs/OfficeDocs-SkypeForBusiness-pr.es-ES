@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5865494b94c280295d13e0f99303bc76d1fc274
-ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
-ms.translationtype: HT
+ms.openlocfilehash: e090c465b46370367d96a782e12f38161465ce33
+ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65249012"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572090"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Usar el cifrado de un extremo a otro para las llamadas de Microsoft Teams uno a uno
 
@@ -34,6 +34,8 @@ ms.locfileid: "65249012"
 El cifrado de un extremo a otro, o E2EE, se produce cuando el contenido se cifra antes de que el destinatario previsto lo envíe y descifre. Con el cifrado de un extremo a otro, solo los dos sistemas de punto de conexión están implicados en el cifrado y descifrado de los datos de llamada. Ninguna otra parte, incluido Microsoft, tiene acceso a la conversación descifrada.
 
 Con E2EE para las llamadas individuales no programadas, sólo el flujo de medios en tiempo real, es decir, los datos de vídeo y de voz, para las llamadas de equipos individuales están cifrados de extremo a extremo. Ambas partes deben activar esta configuración para habilitar el cifrado de un extremo a otro. El [Cifrado en Microsoft 365](/microsoft-365/compliance/encryption) protege el chat, el uso compartido de archivos, la presencia y otro contenido en la llamada.
+
+Las llamadas cifradas de un extremo a otro se pueden realizar entre dos partes cuando: las partes usan la versión más reciente del cliente de escritorio de Teams para Windows o Mac, están en un dispositivo móvil con la actualización más reciente para iOS y Android, o están en una Salas de Teams en un dispositivo Windows con la actualización más reciente.
 
 Si no habilita el cifrado de un extremo a otro, Teams todavía protege una llamada o reunión mediante el cifrado basado en estándares del sector. Los datos intercambiados durante las llamadas siempre son seguros mientras están en tránsito y en reposo. Para obtener más información, vea [Cifrado multimedia para Teams](teams-security-guide.md#media-encryption).
 
