@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar la consola de Salas de Microsoft Teams y sus periféricos.
-ms.openlocfilehash: 2a38154ebca1dfae282722fdb64e76389627ca15
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 40d49597ab3354eeaacc8d7c562917fbf653e727
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270115"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590177"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Crear una imagen de Salas de Microsoft Teams
 
@@ -30,7 +30,7 @@ En este artículo se describe cómo crear una imagen de Salas de Microsoft Teams
 > [!NOTE]
 > Los pasos siguientes solo deben usarse al crear una [imagen basada en WIM](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) para la implementación masiva. Si estás recuperando dispositivos individuales, ponte en contacto con el fabricante de equipos originales (OEM) para obtener soporte técnico.
 
-Solo debe realizar estos pasos si ya se han creado y probado las cuentas de Microsoft Teams o Skype for Business y Exchange necesarias, como se describe en [Implementar Salas de Microsoft Teams](rooms-deploy.md). Necesitarás el hardware y el software que se describen en [Salas de Microsoft Teams requisitos](requirements.md). Este tema incluye las secciones siguientes:
+Solo debe realizar estos pasos si ya se han creado y probado las cuentas necesarias de Microsoft Teams o de Skype Empresarial y Exchange, como se describe en [Implementar Salas de Microsoft Teams](rooms-deploy.md). Necesitarás el hardware y el software que se describen en [Salas de Microsoft Teams requisitos](requirements.md). Este tema incluye las secciones siguientes:
   
 - [Preparar los medios de instalación](console.md#Prep_Media)
 - [Instalar un certificado de CA privado en la consola](console.md#Certs)
@@ -159,11 +159,11 @@ Después de instalar Windows, la aplicación Salas de Microsoft Teams pasará a 
     
 2. Introduzca la contraseña de la cuenta de la sala e introdúzcala una vez más para confirmarla.
    
-3. Seleccione el modo de reunión compatible: Solo Microsoft Teams, solo Skype for Business o una de las dos opciones de modo mixto. Si es necesario, habilite la autenticación moderna.
+3. Seleccione el modo de reunión compatible: Solo Microsoft Teams, solo Skype Empresarial o una de las dos opciones de modo mixto. Si es necesario, habilite la autenticación moderna.
 
 4. Seleccione **Siguiente**.
     
-5. Si el uso de Skype for Business y si el Skype for Business dominio SIP es diferente del dominio de Exchange del usuario, establezca el FQDN para el Skype Empresarial Server en la sección Avanzadas. Si no usa Skype for Business o el dominio SIP coincide con el dominio de Exchange, deje esta sección en blanco.
+5. Si el uso de Skype Empresarial y si el Skype Empresarial dominio SIP es diferente del dominio de Exchange del usuario, establezca el FQDN para el Skype Empresarial Server en la sección Avanzadas. Si no usa Skype Empresarial o el dominio SIP coincide con el dominio de Exchange, deje esta sección en blanco.
 6. Seleccione **Siguiente**.
     
 7. Selecciona **Finalizar**.
@@ -171,7 +171,7 @@ Después de instalar Windows, la aplicación Salas de Microsoft Teams pasará a 
 La aplicación Salas de Microsoft Teams debe iniciar sesión en Microsoft Teams o Skype Empresarial Server con las credenciales especificadas anteriormente, y también debería iniciar la sincronización de su calendario con Exchange con esas mismas credenciales. Para obtener más información sobre el uso de Salas de Teams, consulte la [ayuda de Salas de Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
-> Salas de Microsoft Teams se basa en la presencia de hardware de consola certificado. Incluso una imagen creada correctamente que contenga la aplicación de consola Salas de Microsoft Teams no arrancará más allá del procedimiento de configuración inicial, a menos que se detecte el hardware de la consola. Para obtener Surface Pro soluciones basadas en, el Surface Pro debe estar conectado a su hardware de la base de acoplamiento correspondiente para pasar esta comprobación.
+> Salas de Microsoft Teams se basa en la presencia de hardware de consola certificado. Incluso una imagen creada correctamente que contenga la aplicación de consola Salas de Microsoft Teams no arrancará más allá del procedimiento de configuración inicial, a menos que se detecte el hardware de la consola. Para obtener Surface Pro soluciones basadas en, el Surface Pro debe estar conectado a su hardware de la base de acoplamiento correspondiente para pasar esta comprobación. Para obtener más información sobre el hardware compatible, consulta [requisitos de Salas de Microsoft Teams](requirements.md).
   
 > [!NOTE]
 > Es posible que algunos usuarios que no sean del idioma inglés necesiten un teclado físico conectado a la consola durante la configuración inicial en caso de que los símbolos no sean compatibles con el teclado táctil.
@@ -179,7 +179,7 @@ La aplicación Salas de Microsoft Teams debe iniciar sesión en Microsoft Teams 
 ### <a name="install-a-private-ca-certificate-on-the-console"></a>Instalar un certificado de CA privado en la consola
 <a name="Certs"> </a>
 > [!NOTE]
-> Lo siguiente solo se aplica si Salas de Teams de conexión a Skype for Business.
+> Lo siguiente solo se aplica si se conecta Salas de Teams a Skype Empresarial.
 
 Salas de Microsoft Teams debe confiar en los certificados usados por los servidores a los que se conecta. En un caso en el que la entidad emisora de certificados es privada, por ejemplo, una implementación local con Active Directory y la entidad emisora de certificados de Windows, puede agregar el certificado a Salas de Microsoft Teams de un par de formas:
   

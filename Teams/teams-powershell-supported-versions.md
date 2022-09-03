@@ -12,16 +12,16 @@ ms.collection:
 description: Obtenga más información sobre las versiones compatibles con el Módulo de PowerShell de Teams, que se usa para la administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ae244a16e934b70085b2193bee3ef21a277f7ed
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: d28e16c248957518ca16eb3eff7e082ebe6bd9bd
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397291"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590327"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Módulo PowerShell de Teams: versiones compatibles
 
-Las versiones del Módulo de PowerShell (TPM) de Microsoft Teams en la serie 4.x.x o posterior son las únicas versiones compatibles ahora. Todas las versiones anteriores se han retirado por completo desde el 15 de junio de 2022 & dejarán de funcionar (publicación del Centro de mensajes de referencia: MC350371). 
+Las versiones del Módulo de PowerShell (TPM) de Microsoft Teams en la serie 4.x.x o posterior son las únicas versiones compatibles ahora. Todas las versiones anteriores se han retirado por completo en entornos comerciales desde el 15 de junio de 2022 & dejarán de funcionar (publicación del centro de mensajes de referencia: MC350371). 
 
 Se recomienda actualizar a la última versión del módulo de PowerShell de Teams.
 

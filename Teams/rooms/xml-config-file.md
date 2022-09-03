@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Administración remota de la configuración predeterminada usada por un dispositivo Salas de Microsoft Teams, incluida la aplicación de un tema personalizado y la creación de un archivo de configuración maestra.
-ms.openlocfilehash: df9cc718ddcedb9745807dadd70c8e1a78748c6f
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 74ae005ceae3c17d64403990eda067e3d8bd7cfc
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272105"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590167"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar de forma remota una configuración de consola de Salas de Microsoft Teams con un archivo de configuración XML
 
@@ -52,7 +52,7 @@ Se puede usar cualquier editor de texto para crear un archivo de configuración.
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <SfbMeetingEnabled>true</SfbMeetingEnabled>
   <IsTeamsDefaultClient>true</IsTeamsDefaultClient>
-  <WebexMeetingsEnabled>true</WebexMeetingsEnabled>
+  <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
   <ZoomMeetingsEnabled>true</ZoomMeetingsEnabled>
   <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
   <CustomDisplayNameForThirdPartyMeetings>guestname</CustomDisplayNameForThirdPartyMeetings>
@@ -106,6 +106,8 @@ Se puede usar cualquier editor de texto para crear un archivo de configuración.
       <ExtendedFoRDisplayResolution>1920,1080</ExtendedFoRDisplayResolution> 
       <ExtendedFoRDisplayScaling>100</ExtendedFoRDisplayScaling> 
   </ExtendedFoRDisplay>  
+  <EnableDeviceEndToEndEncryption>false</EnableDeviceEndToEndEncryption>
+  <SplitVideoLayoutsDisabled>false</SplitVideoLayoutsDisabled>
 </SkypeSettings>
 ```
 
@@ -169,12 +171,14 @@ Si un valor de variable es del tipo incorrecto, los elementos están fuera de or
 | `<Video>`                                   | &#x2777; booleano            |                | Controla la configuración de vídeo en un dispositivo Salas de Teams. Este elemento tiene dos atributos:<br><ul><li><b>Predeterminado</b> Determina en qué dispositivo estará activa la cámara cuando se inicie una reunión. Para obtener la mejor experiencia, recomendamos que solo se establezca `true` el dispositivo Salas de Teams mientras que el resto de dispositivos estén establecidos en `false`.</li><li><b>Habilitado</b> Determina si los participantes de una reunión pueden activar o desactivar la cámara. Puedes establecerlo `true` en cualquier otro dispositivo del evento en el que los participantes quieran compartir diferentes perspectivas del vídeo (por ejemplo, si un participante usa la pizarra interactiva de Surface Hub). Si no desea que los participantes activen o desactiven una cámara en un dispositivo, establezca esta opción `false`en .<p> Si **el valor predeterminado de Vídeo** es `true`, se ignora la configuración **habilitada para vídeo** y los participantes pueden activar o desactivar la cámara.</li></ul> |
 | `<Whiteboard>`                              | &#x2777; booleano            |                | Controla la configuración de la pizarra en un dispositivo Salas de Teams. Este elemento tiene dos atributos:<br><ul><li><b>Predeterminado</b> Determina en qué dispositivo estará activa la pizarra cuando se inicie una reunión. Para disfrutar de la mejor experiencia, te recomendamos que establezcas el dispositivo `false` Salas de Teams y que uses la pizarra interactiva de un Surface Hub.</li><li><b>Habilitado</b> Determina si los participantes de una reunión pueden activar o desactivar la pizarra interactiva. Si no desea que los participantes activen o desactiven la pizarra en un dispositivo, establezca esta opción `false`en .<p> Si **el valor predeterminado de Whiteboard** es `true`, la opción **de whiteboard habilitada** se ignora y los participantes pueden activar o desactivar la pizarra.</li></ul>                                                                                                                                                   |
 | `<EnableResolutionAndScalingSetting>` | &#x2777; booleano | Primera &#x2776; | De forma predeterminada, está deshabilitada. Si desea cambiar la resolución y el ajuste de escala de Front of Room, establézcalo en true. Si es true, se aplicarán la resolución de pantalla y la configuración de escala. Esta configuración afectará tanto al FoR principal como al FoR extendido una vez que esta configuración esté habilitada. |
-| `<MainFoRDisplay>` | Contenedor | | Use este contenedor si el dispositivo usa un solo modo de visualización.<br><br>En el modo de pantalla dual, la parte frontal principal de la sala (FoR) es una pantalla con reloj (fuera de la reunión) y vídeo de vista previa automática (en reunión). `<MainFoRDisplayResolution>` y `<MainFoRDisplayScaling>` deben establecerse juntos a la vez. Si solo usa cualquiera `<MainFoRDisplayResolution>` de los dos o `<MainFoRDisplayScaling>`, se omitirá. |
+| `<MainFoRDisplay>` | Contenedor |Primera &#x2776; | Use este contenedor si el dispositivo usa un solo modo de visualización.<br><br>En el modo de pantalla dual, la parte frontal principal de la sala (FoR) es una pantalla con reloj (fuera de la reunión) y vídeo de vista previa automática (en reunión). `<MainFoRDisplayResolution>` y `<MainFoRDisplayScaling>` deben establecerse juntos a la vez. Si solo usa cualquiera `<MainFoRDisplayResolution>` de los dos o `<MainFoRDisplayScaling>`, se omitirá. |
 | `<MainFoRDisplayResolution>` | String | | Valor numérico de entrada de Ancho, Alto (por ejemplo, 1920 1080). Se omitirá si su FoR no lo admite.|
 | `<MainFoRDisplayScaling>` | Número | | Escribe el valor numérico del escalado. Los valores válidos son 100 (recomendado), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450 y 500. Si introduces 500 y tu FoR admite hasta 300, se establecerá en 300.|
-| `<ExtendedFoRDisplay>` | Contenedor | | En el modo de pantalla dual, La parte frontal extendida de la sala (FoR) es una pantalla donde se ve el contenido compartido (en reunión).  `<ExtendedFoRDisplayResolution>` y `<ExtendedFoRDisplayScaling>` deben establecerse juntos a la vez. Si solo usa cualquiera `<ExtendedFoRDisplayResolution>` de los dos o `<ExtendedFoRDisplayScaling>`, se omitirá. |
+| `<ExtendedFoRDisplay>` | Contenedor |Primera &#x2776;| En el modo de pantalla dual, La parte frontal extendida de la sala (FoR) es una pantalla donde se ve el contenido compartido (en reunión).  `<ExtendedFoRDisplayResolution>` y `<ExtendedFoRDisplayScaling>` deben establecerse juntos a la vez. Si solo usa cualquiera `<ExtendedFoRDisplayResolution>` de los dos o `<ExtendedFoRDisplayScaling>`, se omitirá. |
 | `<ExtendedFoRDisplayResolution>` | String | |Escribe el valor numérico de Ancho, Alto (por ejemplo: 1920.1080). Se omitirá un valor si el FoR no lo admite. |
 | `<ExtendedFoRDisplayScaling>` | Número | | Escribe el valor numérico del escalado. Los valores válidos son 100 (recomendado), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450 y 500. Si introduces 500 y tu FoR admite hasta 300, se establecerá en 300. |
+| `<EnableDeviceEndToEndEncryption>` | &#x2777; booleano | | El valor predeterminado es `false`. Especifique `true` para habilitar el cifrado de un extremo a otro para las llamadas uno a uno de Teams. Tanto el autor de la llamada como el destinatario deben tener habilitado el cifrado de un extremo a otro para que esto funcione. |
+| `<SplitVideoLayoutsDisabled>` |  &#x2777; booleano | | El valor predeterminado es `false`. Esta configuración solo es aplicable a las salas de doble pantalla. Especifique `true` para deshabilitar la división de la galería de vídeos en ambas pantallas. Esto también deshabilitará el diseño de la fila frontal y cualquier configuración asociada con el diseño de fila frontal. |
 
 &#x2776; Todos los elementos de primer nivel son opcionales. Si un elemento del primer nivel se omite, todos sus parámetros secundarios permanecerán igual en el dispositivo.
   
@@ -195,7 +199,7 @@ Puede utilizar el método que desee, siempre que pueda usarlo para transferir ar
   
 ## <a name="supported-meeting-modes-app-version-49"></a>Modos de reunión compatibles Versión 4.9 de la aplicación
 
-**Skype for Business (predeterminado) y Microsoft Teams**
+**Skype Empresarial (predeterminado) y Microsoft Teams**
 
 | Notación XML                | Valor XML      |
 |----------------------------|---------------|
@@ -203,7 +207,7 @@ Puede utilizar el método que desee, siempre que pueda usarlo para transferir ar
 | `<SfbMeetingEnabled>`        |   True         |
 | `<IsTeamsDefaultClient>`     |   Falso        |
 
-**Skype for Business y Microsoft Teams (predeterminado)**
+**Skype Empresarial y Microsoft Teams (predeterminado)**
 
 | Notación XML                | Valor XML      |
 |----------------------------|---------------|
@@ -230,14 +234,14 @@ Puede utilizar el método que desee, siempre que pueda usarlo para transferir ar
 
 ## <a name="supported-meeting-modes-app-version-48-or-lower"></a>Modos de reunión compatibles Versión 4.8 o inferior de la aplicación
 
-**Skype for Business (predeterminado) y Microsoft Teams**
+**Skype Empresarial (predeterminado) y Microsoft Teams**
 
 | Notación XML                | Valor XML      |
 |----------------------------|---------------|
 |  `<TeamsMeetingsEnabled>`     |   Verdadero         |
 |  `<IsTeamsDefaultClient>`     |   Falso        |
 
-**Skype for Business y Microsoft Teams (predeterminado)**
+**Skype Empresarial y Microsoft Teams (predeterminado)**
 
 | Notación XML                | Valor XML      |
 |----------------------------|---------------|
