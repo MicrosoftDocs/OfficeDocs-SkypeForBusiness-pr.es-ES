@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y Microsoft Teams disponibles para la Estados Unidos.
-ms.openlocfilehash: b3d20d24e0c52538eba1f55f91d34a2b8d3107dd
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 8934657313c9d5bed2eea49189311442c7c6e54d
+ms.sourcegitcommit: 8005e7953fcb6dcc78ba406925aeaaa49f08d3d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396721"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67609458"
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilidad en Estados Unidos (EE. UU.)
 
@@ -60,7 +60,7 @@ Estos son los servicios de Microsoft 365 y Office 365 para Skype Empresarial y M
 | **Característica**                                       | **Detalles**                                                                                                                                                                                                                                                                                                                     |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |¿Los planes de llamada están disponibles para la compra?  |Sí          |   
-|Minutos disponibles para planes de llamadas.    |Hay cinco opciones de plan disponibles por mes natural: <ul><li> Plan de llamadas nacionales de 120 minutos </li><li> Plan de llamadas nacionales de 240 minutos </li><li> Plan de llamadas nacionales de 1200 minutos </li><li> Plan de llamadas internacionales: 1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que se alcance primero en el mes natural)</li></ul>|
+|Minutos disponibles para planes de llamadas.    |Hay cinco opciones de plan disponibles por mes natural: <ul><li> Plan de llamadas nacionales de 120 minutos </li><li> Plan de llamadas nacionales de 240 minutos </li><li> Plan de llamadas nacionales de 3.000 minutos </li><li> Plan de llamadas internacionales: 3.000 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que se alcance primero en el mes natural)</li></ul>|
 | ¿Se pueden realizar llamadas a números premium? <br/> | No se admite en este momento. <br/>                                                                                                                                                                                                                                                                                               |
 | ¿A qué números se pueden hacer llamadas salientes?  <br/>                | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                                                                      |
 > [!Note]

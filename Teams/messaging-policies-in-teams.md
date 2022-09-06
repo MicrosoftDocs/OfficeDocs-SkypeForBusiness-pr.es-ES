@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 1975262b6fdd404d9314c3644ebba79b6cb5bd9a
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 2b428f39624ce7e6fb82815c7cbba3872b2113c2
+ms.sourcegitcommit: 8005e7953fcb6dcc78ba406925aeaaa49f08d3d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396521"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67609448"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
 
@@ -80,9 +80,8 @@ Estas son las opciones de directiva de mensajería que puede configurar.
 
 - **Los propietarios pueden eliminar mensajes enviados**  Use esta opción para permitir que los propietarios eliminen los mensajes del canal o las publicaciones que enviaron los usuarios.
 - **Eliminar mensajes enviados** Use esta opción para permitir a los usuarios eliminar los mensajes que enviaron en el chat.
-- **Eliminar chat** Use esta opción para permitir a los usuarios eliminar los mensajes que enviaron en el chat.
 - **Editar mensajes enviados** Use esta opción para permitir a los usuarios editar los mensajes que enviaron en el chat.
-- **Confirmaciones de lectura** Las confirmaciones de lectura permiten que el remitente de un mensaje de chat reciba una notificación cuando el destinatario leyó su mensaje en un momento determinado y chats grupales de 20 personas o menos. Las confirmaciones de lectura de mensajes quitan dudas sobre si un mensaje se ha leído y mejoran la comunicación del equipo. Las confirmaciones de lectura no se capturan en los informes de exhibición de documentos electrónicos.  
+- **Confirmaciones de lectura** Las confirmaciones de lectura permiten que el remitente de un mensaje de chat reciba una notificación cuando el destinatario leyó su mensaje en un momento determinado y chats grupales de 20 personas o menos. Las confirmaciones de lectura de mensajes eliminan la incertidumbre sobre si un mensaje se ha leído y mejoran la comunicación del equipo. Las confirmaciones de lectura no se capturan en los informes de exhibición de documentos electrónicos.  
     - **Controlado por el usuario** Esto significa que los usuarios pueden decidir si quieren que las confirmaciones de lectura estén activadas o desactivadas. La configuración predeterminada dentro de la aplicación está activada. Los usuarios pueden desactivarlo.
     - **Activado para todos los usuarios** Esto significa que todos los usuarios del espacio empresarial tendrán la característica ACTIVADA sin ninguna opción para desactivarla. Al usar la opción **Activada para todos los usuarios** , la única manera de establecer recibos para todo el espacio empresarial es tener solo una directiva de mensajería para todo el inquilino (la directiva predeterminada denominada "Global (valor predeterminado para toda la organización"), o bien tener todas las directivas de mensajería en el inquilino que usen la misma configuración para los recibos. Las característica de confirmaciones de lectura es más efectiva cuando se encuentra activa como **Habilitadas para todos**.
     - **Desactivado para todos los usuarios** Esto significa que la característica está deshabilitada y nadie en el inquilino tiene confirmaciones de lectura ni puede activarla.
