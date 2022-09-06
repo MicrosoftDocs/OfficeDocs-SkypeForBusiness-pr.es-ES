@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Administración puede leer las notas de la versión de Salas de Microsoft Teams, que muestran mejoras acumulativas en Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4905c22f974e464ed0079bad572623c83782cfda
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: cb76ac9da50a55dbf8a5df10ddab4f65cfdebcc7
+ms.sourcegitcommit: 2ecf98862aae607d0675418a6177be91f56af1f0
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606239"
+ms.locfileid: "67607623"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de la versión para Salas de Microsoft Teams
 
@@ -102,13 +102,13 @@ Introducido en esta actualización:
 
 - Actualización <sup>1</sup> de la experiencia de diseño de fila frontal 
 - Vídeo <sup>1</sup> Anclar y ocultar sala 
-- Configuración de administrador para desactivar la galería dividida en la pantalla doble Salas de Teams <sup>1</sup>
-- La pantalla dual Salas de Teams ahora puede mostrar hasta 18 secuencias de vídeo de participantes <sup>2</sup>
-- Soporte técnico para las licencias de sala Salas de Microsoft Teams Pro y Microsoft Teams Room Basic <sup>2</sup>
+- Configuración de administrador para desactivar la galería dividida en la pantalla doble Salas de Teams <sup>2</sup>
+- La pantalla dual Salas de Teams ahora puede mostrar hasta 18 secuencias de vídeo de participantes <sup>1</sup>
+- Soporte técnico para Salas de Microsoft Teams Pro y licencias de salas de Microsoft Teams Room Basic <sup>1</sup>
 
-<sup>1</sup> La configuración de administrador para desactivar la galería dividida a través de XML puede encontrarse en [Administrar una configuración de consola de Salas de Microsoft Teams de forma remota con un archivo de configuración XML](../rooms/xml-config-file.md).
+<sup>1</sup> Esta característica se está implementando en el cliente web de Teams y tardará aproximadamente dos semanas desde la fecha en que se publicó esta actualización para completarse. Para obtener más información, consulte [Actualizaciones de Teams](../teams-client-update.md).
 
-<sup>2</sup> Esta característica se está implementando en el cliente web de Teams y tardará aproximadamente dos semanas desde la fecha en que se publicó la actualización. Para obtener más información, consulte [Actualizaciones de Teams](../teams-client-update.md).
+<sup>2</sup> La configuración de administrador para desactivar la galería dividida a través de XML puede encontrarse en [Administrar una configuración de consola de Salas de Microsoft Teams de forma remota con un archivo de configuración XML](../rooms/xml-config-file.md).
 
 ### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
 
