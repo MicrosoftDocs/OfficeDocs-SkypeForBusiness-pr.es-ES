@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e7ba6b94466874a1e1ab07496ece0d3c4f34dfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5dcab13a6ee0c54e9fc88901c2fe022f35309e88
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269355"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606859"
 ---
 # <a name="teams-devices-for-education"></a>Dispositivos de Teams para educación
 
@@ -62,19 +62,19 @@ Los sistemas no nativos y autocompledos que dependen de servicios externos, o un
 
 **Diseñado para teams**:
 
-Audio y vídeo avanzados y uso compartido
+Audio y vídeo avanzados y uso compartido.
 
 **Amplia cartera de dispositivos para cualquier habitación**:
 
-Seleccionar entre factores de forma completamente modularizados o integrados en sistemas operativos Android o Windows
+Seleccione entre factores de forma completamente modularizados o integrados en los sistemas operativos Android o Windows.
 
 **Experiencias de sala rediseñadas**:
 
-Únase a reuniones de Teams sin fricción para participar en reuniones inclusivas y colaborativas para alumnos y educadores por igual
+Únase a reuniones de Teams sin fricción para participar en reuniones inclusivas y colaborativas para alumnos y educadores por igual.
 
 **Fácil de administrar desde un solo lugar**:
 
-Administre y mantenga los dispositivos totalmente actualizados y listos para usar en el Centro de Administración de Teams y habilite la administración proactiva de Microsoft las 24 x 7 con Salas de Microsoft Teams Premium
+Administre y mantenga los dispositivos totalmente actualizados y listos para usar en el Centro de Administración de Teams y habilite la administración proactiva 24 x 7 de Microsoft con Salas de Microsoft Teams Pro.
 
 ## <a name="space-considerations"></a>Consideraciones de espacio
 

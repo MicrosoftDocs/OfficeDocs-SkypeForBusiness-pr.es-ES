@@ -13,16 +13,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
 description: Obtenga más información sobre las directivas recomendadas de cumplimiento del dispositivo de Intune y el acceso condicional y los procedimientos recomendados para Salas de Microsoft Teams.
-ms.openlocfilehash: a1d86b002a4960e58541650643574428a2c3ede5
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e16513a840dadf7a5cabe961a0fbbd9135da9b89
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271035"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606549"
 ---
 # <a name="conditional-access-and-intune-compliance-for-microsoft-teams-rooms"></a>Cumplimiento de Intune y acceso condicional para Salas de Microsoft Teams
 
 En este artículo se proporcionan requisitos y procedimientos recomendados para las directivas de cumplimiento de dispositivos de Intune y acceso condicional para Salas de Microsoft Teams que se usan en espacios compartidos.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 ## <a name="requirements"></a>Requirements
 

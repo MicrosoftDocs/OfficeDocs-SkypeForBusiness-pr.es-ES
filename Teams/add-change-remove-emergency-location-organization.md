@@ -19,22 +19,22 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo agregar, cambiar o quitar una ubicación de emergencia de su organización.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bcbe811ecdb7ac9377e4798a2cdcb7334188aa1e
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c0a195a221bff5b008f5754592450f4f2b1e42e6
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267605"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606639"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
-Independientemente de la [opción de conectividad con RTC](pstn-connectivity.md) , puede elegir&mdash;las ubicaciones de emergencia Planes de llamadas de Microsoft, Conectar con operadores o Enrutamiento&mdash;directo asociados a un número de teléfono.
+Independientemente de la [opción de conectividad con RTC](pstn-connectivity.md), elija&mdash;Planes de llamadas de Microsoft, Conexión de operadores, Operador de conexión móvil (versión preliminar pública) o ubicaciones de emergencia de Enrutamiento&mdash;directo se pueden asociar a un número de teléfono.
 
 Sin embargo, en función de la opción de conectividad con RTC, la forma de administrar las ubicaciones de emergencia y los requisitos de ubicación puede variar. Para obtener más información, consulte [Administrar llamadas de emergencia](what-are-emergency-locations-addresses-and-call-routing.md).
 
 En este artículo se describe cómo agregar, cambiar o quitar una ubicación de emergencia para su organización. 
 
-Este artículo se aplica a los planes de llamadas de Microsoft, a la conexión de operadores y al enrutamiento directo.
+Este artículo se aplica a los planes de llamadas de Microsoft, a la conexión de operadores, a la Operador de conexión móvil (versión preliminar pública) y al enrutamiento directo.
 
 Puede administrar las ubicaciones de emergencia de su organización en el Centro de administración de Microsoft Teams o mediante PowerShell.
 

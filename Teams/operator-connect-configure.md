@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9a773e7c8767164480374826a2410050681505a
-ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
+ms.openlocfilehash: d7397ade44b1e7ee68c176c51bb1af9880ca0373
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66915198"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606539"
 ---
 # <a name="configure-operator-connect"></a>Configurar Operador Conectar
 
@@ -58,6 +58,20 @@ La manera de configurar los números de teléfono depende de si está configuran
 
 - Si desea mover los números existentes de Enrutamiento directo a Conexión de operador, vea [Mover números de Enrutamiento directo a Conexión de operador](#move-numbers-from-direct-routing-to-operator-connect).
 
+### <a name="assign-numberes-to-emergency-addresses"></a>Asignar números a direcciones de emergencia
+
+La dirección de emergencia es una ubicación estática asociada a un número. Una vez creadas las direcciones de emergencia en el Centro de administración de Teams, la forma de asignarlas o cambiarlas más adelante dependerá de su operador.
+
+Para asignar números a las direcciones de emergencia, el operador implementará uno de los tres escenarios siguientes:
+
+- El operador asigna direcciones de emergencia a los números de teléfono y le permite cambiarlas más adelante en el Centro de administración de Teams.
+
+- El operador no asigna direcciones y le permite asignar direcciones de emergencia a los números de teléfono del centro de administración de Teams.
+
+- El operador asigna direcciones de emergencia a los números de teléfono y no le permite cambiarlas. En este escenario, deberá ponerse en contacto con su operador para realizar cambios en los números de teléfono y su dirección de emergencia asignada.
+
+Para obtener más información sobre las llamadas de emergencia, consulte [Administrar llamadas de emergencia](what-are-emergency-locations-addresses-and-call-routing.md) y [Planear y configurar llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md).
+
 ### <a name="acquire-numbers-for-new-teams-users"></a>Adquirir números para nuevos usuarios de Teams
 
 Para adquirir números para nuevos usuarios de Teams, siga estos pasos:
@@ -72,20 +86,6 @@ Para adquirir números para nuevos usuarios de Teams, siga estos pasos:
 
 > [!NOTE]
 > Además de [obtener números de teléfono para los usuarios](getting-phone-numbers-for-your-users.md), puede obtener números de teléfono gratuitos o de pago para servicios como Audioconferencia (para puentes de conferencia), Operadores automáticos y Colas de llamadas (también denominados números de servicio). Los números de teléfono de servicio tienen una mayor capacidad de llamadas simultáneas que los números de teléfono de usuario o suscriptor. Por ejemplo, un número de servicio puede administrar cientos de llamadas simultáneamente, mientras que el número de teléfono de un usuario solo puede atender algunas llamadas simultáneamente. Para obtener números de servicio, ponte en contacto con tu operador.
-
-### <a name="emergency-addresses"></a>Direcciones de emergencia
-
-La dirección de emergencia es una ubicación estática asociada a un número. Una vez creadas las direcciones de emergencia en el Centro de administración de Teams, la forma de asignarlas o cambiarlas más adelante dependerá de su operador.
-
-Para asignar números a las direcciones de emergencia, el operador implementará uno de los tres escenarios siguientes:
-
-- El operador asigna direcciones de emergencia a los números de teléfono y le permite cambiarlas más adelante en el Centro de administración de Teams.
-
-- El operador no asigna direcciones y le permite asignar direcciones de emergencia a los números de teléfono del centro de administración de Teams.
-
-- El operador asigna direcciones de emergencia a los números de teléfono y no le permite cambiarlas. En este escenario, deberá ponerse en contacto con su operador para realizar cambios en los números de teléfono y su dirección de emergencia asignada.
-
-Para obtener más información sobre las llamadas de emergencia, consulte [Administrar llamadas de emergencia](what-are-emergency-locations-addresses-and-call-routing.md) y [Planear y configurar llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md).
 
 ### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>Mover números de Planes de llamadas a Operador Connect
 

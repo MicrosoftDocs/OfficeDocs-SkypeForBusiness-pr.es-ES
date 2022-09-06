@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Vea cómo buscar números de teléfono que puede asignar a sus usuarios, por país o región y ciudad, y especifique la cantidad de números que necesita.
-ms.openlocfilehash: 43aef76a16a8505e34407b15068a546dd2894343
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: b13e2365a3d0fb50e7fef5c7dc6a174d1b7376ff
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682509"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606199"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>Buscar números de teléfono para los usuarios
 
@@ -36,9 +36,9 @@ Antes de poder asignar números de teléfono proporcionados por Microsoft a los 
 
 Si selecciona Microsoft como operador, puede adquirir los números en el centro de administración de Teams especificando la cantidad de números de teléfono que necesitará para los usuarios. La página limitará automáticamente la cantidad en función de la cantidad que todavía tengas disponible para adquirir. Si seleccionas un operador Operator Connect, se te dirigirá a la página de aterrizaje de tu operador seleccionado para completar el número de pedido.
 
-La forma de adquirir y administrar los números de teléfono varía según la opción de conectividad con RTC: Planes de llamadas de Microsoft, Conexión de operadores o Enrutamiento directo.
+La forma de adquirir y administrar los números de teléfono varía según la opción de conectividad con RTC: Planes de llamadas de Microsoft, Operador Connect, Operador de conexión móvil (versión preliminar pública) o Enrutamiento directo.
 
-Este artículo se aplica a los [planes de llamadas de Microsoft](#search-for-telephone-numbers-for-microsoft-calling-plans) y [a la conexión de operadores](#search-for-telephone-numbers-for-operator-connect). Para obtener más información sobre todas las opciones, vea [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-landing-page).
+Este artículo se aplica a los [planes de llamadas de Microsoft](#search-for-telephone-numbers-for-microsoft-calling-plans), [a la conexión de operadores](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile) y [a los Operador de conexión móvil](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile). Para obtener más información sobre todas las opciones, vea [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-landing-page).
 
 ## <a name="search-for-telephone-numbers-for-microsoft-calling-plans"></a>Buscar números de teléfono para planes de llamadas de Microsoft
 
@@ -71,7 +71,7 @@ Para buscar números de teléfono para los usuarios:
 
 9. Cuando vuelva a la página **Números** de teléfono, seleccione el número de teléfono o los números que desea asignar y, a continuación, haga clic en **Editar** para asignarlo a un usuario.
 
-## <a name="search-for-telephone-numbers-for-operator-connect"></a>Buscar números de teléfono para Operador Conectar
+## <a name="search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile"></a>Buscar números de teléfono para operador conectar o Operador de conexión móvil
 
 1. Vaya al **Centro de administración de Microsoft Teams**.
 

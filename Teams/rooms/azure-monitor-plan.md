@@ -14,21 +14,23 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
-description: En este artículo se describen consideraciones de planeación para usar Azure Monitor para supervisar Salas de Microsoft Teams en la implementación de Skype for Business o Teams.
+description: En este artículo se describen consideraciones de planeación para usar Azure Monitor para supervisar Salas de Microsoft Teams en la implementación de su Skype Empresarial o Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac3ac3af4e4f162238af0e9bf38c45569302fdfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5640fd63ac413403105be7d5f23e413b2f19ebdf
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269575"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606399"
 ---
 # <a name="plan-microsoft-teams-rooms-monitoring-with-azure-monitor"></a>Planear la supervisión de Salas de Microsoft Teams con Azure Monitor
  
- En este artículo se describen consideraciones de planeación para usar Azure Monitor para administrar dispositivos Salas de Microsoft Teams en Microsoft Teams o Skype for Business implementación.
+ En este artículo se describen consideraciones de planeación para usar Azure Monitor para administrar dispositivos Salas de Microsoft Teams en Microsoft Teams o Skype Empresarial implementación.
 
 > [!NOTE]
 > También puede [configurar la supervisión del estado de Salas de Teams](../alerts/device-health-status.md) mediante el Centro de administración de Teams.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 [Azure Monitor](/azure/azure-monitor/overview) es una colección de servicios de supervisión que se diseñaron en la nube desde el principio. En lugar de implementar y administrar recursos locales, los componentes de Azure Monitor se hospedan por completo en Azure. La configuración es mínima y puede ponerse en marcha en cuestión de minutos. Con algunos trabajos de personalización, puede ayudar a supervisar Salas de Microsoft Teams proporcionando notificaciones del estado del sistema o los errores de los sistemas de salas individuales, y puede escalar hasta administrar miles de Salas de Microsoft Teams.
   

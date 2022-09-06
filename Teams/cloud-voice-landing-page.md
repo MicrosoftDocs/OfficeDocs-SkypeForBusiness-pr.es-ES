@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Obtenga más información sobre las características de voz en la nube de Microsoft Teams y las decisiones de implementación que tome para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b1f4b0756e640d9b93e235b2724ce7841b4f44f
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 40f2a4f56b9d1c174696265300226263eb41a9de
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240829"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606069"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planear la solución de voz de Teams
 
@@ -49,6 +49,7 @@ Sin embargo, su situación puede ser más compleja. Por ejemplo, es posible que 
 
 - Sistema telefónico con plan de llamadas
 - Sistema telefónico con tu propio operador RTC con Operador Connect
+- Sistema telefónico con su propio operador móvil RTC con Operador de conexión móvil (versión preliminar pública)
 - Sistema telefónico con su propio operador RTC con enrutamiento directo
 - Una solución combinada que usa sistema telefónico con plan de llamadas, sistema telefónico con conexión de operador y/o sistema telefónico con enrutamiento directo
 
@@ -150,9 +151,12 @@ Sistema telefónico proporciona funcionalidades PBX completas para su organizaci
 
 - [**Sistema telefónico con plan de llamadas**](pstn-connectivity.md#phone-system-with-calling-plan). Una solución todo en la nube con Microsoft como su operador de RTC.
 
-- [**Sistema telefónico con su propio operador RTC mediante operador Connect**](operator-connect-plan.md). Con Operador Connect, si su operador actual es uno de los participantes en el programa Microsoft Operator Connect, podrá administrar el servicio para llevar las llamadas RTC a Teams. Para obtener información sobre las ventajas y requisitos de Operator Connect, consulta [Planificar Operator Connect](operator-connect-plan.md).
+- [**Sistema telefónico con su propio operador RTC mediante operador Connect**](operator-connect-plan.md). Con Operador Connect, si su operador existente participa en el programa Microsoft Operator Connect, podrá administrar el servicio para llevar las llamadas RTC a Teams. 
+
+- [**Sistema telefónico con su propio operador de telefonía móvil RTC mediante Operador de conexión móvil**](operator-connect-mobile-plan.md) **versión de revisión pública**. Con Operador de conexión móvil, si su operador actual participa en el programa microsoft Operador de conexión móvil, podrá administrar el servicio para usar números de teléfono móviles habilitados para SIM con Teams. 
 
 - [**Sistema telefónico con su propio operador de RTC mediante el enrutamiento directo**](pstn-connectivity.md#phone-system-with-direct-routing) para conectar su entorno local a Teams.
+
 
 Puede elegir una combinación de opciones que le permite diseñar una solución para un entorno complejo o administrar una migración en varios pasos. Más información sobre la migración más adelante.
 

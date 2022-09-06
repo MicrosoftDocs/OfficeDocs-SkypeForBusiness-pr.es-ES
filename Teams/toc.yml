@@ -867,6 +867,12 @@ items:
                 href: operator-connect-plan.md
               - name: Configurar Conexión con operador
                 href: operator-connect-configure.md
+          - name: Operador de conexión móvil
+            items:
+              - name: Planeamiento de Operador de conexión móvil
+                href: operator-connect-mobile-plan.md
+              - name: Configuración de Operador de conexión móvil
+                href: operator-connect-mobile-configure.md
           - name: Enrutamiento directo
             items:
               - name: Novedades
@@ -977,6 +983,8 @@ items:
                 href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
           - name: Administrar números de teléfono para Conexión con operador
             href: operator-connect-configure.md#set-up-phone-numbers
+          - name: Administración de números de teléfono para Operador de conexión móvil
+            href: operator-connect-mobile-configure.md#set-up-phone-numbers
           - name: Administrar números de teléfono para enrutamiento directo
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
           - name: Administración de licencias y números de teléfono
@@ -1321,6 +1329,10 @@ items:
             items:
               - name: Información general sobre la planeación de Salas de Microsoft Teams
                 href: rooms/rooms-plan.md
+              - name: Introducción a las licencias de Salas de Teams
+                href: rooms/rooms-licensing.md
+              - name: licencias del centro de administración de Salas de Teams
+                href: rooms/admin-center-license-overview.md
               - name: Comparación de características de dispositivos de Teams entre Windows y Android
                 href: rooms/teams-devices-feature-comparison.md
               - name: Guía de la sala de reuniones de Teams
@@ -1335,8 +1347,6 @@ items:
                 href: rooms/requirements.md
               - name: Seguridad
                 href: rooms/security.md
-              - name: Licencias en línea
-                href: rooms/rooms-licensing.md
               - name: Administración del plan con Azure Monitor
                 href: rooms/azure-monitor-plan.md
           - name: Implementar

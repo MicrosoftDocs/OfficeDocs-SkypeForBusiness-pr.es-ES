@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: En este artículo se proporciona información general sobre las características compatibles con las pantallas de Microsoft Teams.
-ms.openlocfilehash: 18b8219a3eef391170c7321ae994d79f1b73f016
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8b06078633dd8c7ee43c2ee98ad1f3e4751d3a51
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268775"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606029"
 ---
 # <a name="microsoft-teams-displays"></a>Pantallas de Microsoft Teams
 
@@ -57,14 +57,14 @@ Para administrar los dispositivos de visualización de Teams, en el panel de nav
 
 ## <a name="set-up-hot-desking-on-teams-displays"></a>Configurar el escritorio rápido en pantallas de Teams
 
-El hot desking permite a los usuarios de su organización reservar áreas de trabajo temporales de antemano a través de Teams y Outlook, o desde el propio dispositivo. Cuando el escritorio rápido está habilitado, los usuarios inician sesión en Teams y se muestran con sus credenciales de Microsoft 365 para acceder a sus reuniones, chats y archivos. Al cerrar sesión, toda su información personal se quita del dispositivo.
+El hot desking permite a los usuarios de su organización reservar áreas de trabajo temporales de antemano a través de Teams y Outlook, o desde el propio dispositivo. Cuando la característica de escritorio rápido está habilitada, los usuarios inician sesión en Teams y se muestran con sus credenciales de Microsoft 365 para acceder a sus reuniones, chats y archivos. Al cerrar sesión, toda su información personal se quita del dispositivo.
 
-Para empezar, deberá adquirir licencias de Salas de Microsoft Teams Estándar y crear cuentas de recursos para cada presentación de Teams. Consulte [Crear cuentas de recursos para salas y dispositivos compartidos de Teams](../rooms/with-office-365.md) para crear cuentas de recursos.
+Para empezar, deberá adquirir [licencias de Salas de Microsoft Teams](../rooms/rooms-licensing.md) y crear cuentas de recursos para cada presentación de Teams. Consulte [Crear cuentas de recursos para salas y dispositivos compartidos de Teams](../rooms/with-office-365.md) para crear cuentas de recursos.
 
-Después de crear cuentas de recursos, puede crear y asignar una directiva para habilitar el escritorio rápido. Consulte [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) para obtener más información.
+Después de crear cuentas de recursos, puede crear y asignar una directiva para habilitar el escritorio rápido. Consulte [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy) para obtener más información.
 
 > [!IMPORTANT]
-> Dado que varias personas usan las pantallas de Teams con hot desking en áreas de trabajo compartidas, las reglas de acceso condicional y otras configuraciones de identidad en su entorno, como la autenticación multifactor, pueden afectar a estos dispositivos y causar problemas de inicio de sesión. Para obtener instrucciones sobre cómo proteger los dispositivos compartidos, consulte [Procedimientos recomendados de autenticación para dispositivos Android compartidos de Teams](authentication-best-practices-for-android-devices.md).
+> Dado que varias personas usan las pantallas de Teams con escritorio rápido en áreas de trabajo compartidas, las reglas de acceso condicional y otras configuraciones de identidad en su entorno, como la autenticación multifactor, pueden afectar a estos dispositivos y causar problemas de inicio de sesión. Para obtener instrucciones sobre cómo proteger los dispositivos compartidos, consulte [Procedimientos recomendados de autenticación para dispositivos Android compartidos de Teams](authentication-best-practices-for-android-devices.md).
 
 ## <a name="upgrade-teams-phones-to-teams-displays"></a>Actualizar los teléfonos de Teams a las pantallas de Teams
 

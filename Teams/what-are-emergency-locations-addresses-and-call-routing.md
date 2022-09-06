@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Obtenga información sobre las llamadas de emergencia, incluida información sobre las direcciones de emergencia, el enrutamiento de llamadas de emergencia y las llamadas de emergencia dinámicas.
-ms.openlocfilehash: 934579167acd4904978e897051d9fa6972b9310b
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 2118bfd3f380ac5e5e2773f1f4ccdc703332893a
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681771"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606569"
 ---
 # <a name="manage-emergency-calling"></a>Administrar las llamadas de emergencia
 
@@ -51,21 +51,21 @@ En este artículo se describen conceptos que debe conocer para administrar las l
 - **Dirección registrada** : una dirección de emergencia que se asigna a cada usuario. A veces, una dirección registrada se denomina dirección de emergencia estática o dirección de registro. (Actualmente, las direcciones registradas no son compatibles con el enrutamiento directo. Vuelve pronto para ver si hay actualizaciones).
 
 >[!Note]
->Hay algunas diferencias en la forma de administrar las llamadas de emergencia dependiendo de si usa los planes de llamadas de Microsoft, Conexión con operador o enrutamiento directo para su [conectividad con RTC](pstn-connectivity.md). Estas consideraciones se describen en este artículo.
+>Hay algunas diferencias en la forma de administrar las llamadas de emergencia dependiendo de si usa planes de llamadas de Microsoft, Conexión de operadores, Operador de conexión móvil (versión preliminar pública) o enrutamiento directo para su [conectividad con RTC](pstn-connectivity.md). Estas consideraciones se describen en este artículo.
 
 ## <a name="emergency-address-validation"></a>Validación de dirección de emergencia
 
 Para asignar una dirección de emergencia a un usuario o a un identificador de red, debe asegurarse de que la dirección de emergencia esté marcada como "validada". La validación de dirección garantiza que la dirección sea legítima y que no se pueda modificar después de asignarla.
 
-Si define una dirección de emergencia mediante la característica de búsqueda de la asignación de direcciones en el centro de administración de Teams, la dirección se marcará automáticamente como validada. Como no puede modificar una dirección&mdash;de emergencia validada si cambia el formato o la representación de la dirección, debe crear una nueva dirección con el formato actualizado.
+Si define una dirección de emergencia mediante la característica de búsqueda del mapa de direcciones del Centro de administración de Teams, la dirección se marcará automáticamente como validada. Como no puede modificar una dirección&mdash;de emergencia validada si cambia el formato o la representación de la dirección, debe crear una nueva dirección con el formato actualizado.
 
 ## <a name="emergency-address-geo-codes"></a>Códigos geográficos de direcciones de emergencia
 
 Cada dirección de emergencia puede tener asociado un código geográfico (latitud y longitud). Estos códigos geográficos se usan en algunos países para ayudar a enrutar llamadas de emergencia con ubicaciones dinámicas.
 
-Si define una dirección de emergencia mediante la característica de búsqueda del mapa de direcciones del centro de administración de Teams, el código geográfico se asocia automáticamente a una dirección de emergencia. También puede asociar códigos geográficos a una dirección si define la dirección mediante PowerShell.
+Si define una dirección de emergencia mediante la característica de búsqueda del mapa de direcciones del Centro de administración de Teams, el código geográfico se asocia automáticamente a una dirección de emergencia. También puede asociar códigos geográficos a una dirección si define la dirección mediante PowerShell.
 
-Microsoft recomienda crear direcciones de emergencia mediante la característica de búsqueda de mapas en Teams centro de administración, que garantizará que las direcciones tengan formato, validado y los códigos geográficos adecuados.
+Microsoft recomienda crear direcciones de emergencia mediante la característica de búsqueda de mapas del Centro de administración de Teams, que garantizará que las direcciones tengan el formato, la validación y los códigos geográficos adecuados.
 
 >[!Important]
 >Para asignar una ubicación de emergencia a un identificador de red para llamadas de emergencia dinámicas, la dirección de emergencia debe contener un código geográfico adecuado.
@@ -86,13 +86,13 @@ Cuando la ubicación está asociada al número de teléfono depende del país o 
 
 ### <a name="dynamic-emergency-calling-for-calling-plans"></a>Llamadas de emergencia dinámicas para planes de llamadas
 
-Las llamadas de emergencia dinámicas para planes de llamadas proporcionan la capacidad de configurar y enrutar llamadas de emergencia basadas en la ubicación actual del cliente de Teams. La capacidad de realizar enrutamiento automático al punto de respuesta de seguridad pública (PSAP) adecuado o de notificar al personal de la mesa de seguridad varía según el país de uso del usuario de la Teams.
+Las llamadas de emergencia dinámicas para planes de llamadas proporcionan la capacidad de configurar y enrutar las llamadas de emergencia en función de la ubicación actual del cliente de Teams. La capacidad de realizar un enrutamiento automático al punto de respuesta de seguridad pública (PSAP) adecuado o de notificar al personal de escritorio de seguridad varía según el país de uso del usuario de Teams.
 
 La ubicación dinámica para enrutar llamadas de emergencia se admite en la Estados Unidos tal como se indica a continuación.
 
-- Si un cliente de Teams para un usuario del plan de llamadas Estados Unidos adquiere dinámicamente una dirección de emergencia dentro del Estados Unidos, esa dirección se usa para el enrutamiento de emergencia en lugar de la dirección registrada, y la llamada se enrutará automáticamente al PSAP en el área de servicio de la dirección.
+- Si un cliente de Teams para un usuario de un plan de llamadas Estados Unidos adquiere dinámicamente una dirección de emergencia dentro de la Estados Unidos, esa dirección se usa para el enrutamiento de emergencia en lugar de la dirección registrada, y la llamada se enrutará automáticamente al PSAP en el área de servicio de la dirección.
 
-- Si un cliente de Teams para un usuario del plan de llamadas Estados Unidos no adquiere dinámicamente una dirección de emergencia dentro de la Estados Unidos, la dirección de emergencia registrada se usa para ayudar a mostrar y enrutar la llamada. Sin embargo, la llamada se comprobará para determinar si es necesaria una dirección actualizada antes de conectar al autor de la llamada al PSAP adecuado.
+- Si un cliente de Teams para un usuario de un plan de llamadas Estados Unidos no adquiere dinámicamente una dirección de emergencia dentro de la Estados Unidos, la dirección de emergencia registrada se usa para ayudar a mostrar y enrutar la llamada. Sin embargo, la llamada se comprobará para determinar si es necesaria una dirección actualizada antes de conectar al autor de la llamada al PSAP adecuado.
 
 La ubicación dinámica para enrutar llamadas de emergencia es compatible en Canadá igual que en la Estados Unidos, con la excepción siguiente: todas las llamadas de emergencia se realizarán en el país antes de transferirse al PSAP.
 
@@ -135,33 +135,33 @@ Para obtener más información, vea:
 - [Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
-## <a name="considerations-for-operator-connect"></a>Consideraciones para Conexión con operador
+## <a name="considerations-for-operator-connect"></a>Consideraciones para Operator Connect
 
-En las siguientes secciones se describe cómo administrar las llamadas de emergencia para los usuarios de Conexión con operador. Para averiguar si Conexión con operador es la solución adecuada para su empresa, consulte [Opciones de conectividad con RTC](pstn-connectivity.md).
+En las siguientes secciones se describe cómo administrar las llamadas de emergencia para los usuarios de Operator Connect. Para averiguar si Operator Connect es la solución adecuada para su empresa, consulte Opciones de [conectividad con RTC](pstn-connectivity.md).
 
-### <a name="emergency-call-enablement-for-operator-connect"></a>Habilitación de llamadas de emergencia para Conexión con operador
+### <a name="emergency-call-enablement-for-operator-connect"></a>Habilitación de llamadas de emergencia para Operador Connect
 
-Cada usuario Conexión con operador se habilita automáticamente para las llamadas de emergencia. Las llamadas de emergencia se redirigen automáticamente al Conexión con operador operador para un número determinado.
+Cada usuario de Operator Connect se habilita automáticamente para las llamadas de emergencia. Las llamadas de emergencia se redirigen automáticamente al operador Operator Connect para un número determinado.
 
-La posibilidad de que un administrador de inquilinos establezca la dirección registrada de un usuario Conexión con operador dependerá de las capacidades asignadas al número cuando el operador las cargue en un inventario de clientes. En función de esta configuración, el Administrador de inquilinos puede o no ser necesario o no ser capaz&mdash;&mdash;de establecer, modificar o eliminar la ubicación de emergencia de un usuario.
+La posibilidad de que un administrador de inquilinos establezca la dirección registrada de un usuario de Operator Connect dependerá de las capacidades asignadas al número cuando el operador las cargue en un inventario de clientes. En función de esta configuración, el administrador de inquilinos puede o no ser necesario&mdash;o no poder&mdash;establecer, modificar o eliminar la ubicación de emergencia de un usuario.
 
-### <a name="dynamic-emergency-calling-for-operator-connect"></a>Llamadas de emergencia dinámicas para Conexión con operador
+### <a name="dynamic-emergency-calling-for-operator-connect"></a>Llamadas de emergencia dinámicas para operador Connect
 
-Las llamadas de emergencia dinámicas para Conexión con operador proporcionan la capacidad de configurar y enrutar llamadas de emergencia en función de la ubicación actual del cliente de Teams. La capacidad de realizar enrutamiento automático al punto de respuesta de seguridad pública (PSAP) adecuado o de notificar al personal de la mesa de seguridad varía según el país de uso del usuario de la Teams.
+Las llamadas de emergencia dinámicas de Operador Connect permiten configurar y enrutar llamadas de emergencia en función de la ubicación actual del cliente de Teams. La capacidad de realizar un enrutamiento automático al punto de respuesta de seguridad pública (PSAP) adecuado o de notificar al personal de escritorio de seguridad varía según el país de uso del usuario de Teams.
 
 La ubicación dinámica para enrutar llamadas de emergencia se admite en la Estados Unidos tal como se indica a continuación.
 
 - Si un cliente de Teams para un usuario de Estados Unidos adquiere dinámicamente una dirección de emergencia dentro de la Estados Unidos, esa dirección se usa para el enrutamiento de emergencia en lugar de la dirección registrada, y la llamada se enrutará automáticamente al PSAP en el área de servicio de la dirección.
 
-- Si un cliente de Teams para un usuario Estados Unidos no adquiere dinámicamente una dirección de emergencia dentro de la Estados Unidos, la dirección de emergencia registrada se usa para ayudar a pantalla y enrutar la llamada. Sin embargo, la llamada se comprobará para determinar si es necesaria una dirección actualizada antes de conectar al autor de la llamada al PSAP adecuado.
+- Si un cliente de Teams para un usuario de Estados Unidos no adquiere dinámicamente una dirección de emergencia dentro de la Estados Unidos, la dirección de emergencia registrada se usa para ayudar a mostrar la pantalla y enrutar la llamada. Sin embargo, la llamada se comprobará para determinar si es necesaria una dirección actualizada antes de conectar al autor de la llamada al PSAP adecuado.
 
 La ubicación dinámica para enrutar llamadas de emergencia es compatible en Canadá igual que en la Estados Unidos con las siguientes excepciones: todas las llamadas de emergencia se analizan a nivel nacional antes de transferirse al PSAP.
 
 Para obtener más información, consulte [Planear y configurar llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md).
 
-### <a name="emergency-call-routing-for-operator-connect"></a>Enrutamiento de llamadas de emergencia para Conexión con operador
+### <a name="emergency-call-routing-for-operator-connect"></a>Enrutamiento de llamadas de emergencia para Operador Connect
 
-Cuando un usuario de Teams Conexión con operador marca un número de emergencia, la manera en que la llamada se enruta al PSAP depende de lo siguiente:
+Cuando un usuario de Teams Operator Connect marca un número de emergencia, la manera en que la llamada se enruta al PSAP depende de lo siguiente:
 
 - Si el cliente de Teams determina dinámicamente la dirección de emergencia.
 
@@ -171,7 +171,7 @@ Cuando un usuario de Teams Conexión con operador marca un número de emergencia
 
 - En el Estados Unidos y Canadá, el enrutamiento dinámico forma parte del servicio del operador. No es necesario adquirir este servicio de otro proveedor de servicios.
 
-- Si un cliente de Teams se encuentra en una ubicación de emergencia dinámica definida por el inquilino:
+- Si un cliente de Teams se encuentra en una ubicación dinámica de emergencia definida por el inquilino:
   - En la Estados Unidos, las llamadas de emergencia de ese cliente se enrutan automáticamente al PSAP que sirve esa ubicación geográfica.
   - En Canadá, todas las llamadas de emergencia las realizará un centro de llamadas nacional antes de transferir la llamada al PSAP que sirva en esa ubicación geográfica.
 
@@ -179,31 +179,82 @@ Cuando un usuario de Teams Conexión con operador marca un número de emergencia
 
 - Si un autor de la llamada de emergencia no puede actualizar su ubicación de emergencia al centro de detección, la llamada se transferirá al PSAP que sirva la dirección registrada del autor de la llamada.
 
+## <a name="considerations-for-operator-connect-mobile"></a>Consideraciones para Operador de conexión móvil
+
+En las siguientes secciones se describe cómo administrar las llamadas de emergencia para los usuarios de Operador de conexión móvil. Para averiguar si Operador de conexión móvil es la solución adecuada para su empresa, consulte [Opciones de conectividad con RTC](pstn-connectivity.md).
+
+**Operador de conexión móvil es una versión preliminar pública.**
+
+### <a name="emergency-call-enablement-for-operator-connect-mobile"></a>Habilitación de llamadas de emergencia para Operador de conexión móvil
+
+Cada usuario Operador de conexión móvil se habilita automáticamente para las llamadas de emergencia. Las llamadas de emergencia se redirigen automáticamente al Operador de conexión móvil operador para un número determinado.
+
+La capacidad de un administrador de inquilinos para establecer la dirección registrada de un usuario Operador de conexión móvil dependerá de las capacidades asignadas al número cuando el operador las cargue en un inventario de clientes. En función de esta configuración, el administrador de inquilinos puede o no ser necesario (o no) para establecer, modificar o eliminar la ubicación de emergencia de un usuario.
+
+Cuando las llamadas realizadas a través del marcador nativo del smartphone habilitado para SIM, el operador puede usar las coordenadas geográficas o la torre de telefonía móvil que gestiona la llamada a una ubicación aproximada de emergencia para obtener asistencia.
+
+### <a name="dynamic-emergency-calling-for-operator-connect-mobile"></a>Llamadas de emergencia dinámicas para Operador de conexión móvil
+
+Las llamadas de emergencia dinámicas de Operador Connect permiten configurar y enrutar llamadas de emergencia en función de la ubicación actual del cliente de Teams. La capacidad de realizar un enrutamiento automático al punto de respuesta de seguridad pública (PSAP) adecuado o de notificar al personal de escritorio de seguridad varía según el país de uso del usuario de Teams.
+
+La ubicación dinámica para enrutar llamadas de emergencia se admite en la Estados Unidos tal como se indica a continuación.
+
+- Si un cliente de Teams para un usuario de Estados Unidos adquiere dinámicamente una dirección de emergencia dentro de la Estados Unidos, esa dirección se usa para el enrutamiento de emergencia en lugar de la dirección registrada, y la llamada se enrutará automáticamente al PSAP en el área de servicio de la dirección.
+
+- Si un cliente de Teams para un usuario de Estados Unidos no adquiere dinámicamente una dirección de emergencia dentro de la Estados Unidos, la dirección de emergencia registrada se usa para ayudar a mostrar la pantalla y enrutar la llamada. Sin embargo, la llamada se comprobará para determinar si es necesaria una dirección actualizada antes de conectar al autor de la llamada al PSAP adecuado.
+
+La ubicación dinámica para enrutar llamadas de emergencia es compatible en Canadá igual que en la Estados Unidos con las siguientes excepciones: todas las llamadas de emergencia se analizan a nivel nacional antes de transferirse al PSAP.
+
+Para obtener más información, consulte [Planear y configurar llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md).
+
+### <a name="emergency-call-routing-for-operator-connect-mobile"></a>Enrutamiento de llamadas de emergencia para Operador de conexión móvil
+
+Cuando un usuario de Teams Operador de conexión móvil marca un número de emergencia con un cliente de Microsoft Teams, la forma en que la llamada se enruta al PSAP depende de lo siguiente:
+
+- Si el cliente de Teams determina dinámicamente la dirección de emergencia.
+
+- Si la dirección de emergencia es la dirección registrada asociada con el número de teléfono del usuario.
+
+- La red de llamadas de emergencia de ese país.
+
+- En el Estados Unidos y Canadá, el enrutamiento dinámico forma parte del servicio del operador. No es necesario adquirir este servicio de otro proveedor de servicios.
+
+- Si un cliente de Teams se encuentra en una ubicación dinámica de emergencia definida por el inquilino:
+  - En la Estados Unidos, las llamadas de emergencia de ese cliente se enrutan automáticamente al PSAP que sirve esa ubicación geográfica.
+  - En Canadá, todas las llamadas de emergencia las realizará un centro de llamadas nacional antes de transferir la llamada al PSAP que sirva en esa ubicación geográfica.
+
+- Si un cliente de Teams no se encuentra en una ubicación de emergencia dinámica definida por el inquilino, un centro de llamadas nacional examina las llamadas de emergencia de ese cliente para determinar la ubicación del autor de la llamada antes de transferirla al PSAP que sirve esa ubicación geográfica.
+
+- Si un autor de la llamada de emergencia no puede actualizar su ubicación de emergencia al centro de detección, la llamada se transferirá al PSAP que sirva la dirección registrada del autor de la llamada.
+
+Su operador de telefonía móvil administra todas las llamadas de emergencia realizadas a través del marcador nativo de su SIM-Enabled Smartphone y puede usar varias tecnologías para aproximar la ubicación de emergencia para obtener asistencia, como coordenadas geográficas o las torres de telefonía móvil que se encargan de la llamada, etc. Ponte en contacto con tu operador para obtener más información.
+
+
 ## <a name="considerations-for-direct-routing"></a>Consideraciones para el enrutamiento directo
 
 En las siguientes secciones se describe cómo administrar las llamadas de emergencia de los usuarios de Enrutamiento directo. Para averiguar si el enrutamiento directo es la solución adecuada para su empresa, consulte [Opciones de conectividad con RTC](pstn-connectivity.md).
 
 ### <a name="emergency-call-enablement-for-direct-routing"></a>Habilitación de llamadas de emergencia para enrutamiento directo
 
-Para el enrutamiento directo, debe definir directivas de llamadas de emergencia para los usuarios mediante una [directiva de enrutamiento de llamadas de emergencia de Teams](manage-emergency-call-routing-policies.md) para definir los números de emergencia y su destino de enrutamiento asociado. (Actualmente, las ubicaciones de emergencia registradas no son compatibles con los usuarios de enrutamiento directo).
+Para el enrutamiento directo, debe definir las directivas de llamadas de emergencia para los usuarios mediante una [directiva de enrutamiento de llamadas de emergencia de Teams](manage-emergency-call-routing-policies.md) para definir los números de emergencia y el destino de enrutamiento asociado. (Actualmente, las ubicaciones de emergencia registradas no son compatibles con los usuarios de enrutamiento directo).
 
-Puede asignar una directiva de enrutamiento de llamadas de emergencia a una cuenta de usuario de Enrutamiento directo, a un sitio de red o a ambos. Cuando un cliente de Teams inicia o cambia una conexión de red, Teams realiza una búsqueda del sitio de red donde se encuentra el cliente de la siguiente manera:
+Puede asignar una directiva de enrutamiento de llamadas de emergencia a una cuenta de usuario de Enrutamiento directo, a un sitio de red o a ambos. Cuando un cliente de Teams inicia o cambia una conexión de red, Teams realiza una búsqueda del sitio de red en el que se encuentra el cliente de la siguiente manera:
 
 - Si una directiva de enrutamiento de llamadas de emergencia está asociada al sitio, la directiva del sitio se usa para configurar las llamadas de emergencia.
 
 - Si no hay ninguna directiva de enrutamiento de llamadas de emergencia asociada con el sitio, si el cliente está conectado a un sitio no definido o si el número marcado no coincide con ninguno de los números de emergencia definidos en la directiva de enrutamiento de llamadas de emergencia asociada al sitio, la directiva de enrutamiento de llamadas de emergencia asociada a la cuenta de usuario se usa para configurar las llamadas de emergencia.
 
-- Si el cliente de Teams no puede obtener una directiva de enrutamiento de llamadas de emergencia, entonces el usuario no está habilitado para las llamadas de emergencia.
+- Si el cliente de Teams no puede obtener una directiva de enrutamiento de llamadas de emergencia, el usuario no está habilitado para las llamadas de emergencia.
 
 ### <a name="dynamic-emergency-calling-for-direct-routing"></a>Llamadas de emergencia dinámicas para enrutamiento directo
 
-Las llamadas de emergencia dinámicas para enrutamiento directo proporcionan la capacidad de configurar y enrutar las llamadas de emergencia en función de la ubicación actual del cliente de Teams. La capacidad de realizar enrutamiento automático al punto de respuesta de seguridad pública (PSAP) adecuado o de notificar al personal de la mesa de seguridad varía según el país de uso del usuario de la Teams.
+Las llamadas de emergencia dinámicas para enrutamiento directo proporcionan la capacidad de configurar y enrutar llamadas de emergencia en función de la ubicación actual del cliente de Teams. La capacidad de realizar un enrutamiento automático al punto de respuesta de seguridad pública (PSAP) adecuado o de notificar al personal de escritorio de seguridad varía según el país de uso del usuario de Teams.
 
 Para los usuarios de enrutamiento directo, la ubicación dinámica para enrutar llamadas de emergencia solo se admite en los Estados Unidos siguientes:
 
-- Si un cliente de Teams para un usuario de enrutamiento directo de Estados Unidos adquiere dinámicamente una dirección de emergencia dentro de la Estados Unidos, esa dirección se usa para el enrutamiento de emergencia y la llamada se enrutará automáticamente al PSAP en el área de servicio de la dirección.
+- Si un cliente de Teams para un usuario de enrutamiento directo Estados Unidos adquiere dinámicamente una dirección de emergencia dentro de la Estados Unidos, esa dirección se usa para el enrutamiento de emergencia y la llamada se enrutará automáticamente al PSAP en el área de servicio de la dirección.
 
-- Si un cliente de Teams para un usuario de enrutamiento directo de Estados Unidos no adquiere dinámicamente una dirección de emergencia dentro de la Estados Unidos, la llamada se detectará para determinar si es necesaria una dirección actualizada antes de conectar al autor de la llamada al PSAP adecuado.
+- Si un cliente de Teams para un usuario de enrutamiento directo de Estados Unidos no adquiere dinámicamente una dirección de emergencia dentro de la Estados Unidos, la llamada se mostrará en pantalla para determinar si es necesaria una dirección actualizada antes de conectar al autor de la llamada al PSAP adecuado.
 
 La ubicación dinámica para enrutar llamadas de emergencia es compatible en Canadá igual que en la Estados Unidos, con la excepción siguiente: todas las llamadas de emergencia se realizarán en el país antes de transferirse al PSAP.
 
@@ -214,7 +265,7 @@ Para obtener más información, consulte [Configurar llamadas de emergencia din�
 La directiva de enrutamiento de llamadas de emergencia para enrutamiento directo hace referencia a un uso de RTC en línea, que debe tener la configuración de enrutamiento directo adecuada para redirigir correctamente las llamadas de emergencia a las puertas de enlace RTC adecuadas. En particular, debe asegurarse de que hay un OnlineVoiceRoute para la cadena de marcado de emergencia. Para obtener más información, consulte [Configurar enrutamiento directo](direct-routing-configure.md).
 
 > [!NOTE]
-> Teams clientes ya no anteponen el signo "+" delante de los números de emergencia (es decir, +911). Por lo tanto, Teams llamadas de emergencia ya no enviarán un "+" antes del número 911. Asegúrese de que los patrones de ruta de voz reflejen este cambio.
+> Los clientes de Teams ya no anteponen el signo "+" delante de los números de emergencia; es decir, +911. Por lo tanto, las llamadas de emergencia de Teams ya no enviarán un "+" antes del número 911. Asegúrese de que los patrones de ruta de voz reflejen este cambio.
 
 La capacidad de enrutar de forma dinámica las llamadas de emergencia para los usuarios de enrutamiento directo varía según la red de llamadas de emergencia de un país determinado. Hay dos soluciones disponibles:
 
@@ -233,7 +284,7 @@ Para obtener más información, consulte [Controladores de borde de sesión cert
 
 #### <a name="emergency-location-identification-number-applications"></a>Aplicaciones de número de identificación de ubicación de emergencia
 
-Los controladores de borde de sesión (SBCs) pueden incluir aplicaciones de número de identificación de ubicación de emergencia (ELIN). Si una aplicación ELIN de SBC está integrada en una implementación de enrutamiento directo, debe configurar las direcciones de emergencia y los números de teléfono asociados en la aplicación ELIN y, después, cargar los registros ELIN en la base de datos de llamadas de emergencia en la respectiva RTC. Teams ubicaciones de emergencia con un identificador ELIN deben coincidir con las de la aplicación ELIN.
+Los controladores de borde de sesión (SBCs) pueden incluir aplicaciones de número de identificación de ubicación de emergencia (ELIN). Si una aplicación ELIN de SBC está integrada en una implementación de enrutamiento directo, debe configurar las direcciones de emergencia y los números de teléfono asociados en la aplicación ELIN y, después, cargar los registros ELIN en la base de datos de llamadas de emergencia en la respectiva RTC. Las ubicaciones de emergencia de Teams con un identificador ELIN deben coincidir con las de la aplicación ELIN.
 
 Cuando una llamada de emergencia con una ubicación adquirida dinámicamente se dirige al SBC adecuado, la aplicación ELIN:
 
@@ -248,9 +299,9 @@ Para obtener más información, consulte [Controladores de borde de sesión cert
 
 ## <a name="security-desk-notification"></a>Notificación de escritorio de seguridad
 
-La notificación de escritorio de seguridad está disponible con los planes de llamadas de Microsoft, Conexión con operador y enrutamiento directo.
+La notificación del departamento de seguridad está disponible tanto con los planes de llamadas de Microsoft como con la conexión del operador y el enrutamiento directo.
 
-Use una directiva de llamadas de emergencia Teams (TeamsEmergencyCallingPolicy) para configurar a quién se le notificará durante una llamada de emergencia y cómo se le notificará: solo chat, conferencias y silenciadas, conferencias y silenciadas, pero con la capacidad de reactivar el audio. También puede especificar un número RTC externo de un usuario o grupo para llamar y unirse a la llamada de emergencia. Tenga en cuenta que la parte RTC no puede reactivar el audio.
+Use una directiva de llamadas de emergencia de Teams (TeamsEmergencyCallingPolicy) para configurar a quién se le notificará durante una llamada de emergencia y cómo se le notificará: solo chat, conferencias y silenciadas, conferencias en y silenciadas, pero con la capacidad de reactivar el audio. También puede especificar un número RTC externo de un usuario o grupo para llamar y unirse a la llamada de emergencia. Tenga en cuenta que la parte RTC no puede reactivar el audio.
 
 Se puede conceder una directiva de llamadas de emergencia a una cuenta de usuario de Teams, asignada a un sitio de red o a ambos.  Cuando un cliente de Teams inicia o cambia una conexión de red, Teams realiza una búsqueda del sitio de red donde se encuentra el cliente:
 
@@ -258,9 +309,9 @@ Se puede conceder una directiva de llamadas de emergencia a una cuenta de usuari
 
 - Si no hay ninguna directiva de llamadas de emergencia asociada al sitio o si el cliente está conectado a un sitio no definido, la directiva de llamadas de emergencia asociada a la cuenta de usuario se usa para configurar la notificación de escritorio de seguridad.
 
-- Si el cliente Teams no puede obtener una directiva de llamadas de emergencia, el usuario no está habilitado para la notificación de escritorio de seguridad.
+- Si el cliente de Teams no puede obtener una directiva de llamadas de emergencia, el usuario no está habilitado para la notificación de escritorio de seguridad.
 
-Durante una llamada de emergencia, se conferencia un escritorio de seguridad en la llamada y la experiencia del usuario del escritorio de seguridad se controla en función de la directiva de llamadas de emergencia Teams. Se inicia un chat grupal con cada miembro del servicio de seguridad y la ubicación del autor de la llamada de emergencia se comparte a través de una notificación de mensaje importante.  Si se configura una opción de conferencia como parte de la directiva, se llama también a cada usuario del departamento de seguridad como parte de la conferencia.
+Durante una llamada de emergencia, se conferencia un servicio de seguridad en la llamada y la experiencia del usuario del departamento de seguridad se controla en función de la directiva de llamadas de emergencia de Teams. Se inicia un chat grupal con cada miembro del servicio de seguridad y la ubicación del autor de la llamada de emergencia se comparte a través de una notificación de mensaje importante.  Si se configura una opción de conferencia como parte de la directiva, se llama también a cada usuario del departamento de seguridad como parte de la conferencia.
 
 ### <a name="custom-emergency-disclaimer"></a>Declinación de responsabilidades de emergencia personalizada
 

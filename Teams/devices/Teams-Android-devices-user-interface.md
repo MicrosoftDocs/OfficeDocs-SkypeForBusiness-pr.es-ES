@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Devices
 description: Obtenga información sobre cómo configurar la interfaz de usuario en dispositivos Android de Teams.
-ms.openlocfilehash: 859c1d9d0f7a946f37b53ad81dc2a0637bb26621
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 830609d1bf02c38a2301c0d5a1b9e62ac836c908
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269325"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606839"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>Establecer la interfaz de usuario de dispositivos Android de Microsoft Teams
 
@@ -49,7 +49,7 @@ En esta imagen, a la cuenta de usuario se le ha asignado una [licencia de Teléf
 
 ## <a name="meeting-interface"></a>Interfaz de reunión
 
-Esta imagen muestra una cuenta de usuario con una [licencia de Salas de Microsoft Teams Estándar](/MicrosoftTeams/rooms/rooms-licensing) asignada. Salas de Teams licencias están diseñadas para usarse en salas de reuniones o espacios compartidos, por lo que la interfaz de usuario cambia para que sea más fácil unirse a una reunión mostrando la vista calendario:
+Esta imagen muestra una cuenta de usuario con una [licencia de Salas de Microsoft Teams](/MicrosoftTeams/rooms/rooms-licensing) asignada. Salas de Teams licencias están diseñadas para usarse en salas de reuniones o espacios compartidos, por lo que la interfaz de usuario cambia para que sea más fácil unirse a una reunión mostrando la vista calendario:
 
 :::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="Interfaz de reunión.":::
 
@@ -61,7 +61,7 @@ Esta imagen muestra una cuenta de usuario con una [licencia de Salas de Microsof
 
 ## <a name="override-automatic-user-interface-detection"></a>Invalidar la detección automática de la interfaz de usuario
 
-En algunos casos, puede optar por asignar una licencia a una cuenta que no coincida con su uso previsto. Por ejemplo, puede asignar una licencia de usuario a una cuenta destinada a iniciar sesión en Salas de Teams en Android. De forma predeterminada, vería la interfaz de usuario final en lugar de la interfaz de la sala de reuniones. Para invalidar la interfaz predeterminada, cree una nueva [directiva de teléfono IP de Teams](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) y aplíctela a esa cuenta.
+En algunos casos, puede optar por asignar una licencia a una cuenta que no coincida con su uso previsto. Por ejemplo, puede asignar una licencia de usuario a una cuenta destinada a iniciar sesión en Salas de Teams en Android. De forma predeterminada, vería la interfaz de usuario final en lugar de la interfaz de la sala de reuniones. Para invalidar la interfaz predeterminada, cree una nueva [directiva de teléfono IP de Teams](/powershell/module/skype/new-csteamsipphonepolicy) y aplíctela a esa cuenta.
 
 > [!NOTE]
 > La licencia asignada a la cuenta de usuario debe tener al menos los mismos derechos de licencia que la interfaz de usuario deseada. La licencia del teléfono del área común sólo permite la interfaz de usuario del teléfono del área común. La licencia de la sala de reuniones permite las interfaces de usuario del teléfono de la sala de reuniones y del área común. Una licencia E3 o E5 admite todos los modos de inicio de sesión.

@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: En este artículo se ofrece información general y características compatibles con los paneles de Microsoft Teams.
-ms.openlocfilehash: 745e592e1c8451a47038c33a9f30d29a7a99d63c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d31ac86be9ac00b7aa8a77e37a906b32a00a2095
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268565"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606739"
 ---
 # <a name="microsoft-teams-panels"></a>Paneles de Microsoft Teams
 
@@ -54,7 +54,7 @@ Los requisitos de hardware, software y red para implementar dispositivos de pane
 
 ## <a name="license-requirement"></a>Requisito de licencia
 
-Para usar los paneles de Teams, necesita [Salas de Microsoft Teams Estándar Licencia](../rooms/rooms-licensing.md).
+Para usar los paneles de Teams, necesita una [licencia de Salas de Microsoft Teams](../rooms/rooms-licensing.md).
 
 > [!Note]
 > Si ya ha implementado Salas de Microsoft Teams en el espacio de reunión donde va a instalar los paneles de Teams, no necesita una licencia adicional para usar los paneles de Teams.
@@ -103,11 +103,12 @@ La planificación de la configuración y la implementación abarca las siguiente
 
 Cada dispositivo de paneles de Teams requiere una cuenta de recursos de sala de Microsoft 365. Use las credenciales de la cuenta de recursos para iniciar sesión en la aplicación Microsoft Teams en el dispositivo de paneles.
 
-Para configurar una cuenta de recursos de Microsoft 365 para paneles de Teams, le recomendamos que compre una [licencia de Salas de Microsoft Teams Estándar](#license-requirement). Para obtener información sobre cómo crear una cuenta de recursos y asignarle una licencia, vea [Crear cuentas de recursos para salas y dispositivos compartidos de Teams](../rooms/with-office-365.md).
+Para configurar una cuenta de recursos de Microsoft 365 para paneles de Teams, debe comprar una [licencia de Salas de Microsoft Teams](#license-requirement).
+Para obtener información sobre cómo crear una cuenta de recursos y asignarle una licencia, vea [Crear cuentas de recursos para salas y dispositivos compartidos de Teams](../rooms/with-office-365.md).
 
 > [!NOTE]
 >
->- Si ya tiene configurada una cuenta de recursos de sala para el espacio de reunión en el que está instalando paneles, use la misma cuenta de recursos de sala para iniciar sesión en el dispositivo de paneles. Sin embargo, asegúrese de que la cuenta de recursos de sala tiene asignada la licencia de Salas de Microsoft Teams Estándar para usarla como cuenta de recursos de grupos especiales.
+>- Si ya tiene configurada una cuenta de recursos de sala para el espacio de reunión en el que está instalando paneles, use la misma cuenta de recursos de sala para iniciar sesión en el dispositivo de paneles. Sin embargo, asegúrese de que la cuenta de recursos de sala tiene asignada una licencia de Salas de Microsoft Teams para usarla como cuenta de recursos de grupos especiales.
 >
 >- Si ya tiene un Salas de Microsoft Teams implementado en el espacio de reunión donde va a instalar los paneles de Teams, no es necesario comprar una licencia independiente para implementar paneles. El administrador inicia sesión en el dispositivo de paneles con las mismas credenciales que el Salas de Microsoft Teams para el mismo espacio.
 >

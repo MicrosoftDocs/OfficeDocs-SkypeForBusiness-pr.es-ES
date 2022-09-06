@@ -9,7 +9,7 @@
 5. Para asignar o cambiar la ubicación de emergencia asociada, en **Ubicación de emergencia**, busque y seleccione la ubicación.
 
    > [!NOTE]
-   > Si va a asignar números a usuarios de Operator Connect, puede o no poder asignar o cambiar la ubicación de emergencia asociada. Esta funcionalidad dependerá de tu operador. Ponte en contacto con tu operador para obtener más información.
+   > Si va a asignar números a Operador Connect o Operador de conexión móvil usuarios, puede o no poder asignar o cambiar la ubicación de emergencia asociada. Esta funcionalidad dependerá de tu operador. Ponte en contacto con tu operador para obtener más información.
 
 6. Dependiendo de si desea enviar un correo electrónico al usuario con su información de número de teléfono, desactive o active **Email usuario con información de número de teléfono**. De forma predeterminada, esta opción está activada.
 7. Haga clic en **Guardar**.

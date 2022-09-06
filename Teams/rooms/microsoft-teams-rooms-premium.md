@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre el servicio administrado Salas de Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269585"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606289"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Salas de Microsoft Teams servicio administrado
 
@@ -110,11 +110,11 @@ Para obtener más información sobre la Salas de Microsoft Teams cobertura de so
 
 ## <a name="supported-regions"></a>Regiones admitidas
 
-La licencia de Salas de Microsoft Teams Premium está disponible en los siguientes países con audioconferencia:
+La licencia de Salas de Microsoft Teams Pro está disponible en los siguientes países con audioconferencia:
 
 - Alemania, Australia, Austria, Bélgica, Brasil, Bulgaria, Canadá, Croacia, Chipre, Dinamarca, Estonia, Finlandia, Francia, Alemania, Grecia, RAE de Hong Kong, Hungría, Irlanda, Italia, Japón, Letonia, Lituania, Luxemburgo, Malta, México, Mónaco, Noruega, Nueva Zelanda, Polonia, Portugal, Rumania, Rusia, Singapur, Eslovaquia, Eslovenia, Sudáfrica, España, Suecia, Suiza, Reino Unido, Taiwán Estados Unidos.
 
-La licencia de Salas de Microsoft Teams Premium está disponible en los siguientes países sin audioconferencia:
+La licencia de Salas de Microsoft Teams Pro está disponible en los siguientes países sin audioconferencia:
 
 - Andorra, isla Bouvet, isla de Navidad, Islas Cocos (Keeling), Islas Cook, Islas Feroe, Fiyi, Gibraltar, Groenlandia, Islas Heard y McDonald, Islandia, India, Kiribati, Lesotho, Liechtenstein, RAE de Macao, Islas Marshall, Micronesia, Nauru, Niue, Isla Norfolk, Islas Marianas del Norte, Palau, Papúa Nueva Guinea, Islas Pitcairn, Saint Pierre y Miquelon, Samoa, San Marino, Islas Salomón, Suazilandia, Tokelau, Tonga, Tuvalu,  Vanuatu, Ciudad del Vaticano, Wallis y Futuna.
 
