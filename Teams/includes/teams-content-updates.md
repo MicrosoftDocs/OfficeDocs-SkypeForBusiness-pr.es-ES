@@ -3,6 +3,29 @@
 
 
 
+## <a name="week-of-august-29-2022"></a>Semana del 29 de agosto de 2022
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 8/29/2022 | [Conmutación por error de tronco en llamadas salientes](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | modificado |
+| 8/29/2022 | [Planear un cambio correcto de Kaizala a Microsoft Teams](/MicrosoftTeams/plan-your-move-kaizala) | modificado |
+| 8/29/2022 | [Administración de números de teléfono para México](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-mexico) | agregado |
+| 8/30/2022 | [Tienda de dispositivos de Teams](/MicrosoftTeams/devices/device-store) | modificado |
+| 8/30/2022 | [Teléfono Microsoft Teams licencias de cuenta de recursos](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | modificado |
+| 8/30/2022 | [Administrar quién puede iniciar reuniones instantáneas y programar reuniones](/MicrosoftTeams/manage-who-can-schedule-meetings) | agregado |
+| 8/30/2022 | [Grabación de reuniones en la nube de Teams](/MicrosoftTeams/cloud-recording) | modificado |
+| 8/30/2022 | Directivas de reunión y expiración de reuniones en Microsoft Teams | eliminado |
+| 8/30/2022 | [Administrar las directivas de reunión para la grabación y la transcripción](/MicrosoftTeams/meetings-policies-recording-and-transcription) | modificado |
+| 8/30/2022 | [Usar OneDrive para la Empresa y SharePoint para grabar las reuniones](/MicrosoftTeams/tmr-meeting-recording-change) | modificado |
+| 8/31/2022 | [Recursos de aprendizaje de Administración: Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modificado |
+| 8/31/2022 | [Recursos para la integración de Entrenador profesional en Microsoft Teams](/MicrosoftTeams/career-coach-resources) | modificado |
+| 8/31/2022 | [Personalizar la tienda de aplicaciones en Teams](/MicrosoftTeams/customize-your-app-store) | modificado |
+| 9/1/2022 | [Administrar Microsoft 365 para su organización con la aplicación de Administración en Microsoft Teams](/MicrosoftTeams/manage-admin-app) | agregado |
+| 9/2/2022 | [Notas de la versión para Salas de Microsoft Teams (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
+| 9/2/2022 | [Administrar de forma remota la configuración de Salas de Microsoft Teams dispositivo](/MicrosoftTeams/rooms/xml-config-file) | modificado |
+
+
 ## <a name="week-of-august-22-2022"></a>Semana del 22 de agosto de 2022
 
 
@@ -201,26 +224,3 @@
 | 8/4/2022 | [Extensión de aplicación móvil](/MicrosoftTeams/rooms/extended-mobile-app) | modificado |
 | 8/5/2022 | [Administrar etiquetas en Microsoft Teams](/MicrosoftTeams/manage-tags) | modificado |
 | 8/5/2022 | [Planear puerta de enlace SIP](/MicrosoftTeams/sip-gateway-plan) | modificado |
-
-
-## <a name="week-of-july-25-2022"></a>Semana del 25 de julio de 2022
-
-
-| Fecha de publicación |Título del tema | Cambio |
-|------|------------|--------|
-| 7/25/2022 | [Números de teléfono y cambios en las licencias](/MicrosoftTeams/phone-numbers-licensing-changes) | agregado |
-| 7/25/2022 | [Directivas de reunión y expiración de reuniones en Microsoft Teams](/MicrosoftTeams/meeting-expiration) | modificado |
-| 7/25/2022 | [Inscribir un dispositivo de sala de Teams en Servicios administrados](/MicrosoftTeams/rooms/enroll-a-device) | modificado |
-| 7/25/2022 | [Registros y seguimiento del explorador para Teams](/MicrosoftTeams/browser-logs-and-tracing-for-teams) | agregado |
-| 7/25/2022 | [Configurar archivos de registro para supervisar y solucionar problemas en Teams](/MicrosoftTeams/log-files) | modificado |
-| 7/26/2022 | [Recursos para la integración de Entrenador profesional en Microsoft Teams](/MicrosoftTeams/career-coach-resources) | agregado |
-| 7/26/2022 | [Configurar entrenador profesional para Microsoft Teams](/MicrosoftTeams/career-coach-set-up-steps) | agregado |
-| 7/26/2022 | [Solucionar problemas del entrenador profesional de Microsoft Teams](/MicrosoftTeams/career-coach-troubleshoot) | agregado |
-| 7/26/2022 | [Errores de canales compartidos en Microsoft Teams](/MicrosoftTeams/shared-channels-errors) | agregado |
-| 7/26/2022 | [Introducción al Entrenador profesional de Microsoft Teams](/MicrosoftTeams/career-coach) | modificado |
-| 7/26/2022 | [Introducción al Entrenador profesional de Microsoft Teams](/MicrosoftTeams/cloud-recording) | modificado |
-| 7/26/2022 | [Usar el acceso de invitados y el acceso externo para colaborar con personas fuera de su organización](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modificado |
-| 7/26/2022 | [Administración de partners para clientes](/MicrosoftTeams/rooms/multi-tenant-management-customer) | modificado |
-| 7/26/2022 | [Administración de clientes multiempresa para partners](/MicrosoftTeams/rooms/multi-tenant-management-partner) | modificado |
-| 7/26/2022 | [Asignar licencias de complementos de Teams a usuarios](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | modificado |
-| 7/29/2022 | [Administrar los números de teléfono para su organización](/MicrosoftTeams/manage-phone-numbers-landing-page) | modificado |
