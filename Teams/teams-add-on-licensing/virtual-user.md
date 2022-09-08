@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - admindeeplinkMAC
 description: Obtenga información sobre cómo asignar licencias de Teléfono Microsoft Teams cuenta de recursos a cuentas de recursos para operadores automáticos y colas de llamadas de su organización.
-ms.openlocfilehash: 348317ca659e03a9dacf8eaae603cff52a009912
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: 56b461c2de32f32dd51d72c5468e31f51b107310
+ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465988"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67630430"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>Teléfono Microsoft Teams licencias de cuenta de recursos
 
@@ -43,7 +43,7 @@ Por cada 10 licencias de usuario de **Teléfono Teams Estándar** o **Teléfono 
 
 ### <a name="license-allocation-example"></a>Ejemplo de asignación de licencias
 
-Contoso, Inc. compró 600 licencias que incluyen Phone System (una para cada empleado). Contoso tiene asignadas 25 licencias iniciales más 60 licencias de cuenta de recursos **de teléfono de Teams** , 85 en total. Su organización tiene 90 colas de llamadas y operadores automáticos que tienen números de teléfono. Deben asignar todas las licencias de la **cuenta de recursos de Teléfono de Teams** y comprar cinco licencias de **cuenta de recursos de teléfono de Teams** adicionales. 
+Contoso, Inc. compró 600 licencias que incluyen Phone System (una para cada empleado). Contoso tiene asignadas 25 licencias iniciales más 60 licencias de cuenta de recursos **de teléfono de Teams** , 85 en total. Su organización tiene 90 colas de llamadas y operadores automáticos. Deben asignar todas las licencias de la **cuenta de recursos de Teléfono de Teams** y comprar cinco licencias de **cuenta de recursos de teléfono de Teams** adicionales. 
 
 ## <a name="how-to-obtain-microsoft-teams-phone-resource-account-licenses"></a>Cómo obtener licencias de Teléfono Microsoft Teams cuenta de recursos
 
