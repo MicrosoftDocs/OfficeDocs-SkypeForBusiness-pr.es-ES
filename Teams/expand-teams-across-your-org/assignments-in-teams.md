@@ -17,16 +17,16 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: Obtenga información sobre cómo administrar tareas en el centro de administración de Microsoft Teams de Teams para Educación.
+description: Obtenga información sobre cómo administrar tareas en el Centro de administración de Microsoft Teams en Teams para Educación.
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed8b01b683d201bc26dec3d220c94fbc12e76f1c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 91afcd8036cddfae2550aaddad776958ca413a78
+ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674672"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67624300"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
 
@@ -35,11 +35,11 @@ Las características Tareas y calificaciones de Teams para Educación permiten a
 [Obtenga más información sobre Tareas y calificaciones en Teams para Educación](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
 
 > [!Note]
-> Para obtener más información sobre Teams tareas en distintas plataformas, vea [Teams características por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> Para obtener más información sobre las tareas de Teams en distintas plataformas, consulte [Características de Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Integraciones de tareas en el centro de administración de Microsoft Teams
+## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Integraciones de tareas en el Centro de administración de Microsoft Teams
 
-Con la configuración de administrador del centro de administración de Microsoft Teams, puede activar o desactivar las características para los formadores de su organización y sus alumnos. A continuación, se muestran las opciones relacionadas con las tareas:
+Con la configuración de administrador del Centro de administración de Microsoft Teams, puede activar o desactivar las características para los profesores de su organización y sus alumnos. A continuación, se muestran las opciones relacionadas con las tareas:
 
 <a name="#bkemaildigest"> </a>
 
@@ -49,14 +49,14 @@ Los correos electrónicos de tutores se envían cada fin de semana a los padres 
 
 1. Importe la información de contacto de los padres a través de Parent and Guardian Sync en SDS. Para obtener instrucciones sobre cómo habilitar la sincronización de padres y tutores, consulte [Habilitar la sincronización de padres y tutores](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
 
-2. Activa la configuración de tutor en el centro de administración de Microsoft Teams, ya que la configuración está desactivada de manera predeterminada. Esto permitirá a los profesores enviar un resumen semanal.
+2. Active la configuración de tutores en el Centro de administración de Microsoft Teams, ya que la configuración está desactivada de forma predeterminada. Esto permitirá a los profesores enviar un resumen semanal.
 
    > [!NOTE]
-   > Los profesores pueden optar por no participar en el resumen anulando la selección de la configuración dentro de su propio equipo de clase personal (**tareas Configuración > correos electrónicos de padres o tutores**).
+   > Los profesores pueden dejar de participar en el resumen anulando la selección de la configuración dentro de su propio equipo de clase personal (**Configuración de tareas > correos electrónicos de padres o tutores**).
 
 Para comprobar que los padres recibirán el correo electrónico, deben cumplirse los tres elementos siguientes:
 
-- Dirección de correo electrónico adjunta al perfil de alumno en SDS y etiquetada como _padre_ o _tutor_. Para obtener más información, consulte [Formato de archivo de sincronización de padres y tutores](/schooldatasync/parent-contact-sync-file-format).
+- Email dirección adjunta al perfil de alumno en SDS y etiquetada como _padre_ o _tutor_. Para obtener más información, consulte [Formato de archivo de sincronización de padres y tutores](/schooldatasync/parent-contact-sync-file-format).
 
 - Los alumnos pertenecen al menos a una clase en la que el profesor no ha deshabilitado el correo electrónico en la [configuración de la tarea](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77).
 
@@ -74,7 +74,7 @@ MakeCode es un producto de Microsoft que está sujeto a los [términos de uso y 
 
 La configuración predeterminada para esta característica es - **Desactivado**.
 
-Para habilitar las tareas de MakeCode en Teams, vaya al **Centro de Teams Administración**, vaya a la sección **Tareas** y cambie la opción de alternancia de MakeCode a **Activado**. Seleccione **Guardar**. Espere unas horas para que esta configuración surta efecto.
+Para habilitar las tareas de MakeCode en Teams, vaya al **Centro de Administración de Teams**, vaya a la sección **Tareas** y cambie la opción de alternancia de MakeCode a **Activado**. Seleccione **Guardar**. Espere unas horas para que esta configuración surta efecto.
 
 Para obtener más información sobre cómo funciona esta característica, vea esta [demostración en vídeo](https://makecode.com/blog/teams/teams-assignments).
 
@@ -105,7 +105,7 @@ Seleccione **Integraciones** en el menú lateral, seleccione **Agregar integraci
 ![Captura de pantalla que muestra cómo agregar una nueva integración.](./educationImages/Assignments_mopo_turnitin2.png)
 
 La **TurnitinApiKey** se le proporcionará después de seguir las indicaciones.
-Copie la clave de API y péguela en el centro de administración de Microsoft Teams.  Esta es la única vez que puede ver la clave.
+Copie la clave de API y péguela en el Centro de administración de Microsoft Teams.  Esta es la única vez que puede ver la clave.
 
 ![Captura de pantalla que muestra cómo copiar la clave de API.](./educationImages/Assignments_mopo_turnitin3.png)
 
@@ -113,14 +113,14 @@ Al hacer clic en el botón **Guardar** en el centro de administración para esta
 
 ## <a name="assignments-data"></a>Datos de asignaciones
 
-Las tareas almacenan información generada tanto por profesores como por alumnos. Todos los datos se comparten entre el profesor y el alumno específico para el que la información está destinada en clase. Existen dos almacenes de estos datos, SharePoint y fuera de SharePoint.
+Las tareas almacenan información generada tanto por profesores como por alumnos. Todos los datos se comparten entre el profesor y el alumno específico para el que la información está destinada en clase. Hay dos almacenes de estos datos, SharePoint y fuera de SharePoint.
 
 >[!NOTE]
 >Las mismas reglas también se aplican a integraciones de origen, como Progreso de lectura.
 
 ### <a name="assignments-data-in-sharepoint-document-libraries"></a>Datos de asignaciones en bibliotecas de documentos de SharePoint
 
-Los archivos de los alumnos asociados a un envío de tarea se almacenan en una biblioteca de documentos (denominada: *Trabajo del alumno*). Los archivos asociados a tareas creadas por profesores y accesibles por los alumnos se almacenan en otra biblioteca de documentos (denominada Archivos de *clase*) en el sitio de SharePoint del equipo de clase correspondiente. Las integraciones de origen también pueden almacenar datos de tareas en el mismo sitio de SharePoint del equipo de clase correspondiente (denominado: *Título de las tareas + marca de tiempo*).
+Los archivos de los alumnos asociados a un envío de tarea se almacenan en una biblioteca de documentos (denominada: *Trabajo del alumno*). Los archivos asociados a tareas creadas por profesores y accesibles por los alumnos se almacenan en otra biblioteca de documentos (denominada: *Archivos de clase*) en el sitio de SharePoint del equipo de clase correspondiente. Las integraciones de origen también pueden almacenar datos de tareas en el mismo sitio de SharePoint del equipo de clase correspondiente (denominado: *Título de tareas + marca de tiempo*).
 
 #### <a name="files-associated-with-the-student"></a>Archivos asociados con el alumno
 
@@ -128,11 +128,11 @@ Los administradores de TI pueden usar la herramienta de búsqueda de contenido p
 
 #### <a name="files-associated-with-the-teacher"></a>Archivos asociados con el profesor
 
-Los administradores de TI pueden usar la herramienta de búsqueda de contenido para buscar archivos de profesores (*Trabajo* de alumnos, *Archivos de clase* u otros archivos de integración de terceros) relacionados con tareas y archivos distribuidos a los alumnos por los profesores dentro de una clase sobre tareas. Por ejemplo, un administrador podría buscar en todos los sitios de SharePoint de la organización y usar el nombre del profesor y el nombre de la clase o tarea en la consulta de búsqueda para buscar datos relevantes para un DSR.
+Los administradores de TI pueden usar la herramienta de búsqueda de contenido para buscar archivos de profesores (*Trabajo* de alumnos, *Archivos de clase* u otros archivos de integración de terceros) relacionados con tareas y archivos distribuidos a los alumnos por los profesores dentro de una clase sobre tareas. Por ejemplo, un administrador puede buscar en todos los sitios de SharePoint de la organización y usar el nombre del profesor y el nombre de la clase o tarea en la consulta de búsqueda para buscar datos relevantes para un DSR.
 
-### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>Asignaciones de datos fuera de SharePoint bibliotecas de documentos
+### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>Asignaciones de datos fuera de bibliotecas de documentos de SharePoint
 
-Algunos datos relacionados con tareas no se almacenan en el sitio SharePoint equipo de clase, lo que significa que no se pueden detectar con la búsqueda de contenido. Esto incluye:
+Algunos datos relacionados con tareas no se almacenan en el sitio de SharePoint del equipo de clase, lo que significa que no se pueden detectar con la búsqueda de contenido. Esto incluye:
 
 - Calificaciones y comentarios de los alumnos del profesor
 - Lista de documentos enviados para una tarea por cada alumno
@@ -156,7 +156,7 @@ Se exportarán los datos sobre los envíos de alumnos.
 
 Los datos de las tareas de exportación en masa funcionan del mismo modo para un alumno, pero se exportarán todos los envíos a los que el profesor tenga acceso.
 
-### <a name="bulk-delete-assignment-data-outside-of-sharepoint-document-libraries"></a>Eliminar en masa datos de asignación fuera de SharePoint bibliotecas de documentos
+### <a name="bulk-delete-assignment-data-outside-of-sharepoint-document-libraries"></a>Eliminar en masa los datos de asignación fuera de las bibliotecas de documentos de SharePoint
 
 #### <a name="for-a-student"></a>Para un alumno
 
@@ -172,11 +172,11 @@ Para obtener más información, vea [Configurar tareas para Teams](/microsoft-36
 
 ## <a name="removing-assignments-and-grades"></a>Quitar tareas y calificaciones
 
-También puede usar directivas de Teams para quitar tareas y calificaciones de un usuario específico o de todo el espacio empresarial.
+También puede usar las directivas de Teams para quitar las tareas y calificaciones de un usuario específico o de todo el inquilino.
 
-Para quitar tareas y calificaciones de un usuario individual, vaya a **Teams Administración Centro** y vaya a **Teams aplicaciones > Directivas** de permisos para crear una nueva definición de directiva de permisos de aplicación.  Al crear la nueva definición de directiva, establezca la directiva de **aplicaciones de Microsoft** en _Bloquear aplicaciones específicas y permitir el resto_ y agregar tareas a la lista de aplicaciones **bloqueadas** . Una vez guardada la nueva definición de directiva, asígnela a los usuarios adecuados.
+Para quitar las tareas y calificaciones de un usuario individual, vaya al **Centro de Administración de Teams** y vaya a Las **aplicaciones de Teams > Directivas** de permisos para crear una nueva definición de directiva de permisos de aplicación.  Al crear la nueva definición de directiva, establezca la directiva de **aplicaciones de Microsoft** en _Bloquear aplicaciones específicas y permitir el resto_ y agregar **Tareas** y **calificaciones** a la lista de aplicaciones bloqueadas. Una vez guardada la nueva definición de directiva, asígnela a los usuarios adecuados.
 
-Para quitar tareas y calificaciones de todo el inquilino, vaya a **Teams Administración Centro**, vaya a **Teams aplicaciones > Administrar aplicaciones** y busque y seleccione **Tareas** en la lista de aplicaciones. Cambie la configuración de estado de la página de configuración de la aplicación de asignación a _Bloqueada_.
+Para quitar tareas y calificaciones de todo el inquilino, vaya al **Centro de Administración de Teams**, vaya a Aplicaciones de **Teams > Administrar aplicaciones** y busque **y seleccione Tareas** y **calificaciones** en la lista de aplicaciones. Cambie la configuración de estado de la página de configuración de las aplicaciones a _Bloqueada_.
 
 ## <a name="assignments-diagnostic-tool-for-users"></a>Herramienta de diagnóstico de asignaciones para usuarios
 
@@ -184,7 +184,7 @@ Soporte técnico de Microsoft ha creado una herramienta para recopilar datos de 
 
 Se puede acceder a esta herramienta dentro de Tareas en cualquier pantalla en la que los usuarios experimentan un problema.
 
-Para extraer la herramienta de diagnóstico en Teams, los usuarios pueden:
+Para abrir la herramienta de diagnóstico en Teams, los usuarios pueden:
 
 - **En el escritorio y en la Web:**
   - Seleccione Ctrl+/
@@ -207,6 +207,6 @@ Estos datos no se envían automáticamente a Microsoft. Los usuarios deben copia
 
 Si un usuario extrae la herramienta de diagnóstico y la cierra, no se envía ningún dato.
 
-Cuando los datos se envían a un agente de soporte técnico de Microsoft, se tratan como Datos de soporte técnico en virtud de los contratos de servicio Microsoft 365 de su organización.
+Cuando los datos se envían a un agente de soporte técnico de Microsoft, se tratan como datos de soporte técnico en virtud de los contratos de servicio de Microsoft 365 de su organización.
 
 Para obtener instrucciones sobre el uso de esta herramienta de diagnóstico que puede compartir con profesores y alumnos, vea [Obtener datos de diagnóstico para solucionar problemas de tareas](https://support.microsoft.com/topic/b40793f5-dbae-4c8a-841a-6baa7f232e2e).
