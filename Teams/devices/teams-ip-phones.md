@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: 4070bdb567556422c5ec2a3db78c3d3670e1dda9
-ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
+ms.openlocfilehash: 5294b011ee8fbe852e2a82e2d700fbd212c0f4e8
+ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2022
-ms.locfileid: "67590197"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67624310"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados por Microsoft Teams
 
@@ -74,6 +74,7 @@ Los siguientes dispositivos están certificados en el programa de certificación
 
 | Modelo de dispositivo | Versión de firmware | Fecha de finalización de la certificación actual | Tamaño de la habitación                                        |  Versión del sistema operativo Android    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Logitech Tap IP (VR0029) con RoomMate (VR0030) | `1.6.565`  |   3 de septiembre de 2024  | Sala de reuniones grande (4,5 m x 8,5 m) | 10 |
 | Yealink MeetingBoard 65" | `155.15.0.6 `   | 3 de septiembre de 2024 | Habitación de tamaño mediano (4,5 m x 6 m) | 10|
 | Yealink MeetingBar A20 | `133.15.0.108  `   | 3 de septiembre de 2024 | Sala de reuniones pequeña(4,5 m x 4,5 m)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 3 de septiembre de 2024 | Habitación de tamaño mediano (4,5 m x 6 m) | 10|
