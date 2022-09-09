@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información y compare Salas de Teams la disponibilidad de licencias y características en el Centro de administración de Teams.
-ms.openlocfilehash: f880f2878c98e739c0367faafed252f93f4cd3d5
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: d88e7a0c0a6c17fb22f1cc94fcd4de65a3ff79a2
+ms.sourcegitcommit: 732a7f3e120cfa221d42b4e8af2cf9ff623488a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606894"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67633640"
 ---
 # <a name="microsoft-teams-rooms-license-overview-in-teams-admin-center"></a>Salas de Microsoft Teams información general sobre licencias en el Centro de administración de Teams
 
@@ -37,11 +37,11 @@ Para obtener más información sobre las licencias de Salas de Microsoft Teams, 
 
 ## <a name="see-which-licenses-are-assigned-to-teams-rooms-devices"></a>Ver qué licencias están asignadas a Salas de Teams dispositivos
 
-Para ver qué licencia tienen sus dispositivos, vaya a **Dispositivos de Teams** en el Centro de administración de Teams y, a continuación, seleccione la categoría de dispositivo que desea ver. Por ejemplo, si selecciona **dispositivos** >  Teams **Salas de Teams en Windows**, verá algo similar a la imagen siguiente. La columna **Licencia** muestra la licencia de Salas de Teams asignada a cada dispositivo.
+Para ver qué licencias tienen los dispositivos, vaya a Dispositivos de Teams en el Centro de administración de Teams y, a continuación, seleccione la categoría de dispositivo (Salas de Teams en Windows, Salas de Teams en Android y Surface Hub) que desee ver. Por ejemplo, si selecciona **dispositivos** >  Teams **Salas de Teams en Windows**, verá algo similar a la imagen siguiente. La columna **Licencia** muestra la licencia de Salas de Teams asignada a cada dispositivo.
 
 :::image type="content" source="../media/mtr-device-inventory-license-focus.png" alt-text="Salas de Teams lista de inventario con el foco en las licencias Standard, Pro y Pro (de prueba).":::
 
-Los dispositivos que tienen las licencias **Pro** o **Pro (prueba)** pueden acceder a todas las características del Centro de administración de Teams. Los dispositivos con otras licencias pueden acceder a un subconjunto de esas características. Puede ver qué características están disponibles para cada licencia en [Comparación de Salas de Teams disponibilidad de características por licencia](#comparison-of-teams-rooms-feature-availability-by-license).
+Los dispositivos que tienen la licencia **Pro** pueden acceder a todas las características del Centro de administración de Teams. Los dispositivos con otras licencias pueden acceder a un subconjunto de esas características. Puede ver qué características están disponibles para cada licencia en [Comparación de Salas de Teams disponibilidad de características por licencia](#comparison-of-teams-rooms-feature-availability-by-license).
 
 > [!IMPORTANT]
 > Si seleccionas varios dispositivos que incluyen licencias de Salas de Microsoft Teams Basic y Salas de Microsoft Teams Pro, las acciones que requieran una licencia de Salas de Microsoft Teams Pro solo se realizarán en dispositivos que tengan asignada esa licencia. La acción no se realizará en dispositivos asignados a la licencia Salas de Microsoft Teams Basic.
