@@ -19,12 +19,12 @@ description: Obtenga información sobre cómo administrar aplicaciones de Teams.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: beaa10343570624b6ce9b01dbaf9f4a0e962b191
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: ca49ca15b026048d2c495d30a51eac0f809244b5
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486885"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637053"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Administrar aplicaciones de Teams en el Centro de administración de Microsoft Teams
 
@@ -85,38 +85,6 @@ Cuando permite (o bloquea) una aplicación en la página [Administre las aplicac
 
 Un usuario puede instalar y usar una aplicación solo cuando la aplicación está permitida a través de la configuración de todo el inquilino y permitida para el usuario a través de la directiva de permisos.
 
-## <a name="manage-user-requests-to-allow-apps"></a>Administrar solicitudes de usuario para permitir aplicaciones
-
-Los usuarios finales pueden ver, pero no usar, las aplicaciones bloqueadas en la Tienda de Teams. Para las aplicaciones bloqueadas, hay una opción disponible para solicitar la aprobación del administrador. Estas solicitudes se intercalan en el Centro de administración de Teams y los administradores pueden verlas y administrarlas cuando quieran. Se recomienda encarecidamente tener una evaluación periódica de prioridades para comprobar las solicitudes del usuario final.
-
-  :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Solicitar a un administrador que apruebe una aplicación bloqueada seleccionando la opción de aprobación de solicitud en la Tienda de Teams.":::
-
-### <a name="view-a-request"></a>Ver una solicitud
-
- 1. Inicie sesión en el Centro de administración de Teams y acceda a Aplicaciones  > **de Teams****[Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)**.
-
-    :::image type="content" source="media/requested-apps1.png" alt-text="Las solicitudes de usuarios finales para aplicaciones bloqueadas se muestran en el Centro de administración de Teams en la columna denominada Solicitudes de usuarios." lightbox="media/requested-apps.png":::
-
- 1. Para ver y comprobar el número de solicitudes de cada aplicación, ordene las solicitudes en la columna **Solicitudes por usuario**. No podrá ver el nombre de los usuarios que solicitaron una aplicación.
- 1. Para permitir una aplicación, seleccione el nombre de la aplicación y se abrirá la página de detalles de la aplicación.
- 1. Seleccione **Administrar solicitudes** y complete los pasos que se muestran en el cuadro de diálogo emergente. Según el método usado para bloquear la aplicación, se requerirá que siga uno o varios de los pasos siguientes para desbloquearla:
-
-    * Si la aplicación está bloquea mediante directivas de permisos, permita la aplicación modificando [ directivas de permisos](teams-app-permission-policies.md).
-    * Si la aplicación está bloqueada para todos los usuarios, [permita la aplicación](#allow-and-block-apps).
-    * Si todas las aplicaciones están bloqueadas para todos los usuarios, modifique la[ configuración de toda la organización](#manage-org-wide-app-settings).
-
- Si un administrador permite una aplicación, entonces Teams no informa al usuario final de que se ha actuado en su solicitud. El usuario tendrá que ver la aplicación en la Tienda de Teams para comprobar si puede o no agregarla a su cliente de Teams. Si un administrador aprueba una aplicación, los usuarios podrán agregarla. Por otra parte, si un administrador no aprueba la solicitud y la descarta, los usuarios finales pueden volver solicitarla.
-
-### <a name="dismiss-a-user-request"></a>Descartar una solicitud de usuario
-
- 1. Seleccione el nombre de la aplicación para la que desea descartar las solicitudes de usuario.
- 1. Seleccione **Administrar solicitudes** y seleccione **Descartar todas las solicitudes** en el cuadro de diálogo.
- 1. Cuando se descarta una solicitud, se restablecen las solicitudes del usuario a cero.
-
-  :::image type="content" source="media/reject.png" alt-text="Los administradores puede aprobar una solicitud de usuario al permitir una aplicación o descartar la solicitud y no realizar ninguna acción.":::
-
-Si un administrador desestima una solicitud, no informa al usuario final de que se ha actuado sobre su solicitud. Después de que un administrador descarta una solicitud, el usuario final puede volver a solicitar la aplicación.
-
 ## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>Permitir las aplicaciones bloqueadas por los desarrolladores
 
 Cuando un desarrollador publica una aplicación en la tienda de Teams, es posible que algunas aplicaciones necesiten de un administrador para poder configurarla. Los administradores ponen la aplicación a disposición de los usuarios finales al configurarla.
@@ -159,3 +127,4 @@ Use la configuración de aplicaciones de toda la organización para controlar si
 ## <a name="related-article"></a>Artículo relacionado
 
 * [Administrar Teams durante la transición desde el Centro de administración de Skype Empresarial](manage-teams-skypeforbusiness-admin-center.md)
+* [Administrar las solicitudes de usuario para permitir aplicaciones](user-requests-approve-apps.md).

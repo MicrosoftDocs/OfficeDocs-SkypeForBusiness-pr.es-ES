@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 67a6424d6fcde396ebdbb41b3c00fc4186e8e475
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: cfcd041fd755016ec04832f42c497e2b0ad51469
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396701"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637013"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -92,7 +92,7 @@ Con una directiva de configuración de aplicaciones, un administrador puede real
 * Instalar aplicaciones para los usuarios finales en su entorno personal de Teams.
 * Instalar aplicaciones para los usuarios finales como [extensiones de mensajería](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
-Los usuarios finales pueden instalar aplicaciones por su cuenta si la [directiva de permisos](teams-app-permission-policies.md) de la aplicación les permite y el administrador de Teams permite la aplicación. En su lugar, si una aplicación está bloqueada para un usuario o para una organización, los usuarios finales pueden [solicitar la aprobación del administrador](manage-apps.md#manage-user-requests-to-allow-apps).
+Los usuarios finales pueden instalar aplicaciones por su cuenta si la [directiva de permisos](teams-app-permission-policies.md) de la aplicación les permite y el administrador de Teams permite la aplicación. En su lugar, si una aplicación está bloqueada para un usuario o para una organización, los usuarios finales pueden [solicitar la aprobación del administrador](user-requests-approve-apps.md).
 
 Para instalar aplicaciones mediante una directiva de configuración de aplicaciones, sigue estos pasos:
 
