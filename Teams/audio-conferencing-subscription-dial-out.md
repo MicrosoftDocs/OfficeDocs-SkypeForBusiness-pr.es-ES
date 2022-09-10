@@ -13,7 +13,6 @@ ms.collection:
 - M365-collaboration
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -22,16 +21,16 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Servicio de llamadas entrantes y llamadas en minutos. A partir del 1 de diciembre de 2019, cada suscripción de audioconferencia proporciona 60 minutos por usuario y mes a los países de la Zona A.
-ms.openlocfilehash: 18300c44c806689b601c8b14d8c871ecb0ff6ba4
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 6df0b6f2157f16da6e992d465b524a5b582e0a12
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187016"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642151"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Ventaja de minutos de suscripción de audioconferencia "Llamada"/"Llamarme a".
 
-## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft Teams y Skype Empresarial Audioconferencia RTC
+## <a name="microsoft-teams-and-pstn-audio-conferencing"></a>Microsoft Teams y Audioconferencia RTC
 
 Cada suscripción estándar de Audioconferencia proporciona 60 minutos por usuario al mes que se pueden usar para llamar a números no premium en CUALQUIERA de los países de la zona A, como se describe en este documento. Esta ventaja se aplica a las licencias de *suscripción mensuales* de Audioconferencia y no se extiende a las licencias de pago por minuto de Audioconferencia.
 
@@ -74,16 +73,15 @@ Considere el ejemplo siguiente. Un cliente ha comprado 115 licencias de suscripc
 
 ## <a name="how-can-i-monitor-minute-my-pool-usage"></a>¿Cómo puedo supervisar los minutos de uso del grupo?
 
-- Puede supervisar el uso en el grupo de minutos de acceso telefónico local en el centro de administración de Microsoft Teams. En el panel de navegación izquierdo, vaya a **Análisis &** **informesUsar** >  informes y, después, seleccione **Grupos de minutos RTC**. Zona Un grupo de minutos de llamada entrante se etiquetará en el informe como "Llamadas salientes a países de la zona A".
-- Las notificaciones por correo electrónico se enviarán a los siguientes administradores cuando el uso del grupo de minutos de llamada de salida de su organización haya alcanzado el 80 % y el 100 %:
+- Puede supervisar el uso en el grupo de minutos de llamadas entrantes en el Centro de administración de Microsoft Teams. En el panel de navegación izquierdo, vaya a **Análisis & informes de uso** >  y, a continuación, seleccione **Grupos de minutos RTC**. Zona Un grupo de minutos de llamada entrante se etiquetará en el informe como "Llamadas salientes a países de la zona A".
+- Email notificaciones se enviarán a los siguientes administradores cuando el uso del grupo de minutos de llamada de salida de su organización haya alcanzado el 80 % y el 100 %:
 
   - Administrador de facturación
-  - administrador de Skype Empresarial
   - Administrador global
   - Administrador de usuarios
   - Administrador del departamento de soporte técnico
   - Administrador de soporte técnico
-  - Azure AD administrador local del dispositivo unido
+  - Administrador local de dispositivos unidos a Azure AD
   - Administrador de aplicaciones
   - Administrador de licencias
   - Administrador de dispositivos en la nube
