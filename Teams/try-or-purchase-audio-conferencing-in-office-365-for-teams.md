@@ -23,16 +23,16 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: Vea cómo probar o comprar licencias de Audioconferencia (conferencia RTC) para Microsoft 365 o Office 365 para configurar llamadas de conferencia a las que los usuarios pueden llamar.
-ms.openlocfilehash: 861537c6c452612058d8e3ad8ae416b812d0bb32
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5d93f9d81e2b70520d8c8044293f81aff2a36940
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271445"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641921"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Probar o comprar Audioconferencia en Microsoft 365 para Microsoft Teams
 
-En algunas ocasiones, en su organización se necesitará un teléfono para llamar a una reunión. Microsoft Teams incluye la característica audioconferencia para esta situación. Los usuarios pueden llamar a las reuniones de Microsoft Teams con un teléfono, en lugar de con la aplicación de Microsoft Teams en un dispositivo móvil o PC.
+En algunas ocasiones, en su organización se necesitará un teléfono para llamar a una reunión. Microsoft Teams incluye la característica audioconferencia para esta situación. Personas pueden llamar a las reuniones de Microsoft Teams con un teléfono, en lugar de con la aplicación de Microsoft Teams en un dispositivo móvil o PC.
 
 Solo necesita configurar audioconferencias para las personas que planean programar o coordinar reuniones. Los asistentes que se conectan por teléfono a la reunión no necesitan tener asignada ninguna licencia ni tener otra configuración.
 
@@ -76,15 +76,15 @@ Si es cliente de Volumen y licencias, puede obtener licencias de audioconferenci
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Paso 2: Establecer el proveedor de servicios de audioconferencia para las personas que dirigen o programan reuniones
 
-Al asignar una licencia de **Audioconferencia** a personas de su organización que no tienen Skype for Business integrada con un proveedor de servicios de audioconferencia de terceros, todos están configurados y listos para empezar. (No tiene que configurar su proveedor de audioconferencias).
+Al asignar una licencia de **Audioconferencia** a personas de su organización que no tienen Teams integrado con un proveedor de servicios de audioconferencia de terceros, todos están configurados y listos para empezar. (No tiene que configurar su proveedor de audioconferencias).
 
-Si tiene usuarios habilitados con un proveedor de servicios de audioconferencia de terceros, debe cambiar el proveedor de esos usuarios a Microsoft. Para cambiar el proveedor de un usuario, consulte [Asignar Microsoft como el proveedor de servicios de audioconferencia](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+Si tiene usuarios habilitados con un proveedor de servicios de audioconferencia de terceros, debe cambiar el proveedor de esos usuarios a Microsoft. Para cambiar el proveedor de un usuario, consulte [Asignar licencias de complementos de Teams a usuarios](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 ## <a name="step-3-other-admin-tasks"></a>Paso 3: Otras tareas de administrador
 
 Los pasos siguientes son **opcionales**, pero a muchos administradores les gusta hacerlos:
 
-1. [Personalizar invitaciones a reuniones](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Los números de acceso telefónico que se establecen para el usuario se agregan automáticamente a las invitaciones de las reuniones que se envían a los asistentes. Sin embargo, puede agregar sus propios vínculos de ayuda y de avisos legales, un mensaje de texto y un pequeño distintivo gráfico de la empresa.
+1. [Personalizar invitaciones a reuniones](meeting-settings-in-teams.md#customize-meeting-invitations). Los números de acceso telefónico que se establecen para el usuario se agregan automáticamente a las invitaciones de las reuniones que se envían a los asistentes. Sin embargo, puede agregar sus propios vínculos de ayuda y de avisos legales, un mensaje de texto y un pequeño distintivo gráfico de la empresa.
 
 2. [Establezca los números de teléfono incluidos en las invitaciones](set-the-phone-numbers-included-on-invites-in-teams.md). Este es el número de teléfono que se mostrará en la reunión programada por un usuario.
 

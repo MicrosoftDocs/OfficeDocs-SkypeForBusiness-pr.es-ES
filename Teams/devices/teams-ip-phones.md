@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: c28cf614cf21b9a462ef140275d0282372387f3e
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: b42ded686588d26bdd647adab136b4f0dba98cdb
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637083"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642101"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados por Microsoft Teams
 
@@ -89,9 +89,7 @@ Los siguientes dispositivos están certificados en el programa de certificación
 | Logitech Rally Bar      | `1.2.788`     |   3 de septiembre de 2024  |    Habitación de tamaño mediano (4,5 m x 6 m)       | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   5 de agosto de 2023  | Sala de concentración(3 m x 3 m) </br> Sala de reuniones pequeña(4,5 m x 4,5 m) | 9 |
 | EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 5 de agosto de 2023 | Sala de concentración(3 m x 3 m) </br> Sala de reuniones pequeña(4,5 m x 4,5 m) | 9 |
-| Yealink MeetingBar A30       | `133.15.0.52`    | 5 de agosto de 2023   | Habitación de tamaño mediano (4,5 m x 6 m) | 9 |
 | Consola táctil CTP18 de Yealink  | `137.15.0.28`    | 5 de agosto de 2023   | Compatible con Yealink MeetingBar A20 y Yealink MeetingBar A30 | 9 |
-| Yealink MeetingBar A20  | `133.15.0.19`      | 5 de agosto de 2023 | Sala de concentración(3 m x 3 m) </br> Sala de reuniones pequeña(4,5 m x 4,5 m) | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | 5 de diciembre de 2022  | Sala de concentración(3 m x 3 m) </br> Sala de reuniones pequeña(4,5 m x 4,5 m) | 8.1 |
 | Poly Studio X50         | `3.1.1.216109`     | 5 de diciembre de 2022   | Sala de concentración(3 m x 3 m) </br> Sala de reuniones pequeña(4,5 m x 4,5 m) | 8.1 |
 | Poly TC8                | `3.3.2.210441`     | 5 de agosto de 2023 | Compatible con Poly Studio X30 y Poly Studio X50  |  9  |

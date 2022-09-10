@@ -5,14 +5,13 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
+ms.service: msteams
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -21,12 +20,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Los administradores pueden controlar el tipo de audioconferencia y las llamadas RTC del usuario final que pueden realizar los usuarios.
-ms.openlocfilehash: fd7dc24d7a920e5fb2c151600c3a6604381044e6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 67c138db8522ec6eee1f384e182f5c8d01ea40fd
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674812"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641771"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
 
@@ -39,7 +38,7 @@ Los controles de llamadas salientes se pueden aplicar por usuario o en función 
 |Audioconferencia llamadas RTC|Restringe el tipo de salida </br>llamadas que se permiten desde dentro de </br>reuniones organizadas por un usuario.|Cualquier destino (predeterminado)</br>En el mismo país o región que el organizador </br> Solo [países o regiones de la Zona A](audio-conferencing-zones.md) </br>No permitir|
 |Llamadas RTC de usuario final|Restringe el tipo de llamadas </br>que puede realizar un usuario.|Internacionales y nacionales (predeterminado)</br>Nacionales</br>Ninguna|
 
-Para averiguar qué países y regiones se consideran zona A, consulte [Zonas de país y región para Audioconferencia](audio-conferencing-zones.md).
+Para averiguar qué países y regiones se consideran zona A, consulte [Zonas de país y región para audioconferencia](audio-conferencing-zones.md).
 
    > [!NOTE]
    > Una llamada se considera nacional si el número marcado se encuentra en el mismo país donde se ha configurado Microsoft 365 o Office 365 para el organizador de la reunión (en el caso de las audioconferencias) o el usuario final (en el caso de las llamadas RTC del usuario final).
@@ -53,7 +52,7 @@ Para averiguar qué países y regiones se consideran zona A, consulte [Zonas de 
 
 1. En el panel de navegación izquierdo, seleccione **Usuarios** y, después, seleccione el nombre para mostrar del usuario en la lista de usuarios disponibles.
 
-2. A continuación, vaya a **Audioconferencia** y seleccione **Editar**.
+2. A continuación, vaya a **Audioconferencia**, seleccione **Editar**.
 
 3. En **Llamar desde reuniones**, seleccione la opción de restricción de salida que desee.
 

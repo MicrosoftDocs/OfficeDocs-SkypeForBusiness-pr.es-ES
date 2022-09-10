@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: acaa1280e00ad2e86a49c2bbd8e7f4464bd0c0e7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e369403e17136aaec6341e46b4851d18fb778a89
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268765"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641871"
 ---
 # <a name="manage-teams-with-policies"></a>Administrar Teams con directivas
 

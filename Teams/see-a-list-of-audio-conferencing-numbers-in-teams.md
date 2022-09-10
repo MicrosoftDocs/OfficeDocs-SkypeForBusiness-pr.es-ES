@@ -22,17 +22,17 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo buscar los números de conferencia de acceso telefónico local que están disponibles para las audioconferencias desde Microsoft Teams.
-ms.openlocfilehash: 33beda34a5c7079c5df910492264061216fb7072
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ms.openlocfilehash: de03b3a1b12cc6bdcef9326e80e970ece2bdc378
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460633"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641891"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Consultar una lista de números de Audioconferencia en Microsoft Teams
 
 Al configurar audioconferencias para usuarios de Microsoft Teams, puede ver los números de teléfono que están disponibles para las audioconferencias. Esta lista contendrá todos los números de teléfono de audioconferencia que están disponibles para su organización.
-   
+
 **¿Busca los precios?** Revise la sección Tarifas **de audioconferencia** en [Audioconferencia](https://www.microsoft.com/microsoft-teams/audio-conferencing).
   
 Si solo hay un número de teléfono disponible en su organización, todos los usuarios lo usarán como número predeterminado. Cuando varios números de teléfono están disponibles, puede seleccionar el número de teléfono predeterminado para cada usuario. Este número predeterminado se incluirá en las invitaciones a reuniones de Microsoft Teams.
@@ -61,6 +61,3 @@ Windows PowerShell se centra en la administración de usuarios y en las acciones
 
 Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](/powershell/module/teams/?view=teams-ps).
   
-## <a name="related-topics"></a>Temas relacionados
-
-[Probar o comprar Audioconferencia en Microsoft 365 o Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

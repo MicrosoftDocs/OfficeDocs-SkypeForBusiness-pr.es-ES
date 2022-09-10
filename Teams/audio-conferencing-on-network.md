@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: A continuación se describe En la red para Audioconferencia.
-ms.openlocfilehash: 222a89df39f1fe6b2decb21431f3475a148a1a6c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 56e2addc3b924d7d73df7475ad217a999dc0aca0
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267595"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641881"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>Conferencia en red para Audioconferencia
 
@@ -54,7 +54,7 @@ Para redirigir las llamadas de acceso telefónico local realizadas por los usuar
 
 Debe configurar el equipo de telefonía de los sitios para redirigir las llamadas a cualquier número de servicio del puente de conferencia de su organización a través de un tronco de enrutamiento directo.
 
-Puede encontrar los números de servicio en el Centro de administración de Teams en **Reuniones -> Puentes de conferencia** o mediante el cmdlet de PowerShell get-CsOnlineDialInConferencingBridge de Skype for Business Online. Para obtener más información, consulte una lista de [números de Audioconferencia en Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Puede encontrar los números de servicio en el Centro de administración de Teams en **Reuniones -> Puentes de conferencia** o mediante el cmdlet de PowerShell de Teams Get-CsOnlineDialInConferencingBridge. Para obtener más información, consulte una lista de [números de Audioconferencia en Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
 > [!NOTE]
 > Esta característica no está disponible para los usuarios con la licencia de Audioconferencia de pago por minuto.
