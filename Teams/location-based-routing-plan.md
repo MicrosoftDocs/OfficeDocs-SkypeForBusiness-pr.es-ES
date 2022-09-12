@@ -1,7 +1,7 @@
 ---
 title: Planear enrutamiento basado en la ubicación para el enrutamiento directo
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 795433f832d57767a7937be1a9d3e7f31e73f240
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562629"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647444"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -387,9 +387,9 @@ Location-Based Enrutamiento no se aplica a los siguientes tipos de interacciones
 
 ### <a name="location-based-routing-for-conferencing"></a>Location-Based enrutamiento para conferencias
 
-Un usuario habilitado para enrutamiento de Location-Based en una llamada RTC no puede iniciar una conferencia con otro usuario o número de RTC. Se permite la conexión a operadores automáticos o colas de llamadas.
+Un usuario habilitado Location-Based enrutamiento sin una licencia de audioconferencia en una llamada RTC no puede iniciar una conferencia con otro usuario o número de RTC. Se permite la conexión a operadores automáticos o colas de llamadas.
 
-Si el usuario tiene una licencia de audioconferencia, debe iniciar una conferencia con los usuarios relevantes y llamar a la RTC a través del puente de conferencia para iniciar una llamada de conferencia.
+Si el usuario tiene una licencia de audioconferencia, debe iniciar una conferencia con los usuarios relevantes y llamar a la RTC a través del puente de conferencia para iniciar una llamada de conferencia. Si el usuario ya está en una llamada RTC, puede agregar otro usuario o número de RTC a la llamada a través del escalado de la llamada mediante el puente de conferencia para llamar.
 
 En una llamada de conferencia iniciada por un usuario sin una licencia de audioconferencia, no se permite agregar participantes RTC si hay o ha sido al menos un usuario habilitado para enrutamiento Location-Based en la llamada de conferencia. Si al menos un participante de RTC forma parte de una llamada de conferencia o forma parte de ella antes de invitar a algún participante habilitado para enrutamiento Location-Based a unirse a la llamada, Location-Based los participantes habilitados para enrutamiento no se pueden agregar a la llamada.
 
@@ -397,6 +397,7 @@ Si el usuario habilitado Location-Based enrutamiento se une a la llamada de conf
 
 Las conferencias en red para Audioconferencia NO se deben implementar con ningún equipo de telefonía en India.
 
+Un usuario habilitado para enrutamiento Location-Based en una llamada RTC no puede combinar esa llamada con otra llamada.
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de omisión de medios para enrutamiento de Location-Based
 
