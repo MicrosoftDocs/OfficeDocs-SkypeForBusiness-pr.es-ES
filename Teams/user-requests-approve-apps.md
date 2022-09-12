@@ -18,30 +18,30 @@ description: Obtenga información sobre cómo administrar y configurar la solici
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: c47578184aa97f9c6cc366e186c1590ef1e3fba4
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: 122d41de6f1cb5ea67a5ce85ba9f8f7d02e26339
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637320"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647544"
 ---
-# <a name="manage-user-requests-to-allow-apps-that-are-blocked-by-admins"></a>Administrar solicitudes de usuario para permitir aplicaciones que los administradores bloquean
+# <a name="manage-user-requests"></a>Administrar solicitudes de usuario
 
-Las aplicaciones que bloquee en su organización pueden reducir la productividad y la colaboración del usuario final. Los usuarios finales no pueden usar las aplicaciones que están disponibles en la tienda de Teams, pero que están bloqueadas en su organización. Sin embargo, para mantenerse informados, los usuarios finales pueden ver las aplicaciones bloqueadas, la información de la aplicación y los casos de uso que los servidores. Los usuarios pueden solicitar la aprobación del administrador para que puedan usar estas aplicaciones en Teams, después de elegir permitir la aplicación.
+Las aplicaciones que bloquee en su organización pueden afectar a la productividad y la colaboración del usuario final. Los usuarios finales no pueden usar las aplicaciones que están disponibles en la tienda de Teams, pero que están bloqueadas en su organización. Sin embargo, para mantenerse informados, los usuarios finales pueden ver las aplicaciones bloqueadas, la información de la aplicación y los casos de uso que los servidores. Los usuarios solicitan la aprobación del administrador para que usen estas aplicaciones en Teams, después de evaluar la solicitud.
 
-Esta funcionalidad le proporciona una señal sobre la demanda de una aplicación dentro de su organización. Puede ver fácilmente el número agregado de solicitudes de aplicaciones y tomar decisiones informadas sobre qué aplicaciones considerar permitir en su organización.
+Esta funcionalidad le proporciona una señal sobre la demanda de una aplicación dentro de su organización. Puede ver fácilmente el número agregado de solicitudes de aplicaciones. Le ayuda a tomar una decisión informada sobre qué aplicaciones evaluar para permitir en su organización.
 
 Conservas el control completo de las aplicaciones que se permiten o bloquean para los usuarios. Si elige permitir una aplicación, los controles y la interfaz de usuario para administrar aplicaciones seguirán siendo los mismos.
 
-* La opción predeterminada envía las solicitudes de usuario en el Centro de administración de Teams, donde puede [ver las solicitudes de usuario y permitir las aplicaciones solicitadas](#view-user-requests-and-allow-the-requested-apps).
+* La opción predeterminada envía las solicitudes de usuario en el Centro de administración de Teams, donde puede [ver las solicitudes de usuario y permitir las aplicaciones solicitadas](#view-user-requests).
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Captura de pantalla que muestra la opción de solicitar a un administrador que apruebe una aplicación bloqueada.":::
 
-* Una personalización le permite [configurar la experiencia del usuario final](#modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app) redirigiendo al usuario a un método de solicitud de aplicación personalizado. Puede proporcionar un mensaje de texto personalizado para informar a los usuarios y dirigir a los usuarios a la dirección URL interna de su organización para que recopile solicitudes para permitir las aplicaciones.
+* Una personalización le permite [configurar la experiencia del usuario final](#modify-the-default-setting-to-receive-end-user-requests) más adecuada para su organización. Puede proporcionar una instrucción personalizada que se muestre a los usuarios finales en aplicaciones bloqueadas en la tienda de aplicaciones de Teams y dirigir a los usuarios a un sitio interno para recopilar sus solicitudes.
 
-   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Captura de pantalla que muestra la experiencia del usuario final de las aplicaciones en store cuando un administrador redirige la dirección URL de solicitud de aplicación permitida a una dirección URL personalizada.":::
+   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Captura de pantalla que muestra la experiencia del usuario final de las aplicaciones en store cuando un administrador redirige la dirección URL de solicitud de aplicación permitida a un sitio interno.":::
 
-## <a name="modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app"></a>Modificar la configuración predeterminada para recibir solicitudes del usuario final para permitir una aplicación
+## <a name="modify-the-default-setting-to-receive-end-user-requests"></a>Modificar la configuración predeterminada para recibir solicitudes del usuario final
 
 Para configurar un mensaje personalizado y redirigir a los usuarios a una dirección URL específica de la organización para solicitar la aprobación de la aplicación, siga estos pasos:
 
@@ -60,9 +60,9 @@ Para configurar un mensaje personalizado y redirigir a los usuarios a una direcc
 
 1. Seleccione **Guardar**.
 
-## <a name="view-user-requests-and-allow-the-requested-apps"></a>Ver solicitudes de usuario y permitir las aplicaciones solicitadas
+## <a name="view-user-requests"></a>Ver solicitudes de usuario
 
-Las solicitudes de usuario final recibidas con el método predeterminado se muestran en el Centro de administración de Teams. Puede ver y administrar fácilmente las solicitudes. Se recomienda encarecidamente tener una evaluación periódica de prioridades para comprobar las solicitudes del usuario final. Para ver y permitir las aplicaciones, sigue estos pasos:
+Las solicitudes de usuario final recibidas con el método predeterminado se muestran en el Centro de administración de Teams. Puede ver y administrar fácilmente las solicitudes. Se recomienda tener una clasificación regular para comprobar las solicitudes de usuario final. Para ver y permitir las aplicaciones, sigue estos pasos:
 
 1. Inicie sesión en el Centro de administración de Teams y acceda a la página **[Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)** >  de **Teams**.
 
@@ -82,7 +82,7 @@ Las solicitudes de usuario final recibidas con el método predeterminado se mues
    * Si la aplicación está bloqueada para todos los usuarios, [permita la aplicación](manage-apps.md#allow-and-block-apps).
    * Si todas las aplicaciones están bloqueadas para todos los usuarios, [modifique la configuración de toda la organización](manage-apps.md#manage-org-wide-app-settings).
 
-1. Opcionalmente, para cambiar a una configuración personalizada a la dirección URL específica de su organización, seleccione el vínculo Configurar solicitudes de usuario en el cuadro de diálogo Administrar solicitudes de usuario. Se abrirá el panel de configuración de aplicaciones para toda la organización, en el que puede [configurar la experiencia de solicitud del usuario final](#modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app).
+1. Opcionalmente, para cambiar a una configuración personalizada a la dirección URL específica de su organización, seleccione el vínculo Configurar solicitudes de usuario en el cuadro de diálogo Administrar solicitudes de usuario. Se abrirá el panel de configuración de aplicaciones para toda la organización, en el que puede [configurar la experiencia de solicitud del usuario final](#modify-the-default-setting-to-receive-end-user-requests).
 
 Si permite una aplicación después de recibir solicitudes en el Centro de administración de Teams, Teams no informa al usuario final de que se trata de una solicitud. El usuario puede comprobar la aplicación en la Tienda Teams para comprobar si se permite la aplicación. La opción Agregar la aplicación está disponible para el usuario después de permitirla. Si permite una aplicación después de recibir solicitudes a través de su método específico de la organización, se aplicarán los mecanismos internos para proporcionar una actualización de estado al usuario final.
 
