@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Las licencias de usuario no se admiten para su uso con dispositivos de reunión. Las licencias de usuario asignadas a dispositivos de reunión de equipos deben reemplazarse por una licencia de Salas de Teams Basic o Salas de Teams Pro antes del 1 de julio de 2023. Los dispositivos de reunión que tienen una licencia de usuario después del 1 de julio de 2023 se bloquearán para iniciar sesión hasta que se asigne una licencia de Salas de Teams.

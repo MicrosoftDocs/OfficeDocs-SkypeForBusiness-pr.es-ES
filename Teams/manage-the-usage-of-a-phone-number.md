@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo cambiar el uso de un número de teléfono para usarlo como número de servicio o número de usuario.
-ms.openlocfilehash: e07255420cf9b480aa28e25a635b799eed94bd0f
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ms.openlocfilehash: 5fb8e65a1a04a28cd69314d2919cefa7f2d988c4
+ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460703"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67650892"
 ---
 # <a name="manage-the-usage-of-a-phone-number"></a>Administrar el uso de un número de teléfono
 
@@ -53,7 +53,7 @@ Para cambiar el uso de un número de teléfono mediante el Centro de administrac
 
 ## <a name="still-need-assistance"></a>¿Sigue necesitando ayuda?
 
-Si necesita ayuda, póngase en contacto con el [servicio de asistencia de TNS](/contact-tns-service-desk.md).
+Si necesita ayuda, póngase en contacto con el [servicio de asistencia de TNS](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk).
 
 ## <a name="related-topics"></a>Temas relacionados
 
