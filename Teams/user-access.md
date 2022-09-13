@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e78d5905eaed7d9302ffdbf071c3dcf93f00fea
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 9affb1fc93bf79cd7f583f0e74b02bd06f604f0d
+ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616266"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67657260"
 ---
 # <a name="manage-user-access-to-teams"></a>Gestionar acceso de los usuarios a Microsoft Teams
 
@@ -40,7 +40,7 @@ Puede administrar las licencias de Teams en la Centro de administración de Micr
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Usar el Centro de administración de Microsoft 365
 
-Las licencias a nivel de usuario de Teams se administran directamente a través de las interfaces de administración de usuarios Centro de administración de Microsoft 365. Un administrador puede asignar licencias a nuevos usuarios al crear cuentas de usuario, así como a los usuarios con cuentas existentes. 
+Las licencias a nivel de usuario de Teams se administran directamente a través de las interfaces de administración de usuarios Centro de administración de Microsoft 365. Un administrador puede asignar licencias a nuevos usuarios al crear cuentas de usuario, así como a los usuarios con cuentas existentes.
 
 > [!IMPORTANT]
 > El administrador debe tener privilegios de administrador global o administrador de administración de usuarios para administrar las licencias de Microsoft Teams.
