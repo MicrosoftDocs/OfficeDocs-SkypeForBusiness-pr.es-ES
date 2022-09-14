@@ -23,34 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cuando obtenga números de teléfono o números de portabilidad (transferencia) para su organización, es posible que deba obtener ayuda y soporte técnico en el servicio de asistencia técnica de TNS.
-ms.openlocfilehash: 8fd5bb73ebdf5aba4cbadeb885404e1a6a6b4fca
-ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
+ms.openlocfilehash: b490552b9f6f06a70e017b13f120bbb777cb9131
+ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66687876"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67674411"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>Servicios de números de teléfono (TNS): Servicio de asistencia
 
-Hay un nuevo proceso para interactuar con el servicio de servicios de números de teléfono (TNS). Ahora puede abrir y ver incidencias y realizar un seguimiento de la comunicación en un único lugar integrado con el Centro de administración de Teams. En este artículo se describe todo lo que necesita saber para ponerse en contacto con el departamento de servicio.
-
 > [!NOTE]
-> El 22 de julio de 2021 fue retirado el sistema de correo electrónico actual.
+> A partir del 22 de julio de 2021, se ha retirado el sistema de correo electrónico anterior para ponerse en contacto con el servicio de asistencia de TNS.
 
-Para ponerse en contacto con el departamento de servicio:
+Hay un nuevo proceso para interactuar con el servicio de servicios de números de teléfono (TNS) desde nuestro nuevo **[Centro de servicio de números de teléfono](https://pstnsd.powerappsportals.com)**. Ahora puede abrir y ver incidencias y realizar un seguimiento de la comunicación en un único lugar integrado con el Centro de administración de Teams. Estas tareas se describen con más detalle en las secciones siguientes.
 
-1. Inicie sesión en el [Centro de administración de Teams](https://admin.teams.microsoft.com).
-
-2. En el panel izquierdo, selecciona **Voz** y, a continuación, **Números de teléfono**.
-
-3. En la esquina superior derecha de la página, haga clic en **Acciones** y, a continuación, seleccione **Obtener soporte técnico para números de teléfono**. Se le transferirá al Centro de [servicio de números de teléfono](https://pstnsd.powerappsportals.com/)
-
-> [!NOTE]
-> Solo una persona del mismo espacio empresarial puede crear un caso. Por ejemplo, alguien de @fabrikam.com no puede crear un caso en nombre de @contoso.com.
-
-Desde el Centro de servicio de números de teléfono, puede crear nuevos casos, ver casos existentes, comunicarse con el departamento de servicio y administrar su perfil de usuario. Estas tareas se describen con más detalle en las secciones siguientes.
-
-- **Centro de servicio de números de teléfono** : vaya a la página principal del portal.
 
 - **[Crear un nuevo caso](#create-a-new-case)** : envía una nueva solicitud o consulta general.
 
@@ -60,15 +46,16 @@ Desde el Centro de servicio de números de teléfono, puede crear nuevos casos, 
 
 - **[Enviar comentarios](#view-and-manage-existing-cases)**: comparta sus comentarios con nosotros.
 
-- **[Tu nombre]** : actualiza tu página de perfil.
-
 ## <a name="create-a-new-case"></a>Crear un nuevo caso
+
+> [!NOTE]
+> Solo una persona del mismo espacio empresarial puede crear un caso. Por ejemplo, alguien de @fabrikam.com no puede crear un caso en nombre de @contoso.com.
 
 Para crear un caso nuevo, siga estos pasos:
 
 1. Seleccione **Crear un nuevo caso** desde uno de los lugares siguientes:
 
-   - En la página **Centro de servicio de números de teléfono**, en la parte superior de la página o en el icono inferior.
+   - En la página principal del **Centro de servicios de números de teléfono** , en la parte superior de la página o en el icono inferior.
 
    - Desde la página **Ver los casos existentes**.
 
@@ -168,7 +155,7 @@ El tipo de caso solo puede ser uno de los siguientes:
 
   - **Lista de números de teléfono**: la lista de números de teléfono para los que desea cambiar la dirección de emergencia (escriba la dirección deseada en el campo Descripción). Cargue un archivo CSV con la lista de números de teléfono.
 
-***Fecha y hora.** Si selecciona País = Francia, fecha = 14/08/2021 y hora = 10:00, la solicitud se ejecutará el 14/08/2021 a las 10:00 hora francesa.
+**Fecha y hora.** Si selecciona País = Francia, fecha = 14/08/2021 y hora = 10:00, la solicitud se ejecutará el 14/08/2021 a las 10:00 hora francesa.
 
 #### <a name="case-title"></a>Título del caso
 
