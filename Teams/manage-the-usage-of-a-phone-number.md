@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo cambiar el uso de un número de teléfono para usarlo como número de servicio o número de usuario.
-ms.openlocfilehash: 5fb8e65a1a04a28cd69314d2919cefa7f2d988c4
-ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
+ms.openlocfilehash: a2c87a5348e22081107573cd94843cfe4050a198
+ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/13/2022
-ms.locfileid: "67650892"
+ms.locfileid: "67668637"
 ---
 # <a name="manage-the-usage-of-a-phone-number"></a>Administrar el uso de un número de teléfono
 
@@ -35,14 +35,16 @@ Es posible que deba cambiar el uso de un número de teléfono después de que se
 
 Para cambiar el uso de un número de teléfono mediante el Centro de administración de Teams:
 
-1. Abra el Centro de administración de Microsoft Teams e inicie sesión con un administrador global o una cuenta de administrador de Teams. Esta suele ser la cuenta que usaste para registrarte en Microsoft 365.
+1. Abra el Centro de Administración de Microsoft Teams e inicie sesión con una cuenta de administrador global o de administrador de Teams. Esta suele ser la cuenta que usaste para registrarte en Microsoft 365.
 
 2. En el panel de navegación izquierdo, seleccione **Números de teléfono** **de voz**\>.
 
 3. En la página **Números de teléfono** , elige un número sin asignar de la lista y, a continuación, selecciona **Cambiar uso**.
 
       > [!NOTE]
-      > Asegúrate de seleccionar un número **sin asignar** antes de intentar cambiar el uso de este, de lo contrario, la opción no estará visible. Si el número está asignado actualmente, primero debe [quitar el número de teléfono de una cuenta de usuario](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user#remove-a-phone-number-from-a-user) o recurso.
+      > Si no ve la opción **Cambiar uso** , vuelva a comprobar lo siguiente:
+      > - Asegúrate de seleccionar un número **sin asignar** antes de intentar cambiar el uso de este, de lo contrario, la opción no estará visible. Si el número está asignado actualmente, primero debe [quitar el número de teléfono de una cuenta de usuario](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user#remove-a-phone-number-from-a-user) o recurso.
+      > - Debe tener más de un tipo de uso en la columna **Usos disponibles** . En caso contrario, no podrá cambiar el tipo de número a través del Centro de Administración de Teams.
 
 4. En el panel **Cambiar uso** , abra la lista de Usos disponibles para el número de teléfono y seleccione la opción deseada para seleccionarlo.
 
@@ -53,7 +55,7 @@ Para cambiar el uso de un número de teléfono mediante el Centro de administrac
 
 ## <a name="still-need-assistance"></a>¿Sigue necesitando ayuda?
 
-Si necesita ayuda, póngase en contacto con el [servicio de asistencia de TNS](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk).
+Si aún necesita ayuda, póngase en contacto con el [servicio de asistencia de TNS](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk).
 
 ## <a name="related-topics"></a>Temas relacionados
 
