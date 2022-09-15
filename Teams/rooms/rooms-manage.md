@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Obtenga información sobre cómo desarrollar y ejecutar operaciones y mantenimiento continuos para garantizar que los sistemas de Salas de Microsoft Teams están disponibles para los usuarios.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85bb58005159b18a426aed0851ac7a80b11183eb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d9ce5a3ac479bc16526bb044bbc3e4c34d3b1d0e
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271097"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706827"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Administrar Salas de Microsoft Teams
 
@@ -64,7 +64,7 @@ Si selecciona más de una, las opciones de configuración compatibles con la edi
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | *Cuenta*                                                    |                                                        |                    |
 | **Email**                                                    | Email dirección                                          | No                 |
-| **Modo de reunión compatible**                                   | Solo Microsoft Teams<br>Skype for Business (predeterminado) y Microsoft Teams<br>Skype for Business y Microsoft Teams (predeterminado)<br>Solo Skype for Business|Sí|
+| **Modo de reunión compatible**                                   | Solo Microsoft Teams<br>Skype Empresarial (predeterminado) y Microsoft Teams<br>Skype Empresarial y Microsoft Teams (predeterminado)<br>Solo Skype Empresarial|Sí|
 | **Autenticación moderna**                                    | Activado<br>Desactivado                                              | Sí                |
 | **Dirección de Exchange**                                         | Email dirección                                          | No                 |
 | **Dominio\nombre de usuario (opcional)**                               | Nombre de usuario y dominio de la cuenta                           | No                 |
@@ -171,20 +171,20 @@ El Salas de Teams panel del sistema muestra el estado y el estado de todos los d
 
 Para ver información detallada sobre un dispositivo, selecciona su nombre en la lista de dispositivos. Cuando esté en la vista de detalles, puede ver la siguiente información sobre el dispositivo:
 
-- **Estado** Muestra el estado general del dispositivo de sala de Teams. El estado de salud puede ser **Saludable** o **No saludable**.
+- **Estado** Muestra el estado general del dispositivo Salas de Teams. El estado de salud puede ser **Saludable** o **No saludable**.
 - **Sin conexión desde** Muestra la última vez que Microsoft 365 pudo comunicarse con el dispositivo.
 - **Estado del dispositivo** Muestra el estado actual del dispositivo: **Inactivo**, **reunión de Teams**, **reunión de Skype** o **Ingerir**.
-- **Periféricos** Muestra los periféricos conectados al dispositivo de la sala de Teams y su estado de salud. El estado de mantenimiento puede ser **Conectado** o **Desconectado**.
-- **Salud** Muestra información detallada sobre los periféricos conectados al dispositivo de la sala de Teams, la conectividad de red, el estado de inicio de sesión en los servicios necesarios e información de la versión de software.
-- **Detalles** Muestra la información del fabricante, la dirección IP de red y la dirección MAC o serie del dispositivo de sala de Teams.
+- **Periféricos** Muestra los periféricos conectados al dispositivo Salas de Teams y su estado de salud. El estado de mantenimiento puede ser **Conectado** o **Desconectado**.
+- **Salud** Muestra información detallada sobre los periféricos conectados a tu dispositivo Salas de Teams, la conectividad de red, el estado de inicio de sesión en los servicios necesarios e información de la versión de software.
+- **Detalles** Muestra la información del fabricante, la dirección IP de red y la dirección SALAS DE TEAMS dispositivo serie/MAC.
 - **Actividad** Muestra los detalles de la reunión pasada, incluida la fecha y la hora de la reunión, el número de participantes, la duración y la calidad del audio. Para obtener más información sobre los detalles de la reunión, consulte la sección [Detalles](#meeting-activity-details) de la actividad de la reunión más adelante en este artículo.
-- **Historia** Muestra un historial de la actividad de administración en el dispositivo de la sala de Teams, incluidas las actualizaciones de configuración, reinicios de dispositivos y vínculos de descarga de registros de dispositivos.
+- **Historia** Muestra un historial de actividad de administración en el dispositivo Salas de Teams, incluidas las actualizaciones de configuración, reinicios de dispositivos y vínculos de descarga del registro de dispositivos.
 
 #### <a name="meeting-activity-details"></a>Detalles de la actividad de la reunión
 
-La pestaña **Actividad** de los detalles del dispositivo de sala de Teams muestra información detallada y de alto nivel sobre todas las reuniones en las que ha participado el dispositivo a lo largo del tiempo. En la pestaña **Actividad** , puede ver cuándo se celebró una reunión, cuántos participantes asistieron a la reunión y la calidad del audio durante la reunión.
+La pestaña **Actividad** de Salas de Teams detalles del dispositivo muestra información detallada y de alto nivel sobre todas las reuniones en las que ha participado el dispositivo a lo largo del tiempo. En la pestaña **Actividad** , puede ver cuándo se celebró una reunión, cuántos participantes asistieron a la reunión y la calidad del audio durante la reunión.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Lista de resumen de actividad de dispositivos de salas de Teams.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Salas de Teams lista de resumen de actividad del dispositivo.":::
 
 Para ver la información detallada sobre una reunión específica, seleccione la fecha y la hora de la reunión sobre la que desea obtener más información. Si una reunión solo tiene dos participantes, verá la página de detalles del participante; de lo contrario, verá una página de resumen del participante.
 
@@ -192,10 +192,10 @@ Para ver la información detallada sobre una reunión específica, seleccione la
 
 La página de resumen del participante muestra todos los participantes que asistieron a la reunión. Puede ver cuándo se unió cada participante a la reunión, su nombre, su calidad de audio y qué características se usaron durante la sesión. Para ver los detalles de la sesión de un participante, seleccione la hora de inicio de la sesión para ese participante.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Detalles de la conferencia del dispositivo de sala de Teams.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Salas de Teams detalles de conferencia del dispositivo.":::
 
 ##### <a name="participant-details"></a>Detalles del participante
 
 La página de detalles del participante muestra información de diagnóstico de un extremo a otro para la sesión de ese participante. Como se muestra en el siguiente gráfico, se proporciona información de **dispositivo**, **sistema** y **conectividad** para el participante y para el dispositivo Salas de Teams. También se proporciona información de diagnóstico de **red** entre el participante y el dispositivo Salas de Teams. Seleccione el icono del contexto sobre el que desea obtener más información. Para obtener información de diagnóstico adicional, selecciona la pestaña **Avanzadas** .
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Detalles de la llamada del dispositivo de sala de Teams.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Salas de Teams detalles de la llamada del dispositivo.":::

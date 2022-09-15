@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Proporciona una vista del estado de las salas de reuniones.
 f1keywords: ''
-ms.openlocfilehash: d76f1f68e0cc73d2abd554ec5c2fc115139a6a0f
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 3587e1ab6e19fa7eac2519ccffe7c8f3bd19f2fc
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269215"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67707017"
 ---
 # <a name="microsoft-managed-meeting-rooms-portal"></a>Portal de salas de reuniones administrado por Microsoft
 
@@ -55,7 +55,7 @@ Estos son los términos más usados en el portal.
 |Término |Significado |
 | :- | :- |
 |**Software de supervisión** |Agente de supervisión que se implementa en cada uno de los dispositivos de salas de Microsoft Teams. |
-|**Aplicación** |Aplicación de sistema de salas de Microsoft Teams (independientemente de si usa Skype for Business o Microsoft Teams como servicio de colaboración. |
+|**Aplicación** |Aplicación de sistema de salas de Microsoft Teams (independientemente de si usa Skype Empresarial o Microsoft Teams como servicio de colaboración. |
 |**Sala o dispositivo** |El dispositivo certificado del sistema de salas de Microsoft Teams. |
 |**No supervisada** | El software de supervisión de Microsoft implementado como parte de los servicios administrados no puede conectarse a los servicios en la nube. No recibimos telemetría sobre el dispositivo. |
 |<p>**En buen estado /** </p><p>**Insalubre** </p>|Anomalías en dispositivos o periféricos. |
@@ -97,14 +97,14 @@ Al hacer clic en cualquiera de los elementos que tienen el estado "**Necesita ac
 
 Los incidentes se clasifican en dos tipos de gravedad generales:
 
-- **Importante**: Los incidentes que probablemente estén causando problemas en las reuniones deben priorizarse.
-- **Advertencia** : incidentes que son notificaciones para planear acciones de mantenimiento. Si estos no se cuidan, a lo largo del tiempo, es más probable que las salas se encuentren en un problema. Las advertencias están pensadas para darle tiempo para planear y orquestar el apoyo.
+- **Importante**: Incidentes que probablemente causan problemas en las reuniones y que deben priorizarse.
+- **Advertencia** : incidentes que son notificaciones para planear acciones de mantenimiento. Si estos no se cuidan, a lo largo del tiempo, es más probable que las salas se encuentren con un problema. Las advertencias están pensadas para darle tiempo para planear y orquestar el apoyo.
 
 Es posible que una advertencia pase a "**Importante**" si no se atendió durante un tiempo.
 
 ## <a name="health-status-of-device-and-incidents"></a>Estado del dispositivo e incidentes
 
-Los incidentes clasificados como **"Importante"** en gravedad afectarán al estado de un dispositivo. Si hay al menos un incidente de **gravedad = "Importante"** asociado a un dispositivo, se clasifica como dispositivo **_con mal estado_** .
+Los incidentes clasificados como **"Importante"** en gravedad afectarán al estado de un dispositivo. Si hay al menos un incidente de **gravedad = "Importante"** asociado a un dispositivo, se clasifica como dispositivo **_en mal estado_** .
 
 Los incidentes clasificados como de gravedad **"Advertencia"** no afectan al estado notificado en un dispositivo. Sin embargo, si un dispositivo tiene incidentes de nivel de advertencia asociados, se mostrará con el estado del dispositivo como se indica a continuación.
 
@@ -119,11 +119,11 @@ A continuación se indican algunos de los tipos de incidentes que es posible que
 |**Pantalla** |La pantalla conectada al dispositivo no parece estar en buen estado.|
 |**Micrófono de conferencia, orador de conferencia** |Los dispositivos de audio (micrófono / altavoz) parecen estar mal configurados. |
 |**Cámara** |La cámara conectada al dispositivo no parece estar en buen estado. |
-|**Entrada de HDMI** |La ingestión de HDMI no es saludable. |
-|**Inicio de sesión** (Exchange) |La aplicación de salas de Microsoft Teams accede a la información del calendario desde Exchange y cualquier problema relacionado con el inicio de sesión correcto se notificará con un incidente de inicio de sesión. |
-|**Inicio de sesión** (Teams) |La aplicación De salas de Microsoft Teams inicia sesión en el dispositivo y se notificará el error al iniciar sesión con este incidente (si el cliente está usando Teams). |
-|**Inicio de sesión** (Skype for Business) |La aplicación Sala de Microsoft Teams inicia sesión en el dispositivo y se notificará que no se ha iniciado sesión con este incidente (si el cliente está usando Skype for Business) |
-|**Sensor de proximidad** |La aplicación Sala de Microsoft Teams invita a los asistentes a unirse a una reunión si se encuentran cerca. Los errores de esta característica se notificarán en este incidente. |
+|**Entrada de HDMI** |La ingesta de HDMI no es saludable. |
+|**Inicio de sesión** (Exchange) |Salas de Microsoft Teams aplicación tiene acceso a la información del calendario de Exchange y cualquier problema relacionado con el inicio de sesión correcto se notificará con un incidente de inicio de sesión. |
+|**Inicio de sesión** (Teams) |Salas de Microsoft Teams aplicación inicia sesión en el dispositivo y si no se inicia sesión se notificará con este incidente (si el cliente está usando Teams). |
+|**Inicio de sesión** (Skype Empresarial) |Salas de Microsoft Teams aplicación inicia sesión en el dispositivo y se notificará que no se ha iniciado sesión con este incidente (si el cliente está usando Skype Empresarial). |
+|**Sensor de proximidad** |Salas de Microsoft Teams aplicación invita a los asistentes a unirse a una reunión si se encuentran cerca. Los errores de esta característica se notificarán en este incidente. |
 
 **Tabla 2: Incidentes con gravedad "Advertencia"**
 
@@ -146,7 +146,7 @@ Cada incidente tendrá un campo de acción con una acción recomendada de Micros
 ![Captura de pantalla que muestra la acción de incidente recomendada](../media/rooms-monitor-005.jpg)
 
 - Si ha realizado la acción, puede responder al incidente con sus notas en el cuadro Responder y, a continuación, elegir "Asignar a Microsoft" antes de publicar.
-- También es posible que la notificación sea incorrecta en función de su revisión. En ese caso, facilita esos comentarios y vuelve a asignarlos a Microsoft.
+- También es posible que la notificación no sea correcta en función de tu revisión. En ese caso, facilita esos comentarios y vuelve a asignarlos a Microsoft.
 - Por último, si desea agregar un comentario para proporcionar contexto adicional para su propio equipo o para el equipo de Microsoft, publique el mensaje sin activar "Asignar a Microsoft".
 
 >[!NOTE]
@@ -168,15 +168,15 @@ Cada dispositivo es un proxy para una sala y sus periféricos conectados. Un dis
 
 ![Captura de pantalla que muestra la información general del estado de una sala](../media/rooms-monitor-007.jpg)
 
-**En buen estado, No saludable, Desconectado** El panel superior de la vista Salas proporciona una instantánea rápida de cuántos dispositivos están en buen estado ("En buen estado"), cuántos se ven afectados por problemas ("Incorrecto"), cuántos no proporcionan telemetría ("Desconectado") y cuántos dispositivos se suprimen para recibir alertas (como invalidación). Los salones están supervisados por motivos de salud utilizando criterios en evolución y heurística. El objetivo es reflejar la realidad de la experiencia del usuario en la sala con la mayor precisión posible y que sea útil.
+**En buen estado, No saludable, Desconectado** El panel superior de la vista Salas proporciona una instantánea rápida de cuántos de los dispositivos están en buen estado ("Correcto"), cuántos se ven afectados por problemas ("Incorrecto"), cuántos no proporcionan telemetría ("Desconectado") y cuántos dispositivos se suprimen para recibir alertas (como invalidación). Los salones están supervisados por motivos de salud utilizando criterios en evolución y heurística. El objetivo es reflejar la realidad de la experiencia del usuario en la sala con la mayor precisión posible y que sea útil.
 
 **Habitaciones sanas o malsanas**:
 
-Los dispositivos o periféricos que no tengan incidentes de gravedad "Importante" cumplen los criterios actuales de mantenimiento se marcan como correctos. Sin embargo, no implica que haya una interrupción de espacio para cada dispositivo en mal estado en el portal. La descripción y la parte de acción del incidente contiene detalles más específicos sobre el problema y el posible impacto en la experiencia del usuario.
+Los dispositivos o periféricos que no tengan incidentes de gravedad "Importante" cumplen los criterios actuales de mantenimiento se marcan como correctos. Sin embargo, no implica que haya una interrupción de espacio para cada dispositivo con mal estado en el portal. La descripción y la parte de acción del incidente contiene detalles más específicos sobre el problema y el posible impacto en la experiencia del usuario.
 
 **Dispositivo desconectado:**
 
-El agente de supervisión de Microsoft implementado como parte del programa piloto De salas administradas se desconecta de los servicios en la nube de salas administradas. No recibimos telemetría sobre la sala y no tenemos el estado de salud más reciente. Esto puede ocurrir debido a problemas de red, cambios en la directiva de firewall o si se realizan cambios en la imagen del dispositivo.
+El agente de supervisión de Microsoft implementado como parte del programa piloto De salas administradas se desconecta de los servicios en la nube de salas administradas. No recibimos telemetría sobre la sala y no tenemos el estado de mantenimiento más reciente. Esto puede ocurrir debido a problemas de red, cambios en la directiva de firewall o si se realizan cambios en la imagen del dispositivo.
 
 ## <a name="room-detail-status-and-changes"></a>Detalle de la sala: Estado y cambios
 
@@ -205,7 +205,7 @@ Cada incidente que se crea identifica el problema que se ha detectado y la acci�
 ![Captura de pantalla que muestra información general del vale activo](../media/rooms-monitor-012.png)
 
 Vale activo: Mensajes La interfaz de usuario de mensajes es la herramienta de comunicación principal para interactuar con los ingenieros de servicio de Microsoft que trabajan para corregir el problema identificado. Es importante reconocer las comunicaciones de Microsoft para garantizar que le proporcionamos el mejor servicio posible. Si ha realizado las acciones recomendadas, responda a este incidente con sus notas en el cuadro Responder y asígnelas de nuevo a Microsoft haciendo clic en "Asignar a Microsoft" antes de publicar.
-También es posible que la notificación sea incorrecta en función de su revisión. En ese caso, facilita esos comentarios y vuelve a asignarlos a Microsoft.
+También es posible que la notificación no sea correcta en función de tu revisión. En ese caso, facilita esos comentarios y vuelve a asignarlos a Microsoft.
 Por último, si desea agregar un comentario para proporcionar contexto adicional para su propio equipo o para el equipo de Microsoft, simplemente publique el mensaje sin activar "Asignar a Microsoft
 
 ![Captura de pantalla que muestra los mensajes de vale activos](../media/rooms-monitor-013.png)

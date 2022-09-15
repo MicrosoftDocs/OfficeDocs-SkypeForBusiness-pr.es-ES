@@ -1,7 +1,7 @@
 ---
 title: Administrar directivas de voz y llamadas en Teams
-author: mkbond007
-ms.author: mabond
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -12,12 +12,12 @@ audience: admin
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 5a6676d29a439ed978385d096c6e8b0584049557
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d53c05053e2719a88b698497fd4a872c4cb91dab
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270295"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706937"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Administrar directivas de voz y llamadas en Microsoft Teams
 

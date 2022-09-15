@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre el servicio administrado Salas de Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 07b18a45e376c594d23f836ff12f24474f25968b
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606289"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706477"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Salas de Microsoft Teams servicio administrado
 
@@ -124,7 +124,7 @@ La licencia de Salas de Microsoft Teams Pro está disponible en los siguientes p
 |Qué incluye |Qué se excluye |Canales de soporte técnico para elementos excluidos  |
 |---------|---------|---------|
 |**Configuración del servicio**   |         |         |
-|Investigación y orientación para Salas de Microsoft Teams configuración de Windows, incluida la configuración de la aplicación de Salas de Microsoft Teams, la configuración de red de origen, la configuración de software de origen y la configuración y configuración de energía recomendadas.     |Las configuraciones e investigaciones de software de terceros que no forman parte directamente de la aplicación Microsoft Teams Room. Además, las configuraciones específicas de OEM que requieran configuración fuera de las ventanas de origen o la configuración de la aplicación de salas de Microsoft Teams.         |Canales de soporte estándar de terceros         |
+|Investigación y orientación para Salas de Microsoft Teams configuración de Windows, incluida la configuración de la aplicación de Salas de Microsoft Teams, la configuración de red de origen, la configuración de software de origen y la configuración y configuración de energía recomendadas.     |Las configuraciones e investigaciones de software de terceros que no forman parte directamente de la aplicación Salas de Microsoft Teams. Además, todas las configuraciones específicas de OEM que requieran configuración fuera de las ventanas de origen o Salas de Microsoft Teams la configuración de las aplicaciones.         |Canales de soporte estándar de terceros         |
 |**Configuración de la cuenta de sala**    |         |         |
 |Dirección de la documentación disponible para la configuración de la cuenta de sala a petición. Para problemas de inicio de sesión o de configuración de la cuenta, se realiza una investigación inicial.     |Ejecución de corrección o problemas recomendados con la ejecución de la corrección recomendada, la configuración de proveedores de autenticación de terceros y la configuración de características de cuentas individuales.        |Soporte estándar de Microsoft y soporte técnico de proveedores de autenticación de terceros         |
 |**Compatibilidad con periféricos**    |         |         |

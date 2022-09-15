@@ -16,20 +16,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e44cd87189033d6082f38a2d4534738c83187e7b
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 951bbd236417581e57a6b11e3b873716ef7f4c9c
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67487005"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706249"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Información general sobre aplicaciones de terceros en Microsoft Teams
 
 La tienda de Teams ofrece muchas aplicaciones útiles creadas por proveedores y desarrolladores de software de terceros, además de las aplicaciones proporcionadas por Microsoft. Para usarlos, como administrador, establezca un proceso de gobierno de aplicaciones que equilibre los amplios requisitos de los usuarios finales junto con las directivas de TI, los estándares y los perfiles de riesgo de su organización. Si bien estas aplicaciones son creadas por proveedores externos, Microsoft realiza una validación rigurosa de la funcionalidad, la facilidad de uso y la seguridad de estas aplicaciones. Solo después de la validación, Microsoft hace que las aplicaciones estén disponibles en la tienda de Teams. Para que los usuarios finales se beneficien del amplio ecosistema de aplicaciones, la gobernanza de aplicaciones por parte de los administradores es un paso clave.
 
-Microsoft no posee ni el control ni la propiedad de las aplicaciones de terceros en Microsoft Teams, que tampoco se rigen por el Contrato Microsoft Online Subscription. El uso que las organizaciones hacen de cada aplicación de terceros está sujeto a los términos y condiciones, y la declaración de privacidad de las propias aplicaciones. El Centro de administración de Teams le permite comprobar todos los permisos, las declaraciones de privacidad y los términos de uso de una aplicación antes de permitir su uso. Como siempre, puede permitir el uso de una aplicación para algunos usuarios específicos o para todos los usuarios. En el caso de las aplicaciones de terceros, como ocurre con las aplicaciones personalizadas, Microsoft Teams permite a los administradores permitir, denegar, controlar y analizar el uso de las aplicaciones.
+Microsoft no posee ni el control ni la propiedad de las aplicaciones de terceros en Microsoft Teams, que tampoco se rigen por el Contrato Microsoft Online Subscription. El uso que las organizaciones hacen de cada aplicación de terceros está sujeto a los términos y condiciones, y la declaración de privacidad de las propias aplicaciones. El Centro de administración de Teams le permite comprobar todos los permisos, las declaraciones de privacidad y los términos de uso de una aplicación antes de permitir su uso. Como siempre, puede permitir el uso de una aplicación para algunos usuarios específicos o para todos los usuarios. En aplicaciones de terceros, como en el caso de las aplicaciones personalizadas, Teams permite a los administradores permitir, bloquear, gobernar y analizar el uso de las aplicaciones.
 
-Microsoft garantiza que los administradores tengan control sobre las aplicaciones de terceros y que solo las aplicaciones de alta calidad estén disponibles en la tienda de Teams. Todas las aplicaciones pasan por una ronda obligatoria de validación que comprueba la funcionalidad de la aplicación, la identidad del desarrollador, los permisos que busca la aplicación y las comprobaciones relacionadas con el cumplimiento, la privacidad y la seguridad de los datos. Animamos a las aplicaciones a formar parte de un programa opcional para demostrar un enfoque adicional en la seguridad y el cumplimiento de los estándares del sector. Conozca estos programas en los siguientes artículos:
+Microsoft garantiza que los administradores tengan control sobre las aplicaciones de terceros y que solo las aplicaciones de alta calidad estén disponibles en la tienda de Teams. Todas las aplicaciones pasan por una ronda de validación obligatoria que comprueba la funcionalidad de la aplicación, la identidad del desarrollador, los permisos que busca la aplicación y las comprobaciones relacionadas con el cumplimiento, la privacidad, el tratamiento de datos y la seguridad de los datos. Recomendamos que las aplicaciones formen parte de un programa opcional para demostrar un enfoque adicional en el cumplimiento de los estándares del sector, el tratamiento de datos y la seguridad. Conozca estos programas en los siguientes artículos:
 
 1. [Validación de aplicaciones](overview-of-app-validation.md#app-validation-and-testing)
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e557e0901293c26d48e30ed163883f9cd97f12e
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7e540200f42af23ff4382db7ed4ff528971501b9
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790355"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706019"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -202,7 +202,7 @@ Para obtener más información sobre Teams y Aplicaciones Microsoft 365 para emp
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        Este proceso instala Teams en la `%ProgramFiles(x86)%` carpeta de un sistema operativo de 64 bits y en la `%ProgramFiles%` carpeta de un sistema operativo de 32 bits. En este punto, la configuración de la imagen dorada está completa.
+        Este proceso instala Teams en la `%ProgramFiles(x86)%` carpeta de un sistema operativo de 32 bits y en la `%ProgramFiles%` carpeta de un sistema operativo de 64 bits. En este punto, la configuración de la imagen dorada está completa.
 
         > [!IMPORTANT]
         >  Es necesario instalar Teams por equipo para las configuraciones no persistentes.
@@ -403,20 +403,12 @@ Las directivas de VDI de Teams están disponibles en el módulo Teams. Estas dir
 > [!NOTE]
 > Esto es solo para entornos no optimizados.
 
-### <a name="update-a-module-name"></a>Actualizar el nombre de un módulo
+### <a name="connect-to-microsoft-teams-powershell"></a>Conectarse a Microsoft Teams PowerShell
+
+Siga las instrucciones [de Instalar el módulo de Microsoft Teams PowerShell](/Teams/teams-powershell-install.md) para conectarse al módulo de Microsoft Teams PowerShell. A continuación, ejecute el siguiente comando para confirmar que todos los cmdlets VDI están disponibles:
 
 ```PowerShell
-Update-Module -Name MicrosoftTeams -AllowPrerelease
-
-<# Import and connect to online (CSOnline runs the policies) #>
-Import-Module microsoftTeams
-if( -not $sess){
-    $session = New-CsOnlineSession
-    $pss = Import-PSSession $session
-}
-<# Check out the commands #>
 Get-Command -Noun *VDI*
-<#
 ```
 
 ### <a name="set-policies-to-limit-calling-features"></a>Establecer directivas para limitar las características de llamada
@@ -486,7 +478,7 @@ if($cleanup){
 - Con la instalación por equipo, Teams en VDI no se actualiza automáticamente de la forma en que se actualizan los clientes que no son de VDI Teams. Tiene que actualizar la imagen de máquina virtual instalando un nuevo MSI, como se describe en la sección [Instalar o actualizar la aplicación de escritorio de Teams en VDI](#install-or-update-the-teams-desktop-app-on-vdi) . Debe desinstalar la versión actual para actualizar a una versión más reciente.
 - En entornos Citrix, si el usuario se desconecta de la máquina virtual mientras se ejecuta Teams, las actualizaciones de Teams pueden provocar que el usuario se encuentre en un estado no optimizado para AV cuando vuelva a conectarse. Se recomienda que los usuarios salgan de Teams antes de desconectarse de Citrix Virtual Machine para evitar este escenario.
 - Teams debe implementarse por usuario o por equipo. No se admite la implementación de Teams para cada usuario y equipo simultáneos. Para migrar desde cada equipo o por usuario a uno de estos modos, siga el procedimiento de desinstalación y vuelva a implementarlo a cualquier modo.
-- Azure Virtual Desktop no admite clientes basados en macOS ni Linux en este momento.
+- Azure Virtual Desktop no admite clientes basados en Linux en este momento.
 - El cambio rápido de inquilino puede provocar problemas relacionados con las llamadas en VDI, como el uso compartido de la pantalla, que no está disponible. Reiniciar el cliente mitigará estos problemas.
 
 ### <a name="notifications"></a>Notificaciones

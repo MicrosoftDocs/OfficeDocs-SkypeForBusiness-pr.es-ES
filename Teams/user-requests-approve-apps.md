@@ -14,16 +14,16 @@ ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
-description: Obtenga información sobre cómo administrar y configurar la solicitud del usuario final para permitir las aplicaciones que están bloqueadas en una organización.
+description: Obtenga información sobre cómo administrar y configurar la solicitud del usuario final para la aprobación de las aplicaciones que están bloqueadas en una organización.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 62d34aae25ef1ebff585ea430aeb3db20856669a
-ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
+ms.openlocfilehash: 0967aec80bb88dff12141040fead94af9aae0616
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67657330"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706229"
 ---
 # <a name="manage-user-requests"></a>Administrar solicitudes de usuario
 
@@ -75,18 +75,18 @@ Para configurar un mensaje personalizado y redirigir a los usuarios a una direcc
 
 1. En la esquina superior derecha, seleccione **Configuración de aplicaciones para toda la organización**.
 
-1. Para mostrar un mensaje personalizado o instrucciones en el almacén de Teams, escriba un mensaje de texto en el campo de texto en **Configuración de solicitudes de usuario**.
+1. Para mostrar un mensaje personalizado o instrucciones en el almacén de Teams, escriba un mensaje de texto en el campo de texto en **Configuración de solicitudes de usuario**. El campo tiene un límite de 300 caracteres.
 
 1. Para proporcionar una dirección URL específica de la organización para recopilar solicitudes de usuario, siga estos pasos:
 
    1. Activa el botón de alternancia **Redirigir solicitudes a vínculo externo** .
    1. Proporcione la dirección URL específica de su organización.
 
-      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="Captura de pantalla para cambiar la personalización de la dirección URL de la solicitud del usuario para desbloquear la aplicación en la interfaz de usuario de configuración de toda la organización.":::
+      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="Captura de pantalla para cambiar la personalización de la dirección URL de las solicitudes de usuario en la interfaz de usuario de configuración de toda la organización.":::
 
 1. Seleccione **Guardar**.
 
-Los métodos para evaluar y permitir las aplicaciones solicitadas siguen siendo los mismos.
+Si decide hacerlo, los métodos para evaluar las aplicaciones de terceros y permitir las aplicaciones solicitadas siguen siendo los mismos.
 
 ## <a name="dismiss-user-requests"></a>Descartar solicitudes de usuario
 

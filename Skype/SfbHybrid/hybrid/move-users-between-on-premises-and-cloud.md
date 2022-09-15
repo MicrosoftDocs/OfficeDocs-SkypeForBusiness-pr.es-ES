@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumen: en una implementación local de Skype Empresarial Server habilitada para híbridos, puede mover usuarios entre el entorno local y la nube.'
-ms.openlocfilehash: 93aea5e294bbaf8d6988e5bfdeaafb1340345bdf
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: ac32c4037cf275d9a6a7545701c1899742d8fd12
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682659"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705879"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Mover usuarios entre la implementación local y la nube
 
@@ -34,7 +34,7 @@ En una implementación local de Skype Empresarial Server, los usuarios de Skype 
 - Comunicación de interoperabilidad a través del cliente de Teams del usuario con otros usuarios de la organización que usan Skype Empresarial cliente.
 - Funcionalidad de llamada RTC (si al usuario se le asigna una licencia del sistema telefónico).
 
-Para obtener una funcionalidad completa de Teams, estos usuarios deben moverse de Skype Empresarial local a la nube, momento en el que el usuario se convierte en TeamsOnly. El acto de mover un usuario del entorno local a la nube establecerá el modo de coexistencia del usuario en TeamsOnly. Una vez que los usuarios se mueven a la nube y TeamsOnly, todos los chats y llamadas entrantes llegan a su cliente de Teams. Para obtener más información, consulte [Coexistencia de Teams con Skype Empresarial](/microsoftteams/coexistence-chat-calls-presence) y [Guía de migración e interoperabilidad para organizaciones que usan Teams junto con Skype Empresarial](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
+Para obtener una funcionalidad completa de Teams, estos usuarios deben moverse de Skype Empresarial local a la nube, momento en el que el usuario se convierte en TeamsOnly. El acto de mover un usuario del entorno local a la nube establecerá el modo de coexistencia del usuario en TeamsOnly. Una vez que los usuarios se mueven a la nube, son TeamsOnly, lo que significa que todos los chats y llamadas entrantes llegan a su cliente de Teams. Para obtener más información, consulte [Coexistencia de Teams con Skype Empresarial](/microsoftteams/coexistence-chat-calls-presence) y [Guía de migración e interoperabilidad para organizaciones que usan Teams junto con Skype Empresarial](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
 Para mover usuarios de la implementación de Skype Empresarial Server local a la nube, es necesario configurar [Skype Empresarial híbrido](/skypeforbusiness/hybrid/plan-hybrid-connectivity).  Una vez que la implementación está habilitada para la implementación híbrida, puede mover usuarios del entorno local a la nube para convertirlos en TeamsOnly, como se describe a continuación. Si es necesario, también puede mover a los usuarios de TeamsOnly a la implementación local de Skype for Bsuiness. 
 
@@ -48,7 +48,7 @@ Requisitos previos para mover un usuario al modo TeamsOnly:
 - Skype Empresarial híbrido debe configurarse, como se describe en [Configurar Skype Empresarial híbrido](configure-federation-with-skype-for-business-online.md).
 - Al usuario se le debe asignar una licencia para Teams y Skype Empresarial En línea (plan 2). Incluso después de la retirada de Skype Empresarial Online, la licencia de Skype Empresarial Online sigue siendo necesaria.  Además:
     - Si el usuario está habilitado para las conferencias de acceso telefónico local, el usuario también debe tener una licencia de audioconferencia asignada en Teams antes de mover al usuario en línea. Una vez que se haya migrado a la nube, el usuario se aprovisionará para las conferencias de audio en la nube. 
-    - Si el usuario está habilitado para Telefonía IP empresarial en el entorno local, el usuario debe tener una licencia del sistema telefónico asignada en Teams antes de mover al usuario en línea. Una vez migrado a la nube, el usuario se aprovisionará para El sistema telefónico en la nube. 
+    - Si el usuario está habilitado para Telefonía IP empresarial en el entorno local, el usuario debe tener una licencia de Teléfono de Teams asignada en Teams antes de mover el usuario en línea. Una vez migrado a la nube, el usuario se aprovisionará para El sistema telefónico en la nube. 
   
 A partir del 31 de julio de 2022, para mover usuarios entre una implementación local y la nube, debe usar la siguiente versión mínima de Skype Empresarial Server o Lync Server:
 
@@ -60,7 +60,6 @@ A partir del 31 de julio de 2022, para mover usuarios entre una implementación 
 |Skype Empresarial Server 2019| CU6 |7.0.2046.385|
 |Skype Empresarial Server 2015| CU12|6.0.9319.619|
 |Lync Server 2013| CU10 con revisión 7|5.0.8308.1182|
-||||
 
 </br>
 </br>
@@ -69,10 +68,16 @@ A partir del 31 de julio de 2022, para mover usuarios entre una implementación 
 
 Cuando un usuario se traslada del entorno local a la nube:
 
-- Los usuarios de Teams se habilitan para la interoperabilidad con Skype Empresarial usuarios y, si son TeamsOnly, también pueden federarse con otras organizaciones.
+- El usuario se convierte en un usuario de TeamsOnly, lo que significa que el usuario:
+   -  Recibe e inicia todos los chats y llamadas en el cliente de Teams.
+   -  Programa todas las reuniones en Teams.
+   -  No se pueden iniciar chats ni llamadas, ni programar reuniones en Skype Empresarial.
+   -  Puede unirse a Skype Empresarial reuniones que ya tengan o reciban en el futuro. Sin embargo, después de que Microsoft quite la infraestructura de Skype Empresarial Online para un usuario de TeamsOnly determinado, los usuarios de TeamsOnly solo pueden unirse a Skype Empresarial reuniones de forma anónima. A partir de octubre de 2022, los usuarios que se muevan del entorno local a Teams Solo en las organizaciones híbridas ya no se aprovisionarán con la infraestructura de Skype Empresarial Online. Si se invita a estos usuarios a una reunión de Skype Empresarial, tendrían que unirse de forma anónima. Para obtener más información, consulte [Guía para organizaciones con implementaciones locales de Skype Empresarial Server](/MicrosoftTeams/skype-for-business-online-retirement.md#guidance-for-organizations-with-on-premises-deployments-of-skype-for-business-server).
+
+- Los usuarios se habilitan para la interoperabilidad con Skype Empresarial usuarios y también pueden federarse con otras organizaciones.
 - Los contactos del entorno local se mueven a Teams.
 - Las reuniones existentes que organizaron y que están programadas en el futuro se convierten en reuniones de Teams. La migración de reuniones se produce de forma asíncrona y comienza aproximadamente 90 minutos después de mover el usuario.  Para determinar el estado de la migración de reuniones, puede usar [Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms). No se mueve ningún contenido que se haya cargado antes de la reunión.
-- Los usuarios a los que se les asigna el sistema telefónico pueden acceder a la funcionalidad RTC una vez configurados correctamente.
+- Los usuarios a los que se les asigna una licencia de Teléfono de Teams pueden acceder a la funcionalidad RTC una vez configurados correctamente.
  
 Para mover usuarios a Teams, use el cmdlet Move-CsUser o el Skype Empresarial Administración Panel de control, que son herramientas locales. Estas herramientas admiten las siguientes rutas de acceso de movimiento:
 
@@ -81,7 +86,7 @@ Para mover usuarios a Teams, use el cmdlet Move-CsUser o el Skype Empresarial Ad
 
 
 > [!NOTE] 
->  El comportamiento para moverse directamente desde el entorno local a Solo Teams ahora es automático, independientemente de la versión de Skype Empresarial Server o lync server que se use. Ya no es necesario especificar el modificador -MoveToTeams en Move-CsUser para mover usuarios directamente desde el entorno local a TeamsOnly. Anteriormente, si no se especificaba este modificador, los usuarios pasaron de estar hospedados en Skype Empresarial Server local a Skype Empresarial En línea y su modo permaneció sin cambios. Ahora, al mover un usuario del entorno local a la nube con Move-CsUser, se asigna automáticamente al usuario el modo TeamsOnly y sus reuniones desde el entorno local se convierten automáticamente en reuniones de Teams, como si se hubiera especificado el `-MoveToTeams` modificador, independientemente de si el modificador se especificó realmente. 
+>  El comportamiento para moverse directamente desde el entorno local a Solo Teams es automático, independientemente de qué versión de Skype Empresarial Server o Lync Server se use. Ya no es necesario especificar el `-MoveToTeams` modificador en `Move-CsUser` para mover usuarios directamente del entorno local a TeamsOnly. Anteriormente, si no se especificaba este modificador, los usuarios pasaron de estar hospedados en Skype Empresarial Server local a Skype Empresarial En línea y su modo permaneció sin cambios. Ahora, al mover un usuario del entorno local a la nube con `Move-CsUser`, a los usuarios se les asigna automáticamente el modo TeamsOnly y sus reuniones del entorno local se convierten automáticamente en reuniones de Teams, igual que si se hubiera especificado el `-MoveToTeams` modificador, independientemente de si realmente se especificó el modificador. 
 
 
 ## <a name="required-administrative-credentials"></a>Credenciales administrativas necesarias
@@ -115,7 +120,7 @@ Para obtener más información sobre las opciones de telefonía en entornos híb
 
 Las directivas (como, por ejemplo, controlar el comportamiento de la mensajería, las reuniones y las llamadas) en entornos locales y en línea son independientes. Es posible que quiera considerar la posibilidad de configurar las directivas en el entorno y asignarlas al usuario antes de mover ese usuario del entorno local a la nube, de modo que tenga la configuración correcta en cuanto se migre a en línea.
 
-## <a name="see-also"></a>Recursos adicionales
+## <a name="see-also"></a>Vea también
 
 [Mover usuarios locales a Microsoft Teams](move-users-from-on-premises-to-teams.md)
 

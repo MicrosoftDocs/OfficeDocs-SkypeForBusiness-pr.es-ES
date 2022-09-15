@@ -1,7 +1,7 @@
 ---
 title: Administrar la configuración de las reuniones
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
-ms.openlocfilehash: c76267ae5cd9a19cae272d995a24077a58a7ec6f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
-ms.translationtype: HT
+ms.openlocfilehash: c25405dd305a8556309559d4941dd731331e6d75
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789795"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706507"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de las reuniones en Microsoft Teams
 
@@ -179,7 +179,7 @@ Tipo de tráfico de medios | Rango de puertos de origen del cliente \* |Protocol
 |:---             |:---                         |:---    |:---      |:---      |
 |Audio            | 50 000 – 50 019               |TCP/UDP |46        |Desvío rápido (EF)|
 |Vídeo            | 50 020 – 50 039               |TCP/UDP |34        |Desvío garantizado (AF41)|
-|Aplicación/Compartir pantalla| 50 040 – 50 059      |TCP/UDP |18         |Desvío garantizado (AF21)|
+|Aplicación/Compartir pantalla| 50 040 – 50 059      |TCP/UDP |18        |Desvío garantizado (AF21)|
 | | | | |
 
 \* Los rangos del puerto asignados no deben superponerse y deben ser adyacentes entre sí.

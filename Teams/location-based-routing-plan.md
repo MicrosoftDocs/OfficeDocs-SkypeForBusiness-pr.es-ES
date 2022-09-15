@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 795433f832d57767a7937be1a9d3e7f31e73f240
-ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.openlocfilehash: f7b6b360f51c803aef3eb7811b15c17a748df5f0
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "67647444"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705839"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -397,7 +397,7 @@ Si el usuario habilitado Location-Based enrutamiento se une a la llamada de conf
 
 Las conferencias en red para Audioconferencia NO se deben implementar con ningún equipo de telefonía en India.
 
-Un usuario habilitado para enrutamiento Location-Based en una llamada RTC no puede combinar esa llamada con otra llamada.
+Un usuario habilitado para enrutamiento Location-Based en una llamada RTC no puede combinar esa llamada con otra llamada. No se admiten las siguientes acciones: grabación de la llamada RTC y grabación de cumplimiento de la llamada RTC.
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de omisión de medios para enrutamiento de Location-Based
 

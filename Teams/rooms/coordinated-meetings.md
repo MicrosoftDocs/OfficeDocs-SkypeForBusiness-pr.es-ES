@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Configura Salas de Teams dispositivos y Surface Hub para que se unan a reuniones cuando un dispositivo u otro se una a una reunión.
-ms.openlocfilehash: f34e3637c9c9716c6f8ec87865c3c570820a0357
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759574015f2138476e0b03ef6fa85b8b105d81ef
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270485"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706987"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Configurar reuniones coordinadas con Salas de Microsoft Teams y Surface Hub
 
@@ -73,7 +73,7 @@ En una aplicación de hoja de cálculo, agregue filas para lo siguiente en la pr
 | **Vídeo habilitado**      | Determina si los participantes de una reunión pueden activar o desactivar la cámara. Puedes establecerlo `true` en cualquier otro dispositivo del evento en el que los participantes quieran compartir diferentes perspectivas del vídeo (por ejemplo, si un participante usa la pizarra interactiva de Surface Hub). Si no desea que los participantes activen o desactiven una cámara en un dispositivo, establezca esta opción `false`en .<p> Si **el valor predeterminado del vídeo** es `true`, esta configuración se ignora y los participantes pueden activar o desactivar la cámara.         |
 | **Pizarra predeterminada** | Determina si el dispositivo de Salas de Teams mostrará una pizarra compartida por uno de los participantes de la reunión. Te recomendamos que establezcas esta opción en `false` si tienes un Surface Hub y `true` si no tienes ninguna. Esta configuración no tiene ningún efecto en Surface Hubs. Los Surface Hub siempre mostrarán una pizarra compartida por los participantes de la reunión.         |
 | **Pizarra habilitada** | Determina si los participantes de una reunión pueden activar o desactivar la pizarra interactiva. Si no desea que los participantes activen o desactiven la pizarra en un dispositivo, establezca esta opción `false`en . <p>Si **el valor predeterminado de Whiteboard** es `true`, esta configuración se ignora y los participantes pueden activar o desactivar la pizarra.
-| **Cuentas de confianza**   | Esta es una lista de UPN separados por comas para cada dispositivo de sala de Teams o Surface Hub desde la que el dispositivo debe aceptar convocatorias de unión a una reunión, o a la que se deben enviar convocatorias de unión a la reunión. |
+| **Cuentas de confianza**   | Esta es una lista de UPN separados por comas para cada dispositivo Salas de Teams o Surface Hub desde el que el dispositivo debe aceptar convocatorias de unión a una reunión, o a la que se deben enviar convocatorias de unión a una reunión. |
 
 En las columnas siguientes, agrega cada uno de los dispositivos Salas de Teams y Surface Hub. En cada columna, rellene los valores que correspondan a la experiencia que desee para la sala de reuniones. Este es un ejemplo con un dispositivo Salas de Teams y un Surface Hub:
 

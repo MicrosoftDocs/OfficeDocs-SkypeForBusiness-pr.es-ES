@@ -21,23 +21,23 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adcaee64e2a95d41229afe580624c6798547cb85
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fd4b50052483c9f6e5221f3555a962adfe2444d3
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271705"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706009"
 ---
 # <a name="plan-for-sip-gateway"></a>Planear la puerta de enlace SIP
 
-Sip Gateway permite a su organización usar cualquier dispositivo SIP compatible con Microsoft Teams para conservar sus inversiones en dispositivos SIP. Ahora puede iniciar sesión en Teams con sus credenciales corporativas y realizar y recibir llamadas con un dispositivo SIP compatible. Los dispositivos compatibles se pueden Skype for Business teléfonos IP con firmware SIP estándar, teléfonos IP Cisco con firmware SIP multiplataforma o dispositivos SIP de proveedores como Poly, Yealink y AudioCodes. Para obtener información sobre cómo configurar los dispositivos SIP para puerta de enlace SIP, consulte [Configurar puerta de enlace SIP](sip-gateway-configure.md).
+Sip Gateway permite a su organización usar cualquier dispositivo SIP compatible con Microsoft Teams para conservar sus inversiones en dispositivos SIP. Ahora puede iniciar sesión en Teams con sus credenciales corporativas y realizar y recibir llamadas con un dispositivo SIP compatible. Los dispositivos compatibles pueden ser Skype Empresarial teléfonos IP con firmware SIP estándar, teléfonos IP Cisco con firmware SIP multiplataforma o dispositivos SIP de proveedores como Poly, Yealink y AudioCodes. Para obtener información sobre cómo configurar los dispositivos SIP para puerta de enlace SIP, consulte [Configurar puerta de enlace SIP](sip-gateway-configure.md).
 
 ## <a name="benefits-of-sip-gateway"></a>Ventajas de la puerta de enlace SIP
 
 SIP Gateway conecta dispositivos SIP compatibles a Teams para ayudar a los usuarios a migrar sin problemas a la telefonía de Teams. Con puerta de enlace SIP, los usuarios pueden hacer lo siguiente:
 
-- **Realizar llamadas:** Los usuarios de dispositivos SIP pueden realizar llamadas a la red telefónica conmutada (RTC), a otros dispositivos SIP y a teams y usuarios de Skype for Business. Los usuarios de dispositivos SIP solo pueden llamar a usuarios con números de teléfono.
-- **Recibir llamadas:** Los usuarios de dispositivos SIP pueden recibir una llamada desde RTC, desde Teams o Skype for Business usuarios que tengan dispositivos SIP, y desde Teams y Skype for Business aplicaciones cliente. El dispositivo SIP actúa como punto de conexión de Teams. Las llamadas entrantes también se bifurcarán en el dispositivo SIP del usuario.
+- **Realizar llamadas:** Los usuarios de dispositivos SIP pueden realizar llamadas a la red telefónica conmutada (RTC), a otros dispositivos SIP y a Teams y a los usuarios de Skype Empresarial. Los usuarios de dispositivos SIP solo pueden llamar a usuarios con números de teléfono.
+- **Recibir llamadas:** Los usuarios de dispositivos SIP pueden recibir una llamada desde RTC, desde Teams o Skype Empresarial usuarios que tengan dispositivos SIP, y desde Teams y Skype Empresarial aplicaciones cliente. El dispositivo SIP actúa como punto de conexión de Teams. Las llamadas entrantes también se bifurcarán en el dispositivo SIP del usuario.
 - **Varias llamadas simultáneas:** Un usuario de un dispositivo SIP en una llamada puede poner la llamada en espera para realizar o recibir otras llamadas. Un usuario de dispositivo SIP también puede conferenciar dos llamadas.
 - **No molestar:** Un usuario de dispositivo SIP puede establecer No molestar en el dispositivo para que el dispositivo no suene para las llamadas entrantes. Esto no afecta al estado del usuario en el resto de los puntos de conexión de Teams.
 - **Mantener/Reanudar y Silenciar/Reactivar audio:** Un usuario de dispositivo SIP puede retener y reanudar o silenciar y reactivar el audio de una llamada mediante las características de esas acciones en el dispositivo.
@@ -61,7 +61,7 @@ Los usuarios de Teams deben tener un número de teléfono con las llamadas RTC h
 
 Si tiene un dispositivo SIP o 3PIP, debe tener:
 
-- Una licencia de Phone System (a través de E5 o una licencia independiente)
+- Una licencia de Microsoft Teams, Skype Empresarial Online Plan 2 y Microsoft 365 Phone System (a través de E5 o licencias independientes)
 - Habilitación de RTC (es decir, un número de teléfono) a través de un plan de llamadas de Microsoft Teams, enrutamiento directo o conexión de operadores
 - Una licencia de Teléfono de área común para cualquier dispositivo de área común
 
@@ -175,4 +175,4 @@ Si tiene un dispositivo SIP o 3PIP, debe tener:
 > Para consultas de soporte técnico, los clientes que usen sistemas IP-DECT con Puerta de enlace SIP de Teams deben ponerse en contacto con el fabricante de DECT o con sus socios del canal de implementación.
 
 > [!NOTE]
-> Para algunos dispositivos, la versión mínima de firmware es mayor que la versión de firmware aprobada. Esto se debe a que la versión 3.X es la versión Skype for Business. Actualizamos la versión SIP que es 2.X.
+> Para algunos dispositivos, la versión mínima de firmware es mayor que la versión de firmware aprobada. Esto se debe a que la versión 3.X es la versión Skype Empresarial. Actualizamos la versión SIP que es 2.X.

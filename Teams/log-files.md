@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Obtenga información sobre los registros de depuración, medios y escritorio producidos por Microsoft Teams, dónde se pueden encontrar y cómo pueden ayudarle con la supervisión y la solución de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ab00f7a1eedf2b1341819c7ec1c67abeb5f6e38
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 2edddca64bf0cb50dc29758fd60bc397cbc00f8b
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486895"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705819"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>Configurar archivos de registro para supervisar y solucionar problemas en Teams
 
@@ -34,6 +34,8 @@ Hay tres tipos de archivos de registro generados automáticamente por el cliente
 -   [Registros de escritorio](#desktop-logs)
 
 En este artículo se describen estos registros y cómo se usan. Para obtener información sobre cómo solucionar problemas específicos, consulte: [Solución de problemas de Teams](/MicrosoftTeams/troubleshoot/teams). 
+
+Para obtener información sobre cómo recopilar registros de dispositivos Salas de Microsoft Teams, consulta [Descargar registros de dispositivos](/microsoftteams/rooms/rooms-manage#download-device-logs).
 
 Para obtener información sobre cómo ponerse en contacto con el soporte técnico, consulta [Obtener soporte técnico](/microsoft-365/business-video/get-help-support).
 

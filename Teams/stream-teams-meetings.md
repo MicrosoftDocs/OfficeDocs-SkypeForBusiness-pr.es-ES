@@ -1,7 +1,7 @@
 ---
 title: Hacer streaming de reuniones de Teams
-author: mkbond007
-ms.author: mabond
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: suchakr
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo configurar y administrar el streaming para las reuniones de Teams.
-ms.openlocfilehash: 5e1e84fc3b0b4ed2f81b3f3a8c84450dc3cee56c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b8394abfe66ecde6813e383e0473bcdca2a0ad9f
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270185"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67707007"
 ---
 # <a name="stream-teams-meetings"></a>Hacer streaming de reuniones de Teams
 

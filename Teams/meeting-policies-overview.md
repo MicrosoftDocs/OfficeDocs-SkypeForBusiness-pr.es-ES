@@ -1,7 +1,7 @@
 ---
 title: Administrar directivas de reunión en Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: Descubra cómo administrar la configuración de una directiva de reunión en Teams con el fin de controlar las características disponibles para sus participantes en reuniones programadas por usuarios.
-ms.openlocfilehash: 99c84f6c0dfcbd20824a90af49739eace200ecd2
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 0561c2bcd7f2e88000c7ab3c97b480051da58622
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396551"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706427"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>Administrar directivas de reunión en Microsoft Teams
 

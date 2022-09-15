@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: En este artículo se describe cómo usar la herramienta de recuperación para Salas de Microsoft Teams, que usarías para poner un sistema obsoleto en un estado admitido.
-ms.openlocfilehash: c50b59ff4ed1ee997b990b0776ef4a7ee0ac29c2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 70b2d199c4fe13138e2f46fd0b49e95efbd18e9c
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271165"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706169"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Usar la herramienta de recuperación de Sala de Microsoft Teams
 
@@ -30,7 +30,7 @@ En este artículo se describe cómo usar la herramienta de recuperación para Sa
 Descarga el [paquete de instalación de Salas de Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=851168) más reciente y descárgalo en un memory stick USB o en un recurso compartido de red accesible para Salas de Microsoft Teams.
 
 > [!NOTE]
-> Extraer los archivos del MSI puede lograrse por muchos medios. Es aceptable cualquier mecanismo que extraiga todos los archivos y conserve su estructura de directorios. Una de estas formas es usar el comando `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` donde `PathToMsi` representa la ruta de acceso completa al paquete de instalación de Salas de Microsoft Teams y `PathToTarget` representa la ruta de acceso completa a la carpeta a la que desea extraer los archivos.
+> Extraer los archivos del MSI puede lograrse por muchos medios. Es aceptable cualquier mecanismo que extraiga todos los archivos y conserve su estructura de directorios. Una de estas formas es usar el comando `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` where `PathToMsi` representa la ruta de acceso completa al paquete de instalación de Salas de Microsoft Teams y `PathToTarget` representa la ruta de acceso completa a la carpeta a la que desea extraer los archivos.
 
 ## <a name="running-the-tool"></a>Ejecutar la herramienta
 

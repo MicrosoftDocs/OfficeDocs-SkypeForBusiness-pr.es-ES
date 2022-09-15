@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Obtén información sobre los requisitos para admitir Salas de Microsoft Teams, incluida la elección del dispositivo, micrófonos, altavoces, cámaras y pantallas adecuados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84566f8dea2f687d2981d56c837bb0d92241d254
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: bd4376a8d34be2c0184844b015531c7b496c94c4
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418479"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706687"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de la sala de Microsoft Teams
 
@@ -43,11 +43,11 @@ Consulte:
 > Si tiene un servidor de Exchange local, las salas de Microsoft Teams requieren el uso de Exchange Server 2013 SP1 o posterior.
 
 ## <a name="hardware-requirements"></a>Requisitos de hardware
-Una implementación de hardware incluye una selección de un sistema de sala de Microsoft Teams, combinada con periféricos de audio y vídeo certificados, y una solución de cableado para integrar estos dispositivos.  A continuación se describen todas las opciones.
+Una implementación de hardware incluye una selección de un sistema de Salas de Microsoft Teams, combinado con periféricos de audio y vídeo certificados, y una solución de cableado para integrar estos dispositivos juntos.  A continuación se describen todas las opciones.
 
-**Sistemas de sala de Microsoft Teams compatibles**
+**Sistemas de Salas de Microsoft Teams compatibles**
 
-Todos los dispositivos y paquetes actuales de la Sala de Microsoft Teams están disponibles en el [escaparate de productos de los sistemas de la Sala](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
+Todos los dispositivos y paquetes de Salas de Microsoft Teams actuales están disponibles en la [Salas de Teams presentación del producto](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
 
   |Consola|Procesador|RAM|Disco|
   |:-----|:-----|:-----|:-----|
@@ -142,6 +142,7 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |[Sistema de conferencias Aver VC520 PRO2](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ Barra de sonido de la cámara](https://www.averusa.com/products/conference-camera/vb342plus) | Barra de sonido: 0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
+|[Aver CAM 550](https://www.averusa.com/products/conference-camera/cam550) |0.0.8000.51 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
 |[Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) |0.0.7200.3 |
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
@@ -220,6 +221,7 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |[Shure MXA 710 4ft Wall Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 procesador de audioconferencia](https://www.shure.com/products/mixers/p300) +</br>[Altavoz de techo MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 Micrófono de matriz lineal de pared de 4ft: 1.2.0 </br> P300 DSP: 4.4.8 </br> Altavoz MXN5-C: 1.1.1 |
 |[Shure MXA 910 con micrófono intellimix de matriz de techo](https://www.shure.com/products/microphones/mxa910) + </br> [Software de sala Shure Intellimix](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Software de sala Shure Intellimix: 3.0.4.14 </br> Shure MXA 910 con micrófono intellimix de matriz de techo: 4.4.11 </br> Altavoces Shure MXN5-C: 1.2.1 </br> Crestron UC-C100-T con ASUS Tek Computer INC 9934 compute | 
 |[Shure MXA 910 con micrófono intellimix de matriz de techo](https://www.shure.com/products/microphones/mxa910) + </br> [Software de sala Shure Intellimix](https://www.shure.com/products/software/intellimix_room) +</br>Lenovo ThinkSmart Core | Software de sala Shure Intellimix: 3.2.0.52 </br> Shure MXA 910 con micrófono intellimix de matriz de techo: 4.4.11 </br> Altavoces Shure MXN5-C: 1.2.1 |
+|[Shure MXA920XX-R Micrófono de matriz de techo redondo](https://www.shure.com/en-US/products/microphones/mxa920?variant=MXA920AL-R) + </br> [Procesador P300](https://www.shure.com/en-US/products/mixers/p300?variant=P300-IMX) + </br> [Altavoces MXN5](https://www.shure.com/en-US/products/loudspeakers/mxn5) | MXA920XX-R: 1.1.56 </br> Procesador P300: 4.7.7 </br> Altavoces MXN5: 1.5.6 |
 |[Shure MXA 910 con micrófono intellimix de matriz de techo](https://www.shure.com/products/microphones/mxa910) + </br> [Software de sala Shure Intellimix](https://www.shure.com/products/software/intellimix_room) +</br>Dell Optiplex 7080 | Software de sala Shure Intellimix: 3.2.0.52 </br> Shure MXA 910 con micrófono intellimix de matriz de techo: 4.4.11 </br> Altavoces Shure MXN5-C: 1.2.1 |
 |[Sennheiser TeamConnect Altavoz inteligente/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp)|1.0.2|
 |[Biamp Tesira Fore AVB VT4 audio fijo DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br>[Micrófono de techo 2 Sennheiser TeamConnect](https://sennheiser.com/tcc2)+ &Dagger;</br>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15 </br> TCC2: 1.3.3 </br>EX-UBT: 3.12.0.15 |

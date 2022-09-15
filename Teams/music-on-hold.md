@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Aprende a administrar la función Música en espera de Sistema telefónico.
-ms.openlocfilehash: 9d8fa247ffdc982c5d41777c68f6b620a92644e3
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: e218de46e56c2e2f85ed2b19cea21cbc4d4679be
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773759"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706179"
 ---
 # <a name="music-on-hold"></a>Música en espera
 
@@ -129,6 +129,8 @@ En la tabla siguiente se indican las características en las que los clientes y 
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | Espera en llamada RTC 1:1 | -Música en espera<br>-Música personalizada en espera | -Música en espera<br>-Música personalizada en espera | -Música en espera<br>-Música personalizada en espera | -Música en espera<br>-Música personalizada en espera | -Música en espera<br>-Música personalizada en espera |
 | Espera en llamada de Teams 1:1 | -Música en espera<br>-Música personalizada en espera | -Música en espera<br>-Música personalizada en espera | -Música en espera<br>-Música personalizada en espera | -Música en espera<br>-Música personalizada en espera | -Música en espera<br>-Música personalizada en espera |
+| Espera en transferencia en llamada RTC 1:1 | -Música en espera<br>-Música personalizada en espera | -Música en espera<br>-Música personalizada en espera | | |
+| Espera en la transferencia en llamada de Teams 1:1 | -Música en espera<br>-Música personalizada en espera | -Música en espera<br>-Música personalizada en espera| | | |
 | Espera en transferencia consultiva en llamada RTC 1:1 |-Música en espera<br>-Música personalizada en espera || -Música en espera<br>-Música personalizada en espera | -Música en espera<br>-Música personalizada en espera | -Música en espera<br>-Música personalizada en espera |
 | Retener la transferencia consultiva en la llamada de Teams 1:1 |-Música en espera<br>-Música personalizada en espera || -Música en espera<br>-Música personalizada en espera | -Música en espera<br>-Música personalizada en espera | -Música en espera<br>-Música personalizada en espera |
 
