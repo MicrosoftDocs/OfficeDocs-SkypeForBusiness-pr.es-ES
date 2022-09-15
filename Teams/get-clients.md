@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec6958c481cf8d16477aeb7728b82b76de8f78b
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: f53dd50f78afa2d85c4858e2d98170b3dc044f55
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706717"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732319"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams
 
@@ -198,6 +198,9 @@ Si está en China, puede instalar Teams desde las siguientes tiendas de aplicaci
 - **Huawei** <https://aka.ms/TeamsHuawei>
 - **Oppo** Buscar "Teams" en la tienda Oppo
 - **Baidu** <https://aka.ms/teams_baidu_direct_dl>
+
+> [!NOTE]
+> Cuando los usuarios instalan Teams desde una de las tiendas de aplicaciones android basadas en China y habilitan las notificaciones de inserción para Teams, Microsoft proporcionará notificaciones de inserción de Teams a través de un servicio de notificaciones de inserción basado en China.
 
 ## <a name="browser-client"></a>Cliente del explorador
 

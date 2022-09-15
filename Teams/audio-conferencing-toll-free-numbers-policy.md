@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 description: Obtenga información sobre cómo audioconferencia en Microsoft 365 o Office 365 permite a los usuarios llamar a las reuniones desde sus teléfonos.
-ms.openlocfilehash: 7073fa9c870fc718b2d2c6e24e109878e0dd2d34
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8fcc731f208dc3fecd42dd2c351714f67ad6a684
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269935"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732409"
 ---
 # <a name="audio-conferencing-policy-settings-for-toll-and-toll-free-numbers"></a>Configuración de la directiva de Audioconferencia para números de pago y gratuitos
 
@@ -36,6 +36,9 @@ Use las directivas de audioconferencia para administrar los números de pago y g
 
 - La configuración de AllowTollFreeDialin ya no se puede administrar para un usuario individual a través del Centro de administración de Teams o PowerShell. Los administradores de inquilinos solo podrán administrar esta configuración mediante la nueva directiva de audioconferencia.
 - La directiva global no se puede modificar desde el Centro de administración de Teams.
+
+> [!NOTE]
+> Las directivas de audioconferencia personalizadas no son compatibles con los clientes habilitados para Skype Empresarial reuniones hospedadas regionalmente. Los clientes habilitados para reuniones hospedadas regionalmente pueden administrar la configuración de Audioconferencia de los usuarios a través de su configuración predeterminada. La configuración predeterminada de audioconferencia de los usuarios se puede cambiar en el Centro de Administración de Teams yendo a **Usuarios** -> **Administrar usuarios** -> **Seleccionando Cuenta de usuario** -> .
 
 Cuando se habilita una directiva de audioconferencia de Teams en el inquilino, habrá dos directivas creadas automáticamente disponibles en el inquilino. Las dos directivas creadas automáticamente y su configuración predeterminada son:
 

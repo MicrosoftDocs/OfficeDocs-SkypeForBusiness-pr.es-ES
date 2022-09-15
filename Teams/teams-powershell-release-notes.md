@@ -13,12 +13,12 @@ ms.collection:
 description: Obtenga más información sobre los cambios más recientes en PowerShell de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c83627143718f003675d8fbe1992dace9c864b5a
-ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
+ms.openlocfilehash: 5d488fbc8274b5b4e14a29e336b5ef0563872d56
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "67572060"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732309"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notas de la versión de Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ En esta página se proporciona el registro de cambios de PowerShell de Teams má
 
 | Fecha | Versión | Novedades |
 |------- | -------------------- | ------------------------------ |
+| Septiembre de 2022 | [4.7.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.1-preview) |<li>Libera la compatibilidad de autenticación basada en aplicaciones en Connect-MicrosoftTeams en versión preliminar. Los cmdlets admitidos se están implementando gradualmente, así como más detalles sobre la [autenticación basada en aplicaciones en el módulo de PowerShell de Teams](teams-powershell-application-authentication.md).</li><li>Publica los cmdlets [Get\|Set]-CsTeamsEducationConfiguration en la vista previa privada.</li><li>[Obtener\| Nuevo]-Cmdlets CsTeamsShiftsConnectionTeamMap - atributo TimeZone agregado.</li><li>Quita los parámetros de entrada SendEmailFromAddress y SendEmailFromDisplayName de Set-CsOnlineDialinConferencingUser.</li><li>Quita los parámetros AllowAllAcsResources y BlockedAcsResources de Set-TeamsAcsFederationConfiguration.</li>
 | Septiembre de 2022 | [4.7.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.0) |<li>Corrige los problemas con la limpieza del proceso al utilizar el módulo en las aplicaciones PS ISE y dotnet.</li><li>Releases [Get\|New]-CsBatchTeamsDeployment cmdlets in GA.</li><li>Publica [Nuevo\|conjunto]-CSTeamsShiftsConnectionInstance, Test-CsTeamsShiftsConnectionValidate compatibilidad con dimensiones UKG.</li><li>Corrige problemas con la captura de tokens incorrecta al elegir entre varias cuentas mediante el parámetro AccountId en Connect-MicrosoftTeams.</li><li>Los valores predeterminados del modo conferencia & los atributos del modo presencia cambian de false a true para New-CsCallQueue cmdlet.</li>
 | Agosto de 2022 | [4.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.1-preview) |<li>Corrige los problemas con la limpieza del proceso al utilizar el módulo en las aplicaciones PS ISE y dotnet.</li>
 | Julio de 2022 | [4.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.0) |<li>Libera el parámetro AccountType para el cmdlet Get-CsOnlineUser, que permite realizar consultas para un tipo específico de usuarios.</li><li>El atributo AccountType se agrega en el resultado de Get-CsOnlineUser que indica el tipo de usuario. Los posibles valores para AccountType son: "Usuario" (cuentas de usuario), "ResourceAccount" (puntos de conexión de aplicaciones o cuentas de recursos), "Invitado" (cuentas de invitado) & "Desconocido" (tipo de usuario no conocido).</li><li>Corrige problemas con los parámetros Rank & Group en los cmdlets de Grant-Cs\<PolicyName\> .</li><li>Releases [Get\|Set\|New\|Remove\|Grant]-CsTeamsEventsPolicy Cmdlets.</li><li>Quita todos los cmdlets obsoletos & no compatibles. Detalles en [versiones compatibles con PowerShell de Teams](teams-powershell-supported-versions.md#deprecated-cmdlets).</li><li>Publica versiones modernizadas de los cmdlets [New\|Get]-CsCloudCallDataConnection.</li><li>Publica los cmdlets [Get\|Remove]-SharedWithTeam.</li><li>Libera Get-TeamAllChannel cmdlet.</li><li>Libera Get-TeamIncomingChannel cmdlet.</li><li>Libera Get-AssociatedTeam cmdlet.</li><li>Libera Get-SharedWithTeamUser cmdlet.</li><li>Admite parámetro opcional TenantId para el cmdlet de Add-TeamChannelUser.</li><li>Libera Get-TeamTargetingHierarchyStatus & [Quitar\|conjunto]-TeamTargetingHierarchy cmdlets.</li>
