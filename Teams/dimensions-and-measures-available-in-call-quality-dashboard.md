@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenga información detallada sobre las dimensiones y medidas que usa el Panel de calidad de llamadas para Microsoft Teams y Skype Empresarial Online.
-ms.openlocfilehash: 8dda15990385db8e8ca9aeba7c56eba9d6b400ce
-ms.sourcegitcommit: 830357674103c0c5c99bd73d40261afe02a2da49
+ms.openlocfilehash: e59454349daf8121c759cef1cae350cf7294c1df
+ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/09/2022
-ms.locfileid: "67291426"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67734624"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensiones y medidas disponibles en el Panel de calidad de llamadas (CQD)
 
@@ -399,6 +399,14 @@ En la tabla siguiente se enumeran las dimensiones disponibles actualmente en el 
 | Good  | Booleano  | Verdadero si la transmisión tiene datos suficientes para poder clasificarla como buena o mala, y si la transmisión se clasifica como buena. De lo contrario, sería falso.   |   |
 | Unclassified  | Booleano  | False si la transmisión tiene datos suficientes para poder clasificarla como buena o mala. De lo contrario, sería verdadero. <br/>**Valor de ejemplo:** 1 |   |
 | OnePercent PacketLoss  | Booleano  | Verdadero si la pérdida de paquetes ha superado el 1 %; de lo contrario, es falso.  |   |
+| Problema de red entrante detectado | Boolean | Si es true, indica una confianza alta en que una transmisión multimedia puede haberse visto afectada debido a la red de entrada. | &bull; Esta dimensión solo se aplica a las transmisiones en las que *Stream Direction == First-to-Second* |
+| Problema de uplink detectado| Boolean | Si es true, indica una confianza alta en que una transmisión multimedia puede haberse visto afectada debido al vínculo ascendente de la red. | &bull; Esta dimensión no se aplica a las llamadas P2P. |
+| Problema detectado del dispositivo de entrada remota | Boolean | Si es true, indica una confianza alta en que una transmisión multimedia puede haberse visto afectada debido al dispositivo de captura remota. |
+| Problema del dispositivo de entrada local detectado | Boolean | Si es true, indica una confianza alta en que una transmisión multimedia puede haberse visto afectada debido al dispositivo de representación en el primer punto de conexión. | &bull; Esta dimensión solo se aplica a las transmisiones en las que *Stream Direction == First-to-Second* |
+| Eco detectado| Boolean | Si es true, indica una confianza alta en que una transmisión multimedia puede haberse visto afectada debido al eco.|
+| Problema de proceso remoto detectado | Boolean | Si es true, indica una confianza alta en que una transmisión multimedia puede haberse visto afectada debido a los recursos informáticos en el lado remoto. |
+| Problema de computación local detectado | Boolean | Si es true, indica una confianza alta en que una transmisión multimedia puede haberse visto afectada debido a los recursos de proceso locales. | &bull; Esta dimensión solo se aplica a las transmisiones en las que *Stream Direction == First-to-Second* |
+| Problema de modalidad de medios detectado | Boolean | Si es true, indica una alta confianza en que la experiencia del usuario de la transmisión multimedia entrante era deficiente. | &bull; Esta dimensión solo se aplica a las transmisiones en las que *Stream Direction == First-to-Second* |
 |**Clasificación**||||
 | First Feedback Rating  | Clasificación de usuario (1-5)  | Clasificación de la llamada asociada a la transmisión que realiza el primer punto de conexión en una escala de 1 a 5 (5 = excelente). 0 indica que al usuario se le ha mostrado la encuesta de clasificación de la llamada, pero no han valorado su experiencia.<br/> **Valor de ejemplo:** 5 | &bull; No se ha mostrado ninguna encuesta al primer punto de conexión  |
 | Second Feedback Rating  | Clasificación de usuario (1-5)  | Clasificación de la llamada asociada a la transmisión que realiza el segundo punto de conexión en una escala de 1 a 5 (5 = excelente). 0 indica que al usuario se le ha mostrado la encuesta de clasificación de la llamada, pero no han valorado su experiencia.<br/> **Valor de ejemplo:** 5 | &bull; No se ha mostrado ninguna encuesta al segundo punto de conexión   |

@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Vea qué periféricos y dispositivos USB (como auriculares, manos libres, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: ad020877a9d6d8ba3a0af3b87e2307b69e7510c8
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 481c145d5206789c5603ab46334127b6bb724c13
+ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706069"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67734604"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -81,13 +81,14 @@ Si eres un fabricante y quieres unirte al programa de certificación, consulta [
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabla actualizada en agosto de 2022*
+*Tabla actualizada en septiembre de 2022*
 
 > [!NOTE]
 > El formato de fecha es MMDDYYYYY.
 
 | Fabricante        | Modelo                                                     | Calificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Logi                 |Cámaras Brio 500/505                                       |9/14/2022       |Certificado para Microsoft Teams                           | 
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |Certificado para Microsoft Teams                           |
 |Dell                 |Cámara WB5023                                              |6/29/2022       |Certificado para Microsoft Teams                           |
 |EPOS                 |Casco ADAPT 560 II                                       |6/22/2022       |Certificado para Microsoft Teams                           |

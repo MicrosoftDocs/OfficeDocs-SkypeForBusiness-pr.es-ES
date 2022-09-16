@@ -1,5 +1,5 @@
 ---
-title: Iniciar sesión en Microsoft Teams
+title: Cómo afectan las diferentes tecnologías al inicio de sesión en Microsoft Teams, incluida la restricción de los inicios de sesión y los comportamientos de inicio de sesión.
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: anwara
-description: Información sobre cómo funciona la autenticación moderna, cómo cambiar de cuenta y cómo solucionar problemas con la autenticación moderna. Incluye cómo indicar a Teams que ignore el rellenado previo del nombre de usuario (UPN) en el inicio de sesión.
+description: Obtenga información sobre cómo las tecnologías como el inicio de sesión único y la autenticación moderna afecta a su comportamiento de inicio de sesión en iOS, Android, macOS y PC. Cómo usar equipos con muchas cuentas y restringir el inicio de sesión. Incluye cómo indicar a Teams que ignore el rellenado previo del nombre de usuario (UPN) en el inicio de sesión.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
@@ -17,26 +17,34 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6fb93bf7f8e3278ba4fba16604769c6f8f10e36
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
-ms.translationtype: HT
+ms.openlocfilehash: c37d9fd2140aaae9ccce443c81c537dcfb92305e
+ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681611"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67734614"
 ---
-# <a name="sign-in-to-microsoft-teams"></a>Iniciar sesión en Microsoft Teams
+# <a name="how-different-technologies-effect-microsoft-teams-sign-on"></a>Cómo afectan las distintas tecnologías al inicio de sesión en Microsoft Teams
 
-## <a name="windows-users"></a>Usuarios de Windows
+Si necesita comprender cómo las tecnologías como el inicio de sesión único (SSO), la autenticación moderna (MS) y la autenticación multifactor (MA) afectan a la experiencia de los usuarios de inicio de sesión, este artículo ayudará a aclarar lo que los usuarios y administradores pueden esperar ver. También se describe el comportamiento de inicio de sesión para dispositivos macOS, Android e iOS, cómo funciona el inicio de sesión con varias cuentas, cómo quitar credenciales rellenadas automáticamente o "rellenar previamente" en la pantalla de inicio de sesión y cómo restringir el inicio de sesión.
+
+Marque este artículo como marcador si su rol implica conocer los comportamientos esperados de Microsoft Team durante el inicio de sesión.
+
+## <a name="microsoft-teams-and-windows-users-sign-in-recommendations"></a>Microsoft Teams y usuarios de Windows: recomendaciones de inicio de sesión
 
 Microsoft recomienda que las organizaciones usen las versiones más recientes de Windows 10 con una configuración de Hybrid Domain Join o Azure AD Join. Usar las últimas versiones garantiza que las cuentas de los usuarios estén desbloqueadas en el Administrador de cuentas web de Windows, el cual, a su vez, activará el inicio de sesión único para Teams y para otras aplicaciones de Microsoft. El inicio de sesión único ofrece una mejor experiencia de usuario (inicio de sesión silencioso) y una mejor posición de seguridad.
 
 Microsoft Teams usa la autenticación moderna para mantener la experiencia de inicio de sesión sencilla y segura. Para ver cómo inician sesión en Teams los usuarios, consulte [Iniciar sesión en Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
-### <a name="how-modern-authentication-works"></a>Cómo funciona la autenticación moderna
+### <a name="how-modern-authentication-ma-effects-your-sign-in-what-users-will-see-when-ma-is-on"></a>Cómo afecta la autenticación moderna (MA) al inicio de sesión: lo que verán los usuarios cuando MA esté activado
 
-La autenticación moderna es un proceso que permite a Teams saber si un usuario ya ingresó sus credenciales (como su correo electrónico y contraseña de trabajo) en otro lugar, por lo que no es necesario volver a escribirlos para iniciar la aplicación. La experiencia variará de acuerdo con un par de factores, como si los usuarios están trabajando en Windows o en Mac. También puede variar en función de si la organización tiene habilitada la autenticación de un solo factor o la autenticación multifactor. Generalmente, la autenticación multifactor requiere comprobar las credenciales a través de un teléfono, proporcionar un código único, escribir un PIN o presentar una huella digital. Este es un resumen de cada escenario de autenticación moderna.
+La autenticación moderna forma parte de un proceso que permite a los equipos saber que los usuarios ya han introducido sus credenciales , como el correo electrónico del trabajo y la contraseña, en otro lugar, y no se les debe requerir que vuelvan a especificarlas para iniciar la aplicación. La experiencia varía según un par de factores, como si los usuarios están trabajando en un sistema operativo Windows o en un Mac.
+
+El comportamiento de inicio de sesión también variará en función de si su organización ha habilitado la autenticación de factor único o la autenticación multifactor. Generalmente, la autenticación multifactor requiere comprobar las credenciales a través de un teléfono, proporcionar un código único, escribir un PIN o presentar una huella digital. 
 
 La autenticación moderna está disponible para cualquier organización que use Teams. Si los usuarios no pueden completar el proceso, puede haber un problema subyacente en la configuración de Azure AD de su organización. Para obtener más información, vea [¿por qué tengo problemas para iniciar sesión en Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
+
+Este es un resumen del comportamiento que los usuarios pueden esperar con cada escenario de autenticación moderna.
 
 - Si los usuarios ya han iniciado sesión en Windows o en otras aplicaciones de Office con su cuenta profesional o educativa, cuando inicien Teams, se les dirigirá directamente a la aplicación. No es necesario que escriban sus credenciales.
 
@@ -46,7 +54,7 @@ La autenticación moderna está disponible para cualquier organización que use 
 
 - Si los usuarios han iniciado sesión en un equipo unido a un dominio, al iniciar Teams, es posible que se les pida que realicen un paso de autenticación más, en función de si su organización optó por requerir MFA o si su equipo ya requiere MFA para iniciar sesión. Si su equipo ya requiere MFA para iniciar sesión, cuando abra Teams, la aplicación se iniciará automáticamente.
 
-- En equipos unidos a un dominio, cuando el SSO no es posible, Teams puede rellenar previamente la pantalla de inicio de sesión con el nombre de usuario principal (UPN). Hay casos en los que es posible que no quiera esto, especialmente si su organización usa diferentes UPN locales y en Azure Active Directory. Si ese es el caso, puede usar la siguiente clave del registro de Windows para desactivar el rellenado previo del UPN:
+- En equipos unidos a dominios, cuando no es posible usar SSO, Teams puede rellenar previamente su pantalla de inicio de sesión con el nombre principal de usuario (UPN). Hay casos en los que es posible que no quiera esto, especialmente si su organización usa diferentes UPN locales y en Azure Active Directory. En ese caso, **puede usar la siguiente clave del Registro de Windows para desactivar la población previa del UPN**:
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
@@ -55,15 +63,15 @@ La autenticación moderna está disponible para cualquier organización que use 
     > [!NOTE]
     > La opción para omitir o ignorar el rellenado previo para los nombres de usuario que terminan en ".local" o ".corp" está activada de forma predeterminada, por lo que no es necesario establecer una clave del registro para desactivarlos.
 
-### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>Iniciar sesión en otra cuenta en un equipo unido a un dominio
+### <a name="microsoft-teams-sign-on-to-another-account-on-a-domain-joined-computer"></a>Inicio de sesión de Microsoft Teams en otra cuenta en un equipo unido a un dominio
 
 Es posible que los usuarios del equipo unido a un dominio no puedan iniciar sesión en Teams con otra cuenta en el mismo dominio de Active Directory.
 
-## <a name="macos-users"></a>Usuarios de MacOS
+## <a name="macos-users-and-microsoft-teams-sign-on-prompts"></a>Usuarios de macOS y avisos de inicio de sesión de Microsoft Teams
 
 En MacOS, Teams solicitará a los usuarios que escriban su nombre de usuario y credenciales, y también podría pedir una autenticación multifactor en función de la configuración de su organización. Una vez que los usuarios escriben sus credenciales, no se les pedirá que las proporcionen nuevamente. A partir de ese momento, Teams se inicia automáticamente siempre y cuando estén trabajando en el mismo equipo.
 
-## <a name="teams-on-ios-and-android-users"></a>Teams para usuarios de iOS y Android
+## <a name="microsoft-teams-sign-on-for-ios-and-android-users"></a>Inicio de sesión de Microsoft Teams para usuarios de iOS y Android
 
 Al iniciar sesión, los usuarios de dispositivos móviles verán una lista de todas las cuentas de Microsoft 365 que tengan la sesión actualmente iniciada o que hayan iniciado sesión anteriormente en su dispositivo. Los usuarios pueden pulsar en cualquiera de las cuentas para iniciar sesión. Hay dos escenarios para el inicio de sesión en los móviles:
 
@@ -74,7 +82,7 @@ Al iniciar sesión, los usuarios de dispositivos móviles verán una lista de to
 > [!NOTE]
 > Para que los usuarios puedan experimentar la experiencia de inicio de sesión tal y como se describe en esta sección, sus dispositivos deben ejecutar Teams para iOS, versión 2.0.13 (compilación 2020061704) o posterior, o bien Teams para Android, versión 1416/1.0.0.2020061702 o posterior.
 
-## <a name="using-teams-with-multiple-accounts"></a>Usar Teams con varias cuentas
+## <a name="using-microsoft-teams-with-multiple-sign-in-accounts"></a>Usar Microsoft Teams con varias cuentas de inicio de sesión
 
 Teams para iOS y Android son compatibles con el uso de varias cuentas de trabajo o escuela, y varias cuentas personales, una junto a la otra. Las aplicaciones de escritorio de Teams son compatibles con una cuenta profesional o educativa y una sola en paralelo en diciembre de 2020, con soporte técnico para varias cuentas de trabajo o escuela en una fecha posterior.
 
@@ -82,11 +90,11 @@ Las siguientes imágenes muestran cómo los usuarios pueden agregar varias cuent
 
 :::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Agregar varias cuentas en Teams.":::
 
-## <a name="restrict-sign-in-to-teams"></a>Restringir el inicio de sesión en Teams
+## <a name="restrict-sign-in-to-microsoft-teams"></a>Restringir el inicio de sesión en Microsoft Teams
 
 Para ello, es posible que la organización quiera restringir el uso de aplicaciones aprobadas por la empresa en los dispositivos administrados, por ejemplo, para restringir la capacidad de los estudiantes o empleados de acceder a los datos de otras organizaciones e incluso utilizar aplicaciones aprobadas por la empresa para situaciones personales. Estas restricciones se pueden aplicar al establecer directivas de dispositivos que reconozcan las aplicaciones de equipo.
 
-### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>Cómo restringir el inicio de sesión en dispositivos móviles
+### <a name="how-to-restrict-microsoft-teams-sign-in-on-mobile-devices"></a>Cómo restringir el inicio de sesión de Microsoft Teams en dispositivos móviles
 
 Teams para iOS y Android ofrece a los administradores de TI la capacidad de enviar configuraciones de cuenta a cuentas de Microsoft 365. Esta capacidad funciona con cualquier proveedor de Administración de dispositivos móviles (MDM) que utilice el canal de [Configuración de aplicaciones administradas](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) para iOS o el canal [Android Enterprise](https://developer.android.com/work/managed-configurations) para Android.
 
@@ -108,9 +116,9 @@ Para crear una directiva de configuración de la aplicación para dispositivos i
 
 Para crear una directiva de configuración de aplicaciones para dispositivos Android administrados, vea [Agregar directivas de configuración de aplicaciones para dispositivos Android administrados ](/mem/intune/apps/app-configuration-policies-use-android).
 
-### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>Cómo restringir el inicio de sesión en dispositivos de escritorio
+### <a name="how-to-restrict-teams-sign-in-on-desktop-devices"></a>Cómo restringir el inicio de sesión de Teams en dispositivos de escritorio
 
-Las aplicaciones de Teams en Windows y macOS son compatibles con las directivas de dispositivos que restringen el inicio de sesión en su organización. Las directivas se pueden establecer mediante soluciones usuales de administración de dispositivos como MDM (administración de dispositivos móviles) o GPO (objeto de directiva de grupo). 
+Las aplicaciones de Microsoft Teams en Windows y macOS obtienen soporte técnico para las directivas de dispositivos que restringen el inicio de sesión en su organización. Las directivas se pueden establecer mediante soluciones usuales de administración de dispositivos como MDM (administración de dispositivos móviles) o GPO (objeto de directiva de grupo).
 
 Cuando esta directiva está configurada en un dispositivo, los usuarios solo pueden iniciar sesión con las cuentas hospedadas en un inquilino de Azure AD que se incluye en la "Lista de permitidos de inquilino" definida en la directiva. La directiva se aplica a todos los inicios de sesión, entre los que se incluyen la primera cuenta y las cuentas adicionales. Si su organización abarca varios inquilinos de Azure AD, puede incluir varios Id. de inquilinos en la lista de permitidos. Es posible que los vínculos para agregar otra cuenta sigan siendo visibles en la aplicación de Teams, pero en este caso no se podrán utilizar.
 
@@ -137,13 +145,13 @@ Ejemplo: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAcco
 - Tipo de datos: cadena
 - Comentarios: escriba una lista separada por comas de los Id. de inquilino de Azure AD
 
-### <a name="global-sign-in"></a>Inicio de sesión global
+### <a name="global-sign-in-and-microsoft-teams"></a>Inicio de sesión global y Microsoft Teams
 
 La aplicación de Android de Teams ahora es compatible con el inicio de sesión global para que los trabajadores de primera línea pueden iniciar sesión sin problemas. Los empleados pueden elegir un dispositivo del grupo de dispositivos compartidos y realizar un inicio de sesión único para "hacerlo suyo" por la duración del turno. Una vez finalizado su turno, deberían ser capaces de realizar la sesión de forma global en el dispositivo. Consulte [Cerrar sesión en Teams](sign-out-of-teams.md) para más información. Este proceso quitará toda su información personal y de la compañía del dispositivo para que pueda devolverlo al grupo de dispositivos. Para obtener esta funcionalidad, el dispositivo debe estar en modo compartido. Asegúrese de finalizar cualquier reunión o llamada activa en el dispositivo antes de cerrar la sesión. Para obtener información sobre cómo configurar un dispositivo compartido, consulte [Cómo usar un modo de dispositivo compartido en Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 La experiencia de inicio de sesión es similar a nuestra experiencia de inicio de sesión estándar de Teams.
 
-## <a name="urls-and-ip-address-ranges"></a>Intervalos de direcciones IP y URL
+## <a name="urls-and-ip-address-ranges-for-microsoft-teams"></a>Direcciones URL e intervalos de direcciones IP para Microsoft Teams
 
 Teams requiere conexión a internet. Para obtener más información sobre los puntos de conexión que deben ser accesibles para los clientes que usan Teams en los planes de Office 365, así como en la nube de la administración pública y otras nubes, consulte [Intervalos de direcciones IP y URL de Office 365](/office365/enterprise/urls-and-ip-address-ranges).
 
