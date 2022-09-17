@@ -32,6 +32,9 @@ Si bien estas características no son una lista completa de funciones para este 
 
 - Proveedores de soluciones para usar el [<span class="underline">controlador de borde de sesión certificado por Microsoft (SBC)</span>](../direct-routing-border-controllers.md)
 
+> [!NOTE]
+> El agente que usó la solución de contacto no necesita una licencia del sistema telefónico. El usuario de Teams necesita una licencia del sistema telefónico y un número de teléfono para transferir la llamada del agente.
+
 ### <a name="the-extend-model"></a>[**El modelo Extender**](#tab/extend)
 
 El modelo Extender se integra con el cliente de Teams mediante la [plataforma cliente de Teams](/microsoftteams/platform/overview), [las API de Teams Graph](/graph/api/resources/teams-api-overview) y la [API de comunicaciones en la nube de Microsoft Graph](/graph/api/resources/communications-api-overview). El modelo Extender también usa el sistema telefónico de Teams para todas las llamadas de centro de contacto y experiencias de control de llamadas, y el proveedor de soluciones del centro de contactos actúa como operador de telefonía junto con Microsoft 365.
@@ -60,8 +63,7 @@ Si bien estas características no son una lista completa de funciones para este 
 
 - Conservar el rendimiento y la calidad de las experiencias de cliente de Teams en todas las aplicaciones
 
-> [!NOTE]
-> El bot de agente no necesita una licencia del sistema telefónico. El usuario de Teams necesita una licencia del sistema telefónico y un número de teléfono.
+
 
 ### <a name="the-power-model"></a>[**Modelo de energía**](#tab/power)
 

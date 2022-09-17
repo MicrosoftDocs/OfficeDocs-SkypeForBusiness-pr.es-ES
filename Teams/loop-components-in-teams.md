@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 0e0b9c5a7ffef07a1d9245d2b1266a071b4ee0c2
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418649"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67795059"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Información general sobre los componentes del bucle en Teams
 
@@ -82,7 +82,7 @@ Si deshabilita estas experiencias como se describe en la sección [Administraci�
 
 - El punto de entrada para crear o insertar en la mensajería de Teams se ocultará. Los usuarios no podrán crear nuevos archivos .fluid.
 - Los mensajes existentes que anteriormente se habrían representado como un componente de bucle interactivo se representarán en su lugar como un hipervínculo "Componente de bucle". No se mostrará ningún contenido interactivo en Teams.
-- Cuando un usuario final hace clic en el hipervínculo "Componente de bucle" o busca un archivo .fluid en OneDrive para la Empresa y hace clic para abrirlo, se abrirá el archivo en una pestaña del explorador independiente, pero los usuarios finales no podrán editar el archivo.
+- Cuando un usuario final hace clic en el hipervínculo "Componente de bucle" o busca un archivo .fluid en OneDrive para la Empresa y hace clic para abrirlo, se abrirá el archivo en una pestaña del explorador independiente. Los usuarios finales aún podrán editar el archivo.
 
 ## <a name="known-issues"></a>Problemas conocidos
 
