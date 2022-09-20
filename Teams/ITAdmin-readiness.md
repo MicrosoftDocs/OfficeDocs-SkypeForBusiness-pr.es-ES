@@ -18,12 +18,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 133369477a9e633e3e7ccb6309d8cae037f86f90
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 384f6f34a689e0337489d08e4956df425b497d5d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486905"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808381"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción al aprendizaje para administradores de Microsoft Teams
 
@@ -39,8 +39,8 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|[**Conceptos básicos de Teams para TI**](https://aka.ms/MicrosoftTeamsforIT) : la serie de vídeos "Teams para TI" de Microsoft Mechanics le muestra, el administrador, cómo implementar, configurar y administrar Teams.     |[**Soporte técnico a los trabajadores remotos con Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) : obtenga la orientación que necesita , incluidos vínculos a formación, para ayudar a los usuarios que trabajan desde casa.         |[**Administrar la colaboración en equipo para TI**](/learn/paths/m365-manage-team-collaboration) : aprenda a usar Teams para facilitar el trabajo en equipo y la comunicación dentro de su organización entre aplicaciones y dispositivos.         |
-|[**Certificación del especialista en adopción**](/learn/paths/m365-service-adoption) de servicios: el curso de certificación Especialista en adopción de servicios de Microsoft incluye Teams. Aprenda a fomentar la adopción de servicios Microsoft en su organización.     |[**Introducción al trabajo en equipo en Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) : el curso de certificación del especialista en adopción de servicios de Microsoft incluye Teams. Aprenda a fomentar la adopción de servicios Microsoft en su organización.        |[**Microsoft 365 Certified: Teamwork Administrator Associate -**](/learn/certifications/m365-teamwork-administrator) Administradores de trabajo en equipo de Microsoft 365 configurar, implementar y administrar cargas de trabajo de Microsoft 365 o Office 365, como SharePoint (en línea, local e híbrido), OneDrive y Teams.        |
+|[**Conceptos básicos de Teams para TI**](https://aka.ms/MicrosoftTeamsforIT) : la serie de vídeos "Teams para TI" de Microsoft Mechanics le muestra, el administrador, cómo implementar, configurar y administrar Teams.     |[**Soporte técnico a los trabajadores remotos con Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) : obtenga la orientación que necesita , incluidos vínculos a formación, para ayudar a los usuarios que trabajan desde casa.         |[**Administrar la colaboración en equipo para TI**](/training/paths/m365-manage-team-collaboration) : aprenda a usar Teams para facilitar el trabajo en equipo y la comunicación dentro de su organización entre aplicaciones y dispositivos.         |
+|[**Certificación del especialista en adopción**](/training/paths/m365-service-adoption) de servicios: el curso de certificación Especialista en adopción de servicios de Microsoft incluye Teams. Aprenda a fomentar la adopción de servicios Microsoft en su organización.     |[**Introducción al trabajo en equipo en Microsoft 365**](/training/modules/intro-to-teamwork-in-m365/index) : el curso de certificación del especialista en adopción de servicios de Microsoft incluye Teams. Aprenda a fomentar la adopción de servicios Microsoft en su organización.        |[**Microsoft 365 Certified: Teamwork Administrator Associate -**](/certifications/m365-teamwork-administrator) Administradores de trabajo en equipo de Microsoft 365 configurar, implementar y administrar cargas de trabajo de Microsoft 365 o Office 365, como SharePoint (en línea, local e híbrido), OneDrive y Teams.        |
 
 <h2>Iniciar aprendizaje técnico</h2>
 

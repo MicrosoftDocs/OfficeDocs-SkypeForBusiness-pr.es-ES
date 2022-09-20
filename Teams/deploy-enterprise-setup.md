@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f350e894148ef278a10e379d8a32b48202acd85d
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 05196c679f1f45c9e89fe09973282c01181127e0
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045999"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808391"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Configurar Microsoft Teams en su organización
 
@@ -45,7 +45,7 @@ Antes de empezar a implementar Teams, asegúrese de haber completado el proceso 
 Le recomendamos encarecidamente que use el [Asesor de Teams](https://admin.teams.microsoft.com/teams-deployment) para ayudarle en la implementación. Para obtener detalles sobre el funcionamiento del asesor de Teams, consulte [Usar el asesor de Teams para ayudarle a implementar Microsoft Teams](use-advisor-teams-roll-out.md).
 
 > [!TIP]
-> Consulte cómo puede usar el asesor de Teams para ayudarle a planear la implementación de Teams completando el módulo [Implementación con el asesor de Teams](/learn/modules/m365-teams-rollout-using-advisor/) en Microsoft Learn.
+> Consulte cómo puede usar el asesor de Teams para ayudarle a planear la implementación de Teams completando el módulo [Implementación con el asesor de Teams](/training/modules/m365-teams-rollout-using-advisor/) en Microsoft Learn.
 
 Para obtener información sobre la planeación de Teams, consulte [Información general de implementación empresarial de Teams](deploy-enterprise-overview.md).
 
@@ -58,7 +58,7 @@ Hay muchas formas de personalizar Teams. En las secciones siguientes se muestra 
 El chat, los equipos y los canales son el eje central de Teams. El **chat** permite que uno o más usuarios se comuniquen entre sí, compartan archivos y se reúnan en privado. Los **equipos**, que pueden ser visibles para todos los usuarios de la organización o solo para los miembros de ese equipo, permiten a los usuarios adecuados colaborar en cualquier tipo de tarea u ocasión, desde un proyecto de larga duración hasta la planificación de una fiesta de cumpleaños. Los **canales** dentro de los equipos pueden segmentar temas, proyectos, departamentos o lo que necesite su equipo. Para obtener más información sobre el chat, los equipos y los canales, consulte la [Introducción a los equipos y canales](teams-channels-overview.md).
 
 > [!TIP]
-> Complete el módulo de administración de [Microsoft Teams](/learn/modules/m365-teams-collab-manage-teams/) en Microsoft Learn para descubrir cómo administrar los roles de equipo y gestionar el acceso y las directivas de mensajería.
+> Complete el módulo de administración de [Microsoft Teams](/training/modules/m365-teams-collab-manage-teams/) en Microsoft Learn para descubrir cómo administrar los roles de equipo y gestionar el acceso y las directivas de mensajería.
 
 ### <a name="administration-and-team-ownership"></a>Administración y propiedad del equipo
 
@@ -88,7 +88,7 @@ Las reuniones y las conferencias permiten que las personas de su organización s
 El asistente de **Audioconferencia** permite a los participantes unirse a las reuniones a través de un teléfono normal al llamar a un número de teléfono de conferencia y especificar el id. de la reunión. Las audioconferencias son útiles cuando uno de los participantes no tiene una buena conexión a Internet, la reunión es solo de voz o hay alguna otra circunstancia que le impida al participante unirse a través del cliente de Teams.
 
 > [!TIP]
-> Si desea familiarizarse con las reuniones y los eventos, complete el módulo [Administrar reuniones, conferencias y eventos de Microsoft Teams](/learn/modules/m365-teams-collab-manage-meetings) en Microsoft Learn.
+> Si desea familiarizarse con las reuniones y los eventos, complete el módulo [Administrar reuniones, conferencias y eventos de Microsoft Teams](/training/modules/m365-teams-collab-manage-meetings) en Microsoft Learn.
 
 ### <a name="meetings"></a>Reuniones
 
@@ -159,7 +159,7 @@ Cuando esté listo para que los usuarios comiencen a usar Teams, estos podrán i
 Asegúrese de que todos los usuarios que vayan a emplear Teams tengan una licencia de Teams. Para obtener más información acerca de cómo asignar una licencia de Teams, consulte [Administrar el acceso del usuario a Teams](user-access.md#using-the-microsoft-365-admin-center).
 
 > [!TIP]
-> Para obtener recomendaciones sobre cómo planear la implementación del cliente de Teams, complete el módulo [Implementar clientes de Microsoft Teams](/learn/modules/m365-teams-collab-deploy-clients/) en Microsoft Learn.
+> Para obtener recomendaciones sobre cómo planear la implementación del cliente de Teams, complete el módulo [Implementar clientes de Microsoft Teams](/training/modules/m365-teams-collab-deploy-clients/) en Microsoft Learn.
 
 Si su organización usa Microsoft Endpoint Configuration Manager, alguna directiva de grupo o un mecanismo de distribución de terceros para implementar el software en los equipos de los usuarios, consulte [Instalar Microsoft Teams a través de Microsoft Endpoint Configuration Manager](msi-deployment.md).
 

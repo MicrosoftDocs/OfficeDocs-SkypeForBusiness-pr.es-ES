@@ -1,7 +1,7 @@
 ---
 title: Usar la búsqueda de contenido en Microsoft Teams
-author: v-tophillips
-ms.author: v-tophillips
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.topic: article
 audience: admin
@@ -13,22 +13,22 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Obtenga información sobre cómo usar búsqueda de contenido en el portal de cumplimiento Microsoft Purview para buscar contenido de Microsoft Teams almacenado en Exchange Online, SharePoint Online, OneDrive Entreprise y OneNote.
+description: Obtenga información sobre cómo usar la búsqueda de contenido en el portal de cumplimiento Microsoft Purview para buscar contenido de Microsoft Teams almacenado en Exchange Online, SharePoint Online, OneDrive para la Empresa y OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a069478dc65fcafb5e1354796360c994aa2f0d36
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b976c5e3c6467a6c71bb51eb1ff3ef720813584b
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267445"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808241"
 ---
 # <a name="use-content-search-in-microsoft-teams"></a>Usar la búsqueda de contenido en Microsoft Teams
 
 > [!NOTE]
 > La búsqueda de contenido de mensajes y archivos en [canales privados](private-channels.md) funciona de forma diferente que en los canales estándar. Para obtener más información, consulte [Búsqueda de contenido de canales privados](#content-search-of-private-channels).
 
-La búsqueda de contenido proporciona una forma de consultar la información de Microsoft Teams que abarca Exchange, SharePoint Online y OneDrive Entreprise.
+La búsqueda de contenido proporciona una forma de consultar información de Microsoft Teams que abarca Exchange, SharePoint Online y OneDrive para la Empresa.
 
 Para obtener más información, consulte [Búsqueda de contenido en Microsoft 365](/microsoft-365/compliance/content-search).
 

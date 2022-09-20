@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: b67c1b9500ad5df959831e17a183cb61ca3ed8a1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d6f2cc6685d6d9d80c2282cdfd1751a7d7f1916d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271455"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808471"
 ---
 # <a name="microsoft-teams-training"></a>Aprendizaje de Microsoft Teams
 
@@ -51,7 +51,7 @@ Vuelve a menudo para ver las novedades. Esta lista se actualiza para que estés 
    :::column-end:::
 
    :::column:::
-   **[Administrar colaboración en equipo para TI](/learn/paths/m365-manage-team-collaboration)** </br>
+   **[Administrar colaboración en equipo para TI](/training/paths/m365-manage-team-collaboration)** </br>
    Curso: aprenda a usar Teams para facilitar el trabajo en equipo y la comunicación en la organización en todas las aplicaciones y dispositivos.
 
    :::column-end:::
@@ -60,12 +60,12 @@ Vuelve a menudo para ver las novedades. Esta lista se actualiza para que estés 
 
 :::row:::
    :::column:::
-   **[Certificación de especialista de adopción](/learn/paths/m365-service-adoption/)** </br> El curso de certificación de especialista de adopción de servicios Microsoft usa Teams. Aprenda a fomentar la adopción de servicios Microsoft en su organización.
+   **[Certificación de especialista de adopción](/training/paths/m365-service-adoption/)** </br> El curso de certificación de especialista de adopción de servicios Microsoft usa Teams. Aprenda a fomentar la adopción de servicios Microsoft en su organización.
 
    :::column-end:::
 
    :::column:::
-   **[Introducción al trabajo en equipo en Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index)** </br>
+   **[Introducción al trabajo en equipo en Microsoft 365](/training/modules/intro-to-teamwork-in-m365/index)** </br>
    Obtenga información sobre las herramientas de Microsoft 365 que facilitan el trabajo en equipo para todos los empleados, independientemente de dónde se encuentran o de su relación con su organización. 
 
    :::column-end:::

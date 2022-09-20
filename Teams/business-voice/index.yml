@@ -1,6 +1,6 @@
 ### YamlMime:Hub
-title: Microsoft 365 Teams Sistema telefónico con la documentación del plan de llamadas
-summary: Obtenga información sobre cómo planear, configurar y usar Teléfono Microsoft Teams Sistema con plan de llamadas en su organización. Teams Sistema telefónico con Calling Plan facilita a las pequeñas y medianas organizaciones la configuración de un sistema telefónico potente y flexible sin los gastos y la complejidad de las soluciones locales.
+title: Documentación de Microsoft 365 Teams Phone System con plan de llamadas
+summary: Obtenga información sobre cómo planear, configurar y usar Teléfono Microsoft Teams Sistema con plan de llamadas en su organización. Teams Phone System con plan de llamadas facilita a las pequeñas y medianas organizaciones la configuración de un sistema telefónico potente y flexible sin los gastos y la complejidad de las soluciones locales.
 metadata:
   title: Teléfono Microsoft Teams sistema con documentación del plan de llamadas
   description: Obtenga información sobre cómo planear, implementar y usar Teléfono Microsoft Teams Sistema con plan de llamadas.
@@ -8,36 +8,36 @@ metadata:
   author: dstrome
   ms.author: dstrome
   ms.date: 06/17/2020
-  ms.openlocfilehash: 3ddbe9ac2d6882cef72f9aa3b3bc7a5a2525e0d2
-  ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+  ms.openlocfilehash: e1d1ceffeeaed9d2f6175ce2c7755349c756207c
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 06/16/2022
-  ms.locfileid: "66124155"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808231"
 productDirectory:
   items:
   - title: Explorar
-    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/blocks-blue.svg
     links:
     - url: whats-business-voice.md
-      text: Teams Sistema telefónico con guía de planes de llamadas para pequeñas y medianas empresas
+      text: Teams Phone System con guía de plan de llamadas para pequeñas y medianas empresas
     - url: https://www.microsoft.com/microsoft-teams/microsoft-teams-phone
       text: Teléfono Microsoft Teams
     - url: /office365/servicedescriptions/teams-service-description
-      text: Descripción del servicio Teams
+      text: Descripción del servicio de Teams
   - title: Configurar
-    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/deploy-blue.svg
     links:
     - url: ./whats-business-voice.md#how-do-i-purchase-teams-phone-with-calling-plan-bundle-licenses
-      text: Cómo obtener Teams Sistema telefónico con El plan de llamadas
+      text: Cómo obtener Teams Phone System con plan de llamadas
     - url: get-ready-internet.md
       text: Comprobar la conexión a Internet
     - url: prepare-users.md
       text: Preparar a los usuarios
     - url: set-up-overview.md
-      text: Configurar Teams Sistema telefónico con el plan de llamadas
+      text: Configurar Teams Phone System con plan de llamadas
   - title: Personalizar la configuración
-    imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/migration-blue.svg
     links:
     - url: port-phone-numbers.md
       text: Números de teléfono de puerto existente
@@ -48,7 +48,7 @@ productDirectory:
     - url: ./create-a-phone-system-call-queue-smb.md
       text: Configurar la cola de llamadas
   - title: Usar
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/get-started-blue.svg
     links:
     - url: create-users.md
       text: Crear más usuarios
@@ -59,26 +59,26 @@ productDirectory:
     - url: analytics-dashboard.md
       text: Análisis de llamadas y panel de calidad
   - title: Recursos para los asociados
-    imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/success-blue.svg
     links:
     - url: /partner-center/
       text: Obtener Microsoft 365 Empresa desde el Centro de asociados
     - url: https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook
-      text: Microsoft 365 Teams Sistema telefónico con el Playbook de partner del plan de llamadas
+      text: Guía de juego para partners de Plan de llamadas de Microsoft 365 Teams
   - title: ¿Necesitas ayuda?
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/users-people.svg
     links:
     - url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
       text: Contactar con el soporte técnico de Microsoft 365 u Office 365
     - url: https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB
       text: Comunidad tecnológica de las pequeñas y medianas empresas
   - title: Documentación de ayuda
-    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/chat.svg
     links:
     - url: ../cloud-voice-landing-page.md
       text: Documentos de los administradores de Microsoft Teams
     - url: https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472
-      text: Microsoft Teams portal de comentarios
+      text: Portal de comentarios de Microsoft Teams
     - url: https://support.office.com/teams
       text: Documentos del cliente de Microsoft Teams
     - url: /office365/admin/

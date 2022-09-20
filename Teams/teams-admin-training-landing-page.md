@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
-ms.openlocfilehash: 83185e267f1a3aa44158c5e6252e5b964868af5f
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: af1c9005551fc439db514363ddb315689e7f2fee
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794288"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808691"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -39,7 +39,7 @@ Obtenga información sobre cómo administrar Teams para su organización.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="https://learn.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -57,7 +57,7 @@ Obtenga información sobre cómo administrar Teams para su organización.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Help" />
+                            <img src="https://learn.microsoft.com/office/media/icons/help.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -75,7 +75,7 @@ Obtenga información sobre cómo administrar Teams para su organización.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/user-accounts.svg" alt="User account" />
+                            <img src="https://learn.microsoft.com/office/media/icons/user-accounts.svg" alt="User account" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -93,7 +93,7 @@ Obtenga información sobre cómo administrar Teams para su organización.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="Troubleshoot" />
+                            <img src="https://learn.microsoft.com/office/media/icons/toolbox.svg" alt="Troubleshoot" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -105,13 +105,13 @@ Obtenga información sobre cómo administrar Teams para su organización.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here">
+        <a href="https://learn.microsoft.com/MicrosoftTeams/upgrade-start-here">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
+                            <img src="https://learn.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -135,7 +135,7 @@ Obtenga información sobre cómo administrar Teams para su organización.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg" alt="Article" />
+                            <img src="https://learn.microsoft.com/office/media/icons/paragraph-writing-blue.svg" alt="Article" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -154,7 +154,7 @@ Obtenga información sobre cómo administrar Teams para su organización.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="What's new" />
+                            <img src="https://learn.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="What's new" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -172,7 +172,7 @@ Obtenga información sobre cómo administrar Teams para su organización.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/connector-blue.svg" alt="Updates" />
+                            <img src="https://learn.microsoft.com/office/media/icons/connector-blue.svg" alt="Updates" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -186,4 +186,3 @@ Obtenga información sobre cómo administrar Teams para su organización.
 </ul>
 
 ---
-

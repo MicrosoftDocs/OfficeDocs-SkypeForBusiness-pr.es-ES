@@ -21,12 +21,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - intro-get-started
-ms.openlocfilehash: 54fcf3942d13fa0b759e796e5486808a5f5a40bb
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: ff5fce999adffc38e28d6daf787d6175deaa683a
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045849"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808811"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introducción a Microsoft Teams
 
@@ -66,7 +66,7 @@ Para prepararse para la implementación de Teams, esto es lo que debe hacer, ind
 Si es la primera vez que usa Teams, la mejor manera de familiarizarse es comenzar a usarlo inmediatamente. Una de las mayores ventajas de Teams es que la configuración que haga ahora no interrumpirá ninguna actualización ni migración que necesite hacer después.
 
 > [!TIP]
-> Revise las rutas y módulos de aprendizaje disponibles en [Microsoft Learn para Teams](/learn/teams/). Puede hacer el paseo del [Centro de administración de Teams](/learn/modules/m365-teams-navigate-admin-portal/), aprender a [configurar su red para Teams](/learn/modules/m365-teams-connectivity/), obtener ideas sobre cómo [incorporar a los usuarios a Teams](/learn/modules/m365-teams-onboard-users/) y mucho más.
+> Revise las rutas y módulos de aprendizaje disponibles en [Microsoft Learn para Teams](/training/teams/). Puede hacer el paseo del [Centro de administración de Teams](/training/modules/m365-teams-navigate-admin-portal/), aprender a [configurar su red para Teams](/training/modules/m365-teams-connectivity/), obtener ideas sobre cómo [incorporar a los usuarios a Teams](/training/modules/m365-teams-onboard-users/) y mucho más.
 
 Siga los pasos a continuación para configurar un par de equipos e incorporar a algunos usuarios pioneros que le ayuden a familiarizarse con Teams.
 

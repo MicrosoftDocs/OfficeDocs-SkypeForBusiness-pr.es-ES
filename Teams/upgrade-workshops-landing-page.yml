@@ -24,20 +24,20 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: fe5104d2047f734a0ae6df839bb980052ca2607e
-  ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+  ms.openlocfilehash: 6ae30ce1693944d10048ca1172657329202d7c0c
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 07/14/2022
-  ms.locfileid: "66794528"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808661"
 productDirectory:
   items:
   - title: Planee la actualización (¡Comience aquí!)
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/get-started-teams.svg
     summary: 'Tanto si va a actualizar a Teams antes de la retirada de Skype Empresarial Online (31 de julio de 2021) como si va a mover escenarios de su Skype Empresarial entorno local a Teams, una transición correcta aborda tanto la preparación técnica como la de los usuarios. Descubra nuestro marco comprobado, procedimientos recomendados y recursos diseñados para ayudarle a facilitar una transición exitosa a Teams desde Skype Empresarial online, Skype Empresarial Server o un entorno híbrido. Audiencia: todos (patrocinadores empresariales, administradores de TI, preparado para usuarios/gestores de cambios, jefes de proyecto)'
     url: https://aka.ms/SfBtoTeamsPlan
   - title: Implementar la actualización de Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/hybrid-teams.svg
     summary: 'Únase a nosotros para identificar y prepararse para ejecutar el mejor enfoque técnico para mover todas las cargas de trabajo a Teams, en función de sus objetivos y su entorno de Skype Empresarial actual. La mayoría de los clientes que han completado correctamente las transiciones han habilitado Teams junto con su Skype Empresarial en línea, Skype Empresarial Server o implementación híbrida. Esta sesión compartirá consideraciones clave y recursos valiosos para ayudarle a definir la mejor estrategia de migración para su organización. Audiencia: administradores de TI'
     url: https://aka.ms/SfBtoTeamsImplement
 additionalContent:

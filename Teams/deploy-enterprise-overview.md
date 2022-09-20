@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fae55eb230c3c0a450a95eb00e50861888bbe3f1
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 083f2f9ae041f88e0b92c51af297adbf04b5c770
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045579"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808581"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Información general de la implementación empresarial de Teams
 
@@ -75,7 +75,7 @@ Para ver un ejemplo de cómo el planificador de red puede planear su red, vea [U
 El asesor de Teams es una solución de Teams que reúne equipos, canales, uso compartido de archivos y planificador para crear un proyecto de implementación para su organización. El asesor de Teams crea un plan de proyecto específico para la carga de trabajo que seleccione (como chat, equipos y canales), que incluye las tareas recomendadas que debe realizar durante la implementación. Cada tarea contiene instrucciones, sugerencias y vínculos a artículos relevantes que le guiarán a través del proceso. Puede asignar fácilmente tareas a una o más personas, y especificar las fechas de inicio y finalización para cada tarea.
 
 > [!TIP]
-> Vea cómo puede usar el asesor de Teams para ayudarle a planear la implementación de Teams completando el módulo [Implementación con el asesor de Teams](/learn/modules/m365-teams-rollout-using-advisor/) en Microsoft Learn.
+> Vea cómo puede usar el asesor de Teams para ayudarle a planear la implementación de Teams completando el módulo [Implementación con el asesor de Teams](/training/modules/m365-teams-rollout-using-advisor/) en Microsoft Learn.
 
 > [!div class="nextstepaction"]
 > [Ir al asesor de Teams](https://admin.teams.microsoft.com/teams-deployment)

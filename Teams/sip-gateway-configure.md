@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d33573d86f2bcb485f6a7e7cfc550ea1f3184223
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f21ce36c1c44b14b80c9ae1684a65c6bd82b7d63
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270495"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808881"
 ---
 # <a name="configure-sip-gateway"></a>Configurar puerta de enlace SIP
 
@@ -120,7 +120,7 @@ Para cada dispositivo SIP, establezca una de las siguientes direcciones URL del 
 - Américas: `http://noam.ipp.sdg.teams.microsoft.com`
 - APAC: `http://apac.ipp.sdg.teams.microsoft.com`
 
-Agregue dispositivos SIP a su organización de Teams configurando la dirección URL del servidor de aprovisionamiento de puerta de enlace SIP anterior en el servidor DHCP. Para obtener más información sobre el servidor DHCP, consulta [Implementar y administrar DHCP](/learn/modules/deploy-manage-dynamic-host-configuration-protocol). Además, puede utilizar la opción 42 de DHCP para especificar el servidor del Network Time Protocol (NTP) y la opción 2 de DHCP para especificar el desplazamiento desde el tiempo universal coordinado (UTC) en segundos. Los dispositivos de su organización se redirigirán al servidor de aprovisionamiento de puerta de enlace SIP. Los teléfonos SIP correctamente aprovisionados mostrarán el logotipo de Teams y un botón suave para iniciar sesión.
+Agregue dispositivos SIP a su organización de Teams configurando la dirección URL del servidor de aprovisionamiento de puerta de enlace SIP anterior en el servidor DHCP. Para obtener más información sobre el servidor DHCP, consulta [Implementar y administrar DHCP](/training/modules/deploy-manage-dynamic-host-configuration-protocol). Además, puede utilizar la opción 42 de DHCP para especificar el servidor del Network Time Protocol (NTP) y la opción 2 de DHCP para especificar el desplazamiento desde el tiempo universal coordinado (UTC) en segundos. Los dispositivos de su organización se redirigirán al servidor de aprovisionamiento de puerta de enlace SIP. Los teléfonos SIP correctamente aprovisionados mostrarán el logotipo de Teams y un botón suave para iniciar sesión.
 
 Asegúrese de que los dispositivos SIP están en la versión mínima de firmware compatible para la incorporación. Durante la incorporación, puerta de enlace SIP insertará la interfaz de usuario de autenticación y configuración predeterminada al dispositivo. Para averiguar la versión de firmware necesaria para dispositivos SIP, consulte [Planear la puerta de enlace SIP](sip-gateway-plan.md).
 

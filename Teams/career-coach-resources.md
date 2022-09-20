@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e8f8a069b35bcd1b5a1b1216946d4734a5ec52a
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 92e02822dbd4533f151d9551bb25aad1905184fc
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486945"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808421"
 ---
 # <a name="resources-for-career-coach-in-microsoft-teams"></a>Recursos para entrenador profesional en Microsoft Teams
 
@@ -77,4 +77,4 @@ Los siguientes recursos no son necesarios para configurar el Entrenador profesio
 | [Reservas conmigo en Outlook](/microsoft-365/bookings/bookings-in-outlook) | Guía del formador para programar citas individuales, como sesiones de servicios profesionales y horas de oficina. |
 | [Microsoft Bookings](/microsoft-365/bookings/bookings-overview) | Guía del administrador de TI para configurar Microsoft Bookings para administrar citas virtuales y en persona para el personal y los alumnos, como sesiones de servicios profesionales y horas de oficina. |
 | [Soporte técnico para reuniones de Microsoft Teams](https://www.microsoft.com/videoplayer/embed/RE4rxIX?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us) | Un tutorial en vídeo para los alumnos sobre cómo pueden usar las reuniones de Teams. |
-| [Ofrecer eventos virtuales atractivos y accesibles](/learn/paths/m365-virtual-events-fundamentals/) | Curso en línea para formadores sobre cómo ofrecer eventos virtuales atractivos y accesibles con Microsoft Teams y Microsoft 365. |
+| [Ofrecer eventos virtuales atractivos y accesibles](/training/paths/m365-virtual-events-fundamentals/) | Curso en línea para formadores sobre cómo ofrecer eventos virtuales atractivos y accesibles con Microsoft Teams y Microsoft 365. |
