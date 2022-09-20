@@ -6,6 +6,7 @@ manager: prkosh
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
+ms.subservice: teams-apps
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -18,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2f4809d615d97aa46ecad3b46c2b723c33b4619e
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 42044bf8f74c99b27db724e87ee35e700491aa8e
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396871"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837200"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Consideraciones y permisos de las aplicaciones de Microsoft Teams
 

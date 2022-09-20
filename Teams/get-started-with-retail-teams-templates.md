@@ -20,16 +20,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e8d908a0c6183f4d305b0b622060cfd2ed78922
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: d8c6af4cc86051c9233e06d0bf6c67abe1a4ad39
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396301"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837340"
 ---
 # <a name="use-retail-team-templates"></a>Usar plantillas de equipo de venta minorista
 
-Las plantillas de equipo de Microsoft Teams le permiten crear equipos de forma rápida y sencilla proporcionando una estructura predefinida de equipos de configuración, canales y aplicaciones preinstaladas.
+## <a name="overview"></a>Información general
+
+Las plantillas de equipo de Microsoft Teams le permiten crear equipos de forma rápida y sencilla al proporcionar una estructura predefinida de equipos de configuración, canales y aplicaciones preinstaladas.
 
 Para los minoristas, las plantillas de equipo pueden ser especialmente eficaces, ya que le ayudan a implementar rápidamente equipos coherentes en toda la organización. Las plantillas también han ayudado al personal a orientarse con la forma de usar Teams de manera eficaz.
 
@@ -50,26 +52,28 @@ Para obtener más información sobre las plantillas de equipo en general, vea [I
 
 Actualmente ofrecemos las siguientes plantillas de equipo de venta directa predefinidas. Para verlos, en el panel de navegación izquierdo del Centro de administración de Teams, vaya a **Teams** > **plantillas de Teams**.
 
-### <a name="organize-a-store"></a>Organizar una tienda
+> [!NOTE]
+> Un asterisco (*) indica que la plantilla es una *plantilla conectada a Microsoft 365*. Cuando los usuarios crean un equipo con la plantilla, la plantilla de SharePoint conectada se aplica al sitio y al equipo. Los componentes de SharePoint, como páginas, listas e integraciones de Power Platform, se agregan y anclan automáticamente como pestañas al canal General del equipo. Los usuarios pueden editar estas páginas y listas directamente desde Teams.
+>
+> Para obtener más información sobre las plantillas de SharePoint, vea [Aplicar y personalizar plantillas de sitio de SharePoint](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
+
+### <a name="manage-a-store"></a>Administrar una Store*
 
 Reúna a sus empleados minoristas en una experiencia central para administrar tareas, compartir documentos y resolver problemas de los clientes. Integre aplicaciones adicionales para simplificar los procesos de inicio y finalización de turnos.
 
-| Tipo de plantilla |TemplateId | Propiedades que vienen con esta plantilla |
-| ------------------|-- |----------------------------------------------------- |
-|Organizar una tienda| `retailStore` |Canales: <ul><li>General<li>Cambio de turno</li><li>Preparación del almacén<ul><li>Inspección&sup1;</li></ul></li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Tareas</li><li>Turnos</li><li>Inspección</li></ul>|
+> [!div class="mx-tdBreakAll"]
+>| Tipo de plantilla |TemplateId | Propiedades que vienen con esta plantilla |
+>| ------------------|-- |----------------------------------------------------- |
+>| Administrar una Tienda| `retailStore` |Canales: <ul><li>General<li>Desplazar la entrega</li><li>Store Readiness</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Aprobaciones</li><li>Inspección</li><li>Listas<ul><li>Lista de inventario</li></ul></li><li>Páginas de SharePoint<ul><li>Nuestra tienda</li></ul></li><li>Turnos</li><li>Tareas por Planner y To Do</li><li>Wiki</li></ul>|
 
-&sup1; Aplicación agregada al canal como una pestaña.
+### <a name="retail-for-managers"></a>Venta al por menor para administradores*
 
-### <a name="manager-collaboration"></a>Colaboración del administrador
+Cree un equipo para que un conjunto de administradores colabore entre tiendas o regiones. Por ejemplo, si su organización tiene regiones, puede crear un equipo para la región de California e incluir todos los administradores de almacén de esa región, junto con el administrador regional de esa región.
 
-La plantilla de colaboración de administrador es ideal para crear un equipo para que un conjunto de administradores colaboren en tiendas, regiones, etc. Por ejemplo, si su organización tiene regiones, puede crear un equipo de colaboración de administrador para la región de California e incluir todos los administradores de tiendas de esa región, junto con el administrador regional de esa región.
-
-| Tipo de plantilla| TemplateId | Propiedades que vienen con esta plantilla |
-| ------------------|- |----------------------------------------------------- |
-|Venta al por menor para administradores|`retailManagerCollaboration` |Canales: <ul><li>General<li>Operaciones<ul><li>Tareas (tareas de operaciones)&sup1;</li><li>Inspección&sup1;</li></ul></li><li>Aprendizaje<ul><li>Tareas (Tareas de aprendizaje)&sup1;</li></ul></li></ul> Aplicaciones: <ul><li>Wiki</li><li>Tareas</li><li>Inspección</li></ul>|
-||||
-
-&sup1; Aplicación agregada al canal como una pestaña.
+> [!div class="mx-tdBreakAll"]
+>| Tipo de plantilla| TemplateId | Propiedades que vienen con esta plantilla |
+>| ------------------|- |----------------------------------------------------- |
+>| Venta al por menor para administradores| `retailManagerCollaboration` |Canales: <ul><li>General<li>Operaciones</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Aprobaciones</li><li>Inspección</li><li>Páginas de SharePoint<ul><li>Nuestra tienda</li></ul></li><li>Tareas por Planner y To Do</li><li>Wiki</li></ul>|
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Uso de plantillas de equipo con Microsoft Graph
 
@@ -77,16 +81,19 @@ Los desarrolladores pueden usar Microsoft Graph para crear equipos a partir de p
 
 Estas son las plantillas de equipo de venta directa predefinidas.
 
-### <a name="store"></a>Almacén
+> [!NOTE]
+> Un asterisco (*) indica que la plantilla es una *plantilla conectada a Microsoft 365*. Cuando los usuarios crean un equipo con la plantilla, la plantilla de SharePoint conectada se aplica al sitio y al equipo. Los componentes de SharePoint, como páginas, listas e integraciones de Power Platform, se agregan y anclan automáticamente como pestañas al canal General del equipo. Los usuarios pueden editar estas páginas y listas directamente desde Teams.
+>
+> Para obtener más información sobre las plantillas de SharePoint, vea [Aplicar y personalizar plantillas de sitio de SharePoint](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
 
-La plantilla de tienda es ideal para crear un equipo que represente la ubicación de una tienda. Con la plantilla de tienda, puede crear un equipo para cada ubicación de las tiendas de su organización.
+### <a name="manage-a-store"></a>Administrar una Store*
 
-| Tipo de plantilla | TemplateId | Canales de plantilla |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Comercio minorista: <br>Tienda | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Canales <ul><li>General</li><li>Turno de entrega&sup2;</li><li>Preparación del almacén</li><li>Aprendizaje&sup2;</li></ul>Propiedades del equipo <ul><li>Visibilidad de equipo establecida en Público</li></ul> <br>Permisos de miembro <ul><li>No se pueden crear, actualizar ni eliminar canales </li><li>No se pueden agregar ni quitar aplicaciones </li><li>No se pueden crear, actualizar o quitar pestañas</li><li>No se pueden crear, actualizar ni quitar conectores</li><ul>|
-||||
+Use esta plantilla para crear un equipo para cada ubicación de tienda minorista de su organización.
 
-&sup2; Canales con favoritos automáticos
+> [!div class="mx-tdBreakAll"]
+>| Tipo de plantilla | TemplateId | Canales de plantilla |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| Comercio minorista: <br>Tienda | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Canales <ul><li>General</li><li>Desplazar la entrega</li><li>Store Readiness</li><li>Aprendizaje</li></ul>Propiedades del equipo <ul><li>Visibilidad de equipo establecida en Público</li></ul> <br>Permisos de miembro <ul><li>No se pueden crear, actualizar ni eliminar canales </li><li>No se pueden agregar ni quitar aplicaciones </li><li>No se pueden crear, actualizar o quitar pestañas</li><li>No se pueden crear, actualizar ni quitar conectores</li><ul>|
 
 Formas recomendadas para personalizar la plantilla de tienda para su organización:
 
@@ -94,16 +101,14 @@ Formas recomendadas para personalizar la plantilla de tienda para su organizaci�
 
 - Si su organización tiene sitios web internos (por ejemplo, un sitio de SharePoint), considere la posibilidad de anclarlos como pestañas en el canal de equipo relevante.
 
-### <a name="manager-collaboration"></a>Colaboración del administrador
+### <a name="retail-for-managers"></a>Venta al por menor para administradores*
 
-La plantilla de colaboración de administrador es ideal para crear un equipo para que un conjunto de administradores colaboren en tiendas, regiones, etc. Por ejemplo, si su organización tiene regiones, puede crear un equipo de colaboración de administrador para la región de California e incluir todos los administradores de tiendas de esa región, junto con el administrador regional de esa región.
+Use esta plantilla para crear un equipo para que un conjunto de administradores colabore entre tiendas o regiones. Por ejemplo, si su organización tiene regiones, puede crear un equipo para la región de California e incluir todos los administradores de almacén de esa región, junto con el administrador regional de esa región.
 
-| Tipo de plantilla | TemplateId | Canales de plantilla |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Comercio minorista: <br>Tienda | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canales <ul><li>General</li><li>Operaciones&sup2;</li><li>Aprendizaje&sup2;</li></ul>Propiedades del equipo <ul><li>Visibilidad de equipo establecida en Privado</li></ul> <br>Permisos de miembro <ul><li>Puede crear, actualizar y eliminar canales </li><li>Puede agregar y quitar aplicaciones </li><li>Puede crear, actualizar y quitar pestañas</li><li>Puede crear, actualizar y quitar conectores</li><ul>|
-||||
-
-&sup2; Canales con favoritos automáticos
+> [!div class="mx-tdBreakAll"]
+>| Tipo de plantilla | TemplateId | Canales de plantilla |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| Comercio minorista: <br>Colaboración del administrador | `https://graph.microsoft.com/beta/teamsTemplates('retailManagerCollaboration')`| Canales <ul><li>General</li><li>Operaciones</li><li>Aprendizaje</li></ul>Propiedades del equipo <ul><li>Visibilidad de equipo establecida en Privado</li></ul> <br>Permisos de miembro <ul><li>Puede crear, actualizar y eliminar canales </li><li>Puede agregar y quitar aplicaciones </li><li>Puede crear, actualizar y quitar pestañas</li><li>Puede crear, actualizar y quitar conectores</li><ul>|
 
 Formas recomendadas de personalizar la plantilla de colaboración de encargados para su organización:
 
@@ -131,6 +136,9 @@ Para usar estas plantillas, cambie la propiedad "template@odata.bind" en el cuer
   ]
 }
 ```
+
+> [!NOTE]
+> Si usa Microsoft Graph para crear un equipo a partir de un grupo o equipo de Microsoft 365 existente con una plantilla conectada a Microsoft 365, la plantilla de SharePoint conectada no se aplica automáticamente al sitio o al equipo. Tendrá que aplicar manualmente la plantilla de sitio de SharePoint después de crear el equipo. En Teams, vaya al equipo, seleccione **Más opciones** en la esquina superior derecha > **Abrir en SharePoint**. Después, elija **Configuración** > **Aplicar una plantilla de sitio** y seleccione la plantilla de sitio correspondiente.
 
 ## <a name="related-articles"></a>Artículos relacionados
 

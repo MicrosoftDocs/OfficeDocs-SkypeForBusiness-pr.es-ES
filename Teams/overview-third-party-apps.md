@@ -6,6 +6,7 @@ author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
+ms.subservice: teams-apps
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -16,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 951bbd236417581e57a6b11e3b873716ef7f4c9c
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: f5d06f7db83fecdd4e6ab9cba39331753013da73
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706249"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837310"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Información general sobre aplicaciones de terceros en Microsoft Teams
 

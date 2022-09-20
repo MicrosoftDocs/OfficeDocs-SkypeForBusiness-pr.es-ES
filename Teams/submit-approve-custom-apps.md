@@ -1,11 +1,12 @@
 ---
 title: Usar la API de envío de aplicaciones de Teams para enviar y aprobar sus aplicaciones personalizadas
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection:
 - M365-collaboration
@@ -16,16 +17,16 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo aprobar las aplicaciones personalizadas que se envían con la API de envío de aplicaciones de Teams en Microsoft Teams.
-ms.openlocfilehash: 2fb0ab6778a0704b0cb60faef0d0fd739351ee10
-ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
+ms.openlocfilehash: 644e4afd28dbec27385516ce3e0676eb9ea27ef1
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66958075"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837530"
 ---
 # <a name="publish-a-custom-app-submitted-using-the-teams-app-submission-api"></a>Publicar una aplicación personalizada enviada con la API de envío de aplicaciones de Teams
 
-Este artículo proporciona instrucciones de un extremo a otro para llevar su aplicación de Teams del desarrollo a la implementación al descubrimiento. Obtendrá información general sobre las experiencias conectadas que Teams proporciona en todo el ciclo de vida de la aplicación para simplificar la forma de desarrollar, implementar y administrar aplicaciones personalizadas en la tienda de aplicaciones de su organización.
+Este artículo proporciona una guía de principio a fin para llevar su aplicación de Teams desde el desarrollo pasando por la implementación hasta su descubrimiento. Obtendrá información general sobre las experiencias conectadas que Teams proporciona en todo el ciclo de vida de la aplicación para simplificar la forma de desarrollar, implementar y administrar aplicaciones personalizadas en la tienda de aplicaciones de su organización.
 
 Trataremos cada paso del ciclo de vida, incluido cómo los desarrolladores pueden usar la API de envío de aplicaciones de Teams para enviar aplicaciones personalizadas directamente al Centro de administración de Microsoft Teams para que las revise y apruebe, cómo establecer directivas para administrar aplicaciones para los usuarios de su organización y cómo los usuarios las descubren en Teams.
 
@@ -34,16 +35,16 @@ Trataremos cada paso del ciclo de vida, incluido cómo los desarrolladores puede
 Esta guía se centra en los aspectos de Teams de la aplicación y está destinada a administradores y profesionales de TI. Para obtener información sobre el desarrollo de aplicaciones de Teams, consulte la [documentación del desarrollador de Teams](/microsoftteams/platform).
 
 > [!NOTE]
-> Al publicar una aplicación de Teams personalizada, está disponible para los usuarios de la tienda de aplicaciones de su organización. Hay dos formas de publicar una aplicación personalizada y la manera en que se usa depende de cómo se obtenga la aplicación. Este artículo se centra en cómo aprobar y publicar una aplicación personalizada que envía un desarrollador a través de la API de envío de aplicaciones de Teams. El otro método, cargar una aplicación personalizada, se usa cuando un desarrollador le envía un paquete de aplicación en .zip formato. Para obtener más información sobre ese método, vea [Publicar una aplicación personalizada cargando un paquete de aplicación](/microsoftteams/upload-custom-apps). El widget aprobar aplicación no está disponible en los inquilinos de GCC.
+> Al publicar una aplicación de Teams personalizada, está disponible para los usuarios de la tienda de aplicaciones de su organización. Hay dos formas de publicar una aplicación personalizada y la manera en que se usan depende de cómo se obtiene la aplicación. Este artículo se centra en cómo aprobar y publicar una aplicación personalizada que envía un desarrollador a través de la API de envío de aplicaciones de Teams. El otro método, cargar una aplicación personalizada, se usa cuando un desarrollador le envía un paquete de aplicación en .zip formato. Para obtener más información sobre ese método, vea [Publicar una aplicación personalizada cargando un paquete de aplicación](/microsoftteams/upload-custom-apps). El widget aprobar aplicación no está disponible en los inquilinos de GCC.
 
 > [!IMPORTANT]
-> Este método no está disponible actualmente para entornos GCC. En GCC, use el método *de carga de una aplicación personalizada* .
+> Este método no está disponible en entornos GCC. [Cargue una aplicación personalizada](upload-custom-apps.md) para publicarla en entornos GCC.
 
 ## <a name="develop"></a>Desarrollar
 
 ### <a name="create-the-app"></a>Crear la aplicación
 
-La plataforma para desarrolladores de Microsoft Teams facilita a los desarrolladores la integración de sus propias aplicaciones y servicios para mejorar la productividad, tomar decisiones más rápidamente y crear colaboración en torno al contenido y los flujos de trabajo existentes. Las aplicaciones creadas en la plataforma Teams son puentes entre el cliente de Teams y sus servicios y flujos de trabajo, que las llevan directamente al contexto de su plataforma de colaboración. Para obtener más información, vaya a la [documentación del desarrollador de Teams](/microsoftteams/platform).
+La plataforma para desarrolladores de Microsoft Teams facilita a los desarrolladores la integración de sus propias aplicaciones y servicios para mejorar la productividad, tomar decisiones más rápidamente y crear colaboración en torno al contenido y los flujos de trabajo existentes. Las aplicaciones creadas en la plataforma Teams son puentes entre el cliente de Teams y sus servicios y flujos de trabajo, lo que las lleva directamente al contexto de su plataforma de colaboración. Para obtener más información, vaya a la [documentación para desarrolladores de Teams](/microsoftteams/platform).
 
 ### <a name="submit-the-app"></a>Enviar la aplicación
 
@@ -53,7 +54,7 @@ La API de envío de aplicaciones de Teams, [creada en Microsoft Graph](/graph/ap
 
 Este es un ejemplo del aspecto que tiene este paso de envío de aplicaciones en Visual Studio Code:
 
-:::image type="content" source="media/custom-app-lifecycle-submit-app.png" alt-text="enviar una aplicación en Visual Studio Code.":::
+:::image type="content" source="media/custom-app-lifecycle-submit-app.png" alt-text="Captura de pantalla del envío de aplicaciones en Visual Studio Code.":::
 
 Tenga en cuenta que esto aún no publica la aplicación en la tienda de aplicaciones de su organización. Este paso envía la aplicación al Centro de administración de Teams, donde puede aprobarla para su publicación en la tienda de aplicaciones de su organización.
 
@@ -117,21 +118,21 @@ De forma predeterminada, todos los usuarios de su organización pueden acceder a
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>Anclar e instalar la aplicación para que los usuarios la descubran
 
-De forma predeterminada, para que los usuarios encuentren la aplicación, tienen que ir a la tienda de aplicaciones de su organización y examinarla o buscarla. Para que sea más fácil para los usuarios acceder a la aplicación, puede anclar la aplicación a la barra de la aplicación en Teams. Para ello, cree una directiva de configuración de la aplicación y asígnela a los usuarios. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
+De forma predeterminada, para que los usuarios encuentren la aplicación, tienen que ir a la tienda de aplicaciones de su organización y explorar o buscarla. Para que sea más fácil para los usuarios acceder a la aplicación, puede anclar la aplicación a la barra de aplicaciones de Teams. Para ello, cree una directiva de configuración de aplicaciones y asígnela a los usuarios. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
 
-### <a name="search-the-audit-log-for-teams-app-events"></a>Buscar eventos de la aplicación Teams en el registro de auditoría
+### <a name="search-the-audit-log-for-teams-app-events"></a>Buscar eventos de aplicaciones de Teams en el registro de auditoría
 
-Puede buscar en el registro de auditoría para ver la actividad de las aplicaciones de Teams en su organización. Para obtener más información sobre cómo buscar el registro de auditoría y ver una lista de las actividades de Teams que se registran en el registro de auditoría, vea [Buscar eventos en Teams en el registro de auditoría](audit-log-events.md).
+Puede buscar en el registro de auditoría para ver la actividad de aplicaciones de Teams en su organización. Para obtener más información sobre cómo buscar el registro de auditoría y ver una lista de las actividades de Teams que se registran en el registro de auditoría, vea [Buscar eventos en Teams en el registro de auditoría](audit-log-events.md).
 
 Para que pueda buscar en el registro de auditoría, primero debe activar la característica de auditoría en el [Centro de seguridad y cumplimiento](https://sip.protection.office.com/). Para obtener más información, consulte [Activar o desactivar la búsqueda de registros de auditoría](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&preserve-view=true). Tenga en cuenta que los datos de auditoría solo están disponibles desde el momento en que activó la característica de auditoría.
 
 ## <a name="discover-and-adopt"></a>Descubrir y adoptar
 
-Los usuarios que tienen permisos para la aplicación pueden encontrarla en la tienda de aplicaciones de su organización. Vaya a **Creado para el *nombre de su organización*** en la página Aplicaciones para buscar las aplicaciones personalizadas de su organización.
+Los usuarios que tienen permisos para la aplicación pueden encontrarla en la tienda de aplicaciones de su organización. Vaya a **Creado para *Nombre de su organización*** en la página Aplicaciones para buscar las aplicaciones personalizadas de su organización.
 
 :::image type="content" source="media/custom-app-lifecycle-discovery.png" alt-text="Página de aplicaciones que muestra la aplicación publicada." lightbox="media/custom-app-lifecycle-discovery.png":::
 
-Si ha creado y asignado una directiva de configuración de aplicaciones, la aplicación se ancla a la barra de la aplicación en Teams para facilitar el acceso a los usuarios a los que se asignó la directiva.
+Si ha creado y asignado una directiva de configuración de aplicaciones, la aplicación se ancla a la barra de aplicaciones de Teams para facilitar el acceso a los usuarios a los que se asignó la directiva.
 
 ## <a name="update"></a>Actualización
 
@@ -162,7 +163,7 @@ Para obtener más información sobre el uso de la Graph API para actualizar apli
 ## <a name="related-articles"></a>Artículos relacionados
 
 * [Publicar una aplicación personalizada cargando un paquete de aplicación](upload-custom-apps.md)
-* [Administrar las aplicaciones en el Centro de administración de Microsoft Teams](manage-apps.md)
+* [Administrar aplicaciones en el Centro de administración de Microsoft Teams](manage-apps.md)
 * [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md)
 * [Administrar directivas de permisos de aplicación en Teams](teams-app-permission-policies.md)
 * [Administrar directivas de configuración de aplicación en Teams](teams-app-setup-policies.md)

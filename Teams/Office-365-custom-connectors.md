@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
 audience: admin
 ms.collection:
 - M365-collaboration
@@ -17,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8abc7dc981902945cdb8be8ed9a2fe705e0d6e73
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 5e61a6705f470ee93c7169effdd56f35ca0dd6f4
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486745"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837360"
 ---
 # <a name="manage-microsoft-365-and-custom-connectors"></a>Administrar Microsoft 365 y los conectores personalizados
 

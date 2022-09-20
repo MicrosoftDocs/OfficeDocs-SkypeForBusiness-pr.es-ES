@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: teams-apps
 search.appverid: ''
 description: Obtenga información sobre las directivas de permisos de aplicación, las directivas de configuración de aplicaciones y las directivas de aplicación personalizadas usadas para administrar aplicaciones en Microsoft Teams.
 audience: admin
@@ -13,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 5a377923412ad1835e4a0a3c099d31adf283267b
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: ad7e99d10ebf53c7a85394edda84061f6caf0d29
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299039"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837570"
 ---
 # <a name="overview-of-app-policies-used-to-manage-access-to-apps"></a>Información general sobre las directivas de aplicación usadas para administrar aplicaciones
 

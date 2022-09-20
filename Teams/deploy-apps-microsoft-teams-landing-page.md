@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 0a6bfa577df36eba83b4764aa4eb819d1085432a
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 67c50eefdd1d0e20e10b9542912f0e2c4f412815
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486915"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837650"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Comprender las aplicaciones de terceros en Microsoft Teams
 
@@ -95,7 +95,7 @@ Los webhooks y conectores proporcionan contenido y actualizaciones de servicios 
 
 Las extensiones de mensajería son accesos directos para insertar contenido de la aplicación o para actuar en un mensaje sin que los usuarios finales tengan que salir de la conversación. Las extensiones de mensajería pueden tener comandos de búsqueda para que los usuarios finales encuentren rápidamente contenido externo y lo inserten en un mensaje o comandos de acción.
 
-Para ver los casos de uso comunes asignados a las funcionalidades de Teams, consulte [Asignar los casos de uso a las características de la aplicación de Teams](/microsoftteams/platform/concepts/design/map-use-cases).
+Para ver casos de uso comunes asignados a las capacidades de Teams, consulte [Asignar los casos de uso a las capacidades de la aplicación Teams](/microsoftteams/platform/concepts/design/map-use-cases).
 
 <!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
 

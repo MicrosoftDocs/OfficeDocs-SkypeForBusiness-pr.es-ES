@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
+ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
 ms.collection:
@@ -22,16 +23,16 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 7ff0a37d815b3118aea0eb63abc8a414c4a99bd5
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: d52fe50ba3fa02b3b39269fd06ce66ea0dfb5b32
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397251"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837170"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Administrar configuración y directivas de aplicación personalizadas en Microsoft Teams
 
-Como administrador, puede usar directivas y configuraciones de aplicaciones personalizadas para controlar qué usuarios de la organización pueden cargar aplicaciones personalizadas a Microsoft Teams. Los administradores deciden qué usuarios pueden cargar aplicaciones personalizadas y los administradores y propietarios de equipos pueden determinar si ciertos equipos de la organización permiten que se les agreguen aplicaciones personalizadas.  Al editar la directiva de aplicación personalizada, los cambios pueden tardar unas horas en surtir efecto. Debe ser un administrador global o un administrador de servicio de Teams para administrar estas directivas.
+Como administrador, puede usar directivas y configuraciones de aplicaciones personalizadas para controlar qué usuarios de la organización pueden cargar aplicaciones personalizadas a Microsoft Teams. Los administradores deciden qué usuarios pueden cargar aplicaciones personalizadas y los administradores y propietarios de equipos pueden determinar si ciertos equipos de la organización permiten que se les agreguen aplicaciones personalizadas.  Al editar la directiva de aplicación personalizada, los cambios pueden tardar unas horas en surtir efecto. Para administrar estas directivas, debe ser administrador global de Administración o teams.
 
 Los desarrolladores de su organización pueden agregar una aplicación personalizada a Teams si cargan un paquete de aplicación (en un archivo .zip) directamente en un equipo o en el ámbito personal. Esto difiere de la forma en que se agregan las aplicaciones a través de la tienda de aplicaciones de Teams. Cargar un paquete de aplicación para agregar una aplicación personalizada, también conocido como instalación de prueba, permite a usuarios específicos de la organización probar una aplicación antes de que esté lista para distribuirse de forma amplia.
 

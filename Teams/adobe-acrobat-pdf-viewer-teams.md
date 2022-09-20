@@ -6,6 +6,7 @@ manager: prkosh
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.subservice: teams-apps
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -16,12 +17,12 @@ description: Obtenga información sobre cómo establecer Adobe Acrobat como un v
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: b1c5654791dde3def8ec622880e26b07f693633f
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 3c9279c791a7f0e00d1b4a55161651c90b6b9763
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396711"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837710"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Adobe Acrobat como visor de PDF predeterminado en Microsoft Teams
 

@@ -7,6 +7,7 @@ ms.reviewer: prem
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection:
 - M365-collaboration
@@ -17,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo personalizar la tienda de aplicaciones de Teams de su organización agregando logotipo, fondos personalizados y colores de texto personalizados.
-ms.openlocfilehash: 4d26ba44fa9c9618476f7afdc7a59d7a4afd66ca
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 4a7a34324619f3c076a5abd7069e129d59420e6a
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486965"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837210"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>Personalizar la tienda de aplicaciones de su organización en Microsoft Teams
 
