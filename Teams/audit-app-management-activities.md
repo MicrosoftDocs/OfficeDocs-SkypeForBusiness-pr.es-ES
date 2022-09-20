@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
 audience: admin
 ms.collection:
 - M365-collaboration
@@ -14,12 +15,12 @@ description: Obtén información sobre cómo auditar las actividades de la aplic
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 33e308dec79163b2b3ccbc82870352555d0aa80f
-ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
+ms.openlocfilehash: f1b7a8ca14a087ecaf7e7a8898f9bdb85e87e3c5
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "67457280"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837730"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>Auditoría de actividades y eventos de administración de aplicaciones
 
