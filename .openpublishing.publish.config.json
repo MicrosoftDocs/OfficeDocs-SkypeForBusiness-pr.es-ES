@@ -54,13 +54,17 @@
       "version": 0
     }
   ],
-  "notification_subscribers": ["v-jijaku@microsoft.com","v-mipop@microsoft.com"],
-  "branches_to_filter": ["live-sxs"],
+  "notification_subscribers": [
+    "martio@microsoft.com"
+  ],
+  "sync_notification_subscribers": [],
+  "branches_to_filter": [
+    "live-sxs"
+  ],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness.es-es",
   "git_repository_branch_open_to_public_contributors": "live",
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
-  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -108,12 +112,13 @@
       "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": true,
   "targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
     }
   },
+  "contribution_branch_mappings": {},
+  "need_generate_pdf_url_template": true,
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
   "redirection_files": [
