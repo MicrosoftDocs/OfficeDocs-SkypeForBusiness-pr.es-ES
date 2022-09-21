@@ -8,6 +8,12 @@
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content",
+        "ContextObject": "Toc"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes"
     },
@@ -19,6 +25,12 @@
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content",
+        "Tutorial": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "version": 0
@@ -31,15 +43,26 @@
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content",
+        "Tutorial": "Content"
+      },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "version": 0
     }
   ],
-  "notification_subscribers": [],
+  "notification_subscribers": [
+    "martio@microsoft.com"
+  ],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [
     "live-sxs"
   ],
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness.es-es",
+  "git_repository_branch_open_to_public_contributors": "live",
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
@@ -58,7 +81,7 @@
     },
     {
       "path_to_root": "Skype/common",
-      "url": "https://github.com/MicrosoftDocs/OfficeDocs-pr",
+      "url": "https://github.com/MicrosoftDocs/OfficeDocs-pr.es-es",
       "branch": "live",
       "branch_mapping": {}
     },
@@ -77,17 +100,30 @@
       "Publish",
       "Pdf"
     ],
+    "live-sxs": [
+      "Publish",
+      "Pdf"
+    ],
     "SkypeServer2019": [
+      "Publish",
+      "Pdf"
+    ],
+    "dstrome-SMB-voice": [
       "Publish",
       "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": true,
   "targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
     }
   },
+  "contribution_branch_mappings": {},
+  "need_generate_pdf_url_template": true,
   "need_generate_pdf": false,
-  "need_generate_intellisense": false
+  "need_generate_intellisense": false,
+  "redirection_files": [
+    ".openpublishing.redirection.json",
+    ".openpublishing.redirection.lync.json"
+  ]
 }
