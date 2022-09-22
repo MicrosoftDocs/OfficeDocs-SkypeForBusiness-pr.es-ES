@@ -667,6 +667,40 @@ items:
                 href: teams-live-events/configure-teams-live-events.md
               - name: Directivas de grabación de eventos en directo
                 href: teams-live-events/live-events-recording-policies.md
+          - name: Creación de una experiencia de reunión híbrida de Teams
+            items:
+              - name: Información general
+                href: hybrid-meetings-overview.md
+              - name: Principios de reunión híbrida
+                href: hybrid-meetings-principles.md
+              - name: 'Paso 1: Familiarizarse con las características de reunión de Teams'
+                href: hybrid-meetings-features.md
+              - name: 'Paso 2: Procedimientos recomendados para la reunión de evangeliza'
+                href: hybrid-meetings-educate-participants.md
+              - name: 'Paso 3: Diseño y creación de un espacio de reuniones'
+                href: hybrid-meetings-room-design.md
+              - name: 'Paso 4: Seleccionar dispositivos de sala'
+                href: hybrid-meetings-device-select.md
+              - name: 'Paso 5: Configuración de los dispositivos'
+                items:
+                  - name: Información general
+                    href: hybrid-meetings-device-config-intro.md
+                  - name: 'Paso 1: Compra de una licencia de Salas de Teams'
+                    href: hybrid-meetings-device-config-license.md
+                  - name: 'Paso 2: Creación de una cuenta de recursos'
+                    href: hybrid-meetings-device-config-account.md
+                  - name: 'Paso 3: Asignación de una licencia de sala de reuniones'
+                    href: hybrid-meetings-device-config-assign.md
+                  - name: 'Paso 4: Configuración de las propiedades del buzón'
+                    href: hybrid-meetings-device-config-mailbox.md
+                  - name: 'Paso 5: Desactivar la expiración de contraseñas'
+                    href: hybrid-meetings-device-config-password.md
+                  - name: 'Paso 6: Configuración de directivas de reunión'
+                    href: hybrid-meetings-device-config-policies.md
+                  - name: 'Paso 7: Configuración de opciones de calendario'
+                    href: hybrid-meetings-device-config-calendar.md
+              - name: 'Paso 6: Administración y supervisión de salas y reuniones'
+                href: hybrid-meetings-manage.md
       - name: Audioconferencia
         items:
           - name: Audioconferencia en M365
