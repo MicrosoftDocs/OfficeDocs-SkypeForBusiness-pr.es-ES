@@ -1569,7 +1569,7 @@ items:
         items:
           - name: Entender las aplicaciones de terceros
             href: overview-third-party-apps.md
-          - name: Entender la validación de aplicaciones por parte de Microsoft
+          - name: 'Comprobaciones, pruebas y validación de aplicaciones realizadas por Microsoft'
             href: overview-of-app-validation.md
           - name: 'Seguridad, cumplimiento y privacidad de las aplicaciones de terceros'
             href: overview-of-app-certification.md
@@ -1591,9 +1591,9 @@ items:
             href: teams-custom-app-policies-and-settings.md
           - name: Publicar aplicaciones personalizadas enviadas mediante API
             href: submit-approve-custom-apps.md
-          - name: Publicar una aplicación personalizada enviada como paquete
+          - name: Publicación de una aplicación personalizada enviada como paquete
             href: upload-custom-apps.md
-          - name: Administrar aplicaciones de Power Platform en el centro de administración de Teams
+          - name: Administración de aplicaciones personalizadas creadas mediante Power Platform
             href: manage-power-platform-apps.md
       - name: Controles de administración para controlar las aplicaciones
         items:
