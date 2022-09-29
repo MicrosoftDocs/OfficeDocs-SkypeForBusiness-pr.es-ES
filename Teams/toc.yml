@@ -1429,15 +1429,13 @@ items:
                 href: rooms/xml-config-file.md
               - name: Usar la herramienta de recuperación
                 href: rooms/recovery-tool.md
-      - name: Servicio administrado de Salas de Microsoft Teams
+      - name: Salas de Microsoft Teams Pro Management
         items:
           - name: Información general
             href: rooms/microsoft-teams-rooms-premium.md
-          - name: Obtener y asignar una licencia
-            href: rooms/obtaining-assigning-license.md
-          - name: Inscripción en el servicio administrado de MTRP
+          - name: Acceso al portal de administración de Pro
             href: rooms/enrolling-mtrp-managed-service.md
-          - name: Inscripción de un dispositivo en un servicio administrado
+          - name: Inscripción de un dispositivo en la administración de Pro
             href: rooms/enroll-a-device.md
           - name: Control de acceso basado en roles
             href: rooms/microsoft-teams-rooms-premium-rbac.md
@@ -1445,7 +1443,7 @@ items:
             href: rooms/managed-meeting-rooms-portal.md
           - name: Actualizaciones administradas
             href: rooms/update-management.md
-          - name: Configurar ServiceNow para salas de Teams
+          - name: Configuración de ServiceNow
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
           - name: Administración multiinquilino para asociados
             href: rooms/multi-tenant-management-partner.md
@@ -1457,12 +1455,10 @@ items:
             href: rooms/health-and-usage-reports.md
           - name: Planificador de estándares y salas
             href: rooms/standards-and-room-planner.md
-          - name: Incidentes notificados por el cliente
+          - name: Registro de un problema
             href: rooms/customer-reported-incidents.md
           - name: Información sobre datos y privacidad
             href: rooms/data-and-privacy-info.md
-          - name: Uso de la aplicación móvil de Salas de Teams
-            href: rooms/extended-mobile-app.md
       - name: Dispositivos
         items:
           - name: Tienda de dispositivos de Teams
