@@ -1,8 +1,8 @@
 ---
-title: Salas de Microsoft Teams incidentes notificados por el cliente
-author: donnah007
-ms.author: v-donnahill
-ms.date: 07/08/2022
+title: Salas de Microsoft Teams Grabar un problema
+author: altsou
+ms.author: altsou
+ms.date: 09/28/2022
 manager: serdars
 ms.reviewer: dstrome
 ms.topic: article
@@ -16,19 +16,17 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Los partners/clientes pueden cerrar incidentes manualmente y garantizar la notificación precisa del estado de la sala en MTRP.
-ms.openlocfilehash: 308e2d4578637e4b50a8324a3f98bad82ad5c5d0
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Los partners o clientes pueden abrir manualmente un incidente a través de "Grabar un problema" para garantizar la notificación precisa del estado del salón en el portal de administración de Pro.
+ms.openlocfilehash: f638a1fc4095b9cffd0f205e1118cf6c4374d5c6
+ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270315"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218124"
 ---
-# <a name="customer-reported-incident-tickets"></a>Incidencias notificadas por el cliente
+# <a name="record-an-issue-ticket"></a>Grabar un ticket de emisión
 
-Para cualquier tipo de incidente que Microsoft no haya marcado, o para preguntas sobre el servicio o las características, los clientes o asociados en nombre de los clientes pueden usar la característica Informar de incidentes para avisar a Microsoft de que investigue el problema o responda a la pregunta.
-
-![captura de pantalla del informe de incidentes >incidente](../media/customer-reported-incidents-001.png)
+Para cualquier tipo de incidente que MTR Pro no marca, o simplemente realizar un seguimiento de los problemas en un MTR o espacio, los clientes o socios en nombre de los clientes pueden usar la característica Grabar un problema.
 
 En el campo Descripción, describe lo mejor posible el problema con el que necesitas ayuda de Microsoft. Puede agregar una o más salas.
 
@@ -37,40 +35,32 @@ Compruebe  **Alto impacto** si el incidente está causando una degradación sign
 > [!NOTE]
 > No use este campo para preguntas generales, salas o problemas que no tengan mitigación disponible.
 
-![captura de pantalla de los salones de informe de incidentes afectados](../media/customer-reported-incidents-002.png)
+Cuando se selecciona una sala (o se seleccionan salas) como parte del problema Grabar un problema, cada sala se marcará como **No** saludable hasta que se cierre el problema grabado.
 
-Los incidentes notificados por el cliente (CRIs) se consideran incidencias críticas, lo que significa que el Centro de Operaciones de Servicio de Salas de Teams primero clasifique estos vales. Consulte el SLA de descripción de servicio para incidentes notificados por el cliente [aquí](microsoft-teams-rooms-premium.md). Cuando se selecciona una sala (o se seleccionan salas) como parte del CRI, cada sala se marcará como **No saludable** hasta que se cierre el CRI.
+## <a name="closing-record-an-issue-tickets"></a>Cierre Registrar un número de entradas
 
-## <a name="closing-customer-reported-incident-tickets"></a>Cierre de incidencias notificadas por el cliente
+Los problemas registrados los pueden cerrar el cliente o los partners que administran salas en nombre de los clientes.
 
-Los incidentes notificados por el cliente pueden cerrarlos el cliente, los partners que administran las salas en nombre de los clientes o los ingenieros del Centro de operaciones de servicio de Microsoft.
-
-**Para cerrar un incidente**
+**Para cerrar un vale de emisión registrado**
 
 1. Selecciona **Cerrar ticket**.
 
-   ![captura de pantalla de los detalles de Información general sobre incidentes](../media/customer-reported-incidents-003.png)
-
-1. Elija un motivo para el cierre seleccionando una categoría de la lista.
+2. Elija un motivo para el cierre seleccionando una categoría de la lista.
 
    Una vez que hayas confirmado el motivo del cierre, el ticket se cerrará y se moverá a **Resuelto**.
 
-   ![captura de pantalla del ticket cerrado](../media/customer-reported-incidents-004.png)
-
 La sección Información general de detalles del vale muestra que el vale fue cerrado por el Servicio de salas administradas (Microsoft) o el nombre del cliente o partner.  
-
- ![captura de pantalla de quién cerró el ticket ](../media/customer-reported-incidents-005.png)
 
 ## <a name="faq"></a>Preguntas más frecuentes
 
 **¿Alguien puede cerrar entradas?**
 
-Solo los incidentes notificados por el cliente los puede cerrar un usuario o el Centro de operaciones de servicio de salas administradas de Microsoft. Los clientes que hayan asignado un partner para administrar sus salas con permisos de administración de vales podrán cerrar incidentes notificados por el cliente.
+Solo un usuario puede cerrar los incidentes notificados por el cliente. Los clientes que hayan asignado un partner para administrar sus salas con permisos de administración de vales tendrán la posibilidad de cerrar vales de emisión registrados.
 
 **¿Puedo restringir quién puede cerrar entradas?**
 
-No en este momento. Todos los usuarios con permisos de administración de vales pueden cerrar un CRI.
+No en este momento. Todos los usuarios con permisos de administración de vales pueden cerrar un vale de problema registrado.
 
-**¿Recibiré una notificación cuando se cierre un vale de incidencia notificado por el cliente?**
+**¿Recibiré una notificación cuando se cierre un vale para grabar un problema?**
 
 No en este momento.

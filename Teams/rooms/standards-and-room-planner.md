@@ -1,9 +1,9 @@
 ---
 title: Estándares Salas de Microsoft Teams y planificación de salas
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: srpall
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Cree y adapte estándares basados en recomendaciones inteligentes de su entorno.
 f1keywords: ''
-ms.openlocfilehash: 05376b7c40131be54291961a7562faa6566e8e89
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: bcad1c98cbbf71467789617c53ea98d8f192da49
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271965"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243841"
 ---
 # <a name="standards-and-room-planner"></a>Normas y planificador de salas
 
@@ -30,7 +30,7 @@ Con las recomendaciones inteligentes de su entorno, puede crear y ajustar los es
 
 ## <a name="view-meeting-room-types"></a>Ver tipos de salas de reuniones
 
-En esta página, puede ver los tipos de espacio de sala o reunión de su organización. Un breve resumen de cuántos estándares tiene para las salas de reuniones, cuántos dispositivos nuevos se han detectado y el número de dispositivos que requieren que se realice una acción.
+En esta página, puede ver los tipos de espacio de sala o reunión de su organización. Un desglose rápido de cuántos estándares tiene para las salas de reuniones, cuántos dispositivos nuevos se han detectado y el número de dispositivos que requieren que se realice una acción.
 
 Esta página también tiene una barra de comandos desde la que puede iniciar  **Crear un** flujo de trabajo estándar o ir a Dispositivos detectados, Cambiar registros y Archivar.
 

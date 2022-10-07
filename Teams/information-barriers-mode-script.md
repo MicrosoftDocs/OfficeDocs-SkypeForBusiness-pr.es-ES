@@ -1,5 +1,6 @@
 ---
-title: Cambiar los modos de barreras de información con un script de PowerShell
+title: Cambiar los modos de barreras de la información con un script de PowerShell
+description: Use este script de PowerShell después de implementar barreras de información para actualizar el modo de abierto a implícito para todos los grupos de su inquilino.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,31 +8,32 @@ ms.topic: article
 ms.reviewer: smahadevan
 ms.service: msteams
 audience: admin
-description: Use este script de PowerShell después de implementar barreras de información para actualizar el modo de abierto a implícito para todos los grupos del espacio empresarial.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3030f40ed61eb2e0e86967132d9575de8334a6c6
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 63403c5e5ee495a7a110aa9239868fd6a9bb5803
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767707"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047130"
 ---
-# <a name="change-information-barriers-modes-with-a-powershell-script"></a>Cambiar los modos de barreras de información con un script de PowerShell
+# <a name="change-information-barriers-modes-with-a-powershell-script"></a>Cambiar los modos de barreras de la información con un script de PowerShell
 
-Use este script de PowerShell para actualizar el modo barreras de información (IB) para todos los Teams conectados en el espacio empresarial. Tendrá que actualizar el modo para estos grupos después de implementar barreras de información. Los grupos aprovisionados antes de habilitar IB tienen asignado el *modo* Abrir. En *el modo* Abierto, no hay ninguna directivas de IB aplicables. Después de habilitar IB, *Implícito* se convierte en el modo predeterminado para los nuevos grupos que cree. Sin embargo, los grupos existentes siguen teniendo *la configuración de modo* abierto. Ejecute este script para cambiar estos grupos existentes *al modo* implícito.
+Use este script de PowerShell para actualizar el modo de barreras de la información (IB) para todos los grupos conectados a Teams en su inquilino. Tendrá que actualizar el modo para estos grupos después de implementar las barreras de la información. Los grupos aprovisionados antes de habilitar IB se asignan al modo *Abierto* . En el modo *abierto* , no hay ninguna directiva IB aplicable. Después de habilitar IB, *Implicit* se convierte en el modo predeterminado para los nuevos grupos que cree. Sin embargo, los grupos existentes siguen teniendo la configuración *del modo Abierto* . Ejecute este script para cambiar estos grupos existentes al modo *implícito* .
 
-En este script, usará el cmdlet [Get-UnifiedGroup,](/powershell/module/exchange/Set-UnifiedGroup) que se encuentra en el módulo Exchange Online PowerShell para actualizar el modo. Para obtener más información sobre cómo administrar Teams powerShell, vea [Teams información general de PowerShell.](./teams-powershell-overview.md)
+En este script, usará el cmdlet [Get-UnifiedGroup](/powershell/module/exchange/Set-UnifiedGroup), que se encuentra en el módulo Exchange Online PowerShell para actualizar el modo. Para obtener más información sobre cómo administrar Teams con PowerShell, consulte [Introducción a Teams PowerShell](./teams-powershell-overview.md).
 
 ## <a name="sample-script"></a>Ejemplo de script
 
-Tendrá que usar una cuenta de trabajo o escuela a la que se le haya asignado el rol de administrador global para que el inquilino ejecute este script.
+Tendrá que usar una cuenta profesional o educativa a la que se le haya asignado el rol de administrador global para que el inquilino ejecute este script.
 
 ```powershell
 <#

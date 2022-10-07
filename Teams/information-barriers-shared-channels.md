@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 search.appverid: MET150
 f1.keywords:
@@ -16,16 +18,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: information-barriers
-ms.openlocfilehash: 6ee178252c00ec4c73dfaa036f17377cef401d30
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 5b214a4c60df7b50f508fec7985c6f38b65985e6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922841"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047220"
 ---
 # <a name="information-barriers-and-shared-channels-preview"></a>Barreras de información y canales compartidos (versión preliminar)
 
-[Los canales compartidos](shared-channels.md) en Microsoft Teams crear espacios de colaboración donde puede invitar a personas que no forman parte del equipo. [Microsoft Purview Information Barriers son directivas](/microsoft-365/compliance/information-barriers) que se pueden implementar para restringir e impedir que los usuarios y grupos se comuniquen entre sí dentro y fuera de su organización.
+[Los canales compartidos](shared-channels.md) en Microsoft Teams crean espacios de colaboración donde puede invitar a personas que no forman parte del equipo. [Microsoft Purview Information Barriers son directivas](/microsoft-365/compliance/information-barriers) que se pueden implementar para restringir e impedir que los usuarios y grupos se comuniquen entre sí dentro y fuera de su organización.
 
 Los canales compartidos están habilitados de forma predeterminada en Teams. Puede elegir darle a los usuarios permiso para crear canales compartidos, si pueden compartirlos con personas de fuera de la organización y si pueden participar en canales compartidos externos creando una directiva de canal. Cuando se configuran directivas de barreras de información en su organización, se comprueban al configurar canales compartidos para comprobar que ninguno de los miembros del canal existentes ni los nuevos usuarios agregados al canal compartido infrinjan las condiciones de la directiva de barreras de información.
 

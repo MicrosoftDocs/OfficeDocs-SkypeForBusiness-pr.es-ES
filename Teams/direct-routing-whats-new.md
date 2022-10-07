@@ -14,16 +14,22 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 8db0f0c4d29f786166098587aafc3ec1db256e38
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6d2496ef355df7a935dbf45321a8b8fd63b8e8de
+ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271465"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67854436"
 ---
 # <a name="whats-new-for-direct-routing"></a>Novedades del enrutamiento directo
 
 En este artículo se describen las novedades de enrutamiento directo. Vuelve a comprobarlo con frecuencia si hay actualizaciones.
+
+## <a name="trunk-demoting-logic-based-on-sip-options"></a>Trunk demoting logic based on SIP Options
+
+Una nueva característica basada en las opciones del SIP se introduce para el estado del tronco. Cuando está habilitada en la configuración de la puerta de enlace (consulte Set-CsOnlinePSTNGateway cmdlet y parámetro SendSipOptions), la lógica de enrutamiento para las llamadas salientes disminuirá el nivel de los troncos que no envían opciones SIP periódicamente (el período esperado es una opción SIP enviada por el SBC por minuto) al back-end de Microsoft. Estos troncos degradados se ponen al final de la lista de trunks disponibles para la llamada saliente y se intentan como los últimos; por lo tanto, podría reducir el tiempo de configuración de la llamada.
+Cualquier tronco habilitado para esa característica que no envíe al menos una opción SIP dentro de cinco minutos a cualquiera de los servidores proxy SIP regionales de Microsoft (NOAM, EMEA, APAC, OCEA) se considera degradado. Si un tronco envía opciones SIP solo a un subconjunto de servidores proxy sip regionales de Microsoft, estas rutas se prueban primero y el resto se degradan.
+
 
 ## <a name="sip-support"></a>Compatibilidad con SIP
 

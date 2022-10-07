@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.subservice: teams-apps
+ms.date: 09/25/2022
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +18,12 @@ description: Obtenga información sobre cómo establecer Adobe Acrobat como un v
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 3c9279c791a7f0e00d1b4a55161651c90b6b9763
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 4051b09febdcadfdeb62bf9301823717e1b35fe4
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837710"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377578"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Adobe Acrobat como visor de PDF predeterminado en Microsoft Teams
 
@@ -74,10 +75,10 @@ Si quiere permitir selectivamente la aplicación Adobe Acrobat para algunas pers
 
 Conozca la siguiente información sobre esta funcionalidad:
 
-* Una vez configurada la directiva, normalmente la aplicación tarda [unas horas](teams-app-setup-policies.md) en estar disponible para los usuarios.
+* Una vez configurada la directiva, normalmente la aplicación [tarda unas horas](teams-app-setup-policies.md#considerations-and-limitations) en estar disponible para los usuarios.
 * La visualización de archivos PDF anclados en canales como una pestaña y la visualización de archivos PDF en la aplicación Tareas sigue funcionando con la experiencia nativa de Teams.
 * Adobe Acrobat como visor de PDF predeterminado en Teams solo funciona en clientes de escritorio y web. No se admite en el cliente móvil.
 * Los usuarios necesitan un plan de Adobe Acrobat para usar las herramientas premium, como Exportar PDF, Organizar páginas, Combinar archivos, Comprimir PDF y Proteger PDF.
 * Para desinstalar la aplicación, los usuarios finales pueden quitar la aplicación del cliente de Teams. El administrador puede quitar la aplicación Adobe Acrobat mediante la directiva de configuración.
 * Si bloquea la aplicación Adobe Acrobat, quítela de la directiva de configuración. Garantiza que la experiencia del usuario final revierta al uso del visor de archivos PDF nativo.
-* Desde el cliente de escritorio de Teams, si tiene algún problema al iniciar sesión en la aplicación Adobe Acrobat, use Teams en el explorador para iniciar sesión.
+* Si tiene algún problema al iniciar sesión en la aplicación Adobe Acrobat en el cliente de escritorio de Teams, use [Teams en el explorador](https://teams.microsoft.com/) para iniciar sesión.

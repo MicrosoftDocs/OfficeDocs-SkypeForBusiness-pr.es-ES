@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas en Microsoft Teams. Las colas de llamadas proporcionan un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 2a1f16d9cde74988e082736f4d50f101fa0d6759
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: b977e06b735438930bea88f52090e253ccfd58f1
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486875"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046710"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -220,6 +220,9 @@ Para **agregar un grupo** a la cola:
   
 Las cuentas de Teams de los agentes deben establecerse en el modo TeamsOnly. Los agentes que no cumplan los requisitos no se incluyen en la lista de enrutamiento de llamadas. Se recomienda habilitar el modo de conferencia para las colas de llamadas si los agentes usan clientes compatibles.
 
+> [!TIP]
+> Establecer **el modo de conferencia** **en Activado** es la opción recomendada.
+
 > [!NOTE]
 > El modo de conferencia no es compatible si las llamadas de teléfono se redirigen a la cola desde una puerta de enlace de enrutamiento directo habilitada para el enrutamiento basado en ubicación.
 >
@@ -229,13 +232,9 @@ Las cuentas de Teams de los agentes deben establecerse en el modo TeamsOnly. Los
 >
 > Los agentes pueden oír la música configurada en espera en cola durante un máximo de 2 segundos al unirse por primera vez a la llamada.
 
-
-> [!TIP]
-> Establecer **el modo de conferencia** **en Activado** es la opción recomendada.
-
 Una vez que haya seleccionado las opciones de respuesta de llamadas, seleccione el botón **Siguiente** en la parte inferior de la página **Agregar una cola de llamadas** .
 
-# <a name="step-4-agent-routing"></a>[Paso 4: Enrutamiento del agente](#tab/agent-routing)
+# <a name="step-4-agent-selection"></a>[Paso 4: Selección de agente](#tab/agent-selection)
 
 ## <a name="step-4-select-your-agent-routing-options"></a>Paso 4: Seleccionar las opciones de enrutamiento del agente
 
@@ -251,7 +250,8 @@ Elija una de estas opciones:
 
 - **Inactividad mayor** dirige cada llamada al agente que ha estado inactivo por más tiempo. Un agente se considera inactivo si su estado de presencia es Disponible. Los agentes cuyo estado de presencia no es Disponible no podrán recibir llamadas hasta que cambien su presencia a Disponible.
 
-Se recomienda establecer el **Método de enrutamiento** en **Round robin** o **Longest idle**.
+> [!TIP]
+> Se recomienda establecer el **Método de enrutamiento** para **redondear robin** o **La inactividad más larga** .
 
 > [!NOTE]
 > Si la [grabación de cumplimiento](teams-recording-policy.md) está habilitada en los agentes, no se admite la combinación del **modo de conferencia** y el **enrutamiento de Attendant** . Si necesita usar el **modo conferencia**, seleccione **Enrutamiento en serie**, **Round robin** o **Longest idle** como **método de enrutamiento**. Si necesita usar el **enrutamiento de Attendant**, establezca **el modo de conferencia** en **Desactivado**.
@@ -272,7 +272,8 @@ Puede habilitar el **enrutamiento de llamadas basado en presencia** con cualquie
 
 Si un agente opta por no recibir llamadas, no se incluirán en la lista de enrutamiento de llamadas independientemente de cómo esté configurado su estado de disponibilidad.
 
-Se recomienda activar el **enrutamiento basado en presencia**.
+> [!TIP]
+> La configuración recomendada es establecer el **enrutamiento basado en** presencia **en activado** .
 
 > [!NOTE]
 > Cuando se selecciona **La inactividad más larga** como método de enrutamiento, se requiere un enrutamiento basado en presencia y se habilita automáticamente aunque el botón de alternancia de enrutamiento basado en presencia esté **Desactivado** y atenuado.
@@ -293,7 +294,8 @@ Se recomienda activar **los agentes de llamadas para que no puedan realizar llam
 
 **Tiempo de alerta de agente** especifica qué tanto tiempo sonará el teléfono de un agente antes de que la cola redirija la llamada al siguiente agente.
 
-Se recomienda establecer el **tiempo de alerta del agente en** **20 segundos**.
+> [!TIP]
+> La configuración recomendada es establecer la **hora de alerta del agente** en un mínimo de **20 segundos** .
 
 Una vez que haya seleccionado las opciones de enrutamiento de llamadas de su agente, seleccione el botón **Siguiente** en la parte inferior de la página **Agregar una cola de llamadas** .
 
@@ -349,11 +351,11 @@ Se recomienda la siguiente configuración:
 - **Modo de conferencia** a **Activado**
 - **Método de enrutamiento** a **distribución equilibrada** o **inactividad mayor**
 - **Enrutamiento basado en presencia** a **Activado**
-- **Hora de alerta de agente:** a **20 segundos**
+- **Tiempo de alerta del agente:** a un mínimo de **20 segundos**
 
 ### <a name="call-queue-feature-compatibility"></a>Compatibilidad de características de la cola de llamadas
 
-|Característica                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |Teléfonos IP | Colas de llamadas estándar |Colas de llamadas basadas en canales | Comentario |
+|Característica                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Skype Empresarial |Teléfonos IP | Colas de llamadas estándar |Colas de llamadas basadas en canales | Comentario |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
 |**Métodos de enrutamiento de agente**        |                          |          |                |     |          |                      |                          |   |
 |`Attendant Routing`              |v                         |v         |v               |v    |v         |v                     |v                         |*Predeterminado*     |
@@ -373,8 +375,8 @@ Se recomienda la siguiente configuración:
 |`Channel based call queue`       |v                         |n/a       |n/a             |n/a  |n/a       |n/a                   |v                         |   |
 |**Métodos de conectividad RTC**    |                          |          |                |     |          |                      |                          |Vea la Nota 9   |
 |`Calling Plans`                  |v                         |v         |v               |v    |v         |v                     |v                         |   |
-|`Direct Routing`                 |v                         |v         |v               |N    |N         |v                     |v                         |   |
-|`Operator Connect`               |v                         |v         |v               |     |          |v                     |v                         |   |
+|`Direct Routing`                 |v                         |v         |v               |N    |Y         |Y<sup>6</sup>         |v                         |   |
+|`Operator Connect`               |v                         |v         |v               |     |v         |Y<sup>6</sup>         |v                         |   |
 |**Misceláneos**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |v                 |N         |v               |v    |          |v                     |v                         |              |
 
@@ -387,6 +389,10 @@ Se recomienda la siguiente configuración:
 5. El modo de conferencia no es compatible si las llamadas de teléfono se redirigen a la cola desde una puerta de enlace de enrutamiento directo habilitada para el enrutamiento basado en ubicación.
 6. solo Teléfono Microsoft Teams.
 7. A través de la página del Portal de configuración de usuario en [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
+- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
+8. Solo se admiten canales públicos.
+9. Los operadores automáticos y las colas de llamadas no pueden transferir llamadas entre métodos de conectividad RTC.
 8. Solo se admiten canales públicos.
 9. Los operadores automáticos y las colas de llamadas no pueden transferir llamadas entre métodos de conectividad RTC.
 

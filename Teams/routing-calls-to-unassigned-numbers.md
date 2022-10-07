@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo enrutar llamadas a números no asignados de su organización.
-ms.openlocfilehash: 3f3d0b9e6962cce7abdb91efa8539dd559c38956
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 28f1ca3c60728c4a7a2153d7462afc8c7e78b366
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272305"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480720"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Enrutamiento de llamadas a números no asignados
 
@@ -53,7 +53,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$"
 En el ejemplo siguiente se especifica que todas las llamadas al intervalo de números +1 (555) 333-0000 a +1 (555) 333-9999 se redirigirán al servicio de anuncios, que reproducirá el archivo de audio MainAnnouncement.wav al autor de la llamada.
 
 ```PowerShell
-$Content = Get-Content "C:\Media\MainAnnoucement.wav" -Encoding byte -ReadCount 0
+$Content = [System.IO.File]::ReadAllBytes('C:\Media\MainAnnouncement.wav')
 
 $AudioFile = Import-CsOnlineAudioFile -FileName "MainAnnouncement.wav" -Content $Content
 
@@ -68,7 +68,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - Para redirigir las llamadas a los números de suscriptor no asignados de Microsoft Calling Plan, su inquilino debe tener [créditos de comunicaciones](what-are-communications-credits.md) disponibles.
 
-- Para enrutar las llamadas a números de servicio del plan de llamadas de Microsoft no asignados, su inquilino debe tener al menos una licencia **de cuenta de recurso de Microsoft Teams 电话**.
+- Para redirigir las llamadas a números de servicio del plan de llamadas de Microsoft no asignados, su inquilino debe tener al menos una licencia **de cuenta de recurso de Teléfono Microsoft Teams**.
 
 - Los formatos compatibles con archivos de audio personalizados son WAV (PCM lineal sin comprimir con profundidad de 8/16/32 bits en mono o estéreo), WMA (solo mono) y MP3. El contenido del archivo de audio no puede tener más de 5 MB.
 

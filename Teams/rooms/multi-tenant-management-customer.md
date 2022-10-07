@@ -1,9 +1,9 @@
 ---
 title: Administración de partners para clientes
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: altsou
 ms.date: 06/09/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,19 +18,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: administración de partners para los clientes.
 f1keywords: ''
-ms.openlocfilehash: 9ac7e01de1f9a9e620afa665298d8f3746319db2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 2c25bbfdd9b628641228eae6f52907e99a7beb9e
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271375"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243941"
 ---
 # <a name="partner-management-for-customers"></a>Administración de partners para clientes
 
-La administración de partners en el servicio Salas de Teams administrada (TRM) permite a los clientes delegar sin problemas el acceso y las responsabilidades a una o varias organizaciones asociadas. Los partners solo pueden administrar los salones que tienen asignados.
+La administración de partners en el servicio Salas de Teams Pro Management permite a los clientes delegar sin problemas el acceso y las responsabilidades de una o varias organizaciones asociadas. Los partners solo pueden administrar los salones que tienen asignados.
 
 ## <a name="on-boarding-partners"></a>Socios que se embarcan en el embarque
-   Invite a partners a través del portal de TRM para establecer la relación entre su organización y el inquilino de la organización asociada.
+   Invita a partners a través del Portal de administración de Pro para establecer la relación entre tu organización y el inquilino de la organización asociada.
 
 ### <a name="invitation-to-partner"></a>Invitación a partner
 
@@ -38,7 +38,7 @@ La administración de partners en el servicio Salas de Teams administrada (TRM) 
 
 **Para iniciar la invitación** 
 
-1. Inicie sesión en el Portal administrado de Salas de Teams como administrador de servicios administrados.
+1. Inicia sesión en el portal de administración de Salas de Teams Pro como administrador de servicios administrados.
 1. Vaya a **Configuración >** **Partners** y, después, seleccione **Agregar partner.**
 1. Escriba el nombre de dominio en la primera fila.
 1. Configure el número de días hasta que expire la invitación escribiendo un entero entre 1 y 30.
@@ -65,7 +65,7 @@ Para administrar usuarios en el rol de administrador principal, consulte [Admini
 
 **Para quitar un partner**
 
-1. Inicie sesión en el portal TRM-MTM como administrador de MMR.
+1. Inicie sesión en el portal de Administración multiinquilino (MTM) de Pro Management como administrador de servicios administrados.
 1. Vaya a **Configuración > Partners.**
 1. Selecciona el partner que quieras quitar.
 1. En el panel de detalles del cliente, selecciona **Quitar partner.**
@@ -84,7 +84,7 @@ Si ya ha enviado una invitación a un partner y desea delegar más salones, pued
 
 **Para agregar salas nuevas a un partner existente**
 
-1. Inicie sesión en el portal TRM-MTM como administrador de MMR.
+1. Inicie sesión en el portal de Pro Management-MTM como administrador de servicios administrados.
 1. Vaya a **Configuración > Roles.**
 1. Seleccione  **Roles de partner.** 
 1. Seleccione el rol **de administrador principal** para el nombre del partner correspondiente.
@@ -97,7 +97,7 @@ Si ya ha enviado una invitación a un partner y desea delegar más salones, pued
 
 ### <a name="table-1"></a>Tabla 1
 
-|Característica|Permiso|**Administración MMR**|**Cliente potencial del sitio**|**Site Tech**|**Administrador del partner**|
+|Característica|Permiso|**Administración de servicio administrado**|**Cliente potencial del sitio**|**Site Tech**|**Administrador del partner**|
 | :- | :- | :- | :- | :- | :- |
 |Habitaciones|Ver| &#10004;|&#10004;|&#10004;|&#10004;|
 ||Modificar|&#10004;|&#10004;|&#10004;|&#10004;|
@@ -114,7 +114,7 @@ Si ya ha enviado una invitación a un partner y desea delegar más salones, pued
 ||Crear incidente de cliente|&#10004;|&#10004;|&#10004;|&#10004;|
 |Administración de entradas|Ver|&#10004;|&#10004;|&#10004;|&#10004;|
 ||Actualización|&#10004;|&#10004;|&#10004;|&#10004;|
-|Configuración de MMR|Ver|&#10004;||||
+|Configuración de administración profesional|Ver|&#10004;||||
 ||Modificar|&#10004;||||
 |Administración de roles|Ver |&#10004;|||&#10004;|
 ||Modificar|&#10004;|||&#10004;|
@@ -123,7 +123,7 @@ Si ya ha enviado una invitación a un partner y desea delegar más salones, pued
 
 Como cliente final, usted mantiene el control sobre el acceso a sus datos y puede quitar completamente un partner en cualquier momento. 
 
-Con la característica de acceso delegado, un partner no obtiene ningún otro privilegio fuera del portal de servicios TRM. Sin embargo, todos los datos presentes en el servicio TRM derivados de otros productos de Microsoft se consideran datos en el servicio TRM. Por ejemplo, si bien los informes de calidad de llamadas se derivan de los datos de calidad de llamadas de Teams, cualquier dato del portal de TRM se encuentra en el ámbito de los permisos. 
+Con la característica de acceso delegado, un partner no obtiene ningún otro privilegio fuera del portal de administración de pro. Sin embargo, todos los datos presentes en el servicio Pro Management derivados de otros productos de Microsoft se consideran datos en el servicio. Por ejemplo, si bien los informes de calidad de llamadas se derivan de los datos de calidad de llamadas de Teams, cualquier dato del portal de administración de pro se encuentra en el ámbito de los permisos. 
 
 No se conceden permisos a AAD, al Centro de Administración de Teams ni a ningún otro producto de Microsoft. Además, los partners no tienen acceso para ver o modificar salas no definidas en el ámbito de la invitación. 
 
@@ -134,4 +134,4 @@ El portal de MTM usa la autenticación de Azure AD para validar las credenciales
 Para obtener registros de la actividad de asociados, consulte [Auditoría](multi-tenant-auditing.md). 
 
 > [!NOTE]
-> La auditoría de AAD y la auditoría de O365 no capturan registros del portal de TRM. 
+> La auditoría de AAD y la auditoría de O365 no capturan registros del portal de administración de Pro. 

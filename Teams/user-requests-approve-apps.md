@@ -7,9 +7,11 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/20/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords:
@@ -18,12 +20,12 @@ description: Obtenga información sobre cómo administrar y configurar la solici
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0967aec80bb88dff12141040fead94af9aae0616
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 382d3923d008f0bf70b2d9b9a4f3364709b4f2e1
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706229"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377608"
 ---
 # <a name="manage-user-requests"></a>Administrar solicitudes de usuario
 
@@ -33,7 +35,7 @@ Esta funcionalidad le proporciona una señal sobre la demanda de una aplicación
 
 Conservas el control completo de las aplicaciones que se permiten o bloquean para los usuarios. Si elige permitir una aplicación, los controles y la interfaz de usuario para administrar aplicaciones seguirán siendo los mismos.
 
-* La opción predeterminada envía las solicitudes de usuario al Centro de administración de Teams, donde puede [ver las solicitudes de usuario y permitir las aplicaciones solicitadas](#view-user-requests-in-teams-admin-center).
+* La opción predeterminada envía las solicitudes de usuario al Centro de administración de Teams, donde puede [ver las solicitudes de usuario y permitir las aplicaciones solicitadas](#view-and-act-on-user-requests-in-teams-admin-center).
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Captura de pantalla que muestra la opción de solicitar a un administrador que apruebe una aplicación bloqueada.":::
 
@@ -41,7 +43,7 @@ Conservas el control completo de las aplicaciones que se permiten o bloquean par
 
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Captura de pantalla que muestra la experiencia del usuario final de las aplicaciones en store cuando un administrador redirige la dirección URL de solicitud de aplicación permitida a una dirección URL específica de la organización.":::
 
-## <a name="view-user-requests-in-teams-admin-center"></a>Ver solicitudes de usuario en el Centro de administración de Teams
+## <a name="view-and-act-on-user-requests-in-teams-admin-center"></a>Ver y actuar en las solicitudes de usuario en el Centro de administración de Teams
 
 Las solicitudes de usuario final recibidas con el método predeterminado se muestran en el Centro de administración de Teams. Puede ver y administrar fácilmente las solicitudes. Se recomienda una clasificación regular para comprobar las solicitudes de los usuarios finales. Para ver y permitir las aplicaciones, sigue estos pasos:
 
@@ -90,7 +92,7 @@ Si decide hacerlo, los métodos para evaluar las aplicaciones de terceros y perm
 
 ## <a name="dismiss-user-requests"></a>Descartar solicitudes de usuario
 
-Para descartar las solicitudes a una aplicación permitida, siga estos pasos:
+Para descartar las solicitudes, siga estos pasos:
 
 1. Seleccione el nombre de la aplicación para la que desea descartar las solicitudes de usuario.
 1. Seleccione **Administrar solicitudes**.

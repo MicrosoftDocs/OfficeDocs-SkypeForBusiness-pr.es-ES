@@ -1,7 +1,7 @@
 ---
 title: Pasar de licencias de Business Voice a Teams Phone
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 6e7622e4b78e57f45209b90a525eb5fefbe8cd66
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 372526a66d4f3a434479c8d4f62e4681b4a39acc
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271235"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480950"
 ---
 # <a name="move-from-business-voice-to-teams-phone-licenses"></a>Pasar de licencias de Business Voice a Teams Phone
 
@@ -26,13 +26,13 @@ A finales de junio de 2022, Business Voice se retirará, por lo que [recomendamo
 
 Business Voice agrupa las tres licencias de complementos siguientes de Teams:
 
-- **Microsoft Teams 电话** para un sistema telefónico basado en la nube en Microsoft Teams.
+- **Teléfono Microsoft Teams** para un sistema telefónico basado en la nube en Microsoft Teams.
 - **Audioconferencia** para conferencias de acceso telefónico local y de salida para reuniones.
 - **Planes de llamadas de Microsoft** para llamadas nacionales a conectividad de red telefónica conmutada (RTC).
 
 Los clientes de Business Voice existentes no pasarán automáticamente al nuevo modelo de licencias.
 
-Este artículo es para administradores de TI que necesitan cambiar sus licencias de Business Voice a licencias de Microsoft Teams 电话 y Audioconferencia a la vez que mantienen las mismas capacidades.
+Este artículo es para administradores de TI que necesitan cambiar sus licencias de Business Voice a licencias de Teléfono Microsoft Teams y Audioconferencia a la vez que mantienen las mismas capacidades.
 
 > [!WARNING]
 > Siga de cerca las instrucciones de este artículo. Si las instrucciones le indican que NO seleccione el botón **Guardar** , no seleccione el botón **Guardar** .
@@ -93,7 +93,7 @@ Para actualizar las licencias de varios usuarios en masa, puede usar el Centro d
 1. Seleccione **Administrar licencias de producto** en la barra de herramientas de la lista.
 1. En el símbolo del sistema **¿Qué desea hacer con las licencias para estos usuarios?** , seleccione la opción **Reemplazar: Anular la asignación de licencias existentes y asignar licencias nuevas** .
     > [!IMPORTANT]
-    > La opción **Reemplazar** quitará todas las licencias existentes de los usuarios seleccionados.  Como resultado, tendrá que seleccionar el estado de licencia deseado para los usuarios, incluidas las demás licencias en uso, como Microsoft 365 Business Premium.
+    > La opción **Reemplazar** quitará todas las licencias existentes de los usuarios seleccionados.  Como resultado, tendrá que seleccionar el estado de licencia deseado para los usuarios, incluidas las demás licencias en uso, como Microsoft 365 Empresa Premium.
     >
     > Además, si los usuarios seleccionados tienen configuraciones de licencia base diferentes, se sobrescribirán con las licencias seleccionadas, lo que puede afectar a otras áreas de Microsoft 365.
     >

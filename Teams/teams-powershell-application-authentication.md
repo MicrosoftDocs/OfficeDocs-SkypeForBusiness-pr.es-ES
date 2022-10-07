@@ -12,12 +12,12 @@ ms.collection:
 description: Obtenga más información sobre la autenticación basada en aplicaciones en el Módulo de PowerShell de Teams, usado para la administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b18c8505a255e0f937c077e1f905d721eb597889
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 7dab0f32a6547db5522f00d4750f7eff26ea5995
+ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837670"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218097"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Autenticación basada en aplicaciones en el módulo de PowerShell de Teams
 
@@ -26,7 +26,23 @@ La autenticación basada en aplicaciones ahora se admite en el módulo PowerShel
 
 ## <a name="cmdlets-supported"></a>Cmdlets admitidos
 
-\*Ya se admiten todos los cmdlets que no sean de -Cs (por ejemplo, Get-Team), Get-CsTenant, Get-CsOnlineUser, Get-CsOnlineVoiceUser & \*-CsOnlineSipDomain. Se implementarán gradualmente otros cmdlets. 
+Los cmdlets siguientes ya son compatibles, otros cmdlets se implementarán gradualmente. 
+
+  - Cmdlets \*distintos de -Cs (por ejemplo, Get-Team)
+  - Get-CsTenant
+  - Get-CsOnlineUser, Get-CsOnlineVoiceUser
+  - \*-CsOnlineSipDomain 
+  - \*-CsPhoneNumberAssignment
+  - \*-CsOnlineTelephoneNumberOrder, Get-CsOnlineTelephoneNumberType, Get-CsOnlineTelephoneNumberCountry
+  - \*-CsCallQueue
+  - \*-CsAutoAttendant, \*-CsAutoAttendant\*
+  - \*-CsOnlineVoicemailUserSettings
+  - Find-CsOnlineApplicationInstance, \*-CsOnlineApplicationInstanceAssociation, Get-CsOnlineApplicationInstanceAssociationStatus
+  - \*-CsOnlineSchedule, New-CsOnlineTimeRange, New-CsOnlineDateTimeRange
+  - \*-CsOnlineAudioFile
+  - Find-CsGroup
+  - \*-CsOnlineDialInConferencingUser, \*-CsOnlineDialInConferencingServiceNumber, \*-CsOnlineDialInConferencingBridge, Get-CsOnlineDialInConferencingLanguagesSupported, Set-CsOnlineDialInConferencingUserDefaultNumber
+  - \*-CsOnlineLisLocation, \*-CsOnlineLisCivicAddress, \*-CsOnlineLisWirelessAccessPoint, \*-CsOnlineLisPort, \*-CsOnlineLisSubnet, \*-CsOnlineEnhancedEmergencyServiceDisclaimer, \*-CsOnlineLisSwitch
 
 
 ## <a name="examples"></a>Ejemplos

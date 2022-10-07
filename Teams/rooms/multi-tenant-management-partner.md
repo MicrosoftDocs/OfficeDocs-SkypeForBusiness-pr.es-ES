@@ -1,10 +1,10 @@
 ---
 title: Administración de clientes multiempresa para partners
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 ms.date: 07/25/2022
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,37 +18,37 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Administración de clientes multiempresa para partners.
 f1keywords: ''
-ms.openlocfilehash: 37ba5cfc12229685bbe4ac8cf188301e9fa7b1f7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e4e89d483d15ad7f521afd9c0686b3d72ab9e09d
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269115"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243911"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>Administración de clientes multiempresa para partners
 
-La administración multiinquilino (MTM) del servicio administrado Salas de Teams (TRM) ayuda a las organizaciones asociadas a administrar varios clientes en un solo lugar, con sus propias credenciales de dominio. Los usuarios asociados solo verán los salones de cliente asignados para administrar. Es posible aplicar roles personalizados para cada cliente en el inquilino MTM, dando a las organizaciones asociadas un control granular de los permisos de los recursos del cliente. 
+La administración multiempresa (MTM) del servicio Salas de Teams Pro Management ayuda a las organizaciones asociadas a administrar varios clientes en un solo lugar, con sus propias credenciales de dominio. Los usuarios asociados solo verán los salones de cliente asignados para administrar. Es posible aplicar roles personalizados para cada cliente en el portal MTM, dando a las organizaciones asociadas un control granular de los permisos de los recursos del cliente. 
 
 El portal MTM se puede acceder a través de este [link](https://partner.rooms.microsoft.com/).
 
 > [!Note] 
-> Las organizaciones asociadas no pueden administrar sus propios salones a través del portal MTM. Estos salones se pueden administrar en el [portal de TRM](https://portal.rooms.microsoft.com/). 
+> Las organizaciones asociadas no pueden administrar sus propios salones a través del portal MTM. Estos salones se pueden administrar en el [portal pro management](https://portal.rooms.microsoft.com/). 
 
 ## <a name="pre-requisites-for-managing-your-customers-through-the-mtm-experience"></a>Requisitos previos para administrar a sus clientes a través de la experiencia MTM
 
-Para obtener acceso al portal de MTM, su organización debe incorporarse como socio Elite para el servicio TRM. Para convertirte en un socio elite, ponte en contacto con askelite@microsoft.com.
+Para obtener acceso al portal de MTM, tu organización debe incorporarse como socio Elite para MTR Pro Management. Para convertirte en un socio elite, ponte en contacto con askelite@microsoft.com.
 
 ## <a name="on-boarding-customers"></a>Clientes que se alojen en el alojamiento
 
-Para administrar clientes a través del portal de TRM-MTM, debe establecerse una relación entre el inquilino de la organización asociada y el cliente a través de una invitación enviada por el cliente. 
+Para administrar clientes a través del portal de Pro Management-MTM, debe establecerse una relación entre el inquilino de la organización asociada y el cliente a través de una invitación enviada por el cliente. 
 
 ## <a name="tenant-managers"></a>Administradores de inquilinos
 
-Este rol integrado solo se puede configurar en el portal TRM-MTM. Este rol le permite asignar un grupo de usuarios que acepten invitaciones, pero que no participen en la administración de salones de cliente. Se recomienda configurar el rol. De lo contrario, solo los usuarios con el rol administrador de servicios administrados en su inquilino podrán aceptar invitaciones.
+Este rol integrado solo se puede configurar en el portal Pro Management-MTM. Este rol le permite asignar un grupo de usuarios que acepten invitaciones, pero que no participen en la administración de salones de cliente. Se recomienda configurar el rol. De lo contrario, solo los usuarios con el rol administrador de servicios administrados en su inquilino podrán aceptar invitaciones.
 
 **Para configurar administradores de inquilinos**
  
-1.  Inicie sesión en el portal de TRM-MTM como administrador global o administrador de servicios administrados.
+1.  Inicie sesión en el portal de Pro Management-MTM como administrador global o administrador de servicios administrados.
 2.  Vaya a Administradores de inquilinos.
 3.  Seleccione **Agregar administradores de inquilinos**.
 4.  En el panel de detalles, busque los usuarios o grupos de seguridad.
@@ -57,7 +57,7 @@ Este rol integrado solo se puede configurar en el portal TRM-MTM. Este rol le pe
 
 ### <a name="invitation-from-the-customer"></a>Invitación del cliente
 
-El partner debe proporcionar el nombre de dominio a los clientes. Solo los roles de administrador global, administrador de servicios administrados y administradores de inquilinos pueden ver y aceptar la invitación al iniciar sesión en el portal de TRM-MTM. 
+El partner debe proporcionar el nombre de dominio a los clientes. Solo los roles de administrador global, administrador de servicios administrados y administradores de inquilinos pueden ver y aceptar la invitación al iniciar sesión en el portal de Pro Management-MTM. 
 
 > [!Note]
 > Aunque estos roles pueden ver invitaciones y metadatos de inquilino de alto nivel, no verá los datos del cliente hasta que se le asigne un rol con ese cliente.
@@ -66,7 +66,7 @@ Los detalles de la invitación del cliente se describen en [Administración mult
 
 **Para aceptar una invitación pendiente**
 
-1. Inicie sesión en el portal de TRM-MTM como administrador global, administrador de servicios administrados o administrador de inquilinos.
+1. Inicie sesión en el portal de Pro Management-MTM como administrador global, administrador de servicios administrados o administrador de inquilinos.
 1. Vaya a **Inquilinos**.
 1. Seleccione la invitación que se muestra con el estado "Pendiente".
 1. Revise los detalles de la invitación.
@@ -94,7 +94,7 @@ Para quitar a un cliente, debe quitarlo de la lista **Inquilinos** .
 
 **Para quitar un cliente** 
 
-1. Inicie sesión en el portal de TRM-MTM como administrador principal del cliente que desea quitar.
+1. Inicie sesión en el portal de Pro Management-MTM como administrador principal del cliente que desea quitar.
 1. Vaya a **Inquilinos**.
 1. Selecciona el cliente que quieras quitar.
 1. En el panel de detalles del cliente, selecciona **Quitar cliente**.
@@ -104,7 +104,7 @@ Para quitar a un cliente, debe quitarlo de la lista **Inquilinos** .
 
 Los roles de partner permiten la delegación de responsabilidades a personal adicional. El concepto de estos roles es el mismo que se describe en [Control de acceso basado](microsoft-teams-rooms-premium-rbac.md) en roles, pero en el contexto de cada cliente. Además, es importante tener en cuenta que los roles de partner son distintos de los roles del cliente. El cliente puede eliminar los roles de partner. 
 
-El rol **Administradores principales** es el único rol integrado para cada cliente integrado y tiene casi todos los permisos para el servicio TRM (vea la tabla 1, en el contexto del cliente). Los permisos de rol de partner** solo se extienden hasta las salas designadas por el cliente. Por ejemplo, si el cliente es una organización global y asigna al partner la administración de todos los salones de Ee. UU., el administrador principal solo podrá administrar y delegar los permisos de esos salones. El Partner no tiene visibilidad para otras salas que el Cliente puede tener en otros países. 
+El rol **Administradores principales** es el único rol integrado para cada cliente integrado y tiene casi todos los permisos para el servicio Pro Management (vea la tabla 1, en el contexto del cliente). Los permisos de rol de partner** solo se extienden hasta las salas designadas por el cliente. Por ejemplo, si el cliente es una organización global y asigna al partner la administración de todos los salones de Ee. UU., el administrador principal solo podrá administrar y delegar los permisos de esos salones. El Partner no tiene visibilidad para otras salas que el Cliente puede tener en otros países. 
 
 **Para administrar usuarios en el rol **partner** de un cliente**
 
@@ -155,24 +155,24 @@ Como partner, puede crear roles personalizados que se adapten a sus requisitos o
 ||Modificar|&#10004;|||&#10004;|
 
 > [!Note]
-> Un usuario asignado como administrador principal del cliente A tiene permisos completos en el servicio TRM solo para ese cliente. Los permisos del usuario en el Cliente A no afectan a otros clientes.
+> Un usuario asignado como administrador principal del cliente A tiene permisos completos en el servicio Pro Management solo para ese cliente. Los permisos del usuario en el Cliente A no afectan a otros clientes.
 
 ## <a name="security"></a>Seguridad
 
 Los clientes finales conservan el control sobre el acceso a sus datos y pueden quitar por completo un partner o roles específicos en cualquier momento.
 
-Con la característica de acceso delegado, un partner no obtiene ningún otro privilegio fuera del portal de servicios TRM. Por ejemplo, al usar esta característica para invitar a un partner a administrar salas en el servicio TRM, no se conceden permisos a AAD ni al Centro de Administración de Teams ni a ningún otro producto de Microsoft. Además, los partners no tienen acceso para ver o modificar salas no definidas en el ámbito de la invitación.
+Con la característica de acceso delegado, un partner no obtiene ningún otro privilegio fuera del portal de administración de pro. Por ejemplo, al usar esta característica para invitar a un partner a administrar salas en el portal de administración de pro, no se conceden permisos a AAD ni al Centro de Administración de Teams ni a ningún otro producto de Microsoft. Además, los partners no tienen acceso para ver o modificar salas no definidas en el ámbito de la invitación.
 
-Una vez establecido el partner (relación con el cliente), como se describe en "Clientes de incorporación" de este documento, el partner puede ver los datos de sala en el servicio TRM. Esto incluye todos los datos presentes en el servicio TRM, pero derivados de otros productos de Microsoft. Por ejemplo, los informes de calidad de llamadas en el portal TRM se derivan de datos de calidad de llamadas de Teams.
+Una vez establecido el partner (relación con el cliente), como se describe en los "clientes de incorporación" de este documento, el partner puede ver los datos de sala en el portal de Administración profesional. Esto incluye todos los datos presentes en el portal de administración de Pro, pero derivados de otros productos de Microsoft. Por ejemplo, los informes de calidad de llamadas en el portal de administración profesional se derivan de los datos de calidad de llamadas de Teams.
 
 Los datos residen en el inquilino del cliente y no se copian en el inquilino del partner. 
 
 El portal MTM utiliza la autenticación AAD para validar las credenciales de inicio de sesión del partner. Es importante tener en cuenta que, en este momento, las directivas de autenticación del cliente no se aplicarán al partner. Por ejemplo, si el cliente tiene una directiva de autenticación multifactor, no se traduce al partner.
 
-El cliente puede extraer registros de auditoría para el servicio TRM, que incluye la actividad de partners. Consulte [Registro de auditoría en el servicio administrado de Salas de Teams](multi-tenant-auditing.md).
+El cliente puede extraer registros de auditoría para el portal de administración de Pro, que incluye la actividad de partners. Consulte [Registro de auditoría en el servicio administrado de Salas de Teams](multi-tenant-auditing.md).
 
 > [!Note]
-> La auditoría de AAD y la auditoría de O365 no captura registros del portal de TRM.
+> La auditoría de AAD y la auditoría de O365 no capturan registros del portal de administración de Pro.
 
 ## <a name="navigating-the-mtm-portal"></a>Navegar por el portal MTM
 

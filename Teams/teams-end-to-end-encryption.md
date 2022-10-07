@@ -15,16 +15,17 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- purview-compliance
 ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e090c465b46370367d96a782e12f38161465ce33
-ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
+ms.openlocfilehash: 2e11a0d89c7c49e27dd4237e67a67be93db2bcb6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "67572090"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046750"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Usar el cifrado de un extremo a otro para las llamadas de Microsoft Teams uno a uno
 
@@ -111,7 +112,7 @@ Su cuenta de trabajo o escuela necesita el Teams o el rol de administrador globa
 
 #### <a name="to-enable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>Para habilitar el cifrado de un extremo a otro para todo el inquilino mediante la directiva global
 
-Para habilitar el cifrado de un extremo a otro para todo el inquilino estableciendo la directiva global predeterminada, ejecute el cmdlet [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) como se indica a continuación.
+By default, end-to-end encryption is disabled. To enable end-to-end encryption for the entire tenant by setting the default global policy, run the [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) cmdlet as follows.
 
 ```powershell
 Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType DisabledUserOverride
@@ -125,7 +126,7 @@ Donde:
 
 #### <a name="to-disable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>Para deshabilitar el cifrado de un extremo a otro para todo el inquilino mediante la directiva global
 
-Si ha realizado cambios en la directiva global, puede volver a cambiar la configuración ejecutando el cmdlet [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) como se indica a continuación.
+By default, end-to-end encryption is disabled. If you've made changes to the global policy, you can change the setting back by running the [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) cmdlet as follows.
 
 ```powershell
 Grant-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType Disabled
@@ -151,7 +152,7 @@ Donde:
 
 - *`policyname`* es el nombre que desea usar para la directiva. Los nombres de directiva no pueden contener espacios, por ejemplo, ContosoE2EEUserPolicy.
 
-Los usuarios aún necesitan activar las llamadas cifradas de un extremo a otro en su configuración de Teams para poder realizar una llamada cifrada de un extremo a otro. Para ver las instrucciones, consulte [Usar cifrado de extremo a extremo para las llamadas de Teams](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90)
+Users still need to switch on end-to-end encrypted calling in their Teams settings before they can make an end-to-end encrypted call. For instructions, see [Use end-to-end encryption for Teams calls](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90).
 
 Por ejemplo:
 

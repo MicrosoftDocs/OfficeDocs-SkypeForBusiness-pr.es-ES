@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y administrar operadores automáticos en Microsoft Teams.
-ms.openlocfilehash: b783f268fa60b5212d50962dbb78988e6158390d
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 18ff00dc72a69ea5aed85a3531a100e28f2891d1
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443497"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046690"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -51,6 +51,7 @@ Los operadores automáticos pueden redirigir las llamadas, en función de la ent
 
 ## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>Novedades para los operadores automáticos en los últimos 6 meses
  
+ - Septiembre: la opción **Forzar escucha** ahora está disponible con la **opción de menú Reproducir** para el flujo de llamadas, el flujo de llamadas fuera del horario laboral y el flujo de llamadas durante los días festivos.
  - Agosto: las **opciones del menú Reproducir** en Flujo de llamadas, Flujo de llamadas fuera del horario laboral y Flujo de llamadas durante los días festivos ahora admiten \* las teclas (asterisco) y \# (almohadilla).
  - Julio: el flujo de llamadas durante los días festivos ahora admite **las opciones del menú Reproducir**.
  
@@ -107,7 +108,8 @@ Una vez que haya configurado la información general del operador automático, s
 
 #### <a name="play-menu-options"></a>Reproducir opciones de menú
 
-*Las teclas Nuevo - \* (asterisco) y \# (almohadilla) ahora se pueden usar en las opciones de menú*.
+*Nuevo: se puede habilitar la opción Forzar escucha que requiere que los autores de llamadas escuchen todas las opciones de menú antes de realizar la selección.*
+ *Las teclas Nuevo - \* (asterisco) y \# (almohadilla) ahora se pueden usar en las opciones de menú*.
 
 Para las opciones de marcación, asigne las teclas 0-9 del teclado del teléfono a uno de los destinos de enrutamiento de llamadas. Las teclas \* (asterisco) y \# (almohadilla) están reservadas por el sistema y no se pueden reasignar. Al presionar cualquiera de estas teclas, se repetirá el menú actual.
 
@@ -169,7 +171,9 @@ Una vez que haya agregado el flujo de llamadas fuera del horario laboral, selecc
 
 El operador automático puede tener un flujo de llamadas para cada [día festivo que haya configurado](set-up-holidays-in-teams.md). Puede agregar un máximo de 20 días festivos programados a cada operador automático.
 
-*Nuevo: las **opciones del menú Reproducir** ya están disponibles en los flujos de llamadas navideñas*.
+*Nuevo: se puede habilitar la opción Forzar escucha que requiere que los autores de llamadas escuchen todas las opciones de menú antes de realizar la selección.*
+ *Las teclas Nuevo - \* (asterisco) y \# (almohadilla) ahora se pueden usar en las opciones de menú.*
+ *Nuevo: las **opciones del menú Reproducir** ya están disponibles en los flujos de llamadas navideñas.*
 
 1. En la página Configuración de llamadas navideñas, seleccione **Agregar**.
 

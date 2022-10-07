@@ -8,6 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
+ms.date: 09/22/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 713f30d148517f080c1799f71461d52e69d855ac
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 992b557e72aaa855008f1bfec8073d800b65badf
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837660"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377548"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Programa de cumplimiento de aplicaciones de Microsoft 365 para la seguridad, el cumplimiento y la privacidad de aplicaciones de terceros
 
@@ -56,7 +57,7 @@ Los administradores pueden comprobar rápidamente si hay aplicaciones con atesta
 
   :::image type="content" source="media/attested-app-tac1.png" alt-text="En el centro de administración de Teams, el icono de atestación de editores se muestra en todas las aplicaciones con atestación.":::
 
-* En el centro de administración de Teams, al [conceder permisos a la aplicación](app-permissions-admin-center.md), una marca de verificación azul situada delante del nombre de la aplicación indica que es una aplicación atestada por el editor o una aplicación certificada de Microsoft 365.
+* En el Centro de administración de Teams, antes de [conceder permisos a la aplicación](app-permissions-admin-center.md), una marca de verificación azul delante del nombre de la aplicación indica que es una aplicación que está atestiguada por el editor. Todas las aplicaciones de Microsoft 365 también pasan por la atestación de los editores, por lo que también se muestra una marca de verificación azul para las aplicaciones de Microsoft 365.
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="En el Centro de administración de Teams, en el cuadro de diálogo para conceder permisos, la marca de verificación azul indica la aplicación certificada por el publicador.":::
 
@@ -89,7 +90,7 @@ Los administradores pueden buscar rápidamente aplicaciones de Microsoft 365 ce
 
   :::image type="content" source="media/m365cert-app-details-banner.png" alt-text="Ver información de certificación Microsoft 365 en el banner de la aplicación al administrar una aplicación específica en el centro de administración de Teams":::
 
-* En el centro de administración de Teams, al [conceder permisos a la aplicación](app-permissions-admin-center.md), una marca de verificación azul situada delante del nombre de la aplicación indica que es una aplicación atestada por el editor o una aplicación certificada de Microsoft 365.
+* En el Centro de administración de Teams, antes de [conceder permisos a la aplicación](app-permissions-admin-center.md), una marca de verificación azul delante del nombre de la aplicación indica que es una aplicación que está atestiguada por el editor. Todas las aplicaciones de Microsoft 365 también pasan por la atestación de los editores, por lo que también se muestra una marca de verificación azul para las aplicaciones de Microsoft 365.
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="En el centro de administración de Teams, en el cuadro de diálogo para conceder permisos, los administradores pueden comprobar la marca de verificación azul para asegurarse de que la aplicación está certificada por Microsoft 365.":::
 

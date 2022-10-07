@@ -1,6 +1,6 @@
 ---
 title: Administrar la configuración de Correo de voz en la nube
-author: crowe
+author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Administrar la configuración del correo de voz de los usuarios.
-ms.openlocfilehash: 7aa2fdf84f38cb9977b3a4156b28a96b98bbd9d7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 96ac5e13360463150a5ff21bc8042b701a4f9717
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269605"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999495"
 ---
 # <a name="manage-cloud-voicemail-settings-for-users"></a>Administrar la configuración de Correo de voz en la nube para los usuarios
 
@@ -43,12 +43,12 @@ La configuración predeterminada para Correo de voz en la nube es la siguiente:
 - El saludo de fuera de la oficina, cuando el calendario de Outlook muestra Fuera de la oficina, está deshabilitado.
 - Se deshabilita el uso compartido de los datos del correo de voz y la transcripción con el servicio para la formación y mejora de la precisión.
 - La regla de respuesta de llamadas se establece en Correo de voz normal.
-- No se establece la sobrescritura del mensaje de saludo predeterminado.
+- No se ha establecido la sobrescritura del mensaje de saludo predeterminado.
 - No se establece la sobrescritura predeterminada del mensaje de saludo de Fuera de la oficina.
 - El objetivo de transferencia no está establecido.
 
 
-Para administrar Correo de voz en la nube características para los usuarios, puede usar el Centro de administración de Teams o PowerShell. Tenga en cuenta que los usuarios finales también pueden configurar estas opciones en el cliente de Teams yendo a **Configuración -> Llamadas -> Configurar correo de voz.**
+Para administrar Correo de voz en la nube características para los usuarios, puede usar el Centro de administración de Teams o PowerShell. Los usuarios finales también pueden configurar estas opciones en el cliente de Teams yendo a **Configuración -> Llamadas -> Configurar correo de voz.**
 
 ## <a name="use-teams-admin-center"></a>Usar el Centro de administración de Teams
 

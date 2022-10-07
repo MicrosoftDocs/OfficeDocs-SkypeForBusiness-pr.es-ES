@@ -22,18 +22,21 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información y compare Salas de Teams la disponibilidad de licencias y características en el Centro de administración de Teams.
-ms.openlocfilehash: d88e7a0c0a6c17fb22f1cc94fcd4de65a3ff79a2
-ms.sourcegitcommit: 732a7f3e120cfa221d42b4e8af2cf9ff623488a1
+ms.openlocfilehash: 0e4a3d4fc15f5e978731254e3344ee6e413ff682
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67633640"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999635"
 ---
 # <a name="microsoft-teams-rooms-license-overview-in-teams-admin-center"></a>Salas de Microsoft Teams información general sobre licencias en el Centro de administración de Teams
 
 El Centro de administración de Teams le permite ver y administrar Salas de Teams dispositivos y sus periféricos desde una ubicación central. Este artículo muestra [qué capacidades de administración](#comparison-of-teams-rooms-feature-availability-by-license) tienes, en función de si a un dispositivo Salas de Teams se le asigna una licencia de Salas de Microsoft Teams Basic o Salas de Microsoft Teams Pro.
 
 Para obtener más información sobre las licencias de Salas de Microsoft Teams, consulte [licencias de Salas de Microsoft Teams](rooms-licensing.md).
+
+> [!NOTE]
+> Si tienes licencias heredadas de Salas de Teams Standard o Salas de Teams Premium, tendrás que cambiar a Salas de Teams Pro cuando expiren las licencias heredadas. Si tienes una Enterprise Agreement, tendrás que cambiar a las licencias de Salas de Teams Pro en el siguiente período de renovación. Para obtener más información, vea [Cambiar de Salas de Teams Estándar y Salas de Teams Premium](rooms-licensing.md#switching-from-teams-rooms-standard-and-teams-rooms-premium).
 
 ## <a name="see-which-licenses-are-assigned-to-teams-rooms-devices"></a>Ver qué licencias están asignadas a Salas de Teams dispositivos
 
@@ -73,7 +76,6 @@ En la tabla siguiente se muestran las capacidades de administración disponibles
 | **Detalles del estado del dispositivo**                     |                             | &#x2714;                  |
 | **Etiquetas de dispositivo**                               |                             | &#x2714;                  |
 | **API de Graph**                                |                             | &#x2714;                  |
-| **Actualizaciones manuales del dispositivo**                     |                             | &#x2714;                  |
 | **Reinicio remoto**                            |                             | &#x2714;                  |
 | **Administración de periféricos de dispositivos Windows**     |                             | &#x2714;                  |
 | **Configuración del dispositivo Windows**                   |                             | &#x2714;                  |

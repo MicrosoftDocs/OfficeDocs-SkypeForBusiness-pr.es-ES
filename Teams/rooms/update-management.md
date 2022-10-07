@@ -1,7 +1,7 @@
 ---
-title: administración de actualizaciones de Salas de Microsoft Teams
-author: donnah007
-ms.author: v-donnahill
+title: Administración de actualizaciones de Salas de Microsoft Teams Pro Management
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -17,22 +17,22 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: supervisión proactiva de las salas de reuniones.
 f1keywords: ''
-ms.openlocfilehash: 97c812cca2b64979f224e9f7da63087899b9c7a9
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: bddfc17df4f6fc7bd28e2dcc00fc55b5653b8687
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269125"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243761"
 ---
 # <a name="update-management"></a>Administración de actualizaciones 
 Una sala de reuniones moderna está equipada con un dispositivo de Salas de Microsoft Teams y otros periféricos, como una cámara, micrófono o altavoz, y potencialmente más dispositivos para crear una experiencia de reunión inclusiva y eficaz. El equipo de diferentes tipos de OEM proporciona la experiencia organizativa exacta deseada; sin embargo, deben mantenerse con software y firmware de forma continuada.  
 
-Servicios administrados para Salas de Microsoft Teams proporciona la seguridad de que cada salón de su organización se mantendrá a niveles recomendados para entregar un salón que siempre esté listo y funcione correctamente. El objetivo de Microsoft es reducir la complejidad y el trabajo en las piernas del personal operativo con inteligencia y automatización. La solución de problemas o los diagnósticos se realizan lo más rápido posible. 
+Salas de Microsoft Teams Pro Management garantiza que cada sala de su organización se mantendrá en los niveles recomendados para ofrecer una sala que siempre esté lista y funcione correctamente. El objetivo de Microsoft es reducir la complejidad y el trabajo en las piernas del personal operativo con inteligencia y automatización. La solución de problemas o los diagnósticos se realizan lo más rápido posible. 
 
-## <a name="transitioning-a-device-to-managed-services"></a>Transición de un dispositivo a servicios administrados 
-La incorporación de dispositivos de sala a Servicios administrados suele tener un historial de administración de cambios y una práctica distinta de nuestra guía.  
+## <a name="transitioning-a-device-to-pro-management"></a>Transición de un dispositivo a Administración profesional 
+La incorporación de dispositivos de sala a Pro Management suele tener un historial y una práctica de administración de cambios diferentes de nuestra guía.  
 
-- Para beneficiarse de los Servicios administrados, debe realizar la transición de administración de cambios para todas las actualizaciones de la cartera de Servicios administrados.
+- Para beneficiarte de Pro Management, debes realizar la transición de administración de cambios para todas las actualizaciones de la cartera de Administración pro.
 - Varios orígenes de incidencias de incidencia de administración de cambios, ya que hay una detección y corrección que se reiniciará de nuevo si se produce un incidente en la sala.
 - Microsoft ha implementado controles y comprobaciones para implementar directivas que pueden diferir de una organización a otra y la capacidad de intervenir en situaciones excepcionales.
 - Finalmente, los dispositivos de la sala se actualizarán según los estándares comunes, excepto las excepciones debido a problemas con una instalación de hardware específica.  
@@ -47,7 +47,7 @@ Se recomienda realizar las siguientes comprobaciones de preparación sencillas:
 
 ## <a name="readiness-checks"></a>Comprobaciones de preparación
 
-Hay algunos requisitos previos para recibir actualizaciones de servicios administrados: 
+Hay algunos requisitos previos para recibir actualizaciones a través del servicio Pro Management: 
 
 |Software |Instrucciones |
 |:- |:- |
@@ -61,46 +61,39 @@ Hay algunos requisitos previos para recibir actualizaciones de servicios adminis
 ## <a name="managed-updates--how-it-works"></a>Actualizaciones administradas: cómo funciona 
 Hay dos formas principales de administrar las actualizaciones:  
 
-- **Administración automática**: Novedades se instalan en el dispositivo del salón en función de la evaluación de servicios administrados. No es necesaria intervención para las actualizaciones administradas en nuestra cartera.
+- **Administración automática**: Novedades se instalan en el dispositivo de la sala en función de la evaluación de Pro Management. No es necesaria intervención para las actualizaciones administradas en nuestra cartera.
 - **Anillo validado**: Configure un sistema de anillos para obtener una vista previa de las actualizaciones en dispositivos específicos para que pueda supervisarlos sin el trabajo de las piernas asociadas. La configuración del anillo proporciona una capa adicional de diligencia debida antes de la amplia implementación.  
 
 ### <a name="automatically-managed"></a>Administración automática
 
-Si elige que se administre automáticamente, no es necesario realizar ninguna acción para las actualizaciones de su parte. Sin embargo, debe revisar la cartera actual de actualizaciones compatibles con Servicios administrados. La cartera está recibiendo constantemente nuevas adiciones, y es nuestra prioridad cubrir las actualizaciones más frecuentes e impactantes para garantizar la estabilidad de su sala. Compruebe la lista actual (en la sección "Administración de actualizaciones" de este documento) para planear cualquier administración de cambios adicional necesaria para su organización.  
+Si elige que se administre automáticamente, no es necesario realizar ninguna acción para las actualizaciones de su parte. Sin embargo, debes revisar la cartera actual de actualizaciones admitidas por el servicio De administración de Pro. La cartera está recibiendo constantemente nuevas adiciones, y es nuestra prioridad cubrir las actualizaciones más frecuentes e impactantes para garantizar la estabilidad de su sala. Compruebe la lista actual (en la sección "Administración de actualizaciones" de este documento) para planear cualquier administración de cambios adicional necesaria para su organización.  
 
-**Recomendación:** No instale actualizaciones cubiertas por servicios administrados en ningún dispositivo administrado por su cuenta. Si tiene algún problema, notifique un incidente en el portal.
+**Recomendación:** No instales actualizaciones cubiertas por el servicio De administración de Pro en ningún dispositivo administrado por tu cuenta. 
 
 ### <a name="ring-validation"></a>Validación de anillos
 
-Al elegir la validación de anillos, revise las siguientes secciones sobre cómo funcionan las llamadas en Servicios administrados y las opciones disponibles para personalizarla para su organización. Incluso con la validación de anillo, Servicios administrados intenta asegurarse de que los salones no venzan en las actualizaciones recomendadas. En función de la situación, una sala podría recibir actualizaciones de "ponerse al día" para asegurarse de que cumple con las recomendaciones de servicio administrado.  
+Al elegir la validación de anillos, revise las siguientes secciones sobre cómo funcionan los anillos en el portal de administración de Pro y las opciones disponibles para personalizarla para su organización. Incluso con la validación de anillos, se intentan asegurarse de que las salas no han vencido en las actualizaciones recomendadas. Según la situación, una sala podría recibir actualizaciones de "ponerse al día" para asegurarse de que cumple con las recomendaciones de Microsoft.  
 
- Busca anuncios en la página principal del portal y en la documentación de Servicios administrados a medida que estén disponibles nuevos tipos de software y firmware en la cartera. Como los expertos de Servicios administrados revisan las versiones de actualización a diario en nuestra cartera de dispositivos, abordan problemas específicos y dirigen las actualizaciones según sus necesidades.  
+ Busca anuncios en la página principal del portal y en la documentación de Administración profesional a medida que estén disponibles nuevos tipos de software y firmware en la cartera. 
 
 ### <a name="scheduling"></a>Programar 
-Las actualizaciones administradas se programan para las salas en función del equipo de la sala y si no cumplen los estándares de servicios administrados para el software y el firmware aplicables. 
+Novedades se programan para las salas en función del equipo de la sala y si no cumplen los estándares recomendados para el software y el firmware aplicables. 
 
-- Para ayudar a nuestros clientes a cumplir los requisitos de administración de cambios, la implementación de actualización se inicia **los miércoles** en el anillo de pruebas. Si se requiere una actualización crítica, omitiremos esta programación y publicaremos la actualización tan pronto como esté disponible. 
-
+- Para ayudar a nuestros clientes a cumplir los requisitos de administración de cambios, la implementación de actualización se inicia **los miércoles** en el anillo de pruebas. Si se requiere una actualización crítica, se omitirá esta programación y la actualización se publicará en cuanto esté disponible. 
 - Novedades se secuencian en función de la necesidad de una sala determinada. 
 - Si tienes anillos de configuración para validar las actualizaciones, la actualización avanzará por el orden de llamada. 
-- Una nueva actualización puede reemplazar a una actualización que se pone en cola si determinamos que se ha mejorado la estabilidad de la sala en función de su situación.  
+- Una nueva actualización puede reemplazar a una actualización que se pone en cola si se determina que la estabilidad de la sala mejorará, en función de su situación.  
 - Novedades se aplican normalmente durante la ventana de mantenimiento nocturno, que es de la habitación de **12:00 a 5:00 a.m**. para evitar cualquier tipo de interrupción. 
 
 ## <a name="microsoft-teams-rooms-app-update-lifecycle-policy"></a>directiva de ciclo de vida de actualización de Salas de Microsoft Teams aplicación 
-La directiva de soporte técnico del equipo de ingeniería de MTR indica que todo el soporte finaliza después de que haya expirado el ciclo de vida de doce (12) meses de una versión o si se han publicado más de dos actualizaciones desde entonces. A continuación, los clientes deben actualizar a una versión compatible. Consulta [el soporte técnico de la versión de la aplicación Salas de Microsoft Teams: Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) para obtener una descripción detallada del servicio.
-
-Para mantener un estándar uniforme en todos nuestros salones administrados y para permitirnos identificar de forma eficiente las tendencias de los problemas, apoyaremos e implementaremos las dos versiones principales o secundarias más recientes (N, N-1) del software de la aplicación MTR de acuerdo con los Términos y condiciones de los servicios de soporte y suscripción. Actualizaremos automáticamente salas no compatibles, omitiendo los canales de actualización según sea necesario. 
-
-La directiva N-1 también se aplica al software de terceros.  
+La directiva de soporte técnico del equipo de ingeniería de MTR indica que todo el soporte finaliza después de que haya expirado el ciclo de vida de doce (12) meses de una versión o si se han publicado más de dos actualizaciones desde entonces. A continuación, los clientes deben actualizar a una versión compatible. Consulta [el soporte técnico de la versión de la aplicación Salas de Microsoft Teams: Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) para obtener una descripción detallada del servicio. 
 
 ## <a name="update-management-experience-walk-through"></a>Tutorial de la experiencia de administración de actualizaciones  
-Para ver las actualizaciones, inicie sesión en el portal de servicios administrados y vaya a la página de Novedades.
-
-![Captura de pantalla de las actualizaciones de servicios administrados](../media/update-management-001.jpg)
+Para ver las actualizaciones, inicia sesión en el Portal de administración de Pro y ve a la página de Novedades.
 
 En el panel Novedades se muestra una descripción general de la administración de actualizaciones de los salones con las siguientes pestañas:
 
-- **Novedades**: actualizaciones de software o firmware que los Servicios administrados están orquestando a través de su organización.  
+- **Novedades**: actualizaciones de software o firmware aplicables a tu organización.  
 - **Habitaciones**: La pestaña Habitaciones ofrece vistas a las habitaciones y anillos a los que pertenece cada habitación.
 - **Anillos**: la pestaña Anillos muestra los anillos de salas de su organización.
 
@@ -210,16 +203,16 @@ Mover salas de un anillo a otro es posible de dos maneras:
 1. En la lista desplegable, selecciona el nuevo anillo.  
 1. Haga clic en **Asignar**.
 
-## <a name="managed-updates-visibility-and-control"></a>Actualizaciones administradas: Visibilidad y control
+## <a name="automated-updates-visibility-and-control"></a>Actualizaciones automatizadas: Visibilidad y control
 
-Los servicios administrados orquestan las actualizaciones en toda la organización. Sin embargo, usted tiene la visibilidad y el control para intervenir si es necesario. Estas son las formas de hacerlo: 
+Las actualizaciones automatizadas de Pro Management orquestan las actualizaciones en toda la organización. Sin embargo, usted tiene la visibilidad y el control para intervenir si es necesario. Estas son las formas de hacerlo: 
 
-- En caso de un error de actualización, se genera automáticamente un vale con el equipo de Microsoft Managed Service Operations. El equipo de Operaciones realizará los pasos necesarios para corregir el error y tratar con usted si es necesario.  
-- Si ves una actualización que causa problemas, puedes pausar la actualización con el botón **Pausar** . Pulsar el botón Pausa creará un vale para que el centro de operaciones lo investigue. Asegúrate de proporcionar detalles mientras pausas una actualización para ayudar a agilizar la respuesta a incidentes.  
+- En caso de error de actualización, se genera automáticamente un vale para realizar el seguimiento. 
+- Si ves una actualización que causa problemas, puedes pausar la actualización con el botón **Pausar** . Pulsar el botón Pausa le pedirá a su equipo que investigue la creación de un vale de problema Grabar un vale de problema.
 - Si ves que se ha producido un error en una actualización en una sala y has corregido un motivo plausible, como la desconexión de red, puedes reintentar la actualización con el botón **Reintentar todos los errores** .  
 - Puede haber situaciones urgentes cuando decidas hacer que una actualización esté disponible anteriormente. En este caso, puedes usar el botón **Forzar actualizaciones** . Al usar la opción Forzar actualización, tiene la opción de forzar la actualización inmediatamente o cuando esté disponible al lado de la sala.  
 
 > [!NOTE]
-> **No recomendamos "Forzar Novedades"** como estrategia general de administración de actualizaciones. Si insertas una actualización que todavía está en nuestra fase de validación, es posible que encuentres problemas de los que ya conocemos. En estos casos, la resolución de incidentes para estos salones será lo mejor posible.  
+> **No recomendamos "Forzar Novedades"** como estrategia de administración de actualizaciones general, ya que es posible que se produzcan problemas conocidos con esas actualizaciones.
 
 - Además, para garantizar buenas prácticas de administración de cambios, registraremos todas las actualizaciones de fuerza internamente en el servicio. En el futuro, esperamos que también lo hagas visible para ti.
