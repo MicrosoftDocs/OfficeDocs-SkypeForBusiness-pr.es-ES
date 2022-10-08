@@ -1,7 +1,7 @@
 ---
 title: Administrar los paquetes de directivas
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,11 +15,11 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: f0c1740fa6a336798b968f68b35844e8fbe793ab
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5f1c6f584292ad3000a96c9989058fdd7757300c
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270645"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480900"
 ---
 [!INCLUDE [manage-policy-packages](../manage-policy-packages.md)]

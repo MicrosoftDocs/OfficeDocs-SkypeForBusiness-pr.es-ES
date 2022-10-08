@@ -1,5 +1,5 @@
 ---
-title: Barreras de la información en Microsoft Teams
+title: Barreras de información en Microsoft Teams
 description: En este artículo se explica cómo se admiten las barreras de la información en Microsoft Teams.
 author: robmazz
 ms.author: robmazz
@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +18,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 38698179e2a3b4c6ca402190c98f89f329820d6e
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: bc05ed28f2a0c77cc6a605deccff98fa65f33845
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675412"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047090"
 ---
-# <a name="information-barriers-in-microsoft-teams"></a>Barreras de la información en Microsoft Teams
+# <a name="information-barriers-in-microsoft-teams"></a>Barreras de información en Microsoft Teams
 
-[Microsoft Purview barreras](/microsoft-365/compliance/information-barriers) de la información (IB) son directivas que un administrador puede configurar para evitar que individuos o grupos se comuniquen entre sí. Los IB son útiles si, por ejemplo, un departamento trata información que no se debe compartir con otros departamentos. Los IB también son útiles cuando es necesario aislar o impedir que un grupo se comunique con cualquier persona que no pertenezca a ese grupo. Los canales compartidos en Microsoft Teams se apoyan en las barreras de la información. Según el tipo de uso compartido, las directivas de barreras de la información pueden restringir el uso compartido de ciertas maneras. Para obtener más información sobre los canales compartidos y el comportamiento de las barreras de la información, vea [Barreras de información y Canales compartidos](information-barriers-shared-channels.md).
+[Microsoft Purview Information Barriers](/microsoft-365/compliance/information-barriers) (IBs) son directivas que un administrador puede configurar para evitar que individuos o grupos se comuniquen entre sí. Los IB son útiles si, por ejemplo, un departamento trata información que no se debe compartir con otros departamentos. Los IB también son útiles cuando es necesario aislar o impedir que un grupo se comunique con cualquier persona que no pertenezca a ese grupo. Los canales compartidos en Microsoft Teams son compatibles con las barreras de la información. Según el tipo de uso compartido, las directivas de barreras de la información pueden restringir el uso compartido de ciertas maneras. Para obtener más información sobre los canales compartidos y el comportamiento de las barreras de la información, vea [Barreras de información y Canales compartidos](information-barriers-shared-channels.md).
 
-Por Microsoft Teams, las barreras de la información pueden determinar e impedir los siguientes tipos de colaboraciones no autorizadas:
+Para Microsoft Teams, las barreras de la información pueden determinar y evitar los siguientes tipos de colaboraciones no autorizadas:
 
 - Agregar un usuario a un equipo o canal
 - Acceso de usuario al contenido del canal o del equipo
@@ -39,7 +41,7 @@ Por Microsoft Teams, las barreras de la información pueden determinar e impedir
 >- Los grupos de barreras de la información no se pueden crear entre inquilinos.
 >- En la versión 1 no se admite el uso de bots, aplicaciones de Azure Active Directory (Azure AD), API para enviar notificaciones de fuente de actividades y algunas API para agregar usuarios.
 >- Los canales privados cumplen las directivas de barreras de la información que configure.
->- Para obtener información sobre el soporte de barreras para sitios SharePoint conectados a Teams, consulte [Segmentos asociados con sitios de Microsoft Teams](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
+>- Para obtener información sobre la compatibilidad con barreras para los sitios de SharePoint que están conectados a Teams, vea [Segmentos asociados con los sitios de Microsoft Teams](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
 ## <a name="background"></a>Información general
 
@@ -50,7 +52,7 @@ Sin embargo, desde la introducción de los IB, muchas otras áreas han encontrad
 - **Educación**: Los alumnos de una escuela no pueden buscar detalles de contacto de los estudiantes de otras escuelas.
 - **Legal**: Mantener la confidencialidad de los datos obtenidos por el abogado de un cliente e impedir que sea accedido por un abogado de la misma firma que representa a un cliente diferente.
 - **Administración pública**: el acceso a la información y el control están limitados en todos los departamentos y grupos.
-- **Professional servicios**: un grupo de personas de una empresa solo puede chatear con un cliente o con un cliente específico a través del acceso de invitado durante la interacción del cliente.
+- **Servicios profesionales**: un grupo de personas de una empresa solo puede chatear con un cliente o con un cliente específico a través del acceso de invitado durante una interacción del cliente.
 
 Por ejemplo, Enrico pertenece al segmento Banca y Pradeep pertenece al segmento Asesor financiero. Enrico y Pradeep no pueden comunicarse entre sí porque la política ib de la organización bloquea la comunicación y la colaboración entre estos dos segmentos. Sin embargo, Enrico y Pradeep pueden comunicarse con Lee en RR. HH.
 
@@ -78,7 +80,7 @@ El rol de Administración del cumplimiento de IB es el responsable de administra
 
 ## <a name="information-barrier-triggers"></a>Desencadenadores de la barrera de la información
 
-Las directivas ib se activan cuando tienen lugar los siguientes eventos de Teams:
+Las directivas de IB se activan cuando tienen lugar los siguientes eventos de Teams:
 
 - **Se agregan miembros a un equipo**: siempre que agregue un usuario a un equipo, la directiva del usuario debe evaluarse en comparación con las directivas de IB de otros miembros del equipo. Una vez agregado correctamente el usuario, este puede realizar todas las funciones del equipo sin realizar más comprobaciones. Si la directiva del usuario impide que se agregue al equipo, el usuario no aparecerá en la búsqueda.
 
@@ -108,9 +110,9 @@ Las directivas ib se activan cuando tienen lugar los siguientes eventos de Teams
 
     ![Captura de pantalla que muestra el usuario char con la configuración bloqueada.](media/ib-after-screen-share-policy.png)
 
-- **Un usuario realiza una llamada telefónica en Teams**: siempre que un usuario inicia una llamada de voz (a través de VOIP) a otro usuario o grupo de usuarios, la llamada se evalúa para asegurarse de que no infringe las directivas de IB de otros miembros del equipo. Si hay alguna infracción, la llamada de voz se bloquea.
+- **Un usuario realiza una llamada de teléfono en Teams**: siempre que un usuario inicia una llamada de voz (a través de VOIP) a otro usuario o grupo de usuarios, la llamada se evalúa para asegurarse de que no infringe las directivas de IB de otros miembros del equipo. Si hay alguna infracción, la llamada de voz se bloquea.
 
-- **Huéspedes en Teams**: las condiciones del IB también se aplican a los huéspedes de Teams. Si es necesario que los invitados estén reconocibles en la lista global de direcciones de su organización, consulte [Administrar el acceso de invitado en Grupos de Microsoft 365](/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Una vez que los invitados sean reconocibles, puede [definir las directivas del IB](/office365/securitycompliance/information-barriers-policies).
+- **Invitados en Teams**: las directivas de IB también se aplican a los invitados de Teams. Si es necesario que los invitados estén reconocibles en la lista global de direcciones de su organización, consulte [Administrar el acceso de invitado en Grupos de Microsoft 365](/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Una vez que los invitados sean reconocibles, puede [definir las directivas del IB](/office365/securitycompliance/information-barriers-policies).
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Cómo afectan los cambios de la directiva a los chats existentes
 
@@ -144,9 +146,9 @@ Si hay un chat u otra comunicación existente entre usuarios y se establece una 
 
 Actualmente, los usuarios experimentan los siguientes escenarios si una directiva de IB bloquea a otro usuario:
 
-- **Pestaña Contactos**: un usuario no puede ver los usuarios bloqueados en la pestaña **Contactos** .
+- **pestaña Personas**: un usuario no puede ver los usuarios bloqueados en la pestaña **Personas**.
 
-- **Selector de** personas: los usuarios bloqueados no estarán visibles en el selector de personas.
+- **Personas selector**: los usuarios bloqueados no estarán visibles en el selector de personas.
 
     ![Captura de pantalla de Teams que alerta al usuario de que la directiva impide que se muestre la información de otro usuario.](media/information-barriers-people-picker.png)
 
@@ -158,7 +160,7 @@ Actualmente, los usuarios experimentan los siguientes escenarios si una directiv
 
 - **Organigramas**: si un usuario accede a un organigrama en el que aparece un usuario bloqueado, el usuario bloqueado no aparecerá en el organigrama. En su lugar, aparecerá un mensaje de error.
 
-- **Tarjeta contactos**: si un usuario participa en una conversación y el usuario se bloquea posteriormente, otros usuarios verán un mensaje de error en lugar de la tarjeta de contactos cuando pasen por encima del nombre del usuario bloqueado. Las acciones enumeradas en la tarjeta (como las llamadas y el chat) no estarán disponibles.
+- **Personas tarjeta**: si un usuario participa en una conversación y posteriormente se bloquea, otros usuarios verán un mensaje de error en lugar de la tarjeta de contactos cuando pasen el mouse sobre el nombre del usuario bloqueado. Las acciones enumeradas en la tarjeta (como las llamadas y el chat) no estarán disponibles.
 
 - **Contactos sugeridos**: los usuarios bloqueados no aparecen en la lista de contactos sugeridos (la lista de contactos inicial que aparece para los nuevos usuarios).
 
@@ -176,21 +178,21 @@ Actualmente, los usuarios experimentan los siguientes escenarios si una directiv
     > [!div class="mx-imgBorder"]
     > ![Captura de pantalla que muestra al usuario bloqueado del chat.](media/ib-after-chat-contacts-policy.png)
 
-- **Skype a Teams migración**: durante una migración de Skype Empresarial a Teams, todos los usuarios (incluso aquellos usuarios bloqueados por las directivas de IB) se migrarán a Teams. Estos usuarios se gestionan como se describió anteriormente.
+- **Migración de Skype a Teams**: durante una migración de Skype Empresarial a Teams, todos los usuarios (incluso aquellos usuarios bloqueados por directivas de IB) se migrarán a Teams. Estos usuarios se gestionan como se describió anteriormente.
 
-## <a name="teams-policies-and-sharepoint-sites"></a>directivas de Teams y sitios de SharePoint
+## <a name="teams-policies-and-sharepoint-sites"></a>Directivas de Teams y sitios de SharePoint
 
-Cuando se crea un equipo, se aprovisiona un sitio de SharePoint y se asocia con Microsoft Teams para la experiencia de archivos. Las directivas de barrera de la información no se respetan en este sitio SharePoint y los archivos de forma predeterminada. Para habilitar las barreras de la información en SharePoint y OneDrive, siga las instrucciones y los pasos del artículo [Usar barreras de la información con SharePoint](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization).
+Cuando se crea un equipo, se aprovisiona un sitio de SharePoint y se asocia con Microsoft Teams para la experiencia de archivos. Las directivas de barrera de la información no se respetan en este sitio de SharePoint ni en los archivos de forma predeterminada. Para habilitar las barreras de la información en SharePoint y OneDrive, siga las instrucciones y los pasos del artículo [Usar barreras de la información con SharePoint](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) .
 
-## <a name="information--barrier-modes-and-teams"></a>Modos y Teams de barrera de la información
+## <a name="information--barrier-modes-and-teams"></a>Modos de barrera de la información y Teams
 
-El modo de barreras de información ayuda a reforzar la adición o eliminación de usuarios de un equipo. Al usar barreras de información con Teams, se admiten los siguientes modos ib:
+El modo de barreras de información ayuda a reforzar la adición o eliminación de usuarios de un equipo. Al usar barreras de información con Teams, se admiten los siguientes modos de IB:
 
 - **Abierto**: esta configuración es el modo de IB predeterminado para todos los grupos existentes que se aprovisionaron antes de habilitar las barreras de la información. En este modo, no hay políticas ib aplicables.
 - **Implícita**: Esta configuración es el modo ib predeterminado cuando se aprovisiona un equipo después de habilitar las barreras de la información. El modo implícito le permite agregar todos los usuarios compatibles del grupo.
 - **Propietario moderado**: este modo se establece en un equipo cuando se desea permitir la colaboración entre usuarios de segmento incompatibles moderados por el propietario. El propietario del equipo puede agregar nuevos miembros según su directiva de IB.
 
-Teams creado antes de activar una directiva de barrera de la información en su inquilino se establecen automáticamente en modo *Abierto* de forma predeterminada. Una vez que active las directivas de IB en su inquilino, se le pedirá que actualice el modo de sus equipos existentes a *Implícitas* para asegurarse de que los equipos existentes cumplan con ib.
+Los equipos creados antes de activar una directiva de barrera de la información en su inquilino se establecen automáticamente en modo *Abierto* de forma predeterminada. Una vez que active las directivas de IB en su inquilino, se le pedirá que actualice el modo de sus equipos existentes a *Implícitas* para asegurarse de que los equipos existentes cumplan con ib.
 
 Use el cmdlet [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) con el parámetro *InformationBarrierMode* que corresponde al modo que desea usar para los segmentos. La lista de valores permitidos para el parámetro *InformationBarrierMode* son *Open*, *Implicit* y *Owner Moderated*.
 
@@ -202,11 +204,11 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 
 Para actualizar el modo de Abierto a Implícito para todos los equipos existentes, use este [script de PowerShell](information-barriers-mode-script.md).
 
-Si cambia la configuración del modo abierto en grupos conectados Teams existentes para cumplir los requisitos de cumplimiento de su organización, deberá [actualizar los modos de IB](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) para los sitios SharePoint asociados conectados al equipo de Teams.
+Si cambia la configuración del modo abierto en grupos conectados a Teams existentes para cumplir los requisitos de cumplimiento de su organización, deberá [actualizar los modos ib](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) para los sitios de SharePoint asociados conectados al equipo de Teams.
 
 ## <a name="required-licenses-and-permissions"></a>Licencias y permisos necesarios
 
-Para obtener más información sobre licencias y permisos, planes y precios, consulte [Microsoft 365 guía de licencias para cumplimiento de & de seguridad](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+Para obtener más información sobre licencias y permisos, planes y precios, consulte [Guía de licencias de Microsoft 365 para cumplimiento de & de seguridad](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="known-issues"></a>Problemas conocidos
 
@@ -218,10 +220,10 @@ Para obtener más información sobre licencias y permisos, planes y precios, con
 ## <a name="more-information"></a>Más información
 
 - Para obtener más información sobre los IB, consulte [Barreras de información](/office365/securitycompliance/information-barriers).
-- Para configurar las políticas del IB, consulte [Comenzar con barreras de la información](/office365/securitycompliance/information-barriers-policies).
+- Para configurar las directivas del IB, consulte [Introducción a las barreras de la información](/office365/securitycompliance/information-barriers-policies).
 - Para editar o quitar directivas de IB, consulte [Administrar directivas de barreras de la información](/microsoft-365/compliance/information-barriers-edit-segments-policies).
 - [Barreras de información y canales compartidos](information-barriers-shared-channels.md)
 
 ## <a name="availability"></a>Disponibilidad
 
-Las barreras de la información en Teams están disponibles en nuestras nubes públicas, GCC, GCC - Altas y DOD.
+Las barreras de la información en Teams están disponibles en nuestras nubes públicas, GCC, GCC - Alta y DOD.

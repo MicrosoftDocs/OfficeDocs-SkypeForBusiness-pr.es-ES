@@ -1,6 +1,6 @@
 ---
 title: Administrar directivas de correo de voz
-author: crowe
+author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Administrar directivas de correo de voz para los usuarios.
-ms.openlocfilehash: da5909a1d460373be60bf26de08e414ca6470c8a
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f6c14584ee5da1b15085cd4caddfc757fbb50476
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267755"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999315"
 ---
 # <a name="manage-cloud-voicemail-policies-for-your-users"></a>Administrar directivas de Correo de voz en la nube para los usuarios
 
 > [!WARNING]
-> Para Skype for Business clientes, deshabilitar el correo de voz a través de una directiva de llamadas de Microsoft Teams también podría deshabilitar el servicio de correo de voz para los usuarios de Skype for Business.
+> Para Skype Empresarial clientes, deshabilitar el correo de voz a través de una directiva de llamadas de Microsoft Teams también podría deshabilitar el servicio de correo de voz para los usuarios de Skype Empresarial.
 
 Las directivas de correo de voz le permiten configurar y asignar directivas de correo de voz nuevas o existentes a grupos de usuarios para características como reglas de respuesta a llamadas, transcripción del correo de voz, enmascaramiento de lenguaje profanado de transcripción, traducción de transcripción e idioma de mensaje del sistema.
 

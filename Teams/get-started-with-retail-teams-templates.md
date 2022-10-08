@@ -10,6 +10,7 @@ ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar y usar las plantillas de equipos de venta minorista en el Centro de administración de Teams y con Microsoft Graph para crear equipos de forma rápida y sencilla para su organización de venta minorista.
@@ -20,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8c6af4cc86051c9233e06d0bf6c67abe1a4ad39
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 69644ce0261d37fb6a7a5e4270a68fb2a79a7d19
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837340"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046920"
 ---
 # <a name="use-retail-team-templates"></a>Usar plantillas de equipo de venta minorista
 
@@ -41,7 +42,7 @@ La forma de administrar y trabajar con plantillas de equipo depende de si es adm
 
 |Si está: | A continuación, usted: |
 | ---- | --------- |
-| Un administrador o un profesional de TI |[Administrar plantillas de equipo en el centro de administración de Teams](#manage-team-templates-in-the-teams-admin-center). Vea las plantillas de equipo y aplique directivas de plantillas para controlar qué plantillas puede usar el personal para crear equipos en Teams. |
+| Un administrador o un profesional de TI |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | Un desarrollador | [Use Microsoft Graph](#use-team-templates-with-microsoft-graph) para crear equipos a partir de plantillas de equipo. |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Administrar plantillas de equipo en el Centro de administración de Teams
@@ -77,7 +78,7 @@ Cree un equipo para que un conjunto de administradores colabore entre tiendas o 
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Uso de plantillas de equipo con Microsoft Graph
 
-Los desarrolladores pueden usar Microsoft Graph para crear equipos a partir de plantillas de equipo predefinidas. Para obtener más información sobre el uso de plantillas de equipo con Microsoft Graph, vea [Introducción a las plantillas de equipo mediante Microsoft Graph](get-started-with-teams-templates.md), [información general de la API de Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0) y [tipo de recurso teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 Estas son las plantillas de equipo de venta directa predefinidas.
 

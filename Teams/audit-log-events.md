@@ -1,5 +1,6 @@
 ---
 title: Buscar eventos en el registro de auditoría en Microsoft Teams
+description: Obtenga información sobre cómo recuperar datos de Microsoft Teams del registro de auditoría de la portal de cumplimiento Microsoft Purview.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,20 +8,22 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
+- audit
 f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Obtenga información sobre cómo recuperar datos de Microsoft Teams del registro de auditoría de la portal de cumplimiento Microsoft Purview.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7d94411132b575aa4754aae993f070a36718a2d
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: f82b9b77422f4f8aca8da3333e81f9b5e4c2cf35
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808451"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046650"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 

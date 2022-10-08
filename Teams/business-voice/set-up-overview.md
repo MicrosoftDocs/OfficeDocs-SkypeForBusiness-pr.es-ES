@@ -1,7 +1,7 @@
 ---
-title: Configurar Microsoft Teams 电话 sistema con plan de llamadas para pequeñas y medianas empresas
-author: dstrome
-ms.author: dstrome
+title: Configurar Teléfono Microsoft Teams sistema con plan de llamadas para pequeñas y medianas empresas
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -11,18 +11,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.custom: intro-get-started
 search.appverid: MET150
-description: Obtenga información sobre cómo configurar Microsoft Teams 电话 Sistema con plan de llamadas en su pequeña o mediana empresa u organización.
+description: Obtenga información sobre cómo configurar Teléfono Microsoft Teams Sistema con plan de llamadas en su pequeña o mediana empresa u organización.
 appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: 7a4e8a58e9a96b40df209aa61ed873f9a24fc452
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d74b5a8cc3511c38001c9719c84f1f0b9db5051f
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271855"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480880"
 ---
 # <a name="set-up-the-teams-phone-system-with-calling-plan-bundle-for-small-to-medium-businesses"></a>Configurar el paquete Teams Phone System con plan de llamadas para pequeñas y medianas empresas
 

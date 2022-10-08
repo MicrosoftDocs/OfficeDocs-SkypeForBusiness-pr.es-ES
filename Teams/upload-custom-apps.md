@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -17,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo cargar sus aplicaciones personalizadas en la tienda de aplicaciones de la organización en el Centro de administración de Microsoft Teams.
-ms.openlocfilehash: 60bb4c2ce41830dd789bd70763c8f3eb6ab8cde7
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 51ea4bdc31ff59a34bdf28a991617fff0f4e7381
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837320"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494613"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar una aplicación personalizada cargando un paquete de aplicación
 
@@ -31,7 +32,7 @@ ms.locfileid: "67837320"
 
 Este artículo proporciona una guía de principio a fin para llevar su aplicación de Teams desde el desarrollo pasando por la implementación hasta su descubrimiento. Esta guía se centra en los aspectos de Teams de la aplicación y está destinada a administradores y profesionales de TI. Para obtener más información sobre el desarrollo de aplicaciones de Teams, consulte la [documentación para desarrolladores de Teams](/microsoftteams/platform/).
 
-![Información general sobre la aplicación, desde el desarrollo hasta la implementación.](media/upload-custom-apps.png)
+:::image type="content" source="media/upload-custom-apps.png" alt-text="Información general sobre la aplicación, desde el desarrollo hasta la implementación.":::
 
 ## <a name="create-your-app"></a>Crear su aplicación
 
@@ -84,7 +85,7 @@ Para que la aplicación esté disponible para los usuarios de la tienda de aplic
 
 1. Seleccione **Cargar**, **seleccione Cargar**, seleccione el paquete de la aplicación que ha recibido del desarrollador y seleccione **Abrir**.
 
-   ![Captura de pantalla de la carga de aplicaciones personalizadas en el centro de administración.](media/manage-your-lob-apps-upload-new-app.png)
+   :::image type="content" source="media/manage-your-lob-apps-upload-new-app.png" alt-text="Captura de pantalla de la carga de aplicaciones personalizadas en el centro de administración.":::
 
 ## <a name="set-up-and-manage"></a>Configurar y administrar
 
@@ -134,6 +135,6 @@ Para quitar una aplicación, siga estos pasos:
 
 * [Publicar una aplicación personalizada enviada a través de la API de envío de aplicaciones de Teams](submit-approve-custom-apps.md)
 * [Administrar aplicaciones en el Centro de administración de Microsoft Teams](manage-apps.md)
-* [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md)
+* [Administrar directivas y configuraciones de aplicaciones personalizadas](teams-custom-app-policies-and-settings.md)
 * [Administrar directivas de permisos de aplicación en Teams](teams-app-permission-policies.md)
 * [Administrar directivas de configuración de aplicación en Teams](teams-app-setup-policies.md)

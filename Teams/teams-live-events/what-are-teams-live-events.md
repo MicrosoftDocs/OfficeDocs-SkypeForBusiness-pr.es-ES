@@ -1,7 +1,7 @@
 ---
 title: What are Microsoft Teams live events? (¿Qué son los eventos en directo de Microsoft Teams?)
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -10,6 +10,7 @@ ms.collection:
 - m365initiative-meetings
 - m365solution-spcomms
 - m365solution-scenario
+- highpri
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
@@ -22,12 +23,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ec79ec6d230359a43c910336a53a462c5f80fc6d
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
-ms.translationtype: HT
+ms.openlocfilehash: fab22ca4bda45f1f534055a5f43d64358dea8cec
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825704"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486600"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -41,7 +42,7 @@ Teams ofrece colaboración basada en el chat, llamadas, reuniones y eventos en d
 
 Los eventos en directo de Teams se consideran la nueva versión de Difusión de reunión de Skype y en algún momento sustituirán las funciones de Difusión de reunión de Skype. En estos momentos, Microsoft seguirá ofreciendo compatibilidad con Difusión de reunión de Skype para los usuarios que empleen Skype Empresarial en sus organizaciones, y no tendrá lugar una interrupción del servicio en eventos nuevos o futuros. Sin embargo, animamos a los usuarios a probar los eventos en directo de Teams para usar todas las nuevas e interesantes características que ofrece, incluida la opción de pantalla compartida y la compatibilidad con codificadores externos de hardware o software.
 
-Así que, empecemos. En primer lugar, echemos un vistazo al siguiente diagrama, que muestra los componentes de alto nivel presentes en los eventos en directo de Microsoft 365 y cómo están conectados.
+So, let's get started. First, take a look at the following diagram that shows high level components involved in Microsoft 365 live events and how they're connected.
 
 ![Componentes clave de los eventos en directo.](../media/live-events-flow-diagram.png  "Componentes clave de eventos en directo, programación, producción, plataforma de Stream, proveedores de terceros certificados de eCDN")
 
@@ -85,7 +86,7 @@ La entrada de vídeo constituye la base de un evento en directo y el método pue
     ![un evento en directo generado con una aplicación o dispositivo externos.](../media/teams-live-events-external-encoder.png "Captura de pantalla de un nuevo evento producido con el método de producción con aplicación o dispositivo externo")
 
 >[!Note]
-> El cambio de uso desde Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabar las reuniones](../tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, en noviembre tendrá que cancelar la suscripción si desea continuar usando Stream y por un tiempo, a principios de 2021, requeriremos que todos los clientes usen OneDrive para la Empresa y SharePoint para grabar nuevas reuniones.
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 ### <a name="streaming-platform"></a>Plataforma de streaming
 

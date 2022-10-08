@@ -5,15 +5,15 @@ metadata:
   title: Teléfono Microsoft Teams sistema con documentación del plan de llamadas
   description: Obtenga información sobre cómo planear, implementar y usar Teléfono Microsoft Teams Sistema con plan de llamadas.
   ms.topic: hub-page
-  author: dstrome
-  ms.author: dstrome
+  author: DaniEASmith
+  ms.author: danismith
   ms.date: 06/17/2020
-  ms.openlocfilehash: e1d1ceffeeaed9d2f6175ce2c7755349c756207c
-  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+  ms.openlocfilehash: be410c77d73487b02c50ea2d6c884b2ed3d03c36
+  ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 09/19/2022
-  ms.locfileid: "67808231"
+  ms.lasthandoff: 10/06/2022
+  ms.locfileid: "68480930"
 productDirectory:
   items:
   - title: Explorar

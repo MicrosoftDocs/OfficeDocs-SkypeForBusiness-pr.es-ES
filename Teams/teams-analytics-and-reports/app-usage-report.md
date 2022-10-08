@@ -6,7 +6,8 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: v-quhur
+ms.reviewer: vapati
+ms.date: 09/27/2022
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +18,16 @@ description: Obtenga información sobre cómo usar el informe de uso de aplicaci
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 745761b80bd2507a31cb76cdadc015eac8e9f7fd
-ms.sourcegitcommit: a4a65283e85d0c393c844dfd335df0d48e0e4105
+ms.openlocfilehash: 9db5378a439061639298b8bc3b48f4d3ef26c50b
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "67313932"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376968"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Informe de uso de aplicaciones de Microsoft Teams
 
-El informe de uso de aplicaciones de Teams del Centro de administración de Microsoft Teams le proporciona información sobre las aplicaciones que usan los usuarios en Teams.  
+El informe de uso de aplicaciones de Teams en el Centro de administración de Microsoft Teams le proporciona información sobre qué aplicaciones usan los usuarios en Teams. Puede obtener información sobre la actividad de las aplicaciones de Teams en su organización. En este artículo se explica cómo acceder al informe y ver e interpretar las distintas métricas del informe. 
 
 ## <a name="view-the-app-usage-report"></a>Ver el informe de uso de aplicaciones
 
@@ -36,7 +37,7 @@ El informe de uso de aplicaciones de Teams del Centro de administración de Micr
 
 1. En la pestaña **Ver informes** , en **Informe**, seleccione **Uso de aplicaciones**.
 
-1. En **Intervalo de fechas**, seleccione un intervalo y, a continuación, seleccione **Ejecutar informe**. Puede ver el informe Uso de aplicaciones de Teams para ver las tendencias de los últimos 7, 30 o 90 días.
+1. En **Intervalo de fechas**, seleccione un intervalo y, a continuación, seleccione **Ejecutar informe**. Puede ver el informe Uso de aplicaciones de Teams para ver las tendencias de los últimos 7, 30, 90 y 180 días.
 
    :::image type="content" source="media/app-usage-report2-trimmed.png" alt-text="Captura de pantalla de la interfaz del informe de uso de aplicaciones." lightbox="media/app-usage-report2.png":::
 
@@ -44,7 +45,7 @@ El informe de uso de aplicaciones de Teams del Centro de administración de Micr
 
 :::image type="content" alt-text="Captura de pantalla del informe de uso de aplicaciones de Teams en el Centro de administración de Teams con globos." source="media/app-usage-report5.png" lightbox="media/app-usage-report5.png":::
 
-Cada informe tiene una fecha en la esquina superior izquierda que muestra cuándo se creó el informe. Los informes suelen reflejar una latencia de 24 horas desde el momento en que se abrió una aplicación.
+Cada informe tiene una fecha en la esquina superior izquierda que muestra cuándo se creó el informe. Los informes suelen reflejar una latencia de 24 a 48 horas desde el momento en que se abrió una aplicación.
 
 Administración centro proporciona un gráfico de los usuarios activos y las fechas. Usuarios activos es el número de usuarios que han abierto una aplicación al menos una vez durante el período de tiempo seleccionado.
 

@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 10/04/2022
 ms.collection:
 - M365-collaboration
 ms.reviewer: chhavib, vaibhava, nsuter
@@ -16,12 +17,12 @@ description: Obtenga información sobre cómo comprar aplicaciones de terceros e
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 5c3137815ea8e4d02ac987ec0a2b0e50c32c3fcb
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 20abb80fed79995bd8496a04936737265503e67e
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837410"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377198"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicaciones de terceros para Microsoft Teams
 
@@ -31,7 +32,7 @@ La página [Administrar aplicaciones](manage-apps.md) del Centro de administraci
 
 Aquí, también puede comprar licencias de servicios ofrecidos por aplicaciones de terceros para los usuarios de su organización. La columna **Licencias** de la tabla indica si una aplicación ofrece una suscripción SaaS para su compra. Los usuarios finales pueden comprar aplicaciones con tarjeta de crédito, tarjeta de débito o con facturación.
 
-![Captura de pantalla de la página de administración de licencias de compra de aplicaciones.](media/manage-apps-new-page.png)
+:::image type="content" source="media/manage-apps-new-page.png" alt-text="Captura de pantalla que muestra la página de administración de aplicaciones de licencias de compra.":::
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>Comprar aplicaciones en el centro de administración de Teams
 
@@ -40,11 +41,11 @@ Para comprar aplicaciones en el centro de administración de Teams, siga estos p
 1. Inicie sesión en el Centro de administración de Teams y acceda a **las aplicaciones** > **[de Teams Administrar aplicaciones](https://admin.teams.microsoft.com/policies/manage-apps)**. Debe ser Administrador global o Administrador de servicio de Teams para acceder a la página.
 
 1. Busque la aplicación que quiera por su nombre. Para identificar las aplicaciones que tienen una suscripción SaaS de pago, consulte la columna **Licencias**. Cada aplicación tiene uno de los siguientes valores:
-    * **Comprar**: la aplicación ofrece una suscripción SaaS y está disponible para comprar.  
+    * **Comprar**: la aplicación ofrece una suscripción SaaS y está disponible para comprar.
     * **Comprado**: la aplicación ofrece una suscripción SaaS y has comprado licencias para ella.
     * **- -**: La aplicación no ofrece una suscripción SaaS.
 
-1. Cuando encuentre la aplicación, seleccione **Comprar** para ir a la pestaña **Planes y precios** de la página de detalles de la aplicación. Revise los planes y la información de precios de la oferta de SaaS para la aplicación. Si necesita más información, seleccione **Más información** para ir a la página de la aplicación en [AppSource](https://appsource.microsoft.com/).
+1. Cuando encuentres la aplicación, selecciona **Comprar** para ir a la pestaña **Planes y suscripciones** de la página de detalles de la aplicación. Revise los planes y la información de precios de la oferta de SaaS para la aplicación. Si necesita más información, seleccione **Más información** para ir a la página de la aplicación en [AppSource](https://appsource.microsoft.com/).
 
    > [!NOTE]
    > También se puede incluir la compra de planes privados, que incluyen precios especiales que la organización puede negociar por separado con algún desarrollador de aplicaciones. Estos planes tendrán la etiqueta **Plan privado** bajo el nombre del plan.
@@ -58,22 +59,22 @@ Para comprar aplicaciones en el centro de administración de Teams, siga estos p
    > [!NOTE]
    > Solo un Administrador global puede agregar una nueva cuenta de facturación.
 
-1. Compruebe que está seleccionado el perfil de facturación correcto. Si aún no tiene uno, seleccione **Agregar nuevo**. Tiene la opción de pagar con una tarjeta de crédito, una tarjeta de débito o mediante [facturación](#invoice-billing). El perfil de facturación también le permite agregar un número de pedido de compra para identificar el pedido más adelante. Para obtener más información sobre los perfiles de facturación, consulte [Descripción de los perfiles de facturación](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
+1. Compruebe que está seleccionado el perfil de facturación correcto. Si aún no tiene uno, seleccione **Agregar nuevo**. Puedes pagar con una tarjeta de crédito, una tarjeta de débito o con [facturación](#invoice-billing). El perfil de facturación también le permite agregar un número de pedido de compra para identificar el pedido más adelante. Para obtener más información sobre los perfiles de facturación, consulte [Descripción de los perfiles de facturación](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
 
 1. Seleccione **Realizar pedido**.
 
-1. Seleccione **Configurar** para activar la suscripción en el sitio web del desarrollador de la aplicación. Si no configura la suscripción después de la compra, puede hacerlo más adelante seleccionando **Administrar licencias**.
+1. Seleccione **Configurar** para activar la suscripción en el sitio web del desarrollador de la aplicación. Si no configuras la suscripción después de la compra, puedes hacerlo más adelante seleccionando **Administrar suscripciones**.
 
-Después de comprar la oferta SaaS asociada a la aplicación Teams, puede ver los siguientes detalles de compra en la pestaña **Planes y precios** de la página de detalles de la aplicación.
+Después de comprar la oferta de SaaS asociada a la aplicación Teams, puede ver los siguientes detalles de compra en la pestaña **Planes y suscripciones** de la página de detalles de la aplicación.
 
-* **Fecha de activación de licencia**: fecha en la que se activó la licencia. Si su cuenta aún no está configurada, se muestra como **Suscripción pendiente de activación**.
-* **Licencias**: número de licencias que compró.
+* **Fecha de activación de licencia**: fecha en la que se activó la licencia.
+* **Licencias**: número de licencias que ha comprado.
 
-:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Captura de pantalla de la pestaña Planes y precios en la página de detalles de la aplicación en el Centro de administración de Teams.":::
+  :::image type="content" source="media/manage-apps-plans-and-subscription.png" alt-text="Captura de pantalla de la pestaña Planes y precios en la página de detalles de la aplicación en el Centro de administración de Teams." lightbox="media/purchase-third-party-apps-details-page.png":::
 
-Para ver y administrar las licencias compradas, seleccione **Administrar licencias** para acceder al Centro de administración de Microsoft 365.
+Seleccione **Administrar suscripciones** para ver y administrar las licencias que compró.
 
-Los Administradores globales pueden agregar más licencias, quitar licencias y cancelar suscripciones para las compras realizadas por cualquier usuario de la organización. Los administradores de servicios de Teams pueden realizar las mismas acciones para las compras realizadas por ellos mismos. Sin embargo, si un administrador de servicios de Teams también tiene el rol de administrador de facturación, puede administrar las compras realizadas por cualquier usuario de la organización.
+Los administradores globales pueden ver las suscripciones compradas por cualquier persona de la organización, pero solo pueden agregar más licencias, quitar licencias y cancelar suscripciones para las compras realizadas por cualquier persona de su cuenta de facturación. Los administradores de servicios de Teams pueden realizar las mismas acciones para las compras realizadas por ellos mismos.
 
 > [!NOTE]
 > Si un Administrador global quiere administrar una suscripción comprada por otro Administrador global, debe estar en la misma cuenta de facturación. Puede conceder a otro Administrador global acceso a una suscripción que haya adquirido seleccionando la aplicación en el [Centro de administración de Microsoft 365](https://admin.microsoft.com). En el centro de administración, acceda a **Ver perfil de facturación** > **Seleccione la cuenta de facturación** > **Asignar roles** > **Agregar otros administradores globales**.
@@ -87,6 +88,29 @@ Los Administradores globales pueden agregar más licencias, quitar licencias y c
 * Se requiere una revisión de crédito la primera vez que use la facturación de facturas, lo que puede tardar de 24 a 48 horas en aprobarse. La facturación con envío de facturas no estará disponible hasta que se complete la comprobación de crédito. Puede realizar el pedido con una tarjeta de crédito o volver a intentarlo más tarde una vez aprobada la revisión de crédito.
 * La facturación con envío de facturas solo está disponible para Administradores globales o administradores con permisos de administrador de servicios de Teams y administrador de facturación.
 * La facturación con envío de facturas no está disponible al comprar un plan con una prueba gratuita de 30 días.
+
+## <a name="manage-subscriptions-in-teams-admin-center"></a>Administrar suscripciones en el Centro de administración de Teams
+
+En el Centro de administradores de Teams, puede administrar las suscripciones y licencias de aplicaciones que compró. Puede ver la lista de suscripciones de aplicaciones y sus detalles y realizar las siguientes acciones:
+
+* Cambiar un plan
+* Comprar o quitar licencia
+* Actualizar un método de pago
+* Cancelar una suscripción
+* Ver la factura
+
+  :::image type="content" source="media/manage-existing-subscriptions-actions.png" alt-text="Captura de pantalla de los detalles de suscripción de una aplicación." lightbox="media/manage-existing-subscriptions-all.png":::
+
+Para administrar las suscripciones, sigue estos pasos:
+
+1. Inicie sesión en el Centro de administración de Teams y acceda a **las aplicaciones** > [**de Teams Administrar aplicaciones**](https://admin.teams.microsoft.com/policies/manage-apps) .
+
+1. Selecciona la pestaña **Suscripciones** para ver las suscripciones que has comprado.
+
+   :::image type="content" source="media/subscription-options-in-manage-apps.png" alt-text="Captura de pantalla de la opción de suscripción de una aplicación en la página administrar aplicaciones." lightbox="media/manage-app-subscriptions-manage-apps.png":::
+
+> [!NOTE]
+> En el Centro de administración de Teams, puede administrar las suscripciones de aplicación adquiridas por usted u otros administradores que forman parte de la misma cuenta de facturación. Para ver todas las suscripciones de aplicación compradas para el mismo inquilino por otros administradores o adquiridas con cuentas de facturación diferentes, visite la [Centro de administración de Microsoft 365](https://admin.microsoft.com/adminportal/home#/homepage).
 
 ## <a name="list-and-sell-a-saas-offer-for-a-teams-app"></a>Enumerar y vender una oferta de SaaS para una aplicación de Teams
 

@@ -22,15 +22,16 @@ ms.collection:
 - microsoftcloud-retail
 - m365initiative-lists
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 39d44feb46fa20cb27755792e7f2236ed16b051f
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 9ea4e8cb49166c116d69c12d795659b55c93c556
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396281"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047050"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Lists para su organización en Microsoft Teams
 
@@ -84,7 +85,7 @@ En algunos escenarios, es posible que desee restringir qué acciones pueden hace
 
 Con Lists, los usuarios obtienen una experiencia móvil, web y de escritorio. Es importante saber que los usuarios no pueden crear nuevas listas ni anclar listas existentes con Lists en el cliente móvil de Teams. Para ver o editar una lista en el cliente móvil de Teams, primero debe crearla o agregarla con Lists en el cliente web o de escritorio de Teams.
 
-Los invitados no pueden crear ni eliminar una lista. Pueden agregar elementos de lista a listas existentes, iniciar conversaciones nuevas sobre los elementos de lista y responder a conversaciones existentes sobre los elementos de lista.
+Guests can't create or delete a list. They can add list items to existing lists, start new conversations about list items, and reply to existing conversations about list items.
 
 ### <a name="lists-and-the-sharepoint-app"></a>Lists y la aplicación SharePoint
 

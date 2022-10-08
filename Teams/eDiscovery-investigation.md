@@ -1,5 +1,6 @@
 ---
 title: Realizar una investigación de exhibición de documentos electrónicos del contenido
+description: Obtenga información sobre qué hacer cuando necesita realizar eDiscovery, por ejemplo, cuando necesita enviar toda la información almacenada electrónicamente para un procedimiento legal.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,21 +8,23 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
+- ediscovery
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Obtenga información sobre qué hacer cuando necesita realizar eDiscovery, por ejemplo, cuando necesita enviar toda la información almacenada electrónicamente para un procedimiento legal.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e0579e0967a6f0309dbea6ee28430df3f34876be
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: a44245d31e6fc9f4b58c17832e596c6d73b56635
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808251"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046660"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -35,8 +38,8 @@ eDiscovery of messages and files in [private channels](private-channels.md) work
 
 No todo el contenido de Teams es eDiscoverable. En la tabla siguiente se muestran los tipos de contenido que puede buscar con las herramientas de exhibición de documentos electrónicos de Microsoft:
 
-|Tipo de contenido|Notas|
-|---|---|
+|**Tipo de contenido**|**Notas**|
+|:---------------|:--------|
 |Grabaciones de audio||
 |Contenido de la tarjeta|Vea [Buscar contenido de tarjeta](#search-for-card-content) para obtener más información.|
 |Vínculos de chat||
@@ -53,6 +56,7 @@ No todo el contenido de Teams es eDiscoverable. En la tabla siguiente se muestra
 |Reacciones (como me gusta, corazones y otras reacciones)|Las reacciones son compatibles con todos los clientes comerciales después del 1 de junio de 2022. Las reacciones anteriores a esta fecha no están disponibles para eDiscovery. El soporte en la nube de la administración pública está previsto. No hay ningún apoyo legal para las reacciones.|
 |Asunto||
 |Mesas||
+|Clip de vídeo de Teams (TVC)|Busca en TVC con la palabra clave "Video-Clip" y "guardar como" un archivo de .mp4 para cada archivo adjunto de TVC haciendo clic con el botón derecho en la vista previa (la búsqueda por palabra clave estará disponible en octubre de 2022). Los datos de TVC se pueden detectar en [conjuntos de revisión de exhibición](/microsoft-365/compliance/add-data-to-review-set) de documentos electrónicos.
 
 <sup>1</sup> Los metadatos de reunión (y llamada) incluyen lo siguiente:
 

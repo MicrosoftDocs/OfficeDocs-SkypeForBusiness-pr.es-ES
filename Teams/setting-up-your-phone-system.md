@@ -13,6 +13,7 @@ ms.collection:
 - m365initiative-voice
 - m365solution-voice
 - m365solution-scenario
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -24,12 +25,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: Guía paso a paso que detalla cómo configurar Teams Phone System para su organización en Microsoft 365.
-ms.openlocfilehash: 7f5a29bc5d57d59cf8d63dbe1f61db18a906e110
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: beb82fd78fa58a4a3339dc1b7a5f54ceb5117479
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156905"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999545"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar Sistema telefónico en su organización
 

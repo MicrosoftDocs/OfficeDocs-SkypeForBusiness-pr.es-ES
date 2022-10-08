@@ -1,14 +1,13 @@
 ---
-title: Configurar una Exchange híbrida
-author: dstrome
-ms.author: dstrome
+title: Configurar una organización híbrida de Exchange
+author: JoanneHendrickson
+ms.author: jhendr
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: dstrome
-description: Obtenga información sobre cómo configurar una Exchange híbrida para su uso con Microsoft Teams asegurarse de que las pertenencias a grupos se sincronizan.
+description: Obtenga información sobre cómo configurar una organización híbrida de Exchange para su uso con Microsoft Teams con el fin de asegurarse de que se sincronizan las pertenencias a grupos.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -18,13 +17,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d1b5cb89f28a334b24aecf982dd3913dfce079ac
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: cb2471a2680218a69daa74d20b27c4b7642fa1d7
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014876"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480680"
 ---
 # <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Configurar una organización híbrida de Exchange para usarla con Microsoft Teams
 
-Por lo general, no debe tener que configurar ninguna funcionalidad Exchange Online para su uso con Microsoft Teams. Sin embargo, Exchange escenarios híbridos, hay pasos necesarios para asegurarse de que las pertenencias a grupos se sincronizan entre Exchange Server (local) y Exchange Online. Esto implica la habilitación de la funcionalidad de reescribición de grupo en Azure AD Conectar junto con varios scripts de inicialización: Configurar Microsoft 365 grupos con aplicaciones locales [Exchange híbrida.](/exchange/hybrid-deployment/set-up-microsoft-365-groups)
+Por lo general, no debe tener que configurar ninguna funcionalidad de Exchange Online para su uso con Microsoft Teams. Sin embargo, para escenarios híbridos de Exchange, hay pasos necesarios para asegurarse de que la pertenencia a grupos se sincroniza entre Exchange Server (local) y Exchange Online. Esto implica habilitar la funcionalidad de reescritura de grupo en Azure AD Connect junto con varios scripts de inicialización: [Configurar Grupos de Microsoft 365 con la implementación híbrida de Exchange](/exchange/hybrid-deployment/set-up-microsoft-365-groups) local.

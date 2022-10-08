@@ -1,12 +1,11 @@
 ---
 title: Interacción entre Exchange y Microsoft Teams
-author: dstrome
-ms.author: dstrome
+author: JoanneHendrickson
+ms.author: jhendr
 manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: dstrome
 description: Conozca la funcionalidad que hay entre Microsoft Teams y las distintas configuraciones de Exchange, como crear equipos y unirse a ellos, crear canales y mucho más.
 f1.keywords:
 - NOCSH
@@ -16,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b3251160c0ce44b02fffe4ff50c078a529c5d00
-ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
+ms.openlocfilehash: e52524c3113d7b2d776c355784772a8a059b221f
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2022
-ms.locfileid: "67590207"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480690"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -125,7 +124,7 @@ Para habilitar la delegación del calendario para estos usuarios:
 
 He aquí algunas consideraciones adicionales para la implementación de Microsoft Teams en su organización.
 
-- En Microsoft Teams, las características de seguridad y cumplimiento (como la exhibición de documentos electrónicos, la búsqueda de contenido, el archivo y la retención legal) funcionan mejor en los entornos de Exchange Online y SharePoint Online. Para las conversaciones del canal, se crea un diario con los mensajes en el buzón del grupo en Exchange Online, y así están disponibles para la exhibición de documentos electrónicos. Si SharePoint Online y OneDrive para la Empresa (usando una cuenta profesional o educativa) están habilitados en toda la organización y para los usuarios, estas características de cumplimiento están disponibles también para todos los archivos de Teams.
+- In Microsoft Teams, security and compliance features like eDiscovery, Content Search, archiving, and legal hold work best in Exchange Online and SharePoint Online environments. For channel conversations, messages are journaled to the group mailbox in Exchange Online, where they're available for eDiscovery. If SharePoint Online and OneDrive for Business (using work or school account) are enabled across the organization and for users, these compliance features are available for all files within Teams as well.
 
 - Controlar y proteger la configuración de directivas de cumplimiento en Teams y Exchange mediante el Acceso condicional. Para más información, consulte [¿Cómo funcionan las directivas de Acceso condicional en Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 

@@ -1,7 +1,7 @@
 ---
 title: ¿Cuál es la diferencia entre la Telefonía IP empresarial y Business Voice?
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 6761248bb476ebd8b6d64b9d1b9cbb5717cd81a6
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 436ffeeb6dbe4000f211e5f0543ff0e188f5423f
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271065"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480660"
 ---
 # <a name="whats-the-difference-between-business-voice-and-enterprise-voice"></a>¿Cuál es la diferencia entre la Telefonía IP empresarial y Business Voice?
 

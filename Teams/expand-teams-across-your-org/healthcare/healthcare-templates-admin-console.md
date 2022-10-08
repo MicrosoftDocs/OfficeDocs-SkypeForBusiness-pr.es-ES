@@ -17,17 +17,18 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 ms.reviewer: yinchang
 description: Obtenga información sobre cómo administrar y usar las plantillas de equipo sanitario en el Centro de administración de Teams y con Microsoft Graph para crear equipos de forma rápida y sencilla para su organización sanitaria.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4f3aa9d42ef86dde75acf8cbd559b6e50059a428
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: bdbb3e52f471e735b1b6c96a1502880c030ed89d
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396921"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046490"
 ---
 # <a name="use-healthcare-team-templates"></a>Usar plantillas de equipo de atención sanitaria
 
@@ -41,7 +42,7 @@ La forma de administrar y trabajar con plantillas de equipo depende de si es adm
 
 |Si está: | A continuación, usted: |
 | ---- | --------- |
-| Un administrador o un profesional de TI |[Administrar plantillas de equipo en el centro de administración de Teams](#manage-team-templates-in-the-teams-admin-center). Vea las plantillas de equipo y aplique directivas de plantillas para controlar qué plantillas puede usar el personal para crear equipos en Teams. |
+| Un administrador o un profesional de TI |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | Un desarrollador | [Usar Microsoft Graph](#use-team-templates-with-microsoft-graph) para crear equipos a partir de plantillas de equipo. |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Administrar plantillas de equipo en el Centro de administración de Teams
@@ -73,7 +74,7 @@ Esta plantilla está pensada para la comunicación y la colaboración entre vari
 &sup1; Aplicación agregada al canal como una pestaña.
 ## <a name="use-team-templates-with-microsoft-graph"></a>Uso de plantillas de equipo con Microsoft Graph
 
-Los desarrolladores pueden usar Microsoft Graph para crear equipos a partir de plantillas de equipo predefinidas. Para obtener más información sobre el uso de plantillas de equipo con Microsoft Graph, vea [Introducción a las plantillas de equipo mediante Microsoft Graph](../../get-started-with-teams-templates.md), [información general de la API de Microsoft Teams](/graph/teams-concept-overview) y [tipo de recurso teamsTemplate](/graph/api/resources/teamstemplate).
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview), and [teamsTemplate resource type](/graph/api/resources/teamstemplate).
 
 Estas son las plantillas de equipo de atención sanitaria predefinidas.
 ### <a name="ward"></a>Sala

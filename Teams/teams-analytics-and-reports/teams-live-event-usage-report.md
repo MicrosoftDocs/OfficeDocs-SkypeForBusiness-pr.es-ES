@@ -17,12 +17,12 @@ description: Obtenga información sobre cómo usar el informe de uso de eventos 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29a255c9248f07db00d4295e99d4062116ca4e76
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 1a7f571610c49da16735cf66f65f725901fce56d
+ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794098"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68033818"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Informe de uso de eventos en directo de Microsoft Teams
 
@@ -48,7 +48,7 @@ El informe de uso de eventos en directo de Teams en el Centro de administración
 |**5**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla.|
 
 ## <a name="notes"></a>Notas
-Se muestran hasta 100 eventos en directo que coinciden con los criterios del informe actual. Para ver más eventos en directo, aplique filtros de fecha para reducir el tamaño de la lista.
+Se muestran un máximo de 100 eventos en directo que coinciden con los criterios del informe actual. Para ver más eventos en directo, aplique filtros de fecha para reducir el tamaño de la lista.
 
 Los moderadores anónimos no se incluirán en el informe.
 

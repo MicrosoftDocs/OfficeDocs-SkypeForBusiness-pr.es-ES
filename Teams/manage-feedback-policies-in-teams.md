@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar las directivas de comentarios para controlar si los usuarios de Teams de su organización pueden enviar comentarios sobre Teams a Microsoft.
-ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
-ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
+ms.openlocfilehash: 9510a94a60a79a36292011fdcdad6afa97e6f56f
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "67339804"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494663"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Administrar directivas de comentarios en Microsoft Teams
 
@@ -71,6 +71,7 @@ Para desactivar y activar las características, establezca los siguientes parám
  - **Capturas de pantalla**: Utilice la marca **AllowScreenshotCollection** para agregar la opción de la colección de capturas de pantalla para los usuarios.
  - **Email**: Use la marca **AllowEmailCollection** para agregar un campo de correo electrónico.
  - **Colección de registros**: Utilice la marca **AllowLogCollection** para agregar opt-in de la colección de registros para los usuarios. Actualmente, la recopilación de registros solo está habilitada en dispositivos móviles. Para obtener más información sobre qué datos se comparten a través de los registros, [obtenga más información](https://go.microsoft.com/fwlink/?linkid=2168178).
+ - **Sugerir una característica**: establezca el parámetro **EnableFeatureSuggestions** en True para permitir que los usuarios asignados a la directiva sugiera una característica. Si se establece el parámetro en Deshabilitado, se desactivará la característica y los usuarios a los que se les asigne la directiva no tendrán la opción de enviar comentarios. La configuración predeterminada se toma de la configuración de directiva de experiencias conectadas opcional de Microsoft 365. Para obtener más información sobre esta configuración, vea [Información general sobre experiencias conectadas opcionales en Office](/deployoffice/privacy/optional-connected-experiences).
 
 ## <a name="create-a-custom-feedback-policy"></a>Crear una directiva de comentarios personalizada
 

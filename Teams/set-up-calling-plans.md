@@ -14,6 +14,7 @@ ms.collection:
 - m365solution-voice
 - m365solution-scenario
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -26,12 +27,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Aprenda a configurar planes de llamadas, incluidos ver los planes disponibles en su región, comprar & asignar licencias, obtener números de teléfono y agregar direcciones de emergencia & ubicaciones.
-ms.openlocfilehash: a4acb51bad8e8ad309357fcd497c1554fc568928
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c33a7e3400df369b062468001b06d35dc98ad0ac
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271575"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999535"
 ---
 # <a name="set-up-calling-plans"></a>Configurar las llamadas RTC en Skype Empresarial
 
@@ -90,9 +91,9 @@ En **Microsoft Teams**, los usuarios pueden ver su número de teléfono haciendo
 Los usuarios administradores de Microsoft 365 tienen acceso a diagnósticos que se pueden ejecutar en el inquilino para comprobar que un usuario está configurado correctamente para realizar o recibir llamadas RTC.
 
 > [!NOTE]
->Esta característica no está disponible para Microsoft 365 Administración Pública, 由世纪互联运营的 Microsoft 365 o Microsoft 365 Germany.
+>Esta característica no está disponible para Microsoft 365 Administración Pública, Microsoft 365 ofrecido por 21Vianet ni Microsoft 365 Germany.
 
-Seleccione Ejecutar pruebas, como se indica a continuación. Esto rellenará el diagnóstico en el Centro de Microsoft 365 അഡ്‌മിൻ.
+Seleccione Ejecutar pruebas, como se indica a continuación. Esto rellenará el diagnóstico en el Centro de Administración de Microsoft 365.
 >> [!div class="nextstepaction"]
 >> [Ejecutar pruebas: RTC de Teams](https://aka.ms/TeamsPSTNDiag)
 

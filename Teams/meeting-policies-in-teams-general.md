@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directivas de reuniones generales en Teams.
-ms.openlocfilehash: 0278133ff33e811cc4f08e1ad2973f52615d1426
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: ba667e5fbbe4d0f5e4d1ece6dba5943691b572a6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706959"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046730"
 ---
 # <a name="meeting-policy-settings---general"></a>Configuración de la directiva de reunión. Aspectos generales
 
@@ -154,7 +154,7 @@ Para desactivar el registro de reuniones e impedir que los usuarios programen se
 
 Esta directiva controla qué usuarios pueden registrar y asistir a seminarios web. Esta directiva tiene dos opciones, que solo están disponibles si el **registro de la reunión** está activado.
 
-- Establezca **Quién puede registrarse** en **Todos** si desea permitir que todos los usuarios, incluidos los usuarios anónimos, registren y asistan a seminarios web que configuren los usuarios de su organización.
+- Establezca **Quién puede registrarse** en **Todos** si desea permitir que todos los usuarios, incluidos los usuarios anónimos, registren y asistan a seminarios web que los usuarios de su organización configuren.
 - Establezca **Quién puede registrarse** **en Todos los usuarios de la organización** si desea permitir que solo los usuarios de su organización se registren y asistan a seminarios web.
 
 De forma predeterminada, **Quién puede registrarse** está establecido en **Todos**. Para editar esta directiva en el Centro de administración de Teams, vaya a **Directivas** >  de **reunión de** reuniones.
@@ -181,8 +181,9 @@ Para especificar qué complemento de la reunión desea que esté disponible para
   Si establece el parámetro como **Teams** y, a continuación, vuelve a **TeamsAndSfB**, se habilitan los complementos de la reunión. Sin embargo, tenga en cuenta que los vínculos existentes para unirse a reuniones de Teams no se migrarán a Skype Empresarial. Solo las reuniones de Skype Empresarial programadas tras el cambio tendrán un vínculo para unirse a reuniones de Skype Empresarial.
 
 ## <a name="meeting-reactions"></a>Reacciones de reuniones
+La disponibilidad de las reacciones a reuniones se puede configurar a través de la interfaz del Centro de administración de Teams o mediante PowerShell. Las reacciones de reunión se pueden habilitar o deshabilitar en la sección **Participantes & invitados** de una directiva de reunión.
 
-La configuración AllowMeetingReactions solo se puede aplicar con PowerShell. No hay ninguna opción para activar o desactivar AllowMeetingReactions desde el Centro de administración de Teams.
+Para configurar la configuración, use el cmdlet de Set-CsTeamsMeetingPolicy. Esta configuración está habilitada de forma predeterminada. Para desactivarlo, establezca **AllowMeetingReactions en** **False**.
 
 Las reacciones a la reunión están desactivadas de forma predeterminada. Desactivar las reacciones a un usuario no significa que un usuario no pueda usar las reacciones en las reuniones que programe. El organizador de la reunión puede activar las reacciones desde la página de opciones de la reunión, independientemente de la configuración predeterminada.
 

@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc250b0506614ef658ade9a491c5561a65b98800
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 976c73aebe698152c4824e3eaedfcc19a13ae525
+ms.sourcegitcommit: 1be178dc3b34575e1914e629f004f897c02e0097
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269675"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "68138493"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Dispositivo de rama con funciones de supervivencia (SBA) para enrutamiento directo
 
@@ -82,7 +82,7 @@ Para que la característica de SBA funcione, el cliente de Teams necesita saber 
 3. Asigne la directiva a los usuarios.
 4. Registre una aplicación para el SBA con Azure Active Directory.
 
-Toda la configuración se realiza mediante Skype for Business cmdlets de PowerShell en línea. (El Centro de administración de Teams aún no admite la característica de SBA de enrutamiento directo). 
+Toda la configuración se realiza mediante Skype Empresarial cmdlets de PowerShell en línea. (El Centro de administración de Teams aún no admite la característica de SBA de enrutamiento directo). 
 
 (Para obtener información sobre cómo configurar el SBC, con vínculos a la documentación del proveedor de SBC, consulte Configuración del controlador de borde de sesión al final de este artículo).
 
@@ -208,6 +208,8 @@ Para obtener instrucciones paso a paso sobre cómo configurar el controlador de 
 Informe de cualquier problema a la organización de soporte técnico de su proveedor de SBC. Al informar del problema, indique que tiene configurado un dispositivo de sucursal con funciones de supervivencia.
 
 ## <a name="known-issues"></a>Problemas conocidos
+
+- Como SBA se basa en tokens de autenticación que son válidos durante 24 horas y se renuevan diariamente, actualmente SBA puede admitir interrupciones de hasta 24 horas desde la última autenticación. Esto significa que, si se produce una interrupción 20 horas después de la última renovación del token de autenticación, SBA solo estará operativo durante las 4 horas restantes.
 
 - Al agregar nuevos dispositivos de rama con funciones de supervivencia, es posible que tarde un poco en poder usarlos en las directivas de Dispositivo de rama con funciones de supervivencia.
 

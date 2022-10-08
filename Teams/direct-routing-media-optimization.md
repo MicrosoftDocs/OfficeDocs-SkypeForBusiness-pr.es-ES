@@ -16,12 +16,12 @@ f1.keywords:
 description: Optimización de medios locales para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c33b8225f3bcde32428348e85166ff4d4463738
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: a86758d3376b2232126d095f9c9b1a1a28371481
+ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616096"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "68018116"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planear la optimización de medios locales para el enrutamiento directo
 
@@ -232,7 +232,7 @@ El diagrama siguiente muestra el flujo de tráfico de alto nivel para el usuario
 
 Diagrama 5.  Flujo de tráfico con el modo "Omitir siempre" y el usuario se encuentra en el sitio "principal"
 
-! [Un diagrama que muestra optimización de medios locales de flujo de tráfico]. (medios/direct-routing-media-op-5.png "Flujo de tráfico con el modo "Omitir siempre" y el usuario está en el sitio "principal")
+![Diagrama que muestra optimización de medios locales de flujo de tráfico.](media/direct-routing-media-op-5.png "El flujo de tráfico con el modo &quot;Omitir siempre&quot; y el usuario está en el sitio &quot;principal&quot;")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>Escenario 2: El usuario y las puertas de enlace están en diferentes sitios
@@ -255,7 +255,7 @@ El siguiente diagrama muestra el flujo de tráfico de alto nivel cuando el usuar
 
 Diagrama 6.  Flujo de tráfico con el modo "Omitir siempre" y el usuario no está en el sitio "particular", sino en la red interna
 
-! [Un diagrama muestra optimización de medios locales de flujo de tráfico]. (medios/direct-routing-media-op-6.png "Flujo de tráfico con el modo "Omitir siempre" y el usuario no está en el sitio "principal" sino en la red interna")
+![Un diagrama muestra optimización de medios locales de flujo de tráfico.](media/direct-routing-media-op-6.png "El flujo de tráfico con el modo &quot;Omitir siempre&quot; y el usuario no está en el sitio &quot;particular&quot;, sino en la red interna")
 
 ### <a name="mode-2-only-for-local-users"></a>Modo 2: Solo para usuarios locales
 
@@ -295,7 +295,7 @@ En el siguiente diagrama, un usuario asignado a la sucursal local en Vietnam, mi
 
 Diagrama 7. Flujo de tráfico con el modo "Solo para usuarios locales" y el usuario está en el sitio "principal"
 
-! [Otro diagrama que muestra optimización de medios locales de flujo de tráfico]. (multimedia/direct-routing-media-op-7.png "Flujo de tráfico con el modo "Solo para usuarios locales" y el usuario está en el sitio "principal")
+![Otro diagrama que muestra optimización de medios locales de flujo de tráfico.](media/direct-routing-media-op-7.png "El flujo de tráfico con el modo &quot;Solo para usuarios locales&quot; y el usuario está en el sitio &quot;principal&quot;")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>Escenario 2. El usuario y las puertas de enlace están en sitios diferentes
@@ -325,7 +325,7 @@ En el siguiente diagrama, el usuario interno, mientras se encuentra de forma loc
 
 Diagrama 8.  Flujo de tráfico con el modo "Solo para usuarios locales" y el usuario no está en el sitio "principal" sino en la red interna
 
-! [Otro diagrama muestra optimización de medios locales de flujo de tráfico]. (media/direct-routing-media-op-8.png "Flujo de tráfico con el modo "Solo para usuarios locales", el usuario no está en el sitio "particular" sino en la red interna")
+![Otro diagrama muestra optimización de medios locales de flujo de tráfico.](media/direct-routing-media-op-8.png "Flujo de tráfico con el modo &quot;Solo para usuarios locales&quot;, el usuario no está en el sitio &quot;principal&quot; sino en la red interna")
 
 ## <a name="known-issues"></a>Problemas conocidos
 
