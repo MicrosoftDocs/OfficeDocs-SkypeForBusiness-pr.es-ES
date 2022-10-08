@@ -1,7 +1,7 @@
 ---
 title: Actualizar Microsoft Teams gratuito (clásico) a la suscripción
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 123cb6343886f269a847d431b87f154855086d9b
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: de9862f9c6d5fff84e7fa6e763f0dee219a8c183
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615746"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377348"
 ---
 # <a name="upgrade-microsoft-teams-free-classic-to-subscription-version"></a>Actualizar Microsoft Teams gratuito (clásico) a la versión de suscripción
 
@@ -55,7 +55,7 @@ La versión completa de Teams incluida con una suscripción a Microsoft 365 o Of
 - 1 TB de almacenamiento por usuario
 - Reuniones programadas
 - Audioconferencia
-- Características de seguridad y cumplimiento mejoradas, incluida la autenticación multifactor, el inicio de sesión único y la creación de informes y auditoría (Premium)
+- Características de seguridad y cumplimiento mejoradas, incluida la autenticación multifactor, el inicio de sesión único y la auditoría (Premium) y la creación de informes
 - Controles administrativos y características de soporte técnico, incluido el soporte técnico para teléfonos y web de 24 x 7, herramientas de administración para administrar usuarios y aplicaciones, informes de uso de servicios de Microsoft 365 o Office 365, contrato de nivel de servicio y directivas y configuraciones de usuario configurables
 
 Para obtener una comparación detallada de las características gratuitas (clásicas) y de Teams, consulte [Comparar planes de Teams](https://products.office.com/microsoft-teams/free).

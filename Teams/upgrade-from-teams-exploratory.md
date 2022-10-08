@@ -1,7 +1,7 @@
 ---
 title: Actualización desde la versión de prueba de Teams Exploratory
-author: cazawideh
-ms.author: czawideh
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7137114ffd47e19faaf8ba74f0d0625f74bc6d89
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 00faa3cf3840409ecd2fd0a6ccbfa58418547b94
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269545"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376978"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Actualizar los usuarios de la versión de prueba de Teams Exploratory
 
@@ -36,7 +36,7 @@ En este artículo se proporciona información general sobre cómo actualizar los
 
 ## <a name="step-1-when-to-upgrade"></a>Paso 1: Cuándo actualizar  
 
-Para comprobar cuándo expira la prueba de Teams Exploratory de su organización y cuántos usuarios activos tiene, vaya a **Facturación >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>Sus productos</b></a> en el Centro de administración de Microsoft 365. También se le notificará antes de que expire la prueba de Teams Exploratory.
+To check when your organization’s Teams Exploratory trial is expiring and how many active users it has, go to **Billing >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>Your products</b></a> in the Microsoft 365 admin center. You’ll also be notified before the Teams Exploratory trial expires.
 
 > [!IMPORTANT]
 > Debe realizar un plan para actualizar los usuarios a licencias de pago antes de la fecha de expiración, para que los usuarios no pierdan el acceso a Teams.
@@ -69,7 +69,7 @@ Después de asignar las nuevas licencias, anule la asignación de las licencias 
 
 ### <a name="auto-claim-policies"></a>Directivas de notificación automática
 
-La próxima vez que actualice, use directivas de reclamación automática. Con ellas podrá crear directivas para que su organización asigne automáticamente licencias de suscripciones de pago a nuevos usuarios sin una licencia de Teams adquirida. Para obtener más información, vea <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Administrar directivas de notificación automática</a>.
+Next time you upgrade, use auto-claim policies to create policies for your organization to automatically assign licenses from paid subscriptions to new users who haven’t acquired a Teams license. For more information, see <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Manage auto-claim policies</a>.
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -1,7 +1,7 @@
 ---
 title: Configurar directivas
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,11 +15,11 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 2d67935700aed0bc46338d1bf72add9fd3be2a2d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 693b9b205fbf8b9ed4c0f9572d3c444b7b328ee0
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269735"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480730"
 ---
 [!INCLUDE [teams-calling-policy](../teams-calling-policy.md)]

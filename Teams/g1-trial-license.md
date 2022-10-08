@@ -1,7 +1,7 @@
 ---
 title: Administrar la Prueba de Office 365 G1 gratuita para el gobierno de Estados Unidos
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 audience: Admin
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aeb7a13db3358c03f40f878b8aa88f27497e4706
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d45869d015dc5486d3971bff5795cb0cc791dd5c
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267965"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377328"
 ---
 # <a name="manage-the-office-365-g1-trial-for-us-government"></a>Administrar la Prueba de Office 365 G1 para el gobierno de Estados Unidos 
 
@@ -33,7 +33,7 @@ No se pierda todas nuestras instrucciones para [dar soporte a los trabajadores r
 
 Después de activar la Prueba de Office 365 G1, active la licencia para todos los usuarios que la necesiten. Para más información, vea [Administrar el acceso de los usuarios a Teams](user-access.md).
 
-Una vez que haya activado la Prueba de G1 para los usuarios que la necesitan, podrá administrar a estos usuarios tal como administra a los usuarios con una licencia de pago. Para obtener más información, vea [Administrar la configuración de Teams para su organización](enable-features-office-365.md).
+Once you've turned on the G1 Trial for the users who need it, you'll manage these users just like you manage users who have a paid license. For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).
 
 ### <a name="upgrade-users-from-the-office-365-g1-trial-license"></a>Cambiar una licencia de Prueba de Office 365 G1 de los usuarios por una de pago
 
@@ -48,7 +48,7 @@ Para cambiar la licencia de Prueba de G1 de un usuario por una suscripción de p
 Para obtener más información, vea [Teams para Administración Pública](expand-teams-across-your-org/teams-for-government-landing-page.md).
 
 > [!NOTE]
-> Si la licencia de prueba de G1 finaliza y no se cambia la licencia del usuario inmediatamente a una suscripción que incluya Teams, los datos del usuario no se eliminarán. El usuario seguirá existiendo en Azure Active Directory y todos los datos dentro de Teams se conservarán. Cuando una nueva licencia se asigne al usuario para volver a habilitar las funciones de Teams, todo el contenido seguirá existiendo.
+> If the G1 Trial license ends and a user is not immediately upgraded to a subscription that includes Teams, the user data is not removed. The user still exists in Azure Active Directory and all data within Teams still remains. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist.
 > 
 ### <a name="remove-an-office-365-g1-trial-license"></a>Eliminar una licencia de Prueba de Office 365 G1
 

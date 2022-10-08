@@ -14,6 +14,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - remotework
+- purview-compliance
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +23,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4e31e59992d24aeac190c4f1ffb40d8c3dfef78
-ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
+ms.openlocfilehash: d673be29b62097dd2737d24910707bac8ad58d3b
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66810072"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046890"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Seguridad y cumplimiento en Microsoft Teams
 

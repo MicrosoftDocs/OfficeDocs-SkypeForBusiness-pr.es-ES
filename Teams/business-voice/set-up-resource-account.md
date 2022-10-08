@@ -1,7 +1,7 @@
 ---
-title: Configurar una cuenta de recursos del sistema Microsoft Teams 电话
-author: dstrome
-ms.author: dstrome
+title: Configurar una cuenta de recursos del sistema Teléfono Microsoft Teams
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -10,18 +10,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre cómo configurar una cuenta de recursos del sistema Microsoft Teams 电话 para usarla con operadores automáticos.
+description: Obtenga información sobre cómo configurar una cuenta de recursos del sistema Teléfono Microsoft Teams para usarla con operadores automáticos.
 appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: e644b7488589d76367f5944c43826c0bbdad06a9
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c0b010514ddff6fb1ad88041acf255e0e35af52b
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269715"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480750"
 ---
 # <a name="step-4-set-up-a-teams-phone-system-resource-account"></a>Paso 4: Configurar una cuenta de recursos del sistema telefónico de Teams
 

@@ -1,7 +1,7 @@
 ---
-title: Control de acceso basado en roles con el servicio Room Premium de Microsoft Teams
-author: dstrome
-ms.author: dstrome
+title: Control de acceso basado en roles en el Portal de administración de Microsoft Teams Pro
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.reviewer: altsou
 ms.topic: article
@@ -15,29 +15,29 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre el control de acceso basado en roles con el servicio administrado de Salas de Microsoft Teams.
+description: Obtén información sobre el control de acceso basado en roles en el Portal de administración de Salas de Microsoft Teams Pro.
 f1keywords: ''
-ms.openlocfilehash: 0edce289a23116ed76bf984bfc72724295fc5a5a
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8893f5dbe08203708fca21f808e3fda5c0f2b433
+ms.sourcegitcommit: 021cfac01a38282a8cde6e913d74be2d54c39162
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268365"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218529"
 ---
-# <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Control de acceso basado en roles con el servicio administrado Salas de Microsoft Teams
+# <a name="role-based-access-control-in-the-microsoft-teams-pro-management-portal"></a>Control de acceso basado en roles en el Portal de administración de Microsoft Teams Pro
 
-El control de acceso basado en roles (RBAC) en el servicio administrado de Salas de Microsoft Teams le ayuda a administrar el acceso de los usuarios a los datos de recursos de sala de su organización. Al asignar roles a los usuarios del portal de servicios, puede limitar lo que pueden ver y cambiar. Cada rol tiene un conjunto de permisos que determinan a qué usuarios con ese rol pueden acceder y cambiar dentro de su organización.
+El control de acceso basado en roles (RBAC) del portal de administración de Salas de Microsoft Teams Pro le ayuda a administrar el acceso de los usuarios a los datos de recursos de sala de su organización. Al asignar roles a los usuarios del portal, puede limitar lo que pueden ver y cambiar. Cada rol tiene un conjunto de permisos que determinan a qué usuarios con ese rol pueden acceder y cambiar dentro de su organización.
 
 Para crear, editar o asignar roles, su cuenta debe tener uno de los siguientes permisos:
 
 - Administrador global a través de Azure Active Directory (Azure AD)
-- Administrador de servicios administrados a través del portal de servicios administrados de Salas de Microsoft Teams
+- Administrador de servicios administrados a través del portal de administración de Salas de Microsoft Teams Pro
 
 ## <a name="what-is-a-role"></a>¿Qué es un rol?
 
-Un rol define el conjunto de permisos concedidos a los usuarios asignados a ese rol. Por ahora, el servicio administrado de Salas de Microsoft Teams tiene tres roles integrados: **administrador de servicios administrados**, **jefe de sitio** y **técnico del sitio**. Abarcan algunos escenarios comunes para los usuarios de su organización que pueden estar implicados en la administración de las salas.
+Un rol define el conjunto de permisos concedidos a los usuarios asignados a ese rol. Por ahora, el portal de administración de Salas de Microsoft Teams Pro tiene tres roles integrados: **Administrador de servicios administrados**, **Jefe de sitio** y **Tecnología del sitio**. Abarcan algunos escenarios comunes para los usuarios de su organización que pueden estar implicados en la administración de las salas.
 
-Para ver los roles, en el panel de navegación izquierdo del Salas de Microsoft Teams portal de servicios administrados, vaya a **Roles** y, a continuación, seleccione cualquiera de los roles para ver las propiedades, los permisos y las asignaciones del rol.  
+Para ver los roles, en el panel de navegación izquierdo del portal de administración de Salas de Microsoft Teams Pro, vaya a **Roles** y, a continuación, seleccione cualquiera de los roles para ver las propiedades, los permisos y las asignaciones del rol.  
 
 - **Propiedades**: nombre, tipo de rol y descripción
 - **Permisos**: muestra las características y el nivel de permisos a los que tiene acceso el rol.
@@ -47,9 +47,9 @@ Para ver los roles, en el panel de navegación izquierdo del Salas de Microsoft 
 
 Puede asignar roles integrados a grupos o usuarios sin más configuración. Tenga en cuenta que no puede eliminar ni editar el nombre, la descripción, el tipo o los permisos de un rol integrado.
 
-- **Administrador de servicios administrados**: tiene acceso completo al portal de servicio de Salas Premium de Microsoft Teams.
-- **Cliente potencial del sitio**: organiza salas, tiene acceso a informes y puede administrar entradas. No se puede restablecer la clave de inscripción ni realizar cambios en la configuración del servicio.  
-- **Site Tech**: Administra las entradas para salas específicas. No tiene permisos para modificar el servicio ni para organizar salas en el servicio.
+- **Administrador de servicios administrados**: tiene acceso completo al portal de administración de Microsoft Teams Room Pro.
+- **Cliente potencial del sitio**: organiza salas, tiene acceso a informes y puede administrar entradas. No se puede restablecer la clave de inscripción ni realizar cambios en las configuraciones del servicio.  
+- **Site Tech**: Administra las entradas para salas específicas. No tiene permisos para modificar configuraciones de servicio u organizar salas.
 
 En la tabla siguiente se resume lo que puede hacer cada rol.
 
@@ -70,7 +70,7 @@ En la tabla siguiente se resume lo que puede hacer cada rol.
 |Administración de vales   |Crear incidente de cliente         |&#10004;           |&#10004;           |&#10004;  |
 |    |Ver         |&#10004;           |&#10004;           |&#10004;  |
 |    |Actualización         |&#10004;           |&#10004;           |&#10004;  |
-|configuración del servicio administrado Salas de Microsoft Teams    |Ver         |&#10004;           |         ||
+|configuración del servicio de administración de Salas de Microsoft Teams Pro    |Ver         |&#10004;           |         ||
 |    |Modificar        |&#10004;           |         ||
 |Administración de roles    |Ver         |&#10004;           |         ||
 |    |Modificar         |&#10004;           |         ||
@@ -79,7 +79,7 @@ En la tabla siguiente se resume lo que puede hacer cada rol.
 
 Si los roles integrados no se ajustan a sus necesidades de la organización, puede crear un rol y configurar sus permisos como desee. Para crear un rol, debe ser administrador global o administrador de servicios administrados. 
 
-1. En el panel de navegación izquierdo del Salas de Microsoft Teams portal de servicios administrados, vaya a **Roles** **de configuración** > .
+1. En el panel de navegación izquierdo del portal de administración de Salas de Microsoft Teams Pro, ve a **Roles** **de configuración** > .
 2. Seleccione **Crear rol**.
 3. En la página **Configuración general** , en **Propiedades de rol**, escriba un nombre para este rol. En **Descripción**, escriba los detalles sobre este rol. Elija **Siguiente**.
 4. En la página **Permisos** , en **Permisos de rol**, seleccione las casillas correspondientes para elegir los permisos para este rol. Elija **Siguiente** para crear la primera asignación para este rol.
@@ -92,7 +92,7 @@ Si los roles integrados no se ajustan a sus necesidades de la organización, pue
 
 Para asignar roles, debe ser administrador global o administrador de servicios administrados o tener un rol con permisos de administración de roles.
 
-1. En el panel de navegación izquierdo del Salas de Microsoft Teams portal de servicios administrados, vaya a **Roles** **de configuración** > .
+1. En el panel de navegación izquierdo del portal de administración de Salas de Microsoft Teams Pro, ve a **Roles** **de configuración** > .
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Captura de pantalla de la página de control de Access que muestra los roles.":::
 
@@ -108,4 +108,4 @@ Para asignar roles, debe ser administrador global o administrador de servicios a
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Salas de Microsoft Teams servicio administrado](microsoft-teams-rooms-premium.md)
+- [Portal de administración de Salas de Microsoft Teams Pro](microsoft-teams-rooms-premium.md)

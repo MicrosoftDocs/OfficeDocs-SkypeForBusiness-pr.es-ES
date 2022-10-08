@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -19,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d192bffdc83510da021914627c65b03f190c6c63
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: dc84bc7be43182194af3a072edb875a6a257a9d5
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837180"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377338"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -51,7 +52,7 @@ La aplicaciones se anclan a la barra de aplicaciones situada en el lateral izqui
 
 |Cliente de escritorio de Teams  |Cliente móvil de Teams |
 |---------|---------|
-|![Barra de aplicaciones en el cliente de escritorio de Teams.](media/app-setup-policies-desktop-app-bar.png).  |   ![Barra de aplicaciones en el cliente móvil de Teams.](media/mobile-app-ui.png)      |
+|![Captura de pantalla que muestra la barra de la aplicación en el cliente de escritorio de Teams.](media/app-setup-policies-desktop-app-bar.png).  |   ![Captura de pantalla que muestra la barra de la aplicación en el cliente móvil de Teams.](media/mobile-app-ui.png)      |
 
 Las extensiones de mensajería están disponibles en la parte inferior del área de redacción de mensajes.
 
@@ -112,7 +113,7 @@ Puede administrar directivas de configuración de aplicación en el Centro de ad
 
 Puede editar la configuración en la directiva global para incluir las aplicaciones que desee. Para personalizar Microsoft Teams para distintos grupos de usuarios de la organización, puede crear y asignar una o más directivas personalizadas.
 
-![Página de directivas de configuración de aplicaciones para administrar directivas o agregar nuevas directivas.](media/app-setup-policies-update.png)
+:::image type="content" source="media/app-setup-policies-update.png" alt-text="Captura de pantalla que muestra la página de directivas de configuración de la aplicación con opciones para administrar directivas o agregar nuevas directivas.":::
 
 ### <a name="edit-an-app-setup-policy"></a>Editar una directiva de configuración de aplicaciones
 
@@ -161,7 +162,7 @@ Para ver todas las aplicaciones que están ancladas para un usuario, es posible 
 |Cliente de escritorio de Teams |Cliente móvil de Teams |
 |---------|---------|
 |En la barra de aplicaciones lateral de Teams, seleccione **... Más aplicaciones**.| En la barra de aplicaciones cerca de la parte inferior de Teams, deslice el dedo hacia arriba.|
-|![Más aplicaciones en el cliente de escritorio de Teams.](media/app-setup-policies-desktop-more-apps.png)   |![más aplicaciones en el cliente móvil de Teams](media/app-setup-policies-mobile-more-apps.png)  
+|![Captura de pantalla que muestra más aplicaciones ancladas en el cliente de escritorio de Teams.](media/app-setup-policies-desktop-more-apps.png)   |![Captura de pantalla que muestra más aplicaciones ancladas en el cliente móvil de Teams](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>¿Qué necesito saber sobre la experiencia móvil de Teams?
 

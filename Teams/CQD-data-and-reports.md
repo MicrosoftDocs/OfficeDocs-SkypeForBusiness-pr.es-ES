@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Obtenga información sobre los datos e informes disponibles en el Panel de calidad de llamadas (CQD) de Microsoft.
-ms.openlocfilehash: ba30be8d63dab1f5720be5637ea0a28c26d5d877
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7d89c17f299302f39e00e6aebcfd9309ead3eaae
+ms.sourcegitcommit: 021cfac01a38282a8cde6e913d74be2d54c39162
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789815"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218519"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Datos e informes en el Panel de calidad de llamadas (CQD)
 
@@ -41,7 +41,7 @@ Puede acceder a los datos del CQD por varias vías diferentes. Elige el que mejo
 |---|---|
 |Centro de administración de Teams [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|Los datos del CQD se incluyen en la página **Usuarios** del Centro de administración de Teams, que muestra los datos más comunes que necesita en un formato fácil de leer. No puede personalizar los datos del CQD que encuentre en **Usuarios**.|
 |Portal del CQD [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)|Informes resumidos y detallados robustos que satisfacen la mayoría de las necesidades, con filtrado detallado. También puede personalizar los informes en el portal del CQD. <br><br>Obtenga dos [plantillas de informes del CQD](#import-the-cqd-report-templates) para ayudarle a analizar datos en el portal del CQD.|
-|Power BI|Use consultas directas para ver los datos del CQD en Power BI con [plantillas de Power BI personalizables](CQD-Power-BI-query-templates.md). [Descargue plantillas de consulta de Power BI para el CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>También puede [usar la API de REST para acceder a los datos del CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) a través de Power BI. Use este método si desea descargar los datos del CQD para poder trabajar en ellos sin conexión. La ventaja de usar este método es un mejor rendimiento, especialmente útil para conjuntos de datos de gran tamaño que se inundan de Power BI cuando está en línea.|
+|Power BI|Use consultas directas para ver los datos del CQD en Power BI con [plantillas de Power BI personalizables](CQD-Power-BI-query-templates.md). [Descargue plantillas de consulta de Power BI para el CQD](https://www.microsoft.com/download/details.aspx?id=102291).<br><br>También puede [usar la API de REST para acceder a los datos del CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) a través de Power BI. Use este método si desea descargar los datos del CQD para poder trabajar en ellos sin conexión. La ventaja de usar este método es un mejor rendimiento, especialmente útil para conjuntos de datos de gran tamaño que se inundan de Power BI cuando está en línea.|
 |API de Graph|Acceda a los datos de calidad de llamada usted mismo con la [Graph API](/graph/api/resources/callrecords-api-overview). Este es el método más complejo, pero le ofrece el mayor control y flexibilidad para analizar los datos de calidad de las llamadas. Por ejemplo, si necesita combinarlos con otros datos de su organización, puede usar la Graph API para crear un modelo de datos e incorporar datos de calidad de llamadas.|
 
 ## <a name="import-the-cqd-report-templates"></a>Importar las plantillas de informes del CQD
@@ -74,6 +74,10 @@ Por motivos de cumplimiento, los datos de información de identificación del us
 - Comentarios textuales del usuario
 - Id. de objeto (el id. de objeto de Active Directory del usuario del punto de conexión)
 - Número de teléfono
+- Identidad del operador automático
+- Identidad de la cola de llamadas
+- Nombre del dispositivo de Video Teleconferencing (VTC)
+- Detalle del dispositivo de teleconferencia de vídeo (VTC)
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>Administración funciones con y sin acceso a LA UEII
 

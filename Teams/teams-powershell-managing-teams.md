@@ -13,12 +13,12 @@ ms.collection:
 description: Aprenda a administrar Microsoft Teams con PowerShell de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66f873b163222d3d9745e68881da2b8071f60eec
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: a14658039f4edeb8e70ec195f036bf8321453c2c
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396531"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486580"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Administrar Teams con Microsoft Teams PowerShell
 
@@ -69,8 +69,8 @@ Cuando haya completado estos pasos, estará listo para ejecutar los comandos de 
 ## <a name="manage-policies-via-powershell"></a>Administrar directivas a través de PowerShell
 
 > [!NOTE]
-> - Skype Empresarial Conector en línea se está consolidando en PowerShell de Teams. Actualmente está disponible en versión preliminar pública. Con el tiempo, los cmdlets de Skype Empresarial Online que se aplican a Teams estarán disponibles de forma nativa en el módulo PowerShell de Teams. Los pasos de instalación están disponibles en el artículo [Instalar Teams PowerShell](teams-powershell-install.md) .
-> - Los cmdlets estarán disponibles en la sesión de PowerShell una vez que se conecte a Skype Empresarial Online. Para obtener más información, consulte [Administrar Skype Empresarial en línea con Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+> - Skype Empresarial Conector en línea se consolida en PowerShell de Teams. Skype Empresarial Los cmdlets en línea que se aplican a Teams están disponibles de forma nativa en el módulo PowerShell de Teams. Los pasos de instalación están disponibles en el artículo [Instalar Teams PowerShell](teams-powershell-install.md) .
+> - Los cmdlets estarán disponibles en la sesión de PowerShell una vez que se conecte a Teams. Para obtener más información, consulte [Administrar Skype Empresarial en línea con Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 Busque los cmdlets para administrar directivas en el [módulo de cmdlets de Skype Empresarial](/powershell/module/teams).
 

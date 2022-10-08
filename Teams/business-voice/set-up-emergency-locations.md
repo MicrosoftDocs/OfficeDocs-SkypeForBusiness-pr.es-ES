@@ -1,7 +1,7 @@
 ---
-title: Configurar Microsoft Teams 电话 sistema con ubicaciones de emergencia del plan de llamadas
-author: dstrome
-ms.author: dstrome
+title: Configurar Teléfono Microsoft Teams Sistema con ubicaciones de emergencia del plan de llamadas
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -10,18 +10,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre cómo configurar ubicaciones de emergencia para Microsoft Teams 电话 Sistema con Plan de llamadas.
+description: Obtenga información sobre cómo configurar ubicaciones de emergencia para Teléfono Microsoft Teams Sistema con Plan de llamadas.
 appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: bf2e790e177ca388fd184ee4e1dff41032ef7166
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 96c6ec5422295bf63b4ac6b356f8d511f0291ff5
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267405"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480710"
 ---
 # <a name="step-1-set-up-a-teams-phone-system-emergency-location"></a>Paso 1: Configurar una ubicación de emergencia del sistema telefónico de Teams
 

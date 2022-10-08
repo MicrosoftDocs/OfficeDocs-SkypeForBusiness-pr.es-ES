@@ -1,5 +1,5 @@
 ---
-title: Administrar Microsoft 365 y los conectores personalizados
+title: Administrar conectores de Microsoft 365 y conectores personalizados
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -7,25 +7,26 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/01/2022
 ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Obtenga información sobre cómo los Conectores mantienen actualizado a su equipo entregando con frecuencia contenido y actualizaciones directamente en un canal de Teams para los servicios que usa.
+description: Obtenga información sobre cómo los conectores mantienen a su equipo actualizado proporcionando frecuentemente contenido y actualizaciones directamente en un canal de Teams para los servicios que usa.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e61a6705f470ee93c7169effdd56f35ca0dd6f4
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: fb65e7c91aa7ac0de7c8dade3a442f457d72657f
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837360"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377008"
 ---
-# <a name="manage-microsoft-365-and-custom-connectors"></a>Administrar Microsoft 365 y los conectores personalizados
+# <a name="manage-microsoft-365-connectors-and-custom-connectors"></a>Administrar conectores de Microsoft 365 y conectores personalizados
 
 Para mantener actualizado su equipo, los conectores entregan contenido y actualizaciones de servicio usados con frecuencia directamente en un canal de Teams. Con los conectores, los usuarios de Teams pueden recibir actualizaciones de servicios populares como Trello, Wunderlist, GitHub y Azure DevOps Services. Las actualizaciones se publican directamente en el flujo de chat de su equipo.
 

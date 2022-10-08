@@ -14,17 +14,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- tier1
+- purview-compliance
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 000c279c32237fd7477a375bf9968db03ec5376d
-ms.sourcegitcommit: 644374fcad6372494e87d729de690af4c060f635
+ms.openlocfilehash: 806e7f6dd3bccf9df74a97d537bcddc2e4b60979
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67054931"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047110"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Administrar directivas de retención de Microsoft Teams
 

@@ -1,7 +1,7 @@
 ---
 title: Directivas de grabación de eventos en directo
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Obtenga información sobre las directivas de grabación de eventos 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5ae98255edf26843e59839192a9f20096182bfa2
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: abe4cb004ada98021e74823495e6208fc31c28fb
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794118"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486560"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Directivas de grabación de eventos en directo en Microsoft Teams
 
@@ -56,7 +56,7 @@ Como parte de la directiva de difusión, hay una configuración que puede activa
 
 ## <a name="storage-and-persistence-behavior"></a>Comportamiento de almacenamiento y persistencia
 
-| Opción                                       | Estado   | DVR                                                   | VOD                                                     | Grabación                |
+| Opción                                       | Estado   | Dvr                                                   | Vod                                                     | Grabación                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
 | Grabación disponible para los asistentes | Seleccionado     | DVR está disponible y el activo de Azure Media Services (AMS) se almacena durante 180 días | El asistente puede acceder al evento y verlo                     |                              |
 |                                                  | No seleccionado | DVR está disponible y el activo de AMS se almacena durante 180 días | Los asistentes no obtendrán acceso al evento después de que se termine |                              |

@@ -1,7 +1,7 @@
 ---
 title: Obtener ayuda de un partner o distribuidor de Microsoft
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -22,12 +22,12 @@ no-loc:
 - Office 365
 ms.collection:
 - M365-voice
-ms.openlocfilehash: e5eccd025a0ba429518861d21d50b7af0e70e6b0
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 2ee159173411f205bb7dd445c81bf290ee64e766
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271895"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480510"
 ---
 # <a name="get-help-from-a-microsoft-reseller-or-partner"></a>Obtener ayuda de un partner o distribuidor de Microsoft
 

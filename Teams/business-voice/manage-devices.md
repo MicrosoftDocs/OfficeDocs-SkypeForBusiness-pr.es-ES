@@ -1,7 +1,7 @@
 ---
 title: Administrar dispositivos
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,11 +16,11 @@ appliesto:
 ms.collection:
 - M365-voice
 - Teams_ITAdmin_Devices
-ms.openlocfilehash: cb69fb15ada4a238555e89a98289678b5abbc146
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f124574230f8f477d9a6f7a9e2f10bbf810f0739
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270655"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480920"
 ---
 [!INCLUDE [device-management](../devices/device-management.md)]

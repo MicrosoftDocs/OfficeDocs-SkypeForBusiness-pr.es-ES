@@ -19,12 +19,13 @@ appliesto:
 ms.collection:
 - M365-collaboration
 - m365-frontline
-ms.openlocfilehash: 23c75051268de176cc14a9b8df426e8d67f5a2d3
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+- highpri
+ms.openlocfilehash: 74b67a71f8b93f5f0ed898ef186beede056ec31a
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396501"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047120"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Tasks para su organización en Microsoft Teams
 
@@ -132,7 +133,7 @@ Para obtener información sobre cómo configurar la jerarquía basada en equipos
 
 ## <a name="power-automate-and-graph-api"></a>Power Automate y la API de Graph
 
-Tasks es compatible con Power Automate para To Do y Graph API para Planner. Para obtener más información, vea:
+Tasks es compatible con las API de Power Automate para To Do y Graph para Planner. Para más información, vea:
 
 - [Introducción a la API de tareas y planes de Planner](/graph/planner-concept-overview)
 - [Uso de Microsoft To Do con Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

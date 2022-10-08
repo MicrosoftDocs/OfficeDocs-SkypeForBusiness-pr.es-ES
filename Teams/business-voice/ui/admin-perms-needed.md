@@ -1,7 +1,7 @@
 ---
 title: Administración permisos necesarios para comprar Microsoft 365 Business Voice
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ appliesto:
 ROBOTS: NOINDEX, NOFO
 ms.collection:
 - M365-voice
-ms.openlocfilehash: aaa04d923bafbc67c1e4bb752bf8b94dcf9bb4f6
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 71f2f980727fd97bb364b25b4f54e8e44a9e8dcd
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270505"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480700"
 ---
 # <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>Administración permisos necesarios para comprar Microsoft 365 Business Voice
 

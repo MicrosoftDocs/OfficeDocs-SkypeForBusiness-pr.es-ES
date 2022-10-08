@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29a048ccc02082ec019bb64dca9e89b7f265ff83
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: d7b74ecb85f6081533f5139b6f8f083b8958d47f
+ms.sourcegitcommit: 31fe510550ac1f5f8e53b2395014cb909a6eb723
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465978"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "68350753"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Administrar los controles de tecnología de reconocimiento de voz para un altavoz inteligente
 
@@ -130,13 +130,29 @@ Los usuarios finales pueden inscribir sus voces para el reconocimiento en las co
 
 |**Idioma**|**País o región**|**Id. de referencia cultural**|
 |:-----|:-----|:-----|
+|Árabe  <br/> |Arabia Saudí <br/> |ar-SA  <br/> |
+|Chino  <br/> |China <br/> |zh-CN  <br/> |
+|Chino  <br/> |Taiwán <br/> |zh-TW  <br/> |
+|Danés  <br/> |Dinamarca <br/> |da-DK  <br/> |
+|Neerlandés  <br/> |Países Bajos <br/> |nl-NL  <br/> |
 |Inglés  <br/> |Australia <br/> |en-AU  <br/> |
 |Inglés  <br/> |Canadá  <br/> |en-CA <br/> |
 |Inglés  <br/> |India  <br/> |en-IN  <br/> |
 |Inglés  <br/> |Nueva Zelanda  <br/> |en-NZ  <br/> |
 |Inglés  <br/> |Reino Unido  <br/> |en-GB  <br/> |
 |Inglés  <br/> |Estados Unidos  <br/> |en-US  <br/> |
-
+|Finés  <br/> |Finlandia  <br/> |fi-FI  <br/> |
+|Francés  <br/> |Canadá <br/> |fr-CA  <br/> |
+|Francés  <br/> |Francia <br/> |fr-FR  <br/> |
+|Italiano  <br/> |Italia <br/> |it-IT  <br/> |
+|Japonés  <br/> |Japón <br/> |ja-JP  <br/> |
+|Noruego  <br/> |Noruega <br/> |nb-NO  <br/> |
+|Polaco  <br/> |Polonia <br/> |pl-PL  <br/> |
+|Portugués      <br/> |Brasil <br/> |pt-BR  <br/> |
+|Ruso  <br/> |Rusia <br/> |ru-RU  <br/> |
+|Sueco  <br/> |Suecia <br/> |sv-SE  <br/> |
+|Español  <br/> |México  <br/> |es-MX  <br/> |
+|Español  <br/> |España  <br/> |es-ES  <br/> |
 
 ### <a name="in-meeting-transcription-locales"></a>Configuraciones regionales de transcripción durante la reunión
 

@@ -1,7 +1,7 @@
 ---
 title: Comprobar la conexión a Internet para Teams Phone System
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 5cbc8613a91e2b776faff922fb9a3a98b3dd545e
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7cef6f8b9a3bfa6aa99fe342f8d1abf66f7c6594
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271055"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480940"
 ---
 # <a name="check-your-internet-connection-for-teams-phone-system"></a>Comprobar la conexión a Internet para Teams Phone System
 
