@@ -1,7 +1,7 @@
 ---
-title: Teams idiomas para los saludos y mensajes del correo de voz
-author: dstrome
-ms.author: dstrome
+title: Idiomas de Teams para mensajes y saludos del correo de voz
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,14 +21,14 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre los idiomas que puede establecer en Skype Empresarial para los mensajes predeterminados del sistema y los saludos del correo de voz.
-ms.openlocfilehash: 2a9b33e26bde9017be29412bb96086c708a150c1
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 71f7df5a074ad0d3b87bc4111a3f150eccb29dac
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624144"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68481152"
 ---
-# <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams idiomas para los saludos y mensajes del correo de voz
+# <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Idiomas de Teams para mensajes y saludos del correo de voz
 
 Teams admite los siguientes idiomas para los saludos del correo de voz.
   

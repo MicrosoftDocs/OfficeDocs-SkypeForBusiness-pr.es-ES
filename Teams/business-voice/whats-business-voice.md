@@ -1,7 +1,7 @@
 ---
 title: Guía del sistema telefónico de Teams para pequeñas y medianas empresas
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: El paquete sistema de Microsoft Teams 电话 con plan de llamadas es una opción barata para las llamadas de voz, lo que permite a las pequeñas y medianas empresas comunicarse mejor.
+description: El sistema de Teléfono Microsoft Teams con paquete de plan de llamadas es una opción económica para las llamadas de voz, lo que permite a las pequeñas y medianas empresas comunicarse mejor.
 appliesto:
 - Microsoft Teams
 ms.custom:
@@ -19,16 +19,16 @@ ms.custom:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: 40df60a1180f31422b3e9f78322cd89638ba600c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 81c30b4c80d2244c3c9589380274bf0d1f2cceaa
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270285"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480970"
 ---
 # <a name="teams-phone-system-guidance-for-small-and-medium-businesses"></a>Guía del sistema telefónico de Teams para pequeñas y medianas empresas
 
-El paquete Microsoft Teams 电话 Sistema con plan de llamadas es la solución todo en la nube de Microsoft que facilita a las organizaciones convertir Teams en un sistema telefónico potente y flexible. El sistema telefónico con paquete de plan de llamadas proporciona funcionalidades y llamadas de la central de conmutación (PBX) a la red telefónica conmutada (RTC).
+El paquete Teléfono Microsoft Teams Sistema con plan de llamadas es la solución todo en la nube de Microsoft que facilita a las organizaciones convertir Teams en un sistema telefónico potente y flexible. El sistema telefónico con paquete de plan de llamadas proporciona funcionalidades y llamadas de la central de conmutación (PBX) a la red telefónica conmutada (RTC).
 
 El paquete Teams Phone System with Calling Plan permite a su empresa tener:
 

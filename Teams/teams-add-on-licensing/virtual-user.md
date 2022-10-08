@@ -1,7 +1,7 @@
 ---
 title: Teléfono Microsoft Teams licencias de cuenta de recursos
-ms.author: dstrome
-author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: reference
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - admindeeplinkMAC
 description: Obtenga información sobre cómo asignar licencias de Teléfono Microsoft Teams cuenta de recursos a cuentas de recursos para operadores automáticos y colas de llamadas de su organización.
-ms.openlocfilehash: 56b461c2de32f32dd51d72c5468e31f51b107310
-ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
+ms.openlocfilehash: bba516249ec1b30e0361e2f9a6be003343f9c892
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67630430"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377368"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>Teléfono Microsoft Teams licencias de cuenta de recursos
 
