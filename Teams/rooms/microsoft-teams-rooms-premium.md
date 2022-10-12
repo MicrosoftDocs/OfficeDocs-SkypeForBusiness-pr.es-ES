@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtén información sobre la administración de Salas de Microsoft Teams Pro.
 f1keywords: ''
-ms.openlocfilehash: 275906a47b2f86368256e7e09f42b2cf5c653ee8
-ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
+ms.openlocfilehash: d6644308f5c9de9b92c3d25df2595a036c232c7b
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68033778"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532410"
 ---
 # <a name="microsoft-teams-rooms-pro-management"></a>administración de Salas de Microsoft Teams Pro
 
@@ -37,11 +37,9 @@ Estos son tres aspectos clave del servicio:
 
    Software y aprendizaje automático que automatiza actualizaciones, detección de problemas y resolución de problemas para Salas de Microsoft Teams.  
 
-- Expertos dedicados  
+- Administración de actualizaciones  
 
-   Un equipo de expertos que proporciona operaciones de servicio las 24 horas del día, soporte en niveles y asistencia para la resolución de incidentes.  
-
-
+   Aplicación de reunión automatizada y orquestación de windows update basada en anillos de implementación configurables por el cliente.
 
 - Información mejorada  
 

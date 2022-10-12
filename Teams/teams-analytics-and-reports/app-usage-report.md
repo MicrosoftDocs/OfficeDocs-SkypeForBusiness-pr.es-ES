@@ -18,62 +18,66 @@ description: Obtenga información sobre cómo usar el informe de uso de aplicaci
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9db5378a439061639298b8bc3b48f4d3ef26c50b
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: c437676df215ead9b588091f2cb58c19d1e136fd
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376968"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532270"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Informe de uso de aplicaciones de Microsoft Teams
 
-El informe de uso de aplicaciones de Teams en el Centro de administración de Microsoft Teams le proporciona información sobre qué aplicaciones usan los usuarios en Teams. Puede obtener información sobre la actividad de las aplicaciones de Teams en su organización. En este artículo se explica cómo acceder al informe y ver e interpretar las distintas métricas del informe. 
+El informe de uso de aplicaciones de Teams en el Centro de administración de Microsoft Teams le proporciona información sobre qué aplicaciones usan los usuarios en Teams. Puede obtener información sobre la actividad de las aplicaciones de su organización para diferentes aplicaciones de Microsoft (aprendizaje Viva, Turnos, etc.), de terceros (Polly, Trello, etc.) & De línea de negocio (LOB).   
+
+Puede usar este informe para comprender dónde se usan exactamente diferentes aplicaciones y profundizar en los datos de uso de cada aplicación.
+
+Los datos representados en este informe proporcionan respuestas a las siguientes preguntas:
+
+-  ¿Cuántas aplicaciones instaladas tienen los usuarios de su entorno?
+-  ¿Cuántas aplicaciones tienen al menos un usuario activo en su entorno en función del tipo (Microsoft, de terceros y LOB)?
+-  ¿Cuántas aplicaciones se usan por plataforma (Windows, Mac, web o móvil)?
+-  ¿Cuántos usuarios activos y equipos activos usan una aplicación?
+
+> [!NOTE]
+> El uso de aplicaciones lob **cargadas en paralelo** no se incluye en este informe.
+
+En este artículo se explica cómo acceder al informe y ver e interpretar las distintas métricas del informe. 
 
 ## <a name="view-the-app-usage-report"></a>Ver el informe de uso de aplicaciones
 
-1. En el panel de navegación izquierdo del Centro de administración de Teams, seleccione **Análisis & informes****[de uso](https://admin.teams.microsoft.com/analytics/reports)** > .
+Debe ser administrador global, lector global o administrador del servicio de Teams para poder ver los informes en el Centro de administración de Microsoft Teams. Consulte [Usar los roles de administrador de Teams para administrar Teams](../using-admin-roles.md) para obtener información sobre cómo obtener roles de administrador y permisos.
 
-   :::image type="content" source="media/app-usage-report1.png" alt-text="Captura de pantalla del elemento de menú Informes de uso.":::
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, seleccione **Análisis & informes** > **Informes de uso**. En la pestaña **Ver informes** , en **Informe**, seleccione **Uso de aplicaciones**.
 
-1. En la pestaña **Ver informes** , en **Informe**, seleccione **Uso de aplicaciones**.
+2. En **Intervalo de fechas**, seleccione un intervalo y, a continuación, seleccione **Ejecutar informe**.
 
-1. En **Intervalo de fechas**, seleccione un intervalo y, a continuación, seleccione **Ejecutar informe**. Puede ver el informe Uso de aplicaciones de Teams para ver las tendencias de los últimos 7, 30, 90 y 180 días.
-
-   :::image type="content" source="media/app-usage-report2-trimmed.png" alt-text="Captura de pantalla de la interfaz del informe de uso de aplicaciones." lightbox="media/app-usage-report2.png":::
+:::image type="content" alt-text="Captura de pantalla del informe de uso de aplicaciones de Teams en el Centro de administración de Teams con globos." source="media/app-usage2-report10.png" lightbox="media/app-usage2-report10.png":::
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 
-:::image type="content" alt-text="Captura de pantalla del informe de uso de aplicaciones de Teams en el Centro de administración de Teams con globos." source="media/app-usage-report5.png" lightbox="media/app-usage-report5.png":::
+|Globo |Descripción  |
+|--------|-------------|
+|**1**   |Puede visualizar el informe de uso de aplicaciones para ver las tendencias de los últimos 7, 30, 90 y 180 días. |
+|**2**   |Cada informe tiene la fecha del momento en que se generó. Los informes suelen reflejar una latencia de 24 a 48 horas desde el momento en que se usó una aplicación. Por ejemplo, los datos del 10 de enero deberían aparecer en el informe alrededor del 12 de enero. |
+|**3**   |<ul><li>En el gráfico, el eje X es el intervalo de fechas seleccionado para el informe específico.</li> <li> El eje Y es el recuento de elementos.</li> </ul>Desplace el puntero sobre el punto que representa un elemento en una fecha determinada para ver el número de instancias de ese elemento en esa fecha determinada.|
+|**4**   |Puede filtrar lo que ve en el gráfico seleccionando un elemento de la leyenda. Por ejemplo, selecciona **Aplicaciones activas de Microsoft**, **Total de aplicaciones instaladas** y mucho más para ver solo la información relacionada con cada una de ellas. Al cambiar esta selección no se cambia la información de la tabla. <ul><li>**Aplicaciones activas de Microsoft** es el número de aplicaciones de Microsoft (por ejemplo, aprendizaje Viva) que se usan en toda la organización. </li> <li>**Aplicaciones de terceros activas** es el número de aplicaciones de terceros (por ejemplo, Polly) que se usan en toda la organización.  </li> <li>**Aplicaciones de LÍNEA de negocio activas** es el número de aplicaciones de línea de negocio que se usan en toda la organización. </li><li>**El número total de aplicaciones activas** es el número total de aplicaciones que se usan en toda la organización. </li><li>**El total de aplicaciones inactivas** es el número de aplicaciones que no se usan en su organización. </li><li>**El total de aplicaciones instaladas** es el número total de aplicaciones instaladas en su organización. La fecha de inicio de todas las métricas de instalación es octubre de 2021. Solo se contarán las aplicaciones instaladas después de esa fecha.</li></ul> El gráfico muestra las métricas agregadas en toda la organización en cada día dentro de un período seleccionado. Por ejemplo, si selecciona el 28 de enero y la métrica **Aplicaciones de terceros activas**, el gráfico le mostrará el número total de aplicaciones de terceros usadas el 28 de enero en su organización.  |
+|**5**   |La tabla ofrece un desglose del uso de cada aplicación. <ul><li>**Id. de** aplicación es el identificador de aplicación externo presente en el manifiesto de la aplicación. <br/>Puede encontrar más información sobre la aplicación en la [sección Administrar aplicaciones del Centro de administración de Teams](/microsoftteams/manage-apps) haciendo referencia a ella con este id. de aplicación externo.</li> <li>**Nombre de** la aplicación es el nombre de esta aplicación tal y como está presente en el manifiesto de la aplicación. </li> <li>**Publisher** es el editor de esta aplicación tal y como está presente en el manifiesto de la aplicación. Esto solo está disponible para las aplicaciones publicadas en la Store global.</li> <li>**Equipos que usan esta aplicación** es el número de equipos distintos de Teams que tienen al menos un usuario usando esta aplicación. </li><li>**Los usuarios que usan esta aplicación** son el número de usuarios distintos de su organización que usan esta aplicación.</li> <li>**Usado en Windows** indica si esa aplicación ha sido usada en Windows por al menos un usuario de la organización.</li><li>**Usado en Mac** indica si esa aplicación se ha usado en MAC por al menos un usuario de su organización.</li><li>**Usado en la Web** indica si esa aplicación ha sido usada en la Web por al menos un usuario de su organización. </li> <li>**La fecha de último uso** es la fecha en que cualquier persona de la organización usó la aplicación por última vez. </li></ul> |
+|**6**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla.|
+|**7**   |Exporte el informe a un archivo CSV para analizarlo sin conexión. Seleccione el icono **Exportar a Excel** y el informe se descargará en el explorador.|
+|**8** |Los datos de series temporales representados en el gráfico superior muestran distintas métricas de uso agregadas para todo el espacio empresarial.|
+|**9** |Los datos tabulares representados en la mitad inferior muestran diferentes métricas de uso agregadas por equipo.|
 
-Cada informe tiene una fecha en la esquina superior izquierda que muestra cuándo se creó el informe. Los informes suelen reflejar una latencia de 24 a 48 horas desde el momento en que se abrió una aplicación.
 
-Administración centro proporciona un gráfico de los usuarios activos y las fechas. Usuarios activos es el número de usuarios que han abierto una aplicación al menos una vez durante el período de tiempo seleccionado.
+## <a name="managing-apps-in-the-microsoft-teams-admin-center"></a>Administrar aplicaciones en el Centro de administración de Microsoft Teams
 
-Desplace el puntero sobre el punto (4) que representa el uso de una aplicación en cualquier fecha para ver el número total de usuarios activos de esa aplicación en esa fecha.
+Para obtener más información sobre cómo administrar las aplicaciones de Teams, consulte [Acerca de las aplicaciones en Microsoft Teams](/microsoftteams/deploy-apps-microsoft-teams-landing-page.md).
 
-Para seleccionar otras aplicaciones, en la esquina superior derecha, seleccione el icono **Filtro** (5), seleccione o escriba nuevos criterios y, después, seleccione **Aplicar**.
+Para vincular una aplicación de este informe a la experiencia Administrar aplicaciones del Centro de administración de Microsoft Teams, puede usar lo siguiente:
 
-La tabla de la parte inferior del informe (6) muestra los usuarios activos y equipos por nombre de aplicación.
+- Nombre de aplicación
+- Id. de aplicación externa
 
-   - **Nombre de aplicación** es el nombre para mostrar de la aplicación que se usa en Teams.
-   - **Usuarios activos** es el número de usuarios que han abierto la aplicación al menos una vez durante el período de tiempo especificado.
-   - **El tipo de aplicación** es un valor estático de "Microsoft" o "Tercero".
-   - **Equipos activos** es el número de equipos que han abierto la aplicación por al menos un miembro del equipo y durante los períodos de tiempo especificados.
-   - **Publisher** es el desarrollador de software de la aplicación.
-   - **Versión** es la versión de software de la aplicación, del desarrollador de la aplicación.
-
-   > [!NOTE]
-   > **Los usuarios activos** y **los equipos activos** se calculan solo para las aplicaciones que se usan en canales.
-
-Para agregar o quitar columnas de la tabla, en la esquina superior derecha, seleccione el icono **Editar columnas** (7), en la pestaña **Editar columnas** , seleccione nuevos criterios y, después, seleccione **Aplicar**.
-
-Para exportar el informe a un archivo CSV para analizarlo sin conexión, en la esquina superior derecha, seleccione el icono **Exportar a Excel** (8) y, a continuación, en la pestaña **Descargas** , en **Estado**, seleccione **Descargar**.
-
-   :::image type="content" alt-text="Captura de pantalla del panel Descargas." source="media/app-usage-report7.png" lightbox="media/app-usage-report7.png":::
-
-Al ver el informe en Microsoft Excel, también verá una `Id` columna, que representa el id. de aplicación, normalmente una cadena alfanumérica. Si el valor del `Id` es **\n**, significa que un usuario pidió que se eliminara su información.
-
-   :::image type="content" source="media/app-usage-report8.png" alt-text="Captura de pantalla del informe de Excel descargado.":::
+Los identificadores de aplicación externos equivalen al identificador de la página Administrar aplicaciones de las aplicaciones de la Store. Para las aplicaciones de LOB, la columna **Id. de aplicación externa**  se puede habilitar en la [sección Administrar aplicaciones de](/microsoftteams/manage-apps) la configuración de la columna del Centro de administración de Teams. También puedes verlo en la página de detalles de la aplicación de una aplicación lob personalizada.
 
 ## <a name="related-articles"></a>Artículos relacionados
 

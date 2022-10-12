@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenga información detallada sobre las dimensiones y medidas que usa el Panel de calidad de llamadas para Microsoft Teams y Skype Empresarial Online.
-ms.openlocfilehash: 730dd2f127c50d89f97c49c921e6b954a6043f65
-ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
+ms.openlocfilehash: f90db84232e544a6317771bb553733e330df7ce7
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2022
-ms.locfileid: "68218064"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532280"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensiones y medidas disponibles en el Panel de calidad de llamadas (CQD)
 
@@ -135,7 +135,11 @@ En la tabla siguiente se enumeran las dimensiones disponibles actualmente en el 
 | Second OS Architecture  | Cadena  | Arquitectura de hardware que ha notificado el segundo punto de conexión. <br/> **Valor de ejemplo:** x64  | &bull; El punto de conexión no ha informado de esta información <br/>&bull; No se ha recibido el informe de este punto de conexión <br/>&bull; No se reconoció el formato de la arquitectura  |
 | First Virtualization Flag  | Enumeración <br/>**Valores posibles:** <br/> "0x00" = Ninguno  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = Virtual PC <br/> "0x08" = Xen PC | Marca que indica el tipo de entorno de virtualización que ha notificado el primer punto de conexión. | <br/>&bull; El punto de conexión no ha notificado ningún dato |
 | Second Virtualization Flag  | Enumeración <br/>**Valores posibles:** <br/> "0x00" = Ninguno  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = Virtual PC <br/> "0x08" = Xen PC | Marca que indica el tipo de entorno de virtualización que ha notificado el segundo punto de conexión.  | <br/>&bull; El punto de conexión no ha notificado ningún dato |
-|First Endpoint Make |String |El fabricante del dispositivo, la información se lee desde un campo EndpointMake del archivo de datos de extremo. | <br/>&bull; No hay archivo de datos para el punto de conexión |
+| First VTC Device Name | String | El nombre descriptivo del dispositivo VTC que ha usado el primer punto de conexión | <br/>&bull; El punto de conexión no ha notificado ningún dato <br/>&bull; El campo es EUII y han transcurrido 28 días |
+| Second VTC Device Name | String | El nombre descriptivo del dispositivo VTC que ha usado el segundo punto de conexión | <br/>&bull; El punto de conexión no ha notificado ningún dato <br/>&bull; El campo es EUII y han transcurrido 28 días |
+| First VTC Device Detail | String | La información de plataforma y versión del dispositivo VTC que ha usado el primer punto de conexión <br/> **Valor de ejemplo:** Tandberg, 529 | <br/>&bull; El punto de conexión no ha notificado ningún dato |
+| Second VTC Device Detail | String | La información de plataforma y versión del dispositivo VTC que ha usado el segundo punto de conexión <br/> **Valor de ejemplo:** Tandberg, 529 | <br/>&bull; El punto de conexión no ha notificado ningún dato |
+| First Endpoint Make |String |El fabricante del dispositivo, la información se lee desde un campo EndpointMake del archivo de datos de extremo. | <br/>&bull; No hay archivo de datos para el punto de conexión |
 | Primer modelo de punto de conexión |String|Modelo de dispositivo, la información se lee desde un campo EndpointModel del archivo de datos de extremo.| <br/>&bull; No hay archivo de datos para el punto de conexión |
 | First Endpoint Type|String|Tipo de dispositivo, la información se lee desde un campo EndpointType del archivo de datos de extremo.| <br/>&bull; No hay archivo de datos para el punto de conexión |
 | First Endpoint Label 1|String|Una etiqueta personalizable, la información se lee desde un archivo de datos de extremo.| <br/>&bull; No hay archivo de datos para el punto de conexión |

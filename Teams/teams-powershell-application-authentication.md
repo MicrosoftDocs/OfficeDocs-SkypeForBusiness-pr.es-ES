@@ -12,12 +12,12 @@ ms.collection:
 description: Obtenga más información sobre la autenticación basada en aplicaciones en el Módulo de PowerShell de Teams, usado para la administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dab0f32a6547db5522f00d4750f7eff26ea5995
-ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
+ms.openlocfilehash: 8dd4b230f7f22feb574463a96d4a4447bcf0cfb0
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2022
-ms.locfileid: "68218097"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532500"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Autenticación basada en aplicaciones en el módulo de PowerShell de Teams
 
@@ -95,7 +95,7 @@ El módulo PowerShell de Teams captura el token basado en la aplicación con el 
 
 Se requiere una incorporación inicial para la autenticación con objetos de aplicación. La entidad de servicio y la aplicación se usan indistintamente, pero una aplicación es como un objeto de clase mientras que una entidad de servicio es como una instancia de la clase. Puede obtener más información sobre estos objetos en [Objetos de entidad de servicio y aplicación en Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals).
 
-Los pasos de alto nivel para crear aplicaciones en Azure Ad se mencionan a continuación, para conocer los pasos detallados, consulte este [artículo](/azure/active-directory/develop/howto-create-service-principal-portal).
+Los pasos de ejemplo para crear aplicaciones en Azure Ad se mencionan a continuación, para conocer los pasos detallados, consulte este [artículo](/azure/active-directory/develop/howto-create-service-principal-portal).
 
 1. Registrar la aplicación en Azure AD
 2. Asignar permisos de API a la aplicación
@@ -103,7 +103,7 @@ Los pasos de alto nivel para crear aplicaciones en Azure Ad se mencionan a conti
    - Para cmdlets que no \*sean Cs: los permisos de Microsoft Graph API necesarios son `User.Read.All`, , `AppCatalog.ReadWrite.All``Group.ReadWrite.All`, `TeamSettings.ReadWrite.All`, `Channel.Delete.All`, `ChannelSettings.ReadWrite.All``ChannelMember.ReadWrite.All`.  
 3. Generar un certificado autofirmado
 4. Adjuntar el certificado a la aplicación de Azure AD
-5. Asignar roles de Azure AD a la aplicación
+5. Asignar [roles de Azure AD](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) a la aplicación
 
 La aplicación debe tener asignados los roles RBAC adecuados. Como las aplicaciones se aprovisionan en Azure AD, puede usar cualquiera de los roles integrados admitidos.
  

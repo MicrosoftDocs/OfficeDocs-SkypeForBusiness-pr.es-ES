@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Obtenga información sobre cómo preparar la infraestructura para implementar Salas de Microsoft Teams de modo que pueda aprovechar todas las características.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3f0224ebf0c6c8e0f21fe669bb8a92ff345b928b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7006f560c5d0991b74c14fc5eb0b13e829b642d9
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268955"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532230"
 ---
 # <a name="prepare-your-environment"></a>Preparar el entorno
 
@@ -65,7 +65,7 @@ Si su red se ejecuta mediante un proxy, necesitará también la dirección del p
   
 ### <a name="certificates"></a>Certificados
 
-El dispositivo de Salas de Microsoft Teams usa certificados para los servicios web de Exchange, Microsoft Teams o Skype for Business, el uso de red y la autenticación. Si los servidores relacionados usan certificados públicos, que es el caso para implementaciones en línea y algunas implementaciones locales, no debe haber ninguna acción adicional necesaria por parte del administrador para instalar certificados. Si, por otro lado, la entidad emisora de certificados es una CA privada, el dispositivo debe confiar en esa CA. Esto significa tener los certificados de cadena ca + CA instalados en el dispositivo. Al añadir el dispositivo al dominio, esta tarea se realiza de forma automática.
+Su dispositivo Salas de Microsoft Teams usa certificados para los servicios web de Exchange, Microsoft Teams o Skype Empresarial, el uso de la red y la autenticación. Si los servidores relacionados usan certificados públicos, que es el caso para implementaciones en línea y algunas implementaciones locales, no debe haber ninguna acción adicional necesaria por parte del administrador para instalar certificados. Si, por otro lado, la entidad emisora de certificados es una CA privada, el dispositivo debe confiar en esa CA. Esto significa tener los certificados de cadena ca + CA instalados en el dispositivo. Al añadir el dispositivo al dominio, esta tarea se realiza de forma automática.
   
 Los certificados se instalarán del mismo modo en que se instalarían para cualquier otro cliente de Windows. 
 
@@ -115,7 +115,7 @@ Salas de Microsoft Teams está diseñado para heredar la configuración de Proxy
     
 11. Nuevamente en la pantalla de inicio de sesión, elija el usuario de **Skype**. Si todos los pasos anteriores se realizaron correctamente, el dispositivo Salas de Microsoft Teams iniciará sesión correctamente.
     
-Consulte el artículo [seguridad de red](./security.md#network-security) para obtener información completa sobre los FQDN, puertos e intervalos de direcciones IP necesarios para Salas de Microsoft Teams.
+Consulte el artículo [seguridad de red](./security-windows.md#network-security) para obtener información completa sobre los FQDN, puertos e intervalos de direcciones IP necesarios para Salas de Microsoft Teams.
   
 ### <a name="admin-group-management"></a>Administración del grupo de administradores
 
@@ -128,7 +128,7 @@ Si elige unirse a un dominio (Azure Active Directory o Active Directory), puede 
 
 ### <a name="microsoft-teams-rooms-local-user-account"></a>Salas de Microsoft Teams cuenta de usuario local
 
-Salas de Teams incluye una cuenta local sin contraseñas denominada "Skype". Esta cuenta se usa para iniciar sesión en Windows para iniciar la aplicación de Salas de Teams. No se admite aplicar una contraseña a esta cuenta. Consulta [seguridad Salas de Microsoft Teams](security.md) para obtener más información.
+Salas de Teams incluye una cuenta local sin contraseñas denominada "Skype". Esta cuenta se usa para iniciar sesión en Windows para iniciar la aplicación de Salas de Teams. No se admite aplicar una contraseña a esta cuenta. Consulta [seguridad Salas de Microsoft Teams](security-windows.md) para obtener más información.
   
 ### <a name="admin---local-administrator-account"></a>"Administrador": cuenta de administrador local
 
@@ -139,7 +139,7 @@ Salas de Microsoft Teams contraseña predeterminada se establece en "sfb". La co
   
 La contraseña del administrador local no se incluye como opción durante la configuración.
 
-Puedes obtener más información sobre la cuenta de Administración en el artículo [seguridad de Salas de Microsoft Teams](security.md).
+Puedes obtener más información sobre la cuenta de Administración en el artículo [seguridad de Salas de Microsoft Teams](security-windows.md).
   
 ### <a name="machine-account"></a>Cuenta de equipo
 

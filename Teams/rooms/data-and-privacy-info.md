@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Información de datos y privacidad
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 5799288005a5d30152a6f810c0aa40d451198390
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 50806ffce468ac9add956d6942c2b3b2e5885125
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270305"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532470"
 ---
 # <a name="approach"></a>Enfoque
 
@@ -49,8 +49,6 @@ Servicios administrados mitiga los riesgos asociados con las cuentas con acceso 
 
 Microsoft se rige por normas estrictas para la transmisión, el almacenamiento, el uso y la retención de datos. Microsoft tiene directivas estándar de tratamiento de datos que regulan cómo deben tratarse los datos en función de la clasificación de los datos.
 
-
-
 ## <a name="technology-description"></a>Descripción de la tecnología
 
 Servicios administrados envía datos a Microsoft con el fin de supervisar, diagnosticar y mitigar cualquier problema de la implementación. Algunos ejemplos son
@@ -73,7 +71,7 @@ Los Servicios administrados no supervisan ni graban audio, vídeo, multimedia ni
  
 |Categoría|Detalles|Motivo de la consulta|
 | :- | :- | :- |
-|Recopilación y administración de datos continuos|Dirección IP, identidad de la cuenta de sala (Exchange, Skype for Business y/o Teams), coordenadas de ubicación, correos electrónicos y comunicación en el portal con Microsoft o software|Identificar y conectarse al sistema bajo gestión; identificar, diagnosticar y mitigar errores; realizar un seguimiento del uso, el análisis y la información; estado de conectividad de consulta y reparación|
+|Recopilación y administración de datos continuos|Dirección IP, identidad de la cuenta de sala (Exchange, Skype Empresarial y/o Teams), coordenadas de ubicación, correos electrónicos y comunicación en el portal con Microsoft o software|Identificar y conectarse al sistema bajo gestión; identificar, diagnosticar y mitigar errores; realizar un seguimiento del uso, el análisis y la información; estado de conectividad de consulta y reparación|
 |Administración y recopilación de datos ad hoc|Información de registro de eventos, actividad del usuario/identidad del usuario de la sala que ha iniciado sesión en el archivo de registro junto con información de diagnósticos, consultas del sistema de Windows (ejemplos: Lista de dispositivos USB, estado de energía, etc.)|Identificar, diagnosticar y mitigar errores y para uso, análisis e información|
 
 Determinados datos confidenciales del registro Actividad de dispositivo se des menoscaban localmente (no se recopilan mediante servicios administrados):
@@ -100,4 +98,8 @@ Servicios administrados proporciona soporte de residencia de datos regional a tr
 
 ## <a name="more-resources"></a>Más recursos
 
-Salas de Microsoft Teams Seguridad:/microsoftteams/rooms/security Declaración de privacidad de Microsoft: https://aka.ms/privacy Administración de datos en Microsoft: https://www.microsoft.com/trust-center/privacy/data-management Descripción del servicio De servicios administrados: [Servicio administrado por salas de Microsoft Teams](microsoft-teams-rooms-premium.md)
+Salas de Microsoft Teams para la seguridad de Windows: [[Microsoft Teams para seguridad de Windows](/microsoftteams/rooms/security-windows) \
+Salas de Microsoft Teams para la seguridad de Android: [Seguridad de Microsoft Teams para Android](/microsoftteams/rooms/security-android) \
+Declaración de privacidad de Microsoft: https://aka.ms/privacy \
+Administración de datos en Microsoft: https://www.microsoft.com/trust-center/privacy/data-management \
+Descripción del servicio de Servicios administrados: [Servicio administrado por salas de Microsoft Teams](microsoft-teams-rooms-premium.md)
