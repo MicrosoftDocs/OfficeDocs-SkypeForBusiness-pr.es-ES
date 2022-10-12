@@ -27,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo obtener y administrar números de teléfono de usuarios (suscriptores) y de servicio (de pago y gratuitos) para Microsoft Teams para su organización.
-ms.openlocfilehash: 613a3f5f287615c6e18024d1afba1d94d0fea67c
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 053d886a97591a6685582f0db0ca194eaa312896
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606749"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551894"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>Administrar los números de teléfono de su organización
 
@@ -54,7 +54,7 @@ La forma de adquirir y administrar los números de teléfono varía según la op
 
 - Para obtener información sobre la administración de números de teléfono para Operador De conexión, vea [Configurar números de teléfono con Operador de conexión](operator-connect-configure.md#set-up-phone-numbers).
 
-- Para obtener información sobre la administración de números de teléfono para Operador de conexión móvil (versión preliminar pública), vea [Configurar números de teléfono con Operador de conexión móvil](operator-connect-mobile-configure.md#set-up-phone-numbers).
+- Para obtener información sobre la administración de números de teléfono para Teams Phone Mobile, vea [Configurar números de teléfono con Teams Phone Mobile](operator-connect-mobile-configure.md#set-up-phone-numbers).
 
 - Para obtener información sobre la administración de números de teléfono para enrutamiento directo, vea [Configurar el número de teléfono y habilitar la voz empresarial](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 

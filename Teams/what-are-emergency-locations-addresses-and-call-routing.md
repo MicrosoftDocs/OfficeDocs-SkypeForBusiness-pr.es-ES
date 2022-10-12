@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Obtenga información sobre las llamadas de emergencia, incluida información sobre las direcciones de emergencia, el enrutamiento de llamadas de emergencia y las llamadas de emergencia dinámicas.
-ms.openlocfilehash: 2118bfd3f380ac5e5e2773f1f4ccdc703332893a
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 4cff6fee53d7799b8ef0ba721d0c50c8625017f5
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606569"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551824"
 ---
 # <a name="manage-emergency-calling"></a>Administrar las llamadas de emergencia
 
@@ -51,7 +51,7 @@ En este artículo se describen conceptos que debe conocer para administrar las l
 - **Dirección registrada** : una dirección de emergencia que se asigna a cada usuario. A veces, una dirección registrada se denomina dirección de emergencia estática o dirección de registro. (Actualmente, las direcciones registradas no son compatibles con el enrutamiento directo. Vuelve pronto para ver si hay actualizaciones).
 
 >[!Note]
->Hay algunas diferencias en la forma de administrar las llamadas de emergencia dependiendo de si usa planes de llamadas de Microsoft, Conexión de operadores, Operador de conexión móvil (versión preliminar pública) o enrutamiento directo para su [conectividad con RTC](pstn-connectivity.md). Estas consideraciones se describen en este artículo.
+>Hay algunas diferencias en la forma de administrar las llamadas de emergencia en función de si usa planes de llamadas de Microsoft, Conexión del operador, Teams Phone Mobile o enrutamiento directo para su [conectividad con RTC](pstn-connectivity.md). Estas consideraciones se describen en este artículo.
 
 ## <a name="emergency-address-validation"></a>Validación de dirección de emergencia
 
@@ -179,23 +179,21 @@ Cuando un usuario de Teams Operator Connect marca un número de emergencia, la m
 
 - Si un autor de la llamada de emergencia no puede actualizar su ubicación de emergencia al centro de detección, la llamada se transferirá al PSAP que sirva la dirección registrada del autor de la llamada.
 
-## <a name="considerations-for-operator-connect-mobile"></a>Consideraciones para Operador de conexión móvil
+## <a name="considerations-for-teams-phone-mobile"></a>Consideraciones para Teams Phone Mobile
 
-En las siguientes secciones se describe cómo administrar las llamadas de emergencia para los usuarios de Operador de conexión móvil. Para averiguar si Operador de conexión móvil es la solución adecuada para su empresa, consulte [Opciones de conectividad con RTC](pstn-connectivity.md).
+En las siguientes secciones se describe cómo administrar las llamadas de emergencia para los usuarios de Teams Phone Mobile. Para averiguar si Teams Phone Mobile es la solución adecuada para su empresa, consulte Opciones de [conectividad con RTC](pstn-connectivity.md).
 
-**Operador de conexión móvil es una versión preliminar pública.**
+### <a name="emergency-call-enablement-for-teams-phone-mobile"></a>Habilitación de llamadas de emergencia para Teams Phone Mobile
 
-### <a name="emergency-call-enablement-for-operator-connect-mobile"></a>Habilitación de llamadas de emergencia para Operador de conexión móvil
+Cada usuario de Teams Phone Mobile se habilita automáticamente para las llamadas de emergencia. Las llamadas de emergencia se redirigen automáticamente al operador de telefonía móvil de Teams Phone para un número determinado.
 
-Cada usuario Operador de conexión móvil se habilita automáticamente para las llamadas de emergencia. Las llamadas de emergencia se redirigen automáticamente al Operador de conexión móvil operador para un número determinado.
-
-La capacidad de un administrador de inquilinos para establecer la dirección registrada de un usuario Operador de conexión móvil dependerá de las capacidades asignadas al número cuando el operador las cargue en un inventario de clientes. En función de esta configuración, el administrador de inquilinos puede o no ser necesario (o no) para establecer, modificar o eliminar la ubicación de emergencia de un usuario.
+La posibilidad de que un administrador de inquilinos establezca la dirección registrada para un usuario de Teams Phone Mobile dependerá de las capacidades asignadas al número cuando el operador las cargue en un inventario de clientes. En función de esta configuración, el administrador de inquilinos puede o no ser necesario (o no) para establecer, modificar o eliminar la ubicación de emergencia de un usuario.
 
 Cuando las llamadas realizadas a través del marcador nativo del smartphone habilitado para SIM, el operador puede usar las coordenadas geográficas o la torre de telefonía móvil que gestiona la llamada a una ubicación aproximada de emergencia para obtener asistencia.
 
-### <a name="dynamic-emergency-calling-for-operator-connect-mobile"></a>Llamadas de emergencia dinámicas para Operador de conexión móvil
+### <a name="dynamic-emergency-calling-for-teams-phone-mobile"></a>Llamadas de emergencia dinámicas para Teams Phone Mobile
 
-Las llamadas de emergencia dinámicas de Operador Connect permiten configurar y enrutar llamadas de emergencia en función de la ubicación actual del cliente de Teams. La capacidad de realizar un enrutamiento automático al punto de respuesta de seguridad pública (PSAP) adecuado o de notificar al personal de escritorio de seguridad varía según el país de uso del usuario de Teams.
+Las llamadas de emergencia dinámicas para Teams Phone Mobile permiten configurar y enrutar llamadas de emergencia en función de la ubicación actual del cliente de Teams. La capacidad de realizar un enrutamiento automático al punto de respuesta de seguridad pública (PSAP) adecuado o de notificar al personal de escritorio de seguridad varía según el país de uso del usuario de Teams.
 
 La ubicación dinámica para enrutar llamadas de emergencia se admite en la Estados Unidos tal como se indica a continuación.
 
@@ -207,9 +205,9 @@ La ubicación dinámica para enrutar llamadas de emergencia es compatible en Can
 
 Para obtener más información, consulte [Planear y configurar llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md).
 
-### <a name="emergency-call-routing-for-operator-connect-mobile"></a>Enrutamiento de llamadas de emergencia para Operador de conexión móvil
+### <a name="emergency-call-routing-for-teams-phone-mobile"></a>Enrutamiento de llamadas de emergencia para Teams Phone Mobile
 
-Cuando un usuario de Teams Operador de conexión móvil marca un número de emergencia con un cliente de Microsoft Teams, la forma en que la llamada se enruta al PSAP depende de lo siguiente:
+Cuando un usuario de Teams Phone Mobile marca un número de emergencia con un cliente de Microsoft Teams, la forma en que la llamada se enruta al PSAP depende de lo siguiente:
 
 - Si el cliente de Teams determina dinámicamente la dirección de emergencia.
 

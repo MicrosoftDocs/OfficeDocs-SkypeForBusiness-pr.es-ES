@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo agregar, cambiar o quitar un lugar para una ubicación de emergencia de su organización.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 37ccf72868819c515a2f7320b112f81f31f65a34
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 5ddaaf2e6c173b6546d337ebfc9f23464a52233c
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606719"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551504"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
@@ -34,7 +34,7 @@ Sin embargo, en función de la opción de conectividad con RTC, la forma de admi
 
 En este artículo se describe cómo agregar, cambiar o quitar un *lugar* para una ubicación de emergencia de su organización.
 
-Este artículo se aplica a los planes de llamadas de Microsoft, a la conexión de operadores, a la Operador de conexión móvil (versión preliminar pública) y al enrutamiento directo.
+Este artículo se aplica a los planes de llamadas de Microsoft, a la conexión de operadores, al teléfono móvil de Teams y al enrutamiento directo.
 
 Puede administrar las ubicaciones de emergencia de su organización en el Centro de administración de Microsoft Teams o mediante PowerShell.
   

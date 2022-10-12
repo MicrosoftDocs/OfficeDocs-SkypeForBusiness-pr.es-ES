@@ -19,12 +19,12 @@ localization_priority: Normal
 f1.keywords:
 - CSH
 description: Planes de marcado y enrutamiento en Microsoft Teams
-ms.openlocfilehash: 89332b5e5756bc33c92a67b641bab85b826bfe70
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 3fc29dc27f1f3863ed313b75c8ef977cd27a6231
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606789"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551904"
 ---
 # <a name="overview"></a>Información general
 
@@ -34,9 +34,9 @@ En los artículos de esta sección se describen los planes de marcado y el enrut
 - [Crear y administrar planes de marcado](create-and-manage-dial-plans.md)
 - [Enrutar llamadas a adormecedores sin asignar](routing-calls-to-unassigned-numbers.md)
 
-Los artículos de esta sección se aplican a todas las opciones de conexión a la red telefónica conmutada (RTC): Plan de llamadas, Conexión del operador, Operador de conexión móvil (versión preliminar pública) y Enrutamiento directo. Para obtener más información sobre todas las opciones de conectividad de RTC, vea [Opciones de conectividad de RTC](pstn-connectivity.md).
+Los artículos de esta sección se aplican a todas las opciones de conexión a la red telefónica conmutada (RTC): Plan de llamadas, Conexión de operadores, Teléfono móvil de Teams y Enrutamiento directo. Para obtener más información sobre todas las opciones de conectividad de RTC, vea [Opciones de conectividad de RTC](pstn-connectivity.md).
 
-Si elige Plan de llamadas, Conexión de operadores o Operador de conexión móvil, la mayor parte del enrutamiento de llamadas la controla Microsoft o su proveedor. Sin embargo, el enrutamiento directo requiere pasos adicionales para configurar el enrutamiento de llamadas. 
+Si elige Plan de llamadas, Conexión de operadores o Teams Phone Mobile, la mayor parte del enrutamiento de llamadas la gestiona Microsoft o su proveedor. Sin embargo, el enrutamiento directo requiere pasos adicionales para configurar el enrutamiento de llamadas. 
 
 Para el enrutamiento directo, debe configurar el enrutamiento de llamadas especificando las rutas de voz y asignando directivas de enrutamiento de voz a los usuarios. Puede configurar planes de marcado para la traducción de números en el nivel troncal para garantizar la interoperabilidad con los controladores de borde de sesión (SFC). Para obtener más información, vea [Configurar el enrutamiento de voz para enrutamiento directo](direct-routing-voice-routing.md), [Administrar directivas de enrutamiento de voz](manage-voice-routing-policies.md) y [Traducir números de teléfono](direct-routing-translate-numbers.md).
 

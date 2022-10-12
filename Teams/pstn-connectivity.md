@@ -25,12 +25,12 @@ search.appverid: MET150
 description: Obtenga más información sobre las opciones de llamadas de Teams (conectividad RTC) y las decisiones que tome para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f547528f39e92be1660f670cad44c66726fe3ef2
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: 974418a6a1cf963b66b1f0a8667c5ed75b73f72b
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999645"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551704"
 ---
 # <a name="pstn-connectivity-options"></a>Opciones de conectividad con RTC
 
@@ -44,7 +44,7 @@ Para conectar El sistema telefónico a la RTC, puede elegir entre las siguientes
 
 - [**Operador Conectar**](#phone-system-with-operator-connect). Con Operador Connect, si su operador actual participa en el programa Microsoft Operator Connect, puede administrar las llamadas RTC y los controladores de borde de sesión (SCS).
 
-- [**Operador de conexión móvil**](#phone-system-with-operator-connect-mobile). Con Operador de conexión móvil, el número de teléfono habilitado para SIM de un usuario también es su número de teléfono de Teams. Si su operador actual participa en el programa microsoft Operador de conexión móvil, puede administrar el servicio para llevar las llamadas RTC a Teams.  **Operador de conexión móvil es una versión preliminar pública.**
+- [**Teams Phone Mobile**](#phone-system-with-teams-phone-mobile). Con Teléfono Microsoft Teams Mobile, el número de teléfono habilitado para SIM de un usuario también es su número de teléfono de Teams. Si su operador actual participa en el programa Teléfono Microsoft Teams Mobile, puede administrar el servicio para llevar las llamadas RTC a Teams.  
 
 - [**Enrutamiento directo**](#phone-system-with-direct-routing), que le permite usar su propio operador RTC conectando los controladores de borde de sesión (SBC) con el sistema telefónico.
 
@@ -93,21 +93,19 @@ Operator Connect podría ser la solución adecuada para su organización si:
 
 Para obtener información sobre las ventajas y requisitos de Operator Connect, así como para obtener una lista de los operadores que participan en este programa, consulte [Planificar Operador Connect](operator-connect-plan.md). Para obtener información sobre cómo configurar Operator Connect, consulta [Configurar Operator Connect](operator-connect-configure.md).
 
-## <a name="phone-system-with-operator-connect-mobile"></a>Sistema telefónico con Operador de conexión móvil
+## <a name="phone-system-with-teams-phone-mobile"></a>Sistema telefónico con Teams Phone Mobile
 
-**Operador de conexión móvil es una versión preliminar pública.**
+Si su operador actual participa en el programa Teléfono Microsoft Teams Mobile, puede administrar el servicio para llevar las llamadas RTC a Teams. Con Teams Phone Mobile, el número de teléfono habilitado para SIM de un usuario también es su número de teléfono de Teams.  Los usuarios pueden usar un solo número de teléfono en Microsoft Teams, tanto en el servicio móvil como en el escritorio.  
 
-Si su operador actual participa en el programa microsoft Operador de conexión móvil, puede administrar el servicio para llevar las llamadas RTC a Teams. Con Operador de conexión móvil, el número de teléfono habilitado para SIM de un usuario también es su número de teléfono de Teams.  Los usuarios pueden usar un solo número de teléfono en Microsoft Teams, tanto en el servicio móvil como en el escritorio.  
+Puede considerar una combinación de servicios. Por ejemplo, puede elegir Teams Phone Mobile para las organizaciones de ventas y de campo que requieren soporte técnico móvil, pero otra solución para su organización del centro de llamadas in situ que se base en teléfonos de escritorio. 
 
-Puede considerar una combinación de servicios. Por ejemplo, puede elegir Operador de conexión móvil para las organizaciones de ventas y de campo que requieren soporte técnico móvil, pero otra solución para su organización del centro de llamadas in situ que se base en teléfonos de escritorio. 
-
-Operador de conexión móvil puede ser la solución adecuada para su organización si:
+Teams Phone Mobile podría ser la solución adecuada para su organización si:
 
 - Desea usar un número de teléfono móvil principal habilitado para SIM propiedad de la empresa para Teams Phone como una solución de número único.
-- Su operador preferido es un participante en el programa microsoft Operador de conexión móvil.
+- Su operador preferido es un participante en el programa Teléfono Microsoft Teams Mobile.
 - Desea buscar un nuevo operador para habilitar las llamadas en Teams.
 
-Para obtener información sobre los beneficios y requisitos de Operador de conexión móvil, y para obtener vínculos a operadores que participan en este programa, consulte [Planear Operador de conexión móvil](operator-connect-mobile-plan.md). Para obtener información sobre cómo configurar Operador de conexión móvil, vea [Configurar Operador de conexión móvil](operator-connect-mobile-configure.md).
+Para obtener información sobre las ventajas y requisitos de Teams Phone Mobile, así como vínculos a operadores que participan en este programa, consulte [Planear Teams Phone Mobile](operator-connect-mobile-plan.md). Para obtener información sobre cómo configurar Teams Phone Mobile, consulte [Configurar Teams Phone Mobile](operator-connect-mobile-configure.md).
 
 ## <a name="phone-system-with-direct-routing"></a>Sistema telefónico con enrutamiento directo
 
@@ -161,7 +159,7 @@ En la tabla siguiente se resaltan las diferencias de configuración principales.
 | :------------| :-------| :-------| :-------| :-------| 
 | Planes de llamadas | -Microsoft actúa como operador de RTC.<br>-No es necesario comprar ni administrar SBCs.| Obtenido a través de Microsoft.| - Administrado por Microsoft. <br> -Administración configura los planes de marcado del usuario para la traducción de números. | -Habilitado por Microsoft. <br> -Administración registra direcciones. <br> -Llamadas dinámicas admitidas. |
 | Operator Connect | -Carrier administra la conectividad RTC y los SBA. <br> -No es necesario comprar ni administrar SBCs. | -Obtenido a través del transportista. <br> - Números asociados a direcciones de emergencia administradas por el transportista. | -Administrado por el transportista. <br>-Administración configura los planes de marcado del usuario para la traducción de números. | -Habilitado por el operador. <br> -Administración registra direcciones. <br> -Llamadas dinámicas admitidas. |
-| Operador de conexión móvil | -Carrier administra SIM-Enabled número móvil, conectividad CON RTC y SBCs. <br> -No es necesario comprar ni administrar SBCs. | -Obtenido a través del transportista. <br> -Números asociados a direcciones de emergencia administradas por el operador. | -Administrado por el transportista. <br> Administración configura los planes de marcado del usuario para la traducción de números. |- Habilitado por el operador. <br> - Administración registra direcciones. <br> - Llamadas dinámicas admitidas. <br> - Operador compatible Llamadas de emergencia con marcador nativo. |
+| Teams Phone Mobile | -Carrier administra SIM-Enabled número móvil, conectividad CON RTC y SBCs. <br> -No es necesario comprar ni administrar SBCs. | -Obtenido a través del transportista. <br> -Números asociados a direcciones de emergencia administradas por el operador. | -Administrado por el transportista. <br> Administración configura los planes de marcado del usuario para la traducción de números. |- Habilitado por el operador. <br> - Administración registra direcciones. <br> - Llamadas dinámicas admitidas. <br> - Operador compatible Llamadas de emergencia con marcador nativo. |
 | Enrutamiento directo | -Requiere SBC certificado comprado a un proveedor de terceros.<br>-Conecta tu SBC al sistema telefónico.<br> -Use su operador DE RTC existente. | Obtenido a través del transportista. | -Requiere configuración adicional por parte del administrador.<br>-Administración configura los planes de marcado troncal para la traducción de números. <br>-LBR disponible para restringir la omisión de pago. | -Requiere configuración adicional por parte del administrador. <br>-Direcciones registradas no admitidas. <br>-Llamada dinámica compatible, pero requiere configuración adicional. |
 
 
@@ -181,7 +179,7 @@ La forma de adquirir y administrar números de teléfono varía según la opció
 
 - Para obtener información sobre la administración de números de teléfono con Operador de conexión, consulta [Configurar números de teléfono con Operador conectar](operator-connect-configure.md#set-up-phone-numbers).
 
-- Para obtener información sobre cómo administrar números de teléfono con Operador de conexión móvil, vea [Configurar números de teléfono con Operador de conexión móvil](operator-connect-mobile-configure.md#set-up-phone-numbers).
+- Para obtener información sobre cómo administrar números de teléfono con Teams Phone Mobile, vea [Configurar números de teléfono con Teams Phone Mobile](operator-connect-mobile-configure.md#set-up-phone-numbers).
 
 - Para obtener información sobre la administración de números de teléfono para enrutamiento directo, vea [Configurar el número de teléfono y habilitar la voz empresarial](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
@@ -191,7 +189,7 @@ La forma de configurar el enrutamiento de llamadas varía según la opción de c
 
 - Para los planes de llamadas, la mayor parte del enrutamiento de llamadas se controla mediante la infraestructura del plan de llamadas de Microsoft. Los planes de marcado de usuario se configuran para la traducción de números para la autorización de llamadas y el enrutamiento de llamadas. Para obtener más información, consulte [¿Qué son los planes de marcado?](what-are-dial-plans.md).
 
-- Para los Operador de conexión móvil y La conexión de operadores, la mayor parte del enrutamiento de llamadas lo administra el operador. Los planes de marcado de usuario se configuran para la traducción de números para la autorización de llamadas y el enrutamiento de llamadas. Para obtener más información, consulte [¿Qué son los planes de marcado?](what-are-dial-plans.md).
+- Para Operador Connect y Teams Phone Mobile, el operador administra la mayor parte del enrutamiento de llamadas. Los planes de marcado de usuario se configuran para la traducción de números para la autorización de llamadas y el enrutamiento de llamadas. Para obtener más información, consulte [¿Qué son los planes de marcado?](what-are-dial-plans.md).
 
 - Para el enrutamiento directo, debe configurar el enrutamiento de llamadas especificando las rutas de voz y asignando directivas de enrutamiento de voz a los usuarios. Puede configurar planes de marcado para la traducción de números en el nivel troncal para garantizar la interoperabilidad con los controladores de borde de sesión (SFC). Para obtener más información, vea [Configurar el enrutamiento de voz para enrutamiento directo](direct-routing-voice-routing.md), [Administrar directivas de enrutamiento de voz](manage-voice-routing-policies.md) y [Traducir números de teléfono](direct-routing-translate-numbers.md). 
 
@@ -213,7 +211,7 @@ La forma de configurar las llamadas de emergencia varía según la opción de co
 
 - Para Operator Connect, cada usuario se habilita automáticamente para las llamadas de emergencia. Se requiere que el usuario tenga una dirección de emergencia registrada asociada a su número de teléfono asignado. Se admite llamadas de emergencia dinámicas (en función de la ubicación del cliente de Teams). Para obtener más información, consulta [Consideraciones sobre la conexión de operadores](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect). 
 
-- Por Operador de conexión móvil, cada usuario se habilita automáticamente para las llamadas de emergencia. Las llamadas de emergencia se redirigen automáticamente al Operador de conexión móvil operador para un número determinado. Se admite llamadas de emergencia dinámicas (en función de la ubicación del cliente de Teams). Para obtener más información, vea [Consideraciones para Operador de conexión móvil](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect-mobile). 
+- Para Teams Phone Mobile, cada usuario está habilitado automáticamente para las llamadas de emergencia. Las llamadas de emergencia se redirigen automáticamente al operador de telefonía móvil de Teams Phone para un número determinado. Se admite llamadas de emergencia dinámicas (en función de la ubicación del cliente de Teams). Para obtener más información, consulte [Consideraciones para Teams Phone Mobile](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-teams-phone-mobile). 
 
 - Para el enrutamiento directo, debe definir directivas de llamadas de emergencia para los usuarios mediante una directiva de enrutamiento de llamadas de emergencia de Teams (TeamsEmergencyCallRoutingPolicy). La directiva definirá los números de emergencia y su destino de enrutamiento asociado. Las ubicaciones de emergencia registradas no son compatibles con los usuarios de enrutamiento directo. Para las llamadas de emergencia dinámicas, es necesaria una configuración adicional para enrutar llamadas de emergencia y posiblemente para la conectividad de socios. Para obtener más información, vea [Consideraciones para el enrutamiento directo](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing).
 

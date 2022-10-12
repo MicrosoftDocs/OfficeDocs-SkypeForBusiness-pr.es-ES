@@ -25,12 +25,12 @@ search.appverid: MET150
 description: Obtenga más información sobre las características de voz en la nube de Microsoft Teams y las decisiones de implementación que tome para su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1ba61d1ccbaeda26834b31a321aebfccbe23243
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: a159a6e2c5f532205c8e0cdadf744a2e6e6f3c0a
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999355"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551674"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planear la solución de voz de Teams
 
@@ -50,7 +50,7 @@ Sin embargo, su situación puede ser más compleja. Por ejemplo, es posible que 
 
 - Sistema telefónico con plan de llamadas
 - Sistema telefónico con tu propio operador RTC con Operador Connect
-- Sistema telefónico con su propio operador móvil RTC con Operador de conexión móvil (versión preliminar pública)
+- Sistema telefónico con su propio operador móvil RTC con Teams Phone Mobile 
 - Sistema telefónico con su propio operador RTC con enrutamiento directo
 - Una solución combinada que usa sistema telefónico con plan de llamadas, sistema telefónico con conexión de operador y/o sistema telefónico con enrutamiento directo
 
@@ -154,7 +154,7 @@ Sistema telefónico proporciona funcionalidades PBX completas para su organizaci
 
 - [**Sistema telefónico con su propio operador RTC mediante operador Connect**](operator-connect-plan.md). Con Operador Connect, si su operador existente participa en el programa Microsoft Operator Connect, podrá administrar el servicio para llevar las llamadas RTC a Teams. 
 
-- [**Sistema telefónico con su propio operador de telefonía móvil RTC mediante Operador de conexión móvil**](operator-connect-mobile-plan.md) **versión de revisión pública**. Con Operador de conexión móvil, si su operador actual participa en el programa microsoft Operador de conexión móvil, podrá administrar el servicio para usar números de teléfono móviles habilitados para SIM con Teams. 
+- [**Sistema telefónico con su propio operador de telefonía móvil RTC con Teams Phone Mobile**](operator-connect-mobile-plan.md). Con Teams Phone Mobile, si su operador actual participa en el programa Teléfono Microsoft Teams Mobile, puede administrar el servicio para usar números de teléfono móviles habilitados para SIM con Teams. 
 
 - [**Sistema telefónico con su propio operador de RTC mediante el enrutamiento directo**](pstn-connectivity.md#phone-system-with-direct-routing) para conectar su entorno local a Teams.
 

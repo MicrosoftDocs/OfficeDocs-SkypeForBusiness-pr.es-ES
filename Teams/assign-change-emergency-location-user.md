@@ -18,22 +18,22 @@ f1.keywords:
 - NOCSH
 description: En este artículo, obtendrá información sobre cómo asignar o cambiar una ubicación de emergencia para los usuarios de su organización.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2562661a08c98c15a24a5e7db6a0f31dee864573
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: a43ca031b8787d62639e141c3f733acdb402f85a
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606609"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551656"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Asignar o cambiar la ubicación de emergencia de un usuario
 
-Independientemente de la [opción de conectividad con RTC](pstn-connectivity.md), elija&mdash;Planes de llamadas de Microsoft, Conexión de operadores, Operador de conexión móvil (versión preliminar pública) o Enrutamiento&mdash;directo, debe asignar una ubicación de emergencia a cada número de teléfono o usuario.
+Independientemente de la [opción de conectividad con RTC](pstn-connectivity.md) , elija&mdash;Planes de llamadas de Microsoft, Conexión de operadores, Teams Phone Mobile o Enrutamiento&mdash;directo, es necesario asignar una ubicación de emergencia a cada número de teléfono o usuario.
 
 Sin embargo, en función de la opción de conectividad con RTC, la forma de administrar y asignar ubicaciones de emergencia a un usuario puede variar. Para obtener más información, consulte [Administrar llamadas de emergencia](what-are-emergency-locations-addresses-and-call-routing.md).
 
 En este artículo se describe cómo asignar o cambiar una ubicación de emergencia a un usuario. 
 
-Este artículo se aplica a los planes de llamadas, a la conexión de operadores y a Operador de conexión móvil (versión preliminar pública).
+Este artículo se aplica a los planes de llamadas, a la conexión de operadores y al teléfono móvil de Teams.
   
 Puede asignar o cambiar una ubicación de emergencia para un usuario en el Centro de administración de Microsoft Teams o mediante PowerShell.
 

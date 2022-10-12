@@ -23,20 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 - seo-marvel-mar2020
 description: Obtenga información sobre el número de números de teléfono que puede obtener en Microsoft Teams en función del tipo de número y el número de licencias que tenga.
-ms.openlocfilehash: 60645f0216e801d2c8ba90af235835e4928f5793
-ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
+ms.openlocfilehash: fc51e28af7ae919d0fae9cad344e23271baa24c5
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67732329"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551694"
 ---
 # <a name="how-many-telephone-numbers-can-you-get"></a>¿Cuántos números de teléfono puede obtener?
 
 Cuando busque y obtenga números de teléfono proporcionados por Microsoft para su organización, puede obtener más números de teléfono de los que tiene asignadas las licencias. Pero esto depende de los tipos de números de teléfono y tipos de licencias que haya comprado y asignado.
 
-La forma de adquirir y administrar los números de teléfono varía según la opción de conectividad con RTC: Planes de llamadas de Microsoft, Operador Connect, Operador de conexión móvil (versión preliminar pública) o Enrutamiento directo. Para obtener más información, vea [Administrar números de teléfono para su organización](manage-phone-numbers-landing-page.md).
+La forma de adquirir y administrar los números de teléfono varía según la opción de conectividad con RTC: Planes de llamadas de Microsoft, Operador Connect, Teams Phone Mobile o Enrutamiento directo. Para obtener más información, vea [Administrar números de teléfono para su organización](manage-phone-numbers-landing-page.md).
 
-La tabla siguiente se aplica a los planes de llamadas de Microsoft, [a las audioconferencias](deploy-audio-conferencing-teams-landing-page.md) y a las aplicaciones de voz, como [las colas de llamadas y los operadores automáticos](plan-auto-attendant-call-queue.md). Para obtener información sobre La conexión del operador, Operador de conexión móvil o enrutamiento directo, póngase en contacto con su proveedor de servicios.
+La tabla siguiente se aplica a los planes de llamadas de Microsoft, [a las audioconferencias](deploy-audio-conferencing-teams-landing-page.md) y a las aplicaciones de voz, como [las colas de llamadas y los operadores automáticos](plan-auto-attendant-call-queue.md). Para obtener información sobre Operator Connect, Teams Phone Mobile o Direct Routing, póngase en contacto con su proveedor de servicios.
 
 Puede ver la cantidad de números de teléfono que puede obtener de Microsoft durante el proceso de búsqueda y adquisición en el Centro de administración de Microsoft Teams (**Obtener números de teléfono**).
 

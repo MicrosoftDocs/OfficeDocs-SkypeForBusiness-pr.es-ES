@@ -18,16 +18,16 @@ description: Aprenda a configurar los planes de llamadas de Microsoft y la carac
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9109f26abc953fd131e96440bd62d147cac8114f
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 9c990473a185f4f1a42a5c046b11548892e6df4b
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606039"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551634"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
-Las llamadas de emergencia dinámicas para planes de llamadas de Microsoft, Conexión de operadores, Operador de conexión móvil (versión preliminar pública) y enrutamiento directo proporcionan la capacidad de configurar y enrutar llamadas de emergencia y notificar al personal de seguridad en función de la ubicación actual del cliente de Teams.  
+Las llamadas de emergencia dinámicas para los planes de llamadas de Microsoft, Operador Connect, Teams Phone Mobile y Enrutamiento directo proporcionan la capacidad de configurar y enrutar llamadas de emergencia y notificar al personal de seguridad en función de la ubicación actual del cliente de Teams.  
 
 En función de la topología de red (elementos de red asociados a direcciones de emergencia) que defina el administrador de inquilinos, el cliente de Teams proporciona información de conectividad de red en una solicitud al Servicio de información de ubicación (LIS). Si hay una coincidencia, LIS devuelve una ubicación al cliente.
 
@@ -51,7 +51,7 @@ Para las llamadas de emergencia dinámicas, debe ocurrir lo siguiente:
 
 La capacidad de realizar el enrutamiento automático al punto de respuesta de seguridad pública (PSAP) adecuado varía según el país de uso del usuario de Teams.
 
-Los planes de llamadas de Microsoft, los partners Operator Connect y los asociados de Operador de conexión móvil incluyen servicios dinámicos de enrutamiento de emergencia para los usuarios de la Estados Unidos y Canadá.
+Los planes de llamadas de Microsoft, los partners Operator Connect y Teams Phone Mobile incluyen servicios dinámicos de enrutamiento de emergencia para los usuarios de la Estados Unidos y Canadá.
 
 Sin embargo, para el enrutamiento directo, se requiere configuración adicional para enrutar llamadas de emergencia y posiblemente para la conectividad de asociados. El administrador debe asegurarse de que la puerta de enlace RTC que enruta la llamada de emergencia se ha configurado para agregar información de ubicación a la INVITACIÓN saliente (estableciendo el parámetro PidfloSupported en True en el objeto de puerta de enlace RTC en línea. Además, el administrador debe configurar la conexión a un proveedor del Servicio de enrutamiento de emergencia (ERS) (Estados Unidos y Canadá) **O** configurar el Controlador de borde de sesión (SBC) para una aplicación de número de identificación de ubicación de emergencia (ELIN). Para obtener información sobre los proveedores de ERS, consulte [Controladores de borde de sesión certificados para enrutamiento directo](direct-routing-border-controllers.md).
 
@@ -105,7 +105,7 @@ Puede asignar las direcciones de emergencia de la siguiente manera:
 
 - A usuarios del plan de llamadas.
 
-- To Operator Connect and Operador de conexión móvil los usuarios&mdash;en función de las capacidades asignadas al número cuando el operador los cargue en el inventario de un cliente.
+- To Operator Connect and Teams Phone Mobile userspending&mdash;on the capabilities assigned to the number when the carrier uploads them into a customer's inventory.
 
 - A los identificadores de red necesarios para obtener dinámicamente una ubicación. 
 
@@ -144,7 +144,7 @@ Tenga en cuenta que algunos cambios en la configuración de red (como una nueva 
 
 
 
-**Para los usuarios de Plan de llamadas, Operador Connect y Operador de conexión móvil:**
+**Para los usuarios de Plan de llamadas, Operador Conectar y Teléfono móvil de Teams:**
 
 - Si se requiere una configuración dinámica de notificación del departamento de seguridad, debe configurar tanto las direcciones IP de confianza como los sitios de red.
 
@@ -191,13 +191,13 @@ Use las siguientes directivas para configurar las llamadas de emergencia. Puede 
 
 - **Directiva de enrutamiento de llamadas de emergencia: se aplica solo al enrutamiento directo**. Esta directiva configura los números de emergencia, las máscaras por número si lo desea y la ruta RTC por número. Puede asignar esta directiva a los usuarios, a sitios de red o a ambos. Para obtener más información, consulte [Administrar directivas de enrutamiento de llamadas de emergencia para enrutamiento directo](manage-emergency-call-routing-policies.md).  
 
-   (Plan de llamadas, Operador Connect y Operador de conexión móvil los usuarios están habilitados automáticamente para las llamadas de emergencia con los números de emergencia del país en función de su ubicación de uso de Microsoft 365 o Office 365).
+   (Los usuarios de Plan de llamadas, Operador Connect y Teléfono móvil de Teams están habilitados automáticamente para las llamadas de emergencia con los números de emergencia del país en función de su ubicación de uso de Microsoft 365 o Office 365).
 
-- **Directiva de llamadas de emergencia: se aplica a los planes de llamadas, a la conexión de operadores, a la Operador de conexión móvil y al enrutamiento directo.** Esta directiva configura la experiencia de notificación del departamento de seguridad cuando se realiza una llamada de emergencia. Puede establecer a quién notificar y cómo se le notifica. Por ejemplo, para notificar automáticamente al departamento de seguridad de su organización y pedirles que escuchen las llamadas de emergencia.  Esta directiva se puede asignar a usuarios o sitios de red o a ambos. Para obtener más información, consulte [Administrar directivas de llamadas de emergencia en Teams](manage-emergency-calling-policies.md).
+- **Directiva de llamadas de emergencia: se aplica a los planes de llamadas, a la conexión de operadores, a Teams Phone Mobile y al enrutamiento directo.** Esta directiva configura la experiencia de notificación del departamento de seguridad cuando se realiza una llamada de emergencia. Puede establecer a quién notificar y cómo se le notifica. Por ejemplo, para notificar automáticamente al departamento de seguridad de su organización y pedirles que escuchen las llamadas de emergencia.  Esta directiva se puede asignar a usuarios o sitios de red o a ambos. Para obtener más información, consulte [Administrar directivas de llamadas de emergencia en Teams](manage-emergency-calling-policies.md).
 
 ## <a name="enable-users-and-sites"></a>Habilitar usuarios y sitios
 
-Puede asignar directivas de enrutamiento de llamadas de emergencia y directivas de llamadas de emergencia a usuarios y sitios. Tenga en cuenta que las directivas de enrutamiento de llamadas de emergencia solo se aplican al enrutamiento directo. (Aunque es posible asignar esta directiva a un plan de llamadas, a un operador Connect o a Operador de conexión móvil usuario, la directiva no tendrá ningún efecto).
+Puede asignar directivas de enrutamiento de llamadas de emergencia y directivas de llamadas de emergencia a usuarios y sitios. Tenga en cuenta que las directivas de enrutamiento de llamadas de emergencia solo se aplican al enrutamiento directo. (Aunque es posible asignar esta directiva a un plan de llamadas, a un operador conectado o a un usuario de Teams Phone Mobile, la directiva no tendrá ningún efecto).
 
 Asigne directivas en el Centro de administración de Microsoft Teams o con PowerShell. Para más información, vea:
 
@@ -236,7 +236,7 @@ Si asignó una directiva de llamadas de emergencia a un sitio de red y a un usua
 
 Algunos proveedores de servicios de enrutamiento de emergencia (ERSP) de la Estados Unidos ofrecen un bot de prueba de llamadas de emergencia.
 
-- **Los usuarios de Plan de llamadas, Operador Connect y Operador de conexión móvil de la Estados Unidos o Canadá** pueden usar el número de emergencia de prueba predefinido 933 para validar su configuración de llamadas de emergencia. Este número se redirige a un bot, lo que devuelve el número de teléfono del autor de la llamada (identificador de línea de llamada), la dirección de emergencia o la ubicación, y si la llamada se enrutaría automáticamente al PSAP o se realizaría primero una pantalla.
+- **Los usuarios de Plan de llamadas, Operator Connect y Teams Phone Mobile de la Estados Unidos o Canadá** pueden usar el número de emergencia de prueba predefinido 933 para validar su configuración de llamadas de emergencia. Este número se redirige a un bot, lo que devuelve el número de teléfono del autor de la llamada (identificador de línea de llamada), la dirección de emergencia o la ubicación, y si la llamada se enrutaría automáticamente al PSAP o se realizaría primero una pantalla.
 
 - **Los clientes de enrutamiento directo de la Estados Unidos** deben coordinarse con su ERSP para obtener un servicio de prueba.
 

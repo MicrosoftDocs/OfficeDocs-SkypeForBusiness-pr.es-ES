@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 keywords: ''
-ms.openlocfilehash: 33b55bfbff72cb2ddcd79b9620b2051ae0bd52fb
-ms.sourcegitcommit: 957502f999512a32794a9f99e292588d66ed8a33
+ms.openlocfilehash: dec612dd21ba72f984251db3e479040d41070ddc
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "67885624"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551814"
 ---
 # <a name="step-4---select-devices-that-enable-your-space-for-hybrid-meetings"></a>Paso 4: Seleccionar dispositivos que habiliten el espacio para reuniones híbridas
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="Audiencia visual de audio" border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="Y público profesional" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="de TI Audiencia de instalaciones" border="false":::
 
-Los dispositivos que elija para su espacio Salas de Teams dependen del diseño y el presupuesto de su habitación. Este artículo le ayudará a comprender qué dispositivos necesita para crear su espacio de Salas de Teams, consideraciones para ayudarle a elegir lo que es adecuado para usted y dispositivos de ejemplo para que pueda ver qué opciones están disponibles.
+Los dispositivos que elija para su Salas de Microsoft Teams tradicional o el espacio del Salas de Microsoft Teams Signature dependen del diseño y el presupuesto de su habitación. Este artículo le ayudará a comprender qué dispositivos necesita para crear su espacio de Salas de Teams, consideraciones para ayudarle a elegir lo que es adecuado para usted y dispositivos de ejemplo para que pueda ver qué opciones están disponibles.
 
 Como mínimo, necesita cada una de las siguientes opciones:
 
@@ -164,9 +164,9 @@ Los siguientes son ejemplos de sistemas de audio para Salas de Teams:
 - [Solución de sobremesa cableada Yamaha ADECIA](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yamaha-adecia-wired-tabletop-solution/1049)
 - [Audio de sala media biamplificador con micrófono de techo Parlé](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-medium-room-audio-with-parle-ceiling-mic/584)
 
-# <a name="hybrid-optimized"></a>[Optimizado para la implementación híbrida](#tab/hybrid)
+# <a name="signature-teams-rooms"></a>[Salas de Teams de firma](#tab/signature)
 
-## <a name="touchscreen-console-and-compute-module"></a>Consola de pantalla táctil y módulo de cálculo
+## <a name="signature-teams-rooms-touchscreen-consoles-and-compute-modules"></a>Signature Salas de Teams consolas con pantalla táctil y módulos de cálculo
 
 La consola de pantalla táctil es el dispositivo con el que interactúan los usuarios al unirse a una reunión y administrarla. El módulo de cálculo es el cerebro de la sala de Teams y ejecuta Windows 10 Enterprise IoT.
 
@@ -183,11 +183,11 @@ Los siguientes son ejemplos de consola de pantalla táctil y paquetes de módulo
 - [Lenovo ThinkSmart Core + Controlador](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
 - [Logitech Tap](https://www.logitech.com/products/video-conferencing/room-solutions/tap.939-001950.html)
 
-## <a name="hybrid-optimized-displays"></a>Pantallas optimizadas para híbridos
+## <a name="signature-teams-rooms-displays"></a>Se muestra el Salas de Teams de firma
 
 Las pantallas dan vida a tu contenido y pueden ser un televisor de pantalla plana de gran tamaño o un proyector que se proyecta en una pantalla. Puede tener una sola pantalla que tenga el contenido y las fuentes de vídeo combinadas, o puede configurar pantallas duales con contenido en una pantalla y fuentes de vídeo en la otra. Una de las pantallas puede incluso estar habilitada para entrada táctil para entradas de lápiz interactivas.
 
-:::image type="content" source="media/hybrid-optimized-display.png" alt-text="Salas de Teams que muestra la primera fila, el chat y las notas.":::
+:::image type="content" source="media/signature-teams-rooms-display.png" alt-text="Salas de Teams de firma que muestra la primera fila, el chat y las notas.":::
 
 
 ### <a name="display-type"></a>Tipo de pantalla
@@ -202,15 +202,15 @@ Entre los tipos de visualización de ejemplo se incluyen los siguientes:
 
 ### <a name="display-functions"></a>Funciones de visualización
 
-Los Salas de Microsoft Teams optimizados para la implementación híbrida, como con el resto de soluciones de Salas de Microsoft Teams, requieren el uso de pantallas que puedan adaptarse a las siguientes características para un funcionamiento correcto:
+Las Salas de Teams de firma, al igual que con el resto de soluciones de Salas de Microsoft Teams, requieren el uso de pantallas que puedan adaptarse a las siguientes características para un funcionamiento correcto:
 
 - Suspensión y reactivación rápida desde el modo de suspensión basada en la sincronización HDMI.
-  - Para los proyectores, el calentamiento automático y los períodos de enfriamiento deben admitirse sin la intervención del usuario.
+  - Para los proyectores, los períodos de calentamiento y enfriamiento automáticos deben admitirse sin la intervención del usuario.
 - Las pantallas deben admitir el EDID adecuado y las resoluciones requeridas por el diseño del Salas de Microsoft Teams.
 
 ### <a name="display-placement"></a>Ubicación de la pantalla
 
-Una sala optimizada para la implementación híbrida requiere que la pantalla se coloque delante de todos los participantes de la reunión en la sala, justo enfrente de la tabla.
+Las Salas de Teams de firma requieren que la pantalla se coloque delante de todos los participantes de la reunión en la sala, justo enfrente de la tabla.
 
 La línea central horizontal de la pantalla debe estar centrada en la misma línea central que la tabla.
 
@@ -218,11 +218,11 @@ La línea central vertical de la pantalla no debe superar los +/- 15 grados de l
 
 ### <a name="display-count"></a>Recuento de pantallas
 
-Una sala optimizada para una implementación híbrida requiere que la pantalla sea una sola pantalla con relación de aspecto amplia o una combinación de pantallas mezcladas que puedan lograr el efecto de ser una sola pantalla cuando los participantes de una reunión en la sala la vean.
+Las Salas de Teams de firma requieren que la pantalla sea una sola pantalla con una relación de aspecto amplia o una combinación de pantallas mezcladas que puedan lograr el efecto de ser una sola pantalla cuando los participantes de una reunión en la sala la vean.
 
 ### <a name="display-options"></a>Opciones de presentación
 
-A continuación se muestran ejemplos de pantallas para Salas de Teams optimizadas para la implementación híbrida:
+A continuación se muestran ejemplos de pantallas para Salas de Teams de firma:
 
 - [Proyector Epson EB-PU1007 con lente ELPLX01S Ultra Short Throw](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Pantalla de contorno de Da-Lite UTB | Pantalla progresiva HD 0,6 | Cinemascopio 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
@@ -233,7 +233,7 @@ Una sala de este tipo requiere el uso de una cámara frontal de habitación inte
 
 La cámara debe colocarse en la parte frontal de la sala, debajo de la proyección frontal de la sala, pero encima de la parte superior de la tabla, para capturar a todos los participantes de la sala lo más cerca posible del nivel de la vista.
 
-Los siguientes son ejemplos de cámaras principales para Salas de Teams optimizadas para híbridos:
+Los siguientes son ejemplos de cámaras principales para signature Salas de Teams:
 
 - [Jabra Panacast 50](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
 - [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
@@ -269,7 +269,7 @@ Los altavoces frontales y los altavoces por encima de la sala funcionarán para 
 
 Los altavoces deben colocarse para proporcionar cobertura a todos los participantes de la sala de reuniones dentro del rango certificado del dispositivo o dispositivos utilizados.
 
-Los siguientes son ejemplos de micrófonos y altavoces para Salas de Teams optimizados para híbridos:
+A continuación se muestran ejemplos de micrófonos y altavoces para Salas de Teams Signature:
 
 - [Lenovo ThinkSmart Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 - [Hub de la sala de conferencias Biamp Devio con micrófono de techo Parle](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
