@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Obtén información sobre los requisitos para admitir Salas de Microsoft Teams, incluida la elección del dispositivo, micrófonos, altavoces, cámaras y pantallas adecuados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd4376a8d34be2c0184844b015531c7b496c94c4
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: c14375c73a40747079f6d8d6ae89d5dd31bbd8a5
+ms.sourcegitcommit: 2dab123ad74fcad4db5390e9b745f72497a05882
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706687"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68560250"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de la sala de Microsoft Teams
 
@@ -146,6 +146,7 @@ Estos dispositivos se encuentran disponibles en el [escaparate del sistema de la
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
 |[Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) |0.0.7200.3 |
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
+|[Aver Fone540](https://www.averusa.com/products/vc-accessories/fone540) |0.0.7002.17|
 |[Barra de sonido de la cámara de Aver VB130](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Audiocodes RXVCAM50L](https://www.audiocodes.com/solutions-products/products/room-experience-rx-suite/rxvcam50lm-video-camera) |1.0.5 |
 |[Barra de vídeo Bose VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
