@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas en Microsoft Teams. Las colas de llamadas proporcionan un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 7ddf3364420244e800827915c9232430ffc336c1
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 0b1c5950ce419e3ae828afa13fa32b61117734bf
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046860"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576466"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -365,7 +365,7 @@ Se recomienda la siguiente configuración:
 |`Serial`                         |v                         |v         |v               |v    |v         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Opciones de enrutamiento de agente**        |                          |          |                |     |          |                      |                          |   |
 |`Presence Based Routing`<sup>3</sup>|v                      |v         |v               |N    |v         |v                     |v                         |*Predeterminado* |
-|`Agents can Opt-out`               |v                       |v         |v               |Y<sup>7</sup>|Y<sup>7</sup>|v          |v                         |*Predeterminado*     |
+|`Agents can Opt-out`<sup>10</sup> |v                       |v         |v               |Y<sup>7</sup>|Y<sup>7</sup>|v          |v                         |*Predeterminado*     |
 |**Modos de transferencia**               |                          |          |                |     |          |                      |                          |   |
 |`Conference Mode`<sup>5</sup>    |v                         |v         |v               |N    |Y<sup>6</sup>|v                  |v                         |*Predeterminado* |
 |`Transfer Mode`                  |v                         |v         |v               |v    |v         |v                     |v                         |   |
@@ -390,10 +390,11 @@ Se recomienda la siguiente configuración:
 5. El modo de conferencia no es compatible si las llamadas de teléfono se redirigen a la cola desde una puerta de enlace de enrutamiento directo habilitada para el enrutamiento basado en ubicación.
 6. solo Teléfono Microsoft Teams.
 7. A través de la página del Portal de configuración de usuario en [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
-- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
-- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 8. Solo se admiten canales públicos.
 9. Los operadores automáticos y las colas de llamadas no pueden transferir llamadas entre métodos de conectividad RTC.
+10. Para GCCH/DOD, solo disponible a través del Portal de configuración de usuario en:
+- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
 ### <a name="supported-clients"></a>Clientes compatibles
 
