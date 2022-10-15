@@ -22,12 +22,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2321b4c16938b045cfe281d4cf25d7882d449d9b
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 5961e05ac1ec927fbaca31dc24279eca27ce0f9d
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551864"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576416"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Reuniones, seminarios web y eventos en vivo
 
@@ -142,7 +142,7 @@ En la tabla siguiente se enumeran artículos con los que puede obtener más info
 
 | Artículo | Descripción |
 |----------|--------|
-| [Aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) | Introducción a las aplicaciones y cómo implementarlas en su organización. |
+| [Información general sobre las aplicaciones de Teams](deploy-apps-microsoft-teams-landing-page.md) | Introducción a las aplicaciones y cómo implementarlas en su organización. |
 | [Aplicaciones para reuniones de Teams](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | Información general sobre la extensibilidad de aplicaciones de reuniones, referencias de API y cómo habilitar y configurar aplicaciones para reuniones. |
 | [Administrar Microsoft Whiteboard en Teams](manage-whiteboard.md) | Describe la funcionalidad de Whiteboard y cómo habilitarla y deshabilitarla en su organización. |
 

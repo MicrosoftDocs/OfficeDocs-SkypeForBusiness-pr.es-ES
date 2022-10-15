@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-get-started
-ms.openlocfilehash: efb18d7a4674fa990f5a133576ec10ed4d377e35
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 7306184fe00c404820a0aa098497c2ec1262d15b
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706497"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576569"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 
@@ -74,7 +74,7 @@ Estas son las opciones que la mayoría de organizaciones cambia (si la configura
 
 ### <a name="teams-administrators"></a>Administradores de Teams
 
-Teams ofrece un conjunto de roles de administrador personalizados que pueden usarse para administrar Teams en su organización. Los roles proporcionan distintas funciones a los administradores.
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
@@ -143,7 +143,7 @@ El planeamiento de ancho de banda permite a las organizaciones estimar el ancho 
 Los usuarios pueden grabar sus reuniones y llamadas de grupo para capturar el vídeo, el audio y la actividad de pantalla compartida. También hay una opción para que las grabaciones tengan una transcripción automática, para que los usuarios puedan reproducir grabaciones de reunión con subtítulos y buscar elementos de discusión importantes en la transcripción. La grabación se produce en la nube y se guarda en Microsoft Stream, para que los usuarios puedan compartirla de forma segura en su organización. Para buscar la grabación de una reunión, vaya a la conversación de la reunión.
 
 >[!Note]
-> El cambio de uso desde Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabar las reuniones](tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, en noviembre tendrá que cancelar la suscripción si desea continuar usando Stream y por un tiempo, a principios de 2021, requeriremos que todos los clientes usen OneDrive para la Empresa y SharePoint para grabar nuevas reuniones.
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 Para obtener más información, consulte [Grabación de reuniones en la nube de Teams](cloud-recording.md).
 
@@ -206,4 +206,4 @@ Es importante que comprenda el estado general del servicio de Teams para que pue
 - [Impulsar la adopción](adopt-microsoft-teams-landing-page.md) de reuniones y conferencias en toda la organización.
 - [Agregar audioconferencia](deploy-audio-conferencing-teams-landing-page.md)
 - [Implementar voz en la nube](cloud-voice-landing-page.md)
-- Incluya aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Agregue otras [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) a medida que fomenta el uso de Teams.
+- Incluya aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Agregue otra [aplicación de Teams](deploy-apps-microsoft-teams-landing-page.md) mientras impulsa la adopción de Teams.
