@@ -24,12 +24,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28a816dee54d8f5ac2aead0deeb6aedf3f8076f7
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: e5ff54577dcfd4e3845758a7ce943231cbd38d48
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396931"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576556"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 
@@ -45,7 +45,7 @@ Para empezar, reflexionemos sobre cómo permite Microsoft Teams que los equipos
 - Los **canales** son secciones dedicadas dentro de un equipo a mantener las conversaciones organizadas por temas, disciplinas o proyectos específicos, es decir, lo que le resulte más conveniente al equipo. Los archivos que se comparten en un canal (en la pestaña archivos) se almacenan en SharePoint. Para obtener mas información, lea [Cómo SharePoint Online y OneDrive para la Empresa interactúan con Teams](SharePoint-OneDrive-interact.md).
 
     - Los canales son lugares donde ocurre la conversación y en los que se lleva a cabo el trabajo. Los canales pueden estar abiertos para todos los miembros del equipo (canales estándar), para miembros del equipo seleccionados ([canales privados](private-channels.md)) o para usuarios seleccionados tanto de dentro como de fuera del equipo ([canales compartidos](shared-channels.md)).
-    - Los canales son más útiles cuando se amplían con aplicaciones que incluyen pestañas, conectores y bots que aumentan su valor a los miembros del equipo. Para obtener más información, consulte [Aplicaciones, bots y conectores en Teams](deploy-apps-microsoft-teams-landing-page.md).
+    - Los canales son mucho más útiles cuando se amplían con aplicaciones que incluyen fichas, conectores y bots que aumentan su valor para los miembros del equipo. Para obtener más información, consulte [Información general sobre las aplicaciones de Teams](deploy-apps-microsoft-teams-landing-page.md).
     
 Para obtener ayuda con el uso de equipos y canales, consulte [Equipos y canales](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499).
 
@@ -73,7 +73,7 @@ Además, si se configura la moderación, los propietarios y miembros del equipo 
 
 **Configuración del equipo** 
 
-Los propietarios del equipo pueden administrar la configuración de todo el equipo directamente en Teams. La configuración incluye la capacidad de agregar una imagen de equipo, establecer permisos en los miembros del equipo para crear canales estándares, privados y compartidos, agregar pestañas y conectores, @mencionar a todo el equipo o el canal, y usar GIF, adhesivos y memes.
+Team owners can manage team-wide settings directly in Teams. Settings include the ability to add a team picture, set permissions across team members for creating standard, private, and shared channels, adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes.
 
 Si es administrador de Teams en Microsoft 365, tiene acceso a la configuración de todo el sistema en el Centro de administración de Teams. Esta configuración puede influir en las opciones y la configuración predeterminada que los propietarios ven en la configuración del equipo. Por ejemplo, puede habilitar un canal predeterminado, "General", para los anuncios, debates y recursos de todo el equipo, que aparecerá en todos los equipos.
 
