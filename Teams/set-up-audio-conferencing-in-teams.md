@@ -13,6 +13,7 @@ ms.collection:
 - M365-voice
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -23,12 +24,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Obtenga información acerca de cómo configurar las conferencias de acceso telefónico local o de audio para las personas de su empresa que necesitan usar un teléfono para unirse a llamadas de conferencia. '
-ms.openlocfilehash: 04c29b6eaf13d12bee1395d913519c971c7a25d1
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: 5f9912b005061461aa2309fb0faa54b4455214ea
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67642131"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584161"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar audioconferencias en Microsoft Teams
 
