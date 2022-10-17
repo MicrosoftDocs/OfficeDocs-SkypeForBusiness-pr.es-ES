@@ -12,18 +12,19 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtén información sobre cómo Enrutamiento directo de Microsoft te permite conectar un controlador de borde de sesión (SBC) compatible proporcionado por el cliente al sistema telefónico.
-ms.openlocfilehash: f3fe1e9f6f2244c7d33528488f07e66797509d2a
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d49e16ce4a61caf167574ab00189dbdfde1f1d61
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267785"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584041"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -35,10 +36,10 @@ El enrutamiento directo te permite conectar un controlador de borde de sesión (
 ![Diagrama que muestra la configuración de la conectividad con RTC local.](media/PlanDirectRouting1-PSTNwithTeams.png "Configuración de la conectividad con RTC local con el cliente de Microsoft Teams")
 
   > [!NOTE]
-  > Skype for Business Online también le permite emparejar un SBC proporcionado por el cliente, pero esto requiere una implementación local Skype Empresarial Server o una edición especial de Skype for Business, denominada Cloud Connector, entre el SBC y la nube de Microsoft. Este escenario se conoce como voz híbrida. En cambio, el enrutamiento directo permite una conexión directa entre el SBC compatible y Microsoft Cloud.
+  > Skype Empresarial Online también le permite emparejar un SBC proporcionado por el cliente, pero esto requiere una implementación local Skype Empresarial Server o una edición especial de Skype Empresarial, denominada Cloud Connector, entre el SBC y la nube de Microsoft. Este escenario se conoce como voz híbrida. En cambio, el enrutamiento directo permite una conexión directa entre el SBC compatible y Microsoft Cloud.
 
 > [!Important]
-> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype for Business Online. Una vez que su organización haya actualizado a Teams, obtenga información sobre cómo conectar su red de telefonía local a Teams mediante [enrutamiento directo](direct-routing-landing-page.md). 
+> Cloud Connector Edition se retirará el 31 de julio de 2021 junto con Skype Empresarial Online. Una vez que su organización haya actualizado a Teams, obtenga información sobre cómo conectar su red de telefonía local a Teams mediante [enrutamiento directo](direct-routing-landing-page.md). 
 
 Con enrutamiento directo, puede conectar su SBC a casi cualquier tronco de telefonía o interconexión con equipos RTC de terceros. Enrutamiento directo le permite: 
 
@@ -79,8 +80,8 @@ Los requisitos de infraestructura para los SBCs, los dominios y otros requisitos
 |Controlador de borde de sesión (SBC)|Un SBC compatible. Para obtener más información, consulte [SBCs compatibles](#supported-session-border-controllers-sbcs).|
 |Troncos de telefonía conectados al SBC|Uno o más troncos de telefonía conectados al SBC. En un extremo, el SBC se conecta al sistema telefónico a través del enrutamiento directo. El SBC también puede conectarse a entidades de telefonía de terceros, como PBX, adaptadores de telefonía analógica, etc. Funcionará cualquier opción de conectividad RTC conectada a la SBC. (Para la configuración de los troncos RTC al SBC, refiera a los proveedores de SBC o proveedores troncales.)|
 |Organización de Microsoft 365|Una organización de Microsoft 365 que usa para hospedar a los usuarios de Microsoft Teams, así como la configuración y la conexión con el SBC.|
-|Registrador de usuarios|El usuario debe estar alojado en Microsoft 365.<br/>Si su compañía tiene un entorno local de Skype for Business o Lync con conectividad híbrida a Microsoft 365, no puede habilitar la voz en Teams para un usuario alojado en local.<br/><br/>Para comprobar el registrador de un usuario, use el siguiente cmdlet de PowerShell de Skype for Business Online:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>El resultado del cmdlet debería mostrar:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Dominios|Uno o más dominios agregados a sus organizaciones de Microsoft 365 o Office 365.<br/><br/>Tenga en cuenta que no puede usar el dominio predeterminado, \*.onmicrosoft.com, que se crea automáticamente para su inquilino.<br/><br/>Para ver los dominios, puede usar los siguientes Skype for Business cmdlet de PowerShell en línea:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obtener más información sobre dominios y Microsoft 365 u organizaciones Office 365, consulte [Preguntas más frecuentes sobre dominios](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|Registrador de usuarios|El usuario debe estar alojado en Microsoft 365.<br/>Si su compañía tiene un entorno local de Skype Empresarial o Lync con conectividad híbrida a Microsoft 365, no puede habilitar la voz en Teams para un usuario alojado en local.<br/><br/>Para comprobar el registrador de un usuario, use el siguiente Skype Empresarial cmdlet de PowerShell en línea:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>El resultado del cmdlet debería mostrar:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|Dominios|Uno o más dominios agregados a sus organizaciones de Microsoft 365 o Office 365.<br/><br/>Tenga en cuenta que no puede usar el dominio predeterminado, \*.onmicrosoft.com, que se crea automáticamente para su inquilino.<br/><br/>Para ver los dominios, puede usar el siguiente cmdlet de PowerShell de Skype Empresarial Online:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obtener más información sobre dominios y Microsoft 365 u organizaciones Office 365, consulte [Preguntas más frecuentes sobre dominios](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Dirección IP pública para la SBC|Una dirección IP pública que se puede usar para conectarse al SBC. En función del tipo de SBC, el SBC puede usar NAT.|
 |Nombre de dominio completo (FQDN) para el SBC|Un FQDN para el SBC, donde la parte del dominio del FQDN es uno de los dominios registrados en microsoft 365 o Office 365 organización. Para obtener más información, consulte [Nombres de dominio SBC](#sbc-domain-names).|
 |Entrada DNS pública para la SBC |Una entrada DNS pública que asigna el FQDN de SBC a la dirección IP pública. |
@@ -96,11 +97,11 @@ Puertos y direcciones IP de firewall para medios de Microsoft Teams |Para obtene
 Los usuarios de Enrutamiento directo deben tener las siguientes licencias asignadas en Microsoft 365: 
 
 - Microsoft Phone System
-- Microsoft Teams + Skype for Business Plan 2, si se incluye en las licencias
+- Microsoft Teams + Skype Empresarial Plan 2, si se incluye en las licencias
 - Audioconferencia de Microsoft (lea las notas y el párrafo siguiente para ver ejemplos específicos sobre cuándo se necesita esta licencia).
 
 > [!NOTE]
-> Skype for Business plan no debe quitarse de ningún contrato de licencia donde se incluya. 
+> Skype Empresarial plan no debe quitarse de ningún contrato de licencia donde se incluya. 
 > 
 > [!IMPORTANT]
 > Los usuarios de GCC High y DoD deben deshabilitar cualquier licencia de Audioconferencia incluida en G5 y esperar a habilitar cualquier Audioconferencia hasta que el enrutamiento directo se haya configurado por completo. Los usuarios deben tener los números de teléfono de acceso telefónico local configurados y un teclado de marcado que funcione antes de habilitar las licencias de Audioconferencia. Consulte [Audioconferencia con enrutamiento directo para GCC High y DoD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) para obtener más información.
@@ -139,7 +140,7 @@ Puede usarse como punto final:
 
 - Teléfonos de área común. Consulte [Configurar teléfonos de área común para Microsoft Teams](./set-up-common-area-phones.md). No necesita una licencia del plan de llamadas al configurar un teléfono de área común con enrutamiento directo.
 
-- Skype for Business teléfonos de 3PIP. Consulte [el soporte de teléfonos Skype for Business (3PIP) con Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
+- Skype Empresarial teléfonos de 3PIP. Vea [el soporte técnico de teléfonos Skype Empresarial (3PIP) con Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
 ## <a name="sbc-domain-names"></a>Nombres de dominio SBC
