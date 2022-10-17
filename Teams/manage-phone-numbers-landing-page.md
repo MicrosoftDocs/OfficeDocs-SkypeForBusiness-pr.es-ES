@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -27,12 +28,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo obtener y administrar números de teléfono de usuarios (suscriptores) y de servicio (de pago y gratuitos) para Microsoft Teams para su organización.
-ms.openlocfilehash: 053d886a97591a6685582f0db0ca194eaa312896
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 52069029e7dca69f5df9520ad1491464bf6b9aa9
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551894"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584237"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>Administrar los números de teléfono de su organización
 
@@ -121,7 +122,7 @@ Es posible administrar los números de teléfono de enrutamiento directo de algu
 
 ### <a name="change-where-direct-routing-phone-numbers-are-managed"></a>Cambiar dónde se administran los números de teléfono de enrutamiento directo
 
-Para cambiar la ubicación en la que se administra un número de teléfono de enrutamiento directo, debe quitar el número de teléfono del atributo msRTCSIP-Line del usuario o de la cuenta resouce de la Active Directory local.   
+Para cambiar la ubicación en la que se administra un número de teléfono de enrutamiento directo, debe quitar el número de teléfono del atributo msRTCSIP-Line en la cuenta de usuario o recurso de la Active Directory local.   
 
 Para obtener más información, vea [Borrar atributos de Skype Empresarial para todos los usuarios locales en Active Directory](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory.md). Tenga en cuenta que el número de teléfono debe reasignarse a la cuenta de usuario o recurso en Microsoft 365.
 
