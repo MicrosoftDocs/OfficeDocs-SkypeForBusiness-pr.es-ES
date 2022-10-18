@@ -16,12 +16,13 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: a1400853510cc860350e333a91209650e28ebabf
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+- highpri
+ms.openlocfilehash: ee9a0c5bae539fa59a05d5e906c5076a0d2a588a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68480500"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584631"
 ---
 # <a name="step-5-assign-teams-phone-system-phone-numbers-to-your-users"></a>Paso 5: Asignar números de teléfono del sistema telefónico de Teams a los usuarios
 
