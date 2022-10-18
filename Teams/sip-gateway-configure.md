@@ -10,6 +10,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -21,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f21ce36c1c44b14b80c9ae1684a65c6bd82b7d63
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: b785ffe1c9e08507c1d45a1e837cf7020ec1d711
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808881"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584309"
 ---
 # <a name="configure-sip-gateway"></a>Configurar puerta de enlace SIP
 
