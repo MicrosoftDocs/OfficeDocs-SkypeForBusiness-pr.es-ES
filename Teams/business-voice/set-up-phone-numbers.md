@@ -16,12 +16,13 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: 9052fc0902c069e1ef097810a58f4adcbbae6174
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+- highpri
+ms.openlocfilehash: 9e8da251893cfb26ecee02cab4562ffa8675164b
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68480870"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584521"
 ---
 # <a name="step-2-set-up-teams-phone-system-phone-numbers"></a>Paso 2: Configurar los números de teléfono del sistema telefónico de Teams
 

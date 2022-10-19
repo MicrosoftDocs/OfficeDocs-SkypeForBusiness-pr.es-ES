@@ -10,6 +10,7 @@ ms.collection:
 - M365-voice
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 ms.reviewer: nakulm
 search.appverid: MET150
 ms.localizationpriority: high
@@ -19,12 +20,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1360847f187d98118d0b5468638cf1d6eb215fb8
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: b82e73e2e5bb470df4511027d13b2df5f1f715f8
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706867"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584891"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -238,8 +239,8 @@ Para más información sobre tipos de reunión específicos, consulte la tabla s
 
 | Tipo de reunión  | ¿Quién ha hecho clic en Grabar?| ¿Dónde está la grabación? | ¿Quién tiene acceso? R/W, R o uso compartido  |
 |-------------|-----------------------|------------------------|------------------------|
-|Llamada uno a uno con partes internas             |Autor de la llamada                 |Cuenta de OneDrive del autor de la llamada                        |El autor de la llamada es propietario y tiene todos los derechos. <br /><br />El destinatario (si está en el mismo espacio empresarial) tiene acceso de solo lectura. Sin acceso de uso compartido. <br /><br /> El destinatario (si está en otro espacio empresarial) no tiene acceso. El autor de la llamada debe compartirlo con el destinatario.|
-|Llamada uno a uno con partes internas             |Destinatario                 |Cuenta de OneDrive del destinatario                        |El destinatario es propietario y tiene todos los derechos. <br /><br />El autor de la llamada (si está en el mismo espacio empresarial) tiene acceso de solo lectura. Sin acceso de uso compartido. <br /><br />El autor de la llamada (si está en otro espacio empresarial) no tiene acceso. El destinatario debe compartirlo con el autor de la llamada.|
+|Llamada uno a uno con partes internas             |Autor de la llamada                 |Cuenta de OneDrive del autor de la llamada                        |El autor de la llamada es propietario y tiene todos los derechos. <br /><br />El destinatario (si está en el mismo espacio empresarial) tiene acceso de solo lectura. No hay acceso compartido. <br /><br /> El destinatario (si está en otro espacio empresarial) no tiene acceso. El autor de la llamada debe compartirlo con el destinatario.|
+|Llamada uno a uno con partes internas             |Destinatario                 |Cuenta de OneDrive del destinatario                        |El destinatario es propietario y tiene todos los derechos. <br /><br />El autor de la llamada (si está en el mismo espacio empresarial) tiene acceso de solo lectura. No hay acceso compartido. <br /><br />El autor de la llamada (si está en otro espacio empresarial) no tiene acceso. El destinatario debe compartirlo con el autor de la llamada.|
 |Llamada uno a uno con llamada externa             |Autor de la llamada                 |Cuenta de OneDrive del autor de la llamada                        |El autor de la llamada es propietario y tiene todos los derechos.<br /> <br />El destinatario no tiene acceso. El autor de la llamada debe compartirlo con el destinatario.|
 |Llamada uno a uno con llamada externa             |Destinatario                 |Cuenta de OneDrive del destinatario                        |El destinatario es propietario y tiene todos los derechos.<br /><br />El autor de la llamada no tiene acceso. El destinatario debe compartirlo con el autor de la llamada.|
 |Llamada grupal                                 |Cualquier miembro de la llamada |El miembro del grupo que hizo clic en la cuenta de OneDrive de la grabación  |El miembro que hizo clic en la grabación tiene todos los derechos. <br /><br /> Otros miembros del mismo espacio empresarial tienen derechos de lectura. <br /><br /> Los miembros de grupo de otros espacios empresariales no tienen derechos sobre la grabación.|
@@ -283,7 +284,7 @@ Las grabaciones de reuniones tienen un tiempo de expiración predeterminado de 1
 
 Los subtítulos para las grabaciones de reuniones de Teams solo estarán disponibles durante la reproducción si el usuario tenía activada la transcripción en el momento de la grabación. Los administradores deben [activar la transcripción de la grabación a través de la directiva](#turn-on-or-turn-off-recording-transcription) para asegurarse de que los usuarios tengan la opción de grabar reuniones con transcripción.
 
-Los subtítulos ayudan a crear contenido inclusivo para espectadores de todas las capacidades. Como propietario, puede ocultar los subtítulos en la grabación de la reunión, aunque la transcripción de la reunión seguirá estando disponible en Teams a menos que la elimine de allí.
+Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there.
 
 En estos momentos, los subtítulos del archivo de vídeo de la grabación están vinculados a la transcripción de la reunión de Teams. En la mayoría de los casos, este vínculo se conservará mientras que el archivo siga existiendo, pero se puede romper si el archivo de vídeo se copia en el mismo OneDrive o sitio de SharePoint, lo que provocaría que los subtítulos no estén disponibles en el archivo de vídeo copiado.
 

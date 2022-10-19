@@ -10,6 +10,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 ms.reviewer: crowe
 search.appverid: MET150
 description: Obtenga más información sobre Teams Phone Mobile, como los requisitos y la planificación de la implementación.
@@ -18,12 +19,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07a7a7652f5b634d9cc4c5bf7adfa14dfdcb3d3d
-ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.openlocfilehash: ffff1b3ae23b48a5f3fe0e697e43f13aaac8932d
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "68576605"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68585055"
 ---
 # <a name="plan-for-teams-phone-mobile"></a>Plan para Teams Phone Mobile
 

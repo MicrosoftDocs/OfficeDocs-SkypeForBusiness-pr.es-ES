@@ -16,12 +16,13 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: 96c6ec5422295bf63b4ac6b356f8d511f0291ff5
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+- highpri
+ms.openlocfilehash: cc6839febc4a6eb2926be3888522a2644121f30d
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68480710"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584641"
 ---
 # <a name="step-1-set-up-a-teams-phone-system-emergency-location"></a>Paso 1: Configurar una ubicación de emergencia del sistema telefónico de Teams
 
