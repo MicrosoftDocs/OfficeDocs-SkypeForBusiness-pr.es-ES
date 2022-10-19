@@ -21,12 +21,13 @@ description: Obtenga información general sobre qué son los pedidos de portabil
 ms.collection:
 - M365-voice
 - m365initiative-voice
-ms.openlocfilehash: c5c8b68cfd97c8a39f0b4866fb7670473a9ecef3
-ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
+- highpri
+ms.openlocfilehash: f4160d8e5fac5ec1f706bb7c82a881248d092a59
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67674381"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584921"
 ---
 # <a name="whats-a-port-order"></a>¿Qué es un pedido de portabilidad?
 
@@ -65,7 +66,7 @@ En general, puede transferir cualquier número de teléfono de un proveedor admi
   
 - Números de teléfono de servicios, como los usados para puentes de conferencia, operadores automáticos, etc.
 
-- Números de teléfono de fax, pero no se pueden usar para fax. Deben asignarse a un usuario.
+- Fax phone numbers, but they can't be used for faxing. They have to be assigned to a user.
 
 - Números de teléfono VoIP de un proveedor de telefonía como Vonage o RingCentral.
 
@@ -89,7 +90,7 @@ En general, puede transferir cualquier número de teléfono de un proveedor admi
   
 ## <a name="what-information-do-i-need-to-provide"></a>¿Qué información necesito proporcionar?
 
-Debe tener toda la información de la cuenta para su operador actual. La información que especifique en la solicitud de portabilidad se encuentra principalmente en la factura más reciente de su proveedor de servicios actual. También debe saber a nombre de quién está la cuenta y los números que quiere portar.
+You need to have all the account information for your current carrier. The information that you enter in the port order is mostly found on the most recent bill or invoice from your current service provider. You also need to know whose name is on the account and what numbers you want to port.
   
 ## <a name="what-are-full-port-and-partial-port-transfers"></a>¿Qué son las transferencias de portabilidad completa y portabilidad parcial?
 
@@ -97,11 +98,11 @@ Al portar números de teléfono a Teams, tiene la opción de transferir todos lo
   
 - **Portabilidad completa** Es cuando se transfieren todos los números de su proveedor de servicios actual a Teams. Cuando se le pidan los números de teléfono que desea transferir, *debe incluir* el número de teléfono de facturación (BTN) junto con los demás números de teléfono de su cuenta.
 
-    Por ejemplo, si el número de teléfono de facturación es  *+1 425-555-1234*  y quiere realizar la portabilidad de todos los 25 números de teléfono (*desde +1 425-555-1235 hasta 1259*), cuando siga las instrucciones siguientes para transferir sus números, escribiría: **+14255551234 - +14255551259**.
+    For example, let's say your BTN is  *+1 425-555-1234*  and you want to port all of your 25 phone numbers (*+1 425-555-1235 through 1259*). When you follow the instructions below to transfer your numbers, you would enter: **+14255551234 - +14255551259**.
 
 - **Portabilidad parcial** Es cuando se transfieren algunos de los números de teléfono de su proveedor de servicios actual a Teams. Cuando quiere portar algunos de los números de teléfono asociados al mismo BTN, ** *no debe incluir* ** el BTN junto con los demás números de teléfono de su cuenta.
 
-    Por ejemplo, si el número de teléfono de facturación (BTN) es  *+1 425-555-1234*  y solo quiere transferir 5 de sus 25 números de teléfono (*del +1 425-555-1235 al 1259*), solo tendría que escribir lo siguiente si sigue las instrucciones para transferir sus números: **+1 425 555 1235 - +1 425 555 1239**
+    For example, let's say your BTN is  *+1 425-555-1234*  and you want to port only 5 of your 25 phone numbers (*+1 425-555-1235 through 1259*). When you follow the instructions below to transfer your numbers, you would enter: **+1 425 555 1235 - +1 425 555 1239**.
     
 ## <a name="can-i-submit-a-single-number-porting-request-for-all-of-my-numbers-at-one-time"></a>¿Puedo enviar una sola solicitud de portabilidad de número para todos mis números a la vez?
 <a name="bkmk_type_1"> </a>
@@ -128,12 +129,12 @@ Aquí tiene más información sobre cómo enviar solicitudes de portabilidad de 
 
 - Los **números de teléfono móvil** requieren un código PIN para autorizar la transferencia. Por lo tanto, requieren solicitudes de portabilidad de número separadas.
 
-- Las solicitudes de portabilidad de **números de servicio** se deben enviar por separado. No se pueden enviar junto con otros tipos de números.
+- **Service number** porting requests need to be submitted by themselves. They can't be submitted with other types of numbers.
 
 ## <a name="how-long-does-it-take-to-port-numbers"></a>¿Cuánto tiempo se tarda en realizar la portabilidad de los números?
 <a name="bkmk_type_1"> </a>
 
-Una vez completada la solicitud de portabilidad, el proceso tarda entre 7 y 14 días. Sin embargo, en función de su proveedor de servicios, pueden tardar hasta 30 días. Después de portar los números de teléfono, recibirá un correo electrónico de nosotros para informarle de que ya está listo.
+After you've completed the port order request, it takes between 7-14 days to be processed. However, depending on your service provider it may take up to 30 days. After the phone numbers are ported over, you'll get an email from us to let you know that you're good to go.
   
 Para comprobar el estado de la solicitud de portabilidad, en el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Voz** > **Números de teléfono** y, después, haga clic en **Historial de solicitudes**. El estado de cada solicitud de portabilidad se muestra en la columna **Estado**.
   
@@ -155,11 +156,11 @@ Si necesita seguir configurando un PIN, póngase en contacto con el [equipo de s
 ## <a name="common-mistakes-to-watch-out-for"></a>Errores comunes que se deben evitar
 <a name="bkmk_type_1"> </a>
 
-La portabilidad de número es fácil de realizar. Sin embargo, su solicitud se puede complicar si hay un problema con el proveedor de servicios de telefonía, la solicitud está incompleta y falta información o hay errores tipográficos.
+Number porting is easy to do. Your order can get messed up, however, if there's a problem with the phone service provider, the order is incomplete and missing information, or there are typos.
   
-A continuación se muestran los errores más comunes entre los clientes que han realizado la portabilidad de sus números. Evite tener que realizar una llamada a la asistencia al cliente y compruebe esos errores.
+Here are the most common mistakes we see customers make when they port numbers. Save yourself a call to customer support and double-check for these errors.
   
-- Compruebe que la información de la cuenta que proporcione coincida exactamente con la información registrada por su operador de telefonía. Los errores de coincidencia de información son la causa más común de errores y retrasos en las solicitudes de portabilidad. Compruebe lo siguiente:
+- Make sure the account information you give matches exactly what your phone carrier has on record. Mismatched information is the most common cause of errors and delay your port order. Verify the following is true:
 
   - El nombre o la persona autorizada para realizar cambios en la cuenta es correcto.
 
@@ -175,7 +176,7 @@ A continuación se muestran los errores más comunes entre los clientes que han 
 
 - Compruebe que todos los números sean del mismo operador y de la misma cuenta.
 
-- Asegúrese de que el servicio está activo. La inmovilización de la cuenta impide el cambio de operadores en la cuenta. La persona autorizada para realizar cambios en la cuenta debe enviar una solicitud al operador actual para quitar la inmovilización. Este proceso puede tardar entre una y tres semanas, según el operador.
+- Make sure your service is active. Freezing the account prevents the change of carriers on the account. The person authorized to make changes to the account must submit an order to the current carrier to remove the freeze. This process can take one to three weeks depending on the carrier.
 
 ## <a name="related-topics"></a>Temas relacionados
 

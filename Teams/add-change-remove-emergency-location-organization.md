@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo agregar, cambiar o quitar una ubicación de emergencia de su organización.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 23eb549592c8ead6983253d1a228020f3851e1a7
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 39db920ccbb6edd71591ad5439b0a8475a0655fb
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551494"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584671"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 

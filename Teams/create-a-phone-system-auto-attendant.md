@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +21,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y administrar operadores automáticos en Microsoft Teams.
-ms.openlocfilehash: c2ae316815111193d81f191bdecd2fd7b1d59794
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 97cf5ea5c6cab381ce21f1bcbf1af7fa9e0a0177
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046480"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584781"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 

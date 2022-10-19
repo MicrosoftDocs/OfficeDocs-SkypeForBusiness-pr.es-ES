@@ -16,12 +16,13 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: c0b010514ddff6fb1ad88041acf255e0e35af52b
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+- highpri
+ms.openlocfilehash: 9a7449764b7629bc98ef93b1e140a01d335c394f
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68480750"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584221"
 ---
 # <a name="step-4-set-up-a-teams-phone-system-resource-account"></a>Paso 4: Configurar una cuenta de recursos del sistema telefónico de Teams
 

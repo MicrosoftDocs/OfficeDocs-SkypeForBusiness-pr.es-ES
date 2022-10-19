@@ -16,12 +16,13 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: b8af17d335dd3714af7608582abfbeaf65af5673
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+- highpri
+ms.openlocfilehash: 3ae68681c3cdbe126bbff0ada1efcd6ea628b728
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68480890"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584541"
 ---
 # <a name="step-7-port-phone-numbers-to-teams-phone-system-with-calling-plan-optional"></a>Paso 7: Portabilidad de números de teléfono a Teams Phone System con plan de llamadas (opcional)
 

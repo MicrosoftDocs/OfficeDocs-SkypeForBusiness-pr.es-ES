@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -30,12 +31,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Obtenga información sobre cómo pagar créditos de comunicación (consumo RTC) para los servicios de Skype Empresarial y vea los planes para mantener a los usuarios con acceso continuo al sistema telefónico. '
-ms.openlocfilehash: 0e8c737f8ed1ac4537c4453d77cc284719fb8086
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 42527a608cf6a020f1c8fc4f07f912ec95dd1a3a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156648"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583851"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar los créditos de comunicaciones
 
@@ -58,7 +59,7 @@ Los créditos de comunicaciones son una forma cómoda de pagar los planes de sis
   
 Como administrador, puede agregar fondos manualmente o puede configurar la recarga automática, que **se recomienda**.
   
-Esta opción recarga automáticamente su saldo cuando se encuentra por debajo del umbral mínimo que establezca. Se recomienda usar la opción de recarga automática para que no tenga que acordarse de agregar fondos de forma manual. Los fondos se agregarán automáticamente cuando el saldo alcance el límite. Si no elige la recarga automática, corre el riesgo de que el saldo sea inferior a cero. En ese momento, ni su usuario ni el resto podrán realizar llamadas gratuitas ni llamadas internacionales.
+Auto-recharge automatically tops off your balance when it falls below the trigger amount you set. We recommend using auto-recharge so you don't have to remember to add funds manually. When your balance hits the trigger amount, funds are added automatically. If you don't choose auto-recharge, you run the risk of your balance falling below zero. At that point, you and your users won't be able to make toll-free calls or international calls.
   
 Puede actualizar las opciones de pago en cualquier momento. En la página **Suscripciones** , selecciona **Créditos de comunicaciones** y realiza las actualizaciones.
   

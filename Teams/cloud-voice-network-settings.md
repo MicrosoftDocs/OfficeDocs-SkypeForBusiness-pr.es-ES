@@ -15,15 +15,16 @@ f1.keywords:
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 49709c2c3cc8816b404c88970c6ec916470f200e
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 327dbcef98e62d86f814f8e1fadc1c26673d0928
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790155"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584011"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Configuración de red para las características de voz en la nube en Microsoft Teams
 

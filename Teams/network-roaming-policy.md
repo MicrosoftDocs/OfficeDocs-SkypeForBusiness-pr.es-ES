@@ -16,13 +16,14 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: Obtenga información sobre cómo administrar la configuración de la directiva de itinerancia de red de Teams.
-ms.openlocfilehash: c26cdec0fc41e40a9c3eac7d0324050740cf05ef
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
-ms.translationtype: HT
+ms.openlocfilehash: f8b1d78754c5f608aa76d9261b2164abc4de9194
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853241"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68585068"
 ---
 # <a name="manage-video-and-media-settings-with-the-network-roaming-policy"></a>Administrar la configuración de vídeo y multimedia con la directiva de itinerancia de red
 
@@ -60,7 +61,7 @@ Después de configurar la directiva, asígnela a uno o varios sitios de red medi
  Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy $null
  ```
 
-Para habilitar la directiva de itinerancia de red para los usuarios que no tienen habilitada la voz empresarial, también debe habilitar la configuración AllowNetworkConfigurationSettingsLookup en TeamsMeetingPolicy. Esta configuración está desactivada de forma predeterminada.
+To enable the network roaming policy for users who are not enterprise voice enabled, you must also enable the AllowNetworkConfigurationSettingsLookup setting in TeamsMeetingPolicy. This setting is off by default.
 
 Para obtener más información sobre la creación de sitios de red, consulte [Configuración de red para las características de voz en la nube](cloud-voice-network-settings.md). 
 
