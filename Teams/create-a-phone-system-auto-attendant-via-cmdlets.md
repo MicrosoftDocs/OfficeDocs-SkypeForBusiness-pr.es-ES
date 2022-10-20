@@ -1,7 +1,7 @@
 ---
 title: Crear un operador automático mediante cmdlets
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar operadores automáticos mediante cmdlets
-ms.openlocfilehash: fa52f84f822635505e3d3390855195ba579406f7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 48e85ae312801257b133df76d5e60a6dbe51f628
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270145"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614062"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>Crear un operador automático mediante cmdlets
 
@@ -48,7 +48,7 @@ ms.locfileid: "67270145"
      ```
 
 2. Tiene derechos de administración de inquilinos
-3. Has comprado Microsoft Teams 电话
+3. Has comprado Teléfono Microsoft Teams
 4. Las colas de llamadas a las que se hace referencia a continuación ya se han configurado siguiendo la guía [Creación de colas de llamadas con cmdlets de PowerShell](create-a-phone-system-call-queue-via-cmdlets.md) .
 
 **Nota**: Algunos de los cmdlets a los que se hace referencia a continuación pueden formar parte de la versión preliminar pública del módulo PowerShell de Teams. Para obtener más información, consulte [Instalar la versión preliminar pública de PowerShell de Teams](teams-powershell-install.md) y vea también Notas de la [versión de Microsoft Teams PowerShell](teams-powershell-release-notes.md).

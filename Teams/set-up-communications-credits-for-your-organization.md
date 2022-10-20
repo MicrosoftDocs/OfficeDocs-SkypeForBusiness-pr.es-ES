@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +24,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization.
-ms.openlocfilehash: 8093b10d4918793c669f42b839999239d381a24a
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4ad3b6702d31f59c237bf7867aadd0e8d1c05abf
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156578"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613842"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
@@ -93,7 +94,7 @@ Para obtener más información, consulte [Licencias de complementos de Microsoft
      >
      > Al usar la función de recarga automática, la facturación de créditos de comunicación se genera cuando se alcanza el umbral de activación y se procesa una transacción de recarga. Los importes de créditos de comunicaciones se usan de una primera manera. Para obtener información sobre cómo comprobar su uso mensual, lea [Informe de uso de RTC de Microsoft Teams](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
 
-6. Selecciona **Realizar pedido**.
+6. Seleccione **Realizar pedido**.
 
     >[!IMPORTANT]
     >Si es un cliente de licencias por volumen, es posible que desee usar el contrato de empresa para el pago. Si tiene varios números, podrá seleccionar qué enterprise agreement prefiere usar para dicho pago. También se le dará la oportunidad de especificar un número de pedido de compra para asociarlo con el número de contrato de empresa (si procede) una vez que el soporte técnico lo habilite.
