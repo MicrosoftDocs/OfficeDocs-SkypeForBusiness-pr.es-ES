@@ -18,16 +18,17 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
+- highpri
 ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5961e05ac1ec927fbaca31dc24279eca27ce0f9d
-ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.openlocfilehash: 982730f7c839eeab2a55bc8997eade8aec31bebc
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "68576416"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614273"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Reuniones, seminarios web y eventos en vivo
 

@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: 6e90268b777c1db3806d8e77bc29e131a705c1f2
-ms.sourcegitcommit: 2dab123ad74fcad4db5390e9b745f72497a05882
+ms.openlocfilehash: 2625840f27edec527a55f48fbd70e8bbfed2dd24
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "68560270"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614443"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados por Microsoft Teams
 
@@ -107,6 +107,7 @@ Los siguientes dispositivos están certificados en el Programa de certificación
 
 | Modelo de dispositivo | Versión de firmware | Fecha de finalización de la certificación actual  | Versión del sistema operativo Android |
 |:------------------------|:-----------------|:--------------|----------------------------------|
+| Neat Frame nf21f1 | `NFF1.20220914.1210` | 3 de septiembre de 2024 | 10 |
 | Crestron UC-P8-TD |`1.0.0.42`| 5 de agosto de 2023 |  9  |
 | Crestron UC-P10-TD |`1.0.0.42`| 5 de agosto de 2023 |  9  |
 |Vista ThinkSmart de Lenovo|`CD-18781Y.201006.099`| 5 de diciembre de 2022 |  8.1  |
@@ -116,7 +117,7 @@ Los siguientes dispositivos están certificados en el Programa de certificación
 
 | Modelo de dispositivo| Versión de firmware | Fecha de finalización de la certificación actual | Versión del sistema operativo Android |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
-|Panel de control de expansión de EPOS   | `1.2.22206.03` | 3 de septiembre de 2024 | 10 |
+|EPOS Expande el Panel de control   | `1.2.22206.03` | 3 de septiembre de 2024 | 10 |
 |Neat Pad Panel    | `NFA1.20220211.1400` | 5 de agosto de 2023 | 9 |
 |Crestron TSS-770 | `2.001.0058` |3 de septiembre de 2024  | 10 |
 |Crestron TSS-1070 | `2.001.0058`|3 de septiembre de 2024 | 10 |
@@ -424,7 +425,7 @@ Consulte [Búsqueda de la versión de firmware en un dispositivo móvil](phones-
 
 Las licencias de Microsoft Teams se pueden comprar como parte de [las suscripciones de Microsoft 365 o Office 365](/office365/servicedescriptions/teams-service-description). Para obtener más información sobre las licencias necesarias para usar Microsoft Teams en teléfonos, consulte [Licencias del sistema telefónico](https://products.office.com/microsoft-teams/voice-calling) disponibles.
 
-Para obtener más información sobre cómo obtener Teams, consulte [Cómo obtener acceso a Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Para obtener más información sobre cómo obtener Teams, consulte [मैले कसरी obtener acceso a Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 Si es un proveedor que busca unirse al programa de certificación, consulte [Cómo unirse](/skypeforbusiness/certification/how-to-join) para conocer los requisitos y los programas disponibles.
 
