@@ -10,6 +10,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -21,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f20c26d07bbfb0eebef9b46cbc1db85ad9f4d341
-ms.sourcegitcommit: 30429a67cf477afa97fb09aa3b301443d989f8eb
+ms.openlocfilehash: cebff25642b98b7012a7c4bb2dac0c708c5e57c6
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68384746"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614082"
 ---
 # <a name="plan-for-sip-gateway"></a>Planear la puerta de enlace SIP
 

@@ -15,17 +15,18 @@ ms.collection:
 - M365-collaboration
 - remotework
 - m365initiative-meetings
+- highpri
 ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-get-started
-ms.openlocfilehash: 7306184fe00c404820a0aa098497c2ec1262d15b
-ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.openlocfilehash: c1d7d6f77d1e90b0a86df1167c33440c824b31c2
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "68576569"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613832"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 

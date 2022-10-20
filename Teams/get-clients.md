@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f53dd50f78afa2d85c4858e2d98170b3dc044f55
-ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
+ms.openlocfilehash: 33175aecc41dbc631fe8ab16db225762969b5ad6
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67732319"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614042"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams
 
@@ -46,7 +46,7 @@ El cliente de escritorio de Teams está disponible como una aplicación independ
 - Linux (en formato `.deb` y `.rpm` )
 - Chrome OS (Para obtener más información, vea [Cómo usar Microsoft Office en un Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad))
 
-Los usuarios finales pueden descargar e instalar los clientes de escritorio directamente desde [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) si tienen los permisos locales adecuados. No se requieren permisos de administrador para instalar el cliente de Teams en equipos Windows, pero sí en equipos Mac.
+Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions. Admin permissions aren't required to install the Teams client on Windows PCs but are required on Macs.
 
 Los profesionales de IT pueden elegir su método preferido para distribuir los archivos de instalación a los equipos de su organización. Por ejemplo: Microsoft Endpoint Configuration Manager (Windows) o Jamf Pro (macOS). Para obtener más información sobre cómo distribuir Teams, vea lo siguiente.
 
@@ -65,7 +65,7 @@ Teams en Windows proporciona instaladores MSI descargables en arquitecturas de [
 
 Teams requiere .NET Framework 4.5 o posterior. Si .NET Framework o posterior no está instalado, el instalador de Teams le ofrecerá instalarlo.
 
-El cliente de Windows se implementará en la carpeta AppData ubicada en el perfil del usuario. Implementar en el perfil de usuario local permite instalar el cliente sin necesidad de tener permisos elevados. El cliente de Windows aprovecha las siguientes ubicaciones:
+The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated permissions. The Windows client leverages the following locations:
 
 - %LocalAppData%\\Microsoft\\Teams
 
@@ -75,12 +75,14 @@ El cliente de Windows se implementará en la carpeta AppData ubicada en el perfi
 
 - %LocalAppData%\\SquirrelTemp
 
-Cuando los usuarios inician una llamada utilizando el cliente de Teams, podrían recibir una advertencia con la configuración del firewall de Windows que les pide que permitan la comunicación. Es posible que se indique a los usuarios que ignoren el mensaje porque la llamada funcionará, incluso si la advertencia se descarta.
+When users initiate a call using the Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication. Users might be instructed to ignore this message because the call will work, even when the warning is dismissed.
 
 ![Captura de pantalla de un cuadro de diálogo Alerta de Seguridad de Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> La configuración del firewall de Windows se modificará incluso si el mensaje se descarta seleccionando "Cancelar". Se crearán dos reglas de entrada para teams.exe con la acción de Permitir para los protocolos TCP y UDP.
+> Se modificará la configuración del Firewall de Windows. Se crearán dos reglas de entrada para teams.exe para los protocolos TCP y UDP con 
+> - Permitir acción en caso de que el usuario sea un administrador local y haga clic en "Permitir acceso" solo.
+> - Bloquear la acción si el usuario no es un administrador local y, en cualquier caso, cuando se descarta el mensaje seleccionando "Cancelar".
 
 Si desea impedir que Teams pida a los usuarios que creen reglas de firewall cuando los usuarios realicen su primera llamada desde Teams, use el script de PowerShell en [Script de ejemplo: script de PowerShell de firewall de Microsoft Teams](client-firewall-script.md).
 
@@ -179,7 +181,7 @@ sudo zypper install teams
 
 ## <a name="mobile-clients"></a>Clientes móviles
 
-Las aplicaciones móviles de Teams están disponibles para iOS y Android, y están pensadas para que los usuarios que no están en un lugar fijo participen en conversaciones basadas en chat y para permitir las llamadas de audio de par a par. Para las aplicaciones móviles, vaya a la tienda móvil correspondiente: Google Play y App Store de Apple.
+The Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store.
 
 Las plataformas móviles compatibles con las aplicaciones móviles de Teams son las siguientes:
 
@@ -208,4 +210,4 @@ El cliente del explorador ([https://teams.microsoft.com](https://go.microsoft.co
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-El cliente del explorador realiza la detección de la versión del explorador al conectarse a [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). Si se detecta una versión de explorador no compatible, bloqueará el acceso a la interfaz del explorador y recomendará al usuario que descargue el cliente de escritorio o la aplicación móvil.
+The browser client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it will block access to the browser interface and recommend that the user download the desktop client or mobile app.

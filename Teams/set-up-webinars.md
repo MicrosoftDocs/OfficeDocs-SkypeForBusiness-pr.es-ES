@@ -18,13 +18,14 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: Obtenga información sobre cómo administrar directivas de seminario web para reuniones de Teams.
-ms.openlocfilehash: 26863b26f960b50d81fa1d98090c3616d5b492a7
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 2c83452a37752745072b8a128f9e0eec8db3d7c0
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706487"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614583"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Configurar seminarios web en Microsoft Teams
 

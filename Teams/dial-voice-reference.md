@@ -1,7 +1,7 @@
 ---
 title: Referencia de marcado y reconocimiento de voz del operador automático y de la cola de llamadas
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre las opciones De marcado automático y cola de llamadas y reconocimiento de voz en Teams.
-ms.openlocfilehash: 93a20be62f09ed7b636c593ecac48927d70e237f
-ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
+ms.openlocfilehash: 3b6b1fd6932491a6f9ad17e109902484461f912f
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67070731"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613812"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Referencia de marcado y reconocimiento de voz del operador automático y de la cola de llamadas
 
@@ -59,7 +59,7 @@ Marcado por nombre busca primero en el directorio de toda la organización antes
 
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>Marcado por nombre: entrada mediante teclado (DTMF)
 
-Los autores de llamadas pueden usar Marcado por nombre para ponerse en contacto con los usuarios especificando el nombre completo o parcial de la persona con la que intentan ponerse en contacto. Hay varios formatos que se pueden usar cuando se escribe el nombre.
+Personas llamar puede usar Marcado por nombre para ponerse en contacto con los usuarios especificando el nombre completo o parcial de la persona con la que intentan ponerse en contacto. Hay varios formatos que se pueden usar cuando se escribe el nombre.
 
 Para realizar búsquedas en el directorio de su organización, los usuarios pueden usar la tecla 0 (cero) para indicar un espacio entre el nombre y el apellidos, o viceversa. Cuando escriba el nombre, se le pedirá que termine la entrada con el teclado numérico con la tecla #. Por ejemplo, "Después de introducir el nombre de la persona que busca, pulse #". Si se encuentran varios nombres, se proporcionará una lista de nombres al autor de la llamada para que seleccione uno.
 
@@ -88,7 +88,7 @@ En las búsquedas de personas a través del teclado del teléfono se pueden util
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>Marcado por nombre: reconocimiento de nombres por voz
 
-Las personas pueden buscar a otros usuarios de su organización con su voz (reconocimiento de voz). También pueden ponerse en contacto con cualquier persona de Active Directory diciendo el nombre completo o parcial de la persona a la que están intentando localizar. El uso de entradas de voz puede reconocer nombres en varios formatos, como Nombre, Apellidos, Nombre + Apellidos o Apellidos + Nombre.
+Personas pueden buscar a otros usuarios de su organización con su voz (reconocimiento de voz). También pueden ponerse en contacto con cualquier persona de Active Directory diciendo el nombre completo o parcial de la persona a la que están intentando localizar. El uso de entradas de voz puede reconocer nombres en varios formatos, como Nombre, Apellidos, Nombre + Apellidos o Apellidos + Nombre.
   
 Puede habilitar el reconocimiento de voz para un operador automático, pero la entrada mediante teclado del teléfono (DTMF) no está deshabilitada. La entrada mediante teclado del teléfono puede usarse en cualquier momento incluso si el reconocimiento de voz está habilitado en el operador automático.
   

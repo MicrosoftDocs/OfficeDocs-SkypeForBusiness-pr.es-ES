@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos para asociados de Microsoft o operadores RTC.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 3789270bc9826c11dee338b5221bc019191f50f2
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67024023"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614413"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -136,10 +136,13 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
 
 Después de registrar un nombre de dominio, debe activarlo agregando al menos una cuenta de usuarios o recursos con licencia de Teams. Las cuentas aceptables se licenciarán con cualquiera de las siguientes SKU:
 
-- Cuenta de usuario con Office 365 E1/E3/E5/A3/A5 o Microsoft 365 E3/E5/A3/A5
-- Cuenta de usuario con Office 365 F1/F3 o Microsoft 365 F1/F3
-- Cuenta de usuario con teléfono de área común
-- Cuenta de recursos con licencia **de cuenta de recursos de Teléfono Microsoft Teams**
+- Cuenta de usuario con Office 365 E1/E3/E5 o Microsoft 365 E3/E5.
+- Cuenta de usuario con Office 365 A1/A3/A5 o Microsoft 365 A1/A3/A5.
+- Cuenta de usuario con Office 365 F3 o Microsoft 365 F1/F3.
+- Cuenta de usuario con Office 365 G1/G3/G5 o Microsoft 365 G3/G5.
+- Cuenta de usuario con Microsoft 365 Empresa Básico/Standard/Premium.
+- Cuenta de usuario con teléfono de área común.
+- Cuenta de recursos con **Teléfono Microsoft Teams licencia de cuenta de recursos**.
 
 Además, el UPN (nombre principal de usuario) de la cuenta o Skype Empresarial dirección SIP local debe usar el mismo FQDN que el dominio recién creado.
 
@@ -185,7 +188,7 @@ Para obtener más información sobre los roles de administrador y cómo asignar 
 
 8. En la página siguiente, seleccione **Agregaré los registros DNS yo mismo** y **seleccionaré Siguiente**.
 
-9. En la página **Elegir el servicios en línea**, desactive todas las opciones y seleccione **Siguiente**.
+9. En la página **Elegir los servicios en línea** , desactive todas las opciones y seleccione **Siguiente**.
 
 10. Seleccione **Finalizar** en la página **Actualizar configuración DNS** .
 
@@ -202,6 +205,7 @@ Después de registrar un nombre de subdominio, debe activarlo agregando al menos
 
 -   Cuenta de usuario con Office 365 E1/E3/E5/A3/A5 o Microsoft 365 E3/E5/A3/A5
 -   Cuenta de usuario con Office 365 F1/F3 o Microsoft 365 F1/F3
+-   Cuenta de usuario con planes de Microsoft 365 Empresa Básico/Standard/Premium y G3/G5
 -   Cuenta de usuario con teléfono de área común
 -   Cuenta de recursos con una licencia de **cuenta de recursos de Teléfono Microsoft Teams**
 

@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar Correo de voz en la nube para los usuarios.
-ms.openlocfilehash: 9d6752098ff9dee6294d53fb24f6b7df6ee8e21c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: f73587fe2fe9a9449d938d9eac3d6193bbd7aa47
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616256"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614473"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar el Correo de voz en la nube
 
@@ -55,7 +56,7 @@ El buzón de Exchange de un usuario almacena los saludos grabados personalizados
 
 La grabación y transcripción de Correo de voz en la nube comienza en Microsoft 365 en el origen de la llamada que se dirige a Correo de voz en la nube. A continuación, el mensaje se entrega al buzón de Exchange del usuario.
 
-Por ejemplo, si una llamada llega a un usuario de enrutamiento directo no disponible a través de un controlador de borde de sesión (SBC) en Europa, la grabación y la transcripción del correo de voz se realizan en Europa. A continuación, el mensaje se entrega al buzón de Exchange del usuario. Por otro ejemplo, suponga que un usuario de Teams en Norteamérica llama a un usuario de Teams que no está disponible en Europa. En este caso, la llamada se inicia en Norteamérica, el procesamiento se produce en Norteamérica y, a continuación, el correo de voz se entrega al buzón de Exchange del usuario en Europa.
+Por ejemplo, si una llamada llega a un usuario de enrutamiento directo no disponible a través de un controlador de borde de sesión (SBC) en Europa, la grabación y la transcripción del correo de voz se realizan en Europa. A continuación, el mensaje se entrega al buzón de Exchange del usuario. Por otro ejemplo, supongamos que un usuario de Teams en Norteamérica llama a un usuario de Teams que no está disponible en Europa. En este caso, la llamada se inicia en Norteamérica, el procesamiento se produce en Norteamérica y, a continuación, el correo de voz se entrega al buzón de Exchange del usuario en Europa.
 
 La entrega de un correo de voz a un buzón de Exchange se realiza mediante el protocolo simple de transporte de correo (SMTP) como cualquier otro correo electrónico.
 

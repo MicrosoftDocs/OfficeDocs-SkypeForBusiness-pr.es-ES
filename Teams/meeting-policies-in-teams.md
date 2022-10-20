@@ -12,6 +12,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -23,13 +24,13 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: Descubra cómo administrar la configuración de directiva de reunión en Teams. Use la configuración de directiva para controlar las características disponibles para los participantes de la reunión en las reuniones programadas por los usuarios.
-ms.openlocfilehash: 1b5b173253ee457a6d966f9310987168d62a5299
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+description: Learn to manage meeting policy settings in Teams. Use policy settings to control the features available to meeting participants for meetings scheduled by users.
+ms.openlocfilehash: 374c51a1356ebdc7940185f64a98a334ce7bb66d
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418499"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614002"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -222,7 +223,7 @@ El modo de audio IP es una directiva por usuario. Esta configuración controla s
 
 |Valor de configuración |Comportamiento  |
 |---------|---------|
-|**Audio entrante y saliente activado**    |De forma predeterminada, se permiten en la reunión el vídeo y audio entrantes y salientes. |
+|**Audio entrante y saliente activado**    |Se permite el audio entrante y saliente en la reunión. Esta configuración es la predeterminada. |
 |**Deshabilitado**     |El audio entrante y saliente en la reunión está desactivado.     |
 
 Si se establece en **Deshabilitado** para un usuario, el usuario podrá seguir programando y organizando reuniones, pero no podrá usar el audio. Para unirse a una reunión, el usuario tendrá que marcar para acceder a través de la red telefónica conmutada (RTC) o hacer que se llame a la reunión para unir por teléfono al usuario. Los participantes de la reunión que no tengan ninguna directiva asignada (por ejemplo, los participantes anónimos) tienen esto establecido como **Audio de salida y entrada habilitado** de forma predeterminada. Si esta opción está deshabilitada en los clientes móviles de Teams, el usuario tendrá que marcar para acceder a la reunión a través de la RTC.
@@ -283,7 +284,7 @@ Para obtener más información, consulte [Administrar el audio y el vídeo de lo
 
 #### <a name="which-ip-video-policy-setting-takes-precedence"></a>¿Qué configuración de directiva de vídeo IP tiene prioridad?
 
-Para un usuario, la configuración de directiva más restrictiva para el vídeo tiene prioridad. Estos son algunos ejemplos.
+Para un usuario, la configuración de directiva más restrictiva para el vídeo tiene prioridad. Por ejemplo:
 
 |Permitir vídeo IP|Modo de vídeo IP|Experiencia de reunión|
 |---------|---------|---------|
@@ -331,7 +332,7 @@ Para las reuniones que necesitan una experiencia de vídeo de mayor calidad, com
 ### <a name="screen-sharing-mode"></a>Modo de uso compartido de la pantalla
 
 > [!NOTE]
-> Esta característica todavía está en desarrollo. El uso compartido de la pantalla es una directiva que se aplica por participante, pero puede verse afectado por la configuración de uso compartido de pantalla del organizador, como se describe en esta sección.
+> This feature is still in development. Screen sharing is a per-participant policy, however, it can be affected by the organizer's screen sharing settings, as described in this section.
 
 Esta configuración controla si se permite el uso compartido de ventanas o el escritorio en la reunión del usuario. Los participantes de la reunión que no tienen ninguna directiva asignada (por ejemplo, participantes externos) heredan la directiva del organizador de la reunión.
 
@@ -452,7 +453,7 @@ Esta configuración controla qué participantes de la reunión se quedan en la s
 Se trata de una directiva por organizador que permite reuniones de conferencia sin líderes. Esta configuración controla si los usuarios anónimos pueden unirse a la reunión sin que asista un usuario autenticado de la organización. De forma predeterminada, esta opción está desactivada, lo que significa que los usuarios anónimos se quedan en la sala de espera hasta que un usuario autenticado de la organización se una a la reunión.
 
 > [!NOTE]
-> Si esta opción está desactivada y un usuario anónimo se une primero a la reunión y se le ubica en la sala de espera, el usuario de la organización debe unirse a la reunión con un cliente de Teams para admitir al usuario de la sala de espera. No hay ningún control de sala de espera disponible para los usuarios con acceso de marcado.
+> If this setting is turned off and an anonymous user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
 
 ### <a name="automatically-admit-people"></a>Admitir automáticamente usuarios
 
@@ -463,15 +464,15 @@ Esta es una directiva por organizador. Esta configuración controla si los usuar
  Los organizadores de la reunión pueden seleccionar las **Opciones de reunión** en la invitación a la reunión para cambiar esta configuración en cada una de las reuniones programadas.
 
 > [!NOTE]
-> En las opciones de reunión, la configuración está etiquetada como "Quién puede omitir la sala de espera". Si cambia la configuración predeterminada para cualquier usuario, se aplicará a todas las reuniones nuevas organizadas por ese usuario y a las reuniones anteriores en las que el usuario no haya modificado las opciones de reunión.
+> In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
   
 |Valor de configuración  |Comportamiento para unirse |
 |---------|---------|
 |**Todos**   |Todos los participantes se unen a la reunión directamente sin tener que esperar en la sala de espera. Esto incluye usuarios autenticados, usuarios de acceso externo, invitados y usuarios anónimos.     |
-|**Usuarios de mi organización y de organizaciones de confianza e invitados**     |Los usuarios autenticados en la organización, incluidos los usuarios invitados y los usuarios de las organizaciones de confianza, pueden unirse a la reunión directamente sin tener que esperar en la sala de espera. Los usuarios anónimos aguardan en la sala de espera.   |
-|**Usuarios en mi organización e invitados**    |Los usuarios autenticados de la organización, incluidos los usuarios invitados, se unen a la reunión directamente sin tener que esperar en la sala de espera. Los usuarios de organizaciones de confianza y los usuarios anónimos esperan en la sala de espera. Esta es la configuración predeterminada.           |
+|**Usuarios de mi organización y de organizaciones de confianza e invitados**     |Authenticated users within the organization, including guest users and the users from trusted organizations, join the meeting directly without waiting in the lobby. Anonymous users wait in the lobby.   |
+|**Usuarios en mi organización e invitados**    |Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby. Users from trusted organizations and anonymous users wait in the lobby. This is the default setting.           |
 |**Solo organizador**    |Solo los organizadores de la reunión se pueden unir a la reunión directamente sin tener que esperar en la sala de espera. Todos los usuarios, incluidos los usuarios autenticados de la organización, los invitados, los usuarios de organizaciones de confianza y los usuarios anónimos deben esperar en la sala de espera.           |
-|**Usuarios en mi organización**  |Los usuarios autenticados de la organización, excluidos los usuarios invitados, se unen a la reunión directamente sin tener que esperar en la sala de espera. Los invitados y los usuarios de organizaciones de confianza y los usuarios anónimos esperan en la sala de espera.|
+|**Usuarios en mi organización**  |Authenticated users from within the organization, excluding guest users, join the meeting directly without waiting in the lobby. Guests and users from trusted organizations and anonymous users wait in the lobby.|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de espera
 
@@ -499,7 +500,7 @@ Esta es una directiva por usuario y se aplica durante la reunión. Esta configur
 
 ### <a name="allow-chat-in-meetings"></a>Permitir el chat en las reuniones
 
-Esta configuración se aplica por participante. Esta configuración controla si se permite el chat de reunión en la reunión del usuario.
+Este es un valor por participante. Esta configuración controla si se permite el chat de reunión en la reunión del usuario.
 
 <a name="bkparticipantsandguests"> </a>
 
@@ -550,7 +551,7 @@ Si establece el parámetro como **Teams** y, a continuación, vuelve a **TeamsAn
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>Configuración de la directiva de reuniones. Modo de filtros de vídeo
 
-Esta configuración se aplica por participante. Esta configuración controla si los usuarios pueden personalizar su fondo de vídeo en una reunión.
+Esta es una directiva por usuario. Esta configuración controla si los usuarios pueden personalizar su fondo de vídeo en una reunión.
 
 Actualmente, solo puede usar PowerShell para establecer esta directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
 

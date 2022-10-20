@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e11a0d89c7c49e27dd4237e67a67be93db2bcb6
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 3e0d47107771add6e091afeeddc35d47110d7938
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046750"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614643"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Usar el cifrado de un extremo a otro para las llamadas de Microsoft Teams uno a uno
 
@@ -86,9 +86,9 @@ La directiva global, predeterminada para toda la organización especifica que el
 
 3. Elija la directiva predeterminada o elija **Agregar** para agregar una nueva directiva y, a continuación, asigne un nombre a la nueva directiva.
 
-4. Para habilitar el cifrado de extremo a extremo para los usuarios, para **Cifrado de llamadas de extremo a extremo**, elija **Anulación por parte del usuario deshabilitada** y, a continuación, elija **Guardar**.
+4. Para habilitar el cifrado de un extremo a otro para los usuarios, en **cifrado de llamada de un extremo a otro**, elija **No habilitado, pero los usuarios pueden habilitar** y, después, **Guardar**.
 
-   Para deshabilitar el cifrado de extremo a extremo, elija **Deshabilitado**.
+   Para deshabilitar el cifrado de un extremo a otro, elija **No habilitado**.
 
 Una vez que haya terminado de configurar la directiva, asígnela a usuarios, grupos o a todo el inquilino de la misma manera que administra otras directivas de Teams. Para obtener información sobre el uso de directivas en Teams, vea [Administrar Teams con directivas](manage-teams-with-policies.md).
 

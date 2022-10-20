@@ -16,12 +16,12 @@ f1.keywords:
 description: El enrutamiento directo hHw admite la omisión de medios con un controlador de borde de sesión habilitado para ICE Lite.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59ea283069c6fc37590d6329aeac46e40484f8ca
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e6f9715ee410116a66c572522a910cd16ef27154
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267765"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614423"
 ---
 # <a name="overview"></a>Información general
 
@@ -55,7 +55,7 @@ En esta sección se capturan brevemente los requisitos de ICE Lite.
 
 ### <a name="candidate-gathering"></a>Reunión de candidatos
 
-El SBC debe ofrecer solo un candidato que sea públicamente accesible. Actualmente, solo se admiten candidatos IPV4.
+El SBC solo debe ofrecer un candidato. Actualmente, solo se admiten candidatos IPV4.
 
 
 #### <a name="connectivity-checks"></a>Comprobaciones de conectividad

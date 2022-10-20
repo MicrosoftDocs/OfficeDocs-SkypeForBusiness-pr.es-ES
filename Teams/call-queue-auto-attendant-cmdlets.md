@@ -1,7 +1,7 @@
 ---
 title: Referencia de cmdlet de PowerShell para operadores automáticos y colas de llamadas
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Consulte este artículo sobre los cmdlets de PowerShell para crear y administrar operadores automáticos y colas de llamadas en Microsoft Teams.
-ms.openlocfilehash: 7970a3c8199060d73d68e5f94c28dfe836688189
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6d45fd13a0836996223afdbadde324841e09c018
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269415"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613992"
 ---
 # <a name="powershell-cmdlet-reference-for-auto-attendants-and-call-queues"></a>Referencia de cmdlet de PowerShell para operadores automáticos y colas de llamadas
 
@@ -71,7 +71,7 @@ Para obtener una guía paso a paso para crear colas de llamadas con PowerShell, 
 
 ## <a name="common-cmdlets-used-by-both-auto-attendants-and-call-queues"></a>Cmdlets comunes usados por operadores automáticos y colas de llamadas
 
-Los cmdlets siguientes también son necesarios para administrar los usuarios, las cuentas de recursos, las licencias de Microsoft Teams 电话, los números de teléfono, los archivos de audio y el idioma admitido que se usará con los operadores automáticos:
+Los cmdlets siguientes también son necesarios para administrar los usuarios, las cuentas de recursos, las licencias de Teléfono Microsoft Teams, los números de teléfono, los archivos de audio y el idioma admitido que se usará con los operadores automáticos:
 
 ### <a name="users-and-teams"></a>Usuarios y Equipos
 
