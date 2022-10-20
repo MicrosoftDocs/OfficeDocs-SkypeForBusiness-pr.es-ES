@@ -1,7 +1,7 @@
 ---
 title: Planear operadores automáticos y colas de llamadas de Teams
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre operadores automáticos y colas de llamadas, y cómo usarlos para ayudar a los autores de llamadas a desplazarse por un sistema de menús para ponerse en contacto con personas o departamentos de su organización.
-ms.openlocfilehash: 05bbc5880e3a90751cfaada782573fd2d0b10c90
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 8c02bd3d8881bcbfa0d998098b39106ed8476435
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584811"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613962"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear operadores automáticos y colas de llamadas de Teams
 
@@ -189,7 +189,7 @@ Consulte los artículos siguientes para obtener información sobre cómo crear o
 >
 > Esto no se aplica a las pertenencias a agentes de cola de llamadas configuradas a través de listas de distribución o canales. Tampoco se aplica a los usuarios a los que se les alcanza mediante la característica **Marcado por nombre** o **Marcado por número** de operadores automáticos.
 
-Si necesita funcionalidades más amplias, como la integración con flujos de trabajo, bots y SMS, considere [la posibilidad de Azure Communication Services](/azure/communication-services/overview).
+Si necesita funcionalidades más amplias, como la integración con flujos de trabajo, bots y SMS, considere la posibilidad de [Usar Azure Communication Services](/azure/communication-services/overview).
 
 ## <a name="related-topics"></a>Temas relacionados
 

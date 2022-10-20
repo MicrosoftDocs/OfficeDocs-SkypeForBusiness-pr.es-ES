@@ -1,7 +1,7 @@
 ---
-title: idiomas admitidos por Microsoft Teams operador automático
-author: CarolynRowe
-ms.author: crowe
+title: Idiomas admitidos por el operador automático de Microsoft Teams
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -20,15 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: idiomas admitidos por Microsoft Teams operador automático
-ms.openlocfilehash: 609c92d86c1fbacddf35093a1ad77df065f5da75
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+description: Idiomas admitidos por el operador automático de Microsoft Teams
+ms.openlocfilehash: c769df020f178b2a69321c7b163e74a9fa1df4d6
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676462"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614603"
 ---
-# <a name="microsoft-teams-auto-attendant-supported-languages"></a>idiomas admitidos por Microsoft Teams operador automático
+# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Idiomas admitidos por el operador automático de Microsoft Teams
 
 El operador automático admite los siguientes idiomas para texto a voz (TTS) y reconocimiento de voz:
 
@@ -74,7 +74,7 @@ El operador automático admite los siguientes idiomas para texto a voz (TTS) y r
 |Vietnamita (Vietnam)                    |v                        |                                       |
 
 > [!NOTE]
-> Si eliges un idioma que no admita el reconocimiento de voz, se deshabilitará la opción de entrada de voz en el menú y el marcado por nombre solo se restringirá al uso de la entrada mediante teclado (DTMF). Consulte [Nombre tecleado - Entrada con teclado (DTMF)](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) para obtener más información.
+> Si eliges un idioma que no admita el reconocimiento de voz, se deshabilitará la opción de entrada de voz en el menú y el marcado por nombre solo se restringirá al uso de la entrada mediante teclado (DTMF). Para obtener más información, consulte [marcado por nombre - entrada con teclado (DTMF](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) ).
 
 > [!NOTE]
 > Al usar Texto a voz, el texto debe introducirse en el idioma seleccionado, ya que el sistema no realiza la traducción.

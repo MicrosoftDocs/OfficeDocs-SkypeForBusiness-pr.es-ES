@@ -17,13 +17,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: high
 search.appverid: MET150
-description: Obtenga información sobre cómo cargar sus aplicaciones personalizadas en la tienda de aplicaciones de la organización en el Centro de administración de Microsoft Teams.
-ms.openlocfilehash: 51ea4bdc31ff59a34bdf28a991617fff0f4e7381
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+description: Obtenga información sobre cómo cargar aplicaciones personalizadas en la tienda de aplicaciones de Teams de su organización.
+ms.openlocfilehash: 0b48061ab005e64d6fb6385fabb48f3b49ff87f0
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494613"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614593"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar una aplicación personalizada cargando un paquete de aplicación
 
@@ -40,11 +40,11 @@ La plataforma para desarrolladores de Microsoft Teams facilita a los desarrollad
 
 ## <a name="validate"></a>Validar
 
-### <a name="get-the-app-package"></a>Obtener el paquete de la aplicación
+### <a name="receive-the-app-package"></a>Recibir el paquete de la aplicación
 
-Cuando la aplicación está lista para usarse en producción, el desarrollador debe producir un paquete de aplicación. Pueden usar [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview). Le enviarán el archivo en formato .zip.
+Cuando la aplicación esté lista para usarse en producción, el desarrollador genera un paquete de aplicación mediante [el Portal para desarrolladores](/microsoftteams/platform/concepts/build-and-test/manage-your-apps-in-developer-portal). El desarrollador comparte el paquete de la aplicación en .zip formato.
 
-Todas las aplicaciones de la tienda Teams pasan una [validación de aplicación](overview-of-app-validation.md) obligatoria para cumplir con los estándares de calidad y seguridad de la tienda de aplicaciones global de Teams. Además, Microsoft anima encarecidamente a los desarrolladores de aplicaciones a participar en un [programa de cumplimiento de aplicaciones](overview-of-app-certification.md) que indica controles mejorados de cumplimiento, seguridad y privacidad. Para obtener más información, consulte [Directrices de validación de aplicaciones de Teams](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
+Todas las aplicaciones de la tienda teams pasan una [validación de aplicación](overview-of-app-validation.md) obligatoria para cumplir con los estándares de calidad y seguridad de la tienda de aplicaciones de Teams. Además, Microsoft anima encarecidamente a los desarrolladores de aplicaciones a participar en un [programa de cumplimiento de aplicaciones](overview-of-app-certification.md) que indica controles mejorados de cumplimiento, seguridad y privacidad. Para obtener más información, consulte [Directrices de validación de aplicaciones de Teams](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
 
 ### <a name="allow-trusted-users-to-upload-custom-apps"></a>Permitir que los usuarios de confianza carguen aplicaciones personalizadas
 
@@ -119,7 +119,7 @@ Puede actualizar la aplicación en la página Administrar aplicaciones del Centr
 
 ### <a name="end-user-update-experience"></a>Experiencia de actualización para el usuario final
 
-En la mayoría de los casos, después de completar la actualización de una aplicación, la nueva versión aparece automáticamente para los usuarios finales. Para obtener más información, consulte [experiencia de actualización para el usuario final](apps-update-experience.md).
+En la mayoría de los casos, después de publicar una nueva versión de una aplicación, se actualiza automáticamente para los usuarios finales. Para obtener más información, consulta [experiencia de actualización de aplicaciones para el usuario final](apps-update-experience.md).
 
 ## <a name="remove-a-custom-app-from-your-organizations-store"></a>Quitar una aplicación personalizada de la tienda de su organización
 

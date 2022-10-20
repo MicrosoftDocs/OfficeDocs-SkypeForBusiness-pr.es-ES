@@ -17,14 +17,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fa9b56a17cdba5bfe4b075199a3373470d1630a
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+ms.openlocfilehash: 201130f218a2ad482a60a7c746203f93120cc773
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494633"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613982"
 ---
 # <a name="use-teams-apps-as-an-external-attendees-or-guest"></a>Usar las aplicaciones de Teams como invitado o asistente externo
 
