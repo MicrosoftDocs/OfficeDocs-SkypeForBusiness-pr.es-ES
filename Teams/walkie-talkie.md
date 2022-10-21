@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0475fd161d3b53a8fc60d3a1419d20e3de2bfada
-ms.sourcegitcommit: bb428cd5805151736f0a6786d737f67f2b3fc918
+ms.openlocfilehash: c575e3eb41654a579ec09c67975490db3dce194d
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68557483"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655836"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicación Walkie Talkie en Microsoft Teams
 
@@ -38,7 +38,7 @@ Con Walkie Talkie en Teams, los trabajadores de primera línea pueden comunicars
 
 ## <a name="license-requirements"></a>Requisitos de licencia
 
-Walkie Talkie se incluye en todas las licencias de pago de Teams en [Las suscripciones de Microsoft 365 y Office 365](/office365/servicedescriptions/teams-service-description). Para obtener más información sobre cómo obtener Teams, consulte [Cómo obtener acceso a Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
+Walkie Talkie se incluye en todas las licencias de pago de Teams en [Las suscripciones de Microsoft 365 y Office 365](/office365/servicedescriptions/teams-service-description). Para obtener más información sobre cómo obtener Teams, consulte [मैले कसरी obtener acceso a Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
 
 ## <a name="deploying-walkie-talkie"></a>Implementar Walkie Talkie
 
@@ -56,7 +56,7 @@ Walkie-talkie está habilitado de forma predeterminada para todos los usuarios d
 
 ### <a name="enable-or-disable-walkie-talkie-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar Walkie Talkie para usuarios específicos de su organización
 
-Para permitir o impedir que usuarios específicos de su organización usen Walkie Talkie, asegúrese de que Walkie Talkie está activado para su organización en la página [Administrar aplicaciones](manage-apps.md) . A continuación, cree una directiva de permisos de aplicación personalizada, agréguela a una directiva de configuración de la aplicación y asígnela a esos usuarios. Para obtener más información, consulte [Administrar directivas de permisos de aplicaciones en Teams](teams-app-permission-policies.md) y [Administrar directivas de configuración de aplicaciones en Microsoft Teams](teams-app-setup-policies.md).
+Para permitir o impedir que usuarios específicos de su organización usen Walkie Talkie, asegúrese de que Walkie Talkie está activado para su organización en la página [Administrar aplicaciones](manage-apps.md) . A continuación, cree una directiva personalizada para los permisos de la aplicación, agréguela a una directiva de configuración de la aplicación y asígnela a esos usuarios. Para obtener más información, consulte [Administrar directivas de permisos de aplicaciones en Teams](teams-app-permission-policies.md) y [Administrar directivas de configuración de aplicaciones en Microsoft Teams](teams-app-setup-policies.md).
 
 ### <a name="pin-walkie-talkie-to-teams"></a>Anclar Walkie Talkie a Teams
 
@@ -72,7 +72,7 @@ Para obtener más información, incluido cómo funciona la experiencia con las d
 
 Las directivas de configuración de aplicaciones le permiten personalizar Teams para anclar las aplicaciones que son más importantes para los usuarios de sus usuarios.
 
-Para anclar la aplicación Walkie Talkie a los usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva de configuración de aplicación personalizada. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
+Para anclar la aplicación Walkie Talkie a los usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva personalizada en la directiva de configuración de la aplicación. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Captura de pantalla que muestra cómo agregar Walkie Talkie a la lista de aplicaciones ancladas en el panel Agregar aplicaciones ancladas." lightbox="media/deploy-walkie-talkie-2.png":::
 

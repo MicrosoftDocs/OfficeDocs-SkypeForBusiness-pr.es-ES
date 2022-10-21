@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75548acc44d1f360e13dd5946e6e39726c744bb6
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 9c8d28a3f985a38e174030ddbe0e6d43e2153738
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270685"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656076"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>Compatibilidad de aplicaciones de Microsoft Teams/Línea de negocio (LOB) en paneles de Teams
 
@@ -58,7 +58,7 @@ Después de configurar las aplicaciones, puede usar [directivas de permisos de a
 
 ## <a name="pin-apps-on-teams-panels-with-app-setup-policies"></a>Anclar aplicaciones en paneles de Teams con directivas de configuración de aplicaciones
 
-Como Teams ofrece la capacidad de mostrar una amplia gama de aplicaciones, los administradores pueden decidir qué aplicaciones son más esenciales para la organización y anclar solo estas para la pantalla **Principal** de paneles de Teams para acceder rápidamente. Si hay más de cinco aplicaciones ancladas o cualquier aplicación desanclada, aparecerán en la pantalla **Más** . Microsoft recomienda crear una directiva de configuración de aplicaciones personalizada específicamente para paneles de Teams.
+Como Teams ofrece la capacidad de mostrar una amplia gama de aplicaciones, los administradores pueden decidir qué aplicaciones son más esenciales para la organización y anclar solo estas para la pantalla **Principal** de paneles de Teams para acceder rápidamente. Si hay más de cinco aplicaciones ancladas o cualquier aplicación desanclada, aparecerán en la pantalla **Más** . Microsoft recomienda crear una directiva personalizada en la directiva de configuración de aplicaciones específicamente para los paneles de Teams.
 
 ![Captura de pantalla de la interfaz de usuario de la página de directivas de configuración de la aplicación.](media/appsetup1.png)
 
@@ -114,7 +114,7 @@ Si las aplicaciones se instalaron anteriormente a través de otras directivas de
 
 ### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>¿Por qué no encuentro una aplicación en el panel "Agregar aplicaciones ancladas"?
 
-No todas las aplicaciones se pueden anclar a Teams a través de una directiva de configuración de aplicaciones. Es posible que algunas aplicaciones no admitan esta funcionalidad. Para buscar aplicaciones que se pueden anclar, busca la aplicación en el panel **Agregar aplicaciones ancladas** . Para obtener más información, consulta [las preguntas más frecuentes en Trabajar con directivas de configuración de aplicaciones](/microsoftteams/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane).
+No todas las aplicaciones se pueden anclar a Teams a través de una directiva de configuración de aplicaciones. Es posible que algunas aplicaciones no admitan esta funcionalidad. Para buscar aplicaciones que se puedan anclar, busque la aplicación en el panel **Agregar aplicaciones ancladas**. Para obtener más información, consulta [las preguntas más frecuentes en Trabajar con directivas de configuración de aplicaciones](/microsoftteams/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane).
 
 ### <a name="why-am-i-seeing-an-user-pinning-pop-up-in-the-setup-policies-panel-after-i-turn-off-user-pinning"></a>¿Por qué veo un elemento emergente "Anclaje de usuario" en el panel de directivas de configuración después de desactivar "Anclaje de usuario?"
 

@@ -26,12 +26,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 9ea4e8cb49166c116d69c12d795659b55c93c556
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: ce10e758352396dd1ac8e6334e54c4e298df9a0f
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047050"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655856"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Lists para su organización en Microsoft Teams
 
@@ -105,7 +105,7 @@ De forma predeterminada, Lists está habilitado para todos los usuarios de su or
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar Lists para usuarios específicos de su organización
 
-Para permitir o impedir que usuarios específicos de la organización puedan usar Lists, asegúrese de que la aplicación esté activada para su organización en la página [Administrar aplicaciones](manage-apps.md) y después cree una directiva de permisos de aplicación personalizada y asígnela a esos usuarios. Para obtener más información, vea [Administrar directivas de permisos de aplicaciones en Teams](teams-app-permission-policies.md).
+Para permitir o bloquear el uso de listas a usuarios específicos de su organización, asegúrese de que Listas está activado para su organización en la página [Administrar aplicaciones](manage-apps.md) y, a continuación, cree una directiva personalizada para los permisos de las aplicaciones y asígnela a esos usuarios. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-app-permission-policies.md).
 
 ## <a name="search-the-audit-log-for-list-events"></a>Buscar eventos en el registro de auditoría
 

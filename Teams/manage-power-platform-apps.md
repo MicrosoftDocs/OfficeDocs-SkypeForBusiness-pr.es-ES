@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar el acceso a aplicaciones personalizadas que se han creado con Microsoft Power Platform en el centro de administración de Teams.
-ms.openlocfilehash: 93801bb30d0445d13de25976ab23668fde251466
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 3a81d1db3de7cf4fa82b80526ffdb206bfbe8da6
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377208"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656042"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Administrar aplicaciones de Microsoft Power Platform en el centro de administración de Teams
 
@@ -79,9 +79,9 @@ De forma predeterminada, se permiten las **aplicaciones de Power Apps compartida
 
 Para permitir o bloquear el acceso de usuarios específicos de la organización a aplicaciones creadas en Power Apps o Power Virtual Agents, cree y asigne una o más [directivas de permisos de aplicación](teams-app-permission-policies.md) personalizadas.
 
-Por ejemplo, para bloquear el acceso de usuarios específicos a las aplicaciones creadas en Power Apps, cree una directiva de permisos de aplicación personalizada para bloquear **Power Apps compartidas** y, luego, asigne la directiva a esos usuarios.
+Por ejemplo, para bloquear el acceso de usuarios específicos a las aplicaciones creadas en Power Apps, cree una directiva personalizada para que los permisos de las aplicaciones bloqueen **las Power Apps compartidas** y, a continuación, asigne la directiva a esos usuarios.
 
-:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Captura de pantalla de la directiva de permisos de aplicación personalizada de ejemplo con Power Apps compartidas bloqueadas.":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Captura de pantalla de la directiva personalizada de ejemplo para permisos de aplicaciones con Power Apps compartidas bloqueadas.":::
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>Usar registros de auditoría para investigar la actividad de instalación de Microsoft Power Platform
 

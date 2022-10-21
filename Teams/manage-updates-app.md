@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 3dc11a1a7bb841891906755a74d07585a55ec912
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: b51ba430a68e4b8979973ec5051036df39280e22
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047060"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656146"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación de Novedades para su organización en Microsoft Teams
 
@@ -125,7 +125,7 @@ La aplicación Novedades está disponible de forma predeterminada. Puede deshabi
 
 Las directivas de configuración de aplicaciones le permiten personalizar Teams para anclar las aplicaciones que son más importantes para los usuarios de sus usuarios. Las aplicaciones se anclan en la barra de aplicaciones (la barra situada en el lateral del cliente de escritorio de Teams y en la parte inferior de los clientes móviles de Teams), donde los usuarios pueden acceder a ellas de forma rápida y sencilla.
 
-Para anclar la aplicación Novedades para los usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva de configuración de aplicación personalizada. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
+Para anclar la aplicación Novedades para los usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva personalizada en la directiva de configuración de la aplicación. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
 
 ## <a name="retention-policy"></a>Directiva de retención
 

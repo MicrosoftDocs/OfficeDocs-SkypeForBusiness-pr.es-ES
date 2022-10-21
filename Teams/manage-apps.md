@@ -21,12 +21,12 @@ description: Obtenga información sobre cómo administrar aplicaciones de Teams.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 3d49d3e44e848b1d51388b148416fb897c335758
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+ms.openlocfilehash: dc7dbf1a4866fa85551d6ec46f7ea54c164ba655
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494673"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656056"
 ---
 # <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Información general sobre administración y gobierno de aplicaciones en el Centro de administración de Teams
 
@@ -40,8 +40,6 @@ Para usar el centro de administración de Teams, debe tener un rol de administra
 
 > [!NOTE]
 > La página Administrar aplicaciones no está disponible en las implementaciones de Microsoft 365 Government Community Cloud High (GCCH) o departamento de Defensa (DoD) de Teams.
-
-Durante la creación de una aplicación, los desarrolladores crean y agregan un identificador de aplicación al archivo de manifiesto. Puede ver esta identificación de aplicación externa en la página Administrar aplicaciones después de habilitar la columna `External app ID` desde la configuración de columna. También puede verlo en la página de detalles de la aplicación de una aplicación personalizada. La identificación solo es aplicable a aplicaciones personalizadas.
 
 ## <a name="app-management-use-cases-and-the-available-interfaces"></a>Casos de uso de administración de aplicaciones y las interfaces disponibles
 

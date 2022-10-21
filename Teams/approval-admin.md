@@ -20,12 +20,12 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4812626477d2f77ddd3c6913577aa7792293a993
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 866025dad342f5abfb5b0722391dc754b3f00dd5
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046640"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655846"
 ---
 # <a name="manage-the-approvals-app-in-microsoft-teams"></a>Administrar la aplicación Aprobaciones en Microsoft Teams
 
@@ -138,7 +138,7 @@ Para obtener más información, incluido cómo funciona la experiencia con las d
 
 Las directivas de configuración de aplicaciones le permiten personalizar Teams para anclar las aplicaciones que son más importantes para los usuarios de sus usuarios.
 
-Para anclar la aplicación Aprobaciones para los usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva de configuración de aplicación personalizada. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
+Para anclar la aplicación Aprobaciones para los usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva personalizada en la directiva de configuración de la aplicación. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
 
 ## <a name="retention-policy"></a>Directiva de retención
 

@@ -18,12 +18,12 @@ description: Obtenga información sobre cómo establecer Adobe Acrobat como un v
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 4051b09febdcadfdeb62bf9301823717e1b35fe4
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 8adb2f4f0eafeabadd6f8716a338b24422d0ba35
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377578"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656066"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Adobe Acrobat como visor de PDF predeterminado en Microsoft Teams
 
@@ -71,7 +71,7 @@ Para asignar y hacer que la aplicación Adobe Acrobat esté disponible para todo
 
 Después de seleccionar Guardar, Teams usa la aplicación Adobe Acrobat como controlador de archivos predeterminado para los archivos PDF.
 
-Si quiere permitir selectivamente la aplicación Adobe Acrobat para algunas personas o para un grupo, puede asignar una [directiva de permisos de aplicación personalizada](teams-app-permission-policies.md).
+Si quieres permitir selectivamente la aplicación Adobe Acrobat para algunas personas o para un grupo, puedes asignar una [directiva personalizada para los permisos de las aplicaciones](teams-app-permission-policies.md).
 
 Conozca la siguiente información sobre esta funcionalidad:
 

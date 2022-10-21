@@ -25,12 +25,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd9bd57f815079fd80a58b739b927b900305725b
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 358a0078eed6f693922b3aaedb3eea38a8bb7f82
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046630"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655866"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
@@ -55,7 +55,7 @@ Turnos está disponible en todas las SKUs de Enterprise donde Teams esté dispon
 
 ## <a name="location-of-shifts-data"></a>Ubicaciones de datos de Turnos
 
-Actualmente, los datos de turnos se almacenan en Azure en centros de datos de Asia Pacífico (APAC), la Unión Europea (UE) y Norteamérica. Para obtener más información acerca de la ubicación en la que se almacenan los datos, consulte [¿Dónde están mis datos](http://o365datacentermap.azurewebsites.net/)?
+Los datos de turnos se almacenan actualmente en Azure en centros de datos de Asia Pacífico (APAC), la Unión Europea (UE) y Norteamérica. Para obtener más información acerca de la ubicación en la que se almacenan los datos, consulte [¿Dónde están mis datos](http://o365datacentermap.azurewebsites.net/)?
 
 Para obtener más información sobre los datos de Turnos, incluidos el almacenamiento, la retención, la recuperación y el cifrado de datos de [Turnos, vea Preguntas frecuentes sobre los datos de Turnos](shifts-data-faq.md).
 
@@ -70,7 +70,7 @@ De forma predeterminada, Turnos está habilitado para todos los usuarios de Team
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar Turnos para usuarios específicos de su organización
 
-Para permitir o impedir que determinados usuarios de su organización usen Turnos, asegúrese de que Turnos esté activado para su organización en la página [Administrar aplicaciones](../../manage-apps.md) . A continuación, cree una directiva de permisos de aplicación personalizada y asígnela a esos usuarios. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](../../teams-app-permission-policies.md).
+Para permitir o impedir que determinados usuarios de su organización usen Turnos, asegúrese de que Turnos esté activado para su organización en la página [Administrar aplicaciones](../../manage-apps.md) . A continuación, cree una directiva personalizada para los permisos de la aplicación y asígnela a esos usuarios. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](../../teams-app-permission-policies.md).
 
 ### <a name="pin-shifts-to-teams"></a>Anclar Turnos a Teams
 
@@ -86,7 +86,7 @@ Para obtener más información, incluido cómo funciona la experiencia con las d
 
 Las directivas de configuración de aplicaciones le permiten personalizar Teams para anclar las aplicaciones más importantes para los usuarios.
 
-Puede crear una [directiva de configuración de aplicación personalizada](../../teams-app-setup-policies.md) agregando la aplicación Turnos y, a continuación, [asignando la directiva](../../assign-policies-users-and-groups.md) a los usuarios. O bien, puede usar la directiva de configuración de la aplicación que forma parte de los paquetes de directiva Frontline Worker y Frontline Manager.
+Puede crear una [directiva personalizada en la directiva de configuración](../../teams-app-setup-policies.md) de la aplicación agregando la aplicación Turnos y, a continuación, [asignando la directiva](../../assign-policies-users-and-groups.md) a los usuarios. O bien, puede usar la directiva de configuración de la aplicación que forma parte de los paquetes de directiva Frontline Worker y Frontline Manager.
 
 Un [paquete de directivas](../../manage-policy-packages.md) en Teams es una colección de directivas predefinidas y configuraciones de directiva que puede asignar a los usuarios que tienen roles similares en su organización. El conjunto de directivas de los paquetes de directiva Frontline Worker y Frontline Manager incluye una directiva de configuración de aplicaciones que ancla la aplicación Turnos y otras aplicaciones que admiten actividades de comunicación y colaboración para ese rol.
 

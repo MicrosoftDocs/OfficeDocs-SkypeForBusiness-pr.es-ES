@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 77c74ed4f42808c2dc219a255e0a4c8feca299fd
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 2bbd6d048fdb3e2f0a0d4f9723552127161d25f8
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376858"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656016"
 ---
 # <a name="manage-custom-apps-and-settings-in-teams-admin-center"></a>Administrar aplicaciones y configuraciones personalizadas en el Centro de administración de Teams
 
@@ -40,15 +40,15 @@ Como administrador de Teams, puede usar directivas y configuraciones de aplicaci
 
 Los desarrolladores de su organización pueden agregar una aplicación personalizada a Teams si cargan un paquete de aplicación (en un archivo .zip) directamente en un equipo o en el ámbito personal. Esto difiere de la forma en que se agregan las aplicaciones a través de la tienda de aplicaciones de Teams. Cargar un paquete de aplicación para agregar una aplicación personalizada, también conocido como instalación de prueba, permite a usuarios específicos de la organización probar una aplicación antes de que esté lista para distribuirse de forma amplia.
 
+Durante la creación de una aplicación, los desarrolladores crean y agregan un identificador de aplicación al archivo de manifiesto. Puede ver esta identificación de aplicación externa en la página Administrar aplicaciones después de habilitar la columna `External app ID` desde la configuración de columna. También puede verlo en la página de detalles de la aplicación de una aplicación personalizada. La identificación solo es aplicable a aplicaciones personalizadas.
+
 ## <a name="custom-app-policy-and-settings"></a>Configuración y directiva de aplicaciones personalizadas
 
-Tres configuraciones determinan si un usuario puede cargar una aplicación personalizada a un equipo. Proporciona a los administradores un control pormenorizada sobre quién puede agregar aplicaciones personalizadas a un equipo y a qué aplicaciones personalizadas de los equipos se pueden agregar.
+Tres configuraciones determinan si un usuario puede cargar una aplicación personalizada a un equipo. Proporciona a los administradores un control pormenorizada sobre quién puede agregar aplicaciones personalizadas a un equipo y a qué aplicaciones personalizadas de los equipos se pueden agregar. Esta configuración no afecta a la capacidad de bloquear aplicaciones de terceros.
 
 * [Directiva de aplicación personalizada de usuario](#user-custom-app-policy)
 * [Configuración de la aplicación personalizada de equipo](#team-custom-app-setting)
 * [Configuración de la aplicación personalizada de toda la organización](#org-wide-custom-app-setting)
-
-Esta configuración no afecta a la capacidad de bloquear aplicaciones de terceros.  
 
 ### <a name="user-custom-app-policy"></a>Directiva de aplicación personalizada de usuario
 
@@ -117,7 +117,7 @@ Imaginemos que quiere permitir que solo los propietarios de los equipos carguen 
 
 * Active la opción **Permitir interacción con aplicaciones personalizadas** en el centro de administración de Microsoft Teams.
 * Desactive la opción **Permitir que los miembros carguen aplicaciones personalizadas** para cada equipo al que quiera restringir el acceso.
-* Cree y asigne una directiva de configuración de aplicaciones personalizadas en el centro de administración de Microsoft Teams con la opción **Cargar aplicaciones personalizadas** activada y asígnela a los propietarios del equipo.
+* Cree y asigne una directiva personalizada en la directiva de configuración de aplicaciones en el Centro de administración de Microsoft Teams con la opción **Cargar aplicaciones personalizadas** activada y asígnela a los propietarios del equipo.
 
 |Configuración de la aplicación personalizada de toda la organización |Configuración de la aplicación personalizada de equipo |Directiva de aplicación personalizada de usuario |Efecto  |
 |---------|---------|---------|---------|

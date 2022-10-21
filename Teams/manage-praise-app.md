@@ -13,12 +13,12 @@ ms.collection:
 - M365-collaboration
 - m365-frontline
 - highpri
-ms.openlocfilehash: f2cf8ee32e3c03811833ea5d5d4dc93ac6d51ead
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 5771aaa9122ddc79d4555c74d509d2c4a77f57fb
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046720"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655876"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Administrar la aplicación Elogiar en el Centro de administración de Microsoft Teams
 
@@ -44,7 +44,7 @@ Si establece el Estado en Bloqueado, la aplicación Elogiar se bloqueará en uno
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar Elogio para usuarios específicos de su organización
 
-Para permitir o impedir que usuarios específicos de su organización usen Elogiar, asegúrese de que Elogiar está activado para su organización en la página [Administrar aplicaciones](manage-apps.md) . A continuación, cree una directiva de permisos de aplicación personalizada y asígnela a esos usuarios. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-app-permission-policies.md).
+Para permitir o impedir que usuarios específicos de su organización usen Elogiar, asegúrese de que Elogiar está activado para su organización en la página [Administrar aplicaciones](manage-apps.md) . A continuación, cree una directiva personalizada para los permisos de la aplicación y asígnela a esos usuarios. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-app-permission-policies.md).
 
 ## <a name="badges"></a>Insignias
 

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 - m365-frontline
 - highpri
-ms.openlocfilehash: 74b67a71f8b93f5f0ed898ef186beede056ec31a
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: c64e2b9e2d77724d4972449390c59b7655ab1ff0
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047120"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656046"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Tasks para su organización en Microsoft Teams
 
@@ -72,7 +72,7 @@ De forma predeterminada, Tasks está habilitado para todos los usuarios de Teams
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar Tasks para usuarios específicos de su organización
 
-Para permitir o impedir que usuarios específicos de la organización puedan usar Tasks, asegúrese de que la aplicación esté activada para su organización en la página [Administrar aplicaciones](manage-apps.md) y después cree una directiva de permisos de aplicación personalizada y asígnela a esos usuarios. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-app-permission-policies.md).
+Para permitir o bloquear el uso de tareas a usuarios específicos de su organización, asegúrese de que Tareas está activado para su organización en la página [Administrar aplicaciones](manage-apps.md) y, a continuación, cree una directiva personalizada para los permisos de las aplicaciones y asígnela a esos usuarios. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-app-permission-policies.md).
 
 ### <a name="pin-tasks-to-teams"></a>Anclar tareas a Teams
 
@@ -88,7 +88,7 @@ Para obtener más información, incluido cómo funciona la experiencia con las d
 
 Las directivas de configuración de aplicaciones le permiten personalizar Teams para anclar las aplicaciones que son más importantes para los usuarios de sus usuarios.
 
-Para anclar la aplicación Tasks para sus usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva de configuración de aplicación personalizada. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
+Para anclar la aplicación Tareas a los usuarios, puede editar la directiva global (predeterminada para toda la organización) o crear y asignar una directiva personalizada en la directiva de configuración de la aplicación. Para obtener más información, consulte [Administrar las directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>Un usuario solo podrá ver Mis tareas si tiene licencia para Exchange Online.
 
@@ -117,7 +117,7 @@ A continuación le mostramos un ejemplo para ilustrar cómo funciona la publicac
 
 Pongamos que la empresa Contoso quiere implementar una nueva promoción para sus tiendas con servicio de alimentación. Quiere ofrecer una experiencia de marca coherente y coordinar el lanzamiento de la promoción de la manera más uniforme posible en sus más de 300 establecimientos.
 
-El equipo de Marketing compartirá los detalles de la promoción y la lista correspondiente de tareas con el Administrador de comunicaciones de minoristas. El Retail Communications Manager, que sirve como portero para las tiendas, revisa la información. A continuación, crean una lista de tareas para la promoción y crean una tarea para cada unidad de trabajo que los almacenes afectados deben realizar. Una vez completada la lista de tareas, deben seleccionar las tiendas que deben completar el trabajo. En este caso, la promoción solo se aplica a las tiendas de Estados Unidos que tengan un restaurante en la tienda. En Tareas, filtran la lista de almacenes en función del atributo de restaurante de la tienda, seleccionan las ubicaciones de Estados Unidos coincidentes de la jerarquía y, a continuación, publican la lista de tareas en esos almacenes.
+El equipo de Marketing compartirá los detalles de la promoción y la lista correspondiente de tareas con el Administrador de comunicaciones de minoristas. El Retail Communications Manager, que sirve como portero para las tiendas, revisa la información. A continuación, crean una lista de tareas para la promoción y crean una tarea para cada unidad de trabajo que los almacenes afectados deben realizar. Una vez completada la lista de tareas, deben seleccionar las tiendas que deben completar el trabajo. En este caso, la promoción solo se aplica a las tiendas de Estados Unidos que tengan un restaurante en la tienda. En Tareas, filtran la lista de tiendas en función del atributo de restaurante de la tienda, seleccionan las ubicaciones coincidentes de Estados Unidos en la jerarquía y, a continuación, publican la lista de tareas en esas tiendas.
 
 Los administradores de tienda en cada ubicación recibirán una copia de las tareas publicadas y asignarán esas tareas a los miembros de su equipo. Los administradores podrán usar la experiencia Tasks para comprender todo el trabajo necesario en todas las áreas de sus tiendas. También podrán usar los filtros para centrarse en un conjunto específico de trabajos, como un trabajo que vence hoy o el trabajo de un área específica.
 

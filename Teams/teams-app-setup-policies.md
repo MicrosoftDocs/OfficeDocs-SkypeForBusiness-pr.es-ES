@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: dc84bc7be43182194af3a072edb875a6a257a9d5
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: c741bb8a1b6ab7e27ec064dc0f22226f69bc6e10
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377338"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655896"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -126,7 +126,7 @@ Puede usar el Centro de administración de Microsoft Teams para editar las direc
 
 1. Seleccione **Guardar**.
 
-### <a name="assign-a-custom-app-setup-policy-to-users-and-groups"></a>Asignar a los usuarios y los grupos una directiva de configuración de aplicaciones personalizada
+### <a name="assign-a-custom-policy-in-app-setup-policy-to-users-and-groups"></a>Asignar una directiva personalizada en la directiva de configuración de aplicaciones a usuarios y grupos
 
 Para saber cómo asignar directivas a los usuarios finales y grupos, consulte [Cómo asignar directivas a usuarios y grupos](assign-policies-users-and-groups.md).
 
@@ -151,7 +151,7 @@ Tenga en cuenta que la tienda de aplicaciones de Teams enumera todas las aplicac
 
 #### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>Soy administrador de Teams para el ámbito educativo. ¿Qué necesito saber sobre las directivas de configuración de aplicaciones en Teams para el ámbito educativo?
 
-La aplicación Llamadas no está disponible en Teams para el ámbito educativo. Al crear una nueva directiva de configuración de aplicaciones personalizada, la aplicación que realiza la llamada se muestra en la lista de aplicaciones. Sin embargo, la aplicación no está anclada en los clientes de Teams y los usuarios de Teams para el ámbito educativo no verán la aplicación Llamadas en Teams.
+La aplicación Llamadas no está disponible en Teams para el ámbito educativo. Al crear una nueva directiva personalizada en la directiva de configuración de aplicaciones, la aplicación Llamadas se muestra en la lista de aplicaciones. Sin embargo, la aplicación no está anclada en los clientes de Teams y los usuarios de Teams para el ámbito educativo no verán la aplicación Llamadas en Teams.
 
 ### <a name="user-experience"></a>Experiencia de usuario
 

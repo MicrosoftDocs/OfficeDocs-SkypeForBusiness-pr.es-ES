@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 24c4b85bb1c4b97597bad6a38e6a67c35dc1abb0
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 5797486fb0993aa8630a8dedde131ad7751e7e5f
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377048"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656026"
 ---
 # <a name="manage-access-to-teams-apps-using-app-permission-policies"></a>Administrar el acceso a las aplicaciones de Teams mediante directivas de permisos de aplicaciones
 
@@ -81,7 +81,7 @@ Puede usar el Centro de administración de Teams para editar la directiva global
 1. Realiza los cambios para permitir o bloquear aplicaciones específicas en cada una de las tres categorías.
 1. Seleccione **Guardar**.
 
-## <a name="assign-a-custom-app-permission-policy-to-users"></a>Asignar una directiva de permisos de aplicación personalizada a los usuarios
+## <a name="assign-a-custom-policy-for-app-permissions-to-users"></a>Asignar una directiva personalizada para permisos de aplicación a usuarios
 
 Las directivas de permisos de aplicación surtan efecto solo cuando se aplica una directiva a un usuario o a un grupo de usuarios. Vea las diferentes formas de [asignar la directiva a los usuarios](policy-assignment-overview.md#ways-to-assign-policies).
 
