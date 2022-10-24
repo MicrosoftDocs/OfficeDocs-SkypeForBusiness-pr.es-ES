@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtén información sobre cómo Enrutamiento directo de Microsoft te permite conectar un controlador de borde de sesión (SBC) compatible proporcionado por el cliente al sistema telefónico.
-ms.openlocfilehash: d49e16ce4a61caf167574ab00189dbdfde1f1d61
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: de829008a45e8f4c1095138ddc1b1dcc32cdb3eb
+ms.sourcegitcommit: c627bd1df17aefdc353bc4da6db169dfe169031e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584041"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "68680523"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -313,7 +313,6 @@ El tráfico multimedia fluye a través de componentes denominados procesadores m
 - Japón (centros de datos de JP East y West)
 - Australia (centros de datos au east y southeast)
 - LATINOAMÉRICA (Brasil Sur)
-- África (Sudáfrica Norte)
 
 ## <a name="media-traffic-codecs"></a>Tráfico multimedia: códecs
 
