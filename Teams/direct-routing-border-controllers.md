@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4c64e5302b68e515d72cddc11a77cb85dea10fe3
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: c1908fc1dbfdecc978444d7fc004979c940f8b2a
+ms.sourcegitcommit: 3b2e8ec8c104863208f49f282ab0ffa619ff5057
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614022"
+ms.lasthandoff: 10/26/2022
+ms.locfileid: "68697359"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -70,9 +70,9 @@ Tenga en cuenta que no aceptamos nuevas nominaciones para la certificación hast
 ||SBC 5400|&#10004;|&#10004;|Compatible con todas las versiones de 10.1, 9.2, 8.2 y 7.2 (recomendamos la última versión de 10.1))|&#10004;||
 ||SBC 7000|&#10004;|&#10004;|Compatible con todas las versiones de 10.1, 9.2, 8.2 y 7.2 (recomendamos la última versión de 10.1)|&#10004;||
 ||Todas las variantes SBC SWe, incluidas las ofertas hospedadas|&#10004;|&#10004;|Compatible con todas las versiones de 10.1, 9.2, 8.2 y 7.2 (recomendamos la última versión de 10.1)|&#10004;||
-||SBC 1000|&#10004;|&#10004;|8.x or 9.x|&#10004;|&#10004;|
-||SBC 2000|&#10004;|&#10004;|8.x or 9.x|&#10004;|&#10004;|
-||SBC SWe Lite|&#10004;|&#10004;|8.x or 9.x|&#10004;|&#10004;|
+||SBC 1000|&#10004;|&#10004;|8.x, 9.x o 11.x|&#10004;|&#10004;|
+||SBC 2000|&#10004;|&#10004;|8.x, 9.x o 11.x|&#10004;|&#10004;|
+||SBC SWe Edge (anteriormente SWe Lite)|&#10004;|&#10004;|8.x, 9.x o 11.x|&#10004;|&#10004;|
 ||Serie EdgeMarc|&#10004;|&#10004;|16.3.2||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|SBC Think 365|&#10004;||1.4|||
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|Compatible con 8.3.0.0.1 y recomendada 8.4.x y 9.x|&#10004;|&#10004;|
