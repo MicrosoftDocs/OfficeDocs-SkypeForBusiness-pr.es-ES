@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 09/04/2022
+ms.date: 10/22/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: En este artículo, aprenderá cómo se actualizan las aplicaciones de Microsoft, las aplicaciones personalizadas y las aplicaciones de terceros en Microsoft Teams y cómo los administradores facilitan esto.
-ms.openlocfilehash: 14c327c2a24536f5441b318767e301ffe9a3196d
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 0f5631abcd773f09c5a926bf3459d56e8f9f92bf
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376818"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738616"
 ---
 # <a name="teams-app-updates-and-admin-role"></a>Actualizaciones de aplicaciones de Teams y rol de administrador
 
@@ -38,7 +38,7 @@ Para que los usuarios instalen y usen una aplicación, deben conceder permisos a
 
 Si los desarrolladores de aplicaciones realizan uno o varios de los siguientes cambios en sus aplicaciones, los usuarios finales deben aprobar la actualización de la aplicación.
 
-* Agregar o quitar un bot. Cambie el id. del bot con la `botId` propiedad.
+* Agregar un bot. Cambie el id. del bot con la `botId` propiedad.
 * Cambie la `isNotificationOnly` propiedad de un bot existente que pueda cambiar las notificaciones del bot.
 * Cambie `SupportsCalling`, `SupportsVideo`y las `SupportsFiles` propiedades de un bot existente para agregar la capacidad de llamar, reproducir vídeo y cargar o descargar archivos.
 * Agregar o quitar permisos en autorización.

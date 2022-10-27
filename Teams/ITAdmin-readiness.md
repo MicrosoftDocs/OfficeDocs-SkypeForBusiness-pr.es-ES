@@ -18,12 +18,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 384f6f34a689e0337489d08e4956df425b497d5d
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: 50c3a4a3eaed8eea383d8e0856cfcd6a07b9772e
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808381"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738596"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción al aprendizaje para administradores de Microsoft Teams
 
@@ -47,17 +47,17 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 | Módulo | Vídeo | Presentación de PowerPoint   |
 | ------------ | -------------------- | -------------------- |
 | [Microsoft Mechanics: canal de YouTube de Teams Essentials para TI](https://aka.ms/MicrosoftTeamsforIT) | [Vídeo: Teams Essentials para TI](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Vídeo: Implementar & Configurar Teams- Introducción](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  <br>[Vídeo: Seguridad y cumplimiento](https://youtu.be/91lHNKVVvQ4) (12:42 min)<br>[Vídeo: Controles de Teams para seguridad y cumplimiento](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)||
-| Fundamentos: los componentes principales | [Vídeo](https://aka.ms/teams-foundations) | [Presentación de diapositivas](https://aka.ms/teams-foundations-deck) |
-| Cliente del escritorio de Windows | [Vídeo](https://aka.ms/teams-clients) | [Presentación de diapositivas](https://aka.ms/teams-clients-deck) |
+| Foundations: componentes principales | [Vídeo](https://aka.ms/teams-foundations) | [Presentación de diapositivas](https://aka.ms/teams-foundations-deck) |
+| Cliente de escritorio de Windows | [Vídeo](https://aka.ms/teams-clients) | [Presentación de diapositivas](https://aka.ms/teams-clients-deck) |
 | Gobierno, administración y ciclo de vida | [Vídeo](https://aka.ms/teams-governance) | [Presentación de diapositivas](https://aka.ms/teams-governance-deck) |
 | Seguridad y cumplimiento | [Vídeo](https://aka.ms/teams-security-compliance) | [Presentación de diapositivas](https://aka.ms/teams-security-compliance-deck) |
-| Información general de calidad de llamadas | [Vídeo](https://aka.ms/teams-quality) | [Presentación de diapositivas](https://aka.ms/teams-quality-deck) |
+| Información general sobre la calidad de las llamadas | | [Presentación de diapositivas](https://aka.ms/teams-quality-deck) |
 | Introducción de reuniones | [Vídeo](https://aka.ms/teams-meetings-intro) | [Presentación de diapositivas](https://aka.ms/teams-meetings-intro-deck) |
 | Multimedia: por qué las reuniones son sencillas|[Vídeo](https://aka.ms/media-in-teams)  | [Presentación de diapositivas](https://aka.ms/media-in-teams-deck)|
 | Medios: flujo de medios | [Vídeo](https://aka.ms/teams-media-flows) | [Presentación de diapositivas](https://aka.ms/teams-media-flows-deck)  |
 | Llamadas de emergencia dinámicas | [Vídeo](https://aka.ms/teams-dec) |  [Presentación de diapositivas](https://aka.ms/teams-dec-deck) |
 | Eventos en directo | [Vídeo](https://aka.ms/teams-live-events-session) | [Presentación de diapositivas](https://aka.ms/teams-live-events-deck) |
-| Introducción al Sistema telefónico | [Vídeo](https://aka.ms/teams-phone-system) | [Presentación de diapositivas](https://aka.ms/teams-phone-system-deck) |
+| Introducción al sistema telefónico | [Vídeo](https://aka.ms/teams-phone-system) | [Presentación de diapositivas](https://aka.ms/teams-phone-system-deck) |
 | Enrutamiento directo | [Vídeo 1: Planeamiento del enrutamiento directo en Teams](https://aka.ms/teams-dr-plan)<br>[Vídeo 2: Configurar y administrar el enrutamiento directo en Teams](https://aka.ms/teams-dr-config)<br>[Vídeo 3: Migrar a enrutamiento directo en Teams](https://aka.ms/teams-dr-migrate)  | [Presentación de diapositivas](https://aka.ms/teams-direct-routing-deck) |
 | Actualización de Skype Empresarial a Teams | [Vídeo 1: Introducción a la actualización](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: Planificar la actualización](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: Coexistencia e interoperabilidad](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: Experiencia del administrador](https://aka.ms/teams-upgrade-admin) | [Presentación de diapositivas](https://aka.ms/teams-upgrade-deck)|
 

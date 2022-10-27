@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas en Microsoft Teams. Las colas de llamadas proporcionan un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 6fe298a3054165a95f496f8c1178a7fa8457542d
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: d4d263587e0ac78b2dff2949adcaa2af8133a3dc
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614233"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738566"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -44,7 +44,7 @@ Las colas de llamadas proporcionan:
 
 Antes de seguir los procedimientos de este artículo, asegúrese de que ha leído [Planear operadores automáticos y colas de llamadas de Teams](plan-auto-attendant-call-queue.md) y ha seguido los [pasos de introducción](plan-auto-attendant-call-queue.md#getting-started).
 
-## <a name="whats-new-for-call-queues-in-the-past-6-months"></a>Novedades de las colas de llamadas en los últimos 6 meses
+## <a name="whats-new-for-call-queues-in-the-past-six-months"></a>Novedades de las colas de llamadas en los últimos seis meses
 
 - Agosto
   - Ahora se admite **agregar un mensaje de saludo** (Texto a voz (TTS) para el saludo principal de la cola de llamadas.
@@ -232,7 +232,8 @@ Las cuentas de Teams de los agentes deben establecerse en el modo TeamsOnly. Los
 > El modo de conferencia es necesario si los usuarios de Teams necesitan consultar o transferir llamadas con colas de llamadas.
 >
 > Los agentes pueden oír la música configurada en espera en cola durante un máximo de 2 segundos al unirse por primera vez a la llamada.
-
+> 
+> Si la [grabación de cumplimiento](teams-recording-policy.md) está habilitada en los agentes, no se admite la combinación del modo de conferencia y el enrutamiento de Attendant. Si necesita usar el modo conferencia, seleccione **Enrutamiento en serie**, **Round robin** o **Longest idle** como **método de enrutamiento**. Si necesita usar el enrutamiento de Attendant, establezca el modo de conferencia en **Desactivado**.
 
 Una vez que haya seleccionado las opciones de respuesta de llamadas, seleccione el botón **Siguiente** en la parte inferior de la página **Agregar una cola de llamadas** .
 
@@ -321,6 +322,8 @@ Para las transferencias externas, consulte [Requisitos previos](./plan-auto-atte
 
 > [!NOTE]
 > Si el número máximo de llamadas se establece en 0, el mensaje de saludo no se reproducirá.
+>  
+> El correo de voz (personal) enviará llamadas al usuario y no directamente a su correo de voz como se indica. Soporte técnico está investigando este problema.
 
 Una vez que haya seleccionado las opciones de administración de desbordamiento de llamadas, seleccione el botón **Siguiente** en la parte inferior de la página **Agregar una cola de llamadas** .
 
@@ -339,6 +342,9 @@ Por ejemplo, puede que el autor de llamada deje un correo de voz para los agente
 *Nuevo: los controles de **mensajes del sistema de omitir** correo de voz se exponen ahora al enrutamiento al correo de voz compartido, lo que también se aplica a las indicaciones **de Agregar un mensaje de saludo** .*
 
 Para las transferencias externas, consulte [Requisitos previos](./plan-auto-attendant-call-queue.md#prerequisites) y [las transferencias de números de teléfono externos: detalles técnicos](create-a-phone-system-auto-attendant.md?tabs=additional-resources) para el formato de números.
+
+> [!NOTE]
+> El correo de voz (personal) enviará llamadas al usuario y no directamente a su correo de voz como se indica. Soporte técnico está investigando este problema.
 
 Una vez que haya seleccionado las opciones de administración del tiempo de espera de llamadas, seleccione el botón **Enviar** en la parte inferior de la página **Agregar una cola de llamadas** .
 

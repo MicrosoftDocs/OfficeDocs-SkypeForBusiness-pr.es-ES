@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo cargar aplicaciones personalizadas en la tienda de aplicaciones de Teams de su organización.
-ms.openlocfilehash: 0b48061ab005e64d6fb6385fabb48f3b49ff87f0
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 8886c2c0904e7ca9c9e0de1e5641b8587ffe50bf
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614593"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738586"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar una aplicación personalizada cargando un paquete de aplicación
 
@@ -119,7 +119,7 @@ Puede actualizar la aplicación en la página Administrar aplicaciones del Centr
 
 ### <a name="end-user-update-experience"></a>Experiencia de actualización para el usuario final
 
-En la mayoría de los casos, después de publicar una nueva versión de una aplicación, se actualiza automáticamente para los usuarios finales. Para obtener más información, consulta [experiencia de actualización de aplicaciones para el usuario final](apps-update-experience.md).
+En la mayoría de los casos, después de publicar una nueva versión de una aplicación, se actualiza automáticamente para los usuarios finales que han agregado la aplicación a su cliente de Teams. Para obtener más información, consulta [experiencia de actualización de aplicaciones para el usuario final](apps-update-experience.md).
 
 ## <a name="remove-a-custom-app-from-your-organizations-store"></a>Quitar una aplicación personalizada de la tienda de su organización
 

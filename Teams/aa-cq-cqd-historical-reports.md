@@ -21,75 +21,135 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: Obtenga información sobre cómo usar el informe de Power BI del panel de calidad de llamadas para ver los datos históricos del operador automático y de la cola de llamadas.
-ms.openlocfilehash: 23ce3663492ae84175825af4acc3772850935d3b
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+description: Obtenga información sobre cómo usar el operador automático de Teams & informe de informe histórico de la cola de llamadas de Power BI para ver los datos históricos del operador automático y de la cola de llamadas.
+ms.openlocfilehash: 2afae8986f1184f1394e806b84aa1ab242c07df2
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614213"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738696"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Informe de historial de la cola de llamadas del operador automático &
 
+Esta plantilla de Power BI proporciona tres informes que permiten a las organizaciones informar sobre el número de llamadas que procesan los operadores automáticos y las colas de llamadas.  También proporciona información sobre el rendimiento de los agentes.
+
+## <a name="v301-published-on-october-26-2022"></a>V3.0.1 publicado el 26 de octubre de 2022
+
 La plantilla de Power BI Informe histórico de la cola de llamadas del operador automático de Teams & proporciona los tres informes siguientes:
 
-- [Operador automático](media/cqd-teams-aa-cq-historical-report-sample-aa.png) : muestra análisis de llamadas que llegan a sus operadores automáticos.
-- [Cola de llamadas](media/cqd-teams-aa-cq-historical-report-sample-cq.png) : muestra análisis de llamadas que llegan a las colas de llamadas.
-- [Línea de tiempo del agente](media/cqd-teams-aa-cq-historical-report-sample-at.png) : muestra una vista de escala de tiempo de agentes que están activos en las llamadas de la cola de llamadas.
+- El informe Operador automático muestra análisis de las llamadas que llegan a sus operadores automáticos.
+- El informe Cola de llamadas muestra análisis de las llamadas que llegan a las colas de llamadas.
+- El informe Escala de tiempo del agente muestra una vista de escala de tiempo de los agentes que están activos en las llamadas de la cola de llamadas.
 
-Estos informes usan datos del almacén de datos del [panel de calidad de llamadas](CQD-Power-BI-query-templates.md) . Los informes permiten a las organizaciones informar sobre el número de llamadas que procesan los operadores automáticos y las colas de llamadas.  Los informes también proporcionan información sobre el rendimiento del agente en las colas de llamadas.
+Estos informes usan datos del servicio recopilador de análisis de aplicaciones de voz (VAAC).
 
-### <a name="v163-published-on-august-24-2022"></a>V1.63 publicado el 24 de agosto de 2022
+>[!NOTE]
+> La recopilación de datos históricos está en curso en todas las regiones.  Habrá 30 días de datos históricos disponibles en diferentes momentos, y todas las regiones tendrán 30 días completos de datos a más tardar el 25 de noviembre de 2022.
 
-## <a name="prerequisites"></a>Requisitos previos
+## <a name="v3xx-prerequisites"></a>Requisitos previos de V3.x.x
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-Debes tener Power BI Desktop instalado. Puedes instalarlo desde [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
+Debes tener Power BI Desktop instalado. Puedes instalar y usar la versión gratuita de [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
-Puede usar la versión gratuita de Power BI Desktop. La versión mínima compatible es 2.85.681.0 (septiembre de 2020).
+La versión mínima compatible es 2.85.681.0 (septiembre de 2020).
 
 ### <a name="permissions-to-access-the-cqd-pipeline"></a>Permisos para obtener acceso a la canalización del CQD
 
-La cuenta que use para ver el informe histórico debe tener permisos para acceder a la canalización de datos del CQD. Para obtener más información, vea [Rol de acceso del CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
+Aunque esta versión de los informes no usa la canalización de datos del Panel de calidad de llamadas (CQD), la cuenta usada para ver los datos históricos aún requiere acceso al panel de calidad de llamadas. Para obtener más información, vea [Rol de acceso del CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
+- Este requisito se quitará en una versión futura.
 
-## <a name="installation"></a>Instalación 
+## <a name="v3xx-installation"></a>Instalación V3.x.x 
 
 En los pasos siguientes se supone que ya ha instalado Power BI Desktop en el equipo y que su cuenta tiene los permisos necesarios para acceder a la canalización de datos del CQD.
 
 Siga estos pasos:
 
-- Descargue las [plantillas de consulta de Power BI del CQD](https://www.microsoft.com/download/details.aspx?id=102291) y guarde el archivo zip en un directorio del equipo.
+1. Descargue y guarde el operador [automático de Teams & los informes históricos de la cola de llamadas V3.0.1.zip](https://www.microsoft.com/download/details.aspx?id=104623) archivo en su equipo.
 
-- Haz doble clic en el archivo zip para abrirlo.
+1. Abra el archivo zip.
 
-- Haga doble clic en el archivo de plantilla "Operador automático de Teams de CQD & informe de historial de la cola de llamadas V1.60.pbit". El Power BI Desktop debería iniciarse.
+1. Abra el archivo de `Teams Auto Attendant & Call Queue Historical Reports V3.0.0.pbit` plantilla. Power BI Desktop debería iniciarse.
 
-- Se le pedirá que seleccione la región de canalización de datos del CQD. Seleccione la región donde se encuentra el inquilino.
+1. Se le pedirá que seleccione el **origen de datos**.  Seleccione la `api.interfaces.records.teams.microsoft.com` entrada.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Captura de pantalla que selecciona la región de la canalización de datos del CQD.":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v300.png" alt-text="Captura de pantalla que selecciona el api.interfaces.records.teams.microsoft.com Soure de datos":::
 
-- La región donde se encuentra su inquilino se puede obtener mediante el cmdlet [Get-CsTenant](/powershell/module/skype/get-cstenant) .
+1. Se te pedirá que inicies sesión con una cuenta. Seleccione **Cuenta de la organización** y, a continuación, seleccione **Iniciar sesión**.
 
-    ```PowerShell
+  :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Captura de pantalla que muestra el inicio de sesión para V3.0.0.":::
+
+1. Selecciona **Conectar** y los datos se actualizarán.
+
+> [!NOTE]
+> Si usa v1.63 o una versión anterior, es posible que se produzca un error cuando v3.0.0 intenta recuperar los datos del VAAC.  Para resolver este error, es necesario borrar las credenciales anteriores de Power BI.
+> 
+> 1. Abra la plantilla v3.0.0 para borrar el error. 
+> 1. Seleccione Opciones **de archivo** > **& Configuración Configuración** > **del origen de datos**.
+> 1. Seleccione la lista desplegable para **Borrar permisos** y, a continuación, seleccione **Borrar todos los permisos**.
+> 1. Cierre la plantilla después de que se borren y reinicie Power BI. Se te pedirá que autorices de nuevo. 
+
+## <a name="v163-published-on-august-24-2022"></a>V1.63 publicado el 24 de agosto de 2022
+
+> [!IMPORTANT]
+> El soporte técnico para la plantilla V1.63 finalizará el 21 de noviembre de 2022.
+
+La **plantilla de Power BI Para el operador automático de Teams & informe histórico de la cola de llamadas** proporciona los tres informes siguientes:
+
+- El informe Operador automático muestra análisis de las llamadas que llegan a sus operadores automáticos.
+- El informe Cola de llamadas muestra análisis de las llamadas que llegan a las colas de llamadas.
+- El informe Escala de tiempo del agente muestra una vista de escala de tiempo de los agentes que están activos en las llamadas de la cola de llamadas.
+
+Estos informes usan datos del almacén de datos del [Panel de calidad de llamadas (CQD](CQD-Power-BI-query-templates.md) ). 
+
+## <a name="v163-prerequisites"></a>Requisitos previos de V1.63
+
+### <a name="power-bi-desktop"></a>Power BI Desktop
+Debes tener Power BI Desktop instalado. Puedes instalar y usar la versión gratuita de [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
+
+La versión mínima compatible es 2.85.681.0 (septiembre de 2020).
+
+### <a name="permissions-to-access-the-cqd-pipeline"></a>Permisos para obtener acceso a la canalización del CQD
+
+La cuenta que use para ver el informe histórico debe tener permisos para acceder a la canalización de datos del CQD. Para obtener más información, vea [Rol de acceso del CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
+
+## <a name="v163-installation"></a>Instalación v1.63 
+
+En los pasos siguientes se supone que ya ha instalado Power BI Desktop en el equipo y que su cuenta tiene los permisos necesarios para acceder a la canalización de datos del CQD.
+
+Siga estos pasos:
+
+1. Descargue y guarde el archivo zip de [plantillas de consulta de Power BI del CQD](https://www.microsoft.com/download/details.aspx?id=102291) en el equipo.
+
+1. Abra el archivo zip.
+
+1. Abra el archivo de `CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit` plantilla. Power BI Desktop debería iniciarse.
+
+1. Se le pedirá que seleccione la región de canalización de datos del CQD. Seleccione la región donde se encuentra el inquilino.
+
+  :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Captura de pantalla que selecciona la región de la canalización de datos del CQD.":::
+
+1. La región donde se encuentra su inquilino se puede obtener mediante el cmdlet [Get-CsTenant](/powershell/module/skype/get-cstenant) .
+
+    ```powershell
     (Get-CsTenant).ServiceInstance
 
 
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - La región se mostrará después de la **/** como en el ejemplo anterior donde la región es: noam
+    1. La región se mostrará después de la **/** como en el ejemplo anterior donde la región es `noam`.
 
- - El informe se iniciará con datos de ejemplo.
+ 1. El informe se iniciará con datos de ejemplo.
  
- - Para ver sus propios datos, seleccione **Actualizar** en la pestaña Inicio en Consultas en Power BI Desktop.
+ 1. Para ver sus propios datos, seleccione **Actualizar** en la pestaña **Inicio** en **Consultas** en Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de pantalla que selecciona la opción de actualización.":::
+   :::image type="content" source="media/aa-cq-historical-report-02-v163.png" alt-text="Captura de pantalla que selecciona la opción de actualización.":::
 
-- Se le pedirá que inicie sesión. Seleccione **Cuenta de la organización** y, a continuación, seleccione **Iniciar sesión**.
+1. Se le pedirá que inicie sesión. Seleccione **Cuenta de la organización** y, a continuación, seleccione **Iniciar sesión**.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de pantalla que muestra el inicio de sesión.":::
+  :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Captura de pantalla que muestra el inicio de sesión para V1.63.":::
 
-- Seleccione **Conectar** y vea cómo se actualizan los datos.
+1. Selecciona **Conectar** y los datos se actualizarán.
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>Latencia de datos y análisis de AA & CQ
 
@@ -108,17 +168,18 @@ El informe contiene todas las métricas de datos disponibles actualmente.
 En los pasos siguientes se supone que ya ha completado los pasos de instalación.
 
 Siga estos pasos:
+
 - Seleccione **la pestaña Vista** en la cinta de opciones.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Captura de pantalla que selecciona la pestaña vista para cambiar la combinación de colores.":::
+  :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Captura de pantalla que selecciona la pestaña vista para cambiar la combinación de colores.":::
 
 - Seleccione el esquema de color de la lista desplegable.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Captura de pantalla que muestra varias combinaciones de colores.":::
+  :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Captura de pantalla que muestra varias combinaciones de colores.":::
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>Definiciones de informes históricos del operador automático y de la cola de llamadas
 
-### <a name="cloud-auto-attendant-analytics"></a>Análisis de operadores automáticos en la nube
+### <a name="cloud-auto-attendant-analytics-report"></a>Informe de análisis de Operador automático en la nube
 
 #### <a name="report-description"></a>Descripción del informe
 
@@ -180,7 +241,7 @@ Siga estos pasos:
 |Suma de TotalCallCount (medida)         |Número entero             |Igual que antes, excepto será 0 si no hay llamadas en lugar de en blanco              |
 
 
-### <a name="cloud-call-queue-analytics"></a>Análisis de cola de llamadas en la nube
+### <a name="cloud-call-queue-analytics-report"></a>Informe de análisis de cola de llamadas en la nube
 
 #### <a name="report-description"></a>Descripción del informe
 
@@ -212,7 +273,7 @@ Siga estos pasos:
 |Recuento de Opt-In de agente y volumen de llamadas   |fCallQueueAnalytics -> Recuento de llamadas<br>fCallQueueAnalytics -> agente de cola de llamadas Opt In Count<br>fCallQueueAnalytics -> nombre del CQ<br>fCallQueueAnalytics -> Date |Ninguna |
 |Llamadas abandonadas                     |fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> TotalCallCount | La leyenda de resultados de llamadas de la cola de llamadas está abandonada |
 |Duración media de la sesión (segundos)    |fCallQueueFinalStateAction -> duración media de la cola de llamadas (seg.)<br>Leyenda de resultados de llamadas de la cola de llamadas |Duración media de la cola de llamadas (seg.) > 0 |
-|Destinos de desbordamiento o tiempo de espera de llamadas  |fCallQueueAnalytics -> Recuento de llamadas<br>fCallQueueAnalytics -> tipo de destino de la cola de llamadas<br>Leyenda de tipo de destino fCallQueue |Leyenda de tipo de destino de la cola de llamadas no contiene abandonado y agente respondido |
+|Destinos de desbordamiento o tiempo de espera de llamadas  |fCallQueueAnalytics -> Recuento de llamadas<br>fCallQueueAnalytics -> tipo de destino de la cola de llamadas<br>Leyenda de tipo de destino fCallQueue |La leyenda de tipo de destino de la cola de llamadas no contiene abandonado y el agente contestado |
 
 
 #### <a name="fcallqueueanalytics-cqd-fields-description"></a>Descripción de los campos fCallQueueAnalytics CQD
@@ -255,7 +316,7 @@ Siga estos pasos:
 |IsAbandoned                             |Verdadero/falso               |Verdadero si un agente no responde a la llamada                                   |
 
 
-### <a name="cloud-call-queue-agent-timeline"></a>Escala de tiempo del agente de cola de llamadas en la nube
+### <a name="cloud-call-queue-agent-timeline-report"></a>Informe escala de tiempo del agente de cola de llamadas en la nube
 
 #### <a name="report-description"></a>Descripción del informe
 
@@ -307,16 +368,17 @@ Siga estos pasos:
 
 - Solo hay 28 días de historial disponibles en el panel, ya que los datos de la cola de llamadas o del operador automático se consideran datos personales y están sujetos a las directivas de retención de privacidad de datos.
 
-- En algunos casos, el agente respondió el recuento de llamadas en el informe escala de tiempo del agente de cola de llamadas en la nube puede ser diferente al número de llamadas que se muestra en el historial de llamadas del cliente de Teams. El historial de llamadas del cliente de Teams es correcto. El soporte técnico se está investigando, pero no hay tiempo estimado para reparar disponible en este momento.
+- En algunos casos, el agente respondió el recuento de llamadas en el informe escala de tiempo del agente de cola de **llamadas** en la nube puede ser diferente al número de llamadas que se muestra en el historial de llamadas del cliente de Teams. El historial de llamadas del cliente de Teams es correcto. El soporte técnico se está investigando, pero no hay tiempo estimado para reparar disponible en este momento.
 
 - <sup>1</sup> **La fuente de llamada entrante** en el operador automático y los gráficos de la cola de llamadas muestran el origen final del tramo de llamada en lugar del origen del tramo de llamada inicial. Por ejemplo, si un operador automático recibe una llamada externa y transfiere la llamada a otro operador automático o a la cola de llamadas, el **origen de llamadas entrantes** se notificará como Interno.
 
 ## <a name="version-history"></a>Historial de versiones
+
 |Versión  |Fecha de publicación     |Nombre                                                           |Descripción                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
+|3.0.1    |26 de octubre de 2022   |Operador automático de Teams & informes históricos de la cola de llamadas v3.0.0        |Se quitó la prueba de entrada del origen de datos                   |
+|3.0.0    |25 de octubre de 2022   |Operador automático de Teams & informes históricos de la cola de llamadas v3.0.0        |Nuevo origen de datos back-end                             |
 |1.63     |24 de agosto de 2022    |Operador automático de Teams del CQD & informe de historial de la cola de llamadas V1.63.pbit |Consulte:<br>Operador automático de Equipos del CQD & informes históricos de la cola de llamadas: cambiar Log.docx en el archivo zip descargado para obtener una lista de cambios                                                                             |
 |1.60     |22 de julio de 2022      |Operador automático de Teams del CQD & informe histórico de la cola de llamadas V1.60.pbit |Consulte:<br>Operador automático de Equipos del CQD & informes históricos de la cola de llamadas: cambiar Log.docx en el archivo zip descargado para obtener una lista de cambios                                                                             |
 |1.00     |5 de noviembre de 2020   |Análisis combinado de CQ y AA 20201105.pbit                         |Versión inicial                                     |
-
-
 

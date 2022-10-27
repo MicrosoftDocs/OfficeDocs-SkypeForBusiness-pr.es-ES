@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo cambiar los metadatos y la apariencia de una aplicación para cambiar su nombre para una mejor adopción en su organización.
-ms.openlocfilehash: 7e2fe4545858980e3fc9d9784aea7b44256d52db
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: f12e6ead6c0d031100bcf30783de980986a14563
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377478"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738736"
 ---
 # <a name="use-app-customization-to-update-branding-of-apps-in-your-organizations-teams-store"></a>Usar la personalización de aplicaciones para actualizar la personalización de marca de las aplicaciones en la tienda de Teams de su organización
 
@@ -108,7 +108,7 @@ Después de unas horas, los usuarios de Teams pueden ver la aplicación personal
 
 Tenga en cuenta los siguientes detalles sobre la funcionalidad de personalización de aplicaciones:
 
-* Solo puedes personalizar [aplicaciones de terceros](deploy-apps-microsoft-teams-landing-page.md#third-party-apps-validated-by-microsoft) y no [aplicaciones personalizadas](deploy-apps-microsoft-teams-landing-page.md#custom-apps).
+* Solo puedes personalizar [aplicaciones de terceros](deploy-apps-microsoft-teams-landing-page.md#third-party-apps-created-by-independent-app-developers) y no [aplicaciones personalizadas](deploy-apps-microsoft-teams-landing-page.md#custom-apps-created-within-an-organization-for-internal-use).
 
 * No puedes personalizar ninguna aplicación en entornos de Government Community Cloud High (GCCH) ni del Departamento de Defensa (DoD).
 
@@ -118,7 +118,7 @@ Tenga en cuenta los siguientes detalles sobre la funcionalidad de personalizaci�
 
 * Solo tendrás una versión de la aplicación, ya que personalizar los detalles de la aplicación no crea una copia de la aplicación.
 
-* Al personalizar aplicaciones y cualquier descripción relacionada con una aplicación, asegúrate de seguir las directrices que el desarrollador de aplicaciones proporciona en su documentación o términos de uso. Se adhiere a las leyes de derechos de autor al usar imágenes de terceros.
+* Al personalizar aplicaciones y cualquier descripción relacionada con una aplicación, asegúrate de seguir las directrices que los desarrolladores de aplicaciones proporcionan en su documentación o términos de uso. Se adhiere a las leyes de derechos de autor al usar imágenes de terceros.
 
 * Administración datos de personalización proporcionados se almacenan en la región de almacenamiento de datos más cercana.
 

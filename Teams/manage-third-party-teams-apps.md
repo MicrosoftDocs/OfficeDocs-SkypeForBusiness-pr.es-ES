@@ -18,18 +18,18 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar el acceso a las aplicaciones de Teams en Microsoft 365.
-ms.openlocfilehash: ae11a72324bb4382012c751150a254773c9145b7
-ms.sourcegitcommit: c627bd1df17aefdc353bc4da6db169dfe169031e
+ms.openlocfilehash: 01aee1ebd59b52f05db36303d60358b86b95cf84
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68680558"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738806"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>Administrar el acceso a las aplicaciones de Teams en Microsoft 365
 
 Los desarrolladores de aplicaciones pueden mejorar sus aplicaciones de Microsoft Teams para que funcionen en Outlook y en Office.com, además de la aplicación que funciona en Teams. Los usuarios finales pueden usar las aplicaciones mejoradas en Teams, en Microsoft Outlook y Microsoft Office.com después de la mejora. Actualmente, solo los usuarios finales de [la versión dirigida](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) pueden ver y usar estas aplicaciones específicas en Teams, Outlook y Office.com. Hay disponible una notificación sobre este cambio en el [centro de mensajes](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280).
 
-## <a name="manage-the-enhanced-apps-access-microsoft-365"></a>Administrar el acceso de las aplicaciones mejoradas a Microsoft 365
+## <a name="manage-users-access-to-the-enhanced-apps"></a>Administrar el acceso de los usuarios a las aplicaciones mejoradas
 
 La experiencia de administración de Teams existente se aplica para controlar el acceso a estas aplicaciones. Los administradores de Teams usan el Centro de administración de Teams para administrar el acceso a las aplicaciones. Como administrador de Teams, puede permitir que usuarios finales específicos usen las aplicaciones mejoradas o administren su acceso a las aplicaciones mejoradas en Teams, en Outlook y en Office.com.
 
