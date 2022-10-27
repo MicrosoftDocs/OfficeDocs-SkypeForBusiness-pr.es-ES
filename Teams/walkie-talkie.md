@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c575e3eb41654a579ec09c67975490db3dce194d
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: c426606cae959e4d1134fd7a1551b33484c06d9d
+ms.sourcegitcommit: e0dfa7dbfb03c41f096ed0ad80f44de8e147ed26
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655836"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68743145"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicación Walkie Talkie en Microsoft Teams
 
@@ -38,7 +38,7 @@ Con Walkie Talkie en Teams, los trabajadores de primera línea pueden comunicars
 
 ## <a name="license-requirements"></a>Requisitos de licencia
 
-Walkie Talkie se incluye en todas las licencias de pago de Teams en [Las suscripciones de Microsoft 365 y Office 365](/office365/servicedescriptions/teams-service-description). Para obtener más información sobre cómo obtener Teams, consulte [मैले कसरी obtener acceso a Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
+Walkie Talkie se incluye en todas las licencias de pago de Teams en [Las suscripciones de Microsoft 365 y Office 365](/office365/servicedescriptions/teams-service-description). Para obtener más información sobre cómo obtener Teams, consulte [Cómo obtener acceso a Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
 
 ## <a name="deploying-walkie-talkie"></a>Implementar Walkie Talkie
 
@@ -107,7 +107,7 @@ Los trabajadores de primera línea a menudo necesitan hablar y recibir llamadas 
 
 #### <a name="rugged-android-phones"></a>Teléfonos Android resistentes
 
-- Crosscall [Core-X4](https://www.crosscall.com/en_FR/core-s4-1004010501053.html), [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html), [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html), [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html) y [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
+- Crosscall [Core-X4](https://www.crosscall.com/en_FR/core-x4-1001010801327.html), [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html), [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html), [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html) y [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
   - Configuración manual: Con Teams instalado, vaya a **Botones** **de configuración** > . En el botón Dedicado (1 o 2), seleccione **Prensa larga** y, a continuación, elija **Aplicación PTT**. Seleccione la rueda azul junto a **Personalizado** y seleccione **Teams**.
 - Kyocera [DuraForce Ultra 5G](https://kyoceramobile.com/duraforce-ultra-5g/) y [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
   - Configuración manual: Con Teams instalado, vaya a **Configuración** >  de **teclas programables**. Elija la **tecla PTT** o **mantenga presionado** (en función del dispositivo) y seleccione **Teams**.
