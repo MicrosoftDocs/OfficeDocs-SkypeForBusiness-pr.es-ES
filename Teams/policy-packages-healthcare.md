@@ -4,7 +4,7 @@ ms.author: v-lanachin
 author: LanaChin
 manager: samanro
 ms.reviewer: aaglick
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
@@ -23,12 +23,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas de Teams para su organización sanitaria.
-ms.openlocfilehash: 9bd4d78a02bf32be68cb13ac85daff886986876d
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 67f799b07ec31cbb376d2927e78d179494b607b4
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046940"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784165"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Paquetes de directivas de Teams para sanidad
 

@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: aaku
 manager: samanro
-ms.topic: article
+ms.topic: conceptual
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 358a0078eed6f693922b3aaedb3eea38a8bb7f82
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: fcdab98ef1d7297b3d72c8e0f2797a0afdde569e
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655866"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784175"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
@@ -55,7 +55,7 @@ Turnos está disponible en todas las SKUs de Enterprise donde Teams esté dispon
 
 ## <a name="location-of-shifts-data"></a>Ubicaciones de datos de Turnos
 
-Los datos de turnos se almacenan actualmente en Azure en centros de datos de Asia Pacífico (APAC), la Unión Europea (UE) y Norteamérica. Para obtener más información acerca de la ubicación en la que se almacenan los datos, consulte [¿Dónde están mis datos](http://o365datacentermap.azurewebsites.net/)?
+Actualmente, los datos de turnos se almacenan en Azure en centros de datos de Asia Pacífico (APAC), la Unión Europea (UE) y Norteamérica. Para obtener más información acerca de la ubicación en la que se almacenan los datos, consulte [¿Dónde están mis datos](http://o365datacentermap.azurewebsites.net/)?
 
 Para obtener más información sobre los datos de Turnos, incluidos el almacenamiento, la retención, la recuperación y el cifrado de datos de [Turnos, vea Preguntas frecuentes sobre los datos de Turnos](shifts-data-faq.md).
 

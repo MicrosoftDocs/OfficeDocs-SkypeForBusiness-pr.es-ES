@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: anach,v-jasuk
 manager: samanro
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -26,12 +26,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: ce10e758352396dd1ac8e6334e54c4e298df9a0f
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: adc9a0e5cc5f8381744e2b2797aaa71c985213da
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655856"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784185"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Lists para su organización en Microsoft Teams
 

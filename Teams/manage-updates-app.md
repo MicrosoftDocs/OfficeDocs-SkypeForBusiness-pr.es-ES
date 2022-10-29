@@ -4,7 +4,7 @@ author: daisyfell
 ms.author: daisyfeller
 ms.reviewer: samanro
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b51ba430a68e4b8979973ec5051036df39280e22
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 214ae4f925f3a33e82fb4eac8186f02e0a65cbc2
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656146"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784425"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación de Novedades para su organización en Microsoft Teams
 
@@ -147,5 +147,5 @@ Cada usuario puede crear como máximo 400 plantillas de Novedades, y cada planti
 
 Desde la aplicación de Teams Novedades, los usuarios tienen acceso para crear nuevas actualizaciones y ver las actualizaciones que han enviado y recibido. Los usuarios no tendrán acceso a Novedades creadas por otros usuarios a menos que sean lectores de la solicitud.
 
-> [!Note]
+>[!Note]
 > A un usuario se le asigna un rol de visor de una solicitud si forma parte del chat o canal en el que se creó el informe de actualización o si el creador de la plantilla los agrega manualmente como visor. No podrán tomar medidas en la solicitud si no se les proporcionó ese rol cuando se creó el informe.

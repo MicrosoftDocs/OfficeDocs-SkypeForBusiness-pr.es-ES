@@ -4,7 +4,7 @@ author: lanachin
 ms.author: v-lanachin
 ms.reviewer: aaku
 manager: samanro
-ms.topic: article
+ms.topic: conceptual
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -23,12 +23,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 35aaa2ed083c4e8d52c6154f31fbfc537cee9cdc
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: a8b6620b86154ba3903024d3b48c53e717b204a5
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046740"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784455"
 ---
 # <a name="shifts-data-faq"></a>Preguntas más frecuentes sobre los datos de Turnos
 
@@ -106,7 +106,26 @@ Hoy en día, no eliminamos los datos de turnos. Con [las API de Shifts Graph](/g
 
 ## <a name="can-shifts-data-be-moved-in-a-tenant-to-tenant-migration"></a>¿Se pueden mover los datos de Turnos en una migración de espacio empresarial a inquilino?
 
-Los datos de turnos se pueden migrar de un inquilino a otro inquilino a petición específica. Tenga en cuenta que la migración de espacio empresarial a inquilino no se admite de forma rápida, pero se puede plantear como una solicitud de cliente.
+Para migrar los datos de Turnos existentes a otro espacio empresarial, tendrá que exportar las programaciones de Turnos para un intervalo de fechas, modificar los nombres de usuario (si es necesario) y, a continuación, importar las programaciones al espacio empresarial de destino. Puede exportar hasta 100 días de datos de Turnos a la vez. El intervalo de fechas puede estar en el pasado o en el futuro. Si necesita exportar datos durante un período de tiempo superior a 100 días, repita el proceso.
+
+Antes de migrar los datos de Turnos, asegúrese de que se cumplen los siguientes requisitos:
+
+- El dominio del inquilino de destino, los equipos y los miembros del equipo ya deben existir. La migración no crea equipos ni cambia la pertenencia o la propiedad de los equipos.
+- La aplicación Turnos debe configurarse en equipos en el espacio empresarial de destino y tener una programación vacía. Tenga en cuenta que la migración no reemplaza ni elimina datos existentes. Esto significa que, si un equipo tiene una programación existente, es posible que los usuarios vean turnos duplicados o conflictivos, que deben resolverse manualmente.
+- Las solicitudes abiertas (como solicitudes de permuta y permisos) que están pendientes de aprobación no se migran. Se recomienda cerrar las solicitudes abiertas antes de empezar a migrar los datos.
+
+Esta es una descripción general de los pasos para migrar los datos de Turnos a otro espacio empresarial.
+
+1. En el espacio empresarial de origen, para cada equipo, exporte la programación turnos:
+    1. En Turnos, en la página **Programación**, vaya a **Más opciones (...)** >  **Programación de exportación**.
+    1. Seleccione un intervalo de fechas.
+    1. Activa **Exportar en un formato que se pueda importar** y, a continuación, selecciona **Exportar**. Los datos de programación de turnos se exportan a un archivo de Excel.
+1. Como parte de la migración, si algún miembro del equipo está cambiando su dominio de correo electrónico, actualice manualmente el archivo de Excel para cambiar el nombre principal de usuario (UPN) de esos usuarios al dominio del inquilino de destino.
+1. En el espacio empresarial de destino, importe la programación a cada equipo.
+    1. En Turnos, en la página **Programación**, vaya a **Más opciones (...)** >  **Programación de importación**.
+    1. Seleccione **Cargar archivo**, vaya al archivo de Excel de ese equipo y, a continuación, seleccione **Abrir**.
+
+Para obtener más información, vea [La plantilla de Excel para turnos](https://support.microsoft.com/office/the-excel-template-for-shifts-6fc6a206-e7cc-4907-87b8-a296bae84ce3).
 
 ## <a name="related-articles"></a>Artículos relacionados
 

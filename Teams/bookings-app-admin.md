@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 manager: samanro
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 search.appverid: ''
 searchScope:
@@ -23,12 +23,12 @@ ms.collection:
 - highpri
 ms.reviewer: ''
 description: Obtenga información sobre cómo administrar la aplicación Bookings en Teams para los usuarios de su organización.
-ms.openlocfilehash: e016295f74acbdc6c39cdeab2f3e3b94bb0f7120
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: 3b3db2fed9177c089a27b89264ec85425d4ffbbf
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999525"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784215"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Administrar la aplicación Bookings en Microsoft Teams
 

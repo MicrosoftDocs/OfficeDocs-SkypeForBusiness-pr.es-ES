@@ -3,7 +3,7 @@ title: Administrar las aplicaciones en el Centro de administración de Microsoft
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
@@ -21,12 +21,12 @@ description: Obtenga información sobre cómo administrar aplicaciones de Teams.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: dc7dbf1a4866fa85551d6ec46f7ea54c164ba655
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 902b32be43e25c8262ba85bbbb56bd79d424e75c
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656056"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784195"
 ---
 # <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Información general sobre administración y gobierno de aplicaciones en el Centro de administración de Teams
 

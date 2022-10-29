@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: farhazk
 manager: samanro
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 searchScope:
@@ -20,12 +20,12 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 866025dad342f5abfb5b0722391dc754b3f00dd5
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 3cf50824119111d34668f4717eaf38f92de8bc64
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655846"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784335"
 ---
 # <a name="manage-the-approvals-app-in-microsoft-teams"></a>Administrar la aplicación Aprobaciones en Microsoft Teams
 
@@ -214,7 +214,7 @@ Obtenga más información sobre el [Registro de actividad de aplicaciones basada
 
 Desde la aplicación Aprobaciones de Teams, los usuarios tienen acceso para crear nuevas aprobaciones y ver las aprobaciones que han enviado y recibido. Los usuarios no tendrán acceso a Aprobaciones creadas por otros usuarios, excepto si son respondedores o lectores de la solicitud.
 
-> [!Note]
+>[!Note]
 > A un usuario se le asigna un rol de visor de una solicitud si forma parte del chat o canal en el que se creó la aprobación. No tendrán la capacidad de realizar acciones en la solicitud si no se les ha concedido ese rol cuando se creó la aprobación.
 
 ## <a name="approvals-e-signature-integration"></a>Integración de firma electrónica de aprobaciones

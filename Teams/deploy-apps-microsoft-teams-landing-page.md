@@ -2,7 +2,7 @@
 title: Información sobre las aplicaciones de Microsoft Teams
 ms.reviewer: ''
 description: Obtenga información sobre las aplicaciones, los bots y los conectores, y sobre cómo decidir qué implementar en Microsoft Teams según el perfil y los requisitos empresariales de su organización.
-ms.topic: article
+ms.topic: conceptual
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 1868b4e5e84803e24eacc812d638a961d6639606
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 1ff0095ef804f7e58dcbc81c45639228b0264da4
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738576"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784205"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Comprender las aplicaciones de terceros en Microsoft Teams
 

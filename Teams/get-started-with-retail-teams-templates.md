@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 manager: samanro
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: yinchang
 ms.collection:
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69644ce0261d37fb6a7a5e4270a68fb2a79a7d19
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 39b474231c2dcd536684514853a34672100801e5
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046920"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784315"
 ---
 # <a name="use-retail-team-templates"></a>Usar plantillas de equipo de venta minorista
 

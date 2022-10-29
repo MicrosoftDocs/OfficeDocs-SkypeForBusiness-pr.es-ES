@@ -17,12 +17,12 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 73c6098358d21b6fe2e3a0b15f3285a5a05ec082
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 0aa6a64b799f3d00262ab8a086d477bda482ac40
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271675"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784155"
 ---
 # <a name="teams-update-process"></a>El proceso de actualización de Teams
 
@@ -30,7 +30,7 @@ Las actualizaciones de aplicaciones web de Teams se publican normalmente el cuar
 
 Las actualizaciones de cliente de escritorio de Teams se publican mensualmente después de rigurosas pruebas internas y validación a través de nuestro Programa de adopción de tecnología (TAP). Las actualizaciones de los clientes de escritorio suelen comenzar el cuarto lunes del mes y se distribuyen gradualmente a los clientes durante el resto de la semana. Si se requiere una actualización crítica, Teams omite esta programación y publica la actualización en cuanto está disponible.
 
-El cliente de escritorio se actualiza automáticamente. Teams busca actualizaciones cada pocas horas en segundo plano, las descarga y, a continuación, espera a que el equipo esté inactivo para instalar la actualización de forma silenciosa.
+The desktop client updates itself automatically. Teams checks for updates every few hours behind the scenes, downloads it, and then waits for the computer to be idle before silently installing the update.
 
 Los usuarios también pueden descargar manualmente las actualizaciones seleccionando **Buscar actualizaciones** en el **...** menú desplegable situado junto al icono de **Perfil** en la parte superior derecha de la aplicación. Si hay una actualización disponible, se descargará y se instalará de forma silenciosa cuando el equipo esté inactivo.
 
@@ -48,7 +48,7 @@ Teams no ofrece a los administradores la capacidad de implementar actualizacione
 
 ## <a name="servicing-agreement"></a>Acuerdo de mantenimiento
 
-El cliente de Teams es un servicio en línea moderno que se actualiza automáticamente cada dos semanas. Dado que Teams se rige por la directiva moderna de ciclo de vida, se espera que los usuarios permanezcan en la versión más actualizada del cliente de escritorio. Las actualizaciones automáticas garantizan que los usuarios tengan las funcionalidades, las mejoras de rendimiento, la seguridad y la confiabilidad del servicio más recientes.
+Como parte de un servicio en línea moderno, el cliente de Teams se actualiza aproximadamente una vez al mes. El cliente instala automáticamente las actualizaciones cuando están disponibles para ese cliente. Dado que escalonamos la disponibilidad de actualizaciones en todo el mundo, algunos clientes de su organización podrían recibir nuevas actualizaciones antes que otros. Dado que Teams se rige por la directiva moderna de ciclo de vida, se espera que los usuarios permanezcan en la versión más actualizada del cliente de escritorio. Las actualizaciones automáticas garantizan que los usuarios tengan las funcionalidades, las mejoras de rendimiento, la seguridad y la confiabilidad del servicio más recientes.
 
 Para identificar cuándo los clientes de escritorio no están actualizados, se mostrará una alerta desde la aplicación si la versión actual del usuario tiene entre uno y tres meses de antigüedad y si hay una nueva versión disponible. Esta mensajería desde la aplicación anima a los usuarios a actualizar a la versión más reciente de Teams o, si es necesario, a ponerse en contacto con su administrador de TI para que este se encargue de ello. Los usuarios de clientes de escritorio de Teams con más de tres meses de antigüedad verán una página de bloqueo que ofrece las opciones para actualizar ahora, ponerse en contacto con su administrador de TI o continuar con Teams en la Web.
 

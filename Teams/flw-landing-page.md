@@ -4,7 +4,7 @@ author: lanachin
 ms.author: samanro
 ms.reviewer: aaglick
 manager: pamgreen
-ms.topic: article
+ms.topic: landing-page
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -16,12 +16,12 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0aa08f0c659e208be037c30cadf73ea7622bf8e0
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: e9b45aa3b89b8b15444c5b5ab5bbd93a9b002ac8
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046930"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784405"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>Introducción a Teams para personal de primera línea
 
