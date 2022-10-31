@@ -1,5 +1,5 @@
 ---
-title: Administración de actualizaciones de Salas de Microsoft Teams Pro Management
+title: administración de actualizaciones de administración de Salas de Microsoft Teams Pro
 author: altsou
 ms.author: altsou
 manager: serdars
@@ -17,17 +17,17 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: supervisión proactiva de las salas de reuniones.
 f1keywords: ''
-ms.openlocfilehash: bddfc17df4f6fc7bd28e2dcc00fc55b5653b8687
-ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
+ms.openlocfilehash: 285f0bd9862dc5d4c490587e574aa53e4869df80
+ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "68243761"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68792879"
 ---
 # <a name="update-management"></a>Administración de actualizaciones 
 Una sala de reuniones moderna está equipada con un dispositivo de Salas de Microsoft Teams y otros periféricos, como una cámara, micrófono o altavoz, y potencialmente más dispositivos para crear una experiencia de reunión inclusiva y eficaz. El equipo de diferentes tipos de OEM proporciona la experiencia organizativa exacta deseada; sin embargo, deben mantenerse con software y firmware de forma continuada.  
 
-Salas de Microsoft Teams Pro Management garantiza que cada sala de su organización se mantendrá en los niveles recomendados para ofrecer una sala que siempre esté lista y funcione correctamente. El objetivo de Microsoft es reducir la complejidad y el trabajo en las piernas del personal operativo con inteligencia y automatización. La solución de problemas o los diagnósticos se realizan lo más rápido posible. 
+Salas de Microsoft Teams Pro Administración garantiza que cada salón de su organización se mantendrá a niveles recomendados para entregar un salón que siempre esté listo y funcione correctamente. El objetivo de Microsoft es reducir la complejidad y el trabajo en las piernas del personal operativo con inteligencia y automatización. La solución de problemas o los diagnósticos se realizan lo más rápido posible. 
 
 ## <a name="transitioning-a-device-to-pro-management"></a>Transición de un dispositivo a Administración profesional 
 La incorporación de dispositivos de sala a Pro Management suele tener un historial y una práctica de administración de cambios diferentes de nuestra guía.  
@@ -54,7 +54,7 @@ Hay algunos requisitos previos para recibir actualizaciones a través del servic
 |Servicios de Sincronización de Logitech  |Debe instalarse y ejecutarse en los dispositivos de la sala de reuniones logitech. Los servicios de sincronización requeridos se instalarán automáticamente desde Windows Novedades a menos que se bloqueen. También se puede instalar el paquete de sincronización completo. |
 |Actualizaciones del sistema operativo Windows |Debe mantenerse habilitado y no redirigido a WSUS, ni bloqueado desde una perspectiva de red. No se deben usar directivas GPO ni MDM para administrar las actualizaciones del sistema operativo. |
 |Actualizaciones de Microsoft Store   |Debería estar desactivada. Servicios administrados desactivará las actualizaciones de la Store si se encuentran activadas. |
-|Software antivirus |Si está ejecutando software AV en estos dispositivos, debe asegurarse de que AV tiene exclusiones en su lugar para los dll de Teams y Skype. Consulta aquí para obtener más detalles. |
+|Software antivirus |Si está ejecutando software AV en estos dispositivos, debe asegurarse de que AV tiene exclusiones en su lugar para los dll de Teams y Skype. Consulte [Cómo incluir o excluir Teams de aplicaciones antivirus o DLP](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp) para obtener más información. |
 |Software adicional |Es necesario revisar software adicional, como la visualización de escritorio remoto de terceros, etc. con Servicios administrados para descartar los efectos secundarios. |
 |Administración de cambios adicionales|Puede interferir con las actualizaciones cubiertas y no debería introducirse. |
 

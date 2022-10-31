@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a44245d31e6fc9f4b58c17832e596c6d73b56635
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: f9bca2e40263bdbce65a64bf0da2d5864941fc46
+ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046660"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68792799"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -58,7 +58,7 @@ No todo el contenido de Teams es eDiscoverable. En la tabla siguiente se muestra
 |Mesas||
 |Clip de vídeo de Teams (TVC)|Busca en TVC con la palabra clave "Video-Clip" y "guardar como" un archivo de .mp4 para cada archivo adjunto de TVC haciendo clic con el botón derecho en la vista previa (la búsqueda por palabra clave estará disponible en octubre de 2022). Los datos de TVC se pueden detectar en [conjuntos de revisión de exhibición](/microsoft-365/compliance/add-data-to-review-set) de documentos electrónicos.
 
-<sup>1</sup> Los metadatos de reunión (y llamada) incluyen lo siguiente:
+<a name="teams-metadata"></a><sup>1</sup> Los metadatos de reunión (y llamada) incluyen lo siguiente:
 
 - Hora de inicio y finalización de la reunión y duración
 - Unirse a la reunión y dejar eventos para cada participante
