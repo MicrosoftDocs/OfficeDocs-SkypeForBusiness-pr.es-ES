@@ -16,12 +16,12 @@ ms.collection:
 ms.topic: reference
 search.appverid: MET150
 description: En este artículo se proporcionan instrucciones sobre cómo habilitar el registro de entrada y la liberación de salas en dispositivos de paneles de Teams.
-ms.openlocfilehash: 31cdab94ddb6a5c6fdc017b537f446e58aa1c2c5
-ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
+ms.openlocfilehash: d5998049faf1e3c8c25b3e49470291bb20f97eea
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/09/2022
-ms.locfileid: "67298330"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801861"
 ---
 # <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Registro y liberación de salas en paneles de Microsoft Teams
 
@@ -41,7 +41,7 @@ El registro de entrada y la liberación de la sala están desactivadas de forma 
 
 2. Vaya a **Configuración > Configuración del dispositivo > Administración configuración > configuración de administrador de Teams > Reuniones**.
 
-3. Active Sala de liberación si nadie se registra.
+3. Active **Sala de liberación si nadie se registra**.
 
 4. Para ajustar la cantidad de tiempo que los usuarios tienen que protegerse antes de liberar el salón, vaya a **Liberar después de:** y seleccione una opción en la lista desplegable.  
 

@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0d47107771add6e091afeeddc35d47110d7938
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: b5d3aa5e3bf56f5fe5a3c0ecef428b2d7a3c7dce
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614643"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801900"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Usar el cifrado de un extremo a otro para las llamadas de Microsoft Teams uno a uno
 
@@ -65,6 +65,8 @@ Las siguientes características avanzadas no están disponibles durante una llam
 - Añadiendo un participante
 
 - Grabación
+
+- Aplicaciones
 
 Además, si su organización usa la grabación de cumplimiento, el cifrado de un extremo a otro no está disponible. Para obtener más información sobre cómo Teams admite la grabación de cumplimiento, vea [Introducción a la grabación basada en directivas de Teams para llamadas y reuniones](teams-recording-policy.md).
 

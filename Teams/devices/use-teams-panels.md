@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artículo proporciona instrucciones sobre cómo usar dispositivos de paneles de Teams.
-ms.openlocfilehash: f9d67ce6c41e351239457edc4a605964c7bcae27
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fff3df797e043b83662aacc9a67ef1af45b733a4
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268445"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801781"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Cómo usar paneles de Microsoft Teams
 
@@ -171,27 +171,20 @@ Los dispositivos de paneles proporcionan dos tipos de configuración de administ
 
 ### <a name="access-panels-app-settings"></a>Configuración de la aplicación Paneles de acceso
 
-Puede acceder a la configuración específica de la **aplicación de paneles** mediante la opción Configuración de aplicaciones de **paneles** en la configuración de administración. Los pasos para acceder a la **configuración de la aplicación paneles** pueden diferir en función del OEM del dispositivo.
+Puede acceder a la configuración específica de la **aplicación paneles** mediante la opción **de configuración de administrador de Teams** en la configuración de administración. Los pasos para acceder a la **configuración de administrador de Teams** pueden diferir en función del OEM del dispositivo.
 
-Para acceder a la opción **Configuración de la aplicación Paneles** :
+Para acceder a la opción **de configuración de administrador de Teams** :
 
 1. Pulse el icono **Configuración** en la pantalla Inicio.
 2. En la pantalla **Configuración** , pulse **Configuración del dispositivo**.
-3. Pulse en **configuración Administración**.
 
     > [!NOTE]
     > Según el OEM del dispositivo, es posible que tengas que escribir la contraseña de administrador del dispositivo ahora o después del paso siguiente.
 
-4. Desplázate hacia abajo para encontrar la opción **Configuración de la aplicación Paneles** . Púlsalo.
-5. Pulse el botón **Configuración de la aplicación Paneles** en la pantalla de la derecha.
-    Se muestra la pantalla con la configuración de la **aplicación de paneles** disponible.
+3. Desplácese hacia abajo para encontrar la opción **de configuración de administrador de Teams** . Púlsalo.
 
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="Esta captura de pantalla muestra la pantalla con la configuración de la aplicación Paneles disponibles.":::
-
-    Usa esta pantalla para actualizar la siguiente configuración de la **aplicación Paneles** para tu dispositivo:
-
-    - [Papel pintado](#update-the-wallpaper)
-    - [Indicador LED](#change-the-busy-state-led-color)
+> [!NOTE]
+> Algunos OEM pueden reemplazar la opción **de configuración de administrador de Teams** por su propia opción personalizada. Si no ve la opción **de configuración de administrador de Teams** , consulte la documentación del dispositivo para obtener instrucciones sobre cómo acceder a la configuración de administración del panel.
 
 #### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Emparejar un Panel de Teams con una sala de Microsoft Teams en Android
 
@@ -199,11 +192,11 @@ Para emparejar una Panel de Teams y una sala de Teams en Android, ambos disposit
 
 En la Panel de Teams, inicie sesión con sus credenciales de administrador.
 
-1. Vaya a **Configuración > Configuración de dispositivo > Administración Configuración > paneles de la aplicación Paneles > Reuniones > emparejamiento de dispositivos.**
+1. Vaya a **Configuración > Configuración del dispositivo > Configuración de administración de Teams > Emparejamiento de dispositivos.**
 
 2. Aparecerá un código de seis dígitos en la Salas de Teams en la parte frontal de la pantalla de la sala de Android. Escriba el código en el Panel de Teams.  
 
-#### <a name="meeting-check-in-and-room-release"></a>Registro de la reunión y liberación de la sala
+#### <a name="enable-or-disable-meeting-check-in-and-automatic-room-release"></a>Habilitar o deshabilitar la comprobación de reuniones y la liberación automática de salas
 
 La configuración de registro y de liberación de la sala permite a los usuarios registrarse en una reunión en los paneles de Teams en la sala que reservaron al comienzo de la reunión. Si un usuario no realiza la facturación dentro de un período de tiempo determinado después de la hora de inicio de la reunión, la sala se libera y está disponible para que otros puedan reservarla.
 
@@ -211,29 +204,49 @@ Cuando los paneles de Teams están emparejados con una sala de Microsoft Teams e
 
 Para habilitar el registro y la liberación de salas, consulte [Protección y liberación de salas en paneles de Microsoft Teams](check-in-and-room-release.md).
 
-#### <a name="room-capacity-warning"></a>Advertencia de capacidad de la sala
+#### <a name="enable-or-disable-check-out-manual-room-release"></a>Habilitar o deshabilitar la salida (versión manual de la sala)
 
-Los paneles de Teams que están emparejados con una sala de Teams en Android pueden mostrar un mensaje de advertencia cuando una sala de reuniones tiene o no capacidad. Para usar esta característica, la sala de Teams debe tener una cámara que admita el recuento de personas. Salas de Teams en las advertencias de capacidad de sala de soporte técnico de Android sin un Panel de Teams.
+Cuando la destección está habilitada, los usuarios finales pueden usar un Panel de Teams para liberar manualmente un salón. Liberar una sala finaliza la reserva actual y hace que la sala esté disponible para que otras personas la programen.
 
-Las advertencias de capacidad de la sala están desactivadas de forma predeterminada. Para activar la configuración desde el Panel de Teams, primero [empareje un Panel de Teams con una sala de Microsoft Teams en Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). El panel y la sala de Teams deben haber iniciado sesión en la misma cuenta de recursos.
+Esta función está deshabilitada de manera predeterminada, pero se puede habilitar por dispositivo. Para habilitar la característica, vaya a **Configuración > Configuración del dispositivo > la configuración de administrador de Teams > Reuniones** y, a continuación, active **Desteger**.
 
- A continuación, ve a **Configuración > Configuración del dispositivo > Administración configuración > configuración de la aplicación Panel**. A continuación, en **Reuniones**, active **La notificación de ocupación máxima de la sala**.
+> [!NOTE]
+> No se puede usar una Panel de Teams para liberar una sala si el dispositivo Salas de Teams con el que está emparejado se encuentra en una llamada activa.
 
-#### <a name="view-room-equipment"></a>Ver el equipamiento de la sala
+#### <a name="enable-or-disable-room-reservations"></a>Habilitar o deshabilitar las reservas de habitación
+
+Cuando las reservas de sala están habilitadas, los usuarios finales pueden usar un Panel de Teams para reservar una sala que esté disponible actualmente. Las reservas comienzan en el momento en que se pulsa el botón **Reserva** y su duración se puede aumentar en incrementos de 15 minutos hasta la hora de inicio de la siguiente reserva, o a un máximo de 24 horas.
+
+Esta función está habilitada de manera predeterminada, pero se puede deshabilitar por dispositivo. Para deshabilitar la característica, vaya a **Configuración > Configuración del dispositivo > configuración del administrador de Teams > Reuniones** y, a continuación, active **Deshabilitar reservas de sala**.
+
+#### <a name="enable-or-disable-extension-of-existing-room-reservations"></a>Habilitar o deshabilitar la extensión de las reservas de sala existentes
+
+Cuando se habilitan las extensiones de reserva de habitación, los usuarios finales pueden usar una Panel de Teams para ampliar la reserva existente de una sala si la sala está disponible después de la hora de finalización original de la reserva. Las reservas se pueden ampliar en incrementos de 15 minutos hasta la hora de inicio de la próxima reunión, o a un máximo de 24 horas en el futuro, lo que sea antes.
+
+Esta función está deshabilitada de manera predeterminada, pero se puede habilitar por dispositivo. Para habilitar la característica, vaya a **Configuración > Configuración del dispositivo > configuración del administrador de Teams > Reuniones** y, a continuación, active **Extender reserva de sala**.
+
+#### <a name="enable-or-disable-room-capacity-warnings"></a>Habilitar o deshabilitar advertencias de capacidad de sala
+
+Los paneles de Teams que están emparejados con una sala de Teams en Android pueden mostrar un mensaje de advertencia cuando una sala tiene o no capacidad. Para usar esta característica, la sala de Teams debe tener una cámara que admita el recuento de personas. Salas de Teams en las advertencias de capacidad de sala de soporte técnico de Android sin un Panel de Teams.
+
+Las advertencias de capacidad de sala están deshabilitadas de manera predeterminada, pero se pueden habilitar por dispositivo. Para habilitar la característica, haga lo siguiente:
+
+1. Siga los pasos de [Emparejar una Panel de Teams con una sala de Microsoft Teams en Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). El panel y el dispositivo de sala de Teams deben haber iniciado sesión en la misma cuenta de recursos.
+2. Vaya a **Configuración > Configuración del dispositivo > configuración de administrador de Teams > Reuniones** y active **la notificación de ocupación máxima de las salas**.
+
+#### <a name="enable-or-disable-viewing-of-room-equipment"></a>Habilitar o deshabilitar la visualización del equipo de sala
 
 Cuando esta característica está activada, los usuarios finales pueden ver qué equipo está disponible en un espacio de una Panel de Teams.
 
-Esta función está desactivada de manera predeterminada y se puede habilitar por dispositivo. Para activarlo, use [Set-Place](/powershell/module/exchange/set-place?view=exchange-ps) en PowerShell para configurar los nombres para mostrar de `AudioDeviceName`, `DisplayDeviceName`, `VideoDeviceName`, `Tags`y `IsWheelChairAccessible`.
+Esta función está desactivada de manera predeterminada y se puede habilitar por dispositivo. Para activarlo, use [Set-Place](/powershell/module/exchange/set-place) en PowerShell para configurar los nombres para mostrar de `AudioDeviceName`, `DisplayDeviceName`, `VideoDeviceName`, `Tags`y `IsWheelChairAccessible`.
 
 O bien, puede habilitar esta característica en el Centro de administración de Exchange. Vea [Editar un recurso](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) para obtener más información.
-
-
 
 #### <a name="update-the-wallpaper"></a>Actualizar el papel tapiz
 
 Cambiar la imagen de fondo de la pantalla Inicio.
 
-1. [**Configuración de la aplicación paneles de acceso**](#access-panels-app-settings).
+1. [Acceder a **la configuración de administrador de Teams**](#access-panels-app-settings).
 2. Pulsa **Fondos de pantalla**.
 3. En **Elegir la imagen**, seleccione una imagen para establecerla como imagen de fondo de la pantalla Inicio. Obtener una vista previa de la imagen seleccionada en **Fondo**.
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="Esta captura de pantalla muestra la pantalla de configuración del fondo de pantalla.":::
@@ -243,7 +256,7 @@ Cambiar la imagen de fondo de la pantalla Inicio.
 
 Los administradores pueden elegir rojo o púrpura como color LED para indicar que el espacio de reunión está ocupado o reservado. El color DEL LED para indicar que hay un espacio disponible siempre es verde y no se puede cambiar.
 
-1. [**Configuración de la aplicación paneles de acceso**](#access-panels-app-settings).
+1. [Acceder a **la configuración de administrador de Teams**](#access-panels-app-settings).
 2. Pulsa **Configuración de LED**.
 3. En **Elegir el color LED**, selecciona el color deseado.
 :::image type="content" source="../media/panels-led-settings.png" alt-text="Esta captura de pantalla muestra la configuración del estado de ocupado del color LED.":::

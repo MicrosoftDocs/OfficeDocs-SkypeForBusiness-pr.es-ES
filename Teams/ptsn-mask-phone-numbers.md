@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo enmascarar números de teléfono en las reuniones de Microsoft Teams
-ms.openlocfilehash: e1ef25f12bdf92bc58739284af2a624257169403
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: cad28ad446c39a45b865fd24767347fdf11bb9c8
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270825"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801771"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Enmascarar los números de teléfono en las reuniones de Microsoft Teams
 
@@ -38,9 +38,17 @@ Para casos de uso específicos del sector, los administradores tienen la capacid
 
 Esta configuración se aplica a todas las superficies de la reunión donde se exponen los números de teléfono.
 
+## <a name="use-teams-admin-center-to-set-phone-number-masking"></a>Usar el Centro de administración de Teams para configurar el enmascaramiento de números de teléfono
+
+Para cambiar la configuración de enmascaramiento de la red telefónica conmutada (RTC) en el Centro de administración de Teams, inicie sesión en el Centro de administración de Teams como administrador, seleccione **Puentes de conferencia** **de** >  reuniones en el panel de navegación izquierdo y, después, seleccione **Configuración del puente**. **Mostrar identificadores de llamada enmascarados** es una lista desplegable en la parte inferior del panel de configuración del puente y le permitirá elegir lo siguiente:
+
+- Para participantes externos a la organización
+- Para todos los participantes de la reunión
+- Deshabilitado
+
 ## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>Usar Microsoft PowerShell para establecer el enmascaramiento de números de teléfono
 
-Para cambiar la configuración de enmascaramiento de la red telefónica conmutada (RTC), establezca el **`MaskPstnNumbersType`** parámetro del cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) en una de las opciones disponibles.
+Para cambiar la configuración de enmascaramiento de RTC en PowerShell, establezca el **`MaskPstnNumbersType`** parámetro del cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) en una de las opciones disponibles.
 
 Para enmascarar los números de teléfono solo de participantes externos, ejecute el siguiente comando:
 

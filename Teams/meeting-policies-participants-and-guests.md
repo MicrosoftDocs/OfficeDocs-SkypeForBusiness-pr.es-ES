@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directivas de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: 5b489f312dd1fd1fcd9bdb6a301a65e76ab9ed91
-ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
+ms.openlocfilehash: 91d48a88aff2784a5e4d420b6ede7d03e3692678
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "68018096"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801791"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -34,17 +34,23 @@ Esta configuración controla qué participantes de la reunión esperan en la sal
 
 - [Permitir que personas anónimas se unan a una reunión](#let-anonymous-people-join-a-meeting)
 - [Permitir que los usuarios anónimos inicien una reunión](#let-anonymous-people-start-a-meeting)
+- [Quién puede presentar en reuniones](#who-can-present-in-meetings)
 - [Admitir automáticamente usuarios](#automatically-admit-people)
-- [Permitir que los usuarios de acceso telefónico omitan la sala de espera](#allow-dial-in-users-to-bypass-the-lobby)
+- [Los usuarios de acceso telefónico local pueden omitir la sala de espera](#dial-in-users-can-bypass-the-lobby)
+- [Reunirse ahora en reuniones privadas](#meet-now-in-private-meetings)
 - [Subtítulos en directo](#live-captions)
 - [Chatear en reuniones](#chat-in-meetings)
+- [Teams Q&A](#teams-qa)
+- [Reacciones de reuniones](#meeting-reactions)
+
+Esta configuración se encuentra en el Centro de administración de Teams, en **Directivas** >  de **reunión** de reuniones, en la sección **Participantes & invitados**.
 
 > [!NOTE]
 > Las opciones para unirse a una reunión pueden variar en función de la configuración de cada grupo de Teams y del método de conexión. Si el grupo tiene audioconferencia y la usa para conectarse, consulte [Audioconferencia](/microsoftteams/audio-conferencing-in-office-365). Si el grupo de Teams no tiene ninguna Audioconferencia, consulte [Unirse a una reunión en Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>Permitir que personas anónimas se unan a una reunión
 
-Esta configuración por organizador permite a cualquier persona unirse a las reuniones como usuario anónimo seleccionando el vínculo en la invitación a la reunión. Para más información, consulte[Únase a una reunión sin una cuenta de Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). La capacidad de los usuarios anónimos para unirse a reuniones también se controla en el nivel de su organización, la configuración más restrictiva será eficaz. Para obtener más información, consulte [Uso del Centro de administración de Microsoft Teams para configurar directivas para toda la organización](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
+Esta configuración por organizador permite a cualquier persona unirse a las reuniones como usuario anónimo seleccionando el vínculo en la invitación a la reunión. Para más información, consulte[Únase a una reunión sin una cuenta de Teams](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). La capacidad de los usuarios anónimos para unirse a reuniones también se controla en el nivel de su organización, la configuración más restrictiva será eficaz. Para obtener más información, consulte [Uso del Centro de administración de Microsoft Teams para configurar directivas para toda la organización](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Permitir que los usuarios anónimos inicien una reunión
 
@@ -52,6 +58,20 @@ Esta configuración es una directiva por organizador que permite reuniones de co
 
 > [!NOTE]
 > Si esta opción está desactivada y un usuario de marcado se une primero a la reunión y se le ubica en la sala de espera, el usuario de la organización debe unirse a la reunión con un cliente de Teams para admitir al usuario de la sala de espera. No hay ningún control de sala de espera disponible para los usuarios con acceso de marcado.
+
+## <a name="who-can-present-in-meetings"></a>Quién puede presentar en reuniones
+
+Esta es una directiva por usuario. Esta configuración le permite cambiar el valor predeterminado de la configuración **¿Quién puede encargarse de la moderación?** en **Opciones de reunión** en el cliente de Teams. Esta configuración de directiva afecta a todas las reuniones, incluidas las reuniones de Reunirse ahora.
+
+La configuración **¿Quién puede encargarse de la moderación?** permite a los organizadores de reuniones elegir quién puede moderar una reunión. Para obtener más información, consulte [Cambiar la configuración de los participantes para una reunión de Teams](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e) y [Roles en una reunión de Teams](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+
+Para especificar el valor predeterminado de la configuración **¿Quién puede presentar?** en Teams, establezca una de las siguientes opciones de configuración en la directiva:
+
+- **Organizadores, pero los usuarios pueden invalidarlo**: solo el organizador de la reunión puede ser moderador y todos los participantes de la reunión se designan como asistentes. Este parámetro corresponde a la configuración **Solo yo** de Teams.
+- **Todos los usuarios de la organización, pero el usuario pueden invalidarlo**: los usuarios autenticados de la organización, incluidos los usuarios invitados, pueden ser moderadores. Esta configuración corresponde a la **configuración de Personas en mi organización** en Teams.
+- **Todos, excepto el usuario, pueden invalidarlo**: todos los participantes de la reunión pueden ser moderadores. Este es el valor predeterminado. Esta configuración corresponde a la configuración **Todos** en Teams.
+
+Tenga en cuenta que, después de establecer el valor predeterminado, los organizadores de reuniones aún podrán cambiar esta configuración en Teams y elegir quién puede moderar las reuniones que programen.
 
 ## <a name="automatically-admit-people"></a>Admitir automáticamente usuarios
 
@@ -76,12 +96,16 @@ Esta es una directiva por organizador. Esta configuración controla si las perso
  > [!NOTE]
 > Las organizaciones de confianza son dominios con los que se permiten las comunicaciones federadas en Teams. Si habilita **Permitir el acceso externo a todos los dominios externos** en el Centro de administración de Teams, cualquier usuario autenticado dentro de cualquier organización de Teams será de confianza. Si elige especificar dominios externos permitidos y bloquear todos los demás, los dominios permitidos se convertirán en organizaciones de confianza. Se considera que cualquier dominio bloqueado no es una organización de confianza.
 
-## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de espera
+## <a name="dial-in-users-can-bypass-the-lobby"></a>Los usuarios de acceso telefónico local pueden omitir la sala de espera
 
 Esta es una directiva por organizador. Esta opción controla si las personas que llaman por teléfono se unen a la reunión directamente o si aguardan en la sala de espera, independientemente de la configuración de **Admitir participantes automáticamente**. Esta configuración está desactivada de forma predeterminada. Cuando esta opción está desactivada, los usuarios de marcado esperan en la sala de espera hasta que el usuario de la organización se una a la reunión con un cliente de Teams y los acepte. Cuando esta configuración está activada, los usuarios de acceso telefónico local se unirán automáticamente a la reunión cuando un usuario de la organización se una a la reunión con un cliente de Teams.
 
 > [!NOTE]
 > Si un usuario de marcado se une a la reunión antes de que lo haga un usuario de la organización, el primero aguardará en la sala de espera hasta que el usuario de la organización se incorpore a la reunión con un cliente de Teams y le acepte. Si cambia la configuración predeterminada para cualquier usuario, se aplicará a todas las reuniones nuevas organizadas por ese usuario y las reuniones anteriores en las que el usuario no haya modificado las opciones de reunión.
+
+## <a name="meet-now-in-private-meetings"></a>Reunirse ahora en reuniones privadas
+
+Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede iniciar una reunión privada no planeada. Esta configuración está activada de forma predeterminada.
 
 ## <a name="live-captions"></a>Subtítulos en directo
 
@@ -115,18 +139,22 @@ La directiva aplicada al organizador de la reunión puede afectar a otros usuari
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="qa-in-meetings"></a>Q&A en reuniones
+## <a name="teams-qa"></a>Teams Q&A
 
-Esta es una directiva por organizador. Esta configuración permite a los administradores de inquilinos de Microsoft 365 habilitar o deshabilitar la experiencia de preguntas & respuestas (Q&A).
+Esta es una directiva por organizador. Esta configuración activa o desactiva la experiencia preguntas & respuestas (Q&A).
 
-La configuración se aplica cuando los organizadores crean o actualizan una reunión. Esta configuración está desactivada de forma predeterminada. Obtenga más información sobre Q&A [aquí](/manage-qna-for-meetings).
+La configuración se aplica cuando los organizadores crean o actualizan una reunión. Esta configuración está desactivada de forma predeterminada. Obtenga más información sobre [Q&A en Reuniones de Teams](/manage-qna-for-teams).
 
-El parámetro QnAEngagementMode controla esta directiva en PowerShell. Q&A también se puede ajustar en el portal de administración.
+El parámetro QnAEngagementMode controla esta directiva en PowerShell. Q&A también se puede ajustar en el Centro de administración de Teams.
 
 |Valor de configuración |Comportamiento  |
 |---------|---------|
-|**Habilitado**     | Los organizadores pueden agregar Q&A al crear reuniones. |
-|**Deshabilitado**     | Los organizadores no tendrán la opción de agregar Q&A al crear reuniones.  |
+|**On**     | Los organizadores pueden agregar Q&A al crear reuniones. |
+|**Desactivado**     | Los organizadores no tendrán la opción de agregar Q&A al crear reuniones.  |
+
+## <a name="meeting-reactions"></a>Reacciones de reuniones
+
+Las reacciones de reunión están activadas de forma predeterminada. Desactivar las reacciones a un usuario no significa que un usuario no pueda usar las reacciones en las reuniones que programe. El organizador de la reunión puede activar las reacciones desde la página de opciones de la reunión, independientemente de la configuración predeterminada.
 
 ## <a name="enable-meeting-policy-settings"></a>Habilitar la configuración de la directiva de reunión
 
