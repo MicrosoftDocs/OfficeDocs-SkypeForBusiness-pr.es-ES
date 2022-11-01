@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f9bca2e40263bdbce65a64bf0da2d5864941fc46
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 8a9e7afdf55fbcb85dcbbf907ef974a62e4e8492
+ms.sourcegitcommit: 86b9503eb0085e23176cb346767f880ea3a73e77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792799"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68808299"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 
@@ -53,7 +53,7 @@ No todo el contenido de Teams es eDiscoverable. En la tabla siguiente se muestra
 |Metadatos<sup>de reunión 1</sup>||
 |Nombre del canal||
 |Presupuestos|El contenido entrecomillado se puede buscar. Sin embargo, los resultados de la búsqueda no indican que se ha citado el contenido.|
-|Reacciones (como me gusta, corazones y otras reacciones)|Las reacciones son compatibles con todos los clientes comerciales después del 1 de junio de 2022. Las reacciones anteriores a esta fecha no están disponibles para eDiscovery. El soporte en la nube de la administración pública está previsto. No hay ningún apoyo legal para las reacciones.|
+|Reacciones (como me gusta, corazones y otras reacciones)|Las reacciones son compatibles con todos los clientes comerciales después del 1 de junio de 2022. Las reacciones anteriores a esta fecha no están disponibles para eDiscovery. Ahora se admiten reacciones expandida. Para comprender el historial de reacciones, el contenido debe estar en espera legal.|
 |Asunto||
 |Mesas||
 |Clip de vídeo de Teams (TVC)|Busca en TVC con la palabra clave "Video-Clip" y "guardar como" un archivo de .mp4 para cada archivo adjunto de TVC haciendo clic con el botón derecho en la vista previa (la búsqueda por palabra clave estará disponible en octubre de 2022). Los datos de TVC se pueden detectar en [conjuntos de revisión de exhibición](/microsoft-365/compliance/add-data-to-review-set) de documentos electrónicos.
@@ -107,7 +107,7 @@ Use el procedimiento descrito en esta sección para identificar los miembros de 
 
 Antes de realizar estos pasos, asegúrese de que tiene instalada la [versión más reciente del módulo PowerShell de Teams](teams-powershell-overview.md) .
 
-1. Ejecute el siguiente comando para obtener el id. de grupo del equipo que contiene los canales compartidos que desea buscar.
+1. Ejecute el siguiente comando para obtener el id. de grupo del equipo que contiene los canales compartidos en los que desea buscar.
 
    ```powershell
    Get-Team -DisplayName <display name of the the parent team>
@@ -204,17 +204,17 @@ Para buscar contenido para los usuarios invitados:
    Start-ComplianceSearch <search name>
    ```
 
-6. Vaya a y, a [https://compliance.microsoft.com](https://compliance.microsoft.com) continuación, haga clic en **Mostrar toda** >  la **búsqueda de contenido**.
+6. Vaya a y, a [https://compliance.microsoft.com](https://compliance.microsoft.com) continuación, seleccione **Mostrar toda la** > **búsqueda de contenido**.
 
 7. En la lista de búsquedas, seleccione la búsqueda que creó en el paso 4 para mostrar la página del control flotante.
 
 8. En la página del control flotante, puede hacer lo siguiente:
 
-   - Haga clic en **Ver resultados** para ver los resultados de la búsqueda y obtener una vista previa del contenido.
+   - Seleccione **Ver resultados** para ver los resultados de la búsqueda y obtener una vista previa del contenido.
 
-   - Junto al campo **Consulta** , haga clic en **Editar** para editar y vuelva a ejecutar la búsqueda. Por ejemplo, puede agregar una consulta de búsqueda para restringir los resultados.
+   - Junto al campo **Consulta** , seleccione **Editar** para editar y vuelva a ejecutar la búsqueda. Por ejemplo, puede agregar una consulta de búsqueda para restringir los resultados.
 
-   - Haga clic en **Exportar resultados** para exportar y descargar los resultados de búsqueda.
+   - Seleccione **Exportar resultados** para exportar y descargar los resultados de búsqueda.
 
 ## <a name="search-for-card-content"></a>Buscar contenido de tarjeta
 
@@ -245,7 +245,7 @@ Los administradores pueden usar eDiscovery para buscar contenido en mensajes de 
 
 - **No federado**: en una reunión de Teams con usuarios de su organización y usuarios invitados, solo los administradores de la organización que hospedan la reunión de Teams pueden buscar contenido en los mensajes de chat de la reunión.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 - [Soluciones de exhibición de documentos electrónicos de Microsoft 365](/microsoft-365/compliance/ediscovery)
 - [Introducción a la exhibición de documentos electrónicos (estándar)](/microsoft-365/compliance/get-started-core-ediscovery)
