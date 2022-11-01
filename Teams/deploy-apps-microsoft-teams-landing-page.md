@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 1ff0095ef804f7e58dcbc81c45639228b0264da4
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 83654452460da41bf72b0feca30d3373de1533ef
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784205"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68795432"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Comprender las aplicaciones de terceros en Microsoft Teams
 
@@ -89,15 +89,37 @@ Para obtener más información, consulte [Plantillas de aplicación de Microsoft
 
 ## <a name="understand-app-capabilities"></a>Comprender las funcionalidades de la aplicación
 
-Para proporcionar experiencias enriquecidas que permitan a los usuarios finales trabajar dentro de Teams, los desarrolladores de aplicaciones aprovechan las siguientes funcionalidades de la aplicación. Las extensiones de mensajería permiten a los usuarios interactuar con el cliente de Teams del servicio web. Buscan o inician acciones en un sistema externo. Puede enviar el resultado de la interacción al cliente de Teams como una tarjeta con formato enriquecido. Las aplicaciones de extensibilidad de reuniones integran las aplicaciones de un desarrollador dentro de las reuniones y ofrecen una experiencia dentro de las reuniones con capacidad de respuesta.
+Las capacidades de la aplicación teams son las funcionalidades básicas que se pueden crear en una aplicación para habilitar la integración y la interacción.
 
-Un bot también se conoce como bot de chat o bot de conversación. Es una aplicación que ejecuta tareas repetitivas y simples. Una interacción de bot puede ser una pregunta y una respuesta rápidas, o puede ser una conversación compleja que proporcione acceso a servicios o ayuda. Los usuarios pueden chatear con un bot uno a uno o en un canal. Por ejemplo, puede usar la aplicación Polly para crear encuestas rápidas, obtener comentarios y realizar una comprobación de pulsos.
+:::row:::
+    :::column span="":::
+    :::column-end:::
+    :::column span="3":::
+        :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Gráfico que muestra las capacidades de la aplicación de una aplicación de Microsoft Teams." border="false":::
+    :::column-end:::
+    :::column:::
+    :::column-end:::
+:::row-end:::
 
-Las pestañas son páginas web compatibles con Teams ancladas en la parte superior de un canal o un chat. Las pestañas le permiten interactuar con contenido y servicios con una experiencia similar a la web. Puede agregar pestañas como parte de un canal dentro de un equipo, chat de grupo o aplicación personal para un usuario individual.
+Para proporcionar una experiencia enriquecida que permita a los usuarios finales trabajar en Teams, los desarrolladores de aplicaciones crean aplicaciones con las siguientes capacidades:
 
-Los webhooks y conectores proporcionan contenido y actualizaciones de servicios que los usuarios finales usan con frecuencia (como Jira Cloud y Bitbucket) directamente en una conversación de canal. Las aplicaciones que usan esta funcionalidad pueden comunicarse con aplicaciones externas y pueden enviar o recibir notificaciones y mensajes de un servicio externo.
+* **Bots**: Los bots también se conocen como bots chatbot o bots conversacionales. Es una aplicación que ejecuta tareas repetitivas y simples. Una interacción de bot puede ser una pregunta y una respuesta rápidas, o puede ser una conversación compleja que proporcione acceso a servicios o ayuda. Los usuarios pueden mantener una conversación con un bot en un chat personal, canal o chat grupal. Para obtener más información, consulte [Bots en Microsoft Teams](/microsoftteams/platform/bots/what-are-bots).
 
-Las extensiones de mensajería son accesos directos para insertar contenido de la aplicación o para actuar en un mensaje sin que los usuarios finales tengan que salir de la conversación. Las extensiones de mensajería pueden tener comandos de búsqueda para que los usuarios finales encuentren rápidamente contenido externo y lo inserten en un mensaje o comandos de acción.
+  Teams admite bots en los canales y conversaciones privadas. Los administradores pueden controlar si se permite el uso de bots en una organización con Microsoft 365 u Office 365. Para obtener información sobre cómo activar o desactivar los bots personalizados, consulte [Información general sobre administración y gobernanza de aplicaciones en el Centro de administración de Teams](manage-apps.md).
+
+* **Pestañas: las** pestañas son páginas web con conocimiento de Teams ancladas en la parte superior de un canal o un chat. Las pestañas le permiten interactuar con contenido y servicios con una experiencia similar a la web. Son sencillas etiquetas HTML <iframe\> que apuntan a dominios declarados en el manifiesto de la aplicación y se pueden agregar como parte de un canal dentro de un equipo, chat de grupo o aplicación personal para un usuario individual. Para obtener más información, consulte [Pestañas de Microsoft Teams](/microsoftteams/platform/tabs/what-are-tabs).
+
+  En cada chat privado, las pestañas de Conversaciones, Archivos, Organización y Actividad se crean de forma predeterminada. Además de estas pestañas integradas, los desarrolladores pueden diseñar y agregar pestañas personalizadas. Para obtener más información, vea [Usar fichas integradas y personalizadas en Teams](/microsoftteams/platform/tabs/what-are-tabs).
+
+* **Webhooks y conectores**: webhooks y conectores ayudan a conectar los servicios web a canales y equipos en Microsoft Teams. Los webhooks son una devolución de llamada HTTP definida por el usuario que notifica a los usuarios cualquier acción que se haya realizado en el canal de Teams. Es una forma de que una aplicación obtenga datos en tiempo real. Los conectores permiten a los usuarios suscribirse para recibir notificaciones y mensajes de sus servicios web. Para obtener más información, vea [Webhooks and connectors (Webhooks and connectors](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)).
+
+  Para permitir a los usuarios usar conectores personalizados en Teams, vea [Usar conectores personalizados en Teams](office-365-custom-connectors.md).
+
+* **Extensiones de mensajería**: las extensiones de mensajería son accesos directos para insertar contenido de la aplicación o para actuar en un mensaje sin que los usuarios finales tengan que salir de la conversación. Los usuarios pueden buscar o iniciar acciones en un sistema externo desde el área redactar mensaje, el cuadro de comandos o directamente desde un mensaje. Para obtener más información, vea [Extensiones de mensajes](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet).
+
+* **Extensiones de reunión**: los usuarios pueden mejorar la experiencia de las reuniones integrando fichas, bots y extensiones de mensajes en las reuniones y haciendo que las reuniones sean más productivas. Puede identificar varios roles y tipos de usuario de participantes, obtener eventos de reunión y generar cuadros de diálogo en la reunión. Para obtener más información, consulte [Aplicaciones para reuniones de Teams](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
+
+* **Tarjetas y módulos de tareas: las tarjetas** proporcionan a los usuarios diversos mensajes visuales, de audio y seleccionables, así como ayuda en el flujo de conversación. Los módulos de tareas le ayudan a crear experiencias emergentes modales en Microsoft Teams. Son útiles para iniciar y completar las tareas, o para mostrar información enriquecida, como vídeos o paneles de Power Business Intelligence (BI). Para obtener más información, vea [Tarjetas y módulos de tareas](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules).
 
 Para ver casos de uso comunes asignados a las capacidades de Teams, consulte [Asignar los casos de uso a las capacidades de la aplicación Teams](/microsoftteams/platform/concepts/design/map-use-cases).
 
@@ -172,6 +194,10 @@ You can use activity reports to see how users in your organization are using Tea
 
 --->
 
-## <a name="related-article"></a>Artículo relacionado
+## <a name="related-articles"></a>Artículos relacionados
 
 * [Obtenga más información sobre las plantillas de aplicaciones para Teams](/microsoftteams/platform/samples/app-templates).
+
+* [Información general sobre administración y gobierno de aplicaciones en el Centro de administración de Teams](manage-apps.md)
+
+* [Administrar aplicaciones en el Centro de administración de Microsoft Teams](manage-apps.md)

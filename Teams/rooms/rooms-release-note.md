@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Administración puede leer las notas de la versión de Salas de Microsoft Teams, que muestran mejoras acumulativas en Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cb76ac9da50a55dbf8a5df10ddab4f65cfdebcc7
-ms.sourcegitcommit: 2ecf98862aae607d0675418a6177be91f56af1f0
+ms.openlocfilehash: d861b5ec9b5b70ca18032462b042f10cd4f5b75a
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67607623"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68795442"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de la versión para Salas de Microsoft Teams
 
@@ -104,7 +104,7 @@ Introducido en esta actualización:
 - Vídeo <sup>1</sup> Anclar y ocultar sala 
 - Configuración de administrador para desactivar la galería dividida en la pantalla doble Salas de Teams <sup>2</sup>
 - La pantalla dual Salas de Teams ahora puede mostrar hasta 18 secuencias de vídeo de participantes <sup>1</sup>
-- Soporte técnico para Salas de Microsoft Teams Pro y licencias de salas de Microsoft Teams Room Basic <sup>1</sup>
+- Soporte técnico para licencias de salas de Salas de Microsoft Teams Pro y Microsoft Teams Room Basic <sup>1</sup>
 
 <sup>1</sup> Esta característica se está implementando en el cliente web de Teams y tardará aproximadamente dos semanas desde la fecha en que se publicó esta actualización para completarse. Para obtener más información, consulte [Actualizaciones de Teams](../teams-client-update.md).
 
@@ -122,7 +122,7 @@ Introducido en esta actualización:
 - configuración de Administración solo para el diseño predeterminado de contenido  
 - La autenticación moderna está activada de forma predeterminada
 
- <sup>1</sup> Para poder activar el cifrado de un extremo a otro para las llamadas desde un dispositivo de sala de Teams, debe configurar la directiva para la cuenta de usuario del dispositivo. Puede actualizar la directiva del usuario desde el Centro de administración de Teams o mediante Teams PowerShell. Para obtener más información, consulte [Configurar la directiva para la cuenta de usuario de sala de Teams.](../teams-end-to-end-encryption.md)
+ <sup>1</sup> Para poder activar el cifrado de un extremo a otro para las llamadas desde un dispositivo Salas de Teams, debe configurar la directiva para la cuenta de usuario del dispositivo. Puede actualizar la directiva del usuario desde el Centro de administración de Teams o mediante Teams PowerShell. Para obtener más información, consulte [Configurar la directiva para la cuenta de usuario de sala de Teams.](../teams-end-to-end-encryption.md)
 
  <sup>2</sup> Salas de Teams agregado soporte para la supresión del ruido en la versión 4.12 con invalidación de administrador.
 
@@ -273,7 +273,7 @@ Introducido en esta actualización:
 - Soporte técnico de Government Community Cloud High (GCCH) para Salas de Teams. Los clientes de GCCH con dispositivos Salas de Teams existentes pueden descargar la versión 4.8.19.0 desde [Actualizar manualmente un dispositivo Salas de Microsoft Teams](manual-update.md)
 - Únase a reuniones de Zoom con una mejor calidad de vídeo (compatibilidad con 720p) y reciba la galería de vídeos de los participantes
 - Skype Empresarial banner de error de inicio de sesión eliminado para el modo predeterminado de Teams. Este cambio permite a las organizaciones quitar Skype Empresarial infraestructura
-- El análisis de vínculos para unirse a reuniones de Teams ahora controla los vínculos seguros de Protección contra amenazas avanzada de Microsoft Defender para permitir unirse a equipos externos sin problemas
+- El análisis de vínculos para unirse a reuniones de Teams ahora controla Microsoft Defender vínculos seguros de Protección contra amenazas avanzada para permitir unirse a equipos externos sin problemas
 - Corrección del problema de escalado de contenido compartido en Skype Empresarial reuniones cuando el equipo de la persona que comparte tiene un valor de PPP personalizado establecido en Windows
 - Correcciones de calidad y confiabilidad
 

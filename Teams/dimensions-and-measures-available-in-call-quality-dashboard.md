@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenga información detallada sobre las dimensiones y medidas que usa el Panel de calidad de llamadas para Microsoft Teams y Skype Empresarial Online.
-ms.openlocfilehash: f90db84232e544a6317771bb553733e330df7ce7
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.openlocfilehash: f2db002a063f32052dec6facc70ecdca7dcc9454
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532280"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68795462"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensiones y medidas disponibles en el Panel de calidad de llamadas (CQD)
 
@@ -301,6 +301,8 @@ En la tabla siguiente se enumeran las dimensiones disponibles actualmente en el 
 | Second Reflexive Local IP Network | String | La subred IP (/24) del segundo punto de conexión como la ve el servidor de retransmisión multimedia. Normalmente, esta es la subred de la dirección IP de Internet pública asociada al segundo punto de conexión para la transmisión. <br/>**Valor de ejemplo:** 52.114.5.0 | &bull; No se ha notificado el tipo de diagnóstico de transporte <br/>&bull; No se estableció la ruta de acceso a los medios |
 | First VPN Estimated | Boolean | Indica una alta probabilidad de una conexión a través de una red privada virtual (VPN). <br/>**Valores posibles:** 0 o 1 | |
 | Second VPN Estimated | Boolean | Indica una alta probabilidad de una conexión a través de una red privada virtual (VPN). <br/>**Valores posibles:** 0 o 1 | |
+| First Roaming Trigger | Enumeración (String) | Indica la causa más reciente de que el primer punto de conexión realizó una ligera llamada intermedia de conexión en la que no se ha implicado la señalización. Un ejemplo de esto es cuando un punto de conexión cambia los puntos de acceso inalámbrico en la misma red. <br/>**Valores posibles:** <br/> &bull;**Remoto**: envío de paquetes al punto, pero peer no los está recibiendo <br/> &bull;**ConsentKA** - errores de Keep-Alive; 7 segundos de tiempo de salida si no hay respuesta a los paquetes de mantenerse vivos <br/> &bull;**Interfaz** - Cambio o solapa de la interfaz local <br/> &bull;**RelayDraining** - Mantenimiento del servicio (esperado) | &bull; No se produjeron itinerancias <br/> &bull; El punto de conexión no ha enviado los datos |
+| Second Roaming Trigger | Enumeración (String) | Indica el número de veces que el segundo punto de conexión ha realizado una llamada intermedia ligera de conexión en la que no se ha implicado la señalización. Un ejemplo de esto es cuando un punto de conexión cambia los puntos de acceso inalámbrico en la misma red. <br/>**Valores posibles:** <br/> &bull;**Remoto**: envío de paquetes al punto, pero peer no los está recibiendo <br/> &bull;**ConsentKA** - errores de Keep-Alive; 7 segundos de tiempo de salida si no hay respuesta a los paquetes de mantenerse vivos <br/> &bull;**Interfaz** - Cambio o solapa de la interfaz local <br/> &bull;**RelayDraining** - Mantenimiento del servicio (esperado) | &bull; No se produjeron itinerancias <br/> &bull; El punto de conexión no ha enviado los datos |
 | First Roaming Count | Intervalo (entero) | Indica el número de veces que el primer punto de conexión ha realizado una ligera llamada intermedia de conexión en la que no se ha implicado la señalización. Un ejemplo de esto es cuando un punto de conexión cambia los puntos de acceso inalámbrico en la misma red. <br/>**Valor de ejemplo:** 064: [1 - 2) | |
 | Second Roaming Count | Intervalo (entero) | Indica el número de veces que el segundo punto de conexión ha realizado una llamada intermedia ligera de conexión en la que no se ha implicado la señalización. Un ejemplo de esto es cuando un punto de conexión cambia los puntos de acceso inalámbrico en la misma red. <br/>**Valor de ejemplo:** 064: [1 - 2) | |
 |**Dispositivo**| |||
