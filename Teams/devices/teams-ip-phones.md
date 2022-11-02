@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: 2625840f27edec527a55f48fbd70e8bbfed2dd24
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: f2b6e74dd276eabda4cb94459a18e87ea4e38c41
+ms.sourcegitcommit: 247ae32098c3601252249ce1de719f5215c8ab75
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614443"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "68810696"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados por Microsoft Teams
 
@@ -85,7 +85,9 @@ Los siguientes dispositivos están certificados en el programa de certificación
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 3 de septiembre de 2024 | Habitación de tamaño mediano (4,5 m x 6 m) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   3 de septiembre de 2024  | Compatible con Logitech Rally Bar y Rally Bar Mini | 10 |
 | Neat Bar Pro   | `NFD1.20220914.1210 ` | 3 de septiembre de 2024  |  Habitación de tamaño mediano (4,5 m x 6 m) | 10|
+| Barra ordenada | `NFF1.20220914.1210` |3 de septiembre de 2024|    Habitación de tamaño mediano (4,5 m x 6 m) | 10 |
 | Barra ordenada | `NFB1.20220211.1400` |3 de septiembre de 2024|    Sala de reuniones pequeña (4,5 m x 4,5 m) | 10 |
+| Consola táctil Neat Pad | `NFA1.20220914.1206`  | 3 de septiembre de 2024 | Solo compatible con Neat Bar | 9 |
 | Consola táctil Neat Pad | `NFA1.20220211.1400`  | 5 de agosto de 2023 |  Solo compatible con Neat Bar | 9 |
 | Tabla ordenada | `NFC1.20220211.1400 ` | 3 de septiembre de 2024 |    Sala de reuniones pequeña (4,5 m x 4,5 m) | 10 |
 | Logitech Roommate | `1.4.71` | 3 de septiembre de 2024  | Sala de reuniones grande (4,5 m x 8,5 m)  |   10  |
@@ -117,7 +119,7 @@ Los siguientes dispositivos están certificados en el Programa de certificación
 
 | Modelo de dispositivo| Versión de firmware | Fecha de finalización de la certificación actual | Versión del sistema operativo Android |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
-|EPOS Expande el Panel de control   | `1.2.22206.03` | 3 de septiembre de 2024 | 10 |
+|Panel de control de expansión de EPOS   | `1.2.22206.03` | 3 de septiembre de 2024 | 10 |
 |Neat Pad Panel    | `NFA1.20220211.1400` | 5 de agosto de 2023 | 9 |
 |Crestron TSS-770 | `2.001.0058` |3 de septiembre de 2024  | 10 |
 |Crestron TSS-1070 | `2.001.0058`|3 de septiembre de 2024 | 10 |
@@ -425,7 +427,7 @@ Consulte [Búsqueda de la versión de firmware en un dispositivo móvil](phones-
 
 Las licencias de Microsoft Teams se pueden comprar como parte de [las suscripciones de Microsoft 365 o Office 365](/office365/servicedescriptions/teams-service-description). Para obtener más información sobre las licencias necesarias para usar Microsoft Teams en teléfonos, consulte [Licencias del sistema telefónico](https://products.office.com/microsoft-teams/voice-calling) disponibles.
 
-Para obtener más información sobre cómo obtener Teams, consulte [मैले कसरी obtener acceso a Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Para obtener más información sobre cómo obtener Teams, consulte [Cómo obtener acceso a Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 Si es un proveedor que busca unirse al programa de certificación, consulte [Cómo unirse](/skypeforbusiness/certification/how-to-join) para conocer los requisitos y los programas disponibles.
 

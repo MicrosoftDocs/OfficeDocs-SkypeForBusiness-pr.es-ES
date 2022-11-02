@@ -17,23 +17,23 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Los partners o clientes pueden abrir manualmente un incidente a través de "Grabar un problema" para garantizar la notificación precisa del estado del salón en el portal de administración de Pro.
-ms.openlocfilehash: f638a1fc4095b9cffd0f205e1118cf6c4374d5c6
-ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
+ms.openlocfilehash: 8bfd3d5c0cc2e12c98564abd5d8ad26bde754f34
+ms.sourcegitcommit: 247ae32098c3601252249ce1de719f5215c8ab75
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2022
-ms.locfileid: "68218124"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "68810726"
 ---
 # <a name="record-an-issue-ticket"></a>Grabar un ticket de emisión
 
-Para cualquier tipo de incidente que MTR Pro no marca, o simplemente realizar un seguimiento de los problemas en un MTR o espacio, los clientes o socios en nombre de los clientes pueden usar la característica Grabar un problema.
-
-En el campo Descripción, describe lo mejor posible el problema con el que necesitas ayuda de Microsoft. Puede agregar una o más salas.
-
-Compruebe  **Alto impacto** si el incidente está causando una degradación significativa del estado del servicio o de una sala crítica. Para ayudar a Microsoft a priorizar correctamente tu solicitud, describe detalladamente el motivo por el que esto tiene un gran impacto.
+Para cualquier tipo de problema que MTR Pro no marca, los clientes o partners en nombre de los clientes pueden usar la característica Grabar un problema. Esto está destinado a facilitar el seguimiento de problemas con el soporte **técnico interno o de asociado** . 
 
 > [!NOTE]
-> No use este campo para preguntas generales, salas o problemas que no tengan mitigación disponible.
+> Microsoft no supervisa registrar los vales de problemas. Si el problema requiere más ayuda, consulte este artículo sobre cómo [Obtener soporte técnico para la administración de Salas de Microsoft Teams Pro](https://aka.ms/mtrp/openingTickets).
+
+En el campo Descripción, describa lo mejor posible el problema. Puede agregar una o más salas.
+
+Active **Impacto alto** para elevar la importancia a su soporte técnico si el incidente está causando una degradación significativa del estado de una sala crítica.
 
 Cuando se selecciona una sala (o se seleccionan salas) como parte del problema Grabar un problema, cada sala se marcará como **No** saludable hasta que se cierre el problema grabado.
 
@@ -49,7 +49,7 @@ Los problemas registrados los pueden cerrar el cliente o los partners que admini
 
    Una vez que hayas confirmado el motivo del cierre, el ticket se cerrará y se moverá a **Resuelto**.
 
-La sección Información general de detalles del vale muestra que el vale fue cerrado por el Servicio de salas administradas (Microsoft) o el nombre del cliente o partner.  
+La sección Información general de detalles del ticket muestra que el ticket se cerró con el nombre del cliente o partner.  
 
 ## <a name="faq"></a>Preguntas más frecuentes
 
