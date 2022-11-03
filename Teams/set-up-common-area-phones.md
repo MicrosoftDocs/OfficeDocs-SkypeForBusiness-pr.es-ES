@@ -23,18 +23,18 @@ ms.custom:
 - admindeeplinkMAC
 - admindeeplinkTEAMS
 description: Aprenda a configurar teléfonos de área común para vestíbulos, áreas de recepción y salas de conferencias.
-ms.openlocfilehash: 74809ffdf4f11b91584f770e7dc817543fccc98e
-ms.sourcegitcommit: 3ad7b46e31890fba7abe739138cd49527d5ca6b7
+ms.openlocfilehash: 2a282526a0592c46c053e9c0319112a9238a6051
+ms.sourcegitcommit: 92a0df6fc3aa62cec1bf72a40690fb8e16226965
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2022
-ms.locfileid: "68475512"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "68836754"
 ---
 # <a name="set-up-common-area-phones-for-microsoft-teams"></a>Configurar teléfonos de área común para Microsoft Teams
 
 Un teléfono de área común normalmente se coloca en un área como un vestíbulo u otra área que está disponible para muchas personas para realizar una llamada: una zona de recepción, sala de espera o teléfono de conferencias. Los teléfonos de área común han iniciado sesión con cuentas vinculadas a una licencia **de Common Area Phone** .
 
-En este artículo se ofrece información general sobre cómo implementar y configurar los dispositivos de teléfono de Teams como teléfonos de área comunes para espacios compartidos. Para obtener una experiencia de sala de reuniones más completa, incluida la audioconferencia, considere la posibilidad de comprar una licencia **de Salas de Teams** dedicada con un dispositivo Salas de Teams.
+En este artículo se ofrece información general sobre cómo implementar y configurar los dispositivos de teléfono de Teams como teléfonos de área comunes para espacios compartidos. Para obtener una experiencia de sala de reuniones más completa, incluida la audioconferencia, considere la posibilidad de comprar una licencia **de Salas de Teams** dedicada con un dispositivo Salas de Teams en su lugar. Para obtener más información sobre Salas de Teams, vea [Salas de Microsoft Teams](rooms/index.md).
 
 ## <a name="overview"></a>Información general
 
@@ -112,6 +112,8 @@ Use PowerShell cuando desee crear y asignar licencias para más de una cuenta de
 Use directivas para controlar qué características están disponibles para los usuarios en teléfonos de área común.
 
 ### <a name="ip-phone-policies"></a>Directivas de teléfonos IP
+
+La directiva de teléfono IP de Teams solo se puede modificar si la cuenta que inicia sesión en el teléfono tiene una licencia distinta de una licencia de Teléfono de área común.  Si tiene una licencia con una suscripción de Microsoft 365 E3 o E5, o una suscripción a Office 365 Enterprise E1, E3 o E5, puede modificar la directiva de teléfono IP.  Si usa una licencia de sala de reuniones en su cuenta de teléfono de área común, solo le permitirá usar `MeetingRoomSignIn` el modo. `MeetingRoomSignIn` no está disponible en la mayoría de los teléfonos de área comunes. Para obtener más información sobre las invalidaciones admitidas para la interfaz del teléfono, vea [Establecer la interfaz de usuario de los dispositivos Android de Microsoft Teams](/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection). 
 
 Con la directiva Teléfono IP de Teams, establezca el [parámetro SignInMode](/powershell/module/skype/new-csteamsipphonepolicy#parameters) para `CommonAreaPhoneSignIn` habilitar la experiencia de teléfono de área común en el dispositivo telefónico de Teams.
 
