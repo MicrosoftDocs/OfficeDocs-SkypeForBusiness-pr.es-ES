@@ -18,19 +18,22 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: administración de partners para los clientes.
 f1keywords: ''
-ms.openlocfilehash: 2c25bbfdd9b628641228eae6f52907e99a7beb9e
-ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
+ms.openlocfilehash: 0fef32202d256926448227f522b6160100cd05e1
+ms.sourcegitcommit: fcbbc197e43bcd63bf95cb329df9cb52e06ee356
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "68243941"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "68842168"
 ---
 # <a name="partner-management-for-customers"></a>Administración de partners para clientes
 
-La administración de partners en el servicio Salas de Teams Pro Management permite a los clientes delegar sin problemas el acceso y las responsabilidades de una o varias organizaciones asociadas. Los partners solo pueden administrar los salones que tienen asignados.
+La administración de partners en el servicio administración de Salas de Teams Pro permite a los clientes delegar sin problemas el acceso y las responsabilidades de una o varias organizaciones asociadas. Los partners solo pueden administrar los salones que tienen asignados.
 
 ## <a name="on-boarding-partners"></a>Socios que se embarcan en el embarque
    Invita a partners a través del Portal de administración de Pro para establecer la relación entre tu organización y el inquilino de la organización asociada.
+   
+> [!NOTE]
+> El partner debe cumplir los requisitos previos de [administración multiinquilino para partners](multi-tenant-management-partner.md).
 
 ### <a name="invitation-to-partner"></a>Invitación a partner
 
@@ -38,7 +41,7 @@ La administración de partners en el servicio Salas de Teams Pro Management perm
 
 **Para iniciar la invitación** 
 
-1. Inicia sesión en el portal de administración de Salas de Teams Pro como administrador de servicios administrados.
+1. Inicie sesión en el Portal de administración de Salas de Teams Pro como administrador de servicios administrados.
 1. Vaya a **Configuración >** **Partners** y, después, seleccione **Agregar partner.**
 1. Escriba el nombre de dominio en la primera fila.
 1. Configure el número de días hasta que expire la invitación escribiendo un entero entre 1 y 30.
