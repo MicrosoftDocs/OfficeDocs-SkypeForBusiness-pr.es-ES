@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Administrar directivas de correo de voz para los usuarios.
-ms.openlocfilehash: f6c14584ee5da1b15085cd4caddfc757fbb50476
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: 02df2f235512ce0aca658031fae000edc99b5ea9
+ms.sourcegitcommit: 18e66d54a9e349d4516253addc85cc12892c69a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999315"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "68851821"
 ---
 # <a name="manage-cloud-voicemail-policies-for-your-users"></a>Administrar directivas de Correo de voz en la nube para los usuarios
 
@@ -47,6 +47,7 @@ Las directivas predeterminadas para los usuarios son las siguientes:
 - La duración de grabación máxima se establece en cinco minutos.
 - La edición de reglas de respuesta de llamadas está habilitada.
 - Los idiomas de solicitud del sistema principal y secundario se establecen en null y se usa la configuración de idioma del correo de voz del usuario.
+- No se ha configurado ningún pre o postamble.
 
 Puede usar la directiva global (predeterminada para toda la organización) que se crea automáticamente o crear y asignar directivas personalizadas.
 
@@ -112,6 +113,12 @@ También puede usar PowerShell para configurar y asignar directivas de correo de
 - **Reglas de respuesta de llamadas** : esta configuración controla si el usuario puede configurar reglas de respuesta de llamadas del correo de voz en Microsoft Teams.
 
 - **Avisos del sistema de doble idioma** : de forma predeterminada, las indicaciones del sistema del correo de voz se presentan a los autores de llamadas en el idioma seleccionado por el usuario al configurar su correo de voz. Si hay un requisito empresarial para que las solicitudes del sistema del correo de voz se presenten en dos idiomas, se puede establecer un idioma principal y otro secundario y puede que no sean los mismos.
+
+- **BytesAudioFile** : actualmente solo está disponible a través de PowerShell. El archivo de audio que se reproducirá al autor de la llamada antes de que se reproduzca el saludo del correo de voz del usuario.
+
+- **PostambleAudioFile** - Actualmente solo está disponible a través de PowerShell. El archivo de audio que se reproducirá al autor de la llamada después de que se reproduzca el saludo del correo de voz del usuario y antes de que el autor de la llamada deje un mensaje de correo de voz.
+
+- **PreámbuloPostambleMandatory** : actualmente solo está disponible a través de PowerShell. Se está reproduciendo el Pre o Postamble obligatorio antes de que el autor de la llamada pueda dejar un mensaje.
 
 ### <a name="share-data-for-service-improvements"></a>Compartir datos para mejoras del servicio
 

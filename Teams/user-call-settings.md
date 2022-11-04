@@ -20,12 +20,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar las opciones de usuario para el desvío de llamadas y la delegación.
-ms.openlocfilehash: c9d085027ed1b365e8aa47b5908c946c4234e5ca
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 7d1ab3252461d57a99956c90a011a43620c76bea
+ms.sourcegitcommit: 18e66d54a9e349d4516253addc85cc12892c69a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397361"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "68851851"
 ---
 # <a name="configure-call-settings-for-your-users"></a>Configurar las opciones de llamada para los usuarios
 
@@ -152,6 +152,10 @@ Para quitar user2 como delegado de usuario1, use el cmdlet de Remove-CsUserCalli
 ```PowerShell
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
 ```
+
+## <a name="additional-notes"></a>Notas adicionales
+
+- El comportamiento predeterminado de un usuario que nunca ha modificado las reglas de respuesta de llamadas, ya sea el usuario o un administrador de inquilinos, es que las llamadas no respondidas se desviarán al correo de voz después de 30 segundos. La configuración que se muestra para el usuario en el Centro de Administración de teams o PowerShell de Teams mostrará el destino no respondido como ninguno y el retraso de 20 segundos.
 
 ## <a name="related-topics"></a>Temas relacionados
 
