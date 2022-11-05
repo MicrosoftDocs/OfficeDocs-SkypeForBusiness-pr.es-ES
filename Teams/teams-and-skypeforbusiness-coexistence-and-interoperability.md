@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2a83a0ec3b93f44da5f22e0423ff6199f2ce0c5
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: f91297a0b2fa5178195b10b61817cc11a30acfbc
+ms.sourcegitcommit: 303579b3ecd4e0af43710d4b078610f63e9d0eca
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67705859"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "68853368"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprender Microsoft Teams y Skype Empresarial coexistencia e interoperabilidad
 
@@ -168,7 +168,7 @@ Skype Empresarial los usuarios pueden realizar llamadas de voz y videollamadas u
 <!--![Screen shot of Interop calling experience from Teams.](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> Las experiencias de interoperabilidad con una implementación local de Skype Empresarial requieren que el entorno local esté en modo híbrido con Teams. Para obtener más información, [configure la conectividad híbrida entre Skype Empresarial Server y Microsoft 365 o Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity).
+> Las experiencias de interoperabilidad con usuarios locales en una organización con una combinación de usuarios locales y de Teams requieren que el entorno local esté en modo híbrido con Teams. Para obtener más información, [configure la conectividad híbrida entre Skype Empresarial Server y Microsoft 365 o Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity).
 
 Estas experiencias de interoperabilidad están disponibles para los usuarios que tienen asignado uno de los siguientes modos de coexistencia: **Skype Empresarial con la colaboración de Teams**, **Skype Empresarial con reuniones y colaboración de Teams**, **solo Skype Empresarial** o **solo en Teams**. No hay interoperabilidad para los usuarios en modo **Islas** .
 
