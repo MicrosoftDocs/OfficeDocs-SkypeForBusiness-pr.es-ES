@@ -15,16 +15,18 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo se usan las etiquetas en su organización en Microsoft Teams.
-ms.openlocfilehash: 9c2da438d3f88a172759ec13672aec663ae6add9
-ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.openlocfilehash: 56a2daf53c362accec8059b11fba400547a7b6ff
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "67647434"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869565"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Administrar etiquetas en Microsoft Teams
 
 Las etiquetas de Microsoft Teams permiten a los usuarios conectarse rápida y fácilmente con un subconjunto de personas de un equipo. Puede crear y asignar etiquetas personalizadas para clasificar personas en función de atributos, como rol, proyecto, aptitud o ubicación. O bien, las etiquetas se pueden asignar automáticamente a las personas en función de su información de horario y [turnos en la aplicación Turnos](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6). Después de agregar una etiqueta a uno o varios miembros del equipo, puede usarla en @mentions cualquier persona del equipo en una publicación de canal para notificar solo a las personas a las que se les asigna esa etiqueta de una conversación.
+
+Si es propietario de un equipo y desea administrar etiquetas en su equipo, consulte [Usar etiquetas en Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
 
 Como se mencionó anteriormente, hay dos tipos de etiquetas en Teams.
 
@@ -80,8 +82,6 @@ Puede configurar las siguientes opciones de etiquetas para controlar cómo se us
     - **La aplicación Turnos puede aplicar etiquetas**: activa esta opción para habilitar la aplicación Turnos para asignar automáticamente etiquetas a las personas que están en turnos en tiempo real. Estas etiquetas coincidirán con la programación y el nombre de grupo de un usuario en Turnos. Las notificaciones solo se envían a aquellas personas que están de turno en el momento en que se usa la etiqueta en un chat o publicación de canal.
 
 ## <a name="related-topics"></a>Temas relacionados
-
-[Usar etiquetas en Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
 
 [Administrar la aplicación Turnos](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 

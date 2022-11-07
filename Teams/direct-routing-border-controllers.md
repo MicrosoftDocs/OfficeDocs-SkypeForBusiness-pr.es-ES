@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1908fc1dbfdecc978444d7fc004979c940f8b2a
-ms.sourcegitcommit: 3b2e8ec8c104863208f49f282ab0ffa619ff5057
+ms.openlocfilehash: 4eb53a81fbdddbf4f04d57be7f893ca3fbb6d88f
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2022
-ms.locfileid: "68697359"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869575"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -129,14 +129,14 @@ En la tabla siguiente se describe qué proveedores de SBC admiten la [Optimizaci
 ||SBC Mediant 9000|Compatible con 7.20A.258 (recomendado 7.40A.100)|
 ||SBC de Mediant Virtual Edition|Compatible con 7.20A.258 (recomendado 7.40A.100)|
 ||SBC de Mediant Cloud Edition|Compatible con 7.20A.258 (recomendado 7.40A.100)|
-|[Cinta de SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)|SBC 5110|8.2|
-||SBC 5210|8.2|
-||SBC 5400|8.2|
-||SBC 7000|8.2|
-||SBC SWe|8.2|
-|[Cinta de SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)|SBC SWe Lite|8.1.5|
-||SBC 1000|8.1.5|
-||SBC 2000|8.1.5|
+|[Cinta de SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)|SBC 5110|8.2 o una versión SW posterior|
+||SBC 5210|8.2 o una versión SW posterior|
+||SBC 5400|8.2 o una versión SW posterior|
+||SBC 7000|8.2 o una versión SW posterior |
+||SBC SWe|8.2 o una versión SW posterior|
+|[Cinta de SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)|SBC SWe Edge (anteriormente SWe Lite)|8.1.5 o una versión SW posterior|
+||SBC 1000|8.1.5 o una versión SW posterior|
+||SBC 2000|8.1.5 o una versión SW posterior|
 |[TE-SYSTEMS](https://www.anynode.de/local_media_optimization/)|anynode|4.0.1+|
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html)|AP 1100|8.4.0.0.0|
 ||AP 3900|8.4.0.0.1 y 9.x|
@@ -165,14 +165,14 @@ En la tabla siguiente se enumeran los dispositivos que se comprueban para la int
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|Versión de software de VME compatible 8.3.0.1.2 y recomendada 8.4.x o 9.x|&#10004;|
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|Versión de software AP 3950 compatible 9.x|&#10004;|
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|Versión de software AP 4900 compatible 9.x|&#10004;|
-|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 1000. Versión de software: 8.1.1 (compilación 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
-|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 2000. Versión de software: 8.1.1 (compilación 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
-|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 302. Versión de software: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 304. Versión de software: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 2900A. Versión de software: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4806. Versión de software: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4808. Versión de software: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 6000. Versión de software: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 1000. Versión de software: 8.1.1 (compilación 527) o una versión sw posterior](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
+|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 2000. Versión de software: 8.1.1 (compilación 527) o una versión sw posterior](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
+|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 302. Versión de software: 16.1.1 o superior SW](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 304. Versión de software: 16.1.1 o superior SW](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 2900A. Versión de software: 16.1.1 o superior SW](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4806. Versión de software: 16.1.1 o superior SW](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4808. Versión de software: 16.1.1 o superior SW](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[Cinta de opciones](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 6000. Versión de software: 16.1.1 o superior SW](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
 |[TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)|Anynode con GXW42xx de Grandstream (V1.0.7.10)|&#10004;|
 
 Tenga en cuenta la certificación concedida a una versión principal. Esto significa que se admite el firmware con cualquier número en el firmware del CLS después de la versión principal.

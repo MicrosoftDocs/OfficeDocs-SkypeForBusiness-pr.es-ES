@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: f2b6e74dd276eabda4cb94459a18e87ea4e38c41
-ms.sourcegitcommit: 247ae32098c3601252249ce1de719f5215c8ab75
+ms.openlocfilehash: bcd55c0584c683f76a1dd033628bd99c48a18292
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2022
-ms.locfileid: "68810696"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869605"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados por Microsoft Teams
 
@@ -86,10 +86,8 @@ Los siguientes dispositivos están certificados en el programa de certificación
 | Logitech Tap IP VR0029     | `1.6.762`  |   3 de septiembre de 2024  | Compatible con Logitech Rally Bar y Rally Bar Mini | 10 |
 | Neat Bar Pro   | `NFD1.20220914.1210 ` | 3 de septiembre de 2024  |  Habitación de tamaño mediano (4,5 m x 6 m) | 10|
 | Barra ordenada | `NFF1.20220914.1210` |3 de septiembre de 2024|    Habitación de tamaño mediano (4,5 m x 6 m) | 10 |
-| Barra ordenada | `NFB1.20220211.1400` |3 de septiembre de 2024|    Sala de reuniones pequeña (4,5 m x 4,5 m) | 10 |
 | Consola táctil Neat Pad | `NFA1.20220914.1206`  | 3 de septiembre de 2024 | Solo compatible con Neat Bar | 9 |
-| Consola táctil Neat Pad | `NFA1.20220211.1400`  | 5 de agosto de 2023 |  Solo compatible con Neat Bar | 9 |
-| Tabla ordenada | `NFC1.20220211.1400 ` | 3 de septiembre de 2024 |    Sala de reuniones pequeña (4,5 m x 4,5 m) | 10 |
+| Tabla ordenada | `NFC1.20220914.1210 ` | 3 de septiembre de 2024 |    Sala de reuniones pequeña (4,5 m x 4,5 m) | 10 |
 | Logitech Roommate | `1.4.71` | 3 de septiembre de 2024  | Sala de reuniones grande (4,5 m x 8,5 m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 5 de agosto de 2023 | Incluido con EPOS Vision 3T | 9 |
 | Logitech Tap Device     | `1.2.982`  |   3 de septiembre de 2024  | Compatible con Logitech Rally Bar y Rally Bar Mini | 10 |
