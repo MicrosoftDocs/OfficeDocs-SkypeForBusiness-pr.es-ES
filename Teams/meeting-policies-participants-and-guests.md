@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directivas de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: 91d48a88aff2784a5e4d420b6ede7d03e3692678
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: a5d18ea0e3f8c6cd008a12258fd94c3a0b725ac3
+ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801791"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "68876286"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -117,6 +117,17 @@ Esta configuración es una directiva por usuario y se aplica durante una reunió
 |---------|---------|
 |**No está habilitado, pero el usuario puede invalidarlo**     | Los subtítulos en directo no se activan automáticamente durante una reunión. El usuario verá la opción **Activar subtítulos en directo** en el menú de desbordamiento **(...)** para activarlos. Esta configuración es la predeterminada. |
 |**No habilitado**     | Durante una reunión, los subtítulos en directo se deshabilitan para el usuario. El usuario no tiene la opción de activarlos.          |
+
+Para obtener más información sobre cómo los usuarios finales pueden activar **los subtítulos en directo**, vea [Usar subtítulos en directo en una reunión de Teams](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260).
+
+### <a name="live-translated-captions"></a>Subtítulos traducidos en directo
+
+> [!NOTE]
+> Esta característica está disponible temporalmente en la versión preliminar pública. Después de la vista previa, el organizador de la reunión debe tener una licencia de Teams Premium para que los asistentes usen subtítulos traducidos en directo.
+
+De forma predeterminada, **los subtítulos en directo** se muestran en el idioma que se habla durante una reunión. **Los subtítulos traducidos en directo** permiten a los usuarios ver los subtítulos traducidos al idioma con el que se sientan más cómodos.
+
+Para habilitar **los subtítulos traducidos en directo**, los **subtítulos** en directo deben establecerse en **No habilitado, pero el usuario puede reemplazarlo** en el Centro de administración de Teams. Para desactivar los **subtítulos traducidos en directo**, establezca esta opción en **No habilitado**.
 
 <a name="bkcontentsharing"> </a>
 
