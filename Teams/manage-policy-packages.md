@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: 10c7eaad9342d1c005c6290ebc957c3580db3962
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 75c4a220def2978a843fa69747ae86217a4d152b
+ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270855"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "68877521"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Administrar paquetes de directivas para Microsoft Teams
 
@@ -82,6 +82,9 @@ Por ejemplo, al asignar el paquete de directivas Educación (profesor) a profeso
 :::image type="content" source="media/teams-policy-packages-education.png" alt-text="Captura de pantalla del paquete de directivas educación (profesor)." lightbox="media/teams-policy-packages-education.png":::
 
 ## <a name="custom-policy-packages"></a>Paquetes de directivas personalizadas
+
+> [!NOTE]
+> La característica de paquetes de directivas personalizados está disponible en versión preliminar. Para usar esta característica después de la versión preliminar, cada usuario necesitará la licencia de Teams Premium.
 
 Los paquetes de directivas personalizadas le permiten agrupar su propio conjunto de directivas para los usuarios con roles similares en su organización. Cree sus propios paquetes de directivas agregando los tipos de directiva y las directivas que necesita.
 
