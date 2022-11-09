@@ -15,15 +15,16 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - EngageScoreOct2022
+- ContentEnagagementFY23
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3ae5ffc68d14b9998721010e8f6b8ed595ac26e9
-ms.sourcegitcommit: 6d2e4f5e09b22a8192405f4eba90960a152032d9
+ms.openlocfilehash: ee17d482c311a4bdd92ebad55e29058104a89b98
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2022
-ms.locfileid: "68885083"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890059"
 ---
 # <a name="use-organization-wide-teams-in-microsoft-teams-to-help-everyone-collaborate"></a>Usar equipos de toda la organización en Microsoft Teams para ayudar a todos a colaborar
 
