@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Obtén información sobre los requisitos para admitir Salas de Microsoft Teams, incluida la elección del dispositivo, micrófonos, altavoces, cámaras y pantallas adecuados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 90372af0b5fed4a56344003bc94174a8832fbb19
-ms.sourcegitcommit: e8c7a5ddc3399492485680e9a6f2593658cecca3
+ms.openlocfilehash: e400b4776b991c40ea5bede4db6064433abba2e7
+ms.sourcegitcommit: 90c6d2fe8f37afa99b36f50a98bcfdd01bd5ec11
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68686078"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68904775"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de la sala de Microsoft Teams
 
@@ -108,6 +108,7 @@ Todos los dispositivos y paquetes de Salas de Microsoft Teams actuales están di
   |[Yealink MVC 900 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 GB | 128 GB|
   |[Yealink MVC840](https://www.yealink.com/product/microsoft-teams-room-system-mvc840) |Core i5|8 GB | 128 GB|
   |[Yealink MVC940](https://www.yealink.com/product/microsoft-teams-room-system-mvc940) |Core i5|8 GB | 128 GB|
+  |[Paquete Yealink MVC940 con AV Hub](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc940-avhub) |Core i5|8 GB | 128 GB|
   |Yealink MVC660|Core i5|8 GB | 128 GB|
   |Yealink MVC640|Core i5|8 GB | 128 GB|
   |Yealink MVC320|Core i5|8 GB | 128 GB|
