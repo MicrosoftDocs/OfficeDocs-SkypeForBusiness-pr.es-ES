@@ -18,14 +18,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo cambiar los metadatos y la apariencia de una aplicación para cambiar su nombre para una mejor adopción en su organización.
-ms.openlocfilehash: f12e6ead6c0d031100bcf30783de980986a14563
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 870ee97b874b2600abf136cd045d47e9fca934d3
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738736"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912659"
 ---
-# <a name="use-app-customization-to-update-branding-of-apps-in-your-organizations-teams-store"></a>Usar la personalización de aplicaciones para actualizar la personalización de marca de las aplicaciones en la tienda de Teams de su organización
+# <a name="use-app-customization-to-update-branding-of-apps-in-your-org-store"></a>Usar la personalización de aplicaciones para actualizar la personalización de marca de las aplicaciones en la tienda de la organización
 
 Los administradores de Microsoft Teams pueden modificar la apariencia de algunas aplicaciones de Teams para proporcionar una experiencia personalizada con personalización de marca a los usuarios finales de su organización. Estas modificaciones pueden mejorar la experiencia de la tienda de Teams para los usuarios finales y ayudar a ajustarse a la personalización de marca de la organización. Por ejemplo, los administradores pueden modificar la descripción y el icono de una aplicación. La personalización facilita que los usuarios finales identifiquen la aplicación como herramientas internas, comprendan su caso de uso específico de la organización y la usen con confianza. Los administradores realizan estas actualizaciones cambiando algunos metadatos o propiedades de una aplicación. Los cambios solo están disponibles en su organización. Esta funcionalidad se denomina personalización de aplicaciones.
 
@@ -154,7 +154,7 @@ A continuación se indican las limitaciones en algunos de los campos personaliza
 | --- | --- |
 | Mis actualizaciones no están disponibles para mis usuarios finales. | Espere unas horas hasta que se propaguen los cambios. |
 | No puedo personalizar una aplicación. | Comprueba si la [aplicación se puede personalizar o no](#verify-if-an-app-is-customizable).|
-| Empecé a personalizar una aplicación, pero no puedo guardar ni aplicar mis cambios. | Respete las limitaciones de los campos. Buscar errores en la interfaz de usuario y [las limitaciones de personalización de](#considerations-and-limitations-of-app-customization) aplicaciones |
+| Empecé a personalizar una aplicación, pero no puedo guardar ni aplicar mis cambios. | Respete las limitaciones de los campos. Busca errores en la interfaz de usuario y [las limitaciones de personalización de la aplicación](#considerations-and-limitations-of-app-customization). |
 | La página Administrar aplicaciones no se carga correctamente. No se muestra la lista de aplicaciones. | Administración cuenta en uso debe tener asignada la licencia de Teams. |
 
 <!--- Check ICM for error string. --->

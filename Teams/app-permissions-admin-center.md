@@ -14,14 +14,14 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f05c835f475aa9e48f04bb9c70fb9f3ac9933e58
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 6a2c9244acfb3fdb08404f045c72860e0cd708c5
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377148"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912809"
 ---
-# <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Ver permisos de aplicaciones y conceder consentimiento de administrador en el Centro de administración de Microsoft Teams
+# <a name="view-app-permissions-and-grant-admin-consent-in-teams-admin-center"></a>Ver permisos de aplicaciones y conceder consentimiento de administrador en el Centro de administración de Teams
 
 Los administradores ven y administran todas las aplicaciones de Teams desde la página Administrar aplicaciones del Centro de administración de Teams. Puede administrar las aplicaciones personalizadas creadas dentro de su organización y disponibles solo para los usuarios finales y administrar los terceros disponibles en la tienda de aplicaciones de Teams. Por ejemplo, puede ver el estado y las propiedades de nivel de organización de las aplicaciones, aprobar o cargar nuevas aplicaciones personalizadas en la tienda de aplicaciones de su organización, permitir aplicaciones en el nivel de la organización o para usuarios finales individuales.
 

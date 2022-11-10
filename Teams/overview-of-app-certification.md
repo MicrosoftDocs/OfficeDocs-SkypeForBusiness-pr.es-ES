@@ -18,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 992b557e72aaa855008f1bfec8073d800b65badf
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: b0f01942dcee0ed5f2696c7e6ab5b31d67a98856
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377548"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912879"
 ---
-# <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Programa de cumplimiento de aplicaciones de Microsoft 365 para la seguridad, el cumplimiento y la privacidad de aplicaciones de terceros
+# <a name="find-teams-apps-that-undergo-microsoft-365-app-compliance-program-for-security-compliance-and-privacy"></a>Buscar aplicaciones de Teams que se someten al programa de cumplimiento de aplicaciones de Microsoft 365 para seguridad, cumplimiento y privacidad
 
 El programa de conformidad normativa de Microsoft comprueba y audita una aplicación con controles derivados de marcos de trabajo estándares líderes del sector. El programa demuestra que existen prácticas sólidas de seguridad y conformidad normativa para proteger los datos de los clientes. El programa tiene las siguientes fases:
 

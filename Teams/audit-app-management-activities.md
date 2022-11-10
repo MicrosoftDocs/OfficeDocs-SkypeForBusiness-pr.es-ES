@@ -16,14 +16,14 @@ description: Obtén información sobre cómo auditar las actividades de la aplic
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 7abaed00f8bb02daa63d30cd5092e007f8d5a8f5
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 0fd3feb73705a95e0729cb1819d9f355ce3ef711
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377538"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912789"
 ---
-# <a name="audit-for-app-management-activities-and-events"></a>Auditoría de actividades y eventos de administración de aplicaciones
+# <a name="audit-logs-of-app-management-activities-and-events"></a>Registros de auditoría de actividades y eventos de administración de aplicaciones
 
 La auditoría de Microsoft Purview (estándar) de Microsoft 365 permite buscar registros de auditoría de actividades realizadas en los distintos servicios de Microsoft 365 por parte de usuarios finales y administradores.
 

@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 1c99cd9c0be3251a237b547cd8a2096d2d0e02af
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+ms.openlocfilehash: 8e059199d4963004e287b456c98bb80717f849b3
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494653"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912439"
 ---
-# <a name="app-policies-used-to-manage-access-to-and-installation-of-apps"></a>Directivas de aplicaciones usadas para administrar el acceso y la instalación de aplicaciones
+# <a name="know-about-policies-to-manage-access-and-installation-of-teams-apps"></a>Información sobre directivas para administrar el acceso y la instalación de aplicaciones de Teams
 
 Microsoft Teams usa directivas de aplicaciones para controlar el comportamiento de acceso e instalación de las aplicaciones. Las directivas de aplicación ayudan a los administradores de Teams a controlar el comportamiento de la aplicación siguiente:
 
@@ -39,7 +39,7 @@ Con las directivas de permisos de aplicaciones, los administradores de Teams con
 Las directivas de permisos de aplicaciones se aplican a todos los [tipos de aplicaciones disponibles en Teams](deploy-apps-microsoft-teams-landing-page.md). Algunos escenarios de ejemplo en los que se usan directivas de permisos de aplicaciones son:
 
 * Implemente gradualmente una aplicación para algunos usuarios inicialmente y para todos los usuarios finalmente.
-* Permita una aplicación personalizada de contratación y gestión de talentos solo para los miembros de su departamento de RRHH y bloquee para el resto de usuarios de la organización.
+* Permita una aplicación personalizada para la contratación y la gestión de talentos solo para los miembros de su departamento de RRHH y bloquee para el resto de usuarios de la organización.
 
 :::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="Captura de pantalla de la directiva de protección de aplicaciones." lightbox="media/app-permission-policy.png":::
 
@@ -54,7 +54,7 @@ Anclar o instalar aplicaciones ayuda a concienciar y adoptar las aplicaciones de
 Algunos escenarios de ejemplo en los que usa directivas de configuración de aplicaciones son:
 
 * Ancle una aplicación personalizada de contratación y gestión de talentos para los miembros de su equipo de RRHH.
-* Cambiar el orden de las aplicaciones principales ancladas previamente para los usuarios de la organización.
+* Cambiar el orden de las [aplicaciones principales](deploy-apps-microsoft-teams-landing-page.md#core-apps) mediante el anclaje de los usuarios de la organización.
 
 :::image type="content" source="media/app-setup-policy-trimmed.png" alt-text="Captura de pantalla de la directiva de configuración de la aplicación en el Centro de administración de Teams." lightbox="media/app-setup-policy.png":::
 

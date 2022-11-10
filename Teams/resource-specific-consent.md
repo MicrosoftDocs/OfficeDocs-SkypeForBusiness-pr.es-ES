@@ -14,18 +14,18 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd47f8e46147e3b4d30052ff4a1b9fcde6c128e1
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: cb7e4a4487a5411386978fb91a70c485bfa0ddc6
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377158"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912599"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Consentimiento específico del recurso en Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-El consentimiento específico del recurso en Microsoft Teams permite a los propietarios del equipo dar su consentimiento a las aplicaciones para que accedan a los datos del equipo. Entre los ejemplos de acceso se incluye la capacidad de leer los mensajes del canal, crear y eliminar canales, y crear y quitar pestañas del canal.
+El consentimiento específico de recursos (RSC) es una integración de Microsoft Teams y Microsoft Graph API que permite a las aplicaciones usar puntos de conexión de API para administrar recursos específicos de un equipo de su organización. Los permisos de RSC permiten a los propietarios del equipo dar su consentimiento a una aplicación para acceder a los datos de un equipo y modificarlos. El consentimiento específico del recurso en Microsoft Teams permite a los propietarios del equipo dar su consentimiento a las aplicaciones para que accedan a los datos del equipo. Entre los ejemplos de acceso se incluye la capacidad de leer los mensajes del canal, crear y eliminar canales, y crear y quitar pestañas del canal.
 
 Como administrador, puede controlar si los propietarios del equipo de la organización pueden dar su consentimiento a través de los ajustes que configure mediante el módulo de PowerShell de Azure Active Directory (Azure AD) o el Azure Portal y el Centro de administración de Microsoft Teams.  
 
@@ -95,7 +95,7 @@ Al cargar una aplicación personalizada (también conocida como instalación de 
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-* [Permisos RSC disponibles](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+* [Permisos de RSC para usar los datos de Teams en Microsoft Graph](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 * [Microsoft Graph](https://developer.microsoft.com/graph)
 * [Administrar aplicaciones en el Centro de administración de Microsoft Teams](manage-apps.md)
 * [Administrar directivas de permisos de aplicación en Teams](teams-app-permission-policies.md)

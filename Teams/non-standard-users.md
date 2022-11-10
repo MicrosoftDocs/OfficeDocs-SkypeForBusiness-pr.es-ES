@@ -20,14 +20,14 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 201130f218a2ad482a60a7c746203f93120cc773
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: c618552a574a567a91ddab0e2303fd5f99a2373a
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68613982"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912609"
 ---
-# <a name="use-teams-apps-as-an-external-attendees-or-guest"></a>Usar las aplicaciones de Teams como invitado o asistente externo
+# <a name="use-of-teams-apps-for-external-attendees-or-guest-from-outside-an-organization"></a>Uso de aplicaciones de Teams para asistentes externos o invitados externos a una organización
 
 Las aplicaciones de Teams permiten la colaboración con personas de fuera de su organización. Como administrador, puede controlar quién puede acceder a los chats, las reuniones y el canal de Teams para colaborar con los usuarios de su organización. Para obtener información detallada, vea [cómo permitir la colaboración con asistentes externos](manage-external-access.md) y [qué pueden hacer los invitados en Teams](guest-access.md). Este artículo se centra en el uso de aplicaciones por parte de personas de fuera de la organización.
 

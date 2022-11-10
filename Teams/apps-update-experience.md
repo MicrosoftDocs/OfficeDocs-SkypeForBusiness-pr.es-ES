@@ -18,14 +18,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: En este artículo, aprenderá cómo se actualizan las aplicaciones de Microsoft, las aplicaciones personalizadas y las aplicaciones de terceros en Microsoft Teams y cómo los administradores facilitan esto.
-ms.openlocfilehash: 0f5631abcd773f09c5a926bf3459d56e8f9f92bf
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: d419e1ed29c6a1cd7a7390bdc0d5eb69371d8547
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738616"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912799"
 ---
-# <a name="teams-app-updates-and-admin-role"></a>Actualizaciones de aplicaciones de Teams y rol de administrador
+# <a name="role-of-an-admin-in-upgrading-teams-apps"></a>Rol de administrador en la actualización de aplicaciones de Teams
 
 Los administradores de Teams pueden ayudar a los usuarios finales a obtener la última versión de las aplicaciones. Para ello, realizan una o ambas de las siguientes tareas:
 
@@ -53,9 +53,9 @@ Si los desarrolladores de aplicaciones realizan uno o varios de los siguientes c
 
 ## <a name="updates-to-custom-apps"></a>Novedades a aplicaciones personalizadas
 
-Las aplicaciones personalizadas que se crean e implementan en la organización están disponibles para los usuarios de su inquilino u organización. Los administradores de Teams actualizan las aplicaciones personalizadas a las nuevas versiones proporcionadas por los desarrolladores de la organización. Para obtener más información, vea [cómo administran los administradores las aplicaciones personalizadas](custom-app-overview.md).
+Las aplicaciones personalizadas que se crean e implementan en la organización están disponibles para los usuarios de su inquilino u organización. El administrador de Teams actualiza una aplicación personalizada a su nueva versión cuando los desarrolladores de su organización proporcionan una nueva versión. Para obtener más información, vea [cómo administran los administradores las aplicaciones personalizadas](custom-app-overview.md).
 
-## <a name="related-article"></a>Artículo relacionado
+## <a name="related-articles"></a>Artículos relacionados
 
 * [Comprender el esquema del manifiesto para las actualizaciones realizadas en las aplicaciones](/microsoftteams/platform/resources/schema/manifest-schema).
 * [Información sobre la administración de aplicaciones personalizadas](custom-app-overview.md).

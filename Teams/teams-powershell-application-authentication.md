@@ -12,38 +12,29 @@ ms.collection:
 description: Obtenga más información sobre la autenticación basada en aplicaciones en el Módulo de PowerShell de Teams, usado para la administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d017f5e23685df6aa6c7ae0630724ad5d13d0425
-ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
+ms.openlocfilehash: 89af4494a6cf20aab512c0430a6e16db622e53a2
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "68570423"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912649"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Autenticación basada en aplicaciones en el módulo de PowerShell de Teams
 
-La autenticación basada en aplicaciones ahora se admite en el módulo PowerShell de Teams para un conjunto limitado de cmdlets en versión preliminar con las versiones 4.7.1-preview o posteriores. Actualmente este modo de autenticación solo es compatible con entornos comerciales.
+La autenticación basada en aplicaciones ahora es compatible con el módulo PowerShell de Teams en versión preliminar con las versiones 4.7.1-preview o posterior. Actualmente este modo de autenticación solo es compatible con entornos comerciales.
 
 
 ## <a name="cmdlets-supported"></a>Cmdlets admitidos
 
-Los cmdlets siguientes ya son compatibles, otros cmdlets se implementarán gradualmente. 
+Ahora se admiten todos los cmdlets, excepto los cmdlets que se mencionan a continuación. 
 
-  - Cmdlets \*distintos de -Cs (excepto New-Team)
-  - Get-CsTenant
-  - Get-CsOnlineUser, Get-CsOnlineVoiceUser
-  - \*-CsOnlineSipDomain 
-  - \*-CsPhoneNumberAssignment
-  - \*-CsOnlineTelephoneNumberOrder, Get-CsOnlineTelephoneNumberType, Get-CsOnlineTelephoneNumberCountry
-  - \*-CsCallQueue
-  - \*-CsAutoAttendant, \*-CsAutoAttendant\*
-  - \*-CsOnlineVoicemailUserSettings
-  - Find-CsOnlineApplicationInstance, \*-CsOnlineApplicationInstanceAssociation, Get-CsOnlineApplicationInstanceAssociationStatus
-  - \*-CsOnlineSchedule, New-CsOnlineTimeRange, New-CsOnlineDateTimeRange
-  - \*-CsOnlineAudioFile
-  - Find-CsGroup
-  - \*-CsOnlineDialInConferencingUser, \*-CsOnlineDialInConferencingServiceNumber, \*-CsOnlineDialInConferencingBridge, Get-CsOnlineDialInConferencingLanguagesSupported, Set-CsOnlineDialInConferencingUserDefaultNumber
-  - \*-CsOnlineLisLocation, \*-CsOnlineLisCivicAddress, \*-CsOnlineLisWirelessAccessPoint, \*-CsOnlineLisPort, \*-CsOnlineLisSubnet, \*-CsOnlineEnhancedEmergencyServiceDisclaimer, \*-CsOnlineLisSwitch
-  - \*-CsCloudCallDataConnection
+  - New-Team
+  - [Obtener| Conjunto| Nuevo| Sync]-CsOnlineApplicationInstance
+  - \*-CsUserCallingSettings
+  - \*-CsUserCallingDelegate
+  - \*PolicyPackage\*
+  - \*-CsTeamsShiftsConnection\*
+  - \*-CsBatchTeamsDeployment\*
 
 
 ## <a name="examples"></a>Ejemplos

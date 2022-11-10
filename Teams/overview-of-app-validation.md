@@ -18,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eeb0c49dcf560b858b8723f813cc86b6b51c1daa
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 97da6b39ab6e6d9208c883ae60f0be08432e5222
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377567"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912639"
 ---
-# <a name="testing-and-validation-done-by-microsoft-for-all-teams-apps"></a>Pruebas y validación realizadas por Microsoft para todas las aplicaciones de Teams
+# <a name="know-about-the-testing-and-validation-done-by-microsoft-for-all-apps"></a>Información sobre las pruebas y validación realizadas por Microsoft para todas las aplicaciones
 
 Microsoft requiere que todas las aplicaciones pasen una validación obligatoria antes de aparecer en la tienda para usos finales. Se aplica a todas las aplicaciones (excepto las aplicaciones personalizadas) publicadas en la tienda de aplicaciones de Teams. Además, Microsoft anima encarecidamente a los desarrolladores de aplicaciones a participar en una certificación opcional de aplicaciones que indique controles mejorados de cumplimiento, seguridad y privacidad.
 

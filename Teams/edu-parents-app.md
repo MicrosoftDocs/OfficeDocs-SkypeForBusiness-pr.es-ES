@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5edde0613c9092a7ed48d57a4a22761e56eee142
-ms.sourcegitcommit: d3eb876e58c9e4a0a11a21b9292d3a6177508d81
+ms.openlocfilehash: b4cb61038c08739afcd6a48825f8ddaa0cb7c573
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "68329064"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912819"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar la conexión principal en Microsoft Teams para Educación
 
@@ -182,7 +182,7 @@ Una vez que las directivas de acceso externo a nivel de usuario se establecen co
 
 ## <a name="turn-on-the-parents-app-in-the-teams-admin-center"></a>Activar la aplicación Padres en el Centro de administración de Teams
 
-La aplicación Padres está desactivada de forma predeterminada, por lo que los propietarios de equipos de clase no la verán en sus equipos de clase hasta que se permita a través del Centro de administración de Teams. La aplicación Padres está activada en el Centro de administración de Teams con [Permitir aplicaciones bloqueadas por desarrolladores](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers).
+La aplicación Padres está desactivada de forma predeterminada, por lo que los propietarios de equipos de clase no la verán en sus equipos de clase hasta que se permita a través del Centro de administración de Teams. La aplicación Padres está activada en el Centro de administración de Teams con [Permitir aplicaciones bloqueadas por desarrolladores](manage-apps.md#allow-and-block-apps).
 
 En cualquier momento, la aplicación se puede desactivar en el nivel de inquilino mediante [Permitir y bloquear aplicaciones](manage-apps.md#allow-and-block-apps) en el Centro de administración de Teams. Si está desactivada en el nivel de inquilino, se bloqueará para todos los usuarios, incluso si los permisos a nivel de usuario están activados.
 

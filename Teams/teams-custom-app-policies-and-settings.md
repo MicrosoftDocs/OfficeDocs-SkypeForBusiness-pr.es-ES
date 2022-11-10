@@ -1,5 +1,5 @@
 ---
-title: Administrar directivas de aplicación personalizadas
+title: Administrar la configuración y las directivas de aplicación personalizadas y de instalación de prueba
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre cómo administrar la configuración y las directivas de aplicaciones personalizadas para poder controlar qué usuarios de la organización pueden cargar aplicaciones personalizadas en Microsoft Teams.
+description: Aprende a administrar las directivas y la configuración para controlar quién en tu organización puede realizar instalaciones de prueba de aplicaciones y cargar aplicaciones personalizadas.
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,23 +24,38 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 2bbd6d048fdb3e2f0a0d4f9723552127161d25f8
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 7cf290c3f031becab73523fceb031cae4e0a55a8
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656016"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912419"
 ---
-# <a name="manage-custom-apps-and-settings-in-teams-admin-center"></a>Administrar aplicaciones y configuraciones personalizadas en el Centro de administración de Teams
+# <a name="manage-custom-and-sideloaded-apps-in-teams-admin-center"></a>Administrar aplicaciones personalizadas y de instalación de prueba en el Centro de administración de Teams
 
-<!--- TBD: Describe custom apps
---->
+Microsoft Teams permite a los desarrolladores de su organización crear, probar e implementar aplicaciones personalizadas para los usuarios internos de la organización. Estas aplicaciones se denominan aplicaciones personalizadas o aplicaciones de línea de negocio (LOB). Su organización puede encargar la creación de aplicaciones personalizadas para los requisitos específicos de la organización. Los administradores controlan la implementación de y los permisos de las aplicaciones personalizadas mediante diversas configuraciones y directivas.
+
+:::image type="content" source="media/custom-app-orgwide-setting-trimmed.png" alt-text="Recorte de pantalla que muestra cómo permitir aplicaciones personalizadas en la organización en el panel de configuración de toda la organización." lightbox="media/custom-app-orgwide-setting.png":::
+
+Después de permitir el uso de una aplicación personalizada, los usuarios finales pueden encontrarla seleccionando **Creado para su organización** en el panel de navegación izquierdo de la tienda de Teams.
+
+:::image type="content" source="media/built-for-your-org1.png" alt-text="Captura de pantalla de aplicaciones personalizadas en la tienda de Teams en la aplicación de escritorio de Teams." lightbox="media/built-for-your-org2.png":::
 
 Como administrador de Teams, puede usar directivas y configuraciones de aplicaciones personalizadas para controlar quién en su organización puede cargar aplicaciones personalizadas en Microsoft Teams. Los administradores deciden qué usuarios pueden cargar aplicaciones personalizadas y los administradores y propietarios de equipos pueden determinar si ciertos equipos de la organización permiten que se les agreguen aplicaciones personalizadas. Al editar la directiva de aplicación personalizada, los cambios pueden tardar unas horas en surtir efecto. Para administrar estas directivas, debe ser administrador global de Administración o teams.
 
 Los desarrolladores de su organización pueden agregar una aplicación personalizada a Teams si cargan un paquete de aplicación (en un archivo .zip) directamente en un equipo o en el ámbito personal. Esto difiere de la forma en que se agregan las aplicaciones a través de la tienda de aplicaciones de Teams. Cargar un paquete de aplicación para agregar una aplicación personalizada, también conocido como instalación de prueba, permite a usuarios específicos de la organización probar una aplicación antes de que esté lista para distribuirse de forma amplia.
 
-Durante la creación de una aplicación, los desarrolladores crean y agregan un identificador de aplicación al archivo de manifiesto. Puede ver esta identificación de aplicación externa en la página Administrar aplicaciones después de habilitar la columna `External app ID` desde la configuración de columna. También puede verlo en la página de detalles de la aplicación de una aplicación personalizada. La identificación solo es aplicable a aplicaciones personalizadas.
+<!--- During the creation of an app, the developers create and add an app ID to the manifest file. You can view this external app ID on the Manage apps page after you enable the column `External app ID` from the column settings. You can also view it on the app details page of a custom app. The ID is applicable for custom apps only. --->
+
+## <a name="understand-sideloading-of-custom-apps"></a>Descripción de la instalación de prueba de aplicaciones personalizadas
+
+Al desarrollar aplicaciones personalizadas y antes de distribuirlas a los usuarios finales, los desarrolladores prueban las aplicaciones agregándolas a la Tienda Teams para probarlas. Los desarrolladores pueden realizar pruebas por su cuenta o con un grupo específico de usuarios, pero la aplicación no está disponible para otros usuarios finales de la organización a través de store. Este método se denomina instalación de prueba de aplicaciones y solo se aplica a aplicaciones personalizadas.
+
+Los desarrolladores pueden transferir localmente una aplicación para que esté disponible para los miembros de un equipo específico, normalmente cuando se prueba una aplicación en desarrollo. Cuando se usa una aplicación de esta forma, se limita el uso a los desarrolladores de aplicaciones y no se requiere la aprobación de un administrador, siempre y cuando el administrador permita la instalación de prueba en Teams.
+
+Los desarrolladores pueden compartir una aplicación con instalación de prueba con un equipo específico sin enviarla al catálogo de aplicaciones de Teams. Hace que la aplicación personalizada de instalación de prueba esté disponible para un grupo limitado de usuarios finales, pero no está disponible en la tienda de aplicaciones de su organización para todos los usuarios finales.
+
+Como administrador, se puede denegar la instalación de prueba de aplicaciones para todos los desarrolladores. Si no se permite la instalación de prueba, los desarrolladores podrán probar sus aplicaciones al [crear un inquilino de prueba independiente](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Una vez completado el desarrollo de aplicaciones personalizadas, los desarrolladores solicitan a los administradores que distribuyan su aplicación personalizada a los usuarios finales. Para obtener más información, consulte [cómo publicar una aplicación personalizada](/microsoftteams/upload-custom-apps). Como administrador, permite (o bloquea) el uso de una aplicación personalizada para todos los usuarios o para usuarios específicos.
 
 ## <a name="custom-app-policy-and-settings"></a>Configuración y directiva de aplicaciones personalizadas
 
@@ -71,9 +86,14 @@ Puede editar la configuración en la directiva de configuración de aplicaciones
 
 1. Inicie sesión en el Centro de administración de Teams y acceda a las **directivas****[de configuración de](https://admin.teams.microsoft.com/policies/app-setup)** aplicaciones  >  de Teams.
 1. Seleccione **Agregar**.
-1. Active o desactive **Cargar aplicaciones personalizadas**.
+1. Proporcione un nombre y una descripción para la directiva.
+1. Activa o desactiva la opción **Cargar aplicaciones personalizadas** .
 1. Elija cualquier otra opción de configuración que desee para la directiva.
 1. Seleccione **Guardar**.
+1. [Aplique la directiva a los usuarios](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users) que desarrollan aplicaciones personalizadas y tienen permiso para cargarlas.
+
+> [!NOTE]
+> Para cambiar esta configuración, permita las aplicaciones personalizadas en la [configuración de aplicaciones de toda la organización](manage-apps.md#manage-org-wide-app-settings).
 
 ### <a name="team-custom-app-setting"></a>Configuración de la aplicación personalizada de equipo
 

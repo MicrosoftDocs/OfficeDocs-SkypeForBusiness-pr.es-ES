@@ -18,17 +18,16 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo cargar aplicaciones personalizadas en la tienda de aplicaciones de Teams de su organización.
-ms.openlocfilehash: 8886c2c0904e7ca9c9e0de1e5641b8587ffe50bf
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: c1a664390676f2df68c06c75dee57db3d3c7582c
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738586"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912449"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar una aplicación personalizada cargando un paquete de aplicación
 
-> [!NOTE]
-> Al publicar una aplicación de Teams personalizada, está disponible para los usuarios de la tienda de aplicaciones de su organización. Hay dos formas de publicar una aplicación personalizada y la manera en que se usan depende de cómo se obtiene la aplicación. **Este artículo se centra en cómo publicar una aplicación personalizada cargando un paquete de aplicación (en formato .zip) que le envía un desarrollador**. El otro método, aprobar una aplicación personalizada, se usa cuando un desarrollador envía una aplicación directamente a la página [Administrar aplicaciones](manage-apps.md) a través de la API de envío de aplicaciones de Teams. Para obtener más información sobre ese método, consulte [Publicar una aplicación personalizada enviada a través de la API de envío de aplicaciones de Teams](submit-approve-custom-apps.md).
+Al publicar una aplicación de Teams personalizada, está disponible para los usuarios de la tienda de aplicaciones de su organización. Hay dos formas de publicar una aplicación personalizada y la manera en que se usan depende de cómo se obtiene la aplicación. Este artículo se centra en cómo publicar una aplicación personalizada cargando un paquete de aplicación (en formato .zip) que le envía un desarrollador. El otro método, aprobar una aplicación personalizada, se usa cuando un desarrollador envía una aplicación directamente a la página [Administrar aplicaciones](manage-apps.md) a través de la API de envío de aplicaciones de Teams. Para obtener más información sobre ese método, consulte [Publicar una aplicación personalizada enviada a través de la API de envío de aplicaciones de Teams](submit-approve-custom-apps.md).
 
 Este artículo proporciona una guía de principio a fin para llevar su aplicación de Teams desde el desarrollo pasando por la implementación hasta su descubrimiento. Esta guía se centra en los aspectos de Teams de la aplicación y está destinada a administradores y profesionales de TI. Para obtener más información sobre el desarrollo de aplicaciones de Teams, consulte la [documentación para desarrolladores de Teams](/microsoftteams/platform/).
 
