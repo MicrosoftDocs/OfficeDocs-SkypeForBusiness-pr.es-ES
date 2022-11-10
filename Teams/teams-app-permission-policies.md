@@ -23,14 +23,14 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 5797486fb0993aa8630a8dedde131ad7751e7e5f
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: aac7024730c3f18e1c0f38a2e041dea840a6b869
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656026"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912409"
 ---
-# <a name="manage-access-to-teams-apps-using-app-permission-policies"></a>Administrar el acceso a las aplicaciones de Teams mediante directivas de permisos de aplicaciones
+# <a name="use-app-permission-policies-to-control-user-access-to-apps"></a>Usar directivas de permisos de aplicaciones para controlar el acceso de los usuarios a las aplicaciones
 
 Como administrador, puede usar directivas de permisos de aplicaciones para controlar las aplicaciones que están disponibles para cada usuario de su organización. Los permisos que establezca para permitir o bloquear todas las aplicaciones o aplicaciones específicas son aplicables a todos los [tipos de aplicaciones en Teams](deploy-apps-microsoft-teams-landing-page.md). Para administrar estas directivas, debe ser administrador global de Administración o teams.
 
@@ -57,10 +57,10 @@ Use una o varias directivas de permisos de aplicación personalizadas si desea c
 1. Proporcione un nombre y una descripción para la directiva.
 1. En **Aplicaciones de Microsoft**, **Aplicaciones de terceros** y **Aplicaciones personalizadas**, selecciona una de las siguientes opciones:
 
-    * `Allow all apps`
-    * `Allow specific apps and block all others`
-    * `Block specific apps and allow all others`
-    * `Block all apps`
+    * Permitir todas las aplicaciones
+    * Permitir aplicaciones específicas y bloquear todas las demás
+    * Bloquear aplicaciones específicas y permitir todas las demás
+    * Bloquear todas las aplicaciones
 
 1. Si ha seleccionado **Permitir aplicaciones específicas y bloquear todas las demás**, agregue las aplicaciones que desea permitir:
 
