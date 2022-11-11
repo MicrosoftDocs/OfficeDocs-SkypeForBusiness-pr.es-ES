@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 9b8d4ca3140b6bd8907938b5c2ac86aeabb39e37
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: b234f229d29c5ab4dae49be93e819bb18eb51a0b
+ms.sourcegitcommit: 95ed372915f259fddfc87090c6c67b549ed1605f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912629"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "68918244"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Comprender las aplicaciones de Microsoft Teams y sus capacidades
 
@@ -87,6 +87,21 @@ Los desarrolladores de la organización personalizan las plantillas de aplicaci�
 
 Para obtener más información, consulte [Plantillas de aplicación de Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
+## <a name="discover-and-use-apps-in-teams"></a>Descubrir y usar aplicaciones en Teams
+
+Los usuarios pueden ver todas las aplicaciones disponibles en Teams desde la tienda de aplicaciones de Teams en un cliente de escritorio o web de Teams. Los usuarios pueden buscar por nombre, examinar por categoría y buscar por aplicaciones creadas para su organización y creadas con Power Platform para descubrir e instalar aplicaciones en Teams.
+
+Las aplicaciones se pueden anclar a Teams para facilitar el acceso. Los usuarios pueden [anclar aplicaciones por su cuenta](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) si su directiva de configuración lo permite y si el administrador de Teams permite la aplicación. Los administradores pueden anclar aplicaciones y controlar el comportamiento de las aplicaciones ancladas. Para obtener más información, consulte [Directivas de configuración de aplicaciones](/teams-app-setup-policies).
+
+:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Captura de pantalla que muestra todos los lugares donde los usuarios pueden examinar las aplicaciones en Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
+
+Los usuarios pueden buscar y agregar aplicaciones a Teams desde la tienda de aplicaciones de Teams. También pueden agregar aplicaciones directamente desde el contexto en el que estén trabajando, como la pestaña de chat o canal, la reunión de Teams o el área de mensajería. Para obtener más información, vea [Agregar una aplicación a Microsoft Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
+
+Un usuario puede agregar y usar una aplicación solo cuando un administrador permite que la aplicación esté disponible para el usuario mediante [directivas de permisos](teams-app-permission-policies.md). El administrador de TI de una organización tiene un control completo sobre quién puede instalar qué aplicaciones en cada contexto. Los usuarios no pueden agregar aplicaciones que estén bloqueadas; cualquier aplicación con un icono de candado en la tienda de Teams está bloqueada para el usuario. Sin embargo, [los usuarios pueden solicitar su aprobación al administrador de TI de su organización](https://support.microsoft.com/office/request-apps-that-require-approval-by-your-org-924e3a9e-33f0-44c2-9e81-e875214c05ae). Una vez aprobada la aplicación, los usuarios pueden agregarla desde la tienda de Teams.
+
+> [!NOTE]
+> Solo los usuarios pueden solicitar una aprobación para agregar una aplicación en Teams.
+
 ## <a name="understand-app-capabilities"></a>Comprender las funcionalidades de la aplicación
 
 Las capacidades de la aplicación teams son las funcionalidades básicas que se pueden crear en una aplicación para habilitar la integración y la interacción.
@@ -108,7 +123,6 @@ Para proporcionar una experiencia enriquecida que permita a los usuarios finales
   Teams admite bots en los canales y conversaciones privadas. Los administradores pueden controlar si se permite el uso de bots en una organización con Microsoft 365 u Office 365. Para obtener información sobre cómo activar o desactivar los bots personalizados, consulte [Información general sobre administración y gobernanza de aplicaciones en el Centro de administración de Teams](manage-apps.md).
 
 * **Pestañas: las** pestañas son páginas web con conocimiento de Teams ancladas en la parte superior de un canal o un chat. Las pestañas le permiten interactuar con contenido y servicios con una experiencia similar a la web. Son sencillas etiquetas HTML <iframe\> que apuntan a dominios declarados en el manifiesto de la aplicación y se pueden agregar como parte de un canal dentro de un equipo, chat de grupo o aplicación personal para un usuario individual. Para obtener más información, consulte [Pestañas de Microsoft Teams](/microsoftteams/platform/tabs/what-are-tabs).
-
   En cada chat privado, las pestañas de Conversaciones, Archivos, Organización y Actividad se crean de forma predeterminada. Además de estas pestañas integradas, los desarrolladores pueden diseñar y agregar pestañas personalizadas. Para obtener más información, vea [Usar fichas integradas y personalizadas en Teams](/microsoftteams/platform/tabs/what-are-tabs).
 
 * **Webhooks y conectores**: webhooks y conectores ayudan a conectar los servicios web a canales y equipos en Microsoft Teams. Los webhooks son una devolución de llamada HTTP definida por el usuario que notifica a los usuarios cualquier acción que se haya realizado en el canal de Teams. Es una forma de que una aplicación obtenga datos en tiempo real. Los conectores permiten a los usuarios suscribirse para recibir notificaciones y mensajes de sus servicios web. Para obtener más información, vea [Webhooks and connectors (Webhooks and connectors](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)).
@@ -125,5 +139,7 @@ Para ver casos de uso comunes asignados a las capacidades de Teams, consulte [As
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-* [Más información sobre las plantillas de aplicaciones para Teams](/microsoftteams/platform/samples/app-templates)
+* [Obtenga más información sobre las plantillas de aplicaciones para Teams](/microsoftteams/platform/samples/app-templates).
+* [Actualizaciones de aplicaciones de Teams y rol de administrador](apps-update-experience.md)
 * [Información general sobre administración y gobierno de aplicaciones en el Centro de administración de Teams](manage-apps.md)
+
