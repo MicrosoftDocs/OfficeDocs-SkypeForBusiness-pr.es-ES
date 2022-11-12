@@ -9,12 +9,12 @@ metadata:
   author: SerdarSoysal
   ms.author: samanro
   ms.date: 03/04/2022
-  ms.openlocfilehash: 40498cf75e601ae758ebf5d2e29371c3311f0558
-  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+  ms.openlocfilehash: 47f899673165226952a5aae5f10c4df7ffc509f4
+  ms.sourcegitcommit: 95ed372915f259fddfc87090c6c67b549ed1605f
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 09/19/2022
-  ms.locfileid: "67808741"
+  ms.lasthandoff: 11/11/2022
+  ms.locfileid: "68919645"
 highlightedContent:
   items:
   - title: Introducción a Microsoft Teams
@@ -76,4 +76,4 @@ additionalContent:
       url: /training/paths/m365-service-adoption
     - title: Vídeos de aprendizaje bajo demanda
       summary: ¿No tiene tiempo para una clase? Explore nuestro catálogo de vídeos de Soporte técnico de Microsoft para formación a petición.
-      url: https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
+      url: https://support.microsoft.com/office/training-1d5c12d3-37cb-44a0-ab21-5539ce9ccd5a
