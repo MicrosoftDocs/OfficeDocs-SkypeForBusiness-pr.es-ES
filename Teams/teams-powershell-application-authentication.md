@@ -12,16 +12,16 @@ ms.collection:
 description: Obtenga más información sobre la autenticación basada en aplicaciones en el Módulo de PowerShell de Teams, usado para la administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89af4494a6cf20aab512c0430a6e16db622e53a2
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 9fd2928b62b71f0f981ecd0083cf4b15acc2da3f
+ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912649"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "68928337"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Autenticación basada en aplicaciones en el módulo de PowerShell de Teams
 
-La autenticación basada en aplicaciones ahora es compatible con el módulo PowerShell de Teams en versión preliminar con las versiones 4.7.1-preview o posterior. Actualmente este modo de autenticación solo es compatible con entornos comerciales.
+La autenticación basada en aplicaciones ahora es compatible con el módulo PowerShell de Teams con las versiones 4.7.1-preview o posteriores. Actualmente este modo de autenticación solo es compatible con entornos comerciales.
 
 
 ## <a name="cmdlets-supported"></a>Cmdlets admitidos
