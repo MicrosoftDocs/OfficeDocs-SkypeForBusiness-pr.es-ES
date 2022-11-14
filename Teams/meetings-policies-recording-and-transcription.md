@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: Aprenda a administrar la configuración de directivas de reuniones en Teams para la grabación y la transcripción.
-ms.openlocfilehash: 57e90984cde312f1804d5d2144c82a4d252822b6
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: fd0dc824f380fb9a001442267445340944e055c4
+ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67466208"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "68928316"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>Configuración de la directiva de reunión para grabar & transcripción
 
@@ -34,8 +34,6 @@ En este artículo se describe la configuración de la directiva de reunión espe
 Esta es una combinación de directiva por organizador y por usuario. Esta configuración controla si se pueden usar las características de subtítulos y transcripción durante la reproducción de las grabaciones de la reunión. La persona que inició la grabación necesita esta configuración activada para que estas características funcionen con su grabación.
 
 Al activar esta opción, se crea una copia de la transcripción que se almacena con la grabación de la reunión, lo que habilita **Búsqueda**, **CC** y **transcripciones** en la grabación de la reunión.
-
-La transcripción para las reuniones grabadas actualmente solo se admite para los usuarios que establecen su idioma o hablan inglés en las reuniones de Teams.
 
 ## <a name="cloud-recording"></a>Grabación en la nube
 
