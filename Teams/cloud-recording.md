@@ -20,12 +20,12 @@ description: Guía práctica para implementar las características de voz en la 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b82e73e2e5bb470df4511027d13b2df5f1f715f8
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 281a8997e3020b229ce8b34919177c1f6f2318c9
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584891"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68965752"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -109,6 +109,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 | Quiero que la grabación esté deshabilitada para la mayoría de los usuarios, pero permitir de forma selectiva qué usuarios específicos pueden grabar. | <ol><li>Confirmar que CsTeamsMeetingPolicy global tiene AllowCloudRecording = False.<li>A la mayoría de los usuarios se les ha otorgado la CsTeamsMeetingPolicy global o una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = False.<li>Todos los demás usuarios tienen asignada una de las directivas de CsTeamsMeetingPolicy con AllowCloudRecording = True. <ol> |
 
 <a name="bd-channel"></a>
+> [!NOTE]
+> Si un usuario de Teams de un inquilino externo que está habilitado para la grabación de cumplimiento basado en directivas de Teams se une a una reunión o llamada en su inquilino, esa reunión o llamada la registrará el otro inquilino con fines de cumplimiento, independientemente de la grabación basada en la nube activada o desactivada en su inquilino. Se recomienda a los moderadores que formen parte de la reunión en su espacio empresarial que quiten al usuario de la reunión si los usuarios de otro espacio empresarial no deben capturar las grabaciones. Para obtener más información sobre la grabación de cumplimiento basado en directivas en Teams, vea [Introducción a la grabación basada en directivas de Teams para llamar & reuniones](teams-recording-policy.md).
 
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>Bloquear o permitir la descarga de grabaciones de reuniones de canal
 
