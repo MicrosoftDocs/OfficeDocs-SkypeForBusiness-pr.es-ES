@@ -21,12 +21,12 @@ description: Configurar eventos en directo en Teams, incluida la configuración 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 65c9766350327ff64874c2ee242a7fdbace9f13a
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: a6fff8443899431176c904bf5a253ceed38d44f4
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584441"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68965106"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configure los eventos en directo en Microsoft Teams
 
@@ -92,9 +92,11 @@ Para que los usuarios programen eventos producidos con una aplicación o disposi
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>Paso 4: Configurar una solución para la distribución de los vídeos de los eventos en directo de Teams
 
-La reproducción de vídeos de eventos en directo usa el streaming con velocidad de bits adaptable (ABR), aunque se trata de una secuencia de unidifusión, lo cual significa que cada espectador recibe su propia secuencia de video a través de Internet. Para los eventos o vídeos en directo de su organización, podría haber una cantidad significativa de ancho de banda de Internet consumido por los espectadores. Las soluciones para las organizaciones que desean reducir este tráfico de Internet en los evento en directo deben integrarse con los partners de entrega de vídeo de confianza de Microsoft, los cuales ofrecen redes definidas por software (SDN) o redes de entrega de contenido empresarial (eCDN). Estas plataformas de SDN y eCDN permiten que las organizaciones optimicen el ancho de banda de la red sin sacrificar la experiencia final de visualización del usuario. Nuestros socios le pueden ayudar a habilitar una distribución de vídeo más eficaz y escalable a través de la red empresarial.
+La reproducción de vídeos de eventos en directo usa el streaming con velocidad de bits adaptable (ABR), aunque se trata de una secuencia de unidifusión, lo cual significa que cada espectador recibe su propia secuencia de video a través de Internet. Para los eventos o vídeos en directo de su organización, podría haber una cantidad significativa de ancho de banda de Internet consumido por los espectadores. Para las organizaciones que quieren reducir este tráfico de Internet para eventos en directo, Microsoft ofrece una solución de origen, [Microsoft eCDN](/ecdn) (red de entrega de contenido empresarial). Las soluciones de eventos en directo también se integran con los asociados de entrega de vídeo de confianza de Microsoft que ofrecen redes definidas por software (SDN) o eCDNs. Estas plataformas SDN/eCDN permiten a las organizaciones optimizar el ancho de banda de red sin sacrificar las experiencias de visualización del usuario final. Estas soluciones pueden ayudar a habilitar una distribución de vídeo más escalable y eficiente en toda la red empresarial.
 
-**Comprar y configurar la solución fuera de Teams** obtenga asistencia experta para ampliar la distribución de vídeo aprovechando los partners de confianza de Microsoft para la entrega de vídeo. Antes de habilitar un proveedor de entrega de vídeo para que se use con Teams, debe comprar y configurar la solución SDN/eCDN fuera y aparte de Teams.
+- **Microsoft eCDN** Microsoft eCDN está integrado en Teams y también es compatible con Stream y Yammer. Emplea tecnología punto a punto dentro de una red corporativa para descargar el ancho de banda de la conexión WAN.
+
+- **Comprar y configurar la solución fuera de Teams** obtenga asistencia experta para ampliar la distribución de vídeo aprovechando los partners de confianza de Microsoft para la entrega de vídeo. 
 
 Las siguientes soluciones de SDN y eCDN están preintegradas y pueden ser configuradas para usarse en Stream.
 
@@ -107,7 +109,7 @@ Las siguientes soluciones de SDN y eCDN están preintegradas y pueden ser config
 - **Riverbed**, el estándar del sector en optimización de red, está ampliando sus soluciones de aceleración a Microsoft Teams y Stream.  Ahora, los clientes de Microsoft 365 pueden acelerar con confianza el tráfico de 365, incluidos Teams y Stream, junto con una gran cantidad de otros servicios SaaS empresariales líderes para aumentar la productividad de la fuerza de trabajo desde cualquier lugar. La aceleración de Teams y Stream se puede habilitar a través de una configuración sin esfuerzo que viene con toda la garantía del soporte técnico de primera clase de Riverbed y la inversión continua.
 
 > [!NOTE]
-> La solución de SDN y eCDN elegida estará sujeta a los **términos de servicio y a la directiva de privacidad del proveedor de terceros** y controlará el uso de la solución del proveedor. El uso de la solución del proveedor no estará sujeto a los términos de la licencia por volumen de Microsoft ni a los términos de servicios en línea. Si no está de acuerdo con los **términos del proveedor de terceros**, entonces no necesita habilitar la solución en Teams.
+> Si elige una solución sdn o eCDN de terceros, está sujeta a los **términos de servicio y la directiva de privacidad del proveedor de terceros** seleccionados, que regirán el uso de la solución del proveedor. El uso de la solución del proveedor no estará sujeto a los términos de la licencia por volumen de Microsoft ni a los términos de servicios en línea. Si no está de acuerdo con los **términos del proveedor de terceros**, entonces no necesita habilitar la solución en Teams.
 
 Después de configurar la solución de SDN y eCDN, estará listo para configurar el proveedor de eventos en directo de Teams.
 
