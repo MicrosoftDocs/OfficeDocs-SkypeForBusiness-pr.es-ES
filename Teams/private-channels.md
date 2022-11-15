@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información acerca de cómo usar y administrar canales privados en Microsoft Teams.
-ms.openlocfilehash: 2f6dd23c5f15d2c96a1a5bb7cec6f4b9107f436c
-ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.openlocfilehash: f5513b5b86e77a49978e1dcd1cd09f6e12bff70a
+ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "67647454"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "68962955"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canales privados en Microsoft Teams
 
@@ -36,7 +36,7 @@ Por ejemplo, un canal privado es útil en estos escenarios:
 - Un grupo de personas en un equipo desean un espacio prioritario para colaborar sin tener que crear un equipo independiente.
 - Un subconjunto de personas de un equipo quiere que un canal privado discuta información confidencial, como presupuestos, recursos, posicionamiento estratégico, etc.
 
-Un icono de bloqueo indica un canal privado. Solo los miembros de canales privados pueden ver y participar en canales privados a los que se agregan.
+A lock icon indicates a private channel. Only members of private channels can see and participate in private channels that they are added to.
 
 Cuando se crea un canal privado, está vinculado al equipo principal y no se puede mover a un equipo diferente. Además, los canales privados no se pueden convertir en canales estándar, y viceversa.
 
@@ -94,7 +94,7 @@ Cada canal privado tiene su propio sitio de SharePoint. La finalidad del sitio i
 
 Un sitio de canal privado sincroniza la clasificación de datos y hereda los permisos de acceso de invitado del sitio del equipo principal. La pertenencia del propietario del sitio y los grupos de miembros se mantienen sincronizados con la membresía del canal privado dentro de Teams. Los permisos de sitio para un sitio de canal privado no se pueden administrar de forma independiente a través de SharePoint. 
 
-Teams administra el ciclo de vida del sitio del canal privado. Si se elimina el sitio fuera de Teams, un trabajo en segundo plano lo restaura en un plazo de cuatro horas, siempre y cuando el canal privado aún esté activo.
+Teams manages the lifecycle of the private channel site. If the site is deleted outside of Teams, a background job restores the site within four hours as long as the private channel is still active.
 
 Si se restaura un canal privado o un equipo que contiene un canal privado, los sitios se restaurarán con él. Si se restaura un sitio de canal privado y se encuentra fuera de la ventana de eliminación temporal de 30 días para el canal privado, el sitio funcionará como un sitio independiente.
 
@@ -130,8 +130,6 @@ No es posible convertir un canal privado en otro tipo de canal.
 Las notificaciones de canales privados no se incluyen en los correos electrónicos de actividad perdida.
 
 No se pueden programar reuniones de canal.
-
-Las reuniones de canal no se pueden personalizar con el título de la reunión.
 
 ## <a name="related-topics"></a>Temas relacionados
 
