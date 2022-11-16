@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e52524c3113d7b2d776c355784772a8a059b221f
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+ms.openlocfilehash: 2a753e572cc9427a4b128379b52562437f739bea
+ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68480690"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "69019406"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -90,7 +90,7 @@ Microsoft Teams trabaja con varios servicios de Microsoft 365 y Office 365 para 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>Requisitos para crear y ver reuniones para buzones de correo hospedados en el entorno local.
 
   > [!NOTE]
-  > Actualmente, crear y ver reuniones para buzones hospedados localmente solo se admite en entornos comerciales, GCC y GCC High.
+  > La característica **Crear y ver reuniones para buzones hospedados localmente** solo es compatible con entornos comerciales, de GCC y de GCC High.
 
 Si los buzones de correo están hospedados en el entorno local, se deben cumplir los siguientes requisitos para poder crear y ver reuniones:
 
@@ -133,6 +133,9 @@ He aquí algunas consideraciones adicionales para la implementación de Microsof
 - En una implementación híbrida de Exchange, el contenido de los mensajes de chat se puede buscar sin importar que los participantes del chat tengan un buzón de correo basado en la nube o local. Para más información, consulte [Búsqueda de buzones basados en la nube para usuarios locales](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para obtener información sobre cómo buscar contenido en Teams, lea [Búsqueda de contenido en el portal de cumplimiento Microsoft Purview](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
 - Para el estado de presencia, Microsoft Teams debe comprobar si el buzón de correo está hospedado en Exchange Online o en el entorno local. Entonces, el servicio decide dónde acceder al buzón de correo. Para habilitar el servicio de Teams para comprobar la ubicación del buzón de correo mediante la llamada de la REST API al servicio de Exchange Online, debe implementar un entorno híbrido de Exchange mediante el asistente para configuración híbrida de Exchange, como se describe en [Crear una implementación híbrida con el asistente para configuración híbrida](/exchange/hybrid-deployment/deploy-hybrid).
+
+>[!Important]
+>**Clientes de GCC-H:** No se admite la *programación de reuniones de Teams delegado* para entornos de GCC-High cuando el buzón del usuario se hospeda en Exchange Server local.
 
 ## <a name="troubleshooting"></a>Solución de problemas
 

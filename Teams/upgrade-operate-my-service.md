@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a74ac2974202097e3040d646f3f077f2369ad17c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 7da8db4b8ba281082d7f1565800a9f4d543dcb97
+ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616066"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "69019436"
 ---
 # <a name="operate-your-service"></a>Ejecutar los servicios
 
@@ -310,7 +310,7 @@ La opinión de los usuarios se puede evaluar a través de muchos métodos difere
 
 También puede usar un enfoque de todo el sector para evaluar la opinión de los usuarios denominada puntuación neta promotor (NPS), que se describe en la siguiente sección.
 
-### <a name="nps"></a>NPS
+### <a name="nps"></a>Nps
 
 Net promoter score (NPS) es una métrica de fidelización de clientes de todo el sector y un buen enfoque para evaluar la opinión de los usuarios. NPS se puede calcular haciendo dos preguntas: "¿Qué probabilidad hay de que recomiendes Teams a un compañero?", seguido de la pregunta de forma libre"¿ Por qué?"
 
@@ -490,7 +490,7 @@ Para dar soporte a los usuarios, una organización puede requerir cualquier núm
 
 ### <a name="team-creation-optional"></a>Creación de equipos (opcional)
 
-De forma predeterminada, todos los usuarios con un buzón en Exchange Online tienen permisos para crear grupos de Microsoft 365 y, por tanto, un equipo en Microsoft Teams. Si desea tener un control más estricto y [restringir la creación de nuevos equipos](assign-roles-permissions.md#permissions-to-create-teams) (y, por lo tanto, la creación de nuevos grupos de Microsoft 365), puede delegar los derechos de creación y administración de grupos a un conjunto de administradores. Si su organización quiere aplicar esta opción, consulte el proceso descrito en este artículo para permitir que los usuarios envíen solicitudes que sean procesadas por un equipo asignado.
+De forma predeterminada, todos los usuarios con un buzón en Exchange Online tienen permisos para crear grupos de Microsoft 365 y, por tanto, un equipo en Microsoft Teams. Si desea tener un control más estricto y [restringir la creación de nuevos equipos](assign-roles-permissions.md) (y, por lo tanto, la creación de nuevos grupos de Microsoft 365), puede delegar los derechos de creación y administración de grupos a un conjunto de administradores. Si su organización quiere aplicar esta opción, consulte el proceso descrito en este artículo para permitir que los usuarios envíen solicitudes que sean procesadas por un equipo asignado.
 
 <!--ENDOFSECTION-->
 
