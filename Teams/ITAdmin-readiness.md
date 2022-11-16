@@ -18,12 +18,12 @@ ms.custom:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbba9535bed24c52578f8c01f37557774bbfa5e3
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: 8e4b708a0fd250dd5ae8adeaa4f47f014ad359cd
+ms.sourcegitcommit: 2f9a83a1bae8cbee5a0d65464bd47f6735b2d206
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890069"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "69025162"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introducción al aprendizaje para administradores de Microsoft Teams
 
@@ -61,6 +61,8 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 | Introducción al sistema telefónico | [Vídeo](https://aka.ms/teams-phone-system) | [Presentación de diapositivas](https://aka.ms/teams-phone-system-deck) |
 | Enrutamiento directo | [Vídeo 1: Planeamiento del enrutamiento directo en Teams](https://aka.ms/teams-dr-plan)<br>[Vídeo 2: Configurar y administrar el enrutamiento directo en Teams](https://aka.ms/teams-dr-config)<br>[Vídeo 3: Migrar a enrutamiento directo en Teams](https://aka.ms/teams-dr-migrate)  | [Presentación de diapositivas](https://aka.ms/teams-direct-routing-deck) |
 | Actualización de Skype Empresarial a Teams | [Vídeo 1: Introducción a la actualización](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: Planificar la actualización](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: Coexistencia e interoperabilidad](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: Experiencia del administrador](https://aka.ms/teams-upgrade-admin) | [Presentación de diapositivas](https://aka.ms/teams-upgrade-deck)|
+| Guía de reproducción de implementación de dispositivos de Teams | | [Presentación de diapositivas](https://aka.ms/teams-devices-deployment-playbook) |
+| Guía de reproducción de implementación de Teams Phone | | [Presentación de diapositivas](https://aka.ms/teams-phone-deployment-playbook) |
 
 <h2>Salas de Teams Foundations for IT & AV Pros</h2>
 
@@ -77,7 +79,6 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 | Módulo 7: Administración de Salas de Microsoft Teams, parte 2  | [Presentación de diapositivas](https://aka.ms/TeamsRoomsModule7) |
 | Módulo 8: Características, adopción y solución de problemas | [Presentación de diapositivas](https://aka.ms/TeamsRoomsModule8)|
 | Instrucciones para unirse con un solo toque |  [Presentación de diapositivas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
-| Introducción a Salas de Microsoft Teams Servicios administrados | [Presentación de diapositivas](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Dispositivos Android de Teams</h2>
 

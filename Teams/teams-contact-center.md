@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: f3b42319dde41aeee85f5ec0de26db09becc4759
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: 164be9010539897d5fec677606507dbfcec58171
+ms.sourcegitcommit: 2f9a83a1bae8cbee5a0d65464bd47f6735b2d206
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "68964996"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "69025152"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integraciones del Centro de contactos para Microsoft Teams
 
@@ -78,12 +78,13 @@ Los siguientes proveedores ofrecen soluciones de centro de contacto que están i
 | `CentrePal` | https://www.centrepal.com/                                 |
 | `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html                                |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
+| `EvoloveIP` | https://www.evolveip.net/contact-center   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
 | `Heedify` | https://heedify.io/call-center/                                                 |
 | `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/                                                                                        |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
-| `IPDynamics` | https://www.ipdynamics.de  |
+| `IPDynamics` | https://www.ipdynamics.de/en/dynamic-flow/  |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
