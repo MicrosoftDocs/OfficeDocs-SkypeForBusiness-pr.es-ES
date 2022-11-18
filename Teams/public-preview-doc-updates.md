@@ -1,7 +1,7 @@
 ---
 title: Versión preliminar pública para Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -14,29 +14,29 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the public preview in Microsoft Teams. Try out new features and provide feedback.
+description: Obtenga más información sobre la versión preliminar pública en Microsoft Teams. Pruebe nuevas características y envíe sus comentarios.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ffdd34d8a36726d96bc44ae766e91ca6ae77280b
-ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+ms.openlocfilehash: e3fdf0901d150df63fded6dc49822ad81f81f7d5
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "68869595"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059191"
 ---
 # <a name="microsoft-teams-public-preview"></a>Versión preliminar pública en Microsoft Teams
 
 > [!NOTE] 
-> Es posible que las características incluidas en la versión preliminar no estén completas y experimenten cambios antes de que estén disponibles en la versión pública. Se proporcionan solo para propósitos de evaluación y exploración. Las características de vista previa no son compatibles con Office 365 Government Community Cloud (GCC).
+> Es posible que las características de la versión preliminar no estén completas y experimenten cambios antes de que estén disponibles en la versión pública. Se ofrecen solo para fines de evaluación y exploración. Las características de la versión preliminar no están admitidas en Office 365 Government Community Cloud (GCC).
 
-Public Preview for Microsoft Teams provides early access to unreleased features in Teams. Previews allow you to explore and test upcoming features. We also welcome feedback on any feature in public previews. Public preview is enabled per Team user, so you don't need to worry about affecting your entire organization.
+La versión preliminar pública de Microsoft Teams ofrece acceso anticipado a características no publicadas en Teams. Las versiones preliminares le permiten explorar y probar características futuras. También agradecemos sus comentarios sobre cualquier característica de la versión preliminar pública. La versión preliminar pública se habilita independientemente para cada usuario de Teams, por lo que no tiene que preocuparse de que afecte a toda la organización.
 
-Para obtener una lista de lo que está disponible en la versión preliminar pública de Teams, visite [Notas técnicas de Versión preliminar pública de Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview), Notas de la [versión para características Administración de Teams](/OfficeUpdates/teams-admin) y Notas de la [versión para el Canal actual (versión preliminar) de Microsoft](/officeupdates/current-channel-preview) Teams.
+Para una lista de lo que hay disponible en la versión preliminar pública, visite [Notas técnicas de la versión preliminar pública de Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview), [Notas de la versión para las características de administradores de Teams](/OfficeUpdates/teams-admin), y [Novedades de Teams](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
 
 ## <a name="set-the-update-policy"></a>Configure la directiva de actualización
 
-Public preview is enabled on a per-user basis, and the option to turn on public preview is controlled in an admin policy. Update policies are used to manage Teams and Office preview users who will see pre-release or preview features in the Teams app. You can use the Global (Org-wide default) policy and customize it, or create one or more custom policies for your users. The policy needs to be assigned to specific users because it doesn't over-write the global policy.
+La versión preliminar pública se habilita independientemente para cada usuario y la opción para activarla se controla con una directiva de administración. Las directivas de actualización se usan para administrar qué usuarios de la versión preliminar de Teams y Office verán las características de la versión preliminar de la aplicación Teams. Puede usar la directiva global (predeterminada para toda la organización) y personalizarla, o bien crear una o varias directivas personalizadas para sus usuarios. La directiva debe asignarse a usuarios específicos porque no sobrescribe la directiva global.
 
 1. Inicie sesión en el [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com/).
 
@@ -73,14 +73,6 @@ Para habilitar la versión preliminar pública en un cliente de escritorio o cli
 
 > [!NOTE]  
 > Esta opción solo está disponible cuando **Mostrar características de la versión preliminar** está **Habilitado**.
-
-### <a name="public-preview-for-microsoft-teams-rooms-on-windows"></a>Versión preliminar pública de las Salas de Microsoft Teams en Windows
-
-La versión preliminar pública está desactivada de forma predeterminada. Cuando la versión preliminar pública está activada, los usuarios finales tienen acceso a las funciones que están en la versión preliminar pública en las salas de Teams habilitadas. Para activar la versión preliminar pública, agregue ```<EnablePublicPreview>True</EnablePublicPreview>``` a su archivo de configuración XML.
-
-Recomendamos inscribir entre 5 y 10 dispositivos en la versión preliminar pública. 
-
-Todas las características de la versión preliminar pública se anuncian en la versión preliminar pública de [Microsoft Teams - Microsoft Tech Community ](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)
 
 ## <a name="teams-now-follows-office-preview-users"></a>Teams ahora sigue a los usuarios de Office Preview
 

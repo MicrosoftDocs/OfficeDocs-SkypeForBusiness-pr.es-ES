@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a753e572cc9427a4b128379b52562437f739bea
-ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
+ms.openlocfilehash: 541ea844422dcd6620035508e62d6473f0c78b29
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/15/2022
-ms.locfileid: "69019406"
+ms.locfileid: "68965036"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -113,7 +113,7 @@ Si los buzones de correo están hospedados en el entorno local, se deben cumplir
 
 Para habilitar la delegación del calendario para estos usuarios:
 
-- También debe completar los pasos como se describe en [Configurar integración y OAuth entre Skype Empresarial Online y Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); estos pasos proporcionarán a la aplicación de programación de Teams los permisos necesarios para confirmar los permisos delegados.
+- También debe completar los pasos como se describe en [Configurar integración y OAuth entre Skype for Business Online y Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); estos pasos proporcionarán a la aplicación de programación de Teams los permisos necesarios para confirmar los permisos de delegado.
  
   > [!NOTE]
   > El paso 2 incluye la asignación de rol para ArchiveApplication, lo que no se requiere para la delegación.
@@ -135,7 +135,7 @@ He aquí algunas consideraciones adicionales para la implementación de Microsof
 - Para el estado de presencia, Microsoft Teams debe comprobar si el buzón de correo está hospedado en Exchange Online o en el entorno local. Entonces, el servicio decide dónde acceder al buzón de correo. Para habilitar el servicio de Teams para comprobar la ubicación del buzón de correo mediante la llamada de la REST API al servicio de Exchange Online, debe implementar un entorno híbrido de Exchange mediante el asistente para configuración híbrida de Exchange, como se describe en [Crear una implementación híbrida con el asistente para configuración híbrida](/exchange/hybrid-deployment/deploy-hybrid).
 
 >[!Important]
->**Clientes de GCC-H:** No se admite la *programación de reuniones de Teams delegado* para entornos de GCC-High cuando el buzón del usuario se hospeda en Exchange Server local.
+>**Clientes de GCC-H:** *La programación de reuniones de Delegado de Teams* no es compatible con entornos de GCC-High. 
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
