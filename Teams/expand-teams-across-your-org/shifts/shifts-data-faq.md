@@ -19,16 +19,17 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - m365-frontline
+- tier2
 - highpri
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a8b6620b86154ba3903024d3b48c53e717b204a5
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 39dcbc391096db8edce7dee90abe6ee26e24f027
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784455"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131029"
 ---
 # <a name="shifts-data-faq"></a>Preguntas más frecuentes sobre los datos de Turnos
 

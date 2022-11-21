@@ -20,12 +20,12 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c618552a574a567a91ddab0e2303fd5f99a2373a
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 3511dec4f3238babc3356bafbe2bb69e791e7632
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912609"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131319"
 ---
 # <a name="use-of-teams-apps-for-external-attendees-or-guest-from-outside-an-organization"></a>Uso de aplicaciones de Teams para asistentes externos o invitados externos a una organización
 
@@ -89,9 +89,9 @@ Los usuarios anónimos no pueden usar aplicaciones directamente en reuniones. Si
 
 Los usuarios anónimos solo pueden interactuar con las aplicaciones que ya están disponibles en una reunión, pero no pueden adquirir ni administrar dichas aplicaciones. Los usuarios nativos pueden seguir usando las aplicaciones de reuniones incluso cuando los usuarios anónimos asisten a una reunión.
 
-### <a name="disallow-anonymous-users-to-use-apps-in-meetings"></a>No permitir que usuarios anónimos usen aplicaciones en reuniones
+### <a name="allow-anonymous-users-to-use-apps-in-meetings"></a>Permitir que usuarios anónimos usen aplicaciones en reuniones
 
-De forma predeterminada, los usuarios anónimos pueden interactuar con las aplicaciones existentes en una reunión. Puede no permitir que usuarios anónimos interactúen con aplicaciones.
+De forma predeterminada, los usuarios anónimos pueden interactuar con las aplicaciones existentes en una reunión. Los usuarios anónimos no pueden agregar nuevas aplicaciones a una reunión. Puede no permitir que usuarios anónimos interactúen con aplicaciones.
 
 1. Inicie sesión en el Centro de administración de Teams y acceda a **[La configuración](https://admin.teams.microsoft.com/meetings/settings)** de **reuniones** > .
 

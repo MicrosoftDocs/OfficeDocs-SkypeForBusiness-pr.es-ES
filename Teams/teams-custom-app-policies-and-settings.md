@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: Aprende a administrar las directivas y la configuración para controlar quién en tu organización puede realizar instalaciones de prueba de aplicaciones y cargar aplicaciones personalizadas.
 f1.keywords:
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 7cf290c3f031becab73523fceb031cae4e0a55a8
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 19f18d89ec2f423c1531639adb630992bdbdc547
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912419"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69130999"
 ---
 # <a name="manage-custom-and-sideloaded-apps-in-teams-admin-center"></a>Administrar aplicaciones personalizadas y de instalación de prueba en el Centro de administración de Teams
 
@@ -41,9 +41,9 @@ Después de permitir el uso de una aplicación personalizada, los usuarios final
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Captura de pantalla de aplicaciones personalizadas en la tienda de Teams en la aplicación de escritorio de Teams." lightbox="media/built-for-your-org2.png":::
 
-Como administrador de Teams, puede usar directivas y configuraciones de aplicaciones personalizadas para controlar quién en su organización puede cargar aplicaciones personalizadas en Microsoft Teams. Los administradores deciden qué usuarios pueden cargar aplicaciones personalizadas y los administradores y propietarios de equipos pueden determinar si ciertos equipos de la organización permiten que se les agreguen aplicaciones personalizadas. Al editar la directiva de aplicación personalizada, los cambios pueden tardar unas horas en surtir efecto. Para administrar estas directivas, debe ser administrador global de Administración o teams.
+Como administrador de Teams, puede usar directivas y configuraciones de aplicaciones personalizadas para controlar quién en su organización puede cargar aplicaciones personalizadas en Microsoft Teams. Los administradores deciden qué usuarios pueden cargar aplicaciones personalizadas y los administradores y propietarios de equipos pueden determinar si ciertos equipos de la organización permiten que se les agreguen aplicaciones personalizadas. Después de editar la directiva de aplicación personalizada, los cambios tardan unas horas en surtir efecto. Para administrar estas directivas, debe ser administrador global de Administración o teams.
 
-Los desarrolladores de su organización pueden agregar una aplicación personalizada a Teams si cargan un paquete de aplicación (en un archivo .zip) directamente en un equipo o en el ámbito personal. Esto difiere de la forma en que se agregan las aplicaciones a través de la tienda de aplicaciones de Teams. Cargar un paquete de aplicación para agregar una aplicación personalizada, también conocido como instalación de prueba, permite a usuarios específicos de la organización probar una aplicación antes de que esté lista para distribuirse de forma amplia.
+Los desarrolladores de su organización pueden agregar una aplicación personalizada a Teams si cargan un paquete de aplicación (en un archivo .zip) directamente en un equipo o en el ámbito personal. Este método es diferente de cómo se agregan las aplicaciones a través de la tienda de aplicaciones de Teams. Cargar un paquete de aplicación para agregar una aplicación personalizada, también conocido como instalación de prueba, permite a usuarios específicos de la organización probar una aplicación antes de que esté lista para distribuirse de forma amplia.
 
 <!--- During the creation of an app, the developers create and add an app ID to the manifest file. You can view this external app ID on the Manage apps page after you enable the column `External app ID` from the column settings. You can also view it on the app details page of a custom app. The ID is applicable for custom apps only. --->
 
@@ -119,7 +119,7 @@ Si la configuración está activada:
 
 ### <a name="org-wide-custom-app-setting"></a>Configuración de la aplicación personalizada de toda la organización
 
-La configuración de aplicación personalizada **Permitir interacción con aplicaciones personalizadas** de toda la organización en la página [Administrar aplicaciones](manage-apps.md) se aplica a todos los usuarios de la organización y rige si dichos usuarios pueden cargar aplicaciones personalizadas o interactuar con las mismas. Esta configuración actúa como un conmutador maestro de activación y desactivación para la configuración de directiva de aplicación personalizada tanto de usuario como de equipo. Está diseñado para que actúe como un conmutador maestro de activación y desactivación durante los eventos de seguridad. Por lo tanto, la configuración de directiva de aplicaciones personalizadas de usuario y de equipo no surtirá efecto a menos que se habilite la configuración de aplicación personalizada de toda la organización, aunque la configuración de directiva de aplicaciones personalizadas de usuario y de equipo estén habilitadas.
+La configuración de aplicación personalizada **Permitir interacción con aplicaciones personalizadas** de toda la organización en la página [Administrar aplicaciones](manage-apps.md) se aplica a todos los usuarios de la organización y rige si dichos usuarios pueden cargar aplicaciones personalizadas o interactuar con las mismas. Esta configuración actúa como un conmutador maestro de activación y desactivación para la configuración de directiva de aplicación personalizada tanto de usuario como de equipo. Está diseñado para que actúe como un conmutador maestro de activación y desactivación durante los eventos de seguridad. La configuración de directivas de aplicaciones personalizadas de usuario y equipo surte efecto solo después de habilitar la configuración de aplicaciones personalizadas para toda la organización.
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>Establecer la configuración de aplicaciones personalizadas de toda la organización
 

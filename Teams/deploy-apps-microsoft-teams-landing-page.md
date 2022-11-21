@@ -13,6 +13,7 @@ ms.date: 10/01/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
 f1.keywords:
 - NOCSH
@@ -21,12 +22,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: b234f229d29c5ab4dae49be93e819bb18eb51a0b
-ms.sourcegitcommit: 95ed372915f259fddfc87090c6c67b549ed1605f
+ms.openlocfilehash: 701cdcd1f822018be777f6d22f2063871ea5c7fa
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2022
-ms.locfileid: "68918244"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69130869"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Comprender las aplicaciones de Microsoft Teams y sus capacidades
 

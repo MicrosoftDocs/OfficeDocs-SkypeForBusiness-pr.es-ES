@@ -17,15 +17,16 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3cf50824119111d34668f4717eaf38f92de8bc64
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: cbedcfb7215adbde9ee8b8dd2afb3e88422e28c2
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784335"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131189"
 ---
 # <a name="manage-the-approvals-app-in-microsoft-teams"></a>Administrar la aplicación Aprobaciones en Microsoft Teams
 

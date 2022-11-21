@@ -22,29 +22,31 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Obtenga información sobre cómo usar el operador automático de Teams & informe de informe histórico de la cola de llamadas de Power BI para ver los datos históricos del operador automático y de la cola de llamadas.
-ms.openlocfilehash: b57180a339ea7aa1548acf16be1f95d3514c294b
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: 3db0705ea1321b3ef6d2efef5a01e3283f091cc9
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890089"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131199"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Informe de historial de la cola de llamadas del operador automático &
 
 Esta plantilla de Power BI proporciona tres informes que permiten a las organizaciones informar sobre el número de llamadas que procesan los operadores automáticos y las colas de llamadas.  También proporciona información sobre el rendimiento de los agentes.
 
-## <a name="v303-published-on-november-8-2022"></a>V3.0.3 publicado el 8 de noviembre de 2022
+## <a name="v304-published-on-november-18-2022"></a>V3.0.4 publicado el 18 de noviembre de 2022
 
 La plantilla de Power BI Informe histórico de la cola de llamadas del operador automático de Teams & proporciona los tres informes siguientes:
 
-- El informe Operador automático muestra análisis de las llamadas que llegan a sus operadores automáticos.
-- El informe Cola de llamadas muestra análisis de las llamadas que llegan a las colas de llamadas.
-- El informe Escala de tiempo del agente muestra una vista de escala de tiempo de los agentes que están activos en las llamadas de la cola de llamadas.
+- El informe [Operador automático](media/aa-cq-historical-report-sample-aa-v304.png) muestra análisis de las llamadas que llegan a sus operadores automáticos.
+- El informe [Cola de llamadas](media/aa-cq-historical-report-sample-cq-v304.png) muestra análisis de las llamadas que llegan a las colas de llamadas.
+- El informe [Escala de tiempo del agente](media/aa-cq-historical-report-sample-at-v304.png) muestra una vista de escala de tiempo de los agentes que están activos en las llamadas de la cola de llamadas.
 
 Estos informes usan datos del servicio recopilador de análisis de aplicaciones de voz (VAAC).
 
 >[!NOTE]
 > La recopilación de datos históricos está en curso en todas las regiones.  Habrá 30 días de datos históricos disponibles en diferentes momentos, y todas las regiones tendrán 30 días completos de datos a más tardar el 25 de noviembre de 2022.
+>
+> Los clientes de GCCH/DOD deben seguir usando la versión V1.63.
 
 ## <a name="v3xx-prerequisites"></a>Requisitos previos de V3.x.x
 
@@ -64,15 +66,15 @@ En los pasos siguientes se supone que ya ha instalado Power BI Desktop en el equ
 
 Siga estos pasos:
 
-1. Descargue y guarde el operador [automático de Teams & los informes históricos de la cola de llamadas V3.0.3.zip](https://www.microsoft.com/download/details.aspx?id=104623) archivo en su equipo.
+1. Descargue y guarde el operador [automático de Teams & los informes históricos de la cola de llamadas V3.0.4.zip](https://www.microsoft.com/download/details.aspx?id=104623) archivo en su equipo.
 
 1. Abra el archivo zip.
 
-1. Abra el archivo de `Teams Auto Attendant & Call Queue Historical Reports V3.0.3.pbit` plantilla. Power BI Desktop debería iniciarse.
+1. Abra el archivo de `Teams Auto Attendant & Call Queue Historical Reports V3.0.4.pbit` plantilla. Power BI Desktop debería iniciarse.
 
 1. Se le pedirá que seleccione el **origen de datos**.  Seleccione la `api.interfaces.records.teams.microsoft.com` entrada.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v300.png" alt-text="Captura de pantalla que selecciona el api.interfaces.records.teams.microsoft.com Soure de datos":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v304.png" alt-text="Captura de pantalla que selecciona el api.interfaces.records.teams.microsoft.com Soure de datos":::
 
 1. Se te pedirá que inicies sesión con una cuenta. Seleccione **Cuenta de la organización** y, a continuación, seleccione **Iniciar sesión**.
 
@@ -91,13 +93,15 @@ Siga estos pasos:
 ## <a name="v163-published-on-august-24-2022"></a>V1.63 publicado el 24 de agosto de 2022
 
 > [!IMPORTANT]
-> El soporte técnico para la plantilla V1.63 finalizará el 21 de noviembre de 2022.
+> El soporte de nube pública para la plantilla V1.63 finalizará el 25 de noviembre de 2022.
+> 
+> Los clientes de GCCH/DOD deben seguir usando la versión V1.63.
 
 La **plantilla de Power BI Para el operador automático de Teams & informe histórico de la cola de llamadas** proporciona los tres informes siguientes:
 
-- El informe Operador automático muestra análisis de las llamadas que llegan a sus operadores automáticos.
-- El informe Cola de llamadas muestra análisis de las llamadas que llegan a las colas de llamadas.
-- El informe Escala de tiempo del agente muestra una vista de escala de tiempo de los agentes que están activos en las llamadas de la cola de llamadas.
+- El informe [Operador automático](media/aa-cq-historical-report-sample-aa-v163.png) muestra análisis de las llamadas que llegan a sus operadores automáticos.
+- El informe [Cola de llamadas](media/aa-cq-historical-report-sample-cq-v163.png) muestra análisis de las llamadas que llegan a las colas de llamadas.
+- El informe [Escala de tiempo del agente](media/aa-cq-historical-report-sample-at-v163.png) muestra una vista de escala de tiempo de los agentes que están activos en las llamadas de la cola de llamadas.
 
 Estos informes usan datos del almacén de datos del [Panel de calidad de llamadas (CQD](CQD-Power-BI-query-templates.md) ). 
 
@@ -372,14 +376,25 @@ Siga estos pasos:
 
 - <sup>1</sup> **La fuente de llamada entrante** en el operador automático y los gráficos de la cola de llamadas muestran el origen final del tramo de llamada en lugar del origen del tramo de llamada inicial. Por ejemplo, si un operador automático recibe una llamada externa y transfiere la llamada a otro operador automático o a la cola de llamadas, el **origen de llamadas entrantes** se notificará como Interno.
 
-## <a name="version-history"></a>Historial de versiones
+## <a name="version-3xx-history"></a>Historial de la versión 3.x.x
+
+Consulte: Operador automático de Teams & informes históricos de la cola de llamadas: cambiar Log.docx en el archivo zip descargado para obtener una lista detallada de los cambios 
 
 |Versión  |Fecha de publicación     |Nombre                                                           |Descripción                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
-|3.0.3    |8 de noviembre de 2022   |El operador automático de Teams & informes históricos de la cola de llamadas v3.0.3        |Consulte:<br>Operador automático de Equipos del CQD & informes históricos de la cola de llamadas: cambiar Log.docx en el archivo zip descargado para obtener una lista de cambios                                                                             |
+|3.0.4    |18 de noviembre de 2022  |El operador automático de Teams & informes históricos de la cola de llamadas v3.0.4        |Error corregido, clasificación de llamada mejorada, leyenda agregada |
+|3.0.3    |8 de noviembre de 2022   |El operador automático de Teams & informes históricos de la cola de llamadas v3.0.3        |Error corregido, vínculo de documentación agregado y consultas optimizadas |
 |3.0.1    |26 de octubre de 2022   |El operador automático de Teams & informes históricos de la cola de llamadas v3.0.1        |Se quitó la prueba de entrada del origen de datos                   |
 |3.0.0    |25 de octubre de 2022   |Operador automático de Teams & informes históricos de la cola de llamadas v3.0.0        |Nuevo origen de datos back-end                             |
-|1.63     |24 de agosto de 2022    |Operador automático de Teams del CQD & informe de historial de la cola de llamadas V1.63.pbit |Consulte:<br>Operador automático de Equipos del CQD & informes históricos de la cola de llamadas: cambiar Log.docx en el archivo zip descargado para obtener una lista de cambios                                                                             |
-|1.60     |22 de julio de 2022      |Operador automático de Teams del CQD & informe histórico de la cola de llamadas V1.60.pbit |Consulte:<br>Operador automático de Equipos del CQD & informes históricos de la cola de llamadas: cambiar Log.docx en el archivo zip descargado para obtener una lista de cambios                                                                             |
+
+
+## <a name="version-1xx-history"></a>Historial de la versión 1.xx
+
+Consulte: Operador automático de Teams del CQD & informes históricos de la cola de llamadas: cambiar Log.docx en el archivo zip descargado para obtener una lista detallada de los cambios                         
+
+|Versión  |Fecha de publicación     |Nombre                                                           |Descripción                                         |
+|:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------
+|1.63     |24 de agosto de 2022    |Operador automático de Teams del CQD & informe de historial de la cola de llamadas V1.63.pbit |                                                    |
+|1.60     |22 de julio de 2022      |Operador automático de Teams del CQD & informe histórico de la cola de llamadas V1.60.pbit |                                                    |
 |1.00     |5 de noviembre de 2020   |Análisis combinado de CQ y AA 20201105.pbit                         |Versión inicial                                     |
 

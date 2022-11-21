@@ -19,13 +19,14 @@ appliesto:
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
-ms.openlocfilehash: c64e2b9e2d77724d4972449390c59b7655ab1ff0
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 01be1cfada2ac772723ca1ef2850c6cdc437bc22
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656046"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131019"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Tasks para su organización en Microsoft Teams
 
@@ -117,7 +118,7 @@ A continuación le mostramos un ejemplo para ilustrar cómo funciona la publicac
 
 Pongamos que la empresa Contoso quiere implementar una nueva promoción para sus tiendas con servicio de alimentación. Quiere ofrecer una experiencia de marca coherente y coordinar el lanzamiento de la promoción de la manera más uniforme posible en sus más de 300 establecimientos.
 
-El equipo de Marketing compartirá los detalles de la promoción y la lista correspondiente de tareas con el Administrador de comunicaciones de minoristas. El Retail Communications Manager, que sirve como portero para las tiendas, revisa la información. A continuación, crean una lista de tareas para la promoción y crean una tarea para cada unidad de trabajo que los almacenes afectados deben realizar. Una vez completada la lista de tareas, deben seleccionar las tiendas que deben completar el trabajo. En este caso, la promoción solo se aplica a las tiendas de Estados Unidos que tengan un restaurante en la tienda. En Tareas, filtran la lista de tiendas en función del atributo de restaurante de la tienda, seleccionan las ubicaciones coincidentes de Estados Unidos en la jerarquía y, a continuación, publican la lista de tareas en esas tiendas.
+El equipo de Marketing compartirá los detalles de la promoción y la lista correspondiente de tareas con el Administrador de comunicaciones de minoristas. El Retail Communications Manager, que sirve como portero para las tiendas, revisa la información. A continuación, crean una lista de tareas para la promoción y crean una tarea para cada unidad de trabajo que los almacenes afectados deben realizar. Una vez completada la lista de tareas, deben seleccionar las tiendas que deben completar el trabajo. En este caso, la promoción solo se aplica a las tiendas de Estados Unidos que tengan un restaurante en la tienda. En Tareas, filtran la lista de almacenes en función del atributo de restaurante de la tienda, seleccionan las ubicaciones de Estados Unidos coincidentes de la jerarquía y, a continuación, publican la lista de tareas en esos almacenes.
 
 Los administradores de tienda en cada ubicación recibirán una copia de las tareas publicadas y asignarán esas tareas a los miembros de su equipo. Los administradores podrán usar la experiencia Tasks para comprender todo el trabajo necesario en todas las áreas de sus tiendas. También podrán usar los filtros para centrarse en un conjunto específico de trabajos, como un trabajo que vence hoy o el trabajo de un área específica.
 

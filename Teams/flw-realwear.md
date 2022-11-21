@@ -16,15 +16,16 @@ ms.collection:
 - M365-collaboration
 - remotework
 - m365-frontline
+- tier2
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddbbdc0e30190d007a0b6005f4cc6f7b6af806f7
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 1068baa47d284b608cd3a126a51adce1448e8919
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046470"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69130859"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams para RealWear
 

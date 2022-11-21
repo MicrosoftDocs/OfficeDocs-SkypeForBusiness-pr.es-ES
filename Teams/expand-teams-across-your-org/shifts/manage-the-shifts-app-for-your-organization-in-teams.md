@@ -21,16 +21,17 @@ ms.collection:
 - microsoftcloud-healthcare
 - microsoftcloud-retail
 - m365-frontline
+- tier2
 - highpri
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fcdab98ef1d7297b3d72c8e0f2797a0afdde569e
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 545c5af7411aa23bac7c7437d79d412914c7ad79
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784175"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69130979"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 489378c365b691184c07d42292fbb4b0d98b663e
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 1ece44c5adf6d1c23a500988c84f813e438927b0
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377178"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69130899"
 ---
 # <a name="manage-user-access-to-teams"></a>Gestionar acceso de los usuarios a Microsoft Teams
 
@@ -100,7 +100,7 @@ Get-MsolAccountSku
 Ejecute los siguientes comandos, donde \<CompanyName:License> se encuentra el nombre de su organización y el identificador del plan de licencias que ha recuperado en el paso anterior. Por ejemplo, ContosoSchool:ENTERPRISEPACK_STUDENT.
 
 ```powershell
-$acctSKU="<CompanyName:License>
+$acctSKU="<CompanyName:License>"
 $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
 ```
 

@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
 description: Obtenga información sobre las plantillas de equipo que solo están disponibles con Microsoft Graph.
 f1.keywords:
@@ -21,12 +22,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca21b61f1d1889c101208c8b9617efb4a9c19795
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 4560e5845b2f9beabc8227d79bebc889c9d42c37
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046870"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131129"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Introducción a las plantillas de equipo con Microsoft Graph
 

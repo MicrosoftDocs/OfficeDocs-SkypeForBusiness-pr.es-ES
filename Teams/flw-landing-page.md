@@ -13,15 +13,16 @@ ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9b45aa3b89b8b15444c5b5ab5bbd93a9b002ac8
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 0ed56d9b9a34a62b36e14bb788d59a3167748686
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784405"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131239"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>Introducción a Teams para personal de primera línea
 

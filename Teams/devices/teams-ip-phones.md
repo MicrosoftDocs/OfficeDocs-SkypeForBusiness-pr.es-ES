@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: a285deed98c87d7d90f3f0d254a1c056b2dfc421
-ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
+ms.openlocfilehash: 06d5f81b830115d775a2237f7758d3f7ec62be18
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/19/2022
-ms.locfileid: "69126936"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131149"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados por Microsoft Teams
 
@@ -407,6 +407,7 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo  | Versión de firmware | Versión del producto incluida|
 |:--------------|:-----------------|:-------------------------|
+|Neat Pad Panel | `NFA1.20220914.1215` | #3A de actualización de 2022  |
 |Neat Pad Panel | `NFA1.20220914.1206` | #3A de actualización de 2022  |
 |Logitech Tap Scheduler | `1.7.200` |#3A de actualización de 2022  |
 |Yealink RoomPanel | ` 147.15.0.33 ` | Actualización n.º 3 de 2022 |

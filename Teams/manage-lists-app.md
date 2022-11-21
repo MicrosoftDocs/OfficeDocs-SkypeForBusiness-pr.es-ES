@@ -22,16 +22,17 @@ ms.collection:
 - microsoftcloud-retail
 - m365initiative-lists
 - m365-frontline
+- tier2
 - highpri
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: adc9a0e5cc5f8381744e2b2797aaa71c985213da
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: c167b1b3f5fe8f85096aff12e86c2c53a94f7a02
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784185"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131069"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Lists para su organización en Microsoft Teams
 

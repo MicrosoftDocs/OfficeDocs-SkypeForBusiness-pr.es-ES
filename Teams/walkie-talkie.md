@@ -15,18 +15,19 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
 ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
 ms.date: 11/17/2022
-ms.openlocfilehash: 90dcdf19f66b8c0f814540708be81bae36564b21
-ms.sourcegitcommit: f905ce4428155e81a56a1251351730f0eea3a421
+ms.openlocfilehash: abb14f937064b394106e0cf2d58f756371a7c04e
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "69107432"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131279"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicación Walkie Talkie en Microsoft Teams
 

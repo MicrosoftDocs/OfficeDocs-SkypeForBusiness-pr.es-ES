@@ -10,6 +10,7 @@ ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
 ms.localizationpriority: high
 search.appverid: MET150
@@ -21,12 +22,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39b474231c2dcd536684514853a34672100801e5
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: e32430990450fbe72cf80efd5eb960a28e3315a1
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784315"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131329"
 ---
 # <a name="use-retail-team-templates"></a>Usar plantillas de equipo de venta minorista
 
