@@ -20,51 +20,51 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c426606cae959e4d1134fd7a1551b33484c06d9d
-ms.sourcegitcommit: e0dfa7dbfb03c41f096ed0ad80f44de8e147ed26
+ms.date: 11/17/2022
+ms.openlocfilehash: 90dcdf19f66b8c0f814540708be81bae36564b21
+ms.sourcegitcommit: f905ce4428155e81a56a1251351730f0eea3a421
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68743145"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "69107432"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicación Walkie Talkie en Microsoft Teams
 
-La aplicación Walkie Talkie de Teams proporciona una comunicación instantánea de inserción para hablar (PTT) para su equipo y está disponible en Android e iOS. Walkie Talkie permite a los usuarios conectarse con su equipo mediante los mismos canales subyacentes de los que son miembros. Solo los usuarios que se conectan a Walkie Talkie en un canal se convierten en participantes y pueden comunicarse entre sí mediante el uso de push-to-talk, de uno en uno.
+La aplicación Walkie Talkie de Teams proporciona una comunicación instantánea de inserción para hablar (PTT) para su equipo y está disponible en Android e iOS. Walkie Talkie permite a los usuarios conectarse con su equipo mediante los mismos canales subyacentes de los que son miembros.
 
-Con Walkie Talkie en Teams, los trabajadores de primera línea pueden comunicarse de forma segura con una experiencia de PTT familiar sin tener que transportar radios voluminosas, y Walkie Talkie funciona en cualquier lugar con conectividad a Internet móvil o WiFi.
+Solo los usuarios que se conectan a Walkie Talkie en un canal se convierten en participantes y pueden comunicarse entre sí mediante PTT. Los usuarios seguirán recibiendo transmisiones hasta que toquen  **Desconectar**.
+
+Con Walkie Talkie en Teams, los usuarios pueden comunicarse de forma segura con una experiencia de PTT familiar sin necesidad de transportar radios voluminosas, y Walkie Talkie funciona en cualquier lugar con conectividad a Internet wi-fi o móvil.
 
 > [!NOTE]
-> Walkie Talkie no está disponible actualmente en China.
+> Walkie Talkie actualmente no está disponible en China.
 
 ## <a name="license-requirements"></a>Requisitos de licencia
 
-Walkie Talkie se incluye en todas las licencias de pago de Teams en [Las suscripciones de Microsoft 365 y Office 365](/office365/servicedescriptions/teams-service-description). Para obtener más información sobre cómo obtener Teams, consulte [Cómo obtener acceso a Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
+Walkie Talkie se incluye en todas las licencias de pago de Teams en [Las suscripciones de Microsoft 365 y Office 365](/office365/servicedescriptions/teams-service-description). Para obtener más información sobre cómo obtener Teams, consulte [Cómo obtener Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="deploying-walkie-talkie"></a>Implementar Walkie Talkie
 
 Walkie Talkie es compatible con dispositivos Android con Google Mobile Services (GMS) y dispositivos iOS.
 
-> [!NOTE]
-> Si los usuarios usan accesorios Bluetooth, asegúrate de que la solución de administración de dispositivos móviles (MDM) no bloquee los dispositivos Bluetooth.
+### <a name="step-1-make-sure-walkie-talkie-is-enabled-in-your-organization"></a>Paso 1: Asegúrese de que Walkie Talkie está habilitado en su organización
 
-### <a name="enable-or-disable-walkie-talkie-in-your-organization"></a>Habilitar o deshabilitar Walkie Talkie en su organización
+De forma predeterminada, la aplicación Walkie Talkie está habilitada para todos los usuarios de Teams de su organización.
 
-Walkie-talkie está habilitado de forma predeterminada para todos los usuarios de Teams de su organización. Puede desactivar o activar la aplicación en el nivel de organización en la página [Administrar aplicaciones](manage-apps.md) del Centro de administración de Microsoft Teams.
+Puede controlar si la aplicación está disponible en el nivel de la organización en la página [Administrar aplicaciones](manage-apps.md) del Centro de administración de Microsoft Teams. Para confirmar que la aplicación está habilitada en su organización:
 
 1. En el panel de navegación izquierdo del Centro de administración de Teams, vaya a **Aplicaciones de Teams** > **Administrar aplicaciones**.
-2. En la lista de aplicaciones, busca la aplicación Walkie Talkie, selecciónala y cambia el botón de alternancia **Estado** a **Bloqueada** o **Permitida**.
+2. En la lista de aplicaciones, busca la aplicación Walkie Talkie, selecciónala y, a continuación, asegúrate de que el botón de alternancia **Estado** esté establecido en **Permitido**.
 
-### <a name="enable-or-disable-walkie-talkie-for-specific-users-in-your-organization"></a>Habilitar o deshabilitar Walkie Talkie para usuarios específicos de su organización
+Si desea permitir o bloquear el uso de Walkie Talkie por parte de usuarios específicos de su organización, asegúrese de que Walkie Talkie está habilitado para su organización en la página [Administrar aplicaciones](manage-apps.md) . A continuación, cree una directiva personalizada para los permisos de la aplicación y asígnela a esos usuarios. Para obtener más información, consulte [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-app-permission-policies.md).
 
-Para permitir o impedir que usuarios específicos de su organización usen Walkie Talkie, asegúrese de que Walkie Talkie está activado para su organización en la página [Administrar aplicaciones](manage-apps.md) . A continuación, cree una directiva personalizada para los permisos de la aplicación, agréguela a una directiva de configuración de la aplicación y asígnela a esos usuarios. Para obtener más información, consulte [Administrar directivas de permisos de aplicaciones en Teams](teams-app-permission-policies.md) y [Administrar directivas de configuración de aplicaciones en Microsoft Teams](teams-app-setup-policies.md).
-
-### <a name="pin-walkie-talkie-to-teams"></a>Anclar Walkie Talkie a Teams
+### <a name="step-2-pin-walkie-talkie-to-teams"></a>Paso 2: Anclar Walkie Talkie a Teams
 
 #### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>Usar la experiencia de aplicación frontline adaptada para anclar Walkie Talkie y otras aplicaciones a Teams
 
 La experiencia de aplicación de primera línea adaptada en Teams ancla las aplicaciones más relevantes en Teams para los usuarios que tienen una [licencia F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Entre las aplicaciones ancladas se incluyen Walkie Talkie, Turnos, Tareas y Aprobaciones. De forma predeterminada, esta característica está activada, lo que ofrece a sus trabajadores de primera línea una experiencia predefinida que se adapta a sus necesidades.
 
-Las aplicaciones se anclan en la barra de aplicaciones (la barra situada en el lateral del cliente de escritorio de Teams y en la parte inferior de los clientes móviles de Teams), donde los usuarios pueden acceder a ellas de forma rápida y sencilla.
+Las aplicaciones se anclan en la bandeja de aplicaciones de la parte inferior de los clientes móviles de Teams, donde los usuarios pueden acceder a ellas de forma rápida y sencilla.
 
 Para obtener más información, incluido cómo funciona la experiencia con las directivas de aplicaciones que establezca, consulte [Personalizar las aplicaciones de Teams para los trabajadores de primera línea](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
@@ -124,9 +124,16 @@ Los trabajadores de primera línea a menudo necesitan hablar y recibir llamadas 
 > [!NOTE]
 > Estos dispositivos no están certificados para Teams. Se han validado para trabajar con Walkie Talkie de Teams.
 
+## <a name="bluetooth-devices"></a>Dispositivos Bluetooth
+
+> [!NOTE]
+> Si los usuarios usan accesorios Bluetooth, asegúrate de que la solución de administración de dispositivos móviles (MDM) no bloquee los dispositivos Bluetooth.
+
+En dispositivos que ejecutan Android OS versión 12 o posterior, se requieren permisos de Bluetooth y los permisos de ubicación para conectarse mediante la pila BLE ya no son necesarios. Si no se conceden "permisos cercanos" en el nivel de Teams, el usuario recibirá una solicitud de permisos de Bluetooth. Se muestra este mensaje, independientemente de si un accesorio Bluetooth, como unos auriculares, está conectado a su dispositivo. Si hay un accesorio Bluetooth conectado, al pulsar **Permitir** , Walkie Talkie se conecta al accesorio Bluetooth.
+
 ## <a name="more-information"></a>Más información
 
-- Si el trabajador de primera línea usa datos móviles para comunicarse a través de Teams, Walkie Talkie usará el mismo método.
+- Si los usuarios usan datos móviles para comunicarse a través de Teams, Walkie Talkie usará el mismo método.
 - Walkie Talkie debería funcionar bien en situaciones de poco ancho de banda o en situaciones en las que el smartphone esté conectado y funcionando. Walkie-talkie no funcionará cuando no haya conectividad en absoluto.
 
 Para obtener más información sobre la experiencia del usuario final, vea:

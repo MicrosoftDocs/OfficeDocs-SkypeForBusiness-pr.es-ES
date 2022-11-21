@@ -18,16 +18,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Administración de clientes multiempresa para partners.
 f1keywords: ''
-ms.openlocfilehash: e4e89d483d15ad7f521afd9c0686b3d72ab9e09d
-ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
+ms.openlocfilehash: 681efe6832a3829b54b23345f04e32151f130939
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "68243911"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046829"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>Administración de clientes multiempresa para partners
 
-La administración multiempresa (MTM) del servicio Salas de Teams Pro Management ayuda a las organizaciones asociadas a administrar varios clientes en un solo lugar, con sus propias credenciales de dominio. Los usuarios asociados solo verán los salones de cliente asignados para administrar. Es posible aplicar roles personalizados para cada cliente en el portal MTM, dando a las organizaciones asociadas un control granular de los permisos de los recursos del cliente. 
+La administración multiempresa (MTM) del servicio administración de Salas de Teams Pro ayuda a las organizaciones asociadas a administrar varios clientes en un solo lugar, con sus propias credenciales de dominio. Los usuarios asociados solo verán los salones de cliente asignados para administrar. Es posible aplicar roles personalizados para cada cliente en el portal MTM, dando a las organizaciones asociadas un control granular de los permisos de los recursos del cliente. 
 
 El portal MTM se puede acceder a través de este [link](https://partner.rooms.microsoft.com/).
 
@@ -102,7 +102,7 @@ Para quitar a un cliente, debe quitarlo de la lista **Inquilinos** .
 
 ## <a name="managing-partner-roles"></a>Administrar roles de partner
 
-Los roles de partner permiten la delegación de responsabilidades a personal adicional. El concepto de estos roles es el mismo que se describe en [Control de acceso basado](microsoft-teams-rooms-premium-rbac.md) en roles, pero en el contexto de cada cliente. Además, es importante tener en cuenta que los roles de partner son distintos de los roles del cliente. El cliente puede eliminar los roles de partner. 
+Los roles de partner permiten la delegación de responsabilidades a personal adicional. El concepto de estos roles es el mismo que se describe en [Control de acceso basado](rooms-pro-rbac.md) en roles, pero en el contexto de cada cliente. Además, es importante tener en cuenta que los roles de partner son distintos de los roles del cliente. El cliente puede eliminar los roles de partner. 
 
 El rol **Administradores principales** es el único rol integrado para cada cliente integrado y tiene casi todos los permisos para el servicio Pro Management (vea la tabla 1, en el contexto del cliente). Los permisos de rol de partner** solo se extienden hasta las salas designadas por el cliente. Por ejemplo, si el cliente es una organización global y asigna al partner la administración de todos los salones de Ee. UU., el administrador principal solo podrá administrar y delegar los permisos de esos salones. El Partner no tiene visibilidad para otras salas que el Cliente puede tener en otros países. 
 
@@ -127,7 +127,7 @@ Como partner, puede crear roles personalizados que se adapten a sus requisitos o
 
 1. Vaya a **Configuración > Roles**. 
 1. Seleccione el cliente en el menú desplegable para el que desea editar el rol de partner.
-1. Cree un [rol personalizado](microsoft-teams-rooms-premium-rbac.md#built-in-roles).
+1. Cree un [rol personalizado](rooms-pro-rbac.md#built-in-roles).
 
 
 

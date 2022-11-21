@@ -19,13 +19,13 @@ ms.custom:
 - seo-marvel-apr2020
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Obtenga información sobre cómo usar y administrar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: 75c4a220def2978a843fa69747ae86217a4d152b
-ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
+description: Obtenga información sobre cómo usar, administrar y personalizar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
+ms.openlocfilehash: f91fdcdecb66fbc08b8ce75563f6034594fd448c
+ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2022
-ms.locfileid: "68877521"
+ms.lasthandoff: 11/19/2022
+ms.locfileid: "69128269"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Administrar paquetes de directivas para Microsoft Teams
 
@@ -36,9 +36,6 @@ Puede usar los [paquetes de directivas incluidos en Teams](#policy-packages-incl
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Captura de pantalla de la página Paquetes de directivas en el centro de administración." lightbox="media/policy-packages-admin-center.png":::
 
 Puede personalizar la configuración de las directivas de un paquete de directivas para adaptarla a las necesidades de los usuarios. Al cambiar la configuración de las directivas de un paquete, todos los usuarios asignados a ese paquete obtienen la configuración actualizada. Puede administrar paquetes de directivas mediante el Centro de administración de Microsoft Teams o PowerShell.
-
-> [!NOTE]
-> Esta característica está disponible temporalmente en la versión preliminar pública para todos los clientes de Microsoft Teams. Para obtener esta característica después de la vista previa, cada usuario necesitará la licencia del complemento Comunicaciones avanzadas. Para más información, consulte [Complemento de Comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## <a name="what-is-a-policy-package"></a>¿Qué es un paquete de directivas?
 

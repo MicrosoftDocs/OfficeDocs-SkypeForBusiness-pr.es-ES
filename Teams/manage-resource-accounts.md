@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: En este artículo, aprenderá a crear, editar y administrar cuentas de recursos en Microsoft Teams.
-ms.openlocfilehash: cc4705f91260c0ef58b876ef4a606d96ce397929
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: b9c7f5575d5e6df4370c07bf1cd581cbd1a396dd
+ms.sourcegitcommit: 9504b7a67e593f5575060b09b69817325e2a1f77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614393"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "69111137"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -45,8 +45,7 @@ Vea las siguientes referencias para obtener más información:
 Puede editar la cuenta de recursos **Nombre para mostrar** y el tipo **de cuenta de recurso** con la opción **Editar** . Haga clic en **Guardar** cuando haya terminado.
 
 ## <a name="change-an-existing-resource-account-to-use-a-teams-phone-resource-account-license"></a>Cambiar una cuenta de recursos existente para usar una licencia de cuenta de recursos de Teléfono de Teams
-
-Si decide cambiar las licencias de su cuenta de recursos existente de una licencia **de Teléfono Teams Estándar** a una licencia de cuenta de recursos **de Teléfono Microsoft Teams**, tendrá que adquirir la licencia gratuita de cuenta de recursos de **Teams Phone** y, a continuación, seguir los pasos de la Centro de administración de Microsoft 365 mover [usuarios a una suscripción diferente](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
+Para cambiar las licencias de su cuenta de recursos existente de una licencia **de Teléfono Teams Estándar** a una licencia de cuenta de recursos **de Teléfono Microsoft Teams**, tendrá que adquirir la licencia de **la cuenta de recursos de Teléfono de Teams** y, a continuación, seguir los pasos de la Centro de administración de Microsoft 365 mover [usuarios a una suscripción diferente](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
 > Quite siempre una Licencia de Teléfono Teams Estándar completa y asigne la licencia **Teléfono Microsoft Teams cuenta de recursos** en la misma actividad de licencia. Si quita la licencia antigua, guarda los cambios en la cuenta, agrega la nueva licencia y, a continuación, guarda de nuevo la configuración de la cuenta, es posible que la cuenta de recursos ya no funcione según lo esperado. Si esto ocurre, le recomendamos que cree una nueva cuenta de recursos para la licencia **de cuenta de recursos de Teléfono Microsoft Teams** y quite la cuenta de recursos rota.

@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: administración de partners para los clientes.
 f1keywords: ''
-ms.openlocfilehash: 0fef32202d256926448227f522b6160100cd05e1
-ms.sourcegitcommit: fcbbc197e43bcd63bf95cb329df9cb52e06ee356
+ms.openlocfilehash: 56aaf61092dd1bbd61c2734be6da1732f4882e49
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "68842168"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046869"
 ---
 # <a name="partner-management-for-customers"></a>Administración de partners para clientes
 
@@ -77,7 +77,7 @@ Para administrar usuarios en el rol de administrador principal, consulte [Admini
 
 ## <a name="managing-partner-roles"></a>Administrar roles de partner
 
-Los roles de partner permiten que su partner delegue responsabilidades más pormenorizadamente a personal adicional. El concepto de estos roles es el mismo que se describe en [Control de acceso basado en roles](microsoft-teams-rooms-premium-rbac.md). Es importante tener en cuenta que los roles de partner son distintos de los roles personalizados. 
+Los roles de partner permiten que su partner delegue responsabilidades más pormenorizadamente a personal adicional. El concepto de estos roles es el mismo que se describe en [Control de acceso basado en roles](rooms-pro-rbac.md). Es importante tener en cuenta que los roles de partner son distintos de los roles personalizados. 
 
 El rol **administrador principal** es el único rol integrado para cada partner que agregue. Este rol tiene casi todos los permisos para los salones que asignó a ese partner para el servicio TRM (vea [la Tabla 1](#table-1)). Por ejemplo, si tiene salas en todo el mundo y asigna un partner para administrar todos los salones de Estados Unidos, el administrador principal solo podrá administrar y delegar los permisos de esos salones. En este caso, los administradores principales de este partner no tienen visibilidad para los salones fuera de ee. UU. 
 

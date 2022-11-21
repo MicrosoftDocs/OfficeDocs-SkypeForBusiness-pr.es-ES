@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y de conferencia están certificados para Microsoft Teams para producir los mejores resultados.
-ms.openlocfilehash: 45b4ac2551d60f701e4a586a15f6702aaf023bc3
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: a285deed98c87d7d90f3f0d254a1c056b2dfc421
+ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928266"
+ms.lasthandoff: 11/19/2022
+ms.locfileid: "69126936"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados por Microsoft Teams
 
@@ -51,6 +51,7 @@ Los siguientes dispositivos están certificados en el Programa de certificación
 
 |Modelo de dispositivo    | Versión de firmware    | Fecha de finalización de la certificación actual | Versión del sistema operativo Android                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Poly CCX350                            | `8.0.1.4670`                                                  |  5 de agosto de 2023              | 9 |
 | Poly CCX505                            | `7.3.1.0811`                                                  |  5 de agosto de 2023              | 9 |
 | AudioCodes C450HD                      | `1.17.443`                                                  |    5 de agosto de 2023              | 9 |
 | AudioCodes C448HD (solo modo Cap)       |  `1.17.443`                                                   | 5 de agosto de 2023            | 9 |
@@ -96,8 +97,9 @@ Los siguientes dispositivos están certificados en el programa de certificación
 | AudioCodes RXV80 | `1.9.155`        |   5 de agosto de 2023  | Sala de concentración(3 m x 3 m) </br> Sala de reuniones pequeña(4,5 m x 4,5 m) | 9 |
 | EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 5 de agosto de 2023 | Sala de concentración(3 m x 3 m) </br> Sala de reuniones pequeña(4,5 m x 4,5 m) | 9 |
 | Consola táctil CTP18 de Yealink  | `137.15.0.28`    | 5 de agosto de 2023   | Compatible con Yealink MeetingBar A20 y Yealink MeetingBar A30 | 9 |
-| Poly Studio X30         | `3.1.1.216109`     | 5 de diciembre de 2022  | Sala de concentración(3 m x 3 m) </br> Sala de reuniones pequeña(4,5 m x 4,5 m) | 8.1 |
-| Poly Studio X50         | `3.1.1.216109`     | 5 de diciembre de 2022   | Sala de concentración(3 m x 3 m) </br> Sala de reuniones pequeña(4,5 m x 4,5 m) | 8.1 |
+| Poly Studio X30         | `4.0.0.100885`     | 4 de septiembre de 2024  | Sala de reuniones pequeña(4,5 m x 4,5 m) | 10 |
+| Poly Studio X50         | `4.0.0.100885`     | 4 de septiembre de 2024   | Habitación de tamaño mediano (4,5 m x 6 m) | 10 |
+| Poly G7500              | `4.0.0.1009138`    | 4 de septiembre de 2024   | Sala de reuniones grande (4,5 m x 8,5 m) | 10 |
 | Poly TC8                | `3.3.2.210441`     | 5 de agosto de 2023 | Compatible con Poly Studio X30 y Poly Studio X50  |  9  |
 | Yealink VC210           | `118.15.0.14`      | 5 de agosto de 2023 | Sala de concentración(3 m x 3 m) </br> Sala de reuniones pequeña(4,5 m x 4,5 m) |  9  |
 
@@ -161,6 +163,7 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo  | Versión de firmware  | Versión del producto incluida  |
 |:----------------|:--------------|:----------------------------|
+|AudioCodes C448HD/C450HD  | `1.17.769`    | #3A de actualización de 2022|
 |Crestron UC-P8/I/C/CI     | `1.0.5.20`    | #3A de actualización de 2022 |
 |Crestron UC-P10/I/C/CI | `1.0.5.20`    | #3A de actualización de 2022 |
 |Códigos de audio C435HD/C448HD/C450HD/C455HD/C470HD | `1.17.764` | #3A de actualización de 2022    |
@@ -292,10 +295,69 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 | Yealink MeetingBar A30 | `133.310.0.25 `   | #2A de actualización de 2022  |
 | Yealink CTP18 | `137.15.0.80`   | #2A de actualización de 2022  |
 | AudioCodes RXV80 | `1.16.191` | #2A de actualización de 2022   |
-
-| Poly Studio X30 | `3.14.1.374010` #2B | | de actualización de | 2022 Poly Studio X50 | `3.14.1.374010` #2B | de actualización de | 2022
-
-| Poly Studio X30 | `3.12.0.366027` Actualización n.º 1 de | | de | 2022 Poly Studio X50 | `3.12.0.366027` Actualización n.º 1 de | | de | 2022 | Logi Rallybar `1.6.552`         Actualización n.º 2 de | 2022 | | Logi Rallybar Mini | `1.6.552`       Actualización n.º 2 de | 2022 | | | De barra ordenada `NFB1.20220512.2200` Actualización n.º 2 de | de 2022 | | Consola táctil Neat Pad | `NFA1.20220512.2158`  |  Actualización n.º 2 de 2022 | | | Neat Board `NFC1.20220512.2200` |  Actualización n.º 2 de 2022 | | Barra de reuniones de Yealink A20 | `133.15.0.95 `   Actualización n.º 2 de | | de | de 2022 Barra de reuniones A30 de Yealink | `133.15.0.95 `   Actualización n.º 2 de | | de | 2022 | CTP18 de Yealink `137.15.0.53`     Actualización n.º 2 de | | de | de 2022 Yealink VC210 + VC210 | `118.15.0.69`     Actualización n.º 2 de | 2022 | | Logi Tap Device |  `1.5.705`   Actualización n.º 1 de | | de | de 2022 Poly Studio X30 | `3.11.0.364021`          Actualización n.º 1 de | | de | de 2022 Poly Studio X50 | `3.11.0.364021`          Actualización n.º 1 de | | de | 2022 | de compañeros de piso de Logi   `1.6.290`   Actualización n.º 1 de | | de | 2022 Logi Rallybar Mini |   `1.6.272`   Actualización n.º 1 de | de 2022 | | | Logi Rallybar   `1.6.272`   Actualización n.º 1 de | | de | de 2022 | de compañeros de piso de Logi   `1.5.705`   Actualización n.º 1 de | | de | de 2022 Logi Rallybar Mini |   `1.5.705`   Actualización n.º 1 de | | de | de 2022 | Logi Rallybar   `1.5.705`   Actualización n.º 1 de | 2022 | | EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | Actualización 1 | | de 2022 AudioCodes RXV80 | `1.16.164 `   Actualización n.º 1 | | de | 2022 | Yealink VC210 `118.15.0.65`   Actualización n.º 1 de | | de | de 2022 Barra de reuniones de Yealink A20 | `133.15.0.80 `   Actualización n.º 1 de | | de | 2022 Barra de reuniones A30 de Yealink | `133.15.0.80 `   Actualización n.º 1 de | | de | 2022 | CTP18 de Yealink `137.15.0.49`    Actualización n.º 1 de | | de | 2022 Poly Studio X30 | `3.9.0` #2F | | de actualización de | 2021 Poly Studio X50 | `3.9.0` #2F | | de actualización de | 2021 Poly TC8 | `3.9.0`          #2F | | de actualización de | 2021 Poly Studio X30 | `3.8.0`          Actualización n.º 2 de | 2021 | | Poly Studio X50 | `3.8.0`          Actualización n.º 2 de | | de | 2021 Poly TC8 | `3.8.0`          Actualización n.º 2 de | 2021 | | | Logi Rallybar `1.3.538`         #2B | | de actualización de | 2021 Logi Rallybar Mini | `1.3.538`       #2B | | de actualización de | 2021 | Logi Rallybar `1.4.228`         #2B | | de actualización de | 2021 Logi Rallybar Mini | `1.4.228`       #2B | | de actualización de | 2021 Poly Studio X30 | `3.7.0`          #2A | | de actualización de | 2021 Poly Studio X50 | `3.7.0`          #2A | | de actualización de | 2021 Poly TC8 | `3.7.0`          #2A | | de actualización de | 2021 Poly Studio X30 | `3.6.0.350035`  #2A | | de actualización de | 2021 Poly Studio X50 | `3.6.0.350035`  #2A | | de actualización de | 2021 Poly TC8 | `3.6.0.210534`  #2A | | de actualización de | 2021 EPOS EXPAND Vision 3T |`1.2.2.21182.10`   | Actualización n.º 2 de 2021 | | AudioCodes RXV80 |`1.13.361`   | Actualización n.º 2 de 2021 | | |`118.15.0.54`   Yealink VC210   | Actualización n.º 2 de 2021 | | Barra de reuniones de Yealink A20 | `133.15.0.60`     Actualización n.º 2 de | | de | 2021 Barra de reuniones A30 de Yealink | `133.15.0.60`    Actualización n.º 2 de | | de | 2021 | CTP18 de Yealink `137.15.0.37`    Actualización n.º 2 de | 2021 | | Poly Studio X30 | `3.5.0.344025`          Actualización n.º 2 de | de 2021 | | Poly Studio X50 | `3.5.0.344025`        Actualización n.º 2 de | | de | de 2021 Poly TC8 | `3.5.0.210489`         Actualización n.º 2 de | | de | de 2021 Poly Studio X30 | `3.3.2.286154`          Actualización n.º 1 de | | de | 2021 Poly Studio X50 | `3.3.2.286154`          Actualización n.º 1 de | | de | 2021 Poly TC8 | `3.3.2.286154`                 Actualización n.º 1 de | | de | 2021 |`118.15.0.47`     VC210 de Yealink     | Actualización n.º 1 de 2021 | | Barra de reuniones de Yealink A20 | `133.15.0.54`     Actualización n.º 1 de | | de | 2021 Barra de reuniones A30 de Yealink | `133.15.0.54`     Actualización n.º 1 de | | de | 2021 | CTP18 de Yealink `137.15.0.30`     Actualización n.º 1 de | | de | 2021 Yealink VC210 + CP900 | `118.15.0.42`     Actualización n.º 3 de | | de | 2020 Poly Studio X30 | `3.2.3.280012`          Actualización n.º 3 de | 2020 | | Poly Studio X50 | `3.2.3.280012`          Actualización n.º 3 de | 2020 |
+| Poly Studio X30 | `3.14.1.374010` | #2B de actualización de 2022   |
+| Poly Studio X50 | `3.14.1.374010` | #2B de actualización de 2022  |
+| Poly Studio X30 | `3.12.0.366027` | Actualización n.º 1 de 2022   |
+| Poly Studio X50 | `3.12.0.366027` | Actualización n.º 1 de 2022  |
+| Logi Rallybar    | `1.6.552`         | Actualización n.º 2 de 2022    |
+| Logi Rallybar Mini | `1.6.552`       | Actualización n.º 2 de 2022   |
+| Barra ordenada | `NFB1.20220512.2200` | Actualización n.º 2 de 2022 |
+| Consola táctil Neat Pad | `NFA1.20220512.2158`  |  Actualización n.º 2 de 2022 |
+| Tabla ordenada | `NFC1.20220512.2200` |  Actualización n.º 2 de 2022 |
+| Yealink MeetingBar A20 | `133.15.0.95 `   | Actualización n.º 2 de 2022  |
+| Yealink MeetingBar A30 | `133.15.0.95 `   | Actualización n.º 2 de 2022  |
+| Yealink CTP18 | `137.15.0.53`     | Actualización n.º 2 de 2022    |
+| Yealink VC210 + VC210 | `118.15.0.69`     | Actualización n.º 2 de 2022    |
+| Logi Tap Device  |  `1.5.705`   | Actualización n.º 1 de 2022    |
+| Poly Studio X30 | `3.11.0.364021`          | Actualización n.º 1 de 2022    |
+| Poly Studio X50 | `3.11.0.364021`          | Actualización n.º 1 de 2022    |
+| Compañero de piso de Logi |   `1.6.290`   | Actualización n.º 1 de 2022    |
+| Logi Rallybar Mini   |   `1.6.272`   | Actualización n.º 1 de 2022  |
+| Logi Rallybar    |   `1.6.272`   | Actualización n.º 1 de 2022   |
+| Compañero de piso de Logi |   `1.5.705`   | Actualización n.º 1 de 2022    |
+| Logi Rallybar Mini   |   `1.5.705`   | Actualización n.º 1 de 2022    |
+| Logi Rallybar    |   `1.5.705`   | Actualización n.º 1 de 2022    |
+| EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | Actualización n.º 1 de 2022 |
+| AudioCodes RXV80 | `1.16.164 `   | Actualización n.º 1 de 2022 |
+| Yealink VC210 | `118.15.0.65`   | Actualización n.º 1 de 2022    |
+| Yealink MeetingBar A20 | `133.15.0.80 `   | Actualización n.º 1 de 2022   |
+| Yealink MeetingBar A30 | `133.15.0.80 `   | Actualización n.º 1 de 2022   |
+| Yealink CTP18 | `137.15.0.49`    | Actualización n.º 1 de 2022   |
+| Poly Studio X30 | `3.9.0` | #2F de actualización de 2021   |
+| Poly Studio X50 | `3.9.0` | #2F de actualización de 2021   |
+| Poly TC8        | `3.9.0`          | #2F de actualización de 2021   |
+| Poly Studio X30 | `3.8.0`          | Actualización n.º 2 de 2021    |
+| Poly Studio X50 | `3.8.0`          | Actualización n.º 2 de 2021    |
+| Poly TC8        | `3.8.0`          | Actualización n.º 2 de 2021    |
+| Logi Rallybar    | `1.3.538`         | #2B de actualización de 2021    |
+| Logi Rallybar Mini | `1.3.538`       | #2B de actualización de 2021    |
+| Logi Rallybar    | `1.4.228`         | #2B de actualización de 2021    |
+| Logi Rallybar Mini | `1.4.228`       | #2B de actualización de 2021    |
+| Poly Studio X30 | `3.7.0`          | #2A de actualización de 2021    |
+| Poly Studio X50 | `3.7.0`          | #2A de actualización de 2021    |
+| Poly TC8        | `3.7.0`          | #2A de actualización de 2021    |
+| Poly Studio X30 | `3.6.0.350035`  | #2A de actualización de 2021    |
+| Poly Studio X50 | `3.6.0.350035`  | #2A de actualización de 2021    |
+| Poly TC8 | `3.6.0.210534`  | #2A de actualización de 2021    |
+| EPOS EXPAND Vision 3T |`1.2.2.21182.10`   | Actualización n.º 2 de 2021 |
+| AudioCodes RXV80 |`1.13.361`   | Actualización n.º 2 de 2021 |
+| Yealink VC210 |`118.15.0.54`   | Actualización n.º 2 de 2021    |
+| Yealink MeetingBar A20 | `133.15.0.60`     | Actualización n.º 2 de 2021    |
+| Yealink MeetingBar A30 | `133.15.0.60`    | Actualización n.º 2 de 2021    |
+| Yealink CTP18 | `137.15.0.37`    | Actualización n.º 2 de 2021    |
+| Poly Studio X30 | `3.5.0.344025`          | Actualización n.º 2 de 2021    |
+| Poly Studio X50 | `3.5.0.344025`        | Actualización n.º 2 de 2021    |
+| Poly TC8 | `3.5.0.210489`         | Actualización n.º 2 de 2021    |
+| Poly Studio X30 | `3.3.2.286154`          | Actualización n.º 1 de 2021    |
+| Poly Studio X50 | `3.3.2.286154`          | Actualización n.º 1 de 2021    |
+| Poly TC8 | `3.3.2.286154`                 | Actualización n.º 1 de 2021    |
+| Yealink VC210 |`118.15.0.47`     | Actualización n.º 1 de 2021    |
+| Yealink MeetingBar A20 | `133.15.0.54`     | Actualización n.º 1 de 2021    |
+| Yealink MeetingBar A30 | `133.15.0.54`     | Actualización n.º 1 de 2021    |
+| Yealink CTP18 | `137.15.0.30`     | Actualización n.º 1 de 2021    |
+| Yealink VC210 + CP900 | `118.15.0.42`     | Actualización n.º 3 de 2020    |
+| Poly Studio X30 | `3.2.3.280012`          | Actualización n.º 3 de 2020    |
+| Poly Studio X50 | `3.2.3.280012`          | Actualización n.º 3 de 2020    |
 
 ### <a name="product-release-information-for-teams-displays"></a>Información de versión del producto para pantallas de Teams
 

@@ -1,7 +1,7 @@
 ---
 title: Información de datos y privacidad
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.date: 06/01/2022
 ms.reviewer: ''
@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Información de datos y privacidad
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 50806ffce468ac9add956d6942c2b3b2e5885125
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.openlocfilehash: ec28dcafa7825e7f754d3631d2c21400a08c9b83
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532470"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046789"
 ---
 # <a name="approach"></a>Enfoque
 
@@ -102,4 +102,4 @@ Salas de Microsoft Teams para la seguridad de Windows: [[Microsoft Teams para se
 Salas de Microsoft Teams para la seguridad de Android: [Seguridad de Microsoft Teams para Android](/microsoftteams/rooms/security-android) \
 Declaración de privacidad de Microsoft: https://aka.ms/privacy \
 Administración de datos en Microsoft: https://www.microsoft.com/trust-center/privacy/data-management \
-Descripción del servicio de Servicios administrados: [Servicio administrado por salas de Microsoft Teams](microsoft-teams-rooms-premium.md)
+Descripción del servicio de Servicios administrados: [Servicio administrado por salas de Microsoft Teams](rooms-pro-management.md)

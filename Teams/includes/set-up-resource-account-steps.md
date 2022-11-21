@@ -12,7 +12,7 @@ Antes de empezar los procedimientos de este artículo, asegúrese de que ha hech
 
 ### <a name="obtain-microsoft-teams-phone-resource-account-licenses"></a>Obtener licencias de cuenta de recursos Teléfono Microsoft Teams
 
-Cada cuenta de recursos requiere una licencia para trabajar con operadores automáticos y colas de llamadas. Puede usar una licencia gratuita *de Teléfono Microsoft Teams cuenta de recursos*. Para obtener estas licencias, consulte [Teléfono Microsoft Teams licencias de cuenta de recursos](../teams-add-on-licensing/virtual-user.md).
+Cada cuenta de recursos requiere una licencia para trabajar con operadores automáticos y colas de llamadas, lo que se conoce como una licencia de *cuenta de recursos de Teléfono Microsoft Teams*. Las suscripciones con Teams Phone obtienen automáticamente una asignación gratuita de licencias de *Teléfono Microsoft Teams cuenta* de recursos y, si se necesitan más, se pueden comprar licencias de cuenta de recursos *Teléfono Microsoft Teams* adicionales. Para obtener más información sobre cómo obtener estas licencias, consulte [Teléfono Microsoft Teams licencias de cuenta de recursos](../teams-add-on-licensing/virtual-user.md).
 
 Explicamos cómo [asignar la licencia a una cuenta de recursos más adelante en este artículo](#assign-a-license).
 

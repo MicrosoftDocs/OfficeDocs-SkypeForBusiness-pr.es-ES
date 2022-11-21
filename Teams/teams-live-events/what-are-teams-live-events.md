@@ -23,12 +23,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: fab22ca4bda45f1f534055a5f43d64358dea8cec
-ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.openlocfilehash: fb6e808b162736b5d3e682cf8ae00682b4334388
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68486600"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046759"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -97,13 +97,12 @@ La plataforma de streaming de eventos en directo se compone de lo siguiente:
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Content Delivery Network para empresas (eCDN)
 
-El objetivo de eCDN consiste en tomar el contenido de vídeo de internet y distribuirlo por toda su empresa sin que el rendimiento de red se vea afectado. Puede utilizar uno de los siguientes socios certificados de eCDN para optimizar la red para eventos en directo que tengan lugar en su organización:
+El objetivo de eCDN consiste en tomar el contenido de vídeo de internet y distribuirlo por toda su empresa sin que el rendimiento de red se vea afectado. Puede usar la [solución de eCDN de origen de Microsoft](/ecdn) o, como alternativa, uno de los siguientes asociados certificados de eCDN para optimizar su red para eventos en directo realizados dentro de su organización:
 
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
-- [Peer5](https://www.peer5.com/)
 
 ### <a name="attendee-experience"></a>Experiencia de los asistentes
 

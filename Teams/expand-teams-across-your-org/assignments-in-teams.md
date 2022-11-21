@@ -21,12 +21,12 @@ description: Obtenga información sobre cómo administrar tareas en el Centro de
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91afcd8036cddfae2550aaddad776958ca413a78
-ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
+ms.openlocfilehash: 1475406697778080d5e49aae58729e6eb1d1576c
+ms.sourcegitcommit: 9504b7a67e593f5575060b09b69817325e2a1f77
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67624300"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "69111147"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
 
@@ -39,7 +39,11 @@ Las características Tareas y calificaciones de Teams para Educación permiten a
 
 ## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Integraciones de tareas en el Centro de administración de Microsoft Teams
 
-Con la configuración de administrador del Centro de administración de Microsoft Teams, puede activar o desactivar las características para los profesores de su organización y sus alumnos. A continuación, se muestran las opciones relacionadas con las tareas:
+Con la configuración de administrador del Centro de administración de Microsoft Teams, puede activar o desactivar las características para los profesores de su organización y sus alumnos.
+
+Para ver y administrar la configuración de tareas, vaya a <a href="https://admin.teams.microsoft.com/education/assignments-settings" target="_blank">**Configuración de tareas** **de Educación** > </a> en el Centro de administración de Teams.
+
+A continuación, se muestran las opciones relacionadas con las tareas:
 
 <a name="#bkemaildigest"> </a>
 
