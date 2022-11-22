@@ -1,5 +1,5 @@
 ---
-title: Configurar las llamadas RTC en Skype Empresarial
+title: Configurar Planes de Llamada de Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -27,16 +27,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Aprenda a configurar planes de llamadas, incluidos ver los planes disponibles en su región, comprar & asignar licencias, obtener números de teléfono y agregar direcciones de emergencia & ubicaciones.
-ms.openlocfilehash: c33a7e3400df369b062468001b06d35dc98ad0ac
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: ac46c40fb5a63a40ed2ecbdc5f43fa71137f780c
+ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999535"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69139154"
 ---
-# <a name="set-up-calling-plans"></a>Configurar las llamadas RTC en Skype Empresarial
+# <a name="set-up-microsoft-teams-calling-plans"></a>Configurar Planes de Llamada de Microsoft Teams
 
-Las llamadas a otros usuarios de Teams son gratuitas, pero si quiere que puedan llamar a teléfonos fuera de su empresa, obtener un plan de llamadas nacionales, un plan de llamadas internacionales o un plan de llamadas de pago por uso en Microsoft 365 en función de sus necesidades. Es fácil configurar planes de llamadas para su empresa.  Para obtener más información sobre los planes de llamadas, consulte [¿Qué plan de llamadas es el adecuado para usted?](calling-plan-landing-page.md).
+Las llamadas a otros usuarios de Teams son gratuitas, pero si quiere que puedan llamar a teléfonos fuera de su empresa, obtener un plan de llamadas nacionales, un plan de llamadas internacionales o un plan de llamadas de pago por uso en Microsoft 365 en función de sus necesidades. Es fácil configurar Planes de Llamada de Microsoft Teams para su empresa.  Para obtener más información sobre los planes de llamadas, consulte [¿Qué plan de llamadas es el adecuado para usted?](calling-plan-landing-page.md).
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Paso 1: Averiguar si los planes de llamada están disponibles en su país o región
 
@@ -51,7 +51,8 @@ Si los planes de llamadas no están disponibles para su país o región, consult
     > [!TIP]
     > Las licencias del **sistema telefónico** y los planes de llamadas de Microsoft 365 van juntos, por lo que para ver la opción de comprar planes de llamadas, primero debe tener las licencias de **Sistema telefónico**.
   
-2. First assign the licenses, and then assign a Calling Plan to the people in your organization. Consulte [Asignar licencias de complementos de Microsoft Teams](./teams-add-on-licensing/assign-teams-add-on-licenses.md).
+2. En primer lugar, asigne las licencias y, a continuación, asigne una licencia de Plan de llamadas a las personas de su organización. Consulte [Asignar licencias de complementos de Microsoft Teams](./teams-add-on-licensing/assign-teams-add-on-licenses.md).
+    1. Si compra un plan de llamadas de pago por uso, es posible que deba adquirir créditos de comunicación. Para determinar si necesita comprar créditos de comunicación, consulte [Cómo financiar un plan de llamadas de pago por uso](calling-plans-for-office-365.md#how-to-fund-a-pay-as-you-go-calling-plan).
 
 ## <a name="step-3-get-phone-numbers"></a>Paso 3: Obtener números de teléfono
 

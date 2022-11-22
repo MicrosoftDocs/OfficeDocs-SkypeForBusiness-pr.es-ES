@@ -25,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga información sobre si audioconferencia, sistema telefónico, planes de llamadas, créditos de comunicaciones y números de teléfono gratuitos y de pago están disponibles en un país o región.
-ms.openlocfilehash: 2f9bc15a51765d595a1c8eb24c800971079b1207
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: a20d8344182d8fefeaeb8cbc6c9789178b87829f
+ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67641941"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69139174"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
@@ -203,16 +203,11 @@ La disponibilidad de números de teléfono de pago en algunas de estas ubicacion
 
 Con la lista desplegable situada en la parte superior de la página, busque un país o región y los servicios que hay disponibles en cada uno.
 
-### <a name="calling-plans"></a>Planes de llamadas
+### <a name="microsoft-teams-calling-plans"></a>Planes de Llamada de Microsoft Teams
 
-|Característica     |Detalles  |
-|----------|-----------|
-|¿Los planes de llamada están disponibles para la compra?  |Sí          |   
-|Minutos disponibles para planes de llamadas.    |Hay cinco opciones de plan disponibles por mes natural: <ul><li>Plan de llamadas de pago por ir </li><li> Plan de llamadas nacionales de 120 minutos </li><li> Plan de llamadas nacionales de 240 minutos </li><li> Plan de llamadas nacionales de 1200 minutos </li><li> Plan de llamadas internacionales: 1200 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (lo que se alcance primero en el mes natural)</li></ul>|
+Junto con el sistema telefónico, los planes de llamadas permiten a los usuarios realizar y recibir llamadas telefónicas. Primero se obtiene un número de teléfono de usuario (suscriptor) (no un número de servicio) para asignar al usuario y, a continuación, se le asigna un plan de llamadas. Hay tres tipos de planes de llamada disponibles: **nacionales**, **internacionales** y **de pago por uso**. Consulte [Planes de llamadas para Microsoft Teams](../calling-plans-for-office-365.md) para obtener más información.
 
-Al igual que sucede con Sistema telefónico, con Planes de llamada los usuarios pueden hacer y recibir llamadas telefónicas. Primero se obtiene un número de teléfono de usuario (suscriptor) (no un número de servicio) para asignar al usuario y, a continuación, se le asigna un plan de llamadas. Hay dos tipos de planes de llamada disponibles: **nacionales** e **internacionales**. Para obtener más información, vea [Sistema telefónico y planes de llamadas](../calling-plan-landing-page.md).
-
-También puede ver [Sistema telefónico y planes de llamadas](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para obtener información sobre las licencias.
+También puede ver las [opciones de licencias complementarias de Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para obtener información sobre licencias.
 
 > [!NOTE]
 > El país o región se basa en la ubicación de la licencia del usuario en el **Centro de administración de Microsoft 365** > **Usuarios activos** y **no** en la dirección de facturación indicada en el **Perfil de la organización** del **Centro de administración de Microsoft 365**.
