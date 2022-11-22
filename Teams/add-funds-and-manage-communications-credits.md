@@ -1,7 +1,7 @@
 ---
 title: Agregar fondos y administrar los créditos de comunicaciones
-ms.author: crowe
-author: CarolynRowe
+ms.author: danismith
+author: DaniEASmith
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article
@@ -21,26 +21,18 @@ ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- O365E_SFBVoiceCredit
-- O365E_SFBVoiceCreditAether
-- O365M_SFBVoiceCredit
-- O365M_SFBVoiceCreditAether
-- O365P_SFBVoiceCreditAether
-- O365E_SFBVoiceCreditAether
-- O365P_SFBVoiceCredit
-- O365P_SFBVoiceCreditAether
 - Licensing
-description: 'Obtenga información sobre cómo pagar créditos de comunicación (consumo RTC) para los servicios de Skype Empresarial y vea los planes para mantener a los usuarios con acceso continuo al sistema telefónico. '
-ms.openlocfilehash: 42527a608cf6a020f1c8fc4f07f912ec95dd1a3a
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+description: Obtenga información sobre cómo pagar créditos de comunicación (consumo RTC) para los servicios de Skype Empresarial y vea los planes para mantener a los usuarios con acceso continuo al sistema telefónico.
+ms.openlocfilehash: c58b0da72dcd8cc1e5bdc3af8232d02292941462
+ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68583851"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69139124"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar los créditos de comunicaciones
 
-Los créditos de comunicaciones son una forma cómoda de pagar los planes de sistema telefónico y llamadas en Microsoft 365 o Office 365. Créditos de comunicación ayuda a garantizar que usted y sus usuarios nunca se encuentren en contacto sin poder:
+Los créditos de comunicaciones son una forma cómoda de pagar Planes de Llamada de Microsoft Teams y audioconferencia en Microsoft 365. Créditos de comunicación ayuda a garantizar que usted y sus usuarios nunca se encuentren en contacto sin poder:
   
 - Llamar a las reuniones de audioconferencia con números de teléfono de acceso telefónico local gratuitos.
 
@@ -56,32 +48,43 @@ Los créditos de comunicaciones son una forma cómoda de pagar los planes de sis
 
 > [!NOTE]
 > Si se pregunta cuánto es y las tarifas, consulte la tabla de tarifas en la página Planes de [llamadas](https://go.microsoft.com/fwlink/p/?LinkId=799523) .
-  
+
+> [!IMPORTANT]
+> **Para los clientes con nueva experiencia de comercio llamando a suscripciones:**
+>
+> La nueva experiencia de comercio (NCE) permite a los clientes pagar por servicios después de haber consumido los servicios, también conocidos como facturación posterior al uso.
+>
+> Dado que los créditos de comunicación son un presupuesto pagado previamente para admitir los minutos salientes, no está disponible para comprar para los clientes con suscripciones de llamadas de NCE.
+>
+> En su lugar, los clientes de NCE pagarán el exceso de minutos salientes después de usarlos. No es necesario un grupo de créditos de comunicación.
+>
+> Para obtener más información sobre la nueva experiencia de comercio para las suscripciones de llamadas, vea [Habilitar pago por uso para su suscripción](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) y [Nuevo uso por encima del comercio para el pago por uso de las compañías telefónicas](/partner-center/new-commerce-telco-payg).
+
 Como administrador, puede agregar fondos manualmente o puede configurar la recarga automática, que **se recomienda**.
-  
+
 Auto-recharge automatically tops off your balance when it falls below the trigger amount you set. We recommend using auto-recharge so you don't have to remember to add funds manually. When your balance hits the trigger amount, funds are added automatically. If you don't choose auto-recharge, you run the risk of your balance falling below zero. At that point, you and your users won't be able to make toll-free calls or international calls.
-  
+
 Puede actualizar las opciones de pago en cualquier momento. En la página **Suscripciones** , selecciona **Créditos de comunicaciones** y realiza las actualizaciones.
-  
+
 Los fondos se aplicarán solo a los créditos de comunicaciones según las tarifas publicadas por Microsoft cuando se usen los servicios. Los fondos que no se usen en 12 meses desde la fecha de compra se perderán.
-  
+
 > [!TIP]
 > Le enviaremos notificaciones por correo electrónico cuando se agreguen fondos a través de la recarga automática, cuando falle la recarga automática (por ejemplo, cuando una tarjeta de crédito expire) y cuando el saldo llegue a cero.
-  
+
 Para obtener más información, consulta [¿Qué son los créditos de comunicaciones?](what-are-communications-credits.md)
-  
+
 ## <a name="want-to-know-about-plans-and-pricing"></a>¿Desea obtener información sobre planes y precios?
 
 Puede ver los planes y precios visitando uno de los siguientes vínculos:
-  
-- [Planes de llamadas](https://go.microsoft.com/fwlink/?LinkId=799761 )
 
-- [Planes de Audioconferencia](https://go.microsoft.com/fwlink/?LinkId=799762 )
+- [Planes de llamadas](https://go.microsoft.com/fwlink/?LinkId=799761)
+
+- [Planes de Audioconferencia](https://go.microsoft.com/fwlink/?LinkId=799762)
 
 - [Planes del sistema telefónico](https://go.microsoft.com/fwlink/?LinkId=799763)
 
 También puedes ver la información iniciando sesión en la Centro de administración de Microsoft 365 y yendo a **Suscripciones** >  de **facturación** > **Agregar suscripciones**.
-  
+
 Para ver una tabla con las licencias que necesitará para cada característica, consulte [Licencias complementarias de Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-articles"></a>Artículos relacionados
