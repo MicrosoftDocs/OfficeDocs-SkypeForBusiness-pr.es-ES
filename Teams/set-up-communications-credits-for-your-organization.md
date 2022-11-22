@@ -24,23 +24,33 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization.
-ms.openlocfilehash: 4ad3b6702d31f59c237bf7867aadd0e8d1c05abf
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 0a6489b0c3e7591139421b418be52d6bfcd8f4fa
+ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68613842"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69139134"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
-Si desea usar números gratuitos con Microsoft Teams, debe configurar créditos de comunicaciones. Microsoft recomienda que configure créditos de comunicaciones para su plan de llamadas (nacional, internacional o de pago por uso) y usuarios de audioconferencia que necesiten llamar a **cualquier destino**. Es posible que algunos destinos no estén incluidos en sus suscripciones de Plan de llamadas o Audioconferencia.
+Si desea usar números gratuitos con Microsoft Teams, debe configurar créditos de comunicaciones. Microsoft recomienda que configure créditos de comunicaciones para su plan de llamadas de Microsoft Teams (nacionales, internacionales o de pago por uso) y usuarios de audioconferencia que necesiten llamar a **cualquier destino**. Es posible que algunos destinos no estén incluidos en sus planes de llamadas o suscripciones de Audioconferencia.
 
-Cuando se suscribe a planes de llamadas o audioconferencia, obtiene un número determinado de minutos dependiendo de su país o región. Para obtener más información, consulte [Lista de disponibilidad de país o región para planes de llamadas y audioconferencias](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization).
+Cuando se suscribe a planes de llamadas o audioconferencia, obtiene algunos minutos dependiendo de su país o región. Para obtener más información, consulte [Lista de disponibilidad de país o región para planes de llamadas y audioconferencias](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization).
 
 Si no configura créditos de comunicaciones y se quedan sin minutos para su organización, esos usuarios no podrán realizar llamadas ni llamar desde las reuniones de Audioconferencia. Puede obtener más información, incluyendo las cantidades de fondos recomendadas, leyendo [¿Qué son los créditos de comunicaciones?](what-are-communications-credits.md)
   
-> [!NOTE]
-> Para obtener más información sobre los planes y los precios, [consulta las tarifas aquí](https://go.microsoft.com/fwlink/p/?LinkId=799523).
+Para obtener más información sobre los planes y los precios, [consulta las tarifas aquí](https://go.microsoft.com/fwlink/p/?LinkId=799523).
+
+> [!IMPORTANT]
+> **Para los clientes con nueva experiencia de comercio llamando a suscripciones:**
+>
+> La nueva experiencia de comercio (NCE) permite a los clientes pagar por servicios después de haber consumido los servicios, también conocidos como facturación posterior al uso.
+>
+> Dado que los créditos de comunicación son un presupuesto pagado previamente para admitir los minutos salientes, no está disponible para comprar para los clientes con suscripciones de llamadas de NCE.
+>
+> En su lugar, los clientes de NCE pagarán el exceso de minutos salientes después de usarlos. No es necesario un grupo de créditos de comunicación.
+>
+> Para obtener más información sobre la nueva experiencia de comercio para las suscripciones de llamadas, vea [Habilitar pago por uso para su suscripción](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) y [Nuevo uso por encima del comercio para el pago por uso de las compañías telefónicas](/partner-center/new-commerce-telco-payg).
 
 Para configurar créditos de comunicación para tu organización, sigue estos pasos:
 
@@ -83,7 +93,7 @@ Para obtener más información, consulte [Licencias de complementos de Microsoft
 
    - **Recarga automática** Si habilita la recarga automática, ls cuenta se rellenará automáticamente cuando el saldo esté por debajo del umbral que establezca.
 
-     Microsoft recomienda usar la opción **de recarga automática** para evitar la interrupción del servicio en caso de que el saldo de los créditos de comunicaciones llegue a cero. Se le enviará un correo electrónico cuando las transacciones de recarga se realicen correctamente, cuando las transacciones de recarga no se realicen correctamente (como una tarjeta de crédito expirada) y cuando el saldo de los créditos de comunicaciones llegue a cero.
+     Microsoft recomienda usar la opción **de recarga automática** para evitar la interrupción del servicio si el saldo de créditos de comunicaciones llega a cero. Se le enviará un correo electrónico cuando las transacciones de recarga se realicen correctamente, cuando las transacciones de recarga no se realicen correctamente (como una tarjeta de crédito expirada) y cuando el saldo de los créditos de comunicaciones llegue a cero.
 
    - **Importe de la recarga** Escriba la cantidad en el cuadro **Recargar con** que quiere agregar a su cuenta una vez que se alcance la cantidad de desencadenador inferior.
 

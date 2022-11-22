@@ -21,12 +21,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y administrar operadores automáticos en Microsoft Teams.
-ms.openlocfilehash: de39728b255956a7fd2dbf476497a4173e34a216
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 97f298e03a6495dda4ec7568f3e3b022548bba08
+ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584466"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69139264"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
@@ -48,7 +48,7 @@ Los operadores automáticos pueden redirigir las llamadas, en función de la ent
 > [!NOTE]
 > Al redirigir llamadas a una **persona de la organización**, esa persona debe tener habilitada la voz. Para obtener más información sobre cómo habilitar la voz, consulte [Asignar licencias de complementos de Teams a usuarios](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 >
-> Al definir un **operador** es opcional, se recomienda.  Los operadores automáticos redirigen las llamadas al operador si el autor de la llamada no realiza una selección en los menús, selecciona repetidamente opciones no válidas o marca repetidamente por nombre o número.  Si no se define un operador, el operador automático anulará la llamada.
+> Al definir un **operador** es opcional, se recomienda. Los operadores automáticos redirigen las llamadas al operador si hay un error en la configuración del operador automático debido a la eliminación de una cuenta de correo de voz compartida o de usuario. Si no se define un operador, el operador automático anulará la llamada.
 
 ## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>Novedades para los operadores automáticos en los últimos 6 meses
  
