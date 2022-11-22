@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: En este artículo, aprenderá a crear, editar y administrar cuentas de recursos en Microsoft Teams.
-ms.openlocfilehash: b9c7f5575d5e6df4370c07bf1cd581cbd1a396dd
-ms.sourcegitcommit: 9504b7a67e593f5575060b09b69817325e2a1f77
+ms.openlocfilehash: cde570c23b6d2e6b673f6cc0f49c9905c3b45fd1
+ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "69111137"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69147437"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -42,13 +42,14 @@ Vea las siguientes referencias para obtener más información:
 - [Operador automático en la nube](create-a-phone-system-auto-attendant.md)
 - [Cola de llamadas en la nube](create-a-phone-system-call-queue.md)
 
-Puede editar la cuenta de recursos **Nombre para mostrar** y el tipo **de cuenta de recurso** con la opción **Editar** . Haga clic en **Guardar** cuando haya terminado.
+Puede editar la cuenta de recursos **Nombre para mostrar** y el tipo **de cuenta de recurso** con la opción **Editar** . Selecciona **Guardar** cuando hayas terminado.
 
-## <a name="change-an-existing-resource-account-to-use-a-teams-phone-resource-account-license"></a>Cambiar una cuenta de recursos existente para usar una licencia de cuenta de recursos de Teléfono de Teams
-Para cambiar las licencias de su cuenta de recursos existente de una licencia **de Teléfono Teams Estándar** a una licencia de cuenta de recursos **de Teléfono Microsoft Teams**, tendrá que adquirir la licencia de **la cuenta de recursos de Teléfono de Teams** y, a continuación, seguir los pasos de la Centro de administración de Microsoft 365 mover [usuarios a una suscripción diferente](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
+## <a name="change-an-existing-resource-account-to-use-a-microsoft-teams-phone-resource-account-license"></a>Cambiar una cuenta de recursos existente para usar una licencia de cuenta de recursos de Teléfono Microsoft Teams
+
+Para cambiar las licencias de su cuenta de recursos existente de una licencia **de Teléfono Teams Estándar** a una licencia de cuenta de recursos **de Teléfono Microsoft Teams**, tendrá que adquirir la licencia de cuenta de recursos **de Teléfono Microsoft Teams** y, a continuación, seguir los pasos de la Centro de administración de Microsoft 365 mover [usuarios a una suscripción diferente](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
-> Quite siempre una Licencia de Teléfono Teams Estándar completa y asigne la licencia **Teléfono Microsoft Teams cuenta de recursos** en la misma actividad de licencia. Si quita la licencia antigua, guarda los cambios en la cuenta, agrega la nueva licencia y, a continuación, guarda de nuevo la configuración de la cuenta, es posible que la cuenta de recursos ya no funcione según lo esperado. Si esto ocurre, le recomendamos que cree una nueva cuenta de recursos para la licencia **de cuenta de recursos de Teléfono Microsoft Teams** y quite la cuenta de recursos rota.
+> Quite siempre una licencia **de Teléfono Teams Estándar** y asigne la licencia **Teléfono Microsoft Teams cuenta de** recursos en la misma actividad de licencia. Si quita la licencia antigua, guarda los cambios en la cuenta, agrega la nueva licencia y, a continuación, guarda de nuevo la configuración de la cuenta, es posible que la cuenta de recursos ya no funcione según lo esperado. Si esto ocurre, le recomendamos que cree una nueva cuenta de recursos para la licencia **de cuenta de recursos de Teléfono Microsoft Teams** y quite la cuenta de recursos rota.
 
 ## <a name="skype-for-business-server-2019"></a>Skype Empresarial Server 2019
 
@@ -68,15 +69,15 @@ Para implementaciones híbridas con Skype Empresarial Server:
 
    [Planear las colas de llamadas en la nube](/SkypeforBusiness/hybrid/plan-call-queue)
 
-   [Configurar cuentas de recursos en las configuraciones previas](/SkypeForBusiness/hybrid/configure-onprem-ra)
+   [Configurar cuentas de recursos locales](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 ## <a name="delete-a-resource-account"></a>Eliminar una cuenta de recursos
 
 Asegúrese de disociar el número de teléfono de la cuenta de recursos antes de eliminarla, para evitar que el número de servicio se bloquee en el modo pendiente.
 
-Después de hacerlo, puede eliminar la cuenta de recursos en la Centro de administración de Microsoft 365, en la pestaña Usuarios.
+Después de hacerlo, puede eliminar la cuenta de recursos en la Centro de administración de Microsoft 365, en la pestaña **Usuarios**.
 
-Para desasociar un número de teléfono de enrutamiento directo de la cuenta de recursos, use el siguiente cmdlet:
+Para desasociar un número de teléfono de Enrutamiento directo de la cuenta de recursos, use el siguiente cmdlet:
 
 ```powershell
 Remove-CsPhoneNumberAssignment -Identity <Resource Account Object ID> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting

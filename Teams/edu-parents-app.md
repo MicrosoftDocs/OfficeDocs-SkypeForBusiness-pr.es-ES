@@ -15,14 +15,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+ms.custom:
+- admindeeplinkTEAMS
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4cb61038c08739afcd6a48825f8ddaa0cb7c573
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: f2d0d916028a026d7706fd317ba25d16af213a81
+ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912819"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69147487"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar la conexión principal en Microsoft Teams para Educación
 
@@ -46,8 +48,8 @@ La conexión de padres permite a los formadores y tutores chatear, enviar correo
 - Funciona con el chat supervisado. Para obtener más información, vea [Usar chats supervisados en Microsoft Teams](supervise-chats-edu.md).
   - De forma predeterminada, los tutores tienen permisos restringidos, por lo que no pueden chatear con los alumnos ni quitar usuarios de los chats.
   - El administrador de inquilinos puede cambiar esta configuración.
-- Los formadores pueden hacer clic en el correo electrónico de un tutor para enviarles un correo electrónico con su cliente de correo electrónico nativo.
-- Los profesores pueden hacer clic en el número de teléfono de un tutor para llamarlos en Teams.
+- Los profesores pueden seleccionar el correo electrónico de un tutor para enviarles un correo electrónico con su cliente de correo electrónico nativo.
+- Los profesores pueden seleccionar el número de teléfono de un tutor para llamarlos en Teams.
 
 > [!IMPORTANT]
 > Para la funcionalidad de hacer clic para llamar en Teams, su inquilino necesita:
@@ -85,12 +87,14 @@ Si se quita a un tutor de los registros *de un alumno* , los chats existentes en
   - Abrir un vale en [Soporte técnico](https://aka.ms/sdssupport).
 
 - Actualmente, SDS solo admite la ingestión de datos basada en CSV para contactos principales; sin embargo, puede usar [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) o [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) para todos los datos de lista y agregar contactos primarios mediante CSV.
-  - Cree un segundo perfil de sincronización con el [formato de sincronización CSV de SDS v1](/schooldatasync/school-data-sync-format-csv-files-for-sds).
-  - Extrae los dos [archivos principales](/schooldatasync/parent-contact-sync-file-format) rellenados con el resto de los archivos v1 vacíos (solo los encabezados).
+  - Cree un segundo perfil de sincronización con el [formato CSV de SDS v1](/schooldatasync/school-data-sync-format-csv-files-for-sds) o con el [formato CSV de SDS v2.1](/schooldatasync/sds-v2.1-csv-file-format-classic).
+  - Extrae los dos [archivos principales](/schooldatasync/parent-contact-sync-file-format) rellenados con el resto de los archivos v1/v2.1 vacíos (solo los encabezados).
     - User.csv
     - Guardianrelationship.csv
-      - El valor *Rol* debe completarse para cada padre y tutor para indicar si es *un padre* *o tutor.*
-  - Para ver un conjunto de ejemplo de los archivos CSV v1, consulte los [archivos de GitHub de atributos requeridos mínimos](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
+      - El valor *Rol* debe completarse para cada padre y tutor para indicar si es o `parent` `guardian`.
+        - Solo los valores de `parent` la aplicación o `guardian` son compatibles con ellos. Otros valores producirán errores.
+        - Para el formato SDS v1, se etiquetará como **Rol**, pero para el formato SDS v2.1, se etiquetará como **relationshipRole**.
+  - Para ver un conjunto de ejemplo de los archivos CSV, consulte los [archivos gitHub de atributos requeridos mínimos](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
   - Si desea automatizar la extracción de archivos CSV después de la sincronización inicial, lea nuestro [documento CSV File Sync Automation](/schooldatasync/csv-file-sync-automation).
   - Para obtener ayuda con la configuración de la sincronización de datos de SDS, póngase en contacto con [nuestro equipo de éxito del cliente](https://www.microsoft.com/fasttrack?rtc=1) o [abra una incidencia de soporte](https://edusupport.microsoft.com/support?product_id=data_sync) técnico.
 
@@ -98,11 +102,14 @@ Si se quita a un tutor de los registros *de un alumno* , los chats existentes en
 
 - Los propietarios de equipos de clase deben tener activado el chat de Teams.
 - Los propietarios de equipos de clase deben tener acceso externo con **las cuentas de Teams no administradas por una organización** activada.
-  - Esto debe activarse en el nivel de inquilino y en el nivel de usuario. La configuración de nivel de inquilino se encuentra en **Usuarios > Acceso externo** en el Centro de administración de Teams. También se puede acceder a esta configuración a través de PowerShell. Solo se puede acceder a las directivas de acceso externo a nivel de usuario a través de PowerShell. Consulte los comandos de PowerShell siguientes para obtener más información.
+  - Esto debe activarse en el nivel de inquilino y en el nivel de usuario. La configuración de nivel de inquilino se encuentra en **Usuarios > Acceso externo** en el Centro de administración de Teams. También se puede acceder a esta configuración a través de PowerShell. Solo se puede acceder a las directivas de acceso externo a nivel de usuario a través de PowerShell. Para obtener más información, consulte los [comandos de PowerShell siguientes](#allow-external-access-with-teams-accounts-not-managed-by-an-organization).
+- Para permitir la creación de reuniones desde la aplicación Conexión principal, deben activarse las siguientes directivas:
+  - [Permitir la programación de reuniones privadas](meeting-policies-in-teams.md#allow-scheduling-private-meetings).
+  - [Permitir que usuarios anónimos se unan a la reunión](meeting-policies-participants-and-guests.md#let-anonymous-people-join-a-meeting).
 
 #### <a name="parent-and-guardian-restrictions"></a>Restricciones para padres y tutores
 
-Los padres y tutores se clasifican como *usuarios externos* en La conexión de padres, lo que significa que no tienen derechos de inquilino completos. Solo tienen acceso al chat o chats de los que forman parte y a los archivos, imágenes y otro contenido compartido en el chat.
+Los padres y tutores se clasifican como *usuarios externos* en Parents Connection, lo que significa que no tienen derechos de inquilino completos. Solo tienen acceso al chat o chats de los que forman parte y a los archivos, imágenes y otro contenido compartido en el chat.
 
 Para los chats externos, tanto los usuarios internos como externos pueden agregar usuarios al chat. Para obtener más información sobre la experiencia de chat externo, consulte [Administrar reuniones y chats externos en Microsoft Teams](manage-external-access.md).
 
@@ -122,7 +129,7 @@ El propietario de la clase puede:
 1. Abre la tarjeta de perfil del tutor, selecciona los puntos suspensivos y **Bloquear usuario**.
 2. A continuación, quita al tutor del chat.
 
-El usuario bloqueado no podrá iniciar chats adicionales con el propietario de la clase.
+El usuario bloqueado no podrá iniciar otros chats con el propietario de la clase.
 
 ## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>Permitir el acceso externo con cuentas de Teams no administradas por una organización
 
@@ -130,7 +137,7 @@ Para permitir que los profesores se comuniquen con padres y tutores en Teams, el
 
 Estos son los pasos para activar el acceso externo para padres y tutores.
 
-1. Instale la última versión preliminar del módulo PowerShell de Microsoft Teams.
+1. Instale el módulo más reciente de Microsoft Teams PowerShell aquí [https://www.powershellgallery.com/packages/MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
     ```powershell
     Install-Module -Name PowerShellGet -Force -AllowClobber
@@ -156,8 +163,8 @@ Estos son los pasos para activar el acceso externo para padres y tutores.
 
 4. Para cada directiva distinta de la directiva "Global", compruebe qué usuarios tienen asignada la directiva.
 
-   > [!NOTE]
-   > Todos los usuarios que no tengan asignada una directiva específica volverán a la directiva "Global". Todos los usuarios nuevos que se agreguen al inquilino tendrán asignada la directiva "Global".
+    > [!NOTE]
+    > Todos los usuarios que no tengan asignada una directiva específica volverán a la directiva "Global". Todos los usuarios nuevos que se agreguen al inquilino tendrán asignada la directiva "Global".
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
@@ -187,6 +194,52 @@ La aplicación Padres está desactivada de forma predeterminada, por lo que los 
 En cualquier momento, la aplicación se puede desactivar en el nivel de inquilino mediante [Permitir y bloquear aplicaciones](manage-apps.md#allow-and-block-apps) en el Centro de administración de Teams. Si está desactivada en el nivel de inquilino, se bloqueará para todos los usuarios, incluso si los permisos a nivel de usuario están activados.
 
 La aplicación Padres también se puede desactivar en el nivel de usuario mediante las [directivas de permisos administrar aplicaciones en Microsoft Teams](teams-app-permission-policies.md).
+
+## <a name="set-a-preferred-invitation-channel"></a>Establecer un canal de invitación preferido
+
+Los administradores pueden elegir correo electrónico o SMS como su canal preferido de invitación de conexión primaria.
+
+Los mensajes enviados a padres y tutores estarán en texto sin formato, sin HTML, formato o estilos aplicados.
+
+> [!NOTE]
+> Si elige SMS como el canal preferido para enviar invitaciones de Conexión de padres a padres y tutores, tenga en cuenta que:
+>
+> - Los números de teléfono de padres y tutores deben tener el formato E.164 para que funcionen las invitaciones por SMS y la consulta del perfil.
+>   - Por ejemplo, puede dar formato a números de teléfono como `+[country code][area code][phone number]`, como `+12223334444`.
+> - Se pueden cobrar tarifas de SMS del operador de telefonía móvil a los padres y tutores que reciban invitaciones por SMS.
+
+### <a name="set-a-preferred-invite-channel-in-the-teams-admin-center"></a>Establecer un canal de invitación preferido en el Centro de administración de Teams
+
+1. Inicie sesión en el [Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+1. Ve a **Configuración** >  de **padres y tutores educativos**.
+1. En el campo **Método de contacto preferido**, selecciona **Email** o **Teléfono móvil - SMS**.
+1. Guarde los cambios.
+
+### <a name="set-a-preferred-invite-channel-using-powershell"></a>Establecer un canal de invitación preferido con PowerShell
+
+1. Instale la *versión 4.9.0 o superior* del módulo de PowerShell de Teams en [https://www.powershellgallery.com/packages/MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams).
+
+1. Ejecute el siguiente comando e inicie sesión con credenciales de administrador.
+
+    ```powershell
+    Connect-MicrosoftTeams
+    ```
+
+1. Ejecute el siguiente comando para ver el valor actual de `ParentGuardianPreferredContactMethod`.
+
+    ```powershell
+    Get-CsTeamsEducationConfiguration
+    ```
+
+1. Ejecute uno de los siguientes comandos para cambiar el valor.
+
+    ```powershell
+    Set-CsTeamsEducationConfiguration -ParentGuardianPreferredContactMethod Email
+    ```
+
+    ```powershell
+    Set-CsTeamsEducationConfiguration -ParentGuardianPreferredContactMethod SMS
+    ```
 
 ## <a name="more-information"></a>Más información
 
