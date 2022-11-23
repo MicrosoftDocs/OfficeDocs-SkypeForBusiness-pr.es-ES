@@ -23,16 +23,16 @@ ms.collection:
 - purview-compliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088515e6d9d4fe9e6dc893d736f7baac1148c731
-ms.sourcegitcommit: 86b9503eb0085e23176cb346767f880ea3a73e77
+ms.openlocfilehash: 23de1b32e757df8cc1f971ad4e9bed255f95af41
+ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68808289"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "69156836"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introducción a la grabación basada en directivas de Teams para llamadas & reuniones
 
-La grabación basada en directivas permite a las organizaciones que adoptan Microsoft Teams para realizar llamadas y reuniones estipular, mediante una directiva administrativa, cuándo las llamadas y las reuniones en línea se grabarán y capturarán automáticamente para su procesamiento y retención posteriores, según lo requiera la directiva corporativa o normativa pertinente.
+La grabación basada en directivas permite a las organizaciones que adoptan Microsoft Teams para las llamadas y reuniones estipular, mediante una directiva administrativa, cuándo las llamadas y las reuniones en línea deben registrarse y capturarse automáticamente para su procesamiento y retención posteriores según lo requiera la directiva corporativa o normativa pertinente.
 
 Teams se ha mejorado para admitir la integración de soluciones de grabación de terceros, incluyendo la funcionalidad de plataforma, experiencias de usuario e interfaces administrativas necesarias para proporcionar una solución de un extremo a otro para configurar, administrar, grabar, almacenar y analizar las comunicaciones de Teams. Entre las mejoras se incluyen las API de la plataforma de comunicaciones y los eventos para la grabación, que proporcionan:
 
@@ -42,9 +42,12 @@ Teams se ha mejorado para admitir la integración de soluciones de grabación de
 
 - Nuevas directivas administrativas para la grabación de cumplimiento, incluida la integración con las herramientas y directivas administrativas de llamadas y reuniones de Teams existentes
 
-La grabación de cumplimiento se puede habilitar en usuarios de Microsoft 365 A3/A5/E3/E5/Business Premium y Office 365 A3/A5/E3/E5. 
+La grabación de cumplimiento se puede habilitar en Microsoft 365 A3/A5/E3/E5/Business Premium, usuarios de Office 365 A3/A5/E3/E5 o en la licencia de Sala de Teams/Teléfono de área común. 
 
-Las funcionalidades de integración de soluciones de grabación de cumplimiento también se revisaron en Ignite 2019 en la [sesión Grabación de cumplimiento y Microsoft Teams](https://myignite.microsoft.com/archives/IG19-VCE40).
+> [!NOTE]
+> La grabación de cumplimiento no es compatible actualmente con los servicios de llamadas de emergencia E911.
+
+Las capacidades de integración de soluciones de grabación de cumplimiento también se revisaron en Ignite 2019 en la [sesión de Teams de Grabación de cumplimiento y Microsoft](https://myignite.microsoft.com/archives/IG19-VCE40).
 
 ## <a name="teams-interaction-recording-overview"></a>Introducción a la grabación de la interacción de Teams
 
@@ -128,7 +131,7 @@ La documentación de Graph sobre las API específicas se puede encontrar aquí p
 
 La implementación exacta del servicio de grabadora variará según el partner, pero debe diseñarse para admitir varios grabadores con el fin de lograr una alta disponibilidad y distribución geográfica de la implementación para reducir la latencia de Teams al grabador. Además, se espera que los propios grabadores estén diseñados teniendo en cuenta la resistencia y redundancia.
 
-Los partners deben confirmar la versión mínima necesaria de la versión de las API de comunicaciones de Microsoft Graph y los SDK de Microsoft antes de enviar su solución para la certificación, con el fin de garantizar que todos los requisitos de integración de grabación de cumplimiento son compatibles.
+Los partners deben confirmar la versión de versión mínima necesaria de las API y SDK de comunicaciones de Microsoft Graph con Microsoft antes de enviar su solución para la certificación, con el fin de garantizar que todos los requisitos de integración de grabación de cumplimiento son compatibles.
 
 Dos requisitos específicos que son fundamentales para el escenario de grabación de cumplimiento son:
 
@@ -140,7 +143,7 @@ Los requisitos de máquina virtual de Azure y Windows solo se aplican al compone
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>Asignación y aprovisionamiento de directivas de registro de cumplimiento
 
-Los administradores de TI pueden determinar qué usuarios se grabarán y qué grabadora se usará para cada usuario, creando y asignando directivas de grabación de cumplimiento normativo. Se invita automáticamente a los grabadores a participar en conversaciones en función de la configuración de estas directivas cuando se produce una interacción de comunicación. Las directivas de grabación de cumplimiento se administran con [Microsoft PowerShell](./teams-powershell-overview.md) y se pueden aplicar en el nivel de inquilino, usuario y grupo de seguridad de cada organización. Puede encontrar más información sobre las [directivas](./meeting-policies-overview.md) de Microsoft Learn para reuniones, [las directivas de llamada](./teams-calling-policy.md) y  [las directivas de grupo](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
+Los administradores de TI pueden determinar qué usuarios se grabarán y qué grabadora se usará para cada usuario, creando y asignando directivas de grabación de cumplimiento normativo. Se invita automáticamente a los grabadores a participar en conversaciones en función de la configuración de estas directivas cuando se produce una interacción de comunicación. Las directivas de grabación de cumplimiento se administran con [Microsoft PowerShell](./teams-powershell-overview.md) y se pueden aplicar en el nivel de inquilino, usuario y grupo de seguridad de cada organización. Puede encontrar más información sobre Microsoft Las [directivas](./meeting-policies-overview.md) de reunión, las [directivas de llamada](./teams-calling-policy.md) y las [directivas de grupo](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group) de Learn for Meeting.
 
 1. Cree una instancia de aplicación en su espacio empresarial.
 
@@ -217,9 +220,9 @@ La compatibilidad con notificaciones está habilitada con las experiencias de cl
 
 ## <a name="compliance-recording-for-teams-certification-programs"></a>Grabación de cumplimiento de los programas de certificación de Teams
 
-Además de publicar API disponibles públicamente que permiten a los partners desarrollar e integrar soluciones CCaaS con Teams, hemos desarrollado la grabación de cumplimiento para el programa de certificación de Microsoft Teams para ofrecer a los clientes la garantía de que la solución de cada partner participante se ha probado y comprobado para proporcionar la calidad, compatibilidad y confiabilidad que esperan de las soluciones de Microsoft.  
+Además de publicar API disponibles públicamente que permiten a los partners desarrollar e integrar soluciones CCaaS con Teams, hemos desarrollado la grabación de cumplimiento para Microsoft programa de certificación de Teams para ofrecer a los clientes la garantía de que la solución de cada partner participante se ha probado y comprobado para proporcionar la calidad, compatibilidad y confiabilidad que esperan de las soluciones de Microsoft.  
 
-Los siguientes asociados han certificado su solución para Microsoft Teams.<br/><br/>
+Los siguientes partners han certificado su solución para Microsoft Teams.<br/><br/>
 
 |Socio|Sitio web de la solución |
 |:--|:--|
@@ -239,7 +242,7 @@ Los siguientes asociados han certificado su solución para Microsoft Teams.<br/>
 |Innovación en roble |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
 
 <br/>
-Los siguientes partners están en proceso de certificar su solución para Microsoft Teams.<br/><br/>
+Los siguientes partners están certificando su solución para Microsoft Teams.<br/><br/>
 
 |Socio|Sitio web de la solución |
 |:--|:--|
