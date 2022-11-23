@@ -14,18 +14,16 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb7e4a4487a5411386978fb91a70c485bfa0ddc6
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 374cda125d688c4e38797f1afbee4ae3a55bb064
+ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912599"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "69156826"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Consentimiento específico del recurso en Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-El consentimiento específico de recursos (RSC) es una integración de Microsoft Teams y Microsoft Graph API que permite a las aplicaciones usar puntos de conexión de API para administrar recursos específicos de un equipo de su organización. Los permisos de RSC permiten a los propietarios del equipo dar su consentimiento a una aplicación para acceder a los datos de un equipo y modificarlos. El consentimiento específico del recurso en Microsoft Teams permite a los propietarios del equipo dar su consentimiento a las aplicaciones para que accedan a los datos del equipo. Entre los ejemplos de acceso se incluye la capacidad de leer los mensajes del canal, crear y eliminar canales, y crear y quitar pestañas del canal.
+El consentimiento específico de recursos (RSC) es un Microsoft Teams e integración de Microsoft Graph API que permite a las aplicaciones usar puntos de conexión de API para administrar recursos específicos de un equipo de su organización. Los permisos de RSC permiten a los propietarios del equipo dar su consentimiento a una aplicación para acceder a los datos de un equipo y modificarlos. El consentimiento específico del recurso en Microsoft Teams permite a los propietarios del equipo dar su consentimiento a las aplicaciones para que accedan a los datos del equipo. Entre los ejemplos de acceso se incluye la capacidad de leer los mensajes del canal, crear y eliminar canales, y crear y quitar pestañas del canal.
 
 Como administrador, puede controlar si los propietarios del equipo de la organización pueden dar su consentimiento a través de los ajustes que configure mediante el módulo de PowerShell de Azure Active Directory (Azure AD) o el Azure Portal y el Centro de administración de Microsoft Teams.  
 
@@ -49,7 +47,7 @@ Esta configuración controla si los usuarios de su organización pueden dar su c
 
 También puede administrar esta configuración mediante PowerShell. Para obtener más información, consulte [Configurar consentimiento del usuario para las aplicaciones](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications).
 
-#### <a name="the-enablegroupspecificconsent-setting"></a>Configuración de “EnableGroupSpecificConsent”
+#### <a name="control-to-let-group-owners-consent-to-apps-that-access-company-data"></a>Control para permitir que los propietarios del grupo consienten las aplicaciones que acceden a los datos de la compañía
 
 Esta configuración controla si los usuarios de su organización pueden dar su consentimiento para que las aplicaciones accedan a los datos de la empresa de los grupos que poseen. Esta configuración debe estar habilitada para que los propietarios del equipo puedan dar su consentimiento. Para conocer los pasos para administrar esta configuración mediante PowerShell, consulte [Configurar el consentimiento del propietario del grupo para que las aplicaciones accedan a los datos del grupo](/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data).
 

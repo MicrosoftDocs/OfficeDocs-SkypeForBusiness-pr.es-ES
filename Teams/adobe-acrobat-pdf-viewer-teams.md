@@ -18,17 +18,17 @@ description: Obtenga información sobre cómo establecer Adobe Acrobat como un v
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 4b278ceba60cf22df93446b671ebefaa48d086a0
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: 44e96a11d2915c047c547f530b8f06afb45bd6bb
+ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131349"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "69156906"
 ---
 # <a name="set-adobe-acrobat-as-the-default-pdf-viewer-in-microsoft-teams"></a>Establecer Adobe Acrobat como visor de PDF predeterminado en Microsoft Teams
 
 > [!NOTE]
-> Adobe Acrobat como experiencia de PDF predeterminada en Microsoft Teams solo está disponible actualmente en versión preliminar pública. Para usar esta funcionalidad, los administradores deben [habilitar la versión preliminar pública](public-preview-doc-updates.md#enable-public-preview) para su inquilino y asegurarse de que los usuarios finales cambien la versión de cliente de Teams a la versión preliminar pública.
+> Adobe Acrobat como experiencia de PDF predeterminada en Microsoft Teams solo está disponible actualmente en versión preliminar pública. Para usar esta funcionalidad, los administradores deben [habilitar la versión preliminar pública](public-preview-doc-updates.md) para su inquilino y asegurarse de que los usuarios finales cambien la versión de cliente de Teams a la versión preliminar pública.
 
 Como administrador, puede establecer Adobe Acrobat como la aplicación predeterminada para ver y editar archivos PDF en Microsoft Teams. Los usuarios finales pueden ver, buscar, comentar y anotar archivos PDF sin una suscripción a Adobe Acrobat o un id. de Adobe.
 
