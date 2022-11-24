@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 19f18d89ec2f423c1531639adb630992bdbdc547
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: 818d9b8a64f4a80d8838e368d837a501123976e6
+ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69130999"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "69156816"
 ---
 # <a name="manage-custom-and-sideloaded-apps-in-teams-admin-center"></a>Administrar aplicaciones personalizadas y de instalación de prueba en el Centro de administración de Teams
 
@@ -41,7 +41,7 @@ Después de permitir el uso de una aplicación personalizada, los usuarios final
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Captura de pantalla de aplicaciones personalizadas en la tienda de Teams en la aplicación de escritorio de Teams." lightbox="media/built-for-your-org2.png":::
 
-Como administrador de Teams, puede usar directivas y configuraciones de aplicaciones personalizadas para controlar quién en su organización puede cargar aplicaciones personalizadas en Microsoft Teams. Los administradores deciden qué usuarios pueden cargar aplicaciones personalizadas y los administradores y propietarios de equipos pueden determinar si ciertos equipos de la organización permiten que se les agreguen aplicaciones personalizadas. Después de editar la directiva de aplicación personalizada, los cambios tardan unas horas en surtir efecto. Para administrar estas directivas, debe ser administrador global de Administración o teams.
+Como administrador de Teams, puede usar directivas y configuraciones de aplicaciones personalizadas para controlar quién en su organización puede cargar aplicaciones personalizadas en Microsoft Teams. Los administradores deciden qué usuarios pueden cargar aplicaciones personalizadas y los administradores y propietarios de equipos pueden determinar si ciertos equipos de la organización permiten que se les agreguen aplicaciones personalizadas. Después de editar la directiva de configuración de las aplicaciones personalizadas, los cambios tardan unas horas en surtir efecto. Para administrar estas directivas, debe ser administrador global de Administración o teams.
 
 Los desarrolladores de su organización pueden agregar una aplicación personalizada a Teams si cargan un paquete de aplicación (en un archivo .zip) directamente en un equipo o en el ámbito personal. Este método es diferente de cómo se agregan las aplicaciones a través de la tienda de aplicaciones de Teams. Cargar un paquete de aplicación para agregar una aplicación personalizada, también conocido como instalación de prueba, permite a usuarios específicos de la organización probar una aplicación antes de que esté lista para distribuirse de forma amplia.
 
@@ -57,15 +57,15 @@ Los desarrolladores pueden compartir una aplicación con instalación de prueba 
 
 Como administrador, se puede denegar la instalación de prueba de aplicaciones para todos los desarrolladores. Si no se permite la instalación de prueba, los desarrolladores podrán probar sus aplicaciones al [crear un inquilino de prueba independiente](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Una vez completado el desarrollo de aplicaciones personalizadas, los desarrolladores solicitan a los administradores que distribuyan su aplicación personalizada a los usuarios finales. Para obtener más información, consulte [cómo publicar una aplicación personalizada](/microsoftteams/upload-custom-apps). Como administrador, permite (o bloquea) el uso de una aplicación personalizada para todos los usuarios o para usuarios específicos.
 
-## <a name="custom-app-policy-and-settings"></a>Configuración y directiva de aplicaciones personalizadas
+## <a name="app-setup-policy-and-settings-for-custom-apps"></a>Directiva y configuración de configuración de aplicaciones personalizadas
 
 Tres configuraciones determinan si un usuario puede cargar una aplicación personalizada a un equipo. Proporciona a los administradores un control pormenorizada sobre quién puede agregar aplicaciones personalizadas a un equipo y a qué aplicaciones personalizadas de los equipos se pueden agregar. Esta configuración no afecta a la capacidad de bloquear aplicaciones de terceros.
 
-* [Directiva de aplicación personalizada de usuario](#user-custom-app-policy)
+* [Configuración de la directiva de configuración de aplicaciones de usuario para aplicaciones personalizadas](#user-app-setup-policy-settings-for-custom-apps)
 * [Configuración de la aplicación personalizada de equipo](#team-custom-app-setting)
 * [Configuración de la aplicación personalizada de toda la organización](#org-wide-custom-app-setting)
 
-### <a name="user-custom-app-policy"></a>Directiva de aplicación personalizada de usuario
+### <a name="user-app-setup-policy-settings-for-custom-apps"></a>Configuración de la directiva de configuración de aplicaciones de usuario para aplicaciones personalizadas
 
 Como parte de [las directivas de configuración](teams-app-setup-policies.md) de aplicaciones, los administradores pueden usar la opción **Cargar aplicaciones personalizadas** para controlar si un usuario puede cargar aplicaciones personalizadas en Teams.
 
@@ -82,7 +82,7 @@ Si la configuración está activada:
 
 Puede editar la configuración en la directiva de configuración de aplicaciones global para incluir las aplicaciones que desee. Si desea personalizar Teams para distintos grupos de usuarios de la organización, puede crear y asignar una o más directivas de configuración de aplicación personalizadas.
 
-#### <a name="set-a-user-custom-app-policy"></a>Establecer una directiva de aplicación personalizada de usuario
+#### <a name="set-an-app-setup-policy-settings-for-custom-apps"></a>Establecer una configuración de directiva de configuración de aplicaciones para aplicaciones personalizadas
 
 1. Inicie sesión en el Centro de administración de Teams y acceda a las **directivas****[de configuración de](https://admin.teams.microsoft.com/policies/app-setup)** aplicaciones  >  de Teams.
 1. Seleccione **Agregar**.
@@ -97,17 +97,17 @@ Puede editar la configuración en la directiva de configuración de aplicaciones
 
 ### <a name="team-custom-app-setting"></a>Configuración de la aplicación personalizada de equipo
 
-Los administradores y los propietarios de equipos pueden controlar si un equipo permite que se le agreguen aplicaciones personalizadas. La configuración **Permitir que los miembros carguen aplicaciones personalizadas** junto con la directiva de aplicación personalizada de un usuario, determina quién puede agregar aplicaciones personalizadas a un equipo determinado.
+Los administradores y los propietarios de equipos pueden controlar si un equipo permite que se le agreguen aplicaciones personalizadas. La configuración **Permitir que los miembros carguen aplicaciones personalizadas**, junto con la configuración de aplicaciones personalizadas de un usuario, determina quién puede agregar aplicaciones personalizadas a un equipo determinado.
 
 Si esta configuración está desactivada:
 
-* Los propietarios de equipos pueden agregar aplicaciones personalizadas si su directiva de aplicación personalizada lo permite.
+* Los propietarios de equipos pueden agregar aplicaciones personalizadas, si su configuración de directiva de configuración de aplicaciones para aplicaciones personalizadas lo permite.
 * Los miembros del equipo que no sean propietarios del mismo no podrán agregar aplicaciones personalizadas al equipo.
 
 Si la configuración está activada:
 
-* Los propietarios de equipos pueden agregar aplicaciones personalizadas si su directiva de aplicación personalizada se los permite.
-* Los miembros del equipo que no sean propietarios del mismo pueden agregar aplicaciones personalizadas si su directiva de aplicaciones personalizadas se los permite.
+* Los propietarios de equipos pueden agregar aplicaciones personalizadas, si su configuración de aplicaciones personalizadas lo permite.
+* Los miembros del equipo que no sean propietarios del equipo pueden agregar aplicaciones personalizadas si su configuración de aplicaciones personalizadas lo permite.
 
 #### <a name="configure-the-team-custom-app-setting"></a>Establecer la configuración de aplicación personalizada de equipo
 
@@ -119,7 +119,7 @@ Si la configuración está activada:
 
 ### <a name="org-wide-custom-app-setting"></a>Configuración de la aplicación personalizada de toda la organización
 
-La configuración de aplicación personalizada **Permitir interacción con aplicaciones personalizadas** de toda la organización en la página [Administrar aplicaciones](manage-apps.md) se aplica a todos los usuarios de la organización y rige si dichos usuarios pueden cargar aplicaciones personalizadas o interactuar con las mismas. Esta configuración actúa como un conmutador maestro de activación y desactivación para la configuración de directiva de aplicación personalizada tanto de usuario como de equipo. Está diseñado para que actúe como un conmutador maestro de activación y desactivación durante los eventos de seguridad. La configuración de directivas de aplicaciones personalizadas de usuario y equipo surte efecto solo después de habilitar la configuración de aplicaciones personalizadas para toda la organización.
+La configuración de aplicación personalizada **Permitir interacción con aplicaciones personalizadas** de toda la organización en la página [Administrar aplicaciones](manage-apps.md) se aplica a todos los usuarios de la organización y rige si dichos usuarios pueden cargar aplicaciones personalizadas o interactuar con las mismas. Esta configuración actúa como un conmutador principal de encendido o desactivación para el usuario y el equipo para la configuración relacionada con aplicaciones personalizadas. Está diseñado para que actúe como un conmutador maestro de activación y desactivación durante los eventos de seguridad. La configuración de aplicaciones personalizadas de usuario y equipo se aplica solo después de habilitar la configuración de aplicaciones personalizadas para toda la organización.
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>Establecer la configuración de aplicaciones personalizadas de toda la organización
 
@@ -131,15 +131,15 @@ La configuración de aplicación personalizada **Permitir interacción con aplic
 
 ## <a name="how-custom-app-policies-and-settings-work-together"></a>Cómo funcionan conjuntamente las directivas y la configuración de aplicaciones personalizadas
 
-En esta tabla se resumen la configuración y la directiva de aplicaciones personalizadas, cómo funcionan conjuntamente y el efecto combinado que ejercen para controlar qué usuarios de la organización pueden cargar aplicaciones personalizadas en Teams.
+En esta tabla se resume la configuración de las aplicaciones personalizadas, cómo funcionan conjuntamente y su efecto combinado en controlar quién en su organización puede cargar aplicaciones personalizadas en Teams.
 
 Imaginemos que quiere permitir que solo los propietarios de los equipos carguen aplicaciones personalizadas en equipos específicos. Debe establecer lo siguiente:
 
 * Active la opción **Permitir interacción con aplicaciones personalizadas** en el centro de administración de Microsoft Teams.
 * Desactive la opción **Permitir que los miembros carguen aplicaciones personalizadas** para cada equipo al que quiera restringir el acceso.
-* Cree y asigne una directiva personalizada en la directiva de configuración de aplicaciones en el Centro de administración de Microsoft Teams con la opción **Cargar aplicaciones personalizadas** activada y asígnela a los propietarios del equipo.
+* Cree y asigne una directiva personalizada en la directiva de configuración de aplicaciones en el centro de administración de Microsoft Teams con la opción **Cargar aplicaciones personalizadas** activada y asígnela a los propietarios del equipo.
 
-|Configuración de la aplicación personalizada de toda la organización |Configuración de la aplicación personalizada de equipo |Directiva de aplicación personalizada de usuario |Efecto  |
+|Configuración de la aplicación personalizada de toda la organización |Configuración de la aplicación personalizada de equipo |Configuración de la aplicación personalizada del usuario | Efecto  |
 |---------|---------|---------|---------|
 | Desactivado    | Desactivado    | Desactivado     |La interacción con todas las aplicaciones personalizadas está bloqueada para su organización. Ningún usuario puede cargar aplicaciones personalizadas excepto un Administrador de servicios de Teams o un Administrador global. Puede usar PowerShell para quitar la aplicación personalizada.   |
 | Desactivado     | Desactivado     | Activado        |La interacción con todas las aplicaciones personalizadas está bloqueada para su organización. Ningún usuario puede cargar aplicaciones personalizadas excepto un Administrador de servicios de Teams o un Administrador global. Puede usar PowerShell para quitar la aplicación personalizada.         |
