@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo cargar inquilinos y crear datos en el Panel de calidad de llamadas.
-ms.openlocfilehash: d9559490aa990f3df800e0e9438810c63d153d3c
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: d999098a2d920c8709ae1878ac94648451c00f0b
+ms.sourcegitcommit: 548978550d58f8657d7035b57b736e9cf9b15984
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789645"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "69163230"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Cargar datos de inquilino y compilación en el Panel de calidad de llamadas (CQD)
 
@@ -83,12 +83,12 @@ El primer tipo de archivo de datos del inquilino en el CQD es el archivo de dato
   | NetworkName        | String    | EE. UU./Seattle/SEATTLE-SEA-1 | Necesario<sup>1</sup>  |
   | NetworkRange       | Número    | 26                        | Obligatorio              |
   | BuildingName       | String    | SEATTLE-MAR-1             | Necesario<sup>1</sup>  |
-  | Tipo de propiedad      | String    | Contoso                   | Opcional              |
-  | Tipo de edificio       | String    | Finalización de TI            | Opcional              |
-  | BuildingOfficeType | String    | Ingeniería               | Opcional              |
+  | Tipo de propiedad      | String    | Contoso                   | Opcional<sup>4</sup>  |
+  | Tipo de edificio       | String    | Finalización de TI            | Opcional<sup>4</sup>  |
+  | BuildingOfficeType | String    | Ingeniería               | Opcional<sup>4</sup>  |
   | Ciudad               | String    | Seattle                   | Recomendado           |
   | ZipCode            | String    | 98001                     | Recomendado           |
-  | País            | String    | NOS                        | Recomendado           |
+  | País            | String    | Nos                        | Recomendado           |
   | Estado              | String    | WA                        | Recomendado           |
   | Region             | String    | MSUS                      | Recomendado           |
   | InsideCorp<sup>2</sup>         | Booleano      | 1             | Obligatorio              |
@@ -100,6 +100,8 @@ El primer tipo de archivo de datos del inquilino en el CQD es el archivo de dato
   <sup>2</sup> Esta configuración se puede usar para reflejar si la subred está o no dentro de la red corporativa. Puedes personalizar el uso para otros fines.
 
   <sup>3</sup> Esta configuración se puede usar para reflejar si la red usa Azure ExpressRoute o no. Puedes personalizar el uso para otros fines.  
+  
+  <sup>4</sup> Aunque estas columnas opcionales reciben un nombre para sugerir con qué valores desea rellenarlas, puede personalizar el uso para otros fines. por ejemplo: Prioridad de red - `Tier 1, Tier 2, Tier 3` 
 
   **Fila de ejemplo:**
 
