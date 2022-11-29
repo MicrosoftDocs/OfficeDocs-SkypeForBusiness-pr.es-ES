@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 2b428f39624ce7e6fb82815c7cbba3872b2113c2
-ms.sourcegitcommit: 8005e7953fcb6dcc78ba406925aeaaa49f08d3d9
+ms.openlocfilehash: 83ee815651a0e08dc01d25639570c69f03edc588
+ms.sourcegitcommit: e9718ad7e23317d490b238b3801267cb2e6b26e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67609448"
+ms.lasthandoff: 11/28/2022
+ms.locfileid: "69176687"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
 
@@ -40,7 +40,7 @@ Los usuarios de su organización recibirán automáticamente la directiva global
 
 ## <a name="create-a-custom-messaging-policy"></a>Crear una directiva de mensajería personalizada
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Directivas de mensajería**.
+1. En el panel de navegación izquierdo del Microsoft centro de administración de Teams, vaya a **Directivas de mensajería**.
 2. Seleccione **Agregar**.
 3. Escriba un nombre y una descripción para la directiva.
 4. Seleccione la configuración que quiera usar.
@@ -58,7 +58,7 @@ Después, asigne la directiva a los usuarios.
 
 Puede editar la directiva global y las directivas personalizadas que cree.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Directivas de mensajería**.
+1. En el panel de navegación izquierdo del Microsoft centro de administración de Teams, vaya a **Directivas de mensajería**.
 2. Haga clic a la izquierda del nombre de la directiva para seleccionarla y, luego, seleccione **Editar**.
 3. A partir de aquí, realice los cambios que desee.
 4. Seleccione **Guardar**.
@@ -88,6 +88,7 @@ Estas son las opciones de directiva de mensajería que puede configurar.
 <a name="bkchat"> </a>
 
 - **Chat** Active esta opción si desea que los usuarios de su organización puedan chatear con otras personas con la aplicación de Teams.
+- **Chatear con grupos** Los usuarios pueden iniciar un chat con grupos de distribución, grupos de seguridad habilitados para correo electrónico y Microsoft 365 grupos.
 - *Usar Giphy en conversaciones** Si activa Giphy, los usuarios pueden incluir imágenes de Giphy en conversaciones de chat con otras personas. Giphy es una base de datos en línea y un motor de búsqueda que permite a los usuarios buscar y compartir archivos GIF animados. A cada Giphy se le asigna una clasificación de contenido. Además de activar esta configuración, debe habilitar [experiencias conectadas opcionales](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) para permitir a Giphys en conversaciones.
 - **Clasificación de contenido de Giphy**
   - **Sin restricción** Esto significa que los usuarios podrán insertar cualquier Giphy en los chats, independientemente de la clasificación del contenido.

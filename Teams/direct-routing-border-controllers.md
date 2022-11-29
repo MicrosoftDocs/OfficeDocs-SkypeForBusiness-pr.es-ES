@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Sepa qué controladores de borde de sesión (SBC) fueron certificados para el Enrutamiento directo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4eb53a81fbdddbf4f04d57be7f893ca3fbb6d88f
-ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+ms.openlocfilehash: 4c3d4f3b10d2e0e4fb70db1ab7f8eb0fccc8c3d6
+ms.sourcegitcommit: e9718ad7e23317d490b238b3801267cb2e6b26e2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "68869575"
+ms.lasthandoff: 11/28/2022
+ms.locfileid: "69176707"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de borde de sesión certificados para Enrutamiento directo
 
@@ -57,14 +57,14 @@ Tenga en cuenta que no aceptamos nuevas nominaciones para la certificación hast
 
 |Proveedor|Producto|Omisión de los que no son medios|Omisión de medios|Versión de software|Compatible con el proveedor de servicios 911*|Compatible con ELIN|
 |---|---|---|---|---|---|---|
-|[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)|SBC Mediant 500|&#10004;|&#10004;|Compatible con 7.20A.258 (recomendado 7.40A.100 o 7.40A.250)|&#10004;|&#10004;|
-||SBC Mediant 800|&#10004;|&#10004;|Compatible con 7.20A.258 (recomendado 7.40A.100 o 7.40A.250)|&#10004;|&#10004;|
-||SBC Mediant 2600|&#10004;|&#10004;|Compatible con 7.20A.258 (recomendado 7.40A.100 o 7.40A.250)|&#10004;|&#10004;|
-||SBC Mediant 4000|&#10004;|&#10004;|Compatible con 7.20A.258 (recomendado 7.40A.100 o 7.40A.250)|&#10004;|&#10004;|
-||SBC Mediant 1000B|&#10004;|&#10004;|Compatible con 7.20A.250 (recomendado 7.40A.100 o 7.40A.250)|&#10004;|&#10004;|
-||SBC Mediant 9000|&#10004;|&#10004;|Compatible con 7.20A.258 (recomendado 7.40A.100 o 7.40A.250)|&#10004;|&#10004;|
-||SBC Virtual Edition|&#10004;|&#10004;|Compatible con 7.20A.258 (recomendado 7.40A.100 o 7.40A.250)|&#10004;|&#10004;|
-||SBC de Mediant Cloud Edition|&#10004;|&#10004;|Compatible con 7.20A.258 (recomendado 7.40A.100 o 7.40A.250)|&#10004;|&#10004;|
+|[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)|SBC Mediant 500|&#10004;|&#10004;|Compatible con 7.20A.258 (recomendado 7.40A.250 o 7.40A.300)|&#10004;|&#10004;|
+||SBC Mediant 800|&#10004;|&#10004;|Compatible con 7.20A.258 (recomendado 7.40A.250 o 7.40A.300)|&#10004;|&#10004;|
+||SBC Mediant 2600|&#10004;|&#10004;|Compatible con 7.20A.258 (recomendado 7.40A.250 o 7.40A.300)|&#10004;|&#10004;|
+||SBC Mediant 4000|&#10004;|&#10004;|Compatible con 7.20A.258 (recomendado 7.40A.250 o 7.40A.300)|&#10004;|&#10004;|
+||SBC Mediant 1000B|&#10004;|&#10004;|Compatible con 7.20A.258 (recomendado 7.40A.250 o 7.40A.300)|&#10004;|&#10004;|
+||SBC Mediant 9000|&#10004;|&#10004;|Compatible con 7.20A.258 (recomendado 7.40A.250 o 7.40A.300)|&#10004;|&#10004;|
+||SBC Virtual Edition|&#10004;|&#10004;|Compatible con 7.20A.258 (recomendado 7.40A.250 o 7.40A.300)|&#10004;|&#10004;|
+||SBC de Mediant Cloud Edition|&#10004;|&#10004;|Compatible con 7.20A.258 (recomendado 7.40A.250 o 7.40A.300)|&#10004;|&#10004;|
 |[Comunicaciones de cinta](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5100/5110|&#10004;|&#10004;|Compatible con todas las versiones de 10.1, 9.2, 8.2 y 7.2 (recomendamos la última versión de 10.1)|&#10004;||
 ||SBC 5200/5210|&#10004;|&#10004;|Compatible con todas las versiones de 10.1, 9.2, 8.2 y 7.2 (recomendamos la última versión de 10.1)|&#10004;||
 ||SBC 5400|&#10004;|&#10004;|Compatible con todas las versiones de 10.1, 9.2, 8.2 y 7.2 (recomendamos la última versión de 10.1))|&#10004;||

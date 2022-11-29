@@ -14,12 +14,12 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 description: Obtenga información sobre cómo los administradores de TI pueden configurar, usar y administrar Q&A en Teams Q&A para un enfoque estructurado para recopilar preguntas, organizar discusiones, eliminar mensajes individuales, usar idiomas disponibles y comprender el ciclo de vida de los datos, así como las directivas de retención y eliminación de datos.
-ms.openlocfilehash: edcf1578b70bf39ccf330b7a328b7d0de7558263
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 3d85dbe4c9035a9de0ccb47557735bb797bdf244
+ms.sourcegitcommit: 94e3f5e8dcfe8b3098ed8de2e4397e2338038f03
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268635"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "69177726"
 ---
 # <a name="manage-qa-in-teams-meetings"></a>Administrar Q&A en reuniones de Teams
 
@@ -39,14 +39,16 @@ En este artículo se describe cómo administrar Q&A y las directivas a nivel de 
 
 Los siguientes tipos de usuario pueden usar Q&A:
 
-- Usuario normal: un usuario con credenciales de Microsoft 365 en su inquilino.
-- Usuario federado: un usuario con credenciales de Microsoft 365 para un inquilino diferente.
-- Usuario invitado: cualquier invitado que agregue a Microsoft Teams, SharePoint o Azure Active Directory.
+- Usuario normal: un usuario con Microsoft 365 credenciales en el inquilino.
+- Usuario federado: un usuario con Microsoft 365 credenciales para un inquilino diferente.
+- Usuario invitado: cualquier invitado que agregue a su Microsoft Teams, SharePoint o Azure Active Directory.
 
 > [!NOTE]
-> Q&A no estará disponible para Ver solo los asistentes que se unan más allá de la capacidad de la reunión.
+> Q&A no está disponible en GCC.
 
 Cuando los administradores habilitan Q&A, los usuarios con el [rol de organizador](https://aka.ms/GetQnA) pueden activar Q&A al crear o actualizar reuniones. A través de las opciones de reunión de Teams y Outlook, los organizadores también pueden quitar Q&A de las reuniones en las que se agregó anteriormente para evitar que los asistentes usen la característica.
+> [!NOTE]
+> Q&A no estará disponible para Ver solo los asistentes que se unan más allá de la capacidad de la reunión.
 
 ## <a name="use-the-teams-admin-center-to-manage-qa"></a>Usar el Centro de administración de Teams para administrar Q&A
 
@@ -105,7 +107,7 @@ eDiscovery para Q&A funcionará igual que eDiscovery para cualquier otro conteni
 
 - Si usa Teams Q&A en la aplicación de Teams de su inquilino, este contenido estará disponible en eDiscovery independientemente de la configuración o la existencia de su red de Yammer. Para usar eDiscovery para contenido estándar de Yammer, su red de Yammer debe estar en [modo nativo](/yammer/configure-your-yammer-network/overview-native-mode).
 - Al realizar eDiscovery, puede determinar si los mensajes se generaron en Yammer o a través de Q&A en Teams. En la sección Metadatos de archivo, encontrará esa información en el campo Clase de elemento.
-- Si su organización usa la&A de Q de Teams, con tecnología de Yammer, el contenido generado por Q&A se considera contenido de Yammer y será reconocible. Para obtener más información sobre eDiscovery en aplicaciones de Microsoft 365, vea [Soluciones de exhibición de documentos electrónicos en Microsoft 365.](/microsoft-365/compliance/ediscovery)
+- Si su organización usa la&A de Q de Teams, con tecnología de Yammer, el contenido generado por Q&A se considera contenido de Yammer y será reconocible. Para obtener más información sobre eDiscovery en Microsoft aplicaciones de 365, vea [Soluciones de exhibición de documentos electrónicos en Microsoft 365.](/microsoft-365/compliance/ediscovery)
 - Si el organizador de la reunión habilita la publicación anónima, las preguntas que publiquen los asistentes se darán a conocer en el buzón del organizador para la exhibición de documentos electrónicos.
 
 ## <a name="data-storage"></a>Almacenamiento de datos
@@ -122,7 +124,7 @@ Las siguientes instrucciones explican cómo se almacenan los datos de mensajerí
 
 ## <a name="gdpr-for-qa-in-teams"></a>RGPD para Q&A en Teams
 
-Cuando se completa una solicitud del interesado a través del Centro de Microsoft 365 അഡ്‌മിൻ, se quita automáticamente la información de contacto de los usuarios de todo su contenido en la Q&A.
+Al completar una solicitud del interesado a través del Centro de Administración de Microsoft 365, esta elimina automáticamente la información de contacto de los usuarios de todo su contenido en la Q&A.
 
 ## <a name="data-lifecycle-for-qa-in-teams"></a>Ciclo de vida de datos de Q&A en Teams
 
@@ -133,7 +135,7 @@ El ciclo de vida de los datos generados por Q&A en Teams depende de la configura
 La retención de contenido sigue las directivas de retención establecidas para Yammer, independientemente de si tiene diferentes directivas establecidas para Yammer y Teams.
 
 > [!NOTE]
-> Si su red de Yammer no está en modo nativo, las directivas creadas aquí se aplicarán solo a los datos de La&A de Teams. En el modo nativo, todos los usuarios de Yammer están en Azure Active Directory (Azure AD), todos los grupos son grupos de Microsoft 365 y todos los archivos se almacenan en SharePoint Online.
+> Si su red de Yammer no está en modo nativo, las directivas creadas aquí se aplicarán solo a los datos de La&A de Teams. En el modo nativo, todos los usuarios de Yammer están en Azure Active Directory (Azure AD), todos los grupos se Microsoft grupos de 365 y todos los archivos se almacenan en SharePoint Online.
 
 ## <a name="faq"></a>Preguntas más frecuentes
 
@@ -141,13 +143,13 @@ La retención de contenido sigue las directivas de retención establecidas para 
 
 **Un:** El contenido de Q&A se almacena en la Centro de cumplimiento de Microsoft 365 y se obtiene acceso a él a través de eDiscovery. Las iteraciones futuras incluirán un informe de resaltado de la reunión y la funcionalidad de exportación para los organizadores de la reunión.
 
-**P: ¿Q&A admite las funcionalidades multigerea de Microsoft 365?**
+**P: ¿Q&A admite capacidades multigemicas Microsoft 365?**
 
-**Un:** Q&A no es compatible actualmente con las funcionalidades multi geo de Microsoft 365. Q&Los datos A se almacenarán en Norteamérica o en la UE de forma predeterminada (en función de la ubicación de red de Yammer del cliente).
+**Un:** Q&A no es compatible actualmente con las funcionalidades multigemicas de Microsoft 365. Q&Los datos A se almacenarán en Norteamérica o en la UE de forma predeterminada (en función de la ubicación de red de Yammer del cliente).
 
 **P: ¿Dónde puedo obtener más información sobre las reuniones estructuradas?**
 
-**Un:** Siga estos [procedimientos recomendados](/MicrosoftTeams/quick-start-meetings-live-events) para hospedar reuniones grandes con éxito en Microsoft Teams.
+**Un:** Siga estos [procedimientos recomendados](/MicrosoftTeams/quick-start-meetings-live-events) para hospedar reuniones grandes exitosas en Microsoft Teams.
 
 **P: ¿Cuál es la diferencia entre configurar Q&A a través de la Tienda de aplicaciones de Teams y usar Las opciones de reunión?**
 
