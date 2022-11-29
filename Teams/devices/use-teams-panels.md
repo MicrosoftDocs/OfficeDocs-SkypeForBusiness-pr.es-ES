@@ -1,5 +1,5 @@
 ---
-title: Cómo usar dispositivos de paneles de Microsoft Teams
+title: Cómo usar Microsoft dispositivos de paneles de Teams
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -17,22 +17,22 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artículo proporciona instrucciones sobre cómo usar dispositivos de paneles de Teams.
-ms.openlocfilehash: fff3df797e043b83662aacc9a67ef1af45b733a4
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: b5dbe92b1c2c3f08683ca58a403fdbb4e318efca
+ms.sourcegitcommit: 75b29de261b4de652c7f2e89da4ad7158da773f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801781"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "69183009"
 ---
-# <a name="how-to-use-microsoft-teams-panels"></a>Cómo usar paneles de Microsoft Teams
+# <a name="how-to-use-microsoft-teams-panels"></a>Cómo usar Microsoft paneles de Teams
 
-Los paneles de Microsoft Teams son dispositivos de pantalla digital compactos que se monta justo fuera de los espacios de reunión, normalmente junto a las entradas. Estos paneles táctiles son dispositivos de Microsoft Teams dedicados que ofrecen una vista rápida del espacio de la reunión y la reunión programada. Con los vibrantes indicadores led codificados por colores e indicadores de pantalla de inicio, puedes determinar si el espacio está disponible o reservado desde una distancia. Puede usar paneles de Teams para reservar un espacio de reunión disponible para una reunión ad hoc, en el lugar.
+Microsoft los paneles de Teams son dispositivos de pantalla digital compactos que se monta justo fuera de los espacios de reunión, normalmente junto a las entradas. Estos paneles de pantalla táctil están dedicados Microsoft dispositivos Teams que ofrecen una vista resona de su espacio de reunión y la reunión programada. Con los vibrantes indicadores led codificados por colores e indicadores de pantalla de inicio, puedes determinar si el espacio está disponible o reservado desde una distancia. Puede usar paneles de Teams para reservar un espacio de reunión disponible para una reunión ad hoc, en el lugar.
 
-Los dispositivos de paneles de Teams vienen preinstalados con Microsoft Teams y muestran los detalles de las reuniones que se programan a través de los calendarios de Outlook o Teams.
+Los dispositivos de paneles de Teams vienen preinstalados con Microsoft Teams y muestran los detalles de la reunión que se programan a través de los calendarios de Outlook o Teams.
 
 En este artículo se proporciona orientación, tanto a los usuarios finales como a los administradores, sobre cómo usar los dispositivos de paneles de Teams. También proporciona respuestas a las [preguntas más frecuentes](#frequently-asked-questions) sobre el uso de estos dispositivos.
 
-Para obtener información general sobre los dispositivos de paneles y las instrucciones sobre cómo planificarlos, entregarlos y administrarlos en su organización, consulte [Implementar paneles de Microsoft Teams](teams-panels.md).
+Para obtener información general sobre los dispositivos de paneles y las instrucciones sobre cómo planificarlos, entregarlos y administrarlos en su organización, vea [Implementar Microsoft paneles de Teams](teams-panels.md).
 
 Para un inicio rápido, consulte [Introducción a los paneles de Teams](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
 
@@ -125,7 +125,7 @@ El mosaico derecho de la pantalla Inicio aparece ahora en color púrpura y muest
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Pantalla principal que muestra que el espacio de reunión está reservado para una reunión ad hoc.":::
 
     > [!NOTE]
-    > Si el espacio de reunión es una sala de Microsoft Teams, puede _unirse a_ esta reunión de Teams con la sala de Microsoft Teams de la sala o los dispositivos Surface Hub.
+    > Si el espacio de reunión es una sala de Microsoft Teams, puede _unirse a_ esta reunión de Teams con la sala Microsoft dispositivos teams o Surface Hub.
 
 ### <a name="report-a-problem"></a>Informar de un problema
 
@@ -186,7 +186,7 @@ Para acceder a la opción **de configuración de administrador de Teams** :
 > [!NOTE]
 > Algunos OEM pueden reemplazar la opción **de configuración de administrador de Teams** por su propia opción personalizada. Si no ve la opción **de configuración de administrador de Teams** , consulte la documentación del dispositivo para obtener instrucciones sobre cómo acceder a la configuración de administración del panel.
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Emparejar un Panel de Teams con una sala de Microsoft Teams en Android
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Emparejar una Panel de Teams con una sala de Teams Microsoft en Android
 
 Para emparejar una Panel de Teams y una sala de Teams en Android, ambos dispositivos deben haber iniciado sesión en la misma cuenta de recursos.
 
@@ -200,15 +200,18 @@ En la Panel de Teams, inicie sesión con sus credenciales de administrador.
 
 La configuración de registro y de liberación de la sala permite a los usuarios registrarse en una reunión en los paneles de Teams en la sala que reservaron al comienzo de la reunión. Si un usuario no realiza la facturación dentro de un período de tiempo determinado después de la hora de inicio de la reunión, la sala se libera y está disponible para que otros puedan reservarla.
 
-Cuando los paneles de Teams están emparejados con una sala de Microsoft Teams en Android, se pueden habilitar las notificaciones de protección para que aparezcan en la pantalla del frente de la sala cuando las reuniones se ejecutan tarde.
+Cuando los paneles de Teams están emparejados con una Microsoft sala de Teams en Android, se pueden habilitar las notificaciones de registro para que aparezcan en la pantalla de delante de la sala cuando se retrasan las reuniones.
 
-Para habilitar el registro y la liberación de salas, consulte [Protección y liberación de salas en paneles de Microsoft Teams](check-in-and-room-release.md).
+Para habilitar el registro y la liberación de salas, consulte [Registro y liberación de salas en Microsoft paneles de Teams](check-in-and-room-release.md).
 
 #### <a name="enable-or-disable-check-out-manual-room-release"></a>Habilitar o deshabilitar la salida (versión manual de la sala)
 
 Cuando la destección está habilitada, los usuarios finales pueden usar un Panel de Teams para liberar manualmente un salón. Liberar una sala finaliza la reserva actual y hace que la sala esté disponible para que otras personas la programen.
 
 Esta función está deshabilitada de manera predeterminada, pero se puede habilitar por dispositivo. Para habilitar la característica, vaya a **Configuración > Configuración del dispositivo > la configuración de administrador de Teams > Reuniones** y, a continuación, active **Desteger**.
+
+> [!NOTE]
+> Si una sala se libera antes de la finalización de una reserva programada, el organizador recibirá un mensaje de correo electrónico de la sala que la rechaza. Esto ocurre porque la sala quita la reserva de su programación para que la puedan reservar otros usuarios. El mensaje que rechaza la reserva puede pasarse por alto.
 
 > [!NOTE]
 > No se puede usar una Panel de Teams para liberar una sala si el dispositivo Salas de Teams con el que está emparejado se encuentra en una llamada activa.
