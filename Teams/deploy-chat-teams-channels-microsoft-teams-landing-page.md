@@ -19,16 +19,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 - intro-get-started
-appliesto:
-- Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 380b761b90f49549ad6605ee7ca069269a796ea9
-ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
+appliesto: Microsoft Teams
+ms.openlocfilehash: dd54d3eb8f7512a9e0f5bc7491decb2b080944b6
+ms.sourcegitcommit: 167868ad6fc02676cfdade5d498e7c4e09778bec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "69019396"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69190341"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 
@@ -38,7 +37,7 @@ Para empezar, vea nuestro breve vídeo sobre el chat, los equipos y los canales 
 
 <br/>
 
-> [!VIDEO <https://www.microsoft.com/videoplayer/embed/RE476Yj>]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj?autoplay=false]
 
 You can use [Advisor for Teams](use-advisor-teams-roll-out.md) to help you roll out Microsoft Teams. Advisor for Teams walks you through your Teams rollout. It assesses your Microsoft 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
 
