@@ -21,13 +21,14 @@ ms.custom:
 - intro-get-started
 - seo-marvel-apr2020
 - seo-marvel-may2020
-appliesto: Microsoft Teams
-ms.openlocfilehash: dd54d3eb8f7512a9e0f5bc7491decb2b080944b6
-ms.sourcegitcommit: 167868ad6fc02676cfdade5d498e7c4e09778bec
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 10063b2b6c8c0f92de8d949578133b2577ff6d9f
+ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/30/2022
-ms.locfileid: "69190341"
+ms.locfileid: "69194921"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 

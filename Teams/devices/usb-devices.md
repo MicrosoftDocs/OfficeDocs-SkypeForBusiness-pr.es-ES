@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Vea qué periféricos y dispositivos USB (como auriculares, manos libres, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: 8a6fdacd8f4599c81e4c915ac178a9d07debb43b
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: dcee4b84795ad825ccbd81ef30f3f44b745cfb82
+ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738626"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69194941"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -88,6 +88,7 @@ Si eres un fabricante y quieres unirte al programa de certificación, consulta [
 
 | Fabricante        | Modelo                                                     | Calificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |Casco ADAPT 561 II                                       |10/20/2022      |Certificado para Microsoft Teams                           |
 |Jabra                |Evolve2 Buds                                               |10/17/2022      |Certificado para Microsoft Teams                           |
 |Cisco                |Cámara de escritorio 4K                                             |10/15/2022      |Certificado para Microsoft Teams                           |
 |EPOS                 |EXPANDIR Visión 1/S6                                         |10/13/2022      |Certificado para Microsoft Teams                           |
@@ -132,7 +133,7 @@ Si eres un fabricante y quieres unirte al programa de certificación, consulta [
 |Polivinílico                 |Voyager 4310                                               |8/6/2021        |Certificado para Microsoft Teams                           |
 |EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |Certificado para Microsoft Teams                           |
 |Dell                 |Cámara web Ultrasharp WB7022                                   |6/16/2021       |Certificado para Microsoft Teams                           |
-|Nec                  |Pantalla de colaboración de Windows WD551                        |5/21/2021       |Certificado para Microsoft Teams                           |
+|NEC                  |Pantalla de colaboración de Windows WD551                        |5/21/2021       |Certificado para Microsoft Teams                           |
 |Polivinílico                 |EncorePro 520 y DA85-M                                   |4/26/2021       |Certificado para Microsoft Teams                           |
 |Polivinílico                 |EncorePro 510 y DA85-M                                   |4/26/2021       |Certificado para Microsoft Teams                           |
 |Polivinílico                 |EncorePro 525-M                                            |4/26/2021       |Certificado para Microsoft Teams                           |
