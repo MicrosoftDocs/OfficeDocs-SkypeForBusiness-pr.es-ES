@@ -16,15 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 06fc3d0bdf0e4741918e380d13acd1b7391bd6ef
-ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.custom:
+- seo-marvel-mar2020
+- chat-teams-channels-revamp
+ms.openlocfilehash: fddf4b5cf80c51977b2a57ceceac8a07e529c51f
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "68576406"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199082"
 ---
-# <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Administrar equipos grandes en Microsoft Teams: Procedimientos recomendados
+# <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Administrar equipos grandes en Microsoft Teams: procedimientos recomendados
 
 Microsoft Teams es igualmente eficaz para facilitar las comunicaciones entre pequeños grupos con decenas de miembros y grandes grupos con miles de miembros. Revise [los límites y las especificaciones de Teams para](limits-specifications-teams.md) ver las actualizaciones de los tamaños de los equipos. El aumento del tamaño del equipo conduce a desafíos operativos y de gestión únicos. En este artículo se describen los procedimientos recomendados para crear y administrar equipos grandes compuestos por miles de miembros.
 
@@ -44,13 +46,13 @@ Use grupos de contactos, grupos de seguridad o grupos de Office para iniciar el 
 
 **Importar un grupo para crear un equipo**: al importar un grupo con hasta 3500 miembros a Teams, Teams calcula automáticamente el número total de miembros del grupo. Se trata de una importación única y los futuros cambios en el grupo no se actualizarán automáticamente en Teams.
 
-**Crear un equipo a partir de un grupo grande de Microsoft 365**: al crear un equipo a partir de un gran grupo de Microsoft 365, los miembros forman parte automáticamente del grupo de Microsoft 365 **y** del equipo. En el futuro, a medida que los miembros del equipo se unan o abandonen el grupo de Microsoft 365, se agregarán o quitarán automáticamente del equipo.
+**Crear un equipo a partir de un gran grupo de Microsoft 365**: al crear un equipo a partir de un grupo grande Microsoft 365, los miembros forman automáticamente parte del grupo Microsoft 365 **y** del equipo. En el futuro, a medida que los miembros del equipo se unan o abandonen el grupo de Microsoft 365, se agregarán o quitarán automáticamente del equipo.
 
 ## <a name="bulk-importexportremove-members-in-a-team"></a>Importar, exportar o quitar miembros en masa en un equipo
 
 La Azure Portal permite a los usuarios importar, exportar o quitar miembros en masa en un grupo de Microsoft 365. Para obtener más información, vea [To bulk import group members (Para importar en masa miembros del grupo](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)).
 
-Como cada equipo cuenta con el respaldo de un grupo de Microsoft 365, puede usar el Azure Portal para realizar estas operaciones en el grupo correspondiente al equipo. Las operaciones de los miembros se reflejarán en el equipo en 24 horas.
+Como cada equipo está respaldado por un grupo de Microsoft 365, puede usar el Azure Portal para realizar estas operaciones en el grupo correspondiente al equipo. Las operaciones de los miembros se reflejarán en el equipo en 24 horas.
 
 ## <a name="create-channels-to-focus-discussions"></a>Crear canales para enfocar los debates
 

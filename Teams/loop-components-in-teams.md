@@ -16,14 +16,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e0b9c5a7ffef07a1d9245d2b1266a071b4ee0c2
-ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
+ms.openlocfilehash: 1405464a3eb963d55c357b5fcc165c67a143e5e1
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "67795059"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198552"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Información general sobre los componentes del bucle en Teams
 

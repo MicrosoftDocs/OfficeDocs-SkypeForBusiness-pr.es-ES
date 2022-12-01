@@ -12,14 +12,15 @@ search.appverid: MET150
 description: Obtenga información sobre cómo habilitar y deshabilitar los correos electrónicos de actividad accionables de las conversaciones de Microsoft Teams
 ms.collection:
 - M365-collaboration
+ms.custom: chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43435c436685c53e0ad077887a9fe9d991cf2d61
-ms.sourcegitcommit: f5480d0ca34b3160980a4b46b5afa34271293a26
+ms.openlocfilehash: de1bd12a0f079154a37156e3a01c3e5791bef10c
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68899694"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198512"
 ---
 # <a name="manage-actionable-activity-emails"></a>Administrar los correos electrónicos de actividad procesables
 

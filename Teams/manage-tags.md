@@ -8,6 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -15,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo se usan las etiquetas en su organización en Microsoft Teams.
-ms.openlocfilehash: 56a2daf53c362accec8059b11fba400547a7b6ff
-ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+ms.openlocfilehash: ddf7956486db8bbd483ddde9d51c568450a7fe45
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "68869565"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199122"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Administrar etiquetas en Microsoft Teams
 
@@ -50,9 +51,9 @@ Cuando se @mentioned una etiqueta en una conversación de canal, se notificará 
 
 ## <a name="manage-tags-for-your-organization"></a>Administrar etiquetas para su organización
 
-Como administrador, puede controlar cómo se usan las etiquetas en toda la organización en el Centro de administración de Microsoft Teams. Tenga en cuenta que no puede usar PowerShell para administrar etiquetas.
+Como administrador, puede controlar cómo se usan las etiquetas en toda la organización en el centro de administración de Microsoft Teams. Tenga en cuenta que no puede usar PowerShell para administrar etiquetas.
 
-:::image type="content" source="media/manage-tags-admin-settings-shifts.png" alt-text="Captura de pantalla de la configuración de etiquetado en el Centro de administración de Microsoft Teams.":::
+:::image type="content" source="media/manage-tags-admin-settings-shifts.png" alt-text="Captura de pantalla de la configuración de etiquetado en el centro de administración de Microsoft Teams.":::
 
 Un equipo puede tener hasta 100 etiquetas, se pueden asignar hasta 200 miembros al equipo a una etiqueta y se pueden asignar hasta 25 etiquetas en el mismo equipo a un solo usuario.
 
@@ -60,7 +61,7 @@ Un equipo puede tener hasta 100 etiquetas, se pueden asignar hasta 200 miembros 
 
 De forma predeterminada, los propietarios de equipos pueden crear, editar y eliminar etiquetas. Puede cambiar la configuración **Quién puede administrar etiquetas** para permitir que los propietarios del equipo y los miembros del equipo administren etiquetas, o bien puede desactivar las etiquetas para su organización.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, haga clic en **Configuración de** **Teams**\>.
+1. En el panel de navegación izquierdo del Microsoft centro de administración de Teams, haga clic en **Configuración de** **Teams**\>.
 
 2. En **Etiquetado**, junto a **Quién puede administrar etiquetas**, seleccione una de las siguientes opciones:
 
@@ -72,7 +73,7 @@ De forma predeterminada, los propietarios de equipos pueden crear, editar y elim
 
 Puede configurar las siguientes opciones de etiquetas para controlar cómo se usan las etiquetas en toda la organización.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, haga clic en **Configuración de** **Teams**\>.
+1. En el panel de navegación izquierdo del Microsoft centro de administración de Teams, haga clic en **Configuración de** **Teams**\>.
 
 2. En **Etiquetado**, establezca lo siguiente, según las necesidades de su organización.
 

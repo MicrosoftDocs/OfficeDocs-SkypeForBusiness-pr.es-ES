@@ -17,14 +17,15 @@ f1.keywords:
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f0a6218d9843c0ed99c80c517fe9986f41d79b6
-ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
-ms.translationtype: HT
+ms.openlocfilehash: b1818a4eee46cca88c873af35278453ab84b1341
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60641350"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198962"
 ---
 # <a name="use-nonprofit-team-templates"></a>Uso de plantillas de equipo sin ánimo de lucro
 

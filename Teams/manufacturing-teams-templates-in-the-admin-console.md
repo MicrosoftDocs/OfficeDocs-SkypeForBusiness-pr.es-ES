@@ -1,5 +1,5 @@
 ---
-title: Comenzar con la fabricación de plantillas de equipo en el centro de administración
+title: Introducción a la fabricación de plantillas de equipo en el centro de administración
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -17,14 +17,15 @@ f1.keywords:
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd2f7329e293d8b3b20747382686599d18d47bea
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 5d159605af5050b8b874fb7b1c077ce9f2d639fc
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646329"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198902"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>Usar plantillas de equipo de fabricación en el centro de administración
 
@@ -36,7 +37,7 @@ En este artículo, presentamos cada una de las plantillas de equipo y le recomen
 
 Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda la organización de fabricación. Ya ha implementado el servicio de Teams en su organización. Si todavía no ha implementado Teams, empiece por leer [Cómo implementar Microsoft Teams](./deploy-overview.md).
 
-Para obtener más información sobre las plantillas de equipo en general, consulte [Comenzar con plantillas de equipo](get-started-with-teams-templates-in-the-admin-console.md).
+Para obtener más información sobre las plantillas de equipo en general, consulte [Introducción a las plantillas de equipo](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="quality-and-safety"></a>Calidad y seguridad
 

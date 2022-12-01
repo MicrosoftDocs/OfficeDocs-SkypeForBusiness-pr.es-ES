@@ -7,6 +7,7 @@ ms.reviewer: vinbel, luises
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -18,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Aprenda a llamar, chatear, encontrar y agregar usuarios de fuera de la organización en Microsoft Teams utilizando el acceso externo y el acceso de invitados.
-ms.openlocfilehash: 14b1bee39caacc6465c64dbb2151cbeed936b3ff
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: f416453a93c07945f9df55c863f76cbb8b736a78
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418469"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198322"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Usar el acceso de invitados y el acceso externo para colaborar con personas fuera de su organización
 
@@ -116,7 +117,7 @@ En las tablas siguientes se muestran las diferencias entre usar el acceso extern
 <sup>1</sup> Si el usuario se ha agregado como invitado y ha iniciado sesión con la cuenta de invitado.<br>
 <sup>2</sup> Solo mediante la dirección de correo o el Protocolo de inicio de sesión (SIP).<br>
 <sup>3</sup> Compatible con chat individual entre dos usuarios de Teams solo de dos organizaciones diferentes. <br>
-<sup>4</sup> De forma predeterminada, los participantes externos no pueden ver el número de teléfono de los participantes de marcado. Si desea mantener la privacidad de estos números de teléfono, seleccione **Tonos** para **Tipo de anuncios de entrada/salida** (evita que Teams lea los números). Para obtener más información, consulte [Activar o desactivar los anuncios de entrada y salida para las reuniones en Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
+<sup>4</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
 <sup>5</sup> Está permitido de forma predeterminada, pero el administrador de Teams puede desactivarlo.
 
 ## <a name="related-topics"></a>Temas relacionados

@@ -17,31 +17,33 @@ ms.collection:
 - m365initiative-externalcollab
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
 description: Este artículo describe la funcionalidad de Microsoft Teams disponible para los invitados.
-ms.openlocfilehash: c7052eb22a68b146c3ee998b57ba877da82e11b4
-ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
+ms.openlocfilehash: 960688d49f634ff5665fe4e1da2436e9bad669ac
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63556636"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198912"
 ---
 # <a name="guest-experience-in-teams"></a>Experiencia de invitado en Teams
 
 Cuando se invita a un invitado a unirse a un equipo, recibirá un mensaje de correo electrónico de bienvenida. Este mensaje contiene cierta información sobre el equipo y lo que puede esperar de él ahora que es miembro. El invitado debe aceptar la invitación seleccionando el enlace **Abrir Microsoft Teams** incluido en el mensaje de correo electrónico antes de poder acceder al equipo y a sus canales.
 
 > [!NOTE]
-> Después de agregar un invitado a un equipo, es posible que tarde unas horas en tener acceso.
+> Después de agregar un invitado a un equipo, puede que tarde unas horas en tener acceso.
     
 ![Captura de pantalla que muestra un ejemplo de un mensaje de correo electrónico de bienvenida.](media/guest-experience-image1.png)
     
 Todos los miembros del equipo ven un mensaje en el hilo del canal en el que se anuncia que el propietario del equipo ha agregado a un invitado y da el nombre del invitado. Todos los miembros del equipo pueden identificar con facilidad quién es un invitado. Una etiqueta en la esquina superior derecha de la conversación del canal indica el número de invitados en el equipo y la etiqueta **(Invitado)** se muestra junto al nombre de cada invitado.
 
-![Captura de pantalla que muestra una etiqueta que indica el número de invitados del equipo.](media/guest-experience-image2.png)
+![Captura de pantalla que muestra la etiqueta que indica el número de invitados en el equipo.](media/guest-experience-image2.png)
 
 Consulte los siguientes vídeos sobre la experiencia de invitado en Teams:
-- [Unirse a Teams reunión como invitado](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
-- [Trabajar con invitados externos en una Teams reunión](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
+- [Unirse a una reunión de Teams como invitado](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
+- [Trabajar con invitados externos en una reunión de Teams](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Comparación entre las funciones de los miembros del equipo y los invitados
 
@@ -55,7 +57,7 @@ En la tabla siguiente se compara la funcionalidad de Teams disponible para los m
 |Publicar, eliminar y editar mensajes  <br/> |&#x2713;|&#x2713;|
 |Compartir un archivo del canal  <br/> |&#x2713;|&#x2713;|
 |Acceder a los archivos de SharePoint<br/> |&#x2713;|&#x2713;|
-|Adjuntar archivos<br/> |&#x2713;|Solo publicaciones de canal|
+|Adjuntar archivos<br/> |&#x2713;|Solo publicaciones de canales|
 |Descargar archivos de chats privados<br/> |&#x2713;|&#x2713;|
 |Buscar en los archivos<br/> |&#x2713;||
 |Compartir un archivo de chat  <br/> |&#x2713;||

@@ -14,16 +14,18 @@ ms.reviewer: rafarhi
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-mar2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-description: Los administradores pueden aprender a agregar nuevos invitados a una organización en clientes web y de escritorio de Microsoft Teams y en el portal de colaboración B2B de Azure Active Directory.
-ms.openlocfilehash: 17ba8ff379566208a186857071310f6b7c6fd416
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Los administradores pueden aprender a agregar nuevos invitados a una organización en Microsoft clientes web y de escritorio de Teams y el portal de colaboración B2B de Azure Active Directory.
+ms.openlocfilehash: 1427b523f2e9e8ec802a8e8d3459f9edadbb68ca
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268135"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199142"
 ---
 # <a name="add-a-guest-to-a-team"></a>Agregar un invitado a un equipo
 
@@ -39,7 +41,7 @@ Los administradores también pueden delegar permisos para agregar invitados a ot
 
 Con la colaboración B2B de Azure AD, las organizaciones pueden exigir que se cumplan las directivas de acceso condicional y autenticación multifactor (MFA) para los usuarios de B2B. Estas directivas se pueden exigir en el nivel de inquilino, aplicación o usuario individual, del mismo modo que pueden habilitarse para empleados a tiempo completo y miembros de la organización. Estas directivas se aplican en la organización de recursos. Para obtener más información, vea [Acceso condicional para usuarios de colaboración B2B](/azure/active-directory/external-identities/conditional-access). No se pueden bloquear invitados individuales.
 
-Los invitados que ya haya agregado a través de B2B, Microsoft 365 组 o SharePoint de Azure AD ya están listos para empezar. El administrador de Microsoft 365 o el propietario de un equipo pueden agregar a esos invitados a sus respectivos equipos. Si agrega un invitado directamente al grupo de Microsoft 365 asociado a un equipo, el invitado tendrá acceso al equipo, pero el grupo de Microsoft 365 no genera un correo electrónico de invitación al invitado, por lo que alguien del equipo debe notificarlo al invitado.
+Los invitados que ya haya agregado a través de B2B, Grupos de Microsoft 365 o SharePoint de Azure AD ya están listos para empezar. El administrador de Microsoft 365 o el propietario de un equipo pueden agregar a esos invitados a sus respectivos equipos. Si agrega un invitado directamente al grupo de Microsoft 365 asociado a un equipo, el invitado tendrá acceso al equipo, pero el grupo de Microsoft 365 no genera una invitación por correo electrónico al invitado, por lo que alguien del equipo debe notificarlo al invitado.
 
 > [!NOTE]
 > Los invitados están sujetos a los límites de servicio de [Microsoft 365 u Office 365](/office365/servicedescriptions/office-365-service-descriptions-technet-library) y [Azure Active Directory](/azure/active-directory/external-identities/current-limitations).

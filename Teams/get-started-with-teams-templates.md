@@ -14,20 +14,21 @@ ms.collection:
 - m365-frontline
 - tier2
 - highpri
-description: Obtenga información sobre las plantillas de equipo que solo están disponibles con Microsoft Graph.
+description: Obtenga más información sobre las plantillas de equipo que solo están disponibles con Microsoft Graph.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4560e5845b2f9beabc8227d79bebc889c9d42c37
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: cc753913c90703295180765d7961c3747063011f
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131129"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198302"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Introducción a las plantillas de equipo con Microsoft Graph
 
@@ -36,7 +37,7 @@ ms.locfileid: "69131129"
 
 Una plantilla de equipo en Microsoft Teams es una definición de la estructura de un equipo diseñada en torno a una necesidad empresarial o un proyecto. Con las plantillas de equipo, puede crear espacios de colaboración enriquecidos de forma rápida y sencilla con configuraciones predefinidas, canales y aplicaciones. Las plantillas de equipo pueden ayudarle a implementar equipos coherentes en toda la organización.
 
-Con Microsoft Graph, puede [crear sus propias plantillas](/graph/api/resources/teamtemplate?view=graph-rest-beta) o usar las plantillas de equipo predefinidas que se incluyen en Teams para crear equipos. En este artículo, obtendrá información sobre las propiedades que se pueden definir en las plantillas y las plantillas predefinidas que solo están disponibles con Microsoft Graph.
+Con Microsoft Graph, puede [crear sus propias plantillas](/graph/api/resources/teamtemplate?view=graph-rest-beta&preserve-view=true) o usar las plantillas de equipo predefinidas que se incluyen en Teams para crear equipos. En este artículo, obtendrá información sobre las propiedades que se pueden definir en las plantillas y las plantillas predefinidas que solo están disponibles con Microsoft Graph.
 
 Este artículo es para usted si es:
 
@@ -59,7 +60,7 @@ La mayoría de las propiedades de un equipo se incluyen y son compatibles con la
 | Pestañas ancladas | |
 
 > [!NOTE]
-> Agregaremos más funcionalidades de plantilla en futuras versiones de Microsoft Teams, así que vuelva a comprobar la información más actualizada sobre las propiedades compatibles.
+> Agregaremos más funcionalidades de plantilla en futuras versiones de Microsoft Teams, así que vuelva a consultar la información más actualizada sobre las propiedades compatibles.
 
 ## <a name="pre-built-templates"></a>Plantillas predefinidas
 
@@ -73,10 +74,10 @@ Las plantillas de equipo predefinidas son plantillas que hemos creado para secto
 |Educación-<br>Equipo de PLC |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Aplicaciones:<ul><li>Bloc de notas de PLC de OneNote (anclado a la pestaña **General** )</ul></li>|
 
 > [!NOTE]
-> Para obtener una lista de plantillas predefinidas que puede usar en el cliente de Teams y en Microsoft Graph, consulte [Introducción a las plantillas de equipo en el Centro de administración de Teams](get-started-with-teams-templates-in-the-admin-console.md).
+> Para obtener una lista de plantillas predefinidas que puede usar en el cliente de Teams y con Microsoft Graph, consulte [Introducción a las plantillas de equipo en el Centro de administración de Teams](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="related-articles"></a>Artículos relacionados
 
 - [Introducción a las plantillas de equipo en el centro de administración de Teams](get-started-with-teams-templates-in-the-admin-console.md)
-- [Crear un equipo](/graph/api/team-post?view=graph-rest-beta) (en versión preliminar)
-- [Nuevo equipo](/powershell/module/teams/New-Team?view=teams-ps)
+- [Crear un equipo](/graph/api/team-post?view=graph-rest-beta&preserve-view=true) (en versión preliminar)
+- [Nuevo equipo](/powershell/module/teams/New-Team?view=teams-ps&preserve-view=true)

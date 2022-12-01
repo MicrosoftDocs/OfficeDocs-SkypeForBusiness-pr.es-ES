@@ -18,13 +18,15 @@ ms.collection:
 - ContentEnagagementFY23
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee17d482c311a4bdd92ebad55e29058104a89b98
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
+ms.openlocfilehash: 5acc918c4fbe3994a93020e7b4b09db4ab1671f3
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890059"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198922"
 ---
 # <a name="use-organization-wide-teams-in-microsoft-teams-to-help-everyone-collaborate"></a>Usar equipos de toda la organización en Microsoft Teams para ayudar a todos a colaborar
 

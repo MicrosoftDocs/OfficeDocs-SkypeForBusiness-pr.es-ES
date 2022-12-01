@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
+- chat-teams-channels-revamp
 description: Use el Asesor de Teams para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: 795765459c7796449379fe4c8fb327140a19e9e2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: e691a224679b8026ec91ecf3b1b5c16f6016c20e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268825"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198332"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -142,7 +143,7 @@ Una vez que asesor para Teams crea su equipo de implementación, el bot asesor e
 >
 
 > [!IMPORTANT]
-> El bot Asesor para Teams solo se usa para enviar un mensaje de bienvenida al equipo de implementación. No se recopilan datos adicionales.
+> El bot del Asesor de Teams solo se usa para enviar un mensaje de bienvenida al equipo de implementación. No se recopilan datos adicionales.
 
 > [!IMPORTANT]
 > El bot asesor de Teams está activado de forma predeterminada. No lo apague si utiliza o planea utilizar el servicio de asesor para Teams.
@@ -212,7 +213,7 @@ Como personas de contacto a las que acuden los usuarios cuando necesitan saber c
 
 Después de personalizar el sitio y elaborar los planes de aprendizaje, piense en cómo lo dará a conocer entre los usuarios con el fin de animarles a usar los caminos de aprendizaje para formarse de forma continuada.
 
-Use los canales de comunicación para promover el sitio y darlo a conocer. Por ejemplo, incluya en las comunicaciones con sus usuarios un lema estándar, como "Visite nuestro sitio de aprendizaje y soporte técnico para saber cómo aumentar la productividad con Microsoft Teams".
+Use your communication channels to promote the site and generate awareness. For example, include a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users.
 
 Destaque las formas en las que pueden colaborar en Microsoft Teams para animarlos a participar y, luego, diríjalos al sitio de caminos de aprendizaje para que vean cómo pueden hacerlo.
 
@@ -258,7 +259,7 @@ El Asesor de Teams solicita su acuerdo con la recopilación de información que 
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>¿Puedo usar el Asesor para Teams con FastTrack?
 
-Sí, FastTrack usa el Asesor para Teams con todos los clientes que desean implementar Teams. Puede ayudarle con la configuración inicial de su Equipo de implementación mediante el Asesor de Teams (si se requiere) y también ofrecerle el soporte necesario en temas específicos durante la implementación de Teams.
+Yes, FastTrack leverages Advisor for Teams for all customers looking to deploy Teams. They can assist with the initial setup of your Deployment team using Advisor for Teams (if required) and also provide as-needed support on specific topics during your Teams rollout.
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>¿Puedo usar el Asesor para Teams con un asociado?
 

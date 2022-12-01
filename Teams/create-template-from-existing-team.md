@@ -8,20 +8,21 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Obtenga información sobre cómo usar un equipo existente para crear una plantilla en Microsoft Teams.
+description: Aprenda a usar un equipo existente para crear una plantilla en Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df92a9f43481c394f0d6566bc1a3dfe49e134df1
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: c6a908b360f64a62b44d160ad1abe9dc5ccc3bb0
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674362"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198952"
 ---
 # <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>Crear una plantilla de equipo a partir de un equipo existente en Microsoft Teams
 
@@ -29,11 +30,11 @@ ms.locfileid: "65674362"
 
 **Las plantillas personalizadas aún no son compatibles con los clientes educativos.**
 
-Microsoft Teams le permite crear una plantilla de un equipo existente que se puede guardar y modificar para satisfacer sus necesidades específicas de la organización.
+Microsoft Teams le permite crear una plantilla de un equipo existente que se puede guardar y modificar para satisfacer sus necesidades organizativas.
 
 1. Inicie la sesión en el Centro de administración de Teams
 
-2. En el panel de navegación izquierdo, expanda **las plantillas Teams** >  **Team**.
+2. En el panel de navegación izquierdo, expanda **Plantillas de equipo de** **Teams** > .
 
 3. Seleccione **Agregar**.
 
@@ -68,6 +69,6 @@ La nueva plantilla se muestra en la lista **plantillas de equipo** . La plantill
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-- [Comenzar con plantillas de equipo en el centro de administración](get-started-with-teams-templates-in-the-admin-console.md)
+- [Introducción a las plantillas de equipo en el centro de administración](get-started-with-teams-templates-in-the-admin-console.md)
 - [Crear una plantilla a partir de una plantilla de equipo existente](create-template-from-existing-template.md)
 - [Crear una plantilla de equipo](create-a-team-template.md)

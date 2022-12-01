@@ -19,16 +19,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 - intro-get-started
-- seo-marvel-apr2020
-- seo-marvel-may2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10063b2b6c8c0f92de8d949578133b2577ff6d9f
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: 3132fdf3e8e04c0527c055435fa95e14d8ca4116
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194921"
+ms.locfileid: "69199132"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 

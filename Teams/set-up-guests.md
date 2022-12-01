@@ -16,22 +16,23 @@ ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
 - ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+- chat-teams-channels-revamp
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
 description: Obtenga más información sobre cómo habilitar o deshabilitar el acceso de invitado en Microsoft Teams como administrador de Office 365.
-ms.openlocfilehash: 935fac44863ef2c3da4a9fc4f07fcd7e34265024
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: 906a5554d4dbcb03efabb2300a5a900ad3c8dc21
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370813"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199102"
 ---
 # <a name="turn-guest-access-in-microsoft-teams-on-or-off"></a>Activar o desactivar el acceso de invitado en Microsoft Teams
 
-En este artículo se describe cómo configurar las opciones de acceso de invitado (incluidas llamadas, reuniones y chat) en Teams. El acceso de invitado en Teams también requiere configurar otras opciones en Microsoft 365, incluidas las opciones de Azure AD, Grupos de Microsoft 365 y SharePoint. Si quiere empezar a invitar a usuarios a los equipos, elija una de las siguientes opciones:
+En este artículo se describe cómo configurar las opciones de acceso de invitado en Teams, incluidas las llamadas, las reuniones y el chat. El acceso de invitado en Teams también requiere la configuración de otras opciones en Microsoft 365, incluidas las opciones de Azure AD, Grupos de Microsoft 365 y SharePoint. Si quiere empezar a invitar a usuarios a los equipos, elija una de las siguientes opciones:
 
 - Para configurar el acceso de invitado para Microsoft Teams para un uso general, consulte [Colaborar con invitados en un equipo](/microsoft-365/solutions/collaborate-as-team).
 - Para colaborar con una organización asociada que usa Azure Active Directory y permitir que los invitados se inscriban a sí mismos para tener acceso al equipo, consulte [Crear una extranet de B2B con invitados administrados](/microsoft-365/solutions/b2b-extranet).
@@ -43,9 +44,9 @@ En este artículo se describe cómo configurar las opciones de acceso de invitad
 
 1. Inicie sesión en el [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com/).
 
-2. Seleccione **UsuariosGuest** >  Access.
+2. Seleccione **Usuarios** > **Acceso de invitado**.
 
-3. Establezca **Permitir el acceso de invitado en Teams** en **Activado**.
+3. Establezca **Permitir acceso de invitado en Teams en** **Activado**.
 
     ![Permitir el acceso de invitado establecido en Activado.](media/guest-access-setting.png)
 
@@ -69,7 +70,7 @@ En este artículo se describe cómo configurar las opciones de acceso de invitad
           - **Estricto** : los invitados pueden insertar imágenes de Giphy en chats, pero se restringirá la inserción de contenido para adultos.
       - **Memes en conversaciones** : active **esta configuración para** permitir que los invitados usen Memes en las conversaciones.
       - **Adhesivos en conversaciones** : active **esta configuración para** permitir que los invitados usen adhesivos en las conversaciones.
-      - **Lector inmersivo para mensajes**: active **esta configuración para** permitir que los invitados usen el [lector inmersivo en Teams](https://support.microsoft.com/topic/a700c0d0-bc53-4696-a94d-4fbc86ac7a9a).
+      - **Lector inmersivo para mensajes** : active **esta configuración para** permitir que los invitados usen el [lector inmersivo en Teams](https://support.microsoft.com/topic/a700c0d0-bc53-4696-a94d-4fbc86ac7a9a).
 
     ![Configuración de permisos de invitado en Teams.](media/manage-guest-access-image1.png)
 

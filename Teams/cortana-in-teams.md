@@ -12,6 +12,7 @@ description: Obtenga información sobre cómo usar la asistencia por voz de Cort
 ms.localizationpriority: medium
 ms.custom:
 - Teams-upgrade-guidance
+- chat-teams-channels-revamp
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -19,27 +20,27 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78aaad6506a7130d336d3847c55e0c0ec08c4450
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 502f09891942796a326deba35e29fab234e6548a
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156789"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198502"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Asistencia por voz de Cortana en Teams
 
 > [!NOTE]
-> La asistencia por voz de Cortana se admite en las aplicaciones móviles de Microsoft Teams para iOS y Android, pantallas de Microsoft Teams y Salas de Microsoft Teams en Windows para los usuarios de Estados Unidos, Reino Unido, Canadá, India y Australia. La asistencia por voz de Cortana en la aplicación móvil de Teams ya está disponible para los clientes educativos en en-US. La expansión a idiomas y regiones adicionales se producirá como parte de futuras versiones. La asistencia de voz de Cortana no está disponible actualmente para los inquilinos de GCC, GCC-High, DoD y no US EDU.
+> La asistencia por voz de Cortana se admite en Microsoft aplicaciones móviles de Teams para iOS y Android, Microsoft Teams Displays y Salas de Microsoft Teams en Windows para los usuarios de Estados Unidos, Reino Unido, Canadá, India y Australia. La asistencia por voz de Cortana en la aplicación móvil de Teams ya está disponible para los clientes educativos en en-US. La expansión a idiomas y regiones adicionales se producirá como parte de futuras versiones. La asistencia de voz de Cortana no está disponible actualmente para los inquilinos de GCC, GCC-High, DoD y no US EDU.
 
-La asistencia por voz de Cortana en la aplicación móvil de Teams, en Salas de Microsoft Teams en Windows y en los dispositivos de visualización de Microsoft Teams permite a los usuarios de Microsoft 365 Enterprise simplificar la comunicación, la colaboración y las tareas relacionadas con las reuniones mediante el lenguaje natural hablado. Los usuarios pueden hablar con Cortana seleccionando el botón del micrófono situado en la esquina superior derecha de la aplicación móvil de Teams, o diciendo "Cortana" en la sala de Microsoft Teams o al usar una pantalla de Microsoft Teams. Para conectar rápidamente con el equipo sin manos y mientras se desplaza, los usuarios pueden decir consultas como "llamar a Megan" o "enviar un mensaje a mi próxima reunión". Los usuarios también pueden unirse a reuniones diciendo "unirse a mi próxima reunión" y usar la asistencia de voz para compartir archivos, comprobar su calendario y mucho más. Estas experiencias de asistencia por voz se entregan con [servicios de nivel empresarial de Cortana](/microsoft-365/admin/misc/cortana-integration) que cumplen plenamente con las promesas de privacidad, seguridad y cumplimiento de Office 365, como se refleja en los [Términos de servicios en línea (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1&preserve-view=true).
+La asistencia por voz de Cortana en la aplicación móvil de Teams, en Salas de Microsoft Teams en Windows y en Microsoft dispositivos de visualización de Teams permite a los usuarios Microsoft 365 Enterprise simplificar la comunicación, la colaboración y las tareas relacionadas con las reuniones mediante el lenguaje natural hablado. Los usuarios pueden hablar con Cortana seleccionando el botón del micrófono situado en la esquina superior derecha de la aplicación móvil de Teams, o diciendo "Cortana" en la sala Microsoft teams o al usar una pantalla de Teams Microsoft. Para conectar rápidamente con el equipo sin manos y mientras se desplaza, los usuarios pueden decir consultas como "llamar a Megan" o "enviar un mensaje a mi próxima reunión". Los usuarios también pueden unirse a reuniones diciendo "unirse a mi próxima reunión" y usar la asistencia de voz para compartir archivos, comprobar su calendario y mucho más. Estas experiencias de asistencia por voz se entregan con [servicios de nivel empresarial de Cortana](/microsoft-365/admin/misc/cortana-integration) que cumplen plenamente con las promesas de privacidad, seguridad y cumplimiento de Office 365, como se refleja en los [Términos de servicios en línea (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1&preserve-view=true).
 
 ## <a name="admin-control-and-limitations"></a>Administración control y limitaciones
 
 La asistencia por voz de Cortana en Teams se entrega con servicios que cumplen plenamente con los Office 365 promesas de privacidad, seguridad y cumplimiento a nivel empresarial, como se refleja en los Términos de servicios en línea (OST). La característica se habilitará de forma predeterminada para los inquilinos.
 
-Los administradores de inquilinos pueden controlar quién en su inquilino puede usar la asistencia por voz de Cortana en Teams mediante una directiva (TeamsCortanaPolicy). Esta directiva se establece en un nivel de cuenta de usuario o nivel de inquilino. Los administradores pueden usar el campo CortanaVoiceInvocationMode de este control de directiva para determinar si Cortana está deshabilitada, habilitada solo con invocaciones de botones de pulsar o con invocación de reactivación de palabras (aplicable a dispositivos que lo admiten, como la pantalla de Microsoft Teams).
+Los administradores de inquilinos pueden controlar quién en su inquilino puede usar la asistencia por voz de Cortana en Teams mediante una directiva (TeamsCortanaPolicy). Esta directiva se establece en un nivel de cuenta de usuario o nivel de inquilino. Los administradores pueden usar el campo CortanaVoiceInvocationMode dentro de este control de directiva para determinar si Cortana está deshabilitada, habilitada solo con invocaciones de botones de pulsar o con invocación de reactivación de palabra (aplicable a dispositivos que lo admiten, como la pantalla Microsoft Teams).
 
-Los administradores pueden usar los siguientes cmdlets de PowerShell para administrar esta directiva (la directiva no está disponible actualmente en el Centro de administración de Microsoft Teams).
+Los administradores pueden usar los siguientes cmdlets de PowerShell para administrar esta directiva (la directiva no está disponible actualmente en Microsoft centro de administración de Teams).
 
 - [New-CsTeamsCortanaPolicy](/powershell/module/skype/New-CsTeamsCortanaPolicy)
 
@@ -57,7 +58,7 @@ Por ejemplo, el siguiente comando crea una nueva directiva con el nombre "Employ
 PS C:\> New-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode Disabled
 ```
 
-En este ejemplo se muestra la actualización de una directiva existente con el nombre "EmployeeCortanaPolicy" y la habilitación de la asistencia de voz de Cortana en Microsoft Teams solo con invocación de botones de inserción. Los usuarios podrán invocar a Cortana seleccionando el botón del micrófono de Cortana en Teams. La invocación de Palabra de activación ("Hola Cortana" o "Cortana") se deshabilitará.
+En este ejemplo se muestra la actualización de una directiva existente con el nombre "EmployeeCortanaPolicy" y la habilitación de la asistencia de voz de Cortana en Microsoft Teams solo con invocación de botones de pulsar. Los usuarios podrán invocar a Cortana seleccionando el botón del micrófono de Cortana en Teams. La invocación de Palabra de activación ("Hola Cortana" o "Cortana") se deshabilitará.
 
 ```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode PushToTalkUserOverride
@@ -73,7 +74,7 @@ En el momento, de la versión inicial para los usuarios de Microsoft 365 Enterpr
 
 - La aplicación móvil de Teams no admite la activación de reactivar palabras, pero se admitirá en el futuro.
 
-- Salas de Microsoft Teams en dispositivos de pantalla de Windows y Microsoft Teams admitirá la activación de palabras de activación.
+- Salas de Microsoft Teams en Windows y Microsoft dispositivos de pantalla de Teams admitirán la activación de palabras de activación.
 
 ## <a name="user-control"></a>Control de usuario
 
@@ -98,7 +99,7 @@ En el nivel de dispositivo, puedes configurar Cortana para que se use de dos man
 - Pulsando en un micrófono, que se denomina _Pulsar en Cortana para hablar_
 - Diciendo "Hola Cortana", que se denomina Activación por _voz de Cortana_
 
-_Pulsar para hablar_ de Cortana está habilitado de manera predeterminada si su sala está configurada con cualquiera de los siguientes idiomas: en-au (Australia), en-ca (Canadá), en-gb (Reino Unido), en-in (India), en-us (Estados Unidos). [Aprende más.](/MicrosoftTeams/rooms/console#to-apply-your-desired-language) El icono de Cortana desplazará el botón _Presentar_ en el menú _Más..._ de la consola de la sala de Teams. Para deshabilitar _Pulsar para hablar de_ Cortana, usa PowerShell. [Aprende más.](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
+_Pulsar para hablar_ de Cortana está habilitado de manera predeterminada si su sala está configurada con cualquiera de los siguientes idiomas: en-au (Australia), en-ca (Canadá), en-gb (Reino Unido), en-in (India), en-us (Estados Unidos). [Aprende más.](/MicrosoftTeams/rooms/console#to-apply-your-desired-language) El icono de Cortana desplazará el botón _Presentar_ en el menú _Más..._ de la consola de la sala de Teams. Para deshabilitar _Pulsar para hablar de_ Cortana, usa PowerShell. [Aprende más.](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1&preserve-view=true)
 
 Para habilitar la _activación por voz_ de Cortana, deben cumplirse estas condiciones:
 

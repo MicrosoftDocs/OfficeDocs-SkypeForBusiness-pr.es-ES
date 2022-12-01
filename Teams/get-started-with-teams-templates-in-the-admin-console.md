@@ -14,19 +14,20 @@ ms.collection:
 - m365-frontline
 - tier2
 - highpri
-description: Obtenga más información sobre las plantillas de equipo y cómo administrarlas en el Centro de administración de Microsoft Teams.
+description: Obtenga más información sobre las plantillas de equipo y cómo administrarlas en el centro de administración de Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ca199dbe81b2636a895ca25386abf53f6277758
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: a92848867cfa10782fdbb2d465fdd44f59ab9f8d
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131339"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198482"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Introducción a las plantillas de equipo en el centro de administración de Teams
 
@@ -41,12 +42,12 @@ ms.locfileid: "69131339"
 
 Una plantilla de equipo en Microsoft Teams es una definición de la estructura de un equipo diseñada en torno a una necesidad empresarial o un proyecto. Como administrador, puede usar plantillas para implementar fácilmente equipos coherentes en toda la organización. Con las plantillas, los usuarios pueden crear rápidamente espacios de colaboración enriquecidos con configuraciones predefinidas, canales y aplicaciones.
 
-Puede administrar plantillas de equipo en el Centro de administración de Microsoft Teams o con PowerShell. Puede usar las plantillas predefinidas que proporcionamos y también puede [crear sus propias plantillas personalizadas](#create-your-own-team-templates). También puede [aplicar directivas de plantilla](#apply-team-template-policies) para controlar qué plantillas están disponibles para los usuarios en Teams.
+Puede administrar plantillas de equipo en el Microsoft centro de administración de Teams o mediante PowerShell. Puede usar las plantillas predefinidas que proporcionamos y también puede [crear sus propias plantillas personalizadas](#create-your-own-team-templates). También puede [aplicar directivas de plantilla](#apply-team-template-policies) para controlar qué plantillas están disponibles para los usuarios en Teams.
 
 En este artículo se ofrece información general sobre cómo trabajar con plantillas de equipo en el Centro de administración de Teams. Obtendrá información sobre las propiedades compatibles con las plantillas, las plantillas predefinidas que proporcionamos, los límites de tamaño de las plantillas, cómo crear y administrar plantillas y mucho más.
 
 > [!NOTE]
-> Los usuarios pueden [crear equipos a partir de plantillas de equipo predefinidas o personalizadas](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) en la aplicación Teams. Los desarrolladores también pueden crear equipos mediante programación a partir de plantillas de equipo predefinidas o personalizadas con Microsoft Graph. Para obtener más información, consulte [Introducción a las plantillas de equipo con Microsoft Graph](get-started-with-teams-templates.md).
+> Los usuarios pueden [crear equipos a partir de plantillas de equipo predefinidas o personalizadas](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) en la aplicación Teams. Los desarrolladores también pueden crear equipos mediante programación a partir de plantillas de equipo predefinidas o personalizadas con Microsoft Graph. Para obtener más información, vea [Introducción a las plantillas de equipo con Microsoft Graph](get-started-with-teams-templates.md).
 
 ## <a name="team-template-capabilities"></a>Capacidades de plantillas de equipo
 
@@ -64,7 +65,7 @@ La mayoría de las propiedades de un equipo se incluyen y son compatibles con la
 | Pestañas ancladas | |
 
 > [!NOTE]
-> Agregaremos más funcionalidades de plantilla en futuras versiones de Microsoft Teams, así que vuelva a comprobar la información más actualizada sobre las propiedades compatibles.
+> Agregaremos más funcionalidades de plantilla en futuras versiones de Microsoft Teams, así que vuelva a consultar la información más actualizada sobre las propiedades compatibles.
 
 ## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Plantillas de equipo predefinidas en el Centro de administración de Teams
 
@@ -73,7 +74,7 @@ Estas son las plantillas de equipo predefinidas que están disponibles en el Cen
 Puede duplicar plantillas predefinidas, pero no editarlas. Si desea cambiar las propiedades de una plantilla predefinida, puede crear una plantilla nueva a partir de una existente y, a continuación, agregar o quitar las propiedades que desee. Tenga en cuenta que algunas propiedades de algunas plantillas no se pueden cambiar.
 
 > [!NOTE]
-> Un asterisco (*) indica que la plantilla es una *plantilla conectada a Microsoft 365*. Cuando los usuarios crean un equipo con la plantilla, la plantilla de SharePoint conectada se aplica al sitio y al equipo. Los componentes de SharePoint, como páginas, listas e integraciones de Power Platform, se agregan y anclan automáticamente como pestañas al canal General del equipo. Los usuarios pueden editar estas páginas y listas directamente desde Teams.
+> Un asterisco (*) indica que la plantilla es una *plantilla conectada Microsoft 365*. Cuando los usuarios crean un equipo con la plantilla, la plantilla de SharePoint conectada se aplica al sitio y al equipo. Los componentes de SharePoint, como páginas, listas e integraciones de Power Platform, se agregan y anclan automáticamente como pestañas al canal General del equipo. Los usuarios pueden editar estas páginas y listas directamente desde Teams.
 >
 > Para obtener más información sobre las plantillas de SharePoint, vea [Aplicar y personalizar plantillas de sitio de SharePoint](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
 

@@ -8,7 +8,9 @@ ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
 description: Obtenga información acerca de los Estados de presencia en Teams y la configuración administrativa para la Característica de presencia.
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
 ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
@@ -17,12 +19,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b28dfccd79c99d633d56480963f06632cd758ae
-ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.openlocfilehash: 2f2969af142828ca5d478f29f2afee319ada91b7
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67283101"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198592"
 ---
 # <a name="user-presence-in-teams"></a>Presencia del usuario en Teams
 
@@ -47,11 +49,11 @@ La Presencia forma parte del perfil del usuario en Microsoft Teams (así como ta
 || ![Círculo rojo abierto indica Ocupado](media/Presence_Busy_OOF.png) En una llamada, fuera de la oficina|
 |  ![Círculo rojo con línea blanca indica No molestar](media/Presence_DND.png) No molestar ||
 || ![Círculo rojo con línea blanca indica Presentando](media/Presence_DND.png) Presentando|
-|| ![Círculo rojo con línea blanca indica Concentración.](media/Presence_DND.png) Concentración. El estado de concentración se produce cuando los usuarios programan el tiempo de concentración en MyAnalytics/Insights en sus calendarios.|
+|| ![Círculo rojo con línea blanca indica Concentración.](media/Presence_DND.png) Modo de concentración. El estado Concentrado se produce cuando los usuarios programan el tiempo de concentración en MyAnalytics/Insights en sus calendarios.|
 | ![Icono del reloj amarillo indica que está ausente.](media/Presence_Away.png) Ausente| ![Icono del reloj amarillo indica que está ausente.](media/Presence_Away.png) Ausente|
 || ![Icono del reloj amarillo, indica que está ausente](media/Presence_Away.png) Última vez visto ausente *hora*|
 |![Icono del reloj amarillo indica ausente, ahora vuelvo.](media/Presence_Away.png) Ahora vuelvo| |
-|![El círculo gris con una x indica Desconectado](media/Presence_Offline.png) Desconectado|![El círculo gris con una x indica Desconectado](media/Presence_Offline.png) Desconectado. Cuando los usuarios no tienen la sesión iniciada en ninguno de sus dispositivos durante unos minutos, aparecen como desconectados. |
+|![El círculo gris con una x indica Desconectado](media/Presence_Offline.png) Desconectado|![El círculo gris con una x indica Desconectado](media/Presence_Offline.png) Desconectado.  Cuando los usuarios no inician sesión en ninguno de sus dispositivos durante unos minutos, aparecen como desconectados. |
 || ![Un círculo gris abierto indica estado desconocido.](media/Presence_Unknown.png) Estado desconocido|
 || ![El círculo púrpura con una flecha indica Fuera de la oficina.](media/Presence_OOF.png) Fuera de la oficina. Fuera de la oficina se usa cuando se establece una respuesta automática. |
 

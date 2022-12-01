@@ -12,16 +12,17 @@ description: Obtenga información sobre cómo crear una plantilla de equipo pers
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b313df288488de22e99943120ffd0fd94d34210
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: c99fc2ebedac1372beff283ccbcf057c0bfdf78b
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675572"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198522"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Crear una plantilla de equipo personalizada en Microsoft Teams
 
@@ -38,7 +39,7 @@ Para empezar:
 
 1. Inicie la sesión en el Centro de administración de Teams
 
-2. En el panel de navegación izquierdo, expanda **las plantillas Teams** >  **Team**.
+2. En el panel de navegación izquierdo, expanda **Plantillas de equipo de** **Teams** > .
 
 3. Seleccione **Agregar**.
 
@@ -102,7 +103,7 @@ Para empezar:
 
 Actualmente estamos trabajando en una corrección para futuros equipos creados a partir de plantillas personalizadas.
 
-**Problema**: Al usar Teams en el explorador, algunos sitios web no admiten que se representen en una pestaña de Teams.
+**Problema**: Al usar Teams en el explorador, algunos sitios web no permiten que se representen en una pestaña de Teams.
 
 ![mensaje de error del explorador.](media/browser-error-message.png)
 
@@ -110,6 +111,6 @@ Actualmente estamos trabajando en una corrección para futuros equipos creados a
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Comenzar con plantillas de equipo en el centro de administración](get-started-with-teams-templates-in-the-admin-console.md)
+- [Introducción a las plantillas de equipo en el centro de administración](get-started-with-teams-templates-in-the-admin-console.md)
 - [Crear una plantilla a partir de un equipo existente](create-template-from-existing-team.md)
 - [Crear una plantilla de equipo a partir de una plantilla de equipo existente](create-template-from-existing-template.md)

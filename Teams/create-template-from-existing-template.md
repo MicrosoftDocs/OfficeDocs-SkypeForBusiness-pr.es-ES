@@ -1,5 +1,5 @@
 ---
-title: Crear una plantilla a partir de una plantilla de equipo existente en Microsoft Teams
+title: Crear una nueva plantilla a partir de una plantilla de equipo existente en Microsoft Teams
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -12,26 +12,27 @@ description: Aprenda a usar una plantilla de equipo existente para crear una pla
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cbfb516d07232d86782b8469956631d3b026300
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 45401bfba39121498fd7b0d581d10759448312d4
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675232"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198942"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>Crear una nueva plantilla de equipo a partir de una plantilla de equipo existente en Microsoft Teams
 
 **Las plantillas personalizadas aún no son compatibles con los clientes educativos.**
 
-Microsoft Teams proporciona plantillas predefinidas que se pueden guardar y modificar para satisfacer sus necesidades específicas de la organización.
+Microsoft Teams proporciona plantillas predefinidas que se pueden guardar y modificar para satisfacer sus necesidades organizativas específicas.
 
 1. Inicie la sesión en el Centro de administración de Teams
 
-2. En el panel de navegación izquierdo, expanda **las plantillas Teams** >  **Team**.
+2. En el panel de navegación izquierdo, expanda **Plantillas de equipo de** **Teams** > .
 
 3. En la sección **Plantillas de** equipo, seleccione junto a una plantilla de equipo que quiera duplicar para resaltarla.
 
@@ -75,6 +76,6 @@ Microsoft Teams proporciona plantillas predefinidas que se pueden guardar y modi
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-- [Comenzar con plantillas de equipo en el centro de administración](get-started-with-teams-templates-in-the-admin-console.md)
+- [Introducción a las plantillas de equipo en el centro de administración](get-started-with-teams-templates-in-the-admin-console.md)
 - [Crear una plantilla a partir de un equipo existente](create-template-from-existing-team.md)
 - [Crear una plantilla de equipo](create-a-team-template.md)

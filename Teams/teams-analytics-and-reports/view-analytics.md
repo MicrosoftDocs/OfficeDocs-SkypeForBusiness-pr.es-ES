@@ -14,14 +14,15 @@ search.appverid: MET150
 description: Obtenga más información sobre análisis entre equipos, análisis por equipo y análisis por canal en Teams, que permiten a los usuarios ver los datos de uso de equipos o canales de los que forman parte.
 appliesto:
 - Microsoft Teams
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 9755eca1c6f6f1afb57b615dfa7e96fd0cbefe64
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: a6092a39616d78f4b85cab79fa754c770797c262
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267395"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199092"
 ---
 # <a name="view-analytics-in-teams"></a>Ver análisis en Teams
 

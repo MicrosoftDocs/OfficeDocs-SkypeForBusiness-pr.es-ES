@@ -23,12 +23,12 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: Aprenda como administrar la configuración de las reuniones de Teams que los usuarios programan en su organización.
-ms.openlocfilehash: 3faff1779830539470ae3d04cc73e58da65a637c
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: e5cacfb81cf3bf1ef768051d2094b0a70af93927
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68583881"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198342"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de las reuniones en Microsoft Teams
 
@@ -55,7 +55,7 @@ Debe ser administrador de Teams para realizar estos cambios. Consulte [Usar los 
 
     ![Captura de pantalla de la configuración de los participantes para las reuniones en el centro de administración.](media/meeting-settings-participants.png "Captura de pantalla de la configuración de los participantes para las reuniones de Teams en el centro de administración de Microsoft Teams.")
 
-> [!CAUTION]
+> [!Important]
 > Si no desea que los usuarios anónimos se unan a las reuniones programadas por los usuarios de su organización, desactive esta opción.
 
 ### <a name="using-powershell-to-configure-per-organizer-policy"></a>Usar PowerShell para configurar la directiva por organizador
@@ -99,7 +99,7 @@ Debe ser un administrador de servicio de Teams para tener acceso a esta configur
 
 3. En **Participantes**, el ajuste de **Los usuarios anónimos pueden interactuar con las aplicaciones en las reuniones** se puede cambiar.
 
-> [!CAUTION]
+> [!Important]
 > Si no desea que usuarios anónimos se unan a las reuniones programadas por los usuarios en su organización, desactive esta opción.
 
 ## <a name="customize-meeting-invitations"></a>Personalice las invitaciones a reuniones
