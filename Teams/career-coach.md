@@ -1,7 +1,7 @@
 ---
-title: Introducción al Entrenador profesional de Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+title: Introducción a Entrenador profesional para Microsoft Teams
+author: DaniEASmith
+ms.author: danismith
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
@@ -15,18 +15,18 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f85e257e42abace7d39c9fa13fc81a7a76cd0c4f
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 149a23de49cacc0f7c345f2c9e1de4e29a4ba165
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023973"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242284"
 ---
-# <a name="get-started-with-career-coach-for-microsoft-teams"></a>Introducción al Entrenador profesional de Microsoft Teams
+# <a name="get-started-with-career-coach-for-microsoft-teams"></a>Introducción a Entrenador profesional para Microsoft Teams
 
-Entrenador profesional es una aplicación de Microsoft Teams para Educación con tecnología de LinkedIn que proporciona orientación personalizada para que los estudiantes de educación superior naveguen por su recorrido profesional. Con el Entrenador profesional, las instituciones educativas pueden ayudar a los estudiantes a descubrir su trayectoria profesional, aumentar las habilidades del mundo real y construir su red en un solo lugar.
+Entrenador profesional es una aplicación de Microsoft Teams para Educación con tecnología de LinkedIn que proporciona orientación personalizada para que los alumnos naveguen por su recorrido profesional. Con el Entrenador profesional, las instituciones educativas pueden ayudar a los estudiantes a descubrir su trayectoria profesional, aumentar las habilidades del mundo real y construir su red en un solo lugar.
 
-Este artículo es para administradores de TI de educación superior para empezar a configurar Entrenador profesional para su institución.
+Este artículo va dirigido a los administradores de TI del sector educativo para empezar a configurar el Entrenador profesional para su institución.
 
 Estos son recursos de Entrenador profesional para líderes educativos, educadores y estudiantes:
 
@@ -63,10 +63,10 @@ Revise los requisitos siguientes para configurar el Entrenador profesional para 
 
 ### <a name="data-and-files-from-your-educational-institution"></a>Datos y archivos de su institución educativa
 
-- Logotipo y activos gráficos de la institución educativa [en el formato requerido](career-coach-set-up-steps.md#brand-and-preferences).
-- Datos del catálogo del curso. [Ver formato de archivo](https://aka.ms/career-coach/docs/it-admins/sample-catalog) y [documento](career-coach-set-up-steps.md#course-catalog-document-format-and-schema) de ejemplo.
-- Lista de campos de estudio ofrecidos. [Ver archivo de ejemplo](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy).
-- Dirección URL de la [página de](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en) la escuela de LinkedIn de la institución educativa.
+- Dirección URL de la [página de la escuela de LinkedIn](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en) de la institución educativa (obligatorio).
+- Logotipo y activos gráficos de la institución educativa [en el formato necesario](career-coach-set-up-steps.md#brand-and-preferences-optional) (opcional).
+- Datos del catálogo del curso. [Ver formato de archivo](https://aka.ms/career-coach/docs/it-admins/sample-catalog) y [documento](career-coach-set-up-steps.md#course-catalog-document-format-and-schema) de ejemplo (opcional).
+- Lista de campos de estudio ofrecidos. [Ver archivo de ejemplo](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) (opcional).
 - Dirección URL de la política de privacidad de la institución educativa (opcional).
 - Vínculos de instituciones educativas a recursos relacionados con la carrera profesional, como un sitio web de servicios profesionales y publicaciones de trabajo de estudiantes (opcional).
 

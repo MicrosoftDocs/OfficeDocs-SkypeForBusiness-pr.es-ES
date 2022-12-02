@@ -27,21 +27,21 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo obtener y administrar números de teléfono de usuarios (suscriptores) y de servicio (de pago y gratuitos) para Microsoft Teams para su organización.
-ms.openlocfilehash: 699631d4408ebdf1ce9a3851651704539317644d
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 5356fc0f3cdfd42d6ef3f06eea58f6ef77d59b83
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68583861"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242444"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>Administrar números de teléfono para el plan de llamadas
 
 Hay cuatro formas de obtener números de teléfono de usuario (suscriptor) y de servicio (de pago y gratuitos) para el plan de llamadas:
 
-- [Obtener nuevos números de teléfono de usuario en el Centro de administración de Microsoft Teams](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users).
+- [Obtener nuevos números de teléfono de usuario en el Microsoft centro de administración de Teams](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users).
 - [Obtener nuevos números de teléfono de servicio en el Centro de Administración de Microsoft Teams](../getting-service-phone-numbers.md#get-new-service-numbers).
 - [Transfiere o _transfiere_ tus números de teléfono existentes con nosotros](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md#create-a-port-order-and-transfer-your-phone-numbers-to-teams).
-- Use un formulario de solicitud para números de teléfono nuevos que no se muestran en el Centro de administración de Microsoft Teams.
+- Use un formulario de solicitud para números de teléfono nuevos que no se muestran en el centro de administración de Microsoft Teams.
 
 > [!IMPORTANT]
 > Para números de teléfono nuevos en Australia, consulte [Servicios de voz Telstra](https://aka.ms/TelstraVoicePlan). Para los nuevos números de teléfono en Japón, consulte [SoftBank Voice Services](https://aka.ms/SoftBankVoicePlan).
@@ -70,6 +70,7 @@ Si sabe qué tipo de formularios está buscando, use la lista desplegable para s
 > - [Letonia](phone-number-management-for-latvia.md)
 > - [Lituania](phone-number-management-for-lithuania.md)
 > - [Luxemburgo](phone-number-management-for-luxembourg.md)
+> - [México](phone-number-management-for-mexico.md)
 > - [Nueva Zelanda](phone-number-management-for-new-zealand.md)
 > - [Noruega](phone-number-management-for-norway.md)
 > - [Polonia](phone-number-management-for-poland.md)
@@ -94,15 +95,15 @@ En las siguientes secciones se describen los formularios de solicitud de número
 
 ### <a name="request-forms-for-new-phone-numbers"></a>Formularios de solicitud para números de teléfono nuevos
 
-Cada país o región tiene instrucciones diferentes, diferentes tipos de números de teléfono (geográficos/no geográficos y de servicio (de pago/gratuitos)) y reglas/normativas para obtener números de teléfono para que se puedan usar en Microsoft Teams.
+Cada país o región tiene instrucciones diferentes, diferentes tipos de números de teléfono (geográficos/no geográficos y de servicio (pago/gratuito)) y reglas/normativas para obtener números de teléfono para que se puedan usar en Microsoft Teams.
 
-A veces (en función de su país o región) no podrá obtener números de teléfono de nuevos usuarios (suscriptores) o de servicio (de pago o gratuitos) mediante el Centro de administración de Microsoft Teams, o puede que necesite números de teléfono _específicos_ (solicitudes de asistencia) o códigos de área _específicos_ .
+A veces , en función de su país o región, no podrá obtener números de teléfono de nuevos usuarios (suscriptores) o de servicios (de pago o gratuitos) con el centro de administración de Microsoft Teams o puede que necesite números de teléfono _específicos_ (solicitudes de asistencia) o códigos de área _específicos_.
 
 Si es así, tendrás que descargar el formulario LOA de PDF correcto (por país o región y tipo de números de teléfono) y enviárnoslo. Nuestro servicio de asistencia lo llevará desde allí y comenzará a procesar su solicitud.
 
 ### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers"></a>Cartas de autorización (LOA) para transferir o transferir números de teléfono existentes 
 
-Si necesita transferir o transferir sus números de teléfono existentes desde otro proveedor de servicios a Teams, tendrá que descargar, rellenar y enviarnos una Carta de autorización (LOA). La LOA concede permiso a Microsoft para solicitar y transferir, en su nombre, los números existentes de otro proveedor de servicios a Teams.
+Si necesita transferir o transferir sus números de teléfono existentes desde otro proveedor de servicios a Teams, tendrá que descargar, rellenar y enviarnos una Carta de autorización (LOA). La LOA concede Microsoft permiso para solicitar y transferir, en su nombre, los números existentes de otro proveedor de servicios a Teams.
 
 Envíenos una **LOA** si actualmente tiene lo siguiente con otro transportista:
 
@@ -121,7 +122,7 @@ Si necesita ayuda, póngase [en contacto con el servicio de asistencia de TNS](.
 
 - Para ver _si_ y qué planes de llamada están disponibles en su país o región, lea [Disponibilidad de países y regiones para planes de llamada y audioconferencia](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - Para ayudarle a elegir el tipo correcto de números de teléfono, lea [Diferentes tipos de números de teléfono usados para planes de llamadas](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
-- Para obtener ayuda con la configuración de números de teléfono para su organización, lea: [Contacto de soporte técnico para productos empresariales Administración ayuda](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
+- Para obtener ayuda con la configuración de números de teléfono para su organización, lea: [Contacto de soporte técnico para productos empresariales Administración ayuda](/microsoft-365/admin/contact-support-for-business-products?tabs=online).
 
 ## <a name="related-topics"></a>Temas relacionados
 

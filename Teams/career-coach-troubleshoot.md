@@ -1,7 +1,7 @@
 ---
-title: Solucionar problemas del entrenador profesional de Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+title: Solucionar problemas del entrenador profesional para Microsoft Teams
+author: DaniEASmith
+ms.author: danismith
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
@@ -15,16 +15,16 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5ebda4324f7cc46d69b882a53684b21b4fa2932
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 4c00837c40fe405ab4d9d608326a12567843c8bb
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67024195"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242454"
 ---
-# <a name="troubleshoot-career-coach-for-microsoft-teams"></a>Solucionar problemas del entrenador profesional de Microsoft Teams
+# <a name="troubleshoot-career-coach-for-microsoft-teams"></a>Solucionar problemas del entrenador profesional para Microsoft Teams
 
-Este artículo es para administradores de TI de educación superior que necesitan solucionar problemas del Entrenador profesional para Microsoft Teams.
+Este artículo está dirigido a los administradores de TI del sector educativo que necesitan solucionar problemas del Entrenador profesional para Microsoft Teams.
 
 A continuación se muestran los problemas comunes y los pasos que los administradores de TI pueden seguir con el Entrenador profesional.
 
@@ -32,12 +32,7 @@ A continuación se muestran los problemas comunes y los pasos que los administra
 
 Si ve "Entrenador profesional se está configurando para que lo use pronto" en la experiencia del Entrenador profesional, **no se han agregado todos los datos de configuración necesarios**.
 
-Las siguientes **secciones deben completarse** antes de que se pueda usar el Entrenador profesional:
-
-- [Marca y preferencias](career-coach-set-up-steps.md#brand-and-preferences)
-- [Conexión de LinkedIn](career-coach-set-up-steps.md#linkedin-connection)
-- [Catálogo de cursos](career-coach-set-up-steps.md#course-catalog)
-- [Campos de estudio](career-coach-set-up-steps.md#fields-of-study)
+Su institución debe tener la [conexión de LinkedIn](career-coach-set-up-steps.md#linkedin-connection-required) totalmente configurada.
 
 Haga referencia al [estado de configuración del Entrenador](career-coach-set-up-steps.md#configuration-status) profesional para ver qué opciones deben completarse.
 
@@ -59,16 +54,16 @@ El envío se realiza correctamente cuando aparece un banner verde en la parte su
 
 ## <a name="setup-policy-changes-arent-complete"></a>No se han completado los cambios de la directiva de configuración
 
-Si el Entrenador profesional no se muestra en Microsoft Teams para los usuarios, es posible que los cambios en la directiva de configuración aún no se hayan aplicado. El Entrenador profesional no se instalará ni anclará para los usuarios en Microsoft Teams hasta que se apliquen los cambios en la directiva de configuración. Los cambios de directiva pueden tardar unas horas en surtir efecto.
+Si el Entrenador profesional no aparece en Microsoft Teams para los usuarios, es posible que los cambios en la directiva de configuración aún no se hayan aplicado. El Entrenador profesional no se instalará ni anclará para los usuarios de Microsoft Teams hasta que se apliquen los cambios en la directiva de configuración. Los cambios de directiva pueden tardar unas horas en surtir efecto.
 
 Sin embargo, el Entrenador profesional se puede instalar directamente desde la tienda de aplicaciones de Microsoft Teams.
 
-- Si los usuarios no pueden encontrar entrenador profesional en la tienda de aplicaciones de Microsoft Teams, revise las directivas de permisos de la aplicación y asegúrese de que el Entrenador profesional no sea una aplicación bloqueada.
-- Entrenador profesional es una aplicación de Microsoft y es recomendable permitir las aplicaciones de Microsoft por directivas de permisos. Obtenga más información sobre [cómo configurar directivas de permisos](teams-app-permission-policies.md).
+- Si los usuarios no pueden encontrar el Entrenador profesional en la tienda de aplicaciones de Microsoft Teams, revise las directivas de permisos de la aplicación y asegúrese de que el Entrenador profesional no sea una aplicación bloqueada.
+- Entrenador profesional es una aplicación de Microsoft y se recomienda permitir Microsoft aplicaciones mediante directivas de permisos. Obtenga más información sobre [cómo configurar directivas de permisos](teams-app-permission-policies.md).
 
 ## <a name="career-coach-initialization-isnt-complete"></a>La inicialización del Entrenador profesional no está completa
 
-Es posible que se produzca el siguiente error: "No podemos recuperar la configuración de la aplicación. Inténtelo de nuevo. Si sigues teniendo problemas, ponte en contacto con el servicio de atención al cliente de Microsoft".
+Es posible que se produzca el siguiente error: "No podemos recuperar la configuración de la aplicación. Inténtelo de nuevo. Si sigues teniendo problemas, ponte en contacto con Microsoft asistencia al cliente".
 
 Compruebe el **estado aprovisionamiento del servicio** en la [página de configuración de Entrenador profesional](career-coach-set-up-steps.md#career-coach-settings-status).
 

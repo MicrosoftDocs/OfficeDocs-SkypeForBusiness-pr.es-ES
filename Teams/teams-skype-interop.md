@@ -13,12 +13,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Obtenga información sobre las capacidades de interoperabilidad entre los usuarios de Teams de su organización y los usuarios de Skype (consumidores).
 ms.localizationpriority: medium
-ms.openlocfilehash: e8f6d102a3b66d5140473d0f2ab11b5af97fc78f
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 5cbb4bdf492de67131c75c97685317ef8cae866c
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198682"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242324"
 ---
 # <a name="teams-and-skype-interoperability"></a>Equipos y interoperabilidad de Skype
 
@@ -87,7 +87,7 @@ Si ha actualizado de Skype Empresarial a Teams, la configuración de comunicacio
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>En el centro de administración de Microsoft Teams
 
-En el Microsoft Centro de administración de Teams, vaya a **Usuarios** >  con **acceso externo** y active **Los usuarios pueden comunicarse con usuarios de Skype**. Para obtener instrucciones paso a paso sobre cómo configurar esta y otras opciones de acceso externo, consulte [Administrar el acceso externo en Teams](./manage-external-access.md#allow-or-block-domains).
+En el Microsoft Centro de administración de Teams, vaya a **Usuarios** >  con **acceso externo** y active **Los usuarios pueden comunicarse con usuarios de Skype**. Para obtener instrucciones paso a paso sobre cómo configurar esta y otras opciones de acceso externo, consulte [Administrar el acceso externo en Teams](./manage-external-access.md).
 
 ### <a name="using-powershell"></a>Con PowerShell
 

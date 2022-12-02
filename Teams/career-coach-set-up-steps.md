@@ -1,14 +1,14 @@
 ---
 title: Configurar entrenador profesional para Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Obtenga información sobre cómo configurar y hacer que el Entrenador profesional esté disponible para Microsoft Teams.
+description: Aprenda a configurar, configurar y hacer que el Entrenador profesional esté disponible para Microsoft Teams.
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
@@ -18,16 +18,16 @@ ms.custom:
 - admindeeplinkMAC
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f162b4dc15a2c0b776ba3c9c3b0df8ac0ed2ce87
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: e0edb6d1028a3e2143b13b24649745379b514592
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67024196"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242564"
 ---
 # <a name="set-up-and-configure-career-coach-for-microsoft-teams"></a>Configurar entrenador profesional para Microsoft Teams
 
-Este artículo es para administradores de TI de educación superior para aprender a configurar Entrenador profesional para Microsoft Teams.
+Este artículo va dirigido a los administradores de TI del sector educativo para aprender a configurar el Entrenador profesional para Microsoft Teams.
 
 Los pasos principales para configurar, configurar y publicar el Entrenador profesional son:
 
@@ -115,16 +115,16 @@ Para obtener más información, consulte [Conexiones de cuentas de LinkedIn en A
 > [!NOTE]
 > No se comparten datos sin el consentimiento del usuario.
 
-#### <a name="allow-microsoft-apps-in-teams"></a>Permitir aplicaciones de Microsoft en Teams
+#### <a name="allow-microsoft-apps-in-teams"></a>Permitir Microsoft aplicaciones en Teams
 
-El Entrenador profesional es una aplicación de Microsoft, por lo que debe estar permitido dentro de las directivas de permisos de la aplicación teams.
+Entrenador profesional es una aplicación Microsoft y, por lo tanto, debe estar permitida dentro de las directivas de permisos de la aplicación teams.
 
 1. Inicie sesión en el **[Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
 
 2. En el panel de navegación izquierdo, seleccione **Directivas****[de permisos](https://admin.teams.microsoft.com/policies/manage-apps)** de aplicaciones  >  de Teams.
 
 3. Seleccione la directiva que prefiera.
-    1. Si no está seguro de qué directiva usar, consulte la documentación  de administración de directivas de [Microsoft Teams](policy-packages-edu.md)o use el [Asistente para](easy-policy-setup-edu.md) directivas de educación para configurar una directiva para Microsoft Teams.
+    1. Si no está seguro de qué directiva usar, consulte la  [Microsoft documentación](policy-packages-edu.md) de administración de directivas de Teams o use el [Asistente para](easy-policy-setup-edu.md) directivas de educación para configurar una directiva para Microsoft Teams.
 
 Obtenga más información sobre [cómo configurar directivas de permisos](teams-app-permission-policies.md).
 
@@ -135,11 +135,11 @@ Este paso garantiza que el Entrenador profesional esté correctamente configurad
 1. Inicie sesión en el [Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 
 2. Seleccione **Directivas** **de configuración de** aplicaciones  > de Teams y seleccione la directiva que prefiera.
-    1. Si no está seguro de qué directiva usar, consulte la documentación  de administración de directivas de [Microsoft Teams](policy-packages-edu.md)o use el [Asistente para](easy-policy-setup-edu.md) directivas de educación para configurar una directiva para Microsoft Teams.
+    1. Si no está seguro de qué directiva usar, consulte la  [Microsoft documentación](policy-packages-edu.md) de administración de directivas de Teams o use el [Asistente para](easy-policy-setup-edu.md) directivas de educación para configurar una directiva para Microsoft Teams.
 
 3. En **Aplicaciones instaladas**, selecciona  **+ Agregar aplicaciones**.
 
-4. En el panel **Agregar aplicaciones instaladas** , busque las aplicaciones que desea instalar automáticamente para los usuarios cuando inicien Teams. También puede filtrar aplicaciones por directiva de permisos de aplicaciones.
+4. En el panel **Agregar aplicaciones instaladas** , busque las aplicaciones que desea instalar automáticamente para los usuarios cuando inicien Teams. También puede filtrar las aplicaciones por directiva de permisos de aplicaciones.
 
 5. Cuando hayas elegido la lista de aplicaciones, selecciona **Agregar**.
 
@@ -161,9 +161,9 @@ Hay dos tipos de licencia disponibles.
 
 #### <a name="purchase-licenses"></a>Comprar licencias
 
-Entrenador profesional está disponible en todo el mundo (excepto China y Rusia) para instituciones de educación superior cualificadas como una licencia complementaria a través de inscripción para soluciones educativas (EES), proveedores de servicios en la nube (CSP) y Centro de administración de Microsoft 365 (web directo).
+Entrenador profesional está disponible en todo el mundo (excepto China y Rusia) para instituciones educativas cualificadas como una licencia complementaria a través de inscripción para soluciones educativas (EES), proveedores de servicios en la nube (CSP) y Centro de administración de Microsoft 365 (web directo).
 
-Como aplicación de Microsoft Teams, el inquilino debe tener Microsoft 365 A3/A5 o Office 365 A1/A3/A5 para comprar la licencia de Entrenador profesional adicional. Se ofrecen licencias independientes para estudiantes y usuarios de profesores.
+Como una aplicación de Teams Microsoft, el inquilino debe tener Microsoft 365 A3/A5 o Office 365 A1/A3/A5 para comprar la licencia de Entrenador profesional adicional. Se ofrecen licencias independientes para estudiantes y usuarios de profesores.
 
 #### <a name="sign-up-for-a-free-trial"></a>Registrarse para obtener una prueba gratuita
 
@@ -191,53 +191,15 @@ Para configurar las opciones del Entrenador profesional y permitirla para los us
 
 ### <a name="step-4-configure-career-coach-settings"></a>Paso 4: Configurar las opciones de Entrenador profesional
 
-Para configurar el Entrenador profesional para estudiantes, profesores y personal, se requieren las siguientes opciones de configuración.
+Las siguientes opciones de entrenador profesional se pueden configurar para estudiantes, profesores y personal.
 
-- [Marca y preferencias](#brand-and-preferences)
-- [Conexión de LinkedIn](#linkedin-connection)
-- [Catálogo de cursos](#course-catalog)
-- [Campos de estudio](#fields-of-study)
+- [Conexión de LinkedIn](#linkedin-connection-required) (necesaria)
+- [Marca y preferencias](#brand-and-preferences-optional) (opcional)
+- [Catálogo de cursos](#course-catalog-optional) (opcional)
+- [Campos de estudio](#fields-of-study-optional) (opcional)
+- [Opciones de personalización](#customization-options-optional) (opcional)
 
-También puede establecer opciones de [personalización](#customization-options) opcionales.
-
-#### <a name="brand-and-preferences"></a>Marca y preferencias
-
-Personalice entrenador profesional para que coincida con la marca de su institución educativa. Usted es responsable de respetar los derechos de otros, incluidos los derechos de autor y marca comercial.
-
-> [!IMPORTANT]
-> Esta es una sección obligatoria. El Entrenador profesional no se puede activar sin enviar **la marca y las preferencias** .
-
-1. Inicie sesión en el **[Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
-
-2. Seleccione **Aplicaciones** >  de Teams **Administrar aplicaciones** > **Configuración del** > **entrenador** >  profesional **Editar marca y preferencias**.
-
-3. En **Personalización de marca**, agregue **Nombre de la organización**.
-
-4. Cargue el **icono Organización**. El icono se usa en todo el Entrenador profesional para identificar contenido exclusivo de su institución educativa, recursos del catálogo de cursos en toda la aplicación y en la sección de experiencias del mundo real del panel.
-
-    El icono tiene el siguiente formato:
-
-    - Png transparente
-    - Relación de aspecto de 1:1
-    - Tamaño máximo de 64 px x 64 px
-
-5. Cargue la **imagen en miniatura del contenido de aprendizaje**. La miniatura se usará para los recursos de aprendizaje del catálogo de cursos en toda la aplicación cuando no se especifique una imagen específica para un curso ofrecido por su institución educativa.
-
-    El formato de la miniatura es el siguiente:
-
-    - UN ARCHIVO PNG
-    - Relación de aspecto de 16:9
-    - Tamaño máximo de 360 px x 200 px
-
-6. Este paso es opcional. Agregue la **dirección URL de la directiva de privacidad de la organización**. Si se agrega, la directiva de privacidad de la institución estará disponible para que los alumnos la revisen en el Entrenador profesional.
-
-7. Selecciona **Enviar**.
-
-8. Para confirmar que la configuración se ha enviado correctamente, compruebe [el estado de configuración del Entrenador](#configuration-status) profesional para **Completar**.
-
-![Captura de pantalla que muestra la sección de personalización de marca de Entrenador profesional del centro de administración.](media/career-coach-brand-updated.png)
-
-#### <a name="linkedin-connection"></a>Conexión de LinkedIn
+#### <a name="linkedin-connection-required"></a>Conexión de LinkedIn (necesaria)
 
 La configuración de conexión de LinkedIn conecta al Entrenador profesional con datos de antiguos alumnos públicos de la página de la escuela de LinkedIn de su institución.
 
@@ -245,6 +207,8 @@ Este paso solo se puede completar si [las conexiones de la cuenta de LinkedIn es
 
 > [!IMPORTANT]
 > Esta es una sección obligatoria. El Entrenador profesional no se puede activar sin la conexión de la página educativa de LinkedIn verificada.
+>
+> La conexión de LinkedIn admite varios espacios empresariales.
 
 ##### <a name="add-the-linkedin-school-page-url"></a>Agregar la dirección URL de la página educativa de LinkedIn
 
@@ -282,7 +246,7 @@ Puede comprobar los roles de administrador de su cuenta de LinkedIn iniciando se
 
 1. Después de que el administrador de Teams envíe la **dirección URL de la página educativa de LinkedIn** , la página mostrará el **vínculo de verificación** y la **expiración del vínculo de verificación**. El vínculo de verificación expira después de 30 días.
 
-   ![Screnshot que muestra las conexiones de LinkedIn para la aplicación entrenador profesional.](media/career-coach-linkedin-updated.png)  
+   ![Captura de pantalla que muestra las conexiones de LinkedIn para la aplicación entrenador profesional.](media/career-coach-linkedin-updated.png)  
 
 2. Copie el vínculo de verificación y compártalo con su superadministrador de la página educativa de LinkedIn.
 
@@ -292,14 +256,45 @@ Puede comprobar los roles de administrador de su cuenta de LinkedIn iniciando se
 
    ![Captura de pantalla que muestra la verificación de la página de LinkedIn en el portal de desarrolladores de LinkedIn.](media/career-coach-linkedin-verification-updated.png)
 
-#### <a name="course-catalog"></a>Catálogo de cursos
+#### <a name="brand-and-preferences-optional"></a>Marca y preferencias (opcional)
+
+Personalice entrenador profesional para que coincida con la marca de su institución educativa. Usted es responsable de respetar los derechos de otros, incluidos los derechos de autor y marca comercial.
+
+1. Inicie sesión en el **[Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
+
+2. Seleccione **Aplicaciones** >  de Teams **Administrar aplicaciones** > **Configuración del** > **entrenador** >  profesional **Editar marca y preferencias**.
+
+3. En **Personalización de marca**, agregue **Nombre de la organización**.
+
+4. Cargue el **icono Organización**. El icono se usa en todo el Entrenador profesional para identificar contenido exclusivo de su institución educativa, recursos del catálogo de cursos en toda la aplicación y en la sección de experiencias del mundo real del panel.
+
+    El icono tiene el siguiente formato:
+
+    - Png transparente
+    - Relación de aspecto de 1:1
+    - Tamaño máximo de 64 px x 64 px
+
+5. Cargue la **imagen en miniatura del contenido de aprendizaje**. La miniatura se usará para los recursos de aprendizaje del catálogo de cursos en toda la aplicación cuando no se especifique una imagen específica para un curso ofrecido por su institución educativa.
+
+    El formato de la miniatura es el siguiente:
+
+    - UN ARCHIVO PNG
+    - Relación de aspecto de 16:9
+    - Tamaño máximo de 360 px x 200 px
+
+6. Este paso es opcional. Agregue la **dirección URL de la directiva de privacidad de la organización**. Si se agrega, la directiva de privacidad de la institución estará disponible para que los alumnos la revisen en el Entrenador profesional.
+
+7. Selecciona **Enviar**.
+
+8. Para confirmar que la configuración se ha enviado correctamente, compruebe [el estado de configuración del Entrenador](#configuration-status) profesional para **Completar**.
+
+![Captura de pantalla que muestra la sección de personalización de marca de Entrenador profesional del centro de administración.](media/career-coach-brand-updated.png)
+
+#### <a name="course-catalog-optional"></a>Catálogo de cursos (opcional)
 
 El catálogo de cursos registra los cursos y clases ofrecidos por su institución educativa.
 
 El Entrenador profesional usa los datos del catálogo de cursos para identificar las aptitudes de un alumno a partir de su transcripción y para sugerir cursos que realizar.
-
-> [!IMPORTANT]
-> Esta es una sección obligatoria. El Entrenador profesional no se puede activar sin un catálogo de cursos.
 
 Estos cursos se usan dentro del Entrenador profesional en dos áreas:
 
@@ -329,7 +324,7 @@ Comience con el documento del catálogo  del [curso de ejemplo](https://aka.
 
 7. Para confirmar que la configuración se ha enviado correctamente, compruebe que el [estado de la configuración del Entrenador profesional](#configuration-status) está marcado como **Completado**.
 
-Para cargar un nuevo archivo, asegúrese de que el último archivo está desactivado seleccionando (X) para cerrar la vista previa del documento. Esta acción permitirá que el botón **Cargar** se vuelva a mostrar.
+Para cargar un nuevo archivo, asegúrese de que el último archivo está desactivado seleccionando (**X**) para cerrar la vista previa del documento. Esta acción permitirá que el botón **Cargar** se vuelva a mostrar.
 
 ![Captura de pantalla que muestra la sección del catálogo del curso de la aplicación entrenador profesional.](media/course-catalog-updated.png)
 
@@ -377,16 +372,14 @@ Durante el procesamiento, el Entrenador profesional analizará el documento en b
 
 Si una columna del estado del catálogo del curso está en blanco, el documento se está procesando y esos valores no están disponibles. Este proceso puede tardar hasta 6 horas en función del tamaño del catálogo. Una vez procesado el documento, los valores se rellenarán. Puedes actualizar la página para buscar actualizaciones.
 
-#### <a name="fields-of-study"></a>Campos de estudio
+#### <a name="fields-of-study-optional"></a>Campos de estudio (opcional)
 
 Los campos de estudio son sinónimos de las principales áreas de interés, asignaturas principales y programas de grado. Estos campos de estudio son referenciados por los estudiantes cuando empiezan a usar el Entrenador profesional y comienzan a configurar su perfil personalizado.
 
 La lista de campos permite a los estudiantes descubrir campos de estudio que puedan interesarles y agregar su enfoque académico planeado a su perfil en Entrenador profesional.
 
 > [!IMPORTANT]
-> Esta es una sección obligatoria. El Entrenador profesional no se puede activar sin una lista de campos de estudio.
->
-> Agregue todos los campos de estudio disponibles para los alumnos, como Ingeniería, Inglés, Empresa, etc.
+> Si está configurando campos de estudio para entrenador profesional, agregue todos los campos de estudio disponibles para los alumnos, como Ingeniería, Inglés, Empresa, etc.
 
 ##### <a name="add-the-fields-of-study"></a>Agregar los campos de estudio
 
@@ -410,7 +403,7 @@ La tabla siguiente muestra los elementos que se incluirán en los campos de estu
 |---------------|----------|--------|--------------------------------|
 | camposOfStudy | Obligatorio | Cadena | El nombre del campo de estudio |
 
-#### <a name="customization-options"></a>Opciones de personalización
+#### <a name="customization-options-optional"></a>Opciones de personalización (opcional)
 
 La configuración de personalización permite agregar oportunidades para obtener experiencias del mundo real en el panel que su institución educativa ofrece a los alumnos.
 
@@ -444,20 +437,20 @@ La sección de estado de configuración de la página de configuración de la ap
 | --------------------------- | --------------------------------------------- | ----------------------------------------------------------- |
 | Estado del aprovisionamiento del servicio | El Entrenador profesional está inicializando su inquilino.     | El aprovisionamiento del servicio se realiza automáticamente al acceder a la página de configuración de Entrenador profesional. Los cambios de configuración no se aceptarán hasta que se complete la configuración inicial. El tiempo estimado para el aprovisionamiento del servicio es de hasta 15 minutos. |
 | Estado del aprovisionamiento del servicio | El Entrenador profesional está listo para configurarse.       | La página de configuración del Entrenador profesional está lista para que el administrador de TI envíe la configuración. |
-| Marca y preferencias       | No iniciado                                   | Es necesario enviar la configuración. |
-| Marca y preferencias       | Falta: icono aprendizaje                        | Cargue la imagen en miniatura del contenido de aprendizaje que falta. |
-| Marca y preferencias       | Falta: logotipo                                 | Cargue el icono de institución que falta. |
-| Marca y preferencias       | Falta: nombre de la institución                     | Cargue el nombre de la institución que falta. |
-| Marca y preferencias       | Íntegro                                      | No es necesario realizar ninguna acción adicional. La configuración está completa. |
-| Carga del catálogo de cursos       | No iniciado                                   | El CSV del catálogo de cursos debe enviarse. |
+| Marca y preferencias       | No iniciado                                   | Configuración no enviada. Este paso es opcional y no impedirá completar la configuración. |
+| Marca y preferencias       | Falta: icono aprendizaje                        | Cargar una imagen en miniatura de contenido de aprendizaje. |
+| Marca y preferencias       | Falta: logotipo                                 | Cargar un icono de institución. |
+| Marca y preferencias       | Falta: nombre de la institución                     | Cargue el nombre de una institución. |
+| Marca y preferencias       | Íntegro                                      | La configuración está completa. |
+| Carga del catálogo de cursos       | No iniciado                                   | Catálogo del curso no enviado. Este paso es opcional y no impedirá completar la configuración. |
 | Carga del catálogo de cursos       | Falta: carga correcta del catálogo del curso   | Compruebe el estado del catálogo del curso para obtener más información sobre el procesamiento del catálogo del curso. |
-| Carga del catálogo de cursos       | Íntegro                                      | No es necesario realizar ninguna acción adicional. La configuración está completa. |
-| Conexión educativa de LinkedIn  | No iniciado                                   | Es necesario enviar la dirección URL de la página educativa de LinkedIn. |
+| Carga del catálogo de cursos       | Íntegro                                      | La configuración está completa. |
+| Conexión educativa de LinkedIn  | No iniciado                                   | Dirección URL de la página educativa de LinkedIn no enviada. |
 | Conexión educativa de LinkedIn  | Falta: dirección URL de una página educativa de LinkedIn aprobada | Esperando la aprobación de la comprobación del superadministrador de la página de LinkedIn School. |
 | Conexión educativa de LinkedIn  | Íntegro                                      | No es necesario realizar ninguna acción adicional. La configuración está completa. |
-| Campos de carga del estudio      | No iniciado                                   | El csv de campo de estudio debe enviarse. |
+| Campos de carga del estudio      | No iniciado                                   | Campo de estudio CSV no enviado. Este paso es opcional y no impedirá completar la configuración. |
 | Campos de carga del estudio      | Falta: áreas de interés                    | Compruebe si el campo de carga del estudio es correcto. |
-| Campos de carga del estudio      | Íntegro                                      | No es necesario realizar ninguna acción adicional. La configuración está completa. |
+| Campos de carga del estudio      | Íntegro                                      | La configuración está completa. |
 
 Una vez que todos los pasos necesarios se marquen como completados, el Entrenador profesional se puede liberar correctamente a su inquilino.
 
@@ -473,7 +466,7 @@ Para obtener instrucciones detalladas, consulte [Asignar licencias a usuarios]
 
 ### <a name="set-up-policies-and-pin-the-app"></a>Configurar directivas y anclar la aplicación
 
-Anclar entrenador profesional lo agregará a la barra izquierda de la ventana de Microsoft Teams para que sea más accesible y visible para los alumnos. Si prefiere anclar entrenador profesional para un subconjunto de los usuarios, tendrá que implementar una [directiva de configuración](teams-app-setup-policies.md) con ese grupo incluido.
+Anclar entrenador profesional lo agregará a la barra izquierda de la ventana Microsoft Teams para que sea más accesible y visible para los alumnos. Si prefiere anclar entrenador profesional para un subconjunto de los usuarios, tendrá que implementar una [directiva de configuración](teams-app-setup-policies.md) con ese grupo incluido.
 
 1. Inicie sesión en el **[Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
 

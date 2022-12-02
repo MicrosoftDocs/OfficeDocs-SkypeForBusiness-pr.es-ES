@@ -23,15 +23,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-description: Obtenga información sobre cómo configurar colas de llamadas en Microsoft Teams. Las colas de llamadas proporcionan un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 84dd975e93340f6b5985e8239e7bf78f051debbc
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+description: Configure las colas de llamadas en Microsoft Teams. Las colas de llamadas proporcionan un mensaje de saludo, música en espera, redirección de llamadas y otras características.
+ms.openlocfilehash: 8f997c36d8b1103e9f811bcff750749367c6f492
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890079"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242304"
 ---
-# <a name="create-a-call-queue"></a>Crear una cola de llamada
+# <a name="create-a-call-queue-in-microsoft-teams"></a>Crear una cola de llamadas en Microsoft Teams
 
 Las colas de llamadas redirigen a los autores de llamadas a personas de su organización que pueden ayudarles con un problema o pregunta concretos. Las llamadas se distribuyen de una en una a los usuarios de la cola, que se conocen como *agentes*.
 
@@ -131,8 +131,8 @@ Si no tiene una cuenta de recursos con un número de teléfono asignado:
 Después de crear esta nueva cuenta de recurso para el identificador de llamada, seguirá necesitando lo siguiente:
 
 - Asignar una [licencia de cuenta de recursos telefónicos de Teams](manage-resource-accounts.md#assign-a-license)
-- Asignar una licencia de Plan de llamadas de Microsoft, asignar un número de teléfono Conectar operador o asignar una directiva de enrutamiento de voz en línea para direct routing
-- Asignar el [número de teléfono de servicio a la cuenta de recursos](manage-resource-accounts.md#assign-a-service-number), si usa Microsoft Calling Plan
+- Asignar una licencia del plan de llamadas de Microsoft, asignar un número de teléfono De conexión de operador o asignar una directiva de enrutamiento de voz en línea para enrutamiento directo
+- Asignar el [número de teléfono de servicio a la cuenta de recursos](manage-resource-accounts.md#assign-a-service-number), si usa Microsoft Plan de llamadas
 
 ### <a name="set-the-call-queue-language"></a>Establecer el idioma de la cola de llamadas
 
@@ -160,7 +160,7 @@ Teams proporciona música predeterminada a los autores de llamadas mientras est�
 - Si desea reproducir un archivo de audio específico, elija **Reproducir un archivo de audio en** y cargar un archivo MP3, WAV o WMA.
 
 > [!NOTE]
-> Usted es responsable de borrar y proteger de forma independiente todos los derechos y permisos necesarios para usar cualquier archivo de música o audio con su servicio de Microsoft Teams, que puede incluir propiedad intelectual y otros derechos en cualquier música, efectos de sonido, audio, marcas, nombres y otro contenido en el archivo de audio de todos los titulares de derechos pertinentes, que pueden incluir artistas,  actores, artistas intérpretes o ejecutantes, músicos, compositores, compositores, sellos discográficos, editores musicales, sindicatos, sindicatos, sociedades de derechos, organizaciones de gestión colectiva y cualquier otra parte que posea, controle o licencia los derechos de autor de música, efectos sonoros, audio y otros derechos de propiedad intelectual.
+> Usted es responsable de borrar y proteger de forma independiente todos los derechos y permisos necesarios para usar cualquier archivo de música o audio con su servicio Microsoft Teams, que puede incluir la propiedad intelectual y otros derechos en cualquier música, efectos de sonido, audio, marcas, nombres y otro contenido en el archivo de audio de todos los titulares de derechos pertinentes, que pueden incluir artistas,  actores, artistas intérpretes o ejecutantes, músicos, compositores, compositores, sellos discográficos, editores musicales, sindicatos, sindicatos, sociedades de derechos, organizaciones de gestión colectiva y cualquier otra parte que posea, controle o licencia los derechos de autor de música, efectos sonoros, audio y otros derechos de propiedad intelectual.
 
 Una vez que haya seleccionado un saludo y música en espera, seleccione el botón **Siguiente** en la parte inferior de la página **Agregar una cola de llamadas** .
 
@@ -182,7 +182,7 @@ Si desea [usar un canal de Teams para administrar la cola](https://support.micro
 
 Los siguientes clientes son compatibles al usar un canal de Teams para colas de llamadas:
 
-- Cliente de Windows de Microsoft Teams
+- cliente de Windows de Microsoft Teams
 - Cliente de Microsoft Teams para Mac
 
 > [!NOTE]
@@ -390,8 +390,8 @@ Se recomienda la siguiente configuración:
 
 #### <a name="notes"></a>Notas
 
-1. Cliente de Microsoft Teams windows, cliente de Microsoft Teams para Mac, Microsoft Teams en infraestructura de escritorio virtualizada.
-2. Aplicación de Microsoft Teams para iPhone, aplicación de Microsoft Teams para Android.
+1. Microsoft el cliente windows de Teams, Microsoft el cliente mac de Teams Microsoft Teams en la infraestructura de escritorio virtualizada.
+2. Microsoft aplicación Teams para iPhone, Microsoft la aplicación Teams para Android.
 3. Si selecciona Longest Idle para el método de enrutamiento del agente, se habilitará automáticamente el enrutamiento basado en presencia.
 4. No es posible establecer el orden en el que se llamará a los agentes.
 5. El modo de conferencia no es compatible si las llamadas de teléfono se redirigen a la cola desde una puerta de enlace de enrutamiento directo habilitada para el enrutamiento basado en ubicación.
