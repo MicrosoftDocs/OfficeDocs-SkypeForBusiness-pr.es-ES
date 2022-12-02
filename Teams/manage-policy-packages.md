@@ -1,5 +1,5 @@
 ---
-title: Administrar paquetes de directivas en Microsoft Teams
+title: Administrar los paquetes de directivas para Teams
 ms.author: mabond
 author: mkbond007
 manager: serdars
@@ -20,14 +20,14 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar, administrar y personalizar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: f91fdcdecb66fbc08b8ce75563f6034594fd448c
-ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
+ms.openlocfilehash: 138b1cada469a71cf844c8a73b1cb12511fc68b2
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/19/2022
-ms.locfileid: "69128269"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245643"
 ---
-# <a name="manage-policy-packages-for-microsoft-teams"></a>Administrar paquetes de directivas para Microsoft Teams
+# <a name="managing-policy-packages-in-teams"></a>Administrar paquetes de directivas en Teams
 
 Un paquete de directivas en Microsoft Teams es una colección de directivas y configuraciones de directiva predefinidas que puede asignar a los usuarios que tienen roles similares en la organización. Hemos creado paquetes de directivas para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios de toda la organización.  
 
@@ -35,7 +35,7 @@ Puede usar los [paquetes de directivas incluidos en Teams](#policy-packages-incl
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Captura de pantalla de la página Paquetes de directivas en el centro de administración." lightbox="media/policy-packages-admin-center.png":::
 
-Puede personalizar la configuración de las directivas de un paquete de directivas para adaptarla a las necesidades de los usuarios. Al cambiar la configuración de las directivas de un paquete, todos los usuarios asignados a ese paquete obtienen la configuración actualizada. Puede administrar paquetes de directivas mediante el Centro de administración de Microsoft Teams o PowerShell.
+Puede personalizar la configuración de las directivas de un paquete de directivas para adaptarla a las necesidades de los usuarios. Al cambiar la configuración de las directivas de un paquete, todos los usuarios asignados a ese paquete obtienen la configuración actualizada. Para administrar los paquetes de directivas, use el centro de administración de Microsoft Teams o PowerShell.
 
 ## <a name="what-is-a-policy-package"></a>¿Qué es un paquete de directivas?
 
@@ -87,7 +87,7 @@ Los paquetes de directivas personalizadas le permiten agrupar su propio conjunto
 
 Para crear un nuevo paquete de directivas personalizado:
 
-1. En el panel izquierdo del Centro de administración de Microsoft Teams, seleccione **Paquetes de directivas** y, a continuación, haga clic en **Agregar**.
+1. En el panel izquierdo del Microsoft centro de administración de Teams, seleccione **Paquetes de** directivas y, a continuación, haga clic en **Agregar**.
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="Captura de pantalla del botón Agregar en la página Paquetes de directivas del centro de administración." lightbox="media/policy-packages-add.png":::
 
@@ -116,19 +116,19 @@ En los siguientes esquemas se describe cómo usar paquetes de directivas en su o
 > [!NOTE]
 > También puede cambiar la configuración de las directivas de un paquete de directivas después de asignar un paquete. Los cambios que realice en la configuración de directivas se aplican automáticamente a los usuarios a los que se les asigna el paquete.
 
-Estos son los pasos para ver, asignar y personalizar paquetes de directivas en el Centro de administración de Microsoft Teams.
+Estos son los pasos para ver, asignar y personalizar paquetes de directivas en el centro de administración de Microsoft Teams.
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>Ver la configuración de una directiva en un paquete de directivas
 
-1. En el panel izquierdo del Centro de administración de Microsoft Teams, selecciona **Paquetes de** directivas y, a continuación, selecciona un paquete de directiva haciendo clic a la izquierda del nombre del paquete.
+1. En el panel izquierdo del Microsoft centro de administración de Teams, selecciona **Paquetes** de directivas y, a continuación, selecciona un paquete de directivas haciendo clic a la izquierda del nombre del paquete.
 
 2. Seleccione la directiva que quiera ver.
 
 ### <a name="customize-policies-in-a-policy-package"></a>Personalizar directivas en un paquete de directivas
 
-Puede editar la configuración de una directiva a través de la página **Paquetes** de directivas o yendo directamente a la página de directivas del Centro de administración de Microsoft Teams.
+Puede editar la configuración de una directiva a través de la página **Paquetes** de directivas o yendo directamente a la página de directivas del centro de administración de Microsoft Teams.
 
-1. En el panel izquierdo del Centro de administración de Microsoft Teams, siga uno de estos procedimientos:
+1. En el panel izquierdo del Microsoft centro de administración de Teams, siga uno de estos procedimientos:
     - Selecciona **Paquetes de** directivas y, a continuación, selecciona el paquete de directivas haciendo clic a la izquierda del nombre del paquete.
     - Seleccione el tipo de directiva.  Por ejemplo, haga clic en **Directivas de mensajería**.
 

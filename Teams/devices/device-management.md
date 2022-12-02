@@ -1,5 +1,5 @@
 ---
-title: Administrar sus dispositivos en Microsoft Teams
+title: Administrar dispositivos en Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,25 +16,25 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.managedevices.overview
 - ms.teamsadmincenter.devicemanagement.overview
-description: Obtenga información sobre cómo administrar los dispositivos que se usan con Teams en su organización.
+description: Administre los dispositivos que se usan con Microsoft Teams en su organización.
 ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dc65025ed255dff1685f7aa30a555facdd3f11c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b34d554c0930efa622e60a695203e5fa35bd48ab
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270845"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245662"
 ---
-# <a name="microsoft-teams-managing-your-devices"></a>Microsoft Teams: Administrar los dispositivos 
+# <a name="manage-devices-in-teams"></a>Administrar dispositivos en Teams 
 
-Puede administrar los dispositivos que se usan con Microsoft Teams en su organización desde el Centro de administración de Microsoft Teams. Puedes ver y administrar el inventario de dispositivos de tu organización y realizar tareas como actualizar, reiniciar y supervisar los diagnósticos de dispositivos. También puede crear y asignar perfiles de configuración a un dispositivo o grupos de dispositivos.
+Puede administrar los dispositivos que se usan con Microsoft Teams en su organización desde el centro de administración de Microsoft Teams. Puedes ver y administrar el inventario de dispositivos de tu organización y realizar tareas como actualizar, reiniciar y supervisar los diagnósticos de dispositivos. También puede crear y asignar perfiles de configuración a un dispositivo o grupos de dispositivos.
 
 Para administrar dispositivos, como cambiar la configuración del dispositivo, reiniciar dispositivos, administrar actualizaciones o ver el estado de los dispositivos y periféricos, debes tener asignado uno de los siguientes roles de administrador de Microsoft 365:
 
-- Administrador global de Microsoft 365
+- administrador global de Microsoft 365
 - Administrador del servicio de Teams
 - Administrador de dispositivos de Teams
 
@@ -50,13 +50,13 @@ Puede administrar cualquier dispositivo certificado para Teams e inscrito. Un di
 - [Teams muestra](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Paneles de Teams](teams-panels.md)
 
-Para administrar dispositivos, en el panel de navegación izquierdo del [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com), vaya a **Dispositivos de Teams** y, a continuación, seleccione el tipo de dispositivo. Cada tipo de dispositivo tiene su propia sección correspondiente, que te permite administrarlos por separado.
+Para administrar dispositivos, en el panel de navegación izquierdo del [centro de administración de Microsoft Teams](https://admin.teams.microsoft.com), vaya a **Dispositivos de Teams** y seleccione el tipo de dispositivo. Cada tipo de dispositivo tiene su propia sección correspondiente, que te permite administrarlos por separado.
 
 ## <a name="manage-teams-rooms-on-windows-devices"></a>Administrar Salas de Teams en dispositivos Windows
 
 Puede usar el Centro de administración de Teams para ver y administrar de forma remota sus Salas de Teams en dispositivos Windows de toda la organización. El Centro de administración de Teams permite ver de un vistazo qué dispositivos están en buen estado y cuáles necesitan atención, y le permite centrarse en dispositivos específicos para ver información detallada sobre el estado del dispositivo, el rendimiento de las reuniones, la calidad de las llamadas y los periféricos. 
 
-Estas son algunas de las cosas que puedes hacer para administrar los dispositivos Salas de Teams. Salas de Teams dispositivos se pueden encontrar en el [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com), en **Dispositivos** >  de Teams **Salas de Teams en Windows**.
+Estas son algunas de las cosas que puedes hacer para administrar los dispositivos Salas de Teams. Salas de Teams dispositivos se pueden encontrar en el [centro de administración de Microsoft Teams](https://admin.teams.microsoft.com), en **Dispositivos** >  de Teams **Salas de Teams en Windows**.
 
 Para obtener más información sobre cómo administrar los dispositivos Salas de Teams, consulta [Administrar Salas de Microsoft Teams](../rooms/rooms-manage.md).
 

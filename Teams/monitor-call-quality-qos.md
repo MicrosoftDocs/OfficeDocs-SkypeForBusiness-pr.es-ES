@@ -17,14 +17,14 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac317ff6ac17a2b6a0e94c0fa5683979cb887b90
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 969fc5645023bfcf4ad2bc0aadfe692f61b350f0
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66793247"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245715"
 ---
-# <a name="monitor-and-improve-call-quality-for-microsoft-teams"></a>Supervisar y mejorar la calidad de las llamadas para Microsoft Teams
+# <a name="improve-call-quality-in-microsoft-teams"></a>Mejorar la calidad de las llamadas en Microsoft Teams
 
 En este artículo se presentan tres herramientas clave que puede usar para supervisar, solucionar problemas, administrar y mejorar la calidad de las llamadas en Microsoft Teams. 
 

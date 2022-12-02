@@ -1,5 +1,5 @@
 ---
-title: 'Directivas de llamadas en Microsoft Teams: características de llamadas y desvío de llamadas'
+title: 'Directivas de llamadas en Microsoft Teams: características de desvío de llamadas y llamadas'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,16 +20,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8efff8e93dd95ef2b1199b6a766f175e9b2afa4
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: a02df903574c7e7db796294ad90c9e05ab732eb0
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68892614"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245778"
 ---
-# <a name="calling-and-call-forwarding-in-teams"></a>Llamadas y desvío de llamadas en Teams
+# <a name="calling-policies-calling-and-call-forwarding-features-in-teams"></a>Directivas de llamadas: Características de llamadas y desvío de llamadas en Teams
 
-En Microsoft Teams, las directivas de llamadas controlan qué características de desvío de llamadas y llamadas están disponibles para los usuarios. Las directivas de llamada determinan si un usuario puede realizar llamadas privadas, usar desvío de llamadas o llamadas simultáneas a otros usuarios o números de teléfono externos, enrutar llamadas al correo de voz, enviar llamadas a grupos de llamadas, usar la delegación para llamadas entrantes y salientes, etc.
+En Microsoft Teams, las directivas de llamada controlan qué características de desvío de llamadas y llamadas están disponibles para los usuarios. Las directivas de llamada determinan si un usuario puede realizar llamadas privadas, usar desvío de llamadas o llamadas simultáneas a otros usuarios o números de teléfono externos, enrutar llamadas al correo de voz, enviar llamadas a grupos de llamadas, usar la delegación para llamadas entrantes y salientes, etc.
 
 Puede usar la directiva global (predeterminada para toda la organización) que se crea automáticamente o crear y asignar directivas personalizadas.
 
@@ -37,7 +37,7 @@ Puede usar la directiva global (predeterminada para toda la organización) que s
 
 Siga estos pasos para crear una directiva de llamada personalizada.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Directivas de llamadas** de **voz** > .
+1. En el panel de navegación izquierdo del Microsoft centro de administración de Teams, vaya a **Directivas de llamadas** de **voz** > .
 2. Seleccione **Agregar**.
 3. Active o desactive las características que quiera usar en la directiva de llamadas.
     - Por ejemplo, para controlar si los usuarios pueden redirigir las llamadas entrantes al correo de voz, seleccione **Habilitado** o **Controlado por el usuario**. Para evitar el enrutamiento al correo de voz, seleccione **No habilitado**.
@@ -47,7 +47,7 @@ Siga estos pasos para crear una directiva de llamada personalizada.
 
 Siga estos pasos para editar una directiva de llamada existente.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, seleccione **Directivas de llamadas** de **voz** > .
+1. En el panel de navegación izquierdo del Microsoft centro de administración de Teams, seleccione **Directivas de llamadas** de **voz** > .
 2. Haga clic junto a la directiva que desea modificar y, a continuación, seleccione **Editar**.
 3. Realice los cambios que desee y, a continuación, haga clic en **Guardar**.
 
