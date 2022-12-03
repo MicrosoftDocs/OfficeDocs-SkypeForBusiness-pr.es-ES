@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - chat-teams-channels-revamp
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: d819811ba39e3c0a8246e399977079aa15447934
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: e3925d76c66c324337982f37e704caded77b02a5
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198752"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251783"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
 
@@ -80,17 +80,18 @@ A un usuario solo se le puede asignar una directiva de mensajería a la vez.
 Estas son las opciones de directiva de mensajería que puede configurar.
 
 - **Los propietarios pueden eliminar mensajes enviados**  Use esta opción para permitir que los propietarios eliminen los mensajes del canal o las publicaciones que enviaron los usuarios.
-- **Eliminar mensajes enviados** Use esta opción para permitir a los usuarios eliminar los mensajes que enviaron en el chat.
+- **Eliminar mensajes enviados** Use esta opción para permitir a los usuarios eliminar mensajes individuales que enviaron en el chat.
+- **Eliminar chat** Use esta opción para permitir que los usuarios tengan la opción de eliminar conversaciones completas de su lista de chats. Esto solo eliminará el contenido del chat del usuario que realiza la acción; otros usuarios del chat podrán seguir viendo todos los mensajes. El usuario que eliminó el chat no verá ningún mensaje existente en su fuente de actividades ni resultados de búsqueda para el chat eliminado; este usuario también se quitará del chat eliminado. Se pedirá a los usuarios que confirmen la decisión de eliminar un chat. Esta configuración está activada de forma predeterminada. Si esta opción está desactivada, los usuarios ya no verán la opción de eliminar para sus chats.
 - **Editar mensajes enviados** Use esta opción para permitir a los usuarios editar los mensajes que enviaron en el chat.
 - **Confirmaciones de lectura** Las confirmaciones de lectura permiten que el remitente de un mensaje de chat reciba una notificación cuando el destinatario leyó su mensaje en un momento determinado y chats grupales de 20 personas o menos. Las confirmaciones de lectura de mensajes eliminan la incertidumbre sobre si un mensaje se ha leído y mejoran la comunicación del equipo. Las confirmaciones de lectura no se capturan en los informes de exhibición de documentos electrónicos.  
-    - **Controlado por el usuario** Esto significa que los usuarios pueden decidir si quieren que las confirmaciones de lectura estén activadas o desactivadas. La configuración predeterminada dentro de la aplicación está activada. Los usuarios pueden desactivarlo.
-    - **Activado para todos los usuarios** Esto significa que todos los usuarios del espacio empresarial tendrán la característica ACTIVADA sin ninguna opción para desactivarla. Al usar la opción **Activada para todos los usuarios** , la única manera de establecer recibos para todo el espacio empresarial es tener solo una directiva de mensajería para todo el inquilino (la directiva predeterminada denominada "Global (valor predeterminado para toda la organización"), o bien tener todas las directivas de mensajería en el inquilino que usen la misma configuración para los recibos. Las característica de confirmaciones de lectura es más efectiva cuando se encuentra activa como **Habilitadas para todos**.
-    - **Desactivado para todos los usuarios** Esto significa que la característica está deshabilitada y nadie en el inquilino tiene confirmaciones de lectura ni puede activarla.
+  - **Controlado por el usuario** Esto significa que los usuarios pueden decidir si quieren que las confirmaciones de lectura estén activadas o desactivadas. La configuración predeterminada dentro de la aplicación está activada. Los usuarios pueden desactivarlo.
+  - **Activado para todos los usuarios** Esto significa que todos los usuarios del espacio empresarial tendrán la característica ACTIVADA sin ninguna opción para desactivarla. Al usar la opción **Activada para todos los usuarios** , la única manera de establecer recibos para todo el espacio empresarial es tener solo una directiva de mensajería para todo el inquilino (la directiva predeterminada denominada "Global (valor predeterminado para toda la organización"), o bien tener todas las directivas de mensajería en el inquilino que usen la misma configuración para los recibos. Las característica de confirmaciones de lectura es más efectiva cuando se encuentra activa como **Habilitadas para todos**.
+  - **Desactivado para todos los usuarios** Esto significa que la característica está deshabilitada y nadie en el inquilino tiene confirmaciones de lectura ni puede activarla.
 <a name="bkchat"> </a>
 
 - **Chat** Active esta opción si desea que los usuarios de su organización puedan chatear con otras personas con la aplicación de Teams.
 - **Chatear con grupos** Los usuarios pueden iniciar un chat con grupos de distribución, grupos de seguridad habilitados para correo electrónico y Microsoft 365 grupos.
-- *Usar Giphy en conversaciones** Si activa Giphy, los usuarios pueden incluir imágenes de Giphy en conversaciones de chat con otras personas. Giphy es una base de datos en línea y un motor de búsqueda que permite a los usuarios buscar y compartir archivos GIF animados. A cada Giphy se le asigna una clasificación de contenido. Además de activar esta configuración, debe habilitar [experiencias conectadas opcionales](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) para permitir a Giphys en conversaciones.
+- **Usar Giphy en conversaciones**  Si activa Giphys, los usuarios pueden incluir imágenes de Giphy en conversaciones de chat con otras personas. Giphy es una base de datos en línea y un motor de búsqueda que permite a los usuarios buscar y compartir archivos GIF animados. A cada Giphy se le asigna una clasificación de contenido. Además de activar esta configuración, debe habilitar [experiencias conectadas opcionales](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) para permitir a Giphys en conversaciones.
 - **Clasificación de contenido de Giphy**
   - **Sin restricción** Esto significa que los usuarios podrán insertar cualquier Giphy en los chats, independientemente de la clasificación del contenido.
   - **Moderado**  Esto significa que los usuarios podrán insertar imágenes de Giphy en los chats, pero se restringirán moderadamente al contenido para adultos.

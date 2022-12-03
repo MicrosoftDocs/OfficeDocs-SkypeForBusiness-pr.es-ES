@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 810e4a2c151284786092d664170388f17c0461e6
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: 93a338ef393c783c4fc2240b580f3cd316c354ee
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564118"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251893"
 ---
 # <a name="sign-out-of-microsoft-teams"></a>Cerrar sesión en Microsoft Teams
 
@@ -50,7 +50,7 @@ Si tiene varias cuentas agregadas, deberá cerrar la sesión de cada cuenta indi
 
 ## <a name="sign-out-of-teams-on-mobile-devices"></a>Cerrar sesión de Teams en dispositivos móviles
 
-En dispositivos móviles, puede cerrar sesión en Teams dirigiéndose al menú y eligiendo el menú **Más**, para luego elegir **Cerrar sesión**. Una vez que se haya cerrado la sesión, deberá volver a introducir sus credenciales la próxima vez que inicie la aplicación.
+En dispositivos móviles, puede cerrar la sesión de Teams yendo al icono de usuario, seleccionando **Configuración** y, a continuación, seleccionando **Cerrar sesión**. Una vez que haya cerrado sesión, tendrá que volver a escribir sus credenciales la próxima vez que inicie la aplicación.
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>Inicio y cierre de sesión globales para trabajadores de primera línea
 

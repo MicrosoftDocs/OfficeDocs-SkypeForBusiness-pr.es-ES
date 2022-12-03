@@ -1,5 +1,5 @@
 ---
-title: Configurar un operador automático de Microsoft Teams
+title: Configurar un operador automático para Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -20,19 +20,16 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-adobe-target: true
-adobe-target-activity: ''
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
+robots: noindex
 description: Obtenga información sobre cómo configurar y administrar operadores automáticos en Microsoft Teams.
-ms.openlocfilehash: 1908ccb02fa3aadc0bb906f718e5493eb8ff8e2f
+ms.openlocfilehash: cafbe1594666f156801f83b7944e4ecce4887752
 ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251763"
+ms.locfileid: "69252017"
 ---
-# <a name="set-up-a-microsoft-teams-auto-attendant"></a>Configurar un operador automático de Microsoft Teams
+# <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
 Los operadores automáticos permiten que las personas llamen a su organización y naveguen por un sistema de menús para hablar con el departamento, la cola de llamadas, la persona o un operador adecuados. Puede crear operadores automáticos para su organización con el centro de administración de Microsoft Teams o con PowerShell.
 
@@ -52,7 +49,7 @@ Los operadores automáticos pueden redirigir las llamadas, en función de la ent
 > [!NOTE]
 > Al redirigir llamadas a una **persona de la organización**, esa persona debe tener habilitada la voz. Para obtener más información sobre cómo habilitar la voz, consulte [Asignar licencias de complementos de Teams a usuarios](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 >
-> Al definir un **operador** es opcional, se recomienda.  Los operadores automáticos redirigen las llamadas al operador si hay un error en la configuración del operador automático debido a la eliminación de una cuenta de correo de voz compartida o de usuario.  Si no se define un operador, el operador automático anulará la llamada.
+> Al definir un **operador** es opcional, se recomienda.  Los operadores automáticos redirigen las llamadas al operador si el autor de la llamada no realiza una selección en los menús, selecciona repetidamente opciones no válidas o marca repetidamente por nombre o número.  Si no se define un operador, el operador automático anulará la llamada.
 
 ## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>Novedades para los operadores automáticos en los últimos 6 meses
 
@@ -75,9 +72,7 @@ Los pasos descritos en el artículo crean operadores automáticos con el Centro 
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>Siga estos pasos para configurar su operador automático
 
-## <a name="step-1-general-info"></a>[Paso 1: Información general](#tab/general-info)
-
-## <a name="step-1-set-the-auto-attendants-general-information"></a>Paso 1: Establecer la información general del operador automático
+### <a name="step-1-set-the-auto-attendants-general-information"></a>Paso 1: Establecer la información general del operador automático
 
 Para configurar un operador automático, en el [Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851), expanda **Voz**, seleccione **Operadores automáticos** y, a continuación, seleccione **Agregar**.
 
@@ -96,23 +91,21 @@ Para configurar un operador automático, en el [Centro de administración de Tea
 
 Una vez que haya configurado la información general del operador automático, seleccione **Siguiente**.
 
-## <a name="step-2-basic-call-flow"></a>[Paso 2: Flujo de llamadas básico](#tab/call-flow)
+### <a name="step-2-set-up-the-basic-call-flow"></a>Paso 2: Configurar el flujo de llamadas básico
 
-## <a name="step-2-set-up-the-basic-call-flow"></a>Paso 2: Configurar el flujo de llamadas básico
-
-### <a name="set-a-greeting"></a>Establecer un saludo
+#### <a name="set-a-greeting"></a>Establecer un saludo
 
 - Si selecciona **Reproducir un archivo de audio** , puede usar el botón **Cargar archivo** para cargar un mensaje de saludo grabado guardado como audio en . WAV, .MP3 o . Formato WMA. La grabación no puede tener más de 5 MB.
 
 - Si selecciona **Escribir un mensaje de saludo** , el sistema leerá el texto que escriba (hasta 1000 caracteres) cuando el operador automático responda a una llamada.
 
-### <a name="route-the-call"></a>Enrutar la llamada
+#### <a name="route-the-call"></a>Enrutar la llamada
 
 - Si selecciona **Desconectar**, el operador automático colgará la llamada.
 - Si selecciona **Redirigir llamada**, puede elegir uno de los destinos de enrutamiento de llamadas.
 - Si selecciona **las opciones del menú Reproducir**, puede elegir **entre Reproducir un archivo de audio** o **Escribir un mensaje de saludo** y, después, elegir entre las opciones de menú y la búsqueda en directorio.
 
-#### <a name="play-menu-options"></a>Reproducir opciones de menú
+##### <a name="play-menu-options"></a>Reproducir opciones de menú
 
 *Nuevo: se puede habilitar la opción Forzar escucha que requiere que los autores de llamadas escuchen todas las opciones de menú antes de realizar la selección.*
  *Las teclas Nuevo - \* (asterisco) y \# (almohadilla) ahora se pueden usar en las opciones de menú.*
@@ -131,7 +124,7 @@ Para cada opción de menú, especifique la siguiente configuración:
 
 - **Redirigir a** : el destino de enrutamiento de llamadas que se usa cuando los autores de llamadas eligen esta opción. Si está redirigiendo a un operador automático o a una cola de llamadas, elija la cuenta de recursos asociada con él.
 
-##### <a name="directory-search"></a>Búsqueda en directorios
+###### <a name="directory-search"></a>Búsqueda en directorios
 
 Si asigna claves de marcado a destinos, le recomendamos que elija **Ninguno** para **búsqueda en el directorio**. Si el autor de la llamada intenta marcar un nombre o una extensión mediante claves asignadas a destinos específicos, es posible que se rediriban inesperadamente a un destino antes de terminar de escribir el nombre o la extensión. Le recomendamos que cree un operador automático independiente para la búsqueda en directorios y que el operador automático principal le vincule con una clave de marcado.
 
@@ -148,9 +141,7 @@ Para obtener más información, consulte [el dial y la referencia de voz](dial-v
 
 Una vez que haya establecido las opciones básicas de flujo de llamadas, seleccione **Siguiente**.
 
-## <a name="step-3-after-hours-call-flow"></a>[Paso 3: Flujo de llamadas fuera del horario laboral](#tab/after-hours)
-
-## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>Paso 3: Configurar el flujo de llamadas para fuera del horario laboral (opcional)
+### <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>Paso 3: Configurar el flujo de llamadas para fuera del horario laboral (opcional)
 
 El horario laboral se puede establecer para cada operador automático.
 
@@ -168,9 +159,7 @@ Si desea un enrutamiento de llamadas independiente para los autores de llamadas 
 
 Una vez que haya agregado el flujo de llamadas fuera del horario laboral, seleccione **Siguiente**.
 
-## <a name="step-4-holiday-call-flow"></a>[Paso 4: Flujo de llamadas navideñas](#tab/holidays)
-
-## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Paso 4: Configurar flujos de llamadas para días festivos (opcional)
+### <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Paso 4: Configurar flujos de llamadas para días festivos (opcional)
 
 El operador automático puede tener un flujo de llamadas para cada [día festivo que haya configurado](set-up-holidays-in-teams.md). Puede agregar un máximo de 20 días festivos programados a cada operador automático.
 
@@ -197,9 +186,7 @@ Repita el procedimiento según sea necesario para cada día festivo adicional.
 
 Una vez que haya agregado todas las horas de vacaciones, seleccione **Siguiente**.
 
-## <a name="step-5-dial-scope"></a>[Paso 5: Ámbito de marcado](#tab/dial-scope)
-
-## <a name="step-5-set-up-dial-scope-optional"></a>Paso 5: Configurar el ámbito de marcado (opcional)
+### <a name="step-5-set-up-dial-scope-optional"></a>Paso 5: Configurar el ámbito de marcado (opcional)
 
 El *ámbito de marcado* define qué usuarios están disponibles en el directorio cuando el autor de la llamada usa el marcado por nombre o marcado por extensión. El valor predeterminado de **Todos los usuarios en línea** incluye todos los usuarios de la organización que sean usuarios en línea o que se hospeden localmente con Skype Empresarial Server.
 
@@ -212,9 +199,7 @@ Si un usuario está en ambas listas, se excluirá del directorio.
 
 Una vez que haya seleccionado las opciones de **Ámbito de marcado** , seleccione **Siguiente**.
 
-## <a name="step-6-resource-accounts"></a>[Paso 6: Cuentas de recursos](#tab/resource-accounts)
-
-## <a name="step-6-set-up-resource-accounts-optional"></a>Paso 6: Configurar cuentas de recursos (opcional)
+### <a name="step-6-set-up-resource-accounts-optional"></a>Paso 6: Configurar cuentas de recursos (opcional)
 
 Todos los operadores automáticos deben tener una cuenta de recursos asociada.  Los operadores automáticos de primer nivel necesitarán al menos una cuenta de recurso que tenga un número de servicio asociado. Si lo desea, puede asignar varias cuentas de recursos a un operador automático, cada una con un número de servicio independiente.
 
@@ -223,8 +208,6 @@ Para agregar una cuenta de recursos, seleccione **Agregar cuenta** y busque la c
 Una vez que haya agregado cuentas de recursos, seleccione **Siguiente**.
 
 Consulte [Administrar cuentas de recursos de Teams](manage-resource-accounts.md) para obtener más información.
-
----
 
 ## <a name="resources-for-complex-scenarios"></a>Recursos para escenarios complejos
 
