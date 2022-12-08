@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -20,14 +21,16 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar, administrar y personalizar paquetes de directivas en Microsoft Teams para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios.
-ms.openlocfilehash: 138b1cada469a71cf844c8a73b1cb12511fc68b2
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: c2c5884261a4e55c64f3164fd805f708ed42598d
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245643"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69318433"
 ---
 # <a name="managing-policy-packages-in-teams"></a>Administrar paquetes de directivas en Teams
+
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Un paquete de directivas en Microsoft Teams es una colección de directivas y configuraciones de directiva predefinidas que puede asignar a los usuarios que tienen roles similares en la organización. Hemos creado paquetes de directivas para simplificar, simplificar y ayudar a proporcionar coherencia al administrar directivas para grupos de usuarios de toda la organización.  
 
@@ -81,7 +84,7 @@ Por ejemplo, al asignar el paquete de directivas Educación (profesor) a profeso
 ## <a name="custom-policy-packages"></a>Paquetes de directivas personalizadas
 
 > [!NOTE]
-> La característica de paquetes de directivas personalizados está disponible en versión preliminar. Para usar esta característica después de la versión preliminar, cada usuario necesitará la licencia de Teams Premium.
+> Los paquetes de directivas personalizados requieren Teams Premium.
 
 Los paquetes de directivas personalizadas le permiten agrupar su propio conjunto de directivas para los usuarios con roles similares en su organización. Cree sus propios paquetes de directivas agregando los tipos de directiva y las directivas que necesita.
 
