@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 adobe-target: true
-adobe-target-activity: ''
+adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY22Q2
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Obtenga información sobre cómo configurar colas de llamadas en Microsoft Teams. Las colas de llamadas proporcionan un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: ed3be4feffd516292b7dfe902ac7d1856f6f6a44
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: a55573b5a7c713366eb4f930f58de34971d21fce
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251793"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307555"
 ---
 # <a name="create-a-call-queue-in-microsoft-teams"></a>Crear una cola de llamadas en Microsoft Teams
 
@@ -109,7 +109,7 @@ Para obtener más información, consulte [Administrar cuentas de recursos de Tea
 Puede asignar números de identificación de llamadas salientes a los agentes especificando una o más cuentas de recursos con un número de teléfono. Los agentes pueden seleccionar el número de identificación de llamada saliente que se usará con cada llamada saliente que realicen. En la aplicación Llamadas, los agentes pueden usar su número de cola de llamadas o operador automático (AA) o su propio dial directo entrante (DID) personal.
 
 > [!NOTE]
-> La cuenta de recursos usada para fines de identificador de llamadas debe tener asignada una licencia **de cuenta de recursos de Microsoft Teams 电话** y una de las siguientes opciones:
+> La cuenta de recursos usada para fines de identificador de llamadas debe tener una licencia **de cuenta de recursos de Teléfono Microsoft Teams** y una de las siguientes asignadas:
 >
 > - Una licencia del plan de llamadas y un número de teléfono asignados
 > - Un número de teléfono De conexión de operador asignado
@@ -221,7 +221,7 @@ Para **agregar un grupo** a la cola:
 **El modo de conferencia** reduce la cantidad de tiempo que tarda el autor de la llamada en conectarse a un agente después de que el agente acepte la llamada. Para que el modo de conferencia funcione, los agentes en la cola de llamadas deben usar uno de los siguientes clientes:
 
 - Última versión del cliente de escritorio de Microsoft Teams, la aplicación de Android o la aplicación de iOS
-- Microsoft Teams 电话 versión 1449/1.0.94.2020051601 o posterior
+- Teléfono Microsoft Teams versión 1449/1.0.94.2020051601 o posterior
   
 Las cuentas de Teams de los agentes deben establecerse en el modo TeamsOnly. Los agentes que no cumplan los requisitos no se incluyen en la lista de enrutamiento de llamadas. Se recomienda habilitar el modo de conferencia para las colas de llamadas si los agentes usan clientes compatibles.
 
@@ -399,7 +399,7 @@ Se recomienda la siguiente configuración:
 3. Si selecciona Longest Idle para el método de enrutamiento del agente, se habilitará automáticamente el enrutamiento basado en presencia.
 4. No es posible establecer el orden en el que se llamará a los agentes.
 5. El modo de conferencia no es compatible si las llamadas de teléfono se redirigen a la cola desde una puerta de enlace de enrutamiento directo habilitada para el enrutamiento basado en ubicación.
-6. solo Microsoft Teams 电话.
+6. solo Teléfono Microsoft Teams.
 7. A través de la página del Portal de configuración de usuario en [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
 8. Solo se admiten canales públicos.
 9. Los operadores automáticos y las colas de llamadas no pueden transferir llamadas entre métodos de conectividad RTC.
@@ -442,7 +442,7 @@ Si es administrador, puede usar la siguiente herramienta de diagnóstico para va
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Esto es lo que obtienes con Microsoft Teams 电话](here-s-what-you-get-with-phone-system.md)
+[Esto es lo que obtienes con Teléfono Microsoft Teams](here-s-what-you-get-with-phone-system.md)
 
 [Obtener números de teléfono de servicio](getting-service-phone-numbers.md)
 

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directivas de reuniones en Teams para audio y vídeo.
-ms.openlocfilehash: 1f03f81c52c089a922040e0065621f5bf95fe20e
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 111b91a26a3c1058c6fb574f5feb7b6a6d8c00b2
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551484"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307895"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configuración de la directiva de reunión para vídeo & audio
 
@@ -36,10 +36,10 @@ En este artículo se describe la configuración de la directiva de reunión espe
 - [Modo de audio IP](#mode-for-ip-audio)
 - [Modo de vídeo IP](#mode-for-ip-video)
 - [Vídeo IP](#ip-video)
-- [Velocidad de bits multimedia (kb/s)](#media-bit-rate-kbs)
+- [Velocidad de bits multimedia (Kbps)](#media-bit-rate-kbps)
 - [Modo de filtros de vídeo](#video-filters-mode)
 - [Permitir la configuración personalizada del fondo](#allow-custom-background-settings)
-- [Control de cámara de extremo lejano (FECC) para cámaras de zoom de inclinación de puntos (PTZ)](#far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras)
+- [Control de cámara extremo (FECC) para cámaras de zoom inclinable (PTZ) de desplazamiento lateral](#far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras)
 
 ## <a name="mode-for-ip-audio"></a>Modo de audio IP
 
@@ -136,7 +136,7 @@ Se aplica la directiva más restrictiva entre la directiva del organizador de la
 
 Para los usuarios de clientes móviles de Teams, la capacidad de compartir fotos y vídeos durante una reunión también viene determinada por la configuración del modo **de vídeo IP** o **ip** . En función de la configuración de directiva que tenga prioridad, la capacidad para compartir vídeos y fotos no estará disponible. Esto no afecta al uso compartido de la pantalla, que se configura con el modo de [Uso compartido de pantalla](meeting-policies-content-sharing.md#screen-sharing-mode). Asimismo, puede establecer una directiva de movilidad de [Teams](/powershell/module/skype/new-csteamsmobilitypolicy) para evitar que los usuarios móviles utilicen vídeo IP sobre una conexión móvil, lo que significa que deben usar una conexión Wi-Fi.
 
-## <a name="media-bit-rate-kbs"></a>Velocidad de bits multimedia (kb/s)
+## <a name="media-bit-rate-kbps"></a>Velocidad de bits multimedia (Kbps)
 
 Esta es una directiva por usuario. Esta configuración determina la velocidad de bits multimedia para las transmisiones por audio, vídeo y uso compartido de aplicaciones en vídeo en las llamadas y reuniones para el usuario. Se aplica a los usuarios de la llamada o reunión, en transferencias multimedia tanto de subida como de bajada. Esta configuración le ofrece un control en detalle de la administración de ancho de banda de su organización. Dependiendo de los escenarios de reuniones necesarios para los usuarios, le recomendamos que disponga del suficiente ancho de banda para disfrutar de una buena calidad. El valor mínimo es 30 kb/s y el valor máximo depende del escenario de la reunión. Para obtener más información sobre el ancho de banda mínimo recomendado para reuniones, llamadas y eventos en directo de buena calidad en Teams, vea [Requisitos de ancho de banda](prepare-network.md#bandwidth-requirements).
 
@@ -203,7 +203,7 @@ Los asistentes a la reunión verán una selección de imágenes de fondo que pue
 >
 > Esta característica está disponible temporalmente en la versión preliminar pública para todos los clientes de Microsoft Teams. Para obtener esta característica después de la vista previa, cada usuario necesitará la licencia del complemento Comunicaciones avanzadas. Para más información, consulte [Complemento de Comunicaciones avanzadas para Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
-## <a name="far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras"></a>Control de cámara de extremo lejano (FECC) para cámaras de zoom de inclinación de puntos (PTZ)
+## <a name="far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras"></a>Control de cámara extremo (FECC) para cámaras de zoom inclinable (PTZ) de desplazamiento lateral
 
 El control de cámara de extremo lejano es una directiva que se puede asignar a Salas de Teams en cuentas de recursos de Windows. Permite que las cámaras PTZ conectadas a una sala de Teams sean controladas por los participantes de la reunión en la aplicación cliente de Teams durante las reuniones.
 

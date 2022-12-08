@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Obtenga información sobre operadores automáticos y colas de llamadas, y cómo usarlos para ayudar a los autores de llamadas a desplazarse por un sistema de menús para ponerse en contacto con personas o departamentos de su organización.
-ms.openlocfilehash: acaa4d3e4db56b1b64869f92d27f2dfd73c4afee
-ms.sourcegitcommit: 0dfe48fde767d8d9ed7bfc93684af05534acad12
+ms.openlocfilehash: 5b5076ecd8ea521071124f5400ac5c2831b4fbfe
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "69166736"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307625"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planear operadores automáticos y colas de llamadas de Teams
 
@@ -78,7 +78,7 @@ Para configurar operadores automáticos y colas de llamadas, necesita los siguie
 > [!NOTE]
 > Las cuentas de recursos están deshabilitadas para iniciar sesión y deben permanecer así. El chat y la presencia no están disponibles para estas cuentas.
 
-Los agentes que reciben llamadas de las colas de llamadas deben estar Telefonía IP empresarial habilitados para los usuarios en línea o locales. Además, si las colas de llamadas usan números de enrutamiento directo, los agentes que necesitan realizar conferencias o transferir llamadas también requieren:
+Los agentes que reciben llamadas de las colas de llamadas deben estar Telefonía IP empresarial habilitados para los usuarios en línea o locales. Para obtener más información, vea [Asignar, cambiar o quitar un número de teléfono a un usuario](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) y [Habilitar usuarios para enrutamiento directo](/microsoftteams/direct-routing-enable-users). Además, si las colas de llamadas usan números de enrutamiento directo, los agentes que necesitan realizar conferencias o transferir llamadas también requieren:
 
 - Una [directiva de enrutamiento de voz en línea](manage-voice-routing-policies.md) asignada si la cola de llamadas usa el modo de transferencia.
 - Una [licencia de Audioconferencia](set-up-audio-conferencing-in-teams.md) o [una directiva de enrutamiento de voz en línea](manage-voice-routing-policies.md) asignada si la cola de llamadas usa el modo de conferencia.

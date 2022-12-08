@@ -17,16 +17,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Incorporación Salas de Teams dispositivos al portal de administración de Pro
 f1keywords: ''
-ms.openlocfilehash: 808ef462f71e023ccec232942e780a53ea91e3b3
-ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
+ms.openlocfilehash: f5994c5ced6097104ee74044ee2441bc8388f5c3
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "68243791"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307965"
 ---
 # <a name="enroll-device-into-pro-management"></a>Inscribir el dispositivo en Pro Management
 
-La implementación requiere la incorporación Salas de Microsoft Teams dispositivos al portal de administración de Salas de Microsoft Teams Pro. El agente de servicio de supervisión se usa con sistemas y periféricos certificados de Microsoft Teams Room (MTR).
+La implementación requiere la incorporación Salas de Microsoft Teams dispositivos al Portal de administración de Salas de Microsoft Teams Pro. El agente de servicio de supervisión se usa con sistemas y periféricos certificados de Microsoft Teams Room (MTR).
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -51,7 +51,7 @@ Sigue estos procedimientos para configurar el hardware antes de intentar el proc
      *Ejemplo:*
 
      ```DOS
-     bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac`
+     bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac
      ```
 
 ### <a name="enabling-tpm-settings"></a>Habilitación de la configuración de TPM
@@ -77,7 +77,7 @@ Algunos procedimientos de configuración e instalación requieren que inicies se
 Para iniciar sesión en el dispositivo como administrador (administrador local):
 
 1. Asegúrate de colgar las llamadas en curso y volver a la pantalla principal.
-1. En la interfaz de usuario de sala de Microsoft Teams, seleccione  **Más** y, a continuación, seleccione **Configuración**, donde se le pedirá la contraseña de administrador local en el dispositivo (la contraseña predeterminada es **_sfb_**).
+1. En la interfaz de usuario de la sala Microsoft Teams, seleccione **Más** y, a continuación, seleccione **Configuración**, donde se le pedirá la contraseña de administrador local en el dispositivo (la contraseña predeterminada es **_sfb_**).
 1. Selecciona **Configuración** y, a continuación, selecciona  **Configuración de Windows**  para acceder a Windows como administrador local.
 
 1. En la lista de usuarios que se muestra en la pantalla de inicio de sesión de Windows, selecciona  **Administrador** (o el correspondiente administrador local del dispositivo).
@@ -116,7 +116,7 @@ mmrprodnoamstor.blob.core.windows.net
 
 El proceso de inscripción implica estos pasos:
 
-1. En la barra de navegación izquierda del Salas de Microsoft Teams Portal de administración [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)de Pro , expande **Configuración** y selecciona **General**.
+1. En la barra de navegación izquierda del portal [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)de administración de Salas de Microsoft Teams Pro , expanda **Configuración** y seleccione **General**.
 1. En *Inscribir una sala*, seleccione **Descargar instalador**  para descargar el software del agente de supervisión.
 1. **Opcional:** Establecer la configuración de proxy para el agente; consulte [Agregar configuración de proxy (opcional).](#adding-proxy-settings-optional)
 1. Instale el instalador del agente (descargado en el paso 2) en unidades MTR, ya sea ejecutando el MSI localmente en un dispositivo MTR o a través de sus medios normales de publicación de aplicaciones MSI en conjunto en dispositivos dentro de su entorno (directiva de grupo, etc.).
@@ -129,7 +129,7 @@ El proceso de inscripción implica estos pasos:
 
 ## <a name="installation"></a>Instalación
 
-Después de descargar el instalador desde Microsoft (ya sea desde el portal o mediante la dirección URL AKA.ms proporcionada anteriormente), descomprima su contenido para acceder al archivo **ManagedRoomsInstaller.msi**.
+Después de descargar el instalador desde Microsoft (ya sea desde el portal o mediante la dirección URL de AKA.ms proporcionada anteriormente), descomprima su contenido para acceder al archivo **ManagedRoomsInstaller.msi**.
 
 Hay dos modos de instalación: 1) instalación de máquina local individual y 2) modo de implementación en masa (normalmente a través de Intune de método similar). Se recomienda realizar una instalación individual para equipos que no están unidos a un dominio o para equipos que no tiene ninguna forma de ejecutar instaladores MSI de forma remota.
 
@@ -145,7 +145,7 @@ Debido a las diversas formas en que los clientes pueden ejecutar aplicaciones MS
 
 1. Después de leer el contrato, marque ***Acepto los términos del Contrato de licencia** _ y presione _*Install**.
 
-    Esto inicia la instalación de software de supervisión Salas de Microsoft Teams Pro. Se muestra una petición de elevación (ejecutar como administrador).
+    Se iniciará la instalación Salas de Microsoft Teams Pro software de supervisión. Se muestra una petición de elevación (ejecutar como administrador).
 
 1. Seleccione **Sí**.
 
@@ -159,16 +159,16 @@ Debido a las diversas formas en que los clientes pueden ejecutar aplicaciones MS
 Los siguientes componentes son requisitos previos para una instalación correcta: 
 
 - **Intune inscripción**: Salas de Teams en dispositivos Windows ya debe estar inscrito en Intune.
-  Para obtener más información sobre cómo inscribir Salas de Teams en dispositivos Windows en Intune, consulta [Inscribir Salas de Microsoft Teams en dispositivos Windows con Microsoft Endpoint Manager: Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
+  Para obtener más información sobre cómo inscribir Salas de Teams en dispositivos Windows en Intune, vea [Inscribir Salas de Microsoft Teams en dispositivos Windows con Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
 - **Grupo de Azure AD con todos los Salas de Teams en dispositivos Windows como miembros**: un grupo creado en Azure AD que incluye todos los Salas de Teams en dispositivos Windows que deben formar parte del servicio Salas de Microsoft Teams Premium. Este grupo se usará para dirigir la implementación del agente MTR Pro.
   
 > [!NOTE]
-> Puede usar grupos dinámicos en Azure AD para este fin, más información en [Inscribir Salas de Microsoft Teams en dispositivos Windows con Microsoft Endpoint Manager: Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
+> Puede considerar el uso de grupos dinámicos en Azure AD para este fin, así como más información en [Inscribir Salas de Microsoft Teams en dispositivos Windows con Microsoft Endpoint Manager Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
 - Descargar **el instalador** del **agente de MTR Pro**: descarga el archivo zip del agente y <https://aka.ms/serviceportalagentmsi> extrae el contenido del archivo zip (ManagedRoomsInstaller.msi) en una carpeta temporal local.
 
 **Para instalar con Intune**
 
-1. Inicie sesión en el [Centro de administración de Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Inicie sesión en el [centro de administración de Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 1. Selecciona **Aplicaciones** > **Agregar todas las aplicaciones** > **.**
 1. En el panel **Seleccionar tipo de aplicación** , en **Otros** tipos de aplicación, seleccione **Aplicación de línea de negocio**.
 1. Haga clic en **Seleccionar**. Se muestran los pasos **agregar aplicación** . 
@@ -225,13 +225,13 @@ Para anular la inscripción del dispositivo, quite el agente de supervisión del
 
    Este comando restablece el dispositivo a las actualizaciones estándar de MTR del usuario y quita el agente de supervisión y los archivos de MTR Pro.
 
-1. En el menú izquierdo del portal de administración de Salas de Microsoft Teams Pro, selecciona **Salas**.
+1. En el menú izquierdo del Portal de administración de Salas de Microsoft Teams Pro, seleccione **Salas**.
 1. En la lista de salas proporcionada, elija la sala que desea anular la inscripción y seleccione **Anular la inscripción** para dejar de recibir alertas de incidentes o incidencias de investigación, o para informar de un incidente para la sala.
 
 ## <a name="troubleshooting-table"></a>Tabla de solución de problemas
 
 > [!NOTE]
-> Todos los errores de supervisión de Salas de Microsoft Teams Pro se registran en un archivo de registro de eventos específico denominado **Salas administradas de Microsoft**.
+> Todos los errores de supervisión Salas de Microsoft Teams Pro se registran en un archivo de registro de eventos específico denominado **Microsoft salas administradas**.
 
 ***Ubicación del archivo de registro en tiempo de ejecución de la aplicación*** =
 
@@ -243,6 +243,6 @@ C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-x.
 |||
 |Recibe un mensaje de error que indica: </p><p> ***No se pueden encontrar datos tpm***|Asegúrate de que el dispositivo tenga activado TPM (Módulo de plataforma segura) en su BIOS. Esto suele encontrarse en la configuración de seguridad del BIOS del dispositivo.|
 |||
-|Recibe un mensaje de error: </p><p> ***ERROR: No se encuentra la cuenta de usuario local denominada 'Administración' o 'Skype'***|Asegúrese de que las cuentas de usuario existen en el dispositivo certificado de sistemas de salas de Microsoft Teams.|
+|Recibe un mensaje de error: </p><p> ***ERROR: No se encuentra la cuenta de usuario local denominada 'Administración' o 'Skype'***|Asegúrese de que las cuentas de usuario existen en el dispositivo certificado Microsoft sistemas de salas de Teams.|
 |||
-|Recibirá los mensajes de estado de error que no se incluyan anteriormente.|Proporcione una copia del registro de instalación al agente de soporte técnico de Microsoft Teams System.|
+|Recibirá los mensajes de estado de error que no se incluyan anteriormente.|Proporcione una copia del registro de instalación a su agente de soporte técnico de Microsoft Teams System.|

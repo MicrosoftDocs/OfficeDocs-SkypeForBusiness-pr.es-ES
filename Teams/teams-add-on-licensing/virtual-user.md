@@ -20,16 +20,16 @@ ms.custom:
 - LIL_Placement
 - admindeeplinkMAC
 description: Obtenga información sobre cómo asignar licencias de Teléfono Microsoft Teams cuenta de recursos a cuentas de recursos para operadores automáticos y colas de llamadas de su organización.
-ms.openlocfilehash: bba516249ec1b30e0361e2f9a6be003343f9c892
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: d3eacab8569981550520385c4aee297ae6835a59
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377368"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307765"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>Teléfono Microsoft Teams licencias de cuenta de recursos
 
-En Microsoft Teams, todos los operadores automáticos y las colas de llamadas requieren una cuenta de recursos asociada. Cada cuenta de recursos debe tener asignada una licencia **de Teléfono Microsoft Teams cuenta** de recursos para asegurarse de que el sistema las identifica correctamente y funcionan correctamente, *independientemente de si se asignará un número de teléfono a la cuenta de recursos*. A las organizaciones con una suscripción que incluya Teams Phone se les asigna automáticamente una determinada cantidad de licencias de cuenta de recursos de **Teams Phone** sin ningún costo adicional.  No es necesario un plan de llamadas de Microsoft a menos que quiera llamar con esa cuenta de recursos. Para obtener más información, vea [Planear el operador automático y las colas de llamadas de Teams](../plan-auto-attendant-call-queue.md#prerequisites).
+En Microsoft Teams, todos los operadores automáticos y las colas de llamadas requieren una cuenta de recursos asociada. Cada cuenta de recursos debe tener asignada una licencia **de Teléfono Microsoft Teams cuenta** de recursos para asegurarse de que el sistema las identifica correctamente y funcionan correctamente, *independientemente de si se asignará un número de teléfono a la cuenta de recursos*. A las organizaciones con una suscripción que incluya Teams Phone se les asigna automáticamente una determinada cantidad de licencias de cuenta de recursos de **Teams Phone** sin ningún costo adicional.  No es necesario un plan de llamadas Microsoft a menos que quiera llamar con esa cuenta de recursos. Para obtener más información, vea [Planear el operador automático y las colas de llamadas de Teams](../plan-auto-attendant-call-queue.md#prerequisites).
 
 > [!NOTE]
 > Anteriormente, una licencia de cuenta de recursos de **teléfono de Teams** (una vez conocida como licencia de **usuario virtual** ) solo era necesaria al asignar un número de teléfono a una cuenta de recursos. Ahora, todas las cuentas de recursos deben tener asignada una licencia de **cuenta de recursos de teléfono de Teams** , independientemente de si se les asignará un número de teléfono o no. Además, no asigne una licencia **de Teléfono Teams Estándar** a una cuenta de recursos. Si actualmente tiene cuentas de recursos configuradas con licencias **de Teléfono Teams Estándar**, debe cambiar a una licencia de cuenta de recursos de **Teléfono de Teams** como se describe a continuación.
@@ -39,7 +39,7 @@ En Microsoft Teams, todos los operadores automáticos y las colas de llamadas re
 
 A su organización se le asignan licencias de **la cuenta de recursos telefónicos de Teams** en función de su tamaño general. A cualquier organización que tenga una suscripción con características del sistema telefónico, como **Teléfono Teams Estándar** y **Teams Phone con** licencias de plan de llamadas, se le asignan 25 licencias de cuenta de recursos **telefónicos de Teams** disponibles sin costo alguno. 
 
-Por cada 10 licencias de usuario de **Teléfono Teams Estándar** o **Teléfono de Teams con plan de llamadas** en su organización, está disponible una licencia más de **cuenta de recursos de Teléfono de Teams**.  La mayoría de las organizaciones tendrán suficientes licencias de **la cuenta de recursos de Teléfono de Teams** en función de este plan de escalado. En caso de que se requieran más licencias de **la cuenta de recursos de teléfono de Teams** , puede comprar más licencias de cuenta de recursos de Teléfono de **Teams** más allá de la asignación estándar a través de su representante de cuenta de Microsoft.
+Por cada 10 licencias de usuario de **Teléfono Teams Estándar** o **Teléfono de Teams con plan de llamadas** en su organización, está disponible una licencia más de **cuenta de recursos de Teléfono de Teams**.  La mayoría de las organizaciones tendrán suficientes licencias de **la cuenta de recursos de Teléfono de Teams** en función de este plan de escalado. En el caso de que se necesiten más licencias de cuenta de recursos de **teléfono de Teams**, puede comprar más licencias de cuenta de recursos de **teléfono de Teams** más allá de la asignación estándar a través de EA, EAS, EES, CSP, Web Direct, NCE – Customer led y NCE – Partner led o su representante de cuenta de Microsoft.
 
 ### <a name="license-allocation-example"></a>Ejemplo de asignación de licencias
 

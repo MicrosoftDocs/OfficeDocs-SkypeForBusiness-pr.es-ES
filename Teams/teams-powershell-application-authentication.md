@@ -12,12 +12,12 @@ ms.collection:
 description: Obtenga más información sobre la autenticación basada en aplicaciones en el Módulo de PowerShell de Teams, usado para la administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fd2928b62b71f0f981ecd0083cf4b15acc2da3f
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 04cc2e3c069f30e44dd0c62a42be42fd1cce16b7
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928337"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307955"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Autenticación basada en aplicaciones en el módulo de PowerShell de Teams
 
@@ -91,8 +91,8 @@ Los pasos de ejemplo para crear aplicaciones en Azure Ad se mencionan a continua
 
 1. Registrar la aplicación en Azure AD
 2. Asignar permisos de API a la aplicación
-   - Para \*cmdlets -Cs: no se necesitan permisos de API.
-   - Para cmdlets que no \*sean Cs: los permisos de Microsoft Graph API necesarios son `User.Read.All`, , `AppCatalog.ReadWrite.All``Group.ReadWrite.All`, `TeamSettings.ReadWrite.All`, `Channel.Delete.All`, `ChannelSettings.ReadWrite.All``ChannelMember.ReadWrite.All`.  
+   - Para \*cmdlets -Cs: el permiso de Microsoft Graph API necesario es `Organization.Read.All`.
+   - Para cmdlets que no \*son de Cs: los permisos Microsoft Graph API necesarios son `Organization.Read.All`, , `User.Read.All``Group.ReadWrite.All`, `AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All`, `ChannelSettings.ReadWrite.All``Channel.Delete.All``ChannelMember.ReadWrite.All`.  
 3. Generar un certificado autofirmado
 4. Adjuntar el certificado a la aplicación de Azure AD
 5. Asignar [roles de Azure AD](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) a la aplicación

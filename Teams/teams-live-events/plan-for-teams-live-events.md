@@ -21,12 +21,12 @@ description: En este artículo encontrará información sobre los factores que d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1bbc6452847182533271f4aa7c7652ff8b00ba3
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: f458aded53926fed8772de70af2a105cdf9e5fda
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "68966319"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307655"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -107,7 +107,7 @@ En la tabla siguiente se resaltan las funcionalidades y características princip
 > [!IMPORTANT]
 > **Aumento del límite de eventos en directo de Microsoft 365**
 >
-> **Para seguir admitiendo las necesidades de nuestros clientes, ampliaremos los aumentos de límite temporal para los eventos en directo hasta el 31 de diciembre de 2022, incluidos**:
+> **Para seguir apoyando las necesidades de nuestros clientes, ampliaremos los aumentos temporales de los eventos en directo hasta el 30 de junio de 2023, incluyendo:**
 >
 >- Soporte de eventos de hasta 20 000 asistentes
 >- 50 eventos se pueden hospedar de forma simultánea en un espacio empresarial

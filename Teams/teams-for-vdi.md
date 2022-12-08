@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92d46cacd510f448943deba86a6ed25d4f4360ab
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 3a3193b48559fdfc941181963e493d73668bef52
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706517"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307755"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -66,7 +66,7 @@ Las siguientes plataformas tienen soluciones de infraestructura de escritorio vi
 
 |Plataforma|Solución|
 |----|---|
-|![El logotipo que representa a Microsoft.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a>, <a href="/windows-365/enterprise/teams-on-cloud-pc" target="_blank">Windows 365</a> |
+|![El logotipo que representa Microsoft.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a>, <a href="/windows-365/enterprise/teams-on-cloud-pc" target="_blank">Windows 365</a> |
 |![El logotipo que representa a Citrix.](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps y Desktops</a> |
 |![El logotipo que representa VMware.](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
@@ -200,7 +200,7 @@ Para obtener más información sobre Teams y Aplicaciones Microsoft 365 para emp
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        Este proceso instala Teams en la `%ProgramFiles(x86)%` carpeta de un sistema operativo de 32 bits y en la `%ProgramFiles%` carpeta de un sistema operativo de 64 bits. En este punto, la configuración de la imagen dorada está completa.
+        Este proceso instala Teams en la `%ProgramFiles(x86)%` carpeta de un sistema operativo de 64 bits y en la `%ProgramFiles%` carpeta de un sistema operativo de 32 bits. En este punto, la configuración de la imagen dorada está completa.
 
         > [!IMPORTANT]
         >  Es necesario instalar Teams por equipo para las configuraciones no persistentes.
@@ -401,9 +401,9 @@ Las directivas de VDI de Teams están disponibles en el módulo Teams. Estas dir
 > [!NOTE]
 > Esto es solo para entornos no optimizados.
 
-### <a name="connect-to-microsoft-teams-powershell"></a>Conectarse a Microsoft Teams PowerShell
+### <a name="connect-to-microsoft-teams-powershell"></a>Conectarse a Microsoft PowerShell de Teams
 
-Siga las instrucciones [de Instalar el módulo de Microsoft Teams PowerShell](/Teams/teams-powershell-install.md) para conectarse al módulo de Microsoft Teams PowerShell. A continuación, ejecute el siguiente comando para confirmar que todos los cmdlets VDI están disponibles:
+Siga las instrucciones de [Instalar Microsoft Módulo de PowerShell de Teams](/Teams/teams-powershell-install.md) para conectarse al módulo de PowerShell de Microsoft Teams. A continuación, ejecute el siguiente comando para confirmar que todos los cmdlets VDI están disponibles:
 
 ```PowerShell
 Get-Command -Noun *VDI*
@@ -526,7 +526,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 ```
 
-A continuación, reinicie VDA. Para obtener más información, consulte este artículo de soporte técnico de Citrix, [Solución de problemas de optimización HDX para Microsoft Teams](https://support.citrix.com/article/CTX253754).
+A continuación, reinicie VDA. Para obtener más información, consulte este artículo de soporte técnico de Citrix, [Solución de problemas de optimización de HDX para Microsoft Teams](https://support.citrix.com/article/CTX253754).
 
 ## <a name="related-topics"></a>Temas relacionados
 

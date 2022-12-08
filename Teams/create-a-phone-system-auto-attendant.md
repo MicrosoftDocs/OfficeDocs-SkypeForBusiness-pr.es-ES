@@ -21,16 +21,16 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 adobe-target: true
-adobe-target-activity: ''
+adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY22Q2
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: Obtenga información sobre cómo configurar y administrar operadores automáticos en Microsoft Teams.
-ms.openlocfilehash: 1908ccb02fa3aadc0bb906f718e5493eb8ff8e2f
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: 1484b70dca4ffe1e148522cf6e907f79be732702
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251763"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307545"
 ---
 # <a name="set-up-a-microsoft-teams-auto-attendant"></a>Configurar un operador automático de Microsoft Teams
 
