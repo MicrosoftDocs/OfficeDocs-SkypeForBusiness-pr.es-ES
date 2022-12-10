@@ -21,13 +21,13 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
-description: Use telemetría en tiempo real con detalles sobre dispositivos, redes y conectividad para solucionar problemas de usuario con las reuniones programadas de Microsoft Teams.
-ms.openlocfilehash: 203f16d83d211a4a85f3217992d509bccba5dea3
-ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
+description: Use telemetría en tiempo real con detalles sobre dispositivos, redes y conectividad para solucionar problemas de usuario con Microsoft reuniones programadas de Teams.
+ms.openlocfilehash: bbda6d34a990ad810b22ce1742ab60a886295a6a
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66810182"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343291"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Usar telemetría en tiempo real para solucionar problemas de mala calidad de la reunión
 
@@ -37,7 +37,7 @@ En este artículo se explica cómo usar Real-Time Analytics (ATR) para soluciona
 - Especialista en soporte técnico de comunicaciones de Teams
 - Ingeniero de soporte en comunicaciones de Teams
 
-Para obtener más información sobre los roles de administrador de Teams, consulte [Usar los roles de administrador de Microsoft Teams para administrar Teams](/MicrosoftTeams/using-admin-roles).
+Para obtener más información sobre los roles de administrador de Teams, vea [Usar Microsoft roles de administrador de Teams para administrar Teams](/MicrosoftTeams/using-admin-roles).
 
 Real-Time Analytics permite a los administradores de TI ver las reuniones programadas de sus usuarios importantes y ver el audio, el vídeo, el uso compartido de contenido y los problemas relacionados con la red. Como administrador, puede usar esta telemetría para investigar estos problemas durante las reuniones y solucionarlos en tiempo real.
 
@@ -55,6 +55,10 @@ Para ver toda la información y los datos de la reunión de un usuario, vaya al 
 
 :::image type="content" alt-text="Captura de pantalla de la tabla de reuniones recientes." source="media/recent-meetings.png" lightbox="media/recent-meetings.png":::
 
+> [!NOTE]
+> Para que una reunión aparezca en "Reuniones recientes", un administrador de Teams debe haber hecho clic en la reunión en Real-Time Analytics mientras la reunión estaba en curso para comenzar el flujo de telemetría del cliente en tiempo real.
+
+
 Para obtener información adicional sobre los participantes de una reunión que está en curso, incluyendo su dispositivo, red y estadísticas de audio, busque la reunión en **Reuniones recientes** y seleccione el vínculo en la columna **Participantes** .
 
 :::image type="content" alt-text="Captura de pantalla de la tabla de detalles del participante." source="media/participant-details-edit.png" lightbox="media/participant-details-edit.png":::
@@ -70,7 +74,7 @@ Para ver la telemetría de un usuario determinado para una reunión en curso, in
 |:---|:---|:---|
 | Dispositivo de captura de audio | Nombre del dispositivo de captura de audio (por ejemplo: micrófono) en uso | Es posible que el sistema no tenga un nombre asociado con el dispositivo (por ejemplo: Dispositivo de escritorio remoto o de máquina virtual 'Audio remoto')  |
 | Dispositivo de representación de audio | Nombre del dispositivo de representación de audio (por ejemplo: altavoces o auriculares) en uso | Es posible que el sistema no tenga un nombre asociado con el dispositivo (por ejemplo: Dispositivo de escritorio remoto o de máquina virtual 'Audio remoto')  |
-| Dispositivo de captura de vídeo | Nombre del dispositivo de captura de vídeo en uso | El usuario no está enviando vídeo desde el punto de conexión que se está supervisando |
+| Dispositivo de captura de vídeo | Nombre del dispositivo de captura de vídeo en uso | El usuario no envía vídeo desde el punto de conexión que se está supervisando |
 
 ### <a name="connectivity-information"></a>Información de conectividad
 | Métrica | Unidades/Posibles valores | Descripción | Posibles razones para valores en blanco|
@@ -86,7 +90,7 @@ Para ver la telemetría de un usuario determinado para una reunión en curso, in
 | Tipo de conectividad | UDP o TCP | Protocolo de capa de transporte en uso; UDP es el preferido para medios en tiempo real | |
 
 ### <a name="user-signals"></a>Señales de usuario
-Las señales de usuario identifican cuándo un usuario participa activamente en la llamada, no está hablando, pero está activado o silenciado. Actualmente, las señales de usuario solo están disponibles para el audio.
+Las señales de usuario identifican cuándo un usuario participa activamente en la llamada, no está hablando, pero no está activado o está silenciado. Actualmente, las señales de usuario solo están disponibles para el audio.
 
 | Modalidad | Valores posibles | Descripción |
 |:---|:---|:---|
@@ -148,6 +152,8 @@ Las señales de usuario identifican cuándo un usuario participa activamente en 
 
 ## <a name="limitations"></a>Limitaciones
 
+- La suscripción de telemetría en tiempo real no es automática para todas las reuniones y debe iniciarla un administrador de Teams mientras la reunión está en curso.
+- La telemetría en tiempo real solo estará disponible para los puntos de conexión admitidos por una reunión desde el punto en el que el administrador primero ha hecho clic en la reunión en curso en Real-Time Analytics.
 - La telemetría en tiempo real solo está disponible para las reuniones programadas y Reunirse ahora. En las llamadas RTC, individuales y grupales, la telemetría en tiempo real no está disponible.
 - La telemetría en tiempo real solo está disponible para los moderadores de eventos en directo programados. Actualmente no está disponible para los asistentes al evento en directo.
 - Los datos de telemetría en tiempo real están disponibles para una reunión en **Reuniones recientes** durante 24 horas después de que finalice la reunión. Después de 24 horas, no puede acceder a los datos y la reunión se mueve a **Reuniones pasadas**. Si una reunión dura más de 3 horas, la telemetría en tiempo real solo estará disponible durante las *últimas 3 horas*.
@@ -161,4 +167,4 @@ Las señales de usuario identifican cuándo un usuario participa activamente en 
 
 [Configurar análisis de llamadas por usuario](set-up-call-analytics.md)
 
-[Use los roles de administrador de Microsoft Teams para administrar Teams](/MicrosoftTeams/using-admin-roles).
+[Use Microsoft roles de administrador de Teams para administrar Teams](/MicrosoftTeams/using-admin-roles).

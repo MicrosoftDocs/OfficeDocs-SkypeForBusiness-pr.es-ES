@@ -3,7 +3,7 @@ title: Configurar puerta de enlace SIP
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/30/2021
+ms.date: 12/8/2022
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b785ffe1c9e08507c1d45a1e837cf7020ec1d711
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: c93aec7cb65cdd40c05a540b51a3da8ba268c7e9
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584309"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343300"
 ---
 # <a name="configure-sip-gateway"></a>Configurar puerta de enlace SIP
 
@@ -37,13 +37,13 @@ Antes de que pueda configurar puerta de enlace SIP, haga lo siguiente:
 
 - **Restablecer los dispositivos SIP a la configuración predeterminada de fábrica.** Usted o los usuarios de su organización deben restablecer cada dispositivo SIP que se usa con SIP Gateway a su configuración predeterminada de fábrica. Para saber cómo hacerlo, consulta las instrucciones del fabricante.
 
-- **Abra el firewall en Microsoft 365 y Teams.** Abra el firewall de su red para el tráfico de Microsoft 365 y Teams tal y como se describe en [Office 365 URL e intervalos de direcciones IP](/microsoft-365/enterprise/urls-and-ip-address-ranges). Las reglas de firewall son necesarias solo para el tráfico saliente.
+- **Abra el firewall para Microsoft 365 y Teams.** Abra el firewall de su red para Microsoft 365 y el tráfico de Teams, como se describe en [Office 365 URL e intervalos de direcciones IP](/microsoft-365/enterprise/urls-and-ip-address-ranges). Las reglas de firewall son necesarias solo para el tráfico saliente.
 
 - **Asegúrese de que los dispositivos SIP no están detrás de un proxy.** Asegúrese de que el tráfico http/s omite cualquier proxy http/s corporativo.
 
-- **Abra el puerto UDP.** Abra el puerto UDP en el intervalo de 49152 a 53247 para los intervalos IP 52.112.0.0/14 y 52.120.0.0/14.
+- **Abra el puerto UDP.** Abra el puerto UDP en el intervalo de 49152 a 53247 para intervalos IP 52.112.0.0/14 y 52.122.0.0/15.
 
-- **Abra el puerto TCP.** Abra el puerto TCP 5061 para los intervalos IP 52.112.0.0/14 y 52.120.0.0/14.
+- **Abra el puerto TCP.** Abra el puerto TCP 5061 para los intervalos IP 52.112.0.0/14 y 52.122.0.0/15.
 
 - **Abra los siguientes puntos de conexión https (direcciones IP y DIRECCIONES URL):**
 
@@ -104,7 +104,7 @@ Para habilitar Puerta de enlace SIP en el Centro de administración de Teams, si
 
 ### <a name="by-using-powershell"></a>Mediante PowerShell
 
-También puede habilitar SIP Gateway mediante el cmdlet [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) de PowerShell. Para habilitar a los usuarios para dispositivos SIP, seleccione una directiva y establezca el atributo en `-AllowSIPDevicesCalling` `True`. El valor predeterminado es `False`, por lo que los usuarios no podrán usar sus dispositivos SIP a menos que los habilite.
+También puede habilitar SIP Gateway mediante el cmdlet [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy) de PowerShell. Para habilitar a los usuarios para dispositivos SIP, seleccione una directiva y establezca el atributo en `-AllowSIPDevicesCalling` `True`. El valor predeterminado es `False`, por lo que los usuarios no podrán usar sus dispositivos SIP a menos que los habilite.
 
 > [!NOTE]
 > - La propagación de directivas puede tardar hasta 24 horas.
@@ -184,7 +184,7 @@ Para simplificar las tareas, puede inscribir dispositivos SIP en el centro de ad
 
    - **Para aprovisionar muchos dispositivos:**
 
-     a. En **Esperando la activación**, a la derecha, seleccione **Exportar** (el icono de Microsoft Excel).
+     a. En **Esperando la activación**, a la derecha, seleccione **Exportar** (el icono Microsoft Excel).
      
      b. En el panel **Aprovisionar dispositivos** , en **Cargar varias direcciones MAC**, seleccione **Descargar una plantilla**.
      
@@ -204,7 +204,7 @@ Para simplificar las tareas, puede inscribir dispositivos SIP en el centro de ad
 
 7. Ve a [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin)y, en **Escribir código**, escribe el código de emparejamiento del dispositivo SIP y, a continuación, selecciona **Siguiente**.
 
-8. En la página Inicio de **sesión de** Microsoft, en el campo **Email o teléfono**, escribe la dirección de correo electrónico del dispositivo SIP y, a continuación, selecciona **Siguiente**.
+8. En la página Microsoft Inicio de **sesión**, en el campo **Email o teléfono**, escriba la dirección de correo electrónico del dispositivo SIP y, después, seleccione **Siguiente**.
 
 9. En la página **Contraseña** , escriba la contraseña de la dirección de correo electrónico del dispositivo SIP y, a continuación, seleccione **Iniciar sesión**.
 
@@ -309,7 +309,7 @@ Cómo establecer el japonés para los Teléfonos Cisco:
 
 ## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams y IPv6
 
-SIP Gateway solo admite IPv4. El servicio y el cliente de Microsoft Teams son compatibles tanto con IPv4 como con IPv6. Si desea controlar las comunicaciones con Microsoft Teams, use los intervalos de direcciones IP de [las direcciones URL e intervalos de direcciones IP de Microsoft 365](/microsoft-365/enterprise/urls-and-ip-address-ranges).
+SIP Gateway solo admite IPv4. Microsoft el servicio y el cliente de Teams son compatibles tanto con IPv4 como con IPv6. Si desea controlar las comunicaciones con Microsoft Teams, use los intervalos de direcciones IP de [Microsoft 365 direcciones URL e intervalos de direcciones IP](/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 ## <a name="emergency-calling"></a>Llamadas de emergencia
 

@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Administración de clientes multiempresa para partners.
 f1keywords: ''
-ms.openlocfilehash: 681efe6832a3829b54b23345f04e32151f130939
-ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
+ms.openlocfilehash: 6a98ff56548dcefc48be41657b368a9634ad8123
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "69046829"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343310"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>Administración de clientes multiempresa para partners
 
@@ -36,7 +36,7 @@ El portal MTM se puede acceder a través de este [link](https://partner.rooms.mi
 
 ## <a name="pre-requisites-for-managing-your-customers-through-the-mtm-experience"></a>Requisitos previos para administrar a sus clientes a través de la experiencia MTM
 
-Para obtener acceso al portal de MTM, tu organización debe incorporarse como socio Elite para MTR Pro Management. Para convertirte en un socio elite, ponte en contacto con askelite@microsoft.com.
+El programa Elite que ofreció acceso a la consola Multitenant Management se ha interrumpido y no estamos incorporando nuevos socios a este programa. Agradecemos su comprensión y paciencia, y anunciaremos un nuevo formato pronto. 
 
 ## <a name="on-boarding-customers"></a>Clientes que se alojen en el alojamiento
 
@@ -161,9 +161,9 @@ Como partner, puede crear roles personalizados que se adapten a sus requisitos o
 
 Los clientes finales conservan el control sobre el acceso a sus datos y pueden quitar por completo un partner o roles específicos en cualquier momento.
 
-Con la característica de acceso delegado, un partner no obtiene ningún otro privilegio fuera del portal de administración de pro. Por ejemplo, al usar esta característica para invitar a un partner a administrar salas en el portal de administración de pro, no se conceden permisos a AAD ni al Centro de Administración de Teams ni a ningún otro producto de Microsoft. Además, los partners no tienen acceso para ver o modificar salas no definidas en el ámbito de la invitación.
+Con la característica de acceso delegado, un partner no obtiene ningún otro privilegio fuera del portal de administración de pro. Por ejemplo, al usar esta característica para invitar a un partner a administrar salas en el portal de Administración profesional, no se conceden permisos a AAD ni al Centro de Administración de Teams ni a ningún otro producto Microsoft. Además, los partners no tienen acceso para ver o modificar salas no definidas en el ámbito de la invitación.
 
-Una vez establecido el partner (relación con el cliente), como se describe en los "clientes de incorporación" de este documento, el partner puede ver los datos de sala en el portal de Administración profesional. Esto incluye todos los datos presentes en el portal de administración de Pro, pero derivados de otros productos de Microsoft. Por ejemplo, los informes de calidad de llamadas en el portal de administración profesional se derivan de los datos de calidad de llamadas de Teams.
+Una vez establecido el partner (relación con el cliente), como se describe en los "clientes de incorporación" de este documento, el partner puede ver los datos de sala en el portal de Administración profesional. Esto incluye todos los datos presentes en el portal pro management, pero derivados de otros productos Microsoft. Por ejemplo, los informes de calidad de llamadas en el portal de administración profesional se derivan de los datos de calidad de llamadas de Teams.
 
 Los datos residen en el inquilino del cliente y no se copian en el inquilino del partner. 
 

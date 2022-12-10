@@ -25,16 +25,16 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: Guía paso a paso que detalla cómo configurar Teams Phone System para su organización en Microsoft 365.
-ms.openlocfilehash: beb82fd78fa58a4a3339dc1b7a5f54ceb5117479
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: 974cabac0d02f30d9371114e0f6886fdbc9f9389
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999545"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343180"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar Sistema telefónico en su organización
 
-Este artículo proporciona un plan de desarrollo del contenido para la configuración del sistema telefónico: la tecnología de Microsoft para habilitar el control de llamadas y las funcionalidades de central de centrales privadas (PBX) en la nube de Microsoft 365. Los vínculos a información más detallada están disponibles al final de cada paso.
+Este artículo proporciona un plan de desarrollo del contenido para la configuración del sistema telefónico, la tecnología de Microsoft para habilitar el control de llamadas y las funcionalidades de central de centrales de telefonía privada (PBX) en la nube de Microsoft 365. Los vínculos a información más detallada están disponibles al final de cada paso.
 
 Antes de leer este artículo, asegúrate de que has leído [Qué es sistema telefónico](what-is-phone-system-in-office-365.md) y [esto es lo que obtienes con Sistema telefónico](here-s-what-you-get-with-phone-system.md). En estos dos últimos artículos se describen los requisitos y características del sistema telefónico.
 
@@ -50,7 +50,7 @@ En este artículo se describen los siguientes pasos:
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Paso 1: Comprar y asignar una licencia de Sistema telefónico
 
-Para asignar una licencia de Sistema telefónico a un solo usuario, los pasos son los mismos que para asignar una licencia de Microsoft 365. También puede asignar licencias a varios usuarios de forma masiva. Para obtener más información sobre las licencias disponibles de Phone System y cómo adquirir y asignar licencias, consulte [Licencias de complementos de Teams](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) y [Asignar licencias de complementos de Microsoft Teams](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
+Para asignar una licencia de Sistema telefónico a un único usuario, los pasos son los mismos que para asignar una licencia de Microsoft 365. También puede asignar licencias a varios usuarios de forma masiva. Para obtener más información sobre las licencias disponibles de Sistema telefónico y cómo adquirir y asignar licencias, consulte [Licencias de complementos de Teams](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) y [Asignar licencias de complementos de Microsoft Teams](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>Paso 2. Elegir una opción de conectividad con RTC
 
@@ -58,7 +58,9 @@ Para permitir que los usuarios realicen y reciban llamadas externas, deberá con
 
 - Plan de llamadas. Una solución todo en la nube con Microsoft como su operador de RTC.
 
-- Operador Conectar. Si su operador actual participa en el programa Microsoft Operator Connect, puede administrar las llamadas RTC y los controladores de borde de sesión (SFC) por usted.
+- Operador Conectar. Si su operador actual participa en el programa Microsoft Operator Connect, puede administrar las llamadas RTC y los controladores de borde de sesión (SBCs) por usted.
+
+- Teams Phone Mobile. Si su operador actual participa en el programa de Teléfono móvil Microsoft Teams, puede administrar el servicio para usar números de teléfono móviles habilitados para SIM con Teams.
 
 - Enrutamiento directo. Use su propio operador RTC conectando sus SBCs a Phone System.
 
@@ -81,12 +83,12 @@ Describe los dos tipos de [números de teléfono de usuario](manage-phone-number
 
 Además de obtener números de teléfono para los usuarios, puede adquirir números de teléfono de pago o gratuitos para servicios como operadores automáticos y colas de llamadas. Un número de servicio puede administrar cientos de llamadas simultáneamente, mientras que el número de teléfono de un usuario solo puede atender algunas llamadas simultáneamente.
 
-Puede obtener números de servicio de Microsoft incluidos en su licencia. Si tiene conectividad CON RTC a través de Operator Connect o Direct Routing, puede usar los números de servicio proporcionados por su propio operador o operador.
+Puede obtener números de servicio de Microsoft incluidos en la licencia. Si tiene conectividad CON RTC a través de Operator Connect o Direct Routing, puede usar los números de servicio proporcionados por su propio operador o operador.
 
 Para obtener más información, vea:
 
 - [Administrar números de teléfono para su organización](manage-phone-numbers-landing-page.md) : proporciona información general sobre los tipos de números de teléfono con vínculos a artículos específicos para adquirir y administrar números en función de la opción de conectividad con RTC.
-Describe los [números de teléfono de servicio](manage-phone-numbers-landing-page.md#service-telephone-numbers) disponibles de Microsoft que se incluyen en la licencia. Para obtener información sobre los números de servicio proporcionados por el operador Conectar o enrutamiento directo, póngase en contacto con su proveedor.
+Describe los [números de teléfono de servicio](manage-phone-numbers-landing-page.md#service-telephone-numbers) disponibles de Microsoft incluidos en la licencia. Para obtener información sobre los números de servicio proporcionados por el operador Conectar o enrutamiento directo, póngase en contacto con su proveedor.
 
 - [Cuántos números de teléfono puede obtener](how-many-phone-numbers-can-you-get.md) : describe cuántos números de teléfono puede obtener, dependiendo de los tipos de números de teléfono y tipos de licencias que haya comprado y asignado.
 
