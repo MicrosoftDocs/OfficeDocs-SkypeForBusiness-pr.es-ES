@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: Obtenga más información sobre Microsoft Teams Premium para administradores y profesionales de TI.
-ms.openlocfilehash: f38afe581c96cfe64bd5fd305c3d5f7f09b7c83e
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 2d7c43f6dd46a635d7aceaaa95548b8c4f31f590
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69308041"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379467"
 ---
 # <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams Premium: información general para administradores
 
@@ -65,13 +65,13 @@ Teams Premium ofrece formas adicionales de proteger las reuniones con las siguie
 
 
 
-| Característica/tarea  | Documentación para administradores |
-| -------------------- | ----------- | 
-| Etiquetas de confidencialidad | [Configurar reuniones de Teams con tres niveles de protección](configure-meetings-three-tiers-protection.md) | 
-| Filigranas | [Requerir una marca de agua para reuniones (artículo)](watermark-meeting-content-video.md) |
-| Cifrado de un extremo a otro (E2EE) | [Cifrado para reuniones confidenciales](end-to-end-encrypted-meetings.md) | 
-| Plantillas, etiquetas y directivas | [Plantillas, etiquetas de confidencialidad y directivas](meeting-templates-sensitivity-labels-policies.md)
-| Restringir quién puede grabar | [Administrar las grabaciones de reuniones confidenciales](manage-meeting-recording-options.md) | 
+| Característica/tarea  | Documentación para administradores | Documentación para los usuarios finales
+| -------------------- | ----------- | ------------ |
+| Etiquetas de confidencialidad | [Configurar reuniones de Teams con tres niveles de protección](configure-meetings-three-tiers-protection.md) | |
+| Filigranas | [Requerir una marca de agua para reuniones](watermark-meeting-content-video.md) | [Marcas de agua para reuniones](https://support.microsoft.com/office/watermark-for-teams-meetings-a9166432-f429-4a19-9a72-c9e8fdf4f589)|
+| Cifrado de un extremo a otro (E2EE) | [Cifrado para reuniones confidenciales](end-to-end-encrypted-meetings.md) | [Usar cifrado](https://support.microsoft.com/office/use-end-to-end-encryption-for-teams-meetings-a8326d15-d187-49c4-ac99-14c17dbd617c)  |
+| Plantillas, etiquetas y directivas | [Plantillas, etiquetas de confidencialidad y directivas](meeting-templates-sensitivity-labels-policies.md)  | [Usar plantillas personalizadas](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f) |
+| Restringir quién puede grabar | [Administrar las grabaciones de reuniones confidenciales](manage-meeting-recording-options.md) | [Grabar una reunión](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24?storagetype=stage#bkmk_whocanstartorstoparecording) |
 
 
 ## <a name="custom-meetings"></a>Reuniones personalizadas
@@ -86,12 +86,12 @@ Teams Premium ofrece las siguientes características adicionales para personaliz
 
 - **Personalizar escenas en modo conjunto** : una aplicación de Teams que permite a los desarrolladores de su organización definir y personalizar escenas de vídeo para las reuniones.  
 
-| Característica/tarea | Documentación para administradores |
-| -------------------- | ----------- | 
-| Plantillas de reunión | - [Visión general](custom-meeting-templates-overview.md)<br>- [Crear una plantilla de reunión personalizada](create-custom-meeting-template.md)|
-| Temas de reuniones | [Temas para reuniones de Teams](meeting-themes.md) | 
-| Fondos de reunión personalizados | [Fondos de reunión](custom-meeting-backgrounds.md)| 
-| Personalizar escenas del modo conjunto | [Contenido para usted y sus desarrolladores](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| 
+| Característica/tarea | Documentación para administradores | Documentación para los usuarios finales
+| -------------------- | ----------- | ------------ |
+| Plantillas de reunión | - [Visión general](custom-meeting-templates-overview.md)<br>- [Crear una plantilla de reunión personalizada](create-custom-meeting-template.md)| [Usar plantillas personalizadas](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
+| Temas de reuniones | [Temas para reuniones de Teams](meeting-themes.md) | [Usar temas de reunión](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
+| Fondos de reunión personalizados | [Fondos de reunión](custom-meeting-backgrounds.md)| |
+| Personalizar escenas del modo conjunto | [Contenido para usted y sus desarrolladores](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
 
 
 
@@ -108,11 +108,11 @@ Teams Premium ofrece una experiencia avanzada de seminario web para los usuarios
 - **Información general y administración del registro** : para cada evento, un resumen del estado del registro con listas de asistentes en diferentes estados de registro, dependiendo de qué características de registro se hayan habilitado.
 
 
-| Característica/tarea | Documentación para administradores | 
-| -------------------- | ----------- | 
-| Comprender reuniones, seminarios web y eventos en directo | [Guía de inicio rápido](quick-start-meetings-live-events.md) | 
-| Configurar seminarios web | [Configurar seminarios web](set-up-webinars.md) | 
-| Directiva de reunión para seminarios web | [Directivas de reunión](meeting-policies-in-teams-general.md)
+| Característica/tarea | Documentación para administradores | Documentación para los usuarios finales
+| -------------------- | ----------- | ----------- |
+| Comprender reuniones, seminarios web y eventos en directo | [Guía de inicio rápido](quick-start-meetings-live-events.md) | |
+| Configurar seminarios web | [Configurar seminarios web](set-up-webinars.md) | - [Administrar el registro de seminario web](https://support.microsoft.com/office/manage-webinar-registration-923f382a-0cca-433a-b38d-7461971192d1) <br> - [Administrar lo que ven los asistentes](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
+| Directiva de reunión para seminarios web | [Directivas de reunión](meeting-policies-in-teams-general.md) | |
 
 
 

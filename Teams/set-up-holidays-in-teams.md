@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar los días festivos en Microsoft Teams para usarlos con sus operadores automáticos.
-ms.openlocfilehash: e3d23c3d289f3ce2698d9bd0b774c40a46d69004
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 6ed508f9060ff6ab5e0fb427c500b9e1cd8a707f
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614403"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379336"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurar vacaciones en Microsoft Teams
 
@@ -37,7 +37,7 @@ Los días festivos que cree aquí estarán disponibles al [configurar un operado
 
 Para crear un día festivo
 
-1. En el Centro de administración de Microsoft Teams, vaya a **Días festivos** **de voz** > .
+1. En el centro de administración de Microsoft Teams, vaya a **Días festivos** **de voz** > .
 
 2. Seleccione **Nuevo día festivo**.
 
@@ -56,7 +56,7 @@ Para crear un día festivo
    > [!NOTE]
    > Si el día festivo es de un día completo (es decir, un período de 24 horas), la **hora de finalización** debe establecerse al día siguiente y la hora a las 12:00 a.m. Por ejemplo, si su organización está cerrada el 1 de enero para el día de Año Nuevo, establezca la **hora de inicio** en 1 de enero a las 12:00 y establezca la **hora de finalización** en 2 de enero a 12:00 a.m.
 
-9. Opcionalmente, puede agregar más fechas para los días festivos periódicos.
+9. Opcionalmente, puede agregar más fechas para los días festivos periódicos. Se pueden agregar hasta 10 intervalos de fechas independientes a un único día festivo.  
 
 10. Seleccione **Guardar**.
 
@@ -66,7 +66,7 @@ Para crear un día festivo
 
 Para cambiar un día festivo
 
-1. En el Centro de administración de Microsoft Teams, vaya a **Días festivos** **de voz** > .
+1. En el centro de administración de Microsoft Teams, vaya a **Días festivos** **de voz** > .
 
 2. Seleccione el día festivo de la lista.
 

@@ -25,12 +25,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: Obtenga información sobre cómo configurar y administrar operadores automáticos en Microsoft Teams.
-ms.openlocfilehash: 1484b70dca4ffe1e148522cf6e907f79be732702
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 1294559d1fcca7b1dace8f12cd3203b7effa4c80
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307545"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379396"
 ---
 # <a name="set-up-a-microsoft-teams-auto-attendant"></a>Configurar un operador automático de Microsoft Teams
 
@@ -172,7 +172,7 @@ Una vez que haya agregado el flujo de llamadas fuera del horario laboral, selecc
 
 ## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Paso 4: Configurar flujos de llamadas para días festivos (opcional)
 
-El operador automático puede tener un flujo de llamadas para cada [día festivo que haya configurado](set-up-holidays-in-teams.md). Puede agregar un máximo de 20 días festivos programados a cada operador automático.
+El operador automático puede tener un flujo de llamadas para cada [día festivo que haya configurado](set-up-holidays-in-teams.md). Puede agregar hasta 20 conjuntos de días festivos a cada operador automático. Cada conjunto de días festivos puede contener hasta 10 intervalos de fechas únicos. Las fechas de los días festivos deben ser únicas en todos los conjuntos de días festivos que se agreguen al operador automático.
 
 *Nuevo: se puede habilitar la opción Forzar escucha que requiere que los autores de llamadas escuchen todas las opciones de menú antes de realizar la selección.*
  *Las teclas Nuevo - \* (asterisco) y \# (almohadilla) ahora se pueden usar en las opciones de menú.*

@@ -21,16 +21,16 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y administrar operadores automáticos en Microsoft Teams.
-ms.openlocfilehash: 97f298e03a6495dda4ec7568f3e3b022548bba08
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+ms.openlocfilehash: 0acdbacb9899184aaf21003193d62b3dcc4eab3a
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139264"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379366"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar un operador automático
 
-Los operadores automáticos permiten que las personas llamen a su organización y naveguen por un sistema de menús para hablar con el departamento, la cola de llamadas, la persona o un operador adecuados. Puede crear operadores automáticos para su organización con el Centro de administración de Microsoft Teams o con PowerShell.
+Los operadores automáticos permiten que las personas llamen a su organización y naveguen por un sistema de menús para hablar con el departamento, la cola de llamadas, la persona o un operador adecuados. Puede crear operadores automáticos para su organización con el centro de administración de Microsoft Teams o con PowerShell.
 
 Asegúrese de que ha leído [Plan para operadores automáticos y colas de llamadas de Teams](plan-auto-attendant-call-queue.md) y ha seguido los [pasos de introducción](plan-auto-attendant-call-queue.md#getting-started) antes de seguir los procedimientos de este artículo.
 
@@ -39,7 +39,7 @@ Los operadores automáticos pueden redirigir las llamadas, en función de la ent
 - **Operador:** el operador definido para el operador automático. Definir un operador es opcional. El operador puede definirse como cualquiera de los otros destinos de esta lista.
 - **Persona de la organización** : una persona de la organización que puede recibir llamadas de voz. Esta persona puede ser un usuario en línea o un usuario hospedado localmente mediante Skype Empresarial Server.
 - **Aplicación de voz** : otro operador automático o una cola de llamadas. (Elija la cuenta de recursos asociada con el operador automático o la cola de llamadas al elegir este destino).
-- **Correo de voz** : el buzón de voz asociado a un grupo de Microsoft 365 que especifique. Puede elegir si quiere las transcripciones del correo de voz y "Deje un mensaje después del tono". símbolo del sistema.
+- **Correo de voz**: el buzón de voz asociado a un grupo de Microsoft 365 que especifique. Puede elegir si quiere las transcripciones del correo de voz y "Deje un mensaje después del tono". símbolo del sistema.
   - En el Centro de Administración de M365, habilite "Permitir que personas que no pertenezcan a la organización envíe un correo electrónico a este equipo" para el grupo de Microsoft 365 que especifique
 - **Número de teléfono externo** : cualquier número de teléfono. Consulta [los detalles técnicos de las transferencias externas](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
 - **Anuncio (archivo de audio):** reproducir un archivo de audio. Un mensaje de anuncio grabado que carga y que se guarda como audio en . WAV, .MP3 o . Formato WMA. La grabación no puede tener más de 5 MB. El sistema reproduce el anuncio y, a continuación, vuelve al menú del operador automático.
@@ -170,7 +170,7 @@ Una vez que haya agregado el flujo de llamadas fuera del horario laboral, selecc
 
 ## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Paso 4: Configurar flujos de llamadas para días festivos (opcional)
 
-El operador automático puede tener un flujo de llamadas para cada [día festivo que haya configurado](set-up-holidays-in-teams.md). Puede agregar un máximo de 20 días festivos programados a cada operador automático.
+El operador automático puede tener un flujo de llamadas para cada [día festivo que haya configurado](set-up-holidays-in-teams.md). Puede agregar hasta 20 conjuntos de días festivos a cada operador automático. Cada conjunto de días festivos puede contener hasta 10 intervalos de fechas únicos. Las fechas de los días festivos deben ser únicas en todos los conjuntos de días festivos que se agreguen al operador automático.
 
 *Nuevo: se puede habilitar la opción Forzar escucha que requiere que los autores de llamadas escuchen todas las opciones de menú antes de realizar la selección.*
  *Las teclas Nuevo - \* (asterisco) y \# (almohadilla) ahora se pueden usar en las opciones de menú.*
@@ -201,7 +201,7 @@ Una vez que haya agregado todas las horas de vacaciones, seleccione **Siguiente*
 
 El *ámbito de marcado* define qué usuarios están disponibles en el directorio cuando el autor de la llamada usa el marcado por nombre o marcado por extensión. El valor predeterminado de **Todos los usuarios en línea** incluye todos los usuarios de la organización que sean usuarios en línea o que se hospeden localmente con Skype Empresarial Server.
 
-Puede incluir o excluir usuarios específicos seleccionando Grupo de **usuarios personalizados** en **Incluir** o **Excluir** y eligiendo uno o más grupos de Microsoft 365, listas de distribución o grupos de seguridad. Por ejemplo, es posible que desee excluir a los ejecutivos de su organización del directorio de marcado.
+Puede incluir o excluir usuarios específicos seleccionando Grupo de **usuarios personalizados** en **Incluir** o **Excluir** y eligiendo uno o más Microsoft 365 grupos, listas de distribución o grupos de seguridad. Por ejemplo, es posible que desee excluir a los ejecutivos de su organización del directorio de marcado.
 
 Si un usuario está en ambas listas, se excluirá del directorio.
 

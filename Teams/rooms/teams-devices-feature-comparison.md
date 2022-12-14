@@ -18,12 +18,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b2173a68951286aa8ea96cdd805971b9d5b5dcb
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: ef7675881448597e8f20717c679fe1eabce11323
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999585"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379457"
 ---
 # <a name="teams-rooms-for-windows-and-android-feature-comparison"></a>comparación de características de Salas de Teams para Windows y Android
 
@@ -33,7 +33,7 @@ La funcionalidad principal está disponible en ambas plataformas, por lo que los
 
 A medida que Microsoft incorpora nuevas características a Teams y a Salas de Teams, nos esforzamos por llevarlas a todas las plataformas, pero las características pueden implementarse en diferentes momentos debido a una serie de factores, incluidos aspectos como la viabilidad técnica y los comentarios de los clientes para cada plataforma. Esto significa que es posible que veas algunas características que se están implementando en Windows antes de que lleguen a la plataforma Android. 
 
-Para ayudarle a guiarle en cuanto a las características disponibles en distintas plataformas, puede consultar el siguiente gráfico, que se actualizará periódicamente. No todas las características Salas de Teams se incluirán en esta lista, por lo que debe seguir consultando el [mapa de ruta de Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) y los representantes de ventas de Microsoft para obtener detalles adicionales.    
+Para ayudarle a guiarle en cuanto a las características disponibles en distintas plataformas, puede consultar el siguiente gráfico, que se actualizará periódicamente. No todas las características Salas de Teams se incluirán en esta lista, por lo que debe seguir consultando el [plan de desarrollo de Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) y Microsoft representantes de ventas para obtener detalles adicionales.    
 
 ## <a name="teams-devices-for-shared-spaces"></a>Dispositivos de Teams para espacios compartidos
 
@@ -66,6 +66,7 @@ Para ayudarle a guiarle en cuanto a las características disponibles en distinta
 |                                          | Uso compartido inalámbrico                                                                                             | Disponible                                                                                                                                      | Disponible                                           |
 |                                          | Transmitir desde dispositivos móviles                                                                                             | Disponible                                                                                                                                      | Disponible                                           |
 |                                          | Resolución de contenido y vídeo: 1080p, 30 FPS                                                                  | Disponible                                                                                                                                      | Disponible                                           |
+|                                          | Control de zoom de inclinación de desplazamiento (PTZ) para cámaras con controles PTZ mecánicos                                         | Disponible                                                                                                                                      | Disponible                                           |
 |                                          | Lista de participantes de la reunión                                                                                  | Disponible                                                                                                                                      | Disponible                                           |
 |                                          | Habilidades de voz de Cortana                                                                                         | Disponible                                                                                                                                      | Próximamente                                         |
 |                                          | Compatibilidad con pantalla doble                                                                                          | Disponible                                                                                                                                      | Disponible                                           |
@@ -87,4 +88,3 @@ Para ayudarle a guiarle en cuanto a las características disponibles en distinta
 |                                          | Medio (6-12 personas)                                                                                         | Disponible                                                                                                                                      | Disponible                                           |
 |                                          | Grande (12-16 personas)                                                                                         | Disponible                                                                                                                                      | Disponible                                           |
 |                                          | Habitación multiusos (más de 16 personas)                                                                              | Disponible                                                                                                                                      | No disponible                                       |
-
