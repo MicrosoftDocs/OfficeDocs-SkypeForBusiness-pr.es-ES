@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas en Microsoft Teams. Las colas de llamadas proporcionan un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: b7cfd7d17c9813d9d3f3ee65ceb7d1a9f1c96be4
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: ea11c7f8dde402c047c8a0aeabb5d724ddccf33b
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69242584"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392540"
 ---
 # <a name="create-a-microsoft-teams-call-queue"></a>Crear una cola de llamadas de Microsoft Teams 
 
@@ -130,9 +130,9 @@ Si no tiene una cuenta de recursos con un número de teléfono asignado:
 
 Después de crear esta nueva cuenta de recurso para el identificador de llamada, seguirá necesitando lo siguiente:
 
-- Asignar una [licencia de cuenta de recursos telefónicos de Teams](manage-resource-accounts.md#assign-a-license)
-- Asignar una licencia del plan de llamadas de Microsoft, asignar un número de teléfono De conexión de operador o asignar una directiva de enrutamiento de voz en línea para enrutamiento directo
-- Asignar el [número de teléfono de servicio a la cuenta de recursos](manage-resource-accounts.md#assign-a-service-number), si usa Microsoft Plan de llamadas
+- Asignar una [licencia de cuenta de recursos telefónicos de Teams](manage-resource-accounts.md#assign-a-license).
+- Asigne una licencia Microsoft plan de llamadas, asigne un número de teléfono Operator Connect o asigne una directiva de enrutamiento de voz en línea para Direct Routing.
+- Asigne el [número de teléfono a la cuenta de recursos](manage-resource-accounts.md#assign-a-phone-number) si usa Microsoft Plan de llamadas.
 
 ### <a name="set-the-call-queue-language"></a>Establecer el idioma de la cola de llamadas
 

@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtenga información sobre cómo Microsoft enrutamiento directo le permite conectar un controlador de borde de sesión (SBC) compatible proporcionado por el cliente al sistema telefónico.
-ms.openlocfilehash: e3da76d8fa3f848945607a7e27f6b162623951b3
-ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
+ms.openlocfilehash: 811115c23d88ff3ce1b7fa6af8f8757afb33fecf
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2022
-ms.locfileid: "69343190"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392330"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -122,26 +122,25 @@ Un usuario de Teams puede iniciar una llamada de Teams a RTC o de Teams a Teams 
 
 Debe asegurarse de lo siguiente:
  
-- CsOnlineVoiceRoutingPolicy está asignado al usuario. 
+- CsOnlineVoiceRoutingPolicy está asignado al usuario.
 
-- Permitir llamadas privadas está habilitado en el nivel de inquilino para Microsoft Teams. 
+- Permitir llamadas privadas está habilitado en el nivel de inquilino para Microsoft Teams.
 
 Direct Routing también admite usuarios con licencia para Microsoft Plan de llamadas. El sistema telefónico con plan de llamadas puede enrutar algunas llamadas usando la interfaz de enrutamiento directo. Sin embargo, los números de teléfono de los usuarios deben adquirirse en línea o transferirse a Microsoft.  
 
-La combinación de plan de llamadas y conectividad de enrutamiento directo para el mismo usuario es opcional, pero podría ser útil. Por ejemplo, cuando al usuario se le asigna un plan de llamadas Microsoft pero quiere enrutar algunas llamadas con el SBC. Uno de los escenarios más comunes es las llamadas a PBX de terceros.  Con PBX de terceros, todas las llamadas, excepto las llamadas a los teléfonos conectados a ese PBX, se enrutan mediante Microsoft Plan de llamadas, pero las llamadas a los teléfonos conectados a PBX de terceros van al SBC y, por tanto, permanecen dentro de la red empresarial y no de la RTC. 
+La combinación de plan de llamadas y conectividad de enrutamiento directo para el mismo usuario es opcional, pero podría ser útil. Por ejemplo, cuando al usuario se le asigna un plan de llamadas Microsoft pero quiere enrutar algunas llamadas con el SBC. Uno de los escenarios más comunes es las llamadas a PBX de terceros.  Con PBX de terceros, todas las llamadas, excepto las llamadas a los teléfonos conectados a ese PBX, se enrutan mediante Microsoft Plan de llamadas, pero las llamadas a los teléfonos conectados a PBX de terceros van al SBC y, por tanto, permanecen dentro de la red empresarial y no de la RTC.
 
-Para obtener más información sobre las licencias del sistema telefónico, consulte [Sacar el máximo partido de Las opciones de Office y planes](https://products.office.com/compare-all-microsoft-office-products?tab=2) y [Microsoft licencias complementarias de Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).[](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) 
+Para obtener más información sobre las licencias del sistema telefónico, consulte [Sacar el máximo partido de Las opciones de Office y planes](https://products.office.com/compare-all-microsoft-office-products?tab=2) y [Microsoft licencias complementarias de Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).[](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
 
-## <a name="supported-end-points"></a>Puntos finales admitidos 
+## <a name="supported-end-points"></a>Puntos finales admitidos
 
 Puede usarse como punto final:
 
-- Cualquier cliente de Teams. 
+- Cualquier cliente de Teams.
 
-- Teléfonos de área común. Consulte [Configurar teléfonos de área común para Microsoft Teams](./set-up-common-area-phones.md). No necesita una licencia del plan de llamadas al configurar un teléfono de área común con enrutamiento directo.
+- Teléfonos de área común. Consulte [Configurar teléfonos de área común para Microsoft Teams](./set-up-common-area-phones.md). No necesita una licencia de Plan de llamadas al configurar un teléfono de área común con enrutamiento directo.
 
 - Skype Empresarial teléfonos de 3PIP. Consulte [compatibilidad de teléfonos Skype Empresarial (3PIP) con Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
-
 
 ## <a name="sbc-domain-names"></a>Nombres de dominio SBC
 
@@ -155,7 +154,8 @@ contoso.com|Sí|**Nombres válidos:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.c
 |contoso.onmicrosoft.com|No|No se admite el uso de dominios *.onmicrosoft.com para nombres SBC
 
 Suponga que desea usar un nuevo nombre de dominio. Por ejemplo, el inquilino tiene contoso.com como un nombre de dominio registrado en el inquilino y desea usar sbc1.sip.contoso.com. Antes de poder emparejar un SBC con el nombre sbc1.sip.contoso.com, debe registrar el nombre de dominio sip.contoso.com en Dominios del espacio empresarial. Si intenta emparejar un SBC con sbc1.sip.contoso.com antes de registrar el nombre de dominio, recibirá el siguiente error: "No se puede usar el dominio "sbc1.sip.contoso.com" ya que no se configuró para este inquilino".
-Después de agregar el nombre de dominio, también debe crear un usuario con UPN user@sip.contoso.com y asignar una licencia de Teams. El aprovisionamiento completo del nombre de dominio puede tardar hasta 24 horas después de agregarlo a dominios del inquilino, se crea un usuario con un nombre nuevo y se le asigna una licencia. 
+
+Después de agregar el nombre de dominio, también debe crear un usuario con UPN user@sip.contoso.com y asignar una licencia de Teams. El aprovisionamiento completo del nombre de dominio puede tardar hasta 24 horas después de agregarlo a dominios del inquilino, se crea un usuario con un nombre nuevo y se le asigna una licencia.
 
 Es posible que una empresa tenga varios espacios de direcciones SIP en un inquilino. Por ejemplo, una compañía podría tener contoso.com como un espacio de direcciones SIP y fabrikam.com como el segundo espacio de direcciones SIP. Algunos usuarios tienen user@contoso.com de direcciones y otros tienen user@fabrikam.com de direcciones. 
 
@@ -166,14 +166,16 @@ El SBC solo necesita un FQDN y puede atender a los usuarios desde cualquier espa
   
 ## <a name="public-trusted-certificate-for-the-sbc"></a>Certificado de confianza público para el SBC
 
-Microsoft recomienda solicitar el certificado para el SBC generando una solicitud de firma de certificación (CSR). Para obtener instrucciones específicas sobre cómo generar un CSR para un SBC, consulte las instrucciones de interconexión o la documentación proporcionada por sus proveedores de SBC. 
+Microsoft recomienda solicitar el certificado para el SBC generando una solicitud de firma de certificación (CSR). Para obtener instrucciones específicas sobre cómo generar un CSR para un SBC, consulte las instrucciones de interconexión o la documentación proporcionada por sus proveedores de SBC.
 
 > [!NOTE]
 > La mayoría de las entidades emisoras de certificados (CA) requieren que el tamaño de la clave privada sea como mínimo 2048. Tenga esto en cuenta al generar el CSR.
 
 El certificado debe tener el FQDN de SBC como el nombre común (CN) o el campo de nombre alternativo del asunto (SAN).
 
-Como alternativa, enrutamiento directo admite un carácter comodín en el CN y/o SAN, y el carácter comodín debe ajustarse a [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1) estándar. Un ejemplo sería el uso \*de .contoso.com que coincidiría con el sbc.contoso.com FQDN de SBC, pero no coincidiría con sbc.test.contoso.com.
+Como alternativa, enrutamiento directo admite un carácter comodín en el CN y/o SAN, y el carácter comodín debe ajustarse a [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1) estándar.
+
+Un ejemplo sería el uso \*de .contoso.com que coincidiría con el sbc.contoso.com FQDN de SBC, pero no coincidiría con sbc.test.contoso.com.
 
 La interfaz SIP de enrutamiento directo solo confiará en los certificados firmados por entidades emisoras de certificados (CA) que forman parte del programa de certificados raíz de confianza de Microsoft. Asegúrese de que su certificado SBC está firmado por una CA que forma parte del programa y de que la extensión de uso de claves extendida (EKU) del certificado incluye autenticación de servidor.
 Más información: [Requisitos del programa - Microsoft Programa raíz de confianza](/security/trusted-root/program-requirements)
@@ -188,7 +190,7 @@ Más información: [Requisitos del programa - Microsoft Programa raíz de confia
 > [!NOTE]
 > Si se habilita el soporte de Mutual TLS (MTLS) para la conexión de Teams en el SBC, debe instalar la raíz cybertrust de Baltimore y los certificados de DigiCert Global Root G2 en el almacén raíz de confianza de SBC del contexto tls de Teams. (Esto se debe a que los certificados de servicio de Microsoft usan uno de estos dos certificados raíz). Para descargar estos certificados raíz, consulte [Office 365 Cadenas de cifrado](/microsoft-365/compliance/encryption-office-365-certificate-chains). Para obtener más información, vea [Cambios de certificados de Office TLS](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
 
-## <a name="sip-signaling-fqdns"></a>Señalización SIP: FQDN 
+## <a name="sip-signaling-fqdns"></a>Señalización SIP: FQDN
 
 Direct Routing se ofrece en los siguientes entornos:
 
@@ -274,6 +276,7 @@ La tabla siguiente resume las relaciones entre los centros de datos primario, se
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Tráfico multimedia: Intervalos de puertos
+
 Tenga en cuenta que los requisitos siguientes se aplican si desea implementar enrutamiento directo sin omisión multimedia. Para conocer los requisitos de firewall para la omisión de medios, consulte [Planear la omisión de medios con enrutamiento directo](./direct-routing-plan-media-bypass.md).
 
 El tráfico multimedia fluye hacia y desde un servicio independiente en la nube de Microsoft. Los intervalos de direcciones IP para el tráfico multimedia son los siguientes.
@@ -292,7 +295,8 @@ El tráfico multimedia fluye hacia y desde un servicio independiente en la nube 
 - 52.127.88.0/21
 
 ### <a name="port-range-applicable-to-all-environments"></a>Intervalo de puertos (aplicable a todos los entornos)
-El rango de puertos de los procesadores multimedia se muestra en la tabla siguiente: 
+
+El rango de puertos de los procesadores multimedia se muestra en la tabla siguiente:
 
 |Tráfico|De|Hasta|Puerto de origen|Puerto de destino|
 |:--- |:--- |:--- |:--- |:--- |
@@ -301,7 +305,6 @@ El rango de puertos de los procesadores multimedia se muestra en la tabla siguie
 
   > [!NOTE]
   > Microsoft recomienda al menos dos puertos por llamada simultánea en el SBC.
-
 
 ## <a name="media-traffic-media-processors-geography"></a>Tráfico multimedia: procesadores multimedia geography
 
@@ -331,22 +334,23 @@ Puede forzar el uso del códec específico en el controlador de borde de sesión
 
 Solo se aplica al caso de omisión no multimedia. Con omisión de medios, los elementos multimedia fluyen directamente entre el cliente de Teams y el SBC.
 
-En el tramo entre el procesador de medios en la nube y Microsoft cliente de Teams, se usa SILK o G.722. La elección del códec en esta pierna se basa en algoritmos de Microsoft, que tienen en cuenta varios parámetros. 
+En el tramo entre el procesador de medios en la nube y Microsoft cliente de Teams, se usa SILK o G.722. La elección del códec en esta pierna se basa en algoritmos de Microsoft, que tienen en cuenta varios parámetros.
 
   > [!NOTE]
   > No se admite el redireccionamiento de medios. Durante una llamada de Enrutamiento directo, si el CLS envía una nueva dirección IP de medios a Enrutamiento directo de Teams, aunque se negocia en la señalización SIP, los medios nunca se envían a la nueva dirección IP desde Enrutamiento directo de Teams.
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Controladores de borde de sesión compatibles (SBCs)
 
-Microsoft solo admite SBCs certificados para emparejarse con Direct Routing. Dado que Telefonía IP empresarial es fundamental para las empresas, Microsoft ejecuta pruebas intensivas con los SBC seleccionados y trabaja con los proveedores de SBC para asegurarse de que los dos sistemas son compatibles. 
+Microsoft solo admite SBCs certificados para emparejarse con Direct Routing. Dado que Telefonía IP empresarial es fundamental para las empresas, Microsoft ejecuta pruebas intensivas con los SBC seleccionados y trabaja con los proveedores de SBC para asegurarse de que los dos sistemas son compatibles.
 
-Los dispositivos que se han validado se muestran como Certificados para el enrutamiento directo de Teams. Los dispositivos certificados están garantizados para funcionar en todos los escenarios. 
+Los dispositivos que se han validado se muestran como Certificados para el enrutamiento directo de Teams. Los dispositivos certificados están garantizados para funcionar en todos los escenarios.
 
 Para obtener más información sobre los SBCs compatibles, consulte [Controladores de borde de sesión certificados para enrutamiento directo](direct-routing-border-controllers.md).
 
 ## <a name="support-boundaries"></a>Límites de soporte técnico
+
 Microsoft solo admite un sistema telefónico con enrutamiento directo cuando se usa con dispositivos certificados. En caso de problemas, debe ponerse en contacto con el servicio de atención al cliente del proveedor de SBC  Si es necesario, el proveedor de CLS remitirá el problema a Microsoft a través de canales internos. Microsoft se reserva el derecho a rechazar casos de soporte técnico de dispositivos no certificados conectados al Sistema telefónico a través del Enrutamiento directo. Si Microsoft determina que el problema de Enrutamiento directo de un cliente está relacionado con el dispositivo de un proveedor de CLS, el cliente deberá ponerse en contacto con el proveedor de CLS para obtener soporte técnico.
- 
+
 ## <a name="see-also"></a>Vea también
 
 [Configurar el enrutamiento directo](direct-routing-configure.md)

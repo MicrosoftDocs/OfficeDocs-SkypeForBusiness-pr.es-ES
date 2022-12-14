@@ -1,5 +1,5 @@
 ---
-title: Configurar la licencia de Teléfono de área común
+title: Configurar los teléfonos de área común para Microsoft Teams
 ms.author: danismith
 author: DaniEASmith
 manager: serdars
@@ -23,50 +23,31 @@ ms.custom:
 - admindeeplinkMAC
 - admindeeplinkTEAMS
 description: Aprenda a configurar teléfonos de área común para vestíbulos, áreas de recepción y salas de conferencias.
-ms.openlocfilehash: 2a282526a0592c46c053e9c0319112a9238a6051
-ms.sourcegitcommit: 92a0df6fc3aa62cec1bf72a40690fb8e16226965
+ms.openlocfilehash: 06005f853ac125478ae1fd99dba2d022c5eb0100
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2022
-ms.locfileid: "68836754"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392160"
 ---
 # <a name="set-up-common-area-phones-for-microsoft-teams"></a>Configurar teléfonos de área común para Microsoft Teams
 
-Un teléfono de área común normalmente se coloca en un área como un vestíbulo u otra área que está disponible para muchas personas para realizar una llamada: una zona de recepción, sala de espera o teléfono de conferencias. Los teléfonos de área común han iniciado sesión con cuentas vinculadas a una licencia **de Common Area Phone** .
+Un teléfono de área común normalmente se coloca en un área como un vestíbulo u otra área que está disponible para muchas personas para realizar una llamada: una zona de recepción, sala de espera o teléfono de conferencias. Los teléfonos de área común han iniciado sesión con cuentas vinculadas a una licencia **de dispositivos compartidos de Microsoft Teams**.
 
 En este artículo se ofrece información general sobre cómo implementar y configurar los dispositivos de teléfono de Teams como teléfonos de área comunes para espacios compartidos. Para obtener una experiencia de sala de reuniones más completa, incluida la audioconferencia, considere la posibilidad de comprar una licencia **de Salas de Teams** dedicada con un dispositivo Salas de Teams en su lugar. Para obtener más información sobre Salas de Teams, vea [Salas de Microsoft Teams](rooms/index.md).
 
-## <a name="overview"></a>Información general
-
-La licencia **Common Area Phone** admite:
-
-|                                           | Teléfono de área común                                 |
-|-------------------------------------------|---------------------------------------------------|
-| **Microsoft Teams**                       | &#x2714;                                          |
-| **Teams Phone**  &sup1;                   | &#x2714;                                          |
-| **Audioconferencia**                    | &#x2718; &sup2;                                   |
-| **Microsoft Intune**                      | &#x2714;                                          |
-| **plan 1 de Azure Active Directory Premium** | &#x2714;                                          |
-| **plan 2 de Exchange Online**                | &#x2714;  &sup3;                                  |
-| **Disponibilidad mundial**                | &#x2714;                                          |
-| **Disponibilidad del canal**                  | EA, EAS, EES, CSP, Web Direct, GCC, GCC-High, DoD |
-
-&sup1; Anteriormente conocido como *Sistema telefónico*.
-&sup2; Los teléfonos de área común pueden unirse a audioconferencias a través de un número de acceso telefónico proporcionado por el organizador de la reunión.
-&sup3; Solo funciones del correo de voz basado en la nube.
-
 > [!NOTE]
-> Las cuentas de teléfonos de área común objetos creados en Skype Empresarial Server no se pueden migrar a Microsoft Teams. Siga los pasos de este artículo para volver a crear esas cuentas para Teams y, si es necesario, migrar la conectividad de la red telefónica conmutada (RTC).
+> Las cuentas de teléfonos de área común los objetos creados en Skype Empresarial Server no se pueden migrar a Microsoft Teams. Siga los pasos de este artículo para volver a crear esas cuentas para Teams y, si es necesario, migrar la conectividad de la red telefónica conmutada (RTC).
 
 ## <a name="step-1---buy-the-licenses"></a>Paso 1: comprar las licencias
 
-En primer lugar, debe comprar una licencia **de Common Area Phone** (CAP) y asegurarse de que tiene un teléfono certificado. Para buscar y obtener más información sobre los teléfonos certificados, vaya a [Dispositivos de Microsoft Teams](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
+En primer lugar, debe comprar una licencia **de Dispositivos compartidos de Teams** y asegurarse de que tiene un teléfono certificado. Para buscar y obtener más información sobre los teléfonos certificados, vaya a [Microsoft dispositivos de Teams](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
 
 1. En la [Centro de administración de Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2024339), ve a **Servicios** **de compra de facturación** > .
 
-2. Si la sección **Ver por categoría** aún no se muestra, ve a **Comprar de Microsoft** y selecciona **Ver productos**. A continuación, seleccione **Colaboración y comunicación**.  
+2. Si la sección **Ver por categoría** aún no se muestra, vaya a **Comprar desde Microsoft** y seleccione **Ver productos**. A continuación, seleccione **Colaboración y comunicación**.  
 
-3. En la lista de productos, busca **Teléfono de área común** y selecciona **Detalles**.
+3. En la lista de productos, busque **Microsoft Dispositivos compartidos de Teams** y seleccione **Detalles**.
 
 4. Escriba el número de licencias que necesita y seleccione **Comprar**.
 
@@ -96,12 +77,12 @@ Si vas a implementar un dispositivo:
     > [!IMPORTANT]
     > Es muy recomendable establecer manualmente una contraseña para teléfonos de área común para evitar problemas de inicio de sesión para los usuarios finales.
 
-6. Selecciona la ubicación de uso del dispositivo y asigna la licencia **Teléfono de área común** a la cuenta. Si se necesitan otras licencias, como Planes de llamadas, asígnelas.
+6. Seleccione la ubicación de uso del dispositivo y asigne la licencia **Dispositivos compartidos de Teams** a la cuenta. Si se necesitan otras licencias, como Planes de llamadas, asígnelas.
 
 > [!NOTE]
-> No es necesario agregar una licencia con las características del sistema telefónico. Está incluida en la licencia del **teléfono de área común**.
+> No es necesario agregar una licencia con las características del sistema telefónico. Se incluye con la licencia **de Dispositivos compartidos de Teams** .
 >
-> Si no usa Microsoft Phone System con Enrutamiento directo o Conexión de operadores, es posible que desee agregar licencias de **planes de llamadas** . Para obtener más información sobre las licencias, consulte [Licencias complementarias de Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+> Si no está usando Microsoft Sistema telefónico con enrutamiento directo o Conexión de operadores, es posible que desee agregar licencias de **planes de llamadas**. Para obtener más información sobre las licencias, consulte [Microsoft licencias complementarias de Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ### <a name="using-powershell"></a>Con PowerShell
 
@@ -113,7 +94,7 @@ Use directivas para controlar qué características están disponibles para los 
 
 ### <a name="ip-phone-policies"></a>Directivas de teléfonos IP
 
-La directiva de teléfono IP de Teams solo se puede modificar si la cuenta que inicia sesión en el teléfono tiene una licencia distinta de una licencia de Teléfono de área común.  Si tiene una licencia con una suscripción de Microsoft 365 E3 o E5, o una suscripción a Office 365 Enterprise E1, E3 o E5, puede modificar la directiva de teléfono IP.  Si usa una licencia de sala de reuniones en su cuenta de teléfono de área común, solo le permitirá usar `MeetingRoomSignIn` el modo. `MeetingRoomSignIn` no está disponible en la mayoría de los teléfonos de área comunes. Para obtener más información sobre las invalidaciones admitidas para la interfaz del teléfono, vea [Establecer la interfaz de usuario de los dispositivos Android de Microsoft Teams](/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection). 
+La directiva de teléfono IP de Teams solo se puede modificar si la cuenta que inicia sesión en el teléfono tiene una licencia distinta de una licencia **de Dispositivos compartidos de Teams** .  Si tiene una licencia con una suscripción de Microsoft 365 E3 o E5, o una suscripción a Office 365 Enterprise E1, E3 o E5, puede modificar la directiva de teléfono IP.  Si usas una licencia **de Salas de Teams** en tu cuenta de teléfono de área común, solo podrás usar `MeetingRoomSignIn` el modo. `MeetingRoomSignIn` no está disponible en la mayoría de los teléfonos de área comunes. Para obtener más información sobre las invalidaciones admitidas para la interfaz del teléfono, vea [Establecer Microsoft interfaz de usuario de dispositivos Android de Teams](/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection).
 
 Con la directiva Teléfono IP de Teams, establezca el [parámetro SignInMode](/powershell/module/skype/new-csteamsipphonepolicy#parameters) para `CommonAreaPhoneSignIn` habilitar la experiencia de teléfono de área común en el dispositivo telefónico de Teams.
 
@@ -123,7 +104,7 @@ Para configurar otros parámetros, considere la posibilidad de crear una [direct
 
 Use directivas de llamada para habilitar llamadas privadas, mediante desvío de llamadas o llamadas simultáneas en teléfonos de área común. Para obtener más información, consulte [Llamadas y desvío de llamadas en Teams](teams-calling-policy.md).
 
-De forma predeterminada, el parque de llamadas no está habilitado para los teléfonos de área común. Deberá crear una directiva para habilitarla. Para obtener más información, consulte [Estacionar llamadas y recuperar en Microsoft Teams](call-park-and-retrieve.md).
+De forma predeterminada, el parque de llamadas no está habilitado para los teléfonos de área común. Deberá crear una directiva para habilitarla. Para obtener más información, consulte [Estacionar llamadas y recuperar llamadas en Microsoft Teams](call-park-and-retrieve.md).
 
 > [!NOTE]
 > Después de asignar una directiva, cierra sesión en el teléfono y vuelve a iniciarla. Una asignación de directiva puede tardar hasta una hora en surtir efecto.
@@ -149,7 +130,7 @@ Para iniciar sesión localmente con un nombre de usuario y contraseña:
 3. Sigue las instrucciones de inicio de sesión en el dispositivo. Una vez que haya iniciado sesión, el teléfono mostrará la experiencia de usuario del teléfono de área común.
 
 > [!NOTE]
-> Si usa una directiva de configuración personalizada que desancla la aplicación de llamadas, el teclado de marcado no aparece en el teléfono del área común. Para obtener más información sobre las directivas de configuración de Teams, consulte [Administrar directivas de configuración de aplicaciones en Microsoft Teams](teams-app-setup-policies.md).
+> Si usa una directiva de configuración personalizada que desancla la aplicación de llamadas, el teclado de marcado no aparece en el teléfono del área común. Para obtener más información sobre las directivas de configuración de Teams, vea [Administrar directivas de configuración de aplicaciones en Microsoft Teams](teams-app-setup-policies.md).
 
 ### <a name="sign-in-from-another-device"></a>Iniciar sesión desde otro dispositivo
 
@@ -167,7 +148,7 @@ Como administrador, puede aprovisionar e iniciar sesión de forma remota en tel�
 
 De forma predeterminada, la experiencia de llamadas básicas estará en la pantalla principal del teléfono del área común, pero puede activar una experiencia de llamada avanzada.
 
-Las siguientes características de llamadas avanzadas están disponibles para los modelos de dispositivos de teléfono de Teams compatibles con una licencia **de teléfono de área común** y las últimas actualizaciones de Teams (versión mínima: 1449/1.0.94.2022061702):
+Las siguientes características de llamadas avanzadas están disponibles para los modelos de dispositivos de teléfono de Teams compatibles con una licencia de **Dispositivos compartidos de Teams** y las últimas actualizaciones de Teams (versión mínima: 1449/1.0.94.2022061702):
 
 - [Estacionar llamadas y recuperar.](call-park-and-retrieve.md)
 - [Correo de voz basado en la nube a través de Exchange Online Plan 2](set-up-phone-system-voicemail.md).
@@ -177,7 +158,7 @@ Las siguientes características de llamadas avanzadas están disponibles para lo
 - [Recogida de llamadas grupales](call-sharing-and-group-call-pickup.md).
 - [Reglas de reenvío](teams-calling-policy.md).
 
-Para usar estas características de llamada avanzadas en los modelos de dispositivos de teléfono de Teams compatibles, puede activar el botón de alternancia **Llamada avanzada** en el [Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851) o en el dispositivo de teléfono de Teams que haya iniciado sesión en su cuenta de Teléfono de área común.
+Para usar estas características de llamada avanzadas en modelos de dispositivos de teléfono de Teams compatibles, puede activar el botón de alternancia **Llamada avanzada** en el [Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851) o en el dispositivo de teléfono de Teams que haya iniciado sesión en su cuenta de Dispositivos compartidos de Teams.
 
 La activación de las funcionalidades de llamadas avanzadas requiere que compre modelos de hardware que puedan admitir todas las capacidades necesarias.
 
@@ -201,6 +182,6 @@ Ahora que ha configurado e iniciado sesión en teléfonos de área común para s
 
 ## <a name="related-articles"></a>Artículos relacionados
 
-- [Actualice los dispositivos de Microsoft Teams de forma remota](devices/remote-update.md).
-- [Administrar etiquetas de dispositivos de Microsoft Teams](devices/manage-device-tags.md).
-- [Supervisión del estado de los dispositivos de Microsoft Teams](alerts/device-health-status.md).
+- [Actualice Microsoft dispositivos de Teams de forma remota](devices/remote-update.md).
+- [Administrar Microsoft etiquetas de dispositivo de Teams](devices/manage-device-tags.md).
+- [Microsoft supervisión del estado del dispositivo de Teams](alerts/device-health-status.md).

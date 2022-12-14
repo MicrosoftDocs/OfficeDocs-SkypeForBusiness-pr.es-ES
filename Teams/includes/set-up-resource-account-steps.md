@@ -1,11 +1,11 @@
-En Microsoft Teams, es necesaria una cuenta de recursos para cada operador automático o cola de llamadas. También se pueden asignar números de teléfono de servicio a las cuentas de recursos. Así se asignan números de teléfono a operadores automáticos y colas de llamadas, lo que permite a los autores de llamadas de fuera de Teams ponerse en contacto con el operador automático o la cola de llamadas.
+En Microsoft Teams, es necesaria una cuenta de recursos para cada operador automático o cola de llamadas. Las cuentas de recursos también pueden tener asignados números de teléfono. Así se asignan números de teléfono a operadores automáticos y colas de llamadas, lo que permite a los autores de llamadas de fuera de Teams ponerse en contacto con el operador automático o la cola de llamadas.
 
 Este artículo trata sobre cómo crear cuentas de recursos y prepararlas para su uso con operadores automáticos y colas de llamadas.
 
 Antes de empezar los procedimientos de este artículo, asegúrese de que ha realizado los pasos siguientes:
 
 - [Obtener licencias de cuenta de recursos Teléfono Microsoft Teams](#obtain-microsoft-teams-phone-resource-account-licenses)
-- [Obtener números de servicio](#obtain-service-numbers)
+- [Obtener números de teléfono](#obtain-phone-numbers)
 
 > [!NOTE]
 > Las cuentas de recursos usadas para operadores automáticos y colas de llamadas están deshabilitadas para iniciar sesión y deben permanecer así. El chat y la presencia no están disponibles para estas cuentas.
@@ -30,13 +30,17 @@ Para ver si ya tiene licencias de la cuenta de recursos de **Teams Phone**, inic
 
 No hay ningún costo, pero aún debe seguir estos pasos para adquirir la licencia.
 
-### <a name="obtain-service-numbers"></a>Obtener números de servicio
+### <a name="obtain-phone-numbers"></a>Obtener números de teléfono
 
-Los números de servicio son opcionales para operadores automáticos y colas de llamadas; sin embargo, necesitará al menos un número de servicio para que los autores de llamadas lleguen a su operador automático y a la configuración de la cola de llamadas. Para cualquier operador automático o cola de llamadas al que desee que un número de servicio le pueda contactar directamente, debe tener una cuenta de recurso con un número de servicio asociado.
+Los números de teléfono son opcionales para operadores automáticos y colas de llamadas. Para cualquier operador automático o cola de llamadas al que desee que un número de teléfono le pueda contactar directamente, debe tener una cuenta de recurso con un número de teléfono asociado.
 
-Las cuentas de recursos pueden usar números de servicio de pago o gratuitos. Puede solicitar números nuevos o transferir números existentes de otro operador.
+Las cuentas de recursos pueden usar números de teléfono de pago o gratuitos. Puede solicitar números nuevos o transferir números existentes de otro operador.
 
-Para obtener nuevos números de servicio, consulte [Obtener números de teléfono de servicio](../getting-service-phone-numbers.md).
+Entre los números de teléfono aceptables que se pueden aplicar a las cuentas de recursos se incluyen:
+
+- **Números de servicio de planes de llamadas:** Para adquirir números de servicio con planes de llamadas, consulte [Obtener números de teléfono de servicio](../getting-service-phone-numbers.md).
+- **Números de enrutamiento directo:** Para adquirir los números de Enrutamiento directo, consulte [Habilitar el enrutamiento directo a los usuarios](/microsoftteams/direct-routing-enable-users#configure-the-phone-number-and-enable-enterprise-voice).
+- **Operador Conectar números:** Para adquirir números de Operador Connect, consulta [Configurar operador conectar](/microsoftteams/operator-connect-configure#set-up-phone-numbers).
 
 Para realizar la portabilidad de un número de otro operador, consulte [Transferir números de teléfono a Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
@@ -60,13 +64,13 @@ Para cada cuenta de recursos, debe asignar una licencia **de cuenta de recursos 
 4. En la pestaña **Licencias y aplicaciones**, en **Licencias**, seleccione **Teléfono Microsoft Teams cuenta de recursos**.
 5. Seleccione **Guardar cambios**.
 
-## <a name="assign-a-service-number"></a>Asignar un número de servicio
+## <a name="assign-a-phone-number"></a>Asignar un número de teléfono
 
-Si está pensando en usar la cuenta de recursos con un operador automático o una cola de llamadas que requiera un número de servicio, asigne un número a la cuenta de recursos.
+Si está pensando en usar la cuenta de recursos con un operador automático o una cola de llamadas que requiera un número de teléfono, asigne un número a la cuenta del recurso.
 
 1. Inicie sesión en el [Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 2. Expanda **Voz** y, a continuación, seleccione **Página de cuentas de recursos** .
-3. Seleccione la cuenta de recursos a la que desea asignar un número de servicio y, a continuación, seleccione **Asignar o anular la asignación**.
+3. Seleccione la cuenta de recursos a la que desea asignar un número de teléfono y, a continuación, seleccione **Asignar o anular la asignación**.
 4. En la lista desplegable **Tipo de número** de teléfono, elija el tipo de número que desea usar.
 5. En el cuadro **Número de teléfono asignado** , busque el número que desea usar y seleccione **Agregar**. Asegúrese de incluir el código de país (por ejemplo, +1 250 555 0012).
 6. Seleccione **Guardar**.

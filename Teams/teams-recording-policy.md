@@ -23,12 +23,12 @@ ms.collection:
 - purview-compliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23de1b32e757df8cc1f971ad4e9bed255f95af41
-ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
+ms.openlocfilehash: 2e07da669e489a53dfabd2ee7c1fee2079497857
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69156836"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392170"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introducción a la grabación basada en directivas de Teams para llamadas & reuniones
 
@@ -42,7 +42,7 @@ Teams se ha mejorado para admitir la integración de soluciones de grabación de
 
 - Nuevas directivas administrativas para la grabación de cumplimiento, incluida la integración con las herramientas y directivas administrativas de llamadas y reuniones de Teams existentes
 
-La grabación de cumplimiento se puede habilitar en Microsoft 365 A3/A5/E3/E5/Business Premium, usuarios de Office 365 A3/A5/E3/E5 o en la licencia de Sala de Teams/Teléfono de área común. 
+La grabación de cumplimiento se puede habilitar en usuarios de Microsoft 365 A3/A5/E3/E5/Business Premium, usuarios de Office 365 A3/A5/E3/E5, Salas de Teams licencia o Microsoft licencia de dispositivos compartidos de Teams.
 
 > [!NOTE]
 > La grabación de cumplimiento no es compatible actualmente con los servicios de llamadas de emergencia E911.

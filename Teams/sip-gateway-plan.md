@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4f5db5f79d2a273701e7c2cd8883c89aba2d1a2
-ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
+ms.openlocfilehash: 5d2bd923835da3c9ffcbf32e0675f1f0e4e63bd3
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/19/2022
-ms.locfileid: "69126966"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392220"
 ---
 # <a name="plan-for-sip-gateway"></a>Planear la puerta de enlace SIP
 
@@ -62,9 +62,9 @@ Los usuarios de Teams deben tener un número de teléfono con las llamadas RTC h
 
 Si tiene un dispositivo SIP o 3PIP, debe tener:
 
-- Una licencia de Microsoft Teams, Skype Empresarial Online Plan 2 y Microsoft 365 Phone System (a través de E5 o licencias independientes)
-- Habilitación de RTC (es decir, un número de teléfono) a través de un plan de llamadas de Microsoft Teams, enrutamiento directo o conexión de operadores
-- Una licencia de Teléfono de área común para cualquier dispositivo de área común
+- Una licencia para Microsoft Teams, Skype Empresarial Online Plan 2 y Microsoft 365 Phone System (a través de licencias E5 o independientes)
+- Habilitación de RTC (es decir, un número de teléfono) a través de un plan de llamadas de Teams Microsoft, enrutamiento directo o conexión de operadores
+- Una licencia **Microsoft dispositivos compartidos de Teams** para cualquier dispositivo de área común
 
 ## <a name="compatible-devices"></a>Dispositivos compatibles
 

@@ -22,19 +22,19 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información y compare las licencias disponibles anteriormente para diferentes tipos de características de llamadas y reuniones en Salas de Microsoft Teams.
-ms.openlocfilehash: bc1874a91aee3096c37e6b4c95774a3c8e3c1b7d
-ms.sourcegitcommit: 30429a67cf477afa97fb09aa3b301443d989f8eb
+ms.openlocfilehash: a452267c789baa374f8bc5ade3fe050c4269831f
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68384793"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392397"
 ---
 # <a name="microsoft-teams-rooms-legacy-licenses"></a>Salas de Microsoft Teams licencias heredadas
 
 Este artículo se proporciona a los clientes que hayan comprado licencias heredadas de Salas de Microsoft Teams Estándar o Salas de Microsoft Teams Premium antes del 6 de septiembre de 2022. Salas de Teams licencias heredadas Estándar y Salas de Teams Premium ya no están disponibles para su compra. Si sus licencias heredadas expiran pronto o si necesita comprar nuevas licencias para sus dispositivos Salas de Teams, consulte [licencias de Salas de Microsoft Teams](rooms-licensing.md).
 
 > [!IMPORTANT]
-> La información de este artículo es específica de las licencias heredadas de Salas de Teams Standard y Salas de Teams Premium y no se aplica a las licencias Salas de Teams Basic y Salas de Teams Pro. Para obtener información sobre las licencias Salas de Teams Basic y Salas de Teams Pro, consulta [licencias de Salas de Microsoft Teams](rooms-licensing.md).
+> La información de este artículo es específica de las licencias heredadas Estándar y Salas de Teams Premium de Salas de Teams y no se aplica a las licencias básicas y Salas de Teams Pro de Salas de Teams. Para obtener información sobre las licencias Salas de Teams Basic y Salas de Teams Pro, consulte [licencias de Salas de Microsoft Teams](rooms-licensing.md).
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Soluciones de licencias para dispositivos de comunicación compartidos
 
@@ -64,7 +64,7 @@ En la tabla siguiente se enumeran las características disponibles para Salas de
 > [!NOTE]
 > La sala que se configura debe ser un objeto de usuario y disponer de las licencias asignadas.
 
-| &nbsp;                                                                                                                 | Licencia heredada de Microsoft Teams                                                                                                                                                                                 | Skype Empresarial Server 2015/2019 (local) u otra licencia                                    |
+| &nbsp;                                                                                                                 | Microsoft licencia heredada de Teams                                                                                                                                                                                 | Skype Empresarial Server 2015/2019 (local) u otra licencia                                    |
 |:-----------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------|
 | Unirse a una reunión programada                                                                                               | Salas de Microsoft Teams Estándar o Premium                                                                                                                                                                      | Skype Empresarial Servidor Standard CAL                                                                |
 | Iniciar una reunión ad hoc                                                                                             | Salas de Microsoft Teams Estándar o Premium                                                                                                                                                                      | Skype Empresarial Servidor Standard CAL  <br/> Skype Empresarial Servidor Enterprise CAL                |
@@ -75,4 +75,4 @@ En la tabla siguiente se enumeran las características disponibles para Salas de
 
  Consulte también [Excelentes experiencias de sala de reuniones: conozca los nuevos Salas de Microsoft Teams Estándar y Premium](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).
 
- Puede leer [Configurar la licencia de Common Area Phone para Microsoft Teams](../set-up-common-area-phones.md) para obtener información sobre cómo conceder licencias a teléfonos de área común.
+ Puede leer [Configurar teléfonos de área común para Microsoft Teams](../set-up-common-area-phones.md) para obtener información sobre cómo conceder licencias a teléfonos de área común.

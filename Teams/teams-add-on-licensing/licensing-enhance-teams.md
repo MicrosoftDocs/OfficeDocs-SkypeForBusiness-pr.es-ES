@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: Obtenga información sobre cómo mejorar su experiencia Microsoft Teams con la licencia del complemento Microsoft Teams Premium
-ms.openlocfilehash: e650c5c40623e3748deb9275d439dfd5328a317b
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: ec0f71e252a38beca0613a546ef9ddd990f6a53d
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69308031"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392350"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>licencias de Microsoft Teams Premium
 
@@ -41,7 +41,6 @@ Este artículo es para administradores de TI que deseen comprender las licencias
 - [¿Cómo se compara Teams Premium con Teams?](#how-does-teams-premium-compare-to-teams)
 - [¿Hay características actuales de Teams que pasarán a Teams Premium?](#are-there-current-teams-features-that-will-move-to-teams-premium)
 - [¿Cuáles son los requisitos para comprar Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)
-- [¿Cómo aplica Teams el acceso a las características de Teams Premium?](#how-does-teams-enforce-access-to-teams-premium-features)
 - [¿En qué se diferencia Teams Premium de Salas de Teams Pro?](#how-does-teams-premium-differ-from-teams-rooms-pro)
 - [¿Puedo experimentar Teams Premium antes de comprar licencias?](#can-i-experience-teams-premium-before-buying-licenses)
 - [Cómo comprar licencias de Teams Premium?](#how-do-i-purchase-teams-premium-licenses)
@@ -60,7 +59,7 @@ En la tabla siguiente se comparan las características clave entre Teams y Teams
 |---------|:-----:|:-------------:|
 | Hospedar y asistir a reuniones de Teams | X | X |
 | Experimente la apariencia estándar de Teams | X | X |
-| Usar fondos estándar de reuniones de Teams | X | X |
+| Usar fondos de reunión estándar y personalizados en el nivel de usuario| X | X |
 | Leer subtítulos en directo durante las reuniones | X | X |
 | Personalizar plantillas de reunión para su organización |  | X |
 | Agregar la personalización de marca de la organización a los vestíbulos de reuniones |  | X |
@@ -176,25 +175,6 @@ El **requisito del inquilino** es:
 El **requisito de usuario** es:
 
 - Una suscripción de Office 365 o Microsoft 365 con Teams.
-
-## <a name="how-does-teams-enforce-access-to-teams-premium-features"></a>¿Cómo aplica Teams el acceso a las características de Teams Premium?
-
-La experiencia de Teams que tenga un usuario dependerá de su licencia de Teams y de su rol en Teams. Teams comprueba la licencia y la función de un usuario por característica para ofrecer la experiencia adecuada.
-
-Por ejemplo, en una reunión de Teams, Teams comprobará la licencia de Teams de cada usuario y si es organizador o asistente de la reunión. Estos factores determinan la experiencia de un usuario y la de otros participantes potencialmente en la reunión.
-
-- **Basado en organizador:** Algunas características comprueban las licencias en el nivel de organizador. Si un organizador de la reunión tiene la licencia adecuada para una característica, esa característica también se compartirá y se hará accesible para los asistentes a la reunión durante esa reunión.
-- **Basado en asistentes:** Algunas características comprueban las licencias en el nivel de asistentes. Su experiencia de Teams no se compartirá ni se hará accesible para otros asistentes durante la reunión.
-
-En la tabla siguiente se muestran las comprobaciones de licencia de cada característica de Teams Premium.
-
-|  | Comprobación de licencia basada en organizador | Comprobación de licencia basada en asistentes |
-|--|-------------------------------|------------------------------|
-| **Reuniones** | &#10004; Usar plantillas de reunión personalizadas </br> &#10004; Usar reuniones temáticas personalizadas </br> &#10004; Usar Microsoft eCDN para eventos en directo | &#10004; Usar escenas personalizadas del modo conferencia </br> &#10004; Usar fondos y vestíbulos personalizados |
-| **Seminarios web** | &#10004; Configurar salas verdes para seminarios web </br> &#10004; modo Administrar seminario web </br> &#10004; Usar RTMP-In </br> &#10004; aprobar manualmente los registros de seminario web </br> &#10004; Crear una lista de espera de registro </br> &#10004; Limitar fecha y hora de registro |  |
-| **Protección de reuniones** | &#10004; Usar cifrado de un extremo a otro para reuniones de hasta 50 participantes </br> &#10004; Agregar marcas de agua a reuniones </br> &#10004; Aplicar etiquetas de confidencialidad a reuniones </br> &#10004; Impedir copiar y pegar en chats de reuniones </br> &#10004; Controlar quién puede grabar una reunión </br> &#10004; paquetes de directivas de usuario personalizadas |  |
-| **Reuniones inteligentes** | &#10004; leer subtítulos traducidos en directo </br> &#10004; Navegar por reuniones con capítulos generados automáticamente | &#10004; Traducir transcripciones posteriores a la reunión </br></br> *Resumen de las características de IA de la reunión:* </br> &#10004; Ver marcas de tiempo para el momento en que se unió a una reunión y la dejó </br> &#10004; Recibir tareas sugeridas después de una reunión </br> &#10004; búsqueda con el orador sugerido </br> &#10004; ver @mentions |
-| **Citas virtuales** | &#10004; Configurar notificaciones SMS </br> &#10004; aplicación de Citas virtuales Access Premium </br> &#10004; Usar fondos personalizados para citas y vestíbulos | &#10004; Configurar notificaciones SMS </br> &#10004; aplicación de Citas virtuales Access Premium </br> &#10004; Ver y administrar la cola de citas programada y bajo demanda </br> &#10004; Ver análisis avanzado de Citas virtuales </br> &#10004; Enviar seguimientos posteriores a la cita |
 
 ## <a name="how-does-teams-premium-differ-from-teams-rooms-pro"></a>¿En qué se diferencia Teams Premium de Salas de Teams Pro?
 

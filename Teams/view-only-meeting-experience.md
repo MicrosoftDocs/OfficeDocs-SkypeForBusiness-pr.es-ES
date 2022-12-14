@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 872d2f904919186d631fbfbd913ee500ea6421d9
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: c7a608132af2807c1fc59e25f7dac39433fe5dc5
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706837"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392100"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiencia de reunión de solo vista para Teams
 
@@ -30,6 +30,9 @@ ms.locfileid: "67706837"
 
 > [!Note]
 > Si la reunión alcanza su capacidad máxima, Teams escalará sin problemas para dar cabida a una experiencia de difusión de solo vista de 10 000 personas. Además, en estos tiempos de aumento del trabajo remoto, le ofrecemos hasta finales de año la opción de difusiones de hasta 20 000 personas. Actualmente, los seminarios web no admiten una experiencia de difusión de solo vista.
+
+> [!Note]
+> Una reunión de Teams no es un evento en directo de Teams (TLE) y no aprovechará Microsoft eCDN. Para obtener más información, vea [Microsoft lista de comprobación de incorporación de eCDN](/ecdn/integration/onboarding-checklist-for-tle-customers).
 
 Microsoft Teams permite un máximo de 10 000 asistentes en una reunión de Teams. Una vez alcanzada la capacidad de la reunión principal (que es cuando 1 000 usuarios entran en una reunión), se unirán asistentes adicionales con una experiencia de solo vista.
 
@@ -44,7 +47,7 @@ Los asistentes podrán unirse a la experiencia de solo vista a través del escri
 
 ## <a name="teams-view-only-experience-controls"></a>Controles de experiencia de solo vista de Teams
 
-Habilite la experiencia de solo vista mediante el cmdlet [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) del [módulo de PowerShell SkypeForBusiness](/powershell/module/skype/?view=skype-ps) o al menos la versión 2.0.0 del [módulo MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams).
+Habilite la experiencia de solo vista mediante el cmdlet [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy) del [módulo de PowerShell SkypeForBusiness](/powershell/module/skype/) o al menos la versión 2.0.0 del [módulo MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
 Para usar el módulo de `MicrosoftTeams` recomendado:
 

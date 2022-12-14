@@ -25,12 +25,12 @@ ms.custom:
 - Phone System - seo-marvel-apr2020
 robots: noindex
 description: Obtenga información sobre cómo configurar colas de llamadas en Microsoft Teams. Las colas de llamadas proporcionan un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 401479f73b81fffcdcb6d5d1d3663a80e4fc7b86
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: 9750bfddbf43c1b0e103e6d6c31feaf4aa542590
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69252018"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392530"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -129,9 +129,9 @@ Si no tiene una cuenta de recursos con un número de teléfono asignado:
 
 Después de crear esta nueva cuenta de recurso para el identificador de llamada, seguirá necesitando lo siguiente:
 
-- Asignar una [licencia de cuenta de recursos telefónicos de Teams](manage-resource-accounts.md#assign-a-license)
-- Asignar una licencia del plan de llamadas de Microsoft, asignar un número de teléfono De conexión de operador o asignar una directiva de enrutamiento de voz en línea para enrutamiento directo
-- Asignar el [número de teléfono de servicio a la cuenta de recursos](manage-resource-accounts.md#assign-a-service-number), si usa Microsoft Plan de llamadas
+- Asignar una [licencia de cuenta de recursos telefónicos de Teams](manage-resource-accounts.md#assign-a-license).
+- Asigne una licencia Microsoft plan de llamadas, asigne un número de teléfono Operator Connect o asigne una directiva de enrutamiento de voz en línea para Direct Routing.
+- Asigne el [número de teléfono a la cuenta de recursos](manage-resource-accounts.md#assign-a-phone-number) si usa Microsoft Plan de llamadas.
 
 #### <a name="set-the-call-queue-language"></a>Establecer el idioma de la cola de llamadas
 

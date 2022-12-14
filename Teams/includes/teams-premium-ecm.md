@@ -1,0 +1,1 @@
+![Icono](../media/info.png) de información **Algunas de las características descritas en este artículo requieren [Teams Premium (versión preliminar),](/MicrosoftTeams/enhanced-teams-experience) que se está implementando actualmente**

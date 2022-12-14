@@ -17,21 +17,21 @@ ms.collection:
 - Teams_ITAdmin_Devices
 search.appverid: MET150
 ms.localizationpriority: medium
-description: Este artículo trata la lista de teléfonos certificados para Microsoft Teams y las características compatibles con los teléfonos certificados para Microsoft Teams.
-ms.openlocfilehash: d62832c8feb69d3492eed7d2f1e2fc80b6e1e1ea
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Este artículo trata sobre la lista de teléfonos certificados para Microsoft Teams y las características compatibles con los teléfonos certificados para Microsoft Teams.
+ms.openlocfilehash: 05283550190b1ed2498993ff80712b4894038f31
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269915"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392410"
 ---
 # <a name="phones-for-microsoft-teams"></a>Teléfonos para Microsoft Teams
 
-Microsoft Teams es compatible con una cartera de teléfonos de escritorio para los usuarios que requieren una experiencia de teléfono tradicional. Este artículo ofrece una descripción general completa de los teléfonos de Teams y puede ayudarle en la planeación, la entrega y la administración de teléfonos de Microsoft Teams como parte de su solución de Microsoft Phone System. 
+Microsoft Teams es compatible con una cartera de teléfonos de escritorio para los usuarios que requieren una experiencia de teléfono tradicional. Este artículo ofrece una descripción general completa de los teléfonos de Teams y puede ayudarle a planear, entregar y administrar Microsoft teléfonos de Teams como parte de su solución de sistema telefónico Microsoft. 
 
-Para ofrecer una experiencia de Microsoft Teams confiable y de alta calidad en teléfonos, nos asociamos y trabajamos activamente con Yealink, Crestron, Lenovo, Polycom y Audiocodes para desarrollar y certificar una amplia cartera de teléfonos de escritorio y dispositivos de audio de salas de conferencias. Para obtener la información más reciente y actualizada sobre los dispositivos Teams, vaya a [Teams Marketplace](https://office.com/teamsdevices).
+Para ofrecer una experiencia de alta calidad y confiable Microsoft Teams en teléfonos, nos asociamos y trabajamos activamente con Yealink, Crestron, Lenovo, Polycom y Audiocodes para desarrollar y certificar una amplia cartera de teléfonos de escritorio y dispositivos de audio de salas de conferencias. Para obtener la información más reciente y actualizada sobre los dispositivos Teams, vaya a [Teams Marketplace](https://office.com/teamsdevices).
 
-Para administrar teléfonos, debe ser administrador global, administrador de servicios de Teams o administrador de dispositivos de Teams. Para obtener más información sobre los roles de administrador, vea [Usar los roles de administrador de Microsoft Teams para administrar Teams](../using-admin-roles.md).
+Para administrar teléfonos, debe ser administrador global, administrador de servicios de Teams o administrador de dispositivos de Teams. Para obtener más información sobre los roles de administrador, vea [Usar Microsoft roles de administrador de Teams para administrar Teams](../using-admin-roles.md).
 
 ## <a name="features-supported-by-teams-phones"></a>Características compatibles con los teléfonos de Teams
 
@@ -50,7 +50,7 @@ Los teléfonos certificados para Teams tienen una amplia variedad de caracterís
     > [!IMPORTANT]
     > Si un teléfono no ha iniciado sesión o si no tiene conexión a Internet, no se pueden realizar llamadas al 911. Si esto ocurre, se mostrará una notificación en el teléfono.
 
-Además de las características anteriores, puede controlar qué funcionalidades están disponibles según el tipo de licencia y la directiva de teléfono que se asignen al usuario al iniciar sesión en el teléfono. Por ejemplo, los usuarios que inician sesión en un teléfono con sus cuentas personales pueden acceder a toda la gama de características: llamadas, reuniones, correo de voz, etc. Sin embargo, las cuentas asignadas a una licencia de Teléfono de área común que inician sesión en un teléfono solo pueden tener acceso a una gama limitada de características; es posible que el historial de llamadas y las programaciones de reuniones no se conserven, por ejemplo, para proteger la privacidad de los usuarios.
+Además de las características anteriores, puede controlar qué funcionalidades están disponibles según el tipo de licencia y la directiva de teléfono que se asignen al usuario al iniciar sesión en el teléfono. Por ejemplo, los usuarios que inician sesión en un teléfono con sus cuentas personales pueden acceder a toda la gama de características: llamadas, reuniones, correo de voz, etc. Sin embargo, las cuentas asignadas a una **licencia Microsoft dispositivos compartidos de Teams** que inician sesión en un teléfono solo pueden obtener acceso a un rango limitado de características; es posible que el historial de llamadas y las programaciones de reuniones no se conserven, por ejemplo, para proteger la privacidad de los usuarios.
 
 ## <a name="required-licenses"></a>Licencias necesarias
 
@@ -64,13 +64,13 @@ Para obtener más información sobre cómo implementar pantallas de Teams con In
 
 ## <a name="manage-your-phones"></a>Administrar los teléfonos
 
-Administre y mantenga sus teléfonos de Teams actualizados con el Centro de administración de Microsoft Teams. Para obtener más información, consulte [Administrar los dispositivos en Teams](device-management.md).
+Administre y mantenga actualizados los teléfonos de Teams con el centro de administración de Microsoft Teams. Para obtener más información, consulte [Administrar los dispositivos en Teams](device-management.md).
 
 ## <a name="upgrade-your-phones-to-teams-displays"></a>Actualizar los teléfonos a las pantallas de Teams
 
-Las [pantallas de Microsoft Teams](teams-displays.md) son una categoría de dispositivos de Teams dedicados todo en uno que cuentan con una pantalla táctil ambiental y una experiencia de manos libres con tecnología de Cortana. Con las pantallas de Teams, los usuarios pueden usar un micrófono, una cámara y altavoces (o auriculares Bluetooth) para disfrutar de una experiencia de llamada y reunión confiable. Las pantallas de Teams se integran con los pc Windows de los usuarios para ofrecer una experiencia complementaria que permite la interacción entre dispositivos sin problemas
+[Microsoft pantallas de Teams](teams-displays.md) son una categoría de dispositivos de Teams dedicados todo en uno que cuentan con una pantalla táctil ambiental y una experiencia de manos libres con tecnología de Cortana. Con las pantallas de Teams, los usuarios pueden usar un micrófono, una cámara y altavoces (o auriculares Bluetooth) para disfrutar de una experiencia de llamada y reunión confiable. Las pantallas de Teams se integran con los pc Windows de los usuarios para ofrecer una experiencia complementaria que permite la interacción entre dispositivos sin problemas
 
-Puede actualizar los teléfonos de Teams de su organización a Teams que se muestra en el Centro de administración de Microsoft Teams. Esta opción solo está disponible para los teléfonos que admiten la actualización a Las pantallas de Teams. Para obtener más información, consulte [Actualizar los teléfonos de Teams a las pantallas de Teams](upgrade-phones-to-displays.md).
+Puede actualizar los teléfonos de Teams de su organización a Teams que se muestra en el centro de administración de Microsoft Teams. Esta opción solo está disponible para los teléfonos que admiten la actualización a Las pantallas de Teams. Para obtener más información, consulte [Actualizar los teléfonos de Teams a las pantallas de Teams](upgrade-phones-to-displays.md).
 
 ## <a name="see-also"></a>Vea también
 

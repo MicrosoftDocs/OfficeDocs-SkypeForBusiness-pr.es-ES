@@ -22,13 +22,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 'Obtén información sobre las características, la disponibilidad y cómo planear y configurar Microsoft Phone System para tu empresa. '
-ms.openlocfilehash: ccc931bd15e511903715ca328a142eb4da313dea
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+description: 'Obtén información sobre las características, la disponibilidad y cómo planear y configurar Microsoft Sistema telefónico para tu empresa. '
+ms.openlocfilehash: 118f2d52193583149e881bf564fb1df616bf108c
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584791"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392250"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Esto es lo obtiene con el Sistema telefónico
 

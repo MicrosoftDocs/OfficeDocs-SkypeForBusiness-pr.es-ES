@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: En este artículo, aprenderá a crear, editar y administrar cuentas de recursos en Microsoft Teams.
-ms.openlocfilehash: cde570c23b6d2e6b673f6cc0f49c9905c3b45fd1
-ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
+ms.openlocfilehash: 3ac03e8531457d21d2988db0a86ca8bdca367f0a
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69147437"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392210"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "69147437"
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Una vez que haya completado la configuración de la cuenta de recursos y asignado un número de servicio si es necesario, está listo para usar la cuenta de recursos con un operador automático o una cola de llamadas.
+Una vez que haya completado la configuración de la cuenta de recursos y asignado un número de teléfono si es necesario, está listo para usar la cuenta de recursos con un operador automático o una cola de llamadas.
 
 Vea las siguientes referencias para obtener más información:
 
@@ -73,7 +73,7 @@ Para implementaciones híbridas con Skype Empresarial Server:
 
 ## <a name="delete-a-resource-account"></a>Eliminar una cuenta de recursos
 
-Asegúrese de disociar el número de teléfono de la cuenta de recursos antes de eliminarla, para evitar que el número de servicio se bloquee en el modo pendiente.
+Asegúrese de disociar el número de teléfono de la cuenta de recursos antes de eliminarla, para evitar que su número de teléfono se quede atascado en el modo pendiente.
 
 Después de hacerlo, puede eliminar la cuenta de recursos en la Centro de administración de Microsoft 365, en la pestaña **Usuarios**.
 

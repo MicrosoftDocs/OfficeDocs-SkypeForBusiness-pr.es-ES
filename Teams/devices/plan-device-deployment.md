@@ -16,19 +16,19 @@ description: En este artículo se proporciona información general sobre las tar
 ms.collection:
 - M365-voice
 - Teams_ITAdmin_Devices
-ms.openlocfilehash: fb9b560f56ece49ddae9f15899a118596a31c38f
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 4ba5c1a9ab59765a5a0af2ac145baf69fc4a8a9a
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606849"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392520"
 ---
 # <a name="plan-your-deployment-for-teams-phone-devices-and-displays"></a>Planear la implementación para dispositivos telefónicos y pantallas de Teams
 
 La implementación correcta de dispositivos telefónicos y pantallas de Teams comienza con la planificación. Este artículo le guiará por las tareas y los pasos para implementar estos dispositivos en su organización. También proporciona orientación sobre el uso de dispositivos, licencias, integración con su entorno, puntos de toque y administración.
 
 > [!TIP]
-> [El Centro de adopción de Microsoft 365](https://adoption.microsoft.com/) es un excelente lugar para empezar a trabajar en su viaje de adopción con Microsoft Teams.
+> [El centro de adopción de Microsoft 365](https://adoption.microsoft.com/) es un buen lugar para empezar a trabajar en su viaje de adopción con Microsoft Teams.
 
 ## <a name="task-1-what-are-your-deployment-objectives"></a>Tarea 1: ¿Cuáles son los objetivos de implementación?
 
@@ -67,8 +67,8 @@ Ahora que has identificado las personas de tu dispositivo, debes determinar qué
 - ¿Cuántos dispositivos personales se necesitan y quién tendrá uno?
 - ¿Cuántas salas o espacios requieren dispositivos compartidos? ¿Tendrá cada espacio el mismo tipo de dispositivo? 
 - ¿Tendrán que cumplir tus dispositivos los requisitos específicos?
-    - Algunos ejemplos son el tamaño de pantalla, el factor de forma y el fabricante o modelo? Para obtener una lista de teléfonos y pantallas certificados, consulte [Dispositivos certificados de Microsoft Teams](teams-ip-phones.md).
--  ¿Necesita teléfonos o pantallas de Teams? Para obtener una lista de las características compatibles con los teléfonos de Teams, consulte [Teléfonos para Microsoft Teams](phones-for-teams.md#features-supported-by-teams-phones). Para obtener una lista de las características compatibles con Teams, consulte [Pantallas de Microsoft Teams](teams-displays.md#features-supported-by-teams-displays).
+    - Algunos ejemplos son el tamaño de pantalla, el factor de forma y el fabricante o modelo? Para obtener una lista de teléfonos y pantallas certificados, consulte [Microsoft dispositivos certificados de Teams](teams-ip-phones.md).
+-  ¿Necesita teléfonos o pantallas de Teams? Para obtener una lista de las características compatibles con los teléfonos de Teams, consulte [Teléfonos para Microsoft Teams](phones-for-teams.md#features-supported-by-teams-phones). Para obtener una lista de las características compatibles con Teams, consulte [Microsoft pantallas de Teams](teams-displays.md#features-supported-by-teams-displays).
 - ¿Tienes dispositivos suficientes para nuevos usuarios o un proceso para nuevos pedidos y entregas?
 - ¿Tendrás dispositivos de repuesto disponibles para mantenimiento o si un dispositivo experimenta problemas de hardware? Poder intercambiar un dispositivo evita rápidamente interrupciones en la experiencia del usuario.
 
@@ -76,15 +76,15 @@ Ahora que has identificado las personas de tu dispositivo, debes determinar qué
 
 Ahora ya sabe cuántos dispositivos necesita, el siguiente paso es determinar cuántas licencias son necesarias. Los teléfonos y las pantallas de Teams requieren licencias para acceder a Microsoft Teams y Microsoft 365.
 
-Los dispositivos compartidos y personales necesitan distintas licencias. Para dispositivos personales, se pueden usar licencias asignadas a cuentas de usuario. Los dispositivos compartidos necesitan licencias específicas para su función. Para teléfonos y pantallas, las licencias aplicables son [la licencia Common Area Phone de Microsoft Teams](../set-up-common-area-phones.md#step-1---buy-the-licenses) y una [licencia de Salas de Microsoft Teams](../rooms/rooms-licensing.md).
+Los dispositivos compartidos y personales necesitan distintas licencias. Para dispositivos personales, se pueden usar licencias asignadas a cuentas de usuario. Los dispositivos compartidos necesitan licencias específicas para su función. Para teléfonos y pantallas, las licencias aplicables son [la licencia de dispositivos compartidos de Teams Microsoft](/microsoftteams/teams-add-on-licensing/teams-shared-device-license) y una [licencia de Salas de Microsoft Teams](../rooms/rooms-licensing.md).
 
-Para obtener más información y comparar las opciones de licencia, consulte [Planes de licencias de Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1).
+Para obtener más información y comparar las opciones de licencia, consulte [Microsoft planes de licencias de 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1).
 
 ## <a name="task-3-what-are-your-dependencies"></a>Tarea 3: ¿Cuáles son sus dependencias? 
 
 ### <a name="objective-plan-your-device-identities"></a>Objetivo: planear las identidades de los dispositivos
 
-Las identidades permiten que los dispositivos tengan acceso a los servicios de Microsoft 365 y, además, deberían facilitar la detección, administración y conexión de los dispositivos dentro de su organización. Para ello, tenga en cuenta lo siguiente al planear las identidades de los dispositivos:
+Las identidades permiten que los dispositivos accedan a los servicios de Microsoft 365, y deberían facilitar la detección, administración y conexión de los dispositivos dentro de su organización. Para ello, tenga en cuenta lo siguiente al planear las identidades de los dispositivos:
 
 - Nombres principales de usuario y su formato y dominio
 - Nombres para mostrar
@@ -116,7 +116,7 @@ Los dispositivos y pantallas de Teams Phone requieren acceso a Internet para con
 - ¿Tiene su infraestructura de red suficiente capacidad? Considere la posibilidad de los puertos del switch, los puntos de acceso inalámbrico y otra cobertura.
 - Si utiliza VLA N y DHCP, ¿sus alcances tienen el tamaño en consecuencia?
 - Evalúa y prueba las rutas de red desde donde se implementan los dispositivos en Microsoft 365. 
-- Abra los puertos y direcciones URL de firewall necesarios para Microsoft 365 según las instrucciones.
+- Abra los puertos de firewall y las direcciones URL necesarios para Microsoft 365 según las instrucciones.
 - Revise y pruebe los requisitos y la configuración del E911 para comprobar la precisión de la ubicación y el cumplimiento. 
 - Evite usar un servidor proxy y optimice las rutas de acceso a medios para obtener confiabilidad y calidad.
 
@@ -155,9 +155,9 @@ Usar el Centro de Administración de Teams para administrar
 - Firmware
 - Solución de problemas y descarga de registros
 
-#### <a name="endpoint-manager-admin-center-if-you-use-intune-for-device-management"></a>Centro de Endpoint Manager Administración (si usas Intune para la administración de dispositivos)
+#### <a name="endpoint-manager-admin-center-if-you-use-intune-for-device-management"></a>Centro de Administración de Endpoint Manager (si usa Intune para la administración de dispositivos)
 
-Use el Centro de Endpoint Manager Administración para administrar: 
+Use el Centro de Administración de Endpoint Manager para administrar: 
 
 - Directivas de cumplimiento de dispositivos
 - Restricciones de inscripción

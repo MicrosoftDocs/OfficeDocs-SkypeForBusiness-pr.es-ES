@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: Obtenga más información sobre Microsoft Teams Premium para administradores y profesionales de TI.
-ms.openlocfilehash: 2d7c43f6dd46a635d7aceaaa95548b8c4f31f590
-ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
+ms.openlocfilehash: 9e7af9c777ba5fec8ca8b68da7f1069737702617
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/14/2022
-ms.locfileid: "69379467"
+ms.locfileid: "69392480"
 ---
 # <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams Premium: información general para administradores
 
@@ -63,8 +63,6 @@ Teams Premium ofrece formas adicionales de proteger las reuniones con las siguie
 - **Cifrado de un extremo a otro** : aplicado a través de una etiqueta de confidencialidad. El cifrado de un extremo a otro proporciona mayor seguridad para las reuniones que requieren un mayor nivel de protección.
 
 
-
-
 | Característica/tarea  | Documentación para administradores | Documentación para los usuarios finales
 | -------------------- | ----------- | ------------ |
 | Etiquetas de confidencialidad | [Configurar reuniones de Teams con tres niveles de protección](configure-meetings-three-tiers-protection.md) | |
@@ -82,16 +80,17 @@ Teams Premium ofrece las siguientes características adicionales para personaliz
 
 - **Temas de reunión** : permite a su organización ampliar sus identidades visuales en toda la experiencia de reunión. Puede configurar y crear temas de reuniones para una variedad de departamentos y unidades de negocio dentro de un único espacio empresarial.
 
-- **Fondos de reunión personalizados** : puede crear y definir fondos de reunión personalizados que estarán disponibles para los usuarios finales. 
+- **Fondos de reunión personalizados para organizaciones** : puede crear y definir fondos de reunión personalizados que estarán disponibles para los usuarios finales con una licencia de Teams Premium.
 
-- **Personalizar escenas en modo conjunto** : una aplicación de Teams que permite a los desarrolladores de su organización definir y personalizar escenas de vídeo para las reuniones.  
+- **Escenas de modo conjunto personalizadas para organizaciones** : puede crear, personalizar o aceptar escenas de modo conjunto personalizadas para las reuniones que estén disponibles para los usuarios finales con una licencia de Teams Premium.
+
 
 | Característica/tarea | Documentación para administradores | Documentación para los usuarios finales
 | -------------------- | ----------- | ------------ |
 | Plantillas de reunión | - [Visión general](custom-meeting-templates-overview.md)<br>- [Crear una plantilla de reunión personalizada](create-custom-meeting-template.md)| [Usar plantillas personalizadas](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
 | Temas de reuniones | [Temas para reuniones de Teams](meeting-themes.md) | [Usar temas de reunión](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
-| Fondos de reunión personalizados | [Fondos de reunión](custom-meeting-backgrounds.md)| |
-| Personalizar escenas del modo conjunto | [Contenido para usted y sus desarrolladores](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
+| Fondos de reunión personalizados para organizaciones | [Fondos de reunión](custom-meeting-backgrounds.md)| |
+| Escenas de modo conjunto personalizadas para organizaciones | [Contenido para usted y sus desarrolladores](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
 
 
 

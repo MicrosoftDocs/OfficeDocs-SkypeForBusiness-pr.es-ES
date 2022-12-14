@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados para Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: f9012cd72807705f4f381b3443605b77c9d94000
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 0055529d7bc0344faeb04e7d35bf0c9ed457510d
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307945"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392360"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft dispositivos Android certificados para Teams
 
@@ -88,7 +88,7 @@ Los siguientes dispositivos están certificados en el programa de certificación
 | Logitech Tap IP VR0029     | `1.6.762`  |   3 de septiembre de 2024  | Compatible con Logitech Rally Bar y Rally Bar Mini | 10 |
 | Neat Bar Pro   | `NFD1.20220914.1210 ` | 3 de septiembre de 2024  |  Habitación de tamaño mediano (4,5 m x 6 m) | 10|
 | Barra ordenada | `NFF1.20220914.1210` |3 de septiembre de 2024|    Habitación de tamaño mediano (4,5 m x 6 m) | 10 |
-| Consola táctil Neat Pad | `NFA1.20220914.1206`  | 3 de septiembre de 2024 | Solo compatible con Neat Bar | 9 |
+| Consola táctil Neat Pad | `NFA1.20220914.1206`  | 3 de septiembre de 2024 | Compatible con Neat Bar & Neat Bar Pro | 9 |
 | Tabla ordenada | `NFC1.20220914.1210 ` | 3 de septiembre de 2024 |    Sala de reuniones pequeña (4,5 m x 4,5 m) | 10 |
 | Logitech Roommate | `1.4.71` | 3 de septiembre de 2024  | Sala de reuniones grande (4,5 m x 8,5 m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 5 de agosto de 2023 | Incluido con EPOS Vision 3T | 9 |
@@ -165,6 +165,7 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo  | Versión de firmware  | Versión del producto incluida  |
 |:----------------|:--------------|:----------------------------|
+|Poly CCX350 | `8.0.2.2643` | #4A de actualización de 2022 |
 |Yealink CP965  | `143.15.0.27`     | #4A de actualización de 2022  |
 |Yealink MP54/MP56/MP58  | `122.15.0.107`     | #4A de actualización de 2022  |
 |Yealink MP52  | `145.15.0.59`     | #4A de actualización de 2022  |
@@ -272,6 +273,7 @@ Las siguientes son las últimas Salas de Teams en las versiones de la aplicació
 
 | Lanzamiento del producto| Fecha de lanzamiento | Microsoft versión de la aplicación Teams | versión Portal de empresa | versión del agente de Administración |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Actualización n.º 3 de 2022  | 13 de dic de 2022 |`1449/1.0.96.2022120503`| `5.0.5484.0` | `1.0.0.202205230848.product version code : 361` |
 | #2B de actualización de 2022  | 15 de septiembre de 2022 |`1449/1.0.96.2022090606`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | #2A de actualización de 2022  | 8 de agosto de 2022 |`1449/1.0.96.2022072103`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Actualización n.º 2 de 2022  | 25 de mayo de 2022 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
@@ -290,6 +292,14 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo  | Versión de firmware | Versión del producto incluida |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBoard 86" | `155.15.0.17` | #2B de actualización de 2022 |
+| Barra ordenada | `NFB1.20220914.1215` | #2B de actualización de 2022 |
+| Neat Bar Pro| `NFD1.20220914.1215` | #2B de actualización de 2022 |
+| Tabla ordenada | `NFC1.20220914.1215` |  #2B de actualización de 2022 |
+| Consola táctil Neat Pad | `NFA1.20220914.1215`  |  #2B de actualización de 2022 |
+| Logi Rallybar  | `1.8.290`     | #2B de actualización de 2022  |
+| Logi Rallybar Mini  | `1.8.290`     | #2B de actualización de 2022  |
+| Consola de Logi  | `1.8.177`    | #2B de actualización de 2022  |
 | Logi Rallybar  | `1.7.300`     | #2B de actualización de 2022  |
 | Logi Rallybar Mini  | `1.7.300`     | #2B de actualización de 2022  |
 | Logi RoomMate  | `1.7.202`   | #2B de actualización de 2022  |
