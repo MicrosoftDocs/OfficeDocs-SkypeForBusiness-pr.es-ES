@@ -19,16 +19,16 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 643c354086d93d7aa3edd4d73216b4b9d5dbbe56
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 43e960a623992502f07d028a152fec3104e8670b
+ms.sourcegitcommit: 7104222e5d379d1338fa8bf2555754d3ac5eeb82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912479"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "69412253"
 ---
 # <a name="information-accessed-and-actions-performed-by-apps-and-related-admin-considerations"></a>Información a la que se tiene acceso y acciones realizadas por aplicaciones y consideraciones relacionadas con los administradores
 
-Las aplicaciones de Microsoft Teams agregan una o más funcionalidades a las aplicaciones que se pueden instalar, actualizar y desinstalar. Entre las funcionalidades de las aplicaciones se incluyen:
+Microsoft las aplicaciones de Teams agregan una o más funcionalidades en las aplicaciones que se pueden instalar, actualizar y desinstalar. Entre las funcionalidades de las aplicaciones se incluyen:
 
 * Bots
 * Extensiones de mensajería
@@ -68,12 +68,6 @@ Como administrador, solo puede administrar aplicaciones. Sin embargo, el artícu
   * Reciba un mensaje personal y responda.
   * Reciba un chat grupal y responda.
   * Reciba un mensaje de canal y responda.
-
-* Los siguientes no son permisos explícitos, pero están implícitos por RECEIVE_MESSAGE y REPLYTO_MESSAGE y los ámbitos en los que se pueden usar los bots, declarados en el manifiesto:
-
-  * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-  * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES, RECEIVE_FILES:<sup>2</sup> Controla si un bot puede enviar y recibir archivos en un chat personal (aún no es compatible con chats grupales o canales).
 

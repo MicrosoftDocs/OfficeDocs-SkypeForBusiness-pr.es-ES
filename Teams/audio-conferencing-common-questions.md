@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Las siguientes son algunas de las principales preguntas que nos hacen nuestros clientes que quieren usar Audioconferencia.
-ms.openlocfilehash: 84d8ab22cd30d11dc15867bd3de67109bc245a17
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: e7ea0d02e258d7a6fa47b53c4a13f2af1ae45189
+ms.sourcegitcommit: 7104222e5d379d1338fa8bf2555754d3ac5eeb82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67641741"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "69412243"
 ---
 # <a name="audio-conferencing-common-questions"></a>Preguntas frecuentes sobre Audioconferencia
 
@@ -34,7 +34,7 @@ Las siguientes son algunas de las principales preguntas que nos hacen nuestros c
   
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>¿Cuáles son las ventajas de la Audioconferencia?
 
-Llamar a reuniones es beneficioso cuando las personas están de viaje, por ejemplo, y no pueden asistir a una reunión con la aplicación Microsoft Teams en sus portátiles o dispositivos móviles. Sin embargo, hay otros escenarios en los que el uso de un teléfono para asistir a una reunión de Teams puede ser una mejor opción que usar una aplicación en un equipo:
+Llamar a reuniones es beneficioso cuando las personas están de viaje, por ejemplo, y no pueden asistir a una reunión con la aplicación Microsoft Teams en su portátil o dispositivos móviles. Sin embargo, hay otros escenarios en los que el uso de un teléfono para asistir a una reunión de Teams puede ser una mejor opción que usar una aplicación en un equipo:
   
 - La conectividad a Internet es limitada.
 
@@ -66,7 +66,7 @@ Los números de acceso telefónico local y, en algunos casos, los números de ac
   
 ## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-microsoft-365-or-office-365-support"></a>¿Cuántos números de acceso telefónico internacional admite Audioconferencia en Microsoft 365 o Office 365?
 
-Para obtener una lista actual de países o regiones, consulte [Números de teléfono para audioconferencia en Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).
+Para obtener una lista actualizada de países o regiones, consulte [Números de teléfono para audioconferencia en Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).
   
 ## <a name="what-is-the-maximum-length-of-the-audio-conferencing-meetings"></a>¿Cuál es la duración máxima de las reuniones de Audioconferencia?
 
@@ -126,11 +126,13 @@ Para los participantes y organizadores de la reunión:
 
 Solo para los organizadores de la reunión:
 
-| Nombre del comando                   | Teclas de comando | Descripción                                                 |
-|--------------------------------|--------------|-------------------------------------------------------------|
-| Admitir todo                      | \*21         | Pulse \*21 para admitir a todos los participantes que esperan en la sala de espera.  |
-| Silenciar a todos                       | \*22         | Pulse \*22 para silenciar a todos los participantes (excepto el organizador). |
-| Alternar anuncio de entrar o salir | \*23         | Presione \*23 para habilitar o deshabilitar Entrar/salir del anuncio.    |
+| Nombre del comando                     | Teclas de comando | Descripción                                                   |
+|----------------------------------|--------------|---------------------------------------------------------------|
+| Admitir todo                        | \*21         | Pulse \*21 para admitir a todos los participantes que esperan en la sala de espera.    |
+| Silenciar a todos                         | \*22         | Pulse \*22 para silenciar a todos los participantes (excepto el organizador).   |
+| Alternar anuncio de entrar o salir   | \*23         | Presione \*23 para habilitar o deshabilitar Entrar/salir del anuncio.      |
+| Escuchar el recuento de participantes en la sala de espera  | \*24         | Pulse \*24 para escuchar el recuento de participantes en la sala de espera.|
+
 
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-teams-meeting"></a>¿Los asistentes pueden llamar a números de teléfono internacionales cuando se encuentran en una reunión de Teams?
 
@@ -146,7 +148,7 @@ Programar una reunión a la que se unirán todos los asistentes con un teléfono
 
 - **Opción n.º 1**: de forma predeterminada, si el organizador de la reunión y todos los participantes se unen a una reunión con un teléfono, el organizador de la reunión debe introducir su PIN de Audioconferencia para iniciarla. A las personas que llaman se les pregunta si quieren autenticarse como organizadores de una reunión determinada cuando marcan el número de teléfono de una reunión en línea. Todos los participantes que se unan a la reunión mediante acceso telefónico local antes de que se inicie el organizador se colocarán en la sala de espera y escucharán música en espera. Para las reuniones de Teams, los participantes se unirán a la reunión según el valor de la configuración admitir automáticamente a las personas en la directiva de la reunión del organizador.
 
-- **Opción n.º 2**: La opción "Permitir que los autores de llamada no autenticados sean los primeros contactos de una reunión" está deshabilitada de forma predeterminada. Si la configuración está habilitada para un organizador determinado, todas las reuniones programadas por ese organizador se pueden iniciar antes de que el organizador introduzca el PIN de Audioconferencia. Cuando esta configuración está habilitada, la reunión se iniciará tan pronto como el primer participante se una a ella a través de un número de teléfono de acceso telefónico local y el primer participante no se colocará en la sala de espera. Para obtener más información, consulte [Administrar la configuración de Audioconferencia para un usuario en Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).
+- **Opción n.º 2**: La opción "Permitir que los autores de llamada no autenticados sean los primeros contactos de una reunión" está deshabilitada de forma predeterminada. Si la configuración está habilitada para un organizador determinado, todas las reuniones programadas por ese organizador se pueden iniciar antes de que el organizador introduzca el PIN de Audioconferencia. Cuando esta configuración está habilitada, la reunión se iniciará tan pronto como el primer participante se una a ella a través de un número de teléfono de acceso telefónico local y el primer participante no se colocará en la sala de espera. Para obtener más información, consulte [Administrar la configuración de Audioconferencia de un usuario en Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).
 
 ## <a name="related-topics"></a>Temas relacionados
 
