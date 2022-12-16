@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: Aprenda a administrar la configuración de directivas de reuniones en Teams para la grabación y la transcripción.
-ms.openlocfilehash: fd0dc824f380fb9a001442267445340944e055c4
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 06a05d2eb8a8c1542b79fa4c37b68ea4a3aa6d32
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928316"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436766"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>Configuración de la directiva de reunión para grabar & transcripción
 
@@ -98,11 +98,11 @@ No debe confiar en la configuración de expiración de la reunión para la prote
 
 #### <a name="recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>Registrar la configuración de expiración y las directivas de retención de Microsoft 365 en Microsoft Purview
 
-La retención de archivos tiene prioridad sobre la eliminación de archivos. Una directiva de expiración de la grabación de reuniones de Teams con una directiva de retención de Purview no puede eliminarse hasta después de completar el período de retención. Por ejemplo, si tiene una directiva de retención de Purview que indica que se conservará un archivo durante cinco años y una directiva de expiración de registro de la reunión de Teams establecida durante 60 días, la directiva de expiración de la grabación de la reunión de Teams eliminará la grabación después de cinco años.
+La retención de archivos tiene prioridad sobre la eliminación de archivos. Una directiva de expiración de la grabación de reuniones de Teams con una directiva de retención de Purview no puede eliminarse hasta después de completar el período de retención. Por ejemplo, si tiene una directiva de retención de Purview que indica que se conservará un archivo durante cinco años y una directiva de expiración de registro de la reunión de Teams establecida durante 60 días, la directiva de expiración de la grabación de la reunión de Teams eliminará permanentemente la grabación después de cinco años.
 
 Si tiene una reunión de Teams en la que se registra la directiva de expiración y la directiva de eliminación de Purview con fechas de eliminación diferentes, el archivo se eliminará lo antes posible de las dos fechas. Por ejemplo, si tiene una directiva de eliminación de Purview que indica que se eliminará un archivo después de un año y una reunión de Teams con la fecha de expiración establecida durante 120 días, la directiva de expiración de la grabación de la reunión de Teams eliminará el archivo pasados 120 días.
 
-Los usuarios pueden eliminar manualmente sus grabaciones antes de la fecha de expiración, a menos que exista una directiva de retención de Purview que lo impida.
+Los usuarios pueden eliminar manualmente sus grabaciones antes de la fecha de expiración, a menos que exista una directiva de retención de Purview que lo impida. Si un usuario elimina manualmente una grabación que todavía está en el período de retención, la grabación se retendrá en la biblioteca de conservación de documentos. Sin embargo, la grabación se mostrará como eliminada para el usuario final. Para obtener más información, vea [Obtener información sobre la retención para SharePoint y OneDrive](/microsoft-365/compliance/retention-policies-sharepoint#how-retention-works-for-sharepoint-and-onedrive).
 
 ### <a name="deletion-of-recordings"></a>Eliminación de grabaciones
 

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directivas de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: a5d18ea0e3f8c6cd008a12258fd94c3a0b725ac3
-ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
+ms.openlocfilehash: 42321eb1edadeda928ab0cb9e78e166478b73ed9
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2022
-ms.locfileid: "68876286"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436676"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -50,11 +50,11 @@ Esta configuración se encuentra en el Centro de administración de Teams, en **
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>Permitir que personas anónimas se unan a una reunión
 
-Esta configuración por organizador permite a cualquier persona unirse a las reuniones como usuario anónimo seleccionando el vínculo en la invitación a la reunión. Para más información, consulte[Únase a una reunión sin una cuenta de Teams](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). La capacidad de los usuarios anónimos para unirse a reuniones también se controla en el nivel de su organización, la configuración más restrictiva será eficaz. Para obtener más información, consulte [Uso del Centro de administración de Microsoft Teams para configurar directivas para toda la organización](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
+Esta configuración por organizador permite a cualquier persona unirse a las reuniones como usuario anónimo seleccionando el vínculo en la invitación a la reunión. Para más información, consulte[Únase a una reunión sin una cuenta de Teams](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). La capacidad de los usuarios anónimos para unirse a reuniones también se controla en el nivel de su organización, la configuración más restrictiva será eficaz. Para obtener más información, consulte [Uso del centro de administración de Microsoft Teams para configurar directivas para toda la organización](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Permitir que los usuarios anónimos inicien una reunión
 
-Esta configuración es una directiva por organizador que permite reuniones de conferencia de acceso telefónico local sin coordinadores. Esta configuración controla si los usuarios de acceso por marcado pueden unirse a la reunión sin que asista un usuario autenticado de la organización. De forma predeterminada, esta configuración está desactivada, lo que significa que los usuarios de acceso telefónico local esperarán en la sala de espera hasta que un usuario autenticado de la organización se una a la reunión.
+Esta configuración es una directiva por organizador que permite reuniones de conferencia de acceso telefónico local sin coordinadores. Esta configuración controla si los usuarios anónimos y los autores de llamadas de acceso telefónico pueden unirse a la reunión sin un usuario autenticado de la organización que participe. De forma predeterminada, esta configuración está desactivada, lo que significa que los usuarios anónimos y los autores de llamadas de acceso telefónico local esperarán en la sala de espera hasta que un usuario autenticado de la organización se una a la reunión.
 
 > [!NOTE]
 > Si esta opción está desactivada y un usuario de marcado se une primero a la reunión y se le ubica en la sala de espera, el usuario de la organización debe unirse a la reunión con un cliente de Teams para admitir al usuario de la sala de espera. No hay ningún control de sala de espera disponible para los usuarios con acceso de marcado.

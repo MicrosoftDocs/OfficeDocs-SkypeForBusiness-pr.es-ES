@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados para Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: e6e857539b47fdb991b92e90e7c9f2f1d609143c
-ms.sourcegitcommit: 7104222e5d379d1338fa8bf2555754d3ac5eeb82
+ms.openlocfilehash: 56a8f5eb18600b62944732312c391ff7bd20201b
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2022
-ms.locfileid: "69412233"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436706"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft dispositivos Android certificados para Teams
 
@@ -389,6 +389,7 @@ A continuación se muestran las últimas Microsoft versiones de la aplicación y
 
 |Lanzamiento del producto| Fecha de lanzamiento | Microsoft versión de la aplicación Teams | versión Portal de empresa | versión del agente de Administración |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|#4A de actualización de 2022 | 14 de diciembre de 2022 | `1449/1.0.95.2022120502` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
 |Actualización n.º 1 de 2022  |14 de noviembre de 2022 |`1449/1.0.95.2022102603`    |`5.0.5484.0`            |  `1.0.0.202205230848.product (361)` |
 |Actualización n.º 4 de 2021  |5 de enero de 2022 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)` |
 |Actualización n.º 3 de 2021  |8 de diciembre de 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
@@ -417,6 +418,7 @@ A continuación se muestran las versiones más recientes Microsoft la aplicació
 
 |Lanzamiento del producto| Fecha de lanzamiento | Microsoft versión de la aplicación Teams | versión Portal de empresa | versión del agente de Administración |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|#4A de actualización de 2022  | 14 de diciembre de 2022 | `1449/1.0.97.2022748302` | `5.0.5484.0` | `361`|
 |Actualización n.º 4 de 2022  | 5 de diciembre de 2022 | `1449/1.0.97.2022747803` | `5.0.5484.0` | `361`|
 |#3A de actualización de 2022  | 16 de septiembre de 2022 | `1449/1.0.97.2022739908` | `5.0.5304.0`  | `322` |
 |Actualización n.º 3 de 2022  | 12 de julio de 2022 | `1449/1.0.97.2022739901` | `5.0.5304.0`  | `322` |
@@ -431,6 +433,7 @@ Al instalar una nueva versión de firmware en el dispositivo, puede determinar l
 
 | Modelo de dispositivo  | Versión de firmware | Versión del producto incluida|
 |:--------------|:-----------------|:-------------------------|
+|Yealink RoomPanel | ` 147.15.0.36 ` | Actualización n.º 4 de 2022 |
 |Neat Pad Panel | `NFA1.20220914.1215` | #3A de actualización de 2022  |
 |Neat Pad Panel | `NFA1.20220914.1206` | #3A de actualización de 2022  |
 |Logitech Tap Scheduler | `1.7.200` |#3A de actualización de 2022  |
