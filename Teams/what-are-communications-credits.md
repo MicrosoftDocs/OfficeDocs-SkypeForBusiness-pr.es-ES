@@ -24,12 +24,12 @@ ms.custom:
 - Licensing
 - admindeeplinkMAC
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 6d64c89aa62d7209a1135234e975f492e7c182a9
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+ms.openlocfilehash: e66edfcb63b7569b02268b355c7b851c61763810
+ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139164"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69414698"
 ---
 # <a name="what-are-communications-credits"></a>¿Qué son los Créditos de comunicaciones?
 
@@ -39,7 +39,7 @@ Los créditos de comunicaciones son una forma cómoda de pagar los minutos del p
 
 - Llamar desde una reunión de audioconferencia para agregar a otra persona de cualquier parte del mundo.
 
-- Llamar desde una reunión de audioconferencia a su teléfono móvil con la aplicación de Microsoft Teams o Skype Empresarial aplicación instalada en destinos que aún no están incluidos en la suscripción.
+- Llamar desde una reunión de audioconferencia a su teléfono móvil con la aplicación Microsoft Teams o Skype Empresarial aplicación instalada en destinos que aún no están incluidos en la suscripción.
 
 - Marque cualquier número de teléfono internacional cuando tenga suscripciones **a Planes de llamadas nacionales** .
 
@@ -98,7 +98,7 @@ En la [Centro de administración de Microsoft 365](https://go.microsoft.com/fwli
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
-Cada organización tendrá un uso diferente del volumen y las tarifas de los planes de llamadas que se debe tener en cuenta. Tendrás que obtener este tipo de datos de uso de tu proveedor de servicios actual. Para las organizaciones que ya usan Teams como su proveedor de servicios, puede obtener datos de uso si los revisa en el Centro de administración de Microsoft Teams > **Analytics & notifica Informes** >  de uso y, a continuación, seleccione **Uso de RTC y SMS (versión preliminar).**
+Cada organización tendrá un uso diferente del volumen y las tarifas de los planes de llamadas que se debe tener en cuenta. Tendrás que obtener este tipo de datos de uso de tu proveedor de servicios actual. Para las organizaciones que ya usan Teams como su proveedor de servicios, puede obtener datos de uso si los revisa en el centro de administración de Microsoft Teams > **Analytics & notifica Informes** >  de uso y, a continuación, seleccione **Uso de RTC y SMS (versión preliminar).**
   
 Al configurar créditos de comunicaciones, tendrá que investigar el uso de llamadas de su organización para determinar los importes que deberá poner. Puede obtener información de uso de llamadas revisando el informe de uso de RTC. Este informe le permite exportar los registros de datos de llamadas a Excel y crear informes personalizados.
 
@@ -106,11 +106,11 @@ Las notificaciones importantes relacionadas con el saldo de créditos de comunic
 
 - Administrador de facturación
 - administrador de Skype Empresarial
-- Administrador de la empresa
-- Administrador de cuentas de usuario
+- Administrador global
+- Administrador de usuarios
 - Administrador del departamento de soporte técnico
 - Administrador de soporte técnico
-- Administradores de dispositivos
+- Administrador local de dispositivos unidos a Azure AD
 - Administrador de aplicaciones
 - Administrador de licencias
 - Administrador de dispositivos en la nube
@@ -142,7 +142,7 @@ Puede ver los planes y precios visitando uno de los siguientes vínculos:
 
 También puedes ver información sobre los precios [iniciando sesión en el Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a **Servicios de compra** de **facturación** > .
   
-Para ver una tabla con las licencias que necesitará para cada característica, consulte [Licencias complementarias de Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para ver una tabla con las licencias que necesitará para cada característica, consulte [Microsoft licencias complementarias de Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-articles"></a>Artículos relacionados
 

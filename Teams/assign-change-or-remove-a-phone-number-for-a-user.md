@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo a los usuarios de Teams para que clientes y empresas externas puedan llamar.
-ms.openlocfilehash: d26df14f2f75e205c1824b66c9b8f2f394972d43
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 0dd126f3aa19e0b65b7a0c789f769cef1803f8c8
+ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551664"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69414688"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Asignar, cambiar o quitar un teléfono móvil de un usuario
 
@@ -78,14 +78,11 @@ Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+1425555010
 Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550103" -PhoneNumberType OCMobile
 ```
 
-
-
-
-
-
-
 > [!NOTE]
 > Debido a la latencia entre Microsoft 365 y Teams, los usuarios pueden tardar hasta 24 horas en habilitarse. Si el número de teléfono no se asigna correctamente después de 24 horas, consulte [Centro de servicio de números de teléfono](https://pstnsd.powerappsportals.com/).
+
+> [!NOTE]
+> Al asignar un número de teléfono, la marca EnterpriseVoiceEnabled se establece automáticamente en True.
 
 ## <a name="change-a-phone-number-for-a-user"></a>Cambiar un número de teléfono de un usuario
 

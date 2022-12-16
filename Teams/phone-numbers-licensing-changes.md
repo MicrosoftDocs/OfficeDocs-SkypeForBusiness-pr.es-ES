@@ -20,18 +20,18 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Obtenga información sobre cómo los cambios en las licencias pueden afectar a la administración de números de teléfono.
-ms.openlocfilehash: e023c1606157a5beeafedfa358e470555ba7f653
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: f75c5aeea577163e9f3ee6d1d4302836de0d1e7e
+ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614323"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69414677"
 ---
 # <a name="how-licensing-affects-phone-number-management"></a>Cómo afecta la licencia a la administración de números de teléfono
 
 La forma de quitar y asignar licencias a los usuarios puede afectar a la capacidad de un usuario para realizar y recibir llamadas de red telefónica conmutada (RTC) en Microsoft Teams. En este artículo se describe cómo administrar los cambios en las licencias para asegurarse de que la capacidad de los usuarios para realizar y recibir llamadas RTC no se ve afectada.
 
-Para obtener información general sobre la administración de números de teléfono, vea [Administrar números de teléfono para su organización](manage-phone-numbers-landing-page.md). Para obtener información general sobre las licencias de complementos de Teams, consulte [Licencias de complementos de Microsoft Teams](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para obtener información general sobre la administración de números de teléfono, vea [Administrar números de teléfono para su organización](manage-phone-numbers-landing-page.md). Para obtener información general sobre las licencias de complementos de Teams, consulte [Microsoft licencias de complementos de Teams](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 
 
@@ -41,19 +41,19 @@ Si tiene un usuario con un número de teléfono asignado y quita una o varias de
 
 Según la [opción de conectividad con RTC](pstn-connectivity.md) del usuario, quitar una licencia tiene el siguiente impacto en los parámetros de telefonía:
 
-- **Quitar una licencia del plan de llamadas de Microsoft 365 a un usuario con un número de teléfono de plan de llamadas** hará lo siguiente:
+- **Quitar una licencia del plan de llamadas Microsoft 365 a un usuario con un número de teléfono del plan de llamadas** hará lo siguiente:
   - Copiar cualquier valor de OnPremLineUri a LineUri
   - Establecer EnterpriseVoiceEnabled en False
   - Establecer el estado de asignación de número de teléfono en No asignado en la base de datos de números de teléfono
 
 
-- **Quitar una licencia de Microsoft 365 Phone System a un usuario con un número de teléfono Operator Connect** hará lo siguiente:
+- **Quitar una licencia del sistema telefónico Microsoft 365 a un usuario con un número de teléfono Operator Connect** hará lo siguiente:
   - Borrar LineUri
   - Establecer EnterpriseVoiceEnabled en False
   - Establecer el estado de la asignación del número de teléfono en No asignado en la base de datos de números de teléfono
 
 
-- **Al quitar una licencia de Microsoft 365 Phone System a un usuario con un número de teléfono de Enrutamiento directo** :
+- **Quitar una licencia del sistema telefónico de Microsoft 365 a un usuario con un número de teléfono de enrutamiento directo**:
   - Borrar LineUri
   - Establecer EnterpriseVoiceEnabled en False
   - Quitar el número de teléfono de la base de datos de números de teléfono
@@ -69,14 +69,6 @@ Por ejemplo, supongamos que desea asignar una licencia de Microsoft 365 E5 a un 
 
 - Si usa los cmdlets de PowerShell, [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense) o [Set-MgUserLicense](/powershell/module/microsoft.graph.users.actions/set-mguserlicense), ejecute el cmdlet una vez y use los parámetros -AddLicenses y -RemoveLicenses.
 
-(Si quita la licencia anterior y guarda el cambio y, a continuación, agrega la nueva licencia y guarda el cambio, el número de teléfono se desasignará y el usuario podría perder la capacidad de realizar y recibir llamadas RTC en Microsoft Teams. Después de asignar la nueva licencia, tendrá que volver a asignar el número de teléfono al usuario).
+(Si quita la licencia anterior y guarda el cambio y, después, agrega la nueva licencia y guarda el cambio, el número de teléfono quedará sin asignar y el usuario podría perder la capacidad de realizar y recibir llamadas RTC en Microsoft Teams. Después de asignar la nueva licencia, tendrá que volver a asignar el número de teléfono al usuario).
 
-
-
-
-
-
-
-
-
-
+Para obtener información sobre cómo cambiar la licencia simultáneamente con [licencias basadas en grupos, vea Cambiar las asignaciones de licencia de un usuario o grupo en Azure Active Directory](/azure/active-directory/enterprise-users/licensing-groups-change-licenses).
