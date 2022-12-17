@@ -1,5 +1,5 @@
 ---
-title: comparación de características de Salas de Teams para Windows y Android
+title: Salas de Teams en Windows y Android comparación de características
 author: dstrome
 ms.author: dstrome
 manager: jsarrasin
@@ -18,14 +18,14 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef7675881448597e8f20717c679fe1eabce11323
-ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
+ms.openlocfilehash: 6648502d9b6a3e727ef30f1e94289f1428d8a4e2
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69379457"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438519"
 ---
-# <a name="teams-rooms-for-windows-and-android-feature-comparison"></a>comparación de características de Salas de Teams para Windows y Android
+# <a name="teams-rooms-on-windows-and-android-feature-comparison"></a>Salas de Teams en Windows y Android comparación de características
 
 las experiencias de Salas de Microsoft Teams están diseñadas teniendo en cuenta a los clientes. Cada cliente tiene necesidades únicas, por lo que Microsoft ofrece una amplia variedad de opciones, incluyendo Salas de Teams en Windows y en Android. 
 

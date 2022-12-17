@@ -17,16 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7b74ecb85f6081533f5139b6f8f083b8958d47f
-ms.sourcegitcommit: 31fe510550ac1f5f8e53b2395014cb909a6eb723
+ms.openlocfilehash: 478e739be2787eb2758a2070a441f68c7da727ba
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "68350753"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438308"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Administrar los controles de tecnología de reconocimiento de voz para un altavoz inteligente
 
-Un orador inteligente usa información de perfil de voz para reconocer quién dijo qué en la transcripción en vivo. Cuando una Salas de Microsoft Teams para la sala de reuniones de Windows está equipada con un altavoz inteligente, se puede usar la transcripción en directo durante la reunión. En este artículo se explica cómo usted, un administrador de inquilinos, controlar la generación de perfiles de voz que se usa para el reconocimiento de voz para generar la transcripción en directo. Puede controlar hasta qué grado usa la organización el reconocimiento de voz y las siguientes características:
+Un orador inteligente usa información de perfil de voz para reconocer quién dijo qué en la transcripción en vivo. Cuando una Salas de Microsoft Teams de la sala de reuniones de Windows está equipada con un altavoz inteligente, se puede usar la transcripción en directo durante la reunión. En este artículo se explica cómo usted, un administrador de inquilinos, controlar la generación de perfiles de voz que se usa para el reconocimiento de voz para generar la transcripción en directo. Puede controlar hasta qué grado usa la organización el reconocimiento de voz y las siguientes características:
 
 - Edite el nombre del orador en las transcripciones.
 - Cambie el orador de una sola expresión en la transcripción o cambie el orador en todas las expresiones de la transcripción (pero no en las transcripciones futuras).
@@ -106,11 +106,11 @@ Los datos de perfil de voz se almacenan en Office 365 nube con contenido de usua
 
 La directiva de retención general se indica en Información [general sobre retención de datos](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). Además, los datos del perfil de voz de un usuario se eliminarán después de 1 año si el usuario no está invitado a ninguna reunión con un orador inteligente dentro de ese período de un año. Los datos no se usan en ninguna reunión para empleados existentes. Si un empleado ha abandonado la compañía, los datos del perfil de voz se consideran contenido de usuario y se tratan como tales por Office 365 directiva de retención de datos que se describe en información [general de retención de datos](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 
-**¿Se usan los datos de perfil de voz en los servicios Microsoft?**
+**¿Se usan los datos de perfil de voz en los servicios de Microsoft?**
 
 No, los datos del perfil de voz solo se usan para los fines para los que el usuario ha dado su consentimiento. Microsoft no usará los datos del perfil de voz excepto en los escenarios de reconocimiento de voz de Teams.
 
-Por ejemplo, Microsoft no usará los datos en las siguientes situaciones:
+Por ejemplo, Microsoft no usará los datos en las situaciones siguientes:
 
 **¿Se usan mis datos de perfil de voz al unirse a una reunión en otra organización?**
 

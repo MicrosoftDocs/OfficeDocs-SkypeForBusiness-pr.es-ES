@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Obtenga información sobre qué teléfonos de escritorio y conferencia están certificados para Microsoft Teams para obtener los mejores resultados.
-ms.openlocfilehash: 56a8f5eb18600b62944732312c391ff7bd20201b
-ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
+ms.openlocfilehash: 4117cffe61e10c968cb92777ab5158732a62df21
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69436706"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438288"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft dispositivos Android certificados para Teams
 
@@ -36,7 +36,7 @@ El programa de certificación de dispositivos Microsoft Teams garantiza que los 
 > [!IMPORTANT]
 > El programa de certificación de dispositivos Microsoft Teams garantiza que los dispositivos certificados cumplan los requisitos específicos de diseño y rendimiento de hardware. El programa de certificación no evalúa la compatibilidad con el entorno en la nube ni a nivel de características.
 >
-> Para obtener información sobre qué características son compatibles con Salas de Teams para Windows y Salas de Teams para Android, incluida la compatibilidad con el entorno en la nube, consulte [comparación de características de Salas de Teams para Windows y Android](../rooms/teams-devices-feature-comparison.md).
+> Para obtener información sobre qué características son compatibles con Salas de Teams en Windows y Salas de Teams en Android, incluida la compatibilidad con el entorno en la nube, consulte [Salas de Teams en Comparación de características de Windows y Android](../rooms/teams-devices-feature-comparison.md).
 
 Los programas de certificación están diseñados para garantizar que todos los dispositivos certificados ejecuten una versión de Android con el conjunto de características necesario para Teams y el Centro de administración de Teams. Las fechas de finalización de la certificación se basan en la versión del sistema operativo Android que se ejecuta en el dispositivo cuando entra en el programa de certificación. Nuestros asociados OEM están trabajando para ampliar la duración de la certificación actualizando la versión del sistema operativo Android y recertificando, o lanzando nuevos modelos que son de última generación.
 

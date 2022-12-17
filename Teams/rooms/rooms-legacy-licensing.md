@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Obtenga información y compare las licencias disponibles anteriormente para diferentes tipos de características de llamadas y reuniones en Salas de Microsoft Teams.
-ms.openlocfilehash: a452267c789baa374f8bc5ade3fe050c4269831f
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e02dd830f9d356400fa153305209dc59f48a765b
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392397"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438435"
 ---
 # <a name="microsoft-teams-rooms-legacy-licenses"></a>Salas de Microsoft Teams licencias heredadas
 
@@ -38,7 +38,7 @@ Este artículo se proporciona a los clientes que hayan comprado licencias hereda
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Soluciones de licencias para dispositivos de comunicación compartidos
 
-Las siguientes licencias estaban disponibles para los clientes que adquirieron Salas de Teams dispositivos (como Salas de Microsoft Teams, Microsoft Surface Hub y Salas de Teams para Android) antes del 6 de septiembre de 2022.
+Las siguientes licencias estaban disponibles para los clientes que adquirieron Salas de Teams dispositivos (como Salas de Microsoft Teams, Microsoft Surface Hub y Salas de Teams en Android) antes del 6 de septiembre de 2022.
 
 |&nbsp;|Salas de Microsoft Teams Estándar |Salas de Microsoft Teams Premium |
 |:--- |:---: |:---: |

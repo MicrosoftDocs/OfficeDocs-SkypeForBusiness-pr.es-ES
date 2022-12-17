@@ -18,16 +18,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Información de datos y privacidad
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: ec28dcafa7825e7f754d3631d2c21400a08c9b83
-ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
+ms.openlocfilehash: dd80718da862be02b42a5cf18334c89e86c3807c
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "69046789"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438419"
 ---
 # <a name="approach"></a>Enfoque
 
-Los clientes que usan Salas de Microsoft Teams Servicios administrados confían a Microsoft su activo más valioso: los datos. Confían en que se protegerá su privacidad y que solo se utilizará de manera coherente con sus expectativas.
+Los clientes que usan Salas de Microsoft Teams Servicios administrados confían Microsoft en sus activos más valiosos: los datos. Confían en que se protegerá su privacidad y que solo se utilizará de manera coherente con sus expectativas.
 
 La tecnología sigue procesos de privacidad para asegurarse de que se ajusta a las promesas del cliente en la recopilación y el uso de datos que ejecutan el servicio de forma eficaz.
 ## <a name="data-collection-and-privacy"></a>Recopilación de datos y privacidad
@@ -39,7 +39,7 @@ La tecnología sigue procesos de privacidad para asegurarse de que se ajusta a l
 
 ## <a name="who-can-access-data"></a>Quién puede acceder a los datos
 
-Servicios administrados toma medidas sólidas para ayudar a proteger los datos de los clientes contra el acceso o el uso inadecuados por parte de personas no autorizadas. Entre estas medidas se incluyen restringir el acceso por parte del personal y subcontratistas de Microsoft.
+Servicios administrados toma medidas sólidas para ayudar a proteger los datos de los clientes contra el acceso o el uso inadecuados por parte de personas no autorizadas. Entre estas medidas se incluyen restringir el acceso por Microsoft personal y subcontratistas.
 
 ## <a name="zero-standing-access-data-storage"></a>Almacenamiento de datos de Zero Standing Access
 
@@ -81,7 +81,7 @@ Determinados datos confidenciales del registro Actividad de dispositivo se des m
 - Contenido del mensaje de mensajería instantánea en la reunión
 
 > [!NOTE]
-> A medida que Microsoft evoluciona los Servicios administrados, los datos específicos están sujetos a cambios.
+> A medida Microsoft evoluciona los Servicios administrados, los datos específicos están sujetos a cambios.
 
 ### <a name="enrollment"></a>Inscripción
 
@@ -98,8 +98,8 @@ Servicios administrados proporciona soporte de residencia de datos regional a tr
 
 ## <a name="more-resources"></a>Más recursos
 
-Salas de Microsoft Teams para la seguridad de Windows: [[Microsoft Teams para seguridad de Windows](/microsoftteams/rooms/security-windows) \
-Salas de Microsoft Teams para la seguridad de Android: [Seguridad de Microsoft Teams para Android](/microsoftteams/rooms/security-android) \
-Declaración de privacidad de Microsoft: https://aka.ms/privacy \
-Administración de datos en Microsoft: https://www.microsoft.com/trust-center/privacy/data-management \
-Descripción del servicio de Servicios administrados: [Servicio administrado por salas de Microsoft Teams](rooms-pro-management.md)
+Salas de Microsoft Teams en seguridad de Windows: [[Microsoft Teams para seguridad de Windows](/microsoftteams/rooms/security-windows) \
+Salas de Microsoft Teams en seguridad de Android: [seguridad de Microsoft Teams para Android](/microsoftteams/rooms/security-android) \
+declaración de privacidad Microsoft:https://aka.ms/privacy \
+Administración de datos en Microsoft:https://www.microsoft.com/trust-center/privacy/data-management \
+Descripción del servicio de Servicios administrados: [Microsoft servicio administrado de salas de Teams](rooms-pro-management.md)

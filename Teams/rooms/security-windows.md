@@ -1,5 +1,5 @@
 ---
-title: Salas de Microsoft Teams de seguridad de Windows
+title: Salas de Microsoft Teams en seguridad de Windows
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -15,19 +15,19 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
-description: Obtén información sobre cómo proteger tu Salas de Microsoft Teams para dispositivos Windows.
-ms.openlocfilehash: b35d856afb7ca044388802aa514039bd9b8d40d3
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+description: Obtén información sobre cómo proteger tu Salas de Microsoft Teams en dispositivos Windows.
+ms.openlocfilehash: f7774b43542885118bd66eb09cf1d30049b84425
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532430"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438463"
 ---
-# <a name="microsoft-teams-rooms-for-windows-security"></a>Salas de Microsoft Teams de seguridad de Windows
+# <a name="microsoft-teams-rooms-on-windows-security"></a>Salas de Microsoft Teams en seguridad de Windows
 
-Microsoft trabaja con nuestros asociados para ofrecer una solución que sea segura y no requiera acciones adicionales para proteger Salas de Microsoft Teams para Windows. En este artículo se describen muchas de las características de seguridad que se encuentran en Salas de Teams para Windows.
+Microsoft trabaja con nuestros asociados para ofrecer una solución que sea segura y no requiera acciones adicionales para proteger Salas de Microsoft Teams en Windows. En este artículo se describen muchas de las características de seguridad que se encuentran en Salas de Teams en Windows.
 
-Para obtener información sobre la seguridad en Salas de Teams para dispositivos Android, consulta [Salas de Microsoft Teams para la seguridad de Android](security-android.md).
+Para obtener información sobre la seguridad en Salas de Teams en dispositivos Android, consulta [Salas de Microsoft Teams sobre seguridad de Android](security-android.md).
 
 > [!NOTE]
 > Salas de Microsoft Teams no debe tratarse como una estación de trabajo típica de usuario final. No solo son muy diferentes los casos de uso, sino que los perfiles de seguridad predeterminados también son muy diferentes.
@@ -63,7 +63,7 @@ Salas de Teams también habilita la integridad del código protegido por hipervi
 
 ## <a name="software-security"></a>Seguridad del software
 
-Una vez arrancado Microsoft Windows, Salas de Teams inicia sesión automáticamente en una cuenta de usuario local de Windows denominada Skype. La cuenta de Skype no tiene contraseña. Para proteger la sesión de la cuenta de Skype, se realizan los siguientes pasos.
+Después de iniciar Microsoft Windows, Salas de Teams inicia sesión automáticamente en una cuenta de usuario local de Windows denominada Skype. La cuenta de Skype no tiene contraseña. Para proteger la sesión de la cuenta de Skype, se realizan los siguientes pasos.
 
 > [!IMPORTANT]
 > No cambies la contraseña ni edites la cuenta de usuario local de Skype. Si lo hace, puede impedir que Salas de Teams inicien sesión automáticamente.
@@ -103,12 +103,12 @@ Le recomendamos que cree la cuenta de recursos en Azure AD, si es posible. Aunqu
 
 Por lo general, Salas de Teams tiene los mismos requisitos de red que cualquier cliente de Microsoft Teams. El acceso a través de firewalls y otros dispositivos de seguridad es el mismo para Salas de Teams que para cualquier otro cliente de Microsoft Teams. Específica para Salas de Teams, las categorías enumeradas como "necesarias" para Teams deben estar abiertas en el firewall. Salas de Teams también necesita acceso a Windows Update, Microsoft Store y Microsoft Intune (si usas Microsoft Intune para administrar los dispositivos). Para obtener la lista completa de direcciones IP y URL necesarias para Salas de Microsoft Teams, consulte:
 
-- **Microsoft Teams** [Office 365 direcciones URL e intervalos de direcciones IP](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
+- **Microsoft teams** [Office 365 direcciones URL e intervalos de direcciones IP](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 - **Windows Update** [Configurar WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - Requisitos previos de **Microsoft Store** [para Microsoft Store para Empresas y Educación](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **Microsoft Intune** [puntos de conexión de red para Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
-Si usas el componente de servicios administrados Salas de Microsoft Teams de Salas de Microsoft Teams Pro, también debes asegurarte de que Salas de Teams pueda acceder a las siguientes direcciones URL:
+Si usa el componente de servicios administrados Salas de Microsoft Teams de Salas de Microsoft Teams Pro, también debe asegurarse de que Salas de Teams puede acceder a las siguientes direcciones URL:
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
@@ -122,7 +122,7 @@ Si usas el componente de servicios administrados Salas de Microsoft Teams de Sal
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-Salas de Teams está configurado para mantenerse automáticamente parcheado con las últimas actualizaciones de Windows, incluidas las actualizaciones de seguridad. Salas de Teams instala todas las actualizaciones pendientes todos los días a partir de las 2:00 a.m. con una directiva local predefinida. No es necesario usar herramientas adicionales para implementar y aplicar Windows Novedades. El uso de herramientas adicionales para implementar y aplicar actualizaciones puede retrasar la instalación de revisiones de Windows y, por tanto, llevar a una implementación menos segura. La aplicación Salas de Teams se implementa con Microsoft Store.
+Salas de Teams está configurado para mantenerse automáticamente parcheado con las últimas actualizaciones de Windows, incluidas las actualizaciones de seguridad. Salas de Teams instala todas las actualizaciones pendientes todos los días a partir de las 2:00 a.m. con una directiva local predefinida. No es necesario usar herramientas adicionales para implementar y aplicar Windows Novedades. El uso de herramientas adicionales para implementar y aplicar actualizaciones puede retrasar la instalación de revisiones de Windows y, por tanto, llevar a una implementación menos segura. La aplicación Salas de Teams se implementa con la Tienda Microsoft.
 
 <!-- LICENSE-REVIEW If your devices are licensed with Microsoft Teams Rooms Standard, any new versions of the app are automatically installed during the nightly patching process. If your devices are licensed with Microsoft Teams Rooms Premium and enrolled in the Microsoft Managed Service, new versions of the Teams Rooms app are installed per your defined rollout plan. -->
 

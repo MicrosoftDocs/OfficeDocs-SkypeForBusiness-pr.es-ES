@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Administración puede leer las notas de la versión de Salas de Microsoft Teams, que muestran mejoras acumulativas en Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c6416115d65f223b3785be050520548c2e69ba4
-ms.sourcegitcommit: 23224d983ae027c4923e52ed8e31953ae0f84807
+ms.openlocfilehash: 256ab81b195d5a758e07c24741b1dc8a7ff13218
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69422819"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438369"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de la versión para Salas de Microsoft Teams
 
@@ -106,8 +106,8 @@ Introducido en esta actualización:
 - Iniciar la pizarra en reuniones de Teams
 - Control de lista de vídeo de ajuste a marco
 - Compatibilidad con reuniones de desbordamiento
-- Unirse a la reunión de zoom por id. (Unión directa de invitado)
-- Correcciones de calidad para reuniones de terceros (unirse a invitados directos)
+- Unirse a reuniones de zoom por id. a través de Unirse a invitado directo. Se ha agregado compatibilidad para unirse a reuniones de Zoom por identificador en esta versión y se habilitará en las próximas semanas.
+- Correcciones de calidad para reuniones de terceros (Unión directa de invitados)
 - Corrección de la información de licencia en la configuración que muestra que no se muestra ninguna licencia cuando Teams no ha iniciado sesión
 - Un nuevo papel tapiz predeterminado (Bandera intensa) y otros cuatro nuevos papeles tapiz
 
@@ -321,7 +321,7 @@ Introducido en esta actualización:
 
 - Ver más vídeos con la galería de vídeos de 3x3 delante de las pantallas de sala  
 - Iniciar subtítulos locales en directo desde MTR
-- Unirse a reuniones de Zoom desde Salas de Teams con unirse invitado directo (vista previa)
+- Unirse a reuniones de zoom desde Salas de Teams con unirse directo a un invitado (versión preliminar)
 
 > [!NOTE]
 > La galería de vídeo de 3x3 y los subtítulos locales en directo se entregan a través del servicio Microsoft Teams. Estas características están disponibles para todos los dispositivos Salas de Teams con la versión de aplicación 4.5.37.0 y posteriores.
@@ -337,7 +337,7 @@ Introducido en esta actualización:
 
 Introducido en esta actualización:
 
-- Unirse a las reuniones de Cisco Webex desde Salas de Teams con unirse invitado directo
+- Unirse a reuniones de Cisco Webex desde Salas de Teams con Unirse directo de invitado
 - Habilitación e inscripción automática del Centro de Administración de Teams
 - Soporte técnico de la versión Windows 10 1909
 - Cambiar al diseño de la galería de vídeos incluso cuando el contenido está presente

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: Obtenga información sobre cómo administrar directivas de registro de seminarios web y reuniones en Teams.
-ms.openlocfilehash: 37983f8597b9e1a0ed511c2d767c503494447481
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 5493104b93a74dad6763e0a5ba6c9e6fd57575de
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307585"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438478"
 ---
 # <a name="set-up-webinars-in-microsoft-teams"></a>Configurar seminarios web en Microsoft Teams
 
@@ -52,6 +52,9 @@ Actualmente, la experiencia básica del seminario web se controla mediante el re
 La nueva experiencia de seminario web está configurada en PowerShell. Vea ejemplos sobre [cómo configurar la nueva experiencia de seminario web](#set-up-new-webinar-experience).
 
 Para obtener más información sobre las diferencias entre reuniones, seminarios web y eventos en directo, vea [Reuniones, seminarios web y eventos en directo](quick-start-meetings-live-events.md).
+
+> [!NOTE]
+> La nueva experiencia de seminario web no está disponible para Microsoft 365 GCC, Microsoft 365 GCC High ni Microsoft 365 DoD. La experiencia de seminario web existente no está disponible para Microsoft 365 GCC High o Microsoft 365 DoD.
 
 > [!IMPORTANT]
 > Para permitir a los usuarios configurar seminarios web, Listas Microsoft deben configurarse en SharePoint habilitando la creación de listas personales con fines de exhibición de documentos electrónicos. Para obtener más información, consulta [Configuración de control de Listas Microsoft](/sharepoint/control-lists).

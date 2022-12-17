@@ -16,18 +16,18 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Obtenga información sobre cómo desarrollar y ejecutar operaciones y mantenimiento continuos para garantizar que los sistemas de Salas de Microsoft Teams están disponibles para los usuarios.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d9ce5a3ac479bc16526bb044bbc3e4c34d3b1d0e
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 977987cf0283008235a12fdfdda2ffc792c2e289
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706827"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438278"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Administrar Salas de Microsoft Teams
 
-Si tiene Salas de Microsoft Teams en su organización, tiene opciones de administración flexibles.  Puede administrar los dispositivos usted mismo en la misma ubicación central donde administra todas las soluciones de Teams, centro de administración de Microsoft Teams. Como alternativa, puede transferir la responsabilidad de administración a expertos dedicados mediante [Salas de Microsoft Teams Servicios administrados](https://portal.rooms.microsoft.com).  También puede delegar el acceso de administración a un partner de su elección para cualquiera de las opciones.
+Si tiene Salas de Microsoft Teams en su organización, tiene opciones de administración flexibles.  Puede administrar los dispositivos usted mismo en la misma ubicación central donde administra todas las soluciones de Teams Microsoft centro de administración de Teams.
 
-Con el Centro de administración de Microsoft Teams, puede:
+Con Microsoft centro de administración de Teams, puede:
 
 - Realizar la administración de dispositivos, como reiniciar dispositivos y descargar registros de dispositivos
 - Aplicar la configuración específica de Teams
@@ -35,7 +35,7 @@ Con el Centro de administración de Microsoft Teams, puede:
 - Revisar la actividad actual y pasada de la reunión (como los detalles sobre la calidad de la llamada, el estado y la conectividad de la red y el número de participantes)
 - Ver periféricos (como cámaras y proyectores) conectados a Salas de Microsoft Teams
 
-Para administrar Salas de Teams dispositivos, abra el Centro de [administración de Microsoft Teams](https://admin.teams.microsoft.com) y vaya a **Dispositivos** >  de Teams **Salas de Teams en Windows**.
+Para administrar Salas de Teams dispositivos, abra el centro de [administración de Microsoft Teams](https://admin.teams.microsoft.com) y vaya a **Dispositivos** >  de Teams **Salas de Teams en Windows**.
 
 :::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Salas de Teams página de resumen en el Centro de administración de Teams.":::
 
@@ -64,7 +64,7 @@ Si selecciona más de una, las opciones de configuración compatibles con la edi
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | *Cuenta*                                                    |                                                        |                    |
 | **Email**                                                    | Email dirección                                          | No                 |
-| **Modo de reunión compatible**                                   | Solo Microsoft Teams<br>Skype Empresarial (predeterminado) y Microsoft Teams<br>Skype Empresarial y Microsoft Teams (predeterminado)<br>Solo Skype Empresarial|Sí|
+| **Modo de reunión compatible**                                   | solo Microsoft Teams<br>Skype Empresarial (predeterminado) y Microsoft Teams<br>Skype Empresarial y Microsoft Teams (predeterminado)<br>Solo Skype Empresarial|Sí|
 | **Autenticación moderna**                                    | Activado<br>Desactivado                                              | Sí                |
 | **Dirección de Exchange**                                         | Email dirección                                          | No                 |
 | **Dominio\nombre de usuario (opcional)**                               | Nombre de usuario y dominio de la cuenta                           | No                 |
@@ -151,7 +151,7 @@ Para quitar uno o más dispositivos, haz lo siguiente:
 
 ## <a name="download-device-logs"></a>Descargar registros de dispositivos
 
-Puedes descargar una copia de los archivos de registro de diagnóstico de un dispositivo si el soporte técnico de Microsoft lo solicita. Los archivos de registro se comprimen en un archivo zip que se puede descargar desde el Centro de administración de Teams.
+Puedes descargar una copia de los archivos de registro de diagnóstico de un dispositivo si así lo solicita Microsoft soporte técnico. Los archivos de registro se comprimen en un archivo zip que se puede descargar desde el Centro de administración de Teams.
 
 Para descargar registros desde un dispositivo Salas de Teams al equipo, haga lo siguiente:
 
