@@ -3,6 +3,15 @@
 
 
 
+## <a name="week-of-december-19-2022"></a>Semana del 19 de diciembre de 2022
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 12/19/2022 | [Administrar el acceso a las aplicaciones de Teams en Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modificado |
+| 12/21/2022 | [Plantilla de reunión de cita virtual en Microsoft Teams](/MicrosoftTeams/virtual-appointment-meeting-template) | agregado |
+
+
 ## <a name="week-of-december-12-2022"></a>Semana del 12 de diciembre de 2022
 
 
