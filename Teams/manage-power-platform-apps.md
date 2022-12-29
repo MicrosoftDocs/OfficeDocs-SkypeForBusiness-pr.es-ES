@@ -18,19 +18,19 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar el acceso a aplicaciones personalizadas que se han creado con Microsoft Power Platform en el centro de administración de Teams.
-ms.openlocfilehash: c4ac0bd3551bb53da06de3301447c6bf4842540c
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: cf47cb5a2441676aba706b2353837d51997d9b4f
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912589"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677400"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Administrar aplicaciones de Microsoft Power Platform en el centro de administración de Teams
 
-Este artículo le ofrece información general sobre cómo administrar las aplicaciones personalizadas creadas con las aplicaciones [de Microsoft Power Platform](https://powerplatform.microsoft.com/) en el Centro de administración de Microsoft Teams. Las aplicaciones personalizadas las crean desarrolladores de la organización para usuarios internos.
+En este artículo se ofrece información general sobre cómo administrar las aplicaciones personalizadas creadas con las aplicaciones [de Microsoft Power Platform](https://powerplatform.microsoft.com/) en el centro de administración de Microsoft Teams. Las aplicaciones personalizadas las crean desarrolladores de la organización para usuarios internos.
 
 > [!NOTE]
-> El artículo no se aplica a la aplicación Power Apps ni a la aplicación Power Virtual Agents que se instalan desde la página Aplicaciones o que están ancladas a Teams a través de una directiva de configuración de aplicaciones. Las aplicaciones de Store se pueden administrar mediante [directivas de permisos de aplicaciones](teams-app-permission-policies.md) y [directivas de configuración de aplicaciones](teams-app-setup-policies.md).
+> Este artículo no se aplica a la `Power Apps` aplicación o `Power Virtual Agents` aplicación que se instala desde la tienda de aplicaciones o que está anclada a Teams mediante una directiva de configuración de aplicaciones. Las aplicaciones de Store se pueden administrar mediante [directivas de permisos de aplicaciones](teams-app-permission-policies.md) y [directivas de configuración de aplicaciones](teams-app-setup-policies.md).
 
 [Power Apps](https://powerapps.microsoft.com) es un entorno de desarrollo de aplicaciones sin código o con poco código que los creadores de aplicaciones de su organización pueden usar para crear aplicaciones personalizadas que se conecten a los datos de empresa. [Power Virtual Agents](/power-virtual-agents/fundamentals-what-is-power-virtual-agents) es un entorno sin código de creación de bots para que los desarrolladores de aplicaciones puedan crear bots eficaces. Con la integración de aplicaciones de Microsoft Power Platform en Teams, las organizaciones pueden simplificar los procesos empresariales, responder a las necesidades empresariales cambiantes más rápidamente para impulsar una mayor colaboración y crear y compartir soluciones personalizadas para ser más productivo.  
 
@@ -73,7 +73,7 @@ De forma predeterminada, se permiten las **aplicaciones de Power Apps compartida
     * Para bloquear las aplicaciones creadas en Power Apps o Power Virtual Agents para todos los usuarios de la organización, busque **aplicaciones de Power Apps compartidas** o **aplicaciones de Power Virtual Agents compartidas**, selecciónelas y, luego, seleccione **Bloquear**.
     * Para permitir aplicaciones creadas en Power Apps o Power Virtual Agents para todos los usuarios de la organización, busque **aplicaciones de Power Apps compartidas** o **aplicaciones de Power Virtual Agents compartidas**, selecciónelas y, luego, seleccione **Permitir**.
 
-### <a name="allow-microsoft-power-platform-apps-for-specific-users"></a>Permitir aplicaciones de Microsoft Power Platform para usuarios específicos
+### <a name="allow-microsoft-power-platform-apps-for-specific-users"></a>Permitir Microsoft aplicaciones de Power Platform para usuarios específicos
 
 Para permitir o bloquear el acceso de usuarios específicos de la organización a aplicaciones creadas en Power Apps o Power Virtual Agents, cree y asigne una o más [directivas de permisos de aplicación](teams-app-permission-policies.md) personalizadas.
 
@@ -81,7 +81,7 @@ Por ejemplo, para bloquear el acceso de usuarios específicos a las aplicaciones
 
 :::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Captura de pantalla de la directiva personalizada de ejemplo para permisos de aplicaciones con Power Apps compartidas bloqueadas.":::
 
-### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>Usar registros de auditoría para investigar la actividad de instalación de Microsoft Power Platform
+### <a name="use-audit-logs-to-check-microsoft-power-platform-installation-activity"></a>Usar registros de auditoría para comprobar Microsoft actividad de instalación de Power Platform
 
 Puede usar registros de auditoría para Teams e investigar eventos en los que los usuarios instalaron aplicaciones de Microsoft Power Platform desde la sección **Creado con Power Platform** de la página Aplicaciones en Teams. Para ello, [busque en el registro de auditoría](./audit-log-events.md) el evento de Teams de la **aplicación instalada** (en la operación **AppInstalled**) de un usuario o conjunto de usuarios. Para buscar aplicaciones instaladas desde **Creado con Power Platform**, busque el valor **TemplatedInstance** en la propiedad **AppDistributionMode** en los detalles de un registro determinado.
 

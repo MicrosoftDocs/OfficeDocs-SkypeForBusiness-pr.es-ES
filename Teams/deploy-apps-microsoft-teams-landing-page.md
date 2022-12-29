@@ -22,12 +22,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 7713f1f2bf1f3a4866751d02ba702cb2d3d244f0
-ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
+ms.openlocfilehash: 7ded369ab991a37e711c416a7448447f148c069c
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69156846"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677420"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Comprender Microsoft las aplicaciones de Teams y sus capacidades
 
@@ -92,7 +92,7 @@ Para obtener más información, consulte [Plantillas de aplicación de Microsoft
 
 Los usuarios pueden ver todas las aplicaciones disponibles en Teams desde la tienda de aplicaciones de Teams en un cliente de escritorio o web de Teams. Los usuarios pueden buscar por nombre, examinar por categoría y buscar por aplicaciones creadas para su organización y creadas con Power Platform para descubrir e instalar aplicaciones en Teams.
 
-Las aplicaciones se pueden anclar a Teams para facilitar el acceso. Los usuarios pueden [anclar aplicaciones por su cuenta](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) si su directiva de configuración lo permite y si el administrador de Teams permite la aplicación. Los administradores pueden anclar aplicaciones y controlar el comportamiento de las aplicaciones ancladas. Para obtener más información, consulte [Directivas de configuración de aplicaciones](/teams-app-setup-policies).
+Las aplicaciones se pueden anclar a Teams para facilitar el acceso. Los usuarios pueden [anclar aplicaciones por su cuenta](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) si su directiva de configuración lo permite y si el administrador de Teams permite la aplicación. Los administradores pueden anclar aplicaciones y controlar el comportamiento de las aplicaciones ancladas. Para obtener más información, consulte [Directivas de configuración de aplicaciones](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Captura de pantalla que muestra todos los lugares donde los usuarios pueden examinar aplicaciones en Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
 
