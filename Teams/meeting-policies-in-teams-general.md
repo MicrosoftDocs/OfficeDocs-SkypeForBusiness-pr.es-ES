@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directivas de reuniones generales en Teams.
-ms.openlocfilehash: 97ba1da0301f1a5515caf88d5f428578b653653a
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: cc0d704c5a78d09da4c1332d48f795cdb611d134
+ms.sourcegitcommit: 84a832330c0a9f9fb818bbfb22e534fe035c1837
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307515"
+ms.lasthandoff: 01/03/2023
+ms.locfileid: "69693383"
 ---
 # <a name="meeting-policy-settings---general"></a>Configuración de la directiva de reunión. Aspectos generales
 
@@ -37,8 +37,6 @@ En este artículo se describen las siguientes configuraciones de directiva gener
 - [Complemento de Outlook](#outlook-add-in)
 - [Programación de reuniones de canal](#channel-meeting-scheduling)
 - [Programación de reuniones privadas](#private-meeting-scheduling)
-- [Reunirse ahora en reuniones privadas](#meet-now-in-private-meetings)
-- [Modo de rol de moderador designado](#designated-presenter-role-mode)
 - [Informe de participación](#engagement-report)
 - [Registro de reunión](#meeting-registration)
 - [Seminarios web](#webinars)
@@ -48,7 +46,7 @@ En este artículo se describen las siguientes configuraciones de directiva gener
 
 ## <a name="meet-now-in-channels"></a>Reunirse ahora en canales
 
-Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede iniciar una reunión ad hoc en un canal de Teams. Si lo activa, los usuarios pueden hacer clic en el botón **Reunirse** para iniciar una reunión ad hoc o programar una reunión en el canal. El valor predeterminado es True.
+Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede iniciar una reunión no planeada en un canal de Teams. Si activa esta configuración, los usuarios pueden hacer clic en el botón **Reunirse** para iniciar una reunión no planeada o programar una reunión en el canal. Esta configuración está activada de forma predeterminada.
 
 [![Captura de pantalla que muestra el icono Reunirse ahora debajo de un mensaje.](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -74,7 +72,7 @@ La selección de canales está desactivada.
 
 [![Captura de pantalla que muestra la opción de calendario para seleccionar un canal en el que desea programar una reunión.](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
-En la página de publicaciones del canal, se deshabilitarán las siguientes opciones:
+En la página de publicaciones del canal, se deshabilitarán las siguientes funcionalidades:
 
 - El botón **Programar una reunión** en el cuadro de redactar respuesta del canal.
   ![Captura de pantalla que muestra la opción de calendario para seleccionar un canal en el que desea programar una reunión.](media/schedule-meeting-disabled-in-chat2.png)
@@ -99,29 +97,9 @@ La aplicación Calendario de canal se mostrará en la sección **Aplicaciones de
 
 ## <a name="private-meeting-scheduling"></a>Programación de reuniones privadas
 
-Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede programar una reunión privada en Teams. Una reunión es privada cuando no se publica en un canal de un equipo.
+Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede programar una reunión privada en Teams. Una reunión es privada cuando no se publica en un canal de un equipo. **La programación de reuniones privadas** está activada de forma predeterminada.
 
-Tenga en cuenta que si desactiva **Permitir la programación de reuniones privadas** y **Permitir la programación de reuniones de canal**, las opciones **Agregar los asistentes necesarios** y **Agregar el canal** estarán deshabilitadas para los usuarios de Teams. Esta configuración está activada de forma predeterminada.
-
-## <a name="meet-now-in-private-meetings"></a>Reunirse ahora en reuniones privadas
-
-Esta es una directiva por usuario y se aplica antes de que se inicie la reunión. Esta configuración controla si un usuario puede iniciar una reunión privada ad hoc.  Esta configuración está activada de forma predeterminada.
-
-## <a name="designated-presenter-role-mode"></a>Modo de rol de moderador designado
-
-Esta es una directiva por usuario. Esta configuración le permite cambiar el valor predeterminado de la configuración **¿Quién puede encargarse de la moderación?** en **Opciones de reunión** en el cliente de Teams. Esta configuración de directiva afecta a todas las reuniones, incluidas las reuniones de Reunirse ahora.
-
-La configuración **¿Quién puede encargarse de la moderación?** permite a los organizadores de reuniones elegir quién puede moderar una reunión. Para obtener más información, consulte [Cambiar la configuración de los participantes para una reunión de Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) y [Roles en una reunión de Teams](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
-
-Actualmente, solo puede usar PowerShell para establecer esta configuración de directiva. Para editar una directiva de reunión de Teams existente, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). También puede crear una nueva directiva de reunión de Teams con el cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) y asignarla a los usuarios.
-
-Para especificar el valor predeterminado de la configuración **¿Quién puede encargarse de la moderación?** de Teams, establezca el parámetro **DesignatedPresenterRoleMode** en una de las siguientes opciones:
-
-- **EveryoneUserOverride**: todos los participantes de la reunión pueden ser moderadores. Este es el valor predeterminado. Este parámetro corresponde a la configuración **Todos** de Teams.
-- **EveryoneInCompanyUserOverride**: los usuarios autenticados en la organización, incluidos los invitados, pueden ser moderadores. Este parámetro corresponde a la configuración **Personas de mi organización** de Teams.
-- **OrganizerOnlyUserOverride**: solo el organizador de la reunión puede ser moderador y todos los participantes de la reunión se designan como asistentes. Este parámetro corresponde a la configuración **Solo yo** de Teams.
-
-Tenga en cuenta que, después de establecer el valor predeterminado, los organizadores de reuniones aún podrán cambiar esta configuración en Teams y elegir quién puede moderar las reuniones que programen.
+Si desactiva la **configuración de programación de reuniones privada** y de **reunión de canal** , las opciones **Agregar asistentes necesarios** y **Agregar canal** están deshabilitadas para los usuarios de Teams.
 
 ## <a name="engagement-report"></a>Informe de participación
 
@@ -142,7 +120,7 @@ Para obtener más información, incluidos los límites del informe de participac
 
 ## <a name="meeting-registration"></a>Registro de reunión
 
-Esta es una directiva por usuario. Si activa esta opción, los usuarios de su organización pueden agregar el registro a una reunión. Esta directiva está habilitada de forma predeterminada.
+Esta es una directiva por usuario. Si activa esta configuración, los usuarios de su organización pueden agregar el registro a una reunión. Esta directiva está habilitada de forma predeterminada.
 
 Para obtener más información sobre el registro de reuniones, lea [Configurar el registro de reuniones](set-up-webinars.md#configure-meeting-registration).
 
@@ -164,7 +142,7 @@ Actualmente, solo puede usar PowerShell para establecer esta directiva. Para edi
 
 Para especificar qué complemento de la reunión desea que esté disponible para los usuarios, establezca el parámetro **PreferredMeetingProviderForIslandsMode** como se indica a continuación:
 
-- Establezca el parámetro en **TeamsAndSfB** para habilitar tanto el complemento de reuniones de Teams como el complemento de Skype Empresarial en Outlook. Este es el valor predeterminado.
+- Establezca el parámetro en **TeamsAndSfB** para habilitar tanto el complemento de reuniones de Teams como el complemento de Skype Empresarial en Outlook. **TeamsAndSfB** es el valor predeterminado.
 - Establezca el parámetro en **Teams** para habilitar solo el complemento de la reunión de Teams en Outlook. Esta configuración de directiva garantiza que todas las reuniones futuras tengan un vínculo para unirse a una reunión de Teams. No migra a Teams los vínculos existentes para unirse a reuniones de Skype Empresarial. Esta configuración de directiva no afecta a la presencia, el chat, las llamadas RTC ni cualquier otra función en Skype Empresarial, lo que significa que los usuarios seguirán empleando Skype Empresarial para estas funciones.
 
   Si establece el parámetro como **Teams** y, a continuación, vuelve a **TeamsAndSfB**, se habilitan los complementos de la reunión. Sin embargo, tenga en cuenta que los vínculos existentes para unirse a reuniones de Teams no se migrarán a Skype Empresarial. Solo las reuniones de Skype Empresarial programadas tras el cambio tendrán un vínculo para unirse a reuniones de Skype Empresarial.
@@ -177,7 +155,7 @@ En el Centro de administración de Teams, las reacciones de reunión se pueden h
 
 Para configurar la configuración en PowerShell, use el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Para desactivarlo, establezca **AllowMeetingReactions en** **False**.
 
-Desactivar las reacciones a un usuario no significa que un usuario no pueda usar las reacciones en las reuniones que programe. El organizador de la reunión puede activar las reacciones desde la página de opciones de la reunión, independientemente de la configuración predeterminada.
+Desactivar las reacciones de un usuario no significa que un usuario no pueda usar reacciones en las reuniones que programe. El organizador de la reunión puede activar las reacciones desde la página de opciones de la reunión, independientemente de la configuración predeterminada.
 
 ## <a name="speaker-coach"></a>Entrenador de altavoces
 

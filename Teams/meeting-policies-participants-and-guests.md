@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a administrar la configuración de directivas de reunión en Teams para participantes e invitados.
-ms.openlocfilehash: 42321eb1edadeda928ab0cb9e78e166478b73ed9
-ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
+ms.openlocfilehash: 26d2fd24d8b241b8f79276148ed27abd3e5412b1
+ms.sourcegitcommit: 84a832330c0a9f9fb818bbfb22e534fe035c1837
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69436676"
+ms.lasthandoff: 01/03/2023
+ms.locfileid: "69693393"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configuración de la directiva de reuniones: participantes e invitados
 
@@ -50,7 +50,7 @@ Esta configuración se encuentra en el Centro de administración de Teams, en **
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>Permitir que personas anónimas se unan a una reunión
 
-Esta configuración por organizador permite a cualquier persona unirse a las reuniones como usuario anónimo seleccionando el vínculo en la invitación a la reunión. Para más información, consulte[Únase a una reunión sin una cuenta de Teams](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). La capacidad de los usuarios anónimos para unirse a reuniones también se controla en el nivel de su organización, la configuración más restrictiva será eficaz. Para obtener más información, consulte [Uso del centro de administración de Microsoft Teams para configurar directivas para toda la organización](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
+Esta configuración por organizador permite a cualquier persona unirse a las reuniones como usuario anónimo seleccionando el vínculo en la invitación a la reunión. Para más información, consulte[Únase a una reunión sin una cuenta de Teams](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). La capacidad de los usuarios anónimos para unirse a reuniones también se controla en el nivel de su organización, la configuración más restrictiva será eficaz. Para obtener más información, consulte [Uso del Centro de administración de Microsoft Teams para configurar directivas para toda la organización](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Permitir que los usuarios anónimos inicien una reunión
 
@@ -61,14 +61,14 @@ Esta configuración es una directiva por organizador que permite reuniones de co
 
 ## <a name="who-can-present-in-meetings"></a>Quién puede presentar en reuniones
 
-Esta es una directiva por usuario. Esta configuración le permite cambiar el valor predeterminado de la configuración **¿Quién puede encargarse de la moderación?** en **Opciones de reunión** en el cliente de Teams. Esta configuración de directiva afecta a todas las reuniones, incluidas las reuniones de Reunirse ahora.
+Esta configuración es una directiva por usuario que le permite cambiar el valor predeterminado de la configuración **¿Quién puede presentar?** en **Opciones de reunión** del cliente de Teams. La configuración de directiva **Quién puede presentar en las reuniones** afecta a todas las reuniones, incluidas las reuniones de Reunirse ahora.
 
 La configuración **¿Quién puede encargarse de la moderación?** permite a los organizadores de reuniones elegir quién puede moderar una reunión. Para obtener más información, consulte [Cambiar la configuración de los participantes para una reunión de Teams](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e) y [Roles en una reunión de Teams](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
-Para especificar el valor predeterminado de la configuración **¿Quién puede presentar?** en Teams, establezca una de las siguientes opciones de configuración en la directiva:
+Para especificar el valor predeterminado de la configuración **¿Quién puede presentar?** en Teams, establezca una de las siguientes opciones en la directiva **¿Quién puede presentar en las reuniones** ?:
 
 - **Organizadores, pero los usuarios pueden invalidarlo**: solo el organizador de la reunión puede ser moderador y todos los participantes de la reunión se designan como asistentes. Este parámetro corresponde a la configuración **Solo yo** de Teams.
-- **Todos los usuarios de la organización, pero el usuario pueden invalidarlo**: los usuarios autenticados de la organización, incluidos los usuarios invitados, pueden ser moderadores. Esta configuración corresponde a la **configuración de Personas en mi organización** en Teams.
+- **Todos los usuarios de la organización, pero el usuario pueden invalidarlo**: los usuarios autenticados de la organización, incluidos los invitados, pueden ser moderadores. Esta configuración corresponde a la **configuración de Personas en mi organización** en Teams.
 - **Todos, excepto el usuario, pueden invalidarlo**: todos los participantes de la reunión pueden ser moderadores. Este es el valor predeterminado. Esta configuración corresponde a la configuración **Todos** en Teams.
 
 Tenga en cuenta que, después de establecer el valor predeterminado, los organizadores de reuniones aún podrán cambiar esta configuración en Teams y elegir quién puede moderar las reuniones que programen.
@@ -145,7 +145,7 @@ Una vez que esta directiva de **Chat en reuniones** se aplica a los usuarios, un
 
 La directiva aplicada al organizador de la reunión puede afectar a otros usuarios de la reunión. Por ejemplo:
 
-- Si el organizador tiene la opción **Chatear en reuniones** establecida **en Activar para todos los usuarios** o **Activarla para todos los usuarios excepto anónimos**, se aplicará la directiva individual de un usuario y los usuarios que tengan **la opción Desactivar para todos** los usuarios establecida no podrán chatear en la reunión.
+- Si el organizador tiene la opción **Chat en reuniones establecida en** **Activar para todos los** usuarios o **Activarla para todos los usuarios excepto anónimos**, se aplicará la directiva individual de un usuario y los usuarios que tengan **la opción Desactivar para todos** los usuarios establecida no podrán chatear en la reunión.
 - Si el organizador tiene la opción **Chat en reuniones establecida en** **Desactivarla para todos los usuarios**, se aplica la directiva del organizador y nadie podrá chatear en la reunión.
 
 <a name="bkparticipantsandguests"> </a>
@@ -156,7 +156,7 @@ Esta es una directiva por organizador. Esta configuración activa o desactiva la
 
 La configuración se aplica cuando los organizadores crean o actualizan una reunión. Esta configuración está desactivada de forma predeterminada. Obtenga más información sobre [Q&A en Reuniones de Teams](/manage-qna-for-teams).
 
-El parámetro QnAEngagementMode controla esta directiva en PowerShell. Q&A también se puede ajustar en el Centro de administración de Teams.
+Teams Q&A se puede ajustar dentro del centro de administración de Teams en **Directivas** >  de **reunión** de reuniones en la sección **Participantes & invitados**. El parámetro `-QnAEngagementMode` controla esta directiva en PowerShell.
 
 |Valor de configuración |Comportamiento  |
 |---------|---------|
@@ -169,7 +169,7 @@ Las reacciones de reunión están activadas de forma predeterminada. Desactivar 
 
 ## <a name="enable-meeting-policy-settings"></a>Habilitar la configuración de la directiva de reunión
 
-Para habilitar la configuración de la directiva de reunión, puede usar el [Centro de administración de Teams](https://admin.teams.microsoft.com/policies/meetings) (Directivas de **reunión** > **Editar una directiva** > **Participantes & invitados**) o el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) en Teams PowerShell. 
+Para habilitar la configuración de la directiva de reunión, puede usar el [Centro de administración de Teams](https://admin.teams.microsoft.com/policies/meetings) (Directivas de **reunión** > **Editar una directiva** > **Participantes & invitados**) o el cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) en Teams PowerShell.
 
 En este ejemplo, usamos PowerShell para modificar la directiva de reunión global para permitir que cualquier persona pueda iniciar una reunión o unirse a ella.
 
@@ -178,7 +178,6 @@ Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAn
 ```
 
 Una vez que haya configurado una directiva, debe aplicarla a los usuarios. Si ha modificado la directiva global (predeterminada para toda la organización), se aplicará automáticamente a los usuarios. Debe esperar al menos 4 horas para que los cambios de directiva surtan efecto, pero pueden tardar hasta 24 horas.
-
 
 ## <a name="related-topics"></a>Temas relacionados
 
