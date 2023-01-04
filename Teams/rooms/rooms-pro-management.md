@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga más información sobre la administración de Salas de Microsoft Teams Pro.
 f1keywords: ''
-ms.openlocfilehash: d6644308f5c9de9b92c3d25df2595a036c232c7b
-ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
+ms.openlocfilehash: cadf078c4d56c518acda73a44b62c55f346f189c
+ms.sourcegitcommit: 0e4e5b9933970827ea4be137ca98eab6994e2301
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "69046904"
+ms.lasthandoff: 01/04/2023
+ms.locfileid: "69696895"
 ---
 # <a name="microsoft-teams-rooms-pro-management"></a>Administración de Salas de Microsoft Teams Pro
 
@@ -68,11 +68,11 @@ Para que el servicio administrado Salas de Microsoft Teams mantenga la calidad d
 
 ## <a name="supported-regions"></a>Regiones admitidas
 
-La licencia de Salas de Microsoft Teams Pro está disponible en los siguientes países con audioconferencia:
+La licencia de Salas de Microsoft Teams Pro está disponible en los siguientes países o regiones con audioconferencia:
 
 - Argentina, Australia, Austria, Bélgica, Bosnia & Herzegovina, Brasil, Bulgaria, Canadá, Chile, Colombia, Costa Rica, Croacia, Chipre, República Checa, Dinamarca, Ecuador, Egipto, Estonia, Finlandia, Francia, Alemania, Grecia, Guernsey, Hong Kong RAE, Hungría, Indonesia, Irlanda, Israel, Italia, Japón, Jersey, Jordania, Kenia, Corea, Letonia, Lituania, Luxemburgo, Malasia, Malta, México, Mónaco, Países Bajos, Nueva Zelanda, Noruega, Panamá, Paraguay, Perú, Filipinas,  Polonia, Portugal, Puerto Rico, Qatar, Rumania, Rusia, Serbia, Singapur, Eslovaquia, Eslovenia, Sudáfrica, España, Sri Lanka, Suecia, Suiza, Taiwán, Tailandia, Trinidad & Tobago, Turquía, Islas Vírgenes de los Estados Unidos, Ucrania, Emiratos Árabes Unidos, Reino Unido, Estados Unidos, Uruguay, Venezuela, Vietnam
 
-La licencia de Salas de Microsoft Teams Pro está disponible en los siguientes países sin audioconferencia:
+La licencia de Salas de Microsoft Teams Pro está disponible en los siguientes países o regiones sin audioconferencia:
 
 - Afganistán, Islas Åland, Albania, Argelia, Samoa Americana, Andorra, Angola, Anguilla, Anguilla, Antártida, Antigua & Barbuda, Argentina, Armenia, Aruba, Australia, Austria, Azerbaiyán, Bahamas, Bahrein, Bangladesh, Barbados, Belarús, Belice, Belice, Benín, Bermudas, Bhutan, Bolivia, Bonaire, Sint Eustatius y Saba, Bosnia & Herzegovina, Botsuana, isla Bouvet, Brasil, Territorio Británico del Océano Índico, Islas Vírgenes Británicas, Brunéi, Bulgaria, Burkina Faso, Burundi, Camboya,  Camerún, Canadá, Cabo Verde, Islas Caimán, República Centroafricana, Chad, Chile, China, Isla de Navidad, Islas Cocos (Keeling), Colombia, Comoros, Congo, Congo (RDC), Islas Cook, Costa Rica, Côte d'Ivoire, Croacia, Curaçao, Chipre, Chequia, Dinamarca, Djibouti, Dominica, República Dominicana, Ecuador, Egipto, El Salvador, Inglés (Territorios Australes Franceses), Guinea Ecuatorial, Framework, Estonia, Eswatini, Etiopía, Islas Malvinas, Islas Feroe, Fiji,  Finlandia, Francia, Guayana Francesa, Polinesia Francesa, Gabón, Georgia, Alemania, Ghana, Gibraltar, Grecia, Groenlandia, Granada, Guadeloupe, Guam, Guatemala, Guernsey, Guinea, Guinea, Guinea-Bissau, Guyana, Haití, Islas Heard And Mc Donald, Santa Sede (Ciudad del Vaticano), Honduras, Hong Kong RAE, Hungría, Islandia, India, Indonesia, Iraq, Irlanda, Isla de Man, Israel, Italia, Jamaica, Japón, Jersey, Jordania, Kazajistán, Kenia, Corea, Kosovo, Kosovo  Kuwait, Kirguistán, Laos, Letonia, Líbano, Lesotho, Liberia, Libia, Liechtenstein, Lituania, Luxemburgo, Macao RAE, Madagascar, Malawi, Malasia, Maldivas, Malí, Malta, Islas Marshall, Martinica, Mauricio, Maytte, México, Micronesia, Moldavia, Mónaco, Mongolia, Montenegro, Marruecos, Mozambique, Myanmar, Namibia, Nauru, Nepal, Países Bajos, Nueva Caledonia, Nueva Zelanda, Nicaragua, Níger, Nigeria, Niue, Isla Norfolk, Macedonia del Norte, Islas Marianas del Norte, Noruega,  Omán, Pakistán, Palau, Territorio Palestino, Ocupados, Panamá, Papúa Nueva Guinea, Paraguay, Perú, Filipinas, Islas Pitcairn, Polonia, Portugal, Puerto Rico, Qatar, Reunión, Rumania, Rusia, Ruanda, Samoa, San Marino, São Tomé & Príncipe, Arabia Saudí, Arabia Saudí, Senegal, Serbia, Seychelles, Sierra Leona, Singapur, Sint Maarten, Eslovaquia, Eslovenia, Islas Salomón, Somalia, Sudáfrica, Sudáfrica, Georgia del Sur y las Islas Sandwich del Sur,  Sudán del Sur, España, Sri Lanka, Santa Helena, Ascensión, Tristán de Cunha, San Barthélemy, San Cristóbal & Nieves, Santa Lucía, San Martín, San Pedro & Miquelón, San Vicente & Granadinas, Surinam, Svalbard & Jan Mayen, Suecia, Suiza, Taiwán, Tayikistán, Tanzania, Tailandia, Timor-Leste, Tokelau, Tokelau, Tonga, Trinidad & Tobago, Túnez, Turquía, Turkmenistán, Islas Turcas & Caicos, Tuvalu, Islas Ultrateñas,  Islas Vírgenes de los Estados Unidos, Uganda, Ucrania, Emiratos Árabes Unidos, Reino Unido, Estados Unidos, Uruguay, Uzbekistán, Vanuatu, Venezuela, Vietnam, Wallis & Futuna, Yemen, Zambia, Zimbabwe
 

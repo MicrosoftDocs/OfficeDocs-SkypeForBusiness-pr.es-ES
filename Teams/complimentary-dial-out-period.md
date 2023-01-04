@@ -22,12 +22,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Obtenga más información sobre el período de llamadas de salida complementarias para un plan de llamadas de Microsoft 365 y las audioconferencias en Microsoft Teams.
-ms.openlocfilehash: 72ec36eb99a4a0eb2358195a52db00b26bb591e5
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: 472482f49109932dded4594bf0381ebd93febab3
+ms.sourcegitcommit: 0e4e5b9933970827ea4be137ca98eab6994e2301
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67641901"
+ms.lasthandoff: 01/04/2023
+ms.locfileid: "69696855"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período gratuito para la realización de llamadas de Audioconferencia
 
@@ -39,7 +39,7 @@ Los clientes pueden usar un plan de llamadas o Microsoft 365 y audioconferencia 
 
 La capacidad de llamada complementaria finalizó el 1 de diciembre de 2019. Para obtener más información, consulte Llamadas telefónicas de [suscripción a Audioconferencia y Llamarme en beneficio](audio-conferencing-subscription-dial-out.md).
 
-Este cambio no se realizó en los países donde la suscripción de Audioconferencia está disponible, pero actualmente no habilitamos la configuración de créditos de comunicaciones. Estos países específicos son Rusia, Corea del Sur y Taiwán.
+Este cambio no se realizó para los países y regiones donde la suscripción de Audioconferencia está disponible, pero actualmente no habilitamos la configuración de créditos de comunicaciones. Estos países y regiones específicas son Rusia, Corea del Sur y Taiwán.
 
 ### <a name="complimentary-dial-out-period-details"></a>Detalles del período de llamadas gratuitas
 
@@ -47,7 +47,7 @@ Para los clientes que adoptan nuestro servicio de audioconferencia de Microsoft 
 
 Además, hay un límite de 900 minutos durante el período de llamada gratuita como tal:
 
-Los usuarios con una ubicación de uso de licencia (la ubicación es la ubicación del país del usuario que se define en el área de licencias de la Centro de administración de Microsoft 365) en _cualquier_ _ país pueden llamar desde una conferencia a cualquiera de los 44 [países y regiones de la zona A](audio-conferencing-zones.md). Cada usuario recibe 900 minutos por usuario al mes a _cualquiera_ de los [países y regiones de la Zona A](audio-conferencing-zones.md), que se agrupan en el nivel de inquilino. Por ejemplo, un cliente ha comprado 115 licencias de suscripción de Audioconferencia y tiene 10 usuarios en Estados Unidos, 100 usuarios en el Reino Unido y 5 usuarios en india, todos con licencias de suscripción de Audioconferencia asignadas a sus usuarios.
+Los usuarios con una ubicación de uso de licencia (la ubicación es la ubicación del país o la región del usuario que se define en el área de licencias de la Centro de administración de Microsoft 365) en _cualquier_ _ país o región pueden llamar desde una conferencia a cualquiera de los [países y regiones](audio-conferencing-zones.md) de la 44 zona A. Cada usuario recibe 900 minutos por usuario al mes a _cualquiera_ de los [países y regiones de la Zona A](audio-conferencing-zones.md), que se agrupan en el nivel de inquilino. Por ejemplo, un cliente ha comprado 115 licencias de suscripción de Audioconferencia y tiene 10 usuarios en Estados Unidos, 100 usuarios en el Reino Unido y 5 usuarios en india, todos con licencias de suscripción de Audioconferencia asignadas a sus usuarios.
 
 - Los 115 usuarios comparten un grupo de (115 usuarios x 900 min) = 103.500 minutos de llamadas salientes por mes natural, que se pueden usar para realizar llamadas salientes a cualquiera de los [países y regiones de la zona A](audio-conferencing-zones.md).
 
