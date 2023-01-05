@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f97b2aea15fe626c7780f022e2d024729ad02589
-ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
-ms.translationtype: HT
+ms.openlocfilehash: 7203c9bda1a6e5c2bf9d90b490492fe7bbc3f64c
+ms.sourcegitcommit: 78fbfcf4a1aafce5d39eea79c9461a9fc1bb3d38
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "62363186"
+ms.lasthandoff: 01/05/2023
+ms.locfileid: "69707812"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Administrar el acceso de usuarios a Insights para Educación
 
 Este documento proporciona los pasos necesarios para administrar el acceso de usuarios a [Insights para Educación en Microsoft Teams](class-insights.md).
 
-Debe proporcionar permisos para los líderes educativos, líderes de distrito, jefes de estudios, directores escolares, consejeros, directores de áreas de aprendizaje, directores de programa, trabajadores sociales y psicólogos. A los formadores se les concede permiso *automáticamente* cuando son propietarios de un equipo de clase.
+You need to provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are *automatically* given permission when they own a class team.
 
 Para emplear Insights a nivel de la organización, es necesario [importar los datos del Sistema de información de estudiantes (SIS)](education-insights-sis-data-sync.md) para que Insights tenga la estructura jerárquica del sistema educativo asignada correctamente.
 
@@ -37,7 +37,7 @@ Para emplear Insights a nivel de la organización, es necesario [importar los da
 > [!TIP]
 > Le recomendamos que habilite Insights para todos los líderes educativos. Así, tendrán los datos necesarios para comprender cada centro educativo y podrán identificar rápidamente los problemas y dar soporte técnico a los educadores. Incluso si decide realizar un piloto, podría ser útil mantener Insights habilitado para todos los líderes educativos, mientras centra las comunicaciones en el grupo piloto de usuarios.
 
-## <a name="manange-permissions"></a>Administrar permisos
+## <a name="manage-permissions"></a>Administrar permisos
 
 * Abra la aplicación Insights, haga clic en **Configuración** y, después, seleccione **Permisos de usuario**
 
@@ -48,15 +48,17 @@ Para emplear Insights a nivel de la organización, es necesario [importar los da
 > 
 > Proporcione solo permisos a los líderes educativos que los necesiten y solo para las unidades organizativas de las que sean responsables. Si no está seguro de si se requiere un permiso de usuario para una organización específica, consulte a los expertos en temas de privacidad de su institución, como personal de recursos humanos o jurídicos.
 
+> [!IMPORTANT]
+> Después de asignar permisos por primera vez, los usuarios podrán ver los datos dentro de la aplicación solo si al menos **dos** usuarios han tenido acceso a la aplicación. Este requisito ayuda a garantizar que la zona horaria de los datos esté configurada correctamente y que los datos se muestren con precisión para todos los usuarios. Si los usuarios experimentan problemas de acceso a los datos después de conceder permisos, compruebe si al menos dos usuarios han tenido acceso a la aplicación.
+
 ## <a name="role-based-permissions"></a>Permisos basados en roles
 
-Si usa el [formato de archivo SDS V2.1](/schooldatasync/sds-v2.1-csv-file-format) o [formato de archivo SDS V2](/schooldatasync/sds-v2-csv-file-format), puede importar todos los roles y la jerarquía completa de las escuelas dentro del sistema educativo. Esta asignación completa le permite asignar permisos a roles. 
+If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [SDS V2 file format](/schooldatasync/sds-v2-csv-file-format), you can import all roles and the full hierarchy of schools within the education system. This complete mapping enables you to assign permissions to roles. 
 
 > [!NOTE]
 > Cuando se asigna un rol a un usuario, recibe automáticamente los permisos correctos para ver los datos relevantes para él.
 >
 > Si un usuario ya no está en un rol, su permiso para ese rol se revoca automáticamente (aunque puede seguir teniendo permisos individuales).
-
 
 * Si es necesario, haga clic en la pestaña **Permisos basados en roles**.
 
