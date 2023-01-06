@@ -20,20 +20,20 @@ description: Aprenda a usar y administrar directivas de llamadas de emergencia e
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 4b5d293cbbd588a564ff1a0118ab4d56f96c17a2
-ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
+ms.openlocfilehash: 1d2dc0e2213f6294e2c596722a4f5ab49bec8487
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69414647"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727752"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Administrar directivas de llamadas de emergencia en Microsoft Teams
 
-Si su organización usa planes de llamadas Microsoft, Conexión del operador, Teams Phone Mobile o enrutamiento directo como opción de [conectividad con RTC](pstn-connectivity.md), puede usar directivas de llamadas de emergencia en Microsoft Teams para definir lo que ocurre cuando un usuario de Teams de su organización realiza una llamada de emergencia.
+Si su organización usa planes de llamadas de Microsoft, Operador Conectar, Teams Phone Mobile o Enrutamiento directo como [opción de conectividad con RTC](pstn-connectivity.md), puede usar directivas de llamadas de emergencia en Microsoft Teams para definir lo que ocurre cuando un usuario de Teams de su organización realiza una llamada de emergencia.
 
 Puede establecer a quién notificar y cómo se notifica cuando un usuario al que se le asigna la directiva llama a los servicios de emergencia. Por ejemplo, puede configurar la configuración de directivas para notificar automáticamente al departamento de seguridad de su organización y pedirles que escuchen llamadas de emergencia.  
 
-Para administrar las directivas de llamadas de emergencia, vaya a **Directivas de emergencia** de **voz** >  en el centro de administración de Microsoft Teams o use Windows PowerShell. Las directivas se pueden asignar a usuarios y [sitios de red](cloud-voice-network-settings.md).
+Para administrar las directivas de llamadas de emergencia, vaya a **Directivas** de **emergencia** de voz  >  en el Centro de administración de Microsoft Teams o mediante Windows PowerShell. Las directivas se pueden asignar a usuarios y [sitios de red](cloud-voice-network-settings.md).
 
 Para los usuarios, puede usar la directiva global (predeterminada para toda la organización) o crear y asignar directivas personalizadas. Los usuarios recibirán automáticamente la directiva global a menos que cree y asigne una directiva personalizada. Tenga en cuenta que puede editar la configuración de la directiva global, pero no puede cambiarle el nombre ni eliminarla. Para los sitios de red, puede crear y asignar directivas personalizadas.
 
@@ -43,7 +43,7 @@ Si asignó una directiva de llamadas de emergencia a un sitio de red y a un usua
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
-1. En el panel de navegación izquierdo del Microsoft centro de administración de Teams, vaya a **Directivas de emergencia** de **voz** >  y, a continuación, haga clic en la pestaña **Directivas de llamada**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Directivas de emergencia** de **voz** >  y, a continuación, haga clic en la pestaña **Directivas de llamadas**.
 
 2. Haga clic en **Agregar**.
 
@@ -61,7 +61,7 @@ Si asignó una directiva de llamadas de emergencia a un sitio de red y a un usua
 
 7.  Si ha seleccionado cualquiera de las **conferencias en modos de notificación silenciados** , en el cuadro **Números para marcar para notificaciones de llamadas de emergencia** , puede introducir un número de teléfono RTC de un usuario o grupo para llamar y unirse a la llamada de emergencia. Por ejemplo, escriba el número del departamento de seguridad de su organización, que recibirá una llamada cuando se realice una llamada de emergencia y podrá escucharla. El teléfono RTC no se puede activar incluso cuando el modo se establece **en Conferencia en silenciado, pero puede reactivar el audio**.
 
-8. Busque y seleccione uno o más usuarios o grupos, como el departamento de seguridad de su organización, para notificar cuando se realiza una llamada de emergencia.  La notificación se puede enviar a direcciones de correo electrónico de usuarios, grupos de distribución y grupos de seguridad. Se puede notificar a un máximo de 50 usuarios.
+8. Establezca a quién desea notificar cuando se realiza una llamada de emergencia, por ejemplo, al personal del departamento de seguridad. Puede definir una lista de usuarios, grupos de distribución o grupos de seguridad. Se puede notificar a un máximo de 50 usuarios.
 
 9. Haga clic en **Aplicar**.
 
@@ -75,7 +75,7 @@ Consulte [New-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/new-csteam
 
 Puede editar la directiva global o cualquier directiva personalizada que cree.
 
-1. En el panel de navegación izquierdo del Microsoft centro de administración de Teams, vaya a **Directivas de emergencia** de **voz** >  y, a continuación, haga clic en la pestaña **Directivas de llamada**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Directivas de emergencia** de **voz** >  y, a continuación, haga clic en la pestaña **Directivas de llamadas**.
 2. Haga clic a la izquierda del nombre de la directiva para seleccionarla y, luego, en **Editar**.
 3. Realice los cambios que desee y, a continuación, haga clic en **Aplicar**.
 
@@ -95,7 +95,7 @@ Consulte también [Grant-CsTeamsEmergencyCallingPolicy](/powershell/module/skype
 
 Puede asignar la directiva global o cualquier directiva personalizada que cree.
 
-1. En el panel de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **Topología de red** **de ubicaciones** >  y haga clic en la pestaña **Sitios de red**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Topología de red** **de ubicaciones** >  y haga clic en la pestaña **Sitios de red**.
 2. Seleccione el sitio haciendo clic a la izquierda del nombre y, a continuación, haga clic en **Editar**.
 3. En **Directiva de llamadas de emergencia**, seleccione la directiva y, a continuación, haga clic en **Guardar**.
 

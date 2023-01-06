@@ -19,12 +19,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar canales compartidos en Microsoft Teams.
-ms.openlocfilehash: b7f151b68bf37ccf3e14e3a442b4d2b1c6acc52f
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: d45e2f1ea7f6daef8cd2b4a3af57944629d59a8a
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69199152"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727872"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canales compartidos en Microsoft Teams
 
@@ -70,7 +70,7 @@ Cuando se archiva un equipo, el uso compartido individual permanecerá intacto, 
 
 No se puede quitar a un propietario de un canal compartido a través del cliente de Teams si es el último propietario que queda de uno o más canales compartidos.
 
-Si el último propietario del canal compartido deja la organización o si se quita del grupo de Microsoft 365 asociado al equipo, se promueve automáticamente que un miembro del canal compartido de su organización sea el propietario del canal compartido. Si no hay ningún miembro de su organización que promover, el canal compartido seguirá sin propietario. Un administrador de Teams tendrá que asignar manualmente un propietario de canal. Considere agregar a más de un propietario para evitar esta situación.
+Si el último propietario del canal compartido deja la organización o si se quita del grupo de Microsoft 365 asociado al equipo, un miembro del canal compartido de su organización se promociona automáticamente para ser el propietario del canal compartido. Si no hay ningún miembro de su organización que promover, el canal compartido seguirá sin propietario. Un administrador de Teams tendrá que asignar manualmente un propietario de canal. Considere agregar a más de un propietario para evitar esta situación.
 
 Los invitados, incluidos los que se convierten en miembros (en su propiedad de tipo de usuario), no se pueden agregar a un canal compartido.
 
@@ -161,6 +161,8 @@ También se aplican las siguientes limitaciones:
 - Los canales compartidos admiten pestañas excepto Stream, Planner y Forms.
 
 - Los bots, conectores y extensiones de mensajes no son compatibles.
+
+- No se admite que los equipos de toda la organización se agreguen como miembros de un canal compartido.
 
 - Cuando se crea un equipo a partir de un equipo existente, los canales compartidos del equipo existente no se copiarán.
 

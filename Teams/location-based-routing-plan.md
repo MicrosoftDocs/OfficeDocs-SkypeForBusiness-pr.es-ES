@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7b6b360f51c803aef3eb7811b15c17a748df5f0
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 354a3ae6ec4fb482b6ba0d5136597438c37acbe2
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67705839"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727792"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -32,7 +32,6 @@ En este artículo se describe lo que debe saber para usar Location-Based enrutam
 Cuando esté listo para habilitar el enrutamiento Location-Based, consulte:
 
 - [Configuración de red de enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md)
-- [Implementar la configuración de red para el enrutamiento de Location-Based](location-based-routing-configure-network-settings.md)
 - [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
 
 > [!NOTE]
@@ -342,7 +341,7 @@ En la tabla siguiente se muestra Location-Based Comportamiento de enrutamiento p
 
 Las llamadas RTC entrantes desde una puerta de enlace habilitada para enrutamiento Location-Based pueden conectarse a un operador automático o a una cola de llamadas. 
 
-Los usuarios habilitados para Location-Based Enrutamiento son compatibles con la recepción de transferencias de llamadas entrantes para estas aplicaciones cuando se encuentran en el mismo sitio desde el que se origina la llamada RTC entrante.
+Los usuarios habilitados para Location-Based Enrutamiento son compatibles con la recepción de transferencias de llamadas entrantes para estas aplicaciones cuando se encuentran en el mismo sitio desde el que se origina la llamada RTC entrante. Para admitir optimización de medios locales y omisión de medios en estos escenarios, las colas de llamadas deben configurarse para el modo de transferencia (modo de conferencia = DESACTIVADO).
  
 El desvío de llamadas y las llamadas simultáneas a los usuarios y RTC se permiten para las transferencias de aplicaciones de voz. Completar la llamada al destino está sujeta a las mismas reglas de enrutamiento Location-Based enumeradas anteriormente.  
  
