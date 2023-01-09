@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Obtenga información sobre la experiencia de chat nativa de Teams para usuarios de acceso externo (federado) en Microsoft Teams, donde ambos usuarios se encuentran en el modo de actualización de TeamsOnly.
-ms.openlocfilehash: 134216364fdd7397d8a7d72a2ae6684cfa9f90b4
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 759ad4f03de099637df0e92a7a8925a7c18ae3fd
+ms.sourcegitcommit: 8f26bf0ff88f1f6881de32914be00d5f0cc7396a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198882"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69740805"
 ---
 # <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Experiencia de chat nativa para usuarios externos (federados) en Microsoft Teams
 
@@ -30,6 +30,9 @@ Cuando un usuario de Microsoft Teams chatea con un usuario externo (federado), l
 La experiencia de chat nativa para los usuarios de otras organizaciones está activada para todos los inquilinos de Teams, pero no todas las personas son aptas. Para que se le ofrezca una experiencia de chat nativa, tanto el remitente como el receptor deben configurarse para El modo de actualización de TeamsOnly. Para obtener más información sobre las directivas de actualización, lea [Establecer la configuración de coexistencia y actualización](setting-your-coexistence-and-upgrade-settings.md).
 
 Para ver una lista de las capacidades de los usuarios de acceso externo en Teams, consulte [Comparar el acceso externo y de invitado](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
+
+> [!NOTE]
+> La experiencia de chat nativa no está disponible para entornos en la nube de Microsoft 365: Microsoft 365 WorldWide (incluido GCC) de GCC High, GCC High de/a DoD o WW de/a DoD.
 
 ## <a name="how-do-i-know-if-im-in-a-native-chat"></a>Cómo Saber si estoy en un chat nativo?
 

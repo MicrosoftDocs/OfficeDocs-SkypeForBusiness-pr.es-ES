@@ -16,12 +16,12 @@ f1.keywords:
 description: Optimización de medios locales para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a86758d3376b2232126d095f9c9b1a1a28371481
-ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
+ms.openlocfilehash: ce9d25e84c67f5ae8b3b4fec51535d53f7b0044f
+ms.sourcegitcommit: 8f26bf0ff88f1f6881de32914be00d5f0cc7396a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "68018116"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69740815"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planear la optimización de medios locales para el enrutamiento directo
 
@@ -338,4 +338,4 @@ La siguiente es una lista de problemas conocidos que están actualmente presente
 | Escalaciones de llamadas de 1 a 1 llamada entre clientes internos a llamadas de varias partes con el resultado de cliente o recurso externo en llamadas interrumpidas | Trabajo en curso para encontrar una corrección. Como alternativa, deshabilita la Optimización de medios locales en el SBC de enrutamiento directo.|
 | El usuario de Teams pone la llamada en espera. La música se reproduce al final de LA RTC y la optimización de medios locales funciona. El usuario de Teams reanuda la llamada. La llamada a RTC se reanuda, pero optimización de medios locales no funciona y la llamada continúa a través de Central (Proxy) SBC | Cuando un usuario estaciona una llamada para iniciar la música en espera (MoH), se está escalando de 1:1 a una llamada de varias partes por el controlador de llamada para invocar el controlador multimedia y el procesador multimedia (que sirve como mezclador AVMCU) a través del cual MoH llega a un usuario que se ha puesto en espera. La desviación a una llamada individual después de reanudar la llamada nunca se produce según el diseño. Deshabilita la Optimización de medios locales en el SBC de enrutamiento directo.|
 |Mientras se establece una llamada durante unos segundos, es posible que el usuario escuche silencio.| Debido a la complejidad de la arquitectura de Optimización de medios locales, esto puede ocurrir en algunos casos.|
-|Las aplicaciones de voz (por ejemplo, Operador automático, Cola de llamadas) no funcionan.| LMO no admite aplicaciones de voz, ya que residen en la nube y requieren conectividad externa. No hay ninguna solución por ahora.|
+|Las aplicaciones de voz (por ejemplo, Operador automático, Cola de llamadas) no funcionan.| La Optimización de medios locales no admite las aplicaciones de voz porque residen en la nube y requieren conectividad externa. Para ver Location-Based escenarios de enrutamiento, consulte [Aplicaciones de voz (operador automático o cola de llamadas).](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue)|
