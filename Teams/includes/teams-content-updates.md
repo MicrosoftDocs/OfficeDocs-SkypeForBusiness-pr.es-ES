@@ -3,6 +3,18 @@
 
 
 
+## <a name="week-of-january-02-2023"></a>Semana del 02 de enero de 2023
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 1/3/2023 | [Administrar directivas generales de reuniones](/MicrosoftTeams/meeting-policies-in-teams-general) | modificado |
+| 1/3/2023 | [Administrar directivas de reunión para participantes e invitados](/MicrosoftTeams/meeting-policies-participants-and-guests) | modificado |
+| 1/3/2023 | [Audioconferencia Llamarme o Llamarme en minutos](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | modificado |
+| 1/4/2023 | [Guía para administradores de TI de Insights para el ámbito educativo en Microsoft Teams](/MicrosoftTeams/class-insights) | modificado |
+| 1/5/2023 | Mejorar los grupos de Microsoft 365 existentes | eliminado |
+
+
 ## <a name="week-of-december-26-2022"></a>Semana del 26 de diciembre de 2022
 
 
