@@ -18,32 +18,34 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo enviar manualmente una solicitud de pedido de portabilidad.
-ms.openlocfilehash: f8a1276ce35cea38cbe2fbb080bd6c6c6312f64c
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: a1a333b70f717e83df5743e2532bf0092c262054
+ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789385"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69749036"
 ---
 # <a name="manually-submit-a-port-order"></a>Enviar una solicitud de portabilidad manualmente
 
-En algunos países y regiones es posible que tenga que enviar manualmente una solicitud de servicio para obtener números de teléfono, transferir números de teléfono, liberar números de teléfono o cambiar direcciones. Para ver lo que se necesita para cada país y región, o para obtener más información sobre la portabilidad de números, consulte [Administrar números de teléfono de su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Para la mayoría de los clientes, las solicitudes de portabilidad se pueden completar en el Centro de administración de Microsoft Teams. Para obtener instrucciones sobre ese proceso, consulte [Transferir números de teléfono a Microsoft Teams](transfer-phone-numbers-to-teams.md).
 
-Siga los pasos de este artículo para enviar manualmente una solicitud de portabilidad si su país o región no aparecen en el [asistente para portabilidad en Microsoft](transfer-phone-numbers-to-teams.md).
+En algunas situaciones, es posible que tenga que enviar manualmente una solicitud de servicio para obtener números de teléfono, transferir números de teléfono, liberar números de teléfono o cambiar de dirección. Para ver lo que se necesita para cada país y región, o para obtener más información sobre la portabilidad de números, consulte [Administrar números de teléfono de su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+
+Siga los pasos de este artículo para enviar manualmente una solicitud de portabilidad si no puede usar el asistente para [portabilidad en el Centro de administración de Teams](transfer-phone-numbers-to-teams.md).
 
 ## <a name="manually-submit-a-new-port-order-request"></a>Enviar una solicitud de portabilidad manualmente
 
-Para enviar manualmente una nueva solicitud de portabilidad, envíe el formulario de la Carta de autorización (LOA) completado directamente al departamento de servicio de TNS de su región.
+Para enviar manualmente una nueva solicitud de portabilidad, cargue el formulario completo de carta de autorización (LOA) directamente en el Servicio de asistencia de TNS.
 
 1. Descargue la [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para su país o región.
 2. Complete el formulario.
-3. Envíelo a la [consola de servicio de TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) de su región.
+4. Envíala al [servicio de asistencia de TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>¿Qué más debería saber sobre la portabilidad de números?
 
-- Para usar Planes de llamadas debe comprar y asignar licencias a sus usuarios. Vea [Opciones de licencias de complemento de Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- Para usar los planes de llamadas, debe comprar y asignar licencias a los usuarios. Consulte [Licencias de complementos de Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-- Debe asignar los nuevos números de teléfono que tiene a cada uno de los usuarios. Consulte [Asignar, cambiar o quitar un número de teléfono para un usuario](../assign-change-or-remove-a-phone-number-for-a-user.md).
+- You must assign the new phone numbers you have to each of your users. See [Assign, change, or remove a phone number for a user](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## <a name="related-topics"></a>Temas relacionados
 

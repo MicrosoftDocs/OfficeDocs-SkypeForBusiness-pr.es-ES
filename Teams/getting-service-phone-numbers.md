@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Obtenga información sobre cómo obtener nuevos números de teléfono y transferir números existentes para Audioconferencia, Operadores automáticos y Colas de llamadas (números de servicio) para Teams.
-ms.openlocfilehash: c38d94085597bde2d29ae9233db024a1f2814fdb
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: f72e24db204a53680a3f82469a7a77ca81943d8f
+ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614613"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69749056"
 ---
 # <a name="service-phone-numbers-for-calling-plans"></a>Números de teléfono de servicio para planes de llamadas
 
@@ -41,9 +41,9 @@ Hay tres formas de obtener números de servicio:
   
 - **Use el Centro de administración de Microsoft Teams.** En algunos países y regiones, puede obtener números de servicio mediante el Centro de administración de Microsoft Teams. Consulte [Obtener nuevos números de servicio](#get-new-service-numbers).
 
-- **Portar los números existentes.** Puede transferir números existentes desde su proveedor de servicios u operador de telefonía actual. Consulte [Transferir números de teléfono a Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) o [Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization) para obtener más información que le ayude a hacer esto.  
+- **Portar los números existentes.** Puede transferir números existentes desde su proveedor de servicios u operador de telefonía actual. Para obtener más información, consulte [Transferir números de teléfono a Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) o [Administrar números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization).  
   
-- **Usar un formulario de solicitud para números nuevos.** A veces (en función de su país o región) no podrá obtener los nuevos números de teléfono con el Centro de administración de Microsoft Teams o necesitará números de teléfono o códigos de área específicos. Si es así, tendrás que descargar un formulario y enviárnoslo. Para obtener más información, vea [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization).
+- **Usar un formulario de solicitud para números nuevos.** A veces no podrá obtener los números de teléfono nuevos con el Centro de administración de Microsoft Teams o necesitará números de teléfono o códigos de área específicos. Si es así, tendrás que descargar un formulario y enviárnoslo. Para obtener más información, consulte [Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization).
   
 > [!NOTE]
 > Los números de servicio son necesarios para que pueda obtener una mayor capacidad de llamada simultánea para un número específico. Cuando nos transfiera el número, puede [ponerse en contacto con el servicio de asistencia de TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) para asegurarse de que el número de servicio que está transfiriendo tiene una alta capacidad de llamadas simultáneas.
@@ -52,29 +52,29 @@ Hay tres formas de obtener números de servicio:
 
 Para obtener nuevos números de servicio, en el Centro de administración de Teams:
 
-1. En el panel de navegación izquierdo, vaya a **Números de teléfono** **de voz** >  y haga clic en **Agregar**.
+1. En el panel de navegación izquierdo, vaya a **Números de teléfono** **de voz** >  y, después, seleccione **Agregar**.
 
 2. Escriba un nombre para el pedido y agregue una descripción.
 
-3. En la página Ubicación y cantidad, haga lo siguiente:
+3. En la página **Ubicación y cantidad** , siga estos pasos:
     - En **País o región**, selecciona un país o región.
     - En **Tipo de número**, seleccione el tipo de número de servicio que desee.
-    - En **Ubicación**, selecciona una ubicación. Si necesita crear una nueva ubicación, haga clic en **Agregar una ubicación**.
+    - En **Ubicación**, selecciona una ubicación. Si necesitas crear una nueva ubicación, selecciona **Agregar una ubicación**.
     - En **Código de área**, selecciona un código de área. 
-    - En **Cantidad**, escriba el número de números que desea para su organización y, a continuación, haga clic en **Siguiente** para seleccionar los números.
+    - En **Cantidad**, escriba el número de números que desea para su organización y, a continuación, seleccione **Siguiente** para seleccionar los números.
 
 4. Seleccione los números que desee. Tienes 10 minutos para seleccionar tus números de teléfono y realizar el pedido. Si tarda más de 10 minutos, los números de teléfono se devolverán al grupo de números.
 
-5. Cuando esté listo para realizar el pedido, haga clic en **Realizar pedido**.
+5. Cuando estés listo para realizar el pedido, selecciona **Realizar pedido**.
 
 ## <a name="port-or-transfer-existing-service-numbers"></a>Portabilidad o trasferencia de números de servicio existentes
 
 Para transferir los números de teléfono de su proveedor de servicios u operador actual a Teams, puede usar el asistente para portabilidad en el Centro de administración de Microsoft Teams. Siga los pasos de [Transferir números de teléfono a Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
-Si su país o región no aparece en el asistente para portabilidad, puede [enviar manualmente una solicitud de portabilidad](phone-number-calling-plans/manually-submit-port-order.md) o ir a [Administrar números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md), seleccionar su país o región y, a continuación, descargar una Carta de autorización (LOA). Tendrá que enviar solicitudes de portabilidad independientes para cada tipo de número de servicio (por ejemplo, de pago o gratuito) que va a transferir mediante una LOA. En la LOA, debe seleccionar el tipo de número de servicio correcto. Asegúrese de especificar que va a transferir un número de servicio (y no un número de usuario o suscriptor), o que la capacidad de llamadas simultáneas puede no ser suficiente para controlar los volúmenes de llamadas.  
+Si experimenta problemas con el asistente para portabilidad, puede [enviar manualmente una solicitud de portabilidad](phone-number-calling-plans/manually-submit-port-order.md) o ir a [Administrar números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md), seleccionar su país o región y, a continuación, descargar una Carta de autorización (LOA). Tendrá que enviar solicitudes de portabilidad independientes para cada tipo de número de servicio (por ejemplo, de pago o gratuito) que transferirá mediante una LOA. En la LOA, debe seleccionar el tipo de número de servicio correcto. Asegúrese de especificar que va a transferir un número de servicio (y no un número de usuario o suscriptor), o que la capacidad de llamadas simultáneas puede no ser suficiente para controlar los volúmenes de llamadas.  
 
 > [!NOTE]
-> Si necesita obtener más números de teléfono, [póngase en contacto con el servicio de asistencia de TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+> Puede comprar números de teléfono adicionales en el Centro de administración de Microsoft Teams. Para casos especiales, como un gran número de puertos (más de 1000), puertos complejos, o si necesita ayuda, [póngase en contacto con el servicio de asistencia de TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Ver los números de teléfono de la organización
 
@@ -84,7 +84,7 @@ En el Centro de administración de Teams, en el panel de navegación izquierdo, 
 
 Después de obtener los números de servicio, asigne cada número a un puente de Audioconferencia. Consulte [Cambiar los números de pago o gratuitos en el puente de Audioconferencia](./change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Esto es lo obtiene con el Sistema telefónico](./here-s-what-you-get-with-phone-system.md)
 

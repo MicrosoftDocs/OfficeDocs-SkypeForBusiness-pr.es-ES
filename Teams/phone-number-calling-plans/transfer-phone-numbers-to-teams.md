@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el asistente para portabilidad para transferir su número de teléfono de su proveedor de servicios actual a Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4dd814f81bb7c48c331ebaa1178f8f3069f7b156
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 20c4caf97c5344d48f93feed47dc181495dd318d
+ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584171"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69749046"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de teléfono a Microsoft Teams
 
@@ -35,25 +35,26 @@ Antes de empezar, le recomendamos que revise la información de [¿Qué es una s
 
   > [!NOTE]
   > Procesamos las solicitudes de portabilidad para transferir números de teléfono solo en Estados Unidos días laborables y no en días festivos o fines de semana.
+  >
   > La disponibilidad de portabilidad para los números de teléfono gratuitos puede variar según el país y la región. Para obtener más información, consulte los documentos específicos de su país o región para ver la compatibilidad disponible para el servicio de portabilidad.
 
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Crear una solicitud de portabilidad y transferir sus números de teléfono a Teams
 
 > [!NOTE]
-> **Actualmente, puede usar este asistente para obtener números de teléfono para el Reino Unido, Estados Unidos y Canadá**. Para obtener números de teléfono de otros países y regiones, puede [enviar manualmente una solicitud de portabilidad](manually-submit-port-order.md). Para obtener el formulario que necesita para enviar manualmente una solicitud de portabilidad, seleccione su país o región en la lista desplegable en [Administrar números de teléfono para su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+> Si experimenta problemas con el proceso de portabilidad en el Centro de administración de Teams, puede [enviar manualmente una solicitud de portabilidad](manually-submit-port-order.md) al Servicio de asistencia de TNS. Para obtener el formulario que necesita para enviar manualmente una solicitud de portabilidad, seleccione su país o región en la lista desplegable en [Administrar números de teléfono para su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Números de teléfono** **de voz** > . Haga clic en **Números** y, a continuación, haga clic en **Puerto** para iniciar el asistente de portabilidad.
-2. Revise la información de la página **Introducción** y, cuando esté listo, haga clic en **Siguiente**.
-3. En la página **Seleccionar ubicación y tipo de número** , especifique lo siguiente y, a continuación, haga clic en **Siguiente**:
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Números de teléfono** **de voz** > . Seleccione **Números** y, a continuación, seleccione **Puerto** para iniciar el asistente de portabilidad.
+2. Revise la información de la página **Introducción** y, cuando esté listo, seleccione **Siguiente**.
+3. En la página **Seleccionar ubicación y tipo de número** , especifique lo siguiente y, a continuación, seleccione **Siguiente**:
 
     - **País o región**: país o región donde se obtienen los números.
     - **Tipo de número de teléfono**: tipo de número, como números geográficos o gratuitos.
     - **Números asignados a**: a qué se asignan los números. Por ejemplo, usuarios o conferencias o características de voz.
 
-4. En la página **Agregar información de la cuenta** , complete lo siguiente y, a continuación, haga clic en **Siguiente**.
+4. En la página **Agregar información de la cuenta** , complete lo siguiente y, a continuación, seleccione **Siguiente**.
 
     > [!IMPORTANT]
-    > La información que se muestra en esta página viene determinada por el país o región y el tipo de número. Cada país y región tiene regulaciones diferentes sobre la información necesaria para la portabilidad de números. Lo que ve en esta página puede ser diferente de lo que se describe aquí.
+    > La información que se muestra en esta página viene determinada por el país o región y el tipo de número. Cada país y región tiene diferentes reglamentos sobre la información necesaria para la portabilidad de números. Lo que ve en esta página puede ser diferente de lo que se describe aquí.
 
     - **Detalles del pedido**: 
         - **Nombre del pedido**: nombre del pedido
@@ -67,37 +68,37 @@ Antes de empezar, le recomendamos que revise la información de [¿Qué es una s
         - **Número de teléfono de facturación (BTN):** su BTN en formato E.164, que requiere un signo + para anteponer el número. Por ejemplo, para un número Norteamérica, use el formato +1XXXYYYZZZZ.
         - Otros detalles, como el nombre de su proveedor de servicios actual, su número de cuenta y su dirección de servicio.
             
-5. En la página **Agregar números** , haga clic en **Seleccionar un archivo**, busque y seleccione el archivo CSV que contiene los números de teléfono que desea transferir y, a continuación, haga clic en **Siguiente**.  
+5. En la página **Agregar números** , seleccione **Seleccionar un archivo**, busque y seleccione el archivo CSV que contiene los números de teléfono que desea transferir y, a continuación, seleccione **Siguiente**.  
 
     > [!NOTE]
-    > El archivo CSV debe tener solo una columna con un encabezado denominado PhoneNumber. Cada número de teléfono debe estar en una fila independiente y puede tener solo dígitos o en formato E.164.
+    > El archivo CSV debe tener solo una columna con un encabezado denominado **PhoneNumber**. Cada número de teléfono debe estar en una fila independiente y puede tener solo dígitos o en formato E.164.
 
-6. En la página **Completar el pedido** , haga clic en **Cargar una carta de autorización firmada** para cargar una copia digitalizada de la Carta de autorización firmada (LOA).
+6. En la página **Completar el pedido** , selecciona **Cargar una carta de autorización firmada** para cargar una copia digitalizada de la Carta de autorización firmada (LOA).
 
     Si aún no ha descargado y firmado la LOA, haga lo siguiente:
     
-    1. Haga clic en **Descargar la plantilla** para descargar la LOA de su país o región. 
+    1. Seleccione **Descargar la plantilla** para descargar la LOA de su país o región. 
     2. Imprima la LOA.
     3. Haga que la LOA esté firmada por la persona autorizada para realizar cambios en la cuenta.
-    4. Digitalice la LOA firmada y, a continuación, haga clic en **Cargar una carta de autorización firmada** para cargarla.
+    4. Analiza la LOA firmada y, a continuación, selecciona **Cargar una carta de autorización firmada** para cargarla.
 
     > [!NOTE]
     > Después de cargar la LOA, envía el pedido. Solo cargar la LOA no es suficiente. También tienes que enviar el pedido para que se procese.
 
-7. Revise los detalles del pedido y, a continuación, haga clic en **Enviar**.
-
+7. Revisa los detalles del pedido y, a continuación, selecciona **Enviar**.
 
 ## <a name="what-happens-next"></a>¿Qué sucede ahora?
 
-Cuando recibamos su solicitud de portabilidad, recibirá un correo electrónico verificando su solicitud. Su solicitud se comprueba y se actualiza diariamente y se le notificará su progreso y estado por correo electrónico. Si la solicitud de portabilidad es rechazada por el operador que ha perdido, póngase en contacto con el [Servicio de asistencia de TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+Cuando recibamos su solicitud de portabilidad, recibirá un correo electrónico verificando su solicitud. Su solicitud se comprueba y se actualiza diariamente, y se le notificará su progreso y estado por correo electrónico. Si su solicitud de portabilidad es rechazada por el transportista, póngase en contacto con el [Servicio de asistencia de TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) para obtener ayuda.
 
-Para ver el estado de la solicitud de portabilidad, en el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a >**solicitudes de portabilidad** de **voz** >  y, a continuación, haga clic en **Historial de pedidos**. El estado de cada solicitud de portabilidad se muestra en la columna **Estado**. Para obtener más información, consulte [¿Cuál es el estado de las solicitudes de portabilidad?](port-order-status.md)
+Para ver el estado de la solicitud de portabilidad, en el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a **Solicitudes de portabilidad** de **voz** >  y, a continuación, seleccione **Historial de pedidos**. El estado de cada solicitud de portabilidad se muestra en la columna **Estado**. Para obtener más información, consulte [¿Cuál es el estado de las solicitudes de portabilidad?](port-order-status.md)
 
 
 ## <a name="reporting-telephone-number-issues"></a>¿Está informando de problemas con los números de teléfono?
+
 Si observa algún problema con los números portados en las primeras 24-48 horas después de completar el puerto, póngase en contacto con el [Servicio de asistencia de TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md). Para cualquier problema que supere las 48 horas, póngase en contacto con el equipo de Soporte técnico de Microsoft.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 - [¿Qué es un pedido de portabilidad?](port-order-overview.md)
 - [Diferentes tipos de números de teléfono que se usan para Planes de llamada](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

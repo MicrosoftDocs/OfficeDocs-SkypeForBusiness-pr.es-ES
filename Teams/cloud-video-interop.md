@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c732cc01a525a4895fafe45c954c965fe960853
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 37201c788618da1544d4f00b743907dc22ff6366
+ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706457"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69749016"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidad de vídeos en la nube para Microsoft Teams
 
@@ -51,7 +51,8 @@ Mientras que la interoperabilidad de vídeo en la nube ofrece una gran solución
 
 Office 365 proporciona la capacidad de integrar aplicaciones de terceros en sitios de SharePoint Online, Skype Empresarial, Teams, aplicaciones de Office incluidas en Aplicaciones Microsoft 365 para empresas (como Word, Excel, PowerPoint y Outlook) y Outlook Web App. Además, Office 365 admite la integración con proveedores de servicios de terceros. Estas aplicaciones y servicios de terceros pueden implicar el almacenamiento, la transmisión y el procesamiento de los datos de clientes de su organización en sistemas de terceros que se encuentran fuera de la infraestructura Office 365 y, por tanto, no están cubiertos por los compromisos de cumplimiento Office 365 y protección de datos. **Se recomienda que revise las declaraciones de privacidad y cumplimiento proporcionadas por los terceros al evaluar el uso adecuado de estos servicios para su organización.**
 
-
+> [!NOTE]
+> El conector de Pexip Teams debe hospedarse en las regiones de Arizona o Texas Azure para GCC High. La región de Virginia Azure no admite el hospedaje de Pexip Teams Connector para GCC High.
 
 ### <a name="partners-certified-for-microsoft-teams"></a>Partners Certified for Microsoft Teams
 
