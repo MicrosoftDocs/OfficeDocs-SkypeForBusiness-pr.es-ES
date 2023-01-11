@@ -21,12 +21,12 @@ description: Configurar eventos en directo en Teams, incluida la configuración 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 899229e5acfdbd5864cc055672f4ae7ac16e6dee
-ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
+ms.openlocfilehash: cf3d364ce01ea80892dc929102c96a7fab5a74bc
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69414718"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767591"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configure los eventos en directo en Microsoft Teams
 
@@ -51,7 +51,7 @@ Las directivas de los eventos en directo se usan para controlar qué usuarios de
 
 <a name="bkcreatepolicy"> </a>
 
-1. En el panel de navegación izquierdo del Microsoft centro de administración de Teams, vaya a la pestaña **Administrar directivas** >  de **eventos** >  en directo de **Reuniones**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft Teams, vaya a la pestaña **Directivas de administración** de **directivas** >  de eventos  >  de Reuniones **en directo**.
 2. Realice una de las siguientes opciones:
 
     - Si desea editar la directiva predeterminada actual, elija **Global (predeterminado para toda la organización)**.
@@ -66,7 +66,7 @@ Las directivas de los eventos en directo se usan para controlar qué usuarios de
 |---------|---------|
 |**Title**     |Este es el título de la directiva que aparecerá en la página directivas de los eventos en directo. No puede contener caracteres especiales ni tener más de 64 caracteres.          |
 |**Descripción**    |Use esta para agregar una descripción detallada sobre la directiva.         |
-|**Programación de eventos en directo**     |Al habilitar esta opción le permite a los usuarios de la organización crear y programar eventos en directo de Teams. Es importante que tenga en cuenta que, si quiere que los usuarios programen un evento en directo creado con una aplicación o dispositivo externo, debe realizar algunos pasos adicionales. Para obtener más información, vea [permitir que los usuarios programen eventos creados con una aplicación o un dispositivo externo](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
+|**Programación de eventos en directo**     |Al habilitar esta opción le permite a los usuarios de la organización crear y programar eventos en directo de Teams.     |
 |**Transcripción para los asistentes** |Esta configuración solo se puede aplicar en los eventos creados en Teams. Al activar esto, los asistentes del evento podrán ver los subtítulos en directo durante el evento.         |
 |**Quién puede unirse a eventos en directo programados**    |Elija una de las siguientes opciones:<br><br>**Todos** los usuarios pueden crear eventos en directo para que todos los usuarios, incluidas las personas de fuera de la organización, puedan asistir. Esta configuración habilita el tipo de permiso **público** para equipos cuando un usuario programa un evento en directo a través de Teams.<br> **Todos los usuarios de la organización** Los usuarios pueden crear eventos en directo a los que puedan asistir las personas de la organización, incluyendo los [usuarios invitados](../add-guests.md) que hayan sido añadidos a la organización. Los usuarios no pueden crear eventos en directo a los que puedan asistir los usuarios anónimos. Esta configuración habilita el tipo de permiso **Toda la organización** cuando un usuario programa un evento en directo a través de Teams.<br> **Usuarios o grupos específicos** Los usuarios pueden crear eventos en directo a los que solo puedan asistir los usuarios o grupos específicos de su organización. Los usuarios no pueden crear eventos en directo a los que asistan tanto los usuarios anónimos como todos los de su organización. Esta configuración habilita el tipo de permiso de **usuarios y grupos** cuando un usuario programa un evento en directo a través de Teams.       |
 |**Configuración de la grabación**  <br>     | Esta configuración solo se puede aplicar en los eventos creados en Teams. Elija una de las siguientes opciones: <br><br> **Grabar siempre** Los eventos en directo creados por los usuarios siempre serán grabados. Después de que el evento termine, los miembros del equipo del evento podrán descargar la grabación, y los asistentes también podrán ver el evento. <br> **Nunca grabar** Los eventos en directo creados por los usuarios nunca serán grabados. <br>**El organizador puede grabar o no** Los usuarios podrán decidir si quieren grabar el evento en directo. Si es grabado, entonces, después de que el evento termine los miembros del equipo del evento podrán descargar la grabación, y los asistentes también podrán ver el evento.
@@ -77,36 +77,23 @@ También puede hacerlo con Windows PowerShell y, actualmente, los clientes de GC
 
 Si ha creado una directiva personalizada de eventos en directo, asígnesela a los usuarios para que la directiva esté activa. <br><br>[!INCLUDE [assign-policy](../includes/assign-policy.md)]
 
-### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>Permitir que los usuarios programen eventos creados con una aplicación o un dispositivo externo
-
-Para que los usuarios programen eventos producidos con una aplicación o dispositivo externo, también debe realizar los pasos siguientes:
-
-1. Habilitar Microsoft Stream para los usuarios de la organización Stream está disponible como parte de las suscripciones válidas a Microsoft 365 o Office 365 o como un servicio independiente. Stream no está incluido en los planes de Empresa Esenciales o Empresa Premium. Para obtener más información, vea [Información general sobre licencias de Stream](/stream/license-overview)
-
-   >[!Note]
-   > El cambio del uso de Microsoft Stream a [OneDrive para la Empresa y SharePoint para grabaciones de reuniones](../tmr-meeting-recording-change.md) estará basado en fases. Durante el lanzamiento podrá participar en esta experiencia, pero en noviembre tendrá que optar por no participar si quiere continuar usando Stream y, en algún momento, a principios de 2021, les pediremos a todos los clientes que usen OneDrive para la Empresa y SharePoint para grabar sus nuevas reuniones. Obtenga más información sobre cómo [**asignar licencias a los usuarios para**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) que los usuarios puedan acceder a Stream. Asegúrese de que Stream no está bloqueado para los usuarios, como se define en [**este artículo**](/stream/disable-user-organization).
-
-2. Asegúrese de que los usuarios tengan los permisos de creación de eventos en directo de Stream Los administradores pueden crear eventos de forma predeterminada, con una aplicación o dispositivo externo El administrador de Stream puede [permitir que los usuarios adicionales puedan crear eventos en directo](/stream/live-event-administration#restrict-who-can-create-events) en Stream.
-
-3. Asegúrese de que los organizadores de los eventos en directo hayan consentido la directiva de empresa establecida por el administrador de Stream. Si un administrador de Stream tiene que [configurar la directiva de directrices de la empresa](/stream/company-policy-and-consent) y necesita que los empleados acepten esta directiva antes de guardar el contenido, los usuarios deberán hacerlo antes de crear un evento en directo (con una aplicación o dispositivo externo) en Teams. Antes de que implemente la función de eventos en directo en la organización, asegúrese de que los usuarios que van a crear estos eventos en directo hayan consentido la directiva.
-
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>Paso 4: Configurar una solución para la distribución de los vídeos de los eventos en directo de Teams
 
-La reproducción de vídeos de eventos en directo usa el streaming con velocidad de bits adaptable (ABR), aunque se trata de una secuencia de unidifusión, lo cual significa que cada espectador recibe su propia secuencia de video a través de Internet. Para los eventos o vídeos en directo de su organización, podría haber una cantidad significativa de ancho de banda de Internet consumido por los espectadores. Para las organizaciones que quieren reducir este tráfico de Internet para eventos en directo, Microsoft ofrece una solución de origen, [Microsoft eCDN](/ecdn) (red de entrega de contenido empresarial). Las soluciones de eventos en directo también se integran con los socios de entrega de vídeo de confianza de Microsoft que ofrecen redes definidas por software (SDN) o eCDN. Estas plataformas SDN/eCDN permiten a las organizaciones optimizar el ancho de banda de red sin sacrificar las experiencias de visualización del usuario final. Estas soluciones pueden ayudar a habilitar una distribución de vídeo más escalable y eficiente en toda la red empresarial.
+La reproducción de vídeos de eventos en directo usa el streaming con velocidad de bits adaptable (ABR), aunque se trata de una secuencia de unidifusión, lo cual significa que cada espectador recibe su propia secuencia de video a través de Internet. Para los eventos o vídeos en directo de su organización, podría haber una cantidad significativa de ancho de banda de Internet consumido por los espectadores. Para las organizaciones que quieren reducir este tráfico de Internet para eventos en directo, Microsoft ofrece una solución de origen, [Microsoft eCDN](/ecdn) (red de entrega de contenido empresarial). Las soluciones de eventos en directo también se integran con los asociados de entrega de vídeo de confianza de Microsoft que ofrecen redes definidas por software (SDN) o eCDNs. Estas plataformas SDN/eCDN permiten a las organizaciones optimizar el ancho de banda de red sin sacrificar las experiencias de visualización del usuario final. Estas soluciones pueden ayudar a habilitar una distribución de vídeo más escalable y eficiente en toda la red empresarial.
 
-- **Microsoft eCDN** Microsoft eCDN se integra en Teams y también es compatible con Stream y Yammer. Emplea tecnología punto a punto dentro de una red corporativa para descargar el ancho de banda de la conexión WAN.
+- **Microsoft eCDN** Microsoft eCDN está integrado en Teams y también es compatible con Stream y Yammer. Emplea tecnología punto a punto dentro de una red corporativa para descargar el ancho de banda de la conexión WAN.
 
 - **Comprar y configurar la solución fuera de Teams** obtenga asistencia experta para ampliar la distribución de vídeo aprovechando los partners de confianza de Microsoft para la entrega de vídeo. 
 
-Las siguientes soluciones de SDN y eCDN están preintegradas y pueden ser configuradas para usarse en Stream.
+Las siguientes soluciones SDN/eCDN están preinsteadas y se pueden configurar para usarse con el streaming de Teams:
 
 - **Hive Streaming** proporciona una solución eficaz y sencilla para la distribución de vídeo empresarial en directo y a petición. Hive es una solución basada en software que no requiere un hardware o ancho de banda adicional y proporciona una forma segura para permitir que miles de espectadores simultáneos de vídeo sin afectar a su red. Para los clientes que buscan entender el impacto que tiene el vídeo en su red antes de comprar una solución de SDN y eCDN, Hive Streaming también proporciona una solución de análisis basada en el explorador para los clientes de Microsoft. [Más información](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
 
 - **Kollective** es una plataforma de distribución de emparejamiento inteligente basada en la nube que aprovecha su infraestructura de red existente para entregar contenido de muchas formas (vídeo en streaming en directo, vídeo bajo demanda, actualizaciones de software, revisiones de seguridad, etc.) de forma más rápida, confiable y con menos ancho de banda. Nuestra plataforma segura cuenta con la confianza de las instituciones financieras más grandes del mundo y, sin hardware adicional, es fácil de configurar y mantener. [Más información](https://kollective.com/microsoft-pilot/).
 
-- **Ramp** proporciona una solución eCDN universal para una entrega de vídeo segura e impecable. Con la confianza de las principales instituciones financieras, sanitarias y gubernamentales, Ramp implementa localmente, en la nube o híbrida y es perfecta para entornos Confianza cero. Nuestra licencia universal incluye los tres métodos de entrega de eCDN (P2P, Multicast y Caché), lo que garantiza que el streaming en vivo y el vídeo bajo demanda se entregan a la máxima calidad con el menor impacto en el ancho de banda para proteger las aplicaciones críticas del negocio que comparten la red corporativa. [Más información](https://rampecdn.com/).
+- **Tabla OmniCache** proporciona una distribución en red de nueva generación y garantiza una entrega de contenido de vídeo sin problemas a través de las redes WAN globales, ayudando a los productores de eventos a optimizar el ancho de banda de la red y el soporte de difusión de eventos en directo y las transmisiones a petición. La compatibilidad de la tabla OmniCache con los eventos en directo creados de Teams estará disponible próximamente. [Más información](https://rampecdn.com).
 
-- **Riverbed**, el estándar del sector en optimización de red, está ampliando sus soluciones de aceleración a Microsoft Teams y Stream.  Ahora, Microsoft 365 clientes pueden acelerar con confianza el tráfico de 365, incluidos Teams y Stream, junto con una gran cantidad de otros servicios SaaS empresariales líderes para aumentar la productividad de la fuerza de trabajo desde cualquier lugar. La aceleración de Teams y Stream se puede habilitar a través de una configuración sin esfuerzo que viene con toda la garantía del soporte técnico de primera clase de Riverbed y la inversión continua.
+- **Riverbed**, el estándar del sector en optimización de red, está ampliando sus soluciones de aceleración a Microsoft Teams. Ahora, los clientes de Microsoft 365 pueden acelerar con confianza el tráfico de 365, incluido Teams, junto con una gran cantidad de otros servicios SaaS empresariales líderes para aumentar la productividad de la fuerza de trabajo desde cualquier lugar. La aceleración de Teams se puede habilitar a través de una configuración sin esfuerzo que viene con toda la garantía de que Riverbed ofrece soporte técnico de primera clase e inversión continua.
 
 > [!NOTE]
 > Si elige una solución sdn o eCDN de terceros, está sujeta a los **términos de servicio y la directiva de privacidad del proveedor de terceros** seleccionados, que regirán el uso de la solución del proveedor. El uso de la solución del proveedor no estará sujeto a los términos de la licencia por volumen de Microsoft ni a los términos de servicios en línea. Si no está de acuerdo con los **términos del proveedor de terceros**, entonces no necesita habilitar la solución en Teams.

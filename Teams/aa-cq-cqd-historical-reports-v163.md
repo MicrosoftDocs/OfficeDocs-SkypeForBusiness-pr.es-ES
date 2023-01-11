@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 ROBOTS: NOINDEX, NOFOLLOW
 description: Obtenga información sobre cómo usar el operador automático de Teams & informe de historial de la cola de llamadas de Power BI para ver los datos históricos del operador automático y de la cola de llamadas de los clientes de GCC High y DoD.
-ms.openlocfilehash: 619be6d7f0f78f67ef2db0f0693de82120d128c4
-ms.sourcegitcommit: e9718ad7e23317d490b238b3801267cb2e6b26e2
+ms.openlocfilehash: cde953bfd8e9c95c60c795f6de91488506c2addf
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2022
-ms.locfileid: "69176764"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763681"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports-for-gcc-high-and-dod"></a>Informes históricos del operador automático y de la cola de llamadas para GCC High y DoD
 
@@ -50,7 +50,7 @@ Estos informes usan datos del almacén de datos del [Panel de calidad de llamada
 ## <a name="v163-prerequisites"></a>Requisitos previos de V1.63
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-Debes tener Power BI Desktop instalado. Puedes instalar y usar la versión gratuita de la [Tienda Windows Microsoft](https://aka.ms/pbidesktopstore).
+Debes tener Power BI Desktop instalado. Puedes instalar y usar la versión gratuita de [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
 La versión mínima compatible es 2.85.681.0 (septiembre de 2020).
 
@@ -66,15 +66,17 @@ Siga estos pasos:
 
 1. Descargue y guarde el archivo zip de [plantillas de consulta de Power BI del CQD](https://www.microsoft.com/download/details.aspx?id=102291) en el equipo.
 
-1. Abra el archivo zip.
+2. Abra el archivo zip.
 
-1. Abra el archivo de `CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit` plantilla. Power BI Desktop debería iniciarse.
+3. Abra el archivo de `CQD Teams Auto Attendant & Call Queue Historical Report V1.63.pbit` plantilla. Power BI Desktop debería iniciarse.
 
-1. Se le pedirá que seleccione la región de canalización de datos del CQD. Seleccione la región donde se encuentra el inquilino.
+4. Se le pedirá que seleccione la región de canalización de datos del CQD. Seleccione la región donde se encuentra el inquilino.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Captura de pantalla que selecciona la región de la canalización de datos del CQD.":::
+     :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Captura de pantalla que selecciona la región de la canalización de datos del CQD.":::
 
-1. La región donde se encuentra su inquilino se puede obtener mediante el cmdlet [Get-CsTenant](/powershell/module/skype/get-cstenant) .
+    Inquilinos en la nube pública
+
+5. La región donde se encuentra su inquilino se puede obtener mediante el cmdlet [Get-CsTenant](/powershell/module/skype/get-cstenant) .
 
     ```powershell
     (Get-CsTenant).ServiceInstance
@@ -82,19 +84,27 @@ Siga estos pasos:
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    1. La región se mostrará después de la **/** como en el ejemplo anterior donde la región es `noam`.
+    La región se mostrará después de la **/** como en el ejemplo anterior donde la región es `noam`.
 
- 1. El informe se iniciará con datos de ejemplo.
+    Inquilinos de GCC High y DoD
+
+6. Actualice la plantilla para usar uno de los siguientes conectores:
+
+   - GCCH: `https://data.cqd.gov.teams.microsoft.us/RunQuery`
+   - Dod: `https://data.cqd.dod.teams.microsoft.us/RunQuery`
+
+
+7. El informe se iniciará con datos de ejemplo.
  
- 1. Para ver sus propios datos, seleccione **Actualizar** en la pestaña **Inicio** en **Consultas** en Power BI Desktop.
+8. Para ver sus propios datos, seleccione **Actualizar** en la pestaña **Inicio** en **Consultas** en Power BI Desktop.
 
    :::image type="content" source="media/aa-cq-historical-report-02-v163.png" alt-text="Captura de pantalla que selecciona la opción de actualización.":::
 
-1. Se le pedirá que inicie sesión. Seleccione **Cuenta de la organización** y, a continuación, seleccione **Iniciar sesión**.
+9. Se le pedirá que inicie sesión. Seleccione **Cuenta de la organización** y, a continuación, seleccione **Iniciar sesión**.
 
-  :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Captura de pantalla que muestra el inicio de sesión para V1.63.":::
+   :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Captura de pantalla que muestra el inicio de sesión para V1.63.":::
 
-1. Selecciona **Conectar** y los datos se actualizarán.
+10. Selecciona **Conectar** y los datos se actualizarán.
 
 ## <a name="data-latency-for-aa-and-cq-analytics"></a>Latencia de datos para análisis de AA y CQ
 
@@ -116,11 +126,11 @@ Siga estos pasos:
 
 1. Seleccione **la pestaña Vista** en la cinta de opciones.
 
-  :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Captura de pantalla que selecciona la pestaña vista para cambiar la combinación de colores.":::
+    :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Captura de pantalla que selecciona la pestaña vista para cambiar la combinación de colores.":::
 
 2. Seleccione el esquema de color de la lista desplegable.
 
-  :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Captura de pantalla que muestra varias combinaciones de colores.":::
+    :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Captura de pantalla que muestra varias combinaciones de colores.":::
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>Definiciones de informes históricos del operador automático y de la cola de llamadas
 

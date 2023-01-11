@@ -17,18 +17,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 459845115d8a705673f21b5e8a57dadac59841f6
-ms.sourcegitcommit: f8da8f613fc3902d2607e322ad9dfbdeb8838c4c
+ms.openlocfilehash: f0d93bb05a6456499ab1c0c16070149d8cdfd949
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2022
-ms.locfileid: "69624926"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767631"
 ---
 # <a name="virtual-appointment-meeting-template-in-microsoft-teams"></a>Plantilla de reunión de cita virtual en Microsoft Teams
 
+![Icono](media/info.png) de información **Algunas características descritas en este artículo requieren [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (versión preliminar).**
+
 ## <a name="overview"></a>Información general
 
-La plantilla Cita virtual es una plantilla de reunión predeterminada en Microsoft Teams que los usuarios pueden usar para programar citas virtuales con clientes, clientes y otras personas de fuera de su organización. Por ejemplo, úselo para programar y realizar entrevistas, sesiones de mentoría, consultas financieras, experiencias de compras virtuales y mucho más.
+La plantilla Cita virtual es una plantilla de reunión predeterminada en Microsoft Teams que los usuarios pueden usar para programar citas virtuales con clientes, clientes y otras personas externas a la organización. Por ejemplo, úselo para programar y realizar entrevistas, sesiones de mentoría, consultas financieras, experiencias de compras virtuales y mucho más.
 
 La plantilla le permite especificar valores para la configuración de reuniones que controlan normalmente los organizadores de la reunión. Le ofrece la flexibilidad de aplicar la configuración predeterminada y aplicar la configuración. Puede elegir bloquear la configuración para que los organizadores de la reunión no puedan cambiarla cuando usen la plantilla.
 
