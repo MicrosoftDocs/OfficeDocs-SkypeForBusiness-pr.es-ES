@@ -25,16 +25,16 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: Obtenga información sobre cómo configurar y administrar operadores automáticos en Microsoft Teams.
-ms.openlocfilehash: 1294559d1fcca7b1dace8f12cd3203b7effa4c80
-ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
+ms.openlocfilehash: 11fcf4016cd6ef8f2f4301c18c9362af6bed30ec
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69379396"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763551"
 ---
 # <a name="set-up-a-microsoft-teams-auto-attendant"></a>Configurar un operador automático de Microsoft Teams
 
-Los operadores automáticos permiten que las personas llamen a su organización y naveguen por un sistema de menús para hablar con el departamento, la cola de llamadas, la persona o un operador adecuados. Puede crear operadores automáticos para su organización con el centro de administración de Microsoft Teams o con PowerShell.
+Los operadores automáticos permiten que las personas llamen a su organización y naveguen por un sistema de menús para hablar con el departamento, la cola de llamadas, la persona o un operador adecuados. Puede crear operadores automáticos para su organización con el Centro de administración de Microsoft Teams o con PowerShell.
 
 Asegúrese de que ha leído [Plan para operadores automáticos y colas de llamadas de Teams](plan-auto-attendant-call-queue.md) y ha seguido los [pasos de introducción](plan-auto-attendant-call-queue.md#getting-started) antes de seguir los procedimientos de este artículo.
 
@@ -42,9 +42,9 @@ Los operadores automáticos pueden redirigir las llamadas, en función de la ent
 
 - **Operador:** el operador definido para el operador automático. Definir un operador es opcional. El operador puede definirse como cualquiera de los otros destinos de esta lista.
 - **Persona de la organización** : una persona de la organización que puede recibir llamadas de voz. Esta persona puede ser un usuario en línea o un usuario hospedado localmente mediante Skype Empresarial Server.
-- **Aplicación de voz** : otro operador automático o una cola de llamadas. (Elija la cuenta de recursos asociada con el operador automático o la cola de llamadas al elegir este destino).
-- **Correo de voz**: el buzón de voz asociado a un grupo de Microsoft 365 que especifique. Puede elegir si quiere las transcripciones del correo de voz y "Deje un mensaje después del tono". símbolo del sistema.
-  - En el Centro de Administración de M365, habilite "Permitir que personas que no pertenezcan a la organización envíe un correo electrónico a este equipo" para el grupo de Microsoft 365 que especifique
+- **Aplicación de voz** : otro operador automático o una cola de llamadas. Elija la cuenta de recursos asociada con el operador automático o la cola de llamadas al elegir este destino.
+- **Correo de voz** : el buzón de voz asociado a un grupo de Microsoft 365 que especifique. Puede elegir si quiere las transcripciones del correo de voz y "Deje un mensaje después del tono". símbolo del sistema.
+  - En Centro de administración de Microsoft 365, habilite **Permitir que personas que no pertenezcan a la organización envíe un correo electrónico a este equipo** para el grupo de Microsoft 365 que especifique.
 - **Número de teléfono externo** : cualquier número de teléfono. Consulta [los detalles técnicos de las transferencias externas](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
 - **Anuncio (archivo de audio):** reproducir un archivo de audio. Un mensaje de anuncio grabado que carga y que se guarda como audio en . WAV, .MP3 o . Formato WMA. La grabación no puede tener más de 5 MB. El sistema reproduce el anuncio y, a continuación, vuelve al menú del operador automático.
 - **Anuncio (escrito):** escriba un mensaje. Texto que quiere que lea el sistema. Puede escribir hasta 1000 caracteres. El sistema reproduce el anuncio y, a continuación, vuelve al menú del operador automático.
@@ -54,11 +54,10 @@ Los operadores automáticos pueden redirigir las llamadas, en función de la ent
 >
 > Al definir un **operador** es opcional, se recomienda.  Los operadores automáticos redirigen las llamadas al operador si hay un error en la configuración del operador automático debido a la eliminación de una cuenta de correo de voz compartida o de usuario.  Si no se define un operador, el operador automático anulará la llamada.
 
-## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>Novedades para los operadores automáticos en los últimos 6 meses
+## <a name="whats-new-for-auto-attendants-in-the-past-six-months"></a>Novedades para los operadores automáticos en los últimos seis meses
 
 - Septiembre: la opción **Forzar escucha** ahora está disponible con la **opción de menú Reproducir** para el flujo de llamadas, el flujo de llamadas fuera del horario laboral y el flujo de llamadas durante los días festivos.
 - Agosto: las **opciones del menú Reproducir** en Flujo de llamadas, Flujo de llamadas fuera del horario laboral y Flujo de llamadas durante los días festivos ahora admiten \* las teclas (asterisco) y \# (almohadilla).
-- Julio: el flujo de llamadas durante los días festivos ahora admite **las opciones del menú Reproducir**.
 
 ## <a name="steps-to-create-an-auto-attendant"></a>Pasos para crear un operador automático
 
@@ -87,7 +86,7 @@ Para configurar un operador automático, en el [Centro de administración de Tea
 
 3. Especifique la zona horaria de este operador automático. La zona horaria se utiliza para calcular el horario laboral si [crea un flujo de llamada independiente para fuera del horario laboral](?tabs=after-hours).
 
-4. Especifique un [idioma admitido](create-a-phone-system-auto-attendant-languages.md) para este operador automático. Este es el idioma que se usará para los mensajes de voz generados por el sistema.
+4. Especifique un [idioma admitido](create-a-phone-system-auto-attendant-languages.md) para este operador automático. Este idioma se usará para los mensajes de voz generados por el sistema.
 
 5. Elija si desea habilitar las entradas de voz. Cuando está habilitada, el nombre de cada opción de menú se convierte en una palabra clave de reconocimiento de voz. Por ejemplo, los autores de llamadas pueden decir "Uno" para seleccionar la opción de menú asignada a la tecla 1, o pueden decir "Ventas" para seleccionar la opción de menú denominada "Ventas".
 
@@ -133,7 +132,7 @@ Para cada opción de menú, especifique la siguiente configuración:
 
 ##### <a name="directory-search"></a>Búsqueda en directorios
 
-Si asigna claves de marcado a destinos, le recomendamos que elija **Ninguno** para **búsqueda en el directorio**. Si el autor de la llamada intenta marcar un nombre o una extensión mediante claves asignadas a destinos específicos, es posible que se rediriban inesperadamente a un destino antes de terminar de escribir el nombre o la extensión. Le recomendamos que cree un operador automático independiente para la búsqueda en directorios y que el operador automático principal le vincule con una clave de marcado.
+Si asigna claves de marcado a destinos, le recomendamos que elija **Ninguno** para **búsqueda en el directorio**. Las claves de marcado coinciden antes de realizar búsquedas en directorios.  Si el autor de la llamada comienza a escribir un nombre o una extensión mediante las teclas de marcado asignadas a destinos específicos, se redirigirá a ese destino antes de que termine de escribir el nombre o la extensión. Le recomendamos que cree un operador automático independiente para la búsqueda en directorios y que el operador automático principal le vincule con una clave de marcado.
 
 Si no ha asignado claves de marcado, elija una opción para **Búsqueda en el directorio**.
 
@@ -144,7 +143,7 @@ Si no ha asignado claves de marcado, elija una opción para **Búsqueda en el di
 > [!NOTE]
 > Si desea usar las características **Marcado por nombre** y **Marcado por extensión** , puede asignar una tecla de marcado a su operador automático principal para que llegue a un operador automático habilitado para **Marcado por nombre**. Dentro de ese operador automático, puede asignar la tecla 1 (que no tiene letras asociadas con él) para alcanzar el **Dial por operador automático de extensión** .
 
-Para obtener más información, consulte [el dial y la referencia de voz](dial-voice-reference.md).
+Para obtener más información, consulte [Referencia de marcado y voz](dial-voice-reference.md).
 
 Una vez que haya establecido las opciones básicas de flujo de llamadas, seleccione **Siguiente**.
 
@@ -158,7 +157,7 @@ El horario laboral se puede establecer para cada operador automático.
 - El horario laboral se puede establecer con descansos temporales durante el día y todas las horas que no se establecen como horas laborables se consideran fuera del horario laboral.
 - Puede establecer diferentes opciones de administración de llamadas entrantes y saludos para fuera del horario laboral.
 
-Según cómo haya configurado los operadores automáticos y las colas de llamadas, es posible que solo deba especificar el enrutamiento de llamadas fuera del horario laboral para los operadores automáticos con números de teléfono directos.
+Según cómo haya configurado los operadores automáticos y las colas de llamadas, es posible que solo tenga que especificar el enrutamiento de llamadas fuera del horario laboral para los operadores automáticos con números de teléfono directos.
 
 Si desea un enrutamiento de llamadas independiente para los autores de llamadas fuera del horario laboral, especifique el horario laboral de cada día.
 
@@ -176,7 +175,6 @@ El operador automático puede tener un flujo de llamadas para cada [día festivo
 
 *Nuevo: se puede habilitar la opción Forzar escucha que requiere que los autores de llamadas escuchen todas las opciones de menú antes de realizar la selección.*
  *Las teclas Nuevo - \* (asterisco) y \# (almohadilla) ahora se pueden usar en las opciones de menú.*
- *Nuevo: las **opciones del menú Reproducir** ya están disponibles en los flujos de llamadas navideñas.*
 
 1. En la página Configuración de llamadas navideñas, seleccione **Agregar**.
 
@@ -203,7 +201,7 @@ Una vez que haya agregado todas las horas de vacaciones, seleccione **Siguiente*
 
 El *ámbito de marcado* define qué usuarios están disponibles en el directorio cuando el autor de la llamada usa el marcado por nombre o marcado por extensión. El valor predeterminado de **Todos los usuarios en línea** incluye todos los usuarios de la organización que sean usuarios en línea o que se hospeden localmente con Skype Empresarial Server.
 
-Puede incluir o excluir usuarios específicos seleccionando Grupo de **usuarios personalizados** en **Incluir** o **Excluir** y eligiendo uno o más Microsoft 365 grupos, listas de distribución o grupos de seguridad. Por ejemplo, es posible que desee excluir a los ejecutivos de su organización del directorio de marcado.
+Puede incluir o excluir usuarios específicos seleccionando Grupo de **usuarios personalizados** en **Incluir** o **Excluir** y eligiendo uno o más grupos de Microsoft 365, listas de distribución o grupos de seguridad. Por ejemplo, es posible que desee excluir a los ejecutivos de su organización del directorio de marcado.
 
 Si un usuario está en ambas listas, se excluirá del directorio.
 
@@ -222,7 +220,7 @@ Para agregar una cuenta de recursos, seleccione **Agregar cuenta** y busque la c
 
 Una vez que haya agregado cuentas de recursos, seleccione **Siguiente**.
 
-Consulte [Administrar cuentas de recursos de Teams](manage-resource-accounts.md) para obtener más información.
+Para obtener más información, consulte [Administrar cuentas de recursos de Teams](manage-resource-accounts.md).
 
 ---
 
@@ -230,7 +228,7 @@ Consulte [Administrar cuentas de recursos de Teams](manage-resource-accounts.md)
 
 ### <a name="external-phone-number-transfers---technical-details"></a>Transferencias de números de teléfono externos: detalles técnicos
 
-Consulte los [Requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) para permitir que los operadores automáticos transfieran llamadas externamente.  Además:
+Consulte los [Requisitos previos](plan-auto-attendant-call-queue.md#prerequisites) para permitir que los operadores automáticos transfieran llamadas externamente.  Además
 
 - Para una cuenta de recursos con una [licencia de Plan de llamadas](calling-plans-for-office-365.md) o un número De conexión de [operador](operator-connect-plan.md) , el número de teléfono de transferencia externa debe especificarse en formato E.164 (+[código de país][código de área][número de teléfono]).
 
@@ -240,7 +238,7 @@ El número de teléfono saliente que se muestra se determina de la siguiente man
 
 - Para los números Plan de llamadas y Conectar operador, se muestra el número de teléfono del autor de la llamada original.
 - Para los números de enrutamiento directo, el número enviado se basa en la configuración de P-Asserted-Identity (PAI) en el SBC, como se indica a continuación:
-  - Si se establece en Deshabilitado, se muestra el número de teléfono del autor de la llamada original. Esta es la configuración predeterminada y recomendada.
+  - Si se establece en Deshabilitado, se muestra el número de teléfono del autor de la llamada original. Deshabilitado es la configuración predeterminada y recomendada.
   - Si se establece en Habilitado, se muestra el número de teléfono de la cuenta de recursos.
 
 En un entorno Skype Empresarial híbrido, para transferir una llamada de operador automático a rtc, cree un nuevo usuario local con el desvío de llamadas establecido en el número de RTC. El usuario debe estar habilitado para Telefonía IP empresarial y tener asignada una directiva de voz. Para obtener más información, consulte [Transferencia automática de llamadas de operador a RTC](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
@@ -256,9 +254,9 @@ Si es administrador, puede usar la siguiente herramienta de diagnóstico para va
 
 2. En el panel Ejecutar diagnóstico, escriba la cuenta de recurso en el campo **Nombre de usuario o Email** y, después, seleccione **Ejecutar pruebas**.
 
-3. Las pruebas identificarán las configuraciones de cuenta de recursos, directivas o inquilinos que impiden que el operador automático pueda recibir llamadas y proporcionarán pasos para corregir los problemas identificados.
+3. Las pruebas identificarán las configuraciones de cuenta de recursos, directivas o inquilinos que impiden que el operador automático reciba llamadas y también proporcionarán pasos para corregir los problemas identificados.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Esto es lo que obtiene con Teams Phone](./here-s-what-you-get-with-phone-system.md)
 

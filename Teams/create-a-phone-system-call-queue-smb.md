@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Obtenga información sobre cómo configurar colas de llamadas en Microsoft Teams. Las colas de llamadas proporcionan un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: ea11c7f8dde402c047c8a0aeabb5d724ddccf33b
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 93bb13b5f2f34f79bc319b96969a6efc53bf8285
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392540"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763691"
 ---
 # <a name="create-a-microsoft-teams-call-queue"></a>Crear una cola de llamadas de Microsoft Teams 
 
@@ -61,7 +61,7 @@ Los pasos para configurar una cola de llamadas incluyen:
 1. Establecer el control de desbordamiento de llamadas
 1. Establecer la administración del tiempo de espera de llamadas
 
-Los pasos descritos en el artículo crean colas de llamadas con el Centro de administración de Teams. Para obtener instrucciones para crear colas de llamadas con PowerShell, consulte [Creación de colas de llamadas con cmdlets de PowerShell](create-a-phone-system-call-queue-via-cmdlets.md).
+Los pasos descritos en este artículo para crear colas de llamadas usan el Centro de administración de Teams. Para obtener instrucciones para crear colas de llamadas con PowerShell, consulte [Creación de colas de llamadas con cmdlets de PowerShell](create-a-phone-system-call-queue-via-cmdlets.md).
 
 ## <a name="follow-these-steps-to-set-up-your-call-queue"></a>Siga estos pasos para configurar la cola de llamadas
 
@@ -77,14 +77,14 @@ Escriba un nombre para la cola de llamadas en el cuadro de la parte superior.
 
 Para agregar una cuenta de recursos existente:
 
-1. En **Cuentas de recursos**, haga clic en el botón **Agregar** para agregar una cuenta de recursos para esta cola de llamadas.
+1. En **Cuentas de recursos**, seleccione el botón **Agregar** para agregar una cuenta de recurso para esta cola de llamadas.
 1. En el panel **Agregar cuentas** , busque la cuenta de recursos que desea agregar.
 1. Seleccione el botón **Agregar** junto a la cuenta de recursos que desea asignar a esta cola de llamadas.
 1. En la parte inferior del panel, seleccione el botón **Agregar** .
 
 Si necesita crear una cuenta de recursos:
 
-1. En **Cuentas de recursos**, haga clic en el botón **Agregar** para agregar una cuenta de recursos para esta cola de llamadas.
+1. En **Cuentas de recursos**, seleccione el botón **Agregar** para agregar una cuenta de recurso para esta cola de llamadas.
 1. En el panel **Agregar cuentas** , busque cualquier conjunto de letras para que aparezca la lista desplegable de resultados.
 1. Seleccione el botón **+ Agregar una cuenta de recurso** en la parte inferior de los resultados.
 1. En el panel **Agregar cuenta de recursos** :
@@ -102,7 +102,7 @@ Para obtener más información, consulte [Administrar cuentas de recursos de Tea
 
 **Disponible para usuarios de escritorio de llamadas colaborativas o de canal de Teams y usuarios de clientes móviles de Teams con colas de llamadas estándar.**
 
-Puede asignar números de identificación de llamadas salientes a los agentes especificando una o más cuentas de recursos con un número de teléfono. Los agentes pueden seleccionar el número de identificación de llamada saliente que se usará con cada llamada saliente que realicen. En la aplicación Llamadas, los agentes pueden usar su número de cola de llamadas o operador automático (AA) o su propio dial directo entrante (DID) personal.
+Asigne números de identificación de llamadas salientes a los agentes especificando una o más cuentas de recursos con un número de teléfono. Los agentes pueden seleccionar el número de identificación de llamada saliente que se usará con cada llamada saliente que realicen. En la aplicación Llamadas, los agentes pueden usar su número de cola de llamadas o operador automático (AA) o su propio dial directo entrante (DID) personal.
 
 > [!NOTE]
 > La cuenta de recursos usada para fines de identificador de llamadas debe tener una licencia **de cuenta de recursos de Teléfono Microsoft Teams** y una de las siguientes asignadas:
@@ -118,7 +118,7 @@ Puede asignar números de identificación de llamadas salientes a los agentes es
 
 Si no tiene una cuenta de recursos con un número de teléfono asignado:
 
-1. En **Cuentas de recursos**, haga clic en el botón **Agregar** para agregar una cuenta de recursos.
+1. En **Cuentas de recursos**, seleccione el botón **Agregar** para agregar una cuenta de recurso.
 1. En el panel **Agregar cuentas** , busque cualquier conjunto de letras para que aparezca la lista desplegable de resultados.
 1. Seleccione el botón **+ Agregar una cuenta de recurso** en la parte inferior de los resultados.
 1. En el panel **Agregar cuenta de recursos** :
@@ -130,9 +130,9 @@ Si no tiene una cuenta de recursos con un número de teléfono asignado:
 
 Después de crear esta nueva cuenta de recurso para el identificador de llamada, seguirá necesitando lo siguiente:
 
-- Asignar una [licencia de cuenta de recursos telefónicos de Teams](manage-resource-accounts.md#assign-a-license).
-- Asigne una licencia Microsoft plan de llamadas, asigne un número de teléfono Operator Connect o asigne una directiva de enrutamiento de voz en línea para Direct Routing.
-- Asigne el [número de teléfono a la cuenta de recursos](manage-resource-accounts.md#assign-a-phone-number) si usa Microsoft Plan de llamadas.
+- Asigne una [licencia de cuenta de recursos del sistema Teléfono Microsoft Teams](manage-resource-accounts.md#assign-a-license).
+- Asigne una licencia de Plan de llamadas de Microsoft, asigne un número de teléfono De conexión de operador o asigne una directiva de enrutamiento de voz en línea para Direct Routing.
+- Asigne el [número de teléfono a la cuenta de recursos](manage-resource-accounts.md#assign-a-phone-number) si usa Microsoft Calling Plan.
 
 ### <a name="set-the-call-queue-language"></a>Establecer el idioma de la cola de llamadas
 
@@ -160,7 +160,7 @@ Teams proporciona música predeterminada a los autores de llamadas mientras est�
 - Si desea reproducir un archivo de audio específico, elija **Reproducir un archivo de audio en** y cargar un archivo MP3, WAV o WMA.
 
 > [!NOTE]
-> Usted es responsable de borrar y proteger de forma independiente todos los derechos y permisos necesarios para usar cualquier archivo de música o audio con su servicio Microsoft Teams, que puede incluir la propiedad intelectual y otros derechos en cualquier música, efectos de sonido, audio, marcas, nombres y otro contenido en el archivo de audio de todos los titulares de derechos pertinentes, que pueden incluir artistas,  actores, artistas intérpretes o ejecutantes, músicos, compositores, compositores, sellos discográficos, editores musicales, sindicatos, sindicatos, sociedades de derechos, organizaciones de gestión colectiva y cualquier otra parte que posea, controle o licencia los derechos de autor de música, efectos sonoros, audio y otros derechos de propiedad intelectual.
+> Usted es responsable de borrar y proteger de forma independiente todos los derechos y permisos necesarios para usar cualquier archivo de música o audio con su servicio de Microsoft Teams, que puede incluir propiedad intelectual y otros derechos en cualquier música, efectos de sonido, audio, marcas, nombres y otro contenido en el archivo de audio de todos los titulares de derechos pertinentes, que pueden incluir artistas,  actores, artistas intérpretes o ejecutantes, músicos, compositores, compositores, sellos discográficos, editores musicales, sindicatos, sindicatos, sociedades de derechos, organizaciones de gestión colectiva y cualquier otra parte que posea, controle o licencia los derechos de autor de música, efectos sonoros, audio y otros derechos de propiedad intelectual.
 
 Una vez que haya seleccionado un saludo y música en espera, seleccione el botón **Siguiente** en la parte inferior de la página **Agregar una cola de llamadas** .
 
@@ -174,21 +174,23 @@ Revise los [requisitos previos para agregar agentes a una cola de llamadas](plan
 
 Puede agregar hasta 200 agentes a través de un canal de Teams. Debe ser miembro del equipo o el creador o propietario del canal para agregar un canal a la cola.
 
-Si desea [usar un canal de Teams para administrar la cola](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e):
+Para [usar un canal de Teams para administrar la cola](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e):
 
-1. Seleccione el botón de radio **Elegir un equipo** y seleccione **Agregar un canal**.
+1. Seleccione el botón **de radio Elegir un equipo** y seleccione **Agregar un canal**.
 1. Busque el equipo que desea usar, selecciónelo y seleccione **Agregar**.
-1. Seleccione el canal que quiera usar (solo se admiten canales estándar) y seleccione **Aplicar**.
+1. Seleccione el canal que quiera usar (solo se admiten canales estándar o privados) y seleccione **Aplicar**.
 
 Los siguientes clientes son compatibles al usar un canal de Teams para colas de llamadas:
 
-- cliente de Windows de Microsoft Teams
+- Cliente de Windows de Microsoft Teams
 - Cliente de Microsoft Teams para Mac
 
 > [!NOTE]
 > Si utiliza esta opción, la cola de llamadas puede tardar hasta 24 horas en funcionar por completo.
 >
 > Si hay más de 200 miembros en el equipo, solo se agregarán los primeros 200 miembros, en orden alfabético, como agentes a la cola de llamadas.
+> 
+> Las llamadas se distribuirán a todos los miembros del equipo, incluso si el canal privado solo tiene un subconjunto de miembros del equipo.
 
 ### <a name="users-and-groups"></a>Usuarios y grupos
 
@@ -200,11 +202,11 @@ Si desea agregar usuarios o grupos individuales a la cola:
 
 Para **agregar un usuario** a la cola:
 
-1. Seleccione **Agregar usuarios**, busque el usuario, haga clic en **Agregar** y, a continuación, haga clic en **Agregar**.
+1. Selecciona **Agregar usuarios**, busca el usuario, selecciona **Agregar** y, a continuación, selecciona **Agregar**.
 
 Para **agregar un grupo** a la cola:
 
-1. Seleccione **Agregar grupos**, busque el grupo, haga clic en **Agregar** y, a continuación, haga clic en **Agregar**. 
+1. Seleccione **Agregar grupos**, busque el grupo, seleccione **Agregar** y, a continuación, seleccione **Agregar**. 
     1. Puede usar listas de distribución, grupos de seguridad, grupos de seguridad, grupos de Microsoft 365 o equipos de Microsoft Teams.
 
 > [!NOTE]
@@ -216,18 +218,18 @@ Para **agregar un grupo** a la cola:
 
 **El modo de conferencia** reduce la cantidad de tiempo que tarda el autor de la llamada en conectarse a un agente después de que el agente acepte la llamada. Para que el modo de conferencia funcione, los agentes en la cola de llamadas deben usar uno de los siguientes clientes:
 
-- Última versión del cliente de escritorio de Microsoft Teams, la aplicación de Android o la aplicación de iOS
-- Teléfono Microsoft Teams versión 1449/1.0.94.2020051601 o posterior
+- La última versión del cliente de escritorio de Microsoft Teams, la aplicación de Android o la aplicación de iOS.
+- Teléfono Microsoft Teams versión del sistema 1449/1.0.94.2020051601 o posterior.
   
-Las cuentas de Teams de los agentes deben establecerse en el modo TeamsOnly. Los agentes que no cumplan los requisitos no se incluyen en la lista de enrutamiento de llamadas. Se recomienda habilitar el modo de conferencia para las colas de llamadas si los agentes usan clientes compatibles.
+Las cuentas de Teams de los agentes deben estar configuradas en `TeamsOnly` modo. Los agentes que no cumplan los requisitos no se incluyen en la lista de enrutamiento de llamadas. Se recomienda habilitar el modo de conferencia para las colas de llamadas si los agentes usan clientes compatibles.
 
 > [!TIP]
 > Establecer **el modo de conferencia** **en Activado** es la opción recomendada.
 
 > [!NOTE]
-> El modo de conferencia no es compatible si las llamadas de teléfono se redirigen a la cola desde una puerta de enlace de enrutamiento directo habilitada para el enrutamiento basado en ubicación.
+> El modo de conferencia no es compatible con las llamadas que se redirigen a la cola desde una puerta de enlace de enrutamiento directo habilitada para Location-Based Enrutamiento.
 >
-> El modo de conferencia no es compatible si las llamadas telefónicas se enrutan a la cola desde Skype Empresarial Server.
+> El modo de conferencia no es compatible con las llamadas que se enrute a la cola desde Skype Empresarial Server.
 > 
 > El modo de conferencia es necesario si los usuarios de Teams necesitan consultar o transferir llamadas con colas de llamadas.
 >
@@ -276,7 +278,7 @@ Puede habilitar el **enrutamiento de llamadas basado en presencia** con cualquie
 Si un agente opta por no recibir llamadas, no se incluirán en la lista de enrutamiento de llamadas independientemente de cómo esté configurado su estado de disponibilidad.
 
 > [!TIP]
-> La configuración recomendada es establecer el **enrutamiento basado en** presencia **en activado** .
+> La configuración recomendada es establecer el **enrutamiento basado en** presencia **en Activado** .
 
 > [!NOTE]
 > Cuando se selecciona **La inactividad más larga** como método de enrutamiento, se requiere un enrutamiento basado en presencia y se habilita automáticamente aunque el botón de alternancia de enrutamiento basado en presencia esté **Desactivado** y atenuado.
@@ -331,7 +333,7 @@ Una vez que haya seleccionado las opciones de administración de desbordamiento 
 
 ## <a name="step-6-set-how-to-handle-call-timeouts"></a>Paso 6: Establecer cómo controlar los tiempos de espera de llamada
 
-**Tiempo de espera de la llamada: tiempo máximo** especifica el tiempo máximo en que una llamada puede estar en espera en la cola antes de que se redirija o se desconecta.
+**Tiempo de espera de llamada: el tiempo de espera máximo** especifica el tiempo máximo en que una llamada puede estar en espera en la cola antes de redirigirla o desconectarla.
 
 Puede establecer un intervalo de entre 0 y 45 minutos.
 
@@ -390,17 +392,15 @@ Se recomienda la siguiente configuración:
 
 #### <a name="notes"></a>Notas
 
-1. Microsoft el cliente windows de Teams, Microsoft el cliente mac de Teams Microsoft Teams en la infraestructura de escritorio virtualizada.
-2. Microsoft aplicación Teams para iPhone, Microsoft la aplicación Teams para Android.
-3. Si selecciona Longest Idle para el método de enrutamiento del agente, se habilitará automáticamente el enrutamiento basado en presencia.
+1. Cliente de Microsoft Teams windows, cliente de Microsoft Teams para Mac, Microsoft Teams en infraestructura de escritorio virtualizada.
+2. Aplicación de Microsoft Teams para iPhone, aplicación de Microsoft Teams para Android.
+3. Si selecciona Longest Idle para el método de enrutamiento del agente, se habilitará automáticamente el enrutamiento de Presence-Based.
 4. No es posible establecer el orden en el que se llamará a los agentes.
-5. El modo de conferencia no es compatible si las llamadas de teléfono se redirigen a la cola desde una puerta de enlace de enrutamiento directo habilitada para el enrutamiento basado en ubicación.
-6. solo Teléfono Microsoft Teams.
+5. El modo de conferencia no es compatible si las llamadas telefónicas se enrutan a la cola desde una puerta de enlace de enrutamiento directo habilitada para Location-Based Enrutamiento.
+6. solo Teléfono Microsoft Teams sistema.
 7. A través de la página del Portal de configuración de usuario en [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
-- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
-- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
-8. Solo se admiten canales públicos.
-9. Los operadores automáticos y las colas de llamadas no pueden transferir llamadas entre métodos de conectividad RTC.
+- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp).
+- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp).
 8. Solo se admiten canales públicos.
 9. Los operadores automáticos y las colas de llamadas no pueden transferir llamadas entre métodos de conectividad RTC.
 
@@ -408,27 +408,27 @@ Se recomienda la siguiente configuración:
 
 Los siguientes clientes son compatibles con agentes de llamada en una cola de llamadas:
 
-- Cliente de escritorio de Skype Empresarial 2016 (versiones de 32 y 64 bits)
-- Cliente de escritorio de Lync 2013 (versiones de 32 y 64 bits)
+- Skype Empresarial cliente de escritorio de 2016 (versiones de 32 bits y 64 bits).
+- Cliente de escritorio de Lync 2013 (versiones de 32 bits y 64 bits).
 - Todos los modelos de teléfonos IP compatibles con Microsoft Teams. Consulte [Obtener teléfonos con Skype Empresarial Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).
-- Cliente de Skype for Business para Mac (versión 16.8.196 y posteriores)
-- Cliente de Skype para Business para Android (versión 6.16.0.9 y posteriores)
-- Cliente de Skype for Business para iPhone (versión 6.16.0 y posteriores)
-- Cliente de Skype for Business para iPad (versión 6.16.0 y posteriores)
-- Cliente de Microsoft Teams para Windows (versiones de 32 y 64 bits)
-- Cliente de Microsoft Teams para Mac
-- Microsoft Teams en [infraestructura de escritorio virtualizada](teams-for-vdi.md) (Windows Virtual Desktop, Citrix y VMware)
-- Aplicación Microsoft Teams para iPhone
-- Aplicación Microsoft Teams para Android
+- Mac Skype Empresarial Client (versión 16.8.196 y posteriores).
+- Android Skype Empresarial Client (versión 6.16.0.9 y posteriores).
+- iPhone Skype Empresarial Client (versión 6.16.0 y posteriores).
+- iPad Skype Empresarial Client (versión 6.16.0 y posteriores).
+- Cliente de Windows de Microsoft Teams (versiones de 32 bits y 64 bits).
+- Cliente de Microsoft Teams para Mac.
+- Microsoft Teams en [infraestructura de escritorio virtualizada](teams-for-vdi.md) (Windows Virtual Desktop, Citrix y VMware).
+- Aplicación de Microsoft Teams para iPhone.
+- Aplicación de Microsoft Teams para Android.
 
-  > [!NOTE]
-  > Las colas de llamadas a las que se les asigna un número de enrutamiento directo no admiten clientes de Skype Empresarial, clientes Lync o teléfonos IP de Skype Empresarial como agentes. El cliente de Teams solo es compatible con un [modo de existencia única de Teams](setting-your-coexistence-and-upgrade-settings.md).
+> [!NOTE]
+> Las colas de llamadas a las que se les asigna un número de enrutamiento directo no admiten clientes de Skype Empresarial, clientes Lync o teléfonos IP de Skype Empresarial como agentes. El cliente de Teams solo es compatible con un [modo de existencia única de Teams](setting-your-coexistence-and-upgrade-settings.md).
 
 ### <a name="call-queue-diagnostic-tool"></a>Herramienta de diagnóstico de cola de llamadas
 
 Si es administrador, puede usar la siguiente herramienta de diagnóstico para validar que una cola de llamadas pueda recibir llamadas:
 
-1. Seleccione **Ejecutar pruebas** a continuación. Esto rellenará el diagnóstico en el Centro de administración de Microsoft 365.
+1. Seleccione **Ejecutar pruebas** a continuación, lo que rellenará el diagnóstico en el Centro de administración de Microsoft 365.
 
    > [!div class="nextstepaction"]
    > [Ejecutar pruebas: Cola de llamadas de Teams](https://aka.ms/TeamsCallQueueDiag)
@@ -437,9 +437,9 @@ Si es administrador, puede usar la siguiente herramienta de diagnóstico para va
 
 3. Las pruebas devolverán los mejores pasos siguientes para abordar cualquier inquilino, directiva y configuración de cuenta de recursos para validar que la cola de llamadas pueda recibir llamadas.
 
-### <a name="related-topics"></a>Temas relacionados
+### <a name="related-articles"></a>Artículos relacionados
 
-[Esto es lo que obtienes con Teléfono Microsoft Teams](here-s-what-you-get-with-phone-system.md)
+[Esto es lo que obtienes con Teléfono Microsoft Teams System](here-s-what-you-get-with-phone-system.md)
 
 [Obtener números de teléfono de servicio](getting-service-phone-numbers.md)
 
