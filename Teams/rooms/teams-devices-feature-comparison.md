@@ -18,12 +18,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6648502d9b6a3e727ef30f1e94289f1428d8a4e2
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+ms.openlocfilehash: 43026c80108adeff777e3a003fb93fece44d8c50
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438519"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774815"
 ---
 # <a name="teams-rooms-on-windows-and-android-feature-comparison"></a>Salas de Teams en Windows y Android comparación de características
 
@@ -33,7 +33,7 @@ La funcionalidad principal está disponible en ambas plataformas, por lo que los
 
 A medida que Microsoft incorpora nuevas características a Teams y a Salas de Teams, nos esforzamos por llevarlas a todas las plataformas, pero las características pueden implementarse en diferentes momentos debido a una serie de factores, incluidos aspectos como la viabilidad técnica y los comentarios de los clientes para cada plataforma. Esto significa que es posible que veas algunas características que se están implementando en Windows antes de que lleguen a la plataforma Android. 
 
-Para ayudarle a guiarle en cuanto a las características disponibles en distintas plataformas, puede consultar el siguiente gráfico, que se actualizará periódicamente. No todas las características Salas de Teams se incluirán en esta lista, por lo que debe seguir consultando el [plan de desarrollo de Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) y Microsoft representantes de ventas para obtener detalles adicionales.    
+Para ayudarle a guiarle en cuanto a las características disponibles en distintas plataformas, puede consultar el siguiente gráfico, que se actualizará periódicamente. No todas las características Salas de Teams se incluirán en esta lista, por lo que debe seguir consultando el [mapa de ruta de Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) y los representantes de ventas de Microsoft para obtener detalles adicionales.    
 
 ## <a name="teams-devices-for-shared-spaces"></a>Dispositivos de Teams para espacios compartidos
 
@@ -50,7 +50,7 @@ Para ayudarle a guiarle en cuanto a las características disponibles en distinta
 |                                          | Unión directa de invitado                                                                                            | Disponible                                                                                                                                      | Disponible                                           |
 | **Participación y colaboración en reuniones** | Experiencia de aplicación intuitiva creada para propósitos                                                                      | Disponible                                                                                                                                      | Disponible                                           |
 |                                          | Diseños de vídeo y contenido (por ejemplo, Modo conferencia, galería grande, solo galería y galería y contenido) | Disponible                                                                                                                                      | Disponible                                           |
-|                                          | Diseño de fila frontal                                                                                             | Disponible                                                                                                                                      | No disponible                                       |
+|                                          | Diseño de fila frontal                                                                                             | Disponible                                                                                                                                      | Próximamente                                       |
 |                                          | Burbujas de chat                                                                                                 | Disponible                                                                                                                                      | Próximamente                                         |
 |                                          | Levantar la mano, bajar todas las manos                                                                                  | Disponible                                                                                                                                      | Disponible                                           |
 |                                          | Anclar varios participantes                                                                                    | Disponible                                                                                                                                      | Próximamente                                         |
@@ -83,6 +83,7 @@ Para ayudarle a guiarle en cuanto a las características disponibles en distinta
 |                                          | Actualizaciones automáticas de la aplicación Teams                                                                                  | Disponible                                                                                                                                      | Disponible                                           |
 |                                          | Inscripción automática del dispositivo                                                                                       | Disponible                                                                                                                                      | Disponible                                           |
 |                                          | Análisis de calidad de llamadas                                                                                       | Disponible                                                                                                                                      | Disponible                                           |
+|                                          | Tema personalizado                                                                                       | Disponible                                                                                                                                      | No disponible                                           |
 | **Bueno para / Espacio**                     | Enfoque (2-4 personas)                                                                                           | Disponible                                                                                                                                      | Disponible                                           |
 |                                          | Pequeño (4-6 personas)                                                                                           | Disponible                                                                                                                                      | Disponible                                           |
 |                                          | Medio (6-12 personas)                                                                                         | Disponible                                                                                                                                      | Disponible                                           |

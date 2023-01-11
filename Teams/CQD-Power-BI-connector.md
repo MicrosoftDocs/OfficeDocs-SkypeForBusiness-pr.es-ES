@@ -15,16 +15,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Instalar Power BI Connector para usar las plantillas de consulta del Panel de calidad de llamadas
-ms.openlocfilehash: 80d1b39c6fbe26f04998b06b22fb527b60bbb6a0
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 534103fc2bec48566a1d0a57eeb390ed6ae0606c
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789875"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774755"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Instalar el conector de calidad de llamadas de Microsoft para Power BI para usar plantillas de consulta del panel de calidad de llamadas
 
-Para poder usar las plantillas de consulta de Power BI (archivos PBIX) para el Panel de calidad de llamadas (CQD) de Microsoft Teams, tendrá que instalar el conector de calidad de llamadas de Microsoft para Power BI con el archivo *MicrosoftCallQuality.pqx* incluido en la [descarga](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).
+Para poder usar las plantillas de consulta de Power BI (archivos PBIX) para el Panel de calidad de llamadas (CQD) de Microsoft Teams, tendrá que instalar el conector de calidad de llamadas de Microsoft para Power BI con el archivo *MicrosoftCallQuality.pqx* incluido en la [descarga](https://www.microsoft.com/download/details.aspx?id=102291).
 
 Lea [Usar Power BI para analizar datos del CQD para Teams para](CQD-Power-BI-query-templates.md) obtener información sobre estas plantillas.
 
@@ -120,7 +120,7 @@ A pesar de hacer uso de Power BI, no todas las funciones de Power BI son compati
 
 1. **Columnas calculadas:** Los conectores DirectQuery en general tienen compatibilidad limitada con las columnas calculadas en Power BI. Algunas columnas calculadas pueden funcionar con el conector, ya que esas columnas son excepciones. Como regla general, las columnas calculadas no funcionan.
 
-2. **Agregaciones:** El modelo de datos del panel de calidad de llamadas se basa en un modelo de cubo, lo que significa que las agregaciones ya se admiten en forma de medidas. Intentar agregar agregaciones manualmente a distintas dimensiones o cambiar el tipo de agregación de una medida no funcionará con el conector y, por lo general, producirá un error.
+2. **Agregaciones–** El modelo de datos del panel de calidad de llamadas se basa en un modelo de cubo, lo que significa que las agregaciones ya se admiten en forma de medidas. Intentar agregar agregaciones manualmente a distintas dimensiones o cambiar el tipo de agregación de una medida no funcionará con el conector y, por lo general, producirá un error.
 
 3. **Objetos visuales personalizados:** Aunque el conector calidad de llamada de Microsoft funciona con una amplia gama de objetos visuales personalizados, no podemos garantizar la compatibilidad con todos los objetos visuales personalizados. Muchos objetos visuales personalizados se basan en el uso de columnas calculadas o datos importados, ninguno de los cuales es compatible con conectores DirectQuery.
 

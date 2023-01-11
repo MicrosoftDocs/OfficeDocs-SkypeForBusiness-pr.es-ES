@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Administración puede leer las notas de la versión de Salas de Microsoft Teams, que muestran mejoras acumulativas en Salas de Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 256ab81b195d5a758e07c24741b1dc8a7ff13218
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+ms.openlocfilehash: f6d600552c2f636618ff14a1ccf88be60df74879
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438369"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774735"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de la versión para Salas de Microsoft Teams
 
@@ -28,7 +28,7 @@ En este artículo se describen las mejoras acumulativas de Salas de Microsoft Te
 
 Hay dos tipos de actualizaciones para Salas de Teams: actualizaciones de aplicaciones Salas de Teams y cliente web de Teams.
 
-Salas de Teams las actualizaciones de las aplicaciones se realizan a través de la Tienda Microsoft o a través de [la actualización manual](manual-update.md). Novedades se aplican a la aplicación de Plataforma universal de Windows (UWP) que se instala localmente en el dispositivo.
+Salas de Teams actualizaciones de aplicaciones se realizan a través de Microsoft Store o a través de [una actualización manual](manual-update.md). Novedades se aplican a la aplicación de Plataforma universal de Windows (UWP) que se instala localmente en el dispositivo.
 
 Las actualizaciones del cliente web de Teams se realizan a través de los servicios de entrega de aplicaciones web de Teams. El cliente web de Teams es un servicio basado en la nube que no requiere una actualización de la aplicación local para UWP instalada en el dispositivo.
 
@@ -40,7 +40,7 @@ Salas de Teams se rige por la directiva moderna de ciclo de vida. Para obtener m
 
 |Lanzamiento |Publicado en <br/> Microsoft Store |
 |--- |--- |
-|4.15.54.0 | 12/15/2022 |
+|4.15.58.0 | 12/15/2022 |
 |4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
@@ -97,7 +97,7 @@ Salas de Teams se rige por la directiva moderna de ciclo de vida. Para obtener m
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas de Microsoft Teams introducción a la característica y resolución de problemas
 
-### <a name="415540-12152022"></a>4.15.54.0 (12/15/2022)
+### <a name="415580-12152022"></a>4.15.58.0 (12/15/2022)
 
 Introducido en esta actualización:
 
@@ -121,7 +121,7 @@ Introducido en esta actualización:
 - Anclar y ocultar el vídeo de la sala
 - Configuración de administrador para desactivar la galería dividida en la pantalla doble Salas de Teams <sup>1</sup>
 - La pantalla dual Salas de Teams ahora puede mostrar hasta 18 secuencias de vídeo de participantes
-- Soporte técnico para licencias de salas básicas de salas de Teams Salas de Microsoft Teams Pro y Microsoft Teams
+- Soporte técnico para licencias de salas básicas de salas de Salas de Microsoft Teams Pro y Microsoft Teams
 
 <sup>1</sup> La configuración de administrador para desactivar la galería dividida a través de XML puede encontrarse en [Administrar una configuración de consola de Salas de Microsoft Teams de forma remota con un archivo de configuración XML](../rooms/xml-config-file.md).
 
@@ -167,9 +167,9 @@ Introducido en esta actualización:
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 
 Introducido en esta actualización:
-- Los administradores de TI pueden inscribir un dispositivo de salas de Teams para recibir características de vista previa públicas a través de la configuración XML. Una vez inscrito, el dispositivo comenzará a recibir características beta. Todas las características que van a las pruebas beta se anuncian en [Microsoft versión preliminar pública de Teams - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
+- Los administradores de TI pueden inscribir un dispositivo de salas de Teams para recibir características de vista previa públicas a través de la configuración XML. Una vez inscrito, el dispositivo comenzará a recibir características beta. Todas las características que van a las pruebas beta se anuncian en la [versión preliminar pública de Microsoft Teams Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
 - El administrador de TI puede establecer la resolución de pantalla frontal de la sala y el escalado de forma remota a través de la configuración XML<sup>2</sup>
-- El administrador de TI puede deshabilitar la supresión de ruido Microsoft mediante la configuración XML<sup>3</sup> 
+- El administrador de TI puede deshabilitar la supresión de ruido de Microsoft mediante la configuración XML<sup>3</sup> 
 - El administrador de TI puede invalidar la limpieza de la carpeta de descarga en el dispositivo mediante la configuración<sup>4</sup> de la clave del Registro
 - Permitir a los usuarios unirse a reuniones de Teams hospedadas en otra nube (es decir, el cliente de GCCH puede unirse a reuniones de Teams hospedadas en la nube comercial y viceversa) 
 - Las salas de Teams ahora bloquean el inicio del explorador Edge desde direcciones URL en PowerPoint Live como medida de seguridad adicional para salas de Teams con pantallas táctiles 
@@ -210,7 +210,7 @@ Introducido en esta actualización:
 
 > <sup>1</sup> Estas características se están implementando con el cliente web de Teams y se implementarán en el próximo par de semanas. Obtenga más información sobre [las actualizaciones de Teams](../teams-client-update.md) para obtener más información.
 > 
-> <sup>2</sup> Las salas de Teams en Windows que se ejecutan en Microsoft Teams solo o Skype Empresarial y Microsoft Teams (predeterminado) se actualizan con las nuevas experiencias de reunión y llamada, pero otros modos no se ven afectados por esta actualización.
+> <sup>2</sup> Las salas de Teams en Windows que se ejecutan solo en Microsoft Teams o Skype Empresarial y Microsoft Teams (predeterminado) se actualizan con las nuevas experiencias de reunión y llamada, pero otros modos no se ven afectados por esta actualización.
 > 
 > <sup>3</sup> Vea más detalles sobre cómo configurar directivas de [acceso condicional de AAD](../rooms/rooms-authentication.md#azure-ad-conditional-access) para Salas de Teams.
 > 
@@ -260,7 +260,7 @@ Introducido en esta actualización:
 ### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
 
 Introducido en esta actualización:
-- Microsoft modo solo de Teams ya está disponible en la configuración de la aplicación, por lo que ya no es necesario configurar una cuenta de Skype Empresarial. En este modo, los dispositivos que hayan iniciado sesión en el modo solo teams se unen a Skype Empresarial reuniones como usuario invitado.
+- El modo solo de Microsoft Teams está ahora disponible en la configuración de la aplicación, por lo que ya no necesita configurar una cuenta de Skype Empresarial. En este modo, los dispositivos que hayan iniciado sesión en el modo solo teams se unen a Skype Empresarial reuniones como usuario invitado.
 - Corrección para el audio HDMI que causa un volumen de llamada menor. La característica de audio HDMI se habilita automáticamente para todos los dispositivos con la compilación de la aplicación 4.9.12.0.
 
 > [!NOTE]
@@ -324,7 +324,7 @@ Introducido en esta actualización:
 - Unirse a reuniones de zoom desde Salas de Teams con unirse directo a un invitado (versión preliminar)
 
 > [!NOTE]
-> La galería de vídeo de 3x3 y los subtítulos locales en directo se entregan a través del servicio Microsoft Teams. Estas características están disponibles para todos los dispositivos Salas de Teams con la versión de aplicación 4.5.37.0 y posteriores.
+> La galería de vídeos de 3x3 y los subtítulos locales en directo se entregan a través del servicio Microsoft Teams. Estas características están disponibles para todos los dispositivos Salas de Teams con la versión de aplicación 4.5.37.0 y posteriores.
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 
@@ -423,12 +423,12 @@ Introducido en esta actualización:
 - Marca de la aplicación de la tienda de Sistema de salas de Skype en "Salas de Microsoft Teams"
 - Salas de Microsoft Teams interfaz de usuario de la consola vuelve a alinearse con Microsoft Teams
 - Actualización del tema: mantenga solo la imagen de fondo personalizada delante de las pantallas de la sala, mientras convierte el fondo de la consola en un color neutro para garantizar que los controles de la interfaz de usuario de la consola cumplan con el contraste de color( requisitos de accesibilidad
-- Barra universal para controles de llamada en la reunión para llamadas o reuniones de Teams con el fin de proporcionar una experiencia coherente con Microsoft pc de Teams/ web/ clientes móviles<sup>1</sup>
+- Barra universal para controles de llamada en la reunión para llamadas y reuniones de Teams con el fin de proporcionar una experiencia coherente con los clientes de Microsoft Teams PC/Web/Mobile<sup>1</sup>
 - Calificación de comentarios sobre la calidad de las llamadas después de las llamadas y reuniones<sup>de Teams 1</sup>
-- Recibir o representar Microsoft Whiteboard en Salas de Microsoft Teams frente a la pantalla de la sala cuando se comparte desde el cliente<sup>1</sup> <sup>2</sup> de PC/Web/Mobile Teams
+- Recibir o representar Microsoft Whiteboard en Salas de Microsoft Teams frente a la pantalla de la sala cuando se comparte desde PC/ Web/ cliente de Mobile Teams<sup>1</sup> <sup>2</sup>
 - Se ha quitado la compatibilidad con las actualizaciones de Windows 10 versión 1809 debido a problemas de compatibilidad con Salas de Microsoft Teams cliente. Windows 10 compatibilidad con la versión 19H1 se agregará en futuras versiones
 
-<sup>1</sup> Microsoft implementación del servicio de Teams con anillos de Teams. Es posible que esta característica esté disponible antes o después de la actualización del cliente 4.0.105.0
+<sup>1 Implementación</sup> del servicio de Microsoft Teams con anillos de Teams. Es posible que esta característica esté disponible antes o después de la actualización del cliente 4.0.105.0
 
 <sup>2</sup> Requiere que los administradores de TI activen Microsoft Whiteboard. Además, si tiene una pantalla táctil frontal de la sala, debe calibrar varias pantallas táctiles con la configuración de Windows con inicio de sesión del administrador del dispositivo para empezar a usar Microsoft Whiteboard para colaborar desde una pantalla de sala compartida en una reunión de Teams
 
@@ -449,7 +449,7 @@ Introducido en esta actualización:
 
 Introducido en esta actualización:
 
-- Teclado DTMF para Microsoft reuniones de Teams P2P y llamadas RTC. Para que Microsoft Teams sea el cliente de llamadas predeterminado, los administradores deben establecer IsTeamsDefaultClient en true
+- Teclado DTMF para reuniones de Microsoft Teams P2P y llamadas RTC. Para que Microsoft Teams sea el cliente de llamadas predeterminado, los administradores deben establecer IsTeamsDefaultClient en true
 - Ancle el vídeo entrante de un participante remoto a pantalla completa delante de la pantalla de la sala. Usar el comando "Anclar" de la lista de participantes en la consola
 - Mejoras en las notificaciones de la sala de espera con la adición de notificaciones de delante de la sala
 - Se ha quitado el icono de proyección frontal de la sala cuando la baliza Bluetooth no está habilitada en Salas de Microsoft Teams dispositivo
@@ -515,7 +515,7 @@ Introducido en esta actualización:
 
 Introducido en esta actualización:
 
-- Cambios que habilitan Microsoft para administrar Windows Novedades de forma más flexible.
+- Cambios que permiten a Microsoft administrar Windows Novedades de forma más flexible.
 - No hay cambios en la experiencia del usuario final.
 
 ### <a name="311120-06052018"></a>3.1.112.0 (06/05/2018)

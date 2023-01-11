@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: Obtenga información sobre cómo agregar, cambiar o quitar una ubicación de emergencia de su organización.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 39db920ccbb6edd71591ad5439b0a8475a0655fb
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 99ab0821b8ccdb14664dc0a2aa37c959499ff8ac
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584671"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774745"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
@@ -77,6 +77,9 @@ Vea [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivica
 Vea [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress).
     
 ## <a name="remove-an-emergency-location"></a>Quitar una ubicación de emergencia
+
+> [!NOTE]
+> Solo puede quitar una ubicación si no se le asignan usuarios ni números de teléfono. Si se asignan números o usuarios a la ubicación, primero debe quitarlos.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar el Centro de administración de Microsoft Teams
 
