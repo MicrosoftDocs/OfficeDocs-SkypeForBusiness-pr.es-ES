@@ -6,7 +6,7 @@ manager: samanro
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: ''
 ms.collection:
 - M365-collaboration
 ms.localizationpriority: medium
@@ -20,22 +20,20 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d159605af5050b8b874fb7b1c077ce9f2d639fc
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: e2d6be964c29ca9133a5c52162c88f82e27424d7
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198902"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778960"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>Usar plantillas de equipo de fabricación en el centro de administración
 
-Las plantillas de equipo le permiten crear equipos de forma rápida y sencilla proporcionando una plantilla predefinida de configuración, canales y aplicaciones preinstaladas.
+Las plantillas de equipo de Microsoft Teams le permiten crear equipos de forma rápida y sencilla al proporcionar una estructura predefinida de equipos de configuración, canales y aplicaciones preinstaladas.
 
-Las plantillas de equipo tienen definiciones predefinidas de estructuras de equipo diseñadas en función de las necesidades de fabricación. También puede ampliar las plantillas de equipo para crear equipos que se adapten a sus necesidades organizativas específicas.
+Use plantillas de equipo para implementar rápidamente equipos coherentes en toda la organización. Las plantillas también ayudan al personal a orientarse con la forma de usar Teams de forma eficaz.
 
-En este artículo, presentamos cada una de las plantillas de equipo y le recomendamos cómo usarlas.
-
-Este artículo es para usted si es responsable de planear, implementar y administrar varios equipos en toda la organización de fabricación. Ya ha implementado el servicio de Teams en su organización. Si todavía no ha implementado Teams, empiece por leer [Cómo implementar Microsoft Teams](./deploy-overview.md).
+Teams incluye plantillas predefinidas diseñadas para necesidades de fabricación. En este artículo, le presentamos estas plantillas.
 
 Para obtener más información sobre las plantillas de equipo en general, consulte [Introducción a las plantillas de equipo](get-started-with-teams-templates-in-the-admin-console.md).
 
@@ -43,7 +41,7 @@ Para obtener más información sobre las plantillas de equipo en general, consul
 
 Centralice la comunicación, el acceso a los recursos y las operaciones de la planta con un equipo de fábrica. Incluya documentos de directivas y procedimientos, vídeos de aprendizaje, avisos de seguridad, procesos de transferencia de turnos.
 
-| Tipo de plantilla base|baseTemplateId| Propiedades que vienen con esta plantilla base |
-| ------------------|-- |----------------------------------------------------- |
-|Calidad y seguridad|`com.microsoft.teams.template.QualitySafety` |Canales: <ul><li>General<li>Anuncios</li><li>Línea 1</li><li>Línea 2</li><li>Línea 3</li><li>Seguridad</li><li>Aprendizaje</li><li>Mantenimiento</li><li>Material divertido</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Planner</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>|Tipo de plantilla|TemplateId| Propiedades que vienen con esta plantilla |
+>| ------------------|-- |----------------------------------------------------- |
+>|Calidad y seguridad|`com.microsoft.teams.template.QualitySafety` |Canales: <ul><li>General</li><li>Liderazgo</li><li>Mantenimiento</li><li>Línea de producción 1</li><li>Línea de producción 2</li><li>Línea de producción 3</li><li>Salud y seguridad</li><li>Aprendizaje</li><li>Cosas divertidas</li></ul> Aplicaciones: <ul><li>Aprobaciones</li><li>Inspección</li><li>Informes de problemas</li><li>Turnos</li> <li>Tareas por Planner y To Do</li> <li>Wiki</li> </ul>|

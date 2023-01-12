@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01621d73f1f16fa23a6b4c9042e7d0cecdc2f366
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 287bd53ffee2780927d2aa147f3bc2e2e07b3dbd
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198352"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778980"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>Usar plantillas de equipo generales en el centro de administración
 
@@ -33,14 +33,14 @@ ms.locfileid: "69198352"
 
 Las plantillas de equipo de Microsoft Teams le permiten crear equipos de forma rápida y sencilla al proporcionar una estructura predefinida de equipos de configuración, canales y aplicaciones preinstaladas.
 
-Use plantillas de equipo para implementar equipos coherentes en toda la organización. Las plantillas también pueden ayudar a los usuarios a orientarse sobre cómo usar Teams de forma eficaz. También puede ampliar las plantillas para crear equipos que se adapten a sus necesidades organizativas específicas.
+Use plantillas de equipo para implementar equipos coherentes en toda la organización. Las plantillas también pueden ayudar a los usuarios a orientarse sobre cómo usar Teams de forma eficaz.
 
 Teams incluye plantillas predefinidas que hemos creado para necesidades y proyectos empresariales específicos. En este artículo, le presentamos la categoría general de plantillas que puede usar en su organización para varios escenarios.
 
 Para obtener más información sobre las plantillas de equipo en general, vea [Introducción a las plantillas de Teams en el Centro de administración](get-started-with-teams-templates-in-the-admin-console.md).
 
 > [!NOTE]
-> Un asterisco (*) indica que la plantilla es una *plantilla conectada Microsoft 365*. Cuando los usuarios crean un equipo con la plantilla, la plantilla de SharePoint conectada se aplica al sitio y al equipo. Los componentes de SharePoint, como páginas, listas e integraciones de Power Platform, se agregan y anclan automáticamente como pestañas al canal General del equipo. Los usuarios pueden editar estas páginas y listas directamente desde Teams.
+> Un asterisco (*) indica que la plantilla es una *plantilla conectada a Microsoft 365*. Cuando los usuarios crean un equipo con la plantilla, la plantilla de SharePoint conectada se aplica al sitio y al equipo. Los componentes de SharePoint, como páginas, listas e integraciones de Power Platform, se agregan y anclan automáticamente como pestañas al canal General del equipo. Los usuarios pueden editar estas páginas y listas directamente desde Teams.
 >
 > Para obtener más información sobre las plantillas de SharePoint, vea [Aplicar y personalizar plantillas de sitio de SharePoint](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
 

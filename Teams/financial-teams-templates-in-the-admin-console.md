@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 096bab4289d5ac9e81c63f83cd73efd41d98e7be
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 4ea67bec0fd8750e32ebb5f65d0258fa7c172a46
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198694"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778950"
 ---
 # <a name="use-financial-team-templates"></a>Usar plantillas de equipo financiero
 
@@ -50,14 +50,14 @@ Para obtener más información sobre las plantillas de equipo en general, vea [I
 
 Actualmente ofrecemos las siguientes plantillas de equipo predefinidas para organizaciones de servicios financieros. Para verlos, en el panel de navegación izquierdo del Centro de administración de Teams, vaya a **Teams** > **Plantillas de equipo**.
 
-### <a name="collaborate-within-a-bank-branch"></a>Colaborar en una sucursal bancaria
+### <a name="bank-branch"></a>Sucursal bancaria
 
 Centralice la colaboración para los empleados de las sucursales bancarias en grupos, reuniones de clientes, procesos empresariales como la colaboración en cláusulas financieras y mantenga a todos al día con anuncios y elogios.
 
-| Tipo de plantilla |TemplateId| Propiedades que vienen con esta plantilla |
-| ------------------ |--|----------------------------------------------------- |
-|Sucursal bancaria| `CollaborateWithinABankBranch`|Canales: <ul><li>General<li>Anuncios</li><li>Reuniones</li><li>Reuniones de clientes</li><li>Solicitud de aprobaciones </li><li>Asesoramiento</li><li>Desarrollo de aptitudes</li><li>Procesamiento de préstamos</li><li>Quejas de clientes</li><li>Elogios</li><li>Material divertido</li><li>Cumplimiento</li></ul>Aplicaciones:<ul><li>Elogiar </li><li>Informador del problema</li><li>Wiki</li><li>Calendario</li><li>Aprobaciones</li><li>Boletines</li><li>Ideas</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| Tipo de plantilla |TemplateId| Propiedades que vienen con esta plantilla |
+>| ------------------ |--|----------------------------------------------------- |
+>|Sucursal bancaria| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Canales: <ul><li>General<li>Anuncios</li><li>Reuniones</li><li>Reuniones de clientes</li><li>Solicitud de aprobaciones </li><li>Asesoramiento</li><li>Desarrollo de habilidades</li><li>Procesamiento de préstamos</li><li>Quejas de clientes</li><li>Elogios</li><li>Cosas divertidas</li><li>Cumplimiento</li></ul>Aplicaciones:<ul><li>Aprobaciones</li><li>Boletines</li><li>Calendario del canal</li><li>Ideas para empleados</li><li>Informes de problemas</li><li>Elogiar</li><li>Turnos</li><li>Wiki</li></ul>|
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Uso de plantillas de equipo con Microsoft Graph
 
@@ -67,10 +67,10 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 
 Centralice la colaboración para los empleados de las sucursales bancarias en grupos, reuniones de clientes, procesos empresariales como la colaboración en cláusulas financieras y mantenga a todos al día con anuncios y elogios.
 
-| Tipo de plantilla |TemplateId| Canales de plantilla |
-| ------------------ |--|----------------------------------------------------- |
-|Sucursal bancaria|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|General<br>Anuncios<br>Reuniones<br>Reuniones de clientes<br>Solicitud de aprobaciones<br>Asesoramiento<br>Desarrollo de aptitudes<br>Procesamiento de préstamos<br>Quejas de clientes<br>Elogios<br>Material divertido<br>Cumplimiento|
-||||
+>[!div class="mx-tdBreakAll"]
+>| Tipo de plantilla |TemplateId| Canales de plantilla |
+>| ------------------ |--|----------------------------------------------------- |
+>|Sucursal bancaria|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|General<br>Anuncios<br>Reuniones<br>Reuniones de clientes<br>Solicitud de aprobaciones<br>Asesoramiento<br>Desarrollo de habilidades<br>Procesamiento de préstamos<br>Quejas de clientes<br>Elogios<br>Cosas divertidas<br>Cumplimiento|
 
 > [!NOTE]
 > Para obtener plantillas de equipo adicionales que se aplican a la organización de servicios financieros, vea [Plantillas de equipo integradas en Microsoft Graph para pequeñas y medianas empresas](smb-templates.md).

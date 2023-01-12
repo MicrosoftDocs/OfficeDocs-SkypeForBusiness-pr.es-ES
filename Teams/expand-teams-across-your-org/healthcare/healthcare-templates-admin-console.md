@@ -24,12 +24,12 @@ appliesto:
 ms.reviewer: yinchang
 description: Obtenga información sobre cómo administrar y usar las plantillas de equipo sanitario en el Centro de administración de Teams y con Microsoft Graph para crear equipos de forma rápida y sencilla para su organización sanitaria.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a80d36b51d3f45ca906525d93e502dbfbba1cb6d
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: 17f5ce2774dd163f5f244bea0e685623f64ed59f
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131079"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778970"
 ---
 # <a name="use-healthcare-team-templates"></a>Usar plantillas de equipo de atención sanitaria
 
@@ -53,52 +53,52 @@ Como un administrador, puede administrar plantillas de equipo en el Centro de ad
 Para obtener más información sobre las plantillas de equipo en general, vea [Introducción a las plantillas de Teams en el Centro de administración](../../get-started-with-teams-templates-in-the-admin-console.md).
 
 Actualmente ofrecemos las siguientes plantillas de equipo de atención sanitaria predefinidas. Para verlos, en el panel de navegación izquierdo del Centro de administración de Teams, vaya a **Teams** > **plantillas de equipo**.
-### <a name="patient-care"></a>Cuidado del paciente
 
- Esta plantilla está pensada para la comunicación y la colaboración dentro de una sala, un pod o un departamento. Puede usar esta plantilla para facilitar la administración de pacientes y las necesidades operativas de una sala. Por ejemplo, publique anuncios de sala en el canal *Anuncios* y administre los turnos en el canal de llamadas de *Personal*.
+### <a name="patient-care"></a>Atención al paciente
 
-| Tipo de plantilla |TemplateId| Propiedades que vienen con esta plantilla |
-| ------------------ |---|----------------------------------------------------- |
-| Cuidado del paciente |`healthcareWard` | Canales:<ul><li>General</li><li>Anuncios<ul><li>Boletines&sup1;</li></ul></li><li>Huddles<ul><li>Listas (lista de pacientes)&sup1;</li></ul></li><li>Rondas<ul><li>Inspección&sup1;</li></ul></li><li>Personal</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Listas</li><li>Tareas</li><li>Aprobaciones</li><li>Turnos</li><li>Boletines</li><li>Inspección</li></ul>|
-||||
+Simplifique la comunicación y la colaboración sanitaria en una sala, dispensario o departamento. Use esta plantilla para facilitar la gestión del paciente y las necesidades operativas de un barrio. Por ejemplo, publique anuncios de sala en el canal *Anuncios* y administre los turnos en el canal de llamadas de *Personal*.
 
-&sup1; Aplicación agregada al canal como una pestaña.
+>[!div class="mx-tdBreakAll"]
+>| Tipo de plantilla |TemplateId| Propiedades que vienen con esta plantilla |
+>| ------------------ |---|----------------------------------------------------- |
+>| Atención al paciente |`healthcareWard` | Canales:<ul><li>General</li><li>Anuncios</li><li>Reuniones</li><li>Rondas</li><li>Personal</li><li>Aprendizaje</li></ul> Aplicaciones: <ul><li>Aprobaciones</li><li>Boletines</li><li>Inspección</li><li>Listas</li><li>Turnos</li><li>Tareas por Planner y To Do</li><li>Wiki</li></ul>|
+
 ### <a name="hospital"></a>Hospital
 
-Esta plantilla está pensada para la comunicación y la colaboración entre varios salas, pods y departamentos dentro de un hospital. Esta plantilla incluye un conjunto de canales para las operaciones hospitalarias y se puede ampliar para una mayor personalización.
+Simplifique la comunicación y la colaboración entre varias salas, dispensario y departamentos dentro de un hospital. Esta plantilla incluye un conjunto de canales para las operaciones hospitalarias y se puede ampliar para una mayor personalización.
 
-| Tipo de plantilla |TemplateId | Propiedades que vienen con esta plantilla |
-| ------------------|-- |----------------------------------------------------- |
-|Hospital|`healthcareHospital`|Canales: <ul><li>General<ul><li>Listas&sup1;</li></ul></li><li>Anuncios<ul><li>Boletines&sup1;</li></ul></li><li>Cumplimiento</li><ul><li>Inspección&sup1;</li></ul></li><li>Custodia</li><li>Recursos humanos<ul><li>Ideas&sup1;</li></ul></li><li>Farmacia</li></ul> Aplicaciones: <ul><li>Wiki</li><li>Tareas</li><li>Listas</li><li>Aprobaciones</li><li>Turnos</li><li>Boletines</li><li>Inspección</li><li>Ideas</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| Tipo de plantilla |TemplateId | Propiedades que vienen con esta plantilla |
+>| ------------------|-- |----------------------------------------------------- |
+>|Hospital|`healthcareHospital`|Canales: <ul><li>General</li><li>Anuncios</li><li>Cumplimiento</li></li><li>Custodia</li><li>Recursos humanos</li><li>Farmacia</li></ul>  Aplicaciones: <ul><li>Aprobaciones</li><li>Boletines</li><li>Ideas para empleados</li><li>Inspección</li><li>Listas</li><li>Turnos</li><li>Tareas por Planner y To Do</li><li>Wiki</li></ul>|
 
-&sup1; Aplicación agregada al canal como una pestaña.
 ## <a name="use-team-templates-with-microsoft-graph"></a>Uso de plantillas de equipo con Microsoft Graph
 
 Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview), and [teamsTemplate resource type](/graph/api/resources/teamstemplate).
 
 Estas son las plantillas de equipo de atención sanitaria predefinidas.
-### <a name="ward"></a>Sala
 
-La plantilla de sala está pensada para la comunicación y la colaboración dentro de una sala, un pod o un departamento. La plantilla se puede usar para facilitar la administración de pacientes y las necesidades operativas de una sala. Por ejemplo, los anuncios de salas pueden publicarse en el canal *Anuncios* y los turnos pueden publicarse en el canal *Personal*. Si quiere simplificar sus operaciones de sala, esta plantilla es la adecuada.
+### <a name="patient-care"></a>Atención al paciente
 
-|Tipo de Plantilla |TemplateId |Canales de plantilla|
-|:--- |:---|:---|
-|Atención sanitaria: Sala | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | General<br>Anuncios&sup2; <br> Huddles&sup2; <br> Redondeos&amp;2; <br> Personal&sup2; <br> Aprendizaje&2; |
-|     | |         |
+Esta plantilla está pensada para la comunicación y la colaboración dentro de una sala, un pod o un departamento. Use esta plantilla para facilitar la gestión del paciente y las necesidades operativas de un barrio. Por ejemplo, los anuncios de salas pueden publicarse en el canal *Anuncios* y los turnos pueden publicarse en el canal *Personal*. Si quiere simplificar sus operaciones de sala, esta plantilla es la adecuada.
+
+>[!div class="mx-tdBreakAll"]
+>|Tipo de Plantilla |TemplateId |Canales de plantilla|
+>|:--- |:---|:---|
+>|Atención sanitaria: Sala | `https://graph.microsoft.com/beta/teamsTemplates('healthcareWard')`   | General<br>Anuncios&sup2; <br> Huddles&sup2; <br> Redondeos&amp;2; <br> Personal&sup2; <br> Aprendizaje&2; |
 
 &sup2; Canales con favoritos automáticos
 
 ### <a name="hospital"></a>Hospital
 
-La plantilla de hospital está pensada para la comunicación y la colaboración entre varias salas, pods y departamentos dentro de un hospital. Esta plantilla incluye varios canales operativos como *Anuncios*, *de custodios* y *Farmacia*. También proporcionamos un script que puede usar para ampliar la plantilla con departamentos adicionales o canales especializados. Puede editarlo para adaptarlo a sus necesidades.
+Esta plantilla está pensada para la comunicación y la colaboración entre varios salas, pods y departamentos dentro de un hospital. Incluye varios canales operativos como Anuncios, *Custodio* y *Farmacia*. También proporcionamos un script que puede usar para ampliar la plantilla con más departamentos o canales de especialidades. Puede editarlo para adaptarlo a sus necesidades.
 
-Por ejemplo, si tiene un departamento de *Endocrinología*, pero no necesita un canal para *Oftalmología*, el script puede adaptarse para incluir un canal de *Endocrinología* y quitar el canal de *Oftalmología*. Para evitar la saturación de notificaciones, recomendamos que estos canales de especialidades o basados en salas no se marquen como favoritos automáticamente. Los usuarios suelen marcar como favoritos los canales que encuentran relevantes.
+Por ejemplo, si tiene un departamento de *Endocrinología* , pero no necesita un canal para *Oftalmología*, puede adaptar el guión para que incluya un canal *de Endocrinología* y eliminar el canal *de Oftalmología* . Para evitar la saturación de notificaciones, recomendamos que estos canales de especialidades o basados en salas no se marquen como favoritos automáticamente. Los usuarios suelen marcar como favoritos los canales que encuentran relevantes.
 
-|Tipo de plantilla |TemplateId |Canales de plantilla|
-|:--- |:---|:---|
-|Atención sanitaria: Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | General<br>Anuncios&sup2; <br> Cumplimiento&sup2; <br> Custodia <br> Recursos humanos <br> Farmacia |
-| | |  |
+>[!div class="mx-tdBreakAll"]
+>|Tipo de plantilla |TemplateId |Canales de plantilla|
+>|:--- |:---|:---|
+>|Atención sanitaria: Hospital | `https://graph.microsoft.com/beta/teamsTemplates('healthcareHospital')`   | General<br>Anuncios&sup2; <br> Cumplimiento&sup2; <br> Custodia <br> Recursos humanos <br> Farmacia |
 
 &sup2; Canales con favoritos automáticos
 

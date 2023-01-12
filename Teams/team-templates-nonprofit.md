@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1818a4eee46cca88c873af35278453ab84b1341
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: cd5a1064c4a0104a4eab6d25a3adb0614c12d256
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198962"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69779060"
 ---
 # <a name="use-nonprofit-team-templates"></a>Uso de plantillas de equipo sin ánimo de lucro
 
@@ -33,21 +33,22 @@ Las plantillas de equipo de Microsoft Teams le permiten crear equipos de forma r
 
 En el caso de las organizaciones sin ánimo de lucro, las plantillas de equipo pueden ser especialmente eficaces, ya que le ayudan a implementar rápidamente equipos coherentes en toda la organización. Las plantillas también ayudan al personal a orientarse con la forma de usar Teams de forma eficaz.
 
-Teams incluye una plantilla de equipo de Administrar voluntarios concebida para simplificar las actividades de administración de voluntarios. Use esta plantilla pregenerada para crear rápidamente equipos que ayuden al personal a comunicarse y colaborar en tareas y actividades de administración voluntarias.
+Teams incluye una plantilla de equipo Administrar voluntarios diseñada para simplificar las actividades de administración de voluntarios. Use esta plantilla pregenerada para crear rápidamente equipos que ayuden al personal a comunicarse y colaborar en tareas y actividades de administración voluntarias.
 
-En este artículo, aprenderá sobre la plantilla Administrar equipos de voluntarios y cómo usarla para crear un equipo. En este artículo también tiene información general sobre cómo administrar plantillas de equipo en el Centro de administración de Teams.
+En este artículo, obtendrá información sobre la plantilla de equipo Administrar voluntarios y cómo usarla para crear un equipo. En este artículo también tiene información general sobre cómo administrar plantillas de equipo en el Centro de administración de Teams.
 
-## <a name="manage-volunteers-team-template"></a>Administrar plantilla de equipo de voluntarios
+## <a name="manage-volunteers-team-template"></a>Plantilla de equipo Administrar voluntarios
 
 Reúna a su personal para que se comuniquen y colaboren en tareas y actividades de administración voluntarias.
 
 Esta plantilla incluye canales y aplicaciones diseñados para simplificar las actividades de administración de voluntarios. El personal puede organizar y compartir materiales de incorporación y documentos usados con frecuencia, ver informes, estar al corriente de los anuncios importantes de equipos y eventos, y mucho más. La plantilla también se integra con la [Administración de voluntarios](/dynamics365/industry/nonprofit/volunteer-management-use), una aplicación que forma parte de [Microsoft Cloud for Nonprofit](/industry/nonprofit/), lo que permite al personal administrar las oportunidades de participación de voluntarios dentro de Teams.
 
-Estos son los canales y aplicaciones que se incluyen con la plantilla Administrar equipo de voluntarios.
+Estos son los canales y aplicaciones que vienen con la plantilla de equipo Administrar voluntarios.
 
-| Tipo de plantilla |TemplateId | Propiedades que vienen con esta plantilla |
-| ------------------|-- |----------------------------------------------------- |
-|Administrar voluntarios| `ManageVolunteers` |Canales: <ul><li>General<ul><li>Sitio web&sup1;</li></ul><li>Anuncios</li><li>Informes<ul><li>Power BI&sup1;</li></ul></li><li>Administración de voluntarios<ul><li>Power Apps&sup1;</li></ul></li><li>Oportunidades de participación<ul><li>Tasks&sup1;</li></ul></li><li>Incorporación de voluntarios<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul> Aplicaciones: <ul><li>Sitio web</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Tareas</li><li>SharePoint</li><li>OneNote</li></ul>|
+>[!div class="mx-tdBreakAll"]
+>| Tipo de plantilla |TemplateId | Propiedades que vienen con esta plantilla |
+>| ------------------|-- |----------------------------------------------------- |
+>|Administrar voluntarios| `com.microsoft.teams.template.ManageVolunteers` |Canales: <ul><li>General<ul><li>Sitio web&sup1;</li></ul><li>Anuncios</li><li>Informes<ul><li>Power BI&sup1;</li></ul></li><li>Administración de voluntarios<ul><li>Power Apps&sup1;</li></ul></li><li>Oportunidades de participación<ul><li>Tareas por Planner y To Do&sup1;</li></ul></li><li>Incorporación de voluntarios<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul>Aplicaciones: <ul><li>OneNote</li><li>Power Apps</li><li>Power BI</li><li>SharePoint</li><li>Tareas por Planner y To Do</li><li>Sitio web</li><li>YouTube</li></ul>|
 
 &sup1; Aplicación agregada al canal como una pestaña.
 
