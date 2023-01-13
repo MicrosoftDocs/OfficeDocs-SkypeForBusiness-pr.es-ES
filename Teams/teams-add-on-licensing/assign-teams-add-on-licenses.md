@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.reviewer: mikedav
 description: Obtenga información sobre cómo asignar licencias de complementos de Teams a los usuarios para funcionalidades como Audioconferencia, Sistema telefónico y Planes de llamadas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60bde63ab3cc499c022ef2d23b669b543d6f5dd9
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 162169bd3aa7a1641133e8729d4872f8547b58ed
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392090"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69799936"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Asignar licencias de complementos de Teams a usuarios
 
@@ -38,7 +39,7 @@ Antes de empezar, revise los siguientes requisitos:
 
 - Si usa la conectividad de red telefónica conmutada (RTC) local para los usuarios, solo necesita asignar una licencia de Teléfono Teams Estándar. NO asigne una licencia de Plan de llamadas.
 
-- Después de asignar un plan de llamadas de Microsoft a un usuario, pueden transcurrir 24 horas hasta que vea el teclado de marcado en el cliente de Teams. Si el teclado de marcado no se muestra en 24 horas, compruebe la [configuración del teclado de marcado](../dial-pad-configuration.md). Si es necesario, también puede [ponerse en contacto con el soporte técnico](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- Después de asignar un plan de llamadas de Microsoft a un usuario, pueden pasar hasta 24 horas antes de que vea el teclado de marcado en su cliente de Teams. Si el teclado de marcado no se muestra en 24 horas, compruebe la [configuración del teclado de marcado](../dial-pad-configuration.md). Si es necesario, también puede [ponerse en contacto con el soporte técnico](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - Recibirá un mensaje de error si no ha comprado el número correcto de licencias. Si necesita comprar más licencias de Plan de llamadas, elija la opción para comprar más.
 
@@ -148,7 +149,7 @@ Para obtener más información, consulte [Ver licencias y servicios con PowerShe
 | Salas de Microsoft Teams Básico sin Audioconferencia | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
 | Salas de Microsoft Teams Pro | Microsoft_Teams_Rooms_Pro |
 | Salas de Microsoft Teams Pro sin Audioconferencia | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
-| Microsoft dispositivos compartidos de Teams | MCOCAP |
+| Dispositivos compartidos de Microsoft Teams | MCOCAP |
 | Microsoft Teams Premium | Microsoft_Teams_Premium |
 
 ## <a name="related-content"></a>Contenido relacionado

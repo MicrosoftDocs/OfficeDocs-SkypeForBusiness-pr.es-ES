@@ -1,5 +1,5 @@
 ---
-title: licencias de dispositivos compartidos de Microsoft Teams
+title: Licencias de dispositivos compartidos de Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -9,6 +9,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -18,21 +19,21 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 - admindeeplinkMAC
-description: Obtenga más información sobre las licencias Microsoft Dispositivos compartidos de Teams para teléfonos de área común, pantallas de Teams y paneles de Teams.
-ms.openlocfilehash: 5ab7f3dfae180d71abdcf51b0c33adc8abd0a9ab
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+description: Obtenga más información sobre las licencias de dispositivos compartidos de Microsoft Teams para teléfonos de área común, pantallas de Teams y paneles de Teams.
+ms.openlocfilehash: bf43b7882b2e4cb97c987b6d820117d467dd9a7d
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392725"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800215"
 ---
-# <a name="microsoft-teams-shared-devices-licensing"></a>licencias de dispositivos compartidos de Microsoft Teams
+# <a name="microsoft-teams-shared-devices-licensing"></a>Licencias de dispositivos compartidos de Microsoft Teams
 
-Microsoft Teams puede admitir escenarios de trabajo híbridos y permitir a los usuarios trabajar en espacios flexibles. La licencia del complemento **Microsoft Dispositivos compartidos de Teams** permite a las oficinas designar dispositivos como dispositivos compartidos, incluidos teléfonos de área común, pantallas de Teams para escritorios calientes y paneles de Teams para espacios de reunión.
+Microsoft Teams admite escenarios de trabajo híbridos y permite a los usuarios trabajar en espacios flexibles. La licencia del complemento **Dispositivos compartidos de Microsoft Teams** permite a las oficinas designar dispositivos como dispositivos compartidos, incluidos teléfonos de área común, pantallas de Teams para escritorios calientes y paneles de Teams para espacios de reunión.
 
-Para obtener información sobre otras licencias de complementos de Teams, consulte [Microsoft licencias de complementos de Teams](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+Para obtener información sobre otras licencias de complementos de Teams, consulte [Licencias de complementos de Microsoft Teams](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
-La licencia **Microsoft dispositivos compartidos de Teams** admite:
+La licencia **de dispositivos compartidos de Microsoft Teams** admite:
 
 - Microsoft Teams
 - Teléfono Microsoft Teams &sup1;
@@ -55,15 +56,15 @@ Para comprar la licencia **de Dispositivos compartidos de Teams** , puede elegir
 
 ## <a name="acquiring-teams-shared-devices-licenses"></a>Adquisición de licencias de dispositivos compartidos de Teams
 
-La licencia **de Dispositivos compartidos de Teams** se puede comprar en el [centro de administración de Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+La licencia **de Dispositivos compartidos de Teams** se puede comprar en el [Centro de administración de Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. En la [Centro de administración de Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2024339), ve a **Servicios** **de compra de facturación** > .
 
-1. Busca la sección **Comprar desde Microsoft** y selecciona **Ver productos**.
+1. Busca la sección **Compra de Microsoft** y selecciona **Ver productos**.
 
 1. Seleccione el filtro **Colaboración y comunicación** .
 
-1. En la lista de productos, busque **Microsoft Dispositivos compartidos de Teams** y seleccione **Detalles**.
+1. En la lista de productos, busque **Dispositivos compartidos de Microsoft Teams** y seleccione **Detalles**.
 
 1. Escriba el número de licencias que necesita y la frecuencia de facturación.
 
@@ -74,5 +75,5 @@ La licencia **de Dispositivos compartidos de Teams** se puede comprar en el [cen
 Los siguientes artículos le ayudarán a configurar los distintos dispositivos que usan la licencia **de Dispositivos compartidos de Teams** .
 
 - [Configurar teléfonos de área común](/microsoftteams/set-up-common-area-phones)
-- [Microsoft paneles de Teams](/microsoftteams/devices/teams-panels)
-- [Microsoft se muestra Teams](/microsoftteams/devices/teams-displays)
+- [Paneles de Microsoft Teams](/microsoftteams/devices/teams-panels)
+- [Pantallas de Microsoft Teams](/microsoftteams/devices/teams-displays)
