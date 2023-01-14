@@ -16,25 +16,25 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.managedevices.overview
 - ms.teamsadmincenter.devicemanagement.overview
-description: Administre los dispositivos que se usan con Microsoft Teams en su organización.
+description: Administre los dispositivos usados con Microsoft Teams en su organización.
 ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b34d554c0930efa622e60a695203e5fa35bd48ab
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: e545a6d4208e6f54abbf72327cf887d45b34e141
+ms.sourcegitcommit: 1934c4803b5b6ae9b9ccd49e695944446d5d5810
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245662"
+ms.lasthandoff: 01/14/2023
+ms.locfileid: "69807492"
 ---
 # <a name="manage-devices-in-teams"></a>Administrar dispositivos en Teams 
 
-Puede administrar los dispositivos que se usan con Microsoft Teams en su organización desde el centro de administración de Microsoft Teams. Puedes ver y administrar el inventario de dispositivos de tu organización y realizar tareas como actualizar, reiniciar y supervisar los diagnósticos de dispositivos. También puede crear y asignar perfiles de configuración a un dispositivo o grupos de dispositivos.
+Puede administrar los dispositivos que se usan con Microsoft Teams en su organización desde el Centro de administración de Microsoft Teams. Puedes ver y administrar el inventario de dispositivos de tu organización y realizar tareas como actualizar, reiniciar y supervisar los diagnósticos de dispositivos. También puede crear y asignar perfiles de configuración a un dispositivo o grupos de dispositivos.
 
 Para administrar dispositivos, como cambiar la configuración del dispositivo, reiniciar dispositivos, administrar actualizaciones o ver el estado de los dispositivos y periféricos, debes tener asignado uno de los siguientes roles de administrador de Microsoft 365:
 
-- administrador global de Microsoft 365
+- Administrador global de Microsoft 365
 - Administrador del servicio de Teams
 - Administrador de dispositivos de Teams
 
@@ -50,13 +50,13 @@ Puede administrar cualquier dispositivo certificado para Teams e inscrito. Un di
 - [Teams muestra](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Paneles de Teams](teams-panels.md)
 
-Para administrar dispositivos, en el panel de navegación izquierdo del [centro de administración de Microsoft Teams](https://admin.teams.microsoft.com), vaya a **Dispositivos de Teams** y seleccione el tipo de dispositivo. Cada tipo de dispositivo tiene su propia sección correspondiente, que te permite administrarlos por separado.
+Para administrar dispositivos, en el panel de navegación izquierdo del [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com), vaya a **Dispositivos de Teams** y, a continuación, seleccione el tipo de dispositivo. Cada tipo de dispositivo tiene su propia sección correspondiente, que te permite administrarlos por separado.
 
 ## <a name="manage-teams-rooms-on-windows-devices"></a>Administrar Salas de Teams en dispositivos Windows
 
 Puede usar el Centro de administración de Teams para ver y administrar de forma remota sus Salas de Teams en dispositivos Windows de toda la organización. El Centro de administración de Teams permite ver de un vistazo qué dispositivos están en buen estado y cuáles necesitan atención, y le permite centrarse en dispositivos específicos para ver información detallada sobre el estado del dispositivo, el rendimiento de las reuniones, la calidad de las llamadas y los periféricos. 
 
-Estas son algunas de las cosas que puedes hacer para administrar los dispositivos Salas de Teams. Salas de Teams dispositivos se pueden encontrar en el [centro de administración de Microsoft Teams](https://admin.teams.microsoft.com), en **Dispositivos** >  de Teams **Salas de Teams en Windows**.
+Estas son algunas de las cosas que puedes hacer para administrar los dispositivos Salas de Teams. Salas de Teams dispositivos se pueden encontrar en el [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com), en **Dispositivos** >  de Teams **Salas de Teams en Windows**.
 
 Para obtener más información sobre cómo administrar los dispositivos Salas de Teams, consulta [Administrar Salas de Microsoft Teams](../rooms/rooms-manage.md).
 
@@ -86,6 +86,23 @@ Estos son algunos ejemplos de cómo puede administrar teléfonos, Salas de Teams
 | Filtrar dispositivos con etiquetas de dispositivo        | Selecciona el icono de filtro, selecciona el campo **Etiqueta** , especifica una etiqueta de dispositivo por la que filtrar y selecciona **Aplicar**. Para obtener más información sobre cómo filtrar dispositivos con etiquetas de dispositivo, consulta [Usar filtros para devolver dispositivos con una etiqueta específica](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag). |
 | Ver el historial y los diagnósticos del dispositivo     | En la columna **Historial** , haz clic en el vínculo **Ver** de un dispositivo para ver su historial de actualizaciones y los detalles de diagnóstico.                                                                                                                                                                                         |
 
+### <a name="view-android-device-sign-in-failures"></a>Ver errores de inicio de sesión en dispositivos Android
+
+Si tienes problemas para iniciar sesión en un dispositivo Android, puedes comprobar la página de detalles del dispositivo para ver qué errores de inicio de sesión podrían haberse producido.
+
+1. En el panel de navegación izquierdo, vaya a **Dispositivos de Teams** > seleccione el tipo de dispositivo de Teams. Por ejemplo, si el dispositivo Android es un teléfono, selecciona **Teléfonos**.
+2. Haz clic en el nombre para mostrar del teléfono para el que quieres ver los errores de inicio de sesión. Se abrirá la página de detalles del dispositivo.
+3. En la página de detalles del dispositivo, selecciona la pestaña **Actividad** y, a continuación, selecciona **Error de inicio de sesión** en la lista desplegable **Tipo de actividad** .
+
+> [!NOTE]
+> Si no ves errores de inicio de sesión en un dispositivo en el que tienes problemas para iniciar sesión, asegúrate de que el firmware del dispositivo tenga la versión más reciente proporcionada por el fabricante.
+
+Los resultados que se devuelven contienen la siguiente información:
+
+- La hora en la que se produjo el error de inicio de sesión.
+- La cuenta que intentó iniciar sesión en el dispositivo.
+- La razón del error.
+
 ### <a name="use-configuration-profiles-in-teams"></a>Usar perfiles de configuración en Teams
 
 Use los perfiles de configuración para administrar la configuración y las características de los distintos dispositivos de Teams de su organización, incluidos los Salas de Teams en Android, las pantallas de Teams, el teléfono de Teams y los paneles de Teams. Puede crear o cargar perfiles de configuración para incluir las opciones y características que desea habilitar o deshabilitar y, a continuación, asignar un perfil a un dispositivo o conjunto de dispositivos. 
@@ -101,6 +118,7 @@ Para crear un perfil de configuración para un tipo de dispositivo de Teams:
    El perfil de configuración recién creado aparece en la lista de perfiles.
 
 #### <a name="assign-a-configuration-profile"></a>Asignar un perfil de configuración
+
 Después de crear un perfil de configuración para un tipo de dispositivo de Teams, asígnelo a uno o más dispositivos.
 
 1. En el panel de navegación izquierdo, vaya a **Dispositivos de Teams** > seleccione el tipo de dispositivo de Teams. Por ejemplo, para asignar un perfil de configuración a un dispositivo de paneles de Teams, seleccione **Dispositivos de** >  Teams **Paneles de Teams**.
