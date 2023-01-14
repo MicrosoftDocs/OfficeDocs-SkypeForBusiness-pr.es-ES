@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 keywords: ''
-ms.openlocfilehash: 2da5a097e98053ec60e6acd0ffa7133ddf732bac
-ms.sourcegitcommit: 957502f999512a32794a9f99e292588d66ed8a33
+ms.openlocfilehash: 1f406137d8cd3093ba968d47734f7019dfad63c6
+ms.sourcegitcommit: 1934c4803b5b6ae9b9ccd49e695944446d5d5810
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "67885709"
+ms.lasthandoff: 01/14/2023
+ms.locfileid: "69806395"
 ---
 # <a name="step-7---manage-and-monitor-your-teams-meeting-space"></a>Paso 7: Administrar y supervisar el espacio de reunión de Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "67885709"
 Una vez que hayas completado la configuración del espacio de Salas de Teams, puedes cambiar a la administración y supervisión de los dispositivos que se encuentran en ese espacio. Puedes realizar actualizaciones de configuración de forma remota, insertar actualizaciones en Salas de Teams consolas, supervisar la calidad de las llamadas y mucho más. Usa la información de este artículo para administrar y supervisar los Salas de Teams consolas y sus periféricos.
 
 > [!NOTE]
-> En este artículo se asume que has comprado una licencia de Salas de Teams Pro para tu consola de Salas de Teams. La licencia Salas de Teams Pro permite una administración remota y análisis más avanzados para las consolas de Salas de Teams. Si compró una licencia de Salas de Teams Basic para la consola, es posible que algunas características de análisis y administración remota no estén disponibles. Para obtener información general sobre la disponibilidad de las características de cada licencia, consulte [Actualización de licencias](rooms/rooms-licensing.md) de salas de reuniones de Teams.
+> En este artículo se asume que compró una licencia de Salas de Teams Pro para la consola de Salas de Teams. La licencia de Salas de Teams Pro permite análisis y administración remota más avanzados para las consolas de Salas de Teams. Si compró una licencia de Salas de Teams Basic para la consola, es posible que algunas características de análisis y administración remota no estén disponibles. Para obtener información general sobre la disponibilidad de las características de cada licencia, consulte [Actualización de licencias](rooms/rooms-licensing.md) de salas de reuniones de Teams.
 
 Con el Centro de administración de Microsoft Teams, puede:
 
@@ -43,7 +43,7 @@ Con el Centro de administración de Microsoft Teams, puede:
 
  :::image type="content" source="media/teams-admin-center-overview.png" alt-text="Página de información general del Centro de administración de Teams." lightbox="media/teams-admin-center-overview.png" border="false":::
 
-Para ver qué Salas de Teams configuración de la consola que puede cambiar desde el Centro de administración de Teams, vea [Realizar cambios en Salas de Teams dispositivos](rooms/rooms-manage.md#make-changes-to-teams-rooms-devices).
+Para ver qué Salas de Teams configuración de la consola que puede cambiar desde el Centro de administración de Teams, vea [Realizar cambios en Salas de Teams dispositivos](rooms/rooms-manage.md#make-changes-to-teams-rooms-devices-or-surface-hubs).
 
 Para ver información sobre Salas de Teams consolas, incluida la información de estado, los detalles de la reunión y los detalles de los participantes, consulte [Ver información del dispositivo](rooms/rooms-manage.md#view-device-information).
 
