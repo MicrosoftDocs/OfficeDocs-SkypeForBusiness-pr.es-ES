@@ -25,12 +25,12 @@ ms.custom:
 - Phone System - seo-marvel-apr2020
 robots: noindex
 description: Obtenga información sobre cómo configurar colas de llamadas en Microsoft Teams. Las colas de llamadas proporcionan un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 9750bfddbf43c1b0e103e6d6c31feaf4aa542590
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: fd7ebc4c2be9024ba1f83b3adc8d1cff8834a015
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392530"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812857"
 ---
 # <a name="create-a-call-queue"></a>Crear una cola de llamada
 
@@ -130,8 +130,8 @@ Si no tiene una cuenta de recursos con un número de teléfono asignado:
 Después de crear esta nueva cuenta de recurso para el identificador de llamada, seguirá necesitando lo siguiente:
 
 - Asignar una [licencia de cuenta de recursos telefónicos de Teams](manage-resource-accounts.md#assign-a-license).
-- Asigne una licencia Microsoft plan de llamadas, asigne un número de teléfono Operator Connect o asigne una directiva de enrutamiento de voz en línea para Direct Routing.
-- Asigne el [número de teléfono a la cuenta de recursos](manage-resource-accounts.md#assign-a-phone-number) si usa Microsoft Plan de llamadas.
+- Asigne una licencia de Plan de llamadas de Microsoft, asigne un número de teléfono De conexión de operador o asigne una directiva de enrutamiento de voz en línea para Direct Routing.
+- Asigne el [número de teléfono a la cuenta de recursos](manage-resource-accounts.md#assign-a-phone-number) si usa Microsoft Calling Plan.
 
 #### <a name="set-the-call-queue-language"></a>Establecer el idioma de la cola de llamadas
 
@@ -157,7 +157,7 @@ Teams proporciona música predeterminada a los autores de llamadas mientras est�
 - Si desea reproducir un archivo de audio específico, elija **Reproducir un archivo de audio en** y cargar un archivo MP3, WAV o WMA.
 
 > [!NOTE]
-> Usted es responsable de borrar y proteger de forma independiente todos los derechos y permisos necesarios para usar cualquier archivo de música o audio con su servicio Microsoft Teams, que puede incluir la propiedad intelectual y otros derechos en cualquier música, efectos de sonido, audio, marcas, nombres y otro contenido en el archivo de audio de todos los titulares de derechos pertinentes, que pueden incluir artistas,  actores, artistas intérpretes o ejecutantes, músicos, compositores, compositores, sellos discográficos, editores musicales, sindicatos, sindicatos, sociedades de derechos, organizaciones de gestión colectiva y cualquier otra parte que posea, controle o licencia los derechos de autor de música, efectos sonoros, audio y otros derechos de propiedad intelectual.
+> Usted es responsable de borrar y proteger de forma independiente todos los derechos y permisos necesarios para usar cualquier archivo de música o audio con su servicio de Microsoft Teams, que puede incluir propiedad intelectual y otros derechos en cualquier música, efectos de sonido, audio, marcas, nombres y otro contenido en el archivo de audio de todos los titulares de derechos pertinentes, que pueden incluir artistas,  actores, artistas intérpretes o ejecutantes, músicos, compositores, compositores, sellos discográficos, editores musicales, sindicatos, sindicatos, sociedades de derechos, organizaciones de gestión colectiva y cualquier otra parte que posea, controle o licencia los derechos de autor de música, efectos sonoros, audio y otros derechos de propiedad intelectual.
 
 Una vez que haya seleccionado un saludo y música en espera, seleccione el botón **Siguiente** en la parte inferior de la página **Agregar una cola de llamadas** .
 
@@ -177,7 +177,7 @@ Si desea [usar un canal de Teams para administrar la cola](https://support.micro
 
 Los siguientes clientes son compatibles al usar un canal de Teams para colas de llamadas:
 
-- cliente de Windows de Microsoft Teams
+- Cliente de Windows de Microsoft Teams
 - Cliente de Microsoft Teams para Mac
 
 > [!NOTE]
@@ -377,14 +377,14 @@ Se recomienda la siguiente configuración:
 
 #### <a name="notes"></a>Notas
 
-1. Microsoft el cliente windows de Teams, Microsoft el cliente mac de Teams Microsoft Teams en la infraestructura de escritorio virtualizada.
-2. Microsoft aplicación Teams para iPhone, Microsoft la aplicación Teams para Android.
+1. Cliente de Microsoft Teams windows, cliente de Microsoft Teams para Mac, Microsoft Teams en infraestructura de escritorio virtualizada.
+2. Aplicación de Microsoft Teams para iPhone, aplicación de Microsoft Teams para Android.
 3. Si selecciona Longest Idle para el método de enrutamiento del agente, se habilitará automáticamente el enrutamiento basado en presencia.
 4. No es posible establecer el orden en el que se llamará a los agentes.
 5. El modo de conferencia no es compatible si las llamadas de teléfono se redirigen a la cola desde una puerta de enlace de enrutamiento directo habilitada para el enrutamiento basado en ubicación.
 6. solo Teléfono Microsoft Teams.
 7. A través de la página del Portal de configuración de usuario en [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
-8. Solo se admiten canales públicos.
+8. Solo se admiten canales estándar.
 9. Los operadores automáticos y las colas de llamadas no pueden transferir llamadas entre métodos de conectividad RTC.
 10. Para GCCH/DOD, solo disponible a través del Portal de configuración de usuario en:
     - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)

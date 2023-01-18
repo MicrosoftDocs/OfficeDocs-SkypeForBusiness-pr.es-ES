@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Obtenga información sobre cómo usar el operador automático actualizado de Teams & informe de historial de la cola de llamadas de Power BI para ver los datos históricos del operador automático y de la cola de llamadas.
-ms.openlocfilehash: ed267cf2d96f15236aa68339049d2c721249ec00
-ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
+ms.openlocfilehash: 0ff8e7d1b5a1b9901c5b8a5da49d67fbf8ac5275
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2023
-ms.locfileid: "69763561"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812737"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports"></a>Informes históricos del operador automático y de la cola de llamadas
 
@@ -302,9 +302,13 @@ Tendrá que actualizar los datos para ver los nuevos datos.
 
 ## <a name="known-issues"></a>Problemas conocidos
 
-- Las colas de llamadas y los operadores automáticos se muestran con el id. de la cuenta de recursos en lugar de los nombres de la cola de llamadas y los operadores automáticos.  Para mostrar todo el tráfico de un operador automático o de una cola de llamadas, debe seleccionar todas las cuentas de recursos asignadas al operador automático o a la cola de llamadas.
+- El objeto visual **Resultados de llamadas** del informe **Cola de llamadas** puede informar de un gran número de llamadas **_desconocidas_** . Esto se debe a un problema de clasificación de llamadas que el soporte técnico está trabajando para corregir.  Este es un problema de clasificación de llamadas solamente, y estas llamadas fueron procesadas correctamente por el sistema.
 
-- Solo hay 28 días de historial disponibles en el panel, ya que los datos de la cola de llamadas o del operador automático se consideran datos personales y están sujetos a las directivas de retención de privacidad de datos.
+- Solo se notifican las acciones de llamadas y llamadas del primer operador automático o de la cola de llamadas que responde a la llamada.  Las llamadas y acciones de llamada en operadores automáticos encadenados (cuando un operador automático se transfiere a otro operador automático) o colas de llamadas encadenados (cuando una cola de llamadas se transfiere a otra cola de llamadas) no se notifican. 
+
+- Las colas de llamadas y los operadores automáticos se muestran con el id. de la cuenta de recursos en lugar de con los nombres de la cola de llamadas o de los operadores automáticos.  Para mostrar todo el tráfico de un operador automático o de una cola de llamadas, debe seleccionar todas las cuentas de recursos asignadas al operador automático o a la cola de llamadas.
+
+- Solo hay 28 días de historial disponibles en el panel, ya que los datos de la cola de llamadas y del operador automático se consideran datos personales y están sujetos a las directivas de retención de privacidad de datos.
 
 - En algunos casos, el agente respondió el recuento de llamadas en el informe escala de tiempo del agente de cola de **llamadas** en la nube puede ser diferente al número de llamadas que se muestra en el historial de llamadas del cliente de Teams. El historial de llamadas del cliente de Teams es correcto. El soporte técnico se está investigando, pero no hay tiempo estimado para reparar disponible en este momento.
 

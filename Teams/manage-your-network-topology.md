@@ -20,12 +20,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Obtenga información sobre cómo configurar la configuración de red para las características de voz en la nube en Microsoft Teams.
-ms.openlocfilehash: a75ce05a29df84bb46cb430016e1a3453e96b64e
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: bdb81fa7f8dee559f7c47e276224ecb2333c7bb5
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584251"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812697"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Administrar la topología de red para las características de voz en la nube en Microsoft Teams
 
@@ -180,6 +180,12 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 ```
 
 Consulte también [Set-CsTenantTrustedIPAddress](/powershell/module/skype/set-cstenanttrustedipaddress).
+
+## <a name="enabling-network-roaming-policies"></a>Habilitar directivas de itinerancia de red
+
+Una vez que haya configurado las directivas de itinerancia de red, debe habilitar Búsqueda de **configuración** de red_ en cada una de las _ *Directivas de reunión** en el Centro de Administración de Teams **en Directivas de reuniones > reuniones.**
+
+Es posible que desee editar la directiva global o crear una nueva directiva y asignarla a usuarios específicos.
 
 ## <a name="related-topics"></a>Temas relacionados
 

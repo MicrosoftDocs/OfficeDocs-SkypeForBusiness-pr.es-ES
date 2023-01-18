@@ -15,29 +15,26 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lea este artículo para buscar códigos de país de ruta de acceso multimedia para enrutamiento directo para que pueda seleccionar la ruta de acceso multimedia óptima.
+description: Lea este artículo para localizar los códigos de país de ruta multimedia para enrutamiento directo, de modo que pueda seleccionar la ruta de acceso multimedia óptima.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36124a8aadc94bfd73ffd195ec8ee0a2acf0c2a6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a70dad128987a5fb0df639984be07b623f9ff425
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582354"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812677"
 ---
-# <a name="direct-routing-media-path-country-codes"></a>Códigos de país de ruta de acceso multimedia de enrutamiento directo
+# <a name="direct-routing-media-path-country-codes"></a>Códigos de país de ruta multimedia de enrutamiento directo
 
-Al elegir una ruta de enrutamiento para medios, enrutamiento directo, de forma predeterminada, siempre asigna un centro de datos basado en la dirección IP pública del controlador de borde de sesión (SBC) y siempre selecciona la ruta de acceso más cercana al centro de datos de SBC.
+Al elegir una ruta de enrutamiento para elementos multimedia, el enrutamiento directo, de forma predeterminada, asigna siempre un centro de datos basado en la dirección IP pública del controlador de borde de sesión (SBC) y siempre selecciona la ruta más cercana al centro de datos SBC.
 
-Sin embargo, en algunos casos, es posible que la ruta de acceso multimedia predeterminada no sea la ruta de acceso multimedia óptima; por ejemplo, una IP pública de un rango de Estados Unidos podría asignarse a un SBC ubicado en Europa. 
+Sin embargo, en algunos casos la ruta de acceso multimedia predeterminada podría no ser la ruta de acceso a medios óptima; por ejemplo, una IP pública de un rango de Estados Unidos podría asignarse a una SBC ubicada en Europa. 
 
-Mediante el parámetro -MediaRelayRoutingLocationOverride con los cmdlets New-CsOnlinePSTNGateway y Set-CsOnlinePSTNGateway, puede especificar la región preferida para el tráfico multimedia. Por ejemplo, el siguiente comando especifica que la región preferida es Alemania:
+Mediante el parámetro -MediaRelayRoutingLocationOverride con los cmdlets de New-CsOnlinePSTNGateway y Set-CsOnlinePSTNGateway, puede especificar la región preferida para el tráfico multimedia. Por ejemplo, el siguiente comando especifica que la región preferida es Alemania:
 
 Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationOverride DE 
 
-Tenga en cuenta que Microsoft solo recomienda establecer este parámetro si los registros de llamadas indican claramente que la asignación predeterminada del centro de datos para la ruta de acceso multimedia no usa la ruta de acceso más cercana al centro de datos de SBC. 
-
-> [!NOTE]
-> El parámetro MediaRelayRoutingLocationOverride está reservado para su uso con operadores administrados.
+Tenga en cuenta que Microsoft solo recomienda establecer este parámetro si los registros de llamadas indican claramente que la asignación predeterminada del centro de datos para la ruta de acceso multimedia no usa la ruta de acceso más cercana al centro de datos SBC. 
  
 ## <a name="country-code-reference-table"></a>Tabla de referencia de código de país
 
@@ -49,17 +46,17 @@ En la tabla siguiente se muestran los valores de código de país para el parám
 | Islas Aland   | AX |
 | Albania         | AL |
 | Argelia         | DZ |
-| Samoa Americana  | AS |
+| Samoa Americana  | COMO |
 | Andorra         | AD |
 | Angola          | AO |
-| Anguila        | IA |
-| Antártica      | AQ | 
+| Anguila        | AI |
+| Antártida      | AQ | 
 | Antigua y Barbuda | AG |
 | Argentina       | AR |
-| Armenia         | AM |
+| Armenia         | SOY |
 | Aruba           | AW |
 | Australia       | AU |
-| Austria         | AT |
+| Austria         | EN |
 | Azerbaiyán      | AZ |
 | Bahamas         | BS |
 | Baréin         | BH |
@@ -77,7 +74,7 @@ En la tabla siguiente se muestran los valores de código de país para el parám
 | Botsuana        | BW |
 | Isla Bouvet   | BV |
 | Brasil          | BR |
-| Territorio británico del Océano Índico | IO |
+| Territorio Británico del Océano Índico | E/S |
 | Islas Vírgenes Británicas | VG |
 | Brunéi          | BN |
 | Bulgaria        | BG |
@@ -100,16 +97,16 @@ En la tabla siguiente se muestran los valores de código de país para el parám
 | Congo (RDC)     | CD |
 | Islas Cook    | CK |
 | Costa Rica      | CR |
-| Costa de Marfil   | CI |
+| Côte d'Ivoire   | CI |
 | Croacia         | RR. HH. |
 | Cuba            | CU |
 | Curacao         | CW |
 | Chipre          | CY |
-| Checosquia         | CZ |
+| Chequia         | CZ |
 | Dinamarca         | DK |
 | Yibuti        | DJ |
 | Dominica        | DM |
-| República Dominicana | DO |
+| República Dominicana | HACER |
 | Ecuador         | EC |
 | Egipto           | EG |
 | El Salvador     | SV |
@@ -125,7 +122,7 @@ En la tabla siguiente se muestran los valores de código de país para el parám
 | Francia          | FR |
 | Guayana Francesa   | GF |
 | Polinesia Francesa | PF |
-| Territorios sureños franceses | TF |
+| Territorios Australes Franceses | TF |
 | Gabón           | GA |
 | Gambia          | GM |
 | Georgia         | GE |
@@ -142,16 +139,16 @@ En la tabla siguiente se muestran los valores de código de país para el parám
 | Guinea          | GN |
 | Guinea-Bissau   | GW |
 | Guyana          | GY |
-| Haití           | HI |
-| Islas Heard e Islas McDonald | HM |
+| Haití           | HOLA |
+| Islas Heard y McDonald | HM |
 | Honduras        | HN |
 | RAE de Hong Kong   | HK |
 | Hungría         | HU |
 | Islandia         | ES |
-| India           | IN |
+| India           | EN |
 | Indonesia       | ID |
 | Irán            | IR |
-| Irak            | Coeficiente intelectual |
+| Irak            | IQ |
 | Irlanda         | IE |
 | Isla de Man     | MI |
 | Israel          | IL |
@@ -186,7 +183,7 @@ En la tabla siguiente se muestran los valores de código de país para el parám
 | Malta           | MT |
 | Islas Marshall | MH |
 | Martinica      | MQ |
-| Mauritania      | MR |
+| Mauritania      | SR |
 | Mauricio       | MU |
 | Mayotte         | YT |
 | México          | MX |
@@ -194,8 +191,8 @@ En la tabla siguiente se muestran los valores de código de país para el parám
 | Moldova         | MD |
 | Mónaco          | MC |
 | Mongolia        | MN |
-| Montenegro      | ME |
-| Montserrat      | MS |
+| Montenegro      | YO |
+| Montserrat      | SRA |
 | Marruecos         | MA |
 | Mozambique      | MZ |
 | Myanmar         | MM |
@@ -233,7 +230,7 @@ En la tabla siguiente se muestran los valores de código de país para el parám
 | Rusia          | RU |
 | Ruanda          | RW |
 | Saba            | XS |
-| San Barthélemy | BL |
+| San Bartolomé | BL |
 | San Cristóbal y Nieves | KN |
 | Santa Lucía     | LC |
 | San Martín    | MF |
@@ -248,18 +245,18 @@ En la tabla siguiente se muestran los valores de código de país para el parám
 | Seychelles      | SC |
 | Sierra Leona    | SL | 
 | Singapur       | SG |
-| Sint Eustatius  | XE |
+| San Eustaquio  | XE |
 | Sint Maarten    | SX |
 | Eslovaquia        | SK |
 | Eslovenia        | SL |
 | Islas Salomón | SB |
-| Somalia         | SO |
+| Somalia         | Así que |
 | Sudáfrica    | ZA |
 | Georgia del Sur e Islas Sandwich del Sur | GS |
 | Sudán del Sur     | SS |
 | España           | ES |
 | Sri Lanka       | LK |
-| Santa Elena, Ascensión, Tristán da Cunha | SH |
+| Santa Elena, Ascensión y Tristán de Cunha | SH |
 | Sudán           | SD |
 | Surinam        | SR |
 | Svalbard        | SJ |
@@ -280,13 +277,13 @@ En la tabla siguiente se muestran los valores de código de país para el parám
 | Turkmenistán    | TM |
 | Islas Turcas y Caicos | TC |
 | Tuvalu          | TV |
-| Islas Desaladas de EE. UU. | MU |
-| Islas Vírgenes de EE. UU. | VI |
+| Islas Afueras de LOS EE. UU. | MENSAJERÍA UNIFICADA |
+| Islas Vírgenes de los Estados Unidos | VI |
 | Uganda          | UG |
 | Ucrania         | UA |
 | Emiratos Árabes Unidos | AE |
 | Reino Unido  | GB |
-| Estados Unidos   | EE. UU. |
+| Estados Unidos   | NOS |
 | Uruguay         | UY |
 | Uzbekistán      | UZ |
 | Vanuatu         | VU |
@@ -294,6 +291,6 @@ En la tabla siguiente se muestran los valores de código de país para el parám
 | Venezuela       | VE |
 | Vietnam         | VN |
 | Wallis y Futuna | WF |
-| Yemen           | YE |
+| Yemen           | VOSOTROS |
 | Zambia          | ZM |
 | Zimbabue        | ZW |

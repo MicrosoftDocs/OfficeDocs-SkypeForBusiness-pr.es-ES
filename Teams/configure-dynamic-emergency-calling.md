@@ -19,12 +19,12 @@ description: Aprenda a configurar los planes de llamadas de Microsoft y la carac
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3ad0b4af1ad32cf59673fe2e4f0eab3d1f83a18
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 1061adf81b8e9ae84ad028a5047636b6fee7a959
+ms.sourcegitcommit: 052e4b3982b0b8ee7d4edc47da4d63b35518a757
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68583891"
+ms.lasthandoff: 01/18/2023
+ms.locfileid: "69814362"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -43,7 +43,7 @@ Para las llamadas de emergencia dinámicas, debe ocurrir lo siguiente:
    - Si hay una coincidencia en el sitio de configuración de red: las directivas de llamadas de emergencia se devuelven al cliente de Teams desde ese sitio. (Para obtener más información sobre las directivas, vea [Configurar directivas de emergencia](#configure-emergency-policies)).
 
    - Si hay una coincidencia de LIS: una ubicación de emergencia del elemento de red al que está conectado el cliente de Teams se devuelve al cliente de Teams. La coincidencia se realiza en el siguiente orden y se devuelve el primer resultado coincidente:
-       - Wap
+       - WAP
        - Conmutador/puerto Ethernet
        - Conmutador Ethernet
        - Subred
@@ -248,9 +248,9 @@ En la tabla siguiente se muestra la compatibilidad con las llamadas de emergenci
 | Nube | Disponibilidad |
 | :------------|:-------|
 | World Wide Multi Tenant | Disponible en todos los clientes de Teams |
-| Gcc | Disponible en todos los clientes de Teams |
+| GCC | Disponible en todos los clientes de Teams |
 | GCCH | -Disponible en el escritorio de Teams <br> -Disponible en clientes móviles de Teams <br> -Disponible en los teléfonos de Teams, versión de la aplicación: 1449/1.0.94.2022061702 |
-| Dod | Pending |
+| Dod | -Disponible en el escritorio de Teams <br>-Disponible en clientes móviles de Teams <br>-Pendiente en los teléfonos de Teams |
 
  ## <a name="related-topics"></a>Temas relacionados
 

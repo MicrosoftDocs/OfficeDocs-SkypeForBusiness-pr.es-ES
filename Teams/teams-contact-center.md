@@ -10,34 +10,34 @@ ms.reviewer: anblak
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: Información general sobre el centro de contacto integrado como solución de servicio (CCaaS) para Microsoft Teams
+description: Información general sobre el centro de contactos integrado como solución de servicio (CCaaS) para Microsoft Teams
 appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: ee3a64cb37e99c6ab452e735042935ec2148e994
-ms.sourcegitcommit: 548978550d58f8657d7035b57b736e9cf9b15984
+ms.openlocfilehash: f5916a09afc042c0dd2de65ece286efabc63a9e7
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69163240"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812687"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integraciones del Centro de contactos para Microsoft Teams
 
-  Este artículo proporciona información general sobre cómo se pueden integrar las soluciones del centro de contacto con Microsoft Teams y los proveedores de soluciones que participan en el programa de certificación Microsoft centro de contacto conectado de Teams.
+  Este artículo proporciona información general sobre cómo se pueden integrar las soluciones del centro de contacto con Microsoft Teams y los proveedores de soluciones que participan en el programa de certificación centro de contacto conectado de Microsoft Teams.
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>¿Qué es la integración del centro de contactos para Microsoft Teams?
 
-Microsoft Teams admite las transmisiones de trabajo de interacción del cliente actuando como el centro de conexión de clientes internos y externos en sus modos de comunicación, incluidos el chat, las reuniones de vídeo y las llamadas. En algunas organizaciones, Microsoft las [capacidades de voz](./cloud-voice-landing-page.md) en la nube de Teams, como el [operador automático](./what-are-phone-system-auto-attendants.md) y [las colas de llamadas](./create-a-phone-system-call-queue.md), satisfacen sus necesidades.
+Microsoft Teams admite las transmisiones de trabajo de interacción con el cliente actuando como centro de conexión interna y externa de los clientes en sus modos de comunicación, incluidos el chat, las reuniones de vídeo y las llamadas. En algunas organizaciones, [las capacidades de voz](./cloud-voice-landing-page.md) en la nube de Microsoft Teams, como el [operador automático](./what-are-phone-system-auto-attendants.md) y [las colas de llamadas](./create-a-phone-system-call-queue.md), satisfacen sus necesidades.
 
-Para las organizaciones que quieren soluciones con herramientas empresariales y flujos de trabajo para dirigir el recorrido del cliente, la integración del centro de contactos para Microsoft Teams permite que los proveedores de soluciones del Centro de contacto como servicio (CCaaS) integren sus soluciones en Teams.
+Para las organizaciones que quieren soluciones con herramientas empresariales y flujos de trabajo para dirigir el recorrido del cliente, la integración del centro de contactos para Microsoft Teams permite a los proveedores de soluciones del Centro de contacto como servicio (CCaaS) integrar sus soluciones en Teams.
 
 
-## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Centro de contacto conectado para Microsoft programa de certificación de Teams
+## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Centro de contacto conectado para el programa de certificación de Microsoft Teams
 
-El Centro de contacto conectado para Microsoft programa de certificación de Teams comprueba que la solución de cada proveedor participante proporciona la calidad, la compatibilidad y la confiabilidad que esperan de las soluciones de Microsoft.
+El Centro de contacto conectado para el programa de certificación de Microsoft Teams comprueba que la solución de cada proveedor participante proporciona la calidad, la compatibilidad y la confiabilidad que esperan de las soluciones de Microsoft.
 
-Si es una organización que busca una solución integrada de centro de contacto, consulte [Soluciones certificadas de Microsoft Teams para centros de contacto](https://cloudpartners.transform.microsoft.com/contact-center-solutions) para obtener una lista de proveedores de soluciones certificadas y consulte [Soluciones de Centro de contacto conectado](#connected-contact-center-solutions) para obtener una lista de proveedores en el proceso de certificación.
+Si es una organización que busca una solución integrada de centro de contacto, consulte [Soluciones certificadas de Microsoft Teams para centros de contacto](https://cloudpartners.transform.microsoft.com/contact-center-solutions) para obtener una lista de proveedores de soluciones certificados y consulte [Soluciones de Centro de contacto conectado](#connected-contact-center-solutions) para obtener una lista de proveedores en el proceso de certificación.
 
 Si es un proveedor que busca unirse al programa de certificación, rellene [este formulario](https://aka.ms/CallingPlatformIntake) como el siguiente paso. Si necesita proporcionar contexto y detalles adicionales, envíe un correo electrónico a [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
 
@@ -67,6 +67,7 @@ Los siguientes proveedores ofrecen soluciones de centro de contacto que están i
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 | `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
+| `ROGER365.io` | https://www.roger365.io/contact-center-teams                         |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com                                                            |
 
@@ -88,7 +89,6 @@ Los siguientes proveedores ofrecen soluciones de centro de contacto que están i
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
-| `ROGER365.io` | https://www.roger365.io/contact-center-teams                         |
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |

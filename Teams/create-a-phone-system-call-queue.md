@@ -28,12 +28,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Obtenga información sobre cómo configurar colas de llamadas en Microsoft Teams. Las colas de llamadas proporcionan un mensaje de saludo, música en espera, redirección de llamadas y otras características.
-ms.openlocfilehash: 4b12b1e89b11902299f973a97bdace44a841029e
-ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
+ms.openlocfilehash: b7bb107dc87ababd9c514655521525b6997fac29
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2023
-ms.locfileid: "69763571"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812727"
 ---
 # <a name="create-a-call-queue-in-microsoft-teams"></a>Crear una cola de llamadas en Microsoft Teams
 
@@ -400,10 +400,10 @@ Se recomienda la siguiente configuración:
 2. Aplicación de Microsoft Teams para iPhone, aplicación de Microsoft Teams para Android.
 3. Si selecciona Longest Idle para el método de enrutamiento del agente, se habilitará automáticamente el enrutamiento basado en presencia.
 4. No es posible establecer el orden en el que se llamará a los agentes.
-5. El modo de conferencia no es compatible si las llamadas de teléfono se redirigen a la cola desde una puerta de enlace de enrutamiento directo habilitada para el enrutamiento basado en ubicación.
+5. El modo de conferencia no es compatible si las llamadas telefónicas se enrutan a la cola desde una puerta de enlace de enrutamiento directo habilitada para Location-Based Enrutamiento. Para la implementación de la cola de llamadas con el enrutamiento de Location-Based consulte Aplicaciones [de voz (operador automático o cola de llamadas)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).
 6. solo Teléfono Microsoft Teams sistema.
 7. A través de la página del Portal de configuración de usuario en [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
-8. Solo se admiten canales públicos.
+8. Solo se admiten canales estándar.
 9. Los operadores automáticos y las colas de llamadas no pueden transferir llamadas entre métodos de conectividad RTC.
 10. Para GCCH/DOD, solo disponible a través del Portal de configuración de usuario en:
 - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
