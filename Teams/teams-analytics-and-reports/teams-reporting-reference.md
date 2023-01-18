@@ -15,35 +15,41 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
-description: En este artículo, obtendrá información sobre los informes de Teams que están disponibles en el centro de administración de Microsoft Teams.
+description: En este artículo, obtendrá información sobre los informes de Teams que están disponibles en el Centro de administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a688a3356ce31dd478c35082195ace8f6be4d47
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: e93a34f19ecf53e05a51fe36983a9f46f741e67e
+ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307665"
+ms.lasthandoff: 01/18/2023
+ms.locfileid: "69820325"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análisis e informes de Microsoft Teams
 
-Hay disponible una nueva experiencia de análisis e informes para Microsoft Teams en el centro de administración de Microsoft Teams. Puede ejecutar diferentes informes para obtener información sobre cómo los usuarios de su organización usan Teams. Por ejemplo, puede ver cuántos usuarios se comunican a través de mensajes de canal y chat, así como los tipos de dispositivos que usan para conectarse a Teams. Su organización puede usar la información de los informes para comprender mejor los patrones de uso, ayudar a tomar decisiones empresariales e informar sobre los esfuerzos de aprendizaje y comunicación.
+En el Centro de administración de Microsoft Teams hay disponible una nueva experiencia de análisis e informes para Microsoft Teams. Puede ejecutar diferentes informes para obtener información sobre cómo los usuarios de su organización usan Teams. Por ejemplo, puede ver cuántos usuarios se comunican a través de mensajes de canal y chat, así como los tipos de dispositivos que usan para conectarse a Teams. Su organización puede usar la información de los informes para comprender mejor los patrones de uso, ayudar a tomar decisiones empresariales e informar sobre los esfuerzos de aprendizaje y comunicación.
 
 ## <a name="how-to-access-the-reports"></a>Cómo obtener acceso a los informes
 
-Para obtener acceso a los informes, debe ser administrador global de Microsoft 365 o Office 365, lector global de Microsoft 365 o Office 365, administrador del servicio de Teams o administrador de Skype Empresarial. Para obtener más información sobre los roles de administrador de Teams y a qué informes puede acceder cada rol de administrador, consulte [Usar roles de administrador de Teams para administrar Teams](../using-admin-roles.md).
+Para obtener acceso a los informes, debe tener asignado uno de los siguientes roles:
 
-Vaya al centro de administración de Microsoft Teams, en el panel de navegación izquierdo, seleccione **Análisis & informes** y, a continuación, en **Ver informes**, elija el informe que desea ejecutar.
+- Administrador global.
+- Teams o Skype Empresarial administrador.
+- Lector global (solo agregado a nivel de inquilino y sin datos por usuario o equipo).
+
+Para obtener más información sobre los roles de administrador de Teams y a qué informes puede acceder cada rol de administrador, consulte [Usar roles de administrador de Teams para administrar Teams](../using-admin-roles.md).
+
+Vaya al Centro de administración de Microsoft Teams, en el panel de navegación izquierdo, seleccione **Análisis & informes** y, a continuación, en **Ver informes**, elija el informe que desea ejecutar.
 
 > [!NOTE]
-> Los informes del centro de administración de Microsoft Teams son independientes de los informes de actividad de Teams que forman parte de los informes de Microsoft 365 de la Centro de administración de Microsoft 365. Para obtener más información sobre los informes de actividad de la Centro de administración de Microsoft 365, vea [Informes de Microsoft 365 en el Centro de administración](/microsoft-365/admin/activity-reports/activity-reports).
+> Los informes del Centro de administración de Microsoft Teams son independientes de los informes de actividad de Teams que forman parte de los informes de Microsoft 365 de la Centro de administración de Microsoft 365. Para obtener más información sobre los informes de actividad en el Centro de administración de Microsoft 365, vea [Informes de Microsoft 365 en el Centro de administración](/microsoft-365/admin/activity-reports/activity-reports).
 
 ## <a name="teams-reporting-reference"></a>Referencia de informes de Teams
 
-Esta es una lista de los informes de Teams disponibles en el centro de administración de Microsoft Teams en diferentes entornos y una descripción general de parte de la información disponible en cada informe.
+Esta es una lista de los informes de Teams disponibles en el Centro de administración de Microsoft Teams en diferentes entornos y una descripción general de parte de la información disponible en cada informe.
 
-Mejoramos continuamente la experiencia de creación de informes de Teams y agregamos características y funcionalidades. Con el tiempo, crearemos capacidades adicionales en los informes y agregaremos nuevos informes en el centro de administración de Microsoft Teams.
+Mejoramos continuamente la experiencia de creación de informes de Teams y agregamos características y funcionalidades. Con el tiempo, crearemos capacidades adicionales en los informes y agregaremos nuevos informes en el Centro de administración de Microsoft Teams.
 
 |Informe  |Público |GCC |GCCH |Dod |¿Qué se mide? |
 |---------|---------|---------|---------|---------|---------|
@@ -55,7 +61,7 @@ Mejoramos continuamente la experiencia de creación de informes de Teams y agreg
 |[Informe de usuarios bloqueados de RTC de Teams](pstn-blocked-users-report.md)   |Sí|Sí|No|No|  Nombre para mostrar<br>Número de teléfono<br>Motivo<br>Tipo de acción<br>Fecha y hora de la acción   |
 |[Informe de grupos de minutos de RTC de Teams](pstn-minute-pools-report.md) |Sí|Sí|No|No|  País o región<br>Funcionalidad (licencia) <br>Minutos totales<br>Minutos usados<br>Minutos disponibles|
 |[Informe de uso de RTC de Teams: Planes de llamadas](pstn-usage-report.md#calling-plans)|Sí|Sí|No|No|  Marca de tiempo<br>Nombre de usuario<br>Número de teléfono<br>Tipo de llamada <br>Llamado a<br>País o región <br>Se ha llamado desde <br>Desde el país o la región<br>Cargo<br>Moneda<br>Duración<br>Nacional e internacional<br>Id. de llamada<br>Tipo de número<br>País o región<br>Id. de conferencia<br>Funcionalidad (licencia)|
-|[Informe de uso de RTC de Teams: enrutamiento directo](pstn-usage-report.md#direct-routing)  |Sí|Sí|No|No|  Marca de tiempo<br>Nombre para mostrar<br>Dirección SIP<br>Número de teléfono <br>Tipo de llamada<br>Llamado a<br>Hora de inicio<br>Hora de invitación<br>Tiempo de error<br>Hora de finalización<br>Duración<br>Tipo de número<br>Omisión de medios<br>SBC FQDN<br>Región de Azure<br>Tipo de evento<br>Código SIP final<br>Subcódigo Microsoft final<br>Frase SIP final<br>Id. de correlación  |
+|[Informe de uso de RTC de Teams: enrutamiento directo](pstn-usage-report.md#direct-routing)  |Sí|Sí|No|No|  Marca de tiempo<br>Nombre para mostrar<br>Dirección SIP<br>Número de teléfono <br>Tipo de llamada<br>Llamado a<br>Hora de inicio<br>Hora de invitación<br>Tiempo de error<br>Hora de finalización<br>Duración<br>Tipo de número<br>Omisión de medios<br>SBC FQDN<br>Región de Azure<br>Tipo de evento<br>Código SIP final<br>Subcódigo final de Microsoft<br>Frase SIP final<br>Id. de correlación  |
 |[Informe de licencia de protección de la información de Teams](information-protection-license-report.md)  |Sí|Sí|No|No| <br>Si los usuarios tienen licencias válidas para enviar sus mensajes a través de notificaciones de cambio</br><br>Número total de eventos de notificación de cambios desencadenados por un usuario<br><br>Qué aplicaciones escuchan los eventos de notificación de cambios de toda la organización<br>|
 |[Informe de uso de Teams Citas virtuales](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)|Sí|Sí|No|No| Número de citas virtuales<br>Número de citas de Bookings<br>Número de citas integradas con registros electrónicos de salud (EHR) de Teams<br>Duración media de una cita<br>Promedio de tiempo de espera en la sala de espera de los asistentes<br>Hora de inicio<br>Id. de reunión<br>Tiempo de espera en la sala de espera<br>Duración<br>Estado<br>Tipo de producto<br>Asistentes<br>Departamento<br>SMS enviados<br>Si la cita usó una funcionalidad avanzada de Citas virtuales|
 |[Informe de actividad de Citas virtuales avanzado de Teams](/microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Sí|Sí|No|No|Número de usuarios que usan funcionalidades avanzadas de Citas virtuales<br>Número de usuarios que usan notificaciones de texto SMS<br>Número de usuarios que usan el chat de sala de espera (próximamente)<br>Número de usuarios que realizan citas a petición|
@@ -64,7 +70,7 @@ Mejoramos continuamente la experiencia de creación de informes de Teams y agreg
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Establecer que los datos específicos del usuario sean anónimos
 
-Para que los datos del informe de actividad de los usuarios de Teams sean anónimos, debe ser administrador global. El administrador global puede ocultar la información identificable (con hash MD5) como el nombre para mostrar, el nombre del grupo, el correo electrónico y el id. de AAD en el informe y su exportación.
+Para que la información identificable en los informes de uso sea anónima, debe ser un Administrador global. La Administrador global puede ocultar información de identificación (con hash MD5) como el nombre para mostrar, el nombre del grupo, el correo electrónico y el id. de AAD en el informe y su exportación.
 
 1. En Centro de administración de Microsoft 365, vaya a **Configuración** \> **de** la organización y, en la pestaña **Servicios**, elija **Informes**.
     
