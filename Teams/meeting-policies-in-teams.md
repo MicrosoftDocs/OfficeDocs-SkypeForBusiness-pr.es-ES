@@ -1,7 +1,7 @@
 ---
 title: 'Teams: Administrar directivas de reunión'
-author: tonysmit
-ms.author: tonysmit
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Learn to manage meeting policy settings in Teams. Use policy settings to control the features available to meeting participants for meetings scheduled by users.
-ms.openlocfilehash: 374c51a1356ebdc7940185f64a98a334ce7bb66d
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 9b4d816902f5956bdc3dabee5a79fc644768d170
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614002"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845877"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 

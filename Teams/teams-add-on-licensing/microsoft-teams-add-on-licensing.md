@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Obtenga más información sobre las licencias de complementos de Microsoft para Microsoft Teams y las capacidades que obtiene con cada licencia.
-ms.openlocfilehash: cdda8211bb700683d94782a7db719e5860e7d6eb
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 490eb833c923ba1a247bb140222b449530131947
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69799926"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845887"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licencias de complementos de Microsoft Teams
 
@@ -59,12 +59,12 @@ Todos los planes de Microsoft 365 permiten a los usuarios de Teams realizar llam
 
 Tanto si es una pequeña empresa, una organización empresarial, una institución educativa, una agencia gubernamental o una organización sin ánimo de lucro, tiene tres maneras de obtener Teams Phone System y la conectividad con RTC:
 
-- Compre un plan de Microsoft 365 Empresa, E1/E3, A1/A3 o G1/G3 y agregue **Teams Phone con** licencias de paquetes del plan de llamadas.
+- Compre Teams Essentials con los planes AAD, Microsoft 365 Empresa, E1/E3, A1/A3, F1/F3 o G1/G3 y agregue **Teams Phone con** licencias de paquetes de planes de llamadas.
   - Este modelo le proporcionará las capacidades de PBX del sistema telefónico de Teams y un plan de llamadas nacionales de Microsoft.
   - Elija esta configuración si quiere que Microsoft administre todos los números de teléfono y la facturación.
   - Compruebe si la licencia del [paquete Teléfono de Teams con plan de llamadas está disponible en su región](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- Compre un plan E1/E3, A1/A3 o G1/G3, agregue licencias **de Teléfono Teams Estándar** y elija un plan de llamadas independiente de Microsoft o un operador RTC de terceros.
+- Compre un plan de Teams Essentials con los planes AAD, E1/E3, A1/A3, F1/F3 o G1/G3, agregue **licencias de Teléfono Teams Estándar** y elija un plan de llamadas independiente de Microsoft u operador RTC de terceros.
   - Este modelo le proporcionará Teams Phone System, pero seguirá necesitando conectarse a la RTC.
   - Para ver todas las opciones de conectividad de RTC, consulte [Opciones de conectividad de RTC](../pstn-connectivity.md).
   - Para obtener información sobre todas las soluciones de voz, consulte [Planear la solución de voz de Teams](../cloud-voice-landing-page.md).

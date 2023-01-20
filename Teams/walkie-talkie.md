@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.date: 11/17/2022
-ms.openlocfilehash: abb14f937064b394106e0cf2d58f756371a7c04e
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: c4184e82e99fa4f3169fea14c62f3a892750bf8c
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131279"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845897"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicación Walkie Talkie en Microsoft Teams
 
@@ -131,6 +131,10 @@ Los trabajadores de primera línea a menudo necesitan hablar y recibir llamadas 
 > Si los usuarios usan accesorios Bluetooth, asegúrate de que la solución de administración de dispositivos móviles (MDM) no bloquee los dispositivos Bluetooth.
 
 En dispositivos que ejecutan Android OS versión 12 o posterior, se requieren permisos de Bluetooth y los permisos de ubicación para conectarse mediante la pila BLE ya no son necesarios. Si no se conceden "permisos cercanos" en el nivel de Teams, el usuario recibirá una solicitud de permisos de Bluetooth. Se muestra este mensaje, independientemente de si un accesorio Bluetooth, como unos auriculares, está conectado a su dispositivo. Si hay un accesorio Bluetooth conectado, al pulsar **Permitir** , Walkie Talkie se conecta al accesorio Bluetooth.
+
+## <a name="get-insight-into-walkie-talkie-usage-and-performance"></a>Obtener información sobre el uso y el rendimiento de Walkie Talkie
+
+El [informe de rendimiento y uso de Walkie Talkie](teams-analytics-and-reports/walkie-talkie-usage-report.md) del Centro de administración de Teams le ofrece información general sobre la actividad y el rendimiento de Walkie Talkie en su organización. El informe proporciona información como el número de transmisiones PTT realizadas y recibidas, la actividad del canal, la duración de la transmisión y los detalles del dispositivo y los participantes.
 
 ## <a name="more-information"></a>Más información
 

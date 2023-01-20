@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Obtenga información sobre cómo usar el operador automático actualizado de Teams & informe de historial de la cola de llamadas de Power BI para ver los datos históricos del operador automático y de la cola de llamadas.
-ms.openlocfilehash: 0ff8e7d1b5a1b9901c5b8a5da49d67fbf8ac5275
-ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
+ms.openlocfilehash: dad1fa07d476aa5bcfa1e39818d9d7a01b7fdc56
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2023
-ms.locfileid: "69812737"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845917"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports"></a>Informes históricos del operador automático y de la cola de llamadas
 
@@ -537,11 +537,9 @@ Se puede acceder a la API DE VAAC mediante cualquier aplicación que pueda acced
 
 ### <a name="preparation"></a>Preparación
 
-Descargar [Cartero](https://www.postman.com/).
-
-Descargue el repositorio: [sync_pstn_avs-analytics](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) y descomprima el repositorio.
-
-Importe la carpeta en Postman. 
+1. Descargar [Cartero](https://www.postman.com/).
+1. Descomprima el `sync_pstn_avs-analytics.zip` archivo en las [instrucciones del archivo zip descargado](#v3xx-installation).
+1. Importe la carpeta en Postman. 
 
 :::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="Captura de pantalla que muestra la importación completada":::
 
@@ -555,7 +553,6 @@ Importe la carpeta en Postman.
 6. Haga clic en **Guardar**.
 
 :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Captura de pantalla que muestra los campos nombre de usuario, contraseña e id. de inquilino configurados":::
-
 
 7. Seleccione **Colecciones** en el menú de guía de la izquierda.
 8. Seleccione **Token de acceso de API de configuración - Producto** y vaya a la pestaña **Cuerpo** .
@@ -585,7 +582,6 @@ Después de enviar tu entrada, habrá un par de resultados posibles:
 :::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="Captura de pantalla que muestra el resultado de la consulta con el campo dataResult":::
 
 En este caso, los datos estarán en el campo "dataResult" en el mismo orden solicitado en la dimensión de la consulta y en los atributos de medición.
-
 
 ### <a name="compress-the-json-query"></a>Comprimir la consulta JSON
 
