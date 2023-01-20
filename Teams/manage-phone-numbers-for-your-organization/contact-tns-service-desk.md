@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cuando obtenga números de teléfono o números de portabilidad (transferencia) para su organización, es posible que deba obtener ayuda y soporte técnico en el servicio de asistencia técnica de TNS.
-ms.openlocfilehash: b490552b9f6f06a70e017b13f120bbb777cb9131
-ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
+ms.openlocfilehash: 9984775a05458592fe1789c0dd8b173a08783220
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67674411"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835563"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>Servicios de números de teléfono (TNS): Servicio de asistencia
 
@@ -38,7 +38,7 @@ ms.locfileid: "67674411"
 Hay un nuevo proceso para interactuar con el servicio de servicios de números de teléfono (TNS) desde nuestro nuevo **[Centro de servicio de números de teléfono](https://pstnsd.powerappsportals.com)**. Ahora puede abrir y ver incidencias y realizar un seguimiento de la comunicación en un único lugar integrado con el Centro de administración de Teams. Estas tareas se describen con más detalle en las secciones siguientes.
 
 
-- **[Crear un nuevo caso](#create-a-new-case)** : envía una nueva solicitud o consulta general.
+- **[Crear un nuevo caso](#create-a-new-case)** : envíe una nueva solicitud o consulta general.
 
 - **[Ver mis casos existentes](#view-and-manage-existing-cases)** : realice un seguimiento y supervise sus casos existentes.
 
@@ -83,7 +83,7 @@ Existen dos categorías de casos:
 
 - **Enviar una nueva solicitud**: elija esta opción si desea enviar una nueva solicitud. Por ejemplo, quiere enviar una solicitud de portabilidad o quiere comprar números de teléfono de Microsoft.
 
-- **Consulta general**: elija esta opción si tiene preguntas que le ayudarán a determinar su solicitud. Por ejemplo, necesita saber si puede portar sus números inalámbricos a Microsoft o si Microsoft admite números gratuitos personalizados.
+- **Consulta general** : elija esta opción si tiene preguntas que le ayudarán a determinar su solicitud. Por ejemplo, necesita saber si puede portar sus números inalámbricos a Microsoft o si Microsoft admite números gratuitos personalizados.
 
 #### <a name="country-or-region"></a>País o región
 
@@ -148,6 +148,13 @@ El tipo de caso solo puede ser uno de los siguientes:
   - **Lista de portabilidad de números**: la lista de números de teléfono que desea portar a Microsoft. Cargue un archivo CSV con la lista de números de teléfono.
 
   - **Carta de autorización (LOA)**: adjunte aquí un LOA firmado y rellenado. Microsoft no puede procesar una solicitud de portabilidad sin una LOA.
+
+    > [!NOTE]
+    > Para obtener más información sobre las LOA para transferir o transferir números de teléfono existentes y requisitos de documentación adicionales, consulte [Administrar números de teléfono para plan de llamadas](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+    >
+    >Para transferir o transferir 999 números de teléfono o menos para los usuarios, cargue las LOA completadas y firmadas en el Centro de administración de Microsoft Teams para un procesamiento posterior.
+    >
+    > Para transferir o transferir más de 999 números de teléfono o si tiene problemas con el proceso de portabilidad en el Centro de administración de Microsoft Teams, puede [enviar manualmente una solicitud de portabilidad](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) al Servicio de asistencia de TNS de su región.
 
 - **Actualización de dirección**: actualizar las direcciones de llamada de emergencia. Tenga en cuenta que este campo solo se aplica a determinados países.
 
