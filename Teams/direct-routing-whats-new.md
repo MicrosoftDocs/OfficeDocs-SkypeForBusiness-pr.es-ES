@@ -14,16 +14,20 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 6d2496ef355df7a935dbf45321a8b8fd63b8e8de
-ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
+ms.openlocfilehash: 85a700faf37044c97c432707b07b6d6699c6692b
+ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67854436"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69948587"
 ---
 # <a name="whats-new-for-direct-routing"></a>Novedades del enrutamiento directo
 
 En este artículo se describen las novedades de enrutamiento directo. Vuelve a comprobarlo con frecuencia si hay actualizaciones.
+
+## <a name="new-direct-routing-sip-endpoints"></a>Nuevos puntos de conexión SIP de enrutamiento directo 
+
+Microsoft presentará nuevos IP de señalización para los puntos de conexión SIP de enrutamiento directo de Teams. Para asegurarse de que este cambio no afecta a la disponibilidad del servicio, asegúrese de que el controlador de borde de sesión y el firewall están configurados para usar las subredes recomendadas 52.112.0.0/14 y 52.120.0.0/14 para las reglas de clasificación y ACL. Para obtener más información, consulte [Entornos GCC de Microsoft 365, Office 365 y Office 365](direct-routing-plan.md#microsoft-365-office-365-and-office-365-gcc-environments).  
 
 ## <a name="trunk-demoting-logic-based-on-sip-options"></a>Trunk demoting logic based on SIP Options
 

@@ -19,12 +19,12 @@ ms.custom:
 - admindeeplinkTEAMS
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2d0d916028a026d7706fd317ba25d16af213a81
-ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
+ms.openlocfilehash: 32ef76aeff228bc9386917cb2214965942b8be4e
+ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69147487"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69948577"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar la conexión principal en Microsoft Teams para Educación
 
@@ -36,8 +36,8 @@ Este artículo proporciona orientación a profesionales de TI educativos sobre l
 
 Estos son algunos recursos que los administradores de TI pueden compartir con tutores y educadores sobre cómo pueden empezar a usar la conexión principal.
 
-- Para obtener instrucciones sobre cómo configurar a los tutores, consulte [Conectarse con profesores en Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
-- Para obtener instrucciones sobre cómo configurar a los formadores, consulte [Comunicarse con tutores en Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+- Para obtener instrucciones sobre cómo configurar a los tutores, consulte [Comunicarse con tutores en Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+- Para obtener instrucciones sobre cómo configurar a los formadores, vea [Conectarse con los formadores en Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
 
 ## <a name="benefits-of-parent-connection"></a>Ventajas de la conexión principal
 

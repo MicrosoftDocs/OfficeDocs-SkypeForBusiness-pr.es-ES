@@ -17,13 +17,15 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Licensing
+- admindeeplinkTEAMS
+- admindeeplinkMAC
 description: Obtenga información sobre cómo mejorar su experiencia de Microsoft Teams con la licencia del complemento Microsoft Teams Premium
-ms.openlocfilehash: 36cc97d1eca47f94276c26ec7d8aeefb1e244d17
-ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
+ms.openlocfilehash: 1d85c5d601dc74d7c308f05fa07bd99a2f274791
+ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2023
-ms.locfileid: "69835573"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69948567"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>licencias de Microsoft Teams Premium
 
@@ -146,30 +148,24 @@ En la tabla siguiente se comparan las características clave entre Teams y Teams
 
 ## <a name="are-there-current-teams-features-that-will-move-to-teams-premium"></a>¿Hay características actuales de Teams que pasarán a Teams Premium?
 
-Con la versión general de Teams Premium, algunas características de Teams pasarán de licencias de Teams a licencias de Teams Premium. Para permitir que los usuarios sigan usando estas características, deberá comprar y asignar licencias de Teams Premium.
+Con la versión general de Teams Premium, algunas características de Teams pasarán de licencias de Teams a licencias de Teams Premium. Cada una de estas características tiene un período de gracia de 30 o 60 días después de la disponibilidad general. Cuando expire el período de gracia, los usuarios perderán el acceso a esa característica.
+
+Para permitir que los usuarios sigan usando estas características, deberá comprar y asignar licencias de Teams Premium.
 
 Las características que se están moviendo a Teams Premium son:
 
 - Subtítulos traducidos en directo.
-  - Disponible para todos los suscriptores de Teams hasta 60 días después de Teams Premium disponibilidad general.
+  - Disponible para todos los suscriptores de Teams durante un período de gracia de 60 días tras Teams Premium disponibilidad general.
 - Marcadores de escala de tiempo en grabaciones de reuniones de Teams para cuando un usuario abandona o se une a reuniones.
-  - Disponible para todos los suscriptores de Teams hasta 30 días después de Teams Premium disponibilidad general.
+  - Disponible para todos los suscriptores de Teams durante un período de gracia de 60 días tras Teams Premium disponibilidad general.
 - Organización personalizada Escenas del modo conferencia.
-  - Disponible para todos los suscriptores de Teams hasta 30 días después de Teams Premium disponibilidad general.
+  - Disponible para todos los suscriptores de Teams durante un período de gracia de 30 días tras Teams Premium disponibilidad general.
 - Citas virtuales: notificaciones SMS.
-  - Disponible para todos los suscriptores de Teams hasta 30 días después de Teams Premium disponibilidad general.
+  - Disponible para todos los suscriptores de Teams durante un período de gracia de 30 días tras Teams Premium disponibilidad general.
 - Citas virtuales: Análisis de la organización en el Centro de administración de Teams.
-  - Disponible para todos los suscriptores de Teams hasta 30 días después de Teams Premium disponibilidad general.
+  - Disponible para todos los suscriptores de Teams durante un período de gracia de 30 días tras Teams Premium disponibilidad general.
 - Citas virtuales: vista de cola programada.
-  - Disponible para todos los suscriptores de Teams hasta 30 días después de Teams Premium disponibilidad general.
-
-### <a name="is-there-a-grace-period-to-switch-to-team-premium-before-my-users-lose-functionality"></a>¿Hay un período de gracia para cambiar a Team Premium antes de que mis usuarios pierdan funcionalidad?
-
-Cuando Teams Premium esté disponible de forma general para la compra, habrá un período de gracia de 60 días para que los administradores compren Teams Premium.
-
-Después del período de gracia de 60 días, los usuarios perderán el acceso a las características que estaban disponibles anteriormente en Teams sin el Teams Premium complemento, a menos que el administrador compre y asigne licencias de Teams Premium a sus usuarios.
-
-Es posible que algunos inquilinos tengan licencias de prueba de Teams Premium. Una vez que expiren las licencias de prueba, los usuarios perderán inmediatamente Teams Premium características. Los activos asociados a características de Teams Premium, como plantillas personalizadas y fondos de reunión, permanecerán en el inquilino, pero se atenuarán y no se podrán usar.
+  - Disponible para todos los suscriptores de Teams durante un período de gracia de 30 días tras Teams Premium disponibilidad general.
 
 ## <a name="what-are-the-requirements-to-purchase-teams-premium"></a>¿Cuáles son los requisitos para comprar Teams Premium?
 
@@ -233,21 +229,20 @@ Para obtener instrucciones sobre cómo asignar licencias en el Centro de adminis
 
 Muchas características Teams Premium requieren que un administrador de TI configure la característica antes de que los usuarios puedan acceder a ella.
 
-La siguiente lista indica Teams Premium características que requieren configuración de administrador antes de que los usuarios puedan acceder a la característica:
+La siguiente lista indica Teams Premium características que requieren la configuración del administrador en el [Centro de administración de Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851) antes de que los usuarios puedan acceder a la característica:
 
-- Uso del cifrado de un extremo a otro en reuniones de hasta 50 participantes
-- Agregar marcas de agua a reuniones
-- Agregar etiquetas de confidencialidad
-- Impedir copiar y pegar en chats de reunión
-- Usar fondos personalizados de la organización
-- Usar escenas personalizadas de la organización en modo conferencia
-- Se le asigna un paquete de directivas personalizado
-- Usar plantillas de reunión personalizadas de la organización
-- Ver la personalización de marca de la organización
-- Usar eCDN para eventos en directo
-- Uso de RTMP-In
-- Envío de notificaciones SMS para Citas virtuales
-- Acceso a la aplicación Citas virtuales Premium
-- Acceso a Citas virtuales datos en el Centro de administración de Teams
+- Uso del cifrado de un extremo a otro en reuniones de hasta 50 participantes.
+- Agregar marcas de agua a reuniones.
+- Agregar etiquetas de confidencialidad.
+- Impedir copiar y pegar en chats de reunión.
+- Uso de fondos personalizados de la organización.
+- Uso de escenas del modo conferencia personalizadas de la organización.
+  - Administración debe crear la escena del modo conferencia personalizada.
+- Se le asigna un paquete de directivas personalizado.
+- Usar plantillas de reunión personalizadas de la organización.
+- Ver la personalización de marca de la organización.
+- Uso de eCDN para eventos en directo.
+- Usar RTMP-In.
+- Personalización de salas del vestíbulo de citas virtuales con personalización de marca.
 
 Para obtener vínculos a las instrucciones, consulte [Microsoft Teams Premium: información general para administradores](/microsoftteams/enhanced-teams-experience).
