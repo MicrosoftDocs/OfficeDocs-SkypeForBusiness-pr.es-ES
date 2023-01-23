@@ -17,20 +17,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Obtenga información sobre cómo habilitar o requerir marcas de agua en el vídeo de los asistentes y el contenido compartido en reuniones confidenciales de Teams.
-ms.openlocfilehash: 199ba2d84ca4187a7d8e3c4f9a4d471bb9251598
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 6037bc6e9dbe79d9ecee10666f4c34e4e778216a
+ms.sourcegitcommit: 5e0900ed7a21ed4e854cc00dbfb4ae4ff2372262
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69800238"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69950507"
 ---
 # <a name="require-a-watermark-for-sensitive-teams-meetings"></a>Requerir una marca de agua para reuniones confidenciales de Teams
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-Puede habilitar que una marca de agua se muestre en las reuniones de Teams tanto para el contenido compartido en pantalla como para el vídeo de los asistentes. La marca de agua muestra la dirección de correo electrónico del participante de la reunión. Los participantes de la reunión no pueden desactivar la marca de agua. 
+Puede habilitar que una marca de agua se muestre en las reuniones de Teams tanto para el contenido compartido en pantalla como para el vídeo de los asistentes. La marca de agua muestra la dirección de correo electrónico del participante de la reunión. Los participantes de la reunión no pueden desactivar la marca de agua.
 
-Las marcas de agua son compatibles con equipos de escritorio de Teams, Teams Mobile, Salas de Microsoft Teams en Windows y Salas de Microsoft Teams en Surface Hub. (Las marcas de agua no son compatibles con Salas de Microsoft Teams en Android). Personas unirse a reuniones desde plataformas no compatibles, incluida [la interoperabilidad de vídeo en la nube (CVI),](cloud-video-interop.md) podrá ver contenido sin marcas de agua.
+Las marcas de agua son compatibles con equipos de escritorio y móviles de Teams. Personas unirse a reuniones desde plataformas no admitidas tendrá una experiencia de solo audio.
+
+Los participantes que se unan desde [Cloud Video Interop (CVI)](cloud-video-interop.md) podrán ver contenido sin marcas de agua.
 
 Los siguientes participantes tienen una experiencia de solo audio cuando se está usando una marca de agua:
 
@@ -38,6 +40,10 @@ Los siguientes participantes tienen una experiencia de solo audio cuando se est�
 - participantes de Infraestructura de escritorio virtual (VDI)
 - Participantes anónimos
 - Participantes de desbordamiento
+- Salas de Microsoft Teams en Windows y Salas de Microsoft Teams en Surface Hub
+- Salas de Microsoft Teams en Android
+- Clientes antiguos de Teams
+- [Unirse invitado directo en dispositivos Salas de Microsoft Teams](/microsoftteams/rooms/third-party-join)
 
 > [!Note]
 > La configuración de reunión en etiquetas de confidencialidad, plantillas de reunión personalizadas y marcas de agua requieren Teams Premium.

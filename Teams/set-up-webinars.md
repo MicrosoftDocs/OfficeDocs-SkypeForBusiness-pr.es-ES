@@ -20,19 +20,19 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: Obtenga información sobre cómo administrar directivas de registro de seminarios web y reuniones en Teams.
-ms.openlocfilehash: 5493104b93a74dad6763e0a5ba6c9e6fd57575de
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+ms.openlocfilehash: 097f4c385261ba1aea96990751d208b99d4d8b93
+ms.sourcegitcommit: 5e0900ed7a21ed4e854cc00dbfb4ae4ff2372262
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438478"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69950437"
 ---
 # <a name="set-up-webinars-in-microsoft-teams"></a>Configurar seminarios web en Microsoft Teams
 
 > [!NOTE]
 > En este artículo se describen algunas características de seminarios web que están en versión preliminar y requieren una licencia de Teams Premium.
 
-Microsoft ahora ofrece una nueva experiencia de seminario web; en este artículo se describe cómo actualizar la configuración para usar estas características.
+Microsoft ofrece ahora una nueva experiencia de seminario web; en este artículo se describe cómo actualizar la configuración para usar estas características.
 
 Le recomendamos que use la nueva experiencia de seminario web si planea usar seminarios web.
 
@@ -54,7 +54,9 @@ La nueva experiencia de seminario web está configurada en PowerShell. Vea ejemp
 Para obtener más información sobre las diferencias entre reuniones, seminarios web y eventos en directo, vea [Reuniones, seminarios web y eventos en directo](quick-start-meetings-live-events.md).
 
 > [!NOTE]
-> La nueva experiencia de seminario web no está disponible para Microsoft 365 GCC, Microsoft 365 GCC High ni Microsoft 365 DoD. La experiencia de seminario web existente no está disponible para Microsoft 365 GCC High o Microsoft 365 DoD.
+> Para los usuarios locales, el nuevo seminario web aún no está disponible.
+>
+> La nueva experiencia de seminario web no está disponible para Microsoft 365 GCC, Microsoft 365 GCC High ni Microsoft 365 DoD. La experiencia de seminario web existente no está disponible para Microsoft 365 GCC High ni Microsoft 365 DoD.
 
 > [!IMPORTANT]
 > Para permitir a los usuarios configurar seminarios web, Listas Microsoft deben configurarse en SharePoint habilitando la creación de listas personales con fines de exhibición de documentos electrónicos. Para obtener más información, consulta [Configuración de control de Listas Microsoft](/sharepoint/control-lists).
@@ -74,7 +76,7 @@ Para configurar la nueva experiencia de seminario web, use los siguientes atribu
 |AllowWebinars|Habilitado|Esta configuración determina si un usuario puede crear seminarios web.|
 |EventAccessType|Todos|Esta configuración determina qué usuarios pueden acceder a la página de registro de eventos o al sitio de eventos que se va a registrar, así como qué tipo de usuario puede unirse a las sesiones del evento.|
 
-Antes de poder ejecutar estos cmdlets, debe estar conectado a Microsoft PowerShell de Teams. Para obtener más información, consulte [Administrar Teams con Microsoft PowerShell de Teams](/microsoftteams/teams-powershell-managing-teams).
+Antes de poder ejecutar estos cmdlets, debe estar conectado a Microsoft Teams PowerShell. Para obtener más información, consulte [Administrar Teams con Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
 1. Active el registro de la reunión.
 
@@ -113,7 +115,7 @@ Puede usar el Centro de administración de Teams en **Directivas** >  de **reuni
 
 ### <a name="meeting-registration"></a>Registro de reunión
 
-Si activa el **registro** de reuniones, los usuarios de su organización pueden programar seminarios web y reuniones que requieran registro. De forma predeterminada, esta opción está activada. Si desea desactivar el registro de reuniones y los seminarios web, establezca esta directiva en **Desactivado**.
+Si activa el **registro** de reuniones, los usuarios de su organización pueden programar seminarios web y reuniones que requieran registro. Esta configuración está activada de forma predeterminada. Si desea desactivar el registro de reuniones y los seminarios web, establezca esta directiva en **Desactivado**.
 
 **La programación de reuniones privadas** debe estar activada para que funcione el registro de la reunión. Obtenga más información sobre la [programación de reuniones privadas](meeting-policies-in-teams-general.md).
 
@@ -134,7 +136,7 @@ El valor predeterminado de **Quién puede registrarse** es **Todos los usuarios 
 
 Puede usar el Centro de administración de Teams en **Directivas** >  de **reunión** de reuniones para activar el **informe de interacción**.
 
-Cuando esto está activado, los organizadores pueden ver los informes de las personas que se registraron y asistieron a los seminarios web o las reuniones que configuraron. Esta directiva está activada de forma predeterminada. Para obtener más información, consulte [Directivas de reunión en Teams - Informe de interacción](meeting-policies-in-teams-general.md#engagement-report). Para obtener información sobre la experiencia del usuario final, vea [Ver y descargar informes de asistencia a reuniones](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
+Cuando esta configuración está activada, los organizadores pueden ver los informes de las personas que se registraron y asistieron a los seminarios web o las reuniones que configuraron. Esta directiva está activada de forma predeterminada. Para obtener más información, consulte [Directivas de reunión en Teams - Informe de interacción](meeting-policies-in-teams-general.md#engagement-report). Para obtener información sobre la experiencia del usuario final, vea [Ver y descargar informes de asistencia a reuniones](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 En PowerShell, el parámetro **AllowEngagementReport** se puede usar para activarlo. Esta directiva está activada de forma predeterminada. Para desactivarlo, ejecute el siguiente comando en PowerShell:
 
