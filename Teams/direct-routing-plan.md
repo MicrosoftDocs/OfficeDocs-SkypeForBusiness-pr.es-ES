@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtén información sobre cómo Enrutamiento directo de Microsoft te permite conectar un controlador de borde de sesión (SBC) compatible proporcionado por el cliente al sistema telefónico.
-ms.openlocfilehash: ba0db105d94fef7c81d79929c5cc7f9371f0fc6c
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: 3dcdc52e736f6eef1d77a8e2120a5fc6470437d7
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948517"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981785"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -284,7 +284,7 @@ El tráfico multimedia fluye hacia y desde un servicio independiente en Microsof
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Entornos GCC de Microsoft 365, Office 365 y Office 365
 
 - 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254).
-- 52.120.0.0/14 (direcciones IP de 52.120.0.1 a 52.123.255.254).
+- 52.122.0.0/15 (direcciones IP de 52.122.0.1 a 52.123.255.254).
 
 ### <a name="office-365-dod-environment"></a>entorno de Office 365 DoD
 

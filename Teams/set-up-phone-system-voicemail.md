@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar Correo de voz en la nube para los usuarios.
-ms.openlocfilehash: f73587fe2fe9a9449d938d9eac3d6193bbd7aa47
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: c34b95db32906e81f60fc68dff6fce36e5913140
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614473"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981805"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar el Correo de voz en la nube
 
@@ -56,7 +56,7 @@ El buzón de Exchange de un usuario almacena los saludos grabados personalizados
 
 La grabación y transcripción de Correo de voz en la nube comienza en Microsoft 365 en el origen de la llamada que se dirige a Correo de voz en la nube. A continuación, el mensaje se entrega al buzón de Exchange del usuario.
 
-Por ejemplo, si una llamada llega a un usuario de enrutamiento directo no disponible a través de un controlador de borde de sesión (SBC) en Europa, la grabación y la transcripción del correo de voz se realizan en Europa. A continuación, el mensaje se entrega al buzón de Exchange del usuario. Por otro ejemplo, supongamos que un usuario de Teams en Norteamérica llama a un usuario de Teams que no está disponible en Europa. En este caso, la llamada se inicia en Norteamérica, el procesamiento se produce en Norteamérica y, a continuación, el correo de voz se entrega al buzón de Exchange del usuario en Europa.
+Por ejemplo, si una llamada llega a un usuario de enrutamiento directo no disponible a través de un controlador de borde de sesión (SBC) en Europa, la grabación y la transcripción del correo de voz se realizan en Europa. A continuación, el mensaje se entrega al buzón de Exchange del usuario. Por otro ejemplo, suponga que un usuario de Teams en Norteamérica llama a un usuario de Teams que no está disponible en Europa. En este caso, la llamada se inicia en Norteamérica, el procesamiento se produce en Norteamérica y, a continuación, el correo de voz se entrega al buzón de Exchange del usuario en Europa.
 
 La entrega de un correo de voz a un buzón de Exchange se realiza mediante el protocolo simple de transporte de correo (SMTP) como cualquier otro correo electrónico.
 
@@ -121,7 +121,7 @@ Para crear la directiva de etiquetado automático para aplicar una etiqueta de c
 - Reglas de Exchange:
   - Condiciones:
     - **Patrón de coincidencias de encabezado**: Content-Class = Voice-CA
-    - **La dirección IP del remitente es**: 13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
+    - **La dirección IP del remitente es**: 13.107.64.0/18, 52.112.0.0/14, 52.122.0.0/15, 52.238.119.141/32, 52.244.160.207/32
 
 - Para **Elegir una etiqueta para aplicar automáticamente**, seleccione la etiqueta de confidencialidad que creó para el correo de voz en el paso anterior.
 
