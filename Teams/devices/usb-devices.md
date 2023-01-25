@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Vea qué periféricos y dispositivos USB (como auriculares, manos libres, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: abd7a21c20604da9668928acaf679b259d6c284b
-ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
+ms.openlocfilehash: f8c964dddf2214540e9c384993f46c5a3d944da1
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2023
-ms.locfileid: "69981815"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990395"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -88,6 +88,9 @@ Si eres un fabricante y quieres unirte al programa de certificación, consulta [
 
 | Fabricante        | Modelo                                                     | Calificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |Auriculares SDW 5061 con llave USB SDW D1 DECT              |1/20/2023       |Certificado para Microsoft Teams                           |
+|EPOS                 |Auriculares SDW 5031 con llave USB SDW D1 DECT              |1/20/2023       |Certificado para Microsoft Teams                           |
+|EPOS                 |Auriculares SDW 5011 con llave USB SDW D1 DECT              |1/20/2023       |Certificado para Microsoft Teams                           |
 |Dell                 |P2424HEB Monitor                                           |1/18/2023       |Certificado para Microsoft Teams                           |
 |Dell                 |P2724DEB Monitor                                           |1/18/2023       |Certificado para Microsoft Teams                           |
 |Dell                 |P3424WEB Monitor                                           |1/18/2023       |Certificado para Microsoft Teams                           |
@@ -112,12 +115,14 @@ Si eres un fabricante y quieres unirte al programa de certificación, consulta [
 |Jabra                |Engage 50 II                                               |7/29/2022       |Certificado para Microsoft Teams                           |
 |Jabra                |Engage 40 II                                               |7/29/2022       |Certificado para Microsoft Teams                           |
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |Certificado para Microsoft Teams                           |
+|Microsoft            |Altavoz de la base de audio                                    |7/12/2022       |Certificado para Microsoft Teams                           |
 |Dell                 |Cámara WB5023                                              |6/29/2022       |Certificado para Microsoft Teams                           |
 |EPOS                 |Casco ADAPT 560 II                                       |6/22/2022       |Certificado para Microsoft Teams                           |
 |EPOS                 |Auriculares de la serie C10/C20/C50                                |5/31/2022       |Certificado para Microsoft Teams                           |
 |Jabra                |Auriculares estéreo/mono Engage55                               |5/25/2022       |Certificado para Microsoft Teams                           |
 |EPOS                 |EXPAND 40T Manos libres                                    |5/24/2022       |Certificado para Microsoft Teams                           | 
 |Dell                 |U3223QZ Monitor                                            |5/24/2022       |Certificado para Microsoft Teams                           |
+|Microsoft            |Moderador+                                                 |5/12/2022       |Certificado para Microsoft Teams                           |
 |Polivinílico                 |Studio P21 Monitor                                         |5/12/2022       |Certificado para Microsoft Teams                           |
 |Yealink              |Auriculares UH38                                               |5/2/2022        |Certificado para Microsoft Teams                           |   
 |Yealink              |Auriculares BH72                                               |5/2/2022        |Certificado para Microsoft Teams                           |

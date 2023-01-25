@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Aprende a planear la omisión multimedia con enrutamiento directo del sistema telefónico, lo que te permite acortar la ruta del tráfico multimedia y mejorar el rendimiento.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 638a39a843648ab8fab770c28d92b196201e20f5
-ms.sourcegitcommit: c627bd1df17aefdc353bc4da6db169dfe169031e
+ms.openlocfilehash: ea92103789927d35ae8bdd317987f32863d4d74e
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68680513"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981795"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -151,7 +151,7 @@ En la tabla siguiente se resume la diferencia entre los procesadores multimedia 
 
 Los intervalos IP son:
 - 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254)
-- 52.120.0.0/14 (direcciones IP de 52.120.0.1 a 52.123.255.254)
+- 52.122.0.0/15 (direcciones IP de 52.122.0.1 a 52.123.255.254)
 
 \* Explicación de la transcodificación: 
 
@@ -199,7 +199,7 @@ Debe colocar estos tres FQDN para:
 
 Los FQDN **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com** y **sip3.pstnhub.microsoft.com** se resolverán en las direcciones IP de las siguientes subredes:
 - 52.112.0.0/14
-- 52.120.0.0/14
+- 52.122.0.0/15
 
 Debe abrir puertos para todos estos intervalos IP en el firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.
 
@@ -239,8 +239,8 @@ Debes usar los puertos siguientes:
 
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| SIP/TLS| SIP Proxy | Sbc | 1024 - 65535 | Definido en el SBC |
-| SIP/TLS | Sbc | SIP Proxy | Definido en el SBC | 5061 |
+| SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Definido en el SBC |
+| SIP/TLS | SBC | SIP Proxy | Definido en el SBC | 5061 |
 
 
 ## <a name="media-traffic-ip-and-port-ranges"></a>Tráfico multimedia: intervalos de puertos y IP
@@ -256,8 +256,8 @@ El cliente debe tener acceso a los puertos especificados (ver tabla) en la direc
 
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Cliente | Sbc | 50000-50019| Definido en el SBC |
-| UDP/SRTP | Sbc | Cliente | Definido en el SBC | 50000-50019  |
+| UDP/SRTP | Cliente | SBC | 50000-50019| Definido en el SBC |
+| UDP/SRTP | SBC | Cliente | Definido en el SBC | 50000-50019  |
 
 
 > [!NOTE]
@@ -285,8 +285,8 @@ El intervalo de puertos de los relés de transporte de Teams (aplicable a todos 
 
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Retransmisión de transporte | Sbc | 50 000 -59 999    | Definido en el SBC |
-| UDP/SRTP | Sbc | Retransmisión de transporte | Definido en el SBC | 50 000 – 59 999, 3478-3481     |
+| UDP/SRTP | Retransmisión de transporte | SBC | 50 000 -59 999    | Definido en el SBC |
+| UDP/SRTP | SBC | Retransmisión de transporte | Definido en el SBC | 50 000 – 59 999, 3478-3481     |
 
 
 > [!NOTE]
@@ -323,8 +323,8 @@ El rango de puertos de los procesadores multimedia (aplicables a todos los entor
 
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Procesador multimedia | Sbc | 3478-3481 y 49 152 – 53 247    | Definido en el SBC |
-| UDP/SRTP | Sbc | Procesador multimedia | Definido en el SBC | 3478-3481 y 49 152 – 53 247     |
+| UDP/SRTP | Procesador multimedia | SBC | 3478-3481 y 49 152 – 53 247    | Definido en el SBC |
+| UDP/SRTP | SBC | Procesador multimedia | Definido en el SBC | 3478-3481 y 49 152 – 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurar troncos independientes para la omisión de medios y la omisión no multimedia  
 

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 'Para profesionales de TI: obtenga información sobre cómo funciona la participación anónima en las reuniones en Microsoft Teams.'
-ms.openlocfilehash: fe4dbec2bc606838bd5cafbaec5ef9d9ecdd8a88
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: a4f1833059febf2f8481cba9f1b3716519613e89
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948696"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983738"
 ---
 # <a name="manage-anonymous-participant-access-to-teams-meetings-it-admins"></a>Administrar el acceso anónimo de participantes a las reuniones de Teams (administradores de TI)
 
@@ -34,9 +34,9 @@ Unirse a una reunión anónima se controla mediante una configuración de nivel 
 - La configuración **Usuarios anónimos pueden unirse a una reunión** de Teams (nivel de organización) debe estar activada.
 - Al organizador de la reunión se le debe asignar una directiva de reunión de Teams en la que el control **Permitir que personas anónimas se unan a una reunión** está activado.
 
-La unión anónima está activada de forma predeterminada para la organización y en la directiva de reunión global predeterminada.
+Unirse a una reunión anónima está activado de forma predeterminada para la organización y en la directiva de reunión global predeterminada. Se recomienda mantener la configuración de nivel de organización activada y usar las directivas de reunión para activar o desactivar la unión anónima a la reunión para diferentes usuarios (organizadores de la reunión).
 
-Tenga en cuenta que si la opción de unión anónima está habilitada, las directivas de sala de espera afectan a la forma en que los participantes anónimos se unen a las reuniones. Para obtener más información, consulte [Controlar quién puede omitir la sala de espera de la reunión en Microsoft Teams](who-can-bypass-meeting-lobby.md).
+Tenga en cuenta que si está habilitada la opción de unirse a una reunión anónima, las directivas de la sala de espera afectan a la forma en que los participantes anónimos se unen a las reuniones. Para obtener más información, consulte [Controlar quién puede omitir la sala de espera de la reunión en Microsoft Teams](who-can-bypass-meeting-lobby.md).
 
 #### <a name="meetings-with-trusted-organizations"></a>Reuniones con organizaciones de confianza
 
@@ -81,15 +81,15 @@ Los cambios en las directivas de reuniones pueden tardar hasta 24 horas en surti
 
 Puede controlar si los participantes anónimos pueden unirse a las reuniones mediante:
 
-- El `-DisableAnonymousJoin` parámetro de [Set-CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration) para configurar la configuración de nivel de organización. (Se recomienda dejar esta opción establecida en False y usar Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting para controlar la unión anónima en el nivel de usuario o grupo).
+- El `-DisableAnonymousJoin` parámetro de [Set-CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration) para configurar la configuración de nivel de organización. (Se recomienda dejar esta opción establecida en False y usar Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting para controlar la unión anónima a la reunión en el nivel de usuario o grupo).
 - El `-AllowAnonymousUsersToJoinMeeting` parámetro [de Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para configurar una directiva de reunión a nivel de usuario
 
-Para permitir que participantes anónimos se unan a reuniones, debe configurar ambos para permitir la unión anónima estableciendo los siguientes valores:
+Para permitir que participantes anónimos se unan a reuniones, debe configurar ambos para permitir la unión anónima a la reunión estableciendo los siguientes valores:
 
 - `Set-CsTeamsMeetingConfiguration -DisableAnonymousJoin` establecido en **$false**
 - `Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting` establecido en **$true** para los organizadores de la reunión relevantes
 
-## <a name="block-anonymous-join-for-specific-client-types"></a>Bloquear la combinación anónima para tipos de cliente específicos
+## <a name="block-anonymous-meeting-join-for-specific-client-types"></a>Bloquear la unión anónima a una reunión para tipos de cliente específicos
 
 Cuando los participantes anónimos pueden unirse a reuniones, pueden usar el cliente de Teams o un cliente personalizado creado con [Azure Communication Services](/azure/communication-services/). 
 
