@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Vea qué periféricos y dispositivos USB (como auriculares, manos libres, cámaras web y monitores) están certificados para Microsoft Teams.
-ms.openlocfilehash: 88ea7be3fc27fadccb25cd173b0df5f7f618004f
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: abd7a21c20604da9668928acaf679b259d6c284b
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749076"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981815"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de audio y vídeo USB certificados para Microsoft Teams
 
@@ -81,13 +81,24 @@ Si eres un fabricante y quieres unirte al programa de certificación, consulta [
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabla actualizada de diciembre de 2022*
+*Tabla actualizada en enero de 2023*
 
 > [!NOTE]
 > El formato de fecha es MM/DD/AAAA.
 
 | Fabricante        | Modelo                                                     | Calificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |P2424HEB Monitor                                           |1/18/2023       |Certificado para Microsoft Teams                           |
+|Dell                 |P2724DEB Monitor                                           |1/18/2023       |Certificado para Microsoft Teams                           |
+|Dell                 |P3424WEB Monitor                                           |1/18/2023       |Certificado para Microsoft Teams                           |
+|Yealink              |Auriculares BH76                                               |12/22/2022      |Certificado para Microsoft Teams                           |
+|Logitech             |Brio 300/301/305 Cámara                                    |12/22/2022      |Certificado para Microsoft Teams                           |
+|Polivinílico                 |Auriculares Savi 7310 UC Series con llave versión v1008     |12/22/2022      |Certificado para Microsoft Teams                           |
+|Polivinílico                 |Auriculares Savi 7320 UC Series con llave versión v1008     |12/22/2022      |Certificado para Microsoft Teams                           |
+|Yealink              |AURICULARES PORTÁTILES WH62 Dual/Mono                            |12/21/2022      |Certificado para Microsoft Teams                           |
+|Yealink              |WH63 Auriculares portátiles con llave DECT                     |12/21/2022      |Certificado para Microsoft Teams                           |
+|Cisco                |Auriculares de la serie 320 (321/322)                              |12/20/2022      |Certificado para Microsoft Teams                           |
+|Cisco                |Auriculares de la serie 720 (721/722)                              |12/20/2022      |Certificado para Microsoft Teams                           |
 |Lenovo               |T24mv-30 Monitor                                           |12/19/2022      |Certificado para Microsoft Teams                           |
 |Lenovo               |T27hv-30 Monitor                                           |12/19/2022      |Certificado para Microsoft Teams                           |
 |Lenovo               |Altavoz base de llamada de conferencia                          |12/19/2022      |Certificado para Microsoft Teams                           |
@@ -97,6 +108,7 @@ Si eres un fabricante y quieres unirte al programa de certificación, consulta [
 |EPOS                 |EXPANDIR Visión 1/S6                                         |10/13/2022      |Certificado para Microsoft Teams                           |
 |Lenovo               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Certificado para Microsoft Teams                           |
 |Logi                 |Cámaras Brio 500/505/501                                   |9/14/2022       |Certificado para Microsoft Teams                           |
+|Sony                 |Auriculares YY2969                                             |9/6/2022        |Certificado para Microsoft Teams                           |
 |Jabra                |Engage 50 II                                               |7/29/2022       |Certificado para Microsoft Teams                           |
 |Jabra                |Engage 40 II                                               |7/29/2022       |Certificado para Microsoft Teams                           |
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |Certificado para Microsoft Teams                           |

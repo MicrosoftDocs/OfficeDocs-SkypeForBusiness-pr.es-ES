@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7a608132af2807c1fc59e25f7dac39433fe5dc5
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 0c2ca0a88f17f3493bfbbcff727321c45a04fdea
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392100"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990385"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiencia de reunión de solo vista para Teams
 
@@ -29,10 +29,10 @@ ms.locfileid: "69392100"
 > Las difusiones de solo vista están disponibles en Microsoft 365 E3/E5 y Microsoft 365 A3/A5. Esta característica se habilitará el 1 de marzo de 2021 como desactivada de forma predeterminada. La característica de Microsoft 365 Government Community Cloud (GCC) comenzará a implantarse a finales de marzo de 2021. Government Community Cloud High (GCCH) y el Departamento de Defensa (DoD) se implementarán en una fecha posterior. Debe cambiar la directiva predeterminada después de esa fecha si quiere que la característica esté ACTIVADA de forma predeterminada. Use PowerShell para habilitar la directiva `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
 
 > [!Note]
-> Si la reunión alcanza su capacidad máxima, Teams escalará sin problemas para dar cabida a una experiencia de difusión de solo vista de 10 000 personas. Además, en estos tiempos de aumento del trabajo remoto, le ofrecemos hasta finales de año la opción de difusiones de hasta 20 000 personas. Actualmente, los seminarios web no admiten una experiencia de difusión de solo vista.
+> Si la reunión alcanza su capacidad máxima, Teams escalará sin problemas para dar cabida a una experiencia de difusión de solo vista de 10 000 personas. Además, durante este tiempo de mayor trabajo remoto, aproveche las emisiones de 20.000 personas hasta el 30 de junio de 2023. Actualmente, los seminarios web no admiten una experiencia de difusión de solo vista.
 
 > [!Note]
-> Una reunión de Teams no es un evento en directo de Teams (TLE) y no aprovechará Microsoft eCDN. Para obtener más información, vea [Microsoft lista de comprobación de incorporación de eCDN](/ecdn/integration/onboarding-checklist-for-tle-customers).
+> Una reunión de Teams no es un evento en directo de Teams (TLE) y no aprovechará microsoft eCDN. Para obtener más información, consulte [Lista de comprobación de incorporación de eCDN de Microsoft](/ecdn/integration/onboarding-checklist-for-tle-customers).
 
 Microsoft Teams permite un máximo de 10 000 asistentes en una reunión de Teams. Una vez alcanzada la capacidad de la reunión principal (que es cuando 1 000 usuarios entran en una reunión), se unirán asistentes adicionales con una experiencia de solo vista.
 
