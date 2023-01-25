@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Obtén información sobre cómo Enrutamiento directo de Microsoft te permite conectar un controlador de borde de sesión (SBC) compatible proporcionado por el cliente al sistema telefónico.
-ms.openlocfilehash: 3dcdc52e736f6eef1d77a8e2120a5fc6470437d7
-ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
+ms.openlocfilehash: 5d7912adf0c97bd0d26e6000efdd42d745e55dc3
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2023
-ms.locfileid: "69981785"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983698"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -189,6 +189,11 @@ Más información: [Requisitos del programa - Programa raíz de confianza de Mic
 
 > [!NOTE]
 > Si se habilita el soporte de Mutual TLS (MTLS) para la conexión de Teams en el SBC, debe instalar la raíz cybertrust de Baltimore y los certificados de DigiCert Global Root G2 en el almacén raíz de confianza de SBC del contexto tls de Teams. (Esto se debe a que los certificados de servicio de Microsoft usan uno de estos dos certificados raíz). Para descargar estos certificados raíz, consulte [Office 365 Cadenas de cifrado](/microsoft-365/compliance/encryption-office-365-certificate-chains). Para obtener más información, vea [Cambios de certificados de Office TLS](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
+  
+Para comprobar que la conexión MTLS proviene de la infraestructura de Teams, el SBC debe configurarse para implementar las siguientes comprobaciones en el certificado del lado servidor de Teams:
+- Compruebe que la cadena de emisión de certificados proviene de uno de los siguientes CA raíz -- [Baltimore CyberTrust Root](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#baltimore-cybertrust-root)
+-- [DigiCert Global Root G2](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#digicert-global-root-g2)
+- Comprobar que el certificado "Nombre alternativo del asunto" incluye "sip.pstnhub.microsoft.com"
 
 ## <a name="sip-signaling-fqdns"></a>Señalización SIP: FQDN
 
